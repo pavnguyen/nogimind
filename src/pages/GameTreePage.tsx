@@ -1,0 +1,57 @@
+import { useTranslation } from 'react-i18next'
+import { Link } from 'react-router-dom'
+import { AGameBuilder } from '../components/gameTree/AGameBuilder'
+import { GameTreeBoard } from '../components/gameTree/GameTreeBoard'
+import { GameTreeGraph } from '../components/graphs/GameTreeGraph'
+import { SectionCard } from '../components/common/SectionCard'
+import { useArchetypesQuery } from '../queries/archetypeQueries'
+import { useGameTreeQuery, useUpdateGameTreeMutation } from '../queries/gameTreeQueries'
+import { useSkillsQuery } from '../queries/skillQueries'
+import { useSettingsStore } from '../stores/useSettingsStore'
+import type { GameTree } from '../types/gameTree'
+import { getLocalizedText } from '../utils/localization'
+
+export default function GameTreePage() {
+  const { t } = useTranslation()
+  const language = useSettingsStore((state) => state.language)
+  const skills = useSkillsQuery().data ?? []
+  const archetypes = useArchetypesQuery().data ?? []
+  const gameTree = useGameTreeQuery().data
+  const updateGameTree = useUpdateGameTreeMutation()
+
+  if (!gameTree) return <p className="text-slate-400">{t('common.loading')}</p>
+
+  const applyArchetype = (partial: Partial<GameTree>) => updateGameTree.mutate({ ...gameTree, ...partial })
+
+  return (
+    <div className="space-y-6">
+      <div>
+        <h1 className="text-3xl font-semibold text-white">{t('gameTree.heading')}</h1>
+        <p className="mt-2 max-w-3xl text-slate-400">{t('gameTree.subtitle')}</p>
+      </div>
+      <SectionCard title={t('gameTree.builder')} description={t('gameTree.applyArchetype')}>
+        <AGameBuilder onApply={applyArchetype} />
+      </SectionCard>
+      <SectionCard
+        title={t('nav.archetypes')}
+        description={t('archetypes.gameTreePrompt')}
+        action={<Link to="/archetypes" className="rounded-md border border-cyan-300/20 px-3 py-2 text-sm font-medium text-cyan-100 hover:bg-white/10">{t('archetypes.libraryLink')}</Link>}
+      >
+        <div className="grid gap-3 lg:grid-cols-3">
+          {archetypes.slice(0, 3).map((archetype) => (
+            <Link key={archetype.id} to={`/archetypes/${archetype.id}`} className="rounded-lg border border-white/10 bg-slate-900/60 p-4 hover:border-cyan-300/30 hover:bg-white/[0.06]">
+              <p className="text-sm font-semibold text-white">{getLocalizedText(archetype.title, language)}</p>
+              <p className="mt-2 line-clamp-3 text-xs leading-5 text-slate-400">{getLocalizedText(archetype.shortDescription, language)}</p>
+            </Link>
+          ))}
+        </div>
+      </SectionCard>
+      <SectionCard title={t('gameTree.available')}>
+        <GameTreeBoard skills={skills} gameTree={gameTree} lang={language} onChange={(tree) => updateGameTree.mutate(tree)} />
+      </SectionCard>
+      <SectionCard title={t('gameTree.graph')}>
+        <GameTreeGraph gameTree={gameTree} skills={skills} lang={language} />
+      </SectionCard>
+    </div>
+  )
+}

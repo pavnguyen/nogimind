@@ -1,0 +1,683 @@
+import { existsSync } from 'node:fs'
+import { pathToFileURL } from 'node:url'
+import { sharedKnowledgeItems } from '../src/data/sharedKnowledge'
+import { glossaryTerms } from '../src/data/glossaryTerms'
+import { skillDomains } from '../src/data/domains'
+import { skillNodes } from '../src/data/skillNodes'
+import { technicalTargetSkillIds } from '../src/data/technicalDetails'
+import { findDuplicateBlocks } from '../src/utils/contentQuality'
+import { getEscapeMaps, getTechniqueChains, getTroubleshooters } from '../src/utils/knowledgeModules'
+import { getNextBestLinksForSkill } from '../src/utils/knowledgeGraph'
+
+type Lang = 'vi' | 'en' | 'fr'
+type AnyRecord = Record<string, unknown>
+
+type DataSet = {
+  name: string
+  label: string
+  items: AnyRecord[]
+  optional: boolean
+}
+
+type ValidationReport = {
+  counts: Record<string, number>
+  errors: string[]
+  warnings: string[]
+  brokenReferences: string[]
+}
+
+const langs: Lang[] = ['vi', 'en', 'fr']
+const placeholderPattern = new RegExp([['TO', 'DO'].join(''), ['Description', 'here'].join(' '), ['Add', 'later'].join(' ')].join('|'), 'i')
+const safetyTerms = ['leg-lock', 'heel-hook', 'ankle-lock', 'knee-safety', 'neck-safety', 'choke', 'front-headlock', 'spine']
+const technicalSubmissionTargets = new Set(['rear-naked-choke-system', 'guillotine-system', 'arm-triangle-mount', 'kimura-system', 'straight-ankle-lock-safety', 'heel-hook-safety'])
+const technicalSafetyTargets = new Set(['rear-naked-choke-system', 'guillotine-system', 'arm-triangle-mount', 'kimura-system', 'straight-ankle-lock-safety', 'heel-hook-safety', 'front-headlock-defense'])
+const microDetailTargets = new Set(['rear-naked-choke-system', 'arm-triangle-mount', 'bodylock-passing', 'heel-hook-safety', 'side-control-escape'])
+const qualityChecklistTargets = new Set([
+  'rear-naked-choke-system',
+  'guillotine-system',
+  'arm-triangle-mount',
+  'kimura-system',
+  'straight-ankle-lock-safety',
+  'heel-hook-safety',
+  'bodylock-passing',
+  'knee-cut-passing',
+  'headquarters-passing',
+  'back-control',
+  'mount-control',
+  'side-control-pin',
+  'side-control-escape',
+  'mount-escape',
+  'back-escape',
+  'front-headlock-defense',
+  'leg-lock-safety-basics',
+  'half-guard-wrestle-up',
+  'side-control-survival',
+  'mount-survival',
+])
+const topThirtySkillIds = new Set([
+  'side-control-survival',
+  'side-control-escape',
+  'mount-survival',
+  'mount-escape',
+  'back-survival',
+  'back-escape',
+  'front-headlock-defense',
+  'leg-lock-safety-basics',
+  'seated-guard-retention',
+  'supine-guard-retention',
+  'half-guard-knee-shield',
+  'half-guard-wrestle-up',
+  'shin-to-shin-entry',
+  'single-leg-x-basics',
+  'k-guard-entry',
+  'hand-fighting',
+  'snapdown-front-headlock',
+  'single-leg-bjj',
+  'sprawl-go-behind',
+  'technical-stand-up',
+  'bodylock-passing',
+  'knee-cut-passing',
+  'headquarters-passing',
+  'side-control-pin',
+  'mount-control',
+  'back-control',
+  'rear-naked-choke-system',
+  'guillotine-system',
+  'arm-triangle-mount',
+  'kimura-system',
+])
+
+const optionalDataModules = [
+  {
+    name: 'concepts',
+    label: 'concepts',
+    path: 'src/data/concepts.ts',
+    exports: ['concepts', 'conceptNodes', 'conceptData'],
+  },
+  {
+    name: 'positions',
+    label: 'positions',
+    path: 'src/data/positions.ts',
+    exports: ['positions', 'positionNodes', 'positionData'],
+  },
+  {
+    name: 'trainingMethods',
+    label: 'training methods',
+    path: 'src/data/trainingMethods.ts',
+    exports: ['trainingMethods', 'trainingMethodData'],
+  },
+  {
+    name: 'defensiveLayers',
+    label: 'defensive layers',
+    path: 'src/data/defensiveLayers.ts',
+    exports: ['defensiveLayers', 'defensiveLayerData'],
+  },
+  {
+    name: 'archetypes',
+    label: 'archetypes',
+    path: 'src/data/archetypes.ts',
+    exports: ['archetypes', 'gameArchetypes', 'archetypeData'],
+  },
+  {
+    name: 'curriculumPaths',
+    label: 'curriculum paths',
+    path: 'src/data/curriculumPaths.ts',
+    exports: ['curriculumPaths', 'curricula', 'curriculumData'],
+  },
+  {
+    name: 'journalSeedData',
+    label: 'journal seed data',
+    path: 'src/data/journalSeedData.ts',
+    exports: ['journalSeedData', 'journalEntries', 'seedJournalEntries'],
+  },
+  {
+    name: 'sharedKnowledge',
+    label: 'shared knowledge',
+    path: 'src/data/sharedKnowledge.ts',
+    exports: ['sharedKnowledgeItems'],
+  },
+]
+
+const isRecord = (value: unknown): value is AnyRecord => Boolean(value) && typeof value === 'object' && !Array.isArray(value)
+
+const isLocalizedText = (value: unknown): value is Record<Lang, string> =>
+  isRecord(value) && langs.every((lang) => typeof value[lang] === 'string')
+
+const isLocalizedArray = (value: unknown): value is Record<Lang, string[]> =>
+  isRecord(value) && langs.every((lang) => Array.isArray(value[lang]))
+
+const asArray = (value: unknown): AnyRecord[] => (Array.isArray(value) ? value.filter(isRecord) : [])
+
+const firstArrayExport = (moduleValue: AnyRecord, exportNames: string[]) => {
+  for (const exportName of exportNames) {
+    const value = moduleValue[exportName]
+    if (Array.isArray(value)) return asArray(value)
+  }
+  return []
+}
+
+const loadOptionalDataSet = async (definition: (typeof optionalDataModules)[number]): Promise<DataSet> => {
+  if (!existsSync(definition.path)) {
+    return { name: definition.name, label: definition.label, items: [], optional: true }
+  }
+
+  const moduleValue = (await import(pathToFileURL(`${process.cwd()}/${definition.path}`).href)) as AnyRecord
+  return {
+    name: definition.name,
+    label: definition.label,
+    items: firstArrayExport(moduleValue, definition.exports),
+    optional: true,
+  }
+}
+
+const addError = (report: ValidationReport, message: string) => report.errors.push(message)
+const addWarning = (report: ValidationReport, message: string) => report.warnings.push(message)
+const addBrokenReference = (report: ValidationReport, message: string) => {
+  report.brokenReferences.push(message)
+  report.errors.push(`Broken reference: ${message}`)
+}
+
+const checkString = (report: ValidationReport, path: string, value: string) => {
+  if (!value.trim()) addError(report, `${path} is empty`)
+  if (placeholderPattern.test(value)) addError(report, `${path} contains placeholder text`)
+}
+
+const walkLocalizedContent = (report: ValidationReport, path: string, value: unknown) => {
+  if (typeof value === 'string') {
+    checkString(report, path, value)
+    return
+  }
+
+  if (isLocalizedText(value)) {
+    langs.forEach((lang) => checkString(report, `${path}.${lang}`, value[lang]))
+    return
+  }
+
+  if (isLocalizedArray(value)) {
+    langs.forEach((lang) => {
+      if (!value[lang].length) addError(report, `${path}.${lang} has no items`)
+      value[lang].forEach((item, index) => checkString(report, `${path}.${lang}[${index}]`, item))
+    })
+    return
+  }
+
+  if (Array.isArray(value)) {
+    value.forEach((item, index) => walkLocalizedContent(report, `${path}[${index}]`, item))
+    return
+  }
+
+  if (isRecord(value)) {
+    Object.entries(value).forEach(([key, child]) => walkLocalizedContent(report, `${path}.${key}`, child))
+  }
+}
+
+const checkUniqueIds = (report: ValidationReport, dataSet: DataSet) => {
+  const seen = new Set<string>()
+  dataSet.items.forEach((item, index) => {
+    const id = item.id
+    if (typeof id !== 'string' || !id.trim()) {
+      addError(report, `${dataSet.name}[${index}] is missing a string id`)
+      return
+    }
+    if (seen.has(id)) addError(report, `${dataSet.name} has duplicate id "${id}"`)
+    seen.add(id)
+  })
+}
+
+const hasMeaningfulLocalizedText = (value: unknown, minLength: number) =>
+  isLocalizedText(value) && langs.every((lang) => value[lang].trim().length >= minLength)
+
+const textIncludesAny = (value: unknown, terms: string[]) => {
+  const haystack = JSON.stringify(value).toLowerCase()
+  return terms.some((term) => haystack.includes(term.toLowerCase()))
+}
+
+const validateSkills = (report: ValidationReport, skills: AnyRecord[], glossary: AnyRecord[], optionalSets: DataSet[]) => {
+  const skillIds = new Set(skills.map((skill) => skill.id).filter((id): id is string => typeof id === 'string'))
+  const conceptIds = new Set(optionalSets.find((set) => set.name === 'concepts')?.items.map((item) => item.id).filter((id): id is string => typeof id === 'string') ?? [])
+  const positionIds = new Set(optionalSets.find((set) => set.name === 'positions')?.items.map((item) => item.id).filter((id): id is string => typeof id === 'string') ?? [])
+  const sharedKnowledgeIds = new Set(sharedKnowledgeItems.map((item) => item.id))
+  const domains = new Set(skillDomains)
+  const microDetailIds = new Set(
+    skills.flatMap((skill) =>
+      isRecord(skill.microDetailSystem) && Array.isArray(skill.microDetailSystem.topFiveDetails)
+        ? skill.microDetailSystem.topFiveDetails.map((detail) => detail.id).filter((id): id is string => typeof id === 'string')
+        : [],
+    ),
+  )
+  const validKnowledgeRefs = new Set<string>([
+    ...skillIds,
+    ...conceptIds,
+    ...positionIds,
+    ...sharedKnowledgeIds,
+    ...microDetailIds,
+  ])
+
+  skills.forEach((skill, index) => {
+    const path = `skills.${String(skill.id ?? index)}`
+    ;['id', 'title', 'domain', 'level', 'shortDescription', 'whyItMatters', 'situation', 'primaryGoal'].forEach((field) => {
+      if (skill[field] === undefined || skill[field] === null) addError(report, `${path}.${field} is required`)
+    })
+
+    if (typeof skill.domain === 'string' && !domains.has(skill.domain as never)) {
+      addError(report, `${path}.domain "${skill.domain}" is not in domains.ts`)
+    }
+
+    if (!hasMeaningfulLocalizedText(skill.shortDescription, 24)) {
+      addError(report, `${path}.shortDescription must be meaningful in vi/en/fr`)
+    }
+
+    if (!hasMeaningfulLocalizedText(skill.whyItMatters, 32)) {
+      addWarning(report, `${path}.whyItMatters is short; consider deepening the explanation`)
+    }
+
+    ;['title', 'shortDescription', 'whyItMatters', 'situation', 'primaryGoal'].forEach((field) => {
+      walkLocalizedContent(report, `${path}.${field}`, skill[field])
+    })
+
+    walkLocalizedContent(report, `${path}.keyConcepts`, skill.keyConcepts)
+    walkLocalizedContent(report, `${path}.bodyChecklist`, skill.bodyChecklist)
+    walkLocalizedContent(report, `${path}.decisionTree`, skill.decisionTree)
+    walkLocalizedContent(report, `${path}.dangerSignals`, skill.dangerSignals)
+    walkLocalizedContent(report, `${path}.commonMistakes`, skill.commonMistakes)
+    walkLocalizedContent(report, `${path}.failureResponses`, skill.failureResponses)
+    walkLocalizedContent(report, `${path}.drills`, skill.drills)
+    walkLocalizedContent(report, `${path}.skillTests`, skill.skillTests)
+    walkLocalizedContent(report, `${path}.bodyMechanicsSystem`, skill.bodyMechanicsSystem)
+    walkLocalizedContent(report, `${path}.positionalRelationships`, skill.positionalRelationships)
+    walkLocalizedContent(report, `${path}.reactionBranches`, skill.reactionBranches)
+    walkLocalizedContent(report, `${path}.ifThenDecisions`, skill.ifThenDecisions)
+    walkLocalizedContent(report, `${path}.technicalDetails`, skill.technicalDetails)
+    walkLocalizedContent(report, `${path}.microDetailSystem`, skill.microDetailSystem)
+    walkLocalizedContent(report, `${path}.quickCard`, skill.quickCard)
+    walkLocalizedContent(report, `${path}.qualityChecklist`, skill.qualityChecklist)
+    walkLocalizedContent(report, `${path}.sharedPrincipleIds`, skill.sharedPrincipleIds)
+    walkLocalizedContent(report, `${path}.sharedCueIds`, skill.sharedCueIds)
+    walkLocalizedContent(report, `${path}.sharedErrorIds`, skill.sharedErrorIds)
+    walkLocalizedContent(report, `${path}.sharedSafetyIds`, skill.sharedSafetyIds)
+    walkLocalizedContent(report, `${path}.sharedMechanicIds`, skill.sharedMechanicIds)
+    ;[
+      skill.sharedPrincipleIds,
+      skill.sharedCueIds,
+      skill.sharedErrorIds,
+      skill.sharedSafetyIds,
+      skill.sharedMechanicIds,
+    ]
+      .flat()
+      .filter((id): id is string => typeof id === 'string')
+      .forEach((id) => {
+        if (!sharedKnowledgeIds.has(id)) addBrokenReference(report, `${path}.sharedKnowledge -> ${String(id)}`)
+      })
+
+    const relatedSkills = Array.isArray(skill.relatedSkills) ? skill.relatedSkills : []
+    relatedSkills.forEach((id) => {
+      if (typeof id !== 'string' || !skillIds.has(id)) addBrokenReference(report, `${path}.relatedSkills -> ${String(id)}`)
+    })
+
+    const prerequisites = Array.isArray(skill.prerequisites) ? skill.prerequisites : []
+    prerequisites.forEach((id) => {
+      if (typeof id !== 'string' || !skillIds.has(id)) addBrokenReference(report, `${path}.prerequisites -> ${String(id)}`)
+    })
+
+    const failureResponses = Array.isArray(skill.failureResponses) ? skill.failureResponses : []
+    failureResponses.forEach((failure, failureIndex) => {
+      if (!isRecord(failure) || !Array.isArray(failure.nextSkillIds)) return
+      failure.nextSkillIds.forEach((id) => {
+        if (typeof id !== 'string' || !skillIds.has(id)) addBrokenReference(report, `${path}.failureResponses[${failureIndex}].nextSkillIds -> ${String(id)}`)
+      })
+    })
+
+    const reactionBranches = Array.isArray(skill.reactionBranches) ? skill.reactionBranches : []
+    reactionBranches.forEach((branch, branchIndex) => {
+      if (!isRecord(branch) || !Array.isArray(branch.nextSkillIds)) return
+      branch.nextSkillIds.forEach((id) => {
+        if (typeof id !== 'string' || !skillIds.has(id)) addBrokenReference(report, `${path}.reactionBranches[${branchIndex}].nextSkillIds -> ${String(id)}`)
+      })
+    })
+
+    const ifThenDecisions = Array.isArray(skill.ifThenDecisions) ? skill.ifThenDecisions : []
+    ifThenDecisions.forEach((decision, decisionIndex) => {
+      if (!isRecord(decision) || !Array.isArray(decision.nextSkillIds)) return
+      decision.nextSkillIds.forEach((id) => {
+        if (typeof id !== 'string' || !skillIds.has(id)) addBrokenReference(report, `${path}.ifThenDecisions[${decisionIndex}].nextSkillIds -> ${String(id)}`)
+      })
+    })
+
+    const relatedConceptIds = Array.isArray(skill.relatedConceptIds) ? skill.relatedConceptIds : []
+    relatedConceptIds.forEach((id) => {
+      if (conceptIds.size && (typeof id !== 'string' || !conceptIds.has(id))) addBrokenReference(report, `${path}.relatedConceptIds -> ${String(id)}`)
+    })
+
+    const relatedPositionIds = Array.isArray(skill.relatedPositionIds) ? skill.relatedPositionIds : []
+    relatedPositionIds.forEach((id) => {
+      if (positionIds.size && (typeof id !== 'string' || !positionIds.has(id))) addBrokenReference(report, `${path}.relatedPositionIds -> ${String(id)}`)
+    })
+
+    if (textIncludesAny(skill, safetyTerms) && !textIncludesAny(skill, ['tap early', 'tap sớm', 'supervision', 'giám sát', 'qualified', 'knee line', 'neck', 'spine', 'cổ', 'gối', 'cột sống'])) {
+      addError(report, `${path} is safety-sensitive but does not mention safety guidance`)
+    }
+
+    if (technicalTargetSkillIds.includes(String(skill.id))) {
+      const technicalDetails = isRecord(skill.technicalDetails) ? skill.technicalDetails : undefined
+      if (!technicalDetails) {
+        addError(report, `${path}.technicalDetails is required for technical target skill`)
+      } else {
+        const keyDetails = Array.isArray(technicalDetails.keyDetails) ? technicalDetails.keyDetails : []
+        const microAdjustments = Array.isArray(technicalDetails.microAdjustments) ? technicalDetails.microAdjustments : []
+        if (keyDetails.length < 10) addError(report, `${path}.technicalDetails.keyDetails must have at least 10 items`)
+        if (microAdjustments.length < 5) addError(report, `${path}.technicalDetails.microAdjustments must have at least 5 items`)
+        if (!isLocalizedArray(technicalDetails.commonFailurePatterns) || technicalDetails.commonFailurePatterns.en.length < 5) {
+          addError(report, `${path}.technicalDetails.commonFailurePatterns must have at least 5 items`)
+        }
+        if (!isLocalizedArray(technicalDetails.liveCues) || technicalDetails.liveCues.en.length < 5) {
+          addError(report, `${path}.technicalDetails.liveCues must have at least 5 items`)
+        }
+        if (!isLocalizedArray(technicalDetails.coachNotes) || technicalDetails.coachNotes.en.length < 3) {
+          addError(report, `${path}.technicalDetails.coachNotes must have at least 3 items`)
+        }
+        if (technicalSubmissionTargets.has(String(skill.id)) && (!Array.isArray(technicalDetails.finishingMechanics) || !technicalDetails.finishingMechanics.length)) {
+          addError(report, `${path}.technicalDetails.finishingMechanics is required for submission target`)
+        }
+        if (technicalSafetyTargets.has(String(skill.id)) && !textIncludesAny(technicalDetails, ['tap early', 'tap sớm', 'supervision', 'qualified', 'giám sát', 'không crank', 'do not crank'])) {
+          addError(report, `${path}.technicalDetails must include explicit safety guidance`)
+        }
+      }
+    }
+
+    if (microDetailTargets.has(String(skill.id))) {
+      const microDetailSystem = isRecord(skill.microDetailSystem) ? skill.microDetailSystem : undefined
+      if (!microDetailSystem) {
+        addError(report, `${path}.microDetailSystem is required for micro detail target skill`)
+      } else {
+        const topFiveDetails = Array.isArray(microDetailSystem.topFiveDetails) ? microDetailSystem.topFiveDetails : []
+        const leftRightGuides = Array.isArray(microDetailSystem.leftRightGuides) ? microDetailSystem.leftRightGuides : []
+        const fastFinishPaths = Array.isArray(microDetailSystem.fastFinishPaths) ? microDetailSystem.fastFinishPaths : []
+        const troubleshootingTips = Array.isArray(microDetailSystem.troubleshootingTips) ? microDetailSystem.troubleshootingTips : []
+        if (topFiveDetails.length < 5) addError(report, `${path}.microDetailSystem.topFiveDetails must have at least 5 items`)
+        if (leftRightGuides.length < 2) addError(report, `${path}.microDetailSystem.leftRightGuides must have at least 2 items`)
+        if (troubleshootingTips.length < 5) addError(report, `${path}.microDetailSystem.troubleshootingTips must have at least 5 items`)
+        if (!isLocalizedArray(microDetailSystem.doNotDo) || microDetailSystem.doNotDo.en.length < 5) addError(report, `${path}.microDetailSystem.doNotDo must have at least 5 items`)
+        if (!isLocalizedArray(microDetailSystem.safetyNotes) || microDetailSystem.safetyNotes.en.length < 3) addError(report, `${path}.microDetailSystem.safetyNotes must be localized and non-empty`)
+        if (technicalSubmissionTargets.has(String(skill.id)) && !fastFinishPaths.length) {
+          addError(report, `${path}.microDetailSystem.fastFinishPaths is required for submission target`)
+        }
+      }
+
+      const quickCard = isRecord(skill.quickCard) ? skill.quickCard : undefined
+      if (!quickCard) {
+        addError(report, `${path}.quickCard is required for micro detail target skill`)
+      } else {
+        walkLocalizedContent(report, `${path}.quickCard`, quickCard)
+        const threeCues = isRecord(quickCard.threeCues) ? quickCard.threeCues : undefined
+        if (!threeCues || !Array.isArray(threeCues.vi) || threeCues.vi.length !== 3 || !Array.isArray(threeCues.en) || threeCues.en.length !== 3 || !Array.isArray(threeCues.fr) || threeCues.fr.length !== 3) {
+          addError(report, `${path}.quickCard.threeCues must contain exactly 3 localized cues`)
+        }
+        if (technicalSafetyTargets.has(String(skill.id)) && !textIncludesAny(quickCard, ['tap early', 'tap sớm', 'supervision', 'giám sát', 'qualified', 'knee line', 'neck', 'spine', 'cổ', 'gối', 'cột sống'])) {
+          addError(report, `${path}.quickCard must include explicit safety guidance`)
+        }
+      }
+    }
+
+    if (qualityChecklistTargets.has(String(skill.id))) {
+      const qualityChecklist = isRecord(skill.qualityChecklist) ? skill.qualityChecklist : undefined
+      if (!qualityChecklist) {
+        addError(report, `${path}.qualityChecklist is required for checklist target skill`)
+      } else {
+        const checks = Array.isArray(qualityChecklist.checks) ? qualityChecklist.checks : []
+        const criticalChecks = checks.filter((check) => isRecord(check) && check.severity === 'critical')
+        if (checks.length < 6) addError(report, `${path}.qualityChecklist.checks must have at least 6 items`)
+        if (criticalChecks.length < 2) addError(report, `${path}.qualityChecklist must have at least 2 critical checks`)
+        checks.forEach((item, checkIndex) => {
+          const checkPath = `${path}.qualityChecklist.checks[${checkIndex}]`
+          if (isRecord(item) && Array.isArray(item.relatedMicroDetailIds) && item.relatedMicroDetailIds.length) {
+            const unresolved = item.relatedMicroDetailIds.filter((id) => typeof id !== 'string' || !validKnowledgeRefs.has(id))
+            if (unresolved.length) {
+              addWarning(report, `${checkPath}.relatedMicroDetailIds contains unresolved optional references: ${unresolved.join(', ')}`)
+            }
+          }
+        })
+      }
+    }
+
+    const sharedReferenceCount = [
+      skill.sharedPrincipleIds,
+      skill.sharedCueIds,
+      skill.sharedErrorIds,
+      skill.sharedSafetyIds,
+      skill.sharedMechanicIds,
+    ]
+      .flat()
+      .filter((id) => typeof id === 'string').length
+
+    if (topThirtySkillIds.has(String(skill.id)) && sharedReferenceCount < 5) {
+      addWarning(report, `${path} has only ${sharedReferenceCount} shared knowledge references`)
+    }
+  })
+
+  glossary.forEach((term, index) => {
+    const path = `glossary.${String(term.id ?? index)}`
+    ;['id', 'term', 'definition', 'examples'].forEach((field) => {
+      if (term[field] === undefined || term[field] === null) addError(report, `${path}.${field} is required`)
+    })
+    walkLocalizedContent(report, path, term)
+    const relatedSkillIds = Array.isArray(term.relatedSkillIds) ? term.relatedSkillIds : []
+    relatedSkillIds.forEach((id) => {
+      if (typeof id !== 'string' || !skillIds.has(id)) addBrokenReference(report, `${path}.relatedSkillIds -> ${String(id)}`)
+    })
+  })
+}
+
+const validateGenericDataSet = (report: ValidationReport, dataSet: DataSet, knownIds: Record<string, Set<string>>) => {
+  checkUniqueIds(report, dataSet)
+  dataSet.items.forEach((item, index) => {
+    const path = `${dataSet.name}.${String(item.id ?? index)}`
+    walkLocalizedContent(report, path, item)
+
+    const relatedSkillIds = Array.isArray(item.relatedSkillIds) ? item.relatedSkillIds : []
+    relatedSkillIds.forEach((id) => {
+      if (typeof id !== 'string' || !knownIds.skills.has(id)) addBrokenReference(report, `${path}.relatedSkillIds -> ${String(id)}`)
+    })
+
+    const relatedConceptIds = Array.isArray(item.relatedConceptIds) ? item.relatedConceptIds : []
+    relatedConceptIds.forEach((id) => {
+      if (knownIds.concepts.size && (typeof id !== 'string' || !knownIds.concepts.has(id))) {
+        addBrokenReference(report, `${path}.relatedConceptIds -> ${String(id)}`)
+      }
+    })
+
+    const relatedPositionIds = Array.isArray(item.relatedPositionIds) ? item.relatedPositionIds : []
+    relatedPositionIds.forEach((id) => {
+      if (knownIds.positions.size && (typeof id !== 'string' || !knownIds.positions.has(id))) {
+        addBrokenReference(report, `${path}.relatedPositionIds -> ${String(id)}`)
+      }
+    })
+  })
+}
+
+const main = async () => {
+  const skills = asArray(skillNodes)
+  const glossary = asArray(glossaryTerms)
+  const optionalSets = await Promise.all(optionalDataModules.map(loadOptionalDataSet))
+
+  const dataSets: DataSet[] = [
+    { name: 'skills', label: 'skills', items: skills, optional: false },
+    { name: 'glossaryTerms', label: 'glossary terms', items: glossary, optional: false },
+    ...optionalSets,
+  ]
+
+  const report: ValidationReport = {
+    counts: Object.fromEntries(dataSets.map((set) => [set.name, set.items.length])),
+    errors: [],
+    warnings: [],
+    brokenReferences: [],
+  }
+
+  dataSets.forEach((set) => checkUniqueIds(report, set))
+  validateSkills(report, skills, glossary, optionalSets)
+
+  const knownIds = {
+    skills: new Set(skills.map((item) => item.id).filter((id): id is string => typeof id === 'string')),
+    concepts: new Set(optionalSets.find((set) => set.name === 'concepts')?.items.map((item) => item.id).filter((id): id is string => typeof id === 'string') ?? []),
+    positions: new Set(optionalSets.find((set) => set.name === 'positions')?.items.map((item) => item.id).filter((id): id is string => typeof id === 'string') ?? []),
+    sharedKnowledge: new Set(sharedKnowledgeItems.map((item) => item.id)),
+  }
+  const validSkillDetailRefs = new Set(
+    skills.flatMap((skill) => [
+      ...(isRecord(skill.microDetailSystem)
+        ? [
+            ...(Array.isArray(skill.microDetailSystem.topFiveDetails) ? skill.microDetailSystem.topFiveDetails.map((detail) => detail.id) : []),
+            ...(Array.isArray(skill.microDetailSystem.fastFinishPaths) ? skill.microDetailSystem.fastFinishPaths.map((path) => path.id) : []),
+          ]
+        : []),
+      ...(isRecord(skill.technicalDetails)
+        ? [
+            ...(Array.isArray(skill.technicalDetails.keyDetails) ? skill.technicalDetails.keyDetails.map((detail) => detail.id) : []),
+            ...(Array.isArray(skill.technicalDetails.microAdjustments) ? skill.technicalDetails.microAdjustments.map((adjustment) => adjustment.id) : []),
+          ]
+        : []),
+    ]),
+  )
+
+  optionalSets.filter((set) => set.items.length > 0).forEach((set) => validateGenericDataSet(report, set, knownIds))
+
+  const concepts = optionalSets.find((set) => set.name === 'concepts')?.items ?? []
+  const positions = optionalSets.find((set) => set.name === 'positions')?.items ?? []
+
+  concepts.forEach((concept, index) => {
+    if (Array.isArray(concept.relatedSkillIds) && concept.relatedSkillIds.length === 0) {
+      addWarning(report, `concepts.${String(concept.id ?? index)} has no related skills`)
+    }
+  })
+
+  positions.forEach((position, index) => {
+    if (Array.isArray(position.relatedSkillIds) && position.relatedSkillIds.length === 0) {
+      addWarning(report, `positions.${String(position.id ?? index)} has no related skills`)
+    }
+  })
+
+  const chains = getTechniqueChains(skillNodes)
+  chains.forEach((chain) => {
+    chain.steps.forEach((step, stepIndex) => {
+      step.nextSkillIds.forEach((id) => {
+        if (!knownIds.skills.has(id)) addBrokenReference(report, `techniqueChains.${chain.id}.steps[${stepIndex}].nextSkillIds -> ${id}`)
+      })
+    })
+    chain.failureBranches.forEach((branch, branchIndex) => {
+      branch.nextSkillIds.forEach((id) => {
+        if (!knownIds.skills.has(id)) addBrokenReference(report, `techniqueChains.${chain.id}.failureBranches[${branchIndex}].nextSkillIds -> ${id}`)
+      })
+    })
+  })
+
+  const troubleshooters = getTroubleshooters(skillNodes)
+  troubleshooters.forEach((item) => {
+    if (item.checklist.length === 0) addWarning(report, `troubleshooter.${item.id} has no checklist items`)
+    item.diagnoses.forEach((diagnosis, diagnosisIndex) => {
+      diagnosis.relatedDetailIds.forEach((id) => {
+        if (!validSkillDetailRefs.has(id)) {
+          addWarning(report, `troubleshooter.${item.id}.diagnoses[${diagnosisIndex}].relatedDetailIds contains unresolved optional reference: ${id}`)
+        }
+      })
+    })
+  })
+
+  const escapeMaps = getEscapeMaps(skillNodes)
+  escapeMaps.forEach((map) => {
+    map.routes.forEach((route, routeIndex) => {
+      route.followUpSkillIds.forEach((id) => {
+        if (!knownIds.skills.has(id)) addBrokenReference(report, `escapeMaps.${map.id}.routes[${routeIndex}].followUpSkillIds -> ${id}`)
+      })
+    })
+  })
+
+  skills.forEach((skill) => {
+    if (getNextBestLinksForSkill(String(skill.id)).length === 0) {
+      addWarning(report, `skills.${String(skill.id)} has no next best links`)
+    }
+  })
+
+  checkUniqueIds(report, { name: 'sharedKnowledge', label: 'shared knowledge', items: sharedKnowledgeItems as AnyRecord[], optional: false })
+
+  sharedKnowledgeItems.forEach((item, index) => {
+    const path = `sharedKnowledge.${item.id ?? index}`
+    walkLocalizedContent(report, path, item)
+    ;(item.relatedConceptIds ?? []).forEach((id) => {
+      if (!knownIds.concepts.size) return
+      if (!knownIds.concepts.has(id)) addBrokenReference(report, `${path}.relatedConceptIds -> ${String(id)}`)
+    })
+    ;(item.relatedSkillIds ?? []).forEach((id) => {
+      if (!knownIds.skills.has(id)) addBrokenReference(report, `${path}.relatedSkillIds -> ${String(id)}`)
+    })
+  })
+
+  const duplicateBlocks = findDuplicateBlocks(
+    skills.map((skill) => ({
+      id: skill.id,
+      texts: [
+        skill.whyItMatters,
+        skill.situation,
+        skill.primaryGoal,
+        skill.bodyMechanicsSystem,
+        skill.technicalDetails,
+        skill.ifThenDecisions,
+        skill.commonMistakes,
+        skill.failureResponses,
+      ],
+    })),
+    90,
+    3,
+  )
+
+  duplicateBlocks.slice(0, 5).forEach((block) => {
+    addWarning(report, `Repeated long content detected in ${block.count} skills: ${block.text.slice(0, 140)}...`)
+  })
+
+  console.log('No-Gi Mind data validation')
+  console.log('==========================')
+  console.log(`skills: ${report.counts.skills}`)
+  console.log(`glossary terms: ${report.counts.glossaryTerms}`)
+  console.log(`concepts: ${report.counts.concepts ?? 0}`)
+  console.log(`positions: ${report.counts.positions ?? 0}`)
+  console.log(`training methods: ${report.counts.trainingMethods ?? 0}`)
+  console.log(`defensive layers: ${report.counts.defensiveLayers ?? 0}`)
+  console.log(`archetypes: ${report.counts.archetypes ?? 0}`)
+  console.log(`curriculum paths: ${report.counts.curriculumPaths ?? 0}`)
+  console.log(`journal seed data: ${report.counts.journalSeedData ?? 0}`)
+  console.log('')
+  console.log(`validation errors: ${report.errors.length}`)
+  console.log(`warnings: ${report.warnings.length}`)
+  console.log(`broken references: ${report.brokenReferences.length}`)
+  console.log(`shared knowledge items: ${sharedKnowledgeItems.length}`)
+  if (duplicateBlocks.length) {
+    console.log('')
+    console.log('Top repeated phrases')
+    duplicateBlocks.slice(0, 5).forEach((block) => console.log(`- (${block.count}) ${block.text.slice(0, 140)}...`))
+  }
+
+  if (report.warnings.length) {
+    console.log('')
+    console.log('Warnings')
+    report.warnings.forEach((warning) => console.log(`- ${warning}`))
+  }
+
+  if (report.brokenReferences.length) {
+    console.log('')
+    console.log('Broken references')
+    report.brokenReferences.forEach((reference) => console.log(`- ${reference}`))
+  }
+
+  if (report.errors.length) {
+    console.log('')
+    console.log('Validation errors')
+    report.errors.forEach((error) => console.log(`- ${error}`))
+    process.exit(1)
+  }
+
+  console.log('')
+  console.log('Data validation passed.')
+}
+
+main().catch((error: unknown) => {
+  console.error(error)
+  process.exit(1)
+})

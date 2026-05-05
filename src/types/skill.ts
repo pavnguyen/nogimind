@@ -1,0 +1,492 @@
+export type LanguageCode = 'vi' | 'en' | 'fr'
+
+export type SkillDomain =
+  | 'positional_awareness'
+  | 'survival_defense'
+  | 'escapes'
+  | 'guard_retention'
+  | 'guard_offense'
+  | 'wrestle_up_wrestling'
+  | 'passing'
+  | 'pins_rides'
+  | 'back_control'
+  | 'submission_systems'
+
+export type SkillLevel = 'beginner' | 'intermediate' | 'advanced'
+
+export type LocalizedText = {
+  vi: string
+  en: string
+  fr: string
+}
+
+export type LocalizedStringArray = {
+  vi: string[]
+  en: string[]
+  fr: string[]
+}
+
+export type BodyChecklist = {
+  head?: LocalizedText
+  eyes?: LocalizedText
+  rightHand?: LocalizedText
+  leftHand?: LocalizedText
+  hips?: LocalizedText
+  insideLeg?: LocalizedText
+  outsideLeg?: LocalizedText
+  spine?: LocalizedText
+  pressure?: LocalizedText
+}
+
+export type BodyPartKey =
+  | 'head'
+  | 'eyes'
+  | 'ears'
+  | 'chin'
+  | 'neck'
+  | 'shoulders'
+  | 'chest'
+  | 'sternum'
+  | 'ribs'
+  | 'spine'
+  | 'hips'
+  | 'pelvis'
+  | 'hands'
+  | 'wrists'
+  | 'elbows'
+  | 'forearms'
+  | 'biceps'
+  | 'knees'
+  | 'thighs'
+  | 'shins'
+  | 'ankles'
+  | 'heels'
+  | 'toes'
+  | 'feet'
+
+export type PlayerRole = 'top' | 'bottom' | 'attacker' | 'defender' | 'neutral'
+
+export type MechanicType =
+  | 'alignment'
+  | 'pressure'
+  | 'frame'
+  | 'wedge'
+  | 'hook'
+  | 'post'
+  | 'lever'
+  | 'grip'
+  | 'inside_position'
+  | 'weight_distribution'
+  | 'mobility'
+  | 'safety'
+  | 'finishing_mechanic'
+  | 'escape_mechanic'
+  | 'transition_mechanic'
+
+export type BodyPartInstruction = {
+  bodyPart: BodyPartKey
+  role: PlayerRole
+  mechanicType: MechanicType
+  instruction: LocalizedText
+  whyItMatters: LocalizedText
+  commonErrors: LocalizedStringArray
+  correctionCues: LocalizedStringArray
+}
+
+export type ConnectionPoint = {
+  id: string
+  role: PlayerRole
+  name: LocalizedText
+  yourBodyPart: BodyPartKey
+  opponentBodyPart?: BodyPartKey
+  purpose: LocalizedText
+  pressureDirection?: LocalizedText
+  commonErrors: LocalizedStringArray
+}
+
+export type DirectionalCue = {
+  id: string
+  cue: LocalizedText
+  direction:
+    | 'forward'
+    | 'backward'
+    | 'left'
+    | 'right'
+    | 'down'
+    | 'up'
+    | 'diagonal'
+    | 'rotate_left'
+    | 'rotate_right'
+    | 'toward_head'
+    | 'toward_hips'
+    | 'toward_far_shoulder'
+    | 'toward_near_shoulder'
+    | 'toward_near_hip'
+    | 'toward_far_hip'
+  bodyParts: BodyPartKey[]
+  purpose: LocalizedText
+}
+
+export type MechanicsPhase = {
+  id: string
+  name: LocalizedText
+  objective: LocalizedText
+  bodyPartInstructions: BodyPartInstruction[]
+  connectionPoints: ConnectionPoint[]
+  directionalCues: DirectionalCue[]
+  checkpoints: LocalizedStringArray
+  dangerSignals: LocalizedStringArray
+  successSignals: LocalizedStringArray
+}
+
+export type BodyMechanicsSystem = {
+  overview: LocalizedText
+  topPlayerGoal?: LocalizedText
+  bottomPlayerGoal?: LocalizedText
+  attackerGoal?: LocalizedText
+  defenderGoal?: LocalizedText
+  phases: MechanicsPhase[]
+  globalPrinciples: LocalizedStringArray
+  nonNegotiables: LocalizedStringArray
+  commonMechanicalErrors: LocalizedStringArray
+  correctionCues: LocalizedStringArray
+  safetyNotes: LocalizedStringArray
+}
+
+export type PositionalRelationship = {
+  id: string
+  name: LocalizedText
+  description: LocalizedText
+  dominantPlayer: PlayerRole
+  keyControlPoints: ConnectionPoint[]
+  escapePriorities: LocalizedStringArray
+  attackPriorities: LocalizedStringArray
+}
+
+export type ReactionBranch = {
+  opponentReaction: LocalizedText
+  bodySignal: LocalizedText
+  recommendedResponse: LocalizedText
+  nextSkillIds: string[]
+  bodyMechanicAdjustment: LocalizedText
+}
+
+export type IfThenPriority =
+  | 'survive'
+  | 'prevent'
+  | 'recover'
+  | 'control'
+  | 'advance'
+  | 'submit'
+  | 'reset'
+  | 'disengage'
+
+export type IfThenDecision = {
+  id: string
+  priority: IfThenPriority
+  ifCondition: LocalizedText
+  bodySignal: LocalizedText
+  thenAction: LocalizedText
+  why: LocalizedText
+  commonMistake: LocalizedText
+  correctionCue: LocalizedText
+  nextSkillIds: string[]
+}
+
+export type TechnicalDetailCategory =
+  | 'setup'
+  | 'entry'
+  | 'grip'
+  | 'angle'
+  | 'pressure'
+  | 'isolation'
+  | 'finishing'
+  | 'escape'
+  | 'counter'
+  | 'transition'
+  | 'safety'
+
+export type BodySide = 'left' | 'right' | 'near' | 'far' | 'inside' | 'outside' | 'top' | 'bottom' | 'both' | 'either'
+
+export type ForceDirection =
+  | 'pull_left'
+  | 'pull_right'
+  | 'push_left'
+  | 'push_right'
+  | 'pull_toward_you'
+  | 'push_away'
+  | 'compress_down'
+  | 'lift_up'
+  | 'rotate_clockwise'
+  | 'rotate_counterclockwise'
+  | 'drive_diagonal'
+  | 'drive_forward'
+  | 'drive_backward'
+  | 'flare_out'
+  | 'pin_inward'
+  | 'open_outward'
+  | 'close_inward'
+  | 'circle_inside'
+  | 'circle_outside'
+  | 'hide'
+  | 'expose'
+  | 'shelf'
+  | 'wedge'
+
+export type TechnicalDetail = {
+  id: string
+  category: TechnicalDetailCategory
+  title: LocalizedText
+  situation: LocalizedText
+  instruction: LocalizedText
+  bodyParts: string[]
+  side: BodySide
+  direction?: ForceDirection
+  whyItWorks: LocalizedText
+  commonFailure: LocalizedText
+  correctionCue: LocalizedText
+  liveRollingCue: LocalizedText
+  safetyNote?: LocalizedText
+}
+
+export type FinishingMechanic = {
+  id: string
+  title: LocalizedText
+  target: LocalizedText
+  requiredIsolation: LocalizedStringArray
+  breakingMechanic: LocalizedText
+  forceDirection: ForceDirection[]
+  bodyPartRoles: {
+    bodyPart: string
+    role: LocalizedText
+  }[]
+  finishChecklist: LocalizedStringArray
+  falseFinishSignals: LocalizedStringArray
+  commonEscapes: {
+    escape: LocalizedText
+    prevention: LocalizedText
+  }[]
+  safetyNotes: LocalizedStringArray
+}
+
+export type MicroAdjustment = {
+  id: string
+  problem: LocalizedText
+  adjustment: LocalizedText
+  why: LocalizedText
+  relatedBodyParts: string[]
+  direction?: ForceDirection
+}
+
+export type TechnicalDetailsSystem = {
+  overview: LocalizedText
+  keyDetails: TechnicalDetail[]
+  finishingMechanics?: FinishingMechanic[]
+  microAdjustments: MicroAdjustment[]
+  commonFailurePatterns: LocalizedStringArray
+  liveCues: LocalizedStringArray
+  coachNotes: LocalizedStringArray
+}
+
+export type MicroDetailCategory =
+  | 'hand'
+  | 'elbow'
+  | 'head'
+  | 'shoulder'
+  | 'chest'
+  | 'hip'
+  | 'knee'
+  | 'foot'
+  | 'angle'
+  | 'pressure'
+  | 'timing'
+  | 'grip'
+  | 'hook'
+  | 'finish'
+  | 'escape'
+  | 'safety'
+
+export type Side = 'left' | 'right' | 'near' | 'far' | 'inside' | 'outside' | 'both' | 'either'
+
+export type Direction =
+  | 'pull_left'
+  | 'pull_right'
+  | 'push_left'
+  | 'push_right'
+  | 'pull_toward_you'
+  | 'push_away'
+  | 'drive_down'
+  | 'drive_up'
+  | 'drive_diagonal'
+  | 'rotate_left'
+  | 'rotate_right'
+  | 'flare_out'
+  | 'pin_in'
+  | 'open_out'
+  | 'close_in'
+  | 'circle_inside'
+  | 'circle_outside'
+  | 'hide'
+  | 'expose'
+  | 'lift'
+  | 'drop'
+  | 'wedge'
+
+export type MicroDetail = {
+  id: string
+  category: MicroDetailCategory
+  title: LocalizedText
+  shortInstruction: LocalizedText
+  side?: Side
+  direction?: Direction
+  bodyParts: string[]
+  whenToUse: LocalizedText
+  whyItWorks: LocalizedText
+  commonMistake: LocalizedText
+  correctionCue: LocalizedText
+  liveCue: LocalizedText
+  safetyNote?: LocalizedText
+}
+
+export type FastFinishPath = {
+  id: string
+  title: LocalizedText
+  steps: {
+    id: string
+    order: number
+    instruction: LocalizedText
+    keyBodyPart: string
+    commonMistake: LocalizedText
+  }[]
+  finishTrigger: LocalizedText
+  abortSignal: LocalizedText
+  nextBestOption: LocalizedText
+  safetyNote?: LocalizedText
+}
+
+export type LeftRightGuide = {
+  id: string
+  scenario: LocalizedText
+  leftHand: LocalizedText
+  rightHand: LocalizedText
+  leftLeg?: LocalizedText
+  rightLeg?: LocalizedText
+  head?: LocalizedText
+  hips?: LocalizedText
+  note: LocalizedText
+}
+
+export type QualityChecklistType =
+  | 'submission'
+  | 'pass'
+  | 'control'
+  | 'escape'
+  | 'guard'
+  | 'wrestling'
+  | 'safety'
+
+export type QualityCheckAnswer = 'yes' | 'not_sure' | 'no'
+
+export type QualityCheckSeverity = 'minor' | 'major' | 'critical'
+
+export type QualityCheckItem = {
+  id: string
+  title: LocalizedText
+  question: LocalizedText
+  successSignal: LocalizedText
+  failureSignal: LocalizedText
+  quickFix: LocalizedText
+  bodyParts: BodyPartKey[]
+  relatedMicroDetailIds?: string[]
+  severity: QualityCheckSeverity
+}
+
+export type TechniqueQualityChecklist = {
+  type: QualityChecklistType
+  overview: LocalizedText
+  checks: QualityCheckItem[]
+  passThreshold: number
+  ifPassed: LocalizedText
+  ifFailed: LocalizedText
+}
+
+export type MicroDetailSystem = {
+  overview: LocalizedText
+  topFiveDetails: MicroDetail[]
+  leftRightGuides: LeftRightGuide[]
+  fastFinishPaths: FastFinishPath[]
+  troubleshootingTips: {
+    problem: LocalizedText
+    quickFix: LocalizedText
+    cue: LocalizedText
+  }[]
+  doNotDo: LocalizedStringArray
+  safetyNotes: LocalizedStringArray
+}
+
+export type QuickCard = {
+  goal: LocalizedText
+  threeCues: LocalizedStringArray
+  doNotDo: LocalizedText
+  ifItFails: LocalizedText
+  safetyReminder?: LocalizedText
+}
+
+export type DecisionBranch = {
+  trigger: LocalizedText
+  response: LocalizedText
+  nextSkillIds?: string[]
+}
+
+export type FailureResponse = {
+  failure: LocalizedText
+  response: LocalizedText
+  nextSkillIds: string[]
+}
+
+export type Drill = {
+  name: LocalizedText
+  description: LocalizedText
+  intensity: 'static' | 'progressive' | 'positional' | 'live'
+  durationOrReps: LocalizedText
+}
+
+export type SkillTest = {
+  prompt: LocalizedText
+  successCriteria: LocalizedText
+}
+
+export type SkillNode = {
+  id: string
+  title: LocalizedText
+  domain: SkillDomain
+  level: SkillLevel
+  tags: string[]
+  shortDescription: LocalizedText
+  whyItMatters: LocalizedText
+  situation: LocalizedText
+  primaryGoal: LocalizedText
+  keyConcepts: LocalizedStringArray
+  bodyChecklist: BodyChecklist
+  decisionTree: DecisionBranch[]
+  dangerSignals: LocalizedStringArray
+  commonMistakes: LocalizedStringArray
+  failureResponses: FailureResponse[]
+  drills: Drill[]
+  skillTests: SkillTest[]
+  prerequisites: string[]
+  relatedSkills: string[]
+  bodyMechanicsSystem: BodyMechanicsSystem
+  microDetailSystem?: MicroDetailSystem
+  qualityChecklist?: TechniqueQualityChecklist
+  quickCard?: QuickCard
+  positionalRelationships?: PositionalRelationship[]
+  reactionBranches?: ReactionBranch[]
+  ifThenDecisions?: IfThenDecision[]
+  technicalDetails?: TechnicalDetailsSystem
+  sharedPrincipleIds?: string[]
+  sharedCueIds?: string[]
+  sharedErrorIds?: string[]
+  sharedSafetyIds?: string[]
+  sharedMechanicIds?: string[]
+}
