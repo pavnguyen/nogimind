@@ -2,6 +2,7 @@ export const storageKeys = {
   language: 'nogi_language',
   gameTree: 'nogi_game_tree',
   settings: 'nogi_settings',
+  search: 'nogi_search',
 } as const
 
 export const readJson = <T>(key: string, fallback: T): T => {

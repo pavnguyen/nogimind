@@ -4,6 +4,7 @@ import { ArrowLeft, ArrowRight } from 'lucide-react'
 import { Badge } from '../components/common/Badge'
 import { NotFound } from '../components/common/NotFound'
 import { SectionCard } from '../components/common/SectionCard'
+import { NextStepStrip } from '../components/learning/NextStepStrip'
 import { RelatedKnowledgePanel } from '../components/knowledge/RelatedKnowledgePanel'
 import { useSkillsQuery } from '../queries/skillQueries'
 import { useSettingsStore } from '../stores/useSettingsStore'
@@ -70,6 +71,15 @@ export default function EscapeMapDetailPage() {
       </SectionCard>
 
       <RelatedKnowledgePanel lang={lang} groups={getSkillKnowledgeLinks(skill.id)} />
+
+      <NextStepStrip
+        title={t('escapeMaps.nextStep')}
+        items={[
+          { title: t('common.skill'), body: t('escapeMaps.nextStep'), to: `/skills/${skill.id}` },
+          { title: t('chains.heading'), body: t('escapeMaps.nextStep'), to: '/chains' },
+          { title: t('microDetails.heading'), body: t('escapeMaps.nextStep'), to: `/micro-details?skill=${skill.id}` },
+        ]}
+      />
     </div>
   )
 }

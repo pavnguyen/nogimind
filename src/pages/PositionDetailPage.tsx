@@ -4,6 +4,7 @@ import { ArrowLeft } from 'lucide-react'
 import { Badge } from '../components/common/Badge'
 import { NotFound } from '../components/common/NotFound'
 import { SectionCard } from '../components/common/SectionCard'
+import { NextStepStrip } from '../components/learning/NextStepStrip'
 import { RelatedKnowledgePanel } from '../components/knowledge/RelatedKnowledgePanel'
 import { useConceptsQuery } from '../queries/conceptQueries'
 import { usePositionQuery, usePositionsQuery } from '../queries/positionQueries'
@@ -11,6 +12,7 @@ import { useSkillsQuery } from '../queries/skillQueries'
 import { useSettingsStore } from '../stores/useSettingsStore'
 import type { LanguageCode, SkillNode } from '../types/skill'
 import { getPositionKnowledgeLinks } from '../utils/knowledgeGraph'
+import { getMicroDetails } from '../utils/knowledgeModules'
 import { getLocalizedArray, getLocalizedText } from '../utils/localization'
 
 export default function PositionDetailPage() {
@@ -25,11 +27,19 @@ export default function PositionDetailPage() {
   const positionsById = new Map(positions.map((item) => [item.id, item]))
   const skillsById = new Map(skills.map((item) => [item.id, item]))
   const conceptsById = new Map(concepts.map((item) => [item.id, item]))
+  const microDetails = getMicroDetails(skills)
 
   if (!positionQuery.isLoading && !position) {
     return <NotFound title={t('positions.notFoundTitle')} body={t('positions.notFoundBody')} to="/positions" label={t('positions.backToPositions')} />
   }
   if (!position) return <p className="text-slate-400">{t('common.loading')}</p>
+
+  const leadingSkills = positions
+    .filter((item) => item.advancementOptions.some((option) => option.nextPositionId === position.id))
+    .flatMap((item) => item.relatedSkillIds)
+    .map((id) => skillsById.get(id))
+    .filter((item): item is SkillNode => Boolean(item))
+  const relatedMicroDetails = microDetails.filter((detail) => position.relatedSkillIds.includes(detail.skillId))
 
   return (
     <div className="space-y-6">
@@ -46,6 +56,62 @@ export default function PositionDetailPage() {
         <h1 className="mt-4 text-3xl font-semibold text-white">{getLocalizedText(position.title, language)}</h1>
         <p className="mt-3 max-w-4xl text-slate-300">{getLocalizedText(position.description, language)}</p>
       </section>
+
+      <SectionCard title={t('positions.learnStepByStep')}>
+        <div className="grid gap-3 md:grid-cols-2 xl:grid-cols-3">
+          {[
+            { title: t('positions.stepTitles.understand'), body: t('positions.whatIsTheGoal') },
+            { title: t('positions.stepTitles.survival'), body: t('positions.dangerToRecognize') },
+            { title: t('positions.stepTitles.skills'), body: t('positions.skillsStartHere') },
+            { title: t('positions.stepTitles.details'), body: t('positions.microDetailsMatter') },
+            { title: t('positions.stepTitles.escapes'), body: t('positions.commonProblems') },
+            { title: t('positions.stepTitles.chains'), body: t('positions.whatToLearnNext') },
+          ].map((step, index) => (
+            <article key={step.title} className="rounded-lg border border-white/10 bg-slate-900/60 p-4">
+              <Badge tone="cyan">{index + 1}</Badge>
+              <p className="mt-2 text-sm font-semibold text-white">{step.title}</p>
+              <p className="mt-2 text-sm leading-6 text-slate-400">{step.body}</p>
+            </article>
+          ))}
+        </div>
+      </SectionCard>
+
+      <div className="grid gap-6 xl:grid-cols-2">
+        <SectionCard title={t('positions.whatIsTheGoal')}>
+          <ul className="space-y-2 text-sm leading-6 text-slate-300">
+            {getLocalizedArray(position.topPlayerGoals, language).slice(0, 4).map((item) => <li key={item}>{item}</li>)}
+          </ul>
+        </SectionCard>
+        <SectionCard title={t('positions.dangerToRecognize')}>
+          <ul className="space-y-2 text-sm leading-6 text-amber-100">
+            {getLocalizedArray(position.dangerSignals, language).slice(0, 4).map((item) => <li key={item}>{item}</li>)}
+          </ul>
+        </SectionCard>
+        <SectionCard title={t('positions.skillsStartHere')}>
+          <SkillLinks ids={position.relatedSkillIds} skillsById={skillsById} lang={language} />
+        </SectionCard>
+        <SectionCard title={t('positions.skillsLeadHere')}>
+          <SkillLinks ids={leadingSkills.map((skill) => skill.id)} skillsById={skillsById} lang={language} />
+        </SectionCard>
+      </div>
+
+      <div className="grid gap-6 xl:grid-cols-2">
+        <SectionCard title={t('positions.microDetailsMatter')}>
+          <div className="space-y-2">
+            {relatedMicroDetails.slice(0, 4).map((detail) => (
+              <div key={detail.id} className="rounded-md border border-white/10 bg-slate-900/60 p-3">
+                <p className="text-sm font-semibold text-white">{getLocalizedText(detail.title, language)}</p>
+                <p className="mt-2 text-sm leading-6 text-slate-400">{getLocalizedText(detail.correctionCue, language)}</p>
+              </div>
+            ))}
+          </div>
+        </SectionCard>
+        <SectionCard title={t('positions.commonProblems')}>
+          <ul className="space-y-2 text-sm leading-6 text-slate-300">
+            {getLocalizedArray(position.escapePriorities, language).slice(0, 4).map((item) => <li key={item}>{item}</li>)}
+          </ul>
+        </SectionCard>
+      </div>
 
       <div className="grid gap-6 xl:grid-cols-2">
         <ListCard title={t('positions.topGoals')} items={getLocalizedArray(position.topPlayerGoals, language)} />
@@ -92,6 +158,19 @@ export default function PositionDetailPage() {
       </div>
 
       <RelatedKnowledgePanel lang={language} groups={getPositionKnowledgeLinks(position.id)} />
+
+      <NextStepStrip
+        title={t('positions.whatToLearnNext')}
+        description={t('positions.nextStep')}
+        items={[
+          position.relatedSkillIds[0]
+            ? { title: t('common.relatedSkills'), body: t('positions.skillsStartHere'), to: `/skills/${position.relatedSkillIds[0]}` }
+            : { title: t('common.relatedSkills'), body: t('positions.skillsStartHere'), to: '/skills' },
+          { title: t('microDetails.heading'), body: t('positions.microDetailsMatter'), to: `/micro-details?skill=${position.relatedSkillIds[0] ?? ''}`.replace(/\?skill=$/, '') },
+          { title: t('chains.heading'), body: t('positions.whatToLearnNext'), to: '/chains' },
+          { title: t('escapeMaps.heading'), body: t('positions.commonProblems'), to: position.relatedSkillIds[0] ? `/escape-maps/${position.relatedSkillIds[0]}` : '/escape-maps' },
+        ]}
+      />
     </div>
   )
 }

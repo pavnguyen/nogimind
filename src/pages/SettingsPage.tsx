@@ -20,7 +20,7 @@ export default function SettingsPage() {
       <SectionCard title={t('settings.language')}>
         <LanguageSwitcher />
       </SectionCard>
-      <SectionCard title={t('settings.viewMode')}>
+      <SectionCard title={t('settings.learningDepth')} description={t('settings.learningDepthBody')}>
         <ViewModeSwitcher />
       </SectionCard>
       <SectionCard title={t('settings.skillMapDefault')}>

@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import { ChevronDown, ChevronRight } from 'lucide-react'
 import type { BodyPartInstruction, BodyPartKey, LanguageCode, MechanicType } from '../../types/skill'
-import { getLocalizedArray, getLocalizedText } from '../../utils/localization'
+import { getLocalizedTechnicalArray, getLocalizedTechnicalText } from '../../utils/localization'
 import { Badge } from '../common/Badge'
 
 export type MechanicsFilter = 'all' | 'headNeck' | 'armsHands' | 'torsoHips' | 'legsFeet' | 'pressure' | 'safety'
@@ -42,7 +42,7 @@ export const BodyPartInstructionGrid = ({
   return (
     <div className="grid gap-3 xl:grid-cols-2">
       {filtered.map((instruction) => {
-        const key = `${instruction.bodyPart}-${instruction.role}-${instruction.mechanicType}-${getLocalizedText(instruction.instruction, 'en')}`
+        const key = `${instruction.bodyPart}-${instruction.role}-${instruction.mechanicType}-${instruction.instruction.en}`
         const isExpanded = expanded[key] ?? false
         return (
         <article
@@ -54,9 +54,9 @@ export const BodyPartInstructionGrid = ({
             <Badge tone="emerald">{t(`mechanics.roles.${instruction.role}`)}</Badge>
             <Badge>{t(`mechanics.mechanicTypes.${instruction.mechanicType}`)}</Badge>
           </div>
-          <p className="mt-3 text-sm leading-6 text-slate-200">{getLocalizedText(instruction.instruction, lang)}</p>
+          <p className="mt-3 text-sm leading-6 text-slate-200">{getLocalizedTechnicalText(instruction.instruction, lang)}</p>
           <p className="mt-3 text-xs font-semibold uppercase tracking-wide text-slate-500">{t('mechanics.whyItMatters')}</p>
-          <p className="mt-1 text-sm leading-6 text-slate-400">{getLocalizedText(instruction.whyItMatters, lang)}</p>
+          <p className="mt-1 text-sm leading-6 text-slate-400">{getLocalizedTechnicalText(instruction.whyItMatters, lang)}</p>
           <button
             type="button"
             onClick={() => setExpanded((current) => ({ ...current, [key]: !isExpanded }))}
@@ -69,13 +69,13 @@ export const BodyPartInstructionGrid = ({
             <div>
               <p className="text-xs font-semibold uppercase tracking-wide text-rose-200">{t('mechanics.commonErrors')}</p>
               <ul className="mt-1 space-y-1 text-xs leading-5 text-slate-400">
-                {getLocalizedArray(instruction.commonErrors, lang).map((item) => <li key={item}>{item}</li>)}
+                {getLocalizedTechnicalArray(instruction.commonErrors, lang).map((item) => <li key={item}>{item}</li>)}
               </ul>
             </div>
             <div>
               <p className="text-xs font-semibold uppercase tracking-wide text-emerald-200">{t('mechanics.correctionCues')}</p>
               <ul className="mt-1 space-y-1 text-xs leading-5 text-slate-400">
-                {getLocalizedArray(instruction.correctionCues, lang).map((item) => <li key={item}>{item}</li>)}
+                {getLocalizedTechnicalArray(instruction.correctionCues, lang).map((item) => <li key={item}>{item}</li>)}
               </ul>
             </div>
           </div> : null}

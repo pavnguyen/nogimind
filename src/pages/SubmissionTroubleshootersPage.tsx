@@ -4,6 +4,7 @@ import { useTranslation } from 'react-i18next'
 import { ArrowRight } from 'lucide-react'
 import { Badge } from '../components/common/Badge'
 import { EmptyState } from '../components/common/EmptyState'
+import { PagePurposeBanner } from '../components/learning/PagePurposeBanner'
 import { useSkillsQuery } from '../queries/skillQueries'
 import { useSettingsStore } from '../stores/useSettingsStore'
 import { getTroubleshooters } from '../utils/knowledgeModules'
@@ -46,10 +47,13 @@ export default function SubmissionTroubleshootersPage() {
 
   return (
     <div className="space-y-6">
-      <div>
-        <h1 className="text-3xl font-semibold text-white">{t('troubleshooters.heading')}</h1>
-        <p className="mt-2 max-w-3xl text-slate-400">{t('troubleshooters.subtitle')}</p>
-      </div>
+      <PagePurposeBanner
+        title={t('troubleshooters.heading')}
+        purpose={t('troubleshooters.whatFor')}
+        whenToUse={t('troubleshooters.whenToUse')}
+        bestNextStepLabel={t('troubleshooters.nextStep')}
+        bestNextStepTo="/skills"
+      />
 
       <div className="grid gap-3 lg:grid-cols-[1fr_260px]">
         <input

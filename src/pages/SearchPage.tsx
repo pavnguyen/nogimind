@@ -1,11 +1,13 @@
-import { useMemo } from 'react'
+import { useEffect, useMemo } from 'react'
 import { Link, useSearchParams } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import { ArrowRight } from 'lucide-react'
 import { Badge } from '../components/common/Badge'
 import { EmptyState } from '../components/common/EmptyState'
 import { SectionCard } from '../components/common/SectionCard'
+import { PagePurposeBanner } from '../components/learning/PagePurposeBanner'
 import { useSettingsStore } from '../stores/useSettingsStore'
+import { useSearchStore } from '../stores/useSearchStore'
 import type { KnowledgeItemType } from '../types/knowledgeSearch'
 import { getNextBestLinksForSkill } from '../utils/knowledgeGraph'
 import { searchKnowledge } from '../utils/knowledgeSearch'
@@ -17,8 +19,22 @@ export default function SearchPage() {
   const { t } = useTranslation()
   const language = useSettingsStore((state) => state.language)
   const [searchParams, setSearchParams] = useSearchParams()
-  const query = searchParams.get('q') ?? ''
-  const type = resultTypes.includes(searchParams.get('type') as KnowledgeItemType) ? (searchParams.get('type') as KnowledgeItemType) : ''
+  const query = useSearchStore((state) => state.query)
+  const type = useSearchStore((state) => state.type)
+  const setQuery = useSearchStore((state) => state.setQuery)
+  const setType = useSearchStore((state) => state.setType)
+
+  useEffect(() => {
+    const legacyQuery = searchParams.get('q')
+    const legacyType = searchParams.get('type')
+    if (legacyQuery && legacyQuery !== query) setQuery(legacyQuery)
+    if (legacyType && resultTypes.includes(legacyType as KnowledgeItemType) && legacyType !== type) {
+      setType(legacyType as KnowledgeItemType)
+    }
+    if (legacyQuery || legacyType) {
+      setSearchParams({}, { replace: true })
+    }
+  }, [query, setQuery, setSearchParams, setType, searchParams, type])
 
   const results = useMemo(() => searchKnowledge(query, language, { type }), [language, query, type])
   const grouped = useMemo(
@@ -26,30 +42,26 @@ export default function SearchPage() {
     [results],
   )
 
-  const setParam = (key: string, value: string) => {
-    const next = new URLSearchParams(searchParams)
-    if (value) next.set(key, value)
-    else next.delete(key)
-    setSearchParams(next)
-  }
-
   return (
     <div className="space-y-6">
-      <div>
-        <h1 className="text-3xl font-semibold text-white">{t('search.heading')}</h1>
-        <p className="mt-2 max-w-3xl text-slate-400">{t('search.subtitle')}</p>
-      </div>
+      <PagePurposeBanner
+        title={t('search.heading')}
+        purpose={t('search.whatFor')}
+        whenToUse={t('search.whenToUse')}
+        bestNextStepLabel={t('search.nextStep')}
+        bestNextStepTo="/skills"
+      />
 
       <div className="grid gap-3 lg:grid-cols-[1fr_260px]">
         <input
           value={query}
-          onChange={(event) => setParam('q', event.target.value)}
+          onChange={(event) => setQuery(event.target.value)}
           placeholder={t('search.placeholder')}
           className="w-full rounded-md border border-white/10 bg-slate-900 px-3 py-2 text-sm text-white outline-none focus:border-cyan-300"
         />
         <select
           value={type}
-          onChange={(event) => setParam('type', event.target.value)}
+          onChange={(event) => setType(event.target.value as KnowledgeItemType | '')}
           className="rounded-md border border-white/10 bg-slate-900 px-3 py-2 text-sm text-white outline-none focus:border-cyan-300"
         >
           <option value="">{t('common.all')}</option>
@@ -58,7 +70,7 @@ export default function SearchPage() {
       </div>
 
       {!query.trim() ? <EmptyState title={t('search.emptyQuery')} description={t('search.emptyQueryBody')} /> : null}
-      {query.trim() && !results.length ? <EmptyState title={t('search.noResults')} /> : null}
+      {query.trim() && !results.length ? <EmptyState title={t('search.noResults')} description={t('search.nextStep')} /> : null}
 
       {grouped.map((group) => (
         <SectionCard key={group.type} title={t(`knowledgeTypes.${group.type}`)} description={t('search.resultCount', { count: group.results.length })}>

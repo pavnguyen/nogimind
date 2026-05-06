@@ -4,6 +4,7 @@ import type {
   QualityCheckItem,
   TechniqueQualityChecklist,
 } from '../types/skill'
+import { extraQualityChecklists } from './remainingCoverage'
 
 const lt = (vi: string, en: string, fr: string): LocalizedText => ({ vi, en, fr })
 
@@ -346,7 +347,80 @@ const qualityChecklists = {
     lt('Mount survival đủ tốt để escape hoặc branch.', 'Mount survival is good enough to escape or branch.', 'La survie en mount est assez bonne pour sortir ou brancher.'),
     lt('Recover knee, half guard, hoặc turtle.', 'Recover the knee, half guard, or turtle.', 'Récupérez le genou, half guard ou turtle.'),
   ),
+  'back-survival': checklist(
+    'escape',
+    lt('Kiểm hand fight, head safe side, hook escape và branch.', 'Check the hand fight, safe-side head, hook escape, and branch.', 'Vérifiez le hand fight, la tête côté sûr, l’escape du hook et la branche.'),
+    [
+      check('backsurv-hands', lt('Win the hands', 'Win the hands', 'Gagner les mains'), lt('Bạn có chặn choking hand chưa?', 'Have you blocked the choking hand?', 'Avez-vous bloqué la main de choke ?'), lt('Bạn có room để thở.', 'You have room to breathe.', 'Vous avez de l’espace pour respirer.'), lt('Bỏ tay phòng thủ.', 'Ignoring the defensive hand.', 'Ignorer la main défensive.'), lt('Hands first.', 'Hands first.', 'Mains d’abord.'), ['hands', 'wrists', 'biceps'], 'critical', ['backesc-handfight']),
+      check('backsurv-head', lt('Head safe side', 'Head safe side', 'Tête côté sûr'), lt('Đầu bạn quay sang safe side chưa?', 'Is your head turned to the safe side?', 'Votre tête est-elle tournée du côté sûr ?'), lt('Cổ không bị mở.', 'The neck does not open.', 'Le cou ne s’ouvre pas.'), lt('Đầu vào choke line.', 'Head into the choke line.', 'Tête dans la ligne de choke.'), lt('Head safe.', 'Head safe.', 'Tête sûre.'), ['head', 'chin', 'neck'], 'critical', ['backesc-head-safe']),
+      check('backsurv-hook', lt('Clear hook', 'Clear the hook', 'Dégager le hook'), lt('Top hook còn sống không?', 'Is the top hook still alive?', 'Le hook du haut est-il encore vivant ?'), lt('Hông có đường slide.', 'The hips have room to slide.', 'Les hanches ont de l’espace pour glisser.'), lt('Hook còn giữ bạn.', 'The hook is still holding you.', 'Le hook vous retient encore.'), lt('Hook first.', 'Hook first.', 'Hook d’abord.'), ['feet', 'heels', 'toes'], 'critical', ['backesc-hook']),
+      check('backsurv-turn', lt('Turn with plan', 'Turn with plan', 'Tourner avec un plan'), lt('Bạn có turn sang guard hoặc turtle không?', 'Do you have a turn to guard or turtle?', 'Avez-vous un turn vers la garde ou le turtle ?'), lt('Bạn thoát có hướng.', 'You escape with direction.', 'Vous sortez avec direction.'), lt('Turn mù.', 'Blind turning.', 'Tourner à l’aveugle.'), lt('Turn with frames.', 'Turn with frames.', 'Tournez avec des frames.'), ['head', 'shoulders', 'hips'], 'major', ['back-escape']),
+      check('backsurv-branch', lt('Branch when blocked', 'Branch when blocked', 'Branchez quand c’est bloqué'), lt('Nếu choke line bị chặn, bạn có another branch không?', 'If the choke line is blocked, do you have another branch?', 'Si la ligne de choke est bloquée, avez-vous une autre branche ?'), lt('Bạn không kẹt ở một lối.', 'You are not trapped on one route.', 'Vous n’êtes pas coincé sur une seule voie.'), lt('Cố một lối quá lâu.', 'Trying one route too long.', 'Essayer une seule voie trop longtemps.'), lt('Branch early.', 'Branch early.', 'Branchez tôt.'), ['hands', 'hips', 'head'], 'major', ['back-escape']),
+    ],
+    70,
+    lt('Back survival đủ tốt để escape hoặc branch.', 'Back survival is good enough to escape or branch.', 'La survie au dos est assez bonne pour sortir ou brancher.'),
+    lt('Return to guard, turtle, hoặc back escape.', 'Return to guard, turtle, or back escape.', 'Retournez à la garde, au turtle ou à l’escape du dos.'),
+  ),
+  'outside-passing': checklist(
+    'pass',
+    lt('Kiểm head line, hip angle, outside foot và settle.', 'Check the head line, hip angle, outside foot, and settle.', 'Vérifiez la ligne de tête, l’angle de hanche, le pied extérieur et la stabilisation.'),
+    [
+      check('outpass-head', lt('Head blocks inside', 'Head blocks inside', 'La tête bloque l’intérieur'), lt('Đầu bạn có ngăn họ lấy lại inside không?', 'Does your head block their inside recovery?', 'Votre tête bloque-t-elle leur récupération intérieure ?'), lt('Inside lane bị khóa.', 'The inside lane is closed.', 'La ligne intérieure est fermée.'), lt('Đầu trôi ra ngoài.', 'The head drifts outside.', 'La tête dérive dehors.'), lt('Head in.', 'Head in.', 'Tête dedans.'), ['head', 'shoulders', 'ears'], 'critical', ['outpass-head']),
+      check('outpass-hip', lt('Hips low and angled', 'Hips low and angled', 'Hanches basses et angulées'), lt('Hông có đi chéo xuống không?', 'Are the hips driving diagonally down?', 'Les hanches poussent-elles en diagonale vers le bas ?'), lt('Pass line mở.', 'The pass line opens.', 'La ligne de pass s’ouvre.'), lt('Hông cao và nhẹ.', 'Hips are high and light.', 'Hanches hautes et légères.'), lt('Low hips.', 'Low hips.', 'Hanches basses.'), ['hips', 'pelvis', 'chest'], 'critical', ['outpass-hip']),
+      check('outpass-foot', lt('Outside foot shelves', 'Outside foot shelves', 'Le pied extérieur fait shelf'), lt('Pied ngoài có chặn hip line không?', 'Does the outside foot block the hip line?', 'Le pied extérieur bloque-t-il la ligne de hanche ?'), lt('Họ khó hồi inside.', 'They struggle to recover inside.', 'Ils ont du mal à revenir dedans.'), lt('Pied ngoài chết.', 'The outside foot is dead.', 'Le pied extérieur est mort.'), lt('Foot active.', 'Foot active.', 'Pied actif.'), ['feet', 'toes', 'shins'], 'critical', ['outpass-foot']),
+      check('outpass-frame', lt('Far hand blocks frame', 'Far hand blocks the frame', 'La main éloignée bloque le frame'), lt('Tay xa có chặn frame không?', 'Does the far hand block the frame?', 'La main éloignée bloque-t-elle le frame ?'), lt('Frame không hồi.', 'The frame does not come back.', 'Le frame ne revient pas.'), lt('Buông frame sớm.', 'Dropping the frame too early.', 'Lâcher le frame trop tôt.'), lt('Far hand.', 'Far hand.', 'Main éloignée.'), ['hands', 'forearms', 'wrists'], 'major', ['outpass-hands']),
+      check('outpass-settle', lt('Settle after lane', 'Settle after the lane', 'Stabiliser après la ligne'), lt('Sau khi qua, bạn có settle không?', 'After passing, do you settle?', 'Après le pass, stabilisez-vous ?'), lt('Bạn không bị hồi guard ngay.', 'You do not immediately get re-guarded.', 'Vous ne vous faites pas re-guarder immédiatement.'), lt('Qua xong bỏ đi.', 'Passing and then walking away.', 'Passer puis partir.'), lt('Settle first.', 'Settle first.', 'Stabilisez d’abord.'), ['chest', 'hips', 'knees'], 'major', ['side-control-pin']),
+    ],
+    70,
+    lt('Outside passing đủ tốt để settle hoặc branch.', 'Outside passing is good enough to settle or branch.', 'Le outside passing est assez bon pour stabiliser ou brancher.'),
+    lt('Settle side control hoặc branch leg drag.', 'Settle side control or branch to leg drag.', 'Stabilisez le side control ou branchez vers le leg drag.'),
+  ),
+  'leg-drag-basics': checklist(
+    'pass',
+    lt('Kiểm hip drag, shoulder line, foot activity và settle.', 'Check hip drag, shoulder line, foot activity, and settle.', 'Vérifiez le drag des hanches, la ligne d’épaule, l’activité des pieds et la stabilisation.'),
+    [
+      check('ld-hip', lt('Drag hips across', 'Drag the hips across', 'Drag les hanches au-delà'), lt('Bạn có kéo cả hông, không chỉ kéo chân?', 'Are you dragging the hips, not only the leg?', 'Tirez-vous aussi les hanches, pas seulement la jambe ?'), lt('Guard bị kéo hẹp.', 'The guard gets compressed.', 'La garde est compressée.'), lt('Chỉ kéo chân.', 'Dragging only the leg.', 'Tirer seulement la jambe.'), lt('Drag hips.', 'Drag the hips.', 'Drag les hanches.'), ['hips', 'pelvis', 'chest'], 'critical', ['ld-hip']),
+      check('ld-shoulder', lt('Clamp shoulder line', 'Clamp the shoulder line', 'Fermer la ligne d’épaule'), lt('Vai họ có còn xoay tự do không?', 'Can their shoulders still rotate freely?', 'Leurs épaules peuvent-elles encore tourner librement ?'), lt('Họ bị giữ flat.', 'They are held flat.', 'Ils sont gardés à plat.'), lt('Vai còn sống.', 'The shoulders are still free.', 'Les épaules sont encore libres.'), lt('Clamp shoulder.', 'Clamp the shoulder.', 'Fermez l’épaule.'), ['shoulders', 'chest', 'head'], 'critical', ['ld-shoulder']),
+      check('ld-foot', lt('Outside feet active', 'Outside feet active', 'Pieds extérieurs actifs'), lt('Feet của bạn có giữ nhịp drag không?', 'Are your feet keeping the drag rhythm?', 'Vos pieds gardent-ils le rythme du drag ?'), lt('Drag không bị ngắt.', 'The drag does not break.', 'Le drag ne se casse pas.'), lt('Feet chết.', 'The feet go dead.', 'Les pieds meurent.'), lt('Feet active.', 'Feet active.', 'Pieds actifs.'), ['feet', 'toes', 'shins'], 'major', ['leg-drag-basics']),
+      check('ld-angle', lt('Angle into pin', 'Angle into the pin', 'Angle vers le pin'), lt('Sau drag bạn đã angle chưa?', 'Have you angled after the drag?', 'Avez-vous angulé après le drag ?'), lt('Có đường settle.', 'There is a settle path.', 'Il y a un chemin de stabilisation.'), lt('Đứng vuông.', 'Staying square.', 'Rester carré.'), lt('Angle first.', 'Angle first.', 'Angle d’abord.'), ['hips', 'knees', 'chest'], 'major', ['side-control-pin']),
+      check('ld-branch', lt('Branch when sit up', 'Branch when they sit up', 'Branchez quand ils se redressent'), lt('Nếu họ sit up, bạn có branch không?', 'If they sit up, do you branch?', 'S’ils se redressent, branchez-vous ?'), lt('Bạn luôn giữ flow.', 'You keep the flow.', 'Vous gardez le flow.'), lt('Cố một lane.', 'Forcing one lane.', 'Forcer une seule ligne.'), lt('Branch early.', 'Branch early.', 'Branchez tôt.'), ['head', 'hands', 'hips'], 'major', ['back-control']),
+    ],
+    70,
+    lt('Leg drag đủ tốt để pin hoặc branch.', 'The leg drag is good enough to pin or branch.', 'Le leg drag est assez bon pour pinner ou brancher.'),
+    lt('Pin side control hoặc back take.', 'Settle side control or take the back.', 'Stabilisez side control ou prenez le dos.'),
+  ),
+  'mat-return-basics': checklist(
+    'wrestling',
+    lt('Kiểm hông, head line, hands và timing của return.', 'Check the hips, head line, hands, and return timing.', 'Vérifiez les hanches, la ligne de tête, les mains et le timing du retour.'),
+    [
+      check('mr-hip', lt('Hip control', 'Hip control', 'Contrôle de hanche'), lt('Bạn có giữ hông sát khi return không?', 'Are you keeping the hips tight during the return?', 'Gardez-vous les hanches serrées pendant le retour ?'), lt('Họ không xoay thoát.', 'They cannot spin out.', 'Ils ne peuvent pas sortir en tournant.'), lt('Hông lỏng.', 'Loose hips.', 'Hanches lâches.'), lt('Tight hips.', 'Tight hips.', 'Hanches serrées.'), ['hips', 'pelvis', 'chest'], 'critical', ['mr-hip']),
+      check('mr-head', lt('Head off line', 'Head off the line', 'Tête hors ligne'), lt('Đầu có chặn đường họ quay lại không?', 'Does your head block their turn back?', 'Votre tête bloque-t-elle leur retour ?'), lt('Vai bị chặn.', 'The shoulders are blocked.', 'Les épaules sont bloquées.'), lt('Đầu xa.', 'Head too far.', 'Tête trop loin.'), lt('Head in.', 'Head in.', 'Tête dedans.'), ['head', 'shoulders', 'ears'], 'critical', ['mr-head']),
+      check('mr-hands', lt('Hands hold body', 'Hands hold the body', 'Les mains tiennent le corps'), lt('Hands có giữ vai/tailbone không?', 'Are the hands controlling the shoulder or hips?', 'Les mains contrôlent-elles l’épaule ou les hanches ?'), lt('Họ không post.', 'They cannot post.', 'Ils ne peuvent pas poster.'), lt('Bỏ tay.', 'Dropping the hands.', 'Lâcher les mains.'), lt('Hands first.', 'Hands first.', 'Mains d’abord.'), ['hands', 'wrists', 'forearms'], 'major', ['hand-fighting']),
+      check('mr-timing', lt('Pull on balance break', 'Pull on the balance break', 'Tirez au moment de la perte d’équilibre'), lt('Bạn kéo đúng lúc họ mất base chưa?', 'Are you pulling when they lose base?', 'Tirez-vous quand ils perdent la base ?'), lt('Return nhẹ và sạch.', 'The return is clean and easy.', 'Le retour est propre et facile.'), lt('Kéo khi base vững.', 'Pulling when the base is stable.', 'Tirer quand la base est stable.'), lt('Pull then settle.', 'Pull then settle.', 'Tirez puis stabilisez.'), ['hips', 'hands', 'feet'], 'major', ['mat-return-basics']),
+      check('mr-settle', lt('Settle after landing', 'Settle after landing', 'Stabilisez après l’atterrissage'), lt('Sau khi kéo xuống, bạn pin lại ngay không?', 'After the pull, do you repin immediately?', 'Après la traction, repincez-vous immédiatement ?'), lt('Họ không được đứng lại.', 'They cannot stand back up.', 'Ils ne peuvent pas se relever.'), lt('Thả ra quá sớm.', 'Releasing too early.', 'Relâcher trop tôt.'), lt('Settle now.', 'Settle now.', 'Stabilisez maintenant.'), ['chest', 'knees', 'hips'], 'major', ['side-control-pin']),
+    ],
+    70,
+    lt('Mat return đủ tốt để pin lại.', 'The mat return is good enough to repin.', 'Le mat return est assez bon pour repinner.'),
+    lt('Pin lại hoặc đổi sang control khác.', 'Repin or switch to another control.', 'Repinnez ou passez à un autre contrôle.'),
+  ),
+  'turtle-ride': checklist(
+    'control',
+    lt('Kiểm head pressure, wrist control, hook, và branch.', 'Check head pressure, wrist control, hook, and branch.', 'Vérifiez la pression de tête, le contrôle du wrist, le hook et la branche.'),
+    [
+      check('turtle-head', lt('Head pressure on shoulder', 'Head pressure on shoulder', 'Pression de tête sur l’épaule'), lt('Đầu bạn có đè vai để giữ họ thấp không?', 'Is your head pressing the shoulder to keep them low?', 'Votre tête presse-t-elle l’épaule pour les garder bas ?'), lt('Turtle bị giữ flat.', 'The turtle stays flat.', 'Le turtle reste à plat.'), lt('Đầu nhẹ và xa.', 'Light head and distance.', 'Tête légère et loin.'), lt('Head heavy.', 'Head heavy.', 'Tête lourde.'), ['head', 'shoulders', 'ears'], 'critical', ['turtle-ride']),
+      check('turtle-wrist', lt('Wrist control', 'Wrist control', 'Contrôle du wrist'), lt('Bạn còn giữ wrist/arm control không?', 'Are you still keeping wrist or arm control?', 'Gardez-vous encore le contrôle du wrist ou du bras ?'), lt('Họ khó post.', 'They struggle to post.', 'Ils ont du mal à poster.'), lt('Bỏ tay.', 'Dropping the hands.', 'Lâcher les mains.'), lt('Hands first.', 'Hands first.', 'Mains d’abord.'), ['hands', 'wrists', 'forearms'], 'critical', ['hand-fighting']),
+      check('turtle-hook', lt('Hook near leg', 'Hook the near leg', 'Hookez la jambe proche'), lt('Bạn có giữ hook vào chân gần không?', 'Are you keeping a hook on the near leg?', 'Gardez-vous un hook sur la jambe proche ?'), lt('Họ không sit out dễ.', 'They cannot sit out easily.', 'Ils ne peuvent pas facilement faire le sit out.'), lt('Hook chết.', 'Dead hook.', 'Hook mort.'), lt('Hook in.', 'Hook in.', 'Hook dedans.'), ['feet', 'toes', 'shins'], 'critical', ['turtle-ride']),
+      check('turtle-hip', lt('Low hip block', 'Low hip block', 'Blocage de hanche basse'), lt('Hông thấp có chặn sit out không?', 'Does the low hip block the sit-out?', 'La hanche basse bloque-t-elle le sit-out ?'), lt('Họ không dựng base.', 'They cannot build base.', 'Ils ne peuvent pas construire de base.'), lt('Hông cao.', 'High hips.', 'Hanches hautes.'), lt('Low base.', 'Low base.', 'Base basse.'), ['hips', 'pelvis', 'knees'], 'major', ['scramble-control']),
+      check('turtle-branch', lt('Branch early', 'Branch early', 'Branchez tôt'), lt('Nếu họ đứng lên, bạn có mat return hay back take không?', 'If they stand, do you have mat return or back take?', 'S’ils se lèvent, avez-vous un mat return ou un back take ?'), lt('Bạn luôn đi trước.', 'You stay ahead.', 'Vous gardez l’avance.'), lt('Cố một control.', 'Forcing one control.', 'Forcer un seul contrôle.'), lt('Branch early.', 'Branch early.', 'Branchez tôt.'), ['head', 'hands', 'hips'], 'major', ['mat-return-basics']),
+      check('turtle-stay', lt('Stay behind the line', 'Stay behind the line', 'Restez derrière la ligne'), lt('Bạn có stay behind their shoulder line không?', 'Are you staying behind their shoulder line?', 'Restez-vous derrière leur ligne d’épaule ?'), lt('Họ khó quay ra.', 'They struggle to turn out.', 'Ils ont du mal à tourner dehors.'), lt('Đi quá trước vai.', 'Going too far in front of the shoulders.', 'Passer trop devant les épaules.'), lt('Stay behind.', 'Stay behind.', 'Restez derrière.'), ['chest', 'shoulders', 'head'], 'major', ['back-control']),
+    ],
+    70,
+    lt('Turtle ride đủ tốt để follow hoặc branch.', 'The turtle ride is good enough to follow or branch.', 'Le turtle ride est assez bon pour suivre ou brancher.'),
+    lt('Mat return hoặc back take.', 'Mat return or back take.', 'Mat return ou back take.'),
+  ),
 }
+
+Object.assign(qualityChecklists, extraQualityChecklists)
 
 export const qualityChecklistsBySkillId = new Map<string, TechniqueQualityChecklist>(
   Object.entries(qualityChecklists),

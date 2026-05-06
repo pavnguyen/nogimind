@@ -4,6 +4,7 @@ import { AGameBuilder } from '../components/gameTree/AGameBuilder'
 import { GameTreeBoard } from '../components/gameTree/GameTreeBoard'
 import { GameTreeGraph } from '../components/graphs/GameTreeGraph'
 import { SectionCard } from '../components/common/SectionCard'
+import { PagePurposeBanner } from '../components/learning/PagePurposeBanner'
 import { useArchetypesQuery } from '../queries/archetypeQueries'
 import { useGameTreeQuery, useUpdateGameTreeMutation } from '../queries/gameTreeQueries'
 import { useSkillsQuery } from '../queries/skillQueries'
@@ -25,10 +26,13 @@ export default function GameTreePage() {
 
   return (
     <div className="space-y-6">
-      <div>
-        <h1 className="text-3xl font-semibold text-white">{t('gameTree.heading')}</h1>
-        <p className="mt-2 max-w-3xl text-slate-400">{t('gameTree.subtitle')}</p>
-      </div>
+      <PagePurposeBanner
+        title={t('gameTree.heading')}
+        purpose={t('gameTree.whatFor')}
+        whenToUse={t('gameTree.whenToUse')}
+        bestNextStepLabel={t('gameTree.nextStep')}
+        bestNextStepTo="/archetypes"
+      />
       <SectionCard title={t('gameTree.builder')} description={t('gameTree.applyArchetype')}>
         <AGameBuilder onApply={applyArchetype} />
       </SectionCard>

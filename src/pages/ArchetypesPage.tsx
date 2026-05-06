@@ -5,6 +5,7 @@ import { ArrowRight } from 'lucide-react'
 import { Badge } from '../components/common/Badge'
 import { EmptyState } from '../components/common/EmptyState'
 import { SectionCard } from '../components/common/SectionCard'
+import { PagePurposeBanner } from '../components/learning/PagePurposeBanner'
 import { useArchetypesQuery } from '../queries/archetypeQueries'
 import { useSettingsStore } from '../stores/useSettingsStore'
 import { getLocalizedArray, getLocalizedText } from '../utils/localization'
@@ -45,10 +46,13 @@ export default function ArchetypesPage() {
 
   return (
     <div className="space-y-6">
-      <div>
-        <h1 className="text-3xl font-semibold text-white">{t('archetypes.heading')}</h1>
-        <p className="mt-2 max-w-3xl text-slate-400">{t('archetypes.subtitle')}</p>
-      </div>
+      <PagePurposeBanner
+        title={t('archetypes.heading')}
+        purpose={t('archetypes.whatFor')}
+        whenToUse={t('archetypes.whenToUse')}
+        bestNextStepLabel={t('archetypes.nextStep')}
+        bestNextStepTo="/game-tree"
+      />
 
       <input
         value={query}

@@ -6,6 +6,29 @@ export const getLocalizedText = (text: LocalizedText | undefined, lang: Language
 export const getLocalizedArray = (text: LocalizedStringArray | undefined, lang: LanguageCode): string[] =>
   text?.[lang] || text?.en || text?.vi || []
 
+const needsGloss = (value: string) => {
+  const trimmed = value.trim()
+  return trimmed.length > 0 && trimmed.length <= 120
+}
+
+export const getLocalizedTechnicalText = (text: LocalizedText | undefined, lang: LanguageCode): string => {
+  const primary = getLocalizedText(text, lang)
+  if (!text || lang === 'en') return primary
+  const gloss = text.en?.trim()
+  if (!gloss || gloss === primary || !needsGloss(primary)) return primary
+  return `${primary} (${gloss})`
+}
+
+export const getLocalizedTechnicalArray = (text: LocalizedStringArray | undefined, lang: LanguageCode): string[] => {
+  const items = getLocalizedArray(text, lang)
+  if (!text || lang === 'en') return items
+  return items.map((item, index) => {
+    const gloss = text.en?.[index]?.trim()
+    if (!gloss || gloss === item || !needsGloss(item)) return item
+    return `${item} (${gloss})`
+  })
+}
+
 const domainLabels: Record<SkillDomain, LocalizedText> = {
   positional_awareness: { vi: 'Nhận thức vị trí', en: 'Positional Awareness', fr: 'Conscience positionnelle' },
   survival_defense: { vi: 'Sinh tồn & phòng thủ', en: 'Survival & Defense', fr: 'Survie & défense' },

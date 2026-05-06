@@ -4,6 +4,7 @@ import { ArrowLeft } from 'lucide-react'
 import { Badge } from '../components/common/Badge'
 import { NotFound } from '../components/common/NotFound'
 import { SectionCard } from '../components/common/SectionCard'
+import { NextStepStrip } from '../components/learning/NextStepStrip'
 import { RelatedKnowledgePanel } from '../components/knowledge/RelatedKnowledgePanel'
 import { useConceptQuery, useConceptsQuery } from '../queries/conceptQueries'
 import { useSkillsQuery } from '../queries/skillQueries'
@@ -113,6 +114,17 @@ export default function ConceptDetailPage() {
       </div>
 
       <RelatedKnowledgePanel lang={language} groups={getConceptKnowledgeLinks(concept.id)} />
+
+      <NextStepStrip
+        title={t('concepts.nextStep')}
+        items={[
+          concept.relatedSkillIds[0]
+            ? { title: t('common.relatedSkills'), body: t('concepts.appliedHere'), to: `/skills/${concept.relatedSkillIds[0]}` }
+            : { title: t('common.relatedSkills'), body: t('concepts.appliedHere'), to: '/skills' },
+          { title: t('microDetails.heading'), body: t('concepts.trainingCues'), to: '/micro-details' },
+          { title: t('positions.heading'), body: t('concepts.relatedConcepts'), to: '/positions' },
+        ]}
+      />
     </div>
   )
 }

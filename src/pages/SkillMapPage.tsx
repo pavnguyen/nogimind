@@ -3,6 +3,7 @@ import { useSearchParams } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import { EmptyState } from '../components/common/EmptyState'
 import { SectionCard } from '../components/common/SectionCard'
+import { PagePurposeBanner } from '../components/learning/PagePurposeBanner'
 import { SkillGraph } from '../components/graphs/SkillGraph'
 import { SkillCard } from '../components/skills/SkillCard'
 import { SkillSearchFilters } from '../components/skills/SkillSearchFilters'
@@ -36,10 +37,13 @@ export default function SkillMapPage() {
 
   return (
     <div className="space-y-6">
-      <div>
-        <h1 className="text-3xl font-semibold text-white">{t('skills.heading')}</h1>
-        <p className="mt-2 max-w-3xl text-slate-400">{t('skills.subtitle')}</p>
-      </div>
+      <PagePurposeBanner
+        title={t('skills.heading')}
+        purpose={t('skills.whatFor')}
+        whenToUse={t('skills.whenToUse')}
+        bestNextStepLabel={t('skills.nextStep')}
+        bestNextStepTo="/learn"
+      />
       <SkillSearchFilters skills={skills} />
       {view === 'graph' ? (
         <SkillGraph skills={filtered} filters={{ domain, level, tag }} lang={language} />

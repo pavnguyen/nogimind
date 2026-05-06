@@ -5,7 +5,7 @@ import { Badge } from '../common/Badge'
 import { SectionCard } from '../common/SectionCard'
 import { QualityCheckCard } from './QualityCheckCard'
 import type { LanguageCode, QualityCheckAnswer, QualityCheckSeverity, TechniqueQualityChecklist } from '../../types/skill'
-import { getLocalizedText } from '../../utils/localization'
+import { getLocalizedTechnicalText } from '../../utils/localization'
 
 type Props = {
   skillId: string
@@ -81,7 +81,7 @@ export const TechniqueQualityChecklistSection = ({ skillId, system, lang, viewMo
   return (
     <SectionCard
       title={t('qualityChecklist.heading')}
-      description={getLocalizedText(system.overview, lang)}
+      description={getLocalizedTechnicalText(system.overview, lang)}
       action={<Badge tone={score >= system.passThreshold ? 'emerald' : 'amber'}>{score}%</Badge>}
     >
       <div className="space-y-4">
@@ -89,7 +89,7 @@ export const TechniqueQualityChecklistSection = ({ skillId, system, lang, viewMo
           <div className="flex flex-wrap items-center gap-2">
             <Badge tone="cyan">{t('qualityChecklist.score')}</Badge>
             <span className="text-sm text-slate-300">
-              {score >= system.passThreshold ? getLocalizedText(system.ifPassed, lang) : getLocalizedText(system.ifFailed, lang)}
+              {score >= system.passThreshold ? getLocalizedTechnicalText(system.ifPassed, lang) : getLocalizedTechnicalText(system.ifFailed, lang)}
             </span>
           </div>
           <div className="mt-3 h-2 overflow-hidden rounded-full bg-slate-800">
@@ -104,7 +104,7 @@ export const TechniqueQualityChecklistSection = ({ skillId, system, lang, viewMo
           <div className="rounded-lg border border-rose-400/15 bg-rose-400/10 p-4">
             <p className="text-sm font-semibold text-rose-100">{t('qualityChecklist.criticalFailures')}</p>
             <ul className="mt-3 grid gap-2 text-sm leading-6 text-rose-50 md:grid-cols-2">
-              {criticalFailures.map((item) => <li key={item.id} className="rounded-md border border-rose-300/15 bg-slate-950/40 p-3">{getLocalizedText(item.title, lang)}</li>)}
+              {criticalFailures.map((item) => <li key={item.id} className="rounded-md border border-rose-300/15 bg-slate-950/40 p-3">{getLocalizedTechnicalText(item.title, lang)}</li>)}
             </ul>
           </div>
         ) : null}
@@ -115,8 +115,8 @@ export const TechniqueQualityChecklistSection = ({ skillId, system, lang, viewMo
             <ul className="mt-3 grid gap-2 md:grid-cols-2">
               {suggestedFixes.map((item) => (
                 <li key={item.id} className="rounded-md border border-white/10 bg-slate-900/60 p-3 text-sm leading-6 text-slate-300">
-                  <span className="font-semibold text-cyan-100">{getLocalizedText(item.title, lang)}</span>
-                  <p className="mt-1 text-slate-400">{getLocalizedText(item.quickFix, lang)}</p>
+                  <span className="font-semibold text-cyan-100">{getLocalizedTechnicalText(item.title, lang)}</span>
+                  <p className="mt-1 text-slate-400">{getLocalizedTechnicalText(item.quickFix, lang)}</p>
                   {item.relatedMicroDetailIds?.length ? (
                     <Link to={`/micro-details?skill=${skillId}`} className="mt-2 inline-flex text-xs font-medium text-cyan-200 hover:text-cyan-100">
                       {t('qualityChecklist.openMicroDetails')}

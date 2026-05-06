@@ -5,6 +5,7 @@ import { ArrowRight } from 'lucide-react'
 import { Badge } from '../components/common/Badge'
 import { EmptyState } from '../components/common/EmptyState'
 import { SectionCard } from '../components/common/SectionCard'
+import { PagePurposeBanner } from '../components/learning/PagePurposeBanner'
 import { useSkillsQuery } from '../queries/skillQueries'
 import { useSettingsStore } from '../stores/useSettingsStore'
 import { getTechniqueChains } from '../utils/knowledgeModules'
@@ -33,10 +34,13 @@ export default function TechniqueChainsPage() {
 
   return (
     <div className="space-y-6">
-      <div>
-        <h1 className="text-3xl font-semibold text-white">{t('chains.heading')}</h1>
-        <p className="mt-2 max-w-3xl text-slate-400">{t('chains.subtitle')}</p>
-      </div>
+      <PagePurposeBanner
+        title={t('chains.heading')}
+        purpose={t('chains.whatFor')}
+        whenToUse={t('chains.whenToUse')}
+        bestNextStepLabel={t('chains.nextStep')}
+        bestNextStepTo="/skills"
+      />
 
       <input
         value={query}

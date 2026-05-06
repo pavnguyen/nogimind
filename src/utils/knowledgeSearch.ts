@@ -92,6 +92,11 @@ const grapplingTermAliases: Record<string, string[]> = {
   bodylock: ['bodylock', 'bodylok'],
   heelhook: ['heelhook', 'heel', 'hook'],
   wrestleup: ['wrestleup', 'wrestle'],
+  'single leg x': ['single leg x', 'slx', 'single-leg-x', 'singlelegx'],
+  'k guard': ['k guard', 'k-guard', 'kguard'],
+  'front headlock': ['front headlock', 'fhl'],
+  'rear naked choke': ['rear naked choke', 'rnc'],
+  'arm triangle': ['arm triangle', 'armtri'],
 }
 
 const processSearchTerm = (term: string) => {
@@ -101,6 +106,28 @@ const processSearchTerm = (term: string) => {
 }
 
 const tokenizeSearchText = (text: string) => text.split(/[^\p{Letter}\p{Number}]+/u).filter(Boolean)
+
+const buildQueryVariants = (query: string) => {
+  const normalized = normalizeSearchTerm(query)
+  if (!normalized) return []
+
+  const variants = new Set<string>()
+  variants.add(normalized)
+
+  const tokens = tokenizeSearchText(normalized).filter((token) => token.length >= 2)
+  tokens.forEach((token) => variants.add(token))
+
+  Object.entries(grapplingTermAliases).forEach(([key, values]) => {
+    const keyNormalized = normalizeSearchTerm(key)
+    if (normalized.includes(keyNormalized)) values.forEach((value) => variants.add(normalizeSearchTerm(value)))
+    values.forEach((value) => {
+      const valueNormalized = normalizeSearchTerm(value)
+      if (normalized.includes(valueNormalized)) variants.add(keyNormalized)
+    })
+  })
+
+  return [...variants].filter(Boolean)
+}
 
 const fieldText = (fields: SearchField[], predicate: (searchField: SearchField) => boolean) =>
   fields
@@ -303,7 +330,7 @@ const archetypeDocument = (archetype: GrapplingArchetype, lang: LanguageCode): S
 
 const microDetailDocuments = (lang: LanguageCode): SearchDocument[] =>
   getMicroDetails(skillNodes).map((detail) => ({
-    id: detail.id,
+    id: `${detail.skillId}:${detail.id}`,
     type: 'micro_detail',
     title: detail.title,
     description: detail.instruction,
@@ -319,7 +346,7 @@ const microDetailDocuments = (lang: LanguageCode): SearchDocument[] =>
 
 const chainDocuments = (lang: LanguageCode): SearchDocument[] =>
   getTechniqueChains(skillNodes).map((chain) => ({
-    id: chain.id,
+    id: `chain:${chain.id}`,
     type: 'technique_chain',
     title: chain.title,
     description: chain.endGoal,
@@ -336,7 +363,7 @@ const chainDocuments = (lang: LanguageCode): SearchDocument[] =>
 
 const troubleshooterDocuments = (lang: LanguageCode): SearchDocument[] =>
   getTroubleshooters(skillNodes, lang).map((item) => ({
-    id: item.id,
+    id: `troubleshooter:${item.skillId}:${item.id}`,
     type: 'troubleshooter',
     title: item.title,
     description: item.overview,
@@ -353,7 +380,7 @@ const troubleshooterDocuments = (lang: LanguageCode): SearchDocument[] =>
 
 const escapeMapDocuments = (lang: LanguageCode): SearchDocument[] =>
   getEscapeMaps(skillNodes, lang).map((map) => ({
-    id: map.id,
+    id: `escape-map:${map.skillId}:${map.id}`,
     type: 'escape_map',
     title: map.title,
     description: map.overview,
@@ -433,22 +460,63 @@ export const searchKnowledge = (
   const normalizedQuery = query.trim().toLowerCase()
   if (!normalizedQuery) return []
 
-  return getSearchIndex(lang)
-    .search(normalizedQuery, {
+  const index = getSearchIndex(lang)
+  const variants = buildQueryVariants(normalizedQuery)
+  const merged = new Map<string, KnowledgeSearchResult & { rawScore: number }>()
+
+  const variantWeights = variants.map((_, indexPosition) => (indexPosition === 0 ? 1 : indexPosition === 1 ? 0.85 : indexPosition === 2 ? 0.7 : 0.55))
+
+  variants.forEach((variant, indexPosition) => {
+    const weight = variantWeights[indexPosition] ?? 0.5
+    const results = index.search(variant, {
       filter: (result) => !filters.type || result.type === filters.type,
     })
-    .map((result) => {
+
+    results.forEach((result) => {
       const storedResult = result as StoredSearchResult
-      return {
+      const id = storedResult.sourceId
+      const baseScore = Math.max(1, storedResult.score)
+      const current = merged.get(id)
+      const nextScore = baseScore * weight
+
+      if (current) {
+        current.rawScore = Math.max(current.rawScore, nextScore)
+        current.score = Math.max(current.score, Math.round(nextScore))
+        current.matchedFields = [...new Set([...current.matchedFields, ...getMatchedFields(storedResult)])]
+        return
+      }
+
+      merged.set(id, {
         id: storedResult.sourceId,
         type: storedResult.type,
         title: storedResult.title,
         description: storedResult.description,
         tags: storedResult.tags,
         url: storedResult.url,
-        score: Math.max(1, Math.round(storedResult.score)),
+        score: Math.max(1, Math.round(nextScore)),
         matchedFields: getMatchedFields(storedResult),
-      }
+        rawScore: nextScore,
+      })
     })
-    .sort((a, b) => b.score - a.score || getLocalizedText(a.title, lang).localeCompare(getLocalizedText(b.title, lang)))
+  })
+
+  const results = [...merged.values()]
+  const queryNorm = normalizeSearchTerm(normalizedQuery)
+
+  const exactBoosted = results.map((result) => {
+    const title = normalizeSearchTerm(getLocalizedText(result.title, lang))
+    const description = normalizeSearchTerm(getLocalizedText(result.description, lang))
+    const tagText = normalizeSearchTerm(result.tags.join(' '))
+    let bonus = 0
+    if (title === queryNorm) bonus += 60
+    if (title.includes(queryNorm)) bonus += 30
+    if (description.includes(queryNorm)) bonus += 10
+    if (tagText.includes(queryNorm)) bonus += 8
+    return {
+      ...result,
+      score: Math.max(1, Math.round(result.score + bonus)),
+    }
+  })
+
+  return exactBoosted.sort((a, b) => b.score - a.score || getLocalizedText(a.title, lang).localeCompare(getLocalizedText(b.title, lang)))
 }

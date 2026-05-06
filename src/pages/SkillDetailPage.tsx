@@ -23,6 +23,8 @@ import { TechnicalDetailsSection } from '../components/skills/TechnicalDetailsSe
 import { SharedKnowledgePanel } from '../components/sharedKnowledge/SharedKnowledgePanel'
 import { NextBestStepPanel } from '../components/knowledge/NextBestStepPanel'
 import { RelatedKnowledgePanel } from '../components/knowledge/RelatedKnowledgePanel'
+import { QuickCard } from '../components/skills/QuickCard'
+import { ViewModeSwitcher } from '../components/common/ViewModeSwitcher'
 import { useArchetypesQuery } from '../queries/archetypeQueries'
 import { useConceptsQuery } from '../queries/conceptQueries'
 import { useDefensiveLayersQuery } from '../queries/defenseQueries'
@@ -130,6 +132,13 @@ export default function SkillDetailPage() {
             </div>
             <h1 className="mt-4 text-3xl font-semibold text-white">{getLocalizedText(skill.title, language)}</h1>
             <p className="mt-3 max-w-4xl text-slate-400">{getLocalizedText(skill.shortDescription, language)}</p>
+            <p className="mt-3 max-w-4xl text-sm leading-6 text-slate-300">
+              <span className="font-semibold text-slate-100">{t('detail.useThisSkillWhen')}: </span>
+              {getLocalizedText(skill.situation, language)}
+            </p>
+          </div>
+          <div className="flex flex-wrap gap-2 lg:justify-end">
+            <ViewModeSwitcher />
           </div>
         </div>
         <div className="mt-5 flex flex-wrap gap-2">
@@ -150,15 +159,22 @@ export default function SkillDetailPage() {
         <SkillQuickMode skill={skill} lang={language} fullDetailPath={`/skills/${skill.id}`} />
       ) : (
         <>
-      <NextBestStepPanel skillId={skill.id} lang={language} />
+      {skill.quickCard ? (
+        <SectionCard title={t('detail.quickStart')} description={getLocalizedText(skill.quickCard.goal, language)}>
+          <QuickCard card={skill.quickCard} lang={language} />
+        </SectionCard>
+      ) : null}
 
-      <DetailGroupHeading title={t('detailGroups.understand')} />
+      {viewMode !== 'simple' ? <DetailGroupHeading title={t('detailGroups.understand')} /> : null}
+      {viewMode !== 'simple' ? (
       <div className="grid gap-6 xl:grid-cols-3">
         <SectionCard title={t('detail.why')}><p className="leading-7 text-slate-300">{getLocalizedText(skill.whyItMatters, language)}</p></SectionCard>
         <SectionCard title={t('detail.situation')}><p className="leading-7 text-slate-300">{getLocalizedText(skill.situation, language)}</p></SectionCard>
         <SectionCard title={t('detail.goal')}><p className="leading-7 text-slate-300">{getLocalizedText(skill.primaryGoal, language)}</p></SectionCard>
       </div>
+      ) : null}
 
+      {viewMode !== 'simple' ? (
       <SectionCard title={t('detail.concepts')}>
         <ul className="space-y-2 text-sm leading-6 text-slate-300">
           {getLocalizedArray(skill.keyConcepts, language).map((concept) => (
@@ -166,10 +182,12 @@ export default function SkillDetailPage() {
           ))}
         </ul>
       </SectionCard>
+      ) : null}
       {relatedConcepts.length ? (
+        viewMode !== 'simple' ? (
         <SectionCard title={t('concepts.appliedHere')}>
           <div className="grid gap-3 md:grid-cols-2">
-            {relatedConcepts.slice(0, viewMode === 'simple' ? 4 : relatedConcepts.length).map((concept) => (
+            {relatedConcepts.slice(0, relatedConcepts.length).map((concept) => (
               <Link key={concept.id} to={`/concepts/${concept.id}`} className="rounded-lg border border-white/10 bg-slate-900/60 p-4 hover:bg-white/10">
                 <p className="text-sm font-semibold text-cyan-100">{getLocalizedText(concept.title, language)}</p>
                 <p className="mt-2 text-sm leading-6 text-slate-400">{getLocalizedText(concept.shortDefinition, language)}</p>
@@ -177,11 +195,13 @@ export default function SkillDetailPage() {
             ))}
           </div>
         </SectionCard>
+        ) : null
       ) : null}
       {relatedPositions.length ? (
+        viewMode !== 'simple' ? (
         <SectionCard title={t('positions.relatedPositions')}>
           <div className="grid gap-3 md:grid-cols-2">
-            {relatedPositions.slice(0, viewMode === 'simple' ? 4 : relatedPositions.length).map((position) => (
+            {relatedPositions.slice(0, relatedPositions.length).map((position) => (
               <Link key={position.id} to={`/positions/${position.id}`} className="rounded-lg border border-white/10 bg-slate-900/60 p-4 hover:bg-white/10">
                 <p className="text-sm font-semibold text-emerald-100">{getLocalizedText(position.title, language)}</p>
                 <p className="mt-2 text-sm leading-6 text-slate-400">{getLocalizedText(position.description, language)}</p>
@@ -189,32 +209,33 @@ export default function SkillDetailPage() {
             ))}
           </div>
         </SectionCard>
+        ) : null
       ) : null}
 
-      {skill.microDetailSystem ? <MicroDetailSystemSection system={skill.microDetailSystem} lang={language} /> : null}
+      {skill.microDetailSystem ? <MicroDetailSystemSection system={skill.microDetailSystem} lang={language} viewMode={viewMode} /> : null}
       {skill.qualityChecklist ? <TechniqueQualityChecklistSection skillId={skill.id} system={skill.qualityChecklist} lang={language} viewMode={viewMode} /> : null}
 
-      <DetailGroupHeading title={t('detailGroups.execute')} />
-      {skill.bodyMechanicsSystem ? <BodyMechanicsSystem system={skill.bodyMechanicsSystem} lang={language} viewMode={viewMode} /> : null}
-      {skill.technicalDetails ? <TechnicalDetailsSection system={skill.technicalDetails} lang={language} viewMode={viewMode} /> : null}
-      <SectionCard title={t('detail.bodyChecklist')}><BodyChecklist checklist={skill.bodyChecklist} lang={language} /></SectionCard>
-      <SectionCard title={t('detail.decisionTree')}><DecisionTree branches={skill.decisionTree} lang={language} /></SectionCard>
-      {(sharedPrinciples.length || sharedCues.length || sharedErrors.length || sharedSafety.length || sharedMechanics.length) ? (
+      {viewMode === 'advanced' ? <DetailGroupHeading title={t('detailGroups.execute')} /> : null}
+      {viewMode === 'advanced' && skill.bodyMechanicsSystem ? <BodyMechanicsSystem system={skill.bodyMechanicsSystem} lang={language} viewMode={viewMode} /> : null}
+      {viewMode === 'advanced' && skill.technicalDetails ? <TechnicalDetailsSection system={skill.technicalDetails} lang={language} viewMode={viewMode} /> : null}
+      {viewMode === 'advanced' ? <SectionCard title={t('detail.bodyChecklist')}><BodyChecklist checklist={skill.bodyChecklist} lang={language} /></SectionCard> : null}
+      {viewMode === 'advanced' ? <SectionCard title={t('detail.decisionTree')}><DecisionTree branches={skill.decisionTree} lang={language} /></SectionCard> : null}
+      {viewMode === 'advanced' && (sharedPrinciples.length || sharedCues.length || sharedErrors.length || sharedSafety.length || sharedMechanics.length) ? (
         <SharedKnowledgePanel lang={language} principles={sharedPrinciples} cues={sharedCues} errors={sharedErrors} safety={sharedSafety} mechanics={sharedMechanics} />
       ) : null}
 
       {viewMode === 'advanced' ? <SectionCard title={t('detail.systemGraph')}><SkillSystemGraph skill={skill} allSkills={skills} lang={language} /></SectionCard> : null}
 
-      <DetailGroupHeading title={t('detailGroups.adapt')} />
-      {skill.ifThenDecisions?.length ? (
+      {viewMode !== 'simple' ? <DetailGroupHeading title={t('detailGroups.adapt')} /> : null}
+      {viewMode !== 'simple' && skill.ifThenDecisions?.length ? (
         <SectionCard title={t('detail.ifThenDecisions')}>
           <IfThenDecisionList decisions={skill.ifThenDecisions} skillsById={byId} lang={language} />
         </SectionCard>
       ) : null}
-      {techniqueChain ? (
+      {viewMode !== 'simple' && techniqueChain ? (
         <SectionCard title={t('chains.heading')} action={<Link to={`/chains?q=${encodeURIComponent(getLocalizedText(skill.title, 'en'))}`} className="rounded-md border border-cyan-300/20 px-3 py-2 text-sm font-medium text-cyan-100 hover:bg-white/10">{t('common.open')}</Link>}>
           <div className="grid gap-2 md:grid-cols-2 xl:grid-cols-3">
-            {techniqueChain.steps.slice(0, viewMode === 'simple' ? 3 : 6).map((step, index) => (
+            {techniqueChain.steps.slice(0, 6).map((step, index) => (
               <div key={step.id} className="rounded-md border border-white/10 bg-slate-900/60 p-3">
                 <Badge tone="emerald">{index + 1}</Badge>
                 <p className="mt-2 text-sm font-semibold text-white">{getLocalizedText(step.title, language)}</p>
@@ -224,10 +245,10 @@ export default function SkillDetailPage() {
           </div>
         </SectionCard>
       ) : null}
-      {escapeMap ? (
+      {viewMode !== 'simple' && escapeMap ? (
         <SectionCard title={t('escapeMaps.heading')} action={<Link to={`/escape-maps/${skill.id}`} className="rounded-md border border-cyan-300/20 px-3 py-2 text-sm font-medium text-cyan-100 hover:bg-white/10">{t('common.open')}</Link>}>
           <div className="space-y-3">
-            {escapeMap.routes.slice(0, viewMode === 'simple' ? 3 : 6).map((route) => (
+            {escapeMap.routes.slice(0, 6).map((route) => (
               <div key={route.id} className="rounded-md border border-white/10 bg-slate-900/60 p-3">
                 <p className="text-sm font-semibold text-white">{getLocalizedText(route.title, language)}</p>
                 <p className="mt-2 text-sm leading-6 text-slate-400">{getLocalizedText(route.prevention, language)}</p>
@@ -236,10 +257,10 @@ export default function SkillDetailPage() {
           </div>
         </SectionCard>
       ) : null}
-      <SectionCard title={t('detail.dangerSignals')}>
+      {viewMode !== 'simple' ? <SectionCard title={t('detail.dangerSignals')}>
         <DangerSignals signals={skill.dangerSignals} lang={language} />
-      </SectionCard>
-      <SectionCard title={t('detail.failureResponses')}><FailureResponses failures={skill.failureResponses} lang={language} /></SectionCard>
+      </SectionCard> : null}
+      {viewMode !== 'simple' ? <SectionCard title={t('detail.failureResponses')}><FailureResponses failures={skill.failureResponses} lang={language} /></SectionCard> : null}
       {skill.reactionBranches?.length && viewMode !== 'simple' ? (
         <SectionCard title={t('detail.reactionBranches')}>
           <ReactionBranchList branches={skill.reactionBranches} skillsById={byId} lang={language} />
@@ -319,6 +340,8 @@ export default function SkillDetailPage() {
           </div>
         </SectionCard>
       ) : null}
+      <DetailGroupHeading title={t('detailGroups.nextStep')} />
+      <NextBestStepPanel skillId={skill.id} lang={language} />
       <RelatedKnowledgePanel lang={language} groups={knowledgeGroups} />
         </>
       )}

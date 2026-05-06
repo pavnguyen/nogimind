@@ -5,6 +5,7 @@ import { ArrowRight } from 'lucide-react'
 import { Badge } from '../components/common/Badge'
 import { EmptyState } from '../components/common/EmptyState'
 import { SectionCard } from '../components/common/SectionCard'
+import { PagePurposeBanner } from '../components/learning/PagePurposeBanner'
 import { conceptCategories } from '../data/concepts'
 import { useConceptsQuery } from '../queries/conceptQueries'
 import { useSettingsStore } from '../stores/useSettingsStore'
@@ -48,10 +49,13 @@ export default function ConceptsPage() {
 
   return (
     <div className="space-y-6">
-      <div>
-        <h1 className="text-3xl font-semibold text-white">{t('concepts.heading')}</h1>
-        <p className="mt-2 max-w-3xl text-slate-400">{t('concepts.subtitle')}</p>
-      </div>
+      <PagePurposeBanner
+        title={t('concepts.heading')}
+        purpose={t('concepts.whatFor')}
+        whenToUse={t('concepts.whenToUse')}
+        bestNextStepLabel={t('concepts.nextStep')}
+        bestNextStepTo="/skills"
+      />
 
       <div className="grid gap-3 lg:grid-cols-[1fr_260px]">
         <input
@@ -73,7 +77,7 @@ export default function ConceptsPage() {
       </div>
 
       <SectionCard>
-        {!filtered.length ? <EmptyState title={t('concepts.empty')} /> : null}
+        {!filtered.length ? <EmptyState title={t('concepts.empty')} description={t('concepts.nextStep')} /> : null}
         <div className="grid gap-4 xl:grid-cols-2">
           {filtered.map((concept) => (
             <article key={concept.id} className="rounded-lg border border-white/10 bg-slate-950/65 p-4 transition hover:border-cyan-300/35 hover:bg-white/[0.06]">

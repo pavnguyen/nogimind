@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import { Badge } from '../components/common/Badge'
 import { SectionCard } from '../components/common/SectionCard'
+import { PagePurposeBanner } from '../components/learning/PagePurposeBanner'
 import { masteryStages } from '../data/masteryStages'
 import { useConceptsQuery } from '../queries/conceptQueries'
 import { useSkillsQuery } from '../queries/skillQueries'
@@ -18,10 +19,13 @@ export default function MasteryMapPage() {
 
   return (
     <div className="space-y-6">
-      <div>
-        <h1 className="text-3xl font-semibold text-white">{t('mastery.heading')}</h1>
-        <p className="mt-2 max-w-3xl text-slate-400">{t('mastery.subtitle')}</p>
-      </div>
+      <PagePurposeBanner
+        title={t('mastery.heading')}
+        purpose={t('mastery.whatFor')}
+        whenToUse={t('mastery.whenToUse')}
+        bestNextStepLabel={t('mastery.nextStep')}
+        bestNextStepTo="/learn"
+      />
 
       <div className="space-y-4">
         {masteryStages.map((stage) => (

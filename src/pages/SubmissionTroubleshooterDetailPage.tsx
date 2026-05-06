@@ -4,6 +4,7 @@ import { ArrowLeft, ArrowRight } from 'lucide-react'
 import { Badge } from '../components/common/Badge'
 import { NotFound } from '../components/common/NotFound'
 import { SectionCard } from '../components/common/SectionCard'
+import { NextStepStrip } from '../components/learning/NextStepStrip'
 import { RelatedKnowledgePanel } from '../components/knowledge/RelatedKnowledgePanel'
 import { useConceptsQuery } from '../queries/conceptQueries'
 import { useSkillsQuery } from '../queries/skillQueries'
@@ -86,6 +87,15 @@ export default function SubmissionTroubleshooterDetailPage() {
       ) : null}
 
       <RelatedKnowledgePanel lang={lang} groups={getTroubleshooterKnowledgeLinks(skill.id)} />
+
+      <NextStepStrip
+        title={t('troubleshooters.nextStep')}
+        items={[
+          { title: t('common.skill'), body: t('troubleshooters.skillDetailPrompt'), to: `/skills/${skill.id}` },
+          { title: t('microDetails.heading'), body: t('troubleshooters.guidedDiagnosisBody'), to: `/micro-details?skill=${skill.id}` },
+          { title: t('escapeMaps.heading'), body: t('troubleshooters.guidedDiagnosisBody'), to: `/escape-maps/${skill.id}` },
+        ]}
+      />
     </div>
   )
 }

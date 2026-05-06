@@ -4,6 +4,7 @@ import { useTranslation } from 'react-i18next'
 import { ArrowRight } from 'lucide-react'
 import { Badge } from '../components/common/Badge'
 import { EmptyState } from '../components/common/EmptyState'
+import { PagePurposeBanner } from '../components/learning/PagePurposeBanner'
 import { useSkillsQuery } from '../queries/skillQueries'
 import { useSettingsStore } from '../stores/useSettingsStore'
 import { getMicroDetails } from '../utils/knowledgeModules'
@@ -58,10 +59,13 @@ export default function MicroDetailsPage() {
 
   return (
     <div className="space-y-6">
-      <div>
-        <h1 className="text-3xl font-semibold text-white">{t('microDetails.heading')}</h1>
-        <p className="mt-2 max-w-3xl text-slate-400">{t('microDetails.subtitle')}</p>
-      </div>
+      <PagePurposeBanner
+        title={t('microDetails.heading')}
+        purpose={t('microDetails.whatFor')}
+        whenToUse={t('microDetails.whenToUse')}
+        bestNextStepLabel={t('microDetails.nextStep')}
+        bestNextStepTo="/skills"
+      />
 
       <div className="grid gap-3 lg:grid-cols-[1fr_260px]">
         <input

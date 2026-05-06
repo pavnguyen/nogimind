@@ -3,6 +3,7 @@ import { Link, useSearchParams } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import { useVirtualizer } from '@tanstack/react-virtual'
 import { SectionCard } from '../components/common/SectionCard'
+import { PagePurposeBanner } from '../components/learning/PagePurposeBanner'
 import { useGlossaryQuery } from '../queries/glossaryQueries'
 import { useSkillsQuery } from '../queries/skillQueries'
 import { useSettingsStore } from '../stores/useSettingsStore'
@@ -47,10 +48,13 @@ export default function GlossaryPage() {
 
   return (
     <div className="space-y-6">
-      <div>
-        <h1 className="text-3xl font-semibold text-white">{t('glossary.heading')}</h1>
-        <p className="mt-2 max-w-3xl text-slate-400">{t('glossary.subtitle')}</p>
-      </div>
+      <PagePurposeBanner
+        title={t('glossary.heading')}
+        purpose={t('glossary.subtitle')}
+        whenToUse={t('search.nextStep')}
+        bestNextStepLabel={t('search.nextStep')}
+        bestNextStepTo="/search"
+      />
       <input
         value={query}
         onChange={(event) => setQuery(event.target.value)}

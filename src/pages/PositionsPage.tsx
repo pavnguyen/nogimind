@@ -5,6 +5,7 @@ import { ArrowRight } from 'lucide-react'
 import { Badge } from '../components/common/Badge'
 import { EmptyState } from '../components/common/EmptyState'
 import { SectionCard } from '../components/common/SectionCard'
+import { PagePurposeBanner } from '../components/learning/PagePurposeBanner'
 import { positionCategories } from '../data/positions'
 import { usePositionsQuery } from '../queries/positionQueries'
 import { useSettingsStore } from '../stores/useSettingsStore'
@@ -46,10 +47,13 @@ export default function PositionsPage() {
 
   return (
     <div className="space-y-6">
-      <div>
-        <h1 className="text-3xl font-semibold text-white">{t('positions.heading')}</h1>
-        <p className="mt-2 max-w-3xl text-slate-400">{t('positions.subtitle')}</p>
-      </div>
+      <PagePurposeBanner
+        title={t('positions.heading')}
+        purpose={t('positions.whatFor')}
+        whenToUse={t('positions.whenToUse')}
+        bestNextStepLabel={t('positions.nextStep')}
+        bestNextStepTo="/skills"
+      />
 
       <div className="grid gap-3 lg:grid-cols-[1fr_260px]">
         <input
@@ -69,7 +73,7 @@ export default function PositionsPage() {
       </div>
 
       <SectionCard>
-        {!filtered.length ? <EmptyState title={t('positions.empty')} /> : null}
+        {!filtered.length ? <EmptyState title={t('positions.empty')} description={t('positions.nextStep')} /> : null}
         <div className="grid gap-4 xl:grid-cols-2">
           {filtered.map((position) => (
             <article key={position.id} className="rounded-lg border border-white/10 bg-slate-950/65 p-4 transition hover:border-cyan-300/35 hover:bg-white/[0.06]">
