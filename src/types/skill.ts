@@ -1,4 +1,4 @@
-export type LanguageCode = 'vi' | 'en' | 'fr'
+export type LanguageCode =  'en' | 'vi' | 'fr'
 
 export type SkillDomain =
   | 'positional_awareness'
@@ -15,14 +15,14 @@ export type SkillDomain =
 export type SkillLevel = 'beginner' | 'intermediate' | 'advanced'
 
 export type LocalizedText = {
-  vi: string
   en: string
+  vi: string
   fr: string
 }
 
 export type LocalizedStringArray = {
-  vi: string[]
   en: string[]
+  vi: string[]
   fr: string[]
 }
 

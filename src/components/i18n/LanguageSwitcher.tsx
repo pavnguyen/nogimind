@@ -2,8 +2,8 @@ import { useSettingsStore } from '../../stores/useSettingsStore'
 import type { LanguageCode } from '../../types/skill'
 
 const languages: { code: LanguageCode; label: string }[] = [
-  { code: 'vi', label: 'Vietnamese' },
   { code: 'en', label: 'English' },
+  { code: 'vi', label: 'Tiếng Việt' },
   { code: 'fr', label: 'Français' },
 ]
 

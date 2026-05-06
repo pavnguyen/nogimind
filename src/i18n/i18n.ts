@@ -5,14 +5,14 @@ import { fr } from './resources/fr'
 import { vi } from './resources/vi'
 import type { LanguageCode } from '../types/skill'
 
-const supportedLanguages: LanguageCode[] = ['vi', 'en', 'fr']
+const supportedLanguages: LanguageCode[] = ['en', 'vi', 'fr']
 
 const storedLanguage =
   typeof window !== 'undefined' ? window.localStorage.getItem('nogi_language') : null
 
 const initialLanguage = supportedLanguages.includes(storedLanguage as LanguageCode)
   ? (storedLanguage as LanguageCode)
-  : 'vi'
+  : 'en'
 
 i18n.use(initReactI18next).init({
   resources: {
