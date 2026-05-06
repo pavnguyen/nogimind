@@ -98,7 +98,7 @@ const makeSystem = (id: string, title: string, overview: string, kind: 'control'
   return {
     overview: lt(overview, overview, overview),
     topFiveDetails: [
-      mkDetail(`${id}-entry`, 'grip', `${title} entry line`, `Get the ${titleLower} line first.`, `When the exchange starts`, `A clear entry decides the next action.`, `You attack without a line.`, `Line first.`, `Line first.`, 'both', 'close_in', ['hands', 'head', 'hips']),
+      mkDetail(`${id}-entry`, 'grip', `${title} first checkpoint`, `Win the first checkpoint for ${titleLower}.`, `When the exchange starts`, `A clear first checkpoint decides the next action.`, `You attack before winning a control checkpoint.`, `Checkpoint first.`, `Checkpoint first.`, 'both', 'close_in', ['hands', 'head', 'hips']),
       mkDetail(`${id}-head`, 'head', `${title} head line`, `Keep the head on the safe or inside side.`, `When posture or angle matters`, `Head position controls direction and timing.`, `Your head drifts away.`, 'Head in.', 'Head in.', 'inside', 'pin_in', ['head', 'shoulders', 'ears']),
       mkDetail(`${id}-hands`, 'hand', `${title} hands`, `Control hands, grips, or frames before forcing.`, `When the opponent can hand fight`, `Hands determine whether the lane stays open.`, `You ignore their hands.`, 'Win hands.', 'Win hands.', 'both', 'pin_in', ['hands', 'wrists', 'forearms']),
       mkDetail(`${id}-lower`, kind === 'safety' ? 'safety' : 'hip', `${title} lower body`, `Use hips, knees, or feet to keep angle and base.`, `When lower body connection matters`, `Lower body alignment keeps control alive.`, `Your hips float or knees drift.`, 'Lower body tight.', 'Lower body tight.', 'both', 'drive_diagonal', ['hips', 'knees', 'feet']),
@@ -112,7 +112,7 @@ const makeSystem = (id: string, title: string, overview: string, kind: 'control'
       `${id}-fast`,
       kind === 'escape' ? `${title} fast escape path` : `${title} fast path`,
       [
-        [`Win the first line for ${titleLower}.`, 'hands', 'You start without a line.'],
+        [`Win the first checkpoint for ${titleLower}.`, 'hands', 'You start before winning a control checkpoint.'],
         ['Set the head and hips.', 'head', 'Head drifts and the line breaks.'],
         ['Control hands, hooks, or frames.', 'hands', 'Hands are ignored.'],
         [kind === 'escape' ? 'Recover space and inside position.' : kind === 'guard' ? 'Keep the guard layer alive.' : kind === 'wrestling' ? 'Use the off-balance or shot.' : 'Angle for control or finish.', kind === 'control' ? 'hips' : 'knees', 'You stay square.'],
@@ -124,15 +124,15 @@ const makeSystem = (id: string, title: string, overview: string, kind: 'control'
       kind === 'safety' ? 'Train slowly and tap early.' : undefined,
     )],
     troubleshootingTips: [
-      { problem: lt(`You lose the line on ${titleLower}.`, `You lose the line on ${titleLower}.`, `Vous perdez la ligne sur ${titleLower}.`), quickFix: lt('Rebuild the first line.', 'Rebuild the first line.', 'Reconstruisez la première ligne.'), cue: lt('Line first.', 'Line first.', 'Ligne d’abord.') },
+      { problem: lt(`Bạn mất checkpoint đầu tiên trong ${titleLower}.`, `You lose the first checkpoint on ${titleLower}.`, `Vous perdez le premier checkpoint sur ${titleLower}.`), quickFix: lt('Dựng lại checkpoint kiểm soát đầu tiên.', 'Rebuild the first control checkpoint.', 'Reconstruisez le premier checkpoint de contrôle.'), cue: lt('Checkpoint trước.', 'Checkpoint first.', 'Checkpoint d’abord.') },
       { problem: lt('Your head drifts away.', 'Your head drifts away.', 'Votre tête dérive.'), quickFix: lt('Put the head back on the safe side.', 'Put the head back on the safe side.', 'Replacez la tête du bon côté.'), cue: lt('Head in.', 'Head in.', 'Tête dedans.') },
       { problem: lt('Hands are too loose.', 'Hands are too loose.', 'Les mains sont trop lâches.'), quickFix: lt('Win the hand fight again.', 'Win the hand fight again.', 'Gagnez le hand fight à nouveau.'), cue: lt('Win hands.', 'Win hands.', 'Gagnez les mains.') },
       { problem: lt('Hips float or base breaks.', 'Hips float or base breaks.', 'Les hanches flottent ou la base casse.'), quickFix: lt('Lower the hips and rebuild base.', 'Lower the hips and rebuild base.', 'Baissez les hanches et reconstruisez la base.'), cue: lt('Base first.', 'Base first.', 'Base d’abord.') },
       { problem: lt('The first lane is blocked.', 'The first lane is blocked.', 'La première ligne est bloquée.'), quickFix: lt('Branch early.', 'Branch early.', 'Branchez tôt.'), cue: lt('Branch.', 'Branch.', 'Branchez.') },
     ],
     doNotDo: la(
-      ['Đừng bỏ line đầu.', 'Đừng đẩy vuông khi cần angle.', 'Đừng để đầu trôi ra ngoài.', 'Đừng quên tay phòng thủ.', 'Đừng cố một nhánh quá lâu.'],
-      ['Do not lose the first line.', 'Do not drive square when angle is needed.', 'Do not let the head drift outside.', 'Do not forget the defensive hands.', 'Do not force one branch too long.'],
+      ['Đừng mất checkpoint đầu tiên.', 'Đừng đẩy vuông khi cần angle.', 'Đừng để đầu trôi ra ngoài.', 'Đừng quên tay phòng thủ.', 'Đừng cố một nhánh quá lâu.'],
+      ['Do not lose the first checkpoint.', 'Do not drive square when angle is needed.', 'Do not let the head drift outside.', 'Do not forget the defensive hands.', 'Do not force one branch too long.'],
       ['Ne perdez pas la première ligne.', 'Ne poussez pas carré quand l’angle est nécessaire.', 'Ne laissez pas la tête sortir.', 'N’oubliez pas les mains défensives.', 'Ne forcez pas une seule branche trop longtemps.'],
     ),
     safetyNotes: kind === 'safety' ? la(['Tap early.', 'Do not rotate blindly.', 'Train under supervision.'], ['Tap early.', 'Do not rotate blindly.', 'Train under supervision.'], ['Tapez tôt.', 'Ne tournez pas à l’aveugle.', 'Travaillez sous supervision.']) : la(['Keep the line safe.', 'Tap early when danger appears.', 'Do not force through pain.'], ['Keep the line safe.', 'Tap early when danger appears.', 'Do not force through pain.'], ['Gardez la ligne sûre.', 'Tapez tôt quand le danger apparaît.', 'Ne forcez pas à travers la douleur.']),

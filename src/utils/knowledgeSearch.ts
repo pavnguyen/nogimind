@@ -51,7 +51,7 @@ type SearchIndexDocument = {
 }
 
 type StoredSearchResult = SearchResult &
-  Pick<SearchIndexDocument, 'sourceId' | 'type' | 'title' | 'description' | 'tags' | 'url' | 'fieldLookup'>
+  Pick<SearchIndexDocument, 'sourceId' | 'type' | 'title' | 'description' | 'tags' | 'url' | 'contentText' | 'fieldLookup'>
 
 const searchIndexCache = new Map<LanguageCode, MiniSearch<SearchIndexDocument>>()
 
@@ -90,7 +90,7 @@ const normalizeSearchTerm = (text: string) =>
 const grapplingTermAliases: Record<string, string[]> = {
   guillotine: ['guillotine', 'guillotin', 'guilotine', 'gilotine', 'gilotin'],
   bodylock: ['bodylock', 'bodylok'],
-  heelhook: ['heelhook', 'heel', 'hook'],
+  heelhook: ['heelhook', 'heel hook', 'outside heel hook', 'inside heel hook'],
   wrestleup: ['wrestleup', 'wrestle'],
   'single leg x': ['single leg x', 'slx', 'single-leg-x', 'singlelegx'],
   'k guard': ['k guard', 'k-guard', 'kguard'],
@@ -172,7 +172,7 @@ const getSearchIndex = (lang: LanguageCode) => {
   const index = new MiniSearch<SearchIndexDocument>({
     idField: 'uid',
     fields: ['titleText', 'descriptionText', 'contentText', 'tagsText'],
-    storeFields: ['sourceId', 'type', 'title', 'description', 'tags', 'url', 'fieldLookup'],
+    storeFields: ['sourceId', 'type', 'title', 'description', 'tags', 'url', 'contentText', 'fieldLookup'],
     tokenize: tokenizeSearchText,
     processTerm: processSearchTerm,
     searchOptions: {
@@ -462,7 +462,7 @@ export const searchKnowledge = (
 
   const index = getSearchIndex(lang)
   const variants = buildQueryVariants(normalizedQuery)
-  const merged = new Map<string, KnowledgeSearchResult & { rawScore: number }>()
+  const merged = new Map<string, KnowledgeSearchResult & { rawScore: number; contentText: string }>()
 
   const variantWeights = variants.map((_, indexPosition) => (indexPosition === 0 ? 1 : indexPosition === 1 ? 0.85 : indexPosition === 2 ? 0.7 : 0.55))
 
@@ -496,25 +496,38 @@ export const searchKnowledge = (
         score: Math.max(1, Math.round(nextScore)),
         matchedFields: getMatchedFields(storedResult),
         rawScore: nextScore,
+        contentText: storedResult.contentText,
       })
     })
   })
 
   const results = [...merged.values()]
   const queryNorm = normalizeSearchTerm(normalizedQuery)
+  const queryTokens = tokenizeSearchText(queryNorm).filter((token) => token.length >= 2)
 
   const exactBoosted = results.map((result) => {
     const title = normalizeSearchTerm(getLocalizedText(result.title, lang))
     const description = normalizeSearchTerm(getLocalizedText(result.description, lang))
     const tagText = normalizeSearchTerm(result.tags.join(' '))
+    const content = normalizeSearchTerm(result.contentText ?? '')
+    const primaryHaystack = [title, description, tagText].join(' ')
+    const haystack = [title, description, tagText, content].join(' ')
+    const tokenCoverage = queryTokens.length
+      ? queryTokens.filter((token) => haystack.includes(token)).length / queryTokens.length
+      : 1
+    const primaryCoverage = queryTokens.length
+      ? queryTokens.filter((token) => primaryHaystack.includes(token)).length / queryTokens.length
+      : 1
     let bonus = 0
     if (title === queryNorm) bonus += 60
     if (title.includes(queryNorm)) bonus += 30
+    if (queryTokens.length > 1 && queryTokens.every((token) => title.includes(token))) bonus += 120
     if (description.includes(queryNorm)) bonus += 10
     if (tagText.includes(queryNorm)) bonus += 8
+    bonus += primaryCoverage * 80
     return {
       ...result,
-      score: Math.max(1, Math.round(result.score + bonus)),
+      score: Math.max(1, Math.round((result.score + bonus) * (0.4 + tokenCoverage * 0.6))),
     }
   })
 
