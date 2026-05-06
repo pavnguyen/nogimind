@@ -1,5 +1,5 @@
-{
-  "rewrites": [
-    { "source": "/(.*)", "destination": "/index.html" }
+module.exports = {
+  rewrites: [
+    { source: "/(.*)", destination: "/index.html" }
   ]
-}
+};
