@@ -102,7 +102,6 @@ export const Header = () => {
                     >
                       <div className="flex flex-wrap items-center gap-2">
                         <Badge tone="cyan">{t(`knowledgeTypes.${result.type}`)}</Badge>
-                        <Badge tone="emerald">{t('search.score', { score: result.score })}</Badge>
                       </div>
                       <p className="mt-2 text-sm font-semibold text-white">{getLocalizedText(result.title, language)}</p>
                       <p className="mt-1 line-clamp-2 text-xs leading-5 text-slate-400">{getLocalizedText(result.description, language)}</p>

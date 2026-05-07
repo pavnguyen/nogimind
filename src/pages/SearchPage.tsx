@@ -1,4 +1,4 @@
-import { useEffect, useMemo } from 'react'
+import { useEffect, useMemo, useState } from 'react'
 import { Link, useSearchParams } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import { ArrowRight } from 'lucide-react'
@@ -23,6 +23,7 @@ export default function SearchPage() {
   const type = useSearchStore((state) => state.type)
   const setQuery = useSearchStore((state) => state.setQuery)
   const setType = useSearchStore((state) => state.setType)
+  const [debouncedQuery, setDebouncedQuery] = useState(query)
 
   useEffect(() => {
     const legacyQuery = searchParams.get('q')
@@ -36,7 +37,12 @@ export default function SearchPage() {
     }
   }, [query, setQuery, setSearchParams, setType, searchParams, type])
 
-  const results = useMemo(() => searchKnowledge(query, language, { type }), [language, query, type])
+  useEffect(() => {
+    const timeout = window.setTimeout(() => setDebouncedQuery(query), 160)
+    return () => window.clearTimeout(timeout)
+  }, [query])
+
+  const results = useMemo(() => searchKnowledge(debouncedQuery, language, { type }), [debouncedQuery, language, type])
   const grouped = useMemo(
     () => resultTypes.map((itemType) => ({ type: itemType, results: results.filter((result) => result.type === itemType) })).filter((group) => group.results.length),
     [results],
@@ -79,7 +85,6 @@ export default function SearchPage() {
             <article key={`${result.type}-${result.id}`} className="rounded-lg border border-white/10 bg-slate-950/65 p-4 transition hover:border-cyan-300/35 hover:bg-white/[0.06]">
               <div className="flex flex-wrap gap-2">
                 <Badge tone="cyan">{t(`knowledgeTypes.${result.type}`)}</Badge>
-                <Badge tone="emerald">{t('search.score', { score: result.score })}</Badge>
               </div>
               <Link to={result.url} className="mt-3 block">
                 <h2 className="text-lg font-semibold text-white">{getLocalizedText(result.title, language)}</h2>

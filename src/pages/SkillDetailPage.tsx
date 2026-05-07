@@ -15,6 +15,8 @@ import { GlossaryLink } from '../components/skills/GlossaryLink'
 import { IfThenDecisionList } from '../components/skills/IfThenDecisionList'
 import { LevelBadge } from '../components/skills/LevelBadge'
 import { PositionalRelationshipCard } from '../components/skills/PositionalRelationshipCard'
+import { BlackbeltDetailsSection } from '../components/skills/BlackbeltDetailsSection'
+import { BodyToBodyDetailsSection } from '../components/skills/BodyToBodyDetailsSection'
 import { MicroDetailSystemSection } from '../components/skills/MicroDetailSystemSection'
 import { SkillQuickMode } from '../components/skills/SkillQuickMode'
 import { TechniqueQualityChecklistSection } from '../components/skills/TechniqueQualityChecklistSection'
@@ -24,6 +26,7 @@ import { SharedKnowledgePanel } from '../components/sharedKnowledge/SharedKnowle
 import { NextBestStepPanel } from '../components/knowledge/NextBestStepPanel'
 import { RelatedKnowledgePanel } from '../components/knowledge/RelatedKnowledgePanel'
 import { QuickCard } from '../components/skills/QuickCard'
+import { GlossaryTermChip } from '../components/glossary/GlossaryTermChip'
 import { ViewModeSwitcher } from '../components/common/ViewModeSwitcher'
 import { useArchetypesQuery } from '../queries/archetypeQueries'
 import { useConceptsQuery } from '../queries/conceptQueries'
@@ -87,6 +90,7 @@ export default function SkillDetailPage() {
   const relatedArchetypes = archetypes.filter((archetype) =>
     [...archetype.coreSkillIds, ...archetype.supportSkillIds, ...archetype.requiredDefensiveSkillIds].includes(skill.id),
   )
+  const relatedGlossaryTerms = glossary.filter((term) => term.relatedSkillIds?.includes(skill.id)).slice(0, 8)
   const asSharedItems = (ids: string[] | undefined): SharedKnowledgeItem[] =>
     (ids ?? []).map((id) => sharedKnowledgeById.get(id)).filter((item): item is SharedKnowledgeItem => Boolean(item))
   const sharedPrinciples = asSharedItems(skill.sharedPrincipleIds)
@@ -165,6 +169,24 @@ export default function SkillDetailPage() {
         </SectionCard>
       ) : null}
 
+      {relatedGlossaryTerms.length ? (
+        <SectionCard title={t('detail.keyTerms')} description={t('glossary.subtitle')}>
+          <div className="flex flex-wrap gap-2">
+            {relatedGlossaryTerms.map((term) => (
+              <GlossaryTermChip
+                key={term.id}
+                term={term}
+                lang={language}
+                relatedSkills={term.relatedSkillIds
+                  ?.filter((relatedSkillId) => relatedSkillId !== skill.id)
+                  .map((relatedSkillId) => getLocalizedText(byId.get(relatedSkillId)?.title, language))
+                  .filter((item): item is string => Boolean(item))}
+              />
+            ))}
+          </div>
+        </SectionCard>
+      ) : null}
+
       {viewMode !== 'simple' ? <DetailGroupHeading title={t('detailGroups.understand')} /> : null}
       {viewMode !== 'simple' ? (
       <div className="grid gap-6 xl:grid-cols-3">
@@ -178,7 +200,7 @@ export default function SkillDetailPage() {
       <SectionCard title={t('detail.concepts')}>
         <ul className="space-y-2 text-sm leading-6 text-slate-300">
           {getLocalizedArray(skill.keyConcepts, language).map((concept) => (
-            <li key={concept}><GlossaryLink text={concept} terms={glossary} /></li>
+            <li key={concept}><GlossaryLink text={concept} terms={glossary} lang={language} /></li>
           ))}
         </ul>
       </SectionCard>
@@ -213,7 +235,9 @@ export default function SkillDetailPage() {
       ) : null}
 
       {skill.microDetailSystem ? <MicroDetailSystemSection system={skill.microDetailSystem} lang={language} viewMode={viewMode} /> : null}
+      {skill.bodyToBodyDetails ? <BodyToBodyDetailsSection system={skill.bodyToBodyDetails} lang={language} viewMode={viewMode} /> : null}
       {skill.qualityChecklist ? <TechniqueQualityChecklistSection skillId={skill.id} system={skill.qualityChecklist} lang={language} viewMode={viewMode} /> : null}
+      {skill.blackbeltDetails && viewMode !== 'simple' ? <BlackbeltDetailsSection system={skill.blackbeltDetails} lang={language} viewMode={viewMode} /> : null}
 
       {viewMode === 'advanced' ? <DetailGroupHeading title={t('detailGroups.execute')} /> : null}
       {viewMode === 'advanced' && skill.bodyMechanicsSystem ? <BodyMechanicsSystem system={skill.bodyMechanicsSystem} lang={language} viewMode={viewMode} /> : null}

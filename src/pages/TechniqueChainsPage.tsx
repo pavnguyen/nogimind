@@ -80,9 +80,6 @@ export default function TechniqueChainsPage() {
                   </ul>
                 </div>
               ) : null}
-              <div className="flex flex-wrap gap-2">
-                {chain.conceptTags.slice(0, 6).map((tag) => <Badge key={tag}>{tag}</Badge>)}
-              </div>
             </div>
           </SectionCard>
         ))}

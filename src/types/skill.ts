@@ -206,7 +206,7 @@ export type TechnicalDetailCategory =
   | 'transition'
   | 'safety'
 
-export type BodySide = 'left' | 'right' | 'near' | 'far' | 'inside' | 'outside' | 'top' | 'bottom' | 'both' | 'either'
+export type BodySide = 'left' | 'right' | 'near' | 'far' | 'inside' | 'outside' | 'top' | 'bottom' | 'center' | 'both' | 'either'
 
 export type ForceDirection =
   | 'pull_left'
@@ -232,6 +232,171 @@ export type ForceDirection =
   | 'expose'
   | 'shelf'
   | 'wedge'
+
+export type PersonRole = 'me' | 'opponent'
+
+export type BodyPart =
+  | 'head'
+  | 'eyes'
+  | 'ear'
+  | 'chin'
+  | 'neck'
+  | 'shoulder'
+  | 'chest'
+  | 'sternum'
+  | 'ribs'
+  | 'spine'
+  | 'hip'
+  | 'pelvis'
+  | 'hand'
+  | 'wrist'
+  | 'forearm'
+  | 'elbow'
+  | 'biceps'
+  | 'triceps'
+  | 'knee'
+  | 'thigh'
+  | 'shin'
+  | 'ankle'
+  | 'heel'
+  | 'toes'
+  | 'foot'
+
+export type ContactType =
+  | 'grip'
+  | 'frame'
+  | 'post'
+  | 'hook'
+  | 'clamp'
+  | 'wedge'
+  | 'pin'
+  | 'pull'
+  | 'push'
+  | 'drag'
+  | 'lift'
+  | 'block'
+  | 'shelf'
+  | 'wrap'
+  | 'underhook'
+  | 'overhook'
+  | 'crossface'
+  | 'chest_connection'
+  | 'head_position'
+  | 'hip_connection'
+  | 'knee_wedge'
+  | 'foot_post'
+  | 'hand_fight'
+  | 'finish_pressure'
+  | 'safety_release'
+
+export type BodyTarget = {
+  role: PersonRole
+  side: BodySide
+  bodyPart: BodyPart
+  detail?: LocalizedText
+}
+
+export type BodyToBodyContact = {
+  id: string
+  title: LocalizedText
+  myBodyPart: BodyTarget
+  opponentBodyPart: BodyTarget
+  contactType: ContactType
+  forceDirection?: ForceDirection
+  pressureLevel?: 'light' | 'medium' | 'heavy' | 'progressive'
+  timing: LocalizedText
+  exactInstruction: LocalizedText
+  whyItWorks: LocalizedText
+  commonMisplacement: LocalizedText
+  correctionCue: LocalizedText
+  liveCue: LocalizedText
+  prevents?: LocalizedText
+  creates?: LocalizedText
+  safetyNote?: LocalizedText
+}
+
+export type BodyToBodyPhase = {
+  id: string
+  title: LocalizedText
+  goal: LocalizedText
+  contacts: BodyToBodyContact[]
+  successSignal: LocalizedText
+  failureSignal: LocalizedText
+}
+
+export type BodyToBodyDetailSystem = {
+  overview: LocalizedText
+  defaultOrientation: LocalizedText
+  phases: BodyToBodyPhase[]
+  leftRightMirrorNote: LocalizedText
+  mostImportantContacts: string[]
+}
+
+export type ClampMechanic = {
+  id: string
+  title: LocalizedText
+  situation: LocalizedText
+  clampWith: string[]
+  clampAgainst: string[]
+  exactAction: LocalizedText
+  pressureDirection: LocalizedText
+  whyItWorks: LocalizedText
+  commonLeak: LocalizedText
+  correctionCue: LocalizedText
+  liveCue: LocalizedText
+}
+
+export type FinishTip = {
+  id: string
+  title: LocalizedText
+  situation: LocalizedText
+  setupRequirement: LocalizedText
+  exactFinishingAction: LocalizedText
+  bodyPartRoles: {
+    bodyPart: string
+    role: LocalizedText
+  }[]
+  finishTrigger: LocalizedText
+  falseFinishSignal: LocalizedText
+  opponentEscape: LocalizedText
+  prevention: LocalizedText
+  safetyNote?: LocalizedText
+}
+
+export type PressureDetail = {
+  id: string
+  title: LocalizedText
+  sourceBodyPart: string
+  targetLine: LocalizedText
+  direction: LocalizedText
+  commonWrongDirection: LocalizedText
+  correctionCue: LocalizedText
+}
+
+export type AngleDetail = {
+  id: string
+  title: LocalizedText
+  angleGoal: LocalizedText
+  howToCreateAngle: LocalizedText
+  whatAnglePrevents: LocalizedText
+  commonMistake: LocalizedText
+  correctionCue: LocalizedText
+}
+
+export type BlackbeltDetailSystem = {
+  overview: LocalizedText
+  clampMechanics: ClampMechanic[]
+  finishTips: FinishTip[]
+  pressureDetails: PressureDetail[]
+  angleDetails: AngleDetail[]
+  opponentEscapePrevention: {
+    escape: LocalizedText
+    earlySignal: LocalizedText
+    prevention: LocalizedText
+    nextBestBranch: LocalizedText
+  }[]
+  oneSentenceGold: LocalizedText
+}
 
 export type TechnicalDetail = {
   id: string
@@ -484,6 +649,8 @@ export type SkillNode = {
   reactionBranches?: ReactionBranch[]
   ifThenDecisions?: IfThenDecision[]
   technicalDetails?: TechnicalDetailsSystem
+  bodyToBodyDetails?: BodyToBodyDetailSystem
+  blackbeltDetails?: BlackbeltDetailSystem
   sharedPrincipleIds?: string[]
   sharedCueIds?: string[]
   sharedErrorIds?: string[]

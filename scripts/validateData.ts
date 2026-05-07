@@ -87,6 +87,16 @@ const topThirtySkillIds = new Set([
   'kimura-system',
 ])
 
+const blackbeltBodyToBodyTargets = new Set([
+  'rear-naked-choke-system',
+  'guillotine-system',
+  'arm-triangle-mount',
+  'kimura-system',
+  'straight-ankle-lock-safety',
+  'heel-hook-safety',
+  'bodylock-passing',
+])
+
 const optionalDataModules = [
   {
     name: 'concepts',
@@ -291,6 +301,8 @@ const validateSkills = (report: ValidationReport, skills: AnyRecord[], glossary:
     walkLocalizedContent(report, `${path}.microDetailSystem`, skill.microDetailSystem)
     walkLocalizedContent(report, `${path}.quickCard`, skill.quickCard)
     walkLocalizedContent(report, `${path}.qualityChecklist`, skill.qualityChecklist)
+    walkLocalizedContent(report, `${path}.bodyToBodyDetails`, skill.bodyToBodyDetails)
+    walkLocalizedContent(report, `${path}.blackbeltDetails`, skill.blackbeltDetails)
     walkLocalizedContent(report, `${path}.sharedPrincipleIds`, skill.sharedPrincipleIds)
     walkLocalizedContent(report, `${path}.sharedCueIds`, skill.sharedCueIds)
     walkLocalizedContent(report, `${path}.sharedErrorIds`, skill.sharedErrorIds)
@@ -451,6 +463,41 @@ const validateSkills = (report: ValidationReport, skills: AnyRecord[], glossary:
 
     if (topThirtySkillIds.has(String(skill.id)) && sharedReferenceCount < 5) {
       addWarning(report, `${path} has only ${sharedReferenceCount} shared knowledge references`)
+    }
+
+    const bodyToBodyDetails = isRecord(skill.bodyToBodyDetails) ? skill.bodyToBodyDetails : undefined
+    if (blackbeltBodyToBodyTargets.has(String(skill.id)) && !bodyToBodyDetails) {
+      addWarning(report, `${path}.bodyToBodyDetails is missing for blackbelt target skill`)
+    }
+    if (bodyToBodyDetails) {
+      const phases = Array.isArray(bodyToBodyDetails.phases) ? bodyToBodyDetails.phases.filter(isRecord) : []
+      const contactIds = new Set<string>()
+      if (phases.length < 3) addWarning(report, `${path}.bodyToBodyDetails has fewer than 3 phases`)
+      let contactCount = 0
+      phases.forEach((phase, phaseIndex) => {
+        const contacts = Array.isArray(phase.contacts) ? phase.contacts.filter(isRecord) : []
+        contactCount += contacts.length
+        contacts.forEach((contact, contactIndex) => {
+          const contactPath = `${path}.bodyToBodyDetails.phases[${phaseIndex}].contacts[${contactIndex}]`
+          const id = contact.id
+          if (typeof id !== 'string' || !id.trim()) addError(report, `${contactPath}.id is required`)
+          else if (contactIds.has(id)) addError(report, `${path}.bodyToBodyDetails has duplicate contact id "${id}"`)
+          else contactIds.add(id)
+
+          const myBodyPart = isRecord(contact.myBodyPart) ? contact.myBodyPart : undefined
+          const opponentBodyPart = isRecord(contact.opponentBodyPart) ? contact.opponentBodyPart : undefined
+          if (!myBodyPart || myBodyPart.role !== 'me') addError(report, `${contactPath}.myBodyPart.role must be "me"`)
+          if (!opponentBodyPart || opponentBodyPart.role !== 'opponent') addError(report, `${contactPath}.opponentBodyPart.role must be "opponent"`)
+          ;['title', 'contactType', 'exactInstruction', 'whyItWorks', 'commonMisplacement', 'correctionCue', 'liveCue'].forEach((field) => {
+            if (contact[field] === undefined || contact[field] === null) addError(report, `${contactPath}.${field} is required`)
+          })
+          if (!contact.forceDirection) addWarning(report, `${contactPath}.forceDirection is missing`)
+          if (textIncludesAny(skill, safetyTerms) && !contact.safetyNote && String(contact.contactType) === 'finish_pressure') {
+            addWarning(report, `${contactPath} is finish pressure on safety-sensitive skill without local safetyNote`)
+          }
+        })
+      })
+      if (contactCount < 4) addWarning(report, `${path}.bodyToBodyDetails has fewer than 4 contacts`)
     }
   })
 
@@ -648,9 +695,13 @@ const main = async () => {
   console.log(`skills with microDetailSystem: ${skills.filter((skill) => Boolean(skill.microDetailSystem)).length}/${skills.length}`)
   console.log(`skills with qualityChecklist: ${skills.filter((skill) => Boolean(skill.qualityChecklist)).length}/${skills.length}`)
   console.log(`skills with quickCard: ${skills.filter((skill) => Boolean(skill.quickCard)).length}/${skills.length}`)
+  console.log(`skills with bodyToBodyDetails: ${skills.filter((skill) => Boolean(skill.bodyToBodyDetails)).length}/${skills.length}`)
+  console.log(`skills with blackbeltDetails: ${skills.filter((skill) => Boolean(skill.blackbeltDetails)).length}/${skills.length}`)
   console.log(`skills missing microDetailSystem: ${skills.filter((skill) => !skill.microDetailSystem).length}`)
   console.log(`skills missing qualityChecklist: ${skills.filter((skill) => !skill.qualityChecklist).length}`)
   console.log(`skills missing quickCard: ${skills.filter((skill) => !skill.quickCard).length}`)
+  console.log(`skills missing bodyToBodyDetails: ${skills.filter((skill) => !skill.bodyToBodyDetails).length}`)
+  console.log(`skills missing blackbeltDetails: ${skills.filter((skill) => !skill.blackbeltDetails).length}`)
   console.log('')
   console.log(`validation errors: ${report.errors.length}`)
   console.log(`warnings: ${report.warnings.length}`)

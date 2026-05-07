@@ -7,7 +7,7 @@ import { PagePurposeBanner } from '../components/learning/PagePurposeBanner'
 import { useGlossaryQuery } from '../queries/glossaryQueries'
 import { useSkillsQuery } from '../queries/skillQueries'
 import { useSettingsStore } from '../stores/useSettingsStore'
-import { getLocalizedArray, getLocalizedText } from '../utils/localization'
+import { getLocalizedArray, getLocalizedTechnicalText, getLocalizedText } from '../utils/localization'
 
 export default function GlossaryPage() {
   const { t } = useTranslation()
@@ -25,7 +25,7 @@ export default function GlossaryPage() {
     return terms.filter((term) => {
       const haystack = [
         term.term,
-        getLocalizedText(term.definition, language),
+        getLocalizedTechnicalText(term.definition, language),
         ...getLocalizedArray(term.examples, language),
       ].join(' ').toLowerCase()
       return haystack.includes(normalized)
@@ -73,7 +73,7 @@ export default function GlossaryPage() {
                   style={{ transform: `translateY(${virtualItem.start}px)` }}
                 >
                   <h2 className="text-lg font-semibold text-white">{term.term}</h2>
-                  <p className="mt-2 text-sm leading-6 text-slate-300">{getLocalizedText(term.definition, language)}</p>
+                  <p className="mt-2 text-sm leading-6 text-slate-300">{getLocalizedTechnicalText(term.definition, language)}</p>
                   <ul className="mt-3 space-y-1 text-sm text-slate-400">
                     {getLocalizedArray(term.examples, language).map((example) => (
                       <li key={example}>{example}</li>

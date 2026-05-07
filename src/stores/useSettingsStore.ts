@@ -7,6 +7,7 @@ import { storageKeys } from '../utils/storage'
 
 type SettingsStore = {
   language: LanguageCode
+  languageExplicitlyChosen: boolean
   viewMode: ViewMode
   skillMapView: SkillMapView
   sidebarCollapsed: boolean
@@ -17,22 +18,23 @@ type SettingsStore = {
 }
 
 const storedLanguage = () => {
-  if (typeof window === 'undefined') return 'vi'
+  if (typeof window === 'undefined') return 'en'
   const value = window.localStorage.getItem(storageKeys.language)
-  return value === 'en' || value === 'fr' || value === 'vi' ? value : 'vi'
+  return value === 'en' || value === 'fr' || value === 'vi' ? value : 'en'
 }
 
 export const useSettingsStore = create<SettingsStore>()(
   persist(
     (set) => ({
       language: storedLanguage(),
+      languageExplicitlyChosen: false,
       viewMode: 'detailed',
       skillMapView: 'cards',
       sidebarCollapsed: false,
       setLanguage: (language) => {
         if (typeof window !== 'undefined') window.localStorage.setItem(storageKeys.language, language)
         i18n.changeLanguage(language)
-        set({ language })
+        set({ language, languageExplicitlyChosen: true })
       },
       setViewMode: (viewMode) => set({ viewMode }),
       setSkillMapView: (skillMapView) => set({ skillMapView }),
@@ -42,12 +44,15 @@ export const useSettingsStore = create<SettingsStore>()(
       name: storageKeys.settings,
       partialize: (state) => ({
         language: state.language,
+        languageExplicitlyChosen: state.languageExplicitlyChosen,
         viewMode: state.viewMode,
         skillMapView: state.skillMapView,
         sidebarCollapsed: state.sidebarCollapsed,
       }),
       onRehydrateStorage: () => (state) => {
-        if (state) state.setLanguage(state.language)
+        if (!state) return
+        const language = state.language === 'en' || state.language === 'fr' || state.language === 'vi' ? state.language : 'en'
+        state.setLanguage(language)
       },
     },
   ),

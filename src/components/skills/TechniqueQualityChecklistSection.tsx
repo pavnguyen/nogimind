@@ -1,10 +1,10 @@
-import { useEffect, useMemo, useState } from 'react'
+import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import { Badge } from '../common/Badge'
 import { SectionCard } from '../common/SectionCard'
 import { QualityCheckCard } from './QualityCheckCard'
-import type { LanguageCode, QualityCheckAnswer, QualityCheckSeverity, TechniqueQualityChecklist } from '../../types/skill'
+import type { LanguageCode, QualityCheckAnswer, TechniqueQualityChecklist } from '../../types/skill'
 import { getLocalizedTechnicalText } from '../../utils/localization'
 
 type Props = {
@@ -17,12 +17,6 @@ type Props = {
 type Store = Record<string, Record<string, QualityCheckAnswer>>
 
 const storageKey = 'nogi_quality_check_answers'
-const severityWeight: Record<QualityCheckSeverity, number> = {
-  minor: 1,
-  major: 1.5,
-  critical: 2,
-}
-
 const loadStore = (): Store => {
   if (typeof window === 'undefined') return {}
   try {
@@ -48,25 +42,13 @@ export const TechniqueQualityChecklistSection = ({ skillId, system, lang, viewMo
   const answers = store[skillId] ?? {}
   const visibleChecks = viewMode === 'simple' ? system.checks.filter((item) => item.severity === 'critical') : system.checks
 
-  const score = useMemo(() => {
-    const totals = system.checks.reduce(
-      (acc, checkItem) => {
-        const answer = answers[checkItem.id]
-        const value = answer === 'yes' ? 1 : answer === 'not_sure' ? 0.5 : 0
-        const weight = severityWeight[checkItem.severity]
-        acc.weighted += value * weight
-        acc.max += weight
-        return acc
-      },
-      { weighted: 0, max: 0 },
-    )
-    return totals.max ? Math.round((totals.weighted / totals.max) * 100) : 0
-  }, [answers, system.checks])
-
   const criticalFailures = system.checks.filter((checkItem) => checkItem.severity === 'critical' && answers[checkItem.id] !== 'yes')
   const suggestedFixes = visibleChecks
     .filter((checkItem) => answers[checkItem.id] !== 'yes')
     .slice(0, 5)
+
+  const readyCount = system.checks.filter((checkItem) => answers[checkItem.id] === 'yes').length
+  const readinessLabel = readyCount >= system.passThreshold ? t('qualityChecklist.ready') : t('qualityChecklist.needsWork')
 
   const setAnswer = (checkId: string, answer: QualityCheckAnswer) => {
     setStore((current) => ({
@@ -82,21 +64,15 @@ export const TechniqueQualityChecklistSection = ({ skillId, system, lang, viewMo
     <SectionCard
       title={t('qualityChecklist.heading')}
       description={getLocalizedTechnicalText(system.overview, lang)}
-      action={<Badge tone={score >= system.passThreshold ? 'emerald' : 'amber'}>{score}%</Badge>}
+      action={<Badge tone={readyCount >= system.passThreshold ? 'emerald' : 'amber'}>{readinessLabel}</Badge>}
     >
       <div className="space-y-4">
         <div className="rounded-lg border border-white/10 bg-slate-950/50 p-4">
           <div className="flex flex-wrap items-center gap-2">
-            <Badge tone="cyan">{t('qualityChecklist.score')}</Badge>
+            <Badge tone="cyan">{t('qualityChecklist.readiness')}</Badge>
             <span className="text-sm text-slate-300">
-              {score >= system.passThreshold ? getLocalizedTechnicalText(system.ifPassed, lang) : getLocalizedTechnicalText(system.ifFailed, lang)}
+              {readyCount >= system.passThreshold ? getLocalizedTechnicalText(system.ifPassed, lang) : getLocalizedTechnicalText(system.ifFailed, lang)}
             </span>
-          </div>
-          <div className="mt-3 h-2 overflow-hidden rounded-full bg-slate-800">
-            <div
-              className={`h-full rounded-full ${score >= system.passThreshold ? 'bg-emerald-300' : 'bg-amber-300'}`}
-              style={{ width: `${score}%` }}
-            />
           </div>
         </div>
 

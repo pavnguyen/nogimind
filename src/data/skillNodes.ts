@@ -27,6 +27,7 @@ import { sharedKnowledgeItems } from './sharedKnowledge'
 import { qualityChecklistsBySkillId } from './qualityChecklists'
 import { microDetailSystemBySkillId } from './microDetailSystems'
 import { technicalDetailsBySkillId } from './technicalDetails'
+import { blackbeltDetailsBySkillId, bodyToBodyDetailsBySkillId } from './blackbeltDetails'
 
 const lt = (vi: string, en: string, fr: string): LocalizedText => ({ vi, en, fr })
 
@@ -258,9 +259,9 @@ const seeds: SkillSeed[] = [
 const conceptList = (seedValue: SkillSeed): LocalizedStringArray => {
   const unique = [...new Set([...seedValue.concepts, ...domainConcepts[seedValue.domain]])].slice(0, 8)
   return la(
-    unique.map((concept) => `${concept}: nhận diện cue và dùng trong ${seedValue.title.vi}.`),
-    unique.map((concept) => `${concept}: recognize the cue and apply it inside ${seedValue.title.en}.`),
-    unique.map((concept) => `${concept}: reconnaître le cue et l’appliquer dans ${seedValue.title.fr}.`),
+    unique.map((concept) => `${concept}: cue chính trong ${seedValue.title.vi}; kiểm tra vị trí cơ thể trước khi dùng lực.`),
+    unique.map((concept) => `${concept}: key cue in ${seedValue.title.en}; check body position before adding force.`),
+    unique.map((concept) => `${concept}: cue clé dans ${seedValue.title.fr}; vérifier la position du corps avant d’ajouter la force.`),
   )
 }
 
@@ -682,11 +683,19 @@ const bodyPartInstructionFor = (
       why: lt('Đầu sai vị trí làm cả shoulder line bị xoay và khiến frame/grip phía dưới mất lực.', 'A misplaced head lets the shoulder line rotate and makes lower frames or grips lose force.', 'Une tête mal placée permet la rotation de la ligne d’épaule et affaiblit frames ou grips.'),
     },
     eyes: {
-      instruction: lt('Mắt nhìn vào hông, vai gần và tay đang pummel; gaze ổn định giúp cổ không gập và phản ứng sớm với stand, invert hoặc turn.', 'Eyes track hips, near shoulder, and the pummeling hand; a stable gaze keeps the neck organized and reads stand, invert, or turn early.', 'Les yeux suivent hanches, épaule proche et main qui pummel; le regard stabilise le cou et lit stand, invert ou turn tôt.'),
+      instruction: lt(
+        `Trong ${title.vi}, mắt nhìn vào hông, vai gần và tay đang pummel; gaze ổn định giúp cổ không gập.`,
+        `In ${title.en}, the eyes track the hips, near shoulder, and pummeling hand; a stable gaze keeps the neck organized.`,
+        `Dans ${title.fr}, les yeux suivent les hanches, l’épaule proche et la main qui pummel; le regard garde le cou organisé.`,
+      ),
       why: lt('Nhìn xuống sàn thường kéo đầu ra khỏi posture và làm bạn phản ứng muộn.', 'Looking at the mat usually pulls the head out of posture and delays reactions.', 'Regarder le tapis sort souvent la tête de la posture et retarde la réaction.'),
     },
     ears: {
-      instruction: lt('Tai là chỉ báo alignment: tai gần nên kết nối với ribs, hông hoặc shoulder line tùy vị trí; tai trôi xa nghĩa là đầu không còn là wedge.', 'The ear is an alignment indicator: the near ear connects to ribs, hip, or shoulder line depending on position; a floating ear means the head is no longer a wedge.', 'L’oreille indique l’alignement : l’oreille proche connecte côtes, hanche ou épaule; si elle flotte, la tête n’est plus wedge.'),
+      instruction: lt(
+        `Trong ${title.vi}, tai gần phải chạm hoặc bám rất sát ribs, hông hoặc shoulder line tùy phase; tai trôi xa là đầu đã mất vai trò wedge.`,
+        `In ${title.en}, the near ear should stay close to ribs, hip, or shoulder line depending on phase; a floating ear means the head has stopped acting as a wedge.`,
+        `Dans ${title.fr}, l’oreille proche doit rester près des côtes, de la hanche ou de la shoulder line selon la phase; si elle flotte, la tête ne fait plus wedge.`,
+      ),
       why: lt('Ear connection cho bạn cảm nhận micro-rotation trước khi mắt thấy được.', 'Ear connection lets you feel micro-rotation before the eyes see it.', 'La connexion par l’oreille fait sentir les micro-rotations avant les yeux.'),
     },
     chin: {
@@ -694,39 +703,79 @@ const bodyPartInstructionFor = (
       why: lt('Cằm nâng làm cổ dài ra và mở guillotine, crossface hoặc strangle alignment.', 'A lifted chin lengthens the neck and opens guillotine, crossface, or strangle alignment.', 'Un menton levé allonge le cou et ouvre guillotine, crossface ou strangulation.'),
     },
     neck: {
-      instruction: lt('Cổ giữ ngắn, thẳng với spine và không xoay chống lại lực; nếu có áp lực cổ, giảm biên độ trước rồi mới thoát.', 'Neck stays short, aligned with the spine, and does not twist against force; under neck pressure, reduce range first, then exit.', 'Le cou reste court, aligné avec la colonne, sans tourner contre la force; sous pression, réduire l’amplitude puis sortir.'),
+      instruction: lt(
+        `Trong ${title.vi}, cổ giữ ngắn, thẳng với spine và không xoay chống lại lực.`,
+        `In ${title.en}, the neck stays short, aligned with the spine, and does not twist against force.`,
+        `Dans ${title.fr}, le cou reste court, aligné avec la colonne et ne tourne pas contre la force.`,
+      ),
       why: lt('Cổ là đường truyền lực giữa đầu và thân; cổ dài hoặc xoắn làm mất posture và tăng rủi ro.', 'The neck transfers force between head and torso; a long or twisted neck loses posture and raises risk.', 'Le cou transmet la force tête-torse; long ou tordu, il perd posture et augmente le risque.'),
     },
     shoulders: {
-      instruction: lt('Vai không nhún cứng; một vai tạo pressure hoặc frame, vai kia giữ khả năng xoay. Shoulder line phải hướng vào mục tiêu kế tiếp.', 'Shoulders are not shrugged stiff; one shoulder creates pressure or frame while the other stays able to rotate. Shoulder line points toward the next target.', 'Les épaules ne sont pas crispées; une épaule pressure/frame, l’autre garde rotation. Shoulder line vise la cible suivante.'),
+      instruction: lt(
+        `Trong ${title.vi}, một vai tạo pressure hoặc frame còn vai kia phải còn xoay được; shoulder line phải hướng vào mục tiêu kế tiếp.`,
+        `In ${title.en}, one shoulder creates pressure or frame while the other stays free to rotate; the shoulder line must point toward the next target.`,
+        `Dans ${title.fr}, une épaule crée pressure ou frame pendant que l’autre reste libre de tourner; la shoulder line vise la cible suivante.`,
+      ),
       why: lt('Shoulder line bị xoay sai sẽ làm bạn bị flatten, bị back exposure hoặc mất pass line.', 'A mis-rotated shoulder line leads to flattening, back exposure, or losing the pass line.', 'Une shoulder line mal tournée mène à flattening, exposition du dos ou perte de pass line.'),
     },
     chest: {
-      instruction: lt('Ngực kết nối theo đường chéo: chest-to-chest để pin, chest-to-hip để khóa hông, hoặc chest off-line để tạo angle. Không đổ thẳng xuống mat.', 'Chest connects diagonally: chest-to-chest to pin, chest-to-hip to lock hips, or chest off-line to create angle. Do not drop straight into the mat.', 'La poitrine connecte en diagonale : chest-to-chest pour pin, chest-to-hip pour hanches, ou hors axe pour angle. Ne pas tomber droit dans le tapis.'),
+      instruction: lt(
+        `Trong ${title.vi}, ngực đi chéo: chest-to-chest để pin, chest-to-hip để khóa hông, hoặc off-line để tạo angle.`,
+        `In ${title.en}, the chest works diagonally: chest-to-chest to pin, chest-to-hip to lock hips, or off-line to create angle.`,
+        `Dans ${title.fr}, la poitrine travaille en diagonale : chest-to-chest pour pin, chest-to-hip pour bloquer les hanches, ou hors axe pour créer l’angle.`,
+      ),
       why: lt('Chest pressure đúng làm đối thủ khó thở, khó xoay và khó pummel inside knee.', 'Correct chest pressure limits breathing, rotation, and inside-knee pummeling.', 'Bonne pression de poitrine limite respiration, rotation et pummel du genou inside.'),
     },
     sternum: {
-      instruction: lt('Sternum là điểm lái pressure; hướng sternum về near shoulder, far hip hoặc centerline tùy phase thay vì để ngực trôi.', 'Sternum steers pressure; aim it toward near shoulder, far hip, or centerline by phase instead of letting the chest drift.', 'Le sternum dirige la pression; viser épaule proche, hanche loin ou centerline selon la phase.'),
+      instruction: lt(
+        `Trong ${title.vi}, sternum là điểm lái pressure; hướng sternum về near shoulder, far hip hoặc centerline tùy phase.`,
+        `In ${title.en}, the sternum steers pressure; aim it toward near shoulder, far hip, or centerline by phase.`,
+        `Dans ${title.fr}, le sternum dirige la pression; visez l’épaule proche, far hip ou centerline selon la phase.`,
+      ),
       why: lt('Sternum định hướng trọng lượng; nếu không có hướng, pressure biến thành nằm nặng nhưng dễ bị xoay.', 'The sternum gives weight a direction; without it, pressure is heavy but easy to rotate.', 'Le sternum donne direction au poids; sans lui, la pression est lourde mais rotative.'),
     },
     ribs: {
-      instruction: lt('Ribs giữ khoảng thở nhỏ; đừng flare ribs khi bị pressure hoặc khi squeeze vì spine sẽ mất kết nối với pelvis.', 'Ribs keep a small breathing pocket; do not flare ribs under pressure or squeeze because the spine disconnects from pelvis.', 'Les côtes gardent une petite respiration; ne pas les ouvrir sous pression ou squeeze car colonne et pelvis se déconnectent.'),
+      instruction: lt(
+        `Trong ${title.vi}, ribs giữ khoảng thở nhỏ; đừng flare ribs khi bị pressure hoặc squeeze.`,
+        `In ${title.en}, the ribs keep a small breathing pocket; do not flare them under pressure or squeeze.`,
+        `Dans ${title.fr}, les côtes gardent une petite respiration; ne les ouvrez pas sous pressure ou squeeze.`,
+      ),
       why: lt('Ribs flare làm elbow-knee connection mở và cho đối thủ underhook/crossface sâu hơn.', 'Flared ribs open elbow-knee connection and give deeper underhook or crossface.', 'Les côtes ouvertes exposent coude-genou et donnent underhook/crossface profond.'),
     },
     spine: {
-      instruction: lt('Spine giữ một đường cong chủ động: đủ dài để tạo base, đủ tròn để không bị kéo cổ/hông ra khỏi nhau.', 'Spine keeps an active curve: long enough for base, rounded enough that neck and hips cannot be separated.', 'La colonne garde une courbe active : assez longue pour base, assez ronde pour ne pas séparer cou et hanches.'),
-      why: lt('Spine là trục quay; trục gãy làm frame, wedge và hook không cùng hướng.', 'The spine is the rotation axis; a broken axis makes frames, wedges, and hooks point in different directions.', 'La colonne est l’axe de rotation; cassée, frames, wedges et hooks partent dans des directions différentes.'),
+      instruction: lt(
+        `Trong ${title.vi}, spine giữ một đường cong chủ động: đủ dài để tạo base, đủ tròn để không bị kéo cổ/hông ra khỏi nhau.`,
+        `In ${title.en}, the spine keeps an active curve: long enough for base, rounded enough that neck and hips cannot be separated.`,
+        `Dans ${title.fr}, la colonne garde une courbe active : assez longue pour la base, assez ronde pour ne pas séparer cou et hanches.`,
+      ),
+      why: lt(
+        `Trong ${title.vi}, spine là trục quay; trục gãy làm frame, wedge và hook không cùng hướng.`,
+        `In ${title.en}, the spine is the rotation axis; a broken axis makes frames, wedges, and hooks point in different directions.`,
+        `Dans ${title.fr}, la colonne est l’axe de rotation; cassée, frames, wedges et hooks partent dans des directions différentes.`,
+      ),
     },
     hips: {
-      instruction: lt('Hông là động cơ chính: đổi hip angle trước khi đẩy, kéo hoặc finish. Trong top pressure, hông thấp vừa đủ; trong bottom, hông không được nằm phẳng.', 'Hips are the engine: change hip angle before pushing, pulling, or finishing. On top, hips are low enough; on bottom, hips must not stay flat.', 'Les hanches sont le moteur : changer angle avant pousser, tirer ou finir. Top : hanches assez basses; bottom : jamais plates.'),
+      instruction: lt(
+        `Trong ${title.vi}, hông là động cơ chính: đổi hip angle trước khi đẩy, kéo hoặc finish.`,
+        `In ${title.en}, the hips are the engine: change hip angle before pushing, pulling, or finishing.`,
+        `Dans ${title.fr}, les hanches sont le moteur : changer l’angle avant de pousser, tirer ou finir.`,
+      ),
       why: lt('Không có hip angle, tay phải làm việc thay cho toàn thân và dễ mỏi/mất cấu trúc.', 'Without hip angle, arms do the work of the whole body and fatigue or lose structure.', 'Sans angle de hanches, les bras font le travail du corps et perdent structure.'),
     },
     pelvis: {
-      instruction: lt('Pelvis hướng trọng lượng hoặc escape line; xoay pelvis về far hip khi tạo angle, và nặng xuống khi cần pin hoặc sprawl.', 'Pelvis aims weight or escape line; rotate it toward far hip for angle, and make it heavy when pinning or sprawling.', 'Le pelvis dirige poids ou sortie; tourner vers far hip pour angle, lourd pour pin ou sprawl.'),
+      instruction: lt(
+        `Trong ${title.vi}, pelvis hướng trọng lượng hoặc escape line; xoay pelvis về far hip khi tạo angle.`,
+        `In ${title.en}, the pelvis aims weight or the escape line; rotate it toward the far hip when creating angle.`,
+        `Dans ${title.fr}, le pelvis dirige le poids ou la sortie; tournez-le vers far hip pour créer l’angle.`,
+      ),
       why: lt('Pelvis không tham gia thì pressure nằm ở vai/tay, còn escape chỉ là shrimp rời rạc.', 'Without pelvis involvement, pressure lives in shoulders and arms, and escapes become isolated shrimping.', 'Sans pelvis, la pression reste épaules/bras et l’escape devient shrimp isolé.'),
     },
     hands: {
-      instruction: lt('Tay tìm grip có nhiệm vụ: wrist control, hip block, chin strap, bodylock hoặc post ngắn. Đừng đặt tay xa thân nếu không biết kimura/arm drag threat.', 'Hands take assigned grips: wrist control, hip block, chin strap, bodylock, or short post. Do not leave hands far from the body without reading kimura or arm-drag threats.', 'Les mains ont une mission : wrist control, hip block, chin strap, bodylock ou post court. Ne pas laisser la main loin sans lire kimura/arm drag.'),
+      instruction: lt(
+        `Trong ${title.vi}, tay lấy đúng grip của phase: wrist control, hip block, chin strap, bodylock hoặc post ngắn.`,
+        `In ${title.en}, the hands take the phase grip: wrist control, hip block, chin strap, bodylock, or a short post.`,
+        `Dans ${title.fr}, les mains prennent le grip de phase : wrist control, hip block, chin strap, bodylock ou post court.`,
+      ),
       why: lt('Tay là điểm kết nối đầu tiên nhưng cũng là lever đối thủ sẽ tấn công.', 'Hands are the first connection point but also the lever the opponent will attack.', 'Les mains sont le premier point de connexion mais aussi le levier attaqué.'),
     },
     wrists: {
@@ -734,7 +783,11 @@ const bodyPartInstructionFor = (
       why: lt('Wrist gập yếu làm grip mất lực và mở đường wrist peel, kimura hoặc heel exposure control.', 'A bent wrist weakens grip and opens wrist peels, kimura, or heel-exposure control.', 'Un poignet plié affaiblit le grip et ouvre peel, kimura ou contrôle du talon.'),
     },
     elbows: {
-      instruction: lt('Khuỷu ở gần ribs hoặc gối trừ khi đang dùng làm wedge. Nếu khuỷu tách khỏi thân, đối thủ có lever để xoay shoulder line.', 'Elbows stay near ribs or knees unless deliberately used as wedges. If an elbow separates, the opponent gets a lever to rotate the shoulder line.', 'Les coudes restent près des côtes ou genoux sauf wedge volontaire. Séparé, le coude devient levier pour tourner shoulder line.'),
+      instruction: lt(
+        `Trong ${title.vi}, khuỷu ở gần ribs hoặc gối trừ khi bạn cố ý dùng nó làm wedge.`,
+        `In ${title.en}, elbows stay near the ribs or knees unless you are deliberately using them as wedges.`,
+        `Dans ${title.fr}, les coudes restent près des côtes ou des genoux sauf si vous les utilisez volontairement comme wedge.`,
+      ),
       why: lt('Elbow-knee connection là khóa an toàn cơ bản cho escape, guard retention và chống submission.', 'Elbow-knee connection is the basic safety lock for escapes, guard retention, and submission defense.', 'La connexion coude-genou est le verrou de sécurité pour escapes, rétention et défense soumission.'),
     },
     forearms: {
@@ -742,7 +795,11 @@ const bodyPartInstructionFor = (
       why: lt('Forearm frame giữ khoảng cách mà không tốn sức và tạo đường cho knee/hip pummel.', 'Forearm frames preserve distance without fatigue and create the lane for knee or hip pummeling.', 'Le forearm frame garde distance sans fatigue et ouvre la voie au pummel genou/hanche.'),
     },
     biceps: {
-      instruction: lt('Biceps không kéo một mình; dùng như clamp hoặc lever nối với lưng và hips. Khi biceps cháy, nghĩa là body connection đã mất.', 'Biceps do not pull alone; use them as clamps or levers connected to back and hips. Burning biceps signal lost body connection.', 'Les biceps ne tirent pas seuls; clamp/levier connecté au dos et hanches. S’ils brûlent, la connexion est perdue.'),
+      instruction: lt(
+        `Trong ${title.vi}, biceps không kéo một mình; dùng như clamp hoặc lever nối với lưng và hông.`,
+        `In ${title.en}, the biceps do not pull alone; use them as clamps or levers connected to the back and hips.`,
+        `Dans ${title.fr}, les biceps ne tirent pas seuls; utilisez-les comme clamp ou levier relié au dos et aux hanches.`,
+      ),
       why: lt('Biceps kéo cô lập dễ mở khuỷu và cho đối thủ pummel hoặc peel grip.', 'Isolated biceps pulling opens elbows and lets the opponent pummel or peel grips.', 'Le tirage isolé ouvre les coudes et permet pummel ou peel grip.'),
     },
     knees: {
@@ -750,23 +807,53 @@ const bodyPartInstructionFor = (
       why: lt('Gối mất inside position làm guard layer, escape line và leg lock safety sụp cùng lúc.', 'Losing inside-knee position collapses guard layers, escape lines, and leg-lock safety together.', 'Perdre inside knee effondre garde, sortie et sécurité leg lock ensemble.'),
     },
     thighs: {
-      instruction: lt('Đùi tạo clamp hoặc wedge vào hip line; giữ adductor active vừa đủ để kiểm soát mà không khóa hông của chính mình.', 'Thighs create clamps or wedges on the hip line; keep adductors active enough to control without locking your own hips.', 'Les cuisses créent clamp ou wedge sur hip line; adducteurs actifs sans bloquer vos propres hanches.'),
+      instruction: lt(
+        `Trong ${title.vi}, đùi tạo clamp hoặc wedge vào hip line; giữ adductor active vừa đủ để kiểm soát.`,
+        `In ${title.en}, the thighs create clamps or wedges on the hip line; keep the adductors active enough to control.`,
+        `Dans ${title.fr}, les cuisses créent un clamp ou wedge sur la hip line; gardez les adducteurs actifs pour contrôler.`,
+      ),
       why: lt('Thigh pressure đúng khóa hông; đùi quá cứng làm bạn không chuyển phase được.', 'Correct thigh pressure pins hips; overly rigid thighs stop your own phase transitions.', 'Bonne pression des cuisses bloque les hanches; trop rigide bloque vos transitions.'),
     },
     shins: {
-      instruction: lt('Shin dùng làm frame, hook hoặc rail dẫn hướng hông đối thủ; shin phải nối với knee angle và active foot.', 'Shin acts as frame, hook, or rail guiding the opponent’s hips; it must connect to knee angle and active foot.', 'Le tibia sert frame, hook ou rail pour guider les hanches; il doit connecter angle du genou et pied actif.'),
+      instruction: lt(
+        `Trong ${title.vi}, shin dùng làm frame, hook hoặc rail dẫn hướng hông đối thủ; shin phải nối với knee angle và active foot.`,
+        `In ${title.en}, the shin acts as a frame, hook, or rail guiding the opponent’s hips; it must connect to knee angle and active foot.`,
+        `Dans ${title.fr}, le tibia sert de frame, hook ou rail pour guider les hanches; il doit connecter angle du genou et pied actif.`,
+      ),
       why: lt('Shin thụ động cho passer vượt knee line hoặc cho leg locker gom chân phụ.', 'A passive shin lets the passer clear knee line or the leg locker collect the secondary leg.', 'Un tibia passif permet passer knee line ou capturer la jambe secondaire.'),
     },
     ankles: {
-      instruction: lt('Ankle giữ alignment với gối; khi post, cổ chân không sụp vào trong; khi hook, ankle kéo cùng hông chứ không chỉ móc bằng bàn chân.', 'Ankles align with knees; when posting, the ankle does not collapse inward; when hooking, it pulls with the hip, not only the foot.', 'La cheville s’aligne au genou; en post elle ne s’effondre pas; en hook elle tire avec la hanche, pas seulement le pied.'),
+      instruction: lt(
+        `Trong ${title.vi}, ankle giữ alignment với gối; khi post, cổ chân không sụp vào trong.`,
+        `In ${title.en}, the ankle stays aligned with the knee; when posting, it does not collapse inward.`,
+        `Dans ${title.fr}, la cheville reste alignée avec le genou; en post elle ne s’effondre pas vers l’intérieur.`,
+      ),
       why: lt('Ankle sụp làm base yếu và mở heel exposure hoặc foot drag.', 'A collapsed ankle weakens base and opens heel exposure or foot drags.', 'Une cheville effondrée affaiblit base et expose talon ou foot drag.'),
     },
     heels: {
-      instruction: lt(legLock ? 'Gót chân phải ẩn khỏi line bàn tay đối thủ; nếu heel line xuất hiện, dừng xoay và tap hoặc free knee line có kiểm soát.' : 'Gót chân định hướng hook/post; heel quá nhẹ làm mất base, heel quá lộ tạo foot control cho đối thủ.', legLock ? 'Heels stay hidden from the opponent’s hand line; if the heel line appears, stop rotating and tap or free the knee line with control.' : 'Heels steer hooks and posts; a weightless heel loses base, an exposed heel gives foot control.', legLock ? 'Les talons restent cachés de la ligne des mains adverses; si le talon apparaît, arrêter rotation et taper ou libérer knee line.' : 'Les talons dirigent hooks/posts; talon trop léger perd base, talon exposé donne contrôle du pied.'),
-      why: lt('Heel exposure là tín hiệu nguy hiểm lớn trong leg entanglement và cũng là dấu base yếu khi passing/wrestling.', 'Heel exposure is a major leg-entanglement danger signal and also marks weak base in passing or wrestling.', 'L’exposition du talon est signal majeur en leg entanglement et marque une base faible en passing/wrestling.'),
+      instruction: lt(
+        legLock
+          ? `Trong ${title.vi}, gót chân phải ẩn khỏi line bàn tay đối thủ; nếu heel line xuất hiện, dừng xoay và tap hoặc free knee line có kiểm soát.`
+          : `Trong ${title.vi}, gót chân định hướng hook/post; heel quá nhẹ làm mất base, heel quá lộ tạo foot control cho đối thủ.`,
+        legLock
+          ? `In ${title.en}, the heel stays hidden from the opponent’s hand line; if the heel line appears, stop rotating and tap or free the knee line with control.`
+          : `In ${title.en}, the heel steers hooks and posts; a weightless heel loses base, an exposed heel gives foot control.`,
+        legLock
+          ? `Dans ${title.fr}, le talon reste caché de la ligne des mains adverses; si le talon apparaît, arrêtez la rotation et tapez ou libérez la knee line avec contrôle.`
+          : `Dans ${title.fr}, le talon dirige hooks/posts; un talon trop léger perd la base, un talon exposé donne le contrôle du pied.`,
+      ),
+      why: lt(
+        `Trong ${title.vi}, heel exposure là tín hiệu nguy hiểm lớn trong leg entanglement và cũng là dấu base yếu khi passing/wrestling.`,
+        `In ${title.en}, heel exposure is a major leg-entanglement danger signal and also marks weak base in passing or wrestling.`,
+        `Dans ${title.fr}, l’exposition du talon est un signal majeur en leg entanglement et marque une base faible en passing/wrestling.`,
+      ),
     },
     toes: {
-      instruction: lt('Toes active trên mat khi cần drive hoặc sprawl; trong guard, toes giúp hook sống và báo hướng hông.', 'Toes are active on the mat when driving or sprawling; in guard, active toes keep hooks alive and signal hip direction.', 'Les orteils sont actifs pour drive ou sprawl; en garde, ils gardent hooks vivants et indiquent la direction des hanches.'),
+      instruction: lt(
+        `Trong ${title.vi}, toes active trên mat khi cần drive hoặc sprawl; trong guard, toes giữ hook sống.`,
+        `In ${title.en}, the toes stay active on the mat when driving or sprawling; in guard, they keep the hooks alive.`,
+        `Dans ${title.fr}, les orteils restent actifs sur le tapis pour drive ou sprawl; en garde, ils gardent les hooks vivants.`,
+      ),
       why: lt('Toes chết làm weight distribution rơi vào gối hoặc lưng, khiến transition chậm.', 'Dead toes dump weight into knees or back and slow transitions.', 'Des orteils passifs chargent genoux ou dos et ralentissent transition.'),
     },
     feet: {
@@ -965,19 +1052,19 @@ const bodyMechanicsSystemFor = (seedValue: SkillSeed): BodyMechanicsSystem => {
         'Head position, elbow-knee connection và hip angle quyết định phần lớn exchange.',
         'Inside position là quyền đặt wedge/frame/hook vào giữa bạn và lực của đối thủ.',
         'Pressure phải có hướng: toward near shoulder, far hip, knee line hoặc mat return line.',
-        'Left/right orientation: nếu tay phải là underhook, tai phải thường gần ribs/shoulder line và hông xoay về angle làm lộ base.',
+        `For ${seedValue.title.en}, right-underhook orientation means the right ear stays near ribs or shoulder line and the hips turn with the angle.`,
       ],
       [
         'Head position, elbow-knee connection, and hip angle decide most exchanges.',
         'Inside position is the right to place a wedge, frame, or hook between you and the opponent’s force.',
         'Pressure needs direction: toward near shoulder, far hip, knee line, or mat-return line.',
-        'Left/right orientation: if your right arm is the underhook, your right ear usually stays near ribs or shoulder line and your hips turn toward the angle that exposes base.',
+        `For ${seedValue.title.en}, right-underhook orientation means the right ear stays near ribs or shoulder line and the hips turn with the angle.`,
       ],
       [
         'Head position, connexion coude-genou et angle de hanches décident la plupart des échanges.',
         'Inside position est le droit de placer wedge, frame ou hook entre vous et la force adverse.',
         'La pression doit avoir direction : near shoulder, far hip, knee line ou mat return line.',
-        'Orientation gauche/droite : si le bras droit est underhook, l’oreille droite reste près des côtes/épaule et les hanches tournent vers l’angle qui expose la base.',
+        `Pour ${seedValue.title.fr}, si le bras droit est underhook, l’oreille droite reste près des côtes ou de la shoulder line et les hanches suivent l’angle.`,
       ],
     ),
     nonNegotiables: la(
@@ -1707,6 +1794,8 @@ const buildSkill = (seedValue: SkillSeed): SkillNode => ({
   reactionBranches: reactionBranchesFor(seedValue),
   ifThenDecisions: ifThenDecisionsFor(seedValue),
   technicalDetails: technicalDetailsBySkillId[seedValue.id],
+  bodyToBodyDetails: bodyToBodyDetailsBySkillId.get(seedValue.id),
+  blackbeltDetails: blackbeltDetailsBySkillId.get(seedValue.id),
   quickCard: quickCardFor(seedValue, microDetailSystemBySkillId.get(seedValue.id)),
   ...sharedRefsFor(seedValue),
 })
