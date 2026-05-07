@@ -28,6 +28,7 @@ import { qualityChecklistsBySkillId } from './qualityChecklists'
 import { microDetailSystemBySkillId } from './microDetailSystems'
 import { technicalDetailsBySkillId } from './technicalDetails'
 import { blackbeltDetailsBySkillId, bodyToBodyDetailsBySkillId } from './blackbeltDetails'
+import { modernExpansionSkills } from './modernExpansionSkills'
 
 const lt = (vi: string, en: string, fr: string): LocalizedText => ({ vi, en, fr })
 
@@ -1800,4 +1801,6 @@ const buildSkill = (seedValue: SkillSeed): SkillNode => ({
   ...sharedRefsFor(seedValue),
 })
 
-export const skillNodes: SkillNode[] = seeds.map(buildSkill)
+const coreSkillNodes = seeds.map(buildSkill)
+
+export const skillNodes: SkillNode[] = [...coreSkillNodes, ...modernExpansionSkills]

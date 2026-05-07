@@ -11,13 +11,20 @@ import { useSettingsStore } from '../stores/useSettingsStore'
 import { getMicroDetails, getTroubleshooters } from '../utils/knowledgeModules'
 import { getLocalizedText } from '../utils/localization'
 
-const intentCards = [
-  { to: '/learn#beginner', title: 'dashboard.intent.beginner', body: 'dashboard.intent.beginnerBody' },
-  { to: '/skills', title: 'dashboard.intent.skill', body: 'dashboard.intent.skillBody' },
-  { to: '/troubleshooters', title: 'dashboard.intent.fix', body: 'dashboard.intent.fixBody' },
-  { to: '/positions', title: 'dashboard.intent.position', body: 'dashboard.intent.positionBody' },
-  { to: '/micro-details', title: 'dashboard.intent.detail', body: 'dashboard.intent.detailBody' },
-  { to: '/game-tree', title: 'dashboard.intent.game', body: 'dashboard.intent.gameBody' },
+const cockpitCards = [
+  { to: '/search', title: 'dashboard.cockpit.search', body: 'dashboard.cockpit.searchBody' },
+  { to: '/troubleshooters', title: 'dashboard.cockpit.fix', body: 'dashboard.cockpit.fixBody' },
+  { to: '/skills', title: 'dashboard.cockpit.skill', body: 'dashboard.cockpit.skillBody' },
+  { to: '/micro-details', title: 'dashboard.cockpit.contact', body: 'dashboard.cockpit.contactBody' },
+  { to: '/chains', title: 'dashboard.cockpit.chain', body: 'dashboard.cockpit.chainBody' },
+  { to: '/skills?library=modern_expansion', title: 'dashboard.cockpit.modern', body: 'dashboard.cockpit.modernBody' },
+]
+
+const workflowSteps = [
+  { to: '/positions', title: 'dashboard.workflow.0.title', body: 'dashboard.workflow.0.body' },
+  { to: '/skills', title: 'dashboard.workflow.1.title', body: 'dashboard.workflow.1.body' },
+  { to: '/micro-details', title: 'dashboard.workflow.2.title', body: 'dashboard.workflow.2.body' },
+  { to: '/chains', title: 'dashboard.workflow.3.title', body: 'dashboard.workflow.3.body' },
 ]
 
 export default function DashboardPage() {
@@ -39,11 +46,11 @@ export default function DashboardPage() {
         subtitle={t('dashboard.knowledgeThesis')}
         whatFor={t('dashboard.heroWhatFor')}
         nextStepLabel={t('dashboard.heroAction')}
-        nextStepTo="/learn"
+        nextStepTo="/search"
       />
 
       <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-3">
-        {intentCards.map((card) => (
+        {cockpitCards.map((card) => (
           <Link key={card.to} to={card.to} className="rounded-lg border border-white/10 bg-slate-950/65 p-5 transition hover:border-cyan-300/35 hover:bg-white/[0.06]">
             <div className="flex items-start justify-between gap-4">
               <div>
@@ -56,22 +63,15 @@ export default function DashboardPage() {
         ))}
       </div>
 
-      <SectionCard title={t('dashboard.howToUse.title')} description={t('dashboard.howToUse.subtitle')}>
-        <div className="grid gap-3 xl:grid-cols-2">
-          {[
-            { to: '/positions', title: t('dashboard.howToUse.steps.0.title'), body: t('dashboard.howToUse.steps.0.body') },
-            { to: '/concepts', title: t('dashboard.howToUse.steps.1.title'), body: t('dashboard.howToUse.steps.1.body') },
-            { to: '/skills', title: t('dashboard.howToUse.steps.2.title'), body: t('dashboard.howToUse.steps.2.body') },
-            { to: '/micro-details', title: t('dashboard.howToUse.steps.3.title'), body: t('dashboard.howToUse.steps.3.body') },
-            { to: '/chains', title: t('dashboard.howToUse.steps.4.title'), body: t('dashboard.howToUse.steps.4.body') },
-            { to: '/game-tree', title: t('dashboard.howToUse.steps.5.title'), body: t('dashboard.howToUse.steps.5.body') },
-          ].map((item, index) => (
-            <Link key={item.title} to={item.to} className="rounded-lg border border-white/10 bg-slate-900/60 p-4 transition hover:border-cyan-300/35 hover:bg-white/[0.06]">
+      <SectionCard title={t('dashboard.workflow.title')} description={t('dashboard.workflow.subtitle')}>
+        <div className="grid gap-3 md:grid-cols-2 xl:grid-cols-4">
+          {workflowSteps.map((item, index) => (
+            <Link key={item.to} to={item.to} className="rounded-lg border border-white/10 bg-slate-900/60 p-4 transition hover:border-cyan-300/35 hover:bg-white/[0.06]">
               <div className="flex items-start gap-3">
                 <Badge tone="emerald">{index + 1}</Badge>
                 <div>
-                  <p className="text-sm font-semibold text-white">{item.title}</p>
-                  <p className="mt-2 text-sm leading-6 text-slate-400">{item.body}</p>
+                  <p className="text-sm font-semibold text-white">{t(item.title)}</p>
+                  <p className="mt-2 text-sm leading-6 text-slate-400">{t(item.body)}</p>
                 </div>
               </div>
             </Link>
@@ -80,7 +80,7 @@ export default function DashboardPage() {
       </SectionCard>
 
       <div className="grid gap-6 xl:grid-cols-2">
-        <SectionCard title={t('dashboard.featuredModules')}>
+        <SectionCard title={t('dashboard.fastReferences')}>
           <div className="grid gap-3">
             {microDetail ? (
               <FeatureLink to={`/skills/${microDetail.skillId}`} label={t('dashboard.microDetailOfDay')} title={getLocalizedText(microDetail.title, lang)} body={getLocalizedText(microDetail.correctionCue, lang)} />
@@ -98,14 +98,14 @@ export default function DashboardPage() {
           </div>
         </SectionCard>
 
-        <SectionCard title={t('dashboard.steps.title')}>
+        <SectionCard title={t('dashboard.debugShortcuts')}>
           <div className="space-y-3">
             {[
-              { to: '/positions', title: t('dashboard.steps.0.title'), body: t('dashboard.steps.0.body') },
-              { to: '/concepts', title: t('dashboard.steps.1.title'), body: t('dashboard.steps.1.body') },
-              { to: '/skills', title: t('dashboard.steps.2.title'), body: t('dashboard.steps.2.body') },
-              { to: '/micro-details', title: t('dashboard.steps.3.title'), body: t('dashboard.steps.3.body') },
-              { to: '/game-tree', title: t('dashboard.steps.4.title'), body: t('dashboard.steps.4.body') },
+              { to: '/skills?risk=safety_critical', title: t('dashboard.shortcuts.safety'), body: t('dashboard.shortcuts.safetyBody') },
+              { to: '/skills?family=submission', title: t('dashboard.shortcuts.submissions'), body: t('dashboard.shortcuts.submissionsBody') },
+              { to: '/skills?family=passing', title: t('dashboard.shortcuts.passing'), body: t('dashboard.shortcuts.passingBody') },
+              { to: '/escape-maps', title: t('dashboard.shortcuts.escapes'), body: t('dashboard.shortcuts.escapesBody') },
+              { to: '/game-tree', title: t('dashboard.shortcuts.game'), body: t('dashboard.shortcuts.gameBody') },
             ].map((item) => (
               <Link key={item.title} to={item.to} className="block rounded-lg border border-white/10 bg-slate-900/60 p-4 hover:bg-white/10">
                 <p className="text-sm font-semibold text-white">{item.title}</p>

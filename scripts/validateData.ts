@@ -303,6 +303,7 @@ const validateSkills = (report: ValidationReport, skills: AnyRecord[], glossary:
     walkLocalizedContent(report, `${path}.qualityChecklist`, skill.qualityChecklist)
     walkLocalizedContent(report, `${path}.bodyToBodyDetails`, skill.bodyToBodyDetails)
     walkLocalizedContent(report, `${path}.blackbeltDetails`, skill.blackbeltDetails)
+    walkLocalizedContent(report, `${path}.rulesetRelevance`, skill.rulesetRelevance)
     walkLocalizedContent(report, `${path}.sharedPrincipleIds`, skill.sharedPrincipleIds)
     walkLocalizedContent(report, `${path}.sharedCueIds`, skill.sharedCueIds)
     walkLocalizedContent(report, `${path}.sharedErrorIds`, skill.sharedErrorIds)
@@ -330,6 +331,22 @@ const validateSkills = (report: ValidationReport, skills: AnyRecord[], glossary:
     prerequisites.forEach((id) => {
       if (typeof id !== 'string' || !skillIds.has(id)) addBrokenReference(report, `${path}.prerequisites -> ${String(id)}`)
     })
+
+    const tags = Array.isArray(skill.tags) ? skill.tags.map(String) : []
+    const isModernTechnique = Boolean(skill.libraryTier) || tags.some((tag) => tag === 'modern-no-gi' || tag.startsWith('tier:'))
+    if (isModernTechnique) {
+      ;['libraryTier', 'metaStatus', 'riskLevel', 'techniqueFamily', 'modernSystemGroup'].forEach((field) => {
+        if (!skill[field]) addWarning(report, `${path}.${field} is missing on modern technique`)
+      })
+      if (!skill.microDetailSystem) addWarning(report, `${path}.microDetailSystem is missing on modern technique`)
+      if (!skill.qualityChecklist) addWarning(report, `${path}.qualityChecklist is missing on modern technique`)
+      if (!skill.quickCard) addWarning(report, `${path}.quickCard is missing on modern technique`)
+      if (!skill.bodyToBodyDetails) addWarning(report, `${path}.bodyToBodyDetails is missing on modern technique`)
+    }
+
+    if ((skill.libraryTier === 'advanced_niche' || skill.riskLevel === 'safety_critical') && prerequisites.length === 0) {
+      addWarning(report, `${path} is advanced or safety-critical but has no prerequisites`)
+    }
 
     const failureResponses = Array.isArray(skill.failureResponses) ? skill.failureResponses : []
     failureResponses.forEach((failure, failureIndex) => {
@@ -697,6 +714,9 @@ const main = async () => {
   console.log(`skills with quickCard: ${skills.filter((skill) => Boolean(skill.quickCard)).length}/${skills.length}`)
   console.log(`skills with bodyToBodyDetails: ${skills.filter((skill) => Boolean(skill.bodyToBodyDetails)).length}/${skills.length}`)
   console.log(`skills with blackbeltDetails: ${skills.filter((skill) => Boolean(skill.blackbeltDetails)).length}/${skills.length}`)
+  console.log(`modern expansion skills: ${skills.filter((skill) => skill.libraryTier === 'modern_expansion').length}`)
+  console.log(`advanced niche skills: ${skills.filter((skill) => skill.libraryTier === 'advanced_niche').length}`)
+  console.log(`safety-critical skills: ${skills.filter((skill) => skill.libraryTier === 'safety_critical' || skill.riskLevel === 'safety_critical').length}`)
   console.log(`skills missing microDetailSystem: ${skills.filter((skill) => !skill.microDetailSystem).length}`)
   console.log(`skills missing qualityChecklist: ${skills.filter((skill) => !skill.qualityChecklist).length}`)
   console.log(`skills missing quickCard: ${skills.filter((skill) => !skill.quickCard).length}`)

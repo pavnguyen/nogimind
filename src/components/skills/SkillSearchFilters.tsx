@@ -3,10 +3,16 @@ import { useSearchParams } from 'react-router-dom'
 import { skillDomains, skillLevels } from '../../data/domains'
 import type { SkillNode } from '../../types/skill'
 
+const isString = (value: unknown): value is string => typeof value === 'string' && value.length > 0
+
 export const SkillSearchFilters = ({ skills }: { skills: SkillNode[] }) => {
   const { t } = useTranslation()
   const [searchParams, setSearchParams] = useSearchParams()
   const tags = [...new Set(skills.flatMap((skill) => skill.tags))].sort()
+  const libraries = [...new Set(skills.map((skill) => skill.libraryTier).filter(isString))].sort()
+  const families = [...new Set(skills.map((skill) => skill.techniqueFamily).filter(isString))].sort()
+  const systems = [...new Set(skills.map((skill) => skill.modernSystemGroup).filter(isString))].sort()
+  const risks = [...new Set(skills.map((skill) => skill.riskLevel).filter(isString))].sort()
 
   const setParam = (key: string, value: string) => {
     const next = new URLSearchParams(searchParams)
@@ -51,6 +57,46 @@ export const SkillSearchFilters = ({ skills }: { skills: SkillNode[] }) => {
         <option value="">{t('skills.tagFilter')}: {t('common.all')}</option>
         {tags.map((tag) => (
           <option key={tag} value={tag}>{tag}</option>
+        ))}
+      </select>
+      <select
+        value={searchParams.get('library') ?? ''}
+        onChange={(event) => setParam('library', event.target.value)}
+        className="rounded-md border border-white/10 bg-slate-900 px-3 py-2 text-sm text-white"
+      >
+        <option value="">{t('skills.modernFilters.library')}: {t('common.all')}</option>
+        {libraries.map((value) => (
+          <option key={value} value={value}>{t(`modern.library.${value}`)}</option>
+        ))}
+      </select>
+      <select
+        value={searchParams.get('family') ?? ''}
+        onChange={(event) => setParam('family', event.target.value)}
+        className="rounded-md border border-white/10 bg-slate-900 px-3 py-2 text-sm text-white"
+      >
+        <option value="">{t('skills.modernFilters.family')}: {t('common.all')}</option>
+        {families.map((value) => (
+          <option key={value} value={value}>{t(`modern.family.${value}`)}</option>
+        ))}
+      </select>
+      <select
+        value={searchParams.get('system') ?? ''}
+        onChange={(event) => setParam('system', event.target.value)}
+        className="rounded-md border border-white/10 bg-slate-900 px-3 py-2 text-sm text-white"
+      >
+        <option value="">{t('skills.modernFilters.system')}: {t('common.all')}</option>
+        {systems.map((value) => (
+          <option key={value} value={value}>{t(`modern.system.${value}`)}</option>
+        ))}
+      </select>
+      <select
+        value={searchParams.get('risk') ?? ''}
+        onChange={(event) => setParam('risk', event.target.value)}
+        className="rounded-md border border-white/10 bg-slate-900 px-3 py-2 text-sm text-white"
+      >
+        <option value="">{t('skills.modernFilters.risk')}: {t('common.all')}</option>
+        {risks.map((value) => (
+          <option key={value} value={value}>{t(`modern.risk.${value}`)}</option>
         ))}
       </select>
       <div className="flex rounded-md border border-white/10 bg-slate-900 p-1 md:col-span-2 xl:col-span-1">

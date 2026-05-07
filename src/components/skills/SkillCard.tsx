@@ -23,6 +23,8 @@ export const SkillCard = memo(({ skill }: SkillCardProps) => {
         <div className="flex flex-wrap gap-2">
           <DomainBadge domain={skill.domain} />
           <LevelBadge level={skill.level} />
+          {skill.libraryTier ? <Badge>{t(`modern.library.${skill.libraryTier}`)}</Badge> : null}
+          {skill.riskLevel === 'high' || skill.riskLevel === 'safety_critical' ? <Badge>{t(`modern.risk.${skill.riskLevel}`)}</Badge> : null}
         </div>
         <h3 className="mt-3 text-lg font-semibold text-white">{getLocalizedText(skill.title, language)}</h3>
         <p className="mt-2 text-sm leading-6 text-slate-400">{getLocalizedText(skill.shortDescription, language)}</p>
@@ -31,6 +33,7 @@ export const SkillCard = memo(({ skill }: SkillCardProps) => {
         {skill.tags.slice(0, 4).map((tag) => (
           <Badge key={tag}>{tag}</Badge>
         ))}
+        {skill.modernSystemGroup ? <Badge>{t(`modern.system.${skill.modernSystemGroup}`)}</Badge> : null}
       </div>
 
       <div className="mt-4 flex flex-wrap items-center justify-between gap-3 border-t border-white/10 pt-4 text-sm text-slate-400">

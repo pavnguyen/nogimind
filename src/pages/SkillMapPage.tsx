@@ -10,8 +10,14 @@ import { SkillSearchFilters } from '../components/skills/SkillSearchFilters'
 import { skillDomains, skillLevels } from '../data/domains'
 import { useSkillsQuery } from '../queries/skillQueries'
 import { useSettingsStore } from '../stores/useSettingsStore'
-import type { SkillDomain, SkillLevel } from '../types/skill'
+import type { LibraryTier, MetaStatus, ModernSystemGroup, RiskLevel, SkillDomain, SkillLevel, TechniqueFamily } from '../types/skill'
 import { searchSkills } from '../utils/search'
+
+const libraryTiers: LibraryTier[] = ['core', 'modern_expansion', 'advanced_niche', 'safety_critical']
+const techniqueFamilies: TechniqueFamily[] = ['guard', 'passing', 'submission', 'back_take', 'ride', 'wrestling', 'leg_lock', 'front_headlock', 'escape', 'pin', 'scramble', 'safety', 'compression', 'ruleset']
+const modernSystemGroups: ModernSystemGroup[] = ['octopus', 'clamp_guard', 'shoulder_crunch', 's_mount', 'k_guard', 'matrix', 'false_reap', 'leg_lock', 'crab_ride', 'wrist_ride', 'front_headlock', 'wrestle_up', 'modern_passing', 'turtle_ride', 'smother', 'back_triangle', 'counter_wrestling', 'safety']
+const metaStatuses: MetaStatus[] = ['fundamental', 'modern_common', 'emerging', 'specialized', 'experimental']
+const riskLevels: RiskLevel[] = ['low', 'medium', 'high', 'safety_critical']
 
 export default function SkillMapPage() {
   const { t } = useTranslation()
@@ -23,12 +29,17 @@ export default function SkillMapPage() {
 
   const domain = skillDomains.includes(searchParams.get('domain') as SkillDomain) ? (searchParams.get('domain') as SkillDomain) : ''
   const level = skillLevels.includes(searchParams.get('level') as SkillLevel) ? (searchParams.get('level') as SkillLevel) : ''
+  const libraryTier = libraryTiers.includes(searchParams.get('library') as LibraryTier) ? (searchParams.get('library') as LibraryTier) : ''
+  const techniqueFamily = techniqueFamilies.includes(searchParams.get('family') as TechniqueFamily) ? (searchParams.get('family') as TechniqueFamily) : ''
+  const modernSystemGroup = modernSystemGroups.includes(searchParams.get('system') as ModernSystemGroup) ? (searchParams.get('system') as ModernSystemGroup) : ''
+  const metaStatus = metaStatuses.includes(searchParams.get('meta') as MetaStatus) ? (searchParams.get('meta') as MetaStatus) : ''
+  const riskLevel = riskLevels.includes(searchParams.get('risk') as RiskLevel) ? (searchParams.get('risk') as RiskLevel) : ''
   const tag = searchParams.get('tag') ?? ''
   const view = searchParams.get('view') === 'graph' || searchParams.get('view') === 'cards' ? searchParams.get('view') : defaultView
 
   const filtered = useMemo(
-    () => searchSkills(skills, searchParams.get('q') ?? '', language, { domain, level, tag }),
-    [domain, language, level, searchParams, skills, tag],
+    () => searchSkills(skills, searchParams.get('q') ?? '', language, { domain, level, tag, libraryTier, techniqueFamily, modernSystemGroup, metaStatus, riskLevel }),
+    [domain, language, level, libraryTier, metaStatus, modernSystemGroup, riskLevel, searchParams, skills, tag, techniqueFamily],
   )
 
   const grouped = skillDomains

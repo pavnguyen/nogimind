@@ -14,6 +14,56 @@ export type SkillDomain =
 
 export type SkillLevel = 'beginner' | 'intermediate' | 'advanced'
 
+export type LibraryTier = 'core' | 'modern_expansion' | 'advanced_niche' | 'safety_critical'
+
+export type MetaStatus = 'fundamental' | 'modern_common' | 'emerging' | 'specialized' | 'experimental'
+
+export type RiskLevel = 'low' | 'medium' | 'high' | 'safety_critical'
+
+export type TechniqueFamily =
+  | 'guard'
+  | 'passing'
+  | 'submission'
+  | 'back_take'
+  | 'ride'
+  | 'wrestling'
+  | 'leg_lock'
+  | 'front_headlock'
+  | 'escape'
+  | 'pin'
+  | 'scramble'
+  | 'safety'
+  | 'compression'
+  | 'ruleset'
+
+export type ModernSystemGroup =
+  | 'octopus'
+  | 'clamp_guard'
+  | 'shoulder_crunch'
+  | 's_mount'
+  | 'k_guard'
+  | 'matrix'
+  | 'false_reap'
+  | 'leg_lock'
+  | 'crab_ride'
+  | 'wrist_ride'
+  | 'front_headlock'
+  | 'wrestle_up'
+  | 'modern_passing'
+  | 'turtle_ride'
+  | 'smother'
+  | 'back_triangle'
+  | 'counter_wrestling'
+  | 'safety'
+
+export type RulesetRelevance = {
+  adcc?: boolean
+  ibjjfNoGi?: boolean
+  subOnly?: boolean
+  ebi?: boolean
+  notes?: LocalizedText
+}
+
 export type LocalizedText = {
   en: string
   vi: string
@@ -626,6 +676,12 @@ export type SkillNode = {
   title: LocalizedText
   domain: SkillDomain
   level: SkillLevel
+  libraryTier?: LibraryTier
+  metaStatus?: MetaStatus
+  riskLevel?: RiskLevel
+  techniqueFamily?: TechniqueFamily
+  modernSystemGroup?: ModernSystemGroup
+  rulesetRelevance?: RulesetRelevance
   tags: string[]
   shortDescription: LocalizedText
   whyItMatters: LocalizedText

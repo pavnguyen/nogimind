@@ -169,6 +169,10 @@ export default function SkillDetailPage() {
         </SectionCard>
       ) : null}
 
+      {skill.microDetailSystem ? <MicroDetailSystemSection system={skill.microDetailSystem} lang={language} viewMode={viewMode} /> : null}
+      {skill.bodyToBodyDetails ? <BodyToBodyDetailsSection system={skill.bodyToBodyDetails} lang={language} viewMode={viewMode} /> : null}
+      {skill.qualityChecklist ? <TechniqueQualityChecklistSection skillId={skill.id} system={skill.qualityChecklist} lang={language} viewMode={viewMode} /> : null}
+
       {relatedGlossaryTerms.length ? (
         <SectionCard title={t('detail.keyTerms')} description={t('glossary.subtitle')}>
           <div className="flex flex-wrap gap-2">
@@ -186,6 +190,8 @@ export default function SkillDetailPage() {
           </div>
         </SectionCard>
       ) : null}
+
+      {skill.blackbeltDetails && viewMode !== 'simple' ? <BlackbeltDetailsSection system={skill.blackbeltDetails} lang={language} viewMode={viewMode} /> : null}
 
       {viewMode !== 'simple' ? <DetailGroupHeading title={t('detailGroups.understand')} /> : null}
       {viewMode !== 'simple' ? (
@@ -233,11 +239,6 @@ export default function SkillDetailPage() {
         </SectionCard>
         ) : null
       ) : null}
-
-      {skill.microDetailSystem ? <MicroDetailSystemSection system={skill.microDetailSystem} lang={language} viewMode={viewMode} /> : null}
-      {skill.bodyToBodyDetails ? <BodyToBodyDetailsSection system={skill.bodyToBodyDetails} lang={language} viewMode={viewMode} /> : null}
-      {skill.qualityChecklist ? <TechniqueQualityChecklistSection skillId={skill.id} system={skill.qualityChecklist} lang={language} viewMode={viewMode} /> : null}
-      {skill.blackbeltDetails && viewMode !== 'simple' ? <BlackbeltDetailsSection system={skill.blackbeltDetails} lang={language} viewMode={viewMode} /> : null}
 
       {viewMode === 'advanced' ? <DetailGroupHeading title={t('detailGroups.execute')} /> : null}
       {viewMode === 'advanced' && skill.bodyMechanicsSystem ? <BodyMechanicsSystem system={skill.bodyMechanicsSystem} lang={language} viewMode={viewMode} /> : null}

@@ -1,4 +1,4 @@
-import type { LanguageCode, SkillLevel, SkillNode, SkillDomain } from '../types/skill'
+import type { LanguageCode, LibraryTier, MetaStatus, ModernSystemGroup, RiskLevel, SkillLevel, SkillNode, SkillDomain, TechniqueFamily } from '../types/skill'
 import { getLocalizedArray, getLocalizedText } from './localization'
 
 export type SkillSearchFilters = {
@@ -6,6 +6,11 @@ export type SkillSearchFilters = {
   domain?: SkillDomain | ''
   level?: SkillLevel | ''
   tag?: string
+  libraryTier?: LibraryTier | ''
+  techniqueFamily?: TechniqueFamily | ''
+  modernSystemGroup?: ModernSystemGroup | ''
+  metaStatus?: MetaStatus | ''
+  riskLevel?: RiskLevel | ''
 }
 
 export const searchSkills = (
@@ -19,6 +24,11 @@ export const searchSkills = (
     if (filters.domain && skill.domain !== filters.domain) return false
     if (filters.level && skill.level !== filters.level) return false
     if (filters.tag && !skill.tags.includes(filters.tag)) return false
+    if (filters.libraryTier && skill.libraryTier !== filters.libraryTier) return false
+    if (filters.techniqueFamily && skill.techniqueFamily !== filters.techniqueFamily) return false
+    if (filters.modernSystemGroup && skill.modernSystemGroup !== filters.modernSystemGroup) return false
+    if (filters.metaStatus && skill.metaStatus !== filters.metaStatus) return false
+    if (filters.riskLevel && skill.riskLevel !== filters.riskLevel) return false
     if (!normalized) return true
 
     const mechanics = skill.bodyMechanicsSystem
@@ -260,6 +270,14 @@ export const searchSkills = (
       ...skill.commonMistakes.vi,
       ...Object.values(skill.bodyChecklist).flatMap((text) => [getLocalizedText(text, lang), text.en, text.vi]),
       ...mechanicsText,
+      skill.libraryTier ?? '',
+      skill.metaStatus ?? '',
+      skill.riskLevel ?? '',
+      skill.techniqueFamily ?? '',
+      skill.modernSystemGroup ?? '',
+      JSON.stringify(skill.rulesetRelevance ?? {}),
+      JSON.stringify(skill.bodyToBodyDetails ?? {}),
+      JSON.stringify(skill.blackbeltDetails ?? {}),
       ...skill.tags,
     ]
       .join(' ')
