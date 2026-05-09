@@ -231,7 +231,13 @@ export const getTroubleshooters = (skills: SkillNode[], lang: LanguageCode = 'en
     .map((skill) => {
       const finish = skill.technicalDetails?.finishingMechanics?.[0]
       const details = skill.technicalDetails?.keyDetails ?? []
-      const checklist = finish ? getLocalizedArray(finish.finishChecklist, lang) : details.slice(0, 8).map((detail) => getLocalizedText(detail.correctionCue, lang))
+      const qualityChecks = skill.qualityChecklist?.checks ?? []
+      const microDetails = skill.microDetailSystem?.topFiveDetails ?? []
+      const checklist = finish
+        ? getLocalizedArray(finish.finishChecklist, lang)
+        : details.length
+          ? details.slice(0, 8).map((detail) => getLocalizedText(detail.correctionCue, lang))
+          : qualityChecks.slice(0, 8).map((check) => getLocalizedText(check.quickFix, lang))
       const falseSignals = finish ? getLocalizedArray(finish.falseFinishSignals, lang) : []
       const diagnoses = [
         ...details.slice(0, 6).map((detail) => ({
@@ -241,6 +247,24 @@ export const getTroubleshooters = (skills: SkillNode[], lang: LanguageCode = 'en
           microFix: detail.correctionCue,
           relatedDetailIds: [detail.id],
         })),
+        ...(!details.length
+          ? qualityChecks.slice(0, 6).map((check) => ({
+              id: `${skill.id}-${check.id}`,
+              title: check.title,
+              likelyCause: check.failureSignal,
+              microFix: check.quickFix,
+              relatedDetailIds: check.relatedMicroDetailIds ?? [],
+            }))
+          : []),
+        ...(!details.length && !qualityChecks.length
+          ? microDetails.slice(0, 6).map((detail) => ({
+              id: `${skill.id}-${detail.id}`,
+              title: detail.title,
+              likelyCause: detail.commonMistake,
+              microFix: detail.correctionCue,
+              relatedDetailIds: [detail.id],
+            }))
+          : []),
         ...falseSignals.slice(0, 4).map((signal, index) => ({
           id: `${skill.id}-false-signal-${index}`,
           title: lt(signal, signal, signal),
@@ -262,7 +286,7 @@ export const getTroubleshooters = (skills: SkillNode[], lang: LanguageCode = 'en
         category: troubleshooterCategoryFor(skill),
         checklist,
         diagnoses,
-        safetyNotes: finish ? getLocalizedArray(finish.safetyNotes, lang) : [],
+        safetyNotes: finish ? getLocalizedArray(finish.safetyNotes, lang) : skill.microDetailSystem?.safetyNotes ? getLocalizedArray(skill.microDetailSystem.safetyNotes, lang) : [],
       }
     })
 

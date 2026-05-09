@@ -242,6 +242,51 @@ const textIncludesAny = (value: unknown, terms: string[]) => {
   return terms.some((term) => haystack.includes(term.toLowerCase()))
 }
 
+const bodySideValues = new Set(['left', 'right', 'near', 'far', 'inside', 'outside', 'top', 'bottom', 'center', 'both', 'either'])
+const bodyPartValues = new Set([
+  'head',
+  'eyes',
+  'ear',
+  'chin',
+  'neck',
+  'shoulder',
+  'chest',
+  'sternum',
+  'ribs',
+  'spine',
+  'hip',
+  'pelvis',
+  'hand',
+  'wrist',
+  'forearm',
+  'elbow',
+  'biceps',
+  'triceps',
+  'knee',
+  'thigh',
+  'shin',
+  'ankle',
+  'heel',
+  'toes',
+  'foot',
+])
+const bodyWords = ['hand', 'wrist', 'forearm', 'elbow', 'head', 'shoulder', 'chest', 'hip', 'knee', 'shin', 'foot', 'heel', 'tay', 'cổ tay', 'cẳng tay', 'khuỷu', 'đầu', 'vai', 'ngực', 'hông', 'gối', 'ống quyển', 'chân', 'gót', 'main', 'poignet', 'avant-bras', 'coude', 'tête', 'épaule', 'poitrine', 'hanche', 'genou', 'tibia', 'pied', 'talon']
+const directionWords = ['left', 'right', 'near', 'far', 'inside', 'outside', 'across', 'diagonal', 'down', 'up', 'toward', 'away', 'rotate', 'pull', 'push', 'drive', 'pin', 'line', 'centerline', 'under', 'over', 'low', 'high', 'close', 'open', 'block', 'bên trái', 'bên phải', 'gần', 'xa', 'trong', 'ngoài', 'chéo', 'xuống', 'lên', 'về phía', 'ra xa', 'xoay', 'kéo', 'đẩy', 'ép', 'ghim', 'line', 'đường', 'dưới', 'trên', 'thấp', 'cao', 'đóng', 'mở', 'chặn', 'gauche', 'droite', 'proche', 'éloigné', 'intérieur', 'extérieur', 'diagonale', 'bas', 'haut', 'vers', 'loin', 'tourne', 'tirer', 'pousser', 'bloque', 'ligne', 'sous', 'sur', 'ferme', 'ouvre']
+const bodyToBodyRoleMarkers: Record<Lang, { me: string[]; opponent: string[] }> = {
+  en: { me: ['my ', "i ", "i'm "], opponent: ['opponent', 'their ', "they "] },
+  vi: { me: ['tôi', 'của tôi', 'mình'], opponent: ['đối thủ', 'họ'] },
+  fr: { me: ['mon ', 'ma ', 'mes ', 'je '], opponent: ['adversaire', 'adverse', 'son ', 'sa ', 'ses '] },
+}
+
+const localizedValue = (value: unknown, lang: Lang) => (isLocalizedText(value) ? value[lang].toLowerCase() : '')
+
+const addDataClarityWarning = (report: ValidationReport, message: string) => {
+  report.counts.bodyToBodyClarityWarnings = (report.counts.bodyToBodyClarityWarnings ?? 0) + 1
+  if (report.counts.bodyToBodyClarityWarnings <= 20) {
+    addWarning(report, `Data clarity: ${message}`)
+  }
+}
+
 const validateSkills = (report: ValidationReport, skills: AnyRecord[], glossary: AnyRecord[], optionalSets: DataSet[]) => {
   const skillIds = new Set(skills.map((skill) => skill.id).filter((id): id is string => typeof id === 'string'))
   const conceptIds = new Set(optionalSets.find((set) => set.name === 'concepts')?.items.map((item) => item.id).filter((id): id is string => typeof id === 'string') ?? [])
@@ -423,6 +468,23 @@ const validateSkills = (report: ValidationReport, skills: AnyRecord[], glossary:
         const fastFinishPaths = Array.isArray(microDetailSystem.fastFinishPaths) ? microDetailSystem.fastFinishPaths : []
         const troubleshootingTips = Array.isArray(microDetailSystem.troubleshootingTips) ? microDetailSystem.troubleshootingTips : []
         if (topFiveDetails.length < 5) addError(report, `${path}.microDetailSystem.topFiveDetails must have at least 5 items`)
+        topFiveDetails.forEach((detail, detailIndex) => {
+          if (!isRecord(detail)) return
+          const hasStructuredBody = Array.isArray(detail.bodyParts) && detail.bodyParts.some((bodyPart) => typeof bodyPart === 'string' && bodyPart.trim().length > 0)
+          const hasStructuredDirection = typeof detail.direction === 'string' && detail.direction.trim().length > 0
+          langs.forEach((lang) => {
+            const instruction = localizedValue(detail.shortInstruction, lang)
+            const cue = localizedValue(detail.correctionCue, lang)
+            const namesBody = textIncludesAny(instruction, bodyWords) || hasStructuredBody
+            const namesDirection = textIncludesAny(instruction, directionWords) || hasStructuredDirection
+            if (instruction && (!namesBody || !namesDirection)) {
+              addDataClarityWarning(report, `${path}.microDetailSystem.topFiveDetails[${detailIndex}].shortInstruction.${lang} should name body part and direction`)
+            }
+            if (cue && cue.length > 80) {
+              addDataClarityWarning(report, `${path}.microDetailSystem.topFiveDetails[${detailIndex}].correctionCue.${lang} is long for a live cue`)
+            }
+          })
+        })
         if (leftRightGuides.length < 2) addError(report, `${path}.microDetailSystem.leftRightGuides must have at least 2 items`)
         if (troubleshootingTips.length < 5) addError(report, `${path}.microDetailSystem.troubleshootingTips must have at least 5 items`)
         if (!isLocalizedArray(microDetailSystem.doNotDo) || microDetailSystem.doNotDo.en.length < 5) addError(report, `${path}.microDetailSystem.doNotDo must have at least 5 items`)
@@ -505,8 +567,25 @@ const validateSkills = (report: ValidationReport, skills: AnyRecord[], glossary:
           const opponentBodyPart = isRecord(contact.opponentBodyPart) ? contact.opponentBodyPart : undefined
           if (!myBodyPart || myBodyPart.role !== 'me') addError(report, `${contactPath}.myBodyPart.role must be "me"`)
           if (!opponentBodyPart || opponentBodyPart.role !== 'opponent') addError(report, `${contactPath}.opponentBodyPart.role must be "opponent"`)
+          if (myBodyPart) {
+            if (!bodySideValues.has(String(myBodyPart.side))) addError(report, `${contactPath}.myBodyPart.side "${String(myBodyPart.side)}" is invalid`)
+            if (!bodyPartValues.has(String(myBodyPart.bodyPart))) addError(report, `${contactPath}.myBodyPart.bodyPart "${String(myBodyPart.bodyPart)}" is invalid`)
+            if (String(myBodyPart.side) === 'either' && !myBodyPart.detail) addDataClarityWarning(report, `${contactPath}.myBodyPart uses either-side without detail`)
+          }
+          if (opponentBodyPart) {
+            if (!bodySideValues.has(String(opponentBodyPart.side))) addError(report, `${contactPath}.opponentBodyPart.side "${String(opponentBodyPart.side)}" is invalid`)
+            if (!bodyPartValues.has(String(opponentBodyPart.bodyPart))) addError(report, `${contactPath}.opponentBodyPart.bodyPart "${String(opponentBodyPart.bodyPart)}" is invalid`)
+            if (String(opponentBodyPart.side) === 'either' && !opponentBodyPart.detail) addDataClarityWarning(report, `${contactPath}.opponentBodyPart uses either-side without detail`)
+          }
           ;['title', 'contactType', 'exactInstruction', 'whyItWorks', 'commonMisplacement', 'correctionCue', 'liveCue'].forEach((field) => {
             if (contact[field] === undefined || contact[field] === null) addError(report, `${contactPath}.${field} is required`)
+          })
+          langs.forEach((lang) => {
+            const exactInstruction = localizedValue(contact.exactInstruction, lang)
+            const markers = bodyToBodyRoleMarkers[lang]
+            if (exactInstruction && (!markers.me.some((marker) => exactInstruction.includes(marker)) || !markers.opponent.some((marker) => exactInstruction.includes(marker)))) {
+              addDataClarityWarning(report, `${contactPath}.exactInstruction.${lang} should explicitly say my body part and opponent body part`)
+            }
           })
           if (!contact.forceDirection) addWarning(report, `${contactPath}.forceDirection is missing`)
           if (textIncludesAny(skill, safetyTerms) && !contact.safetyNote && String(contact.contactType) === 'finish_pressure') {
@@ -722,6 +801,7 @@ const main = async () => {
   console.log(`skills missing quickCard: ${skills.filter((skill) => !skill.quickCard).length}`)
   console.log(`skills missing bodyToBodyDetails: ${skills.filter((skill) => !skill.bodyToBodyDetails).length}`)
   console.log(`skills missing blackbeltDetails: ${skills.filter((skill) => !skill.blackbeltDetails).length}`)
+  console.log(`body-to-body clarity warnings: ${report.counts.bodyToBodyClarityWarnings ?? 0}`)
   console.log('')
   console.log(`validation errors: ${report.errors.length}`)
   console.log(`warnings: ${report.warnings.length}`)

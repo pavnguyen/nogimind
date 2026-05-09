@@ -11,7 +11,8 @@ type Props = {
   viewMode?: ViewMode
 }
 
-const formatTarget = (target: BodyTarget) => `${target.role === 'me' ? 'My' : 'Opponent'} ${target.side} ${target.bodyPart}`
+const formatTarget = (target: BodyTarget, t: (key: string) => string) =>
+  `${t(`bodyToBody.roles.${target.role}`)} ${t(`bodyToBody.sides.${target.side}`)} ${t(`bodyToBody.bodyParts.${target.bodyPart}`)}`
 
 const ContactCard = ({ contact, lang }: { contact: BodyToBodyContact; lang: LanguageCode }) => {
   const { t } = useTranslation()
@@ -25,10 +26,16 @@ const ContactCard = ({ contact, lang }: { contact: BodyToBodyContact; lang: Lang
       </div>
       <h3 className="mt-3 text-sm font-semibold text-white">{getLocalizedText(contact.title, lang)}</h3>
       <div className="mt-3 rounded-md border border-cyan-300/15 bg-cyan-300/10 p-3 text-sm font-semibold text-cyan-50">
-        <span>{formatTarget(contact.myBodyPart)}</span>
+        <span>{formatTarget(contact.myBodyPart, t)}</span>
         <span className="px-2 text-cyan-300">→</span>
-        <span>{formatTarget(contact.opponentBodyPart)}</span>
+        <span>{formatTarget(contact.opponentBodyPart, t)}</span>
       </div>
+      {contact.myBodyPart.detail || contact.opponentBodyPart.detail ? (
+        <div className="mt-2 grid gap-2 text-xs leading-5 text-slate-400 md:grid-cols-2">
+          {contact.myBodyPart.detail ? <p>{getLocalizedTechnicalText(contact.myBodyPart.detail, lang)}</p> : null}
+          {contact.opponentBodyPart.detail ? <p>{getLocalizedTechnicalText(contact.opponentBodyPart.detail, lang)}</p> : null}
+        </div>
+      ) : null}
       <div className="mt-3 space-y-2 text-sm leading-6 text-slate-300">
         <p><span className="font-semibold text-slate-100">{t('bodyToBody.instruction')}: </span>{getLocalizedTechnicalText(contact.exactInstruction, lang)}</p>
         <p><span className="font-semibold text-slate-100">{t('bodyToBody.whyItWorks')}: </span>{getLocalizedTechnicalText(contact.whyItWorks, lang)}</p>

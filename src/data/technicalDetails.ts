@@ -89,10 +89,10 @@ const micro = (
   direction?: ForceDirection,
 ): MicroAdjustment => ({ id, problem, adjustment, why, relatedBodyParts, direction })
 
-const safetyText = lt(
-  'Tap sớm, tăng lực chậm và tập dưới sự giám sát đủ chuyên môn. Không crank cổ, vai, gối hoặc cột sống trong training.',
-  'Tap early, add force slowly, and train under qualified supervision. Do not crank the neck, shoulder, knee, or spine in training.',
-  'Tapez tôt, ajoutez la force lentement et entraînez-vous sous supervision qualifiée. Ne forcez pas cou, épaule, genou ou colonne.',
+const safetyTextFor = (spec: TechnicalSpec) => lt(
+  `${spec.name.vi}: tap sớm, tăng lực chậm và tập dưới sự giám sát đủ chuyên môn. Không crank cổ, vai, gối hoặc cột sống trong training.`,
+  `${spec.name.en}: tap early, add force slowly, and train under qualified supervision. Do not crank the neck, shoulder, knee, or spine in training.`,
+  `${spec.name.fr} : tapez tôt, ajoutez la force lentement et entraînez-vous sous supervision qualifiée. Ne forcez pas cou, épaule, genou ou colonne.`,
 )
 
 const keyDetailsFor = (spec: TechnicalSpec): TechnicalDetail[] => [
@@ -113,7 +113,7 @@ const keyDetailsFor = (spec: TechnicalSpec): TechnicalDetail[] => [
     lt('Nhìn xuống mat, cổ dài, hoặc đặt đầu giữa hai tay đối thủ.', 'Looking at the mat, lengthening the neck, or placing the head between both opponent hands.', 'Regarder le tapis, allonger le cou ou mettre la tête entre les deux mains adverses.'),
     lt('Đầu khóa line trước, tay xử lý sau.', 'Head locks the line first, hands solve second.', 'La tête verrouille la ligne avant les mains.'),
     lt('Nếu đầu mất line, reset thay vì siết mạnh hơn.', 'If the head loses line, reset instead of squeezing harder.', 'Si la tête perd sa ligne, reset au lieu de serrer plus fort.'),
-    spec.safetySensitive ? safetyText : undefined,
+    spec.safetySensitive ? safetyTextFor(spec) : undefined,
   ),
   detail(
     `${spec.id}-eyes-scan`,
@@ -121,9 +121,9 @@ const keyDetailsFor = (spec: TechnicalSpec): TechnicalDetail[] => [
     lt('Mắt đọc escape đầu tiên', 'Eyes read the first escape', 'Les yeux lisent la première sortie'),
     lt('Khi đối thủ bắt đầu hand fight, frame, bridge hoặc pummel.', 'When the opponent begins hand fighting, framing, bridging, or pummeling.', 'Quand l’adversaire commence hand fight, frame, bridge ou pummel.'),
     lt(
-      'Mắt không nhìn một điểm cố định. Đọc vai gần, hông xa và tay đang tạo frame để biết nên giữ control, đổi angle hay chuyển nhánh.',
-      'Do not stare at one fixed point. Read near shoulder, far hip, and the hand building a frame so you know whether to hold control, change angle, or branch.',
-      'Ne fixez pas un seul point. Lisez épaule proche, hanche loin et main qui frame pour choisir contrôle, angle ou branche.',
+      `${spec.name.vi}: mắt đọc vai gần, hông xa và tay đang tạo frame để biết nên giữ control, đổi angle hay chuyển nhánh.`,
+      `${spec.name.en}: eyes read near shoulder, far hip, and the framing hand so you know whether to hold control, change angle, or branch.`,
+      `${spec.name.fr} : les yeux lisent épaule proche, hanche loin et main qui frame pour choisir contrôle, angle ou branche.`,
     ),
     ['eyes', 'head', 'shoulders'],
     'both',
@@ -183,7 +183,11 @@ const keyDetailsFor = (spec: TechnicalSpec): TechnicalDetail[] => [
     'top',
     'drive_diagonal',
     lt('Thân tạo lực bền hơn tay và làm đối thủ khó tạo frame có cấu trúc.', 'The torso creates more durable force than arms and makes structured frames harder.', 'Le torse crée une force plus durable que les bras et rend les frames plus difficiles.'),
-    lt('Vai nhún căng, ngực nổi, hoặc pressure đi vào mat thay vì vào opponent line.', 'Shrugged shoulders, floating chest, or pressure going into the mat instead of the opponent’s line.', 'Épaules haussées, poitrine flottante, ou pression dans le tapis au lieu de la ligne adverse.'),
+    lt(
+      `${spec.name.vi}: vai nhún căng, ngực nổi, hoặc pressure đi vào mat thay vì vào opponent line.`,
+      `${spec.name.en}: shrugged shoulders, floating chest, or pressure going into the mat instead of the opponent’s line.`,
+      `${spec.name.fr} : épaules haussées, poitrine flottante, ou pression dans le tapis au lieu de la ligne adverse.`,
+    ),
     lt('Sternum dính trước khi tăng lực.', 'Sternum sticks before adding force.', 'Sternum collé avant force.'),
     lt('Nếu pressure làm bạn mất base, lực đang đi sai hướng.', 'If pressure makes you lose base, force is going the wrong direction.', 'Si la pression vous fait perdre base, la force est mal dirigée.'),
   ),
@@ -240,7 +244,7 @@ const keyDetailsFor = (spec: TechnicalSpec): TechnicalDetail[] => [
     lt('Squeeze sớm, pass sớm, hoặc bridge sớm khi connection còn lỏng.', 'Squeezing, passing, or bridging early while connection is loose.', 'Serrer, passer ou bridger tôt avec connexion lâche.'),
     lt('Không gian hết rồi mới tăng lực.', 'No space, then force.', 'Plus d’espace, puis force.'),
     lt('Nếu họ phòng thủ bằng một chuyển động nhỏ, còn slack.', 'If they defend with a tiny movement, slack remains.', 'S’il défend avec petit mouvement, il reste du slack.'),
-    spec.safetySensitive ? safetyText : undefined,
+    spec.safetySensitive ? safetyTextFor(spec) : undefined,
   ),
   detail(
     `${spec.id}-branch-switch`,
@@ -267,14 +271,14 @@ const keyDetailsFor = (spec: TechnicalSpec): TechnicalDetail[] => [
     lt('Khi vị trí chuyển thành lực vào cổ, vai, gối, cổ chân hoặc spine.', 'When the position turns into force on neck, shoulder, knee, ankle, or spine.', 'Quand la position crée force sur cou, épaule, genou, cheville ou colonne.'),
     lt(
       spec.safetySensitive
-        ? 'Giảm lực, giao tiếp rõ và reset nếu partner không thể tap hoặc hướng lực không rõ. Không train dangerous finishing pressure một mình.'
-        : 'Nếu bạn mất kiểm soát và chỉ còn kéo/đè bằng sức, reset về posture hoặc position thay vì tạo lực nguy hiểm.',
+        ? `${spec.name.vi}: giảm lực, giao tiếp rõ và reset nếu partner không thể tap hoặc hướng lực không rõ. Không train dangerous finishing pressure một mình.`
+        : `${spec.name.vi}: nếu bạn mất kiểm soát và chỉ còn kéo/đè bằng sức, reset về posture hoặc position thay vì tạo lực nguy hiểm.`,
       spec.safetySensitive
-        ? 'Reduce force, communicate clearly, and reset if the partner cannot tap or force direction is unclear. Do not train dangerous finishing pressure alone.'
-        : 'If control is gone and you are only pulling or driving with strength, reset to posture or position instead of creating dangerous force.',
+        ? `${spec.name.en}: reduce force, communicate clearly, and reset if the partner cannot tap or force direction is unclear. Do not train dangerous finishing pressure alone.`
+        : `${spec.name.en}: if control is gone and you are only pulling or driving with strength, reset to posture or position instead of creating dangerous force.`,
       spec.safetySensitive
-        ? 'Réduisez force, communiquez clairement et reset si le partenaire ne peut pas taper ou si la direction est floue. Ne travaillez pas pression dangereuse seul.'
-        : 'Si le contrôle est perdu et vous forcez seulement, reset posture ou position au lieu de créer une force dangereuse.',
+        ? `${spec.name.fr} : réduisez force, communiquez clairement et reset si le partenaire ne peut pas taper ou si la direction est floue. Ne travaillez pas pression dangereuse seul.`
+        : `${spec.name.fr} : si le contrôle est perdu et vous forcez seulement, reset posture ou position au lieu de créer une force dangereuse.`,
     ),
     ['neck', 'shoulders', 'knees', 'ankles', 'spine'],
     'either',
@@ -283,7 +287,7 @@ const keyDetailsFor = (spec: TechnicalSpec): TechnicalDetail[] => [
     lt('Cố chứng minh toughness hoặc finish khi control đã mất.', 'Trying to prove toughness or finish after control is gone.', 'Prouver dureté ou finir après perte contrôle.'),
     lt('Không rõ lực thì reset.', 'If force is unclear, reset.', 'Force floue: reset.'),
     lt('Pain không phải cue kỹ thuật; đọc position trước pain.', 'Pain is not a technical cue; read position before pain.', 'La douleur n’est pas un cue technique; lire position avant douleur.'),
-    safetyText,
+    safetyTextFor(spec),
   ),
 ]
 

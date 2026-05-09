@@ -28,6 +28,7 @@ import { qualityChecklistsBySkillId } from './qualityChecklists'
 import { microDetailSystemBySkillId } from './microDetailSystems'
 import { technicalDetailsBySkillId } from './technicalDetails'
 import { blackbeltDetailsBySkillId, bodyToBodyDetailsBySkillId } from './blackbeltDetails'
+import { bodyToBodyDetailsForSkill, clarifyBodyToBodyDetails } from './generatedBodyToBodyDetails'
 import { modernExpansionSkills } from './modernExpansionSkills'
 
 const lt = (vi: string, en: string, fr: string): LocalizedText => ({ vi, en, fr })
@@ -709,7 +710,11 @@ const bodyPartInstructionFor = (
         `In ${title.en}, the neck stays short, aligned with the spine, and does not twist against force.`,
         `Dans ${title.fr}, le cou reste court, aligné avec la colonne et ne tourne pas contre la force.`,
       ),
-      why: lt('Cổ là đường truyền lực giữa đầu và thân; cổ dài hoặc xoắn làm mất posture và tăng rủi ro.', 'The neck transfers force between head and torso; a long or twisted neck loses posture and raises risk.', 'Le cou transmet la force tête-torse; long ou tordu, il perd posture et augmente le risque.'),
+      why: lt(
+        `Trong ${title.vi}, cổ nối đầu với hông; cổ dài hoặc xoắn làm mất posture và tăng rủi ro.`,
+        `In ${title.en}, the neck connects head to hips; a long or twisted neck loses posture and raises risk.`,
+        `Dans ${title.fr}, le cou relie tête et hanches; long ou tordu, il perd posture et augmente le risque.`,
+      ),
     },
     shoulders: {
       instruction: lt(
@@ -733,7 +738,11 @@ const bodyPartInstructionFor = (
         `In ${title.en}, the sternum steers pressure; aim it toward near shoulder, far hip, or centerline by phase.`,
         `Dans ${title.fr}, le sternum dirige la pression; visez l’épaule proche, far hip ou centerline selon la phase.`,
       ),
-      why: lt('Sternum định hướng trọng lượng; nếu không có hướng, pressure biến thành nằm nặng nhưng dễ bị xoay.', 'The sternum gives weight a direction; without it, pressure is heavy but easy to rotate.', 'Le sternum donne direction au poids; sans lui, la pression est lourde mais rotative.'),
+      why: lt(
+        `Trong ${title.vi}, sternum định hướng trọng lượng; thiếu hướng thì pressure chỉ là nằm nặng.`,
+        `In ${title.en}, the sternum gives weight a direction; without it, pressure is only heavy.`,
+        `Dans ${title.fr}, le sternum donne direction au poids; sans lui, la pression est seulement lourde.`,
+      ),
     },
     ribs: {
       instruction: lt(
@@ -769,7 +778,11 @@ const bodyPartInstructionFor = (
         `In ${title.en}, the pelvis aims weight or the escape line; rotate it toward the far hip when creating angle.`,
         `Dans ${title.fr}, le pelvis dirige le poids ou la sortie; tournez-le vers far hip pour créer l’angle.`,
       ),
-      why: lt('Pelvis không tham gia thì pressure nằm ở vai/tay, còn escape chỉ là shrimp rời rạc.', 'Without pelvis involvement, pressure lives in shoulders and arms, and escapes become isolated shrimping.', 'Sans pelvis, la pression reste épaules/bras et l’escape devient shrimp isolé.'),
+      why: lt(
+        `Trong ${title.vi}, pelvis phải lái lực; nếu không, pressure nằm ở vai/tay và escape rời rạc.`,
+        `In ${title.en}, pelvis must steer force; otherwise pressure lives in shoulders or arms and escapes fragment.`,
+        `Dans ${title.fr}, le bassin doit diriger la force; sinon la pression reste épaules/bras et l’escape se fragmente.`,
+      ),
     },
     hands: {
       instruction: lt(
@@ -780,7 +793,11 @@ const bodyPartInstructionFor = (
       why: lt('Tay là điểm kết nối đầu tiên nhưng cũng là lever đối thủ sẽ tấn công.', 'Hands are the first connection point but also the lever the opponent will attack.', 'Les mains sont le premier point de connexion mais aussi le levier attaqué.'),
     },
     wrists: {
-      instruction: lt('Wrist giữ trung lập; lòng bàn tay xoay để grip không bị bẻ và để forearm thành frame thật.', 'Wrists stay neutral; palm orientation protects the grip and lets the forearm become a real frame.', 'Les poignets restent neutres; l’orientation de paume protège le grip et transforme forearm en frame.'),
+      instruction: lt(
+        `Trong ${title.vi}, wrist giữ trung lập; xoay lòng bàn tay để grip không bị bẻ.`,
+        `In ${title.en}, wrists stay neutral; palm angle protects grip and turns forearm into frame.`,
+        `Dans ${title.fr}, les poignets restent neutres; l’angle de paume protège le grip.`,
+      ),
       why: lt('Wrist gập yếu làm grip mất lực và mở đường wrist peel, kimura hoặc heel exposure control.', 'A bent wrist weakens grip and opens wrist peels, kimura, or heel-exposure control.', 'Un poignet plié affaiblit le grip et ouvre peel, kimura ou contrôle du talon.'),
     },
     elbows: {
@@ -789,11 +806,23 @@ const bodyPartInstructionFor = (
         `In ${title.en}, elbows stay near the ribs or knees unless you are deliberately using them as wedges.`,
         `Dans ${title.fr}, les coudes restent près des côtes ou des genoux sauf si vous les utilisez volontairement comme wedge.`,
       ),
-      why: lt('Elbow-knee connection là khóa an toàn cơ bản cho escape, guard retention và chống submission.', 'Elbow-knee connection is the basic safety lock for escapes, guard retention, and submission defense.', 'La connexion coude-genou est le verrou de sécurité pour escapes, rétention et défense soumission.'),
+      why: lt(
+        `Trong ${title.vi}, elbow-knee connection là khóa an toàn để không mất lớp guard/escape.`,
+        `In ${title.en}, elbow-knee connection keeps the guard or escape layer from collapsing.`,
+        `Dans ${title.fr}, la connexion coude-genou protège la couche garde/escape.`,
+      ),
     },
     forearms: {
-      instruction: lt('Forearm làm frame theo đường xương ngang collarbone, hip hoặc bicep; không duỗi thẳng để bench press.', 'Forearm frames through bone across collarbone, hip, or bicep; do not fully extend into a bench press.', 'Le forearm frame par l’os sur clavicule, hanche ou biceps; ne pas tendre en bench press.'),
-      why: lt('Forearm frame giữ khoảng cách mà không tốn sức và tạo đường cho knee/hip pummel.', 'Forearm frames preserve distance without fatigue and create the lane for knee or hip pummeling.', 'Le forearm frame garde distance sans fatigue et ouvre la voie au pummel genou/hanche.'),
+      instruction: lt(
+        `Trong ${title.vi}, forearm frame bằng xương ngang collarbone, hip hoặc bicep; đừng duỗi thẳng bench press.`,
+        `In ${title.en}, the forearm frames through bone across collarbone, hip, or bicep; do not extend into a bench press.`,
+        `Dans ${title.fr}, le forearm frame par l’os sur clavicule, hanche ou biceps; ne pas tendre en bench press.`,
+      ),
+      why: lt(
+        `Trong ${title.vi}, forearm frame giữ khoảng cách và mở đường cho knee/hip pummel.`,
+        `In ${title.en}, forearm frames preserve distance and open the knee or hip pummel lane.`,
+        `Dans ${title.fr}, le forearm frame garde distance et ouvre la voie genou/hanche.`,
+      ),
     },
     biceps: {
       instruction: lt(
@@ -858,18 +887,28 @@ const bodyPartInstructionFor = (
       why: lt('Toes chết làm weight distribution rơi vào gối hoặc lưng, khiến transition chậm.', 'Dead toes dump weight into knees or back and slow transitions.', 'Des orteils passifs chargent genoux ou dos et ralentissent transition.'),
     },
     feet: {
-      instruction: lt('Feet là base, hook hoặc brake; đặt chân sao cho bạn có thể drive, lift hoặc rút ra mà không bị trap.', 'Feet are base, hooks, or brakes; place them so you can drive, lift, or withdraw without being trapped.', 'Les pieds sont base, hooks ou freins; les placer pour drive, lift ou retirer sans être piégé.'),
+      instruction: lt(
+        `Trong ${title.vi}, feet là base, hook hoặc brake; đặt chân để drive, lift hoặc rút ra không bị trap.`,
+        `In ${title.en}, feet act as base, hooks, or brakes; place them so you can drive, lift, or withdraw safely.`,
+        `Dans ${title.fr}, les pieds servent de base, hooks ou freins; placez-les pour drive, lift ou retirer sans piège.`,
+      ),
       why: lt('Foot position quyết định bạn có thể chuyển từ defense sang offense hay bị giữ tại chỗ.', 'Foot position decides whether you can convert defense to offense or remain stuck.', 'La position des pieds décide si vous convertissez défense en attaque ou restez bloqué.'),
     },
   }
 
   const selected = map[bodyPart]
+  const withSkillContext = (text: LocalizedText): LocalizedText => ({
+    vi: text.vi.includes(title.vi) ? text.vi : `${title.vi}: ${text.vi}`,
+    en: text.en.includes(title.en) ? text.en : `${title.en}: ${text.en}`,
+    fr: text.fr.includes(title.fr) ? text.fr : `${title.fr} : ${text.fr}`,
+  })
+
   return {
     bodyPart,
     role,
     mechanicType,
-    instruction: selected.instruction,
-    whyItMatters: selected.why,
+    instruction: withSkillContext(selected.instruction),
+    whyItMatters: withSkillContext(selected.why),
     commonErrors,
     correctionCues,
   }
@@ -956,17 +995,17 @@ const phaseSignals = (seedValue: SkillSeed, phaseName: LocalizedText) => ({
   checkpoints: la(
     [
       `Đầu, hông và khuỷu cùng hướng trong ${phaseName.vi}.`,
-      'Bạn có ít nhất một inside connection: underhook, inside knee, forearm frame hoặc head position.',
+      `Trong ${seedValue.title.vi} - ${phaseName.vi}, bạn có một inside connection: underhook, inside knee, forearm frame hoặc head position.`,
       'Weight distribution cho phép đổi hướng mà không chống tay dài.',
     ],
     [
       `Head, hips, and elbows point into one system during ${phaseName.en}.`,
-      'You own at least one inside connection: underhook, inside knee, forearm frame, or head position.',
+      `During ${seedValue.title.en} - ${phaseName.en}, you own one inside connection: underhook, inside knee, forearm frame, or head position.`,
       'Weight distribution lets you change direction without a long hand post.',
     ],
     [
-      `Tête, hanches et coudes travaillent ensemble pendant ${phaseName.fr}.`,
-      'Vous possédez au moins une connexion inside : underhook, inside knee, forearm frame ou head position.',
+      `Dans ${seedValue.title.fr} - ${phaseName.fr}, tête, hanches et coudes travaillent ensemble.`,
+      `Dans ${seedValue.title.fr} - ${phaseName.fr}, vous possédez une connexion inside : underhook, inside knee, forearm frame ou head position.`,
       'La distribution du poids permet de changer direction sans post long.',
     ],
   ),
@@ -990,17 +1029,17 @@ const phaseSignals = (seedValue: SkillSeed, phaseName: LocalizedText) => ({
   successSignals: la(
     [
       'Bạn cảm nhận được connection chịu lực, không chỉ chạm.',
-      'Đối thủ phải chọn turn in, turn away, frame, stand hoặc reset thay vì tấn công tự do.',
+      `Trong ${seedValue.title.vi}, đối thủ phải chọn turn in, turn away, frame, stand hoặc reset thay vì tấn công tự do.`,
       `Bạn có nhánh tiếp theo rõ ràng từ ${seedValue.title.vi}.`,
     ],
     [
       'You feel the connection bearing weight, not merely touching.',
-      'The opponent must choose turn in, turn away, frame, stand, or reset instead of freely attacking.',
+      `In ${seedValue.title.en}, the opponent must choose turn in, turn away, frame, stand, or reset instead of freely attacking.`,
       `You have a clear next branch from ${seedValue.title.en}.`,
     ],
     [
       'La connexion porte du poids, pas seulement contact.',
-      'L’adversaire doit choisir turn in, turn away, frame, stand ou reset au lieu d’attaquer librement.',
+      `Dans ${seedValue.title.fr}, l’adversaire doit choisir turn in, turn away, frame, stand ou reset au lieu d’attaquer librement.`,
       `Vous avez une branche claire depuis ${seedValue.title.fr}.`,
     ],
   ),
@@ -1010,10 +1049,15 @@ const phaseFor = (seedValue: SkillSeed, template: ReturnType<typeof phaseTemplat
   const role = roleForSkill(seedValue)
   const parts = bodyPartsByPhase[index % bodyPartsByPhase.length]
   const signals = phaseSignals(seedValue, template.name)
+  const objectiveWithSkill = lt(
+    template.objective.vi.includes(seedValue.title.vi) ? template.objective.vi : `${seedValue.title.vi}: ${template.objective.vi}`,
+    template.objective.en.includes(seedValue.title.en) ? template.objective.en : `${seedValue.title.en}: ${template.objective.en}`,
+    template.objective.fr.includes(seedValue.title.fr) ? template.objective.fr : `${seedValue.title.fr} : ${template.objective.fr}`,
+  )
   return {
     id: template.id,
     name: template.name,
-    objective: template.objective,
+    objective: objectiveWithSkill,
     bodyPartInstructions: parts.bodyParts.map((bodyPart, bodyPartIndex) =>
       bodyPartInstructionFor(seedValue, template.name, bodyPart, role, parts.mechanicTypes[bodyPartIndex] ?? 'alignment'),
     ),
@@ -1036,13 +1080,25 @@ const bodyMechanicsSystemFor = (seedValue: SkillSeed): BodyMechanicsSystem => {
       `${seedValue.title.fr} est un système de mécanique corporelle : partir d’une situation claire, gagner inside position ou ligne de sécurité, utiliser tête-mains-hanches-genoux-pieds comme une chaîne, puis passer à la branche suivante si la première réponse est bloquée.`,
     ),
     topPlayerGoal: ['passing', 'pins_rides', 'back_control'].includes(seedValue.domain)
-      ? lt('Top player khóa hip line/shoulder line, tạo pressure có hướng và ổn định trước khi tấn công.', 'Top player locks hip line and shoulder line, creates directed pressure, and stabilizes before attacking.', 'Le top verrouille hip line/shoulder line, crée pression dirigée et stabilise avant attaque.')
+      ? lt(
+          `${seedValue.title.vi}: top player khóa hip line/shoulder line, tạo pressure có hướng và ổn định trước khi tấn công.`,
+          `${seedValue.title.en}: top player locks hip line and shoulder line, creates directed pressure, and stabilizes before attacking.`,
+          `${seedValue.title.fr} : le top verrouille hip line/shoulder line, crée pression dirigée et stabilise avant attaque.`,
+        )
       : undefined,
     bottomPlayerGoal: ['guard_retention', 'guard_offense', 'escapes', 'survival_defense'].includes(seedValue.domain)
-      ? lt('Bottom player giữ elbow-knee connection, inside knee và hip angle để không bị flatten rồi chuyển sang recover hoặc offense.', 'Bottom player keeps elbow-knee connection, inside knee, and hip angle to avoid flattening, then recovers or attacks.', 'Le bottom garde connexion coude-genou, inside knee et angle de hanches pour éviter flattening puis recover ou attaque.')
+      ? lt(
+          `${seedValue.title.vi}: bottom player giữ elbow-knee connection, inside knee và hip angle để không bị flatten rồi chuyển sang recover hoặc offense.`,
+          `${seedValue.title.en}: bottom player keeps elbow-knee connection, inside knee, and hip angle to avoid flattening, then recovers or attacks.`,
+          `${seedValue.title.fr} : le bottom garde connexion coude-genou, inside knee et angle de hanches pour éviter flattening puis recover ou attaque.`,
+        )
       : undefined,
     attackerGoal: ['submission_systems', 'wrestle_up_wrestling'].includes(seedValue.domain)
-      ? lt('Attacker tạo hai hướng threat, dùng grip/head position để khóa lever trước khi tăng lực.', 'Attacker creates two threat lines and uses grip and head position to lock levers before adding force.', 'L’attaquant crée deux menaces et utilise grip/head position pour verrouiller les leviers avant force.')
+      ? lt(
+          `${seedValue.title.vi}: attacker tạo hai hướng threat, dùng grip/head position để khóa lever trước khi tăng lực.`,
+          `${seedValue.title.en}: attacker creates two threat lines and uses grip and head position to lock levers before adding force.`,
+          `${seedValue.title.fr} : l’attaquant crée deux menaces et utilise grip/head position pour verrouiller les leviers avant force.`,
+        )
       : undefined,
     defenderGoal: isDefensiveSkill(seedValue)
       ? lt('Defender bảo vệ cổ, spine, knee line và inside position trước khi tìm escape lớn.', 'Defender protects neck, spine, knee line, and inside position before hunting a large escape.', 'Le défenseur protège cou, colonne, knee line et inside position avant grande sortie.')
@@ -1051,19 +1107,19 @@ const bodyMechanicsSystemFor = (seedValue: SkillSeed): BodyMechanicsSystem => {
     globalPrinciples: la(
       [
         'Head position, elbow-knee connection và hip angle quyết định phần lớn exchange.',
-        'Inside position là quyền đặt wedge/frame/hook vào giữa bạn và lực của đối thủ.',
+        `Trong ${seedValue.title.vi}, inside position đặt wedge/frame/hook giữa bạn và lực của đối thủ.`,
         'Pressure phải có hướng: toward near shoulder, far hip, knee line hoặc mat return line.',
         `For ${seedValue.title.en}, right-underhook orientation means the right ear stays near ribs or shoulder line and the hips turn with the angle.`,
       ],
       [
         'Head position, elbow-knee connection, and hip angle decide most exchanges.',
-        'Inside position is the right to place a wedge, frame, or hook between you and the opponent’s force.',
+        `In ${seedValue.title.en}, inside position places a wedge, frame, or hook between you and force.`,
         'Pressure needs direction: toward near shoulder, far hip, knee line, or mat-return line.',
         `For ${seedValue.title.en}, right-underhook orientation means the right ear stays near ribs or shoulder line and the hips turn with the angle.`,
       ],
       [
-        'Head position, connexion coude-genou et angle de hanches décident la plupart des échanges.',
-        'Inside position est le droit de placer wedge, frame ou hook entre vous et la force adverse.',
+        `Dans ${seedValue.title.fr}, head position, coude-genou et angle de hanches guident l’échange.`,
+        `Dans ${seedValue.title.fr}, inside position place wedge, frame ou hook entre vous et la force adverse.`,
         'La pression doit avoir direction : near shoulder, far hip, knee line ou mat return line.',
         `Pour ${seedValue.title.fr}, si le bras droit est underhook, l’oreille droite reste près des côtes ou de la shoulder line et les hanches suivent l’angle.`,
       ],
@@ -1795,7 +1851,7 @@ const buildSkill = (seedValue: SkillSeed): SkillNode => ({
   reactionBranches: reactionBranchesFor(seedValue),
   ifThenDecisions: ifThenDecisionsFor(seedValue),
   technicalDetails: technicalDetailsBySkillId[seedValue.id],
-  bodyToBodyDetails: bodyToBodyDetailsBySkillId.get(seedValue.id),
+  bodyToBodyDetails: bodyToBodyDetailsBySkillId.get(seedValue.id) ?? bodyToBodyDetailsForSkill(seedValue),
   blackbeltDetails: blackbeltDetailsBySkillId.get(seedValue.id),
   quickCard: quickCardFor(seedValue, microDetailSystemBySkillId.get(seedValue.id)),
   ...sharedRefsFor(seedValue),
@@ -1803,4 +1859,7 @@ const buildSkill = (seedValue: SkillSeed): SkillNode => ({
 
 const coreSkillNodes = seeds.map(buildSkill)
 
-export const skillNodes: SkillNode[] = [...coreSkillNodes, ...modernExpansionSkills]
+export const skillNodes: SkillNode[] = [...coreSkillNodes, ...modernExpansionSkills].map((skill) => ({
+  ...skill,
+  bodyToBodyDetails: skill.bodyToBodyDetails ? clarifyBodyToBodyDetails(skill.bodyToBodyDetails) : skill.bodyToBodyDetails,
+}))
