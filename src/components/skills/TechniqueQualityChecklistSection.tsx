@@ -40,7 +40,7 @@ export const TechniqueQualityChecklistSection = ({ skillId, system, lang, viewMo
   }, [store])
 
   const answers = store[skillId] ?? {}
-  const visibleChecks = viewMode === 'simple' ? system.checks.filter((item) => item.severity === 'critical') : system.checks
+  const visibleChecks = viewMode === 'advanced' ? system.checks : system.checks.filter((item) => item.severity === 'critical')
 
   const criticalFailures = system.checks.filter((checkItem) => checkItem.severity === 'critical' && answers[checkItem.id] !== 'yes')
   const suggestedFixes = visibleChecks

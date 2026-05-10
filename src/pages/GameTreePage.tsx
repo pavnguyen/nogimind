@@ -1,8 +1,8 @@
+import { lazy, Suspense } from 'react'
 import { useTranslation } from 'react-i18next'
 import { Link } from 'react-router-dom'
 import { AGameBuilder } from '../components/gameTree/AGameBuilder'
 import { GameTreeBoard } from '../components/gameTree/GameTreeBoard'
-import { GameTreeGraph } from '../components/graphs/GameTreeGraph'
 import { SectionCard } from '../components/common/SectionCard'
 import { PagePurposeBanner } from '../components/learning/PagePurposeBanner'
 import { useArchetypesQuery } from '../queries/archetypeQueries'
@@ -11,6 +11,8 @@ import { useSkillsQuery } from '../queries/skillQueries'
 import { useSettingsStore } from '../stores/useSettingsStore'
 import type { GameTree } from '../types/gameTree'
 import { getLocalizedText } from '../utils/localization'
+
+const GameTreeGraph = lazy(() => import('../components/graphs/GameTreeGraph').then((module) => ({ default: module.GameTreeGraph })))
 
 export default function GameTreePage() {
   const { t } = useTranslation()
@@ -54,7 +56,9 @@ export default function GameTreePage() {
         <GameTreeBoard skills={skills} gameTree={gameTree} lang={language} onChange={(tree) => updateGameTree.mutate(tree)} />
       </SectionCard>
       <SectionCard title={t('gameTree.graph')}>
-        <GameTreeGraph gameTree={gameTree} skills={skills} lang={language} />
+        <Suspense fallback={<p className="text-sm text-slate-400">{t('common.loading')}</p>}>
+          <GameTreeGraph gameTree={gameTree} skills={skills} lang={language} />
+        </Suspense>
       </SectionCard>
     </div>
   )

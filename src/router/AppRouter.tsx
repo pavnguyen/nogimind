@@ -24,8 +24,12 @@ import {
   SearchPage,
   SharedKnowledgePage,
   SettingsPage,
+  FixPage,
+  ReferencePage,
   SkillDetailPage,
   SkillMapPage,
+  StudyPage,
+  SystemMapPage,
   SubmissionTroubleshooterDetailPage,
   SubmissionTroubleshootersPage,
   TechniqueChainsPage,
@@ -43,6 +47,10 @@ export const AppRouter = () => (
         <Route element={<Layout />}>
           <Route index element={<DashboardPage />} />
           <Route path="/learn" element={<LearnPage />} />
+          <Route path="/study" element={<StudyPage />} />
+          <Route path="/fix" element={<FixPage />} />
+          <Route path="/map" element={<SystemMapPage />} />
+          <Route path="/reference" element={<ReferencePage />} />
           <Route path="/skills" element={<SkillMapPage />} />
           <Route path="/skills/:skillId" element={<SkillDetailPage />} />
           <Route path="/micro-details" element={<MicroDetailsPage />} />

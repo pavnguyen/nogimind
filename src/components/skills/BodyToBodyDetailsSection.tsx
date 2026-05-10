@@ -52,7 +52,7 @@ const ContactCard = ({ contact, lang }: { contact: BodyToBodyContact; lang: Lang
 export const BodyToBodyDetailsSection = ({ system, lang, viewMode = 'detailed' }: Props) => {
   const { t } = useTranslation()
   const phaseLimit = viewMode === 'advanced' ? system.phases.length : 2
-  const contactLimit = viewMode === 'simple' ? 2 : viewMode === 'advanced' ? 99 : 3
+  const contactLimit = viewMode === 'advanced' ? 99 : 2
   const visiblePhases = system.phases.slice(0, phaseLimit)
 
   return (

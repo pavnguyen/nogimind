@@ -12,11 +12,11 @@ import { getMicroDetails, getTroubleshooters } from '../utils/knowledgeModules'
 import { getLocalizedText } from '../utils/localization'
 
 const cockpitCards = [
+  { to: '/study', title: 'nav.study', body: 'modeUx.study.subtitle' },
+  { to: '/fix', title: 'nav.fix', body: 'modeUx.fix.subtitle' },
+  { to: '/map', title: 'nav.mapMode', body: 'modeUx.map.subtitle' },
+  { to: '/reference', title: 'nav.referenceMode', body: 'modeUx.reference.subtitle' },
   { to: '/search', title: 'dashboard.cockpit.search', body: 'dashboard.cockpit.searchBody' },
-  { to: '/troubleshooters', title: 'dashboard.cockpit.fix', body: 'dashboard.cockpit.fixBody' },
-  { to: '/skills', title: 'dashboard.cockpit.skill', body: 'dashboard.cockpit.skillBody' },
-  { to: '/micro-details', title: 'dashboard.cockpit.contact', body: 'dashboard.cockpit.contactBody' },
-  { to: '/chains', title: 'dashboard.cockpit.chain', body: 'dashboard.cockpit.chainBody' },
   { to: '/skills?library=modern_expansion', title: 'dashboard.cockpit.modern', body: 'dashboard.cockpit.modernBody' },
 ]
 

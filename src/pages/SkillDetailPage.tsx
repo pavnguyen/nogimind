@@ -1,10 +1,10 @@
+import { lazy, Suspense } from 'react'
 import { Link, useParams, useSearchParams } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import { ArrowLeft } from 'lucide-react'
 import { Badge } from '../components/common/Badge'
 import { NotFound } from '../components/common/NotFound'
 import { SectionCard } from '../components/common/SectionCard'
-import { SkillSystemGraph } from '../components/graphs/SkillSystemGraph'
 import { BodyChecklist } from '../components/skills/BodyChecklist'
 import { BodyMechanicsSystem } from '../components/skills/BodyMechanicsSystem'
 import { DangerSignals } from '../components/skills/DangerSignals'
@@ -43,6 +43,8 @@ import { sharedKnowledgeById } from '../data/sharedKnowledge'
 import { getSkillKnowledgeLinks } from '../utils/knowledgeGraph'
 import { getEscapeMaps, getTechniqueChains, skillHasTroubleshooter } from '../utils/knowledgeModules'
 import { getLocalizedArray, getLocalizedText } from '../utils/localization'
+
+const SkillSystemGraph = lazy(() => import('../components/graphs/SkillSystemGraph').then((module) => ({ default: module.SkillSystemGraph })))
 
 const laneForSkill = (skill: SkillNode): GameTreeLaneId => {
   if (skill.tags.some((tag) => tag.includes('leg-lock') || tag.includes('heel-hook'))) return 'legLocks'
@@ -102,6 +104,8 @@ export default function SkillDetailPage() {
   const escapeMap = getEscapeMaps([skill], language)[0]
   const hasTroubleshooter = skillHasTroubleshooter(skill)
   const isQuickMode = searchParams.get('mode') === 'quick'
+  const layerParam = searchParams.get('layer')
+  const activeLayer = layerParam === 'quick' || layerParam === 'body' || layerParam === 'system' ? layerParam : 'quick'
   const knowledgeGroups = getSkillKnowledgeLinks(skill.id)
 
   const addToGameTree = () => {
@@ -116,6 +120,12 @@ export default function SkillDetailPage() {
     const next = new URLSearchParams(searchParams)
     if (isQuickMode) next.delete('mode')
     else next.set('mode', 'quick')
+    setSearchParams(next, { replace: true })
+  }
+
+  const setLayer = (layer: 'quick' | 'body' | 'system') => {
+    const next = new URLSearchParams(searchParams)
+    next.set('layer', layer)
     setSearchParams(next, { replace: true })
   }
 
@@ -162,15 +172,51 @@ export default function SkillDetailPage() {
       {isQuickMode ? (
         <SkillQuickMode skill={skill} lang={language} fullDetailPath={`/skills/${skill.id}`} />
       ) : (
+        <div className="grid gap-6 xl:grid-cols-[minmax(0,1fr)_320px]">
+        <main className="space-y-6">
+      <div className="sticky top-[72px] z-10 rounded-lg border border-white/10 bg-slate-950/90 p-2 shadow-xl backdrop-blur">
+        <div className="grid gap-2 sm:grid-cols-3">
+          {(['quick', 'body', 'system'] as const).map((layer) => (
+            <button
+              key={layer}
+              type="button"
+              onClick={() => setLayer(layer)}
+              className={`rounded-md px-3 py-2 text-left text-sm font-semibold transition ${
+                activeLayer === layer ? 'bg-emerald-300 text-slate-950' : 'bg-slate-900/70 text-slate-300 hover:bg-white/10 hover:text-white'
+              }`}
+            >
+              {t(`modeUx.skillLayers.${layer}`)}
+              <span className={`mt-1 block text-xs font-normal ${activeLayer === layer ? 'text-slate-800' : 'text-slate-500'}`}>
+                {t(`modeUx.skillLayers.${layer}Short`)}
+              </span>
+            </button>
+          ))}
+        </div>
+      </div>
+
+      {activeLayer === 'quick' ? (
         <>
+      <LayerHeading title={t('modeUx.skillLayers.quick')} body={t('modeUx.skillLayers.quickHelp')} />
       {skill.quickCard ? (
         <SectionCard title={t('detail.quickStart')} description={getLocalizedText(skill.quickCard.goal, language)}>
           <QuickCard card={skill.quickCard} lang={language} />
         </SectionCard>
       ) : null}
+      <NextBestStepPanel skillId={skill.id} lang={language} />
+        </>
+      ) : null}
 
+      {activeLayer === 'body' ? (
+        <>
+      <LayerHeading title={t('modeUx.skillLayers.body')} body={t('modeUx.skillLayers.bodyHelp')} />
       {skill.microDetailSystem ? <MicroDetailSystemSection system={skill.microDetailSystem} lang={language} viewMode={viewMode} /> : null}
       {skill.bodyToBodyDetails ? <BodyToBodyDetailsSection system={skill.bodyToBodyDetails} lang={language} viewMode={viewMode} /> : null}
+        </>
+      ) : null}
+
+      {activeLayer === 'system' ? (
+        <>
+      <LayerHeading title={t('modeUx.skillLayers.system')} body={t('modeUx.skillLayers.systemHelp')} />
       {skill.qualityChecklist ? <TechniqueQualityChecklistSection skillId={skill.id} system={skill.qualityChecklist} lang={language} viewMode={viewMode} /> : null}
 
       {relatedGlossaryTerms.length ? (
@@ -191,7 +237,7 @@ export default function SkillDetailPage() {
         </SectionCard>
       ) : null}
 
-      {skill.blackbeltDetails && viewMode !== 'simple' ? <BlackbeltDetailsSection system={skill.blackbeltDetails} lang={language} viewMode={viewMode} /> : null}
+      {skill.blackbeltDetails && viewMode === 'advanced' ? <BlackbeltDetailsSection system={skill.blackbeltDetails} lang={language} viewMode={viewMode} /> : null}
 
       {viewMode !== 'simple' ? <DetailGroupHeading title={t('detailGroups.understand')} /> : null}
       {viewMode !== 'simple' ? (
@@ -249,7 +295,13 @@ export default function SkillDetailPage() {
         <SharedKnowledgePanel lang={language} principles={sharedPrinciples} cues={sharedCues} errors={sharedErrors} safety={sharedSafety} mechanics={sharedMechanics} />
       ) : null}
 
-      {viewMode === 'advanced' ? <SectionCard title={t('detail.systemGraph')}><SkillSystemGraph skill={skill} allSkills={skills} lang={language} /></SectionCard> : null}
+      {viewMode === 'advanced' ? (
+        <SectionCard title={t('detail.systemGraph')}>
+          <Suspense fallback={<p className="text-sm text-slate-400">{t('common.loading')}</p>}>
+            <SkillSystemGraph skill={skill} allSkills={skills} lang={language} />
+          </Suspense>
+        </SectionCard>
+      ) : null}
 
       {viewMode !== 'simple' ? <DetailGroupHeading title={t('detailGroups.adapt')} /> : null}
       {viewMode !== 'simple' && skill.ifThenDecisions?.length ? (
@@ -369,10 +421,70 @@ export default function SkillDetailPage() {
       <NextBestStepPanel skillId={skill.id} lang={language} />
       <RelatedKnowledgePanel lang={language} groups={knowledgeGroups} />
         </>
+      ) : null}
+        </main>
+        <aside className="hidden space-y-4 xl:sticky xl:top-6 xl:block xl:self-start">
+          <SectionCard title={t('modeUx.rail.next')}>
+            <div className="grid gap-2">
+              {hasTroubleshooter ? (
+                <Link to={`/troubleshooters/${skill.id}`} className="rounded-md border border-white/10 px-3 py-2 text-sm text-cyan-200 hover:bg-white/10">
+                  {t('nav.troubleshooters')}
+                </Link>
+              ) : null}
+              {escapeMap ? (
+                <Link to={`/escape-maps/${skill.id}`} className="rounded-md border border-white/10 px-3 py-2 text-sm text-cyan-200 hover:bg-white/10">
+                  {t('nav.escapeMaps')}
+                </Link>
+              ) : null}
+              <Link to={`/micro-details?skill=${skill.id}`} className="rounded-md border border-white/10 px-3 py-2 text-sm text-cyan-200 hover:bg-white/10">
+                {t('nav.microDetails')}
+              </Link>
+              <Link to={`/search?q=${encodeURIComponent(getLocalizedText(skill.title, 'en'))}`} className="rounded-md border border-white/10 px-3 py-2 text-sm text-cyan-200 hover:bg-white/10">
+                {t('nav.search')}
+              </Link>
+            </div>
+          </SectionCard>
+
+          {relatedGlossaryTerms.length ? (
+            <SectionCard title={t('detail.keyTerms')}>
+              <div className="flex flex-wrap gap-2">
+                {relatedGlossaryTerms.slice(0, 6).map((term) => (
+                  <GlossaryTermChip
+                    key={term.id}
+                    term={term}
+                    lang={language}
+                    relatedSkills={term.relatedSkillIds
+                      ?.filter((relatedSkillId) => relatedSkillId !== skill.id)
+                      .map((relatedSkillId) => getLocalizedText(byId.get(relatedSkillId)?.title, language))
+                      .filter((item): item is string => Boolean(item))}
+                  />
+                ))}
+              </div>
+            </SectionCard>
+          ) : null}
+
+          <SectionCard title={t('modeUx.rail.related')}>
+            <div className="flex flex-wrap gap-2">
+              {skill.relatedSkills.slice(0, 6).map((id) => byId.get(id)).filter(Boolean).map((item) => (
+                <Link key={item?.id} to={`/skills/${item?.id}`} className="rounded-md border border-white/10 px-3 py-2 text-sm text-cyan-200 hover:bg-white/10">
+                  {getLocalizedText(item?.title, language)}
+                </Link>
+              ))}
+            </div>
+          </SectionCard>
+        </aside>
+        </div>
       )}
     </div>
   )
 }
+
+const LayerHeading = ({ title, body }: { title: string; body: string }) => (
+  <div className="rounded-lg border border-cyan-300/15 bg-cyan-300/10 px-4 py-3">
+    <p className="text-sm font-semibold text-cyan-100">{title}</p>
+    <p className="mt-1 text-sm leading-6 text-slate-300">{body}</p>
+  </div>
+)
 
 const DetailGroupHeading = ({ title }: { title: string }) => (
   <div className="flex items-center gap-3 pt-2">

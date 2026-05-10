@@ -22,6 +22,7 @@ export type MicroDetailItem = {
   title: LocalizedText
   instruction: LocalizedText
   whyItWorks: LocalizedText
+  commonMistake?: LocalizedText
   correctionCue: LocalizedText
   liveCue?: LocalizedText
   category: string
@@ -102,6 +103,7 @@ const mapMicroDetailSystem = (skill: SkillNode): MicroDetailItem[] => {
       title: detail.title,
       instruction: detail.shortInstruction,
       whyItWorks: detail.whyItWorks,
+      commonMistake: detail.commonMistake,
       correctionCue: detail.correctionCue,
       liveCue: detail.liveCue,
       category: detail.category,
@@ -116,6 +118,7 @@ const mapMicroDetailSystem = (skill: SkillNode): MicroDetailItem[] => {
       title: detail.scenario,
       instruction: detail.note,
       whyItWorks: detail.note,
+      commonMistake: detail.note,
       correctionCue: detail.note,
       liveCue: detail.note,
       category: 'timing',
@@ -130,6 +133,7 @@ const mapMicroDetailSystem = (skill: SkillNode): MicroDetailItem[] => {
       title: detail.title,
       instruction: detail.finishTrigger,
       whyItWorks: detail.finishTrigger,
+      commonMistake: detail.abortSignal,
       correctionCue: detail.nextBestOption,
       liveCue: detail.abortSignal,
       category: 'finish',
@@ -150,6 +154,7 @@ export const getMicroDetails = (skills: SkillNode[]): MicroDetailItem[] =>
       title: detail.title,
       instruction: detail.instruction,
       whyItWorks: detail.whyItWorks,
+      commonMistake: detail.commonFailure,
       correctionCue: detail.correctionCue,
       liveCue: detail.liveRollingCue,
       category: detail.category,
@@ -165,6 +170,7 @@ export const getMicroDetails = (skills: SkillNode[]): MicroDetailItem[] =>
       title: adjustment.problem,
       instruction: adjustment.adjustment,
       whyItWorks: adjustment.why,
+      commonMistake: adjustment.problem,
       correctionCue: adjustment.adjustment,
       liveCue: adjustment.adjustment,
       category: 'micro_adjustment',

@@ -1,6 +1,6 @@
 import { Badge } from '../common/Badge'
 import { useTranslation } from 'react-i18next'
-import { getLocalizedTechnicalText } from '../../utils/localization'
+import { getLocalizedTechnicalText, getTechnicalTokenLabel } from '../../utils/localization'
 import type { LanguageCode, MicroDetail } from '../../types/skill'
 
 type Props = {
@@ -18,9 +18,9 @@ const MicroDetailCardInner = ({ detail, lang }: Props) => {
   return (
     <article className="rounded-lg border border-white/10 bg-slate-900/60 p-4">
     <div className="flex flex-wrap gap-2">
-      <Badge tone="cyan">{detail.category}</Badge>
-      {detail.direction ? <Badge tone="emerald">{detail.direction}</Badge> : null}
-      {detail.side ? <Badge>{detail.side}</Badge> : null}
+      <Badge tone="cyan">{getTechnicalTokenLabel(detail.category, lang)}</Badge>
+      {detail.direction ? <Badge tone="emerald">{getTechnicalTokenLabel(detail.direction, lang)}</Badge> : null}
+      {detail.side ? <Badge>{getTechnicalTokenLabel(detail.side, lang)}</Badge> : null}
     </div>
     <h3 className="mt-3 text-sm font-semibold text-white">{getLocalizedTechnicalText(detail.title, lang)}</h3>
     <p className="mt-2 text-sm leading-6 text-slate-300">{getLocalizedTechnicalText(detail.shortInstruction, lang)}</p>
@@ -30,7 +30,7 @@ const MicroDetailCardInner = ({ detail, lang }: Props) => {
     <p className="mt-2 text-xs text-slate-500">{getLocalizedTechnicalText(detail.liveCue, lang)}</p>
     {detail.safetyNote ? <p className="mt-3 rounded-md border border-amber-300/15 bg-amber-300/10 px-3 py-2 text-sm text-amber-100">{getLocalizedTechnicalText(detail.safetyNote, lang)}</p> : null}
     <div className="mt-3 flex flex-wrap gap-2">
-      {detail.bodyParts.map((part) => <Badge key={part}>{part}</Badge>)}
+      {detail.bodyParts.map((part) => <Badge key={part}>{getTechnicalTokenLabel(part, lang)}</Badge>)}
     </div>
   </article>
   )

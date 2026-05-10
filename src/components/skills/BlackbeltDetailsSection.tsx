@@ -59,6 +59,46 @@ export const BlackbeltDetailsSection = ({ system, lang, viewMode = 'detailed' }:
           </div>
         ) : null}
 
+        {(system.pressureDetails.length || system.angleDetails.length) ? (
+          <div className="grid gap-3 xl:grid-cols-2">
+            {system.pressureDetails.length ? (
+              <div>
+                <h3 className="text-sm font-semibold text-white">{t('blackbelt.pressureDetails', { defaultValue: 'Pressure direction' })}</h3>
+                <div className="mt-3 space-y-3">
+                  {system.pressureDetails.slice(0, compact ? 2 : system.pressureDetails.length).map((item) => (
+                    <article key={item.id} className="rounded-lg border border-white/10 bg-slate-950/60 p-4">
+                      <div className="flex flex-wrap items-center gap-2">
+                        <Badge tone="emerald">{item.sourceBodyPart}</Badge>
+                        <span className="text-xs text-slate-500">→</span>
+                        <Badge tone="cyan">{getLocalizedTechnicalText(item.targetLine, lang)}</Badge>
+                      </div>
+                      <h4 className="mt-3 text-sm font-semibold text-white">{getLocalizedText(item.title, lang)}</h4>
+                      <p className="mt-2 text-sm leading-6 text-slate-300">{getLocalizedTechnicalText(item.direction, lang)}</p>
+                      <p className="mt-2 text-xs font-semibold uppercase tracking-wide text-emerald-200">{getLocalizedTechnicalText(item.correctionCue, lang)}</p>
+                    </article>
+                  ))}
+                </div>
+              </div>
+            ) : null}
+
+            {system.angleDetails.length ? (
+              <div>
+                <h3 className="text-sm font-semibold text-white">{t('blackbelt.angleDetails', { defaultValue: 'Angle mechanics' })}</h3>
+                <div className="mt-3 space-y-3">
+                  {system.angleDetails.slice(0, compact ? 2 : system.angleDetails.length).map((item) => (
+                    <article key={item.id} className="rounded-lg border border-white/10 bg-slate-950/60 p-4">
+                      <Badge tone="rose">{t('blackbelt.angleDetails', { defaultValue: 'Angle mechanics' })}</Badge>
+                      <h4 className="mt-3 text-sm font-semibold text-white">{getLocalizedText(item.title, lang)}</h4>
+                      <p className="mt-2 text-sm leading-6 text-slate-300">{getLocalizedTechnicalText(item.howToCreateAngle, lang)}</p>
+                      <p className="mt-2 text-xs font-semibold uppercase tracking-wide text-emerald-200">{getLocalizedTechnicalText(item.correctionCue, lang)}</p>
+                    </article>
+                  ))}
+                </div>
+              </div>
+            ) : null}
+          </div>
+        ) : null}
+
         {viewMode === 'advanced' && system.opponentEscapePrevention.length ? (
           <div>
             <h3 className="text-sm font-semibold text-white">{t('blackbelt.escapePrevention')}</h3>

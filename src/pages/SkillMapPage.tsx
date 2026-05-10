@@ -1,10 +1,9 @@
-import { useMemo } from 'react'
+import { lazy, Suspense, useMemo } from 'react'
 import { useSearchParams } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import { EmptyState } from '../components/common/EmptyState'
 import { SectionCard } from '../components/common/SectionCard'
 import { PagePurposeBanner } from '../components/learning/PagePurposeBanner'
-import { SkillGraph } from '../components/graphs/SkillGraph'
 import { SkillCard } from '../components/skills/SkillCard'
 import { SkillSearchFilters } from '../components/skills/SkillSearchFilters'
 import { skillDomains, skillLevels } from '../data/domains'
@@ -12,6 +11,8 @@ import { useSkillsQuery } from '../queries/skillQueries'
 import { useSettingsStore } from '../stores/useSettingsStore'
 import type { LibraryTier, MetaStatus, ModernSystemGroup, RiskLevel, SkillDomain, SkillLevel, TechniqueFamily } from '../types/skill'
 import { searchSkills } from '../utils/search'
+
+const SkillGraph = lazy(() => import('../components/graphs/SkillGraph').then((module) => ({ default: module.SkillGraph })))
 
 const libraryTiers: LibraryTier[] = ['core', 'modern_expansion', 'advanced_niche', 'safety_critical']
 const techniqueFamilies: TechniqueFamily[] = ['guard', 'passing', 'submission', 'back_take', 'ride', 'wrestling', 'leg_lock', 'front_headlock', 'escape', 'pin', 'scramble', 'safety', 'compression', 'ruleset']
@@ -37,14 +38,19 @@ export default function SkillMapPage() {
   const tag = searchParams.get('tag') ?? ''
   const view = searchParams.get('view') === 'graph' || searchParams.get('view') === 'cards' ? searchParams.get('view') : defaultView
 
+  const query = searchParams.get('q') ?? ''
   const filtered = useMemo(
-    () => searchSkills(skills, searchParams.get('q') ?? '', language, { domain, level, tag, libraryTier, techniqueFamily, modernSystemGroup, metaStatus, riskLevel }),
-    [domain, language, level, libraryTier, metaStatus, modernSystemGroup, riskLevel, searchParams, skills, tag, techniqueFamily],
+    () => searchSkills(skills, query, language, { domain, level, tag, libraryTier, techniqueFamily, modernSystemGroup, metaStatus, riskLevel }),
+    [domain, language, level, libraryTier, metaStatus, modernSystemGroup, query, riskLevel, skills, tag, techniqueFamily],
   )
 
-  const grouped = skillDomains
-    .map((item) => ({ domain: item, skills: filtered.filter((skill) => skill.domain === item) }))
-    .filter((group) => group.skills.length)
+  const grouped = useMemo(
+    () =>
+      skillDomains
+        .map((item) => ({ domain: item, skills: filtered.filter((skill) => skill.domain === item) }))
+        .filter((group) => group.skills.length),
+    [filtered],
+  )
 
   return (
     <div className="space-y-6">
@@ -57,7 +63,9 @@ export default function SkillMapPage() {
       />
       <SkillSearchFilters skills={skills} />
       {view === 'graph' ? (
-        <SkillGraph skills={filtered} filters={{ domain, level, tag }} lang={language} />
+        <Suspense fallback={<p className="text-sm text-slate-400">{t('common.loading')}</p>}>
+          <SkillGraph skills={filtered} filters={{ domain, level, tag }} lang={language} />
+        </Suspense>
       ) : (
         <div className="space-y-6">
           {!filtered.length ? <EmptyState title={t('common.empty')} /> : null}

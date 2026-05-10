@@ -6,7 +6,6 @@ import { LanguageSwitcher } from '../i18n/LanguageSwitcher'
 import { useUiStore } from '../../stores/useUiStore'
 import { useSettingsStore } from '../../stores/useSettingsStore'
 import { useSearchStore } from '../../stores/useSearchStore'
-import { searchKnowledge } from '../../utils/knowledgeSearch'
 import { getLocalizedText } from '../../utils/localization'
 import { Badge } from '../common/Badge'
 import type { KnowledgeSearchResult } from '../../types/knowledgeSearch'
@@ -42,11 +41,21 @@ export const Header = () => {
       return
     }
 
+    let cancelled = false
     const timeout = window.setTimeout(() => {
-      setSuggestions(searchKnowledge(trimmed, language).slice(0, 5))
+      import('../../utils/knowledgeSearch')
+        .then(({ searchKnowledge }) => {
+          if (!cancelled) setSuggestions(searchKnowledge(trimmed, language).slice(0, 5))
+        })
+        .catch(() => {
+          if (!cancelled) setSuggestions([])
+        })
     }, 120)
 
-    return () => window.clearTimeout(timeout)
+    return () => {
+      cancelled = true
+      window.clearTimeout(timeout)
+    }
   }, [language, open, query])
 
   const submitSearch = (event: FormEvent<HTMLFormElement>) => {
