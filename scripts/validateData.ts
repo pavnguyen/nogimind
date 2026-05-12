@@ -4,6 +4,7 @@ import { sharedKnowledgeItems } from '../src/data/sharedKnowledge'
 import { glossaryTerms } from '../src/data/glossaryTerms'
 import { skillDomains } from '../src/data/domains'
 import { skillNodes } from '../src/data/skillNodes'
+import { techniqueStateMachines } from '../src/data/techniqueStateMachines'
 import { technicalTargetSkillIds } from '../src/data/technicalDetails'
 import { findDuplicateBlocks } from '../src/utils/contentQuality'
 import { getEscapeMaps, getTechniqueChains, getTroubleshooters } from '../src/utils/knowledgeModules'
@@ -610,6 +611,95 @@ const validateSkills = (report: ValidationReport, skills: AnyRecord[], glossary:
   })
 }
 
+const validateStateMachines = (report: ValidationReport, stateMachines: AnyRecord[], skills: AnyRecord[], optionalSets: DataSet[]) => {
+  const skillIds = new Set(skills.map((skill) => skill.id).filter((id): id is string => typeof id === 'string'))
+  const positionIds = new Set(optionalSets.find((set) => set.name === 'positions')?.items.map((item) => item.id).filter((id): id is string => typeof id === 'string') ?? [])
+  const safetyCriticalSkillIds = new Set(
+    skills
+      .filter((skill) =>
+        skill.libraryTier === 'safety_critical' ||
+        skill.riskLevel === 'safety_critical' ||
+        (Array.isArray(skill.tags) && skill.tags.some((tag) => ['heel-hook', 'neck-safety', 'shoulder-lock-safety', 'smother', 'buggy-choke', 'false-reap'].includes(String(tag)))),
+      )
+      .map((skill) => String(skill.id)),
+  )
+
+  stateMachines.forEach((stateMachine, index) => {
+    const path = `techniqueStateMachines.${String(stateMachine.id ?? index)}`
+    if (typeof stateMachine.id !== 'string' || !stateMachine.id.trim()) addError(report, `${path}.id is required`)
+    if (typeof stateMachine.skillId !== 'string' || !skillIds.has(stateMachine.skillId)) {
+      addBrokenReference(report, `${path}.skillId -> ${String(stateMachine.skillId)}`)
+    }
+    if (typeof stateMachine.fromPositionId === 'string' && !positionIds.has(stateMachine.fromPositionId)) {
+      addBrokenReference(report, `${path}.fromPositionId -> ${stateMachine.fromPositionId}`)
+    }
+
+    walkLocalizedContent(report, path, stateMachine)
+
+    const outcomes = Array.isArray(stateMachine.outcomes) ? stateMachine.outcomes.filter(isRecord) : []
+    if (outcomes.length < 3) addError(report, `${path}.outcomes must include at least 3 outcomes`)
+
+    const outcomeIds = new Set<string>()
+    outcomes.forEach((outcome, outcomeIndex) => {
+      const outcomePath = `${path}.outcomes[${outcomeIndex}]`
+      if (typeof outcome.id !== 'string' || !outcome.id.trim()) addError(report, `${outcomePath}.id is required`)
+      else if (outcomeIds.has(outcome.id)) addError(report, `${path}.outcomes has duplicate id "${outcome.id}"`)
+      else outcomeIds.add(outcome.id)
+
+      if (!['success', 'failure', 'counter', 'reset', 'safety_abort', 'branch'].includes(String(outcome.result))) {
+        addError(report, `${outcomePath}.result is invalid`)
+      }
+      const hasTarget = ['toSkillId', 'toPositionId', 'toSubmissionId', 'toProblemId', 'toSafetyNoteId'].some((field) => typeof outcome[field] === 'string' && String(outcome[field]).trim())
+      if (!hasTarget && !hasMeaningfulLocalizedText(outcome.explanation, 20)) addError(report, `${outcomePath} needs a target or meaningful explanation`)
+      if (typeof outcome.toSkillId === 'string' && !skillIds.has(outcome.toSkillId)) addBrokenReference(report, `${outcomePath}.toSkillId -> ${outcome.toSkillId}`)
+      if (typeof outcome.toPositionId === 'string' && !positionIds.has(outcome.toPositionId)) addBrokenReference(report, `${outcomePath}.toPositionId -> ${outcome.toPositionId}`)
+      if (typeof outcome.probability !== 'number' && !['low', 'medium', 'high'].includes(String(outcome.confidence))) addError(report, `${outcomePath}.confidence is required when probability is absent`)
+    })
+
+    if (outcomes.length && outcomes.every((outcome) => typeof outcome.probability === 'number')) {
+      const sum = outcomes.reduce((total, outcome) => total + Number(outcome.probability), 0)
+      if (sum !== 100) addError(report, `${path}.outcome probabilities must sum to 100, got ${sum}`)
+    }
+
+    ;['attacker', 'defender'].forEach((roleName) => {
+      const roleValue = stateMachine[roleName]
+      if (!isRecord(roleValue)) return
+      if (!hasMeaningfulLocalizedText(roleValue.goal, 20)) addError(report, `${path}.${roleName}.goal is too short`)
+      if (!isLocalizedArray(roleValue.recognitionCues) || !roleValue.recognitionCues.en.length) addError(report, `${path}.${roleName}.recognitionCues is required`)
+      if (!isLocalizedArray(roleValue.primaryActions) || !roleValue.primaryActions.en.length) addError(report, `${path}.${roleName}.primaryActions is required`)
+      if (!Array.isArray(roleValue.commonErrors) || roleValue.commonErrors.length === 0) addError(report, `${path}.${roleName}.commonErrors is required`)
+      if (!Array.isArray(roleValue.knowledgeChecks) || roleValue.knowledgeChecks.length === 0) addError(report, `${path}.${roleName}.knowledgeChecks is required`)
+    })
+
+    if (!Array.isArray(stateMachine.trainingProgressions) || stateMachine.trainingProgressions.length === 0) {
+      addWarning(report, `${path} has no training progression`)
+    }
+
+    if (typeof stateMachine.skillId === 'string' && safetyCriticalSkillIds.has(stateMachine.skillId)) {
+      const hasSafetyAbort = outcomes.some((outcome) => outcome.result === 'safety_abort')
+      const defender = isRecord(stateMachine.defender) ? stateMachine.defender : undefined
+      const hasSafetyCheck = [stateMachine.attacker, defender]
+        .filter(isRecord)
+        .some((roleValue) => Array.isArray(roleValue.knowledgeChecks) && roleValue.knowledgeChecks.some((item) => isRecord(item) && item.safetyCritical === true))
+      if (!hasSafetyAbort) addError(report, `${path} is safety-sensitive but has no safety_abort outcome`)
+      if (!defender) addError(report, `${path} is safety-sensitive but has no defender perspective`)
+      if (!hasSafetyCheck) addError(report, `${path} is safety-sensitive but has no safety-critical knowledge check`)
+    }
+
+    const results = new Set(outcomes.map((outcome) => outcome.result))
+    const skill = skills.find((item) => item.id === stateMachine.skillId)
+    const tags = isRecord(skill) && Array.isArray(skill.tags) ? skill.tags.map(String) : []
+    if ((tags.includes('choke') || tags.includes('submission') || String(skill?.domain) === 'submission_systems') && (!results.has('success') || !results.has('failure') || (!results.has('counter') && !results.has('safety_abort')))) {
+      addWarning(report, `${path} submission should include success, failure, and counter/safety_abort`)
+    }
+  })
+
+  const stateMachineSkillIds = new Set(stateMachines.map((item) => item.skillId).filter((id): id is string => typeof id === 'string'))
+  ;['rear-naked-choke-system', 'arm-triangle-mount', 'bodylock-passing', 'heel-hook-safety', 'false-reap-entry'].forEach((id) => {
+    if (!stateMachineSkillIds.has(id)) addWarning(report, `priority skill ${id} has no state machine`)
+  })
+}
+
 const validateGenericDataSet = (report: ValidationReport, dataSet: DataSet, knownIds: Record<string, Set<string>>) => {
   checkUniqueIds(report, dataSet)
   dataSet.items.forEach((item, index) => {
@@ -645,6 +735,7 @@ const main = async () => {
   const dataSets: DataSet[] = [
     { name: 'skills', label: 'skills', items: skills, optional: false },
     { name: 'glossaryTerms', label: 'glossary terms', items: glossary, optional: false },
+    { name: 'techniqueStateMachines', label: 'technique state machines', items: techniqueStateMachines as AnyRecord[], optional: false },
     ...optionalSets,
   ]
 
@@ -657,6 +748,7 @@ const main = async () => {
 
   dataSets.forEach((set) => checkUniqueIds(report, set))
   validateSkills(report, skills, glossary, optionalSets)
+  validateStateMachines(report, techniqueStateMachines as AnyRecord[], skills, optionalSets)
 
   const knownIds = {
     skills: new Set(skills.map((item) => item.id).filter((id): id is string => typeof id === 'string')),
@@ -779,6 +871,7 @@ const main = async () => {
   console.log('==========================')
   console.log(`skills: ${report.counts.skills}`)
   console.log(`glossary terms: ${report.counts.glossaryTerms}`)
+  console.log(`technique state machines: ${report.counts.techniqueStateMachines}`)
   console.log(`concepts: ${report.counts.concepts ?? 0}`)
   console.log(`positions: ${report.counts.positions ?? 0}`)
   console.log(`training methods: ${report.counts.trainingMethods ?? 0}`)
@@ -801,6 +894,7 @@ const main = async () => {
   console.log(`skills missing quickCard: ${skills.filter((skill) => !skill.quickCard).length}`)
   console.log(`skills missing bodyToBodyDetails: ${skills.filter((skill) => !skill.bodyToBodyDetails).length}`)
   console.log(`skills missing blackbeltDetails: ${skills.filter((skill) => !skill.blackbeltDetails).length}`)
+  console.log(`skills with techniqueStateMachine: ${techniqueStateMachines.length}/${skills.length}`)
   console.log(`body-to-body clarity warnings: ${report.counts.bodyToBodyClarityWarnings ?? 0}`)
   console.log('')
   console.log(`validation errors: ${report.errors.length}`)

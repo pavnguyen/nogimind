@@ -26,6 +26,7 @@ import { SharedKnowledgePanel } from '../components/sharedKnowledge/SharedKnowle
 import { NextBestStepPanel } from '../components/knowledge/NextBestStepPanel'
 import { RelatedKnowledgePanel } from '../components/knowledge/RelatedKnowledgePanel'
 import { QuickCard } from '../components/skills/QuickCard'
+import { TechniqueStateMachineSection } from '../components/stateGraph/TechniqueStateMachineSection'
 import { GlossaryTermChip } from '../components/glossary/GlossaryTermChip'
 import { ViewModeSwitcher } from '../components/common/ViewModeSwitcher'
 import { useArchetypesQuery } from '../queries/archetypeQueries'
@@ -40,6 +41,7 @@ import type { GameTreeLaneId } from '../types/gameTree'
 import type { SkillNode } from '../types/skill'
 import type { SharedKnowledgeItem } from '../types/sharedKnowledge'
 import { sharedKnowledgeById } from '../data/sharedKnowledge'
+import { techniqueStateMachineBySkillId } from '../data/techniqueStateMachines'
 import { getSkillKnowledgeLinks } from '../utils/knowledgeGraph'
 import { getEscapeMaps, getTechniqueChains, skillHasTroubleshooter } from '../utils/knowledgeModules'
 import { getLocalizedArray, getLocalizedText } from '../utils/localization'
@@ -107,6 +109,7 @@ export default function SkillDetailPage() {
   const layerParam = searchParams.get('layer')
   const activeLayer = layerParam === 'quick' || layerParam === 'body' || layerParam === 'system' ? layerParam : 'quick'
   const knowledgeGroups = getSkillKnowledgeLinks(skill.id)
+  const stateMachine = techniqueStateMachineBySkillId.get(skill.id)
 
   const addToGameTree = () => {
     const tree = gameTreeQuery.data
@@ -218,6 +221,9 @@ export default function SkillDetailPage() {
         <>
       <LayerHeading title={t('modeUx.skillLayers.system')} body={t('modeUx.skillLayers.systemHelp')} />
       {skill.qualityChecklist ? <TechniqueQualityChecklistSection skillId={skill.id} system={skill.qualityChecklist} lang={language} viewMode={viewMode} /> : null}
+      {stateMachine ? (
+        <TechniqueStateMachineSection stateMachine={stateMachine} skill={skill} skillsById={byId} lang={language} simple={viewMode === 'simple'} />
+      ) : null}
 
       {relatedGlossaryTerms.length ? (
         <SectionCard title={t('detail.keyTerms')} description={t('glossary.subtitle')}>

@@ -5,6 +5,7 @@ import { defensiveLayers } from '../data/defensiveLayers'
 import { glossaryTerms } from '../data/glossaryTerms'
 import { masteryStages } from '../data/masteryStages'
 import { sharedKnowledgeItems } from '../data/sharedKnowledge'
+import { techniqueStateMachineBySkillId, techniqueStateMachines } from '../data/techniqueStateMachines'
 import { positions } from '../data/positions'
 import { skillNodes } from '../data/skillNodes'
 import type { GrapplingArchetype } from '../types/archetype'
@@ -262,6 +263,7 @@ const skillDocument = (skill: SkillNode, lang: LanguageCode): SearchDocument => 
     field('technical details', skill.technicalDetails, lang, 4),
     field('body-to-body details', skill.bodyToBodyDetails, lang, 5),
     field('blackbelt details', skill.blackbeltDetails, lang, 5),
+    field('state machine', techniqueStateMachineBySkillId.get(skill.id), lang, 5),
     field('classification', [skill.libraryTier, skill.metaStatus, skill.riskLevel, skill.techniqueFamily, skill.modernSystemGroup, skill.rulesetRelevance], lang, 4),
     field('shared knowledge', [skill.sharedPrincipleIds, skill.sharedCueIds, skill.sharedErrorIds, skill.sharedSafetyIds, skill.sharedMechanicIds], lang, 2),
     field('if-then decisions', skill.ifThenDecisions, lang, 3),
@@ -456,8 +458,27 @@ const masteryDocuments = (lang: LanguageCode): SearchDocument[] =>
     ],
   }))
 
+const stateMachineDocuments = (lang: LanguageCode): SearchDocument[] =>
+  techniqueStateMachines.map((stateMachine) => ({
+    id: `state-machine:${stateMachine.skillId}`,
+    type: 'skill',
+    title: lt(stateMachine.skillId),
+    description: stateMachine.attacker?.goal ?? stateMachine.defender?.goal ?? lt(stateMachine.skillId),
+    tags: ['state-machine', stateMachine.startingRole ?? 'neutral'],
+    url: `/skills/${stateMachine.skillId}?layer=system`,
+    fields: [
+      field('state machine id', [stateMachine.id, stateMachine.skillId], lang, 8),
+      field('outcomes', stateMachine.outcomes, lang, 5),
+      field('attacker view', stateMachine.attacker, lang, 5),
+      field('defender view', stateMachine.defender, lang, 5),
+      field('knowledge checks', [stateMachine.attacker?.knowledgeChecks, stateMachine.defender?.knowledgeChecks], lang, 4),
+      field('training progressions', stateMachine.trainingProgressions, lang, 3),
+    ],
+  }))
+
 const buildDocuments = (lang: LanguageCode): SearchDocument[] => [
   ...skillNodes.map((skill) => skillDocument(skill, lang)),
+  ...stateMachineDocuments(lang),
   ...sharedKnowledgeItems.map((item) => sharedKnowledgeDocument(item, lang)),
   ...microDetailDocuments(lang),
   ...chainDocuments(lang),
