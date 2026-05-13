@@ -1093,7 +1093,7 @@ export const vi = {
     escape_map: 'Bản đồ thoát (Escape Map)',
     problem: 'Vấn đề (Problem)',
     archetype: 'Kiểu game (Archetype)',
-    mastery: 'Bản đồ trưởng thành (Mastery Map)',
+    mastery: 'Bản đồ phát triển kỹ năng (Mastery Map)',
     quality_check: 'Kiểm tra chất lượng kỹ thuật (Technique Quality Checklist)',
     quick_card: 'Chế độ nhanh (Quick Mode)',
   },
