@@ -235,7 +235,7 @@ export const vi = {
         title: 'Nếu bạn muốn xây game no-gi hiện đại',
         description: 'Nối core skills thành một hệ thống có triết lý rõ ràng.',
         steps: {
-          0: { title: 'Xem Bản đồ trưởng thành', body: 'Thấy lộ trình trưởng thành no-gi theo thời gian.' },
+          0: { title: 'Xem Bản đồ phát triển kỹ năng', body: 'Thấy lộ trình trưởng thành no-gi theo thời gian.' },
           1: { title: 'Chọn archetype', body: 'Dùng style game như một khuôn, không phải cái lồng.' },
           2: { title: 'Xây Cây game', body: 'Nối entry, control, finish và escape.' },
           3: { title: 'Chọn core skills', body: 'Giữ danh sách ngắn và theo hệ thống.' },
@@ -1146,7 +1146,7 @@ export const vi = {
   },
   mastery: {
     ...en.mastery,
-    heading: 'Bản đồ trưởng thành (Mastery Map)',
+    heading: 'Bản đồ phát triển kỹ năng (Mastery Map)',
     subtitle: 'Roadmap khái niệm từ survival tới tư duy no-gi cấp cao. Đây là độ chín kỹ năng, không phải lời hứa lên đai.',
     whatFor: 'Dùng trang này khi bạn muốn một roadmap học dài hạn.',
     whenToUse: 'Mở khi bạn muốn biết bước nào quan trọng tiếp theo ở giai đoạn hiện tại.',
