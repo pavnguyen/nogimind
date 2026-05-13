@@ -35,6 +35,9 @@ const sideLabels: Record<BodySide, LocalizedText> = {
   center: lt('giữa', 'center', 'centre'),
   both: lt('hai bên', 'both', 'deux côtés'),
   either: lt('bên nào cũng được', 'either', 'un côté'),
+  diagonal: lt('đối xứng / chéo', 'diagonal', 'diagonal'),
+  free: lt('tự do', 'free', 'libre'),
+  post: lt('đang post', 'post', 'en appui'),
 }
 
 const bodyPartLabels: Record<BodyPart, LocalizedText> = {
@@ -49,13 +52,13 @@ const bodyPartLabels: Record<BodyPart, LocalizedText> = {
   ribs: lt('xương sườn', 'ribs', 'côtes'),
   spine: lt('cột sống', 'spine', 'colonne'),
   hip: lt('hông', 'hip', 'hanche'),
-  pelvis: lt('pelvis', 'pelvis', 'bassin'),
+  pelvis: lt('xương chậu', 'pelvis', 'bassin'),
   hand: lt('tay', 'hand', 'main'),
   wrist: lt('cổ tay', 'wrist', 'poignet'),
   forearm: lt('cẳng tay', 'forearm', 'avant-bras'),
   elbow: lt('khuỷu tay', 'elbow', 'coude'),
-  biceps: lt('biceps', 'biceps', 'biceps'),
-  triceps: lt('triceps', 'triceps', 'triceps'),
+  biceps: lt('bắp tay trước', 'biceps', 'biceps'),
+  triceps: lt('bắp tay sau', 'triceps', 'triceps'),
   knee: lt('gối', 'knee', 'genou'),
   thigh: lt('đùi', 'thigh', 'cuisse'),
   shin: lt('ống quyển', 'shin', 'tibia'),
@@ -63,6 +66,13 @@ const bodyPartLabels: Record<BodyPart, LocalizedText> = {
   heel: lt('gót', 'heel', 'talon'),
   toes: lt('ngón chân', 'toes', 'orteils'),
   foot: lt('bàn chân', 'foot', 'pied'),
+  hook: lt('hook (móc)', 'hook', 'hook (crochet)'),
+  floor: lt('thảm / sàn', 'floor', 'sol'),
+  back: lt('lưng', 'back', 'dos'),
+  arm: lt('cánh tay', 'arm', 'bras'),
+  leg: lt('chân', 'leg', 'jambe'),
+  body: lt('thân người', 'body', 'corps'),
+  calf: lt('bắp chân', 'calf', 'mollet'),
 }
 
 const hasBodyToBodyMarkers = (text: string, lang: keyof LocalizedText) => {
@@ -74,7 +84,7 @@ const hasBodyToBodyMarkers = (text: string, lang: keyof LocalizedText) => {
 
 const contactLabel = (target: BodyTarget, lang: keyof LocalizedText) => {
   const side = sideLabels[target.side][lang]
-  const bodyPart = bodyPartLabels[target.bodyPart][lang]
+  const bodyPart = bodyPartLabels[target.bodyPart]?.[lang] ?? String(target.bodyPart).replace(/_/g, ' ')
   if (target.role === 'me') {
     if (lang === 'vi') return `${bodyPart} ${side} của tôi`
     if (lang === 'fr') return `mon/ma ${bodyPart} ${side}`

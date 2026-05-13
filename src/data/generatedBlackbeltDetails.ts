@@ -59,7 +59,7 @@ const finish = (
   exactFinishingAction,
   bodyPartRoles: [
     { bodyPart: 'head', role: lt('Chặn posture hoặc hướng xoay.', 'Blocks posture or rotation direction.', 'Bloque posture ou direction de rotation.') },
-    { bodyPart: 'hands / elbows', role: lt('Loại slack và giữ line finish.', 'Remove slack and keep the finishing line.', 'Enlèvent slack et gardent la ligne de finish.') },
+    { bodyPart: 'hands / elbows', role: lt('Loại bỏ khoảng trống (slack) và giữ vững đường (line) finish.', 'Remove slack and keep the finishing line.', 'Enlèvent slack et gardent la ligne de finish.') },
     { bodyPart: 'hips / chest', role: lt('Tạo lực cuối bằng thân người, không bằng giật tay.', 'Create final force with the body, not arm yanking.', 'Créent la force finale avec le corps, pas en tirant aux bras.') },
   ],
   finishTrigger,
@@ -162,18 +162,18 @@ export const generatedBlackbeltDetailsForSkill = (skill: SkillNode): BlackbeltDe
 
   const finishTips = isSubmission(skill) || isLegLock(skill)
     ? [
-        finish(
-          `${skill.id}-bb-finish-line`,
-          lt('Finish line', 'Finish line', 'Ligne de finish'),
-          lt(`${titleVi}: isolation đã có, angle đã rõ, và defensive hand/leg không còn chặn line.`, `${titleEn}: isolation is set, angle is clear, and the defensive hand or leg no longer blocks the line.`, `${titleFr} : isolation posée, angle clair, main ou jambe défensive ne bloque plus la ligne.`),
-          lt(`Loại slack khỏi ${words.line.vi}, rồi tăng lực bằng chest/hips chậm và có kiểm soát.`, `Remove slack from the ${words.line.en}, then add force with chest or hips slowly and under control.`, `Enlevez le slack de ${words.line.fr}, puis ajoutez force avec poitrine ou hanches lentement et contrôlé.`),
-          lt('Line không còn khe và đối thủ không thể pummel lại trong một nhịp.', 'There is no gap and the opponent cannot pummel back in one beat.', 'Plus d’espace et l’adversaire ne peut pas repummel en un temps.'),
-          lt('Đối thủ đau ở khớp/cổ nhưng line finish chưa đóng.', 'The opponent feels joint or neck pain but the finishing line is not closed.', 'Douleur articulaire/cou mais ligne de finish pas fermée.'),
-          lt('Họ xoay vai/hông ra ngoài hoặc thắng hand fight.', 'They rotate shoulder/hips out or win the hand fight.', 'Il tourne épaules/hanches dehors ou gagne hand fight.'),
-          lt('Giữ clamp trước, finish sau; nếu line bẩn thì reset.', 'Clamp first, finish second; if the line is dirty, reset.', 'Clamp d’abord, finish ensuite; si la ligne est sale, reset.'),
-          safety,
-        ),
-      ]
+      finish(
+        `${skill.id}-bb-finish-line`,
+        lt('Finish line', 'Finish line', 'Ligne de finish'),
+        lt(`${titleVi}: isolation đã có, angle đã rõ, và defensive hand/leg không còn chặn line.`, `${titleEn}: isolation is set, angle is clear, and the defensive hand or leg no longer blocks the line.`, `${titleFr} : isolation posée, angle clair, main ou jambe défensive ne bloque plus la ligne.`),
+        lt(`Loại slack khỏi ${words.line.vi}, rồi tăng lực bằng chest/hips chậm và có kiểm soát.`, `Remove slack from the ${words.line.en}, then add force with chest or hips slowly and under control.`, `Enlevez le slack de ${words.line.fr}, puis ajoutez force avec poitrine ou hanches lentement et contrôlé.`),
+        lt('Line không còn khe và đối thủ không thể pummel lại trong một nhịp.', 'There is no gap and the opponent cannot pummel back in one beat.', 'Plus d’espace et l’adversaire ne peut pas repummel en un temps.'),
+        lt('Đối thủ đau ở khớp/cổ nhưng line finish chưa đóng.', 'The opponent feels joint or neck pain but the finishing line is not closed.', 'Douleur articulaire/cou mais ligne de finish pas fermée.'),
+        lt('Họ xoay vai/hông ra ngoài hoặc thắng hand fight.', 'They rotate shoulder/hips out or win the hand fight.', 'Il tourne épaules/hanches dehors ou gagne hand fight.'),
+        lt('Giữ clamp trước, finish sau; nếu line bẩn thì reset.', 'Clamp first, finish second; if the line is dirty, reset.', 'Clamp d’abord, finish ensuite; si la ligne est sale, reset.'),
+        safety,
+      ),
+    ]
     : []
 
   const pressureDetails = [
@@ -240,7 +240,7 @@ export const generatedBlackbeltDetailsForSkill = (skill: SkillNode): BlackbeltDe
       },
     ],
     oneSentenceGold: lt(
-      `${titleVi}: đầu chặn line, hông tạo angle, tay giữ khe; force luôn đến sau clamp.`,
+      `${titleVi}: đầu chặn đường, hông tạo góc, tay giữ khe; luôn tăng lực sau khi đã khóa chắc.`,
       `${titleEn}: head blocks the line, hips create angle, hands hold the gap; force always comes after clamp.`,
       `${titleFr} : tête bloque la ligne, hanches créent angle, mains gardent l’espace; force vient après clamp.`,
     ),

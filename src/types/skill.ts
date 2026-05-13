@@ -256,7 +256,7 @@ export type TechnicalDetailCategory =
   | 'transition'
   | 'safety'
 
-export type BodySide = 'left' | 'right' | 'near' | 'far' | 'inside' | 'outside' | 'top' | 'bottom' | 'center' | 'both' | 'either'
+export type BodySide = 'left' | 'right' | 'near' | 'far' | 'inside' | 'outside' | 'top' | 'bottom' | 'center' | 'both' | 'either' | 'diagonal' | 'free' | 'post'
 
 export type ForceDirection =
   | 'pull_left'
@@ -311,6 +311,13 @@ export type BodyPart =
   | 'heel'
   | 'toes'
   | 'foot'
+  | 'hook'
+  | 'floor'
+  | 'back'
+  | 'arm'
+  | 'leg'
+  | 'body'
+  | 'calf'
 
 export type ContactType =
   | 'grip'
@@ -520,8 +527,11 @@ export type MicroDetailCategory =
   | 'finish'
   | 'escape'
   | 'safety'
+  | 'body'
+  | 'leg'
+  | 'calf'
 
-export type Side = 'left' | 'right' | 'near' | 'far' | 'inside' | 'outside' | 'both' | 'either'
+export type Side = 'left' | 'right' | 'near' | 'far' | 'inside' | 'outside' | 'both' | 'either' | 'center'
 
 export type Direction =
   | 'pull_left'
@@ -546,6 +556,30 @@ export type Direction =
   | 'lift'
   | 'drop'
   | 'wedge'
+  | 'wrap'
+  | 'hook'
+  | 'post'
+  | 'grip'
+  | 'clamp'
+  | 'block'
+  | 'drag'
+  | 'shelf'
+  | 'scoot'
+  | 'track'
+  | 'posture'
+  | 'lift_up'
+  | 'compress_down'
+  | 'pin_inward'
+  | 'pin_down'
+  | 'drive_forward'
+  | 'rotate_full'
+  | 'rotate_diagonal'
+  | 'push_out'
+  | 'arch'
+  | 'invert'
+  | 'slip'
+  | 'roll_side'
+  | 'chest_connection'
 
 export type MicroDetail = {
   id: string

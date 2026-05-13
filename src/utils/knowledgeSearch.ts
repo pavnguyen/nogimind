@@ -105,6 +105,9 @@ const grapplingTermAliases: Record<string, string[]> = {
   'knee line': ['knee line', 'duong goi', 'ligne du genou'],
   'hip line': ['hip line', 'duong hong', 'ligne de hanche'],
   'rear naked choke': ['rear naked choke', 'rnc', 'siết cổ sau', 'siet co sau', 'étranglement arrière', 'etranglement arriere'],
+  armbar: ['armbar', 'juji gatame', 'elbow line', 'thumb direction', 'armbar slipping', 'khoa tay', 'khóa tay', 'tuot khuyu', 'tuột khuỷu', 'cle de bras', 'clé de bras', 'ligne du coude'],
+  triangle: ['triangle', 'triangle choke', 'one shoulder in one shoulder out', 'foot hidden behind knee', 'tam giac', 'tam giác', 'mot vai trong mot vai ngoai', 'triangle étranglement', 'triangle etranglement'],
+  omoplata: ['omoplata', 'shoulder clamp', 'hip angle shoulder lock', 'khoa vai', 'khóa vai', 'kep vai', 'épaule clamp', 'cle epaule', 'clé épaule'],
   'arm triangle': ['arm triangle', 'tam giac tay', 'triangle de bras'],
   'straight ankle lock': ['straight ankle lock', 'ankle lock', 'khoa co chan', 'bẻ cổ chân', 'cle de cheville'],
   'heel hook': ['heel hook', 'be got', 'crochet de talon'],
@@ -138,6 +141,15 @@ const grapplingTermAliases: Record<string, string[]> = {
   smother: ['smother', 'mother milk', 'mothers milk', 'ep nguc', 'pression poitrine'],
   'rear triangle': ['rear triangle', 'back triangle', 'tam giac sau'],
   'high wrist guillotine': ['high wrist guillotine', 'high-wrist guillotine'],
+  'low wrist guillotine': ['low wrist guillotine', 'low-wrist guillotine', 'low elbow guillotine'],
+  'high elbow guillotine': ['high elbow guillotine', 'marcelotine', 'guillotine coude haut'],
+  'japanese necktie': ['japanese necktie', 'necktie', 'darce necktie', 'cavat cổ', 'cravate japonaise'],
+  'peruvian necktie': ['peruvian necktie', 'cravate péruvienne', 'cravate peruvienne'],
+  'aoki lock': ['aoki lock', 'aoki lock awareness', 'ankle lock heel exposure'],
+  'z lock': ['z lock', 'z-lock', 'knee compression lock'],
+  'shotgun ankle lock': ['shotgun ankle lock', 'shotgun ankle', 'ankle lock pressure'],
+  'knee line escape': ['knee line escape', 'free knee line', 'thoat duong goi', 'thoát đường gối'],
+  'compression safety': ['compression safety', 'compression vs strangle', 'smother distress', 'an toan nen ep', 'sécurité compression'],
 }
 
 const processSearchTerm = (term: string) => {
@@ -252,18 +264,17 @@ const skillDocument = (skill: SkillNode, lang: LanguageCode): SearchDocument => 
   url: `/skills/${skill.id}`,
   fields: [
     field('title', skill.title, lang, 8),
-    field('description', [skill.shortDescription, skill.whyItMatters, skill.situation, skill.primaryGoal], lang, 4),
+    field('system logic', [skill.shortDescription, skill.whyItMatters, skill.situation, skill.primaryGoal, skill.quickCard], lang, 5),
     field('key concepts', skill.keyConcepts, lang, 3),
     field('body checklist', skill.bodyChecklist, lang, 3),
-    field('micro details', skill.microDetailSystem, lang, 4),
-    field('micro detail system', skill.microDetailSystem, lang, 4),
-    field('quick card', skill.quickCard, lang, 4),
-    field('quality checklist', skill.qualityChecklist, lang, 4),
+    field('money details', [skill.microDetailSystem, skill.blackbeltDetails, skill.qualityChecklist, skill.commonMistakes], lang, 6),
+    field('fix it fast', [skill.microDetailSystem?.troubleshootingTips, skill.qualityChecklist?.checks, skill.commonMistakes, skill.failureResponses], lang, 5),
     field('body mechanics', skill.bodyMechanicsSystem, lang, 3),
     field('technical details', skill.technicalDetails, lang, 4),
-    field('body-to-body details', skill.bodyToBodyDetails, lang, 5),
-    field('blackbelt details', skill.blackbeltDetails, lang, 5),
-    field('state machine', techniqueStateMachineBySkillId.get(skill.id), lang, 5),
+    field('body position', skill.bodyToBodyDetails, lang, 7),
+    field('outcomes branches', [techniqueStateMachineBySkillId.get(skill.id), skill.reactionBranches, skill.ifThenDecisions], lang, 6),
+    field('safety', [skill.riskLevel, skill.dangerSignals, skill.bodyMechanicsSystem.safetyNotes], lang, 5),
+    field('next step', [skill.prerequisites, skill.relatedSkills, skill.sharedPrincipleIds, skill.sharedCueIds, skill.sharedSafetyIds], lang, 3),
     field('classification', [skill.libraryTier, skill.metaStatus, skill.riskLevel, skill.techniqueFamily, skill.modernSystemGroup, skill.rulesetRelevance], lang, 4),
     field('shared knowledge', [skill.sharedPrincipleIds, skill.sharedCueIds, skill.sharedErrorIds, skill.sharedSafetyIds, skill.sharedMechanicIds], lang, 2),
     field('if-then decisions', skill.ifThenDecisions, lang, 3),
@@ -273,6 +284,32 @@ const skillDocument = (skill: SkillNode, lang: LanguageCode): SearchDocument => 
     field('tags', skill.tags, lang, 2),
   ],
 })
+
+const anchorByFieldName: Record<string, string> = {
+  'quick card': 'system-logic',
+  'system logic': 'system-logic',
+  'body-to-body details': 'body-position',
+  'body position': 'body-position',
+  'micro details': 'money-details',
+  'micro detail system': 'money-details',
+  'blackbelt details': 'money-details',
+  'money details': 'money-details',
+  'quality checklist': 'money-details',
+  'state machine': 'outcomes-branches',
+  'outcomes branches': 'outcomes-branches',
+  'attacker view': 'outcomes-branches',
+  'defender view': 'outcomes-branches',
+  'fix it fast': 'fix-it-fast',
+  safety: 'safety',
+  'next step': 'next-step',
+}
+
+const withSectionAnchor = (url: string, matchedFields: string[]) => {
+  if (!url.startsWith('/skills/')) return url
+  const cleanUrl = url.replace(/\?(layer|section)=[^#]+/, '')
+  const anchor = matchedFields.map((fieldName) => anchorByFieldName[fieldName]).find(Boolean)
+  return anchor ? `${cleanUrl}#${anchor}` : cleanUrl
+}
 
 const sharedKnowledgeDocument = (item: (typeof sharedKnowledgeItems)[number], lang: LanguageCode): SearchDocument => ({
   id: item.id,
@@ -547,18 +584,20 @@ export const searchKnowledge = (
         current.rawScore = Math.max(current.rawScore, nextScore)
         current.score = Math.max(current.score, Math.round(nextScore))
         current.matchedFields = [...new Set([...current.matchedFields, ...getMatchedFields(storedResult)])]
+        current.url = withSectionAnchor(current.url, current.matchedFields)
         return
       }
 
+      const matchedFields = getMatchedFields(storedResult)
       merged.set(id, {
         id: storedResult.sourceId,
         type: storedResult.type,
         title: storedResult.title,
         description: storedResult.description,
         tags: storedResult.tags,
-        url: storedResult.url,
+        url: withSectionAnchor(storedResult.url, matchedFields),
         score: Math.max(1, Math.round(nextScore)),
-        matchedFields: getMatchedFields(storedResult),
+        matchedFields,
         rawScore: nextScore,
         contentText: storedResult.contentText,
       })
@@ -595,5 +634,7 @@ export const searchKnowledge = (
     }
   })
 
-  return exactBoosted.sort((a, b) => b.score - a.score || getLocalizedText(a.title, lang).localeCompare(getLocalizedText(b.title, lang)))
+  return exactBoosted
+    .sort((a, b) => b.score - a.score || getLocalizedText(a.title, lang).localeCompare(getLocalizedText(b.title, lang)))
+    .slice(0, 80)
 }

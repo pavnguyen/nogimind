@@ -243,7 +243,7 @@ const textIncludesAny = (value: unknown, terms: string[]) => {
   return terms.some((term) => haystack.includes(term.toLowerCase()))
 }
 
-const bodySideValues = new Set(['left', 'right', 'near', 'far', 'inside', 'outside', 'top', 'bottom', 'center', 'both', 'either'])
+const bodySideValues = new Set(['left', 'right', 'near', 'far', 'inside', 'outside', 'top', 'bottom', 'center', 'both', 'either', 'diagonal', 'free', 'post'])
 const bodyPartValues = new Set([
   'head',
   'eyes',
@@ -270,6 +270,13 @@ const bodyPartValues = new Set([
   'heel',
   'toes',
   'foot',
+  'hook',
+  'floor',
+  'back',
+  'arm',
+  'leg',
+  'body',
+  'calf',
 ])
 const bodyWords = ['hand', 'wrist', 'forearm', 'elbow', 'head', 'shoulder', 'chest', 'hip', 'knee', 'shin', 'foot', 'heel', 'tay', 'cổ tay', 'cẳng tay', 'khuỷu', 'đầu', 'vai', 'ngực', 'hông', 'gối', 'ống quyển', 'chân', 'gót', 'main', 'poignet', 'avant-bras', 'coude', 'tête', 'épaule', 'poitrine', 'hanche', 'genou', 'tibia', 'pied', 'talon']
 const directionWords = ['left', 'right', 'near', 'far', 'inside', 'outside', 'across', 'diagonal', 'down', 'up', 'toward', 'away', 'rotate', 'pull', 'push', 'drive', 'pin', 'line', 'centerline', 'under', 'over', 'low', 'high', 'close', 'open', 'block', 'bên trái', 'bên phải', 'gần', 'xa', 'trong', 'ngoài', 'chéo', 'xuống', 'lên', 'về phía', 'ra xa', 'xoay', 'kéo', 'đẩy', 'ép', 'ghim', 'line', 'đường', 'dưới', 'trên', 'thấp', 'cao', 'đóng', 'mở', 'chặn', 'gauche', 'droite', 'proche', 'éloigné', 'intérieur', 'extérieur', 'diagonale', 'bas', 'haut', 'vers', 'loin', 'tourne', 'tirer', 'pousser', 'bloque', 'ligne', 'sous', 'sur', 'ferme', 'ouvre']

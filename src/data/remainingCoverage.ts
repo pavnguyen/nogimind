@@ -94,15 +94,42 @@ const mkCheck = (
 })
 
 const makeSystem = (id: string, title: string, overview: string, kind: 'control' | 'escape' | 'guard' | 'wrestling' | 'safety'): MicroDetailSystem => {
+  const titleViMap: Record<string, string> = {
+    'positional-hierarchy': 'Thứ bậc vị trí',
+    'inside-position': 'Đường trong',
+    'frames-pummeling': 'Frame và pummel',
+    'dilemmas-two-way-attacks': 'Dilemma và tấn công hai hướng',
+    'failure-response-transitions': 'Phản ứng khi lỗi và chuyển nhánh',
+    'back-survival': 'Sống sót ở back',
+    'leg-lock-safety-basics': 'An toàn leg lock cơ bản',
+    'seated-guard-retention': 'Giữ guard ngồi',
+    'supine-guard-retention': 'Giữ guard nằm ngửa',
+    'half-guard-knee-shield': 'Half guard knee shield',
+    'half-guard-wrestle-up': 'Half guard wrestle-up',
+    'shin-to-shin-entry': 'Vào đòn từ shin-to-shin',
+    'single-leg-x-basics': 'Single-leg X cơ bản',
+    'k-guard-entry': 'Vào K-guard',
+    'butterfly-guard-off-balance': 'Butterfly off-balance',
+    'technical-stand-up': 'Đứng kỹ thuật',
+    'hand-fighting': 'Hand fighting',
+    'snapdown-front-headlock': 'Snapdown vào front headlock',
+    'single-leg-bjj': 'Single-leg cho BJJ',
+    'sprawl-go-behind': 'Sprawl và go-behind',
+    'competition-ruleset-awareness': 'Nhận thức luật thi đấu',
+    'guard-pulling-strategy': 'Chiến lược kéo guard',
+    'scramble-control': 'Kiểm soát scramble',
+  }
+  const titleVi = titleViMap[id] ?? title
   const titleLower = title.toLowerCase()
+  const overviewVi = `Hệ thống ${titleVi} tập trung vào kiểm soát vị trí, giữ đường an toàn và chuyển nhánh đúng thời điểm.`
   return {
-    overview: lt(overview, overview, overview),
+    overview: lt(overviewVi, overview, overview),
     topFiveDetails: [
-      mkDetail(`${id}-entry`, 'grip', `${title} entry contact`, `My hands, head, or hips must win the first control point before I add force.`, `When the exchange starts`, `The first body contact decides whether ${titleLower} has a real lane.`, `You add force before one body line is actually attached.`, `Body line first.`, `Line first.`, 'both', 'close_in', ['hands', 'head', 'hips']),
-      mkDetail(`${id}-head`, 'head', `${title} head position`, `My head stays on the safe or inside side so the opponent cannot steer my spine.`, `When posture or angle matters`, `Head position controls direction, posture, and neck safety.`, `Your head floats outside the safe line.`, 'Head safe side.', 'Head safe.', 'inside', 'pin_in', ['head', 'shoulders', 'ears']),
-      mkDetail(`${id}-hands`, 'hand', `${title} hand line`, `My hands clear the opponent's wrist, grip, or frame before I force the next action.`, `When the opponent can hand fight`, `Hands decide whether the lane stays open or collapses.`, `You ignore the wrist or frame that is blocking the lane.`, 'Clear the hand line.', 'Hands clear.', 'both', 'pin_in', ['hands', 'wrists', 'forearms']),
-      mkDetail(`${id}-lower`, kind === 'safety' ? 'safety' : 'hip', `${title} hip and knee line`, `My hips, knees, or feet keep the angle so my upper body does not work alone.`, `When lower body connection matters`, `Lower-body alignment keeps the contact useful under resistance.`, `Your hips float or knees drift away from the line.`, 'Hips under the line.', 'Hips under.', 'both', 'drive_diagonal', ['hips', 'knees', 'feet']),
-      mkDetail(`${id}-branch`, 'timing', `${title} next branch`, `If the first lane is blocked, I change angle before forcing through the same resistance.`, `When the first line is denied`, `Changing angle keeps the system moving without losing position.`, `You force one lane until the contact breaks.`, 'Angle, then branch.', 'Angle first.', 'both', 'open_out', ['hands', 'hips', 'head']),
+      mkDetail(`${id}-entry`, 'grip', `${titleVi}: điểm chạm mở đòn`, `Tay, đầu hoặc hông của tôi phải thắng điểm kiểm soát đầu tiên trước khi tăng lực.`, `Khi bắt đầu pha trao đổi`, `Điểm chạm cơ thể đầu tiên quyết định ${titleLower} có vào đúng đường hay không.`, `Bạn tăng lực khi chưa gắn được điểm chạm chính.`, `Điểm chạm trước, lực sau.`, 'Ưu tiên điểm chạm.', 'both', 'close_in', ['hands', 'head', 'hips']),
+      mkDetail(`${id}-head`, 'head', `${titleVi}: vị trí đầu`, `Đầu của tôi phải ở phía an toàn hoặc phía trong để đối thủ không điều khiển được trục cột sống.`, `Khi cần giữ posture hoặc góc`, `Vị trí đầu quyết định hướng lực, posture và an toàn cổ.`, `Đầu trôi ra ngoài đường an toàn.`, 'Giữ đầu ở phía an toàn.', 'Đầu an toàn.', 'inside', 'pin_in', ['head', 'shoulders', 'ears']),
+      mkDetail(`${id}-hands`, 'hand', `${titleVi}: đường tay`, `Tay của tôi phải dọn cổ tay, grip hoặc frame của đối thủ trước khi ép pha kế tiếp.`, `Khi đối thủ có thể hand-fight`, `Tay quyết định đường vào còn mở hay đã bị khóa lại.`, `Bạn bỏ qua cổ tay hoặc frame đang chặn đường vào.`, 'Dọn đường tay trước.', 'Tay đã clear.', 'both', 'pin_in', ['hands', 'wrists', 'forearms']),
+      mkDetail(`${id}-lower`, kind === 'safety' ? 'safety' : 'hip', `${titleVi}: đường hông và gối`, `Hông, gối hoặc bàn chân của tôi phải giữ góc để thân trên không làm việc một mình.`, `Khi kết nối thân dưới là yếu tố chính`, `Căn chỉnh thân dưới đúng giúp điểm chạm vẫn hiệu quả dưới áp lực kháng lực.`, `Hông bị nổi hoặc gối trôi khỏi đường lực.`, 'Hông nằm dưới đường lực.', 'Hông ở dưới.', 'both', 'drive_diagonal', ['hips', 'knees', 'feet']),
+      mkDetail(`${id}-branch`, 'timing', `${titleVi}: chuyển nhánh`, `Nếu đường đầu tiên bị chặn, tôi đổi góc trước khi ép lại cùng một hướng lực.`, `Khi đường đầu tiên bị từ chối`, `Đổi góc đúng lúc giúp hệ thống tiếp tục chạy mà không mất vị trí.`, `Bạn cố ép một đường đến khi cấu trúc bị gãy.`, 'Đổi góc rồi chuyển nhánh.', 'Góc trước.', 'both', 'open_out', ['hands', 'hips', 'head']),
     ],
     leftRightGuides: [
       mkGuide(`${id}-lr1`, `Right-side ${title} work`, 'Left hand covers or posts.', 'Right hand does the main job.', 'Left leg keeps base.', 'Right leg drives the line.', 'Head stays glued to the near side.', 'Hips stay heavy and angled.', 'One side protects, the other side attacks.'),
@@ -124,11 +151,11 @@ const makeSystem = (id: string, title: string, overview: string, kind: 'control'
       kind === 'safety' ? 'Train slowly and tap early.' : undefined,
     )],
     troubleshootingTips: [
-      { problem: lt(`Bạn mất mốc kiểm soát đầu tiên trong ${titleLower}.`, `You lose the first body line on ${titleLower}.`, `Vous perdez la première ligne sur ${titleLower}.`), quickFix: lt('Gắn lại tay, đầu hoặc hông vào đúng line trước khi tăng lực.', 'Reattach the hand, head, or hip line before adding force.', 'Rattachez main, tête ou hanche avant d’ajouter force.'), cue: lt('Line trước.', 'Line first.', 'Ligne d’abord.') },
-      { problem: lt('Đầu trôi khỏi safe side.', 'Your head drifts away from the safe side.', 'Votre tête quitte le côté sûr.'), quickFix: lt('Đặt đầu lại bên trong hoặc bên an toàn.', 'Put the head back on the inside or safe side.', 'Replacez la tête inside ou côté sûr.'), cue: lt('Đầu an toàn.', 'Head safe.', 'Tête sûre.') },
-      { problem: lt('Tay chưa clear grip/frame của đối thủ.', 'Hands have not cleared the opponent grip or frame.', 'Les mains n’ont pas libéré le grip ou frame adverse.'), quickFix: lt('Clear cổ tay hoặc frame trước khi ép tiếp.', 'Clear the wrist or frame before forcing again.', 'Libérez poignet ou frame avant de forcer.'), cue: lt('Clear tay.', 'Clear hands.', 'Mains libres.') },
-      { problem: lt('Hips float or base breaks.', 'Hips float or base breaks.', 'Les hanches flottent ou la base casse.'), quickFix: lt('Lower the hips and rebuild base.', 'Lower the hips and rebuild base.', 'Baissez les hanches et reconstruisez la base.'), cue: lt('Base first.', 'Base first.', 'Base d’abord.') },
-      { problem: lt('Line đầu bị chặn.', 'The first lane is blocked.', 'La première ligne est bloquée.'), quickFix: lt('Đổi góc trước khi đổi nhánh.', 'Change angle before branching.', 'Changez l’angle avant la branche.'), cue: lt('Góc trước.', 'Angle first.', 'Angle d’abord.') },
+      { problem: lt(`Bạn mất mốc kiểm soát đầu tiên trong ${titleLower}.`, `You lose the first body line on ${titleLower}.`, `Vous perdez la première ligne sur ${titleLower}.`), quickFix: lt('Gắn lại tay, đầu hoặc hông vào đúng đường lực trước khi tăng lực.', 'Reattach the hand, head, or hip line before adding force.', 'Rattachez main, tête ou hanche avant d’ajouter force.'), cue: lt('Đường lực trước.', 'Line first.', 'Ligne d’abord.') },
+      { problem: lt('Đầu trôi khỏi phía an toàn.', 'Your head drifts away from the safe side.', 'Votre tête quitte le côté sûr.'), quickFix: lt('Đặt đầu lại phía trong hoặc phía an toàn.', 'Put the head back on the inside or safe side.', 'Replacez la tête inside ou côté sûr.'), cue: lt('Đầu an toàn.', 'Head safe.', 'Tête sûre.') },
+      { problem: lt('Tay chưa dọn được grip/frame của đối thủ.', 'Hands have not cleared the opponent grip or frame.', 'Les mains n’ont pas libéré le grip ou frame adverse.'), quickFix: lt('Dọn cổ tay hoặc frame trước khi ép tiếp.', 'Clear the wrist or frame before forcing again.', 'Libérez poignet ou frame avant de forcer.'), cue: lt('Dọn tay trước.', 'Clear hands.', 'Mains libres.') },
+      { problem: lt('Hông bị nổi hoặc base bị gãy.', 'Hips float or base breaks.', 'Les hanches flottent ou la base casse.'), quickFix: lt('Hạ hông xuống và dựng lại base.', 'Lower the hips and rebuild base.', 'Baissez les hanches et reconstruisez la base.'), cue: lt('Base trước.', 'Base first.', 'Base d’abord.') },
+      { problem: lt('Đường đầu bị chặn.', 'The first lane is blocked.', 'La première ligne est bloquée.'), quickFix: lt('Đổi góc trước khi đổi nhánh.', 'Change angle before branching.', 'Changez l’angle avant la branche.'), cue: lt('Góc trước.', 'Angle first.', 'Angle d’abord.') },
     ],
     doNotDo: la(
       ['Đừng mất mốc kiểm soát đầu tiên.', 'Đừng đẩy vuông khi cần góc.', 'Đừng để đầu trôi ra ngoài.', 'Đừng quên tay phòng thủ.', 'Đừng cố một nhánh quá lâu.'],
@@ -153,7 +180,7 @@ const makeChecklist = (id: string, title: string, kind: 'control' | 'escape' | '
     mkCheck(`${id}-5`, 'Angle and timing', 'Is the angle or timing correct for the next branch?', 'Yes, the branch is ready.', 'No, you are driving square.', 'Take angle before force.', ['hips', 'knees', 'feet'], 'major', [`${id}-branch`]),
     mkCheck(`${id}-6`, safetyTitle, safetyQuestion, safetySuccess, safetyFailure, safetyFix, ['hands', 'head', 'hips'], 'major', [`${id}-branch`]),
   ]
-  return buildChecklist(kind === 'safety' ? 'safety' : kind === 'guard' ? 'guard' : kind === 'escape' ? 'escape' : kind === 'wrestling' ? 'wrestling' : 'control', lt(`Kiểm ${title.toLowerCase()} và các line chính.`, `Check ${title.toLowerCase()} and the main lines.`, `Vérifiez ${title.toLowerCase()} et les lignes principales.`), checks, 70, lt('Checklist tốt enough to continue.', 'Checklist is good enough to continue.', 'La checklist est assez bonne pour continuer.'), lt('Fix the first broken line.', 'Fix the first broken line.', 'Corrigez la première ligne cassée.'))
+  return buildChecklist(kind === 'safety' ? 'safety' : kind === 'guard' ? 'guard' : kind === 'escape' ? 'escape' : kind === 'wrestling' ? 'wrestling' : 'control', lt(`Kiểm ${title.toLowerCase()} và các đường kiểm soát chính.`, `Check ${title.toLowerCase()} and the main lines.`, `Vérifiez ${title.toLowerCase()} et les lignes principales.`), checks, 70, lt('Checklist đủ tốt để tiếp tục.', 'Checklist is good enough to continue.', 'La checklist est assez bonne pour continuer.'), lt('Sửa đường đầu tiên đang gãy.', 'Fix the first broken line.', 'Corrigez la première ligne cassée.'))
 }
 
 const buildChecklist = (type: TechniqueQualityChecklist['type'], overview: LocalizedText, checks: QualityCheckItem[], passThreshold: number, ifPassed: LocalizedText, ifFailed: LocalizedText): TechniqueQualityChecklist => ({ type, overview, checks, passThreshold, ifPassed, ifFailed })

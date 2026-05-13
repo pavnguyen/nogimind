@@ -1,0 +1,22 @@
+# Search Refactor Report
+
+Search continues to use MiniSearch, with cached indexes per language.
+
+## Improvements
+
+- Search documents now index new Technique Card OS section names.
+- Old section concepts map to new anchors:
+  - quick card and quick start to `#system-logic`
+  - body-to-body to `#body-position`
+  - micro, blackbelt, and checklist content to `#money-details`
+  - state machine and attacker/defender content to `#outcomes-branches`
+  - troubleshooting to `#fix-it-fast`
+  - related/next content to `#next-step`
+- Vietnamese no-diacritic normalization is retained.
+- Synonym expansion is retained.
+- Results are grouped in the UI and capped to 80.
+- Input debounce is 160ms.
+
+## Remaining Work
+
+Virtualization is not necessary at the current capped result size, but should be added if the result cap grows.
