@@ -48,6 +48,7 @@ export const NextStepSection = ({ view }: Props) => {
       id="next-step"
       title={t('cardOS.nextStep')}
       accentColor="slate"
+      defaultOpen
     >
       <div className="space-y-4">
         {view.relatedSkillIds.length > 0 && (

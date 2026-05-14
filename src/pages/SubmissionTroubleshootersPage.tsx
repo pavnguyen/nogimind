@@ -4,7 +4,8 @@ import { useTranslation } from 'react-i18next'
 import { ArrowRight } from 'lucide-react'
 import { Badge } from '../components/common/Badge'
 import { EmptyState } from '../components/common/EmptyState'
-import { PagePurposeBanner } from '../components/learning/PagePurposeBanner'
+import { PageShell } from '../components/common/PageShell'
+import { HelpCircle } from 'lucide-react'
 import { useSkillsQuery } from '../queries/skillQueries'
 import { useSettingsStore } from '../stores/useSettingsStore'
 import { getTroubleshooters } from '../utils/knowledgeModules'
@@ -46,16 +47,20 @@ export default function SubmissionTroubleshootersPage() {
   }
 
   return (
-    <div className="space-y-6">
-      <PagePurposeBanner
-        title={t('troubleshooters.heading')}
-        purpose={t('troubleshooters.whatFor')}
-        whenToUse={t('troubleshooters.whenToUse')}
-        bestNextStepLabel={t('troubleshooters.nextStep')}
-        bestNextStepTo="/skills"
-      />
+    <PageShell
+      header={
+        <div className="space-y-4">
+          <div className="flex items-center gap-3">
+            <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-gradient-to-br from-rose-500 to-pink-500 shadow-lg">
+              <HelpCircle className="h-5 w-5 text-slate-950" aria-hidden="true" />
+            </div>
+            <div>
+              <h1 className="text-2xl font-semibold tracking-tight text-white">{t('troubleshooters.heading')}</h1>
+              <p className="text-sm text-slate-400">{t('troubleshooters.whatFor')}</p>
+            </div>
+          </div>
 
-      <div className="grid gap-3 lg:grid-cols-[1fr_260px]">
+          <div className="grid gap-3 lg:grid-cols-[1fr_260px]">
         <input
           value={query}
           onChange={(event) => setParam('q', event.target.value)}
@@ -67,7 +72,9 @@ export default function SubmissionTroubleshootersPage() {
           {categories.map((item) => <option key={item} value={item}>{t(`troubleshooters.categories.${item}`)}</option>)}
         </select>
       </div>
-
+    </div>
+  }
+>
       {!troubleshooters.length ? <EmptyState title={t('troubleshooters.empty')} description={t('troubleshooters.emptyBody')} /> : null}
 
       <div className="grid gap-4 xl:grid-cols-2">
@@ -86,6 +93,6 @@ export default function SubmissionTroubleshootersPage() {
           </Link>
         ))}
       </div>
-    </div>
+    </PageShell>
   )
 }

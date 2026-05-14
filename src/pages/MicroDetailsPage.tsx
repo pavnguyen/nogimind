@@ -5,8 +5,9 @@ import { useTranslation } from 'react-i18next'
 import { ArrowRight } from 'lucide-react'
 import { Badge } from '../components/common/Badge'
 import { EmptyState } from '../components/common/EmptyState'
+import { PageShell } from '../components/common/PageShell'
 import { SectionCard } from '../components/common/SectionCard'
-import { PagePurposeBanner } from '../components/learning/PagePurposeBanner'
+import { Zap } from 'lucide-react'
 import { useSkillsQuery } from '../queries/skillQueries'
 import { useSettingsStore } from '../stores/useSettingsStore'
 import { skillDomains } from '../data/domains'
@@ -67,15 +68,19 @@ export default function MicroDetailsPage() {
   }
 
   return (
-    <div className="space-y-6">
-      <PagePurposeBanner
-        title={t('microDetails.repairBoard')}
-        purpose={t('microDetails.repairBoardBody')}
-        whenToUse={t('microDetails.whenToUse')}
-        bestNextStepLabel={t('microDetails.nextStep')}
-        bestNextStepTo="/skills"
-      />
-
+    <PageShell
+      header={
+        <div className="flex items-center gap-3">
+          <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-gradient-to-br from-amber-400 to-orange-500 shadow-lg">
+            <Zap className="h-5 w-5 text-slate-950" aria-hidden="true" />
+          </div>
+          <div>
+            <h1 className="text-2xl font-semibold tracking-tight text-white">{t('microDetails.repairBoard')}</h1>
+            <p className="text-sm text-slate-400">{t('microDetails.repairBoardBody')}</p>
+          </div>
+        </div>
+      }
+    >
       <div className="grid gap-6 xl:grid-cols-[260px_minmax(0,1fr)_300px]">
         <aside className="space-y-4 xl:sticky xl:top-6 xl:self-start">
           <SectionCard title={t('microDetails.repairFilters')}>
@@ -200,7 +205,7 @@ export default function MicroDetailsPage() {
           </SectionCard>
         </aside>
       </div>
-    </div>
+    </PageShell>
   )
 }
 

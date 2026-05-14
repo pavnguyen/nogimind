@@ -17,6 +17,7 @@ export const FixItFastSection = ({ view }: Props) => {
       title={t('cardOS.fixItFast')}
       badge={`${view.items.length + view.troubleshootingTips.length}`}
       accentColor="rose"
+      defaultOpen
     >
       <div className="space-y-5">
         {/* Quality-check derived items (problem-first) */}

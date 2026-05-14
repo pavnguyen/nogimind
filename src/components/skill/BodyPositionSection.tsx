@@ -11,7 +11,7 @@ export const BodyPositionSection = ({ view }: Props) => {
 
   if (!view.available) {
     return (
-      <SectionAccordion id="body-position" title={t('cardOS.bodyPosition')} accentColor="violet">
+      <SectionAccordion id="body-position" title={t('cardOS.bodyPosition')} accentColor="violet" defaultOpen>
         <p className="text-sm italic text-slate-500">{t('cardOS.bodyPositionEmpty')}</p>
       </SectionAccordion>
     )
@@ -23,6 +23,7 @@ export const BodyPositionSection = ({ view }: Props) => {
       title={t('cardOS.bodyPosition')}
       badge={`${view.totalContacts} ${t('cardOS.contacts')}`}
       accentColor="violet"
+      defaultOpen
     >
       <div className="space-y-6">
         <div className="grid gap-3 md:grid-cols-2">

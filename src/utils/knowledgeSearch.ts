@@ -8,6 +8,7 @@ import { sharedKnowledgeItems } from '../data/sharedKnowledge'
 import { techniqueStateMachineBySkillId, techniqueStateMachines } from '../data/techniqueStateMachines'
 import { positions } from '../data/positions'
 import { skillNodes } from '../data/skillNodes'
+import { videoReferences } from '../data/videos'
 import type { GrapplingArchetype } from '../types/archetype'
 import type { ConceptNode } from '../types/concept'
 import type { DefensiveLayer } from '../types/defense'
@@ -495,6 +496,29 @@ const masteryDocuments = (lang: LanguageCode): SearchDocument[] =>
     ],
   }))
 
+const videoReferenceDocuments = (lang: LanguageCode): SearchDocument[] =>
+  videoReferences.map((video) => {
+    const relatedSkills = skillNodes.filter((skill) => video.relatedSkillIds.includes(skill.id))
+    return {
+      id: video.id,
+      type: 'video_reference',
+      title: video.title,
+      description: video.whyUseful,
+      tags: ['video', 'youtube', video.relevance, video.level, ...video.techniqueTags],
+      url: `/skills/${video.relatedSkillIds[0] ?? ''}#video-references`,
+      fields: [
+        field('title', video.title, lang, 8),
+        field('video channel', video.channelName, lang, 5),
+        field('video reference', ['video', 'youtube', 'public youtube reference', 'video tham khảo', 'référence vidéo'], lang, 5),
+        field('related skill titles', relatedSkills.map((skill) => skill.title), lang, 6),
+        field('technique tags', video.techniqueTags, lang, 5),
+        field('why useful', video.whyUseful, lang, 4),
+        field('what to watch for', video.whatToWatchFor, lang, 4),
+        field('timestamps', video.timestamps?.map((timestamp) => [timestamp.label, timestamp.note]) ?? [], lang, 2),
+      ],
+    }
+  })
+
 const stateMachineDocuments = (lang: LanguageCode): SearchDocument[] =>
   techniqueStateMachines.map((stateMachine) => ({
     id: `state-machine:${stateMachine.skillId}`,
@@ -527,6 +551,7 @@ const buildDocuments = (lang: LanguageCode): SearchDocument[] => [
   ...defensiveLayers.map((layer) => defenseDocument(layer, lang)),
   ...archetypes.map((archetypeValue) => archetypeDocument(archetypeValue, lang)),
   ...masteryDocuments(lang),
+  ...videoReferenceDocuments(lang),
 ]
 
 const indexFieldLabels: Record<string, string> = {

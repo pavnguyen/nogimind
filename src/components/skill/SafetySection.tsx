@@ -24,6 +24,7 @@ export const SafetySection = ({ view }: Props) => {
       title={t('cardOS.safety')}
       badge={riskLabel[view.riskLevel] ?? view.riskLevel}
       accentColor={accent}
+      defaultOpen
     >
       <div className="space-y-4">
         {/* Risk level banner for high-risk skills */}

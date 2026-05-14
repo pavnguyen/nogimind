@@ -4,8 +4,9 @@ import { useTranslation } from 'react-i18next'
 import { ArrowRight } from 'lucide-react'
 import { Badge } from '../components/common/Badge'
 import { EmptyState } from '../components/common/EmptyState'
+import { PageShell } from '../components/common/PageShell'
 import { SectionCard } from '../components/common/SectionCard'
-import { PagePurposeBanner } from '../components/learning/PagePurposeBanner'
+import { BookOpen } from 'lucide-react'
 import { conceptCategories } from '../data/concepts'
 import { useConceptsQuery } from '../queries/conceptQueries'
 import { useSettingsStore } from '../stores/useSettingsStore'
@@ -48,16 +49,20 @@ export default function ConceptsPage() {
   }
 
   return (
-    <div className="space-y-6">
-      <PagePurposeBanner
-        title={t('concepts.heading')}
-        purpose={t('concepts.whatFor')}
-        whenToUse={t('concepts.whenToUse')}
-        bestNextStepLabel={t('concepts.nextStep')}
-        bestNextStepTo="/skills"
-      />
+    <PageShell
+      header={
+        <div className="space-y-4">
+          <div className="flex items-center gap-3">
+            <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-gradient-to-br from-cyan-400 to-blue-500 shadow-lg">
+              <BookOpen className="h-5 w-5 text-slate-950" aria-hidden="true" />
+            </div>
+            <div>
+              <h1 className="text-2xl font-semibold tracking-tight text-white">{t('concepts.heading')}</h1>
+              <p className="text-sm text-slate-400">{t('concepts.whatFor')}</p>
+            </div>
+          </div>
 
-      <div className="grid gap-3 lg:grid-cols-[1fr_260px]">
+          <div className="grid gap-3 lg:grid-cols-[1fr_260px]">
         <input
           value={query}
           onChange={(event) => setParam('q', event.target.value)}
@@ -75,32 +80,33 @@ export default function ConceptsPage() {
           ))}
         </select>
       </div>
-
+    </div>
+  }
+>
       <SectionCard>
         {!filtered.length ? <EmptyState title={t('concepts.empty')} description={t('concepts.nextStep')} /> : null}
         <div className="grid gap-4 xl:grid-cols-2">
           {filtered.map((concept) => (
-            <article key={concept.id} className="rounded-lg border border-white/10 bg-slate-950/65 p-4 transition hover:border-cyan-300/35 hover:bg-white/[0.06]">
+            <article key={concept.id} className="group rounded-xl border border-white/[0.06] bg-slate-900/40 p-5 transition-all hover:border-cyan-400/20 hover:bg-slate-900/70">
               <div className="flex flex-wrap gap-2">
                 <Badge tone="cyan">{t(`conceptCategories.${concept.category}`)}</Badge>
                 <Badge tone="emerald">{t(`conceptLevels.${concept.level}`)}</Badge>
               </div>
               <h2 className="mt-3 text-lg font-semibold text-white">{getLocalizedText(concept.title, language)}</h2>
-              <p className="mt-2 text-sm leading-6 text-slate-400">{getLocalizedText(concept.shortDefinition, language)}</p>
-              <p className="mt-3 text-sm leading-6 text-slate-300">{getLocalizedText(concept.whyItMatters, language)}</p>
-              <div className="mt-4 flex flex-wrap items-center justify-between gap-3 border-t border-white/10 pt-4">
+              <p className="mt-2 line-clamp-2 text-sm leading-6 text-slate-400">{getLocalizedText(concept.shortDefinition, language)}</p>
+              <div className="mt-4 flex flex-wrap items-center justify-between gap-3 border-t border-white/[0.06] pt-4">
                 <div className="flex flex-wrap gap-2">
                   {concept.tags.slice(0, 3).map((tag) => <Badge key={tag}>{tag}</Badge>)}
                 </div>
-                <Link to={`/concepts/${concept.id}`} className="inline-flex items-center gap-1.5 text-sm font-medium text-cyan-200 hover:text-cyan-100">
+                <Link to={`/concepts/${concept.id}`} className="inline-flex items-center gap-1 text-sm font-medium text-emerald-200 opacity-0 transition-opacity group-hover:opacity-100">
                   {t('common.open')}
-                  <ArrowRight className="h-4 w-4" aria-hidden="true" />
+                  <ArrowRight className="h-3.5 w-3.5" aria-hidden="true" />
                 </Link>
               </div>
             </article>
           ))}
         </div>
       </SectionCard>
-    </div>
+    </PageShell>
   )
 }

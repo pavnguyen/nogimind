@@ -47,6 +47,8 @@ export type ModernSystemGroup =
   | 'leg_lock'
   | 'crab_ride'
   | 'wrist_ride'
+  | 'x_guard'
+  | 'single_leg_x'
   | 'front_headlock'
   | 'wrestle_up'
   | 'modern_passing'
@@ -594,7 +596,7 @@ export type MicroDetail = {
   commonMistake: LocalizedText
   correctionCue: LocalizedText
   liveCue: LocalizedText
-  safetyNote?: LocalizedText
+  safetyNote?: LocalizedText | LocalizedStringArray
 }
 
 export type FastFinishPath = {
@@ -610,7 +612,7 @@ export type FastFinishPath = {
   finishTrigger: LocalizedText
   abortSignal: LocalizedText
   nextBestOption: LocalizedText
-  safetyNote?: LocalizedText
+  safetyNote?: LocalizedText | LocalizedStringArray
 }
 
 export type LeftRightGuide = {

@@ -6,6 +6,7 @@ import { skillDomains } from '../src/data/domains'
 import { skillNodes } from '../src/data/skillNodes'
 import { techniqueStateMachines } from '../src/data/techniqueStateMachines'
 import { technicalTargetSkillIds } from '../src/data/technicalDetails'
+import { videoReferences } from '../src/data/videos'
 import { findDuplicateBlocks } from '../src/utils/contentQuality'
 import { getEscapeMaps, getTechniqueChains, getTroubleshooters } from '../src/utils/knowledgeModules'
 import { getNextBestLinksForSkill } from '../src/utils/knowledgeGraph'
@@ -97,6 +98,70 @@ const blackbeltBodyToBodyTargets = new Set([
   'heel-hook-safety',
   'bodylock-passing',
 ])
+
+const techniqueCardPrioritySkillIds = new Set([
+  'rear-naked-choke-system',
+  'armbar',
+  'triangle',
+  'guillotine-system',
+  'arm-triangle-mount',
+  'kimura-system',
+  'omoplata',
+  'heel-hook-safety',
+  'back-control',
+  'bodylock-passing',
+  'knee-cut-passing',
+  'side-control-escape',
+  'mount-escape',
+  'front-headlock-defense',
+  'octopus-guard',
+  'clamp-guard',
+  'shoulder-crunch',
+  's-mount-armbar',
+  'false-reap-entry',
+  'k-guard-matrix',
+  'saddle-inside-sankaku',
+  'crab-ride',
+  'wrist-ride',
+  'buggy-choke',
+  'gogoplata',
+  'choi-bar',
+  'tarikoplata',
+  'smother-safety',
+])
+
+const vagueTechniquePhrases = [
+  'control the arm',
+  'apply pressure',
+  'use your hips',
+  'finish the choke',
+]
+
+const extractYouTubeId = (url: string): string | null => {
+  try {
+    const parsed = new URL(url)
+    if (parsed.hostname === 'youtu.be') return parsed.pathname.slice(1) || null
+    if (parsed.hostname.endsWith('youtube.com')) {
+      if (parsed.pathname === '/watch') return parsed.searchParams.get('v')
+      if (parsed.pathname.startsWith('/embed/')) return parsed.pathname.split('/')[2] || null
+      if (parsed.pathname.startsWith('/shorts/')) return parsed.pathname.split('/')[2] || null
+    }
+    return null
+  } catch {
+    return null
+  }
+}
+
+const isTranscriptLike = (value: unknown): boolean => {
+  const strings: string[] = []
+  const collect = (item: unknown) => {
+    if (typeof item === 'string') strings.push(item)
+    else if (Array.isArray(item)) item.forEach(collect)
+    else if (isRecord(item)) Object.values(item).forEach(collect)
+  }
+  collect(value)
+  return strings.some((text) => text.split(/\s+/).length > 90 || /\b\d{1,2}:\d{2}\b.*\b\d{1,2}:\d{2}\b.*\b\d{1,2}:\d{2}\b/.test(text))
+}
 
 const optionalDataModules = [
   {
@@ -553,13 +618,23 @@ const validateSkills = (report: ValidationReport, skills: AnyRecord[], glossary:
     }
 
     const bodyToBodyDetails = isRecord(skill.bodyToBodyDetails) ? skill.bodyToBodyDetails : undefined
-    if (blackbeltBodyToBodyTargets.has(String(skill.id)) && !bodyToBodyDetails) {
-      addWarning(report, `${path}.bodyToBodyDetails is missing for blackbelt target skill`)
+    const requiresTechniqueCardBodyPosition =
+      blackbeltBodyToBodyTargets.has(String(skill.id)) ||
+      techniqueCardPrioritySkillIds.has(String(skill.id)) ||
+      String(skill.libraryTier) === 'core' ||
+      String(skill.libraryTier) === 'modern_expansion'
+
+    if (requiresTechniqueCardBodyPosition && !bodyToBodyDetails) {
+      addError(report, `${path}.bodyToBodyDetails is required for implemented Technique Card OS skill`)
     }
     if (bodyToBodyDetails) {
       const phases = Array.isArray(bodyToBodyDetails.phases) ? bodyToBodyDetails.phases.filter(isRecord) : []
       const contactIds = new Set<string>()
-      if (phases.length < 3) addWarning(report, `${path}.bodyToBodyDetails has fewer than 3 phases`)
+      if (phases.length < 3) {
+        const message = `${path}.bodyToBodyDetails has fewer than 3 phases`
+        if (requiresTechniqueCardBodyPosition) addError(report, message)
+        else addWarning(report, message)
+      }
       let contactCount = 0
       phases.forEach((phase, phaseIndex) => {
         const contacts = Array.isArray(phase.contacts) ? phase.contacts.filter(isRecord) : []
@@ -573,8 +648,10 @@ const validateSkills = (report: ValidationReport, skills: AnyRecord[], glossary:
 
           const myBodyPart = isRecord(contact.myBodyPart) ? contact.myBodyPart : undefined
           const opponentBodyPart = isRecord(contact.opponentBodyPart) ? contact.opponentBodyPart : undefined
-          if (!myBodyPart || myBodyPart.role !== 'me') addError(report, `${contactPath}.myBodyPart.role must be "me"`)
-          if (!opponentBodyPart || opponentBodyPart.role !== 'opponent') addError(report, `${contactPath}.opponentBodyPart.role must be "opponent"`)
+          if (!myBodyPart) addError(report, `${contactPath}.attackerTarget is required`)
+          if (!opponentBodyPart) addError(report, `${contactPath}.defenderTarget is required`)
+          if (!myBodyPart || myBodyPart.role !== 'me') addError(report, `${contactPath}.attackerTarget.actor must be "attacker"`)
+          if (!opponentBodyPart || opponentBodyPart.role !== 'opponent') addError(report, `${contactPath}.defenderTarget.actor must be "defender"`)
           if (myBodyPart) {
             if (!bodySideValues.has(String(myBodyPart.side))) addError(report, `${contactPath}.myBodyPart.side "${String(myBodyPart.side)}" is invalid`)
             if (!bodyPartValues.has(String(myBodyPart.bodyPart))) addError(report, `${contactPath}.myBodyPart.bodyPart "${String(myBodyPart.bodyPart)}" is invalid`)
@@ -587,6 +664,9 @@ const validateSkills = (report: ValidationReport, skills: AnyRecord[], glossary:
           }
           ;['title', 'contactType', 'exactInstruction', 'whyItWorks', 'commonMisplacement', 'correctionCue', 'liveCue'].forEach((field) => {
             if (contact[field] === undefined || contact[field] === null) addError(report, `${contactPath}.${field} is required`)
+          })
+          vagueTechniquePhrases.forEach((phrase) => {
+            if (textIncludesAny(contact, [phrase])) addWarning(report, `${contactPath} uses vague phrase "${phrase}"`)
           })
           langs.forEach((lang) => {
             const exactInstruction = localizedValue(contact.exactInstruction, lang)
@@ -601,7 +681,11 @@ const validateSkills = (report: ValidationReport, skills: AnyRecord[], glossary:
           }
         })
       })
-      if (contactCount < 4) addWarning(report, `${path}.bodyToBodyDetails has fewer than 4 contacts`)
+      if (contactCount < 4) {
+        const message = `${path}.bodyToBodyDetails has fewer than 4 contacts`
+        if (requiresTechniqueCardBodyPosition) addError(report, message)
+        else addWarning(report, message)
+      }
     }
   })
 
@@ -734,6 +818,77 @@ const validateGenericDataSet = (report: ValidationReport, dataSet: DataSet, know
   })
 }
 
+const validateVideoReferences = (
+  report: ValidationReport,
+  videos: AnyRecord[],
+  knownIds: Record<string, Set<string>>,
+  skills: AnyRecord[],
+) => {
+  checkUniqueIds(report, { name: 'videoReferences', label: 'video references', items: videos, optional: true })
+
+  const videosBySkill = new Map<string, AnyRecord[]>()
+  videos.forEach((video, index) => {
+    const path = `videoReferences.${String(video.id ?? index)}`
+    const youtubeId = typeof video.youtubeId === 'string' ? video.youtubeId.trim() : ''
+    const url = typeof video.url === 'string' ? video.url.trim() : ''
+    const embedUrl = typeof video.embedUrl === 'string' ? video.embedUrl.trim() : ''
+    const extractedId = extractYouTubeId(url)
+
+    if (video.provider !== 'youtube') addError(report, `${path}.provider must be "youtube"`)
+    if (!youtubeId) addError(report, `${path}.youtubeId is required`)
+    if (!extractedId) addError(report, `${path}.url must be a valid YouTube URL`)
+    if (youtubeId && extractedId && youtubeId !== extractedId) addError(report, `${path}.youtubeId does not match url`)
+    if (youtubeId && embedUrl !== `https://www.youtube.com/embed/${youtubeId}`) addError(report, `${path}.embedUrl must match youtubeId`)
+    if (typeof video.channelName !== 'string' || !video.channelName.trim()) addError(report, `${path}.channelName is required`)
+    if (!isLocalizedText(video.title)) addError(report, `${path}.title must include en/vi/fr`)
+    if (!isLocalizedText(video.whyUseful)) addError(report, `${path}.whyUseful must include en/vi/fr`)
+    if (!isLocalizedArray(video.whatToWatchFor)) addError(report, `${path}.whatToWatchFor must include en/vi/fr arrays`)
+    if (isTranscriptLike(video)) addError(report, `${path} looks transcript-like or too long for curated metadata`)
+
+    walkLocalizedContent(report, path, video)
+
+    const relatedSkillIds = Array.isArray(video.relatedSkillIds) ? video.relatedSkillIds : []
+    const relatedPositionIds = Array.isArray(video.relatedPositionIds) ? video.relatedPositionIds : []
+    const relatedConceptIds = Array.isArray(video.relatedConceptIds) ? video.relatedConceptIds : []
+    const relatedGlossaryIds = Array.isArray(video.relatedGlossaryIds) ? video.relatedGlossaryIds : []
+
+    if (!relatedSkillIds.length && !relatedPositionIds.length && !relatedConceptIds.length) {
+      addError(report, `${path} must link to at least one skill, position, or concept`)
+    }
+    relatedSkillIds.forEach((id) => {
+      if (typeof id !== 'string' || !knownIds.skills.has(id)) addBrokenReference(report, `${path}.relatedSkillIds -> ${String(id)}`)
+      else videosBySkill.set(id, [...(videosBySkill.get(id) ?? []), video])
+    })
+    relatedPositionIds.forEach((id) => {
+      if (typeof id !== 'string' || !knownIds.positions.has(id)) addBrokenReference(report, `${path}.relatedPositionIds -> ${String(id)}`)
+    })
+    relatedConceptIds.forEach((id) => {
+      if (typeof id !== 'string' || !knownIds.concepts.has(id)) addBrokenReference(report, `${path}.relatedConceptIds -> ${String(id)}`)
+    })
+    relatedGlossaryIds.forEach((id) => {
+      if (typeof id !== 'string' || !knownIds.glossary.has(id)) addBrokenReference(report, `${path}.relatedGlossaryIds -> ${String(id)}`)
+    })
+
+    if (!Array.isArray(video.timestamps) || !video.timestamps.length) addWarning(report, `${path} has no timestamps`)
+    if (!video.language || video.language === 'unknown') addWarning(report, `${path} has unknown language`)
+    if (isLocalizedText(video.title) && video.title.en.trim().split(/\s+/).length < 3) addWarning(report, `${path}.title may be too generic`)
+  })
+
+  videosBySkill.forEach((items, skillId) => {
+    const mainRefs = items.filter((video) => video.relevance === 'primary_reference' || video.relevance === 'supplemental')
+    if (mainRefs.length > 3) addWarning(report, `skills.${skillId} has more than 3 primary/supplemental video references`)
+  })
+
+  skills
+    .filter((skill) => skill.riskLevel === 'safety_critical' || skill.libraryTier === 'safety_critical')
+    .forEach((skill) => {
+      const skillVideos = videosBySkill.get(String(skill.id)) ?? []
+      if (!skillVideos.some((video) => video.relevance === 'safety_reference')) {
+        addWarning(report, `safety-critical skill ${String(skill.id)} has no safety video reference`)
+      }
+    })
+}
+
 const main = async () => {
   const skills = asArray(skillNodes)
   const glossary = asArray(glossaryTerms)
@@ -761,6 +916,7 @@ const main = async () => {
     skills: new Set(skills.map((item) => item.id).filter((id): id is string => typeof id === 'string')),
     concepts: new Set(optionalSets.find((set) => set.name === 'concepts')?.items.map((item) => item.id).filter((id): id is string => typeof id === 'string') ?? []),
     positions: new Set(optionalSets.find((set) => set.name === 'positions')?.items.map((item) => item.id).filter((id): id is string => typeof id === 'string') ?? []),
+    glossary: new Set(glossary.map((item) => item.id).filter((id): id is string => typeof id === 'string')),
     sharedKnowledge: new Set(sharedKnowledgeItems.map((item) => item.id)),
   }
   const validSkillDetailRefs = new Set(
@@ -781,6 +937,7 @@ const main = async () => {
   )
 
   optionalSets.filter((set) => set.items.length > 0).forEach((set) => validateGenericDataSet(report, set, knownIds))
+  validateVideoReferences(report, videoReferences as AnyRecord[], knownIds, skills)
 
   const concepts = optionalSets.find((set) => set.name === 'concepts')?.items ?? []
   const positions = optionalSets.find((set) => set.name === 'positions')?.items ?? []
@@ -908,6 +1065,7 @@ const main = async () => {
   console.log(`warnings: ${report.warnings.length}`)
   console.log(`broken references: ${report.brokenReferences.length}`)
   console.log(`shared knowledge items: ${sharedKnowledgeItems.length}`)
+  console.log(`video references: ${videoReferences.length}`)
   const missingMicro = skills.filter((skill) => !skill.microDetailSystem).map((skill) => String(skill.id))
   const missingChecklist = skills.filter((skill) => !skill.qualityChecklist).map((skill) => String(skill.id))
   const missingQuick = skills.filter((skill) => !skill.quickCard).map((skill) => String(skill.id))

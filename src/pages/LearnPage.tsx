@@ -1,8 +1,8 @@
 import { Link } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
-import { ArrowRight, BadgeInfo, Layers3, ShieldCheck, Sparkles, Target } from 'lucide-react'
+import { ArrowRight, BadgeInfo, Layers3, ShieldCheck, Sparkles, Target, Compass } from 'lucide-react'
 import { Badge } from '../components/common/Badge'
-import { PageHeader } from '../components/common/PageHeader'
+import { PageShell } from '../components/common/PageShell'
 import { SectionCard } from '../components/common/SectionCard'
 
 type LearnStep = {
@@ -96,16 +96,28 @@ export default function LearnPage() {
   ]
 
   return (
-    <div className="space-y-6">
-      <PageHeader
-        badge={t('learn.badge')}
-        title={t('learn.heading')}
-        subtitle={t('learn.subtitle')}
-        whatFor={t('learn.whatFor')}
-        nextStepLabel={t('learn.primaryAction')}
-        nextStepTo="/skills"
-      />
-
+    <PageShell
+      header={
+        <div className="space-y-3">
+          <div className="flex items-center gap-3">
+            <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-gradient-to-br from-emerald-400 to-cyan-400 shadow-lg">
+              <Compass className="h-5 w-5 text-slate-950" aria-hidden="true" />
+            </div>
+            <div>
+              <h1 className="text-2xl font-semibold tracking-tight text-white">{t('learn.heading')}</h1>
+              <p className="text-sm text-slate-400">{t('learn.subtitle')}</p>
+            </div>
+          </div>
+          <Link
+            to="/skills"
+            className="inline-flex items-center gap-2 rounded-xl border border-emerald-400/20 bg-emerald-400/10 px-4 py-2.5 text-sm font-medium text-emerald-100 transition-all hover:bg-emerald-400/20"
+          >
+            <ArrowRight className="h-4 w-4" aria-hidden="true" />
+            {t('learn.primaryAction')}
+          </Link>
+        </div>
+      }
+    >
       <div className="grid gap-4 xl:grid-cols-2">
         {tracks.map((item) => (
           <SectionCard key={item.id} className="h-full" title={item.title} description={item.description}>
@@ -130,6 +142,6 @@ export default function LearnPage() {
           </SectionCard>
         ))}
       </div>
-    </div>
+    </PageShell>
   )
 }

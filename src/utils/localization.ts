@@ -96,8 +96,12 @@ const polishVietnameseText = (value: string) => {
   return result
 }
 
-export const getLocalizedText = (text: LocalizedText | undefined, lang: LanguageCode): string =>
-  lang === 'vi' ? polishVietnameseText(text?.vi || text?.en || '') : text?.[lang] || text?.en || text?.vi || ''
+export const getLocalizedText = (text: LocalizedText | LocalizedStringArray | undefined, lang: LanguageCode): string => {
+  if (!text) return ''
+  const val = text[lang] ?? text.en ?? text.vi ?? ''
+  const str = Array.isArray(val) ? (val[0] ?? '') : val
+  return lang === 'vi' ? polishVietnameseText(str) : str
+}
 
 export const getLocalizedArray = (text: LocalizedStringArray | undefined, lang: LanguageCode): string[] =>
   text?.[lang] || text?.en || text?.vi || []
@@ -107,10 +111,11 @@ const needsGloss = (value: string) => {
   return trimmed.length > 0 && trimmed.length <= 120
 }
 
-export const getLocalizedTechnicalText = (text: LocalizedText | undefined, lang: LanguageCode): string => {
+export const getLocalizedTechnicalText = (text: LocalizedText | LocalizedStringArray | undefined, lang: LanguageCode): string => {
   const primary = getLocalizedText(text, lang)
   if (!text || lang === 'en') return primary
-  const gloss = text.en?.trim()
+  const enVal = Array.isArray(text.en) ? text.en[0] : text.en
+  const gloss = enVal?.trim()
   if (!gloss || gloss === primary || !needsGloss(primary)) return primary
   return `${primary} (${gloss})`
 }

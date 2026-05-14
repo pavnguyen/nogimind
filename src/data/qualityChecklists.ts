@@ -4,7 +4,6 @@ import type {
   QualityCheckItem,
   TechniqueQualityChecklist,
 } from '../types/skill'
-import { extraQualityChecklists } from './remainingCoverage'
 
 const lt = (vi: string, en: string, fr: string): LocalizedText => ({ vi, en, fr })
 
@@ -465,8 +464,6 @@ const qualityChecklists = {
   ),
 }
 
-Object.assign(qualityChecklists, extraQualityChecklists)
+export const qualityChecklistsBySkillId = new Map(Object.entries(qualityChecklists))
 
-export const qualityChecklistsBySkillId = new Map<string, TechniqueQualityChecklist>(
-  Object.entries(qualityChecklists),
-)
+export { qualityChecklists }

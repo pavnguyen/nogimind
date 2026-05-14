@@ -1,8 +1,8 @@
 import { Link, useParams } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
-import { ArrowLeft, ArrowRight } from 'lucide-react'
-import { Badge } from '../components/common/Badge'
+import { ArrowRight } from 'lucide-react'
 import { NotFound } from '../components/common/NotFound'
+import { PageShell } from '../components/common/PageShell'
 import { SectionCard } from '../components/common/SectionCard'
 import { NextStepStrip } from '../components/learning/NextStepStrip'
 import { RelatedKnowledgePanel } from '../components/knowledge/RelatedKnowledgePanel'
@@ -26,21 +26,20 @@ export default function EscapeMapDetailPage() {
   }
 
   return (
-    <div className="space-y-6">
-      <Link to="/escape-maps" className="inline-flex items-center gap-2 text-sm font-medium text-cyan-200 hover:text-cyan-100">
-        <ArrowLeft className="h-4 w-4" aria-hidden="true" />
-        {t('escapeMaps.backToEscapeMaps')}
-      </Link>
-
-      <section className="rounded-lg border border-white/10 bg-slate-950/60 p-5 shadow-glow">
-        <Badge tone="cyan">{t(`escapeMaps.categories.${map.category}`)}</Badge>
-        <h1 className="mt-4 text-3xl font-semibold text-white">{getLocalizedText(map.title, lang)}</h1>
-        <p className="mt-3 max-w-4xl text-slate-400">{getLocalizedText(map.overview, lang)}</p>
-        <Link to={`/skills/${skill.id}`} className="mt-5 inline-flex items-center gap-1.5 rounded-md bg-emerald-300 px-4 py-2 text-sm font-semibold text-slate-950">
+    <PageShell
+      backTo="/escape-maps"
+      backLabel={t('escapeMaps.backToEscapeMaps')}
+      title={getLocalizedText(map.title, lang)}
+      subtitle={getLocalizedText(map.overview, lang)}
+      badge={t(`escapeMaps.categories.${map.category}`)}
+      badgeTone="cyan"
+    >
+      <div className="mb-6">
+        <Link to={`/skills/${skill.id}`} className="inline-flex items-center gap-1.5 rounded-md bg-emerald-300 px-4 py-2 text-sm font-semibold text-slate-950 hover:bg-emerald-200 transition-colors">
           {t('common.open')} {t('common.skill')}
           <ArrowRight className="h-4 w-4" aria-hidden="true" />
         </Link>
-      </section>
+      </div>
 
       <SectionCard title={t('escapeMaps.priorityPreventions')}>
         <div className="grid gap-2 md:grid-cols-2">
@@ -80,6 +79,6 @@ export default function EscapeMapDetailPage() {
           { title: t('microDetails.heading'), body: t('escapeMaps.nextStep'), to: `/micro-details?skill=${skill.id}` },
         ]}
       />
-    </div>
+    </PageShell>
   )
 }

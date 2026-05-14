@@ -32,6 +32,7 @@ export const MoneyDetailsSection = ({ view }: Props) => {
       title={t('cardOS.moneyDetails')}
       badge={`${view.topDetails.length} ${t('cardOS.details')}`}
       accentColor="emerald"
+      defaultOpen
     >
       <div className="space-y-4">
         {view.oneSentenceGold && (

@@ -19,7 +19,7 @@ const md = (
   commonMistake: LocalizedText,
   correctionCue: LocalizedText,
   liveCue: LocalizedText,
-  safetyNote?: LocalizedText,
+  safetyNote?: LocalizedText | LocalizedStringArray,
 ): MicroDetail => ({ id, category, title, shortInstruction, side, direction, bodyParts, whenToUse, whyItWorks, commonMistake, correctionCue, liveCue, safetyNote })
 
 const path = (
@@ -29,7 +29,7 @@ const path = (
   finishTrigger: LocalizedText,
   abortSignal: LocalizedText,
   nextBestOption: LocalizedText,
-  safetyNote?: LocalizedText,
+  safetyNote?: LocalizedText | LocalizedStringArray,
 ): FastFinishPath => ({ id, title, steps, finishTrigger, abortSignal, nextBestOption, safetyNote })
 
 const guide = (
@@ -71,7 +71,7 @@ const safetyText = lt(
 const safetyLeg = lt(
   'An toàn chân: kiểm soát knee line trước, tăng lực chậm, và dừng ngay khi có lực xoắn vào gối hoặc cổ chân.',
   'Leg safety: control the knee line first, add force slowly, and stop immediately when twisting force reaches the knee or ankle.',
-  'Sécurité jambe : contrôlez d’abord la knee line, ajoutez la force lentement et arrêtez dès que la torsion atteint genou ou cheville.',
+  'Sécurité jambe : contrôlez d\'abord la knee line, ajoutez la force lentement et arrêtez dès que la torsion atteint genou ou cheville.',
 )
 
 const safetyNeck = lt(
@@ -1977,6 +1977,106 @@ const systems: Record<string, MicroDetailSystem> = {
       ['Do not get shallow underhook.', 'Do not forget hand post.', 'Do not keep hips low.', 'Do not trap head in front.', 'Do not stand up without angle.'],
       ['Underhook profond.', 'Post main.', 'Heist haut.', 'Tête dehors.', 'Angle d’abord.'],
     ),
+    safetyNotes: safety,
+  },
+
+  'closed-guard-posture-control': {
+    overview: lt('Kiem soat posture bang leg tension, hip angle va hand fight de mo sweep va submission.', 'Control posture with leg tension, hip angle, and hand fighting to open sweeps and submissions.', 'Controler posture avec tension jambes, angle hanche et hand fighting pour ouvrir sweeps et soumissions.'),
+    topFiveDetails: [
+      md('cgpc-leg-tension', 'angle', lt('Chan khoa hong', 'Legs lock hips', 'Jambes verrouillent hanches'), lt('Hai chan khoa sat lung ho va ep hong xuong.', 'Lock legs tight across their back and press hips down.', 'Verrouiller jambes dos et presser hanches bas.'), 'both', 'close_in', ['legs', 'hips', 'knees'], lt('Khi ho bat dau posture.', 'When they start to posture up.', 'Quand ils commencent a se redresser.'), lt('Leg lock giu ho thap va khong xoay duoc.', 'Leg lock keeps them low and unable to turn.', 'Leg lock garde bas et sans rotation.'), lt('Chan long de ho thoat.', 'Loose legs let them escape.', 'Jambes laches pour sortie.'), lt('Squeeze then break.', 'Squeeze then break.', 'Serrez puis cassez.'), lt('Ho khong the posture len.', 'They cannot posture up.', 'Ils ne peuvent pas redresser.'), safetyText),
+    ],
+    leftRightGuides: [],
+    fastFinishPaths: [],
+    troubleshootingTips: [],
+    doNotDo: la([], [], []),
+    safetyNotes: safety,
+  },
+  'closed-guard-sweeps': {
+    overview: lt('Sweep tu closed guard bang hip bump, scissor va flower sweep khi elbow da tach va posture da gay.', 'Sweep from closed guard with hip bump, scissor, and flower sweeps when the elbow is separated and posture is broken.', 'Sweep depuis closed guard avec hip bump, scissor et flower sweeps quand coude est ecarte et posture cassee.'),
+    topFiveDetails: [
+      md('cgs-hip-bump', 'angle', lt('Hip bump swing', 'Hip bump swing', 'Hip bump swing'), lt('Nhac hong swing nguoi len ve phia vai ho.', 'Lift hips and swing your body toward their shoulder.', 'Soulever hanches et balancer vers epaule.'), 'both', 'drive_diagonal', ['hips', 'knees', 'shoulders'], lt('Khi ho ep nguoi ve truoc.', 'When they press forward.', 'Quand ils pressent avant.'), lt('Hip bump dung momentum ho de sweep.', 'Hip bump uses their momentum to sweep.', 'Hip bump utilise momentum pour sweep.'), lt('Hip bump yeu khong du luc.', 'Weak hip bump with no power.', 'Hip bump faible.'), lt('Bump hard, angle wide.', 'Bump hard, angle wide.', 'Bump fort, angle large.'), lt('Ho mat base va post.', 'They lose base and post.', 'Perdent base et postent.'), safetyText),
+    ],
+    leftRightGuides: [],
+    fastFinishPaths: [],
+    troubleshootingTips: [],
+    doNotDo: la([], [], []),
+    safetyNotes: safety,
+  },
+  'de-la-riva-sweeps': {
+    overview: lt('Sweep tu DLR bang hook inside, sleeve grip va hip rotation de vao X-guard, SLX hoac len top.', 'Sweep from DLR with inside hook, sleeve grip, and hip rotation to enter X-guard, SLX, or come on top.', 'Sweep depuis DLR avec hook interieur, grip manche et rotation hanche pour X-guard, SLX ou top.'),
+    topFiveDetails: [
+      md('dlrs-hook', 'hook', lt('DLR hook keo', 'DLR hook pulls', 'Hook DLR tire'), lt('Hook chan keo ve phia ban va xoay hong ho.', 'Hook their leg toward you and rotate their hip.', 'Hooker leur jambe vers vous et tourner hanche.'), 'inside', 'pull_toward_you', ['feet', 'shins', 'hips'], lt('Khi ban co sleeve grip.', 'When you have the sleeve grip.', 'Quand vous avez grip manche.'), lt('Hook keo pha base ho.', 'Hook pull breaks their base.', 'Hook tir brise leur base.'), lt('Hook khong tension.', 'Hook without tension.', 'Hook sans tension.'), lt('Hook active, sleeve pulls.', 'Hook active, sleeve pulls.', 'Hook actif, manche tire.'), lt('Ho mat base.', 'They lose base.', 'Ils perdent base.'), safetyText),
+    ],
+    leftRightGuides: [],
+    fastFinishPaths: [],
+    troubleshootingTips: [],
+    doNotDo: la([], [], []),
+    safetyNotes: safety,
+  },
+  'de-la-riva-back-take': {
+    overview: lt('Back take tu DLR bang far hip control, berimbolo spin va hook placement de ket thuc o back control.', 'Back take from DLR with far hip control, berimbolo spin, and hook placement to finish in back control.', 'Prise de dos depuis DLR avec controle hanche loin, berimbolo et placement hook pour dos.'),
+    topFiveDetails: [
+      md('dlrbt-far-hip', 'grip', lt('Far hip grip', 'Far hip grip', 'Grip hanche loin'), lt('Mot tay giu far hip belt/pants truoc khi spin.', 'One hand grips the far hip belt/pants before the spin.', 'Main grip ceinture/pantalon hanche loin avant spin.'), 'far', 'pin_in', ['hands', 'hips', 'belt'], lt('Khi ho chong sweep.', 'When they defend the sweep.', 'Quand ils defendent sweep.'), lt('Far hip grip keo ho vao back line.', 'Far hip grip pulls them into back line.', 'Grip hanche loin tire vers ligne dos.'), lt('Bo far hip grip.', 'Releasing far hip grip.', 'Lacher grip hanche loin.'), lt('Grip the far hip.', 'Grip the far hip.', 'Grip hanche loin.'), lt('Ho bi keo vao back.', 'They are pulled into back.', 'Tires vers dos.'), safetyText),
+    ],
+    leftRightGuides: [],
+    fastFinishPaths: [],
+    troubleshootingTips: [],
+    doNotDo: la([], [], []),
+    safetyNotes: safety,
+  },
+  'reverse-de-la-riva-transitions': {
+    overview: lt('Transition tu RDLR bang outside hook, hip rotation va kimura trap de vao DLR, X-guard hoac sweep.', 'Transition from RDLR with outside hook, hip rotation, and kimura trap into DLR, X-guard, or sweep.', 'Transition depuis RDLR avec hook exterieur, rotation hanche et kimura trap vers DLR, X-guard ou sweep.'),
+    topFiveDetails: [
+      md('rdlr-hook', 'hook', lt('Outside hook keo', 'Outside hook pulls', 'Hook exterieur tire'), lt('Hook ngoai keo chan gan len va xoay hong ho.', 'Outside hook pulls the near leg up and rotates their hip.', 'Hook exterieur tire jambe proche et tourne hanche.'), 'outside', 'pull_toward_you', ['feet', 'shins', 'hips'], lt('Khi ho de vao RDLR.', 'When they pressure into RDLR.', 'Quand ils pressionnent RDLR.'), lt('Hook keo mo rotation opportunity.', 'Hook pull opens rotation opportunity.', 'Hook tir ouvre rotation.'), lt('Hook khong tension.', 'Hook without tension.', 'Hook sans tension.'), lt('Hook and rotate.', 'Hook and rotate.', 'Hook et tournez.'), lt('Hip rotation available.', 'Hip rotation available.', 'Rotation hanche disponible.'), safetyText),
+    ],
+    leftRightGuides: [],
+    fastFinishPaths: [],
+    troubleshootingTips: [],
+    doNotDo: la([], [], []),
+    safetyNotes: safety,
+  },
+  'z-guard-sweeps': {
+    overview: lt('Sweep tu Z-guard bang deep half entry, waiter sweep va underhook control de dao vi tri tu bottom.', 'Sweep from Z-guard using deep half entry, waiter sweep, and underhook control to reverse from bottom.', 'Sweep depuis Z-guard avec entree deep half, waiter sweep et underhook pour inverser depuis bottom.'),
+    topFiveDetails: [
+      md('zgs-underhook', 'grip', lt('Underhook deep', 'Deep underhook', 'Underhook profond'), lt('Dua tay qua nach va bat chat lung ho.', 'Slide arm through armpit and grip their back.', 'Passer bras sous aisselle et grip dos.'), 'near', 'close_in', ['hands', 'arms', 'shoulders'], lt('Khi ban dang o Z-guard.', 'When you are in Z-guard.', 'Quand vous etes en Z-guard.'), lt('Underhook cho phep deep half entry.', 'Underhook enables deep half entry.', 'Underhook permet entree deep half.'), lt('Underhook nong.', 'Shallow underhook.', 'Underhook superficiel.'), lt('Pummel deep.', 'Pummel deep.', 'Pummel profond.'), lt('Underhook chat.', 'Underhook tight.', 'Underhook serre.'), safetyText),
+    ],
+    leftRightGuides: [],
+    fastFinishPaths: [],
+    troubleshootingTips: [],
+    doNotDo: la([], [], []),
+    safetyNotes: safety,
+  },
+  'knee-on-belly-control': {
+    overview: lt('Kiem soat knee on belly bang goi nang, far hip grip va shoulder isolation de kiem soat va chuyen vi tri.', 'Control knee on belly with heavy knee, far hip grip, and shoulder isolation to control and transition.', 'Controler genou ventre avec genou lourd, grip hanche loin et isolation epaule pour controler et transiter.'),
+    topFiveDetails: [
+      md('kob-knee', 'pressure', lt('Goi nang tren bung', 'Knee heavy on belly', 'Genou lourd sur ventre'), lt('Dat goi nang len bung hoac sternum, khong tren ribs.', 'Place knee heavy on belly or sternum, not on ribs.', 'Placer genou lourd sur ventre ou sternum, pas cotes.'), 'near', 'drive_down', ['knees', 'hips', 'belly'], lt('Khi vua len KOB.', 'When you first get to KOB.', 'Quand vous arrivez KOB.'), lt('Knee nang lam ho kho bridge.', 'Heavy knee makes bridging hard.', 'Genou lourd rend bridge difficile.'), lt('Knee tren ribs.', 'Knee on ribs.', 'Genou sur cotes.'), lt('Weight through knee.', 'Weight through knee.', 'Poids a travers genou.'), lt('Ho khong the bridge.', 'They cannot bridge.', 'Ils peuvent pas bridge.'), safetyText),
+    ],
+    leftRightGuides: [],
+    fastFinishPaths: [],
+    troubleshootingTips: [],
+    doNotDo: la([], [], []),
+    safetyNotes: safety,
+  },
+  'north-south-control': {
+    overview: lt('Kiem soat north south bang shoulder pressure, arm control va choke threat de control va chuyen mount/side.', 'Control north south with shoulder pressure, arm control, and choke threat to control and transition to mount/side.', 'Controler north south avec pression epaule, controle bras et menace choke pour controler et transiter mount/side.'),
+    topFiveDetails: [
+      md('ns-shoulder-press', 'pressure', lt('Shoulder pressure tren co', 'Shoulder pressure on neck', 'Pression epaule sur cou'), lt('Dat shoulder nang len co/nguc ho va drive cheo.', 'Place shoulder heavily on their neck/chest and drive diagonally.', 'Placer epaule lourde sur cou/poitrine et pousser diagonale.'), 'near', 'drive_diagonal', ['shoulders', 'chest', 'neck'], lt('Khi ban den NS.', 'When you enter NS.', 'Quand vous arrivez NS.'), lt('Shoulder pressure ngan ho bridge.', 'Shoulder pressure prevents bridging.', 'Pression epaule empeche bridge.'), lt('Khong co shoulder contact.', 'No shoulder contact.', 'Pas contact epaule.'), lt('Drive through the shoulder.', 'Drive through the shoulder.', 'Poussez a travers epaule.'), lt('Ho bi ep thap.', 'They are pressed low.', 'Ils sont presses bas.'), safetyText),
+    ],
+    leftRightGuides: [],
+    fastFinishPaths: [],
+    troubleshootingTips: [],
+    doNotDo: la([], [], []),
+    safetyNotes: safety,
+  },
+  'inverted-guard-control': {
+    overview: lt('Inverted guard dung invert angles de dat chan len hip/shoulder line va ket noi K-guard, matrix hoac leg entry.', 'Inverted guard uses invert angles to place feet on hip/shoulder line and connect to K-guard, matrix, or leg entries.', 'Garde inversee utilise angles inversion pour pieds sur hip/shoulder line et connexion K-guard, matrix ou entrees jambes.'),
+    topFiveDetails: [
+      md('ig-invert', 'angle', lt('Invert safety', 'Invert safety', 'Securite inversion'), lt('Xoay shoulders truoc, dua hong qua head, giu co an toan.', 'Rotate shoulders first, bring hips over head, keep neck safe.', 'Tourner epaules dabord, hanches par-dessus tete, cou sur.'), 'both', 'rotate_left', ['shoulders', 'hips', 'spine'], lt('Khi muon invert vao guard.', 'When you want to invert into guard.', 'Quand vous voulez inverser garde.'), lt('Invert dung ky thuat bao ve co.', 'Correct invert protects the neck.', 'Inversion correcte protege cou.'), lt('Invert bang co.', 'Inverting with the neck.', 'Inverser avec cou.'), lt('Shoulders first.', 'Shoulders first.', 'Epaules dabord.'), lt('Co khong co ap luc.', 'No neck pressure.', 'Pas pression cou.'), safetyText),
+    ],
+    leftRightGuides: [],
+    fastFinishPaths: [],
+    troubleshootingTips: [],
+    doNotDo: la([], [], []),
     safetyNotes: safety,
   },
 }

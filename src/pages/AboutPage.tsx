@@ -1,16 +1,20 @@
 import { useTranslation } from 'react-i18next'
 import { Badge } from '../components/common/Badge'
+import { PageShell } from '../components/common/PageShell'
 import { SectionCard } from '../components/common/SectionCard'
 
 export default function AboutPage() {
   const { t } = useTranslation()
   const themes = t('about.themes', { returnObjects: true }) as string[]
   return (
-    <div className="space-y-6">
-      <div>
-        <h1 className="text-3xl font-semibold text-white">{t('about.heading')}</h1>
-        <p className="mt-2 max-w-3xl text-slate-400">{t('app.thesis')}</p>
-      </div>
+    <PageShell
+      header={
+        <div>
+          <h1 className="text-2xl font-semibold tracking-tight text-white">{t('about.heading')}</h1>
+          <p className="mt-1 text-sm text-slate-400">{t('app.thesis')}</p>
+        </div>
+      }
+    >
       <SectionCard>
         <div className="space-y-5 text-base leading-8 text-slate-300">
           <p>{t('about.philosophy')}</p>
@@ -25,6 +29,6 @@ export default function AboutPage() {
           ))}
         </div>
       </SectionCard>
-    </div>
+    </PageShell>
   )
 }

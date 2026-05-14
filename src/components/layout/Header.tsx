@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState, type FormEvent } from 'react'
-import { Menu, Search } from 'lucide-react'
+import { Menu, Search, Command } from 'lucide-react'
 import { useNavigate } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import { LanguageSwitcher } from '../i18n/LanguageSwitcher'
@@ -20,6 +20,19 @@ export const Header = () => {
   const [open, setOpen] = useState(false)
   const [suggestions, setSuggestions] = useState<KnowledgeSearchResult[]>([])
   const rootRef = useRef<HTMLDivElement>(null)
+  const inputRef = useRef<HTMLInputElement>(null)
+
+  // Keyboard shortcut: Cmd+K to focus search
+  useEffect(() => {
+    const handleKeyDown = (event: KeyboardEvent) => {
+      if ((event.metaKey || event.ctrlKey) && event.key === 'k') {
+        event.preventDefault()
+        inputRef.current?.focus()
+      }
+    }
+    window.addEventListener('keydown', handleKeyDown)
+    return () => window.removeEventListener('keydown', handleKeyDown)
+  }, [])
 
   useEffect(() => {
     const handleClick = (event: MouseEvent) => {
@@ -45,7 +58,7 @@ export const Header = () => {
     const timeout = window.setTimeout(() => {
       import('../../utils/knowledgeSearch')
         .then(({ searchKnowledge }) => {
-          if (!cancelled) setSuggestions(searchKnowledge(trimmed, language).slice(0, 5))
+          if (!cancelled) setSuggestions(searchKnowledge(trimmed, language).slice(0, 6))
         })
         .catch(() => {
           if (!cancelled) setSuggestions([])
@@ -67,24 +80,32 @@ export const Header = () => {
   }
 
   return (
-    <header className="sticky top-0 z-20 border-b border-white/10 bg-slate-950/75 px-4 py-3 backdrop-blur lg:px-8">
+    <header className="sticky top-0 z-30 border-b border-white/[0.06] bg-slate-950/60 px-4 py-2.5 backdrop-blur-xl lg:px-6">
       <div className="flex items-center justify-between gap-4">
+        {/* Mobile menu trigger */}
         <button
           type="button"
           onClick={() => setMobileNavOpen(true)}
-          className="rounded-md border border-white/10 p-2 text-slate-200 lg:hidden"
+          className="flex items-center gap-2 rounded-lg border border-white/[0.06] px-3 py-2 text-sm font-medium text-slate-300 transition-all hover:bg-white/[0.04] hover:text-white lg:hidden"
           aria-label={t('nav.settings')}
         >
-          <Menu className="h-5 w-5" aria-hidden="true" />
+          <Menu className="h-4 w-4" aria-hidden="true" />
+          <span className="text-xs text-slate-500">{t('app.name')}</span>
         </button>
-        <div className="min-w-0">
-          <p className="text-sm font-semibold text-white lg:hidden">{t('app.name')}</p>
-          <p className="hidden max-w-3xl truncate text-sm text-slate-400 lg:block">{t('app.thesis')}</p>
+
+        {/* Brand (desktop) */}
+        <div className="hidden min-w-0 lg:block">
+          <p className="max-w-xl truncate text-sm text-slate-400">
+            {t('app.thesis')}
+          </p>
         </div>
-        <div ref={rootRef} className="relative hidden w-full max-w-md md:block">
-          <form onSubmit={submitSearch} className="flex w-full items-center gap-2 rounded-md border border-white/10 bg-slate-900 px-2 py-1.5">
-            <Search className="h-4 w-4 shrink-0 text-slate-500" aria-hidden="true" />
+
+        {/* Search */}
+        <div ref={rootRef} className="relative w-full max-w-md">
+          <form onSubmit={submitSearch} className="group flex items-center gap-2 rounded-lg border border-white/[0.08] bg-slate-900/80 px-3 py-1.5 transition-all focus-within:border-emerald-400/30 focus-within:bg-slate-900/60 focus-within:shadow-[0_0_0_1px_rgba(52,211,153,0.15)]">
+            <Search className="h-4 w-4 shrink-0 text-slate-500 transition-colors group-focus-within:text-emerald-400" aria-hidden="true" />
             <input
+              ref={inputRef}
               value={query}
               onChange={(event) => {
                 setQuery(event.target.value)
@@ -94,11 +115,15 @@ export const Header = () => {
               placeholder={t('search.headerPlaceholder')}
               className="min-w-0 flex-1 bg-transparent text-sm text-white outline-none placeholder:text-slate-500"
             />
+            <kbd className="hidden shrink-0 items-center gap-0.5 rounded border border-white/[0.08] bg-slate-800 px-1.5 py-0.5 text-[10px] font-medium text-slate-500 md:flex">
+              <Command className="h-2.5 w-2.5" />
+              <span>K</span>
+            </kbd>
           </form>
-          {open && query.trim().length >= 2 ? (
-            <div className="absolute left-0 right-0 top-[calc(100%+8px)] z-30 rounded-lg border border-white/10 bg-slate-950/95 p-2 shadow-xl backdrop-blur">
+          {open && query.trim().length >= 2 && (
+            <div className="absolute left-0 right-0 top-[calc(100%+6px)] z-30 animate-scale-in rounded-xl border border-white/[0.08] bg-slate-950/95 p-2 shadow-glow-lg backdrop-blur-2xl">
               {suggestions.length ? (
-                <div className="grid gap-2">
+                <div className="grid gap-1">
                   {suggestions.map((result) => (
                     <button
                       key={`${result.type}-${result.id}`}
@@ -107,13 +132,17 @@ export const Header = () => {
                         navigate(result.url)
                         setOpen(false)
                       }}
-                      className="rounded-md border border-white/10 bg-slate-900/80 p-3 text-left hover:border-cyan-300/30 hover:bg-white/10"
+                      className="group flex items-start gap-3 rounded-lg border border-transparent px-3 py-2.5 text-left transition-all hover:border-white/[0.06] hover:bg-white/[0.04]"
                     >
-                      <div className="flex flex-wrap items-center gap-2">
-                        <Badge tone="cyan">{t(`knowledgeTypes.${result.type}`)}</Badge>
+                      <Badge tone="cyan" className="mt-0.5 shrink-0 text-[10px]">{t(`knowledgeTypes.${result.type}`)}</Badge>
+                      <div className="min-w-0 flex-1">
+                        <p className="truncate text-sm font-medium text-white group-hover:text-emerald-100">
+                          {getLocalizedText(result.title, language)}
+                        </p>
+                        <p className="mt-0.5 line-clamp-1 text-xs text-slate-500">
+                          {getLocalizedText(result.description, language)}
+                        </p>
                       </div>
-                      <p className="mt-2 text-sm font-semibold text-white">{getLocalizedText(result.title, language)}</p>
-                      <p className="mt-1 line-clamp-2 text-xs leading-5 text-slate-400">{getLocalizedText(result.description, language)}</p>
                     </button>
                   ))}
                   <button
@@ -122,17 +151,18 @@ export const Header = () => {
                       navigate('/search')
                       setOpen(false)
                     }}
-                    className="rounded-md border border-cyan-300/20 px-3 py-2 text-left text-sm text-cyan-100 hover:bg-white/10"
+                    className="mt-1 rounded-lg border border-emerald-400/15 px-3 py-2 text-center text-sm font-medium text-emerald-100 transition-all hover:bg-emerald-400/10"
                   >
                     {t('search.openFullResults')}
                   </button>
                 </div>
               ) : (
-                <p className="px-3 py-2 text-sm text-slate-400">{t('search.noResults')}</p>
+                <p className="px-3 py-3 text-center text-sm text-slate-500">{t('search.noResults')}</p>
               )}
             </div>
-          ) : null}
+          )}
         </div>
+
         <LanguageSwitcher />
       </div>
     </header>

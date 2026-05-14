@@ -1,8 +1,9 @@
 import { Link } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import { Badge } from '../components/common/Badge'
+import { PageShell } from '../components/common/PageShell'
 import { SectionCard } from '../components/common/SectionCard'
-import { PagePurposeBanner } from '../components/learning/PagePurposeBanner'
+import { Shield } from 'lucide-react'
 import { masteryStages } from '../data/masteryStages'
 import { useConceptsQuery } from '../queries/conceptQueries'
 import { useSkillsQuery } from '../queries/skillQueries'
@@ -18,15 +19,19 @@ export default function MasteryMapPage() {
   const conceptsById = new Map(concepts.map((concept) => [concept.id, concept]))
 
   return (
-    <div className="space-y-6">
-      <PagePurposeBanner
-        title={t('mastery.heading')}
-        purpose={t('mastery.whatFor')}
-        whenToUse={t('mastery.whenToUse')}
-        bestNextStepLabel={t('mastery.nextStep')}
-        bestNextStepTo="/learn"
-      />
-
+    <PageShell
+      header={
+        <div className="flex items-center gap-3">
+          <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-gradient-to-br from-violet-500 to-purple-500 shadow-lg">
+            <Shield className="h-5 w-5 text-slate-950" aria-hidden="true" />
+          </div>
+          <div>
+            <h1 className="text-2xl font-semibold tracking-tight text-white">{t('mastery.heading')}</h1>
+            <p className="text-sm text-slate-400">{t('mastery.whatFor')}</p>
+          </div>
+        </div>
+      }
+    >
       <div className="space-y-4">
         {masteryStages.map((stage) => (
           <SectionCard key={stage.id} title={`${stage.order}. ${getLocalizedText(stage.title, lang)}`} description={getLocalizedText(stage.shortDescription, lang)}>
@@ -76,6 +81,6 @@ export default function MasteryMapPage() {
           </SectionCard>
         ))}
       </div>
-    </div>
+    </PageShell>
   )
 }

@@ -1,8 +1,9 @@
 import { Link } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import { ArrowRight } from 'lucide-react'
-import { Badge } from '../components/common/Badge'
 import { SectionCard } from '../components/common/SectionCard'
+import { PageShell } from '../components/common/PageShell'
+import { Waypoints } from 'lucide-react'
 
 const mapLinks = [
   { key: 'positions', to: '/positions' },
@@ -18,12 +19,21 @@ export default function SystemMapPage() {
   const { t } = useTranslation()
 
   return (
-    <div className="space-y-5">
-      <div>
-        <Badge tone="cyan">{t('nav.mapMode')}</Badge>
-        <h1 className="mt-3 text-3xl font-semibold text-white">{t('modeUx.map.heading')}</h1>
-        <p className="mt-2 max-w-3xl text-sm leading-6 text-slate-400">{t('modeUx.map.subtitle')}</p>
-      </div>
+    <PageShell
+      header={
+        <div className="space-y-3">
+          <div className="flex items-center gap-3">
+            <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-gradient-to-br from-emerald-400 to-cyan-400 shadow-lg">
+              <Waypoints className="h-5 w-5 text-slate-950" aria-hidden="true" />
+            </div>
+            <div>
+              <h1 className="text-2xl font-semibold tracking-tight text-white">{t('modeUx.map.heading')}</h1>
+              <p className="text-sm text-slate-400">{t('modeUx.map.subtitle')}</p>
+            </div>
+          </div>
+        </div>
+      }
+    >
       <SectionCard title={t('modeUx.map.flow')}>
         <div className="grid gap-3 md:grid-cols-2 xl:grid-cols-4">
           {mapLinks.map((item) => (
@@ -39,6 +49,6 @@ export default function SystemMapPage() {
           ))}
         </div>
       </SectionCard>
-    </div>
+    </PageShell>
   )
 }

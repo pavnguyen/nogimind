@@ -31,7 +31,7 @@ NoGi Mind now uses a Technique Card OS for skill detail pages. The old scattered
 - `SafetySection.tsx`
 - `NextStepSection.tsx`
 
-Legacy components remain in `src/components/skills` because other reference pages still import them.
+Legacy components remain in `src/components/skills` because other reference pages still import them. They are no longer part of the active Skill Detail page.
 
 ## UX Changes
 
@@ -50,6 +50,6 @@ Legacy components remain in `src/components/skills` because other reference page
 
 ## Remaining Cleanup
 
-- Add full micro-detail and checklist coverage for the newly promoted Armbar, Triangle, and Omoplata skills.
-- Split the large core skill bundle further by category.
+- Split the large core skill bundle further by category; `skills-core` is still the main bundle hotspot.
 - Retire legacy `src/components/skills/*` components once remaining pages are migrated.
+- Consider migrating the standalone Micro Details and reference pages to the same view-model style so there is one product grammar across the app.

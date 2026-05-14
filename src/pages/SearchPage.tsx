@@ -1,11 +1,11 @@
 import { useEffect, useMemo, useState } from 'react'
 import { Link, useSearchParams } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
-import { ArrowRight } from 'lucide-react'
+import { ArrowRight, Search as SearchIcon } from 'lucide-react'
 import { Badge } from '../components/common/Badge'
 import { EmptyState } from '../components/common/EmptyState'
 import { SectionCard } from '../components/common/SectionCard'
-import { PagePurposeBanner } from '../components/learning/PagePurposeBanner'
+import { PageShell } from '../components/common/PageShell'
 import { useSettingsStore } from '../stores/useSettingsStore'
 import { useSearchStore } from '../stores/useSearchStore'
 import type { KnowledgeItemType } from '../types/knowledgeSearch'
@@ -13,7 +13,7 @@ import { getNextBestLinksForSkill } from '../utils/knowledgeGraph'
 import { searchKnowledge } from '../utils/knowledgeSearch'
 import { getLocalizedText } from '../utils/localization'
 
-const resultTypes: KnowledgeItemType[] = ['skill', 'shared_knowledge', 'micro_detail', 'technique_chain', 'troubleshooter', 'escape_map', 'concept', 'position', 'glossary', 'defense', 'archetype', 'mastery']
+const resultTypes: KnowledgeItemType[] = ['skill', 'shared_knowledge', 'micro_detail', 'technique_chain', 'troubleshooter', 'escape_map', 'concept', 'position', 'glossary', 'defense', 'archetype', 'mastery', 'video_reference']
 
 export default function SearchPage() {
   const { t } = useTranslation()
@@ -49,77 +49,90 @@ export default function SearchPage() {
   )
 
   return (
-    <div className="space-y-6">
-      <PagePurposeBanner
-        title={t('search.heading')}
-        purpose={t('search.whatFor')}
-        whenToUse={t('search.whenToUse')}
-        bestNextStepLabel={t('search.nextStep')}
-        bestNextStepTo="/skills"
-      />
-
-      <div className="grid gap-3 lg:grid-cols-[1fr_260px]">
-        <input
-          value={query}
-          onChange={(event) => setQuery(event.target.value)}
-          placeholder={t('search.placeholder')}
-          className="w-full rounded-md border border-white/10 bg-slate-900 px-3 py-2 text-sm text-white outline-none focus:border-cyan-300"
-        />
-        <select
-          value={type}
-          onChange={(event) => setType(event.target.value as KnowledgeItemType | '')}
-          className="rounded-md border border-white/10 bg-slate-900 px-3 py-2 text-sm text-white outline-none focus:border-cyan-300"
-        >
-          <option value="">{t('common.all')}</option>
-          {resultTypes.map((itemType) => <option key={itemType} value={itemType}>{t(`knowledgeTypes.${itemType}`)}</option>)}
-        </select>
-      </div>
-
-      {!query.trim() ? <EmptyState title={t('search.emptyQuery')} description={t('search.emptyQueryBody')} /> : null}
-      {query.trim() && !results.length ? <EmptyState title={t('search.noResults')} description={t('search.nextStep')} /> : null}
+    <PageShell
+      header={
+        <div className="space-y-4">
+          <div>
+            <h1 className="text-2xl font-semibold text-white">{t('search.heading')}</h1>
+            <p className="mt-1 text-sm text-slate-400">{t('search.whatFor')}</p>
+          </div>
+          <div className="flex gap-3">
+            <div className="relative flex-1">
+              <SearchIcon className="absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-slate-500" aria-hidden="true" />
+              <input
+                value={query}
+                onChange={(event) => setQuery(event.target.value)}
+                placeholder={t('search.placeholder')}
+                className="w-full rounded-xl border border-white/[0.08] bg-slate-900/80 py-2.5 pl-10 pr-3 text-sm text-white outline-none transition-all focus:border-emerald-400/30 focus:shadow-[0_0_0_1px_rgba(52,211,153,0.15)]"
+              />
+            </div>
+            <select
+              value={type}
+              onChange={(event) => setType(event.target.value as KnowledgeItemType | '')}
+              className="rounded-xl border border-white/[0.08] bg-slate-900/80 px-3 py-2.5 text-sm text-white outline-none transition-all focus:border-emerald-400/30"
+            >
+              <option value="">{t('common.all')}</option>
+              {resultTypes.map((itemType) => <option key={itemType} value={itemType}>{t(`knowledgeTypes.${itemType}`)}</option>)}
+            </select>
+          </div>
+        </div>
+      }
+    >
+      {!query.trim() ? (
+        <EmptyState title={t('search.emptyQuery')} description={t('search.emptyQueryBody')} />
+      ) : null}
+      {query.trim() && !results.length ? (
+        <EmptyState title={t('search.noResults')} description={t('search.nextStep')} />
+      ) : null}
 
       {grouped.map((group) => (
         <SectionCard key={group.type} title={t(`knowledgeTypes.${group.type}`)} description={t('search.resultCount', { count: group.results.length })}>
           <div className="grid gap-3 xl:grid-cols-2">
             {group.results.map((result) => (
-            <article key={`${result.type}-${result.id}`} className="rounded-lg border border-white/10 bg-slate-950/65 p-4 transition hover:border-cyan-300/35 hover:bg-white/[0.06]">
-              <div className="flex flex-wrap gap-2">
-                <Badge tone="cyan">{t(`knowledgeTypes.${result.type}`)}</Badge>
-              </div>
-              <Link to={result.url} className="mt-3 block">
-                <h2 className="text-lg font-semibold text-white">{getLocalizedText(result.title, language)}</h2>
-                <p className="mt-2 line-clamp-3 text-sm leading-6 text-slate-400">{getLocalizedText(result.description, language)}</p>
-              </Link>
-              <div className="mt-4 flex flex-wrap items-center justify-between gap-3 border-t border-white/10 pt-4">
+              <article key={`${result.type}-${result.id}`} className="group rounded-xl border border-white/[0.06] bg-slate-900/40 p-5 transition-all hover:border-emerald-400/20 hover:bg-slate-900/70">
                 <div className="flex flex-wrap gap-2">
-                  {result.matchedFields.slice(0, 4).map((field) => <Badge key={field}>{field}</Badge>)}
+                  <Badge tone="cyan">{t(`knowledgeTypes.${result.type}`)}</Badge>
                 </div>
-                <Link to={result.url} className="inline-flex items-center gap-1.5 text-sm font-medium text-cyan-200">
-                  {t('common.open')}
-                  <ArrowRight className="h-4 w-4" aria-hidden="true" />
+                <Link to={result.url} className="mt-3 block">
+                  <h2 className="text-base font-semibold text-white group-hover:text-emerald-100">
+                    {getLocalizedText(result.title, language)}
+                  </h2>
+                  <p className="mt-1.5 line-clamp-2 text-sm leading-6 text-slate-400">
+                    {getLocalizedText(result.description, language)}
+                  </p>
                 </Link>
-              </div>
-              {result.type === 'skill' ? (
-                <div className="mt-3 flex flex-wrap gap-2 border-t border-white/10 pt-3">
-                  {getNextBestLinksForSkill(result.id)
-                    .filter((link) => ['quick_card', 'micro_detail', 'troubleshooter', 'escape_map'].includes(link.type))
-                    .slice(0, 4)
-                    .map((link) => (
-                      <Link
-                        key={`${result.id}-${link.type}-${link.id}`}
-                        to={link.url}
-                        className="rounded-md border border-cyan-300/20 px-2 py-1 text-xs font-medium text-cyan-100 hover:bg-white/10"
-                      >
-                        {getLocalizedText(link.title, language)}
-                      </Link>
+                <div className="mt-4 flex flex-wrap items-center justify-between gap-3 border-t border-white/[0.06] pt-4">
+                  <div className="flex flex-wrap gap-1.5">
+                    {result.matchedFields.slice(0, 3).map((field) => (
+                      <Badge key={field} tone="slate">{field}</Badge>
                     ))}
+                  </div>
+                  <Link to={result.url} className="inline-flex items-center gap-1 text-sm font-medium text-emerald-200 opacity-0 transition-opacity group-hover:opacity-100">
+                    {t('common.open')}
+                    <ArrowRight className="h-3.5 w-3.5" aria-hidden="true" />
+                  </Link>
                 </div>
-              ) : null}
-            </article>
+                {result.type === 'skill' ? (
+                  <div className="mt-3 flex flex-wrap gap-2 border-t border-white/[0.06] pt-3">
+                    {getNextBestLinksForSkill(result.id)
+                      .filter((link) => ['quick_card', 'micro_detail', 'troubleshooter', 'escape_map'].includes(link.type))
+                      .slice(0, 4)
+                      .map((link) => (
+                        <Link
+                          key={`${result.id}-${link.type}-${link.id}`}
+                          to={link.url}
+                          className="rounded-lg border border-cyan-400/15 px-2.5 py-1 text-xs font-medium text-cyan-100 transition-all hover:bg-cyan-400/10"
+                        >
+                          {getLocalizedText(link.title, language)}
+                        </Link>
+                      ))}
+                  </div>
+                ) : null}
+              </article>
             ))}
           </div>
         </SectionCard>
       ))}
-    </div>
+    </PageShell>
   )
 }

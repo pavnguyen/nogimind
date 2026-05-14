@@ -1,8 +1,8 @@
 import { Link, useParams } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
-import { ArrowLeft, ArrowRight } from 'lucide-react'
-import { Badge } from '../components/common/Badge'
+import { ArrowRight } from 'lucide-react'
 import { NotFound } from '../components/common/NotFound'
+import { PageShell } from '../components/common/PageShell'
 import { SectionCard } from '../components/common/SectionCard'
 import { NextStepStrip } from '../components/learning/NextStepStrip'
 import { RelatedKnowledgePanel } from '../components/knowledge/RelatedKnowledgePanel'
@@ -28,23 +28,20 @@ export default function SubmissionTroubleshooterDetailPage() {
   }
 
   return (
-    <div className="space-y-6">
-      <Link to="/troubleshooters" className="inline-flex items-center gap-2 text-sm font-medium text-cyan-200 hover:text-cyan-100">
-        <ArrowLeft className="h-4 w-4" aria-hidden="true" />
-        {t('troubleshooters.backToTroubleshooters')}
-      </Link>
-
-      <section className="rounded-lg border border-white/10 bg-slate-950/60 p-5 shadow-glow">
-        <Badge tone={troubleshooter.category === 'leg_lock' ? 'amber' : 'cyan'}>{t(`troubleshooters.categories.${troubleshooter.category}`)}</Badge>
-        <h1 className="mt-4 text-3xl font-semibold text-white">{getLocalizedText(troubleshooter.title, lang)}</h1>
-        <p className="mt-3 max-w-4xl text-slate-400">{getLocalizedText(troubleshooter.overview, lang)}</p>
-        <div className="mt-5 flex flex-wrap gap-2">
-          <Link to={`/skills/${skill.id}`} className="inline-flex items-center gap-1.5 rounded-md bg-emerald-300 px-4 py-2 text-sm font-semibold text-slate-950">
-            {t('common.open')} {t('common.skill')}
-            <ArrowRight className="h-4 w-4" aria-hidden="true" />
-          </Link>
-        </div>
-      </section>
+    <PageShell
+      backTo="/troubleshooters"
+      backLabel={t('troubleshooters.backToTroubleshooters')}
+      title={getLocalizedText(troubleshooter.title, lang)}
+      subtitle={getLocalizedText(troubleshooter.overview, lang)}
+      badge={t(`troubleshooters.categories.${troubleshooter.category}`)}
+      badgeTone={troubleshooter.category === 'leg_lock' ? 'amber' : 'cyan'}
+    >
+      <div className="mb-6">
+        <Link to={`/skills/${skill.id}`} className="inline-flex items-center gap-1.5 rounded-md bg-emerald-300 px-4 py-2 text-sm font-semibold text-slate-950 hover:bg-emerald-200 transition-colors">
+          {t('common.open')} {t('common.skill')}
+          <ArrowRight className="h-4 w-4" aria-hidden="true" />
+        </Link>
+      </div>
 
       <SectionCard title={t('troubleshooters.finishChecklist')}>
         <div className="grid gap-2 md:grid-cols-2">
@@ -96,6 +93,6 @@ export default function SubmissionTroubleshooterDetailPage() {
           { title: t('escapeMaps.heading'), body: t('troubleshooters.guidedDiagnosisBody'), to: `/escape-maps/${skill.id}` },
         ]}
       />
-    </div>
+    </PageShell>
   )
 }

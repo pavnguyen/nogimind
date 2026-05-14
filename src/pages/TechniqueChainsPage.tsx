@@ -4,8 +4,9 @@ import { useTranslation } from 'react-i18next'
 import { ArrowRight } from 'lucide-react'
 import { Badge } from '../components/common/Badge'
 import { EmptyState } from '../components/common/EmptyState'
+import { PageShell } from '../components/common/PageShell'
 import { SectionCard } from '../components/common/SectionCard'
-import { PagePurposeBanner } from '../components/learning/PagePurposeBanner'
+import { Link2 } from 'lucide-react'
 import { useSkillsQuery } from '../queries/skillQueries'
 import { useSettingsStore } from '../stores/useSettingsStore'
 import { getTechniqueChains } from '../utils/knowledgeModules'
@@ -33,22 +34,28 @@ export default function TechniqueChainsPage() {
   }, [lang, query, skills])
 
   return (
-    <div className="space-y-6">
-      <PagePurposeBanner
-        title={t('chains.heading')}
-        purpose={t('chains.whatFor')}
-        whenToUse={t('chains.whenToUse')}
-        bestNextStepLabel={t('chains.nextStep')}
-        bestNextStepTo="/skills"
-      />
+    <PageShell
+      header={
+        <div className="space-y-4">
+          <div className="flex items-center gap-3">
+            <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-gradient-to-br from-emerald-400 to-teal-400 shadow-lg">
+              <Link2 className="h-5 w-5 text-slate-950" aria-hidden="true" />
+            </div>
+            <div>
+              <h1 className="text-2xl font-semibold tracking-tight text-white">{t('chains.heading')}</h1>
+              <p className="text-sm text-slate-400">{t('chains.whatFor')}</p>
+            </div>
+          </div>
 
-      <input
+          <input
         value={query}
         onChange={(event) => setSearchParams(event.target.value ? { q: event.target.value } : {})}
         placeholder={t('chains.search')}
         className="w-full rounded-md border border-white/10 bg-slate-900 px-3 py-2 text-sm text-white outline-none focus:border-cyan-300"
       />
-
+    </div>
+  }
+>
       {!chains.length ? <EmptyState title={t('chains.empty')} description={t('chains.emptyBody')} /> : null}
 
       <div className="grid gap-4 xl:grid-cols-2">
@@ -84,6 +91,6 @@ export default function TechniqueChainsPage() {
           </SectionCard>
         ))}
       </div>
-    </div>
+    </PageShell>
   )
 }

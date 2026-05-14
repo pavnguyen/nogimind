@@ -1,8 +1,8 @@
 import { Link, useParams } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
-import { ArrowLeft } from 'lucide-react'
 import { Badge } from '../components/common/Badge'
 import { NotFound } from '../components/common/NotFound'
+import { PageShell } from '../components/common/PageShell'
 import { SectionCard } from '../components/common/SectionCard'
 import { RelatedKnowledgePanel } from '../components/knowledge/RelatedKnowledgePanel'
 import { useArchetypeQuery } from '../queries/archetypeQueries'
@@ -31,20 +31,17 @@ export default function ArchetypeDetailPage() {
   if (!archetype) return <p className="text-slate-400">{t('common.loading')}</p>
 
   return (
-    <div className="space-y-6">
-      <Link to="/archetypes" className="inline-flex items-center gap-2 text-sm font-medium text-cyan-200 hover:text-cyan-100">
-        <ArrowLeft className="h-4 w-4" aria-hidden="true" />
-        {t('archetypes.backToArchetypes')}
-      </Link>
-
-      <section className="rounded-lg border border-white/10 bg-slate-950/60 p-5 shadow-glow">
-        <div className="flex flex-wrap gap-2">
-          <Badge tone="emerald">{t('archetypes.coreSkillsCount', { count: archetype.coreSkillIds.length })}</Badge>
-          <Badge tone="cyan">{t('archetypes.conceptsCount', { count: archetype.coreConceptIds.length })}</Badge>
-        </div>
-        <h1 className="mt-4 text-3xl font-semibold text-white">{getLocalizedText(archetype.title, language)}</h1>
-        <p className="mt-3 max-w-4xl text-slate-300">{getLocalizedText(archetype.shortDescription, language)}</p>
-      </section>
+    <PageShell
+      backTo="/archetypes"
+      backLabel={t('archetypes.backToArchetypes')}
+      title={getLocalizedText(archetype.title, language)}
+      subtitle={getLocalizedText(archetype.shortDescription, language)}
+      badge={t('archetypes.coreSkillsCount', { count: archetype.coreSkillIds.length })}
+      badgeTone="emerald"
+    >
+      <div className="mt-2 flex flex-wrap gap-2">
+        <Badge tone="cyan">{t('archetypes.conceptsCount', { count: archetype.coreConceptIds.length })}</Badge>
+      </div>
 
       <SectionCard title={t('archetypes.philosophy')}>
         <p className="text-sm leading-6 text-slate-300">{getLocalizedText(archetype.philosophy, language)}</p>
@@ -92,7 +89,7 @@ export default function ArchetypeDetailPage() {
       </SectionCard>
 
       <RelatedKnowledgePanel lang={language} groups={getRelatedItems('archetype', archetype.id)} />
-    </div>
+    </PageShell>
   )
 }
 

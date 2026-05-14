@@ -4,8 +4,9 @@ import { useTranslation } from 'react-i18next'
 import { ArrowRight } from 'lucide-react'
 import { Badge } from '../components/common/Badge'
 import { EmptyState } from '../components/common/EmptyState'
+import { PageShell } from '../components/common/PageShell'
 import { SectionCard } from '../components/common/SectionCard'
-import { PagePurposeBanner } from '../components/learning/PagePurposeBanner'
+import { Map } from 'lucide-react'
 import { positionCategories } from '../data/positions'
 import { usePositionsQuery } from '../queries/positionQueries'
 import { useSettingsStore } from '../stores/useSettingsStore'
@@ -46,16 +47,20 @@ export default function PositionsPage() {
   }
 
   return (
-    <div className="space-y-6">
-      <PagePurposeBanner
-        title={t('positions.heading')}
-        purpose={t('positions.whatFor')}
-        whenToUse={t('positions.whenToUse')}
-        bestNextStepLabel={t('positions.nextStep')}
-        bestNextStepTo="/skills"
-      />
+    <PageShell
+      header={
+        <div className="space-y-4">
+          <div className="flex items-center gap-3">
+            <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-gradient-to-br from-emerald-400 to-teal-500 shadow-lg">
+              <Map className="h-5 w-5 text-slate-950" aria-hidden="true" />
+            </div>
+            <div>
+              <h1 className="text-2xl font-semibold tracking-tight text-white">{t('positions.heading')}</h1>
+              <p className="text-sm text-slate-400">{t('positions.whatFor')}</p>
+            </div>
+          </div>
 
-      <div className="grid gap-3 lg:grid-cols-[1fr_260px]">
+          <div className="grid gap-3 lg:grid-cols-[1fr_260px]">
         <input
           value={query}
           onChange={(event) => setParam('q', event.target.value)}
@@ -71,12 +76,14 @@ export default function PositionsPage() {
           {positionCategories.map((item) => <option key={item} value={item}>{t(`positionCategories.${item}`)}</option>)}
         </select>
       </div>
-
+    </div>
+  }
+>
       <SectionCard>
         {!filtered.length ? <EmptyState title={t('positions.empty')} description={t('positions.nextStep')} /> : null}
         <div className="grid gap-4 xl:grid-cols-2">
           {filtered.map((position) => (
-            <article key={position.id} className="rounded-lg border border-white/10 bg-slate-950/65 p-4 transition hover:border-cyan-300/35 hover:bg-white/[0.06]">
+            <article key={position.id} className="group rounded-xl border border-white/[0.06] bg-slate-900/40 p-5 transition-all hover:border-cyan-400/20 hover:bg-slate-900/70">
               <div className="flex flex-wrap gap-2">
                 <Badge tone="cyan">{t(`positionCategories.${position.category}`)}</Badge>
                 <Badge tone={position.status === 'critical' || position.status === 'dangerous' ? 'rose' : 'emerald'}>
@@ -84,17 +91,17 @@ export default function PositionsPage() {
                 </Badge>
               </div>
               <h2 className="mt-3 text-lg font-semibold text-white">{getLocalizedText(position.title, language)}</h2>
-              <p className="mt-2 text-sm leading-6 text-slate-400">{getLocalizedText(position.description, language)}</p>
-              <div className="mt-4 flex justify-end border-t border-white/10 pt-4">
-                <Link to={`/positions/${position.id}`} className="inline-flex items-center gap-1.5 text-sm font-medium text-cyan-200 hover:text-cyan-100">
+              <p className="mt-2 line-clamp-2 text-sm leading-6 text-slate-400">{getLocalizedText(position.description, language)}</p>
+              <div className="mt-4 flex justify-end border-t border-white/[0.06] pt-4">
+                <Link to={`/positions/${position.id}`} className="inline-flex items-center gap-1 text-sm font-medium text-emerald-200 opacity-0 transition-opacity group-hover:opacity-100">
                   {t('common.open')}
-                  <ArrowRight className="h-4 w-4" aria-hidden="true" />
+                  <ArrowRight className="h-3.5 w-3.5" aria-hidden="true" />
                 </Link>
               </div>
             </article>
           ))}
         </div>
       </SectionCard>
-    </div>
+    </PageShell>
   )
 }

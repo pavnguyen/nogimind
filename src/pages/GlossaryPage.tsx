@@ -2,8 +2,9 @@ import { useMemo, useRef } from 'react'
 import { Link, useSearchParams } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import { useVirtualizer } from '@tanstack/react-virtual'
+import { PageShell } from '../components/common/PageShell'
 import { SectionCard } from '../components/common/SectionCard'
-import { PagePurposeBanner } from '../components/learning/PagePurposeBanner'
+import { BookOpen } from 'lucide-react'
 import { useGlossaryQuery } from '../queries/glossaryQueries'
 import { useSkillsQuery } from '../queries/skillQueries'
 import { useSettingsStore } from '../stores/useSettingsStore'
@@ -47,20 +48,27 @@ export default function GlossaryPage() {
   }
 
   return (
-    <div className="space-y-6">
-      <PagePurposeBanner
-        title={t('glossary.heading')}
-        purpose={t('glossary.subtitle')}
-        whenToUse={t('search.nextStep')}
-        bestNextStepLabel={t('search.nextStep')}
-        bestNextStepTo="/search"
-      />
-      <input
+    <PageShell
+      header={
+        <div className="space-y-4">
+          <div className="flex items-center gap-3">
+            <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-gradient-to-br from-slate-400 to-slate-600 shadow-lg">
+              <BookOpen className="h-5 w-5 text-slate-950" aria-hidden="true" />
+            </div>
+            <div>
+              <h1 className="text-2xl font-semibold tracking-tight text-white">{t('glossary.heading')}</h1>
+              <p className="text-sm text-slate-400">{t('glossary.subtitle')}</p>
+            </div>
+          </div>
+          <input
         value={query}
         onChange={(event) => setQuery(event.target.value)}
         placeholder={t('glossary.q')}
         className="w-full rounded-md border border-white/10 bg-slate-900 px-3 py-2 text-sm text-white outline-none focus:border-cyan-300"
       />
+    </div>
+  }
+>
       <SectionCard>
         <div ref={parentRef} className="h-[720px] overflow-auto pr-2">
           <div style={{ height: virtualizer.getTotalSize(), position: 'relative' }}>
@@ -94,6 +102,6 @@ export default function GlossaryPage() {
           </div>
         </div>
       </SectionCard>
-    </div>
+    </PageShell>
   )
 }

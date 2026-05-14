@@ -1,4 +1,5 @@
 import { useTranslation } from 'react-i18next'
+import { PageShell } from '../components/common/PageShell'
 import { SectionCard } from '../components/common/SectionCard'
 import { ViewModeSwitcher } from '../components/common/ViewModeSwitcher'
 import { LanguageSwitcher } from '../components/i18n/LanguageSwitcher'
@@ -12,11 +13,14 @@ export default function SettingsPage() {
   const setSkillMapView = useSettingsStore((state) => state.setSkillMapView)
 
   return (
-    <div className="space-y-6">
-      <div>
-        <h1 className="text-3xl font-semibold text-white">{t('settings.heading')}</h1>
-        <p className="mt-2 max-w-3xl text-slate-400">{t('settings.subtitle')}</p>
-      </div>
+    <PageShell
+      header={
+        <div>
+          <h1 className="text-2xl font-semibold tracking-tight text-white">{t('settings.heading')}</h1>
+          <p className="mt-1 text-sm text-slate-400">{t('settings.subtitle')}</p>
+        </div>
+      }
+    >
       <SectionCard title={t('settings.language')}>
         <LanguageSwitcher />
       </SectionCard>
@@ -43,6 +47,6 @@ export default function SettingsPage() {
       <SectionCard title={t('app.name')}>
         <p className="text-sm text-slate-400">{t('app.version')}</p>
       </SectionCard>
-    </div>
+    </PageShell>
   )
 }

@@ -4,6 +4,7 @@ import { useTranslation } from 'react-i18next'
 import { ArrowRight } from 'lucide-react'
 import { Badge } from '../components/common/Badge'
 import { EmptyState } from '../components/common/EmptyState'
+import { PageShell } from '../components/common/PageShell'
 import { SectionCard } from '../components/common/SectionCard'
 import { useSkillsQuery } from '../queries/skillQueries'
 import { useSettingsStore } from '../stores/useSettingsStore'
@@ -44,7 +45,7 @@ export default function StudyPage() {
   }
 
   return (
-    <div className="grid gap-6 xl:grid-cols-[280px_1fr_300px]">
+    <PageShell className="xl:grid xl:grid-cols-[280px_1fr_300px]" fullWidth>
       <aside className="space-y-3">
         <SectionCard title={t('modeUx.study.heading')} description={t('modeUx.study.subtitle')}>
           <div className="space-y-2">
@@ -101,6 +102,6 @@ export default function StudyPage() {
           </div>
         </SectionCard>
       </aside>
-    </div>
+    </PageShell>
   )
 }

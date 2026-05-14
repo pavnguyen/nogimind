@@ -2,6 +2,7 @@ import { lazy, Suspense, useMemo } from 'react'
 import { useSearchParams } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import { EmptyState } from '../components/common/EmptyState'
+import { PageShell } from '../components/common/PageShell'
 import { SectionCard } from '../components/common/SectionCard'
 import { PagePurposeBanner } from '../components/learning/PagePurposeBanner'
 import { SkillCard } from '../components/skills/SkillCard'
@@ -53,7 +54,7 @@ export default function SkillMapPage() {
   )
 
   return (
-    <div className="space-y-6">
+    <PageShell title={t('skills.heading')} subtitle={t('skills.subtitle')}>
       <PagePurposeBanner
         title={t('skills.heading')}
         purpose={t('skills.whatFor')}
@@ -80,6 +81,6 @@ export default function SkillMapPage() {
           ))}
         </div>
       )}
-    </div>
+    </PageShell>
   )
 }

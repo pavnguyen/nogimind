@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import { ArrowRight } from 'lucide-react'
-import { Badge } from '../components/common/Badge'
+import { PageShell } from '../components/common/PageShell'
 import { SectionCard } from '../components/common/SectionCard'
 
 const problems = [
@@ -19,12 +19,11 @@ export default function FixPage() {
   const [activeProblem, setActiveProblem] = useState(problems[0])
 
   return (
-    <div className="grid gap-6 xl:grid-cols-[1fr_320px]">
+    <PageShell className="xl:grid xl:grid-cols-[1fr_320px]">
       <main className="space-y-5">
         <div>
-          <Badge tone="rose">{t('nav.fix')}</Badge>
-          <h1 className="mt-3 text-3xl font-semibold text-white">{t('modeUx.fix.heading')}</h1>
-          <p className="mt-2 max-w-3xl text-sm leading-6 text-slate-400">{t('modeUx.fix.subtitle')}</p>
+          <h1 className="text-2xl font-semibold tracking-tight text-white">{t('modeUx.fix.heading')}</h1>
+          <p className="mt-1 text-sm text-slate-400">{t('modeUx.fix.subtitle')}</p>
         </div>
         <div className="grid gap-3 md:grid-cols-2">
           {problems.map((problem) => (
@@ -72,6 +71,6 @@ export default function FixPage() {
           </div>
         </SectionCard>
       </aside>
-    </div>
+    </PageShell>
   )
 }

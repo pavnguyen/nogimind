@@ -13,6 +13,7 @@ export type KnowledgeItemType =
   | 'escape_map'
   | 'archetype'
   | 'mastery'
+  | 'video_reference'
 
 export type KnowledgeSearchResult = {
   id: string

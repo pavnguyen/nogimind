@@ -3,6 +3,7 @@ import { useTranslation } from 'react-i18next'
 import { Link } from 'react-router-dom'
 import { AGameBuilder } from '../components/gameTree/AGameBuilder'
 import { GameTreeBoard } from '../components/gameTree/GameTreeBoard'
+import { PageShell } from '../components/common/PageShell'
 import { SectionCard } from '../components/common/SectionCard'
 import { PagePurposeBanner } from '../components/learning/PagePurposeBanner'
 import { useArchetypesQuery } from '../queries/archetypeQueries'
@@ -27,7 +28,7 @@ export default function GameTreePage() {
   const applyArchetype = (partial: Partial<GameTree>) => updateGameTree.mutate({ ...gameTree, ...partial })
 
   return (
-    <div className="space-y-6">
+    <PageShell title={t('gameTree.heading')} subtitle={t('gameTree.subtitle')}>
       <PagePurposeBanner
         title={t('gameTree.heading')}
         purpose={t('gameTree.whatFor')}
@@ -60,6 +61,6 @@ export default function GameTreePage() {
           <GameTreeGraph gameTree={gameTree} skills={skills} lang={language} />
         </Suspense>
       </SectionCard>
-    </div>
+    </PageShell>
   )
 }

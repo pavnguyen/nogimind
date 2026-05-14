@@ -1,8 +1,8 @@
 import { Link, useParams } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
-import { ArrowLeft } from 'lucide-react'
 import { Badge } from '../components/common/Badge'
 import { NotFound } from '../components/common/NotFound'
+import { PageShell } from '../components/common/PageShell'
 import { SectionCard } from '../components/common/SectionCard'
 import { NextStepStrip } from '../components/learning/NextStepStrip'
 import { RelatedKnowledgePanel } from '../components/knowledge/RelatedKnowledgePanel'
@@ -42,20 +42,17 @@ export default function PositionDetailPage() {
   const relatedMicroDetails = microDetails.filter((detail) => position.relatedSkillIds.includes(detail.skillId))
 
   return (
-    <div className="space-y-6">
-      <Link to="/positions" className="inline-flex items-center gap-2 text-sm font-medium text-cyan-200 hover:text-cyan-100">
-        <ArrowLeft className="h-4 w-4" aria-hidden="true" />
-        {t('positions.backToPositions')}
-      </Link>
-
-      <section className="rounded-lg border border-white/10 bg-slate-950/60 p-5 shadow-glow">
-        <div className="flex flex-wrap gap-2">
-          <Badge tone="cyan">{t(`positionCategories.${position.category}`)}</Badge>
-          <Badge tone={position.status === 'critical' || position.status === 'dangerous' ? 'rose' : 'emerald'}>{t(`positionStatuses.${position.status}`)}</Badge>
-        </div>
-        <h1 className="mt-4 text-3xl font-semibold text-white">{getLocalizedText(position.title, language)}</h1>
-        <p className="mt-3 max-w-4xl text-slate-300">{getLocalizedText(position.description, language)}</p>
-      </section>
+    <PageShell
+      backTo="/positions"
+      backLabel={t('positions.backToPositions')}
+      title={getLocalizedText(position.title, language)}
+      subtitle={getLocalizedText(position.description, language)}
+      badge={t(`positionCategories.${position.category}`)}
+      badgeTone="cyan"
+    >
+      <div className="mt-2 flex flex-wrap gap-2">
+        <Badge tone={position.status === 'critical' || position.status === 'dangerous' ? 'rose' : 'emerald'}>{t(`positionStatuses.${position.status}`)}</Badge>
+      </div>
 
       <SectionCard title={t('positions.learnStepByStep')}>
         <div className="grid gap-3 md:grid-cols-2 xl:grid-cols-3">
@@ -171,7 +168,7 @@ export default function PositionDetailPage() {
           { title: t('escapeMaps.heading'), body: t('positions.commonProblems'), to: position.relatedSkillIds[0] ? `/escape-maps/${position.relatedSkillIds[0]}` : '/escape-maps' },
         ]}
       />
-    </div>
+    </PageShell>
   )
 }
 

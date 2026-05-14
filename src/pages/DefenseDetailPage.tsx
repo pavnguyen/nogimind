@@ -1,8 +1,7 @@
 import { Link, useParams } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
-import { ArrowLeft } from 'lucide-react'
-import { Badge } from '../components/common/Badge'
 import { NotFound } from '../components/common/NotFound'
+import { PageShell } from '../components/common/PageShell'
 import { SectionCard } from '../components/common/SectionCard'
 import { RelatedKnowledgePanel } from '../components/knowledge/RelatedKnowledgePanel'
 import { useConceptsQuery } from '../queries/conceptQueries'
@@ -30,17 +29,14 @@ export default function DefenseDetailPage() {
   if (!layer) return <p className="text-slate-400">{t('common.loading')}</p>
 
   return (
-    <div className="space-y-6">
-      <Link to="/defense" className="inline-flex items-center gap-2 text-sm font-medium text-cyan-200 hover:text-cyan-100">
-        <ArrowLeft className="h-4 w-4" aria-hidden="true" />
-        {t('defense.backToDefense')}
-      </Link>
-
-      <section className="rounded-lg border border-white/10 bg-slate-950/60 p-5 shadow-glow">
-        <Badge tone="amber">{t(`safetyCategories.${layer.category}`)}</Badge>
-        <h1 className="mt-4 text-3xl font-semibold text-white">{getLocalizedText(layer.title, language)}</h1>
-        <p className="mt-3 max-w-4xl text-amber-100">{getLocalizedText(layer.threat, language)}</p>
-      </section>
+    <PageShell
+      backTo="/defense"
+      backLabel={t('defense.backToDefense')}
+      title={getLocalizedText(layer.title, language)}
+      subtitle={getLocalizedText(layer.threat, language)}
+      badge={t(`safetyCategories.${layer.category}`)}
+      badgeTone="amber"
+    >
 
       <div className="grid gap-6 xl:grid-cols-2">
         <ListCard title={t('defense.earlyDangerSignals')} items={getLocalizedArray(layer.earlyDangerSignals, language)} />
@@ -71,7 +67,7 @@ export default function DefenseDetailPage() {
       </div>
 
       <RelatedKnowledgePanel lang={language} groups={getRelatedItems('defense', layer.id)} />
-    </div>
+    </PageShell>
   )
 }
 

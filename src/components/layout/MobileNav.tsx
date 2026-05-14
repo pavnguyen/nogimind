@@ -1,51 +1,105 @@
 import { NavLink } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
-import { X } from 'lucide-react'
+import { Search, X, Home, Layers3, HelpCircle, Compass } from 'lucide-react'
 import { useUiStore } from '../../stores/useUiStore'
-import { navGroups } from './navItems'
+import { cn } from '../../utils/cn'
+import { primaryNavItems } from './navItems'
+
+const tabItems = [
+  { to: '/', key: 'nav.dashboard', icon: Home },
+  { to: '/skills', key: 'nav.skills', icon: Layers3 },
+  { to: '/search', key: 'nav.search', icon: Search },
+  { to: '/fix', key: 'nav.fix', icon: HelpCircle },
+  { to: '/study', key: 'nav.study', icon: Compass },
+]
 
 export const MobileNav = () => {
   const { t } = useTranslation()
   const open = useUiStore((state) => state.mobileNavOpen)
   const setOpen = useUiStore((state) => state.setMobileNavOpen)
 
-  if (!open) return null
-
-  return (
-    <div className="fixed inset-0 z-40 bg-slate-950/80 backdrop-blur lg:hidden">
-      <div className="h-full w-80 max-w-[88vw] border-r border-white/10 bg-slate-950 p-5">
-        <div className="flex items-center justify-between">
-          <div>
-            <p className="font-semibold text-white">{t('app.name')}</p>
-            <p className="text-xs text-slate-500">{t('app.version')}</p>
+  if (open) {
+    return (
+      <div className="fixed inset-0 z-40 animate-fade-in bg-slate-950/90 backdrop-blur-2xl lg:hidden">
+        <div className="flex h-full flex-col p-6">
+          <div className="flex items-center justify-between">
+            <div>
+              <p className="text-lg font-semibold text-white">{t('app.name')}</p>
+              <p className="text-xs text-slate-500">{t('app.version')}</p>
+            </div>
+            <button
+              type="button"
+              onClick={() => setOpen(false)}
+              className="flex h-10 w-10 items-center justify-center rounded-full border border-white/[0.06] text-slate-300 transition-all hover:bg-white/[0.06]"
+            >
+              <X className="h-5 w-5" aria-hidden="true" />
+            </button>
           </div>
-          <button type="button" onClick={() => setOpen(false)} className="rounded-md p-2 text-slate-300 hover:bg-white/10">
-            <X className="h-5 w-5" aria-hidden="true" />
-          </button>
-        </div>
-        <nav className="mt-6 space-y-5">
-          {navGroups.map((group) => (
-            <div key={group.key} className="space-y-1">
-              <p className="px-3 text-[11px] font-semibold uppercase tracking-wide text-slate-600">{t(group.key)}</p>
-              {group.items.map((item) => (
+          <nav className="mt-10 flex-1 space-y-1">
+            {primaryNavItems.map((item) => {
+              const Icon = item.icon
+              return (
                 <NavLink
                   key={item.to}
                   to={item.to}
                   end={item.to === '/'}
                   onClick={() => setOpen(false)}
                   className={({ isActive }) =>
-                    `block rounded-md px-3 py-2 text-sm font-medium ${
-                      isActive ? 'bg-emerald-400/15 text-emerald-100' : 'text-slate-300 hover:bg-white/5'
-                    }`
+                    cn(
+                      'flex items-center gap-4 rounded-xl px-4 py-3 text-base font-medium transition-all',
+                      isActive
+                        ? 'bg-emerald-400/12 text-emerald-100'
+                        : 'text-slate-300 hover:bg-white/[0.04] hover:text-white',
+                    )
                   }
                 >
-                  {t(item.key)}
+                  <Icon className="h-5 w-5" aria-hidden="true" />
+                  <span>{t(item.key)}</span>
                 </NavLink>
-              ))}
-            </div>
-          ))}
-        </nav>
+              )
+            })}
+          </nav>
+          <div className="space-y-2 border-t border-white/[0.06] pt-6 text-sm text-slate-500">
+            <NavLink to="/settings" onClick={() => setOpen(false)} className="block rounded-lg px-4 py-2 hover:text-slate-300">
+              {t('nav.settings')}
+            </NavLink>
+            <NavLink to="/about" onClick={() => setOpen(false)} className="block rounded-lg px-4 py-2 hover:text-slate-300">
+              {t('nav.philosophy')}
+            </NavLink>
+            <NavLink to="/learn" onClick={() => setOpen(false)} className="block rounded-lg px-4 py-2 hover:text-slate-300">
+              {t('nav.learn')}
+            </NavLink>
+          </div>
+        </div>
       </div>
-    </div>
+    )
+  }
+
+  return (
+    <nav className="fixed bottom-0 left-0 right-0 z-30 border-t border-white/[0.06] bg-slate-950/90 backdrop-blur-xl lg:hidden">
+      <div className="mx-auto flex max-w-lg items-center justify-around px-2 py-1">
+        {tabItems.map((item) => {
+          const Icon = item.icon
+          return (
+            <NavLink
+              key={item.to}
+              to={item.to}
+              end={item.to === '/'}
+              className={({ isActive }) =>
+                cn(
+                  'flex flex-col items-center gap-0.5 rounded-lg px-3 py-1.5 text-[10px] font-medium transition-all',
+                  isActive
+                    ? 'text-emerald-300'
+                    : 'text-slate-500 hover:text-slate-300',
+                )
+              }
+            >
+              <Icon className="h-5 w-5" aria-hidden="true" />
+              <span>{t(item.key).split(' ')[0]}</span>
+            </NavLink>
+          )
+        })}
+      </div>
+    </nav>
   )
 }

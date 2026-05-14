@@ -16,6 +16,7 @@ Search continues to use MiniSearch, with cached indexes per language.
 - Synonym expansion is retained.
 - Results are grouped in the UI and capped to 80.
 - Input debounce is 160ms.
+- `npm run validate:search` passes with the current Technique Card OS anchors.
 
 ## Remaining Work
 

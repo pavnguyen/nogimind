@@ -4,7 +4,8 @@ import { useTranslation } from 'react-i18next'
 import { ArrowRight } from 'lucide-react'
 import { Badge } from '../components/common/Badge'
 import { EmptyState } from '../components/common/EmptyState'
-import { PagePurposeBanner } from '../components/learning/PagePurposeBanner'
+import { PageShell } from '../components/common/PageShell'
+import { ArrowRightFromLine } from 'lucide-react'
 import { useSkillsQuery } from '../queries/skillQueries'
 import { useSettingsStore } from '../stores/useSettingsStore'
 import { getEscapeMaps } from '../utils/knowledgeModules'
@@ -47,23 +48,29 @@ export default function EscapeMapsPage() {
   }
 
   return (
-    <div className="space-y-6">
-      <PagePurposeBanner
-        title={t('escapeMaps.heading')}
-        purpose={t('escapeMaps.whatFor')}
-        whenToUse={t('escapeMaps.whenToUse')}
-        bestNextStepLabel={t('escapeMaps.nextStep')}
-        bestNextStepTo="/skills"
-      />
+    <PageShell
+      header={
+        <div className="space-y-4">
+          <div className="flex items-center gap-3">
+            <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-gradient-to-br from-cyan-500 to-teal-500 shadow-lg">
+              <ArrowRightFromLine className="h-5 w-5 text-slate-950" aria-hidden="true" />
+            </div>
+            <div>
+              <h1 className="text-2xl font-semibold tracking-tight text-white">{t('escapeMaps.heading')}</h1>
+              <p className="text-sm text-slate-400">{t('escapeMaps.whatFor')}</p>
+            </div>
+          </div>
 
-      <div className="grid gap-3 lg:grid-cols-[1fr_260px]">
+          <div className="grid gap-3 lg:grid-cols-[1fr_260px]">
         <input value={query} onChange={(event) => setParam('q', event.target.value)} placeholder={t('escapeMaps.search')} className="rounded-md border border-white/10 bg-slate-900 px-3 py-2 text-sm text-white outline-none focus:border-cyan-300" />
         <select value={category} onChange={(event) => setParam('category', event.target.value)} className="rounded-md border border-white/10 bg-slate-900 px-3 py-2 text-sm text-white outline-none focus:border-cyan-300">
           <option value="">{t('common.all')}</option>
           {categories.map((item) => <option key={item} value={item}>{t(`escapeMaps.categories.${item}`)}</option>)}
         </select>
       </div>
-
+    </div>
+  }
+>
       {!maps.length ? <EmptyState title={t('escapeMaps.empty')} description={t('escapeMaps.emptyBody')} /> : null}
 
       <div className="grid gap-4 xl:grid-cols-2">
@@ -82,6 +89,6 @@ export default function EscapeMapsPage() {
           </Link>
         ))}
       </div>
-    </div>
+    </PageShell>
   )
 }

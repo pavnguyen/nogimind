@@ -1,8 +1,8 @@
 import { Link, useParams } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
-import { ArrowLeft } from 'lucide-react'
 import { Badge } from '../components/common/Badge'
 import { NotFound } from '../components/common/NotFound'
+import { PageShell } from '../components/common/PageShell'
 import { SectionCard } from '../components/common/SectionCard'
 import { NextStepStrip } from '../components/learning/NextStepStrip'
 import { RelatedKnowledgePanel } from '../components/knowledge/RelatedKnowledgePanel'
@@ -30,23 +30,20 @@ export default function ConceptDetailPage() {
   if (!concept) return <p className="text-slate-400">{t('common.loading')}</p>
 
   return (
-    <div className="space-y-6">
-      <Link to="/concepts" className="inline-flex items-center gap-2 text-sm font-medium text-cyan-200 hover:text-cyan-100">
-        <ArrowLeft className="h-4 w-4" aria-hidden="true" />
-        {t('concepts.backToConcepts')}
-      </Link>
+    <PageShell
+      backTo="/concepts"
+      backLabel={t('concepts.backToConcepts')}
+      title={getLocalizedText(concept.title, language)}
+      subtitle={getLocalizedText(concept.shortDefinition, language)}
+      badge={t(`conceptCategories.${concept.category}`)}
+      badgeTone="cyan"
+    >
+      <div className="mt-2 flex flex-wrap gap-2">
+        <Badge tone="emerald">{t(`conceptLevels.${concept.level}`)}</Badge>
+        {concept.tags.slice(0, 6).map((tag) => <Badge key={tag}>{tag}</Badge>)}
+      </div>
 
-      <section className="rounded-lg border border-white/10 bg-slate-950/60 p-5 shadow-glow">
-        <div className="flex flex-wrap gap-2">
-          <Badge tone="cyan">{t(`conceptCategories.${concept.category}`)}</Badge>
-          <Badge tone="emerald">{t(`conceptLevels.${concept.level}`)}</Badge>
-          {concept.tags.map((tag) => <Badge key={tag}>{tag}</Badge>)}
-        </div>
-        <h1 className="mt-4 text-3xl font-semibold text-white">{getLocalizedText(concept.title, language)}</h1>
-        <p className="mt-3 max-w-4xl text-slate-300">{getLocalizedText(concept.shortDefinition, language)}</p>
-      </section>
-
-      <div className="grid gap-6 xl:grid-cols-2">
+      <div className="mt-6 grid gap-6 xl:grid-cols-2">
         <SectionCard title={t('concepts.whyItMatters')}>
           <p className="leading-7 text-slate-300">{getLocalizedText(concept.whyItMatters, language)}</p>
         </SectionCard>
@@ -125,7 +122,7 @@ export default function ConceptDetailPage() {
           { title: t('positions.heading'), body: t('concepts.relatedConcepts'), to: '/positions' },
         ]}
       />
-    </div>
+    </PageShell>
   )
 }
 

@@ -276,7 +276,7 @@ export const modernTechniqueManifest: PlannedTechnique[] = [
     title: "Single Leg X",
     category: "guard",
     modernRelevance: "core",
-    status: "planned",
+    status: "implemented_needs_enrichment",
     priority: 1,
   },
   {
@@ -284,7 +284,7 @@ export const modernTechniqueManifest: PlannedTechnique[] = [
     title: "X-Guard",
     category: "guard",
     modernRelevance: "core",
-    status: "planned",
+    status: "implemented_needs_enrichment",
     priority: 1,
   },
   {

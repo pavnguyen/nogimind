@@ -4,8 +4,9 @@ import { useTranslation } from 'react-i18next'
 import { ArrowRight } from 'lucide-react'
 import { Badge } from '../components/common/Badge'
 import { EmptyState } from '../components/common/EmptyState'
+import { PageShell } from '../components/common/PageShell'
 import { SectionCard } from '../components/common/SectionCard'
-import { PagePurposeBanner } from '../components/learning/PagePurposeBanner'
+import { Sword } from 'lucide-react'
 import { useArchetypesQuery } from '../queries/archetypeQueries'
 import { useSettingsStore } from '../stores/useSettingsStore'
 import { getLocalizedArray, getLocalizedText } from '../utils/localization'
@@ -45,15 +46,19 @@ export default function ArchetypesPage() {
   }
 
   return (
-    <div className="space-y-6">
-      <PagePurposeBanner
-        title={t('archetypes.heading')}
-        purpose={t('archetypes.whatFor')}
-        whenToUse={t('archetypes.whenToUse')}
-        bestNextStepLabel={t('archetypes.nextStep')}
-        bestNextStepTo="/game-tree"
-      />
-
+    <PageShell
+      header={
+        <div className="flex items-center gap-3">
+          <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-gradient-to-br from-emerald-400 to-emerald-600 shadow-lg">
+            <Sword className="h-5 w-5 text-slate-950" aria-hidden="true" />
+          </div>
+          <div>
+            <h1 className="text-2xl font-semibold tracking-tight text-white">{t('archetypes.heading')}</h1>
+            <p className="text-sm text-slate-400">{t('archetypes.whatFor')}</p>
+          </div>
+        </div>
+      }
+    >
       <input
         value={query}
         onChange={(event) => setQuery(event.target.value)}
@@ -86,6 +91,6 @@ export default function ArchetypesPage() {
           ))}
         </div>
       </SectionCard>
-    </div>
+    </PageShell>
   )
 }
