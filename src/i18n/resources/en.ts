@@ -16,7 +16,7 @@ export const en = {
     skills: 'Skill Map',
     concepts: 'Concepts',
     positions: 'Positions',
-    microDetails: 'Money Micro-Details',
+    microDetails: 'Micro-Details',
     chains: 'Technique Chains',
     troubleshooters: 'Troubleshooter',
     escapeMaps: 'Escape Maps',
@@ -933,7 +933,7 @@ export const en = {
     tapping: 'Tapping',
   },
   microDetails: {
-    heading: 'Money Micro-Details',
+    heading: 'Micro-Details',
     repairBoard: 'Detail Repair Board',
     repairBoardBody: 'Filter by the body part or failure signal, then open the related skill when the cue fits your problem.',
     repairFilters: 'Repair filters',
@@ -970,7 +970,7 @@ export const en = {
     },
   },
   microDetailSystem: {
-    heading: 'Money Micro-Details',
+    heading: 'Micro-Details',
     why: 'Why',
     leftRight: 'L/R',
     leftHand: 'Left hand',
