@@ -5,12 +5,10 @@ import { NotFound } from '../components/common/NotFound'
 import { PageShell } from '../components/common/PageShell'
 import { SectionCard } from '../components/common/SectionCard'
 import { NextStepStrip } from '../components/learning/NextStepStrip'
-import { RelatedKnowledgePanel } from '../components/knowledge/RelatedKnowledgePanel'
 import { useConceptQuery, useConceptsQuery } from '../queries/conceptQueries'
 import { useSkillsQuery } from '../queries/skillQueries'
 import { useSettingsStore } from '../stores/useSettingsStore'
 import type { LanguageCode, SkillNode } from '../types/skill'
-import { getConceptKnowledgeLinks } from '../utils/knowledgeGraph'
 import { getLocalizedArray, getLocalizedText } from '../utils/localization'
 
 export default function ConceptDetailPage() {
@@ -109,8 +107,6 @@ export default function ConceptDetailPage() {
           </div>
         </SectionCard>
       </div>
-
-      <RelatedKnowledgePanel lang={language} groups={getConceptKnowledgeLinks(concept.id)} />
 
       <NextStepStrip
         title={t('concepts.nextStep')}

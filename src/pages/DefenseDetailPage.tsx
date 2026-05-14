@@ -3,13 +3,11 @@ import { useTranslation } from 'react-i18next'
 import { NotFound } from '../components/common/NotFound'
 import { PageShell } from '../components/common/PageShell'
 import { SectionCard } from '../components/common/SectionCard'
-import { RelatedKnowledgePanel } from '../components/knowledge/RelatedKnowledgePanel'
 import { useConceptsQuery } from '../queries/conceptQueries'
 import { useDefensiveLayerQuery } from '../queries/defenseQueries'
 import { useSkillsQuery } from '../queries/skillQueries'
 import { useSettingsStore } from '../stores/useSettingsStore'
 import type { LanguageCode, SkillNode } from '../types/skill'
-import { getRelatedItems } from '../utils/knowledgeGraph'
 import { getLocalizedArray, getLocalizedText } from '../utils/localization'
 
 export default function DefenseDetailPage() {
@@ -66,7 +64,6 @@ export default function DefenseDetailPage() {
         </SectionCard>
       </div>
 
-      <RelatedKnowledgePanel lang={language} groups={getRelatedItems('defense', layer.id)} />
     </PageShell>
   )
 }

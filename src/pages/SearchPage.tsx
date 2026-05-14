@@ -9,11 +9,12 @@ import { PageShell } from '../components/common/PageShell'
 import { useSettingsStore } from '../stores/useSettingsStore'
 import { useSearchStore } from '../stores/useSearchStore'
 import type { KnowledgeItemType } from '../types/knowledgeSearch'
-import { getNextBestLinksForSkill } from '../utils/knowledgeGraph'
 import { searchKnowledge } from '../utils/knowledgeSearch'
 import { getLocalizedText } from '../utils/localization'
 
-const resultTypes: KnowledgeItemType[] = ['skill', 'shared_knowledge', 'micro_detail', 'technique_chain', 'troubleshooter', 'escape_map', 'concept', 'position', 'glossary', 'defense', 'archetype', 'mastery', 'video_reference']
+const coreResultTypes: KnowledgeItemType[] = ['skill', 'concept', 'position']
+const advancedResultTypes: KnowledgeItemType[] = ['micro_detail', 'technique_chain', 'troubleshooter', 'escape_map', 'glossary', 'defense', 'archetype', 'mastery']
+const filterTypes = [...coreResultTypes, ...advancedResultTypes]
 
 export default function SearchPage() {
   const { t } = useTranslation()
@@ -29,7 +30,7 @@ export default function SearchPage() {
     const legacyQuery = searchParams.get('q')
     const legacyType = searchParams.get('type')
     if (legacyQuery && legacyQuery !== query) setQuery(legacyQuery)
-    if (legacyType && resultTypes.includes(legacyType as KnowledgeItemType) && legacyType !== type) {
+    if (legacyType && filterTypes.includes(legacyType as KnowledgeItemType) && legacyType !== type) {
       setType(legacyType as KnowledgeItemType)
     }
     if (legacyQuery || legacyType) {
@@ -44,8 +45,8 @@ export default function SearchPage() {
 
   const results = useMemo(() => searchKnowledge(debouncedQuery, language, { type }), [debouncedQuery, language, type])
   const grouped = useMemo(
-    () => resultTypes.map((itemType) => ({ type: itemType, results: results.filter((result) => result.type === itemType) })).filter((group) => group.results.length),
-    [results],
+    () => (type ? filterTypes : coreResultTypes).map((itemType) => ({ type: itemType, results: results.filter((result) => result.type === itemType) })).filter((group) => group.results.length),
+    [results, type],
   )
 
   return (
@@ -72,7 +73,10 @@ export default function SearchPage() {
               className="rounded-xl border border-white/[0.08] bg-slate-900/80 px-3 py-2.5 text-sm text-white outline-none transition-all focus:border-emerald-400/30"
             >
               <option value="">{t('common.all')}</option>
-              {resultTypes.map((itemType) => <option key={itemType} value={itemType}>{t(`knowledgeTypes.${itemType}`)}</option>)}
+              {coreResultTypes.map((itemType) => <option key={itemType} value={itemType}>{t(`knowledgeTypes.${itemType}`)}</option>)}
+              <optgroup label={t('search.advancedFilters')}>
+                {advancedResultTypes.map((itemType) => <option key={itemType} value={itemType}>{t(`knowledgeTypes.${itemType}`)}</option>)}
+              </optgroup>
             </select>
           </div>
         </div>
@@ -112,22 +116,6 @@ export default function SearchPage() {
                     <ArrowRight className="h-3.5 w-3.5" aria-hidden="true" />
                   </Link>
                 </div>
-                {result.type === 'skill' ? (
-                  <div className="mt-3 flex flex-wrap gap-2 border-t border-white/[0.06] pt-3">
-                    {getNextBestLinksForSkill(result.id)
-                      .filter((link) => ['quick_card', 'micro_detail', 'troubleshooter', 'escape_map'].includes(link.type))
-                      .slice(0, 4)
-                      .map((link) => (
-                        <Link
-                          key={`${result.id}-${link.type}-${link.id}`}
-                          to={link.url}
-                          className="rounded-lg border border-cyan-400/15 px-2.5 py-1 text-xs font-medium text-cyan-100 transition-all hover:bg-cyan-400/10"
-                        >
-                          {getLocalizedText(link.title, language)}
-                        </Link>
-                      ))}
-                  </div>
-                ) : null}
               </article>
             ))}
           </div>

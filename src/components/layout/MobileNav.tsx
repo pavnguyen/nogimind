@@ -1,6 +1,6 @@
 import { NavLink } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
-import { Search, X, Home, Layers3, HelpCircle, Compass } from 'lucide-react'
+import { Search, X, Home, Layers3, HelpCircle, Compass, BookOpen } from 'lucide-react'
 import { useUiStore } from '../../stores/useUiStore'
 import { cn } from '../../utils/cn'
 import { primaryNavItems } from './navItems'
@@ -11,6 +11,7 @@ const tabItems = [
   { to: '/search', key: 'nav.search', icon: Search },
   { to: '/fix', key: 'nav.fix', icon: HelpCircle },
   { to: '/study', key: 'nav.study', icon: Compass },
+  { to: '/reference', key: 'nav.reference', icon: BookOpen },
 ]
 
 export const MobileNav = () => {
@@ -62,12 +63,6 @@ export const MobileNav = () => {
           <div className="space-y-2 border-t border-white/[0.06] pt-6 text-sm text-slate-500">
             <NavLink to="/settings" onClick={() => setOpen(false)} className="block rounded-lg px-4 py-2 hover:text-slate-300">
               {t('nav.settings')}
-            </NavLink>
-            <NavLink to="/about" onClick={() => setOpen(false)} className="block rounded-lg px-4 py-2 hover:text-slate-300">
-              {t('nav.philosophy')}
-            </NavLink>
-            <NavLink to="/learn" onClick={() => setOpen(false)} className="block rounded-lg px-4 py-2 hover:text-slate-300">
-              {t('nav.learn')}
             </NavLink>
           </div>
         </div>

@@ -1,6 +1,6 @@
 import type { ReactNode } from 'react'
 
-export type TabId = 'system' | 'body' | 'details' | 'fix' | 'safety' | 'videos' | 'next'
+export type TabId = 'learn' | 'fix' | 'watch'
 
 type TabDef = {
   id: TabId
@@ -17,23 +17,15 @@ type Props = {
 }
 
 const tabAccents: Record<TabId, string> = {
-  system: 'border-cyan-500 text-cyan-300',
-  body: 'border-emerald-500 text-emerald-300',
-  details: 'border-amber-500 text-amber-300',
+  learn: 'border-cyan-500 text-cyan-300',
   fix: 'border-violet-500 text-violet-300',
-  safety: 'border-rose-500 text-rose-300',
-  videos: 'border-sky-500 text-sky-300',
-  next: 'border-slate-500 text-slate-300',
+  watch: 'border-sky-500 text-sky-300',
 }
 
 const tabInactiveAccents: Record<TabId, string> = {
-  system: 'hover:text-cyan-300 border-transparent',
-  body: 'hover:text-emerald-300 border-transparent',
-  details: 'hover:text-amber-300 border-transparent',
+  learn: 'hover:text-cyan-300 border-transparent',
   fix: 'hover:text-violet-300 border-transparent',
-  safety: 'hover:text-rose-300 border-transparent',
-  videos: 'hover:text-sky-300 border-transparent',
-  next: 'hover:text-slate-300 border-transparent',
+  watch: 'hover:text-sky-300 border-transparent',
 }
 
 export const SkillDetailTabs = ({ tabs, activeTab, onTabChange }: Props) => {
@@ -79,8 +71,13 @@ export const TabPanel = ({ id, activeTab, children }: { id: TabId; activeTab: Ta
   return <div className="animate-fadeIn">{children}</div>
 }
 
-// Icon components
+// eslint-disable-next-line react-refresh/only-export-components
 export const TabIcons = {
+  learn: (
+    <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+      <path strokeLinecap="round" strokeLinejoin="round" d="M4.26 10.147a60.438 60.438 0 0 0-.491 6.347A48.62 48.62 0 0 1 12 20.904a48.62 48.62 0 0 1 8.232-4.41 60.46 60.46 0 0 0-.491-6.347m-15.482 0a50.636 50.636 0 0 0-2.658-.813A59.906 59.906 0 0 1 12 3.493a59.903 59.903 0 0 1 10.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.717 50.717 0 0 1 12 13.489a50.702 50.702 0 0 1 7.74-3.342" />
+    </svg>
+  ),
   system: (
     <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
       <path strokeLinecap="round" strokeLinejoin="round" d="M4.26 10.147a60.438 60.438 0 0 0-.491 6.347A48.62 48.62 0 0 1 12 20.904a48.62 48.62 0 0 1 8.232-4.41 60.46 60.46 0 0 0-.491-6.347m-15.482 0a50.636 50.636 0 0 0-2.658-.813A59.906 59.906 0 0 1 12 3.493a59.903 59.903 0 0 1 10.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.717 50.717 0 0 1 12 13.489a50.702 50.702 0 0 1 7.74-3.342" />
@@ -107,6 +104,11 @@ export const TabIcons = {
     </svg>
   ),
   videos: (
+    <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+      <path strokeLinecap="round" strokeLinejoin="round" d="m15.75 10.5 4.72-4.72a.75.75 0 0 1 1.28.53v11.38a.75.75 0 0 1-1.28.53l-4.72-4.72M4.5 18.75h9a2.25 2.25 0 0 0 2.25-2.25v-9a2.25 2.25 0 0 0-2.25-2.25h-9A2.25 2.25 0 0 0 2.25 7.5v9a2.25 2.25 0 0 0 2.25 2.25Z" />
+    </svg>
+  ),
+  watch: (
     <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
       <path strokeLinecap="round" strokeLinejoin="round" d="m15.75 10.5 4.72-4.72a.75.75 0 0 1 1.28.53v11.38a.75.75 0 0 1-1.28.53l-4.72-4.72M4.5 18.75h9a2.25 2.25 0 0 0 2.25-2.25v-9a2.25 2.25 0 0 0-2.25-2.25h-9A2.25 2.25 0 0 0 2.25 7.5v9a2.25 2.25 0 0 0 2.25 2.25Z" />
     </svg>

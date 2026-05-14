@@ -22,7 +22,6 @@ import {
   PositionDetailPage,
   PositionsPage,
   SearchPage,
-  SharedKnowledgePage,
   SettingsPage,
   FixPage,
   ReferencePage,
@@ -71,7 +70,6 @@ export const AppRouter = () => (
           <Route path="/mastery" element={<MasteryMapPage />} />
           <Route path="/glossary" element={<GlossaryPage />} />
           <Route path="/search" element={<SearchPage />} />
-          <Route path="/knowledge/:knowledgeId" element={<SharedKnowledgePage />} />
           <Route path="/philosophy" element={<AboutPage />} />
           <Route path="/about" element={<AboutPage />} />
           <Route path="/settings" element={<SettingsPage />} />

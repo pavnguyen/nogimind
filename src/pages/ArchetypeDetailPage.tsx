@@ -4,14 +4,12 @@ import { Badge } from '../components/common/Badge'
 import { NotFound } from '../components/common/NotFound'
 import { PageShell } from '../components/common/PageShell'
 import { SectionCard } from '../components/common/SectionCard'
-import { RelatedKnowledgePanel } from '../components/knowledge/RelatedKnowledgePanel'
 import { useArchetypeQuery } from '../queries/archetypeQueries'
 import { useConceptsQuery } from '../queries/conceptQueries'
 import { useSkillsQuery } from '../queries/skillQueries'
 import { useSettingsStore } from '../stores/useSettingsStore'
 import type { ConceptNode } from '../types/concept'
 import type { LanguageCode, SkillNode } from '../types/skill'
-import { getRelatedItems } from '../utils/knowledgeGraph'
 import { getLocalizedArray, getLocalizedText } from '../utils/localization'
 
 export default function ArchetypeDetailPage() {
@@ -88,7 +86,6 @@ export default function ArchetypeDetailPage() {
         </div>
       </SectionCard>
 
-      <RelatedKnowledgePanel lang={language} groups={getRelatedItems('archetype', archetype.id)} />
     </PageShell>
   )
 }

@@ -4,11 +4,9 @@ import { concepts } from '../data/concepts'
 import { defensiveLayers } from '../data/defensiveLayers'
 import { glossaryTerms } from '../data/glossaryTerms'
 import { masteryStages } from '../data/masteryStages'
-import { sharedKnowledgeItems } from '../data/sharedKnowledge'
 import { techniqueStateMachineBySkillId, techniqueStateMachines } from '../data/techniqueStateMachines'
 import { positions } from '../data/positions'
 import { skillNodes } from '../data/skillNodes'
-import { videoReferences } from '../data/videos'
 import type { GrapplingArchetype } from '../types/archetype'
 import type { ConceptNode } from '../types/concept'
 import type { DefensiveLayer } from '../types/defense'
@@ -55,7 +53,7 @@ type SearchIndexDocument = {
 type StoredSearchResult = SearchResult &
   Pick<SearchIndexDocument, 'sourceId' | 'type' | 'title' | 'description' | 'tags' | 'url' | 'contentText' | 'fieldLookup'>
 
-const searchIndexCache = new Map<LanguageCode, MiniSearch<SearchIndexDocument>>()
+const searchIndexCache = new Map<string, MiniSearch<SearchIndexDocument>>()
 
 const isRecord = (value: unknown): value is Record<string, unknown> => Boolean(value) && typeof value === 'object' && !Array.isArray(value)
 
@@ -219,8 +217,12 @@ const toIndexDocument = (document: SearchDocument): SearchIndexDocument => {
   }
 }
 
-const getSearchIndex = (lang: LanguageCode) => {
-  const cached = searchIndexCache.get(lang)
+const coreSearchTypes: KnowledgeItemType[] = ['skill', 'concept', 'position']
+const cacheKeyFor = (lang: LanguageCode, type: KnowledgeItemType | '') => `${lang}:${type || 'core'}`
+
+const getSearchIndex = (lang: LanguageCode, type: KnowledgeItemType | '' = '') => {
+  const cacheKey = cacheKeyFor(lang, type)
+  const cached = searchIndexCache.get(cacheKey)
   if (cached) return cached
 
   const index = new MiniSearch<SearchIndexDocument>({
@@ -251,8 +253,8 @@ const getSearchIndex = (lang: LanguageCode) => {
     },
   })
 
-  index.addAll(buildDocuments(lang).map(toIndexDocument))
-  searchIndexCache.set(lang, index)
+  index.addAll(buildDocuments(lang, type).map(toIndexDocument))
+  searchIndexCache.set(cacheKey, index)
   return index
 }
 
@@ -311,23 +313,6 @@ const withSectionAnchor = (url: string, matchedFields: string[]) => {
   const anchor = matchedFields.map((fieldName) => anchorByFieldName[fieldName]).find(Boolean)
   return anchor ? `${cleanUrl}#${anchor}` : cleanUrl
 }
-
-const sharedKnowledgeDocument = (item: (typeof sharedKnowledgeItems)[number], lang: LanguageCode): SearchDocument => ({
-  id: item.id,
-  type: 'shared_knowledge',
-  title: item.title,
-  description: item.shortText,
-  tags: item.tags,
-  url: `/knowledge/${item.id}`,
-  fields: [
-    field('title', item.title, lang, 8),
-    field('short text', item.shortText, lang, 4),
-    field('deep text', item.deepText ?? '', lang, 3),
-    field('tags', item.tags, lang, 2),
-    field('related concepts', item.relatedConceptIds ?? [], lang, 2),
-    field('related skills', item.relatedSkillIds ?? [], lang, 2),
-  ],
-})
 
 const conceptDocument = (concept: ConceptNode, lang: LanguageCode): SearchDocument => ({
   id: concept.id,
@@ -496,29 +481,6 @@ const masteryDocuments = (lang: LanguageCode): SearchDocument[] =>
     ],
   }))
 
-const videoReferenceDocuments = (lang: LanguageCode): SearchDocument[] =>
-  videoReferences.map((video) => {
-    const relatedSkills = skillNodes.filter((skill) => video.relatedSkillIds.includes(skill.id))
-    return {
-      id: video.id,
-      type: 'video_reference',
-      title: video.title,
-      description: video.whyUseful,
-      tags: ['video', 'youtube', video.relevance, video.level, ...video.techniqueTags],
-      url: `/skills/${video.relatedSkillIds[0] ?? ''}#video-references`,
-      fields: [
-        field('title', video.title, lang, 8),
-        field('video channel', video.channelName, lang, 5),
-        field('video reference', ['video', 'youtube', 'public youtube reference', 'video tham khảo', 'référence vidéo'], lang, 5),
-        field('related skill titles', relatedSkills.map((skill) => skill.title), lang, 6),
-        field('technique tags', video.techniqueTags, lang, 5),
-        field('why useful', video.whyUseful, lang, 4),
-        field('what to watch for', video.whatToWatchFor, lang, 4),
-        field('timestamps', video.timestamps?.map((timestamp) => [timestamp.label, timestamp.note]) ?? [], lang, 2),
-      ],
-    }
-  })
-
 const stateMachineDocuments = (lang: LanguageCode): SearchDocument[] =>
   techniqueStateMachines.map((stateMachine) => ({
     id: `state-machine:${stateMachine.skillId}`,
@@ -537,22 +499,24 @@ const stateMachineDocuments = (lang: LanguageCode): SearchDocument[] =>
     ],
   }))
 
-const buildDocuments = (lang: LanguageCode): SearchDocument[] => [
-  ...skillNodes.map((skill) => skillDocument(skill, lang)),
-  ...stateMachineDocuments(lang),
-  ...sharedKnowledgeItems.map((item) => sharedKnowledgeDocument(item, lang)),
-  ...microDetailDocuments(lang),
-  ...chainDocuments(lang),
-  ...troubleshooterDocuments(lang),
-  ...escapeMapDocuments(lang),
-  ...concepts.map((concept) => conceptDocument(concept, lang)),
-  ...positions.map((position) => positionDocument(position, lang)),
-  ...glossaryTerms.map((term) => glossaryDocument(term, lang)),
-  ...defensiveLayers.map((layer) => defenseDocument(layer, lang)),
-  ...archetypes.map((archetypeValue) => archetypeDocument(archetypeValue, lang)),
-  ...masteryDocuments(lang),
-  ...videoReferenceDocuments(lang),
-]
+const documentBuilders: Record<KnowledgeItemType, (lang: LanguageCode) => SearchDocument[]> = {
+  skill: (lang) => [...skillNodes.map((skill) => skillDocument(skill, lang)), ...stateMachineDocuments(lang)],
+  concept: (lang) => concepts.map((concept) => conceptDocument(concept, lang)),
+  position: (lang) => positions.map((position) => positionDocument(position, lang)),
+  glossary: (lang) => glossaryTerms.map((term) => glossaryDocument(term, lang)),
+  defense: (lang) => defensiveLayers.map((layer) => defenseDocument(layer, lang)),
+  micro_detail: microDetailDocuments,
+  technique_chain: chainDocuments,
+  troubleshooter: troubleshooterDocuments,
+  escape_map: escapeMapDocuments,
+  archetype: (lang) => archetypes.map((archetypeValue) => archetypeDocument(archetypeValue, lang)),
+  mastery: masteryDocuments,
+}
+
+const buildDocuments = (lang: LanguageCode, type: KnowledgeItemType | '' = ''): SearchDocument[] => {
+  if (type) return documentBuilders[type]?.(lang) ?? []
+  return coreSearchTypes.flatMap((itemType) => documentBuilders[itemType](lang))
+}
 
 const indexFieldLabels: Record<string, string> = {
   titleText: 'title',
@@ -586,7 +550,7 @@ export const searchKnowledge = (
   const normalizedQuery = query.trim().toLowerCase()
   if (!normalizedQuery) return []
 
-  const index = getSearchIndex(lang)
+  const index = getSearchIndex(lang, filters.type ?? '')
   const variants = buildQueryVariants(normalizedQuery)
   const merged = new Map<string, KnowledgeSearchResult & { rawScore: number; contentText: string }>()
 

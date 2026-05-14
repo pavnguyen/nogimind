@@ -5,10 +5,18 @@ import { ArrowRight, BookOpen } from 'lucide-react'
 import { PageShell } from '../components/common/PageShell'
 
 const referenceLinks = [
-  { key: 'glossary', to: '/glossary' },
-  { key: 'microDetails', to: '/micro-details' },
   { key: 'concepts', to: '/concepts' },
+  { key: 'positions', to: '/positions' },
+  { key: 'microDetails', to: '/micro-details' },
+  { key: 'chains', to: '/chains' },
+  { key: 'troubleshooters', to: '/troubleshooters' },
+  { key: 'escapeMaps', to: '/escape-maps' },
+  { key: 'archetypes', to: '/archetypes' },
   { key: 'defense', to: '/defense' },
+  { key: 'mastery', to: '/mastery' },
+  { key: 'glossary', to: '/glossary' },
+  { key: 'map', to: '/map' },
+  { key: 'gameTree', to: '/game-tree' },
   { key: 'search', to: '/search' },
   { key: 'philosophy', to: '/philosophy' },
 ]

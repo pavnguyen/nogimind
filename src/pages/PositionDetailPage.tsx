@@ -5,13 +5,11 @@ import { NotFound } from '../components/common/NotFound'
 import { PageShell } from '../components/common/PageShell'
 import { SectionCard } from '../components/common/SectionCard'
 import { NextStepStrip } from '../components/learning/NextStepStrip'
-import { RelatedKnowledgePanel } from '../components/knowledge/RelatedKnowledgePanel'
 import { useConceptsQuery } from '../queries/conceptQueries'
 import { usePositionQuery, usePositionsQuery } from '../queries/positionQueries'
 import { useSkillsQuery } from '../queries/skillQueries'
 import { useSettingsStore } from '../stores/useSettingsStore'
 import type { LanguageCode, SkillNode } from '../types/skill'
-import { getPositionKnowledgeLinks } from '../utils/knowledgeGraph'
 import { getMicroDetails } from '../utils/knowledgeModules'
 import { getLocalizedArray, getLocalizedText } from '../utils/localization'
 
@@ -153,8 +151,6 @@ export default function PositionDetailPage() {
           </div>
         </SectionCard>
       </div>
-
-      <RelatedKnowledgePanel lang={language} groups={getPositionKnowledgeLinks(position.id)} />
 
       <NextStepStrip
         title={t('positions.whatToLearnNext')}

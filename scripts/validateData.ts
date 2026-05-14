@@ -9,7 +9,6 @@ import { technicalTargetSkillIds } from '../src/data/technicalDetails'
 import { videoReferences } from '../src/data/videos'
 import { findDuplicateBlocks } from '../src/utils/contentQuality'
 import { getEscapeMaps, getTechniqueChains, getTroubleshooters } from '../src/utils/knowledgeModules'
-import { getNextBestLinksForSkill } from '../src/utils/knowledgeGraph'
 
 type Lang = 'vi' | 'en' | 'fr'
 type AnyRecord = Record<string, unknown>
@@ -987,12 +986,6 @@ const main = async () => {
         if (!knownIds.skills.has(id)) addBrokenReference(report, `escapeMaps.${map.id}.routes[${routeIndex}].followUpSkillIds -> ${id}`)
       })
     })
-  })
-
-  skills.forEach((skill) => {
-    if (getNextBestLinksForSkill(String(skill.id)).length === 0) {
-      addWarning(report, `skills.${String(skill.id)} has no next best links`)
-    }
   })
 
   checkUniqueIds(report, { name: 'sharedKnowledge', label: 'shared knowledge', items: sharedKnowledgeItems as AnyRecord[], optional: false })

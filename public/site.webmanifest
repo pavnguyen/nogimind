@@ -1,0 +1,21 @@
+{
+  "name": "NoGi Mind",
+  "short_name": "NoGi Mind",
+  "description": "Modern no-gi grappling knowledge system for studying skills, positions, concepts, and live problem solving.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#020617",
+  "theme_color": "#0f766e",
+  "icons": [
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

@@ -5,10 +5,8 @@ import { NotFound } from '../components/common/NotFound'
 import { PageShell } from '../components/common/PageShell'
 import { SectionCard } from '../components/common/SectionCard'
 import { NextStepStrip } from '../components/learning/NextStepStrip'
-import { RelatedKnowledgePanel } from '../components/knowledge/RelatedKnowledgePanel'
 import { useSkillsQuery } from '../queries/skillQueries'
 import { useSettingsStore } from '../stores/useSettingsStore'
-import { getSkillKnowledgeLinks } from '../utils/knowledgeGraph'
 import { getEscapeMaps } from '../utils/knowledgeModules'
 import { getLocalizedText } from '../utils/localization'
 
@@ -68,8 +66,6 @@ export default function EscapeMapDetailPage() {
           ))}
         </div>
       </SectionCard>
-
-      <RelatedKnowledgePanel lang={lang} groups={getSkillKnowledgeLinks(skill.id)} />
 
       <NextStepStrip
         title={t('escapeMaps.nextStep')}

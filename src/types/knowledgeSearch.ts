@@ -2,7 +2,6 @@ import type { LocalizedText } from './skill'
 
 export type KnowledgeItemType =
   | 'skill'
-  | 'shared_knowledge'
   | 'concept'
   | 'position'
   | 'glossary'
@@ -13,7 +12,6 @@ export type KnowledgeItemType =
   | 'escape_map'
   | 'archetype'
   | 'mastery'
-  | 'video_reference'
 
 export type KnowledgeSearchResult = {
   id: string

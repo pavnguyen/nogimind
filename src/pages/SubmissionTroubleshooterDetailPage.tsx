@@ -5,11 +5,9 @@ import { NotFound } from '../components/common/NotFound'
 import { PageShell } from '../components/common/PageShell'
 import { SectionCard } from '../components/common/SectionCard'
 import { NextStepStrip } from '../components/learning/NextStepStrip'
-import { RelatedKnowledgePanel } from '../components/knowledge/RelatedKnowledgePanel'
 import { useConceptsQuery } from '../queries/conceptQueries'
 import { useSkillsQuery } from '../queries/skillQueries'
 import { useSettingsStore } from '../stores/useSettingsStore'
-import { getTroubleshooterKnowledgeLinks } from '../utils/knowledgeGraph'
 import { getTroubleshooters } from '../utils/knowledgeModules'
 import { getLocalizedText } from '../utils/localization'
 
@@ -82,8 +80,6 @@ export default function SubmissionTroubleshooterDetailPage() {
           </div>
         </SectionCard>
       ) : null}
-
-      <RelatedKnowledgePanel lang={lang} groups={getTroubleshooterKnowledgeLinks(skill.id)} />
 
       <NextStepStrip
         title={t('troubleshooters.nextStep')}

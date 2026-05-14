@@ -1,20 +1,14 @@
-import { useState } from 'react'
 import { NavLink } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
-import { PanelLeftClose, PanelLeftOpen, ChevronDown } from 'lucide-react'
+import { PanelLeftClose, PanelLeftOpen } from 'lucide-react'
 import { useSettingsStore } from '../../stores/useSettingsStore'
 import { cn } from '../../utils/cn'
-import { brandIcon as BrandIcon, primaryNavItems, secondaryNavGroups, settingsNavItem } from './navItems'
+import { brandIcon as BrandIcon, primaryNavItems, settingsNavItem } from './navItems'
 
 export const Sidebar = () => {
   const { t } = useTranslation()
   const collapsed = useSettingsStore((state) => state.sidebarCollapsed)
   const setCollapsed = useSettingsStore((state) => state.setSidebarCollapsed)
-  const [expandedGroups, setExpandedGroups] = useState<Record<string, boolean>>({})
-
-  const toggleGroup = (key: string) => {
-    setExpandedGroups((prev) => ({ ...prev, [key]: !prev[key] }))
-  }
 
   return (
     <aside
@@ -62,56 +56,6 @@ export const Sidebar = () => {
             )
           })}
         </div>
-
-        {/* Secondary Groups */}
-        {!collapsed && (
-          <div className="mt-6 space-y-1">
-            {secondaryNavGroups.map((group) => {
-              const GroupIcon = group.icon
-              const isOpen = expandedGroups[group.key] ?? true
-              return (
-                <div key={group.key}>
-                  <button
-                    type="button"
-                    onClick={() => toggleGroup(group.key)}
-                    className="flex w-full items-center gap-2 rounded-lg px-3 py-1.5 text-xs font-semibold uppercase tracking-wider text-slate-500 hover:text-slate-300"
-                  >
-                    <GroupIcon className="h-3 w-3" aria-hidden="true" />
-                    <span className="flex-1 text-left">{t(group.key)}</span>
-                    <ChevronDown
-                      className={cn('h-3 w-3 transition-transform duration-150', isOpen && 'rotate-180')}
-                      aria-hidden="true"
-                    />
-                  </button>
-                  {isOpen && (
-                    <div className="ml-1 mt-0.5 space-y-0.5 border-l border-white/[0.06] pl-2">
-                      {group.items.map((item) => {
-                        const ItemIcon = item.icon
-                        return (
-                          <NavLink
-                            key={item.to}
-                            to={item.to}
-                            className={({ isActive }) =>
-                              cn(
-                                'flex items-center gap-2.5 rounded-lg px-3 py-1.5 text-sm font-medium transition-all duration-150',
-                                isActive
-                                  ? 'bg-cyan-400/10 text-cyan-100'
-                                  : 'text-slate-400 hover:bg-white/[0.04] hover:text-slate-200',
-                              )
-                            }
-                          >
-                            <ItemIcon className="h-3.5 w-3.5 shrink-0" aria-hidden="true" />
-                            <span>{t(item.key)}</span>
-                          </NavLink>
-                        )
-                      })}
-                    </div>
-                  )}
-                </div>
-              )
-            })}
-          </div>
-        )}
 
         {/* Settings */}
         <div className={cn('mt-4', collapsed && 'flex justify-center')}>
