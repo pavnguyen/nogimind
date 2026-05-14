@@ -30,6 +30,7 @@ export const vi = {
     defense: 'An toàn',
     glossary: 'Thuật ngữ',
     search: 'Tìm kiếm',
+    reference: 'Tra cứu',
     about: 'Triết lý',
     philosophy: 'Triết lý',
     settings: 'Cài đặt',

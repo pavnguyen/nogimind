@@ -30,6 +30,7 @@ export const fr = {
     defense: 'Sécurité',
     glossary: 'Glossaire',
     search: 'Recherche',
+    reference: 'Référence',
     about: 'Philosophie',
     philosophy: 'Philosophie',
     settings: 'Réglages',

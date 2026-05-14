@@ -23,7 +23,6 @@ import {
   PositionsPage,
   SearchPage,
   SettingsPage,
-  FixPage,
   ReferencePage,
   SkillDetailPage,
   SkillMapPage,
@@ -47,7 +46,6 @@ export const AppRouter = () => (
           <Route index element={<DashboardPage />} />
           <Route path="/learn" element={<LearnPage />} />
           <Route path="/study" element={<StudyPage />} />
-          <Route path="/fix" element={<FixPage />} />
           <Route path="/map" element={<SystemMapPage />} />
           <Route path="/reference" element={<ReferencePage />} />
           <Route path="/skills" element={<SkillMapPage />} />

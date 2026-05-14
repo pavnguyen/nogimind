@@ -1,7 +1,7 @@
 import { useMemo } from 'react'
 import { Link } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
-import { Search, Compass, HelpCircle, Layers3, ArrowRight, TrendingUp, BookOpen, Shield, Clock, Sparkles, Zap, Target } from 'lucide-react'
+import { Search, Compass, Layers3, ArrowRight, TrendingUp, BookOpen, Shield, Clock, Sparkles, Zap, Target } from 'lucide-react'
 import { Badge } from '../components/common/Badge'
 import { SectionCard } from '../components/common/SectionCard'
 import { PageShell } from '../components/common/PageShell'
@@ -34,8 +34,8 @@ const pickDailyItem = <T,>(items: T[], key: string): T | undefined => {
 const quickActions = [
   { to: '/search', icon: Search, label: 'dashboard.heroAction', color: 'from-cyan-500/20 to-blue-500/10 border-cyan-400/20 hover:border-cyan-400/40' },
   { to: '/skills', icon: Layers3, label: 'dashboard.entries.skills', color: 'from-emerald-500/20 to-teal-500/10 border-emerald-400/20 hover:border-emerald-400/40' },
-  { to: '/fix', icon: HelpCircle, label: 'dashboard.cockpit.fix', color: 'from-amber-500/20 to-orange-500/10 border-amber-400/20 hover:border-amber-400/40' },
   { to: '/study', icon: Compass, label: 'dashboard.cockpit.skill', color: 'from-violet-500/20 to-purple-500/10 border-violet-400/20 hover:border-violet-400/40' },
+  { to: '/reference', icon: BookOpen, label: 'nav.reference', color: 'from-amber-500/20 to-orange-500/10 border-amber-400/20 hover:border-amber-400/40' },
 ]
 
 export default function DashboardPage() {

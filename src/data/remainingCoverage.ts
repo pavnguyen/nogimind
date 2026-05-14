@@ -94,6 +94,116 @@ const mkCheck = (
 })
 
 const makeSystem = (id: string, title: string, overview: string, kind: 'control' | 'escape' | 'guard' | 'wrestling' | 'safety'): MicroDetailSystem => {
+  if (id === 'competition-ruleset-awareness') {
+    const rDetail = (
+      detailId: string,
+      category: MicroDetail['category'],
+      titleText: LocalizedText,
+      instruction: LocalizedText,
+      when: LocalizedText,
+      why: LocalizedText,
+      mistake: LocalizedText,
+      cue: LocalizedText,
+      live: LocalizedText,
+      bodyParts: string[],
+      safetyNote?: LocalizedText,
+    ): MicroDetail => ({
+      id: detailId,
+      category,
+      title: titleText,
+      shortInstruction: instruction,
+      side: 'both',
+      direction: 'close_in',
+      bodyParts,
+      whenToUse: when,
+      whyItWorks: why,
+      commonMistake: mistake,
+      correctionCue: cue,
+      liveCue: live,
+      safetyNote,
+    })
+
+    const rulesetPath: FastFinishPath = {
+      id: 'competition-ruleset-awareness-fast',
+      title: lt('Đường quyết định theo luật', 'Ruleset decision path', 'Chemin de décision règlement'),
+      steps: [
+        {
+          id: 'competition-ruleset-awareness-fast-1',
+          order: 1,
+          instruction: lt('Xác nhận kỹ thuật nào hợp lệ trong bracket này.', 'Confirm what is legal in this bracket.', 'Confirmez ce qui est légal dans ce bracket.'),
+          keyBodyPart: 'head',
+          commonMistake: lt('Bạn nghĩ mọi ruleset giống nhau.', 'You assume every ruleset is the same.', 'Vous supposez que tous les règlements sont identiques.'),
+        },
+        {
+          id: 'competition-ruleset-awareness-fast-2',
+          order: 2,
+          instruction: lt('Đọc điểm số, advantage và penalty.', 'Check score, advantages, and penalties.', 'Vérifiez score, avantages et pénalités.'),
+          keyBodyPart: 'head',
+          commonMistake: lt('Bạn tấn công mà không biết mình cần gì.', 'You attack without knowing what you need.', 'Vous attaquez sans savoir ce qu’il faut.'),
+        },
+        {
+          id: 'competition-ruleset-awareness-fast-3',
+          order: 3,
+          instruction: lt('Đọc đồng hồ và luật overtime.', 'Check clock and overtime rule.', 'Vérifiez le chrono et la règle overtime.'),
+          keyBodyPart: 'hands',
+          commonMistake: lt('Bạn chọn setup chậm khi không còn thời gian.', 'You choose a slow setup with no time left.', 'Vous choisissez un setup lent sans temps.'),
+        },
+        {
+          id: 'competition-ruleset-awareness-fast-4',
+          order: 4,
+          instruction: lt('Chọn hành động low, medium hoặc high risk.', 'Choose low, medium, or high-risk action.', 'Choisissez une action low, medium ou high risk.'),
+          keyBodyPart: 'hips',
+          commonMistake: lt('Risk không khớp trạng thái trận.', 'Risk does not match the match state.', 'Le risque ne correspond pas à l’état du match.'),
+        },
+        {
+          id: 'competition-ruleset-awareness-fast-5',
+          order: 5,
+          instruction: lt('Reset nếu có nguy cơ penalty hoặc illegal action.', 'Reset if penalty or illegal-action risk appears.', 'Reset si risque de pénalité ou action illégale apparaît.'),
+          keyBodyPart: 'feet',
+          commonMistake: lt('Bạn tiếp tục sau tín hiệu cảnh báo.', 'You continue after the warning signal.', 'Vous continuez après le signal d’alerte.'),
+        },
+      ],
+      finishTrigger: lt('Exchange tiếp theo khớp luật, điểm, đồng hồ và risk.', 'The next exchange matches law, score, clock, and risk.', 'Le prochain échange correspond aux règles, score, chrono et risque.'),
+      abortSignal: lt('Bạn không chắc luật hoặc không biết mình cần điểm gì.', 'You are unsure what is legal or what score you need.', 'Vous n’êtes pas sûr de la règle ou du score nécessaire.'),
+      nextBestOption: lt('Tạm dừng, hỏi HLV/trọng tài khi có thể, rồi chọn nhánh an toàn hơn.', 'Pause, ask coach/referee when possible, and choose a safer branch.', 'Pause, demandez au coach/arbitre si possible, puis choisissez une branche plus sûre.'),
+      safetyNote: lt('Không dùng leg lock, slam, neck crank hoặc reaping entry bị cấm bởi ruleset.', 'Do not use leg locks, slams, neck cranks, or reaping entries banned by the ruleset.', 'N’utilisez pas leg locks, slams, neck cranks ou reaping interdits par le règlement.'),
+    }
+
+    return {
+      overview: lt(
+        'Nhận thức luật thi đấu là checklist chiến thuật trước và trong trận: luật nào hợp lệ, điểm số đang ra sao, còn bao nhiêu thời gian, và rủi ro penalty là gì.',
+        'Ruleset awareness is a tactical checklist before and during a match: what is legal, what the score is, how much time is left, and where penalty risk lives.',
+        'La conscience du règlement est une checklist tactique avant et pendant le match : ce qui est légal, le score, le temps restant et le risque de pénalité.',
+      ),
+      topFiveDetails: [
+        rDetail('competition-ruleset-awareness-legality', 'safety', lt('Luật hợp lệ', 'Legal actions', 'Actions légales'), lt('Trước giải, kiểm tra guard pull, heel hook, reaping, slams, neck cranks và scoring theo đúng ruleset.', 'Before competing, confirm guard pulling, heel hooks, reaping, slams, neck cranks, and scoring for the exact ruleset.', 'Avant compétition, confirmez guard pull, heel hooks, reaping, slams, neck cranks et scoring selon le règlement exact.'), lt('Trước khi chọn game plan hoặc vào bracket', 'Before choosing a game plan or entering the bracket', 'Avant de choisir le game plan ou d’entrer dans le bracket'), lt('Một kỹ thuật tốt vẫn có thể là lựa chọn tệ nếu ruleset cấm hoặc phạt cách vào đòn.', 'A good technique can still be a bad choice if the ruleset bans or penalizes the entry.', 'Une bonne technique peut être un mauvais choix si le règlement interdit ou pénalise l’entrée.'), lt('Bạn dùng thói quen từ ruleset khác mà không kiểm tra luật hiện tại.', 'You use habits from another ruleset without checking the current one.', 'Vous utilisez des habitudes d’un autre règlement sans vérifier celui-ci.'), lt('Luật trước, kỹ thuật sau.', 'Rules first, technique second.', 'Règles d’abord, technique ensuite.'), lt('Luật trước.', 'Rules first.', 'Règles d’abord.'), ['head', 'hands'], lt('Nếu không chắc luật leg lock hoặc neck attack, hỏi trọng tài/HLV trước khi thi đấu.', 'If leg-lock or neck-attack rules are unclear, ask the referee or coach before competing.', 'Si les règles leg lock ou attaques cervicales sont floues, demandez à l’arbitre ou au coach avant de combattre.')),
+        rDetail('competition-ruleset-awareness-score', 'timing', lt('Điểm số và advantage', 'Score and advantages', 'Score et avantages'), lt('Đọc mình đang thắng, hòa hay thua để chọn giữ vị trí, sweep, pass, submit hoặc risk scramble.', 'Know whether you are winning, tied, or losing before choosing hold, sweep, pass, submission, or scramble risk.', 'Sachez si vous menez, êtes à égalité ou perdez avant de choisir contrôle, sweep, passage, soumission ou scramble risqué.'), lt('Giữa trận và cuối trận', 'Mid-match and late match', 'Milieu et fin de match'), lt('Score thay đổi giá trị của mỗi exchange: cùng một pha guard pull có thể đúng hoặc sai tùy điểm.', 'Score changes the value of each exchange: the same guard pull can be right or wrong depending on the scoreboard.', 'Le score change la valeur de chaque échange : le même guard pull peut être bon ou mauvais selon le score.'), lt('Bạn tấn công như đang hòa dù đang dẫn hoặc cần điểm.', 'You attack as if tied when you are leading or when you need points.', 'Vous attaquez comme à égalité alors que vous menez ou avez besoin de points.'), lt('Score quyết định risk.', 'Score decides risk.', 'Le score décide le risque.'), lt('Đọc điểm.', 'Read the score.', 'Lisez le score.'), ['head', 'hips']),
+        rDetail('competition-ruleset-awareness-clock', 'timing', lt('Đồng hồ trận', 'Match clock', 'Chrono du match'), lt('Khi còn ít thời gian, ưu tiên hành động tạo điểm rõ hoặc giữ control thay vì setup dài.', 'When time is short, prioritize clear scoring actions or secure control over long setups.', 'Quand le temps manque, privilégiez les actions qui scorent clairement ou le contrôle sûr plutôt que les longs setups.'), lt('Một đến hai phút cuối hoặc overtime', 'Last one to two minutes or overtime', 'Dernière une à deux minutes ou overtime'), lt('Thời gian ngắn làm giảm giá trị của setup chậm và tăng giá trị của control chắc.', 'Short time lowers the value of slow setups and raises the value of stable control.', 'Le temps court réduit la valeur des setups lents et augmente celle du contrôle stable.'), lt('Bạn chọn chuỗi quá dài khi cần điểm ngay.', 'You choose a long chain when you need points now.', 'Vous choisissez une chaîne trop longue quand il faut scorer maintenant.'), lt('Đồng hồ đổi chiến thuật.', 'The clock changes tactics.', 'Le chrono change la tactique.'), lt('Nhìn giờ.', 'Check time.', 'Regardez le chrono.'), ['head', 'hands']),
+        rDetail('competition-ruleset-awareness-penalty', 'safety', lt('Rủi ro penalty', 'Penalty risk', 'Risque de pénalité'), lt('Nhận biết passivity, stalling, illegal grip/pressure, out-of-bounds và hành vi có thể bị warning.', 'Recognize passivity, stalling, illegal grips or pressure, out-of-bounds patterns, and warning risk.', 'Reconnaissez passivité, stalling, grips ou pressions illégales, sorties de zone et risque d’avertissement.'), lt('Khi trận bị dừng nhịp hoặc trọng tài nhắc', 'When the match rhythm stalls or the referee warns', 'Quand le rythme se bloque ou que l’arbitre avertit'), lt('Penalty có thể đảo trận dù bạn không bị submit hay mất vị trí.', 'Penalties can flip a match even without a submission or position loss.', 'Les pénalités peuvent retourner un match sans soumission ni perte de position.'), lt('Bạn để trọng tài quyết định trận vì không điều chỉnh nhịp.', 'You let the referee decide the match because you do not adjust pace.', 'Vous laissez l’arbitre décider le match faute d’ajuster le rythme.'), lt('Tránh thắng kỹ thuật nhưng thua luật.', 'Do not win technically but lose by rules.', 'Ne gagnez pas techniquement pour perdre au règlement.'), lt('Tránh penalty.', 'Avoid penalties.', 'Évitez les pénalités.'), ['hands', 'feet']),
+        rDetail('competition-ruleset-awareness-gameplan', 'timing', lt('Game plan theo luật', 'Ruleset game plan', 'Game plan selon règlement'), lt('Chọn A-game phù hợp: points game, sub-only, ADCC-style wrestling, IBJJF-style safety hoặc gym round.', 'Choose the right A-game: points game, sub-only, ADCC-style wrestling, IBJJF-style safety, or gym round.', 'Choisissez le bon A-game : points, sub-only, wrestling style ADCC, sécurité style IBJJF ou round au gym.'), lt('Trước trận và giữa các trận', 'Before the match and between matches', 'Avant le match et entre les matchs'), lt('Ruleset tốt cho game nào thì nên ưu tiên entry, pace và risk profile của game đó.', 'The ruleset rewards certain games, so entry, pace, and risk profile should match it.', 'Le règlement récompense certains games : entrée, rythme et profil de risque doivent suivre.'), lt('Bạn dùng cùng một game plan cho mọi giải.', 'You use the same game plan for every event.', 'Vous utilisez le même game plan pour chaque tournoi.'), lt('Game plan theo luật.', 'Game plan follows rules.', 'Game plan selon règles.'), lt('Chọn luật.', 'Choose by rules.', 'Choisir par règles.'), ['hips', 'knees']),
+      ],
+      leftRightGuides: [
+        mkGuide('competition-ruleset-awareness-leading', 'When leading on points', 'Control grips and slow risk.', 'Post or frame to prevent reversal.', 'Keep base.', 'Do not overcommit.', 'Head stays safe and calm.', 'Hips stay heavy.', 'Protect the lead before chasing low-percentage submissions.'),
+        mkGuide('competition-ruleset-awareness-trailing', 'When trailing on points', 'Create grips that force movement.', 'Open the scoring or submission lane.', 'Step or hook to create angle.', 'Drive the re-attack.', 'Head pressures toward action.', 'Hips move first.', 'Increase urgency without ignoring legal and safety lines.'),
+      ],
+      fastFinishPaths: [rulesetPath],
+      troubleshootingTips: [
+        { problem: lt('Bạn không biết mình cần điểm, advantage hay submission.', 'You do not know whether you need points, advantage, or submission.', 'Vous ne savez pas si vous avez besoin de points, avantage ou soumission.'), quickFix: lt('Nhìn bảng điểm trước khi chọn nhánh tiếp theo.', 'Check the scoreboard before choosing the next branch.', 'Regardez le score avant de choisir la prochaine branche.'), cue: lt('Score trước.', 'Score first.', 'Score d’abord.') },
+        { problem: lt('Bạn dùng entry leg lock không chắc có hợp lệ không.', 'You use a leg-lock entry without knowing if it is legal.', 'Vous utilisez une entrée leg lock sans savoir si elle est légale.'), quickFix: lt('Chuyển sang control/sweep hợp lệ nếu chưa chắc luật.', 'Switch to legal control or sweep if the rule is unclear.', 'Passez à un contrôle ou sweep légal si la règle est floue.'), cue: lt('Không chắc thì đừng xoắn.', 'If unsure, do not rotate.', 'Si doute, ne tournez pas.') },
+        { problem: lt('Bạn đang dẫn điểm nhưng vẫn chase submission rủi ro.', 'You are leading but still chasing a risky submission.', 'Vous menez mais chassez une soumission risquée.'), quickFix: lt('Ổn định position trước, chỉ tấn công khi control không mất.', 'Settle position first; attack only when control stays.', 'Stabilisez d’abord; attaquez seulement si le contrôle reste.'), cue: lt('Dẫn điểm thì giữ control.', 'Lead means control.', 'Avance = contrôle.') },
+      ],
+      doNotDo: la(
+        ['Đừng dùng luật của giải này cho giải khác.', 'Đừng vào leg lock khi chưa rõ legality.', 'Đừng quên score và đồng hồ.', 'Đừng chase submission rủi ro khi đang dẫn chắc.', 'Đừng để penalty quyết định trận.'],
+        ['Do not use one ruleset as if it applied everywhere.', 'Do not enter leg locks without knowing legality.', 'Do not forget score and clock.', 'Do not chase risky submissions when safely leading.', 'Do not let penalties decide the match.'],
+        ['N’utilisez pas un règlement comme s’il valait partout.', 'N’entrez pas en leg lock sans connaître la légalité.', 'N’oubliez pas score et chrono.', 'Ne chassez pas une soumission risquée en menant.', 'Ne laissez pas les pénalités décider du match.'],
+      ),
+      safetyNotes: la(
+        ['Luôn hỏi luật leg lock, reaping, slam và neck crank trước giải.', 'Nếu luật không rõ, chọn nhánh control an toàn hơn.', 'Ở gym, thống nhất ruleset trước round.'],
+        ['Always confirm leg-lock, reaping, slam, and neck-crank rules before competing.', 'If the rule is unclear, choose the safer control branch.', 'In the gym, agree on the ruleset before the round.'],
+        ['Confirmez toujours les règles leg lock, reaping, slam et neck crank avant compétition.', 'Si la règle est floue, choisissez la branche de contrôle plus sûre.', 'Au gym, fixez le ruleset avant le round.'],
+      ),
+    }
+  }
   const titleViMap: Record<string, string> = {
     'positional-hierarchy': 'Thứ bậc vị trí',
     'inside-position': 'Đường trong',
@@ -206,7 +316,7 @@ const systemSpecs: Array<{ id: string; title: string; overview: string; kind: 'c
   { id: 'snapdown-front-headlock', title: 'Snapdown to Front Headlock', overview: 'Snap the head down, control the line, and move behind or to a front headlock.', kind: 'wrestling' },
   { id: 'single-leg-bjj', title: 'Single Leg for BJJ', overview: 'Keep the head safe, protect the knee line, and finish with angle.', kind: 'wrestling' },
   { id: 'sprawl-go-behind', title: 'Sprawl and Go-Behind', overview: 'Kill the shot, keep hips heavy, and circle behind the opponent.', kind: 'wrestling' },
-  { id: 'competition-ruleset-awareness', title: 'Competition Ruleset Awareness', overview: 'Use pace, score, and risk to choose the right next exchange.', kind: 'control' },
+  { id: 'competition-ruleset-awareness', title: 'Ruleset Awareness', overview: 'Use legality, score, clock, and penalty risk to choose the right next exchange.', kind: 'control' },
   { id: 'guard-pulling-strategy', title: 'Guard Pulling Strategy', overview: 'Pull with purpose, land in a preferred guard, and keep the neck safe.', kind: 'guard' },
   { id: 'scramble-control', title: 'Scramble Control', overview: 'Win the head, hips, and inside lane before the scramble gets wild.', kind: 'wrestling' },
 ]

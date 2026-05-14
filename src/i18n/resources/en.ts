@@ -27,6 +27,7 @@ export const en = {
     defense: 'Defense / Safety',
     glossary: 'Glossary',
     search: 'Search',
+    reference: 'Reference',
     about: 'About',
     philosophy: 'Philosophy',
     settings: 'Settings',
