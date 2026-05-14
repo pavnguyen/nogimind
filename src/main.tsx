@@ -1,6 +1,10 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import { QueryClientProvider } from '@tanstack/react-query'
+
+// Prevent the browser from restoring scroll position on popstate
+// We handle scroll-to-top ourselves on every route change
+history.scrollRestoration = 'manual'
 import { ReactQueryDevtools } from '@tanstack/react-query-devtools'
 import App from './App.tsx'
 import './i18n/i18n'

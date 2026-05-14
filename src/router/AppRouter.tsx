@@ -1,5 +1,6 @@
 import { Suspense } from 'react'
-import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import { BrowserRouter, Route, Routes, useLocation } from 'react-router-dom'
+import { useEffect } from 'react'
 import { useTranslation } from 'react-i18next'
 import { Layout } from '../components/layout/Layout'
 import {
@@ -38,8 +39,17 @@ const Fallback = () => {
   return <div className="p-6 text-sm text-slate-400">{t('common.loading')}</div>
 }
 
+const ScrollToTop = () => {
+  const { pathname } = useLocation()
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [pathname])
+  return null
+}
+
 export const AppRouter = () => (
   <BrowserRouter>
+    <ScrollToTop />
     <Suspense fallback={<Fallback />}>
       <Routes>
         <Route element={<Layout />}>
