@@ -1,6 +1,6 @@
 import { NavLink } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
-import { Search, X, Home, Layers3, Compass, BookOpen } from 'lucide-react'
+import { Search, X, Home, Layers3, Compass, BookOpen, Wrench } from 'lucide-react'
 import { useUiStore } from '../../stores/useUiStore'
 import { cn } from '../../utils/cn'
 import { primaryNavItems } from './navItems'
@@ -9,6 +9,7 @@ const tabItems = [
   { to: '/', key: 'nav.dashboard', icon: Home },
   { to: '/skills', key: 'nav.skills', icon: Layers3 },
   { to: '/search', key: 'nav.search', icon: Search },
+  { to: '/troubleshooters', key: 'nav.troubleshooters', icon: Wrench },
   { to: '/study', key: 'nav.study', icon: Compass },
   { to: '/reference', key: 'nav.reference', icon: BookOpen },
 ]

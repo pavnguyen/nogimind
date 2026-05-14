@@ -6,6 +6,7 @@ import {
   Layers3,
   Search,
   Settings,
+  Wrench,
 } from 'lucide-react'
 
 /** Primary navigation items (shown in sidebar and bottom nav) */
@@ -13,6 +14,7 @@ export const primaryNavItems = [
   { to: '/', key: 'nav.dashboard', icon: Home },
   { to: '/search', key: 'nav.search', icon: Search },
   { to: '/skills', key: 'nav.skills', icon: Layers3 },
+  { to: '/troubleshooters', key: 'nav.troubleshooters', icon: Wrench },
   { to: '/study', key: 'nav.study', icon: Compass },
   { to: '/reference', key: 'nav.reference', icon: BookOpen },
 ]
