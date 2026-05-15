@@ -51,7 +51,6 @@ export default function DashboardPage() {
   const position = useMemo(() => pickDailyItem(positions, 'position'), [positions])
 
   const totalSkills = skills.length
-  const coreSkills = skills.filter((s) => s.libraryTier === 'core').length
   const safetyCritical = skills.filter((s) => s.riskLevel === 'safety_critical' || s.libraryTier === 'safety_critical').length
 
   return (
@@ -94,10 +93,9 @@ export default function DashboardPage() {
       }
     >
       {/* Stats Strip */}
-      <div className="grid grid-cols-3 gap-3">
+      <div className="grid grid-cols-2 gap-3">
         {[
           { label: 'dashboard.totalSkills', value: totalSkills, icon: Layers3, color: 'text-emerald-300' },
-          { label: 'Core Skills', value: coreSkills, icon: Target, color: 'text-cyan-300' },
           { label: 'Safety Critical', value: safetyCritical, icon: Shield, color: 'text-amber-300' },
         ].map((stat) => {
           const StatIcon = stat.icon

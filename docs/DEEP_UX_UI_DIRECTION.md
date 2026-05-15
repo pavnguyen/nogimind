@@ -22,7 +22,7 @@ NoGi Mind is for users who already have basic no-gi context. The app should feel
 
 Navigation should stay problem-oriented:
 
-- Train: dashboard, search, skills, money details, troubleshooter.
+- Train: dashboard, search, skills, details, troubleshooter.
 - Map: positions, chains, escape maps, game tree.
 - Systems: modern systems, archetypes, mastery, learning path.
 - Reference: concepts, glossary, settings, philosophy.

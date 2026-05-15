@@ -22,7 +22,7 @@ export const useSearchStore = create<SearchStore>()(
     }),
     {
       name: storageKeys.search,
-      partialize: (state) => ({ query: state.query, type: state.type }),
+      partialize: (state) => ({ type: state.type }),
     },
   ),
 )

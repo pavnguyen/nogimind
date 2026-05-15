@@ -57,8 +57,11 @@ export const Header = () => {
     let cancelled = false
     const timeout = window.setTimeout(() => {
       import('../../utils/knowledgeSearch')
-        .then(({ searchKnowledge }) => {
-          if (!cancelled) setSuggestions(searchKnowledge(trimmed, language).slice(0, 6))
+        .then(async ({ searchKnowledge }) => {
+          if (!cancelled) {
+            const results = await searchKnowledge(trimmed, language)
+            if (!cancelled) setSuggestions(results.slice(0, 6))
+          }
         })
         .catch(() => {
           if (!cancelled) setSuggestions([])

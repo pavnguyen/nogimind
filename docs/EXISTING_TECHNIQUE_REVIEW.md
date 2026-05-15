@@ -10,7 +10,7 @@ Each implemented skill was checked for title clarity, category fit, EN/VI/FR pre
 
 - Implemented skills reviewed: 73.
 - Skills with Body Position: 73/73.
-- Skills with Money Details: 73/73.
+- Skills with Details: 73/73.
 - Skills with quality checklists: 73/73.
 - Skills with quick cards/System Logic inputs: 73/73.
 - Broken references: 0.

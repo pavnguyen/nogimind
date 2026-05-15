@@ -8,7 +8,7 @@ import { SectionCard } from '../components/common/SectionCard'
 import { PageShell } from '../components/common/PageShell'
 import { useSettingsStore } from '../stores/useSettingsStore'
 import { useSearchStore } from '../stores/useSearchStore'
-import type { KnowledgeItemType } from '../types/knowledgeSearch'
+import type { KnowledgeItemType, KnowledgeSearchResult } from '../types/knowledgeSearch'
 import { searchKnowledge } from '../utils/knowledgeSearch'
 import { getLocalizedText } from '../utils/localization'
 
@@ -43,7 +43,24 @@ export default function SearchPage() {
     return () => window.clearTimeout(timeout)
   }, [query])
 
-  const results = useMemo(() => searchKnowledge(debouncedQuery, language, { type }), [debouncedQuery, language, type])
+  const [results, setResults] = useState<KnowledgeSearchResult[]>([])
+
+  useEffect(() => {
+    if (!debouncedQuery.trim()) {
+      setResults([])
+      return
+    }
+
+    let cancelled = false
+    searchKnowledge(debouncedQuery, language, { type }).then((data) => {
+      if (!cancelled) setResults(data)
+    })
+
+    return () => {
+      cancelled = true
+    }
+  }, [debouncedQuery, language, type])
+
   const grouped = useMemo(
     () => (type ? filterTypes : coreResultTypes).map((itemType) => ({ type: itemType, results: results.filter((result) => result.type === itemType) })).filter((group) => group.results.length),
     [results, type],

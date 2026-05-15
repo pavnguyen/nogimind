@@ -1,4 +1,13 @@
-import { searchKnowledge } from '../src/utils/knowledgeSearch'
+import { setSearchData, syncSearchKnowledge } from '../src/utils/searchEngine'
+import { archetypes } from '../src/data/archetypes'
+import { concepts } from '../src/data/concepts'
+import { defensiveLayers } from '../src/data/defensiveLayers'
+import { glossaryTerms } from '../src/data/glossaryTerms'
+import { masteryStages } from '../src/data/masteryStages'
+import { techniqueStateMachineBySkillId, techniqueStateMachines } from '../src/data/techniqueStateMachines'
+import { positions } from '../src/data/positions'
+import { skillNodes } from '../src/data/skillNodes'
+import { getEscapeMaps, getMicroDetails, getTechniqueChains, getTroubleshooters } from '../src/utils/knowledgeModules'
 import type { KnowledgeItemType } from '../src/types/knowledgeSearch'
 import type { LanguageCode } from '../src/types/skill'
 
@@ -15,8 +24,25 @@ const checks: { query: string; lang: LanguageCode; expectedId: string; type?: Kn
   { query: 'crab ride back take', lang: 'en', expectedId: 'crab-ride', type: 'skill' },
 ]
 
+// Inject data before first search call
+setSearchData({
+  skillNodes,
+  concepts,
+  positions,
+  glossaryTerms,
+  defensiveLayers,
+  archetypes,
+  masteryStages,
+  techniqueStateMachines,
+  techniqueStateMachineBySkillId,
+  microDetails: getMicroDetails(skillNodes),
+  techniqueChains: getTechniqueChains(skillNodes),
+  troubleshooters: getTroubleshooters(skillNodes),
+  escapeMaps: getEscapeMaps(skillNodes),
+})
+
 const failures = checks.flatMap((check) => {
-  const results = searchKnowledge(check.query, check.lang, { type: check.type }).slice(0, 8)
+  const results = syncSearchKnowledge(check.query, check.lang, { type: check.type }).slice(0, 8)
   return results.some((result) =>
     result.id === check.expectedId ||
     result.id.startsWith(`${check.expectedId}:`) ||

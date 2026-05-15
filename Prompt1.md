@@ -299,8 +299,8 @@ E. Common Leaks:
 Leak → Why it breaks → Correction
 
 Localized title:
-en: Money Details
-vi: Chi tiết ăn tiền
+en: Details
+vi: Chi tiết
 fr: Détails clés
 
 ==================================================
