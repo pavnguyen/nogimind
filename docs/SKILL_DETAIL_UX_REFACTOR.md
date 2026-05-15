@@ -6,7 +6,7 @@ Skill Detail now renders through `SkillDetailPageShell` and view-model builders 
 
 1. System Logic
 2. Body Position
-3. Money Details
+3. Details
 4. Outcomes & Branches
 5. Fix It Fast
 6. Safety, only when relevant

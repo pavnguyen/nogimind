@@ -14,7 +14,7 @@ NoGi Mind treats structured data as the source of truth. Pages, search, graphs, 
 Every important skill should include:
 
 - `quickCard`: goal, exactly three cues, one warning, one if-fail action.
-- `microDetailSystem`: five precise money details, fast path, left/right guide, troubleshooting, do-not-do list.
+- `microDetailSystem`: five precise details, fast path, left/right guide, troubleshooting, do-not-do list.
 - `bodyToBodyDetails`: my body part, opponent body part, side, contact type, force direction, why it works, common misplacement, cue.
 - `qualityChecklist`: critical checks first.
 - `blackbeltDetails`: clamp, pressure, angle, finish trigger, abort signal, escape prevention.

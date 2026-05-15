@@ -1,6 +1,6 @@
 # Video Curation Guide
 
-Video references are supplemental. NoGi Mind remains data-first: System Logic, Body Position, Money Details, Outcomes & Branches, Fix It Fast, Safety, and Next Step are the primary teaching surface.
+Video references are supplemental. NoGi Mind remains data-first: System Logic, Body Position, Details, Outcomes & Branches, Fix It Fast, Safety, and Next Step are the primary teaching surface.
 
 ## Rules
 

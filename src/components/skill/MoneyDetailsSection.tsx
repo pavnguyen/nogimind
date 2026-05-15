@@ -28,7 +28,7 @@ export const MoneyDetailsSection = ({ view }: Props) => {
 
   return (
     <SectionAccordion
-      id="money-details"
+      id="details"
       title={t('cardOS.moneyDetails')}
       badge={`${view.topDetails.length} ${t('cardOS.details')}`}
       accentColor="emerald"

@@ -106,7 +106,7 @@ Attacker body part → defender body part.
 Force direction.
 Correction cue.
 
-3. Money Details
+3. Details
 Micro details.
 Blackbelt mechanics.
 Clamp/angle/pressure/finish details.
@@ -153,9 +153,9 @@ Do NOT delete the data.
 Merge them:
 
 Quick Start → System Logic
-Micro Details → Money Details
-Blackbelt Details → Money Details
-Quality Checklist → Money Details + Fix It Fast
+Micro Details → Details
+Blackbelt Details → Details
+Quality Checklist → Details + Fix It Fast
 Related Knowledge → Next Step
 Attacker / Defender → Body Position + Outcomes & Branches
 
@@ -256,10 +256,10 @@ French examples:
 - La poitrine de l’attaquant reste collée au haut du dos du défenseur.
 
 ==================================================
-SECTION 3 — MONEY DETAILS
+SECTION 3 — DETAILS
 ==================================================
 
-Money Details merges:
+Details merges:
 
 - microDetailSystem
 - blackbeltDetails
@@ -269,7 +269,7 @@ Money Details merges:
 
 Show:
 
-A. Top 5 Money Details
+A. Top 5 Details
 
 B. Mechanics Groups:
 - Clamp
@@ -626,7 +626,7 @@ Requirements:
 Index:
 - System Logic
 - Body Position
-- Money Details
+- Details
 - Outcomes & Branches
 - Fix It Fast
 - Safety
@@ -635,9 +635,9 @@ Index:
 
 Old anchors map:
 - quick-start → system-logic
-- micro-details → money-details
-- blackbelt-details → money-details
-- quality-checklist → money-details
+- micro-details → details
+- blackbelt-details → details
+- quality-checklist → details
 - attacker-defender → outcomes-branches
 - related-knowledge → next-step
 
@@ -674,7 +674,7 @@ Warn for:
 - missing defender reaction
 - too many Next Step items
 - duplicated content across sections
-- Money Details too long
+- Details too long
 - System Logic too long
 
 ==================================================
@@ -767,7 +767,7 @@ Done when:
 7. Body Position shows attacker/defender body maps.
 8. Contact cards show attacker body part → defender body part.
 9. One-Minute Mode exists.
-10. Money Details merges micro, blackbelt, quality signals.
+10. Details merges micro, blackbelt, quality signals.
 11. Fix It Fast exists.
 12. Next Step replaces Related Knowledge.
 13. Search anchors are updated.

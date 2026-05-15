@@ -4,7 +4,7 @@ Audit date: May 2026.
 
 ## Review Standard
 
-Each implemented skill was checked for title clarity, category fit, EN/VI/FR presence, System Logic, Body Position, Money Details, Outcomes & Branches, Fix It Fast, Safety, relationship quality, glossary/search discoverability, duplicate risk, and modern no-gi context.
+Each implemented skill was checked for title clarity, category fit, EN/VI/FR presence, System Logic, Body Position, Details, Outcomes & Branches, Fix It Fast, Safety, relationship quality, glossary/search discoverability, duplicate risk, and modern no-gi context.
 
 ## Global Result
 

@@ -1,6 +1,6 @@
 # Hard Redesign Report
 
-NoGi Mind now uses a Technique Card OS for skill detail pages. The old scattered detail surface was replaced by a compact learning flow: System Logic, Body Position, Money Details, Outcomes & Branches, Fix It Fast, conditional Safety, and Next Step.
+NoGi Mind now uses a Technique Card OS for skill detail pages. The old scattered detail surface was replaced by a compact learning flow: System Logic, Body Position, Details, Outcomes & Branches, Fix It Fast, conditional Safety, and Next Step.
 
 ## Replaced Structure
 
@@ -12,7 +12,7 @@ NoGi Mind now uses a Technique Card OS for skill detail pages. The old scattered
 
 - Quick cards feed System Logic and One-Minute Mode.
 - Body-to-body data feeds Body Position, body maps, and contact cards.
-- Micro details, blackbelt details, checklist signals, common mistakes, and failure responses feed Money Details and Fix It Fast.
+- Micro details, blackbelt details, checklist signals, common mistakes, and failure responses feed Details and Fix It Fast.
 - State machines, if/then decisions, reactions, and chains feed Outcomes & Branches.
 - Related skills and shared knowledge feed capped Next Step lists.
 

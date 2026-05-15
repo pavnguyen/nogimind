@@ -38,5 +38,5 @@ const qualityGaps = skillNodes.filter(skill => {
   return !hasBodyPosition || !hasMoneyDetails
 }).map(s => ({ id: s.id, phases: s.bodyToBodyDetails?.phases.length, details: s.microDetailSystem?.topFiveDetails?.length }))
 
-console.log('\n--- Quality Gaps (Incomplete Body Position or Money Details) ---')
+console.log('\n--- Quality Gaps (Incomplete Body Position or Details) ---')
 console.log(JSON.stringify(qualityGaps, null, 2))

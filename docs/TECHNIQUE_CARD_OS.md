@@ -6,7 +6,7 @@ Technique Card OS is the production learning model for NoGi Mind.
 
 - System Logic: why the technique works and what must be true.
 - Body Position: exact attacker/defender placement and contact cards.
-- Money Details: top details, mechanics groups, quality signals, and leaks.
+- Details: top details, mechanics groups, quality signals, and leaks.
 - Outcomes & Branches: success, failure, counters, resets, and reactions.
 - Fix It Fast: problem-first repair cards.
 - Safety: top-level only for high-risk or safety-relevant skills.

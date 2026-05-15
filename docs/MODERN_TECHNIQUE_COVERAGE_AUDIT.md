@@ -40,7 +40,7 @@ Audit date: May 2026.
 - Triangle System.
 - Omoplata System.
 
-Each now has Body Position, Money Details, quality signals, Fix It Fast inputs, safety, and search aliases.
+Each now has Body Position, Details, quality signals, Fix It Fast inputs, safety, and search aliases.
 
 ## Planned Modern Coverage
 

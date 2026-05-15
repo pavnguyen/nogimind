@@ -151,7 +151,7 @@ For each implemented technique, check:
 - quickCard
 - System Logic / conceptualTeaching
 - Body Position / body-to-body details
-- Money Details
+- Details
 - Outcomes & Branches
 - Fix It Fast
 - Safety
@@ -562,7 +562,7 @@ Every implemented technique must include:
 - defender reaction
 - correction cue
 
-3. Money Details
+3. Details
 - top 5 micro details
 - clamp/angle/pressure/finish mechanics
 - quality signals
@@ -739,7 +739,7 @@ Index:
 - tags
 - System Logic
 - Body Position
-- Money Details
+- Details
 - Outcomes & Branches
 - Fix It Fast
 - Safety
@@ -938,7 +938,7 @@ Fail for:
 - TODO placeholders
 - implemented technique missing System Logic
 - implemented technique missing Body Position
-- implemented technique missing Money Details
+- implemented technique missing Details
 - implemented technique missing Outcomes & Branches
 - implemented technique missing Fix It Fast
 - high-risk technique missing Safety

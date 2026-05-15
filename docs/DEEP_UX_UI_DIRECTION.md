@@ -30,7 +30,7 @@ Navigation should stay problem-oriented:
 ## Skill Detail Order
 
 1. Quick Start.
-2. Money Details.
+2. Details.
 3. Contact Map.
 4. Ready Check.
 5. Key Terms.

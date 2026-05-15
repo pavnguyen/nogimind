@@ -505,7 +505,7 @@ export const en = {
       subtitle: 'Use this loop when you are preparing to drill or fixing a live-round problem.',
       0: { title: 'Locate the position', body: 'Start from the position or body shape that keeps appearing.' },
       1: { title: 'Open the skill', body: 'Use the skill page as the main technical manual.' },
-      2: { title: 'Check contacts', body: 'Audit body-to-body contact, money details, and ready checks.' },
+      2: { title: 'Check contacts', body: 'Audit body-to-body contact, details, and ready checks.' },
       3: { title: 'Choose the branch', body: 'Study the escape map or chain so resistance has a planned answer.' },
     },
     fastReferences: 'Fast references',

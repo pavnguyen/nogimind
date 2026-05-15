@@ -41,7 +41,7 @@ A. Improve existing content
 - add missing body-position details
 - add missing attacker/defender details
 - add missing System Logic
-- add missing Money Details
+- add missing Details
 - add missing Fix It Fast
 - add missing Outcomes & Branches
 - add missing Safety
@@ -77,7 +77,7 @@ For each existing skill/technique/submission/transition, review:
 3. English/Vietnamese/French quality
 4. System Logic quality
 5. Body Position quality
-6. Money Details quality
+6. Details quality
 7. Outcomes & Branches quality
 8. Fix It Fast quality
 9. Safety quality
@@ -172,7 +172,7 @@ For each existing skill, ensure it has:
 - defender reaction
 - correction cue
 
-3. Money Details
+3. Details
 - top 5 details
 - clamp / angle / pressure / finish mechanics
 - quality signals
@@ -495,7 +495,7 @@ Fail for:
 - TODO placeholders
 - implemented skill missing System Logic
 - implemented skill missing Body Position
-- implemented skill missing Money Details
+- implemented skill missing Details
 - implemented skill missing Outcomes & Branches
 - implemented skill missing Fix It Fast
 - high-risk skill missing Safety

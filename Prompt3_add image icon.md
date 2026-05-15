@@ -58,7 +58,7 @@ This should support the core sections:
 
 - System Logic
 - Body Position
-- Money Details
+- Details
 - Outcomes & Branches
 - Fix It Fast
 - Safety
@@ -329,7 +329,7 @@ Use:
 - ForceDirectionBadge
 - ContactTypeBadge
 
-3. Money Details
+3. Details
 Use body part badges and contact type badges.
 Do not make this visual-heavy.
 

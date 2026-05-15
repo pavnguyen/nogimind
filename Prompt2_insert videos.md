@@ -37,7 +37,7 @@ NoGi Mind’s core teaching remains:
 
 1. System Logic
 2. Body Position
-3. Money Details
+3. Details
 4. Outcomes & Branches
 5. Fix It Fast
 6. Safety
@@ -483,7 +483,7 @@ Update Skill Detail structure:
 
 1. System Logic
 2. Body Position
-3. Money Details
+3. Details
 4. Outcomes & Branches
 5. Fix It Fast
 6. Safety if relevant
