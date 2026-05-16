@@ -1,6 +1,6 @@
 import { NavLink, Link } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
-import { Search, X, Home, Compass, BookOpen, Wrench, Zap, Map as MapIcon } from 'lucide-react'
+import { Search, X, Home, BookOpen, Wrench, Zap, Map as MapIcon } from 'lucide-react'
 import { useUiStore } from '../../stores/useUiStore'
 import { cn } from '../../utils/cn'
 import { primaryNavItems } from './navItems'

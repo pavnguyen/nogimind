@@ -1,6 +1,6 @@
 import { memo } from 'react'
 import { Link } from 'react-router-dom'
-import { ArrowRight, GitFork, Network } from 'lucide-react'
+import { GitFork, Network } from 'lucide-react'
 import { useTranslation } from 'react-i18next'
 import type { SkillNode } from '../../types/skill'
 import { useSettingsStore } from '../../stores/useSettingsStore'

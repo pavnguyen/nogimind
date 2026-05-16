@@ -93,7 +93,7 @@ const mkCheck = (
   relatedMicroDetailIds,
 })
 
-const makeSystem = (id: string, title: string, overview: string, kind: 'control' | 'escape' | 'guard' | 'wrestling' | 'safety'): MicroDetailSystem => {
+const makeSystem = (id: string, title: string, _overview: string, kind: 'control' | 'escape' | 'guard' | 'wrestling' | 'safety'): MicroDetailSystem => {
   const titleViMap: Record<string, string> = {
     'positional-hierarchy': 'Thứ bậc vị trí',
     'inside-position': 'Đường trong',

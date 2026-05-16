@@ -43,8 +43,8 @@ export const priorityNoGiMicroDetailSystems: Record<string, MicroDetailSystem> =
     troubleshootingTips: [
       {
         problem: lt('Khó khóa tam giác', 'Hard to lock triangle', 'Difficile de verrouiller triangle'),
-        cause: lt('Chân đối thủ duỗi thẳng', 'Opponent leg is straight', 'Jambe adverse droite'),
-        fix: lt('Kéo gập gối họ lại', 'Bend their knee', 'Plier leur genou')
+        cue: lt('Chân đối thủ duỗi thẳng', 'Opponent leg is straight', 'Jambe adverse droite'),
+        quickFix: lt('Kéo gập gối họ lại', 'Bend their knee', 'Plier leur genou')
       }
     ],
     doNotDo: la(['Chưa cập nhật'], ['Pending update'], ['Mise à jour en attente']),
@@ -97,7 +97,7 @@ export const priorityNoGiMicroDetailSystems: Record<string, MicroDetailSystem> =
   'back-attack-system': {
     overview: lt('Hệ thống tấn công từ lưng.', 'Attacking system from back.', 'Système attaque depuis dos.'),
     topFiveDetails: [
-      md('bas-trap', 'arm', lt('Trap cánh tay', 'Trap arm', 'Bloquer bras'), lt('Dùng chân khóa tay đối thủ.', 'Use leg to trap opponent arm.', 'Utiliser jambe pour bloquer bras adverse.'), 'near', 'close_in', ['legs', 'arms'], lt('Khi muốn RNC.', 'When going for RNC.', 'Quand chercher RNC.'), lt('Loại bỏ phòng thủ.', 'Removes defense.', 'Enlève défense.'), lt('Chỉ bóp cổ.', 'Only squeezing neck.', 'Seulement serrer cou.'), lt('Trap arm.', 'Trap arm.', 'Bloquer bras.'), lt('Tay bị khóa.', 'Arm is trapped.', 'Bras bloqué.'), safetyText)
+      md('bas-trap', 'hand', lt('Trap cánh tay', 'Trap arm', 'Bloquer bras'), lt('Dùng chân khóa tay đối thủ.', 'Use leg to trap opponent arm.', 'Utiliser jambe pour bloquer bras adverse.'), 'near', 'close_in', ['legs', 'arms'], lt('Khi muốn RNC.', 'When going for RNC.', 'Quand chercher RNC.'), lt('Loại bỏ phòng thủ.', 'Removes defense.', 'Enlève défense.'), lt('Chỉ bóp cổ.', 'Only squeezing neck.', 'Seulement serrer cou.'), lt('Trap arm.', 'Trap arm.', 'Bloquer bras.'), lt('Tay bị khóa.', 'Arm is trapped.', 'Bras bloqué.'), safetyText)
     ],
     leftRightGuides: [],
     fastFinishPaths: [],
@@ -105,10 +105,10 @@ export const priorityNoGiMicroDetailSystems: Record<string, MicroDetailSystem> =
     doNotDo: la(['Chưa cập nhật'], ['Pending update'], ['Mise à jour en attente']),
     safetyNotes: la(['Chưa cập nhật'], ['Pending update'], ['Mise à jour en attente']),
   },
-  'leg-lock-defense': {
-    overview: lt('Bảo vệ gối, giấu gót chân.', 'Protect knee, hide heel.', 'Protéger genou, cacher talon.'),
+  'leg-lock-defense-basics': {
+    overview: lt('Cơ bản về phòng thủ leg lock, bảo vệ gót.', 'Basics of leg lock defense, protecting the heel.', 'Bases de la défense contre les clés de jambes, protection du talon.'),
     topFiveDetails: [
-      md('lld-hide', 'heel', lt('Giấu gót chân', 'Hide heel', 'Cacher talon'), lt('Che gót khỏi tay đối thủ.', 'Hide heel from opponent hands.', 'Cacher talon des mains adverses.'), 'inside', 'hide', ['heels'], lt('Khi bị bắt chân.', 'When leg is caught.', 'Quand jambe est prise.'), lt('Tránh heel hook.', 'Avoids heel hook.', 'Évite heel hook.'), lt('Để lộ gót.', 'Exposing heel.', 'Exposer talon.'), lt('Hide heel.', 'Hide heel.', 'Cacher talon.'), lt('Gót an toàn.', 'Heel is safe.', 'Talon sûr.'), safetyText)
+      md('lld-hide', 'foot', lt('Giấu gót chân', 'Hide heel', 'Cacher talon'), lt('Che gót khỏi tay đối thủ.', 'Hide heel from opponent hands.', 'Cacher talon des mains adverses.'), 'inside', 'hide', ['heels'], lt('Khi bị bắt chân.', 'When leg is caught.', 'Quand jambe est prise.'), lt('Tránh heel hook.', 'Avoids heel hook.', 'Évite heel hook.'), lt('Để lộ gót.', 'Exposing heel.', 'Exposer talon.'), lt('Hide heel.', 'Hide heel.', 'Cacher talon.'), lt('Gót an toàn.', 'Heel is safe.', 'Talon sûr.'), safetyText)
     ],
     leftRightGuides: [],
     fastFinishPaths: [],

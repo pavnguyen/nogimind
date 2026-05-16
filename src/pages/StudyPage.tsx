@@ -148,7 +148,7 @@ export default function StudyPage() {
                     <div className="h-1.5 w-8 rounded-full bg-slate-800">
                       <div 
                         className="h-full rounded-full bg-emerald-400/40" 
-                        style={{ width: skill.complexity === 'advanced' ? '100%' : skill.complexity === 'intermediate' ? '65%' : '35%' }} 
+                        style={{ width: skill.level === 'advanced' ? '100%' : skill.level === 'intermediate' ? '65%' : '35%' }} 
                       />
                     </div>
                   </div>

@@ -3,7 +3,7 @@ import type { VideoReference } from '../../types/video'
 export const newTrustedVideos: VideoReference[] = [
   {
     "id": "jozef-chen-bodylock-passing-details",
-    "provider": "youtube",
+    "provider": "youtube", "relevance": "supplemental", "level": "intermediate",
     "title": {
       "en": "Jozef Chen - Bodylock Passing Masterclass & Details",
       "vi": "Jozef Chen - Bodylock Passing Masterclass & Details",
@@ -52,7 +52,7 @@ export const newTrustedVideos: VideoReference[] = [
   },
   {
     "id": "jozef-chen-guard-retention-frames",
-    "provider": "youtube",
+    "provider": "youtube", "relevance": "supplemental", "level": "intermediate",
     "title": {
       "en": "Jozef Chen - Guard Retention and Framing Concepts",
       "vi": "Jozef Chen - Guard Retention and Framing Concepts",
@@ -101,7 +101,7 @@ export const newTrustedVideos: VideoReference[] = [
   },
   {
     "id": "carsahh-heel-hook-mechanics",
-    "provider": "youtube",
+    "provider": "youtube", "relevance": "supplemental", "level": "intermediate",
     "title": {
       "en": "Carsahh - Inside Heel Hook Finishing Details",
       "vi": "Carsahh - Inside Heel Hook Finishing Details",
@@ -150,7 +150,7 @@ export const newTrustedVideos: VideoReference[] = [
   },
   {
     "id": "miyao-brothers-berimbolo-system",
-    "provider": "youtube",
+    "provider": "youtube", "relevance": "supplemental", "level": "intermediate",
     "title": {
       "en": "Miyao Brothers - No Gi Berimbolo System",
       "vi": "Miyao Brothers - No Gi Berimbolo System",
@@ -200,7 +200,7 @@ export const newTrustedVideos: VideoReference[] = [
   },
   {
     "id": "miyao-brothers-crab-ride-details",
-    "provider": "youtube",
+    "provider": "youtube", "relevance": "supplemental", "level": "intermediate",
     "title": {
       "en": "Miyao Brothers - Crab Ride to Back Take",
       "vi": "Miyao Brothers - Crab Ride to Back Take",
@@ -250,7 +250,7 @@ export const newTrustedVideos: VideoReference[] = [
   },
   {
     "id": "bear-trap-split-squat-0Ze-27RK4pk",
-    "provider": "youtube",
+    "provider": "youtube", "relevance": "supplemental", "level": "intermediate",
     "title": {
       "en": "Ham Sandwich Aka Bear Trap fr top split squat vs knee shield",
       "vi": "Ham Sandwich Aka Bear Trap fr top split squat vs knee shield",
@@ -294,7 +294,7 @@ export const newTrustedVideos: VideoReference[] = [
   },
   {
     "id": "bear-trap-basic-2REyZWJj70g",
-    "provider": "youtube",
+    "provider": "youtube", "relevance": "supplemental", "level": "intermediate",
     "title": {
       "en": "Bear Trap - Ham Sandwich",
       "vi": "Bear Trap - Ham Sandwich",
@@ -338,7 +338,7 @@ export const newTrustedVideos: VideoReference[] = [
   },
   {
     "id": "calf-slicer-bear-trap-top-Ax-Xg3wRXlI",
-    "provider": "youtube",
+    "provider": "youtube", "relevance": "supplemental", "level": "intermediate",
     "title": {
       "en": "Calf Slicer Bear Trap Ham Sandwich Submission from top",
       "vi": "Calf Slicer Bear Trap Ham Sandwich Submission from top",
@@ -382,7 +382,7 @@ export const newTrustedVideos: VideoReference[] = [
   },
   {
     "id": "bear-trap-butterfly-QXGV-Z3OyZ4",
-    "provider": "youtube",
+    "provider": "youtube", "relevance": "supplemental", "level": "intermediate",
     "title": {
       "en": "Bear Trap & Ham Sandwich from Butterfly",
       "vi": "Bear Trap & Ham Sandwich from Butterfly",
@@ -429,7 +429,7 @@ export const newTrustedVideos: VideoReference[] = [
   },
   {
     "id": "bear-trap-ham-sandwich-TRzTHe8tlgQ",
-    "provider": "youtube",
+    "provider": "youtube", "relevance": "supplemental", "level": "intermediate",
     "title": {
       "en": "Bear Trap or Ham Sandwich calf slicer",
       "vi": "Bear Trap or Ham Sandwich calf slicer",
@@ -471,7 +471,7 @@ export const newTrustedVideos: VideoReference[] = [
   },
   {
     "id": "half-nelson-crucifix-C624_fJSqUY",
-    "provider": "youtube",
+    "provider": "youtube", "relevance": "supplemental", "level": "intermediate",
     "title": {
       "en": "Half Nelson to Crucifix",
       "vi": "Half Nelson to Crucifix",
@@ -514,7 +514,7 @@ export const newTrustedVideos: VideoReference[] = [
   },
   {
     "id": "crucifix-submissions-capizzi-GAhPCBj9MGo",
-    "provider": "youtube",
+    "provider": "youtube", "relevance": "supplemental", "level": "intermediate",
     "title": {
       "en": "BJJ Submissions from the Crucifix - Joseph Capizzi",
       "vi": "BJJ Submissions from the Crucifix - Joseph Capizzi",
@@ -557,7 +557,7 @@ export const newTrustedVideos: VideoReference[] = [
   },
   {
     "id": "no-gi-crucifix-part-2-ObnVX_YqiEI",
-    "provider": "youtube",
+    "provider": "youtube", "relevance": "supplemental", "level": "intermediate",
     "title": {
       "en": "No Gi Crucifix Part 2: the top 2 crucifix submissions you should learn",
       "vi": "No Gi Crucifix Part 2: the top 2 crucifix submissions you should learn",
@@ -600,7 +600,7 @@ export const newTrustedVideos: VideoReference[] = [
   },
   {
     "id": "attack-crucifix-turtle-ejFWRJtuvL8",
-    "provider": "youtube",
+    "provider": "youtube", "relevance": "supplemental", "level": "intermediate",
     "title": {
       "en": "Attack the Crucifix from Turtle",
       "vi": "Attack the Crucifix from Turtle",
@@ -645,7 +645,7 @@ export const newTrustedVideos: VideoReference[] = [
   },
   {
     "id": "strong-crucifix-wz79m3AY964",
-    "provider": "youtube",
+    "provider": "youtube", "relevance": "supplemental", "level": "intermediate",
     "title": {
       "en": "How to Apply a Strong Crucifix, (Every Belt must know)",
       "vi": "How to Apply a Strong Crucifix, (Every Belt must know)",
@@ -688,7 +688,7 @@ export const newTrustedVideos: VideoReference[] = [
   },
   {
     "id": "k-guard-keymaster-FTPim_Wf_-E",
-    "provider": "youtube",
+    "provider": "youtube", "relevance": "supplemental", "level": "intermediate",
     "title": {
       "en": "K Guard and KEYMASTER | No-gi leglock entries",
       "vi": "K Guard and KEYMASTER | No-gi leglock entries",
@@ -733,7 +733,7 @@ export const newTrustedVideos: VideoReference[] = [
   },
   {
     "id": "k-guard-details-cslXcNuQm3M",
-    "provider": "youtube",
+    "provider": "youtube", "relevance": "supplemental", "level": "intermediate",
     "title": {
       "en": "K Guard Details",
       "vi": "K Guard Details",
@@ -776,7 +776,7 @@ export const newTrustedVideos: VideoReference[] = [
   },
   {
     "id": "craig-jones-false-reap-nwHGAwRtKRI",
-    "provider": "youtube",
+    "provider": "youtube", "relevance": "supplemental", "level": "intermediate",
     "title": {
       "en": "Craig Jones Fixes his ADCC False Reap Mistake | B-Team Technique",
       "vi": "Craig Jones Fixes his ADCC False Reap Mistake | B-Team Technique",
@@ -820,7 +820,7 @@ export const newTrustedVideos: VideoReference[] = [
   },
   {
     "id": "false-reap-inside-heel-hook-Ey1ogivIC_s",
-    "provider": "youtube",
+    "provider": "youtube", "relevance": "supplemental", "level": "intermediate",
     "title": {
       "en": "False Reap to Inside Heel Hook by Chris Wojcik | B-Team Technique",
       "vi": "False Reap to Inside Heel Hook by Chris Wojcik | B-Team Technique",
@@ -863,7 +863,7 @@ export const newTrustedVideos: VideoReference[] = [
   },
   {
     "id": "how-to-deep-half-0MnbWcnlwQY",
-    "provider": "youtube",
+    "provider": "youtube", "relevance": "supplemental", "level": "intermediate",
     "title": {
       "en": "HOW TO use the DEEP HALF GUARD in BJJ",
       "vi": "HOW TO use the DEEP HALF GUARD in BJJ",
@@ -906,7 +906,7 @@ export const newTrustedVideos: VideoReference[] = [
   },
   {
     "id": "cyborg-deep-half-armbar-n0cRb-0GSh8",
-    "provider": "youtube",
+    "provider": "youtube", "relevance": "supplemental", "level": "intermediate",
     "title": {
       "en": "Cyborg - Half Guard to Deep Half to Back to Armbar",
       "vi": "Cyborg - Half Guard to Deep Half to Back to Armbar",

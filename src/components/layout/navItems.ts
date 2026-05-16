@@ -1,7 +1,6 @@
 import {
   BookOpen,
   BrainCircuit,
-  Compass,
   Home,
   Layers3,
   Map as MapIcon,

@@ -9966,6 +9966,5 @@ export const videoReferences: VideoReference[] = [
     },
     "sourceNote": "Public YouTube No-Gi reference selected for NoGiMind coverage expansion."
   },
-,
   ...newTrustedVideos
 ]
