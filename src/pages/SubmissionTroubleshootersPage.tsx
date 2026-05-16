@@ -16,7 +16,8 @@ const categories = ['choke', 'joint_lock', 'leg_lock', 'back', 'front_headlock',
 export default function SubmissionTroubleshootersPage() {
   const { t } = useTranslation()
   const lang = useSettingsStore((state) => state.language)
-  const skills = useSkillsQuery().data ?? []
+  const skillsQuery = useSkillsQuery()
+  const skills = useMemo(() => skillsQuery.data ?? [], [skillsQuery.data])
   const [searchParams, setSearchParams] = useSearchParams()
   const query = searchParams.get('q') ?? ''
   const category = searchParams.get('category') ?? ''

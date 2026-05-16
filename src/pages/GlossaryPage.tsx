@@ -14,8 +14,10 @@ export default function GlossaryPage() {
   const { t } = useTranslation()
   const [searchParams, setSearchParams] = useSearchParams()
   const language = useSettingsStore((state) => state.language)
-  const terms = useGlossaryQuery().data ?? []
-  const skills = useSkillsQuery().data ?? []
+  const termsQuery = useGlossaryQuery()
+  const terms = useMemo(() => termsQuery.data ?? [], [termsQuery.data])
+  const skillsQuery = useSkillsQuery()
+  const skills = useMemo(() => skillsQuery.data ?? [], [skillsQuery.data])
   const byId = new Map(skills.map((skill) => [skill.id, skill]))
   const query = searchParams.get('q') ?? ''
   const parentRef = useRef<HTMLDivElement>(null)
@@ -33,6 +35,7 @@ export default function GlossaryPage() {
     })
   }, [language, query, terms])
 
+  // eslint-disable-next-line react-hooks/incompatible-library
   const virtualizer = useVirtualizer({
     count: filtered.length,
     getScrollElement: () => parentRef.current,

@@ -39,7 +39,8 @@ export default function StudyPage() {
   const lang = useSettingsStore((state) => state.language)
   const navigate = useNavigate()
   const [searchParams, setSearchParams] = useSearchParams()
-  const skills = useSkillsQuery().data ?? []
+  const skillsQuery = useSkillsQuery()
+  const skills = useMemo(() => skillsQuery.data ?? [], [skillsQuery.data])
   const { recentlyViewed, recordView } = useRecentlyViewedStore()
   const [expandedSkills, setExpandedSkills] = useState<Set<string>>(new Set())
   const [quickStudyMode, setQuickStudyMode] = useState(false)

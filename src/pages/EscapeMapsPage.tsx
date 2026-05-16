@@ -16,7 +16,8 @@ const categories = ['back_control', 'mount', 'side_control', 'passing', 'submiss
 export default function EscapeMapsPage() {
   const { t } = useTranslation()
   const lang = useSettingsStore((state) => state.language)
-  const skills = useSkillsQuery().data ?? []
+  const skillsQuery = useSkillsQuery()
+  const skills = useMemo(() => skillsQuery.data ?? [], [skillsQuery.data])
   const [searchParams, setSearchParams] = useSearchParams()
   const query = searchParams.get('q') ?? ''
   const category = searchParams.get('category') ?? ''

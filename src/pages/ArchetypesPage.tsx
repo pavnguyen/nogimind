@@ -15,7 +15,8 @@ export default function ArchetypesPage() {
   const { t } = useTranslation()
   const language = useSettingsStore((state) => state.language)
   const [searchParams, setSearchParams] = useSearchParams()
-  const archetypes = useArchetypesQuery().data ?? []
+  const archetypesQuery = useArchetypesQuery()
+  const archetypes = useMemo(() => archetypesQuery.data ?? [], [archetypesQuery.data])
   const query = searchParams.get('q') ?? ''
 
   const filtered = useMemo(() => {

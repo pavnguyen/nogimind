@@ -17,7 +17,8 @@ export default function ConceptsPage() {
   const { t } = useTranslation()
   const language = useSettingsStore((state) => state.language)
   const [searchParams, setSearchParams] = useSearchParams()
-  const concepts = useConceptsQuery().data ?? []
+  const conceptsQuery = useConceptsQuery()
+  const concepts = useMemo(() => conceptsQuery.data ?? [], [conceptsQuery.data])
   const query = searchParams.get('q') ?? ''
   const category = conceptCategories.includes(searchParams.get('category') as ConceptCategory) ? (searchParams.get('category') as ConceptCategory) : ''
 

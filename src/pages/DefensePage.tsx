@@ -17,7 +17,8 @@ export default function DefensePage() {
   const { t } = useTranslation()
   const language = useSettingsStore((state) => state.language)
   const [searchParams, setSearchParams] = useSearchParams()
-  const layers = useDefensiveLayersQuery().data ?? []
+  const layersQuery = useDefensiveLayersQuery()
+  const layers = useMemo(() => layersQuery.data ?? [], [layersQuery.data])
   const query = searchParams.get('q') ?? ''
   const category = safetyCategories.includes(searchParams.get('category') as SafetyCategory) ? (searchParams.get('category') as SafetyCategory) : ''
 

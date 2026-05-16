@@ -87,9 +87,12 @@ const hubLinks = [
 export default function DashboardPage() {
   const { t } = useTranslation()
   const lang = useSettingsStore((state) => state.language)
-  const skills = useSkillsQuery().data ?? []
-  const concepts = useConceptsQuery().data ?? []
-  const positions = usePositionsQuery().data ?? []
+  const skillsQuery = useSkillsQuery()
+  const skills = useMemo(() => skillsQuery.data ?? [], [skillsQuery.data])
+  const conceptsQuery = useConceptsQuery()
+  const concepts = useMemo(() => conceptsQuery.data ?? [], [conceptsQuery.data])
+  const positionsQuery = usePositionsQuery()
+  const positions = useMemo(() => positionsQuery.data ?? [], [positionsQuery.data])
   const microDetails = useMemo(() => getMicroDetails(skills), [skills])
 
   // Daily picks for the 7-item rotation
@@ -97,8 +100,8 @@ export default function DashboardPage() {
   const concept = useMemo(() => pickDailyItem(concepts, 'concept'), [concepts])
   const position = useMemo(() => pickDailyItem(positions, 'position'), [positions])
   const conceptAlt = useMemo(() => pickDailyItem(concepts, 'concept-alt'), [concepts])
-  const trainingTip = useMemo(() => pickDailyItem(trainingMethods, 'training-tip'), [trainingMethods])
-  const safetyLayer = useMemo(() => pickDailyItem(defensiveLayers, 'safety'), [defensiveLayers])
+  const trainingTip = useMemo(() => pickDailyItem(trainingMethods, 'training-tip'), [])
+  const safetyLayer = useMemo(() => pickDailyItem(defensiveLayers, 'safety'), [])
   const skillInsight = useMemo(() => pickDailyItem(skills, 'skill-insight'), [skills])
 
   // Stats

@@ -17,7 +17,8 @@ export default function PositionsPage() {
   const { t } = useTranslation()
   const language = useSettingsStore((state) => state.language)
   const [searchParams, setSearchParams] = useSearchParams()
-  const positions = usePositionsQuery().data ?? []
+  const positionsQuery = usePositionsQuery()
+  const positions = useMemo(() => positionsQuery.data ?? [], [positionsQuery.data])
   const query = searchParams.get('q') ?? ''
   const category = positionCategories.includes(searchParams.get('category') as PositionCategory) ? (searchParams.get('category') as PositionCategory) : ''
 
