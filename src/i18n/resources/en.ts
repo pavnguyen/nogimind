@@ -148,7 +148,7 @@ export const en = {
         steps: {
           0: { title: 'Choose one skill', body: 'Focus your attention instead of sampling everything.' },
           1: { title: 'Read the concept and position', body: 'Understand the system that makes the skill work.' },
-          3: { title: 'Check escape maps', body: 'See how the skill connects to the next branch.' },
+          3: { title: 'Explore the skill map', body: 'See how skills connect and branch together.' },
         },
       },
       fix: {

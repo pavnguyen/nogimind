@@ -215,7 +215,7 @@ export const vi = {
         steps: {
           0: { title: 'Chọn một kỹ năng', body: 'Tập trung một mục thay vì nhảy qua quá nhiều thứ.' },
           1: { title: 'Đọc khái niệm và vị trí', body: 'Hiểu hệ thống đứng sau kỹ năng.' },
-          3: { title: 'Xem chuỗi đòn', body: 'Biết kỹ năng nối sang nhánh tiếp theo ra sao.' },
+          3: { title: 'Khám phá bản đồ kỹ năng', body: 'Xem cách các kỹ năng liên kết và rẽ nhánh với nhau.' },
         },
       },
       fix: {
