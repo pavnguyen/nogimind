@@ -22,15 +22,12 @@ import type {
   SkillNode,
   SkillTest,
 } from '../types/skill'
-import { sharedKnowledgeItems } from './sharedKnowledge'
 import { qualityChecklistsBySkillId } from './qualityChecklists'
 import { microDetailSystemBySkillId } from './microDetailSystems'
 import { technicalDetailsBySkillId } from './technicalDetails'
-import { blackbeltDetailsBySkillId, bodyToBodyDetailsBySkillId } from './blackbeltDetails'
-import { bodyToBodyDetailsForSkill, clarifyBodyToBodyDetails } from './generatedBodyToBodyDetails'
+import { blackbeltDetailsBySkillId } from './blackbeltDetails'
 import { la, lt, type SkillSeed } from './skills/skillSeedFactory'
 import { generatedBlackbeltDetailsForSkill } from './generatedBlackbeltDetails'
-const sharedKnowledgeIds = sharedKnowledgeItems.map((item) => item.id)
 
 const firstText = (items: string[]) => items.find((item) => item.trim().length) ?? ''
 
@@ -67,67 +64,6 @@ const quickCardFor = (seedValue: SkillSeed, microDetailSystem?: MicroDetailSyste
         )
       : lt('Reset position and return to the next branch.', 'Reset position and return to the next branch.', 'Réinitialisez la position et revenez à la branche suivante.'),
     safetyReminder: firstLocalizedArrayText(microDetailSystem.safetyNotes),
-  }
-}
-
-const sharedRefsFor = (seedValue: SkillSeed) => {
-  const ids = {
-    principles: ['control_before_submission', 'position_before_finish', 'inside_position_first', 'failure_response_is_part_of_technique'],
-    cues: ['frame_then_move', 'elbow_inside_first', 'knee_returns_to_elbow', 'head_blocks_the_turn', 'win_hand_fight_first'],
-    errors: ['do_not_chase_submission_and_lose_position', 'bench_pressing_escapes', 'flared_elbows_under_pressure', 'head_on_wrong_side', 'hips_too_light_in_passing'],
-    safety: ['tap_timing_safety', 'training_under_supervision'],
-    mechanics: ['frames_are_structure_not_pushes', 'wedges_block_space', 'levers_move_structure', 'hooks_control_rotation', 'posts_are_temporary', 'pressure_needs_direction'],
-  }
-
-  const add = (values: string[], next: string[]) => values.concat(next.filter((id) => sharedKnowledgeIds.includes(id)))
-
-  if (seedValue.domain === 'passing' || seedValue.domain === 'pins_rides' || seedValue.domain === 'back_control') {
-    ids.principles = add(ids.principles, ['connection_before_control', 'angle_before_force', 'stabilize_before_transition'])
-    ids.cues = add(ids.cues, ['lock_hips_before_passing_legs', 'kill_hook_before_clear_knee', 'shoulder_pressure_diagonal', 'chest_to_back_no_space', 'active_toes_drive_pressure'])
-    ids.errors = add(ids.errors, ['releasing_control_after_pass', 'trying_to_pass_before_killing_hooks', 'head_on_wrong_side', 'hips_too_light_in_passing'])
-    ids.mechanics = add(ids.mechanics, ['chest_connection_removes_space', 'hip_line_controls_guard', 'shoulder_line_controls_pins'])
-  }
-
-  if (seedValue.domain === 'guard_retention' || seedValue.domain === 'guard_offense' || seedValue.domain === 'survival_defense' || seedValue.domain === 'escapes') {
-    ids.principles = add(ids.principles, ['early_defense_beats_late_escape', 'elbow_knee_connection'])
-    ids.cues = add(ids.cues, ['frame_then_move', 'elbow_inside_first', 'knee_returns_to_elbow', 'win_inside_knee'])
-    ids.errors = add(ids.errors, ['bench_pressing_escapes', 'flared_elbows_under_pressure', 'head_on_wrong_side'])
-    ids.mechanics = add(ids.mechanics, ['frames_are_structure_not_pushes', 'wedges_block_space', 'hip_line_controls_guard'])
-  }
-
-  if (seedValue.domain === 'submission_systems' || seedValue.tags.some((tag) => ['choke', 'submission', 'heel-hook', 'ankle-lock', 'leg-lock'].includes(tag))) {
-    ids.principles = add(ids.principles, ['control_before_submission', 'remove_slack_before_squeeze', 'isolate_before_pressure', 'hand_fight_before_choke'])
-    ids.cues = add(ids.cues, ['do_not_squeeze_too_early', 'angle_first_squeeze_last', 'win_hand_fight_first', 'keep_elbows_close'])
-    ids.errors = add(ids.errors, ['chasing_finish_without_control', 'squeezing_over_chin_without_alignment', 'rotating_blindly_in_leg_locks'])
-    ids.safety = add(ids.safety, ['leg_lock_general_safety', 'heel_hook_rotation_warning', 'neck_attack_safety', 'do_not_crank_submissions'])
-    ids.mechanics = add(ids.mechanics, ['pressure_needs_direction', 'control_line_discipline', 'weight_on_structure'])
-  }
-
-  if (seedValue.tags.some((tag) => ['leg-lock', 'heel-hook', 'ankle-lock', 'knee-safety'].includes(tag))) {
-    ids.principles = add(ids.principles, ['protect_knee_line', 'hide_heel_before_rotation'])
-    ids.cues = add(ids.cues, ['hide_heel_free_knee_line', 'active_toes_drive_pressure'])
-    ids.errors = add(ids.errors, ['rotating_blindly_in_leg_locks'])
-    ids.safety = add(ids.safety, ['knee_injury_red_flags', 'heel_hook_rotation_warning', 'tap_timing_safety'])
-  }
-
-  if (seedValue.domain === 'wrestle_up_wrestling') {
-    ids.principles = add(ids.principles, ['pummel_before_forcing', 'head_position_controls_direction', 'opponent_reaction_creates_next_attack'])
-    ids.cues = add(ids.cues, ['head_blocks_the_turn', 'win_inside_knee', 'active_toes_drive_pressure'])
-    ids.errors = add(ids.errors, ['head_on_wrong_side', 'bench_pressing_escapes'])
-    ids.mechanics = add(ids.mechanics, ['posts_are_temporary'])
-  }
-
-  if (seedValue.domain === 'positional_awareness') {
-    ids.principles = add(ids.principles, ['control_line_discipline', 'angle_creates_time', 'dilemma_forces_choice', 'escape_is_a_branch'])
-    ids.cues = add(ids.cues, ['rebuild_one_layer', 'guard_layer_order'])
-  }
-
-  return {
-    sharedPrincipleIds: [...new Set(ids.principles)].slice(0, 8),
-    sharedCueIds: [...new Set(ids.cues)].slice(0, 8),
-    sharedErrorIds: [...new Set(ids.errors)].slice(0, 8),
-    sharedSafetyIds: [...new Set(ids.safety)].slice(0, 6),
-    sharedMechanicIds: [...new Set(ids.mechanics)].slice(0, 8),
   }
 }
 
@@ -1739,15 +1675,12 @@ const buildSkill = (seedValue: SkillSeed): SkillNode => ({
   reactionBranches: reactionBranchesFor(seedValue),
   ifThenDecisions: ifThenDecisionsFor(seedValue),
   technicalDetails: technicalDetailsBySkillId[seedValue.id],
-  bodyToBodyDetails: bodyToBodyDetailsBySkillId.get(seedValue.id) ?? bodyToBodyDetailsForSkill(seedValue),
   blackbeltDetails: blackbeltDetailsBySkillId.get(seedValue.id),
   quickCard: quickCardFor(seedValue, microDetailSystemBySkillId.get(seedValue.id)),
-  ...sharedRefsFor(seedValue),
 })
 
 export const finalizeSkill = (skill: SkillNode): SkillNode => ({
   ...skill,
-  bodyToBodyDetails: skill.bodyToBodyDetails ? clarifyBodyToBodyDetails(skill.bodyToBodyDetails) : skill.bodyToBodyDetails,
   blackbeltDetails: skill.blackbeltDetails ?? generatedBlackbeltDetailsForSkill(skill),
 })
 

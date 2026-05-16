@@ -12,7 +12,7 @@
 ## Risk Areas
 
 - `skills-core` remains a large chunk because many generated data systems still land in one imported graph.
-- The Technique Card OS validation now treats missing body-position structure on implemented priority skills as an error.
+- The Technique Card OS validation now treats missing essentials structure on implemented priority skills as an error.
 - Legacy component folders remain because other pages still depend on them.
 
 ## Next Hardening Pass

@@ -1,5 +1,6 @@
 import { useTranslation } from 'react-i18next'
 import { useSearchParams } from 'react-router-dom'
+import { Grid3X3, Share2 } from 'lucide-react'
 import { skillDomains, skillLevels } from '../../data/domains'
 import type { SkillNode } from '../../types/skill'
 
@@ -99,19 +100,33 @@ export const SkillSearchFilters = ({ skills }: { skills: SkillNode[] }) => {
           <option key={value} value={value}>{t(`modern.risk.${value}`)}</option>
         ))}
       </select>
-      <div className="flex rounded-md border border-white/10 bg-slate-900 p-1 md:col-span-2 xl:col-span-1">
-        {(['cards', 'graph'] as const).map((view) => (
-          <button
-            key={view}
-            type="button"
-            onClick={() => setParam('view', view)}
-            className={`flex-1 rounded px-3 py-1.5 text-xs font-semibold ${
-              (searchParams.get('view') ?? 'cards') === view ? 'bg-cyan-300 text-slate-950' : 'text-slate-300'
-            }`}
-          >
-            {t(`common.${view}`)}
-          </button>
-        ))}
+      <div className="rounded-md border border-white/10 bg-slate-900 p-1.5 md:col-span-2 xl:col-span-1">
+        <p className="mb-1 px-1 text-[10px] font-semibold uppercase tracking-wider text-slate-400">
+          Display mode
+        </p>
+        <div className="flex rounded-md bg-slate-950/40 p-1">
+          {([
+            { view: 'cards', icon: Grid3X3, hint: 'Browse list' },
+            { view: 'graph', icon: Share2, hint: 'See relationships' },
+          ] as const).map(({ view, icon: Icon, hint }) => (
+            <button
+              key={view}
+              type="button"
+              onClick={() => setParam('view', view)}
+              className={`flex flex-1 items-center justify-center gap-1.5 rounded px-3 py-1.5 text-xs font-semibold transition-colors ${
+                (searchParams.get('view') ?? 'cards') === view ? 'bg-cyan-300 text-slate-950' : 'text-slate-300 hover:text-slate-100'
+              }`}
+              aria-label={`${t(`common.${view}`)} view`}
+              title={hint}
+            >
+              <Icon className="h-3.5 w-3.5" aria-hidden="true" />
+              {t(`common.${view}`)}
+            </button>
+          ))}
+        </div>
+        <p className="mt-1 px-1 text-[10px] text-slate-500">
+          Cards = quick scanning, Graph = connections
+        </p>
       </div>
     </div>
   )

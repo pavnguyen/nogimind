@@ -10,7 +10,7 @@ Audit date: May 2026.
 | Modern expansion skills | 20 |
 | Advanced niche skills | 2 |
 | Safety-critical skills | 5 |
-| Skills with Body Position | 73 |
+| Skills with Essentials Surface | 73 |
 | Skills with Micro Details | 73 |
 | Skills with Quality Checklists | 73 |
 | Skills with Blackbelt Details | 73 |
@@ -40,7 +40,7 @@ Audit date: May 2026.
 - Triangle System.
 - Omoplata System.
 
-Each now has Body Position, Details, quality signals, Fix It Fast inputs, safety, and search aliases.
+Each now has Execution Cues, Detail Breakdown, quality signals, Fix It Fast inputs, safety, and search aliases.
 
 ## Planned Modern Coverage
 

@@ -4,12 +4,12 @@ Audit date: May 2026.
 
 ## Review Standard
 
-Each implemented skill was checked for title clarity, category fit, EN/VI/FR presence, System Logic, Body Position, Details, Outcomes & Branches, Fix It Fast, Safety, relationship quality, glossary/search discoverability, duplicate risk, and modern no-gi context.
+Each implemented skill was checked for title clarity, category fit, EN/VI/FR presence, System Logic, Execution Cues, Detail Breakdown, Fix It Fast, Safety, relationship quality, glossary/search discoverability, duplicate risk, and modern no-gi context.
 
 ## Global Result
 
 - Implemented skills reviewed: 73.
-- Skills with Body Position: 73/73.
+- Skills with Essentials Surface: 73/73.
 - Skills with Details: 73/73.
 - Skills with quality checklists: 73/73.
 - Skills with quick cards/System Logic inputs: 73/73.
@@ -18,10 +18,10 @@ Each implemented skill was checked for title clarity, category fit, EN/VI/FR pre
 
 ## Priority Improvements Completed
 
-- Armbar, Triangle, and Omoplata were promoted from missing/shallow core submissions to implemented skills with precise body-position systems.
+- Armbar, Triangle, and Omoplata were promoted from missing/shallow core submissions to implemented skills with richer execution-detail systems.
 - Armbar, Triangle, and Omoplata now have hand-authored micro-detail systems, quality checklists, troubleshooting, safety notes, and One-Minute inputs.
 - Modern expansion references were reconnected to implemented skills instead of dangling planned IDs.
-- Search now covers body-position phrases and common problem queries.
+- Search now covers execution-detail phrases and common problem queries.
 
 ## Skill Review Table
 

@@ -5,12 +5,11 @@ Skill Detail now renders through `SkillDetailPageShell` and view-model builders 
 ## New Order
 
 1. System Logic
-2. Body Position
-3. Details
-4. Outcomes & Branches
-5. Fix It Fast
-6. Safety, only when relevant
-7. Next Step
+2. Execution Cues
+3. Detail Breakdown
+4. Fix It Fast
+5. Safety, only when relevant
+6. Next Step
 
 The page is intentionally compact. Each section has one job and receives only the view-model it needs.
 

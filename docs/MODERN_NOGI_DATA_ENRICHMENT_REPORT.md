@@ -6,7 +6,7 @@ All 73 implemented skills were reviewed. Priority attention went to RNC, Armbar,
 
 ## Existing Content Improved
 
-- Armbar System: added micro-detail system, quality checklist, Fix It Fast inputs, safety notes, search coverage, and body-position-oriented cues.
+- Armbar System: added micro-detail system, quality checklist, Fix It Fast inputs, safety notes, search coverage, and execution-oriented cues.
 - Triangle System: added shoulder split, posture, angle, hidden-foot, knees-finish details, troubleshooting, and safety.
 - Omoplata System: added shoulder clamp, wrist pin, hip angle, posture, slow pressure, sweep branch, and safety.
 - Modern expansion relationship placeholders were reconnected to implemented skills.
@@ -25,7 +25,7 @@ The manifest now explicitly tracks additional modern/safety work including Rever
 
 ## Search Improvements
 
-Search now recognizes common technique names, aliases, no-diacritic Vietnamese, French terms, body-position phrases, and problem-based queries for RNC, Armbar, Triangle, Omoplata, False Reap, Guillotine variations, Smother/Compression safety, and rides.
+Search now recognizes common technique names, aliases, no-diacritic Vietnamese, French terms, execution-detail phrases, and problem-based queries for RNC, Armbar, Triangle, Omoplata, False Reap, Guillotine variations, Smother/Compression safety, and rides.
 
 ## Safety Improvements
 

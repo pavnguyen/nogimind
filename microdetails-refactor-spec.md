@@ -63,13 +63,11 @@ Remove the standalone `/micro-details` page and integrate its rich technical cor
 - Badge uses the existing `<Badge>` component with the new `violet` tone for correction content
 - Each card body (wrong/fix/cue) uses the existing localized text structure
 
-**Section position in the 'learn' tab:**
+**Section position in the 'learn' tab (current):**
 1. System Logic (overview, goal, situation, why)
-2. Body Position (contact map, mechanics)
-3. **Key Details** (NEW — inline micro-detail annotations)
-4. Key Details (money details — technical details, quality checks — keep existing)
-5. Outcomes & Branches
-6. Next Step
+2. **Execution Cues** (inline micro-detail annotations)
+3. Detail Breakdown (technical details and quality checks)
+4. Next Step
 
 ### 3. DashboardPage — Keep As-Is
 
@@ -130,7 +128,7 @@ No replacement for the standalone filtered browse experience. When the standalon
 │  │  Overview, goal, situation, why        │ │
 │  └────────────────────────────────────────┘ │
 │                                             │
-│  ┌─ Body Position ────────────────────────┐ │
+│  ┌─ Execution Cues ───────────────────────┐ │
 │  │  Contact map, mechanics               │ │
 │  └────────────────────────────────────────┘ │
 │                                             │
@@ -153,7 +151,7 @@ No replacement for the standalone filtered browse experience. When the standalon
 │  │  Technical details, quality checks    │ │
 │  └────────────────────────────────────────┘ │
 │                                             │
-│  ┌─ Outcomes & Branches ──────────────────┐ │
+│  ┌─ Detail Breakdown ─────────────────────┐ │
 │  │  Decision tree, reactions             │ │
 │  └────────────────────────────────────────┘ │
 └─────────────────────────────────────────────┘

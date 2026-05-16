@@ -16,7 +16,7 @@ This document outlines the guidelines for researching and gathering technical da
 - **No Proprietary Wording**: Do not use unique, trademarked phrasing or proprietary instructional structures as if they were our own.
 - **No Copyright Infringement**: Do not copy content from BJJGraph, other grappling apps, or paid subscription sites.
 - **No Piracy**: Do not link to or embed pirated video content.
-- **No Shallow Filler**: Avoid generic or AI-generated "fluff." Every detail must be practical and body-position precise.
+- **No Shallow Filler**: Avoid generic or AI-generated "fluff." Every detail must be practical and execution-detail precise.
 
 ## 2. Content Originality
 

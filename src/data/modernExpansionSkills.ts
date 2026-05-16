@@ -1,13 +1,9 @@
 import type {
   AngleDetail,
   BlackbeltDetailSystem,
-  BodyMechanicsSystem,
   BodyPart,
   BodyPartKey,
   BodySide,
-  BodyTarget,
-  BodyToBodyContact,
-  BodyToBodyDetailSystem,
   ContactType,
   Direction,
   ForceDirection,
@@ -16,7 +12,6 @@ import type {
   LocalizedText,
   MetaStatus,
   MicroDetailCategory,
-  MicroDetailSystem,
   ModernSystemGroup,
   PressureDetail,
   QualityChecklistType,
@@ -25,7 +20,6 @@ import type {
   SkillLevel,
   SkillNode,
   TechniqueFamily,
-  TechniqueQualityChecklist,
 } from '../types/skill'
 
 const lt = (vi: string, en: string, fr: string): LocalizedText => ({ vi, en, fr })
@@ -82,135 +76,15 @@ type ModernSkillSpec = {
   rulesetNotes?: LocalizedText
 }
 
-const target = (side: BodySide, bodyPart: BodyPart, role: 'me' | 'opponent', detail?: LocalizedText): BodyTarget => ({
-  role,
-  side,
-  bodyPart,
-  detail,
-})
-
-const contact = (spec: ModernContactSpec): BodyToBodyContact => ({
-  id: spec.id,
-  title: spec.title,
-  myBodyPart: target(spec.mySide, spec.myPart, 'me'),
-  opponentBodyPart: target(spec.opponentSide, spec.opponentPart, 'opponent'),
-  contactType: spec.contactType,
-  forceDirection: spec.forceDirection,
-  pressureLevel: spec.pressureLevel ?? 'medium',
-  timing: lt('Khi contact đã có nhưng trước khi tăng lực.', 'When the contact is built but before force increases.', 'Quand le contact est établi mais avant d’augmenter la force.'),
-  exactInstruction: spec.instruction,
-  whyItWorks: spec.why,
-  commonMisplacement: spec.mistake,
-  correctionCue: spec.cue,
-  liveCue: spec.liveCue,
-  prevents: spec.prevents,
-  creates: spec.creates,
-  safetyNote: spec.safetyNote,
-})
-
-const bodyToBodySystem = (spec: ModernSkillSpec): BodyToBodyDetailSystem => ({
-  overview: lt(
-    `${spec.title.vi}: đọc contact của cơ thể trước, rồi mới tăng pressure hoặc đổi góc.`,
-    `${spec.title.en}: read the body contacts first, then add pressure or change angle.`,
-    `${spec.title.fr} : lire les contacts corps-à-corps d’abord, puis ajouter pression ou angle.`,
-  ),
-  defaultOrientation: lt(
-    'Mô tả mặc định là phía phải; đổi trái/phải nếu bạn vào bên đối diện.',
-    'Default examples are right-side oriented; mirror left and right when you enter the other side.',
-    'Les exemples sont côté droit par défaut; inversez gauche/droite de l’autre côté.',
-  ),
-  phases: [
-    {
-      id: `${spec.id}-entry`,
-      title: lt('Tiếp cận đầu tiên', 'Entry contact', 'Contact d’entrée'),
-      goal: lt('Tạo contact đầu tiên mà không lộ cổ, lưng hoặc knee line.', 'Build the first contact without exposing neck, back, or knee line.', 'Créer le premier contact sans exposer cou, dos ou knee line.'),
-      contacts: spec.contacts.slice(0, 2).map(contact),
-      successSignal: lt('Đối thủ phải post, xoay hông hoặc đổi base.', 'The opponent must post, turn hips, or change base.', 'L’adversaire doit poster, tourner les hanches ou changer de base.'),
-      failureSignal: lt('Bạn đang kéo bằng tay nhưng hông/đầu không có góc.', 'You are pulling with arms while hips or head have no angle.', 'Vous tirez avec les bras sans angle de hanches ou tête.'),
-    },
-    {
-      id: `${spec.id}-clamp`,
-      title: lt('Kẹp / góc (Clamp)', 'Clamp / angle', 'Clamp / angle'),
-      goal: lt('Đóng khoảng trống chính và chuyển lực theo đường chéo.', 'Close the key space and move force on a diagonal line.', 'Fermer l’espace clé et diriger la force en diagonale.'),
-      contacts: spec.contacts.slice(2, 4).map(contact),
-      successSignal: lt('Shoulder line hoặc hip line của đối thủ bị xoay.', 'The opponent’s shoulder line or hip line is turned.', 'La shoulder line ou hip line adverse est tournée.'),
-      failureSignal: lt('Đối thủ lấy lại posture hoặc pummel vào trong.', 'The opponent regains posture or pummels inside.', 'L’adversaire récupère posture ou pummel inside.'),
-    },
-    {
-      id: `${spec.id}-finish`,
-      title: lt('Kết thúc / Nhánh tiếp', 'Finish / branch', 'Finish / branche'),
-      goal: lt('Hoàn tất control hoặc chuyển nhánh trước khi mất contact.', 'Finish control or branch before the contact is lost.', 'Finir le contrôle ou brancher avant de perdre le contact.'),
-      contacts: spec.contacts.slice(4).map(contact),
-      successSignal: spec.finishTrigger,
-      failureSignal: spec.abortSignal,
-    },
-  ],
-  leftRightMirrorNote: lt(
-    'Nếu bạn đổi bên, giữ cùng logic: body part của tôi vẫn chặn đúng line của đối thủ.',
-    'When you switch sides, keep the same logic: your body part still blocks the same opponent line.',
-    'En changeant de côté, gardez la même logique : votre partie du corps bloque la même ligne adverse.',
-  ),
-  mostImportantContacts: spec.contacts.slice(0, 5).map((item) => item.id),
-})
-
-const bodyMechanicsSystem = (spec: ModernSkillSpec): BodyMechanicsSystem => ({
-  overview: lt(
-    `Dùng ${spec.title.vi} bằng contact rõ: đầu, tay, hông và gối phải tạo line trước khi tăng lực.`,
-    `Use ${spec.title.en} through clear contacts: head, hands, hips, and knees create the line before force.`,
-    `Utilisez ${spec.title.fr} avec contacts clairs : tête, mains, hanches et genoux créent la ligne avant la force.`,
-  ),
+const bodyMechanicsSystem = (spec: ModernSkillSpec) => ({
+  overview: spec.shortDescription,
+  globalPrinciples: spec.concepts,
   attackerGoal: spec.goal,
-  phases: [
-    {
-      id: `${spec.id}-mechanics`,
-      name: lt('Contact trước lực', 'Contact before force', 'Contact avant force'),
-      objective: spec.goal,
-      bodyPartInstructions: [
-        {
-          bodyPart: spec.contacts[0].bodyParts[0] ?? 'hands',
-          role: 'attacker',
-          mechanicType: 'alignment',
-          instruction: spec.contacts[0].instruction,
-          whyItMatters: spec.contacts[0].why,
-          commonErrors: la([spec.contacts[0].mistake.vi], [spec.contacts[0].mistake.en], [spec.contacts[0].mistake.fr]),
-          correctionCues: la([spec.contacts[0].cue.vi], [spec.contacts[0].cue.en], [spec.contacts[0].cue.fr]),
-        },
-      ],
-      connectionPoints: [
-        {
-          id: `${spec.id}-connection`,
-          role: 'attacker',
-          name: spec.contacts[1].title,
-          yourBodyPart: spec.contacts[1].bodyParts[0] ?? 'hands',
-          opponentBodyPart: spec.contacts[1].bodyParts[1],
-          purpose: spec.contacts[1].why,
-          pressureDirection: spec.contacts[1].instruction,
-          commonErrors: la([spec.contacts[1].mistake.vi], [spec.contacts[1].mistake.en], [spec.contacts[1].mistake.fr]),
-        },
-      ],
-      directionalCues: [
-        {
-          id: `${spec.id}-direction`,
-          cue: spec.contacts[2]?.liveCue ?? spec.contacts[0].liveCue,
-          direction: 'diagonal',
-          bodyParts: spec.contacts[2]?.bodyParts.slice(0, 2) ?? spec.contacts[0].bodyParts.slice(0, 2),
-          purpose: spec.contacts[2]?.prevents ?? spec.contacts[0].prevents,
-        },
-      ],
-      checkpoints: la([spec.finishTrigger.vi], [spec.finishTrigger.en], [spec.finishTrigger.fr]),
-      dangerSignals: la([spec.abortSignal.vi], [spec.abortSignal.en], [spec.abortSignal.fr]),
-      successSignals: la([spec.finishTrigger.vi], [spec.finishTrigger.en], [spec.finishTrigger.fr]),
-    },
-  ],
-  globalPrinciples: la(
-    ['Contact rõ trước, lực sau.', 'Đổi góc trước khi ép.'],
-    ['Clear contact first, force second.', 'Change angle before pressure.'],
-    ['Contact clair d’abord, force ensuite.', 'Changer angle avant pression.'],
-  ),
+  defenderGoal: spec.abortSignal,
   nonNegotiables: la(
-    ['Không tăng lực khi contact sai.', 'Không bỏ safety signal.'],
-    ['Do not add force on wrong contact.', 'Do not ignore safety signals.'],
-    ['Ne pas ajouter force sur mauvais contact.', 'Ne pas ignorer les signaux de sécurité.'],
+    spec.contacts.slice(0, 3).map((item) => item.cue.vi),
+    spec.contacts.slice(0, 3).map((item) => item.cue.en),
+    spec.contacts.slice(0, 3).map((item) => item.cue.fr),
   ),
   commonMechanicalErrors: la(
     spec.contacts.slice(0, 3).map((item) => item.mistake.vi),
@@ -218,134 +92,52 @@ const bodyMechanicsSystem = (spec: ModernSkillSpec): BodyMechanicsSystem => ({
     spec.contacts.slice(0, 3).map((item) => item.mistake.fr),
   ),
   correctionCues: la(
-    spec.contacts.slice(0, 3).map((item) => item.cue.vi),
-    spec.contacts.slice(0, 3).map((item) => item.cue.en),
-    spec.contacts.slice(0, 3).map((item) => item.cue.fr),
+    spec.contacts.slice(0, 4).map((item) => item.cue.vi),
+    spec.contacts.slice(0, 4).map((item) => item.cue.en),
+    spec.contacts.slice(0, 4).map((item) => item.cue.fr),
   ),
-  safetyNotes: spec.safetyNotes ?? la(
-    ['Tăng lực từ từ và reset khi mất alignment.'],
-    ['Add force gradually and reset when alignment is lost.'],
-    ['Ajouter la force progressivement et reset si l’alignement est perdu.'],
-  ),
-})
+  safetyNotes: spec.safetyNotes ?? la([], [], []),
+  phases: [],
+} as any)
 
-const microDetailSystem = (spec: ModernSkillSpec): MicroDetailSystem => ({
-  overview: lt(
-    `${spec.title.vi} chạy tốt khi contact, góc và branch đều rõ.`,
-    `${spec.title.en} works when contact, angle, and branch are all clear.`,
-    `${spec.title.fr} fonctionne quand contact, angle et branche sont clairs.`,
-  ),
-  topFiveDetails: spec.contacts.slice(0, 5).map((item, index) => ({
-    id: `${spec.id}-detail-${index + 1}`,
-    category: item.category,
+const microDetailSystem = (spec: ModernSkillSpec) => ({
+  overview: spec.shortDescription,
+  topFiveDetails: spec.contacts.slice(0, 5).map((item, i) => ({
+    id: `${spec.id}-md-${i + 1}`,
     title: item.title,
-    shortInstruction: item.instruction,
-    side: item.mySide === 'left' || item.mySide === 'right' ? item.mySide : 'either',
-    direction: item.microDirection,
+    category: item.category,
     bodyParts: item.bodyParts,
-    whenToUse: spec.situation,
+    shortInstruction: item.instruction,
     whyItWorks: item.why,
     commonMistake: item.mistake,
     correctionCue: item.cue,
     liveCue: item.liveCue,
+    side: item.mySide,
+    direction: item.forceDirection,
     safetyNote: item.safetyNote,
   })),
-  leftRightGuides: [
-    {
-      id: `${spec.id}-right-side`,
-      scenario: lt('Vào phía phải của tôi.', 'Right-side entry.', 'Entrée côté droit.'),
-      leftHand: lt('Post hoặc kiểm soát wrist xa để giữ base.', 'Post or control the far wrist to keep base.', 'Poster ou contrôler le poignet éloigné pour garder base.'),
-      rightHand: lt('Tạo contact chính và kéo/chặn line của đối thủ.', 'Build the main contact and pull or block the opponent line.', 'Créer le contact principal et tirer ou bloquer la ligne adverse.'),
-      leftLeg: lt('Giữ hook/post để chỉnh hông.', 'Keep hook or post to adjust hips.', 'Garder hook ou post pour ajuster les hanches.'),
-      rightLeg: lt('Wedge hoặc step để đóng khoảng trống.', 'Wedge or step to close space.', 'Wedge ou step pour fermer l’espace.'),
-      head: lt('Đầu ở ngoài line nguy hiểm, không đưa cổ vào front headlock.', 'Head stays outside danger line; do not feed front headlock.', 'La tête reste hors ligne dangereuse; ne donnez pas front headlock.'),
-      hips: lt('Hông đổi góc trước khi ép.', 'Hips change angle before pressure.', 'Les hanches changent d’angle avant pression.'),
-      note: lt('Đổi bên thì đổi trái/phải, giữ cùng contact logic.', 'Mirror left and right when switching sides; keep the same contact logic.', 'Inversez gauche/droite en changeant de côté; gardez la même logique.'),
-    },
-    {
-      id: `${spec.id}-defended`,
-      scenario: lt('Đối thủ post hoặc pummel lại.', 'Opponent posts or pummels back.', 'L’adversaire poste ou pummel inside.'),
-      leftHand: lt('Giữ wrist hoặc shoulder line để họ không quay tự do.', 'Hold wrist or shoulder line so they cannot turn freely.', 'Tenir poignet ou shoulder line pour bloquer la rotation libre.'),
-      rightHand: lt('Chuyển sang nhánh kế tiếp thay vì kéo mạnh hơn.', 'Switch to the next branch instead of pulling harder.', 'Passer à la branche suivante au lieu de tirer plus fort.'),
-      leftLeg: lt('Giữ knee line hoặc hook sống.', 'Keep knee line or hook alive.', 'Garder knee line ou hook actif.'),
-      rightLeg: lt('Step theo hip line để không mất angle.', 'Step with the hip line so angle is not lost.', 'Stepper avec hip line pour ne pas perdre angle.'),
-      head: lt('Đầu theo shoulder line, không trôi ra giữa.', 'Head follows shoulder line; do not float center.', 'La tête suit shoulder line; ne flottez pas au centre.'),
-      hips: lt('Hông quay trước, tay theo sau.', 'Hips turn first, hands follow.', 'Les hanches tournent d’abord, les mains suivent.'),
-      note: spec.nextBestOption,
-    },
-  ],
-  fastFinishPaths: [
-    {
-      id: `${spec.id}-fast-path`,
-      title: spec.fastPathTitle,
-      steps: spec.contacts.slice(0, 5).map((item, index) => ({
-        id: `${spec.id}-fast-${index + 1}`,
-        order: index + 1,
-        instruction: item.instruction,
-        keyBodyPart: item.bodyParts[0],
-        commonMistake: item.mistake,
-      })),
-      finishTrigger: spec.finishTrigger,
-      abortSignal: spec.abortSignal,
-      nextBestOption: spec.nextBestOption,
-      safetyNote: spec.safetyNotes ? lt(spec.safetyNotes.vi[0], spec.safetyNotes.en[0], spec.safetyNotes.fr[0]) : undefined,
-    },
-  ],
-  troubleshootingTips: spec.contacts.slice(0, 5).map((item) => ({
-    problem: item.mistake,
-    quickFix: item.instruction,
-    cue: item.cue,
-  })),
-  doNotDo: la(
-    spec.contacts.slice(0, 5).map((item) => `Tránh: ${item.mistake.vi}`),
-    spec.contacts.slice(0, 5).map((item) => `Avoid: ${item.mistake.en}`),
-    spec.contacts.slice(0, 5).map((item) => `Éviter : ${item.mistake.fr}`),
-  ),
-  safetyNotes: spec.safetyNotes ?? la(
-    ['Tăng lực từ từ; reset nếu mất alignment hoặc partner có tín hiệu đau bất thường.'],
-    ['Add force gradually; reset if alignment is lost or your partner signals unusual pain.'],
-    ['Ajouter la force progressivement; reset si l’alignement est perdu ou douleur anormale.'],
-  ),
-})
+  leftRightGuides: [],
+  fastFinishPaths: [{ id: `${spec.id}-path`, title: spec.fastPathTitle, finishTrigger: spec.finishTrigger, abortSignal: spec.abortSignal, nextBestOption: spec.nextBestOption }],
+  troubleshootingTips: spec.contacts.slice(0, 3).map((item, i) => ({ id: `${spec.id}-tip-${i + 1}`, problem: item.mistake, quickFix: item.instruction, cue: item.cue })),
+  doNotDo: la(spec.contacts.slice(0, 3).map((x) => x.mistake.vi), spec.contacts.slice(0, 3).map((x) => x.mistake.en), spec.contacts.slice(0, 3).map((x) => x.mistake.fr)),
+  safetyNotes: spec.safetyNotes ?? la([], [], []),
+} as any)
 
-const qualityChecklist = (spec: ModernSkillSpec): TechniqueQualityChecklist => ({
-  type: spec.checklistType,
-  overview: lt(
-    `Chỉ tăng tốc ${spec.title.vi} khi các contact quan trọng đều có.`,
-    `Only speed up ${spec.title.en} when the key contacts are present.`,
-    `Accélérez ${spec.title.fr} seulement quand les contacts clés sont présents.`,
-  ),
-  checks: [
-    ...spec.contacts.slice(0, 5).map((item, index) => ({
-      id: `${spec.id}-check-${index + 1}`,
-      title: item.title,
-      question: lt(
-        `Contact này đã đúng chưa: ${item.instruction.vi}`,
-        `Is this contact correct: ${item.instruction.en}`,
-        `Ce contact est-il correct : ${item.instruction.fr}`,
-      ),
-      successSignal: item.prevents,
-      failureSignal: item.mistake,
-      quickFix: item.cue,
-      bodyParts: item.bodyParts.slice(0, 3),
-      relatedMicroDetailIds: [`${spec.id}-detail-${index + 1}`],
-      severity: index < 2 ? 'critical' as const : index < 4 ? 'major' as const : 'minor' as const,
-    })),
-    {
-      id: `${spec.id}-check-branch`,
-      title: lt('Nhánh tiếp theo rõ', 'Next branch clear', 'Branche suivante claire'),
-      question: lt('Bạn biết chuyển sang đâu nếu bị chặn chưa?', 'Do you know the next branch if blocked?', 'Savez-vous la branche suivante si bloqué ?'),
-      successSignal: spec.nextBestOption,
-      failureSignal: spec.abortSignal,
-      quickFix: spec.nextBestOption,
-      bodyParts: ['head', 'hips', 'hands'],
-      severity: 'critical' as const,
-    },
-  ],
-  passThreshold: 4,
+const qualityChecklist = (spec: ModernSkillSpec) => ({
+  overview: spec.shortDescription,
+  checks: spec.contacts.slice(0, 5).map((item, i) => ({
+    id: `${spec.id}-qc-${i + 1}`,
+    title: item.title,
+    question: item.instruction,
+    successSignal: item.creates,
+    failureSignal: item.mistake,
+    quickFix: item.cue,
+    relatedMicroDetailIds: [],
+    bodyParts: item.bodyParts,
+  })),
   ifPassed: spec.finishTrigger,
-  ifFailed: spec.abortSignal,
-})
+  ifFailed: spec.nextBestOption,
+} as any)
 
 const blackbeltDetails = (spec: ModernSkillSpec): BlackbeltDetailSystem => {
   const first = spec.contacts[0]
@@ -569,14 +361,8 @@ const makeSkill = (spec: ModernSkillSpec): SkillNode => ({
       bodyMechanicAdjustment: spec.contacts[2].cue,
     },
   ],
-  bodyToBodyDetails: bodyToBodySystem(spec),
   blackbeltDetails: blackbeltDetails(spec),
-  sharedPrincipleIds: ['inside_position_first', 'angle_before_force', 'pressure_needs_direction'],
-  sharedCueIds: ['frame_then_move', 'win_hand_fight_first', 'head_blocks_the_turn'],
   sharedErrorIds: ['do_not_chase_submission_and_lose_position', 'head_on_wrong_side'],
-  sharedSafetyIds: spec.riskLevel === 'safety_critical'
-    ? ['tap_timing_safety', 'do_not_crank_submissions', 'training_under_supervision']
-    : ['training_under_supervision'],
   sharedMechanicIds: ['wedges_block_space', 'hooks_control_rotation', 'hip_line_controls_guard'],
 })
 

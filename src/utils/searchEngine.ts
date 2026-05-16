@@ -297,7 +297,6 @@ const getSearchIndex = (lang: LanguageCode, type: KnowledgeItemType | '' = '', m
 // ──────────────────────────────────────────
 
 const skillDocument = (skill: SkillNode, lang: LanguageCode, mode: SearchMode): SearchDocument => {
-  const d = getData()
   if (mode === 'quick') {
     return {
       id: skill.id,
@@ -329,12 +328,9 @@ const skillDocument = (skill: SkillNode, lang: LanguageCode, mode: SearchMode): 
       field('fix it fast', [skill.microDetailSystem?.troubleshootingTips, skill.qualityChecklist?.checks, skill.commonMistakes, skill.failureResponses], lang, 5),
       field('body mechanics', skill.bodyMechanicsSystem, lang, 3),
       field('technical details', skill.technicalDetails, lang, 4),
-      field('body position', skill.bodyToBodyDetails, lang, 7),
-      field('outcomes branches', [d.techniqueStateMachineBySkillId.get(skill.id), skill.reactionBranches, skill.ifThenDecisions], lang, 6),
       field('safety', [skill.riskLevel, skill.dangerSignals, skill.bodyMechanicsSystem.safetyNotes], lang, 5),
-      field('next step', [skill.prerequisites, skill.relatedSkills, skill.sharedPrincipleIds, skill.sharedCueIds, skill.sharedSafetyIds], lang, 3),
+      field('next step', [skill.prerequisites, skill.relatedSkills], lang, 3),
       field('classification', [skill.libraryTier, skill.metaStatus, skill.riskLevel, skill.techniqueFamily, skill.modernSystemGroup, skill.rulesetRelevance], lang, 4),
-      field('shared knowledge', [skill.sharedPrincipleIds, skill.sharedCueIds, skill.sharedErrorIds, skill.sharedSafetyIds, skill.sharedMechanicIds], lang, 2),
       field('if-then decisions', skill.ifThenDecisions, lang, 3),
       field('danger signals', skill.dangerSignals, lang, 3),
       field('correction cues', [skill.commonMistakes, skill.failureResponses, skill.reactionBranches], lang, 2),
@@ -347,17 +343,11 @@ const skillDocument = (skill: SkillNode, lang: LanguageCode, mode: SearchMode): 
 const anchorByFieldName: Record<string, string> = {
   'quick card': 'system-logic',
   'system logic': 'system-logic',
-  'body-to-body details': 'body-position',
-  'body position': 'body-position',
   'micro details': 'details',
   'micro detail system': 'details',
   'blackbelt details': 'details',
   'details': 'details',
   'quality checklist': 'etails',
-  'state machine': 'outcomes-branches',
-  'outcomes branches': 'outcomes-branches',
-  'attacker view': 'outcomes-branches',
-  'defender view': 'outcomes-branches',
   'fix it fast': 'fix-it-fast',
   safety: 'safety',
   'next step': 'next-step',

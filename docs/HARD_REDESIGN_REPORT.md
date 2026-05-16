@@ -1,6 +1,6 @@
 # Hard Redesign Report
 
-NoGi Mind now uses a Technique Card OS for skill detail pages. The old scattered detail surface was replaced by a compact learning flow: System Logic, Body Position, Details, Outcomes & Branches, Fix It Fast, conditional Safety, and Next Step.
+NoGi Mind now uses a Technique Card OS for skill detail pages. The old scattered detail surface was replaced by a compact learning flow: System Logic, Execution Cues, Detail Breakdown, Fix It Fast, conditional Safety, and Next Step.
 
 ## Replaced Structure
 
@@ -11,10 +11,9 @@ NoGi Mind now uses a Technique Card OS for skill detail pages. The old scattered
 ## Data Preserved
 
 - Quick cards feed System Logic and One-Minute Mode.
-- Body-to-body data feeds Body Position, body maps, and contact cards.
 - Micro details, blackbelt details, checklist signals, common mistakes, and failure responses feed Details and Fix It Fast.
-- State machines, if/then decisions, reactions, and chains feed Outcomes & Branches.
-- Related skills and shared knowledge feed capped Next Step lists.
+- State machines, if/then decisions, reactions, and chains feed troubleshooting/search/graph modules.
+- Related skills and prerequisites feed capped Next Step lists.
 
 ## Components Created Or Reworked
 
@@ -22,11 +21,7 @@ NoGi Mind now uses a Technique Card OS for skill detail pages. The old scattered
 - `SkillHeader.tsx`
 - `OneMinuteMode.tsx`
 - `SystemLogicSection.tsx`
-- `BodyPositionSection.tsx`
-- `BodyMapPanel.tsx`
-- `BodyContactCard.tsx`
 - `MoneyDetailsSection.tsx`
-- `OutcomesBranchesSection.tsx`
 - `FixItFastSection.tsx`
 - `SafetySection.tsx`
 - `NextStepSection.tsx`
@@ -36,7 +31,7 @@ Legacy components remain in `src/components/skills` because other reference page
 ## UX Changes
 
 - Skill detail is now shorter, denser, and more technical.
-- Body Position is the main differentiator, with attacker and defender body maps plus contact cards.
+- Execution Cues and Detail Breakdown are the main differentiators.
 - One-Minute Mode gives a fast review surface.
 - Next Step is capped and curated instead of a large related dump.
 

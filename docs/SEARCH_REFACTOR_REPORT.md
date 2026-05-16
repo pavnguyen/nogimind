@@ -7,9 +7,9 @@ Search continues to use MiniSearch, with cached indexes per language.
 - Search documents now index new Technique Card OS section names.
 - Old section concepts map to new anchors:
   - quick card and quick start to `#system-logic`
-  - body-to-body to `#body-position`
+  - micro details to `#details`
   - micro, blackbelt, and checklist content to `#details`
-  - state machine and attacker/defender content to `#outcomes-branches`
+  - fix-it-fast and safety content to `#fix-it-fast` / `#safety`
   - troubleshooting to `#fix-it-fast`
   - related/next content to `#next-step`
 - Vietnamese no-diacritic normalization is retained.
