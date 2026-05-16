@@ -209,7 +209,7 @@ export const en = {
     cards: 'Cards',
     graph: 'Graph',
     skill: 'Skill',
-    skills: 'Skills',
+    skills: 'Skill Map',
     learn: 'Learn',
     domain: 'Domain',
     level: 'Level',
@@ -550,7 +550,7 @@ export const en = {
     noRecommendations: 'No recommendations yet',
     noRecommendationsBody: 'Add a few skills to your game tree or explore the skill map to unlock better recommendations.',
     entries: {
-      skills: 'Learn Skills',
+      skills: 'Skill Map',
       skillsBody: 'Browse the full no-gi skill map by domain, level, prerequisites, and graph.',
       concepts: 'Study Concepts',
       conceptsBody: 'Understand inside position, frames, wedges, pressure direction, and dilemmas.',

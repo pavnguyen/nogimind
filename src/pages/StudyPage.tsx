@@ -1,15 +1,15 @@
 import { useMemo } from 'react'
 import { Link, useSearchParams } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
-import { ArrowRight } from 'lucide-react'
+import { ArrowRight, Zap, Sparkles, Target } from 'lucide-react'
 import { Badge } from '../components/common/Badge'
 import { EmptyState } from '../components/common/EmptyState'
 import { PageShell } from '../components/common/PageShell'
-import { SectionCard } from '../components/common/SectionCard'
 import { useSkillsQuery } from '../queries/skillQueries'
 import { useSettingsStore } from '../stores/useSettingsStore'
 import type { SkillDomain } from '../types/skill'
 import { getLocalizedText } from '../utils/localization'
+import { cn } from '../utils/cn'
 
 const studyDomains: Array<{ id: SkillDomain; key: string; tone: 'emerald' | 'cyan' | 'amber' | 'rose' | 'slate' }> = [
   { id: 'guard_retention', key: 'guard', tone: 'cyan' },

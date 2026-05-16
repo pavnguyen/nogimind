@@ -79,18 +79,20 @@ export default function SubmissionTroubleshootersPage() {
 
       <div className="grid gap-4 xl:grid-cols-2">
         {troubleshooters.map((item) => (
-          <Link key={item.id} to={`/troubleshooters/${item.skillId}`} className="rounded-lg border border-white/10 bg-slate-950/65 p-4 transition hover:border-cyan-300/35 hover:bg-white/[0.06]">
-            <div className="flex flex-wrap gap-2">
+          <SectionCard
+            key={item.id}
+            to={`/troubleshooters/${item.skillId}`}
+            title={getLocalizedText(item.title, lang)}
+            description={getLocalizedText(item.overview, lang)}
+          >
+            <div className="flex flex-wrap gap-2 mb-4">
               <Badge tone={item.category === 'leg_lock' ? 'amber' : 'cyan'}>{t(`troubleshooters.categories.${item.category}`)}</Badge>
               <Badge tone="emerald">{item.diagnoses.length} {t('troubleshooters.diagnoses')}</Badge>
             </div>
-            <h2 className="mt-3 text-lg font-semibold text-white">{getLocalizedText(item.title, lang)}</h2>
-            <p className="mt-2 line-clamp-3 text-sm leading-6 text-slate-400">{getLocalizedText(item.overview, lang)}</p>
             <div className="mt-4 flex items-center justify-between border-t border-white/10 pt-4">
               <p className="text-sm text-slate-400">{item.checklist.slice(0, 2).join(' / ')}</p>
-              <span className="inline-flex items-center gap-1.5 text-sm font-medium text-cyan-200">{t('common.open')}<ArrowRight className="h-4 w-4" aria-hidden="true" /></span>
             </div>
-          </Link>
+          </SectionCard>
         ))}
       </div>
     </PageShell>

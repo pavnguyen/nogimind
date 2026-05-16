@@ -100,55 +100,6 @@ export const newTrustedVideos: VideoReference[] = [
     }
   },
   {
-    "id": "carsahh-k-guard-entry",
-    "provider": "youtube",
-    "title": {
-      "en": "Carsahh - Unstoppable K-Guard Entries",
-      "vi": "Carsahh - Unstoppable K-Guard Entries",
-      "fr": "Carsahh - Unstoppable K-Guard Entries"
-    },
-    "channelName": "Carsahh",
-    "url": "https://www.youtube.com/watch?v=placeholder-carsahh1",
-    "embedUrl": "https://www.youtube.com/embed/placeholder-carsahh1",
-    "youtubeId": "placeholder-carsahh1",
-    "language": "en",
-    "relatedSkillIds": [
-      "k-guard-entry",
-      "k-guard-matrix"
-    ],
-    "relatedPositionIds": [
-      "closed-guard"
-    ],
-    "whyUseful": {
-      "en": "Great entry to leg locks",
-      "vi": "Vào chân rất tốt",
-      "fr": "Excellente entrée pour leg locks"
-    },
-    "techniqueTags": [
-      "k-guard",
-      "leg-entanglement",
-      "no-gi"
-    ],
-    "sourceNote": "Curated trusted instructor reference (Carsahh).",
-    "whatToWatchFor": {
-      "en": [
-        "Scoop grip on the leg",
-        "Off-balancing the opponent",
-        "Shooting the legs up"
-      ],
-      "vi": [
-        "Grip ôm chân đối thủ",
-        "Làm mất thăng bằng",
-        "Đẩy chân lên cao"
-      ],
-      "fr": [
-        "Scoop grip sur la jambe",
-        "Déséquilibrer l'adversaire",
-        "Projeter les jambes"
-      ]
-    }
-  },
-  {
     "id": "carsahh-heel-hook-mechanics",
     "provider": "youtube",
     "title": {

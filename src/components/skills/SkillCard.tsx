@@ -18,7 +18,10 @@ export const SkillCard = memo(({ skill }: SkillCardProps) => {
   const language = useSettingsStore((state) => state.language)
 
   return (
-    <article className="rounded-lg border border-white/10 bg-slate-950/65 p-4 transition hover:border-cyan-300/35 hover:bg-white/[0.06]">
+    <Link 
+      to={`/skills/${skill.id}`} 
+      className="group block rounded-lg border border-white/10 bg-slate-950/65 p-4 transition hover:border-cyan-300/35 hover:bg-white/[0.06] hover:shadow-glow"
+    >
       <div className="min-w-0">
         <div className="flex flex-wrap gap-2">
           <DomainBadge domain={skill.domain} />
@@ -26,33 +29,29 @@ export const SkillCard = memo(({ skill }: SkillCardProps) => {
           {skill.libraryTier ? <Badge>{t(`modern.library.${skill.libraryTier}`)}</Badge> : null}
           {skill.riskLevel === 'high' || skill.riskLevel === 'safety_critical' ? <Badge>{t(`modern.risk.${skill.riskLevel}`)}</Badge> : null}
         </div>
-        <h3 className="mt-3 text-lg font-semibold text-white">{getLocalizedText(skill.title, language)}</h3>
-        <p className="mt-2 text-sm leading-6 text-slate-400">{getLocalizedText(skill.shortDescription, language)}</p>
+        <h3 className="mt-3 text-lg font-semibold text-white group-hover:text-cyan-100">{getLocalizedText(skill.title, language)}</h3>
+        <p className="mt-2 text-sm leading-6 text-slate-400 line-clamp-2">{getLocalizedText(skill.shortDescription, language)}</p>
       </div>
-      <div className="mt-4 flex flex-wrap gap-2">
+      <div className="mt-4 flex flex-wrap gap-1.5">
         {skill.tags.slice(0, 4).map((tag) => (
-          <Badge key={tag}>{tag}</Badge>
+          <span key={tag} className="text-[10px] text-slate-500 uppercase tracking-tighter">#{tag}</span>
         ))}
-        {skill.modernSystemGroup ? <Badge>{t(`modern.system.${skill.modernSystemGroup}`)}</Badge> : null}
+        {skill.modernSystemGroup ? <Badge tone="cyan">{t(`modern.system.${skill.modernSystemGroup}`)}</Badge> : null}
       </div>
 
       <div className="mt-4 flex flex-wrap items-center justify-between gap-3 border-t border-white/10 pt-4 text-sm text-slate-400">
         <div className="flex gap-4">
-          <span className="inline-flex items-center gap-1.5">
-            <GitFork className="h-4 w-4 text-emerald-300" aria-hidden="true" />
-            {skill.prerequisites.length} {t('common.prerequisites')}
+          <span className="inline-flex items-center gap-1.5 text-xs">
+            <GitFork className="h-3.5 w-3.5 text-emerald-400/60" aria-hidden="true" />
+            {skill.prerequisites.length}
           </span>
-          <span className="inline-flex items-center gap-1.5">
-            <Network className="h-4 w-4 text-cyan-300" aria-hidden="true" />
-            {skill.relatedSkills.length} {t('common.related')}
+          <span className="inline-flex items-center gap-1.5 text-xs">
+            <Network className="h-3.5 w-3.5 text-cyan-400/60" aria-hidden="true" />
+            {skill.relatedSkills.length}
           </span>
         </div>
-        <Link to={`/skills/${skill.id}`} className="inline-flex items-center gap-1.5 font-medium text-cyan-200 hover:text-cyan-100">
-          {t('common.open')}
-          <ArrowRight className="h-4 w-4" aria-hidden="true" />
-        </Link>
       </div>
-    </article>
+    </Link>
   )
 })
 

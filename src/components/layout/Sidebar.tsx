@@ -1,4 +1,4 @@
-import { NavLink } from 'react-router-dom'
+import { NavLink, Link } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import { PanelLeftClose, PanelLeftOpen } from 'lucide-react'
 import { useSettingsStore } from '../../stores/useSettingsStore'
@@ -18,8 +18,8 @@ export const Sidebar = () => {
       )}
     >
       {/* Brand */}
-      <div className="flex items-center gap-3 border-b border-white/[0.06] px-5 py-4">
-        <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-gradient-to-br from-emerald-400 to-cyan-400 shadow-sm">
+      <Link to="/" className="flex items-center gap-3 border-b border-white/[0.06] px-5 py-4 transition-colors hover:bg-white/[0.02]">
+        <div className="flex h-9 w-9 shrink-0 items-center justify-center rounded-lg bg-gradient-to-br from-emerald-400 to-cyan-400 shadow-sm">
           <BrandIcon className="h-5 w-5 text-slate-950" aria-hidden="true" />
         </div>
         {!collapsed && (
@@ -28,7 +28,7 @@ export const Sidebar = () => {
             <p className="truncate text-[10px] text-slate-500">{t('app.version')}</p>
           </div>
         )}
-      </div>
+      </Link>
 
       {/* Primary Nav */}
       <nav className="flex-1 space-y-0.5 overflow-y-auto px-2 py-4">

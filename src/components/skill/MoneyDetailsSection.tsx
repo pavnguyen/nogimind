@@ -43,6 +43,24 @@ export const MoneyDetailsSection = ({ view }: Props) => {
           </div>
         )}
 
+        {/* Sub-tab switcher */}
+        <div className="flex gap-1 rounded-lg border border-white/8 bg-slate-950/50 p-1">
+          {tabs.map((tb) => (
+            <button
+              key={tb.id}
+              type="button"
+              onClick={() => setTab(tb.id)}
+              className={`flex-1 rounded-md px-3 py-1.5 text-xs font-semibold transition-colors ${
+                tab === tb.id
+                  ? 'bg-emerald-500/20 text-emerald-200'
+                  : 'text-slate-500 hover:text-slate-300'
+              }`}
+            >
+              {tb.label}
+            </button>
+          ))}
+        </div>
+
         {tab === 'mechanics' && (
           <div className="space-y-3">
             {view.mechanicGroups.map((group) => (
@@ -63,24 +81,6 @@ export const MoneyDetailsSection = ({ view }: Props) => {
             ))}
           </div>
         )}
-
-        {/* Sub-tab switcher */}
-        <div className="flex gap-1 rounded-lg border border-white/8 bg-slate-950/50 p-1">
-          {tabs.map((tb) => (
-            <button
-              key={tb.id}
-              type="button"
-              onClick={() => setTab(tb.id)}
-              className={`flex-1 rounded-md px-3 py-1.5 text-xs font-semibold transition-colors ${
-                tab === tb.id
-                  ? 'bg-emerald-500/20 text-emerald-200'
-                  : 'text-slate-500 hover:text-slate-300'
-              }`}
-            >
-              {tb.label}
-            </button>
-          ))}
-        </div>
 
         {/* Top details */}
         {tab === 'details' && (

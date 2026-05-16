@@ -122,7 +122,7 @@ const bodyToBodySystem = (spec: ModernSkillSpec): BodyToBodyDetailSystem => ({
   phases: [
     {
       id: `${spec.id}-entry`,
-      title: lt('Entry contact', 'Entry contact', 'Contact d’entrée'),
+      title: lt('Tiếp cận đầu tiên', 'Entry contact', 'Contact d’entrée'),
       goal: lt('Tạo contact đầu tiên mà không lộ cổ, lưng hoặc knee line.', 'Build the first contact without exposing neck, back, or knee line.', 'Créer le premier contact sans exposer cou, dos ou knee line.'),
       contacts: spec.contacts.slice(0, 2).map(contact),
       successSignal: lt('Đối thủ phải post, xoay hông hoặc đổi base.', 'The opponent must post, turn hips, or change base.', 'L’adversaire doit poster, tourner les hanches ou changer de base.'),
@@ -130,7 +130,7 @@ const bodyToBodySystem = (spec: ModernSkillSpec): BodyToBodyDetailSystem => ({
     },
     {
       id: `${spec.id}-clamp`,
-      title: lt('Clamp / angle', 'Clamp / angle', 'Clamp / angle'),
+      title: lt('Kẹp / góc (Clamp)', 'Clamp / angle', 'Clamp / angle'),
       goal: lt('Đóng khoảng trống chính và chuyển lực theo đường chéo.', 'Close the key space and move force on a diagonal line.', 'Fermer l’espace clé et diriger la force en diagonale.'),
       contacts: spec.contacts.slice(2, 4).map(contact),
       successSignal: lt('Shoulder line hoặc hip line của đối thủ bị xoay.', 'The opponent’s shoulder line or hip line is turned.', 'La shoulder line ou hip line adverse est tournée.'),
@@ -138,7 +138,7 @@ const bodyToBodySystem = (spec: ModernSkillSpec): BodyToBodyDetailSystem => ({
     },
     {
       id: `${spec.id}-finish`,
-      title: lt('Finish / branch', 'Finish / branch', 'Finish / branche'),
+      title: lt('Kết thúc / Nhánh tiếp', 'Finish / branch', 'Finish / branche'),
       goal: lt('Hoàn tất control hoặc chuyển nhánh trước khi mất contact.', 'Finish control or branch before the contact is lost.', 'Finir le contrôle ou brancher avant de perdre le contact.'),
       contacts: spec.contacts.slice(4).map(contact),
       successSignal: spec.finishTrigger,
@@ -582,7 +582,7 @@ const makeSkill = (spec: ModernSkillSpec): SkillNode => ({
 
 const c = (
   id: string,
-  titleEn: string,
+  titleInput: string | LocalizedText,
   mySide: BodySide,
   myPart: BodyPart,
   opponentSide: BodySide,
@@ -599,37 +599,44 @@ const c = (
   enPrevents: string,
   frPrevents: string,
   safety = false,
-): ModernContactSpec => ({
-  id,
-  title: lt(titleEn, titleEn, titleEn),
-  mySide,
-  myPart,
-  opponentSide,
-  opponentPart,
-  contactType,
-  forceDirection,
-  category,
-  microDirection,
-  pressureLevel: safety ? 'progressive' : 'medium',
-  instruction: lt(viInstruction, enInstruction, frInstruction),
-  why: lt(
-    `${viPrevents} vì contact này chặn line xoay chính.`,
-    `${enPrevents} because this contact blocks the main rotation line.`,
-    `${frPrevents} car ce contact bloque la ligne de rotation principale.`,
-  ),
-  mistake: lt(
-    `Contact trôi khỏi ${titleEn.toLowerCase()} nên đối thủ lấy lại base.`,
-    `The ${titleEn.toLowerCase()} contact drifts, so the opponent rebuilds base.`,
-    `Le contact ${titleEn.toLowerCase()} glisse et l’adversaire retrouve base.`,
-  ),
-  cue: lt(`Giữ ${titleEn.toLowerCase()} trước.`, `${titleEn} first.`, `${titleEn} d’abord.`),
-  liveCue: lt(titleEn, titleEn, titleEn),
-  prevents: lt(viPrevents, enPrevents, frPrevents),
-  safetyNote: safety
-    ? lt('Tăng lực chậm; thả ngay khi partner tap hoặc có đau cổ/gối bất thường.', 'Apply slowly; release on tap or unusual neck/knee pain.', 'Appliquer lentement; relâcher au tap ou douleur cou/genou anormale.')
-    : undefined,
-  bodyParts,
-})
+): ModernContactSpec => {
+  const title = typeof titleInput === 'string' ? lt(titleInput, titleInput, titleInput) : titleInput
+  return {
+    id,
+    title,
+    mySide,
+    myPart,
+    opponentSide,
+    opponentPart,
+    contactType,
+    forceDirection,
+    category,
+    microDirection,
+    pressureLevel: safety ? 'progressive' : 'medium',
+    instruction: lt(viInstruction, enInstruction, frInstruction),
+    why: lt(
+      `${viPrevents} vì contact này chặn line xoay chính.`,
+      `${enPrevents} because this contact blocks the main rotation line.`,
+      `${frPrevents} car ce contact bloque la ligne de rotation principale.`,
+    ),
+    mistake: lt(
+      `Contact trôi khỏi ${title.vi.toLowerCase()} nên đối thủ lấy lại base.`,
+      `The ${title.en.toLowerCase()} contact drifts, so the opponent rebuilds base.`,
+      `Le contact ${title.fr.toLowerCase()} glisse et l’adversaire retrouve base.`,
+    ),
+    cue: lt(`Giữ ${title.vi.toLowerCase()} trước.`, `${title.en} first.`, `${title.fr} d’abord.`),
+    liveCue: title,
+    prevents: lt(viPrevents, enPrevents, frPrevents),
+    safetyNote: safety
+      ? lt(
+          'Tăng lực chậm; thả ngay khi partner tap hoặc có đau cổ/gối bất thường.',
+          'Apply slowly; release on tap or unusual neck/knee pain.',
+          'Appliquer lentement; relâcher au tap ou douleur cou/genou anormale.',
+        )
+      : undefined,
+    bodyParts,
+  }
+}
 
 const safetyLeg = la(
   ['Tap sớm, giấu gót và thoát knee line trước khi xoay.', 'Không spin mù khi gối còn bị kẹt.', 'Tập dưới giám sát khi có heel exposure.'],
@@ -674,11 +681,11 @@ const specs: ModernSkillSpec[] = [
     abortSignal: lt('Crossface sâu hoặc đầu bạn bị ép phẳng.', 'Deep crossface or your head is flattened.', 'Crossface profond ou tête aplatie.'),
     nextBestOption: lt('Chuyển octopus sweep hoặc dogfight trước khi bị flatten.', 'Switch to octopus sweep or dogfight before being flattened.', 'Passer au sweep octopus ou dogfight avant flatten.'),
     contacts: [
-      c('near-arm-far-hip', 'Near arm wraps far hip', 'near', 'forearm', 'far', 'hip', 'wrap', 'pull_toward_you', 'hand', 'pull_toward_you', ['forearms', 'hips'], 'Tay gần của tôi vòng quanh hông xa của đối thủ và kéo hông đó về phía tôi.', 'My near arm wraps the opponent’s far hip and pulls that hip toward me.', 'Mon bras proche enroule la hanche éloignée et la tire vers moi.', 'Chặn họ quay ngực lại để flatten bạn.', 'Stops them from turning chest back to flatten you.', 'Empêche de revenir poitrine pour vous aplatir.'),
-      c('outside-hip-scoot', 'Outside hip behind hip line', 'outside', 'hip', 'far', 'hip', 'hip_connection', 'circle_outside', 'hip', 'circle_outside', ['hips'], 'Hông ngoài của tôi scoot ra sau hip line của đối thủ.', 'My outside hip scoots behind the opponent’s hip line.', 'Ma hanche extérieure scoot derrière la hip line adverse.', 'Tạo sitting angle để họ phải post tay.', 'Creates a sitting angle that forces a hand post.', 'Crée un angle assis qui force une main au sol.'),
-      c('far-hand-post', 'Far hand post', 'far', 'hand', 'center', 'chest', 'post', 'lift_up', 'hand', 'lift', ['hands', 'chest'], 'Tay xa của tôi post xuống thảm để nâng vai và giữ đầu khỏi crossface.', 'My far hand posts on the mat to lift my shoulder and keep my head away from crossface.', 'Ma main éloignée poste au sol pour lever l’épaule et éloigner la tête du crossface.', 'Giữ posture seated thay vì bị đè phẳng.', 'Keeps seated posture instead of being flattened.', 'Garde posture assise au lieu d’être aplati.'),
-      c('chest-turn-away', 'Chest turns from crossface', 'center', 'chest', 'near', 'shoulder', 'wedge', 'rotate_counterclockwise', 'angle', 'rotate_left', ['chest', 'shoulders'], 'Ngực của tôi xoay ra khỏi vai crossface của đối thủ.', 'My chest turns away from the opponent’s crossface shoulder.', 'Ma poitrine tourne loin de l’épaule crossface adverse.', 'Làm crossface hụt line đầu.', 'Makes the crossface miss the head line.', 'Fait manquer la ligne de tête au crossface.'),
-      c('knee-blocks-hip', 'Knee blocks hip turn', 'inside', 'knee', 'near', 'hip', 'knee_wedge', 'wedge', 'knee', 'wedge', ['knees', 'hips'], 'Gối trong của tôi chèn hông gần để họ không xoay lại đối diện.', 'My inside knee wedges the near hip so they cannot turn back to face me.', 'Mon genou intérieur bloque la hanche proche pour empêcher le retour face à moi.', 'Giữ back exposure và mở sweep.', 'Keeps back exposure and opens the sweep.', 'Garde exposition du dos et ouvre sweep.'),
+      c('near-arm-far-hip', lt('Ôm hông xa', 'Near arm wraps far hip', 'Bras proche enroule hanche loin'), 'near', 'forearm', 'far', 'hip', 'wrap', 'pull_toward_you', 'hand', 'pull_toward_you', ['forearms', 'hips'], 'Tay gần của tôi vòng quanh hông xa của đối thủ và kéo hông đó về phía tôi.', 'My near arm wraps the opponent’s far hip and pulls that hip toward me.', 'Mon bras proche enroule la hanche éloignée et la tire vers moi.', 'Chặn họ quay ngực lại để flatten bạn.', 'Stops them from turning chest back to flatten you.', 'Empêche de revenir poitrine pour vous aplatir.'),
+      c('outside-hip-scoot', lt('Đẩy hông ra ngoài', 'Outside hip behind hip line', 'Hanche extérieure derrière hip line'), 'outside', 'hip', 'far', 'hip', 'hip_connection', 'circle_outside', 'hip', 'circle_outside', ['hips'], 'Hông ngoài của tôi scoot ra sau hip line của đối thủ.', 'My outside hip scoots behind the opponent’s hip line.', 'Ma hanche extérieure scoot derrière la hip line adverse.', 'Tạo sitting angle để họ phải post tay.', 'Creates a sitting angle that forces a hand post.', 'Crée un angle assis qui force une main au sol.'),
+      c('far-hand-post', lt('Chống tay xa', 'Far hand post', 'Post main éloignée'), 'far', 'hand', 'center', 'chest', 'post', 'lift_up', 'hand', 'lift', ['hands', 'chest'], 'Tay xa của tôi post xuống thảm để nâng vai và giữ đầu khỏi crossface.', 'My far hand posts on the mat to lift my shoulder and keep my head away from crossface.', 'Ma main éloignée poste au sol pour lever l’épaule et éloigner la tête du crossface.', 'Giữ posture seated thay vì bị đè phẳng.', 'Keeps seated posture instead of being flattened.', 'Garde posture assise au lieu d’être aplati.'),
+      c('chest-turn-away', lt('Ngực xoay đi', 'Chest turns from crossface', 'Poitrine tourne loin du crossface'), 'center', 'chest', 'near', 'shoulder', 'wedge', 'rotate_counterclockwise', 'angle', 'rotate_left', ['chest', 'shoulders'], 'Ngực của tôi xoay ra khỏi vai crossface của đối thủ.', 'My chest turns away from the opponent’s crossface shoulder.', 'Ma poitrine tourne loin de l’épaule crossface adverse.', 'Làm crossface hụt line đầu.', 'Makes the crossface miss the head line.', 'Fait manquer la ligne de tête au crossface.'),
+      c('knee-blocks-hip', lt('Gối chặn hông', 'Knee blocks hip turn', 'Genou bloque la hanche'), 'inside', 'knee', 'near', 'hip', 'knee_wedge', 'wedge', 'knee', 'wedge', ['knees', 'hips'], 'Gối trong của tôi chèn hông gần để họ không xoay lại đối diện.', 'My inside knee wedges the near hip so they cannot turn back to face me.', 'Mon genou intérieur bloque la hanche proche pour empêcher le retour face à moi.', 'Giữ back exposure và mở sweep.', 'Keeps back exposure and opens the sweep.', 'Garde exposition du dos et ouvre sweep.'),
     ],
   },
   {
@@ -705,11 +712,11 @@ const specs: ModernSkillSpec[] = [
     abortSignal: lt('Họ lấy lại crossface hoặc rút hông ra xa.', 'They recover crossface or pull hips away.', 'Ils récupèrent crossface ou retirent les hanches.'),
     nextBestOption: lt('Quay sang dogfight hoặc back take nếu họ post mạnh.', 'Turn to dogfight or back take if they post hard.', 'Passer dogfight ou prise de dos s’ils postent fort.'),
     contacts: [
-      c('hip-pull', 'Far hip pull', 'near', 'forearm', 'far', 'hip', 'pull', 'pull_toward_you', 'hand', 'pull_toward_you', ['forearms', 'hips'], 'Cẳng tay gần kéo far hip qua centerline.', 'My near forearm pulls the far hip across centerline.', 'Mon avant-bras proche tire la far hip au-delà de centerline.', 'Làm base của họ đi qua vai.', 'Moves their base past their shoulder.', 'Déplace leur base au-delà de l’épaule.'),
-      c('outside-foot-post', 'Outside foot post', 'outside', 'foot', 'center', 'hip', 'foot_post', 'lift_up', 'foot', 'lift', ['feet', 'hips'], 'Bàn chân ngoài của tôi post để nâng hông và không nằm lại.', 'My outside foot posts to lift my hips and avoid staying flat.', 'Mon pied extérieur poste pour lever les hanches.', 'Tạo lực lên top thay vì kéo bằng tay.', 'Creates rising force instead of arm pulling.', 'Crée une force montante au lieu de tirer bras.'),
-      c('head-stays-high', 'Head stays high', 'center', 'head', 'near', 'ribs', 'head_position', 'lift_up', 'head', 'lift', ['head', 'ribs'], 'Đầu của tôi ở cao cạnh ribs để không bị đè lại.', 'My head stays high beside the ribs so I cannot be flattened back.', 'Ma tête reste haute près des côtes pour éviter flatten.', 'Chặn crossface hồi phục.', 'Blocks crossface recovery.', 'Bloque le retour crossface.'),
-      c('knee-tracks-hip', 'Knee tracks hip', 'inside', 'knee', 'near', 'hip', 'knee_wedge', 'circle_inside', 'knee', 'circle_inside', ['knees', 'hips'], 'Gối trong đi theo hông gần khi tôi lên top.', 'My inside knee follows the near hip as I come on top.', 'Mon genou intérieur suit la hanche proche en montant top.', 'Không cho họ re-guard ngay.', 'Denies immediate re-guard.', 'Empêche re-guard immédiat.'),
-      c('chest-follows-shoulder', 'Chest follows shoulder line', 'center', 'chest', 'near', 'shoulder', 'chest_connection', 'drive_diagonal', 'chest', 'drive_diagonal', ['chest', 'shoulders'], 'Ngực của tôi đi theo shoulder line để ổn định top.', 'My chest follows the shoulder line to stabilize top.', 'Ma poitrine suit shoulder line pour stabiliser top.', 'Kết thúc sweep thành pin thay vì scramble.', 'Turns the sweep into pin instead of scramble.', 'Transforme sweep en pin au lieu de scramble.'),
+      c('hip-pull', lt('Kéo hông', 'Far hip pull', 'Tirage de hanche'), 'near', 'forearm', 'far', 'hip', 'pull', 'pull_toward_you', 'hand', 'pull_toward_you', ['forearms', 'hips'], 'Cẳng tay gần kéo far hip qua centerline.', 'My near forearm pulls the far hip across centerline.', 'Mon avant-bras proche tire la far hip au-delà de centerline.', 'Làm base của họ đi qua vai.', 'Moves their base past their shoulder.', 'Déplace leur base au-delà de l’épaule.'),
+      c('outside-foot-post', lt('Chống chân ngoài', 'Outside foot post', 'Post pied extérieur'), 'outside', 'foot', 'center', 'hip', 'foot_post', 'lift_up', 'foot', 'lift', ['feet', 'hips'], 'Bàn chân ngoài của tôi post để nâng hông và không nằm lại.', 'My outside foot posts to lift my hips and avoid staying flat.', 'Mon pied extérieur poste pour lever les hanches.', 'Tạo lực lên top thay vì kéo bằng tay.', 'Creates rising force instead of arm pulling.', 'Crée une force montante au lieu de tirer bras.'),
+      c('head-stays-high', lt('Giữ đầu cao', 'Head stays high', 'Tête reste haute'), 'center', 'head', 'near', 'ribs', 'head_position', 'lift_up', 'head', 'lift', ['head', 'ribs'], 'Đầu của tôi ở cao cạnh ribs để không bị đè lại.', 'My head stays high beside the ribs so I cannot be flattened back.', 'Ma tête reste haute près des côtes pour éviter flatten.', 'Chặn crossface hồi phục.', 'Blocks crossface recovery.', 'Bloque le retour crossface.'),
+      c('knee-tracks-hip', lt('Gối theo hông', 'Knee tracks hip', 'Genou suit la hanche'), 'inside', 'knee', 'near', 'hip', 'knee_wedge', 'circle_inside', 'knee', 'circle_inside', ['knees', 'hips'], 'Gối trong đi theo hông gần khi tôi lên top.', 'My inside knee follows the near hip as I come on top.', 'Mon genou intérieur suit la hanche proche en montant top.', 'Không cho họ re-guard ngay.', 'Denies immediate re-guard.', 'Empêche re-guard immédiat.'),
+      c('chest-follows-shoulder', lt('Ngực theo vai', 'Chest follows shoulder line', 'Poitrine suit shoulder line'), 'center', 'chest', 'near', 'shoulder', 'chest_connection', 'drive_diagonal', 'chest', 'drive_diagonal', ['chest', 'shoulders'], 'Ngực của tôi đi theo shoulder line để ổn định top.', 'My chest follows the shoulder line to stabilize top.', 'Ma poitrine suit shoulder line pour stabiliser top.', 'Kết thúc sweep thành pin thay vì scramble.', 'Turns the sweep into pin instead of scramble.', 'Transforme sweep en pin au lieu de scramble.'),
     ],
   },
   {
@@ -736,11 +743,11 @@ const specs: ModernSkillSpec[] = [
     abortSignal: lt('Họ quay ngực lại đối diện hoặc lấy underhook.', 'They turn chest back toward you or win underhook.', 'Ils tournent poitrine vers vous ou gagnent underhook.'),
     nextBestOption: lt('Quay lại octopus control hoặc vào turtle ride.', 'Return to octopus control or enter turtle ride.', 'Revenir octopus control ou entrer turtle ride.'),
     contacts: [
-      c('near-wrist-pull', 'Near wrist pull', 'right', 'hand', 'near', 'wrist', 'grip', 'pull_toward_you', 'grip', 'pull_toward_you', ['hands', 'wrists'], 'Tay phải của tôi kéo cổ tay gần của đối thủ khỏi thảm.', 'My right hand pulls the opponent’s near wrist off the mat.', 'Ma main droite tire le poignet proche hors du sol.', 'Phá post chống back take.', 'Breaks the post that stops the back take.', 'Casse le post qui bloque la prise de dos.'),
-      c('chest-to-back', 'Chest to back', 'center', 'chest', 'center', 'spine', 'chest_connection', 'close_inward', 'chest', 'close_in', ['chest', 'spine'], 'Ngực của tôi dán vào lưng trước khi đặt hook.', 'My chest glues to the back before I place a hook.', 'Ma poitrine colle au dos avant de poser hook.', 'Xóa khoảng xoay vai.', 'Removes shoulder-turning space.', 'Supprime l’espace de rotation des épaules.'),
-      c('knee-behind-hip', 'Knee behind hip', 'right', 'knee', 'near', 'hip', 'knee_wedge', 'wedge', 'knee', 'wedge', ['knees', 'hips'], 'Gối phải của tôi chèn sau hông gần.', 'My right knee wedges behind the near hip.', 'Mon genou droit bloque derrière la hanche proche.', 'Ngăn họ quay về guard.', 'Stops them from turning back to guard.', 'Empêche le retour en garde.'),
-      c('far-arm-seatbelt', 'Far arm seatbelt', 'left', 'forearm', 'far', 'ribs', 'wrap', 'pull_toward_you', 'hand', 'pull_toward_you', ['forearms', 'ribs'], 'Cẳng tay trái vòng qua ribs xa để tạo seatbelt.', 'My left forearm wraps the far ribs to build seatbelt.', 'Mon avant-bras gauche enroule les côtes éloignées pour seatbelt.', 'Chặn họ trườn vai ra ngoài.', 'Stops shoulder slipping out.', 'Empêche l’épaule de glisser.'),
-      c('head-follows-ear', 'Head beside head', 'center', 'head', 'near', 'head', 'head_position', 'pin_inward', 'head', 'pin_in', ['head'], 'Đầu của tôi đi sát đầu họ để không cho quay mặt vào.', 'My head stays beside their head so they cannot face back in.', 'Ma tête reste près de leur tête pour empêcher le retour face à moi.', 'Giữ back exposure tới khi hook vào.', 'Keeps back exposure until the hook enters.', 'Garde exposition du dos jusqu’au hook.'),
+      c('near-wrist-pull', lt('Kéo cổ tay gần', 'Near wrist pull', 'Tirer poignet proche'), 'right', 'hand', 'near', 'wrist', 'grip', 'pull_toward_you', 'grip', 'pull_toward_you', ['hands', 'wrists'], 'Tay phải của tôi kéo cổ tay gần của đối thủ khỏi thảm.', 'My right hand pulls the opponent’s near wrist off the mat.', 'Ma main droite tire le poignet proche hors du sol.', 'Phá post chống back take.', 'Breaks the post that stops the back take.', 'Casse le post qui bloque la prise de dos.'),
+      c('chest-to-back', lt('Ngực dán lưng', 'Chest to back', 'Poitrine au dos'), 'center', 'chest', 'center', 'spine', 'chest_connection', 'close_inward', 'chest', 'close_in', ['chest', 'spine'], 'Ngực của tôi dán vào lưng trước khi đặt hook.', 'My chest glues to the back before I place a hook.', 'Ma poitrine colle au dos avant de poser hook.', 'Xóa khoảng xoay vai.', 'Removes shoulder-turning space.', 'Supprime l’espace de rotation des épaules.'),
+      c('knee-behind-hip', lt('Gối sau hông', 'Knee behind hip', 'Genou derrière hanche'), 'right', 'knee', 'near', 'hip', 'knee_wedge', 'wedge', 'knee', 'wedge', ['knees', 'hips'], 'Gối phải của tôi chèn sau hông gần.', 'My right knee wedges behind the near hip.', 'Mon genou droit bloque derrière la hanche proche.', 'Ngăn họ quay về guard.', 'Stops them from turning back to guard.', 'Empêche le retour en garde.'),
+      c('far-arm-seatbelt', lt('Seatbelt tay xa', 'Far arm seatbelt', 'Seatbelt bras éloigné'), 'left', 'forearm', 'far', 'ribs', 'wrap', 'pull_toward_you', 'hand', 'pull_toward_you', ['forearms', 'ribs'], 'Cẳng tay trái vòng qua ribs xa để tạo seatbelt.', 'My left forearm wraps the far ribs to build seatbelt.', 'Mon avant-bras gauche enroule les côtes éloignées pour seatbelt.', 'Chặn họ trườn vai ra ngoài.', 'Stops shoulder slipping out.', 'Empêche l’épaule de glisser.'),
+      c('head-follows-ear', lt('Đầu cạnh đầu', 'Head beside head', 'Tête contre tête'), 'center', 'head', 'near', 'head', 'head_position', 'pin_inward', 'head', 'pin_in', ['head'], 'Đầu của tôi đi sát đầu họ để không cho quay mặt vào.', 'My head stays beside their head so they cannot face back in.', 'Ma tête reste près de leur tête pour empêcher le retour face à moi.', 'Giữ back exposure tới khi hook vào.', 'Keeps back exposure until the hook enters.', 'Garde exposition du dos jusqu’au hook.'),
     ],
   },
   {
@@ -767,11 +774,11 @@ const specs: ModernSkillSpec[] = [
     abortSignal: lt('Họ rút elbow về ribs hoặc đứng thẳng posture.', 'They pull elbow back to ribs or posture upright.', 'Ils ramènent coude aux côtes ou redressent posture.'),
     nextBestOption: lt('Đổi sang shoulder crunch hoặc closed guard recovery.', 'Switch to shoulder crunch or recover closed guard.', 'Passer shoulder crunch ou récupérer closed guard.'),
     contacts: [
-      c('knee-over-shoulder', 'Knee over shoulder', 'right', 'knee', 'left', 'shoulder', 'clamp', 'compress_down', 'knee', 'close_in', ['knees', 'shoulders'], 'Gối phải của tôi kẹp trên vai trái của đối thủ.', 'My right knee clamps over the opponent’s left shoulder.', 'Mon genou droit clamp l’épaule gauche adverse.', 'Khóa shoulder line và posture.', 'Locks shoulder line and posture.', 'Verrouille shoulder line et posture.'),
-      c('overhook-traps-arm', 'Overhook traps arm', 'right', 'forearm', 'left', 'triceps', 'overhook', 'pin_inward', 'elbow', 'pin_in', ['forearms', 'biceps'], 'Cẳng tay phải overhook và kéo triceps vào ribs của tôi.', 'My right forearm overhooks and pulls their triceps to my ribs.', 'Mon avant-bras droit overhook et tire le triceps vers mes côtes.', 'Không cho họ rút elbow về sau.', 'Stops the elbow from retracting.', 'Empêche le coude de revenir.'),
-      c('left-hand-wrist', 'Left hand owns wrist', 'left', 'hand', 'left', 'wrist', 'grip', 'pull_toward_you', 'grip', 'pull_toward_you', ['hands', 'wrists'], 'Tay trái của tôi giữ cổ tay trái của đối thủ trước khi mở hông.', 'My left hand controls their left wrist before I open my hip.', 'Ma main gauche contrôle leur poignet gauche avant d’ouvrir la hanche.', 'Chặn post và hand fight.', 'Denies post and hand fight.', 'Refuse post et hand fight.'),
-      c('shin-blocks-biceps', 'Shin blocks biceps', 'right', 'shin', 'left', 'biceps', 'block', 'wedge', 'hook', 'wedge', ['shins', 'biceps'], 'Ống chân phải của tôi chặn biceps để họ không posture.', 'My right shin blocks the biceps so they cannot posture.', 'Mon tibia droit bloque le biceps pour empêcher posture.', 'Giữ đầu họ thấp.', 'Keeps their head low.', 'Garde leur tête basse.'),
-      c('hip-opens-elbow', 'Hip opens elbow line', 'right', 'hip', 'left', 'elbow', 'hip_connection', 'open_outward', 'hip', 'open_out', ['hips', 'elbows'], 'Hông phải của tôi mở ra ngoài để lộ elbow line.', 'My right hip opens outward to expose the elbow line.', 'Ma hanche droite s’ouvre pour exposer elbow line.', 'Mở armbar/triangle/omoplata.', 'Opens armbar, triangle, or omoplata.', 'Ouvre armbar, triangle ou omoplata.'),
+      c('knee-over-shoulder', lt('Gối đè vai', 'Knee over shoulder', 'Genou sur épaule'), 'right', 'knee', 'left', 'shoulder', 'clamp', 'compress_down', 'knee', 'close_in', ['knees', 'shoulders'], 'Gối phải của tôi kẹp trên vai trái của đối thủ.', 'My right knee clamps over the opponent’s left shoulder.', 'Mon genou droit clamp l’épaule gauche adverse.', 'Khóa shoulder line và posture.', 'Locks shoulder line and posture.', 'Verrouille shoulder line et posture.'),
+      c('overhook-traps-arm', lt('Overhook khóa tay', 'Overhook traps arm', 'Overhook bloque le bras'), 'right', 'forearm', 'left', 'triceps', 'overhook', 'pin_inward', 'elbow', 'pin_in', ['forearms', 'biceps'], 'Cẳng tay phải overhook và kéo triceps vào ribs của tôi.', 'My right forearm overhooks and pulls their triceps to my ribs.', 'Mon avant-bras droit overhook et tire le triceps vers mes côtes.', 'Không cho họ rút elbow về sau.', 'Stops the elbow from retracting.', 'Empêche le coude de revenir.'),
+      c('left-hand-wrist', lt('Giữ cổ tay', 'Left hand owns wrist', 'Contrôle poignet'), 'left', 'hand', 'left', 'wrist', 'grip', 'pull_toward_you', 'grip', 'pull_toward_you', ['hands', 'wrists'], 'Tay trái của tôi giữ cổ tay trái của đối thủ trước khi mở hông.', 'My left hand controls their left wrist before I open my hip.', 'Ma main gauche contrôle leur poignet gauche avant d’ouvrir la hanche.', 'Chặn post và hand fight.', 'Denies post and hand fight.', 'Refuse post et hand fight.'),
+      c('shin-blocks-biceps', lt('Ống chân chặn biceps', 'Shin blocks biceps', 'Tibia bloque biceps'), 'right', 'shin', 'left', 'biceps', 'block', 'wedge', 'hook', 'wedge', ['shins', 'biceps'], 'Ống chân phải của tôi chặn biceps để họ không posture.', 'My right shin blocks the biceps so they cannot posture.', 'Mon tibia droit bloque le biceps pour empêcher posture.', 'Giữ đầu họ thấp.', 'Keeps their head low.', 'Garde leur tête basse.'),
+      c('hip-opens-elbow', lt('Hông mở elbow line', 'Hip opens elbow line', 'Hanche ouvre elbow line'), 'right', 'hip', 'left', 'elbow', 'hip_connection', 'open_outward', 'hip', 'open_out', ['hips', 'elbows'], 'Hông phải của tôi mở ra ngoài để lộ elbow line.', 'My right hip opens outward to expose the elbow line.', 'Ma hanche droite s’ouvre pour exposer elbow line.', 'Mở armbar/triangle/omoplata.', 'Opens armbar, triangle, or omoplata.', 'Ouvre armbar, triangle ou omoplata.'),
     ],
   },
   {

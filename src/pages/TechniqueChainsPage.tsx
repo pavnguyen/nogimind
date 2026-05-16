@@ -62,9 +62,15 @@ export default function TechniqueChainsPage() {
         {chains.slice(0, 40).map((chain) => (
           <SectionCard
             key={chain.id}
+            to={`/skills/${chain.skillId}`}
             title={getLocalizedText(chain.title, lang)}
             description={getLocalizedText(chain.endGoal, lang)}
-            action={<Link to={`/skills/${chain.skillId}`} className="inline-flex items-center gap-1.5 rounded-md border border-cyan-300/20 px-3 py-2 text-sm font-medium text-cyan-100 hover:bg-white/10">{t('common.open')}<ArrowRight className="h-4 w-4" aria-hidden="true" /></Link>}
+            action={
+              <div className="inline-flex items-center gap-1.5 rounded-md border border-cyan-300/20 px-3 py-2 text-sm font-medium text-cyan-100 opacity-0 transition-all transform translate-x-2 group-hover:opacity-100 group-hover:translate-x-0">
+                {t('common.open')}
+                <ArrowRight className="h-4 w-4" aria-hidden="true" />
+              </div>
+            }
           >
             <div className="space-y-3">
               <p className="text-sm leading-6 text-slate-400"><span className="font-semibold text-slate-200">{t('chains.start')}: </span>{getLocalizedText(chain.startNode, lang)}</p>

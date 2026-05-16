@@ -70,24 +70,30 @@ export default function ArchetypesPage() {
         {!filtered.length ? <EmptyState title={t('archetypes.empty')} /> : null}
         <div className="grid gap-4 xl:grid-cols-2">
           {filtered.map((archetype) => (
-            <article key={archetype.id} className="rounded-lg border border-white/10 bg-slate-950/65 p-4 transition hover:border-cyan-300/35 hover:bg-white/[0.06]">
+            <Link
+              key={archetype.id}
+              to={`/archetypes/${archetype.id}`}
+              className="group block rounded-lg border border-white/10 bg-slate-950/65 p-4 transition-all hover:border-cyan-300/35 hover:bg-white/[0.06]"
+            >
               <div className="flex flex-wrap gap-2">
                 <Badge tone="emerald">{t('archetypes.coreSkillsCount', { count: archetype.coreSkillIds.length })}</Badge>
                 <Badge tone="cyan">{t('archetypes.conceptsCount', { count: archetype.coreConceptIds.length })}</Badge>
               </div>
-              <h2 className="mt-3 text-lg font-semibold text-white">{getLocalizedText(archetype.title, language)}</h2>
-              <p className="mt-2 text-sm leading-6 text-slate-400">{getLocalizedText(archetype.shortDescription, language)}</p>
-              <p className="mt-3 text-sm leading-6 text-slate-300">{getLocalizedText(archetype.philosophy, language)}</p>
+              <h2 className="mt-3 text-lg font-semibold text-white group-hover:text-cyan-300 transition-colors">
+                {getLocalizedText(archetype.title, language)}
+              </h2>
+              <p className="mt-2 text-sm leading-6 text-slate-400 line-clamp-2">{getLocalizedText(archetype.shortDescription, language)}</p>
+              <p className="mt-3 text-sm leading-6 text-slate-300 line-clamp-2">{getLocalizedText(archetype.philosophy, language)}</p>
               <div className="mt-4 flex flex-wrap items-center justify-between gap-3 border-t border-white/10 pt-4">
                 <div className="flex flex-wrap gap-2">
                   {archetype.coreSkillIds.slice(0, 3).map((id) => <Badge key={id}>{id}</Badge>)}
                 </div>
-                <Link to={`/archetypes/${archetype.id}`} className="inline-flex items-center gap-1.5 text-sm font-medium text-cyan-200 hover:text-cyan-100">
+                <div className="inline-flex items-center gap-1.5 text-sm font-medium text-cyan-200 opacity-0 transition-all transform translate-x-2 group-hover:opacity-100 group-hover:translate-x-0">
                   {t('common.open')}
                   <ArrowRight className="h-4 w-4" aria-hidden="true" />
-                </Link>
+                </div>
               </div>
-            </article>
+            </Link>
           ))}
         </div>
       </SectionCard>

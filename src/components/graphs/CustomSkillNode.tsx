@@ -14,7 +14,7 @@ export type SkillFlowNode = Node<
 export const CustomSkillNode = ({ data }: NodeProps<SkillFlowNode>) => (
   <div
     className={cn(
-      'min-w-48 rounded-lg border bg-slate-950/95 p-3 shadow-glow',
+      'min-w-48 cursor-pointer rounded-lg border bg-slate-950/95 p-3 transition-colors hover:bg-white/5 shadow-glow',
       data.active ? 'border-emerald-300' : 'border-white/15',
     )}
   >

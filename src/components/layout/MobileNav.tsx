@@ -1,4 +1,4 @@
-import { NavLink } from 'react-router-dom'
+import { NavLink, Link } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import { Search, X, Home, Compass, BookOpen, Wrench, Zap, Map as MapIcon } from 'lucide-react'
 import { useUiStore } from '../../stores/useUiStore'
@@ -24,10 +24,10 @@ export const MobileNav = () => {
       <div className="fixed inset-0 z-40 animate-fade-in bg-slate-950/90 backdrop-blur-2xl lg:hidden">
         <div className="flex h-full flex-col p-6">
           <div className="flex items-center justify-between">
-            <div>
+            <Link to="/" onClick={() => setOpen(false)}>
               <p className="text-lg font-semibold text-white">{t('app.name')}</p>
               <p className="text-xs text-slate-500">{t('app.version')}</p>
-            </div>
+            </Link>
             <button
               type="button"
               onClick={() => setOpen(false)}
