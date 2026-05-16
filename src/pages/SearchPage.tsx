@@ -27,6 +27,7 @@ export default function SearchPage() {
   const setType = useSearchStore((state) => state.setType)
   const setMode = useSearchStore((state) => state.setMode)
   const [debouncedQuery, setDebouncedQuery] = useState(query)
+  const trimmedDebouncedQuery = debouncedQuery.trim()
 
   useEffect(() => {
     const legacyQuery = searchParams.get('q')
@@ -47,36 +48,40 @@ export default function SearchPage() {
 
   const [results, setResults] = useState<KnowledgeSearchResult[]>([])
   const [searching, setSearching] = useState(false)
+  const visibleResults = useMemo(
+    () => trimmedDebouncedQuery ? results : [],
+    [results, trimmedDebouncedQuery],
+  )
+  const isSearching = Boolean(trimmedDebouncedQuery) && searching
 
   useEffect(() => {
-    if (!debouncedQuery.trim()) {
-      setResults([])
-      setSearching(false)
-      return
-    }
+    if (!trimmedDebouncedQuery) return
 
     let cancelled = false
-    setSearching(true)
-    searchKnowledge(debouncedQuery, language, { type, mode }).then((data) => {
-      if (!cancelled) {
-        setResults(data)
-        setSearching(false)
-      }
-    }).catch(() => {
-      if (!cancelled) {
-        setResults([])
-        setSearching(false)
-      }
+    const timeout = window.setTimeout(() => {
+      setSearching(true)
+      searchKnowledge(trimmedDebouncedQuery, language, { type, mode }).then((data) => {
+        if (!cancelled) {
+          setResults(data)
+          setSearching(false)
+        }
+      }).catch(() => {
+        if (!cancelled) {
+          setResults([])
+          setSearching(false)
+        }
+      })
     })
 
     return () => {
       cancelled = true
+      window.clearTimeout(timeout)
     }
-  }, [debouncedQuery, language, type, mode])
+  }, [trimmedDebouncedQuery, language, type, mode])
 
   const grouped = useMemo(
-    () => (type ? filterTypes : coreResultTypes).map((itemType) => ({ type: itemType, results: results.filter((result) => result.type === itemType) })).filter((group) => group.results.length),
-    [results, type],
+    () => (type ? filterTypes : coreResultTypes).map((itemType) => ({ type: itemType, results: visibleResults.filter((result) => result.type === itemType) })).filter((group) => group.results.length),
+    [visibleResults, type],
   )
 
   return (
@@ -126,10 +131,10 @@ export default function SearchPage() {
       {!query.trim() ? (
         <EmptyState title={t('search.emptyQuery')} description={t('search.emptyQueryBody')} />
       ) : null}
-      {query.trim() && searching ? (
+      {trimmedDebouncedQuery && isSearching ? (
         <EmptyState title={t('common.loading')} description={t('search.whatFor')} />
       ) : null}
-      {query.trim() && !searching && !results.length ? (
+      {trimmedDebouncedQuery && !isSearching && !visibleResults.length ? (
         <EmptyState title={t('search.noResults')} description={t('search.nextStep')} />
       ) : null}
 

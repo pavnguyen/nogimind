@@ -17,7 +17,7 @@ const filterBodyParts: Record<Exclude<MechanicsFilter, 'all' | 'pressure' | 'saf
 const pressureTypes: MechanicType[] = ['pressure', 'weight_distribution']
 const safetyTypes: MechanicType[] = ['safety', 'escape_mechanic']
 
-export const instructionMatchesFilter = (instruction: BodyPartInstruction, filter: MechanicsFilter) => {
+const instructionMatchesFilter = (instruction: BodyPartInstruction, filter: MechanicsFilter) => {
   if (filter === 'all') return true
   if (filter === 'pressure') return pressureTypes.includes(instruction.mechanicType)
   if (filter === 'safety') return safetyTypes.includes(instruction.mechanicType)

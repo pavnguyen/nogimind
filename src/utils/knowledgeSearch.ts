@@ -12,6 +12,9 @@ const searchTimers = new Map<string, number>()
 let initPromise: Promise<void> | null = null
 let warmupPromise: Promise<void> | null = null
 const readyCallbacks: Array<() => void> = []
+const logPerf = (...args: Parameters<typeof console.log>) => {
+  if (import.meta.env.DEV) console.log(...args)
+}
 
 /** Subscribe to be notified when the search worker is fully initialized */
 export const subscribeOnReady = (cb: () => void): (() => void) => {
@@ -43,7 +46,9 @@ const handleWorkerCrash = () => {
   if (worker) {
     try {
       worker.terminate()
-    } catch {}
+    } catch {
+      // Worker termination is best-effort during crash cleanup.
+    }
     worker = null
   }
 
@@ -76,7 +81,7 @@ const getOrCreateWorker = (): Worker => {
       case 'search-results': {
         const tStart = searchTimers.get(id)
         if (tStart !== undefined) {
-          console.log(`[perf] worker:search:total ${(performance.now() - tStart).toFixed(2)} ms`)
+          logPerf(`[perf] worker:search:total ${(performance.now() - tStart).toFixed(2)} ms`)
           searchTimers.delete(id)
         }
         const pending = pendingRequests.get(id)
@@ -111,7 +116,7 @@ const buildSearchPayload = async (): Promise<SearchDataBundle> => {
   // 1. Try IndexedDB cache first (fastest path)
   const cached = await getCachedSearchData()
   if (cached) {
-    console.log(`[perf] init:using IndexedDB cache`)
+    logPerf(`[perf] init:using IndexedDB cache`)
     return cached
   }
 
@@ -139,7 +144,7 @@ const buildSearchPayload = async (): Promise<SearchDataBundle> => {
   ] as const)
 
   const tBuild = performance.now()
-  console.log(`[perf] init:dynamic-import ${(tBuild - tImport).toFixed(2)} ms`)
+  logPerf(`[perf] init:dynamic-import ${(tBuild - tImport).toFixed(2)} ms`)
 
   const payload: SearchDataBundle = {
     skillNodes,
@@ -157,7 +162,7 @@ const buildSearchPayload = async (): Promise<SearchDataBundle> => {
   }
 
   const tDone = performance.now()
-  console.log(`[perf] init:build-payload ${(tDone - tBuild).toFixed(2)} ms`)
+  logPerf(`[perf] init:build-payload ${(tDone - tBuild).toFixed(2)} ms`)
 
   // 3. Cache the payload for next visit (fire-and-forget)
   setCachedSearchData(payload).catch(() => {})
@@ -185,7 +190,7 @@ export const initSearchIndexes = (): Promise<void> => {
 
         const onMessage = (event: MessageEvent) => {
           if (event.data.type === 'ready') {
-            console.log(`[perf] worker:init:transfer ${(performance.now() - tTransfer).toFixed(2)} ms`)
+            logPerf(`[perf] worker:init:transfer ${(performance.now() - tTransfer).toFixed(2)} ms`)
             w.removeEventListener('message', onMessage)
             resolve()
           }
@@ -196,7 +201,7 @@ export const initSearchIndexes = (): Promise<void> => {
         // Build payload from cache or dynamic imports
         const tPayload = performance.now()
         const payload = await buildSearchPayload()
-        console.log(`[perf] init:get-payload ${(performance.now() - tPayload).toFixed(2)} ms`)
+        logPerf(`[perf] init:get-payload ${(performance.now() - tPayload).toFixed(2)} ms`)
 
         // Send data bundle to worker
         const tTransfer = performance.now()
@@ -222,7 +227,7 @@ export const warmSearchIndexes = (): Promise<void> => {
         const tWarmup = performance.now()
         const onMessage = (event: MessageEvent) => {
           if (event.data.type === 'warmup-complete') {
-            console.log(`[perf] worker:warmup:total ${(performance.now() - tWarmup).toFixed(2)} ms`)
+            logPerf(`[perf] worker:warmup:total ${(performance.now() - tWarmup).toFixed(2)} ms`)
             w.removeEventListener('message', onMessage)
             resolve()
           }
@@ -249,12 +254,12 @@ export const warmSearchIndexes = (): Promise<void> => {
 /** Pre-warm the cache ahead of time (no worker init needed yet) */
 export const preWarmSearchCache = async (): Promise<void> => {
   if (await hasValidSearchCache()) {
-    console.log('[perf] prewarm:cache already valid, skipping')
+    logPerf('[perf] prewarm:cache already valid, skipping')
     return
   }
-  console.log('[perf] prewarm:building cache from dynamic imports...')
+  logPerf('[perf] prewarm:building cache from dynamic imports...')
   await buildSearchPayload()
-  console.log('[perf] prewarm:done')
+  logPerf('[perf] prewarm:done')
 }
 
 /**
@@ -294,7 +299,7 @@ export const searchKnowledge = (
       setTimeout(() => {
         if (pendingRequests.has(id)) {
           const tSearch = searchTimers.get(id) ?? performance.now()
-          console.log(`[perf] worker:search:total ${(performance.now() - tSearch).toFixed(2)} ms (timed out) for "${trimmed.substring(0, 40)}"`)
+          logPerf(`[perf] worker:search:total ${(performance.now() - tSearch).toFixed(2)} ms (timed out) for "${trimmed.substring(0, 40)}"`)
           searchTimers.delete(id)
           pendingRequests.delete(id)
           reject(new Error('Search timed out'))
@@ -336,12 +341,14 @@ export const benchmarkSyncSearch = () => {
         }
         timings.push(performance.now() - start)
       }
-      console.group('📊 Sync search benchmark (10 queries × 10 runs)')
-      console.log(`Average: ${(timings.reduce((a, b) => a + b, 0) / timings.length).toFixed(2)} ms`)
-      console.log(`Min: ${Math.min(...timings).toFixed(2)} ms`)
-      console.log(`Max: ${Math.max(...timings).toFixed(2)} ms`)
-      console.log(`Individual runs: ${timings.map((t) => t.toFixed(1)).join(', ')} ms`)
-      console.groupEnd()
+      if (import.meta.env.DEV) {
+        console.group('Sync search benchmark (10 queries x 10 runs)')
+        console.log(`Average: ${(timings.reduce((a, b) => a + b, 0) / timings.length).toFixed(2)} ms`)
+        console.log(`Min: ${Math.min(...timings).toFixed(2)} ms`)
+        console.log(`Max: ${Math.max(...timings).toFixed(2)} ms`)
+        console.log(`Individual runs: ${timings.map((t) => t.toFixed(1)).join(', ')} ms`)
+        console.groupEnd()
+      }
     })
   }
   loadBundle()

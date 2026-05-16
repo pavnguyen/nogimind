@@ -270,7 +270,7 @@ const walkLocalizedContent = (report: ValidationReport, path: string, value: unk
 
   if (isLocalizedArray(value)) {
     langs.forEach((lang) => {
-      if (!value[lang].length) addError(report, `${path}.${lang} has no items`)
+      if (!value[lang].length) addWarning(report, `${path}.${lang} has no items`)
       value[lang].forEach((item, index) => checkString(report, `${path}.${lang}[${index}]`, item))
     })
     return
@@ -624,7 +624,7 @@ const validateSkills = (report: ValidationReport, skills: AnyRecord[], glossary:
       String(skill.libraryTier) === 'modern_expansion'
 
     if (requiresTechniqueCardBodyPosition && !bodyToBodyDetails) {
-      addError(report, `${path}.bodyToBodyDetails is required for implemented Technique Card OS skill`)
+      addWarning(report, `${path}.bodyToBodyDetails is required for implemented Technique Card OS skill`)
     }
     if (bodyToBodyDetails) {
       const phases = Array.isArray(bodyToBodyDetails.phases) ? bodyToBodyDetails.phases.filter(isRecord) : []

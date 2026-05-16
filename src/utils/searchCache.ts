@@ -28,6 +28,9 @@ const INDEX_VERSION = 3
 
 const STORE_DATA = 'data-bundle'
 const STORE_META = 'meta'
+const logPerf = (...args: Parameters<typeof console.log>) => {
+  if (import.meta.env.DEV) console.log(...args)
+}
 
 // ── Helpers ──────────────────────────────────────────────────────────
 
@@ -164,7 +167,7 @@ export const setCachedSearchData = async (bundle: SearchDataBundle): Promise<voi
       sizeBytes,
     })
 
-    console.log(`[perf] searchCache:saved ${sizeBytes > 1024 ? `${(sizeBytes / 1024).toFixed(1)} KB` : `${sizeBytes} B`}`)
+    logPerf(`[perf] searchCache:saved ${sizeBytes > 1024 ? `${(sizeBytes / 1024).toFixed(1)} KB` : `${sizeBytes} B`}`)
   } catch (err) {
     console.warn('[perf] searchCache:failed to save', err)
   }
@@ -192,7 +195,7 @@ export const clearSearchCache = async (): Promise<void> => {
       }),
     ])
 
-    console.log('[perf] searchCache:cleared')
+    logPerf('[perf] searchCache:cleared')
   } catch (err) {
     console.warn('[perf] searchCache:failed to clear', err)
   }

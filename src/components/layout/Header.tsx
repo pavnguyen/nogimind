@@ -22,6 +22,10 @@ export const Header = () => {
   const [searching, setSearching] = useState(false)
   const rootRef = useRef<HTMLDivElement>(null)
   const inputRef = useRef<HTMLInputElement>(null)
+  const trimmedQuery = query.trim()
+  const canSuggest = open && trimmedQuery.length >= 2
+  const visibleSuggestions = canSuggest ? suggestions : []
+  const isSearching = canSuggest && searching
 
   // Keyboard shortcut: Cmd+K to focus search
   useEffect(() => {
@@ -44,26 +48,15 @@ export const Header = () => {
   }, [])
 
   useEffect(() => {
-    if (!open) {
-      setSuggestions([])
-      setSearching(false)
-      return
-    }
-
-    const trimmed = query.trim()
-    if (trimmed.length < 2) {
-      setSuggestions([])
-      setSearching(false)
-      return
-    }
+    if (!canSuggest) return
 
     let cancelled = false
-    setSearching(true)
     const timeout = window.setTimeout(() => {
+      setSearching(true)
       import('../../utils/knowledgeSearch')
         .then(async ({ searchKnowledge }) => {
           if (!cancelled) {
-            const results = await searchKnowledge(trimmed, language, { mode: 'quick' })
+            const results = await searchKnowledge(trimmedQuery, language, { mode: 'quick' })
             if (!cancelled) {
               setSuggestions(results.slice(0, 6))
               setSearching(false)
@@ -82,7 +75,7 @@ export const Header = () => {
       cancelled = true
       window.clearTimeout(timeout)
     }
-  }, [language, open, query])
+  }, [canSuggest, language, trimmedQuery])
 
   const submitSearch = (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault()
@@ -133,13 +126,13 @@ export const Header = () => {
               <span>K</span>
             </kbd>
           </form>
-          {open && query.trim().length >= 2 && (
+          {canSuggest && (
             <div className="absolute left-0 right-0 top-[calc(100%+6px)] z-30 animate-scale-in rounded-xl border border-white/[0.08] bg-slate-950/95 p-2 shadow-glow-lg backdrop-blur-2xl">
-              {searching ? (
+              {isSearching ? (
                 <p className="px-3 py-3 text-center text-sm text-slate-500">{t('common.loading')}</p>
-              ) : suggestions.length ? (
+              ) : visibleSuggestions.length ? (
                 <div className="grid gap-1">
-                  {suggestions.map((result) => (
+                  {visibleSuggestions.map((result) => (
                     <button
                       key={`${result.type}-${result.id}`}
                       type="button"

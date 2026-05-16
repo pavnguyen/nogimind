@@ -18,7 +18,7 @@ export const newTrustedVideos: VideoReference[] = [
       "bodylock-passing"
     ],
     "relatedPositionIds": [
-      "half-guard"
+      "half-guard-bottom"
     ],
     "whyUseful": {
       "en": "Essential details for pressure passing",
@@ -64,7 +64,7 @@ export const newTrustedVideos: VideoReference[] = [
     "youtubeId": "placeholder-jozef2",
     "language": "en",
     "relatedSkillIds": [
-      "open-guard"
+      "seated-guard-retention"
     ],
     "relatedPositionIds": [
       "seated-guard"

@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react'
+import { useMemo, useState } from 'react'
 import { NavLink, Link, useLocation } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import { ChevronDown, PanelLeftClose, PanelLeftOpen } from 'lucide-react'
@@ -12,19 +12,18 @@ export const Sidebar = () => {
   const collapsed = useSettingsStore((state) => state.sidebarCollapsed)
   const setCollapsed = useSettingsStore((state) => state.setSidebarCollapsed)
 
-  // Track which hubs are expanded
-  const [expandedHubs, setExpandedHubs] = useState<string[]>([])
-
-  // Auto-expand the hub containing the current page
-  useEffect(() => {
-    const activeHub = hubNavItems.find((hub) => pathInHub(location.pathname, hub))
-    if (activeHub && !expandedHubs.includes(activeHub.hub)) {
-      setExpandedHubs((prev) => [...prev, activeHub.hub])
-    }
-  }, [location.pathname])
+  const activeHubId = useMemo(
+    () => hubNavItems.find((hub) => pathInHub(location.pathname, hub))?.hub,
+    [location.pathname],
+  )
+  const [userExpandedHubs, setUserExpandedHubs] = useState<string[]>([])
+  const expandedHubs = useMemo(
+    () => activeHubId ? Array.from(new Set([...userExpandedHubs, activeHubId])) : userExpandedHubs,
+    [activeHubId, userExpandedHubs],
+  )
 
   const toggleHub = (hubId: string) => {
-    setExpandedHubs((prev) =>
+    setUserExpandedHubs((prev) =>
       prev.includes(hubId) ? prev.filter((h) => h !== hubId) : [...prev, hubId],
     )
   }

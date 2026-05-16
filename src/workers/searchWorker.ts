@@ -3,6 +3,10 @@ import type { SearchDataBundle } from '../utils/searchEngine'
 import type { KnowledgeItemType, KnowledgeSearchResult } from '../types/knowledgeSearch'
 import type { LanguageCode } from '../types/skill'
 
+const logPerf = (...args: Parameters<typeof self.console.log>) => {
+  if (import.meta.env.DEV) self.console.log(...args)
+}
+
 export type WorkerSearchRequest = {
   type: 'search'
   id: string
@@ -48,9 +52,9 @@ self.onmessage = (event: MessageEvent<WorkerMessage>) => {
   switch (type) {
     case 'init': {
       // Receive data from main thread to avoid duplicate bundling
-      let t = self.performance.now()
+      const t = self.performance.now()
       setSearchData(event.data.payload)
-      self.console.log(`[perf] worker:init:setData ${(self.performance.now() - t).toFixed(2)} ms`)
+      logPerf(`[perf] worker:init:setData ${(self.performance.now() - t).toFixed(2)} ms`)
 
       self.postMessage({ type: 'ready' })
       break
@@ -60,7 +64,7 @@ self.onmessage = (event: MessageEvent<WorkerMessage>) => {
       const { langs, types } = event.data.payload
       const t = self.performance.now()
       syncWarmSearchIndexes(langs, types)
-      self.console.log(`[perf] worker:warmup ${(self.performance.now() - t).toFixed(2)} ms`)
+      logPerf(`[perf] worker:warmup ${(self.performance.now() - t).toFixed(2)} ms`)
       self.postMessage({ type: 'warmup-complete', payload: { langs, types } })
       break
     }
@@ -69,7 +73,7 @@ self.onmessage = (event: MessageEvent<WorkerMessage>) => {
       const { id, payload } = event.data
       const t = self.performance.now()
       const results = syncSearchKnowledge(payload.query, payload.lang, payload.filters)
-      self.console.log(`[perf] worker:search:execute ${id} ${(self.performance.now() - t).toFixed(2)} ms`)
+      logPerf(`[perf] worker:search:execute ${id} ${(self.performance.now() - t).toFixed(2)} ms`)
       self.postMessage({ type: 'search-results', id, payload: results })
       break
     }

@@ -1,6 +1,7 @@
 import type {
   AngleDetail,
   BlackbeltDetailSystem,
+  BodyMechanicsSystem,
   BodyPart,
   BodyPartKey,
   BodySide,
@@ -12,6 +13,7 @@ import type {
   LocalizedText,
   MetaStatus,
   MicroDetailCategory,
+  MicroDetailSystem,
   ModernSystemGroup,
   PressureDetail,
   QualityChecklistType,
@@ -20,6 +22,7 @@ import type {
   SkillLevel,
   SkillNode,
   TechniqueFamily,
+  TechniqueQualityChecklist,
 } from '../types/skill'
 
 const lt = (vi: string, en: string, fr: string): LocalizedText => ({ vi, en, fr })
@@ -98,7 +101,7 @@ const bodyMechanicsSystem = (spec: ModernSkillSpec) => ({
   ),
   safetyNotes: spec.safetyNotes ?? la([], [], []),
   phases: [],
-} as any)
+} as BodyMechanicsSystem)
 
 const microDetailSystem = (spec: ModernSkillSpec) => ({
   overview: spec.shortDescription,
@@ -107,6 +110,7 @@ const microDetailSystem = (spec: ModernSkillSpec) => ({
     title: item.title,
     category: item.category,
     bodyParts: item.bodyParts,
+    whenToUse: item.creates ?? item.instruction,
     shortInstruction: item.instruction,
     whyItWorks: item.why,
     commonMistake: item.mistake,
@@ -117,13 +121,27 @@ const microDetailSystem = (spec: ModernSkillSpec) => ({
     safetyNote: item.safetyNote,
   })),
   leftRightGuides: [],
-  fastFinishPaths: [{ id: `${spec.id}-path`, title: spec.fastPathTitle, finishTrigger: spec.finishTrigger, abortSignal: spec.abortSignal, nextBestOption: spec.nextBestOption }],
+  fastFinishPaths: [{
+    id: `${spec.id}-path`,
+    title: spec.fastPathTitle,
+    steps: spec.contacts.slice(0, 3).map((item, i) => ({
+      id: `${spec.id}-path-step-${i + 1}`,
+      order: i + 1,
+      instruction: item.instruction,
+      keyBodyPart: item.bodyParts[0] ?? 'body',
+      commonMistake: item.mistake,
+    })),
+    finishTrigger: spec.finishTrigger,
+    abortSignal: spec.abortSignal,
+    nextBestOption: spec.nextBestOption,
+  }],
   troubleshootingTips: spec.contacts.slice(0, 3).map((item, i) => ({ id: `${spec.id}-tip-${i + 1}`, problem: item.mistake, quickFix: item.instruction, cue: item.cue })),
   doNotDo: la(spec.contacts.slice(0, 3).map((x) => x.mistake.vi), spec.contacts.slice(0, 3).map((x) => x.mistake.en), spec.contacts.slice(0, 3).map((x) => x.mistake.fr)),
   safetyNotes: spec.safetyNotes ?? la([], [], []),
-} as any)
+} as MicroDetailSystem)
 
 const qualityChecklist = (spec: ModernSkillSpec) => ({
+  type: 'control' as QualityChecklistType,
   overview: spec.shortDescription,
   checks: spec.contacts.slice(0, 5).map((item, i) => ({
     id: `${spec.id}-qc-${i + 1}`,
@@ -134,10 +152,12 @@ const qualityChecklist = (spec: ModernSkillSpec) => ({
     quickFix: item.cue,
     relatedMicroDetailIds: [],
     bodyParts: item.bodyParts,
+    severity: i < 2 ? 'critical' : 'major',
   })),
+  passThreshold: 4,
   ifPassed: spec.finishTrigger,
   ifFailed: spec.nextBestOption,
-} as any)
+} as TechniqueQualityChecklist)
 
 const blackbeltDetails = (spec: ModernSkillSpec): BlackbeltDetailSystem => {
   const first = spec.contacts[0]

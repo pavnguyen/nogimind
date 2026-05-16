@@ -44,6 +44,7 @@ export default function StudyPage() {
   const [expandedSkills, setExpandedSkills] = useState<Set<string>>(new Set())
   const [quickStudyMode, setQuickStudyMode] = useState(false)
   const [recentOnly, setRecentOnly] = useState(false)
+  const [now] = useState(() => Date.now())
 
   const active = (searchParams.get('domain') || studyDomains[0].id) as SkillDomain
 
@@ -104,7 +105,7 @@ export default function StudyPage() {
   }, [active, skillsByDomain, navigate, recordView])
 
   const formatTimeAgo = (timestamp: number): string => {
-    const minutes = Math.floor((Date.now() - timestamp) / 60000)
+    const minutes = Math.floor((now - timestamp) / 60000)
     if (minutes < 1) return t('studyPage.justNow')
     if (minutes < 60) return t('studyPage.minutesAgo', { count: minutes })
     const hours = Math.floor(minutes / 60)
