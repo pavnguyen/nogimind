@@ -134,7 +134,7 @@ export const en = {
     tracks: {
       beginner: {
         title: 'If you are just starting',
-        description: 'Build survival first, then escapes, guard retention, and basic passing.',
+        description: 'Build survival first, then guard retention, and safety essentials.',
         steps: {
           0: { title: 'Understand basic positions', body: 'Know where you are before trying to learn attacks.', },
           1: { title: 'Study survival and escapes', body: 'Before attacking, learn how not to lose immediately.' },
@@ -146,7 +146,7 @@ export const en = {
       },
       deep: {
         title: 'If you want to study techniques deeply',
-        description: 'Connect the skill, the concept, the micro-detail, and the escape map.',
+        description: 'Choose one skill, understand its concept, then check how it fails.',
         steps: {
           0: { title: 'Choose one skill', body: 'Focus your attention instead of sampling everything.' },
           1: { title: 'Read the concept and position', body: 'Understand the system that makes the skill work.' },
@@ -158,7 +158,7 @@ export const en = {
       },
       fix: {
         title: 'If you are stuck or the technique does not work',
-        description: 'Use diagnosis before adding more moves.',
+        description: 'Diagnose the problem, fix the detail, then prevent recurrence.',
         steps: {
           0: { title: 'Search the problem', body: 'Look up the exact failure, not just the technique name.' },
           1: { title: 'Open the troubleshooter', body: 'Find the missing control point or finishing detail.' },
@@ -170,7 +170,7 @@ export const en = {
       },
       build: {
         title: 'If you want to build a modern no-gi game',
-        description: 'Connect your core skills into a coherent system with a clear philosophy.',
+        description: 'Choose a style, build core skills, and understand the principles.',
         steps: {
           0: { title: 'Read the Mastery Map', body: 'See how no-gi maturity progresses over time.' },
           1: { title: 'Choose an archetype', body: 'Use a game style as a template, not as a cage.' },
