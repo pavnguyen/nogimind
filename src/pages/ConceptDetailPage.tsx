@@ -10,6 +10,7 @@ import { useSkillsQuery } from '../queries/skillQueries'
 import { useSettingsStore } from '../stores/useSettingsStore'
 import type { LanguageCode, SkillNode } from '../types/skill'
 import { getLocalizedArray, getLocalizedText } from '../utils/localization'
+import { ConceptVideoReferencePanel } from '../components/video/ConceptVideoReferencePanel'
 
 export default function ConceptDetailPage() {
   const { conceptId } = useParams()
@@ -107,6 +108,10 @@ export default function ConceptDetailPage() {
           </div>
         </SectionCard>
       </div>
+
+      <SectionCard title={t('video.videoReferences')}>
+        <ConceptVideoReferencePanel conceptId={concept.id} lang={language} />
+      </SectionCard>
 
       <NextStepStrip
         title={t('concepts.nextStep')}

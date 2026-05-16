@@ -128,7 +128,7 @@ const grapplingTermAliases: Record<string, string[]> = {
   shoulder: ['shoulder', 'vai', 'ep vai', 'epaule'],
   chest: ['chest', 'nguc', 'sternum', 'poitrine'],
   head: ['head', 'dau', 'tete'],
-  underhook: ['underhook', 'moc tay trong', 'hook trong', 'sous crochet'],
+  underhook: ['underhook', 'underhok', 'under hook', 'moc tay trong', 'hook trong', 'sous crochet'],
   crossface: ['crossface', 'ep mat', 'cross face'],
   darce: ['darce', "d'arce choke", 'darce choke'],
   'knee line': ['knee line', 'duong goi', 'ligne du genou'],
@@ -271,7 +271,8 @@ const getSearchIndex = (lang: LanguageCode, type: KnowledgeItemType | '' = '') =
       },
       prefix: (term) => term.length >= 3,
       fuzzy: (term) => {
-        if (term.length >= 7) return 0.2
+        if (term.length >= 9) return 3
+        if (term.length >= 5) return 2
         if (term.length >= 4) return 1
         return false
       },
@@ -673,6 +674,17 @@ export const syncInitSearchIndexes = () => {
   const allTypes: (KnowledgeItemType | '')[] = ['', ...Object.keys(documentBuilders) as KnowledgeItemType[]]
   for (const lang of languages) {
     for (const type of allTypes) {
+      getSearchIndex(lang, type)
+    }
+  }
+}
+
+export const syncWarmSearchIndexes = (
+  languages: LanguageCode[] = ['en', 'vi', 'fr'],
+  types: (KnowledgeItemType | '')[] = [''],
+) => {
+  for (const lang of languages) {
+    for (const type of types) {
       getSearchIndex(lang, type)
     }
   }

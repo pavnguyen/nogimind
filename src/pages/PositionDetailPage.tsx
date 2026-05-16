@@ -5,6 +5,7 @@ import { NotFound } from '../components/common/NotFound'
 import { PageShell } from '../components/common/PageShell'
 import { SectionCard } from '../components/common/SectionCard'
 import { NextStepStrip } from '../components/learning/NextStepStrip'
+import { PositionVideoReferencePanel } from '../components/video/PositionVideoReferencePanel'
 import { useConceptsQuery } from '../queries/conceptQueries'
 import { usePositionQuery, usePositionsQuery } from '../queries/positionQueries'
 import { useSkillsQuery } from '../queries/skillQueries'
@@ -136,6 +137,10 @@ export default function PositionDetailPage() {
       </SectionCard>
 
       <ListCard title={t('positions.dangerSignals')} items={getLocalizedArray(position.dangerSignals, language)} tone="danger" />
+
+      <SectionCard title={t('video.videoReferences')}>
+        <PositionVideoReferencePanel positionId={position.id} lang={language} />
+      </SectionCard>
 
       <div className="grid gap-6 xl:grid-cols-2">
         <SectionCard title={t('common.relatedSkills')}>

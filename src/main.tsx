@@ -10,16 +10,25 @@ import App from './App.tsx'
 import './i18n/i18n'
 import './index.css'
 import { queryClient } from './queries/queryClient'
-// Defer search initialization so 1.3MB of data chunks are not loaded on initial page render
-const initSearch = () => {
-  import('./utils/knowledgeSearch')
-    .then(({ initSearchIndexes }) => initSearchIndexes())
-    .catch((err) => console.warn('Search init deferred:', err))
+// Deferred search setup:
+// 1. Pre-warm the IndexedDB cache (import data modules, save to IDB)
+// 2. Warm the MiniSearch indexes in the worker (load from cache, build indexes)
+// This keeps initial render light while making the first real search fast.
+const initSearch = async () => {
+  try {
+    const { preWarmSearchCache, warmSearchIndexes } = await import('./utils/knowledgeSearch')
+    // Step 1: ensure data is cached in IndexedDB (fast if already cached)
+    await preWarmSearchCache()
+    // Step 2: build search indexes in worker from cached data
+    await warmSearchIndexes()
+  } catch (err) {
+    console.warn('Search init deferred:', err)
+  }
 }
 if (typeof requestIdleCallback !== 'undefined') {
-  requestIdleCallback(() => initSearch(), { timeout: 3000 })
+  requestIdleCallback(() => { initSearch() }, { timeout: 3000 })
 } else {
-  setTimeout(initSearch, 2000)
+  setTimeout(() => { initSearch() }, 2000)
 }
 
 createRoot(document.getElementById('root')!).render(

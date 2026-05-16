@@ -44,16 +44,27 @@ export default function SearchPage() {
   }, [query])
 
   const [results, setResults] = useState<KnowledgeSearchResult[]>([])
+  const [searching, setSearching] = useState(false)
 
   useEffect(() => {
     if (!debouncedQuery.trim()) {
       setResults([])
+      setSearching(false)
       return
     }
 
     let cancelled = false
+    setSearching(true)
     searchKnowledge(debouncedQuery, language, { type }).then((data) => {
-      if (!cancelled) setResults(data)
+      if (!cancelled) {
+        setResults(data)
+        setSearching(false)
+      }
+    }).catch(() => {
+      if (!cancelled) {
+        setResults([])
+        setSearching(false)
+      }
     })
 
     return () => {
@@ -102,7 +113,10 @@ export default function SearchPage() {
       {!query.trim() ? (
         <EmptyState title={t('search.emptyQuery')} description={t('search.emptyQueryBody')} />
       ) : null}
-      {query.trim() && !results.length ? (
+      {query.trim() && searching ? (
+        <EmptyState title={t('common.loading')} description={t('search.whatFor')} />
+      ) : null}
+      {query.trim() && !searching && !results.length ? (
         <EmptyState title={t('search.noResults')} description={t('search.nextStep')} />
       ) : null}
 

@@ -1,4 +1,4 @@
-import { setSearchData, syncInitSearchIndexes, syncSearchKnowledge } from '../utils/searchEngine'
+import { setSearchData, syncSearchKnowledge, syncWarmSearchIndexes } from '../utils/searchEngine'
 import type { SearchDataBundle } from '../utils/searchEngine'
 import type { KnowledgeItemType, KnowledgeSearchResult } from '../types/knowledgeSearch'
 import type { LanguageCode } from '../types/skill'
@@ -24,7 +24,23 @@ export type WorkerSearchResponse = {
   payload: KnowledgeSearchResult[]
 }
 
-export type WorkerMessage = WorkerSearchRequest | WorkerInitRequest
+export type WorkerWarmupRequest = {
+  type: 'warmup'
+  payload: {
+    langs: LanguageCode[]
+    types: (KnowledgeItemType | '')[]
+  }
+}
+
+export type WorkerWarmupResponse = {
+  type: 'warmup-complete'
+  payload: {
+    langs: LanguageCode[]
+    types: (KnowledgeItemType | '')[]
+  }
+}
+
+export type WorkerMessage = WorkerSearchRequest | WorkerInitRequest | WorkerWarmupRequest
 
 self.onmessage = (event: MessageEvent<WorkerMessage>) => {
   const { type } = event.data
@@ -36,11 +52,16 @@ self.onmessage = (event: MessageEvent<WorkerMessage>) => {
       setSearchData(event.data.payload)
       self.console.log(`[perf] worker:init:setData ${(self.performance.now() - t).toFixed(2)} ms`)
 
-      t = self.performance.now()
-      syncInitSearchIndexes()
-      self.console.log(`[perf] worker:init:buildIndexes ${(self.performance.now() - t).toFixed(2)} ms`)
-
       self.postMessage({ type: 'ready' })
+      break
+    }
+
+    case 'warmup': {
+      const { langs, types } = event.data.payload
+      const t = self.performance.now()
+      syncWarmSearchIndexes(langs, types)
+      self.console.log(`[perf] worker:warmup ${(self.performance.now() - t).toFixed(2)} ms`)
+      self.postMessage({ type: 'warmup-complete', payload: { langs, types } })
       break
     }
 

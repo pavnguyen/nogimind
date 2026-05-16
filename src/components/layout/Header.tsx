@@ -19,6 +19,7 @@ export const Header = () => {
   const setQuery = useSearchStore((state) => state.setQuery)
   const [open, setOpen] = useState(false)
   const [suggestions, setSuggestions] = useState<KnowledgeSearchResult[]>([])
+  const [searching, setSearching] = useState(false)
   const rootRef = useRef<HTMLDivElement>(null)
   const inputRef = useRef<HTMLInputElement>(null)
 
@@ -45,26 +46,35 @@ export const Header = () => {
   useEffect(() => {
     if (!open) {
       setSuggestions([])
+      setSearching(false)
       return
     }
 
     const trimmed = query.trim()
     if (trimmed.length < 2) {
       setSuggestions([])
+      setSearching(false)
       return
     }
 
     let cancelled = false
+    setSearching(true)
     const timeout = window.setTimeout(() => {
       import('../../utils/knowledgeSearch')
         .then(async ({ searchKnowledge }) => {
           if (!cancelled) {
             const results = await searchKnowledge(trimmed, language)
-            if (!cancelled) setSuggestions(results.slice(0, 6))
+            if (!cancelled) {
+              setSuggestions(results.slice(0, 6))
+              setSearching(false)
+            }
           }
         })
         .catch(() => {
-          if (!cancelled) setSuggestions([])
+          if (!cancelled) {
+            setSuggestions([])
+            setSearching(false)
+          }
         })
     }, 120)
 
@@ -125,7 +135,9 @@ export const Header = () => {
           </form>
           {open && query.trim().length >= 2 && (
             <div className="absolute left-0 right-0 top-[calc(100%+6px)] z-30 animate-scale-in rounded-xl border border-white/[0.08] bg-slate-950/95 p-2 shadow-glow-lg backdrop-blur-2xl">
-              {suggestions.length ? (
+              {searching ? (
+                <p className="px-3 py-3 text-center text-sm text-slate-500">{t('common.loading')}</p>
+              ) : suggestions.length ? (
                 <div className="grid gap-1">
                   {suggestions.map((result) => (
                     <button

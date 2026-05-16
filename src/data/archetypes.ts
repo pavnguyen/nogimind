@@ -269,7 +269,7 @@ export const archetypes: GrapplingArchetype[] = [
     ),
     coreConceptIds: ['leg-lock-safety-hierarchy', 'knee-line', 'early-vs-late-defense', 'inside-position', 'deliberate-practice'],
     coreSkillIds: ['leg-lock-safety-basics', 'straight-ankle-lock-safety', 'heel-hook-safety', 'single-leg-x-basics', 'k-guard-entry'],
-    supportSkillIds: ['guard-pulling-strategy', 'competition-ruleset-awareness', 'supine-guard-retention', 'technical-stand-up'],
+    supportSkillIds: ['guard-pulling-strategy', 'supine-guard-retention', 'technical-stand-up'],
     requiredDefensiveSkillIds: ['leg-lock-safety-basics', 'heel-hook-safety', 'straight-ankle-lock-safety'],
     commonWeaknesses: la(
       ['Xoay khi heel exposed và knee line còn kẹt.', 'Không clear secondary leg.', 'Tấn công chân khi chưa hiểu ruleset.', 'Coi đau là tín hiệu duy nhất thay vì đọc position sớm.'],

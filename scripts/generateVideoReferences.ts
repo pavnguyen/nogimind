@@ -6,8 +6,9 @@
  * VideoReference entries matching existing skill IDs.
  */
 
-import { readFileSync, writeFileSync } from 'fs'
+import { readFileSync } from 'fs'
 import { resolve } from 'path'
+import { classifyNoGiVideo } from '../src/data/videos/noGiVideoFilter'
 
 interface ScrapedVideo {
   source_page: string
@@ -17,6 +18,8 @@ interface ScrapedVideo {
   url: string
   summary: string
 }
+
+type ScrapedVideoWithTags = ScrapedVideo & { techniqueTags: string[]; title: { en: string; vi: string; fr: string }; channelName: string }
 
 interface SkillMatchConfig {
   id: string
@@ -112,10 +115,8 @@ const generateLt = (en: string, vi: string, fr: string): string =>
 const generateLa = (en: string[], vi: string[], fr: string[]): string =>
   `la(\n      ${JSON.stringify(en)},\n      ${JSON.stringify(vi)},\n      ${JSON.stringify(fr)},\n    )`
 
-// Translation templates
 const translateTitle = (title: string): [string, string, string] => {
-  // Generate Vietnamese and French titles
-  return [title, `[VI] ${title}`, `[FR] ${title}`]
+  return [title, title, title]
 }
 
 const translateWhyUseful = (skillId: string, technique: string, instructor: string): [string, string, string] => {
@@ -218,11 +219,19 @@ for (const skill of skillsConfig) {
 for (const video of data) {
   const titleLower = video.technique.toLowerCase()
   const source = video.source_name
-  const priority = instructorPriority[source] ?? 1
   const ytId = extractYoutubeId(video.url)
   if (!ytId) continue
 
   for (const skill of skillsConfig) {
+    const classification = classifyNoGiVideo({
+      ...video,
+      title: { en: video.technique, vi: video.technique, fr: video.technique },
+      channelName: source,
+      techniqueTags: skill.tags,
+      sourceNote: 'BJJ.Tips public YouTube listing.',
+    } satisfies ScrapedVideoWithTags)
+    if (classification.status === 'reject') continue
+
     const seen = seenIds.get(skill.id)!
     if (seen.has(ytId)) continue
 
@@ -241,15 +250,26 @@ const selected = new Map<string, ScrapedVideo[]>()
 
 for (const skill of skillsConfig) {
   const videos = matches.get(skill.id) || []
-  // Sort by instructor priority
   videos.sort((a, b) => {
     const pa = instructorPriority[a.source_name] ?? 1
     const pb = instructorPriority[b.source_name] ?? 1
-    return pb - pa
+    const ca = classifyNoGiVideo({
+      ...a,
+      title: { en: a.technique, vi: a.technique, fr: a.technique },
+      channelName: a.source_name,
+      techniqueTags: skill.tags,
+    } satisfies ScrapedVideoWithTags)
+    const cb = classifyNoGiVideo({
+      ...b,
+      title: { en: b.technique, vi: b.technique, fr: b.technique },
+      channelName: b.source_name,
+      techniqueTags: skill.tags,
+    } satisfies ScrapedVideoWithTags)
+    const statusScore = (status: string) => status === 'keep' ? 2 : 1
+    return statusScore(cb.status) - statusScore(ca.status) || pb - pa
   })
 
-  // Take up to 2
-  const top = videos.slice(0, 2)
+  const top = videos.slice(0, 3)
   if (top.length > 0) {
     selected.set(skill.id, top)
   }
