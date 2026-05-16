@@ -17,21 +17,21 @@ type Props = {
 }
 
 const tabAccents: Record<TabId, string> = {
-  learn: 'border-cyan-500 text-cyan-300',
-  fix: 'border-violet-500 text-violet-300',
-  watch: 'border-sky-500 text-sky-300',
+  learn: 'border-cyan-400 text-cyan-200 shadow-[inset_0_0_0_1px_rgba(34,211,238,0.2),0_0_18px_rgba(34,211,238,0.16)]',
+  fix: 'border-violet-400 text-violet-200 shadow-[inset_0_0_0_1px_rgba(167,139,250,0.2),0_0_18px_rgba(167,139,250,0.16)]',
+  watch: 'border-sky-400 text-sky-100 shadow-[inset_0_0_0_1px_rgba(56,189,248,0.22),0_0_20px_rgba(56,189,248,0.2)]',
 }
 
 const tabInactiveAccents: Record<TabId, string> = {
   learn: 'hover:text-cyan-300 border-transparent',
   fix: 'hover:text-violet-300 border-transparent',
-  watch: 'hover:text-sky-300 border-transparent',
+  watch: 'hover:text-sky-200 border-transparent',
 }
 
 export const SkillDetailTabs = ({ tabs, activeTab, onTabChange }: Props) => {
   return (
     <div className="sticky top-16 z-30 -mx-4 bg-slate-950/90 px-4 backdrop-blur-md sm:-mx-6 sm:px-6 lg:-mx-8 lg:px-8">
-      <nav className="flex gap-1 overflow-x-auto border-b border-white/8 scrollbar-none" role="tablist">
+      <nav className="flex gap-1 overflow-x-auto border-b border-white/8 pb-1 scrollbar-none" role="tablist">
         {tabs.map((tab) => {
           const isActive = activeTab === tab.id
           return (
@@ -42,16 +42,30 @@ export const SkillDetailTabs = ({ tabs, activeTab, onTabChange }: Props) => {
               aria-selected={isActive}
               onClick={() => onTabChange(tab.id)}
               className={`
-                relative flex shrink-0 items-center gap-2 px-4 py-3 text-xs font-semibold
+                relative flex shrink-0 items-center gap-2 rounded-t-xl px-4 py-3 text-xs font-semibold
                 transition-all duration-200
                 ${isActive
-                  ? `${tabAccents[tab.id]} border-b-2 bg-white/[0.04]`
-                  : `text-slate-500 ${tabInactiveAccents[tab.id]} border-b-2`
+                  ? `${tabAccents[tab.id]} border-b-2 bg-gradient-to-b from-white/[0.08] to-white/[0.03]`
+                  : `text-slate-500 ${tabInactiveAccents[tab.id]} border-b-2 hover:bg-white/[0.02]`
                 }
               `}
             >
               <span className="h-4 w-4">{tab.icon}</span>
               <span className="whitespace-nowrap">{tab.label}</span>
+              {tab.id === 'watch' && (
+                <span
+                  aria-hidden="true"
+                  className={`ml-0.5 inline-flex h-5 w-5 items-center justify-center rounded-full border transition-colors ${
+                    isActive
+                      ? 'border-sky-300/40 bg-sky-300/15 text-sky-100'
+                      : 'border-white/10 bg-white/[0.03] text-slate-500'
+                  }`}
+                >
+                  <svg viewBox="0 0 20 20" fill="none" className="h-3.5 w-3.5" stroke="currentColor" strokeWidth={1.8}>
+                    <path strokeLinecap="round" strokeLinejoin="round" d="m8.5 6.5 5 3.5-5 3.5v-7Zm-5.5 3.5a7 7 0 1 0 14 0 7 7 0 0 0-14 0Z" />
+                  </svg>
+                </span>
+              )}
               {tab.count !== undefined && tab.count > 0 && (
                 <span className="ml-0.5 rounded-full bg-white/8 px-1.5 py-0.5 text-[10px] tabular-nums">
                   {tab.count}

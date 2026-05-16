@@ -7,6 +7,7 @@ import {
   AboutPage,
   ArchetypeDetailPage,
   ArchetypesPage,
+  BuildHubPage,
   ConceptDetailPage,
   ConceptsPage,
   DashboardPage,
@@ -14,10 +15,9 @@ import {
   DefensePage,
   EscapeMapDetailPage,
   EscapeMapsPage,
-  GameTreePage,
+  FixHubPage,
   GlossaryPage,
   MasteryMapPage,
-  MicroDetailsPage,
   LearnPage,
   NotFoundPage,
   PositionDetailPage,
@@ -56,11 +56,12 @@ export const AppRouter = () => (
           <Route index element={<DashboardPage />} />
           <Route path="/learn" element={<LearnPage />} />
           <Route path="/study" element={<StudyPage />} />
+          <Route path="/fix" element={<FixHubPage />} />
+          <Route path="/build" element={<BuildHubPage />} />
           <Route path="/map" element={<SystemMapPage />} />
           <Route path="/reference" element={<ReferencePage />} />
           <Route path="/skills" element={<SkillMapPage />} />
           <Route path="/skills/:skillId" element={<SkillDetailPage />} />
-          <Route path="/micro-details" element={<MicroDetailsPage />} />
           <Route path="/chains" element={<TechniqueChainsPage />} />
           <Route path="/troubleshooters" element={<SubmissionTroubleshootersPage />} />
           <Route path="/troubleshooters/:skillId" element={<SubmissionTroubleshooterDetailPage />} />
@@ -74,7 +75,6 @@ export const AppRouter = () => (
           <Route path="/defense/:layerId" element={<DefenseDetailPage />} />
           <Route path="/archetypes" element={<ArchetypesPage />} />
           <Route path="/archetypes/:archetypeId" element={<ArchetypeDetailPage />} />
-          <Route path="/game-tree" element={<GameTreePage />} />
           <Route path="/mastery" element={<MasteryMapPage />} />
           <Route path="/glossary" element={<GlossaryPage />} />
           <Route path="/search" element={<SearchPage />} />

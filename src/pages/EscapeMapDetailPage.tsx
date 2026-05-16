@@ -72,7 +72,7 @@ export default function EscapeMapDetailPage() {
         items={[
           { title: t('common.skill'), body: t('escapeMaps.nextStep'), to: `/skills/${skill.id}` },
           { title: t('chains.heading'), body: t('escapeMaps.nextStep'), to: '/chains' },
-          { title: t('microDetails.heading'), body: t('escapeMaps.nextStep'), to: `/micro-details?skill=${skill.id}` },
+          { title: t('cardOS.topDetails'), body: t('escapeMaps.nextStep'), to: `/skills/${skill.id}` },
         ]}
       />
     </PageShell>

@@ -10,7 +10,6 @@ const mapLinks = [
   { key: 'skills', to: '/skills' },
   { key: 'chains', to: '/chains' },
   { key: 'escapeMaps', to: '/escape-maps' },
-  { key: 'gameTree', to: '/game-tree' },
   { key: 'archetypes', to: '/archetypes' },
   { key: 'mastery', to: '/mastery' },
 ]

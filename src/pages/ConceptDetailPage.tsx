@@ -119,7 +119,7 @@ export default function ConceptDetailPage() {
           concept.relatedSkillIds[0]
             ? { title: t('common.relatedSkills'), body: t('concepts.appliedHere'), to: `/skills/${concept.relatedSkillIds[0]}` }
             : { title: t('common.relatedSkills'), body: t('concepts.appliedHere'), to: '/skills' },
-          { title: t('microDetails.heading'), body: t('concepts.trainingCues'), to: '/micro-details' },
+          { title: t('cardOS.topDetails'), body: t('concepts.trainingCues'), to: '/skills' },
           { title: t('positions.heading'), body: t('concepts.relatedConcepts'), to: '/positions' },
         ]}
       />

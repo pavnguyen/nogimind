@@ -1,6 +1,16 @@
 import type { SkillNode, LanguageCode, TechniqueStateMachine } from './_helpers'
-import type { OutcomeView } from './outcomes'
 import { loc, locArr, cap } from './_helpers'
+
+type OutcomeView = {
+  id: string
+  result: string
+  label: string
+  explanation: string
+  triggerSignal: string
+  toSkillId: string | undefined
+  confidence: string | undefined
+  probability: number | undefined
+}
 
 export type SafetyView = {
   showAsSection: boolean

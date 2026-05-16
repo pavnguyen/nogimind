@@ -85,7 +85,7 @@ export default function SubmissionTroubleshooterDetailPage() {
         title={t('troubleshooters.nextStep')}
         items={[
           { title: t('common.skill'), body: t('troubleshooters.skillDetailPrompt'), to: `/skills/${skill.id}` },
-          { title: t('microDetails.heading'), body: t('troubleshooters.guidedDiagnosisBody'), to: `/micro-details?skill=${skill.id}` },
+          { title: t('cardOS.topDetails'), body: t('troubleshooters.guidedDiagnosisBody'), to: `/skills/${skill.id}` },
           { title: t('escapeMaps.heading'), body: t('troubleshooters.guidedDiagnosisBody'), to: `/escape-maps/${skill.id}` },
         ]}
       />

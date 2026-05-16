@@ -1,4 +1,4 @@
-import { lazy, Suspense, useState, useMemo, type ReactNode } from 'react'
+import { lazy, Suspense, useState, useMemo, useEffect, type ReactNode } from 'react'
 import { useParams } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import { NotFound } from '../components/common/NotFound'
@@ -7,20 +7,19 @@ import { SkillDetailTabs, TabPanel, TabIcons, type TabId } from '../components/s
 import { SkillHeader } from '../components/skill/SkillHeader'
 import { OneMinuteMode } from '../components/skill/OneMinuteMode'
 import { SystemLogicSection } from '../components/skill/SystemLogicSection'
-import { BodyPositionSection } from '../components/skill/BodyPositionSection'
+import { KeyCorrectionsSection } from '../components/skill/KeyCorrectionsSection'
 import { MoneyDetailsSection } from '../components/skill/MoneyDetailsSection'
-import { OutcomesBranchesSection } from '../components/skill/OutcomesBranchesSection'
 import { FixItFastSection } from '../components/skill/FixItFastSection'
 import { SafetySection } from '../components/skill/SafetySection'
 import { NextStepSection } from '../components/skill/NextStepSection'
 import { useSkillQuery } from '../queries/skillQueries'
 import { useSettingsStore } from '../stores/useSettingsStore'
+import { useRecentlyViewedStore } from '../stores/useRecentlyViewedStore'
 import { techniqueStateMachineBySkillId } from '../data/techniqueStateMachines'
 import {
   buildSystemLogicView,
-  buildBodyPositionView,
+  buildKeyCorrectionsView,
   buildMoneyDetailsView,
-  buildOutcomesBranchesView,
   buildFixItFastView,
   buildSafetyView,
   buildNextStepView,
@@ -39,8 +38,14 @@ export default function SkillDetailPage() {
   const language = useSettingsStore((state) => state.language)
   const skillQuery = useSkillQuery(skillId)
   const skill = skillQuery.data
+  const recordView = useRecentlyViewedStore((state) => state.recordView)
   const [oneMinuteOpen, setOneMinuteOpen] = useState(false)
   const [activeTab, setActiveTab] = useState<TabId>('learn')
+
+  // Record view when skill loads
+  useEffect(() => {
+    if (skillId) recordView(skillId)
+  }, [skillId, recordView])
 
   const stateMachine = useMemo(
     () => (skillId ? techniqueStateMachineBySkillId.get(skillId) : undefined),
@@ -52,19 +57,14 @@ export default function SkillDetailPage() {
     [skill, language],
   )
 
-  const bodyPosition = useMemo(
-    () => (skill ? buildBodyPositionView(skill, language, t) : null),
-    [skill, language, t],
+  const keyCorrections = useMemo(
+    () => (skill ? buildKeyCorrectionsView(skill, language) : null),
+    [skill, language],
   )
 
   const moneyDetails = useMemo(
     () => (skill ? buildMoneyDetailsView(skill, language) : null),
     [skill, language],
-  )
-
-  const outcomesBranches = useMemo(
-    () => (skill ? buildOutcomesBranchesView(skill, language, stateMachine) : null),
-    [skill, language, stateMachine],
   )
 
   const fixItFast = useMemo(
@@ -89,13 +89,13 @@ export default function SkillDetailPage() {
 
   const tabs = useMemo(() => {
     const items: { id: TabId; label: string; icon: ReactNode; count?: number; accent: string }[] = []
-    if (systemLogic || outcomesBranches || bodyPosition || moneyDetails || nextStep) {
+    if (systemLogic || keyCorrections || moneyDetails || nextStep) {
       items.push({ id: 'learn', label: t('common.learn'), icon: TabIcons.learn, accent: 'cyan' })
     }
     if (fixItFast || safety) items.push({ id: 'fix', label: t('cardOS.fixItFast'), icon: TabIcons.fix, accent: 'violet' })
     items.push({ id: 'watch', label: t('video.videoReferences'), icon: TabIcons.watch, accent: 'sky' })
     return items
-  }, [systemLogic, outcomesBranches, bodyPosition, moneyDetails, fixItFast, safety, nextStep, t])
+  }, [systemLogic, moneyDetails, fixItFast, safety, nextStep, t, keyCorrections])
 
   if (skillQuery.isLoading) {
     return (
@@ -146,8 +146,7 @@ export default function SkillDetailPage() {
           <TabPanel id="learn" activeTab={activeTab}>
             <div className="animate-slideUp space-y-4">
               {systemLogic && <SystemLogicSection view={systemLogic} />}
-              {outcomesBranches && <OutcomesBranchesSection view={outcomesBranches} />}
-              {bodyPosition && <BodyPositionSection view={bodyPosition} />}
+              {keyCorrections && <KeyCorrectionsSection view={keyCorrections} lang={language} />}
               {moneyDetails && <MoneyDetailsSection view={moneyDetails} />}
               {nextStep && <NextStepSection view={nextStep} />}
             </div>

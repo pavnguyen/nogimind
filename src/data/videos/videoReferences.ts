@@ -8463,12 +8463,10 @@ export const videoReferences: VideoReference[] = [
     "language": "en",
     "relatedSkillIds": [
       "north-south-control",
-      "side-control-pin",
       "dilemmas-two-way-attacks"
     ],
     "relatedPositionIds": [
-      "north-south",
-      "side-control-top"
+      "north-south"
     ],
     "techniqueTags": [
       "no-gi",
@@ -9965,6 +9963,138 @@ export const videoReferences: VideoReference[] = [
       ]
     },
     "sourceNote": "Public YouTube No-Gi reference selected for NoGiMind coverage expansion."
+  },
+  {
+    "id": "lachlan-side-control-top-finishing",
+    "provider": "youtube",
+    "title": {
+      "en": "Finishing from side control depending on the reaction of the near arm",
+      "vi": "Finishing từ side control tùy theo phản ứng của cánh tay gần",
+      "fr": "Finir depuis le side control selon la réaction du bras proche"
+    },
+    "channelName": "Lachlan Giles",
+    "url": "https://www.youtube.com/watch?v=g4iJt8TPV9Y",
+    "embedUrl": "https://www.youtube.com/embed/g4iJt8TPV9Y",
+    "youtubeId": "g4iJt8TPV9Y",
+    "language": "en",
+    "relatedSkillIds": [
+      "side-control-pin"
+    ],
+    "relatedPositionIds": [
+      "side-control-top"
+    ],
+    "techniqueTags": [
+      "side-control",
+      "pin",
+      "top-control",
+      "finishing",
+      "no-gi"
+    ],
+    "relevance": "primary_reference",
+    "level": "intermediate",
+    "whyUseful": {
+      "en": "Covers finishing mechanics from side control top, including how to read the near arm reaction and choose the correct attack or pin adjustment.",
+      "vi": "Bao gồm cơ chế finish từ side control top, cách đọc phản ứng cánh tay gần và chọn đòn tấn công hoặc điều chỉnh pin phù hợp.",
+      "fr": "Couvre les mécaniques de finition depuis le side control top, lire la réaction du bras proche et choisir l'attaque ou l'ajustement de pin correct."
+    },
+    "whatToWatchFor": {
+      "en": [
+        "Reading the near arm reaction",
+        "Weight distribution and pressure",
+        "Transition timing between attacks",
+        "Maintaining chest-to-chest connection"
+      ],
+      "vi": [
+        "Đọc phản ứng cánh tay gần",
+        "Phân bổ trọng lượng và áp lực",
+        "Thời điểm chuyển giữa các đòn tấn công",
+        "Duy trì kết nối ngực chạm ngực"
+      ],
+      "fr": [
+        "Lire la réaction du bras proche",
+        "Répartition du poids et pression",
+        "Temps de transition entre les attaques",
+        "Maintenir la connexion poitrine contre poitrine"
+      ]
+    },
+    "timestamps": [
+      {
+        "id": "full-video",
+        "label": {
+          "en": "Full technique breakdown",
+          "vi": "Phân tích kỹ thuật toàn bộ",
+          "fr": "Analyse technique complète"
+        },
+        "timeSeconds": 0
+      }
+    ],
+    "sourceNote": "Public YouTube No-Gi reference from Lachlan Giles channel."
+  },
+    {
+    "id": "craig-jones-power-pins",
+    "provider": "youtube",
+    "title": {
+      "en": "Power Pins with Craig Jones",
+      "vi": "Power Pins với Craig Jones",
+      "fr": "Power Pins avec Craig Jones"
+    },
+    "channelName": "Craig Jones",
+    "url": "https://www.youtube.com/watch?v=6LomdzL1E14",
+    "embedUrl": "https://www.youtube.com/embed/6LomdzL1E14",
+    "youtubeId": "6LomdzL1E14",
+    "language": "en",
+    "relatedSkillIds": [
+      "side-control-pin"
+    ],
+    "relatedPositionIds": [
+      "side-control-top"
+    ],
+    "techniqueTags": [
+      "side-control",
+      "pin",
+      "top-control",
+      "pressure",
+      "no-gi"
+    ],
+    "relevance": "supplemental",
+    "level": "intermediate",
+    "whyUseful": {
+      "en": "Covers pinning concepts from side control and other top positions, including weight distribution and pressure maintenance.",
+      "vi": "Bao gồm các khái niệm pin từ side control và các vị trí trên khác, bao gồm phân bổ trọng lượng và duy trì áp lực.",
+      "fr": "Couvre les concepts de pin depuis le side control et autres positions supérieures, répartition du poids et maintien de la pression."
+    },
+    "whatToWatchFor": {
+      "en": [
+        "Weight distribution patterns",
+        "Connection points for stable pins",
+        "Adjusting pressure based on opponent movement",
+        "Transitions between pinning positions"
+      ],
+      "vi": [
+        "Mẫu phân bổ trọng lượng",
+        "Điểm kết nối để pin ổn định",
+        "Điều chỉnh áp lực dựa trên chuyển động của đối thủ",
+        "Chuyển đổi giữa các vị trí pin"
+      ],
+      "fr": [
+        "Modèles de répartition du poids",
+        "Points de connexion pour des pins stables",
+        "Ajustement de la pression selon le mouvement adverse",
+        "Transitions entre positions de pin"
+      ]
+    },
+    "timestamps": [
+      {
+        "id": "full-video",
+        "label": {
+          "en": "Full technique breakdown",
+          "vi": "Phân tích kỹ thuật toàn bộ",
+          "fr": "Analyse technique complète"
+        },
+        "timeSeconds": 0
+      }
+    ],
+    "sourceNote": "Public YouTube No-Gi reference from B-Team / Craig Jones channel."
   },
   ...newTrustedVideos
 ]

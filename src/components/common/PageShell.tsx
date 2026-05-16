@@ -45,7 +45,7 @@ export const PageShell = ({
   const showHeader = header || title
 
   return (
-    <div className={cn('space-y-6', animate && 'animate-fade-in', className)}>
+    <div className={cn('space-y-6 page-enter', animate && 'animate-fade-in', className)}>
       {showHeader ? (
         <div className="animate-slide-down space-y-3">
           {header ? (

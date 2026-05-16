@@ -1,5 +1,4 @@
 import type { Edge, Node } from '@xyflow/react'
-import type { GameTree, GameTreeLaneId } from '../types/gameTree'
 import type { LanguageCode, SkillDomain, SkillLevel, SkillNode } from '../types/skill'
 import { getDomainLabel, getLocalizedText } from './localization'
 
@@ -21,8 +20,6 @@ const domainOrder: SkillDomain[] = [
   'back_control',
   'submission_systems',
 ]
-
-const laneOrder: GameTreeLaneId[] = ['standing', 'guard', 'passing', 'pinning', 'submissions', 'escapes', 'legLocks']
 
 const toNode = (skill: SkillNode, lang: LanguageCode, x: number, y: number, active = false): Node => ({
   id: skill.id,
@@ -92,25 +89,5 @@ export const buildSkillDetailGraph = (skill: SkillNode, allSkills: SkillNode[], 
     ...previous.map((item) => ({ id: `${item.id}-${skill.id}`, source: item.id, target: skill.id, type: 'smoothstep' })),
     ...next.map((item) => ({ id: `${skill.id}-${item.id}`, source: skill.id, target: item.id, type: 'smoothstep', animated: true })),
   ]
-  return { nodes, edges }
-}
-
-export const buildGameTreeGraph = (gameTree: GameTree, allSkills: SkillNode[], lang: LanguageCode) => {
-  const byId = new Map(allSkills.map((skill) => [skill.id, skill]))
-  const nodes: Node[] = []
-  const edges: Edge[] = []
-
-  laneOrder.forEach((lane, laneIndex) => {
-    gameTree[lane].forEach((skillId, index) => {
-      const skill = byId.get(skillId)
-      if (!skill) return
-      nodes.push(toNode(skill, lang, laneIndex * 260, index * 145))
-      const nextId = gameTree[lane][index + 1]
-      if (nextId && byId.has(nextId)) {
-        edges.push({ id: `${skillId}-${nextId}`, source: skillId, target: nextId, type: 'smoothstep', animated: true })
-      }
-    })
-  })
-
   return { nodes, edges }
 }

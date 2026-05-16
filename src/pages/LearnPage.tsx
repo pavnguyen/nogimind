@@ -55,7 +55,7 @@ export default function LearnPage() {
       [
         { title: t('learn.tracks.deep.steps.0.title'), body: t('learn.tracks.deep.steps.0.body'), to: '/skills' },
         { title: t('learn.tracks.deep.steps.1.title'), body: t('learn.tracks.deep.steps.1.body'), to: '/concepts' },
-        { title: t('learn.tracks.deep.steps.2.title'), body: t('learn.tracks.deep.steps.2.body'), to: '/micro-details' },
+        { title: t('learn.tracks.deep.steps.2.title'), body: t('learn.tracks.deep.steps.2.body'), to: '/skills' },
         { title: t('learn.tracks.deep.steps.3.title'), body: t('learn.tracks.deep.steps.3.body'), to: '/chains' },
         { title: t('learn.tracks.deep.steps.4.title'), body: t('learn.tracks.deep.steps.4.body'), to: '/escape-maps' },
         { title: t('learn.tracks.deep.steps.5.title'), body: t('learn.tracks.deep.steps.5.body'), to: '/troubleshooters' },
@@ -70,7 +70,7 @@ export default function LearnPage() {
       [
         { title: t('learn.tracks.fix.steps.0.title'), body: t('learn.tracks.fix.steps.0.body'), to: '/search' },
         { title: t('learn.tracks.fix.steps.1.title'), body: t('learn.tracks.fix.steps.1.body'), to: '/troubleshooters' },
-        { title: t('learn.tracks.fix.steps.2.title'), body: t('learn.tracks.fix.steps.2.body'), to: '/micro-details' },
+        { title: t('learn.tracks.fix.steps.2.title'), body: t('learn.tracks.fix.steps.2.body'), to: '/skills' },
         { title: t('learn.tracks.fix.steps.3.title'), body: t('learn.tracks.fix.steps.3.body'), to: '/escape-maps' },
         { title: t('learn.tracks.fix.steps.4.title'), body: t('learn.tracks.fix.steps.4.body'), to: '/chains' },
         { title: t('learn.tracks.fix.steps.5.title'), body: t('learn.tracks.fix.steps.5.body'), to: '/skills' },
@@ -85,10 +85,9 @@ export default function LearnPage() {
       [
         { title: t('learn.tracks.build.steps.0.title'), body: t('learn.tracks.build.steps.0.body'), to: '/mastery' },
         { title: t('learn.tracks.build.steps.1.title'), body: t('learn.tracks.build.steps.1.body'), to: '/archetypes' },
-        { title: t('learn.tracks.build.steps.2.title'), body: t('learn.tracks.build.steps.2.body'), to: '/game-tree' },
-        { title: t('learn.tracks.build.steps.3.title'), body: t('learn.tracks.build.steps.3.body'), to: '/skills' },
-        { title: t('learn.tracks.build.steps.4.title'), body: t('learn.tracks.build.steps.4.body'), to: '/chains' },
-        { title: t('learn.tracks.build.steps.5.title'), body: t('learn.tracks.build.steps.5.body'), to: '/concepts' },
+        { title: t('learn.tracks.build.steps.2.title'), body: t('learn.tracks.build.steps.2.body'), to: '/skills' },
+        { title: t('learn.tracks.build.steps.3.title'), body: t('learn.tracks.build.steps.3.body'), to: '/chains' },
+        { title: t('learn.tracks.build.steps.4.title'), body: t('learn.tracks.build.steps.4.body'), to: '/concepts' },
       ],
       'emerald',
       Layers3,

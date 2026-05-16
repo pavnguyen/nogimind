@@ -17,29 +17,12 @@ const ChipLink = ({ id, prefix = '/skills/' }: { id: string; prefix?: string }) 
   </Link>
 )
 
-const StaticChip = ({ id, color = 'slate' }: { id: string; color?: 'slate' | 'cyan' | 'emerald' | 'violet' }) => {
-  const colorMap = {
-    slate: 'border-white/10 bg-white/5 text-slate-400',
-    cyan: 'border-cyan-400/20 bg-cyan-400/8 text-cyan-300',
-    emerald: 'border-emerald-400/20 bg-emerald-400/8 text-emerald-300',
-    violet: 'border-violet-400/20 bg-violet-400/8 text-violet-300',
-  }
-  return (
-    <span className={`inline-flex rounded-md border px-2.5 py-1 text-xs font-medium ${colorMap[color]}`}>
-      {id.replace(/-/g, ' ')}
-    </span>
-  )
-}
-
 export const NextStepSection = ({ view }: Props) => {
   const { t } = useTranslation()
 
   const hasContent =
     view.relatedSkillIds.length > 0 ||
-    view.prerequisiteIds.length > 0 ||
-    view.sharedPrincipleIds.length > 0 ||
-    view.sharedCueIds.length > 0 ||
-    view.sharedSafetyIds.length > 0
+    view.prerequisiteIds.length > 0
 
   if (!hasContent) return null
 
@@ -70,45 +53,6 @@ export const NextStepSection = ({ view }: Props) => {
             <div className="flex flex-wrap gap-2">
               {view.prerequisiteIds.map((id) => (
                 <ChipLink key={id} id={id} />
-              ))}
-            </div>
-          </div>
-        )}
-
-        {view.sharedPrincipleIds.length > 0 && (
-          <div>
-            <p className="mb-2 text-xs font-semibold uppercase tracking-widest text-slate-400">
-              {t('cardOS.sharedPrinciples')}
-            </p>
-            <div className="flex flex-wrap gap-2">
-              {view.sharedPrincipleIds.map((id) => (
-                <StaticChip key={id} id={id} color="cyan" />
-              ))}
-            </div>
-          </div>
-        )}
-
-        {view.sharedCueIds.length > 0 && (
-          <div>
-            <p className="mb-2 text-xs font-semibold uppercase tracking-widest text-slate-400">
-              {t('cardOS.sharedCues')}
-            </p>
-            <div className="flex flex-wrap gap-2">
-              {view.sharedCueIds.map((id) => (
-                <StaticChip key={id} id={id} color="emerald" />
-              ))}
-            </div>
-          </div>
-        )}
-
-        {view.sharedSafetyIds.length > 0 && (
-          <div>
-            <p className="mb-2 text-xs font-semibold uppercase tracking-widest text-slate-400">
-              {t('cardOS.sharedSafety')}
-            </p>
-            <div className="flex flex-wrap gap-2">
-              {view.sharedSafetyIds.map((id) => (
-                <StaticChip key={id} id={id} color="violet" />
               ))}
             </div>
           </div>

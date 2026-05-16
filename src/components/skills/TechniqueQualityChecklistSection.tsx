@@ -94,7 +94,7 @@ export const TechniqueQualityChecklistSection = ({ skillId, system, lang, viewMo
                   <span className="font-semibold text-cyan-100">{getLocalizedTechnicalText(item.title, lang)}</span>
                   <p className="mt-1 text-slate-400">{getLocalizedTechnicalText(item.quickFix, lang)}</p>
                   {item.relatedMicroDetailIds?.length ? (
-                    <Link to={`/micro-details?skill=${skillId}`} className="mt-2 inline-flex text-xs font-medium text-cyan-200 hover:text-cyan-100">
+                    <Link to={`/skills/${skillId}`} className="mt-2 inline-flex text-xs font-medium text-cyan-200 hover:text-cyan-100">
                       {t('qualityChecklist.openMicroDetails')}
                     </Link>
                   ) : null}

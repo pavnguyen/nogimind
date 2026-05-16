@@ -1,4 +1,3 @@
-import type { GameTreeLaneId } from './gameTree'
 import type { LanguageCode } from './skill'
 
 export type ViewMode = 'simple' | 'detailed' | 'advanced'
@@ -10,5 +9,3 @@ export type SettingsState = {
   skillMapView: SkillMapView
   sidebarCollapsed: boolean
 }
-
-export type LaneLabelMap = Record<GameTreeLaneId, string>

@@ -1,7 +1,32 @@
 import type { SkillNode, LanguageCode, BodyToBodyContact, BodyToBodyPhase } from './_helpers'
-import type { BodyContactView } from './bodyPosition'
-import { formatBodyTarget } from './bodyPosition'
 import { loc, locArr, cap } from './_helpers'
+
+type BodyContactView = {
+  id: string
+  title: string
+  attackerTarget: string
+  defenderTarget: string
+  myBodyPart: string
+  opponentBodyPart: string
+  contactType: string
+  forceDirection: string | undefined
+  pressureLevel: string | undefined
+  instruction: string
+  whyItWorks: string
+  correctionCue: string
+  liveCue: string
+  prevents: string | undefined
+  safetyNote: string | undefined
+  isKeyContact: boolean
+}
+
+function formatBodyTarget(
+  target: BodyToBodyContact['myBodyPart'],
+  t: (key: string) => string,
+): string {
+  const actorKey = target.role === 'me' ? 'attacker' : 'defender'
+  return `${t(`cardOS.${actorKey}`)} ${t(`bodyToBody.sides.${target.side}`)} ${t(`bodyToBody.bodyParts.${target.bodyPart}`)}`
+}
 
 export type OneMinuteView = {
   goal: string
