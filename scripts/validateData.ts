@@ -8,7 +8,7 @@ import { techniqueStateMachines } from '../src/data/techniqueStateMachines'
 import { technicalTargetSkillIds } from '../src/data/technicalDetails'
 import { videoReferences } from '../src/data/videos'
 import { findDuplicateBlocks } from '../src/utils/contentQuality'
-import { getEscapeMaps, getTechniqueChains, getTroubleshooters } from '../src/utils/knowledgeModules'
+import { getEscapeMaps, getTroubleshooters } from '../src/utils/knowledgeModules'
 
 type Lang = 'vi' | 'en' | 'fr'
 type AnyRecord = Record<string, unknown>
@@ -951,20 +951,6 @@ const main = async () => {
     if (Array.isArray(position.relatedSkillIds) && position.relatedSkillIds.length === 0) {
       addWarning(report, `positions.${String(position.id ?? index)} has no related skills`)
     }
-  })
-
-  const chains = getTechniqueChains(skillNodes)
-  chains.forEach((chain) => {
-    chain.steps.forEach((step, stepIndex) => {
-      step.nextSkillIds.forEach((id) => {
-        if (!knownIds.skills.has(id)) addBrokenReference(report, `techniqueChains.${chain.id}.steps[${stepIndex}].nextSkillIds -> ${id}`)
-      })
-    })
-    chain.failureBranches.forEach((branch, branchIndex) => {
-      branch.nextSkillIds.forEach((id) => {
-        if (!knownIds.skills.has(id)) addBrokenReference(report, `techniqueChains.${chain.id}.failureBranches[${branchIndex}].nextSkillIds -> ${id}`)
-      })
-    })
   })
 
   const troubleshooters = getTroubleshooters(skillNodes)

@@ -84,17 +84,21 @@ export default function DefensePage() {
         {!filtered.length ? <EmptyState title={t('defense.empty')} /> : null}
         <div className="grid gap-4 xl:grid-cols-2">
           {filtered.map((layer) => (
-            <article key={layer.id} className="group rounded-xl border border-white/[0.06] bg-slate-900/40 p-5 transition-all hover:border-amber-400/20 hover:bg-slate-900/70">
+            <Link
+              key={layer.id}
+              to={`/defense/${layer.id}`}
+              className="group block rounded-xl border border-white/[0.06] bg-slate-900/40 p-5 transition-all hover:border-amber-400/20 hover:bg-slate-900/70"
+            >
               <Badge tone="amber">{t(`safetyCategories.${layer.category}`)}</Badge>
               <h2 className="mt-3 text-lg font-semibold text-white">{getLocalizedText(layer.title, language)}</h2>
               <p className="mt-2 line-clamp-2 text-sm leading-6 text-slate-400">{getLocalizedText(layer.threat, language)}</p>
               <div className="mt-4 flex justify-end border-t border-white/[0.06] pt-4">
-                <Link to={`/defense/${layer.id}`} className="inline-flex items-center gap-1 text-sm font-medium text-emerald-200 opacity-0 transition-opacity group-hover:opacity-100">
+                <span className="inline-flex items-center gap-1 text-sm font-medium text-emerald-200 opacity-0 transition-opacity group-hover:opacity-100">
                   {t('common.open')}
                   <ArrowRight className="h-3.5 w-3.5" aria-hidden="true" />
-                </Link>
+                </span>
               </div>
-            </article>
+            </Link>
           ))}
         </div>
       </SectionCard>

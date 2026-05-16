@@ -2,7 +2,6 @@ import { masteryStages } from '../data/masteryStages'
 import type { MasteryStage } from '../data/masteryStages'
 import type {
   FailureResponse,
-  IfThenDecision,
   LanguageCode,
   LocalizedText,
   MicroDetailSystem,
@@ -28,23 +27,6 @@ export type MicroDetailItem = {
   category: string
   bodyParts: string[]
   tags: string[]
-}
-
-export type TechniqueChainItem = {
-  id: string
-  skillId: string
-  title: LocalizedText
-  startNode: LocalizedText
-  endGoal: LocalizedText
-  steps: {
-    id: string
-    title: LocalizedText
-    goal: LocalizedText
-    keyDetail: LocalizedText
-    nextSkillIds: string[]
-  }[]
-  failureBranches: FailureResponse[]
-  conceptTags: string[]
 }
 
 export type TroubleshooterItem = {
@@ -180,47 +162,6 @@ export const getMicroDetails = (skills: SkillNode[]): MicroDetailItem[] =>
 
     return [...microDetails, ...keyDetails, ...adjustments]
   })
-
-export const getTechniqueChains = (skills: SkillNode[]): TechniqueChainItem[] =>
-  skills
-    .filter((skill) => skill.decisionTree.length || skill.failureResponses.length || skill.ifThenDecisions?.length)
-    .map((skill) => {
-      const decisionSteps = skill.decisionTree.slice(0, 5).map((branch, index) => ({
-        id: `${skill.id}-decision-${index}`,
-        title: branch.trigger,
-        goal: branch.response,
-        keyDetail: branch.response,
-        nextSkillIds: branch.nextSkillIds ?? [],
-      }))
-      const ifThenSteps = (skill.ifThenDecisions ?? []).slice(0, Math.max(0, 5 - decisionSteps.length)).map((decision: IfThenDecision) => ({
-        id: decision.id,
-        title: decision.ifCondition,
-        goal: decision.thenAction,
-        keyDetail: decision.correctionCue,
-        nextSkillIds: decision.nextSkillIds,
-      }))
-
-      return {
-        id: `${skill.id}-chain`,
-        skillId: skill.id,
-        title: skill.title,
-        startNode: skill.situation,
-        endGoal: skill.primaryGoal,
-        steps: [
-          {
-            id: `${skill.id}-start`,
-            title: lt('Start node', 'Start node', 'Node départ'),
-            goal: skill.situation,
-            keyDetail: skill.primaryGoal,
-            nextSkillIds: skill.relatedSkills.slice(0, 2),
-          },
-          ...decisionSteps,
-          ...ifThenSteps,
-        ],
-        failureBranches: skill.failureResponses.slice(0, 4),
-        conceptTags: [...getLocalizedArray(skill.keyConcepts, 'en').slice(0, 5), ...skill.tags.slice(0, 3)],
-      }
-    })
 
 const troubleshooterCategoryFor = (skill: SkillNode): TroubleshooterItem['category'] => {
   if (skill.id.includes('heel') || skill.id.includes('ankle') || skill.tags.some((tag) => tag.includes('leg-lock'))) return 'leg_lock'

@@ -15,7 +15,6 @@ import {
   DefensePage,
   EscapeMapDetailPage,
   EscapeMapsPage,
-  FixHubPage,
   GlossaryPage,
   MasteryMapPage,
   LearnPage,
@@ -28,10 +27,8 @@ import {
   SkillDetailPage,
   SkillMapPage,
   StudyPage,
-  SystemMapPage,
   SubmissionTroubleshooterDetailPage,
   SubmissionTroubleshootersPage,
-  TechniqueChainsPage,
 } from './routes'
 
 const Fallback = () => {
@@ -56,13 +53,10 @@ export const AppRouter = () => (
           <Route index element={<DashboardPage />} />
           <Route path="/learn" element={<LearnPage />} />
           <Route path="/study" element={<StudyPage />} />
-          <Route path="/fix" element={<FixHubPage />} />
           <Route path="/build" element={<BuildHubPage />} />
-          <Route path="/map" element={<SystemMapPage />} />
           <Route path="/reference" element={<ReferencePage />} />
           <Route path="/skills" element={<SkillMapPage />} />
           <Route path="/skills/:skillId" element={<SkillDetailPage />} />
-          <Route path="/chains" element={<TechniqueChainsPage />} />
           <Route path="/troubleshooters" element={<SubmissionTroubleshootersPage />} />
           <Route path="/troubleshooters/:skillId" element={<SubmissionTroubleshooterDetailPage />} />
           <Route path="/escape-maps" element={<EscapeMapsPage />} />

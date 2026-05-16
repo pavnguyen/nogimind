@@ -7,7 +7,7 @@ import { masteryStages } from '../src/data/masteryStages'
 import { techniqueStateMachineBySkillId, techniqueStateMachines } from '../src/data/techniqueStateMachines'
 import { positions } from '../src/data/positions'
 import { skillNodes } from '../src/data/skillNodes'
-import { getEscapeMaps, getMicroDetails, getTechniqueChains, getTroubleshooters } from '../src/utils/knowledgeModules'
+import { getEscapeMaps, getMicroDetails, getTroubleshooters } from '../src/utils/knowledgeModules'
 import type { KnowledgeItemType } from '../src/types/knowledgeSearch'
 import type { LanguageCode } from '../src/types/skill'
 
@@ -36,7 +36,6 @@ setSearchData({
   techniqueStateMachines,
   techniqueStateMachineBySkillId,
   microDetails: getMicroDetails(skillNodes),
-  techniqueChains: getTechniqueChains(skillNodes),
   troubleshooters: getTroubleshooters(skillNodes),
   escapeMaps: getEscapeMaps(skillNodes),
 })

@@ -71,7 +71,6 @@ export default function EscapeMapDetailPage() {
         title={t('escapeMaps.nextStep')}
         items={[
           { title: t('common.skill'), body: t('escapeMaps.nextStep'), to: `/skills/${skill.id}` },
-          { title: t('chains.heading'), body: t('escapeMaps.nextStep'), to: '/chains' },
           { title: t('cardOS.topDetails'), body: t('escapeMaps.nextStep'), to: `/skills/${skill.id}` },
         ]}
       />

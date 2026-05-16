@@ -4,8 +4,6 @@ export const getConceptUrl = (conceptId: string) => `/concepts/${conceptId}`
 
 export const getPositionUrl = (positionId: string) => `/positions/${positionId}`
 
-export const getChainUrl = (chainId: string) => `/chains?q=${encodeURIComponent(chainId)}`
-
 export const getTroubleshooterUrl = (skillId: string) => `/troubleshooters/${skillId}`
 
 export const getEscapeMapUrl = (skillId: string) => `/escape-maps/${skillId}`

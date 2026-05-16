@@ -165,7 +165,6 @@ export default function PositionDetailPage() {
             ? { title: t('common.relatedSkills'), body: t('positions.skillsStartHere'), to: `/skills/${position.relatedSkillIds[0]}` }
             : { title: t('common.relatedSkills'), body: t('positions.skillsStartHere'), to: '/skills' },
           { title: t('cardOS.topDetails'), body: t('positions.microDetailsMatter'), to: `/skills/${position.relatedSkillIds[0] ?? ''}`.replace(/\/skills\/$/, '/skills') },
-          { title: t('chains.heading'), body: t('positions.whatToLearnNext'), to: '/chains' },
           { title: t('escapeMaps.heading'), body: t('positions.commonProblems'), to: position.relatedSkillIds[0] ? `/escape-maps/${position.relatedSkillIds[0]}` : '/escape-maps' },
         ]}
       />

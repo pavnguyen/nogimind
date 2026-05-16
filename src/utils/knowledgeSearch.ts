@@ -1,7 +1,7 @@
 import type { KnowledgeItemType, KnowledgeSearchResult } from '../types/knowledgeSearch'
 import type { LanguageCode } from '../types/skill'
 import type { SearchDataBundle } from '../utils/searchEngine'
-import { getEscapeMaps, getMicroDetails, getTechniqueChains, getTroubleshooters } from './knowledgeModules'
+import { getEscapeMaps, getMicroDetails, getTroubleshooters } from './knowledgeModules'
 import { getCachedSearchData, setCachedSearchData, hasValidSearchCache } from './searchCache'
 
 let worker: Worker | null = null
@@ -152,7 +152,6 @@ const buildSearchPayload = async (): Promise<SearchDataBundle> => {
     techniqueStateMachines,
     techniqueStateMachineBySkillId,
     microDetails: getMicroDetails(skillNodes),
-    techniqueChains: getTechniqueChains(skillNodes),
     troubleshooters: getTroubleshooters(skillNodes),
     escapeMaps: getEscapeMaps(skillNodes),
   }

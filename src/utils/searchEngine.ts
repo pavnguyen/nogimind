@@ -8,7 +8,7 @@ import type { PositionNode } from '../types/position'
 import type { LanguageCode, LocalizedStringArray, LocalizedText, SkillNode } from '../types/skill'
 import type { MasteryStage } from '../data/masteryStages'
 import type { TechniqueStateMachine } from '../types/stateMachine'
-import type { MicroDetailItem, TechniqueChainItem, TroubleshooterItem, EscapeMapItem } from './knowledgeModules'
+import type { MicroDetailItem, TroubleshooterItem, EscapeMapItem } from './knowledgeModules'
 import { getLocalizedArray, getLocalizedText } from './localization'
 
 export type SearchMode = 'quick' | 'deep'
@@ -28,7 +28,6 @@ export interface SearchDataBundle {
   techniqueStateMachines: TechniqueStateMachine[]
   techniqueStateMachineBySkillId: Map<string, TechniqueStateMachine>
   microDetails: MicroDetailItem[]
-  techniqueChains: TechniqueChainItem[]
   troubleshooters: TroubleshooterItem[]
   escapeMaps: EscapeMapItem[]
 }
@@ -474,23 +473,6 @@ const microDetailDocuments = (lang: LanguageCode): SearchDocument[] =>
     ],
   }))
 
-const chainDocuments = (lang: LanguageCode): SearchDocument[] =>
-  getData().techniqueChains.map((chain) => ({
-    id: `chain:${chain.id}`,
-    type: 'technique_chain',
-    title: chain.title,
-    description: chain.endGoal,
-    tags: chain.conceptTags,
-    url: `/chains?q=${encodeURIComponent(chain.title.en)}`,
-    fields: [
-      field('title', chain.title, lang, 8),
-      field('start and goal', [chain.startNode, chain.endGoal], lang, 4),
-      field('steps', chain.steps, lang, 4),
-      field('failure branches', chain.failureBranches, lang, 3),
-      field('tags', chain.conceptTags, lang, 2),
-    ],
-  }))
-
 const troubleshooterDocuments = (lang: LanguageCode): SearchDocument[] =>
   getData().troubleshooters.map((item) => ({
     id: `troubleshooter:${item.skillId}:${item.id}`,
@@ -571,7 +553,6 @@ const documentBuilders: Record<KnowledgeItemType, (lang: LanguageCode, mode: Sea
   glossary: (lang, mode) => getData().glossaryTerms.map((term) => glossaryDocument(term, lang, mode)),
   defense: (lang, mode) => getData().defensiveLayers.map((layer) => defenseDocument(layer, lang, mode)),
   micro_detail: (lang, mode) => mode === 'deep' ? microDetailDocuments(lang) : [],
-  technique_chain: (lang, mode) => mode === 'deep' ? chainDocuments(lang) : [],
   troubleshooter: (lang, mode) => mode === 'deep' ? troubleshooterDocuments(lang) : [],
   escape_map: (lang, mode) => mode === 'deep' ? escapeMapDocuments(lang) : [],
   archetype: (lang, mode) => getData().archetypes.map((archetypeValue) => archetypeDocument(archetypeValue, lang, mode)),

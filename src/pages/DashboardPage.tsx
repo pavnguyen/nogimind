@@ -14,7 +14,8 @@ import {
   Target,
   Zap,
   Sun,
-
+  BugPlay,
+  MapIcon,
 } from 'lucide-react'
 import { Badge } from '../components/common/Badge'
 import { PageShell } from '../components/common/PageShell'
@@ -78,7 +79,7 @@ const cardGradients: Record<string, string> = {
 const hubLinks = [
   { to: '/learn', icon: Compass, label: 'nav.learn', tone: 'cyan' as const },
   { to: '/study', icon: Zap, label: 'nav.study', tone: 'emerald' as const, highlight: true },
-  { to: '/fix', icon: Wrench, label: 'nav.fix', tone: 'amber' as const },
+  { to: '/troubleshooters', icon: Wrench, label: 'nav.fix', tone: 'amber' as const },
   { to: '/build', icon: Layers3, label: 'nav.build', tone: 'violet' as const },
   { to: '/reference', icon: BookOpen, label: 'nav.reference', tone: 'slate' as const },
 ]
@@ -408,6 +409,50 @@ export default function DashboardPage() {
                       <p className="text-sm font-bold text-white transition-colors group-hover:text-white">
                         {t(hub.label)}
                       </p>
+                    </div>
+                  </Link>
+                )
+              })}
+            </div>
+          </div>
+        </section>
+
+        {/* ─── Fix a problem — full width ─── */}
+        <section className="lg:col-span-12">
+          <div className="rounded-[2.5rem] border border-amber-400/10 bg-gradient-to-br from-amber-400/[0.03] to-slate-900/20 p-6 lg:p-8">
+            <div className="mb-6 flex items-center gap-2">
+              <Wrench className="h-4 w-4 text-amber-400/70" />
+              <h2 className="text-xs font-bold uppercase tracking-widest text-amber-400/70">{t('modeUx.fix.heading')}</h2>
+            </div>
+            <p className="mb-6 max-w-2xl text-sm leading-relaxed text-slate-500">{t('modeUx.fix.subtitle')}</p>
+            <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+              {[
+                { key: 'troubleshooters', to: '/troubleshooters', icon: BugPlay },
+                { key: 'escapeMaps', to: '/escape-maps', icon: MapIcon },
+                { key: 'defense', to: '/defense', icon: Shield },
+              ].map((item) => {
+                const ItemIcon = item.icon
+                return (
+                  <Link
+                    key={item.key}
+                    to={item.to}
+                    className="group relative overflow-hidden rounded-xl border border-amber-400/10 bg-slate-950/40 p-5 transition-all duration-200 hover:border-amber-400/30 hover:bg-amber-400/[0.05] hover:shadow-[0_0_25px_rgba(251,191,36,0.06)]"
+                  >
+                    {/* Corner glow */}
+                    <div className="absolute -right-10 -top-10 h-20 w-20 rounded-full bg-amber-400/5 blur-2xl transition-all duration-300 group-hover:bg-amber-400/10" />
+                    <div className="relative z-10 flex items-start justify-between gap-4">
+                      <div className="flex-1 min-w-0">
+                        <div className="mb-3 flex h-9 w-9 items-center justify-center rounded-xl bg-amber-400/10 text-amber-300 transition-colors group-hover:bg-amber-400/20">
+                          <ItemIcon className="h-4 w-4" aria-hidden="true" />
+                        </div>
+                        <h3 className="text-sm font-semibold text-white transition-colors group-hover:text-amber-100">
+                          {t(`modeUx.reference.items.${item.key}.title`)}
+                        </h3>
+                        <p className="mt-1.5 text-xs leading-5 text-slate-400 line-clamp-2">
+                          {t(`modeUx.reference.items.${item.key}.body`)}
+                        </p>
+                      </div>
+                      <ArrowRight className="mt-2 h-4 w-4 shrink-0 text-amber-400/40 transition-all group-hover:translate-x-0.5 group-hover:text-amber-300" aria-hidden="true" />
                     </div>
                   </Link>
                 )

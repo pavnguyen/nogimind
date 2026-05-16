@@ -7,7 +7,6 @@ export type KnowledgeItemType =
   | 'glossary'
   | 'defense'
   | 'micro_detail'
-  | 'technique_chain'
   | 'troubleshooter'
   | 'escape_map'
   | 'archetype'

@@ -13,7 +13,7 @@ import { searchKnowledge } from '../utils/knowledgeSearch'
 import { getLocalizedText } from '../utils/localization'
 
 const coreResultTypes: KnowledgeItemType[] = ['skill', 'concept', 'position']
-const advancedResultTypes: KnowledgeItemType[] = ['micro_detail', 'technique_chain', 'troubleshooter', 'escape_map', 'glossary', 'defense', 'archetype', 'mastery']
+const advancedResultTypes: KnowledgeItemType[] = ['micro_detail', 'troubleshooter', 'escape_map', 'glossary', 'defense', 'archetype', 'mastery']
 const filterTypes = [...coreResultTypes, ...advancedResultTypes]
 
 export default function SearchPage() {
