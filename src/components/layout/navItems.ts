@@ -4,21 +4,21 @@ import {
   Compass,
   Home,
   Layers3,
-  Map,
+  Map as MapIcon,
   Search,
   Settings,
   Wrench,
+  Zap,
 } from 'lucide-react'
 
 /** Primary navigation items (shown in sidebar and bottom nav) */
 export const primaryNavItems = [
   { to: '/', key: 'nav.dashboard', icon: Home },
-  { to: '/search', key: 'nav.search', icon: Search },
-  { to: '/skills', key: 'nav.skills', icon: Layers3 },
-  { to: '/learning-paths', key: 'Learning Paths', icon: Map },
+  { to: '/study', key: 'nav.study', icon: Zap, highlight: true },
   { to: '/troubleshooters', key: 'nav.troubleshooters', icon: Wrench },
-  { to: '/study', key: 'nav.study', icon: Compass },
+  { to: '/skills', key: 'nav.skills', icon: MapIcon },
   { to: '/reference', key: 'nav.reference', icon: BookOpen },
+  { to: '/search', key: 'nav.search', icon: Search },
 ]
 
 /** Secondary navigation groups for sidebar expansion */

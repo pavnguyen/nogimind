@@ -32,7 +32,6 @@ import {
   SubmissionTroubleshooterDetailPage,
   SubmissionTroubleshootersPage,
   TechniqueChainsPage,
-  LearningPathsPage,
 } from './routes'
 
 const Fallback = () => {
@@ -57,7 +56,6 @@ export const AppRouter = () => (
           <Route index element={<DashboardPage />} />
           <Route path="/learn" element={<LearnPage />} />
           <Route path="/study" element={<StudyPage />} />
-          <Route path="/learning-paths" element={<LearningPathsPage />} />
           <Route path="/map" element={<SystemMapPage />} />
           <Route path="/reference" element={<ReferencePage />} />
           <Route path="/skills" element={<SkillMapPage />} />

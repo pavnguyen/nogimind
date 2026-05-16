@@ -56,22 +56,35 @@ export default function DashboardPage() {
   return (
     <PageShell
       header={
-        <section className="space-y-3">
-          {/* Greeting */}
-          <div className="flex items-center gap-3">
-            <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-gradient-to-br from-emerald-400 to-cyan-400 shadow-lg">
-              <Sparkles className="h-5 w-5 text-slate-950" aria-hidden="true" />
+        <section className="space-y-6">
+          {/* Greeting & Quick Stats */}
+          <div className="flex flex-col gap-6 md:flex-row md:items-end md:justify-between">
+            <div className="flex items-center gap-4">
+              <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-gradient-to-br from-emerald-400 to-cyan-400 shadow-[0_0_20px_rgba(52,211,153,0.2)]">
+                <Sparkles className="h-6 w-6 text-slate-950" aria-hidden="true" />
+              </div>
+              <div>
+                <h1 className="text-3xl font-bold tracking-tight text-white lg:text-4xl">
+                  {t('app.name')}
+                </h1>
+                <p className="mt-1 text-sm text-slate-500">{t('app.thesis')}</p>
+              </div>
             </div>
-            <div>
-              <h1 className="text-2xl font-semibold tracking-tight text-white">
-                {t('app.name')}
-              </h1>
-              <p className="text-sm text-slate-400">{t('app.thesis')}</p>
+
+            <div className="flex gap-2">
+              <div className="rounded-2xl border border-white/[0.06] bg-slate-900/40 px-4 py-2 backdrop-blur-sm">
+                <p className="text-[10px] font-bold uppercase tracking-widest text-slate-500">{t('dashboard.totalSkills')}</p>
+                <p className="text-xl font-bold text-emerald-400">{totalSkills}</p>
+              </div>
+              <div className="rounded-2xl border border-white/[0.06] bg-slate-900/40 px-4 py-2 backdrop-blur-sm">
+                <p className="text-[10px] font-bold uppercase tracking-widest text-slate-500">Safety</p>
+                <p className="text-xl font-bold text-amber-400">{safetyCritical}</p>
+              </div>
             </div>
           </div>
 
-          {/* Quick Action Bar */}
-          <div className="grid grid-cols-2 gap-2 sm:grid-cols-4">
+          {/* Quick Actions - Slimmer & Sleeker */}
+          <div className="grid grid-cols-2 gap-3 sm:grid-cols-4 lg:gap-4">
             {quickActions.map((action) => {
               const Icon = action.icon
               return (
@@ -79,12 +92,16 @@ export default function DashboardPage() {
                   key={action.to}
                   to={action.to}
                   className={cn(
-                    'group flex items-center gap-3 rounded-xl border bg-gradient-to-br p-4 transition-all duration-200',
+                    'group relative overflow-hidden rounded-2xl border bg-slate-900/40 p-4 transition-all duration-300 hover:scale-[1.02] hover:bg-slate-900/60',
                     action.color,
                   )}
                 >
-                  <Icon className="h-5 w-5 shrink-0 text-slate-300 transition-transform group-hover:scale-110" aria-hidden="true" />
-                  <span className="text-sm font-medium text-slate-200 group-hover:text-white">{t(action.label)}</span>
+                  <div className="flex items-center gap-3">
+                    <div className="rounded-xl bg-white/5 p-2 transition-colors group-hover:bg-white/10">
+                      <Icon className="h-5 w-5 text-slate-300 transition-transform group-hover:scale-110" aria-hidden="true" />
+                    </div>
+                    <span className="text-xs font-bold uppercase tracking-wider text-slate-300 group-hover:text-white">{t(action.label)}</span>
+                  </div>
                 </Link>
               )
             })}
@@ -92,148 +109,176 @@ export default function DashboardPage() {
         </section>
       }
     >
-      {/* Stats Strip */}
-      <div className="grid grid-cols-2 gap-3">
-        {[
-          { label: 'dashboard.totalSkills', value: totalSkills, icon: Layers3, color: 'text-emerald-300' },
-          { label: 'Safety Critical', value: safetyCritical, icon: Shield, color: 'text-amber-300' },
-        ].map((stat) => {
-          const StatIcon = stat.icon
-          return (
-            <div key={stat.label} className="flex items-center gap-3 rounded-xl border border-white/[0.06] bg-slate-900/50 p-4">
-              <StatIcon className={cn('h-5 w-5 shrink-0', stat.color)} aria-hidden="true" />
-              <div>
-                <p className="text-lg font-semibold text-white">{stat.value}</p>
-                <p className="text-xs text-slate-500">{stat.label === 'dashboard.totalSkills' ? t(stat.label) : stat.label}</p>
+      <div className="grid gap-6 lg:grid-cols-12 lg:grid-rows-[auto_auto]">
+        {/* HERO: Today's Focus - Takes 8 cols on desktop */}
+        <section className="relative overflow-hidden rounded-[2.5rem] border border-emerald-400/20 bg-slate-900/40 p-8 lg:col-span-8">
+          <div className="absolute -right-20 -top-20 h-64 w-64 rounded-full bg-emerald-400/10 blur-[80px]" />
+          <div className="absolute -bottom-20 -left-20 h-64 w-64 rounded-full bg-cyan-400/5 blur-[80px]" />
+          
+          <div className="relative z-10">
+            <div className="flex items-center gap-3 mb-8">
+              <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-emerald-400/10 text-emerald-400">
+                <Clock className="h-5 w-5" />
               </div>
+              <h2 className="text-lg font-bold tracking-tight text-white">{t('dashboard.todayFocus')}</h2>
             </div>
-          )
-        })}
-      </div>
 
-      {/* Workflow Steps */}
-      <SectionCard
-        title={t('dashboard.workflow.title')}
-        description={t('dashboard.workflow.subtitle')}
-      >
-        <div className="grid gap-2 sm:grid-cols-2 xl:grid-cols-4">
-          {[0, 1, 2, 3].map((index) => {
-            const item = {
-              to: ['/positions', '/skills', '/micro-details', '/chains'][index],
-              title: `dashboard.workflow.${index}.title`,
-              body: `dashboard.workflow.${index}.body`,
-            }
-            return (
-              <Link
-                key={item.to}
-                to={item.to}
-                className="group flex items-start gap-3 rounded-xl border border-white/[0.06] bg-slate-900/40 p-4 transition-all hover:border-emerald-400/20 hover:bg-slate-900/80"
-              >
-                <div className="flex h-7 w-7 shrink-0 items-center justify-center rounded-lg bg-emerald-400/15 text-xs font-bold text-emerald-300">
-                  {index + 1}
-                </div>
-                <div className="min-w-0">
-                  <p className="text-sm font-semibold text-white group-hover:text-emerald-100">{t(item.title)}</p>
-                  <p className="mt-0.5 text-xs leading-5 text-slate-500">{t(item.body)}</p>
-                </div>
-              </Link>
-            )
-          })}
-        </div>
-      </SectionCard>
-
-      {/* Daily Inspiration */}
-      <div className="grid gap-4 sm:grid-cols-2 xl:grid-cols-3">
-        {/* Today's Focus */}
-        <div className="space-y-3 rounded-xl border border-white/[0.06] bg-slate-900/40 p-5">
-          <div className="flex items-center gap-2">
-            <Clock className="h-4 w-4 text-cyan-400" aria-hidden="true" />
-            <h2 className="text-sm font-semibold text-white">{t('dashboard.todayFocus')}</h2>
-          </div>
-          {microDetail && (
-            <Link to={`/skills/${microDetail.skillId}`} className="block rounded-lg bg-white/[0.03] p-3 transition-all hover:bg-white/[0.06]">
-              <Badge tone="cyan">{t('dashboard.microDetailOfDay')}</Badge>
-              <p className="mt-2 text-sm font-medium text-white">{getLocalizedText(microDetail.title, lang)}</p>
-              <p className="mt-1 text-xs text-slate-400 line-clamp-2">{getLocalizedText(microDetail.correctionCue, lang)}</p>
-            </Link>
-          )}
-          {concept && (
-            <Link to={`/concepts/${concept.id}`} className="block rounded-lg bg-white/[0.03] p-3 transition-all hover:bg-white/[0.06]">
-              <Badge tone="emerald">{t('dashboard.conceptOfDay')}</Badge>
-              <p className="mt-2 text-sm font-medium text-white">{getLocalizedText(concept.title, lang)}</p>
-              <p className="mt-1 text-xs text-slate-400 line-clamp-2">{getLocalizedText(concept.shortDefinition, lang)}</p>
-            </Link>
-          )}
-        </div>
-
-        {/* Quick Links */}
-        <div className="space-y-3 rounded-xl border border-white/[0.06] bg-slate-900/40 p-5">
-          <div className="flex items-center gap-2">
-            <Zap className="h-4 w-4 text-amber-400" aria-hidden="true" />
-            <h2 className="text-sm font-semibold text-white">{t('dashboard.debugShortcuts')}</h2>
-          </div>
-          <div className="space-y-1">
-            {[
-              { to: '/skills?risk=safety_critical', label: t('dashboard.shortcuts.safety'), icon: Shield },
-              { to: '/troubleshooters', label: t('dashboard.shortcuts.submissions'), icon: Target },
-              { to: '/escape-maps', label: t('dashboard.shortcuts.escapes'), icon: ArrowRight },
-              { to: '/defense', label: t('nav.defense'), icon: Shield },
-            ].map((shortcut) => {
-              const ShortcutIcon = shortcut.icon
-              return (
-                <Link
-                  key={shortcut.to}
-                  to={shortcut.to}
-                  className="flex items-center gap-3 rounded-lg px-3 py-2 text-sm text-slate-400 transition-all hover:bg-white/[0.04] hover:text-slate-200"
+            <div className="grid gap-6 md:grid-cols-2">
+              {microDetail && (
+                <Link 
+                  to={`/skills/${microDetail.skillId}`} 
+                  className="group block space-y-4 rounded-3xl border border-white/[0.06] bg-white/[0.03] p-6 transition-all hover:bg-white/[0.06] hover:shadow-xl"
                 >
-                  <ShortcutIcon className="h-3.5 w-3.5 shrink-0" aria-hidden="true" />
-                  <span>{shortcut.label}</span>
+                  <Badge tone="cyan" className="px-2 py-0.5 text-[10px] uppercase tracking-widest">{t('dashboard.microDetailOfDay')}</Badge>
+                  <h3 className="text-xl font-bold text-white group-hover:text-cyan-300 transition-colors">{getLocalizedText(microDetail.title, lang)}</h3>
+                  <p className="text-sm leading-relaxed text-slate-400 line-clamp-3">{getLocalizedText(microDetail.correctionCue, lang)}</p>
+                  <div className="flex items-center gap-2 text-xs font-bold text-cyan-400 opacity-0 transition-opacity group-hover:opacity-100">
+                    <span>View Detail</span>
+                    <ArrowRight className="h-3 w-3" />
+                  </div>
                 </Link>
-              )
-            })}
-          </div>
-        </div>
+              )}
 
-        {/* Getting Started */}
-        <div className="space-y-3 rounded-xl border border-white/[0.06] bg-slate-900/40 p-5 sm:col-span-2 xl:col-span-1">
-          <div className="flex items-center gap-2">
-            <BookOpen className="h-4 w-4 text-emerald-400" aria-hidden="true" />
-            <h2 className="text-sm font-semibold text-white">{t('common.quickLinks')}</h2>
+              {concept && (
+                <Link 
+                  to={`/concepts/${concept.id}`} 
+                  className="group block space-y-4 rounded-3xl border border-white/[0.06] bg-white/[0.03] p-6 transition-all hover:bg-white/[0.06] hover:shadow-xl"
+                >
+                  <Badge tone="emerald" className="px-2 py-0.5 text-[10px] uppercase tracking-widest">{t('dashboard.conceptOfDay')}</Badge>
+                  <h3 className="text-xl font-bold text-white group-hover:text-emerald-300 transition-colors">{getLocalizedText(concept.title, lang)}</h3>
+                  <p className="text-sm leading-relaxed text-slate-400 line-clamp-3">{getLocalizedText(concept.shortDefinition, lang)}</p>
+                  <div className="flex items-center gap-2 text-xs font-bold text-emerald-400 opacity-0 transition-opacity group-hover:opacity-100">
+                    <span>Explore Concept</span>
+                    <ArrowRight className="h-3 w-3" />
+                  </div>
+                </Link>
+              )}
+            </div>
           </div>
-          <div className="space-y-1">
-            {[
-              { to: '/learn', label: t('nav.learn') },
-              { to: '/mastery', label: t('nav.mastery') },
-              { to: '/game-tree', label: t('nav.gameTree') },
-              { to: '/about', label: t('nav.philosophy') },
-            ].map((link) => (
-              <Link
-                key={link.to}
-                to={link.to}
-                className="flex items-center gap-3 rounded-lg px-3 py-2 text-sm text-slate-400 transition-all hover:bg-white/[0.04] hover:text-slate-200"
-              >
-                <ArrowRight className="h-3.5 w-3.5 shrink-0 text-slate-600" aria-hidden="true" />
-                <span>{link.label}</span>
-              </Link>
-            ))}
+        </section>
+
+        {/* SIDE: Position of the Day - Takes 4 cols on desktop */}
+        {position && (
+          <section className="lg:col-span-4">
+            <Link
+              to={`/positions/${position.id}`}
+              className="group relative flex h-full flex-col overflow-hidden rounded-[2.5rem] border border-cyan-400/20 bg-gradient-to-br from-slate-900/60 to-slate-950 p-8 transition-all hover:scale-[1.02] hover:shadow-2xl"
+            >
+              <div className="absolute right-0 top-0 h-32 w-32 translate-x-8 translate-y-[-20%] rotate-12 opacity-10">
+                <TrendingUp className="h-full w-full text-cyan-400" />
+              </div>
+
+              <div className="flex items-center gap-2 mb-6">
+                <div className="rounded-lg bg-cyan-400/10 p-2">
+                  <TrendingUp className="h-4 w-4 text-cyan-400" aria-hidden="true" />
+                </div>
+                <span className="text-[10px] font-bold uppercase tracking-widest text-cyan-300">{t('dashboard.positionOfDay')}</span>
+              </div>
+
+              <h2 className="text-3xl font-bold text-white group-hover:text-cyan-200 transition-colors">{getLocalizedText(position.title, lang)}</h2>
+              <p className="mt-4 text-sm leading-relaxed text-slate-400 line-clamp-4">{getLocalizedText(position.description, lang)}</p>
+              
+              <div className="mt-auto pt-8">
+                <div className="inline-flex items-center gap-2 rounded-xl bg-cyan-400 px-4 py-2.5 text-xs font-bold text-slate-950 transition-transform group-hover:translate-y-[-2px]">
+                  <span>Study Position</span>
+                  <ArrowRight className="h-3.5 w-3.5" />
+                </div>
+              </div>
+            </Link>
+          </section>
+        )}
+
+        {/* Workflow Steps - Full width on desktop rows */}
+        <section className="lg:col-span-12">
+          <div className="rounded-[2.5rem] border border-white/[0.06] bg-slate-900/20 p-8">
+            <div className="flex flex-col gap-1 mb-8">
+              <h2 className="text-xl font-bold text-white">{t('dashboard.workflow.title')}</h2>
+              <p className="text-sm text-slate-500">{t('dashboard.workflow.subtitle')}</p>
+            </div>
+            
+            <div className="grid gap-4 sm:grid-cols-2 xl:grid-cols-4">
+              {[0, 1, 2, 3].map((index) => {
+                const item = {
+                  to: ['/positions', '/skills', '/micro-details', '/chains'][index],
+                  title: `dashboard.workflow.${index}.title`,
+                  body: `dashboard.workflow.${index}.body`,
+                }
+                return (
+                  <Link
+                    key={item.to}
+                    to={item.to}
+                    className="group relative flex flex-col items-start gap-4 rounded-3xl border border-white/[0.06] bg-slate-900/40 p-6 transition-all hover:border-emerald-400/30 hover:bg-slate-900/80 hover:shadow-lg"
+                  >
+                    <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-emerald-400/10 text-sm font-black text-emerald-400 transition-transform group-hover:scale-110">
+                      {index + 1}
+                    </div>
+                    <div>
+                      <p className="text-sm font-bold text-white group-hover:text-emerald-300">{t(item.title)}</p>
+                      <p className="mt-2 text-xs leading-5 text-slate-500 line-clamp-2">{t(item.body)}</p>
+                    </div>
+                  </Link>
+                )
+              })}
+            </div>
           </div>
-        </div>
+        </section>
+
+        {/* Footer shortcuts - 2 cols on desktop bottom row */}
+        <section className="grid gap-6 md:grid-cols-2 lg:col-span-12">
+          {/* Quick Shortcuts */}
+          <div className="rounded-[2rem] border border-white/[0.06] bg-slate-900/40 p-6">
+            <div className="flex items-center gap-2 mb-6">
+              <Zap className="h-4 w-4 text-amber-400" />
+              <h3 className="text-xs font-bold uppercase tracking-widest text-slate-300">{t('dashboard.debugShortcuts')}</h3>
+            </div>
+            <div className="grid grid-cols-2 gap-2">
+              {[
+                { to: '/skills?risk=safety_critical', label: t('dashboard.shortcuts.safety'), icon: Shield },
+                { to: '/troubleshooters', label: t('dashboard.shortcuts.submissions'), icon: Target },
+                { to: '/escape-maps', label: t('dashboard.shortcuts.escapes'), icon: ArrowRight },
+                { to: '/defense', label: t('nav.defense'), icon: Shield },
+              ].map((shortcut) => {
+                const ShortcutIcon = shortcut.icon
+                return (
+                  <Link
+                    key={shortcut.to}
+                    to={shortcut.to}
+                    className="flex items-center gap-3 rounded-xl border border-white/[0.04] bg-white/[0.02] px-4 py-3 text-sm text-slate-400 transition-all hover:border-white/10 hover:bg-white/5 hover:text-white"
+                  >
+                    <ShortcutIcon className="h-3.5 w-3.5 shrink-0 text-slate-600" />
+                    <span className="truncate">{shortcut.label}</span>
+                  </Link>
+                )
+              })}
+            </div>
+          </div>
+
+          {/* Quick Links */}
+          <div className="rounded-[2rem] border border-white/[0.06] bg-slate-900/40 p-6">
+            <div className="flex items-center gap-2 mb-6">
+              <BookOpen className="h-4 w-4 text-emerald-400" />
+              <h3 className="text-xs font-bold uppercase tracking-widest text-slate-300">{t('common.quickLinks')}</h3>
+            </div>
+            <div className="grid grid-cols-2 gap-2">
+              {[
+                { to: '/learn', label: t('nav.learn') },
+                { to: '/mastery', label: t('nav.mastery') },
+                { to: '/game-tree', label: t('nav.gameTree') },
+                { to: '/about', label: t('nav.philosophy') },
+              ].map((link) => (
+                <Link
+                  key={link.to}
+                  to={link.to}
+                  className="flex items-center gap-3 rounded-xl border border-white/[0.04] bg-white/[0.02] px-4 py-3 text-sm text-slate-400 transition-all hover:border-white/10 hover:bg-white/5 hover:text-white"
+                >
+                  <ArrowRight className="h-3.5 w-3.5 shrink-0 text-slate-700" />
+                  <span className="truncate">{link.label}</span>
+                </Link>
+              ))}
+            </div>
+          </div>
+        </section>
       </div>
-
-      {/* Position of the Day */}
-      {position && (
-        <Link
-          to={`/positions/${position.id}`}
-          className="group block rounded-xl border border-white/[0.06] bg-gradient-to-r from-slate-900/50 to-slate-900/20 p-5 transition-all hover:border-cyan-400/20"
-        >
-          <div className="flex items-center gap-2">
-            <TrendingUp className="h-4 w-4 text-cyan-400" aria-hidden="true" />
-            <Badge tone="cyan">{t('dashboard.positionOfDay')}</Badge>
-          </div>
-          <p className="mt-3 text-lg font-semibold text-white group-hover:text-cyan-100">{getLocalizedText(position.title, lang)}</p>
-          <p className="mt-1 text-sm text-slate-400">{getLocalizedText(position.description, lang)}</p>
-        </Link>
-      )}
     </PageShell>
   )
 }

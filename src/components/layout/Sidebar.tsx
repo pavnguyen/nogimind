@@ -44,14 +44,28 @@ export const Sidebar = () => {
                   cn(
                     'flex items-center gap-3 rounded-lg px-3 py-2 text-sm font-medium transition-all duration-150',
                     isActive
-                      ? 'bg-emerald-400/12 text-emerald-100 shadow-sm'
-                      : 'text-slate-400 hover:bg-white/[0.04] hover:text-slate-200',
+                      ? item.highlight 
+                        ? 'bg-amber-400/20 text-amber-100 shadow-[0_0_15px_rgba(251,191,36,0.1)]' 
+                        : 'bg-emerald-400/12 text-emerald-100 shadow-sm'
+                      : item.highlight
+                        ? 'text-amber-400/80 hover:bg-amber-400/10 hover:text-amber-300'
+                        : 'text-slate-400 hover:bg-white/[0.04] hover:text-slate-200',
                     collapsed && 'justify-center px-2',
                   )
                 }
               >
-                <Icon className="h-4 w-4 shrink-0" aria-hidden="true" />
-                {!collapsed && <span>{t(item.key)}</span>}
+                {({ isActive }) => (
+                  <>
+                    <Icon 
+                      className={cn(
+                        "h-4 w-4 shrink-0",
+                        item.highlight && !isActive && "text-amber-400 animate-pulse-slow"
+                      )} 
+                      aria-hidden="true" 
+                    />
+                    {!collapsed && <span>{t(item.key)}</span>}
+                  </>
+                )}
               </NavLink>
             )
           })}

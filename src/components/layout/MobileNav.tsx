@@ -1,17 +1,17 @@
 import { NavLink } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
-import { Search, X, Home, Layers3, Compass, BookOpen, Wrench } from 'lucide-react'
+import { Search, X, Home, Compass, BookOpen, Wrench, Zap, Map as MapIcon } from 'lucide-react'
 import { useUiStore } from '../../stores/useUiStore'
 import { cn } from '../../utils/cn'
 import { primaryNavItems } from './navItems'
 
 const tabItems = [
   { to: '/', key: 'nav.dashboard', icon: Home },
-  { to: '/skills', key: 'nav.skills', icon: Layers3 },
-  { to: '/search', key: 'nav.search', icon: Search },
+  { to: '/study', key: 'nav.study', icon: Zap, highlight: true },
   { to: '/troubleshooters', key: 'nav.troubleshooters', icon: Wrench },
-  { to: '/study', key: 'nav.study', icon: Compass },
+  { to: '/skills', key: 'nav.skills', icon: MapIcon },
   { to: '/reference', key: 'nav.reference', icon: BookOpen },
+  { to: '/search', key: 'nav.search', icon: Search },
 ]
 
 export const MobileNav = () => {
@@ -37,7 +37,7 @@ export const MobileNav = () => {
             </button>
           </div>
           <nav className="mt-10 flex-1 space-y-1">
-            {primaryNavItems.map((item) => {
+            {primaryNavItems.map((item: any) => {
               const Icon = item.icon
               return (
                 <NavLink
@@ -49,13 +49,21 @@ export const MobileNav = () => {
                     cn(
                       'flex items-center gap-4 rounded-xl px-4 py-3 text-base font-medium transition-all',
                       isActive
-                        ? 'bg-emerald-400/12 text-emerald-100'
-                        : 'text-slate-300 hover:bg-white/[0.04] hover:text-white',
+                        ? item.highlight
+                          ? 'bg-amber-400/20 text-amber-100 shadow-[0_0_15px_rgba(251,191,36,0.1)]'
+                          : 'bg-emerald-400/12 text-emerald-100'
+                        : item.highlight
+                          ? 'text-amber-400/80 hover:bg-amber-400/10'
+                          : 'text-slate-300 hover:bg-white/[0.04] hover:text-white',
                     )
                   }
                 >
-                  <Icon className="h-5 w-5" aria-hidden="true" />
-                  <span>{t(item.key)}</span>
+                  {({ isActive }) => (
+                    <>
+                      <Icon className={cn("h-5 w-5", item.highlight && !isActive && "text-amber-400 animate-pulse-slow")} aria-hidden="true" />
+                      <span>{t(item.key)}</span>
+                    </>
+                  )}
                 </NavLink>
               )
             })}
