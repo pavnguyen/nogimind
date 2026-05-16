@@ -47,7 +47,7 @@ const mappingRules: MappingRule[] = [
   { patterns: ['half guard knee shield', 'knee shield'], skillId: 'half-guard-knee-shield' },
 
   // Wrestling & front headlock
-  { patterns: ['front headlock', 'front-headlock', 'snap down', 'snapdown'], skillId: 'snapdown-front-headlock' },
+  { patterns: ['front headlock', 'front-headlock', 'snap down', 'snapdown'], skillId: 'snapdown-front-headlock', aliases: ['front-headlock-system'] },
   { patterns: ['darce', 'd\'arce', 'darce choke'], skillId: 'snapdown-front-headlock' },
   { patterns: ['anaconda', 'anaconda choke'], skillId: 'snapdown-front-headlock' },
   { patterns: ['go behind', 'go-behind'], skillId: 'sprawl-go-behind' },

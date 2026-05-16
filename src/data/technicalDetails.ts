@@ -118,7 +118,7 @@ const keyDetailsFor = (spec: TechnicalSpec): TechnicalDetail[] => [
   detail(
     `${spec.id}-eyes-scan`,
     'setup',
-    lt('Mắt đọc escape đầu tiên', 'Eyes read the first escape', 'Les yeux lisent la première sortie'),
+    lt(`Mắt đọc escape (${spec.name.vi})`, `Eyes read escape (${spec.name.en})`, `Lecture de l'évasion (${spec.name.fr})`),
     lt('Khi đối thủ bắt đầu hand fight, frame, bridge hoặc pummel.', 'When the opponent begins hand fighting, framing, bridging, or pummeling.', 'Quand l’adversaire commence hand fight, frame, bridge ou pummel.'),
     lt(
       `${spec.name.vi}: mắt đọc vai gần, hông xa và tay đang tạo frame để biết nên giữ control, đổi angle hay chuyển nhánh.`,
@@ -136,7 +136,7 @@ const keyDetailsFor = (spec: TechnicalSpec): TechnicalDetail[] => [
   detail(
     `${spec.id}-grip-shape`,
     'grip',
-    lt('Grip không tạo khoảng trống', 'Grip without space', 'Grip sans espace'),
+    lt(`Grip không tạo khoảng trống (${spec.name.vi})`, `Grip without space (${spec.name.en})`, `Grip sans espace (${spec.name.fr})`),
     lt('Khi tay bạn đang nối vào cổ, tay, hip line hoặc thân đối thủ.', 'When your hands connect to the neck, arm, hip line, or torso.', 'Quand vos mains se connectent au cou, bras, hip line ou torse.'),
     lt(
       `Dùng ${spec.gripCue.vi}. Cổ tay giữ thẳng, ngón tay không mở lung tung, và grip phải kéo đối thủ vào cấu trúc của bạn thay vì kéo bạn rời vị trí.`,
@@ -154,7 +154,7 @@ const keyDetailsFor = (spec: TechnicalSpec): TechnicalDetail[] => [
   detail(
     `${spec.id}-elbow-line`,
     'isolation',
-    lt('Khuỷu quyết định isolation', 'Elbow line decides isolation', 'La ligne du coude décide isolation'),
+    lt(`Khuỷu quyết định isolation (${spec.name.vi})`, `Elbow decides isolation (${spec.name.en})`, `Le coude décide l'isolation (${spec.name.fr})`),
     lt('Khi bạn cần giữ vai, cổ, hip line hoặc frame của đối thủ bị tách khỏi cấu trúc.', 'When you need the opponent’s shoulder, neck, hip line, or frame separated from structure.', 'Quand vous devez séparer épaule, cou, hip line ou frame de sa structure.'),
     lt(
       `Khuỷu của bạn phải đóng đường escape và nhắm vào ${spec.isolationTarget.vi}. Nếu khuỷu flare sai lúc, họ đưa elbow về ribs hoặc gối vào lại.`,
@@ -172,7 +172,7 @@ const keyDetailsFor = (spec: TechnicalSpec): TechnicalDetail[] => [
   detail(
     `${spec.id}-shoulder-chest`,
     'pressure',
-    lt('Vai và ngực tạo lực chính', 'Shoulder and chest create the main force', 'Épaule et poitrine créent la force principale'),
+    lt(`Vai và ngực tạo lực (${spec.name.vi})`, `Shoulder and chest force (${spec.name.en})`, `Force épaule et poitrine (${spec.name.fr})`),
     lt('Sau khi connection ban đầu đã có nhưng trước khi finish/pass/escape tăng tốc.', 'After initial connection but before the finish, pass, or escape accelerates.', 'Après connexion initiale mais avant accélération du finish/pass/escape.'),
     lt(
       `Vai và ngực phải đi theo ${spec.pressureCue.vi}. Đừng đẩy thẳng xuống nếu kỹ thuật cần angle; đừng squeeze bằng tay khi chest chưa gắn.`,
@@ -194,7 +194,7 @@ const keyDetailsFor = (spec: TechnicalSpec): TechnicalDetail[] => [
   detail(
     `${spec.id}-hip-angle`,
     'angle',
-    lt('Hông tạo angle trước lực', 'Hips create angle before force', 'Les hanches créent angle avant force'),
+    lt(`Hông tạo angle (${spec.name.vi})`, `Hips create angle (${spec.name.en})`, `Hanches créent l'angle (${spec.name.fr})`),
     lt('Khi kỹ thuật bị kẹt dù grip hoặc connection có vẻ đúng.', 'When the technique stalls even though grip or connection looks right.', 'Quand la technique bloque malgré grip ou connexion correcte.'),
     lt(
       `Hông làm theo cue: ${spec.hipCue.vi}. Pelvis không được nằm square nếu kỹ thuật cần xoay hoặc cắt góc.`,
@@ -212,7 +212,7 @@ const keyDetailsFor = (spec: TechnicalSpec): TechnicalDetail[] => [
   detail(
     `${spec.id}-knees-feet`,
     'setup',
-    lt('Gối và bàn chân giữ base', 'Knees and feet keep the base', 'Genoux et pieds gardent la base'),
+    lt(`Gối và bàn chân giữ base (${spec.name.vi})`, `Knees and feet base (${spec.name.en})`, `Base genoux et pieds (${spec.name.fr})`),
     lt('Trong mọi phase đổi hướng, finish, pass hoặc escape.', 'During every phase change, finish, pass, or escape.', 'Pendant chaque changement de phase, finish, pass ou escape.'),
     lt(
       `Gối, shins, heels và toes làm theo ${spec.kneeFootCue.vi}. Nếu feet chết, bạn không thể follow hip line hoặc reset khi bị counter.`,
@@ -230,7 +230,7 @@ const keyDetailsFor = (spec: TechnicalSpec): TechnicalDetail[] => [
   detail(
     `${spec.id}-slack-removal`,
     spec.family === 'submission' ? 'finishing' : 'pressure',
-    lt('Loại bỏ slack trước khi tăng lực', 'Remove slack before adding force', 'Enlever slack avant force'),
+    lt(`Loại bỏ slack (${spec.name.vi})`, `Remove slack (${spec.name.en})`, `Enlever le slack (${spec.name.fr})`),
     lt('Khi bạn cảm thấy vị trí gần xong nhưng đối thủ vẫn thở, xoay hoặc frame được.', 'When the position feels close but the opponent can still breathe, rotate, or frame.', 'Quand la position semble proche mais l’adversaire respire, tourne ou frame encore.'),
     lt(
       `Trước khi finish hoặc advance, kéo khoảng trống ra khỏi ${spec.mainConnection.vi} và giữ ${spec.isolationTarget.vi} bị cô lập.`,
@@ -249,7 +249,7 @@ const keyDetailsFor = (spec: TechnicalSpec): TechnicalDetail[] => [
   detail(
     `${spec.id}-branch-switch`,
     'transition',
-    lt('Biết lúc chuyển nhánh', 'Know when to branch', 'Savoir quand brancher'),
+    lt(`Biết lúc chuyển nhánh (${spec.name.vi})`, `Know when to branch (${spec.name.en})`, `Savoir quand brancher (${spec.name.fr})`),
     lt('Khi đối thủ trả lời đúng hoặc bạn mất một checkpoint chính.', 'When the opponent answers correctly or you lose a main checkpoint.', 'Quand l’adversaire répond bien ou vous perdez un checkpoint clé.'),
     lt(
       `Nếu ${spec.commonEscape.vi}, chuyển sang ${spec.switchCue.vi} thay vì cố ép line cũ.`,
@@ -267,7 +267,7 @@ const keyDetailsFor = (spec: TechnicalSpec): TechnicalDetail[] => [
   detail(
     `${spec.id}-safety-reset`,
     'safety',
-    lt('Reset an toàn', 'Safe reset', 'Reset sûr'),
+    lt(`Reset an toàn (${spec.name.vi})`, `Safe reset (${spec.name.en})`, `Reset sûr (${spec.name.fr})`),
     lt('Khi vị trí chuyển thành lực vào cổ, vai, gối, cổ chân hoặc spine.', 'When the position turns into force on neck, shoulder, knee, ankle, or spine.', 'Quand la position crée force sur cou, épaule, genou, cheville ou colonne.'),
     lt(
       spec.safetySensitive
@@ -377,12 +377,12 @@ const finishingMechanicFor = (spec: TechnicalSpec): FinishingMechanic | undefine
 }
 
 const microAdjustmentsFor = (spec: TechnicalSpec): MicroAdjustment[] => [
-  micro(`${spec.id}-micro-head`, lt('Đầu trôi khỏi line.', 'Head floats off line.', 'Tête flotte hors ligne.'), lt(`Đưa đầu trở lại hỗ trợ ${spec.mainConnection.vi} trước khi dùng tay.`, `Bring the head back to support ${spec.mainConnection.en} before using hands.`, `Ramener tête pour soutenir ${spec.mainConnection.fr} avant mains.`), lt('Đầu gần centerline làm opponent khó xoay hơn.', 'A head close to centerline makes rotation harder.', 'Tête proche centerline rend rotation plus difficile.'), ['head', 'neck'], 'wedge'),
-  micro(`${spec.id}-micro-wrist`, lt('Cổ tay bị gập khi grip.', 'Wrist bends during grip.', 'Poignet plie pendant grip.'), lt('Duỗi cổ tay, kéo elbow về ribs và dùng whole-body connection.', 'Straighten wrist, pull elbow toward ribs, and use whole-body connection.', 'Redresser poignet, coude vers côtes et connexion corps entier.'), lt('Wrist thẳng truyền lực qua forearm thay vì đau bàn tay.', 'A straight wrist transfers force through forearm instead of hurting the hand.', 'Poignet droit transmet force par avant-bras.'), ['wrists', 'forearms', 'elbows'], 'pull_toward_you'),
-  micro(`${spec.id}-micro-hip`, lt('Hips square làm kỹ thuật kẹt.', 'Square hips make the technique stall.', 'Hanches square bloquent technique.'), spec.hipCue, lt('Angle hông đổi hướng lực mà không cần thêm sức.', 'Hip angle changes force direction without adding strength.', 'Angle hanches change direction sans plus de force.'), ['hips', 'pelvis', 'spine'], 'rotate_clockwise'),
-  micro(`${spec.id}-micro-knee`, lt('Gối hoặc foot mất base.', 'Knee or foot loses base.', 'Genou ou pied perd base.'), spec.kneeFootCue, lt('Lower body ổn định cho phép upper body giữ connection mềm.', 'Stable lower body lets upper body keep relaxed connection.', 'Bas du corps stable permet connexion haut du corps relax.'), ['knees', 'feet', 'toes'], 'pin_inward'),
-  micro(`${spec.id}-micro-pressure`, lt('Pressure đi thẳng xuống và bị frame.', 'Pressure goes straight down and gets framed.', 'Pression descend droit et se fait frame.'), spec.pressureCue, lt('Pressure chéo phá shoulder/hip line tốt hơn pressure thẳng.', 'Diagonal pressure breaks shoulder or hip line better than straight pressure.', 'Pression diagonale casse mieux shoulder/hip line.'), ['shoulders', 'chest', 'sternum'], 'drive_diagonal'),
-  micro(`${spec.id}-micro-branch`, lt('Đối thủ phòng thủ đúng và bạn đứng yên.', 'Opponent defends correctly and you freeze.', 'L’adversaire défend bien et vous figez.'), spec.switchCue, lt('Branch đúng giữ initiative mà không cần ép line cũ.', 'Correct branching keeps initiative without forcing the old line.', 'Bonne branche garde initiative sans forcer ancienne ligne.'), ['eyes', 'hands', 'hips'], 'circle_outside'),
+  micro(`${spec.id}-micro-head`, lt(`Đầu trôi khỏi line (${spec.name.vi}).`, `Head floats off line (${spec.name.en}).`, `Tête flotte hors ligne (${spec.name.fr}).`), lt(`Đưa đầu trở lại hỗ trợ ${spec.mainConnection.vi} trước khi dùng tay.`, `Bring the head back to support ${spec.mainConnection.en} before using hands.`, `Ramener tête pour soutenir ${spec.mainConnection.fr} avant mains.`), lt('Đầu gần centerline làm opponent khó xoay hơn.', 'A head close to centerline makes rotation harder.', 'Tête proche centerline rend rotation plus difficile.'), ['head', 'neck'], 'wedge'),
+  micro(`${spec.id}-micro-wrist`, lt(`Cổ tay bị gập khi grip (${spec.name.vi}).`, `Wrist bends during grip (${spec.name.en}).`, `Poignet plie pendant grip (${spec.name.fr}).`), lt('Duỗi cổ tay, kéo elbow về ribs và dùng whole-body connection.', 'Straighten wrist, pull elbow toward ribs, and use whole-body connection.', 'Redresser poignet, coude vers côtes et connexion corps entier.'), lt('Wrist thẳng truyền lực qua forearm thay vì đau bàn tay.', 'A straight wrist transfers force through forearm instead of hurting the hand.', 'Poignet droit transmet force par avant-bras.'), ['wrists', 'forearms', 'elbows'], 'pull_toward_you'),
+  micro(`${spec.id}-micro-hip`, lt(`Hips square làm kỹ thuật kẹt (${spec.name.vi}).`, `Square hips make the technique stall (${spec.name.en}).`, `Hanches square bloquent technique (${spec.name.fr}).`), spec.hipCue, lt('Angle hông đổi hướng lực mà không cần thêm sức.', 'Hip angle changes force direction without adding strength.', 'Angle hanches change direction sans plus de force.'), ['hips', 'pelvis', 'spine'], 'rotate_clockwise'),
+  micro(`${spec.id}-micro-knee`, lt(`Gối hoặc foot mất base (${spec.name.vi}).`, `Knee or foot loses base (${spec.name.en}).`, `Genou ou pied perd base (${spec.name.fr}).`), spec.kneeFootCue, lt('Lower body ổn định cho phép upper body giữ connection mềm.', 'Stable lower body lets upper body keep relaxed connection.', 'Bas du corps stable permet connexion haut du corps relax.'), ['knees', 'feet', 'toes'], 'pin_inward'),
+  micro(`${spec.id}-micro-pressure`, lt(`Pressure đi thẳng xuống và bị frame (${spec.name.vi}).`, `Pressure goes straight down and gets framed (${spec.name.en}).`, `Pression descend droit et se fait frame (${spec.name.fr}).`), spec.pressureCue, lt('Pressure chéo phá shoulder/hip line tốt hơn pressure thẳng.', 'Diagonal pressure breaks shoulder or hip line better than straight pressure.', 'Pression diagonale casse mieux shoulder/hip line.'), ['shoulders', 'chest', 'sternum'], 'drive_diagonal'),
+  micro(`${spec.id}-micro-branch`, lt(`Đối thủ phòng thủ đúng và bạn đứng yên (${spec.name.vi}).`, `Opponent defends correctly and you freeze (${spec.name.en}).`, `L’adversaire défend bien et vous figez (${spec.name.fr}).`), spec.switchCue, lt('Branch đúng giữ initiative mà không cần ép line cũ.', 'Correct branching keeps initiative without forcing the old line.', 'Bonne branche garde initiative sans forcer ancienne ligne.'), ['eyes', 'hands', 'hips'], 'circle_outside'),
 ]
 
 const commonFailuresFor = (spec: TechnicalSpec): LocalizedStringArray =>
