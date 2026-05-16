@@ -1,7 +1,7 @@
 import { useTranslation } from 'react-i18next'
 import { PageShell } from '../components/common/PageShell'
 import { SectionCard } from '../components/common/SectionCard'
-import { ViewModeSwitcher } from '../components/common/ViewModeSwitcher'
+
 import { LanguageSwitcher } from '../components/i18n/LanguageSwitcher'
 import { ExportImportPanel } from '../components/settings/ExportImportPanel'
 import { useSettingsStore } from '../stores/useSettingsStore'
@@ -24,9 +24,7 @@ export default function SettingsPage() {
       <SectionCard title={t('settings.language')}>
         <LanguageSwitcher />
       </SectionCard>
-      <SectionCard title={t('settings.learningDepth')} description={t('settings.learningDepthBody')}>
-        <ViewModeSwitcher />
-      </SectionCard>
+
       <SectionCard title={t('settings.skillMapDefault')}>
         <div className="inline-flex rounded-lg border border-white/10 bg-slate-950/70 p-1">
           {(['cards', 'graph'] as SkillMapView[]).map((view) => (

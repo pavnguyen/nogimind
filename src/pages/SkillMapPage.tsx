@@ -1,10 +1,11 @@
 import { lazy, Suspense, useMemo } from 'react'
-import { useSearchParams } from 'react-router-dom'
+import { Link, useSearchParams } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
+import { ArrowRight } from 'lucide-react'
 import { EmptyState } from '../components/common/EmptyState'
 import { PageShell } from '../components/common/PageShell'
 import { SectionCard } from '../components/common/SectionCard'
-import { PagePurposeBanner } from '../components/learning/PagePurposeBanner'
+
 import { SkillCard } from '../components/skills/SkillCard'
 import { SkillSearchFilters } from '../components/skills/SkillSearchFilters'
 import { skillDomains, skillLevels } from '../data/domains'
@@ -27,7 +28,7 @@ export default function SkillMapPage() {
   const language = useSettingsStore((state) => state.language)
   const defaultView = useSettingsStore((state) => state.skillMapView)
   const skillsQuery = useSkillsQuery()
-  const skills = skillsQuery.data ?? []
+  const skills = useMemo(() => skillsQuery.data ?? [], [skillsQuery.data])
 
   const domain = skillDomains.includes(searchParams.get('domain') as SkillDomain) ? (searchParams.get('domain') as SkillDomain) : ''
   const level = skillLevels.includes(searchParams.get('level') as SkillLevel) ? (searchParams.get('level') as SkillLevel) : ''
@@ -54,14 +55,23 @@ export default function SkillMapPage() {
   )
 
   return (
-    <PageShell title={t('skills.heading')} subtitle={t('skills.subtitle')}>
-      <PagePurposeBanner
-        title={t('skills.heading')}
-        purpose={t('skills.whatFor')}
-        whenToUse={t('skills.whenToUse')}
-        bestNextStepLabel={t('skills.nextStep')}
-        bestNextStepTo="/learn"
-      />
+    <PageShell
+      header={
+        <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
+          <div>
+            <h1 className="text-2xl font-semibold tracking-tight text-white">{t('skills.heading')}</h1>
+            <p className="mt-1 text-sm text-slate-400">{t('skills.subtitle')}</p>
+          </div>
+          <Link
+            to="/learn"
+            className="inline-flex items-center gap-2 rounded-xl border border-cyan-400/20 bg-cyan-400/10 px-4 py-2 text-sm font-medium text-cyan-300 transition-colors hover:bg-cyan-400/20"
+          >
+            {t('skills.nextStep')}
+            <ArrowRight className="h-4 w-4" aria-hidden="true" />
+          </Link>
+        </div>
+      }
+    >
       <SkillSearchFilters skills={skills} />
       {view === 'graph' ? (
         <Suspense fallback={<p className="text-sm text-slate-400">{t('common.loading')}</p>}>

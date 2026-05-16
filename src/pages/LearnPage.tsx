@@ -52,7 +52,7 @@ export default function LearnPage() {
       [
         { title: t('learn.tracks.deep.steps.0.title'), body: t('learn.tracks.deep.steps.0.body'), to: '/skills' },
         { title: t('learn.tracks.deep.steps.1.title'), body: t('learn.tracks.deep.steps.1.body'), to: '/concepts' },
-        { title: t('learn.tracks.deep.steps.3.title'), body: t('learn.tracks.deep.steps.3.body'), to: '/escape-maps' },
+        { title: t('learn.tracks.deep.steps.3.title'), body: t('learn.tracks.deep.steps.3.body'), to: '/skills' },
       ],
       'cyan',
       Sparkles,
