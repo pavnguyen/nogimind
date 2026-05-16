@@ -115,7 +115,8 @@ export const videoReferences: VideoReference[] = [
     "youtubeId": "ce7g__eV5iA",
     "language": "en",
     "relatedSkillIds": [
-      "bodylock-passing"
+      "bodylock-passing",
+      "bodylock-pass"
     ],
     "relatedPositionIds": [
       "butterfly-guard"
@@ -1334,7 +1335,8 @@ export const videoReferences: VideoReference[] = [
     "youtubeId": "n2SKmDoZNDU",
     "language": "en",
     "relatedSkillIds": [
-      "octopus-guard-control"
+      "octopus-guard-control",
+      "octopus-guard-sweep"
     ],
     "relatedPositionIds": [
       "half-guard-bottom"
@@ -1537,7 +1539,8 @@ export const videoReferences: VideoReference[] = [
     "youtubeId": "VtA7LEYkGSk",
     "language": "en",
     "relatedSkillIds": [
-      "bodylock-passing"
+      "bodylock-passing",
+      "bodylock-pass"
     ],
     "techniqueTags": [
       "bodylock",
@@ -2677,7 +2680,10 @@ export const videoReferences: VideoReference[] = [
     "youtubeId": "0pzF4_ltfJQ",
     "language": "en",
     "relatedSkillIds": [
-      "side-control-escape"
+      "side-control-escape",
+      "side-control-survival",
+      "back-survival",
+      "north-south-control"
     ],
     "relatedPositionIds": [
       "side-control-bottom"
@@ -2732,7 +2738,8 @@ export const videoReferences: VideoReference[] = [
     "language": "en",
     "relatedSkillIds": [
       "mount-escape",
-      "s-mount-control"
+      "s-mount-control",
+      "s-mount-armbar"
     ],
     "relatedPositionIds": [
       "mount-bottom"
@@ -2802,60 +2809,6 @@ export const videoReferences: VideoReference[] = [
     "level": "intermediate",
     "whyUseful": {
       "en": "Gordon Ryan provides a detailed breakdown of BJJ Back Control NoGi with GORDON RYAN with practical drilling advice.",
-      "vi": "Gordon Ryan cung cấp phân tích chi tiết với lời khuyên tập luyện thực tế.",
-      "fr": "Gordon Ryan fournit une analyse detaillee avec des conseils pratiques."
-    },
-    "whatToWatchFor": {
-      "en": [
-        "Body positioning and weight distribution",
-        "Grip control and placement",
-        "Finishing mechanics",
-        "Common mistakes to avoid"
-      ],
-      "vi": [
-        "Positioning cơ thể và phân bổ trọng lượng",
-        "Kiểm soát grip và đặt tay",
-        "Mechanics hoàn thiện",
-        "Lỗi thường gặp cần tránh"
-      ],
-      "fr": [
-        "Positionnement du corps et repartition du poids",
-        "Controle et placement des grips",
-        "Mecanique de finition",
-        "Erreurs courantes a eviter"
-      ]
-    },
-    "sourceNote": "Curated from bjj.tips public YouTube listings."
-  },
-  {
-    "id": "bjj-gordon-ryan-vi5nwbu4",
-    "provider": "youtube",
-    "title": {
-      "en": "Gordon Ryan And Nicholas Meregali Teach Some Differences Between Jiu Jitsu With Gi And No Gi",
-      "vi": "Gordon Ryan And Nicholas Meregali Teach Some Differences Between Jiu Jitsu With Gi And No Gi (phân tích)",
-      "fr": "Gordon Ryan And Nicholas Meregali Teach Some Differences Between Jiu Jitsu With Gi And No Gi (analyse)"
-    },
-    "channelName": "Gordon Ryan",
-    "url": "https://www.youtube.com/watch?v=vi5nPVKwbu4",
-    "embedUrl": "https://www.youtube.com/embed/vi5nPVKwbu4",
-    "youtubeId": "vi5nPVKwbu4",
-    "language": "en",
-    "relatedSkillIds": [
-      "back-control"
-    ],
-    "relatedPositionIds": [
-      "back-control-position"
-    ],
-    "techniqueTags": [
-      "back-control",
-      "back-take",
-      "control",
-      "seatbelt"
-    ],
-    "relevance": "primary_reference",
-    "level": "intermediate",
-    "whyUseful": {
-      "en": "Gordon Ryan provides a detailed breakdown of Gordon Ryan And Nicholas Meregali Teach Some Differences Between Jiu Jitsu With Gi And No Gi with practical drilling advice.",
       "vi": "Gordon Ryan cung cấp phân tích chi tiết với lời khuyên tập luyện thực tế.",
       "fr": "Gordon Ryan fournit une analyse detaillee avec des conseils pratiques."
     },
@@ -3184,7 +3137,8 @@ export const videoReferences: VideoReference[] = [
     "youtubeId": "r-FNcolHsg4",
     "language": "en",
     "relatedSkillIds": [
-      "bodylock-passing"
+      "bodylock-passing",
+      "bodylock-pass"
     ],
     "techniqueTags": [
       "bodylock",
@@ -4154,7 +4108,9 @@ export const videoReferences: VideoReference[] = [
     "youtubeId": "58ItAArEM4s",
     "language": "en",
     "relatedSkillIds": [
-      "armbar-system"
+      "armbar-system",
+      "closed-guard-posture-control",
+      "closed-guard-sweeps"
     ],
     "techniqueTags": [
       "armbar",
@@ -5218,114 +5174,6 @@ export const videoReferences: VideoReference[] = [
     "sourceNote": "Curated from bjj.tips public YouTube listings."
   },
   {
-    "id": "bjj-back-control-w5zck",
-    "provider": "youtube",
-    "title": {
-      "en": "Back take with a few wrist locks on the way bjj nogi or gi",
-      "vi": "Back take with a few wrist locks on thể way bjj nogi or gi (phân tích)",
-      "fr": "Back take with a few wrist locks on the way bjj nogi or gi (analyse)"
-    },
-    "channelName": "Rufus & Race Ambler",
-    "url": "https://www.youtube.com/watch?v=PKwB5zMckPA",
-    "embedUrl": "https://www.youtube.com/embed/PKwB5zMckPA",
-    "youtubeId": "PKwB5zMckPA",
-    "language": "en",
-    "relatedSkillIds": [
-      "back-control"
-    ],
-    "relatedPositionIds": [
-      "back-control-position"
-    ],
-    "techniqueTags": [
-      "back-control",
-      "back-take",
-      "control",
-      "seatbelt"
-    ],
-    "relevance": "primary_reference",
-    "level": "intermediate",
-    "whyUseful": {
-      "en": "Back Control provides a detailed breakdown of Back take with a few wrist locks on the way bjj nogi or gi with practical drilling advice.",
-      "vi": "Back Control cung cấp phân tích chi tiết với lời khuyên tập luyện thực tế.",
-      "fr": "Back Control fournit une analyse detaillee avec des conseils pratiques."
-    },
-    "whatToWatchFor": {
-      "en": [
-        "Body positioning and weight distribution",
-        "Grip control and placement",
-        "Finishing mechanics",
-        "Common mistakes to avoid"
-      ],
-      "vi": [
-        "Positioning cơ thể và phân bổ trọng lượng",
-        "Kiểm soát grip và đặt tay",
-        "Mechanics hoàn thiện",
-        "Lỗi thường gặp cần tránh"
-      ],
-      "fr": [
-        "Positionnement du corps et repartition du poids",
-        "Controle et placement des grips",
-        "Mecanique de finition",
-        "Erreurs courantes a eviter"
-      ]
-    },
-    "sourceNote": "Curated from bjj.tips public YouTube listings."
-  },
-  {
-    "id": "bjj-back-control-d8wr9",
-    "provider": "youtube",
-    "title": {
-      "en": "2 Hacks To Keep Back Control",
-      "vi": "2 Hacks To Keep Back Control (phân tích)",
-      "fr": "2 Hacks To Keep Back Control (analyse)"
-    },
-    "channelName": "The Grappling Academy",
-    "url": "https://www.youtube.com/watch?v=NdOA8wrM9BA",
-    "embedUrl": "https://www.youtube.com/embed/NdOA8wrM9BA",
-    "youtubeId": "NdOA8wrM9BA",
-    "language": "en",
-    "relatedSkillIds": [
-      "back-control"
-    ],
-    "relatedPositionIds": [
-      "back-control-position"
-    ],
-    "techniqueTags": [
-      "back-control",
-      "back-take",
-      "control",
-      "seatbelt"
-    ],
-    "relevance": "primary_reference",
-    "level": "intermediate",
-    "whyUseful": {
-      "en": "Back Control provides a detailed breakdown of 2 Hacks To Keep Back Control with practical drilling advice.",
-      "vi": "Back Control cung cấp phân tích chi tiết với lời khuyên tập luyện thực tế.",
-      "fr": "Back Control fournit une analyse detaillee avec des conseils pratiques."
-    },
-    "whatToWatchFor": {
-      "en": [
-        "Body positioning and weight distribution",
-        "Grip control and placement",
-        "Finishing mechanics",
-        "Common mistakes to avoid"
-      ],
-      "vi": [
-        "Positioning cơ thể và phân bổ trọng lượng",
-        "Kiểm soát grip và đặt tay",
-        "Mechanics hoàn thiện",
-        "Lỗi thường gặp cần tránh"
-      ],
-      "fr": [
-        "Positionnement du corps et repartition du poids",
-        "Controle et placement des grips",
-        "Mecanique de finition",
-        "Erreurs courantes a eviter"
-      ]
-    },
-    "sourceNote": "Curated from bjj.tips public YouTube listings."
-  },
-  {
     "id": "bjj-closed-guard-oxsu5k3q0",
     "provider": "youtube",
     "title": {
@@ -5881,56 +5729,6 @@ export const videoReferences: VideoReference[] = [
     "sourceNote": "Curated from bjj.tips public YouTube listings."
   },
   {
-    "id": "bjj-mount-5bowg",
-    "provider": "youtube",
-    "title": {
-      "en": "Mount Survival And Escape Guide",
-      "vi": "Mount Survival And Escape Guide (phân tích)",
-      "fr": "Mount Survival And Escape Guide (analyse)"
-    },
-    "channelName": "The Grappling Academy",
-    "url": "https://www.youtube.com/watch?v=AANM5boHwSg",
-    "embedUrl": "https://www.youtube.com/embed/AANM5boHwSg",
-    "youtubeId": "AANM5boHwSg",
-    "language": "en",
-    "relatedSkillIds": [
-      "mount-control"
-    ],
-    "techniqueTags": [
-      "control",
-      "mount",
-      "pressure"
-    ],
-    "relevance": "supplemental",
-    "level": "intermediate",
-    "whyUseful": {
-      "en": "Mount provides a detailed breakdown of Mount Survival And Escape Guide with practical drilling advice.",
-      "vi": "Mount cung cấp phân tích chi tiết với lời khuyên tập luyện thực tế.",
-      "fr": "Mount fournit une analyse detaillee avec des conseils pratiques."
-    },
-    "whatToWatchFor": {
-      "en": [
-        "Body positioning and weight distribution",
-        "Grip control and placement",
-        "Finishing mechanics",
-        "Common mistakes to avoid"
-      ],
-      "vi": [
-        "Positioning cơ thể và phân bổ trọng lượng",
-        "Kiểm soát grip và đặt tay",
-        "Mechanics hoàn thiện",
-        "Lỗi thường gặp cần tránh"
-      ],
-      "fr": [
-        "Positionnement du corps et repartition du poids",
-        "Controle et placement des grips",
-        "Mecanique de finition",
-        "Erreurs courantes a eviter"
-      ]
-    },
-    "sourceNote": "Curated from bjj.tips public YouTube listings."
-  },
-  {
     "id": "bjj-side-control-a7o8",
     "provider": "youtube",
     "title": {
@@ -6401,60 +6199,6 @@ export const videoReferences: VideoReference[] = [
       "en": "Turtle provides a detailed breakdown of How to Pass Turtle Guard with Crab Ride #nogi #bjj with practical drilling advice.",
       "vi": "Turtle cung cấp phân tích chi tiết với lời khuyên tập luyện thực tế.",
       "fr": "Turtle fournit une analyse detaillee avec des conseils pratiques."
-    },
-    "whatToWatchFor": {
-      "en": [
-        "Body positioning and weight distribution",
-        "Grip control and placement",
-        "Finishing mechanics",
-        "Common mistakes to avoid"
-      ],
-      "vi": [
-        "Positioning cơ thể và phân bổ trọng lượng",
-        "Kiểm soát grip và đặt tay",
-        "Mechanics hoàn thiện",
-        "Lỗi thường gặp cần tránh"
-      ],
-      "fr": [
-        "Positionnement du corps et repartition du poids",
-        "Controle et placement des grips",
-        "Mecanique de finition",
-        "Erreurs courantes a eviter"
-      ]
-    },
-    "sourceNote": "Curated from bjj.tips public YouTube listings."
-  },
-  {
-    "id": "bjj-butterfly-guard--wftg6jm3",
-    "provider": "youtube",
-    "title": {
-      "en": "Butterfly Guard Guide In Gi &amp; Nogi | BJJ Fundamentals",
-      "vi": "Butterfly Guard Guide In Gi &amp; Nogi | BJJ Fundamentals (phân tích)",
-      "fr": "Butterfly Guard Guide In Gi &amp; Nogi | BJJ Fundamentals (analyse)"
-    },
-    "channelName": "Jordan Teaches Jiujitsu",
-    "url": "https://www.youtube.com/watch?v=-wftJg6jm3E",
-    "embedUrl": "https://www.youtube.com/embed/-wftJg6jm3E",
-    "youtubeId": "-wftJg6jm3E",
-    "language": "en",
-    "relatedSkillIds": [
-      "butterfly-guard-off-balance"
-    ],
-    "relatedPositionIds": [
-      "butterfly-guard"
-    ],
-    "techniqueTags": [
-      "butterfly-guard",
-      "guard-system",
-      "off-balance",
-      "sweep"
-    ],
-    "relevance": "primary_reference",
-    "level": "intermediate",
-    "whyUseful": {
-      "en": "Butterfly Guard provides a detailed breakdown of Butterfly Guard Guide In Gi &amp; Nogi | BJJ Fundamentals with practical drilling advice.",
-      "vi": "Butterfly Guard cung cấp phân tích chi tiết với lời khuyên tập luyện thực tế.",
-      "fr": "Butterfly Guard fournit une analyse detaillee avec des conseils pratiques."
     },
     "whatToWatchFor": {
       "en": [
@@ -7211,7 +6955,8 @@ export const videoReferences: VideoReference[] = [
     "youtubeId": "qq3ArezY0Ng",
     "language": "en",
     "relatedSkillIds": [
-      "guillotine-system"
+      "guillotine-system",
+      "high-wrist-guillotine"
     ],
     "relatedPositionIds": [
       "front-headlock-top"
@@ -9125,5 +8870,2453 @@ export const videoReferences: VideoReference[] = [
       ]
     },
     "sourceNote": "Curated from bjj.tips public YouTube listings."
+  },
+  {
+    "id": "gordon-ryan-best-way-control-mount",
+    "provider": "youtube",
+    "title": {
+      "en": "Best Way To Control The Mount In Jiu Jitsu by Gordon Ryan",
+      "vi": "Gordon Ryan: cách kiểm soát mount hiệu quả",
+      "fr": "Gordon Ryan : meilleure façon de contrôler la mount"
+    },
+    "channelName": "Bernardo Faria BJJ Fanatics",
+    "url": "https://www.youtube.com/watch?v=kft2AkvKhWU",
+    "embedUrl": "https://www.youtube.com/embed/kft2AkvKhWU",
+    "youtubeId": "kft2AkvKhWU",
+    "language": "en",
+    "relatedSkillIds": [
+      "mount-control"
+    ],
+    "relatedPositionIds": [
+      "mount-top"
+    ],
+    "techniqueTags": [
+      "mount",
+      "mount-control",
+      "no-gi",
+      "pressure",
+      "hand-fighting"
+    ],
+    "relevance": "primary_reference",
+    "level": "intermediate",
+    "whyUseful": {
+      "en": "Gordon Ryan explains no-gi mount control using hand position, pressure, and predictable reactions instead of fabric grips.",
+      "vi": "Gordon Ryan giải thích kiểm soát mount no-gi bằng vị trí tay, áp lực và phản ứng dự đoán được thay vì grip áo.",
+      "fr": "Gordon Ryan explique le contrôle mount no-gi avec position des mains, pression et réactions prévisibles plutôt que grips tissu."
+    },
+    "whatToWatchFor": {
+      "en": [
+        "Cross hand control without cloth grips",
+        "Weight distribution through hips and knees",
+        "How bottom reactions expose arms",
+        "Staying stable before attacking"
+      ],
+      "vi": [
+        "Kiểm soát tay chéo không cần grip áo",
+        "Phân bổ trọng lượng qua hông và gối",
+        "Cách phản ứng của bottom lộ tay",
+        "Ổn định trước khi tấn công"
+      ],
+      "fr": [
+        "Contrôle croisé sans grip tissu",
+        "Distribution du poids par hanches et genoux",
+        "Réactions bottom qui exposent les bras",
+        "Stabiliser avant attaque"
+      ]
+    },
+    "sourceNote": "No-Gi mount control reference found through White Belt Club and BJJ.Tips mount listings."
+  },
+  {
+    "id": "gordon-ryan-never-lose-mount",
+    "provider": "youtube",
+    "title": {
+      "en": "How to Never Lose the Mount Position by Gordon Ryan",
+      "vi": "Gordon Ryan: cách không mất mount position",
+      "fr": "Gordon Ryan : comment ne pas perdre la mount"
+    },
+    "channelName": "Gordon Ryan",
+    "url": "https://www.youtube.com/watch?v=zQbkvb_hkwY",
+    "embedUrl": "https://www.youtube.com/embed/zQbkvb_hkwY",
+    "youtubeId": "zQbkvb_hkwY",
+    "language": "en",
+    "relatedSkillIds": [
+      "mount-control"
+    ],
+    "relatedPositionIds": [
+      "mount-top"
+    ],
+    "techniqueTags": [
+      "mount",
+      "mount-control",
+      "no-gi",
+      "retention",
+      "hand-fighting"
+    ],
+    "relevance": "primary_reference",
+    "level": "intermediate",
+    "whyUseful": {
+      "en": "A no-gi focused mount retention reference for stopping escape cycles before chasing submissions.",
+      "vi": "Tham khảo no-gi về giữ mount và chặn chu kỳ escape trước khi săn submission.",
+      "fr": "Référence no-gi pour conserver la mount et stopper les cycles de sortie avant de chasser la soumission."
+    },
+    "whatToWatchFor": {
+      "en": [
+        "Pinning the hand before it frames",
+        "Following hip movement",
+        "Separating elbow from ribs",
+        "Returning to control when attacks fail"
+      ],
+      "vi": [
+        "Pin tay trước khi họ frame",
+        "Theo chuyển động hông",
+        "Tách khuỷu khỏi sườn",
+        "Quay lại control khi attack hụt"
+      ],
+      "fr": [
+        "Bloquer la main avant le frame",
+        "Suivre les hanches",
+        "Séparer coude et côtes",
+        "Revenir au contrôle si attaque échoue"
+      ]
+    },
+    "sourceNote": "No-Gi mount control reference from Gordon Ryan public YouTube listing."
+  },
+  {
+    "id": "brian-glick-gift-wrap-no-gi",
+    "provider": "youtube",
+    "title": {
+      "en": "The Gift Wrap in 2 Minutes - No GI BJJ",
+      "vi": "Gift wrap no-gi trong 2 phút",
+      "fr": "Gift wrap no-gi en 2 minutes"
+    },
+    "channelName": "Brian Glick",
+    "url": "https://www.youtube.com/watch?v=0t2Y-T6dFi0",
+    "embedUrl": "https://www.youtube.com/embed/0t2Y-T6dFi0",
+    "youtubeId": "0t2Y-T6dFi0",
+    "language": "en",
+    "relatedSkillIds": [
+      "mount-control",
+      "s-mount-control"
+    ],
+    "relatedPositionIds": [
+      "mount-top"
+    ],
+    "techniqueTags": [
+      "mount",
+      "gift-wrap",
+      "no-gi",
+      "arm-isolation"
+    ],
+    "relevance": "supplemental",
+    "level": "intermediate",
+    "whyUseful": {
+      "en": "Brian Glick shows a clear no-gi gift-wrap control that connects mount stability to back takes and arm isolation.",
+      "vi": "Brian Glick trình bày gift-wrap no-gi rõ ràng, nối kiểm soát mount với back take và cô lập tay.",
+      "fr": "Brian Glick montre un gift-wrap no-gi clair reliant stabilité mount, prises de dos et isolation du bras."
+    },
+    "whatToWatchFor": {
+      "en": [
+        "Wrist control without sleeves",
+        "Knee position near the shoulder",
+        "Preventing leg capture",
+        "Back-take or submission branches"
+      ],
+      "vi": [
+        "Kiểm soát cổ tay không cần tay áo",
+        "Vị trí gối gần vai",
+        "Không để chân bị bắt",
+        "Nhánh back-take hoặc submission"
+      ],
+      "fr": [
+        "Contrôle poignet sans manches",
+        "Genou près de l’épaule",
+        "Éviter la capture de jambe",
+        "Branches dos ou soumission"
+      ]
+    },
+    "sourceNote": "No-Gi BJJ mount/gift-wrap reference from Brian Glick public YouTube listing."
+  },
+  {
+    "id": "brian-glick-ibjjf-legal-ankle-lock-system",
+    "provider": "youtube",
+    "title": {
+      "en": "The IBJJF Legal Ankle Lock System",
+      "vi": "Hệ thống ankle lock hợp lệ IBJJF",
+      "fr": "Système ankle lock légal IBJJF"
+    },
+    "channelName": "Brian Glick",
+    "url": "https://www.youtube.com/watch?v=W1SAJqqZFdI",
+    "embedUrl": "https://www.youtube.com/embed/W1SAJqqZFdI",
+    "youtubeId": "W1SAJqqZFdI",
+    "language": "en",
+    "relatedSkillIds": [
+      "straight-ankle-lock-safety",
+      "leg-lock-safety-basics",
+      "single-leg-x-basics"
+    ],
+    "relatedPositionIds": [
+      "outside-ashi",
+      "single-leg-x"
+    ],
+    "techniqueTags": [
+      "straight-ankle-lock",
+      "ankle-lock",
+      "leg-lock",
+      "butterfly-ashi",
+      "knee-line",
+      "ruleset-safety"
+    ],
+    "relevance": "safety_reference",
+    "level": "intermediate",
+    "whyUseful": {
+      "en": "Brian Glick focuses on a ruleset-safe straight ankle lock structure, with butterfly ashi positioning and no-reap decision making.",
+      "vi": "Brian Glick tập trung vào cấu trúc straight ankle lock an toàn theo luật, với butterfly ashi và quyết định không reap.",
+      "fr": "Brian Glick détaille une structure de straight ankle lock sûre selon les règles, avec butterfly ashi et décisions sans reap."
+    },
+    "whatToWatchFor": {
+      "en": [
+        "Knee line position before finishing",
+        "Butterfly ashi without reaping",
+        "Foot placement on the hip line",
+        "Resetting when the knee escapes"
+      ],
+      "vi": [
+        "Vị trí knee line trước khi finish",
+        "Butterfly ashi không reap",
+        "Đặt chân trên hip line",
+        "Reset khi knee line thoát"
+      ],
+      "fr": [
+        "Position de knee line avant finition",
+        "Butterfly ashi sans reap",
+        "Placement du pied sur hip line",
+        "Reset quand la knee line sort"
+      ]
+    },
+    "caution": {
+      "en": "Straight ankle locks still injure ankles and knees when rushed. Increase pressure slowly and release immediately on tap or unclear knee rotation.",
+      "vi": "Straight ankle lock vẫn có thể làm đau cổ chân và gối nếu vội. Tăng lực chậm và thả ngay khi tap hoặc hướng xoay gối không rõ.",
+      "fr": "Les straight ankle locks peuvent blesser cheville et genou si elles sont forcées. Augmentez lentement et relâchez au tap ou rotation floue."
+    },
+    "sourceNote": "Public YouTube reference selected for straight ankle lock safety and ruleset awareness."
+  },
+  {
+    "id": "lachlan-giles-straight-ankle-locks",
+    "provider": "youtube",
+    "title": {
+      "en": "Straight ankle locks (Lachlan Giles)",
+      "vi": "Straight ankle locks với Lachlan Giles",
+      "fr": "Straight ankle locks avec Lachlan Giles"
+    },
+    "channelName": "Lachlan Giles",
+    "url": "https://www.youtube.com/watch?v=cmimzr_oNbw",
+    "embedUrl": "https://www.youtube.com/embed/cmimzr_oNbw",
+    "youtubeId": "cmimzr_oNbw",
+    "language": "en",
+    "relatedSkillIds": [
+      "straight-ankle-lock-safety",
+      "single-leg-x-basics"
+    ],
+    "relatedPositionIds": [
+      "single-leg-x",
+      "outside-ashi"
+    ],
+    "techniqueTags": [
+      "straight-ankle-lock",
+      "ankle-lock",
+      "single-leg-x",
+      "leg-lock",
+      "knee-line"
+    ],
+    "relevance": "primary_reference",
+    "level": "intermediate",
+    "whyUseful": {
+      "en": "Lachlan Giles breaks down straight ankle lock control, common defenses, and how to keep the finish structured instead of cranking.",
+      "vi": "Lachlan Giles phân tích control straight ankle lock, các defense thường gặp và cách giữ finish có cấu trúc thay vì crank.",
+      "fr": "Lachlan Giles analyse le contrôle du straight ankle lock, les défenses communes et une finition structurée sans forcer."
+    },
+    "whatToWatchFor": {
+      "en": [
+        "Control before extension",
+        "How the defender clears the knee line",
+        "Grip placement on the ankle line",
+        "Countering common escapes safely"
+      ],
+      "vi": [
+        "Control trước khi extension",
+        "Cách defender clear knee line",
+        "Đặt grip trên ankle line",
+        "Counter escape phổ biến an toàn"
+      ],
+      "fr": [
+        "Contrôle avant extension",
+        "Comment le défenseur sort la knee line",
+        "Placement grip sur ankle line",
+        "Contrer les sorties communes en sécurité"
+      ]
+    },
+    "caution": {
+      "en": "Use this as a mechanics reference, not permission to crank. Drill slowly and stop as soon as the defender taps or loses safe knee alignment.",
+      "vi": "Dùng video này làm tham khảo mechanics, không phải để crank. Drill chậm và dừng ngay khi defender tap hoặc mất alignment gối an toàn.",
+      "fr": "Utilisez comme référence mécanique, pas pour forcer. Travaillez lentement et stoppez au tap ou perte d’alignement genou."
+    },
+    "sourceNote": "Public YouTube reference found through BJJ.Tips and BJJUniversity straight ankle lock listings."
+  },
+  {
+    "id": "gordon-no-gi-guard-retention-positions",
+    "provider": "youtube",
+    "title": {
+      "en": "Understanding Guard Retention From The Most Important Positions In Jiu Jitsu No Gi",
+      "vi": "Understanding Guard Retention From The Most Important Positions In Jiu Jitsu No Gi",
+      "fr": "Understanding Guard Retention From The Most Important Positions In Jiu Jitsu No Gi"
+    },
+    "channelName": "Gordon Ryan",
+    "url": "https://www.youtube.com/watch?v=bgPIcInPg-A",
+    "embedUrl": "https://www.youtube.com/embed/bgPIcInPg-A",
+    "youtubeId": "bgPIcInPg-A",
+    "language": "en",
+    "relatedSkillIds": [
+      "seated-guard-retention",
+      "supine-guard-retention",
+      "guard-pulling-strategy"
+    ],
+    "relatedPositionIds": [
+      "open-guard"
+    ],
+    "techniqueTags": [
+      "no-gi",
+      "guard-retention",
+      "seated-guard",
+      "supine-guard"
+    ],
+    "relevance": "primary_reference",
+    "level": "intermediate",
+    "whyUseful": {
+      "en": "Shows the core No-Gi guard retention layers NoGiMind uses for seated and supine recovery.",
+      "vi": "Shows the core No-Gi guard retention layers NoGiMind uses for seated and supine recovery.",
+      "fr": "Shows the core No-Gi guard retention layers NoGiMind uses for seated and supine recovery."
+    },
+    "whatToWatchFor": {
+      "en": [
+        "Connection before force",
+        "Body position and angle",
+        "Transition timing",
+        "Safe controlled finish"
+      ],
+      "vi": [
+        "Connection before force",
+        "Body position and angle",
+        "Transition timing",
+        "Safe controlled finish"
+      ],
+      "fr": [
+        "Connection before force",
+        "Body position and angle",
+        "Transition timing",
+        "Safe controlled finish"
+      ]
+    },
+    "sourceNote": "Public YouTube No-Gi reference selected for NoGiMind coverage expansion."
+  },
+  {
+    "id": "brian-glick-bad-flexibility-guard-retention",
+    "provider": "youtube",
+    "title": {
+      "en": "How People With Bad Flexibility Retain Guard (NoGi BJJ)",
+      "vi": "How People With Bad Flexibility Retain Guard (NoGi BJJ)",
+      "fr": "How People With Bad Flexibility Retain Guard (NoGi BJJ)"
+    },
+    "channelName": "Brian Glick",
+    "url": "https://www.youtube.com/watch?v=LzjwOxqFkK8",
+    "embedUrl": "https://www.youtube.com/embed/LzjwOxqFkK8",
+    "youtubeId": "LzjwOxqFkK8",
+    "language": "en",
+    "relatedSkillIds": [
+      "seated-guard-retention",
+      "supine-guard-retention",
+      "frames-pummeling"
+    ],
+    "relatedPositionIds": [
+      "open-guard"
+    ],
+    "techniqueTags": [
+      "no-gi",
+      "guard-retention",
+      "frames",
+      "hip-movement"
+    ],
+    "relevance": "supplemental",
+    "level": "beginner",
+    "whyUseful": {
+      "en": "Useful No-Gi public YouTube reference for this NoGiMind skill.",
+      "vi": "Useful No-Gi public YouTube reference for this NoGiMind skill.",
+      "fr": "Useful No-Gi public YouTube reference for this NoGiMind skill."
+    },
+    "whatToWatchFor": {
+      "en": [
+        "Connection before force",
+        "Body position and angle",
+        "Transition timing",
+        "Safe controlled finish"
+      ],
+      "vi": [
+        "Connection before force",
+        "Body position and angle",
+        "Transition timing",
+        "Safe controlled finish"
+      ],
+      "fr": [
+        "Connection before force",
+        "Body position and angle",
+        "Transition timing",
+        "Safe controlled finish"
+      ]
+    },
+    "sourceNote": "Public YouTube No-Gi reference selected for NoGiMind coverage expansion."
+  },
+  {
+    "id": "john-danaher-guard-retention-theory",
+    "provider": "youtube",
+    "title": {
+      "en": "Guard Retention Theory by John Danaher",
+      "vi": "Guard Retention Theory by John Danaher",
+      "fr": "Guard Retention Theory by John Danaher"
+    },
+    "channelName": "John Danaher",
+    "url": "https://www.youtube.com/watch?v=Psp1we_mMd8",
+    "embedUrl": "https://www.youtube.com/embed/Psp1we_mMd8",
+    "youtubeId": "Psp1we_mMd8",
+    "language": "en",
+    "relatedSkillIds": [
+      "positional-hierarchy",
+      "inside-position",
+      "seated-guard-retention",
+      "supine-guard-retention"
+    ],
+    "relatedPositionIds": [
+      "open-guard"
+    ],
+    "techniqueTags": [
+      "no-gi",
+      "guard-retention",
+      "inside-position",
+      "positional-hierarchy"
+    ],
+    "relevance": "conceptual",
+    "level": "intermediate",
+    "whyUseful": {
+      "en": "Useful No-Gi public YouTube reference for this NoGiMind skill.",
+      "vi": "Useful No-Gi public YouTube reference for this NoGiMind skill.",
+      "fr": "Useful No-Gi public YouTube reference for this NoGiMind skill."
+    },
+    "whatToWatchFor": {
+      "en": [
+        "Connection before force",
+        "Body position and angle",
+        "Transition timing",
+        "Safe controlled finish"
+      ],
+      "vi": [
+        "Connection before force",
+        "Body position and angle",
+        "Transition timing",
+        "Safe controlled finish"
+      ],
+      "fr": [
+        "Connection before force",
+        "Body position and angle",
+        "Transition timing",
+        "Safe controlled finish"
+      ]
+    },
+    "sourceNote": "Public YouTube No-Gi reference selected for NoGiMind coverage expansion."
+  },
+  {
+    "id": "craig-jones-omoplata-opens-legs",
+    "provider": "youtube",
+    "title": {
+      "en": "Omoplata Opens To Legs by Craig Jones",
+      "vi": "Omoplata Opens To Legs by Craig Jones",
+      "fr": "Omoplata Opens To Legs by Craig Jones"
+    },
+    "channelName": "Craig Jones",
+    "url": "https://www.youtube.com/watch?v=6XlF5PFHaA0",
+    "embedUrl": "https://www.youtube.com/embed/6XlF5PFHaA0",
+    "youtubeId": "6XlF5PFHaA0",
+    "language": "en",
+    "relatedSkillIds": [
+      "omoplata-system",
+      "k-guard-entry"
+    ],
+    "relatedPositionIds": [
+      "closed-guard",
+      "open-guard"
+    ],
+    "techniqueTags": [
+      "no-gi",
+      "omoplata",
+      "leg-lock",
+      "k-guard",
+      "submission-chain"
+    ],
+    "relevance": "primary_reference",
+    "level": "advanced",
+    "whyUseful": {
+      "en": "Useful No-Gi public YouTube reference for this NoGiMind skill.",
+      "vi": "Useful No-Gi public YouTube reference for this NoGiMind skill.",
+      "fr": "Useful No-Gi public YouTube reference for this NoGiMind skill."
+    },
+    "whatToWatchFor": {
+      "en": [
+        "Connection before force",
+        "Body position and angle",
+        "Transition timing",
+        "Safe controlled finish"
+      ],
+      "vi": [
+        "Connection before force",
+        "Body position and angle",
+        "Transition timing",
+        "Safe controlled finish"
+      ],
+      "fr": [
+        "Connection before force",
+        "Body position and angle",
+        "Transition timing",
+        "Safe controlled finish"
+      ]
+    },
+    "sourceNote": "Public YouTube No-Gi reference selected for NoGiMind coverage expansion.",
+    "caution": {
+      "en": "Leg entanglements can injure knees quickly. Drill slowly, communicate clearly, and tap early.",
+      "vi": "Leg entanglements can injure knees quickly. Drill slowly, communicate clearly, and tap early.",
+      "fr": "Leg entanglements can injure knees quickly. Drill slowly, communicate clearly, and tap early."
+    }
+  },
+  {
+    "id": "ryan-hall-omoplata-front-headlock",
+    "provider": "youtube",
+    "title": {
+      "en": "Omoplata to Front Headlock by Ryan Hall",
+      "vi": "Omoplata to Front Headlock by Ryan Hall",
+      "fr": "Omoplata to Front Headlock by Ryan Hall"
+    },
+    "channelName": "Ryan Hall",
+    "url": "https://www.youtube.com/watch?v=D4qGTP_xWjY",
+    "embedUrl": "https://www.youtube.com/embed/D4qGTP_xWjY",
+    "youtubeId": "D4qGTP_xWjY",
+    "language": "en",
+    "relatedSkillIds": [
+      "omoplata-system",
+      "snapdown-front-headlock",
+      "fhl-go-behind"
+    ],
+    "relatedPositionIds": [
+      "front-headlock",
+      "open-guard"
+    ],
+    "techniqueTags": [
+      "no-gi",
+      "omoplata",
+      "front-headlock",
+      "go-behind"
+    ],
+    "relevance": "supplemental",
+    "level": "intermediate",
+    "whyUseful": {
+      "en": "Useful No-Gi public YouTube reference for this NoGiMind skill.",
+      "vi": "Useful No-Gi public YouTube reference for this NoGiMind skill.",
+      "fr": "Useful No-Gi public YouTube reference for this NoGiMind skill."
+    },
+    "whatToWatchFor": {
+      "en": [
+        "Connection before force",
+        "Body position and angle",
+        "Transition timing",
+        "Safe controlled finish"
+      ],
+      "vi": [
+        "Connection before force",
+        "Body position and angle",
+        "Transition timing",
+        "Safe controlled finish"
+      ],
+      "fr": [
+        "Connection before force",
+        "Body position and angle",
+        "Transition timing",
+        "Safe controlled finish"
+      ]
+    },
+    "sourceNote": "Public YouTube No-Gi reference selected for NoGiMind coverage expansion.",
+    "caution": {
+      "en": "Neck and airway pressure can escalate fast. Apply gradually and release immediately on tap or discomfort.",
+      "vi": "Neck and airway pressure can escalate fast. Apply gradually and release immediately on tap or discomfort.",
+      "fr": "Neck and airway pressure can escalate fast. Apply gradually and release immediately on tap or discomfort."
+    }
+  },
+  {
+    "id": "brian-glick-clamp-guard-nogi",
+    "provider": "youtube",
+    "title": {
+      "en": "Use The Clamp Guard to Make Your Opponent Question Their Life Choices (No-Gi BJJ)",
+      "vi": "Use The Clamp Guard to Make Your Opponent Question Their Life Choices (No-Gi BJJ)",
+      "fr": "Use The Clamp Guard to Make Your Opponent Question Their Life Choices (No-Gi BJJ)"
+    },
+    "channelName": "Brian Glick",
+    "url": "https://www.youtube.com/watch?v=o01izcW5KIw",
+    "embedUrl": "https://www.youtube.com/embed/o01izcW5KIw",
+    "youtubeId": "o01izcW5KIw",
+    "language": "en",
+    "relatedSkillIds": [
+      "clamp-guard-control",
+      "triangle-system",
+      "omoplata-system"
+    ],
+    "relatedPositionIds": [
+      "closed-guard"
+    ],
+    "techniqueTags": [
+      "no-gi",
+      "clamp-guard",
+      "triangle",
+      "omoplata"
+    ],
+    "relevance": "primary_reference",
+    "level": "intermediate",
+    "whyUseful": {
+      "en": "Useful No-Gi public YouTube reference for this NoGiMind skill.",
+      "vi": "Useful No-Gi public YouTube reference for this NoGiMind skill.",
+      "fr": "Useful No-Gi public YouTube reference for this NoGiMind skill."
+    },
+    "whatToWatchFor": {
+      "en": [
+        "Connection before force",
+        "Body position and angle",
+        "Transition timing",
+        "Safe controlled finish"
+      ],
+      "vi": [
+        "Connection before force",
+        "Body position and angle",
+        "Transition timing",
+        "Safe controlled finish"
+      ],
+      "fr": [
+        "Connection before force",
+        "Body position and angle",
+        "Transition timing",
+        "Safe controlled finish"
+      ]
+    },
+    "sourceNote": "Public YouTube No-Gi reference selected for NoGiMind coverage expansion."
+  },
+  {
+    "id": "brian-glick-clamp-guard-drill",
+    "provider": "youtube",
+    "title": {
+      "en": "Perfect Drill for the Clamp Guard by Brian Glick",
+      "vi": "Perfect Drill for the Clamp Guard by Brian Glick",
+      "fr": "Perfect Drill for the Clamp Guard by Brian Glick"
+    },
+    "channelName": "Brian Glick",
+    "url": "https://www.youtube.com/watch?v=oU8eqzC4etY",
+    "embedUrl": "https://www.youtube.com/embed/oU8eqzC4etY",
+    "youtubeId": "oU8eqzC4etY",
+    "language": "en",
+    "relatedSkillIds": [
+      "clamp-guard-control",
+      "shoulder-crunch-control"
+    ],
+    "relatedPositionIds": [
+      "closed-guard",
+      "open-guard"
+    ],
+    "techniqueTags": [
+      "no-gi",
+      "clamp-guard",
+      "shoulder-crunch",
+      "drill"
+    ],
+    "relevance": "supplemental",
+    "level": "beginner",
+    "whyUseful": {
+      "en": "Useful No-Gi public YouTube reference for this NoGiMind skill.",
+      "vi": "Useful No-Gi public YouTube reference for this NoGiMind skill.",
+      "fr": "Useful No-Gi public YouTube reference for this NoGiMind skill."
+    },
+    "whatToWatchFor": {
+      "en": [
+        "Connection before force",
+        "Body position and angle",
+        "Transition timing",
+        "Safe controlled finish"
+      ],
+      "vi": [
+        "Connection before force",
+        "Body position and angle",
+        "Transition timing",
+        "Safe controlled finish"
+      ],
+      "fr": [
+        "Connection before force",
+        "Body position and angle",
+        "Transition timing",
+        "Safe controlled finish"
+      ]
+    },
+    "sourceNote": "Public YouTube No-Gi reference selected for NoGiMind coverage expansion."
+  },
+  {
+    "id": "craig-jones-octopus-front-head",
+    "provider": "youtube",
+    "title": {
+      "en": "Octopus To Front Head by Craig Jones",
+      "vi": "Octopus To Front Head by Craig Jones",
+      "fr": "Octopus To Front Head by Craig Jones"
+    },
+    "channelName": "Craig Jones",
+    "url": "https://www.youtube.com/watch?v=nJTYYHSh4XU",
+    "embedUrl": "https://www.youtube.com/embed/nJTYYHSh4XU",
+    "youtubeId": "nJTYYHSh4XU",
+    "language": "en",
+    "relatedSkillIds": [
+      "octopus-back-take",
+      "fhl-go-behind",
+      "front-headlock-defense"
+    ],
+    "relatedPositionIds": [
+      "octopus-guard",
+      "front-headlock"
+    ],
+    "techniqueTags": [
+      "no-gi",
+      "octopus",
+      "front-headlock",
+      "go-behind"
+    ],
+    "relevance": "supplemental",
+    "level": "advanced",
+    "whyUseful": {
+      "en": "Useful No-Gi public YouTube reference for this NoGiMind skill.",
+      "vi": "Useful No-Gi public YouTube reference for this NoGiMind skill.",
+      "fr": "Useful No-Gi public YouTube reference for this NoGiMind skill."
+    },
+    "whatToWatchFor": {
+      "en": [
+        "Connection before force",
+        "Body position and angle",
+        "Transition timing",
+        "Safe controlled finish"
+      ],
+      "vi": [
+        "Connection before force",
+        "Body position and angle",
+        "Transition timing",
+        "Safe controlled finish"
+      ],
+      "fr": [
+        "Connection before force",
+        "Body position and angle",
+        "Transition timing",
+        "Safe controlled finish"
+      ]
+    },
+    "sourceNote": "Public YouTube No-Gi reference selected for NoGiMind coverage expansion.",
+    "caution": {
+      "en": "Neck and airway pressure can escalate fast. Apply gradually and release immediately on tap or discomfort.",
+      "vi": "Neck and airway pressure can escalate fast. Apply gradually and release immediately on tap or discomfort.",
+      "fr": "Neck and airway pressure can escalate fast. Apply gradually and release immediately on tap or discomfort."
+    }
+  },
+  {
+    "id": "craig-jones-spiral-ride",
+    "provider": "youtube",
+    "title": {
+      "en": "Spiral Ride by Craig Jones",
+      "vi": "Spiral Ride by Craig Jones",
+      "fr": "Spiral Ride by Craig Jones"
+    },
+    "channelName": "Craig Jones",
+    "url": "https://www.youtube.com/watch?v=PT50ievI18k",
+    "embedUrl": "https://www.youtube.com/embed/PT50ievI18k",
+    "youtubeId": "PT50ievI18k",
+    "language": "en",
+    "relatedSkillIds": [
+      "spiral-ride",
+      "wrist-ride-back-exposure",
+      "turtle-ride"
+    ],
+    "relatedPositionIds": [
+      "turtle",
+      "back-control-position"
+    ],
+    "techniqueTags": [
+      "no-gi",
+      "spiral-ride",
+      "ride",
+      "back-exposure"
+    ],
+    "relevance": "primary_reference",
+    "level": "advanced",
+    "whyUseful": {
+      "en": "Useful No-Gi public YouTube reference for this NoGiMind skill.",
+      "vi": "Useful No-Gi public YouTube reference for this NoGiMind skill.",
+      "fr": "Useful No-Gi public YouTube reference for this NoGiMind skill."
+    },
+    "whatToWatchFor": {
+      "en": [
+        "Connection before force",
+        "Body position and angle",
+        "Transition timing",
+        "Safe controlled finish"
+      ],
+      "vi": [
+        "Connection before force",
+        "Body position and angle",
+        "Transition timing",
+        "Safe controlled finish"
+      ],
+      "fr": [
+        "Connection before force",
+        "Body position and angle",
+        "Transition timing",
+        "Safe controlled finish"
+      ]
+    },
+    "sourceNote": "Public YouTube No-Gi reference selected for NoGiMind coverage expansion."
+  },
+  {
+    "id": "brian-glick-crucifix-top-turtle",
+    "provider": "youtube",
+    "title": {
+      "en": "Crucifix Top Turtle Entries Seatbelt Roll by Brian Glick",
+      "vi": "Crucifix Top Turtle Entries Seatbelt Roll by Brian Glick",
+      "fr": "Crucifix Top Turtle Entries Seatbelt Roll by Brian Glick"
+    },
+    "channelName": "Brian Glick",
+    "url": "https://www.youtube.com/watch?v=4XhwLYc5wx4",
+    "embedUrl": "https://www.youtube.com/embed/4XhwLYc5wx4",
+    "youtubeId": "4XhwLYc5wx4",
+    "language": "en",
+    "relatedSkillIds": [
+      "turtle-ride",
+      "wrist-ride-back-exposure",
+      "back-control"
+    ],
+    "relatedPositionIds": [
+      "turtle",
+      "back-control-position"
+    ],
+    "techniqueTags": [
+      "no-gi",
+      "turtle",
+      "crucifix",
+      "seatbelt",
+      "back-control"
+    ],
+    "relevance": "primary_reference",
+    "level": "intermediate",
+    "whyUseful": {
+      "en": "Useful No-Gi public YouTube reference for this NoGiMind skill.",
+      "vi": "Useful No-Gi public YouTube reference for this NoGiMind skill.",
+      "fr": "Useful No-Gi public YouTube reference for this NoGiMind skill."
+    },
+    "whatToWatchFor": {
+      "en": [
+        "Connection before force",
+        "Body position and angle",
+        "Transition timing",
+        "Safe controlled finish"
+      ],
+      "vi": [
+        "Connection before force",
+        "Body position and angle",
+        "Transition timing",
+        "Safe controlled finish"
+      ],
+      "fr": [
+        "Connection before force",
+        "Body position and angle",
+        "Transition timing",
+        "Safe controlled finish"
+      ]
+    },
+    "sourceNote": "Public YouTube No-Gi reference selected for NoGiMind coverage expansion."
+  },
+  {
+    "id": "brian-glick-double-leg-from-turtle",
+    "provider": "youtube",
+    "title": {
+      "en": "Double Leg From Turtle by Brian Glick",
+      "vi": "Double Leg From Turtle by Brian Glick",
+      "fr": "Double Leg From Turtle by Brian Glick"
+    },
+    "channelName": "Brian Glick",
+    "url": "https://www.youtube.com/watch?v=SPHRx98tljU",
+    "embedUrl": "https://www.youtube.com/embed/SPHRx98tljU",
+    "youtubeId": "SPHRx98tljU",
+    "language": "en",
+    "relatedSkillIds": [
+      "turtle-ride",
+      "mat-return-basics",
+      "single-leg-bjj"
+    ],
+    "relatedPositionIds": [
+      "turtle"
+    ],
+    "techniqueTags": [
+      "no-gi",
+      "turtle",
+      "double-leg",
+      "mat-return",
+      "wrestling"
+    ],
+    "relevance": "supplemental",
+    "level": "intermediate",
+    "whyUseful": {
+      "en": "Useful No-Gi public YouTube reference for this NoGiMind skill.",
+      "vi": "Useful No-Gi public YouTube reference for this NoGiMind skill.",
+      "fr": "Useful No-Gi public YouTube reference for this NoGiMind skill."
+    },
+    "whatToWatchFor": {
+      "en": [
+        "Connection before force",
+        "Body position and angle",
+        "Transition timing",
+        "Safe controlled finish"
+      ],
+      "vi": [
+        "Connection before force",
+        "Body position and angle",
+        "Transition timing",
+        "Safe controlled finish"
+      ],
+      "fr": [
+        "Connection before force",
+        "Body position and angle",
+        "Transition timing",
+        "Safe controlled finish"
+      ]
+    },
+    "sourceNote": "Public YouTube No-Gi reference selected for NoGiMind coverage expansion."
+  },
+  {
+    "id": "craig-jones-north-south-choke-pin",
+    "provider": "youtube",
+    "title": {
+      "en": "North South Choke As A Pinning Tool by Craig Jones",
+      "vi": "North South Choke As A Pinning Tool by Craig Jones",
+      "fr": "North South Choke As A Pinning Tool by Craig Jones"
+    },
+    "channelName": "Craig Jones",
+    "url": "https://www.youtube.com/watch?v=SPXanCnoBYA",
+    "embedUrl": "https://www.youtube.com/embed/SPXanCnoBYA",
+    "youtubeId": "SPXanCnoBYA",
+    "language": "en",
+    "relatedSkillIds": [
+      "north-south-control",
+      "side-control-pin",
+      "dilemmas-two-way-attacks"
+    ],
+    "relatedPositionIds": [
+      "north-south",
+      "side-control"
+    ],
+    "techniqueTags": [
+      "no-gi",
+      "north-south",
+      "pin",
+      "choke"
+    ],
+    "relevance": "primary_reference",
+    "level": "advanced",
+    "whyUseful": {
+      "en": "Useful No-Gi public YouTube reference for this NoGiMind skill.",
+      "vi": "Useful No-Gi public YouTube reference for this NoGiMind skill.",
+      "fr": "Useful No-Gi public YouTube reference for this NoGiMind skill."
+    },
+    "whatToWatchFor": {
+      "en": [
+        "Connection before force",
+        "Body position and angle",
+        "Transition timing",
+        "Safe controlled finish"
+      ],
+      "vi": [
+        "Connection before force",
+        "Body position and angle",
+        "Transition timing",
+        "Safe controlled finish"
+      ],
+      "fr": [
+        "Connection before force",
+        "Body position and angle",
+        "Transition timing",
+        "Safe controlled finish"
+      ]
+    },
+    "sourceNote": "Public YouTube No-Gi reference selected for NoGiMind coverage expansion.",
+    "caution": {
+      "en": "Neck and airway pressure can escalate fast. Apply gradually and release immediately on tap or discomfort.",
+      "vi": "Neck and airway pressure can escalate fast. Apply gradually and release immediately on tap or discomfort.",
+      "fr": "Neck and airway pressure can escalate fast. Apply gradually and release immediately on tap or discomfort."
+    }
+  },
+  {
+    "id": "gordon-knee-on-belly-toreando",
+    "provider": "youtube",
+    "title": {
+      "en": "Gordon Ryan Toreando to Knee on Belly",
+      "vi": "Gordon Ryan Toreando to Knee on Belly",
+      "fr": "Gordon Ryan Toreando to Knee on Belly"
+    },
+    "channelName": "Gordon Ryan",
+    "url": "https://www.youtube.com/watch?v=LkGccU4EtRw",
+    "embedUrl": "https://www.youtube.com/embed/LkGccU4EtRw",
+    "youtubeId": "LkGccU4EtRw",
+    "language": "en",
+    "relatedSkillIds": [
+      "knee-on-belly-control",
+      "outside-passing",
+      "leg-drag-pass"
+    ],
+    "relatedPositionIds": [
+      "knee-on-belly",
+      "open-guard"
+    ],
+    "techniqueTags": [
+      "no-gi",
+      "knee-on-belly",
+      "toreando",
+      "outside-passing"
+    ],
+    "relevance": "primary_reference",
+    "level": "intermediate",
+    "whyUseful": {
+      "en": "Useful No-Gi public YouTube reference for this NoGiMind skill.",
+      "vi": "Useful No-Gi public YouTube reference for this NoGiMind skill.",
+      "fr": "Useful No-Gi public YouTube reference for this NoGiMind skill."
+    },
+    "whatToWatchFor": {
+      "en": [
+        "Connection before force",
+        "Body position and angle",
+        "Transition timing",
+        "Safe controlled finish"
+      ],
+      "vi": [
+        "Connection before force",
+        "Body position and angle",
+        "Transition timing",
+        "Safe controlled finish"
+      ],
+      "fr": [
+        "Connection before force",
+        "Body position and angle",
+        "Transition timing",
+        "Safe controlled finish"
+      ]
+    },
+    "sourceNote": "Public YouTube No-Gi reference selected for NoGiMind coverage expansion.",
+    "caution": {
+      "en": "Leg entanglements can injure knees quickly. Drill slowly, communicate clearly, and tap early.",
+      "vi": "Leg entanglements can injure knees quickly. Drill slowly, communicate clearly, and tap early.",
+      "fr": "Leg entanglements can injure knees quickly. Drill slowly, communicate clearly, and tap early."
+    }
+  },
+  {
+    "id": "brian-glick-knee-on-belly-single-leg-escape",
+    "provider": "youtube",
+    "title": {
+      "en": "Escaping Knee on Belly Entering the Single Leg by Brian Glick",
+      "vi": "Escaping Knee on Belly Entering the Single Leg by Brian Glick",
+      "fr": "Escaping Knee on Belly Entering the Single Leg by Brian Glick"
+    },
+    "channelName": "Brian Glick",
+    "url": "https://www.youtube.com/watch?v=zjl7EQAIrII",
+    "embedUrl": "https://www.youtube.com/embed/zjl7EQAIrII",
+    "youtubeId": "zjl7EQAIrII",
+    "language": "en",
+    "relatedSkillIds": [
+      "knee-on-belly-control",
+      "single-leg-bjj",
+      "technical-stand-up"
+    ],
+    "relatedPositionIds": [
+      "knee-on-belly"
+    ],
+    "techniqueTags": [
+      "no-gi",
+      "knee-on-belly",
+      "single-leg",
+      "escape"
+    ],
+    "relevance": "supplemental",
+    "level": "beginner",
+    "whyUseful": {
+      "en": "Useful No-Gi public YouTube reference for this NoGiMind skill.",
+      "vi": "Useful No-Gi public YouTube reference for this NoGiMind skill.",
+      "fr": "Useful No-Gi public YouTube reference for this NoGiMind skill."
+    },
+    "whatToWatchFor": {
+      "en": [
+        "Connection before force",
+        "Body position and angle",
+        "Transition timing",
+        "Safe controlled finish"
+      ],
+      "vi": [
+        "Connection before force",
+        "Body position and angle",
+        "Transition timing",
+        "Safe controlled finish"
+      ],
+      "fr": [
+        "Connection before force",
+        "Body position and angle",
+        "Transition timing",
+        "Safe controlled finish"
+      ]
+    },
+    "sourceNote": "Public YouTube No-Gi reference selected for NoGiMind coverage expansion.",
+    "caution": {
+      "en": "Leg entanglements can injure knees quickly. Drill slowly, communicate clearly, and tap early.",
+      "vi": "Leg entanglements can injure knees quickly. Drill slowly, communicate clearly, and tap early.",
+      "fr": "Leg entanglements can injure knees quickly. Drill slowly, communicate clearly, and tap early."
+    }
+  },
+  {
+    "id": "brian-glick-inside-position-knee-cut",
+    "provider": "youtube",
+    "title": {
+      "en": "Guard Passing BEST KEPT SECRETS: Inside Position Outside Knee Cut by Brian Glick",
+      "vi": "Guard Passing BEST KEPT SECRETS: Inside Position Outside Knee Cut by Brian Glick",
+      "fr": "Guard Passing BEST KEPT SECRETS: Inside Position Outside Knee Cut by Brian Glick"
+    },
+    "channelName": "Brian Glick",
+    "url": "https://www.youtube.com/watch?v=BpKK6tCp4R0",
+    "embedUrl": "https://www.youtube.com/embed/BpKK6tCp4R0",
+    "youtubeId": "BpKK6tCp4R0",
+    "language": "en",
+    "relatedSkillIds": [
+      "knee-cut-passing",
+      "inside-position",
+      "outside-passing"
+    ],
+    "relatedPositionIds": [
+      "open-guard",
+      "headquarters"
+    ],
+    "techniqueTags": [
+      "no-gi",
+      "knee-cut",
+      "inside-position",
+      "passing"
+    ],
+    "relevance": "primary_reference",
+    "level": "intermediate",
+    "whyUseful": {
+      "en": "Useful No-Gi public YouTube reference for this NoGiMind skill.",
+      "vi": "Useful No-Gi public YouTube reference for this NoGiMind skill.",
+      "fr": "Useful No-Gi public YouTube reference for this NoGiMind skill."
+    },
+    "whatToWatchFor": {
+      "en": [
+        "Connection before force",
+        "Body position and angle",
+        "Transition timing",
+        "Safe controlled finish"
+      ],
+      "vi": [
+        "Connection before force",
+        "Body position and angle",
+        "Transition timing",
+        "Safe controlled finish"
+      ],
+      "fr": [
+        "Connection before force",
+        "Body position and angle",
+        "Transition timing",
+        "Safe controlled finish"
+      ]
+    },
+    "sourceNote": "Public YouTube No-Gi reference selected for NoGiMind coverage expansion.",
+    "caution": {
+      "en": "Leg entanglements can injure knees quickly. Drill slowly, communicate clearly, and tap early.",
+      "vi": "Leg entanglements can injure knees quickly. Drill slowly, communicate clearly, and tap early.",
+      "fr": "Leg entanglements can injure knees quickly. Drill slowly, communicate clearly, and tap early."
+    }
+  },
+  {
+    "id": "giancarlo-high-percentage-knee-cut",
+    "provider": "youtube",
+    "title": {
+      "en": "Simple and Important Details for High Percentage Knee Cut Guard Passing",
+      "vi": "Simple and Important Details for High Percentage Knee Cut Guard Passing",
+      "fr": "Simple and Important Details for High Percentage Knee Cut Guard Passing"
+    },
+    "channelName": "Giancarlo Bodoni",
+    "url": "https://www.youtube.com/watch?v=V0dVAzBA2zY",
+    "embedUrl": "https://www.youtube.com/embed/V0dVAzBA2zY",
+    "youtubeId": "V0dVAzBA2zY",
+    "language": "en",
+    "relatedSkillIds": [
+      "knee-cut-passing",
+      "headquarters-passing",
+      "failure-response-transitions"
+    ],
+    "relatedPositionIds": [
+      "headquarters",
+      "open-guard"
+    ],
+    "techniqueTags": [
+      "no-gi",
+      "knee-cut",
+      "passing",
+      "headquarters"
+    ],
+    "relevance": "supplemental",
+    "level": "intermediate",
+    "whyUseful": {
+      "en": "Useful No-Gi public YouTube reference for this NoGiMind skill.",
+      "vi": "Useful No-Gi public YouTube reference for this NoGiMind skill.",
+      "fr": "Useful No-Gi public YouTube reference for this NoGiMind skill."
+    },
+    "whatToWatchFor": {
+      "en": [
+        "Connection before force",
+        "Body position and angle",
+        "Transition timing",
+        "Safe controlled finish"
+      ],
+      "vi": [
+        "Connection before force",
+        "Body position and angle",
+        "Transition timing",
+        "Safe controlled finish"
+      ],
+      "fr": [
+        "Connection before force",
+        "Body position and angle",
+        "Transition timing",
+        "Safe controlled finish"
+      ]
+    },
+    "sourceNote": "Public YouTube No-Gi reference selected for NoGiMind coverage expansion.",
+    "caution": {
+      "en": "Leg entanglements can injure knees quickly. Drill slowly, communicate clearly, and tap early.",
+      "vi": "Leg entanglements can injure knees quickly. Drill slowly, communicate clearly, and tap early.",
+      "fr": "Leg entanglements can injure knees quickly. Drill slowly, communicate clearly, and tap early."
+    }
+  },
+  {
+    "id": "open-guard-leg-drag-back-take",
+    "provider": "youtube",
+    "title": {
+      "en": "Combining Leg Drag and Taking The Back",
+      "vi": "Combining Leg Drag and Taking The Back",
+      "fr": "Combining Leg Drag and Taking The Back"
+    },
+    "channelName": "Open Guard",
+    "url": "https://www.youtube.com/watch?v=EPyqapk9v2Y",
+    "embedUrl": "https://www.youtube.com/embed/EPyqapk9v2Y",
+    "youtubeId": "EPyqapk9v2Y",
+    "language": "en",
+    "relatedSkillIds": [
+      "leg-drag-basics",
+      "leg-drag-pass",
+      "crab-ride"
+    ],
+    "relatedPositionIds": [
+      "open-guard",
+      "back-control-position"
+    ],
+    "techniqueTags": [
+      "no-gi",
+      "leg-drag",
+      "back-take",
+      "crab-ride"
+    ],
+    "relevance": "primary_reference",
+    "level": "intermediate",
+    "whyUseful": {
+      "en": "Useful No-Gi public YouTube reference for this NoGiMind skill.",
+      "vi": "Useful No-Gi public YouTube reference for this NoGiMind skill.",
+      "fr": "Useful No-Gi public YouTube reference for this NoGiMind skill."
+    },
+    "whatToWatchFor": {
+      "en": [
+        "Connection before force",
+        "Body position and angle",
+        "Transition timing",
+        "Safe controlled finish"
+      ],
+      "vi": [
+        "Connection before force",
+        "Body position and angle",
+        "Transition timing",
+        "Safe controlled finish"
+      ],
+      "fr": [
+        "Connection before force",
+        "Body position and angle",
+        "Transition timing",
+        "Safe controlled finish"
+      ]
+    },
+    "sourceNote": "Public YouTube No-Gi reference selected for NoGiMind coverage expansion."
+  },
+  {
+    "id": "open-guard-rolling-back-take-leg-drag",
+    "provider": "youtube",
+    "title": {
+      "en": "Rolling Back Take from the Leg Drag Guard",
+      "vi": "Rolling Back Take from the Leg Drag Guard",
+      "fr": "Rolling Back Take from the Leg Drag Guard"
+    },
+    "channelName": "Open Guard",
+    "url": "https://www.youtube.com/watch?v=RCBRlcFORIw",
+    "embedUrl": "https://www.youtube.com/embed/RCBRlcFORIw",
+    "youtubeId": "RCBRlcFORIw",
+    "language": "en",
+    "relatedSkillIds": [
+      "leg-drag-pass",
+      "crab-ride",
+      "wrist-ride-back-exposure"
+    ],
+    "relatedPositionIds": [
+      "open-guard",
+      "back-control-position"
+    ],
+    "techniqueTags": [
+      "no-gi",
+      "leg-drag",
+      "rolling-back-take",
+      "crab-ride"
+    ],
+    "relevance": "supplemental",
+    "level": "advanced",
+    "whyUseful": {
+      "en": "Useful No-Gi public YouTube reference for this NoGiMind skill.",
+      "vi": "Useful No-Gi public YouTube reference for this NoGiMind skill.",
+      "fr": "Useful No-Gi public YouTube reference for this NoGiMind skill."
+    },
+    "whatToWatchFor": {
+      "en": [
+        "Connection before force",
+        "Body position and angle",
+        "Transition timing",
+        "Safe controlled finish"
+      ],
+      "vi": [
+        "Connection before force",
+        "Body position and angle",
+        "Transition timing",
+        "Safe controlled finish"
+      ],
+      "fr": [
+        "Connection before force",
+        "Body position and angle",
+        "Transition timing",
+        "Safe controlled finish"
+      ]
+    },
+    "sourceNote": "Public YouTube No-Gi reference selected for NoGiMind coverage expansion."
+  },
+  {
+    "id": "lachlan-single-leg-x-linking-attacks",
+    "provider": "youtube",
+    "title": {
+      "en": "Linking attacks from Single Leg X guard",
+      "vi": "Linking attacks from Single Leg X guard",
+      "fr": "Linking attacks from Single Leg X guard"
+    },
+    "channelName": "Lachlan Giles",
+    "url": "https://www.youtube.com/watch?v=SIe3OnvXGz4",
+    "embedUrl": "https://www.youtube.com/embed/SIe3OnvXGz4",
+    "youtubeId": "SIe3OnvXGz4",
+    "language": "en",
+    "relatedSkillIds": [
+      "single-leg-x-basics",
+      "single-leg-x-control",
+      "x-guard-control"
+    ],
+    "relatedPositionIds": [
+      "single-leg-x",
+      "x-guard"
+    ],
+    "techniqueTags": [
+      "no-gi",
+      "single-leg-x",
+      "x-guard",
+      "leg-lock"
+    ],
+    "relevance": "primary_reference",
+    "level": "intermediate",
+    "whyUseful": {
+      "en": "Useful No-Gi public YouTube reference for this NoGiMind skill.",
+      "vi": "Useful No-Gi public YouTube reference for this NoGiMind skill.",
+      "fr": "Useful No-Gi public YouTube reference for this NoGiMind skill."
+    },
+    "whatToWatchFor": {
+      "en": [
+        "Connection before force",
+        "Body position and angle",
+        "Transition timing",
+        "Safe controlled finish"
+      ],
+      "vi": [
+        "Connection before force",
+        "Body position and angle",
+        "Transition timing",
+        "Safe controlled finish"
+      ],
+      "fr": [
+        "Connection before force",
+        "Body position and angle",
+        "Transition timing",
+        "Safe controlled finish"
+      ]
+    },
+    "sourceNote": "Public YouTube No-Gi reference selected for NoGiMind coverage expansion.",
+    "caution": {
+      "en": "Leg entanglements can injure knees quickly. Drill slowly, communicate clearly, and tap early.",
+      "vi": "Leg entanglements can injure knees quickly. Drill slowly, communicate clearly, and tap early.",
+      "fr": "Leg entanglements can injure knees quickly. Drill slowly, communicate clearly, and tap early."
+    }
+  },
+  {
+    "id": "craig-underhook-dlr-single-leg-x",
+    "provider": "youtube",
+    "title": {
+      "en": "Underhook De La Riva To Single Leg X by Craig Jones",
+      "vi": "Underhook De La Riva To Single Leg X by Craig Jones",
+      "fr": "Underhook De La Riva To Single Leg X by Craig Jones"
+    },
+    "channelName": "Craig Jones",
+    "url": "https://www.youtube.com/watch?v=AjzkgEu56iM",
+    "embedUrl": "https://www.youtube.com/embed/AjzkgEu56iM",
+    "youtubeId": "AjzkgEu56iM",
+    "language": "en",
+    "relatedSkillIds": [
+      "de-la-riva-sweeps",
+      "reverse-de-la-riva-transitions",
+      "single-leg-x-control",
+      "shin-to-shin-entry"
+    ],
+    "relatedPositionIds": [
+      "de-la-riva",
+      "single-leg-x"
+    ],
+    "techniqueTags": [
+      "no-gi",
+      "underhook-dlr",
+      "single-leg-x",
+      "open-guard"
+    ],
+    "relevance": "supplemental",
+    "level": "intermediate",
+    "whyUseful": {
+      "en": "Useful No-Gi public YouTube reference for this NoGiMind skill.",
+      "vi": "Useful No-Gi public YouTube reference for this NoGiMind skill.",
+      "fr": "Useful No-Gi public YouTube reference for this NoGiMind skill."
+    },
+    "whatToWatchFor": {
+      "en": [
+        "Connection before force",
+        "Body position and angle",
+        "Transition timing",
+        "Safe controlled finish"
+      ],
+      "vi": [
+        "Connection before force",
+        "Body position and angle",
+        "Transition timing",
+        "Safe controlled finish"
+      ],
+      "fr": [
+        "Connection before force",
+        "Body position and angle",
+        "Transition timing",
+        "Safe controlled finish"
+      ]
+    },
+    "sourceNote": "Public YouTube No-Gi reference selected for NoGiMind coverage expansion.",
+    "caution": {
+      "en": "Leg entanglements can injure knees quickly. Drill slowly, communicate clearly, and tap early.",
+      "vi": "Leg entanglements can injure knees quickly. Drill slowly, communicate clearly, and tap early.",
+      "fr": "Leg entanglements can injure knees quickly. Drill slowly, communicate clearly, and tap early."
+    }
+  },
+  {
+    "id": "gordon-ashi-x-retention-principles",
+    "provider": "youtube",
+    "title": {
+      "en": "ASHI X GUARD RETENTION PRINCIPLES 1 by Gordon Ryan",
+      "vi": "ASHI X GUARD RETENTION PRINCIPLES 1 by Gordon Ryan",
+      "fr": "ASHI X GUARD RETENTION PRINCIPLES 1 by Gordon Ryan"
+    },
+    "channelName": "Gordon Ryan",
+    "url": "https://www.youtube.com/watch?v=4Gu-saCVaIw",
+    "embedUrl": "https://www.youtube.com/embed/4Gu-saCVaIw",
+    "youtubeId": "4Gu-saCVaIw",
+    "language": "en",
+    "relatedSkillIds": [
+      "x-guard-control",
+      "single-leg-x-control",
+      "supine-guard-retention"
+    ],
+    "relatedPositionIds": [
+      "x-guard",
+      "single-leg-x"
+    ],
+    "techniqueTags": [
+      "no-gi",
+      "ashi-x",
+      "x-guard",
+      "guard-retention"
+    ],
+    "relevance": "conceptual",
+    "level": "advanced",
+    "whyUseful": {
+      "en": "Useful No-Gi public YouTube reference for this NoGiMind skill.",
+      "vi": "Useful No-Gi public YouTube reference for this NoGiMind skill.",
+      "fr": "Useful No-Gi public YouTube reference for this NoGiMind skill."
+    },
+    "whatToWatchFor": {
+      "en": [
+        "Connection before force",
+        "Body position and angle",
+        "Transition timing",
+        "Safe controlled finish"
+      ],
+      "vi": [
+        "Connection before force",
+        "Body position and angle",
+        "Transition timing",
+        "Safe controlled finish"
+      ],
+      "fr": [
+        "Connection before force",
+        "Body position and angle",
+        "Transition timing",
+        "Safe controlled finish"
+      ]
+    },
+    "sourceNote": "Public YouTube No-Gi reference selected for NoGiMind coverage expansion.",
+    "caution": {
+      "en": "Leg entanglements can injure knees quickly. Drill slowly, communicate clearly, and tap early.",
+      "vi": "Leg entanglements can injure knees quickly. Drill slowly, communicate clearly, and tap early.",
+      "fr": "Leg entanglements can injure knees quickly. Drill slowly, communicate clearly, and tap early."
+    }
+  },
+  {
+    "id": "john-danaher-tight-waist-x-guard",
+    "provider": "youtube",
+    "title": {
+      "en": "Tight Waist To X Guard by John Danaher",
+      "vi": "Tight Waist To X Guard by John Danaher",
+      "fr": "Tight Waist To X Guard by John Danaher"
+    },
+    "channelName": "John Danaher",
+    "url": "https://www.youtube.com/watch?v=XLY_1lLv6F4",
+    "embedUrl": "https://www.youtube.com/embed/XLY_1lLv6F4",
+    "youtubeId": "XLY_1lLv6F4",
+    "language": "en",
+    "relatedSkillIds": [
+      "x-guard-control",
+      "inside-position",
+      "half-guard-wrestle-up"
+    ],
+    "relatedPositionIds": [
+      "x-guard",
+      "half-guard"
+    ],
+    "techniqueTags": [
+      "no-gi",
+      "x-guard",
+      "tight-waist",
+      "wrestle-up"
+    ],
+    "relevance": "supplemental",
+    "level": "intermediate",
+    "whyUseful": {
+      "en": "Useful No-Gi public YouTube reference for this NoGiMind skill.",
+      "vi": "Useful No-Gi public YouTube reference for this NoGiMind skill.",
+      "fr": "Useful No-Gi public YouTube reference for this NoGiMind skill."
+    },
+    "whatToWatchFor": {
+      "en": [
+        "Connection before force",
+        "Body position and angle",
+        "Transition timing",
+        "Safe controlled finish"
+      ],
+      "vi": [
+        "Connection before force",
+        "Body position and angle",
+        "Transition timing",
+        "Safe controlled finish"
+      ],
+      "fr": [
+        "Connection before force",
+        "Body position and angle",
+        "Transition timing",
+        "Safe controlled finish"
+      ]
+    },
+    "sourceNote": "Public YouTube No-Gi reference selected for NoGiMind coverage expansion."
+  },
+  {
+    "id": "brian-glick-hip-heist",
+    "provider": "youtube",
+    "title": {
+      "en": "Hip Heist by Brian Glick",
+      "vi": "Hip Heist by Brian Glick",
+      "fr": "Hip Heist by Brian Glick"
+    },
+    "channelName": "Brian Glick",
+    "url": "https://www.youtube.com/watch?v=TTGvc28I2II",
+    "embedUrl": "https://www.youtube.com/embed/TTGvc28I2II",
+    "youtubeId": "TTGvc28I2II",
+    "language": "en",
+    "relatedSkillIds": [
+      "hip-heist-wrestle-up",
+      "technical-stand-up",
+      "half-guard-wrestle-up"
+    ],
+    "relatedPositionIds": [
+      "half-guard",
+      "open-guard"
+    ],
+    "techniqueTags": [
+      "no-gi",
+      "hip-heist",
+      "wrestle-up",
+      "technical-stand-up"
+    ],
+    "relevance": "primary_reference",
+    "level": "beginner",
+    "whyUseful": {
+      "en": "Useful No-Gi public YouTube reference for this NoGiMind skill.",
+      "vi": "Useful No-Gi public YouTube reference for this NoGiMind skill.",
+      "fr": "Useful No-Gi public YouTube reference for this NoGiMind skill."
+    },
+    "whatToWatchFor": {
+      "en": [
+        "Connection before force",
+        "Body position and angle",
+        "Transition timing",
+        "Safe controlled finish"
+      ],
+      "vi": [
+        "Connection before force",
+        "Body position and angle",
+        "Transition timing",
+        "Safe controlled finish"
+      ],
+      "fr": [
+        "Connection before force",
+        "Body position and angle",
+        "Transition timing",
+        "Safe controlled finish"
+      ]
+    },
+    "sourceNote": "Public YouTube No-Gi reference selected for NoGiMind coverage expansion."
+  },
+  {
+    "id": "firas-snapdown-into-shuck",
+    "provider": "youtube",
+    "title": {
+      "en": "Snapdown into Shuck by Firas Zahabi",
+      "vi": "Snapdown into Shuck by Firas Zahabi",
+      "fr": "Snapdown into Shuck by Firas Zahabi"
+    },
+    "channelName": "Firas Zahabi",
+    "url": "https://www.youtube.com/watch?v=1BOMVs_NJIk",
+    "embedUrl": "https://www.youtube.com/embed/1BOMVs_NJIk",
+    "youtubeId": "1BOMVs_NJIk",
+    "language": "en",
+    "relatedSkillIds": [
+      "snapdown-front-headlock",
+      "fhl-go-behind",
+      "front-headlock-defense"
+    ],
+    "relatedPositionIds": [
+      "front-headlock",
+      "standing"
+    ],
+    "techniqueTags": [
+      "no-gi",
+      "snapdown",
+      "front-headlock",
+      "go-behind"
+    ],
+    "relevance": "primary_reference",
+    "level": "intermediate",
+    "whyUseful": {
+      "en": "Useful No-Gi public YouTube reference for this NoGiMind skill.",
+      "vi": "Useful No-Gi public YouTube reference for this NoGiMind skill.",
+      "fr": "Useful No-Gi public YouTube reference for this NoGiMind skill."
+    },
+    "whatToWatchFor": {
+      "en": [
+        "Connection before force",
+        "Body position and angle",
+        "Transition timing",
+        "Safe controlled finish"
+      ],
+      "vi": [
+        "Connection before force",
+        "Body position and angle",
+        "Transition timing",
+        "Safe controlled finish"
+      ],
+      "fr": [
+        "Connection before force",
+        "Body position and angle",
+        "Transition timing",
+        "Safe controlled finish"
+      ]
+    },
+    "sourceNote": "Public YouTube No-Gi reference selected for NoGiMind coverage expansion.",
+    "caution": {
+      "en": "Neck and airway pressure can escalate fast. Apply gradually and release immediately on tap or discomfort.",
+      "vi": "Neck and airway pressure can escalate fast. Apply gradually and release immediately on tap or discomfort.",
+      "fr": "Neck and airway pressure can escalate fast. Apply gradually and release immediately on tap or discomfort."
+    }
+  },
+  {
+    "id": "giancarlo-armdrag-snapdown",
+    "provider": "youtube",
+    "title": {
+      "en": "ARMDRAG To SNAPDOWN by Giancarlo Bodoni",
+      "vi": "ARMDRAG To SNAPDOWN by Giancarlo Bodoni",
+      "fr": "ARMDRAG To SNAPDOWN by Giancarlo Bodoni"
+    },
+    "channelName": "Giancarlo Bodoni",
+    "url": "https://www.youtube.com/watch?v=ld4YuQqHxgw",
+    "embedUrl": "https://www.youtube.com/embed/ld4YuQqHxgw",
+    "youtubeId": "ld4YuQqHxgw",
+    "language": "en",
+    "relatedSkillIds": [
+      "snapdown-front-headlock",
+      "hand-fighting",
+      "single-leg-bjj"
+    ],
+    "relatedPositionIds": [
+      "standing"
+    ],
+    "techniqueTags": [
+      "no-gi",
+      "armdrag",
+      "snapdown",
+      "hand-fighting"
+    ],
+    "relevance": "supplemental",
+    "level": "intermediate",
+    "whyUseful": {
+      "en": "Useful No-Gi public YouTube reference for this NoGiMind skill.",
+      "vi": "Useful No-Gi public YouTube reference for this NoGiMind skill.",
+      "fr": "Useful No-Gi public YouTube reference for this NoGiMind skill."
+    },
+    "whatToWatchFor": {
+      "en": [
+        "Connection before force",
+        "Body position and angle",
+        "Transition timing",
+        "Safe controlled finish"
+      ],
+      "vi": [
+        "Connection before force",
+        "Body position and angle",
+        "Transition timing",
+        "Safe controlled finish"
+      ],
+      "fr": [
+        "Connection before force",
+        "Body position and angle",
+        "Transition timing",
+        "Safe controlled finish"
+      ]
+    },
+    "sourceNote": "Public YouTube No-Gi reference selected for NoGiMind coverage expansion."
+  },
+  {
+    "id": "firas-snapdown-vs-kneeling",
+    "provider": "youtube",
+    "title": {
+      "en": "Snapdown vs Kneeling by Firas Zahabi",
+      "vi": "Snapdown vs Kneeling by Firas Zahabi",
+      "fr": "Snapdown vs Kneeling by Firas Zahabi"
+    },
+    "channelName": "Firas Zahabi",
+    "url": "https://www.youtube.com/watch?v=URYZHOJwNN8",
+    "embedUrl": "https://www.youtube.com/embed/URYZHOJwNN8",
+    "youtubeId": "URYZHOJwNN8",
+    "language": "en",
+    "relatedSkillIds": [
+      "snapdown-front-headlock",
+      "sprawl-go-behind",
+      "fhl-go-behind"
+    ],
+    "relatedPositionIds": [
+      "front-headlock",
+      "turtle"
+    ],
+    "techniqueTags": [
+      "no-gi",
+      "snapdown",
+      "front-headlock",
+      "go-behind"
+    ],
+    "relevance": "supplemental",
+    "level": "beginner",
+    "whyUseful": {
+      "en": "Useful No-Gi public YouTube reference for this NoGiMind skill.",
+      "vi": "Useful No-Gi public YouTube reference for this NoGiMind skill.",
+      "fr": "Useful No-Gi public YouTube reference for this NoGiMind skill."
+    },
+    "whatToWatchFor": {
+      "en": [
+        "Connection before force",
+        "Body position and angle",
+        "Transition timing",
+        "Safe controlled finish"
+      ],
+      "vi": [
+        "Connection before force",
+        "Body position and angle",
+        "Transition timing",
+        "Safe controlled finish"
+      ],
+      "fr": [
+        "Connection before force",
+        "Body position and angle",
+        "Transition timing",
+        "Safe controlled finish"
+      ]
+    },
+    "sourceNote": "Public YouTube No-Gi reference selected for NoGiMind coverage expansion.",
+    "caution": {
+      "en": "Neck and airway pressure can escalate fast. Apply gradually and release immediately on tap or discomfort.",
+      "vi": "Neck and airway pressure can escalate fast. Apply gradually and release immediately on tap or discomfort.",
+      "fr": "Neck and airway pressure can escalate fast. Apply gradually and release immediately on tap or discomfort."
+    }
+  },
+  {
+    "id": "heath-pedigo-dogfight-win",
+    "provider": "youtube",
+    "title": {
+      "en": "How to WIN the Dogfight by Heath Pedigo",
+      "vi": "How to WIN the Dogfight by Heath Pedigo",
+      "fr": "How to WIN the Dogfight by Heath Pedigo"
+    },
+    "channelName": "Heath Pedigo",
+    "url": "https://www.youtube.com/watch?v=05zlhBWAIrM",
+    "embedUrl": "https://www.youtube.com/embed/05zlhBWAIrM",
+    "youtubeId": "05zlhBWAIrM",
+    "language": "en",
+    "relatedSkillIds": [
+      "dogfight-knee-tap",
+      "half-guard-wrestle-up",
+      "single-leg-bjj"
+    ],
+    "relatedPositionIds": [
+      "half-guard",
+      "dogfight"
+    ],
+    "techniqueTags": [
+      "no-gi",
+      "dogfight",
+      "knee-tap",
+      "wrestle-up"
+    ],
+    "relevance": "primary_reference",
+    "level": "intermediate",
+    "whyUseful": {
+      "en": "Useful No-Gi public YouTube reference for this NoGiMind skill.",
+      "vi": "Useful No-Gi public YouTube reference for this NoGiMind skill.",
+      "fr": "Useful No-Gi public YouTube reference for this NoGiMind skill."
+    },
+    "whatToWatchFor": {
+      "en": [
+        "Connection before force",
+        "Body position and angle",
+        "Transition timing",
+        "Safe controlled finish"
+      ],
+      "vi": [
+        "Connection before force",
+        "Body position and angle",
+        "Transition timing",
+        "Safe controlled finish"
+      ],
+      "fr": [
+        "Connection before force",
+        "Body position and angle",
+        "Transition timing",
+        "Safe controlled finish"
+      ]
+    },
+    "sourceNote": "Public YouTube No-Gi reference selected for NoGiMind coverage expansion.",
+    "caution": {
+      "en": "Leg entanglements can injure knees quickly. Drill slowly, communicate clearly, and tap early.",
+      "vi": "Leg entanglements can injure knees quickly. Drill slowly, communicate clearly, and tap early.",
+      "fr": "Leg entanglements can injure knees quickly. Drill slowly, communicate clearly, and tap early."
+    }
+  },
+  {
+    "id": "danaher-back-escape",
+    "provider": "youtube",
+    "title": {
+      "en": "Back Escape by John Danaher",
+      "vi": "Back Escape by John Danaher",
+      "fr": "Back Escape by John Danaher"
+    },
+    "channelName": "John Danaher",
+    "url": "https://www.youtube.com/watch?v=tu3F0O5WL64",
+    "embedUrl": "https://www.youtube.com/embed/tu3F0O5WL64",
+    "youtubeId": "tu3F0O5WL64",
+    "language": "en",
+    "relatedSkillIds": [
+      "back-escape",
+      "back-survival"
+    ],
+    "relatedPositionIds": [
+      "back-control-position"
+    ],
+    "techniqueTags": [
+      "no-gi",
+      "back-escape",
+      "survival"
+    ],
+    "relevance": "primary_reference",
+    "level": "intermediate",
+    "whyUseful": {
+      "en": "Public No-Gi YouTube reference selected to improve coverage for this NoGiMind skill.",
+      "vi": "Public No-Gi YouTube reference selected to improve coverage for this NoGiMind skill.",
+      "fr": "Public No-Gi YouTube reference selected to improve coverage for this NoGiMind skill."
+    },
+    "whatToWatchFor": {
+      "en": [
+        "Connection before force",
+        "Body position and angle",
+        "Transition timing",
+        "Safe controlled finish"
+      ],
+      "vi": [
+        "Connection before force",
+        "Body position and angle",
+        "Transition timing",
+        "Safe controlled finish"
+      ],
+      "fr": [
+        "Connection before force",
+        "Body position and angle",
+        "Transition timing",
+        "Safe controlled finish"
+      ]
+    },
+    "sourceNote": "Public YouTube No-Gi reference selected for NoGiMind coverage expansion."
+  },
+  {
+    "id": "volkanovski-craig-back-escape",
+    "provider": "youtube",
+    "title": {
+      "en": "Alexander Volkanovski and Craig Jones Teach the Back Escape Technique",
+      "vi": "Alexander Volkanovski and Craig Jones Teach the Back Escape Technique",
+      "fr": "Alexander Volkanovski and Craig Jones Teach the Back Escape Technique"
+    },
+    "channelName": "Turtle",
+    "url": "https://www.youtube.com/watch?v=uT-7lJxykCg",
+    "embedUrl": "https://www.youtube.com/embed/uT-7lJxykCg",
+    "youtubeId": "uT-7lJxykCg",
+    "language": "en",
+    "relatedSkillIds": [
+      "back-escape",
+      "scramble-control"
+    ],
+    "relatedPositionIds": [
+      "back-control-position",
+      "turtle"
+    ],
+    "techniqueTags": [
+      "no-gi",
+      "back-escape",
+      "mma",
+      "scramble"
+    ],
+    "relevance": "supplemental",
+    "level": "intermediate",
+    "whyUseful": {
+      "en": "Public No-Gi YouTube reference selected to improve coverage for this NoGiMind skill.",
+      "vi": "Public No-Gi YouTube reference selected to improve coverage for this NoGiMind skill.",
+      "fr": "Public No-Gi YouTube reference selected to improve coverage for this NoGiMind skill."
+    },
+    "whatToWatchFor": {
+      "en": [
+        "Connection before force",
+        "Body position and angle",
+        "Transition timing",
+        "Safe controlled finish"
+      ],
+      "vi": [
+        "Connection before force",
+        "Body position and angle",
+        "Transition timing",
+        "Safe controlled finish"
+      ],
+      "fr": [
+        "Connection before force",
+        "Body position and angle",
+        "Transition timing",
+        "Safe controlled finish"
+      ]
+    },
+    "sourceNote": "Public YouTube No-Gi reference selected for NoGiMind coverage expansion."
+  },
+  {
+    "id": "lachlan-inverted-guard-retention",
+    "provider": "youtube",
+    "title": {
+      "en": "Inverted Guard Retention by Lachlan Giles",
+      "vi": "Inverted Guard Retention by Lachlan Giles",
+      "fr": "Inverted Guard Retention by Lachlan Giles"
+    },
+    "channelName": "Lachlan Giles",
+    "url": "https://www.youtube.com/watch?v=lY8JZMAm1N4",
+    "embedUrl": "https://www.youtube.com/embed/lY8JZMAm1N4",
+    "youtubeId": "lY8JZMAm1N4",
+    "language": "en",
+    "relatedSkillIds": [
+      "inverted-guard-control",
+      "supine-guard-retention"
+    ],
+    "relatedPositionIds": [
+      "open-guard"
+    ],
+    "techniqueTags": [
+      "no-gi",
+      "inverted-guard",
+      "guard-retention"
+    ],
+    "relevance": "primary_reference",
+    "level": "advanced",
+    "whyUseful": {
+      "en": "Public No-Gi YouTube reference selected to improve coverage for this NoGiMind skill.",
+      "vi": "Public No-Gi YouTube reference selected to improve coverage for this NoGiMind skill.",
+      "fr": "Public No-Gi YouTube reference selected to improve coverage for this NoGiMind skill."
+    },
+    "whatToWatchFor": {
+      "en": [
+        "Connection before force",
+        "Body position and angle",
+        "Transition timing",
+        "Safe controlled finish"
+      ],
+      "vi": [
+        "Connection before force",
+        "Body position and angle",
+        "Transition timing",
+        "Safe controlled finish"
+      ],
+      "fr": [
+        "Connection before force",
+        "Body position and angle",
+        "Transition timing",
+        "Safe controlled finish"
+      ]
+    },
+    "sourceNote": "Public YouTube No-Gi reference selected for NoGiMind coverage expansion."
+  },
+  {
+    "id": "z-guard-easiest-sweep",
+    "provider": "youtube",
+    "title": {
+      "en": "Easiest Z guard sweep",
+      "vi": "Easiest Z guard sweep",
+      "fr": "Easiest Z guard sweep"
+    },
+    "channelName": "Z Guard",
+    "url": "https://www.youtube.com/watch?v=jrJ9dCXv1_I",
+    "embedUrl": "https://www.youtube.com/embed/jrJ9dCXv1_I",
+    "youtubeId": "jrJ9dCXv1_I",
+    "language": "en",
+    "relatedSkillIds": [
+      "z-guard-sweeps",
+      "half-guard-wrestle-up"
+    ],
+    "relatedPositionIds": [
+      "z-guard",
+      "half-guard"
+    ],
+    "techniqueTags": [
+      "no-gi",
+      "z-guard",
+      "sweep"
+    ],
+    "relevance": "supplemental",
+    "level": "intermediate",
+    "whyUseful": {
+      "en": "Public No-Gi YouTube reference selected to improve coverage for this NoGiMind skill.",
+      "vi": "Public No-Gi YouTube reference selected to improve coverage for this NoGiMind skill.",
+      "fr": "Public No-Gi YouTube reference selected to improve coverage for this NoGiMind skill."
+    },
+    "whatToWatchFor": {
+      "en": [
+        "Connection before force",
+        "Body position and angle",
+        "Transition timing",
+        "Safe controlled finish"
+      ],
+      "vi": [
+        "Connection before force",
+        "Body position and angle",
+        "Transition timing",
+        "Safe controlled finish"
+      ],
+      "fr": [
+        "Connection before force",
+        "Body position and angle",
+        "Transition timing",
+        "Safe controlled finish"
+      ]
+    },
+    "sourceNote": "Public YouTube No-Gi reference selected for NoGiMind coverage expansion."
+  },
+  {
+    "id": "closed-guard-sweeps-three",
+    "provider": "youtube",
+    "title": {
+      "en": "3 closed guard sweeps",
+      "vi": "3 closed guard sweeps",
+      "fr": "3 closed guard sweeps"
+    },
+    "channelName": "Closed Guard",
+    "url": "https://www.youtube.com/watch?v=nJ3FLY0PbVs",
+    "embedUrl": "https://www.youtube.com/embed/nJ3FLY0PbVs",
+    "youtubeId": "nJ3FLY0PbVs",
+    "language": "en",
+    "relatedSkillIds": [
+      "closed-guard-sweeps",
+      "closed-guard-posture-control"
+    ],
+    "relatedPositionIds": [
+      "closed-guard"
+    ],
+    "techniqueTags": [
+      "no-gi",
+      "closed-guard",
+      "sweep"
+    ],
+    "relevance": "supplemental",
+    "level": "beginner",
+    "whyUseful": {
+      "en": "Public No-Gi YouTube reference selected to improve coverage for this NoGiMind skill.",
+      "vi": "Public No-Gi YouTube reference selected to improve coverage for this NoGiMind skill.",
+      "fr": "Public No-Gi YouTube reference selected to improve coverage for this NoGiMind skill."
+    },
+    "whatToWatchFor": {
+      "en": [
+        "Connection before force",
+        "Body position and angle",
+        "Transition timing",
+        "Safe controlled finish"
+      ],
+      "vi": [
+        "Connection before force",
+        "Body position and angle",
+        "Transition timing",
+        "Safe controlled finish"
+      ],
+      "fr": [
+        "Connection before force",
+        "Body position and angle",
+        "Transition timing",
+        "Safe controlled finish"
+      ]
+    },
+    "sourceNote": "Public YouTube No-Gi reference selected for NoGiMind coverage expansion."
+  },
+  {
+    "id": "closed-guard-posture-break-sweep",
+    "provider": "youtube",
+    "title": {
+      "en": "Easy closed guard sweep after you broke down their posture",
+      "vi": "Easy closed guard sweep after you broke down their posture",
+      "fr": "Easy closed guard sweep after you broke down their posture"
+    },
+    "channelName": "Closed Guard",
+    "url": "https://www.youtube.com/watch?v=bvlwDCP7y8M",
+    "embedUrl": "https://www.youtube.com/embed/bvlwDCP7y8M",
+    "youtubeId": "bvlwDCP7y8M",
+    "language": "en",
+    "relatedSkillIds": [
+      "closed-guard-posture-control",
+      "closed-guard-sweeps"
+    ],
+    "relatedPositionIds": [
+      "closed-guard"
+    ],
+    "techniqueTags": [
+      "no-gi",
+      "closed-guard",
+      "posture-control",
+      "sweep"
+    ],
+    "relevance": "supplemental",
+    "level": "beginner",
+    "whyUseful": {
+      "en": "Public No-Gi YouTube reference selected to improve coverage for this NoGiMind skill.",
+      "vi": "Public No-Gi YouTube reference selected to improve coverage for this NoGiMind skill.",
+      "fr": "Public No-Gi YouTube reference selected to improve coverage for this NoGiMind skill."
+    },
+    "whatToWatchFor": {
+      "en": [
+        "Connection before force",
+        "Body position and angle",
+        "Transition timing",
+        "Safe controlled finish"
+      ],
+      "vi": [
+        "Connection before force",
+        "Body position and angle",
+        "Transition timing",
+        "Safe controlled finish"
+      ],
+      "fr": [
+        "Connection before force",
+        "Body position and angle",
+        "Transition timing",
+        "Safe controlled finish"
+      ]
+    },
+    "sourceNote": "Public YouTube No-Gi reference selected for NoGiMind coverage expansion."
+  },
+  {
+    "id": "craig-hit-em-with-the-hips",
+    "provider": "youtube",
+    "title": {
+      "en": "Hit Em With The Hips by Craig Jones",
+      "vi": "Hit Em With The Hips by Craig Jones",
+      "fr": "Hit Em With The Hips by Craig Jones"
+    },
+    "channelName": "Craig Jones",
+    "url": "https://www.youtube.com/watch?v=Gcvqd298-Xk",
+    "embedUrl": "https://www.youtube.com/embed/Gcvqd298-Xk",
+    "youtubeId": "Gcvqd298-Xk",
+    "language": "en",
+    "relatedSkillIds": [
+      "scramble-control",
+      "sprawl-go-behind",
+      "failure-response-transitions"
+    ],
+    "relatedPositionIds": [
+      "standing",
+      "front-headlock"
+    ],
+    "techniqueTags": [
+      "no-gi",
+      "scramble",
+      "wrestling",
+      "hips"
+    ],
+    "relevance": "supplemental",
+    "level": "intermediate",
+    "whyUseful": {
+      "en": "Public No-Gi YouTube reference selected to improve coverage for this NoGiMind skill.",
+      "vi": "Public No-Gi YouTube reference selected to improve coverage for this NoGiMind skill.",
+      "fr": "Public No-Gi YouTube reference selected to improve coverage for this NoGiMind skill."
+    },
+    "whatToWatchFor": {
+      "en": [
+        "Connection before force",
+        "Body position and angle",
+        "Transition timing",
+        "Safe controlled finish"
+      ],
+      "vi": [
+        "Connection before force",
+        "Body position and angle",
+        "Transition timing",
+        "Safe controlled finish"
+      ],
+      "fr": [
+        "Connection before force",
+        "Body position and angle",
+        "Transition timing",
+        "Safe controlled finish"
+      ]
+    },
+    "sourceNote": "Public YouTube No-Gi reference selected for NoGiMind coverage expansion."
+  },
+  {
+    "id": "s-mount-frame-armbar-control",
+    "provider": "youtube",
+    "title": {
+      "en": "S Mount Frame Escape by Andre Galvao",
+      "vi": "S Mount Frame Escape by Andre Galvao",
+      "fr": "S Mount Frame Escape by Andre Galvao"
+    },
+    "channelName": "Andre Galvao",
+    "url": "https://www.youtube.com/watch?v=iPcKmTSrjSw",
+    "embedUrl": "https://www.youtube.com/embed/iPcKmTSrjSw",
+    "youtubeId": "iPcKmTSrjSw",
+    "language": "en",
+    "relatedSkillIds": [
+      "s-mount-armbar",
+      "mount-control"
+    ],
+    "relatedPositionIds": [
+      "mount"
+    ],
+    "techniqueTags": [
+      "no-gi",
+      "s-mount",
+      "armbar",
+      "mount"
+    ],
+    "relevance": "supplemental",
+    "level": "intermediate",
+    "whyUseful": {
+      "en": "Public No-Gi YouTube reference selected to improve coverage for this NoGiMind skill.",
+      "vi": "Public No-Gi YouTube reference selected to improve coverage for this NoGiMind skill.",
+      "fr": "Public No-Gi YouTube reference selected to improve coverage for this NoGiMind skill."
+    },
+    "whatToWatchFor": {
+      "en": [
+        "Connection before force",
+        "Body position and angle",
+        "Transition timing",
+        "Safe controlled finish"
+      ],
+      "vi": [
+        "Connection before force",
+        "Body position and angle",
+        "Transition timing",
+        "Safe controlled finish"
+      ],
+      "fr": [
+        "Connection before force",
+        "Body position and angle",
+        "Transition timing",
+        "Safe controlled finish"
+      ]
+    },
+    "sourceNote": "Public YouTube No-Gi reference selected for NoGiMind coverage expansion."
+  },
+  {
+    "id": "tarikoplata-no-gi-reference",
+    "provider": "youtube",
+    "title": {
+      "en": "Tarikoplata: The Most SAVAGE Shoulder Lock | Tarik Hopstock",
+      "vi": "Tarikoplata: The Most SAVAGE Shoulder Lock | Tarik Hopstock",
+      "fr": "Tarikoplata: The Most SAVAGE Shoulder Lock | Tarik Hopstock"
+    },
+    "channelName": "Tarik Hopstock",
+    "url": "https://www.youtube.com/watch?v=DN8j2Fq8svk",
+    "embedUrl": "https://www.youtube.com/embed/DN8j2Fq8svk",
+    "youtubeId": "DN8j2Fq8svk",
+    "language": "en",
+    "relatedSkillIds": [
+      "tarikoplata",
+      "kimura-system"
+    ],
+    "relatedPositionIds": [
+      "side-control",
+      "closed-guard"
+    ],
+    "techniqueTags": [
+      "no-gi",
+      "tarikoplata",
+      "kimura"
+    ],
+    "relevance": "supplemental",
+    "level": "advanced",
+    "whyUseful": {
+      "en": "Public No-Gi YouTube reference selected to improve coverage for this NoGiMind skill.",
+      "vi": "Public No-Gi YouTube reference selected to improve coverage for this NoGiMind skill.",
+      "fr": "Public No-Gi YouTube reference selected to improve coverage for this NoGiMind skill."
+    },
+    "whatToWatchFor": {
+      "en": [
+        "Connection before force",
+        "Body position and angle",
+        "Transition timing",
+        "Safe controlled finish"
+      ],
+      "vi": [
+        "Connection before force",
+        "Body position and angle",
+        "Transition timing",
+        "Safe controlled finish"
+      ],
+      "fr": [
+        "Connection before force",
+        "Body position and angle",
+        "Transition timing",
+        "Safe controlled finish"
+      ]
+    },
+    "sourceNote": "Public YouTube No-Gi reference selected for NoGiMind coverage expansion."
+  },
+  {
+    "id": "de-la-riva-back-take-leg-drag",
+    "provider": "youtube",
+    "title": {
+      "en": "Reverse De La Riva to LEG DRAG & TRUCK",
+      "vi": "Reverse De La Riva to LEG DRAG & TRUCK",
+      "fr": "Reverse De La Riva to LEG DRAG & TRUCK"
+    },
+    "channelName": "De La Riva Guard",
+    "url": "https://www.youtube.com/watch?v=AHEjvNvTiY8",
+    "embedUrl": "https://www.youtube.com/embed/AHEjvNvTiY8",
+    "youtubeId": "AHEjvNvTiY8",
+    "language": "en",
+    "relatedSkillIds": [
+      "de-la-riva-back-take",
+      "reverse-de-la-riva-transitions",
+      "leg-drag-pass"
+    ],
+    "relatedPositionIds": [
+      "de-la-riva",
+      "back-control-position"
+    ],
+    "techniqueTags": [
+      "no-gi",
+      "de-la-riva",
+      "back-take",
+      "leg-drag"
+    ],
+    "relevance": "supplemental",
+    "level": "advanced",
+    "whyUseful": {
+      "en": "Public No-Gi YouTube reference selected to improve coverage for this NoGiMind skill.",
+      "vi": "Public No-Gi YouTube reference selected to improve coverage for this NoGiMind skill.",
+      "fr": "Public No-Gi YouTube reference selected to improve coverage for this NoGiMind skill."
+    },
+    "whatToWatchFor": {
+      "en": [
+        "Connection before force",
+        "Body position and angle",
+        "Transition timing",
+        "Safe controlled finish"
+      ],
+      "vi": [
+        "Connection before force",
+        "Body position and angle",
+        "Transition timing",
+        "Safe controlled finish"
+      ],
+      "fr": [
+        "Connection before force",
+        "Body position and angle",
+        "Transition timing",
+        "Safe controlled finish"
+      ]
+    },
+    "sourceNote": "Public YouTube No-Gi reference selected for NoGiMind coverage expansion."
   }
 ]

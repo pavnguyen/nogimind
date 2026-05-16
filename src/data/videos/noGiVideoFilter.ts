@@ -38,6 +38,7 @@ const technicalNoGiSignals = [
   'k-guard',
   'saddle',
   'inside sankaku',
+  'straight ankle lock',
 ]
 
 const trustedNoGiChannels = [
@@ -50,6 +51,12 @@ const trustedNoGiChannels = [
   'Jason Rau',
   'B-Team Jiu Jitsu',
   'Ben Kool Tech',
+  'Brian Glick',
+  'Garry Tonon',
+]
+
+const deniedGiLeaningChannels = [
+  'The Grappling Academy',
 ]
 
 // Channels known to produce primarily Gi content.
@@ -61,6 +68,10 @@ const giOnlyChannels = [
   'Art of Jiu Jitsu',
   'Art of Jiujitsu',
   'Tainan Dalpra',
+  'Mendes Brothers',
+  'Mendes Bros',
+  'Mendes BJJ',
+  'The Grappling Accademy',
 ]
 
 const giOnlySignals = [
@@ -101,7 +112,11 @@ const normalized = (value: string) =>
     .trim()
 
 const hasStandaloneGi = (text: string) =>
-  /\bgi\b/.test(text) && !/\b(no\s*-?\s*gi|nogi)\b/.test(text)
+  /\bgi\b/.test(
+    text
+      .replace(/\bno\s*-?\s*gi\b/g, '')
+      .replace(/\bnogi\b/g, ''),
+  )
 
 const getTitleText = (video: VideoLike) =>
   typeof video.title === 'string'
@@ -115,6 +130,10 @@ const isBjjTipsGenerated = (video: VideoLike) =>
   video.source_page?.startsWith('positions/')
 
 export const classifyNoGiVideo = (video: VideoLike): NoGiVideoClassification => {
+  if (deniedGiLeaningChannels.some((channel) => normalized(video.channelName) === normalized(channel))) {
+    return { status: 'reject', reasons: ['channel is gi-leaning'] }
+  }
+
   const visualHaystack = normalized([
     getTitleText(video),
     video.channelName,
