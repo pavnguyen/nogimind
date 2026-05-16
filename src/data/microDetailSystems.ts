@@ -2,6 +2,7 @@ import type { FastFinishPath, LeftRightGuide, LocalizedStringArray, LocalizedTex
 import { extraMicroDetailSystems } from './remainingCoverage'
 import { armbarTriangleMicroDetailSystemEntries } from './microDetailSystems_armbar_triangle'
 import { omoplataMicroDetailSystemEntry } from './microDetailSystems_omoplata'
+import { priorityNoGiMicroDetailSystems } from './microDetailSystems_priority'
 
 const lt = (vi: string, en = vi, fr = en): LocalizedText => ({ vi, en, fr })
 const la = (vi: string[], en: string[], fr: string[]): LocalizedStringArray => ({ vi, en, fr })
@@ -1988,7 +1989,7 @@ const systems: Record<string, MicroDetailSystem> = {
     leftRightGuides: [],
     fastFinishPaths: [],
     troubleshootingTips: [],
-    doNotDo: la([], [], []),
+    doNotDo: la(['Chưa cập nhật'], ['Pending update'], ['Mise à jour en attente']),
     safetyNotes: safety,
   },
   'closed-guard-sweeps': {
@@ -1999,7 +2000,7 @@ const systems: Record<string, MicroDetailSystem> = {
     leftRightGuides: [],
     fastFinishPaths: [],
     troubleshootingTips: [],
-    doNotDo: la([], [], []),
+    doNotDo: la(['Chưa cập nhật'], ['Pending update'], ['Mise à jour en attente']),
     safetyNotes: safety,
   },
   'de-la-riva-sweeps': {
@@ -2010,7 +2011,7 @@ const systems: Record<string, MicroDetailSystem> = {
     leftRightGuides: [],
     fastFinishPaths: [],
     troubleshootingTips: [],
-    doNotDo: la([], [], []),
+    doNotDo: la(['Chưa cập nhật'], ['Pending update'], ['Mise à jour en attente']),
     safetyNotes: safety,
   },
   'de-la-riva-back-take': {
@@ -2021,7 +2022,7 @@ const systems: Record<string, MicroDetailSystem> = {
     leftRightGuides: [],
     fastFinishPaths: [],
     troubleshootingTips: [],
-    doNotDo: la([], [], []),
+    doNotDo: la(['Chưa cập nhật'], ['Pending update'], ['Mise à jour en attente']),
     safetyNotes: safety,
   },
   'reverse-de-la-riva-transitions': {
@@ -2032,7 +2033,7 @@ const systems: Record<string, MicroDetailSystem> = {
     leftRightGuides: [],
     fastFinishPaths: [],
     troubleshootingTips: [],
-    doNotDo: la([], [], []),
+    doNotDo: la(['Chưa cập nhật'], ['Pending update'], ['Mise à jour en attente']),
     safetyNotes: safety,
   },
   'z-guard-sweeps': {
@@ -2043,7 +2044,7 @@ const systems: Record<string, MicroDetailSystem> = {
     leftRightGuides: [],
     fastFinishPaths: [],
     troubleshootingTips: [],
-    doNotDo: la([], [], []),
+    doNotDo: la(['Chưa cập nhật'], ['Pending update'], ['Mise à jour en attente']),
     safetyNotes: safety,
   },
   'knee-on-belly-control': {
@@ -2054,7 +2055,7 @@ const systems: Record<string, MicroDetailSystem> = {
     leftRightGuides: [],
     fastFinishPaths: [],
     troubleshootingTips: [],
-    doNotDo: la([], [], []),
+    doNotDo: la(['Chưa cập nhật'], ['Pending update'], ['Mise à jour en attente']),
     safetyNotes: safety,
   },
   'north-south-control': {
@@ -2065,7 +2066,7 @@ const systems: Record<string, MicroDetailSystem> = {
     leftRightGuides: [],
     fastFinishPaths: [],
     troubleshootingTips: [],
-    doNotDo: la([], [], []),
+    doNotDo: la(['Chưa cập nhật'], ['Pending update'], ['Mise à jour en attente']),
     safetyNotes: safety,
   },
   'inverted-guard-control': {
@@ -2076,12 +2077,13 @@ const systems: Record<string, MicroDetailSystem> = {
     leftRightGuides: [],
     fastFinishPaths: [],
     troubleshootingTips: [],
-    doNotDo: la([], [], []),
+    doNotDo: la(['Chưa cập nhật'], ['Pending update'], ['Mise à jour en attente']),
     safetyNotes: safety,
   },
 }
 
 Object.assign(systems, extraMicroDetailSystems)
+Object.assign(systems, priorityNoGiMicroDetailSystems)
 for (const [id, system] of armbarTriangleMicroDetailSystemEntries) systems[id] = system
 systems[omoplataMicroDetailSystemEntry[0]] = omoplataMicroDetailSystemEntry[1]
 

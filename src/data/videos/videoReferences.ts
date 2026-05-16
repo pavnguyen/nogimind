@@ -1,4 +1,5 @@
 import type { VideoReference } from '../../types/video'
+import { newTrustedVideos } from './new_trusted_videos'
 
 // Curated public YouTube references only. Keep this list human-reviewed:
 // no transcripts, no pirated course footage, no invented IDs, and no Gi-only techniques.
@@ -370,73 +371,6 @@ export const videoReferences: VideoReference[] = [
       }
     ],
     "sourceNote": "Public YouTube reference found via BJJ Tips listing for Lachlan Giles videos."
-  },
-  {
-    "id": "gogoplata-safety-reference",
-    "provider": "youtube",
-    "title": {
-      "en": "Gogoplata CHOKE | Setups and 4 WAYS to finish",
-      "vi": "Gogoplata CHOKE | Setups và 4 CACH Kết thực",
-      "fr": "Gogoplata CHOKE | Setups et 4 FACONS de finir"
-    },
-    "channelName": "Energia Martial Arts",
-    "url": "https://www.youtube.com/watch?v=PsYSobSqBgI",
-    "embedUrl": "https://www.youtube.com/embed/PsYSobSqBgI",
-    "youtubeId": "PsYSobSqBgI",
-    "language": "en",
-    "relatedSkillIds": [
-      "gogoplata"
-    ],
-    "techniqueTags": [
-      "gogoplata",
-      "rubber-guard",
-      "choke",
-      "neck-safety"
-    ],
-    "relevance": "safety_reference",
-    "level": "advanced",
-    "whyUseful": {
-      "en": "A reference covering gogoplata setups and finishes while highlighting the neck strain and flexibility risks of forcing the technique.",
-      "vi": "Video tham khảo ve setup và finish gogoplata, nhận mạnh nguy cổ cang cổ và rang buoc do gian khi cổ ép kỹ thuật.",
-      "fr": "Reference couvrant les setups et finishes gogoplata tout en soulignant la tension cervicale et les risques de flexibilite."
-    },
-    "whatToWatchFor": {
-      "en": [
-        "Foot placement on the throat vs chin",
-        "Avoid cranking the neck",
-        "Recognize when flexibility is insufficient",
-        "Release on tap or distress"
-      ],
-      "vi": [
-        "Đặt chân len cổ thay vì hàm",
-        "Tránh bop cổ",
-        "Nhận biết khi do gian không du",
-        "Thả ngay khi tập hoặc dấu hiệu khó chịu"
-      ],
-      "fr": [
-        "Placement du pied sur la gorge vs menton",
-        "Eviter de tordre le cou",
-        "Reconnaitre quand la flexibilite est insuffisante",
-        "Relacher au tap ou signe de detresse"
-      ]
-    },
-    "caution": {
-      "en": "Gogoplata applies pressure directly to the neck and throat. Tap early if you feel any neck strain, jaw discomfort, or breathing difficulty. Do not force the technique if shoulder or hip flexibility is limited.",
-      "vi": "Gogoplata gay ap lực trúc tiếp len cổ và hông. Tập som neu cam thay cang cổ, khó chịu hàm hoặc khó tho. Không cổ ép kỹ thuật neu do gian vai hoặc hông bị han che.",
-      "fr": "Le gogoplata applique une pression directe sur le cou et la gorge. Tapez tot si vous sentez une tension cervicale, une gene a la machoire ou une difficulte respiratoire."
-    },
-    "timestamps": [
-      {
-        "id": "full-video",
-        "label": {
-          "en": "Full technique breakdown",
-          "vi": "Phan tich ky thuat toan bo",
-          "fr": "Analyse technique complete"
-        },
-        "timeSeconds": 0
-      }
-    ],
-    "sourceNote": "Public YouTube reference selected for safety-critical coverage."
   },
   {
     "id": "buggy-choke-safety-reference",
@@ -5120,123 +5054,6 @@ export const videoReferences: VideoReference[] = [
     "sourceNote": "Curated from bjj.tips public YouTube listings."
   },
   {
-    "id": "bjj-back-control-54jcw",
-    "provider": "youtube",
-    "title": {
-      "en": "How to ESCAPE Side Control CRUCIFIX #bjj #jiujitsu #grappling",
-      "vi": "How to ESCAPE Side Control CRUCIFIX #bjj #jiujitsu #grappling (phân tích)",
-      "fr": "How to ESCAPE Side Control CRUCIFIX #bjj #jiujitsu #grappling (analyse)"
-    },
-    "channelName": "John Connors, Old Man BJJ Black Belt",
-    "url": "https://www.youtube.com/watch?v=PL54HjGcDMw",
-    "embedUrl": "https://www.youtube.com/embed/PL54HjGcDMw",
-    "youtubeId": "PL54HjGcDMw",
-    "language": "en",
-    "relatedSkillIds": [
-      "side-control-escape"
-    ],
-    "relatedPositionIds": [
-      "side-control-bottom"
-    ],
-    "techniqueTags": [
-      "escape",
-      "frames",
-      "side-control",
-      "underhook"
-    ],
-    "relevance": "supplemental",
-    "level": "beginner",
-    "whyUseful": {
-      "en": "Back Control provides a detailed breakdown of How to ESCAPE Side Control CRUCIFIX #bjj #jiujitsu #grappling with practical drilling advice.",
-      "vi": "Back Control cung cấp phân tích chi tiết với lời khuyên tập luyện thực tế.",
-      "fr": "Back Control fournit une analyse detaillee avec des conseils pratiques."
-    },
-    "whatToWatchFor": {
-      "en": [
-        "Body positioning and weight distribution",
-        "Grip control and placement",
-        "Finishing mechanics",
-        "Common mistakes to avoid"
-      ],
-      "vi": [
-        "Positioning cơ thể và phân bổ trọng lượng",
-        "Kiểm soát grip và đặt tay",
-        "Mechanics hoàn thiện",
-        "Lỗi thường gặp cần tránh"
-      ],
-      "fr": [
-        "Positionnement du corps et repartition du poids",
-        "Controle et placement des grips",
-        "Mecanique de finition",
-        "Erreurs courantes a eviter"
-      ]
-    },
-    "sourceNote": "Curated from bjj.tips public YouTube listings."
-  },
-  {
-    "id": "bjj-closed-guard-oxsu5k3q0",
-    "provider": "youtube",
-    "title": {
-      "en": "K guard BJJ #mma #bjj #brazilianjiujitsu",
-      "vi": "K guard BJJ #mma #bjj #brazilianjiujitsu (phân tích)",
-      "fr": "K guard BJJ #mma #bjj #brazilianjiujitsu (analyse)"
-    },
-    "channelName": "Energia Martial Arts",
-    "url": "https://www.youtube.com/watch?v=oExsu5kV3q0",
-    "embedUrl": "https://www.youtube.com/embed/oExsu5kV3q0",
-    "youtubeId": "oExsu5kV3q0",
-    "language": "en",
-    "relatedSkillIds": [
-      "heel-hook-safety",
-      "k-guard-matrix"
-    ],
-    "relatedPositionIds": [
-      "saddle-inside-sankaku"
-    ],
-    "techniqueTags": [
-      "heel-hook",
-      "k-guard",
-      "knee-line",
-      "leg-entanglements",
-      "leg-lock",
-      "matrix",
-      "safety"
-    ],
-    "relevance": "primary_reference",
-    "level": "advanced",
-    "whyUseful": {
-      "en": "Closed Guard provides a detailed breakdown of K guard BJJ #mma #bjj #brazilianjiujitsu with practical drilling advice.",
-      "vi": "Closed Guard cung cấp phân tích chi tiết với lời khuyên tập luyện thực tế.",
-      "fr": "Closed Guard fournit une analyse detaillee avec des conseils pratiques."
-    },
-    "whatToWatchFor": {
-      "en": [
-        "Body positioning and weight distribution",
-        "Grip control and placement",
-        "Finishing mechanics",
-        "Common mistakes to avoid"
-      ],
-      "vi": [
-        "Positioning cơ thể và phân bổ trọng lượng",
-        "Kiểm soát grip và đặt tay",
-        "Mechanics hoàn thiện",
-        "Lỗi thường gặp cần tránh"
-      ],
-      "fr": [
-        "Positionnement du corps et repartition du poids",
-        "Controle et placement des grips",
-        "Mecanique de finition",
-        "Erreurs courantes a eviter"
-      ]
-    },
-    "sourceNote": "Curated from bjj.tips public YouTube listings.",
-    "caution": {
-      "en": "Leg locks are safety-critical. Control slowly, stop before rotational pressure spikes, and release immediately on tap.",
-      "vi": "Leg lock là nhóm kỹ thuật nhạy cảm. Kiểm soát chậm, dừng trước khi lực xoắn tăng mạnh và thả ngay khi tap.",
-      "fr": "Les leg locks sont critiques pour la securite. Controlez lentement, arretez avant le pic de rotation et relachez au tap."
-    }
-  },
-  {
     "id": "bjj-closed-guard-ztpvgiw",
     "provider": "youtube",
     "title": {
@@ -5264,120 +5081,6 @@ export const videoReferences: VideoReference[] = [
       "en": "Closed Guard provides a detailed breakdown of The Best Way To Escape Closed Guard 👌 #gordonryan #bjj #adcc #nogi #mma #armbar #whitebelt #ufc with practical drilling advice.",
       "vi": "Closed Guard cung cấp phân tích chi tiết với lời khuyên tập luyện thực tế.",
       "fr": "Closed Guard fournit une analyse detaillee avec des conseils pratiques."
-    },
-    "whatToWatchFor": {
-      "en": [
-        "Body positioning and weight distribution",
-        "Grip control and placement",
-        "Finishing mechanics",
-        "Common mistakes to avoid"
-      ],
-      "vi": [
-        "Positioning cơ thể và phân bổ trọng lượng",
-        "Kiểm soát grip và đặt tay",
-        "Mechanics hoàn thiện",
-        "Lỗi thường gặp cần tránh"
-      ],
-      "fr": [
-        "Positionnement du corps et repartition du poids",
-        "Controle et placement des grips",
-        "Mecanique de finition",
-        "Erreurs courantes a eviter"
-      ]
-    },
-    "sourceNote": "Curated from bjj.tips public YouTube listings."
-  },
-  {
-    "id": "bjj-half-guard-2orz30",
-    "provider": "youtube",
-    "title": {
-      "en": "OCTOPUS GUARD = EASY BACK TAKE  #mma #grappling #bjj #selfdefense #ufc #martialarts",
-      "vi": "OCTOPUS GUARD = EASY BACK TAKE  #mma #grappling #bjj #selfdefense #ufc #martialarts (phân tích)",
-      "fr": "OCTOPUS GUARD = EASY BACK TAKE  #mma #grappling #bjj #selfdefense #ufc #martialarts (analyse)"
-    },
-    "channelName": "Juanjo BJJ Tecnicas y Drills",
-    "url": "https://www.youtube.com/watch?v=2JYUoJrRz30",
-    "embedUrl": "https://www.youtube.com/embed/2JYUoJrRz30",
-    "youtubeId": "2JYUoJrRz30",
-    "language": "en",
-    "relatedSkillIds": [
-      "back-control",
-      "half-guard-knee-shield",
-      "octopus-guard-control"
-    ],
-    "relatedPositionIds": [
-      "back-control-position",
-      "half-guard-bottom"
-    ],
-    "techniqueTags": [
-      "back-control",
-      "back-take",
-      "control",
-      "guard-system",
-      "half-guard",
-      "knee-shield",
-      "octopus-guard",
-      "seatbelt"
-    ],
-    "relevance": "primary_reference",
-    "level": "intermediate",
-    "whyUseful": {
-      "en": "Half Guard provides a detailed breakdown of OCTOPUS GUARD = EASY BACK TAKE  #mma #grappling #bjj #selfdefense #ufc #martialarts with practical drilling advice.",
-      "vi": "Half Guard cung cấp phân tích chi tiết với lời khuyên tập luyện thực tế.",
-      "fr": "Half Guard fournit une analyse detaillee avec des conseils pratiques."
-    },
-    "whatToWatchFor": {
-      "en": [
-        "Body positioning and weight distribution",
-        "Grip control and placement",
-        "Finishing mechanics",
-        "Common mistakes to avoid"
-      ],
-      "vi": [
-        "Positioning cơ thể và phân bổ trọng lượng",
-        "Kiểm soát grip và đặt tay",
-        "Mechanics hoàn thiện",
-        "Lỗi thường gặp cần tránh"
-      ],
-      "fr": [
-        "Positionnement du corps et repartition du poids",
-        "Controle et placement des grips",
-        "Mecanique de finition",
-        "Erreurs courantes a eviter"
-      ]
-    },
-    "sourceNote": "Curated from bjj.tips public YouTube listings."
-  },
-  {
-    "id": "bjj-half-guard-wn0m",
-    "provider": "youtube",
-    "title": {
-      "en": "UNSTOPPABLE SWEEP from OCTOPUS GUARD #mma #grappling #selfdefense #ufc #bjj",
-      "vi": "UNSTOPPABLE SWEEP from OCTOPUS GUARD #mma #grappling #selfdefense #ufc #bjj (phân tích)",
-      "fr": "UNSTOPPABLE SWEEP from OCTOPUS GUARD #mma #grappling #selfdefense #ufc #bjj (analyse)"
-    },
-    "channelName": "Juanjo BJJ Tecnicas y Drills",
-    "url": "https://www.youtube.com/watch?v=PIwAnMCR0mU",
-    "embedUrl": "https://www.youtube.com/embed/PIwAnMCR0mU",
-    "youtubeId": "PIwAnMCR0mU",
-    "language": "en",
-    "relatedSkillIds": [
-      "octopus-guard-control"
-    ],
-    "relatedPositionIds": [
-      "half-guard-bottom"
-    ],
-    "techniqueTags": [
-      "guard-system",
-      "half-guard",
-      "octopus-guard"
-    ],
-    "relevance": "primary_reference",
-    "level": "intermediate",
-    "whyUseful": {
-      "en": "Half Guard provides a detailed breakdown of UNSTOPPABLE SWEEP from OCTOPUS GUARD #mma #grappling #selfdefense #ufc #bjj with practical drilling advice.",
-      "vi": "Half Guard cung cấp phân tích chi tiết với lời khuyên tập luyện thực tế.",
-      "fr": "Half Guard fournit une analyse detaillee avec des conseils pratiques."
     },
     "whatToWatchFor": {
       "en": [
@@ -5596,59 +5299,6 @@ export const videoReferences: VideoReference[] = [
     "level": "beginner",
     "whyUseful": {
       "en": "Mount provides a detailed breakdown of One mount escape even Giancarlo Bodoni couldn&#x27;t stop with practical drilling advice.",
-      "vi": "Mount cung cấp phân tích chi tiết với lời khuyên tập luyện thực tế.",
-      "fr": "Mount fournit une analyse detaillee avec des conseils pratiques."
-    },
-    "whatToWatchFor": {
-      "en": [
-        "Body positioning and weight distribution",
-        "Grip control and placement",
-        "Finishing mechanics",
-        "Common mistakes to avoid"
-      ],
-      "vi": [
-        "Positioning cơ thể và phân bổ trọng lượng",
-        "Kiểm soát grip và đặt tay",
-        "Mechanics hoàn thiện",
-        "Lỗi thường gặp cần tránh"
-      ],
-      "fr": [
-        "Positionnement du corps et repartition du poids",
-        "Controle et placement des grips",
-        "Mecanique de finition",
-        "Erreurs courantes a eviter"
-      ]
-    },
-    "sourceNote": "Curated from bjj.tips public YouTube listings."
-  },
-  {
-    "id": "bjj-mount-9g26jn_pzw",
-    "provider": "youtube",
-    "title": {
-      "en": "EASY BJJ Mount Escape  #bjj #grappling #brazilianjiujitsu #bjjtechnique",
-      "vi": "EASY BJJ Mount Escape  #bjj #grappling #brazilianjiujitsu #bjjtechnique (phân tích)",
-      "fr": "EASY BJJ Mount Escape  #bjj #grappling #brazilianjiujitsu #bjjtechnique (analyse)"
-    },
-    "channelName": "John Connors, Old Man BJJ Black Belt",
-    "url": "https://www.youtube.com/watch?v=9g26jnF_pzw",
-    "embedUrl": "https://www.youtube.com/embed/9g26jnF_pzw",
-    "youtubeId": "9g26jnF_pzw",
-    "language": "en",
-    "relatedSkillIds": [
-      "mount-escape"
-    ],
-    "relatedPositionIds": [
-      "mount-bottom"
-    ],
-    "techniqueTags": [
-      "bridge",
-      "escape",
-      "mount"
-    ],
-    "relevance": "primary_reference",
-    "level": "beginner",
-    "whyUseful": {
-      "en": "Mount provides a detailed breakdown of EASY BJJ Mount Escape  #bjj #grappling #brazilianjiujitsu #bjjtechnique with practical drilling advice.",
       "vi": "Mount cung cấp phân tích chi tiết với lời khuyên tập luyện thực tế.",
       "fr": "Mount fournit une analyse detaillee avec des conseils pratiques."
     },
@@ -6061,168 +5711,6 @@ export const videoReferences: VideoReference[] = [
     "sourceNote": "Curated from bjj.tips public YouTube listings."
   },
   {
-    "id": "bjj-turtle-gho1",
-    "provider": "youtube",
-    "title": {
-      "en": "How to Pass Turtle Guard with Crab Ride #nogi #bjj",
-      "vi": "How to Pass Turtle Guard with Crab Ride #nogi #bjj (phân tích)",
-      "fr": "How to Pass Turtle Guard with Crab Ride #nogi #bjj (analyse)"
-    },
-    "channelName": "rashadmoves",
-    "url": "https://www.youtube.com/watch?v=UXgKJOhHo1E",
-    "embedUrl": "https://www.youtube.com/embed/UXgKJOhHo1E",
-    "youtubeId": "UXgKJOhHo1E",
-    "language": "en",
-    "relatedSkillIds": [
-      "crab-ride"
-    ],
-    "techniqueTags": [
-      "back-take",
-      "crab-ride",
-      "leg-ride"
-    ],
-    "relevance": "primary_reference",
-    "level": "advanced",
-    "whyUseful": {
-      "en": "Turtle provides a detailed breakdown of How to Pass Turtle Guard with Crab Ride #nogi #bjj with practical drilling advice.",
-      "vi": "Turtle cung cấp phân tích chi tiết với lời khuyên tập luyện thực tế.",
-      "fr": "Turtle fournit une analyse detaillee avec des conseils pratiques."
-    },
-    "whatToWatchFor": {
-      "en": [
-        "Body positioning and weight distribution",
-        "Grip control and placement",
-        "Finishing mechanics",
-        "Common mistakes to avoid"
-      ],
-      "vi": [
-        "Positioning cơ thể và phân bổ trọng lượng",
-        "Kiểm soát grip và đặt tay",
-        "Mechanics hoàn thiện",
-        "Lỗi thường gặp cần tránh"
-      ],
-      "fr": [
-        "Positionnement du corps et repartition du poids",
-        "Controle et placement des grips",
-        "Mecanique de finition",
-        "Erreurs courantes a eviter"
-      ]
-    },
-    "sourceNote": "Curated from bjj.tips public YouTube listings."
-  },
-  {
-    "id": "bjj-turtle-8zgnm",
-    "provider": "youtube",
-    "title": {
-      "en": "How to Pass Turtle Guard with Crab Ride #nogi #bjj",
-      "vi": "How to Pass Turtle Guard with Crab Ride #nogi #bjj (phân tích)",
-      "fr": "How to Pass Turtle Guard with Crab Ride #nogi #bjj (analyse)"
-    },
-    "channelName": "rashadmoves",
-    "url": "https://www.youtube.com/watch?v=8LQzgnmBSVE",
-    "embedUrl": "https://www.youtube.com/embed/8LQzgnmBSVE",
-    "youtubeId": "8LQzgnmBSVE",
-    "language": "en",
-    "relatedSkillIds": [
-      "crab-ride",
-      "rear-triangle-control"
-    ],
-    "relatedPositionIds": [
-      "back-control-position"
-    ],
-    "techniqueTags": [
-      "back-control",
-      "back-take",
-      "choke",
-      "crab-ride",
-      "leg-ride",
-      "rear-triangle"
-    ],
-    "relevance": "primary_reference",
-    "level": "advanced",
-    "whyUseful": {
-      "en": "Turtle provides a detailed breakdown of How to Pass Turtle Guard with Crab Ride #nogi #bjj with practical drilling advice.",
-      "vi": "Turtle cung cấp phân tích chi tiết với lời khuyên tập luyện thực tế.",
-      "fr": "Turtle fournit une analyse detaillee avec des conseils pratiques."
-    },
-    "whatToWatchFor": {
-      "en": [
-        "Body positioning and weight distribution",
-        "Grip control and placement",
-        "Finishing mechanics",
-        "Common mistakes to avoid"
-      ],
-      "vi": [
-        "Positioning cơ thể và phân bổ trọng lượng",
-        "Kiểm soát grip và đặt tay",
-        "Mechanics hoàn thiện",
-        "Lỗi thường gặp cần tránh"
-      ],
-      "fr": [
-        "Positionnement du corps et repartition du poids",
-        "Controle et placement des grips",
-        "Mecanique de finition",
-        "Erreurs courantes a eviter"
-      ]
-    },
-    "sourceNote": "Curated from bjj.tips public YouTube listings.",
-    "caution": {
-      "en": "Release immediately on tap or distress; seek a clean strangle and avoid forcing the jaw or cervical spine.",
-      "vi": "Thả ngay khi tap hoặc có dấu hiệu khó chịu; ưu tiên siết sạch và tránh ép qua hàm hoặc cột sống cổ.",
-      "fr": "Relachez immediatement au tap ou en detresse; cherchez un etranglement propre sans forcer machoire ou cervicales."
-    }
-  },
-  {
-    "id": "bjj-turtle-vrl5dg",
-    "provider": "youtube",
-    "title": {
-      "en": "How to Pass Turtle Guard with Crab Ride #nogi #bjj",
-      "vi": "How to Pass Turtle Guard with Crab Ride #nogi #bjj (phân tích)",
-      "fr": "How to Pass Turtle Guard with Crab Ride #nogi #bjj (analyse)"
-    },
-    "channelName": "rashadmoves",
-    "url": "https://www.youtube.com/watch?v=LvrXlS5dNGg",
-    "embedUrl": "https://www.youtube.com/embed/LvrXlS5dNGg",
-    "youtubeId": "LvrXlS5dNGg",
-    "language": "en",
-    "relatedSkillIds": [
-      "crab-ride"
-    ],
-    "techniqueTags": [
-      "back-take",
-      "crab-ride",
-      "leg-ride"
-    ],
-    "relevance": "primary_reference",
-    "level": "advanced",
-    "whyUseful": {
-      "en": "Turtle provides a detailed breakdown of How to Pass Turtle Guard with Crab Ride #nogi #bjj with practical drilling advice.",
-      "vi": "Turtle cung cấp phân tích chi tiết với lời khuyên tập luyện thực tế.",
-      "fr": "Turtle fournit une analyse detaillee avec des conseils pratiques."
-    },
-    "whatToWatchFor": {
-      "en": [
-        "Body positioning and weight distribution",
-        "Grip control and placement",
-        "Finishing mechanics",
-        "Common mistakes to avoid"
-      ],
-      "vi": [
-        "Positioning cơ thể và phân bổ trọng lượng",
-        "Kiểm soát grip và đặt tay",
-        "Mechanics hoàn thiện",
-        "Lỗi thường gặp cần tránh"
-      ],
-      "fr": [
-        "Positionnement du corps et repartition du poids",
-        "Controle et placement des grips",
-        "Mecanique de finition",
-        "Erreurs courantes a eviter"
-      ]
-    },
-    "sourceNote": "Curated from bjj.tips public YouTube listings."
-  },
-  {
     "id": "bjj-butterfly-guard-ytv0f34e0",
     "provider": "youtube",
     "title": {
@@ -6376,60 +5864,6 @@ export const videoReferences: VideoReference[] = [
     "level": "advanced",
     "whyUseful": {
       "en": "Butterfly Guard provides a detailed breakdown of 🚀 Quick No-Gi Arm Bar from Butterfly Guard! | BJJ Short with practical drilling advice.",
-      "vi": "Butterfly Guard cung cấp phân tích chi tiết với lời khuyên tập luyện thực tế.",
-      "fr": "Butterfly Guard fournit une analyse detaillee avec des conseils pratiques."
-    },
-    "whatToWatchFor": {
-      "en": [
-        "Body positioning and weight distribution",
-        "Grip control and placement",
-        "Finishing mechanics",
-        "Common mistakes to avoid"
-      ],
-      "vi": [
-        "Positioning cơ thể và phân bổ trọng lượng",
-        "Kiểm soát grip và đặt tay",
-        "Mechanics hoàn thiện",
-        "Lỗi thường gặp cần tránh"
-      ],
-      "fr": [
-        "Positionnement du corps et repartition du poids",
-        "Controle et placement des grips",
-        "Mecanique de finition",
-        "Erreurs courantes a eviter"
-      ]
-    },
-    "sourceNote": "Curated from bjj.tips public YouTube listings."
-  },
-  {
-    "id": "bjj-butterfly-guard-82g",
-    "provider": "youtube",
-    "title": {
-      "en": "How to DEFEND the Butterfly 🦋 SWEEP  #bjj #grappling #jiujitsu #brazilianjiujitsu",
-      "vi": "How to DEFEND thể Butterfly 🦋 SWEEP  #bjj #grappling #jiujitsu #brazilianjiujitsu (phân tích)",
-      "fr": "How to DEFEND the Butterfly 🦋 SWEEP  #bjj #grappling #jiujitsu #brazilianjiujitsu (analyse)"
-    },
-    "channelName": "John Connors, Old Man BJJ Black Belt",
-    "url": "https://www.youtube.com/watch?v=GATGDH8S2Yg",
-    "embedUrl": "https://www.youtube.com/embed/GATGDH8S2Yg",
-    "youtubeId": "GATGDH8S2Yg",
-    "language": "en",
-    "relatedSkillIds": [
-      "butterfly-guard-off-balance"
-    ],
-    "relatedPositionIds": [
-      "butterfly-guard"
-    ],
-    "techniqueTags": [
-      "butterfly-guard",
-      "guard-system",
-      "off-balance",
-      "sweep"
-    ],
-    "relevance": "primary_reference",
-    "level": "intermediate",
-    "whyUseful": {
-      "en": "Butterfly Guard provides a detailed breakdown of How to DEFEND the Butterfly 🦋 SWEEP  #bjj #grappling #jiujitsu #brazilianjiujitsu with practical drilling advice.",
       "vi": "Butterfly Guard cung cấp phân tích chi tiết với lời khuyên tập luyện thực tế.",
       "fr": "Butterfly Guard fournit une analyse detaillee avec des conseils pratiques."
     },
@@ -7002,121 +6436,6 @@ export const videoReferences: VideoReference[] = [
     }
   },
   {
-    "id": "bjj-k-guard--yl0q4",
-    "provider": "youtube",
-    "title": {
-      "en": "Double K guard  #leglock #bjj #mma #energiamartialarts #anklelock #submission",
-      "vi": "Double K guard  #leglock #bjj #mma #energiamartialarts #anklelock #submission (phân tích)",
-      "fr": "Double K guard  #leglock #bjj #mma #energiamartialarts #anklelock #submission (analyse)"
-    },
-    "channelName": "Energia Martial Arts",
-    "url": "https://www.youtube.com/watch?v=-yOFFlR0Fq4",
-    "embedUrl": "https://www.youtube.com/embed/-yOFFlR0Fq4",
-    "youtubeId": "-yOFFlR0Fq4",
-    "language": "en",
-    "relatedSkillIds": [
-      "k-guard-matrix"
-    ],
-    "techniqueTags": [
-      "k-guard",
-      "leg-entanglements",
-      "matrix"
-    ],
-    "relevance": "primary_reference",
-    "level": "advanced",
-    "whyUseful": {
-      "en": "K Guard provides a detailed breakdown of Double K guard  #leglock #bjj #mma #energiamartialarts #anklelock #submission with practical drilling advice.",
-      "vi": "K Guard cung cấp phân tích chi tiết với lời khuyên tập luyện thực tế.",
-      "fr": "K Guard fournit une analyse detaillee avec des conseils pratiques."
-    },
-    "whatToWatchFor": {
-      "en": [
-        "Body positioning and weight distribution",
-        "Grip control and placement",
-        "Finishing mechanics",
-        "Common mistakes to avoid"
-      ],
-      "vi": [
-        "Positioning cơ thể và phân bổ trọng lượng",
-        "Kiểm soát grip và đặt tay",
-        "Mechanics hoàn thiện",
-        "Lỗi thường gặp cần tránh"
-      ],
-      "fr": [
-        "Positionnement du corps et repartition du poids",
-        "Controle et placement des grips",
-        "Mecanique de finition",
-        "Erreurs courantes a eviter"
-      ]
-    },
-    "sourceNote": "Curated from bjj.tips public YouTube listings.",
-    "caution": {
-      "en": "Leg locks are safety-critical. Control slowly, stop before rotational pressure spikes, and release immediately on tap.",
-      "vi": "Leg lock là nhóm kỹ thuật nhạy cảm. Kiểm soát chậm, dừng trước khi lực xoắn tăng mạnh và thả ngay khi tap.",
-      "fr": "Les leg locks sont critiques pour la securite. Controlez lentement, arretez avant le pic de rotation et relachez au tap."
-    }
-  },
-  {
-    "id": "bjj-k-guard-qz_7daono",
-    "provider": "youtube",
-    "title": {
-      "en": "K guard armbar  #mma #bjj #brazilianjiujitsu #leglock #energiamartialarts",
-      "vi": "K guard armbar  #mma #bjj #brazilianjiujitsu #leglock #energiamartialarts (phân tích)",
-      "fr": "K guard armbar  #mma #bjj #brazilianjiujitsu #leglock #energiamartialarts (analyse)"
-    },
-    "channelName": "Energia Martial Arts",
-    "url": "https://www.youtube.com/watch?v=Dqz_7daQono",
-    "embedUrl": "https://www.youtube.com/embed/Dqz_7daQono",
-    "youtubeId": "Dqz_7daQono",
-    "language": "en",
-    "relatedSkillIds": [
-      "armbar-system",
-      "k-guard-matrix"
-    ],
-    "techniqueTags": [
-      "armbar",
-      "elbow-line",
-      "k-guard",
-      "leg-entanglements",
-      "matrix",
-      "shoulder-isolation",
-      "submission"
-    ],
-    "relevance": "primary_reference",
-    "level": "advanced",
-    "whyUseful": {
-      "en": "K Guard provides a detailed breakdown of K guard armbar  #mma #bjj #brazilianjiujitsu #leglock #energiamartialarts with practical drilling advice.",
-      "vi": "K Guard cung cấp phân tích chi tiết với lời khuyên tập luyện thực tế.",
-      "fr": "K Guard fournit une analyse detaillee avec des conseils pratiques."
-    },
-    "whatToWatchFor": {
-      "en": [
-        "Body positioning and weight distribution",
-        "Grip control and placement",
-        "Finishing mechanics",
-        "Common mistakes to avoid"
-      ],
-      "vi": [
-        "Positioning cơ thể và phân bổ trọng lượng",
-        "Kiểm soát grip và đặt tay",
-        "Mechanics hoàn thiện",
-        "Lỗi thường gặp cần tránh"
-      ],
-      "fr": [
-        "Positionnement du corps et repartition du poids",
-        "Controle et placement des grips",
-        "Mecanique de finition",
-        "Erreurs courantes a eviter"
-      ]
-    },
-    "sourceNote": "Curated from bjj.tips public YouTube listings.",
-    "caution": {
-      "en": "Leg locks are safety-critical. Control slowly, stop before rotational pressure spikes, and release immediately on tap.",
-      "vi": "Leg lock là nhóm kỹ thuật nhạy cảm. Kiểm soát chậm, dừng trước khi lực xoắn tăng mạnh và thả ngay khi tap.",
-      "fr": "Les leg locks sont critiques pour la securite. Controlez lentement, arretez avant le pic de rotation et relachez au tap."
-    }
-  },
-  {
     "id": "bjj-k-guard-nq368p1i",
     "provider": "youtube",
     "title": {
@@ -7203,61 +6522,6 @@ export const videoReferences: VideoReference[] = [
     "level": "advanced",
     "whyUseful": {
       "en": "K Guard provides a detailed breakdown of Saddle entry from K Guard with practical drilling advice.",
-      "vi": "K Guard cung cấp phân tích chi tiết với lời khuyên tập luyện thực tế.",
-      "fr": "K Guard fournit une analyse detaillee avec des conseils pratiques."
-    },
-    "whatToWatchFor": {
-      "en": [
-        "Body positioning and weight distribution",
-        "Grip control and placement",
-        "Finishing mechanics",
-        "Common mistakes to avoid"
-      ],
-      "vi": [
-        "Positioning cơ thể và phân bổ trọng lượng",
-        "Kiểm soát grip và đặt tay",
-        "Mechanics hoàn thiện",
-        "Lỗi thường gặp cần tránh"
-      ],
-      "fr": [
-        "Positionnement du corps et repartition du poids",
-        "Controle et placement des grips",
-        "Mecanique de finition",
-        "Erreurs courantes a eviter"
-      ]
-    },
-    "sourceNote": "Curated from bjj.tips public YouTube listings.",
-    "caution": {
-      "en": "Leg locks are safety-critical. Control slowly, stop before rotational pressure spikes, and release immediately on tap.",
-      "vi": "Leg lock là nhóm kỹ thuật nhạy cảm. Kiểm soát chậm, dừng trước khi lực xoắn tăng mạnh và thả ngay khi tap.",
-      "fr": "Les leg locks sont critiques pour la securite. Controlez lentement, arretez avant le pic de rotation et relachez au tap."
-    }
-  },
-  {
-    "id": "bjj-k-guard-h84zez7c",
-    "provider": "youtube",
-    "title": {
-      "en": "LEARN the K GUARD kneebar here #bjj #grappling #selfdefense #ufc #mma",
-      "vi": "LEARN thể K GUARD kneebar here #bjj #grappling #selfdefense #ufc #mma (phân tích)",
-      "fr": "LEARN the K GUARD kneebar here #bjj #grappling #selfdefense #ufc #mma (analyse)"
-    },
-    "channelName": "Juanjo BJJ Tecnicas y Drills",
-    "url": "https://www.youtube.com/watch?v=hH8N4zezL7c",
-    "embedUrl": "https://www.youtube.com/embed/hH8N4zezL7c",
-    "youtubeId": "hH8N4zezL7c",
-    "language": "en",
-    "relatedSkillIds": [
-      "k-guard-matrix"
-    ],
-    "techniqueTags": [
-      "k-guard",
-      "leg-entanglements",
-      "matrix"
-    ],
-    "relevance": "primary_reference",
-    "level": "advanced",
-    "whyUseful": {
-      "en": "K Guard provides a detailed breakdown of LEARN the K GUARD kneebar here #bjj #grappling #selfdefense #ufc #mma with practical drilling advice.",
       "vi": "K Guard cung cấp phân tích chi tiết với lời khuyên tập luyện thực tế.",
       "fr": "K Guard fournit une analyse detaillee avec des conseils pratiques."
     },
@@ -7681,518 +6945,6 @@ export const videoReferences: VideoReference[] = [
     "sourceNote": "Curated from bjj.tips public YouTube listings."
   },
   {
-    "id": "bjj-north-south--p-5-6msc",
-    "provider": "youtube",
-    "title": {
-      "en": "TAKE the BACK from NORTH SOUTH KIMURA #bjj #grappling #selfdefense #ufc #mma",
-      "vi": "TAKE thể BACK from NORTH SOUTH KIMURA #bjj #grappling #selfdefense #ufc #mma (phân tích)",
-      "fr": "TAKE the BACK from NORTH SOUTH KIMURA #bjj #grappling #selfdefense #ufc #mma (analyse)"
-    },
-    "channelName": "Juanjo BJJ Tecnicas y Drills",
-    "url": "https://www.youtube.com/watch?v=-Cp-5-6msNc",
-    "embedUrl": "https://www.youtube.com/embed/-Cp-5-6msNc",
-    "youtubeId": "-Cp-5-6msNc",
-    "language": "en",
-    "relatedSkillIds": [
-      "back-control",
-      "kimura-system"
-    ],
-    "relatedPositionIds": [
-      "back-control-position"
-    ],
-    "techniqueTags": [
-      "back-control",
-      "back-take",
-      "control",
-      "kimura",
-      "seatbelt",
-      "shoulder-lock",
-      "submission"
-    ],
-    "relevance": "primary_reference",
-    "level": "intermediate",
-    "whyUseful": {
-      "en": "North South provides a detailed breakdown of TAKE the BACK from NORTH SOUTH KIMURA #bjj #grappling #selfdefense #ufc #mma with practical drilling advice.",
-      "vi": "North South cung cấp phân tích chi tiết với lời khuyên tập luyện thực tế.",
-      "fr": "North South fournit une analyse detaillee avec des conseils pratiques."
-    },
-    "whatToWatchFor": {
-      "en": [
-        "Body positioning and weight distribution",
-        "Grip control and placement",
-        "Finishing mechanics",
-        "Common mistakes to avoid"
-      ],
-      "vi": [
-        "Positioning cơ thể và phân bổ trọng lượng",
-        "Kiểm soát grip và đặt tay",
-        "Mechanics hoàn thiện",
-        "Lỗi thường gặp cần tránh"
-      ],
-      "fr": [
-        "Positionnement du corps et repartition du poids",
-        "Controle et placement des grips",
-        "Mecanique de finition",
-        "Erreurs courantes a eviter"
-      ]
-    },
-    "sourceNote": "Curated from bjj.tips public YouTube listings."
-  },
-  {
-    "id": "bjj-octopus-guard-6gbsftm",
-    "provider": "youtube",
-    "title": {
-      "en": "Building up from Octopus Guard 🐙🔝#grappling #bjj #mma #nogi #jiujitsu #adcc #wrestling",
-      "vi": "Building up from Octopus Guard 🐙🔝#grappling #bjj #mma #nogi #jiujitsu #adcc #wrestling (phân tích)",
-      "fr": "Building up from Octopus Guard 🐙🔝#grappling #bjj #mma #nogi #jiujitsu #adcc #wrestling (analyse)"
-    },
-    "channelName": "KD Grappling | Kieran Davern",
-    "url": "https://www.youtube.com/watch?v=6gbsfAtFNmQ",
-    "embedUrl": "https://www.youtube.com/embed/6gbsfAtFNmQ",
-    "youtubeId": "6gbsfAtFNmQ",
-    "language": "en",
-    "relatedSkillIds": [
-      "half-guard-knee-shield",
-      "octopus-guard-control"
-    ],
-    "relatedPositionIds": [
-      "half-guard-bottom"
-    ],
-    "techniqueTags": [
-      "guard-system",
-      "half-guard",
-      "knee-shield",
-      "octopus-guard"
-    ],
-    "relevance": "primary_reference",
-    "level": "intermediate",
-    "whyUseful": {
-      "en": "Octopus Guard provides a detailed breakdown of Building up from Octopus Guard 🐙🔝#grappling #bjj #mma #nogi #jiujitsu #adcc #wrestling with practical drilling advice.",
-      "vi": "Octopus Guard cung cấp phân tích chi tiết với lời khuyên tập luyện thực tế.",
-      "fr": "Octopus Guard fournit une analyse detaillee avec des conseils pratiques."
-    },
-    "whatToWatchFor": {
-      "en": [
-        "Body positioning and weight distribution",
-        "Grip control and placement",
-        "Finishing mechanics",
-        "Common mistakes to avoid"
-      ],
-      "vi": [
-        "Positioning cơ thể và phân bổ trọng lượng",
-        "Kiểm soát grip và đặt tay",
-        "Mechanics hoàn thiện",
-        "Lỗi thường gặp cần tránh"
-      ],
-      "fr": [
-        "Positionnement du corps et repartition du poids",
-        "Controle et placement des grips",
-        "Mecanique de finition",
-        "Erreurs courantes a eviter"
-      ]
-    },
-    "sourceNote": "Curated from bjj.tips public YouTube listings."
-  },
-  {
-    "id": "bjj-octopus-guard-2di4ro",
-    "provider": "youtube",
-    "title": {
-      "en": "Octopus Guard 2.0 | Entry from Half Guard | Side Control Pin | Back Body Lock",
-      "vi": "Octopus Guard 2.0 | Entry from Half Guard | Side Control Pin | Back Body Lock (phân tích)",
-      "fr": "Octopus Guard 2.0 | Entry from Half Guard | Side Control Pin | Back Body Lock (analyse)"
-    },
-    "channelName": "KD Grappling | Kieran Davern",
-    "url": "https://www.youtube.com/watch?v=2dIiA4rLSWo",
-    "embedUrl": "https://www.youtube.com/embed/2dIiA4rLSWo",
-    "youtubeId": "2dIiA4rLSWo",
-    "language": "en",
-    "relatedSkillIds": [
-      "bodylock-passing",
-      "half-guard-knee-shield",
-      "octopus-guard-control",
-      "side-control-escape"
-    ],
-    "relatedPositionIds": [
-      "half-guard-bottom",
-      "side-control-bottom"
-    ],
-    "techniqueTags": [
-      "bodylock",
-      "escape",
-      "frames",
-      "guard-system",
-      "half-guard",
-      "hip-control",
-      "knee-shield",
-      "octopus-guard",
-      "passing",
-      "side-control",
-      "underhook"
-    ],
-    "relevance": "primary_reference",
-    "level": "intermediate",
-    "whyUseful": {
-      "en": "Octopus Guard provides a detailed breakdown of Octopus Guard 2.0 | Entry from Half Guard | Side Control Pin | Back Body Lock with practical drilling advice.",
-      "vi": "Octopus Guard cung cấp phân tích chi tiết với lời khuyên tập luyện thực tế.",
-      "fr": "Octopus Guard fournit une analyse detaillee avec des conseils pratiques."
-    },
-    "whatToWatchFor": {
-      "en": [
-        "Body positioning and weight distribution",
-        "Grip control and placement",
-        "Finishing mechanics",
-        "Common mistakes to avoid"
-      ],
-      "vi": [
-        "Positioning cơ thể và phân bổ trọng lượng",
-        "Kiểm soát grip và đặt tay",
-        "Mechanics hoàn thiện",
-        "Lỗi thường gặp cần tránh"
-      ],
-      "fr": [
-        "Positionnement du corps et repartition du poids",
-        "Controle et placement des grips",
-        "Mecanique de finition",
-        "Erreurs courantes a eviter"
-      ]
-    },
-    "sourceNote": "Curated from bjj.tips public YouTube listings."
-  },
-  {
-    "id": "bjj-octopus-guard-kbgtu",
-    "provider": "youtube",
-    "title": {
-      "en": "Octopus Guard Details 🐙#BJJ #MMA #Grappling #wrestling #nogi #jiujitsu #octopusguard #Instructional",
-      "vi": "Octopus Guard Details 🐙#BJJ #MMA #Grappling #wrestling #nogi #jiujitsu #octopusguard #Instructional (phân tích)",
-      "fr": "Octopus Guard Details 🐙#BJJ #MMA #Grappling #wrestling #nogi #jiujitsu #octopusguard #Instructional (analyse)"
-    },
-    "channelName": "KD Grappling | Kieran Davern",
-    "url": "https://www.youtube.com/watch?v=kAOWbLgtuJY",
-    "embedUrl": "https://www.youtube.com/embed/kAOWbLgtuJY",
-    "youtubeId": "kAOWbLgtuJY",
-    "language": "en",
-    "relatedSkillIds": [
-      "octopus-guard-control"
-    ],
-    "relatedPositionIds": [
-      "half-guard-bottom"
-    ],
-    "techniqueTags": [
-      "guard-system",
-      "half-guard",
-      "octopus-guard"
-    ],
-    "relevance": "primary_reference",
-    "level": "intermediate",
-    "whyUseful": {
-      "en": "Octopus Guard provides a detailed breakdown of Octopus Guard Details 🐙#BJJ #MMA #Grappling #wrestling #nogi #jiujitsu #octopusguard #Instructional with practical drilling advice.",
-      "vi": "Octopus Guard cung cấp phân tích chi tiết với lời khuyên tập luyện thực tế.",
-      "fr": "Octopus Guard fournit une analyse detaillee avec des conseils pratiques."
-    },
-    "whatToWatchFor": {
-      "en": [
-        "Body positioning and weight distribution",
-        "Grip control and placement",
-        "Finishing mechanics",
-        "Common mistakes to avoid"
-      ],
-      "vi": [
-        "Positioning cơ thể và phân bổ trọng lượng",
-        "Kiểm soát grip và đặt tay",
-        "Mechanics hoàn thiện",
-        "Lỗi thường gặp cần tránh"
-      ],
-      "fr": [
-        "Positionnement du corps et repartition du poids",
-        "Controle et placement des grips",
-        "Mecanique de finition",
-        "Erreurs courantes a eviter"
-      ]
-    },
-    "sourceNote": "Curated from bjj.tips public YouTube listings."
-  },
-  {
-    "id": "bjj-octopus-guard-dyq4cjc",
-    "provider": "youtube",
-    "title": {
-      "en": "Octopus Guard Leglock Entries 🐙 #BJJ #Grappling #NoGi #Wrestling #Leglocks #MMA #brazilianjiujitsu",
-      "vi": "Octopus Guard Leglock Entries 🐙 #BJJ #Grappling #NoGi #Wrestling #Leglocks #MMA #brazilianjiujitsu (phân tích)",
-      "fr": "Octopus Guard Leglock Entries 🐙 #BJJ #Grappling #NoGi #Wrestling #Leglocks #MMA #brazilianjiujitsu (analyse)"
-    },
-    "channelName": "KD Grappling | Kieran Davern",
-    "url": "https://www.youtube.com/watch?v=RTXdyOq4cjc",
-    "embedUrl": "https://www.youtube.com/embed/RTXdyOq4cjc",
-    "youtubeId": "RTXdyOq4cjc",
-    "language": "en",
-    "relatedSkillIds": [
-      "octopus-guard-control"
-    ],
-    "relatedPositionIds": [
-      "half-guard-bottom"
-    ],
-    "techniqueTags": [
-      "guard-system",
-      "half-guard",
-      "octopus-guard"
-    ],
-    "relevance": "primary_reference",
-    "level": "intermediate",
-    "whyUseful": {
-      "en": "Octopus Guard provides a detailed breakdown of Octopus Guard Leglock Entries 🐙 #BJJ #Grappling #NoGi #Wrestling #Leglocks #MMA #brazilianjiujitsu with practical drilling advice.",
-      "vi": "Octopus Guard cung cấp phân tích chi tiết với lời khuyên tập luyện thực tế.",
-      "fr": "Octopus Guard fournit une analyse detaillee avec des conseils pratiques."
-    },
-    "whatToWatchFor": {
-      "en": [
-        "Body positioning and weight distribution",
-        "Grip control and placement",
-        "Finishing mechanics",
-        "Common mistakes to avoid"
-      ],
-      "vi": [
-        "Positioning cơ thể và phân bổ trọng lượng",
-        "Kiểm soát grip và đặt tay",
-        "Mechanics hoàn thiện",
-        "Lỗi thường gặp cần tránh"
-      ],
-      "fr": [
-        "Positionnement du corps et repartition du poids",
-        "Controle et placement des grips",
-        "Mecanique de finition",
-        "Erreurs courantes a eviter"
-      ]
-    },
-    "sourceNote": "Curated from bjj.tips public YouTube listings.",
-    "caution": {
-      "en": "Leg locks are safety-critical. Control slowly, stop before rotational pressure spikes, and release immediately on tap.",
-      "vi": "Leg lock là nhóm kỹ thuật nhạy cảm. Kiểm soát chậm, dừng trước khi lực xoắn tăng mạnh và thả ngay khi tap.",
-      "fr": "Les leg locks sont critiques pour la securite. Controlez lentement, arretez avant le pic de rotation et relachez au tap."
-    }
-  },
-  {
-    "id": "bjj-octopus-guard-l4v-zk",
-    "provider": "youtube",
-    "title": {
-      "en": "Octopus Guard Sumi Gaeshi | Body Lock Pass Counter Attack 🐙⚔️ #bjj #grappling #judo #wrestling #mma",
-      "vi": "Octopus Guard Sumi Gaeshi | Body Lock Pass Counter Attack 🐙⚔️ #bjj #grappling #judo #wrestling #mma (phân tích)",
-      "fr": "Octopus Guard Sumi Gaeshi | Body Lock Pass Counter Attack 🐙⚔️ #bjj #grappling #judo #wrestling #mma (analyse)"
-    },
-    "channelName": "KD Grappling | Kieran Davern",
-    "url": "https://www.youtube.com/watch?v=lK4RVMv-zkQ",
-    "embedUrl": "https://www.youtube.com/embed/lK4RVMv-zkQ",
-    "youtubeId": "lK4RVMv-zkQ",
-    "language": "en",
-    "relatedSkillIds": [
-      "bodylock-passing",
-      "butterfly-guard-off-balance",
-      "octopus-guard-control"
-    ],
-    "relatedPositionIds": [
-      "butterfly-guard",
-      "half-guard-bottom"
-    ],
-    "techniqueTags": [
-      "bodylock",
-      "butterfly-guard",
-      "guard-system",
-      "half-guard",
-      "hip-control",
-      "octopus-guard",
-      "off-balance",
-      "passing",
-      "sweep"
-    ],
-    "relevance": "primary_reference",
-    "level": "intermediate",
-    "whyUseful": {
-      "en": "Octopus Guard provides a detailed breakdown of Octopus Guard Sumi Gaeshi | Body Lock Pass Counter Attack 🐙⚔️ #bjj #grappling #judo #wrestling #mma with practical drilling advice.",
-      "vi": "Octopus Guard cung cấp phân tích chi tiết với lời khuyên tập luyện thực tế.",
-      "fr": "Octopus Guard fournit une analyse detaillee avec des conseils pratiques."
-    },
-    "whatToWatchFor": {
-      "en": [
-        "Body positioning and weight distribution",
-        "Grip control and placement",
-        "Finishing mechanics",
-        "Common mistakes to avoid"
-      ],
-      "vi": [
-        "Positioning cơ thể và phân bổ trọng lượng",
-        "Kiểm soát grip và đặt tay",
-        "Mechanics hoàn thiện",
-        "Lỗi thường gặp cần tránh"
-      ],
-      "fr": [
-        "Positionnement du corps et repartition du poids",
-        "Controle et placement des grips",
-        "Mecanique de finition",
-        "Erreurs courantes a eviter"
-      ]
-    },
-    "sourceNote": "Curated from bjj.tips public YouTube listings."
-  },
-  {
-    "id": "bjj-octopus-guard-e-2",
-    "provider": "youtube",
-    "title": {
-      "en": "Octopus Guard Wrestlers Switch 🐙🤼🔀 #bjj #grappling #jiujitsu #wrestling #mma #brazilianjiujitsu",
-      "vi": "Octopus Guard Wrestlers Switch 🐙🤼🔀 #bjj #grappling #jiujitsu #wrestling #mma #brazilianjiujitsu (phân tích)",
-      "fr": "Octopus Guard Wrestlers Switch 🐙🤼🔀 #bjj #grappling #jiujitsu #wrestling #mma #brazilianjiujitsu (analyse)"
-    },
-    "channelName": "KD Grappling | Kieran Davern",
-    "url": "https://www.youtube.com/watch?v=QSUeT-2QNIQ",
-    "embedUrl": "https://www.youtube.com/embed/QSUeT-2QNIQ",
-    "youtubeId": "QSUeT-2QNIQ",
-    "language": "en",
-    "relatedSkillIds": [
-      "octopus-guard-control"
-    ],
-    "relatedPositionIds": [
-      "half-guard-bottom"
-    ],
-    "techniqueTags": [
-      "guard-system",
-      "half-guard",
-      "octopus-guard"
-    ],
-    "relevance": "primary_reference",
-    "level": "intermediate",
-    "whyUseful": {
-      "en": "Octopus Guard provides a detailed breakdown of Octopus Guard Wrestlers Switch 🐙🤼🔀 #bjj #grappling #jiujitsu #wrestling #mma #brazilianjiujitsu with practical drilling advice.",
-      "vi": "Octopus Guard cung cấp phân tích chi tiết với lời khuyên tập luyện thực tế.",
-      "fr": "Octopus Guard fournit une analyse detaillee avec des conseils pratiques."
-    },
-    "whatToWatchFor": {
-      "en": [
-        "Body positioning and weight distribution",
-        "Grip control and placement",
-        "Finishing mechanics",
-        "Common mistakes to avoid"
-      ],
-      "vi": [
-        "Positioning cơ thể và phân bổ trọng lượng",
-        "Kiểm soát grip và đặt tay",
-        "Mechanics hoàn thiện",
-        "Lỗi thường gặp cần tránh"
-      ],
-      "fr": [
-        "Positionnement du corps et repartition du poids",
-        "Controle et placement des grips",
-        "Mecanique de finition",
-        "Erreurs courantes a eviter"
-      ]
-    },
-    "sourceNote": "Curated from bjj.tips public YouTube listings."
-  },
-  {
-    "id": "bjj-octopus-guard-8oc1u0s",
-    "provider": "youtube",
-    "title": {
-      "en": "SWEEP your opponents with these OCTOPUS GUARD #bjj #grappling #mma #selfdefense #ufc #wrestling",
-      "vi": "SWEEP your opponents with these OCTOPUS GUARD #bjj #grappling #mma #selfdefense #ufc #wrestling (phân tích)",
-      "fr": "SWEEP your opponents with these OCTOPUS GUARD #bjj #grappling #mma #selfdefense #ufc #wrestling (analyse)"
-    },
-    "channelName": "Juanjo BJJ Tecnicas y Drills",
-    "url": "https://www.youtube.com/watch?v=8UocA1Au0Ps",
-    "embedUrl": "https://www.youtube.com/embed/8UocA1Au0Ps",
-    "youtubeId": "8UocA1Au0Ps",
-    "language": "en",
-    "relatedSkillIds": [
-      "half-guard-knee-shield",
-      "octopus-guard-control"
-    ],
-    "relatedPositionIds": [
-      "half-guard-bottom"
-    ],
-    "techniqueTags": [
-      "guard-system",
-      "half-guard",
-      "knee-shield",
-      "octopus-guard"
-    ],
-    "relevance": "primary_reference",
-    "level": "intermediate",
-    "whyUseful": {
-      "en": "Octopus Guard provides a detailed breakdown of SWEEP your opponents with these OCTOPUS GUARD #bjj #grappling #mma #selfdefense #ufc #wrestling with practical drilling advice.",
-      "vi": "Octopus Guard cung cấp phân tích chi tiết với lời khuyên tập luyện thực tế.",
-      "fr": "Octopus Guard fournit une analyse detaillee avec des conseils pratiques."
-    },
-    "whatToWatchFor": {
-      "en": [
-        "Body positioning and weight distribution",
-        "Grip control and placement",
-        "Finishing mechanics",
-        "Common mistakes to avoid"
-      ],
-      "vi": [
-        "Positioning cơ thể và phân bổ trọng lượng",
-        "Kiểm soát grip và đặt tay",
-        "Mechanics hoàn thiện",
-        "Lỗi thường gặp cần tránh"
-      ],
-      "fr": [
-        "Positionnement du corps et repartition du poids",
-        "Controle et placement des grips",
-        "Mecanique de finition",
-        "Erreurs courantes a eviter"
-      ]
-    },
-    "sourceNote": "Curated from bjj.tips public YouTube listings."
-  },
-  {
-    "id": "bjj-octopus-guard-s1ulyftj4",
-    "provider": "youtube",
-    "title": {
-      "en": "LEARN the OCTOPUS GUARD and OPEN your BJJ game #bjj #grappling #selfdefense #ufc #mma",
-      "vi": "LEARN thể OCTOPUS GUARD and OPEN your BJJ game #bjj #grappling #selfdefense #ufc #mma (phân tích)",
-      "fr": "LEARN the OCTOPUS GUARD and OPEN your BJJ game #bjj #grappling #selfdefense #ufc #mma (analyse)"
-    },
-    "channelName": "Juanjo BJJ Tecnicas y Drills",
-    "url": "https://www.youtube.com/watch?v=s1ulPyQftj4",
-    "embedUrl": "https://www.youtube.com/embed/s1ulPyQftj4",
-    "youtubeId": "s1ulPyQftj4",
-    "language": "en",
-    "relatedSkillIds": [
-      "octopus-guard-control"
-    ],
-    "relatedPositionIds": [
-      "half-guard-bottom"
-    ],
-    "techniqueTags": [
-      "guard-system",
-      "half-guard",
-      "octopus-guard"
-    ],
-    "relevance": "primary_reference",
-    "level": "intermediate",
-    "whyUseful": {
-      "en": "Octopus Guard provides a detailed breakdown of LEARN the OCTOPUS GUARD and OPEN your BJJ game #bjj #grappling #selfdefense #ufc #mma with practical drilling advice.",
-      "vi": "Octopus Guard cung cấp phân tích chi tiết với lời khuyên tập luyện thực tế.",
-      "fr": "Octopus Guard fournit une analyse detaillee avec des conseils pratiques."
-    },
-    "whatToWatchFor": {
-      "en": [
-        "Body positioning and weight distribution",
-        "Grip control and placement",
-        "Finishing mechanics",
-        "Common mistakes to avoid"
-      ],
-      "vi": [
-        "Positioning cơ thể và phân bổ trọng lượng",
-        "Kiểm soát grip và đặt tay",
-        "Mechanics hoàn thiện",
-        "Lỗi thường gặp cần tránh"
-      ],
-      "fr": [
-        "Positionnement du corps et repartition du poids",
-        "Controle et placement des grips",
-        "Mecanique de finition",
-        "Erreurs courantes a eviter"
-      ]
-    },
-    "sourceNote": "Curated from bjj.tips public YouTube listings."
-  },
-  {
     "id": "bjj-octopus-guard-72-z",
     "provider": "youtube",
     "title": {
@@ -8454,61 +7206,6 @@ export const videoReferences: VideoReference[] = [
     "sourceNote": "Curated from bjj.tips public YouTube listings."
   },
   {
-    "id": "bjj-open-guard-jfbzdif",
-    "provider": "youtube",
-    "title": {
-      "en": "How to Super Kimura from Scissor Leg Choke Ryan Hall Style #nogi #bjj",
-      "vi": "How to Super Kimura from Scissor Leg Choke Ryan Hall Style #nogi #bjj (phân tích)",
-      "fr": "How to Super Kimura from Scissor Leg Choke Ryan Hall Style #nogi #bjj (analyse)"
-    },
-    "channelName": "rashadmoves",
-    "url": "https://www.youtube.com/watch?v=WEjfMbzdifE",
-    "embedUrl": "https://www.youtube.com/embed/WEjfMbzdifE",
-    "youtubeId": "WEjfMbzdifE",
-    "language": "en",
-    "relatedSkillIds": [
-      "kimura-system"
-    ],
-    "techniqueTags": [
-      "kimura",
-      "shoulder-lock",
-      "submission"
-    ],
-    "relevance": "primary_reference",
-    "level": "advanced",
-    "whyUseful": {
-      "en": "Open Guard provides a detailed breakdown of How to Super Kimura from Scissor Leg Choke Ryan Hall Style #nogi #bjj with practical drilling advice.",
-      "vi": "Open Guard cung cấp phân tích chi tiết với lời khuyên tập luyện thực tế.",
-      "fr": "Open Guard fournit une analyse detaillee avec des conseils pratiques."
-    },
-    "whatToWatchFor": {
-      "en": [
-        "Body positioning and weight distribution",
-        "Grip control and placement",
-        "Finishing mechanics",
-        "Common mistakes to avoid"
-      ],
-      "vi": [
-        "Positioning cơ thể và phân bổ trọng lượng",
-        "Kiểm soát grip và đặt tay",
-        "Mechanics hoàn thiện",
-        "Lỗi thường gặp cần tránh"
-      ],
-      "fr": [
-        "Positionnement du corps et repartition du poids",
-        "Controle et placement des grips",
-        "Mecanique de finition",
-        "Erreurs courantes a eviter"
-      ]
-    },
-    "sourceNote": "Curated from bjj.tips public YouTube listings.",
-    "caution": {
-      "en": "Release immediately on tap or distress; seek a clean strangle and avoid forcing the jaw or cervical spine.",
-      "vi": "Thả ngay khi tap hoặc có dấu hiệu khó chịu; ưu tiên siết sạch và tránh ép qua hàm hoặc cột sống cổ.",
-      "fr": "Relachez immediatement au tap ou en detresse; cherchez un etranglement propre sans forcer machoire ou cervicales."
-    }
-  },
-  {
     "id": "bjj-open-guard-xjm2ofq8",
     "provider": "youtube",
     "title": {
@@ -8641,56 +7338,6 @@ export const videoReferences: VideoReference[] = [
       "en": "X Guard provides a detailed breakdown of Crab ride backtake with Ross Nicholls #shorts #bjj #backtake #crabride with practical drilling advice.",
       "vi": "X Guard cung cấp phân tích chi tiết với lời khuyên tập luyện thực tế.",
       "fr": "X Guard fournit une analyse detaillee avec des conseils pratiques."
-    },
-    "whatToWatchFor": {
-      "en": [
-        "Body positioning and weight distribution",
-        "Grip control and placement",
-        "Finishing mechanics",
-        "Common mistakes to avoid"
-      ],
-      "vi": [
-        "Positioning cơ thể và phân bổ trọng lượng",
-        "Kiểm soát grip và đặt tay",
-        "Mechanics hoàn thiện",
-        "Lỗi thường gặp cần tránh"
-      ],
-      "fr": [
-        "Positionnement du corps et repartition du poids",
-        "Controle et placement des grips",
-        "Mecanique de finition",
-        "Erreurs courantes a eviter"
-      ]
-    },
-    "sourceNote": "Curated from bjj.tips public YouTube listings."
-  },
-  {
-    "id": "bjj-z-guard-_s_ey6w",
-    "provider": "youtube",
-    "title": {
-      "en": "Z guard BJJ #mma #bjj #brazilianjiujitsu",
-      "vi": "Z guard BJJ #mma #bjj #brazilianjiujitsu (phân tích)",
-      "fr": "Z guard BJJ #mma #bjj #brazilianjiujitsu (analyse)"
-    },
-    "channelName": "Energia Martial Arts",
-    "url": "https://www.youtube.com/watch?v=Q_sX_eyU6wQ",
-    "embedUrl": "https://www.youtube.com/embed/Q_sX_eyU6wQ",
-    "youtubeId": "Q_sX_eyU6wQ",
-    "language": "en",
-    "relatedSkillIds": [
-      "kimura-system"
-    ],
-    "techniqueTags": [
-      "kimura",
-      "shoulder-lock",
-      "submission"
-    ],
-    "relevance": "primary_reference",
-    "level": "advanced",
-    "whyUseful": {
-      "en": "Z Guard provides a detailed breakdown of Z guard BJJ #mma #bjj #brazilianjiujitsu with practical drilling advice.",
-      "vi": "Z Guard cung cấp phân tích chi tiết với lời khuyên tập luyện thực tế.",
-      "fr": "Z Guard fournit une analyse detaillee avec des conseils pratiques."
     },
     "whatToWatchFor": {
       "en": [
@@ -9181,7 +7828,7 @@ export const videoReferences: VideoReference[] = [
       "guard-pulling-strategy"
     ],
     "relatedPositionIds": [
-      "open-guard"
+      "seated-guard"
     ],
     "techniqueTags": [
       "no-gi",
@@ -9237,7 +7884,7 @@ export const videoReferences: VideoReference[] = [
       "frames-pummeling"
     ],
     "relatedPositionIds": [
-      "open-guard"
+      "seated-guard"
     ],
     "techniqueTags": [
       "no-gi",
@@ -9294,7 +7941,7 @@ export const videoReferences: VideoReference[] = [
       "supine-guard-retention"
     ],
     "relatedPositionIds": [
-      "open-guard"
+      "seated-guard"
     ],
     "techniqueTags": [
       "no-gi",
@@ -9350,7 +7997,7 @@ export const videoReferences: VideoReference[] = [
     ],
     "relatedPositionIds": [
       "closed-guard",
-      "open-guard"
+      "seated-guard"
     ],
     "techniqueTags": [
       "no-gi",
@@ -9412,8 +8059,8 @@ export const videoReferences: VideoReference[] = [
       "fhl-go-behind"
     ],
     "relatedPositionIds": [
-      "front-headlock",
-      "open-guard"
+      "front-headlock-top",
+      "seated-guard"
     ],
     "techniqueTags": [
       "no-gi",
@@ -9530,7 +8177,7 @@ export const videoReferences: VideoReference[] = [
     ],
     "relatedPositionIds": [
       "closed-guard",
-      "open-guard"
+      "seated-guard"
     ],
     "techniqueTags": [
       "no-gi",
@@ -9586,8 +8233,8 @@ export const videoReferences: VideoReference[] = [
       "front-headlock-defense"
     ],
     "relatedPositionIds": [
-      "octopus-guard",
-      "front-headlock"
+      "half-guard-bottom",
+      "front-headlock-top"
     ],
     "techniqueTags": [
       "no-gi",
@@ -9648,7 +8295,7 @@ export const videoReferences: VideoReference[] = [
       "turtle-ride"
     ],
     "relatedPositionIds": [
-      "turtle",
+      "turtle-bottom",
       "back-control-position"
     ],
     "techniqueTags": [
@@ -9705,7 +8352,7 @@ export const videoReferences: VideoReference[] = [
       "back-control"
     ],
     "relatedPositionIds": [
-      "turtle",
+      "turtle-bottom",
       "back-control-position"
     ],
     "techniqueTags": [
@@ -9763,7 +8410,7 @@ export const videoReferences: VideoReference[] = [
       "single-leg-bjj"
     ],
     "relatedPositionIds": [
-      "turtle"
+      "turtle-bottom"
     ],
     "techniqueTags": [
       "no-gi",
@@ -9821,7 +8468,7 @@ export const videoReferences: VideoReference[] = [
     ],
     "relatedPositionIds": [
       "north-south",
-      "side-control"
+      "side-control-top"
     ],
     "techniqueTags": [
       "no-gi",
@@ -9883,7 +8530,7 @@ export const videoReferences: VideoReference[] = [
     ],
     "relatedPositionIds": [
       "knee-on-belly",
-      "open-guard"
+      "seated-guard"
     ],
     "techniqueTags": [
       "no-gi",
@@ -10005,8 +8652,8 @@ export const videoReferences: VideoReference[] = [
       "outside-passing"
     ],
     "relatedPositionIds": [
-      "open-guard",
-      "headquarters"
+      "seated-guard",
+      "headquarters-top"
     ],
     "techniqueTags": [
       "no-gi",
@@ -10067,8 +8714,8 @@ export const videoReferences: VideoReference[] = [
       "failure-response-transitions"
     ],
     "relatedPositionIds": [
-      "headquarters",
-      "open-guard"
+      "headquarters-top",
+      "seated-guard"
     ],
     "techniqueTags": [
       "no-gi",
@@ -10129,7 +8776,7 @@ export const videoReferences: VideoReference[] = [
       "crab-ride"
     ],
     "relatedPositionIds": [
-      "open-guard",
+      "seated-guard",
       "back-control-position"
     ],
     "techniqueTags": [
@@ -10186,7 +8833,7 @@ export const videoReferences: VideoReference[] = [
       "wrist-ride-back-exposure"
     ],
     "relatedPositionIds": [
-      "open-guard",
+      "seated-guard",
       "back-control-position"
     ],
     "techniqueTags": [
@@ -10244,12 +8891,12 @@ export const videoReferences: VideoReference[] = [
     ],
     "relatedPositionIds": [
       "single-leg-x",
-      "x-guard"
+      "x-guard-position"
     ],
     "techniqueTags": [
       "no-gi",
       "single-leg-x",
-      "x-guard",
+      "x-guard-position",
       "leg-lock"
     ],
     "relevance": "primary_reference",
@@ -10306,14 +8953,14 @@ export const videoReferences: VideoReference[] = [
       "shin-to-shin-entry"
     ],
     "relatedPositionIds": [
-      "de-la-riva",
+      "de-la-riva-guard",
       "single-leg-x"
     ],
     "techniqueTags": [
       "no-gi",
       "underhook-dlr",
       "single-leg-x",
-      "open-guard"
+      "seated-guard-retention"
     ],
     "relevance": "supplemental",
     "level": "intermediate",
@@ -10368,13 +9015,13 @@ export const videoReferences: VideoReference[] = [
       "supine-guard-retention"
     ],
     "relatedPositionIds": [
-      "x-guard",
+      "x-guard-position",
       "single-leg-x"
     ],
     "techniqueTags": [
       "no-gi",
       "ashi-x",
-      "x-guard",
+      "x-guard-position",
       "guard-retention"
     ],
     "relevance": "conceptual",
@@ -10430,12 +9077,12 @@ export const videoReferences: VideoReference[] = [
       "half-guard-wrestle-up"
     ],
     "relatedPositionIds": [
-      "x-guard",
-      "half-guard"
+      "x-guard-position",
+      "half-guard-bottom"
     ],
     "techniqueTags": [
       "no-gi",
-      "x-guard",
+      "x-guard-position",
       "tight-waist",
       "wrestle-up"
     ],
@@ -10487,8 +9134,8 @@ export const videoReferences: VideoReference[] = [
       "half-guard-wrestle-up"
     ],
     "relatedPositionIds": [
-      "half-guard",
-      "open-guard"
+      "half-guard-bottom",
+      "seated-guard"
     ],
     "techniqueTags": [
       "no-gi",
@@ -10544,8 +9191,8 @@ export const videoReferences: VideoReference[] = [
       "front-headlock-defense"
     ],
     "relatedPositionIds": [
-      "front-headlock",
-      "standing"
+      "front-headlock-top",
+      "neutral-standing"
     ],
     "techniqueTags": [
       "no-gi",
@@ -10606,7 +9253,7 @@ export const videoReferences: VideoReference[] = [
       "single-leg-bjj"
     ],
     "relatedPositionIds": [
-      "standing"
+      "neutral-standing"
     ],
     "techniqueTags": [
       "no-gi",
@@ -10662,8 +9309,8 @@ export const videoReferences: VideoReference[] = [
       "fhl-go-behind"
     ],
     "relatedPositionIds": [
-      "front-headlock",
-      "turtle"
+      "front-headlock-top",
+      "turtle-bottom"
     ],
     "techniqueTags": [
       "no-gi",
@@ -10724,7 +9371,7 @@ export const videoReferences: VideoReference[] = [
       "single-leg-bjj"
     ],
     "relatedPositionIds": [
-      "half-guard",
+      "half-guard-bottom",
       "dogfight"
     ],
     "techniqueTags": [
@@ -10840,7 +9487,7 @@ export const videoReferences: VideoReference[] = [
     ],
     "relatedPositionIds": [
       "back-control-position",
-      "turtle"
+      "turtle-bottom"
     ],
     "techniqueTags": [
       "no-gi",
@@ -10895,7 +9542,7 @@ export const videoReferences: VideoReference[] = [
       "supine-guard-retention"
     ],
     "relatedPositionIds": [
-      "open-guard"
+      "seated-guard"
     ],
     "techniqueTags": [
       "no-gi",
@@ -10950,7 +9597,7 @@ export const videoReferences: VideoReference[] = [
     ],
     "relatedPositionIds": [
       "z-guard",
-      "half-guard"
+      "half-guard-bottom"
     ],
     "techniqueTags": [
       "no-gi",
@@ -11114,8 +9761,8 @@ export const videoReferences: VideoReference[] = [
       "failure-response-transitions"
     ],
     "relatedPositionIds": [
-      "standing",
-      "front-headlock"
+      "neutral-standing",
+      "front-headlock-top"
     ],
     "techniqueTags": [
       "no-gi",
@@ -11170,7 +9817,7 @@ export const videoReferences: VideoReference[] = [
       "mount-control"
     ],
     "relatedPositionIds": [
-      "mount"
+      "mount-top"
     ],
     "techniqueTags": [
       "no-gi",
@@ -11225,7 +9872,7 @@ export const videoReferences: VideoReference[] = [
       "kimura-system"
     ],
     "relatedPositionIds": [
-      "side-control",
+      "side-control-top",
       "closed-guard"
     ],
     "techniqueTags": [
@@ -11281,7 +9928,7 @@ export const videoReferences: VideoReference[] = [
       "leg-drag-pass"
     ],
     "relatedPositionIds": [
-      "de-la-riva",
+      "de-la-riva-guard",
       "back-control-position"
     ],
     "techniqueTags": [
@@ -11318,5 +9965,7 @@ export const videoReferences: VideoReference[] = [
       ]
     },
     "sourceNote": "Public YouTube No-Gi reference selected for NoGiMind coverage expansion."
-  }
+  },
+,
+  ...newTrustedVideos
 ]

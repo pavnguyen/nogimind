@@ -1,3 +1,4 @@
+
 import type { VideoReference } from '../../types/video'
 
 type VideoLike = Pick<VideoReference, 'title' | 'channelName' | 'techniqueTags' | 'sourceNote'> & {
@@ -39,10 +40,25 @@ const technicalNoGiSignals = [
   'saddle',
   'inside sankaku',
   'straight ankle lock',
+  'false reap',
+  'kneebar',
+  'toe hold',
+  'calf slicer',
+  'shin lock',
+  'Aoki lock',
+  'Woj lock',
+  'X guard',
+  'single leg x',
+  'de la riva',
+  'reverse de la riva',
+  'reverse x guard',
+  'crucifix',
+  'Ham sandwich',
+  'Bear trap/ham sandwich',
+  'Deep half guard'
 ]
 
-const trustedNoGiChannels = [
-  'Gordon Ryan',
+const trustedNoGiChannels = [  
   'Craig Jones',
   'Lachlan Giles',
   'Neil Melanson',
@@ -53,6 +69,13 @@ const trustedNoGiChannels = [
   'Ben Kool Tech',
   'Brian Glick',
   'Garry Tonon',
+  'Craig Jones',
+  'Lachlan Giles',
+  'Miyao Brothers',
+  'Carsahh',
+  'Jozef Chen',
+  'Brandon Mccaghren',
+  'Knight Jiu Jitsu',
 ]
 
 const deniedGiLeaningChannels = [
@@ -72,6 +95,8 @@ const giOnlyChannels = [
   'Mendes Bros',
   'Mendes BJJ',
   'The Grappling Accademy',
+  'Andre Galvao',
+  'Renzo Gracie Academy',
 ]
 
 const giOnlySignals = [

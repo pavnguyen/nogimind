@@ -18,8 +18,6 @@ const countByStatus = <T>(items: T[], classify: (item: T) => NoGiVideoStatus) =>
     return acc
   }, { keep: 0, manual_review: 0, reject: 0 })
 
-const scrapedVideos: ScrapedVideo[] = JSON.parse(
-  readFileSync(resolve('content/bjj_tips_videos.json'), 'utf-8'),
 )
 
 const scrapedCounts = countByStatus(scrapedVideos, (video) =>

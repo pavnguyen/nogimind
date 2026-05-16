@@ -8,4 +8,5 @@ export {
   getVideosForPosition,
   getVideosForSkill,
 } from './videoSelectors'
+export { mapVideoToSkills, type VideoSkillMatch } from './videoSkillMapping'
 

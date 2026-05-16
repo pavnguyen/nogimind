@@ -11,6 +11,8 @@ import type { TechniqueStateMachine } from '../types/stateMachine'
 import type { MicroDetailItem, TechniqueChainItem, TroubleshooterItem, EscapeMapItem } from './knowledgeModules'
 import { getLocalizedArray, getLocalizedText } from './localization'
 
+export type SearchMode = 'quick' | 'deep'
+
 // ──────────────────────────────────────────
 // Data bundle — injected from main thread
 // ──────────────────────────────────────────
@@ -249,10 +251,10 @@ const toIndexDocument = (document: SearchDocument): SearchIndexDocument => {
 }
 
 const coreSearchTypes: KnowledgeItemType[] = ['skill', 'concept', 'position']
-const cacheKeyFor = (lang: LanguageCode, type: KnowledgeItemType | '') => `${lang}:${type || 'core'}`
+const cacheKeyFor = (lang: LanguageCode, type: KnowledgeItemType | '', mode: SearchMode) => `${lang}:${type || 'core'}:${mode}`
 
-const getSearchIndex = (lang: LanguageCode, type: KnowledgeItemType | '' = '') => {
-  const cacheKey = cacheKeyFor(lang, type)
+const getSearchIndex = (lang: LanguageCode, type: KnowledgeItemType | '' = '', mode: SearchMode = 'deep') => {
+  const cacheKey = cacheKeyFor(lang, type, mode)
   const cached = searchIndexCache.get(cacheKey)
   if (cached) return cached
 
@@ -285,7 +287,7 @@ const getSearchIndex = (lang: LanguageCode, type: KnowledgeItemType | '' = '') =
     },
   })
 
-  index.addAll(buildDocuments(lang, type).map(toIndexDocument))
+  index.addAll(buildDocuments(lang, type, mode).map(toIndexDocument))
   searchIndexCache.set(cacheKey, index)
   return index
 }
@@ -294,8 +296,23 @@ const getSearchIndex = (lang: LanguageCode, type: KnowledgeItemType | '' = '') =
 // Document builders (use injected data)
 // ──────────────────────────────────────────
 
-const skillDocument = (skill: SkillNode, lang: LanguageCode): SearchDocument => {
+const skillDocument = (skill: SkillNode, lang: LanguageCode, mode: SearchMode): SearchDocument => {
   const d = getData()
+  if (mode === 'quick') {
+    return {
+      id: skill.id,
+      type: 'skill',
+      title: skill.title,
+      description: skill.shortDescription,
+      tags: skill.tags,
+      url: `/skills/${skill.id}`,
+      fields: [
+        field('title', skill.title, lang, 10),
+        field('tags', skill.tags, lang, 5),
+      ],
+    }
+  }
+
   return {
     id: skill.id,
     type: 'skill',
@@ -353,14 +370,18 @@ const withSectionAnchor = (url: string, matchedFields: string[]) => {
   return anchor ? `${cleanUrl}#${anchor}` : cleanUrl
 }
 
-const conceptDocument = (concept: ConceptNode, lang: LanguageCode): SearchDocument => ({
+const conceptDocument = (concept: ConceptNode, lang: LanguageCode, mode: SearchMode): SearchDocument => ({
   id: concept.id,
   type: 'concept',
   title: concept.title,
   description: concept.shortDefinition,
   tags: concept.tags,
   url: `/concepts/${concept.id}`,
-  fields: [
+  fields: mode === 'quick' ? [
+    field('title', concept.title, lang, 8),
+    field('definition', concept.shortDefinition, lang, 4),
+    field('tags', concept.tags, lang, 2),
+  ] : [
     field('title', concept.title, lang, 8),
     field('definition', [concept.shortDefinition, concept.whyItMatters], lang, 4),
     field('deep explanation', [concept.deepExplanation, concept.beginnerView, concept.advancedView], lang, 3),
@@ -370,14 +391,17 @@ const conceptDocument = (concept: ConceptNode, lang: LanguageCode): SearchDocume
   ],
 })
 
-const positionDocument = (position: PositionNode, lang: LanguageCode): SearchDocument => ({
+const positionDocument = (position: PositionNode, lang: LanguageCode, mode: SearchMode): SearchDocument => ({
   id: position.id,
   type: 'position',
   title: position.title,
   description: position.description,
   tags: [position.category, position.status],
   url: `/positions/${position.id}`,
-  fields: [
+  fields: mode === 'quick' ? [
+    field('title', position.title, lang, 8),
+    field('description', position.description, lang, 4),
+  ] : [
     field('title', position.title, lang, 8),
     field('description', position.description, lang, 4),
     field('goals', [position.topPlayerGoals, position.bottomPlayerGoals], lang, 3),
@@ -388,28 +412,34 @@ const positionDocument = (position: PositionNode, lang: LanguageCode): SearchDoc
   ],
 })
 
-const glossaryDocument = (term: GlossaryTerm, lang: LanguageCode): SearchDocument => ({
+const glossaryDocument = (term: GlossaryTerm, lang: LanguageCode, mode: SearchMode): SearchDocument => ({
   id: term.id,
   type: 'glossary',
   title: lt(term.term),
   description: term.definition,
   tags: ['glossary'],
   url: `/glossary?q=${encodeURIComponent(term.term)}`,
-  fields: [
+  fields: mode === 'quick' ? [
+    field('term', term.term, lang, 8),
+    field('definition', term.definition, lang, 4),
+  ] : [
     field('term', term.term, lang, 8),
     field('definition', term.definition, lang, 4),
     field('examples', term.examples, lang, 3),
   ],
 })
 
-const defenseDocument = (layer: DefensiveLayer, lang: LanguageCode): SearchDocument => ({
+const defenseDocument = (layer: DefensiveLayer, lang: LanguageCode, mode: SearchMode): SearchDocument => ({
   id: layer.id,
   type: 'defense',
   title: layer.title,
   description: layer.threat,
   tags: [layer.category],
   url: `/defense/${layer.id}`,
-  fields: [
+  fields: mode === 'quick' ? [
+    field('title', layer.title, lang, 8),
+    field('threat', layer.threat, lang, 4),
+  ] : [
     field('title', layer.title, lang, 8),
     field('threat', layer.threat, lang, 4),
     field('danger signals', [layer.earlyDangerSignals, layer.lateDangerSignals], lang, 4),
@@ -418,14 +448,17 @@ const defenseDocument = (layer: DefensiveLayer, lang: LanguageCode): SearchDocum
   ],
 })
 
-const archetypeDocument = (archetype: GrapplingArchetype, lang: LanguageCode): SearchDocument => ({
+const archetypeDocument = (archetype: GrapplingArchetype, lang: LanguageCode, mode: SearchMode): SearchDocument => ({
   id: archetype.id,
   type: 'archetype',
   title: archetype.title,
   description: archetype.shortDescription,
   tags: ['archetype', ...archetype.coreSkillIds.slice(0, 4)],
   url: `/archetypes/${archetype.id}`,
-  fields: [
+  fields: mode === 'quick' ? [
+    field('title', archetype.title, lang, 8),
+    field('description', archetype.shortDescription, lang, 4),
+  ] : [
     field('title', archetype.title, lang, 8),
     field('description', [archetype.shortDescription, archetype.philosophy], lang, 4),
     field('best for', [archetype.bestFor, archetype.notIdealFor], lang, 2),
@@ -502,7 +535,7 @@ const escapeMapDocuments = (lang: LanguageCode): SearchDocument[] =>
     ],
   }))
 
-const masteryDocuments = (lang: LanguageCode): SearchDocument[] =>
+const masteryDocuments = (lang: LanguageCode, mode: SearchMode): SearchDocument[] =>
   getData().masteryStages.map((stage) => ({
     id: stage.id,
     type: 'mastery',
@@ -510,7 +543,10 @@ const masteryDocuments = (lang: LanguageCode): SearchDocument[] =>
     description: stage.shortDescription,
     tags: ['mastery', stage.id],
     url: '/mastery',
-    fields: [
+    fields: mode === 'quick' ? [
+      field('title', stage.title, lang, 8),
+      field('philosophy', stage.shortDescription, lang, 4),
+    ] : [
       field('title', stage.title, lang, 8),
       field('philosophy', [stage.shortDescription, stage.philosophy, stage.highLevelExecution], lang, 4),
       field('what to learn', stage.whatToLearn, lang, 3),
@@ -538,23 +574,28 @@ const stateMachineDocuments = (lang: LanguageCode): SearchDocument[] =>
     ],
   }))
 
-const documentBuilders: Record<KnowledgeItemType, (lang: LanguageCode) => SearchDocument[]> = {
-  skill: (lang) => [...getData().skillNodes.map((skill) => skillDocument(skill, lang)), ...stateMachineDocuments(lang)],
-  concept: (lang) => getData().concepts.map((concept) => conceptDocument(concept, lang)),
-  position: (lang) => getData().positions.map((position) => positionDocument(position, lang)),
-  glossary: (lang) => getData().glossaryTerms.map((term) => glossaryDocument(term, lang)),
-  defense: (lang) => getData().defensiveLayers.map((layer) => defenseDocument(layer, lang)),
-  micro_detail: microDetailDocuments,
-  technique_chain: chainDocuments,
-  troubleshooter: troubleshooterDocuments,
-  escape_map: escapeMapDocuments,
-  archetype: (lang) => getData().archetypes.map((archetypeValue) => archetypeDocument(archetypeValue, lang)),
-  mastery: masteryDocuments,
+const documentBuilders: Record<KnowledgeItemType, (lang: LanguageCode, mode: SearchMode) => SearchDocument[]> = {
+  skill: (lang, mode) => [...getData().skillNodes.map((skill) => skillDocument(skill, lang, mode)), ...(mode === 'deep' ? stateMachineDocuments(lang) : [])],
+  concept: (lang, mode) => getData().concepts.map((concept) => conceptDocument(concept, lang, mode)),
+  position: (lang, mode) => getData().positions.map((position) => positionDocument(position, lang, mode)),
+  glossary: (lang, mode) => getData().glossaryTerms.map((term) => glossaryDocument(term, lang, mode)),
+  defense: (lang, mode) => getData().defensiveLayers.map((layer) => defenseDocument(layer, lang, mode)),
+  micro_detail: (lang, mode) => mode === 'deep' ? microDetailDocuments(lang) : [],
+  technique_chain: (lang, mode) => mode === 'deep' ? chainDocuments(lang) : [],
+  troubleshooter: (lang, mode) => mode === 'deep' ? troubleshooterDocuments(lang) : [],
+  escape_map: (lang, mode) => mode === 'deep' ? escapeMapDocuments(lang) : [],
+  archetype: (lang, mode) => getData().archetypes.map((archetypeValue) => archetypeDocument(archetypeValue, lang, mode)),
+  mastery: (lang, mode) => masteryDocuments(lang, mode),
 }
 
-const buildDocuments = (lang: LanguageCode, type: KnowledgeItemType | '' = ''): SearchDocument[] => {
-  if (type) return documentBuilders[type]?.(lang) ?? []
-  return coreSearchTypes.flatMap((itemType) => documentBuilders[itemType](lang))
+const buildDocuments = (lang: LanguageCode, type: KnowledgeItemType | '' = '', mode: SearchMode = 'deep'): SearchDocument[] => {
+  if (type) return documentBuilders[type]?.(lang, mode) ?? []
+
+  if (mode === 'quick') {
+    return documentBuilders['skill'](lang, mode)
+  }
+
+  return coreSearchTypes.flatMap((itemType) => documentBuilders[itemType](lang, mode))
 }
 
 const indexFieldLabels: Record<string, string> = {
@@ -585,12 +626,12 @@ const getMatchedFields = (result: StoredSearchResult) => {
 export const syncSearchKnowledge = (
   query: string,
   lang: LanguageCode,
-  filters: { type?: KnowledgeItemType | '' } = {},
+  filters: { type?: KnowledgeItemType | ''; mode?: SearchMode } = {},
 ): KnowledgeSearchResult[] => {
   const normalizedQuery = query.trim().toLowerCase()
   if (!normalizedQuery) return []
 
-  const index = getSearchIndex(lang, filters.type ?? '')
+  const index = getSearchIndex(lang, filters.type ?? '', filters.mode ?? 'deep')
   const variants = buildQueryVariants(normalizedQuery)
   const merged = new Map<string, KnowledgeSearchResult & { rawScore: number; contentText: string }>()
 
@@ -682,10 +723,13 @@ export const syncInitSearchIndexes = () => {
 export const syncWarmSearchIndexes = (
   languages: LanguageCode[] = ['en', 'vi', 'fr'],
   types: (KnowledgeItemType | '')[] = [''],
+  modes: SearchMode[] = ['quick'], // Only warm up quick search by default to avoid blocking the worker
 ) => {
   for (const lang of languages) {
     for (const type of types) {
-      getSearchIndex(lang, type)
+      for (const mode of modes) {
+        getSearchIndex(lang, type, mode)
+      }
     }
   }
 }

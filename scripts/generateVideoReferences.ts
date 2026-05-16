@@ -30,10 +30,6 @@ interface SkillMatchConfig {
   relevance: string
 }
 
-const data: ScrapedVideo[] = JSON.parse(
-  readFileSync(resolve('content/bjj_tips_videos.json'), 'utf-8'),
-)
-
 const skillsConfig: SkillMatchConfig[] = [
   { id: 'rear-naked-choke-system', keywords: ['rear naked choke', 'rnc', 'rear naked'], level: 'advanced', tags: ['rnc', 'rear-naked-choke', 'back-control', 'choke'], positionIds: ['back-control-position'], relevance: 'primary_reference' },
   { id: 'armbar-system', keywords: ['armbar', 'arm bar'], level: 'advanced', tags: ['armbar', 'elbow-line', 'shoulder-isolation', 'submission'], positionIds: [], relevance: 'primary_reference' },

@@ -63,7 +63,7 @@ export const Header = () => {
       import('../../utils/knowledgeSearch')
         .then(async ({ searchKnowledge }) => {
           if (!cancelled) {
-            const results = await searchKnowledge(trimmed, language)
+            const results = await searchKnowledge(trimmed, language, { mode: 'quick' })
             if (!cancelled) {
               setSuggestions(results.slice(0, 6))
               setSearching(false)

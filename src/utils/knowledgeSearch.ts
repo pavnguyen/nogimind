@@ -265,7 +265,7 @@ export const preWarmSearchCache = async (): Promise<void> => {
 export const searchKnowledge = (
   query: string,
   lang: LanguageCode,
-  filters: { type?: KnowledgeItemType | '' } = {},
+  filters: { type?: KnowledgeItemType | ''; mode?: import('../utils/searchEngine').SearchMode } = {},
 ): Promise<KnowledgeSearchResult[]> => {
   const trimmed = query.trim().toLowerCase()
   if (!trimmed) return Promise.resolve([])

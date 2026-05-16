@@ -39,9 +39,9 @@ This document records the research signals and summaries used to enrich the NoGi
 ## BJJ.Tips No-Gi Video Audit
 
 ### BJJ.Tips Public YouTube Listings
-- **Source**: https://www.bjj.tips/ and local `content/bjj_tips_videos.json`
+- **Source**: https://www.youtube.com/ 
 - **Source Type**: Public video index / discovery signal
-- **Short Original Summary**: BJJ.Tips groups public YouTube videos by instructor and position. NoGiMind uses these listings only to discover public references, then filters out Gi-only material and writes original app notes.
+- **Short Original Summary**: public YouTube videos by instructor and position. NoGiMind uses these listings only to discover public references, then filters out Gi-only material and writes original app notes.
 - **Why Relevant**: The dataset surfaces strong No-Gi clusters for front headlock, heel hook/leg lock, body lock passing, half guard, K guard, crab ride, octopus, butterfly guard, and wrestling-up systems.
 - **Human Review Needed**: true
 - **Audit Result**: 1,907 source videos classified as 1,333 keep, 398 manual review, and 176 reject. Production references now keep only 164 strict No-Gi references with 0 Gi-only rejects after filtering.

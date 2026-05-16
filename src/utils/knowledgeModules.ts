@@ -243,7 +243,9 @@ export const getTroubleshooters = (skills: SkillNode[], lang: LanguageCode = 'en
         ? getLocalizedArray(finish.finishChecklist, lang)
         : details.length
           ? details.slice(0, 8).map((detail) => getLocalizedText(detail.correctionCue, lang))
-          : qualityChecks.slice(0, 8).map((check) => getLocalizedText(check.quickFix, lang))
+          : qualityChecks.length
+            ? qualityChecks.slice(0, 8).map((check) => getLocalizedText(check.quickFix, lang))
+            : microDetails.slice(0, 8).map((detail) => getLocalizedText(detail.correctionCue, lang))
       const falseSignals = finish ? getLocalizedArray(finish.falseFinishSignals, lang) : []
       const diagnoses = [
         ...details.slice(0, 6).map((detail) => ({

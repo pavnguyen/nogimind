@@ -9,7 +9,7 @@ export type WorkerSearchRequest = {
   payload: {
     query: string
     lang: LanguageCode
-    filters: { type?: KnowledgeItemType | '' }
+    filters: { type?: KnowledgeItemType | ''; mode?: import('../utils/searchEngine').SearchMode }
   }
 }
 

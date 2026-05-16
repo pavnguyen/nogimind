@@ -22,8 +22,10 @@ export default function SearchPage() {
   const [searchParams, setSearchParams] = useSearchParams()
   const query = useSearchStore((state) => state.query)
   const type = useSearchStore((state) => state.type)
+  const mode = useSearchStore((state) => state.mode)
   const setQuery = useSearchStore((state) => state.setQuery)
   const setType = useSearchStore((state) => state.setType)
+  const setMode = useSearchStore((state) => state.setMode)
   const [debouncedQuery, setDebouncedQuery] = useState(query)
 
   useEffect(() => {
@@ -55,7 +57,7 @@ export default function SearchPage() {
 
     let cancelled = false
     setSearching(true)
-    searchKnowledge(debouncedQuery, language, { type }).then((data) => {
+    searchKnowledge(debouncedQuery, language, { type, mode }).then((data) => {
       if (!cancelled) {
         setResults(data)
         setSearching(false)
@@ -70,7 +72,7 @@ export default function SearchPage() {
     return () => {
       cancelled = true
     }
-  }, [debouncedQuery, language, type])
+  }, [debouncedQuery, language, type, mode])
 
   const grouped = useMemo(
     () => (type ? filterTypes : coreResultTypes).map((itemType) => ({ type: itemType, results: results.filter((result) => result.type === itemType) })).filter((group) => group.results.length),
@@ -106,6 +108,17 @@ export default function SearchPage() {
                 {advancedResultTypes.map((itemType) => <option key={itemType} value={itemType}>{t(`knowledgeTypes.${itemType}`)}</option>)}
               </optgroup>
             </select>
+          </div>
+          <div className="flex items-center gap-2">
+            <label className="flex items-center gap-2 text-sm text-slate-300 cursor-pointer">
+              <input 
+                type="checkbox" 
+                checked={mode === 'deep'} 
+                onChange={(e) => setMode(e.target.checked ? 'deep' : 'quick')}
+                className="rounded border-slate-700 bg-slate-800 text-emerald-500 focus:ring-emerald-500 focus:ring-offset-slate-900"
+              />
+              {t('search.searchInDetails', 'Search in details (Deep Search)')}
+            </label>
           </div>
         </div>
       }

@@ -21,10 +21,10 @@ const DB_NAME = 'nogimind-search-cache'
 const DB_VERSION = 1
 
 /** Bump when SearchDataBundle shape changes */
-const CACHE_VERSION = 1
+const CACHE_VERSION = 3
 
 /** Bump when MiniSearch options or document building changes */
-const INDEX_VERSION = 1
+const INDEX_VERSION = 3
 
 const STORE_DATA = 'data-bundle'
 const STORE_META = 'meta'
