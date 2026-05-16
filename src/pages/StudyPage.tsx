@@ -126,20 +126,7 @@ export default function StudyPage() {
     return colors[domain?.tone ?? 'emerald']
   }
 
-  const getDomainHoverColor = () => {
-    const domain = studyDomains.find((d) => d.id === active)
-    const colors = {
-      cyan: 'hover:border-cyan-400/20 hover:bg-cyan-400/5 hover:text-cyan-100',
-      emerald: 'hover:border-emerald-400/20 hover:bg-emerald-400/5 hover:text-emerald-100',
-      amber: 'hover:border-amber-400/20 hover:bg-amber-400/5 hover:text-amber-100',
-      rose: 'hover:border-rose-400/20 hover:bg-rose-400/5 hover:text-rose-100',
-      slate: 'hover:border-slate-400/20 hover:bg-slate-400/5 hover:text-slate-100',
-    }
-    return colors[domain?.tone ?? 'emerald']
-  }
-
   const domainColor = getDomainColor()
-  const domainHoverColor = getDomainHoverColor()
   const domainTone = studyDomains.find((d) => d.id === active)?.tone ?? 'emerald'
 
   return (

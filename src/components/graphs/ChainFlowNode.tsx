@@ -1,8 +1,10 @@
 import { useCallback } from 'react'
 import { useNavigate } from 'react-router-dom'
-import { Handle, Position, type NodeProps } from '@xyflow/react'
+import { Handle, Position, type Node, type NodeProps } from '@xyflow/react'
 import { cn } from '../../utils/cn'
 import type { ChainFlowNodeData } from '../../utils/chainGraph'
+
+export type ChainFlowNode = Node<ChainFlowNodeData, 'chainFlowNode'>
 
 const variantStyles: Record<ChainFlowNodeData['variant'], { border: string; bg: string; text: string; subtext: string }> = {
   start: {
@@ -38,7 +40,7 @@ const variantIcons: Record<ChainFlowNodeData['variant'], string> = {
   endgoal: '★',
 }
 
-export const ChainFlowNode = ({ data }: NodeProps<ChainFlowNodeData>) => {
+export const ChainFlowNode = ({ data }: NodeProps<ChainFlowNode>) => {
   const navigate = useNavigate()
   const vs = variantStyles[data.variant]
   const handleClick = useCallback(() => {

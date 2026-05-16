@@ -81,7 +81,7 @@ export const MobileNav = () => {
                           to={item.to}
                           end={item.to === '/learn'}
                           onClick={() => setOpen(false)}
-                          className={({ isActive }) =>
+                          className={() =>
                             cn(
                               'flex items-center gap-3 rounded-lg px-3 py-2.5 text-sm font-medium transition-all duration-200',
                               isItemActive

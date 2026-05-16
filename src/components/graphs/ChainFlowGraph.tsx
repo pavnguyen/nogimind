@@ -1,12 +1,12 @@
 import { useMemo, useCallback } from 'react'
 import { useNavigate } from 'react-router-dom'
-import { Background, Controls, ReactFlow, type Node } from '@xyflow/react'
+import { Background, Controls, ReactFlow, type Node, type NodeTypes } from '@xyflow/react'
 import type { LanguageCode } from '../../types/skill'
 import type { TechniqueChainItem } from '../../utils/knowledgeModules'
 import { buildChainGraph, type ChainFlowNodeData } from '../../utils/chainGraph'
 import { ChainFlowNode } from './ChainFlowNode'
 
-const nodeTypes = { chainFlowNode: ChainFlowNode }
+const nodeTypes: NodeTypes = { chainFlowNode: ChainFlowNode }
 
 const Legend = () => (
   <div className="pointer-events-none absolute bottom-3 left-3 z-10 flex flex-wrap gap-3 rounded-lg border border-white/10 bg-slate-950/90 p-2.5 text-[11px] leading-none backdrop-blur-sm">
