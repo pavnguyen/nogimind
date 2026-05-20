@@ -66,7 +66,7 @@ export const fr = {
     },
     fix: {
       heading: 'Réparer un problème live',
-      subtitle: 'Partez de l’échec ressenti en sparring, puis ouvrez le bon outil.',
+      subtitle: 'Partez de l’échec ressenti en rolling, puis ouvrez le bon outil.',
       tools: 'Outils de réparation',
       checklistIntro: 'Vérifiez ceci d’abord. Si un point casse, réparez cette ligne corporelle avant d’ajouter une technique.',
       recommendedNext: 'Étape recommandée',
@@ -360,7 +360,7 @@ export const fr = {
   trainingTypes: {
     class: 'Cours (Class)',
     open_mat: 'Open mat (Open mat)',
-    positional: 'Sparring positionnel (Positional sparring)',
+    positional: 'Rolling positionnel (Positional rolling)',
     competition: 'Compétition (Competition)',
   },
   body: {
@@ -583,7 +583,7 @@ export const fr = {
     },
     workflow: {
       title: 'Workflow technique',
-      subtitle: 'Utilisez cette boucle avant un drill ou pour corriger un problème vu en sparring.',
+      subtitle: 'Utilisez cette boucle avant un drill ou pour corriger un problème vu en rolling.',
       0: { title: 'Localiser la position', body: 'Commencez par la position ou la forme corporelle qui revient souvent.' },
       1: { title: 'Ouvrir le skill', body: 'Utilisez la page skill comme manuel technique principal.' },
       2: { title: 'Vérifier les contacts', body: 'Auditez body-to-body contact, détails clés et ready check.' },
@@ -1021,7 +1021,7 @@ export const fr = {
     heading: 'Diagnostic de soumission (Submission Troubleshooter)',
     subtitle: 'Diagnostiquer les soumissions ratées par contrôle, isolation, angle, slack removal, finish et sécurité.',
     whatFor: 'Utilisez cette page quand un finish ou une attaque échoue sans cesse et que vous devez trouver le détail manquant.',
-    whenToUse: 'Ouvrez-la après un échec en live ou en sparring positionnel.',
+    whenToUse: 'Ouvrez-la après un échec en live ou en rolling positionnel.',
     nextStep: 'Ouvrez le skill lié et vérifiez les micro-details.',
     empty: 'Aucun troubleshooter ne correspond aux filtres.',
     notFoundTitle: 'Troubleshooter introuvable',

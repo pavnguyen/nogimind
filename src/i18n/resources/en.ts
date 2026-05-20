@@ -65,7 +65,7 @@ export const en = {
     },
     fix: {
       heading: 'Fix a live problem',
-      subtitle: 'Start from the failure you feel in sparring, then jump to the right repair tool.',
+      subtitle: 'Start from the failure you feel in rolling, then jump to the right repair tool.',
       tools: 'Repair tools',
       checklistIntro: 'Check these first. If one fails, repair that body line before adding another technique.',
       recommendedNext: 'Recommended next step',
@@ -286,7 +286,7 @@ export const en = {
   trainingTypes: {
     class: 'Class',
     open_mat: 'Open mat',
-    positional: 'Positional sparring',
+    positional: 'Positional rolling',
     competition: 'Competition',
   },
   body: {
@@ -991,7 +991,7 @@ export const en = {
     heading: 'Submission Troubleshooter',
     subtitle: 'Diagnose failed submissions by control, isolation, angle, slack removal, finishing mechanic, and safety.',
     whatFor: 'Use this page when a finish or attack keeps failing and you want the missing detail.',
-    whenToUse: 'Open it after the technique fails in live rounds or positional sparring.',
+    whenToUse: 'Open it after the technique fails in live rounds or positional rolling.',
     nextStep: 'Open the related skill and check micro-details.',
     search: 'Search RNC, guillotine, arm triangle, kimura, heel hook...',
     empty: 'No troubleshooters match the current filters.',

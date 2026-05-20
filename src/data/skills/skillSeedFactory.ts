@@ -53,9 +53,9 @@ export const seed = (
       `${frTitle} aide à lire la direction de l’échange, choisir une réponse tôt, et connecter les techniques en système testable.`,
     ),
   situation: lt(
-      `Dùng khi bạn gặp tình huống liên quan ${viTitle.toLowerCase()} trong drilling, positional sparring hoặc live rolling.`,
-      `Use it when the round enters a ${enTitle.toLowerCase()} situation during drilling, positional sparring, or live rolling.`,
-      `À utiliser quand le round entre dans une situation de ${frTitle.toLowerCase()} pendant le drill, le sparring positionnel ou le live rolling.`,
+      `Dùng khi bạn gặp tình huống liên quan ${viTitle.toLowerCase()} trong drilling, positional rolling hoặc live rolling.`,
+      `Use it when the round enters a ${enTitle.toLowerCase()} situation during drilling, positional rolling, or live rolling.`,
+      `À utiliser quand le round entre dans une situation de ${frTitle.toLowerCase()} pendant le drill, le rolling positionnel ou le live rolling.`,
     ),
   goal: lt(viGoal, enGoal, frGoal),
   concepts,

@@ -217,7 +217,7 @@ Reduce 28 pages into **6 hub pages**, each with internal sub-navigation:
 - Pre-built drill templates for common skills
 - Audible/visual round change indicators
 
-### 7.3 Sparring Companion Mode
+### 7.3 Rolling Companion Mode
 - A "live" mode that shows relevant cues based on the skill being studied
 - Stripped-down UI: large text, high contrast, one cue at a time
 - Swipe to advance through cues
@@ -356,7 +356,7 @@ Reduce 28 pages into **6 hub pages**, each with internal sub-navigation:
 4. Game Tree → simplified builder, templates
 
 ### Phase 3: New Features (Next 3 Sprints)
-1. Quick consumption modes → print cards, drill timer, sparring companion
+1. Quick consumption modes → print cards, drill timer, rolling companion
 2. Enhanced visualizations → position graphs, chain graphs, improved system map
 3. Content coverage indicators
 4. Onboarding hints system

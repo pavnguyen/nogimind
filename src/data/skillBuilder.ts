@@ -248,7 +248,7 @@ const drillsFor = (seedValue: SkillSeed): Drill[] => [
     durationOrReps: lt('5 phút đổi vai', '5 minutes, switch roles', '5 minutes, changer les rôles'),
   },
   {
-    name: lt('Sparring positional với constraint', 'Positional constraint sparring', 'Sparring positionnel avec contrainte'),
+    name: lt('Rolling positional với constraint', 'Positional constraint rolling', 'Rolling positionnel avec contrainte'),
     description: lt(`Bắt đầu trong ${seedValue.title.vi}; chỉ tính điểm khi bạn đạt primary goal.`, `Start in ${seedValue.title.en}; score only when the primary goal is reached.`, `Commencer dans ${seedValue.title.fr}; score seulement si l’objectif est atteint.`),
     intensity: 'positional',
     durationOrReps: lt('4 hiệp x 3 phút', '4 rounds x 3 minutes', '4 rounds x 3 minutes'),
@@ -275,7 +275,7 @@ const testsFor = (seedValue: SkillSeed): SkillTest[] => [
     successCriteria: lt('Bạn hoàn thành 10 reps liên tiếp không mất cấu trúc.', 'You complete 10 clean reps without losing structure.', 'Vous faites 10 reps propres sans perdre la structure.'),
   },
   {
-    prompt: lt('Tôi làm được trong positional sparring có kháng cự vừa.', 'I can do it in positional sparring with moderate resistance.', 'Je peux le faire en sparring positionnel avec résistance modérée.'),
+    prompt: lt('Tôi làm được trong positional rolling có kháng cự vừa.', 'I can do it in positional rolling with moderate resistance.', 'Je peux le faire en rolling positionnel avec résistance modérée.'),
     successCriteria: lt('Bạn đạt primary goal ít nhất 40% số lượt.', 'You reach the primary goal in at least 40% of attempts.', 'Vous atteignez l’objectif dans au moins 40% des essais.'),
   },
   {
@@ -1325,7 +1325,7 @@ const bodylockPassingMechanics = (): BodyMechanicsSystem => ({
     ['Tête centrée entre les mains.', 'Grip trop haut sur côtes.', 'Hanches hautes soulevées butterfly.', 'Pousser tibia bras tendus.', 'Sauter la garde au lieu de couches.', 'Quitter hip lock avant contrôler shoulder line.'],
   ),
   correctionCues: la(['Tai gần hông.', 'Grip dưới hip bones.', 'Sternum về far hip.', 'Khuỷu về túi quần.', 'Clear từng layer rồi pin.'], ['Ear near hip.', 'Grip below hip bones.', 'Sternum toward far hip.', 'Elbows to pockets.', 'Clear layers, then pin.'], ['Oreille près hanche.', 'Grip sous hanches.', 'Sternum vers far hip.', 'Coudes vers poches.', 'Passer couches puis pin.']),
-  safetyNotes: la(['Không dùng crossface để crank cổ.', 'Tăng pressure từ từ trong positional sparring.', 'Nếu partner báo đau cổ/lưng, giảm lực và reset.'], ['Do not use crossface to crank the neck.', 'Increase pressure gradually in positional sparring.', 'If partner reports neck or back pain, reduce force and reset.'], ['Ne pas utiliser crossface pour crank le cou.', 'Augmenter pression progressivement en sparring positionnel.', 'Si partenaire signale douleur cou/dos, réduire et reset.']),
+  safetyNotes: la(['Không dùng crossface để crank cổ.', 'Tăng pressure từ từ trong positional rolling.', 'Nếu partner báo đau cổ/lưng, giảm lực và reset.'], ['Do not use crossface to crank the neck.', 'Increase pressure gradually in positional rolling.', 'If partner reports neck or back pain, reduce force and reset.'], ['Ne pas utiliser crossface pour crank le cou.', 'Augmenter pression progressivement en rolling positionnel.', 'Si partenaire signale douleur cou/dos, réduire et reset.']),
 })
 
 const seatedGuardRetentionMechanics = (): BodyMechanicsSystem => ({

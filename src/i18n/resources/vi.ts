@@ -67,7 +67,7 @@ export const vi = {
       },
     },
     fix: {
-      heading: 'Sửa lỗi khi sparring',
+      heading: 'Sửa lỗi khi rolling',
       subtitle: 'Bắt đầu từ lỗi bạn đang gặp trong live round, rồi nhảy đúng công cụ sửa.',
       tools: 'Công cụ sửa lỗi',
       checklistIntro: 'Kiểm tra các điểm này trước. Nếu một điểm hỏng, sửa body line đó trước khi học thêm đòn.',
@@ -363,7 +363,7 @@ export const vi = {
   trainingTypes: {
     class: 'Lớp học',
     open_mat: 'Tập tự do',
-    positional: 'Sparring vị trí',
+    positional: 'Rolling vị trí',
     competition: 'Thi đấu',
   },
   body: {
@@ -1021,7 +1021,7 @@ export const vi = {
     heading: 'Bộ chẩn đoán submission',
     subtitle: 'Chẩn đoán submission fail theo control, isolation, angle, slack removal, finishing mechanic và safety.',
     whatFor: 'Dùng trang này khi finish hoặc attack cứ không ra và bạn cần tìm chi tiết còn thiếu.',
-    whenToUse: 'Mở sau khi kỹ thuật hỏng trong live rounds hoặc positional sparring.',
+    whenToUse: 'Mở sau khi kỹ thuật hỏng trong live rounds hoặc positional rolling.',
     nextStep: 'Mở skill liên quan và kiểm tra micro-details.',
     search: 'Tìm RNC, guillotine, arm triangle, kimura, heel hook...',
     empty: 'Không có troubleshooter nào khớp bộ lọc.',
