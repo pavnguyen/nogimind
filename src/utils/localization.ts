@@ -1,4 +1,4 @@
-import type { LanguageCode, LocalizedStringArray, LocalizedText, SkillDomain, SkillLevel } from '../types/skill'
+import type { LanguageCode, LocalizedStringArray, LocalizedText, SkillDomain } from '../types/skill'
 
 const viPhraseReplacements: Array<[RegExp, string]> = [
   [/Frames and Pummeling/g, 'Frame và pummel'],
@@ -143,11 +143,4 @@ const domainLabels: Record<SkillDomain, LocalizedText> = {
   submission_systems: { vi: 'Hệ thống submission', en: 'Submission Systems', fr: 'Systèmes de soumission' },
 }
 
-const levelLabels: Record<SkillLevel, LocalizedText> = {
-  beginner: { vi: 'Cơ bản', en: 'Beginner', fr: 'Débutant' },
-  intermediate: { vi: 'Trung cấp', en: 'Intermediate', fr: 'Intermédiaire' },
-  advanced: { vi: 'Nâng cao', en: 'Advanced', fr: 'Avancé' },
-}
-
 export const getDomainLabel = (domain: SkillDomain, lang: LanguageCode) => getLocalizedText(domainLabels[domain], lang)
-export const getLevelLabel = (level: SkillLevel, lang: LanguageCode) => getLocalizedText(levelLabels[level], lang)

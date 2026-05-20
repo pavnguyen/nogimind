@@ -635,56 +635,6 @@ export const videoReferences: VideoReference[] = [
     "sourceNote": "Curated from bjj.tips public YouTube listings."
   },
   {
-    "id": "bjj-andre-galvao-_0ww",
-    "provider": "youtube",
-    "title": {
-      "en": "[NO-GI ALLERT] 🚨 Headquarters Guard Pass To Gift Wrap by ADCC Hall of Fame Andre Galvao",
-      "vi": "[NO-GI ALLERT] 🚨 Headquarters Guard Pass To Gift Wrap by ADCC Hall of Fame Andre Galvao (phân tích)",
-      "fr": "[NO-GI ALLERT] 🚨 Headquarters Guard Pass To Gift Wrap by ADCC Hall of Fame Andre Galvao (analyse)"
-    },
-    "channelName": "Andre Galvao",
-    "url": "https://www.youtube.com/watch?v=_F0ODVYOQww",
-    "embedUrl": "https://www.youtube.com/embed/_F0ODVYOQww",
-    "youtubeId": "_F0ODVYOQww",
-    "language": "en",
-    "relatedSkillIds": [
-      "headquarters-passing"
-    ],
-    "techniqueTags": [
-      "guard-passing",
-      "headquarters",
-      "passing"
-    ],
-    "relevance": "supplemental",
-    "level": "intermediate",
-    "whyUseful": {
-      "en": "Andre Galvao provides a detailed breakdown of [NO-GI ALLERT] 🚨 Headquarters Guard Pass To Gift Wrap by ADCC Hall of Fame Andre Galvao with practical drilling advice.",
-      "vi": "Andre Galvao cung cấp phân tích chi tiết với lời khuyên tập luyện thực tế.",
-      "fr": "Andre Galvao fournit une analyse detaillee avec des conseils pratiques."
-    },
-    "whatToWatchFor": {
-      "en": [
-        "Body positioning and weight distribution",
-        "Grip control and placement",
-        "Finishing mechanics",
-        "Common mistakes to avoid"
-      ],
-      "vi": [
-        "Positioning cơ thể và phân bổ trọng lượng",
-        "Kiểm soát grip và đặt tay",
-        "Mechanics hoàn thiện",
-        "Lỗi thường gặp cần tránh"
-      ],
-      "fr": [
-        "Positionnement du corps et repartition du poids",
-        "Controle et placement des grips",
-        "Mecanique de finition",
-        "Erreurs courantes a eviter"
-      ]
-    },
-    "sourceNote": "Curated from bjj.tips public YouTube listings."
-  },
-  {
     "id": "bjj-bernardo-faria-5lt8g",
     "provider": "youtube",
     "title": {
@@ -4976,60 +4926,6 @@ export const videoReferences: VideoReference[] = [
       "en": "Travis Stevens provides a detailed breakdown of 3 NoGi Takedowns You Need to Know | With Olympic Silver Medalist Travis Stevens with practical drilling advice.",
       "vi": "Travis Stevens cung cấp phân tích chi tiết với lời khuyên tập luyện thực tế.",
       "fr": "Travis Stevens fournit une analyse detaillee avec des conseils pratiques."
-    },
-    "whatToWatchFor": {
-      "en": [
-        "Body positioning and weight distribution",
-        "Grip control and placement",
-        "Finishing mechanics",
-        "Common mistakes to avoid"
-      ],
-      "vi": [
-        "Positioning cơ thể và phân bổ trọng lượng",
-        "Kiểm soát grip và đặt tay",
-        "Mechanics hoàn thiện",
-        "Lỗi thường gặp cần tránh"
-      ],
-      "fr": [
-        "Positionnement du corps et repartition du poids",
-        "Controle et placement des grips",
-        "Mecanique de finition",
-        "Erreurs courantes a eviter"
-      ]
-    },
-    "sourceNote": "Curated from bjj.tips public YouTube listings."
-  },
-  {
-    "id": "bjj-back-control-2t-k3-i28",
-    "provider": "youtube",
-    "title": {
-      "en": "How GORDON RYAN Traps the Arm in Back Control #bjj #grappling #jiujitsu #bjjfanatics",
-      "vi": "How GORDON RYAN Traps thể Arm in Back Control #bjj #grappling #jiujitsu #bjjfanatics (phân tích)",
-      "fr": "How GORDON RYAN Traps the Arm in Back Control #bjj #grappling #jiujitsu #bjjfanatics (analyse)"
-    },
-    "channelName": "Back Control",
-    "url": "https://www.youtube.com/watch?v=2tC-Fk3-i28",
-    "embedUrl": "https://www.youtube.com/embed/2tC-Fk3-i28",
-    "youtubeId": "2tC-Fk3-i28",
-    "language": "en",
-    "relatedSkillIds": [
-      "back-control"
-    ],
-    "relatedPositionIds": [
-      "back-control-position"
-    ],
-    "techniqueTags": [
-      "back-control",
-      "back-take",
-      "control",
-      "seatbelt"
-    ],
-    "relevance": "primary_reference",
-    "level": "intermediate",
-    "whyUseful": {
-      "en": "Back Control provides a detailed breakdown of How GORDON RYAN Traps the Arm in Back Control #bjj #grappling #jiujitsu #bjjfanatics with practical drilling advice.",
-      "vi": "Back Control cung cấp phân tích chi tiết với lời khuyên tập luyện thực tế.",
-      "fr": "Back Control fournit une analyse detaillee avec des conseils pratiques."
     },
     "whatToWatchFor": {
       "en": [
@@ -9351,68 +9247,6 @@ export const videoReferences: VideoReference[] = [
     }
   },
   {
-    "id": "heath-pedigo-dogfight-win",
-    "provider": "youtube",
-    "title": {
-      "en": "How to WIN the Dogfight by Heath Pedigo",
-      "vi": "How to WIN the Dogfight by Heath Pedigo",
-      "fr": "How to WIN the Dogfight by Heath Pedigo"
-    },
-    "channelName": "Heath Pedigo",
-    "url": "https://www.youtube.com/watch?v=05zlhBWAIrM",
-    "embedUrl": "https://www.youtube.com/embed/05zlhBWAIrM",
-    "youtubeId": "05zlhBWAIrM",
-    "language": "en",
-    "relatedSkillIds": [
-      "dogfight-knee-tap",
-      "half-guard-wrestle-up",
-      "single-leg-bjj"
-    ],
-    "relatedPositionIds": [
-      "half-guard-bottom",
-      "dogfight"
-    ],
-    "techniqueTags": [
-      "no-gi",
-      "dogfight",
-      "knee-tap",
-      "wrestle-up"
-    ],
-    "relevance": "primary_reference",
-    "level": "intermediate",
-    "whyUseful": {
-      "en": "Useful No-Gi public YouTube reference for this NoGiMind skill.",
-      "vi": "Useful No-Gi public YouTube reference for this NoGiMind skill.",
-      "fr": "Useful No-Gi public YouTube reference for this NoGiMind skill."
-    },
-    "whatToWatchFor": {
-      "en": [
-        "Connection before force",
-        "Body position and angle",
-        "Transition timing",
-        "Safe controlled finish"
-      ],
-      "vi": [
-        "Connection before force",
-        "Body position and angle",
-        "Transition timing",
-        "Safe controlled finish"
-      ],
-      "fr": [
-        "Connection before force",
-        "Body position and angle",
-        "Transition timing",
-        "Safe controlled finish"
-      ]
-    },
-    "sourceNote": "Public YouTube No-Gi reference selected for NoGiMind coverage expansion.",
-    "caution": {
-      "en": "Leg entanglements can injure knees quickly. Drill slowly, communicate clearly, and tap early.",
-      "vi": "Leg entanglements can injure knees quickly. Drill slowly, communicate clearly, and tap early.",
-      "fr": "Leg entanglements can injure knees quickly. Drill slowly, communicate clearly, and tap early."
-    }
-  },
-  {
     "id": "danaher-back-escape",
     "provider": "youtube",
     "title": {
@@ -9798,61 +9632,6 @@ export const videoReferences: VideoReference[] = [
     "sourceNote": "Public YouTube No-Gi reference selected for NoGiMind coverage expansion."
   },
   {
-    "id": "s-mount-frame-armbar-control",
-    "provider": "youtube",
-    "title": {
-      "en": "S Mount Frame Escape by Andre Galvao",
-      "vi": "S Mount Frame Escape by Andre Galvao",
-      "fr": "S Mount Frame Escape by Andre Galvao"
-    },
-    "channelName": "Andre Galvao",
-    "url": "https://www.youtube.com/watch?v=iPcKmTSrjSw",
-    "embedUrl": "https://www.youtube.com/embed/iPcKmTSrjSw",
-    "youtubeId": "iPcKmTSrjSw",
-    "language": "en",
-    "relatedSkillIds": [
-      "s-mount-armbar",
-      "mount-control"
-    ],
-    "relatedPositionIds": [
-      "mount-top"
-    ],
-    "techniqueTags": [
-      "no-gi",
-      "s-mount",
-      "armbar",
-      "mount"
-    ],
-    "relevance": "supplemental",
-    "level": "intermediate",
-    "whyUseful": {
-      "en": "Public No-Gi YouTube reference selected to improve coverage for this NoGiMind skill.",
-      "vi": "Public No-Gi YouTube reference selected to improve coverage for this NoGiMind skill.",
-      "fr": "Public No-Gi YouTube reference selected to improve coverage for this NoGiMind skill."
-    },
-    "whatToWatchFor": {
-      "en": [
-        "Connection before force",
-        "Body position and angle",
-        "Transition timing",
-        "Safe controlled finish"
-      ],
-      "vi": [
-        "Connection before force",
-        "Body position and angle",
-        "Transition timing",
-        "Safe controlled finish"
-      ],
-      "fr": [
-        "Connection before force",
-        "Body position and angle",
-        "Transition timing",
-        "Safe controlled finish"
-      ]
-    },
-    "sourceNote": "Public YouTube No-Gi reference selected for NoGiMind coverage expansion."
-  },
-  {
     "id": "tarikoplata-no-gi-reference",
     "provider": "youtube",
     "title": {
@@ -9911,58 +9690,57 @@ export const videoReferences: VideoReference[] = [
     "id": "de-la-riva-back-take-leg-drag",
     "provider": "youtube",
     "title": {
-      "en": "Reverse De La Riva to LEG DRAG & TRUCK",
-      "vi": "Reverse De La Riva to LEG DRAG & TRUCK",
-      "fr": "Reverse De La Riva to LEG DRAG & TRUCK"
+      "en": "RDLR Step Pass to Leg Drag Adjustment (Brandon Quick)",
+      "vi": "RDLR Step Pass to Leg Drag Adjustment (Brandon Quick)",
+      "fr": "RDLR Step Pass to Leg Drag Adjustment (Brandon Quick)"
     },
-    "channelName": "De La Riva Guard",
-    "url": "https://www.youtube.com/watch?v=AHEjvNvTiY8",
-    "embedUrl": "https://www.youtube.com/embed/AHEjvNvTiY8",
-    "youtubeId": "AHEjvNvTiY8",
+    "channelName": "Brandon Quick",
+    "url": "https://www.youtube.com/watch?v=lrS19vvOncs",
+    "embedUrl": "https://www.youtube.com/embed/lrS19vvOncs",
+    "youtubeId": "lrS19vvOncs",
     "language": "en",
     "relatedSkillIds": [
-      "de-la-riva-back-take",
       "reverse-de-la-riva-transitions",
       "leg-drag-pass"
     ],
     "relatedPositionIds": [
-      "de-la-riva-guard",
-      "back-control-position"
+      "de-la-riva-guard"
     ],
     "techniqueTags": [
       "no-gi",
-      "de-la-riva",
-      "back-take",
-      "leg-drag"
+      "reverse-de-la-riva",
+      "leg-drag",
+      "rdlr",
+      "step-pass"
     ],
     "relevance": "supplemental",
-    "level": "advanced",
+    "level": "intermediate",
     "whyUseful": {
-      "en": "Public No-Gi YouTube reference selected to improve coverage for this NoGiMind skill.",
-      "vi": "Public No-Gi YouTube reference selected to improve coverage for this NoGiMind skill.",
-      "fr": "Public No-Gi YouTube reference selected to improve coverage for this NoGiMind skill."
+      "en": "Brandon Quick demonstrates a No-Gi RDLR step pass to leg drag adjustment, showing how to transition from reverse de la riva into leg drag control.",
+      "vi": "Brandon Quick trình diễn adjustment từ RDLR step pass sang leg drag trong No-Gi, chỉ cách chuyển từ reverse de la riva sang leg drag control.",
+      "fr": "Brandon Quick montre un ajustement de step pass RDLR à leg drag en No-Gi, expliquant la transition du reverse de la riva au contrôle leg drag."
     },
     "whatToWatchFor": {
       "en": [
-        "Connection before force",
-        "Body position and angle",
-        "Transition timing",
-        "Safe controlled finish"
+        "Foot placement for step pass",
+        "Adjusting grip when opponent defends",
+        "Transition timing into leg drag",
+        "Weight distribution during transition"
       ],
       "vi": [
-        "Connection before force",
-        "Body position and angle",
-        "Transition timing",
-        "Safe controlled finish"
+        "Đặt chân cho step pass",
+        "Điều chỉnh grip khi đối thủ phòng thủ",
+        "Thời điểm chuyển sang leg drag",
+        "Phân bổ trọng lượng khi chuyển tiếp"
       ],
       "fr": [
-        "Connection before force",
-        "Body position and angle",
-        "Transition timing",
-        "Safe controlled finish"
+        "Placement du pied pour le step pass",
+        "Ajustement de la prise quand l’adversaire defend",
+        "Timing de la transition vers leg drag",
+        "Repartition du poids pendant la transition"
       ]
     },
-    "sourceNote": "Public YouTube No-Gi reference selected for NoGiMind coverage expansion."
+    "sourceNote": "YouTube search result (yt-dlp) for No-Gi BJJ technique."
   },
   {
     "id": "lachlan-side-control-top-finishing",

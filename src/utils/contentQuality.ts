@@ -1,3 +1,8 @@
+/**
+ * DEPENDENCY NOTE: This file is imported by `scripts/validateData.ts` (via `findDuplicateBlocks`).
+ * Do NOT delete or move this file without updating that script.
+ */
+
 import type { LocalizedText } from '../types/skill'
 
 const normalizeBlock = (text: string) =>

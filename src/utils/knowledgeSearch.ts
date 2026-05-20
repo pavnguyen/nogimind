@@ -11,26 +11,9 @@ const pendingRequests = new Map<string, { resolve: (value: KnowledgeSearchResult
 const searchTimers = new Map<string, number>()
 let initPromise: Promise<void> | null = null
 let warmupPromise: Promise<void> | null = null
-const readyCallbacks: Array<() => void> = []
 const logPerf = (...args: Parameters<typeof console.log>) => {
   if (import.meta.env.DEV) console.log(...args)
 }
-
-/** Subscribe to be notified when the search worker is fully initialized */
-export const subscribeOnReady = (cb: () => void): (() => void) => {
-  if (ready) {
-    cb()
-    return () => {}
-  }
-  readyCallbacks.push(cb)
-  return () => {
-    const idx = readyCallbacks.indexOf(cb)
-    if (idx !== -1) readyCallbacks.splice(idx, 1)
-  }
-}
-
-/** Check if the search worker indexes are ready */
-export const isIndexReady = (): boolean => ready
 
 const handleWorkerCrash = () => {
   console.warn('Search worker crashed — recreating on next request')
@@ -72,10 +55,6 @@ const getOrCreateWorker = (): Worker => {
     switch (type) {
       case 'ready': {
         ready = true
-        // Notify all subscribers
-        const cbs = readyCallbacks.slice()
-        readyCallbacks.length = 0
-        cbs.forEach((cb) => cb())
         break
       }
       case 'search-results': {
@@ -309,58 +288,4 @@ export const searchKnowledge = (
   })
 }
 
-/** Benchmark: run sync search 10 times and log average time (call from browser console) */
-export const benchmarkSyncSearch = () => {
-  const queries = [
-    'RNC elbow under chin',
-    'armbar thumb direction',
-    'triangle one shoulder out',
-    'omoplata shoulder clamp',
-    'false reap knee line',
-    'heel hook saddle',
-    'guillotine deep wrist',
-    'bodylock passing',
-    'kimura elbow ribs',
-    'crab ride back take',
-  ]
-  const lang = 'en'
 
-  // Must call setSearchData before syncSearchKnowledge
-  // Use dynamic imports to avoid bundling data with main chunk
-  const loadBundle = async () => {
-    const bundle = await buildSearchPayload()
-
-    import('../utils/searchEngine').then(({ setSearchData, syncSearchKnowledge }) => {
-      setSearchData(bundle)
-      const runs = 10
-      const timings: number[] = []
-      for (let i = 0; i < runs; i++) {
-        const start = performance.now()
-        for (const q of queries) {
-          syncSearchKnowledge(q, lang)
-        }
-        timings.push(performance.now() - start)
-      }
-      if (import.meta.env.DEV) {
-        console.group('Sync search benchmark (10 queries x 10 runs)')
-        console.log(`Average: ${(timings.reduce((a, b) => a + b, 0) / timings.length).toFixed(2)} ms`)
-        console.log(`Min: ${Math.min(...timings).toFixed(2)} ms`)
-        console.log(`Max: ${Math.max(...timings).toFixed(2)} ms`)
-        console.log(`Individual runs: ${timings.map((t) => t.toFixed(1)).join(', ')} ms`)
-        console.groupEnd()
-      }
-    })
-  }
-  loadBundle()
-}
-
-/** Terminate the search worker (cleanup) */
-export const terminateWorker = () => {
-  if (worker) {
-    worker.terminate()
-    worker = null
-    ready = false
-    initPromise = null
-    warmupPromise = null
-  }
-}

@@ -2,7 +2,6 @@ import type { PositionCategory, PositionNode, PositionalStatus } from '../types/
 import type { LocalizedStringArray, LocalizedText } from '../types/skill'
 
 export const positionCategories: PositionCategory[] = ['standing', 'top_control', 'bottom_guard', 'pin', 'back', 'turtle', 'front_headlock', 'leg_entanglement', 'scramble', 'submission_threat']
-export const positionalStatuses: PositionalStatus[] = ['dominant', 'advantage', 'neutral', 'defensive', 'dangerous', 'critical']
 
 const lt = (vi: string, en: string, fr: string): LocalizedText => ({ vi, en, fr })
 const la = (vi: string[], en: string[], fr: string[]): LocalizedStringArray => ({ vi, en, fr })
@@ -1429,6 +1428,112 @@ const seeds: PositionSeed[] = [
     relatedSkillIds: ['crab-ride', 'wrist-ride-back-exposure', 'back-control'],
     relatedConceptIds: ['hooks', 'positional-hierarchy', 'connection-before-control'],
   },
+  {
+    id: 'backside-50-50',
+    title: lt('Backside 50/50', 'Backside 50/50', 'Backside 50/50'),
+    category: 'leg_entanglement',
+    status: 'dangerous',
+    description: lt(
+      'Leg entanglement từ phía sau nơi attacker kiểm soát cả hip line và knee line, tạo heel exposure nguy hiểm từ phía sau.',
+      'A leg entanglement from behind where the attacker controls both the hip line and knee line, creating dangerous heel exposure from the rear.',
+      'Un entanglement de jambe par derrière où l’attaquant contrôle la hip line et la knee line, créant une exposition du talon dangereuse par l’arrière.',
+    ),
+    topGoal: lt(
+      'Giữ cả hai knee line, chân phụ và theo hướng xoay an toàn.',
+      'Maintain both knee lines, the secondary leg, and safe rotation direction.',
+      'Garder les deux knee lines, la jambe secondaire et la direction de rotation sûre.',
+    ),
+    bottomGoal: lt(
+      'Đưa gót về hip line, giải phóng chân phụ và clear knee line trước khi xoay.',
+      'Bring the heel to the hip line, free the secondary leg, and clear the knee line before rotating.',
+      'Ramener le talon à la hip line, libérer la jambe secondaire et libérer la knee line avant de tourner.',
+    ),
+    controlPoint: lt(
+      'Knee line bị kẹt kép, gót qua hip line và chân phụ bị khóa.',
+      'Double trapped knee line, heel past hip line, and locked secondary leg.',
+      'Knee line doublement piégée, talon passé hip line et jambe secondaire verrouillée.',
+    ),
+    escapePriority: lt(
+      'Không xoay mù — nhận diện trước knee line có kẹt không, heel có lộ không rồi mới hành động.',
+      'Do not rotate blind — assess knee line entrapment and heel exposure first, then act.',
+      'Ne pas tourner à l’aveugle — évaluer piégeage knee line et exposition talon d’abord, puis agir.',
+    ),
+    nextPositionId: 'saddle-inside-sankaku',
+    action: lt('Chuyển saddle hoặc heel hook finish', 'Transition to saddle or heel hook finish', 'Passer en saddle ou finition heel hook'),
+    relatedSkillIds: ['backside-50-50-control', 'heel-hook-safety', 'leg-lock-safety-basics', 'k-guard-matrix', 'false-reap-entry'],
+    relatedConceptIds: ['knee-line', 'leg-lock-safety-hierarchy', 'safe-unsafe-rotation'],
+  },
+  {
+    id: 'cross-wrist-ride-position',
+    title: lt('Cross-Wrist Ride', 'Cross-Wrist Ride', 'Cross-wrist ride'),
+    category: 'back',
+    status: 'advantage',
+    description: lt(
+      'Ride từ turtle/side nơi attacker kiểm soát cả hai cổ tay, duỗi tay đối thủ ra xa để lộ lưng.',
+      'A ride from turtle/side where the attacker controls both wrists, stretching the opponent arms to expose the back.',
+      'Un ride depuis turtle/side où l’attaquant contrôle les deux poignets, étirant les bras de l’adversaire pour exposer le dos.',
+    ),
+    topGoal: lt(
+      'Giữ hai cổ tay, duy trì áp lực ngực và mở hook entry.',
+      'Hold both wrists, maintain chest pressure, and open a hook entry.',
+      'Tenir les deux poignets, maintenir pression poitrine et ouvrir entrée hook.',
+    ),
+    bottomGoal: lt(
+      'Kéo hai tay về thân, xây base và không để shoulder line bị tách.',
+      'Pull both arms back to the body, build a base, and prevent shoulder-line separation.',
+      'Ramener les deux bras au corps, reconstruire base et empêcher séparation shoulder line.',
+    ),
+    controlPoint: lt(
+      'Hai cổ tay bị kiểm soát, ngực trên lưng và knee ride angle.',
+      'Both wrists controlled, chest-on-back connection, and knee ride angle.',
+      'Deux poignets contrôlés, connexion poitrine-dos et angle knee ride.',
+    ),
+    escapePriority: lt(
+      'Đưa khuỷu tay về sườn trước khi kéo tay về — không rút thẳng vào ngực.',
+      'Bring elbows to ribs before pulling arms in — do not pull straight to the chest.',
+      'Ramener coudes aux côtes avant tirer bras — ne pas tirer droit à la poitrine.',
+    ),
+    nextPositionId: 'back-control-position',
+    action: lt('Chuyển hook seatbelt hoặc body triangle', 'Transition to hook seatbelt or body triangle', 'Passer en hook seatbelt ou body triangle'),
+    relatedSkillIds: ['cross-wrist-ride', 'turtle-ride', 'back-control', 'crab-ride'],
+    relatedConceptIds: ['ride-vs-pin-vs-submission', 'hooks', 'connection-before-control'],
+  },
+  {
+    id: 'claw-ride-position',
+    title: lt('Claw Ride', 'Claw Ride', 'Claw ride'),
+    category: 'back',
+    status: 'advantage',
+    description: lt(
+      'Ride dùng kết hợp underhook sâu + head control + hip pressure từ turtle để lộ lưng hoặc mat return.',
+      'A ride combining deep underhook, head control, and hip pressure from turtle to expose the back or mat return.',
+      'Un ride combinant underhook profond, contrôle de tête et pression hanche depuis turtle pour exposer le dos ou retour au sol.',
+    ),
+    topGoal: lt(
+      'Giữ underhook sâu, head post và hip pressure offset để ngăn stand-up.',
+      'Keep a deep underhook, head post, and offset hip pressure to prevent the stand-up.',
+      'Garder underhook profond, appui de tête et pression hanche décalée pour empêcher le stand-up.',
+    ),
+    bottomGoal: lt(
+      'Pummel underhook ra, đưa đầu vào hip line và giữ gối dưới hông.',
+      'Pummel the underhook out, bring the head to the hip line, and keep knees under hips.',
+      'Pummeler l’underhook dehors, amener tête à la hip line et garder genoux sous hanches.',
+    ),
+    controlPoint: lt(
+      'Underhook depth, head post và hip pressure vector.',
+      'Underhook depth, head post, and hip pressure vector.',
+      'Profondeur underhook, appui tête et vecteur pression hanche.',
+    ),
+    escapePriority: lt(
+      'Chống underhook trước — nếu underhook mất thì head post và hip pressure cũng vô hiệu.',
+      'Fight the underhook first — if the underhook is lost, head post and hip pressure are also neutralized.',
+      'Combattre l’underhook d’abord — sans underhook, appui tête et pression hanche sont neutralisés.',
+    ),
+    nextPositionId: 'back-control-position',
+    action: lt('Chuyển hook hoặc back take', 'Transition to hook or back take', 'Passer en hook ou prise de dos'),
+    relatedSkillIds: ['claw-ride', 'turtle-ride', 'back-control', 'cross-wrist-ride'],
+    relatedConceptIds: ['ride-vs-pin-vs-submission', 'hooks', 'connection-before-control'],
+  },
 ]
 
-export const positions: PositionNode[] = seeds.map(makePosition)
+export const positions = seeds.map(makePosition)
+

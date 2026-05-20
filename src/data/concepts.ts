@@ -120,7 +120,7 @@ const concept = (seed: ConceptSeed): ConceptNode => ({
 const seeds: ConceptSeed[] = [
   {
     id: 'positional-hierarchy',
-    title: lt('Positional Hierarchy', 'Positional Hierarchy', 'Hiérarchie positionnelle'),
+    title: lt('Phân cấp vị trí', 'Positional Hierarchy', 'Hiérarchie positionnelle'),
     category: 'positional',
     level: 'fundamental',
     shortDefinition: lt('Bản đồ ưu tiên cho biết vị trí nào tăng kiểm soát, giảm rủi ro và mở submission.', 'A priority map showing which positions increase control, reduce risk, and open submissions.', 'Une carte qui montre quelles positions augmentent contrôle, réduisent risque et ouvrent soumissions.'),
@@ -134,7 +134,7 @@ const seeds: ConceptSeed[] = [
   },
   {
     id: 'inside-position',
-    title: lt('Inside Position', 'Inside Position', 'Inside position'),
+    title: lt('Vị trí trong', 'Inside Position', 'Inside position'),
     category: 'positional',
     level: 'fundamental',
     shortDefinition: lt('Đường trong là vị trí tay, đầu, gối hoặc hông nằm giữa bạn và trục kiểm soát của đối thủ.', 'Inside position means your hand, head, knee, or hip occupies the lane between you and the opponent’s control axis.', 'Inside position signifie main, tête, genou ou hanche sur la ligne intérieure du contrôle adverse.'),
@@ -148,7 +148,7 @@ const seeds: ConceptSeed[] = [
   },
   {
     id: 'connection-before-control',
-    title: lt('Connection Before Control', 'Connection Before Control', 'Connexion avant contrôle'),
+    title: lt('Kết nối trước kiểm soát', 'Connection Before Control', 'Connexion avant contrôle'),
     category: 'mechanical',
     level: 'fundamental',
     shortDefinition: lt('Bạn phải gắn đúng điểm cơ thể trước khi cố giữ hoặc điều khiển đối thủ.', 'You must attach the correct body points before trying to hold or steer the opponent.', 'Il faut connecter les bons points du corps avant de tenir ou diriger.'),
@@ -162,7 +162,7 @@ const seeds: ConceptSeed[] = [
   },
   {
     id: 'control-before-submission',
-    title: lt('Control Before Submission', 'Control Before Submission', 'Contrôle avant soumission'),
+    title: lt('Kiểm soát trước khóa siết', 'Control Before Submission', 'Contrôle avant soumission'),
     category: 'offensive',
     level: 'fundamental',
     shortDefinition: lt('Submission chỉ bền khi opponent bị giữ ở vị trí không thể thoát cấu trúc chính.', 'Submissions become reliable only when the opponent is held where the main escape structure is denied.', 'Une soumission devient fiable quand l’évasion principale est bloquée.'),
@@ -260,7 +260,7 @@ const seeds: ConceptSeed[] = [
   },
   {
     id: 'head-position',
-    title: lt('Head Position', 'Head Position', 'Position de tête'),
+    title: lt('Vị trí đầu', 'Head Position', 'Position de tête'),
     category: 'mechanical',
     level: 'fundamental',
     shortDefinition: lt('Đầu là post, wedge, pressure source và sensor định hướng cho cả spine.', 'The head is a post, wedge, pressure source, and sensor that organizes the spine.', 'La tête est post, wedge, source de pression et capteur qui organise la colonne.'),
@@ -274,7 +274,7 @@ const seeds: ConceptSeed[] = [
   },
   {
     id: 'hip-line-shoulder-line',
-    title: lt('Hip Line vs Shoulder Line', 'Hip Line vs Shoulder Line', 'Hip line vs shoulder line'),
+    title: lt('Đường hông vs đường vai', 'Hip Line vs Shoulder Line', 'Hip line vs shoulder line'),
     category: 'positional',
     level: 'intermediate',
     shortDefinition: lt('Hip line và shoulder line là hai trục xoay quyết định pass, pin, escape và back exposure.', 'Hip line and shoulder line are the two rotation axes that decide passes, pins, escapes, and back exposure.', 'Hip line et shoulder line sont deux axes de rotation qui décident pass, pin, escape et back exposure.'),
@@ -288,7 +288,7 @@ const seeds: ConceptSeed[] = [
   },
   {
     id: 'knee-line',
-    title: lt('Knee Line', 'Knee Line', 'Knee line'),
+    title: lt('Đường gối', 'Knee Line', 'Knee line'),
     category: 'safety',
     level: 'fundamental',
     shortDefinition: lt('Knee line là ranh giới quyết định chân bị kiểm soát trong leg entanglement hay đã thoát.', 'The knee line is the boundary that decides whether the leg is controlled in an entanglement or free.', 'La knee line décide si la jambe est contrôlée dans entanglement ou libre.'),
@@ -302,7 +302,7 @@ const seeds: ConceptSeed[] = [
   },
   {
     id: 'elbow-knee-connection',
-    title: lt('Elbow-Knee Connection', 'Elbow-Knee Connection', 'Connexion coude-genou'),
+    title: lt('Kết nối khuỷu-gối', 'Elbow-Knee Connection', 'Connexion coude-genou'),
     category: 'defensive',
     level: 'fundamental',
     shortDefinition: lt('Kết nối khuỷu-gối đóng khoảng trống giữa upper body và hip line để ngăn pin/pass.', 'Elbow-knee connection closes the space between upper body and hip line to prevent pins and passes.', 'La connexion coude-genou ferme l’espace entre haut du corps et hip line pour prévenir pin/pass.'),
@@ -316,7 +316,7 @@ const seeds: ConceptSeed[] = [
   },
   {
     id: 'base-balance',
-    title: lt('Base and Balance', 'Base and Balance', 'Base et équilibre'),
+    title: lt('Nền và thăng bằng', 'Base and Balance', 'Base et équilibre'),
     category: 'mechanical',
     level: 'fundamental',
     shortDefinition: lt('Base là khả năng giữ trọng tâm trong khi vẫn có thể di chuyển và phản ứng.', 'Base is the ability to keep center of gravity while staying mobile and reactive.', 'La base est garder centre de gravité tout en restant mobile et réactif.'),
@@ -330,7 +330,7 @@ const seeds: ConceptSeed[] = [
   },
   {
     id: 'angle-creation',
-    title: lt('Angle Creation', 'Angle Creation', 'Création d’angle'),
+    title: lt('Tạo góc', 'Angle Creation', 'Création d’angle'),
     category: 'strategic',
     level: 'intermediate',
     shortDefinition: lt('Tạo angle là đổi vị trí thân/hông để lực của bạn đi vào điểm yếu thay vì đẩy thẳng vào cấu trúc mạnh.', 'Angle creation changes body or hip position so your force attacks weak structure instead of pushing straight into strength.', 'Créer angle change corps/hanches pour attaquer structure faible plutôt que pousser droit.'),
@@ -344,7 +344,7 @@ const seeds: ConceptSeed[] = [
   },
   {
     id: 'pressure-direction',
-    title: lt('Pressure Direction', 'Pressure Direction', 'Direction de pression'),
+    title: lt('Hướng áp lực', 'Pressure Direction', 'Direction de pression'),
     category: 'mechanical',
     level: 'intermediate',
     shortDefinition: lt('Pressure hiệu quả có hướng cụ thể: chéo, vào far hip, vào shoulder line hoặc xuống hip line.', 'Effective pressure has a specific direction: diagonal, to far hip, to shoulder line, or down through hip line.', 'La pression efficace a direction: diagonale, far hip, shoulder line ou hip line.'),
@@ -372,7 +372,7 @@ const seeds: ConceptSeed[] = [
   },
   {
     id: 'failure-response',
-    title: lt('Failure Response', 'Failure Response', 'Réponse à l’échec'),
+    title: lt('Phản ứng khi thất bại', 'Failure Response', 'Réponse à l’échec'),
     category: 'strategic',
     level: 'intermediate',
     shortDefinition: lt('Failure response là kế hoạch ngay khi kỹ thuật đầu tiên bị chặn.', 'Failure response is the plan for the moment the first technique is blocked.', 'Failure response est le plan quand la première technique est bloquée.'),
@@ -386,7 +386,7 @@ const seeds: ConceptSeed[] = [
   },
   {
     id: 'early-vs-late-defense',
-    title: lt('Early Defense vs Late Defense', 'Early Defense vs Late Defense', 'Défense tôt vs tard'),
+    title: lt('Phòng thủ sớm vs phòng thủ muộn', 'Early Defense vs Late Defense', 'Défense tôt vs tard'),
     category: 'defensive',
     level: 'fundamental',
     shortDefinition: lt('Early defense xử lý body signal trước khi position khóa; late defense xử lý khi danger đã có lực.', 'Early defense addresses body signals before the position locks; late defense deals with force already applied.', 'Défense tôt traite signaux avant lock; défense tard traite force déjà appliquée.'),
@@ -400,7 +400,7 @@ const seeds: ConceptSeed[] = [
   },
   {
     id: 'guard-retention-layers',
-    title: lt('Guard Retention Layers', 'Guard Retention Layers', 'Couches de rétention de garde'),
+    title: lt('Lớp giữ guard', 'Guard Retention Layers', 'Couches de rétention de garde'),
     category: 'defensive',
     level: 'intermediate',
     shortDefinition: lt('Guard retention có nhiều layer: distance, feet, knees, frames, hips, shoulders và re-attack.', 'Guard retention has layers: distance, feet, knees, frames, hips, shoulders, and re-attack.', 'La rétention a plusieurs couches: distance, pieds, genoux, frames, hanches, épaules, re-attack.'),
@@ -442,7 +442,7 @@ const seeds: ConceptSeed[] = [
   },
   {
     id: 'deliberate-practice',
-    title: lt('Deliberate Practice', 'Deliberate Practice', 'Pratique délibérée'),
+    title: lt('Tập luyện có chủ đích', 'Deliberate Practice', 'Pratique délibérée'),
     category: 'training',
     level: 'fundamental',
     shortDefinition: lt('Tập có chủ đích là chọn một cue nhỏ, đo kết quả và tăng resistance theo từng bước.', 'Deliberate practice means choosing one small cue, measuring results, and increasing resistance step by step.', 'La pratique délibérée choisit un cue précis, mesure résultat et augmente résistance progressivement.'),
@@ -456,7 +456,7 @@ const seeds: ConceptSeed[] = [
   },
   {
     id: 'positional-sparring',
-    title: lt('Positional Sparring', 'Positional Sparring', 'Sparring positionnel'),
+    title: lt('Sparring vị trí', 'Positional Sparring', 'Sparring positionnel'),
     category: 'training',
     level: 'fundamental',
     shortDefinition: lt('Positional sparring bắt đầu trong một tình huống cụ thể với điều kiện thắng/thua rõ ràng.', 'Positional sparring starts in a specific situation with clear win and reset conditions.', 'Le sparring positionnel commence dans une situation précise avec conditions de réussite/reset.'),
@@ -467,6 +467,51 @@ const seeds: ConceptSeed[] = [
     relatedSkillIds: ['side-control-escape', 'back-control', 'bodylock-passing', 'front-headlock-defense'],
     relatedConceptIds: ['deliberate-practice', 'failure-response', 'positional-hierarchy'],
     tags: ['positional sparring', 'training', 'constraints'],
+  },
+  // ─── Exposure Before Finish ────────────────────────────────────────
+  {
+    id: 'exposure-before-finish',
+    title: lt('Exposure trước Finish', 'Exposure Before Finish', 'Exposition avant finition'),
+    category: 'offensive',
+    level: 'intermediate',
+    shortDefinition: lt('Exposure là mở finish line trước khi đặt lực finish — nếu không thấy đường clear thì chưa đến lúc squeeze.', 'Exposure means opening the finish line before applying finishing force — if the path is not clear, it is not time to squeeze.', 'Exposition signifie ouvrir la ligne de finition avant la force — si la voie n’est pas claire, ce n’est pas le moment de serrer.'),
+    whyItMatters: lt('Nhiều người squeeze sớm làm mất vị trí hoặc lộ back; exposure trước finish giữ bạn đúng hierarchy.', 'Many people squeeze early and lose position or expose their back; exposure before finish keeps you in the right hierarchy.', 'Beaucoup serrent tôt et perdent position ou exposent leur dos; exposition avant finition garde la bonne hiérarchie.'),
+    deepExplanation: lt('Exposure xuất hiện ở mọi submission: RNC cần mở đường dưới cằm, arm triangle cần shoulder line trap, leg lock cần heel exposure. Finish chỉ nên đến sau khi đã xác nhận finish line mở.', 'Exposure appears in every submission: RNC needs the path under the chin, arm triangle needs shoulder-line trap, leg locks need heel exposure. Finish should come only after confirming the finish line is open.', 'L’exposition apparaît dans chaque soumission: RNC a besoin du chemin sous le menton, arm triangle du piège shoulder line, leg locks de l’exposition du talon. Finir seulement après confirmation.'),
+    beginnerView: lt('Hỏi: có thấy đường finish rõ chưa, hay chỉ đang hy vọng?', 'Ask: can you see the finish path clearly, or are you just hoping?', 'Demandez: voyez-vous la ligne de finition clairement, ou espérez-vous juste?'),
+    advancedView: lt('Thiết kế toàn bộ chain để mỗi phản ứng của đối thủ mở một đường exposure khác.', 'Design the whole chain so each opponent reaction opens a different exposure line.', 'Concevoir toute la chaîne pour que chaque réaction adverse ouvre une ligne d’exposition différente.'),
+    relatedSkillIds: ['rear-naked-choke-system', 'arm-triangle-mount', 'guillotine-system', 'heel-hook-safety', 'kimura-system'],
+    relatedConceptIds: ['control-before-submission', 'dilemma-attacks', 'failure-response'],
+    tags: ['exposure', 'finish line', 'submission', 'timing'],
+  },
+  // ─── Ride vs Pin vs Submission ─────────────────────────────────────
+  {
+    id: 'ride-vs-pin-vs-submission',
+    title: lt('Ride vs Pin vs Submission', 'Ride vs Pin vs Submission', 'Ride vs Pin vs Soumission'),
+    category: 'strategic',
+    level: 'advanced',
+    shortDefinition: lt('Ba phase khác nhau: ride để lộ lưng, pin để ổn định vị trí, submission để kết thúc.', 'Three different phases: ride to expose the back, pin to stabilize the position, submission to finish.', 'Trois phases: ride pour exposer le dos, pin pour stabiliser, soumission pour finir.'),
+    whyItMatters: lt('Nhầm lẫn giữa ride và pin làm bạn mất back hoặc submission khi đang control tốt.', 'Confusing ride with pin makes you lose the back or submission when you have good control.', 'Confondre ride et pin fait perdre le dos ou la soumission avec bon contrôle.'),
+    deepExplanation: lt('Ride là di chuyển theo reaction để tìm back (turtle/crab/wrist ride). Pin là ổn định hip + shoulder line (side/mount). Submission là isolate line cụ thể. Phase sai làm hệ thống không chạy.', 'Ride is moving with reactions to find the back (turtle, crab, wrist ride). Pin is stabilizing hip and shoulder lines (side, mount). Submission is isolating a specific line. Wrong phase breaks the system.', 'Ride suit les réactions pour trouver le dos (turtle, crab, wrist ride). Pin stabilise hip/shoulder lines (side, mount). Soumission isole une ligne. Mauvaise phase casse le système.'),
+    beginnerView: lt('Đang di chuyển (ride) hay đã ổn định (pin)?', 'Are you moving (ride) or stabilized (pin)?', 'Êtes-vous en mouvement (ride) ou stabilisé (pin)?'),
+    advancedView: lt('Chuyển phase mượt: ride → back exposure → pin → submission. Không nhảy phase.', 'Transition phases smoothly: ride → back exposure → pin → submission. Do not skip phases.', 'Transitionner phases: ride → exposition dos → pin → soumission. Ne pas sauter de phase.'),
+    relatedSkillIds: ['turtle-ride', 'cross-wrist-ride', 'claw-ride', 'side-control-pin', 'mount-control', 'rear-naked-choke-system', 'back-control'],
+    relatedConceptIds: ['positional-hierarchy', 'control-before-submission', 'exposure-before-finish'],
+    tags: ['ride', 'pin', 'submission', 'phase', 'decision'],
+  },
+  // ─── Safe vs Unsafe Rotation ──────────────────────────────────────
+  {
+    id: 'safe-unsafe-rotation',
+    title: lt('Xoay An Toàn vs Không An Toàn', 'Safe vs Unsafe Rotation', 'Rotation sûre vs risquée'),
+    category: 'safety',
+    level: 'fundamental',
+    shortDefinition: lt('Xoay an toàn khi knee line free và heel hidden; xoay nguy hiểm khi knee line trapped và heel exposed.', 'Safe rotation occurs when knee line is free and heel is hidden; unsafe rotation occurs when knee line is trapped and heel is exposed.', 'Rotation sûre quand knee line libre et talon caché; rotation risquée quand knee line piégée et talon exposé.'),
+    whyItMatters: lt('Leg lock injuries thường đến từ xoay sai hướng trong entanglement — biết khi nào xoay và khi nào dừng là safety kỹ thuật.', 'Leg lock injuries usually come from turning the wrong direction in an entanglement — knowing when to turn and when to stop is technical safety.', 'Les blessures leg lock viennent souvent d’une mauvaise rotation dans entanglement — savoir quand tourner et quand arrêter est sécurité technique.'),
+    deepExplanation: lt('Safety assessment theo thứ tự: (1) heel có bị exposed không? (2) knee line có bị trapped không? (3) chân phụ có bị kiểm soát không? Nếu cả 3 dấu hiệu có, đừng xoay — tap hoặc giải phóng trước. Nếu heel hidden và knee free, bạn có thể xoay an toàn.', 'Safety assessment in order: (1) Is the heel exposed? (2) Is the knee line trapped? (3) Is the secondary leg controlled? If all 3 signals are present, do not rotate — tap or free yourself first. If heel hidden and knee free, you can rotate safely.', 'Évaluation sécurité: (1) Talon exposé? (2) Knee line piégée? (3) Jambe secondaire contrôlée? Si 3 signaux présents, ne tournez pas — tapez ou libérez d’abord. Talon caché + knee libre = rotation sûre.'),
+    beginnerView: lt('Không xoay mạnh khi gót lộ và gối kẹt.', 'Do not rotate hard when the heel is exposed and the knee is trapped.', 'Ne tournez pas fort quand talon exposé et genou piégé.'),
+    advancedView: lt('Dùng rotation sensing để bait: cho họ cảm giác knee line bị trap rồi đổi hướng.', 'Use rotation sensing to bait: let them feel knee line is trapped then change direction.', 'Utiliser sensing de rotation pour bait: faire sentir knee line piégée puis changer direction.'),
+    relatedSkillIds: ['leg-lock-defense', 'knee-line-escape', 'heel-hook-safety', 'straight-ankle-lock-safety'],
+    relatedConceptIds: ['knee-line', 'leg-lock-safety-hierarchy', 'early-vs-late-defense'],
+    tags: ['rotation', 'safety', 'leg lock', 'knee line', 'heel'],
   },
 ]
 

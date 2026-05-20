@@ -94,7 +94,7 @@ const archetype = (
 export const archetypes: GrapplingArchetype[] = [
   archetype({
     id: 'wrestle-up-player',
-    title: lt('Wrestle-Up Player', 'Wrestle-Up Player', 'Joueur wrestle-up'),
+    title: lt('Người chơi wrestle-up', 'Wrestle-Up Player', 'Joueur wrestle-up'),
     shortDescription: lt(
       'Dùng seated guard, shin-to-shin và half guard để đứng lên single leg thay vì nằm chờ sweep.',
       'Uses seated guard, shin-to-shin, and half guard to rise into single legs instead of waiting for sweeps.',
@@ -132,7 +132,7 @@ export const archetypes: GrapplingArchetype[] = [
   }),
   archetype({
     id: 'pressure-passer',
-    title: lt('Pressure Passer', 'Pressure Passer', 'Passeur pression'),
+    title: lt('Pressure passer', 'Pressure Passer', 'Passeur pression'),
     shortDescription: lt(
       'Ưu tiên bodylock, headquarters và knee cut để khóa hip line trước khi vượt chân.',
       'Prioritizes bodylock, headquarters, and knee cut passing to lock the hip line before clearing legs.',
@@ -170,7 +170,7 @@ export const archetypes: GrapplingArchetype[] = [
   }),
   archetype({
     id: 'front-headlock-player',
-    title: lt('Front Headlock Player', 'Front Headlock Player', 'Joueur front headlock'),
+    title: lt('Người chơi front headlock', 'Front Headlock Player', 'Joueur front headlock'),
     shortDescription: lt(
       'Dùng hand fighting, snapdown và go-behind/guillotine dilemma để phạt posture thấp.',
       'Uses hand fighting, snapdowns, and go-behind or guillotine dilemmas to punish low posture.',
@@ -208,7 +208,7 @@ export const archetypes: GrapplingArchetype[] = [
   }),
   archetype({
     id: 'back-control-finisher',
-    title: lt('Back Control Finisher', 'Back Control Finisher', 'Finisseur back control'),
+    title: lt('Finisher back control', 'Back Control Finisher', 'Finisseur back control'),
     shortDescription: lt(
       'Tập trung lấy lưng, giữ chest-to-back, thắng hand fight và finish RNC có kiểm soát.',
       'Focuses on taking the back, keeping chest-to-back, winning hand fights, and finishing controlled RNCs.',
@@ -246,7 +246,7 @@ export const archetypes: GrapplingArchetype[] = [
   }),
   archetype({
     id: 'leg-lock-safety-first',
-    title: lt('Leg Lock Safety First', 'Leg Lock Safety First', 'Sécurité leg lock d’abord'),
+    title: lt('An toàn leg lock trước tiên', 'Leg Lock Safety First', 'Sécurité leg lock d’abord'),
     shortDescription: lt(
       'Ưu tiên nhận diện knee line, heel exposure và tap timing trước khi tấn công chân.',
       'Prioritizes knee-line recognition, heel exposure, and tap timing before leg attacks.',
@@ -284,7 +284,7 @@ export const archetypes: GrapplingArchetype[] = [
   }),
   archetype({
     id: 'guard-retention-specialist',
-    title: lt('Guard Retention Specialist', 'Guard Retention Specialist', 'Spécialiste rétention de garde'),
+    title: lt('Chuyên gia guard retention', 'Guard Retention Specialist', 'Spécialiste rétention de garde'),
     shortDescription: lt(
       'Xây guard quanh layers: feet, shins, knees, frames, hips và pummeling để passer không khóa chest-to-chest.',
       'Builds guard around layers: feet, shins, knees, frames, hips, and pummeling so passers cannot lock chest-to-chest.',
@@ -322,7 +322,7 @@ export const archetypes: GrapplingArchetype[] = [
   }),
   archetype({
     id: 'half-guard-wrestler',
-    title: lt('Half Guard Wrestler', 'Half Guard Wrestler', 'Lutteur half guard'),
+    title: lt('Vật sĩ half guard', 'Half Guard Wrestler', 'Lutteur half guard'),
     shortDescription: lt(
       'Dùng knee shield, underhook và dogfight logic để chuyển half guard thành sweep, single leg hoặc back exposure.',
       'Uses knee shield, underhook, and dogfight logic to turn half guard into sweeps, single legs, or back exposure.',
@@ -360,7 +360,7 @@ export const archetypes: GrapplingArchetype[] = [
   }),
   archetype({
     id: 'scramble-controller',
-    title: lt('Scramble Controller', 'Scramble Controller', 'Contrôleur de scramble'),
+    title: lt('Người kiểm soát scramble', 'Scramble Controller', 'Contrôleur de scramble'),
     shortDescription: lt(
       'Biến scramble thành cuộc đua ưu tiên: head position, hip control, inside limbs và back exposure.',
       'Turns scrambles into priority races: head position, hip control, inside limbs, and back exposure.',
@@ -398,7 +398,7 @@ export const archetypes: GrapplingArchetype[] = [
   }),
   archetype({
     id: 'submission-chain-hunter',
-    title: lt('Submission Chain Hunter', 'Submission Chain Hunter', 'Chasseur de chaînes de soumission'),
+    title: lt('Thợ săn submission chain', 'Submission Chain Hunter', 'Chasseur de chaînes de soumission'),
     shortDescription: lt(
       'Xây submission bằng dilemma: guillotine, kimura, back take, arm triangle và RNC nối theo phản ứng.',
       'Builds submissions through dilemmas: guillotine, kimura, back take, arm triangle, and RNC chained by reaction.',
@@ -436,7 +436,7 @@ export const archetypes: GrapplingArchetype[] = [
   }),
   archetype({
     id: 'defensive-counter-grappler',
-    title: lt('Defensive Counter Grappler', 'Defensive Counter Grappler', 'Contre-grappler défensif'),
+    title: lt('Counter grappler phòng thủ', 'Defensive Counter Grappler', 'Contre-grappler défensif'),
     shortDescription: lt(
       'Ưu tiên survival, escape, safety recognition và counter sau khi đối thủ overcommit.',
       'Prioritizes survival, escapes, safety recognition, and counters after the opponent overcommits.',

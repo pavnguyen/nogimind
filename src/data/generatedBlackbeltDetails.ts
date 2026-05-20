@@ -98,7 +98,7 @@ const safetyNote = lt(
 const domainWords = (skill: SkillNode) => {
   if (isSubmission(skill)) return {
     action: lt('finish sạch', 'clean finish', 'finish propre'),
-    line: lt('neck/shoulder/ankle line', 'neck/shoulder/ankle line', 'ligne cou/épaule/cheville'),
+    line: lt('đường cổ/vai/mắt cá', 'neck/shoulder/ankle line', 'ligne cou/épaule/cheville'),
     branch: lt('đổi angle, reset hand fight hoặc giữ position.', 'change angle, reset hand fight, or keep position.', 'changer angle, reset hand fight ou garder position.'),
   }
   if (isPassing(skill)) return {
@@ -138,7 +138,7 @@ export const generatedBlackbeltDetailsForSkill = (skill: SkillNode): BlackbeltDe
   const clampMechanics = [
     clamp(
       `${skill.id}-bb-primary-clamp`,
-      lt('Primary clamp', 'Primary clamp', 'Clamp principal'),
+      lt('Clamp chính', 'Primary clamp', 'Clamp principal'),
       ['head', 'chest', 'elbows', 'hips'],
       ['shoulder line', 'hip line', 'knee line'],
       lt(`${titleVi}: đầu và ngực của tôi đóng vào ${words.line.vi}; khuỷu về ribs để không có khe pummel.`, `${titleEn}: my head and chest close into the ${words.line.en}; elbows return to ribs so there is no pummel gap.`, `${titleFr} : ma tête et ma poitrine ferment sur ${words.line.fr}; les coudes reviennent aux côtes pour supprimer le pummel.`),
@@ -149,7 +149,7 @@ export const generatedBlackbeltDetailsForSkill = (skill: SkillNode): BlackbeltDe
     ),
     clamp(
       `${skill.id}-bb-hip-clamp`,
-      lt('Hip line clamp', 'Hip line clamp', 'Clamp hip line'),
+      lt('Clamp hip line', 'Hip line clamp', 'Clamp hip line'),
       ['hips', 'knees', 'feet'],
       ['opponent hip line'],
       lt(`${titleVi}: hông của tôi đi trước, gối/foot post chặn hông đối thủ quay lại centerline.`, `${titleEn}: my hips lead first; knee or foot post blocks the opponent’s hips from turning back to centerline.`, `${titleFr} : mes hanches dirigent; genou ou foot post bloque le retour des hanches adverses vers centerline.`),
@@ -164,7 +164,7 @@ export const generatedBlackbeltDetailsForSkill = (skill: SkillNode): BlackbeltDe
     ? [
       finish(
         `${skill.id}-bb-finish-line`,
-        lt('Finish line', 'Finish line', 'Ligne de finish'),
+        lt('Đường finish', 'Finish line', 'Ligne de finish'),
         lt(`${titleVi}: isolation đã có, angle đã rõ, và defensive hand/leg không còn chặn line.`, `${titleEn}: isolation is set, angle is clear, and the defensive hand or leg no longer blocks the line.`, `${titleFr} : isolation posée, angle clair, main ou jambe défensive ne bloque plus la ligne.`),
         lt(`Loại slack khỏi ${words.line.vi}, rồi tăng lực bằng chest/hips chậm và có kiểm soát.`, `Remove slack from the ${words.line.en}, then add force with chest or hips slowly and under control.`, `Enlevez le slack de ${words.line.fr}, puis ajoutez force avec poitrine ou hanches lentement et contrôlé.`),
         lt('Line không còn khe và đối thủ không thể pummel lại trong một nhịp.', 'There is no gap and the opponent cannot pummel back in one beat.', 'Plus d’espace et l’adversaire ne peut pas repummel en un temps.'),
@@ -179,7 +179,7 @@ export const generatedBlackbeltDetailsForSkill = (skill: SkillNode): BlackbeltDe
   const pressureDetails = [
     pressure(
       `${skill.id}-bb-pressure-diagonal`,
-      lt('Directed pressure', 'Directed pressure', 'Pression dirigée'),
+      lt('Pressure định hướng', 'Directed pressure', 'Pression dirigée'),
       'chest / shoulder / hips',
       words.line,
       lt(`${titleVi}: pressure đi chéo vào line chính để làm mất rotation, không chỉ làm đối thủ khó chịu.`, `${titleEn}: pressure drives diagonally into the main line to remove rotation, not merely to create discomfort.`, `${titleFr} : la pression pousse en diagonale dans la ligne principale pour enlever rotation, pas seulement gêner.`),
@@ -188,9 +188,9 @@ export const generatedBlackbeltDetailsForSkill = (skill: SkillNode): BlackbeltDe
     ),
     pressure(
       `${skill.id}-bb-pressure-release`,
-      lt('Pressure release discipline', 'Pressure release discipline', 'Discipline de relâche'),
+      lt('Kỷ luật release pressure', 'Pressure release discipline', 'Discipline de relâche'),
       'hands / hips',
-      lt('safety line', 'safety line', 'ligne de sécurité'),
+      lt('đường an toàn', 'safety line', 'ligne de sécurité'),
       lt(`${titleVi}: nếu lực chuyển vào đau sắc ở cổ/gối/vai/spine, giảm lực và reset.`, `${titleEn}: if force turns into sharp neck, knee, shoulder, or spine pain, reduce force and reset.`, `${titleFr} : si la force devient douleur vive cou/genou/épaule/colonne, réduire et reset.`),
       lt('Cố chứng minh finish bằng crank hoặc force thêm.', 'Trying to prove the finish by cranking or adding force.', 'Prouver le finish par crank ou plus de force.'),
       lt('Không rõ lực thì reset.', 'If force is unclear, reset.', 'Force floue: reset.'),
@@ -200,7 +200,7 @@ export const generatedBlackbeltDetailsForSkill = (skill: SkillNode): BlackbeltDe
   const angleDetails = [
     angle(
       `${skill.id}-bb-angle-line`,
-      lt('Angle before force', 'Angle before force', 'Angle avant force'),
+      lt('Góc trước lực', 'Angle before force', 'Angle avant force'),
       lt(`Tạo angle để ${words.action.vi}.`, `Create angle to ${words.action.en}.`, `Créer l’angle pour ${words.action.fr}.`),
       lt(`${titleVi}: đầu giữ line, hông circle ra ngoài, rồi tay/gối đóng khe còn lại.`, `${titleEn}: head keeps the line, hips circle outside, then hands or knees close the remaining gap.`, `${titleFr} : tête garde la ligne, hanches circle dehors, puis mains ou genoux ferment l’espace restant.`),
       lt('Ngăn đối thủ square lại, pummel lại hoặc dùng bridge thẳng.', 'Prevents the opponent from squaring up, repummeling, or using a straight bridge.', 'Empêche resquare, repummel ou bridge droit.'),

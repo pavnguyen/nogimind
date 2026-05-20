@@ -48,39 +48,4 @@ export const SkeletonCard = ({ className }: { className?: string }) => (
   </div>
 )
 
-/** Skeleton for a stat card (number + label) */
-export const SkeletonStat = ({ className }: { className?: string }) => (
-  <div className={cn('rounded-lg border border-white/10 bg-white/[0.04] p-4 shadow-glow', className)}>
-    <Skeleton lines={1} className="mb-3 w-1/2" />
-    <SkeletonBlock className="mb-2 h-8 w-16 rounded" />
-    <Skeleton lines={1} className="w-1/3" />
-  </div>
-)
 
-/** Skeleton for a hub card (used in hub landing pages) */
-export const SkeletonHubCard = ({ className }: { className?: string }) => (
-  <div className={cn('rounded-lg border border-white/10 bg-slate-950/60 p-5', className)}>
-    <Skeleton lines={1} className="mb-3 w-1/3" />
-    <Skeleton lines={3} lastLineWidth={50} />
-  </div>
-)
-
-/** Full-page loading skeleton */
-export const PageSkeleton = ({ className }: { className?: string }) => (
-  <div className={cn('animate-fade-in space-y-6 p-6', className)}>
-    {/* Header skeleton */}
-    <div className="flex items-center gap-3">
-      <SkeletonBlock className="h-10 w-10 rounded-xl" />
-      <div className="flex-1">
-        <Skeleton lines={1} className="w-1/3" />
-        <Skeleton lines={1} className="mt-1 w-2/3" />
-      </div>
-    </div>
-    {/* Grid of cards */}
-    <div className="grid gap-3 md:grid-cols-2 xl:grid-cols-3">
-      <SkeletonHubCard />
-      <SkeletonHubCard />
-      <SkeletonHubCard />
-    </div>
-  </div>
-)

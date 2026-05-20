@@ -12,7 +12,7 @@ export const LanguageSwitcher = () => {
   const setLanguage = useSettingsStore((state) => state.setLanguage)
 
   return (
-    <div className="inline-flex rounded-lg border border-white/10 bg-slate-950/70 p-0.5">
+    <div className="inline-flex shrink-0 rounded-lg border border-white/10 bg-slate-950/70 p-0.5">
       {languages.map((item) => (
         <button
           key={item.code}

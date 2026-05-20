@@ -204,9 +204,17 @@ const buildQueryVariants = (query: string) => {
   Object.entries(grapplingTermAliases).forEach(([key, values]) => {
     const keyNormalized = normalizeSearchTerm(key)
     if (normalized.includes(keyNormalized)) values.forEach((value) => variants.add(normalizeSearchTerm(value)))
+    if (keyNormalized.includes(normalized)) {
+      variants.add(keyNormalized)
+      values.forEach((value) => variants.add(normalizeSearchTerm(value)))
+    }
     values.forEach((value) => {
       const valueNormalized = normalizeSearchTerm(value)
       if (normalized.includes(valueNormalized)) variants.add(keyNormalized)
+      if (valueNormalized.includes(normalized)) {
+        variants.add(keyNormalized)
+        variants.add(valueNormalized)
+      }
     })
   })
 
@@ -678,17 +686,6 @@ export const syncSearchKnowledge = (
   return exactBoosted
     .sort((a, b) => b.score - a.score || getLocalizedText(a.title, lang).localeCompare(getLocalizedText(b.title, lang)))
     .slice(0, 80)
-}
-
-/** Pre-build all search indexes synchronously (call after setSearchData) */
-export const syncInitSearchIndexes = () => {
-  const languages: LanguageCode[] = ['en', 'vi', 'fr']
-  const allTypes: (KnowledgeItemType | '')[] = ['', ...Object.keys(documentBuilders) as KnowledgeItemType[]]
-  for (const lang of languages) {
-    for (const type of allTypes) {
-      getSearchIndex(lang, type)
-    }
-  }
 }
 
 export const syncWarmSearchIndexes = (

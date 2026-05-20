@@ -48,7 +48,7 @@ const pickDailyItem = <T,>(items: T[], key: string): T | undefined => {
 }
 
 const dayOfWeek = new Date().getDay()
-const dayNames = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday']
+const dayKeys = ['sunday', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday']
 
 /** 7-day rotation configuration — what gets featured each day */
 const rotationConfig = [
@@ -264,7 +264,7 @@ export default function DashboardPage() {
                   </div>
                   <div>
                     <Badge tone={todayConfig.tone} className="px-2 py-0.5 text-[10px] uppercase tracking-widest">
-                      {dayNames[dayOfWeek]} · {t(todayConfig.label)}
+                      {t('days.' + dayKeys[dayOfWeek])} · {t(todayConfig.label)}
                     </Badge>
                   </div>
                 </div>

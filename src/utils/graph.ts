@@ -74,20 +74,4 @@ export const buildSkillGraph = (
   return { nodes, edges }
 }
 
-export const buildSkillDetailGraph = (skill: SkillNode, allSkills: SkillNode[], lang: LanguageCode) => {
-  const ids = new Set(allSkills.map((item) => item.id))
-  const byId = new Map(allSkills.map((item) => [item.id, item]))
-  const previous = skill.prerequisites.filter((id) => ids.has(id)).map((id) => byId.get(id)!)
-  const nextIds = [...skill.relatedSkills, ...skill.failureResponses.flatMap((failure) => failure.nextSkillIds)].filter((id) => ids.has(id))
-  const next = [...new Set(nextIds)].map((id) => byId.get(id)!)
-  const nodes = [
-    ...previous.map((item, index) => toNode(item, lang, 0, index * 150)),
-    toNode(skill, lang, 360, Math.max(0, previous.length - 1) * 75, true),
-    ...next.map((item, index) => toNode(item, lang, 720, index * 150)),
-  ]
-  const edges: Edge[] = [
-    ...previous.map((item) => ({ id: `${item.id}-${skill.id}`, source: item.id, target: skill.id, type: 'smoothstep' })),
-    ...next.map((item) => ({ id: `${skill.id}-${item.id}`, source: skill.id, target: item.id, type: 'smoothstep', animated: true })),
-  ]
-  return { nodes, edges }
-}
+

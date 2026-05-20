@@ -69,6 +69,44 @@ const mappingRules: MappingRule[] = [
   // Controls & pins
   { patterns: ['mount', 'mount control'], skillId: 'mount-control' },
   { patterns: ['side control'], skillId: 'side-control-pin' },
+
+  // === MODERN ADDITIONS (from modernAdditions.ts) ===
+
+  // Leg entanglements
+  { patterns: ['backside 50/50', 'backside 50-50', 'backside fifty-fifty'], skillId: 'backside-50-50-control' },
+  { patterns: ['heel exposure', '50/50 heel hook', 'fifty-fifty heel'], skillId: 'fifty-fifty-to-heel-exposure' },
+  { patterns: ['knee line escape', 'heel hide', 'knee line defense'], skillId: 'knee-line-escape' },
+  { patterns: ['compression lock recognition', 'compression vs strangle'], skillId: 'compression-vs-strangle-recognition' },
+
+  // Specific submissions (also map to front headlock system for broader coverage)
+  { patterns: ['darce choke', 'd\'arce choke', 'darce finish'], skillId: 'darce-choke' },
+  { patterns: ['anaconda choke', 'anaconda finish'], skillId: 'anaconda-choke' },
+
+  // Rides & pins
+  { patterns: ['cross wrist ride', 'cross-wrist ride', 'wrist ride back'], skillId: 'cross-wrist-ride' },
+  { patterns: ['claw ride', 'claw grip back', 'claw back control'], skillId: 'claw-ride' },
+
+  // Passing & guard
+  { patterns: ['headquarters passing', 'headquarters pass', 'split squat', 'hq passing', 'split squat passing'], skillId: 'hq-split-squat-passing' },
+  { patterns: ['seated guard hand fighting', 'seated hand fighting', 'seated guard retention'], skillId: 'seated-hand-fighting' },
+
+  // Wrestling & takedowns
+  { patterns: ['arm drag', 'arm-drag', 'armdrag'], skillId: 'arm-drag-system' },
+  { patterns: ['body lock takedown', 'bodylock takedown', 'mat return'], skillId: 'body-lock-takedown' },
+  { patterns: ['ankle pick', 'low single', 'ankle-pick'], skillId: 'ankle-pick-low-single' },
+
+  // Advanced leg locks & guard transitions
+  { patterns: ['shotgun ankle lock', 'shotgun ankle'], skillId: 'shotgun-ankle-lock' },
+  { patterns: ['clamp guard triangle', 'clamp to triangle', 'clamp bridge'], skillId: 'clamp-to-triangle-bridge' },
+  { patterns: ['false reap saddle', 'false reap bridge'], skillId: 'false-reap-to-saddle-bridge' },
+
+  // Rare / niche submissions
+  { patterns: ['reverse buggy choke'], skillId: 'reverse-buggy-choke' },
+  { patterns: ['baratoplata'], skillId: 'baratoplata' },
+  { patterns: ['texas cloverleaf', 'cloverleaf leg lock'], skillId: 'texas-cloverleaf' },
+  { patterns: ['truck twister', 'truck position', 'twister submission'], skillId: 'truck-twister' },
+  { patterns: ['aoki lock', 'aoki'], skillId: 'aoki-lock' },
+  { patterns: ['von flue', 'von-flue choke'], skillId: 'von-flue-choke' },
 ]
 
 const trustedNoGiChannels = [

@@ -97,6 +97,7 @@ const giOnlyChannels = [
   'The Grappling Accademy',
   'Andre Galvao',
   'Renzo Gracie Academy',
+  'GracieMag Academy',
 ]
 
 const giOnlySignals = [

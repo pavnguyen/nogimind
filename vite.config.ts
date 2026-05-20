@@ -3,6 +3,11 @@ import react from '@vitejs/plugin-react'
 
 // https://vite.dev/config/
 export default defineConfig({
+  define: {
+    __BUILD_DATE__: JSON.stringify(
+    `${(new Date().getMonth() + 1).toString().padStart(2, '0')}/${new Date().getFullYear()}`
+  ),
+  },
   plugins: [react()],
   build: {
     rolldownOptions: {
@@ -12,7 +17,7 @@ export default defineConfig({
             // Heavy data files — split into dedicated chunks
             { name: 'micro-detail-data', test: /src\/data\/microDetailSystems/ },
             { name: 'technical-detail-data', test: /src\/data\/technicalDetails/ },
-            { name: 'blackbelt-detail-data', test: /src\/data\/(blackbeltDetails|generatedBlackbeltDetails|generatedBodyToBodyDetails)/ },
+            { name: 'blackbelt-detail-data', test: /src\/data\/(blackbeltDetails|generatedBlackbeltDetails)/ },
             { name: 'quality-checklist-data', test: /src\/data\/qualityChecklists/ },
             { name: 'video-data', test: /src\/data\/videos/ },
             { name: 'defensive-data', test: /src\/data\/(defensiveLayers|archetypes|techniqueStateMachines)/ },

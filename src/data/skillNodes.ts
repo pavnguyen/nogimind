@@ -8,6 +8,7 @@ import { modernExpansionSkills } from './skills/modern'
 import { passingSkillSeeds } from './skills/passing'
 import { pinAndRideSkillSeeds } from './skills/pins'
 import { priorityNoGiSkillSeeds } from './skills/priorityNoGi'
+import { modernAdditionSkillSeeds } from './skills/modernAdditions'
 import { submissionSkillSeeds } from './skills/submissions'
 import { wrestlingSkillSeeds } from './skills/wrestling'
 
@@ -21,6 +22,7 @@ const coreSkillSeeds = [
   ...submissionSkillSeeds,
   ...legLockSkillSeeds,
   ...priorityNoGiSkillSeeds,
+  ...modernAdditionSkillSeeds,
 ]
 
 export const coreSkillNodes: SkillNode[] = buildSkillsFromSeeds(coreSkillSeeds)

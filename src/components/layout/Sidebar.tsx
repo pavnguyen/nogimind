@@ -4,6 +4,7 @@ import { useTranslation } from 'react-i18next'
 import { ChevronDown, PanelLeftClose, PanelLeftOpen } from 'lucide-react'
 import { useSettingsStore } from '../../stores/useSettingsStore'
 import { cn } from '../../utils/cn'
+import { getBuildDate } from '../../utils/version'
 import { hubNavItems, settingsNavItem, brandIcon as BrandIcon, pathInHub } from './navItems'
 
 export const Sidebar = () => {
@@ -82,7 +83,7 @@ export const Sidebar = () => {
         {!collapsed && (
           <div className="min-w-0">
             <p className="truncate text-sm font-semibold text-white">{t('app.name')}</p>
-            <p className="truncate text-[10px] text-slate-500">{t('app.version')}</p>
+            <p className="truncate text-[10px] text-slate-500">{t('app.version')} · {getBuildDate()}</p>
           </div>
         )}
       </Link>

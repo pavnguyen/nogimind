@@ -2,6 +2,8 @@ import { useTranslation } from 'react-i18next'
 import { PageShell } from '../components/common/PageShell'
 import { SectionCard } from '../components/common/SectionCard'
 
+import { getBuildDate } from '../utils/version'
+
 import { LanguageSwitcher } from '../components/i18n/LanguageSwitcher'
 import { ExportImportPanel } from '../components/settings/ExportImportPanel'
 import { useSettingsStore } from '../stores/useSettingsStore'
@@ -43,7 +45,7 @@ export default function SettingsPage() {
         <ExportImportPanel />
       </SectionCard>
       <SectionCard title={t('app.name')}>
-        <p className="text-sm text-slate-400">{t('app.version')}</p>
+        <p className="text-sm text-slate-400">{t('app.version')} · cập nhật {getBuildDate()}</p>
       </SectionCard>
     </PageShell>
   )

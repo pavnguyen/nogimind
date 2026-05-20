@@ -87,16 +87,16 @@ export const Header = () => {
 
   return (
     <header className="sticky top-0 z-30 border-b border-white/[0.06] bg-slate-950/60 px-4 py-2.5 backdrop-blur-xl lg:px-6">
-      <div className="flex items-center justify-between gap-4">
+      <div className="flex items-center justify-between gap-2 sm:gap-4">
         {/* Mobile menu trigger */}
         <button
           type="button"
           onClick={() => setMobileNavOpen(true)}
-          className="flex items-center gap-2 rounded-lg border border-white/[0.06] px-3 py-2 text-sm font-medium text-slate-300 transition-all hover:bg-white/[0.04] hover:text-white lg:hidden"
+          className="flex shrink-0 items-center gap-2 rounded-lg border border-white/[0.06] px-3 py-2 text-sm font-medium text-slate-300 transition-all hover:bg-white/[0.04] hover:text-white lg:hidden"
           aria-label={t('nav.settings')}
         >
           <Menu className="h-4 w-4" aria-hidden="true" />
-          <span className="text-xs text-slate-500">{t('app.name')}</span>
+          <span className="hidden sm:inline text-xs text-slate-500">{t('app.name')}</span>
         </button>
 
         {/* Brand (desktop) */}

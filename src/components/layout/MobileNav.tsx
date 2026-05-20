@@ -4,6 +4,7 @@ import { useLocation } from 'react-router-dom'
 import { X, BookOpen, Compass, Layers3, Wrench, Zap } from 'lucide-react'
 import { useUiStore } from '../../stores/useUiStore'
 import { cn } from '../../utils/cn'
+import { getBuildDate } from '../../utils/version'
 import { hubNavItems, pathInHub } from './navItems'
 
 const bottomTabItems = [
@@ -27,7 +28,7 @@ export const MobileNav = () => {
           <div className="flex items-center justify-between">
             <Link to="/" onClick={() => setOpen(false)}>
               <p className="text-lg font-semibold text-white">{t('app.name')}</p>
-              <p className="text-xs text-slate-500">{t('app.version')}</p>
+              <p className="text-xs text-slate-500">{t('app.version')} · {getBuildDate()}</p>
             </Link>
             <button
               type="button"

@@ -52,7 +52,7 @@ const neckPriority = la(
 export const defensiveLayers: DefensiveLayer[] = [
   layer({
     id: 'heel-exposure',
-    title: lt('Heel Exposure', 'Heel Exposure', 'Exposition du talon'),
+    title: lt('Lộ gót chân', 'Heel Exposure', 'Exposition du talon'),
     category: 'leg_lock',
     threat: lt('Heel lộ trong leg entanglement tạo đường vào heel hook hoặc rotational control.', 'An exposed heel inside leg entanglement opens heel hook or rotational control.', 'Un talon exposé dans entanglement ouvre heel hook ou contrôle rotationnel.'),
     early: la(['Toes không còn chỉ hướng an toàn.', 'Heel bắt đầu xoay ra ngoài grip.', 'Knee line còn bị giữ.'], ['Toes no longer point safely.', 'Heel starts rotating out into grip.', 'Knee line remains trapped.'], ['Orteils ne pointent plus sûrement.', 'Talon commence à sortir dans grip.', 'Knee line reste piégée.']),
@@ -65,7 +65,7 @@ export const defensiveLayers: DefensiveLayer[] = [
   }),
   layer({
     id: 'knee-line-trapped',
-    title: lt('Knee Line Trapped', 'Knee Line Trapped', 'Knee line piégée'),
+    title: lt('Kẹt đường gối', 'Knee Line Trapped', 'Knee line piégée'),
     category: 'knee',
     threat: lt('Knee line bị kẹt làm hông không thoát khỏi leg control.', 'A trapped knee line prevents the hip from escaping leg control.', 'Une knee line piégée empêche la hanche de sortir du contrôle jambe.'),
     early: la(['Gối chưa vượt qua hip line của đối thủ.', 'Đùi bị kẹp bởi legs/hips.', 'Bạn không thể rút knee tự do.'], ['Knee has not cleared opponent hip line.', 'Thigh is pinched by legs or hips.', 'You cannot retract the knee freely.'], ['Genou pas passé hip line adverse.', 'Cuisse pincée par jambes/hanches.', 'Impossible de retirer genou librement.']),
@@ -78,7 +78,7 @@ export const defensiveLayers: DefensiveLayer[] = [
   }),
   layer({
     id: 'inside-heel-hook-danger',
-    title: lt('Inside Heel Hook Danger', 'Inside Heel Hook Danger', 'Danger inside heel hook'),
+    title: lt('Nguy hiểm heel hook trong', 'Inside Heel Hook Danger', 'Danger inside heel hook'),
     category: 'leg_lock',
     threat: lt('Inside heel hook danger tăng khi knee line bị khóa và rotational pressure đi qua hip/knee.', 'Inside heel hook danger rises when knee line is locked and rotational pressure travels through hip and knee.', 'Danger inside heel hook augmente quand knee line verrouillée et pression rotationnelle passe hanche/genou.'),
     early: la(['Saddle/inside sankaku đang khóa hips.', 'Heel bắt đầu bị scoop.', 'Secondary leg bị giữ.'], ['Saddle or inside sankaku locks hips.', 'Heel starts getting scooped.', 'Secondary leg is controlled.'], ['Saddle/inside sankaku verrouille hanches.', 'Talon commence à être scoop.', 'Jambe secondaire contrôlée.']),
@@ -91,7 +91,7 @@ export const defensiveLayers: DefensiveLayer[] = [
   }),
   layer({
     id: 'outside-heel-hook-danger',
-    title: lt('Outside Heel Hook Danger', 'Outside Heel Hook Danger', 'Danger outside heel hook'),
+    title: lt('Nguy hiểm heel hook ngoài', 'Outside Heel Hook Danger', 'Danger outside heel hook'),
     category: 'leg_lock',
     threat: lt('Outside heel exposure nguy hiểm khi foot bị xoay ngoài và knee line chưa thoát.', 'Outside heel exposure is dangerous when the foot rotates outward and knee line has not cleared.', 'Exposition outside heel dangereuse quand pied tourne dehors et knee line pas libre.'),
     early: la(['Foot bị kéo qua outside ashi.', 'Toes mất hướng.', 'Knee line bị giữ bởi hips/legs.'], ['Foot is pulled across outside ashi.', 'Toes lose direction.', 'Knee line is held by hips or legs.'], ['Pied tiré en outside ashi.', 'Orteils perdent direction.', 'Knee line tenue par hanches/jambes.']),
@@ -104,7 +104,7 @@ export const defensiveLayers: DefensiveLayer[] = [
   }),
   layer({
     id: 'straight-ankle-lock-danger',
-    title: lt('Straight Ankle Lock Danger', 'Straight Ankle Lock Danger', 'Danger straight ankle lock'),
+    title: lt('Nguy hiểm straight ankle lock', 'Straight Ankle Lock Danger', 'Danger straight ankle lock'),
     category: 'leg_lock',
     threat: lt('Straight ankle lock nguy hiểm khi foot bị shelved và knee line bị giữ đủ lâu để extend hips.', 'Straight ankle lock danger rises when the foot is shelved and knee line is held long enough for hip extension.', 'Danger straight ankle quand pied shelved et knee line tenue pour extension hanches.'),
     early: la(['Foot bị kẹp dưới armpit.', 'Knee line không clear.', 'Hips attacker bắt đầu extend.'], ['Foot is trapped under armpit.', 'Knee line has not cleared.', 'Attacker hips begin extending.'], ['Pied sous aisselle.', 'Knee line pas clear.', 'Hanches attaquant commencent extension.']),
@@ -117,7 +117,7 @@ export const defensiveLayers: DefensiveLayer[] = [
   }),
   layer({
     id: 'guillotine-danger',
-    title: lt('Guillotine Danger', 'Guillotine Danger', 'Danger guillotine'),
+    title: lt('Nguy hiểm guillotine', 'Guillotine Danger', 'Danger guillotine'),
     category: 'neck',
     threat: lt('Guillotine danger xuất hiện khi chin strap sâu, neck dài và hips không còn dưới shoulders.', 'Guillotine danger appears when chin strap is deep, neck is long, and hips are no longer under shoulders.', 'Danger guillotine quand chin strap profond, cou long et hanches pas sous épaules.'),
     early: la(['Cằm bị kéo ra.', 'Forearm dưới cổ.', 'Đầu thấp hơn chest.'], ['Chin gets pulled out.', 'Forearm is under the neck.', 'Head drops below chest.'], ['Menton sorti.', 'Forearm sous cou.', 'Tête sous poitrine.']),
@@ -130,7 +130,7 @@ export const defensiveLayers: DefensiveLayer[] = [
   }),
   layer({
     id: 'rear-naked-choke-danger',
-    title: lt('Rear Naked Choke Danger', 'Rear Naked Choke Danger', 'Danger rear naked choke'),
+    title: lt('Nguy hiểm rear naked choke', 'Rear Naked Choke Danger', 'Danger rear naked choke'),
     category: 'neck',
     threat: lt('RNC danger tăng khi attacker có chest-to-back, choking hand vào neck line và bạn thua hand fight.', 'RNC danger rises when attacker has chest-to-back, choking hand enters neck line, and you lose the hand fight.', 'Danger RNC quand chest-to-back, main choke sur neck line et hand fight perdu.'),
     early: la(['Seatbelt kín.', 'Choking wrist gần cằm.', 'Hooks/body triangle giữ hip line.'], ['Seatbelt is tight.', 'Choking wrist is near chin.', 'Hooks or body triangle control hip line.'], ['Seatbelt serré.', 'Choking wrist près menton.', 'Hooks/body triangle contrôlent hip line.']),
@@ -143,7 +143,7 @@ export const defensiveLayers: DefensiveLayer[] = [
   }),
   layer({
     id: 'arm-triangle-danger',
-    title: lt('Arm Triangle Danger', 'Arm Triangle Danger', 'Danger arm triangle'),
+    title: lt('Nguy hiểm arm triangle', 'Arm Triangle Danger', 'Danger arm triangle'),
     category: 'neck',
     threat: lt('Arm triangle danger xuất hiện khi arm bị đưa qua neck line và shoulder của chính bạn ép vào cổ.', 'Arm triangle danger appears when your arm crosses the neck line and your own shoulder is driven into the neck.', 'Danger arm triangle quand votre bras traverse neck line et votre épaule presse le cou.'),
     early: la(['Elbow bị kéo qua centerline.', 'Head attacker chặn elbow recovery.', 'Mount/side pressure ổn định.'], ['Elbow is pulled across centerline.', 'Attacker head blocks elbow recovery.', 'Mount or side pressure is stable.'], ['Coude tiré centerline.', 'Tête attaquant bloque elbow recovery.', 'Pression mount/side stable.']),
@@ -156,7 +156,7 @@ export const defensiveLayers: DefensiveLayer[] = [
   }),
   layer({
     id: 'kimura-shoulder-line-danger',
-    title: lt('Kimura Shoulder Line Danger', 'Kimura Shoulder Line Danger', 'Danger shoulder line kimura'),
+    title: lt('Nguy hiểm kimura đường vai', 'Kimura Shoulder Line Danger', 'Danger shoulder line kimura'),
     category: 'shoulder',
     threat: lt('Kimura danger tăng khi wrist bị tách, elbow rời ribs và shoulder line bị xoay.', 'Kimura danger rises when wrist is separated, elbow leaves ribs, and shoulder line rotates.', 'Danger kimura quand poignet séparé, coude quitte côtes et shoulder line tourne.'),
     early: la(['Wrist bị two-on-one.', 'Elbow không còn sát ribs.', 'Opponent xoay shoulder line của bạn.'], ['Wrist is caught two-on-one.', 'Elbow no longer touches ribs.', 'Opponent rotates your shoulder line.'], ['Poignet pris two-on-one.', 'Coude plus aux côtes.', 'Adversaire tourne shoulder line.']),
@@ -169,7 +169,7 @@ export const defensiveLayers: DefensiveLayer[] = [
   }),
   layer({
     id: 'armbar-elbow-line-danger',
-    title: lt('Armbar Elbow Line Danger', 'Armbar Elbow Line Danger', 'Danger ligne coude armbar'),
+    title: lt('Nguy hiểm armbar đường khuỷu', 'Armbar Elbow Line Danger', 'Danger ligne coude armbar'),
     category: 'shoulder',
     threat: lt('Armbar danger xuất hiện khi elbow line bị kéo qua hip line và thumb/wrist bị kiểm soát.', 'Armbar danger appears when elbow line is pulled past hip line and thumb or wrist is controlled.', 'Danger armbar quand elbow line dépasse hip line et pouce/poignet contrôlé.'),
     early: la(['Elbow bị tách khỏi ribs.', 'Wrist bị kéo về centerline.', 'Hips attacker cắt qua shoulder.'], ['Elbow separates from ribs.', 'Wrist is pulled to centerline.', 'Attacker hips cut across shoulder.'], ['Coude séparé côtes.', 'Poignet vers centerline.', 'Hanches attaquant coupent épaule.']),
@@ -182,7 +182,7 @@ export const defensiveLayers: DefensiveLayer[] = [
   }),
   layer({
     id: 'front-headlock-head-position',
-    title: lt('Front Headlock Head Position', 'Front Headlock Head Position', 'Head position front headlock'),
+    title: lt('Vị trí đầu trong front headlock', 'Front Headlock Head Position', 'Head position front headlock'),
     category: 'neck',
     threat: lt('Head position thua trong front headlock làm cổ, spine và back exposure nguy hiểm.', 'Losing head position in front headlock endangers neck, spine, and back exposure.', 'Perdre head position en front headlock expose cou, colonne et dos.'),
     early: la(['Đầu thấp dưới chest.', 'Cằm mở.', 'Knees kéo dài sau hips.'], ['Head drops below chest.', 'Chin opens.', 'Knees stretch behind hips.'], ['Tête sous poitrine.', 'Menton ouvert.', 'Genoux loin hanches.']),
@@ -195,7 +195,7 @@ export const defensiveLayers: DefensiveLayer[] = [
   }),
   layer({
     id: 'turtle-back-exposure',
-    title: lt('Turtle Back Exposure', 'Turtle Back Exposure', 'Exposition du dos en turtle'),
+    title: lt('Lộ lưng turtle', 'Turtle Back Exposure', 'Exposition du dos en turtle'),
     category: 'scramble',
     threat: lt('Turtle back exposure xảy ra khi elbow/knee mở và attacker đưa hook hoặc seatbelt.', 'Turtle back exposure happens when elbow and knee open and attacker inserts hook or seatbelt.', 'Exposition dos en turtle quand coude/genou ouvrent et attaquant insère hook/seatbelt.'),
     early: la(['Near wrist bị kéo.', 'Hip cao nhưng elbow mở.', 'Attacker chest gần lưng.'], ['Near wrist is pulled.', 'Hips high but elbow opens.', 'Attacker chest nears the back.'], ['Near wrist tiré.', 'Hanches hautes mais coude ouvert.', 'Poitrine attaquant près dos.']),
@@ -208,7 +208,7 @@ export const defensiveLayers: DefensiveLayer[] = [
   }),
   layer({
     id: 'side-control-crossface-underhook',
-    title: lt('Side Control Crossface and Underhook', 'Side Control Crossface and Underhook', 'Crossface et underhook side control'),
+    title: lt('Crossface và underhook side control', 'Side Control Crossface and Underhook', 'Crossface et underhook side control'),
     category: 'spine',
     threat: lt('Crossface + underhook tách shoulder line và elbow-knee, làm escape muộn hơn nhiều.', 'Crossface plus underhook separates shoulder line and elbow-knee, making escapes much later.', 'Crossface plus underhook sépare shoulder line et coude-genou, rendant sortie tardive.'),
     early: la(['Near elbow bị tách.', 'Mặt quay ra xa.', 'Far shoulder bị nâng.'], ['Near elbow separates.', 'Face is turned away.', 'Far shoulder is lifted.'], ['Coude proche séparé.', 'Visage tourné loin.', 'Far shoulder levée.']),
@@ -221,7 +221,7 @@ export const defensiveLayers: DefensiveLayer[] = [
   }),
   layer({
     id: 'mount-elbow-isolation',
-    title: lt('Mount Elbow Isolation', 'Mount Elbow Isolation', 'Isolation du coude en mount'),
+    title: lt('Cô lập khuỷu trong mount', 'Mount Elbow Isolation', 'Isolation du coude en mount'),
     category: 'shoulder',
     threat: lt('Mount nguy hiểm khi elbow bị tách khỏi ribs và attacker leo high mount hoặc arm triangle.', 'Mount becomes dangerous when elbow is separated from ribs and attacker climbs high mount or arm triangle.', 'Mount dangereux quand coude séparé côtes et attaquant monte high mount/arm triangle.'),
     early: la(['Elbow bị kéo lên.', 'Knee attacker leo cao.', 'Cổ bắt đầu mở.'], ['Elbow is lifted.', 'Attacker knee climbs high.', 'Neck starts opening.'], ['Coude monté.', 'Genou attaquant haut.', 'Cou s’ouvre.']),
@@ -234,7 +234,7 @@ export const defensiveLayers: DefensiveLayer[] = [
   }),
   layer({
     id: 'tap-timing-etiquette',
-    title: lt('Tap Timing and Etiquette', 'Tap Timing and Etiquette', 'Timing de tap et étiquette'),
+    title: lt('Thời điểm tap và etiquette', 'Tap Timing and Etiquette', 'Timing de tap et étiquette'),
     category: 'tapping',
     threat: lt('Tap muộn hoặc giao tiếp mơ hồ làm training nguy hiểm hơn cho cả hai người.', 'Late tapping or unclear communication makes training riskier for both partners.', 'Taper tard ou communiquer mal rend training plus risqué pour les deux.'),
     early: la(['Bạn không chắc lực đang vào đâu.', 'Partner tăng pressure nhanh.', 'Submission line đã rõ nhưng chưa đau.'], ['You are not sure where force is going.', 'Partner increases pressure quickly.', 'Submission line is clear but not painful yet.'], ['Vous ne savez pas où va la force.', 'Partenaire augmente vite.', 'Ligne submission claire sans douleur.']),
@@ -247,7 +247,7 @@ export const defensiveLayers: DefensiveLayer[] = [
   }),
   layer({
     id: 'posting-arm-injury-risk',
-    title: lt('Posting Arm Injury Risk', 'Posting Arm Injury Risk', 'Risque bras en post'),
+    title: lt('Nguy cơ chấn thương tay post', 'Posting Arm Injury Risk', 'Risque bras en post'),
     category: 'scramble',
     threat: lt('Tay post dài trong scramble có thể thành lever nguy hiểm cho shoulder/elbow hoặc kimura.', 'A long posting arm in scrambles can become a dangerous lever for shoulder, elbow, or kimura control.', 'Un bras long en post peut devenir levier dangereux pour épaule, coude ou kimura.'),
     early: la(['Elbow thẳng.', 'Weight rơi lên một palm.', 'Opponent kiểm soát wrist/shoulder.'], ['Elbow is straight.', 'Weight falls onto one palm.', 'Opponent controls wrist or shoulder.'], ['Coude droit.', 'Poids sur une paume.', 'Adversaire contrôle wrist/épaule.']),
@@ -260,7 +260,7 @@ export const defensiveLayers: DefensiveLayer[] = [
   }),
   layer({
     id: 'inversion-neck-safety',
-    title: lt('Inversion Neck Safety', 'Inversion Neck Safety', 'Sécurité cou en inversion'),
+    title: lt('An toàn cổ khi inversion', 'Inversion Neck Safety', 'Sécurité cou en inversion'),
     category: 'spine',
     threat: lt('Inversion thiếu kiểm soát có thể đặt áp lực xấu lên cổ/spine, nhất là khi partner đè hoặc stack.', 'Uncontrolled inversion can place bad pressure on neck or spine, especially under partner pressure or stacking.', 'Inversion non contrôlée peut mettre mauvaise pression cou/colonne, surtout sous stack.'),
     early: la(['Weight rơi lên cổ thay vì shoulders.', 'Bạn không thấy hips của partner.', 'Partner bắt đầu stack.'], ['Weight falls on neck instead of shoulders.', 'You cannot see partner hips.', 'Partner starts stacking.'], ['Poids sur cou au lieu épaules.', 'Vous ne voyez pas hanches partenaire.', 'Partenaire commence stack.']),
@@ -273,7 +273,7 @@ export const defensiveLayers: DefensiveLayer[] = [
   }),
   layer({
     id: 'scramble-collision-risk',
-    title: lt('Scramble Collision Risk', 'Scramble Collision Risk', 'Risque collision scramble'),
+    title: lt('Nguy cơ va chạm scramble', 'Scramble Collision Risk', 'Risque collision scramble'),
     category: 'scramble',
     threat: lt('Scramble tốc độ cao làm tăng rủi ro collision, posting sai và neck/knee exposure.', 'High-speed scrambles increase collision, bad posting, and neck or knee exposure risks.', 'Scrambles rapides augmentent collision, mauvais post et exposition cou/genou.'),
     early: la(['Cả hai người tăng tốc không có base.', 'Không ai kiểm soát head/hip line.', 'Bạn mất orientation.'], ['Both players accelerate without base.', 'No one controls head or hip line.', 'You lose orientation.'], ['Deux joueurs accélèrent sans base.', 'Personne contrôle head/hip line.', 'Vous perdez orientation.']),
