@@ -9,6 +9,7 @@ import {
   Sparkles,
   ArrowRight,
   Clock,
+  CalendarDays,
   Shield,
   Lightbulb,
   Target,
@@ -25,6 +26,7 @@ import { useSkillsQuery } from '../queries/skillQueries'
 import { useSettingsStore } from '../stores/useSettingsStore'
 import { getMicroDetails } from '../utils/knowledgeModules'
 import { getLocalizedText } from '../utils/localization'
+import { getBuildDate } from '../utils/version'
 import { trainingMethods } from '../data/trainingMethods'
 import { defensiveLayers } from '../data/defensiveLayers'
 import { cn } from '../utils/cn'
@@ -219,6 +221,13 @@ export default function DashboardPage() {
               <div className="rounded-2xl border border-violet-400/20 bg-violet-400/5 px-4 py-2 backdrop-blur-sm">
                 <p className="text-[10px] font-bold uppercase tracking-widest text-slate-500">{t('dashboard.contentCoverage')}</p>
                 <p className="text-xl font-bold text-violet-400">{coveragePct}%</p>
+              </div>
+              <div className="rounded-2xl border border-slate-400/20 bg-slate-400/5 px-4 py-2 backdrop-blur-sm">
+                <p className="text-[10px] font-bold uppercase tracking-widest text-slate-500">{t('dashboard.lastUpdate')}</p>
+                <p className="flex items-center gap-1.5 text-xl font-bold text-slate-300">
+                  <CalendarDays className="h-4 w-4" aria-hidden="true" />
+                  {getBuildDate()}
+                </p>
               </div>
             </div>
           </div>

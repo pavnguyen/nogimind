@@ -542,6 +542,7 @@ export const en = {
     totalSkills: 'Total skills',
     safetyCritical: 'Safety Critical',
     contentCoverage: 'Coverage',
+    lastUpdate: 'Last update',
     alsoToday: 'Also Today',
     hubExplorer: 'Explore Hubs',
     rotation: {

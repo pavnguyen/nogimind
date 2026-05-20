@@ -622,6 +622,7 @@ export const fr = {
     totalSkills: 'Total compétences',
     safetyCritical: 'Sécurité critique',
     contentCoverage: 'Couverture',
+    lastUpdate: 'Dernière mise à jour',
     alsoToday: 'Aujourd’hui aussi',
     hubExplorer: 'Explorer les hubs',
     rotation: {

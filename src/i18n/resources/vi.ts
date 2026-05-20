@@ -626,6 +626,7 @@ export const vi = {
     totalSkills: 'Tổng kỹ năng',
     safetyCritical: 'Cần an toàn cao',
     contentCoverage: 'Độ phủ',
+    lastUpdate: 'Cập nhật',
     alsoToday: 'Cũng hôm nay',
     hubExplorer: 'Khám phá Hub',
     rotation: {
