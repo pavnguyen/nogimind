@@ -1,0 +1,44 @@
+{
+  "id": "chin-strap-control",
+  "domain": "pins_rides",
+  "level": "intermediate",
+  "name": "Chin Strap / Head Control System",
+  "aliases": ["chin strap", "head control system", "front headlock ride"],
+  "tags": [
+    "front-headlock",
+    "chin-strap",
+    "head-control",
+    "ride",
+    "turtle",
+    "back-exposure"
+  ],
+  "keywords": [
+    "chin strap",
+    "head control",
+    "front headlock",
+    "turtle break",
+    "back exposure"
+  ],
+  "relatedSkills": [
+    { "id": "turtle-ride", "type": "prerequisite" },
+    { "id": "front-headlock-defense", "type": "prerequisite" },
+    { "id": "claw-ride", "type": "chain" },
+    { "id": "spiral-ride", "type": "chain" },
+    { "id": "cross-wrist-ride", "type": "recommended" }
+  ],
+  "prerequisiteSkillIds": ["turtle-ride", "front-headlock-defense"],
+  "relatedPositions": [],
+  "relatedConcepts": [],
+  "archetypeIds": ["front-headlock-player", "pressure-passer", "scramble-controller"],
+  "trainingMethodIds": [],
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": true,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "updatedAt": "2026-05-28T00:00:00.000Z"
+}

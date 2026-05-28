@@ -1,0 +1,109 @@
+{
+  "id": "double-leg-bjj",
+  "domain": "wrestle_up_wrestling",
+  "level": "intermediate",
+  "status": "draft",
+  "name": "Double Leg Takedown",
+  "aliases": [
+    "double leg",
+    "blast double"
+  ],
+  "tags": [
+    "takedown",
+    "wrestling",
+    "double-leg",
+    "blast-double",
+    "standing",
+    "clinch"
+  ],
+  "keywords": [
+    "double leg takedown",
+    "blast double",
+    "head outside single",
+    "wrestling for BJJ"
+  ],
+  "relatedSkills": [
+    {
+      "id": "ankle-pick-low-single",
+      "type": "chain"
+    },
+    {
+      "id": "arm-drag-system",
+      "type": "chain"
+    },
+    {
+      "id": "body-lock-takedown",
+      "type": "alternative"
+    },
+    {
+      "id": "bjj-foot-sweeps",
+      "type": "chain"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [
+    "wrestle-up-player",
+    "scramble-controller",
+    "half-guard-wrestler"
+  ],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "stance-movement-basics",
+    "hand-fighting"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [
+    "Bị guillotine: đầu quá thấp — giữ đầu ngoài",
+    "Bị sprawl: level change quá nông"
+  ],
+  "version": 1,
+  "updatedAt": "2026-05-28T00:00:00.000Z",
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": true,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "vi",
+  "description": "Double leg takedown chuyển thể cho no-gi BJJ, nhấn mạnh head position, guillotine defense và chaining. Khác với wrestling double leg, BJJ double leg phải tính đến front headlock counter và guillotine.",
+  "shortInstruction": "Level change, penetration với đầu ngoài, drive qua hông, run the pipe, và ngay lập tức phòng thủ guillotine.",
+  "summary": "Double leg BJJ khác wrestling ở head position ngoài (bảo vệ cổ), finish ưu tiên chest-to-chest, và entry thường từ arm drag, collar tie hoặc foot sweep.",
+  "whyItWorks": [
+    "Head-outside bảo vệ cổ khỏi guillotine",
+    "Double leg là takedown hiệu quả nhất trong no-gi khi kết hợp set up",
+    "Chest-to-chest cho positional advancement ngay lập tức"
+  ],
+  "commonMistakes": [
+    "Shoot với đầu cúi — lộ guillotine ngay",
+    "Quỳ gối thay vì drive through — bỏ finish",
+    "Dừng giữa chừng",
+    "Không chaining — double leg bị chặn nên chuyển single hoặc body lock"
+  ],
+  "coachingCues": [
+    "Đầu ngoài, luôn luôn — bảo vệ cổ",
+    "Level change trước khi step — đừng telegraph",
+    "Drive through, đừng quỳ gối",
+    "Run the pipe"
+  ],
+  "safetySummary": [
+    "Luôn giữ đầu ngoài để tránh guillotine",
+    "Nếu bị guillotine, posture up ngay"
+  ],
+  "moneyDetails": [
+    "Double leg là takedown hiệu quả nhất ADCC",
+    "Nicky Rod và Kade Ruotolo dùng double leg làm entry chính"
+  ],
+  "fixItFast": [
+    "Bị guillotine: posture up",
+    "Bị sprawl: circle sang single leg"
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "id": "gift-wrap-back-take",
+  "locale": "en",
+  "name": "Gift Wrap / Arm Drag Back Take",
+  "description": "The gift wrap controls one of their arms by folding it behind their back, leaving the other arm free and exposing their back. From side control or half guard, you trap their far arm, walk your hand to their wrist, and pull their arm behind their back.",
+  "shortInstruction": "From side control, isolate far arm, fold it behind their back, step over their head, spin behind them, and establish back control.",
+  "summary": "The gift wrap back take neutralizes the opponent far arm by folding it behind their back, then uses a spin to take the back. With one arm trapped, their ability to defend the back take is halved.",
+  "whyItWorks": [
+    "Folding their arm behind their back creates a handle that controls their shoulder — they cannot turn into you or post",
+    "With one arm neutralized, their ability to defend the back take is halved",
+    "The gift wrap is available from any top position where you can isolate a far arm",
+    "Spinning behind them as you control the gift wrap creates the back take — the spin + arm control prevents them from following"
+  ],
+  "commonMistakes": [
+    "Trying the gift wrap from too far away — you must be chest-to-chest to isolate the far arm",
+    "Not folding the arm enough behind their back — if the arm is not behind them, they can pull it free",
+    "Spinning without controlling the arm — you end up behind them but they still have both arms functional",
+    "Holding the gift wrap too long after securing back control — release and progress to the choke"
+  ],
+  "coachingCues": [
+    "Chest-to-chest first, then reach for the far arm",
+    "Fold it behind their back — thumb points up",
+    "Spin tight, stay connected",
+    "Gift wrap is the entry; back control is the destination"
+  ],
+  "safetySummary": [
+    "Do not force the arm behind their back if they resist strongly — this can injure the shoulder",
+    "Fold the arm gently and use the spin to create the back take, not the arm fold alone",
+    "If the training partner has a pre-existing shoulder injury, avoid the gift wrap entirely"
+  ],
+  "keyCorrections": [
+    "If they resist the arm isolation: switch to arm drag or kimura from side control",
+    "If they roll away to escape: follow them — the roll becomes a back take opportunity",
+    "If they flatten belly-down: maintain side control and advance to mount instead"
+  ],
+  "systemLogic": {
+    "corePrinciple": "Gift wrap back take: from side control/mount → isolate far arm → fold it behind their back → step over their head → spin behind → release gift wrap → establish back control.",
+    "decisionTree": [
+      {
+        "condition": "They resist the arm isolation",
+        "action": "switch to arm drag or kimura from side control"
+      },
+      {
+        "condition": "They roll away to escape",
+        "action": "follow them — the roll becomes a back take opportunity"
+      },
+      {
+        "condition": "They flatten belly-down",
+        "action": "maintain side control and advance to mount instead"
+      }
+    ],
+    "exitStrategies": [
+      "If the spin fails to get the back, return to side control and try a different back take entry",
+      "If they turn into you, switch to mount"
+    ]
+  },
+  "moneyDetails": [
+    "The gift wrap is the highest-percentage back take from side control in no-gi",
+    "Mastering the gift wrap gives you a reliable path from side control to back control",
+    "The gift wrap is particularly effective against opponents who post on the far arm to escape side control"
+  ],
+  "fixItFast": [
+    "If they resist the arm isolation: switch to arm drag or kimura",
+    "If the spin is not working: your step was not deep enough — step farther over their head",
+    "If they follow you during the spin: keep your chest connected and complete the back take"
+  ]
+}

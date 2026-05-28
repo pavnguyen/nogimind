@@ -2,7 +2,7 @@ import type { KnowledgeItemType, KnowledgeSearchResult } from '../types/knowledg
 import type { LanguageCode, SkillDomain, SkillLevel, SkillNode } from '../types/skill'
 import type { SearchDataBundle } from '../utils/searchEngine'
 import { getEscapeMaps, getMicroDetails, getTroubleshooters } from './knowledgeModules'
-import { getCachedSearchData, setCachedSearchData, hasValidSearchCache } from './searchCache'
+import { getCachedStaticData, setCachedStaticData, hasValidStaticCache } from './searchCache'
 import { getManifest, type ManifestEntry } from '../content-runtime/manifests'
 
 let worker: Worker | null = null
@@ -140,44 +140,36 @@ const buildPipelineSkillNode = (
 // ── Data bundle builder (lazy, uses cache or manifest fetches) ──────
 
 /**
- * Build the data bundle either from IndexedDB cache or by fetching
- * the content pipeline manifests for all 3 locales.
+ * Build the data bundle for the search index.
+ *
+ * Strategy:
+ * - **Manifests are always fetched fresh** (they're small ~15KB each and
+ *   reflect content changes like new skills from `build:content`).
+ * - **Static data** (concepts, positions, glossary, etc.) is cached in
+ *   IndexedDB because it's large and rarely changes.
+ *
+ * This ensures new skills added via `npm run build:content` are
+ * immediately discoverable in search without manual cache invalidation.
  */
 const buildSearchPayload = async (): Promise<SearchDataBundle> => {
-  // 1. Try IndexedDB cache first (fastest path)
-  const cached = await getCachedSearchData()
-  if (cached) {
-    logPerf(`[perf] init:using IndexedDB cache`)
-    return cached
-  }
-
-  // 2. Cache miss — fetch manifests + legacy modules
   const tFetch = performance.now()
 
-  // Safe wrapper: if a manifest fails to load, treat it as empty (graceful degradation)
+  // ── 1. Always fetch fresh manifests (small, reflect content changes) ──
   const safeGetManifest = async (locale: string): Promise<ManifestEntry[]> => {
     try { return await getManifest(locale) }
     catch { return [] }
   }
 
-  const [enManifest, viManifest, frManifest, { concepts }, { positions }, { glossaryTerms }, { defensiveLayers }, { archetypes }, { masteryStages }, { techniqueStateMachineBySkillId, techniqueStateMachines }] =
-    await Promise.all([
-      safeGetManifest('en'),
-      safeGetManifest('vi'),
-      safeGetManifest('fr'),
-      import('../data/concepts'),
-      import('../data/positions'),
-      import('../data/glossaryTerms'),
-      import('../data/defensiveLayers'),
-      import('../data/archetypes'),
-      import('../data/masteryStages'),
-      import('../data/techniqueStateMachines'),
-    ] as const)
+  const [enManifest, viManifest, frManifest] = await Promise.all([
+    safeGetManifest('en'),
+    safeGetManifest('vi'),
+    safeGetManifest('fr'),
+  ])
 
   const tBuild = performance.now()
   logPerf(`[perf] init:fetch-manifests ${(tBuild - tFetch).toFixed(2)} ms`)
 
-  // ── Build SkillNodes from manifest (all skills, both pipeline and legacy) ─
+  // ── 2. Build SkillNodes from fresh manifests ──
   const enById = new Map(enManifest.map((e) => [e.id, e]))
   const viById = new Map(viManifest.map((e) => [e.id, e]))
   const frById = new Map(frManifest.map((e) => [e.id, e]))
@@ -189,18 +181,48 @@ const buildSearchPayload = async (): Promise<SearchDataBundle> => {
     )
   }
 
-  logPerf(`[perf] init:built ${skillNodes.length} skill nodes from manifest`)
+  logPerf(`[perf] init:built ${skillNodes.length} skill nodes from fresh manifest`)
+
+  // ── 3. Try cached static data (concepts, positions, etc.) ──
+  const cachedStatic = await getCachedStaticData()
+
+  if (cachedStatic) {
+    logPerf(`[perf] init:using cached static data`)
+
+    const tDone = performance.now()
+    logPerf(`[perf] init:build-payload ${(tDone - tBuild).toFixed(2)} ms`)
+
+    return {
+      skillNodes,
+      ...cachedStatic,
+      microDetails: getMicroDetails(skillNodes),
+      troubleshooters: getTroubleshooters(skillNodes),
+      escapeMaps: getEscapeMaps(skillNodes),
+    }
+  }
+
+  // ── 4. Cache miss — import static modules from source ──
+  const [{ concepts }, { positions }, { glossaryTerms }, { defensiveLayers }, { archetypes }, { masteryStages }, { techniqueStateMachineBySkillId, techniqueStateMachines }] =
+    await Promise.all([
+      import('../data/concepts'),
+      import('../data/positions'),
+      import('../data/glossaryTerms'),
+      import('../data/defensiveLayers'),
+      import('../data/archetypes'),
+      import('../data/masteryStages'),
+      import('../data/techniqueStateMachines'),
+    ] as const)
+
+  const staticData = { concepts, positions, glossaryTerms, defensiveLayers, archetypes, masteryStages, techniqueStateMachineBySkillId, techniqueStateMachines }
+
+  logPerf(`[perf] init:imported static modules`)
+
+  // ── 5. Cache static data for next visit (fire-and-forget) ──
+  setCachedStaticData(staticData).catch(() => {})
 
   const payload: SearchDataBundle = {
     skillNodes,
-    concepts,
-    positions,
-    glossaryTerms,
-    defensiveLayers,
-    archetypes,
-    masteryStages,
-    techniqueStateMachines,
-    techniqueStateMachineBySkillId,
+    ...staticData,
     microDetails: getMicroDetails(skillNodes),
     troubleshooters: getTroubleshooters(skillNodes),
     escapeMaps: getEscapeMaps(skillNodes),
@@ -208,9 +230,6 @@ const buildSearchPayload = async (): Promise<SearchDataBundle> => {
 
   const tDone = performance.now()
   logPerf(`[perf] init:build-payload ${(tDone - tBuild).toFixed(2)} ms`)
-
-  // 3. Cache the payload for next visit (fire-and-forget)
-  setCachedSearchData(payload).catch(() => {})
 
   return payload
 }
@@ -309,11 +328,11 @@ export const clearIndexCache = (): void => {
 
 /** Pre-warm the cache ahead of time (no worker init needed yet) */
 export const preWarmSearchCache = async (): Promise<void> => {
-  if (await hasValidSearchCache()) {
-    logPerf('[perf] prewarm:cache already valid, skipping')
+  if (await hasValidStaticCache()) {
+    logPerf('[perf] prewarm:static cache already valid, skipping')
     return
   }
-  logPerf('[perf] prewarm:building cache from manifest fetches...')
+  logPerf('[perf] prewarm:no static cache, building from manifest fetches...')
   await buildSearchPayload()
   logPerf('[perf] prewarm:done')
 }

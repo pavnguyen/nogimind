@@ -117,7 +117,7 @@ export const archetypes: GrapplingArchetype[] = [
     ),
     coreConceptIds: ['wrestle-up-philosophy', 'inside-position', 'head-position', 'base-balance', 'failure-response'],
     coreSkillIds: ['seated-guard-retention', 'shin-to-shin-entry', 'half-guard-wrestle-up', 'single-leg-bjj', 'bodylock-passing', 'back-control'],
-    supportSkillIds: ['technical-stand-up', 'butterfly-guard-off-balance', 'hand-fighting', 'mat-return-basics', 'scramble-control'],
+    supportSkillIds: ['technical-stand-up', 'butterfly-guard-off-balance', 'hand-fighting', 'mat-return-basics', 'scramble-control', 'bjj-foot-sweeps', 'double-leg-bjj'],
     requiredDefensiveSkillIds: ['front-headlock-defense', 'sprawl-go-behind', 'side-control-escape', 'back-escape'],
     commonWeaknesses: la(
       ['Cổ bị guillotine khi đầu thấp.', 'Lên gối nhưng không khóa hip line.', 'Tấn công single leg khi elbow-knee connection đã mất.', 'Scramble quá lâu sau khi đã có top.'],
@@ -155,7 +155,7 @@ export const archetypes: GrapplingArchetype[] = [
     ),
     coreConceptIds: ['connection-before-control', 'pressure-direction', 'inside-position', 'wedges', 'positional-hierarchy'],
     coreSkillIds: ['bodylock-passing', 'headquarters-passing', 'knee-cut-passing', 'side-control-pin', 'mount-control', 'arm-triangle-mount'],
-    supportSkillIds: ['hand-fighting', 'leg-drag-basics', 'outside-passing', 'mat-return-basics', 'back-control'],
+    supportSkillIds: ['hand-fighting', 'leg-drag-basics', 'outside-passing', 'mat-return-basics', 'back-control', 'toreando-passing', 'tripod-folding-pass', 'over-under-pass'],
     requiredDefensiveSkillIds: ['leg-lock-safety-basics', 'heel-hook-safety', 'front-headlock-defense', 'scramble-control'],
     commonWeaknesses: la(
       ['Bị butterfly lift vì weight quá cao.', 'Bị shoulder crunch vì đầu nằm giữa.', 'Clear knee line rồi thả control quá sớm.', 'Đè thẳng xuống thay vì pressure chéo.'],
@@ -193,7 +193,7 @@ export const archetypes: GrapplingArchetype[] = [
     ),
     coreConceptIds: ['head-position', 'dilemma-attacks', 'control-before-submission', 'early-vs-late-defense', 'failure-response'],
     coreSkillIds: ['hand-fighting', 'snapdown-front-headlock', 'guillotine-system', 'sprawl-go-behind', 'back-control', 'rear-naked-choke-system'],
-    supportSkillIds: ['single-leg-bjj', 'turtle-ride', 'mat-return-basics', 'scramble-control'],
+    supportSkillIds: ['single-leg-bjj', 'turtle-ride', 'mat-return-basics', 'scramble-control', 'chin-strap-control'],
     requiredDefensiveSkillIds: ['front-headlock-defense', 'back-survival', 'leg-lock-safety-basics'],
     commonWeaknesses: la(
       ['Chin strap nông nhưng vẫn squeeze.', 'Đuổi guillotine khi đối thủ đã qua đúng side.', 'Không chuyển go-behind khi đầu đối thủ thoát.', 'Dùng lực cổ thay vì hip angle và elbow control.'],
@@ -269,7 +269,7 @@ export const archetypes: GrapplingArchetype[] = [
     ),
     coreConceptIds: ['leg-lock-safety-hierarchy', 'knee-line', 'early-vs-late-defense', 'inside-position', 'deliberate-practice'],
     coreSkillIds: ['leg-lock-safety-basics', 'straight-ankle-lock-safety', 'heel-hook-safety', 'single-leg-x-basics', 'k-guard-entry'],
-    supportSkillIds: ['guard-pulling-strategy', 'supine-guard-retention', 'technical-stand-up'],
+    supportSkillIds: ['guard-pulling-strategy', 'supine-guard-retention', 'technical-stand-up', 'heel-hook-finishing-system', 'calf-compression-locks', 'toe-hold-estima-lock'],
     requiredDefensiveSkillIds: ['leg-lock-safety-basics', 'heel-hook-safety', 'straight-ankle-lock-safety'],
     commonWeaknesses: la(
       ['Xoay khi heel exposed và knee line còn kẹt.', 'Không clear secondary leg.', 'Tấn công chân khi chưa hiểu ruleset.', 'Coi đau là tín hiệu duy nhất thay vì đọc position sớm.'],
@@ -345,7 +345,7 @@ export const archetypes: GrapplingArchetype[] = [
     ),
     coreConceptIds: ['wedges', 'pummeling', 'wrestle-up-philosophy', 'hip-line-shoulder-line', 'failure-response'],
     coreSkillIds: ['half-guard-knee-shield', 'half-guard-wrestle-up', 'single-leg-bjj', 'bodylock-passing', 'scramble-control'],
-    supportSkillIds: ['seated-guard-retention', 'side-control-escape', 'technical-stand-up', 'hand-fighting'],
+    supportSkillIds: ['seated-guard-retention', 'side-control-escape', 'technical-stand-up', 'hand-fighting', 'coyote-half-guard'],
     requiredDefensiveSkillIds: ['side-control-survival', 'front-headlock-defense', 'mount-escape'],
     commonWeaknesses: la(
       ['Knee shield quá thấp nên bị flatten.', 'Underhook thắng nhưng đầu vẫn thấp.', 'Dogfight không kiểm soát far hip.', 'Bỏ lỡ transition sang single leg khi họ backstep.'],
@@ -382,7 +382,7 @@ export const archetypes: GrapplingArchetype[] = [
       ['Ceux qui paniquent quand position change.', 'Ceux qui postent bras longs.', 'Ceux sans sécurité leg entanglement/front headlock.'],
     ),
     coreConceptIds: ['base-balance', 'posts', 'head-position', 'failure-response', 'early-vs-late-defense'],
-    coreSkillIds: ['scramble-control', 'sprawl-go-behind', 'mat-return-basics', 'back-control', 'single-leg-bjj'],
+    coreSkillIds: ['scramble-control', 'sprawl-go-behind', 'mat-return-basics', 'back-control', 'single-leg-bjj', 'double-leg-bjj'],
     supportSkillIds: ['technical-stand-up', 'hand-fighting', 'turtle-ride', 'front-headlock-defense'],
     requiredDefensiveSkillIds: ['front-headlock-defense', 'leg-lock-safety-basics', 'back-survival'],
     commonWeaknesses: la(
@@ -421,7 +421,7 @@ export const archetypes: GrapplingArchetype[] = [
     ),
     coreConceptIds: ['control-before-submission', 'dilemma-attacks', 'levers', 'angle-creation', 'connection-before-control'],
     coreSkillIds: ['guillotine-system', 'kimura-system', 'arm-triangle-mount', 'rear-naked-choke-system', 'back-control'],
-    supportSkillIds: ['mount-control', 'side-control-pin', 'snapdown-front-headlock', 'turtle-ride'],
+    supportSkillIds: ['mount-control', 'side-control-pin', 'snapdown-front-headlock', 'turtle-ride', 'heel-hook-finishing-system', 'calf-compression-locks', 'toe-hold-estima-lock', 'mounted-triangle-armbar'],
     requiredDefensiveSkillIds: ['front-headlock-defense', 'back-survival', 'leg-lock-safety-basics'],
     commonWeaknesses: la(
       ['Squeeze trước khi isolate.', 'Nhảy submission và mất pin.', 'Không biết nhánh tiếp theo khi elbow bị giấu.', 'Tăng lực thay vì đổi angle.'],

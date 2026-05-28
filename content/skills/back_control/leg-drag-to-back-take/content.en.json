@@ -1,0 +1,67 @@
+{
+  "id": "leg-drag-to-back-take",
+  "locale": "en",
+  "name": "Leg Drag to Back Take",
+  "description": "The leg drag to back take uses the leg drag to expose their back. When they post the far arm to defend the leg drag, you release the leg, swim under their arm, and spin behind.",
+  "shortInstruction": "Control their near leg, drag it across your body, opponent posts far arm (trigger), release the leg, swim under their arm, and spin behind.",
+  "summary": "The leg drag to back take is a continuous movement from guard passing to back control. The leg drag forces the opponent to post with their far arm — and that post becomes the entry for the back take.",
+  "whyItWorks": [
+    "The leg drag already has them on one side — they are already partially exposed for the back take",
+    "Their defensive response (posting the far arm) creates the back take opening",
+    "The transition is continuous — there is no pause between pass and back take",
+    "Releasing the leg and swimming under their arm reverses the angle in one movement"
+  ],
+  "commonMistakes": [
+    "Holding the leg drag too long — you must release when they post the far arm",
+    "Swimming over their arm instead of under — swimming under gives you back access",
+    "Not controlling their far hip during the spin — they can turn and face you",
+    "Losing proximity during the transition — you must stay connected throughout"
+  ],
+  "coachingCues": [
+    "Drag the leg, read the post, swim under",
+    "Release the leg when they post — that's your trigger",
+    "Swim under the arm, not over",
+    "Stay connected — no daylight"
+  ],
+  "safetySummary": [
+    "Be careful not to hyperextend their leg during the leg drag — control the leg at the ankle or pant leg",
+    "Do not yank the leg aggressively — a controlled drag with proper footwork is safer",
+    "If the opponent resists heavily, release the leg drag and switch to a pass instead"
+  ],
+  "keyCorrections": [
+    "If they do not post the far arm: continue the leg drag to side control or mount",
+    "If they post and you swim through: back control established",
+    "If they turn away during the drag: release the leg and take the back directly"
+  ],
+  "systemLogic": {
+    "corePrinciple": "Leg drag to back take: control their near leg → drag it across your body → opponent posts far arm (trigger) → release the leg → swim under their posted arm → spin behind → establish back control.",
+    "decisionTree": [
+      {
+        "condition": "They do not post the far arm",
+        "action": "continue the leg drag to side control or mount"
+      },
+      {
+        "condition": "They post and you swim through",
+        "action": "back control established"
+      },
+      {
+        "condition": "They turn away during the drag",
+        "action": "release the leg and take the back directly"
+      }
+    ],
+    "exitStrategies": [
+      "If the back take fails, you should still have side control",
+      "If they turn into you, switch to the pass"
+    ]
+  },
+  "moneyDetails": [
+    "The leg drag to back take is a high-value chain that connects passing to back control seamlessly",
+    "Mastering this transition gives you a direct path from guard passing to 4-point back control",
+    "The leg drag to back take is particularly effective against opponents who base wide to defend the pass"
+  ],
+  "fixItFast": [
+    "If they do not post: continue the drag to side control — the back take is not available",
+    "If you swim over instead of under: reset and swim under the arm",
+    "If they turn into you during the drag: switch to the pass — the back take is no longer available"
+  ]
+}

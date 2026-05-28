@@ -1,0 +1,67 @@
+{
+  "id": "mounted-triangle",
+  "locale": "en",
+  "name": "Mounted Triangle / Armbar from Mount",
+  "description": "The mounted triangle uses your top position to trap their arm between your leg and their head, then step over to finish. The S-mount transition is critical — you must climb high on their chest before attacking.",
+  "shortInstruction": "Climb to S-mount, trap their near arm with your same-side leg, step your top leg over their head, crunch heels together, squeeze knees.",
+  "summary": "The mounted triangle is a high-percentage submission from mount that uses gravity and top pressure to eliminate the opponent ability to stack or posture out. The S-mount climb is the gatekeeper — never attempt from low mount.",
+  "whyItWorks": [
+    "From mount, their arm is already compressed by your body weight — you do not need to break posture like from guard",
+    "Gravity works for you — your weight pressing down tightens the triangle without needing to squeeze harder",
+    "If they defend the triangle by posturing, you attack the armbar — the triangle-armbar dilemma is stronger from top",
+    "They cannot stack you from mount like they can from guard — this removes the primary triangle counter"
+  ],
+  "commonMistakes": [
+    "Attempting the mounted triangle from low mount — must climb to S-mount first",
+    "Not trapping the arm before stepping over — if the arm is free, the triangle is not available",
+    "Stepping the leg across the shin instead of behind the head",
+    "Squeezing the knees before crunching the heels — heels first, then knees"
+  ],
+  "coachingCues": [
+    "S-mount first, triangle second — never from low mount",
+    "Trap the arm before stepping over — if the arm is free, the triangle is not",
+    "Heel crunch, knee squeeze — two separate movements, not one",
+    "They posture up = your armbar entry"
+  ],
+  "safetySummary": [
+    "Do not pull down on the head when applying the triangle — this can strain the neck",
+    "Release the triangle immediately if the opponent taps",
+    "Be careful not to hyperextend their elbow when transitioning to the armbar"
+  ],
+  "keyCorrections": [
+    "If they try to stack: impossible from mount — finish the triangle",
+    "If they posture up: swim your arm under their defending arm and armbar",
+    "If they turn to their side: release the triangle and take the back"
+  ],
+  "systemLogic": {
+    "corePrinciple": "Mounted triangle: from mount → climb to S-mount → trap their near arm → step the top leg over their head (foot behind head) → crunch heels together → squeeze knees → if they posture, transition to armbar.",
+    "decisionTree": [
+      {
+        "condition": "They try to stack",
+        "action": "impossible from mount — finish the triangle"
+      },
+      {
+        "condition": "They posture up to defend",
+        "action": "swim your arm under their defending arm and armbar"
+      },
+      {
+        "condition": "They turn to their side",
+        "action": "release the triangle and take the back"
+      }
+    ],
+    "exitStrategies": [
+      "If you cannot secure the triangle, return to mount and reset",
+      "If they escape to guard, stand and pass again"
+    ]
+  },
+  "moneyDetails": [
+    "The mounted triangle is one of the highest-percentage submissions from mount in no-gi",
+    "Mastering the S-mount climb is the key — the triangle comes easily once S-mount is established",
+    "The triangle-armbar dilemma from mount is more dangerous for the opponent than from guard"
+  ],
+  "fixItFast": [
+    "If they interlock their hands: peel them by rotating your hips",
+    "If they posture: immediately transition to armbar",
+    "If the triangle is loose: your S-mount position was not high enough"
+  ]
+}

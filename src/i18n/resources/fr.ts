@@ -626,6 +626,12 @@ export const fr = {
     contentCoverage: 'Couverture',
     lastUpdate: 'Dernière mise à jour',
     alsoToday: 'Aujourd’hui aussi',
+    newUpdates: {
+      heading: 'Nouveautés',
+      item1: '11 nouvelles compétences : soumissions, passing, wrestling, pins & guard',
+      item2: 'Nouveaux systèmes de soumission : heel hook finishing, calf compression, toe hold / Estima lock, mounted triangle / armbar',
+      item3: 'Nouvelles compétences fondamentales : toreando passing, tripod folding pass, over-under pass, double leg takedown, foot sweeps',
+    },
     hubExplorer: 'Explorer les hubs',
     rotation: {
       microDetail: 'Micro-détail du jour',
@@ -804,6 +810,11 @@ export const fr = {
       safety_reference: 'Référence sécurité',
     },
     offline: 'Vidéo indisponible hors ligne — connectez-vous à Internet pour regarder.',
+    unavailable: 'Cette vidéo n\'est plus disponible.',
+    unavailableHint: 'La vidéo a peut-être été supprimée ou rendue privée par l\'auteur.',
+    retry: 'Réessayer',
+    reportBroken: 'Signaler la vidéo',
+    reportSuccess: 'Merci ! Nous allons examiner cette vidéo.',
     level: {
       beginner: 'Débutant',
       intermediate: 'Intermédiaire',

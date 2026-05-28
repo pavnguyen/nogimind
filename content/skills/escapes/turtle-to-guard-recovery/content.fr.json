@@ -1,0 +1,67 @@
+{
+  "id": "turtle-to-guard-recovery",
+  "locale": "fr",
+  "name": "Récupération de Garde depuis la Tortue",
+  "description": "La récupération de garde depuis la tortue utilise un basculement de hanche explosif pour créer de l'espace, se réengager avec l'adversaire et établir la garde.",
+  "whyItWorks": [
+    "Depuis la turtle, vous pouvez explosivement échapper les hanches quand l'adversaire engage son poids vers l'avant",
+    "Le basculement des hanches crée de l'espace pour ramener vos jambes entre vous et eux",
+    "Pomper le bras intérieur les empêche d'établir le contrôle seatbelt ou body triangle",
+    "Récupérer la guarde plutôt que de se lever est plus sûr quand l'adversaire a engagé son poids sur le dessus"
+  ],
+  "commonMistakes": [
+    "Essayer de récupérer la guarde avant de protéger le cou — couvrez toujours le cou d'abord",
+    "Poser les deux mains au sol pour se lever — cela expose le dos à un étranglement",
+    "Donner le coup de pied sans pomper le bras intérieur — ils maintiennent le contrôle seatbelt",
+    "Rester trop longtemps en turtle — la turtle est une position réactive ; vous devez lire et exploser"
+  ],
+  "coachingCues": [
+    "Cou d'abord, puis basculement des hanches, puis pompe",
+    "Abaissez la hanche, donnez le coup de pied — un mouvement explosif",
+    "Pompez le bras intérieur ou ils gardent le seatbelt",
+    "Lisez leur engagement de poids — c'est votre déclencheur"
+  ],
+  "shortInstruction": "Depuis la turtle, protégez le cou, lisez l'engagement du poids, abaissez la hanche proche, donnez un coup de pied à la jambe éloignée à travers, pompez le bras intérieur et rétablissez la guarde.",
+  "summary": "La récupération de guarde depuis la turtle utilise un basculement explosif des hanches pour créer de l'espace, ramener les jambes entre vous et l'adversaire, et rétablir la guarde. Contrairement à la remontée debout qui désengage, la récupération de guarde maintient le combat dans votre guarde où vous pouvez attaquer.",
+  "safetySummary": [
+    "Protégez votre cou avant toute tentative d'évasion de turtle — l'étranglement vient en premier",
+    "N'explosez pas dans une position où votre cou ou votre colonne est exposé",
+    "Si l'adversaire a un seatbelt profond, ne luttez pas — pompez d'abord le bras"
+  ],
+  "keyCorrections": [
+    "S'ils engagent le poids vers l'avant : votre déclencheur — basculez les hanches et récupérez la guarde",
+    "S'ils contournent sur le côté : asseyez-vous directement en guarde",
+    "S'ils vous aplatisent : la turtle est perdue — protégez le cou et attendez qu'ils créent de l'espace"
+  ],
+  "moneyDetails": [
+    "La récupération de guarde depuis la turtle est une alternative plus sûre à la remontée debout quand l'adversaire a le poids engagé vers l'avant",
+    "Maîtriser la récupération de guarde depuis la turtle supprime la peur d'être amené au sol depuis la turtle",
+    "La récupération de guarde est particulièrement utile contre les adversaires qui attaquent immédiatement le dos depuis la turtle"
+  ],
+  "fixItFast": [
+    "S'ils attrapent un seatbelt : pompez le bras intérieur avant de tenter le basculement des hanches",
+    "Si vous ne pouvez pas donner le coup de pied : vos hanches sont trop hautes — abaissez la hanche plus bas avant de donner le coup",
+    "S'ils vous aplatisent : attendez qu'ils créent de l'espace, puis explosez dans le basculement des hanches"
+  ],
+  "systemLogic": {
+    "corePrinciple": "Récupération de guarde depuis la turtle : depuis la turtle → protégez le cou → lisez l'engagement du poids de l'adversaire vers l'avant (déclencheur) → abaissez la hanche proche au sol → donnez un coup de pied à la jambe éloignée à travers → pompez le bras intérieur → rétablissez la guarde.",
+    "decisionTree": [
+      {
+        "condition": "Ils engagent le poids vers l'avant",
+        "action": "votre déclencheur — basculement des hanches et récupérez la guarde"
+      },
+      {
+        "condition": "Ils contournent sur le côté à la place",
+        "action": "asseyez-vous directement en guarde"
+      },
+      {
+        "condition": "Ils vous aplatisent à plat ventre",
+        "action": "la turtle est perdue — protégez le cou et attendez de l'espace"
+      }
+    ],
+    "exitStrategies": [
+      "Si la récupération de guarde échoue, levez-vous et reset",
+      "S'ils prennent le dos pendant la tentative, protégez votre cou et échappez-vous du dos"
+    ]
+  }
+}

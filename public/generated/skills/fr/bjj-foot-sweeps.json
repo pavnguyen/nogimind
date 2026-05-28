@@ -1,0 +1,110 @@
+{
+  "id": "bjj-foot-sweeps",
+  "domain": "wrestle_up_wrestling",
+  "level": "intermediate",
+  "status": "draft",
+  "name": "Balisages (Kouchi, Sasae, De Ashi)",
+  "aliases": [
+    "foot sweeps",
+    "kouchigari",
+    "sasae",
+    "deashibarai"
+  ],
+  "tags": [
+    "takedown",
+    "wrestling",
+    "foot-sweep",
+    "kouchigari",
+    "sasae",
+    "deashibarai",
+    "clinch-fighting"
+  ],
+  "keywords": [
+    "foot sweeps",
+    "kouchi gari",
+    "sasae tsurikomi ashi",
+    "de ashi harai",
+    "judo for BJJ"
+  ],
+  "relatedSkills": [
+    {
+      "id": "arm-drag-system",
+      "type": "chain"
+    },
+    {
+      "id": "ankle-pick-low-single",
+      "type": "chain"
+    },
+    {
+      "id": "double-leg-bjj",
+      "type": "chain"
+    },
+    {
+      "id": "body-lock-takedown",
+      "type": "alternative"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [
+    "wrestle-up-player",
+    "scramble-controller"
+  ],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "stance-movement-basics",
+    "arm-drag-system"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [
+    "Le pied ne bouge pas : pas de déséquilibre",
+    "Guillotine : tête baissée"
+  ],
+  "version": 1,
+  "updatedAt": "2026-05-28T00:00:00.000Z",
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": true,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "fr",
+  "description": "Système de balayages de pieds adapté du Judo pour le no-gi BJJ, utilisant timing, déséquilibre (kuzushi) et placement précis du pied. Balayages clés : Kouchi Gari, Sasae, De Ashi Harai.",
+  "shortInstruction": "Créez un déséquilibre avec collar tie, balayez le pied quand il touche le sol, enchaînez en double jambes.",
+  "summary": "Les balayages exploitent le transfert de poids quand l'adversaire défend les doubles jambes.",
+  "whyItWorks": [
+    "Exploite le transfert de poids prévisible",
+    "Nécessite peu d'énergie",
+    "Crée des réactions pour les attaques suivantes"
+  ],
+  "commonMistakes": [
+    "Balayer sans déséquilibrer",
+    "Baisser la tête — expose la guillotine",
+    "Balayer trop tôt ou trop tard",
+    "Ne pas enchaîner"
+  ],
+  "coachingCues": [
+    "Tirez d'abord, balayez ensuite",
+    "Les mains préparent le balayage",
+    "Restez grand — tête haute, poitrine haute"
+  ],
+  "safetySummary": [
+    "Gardez la tête haute",
+    "Les balayages sont à faible risque"
+  ],
+  "moneyDetails": [
+    "Balisages les moins énergivores en no-gi"
+  ],
+  "fixItFast": [
+    "Pied ne bouge pas : déséquilibrez d'abord",
+    "Guillotine : gardez la tête haute"
+  ]
+}

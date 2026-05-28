@@ -1,0 +1,74 @@
+{
+  "id": "calf-compression-locks",
+  "locale": "fr",
+  "name": "Clés de Compression du Mollet",
+  "description": "Utilisez les clés de compression (calf slicers) depuis les enchevêtrements de jambes et les gardes pour attaquer le genou et le mollet — forçant des taps ou ouvrant des sweeps et des prises de dos.",
+  "shortInstruction": "Piégez la jambe, enfoncez votre tibia dans leur mollet, compressez — le calf slicer est une soumission de trois secondes si l'angle est bon.",
+  "summary": "Les clés de compression du mollet utilisent votre tibia contre le mollet de l'adversaire avec sa jambe piégée dans le creux de votre articulation. La compression crée une pression intense sur le mollet et le genou. Contrairement aux heel hooks qui ciblent les ligaments rotationnels du genou, les clés de compression attaquent le genou dans un plan différent. Elles fonctionnent depuis le saddle, 50/50, backside 50/50, half guard et truck. La clé est un contact os-sur-muscle avec un bon angle de tibia et une poussée des hanches.",
+  "whyItWorks": [
+    "Le tibia pressant dans le mollet crée une pression concentrée que peu d'adversaires peuvent tolérer.",
+    "Les clés de compression attaquent le genou dans un plan que les défenses de heel hook ne protègent pas.",
+    "Elles créent un dilemme : taper du calf slicer ou donner le sweep/prise de dos.",
+    "Les mécanismes sont simples et reproductibles — piéger, aligner, compresser.",
+    "Les calf slicers peuvent être finis avec relativement peu de force quand l'angle est correct."
+  ],
+  "commonMistakes": [
+    "Utiliser le plat du tibia au lieu du bord osseux.",
+    "Laisser de l'espace entre leur jambe et votre corps.",
+    "Oublier de contrôler le haut du corps de l'adversaire — il tournera hors de la compression.",
+    "Appliquer la compression trop lentement ou timidement.",
+    "S'engager trop dans la finition quand l'adversaire roule — suivez son mouvement."
+  ],
+  "coachingCues": [
+    "Bord osseux contre le mollet, le plat du tibia ne suffit pas.",
+    "Piège profond dans le creux de l'articulation.",
+    "Contrôlez le haut du corps avant de compresser.",
+    "S'il roule, suivez — le sweep vaut plus que le tap.",
+    "La compression est une question d'angle, pas de force."
+  ],
+  "safetySummary": [
+    "Les calf slicers appliquent une pression intense — appliquez lentement et relâchez au tap.",
+    "N'appliquez pas les clés de compression de façon explosive.",
+    "Déconseillé aux débutants — un contrôle et une conscience appropriés sont essentiels."
+  ],
+  "keyCorrections": [
+    "Si l'adversaire libère sa jambe, votre piège était trop peu profond.",
+    "Si vous n'obtenez pas le tap, votre angle de tibia est mauvais.",
+    "S'il tourne, vous avez perdu le contrôle du haut du corps.",
+    "Si votre jambe se fatigue, vous utilisez le muscle au lieu de la structure."
+  ],
+  "systemLogic": {
+    "corePrinciple": "Enchevêtrement de jambe ou garde → piéger la jambe adverse dans votre creux articulaire → aligner le bord du tibia contre leur mollet → compresser en fermant l'espace → finir ou suivre le mouvement.",
+    "decisionTree": [
+      {
+        "condition": "Depuis saddle / inside sankaku",
+        "action": "Passez votre jambe extérieure par-dessus leur jambe piégée, piégez le pied à votre hanche, poussez le tibia dans le mollet."
+      },
+      {
+        "condition": "Depuis half guard / half butterfly",
+        "action": "Piégez leur jambe proche dans votre creux de genou, underhook la jambe éloignée."
+      },
+      {
+        "condition": "Depuis la position truck",
+        "action": "Triangle de jambe autour de leur taille, tibia derrière leur genou, piégez le pied et compressez."
+      },
+      {
+        "condition": "Ils roulent pour s'échapper",
+        "action": "Relâchez la compression, suivez leurs hanches pour sweep ou prise de dos."
+      }
+    ]
+  },
+  "moneyDetails": [
+    "Le bord osseux de votre tibia est l'arme — tournez-le pour que le bord tranchant, pas la surface plate, contacte leur mollet.",
+    "Plus leur jambe piégée est proche de votre hanche ou poitrine, plus la compression est forte.",
+    "Le contrôle du haut du corps empêche l'adversaire de tourner hors de la compression.",
+    "Entrée courante depuis le saddle : jambe extérieure par-dessus, pied piégé à la hanche, poussez les hanches vers l'avant."
+  ],
+  "nextStep": "Après les clés de compression, apprenez le toe hold / Estima lock.",
+  "fixItFast": [
+    "La jambe glisse ? Piégez plus profondément.",
+    "Compression inefficace ? Ajustez l'angle du tibia.",
+    "Ils s'éloignent ? Relâchez, suivez les hanches, prenez le dos.",
+    "Douleur dans votre tibia ? Utilisez le bord osseux, pas le plat."
+  ]
+}

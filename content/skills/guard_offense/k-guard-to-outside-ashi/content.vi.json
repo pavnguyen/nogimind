@@ -1,0 +1,67 @@
+{
+  "id": "k-guard-to-outside-ashi",
+  "locale": "vi",
+  "name": "K-Guard sang Outside Ashi",
+  "description": "K-guard to outside ashi là chuỗi đòn lối vào leg lock chính từ K-guard. Khi đối thủ phòng thủ K-guard, bạn thả móc K-guard và vào lại trực tiếp outside ashi.",
+  "whyItWorks": [
+    "K-guard đã có hông bạn dưới hông họ và chân bạn bị rối — bạn đã đi được 50% vào leg lock",
+    "Thả móc K-guard và vào lại outside ashi là một động tác — họ không thể phòng thủ cả hai vị trí liên tiếp",
+    "Outside ashi cho bạn heel exposure ở chân xa trong khi bảo vệ đường gối của chính bạn",
+    "Quá trình chuyển đổi diễn ra dưới tầm nhìn của họ — nhiều người không nhận ra mối đe dọa cho đến khi quá muộn"
+  ],
+  "commonMistakes": [
+    "Mất K-guard trước khi thiết lập outside ashi — có khoảng trống giữa hai vị trí khiến bạn dễ bị tổn thương",
+    "Để họ thoát gối xa trong lúc chuyển đổi — phải giữ chân xa bị bẫy",
+    "Vào saddle quá sớm — kết thúc từ outside ashi trước; saddle là lựa chọn dự phòng",
+    "Không kiểm soát tay gần của họ — họ có thể chống vào đầu bạn hoặc bóc leg entanglement"
+  ],
+  "coachingCues": [
+    "Móc K-guard kéo, chân outside ashi luồn — hai động tác như một",
+    "Giữ chân xa bị bẫy xuyên suốt quá trình chuyển đổi — mất nó, mất lối vào",
+    "Kết thúc từ outside ashi trước khi tính đến saddle",
+    "Kiểm soát tay gần — nếu họ chống đầu bạn, leg entanglement thất bại"
+  ],
+  "shortInstruction": "Từ K-guard, khi họ lùi, thả móc ngoài và luồn chân vào trong chân xa của họ. Vào lại outside ashi với heel exposure.",
+  "summary": "K-guard to outside ashi chuyển từ tư thế guard sang leg entanglement bằng cách thả móc K-guard và luồn trực tiếp vào outside ashi. Quá trình chuyển đổi nhanh hơn đối thủ có thể phòng thủ vì bạn đã ở dưới họ với một chân bị rối.",
+  "safetySummary": [
+    "Quá trình chuyển đổi này liên quan đến leg entanglement — đảm bảo bạn biết các vị trí an toàn trước khi tập",
+    "Không áp dụng áp lực heel hook trong lúc tập — chỉ tập chuyển đổi với động tác có kiểm soát",
+    "Nếu bạn mất leg entanglement, lập tức phục hồi guard thay vì cố gắng giành heel hook"
+  ],
+  "keyCorrections": [
+    "Nếu họ lùi để thoát K-guard: luồn chân vào outside ashi",
+    "Nếu họ bước tới để gây áp lực: ở lại K-guard và quét thay thế",
+    "Nếu họ chống tay lên đầu bạn để chặn: luồn tay họ hoặc chuyển sang omoplata"
+  ],
+  "moneyDetails": [
+    "K-guard to outside ashi là lối vào leg lock chính được các võ sĩ no-gi đẳng cấp ADCC sử dụng",
+    "Thành thạo chuyển đổi này cho bạn đường đi trực tiếp từ guard đến heel hook, vượt qua nhiều phòng thủ thông thường",
+    "K-guard là một trong những guard an toàn nhất để vào leg lock vì hông bạn ở dưới hông họ"
+  ],
+  "fixItFast": [
+    "Nếu họ thoát chân xa: bạn đã mất vị trí — vào lại K-guard hoặc phục hồi guard",
+    "Nếu họ chống tay lên đầu: luồn tay và thiết lập lại leg entanglement",
+    "Nếu họ lùi nhưng bạn lỡ lối vào outside ashi: phục hồi full guard và thử lại từ K-guard"
+  ],
+  "systemLogic": {
+    "corePrinciple": "K-guard to outside ashi: thiết lập K-guard → đối thủ lùi (tín hiệu) → thả móc K-guard → luồn chân bạn vào trong chân xa họ → vào lại outside ashi → lộ gót chân.",
+    "decisionTree": [
+      {
+        "condition": "Họ lùi để thoát K-guard",
+        "action": "luồn chân vào outside ashi"
+      },
+      {
+        "condition": "Họ bước tới để gây áp lực",
+        "action": "ở lại K-guard và quét thay thế"
+      },
+      {
+        "condition": "Họ chống tay lên đầu để chặn",
+        "action": "luồn tay họ hoặc chuyển sang omoplata"
+      }
+    ],
+    "exitStrategies": [
+      "Nếu họ thoát được chân xa, vào lại K-guard hoặc phục hồi guard",
+      "Nếu bạn mất entanglement, đừng đuổi theo — reset về full guard"
+    ]
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "id": "calf-compression-locks",
+  "domain": "submission_systems",
+  "level": "intermediate",
+  "name": "Calf & Compression Locks",
+  "aliases": [],
+  "tags": [
+    "calf-slicer",
+    "compression",
+    "leg-lock",
+    "knee-safety",
+    "meta:modern-common",
+    "family:leg-lock",
+    "group:compression"
+  ],
+  "keywords": [
+    "calf slicer",
+    "compression lock",
+    "bear trap",
+    "ham sandwich",
+    "calf crush",
+    "knee compression"
+  ],
+  "relatedSkills": [
+    {
+      "id": "bear-trap-ham-sandwich",
+      "type": "recommended"
+    },
+    {
+      "id": "saddle-inside-sankaku-control",
+      "type": "recommended"
+    },
+    {
+      "id": "backside-50-50-control",
+      "type": "recommended"
+    }
+  ],
+  "prerequisiteSkillIds": [
+    "leg-lock-safety-basics",
+    "heel-hook-safety"
+  ],
+  "relatedPositions": [],
+  "relatedConcepts": [],
+  "archetypeIds": [],
+  "trainingMethodIds": [],
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "updatedAt": "2026-05-28T00:00:00.000Z"
+}

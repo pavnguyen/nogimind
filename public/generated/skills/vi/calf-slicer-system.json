@@ -1,0 +1,126 @@
+{
+  "id": "calf-slicer-system",
+  "domain": "submission_systems",
+  "level": "advanced",
+  "status": "draft",
+  "name": "Hệ thống Calf Slicer / Khóa nén",
+  "aliases": [
+    "calf slicer",
+    "calf crusher",
+    "compression lock",
+    "shin compression"
+  ],
+  "tags": [
+    "tier:advanced-niche",
+    "meta:specialized",
+    "risk:high",
+    "family:compression",
+    "modern-no-gi"
+  ],
+  "keywords": [
+    "calf slicer",
+    "compression lock",
+    "shin compression",
+    "muscle lock"
+  ],
+  "modernSystemGroup": "leg_lock",
+  "relatedSkills": [
+    {
+      "id": "inside-outside-heel-hook",
+      "type": "alternative"
+    },
+    {
+      "id": "toe-hold-system",
+      "type": "alternative"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [
+    "submission-chain-hunter"
+  ],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "leg-lock-safety-basics"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [
+    "Nếu họ kéo chân ra: siết chặt bẫy chân hơn và kéo gót lại gần",
+    "Nếu họ xoay hông để thoát: kéo đầu gối họ vào ngực bạn để cô lập",
+    "Nếu không cảm thấy nén: điều chỉnh vị trí ống chân lên bụng bắp chân"
+  ],
+  "version": 1,
+  "updatedAt": "2026-05-28T09:34:33.159Z",
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "vi",
+  "description": "Calf slicer nén cơ bắp chân giữa xương ống chân của bạn và xương chày/xương đùi của họ, tạo ra áp lực đau và khóa cơ.",
+  "shortInstruction": "Vào từ leg entanglement, bẫy bàn chân vào người bạn, đặt ống chân ngang bụng bắp chân, bóp gót chân lại với nhau, nén cơ bắp chân vào xương chày.",
+  "summary": "Calf slicer nén cơ bắp chân giữa xương ống chân của bạn và xương chày/xương đùi của họ. Đây là đòn khóa cơ (không phải khóa khớp) — hoạt động dựa trên sự nén và đau cơ, không phải kéo căng dây chằng.",
+  "whyItWorks": [
+    "Nén ống chân vào bắp chân tạo ra khóa cơ — cơ bắp chân bị nén giữa xương chày và xương mác",
+    "Không giống khóa khớp, calf slicer không phụ thuộc vào kéo căng — nó hoạt động dựa trên đau và mỏi cơ",
+    "Calf slicer có sẵn từ leg entanglement nơi heel hook bị phòng thủ hoặc bị cấm",
+    "Sự nén tạo ra áp lực phụ khóa mắt cá chân — bàn chân không thể thoát"
+  ],
+  "commonMistakes": [
+    "Đặt ống chân lên mắt cá thay vì bụng bắp chân — nén mắt cá yếu hơn và dễ thoát hơn",
+    "Không bẫy bàn chân họ — nếu bàn chân tự do, họ có thể trượt ra khỏi sự nén",
+    "Áp dụng calf slicer mà không cô lập — họ có thể xoay ra nếu hông tự do",
+    "Dùng áp lực bùng nổ — calf slicer nên được áp dụng từ từ để an toàn"
+  ],
+  "coachingCues": [
+    "Ống chân trên bụng bắp chân, không phải mắt cá",
+    "Bẫy bàn chân, khóa sự nén",
+    "Bóp gót chân lại — gót càng gần, càng chặt",
+    "Áp dụng chậm — calf slicer không cần bùng nổ"
+  ],
+  "safetySummary": [
+    "Calf slicer có thể gây bầm tím và tổn thương cơ nếu áp dụng quá mạnh — tăng áp lực từ từ",
+    "Người tập có thể không cảm thấy đau ngay lập tức — giao tiếp với bạn tập",
+    "Tránh áp dụng calf slicer nếu bạn có tiền sử chấn thương ống chân hoặc đầu gối"
+  ],
+  "systemLogic": {
+    "corePrinciple": "Calf slicer: vào từ leg entanglement → bẫy bàn chân vào người bạn → đặt ống chân ngang bụng bắp chân → bóp gót chân lại → nén cơ bắp chân vào xương chày.",
+    "decisionTree": [
+      {
+        "condition": "Họ kéo chân ra",
+        "action": "siết bẫy chân và kéo gót lại gần"
+      },
+      {
+        "condition": "Họ xoay hông để thoát",
+        "action": "kéo đầu gối họ vào ngực để cô lập"
+      },
+      {
+        "condition": "Không cảm thấy nén",
+        "action": "điều chỉnh ống chân lên bụng bắp chân"
+      }
+    ],
+    "exitStrategies": [
+      "Nếu không kết thúc được, chuyển sang heel hook hoặc straight ankle lock",
+      "Nếu họ thoát, phục hồi guard và reset"
+    ]
+  },
+  "moneyDetails": [
+    "Calf slicer là một đòn khóa chân an toàn và hiệu quả, đặc biệt ở cấp độ đai thấp hơn nơi heel hook bị cấm",
+    "Calf slicer kết hợp tốt với heel hook trong chuỗi leg attack — chúng bổ sung cho nhau",
+    "Đây là một trong số ít đòn khóa cơ trong BJJ và hoạt động dựa trên cơ chế đau khác biệt"
+  ],
+  "fixItFast": [
+    "Nếu không cảm thấy nén: ống chân của bạn quá thấp — đưa lên bụng bắp chân",
+    "Nếu họ thoát chân: bạn mất bẫy — reset và thiết lập lại entanglement",
+    "Nếu họ chịu đau tốt: chuyển sang heel hook trên cùng chân đó"
+  ]
+}

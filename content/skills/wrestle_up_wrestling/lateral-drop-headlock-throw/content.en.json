@@ -1,0 +1,67 @@
+{
+  "id": "lateral-drop-headlock-throw",
+  "locale": "en",
+  "name": "Lateral Drop / Headlock Throw",
+  "description": "The lateral drop is a hip-throw entry from a headlock or overhook. You use your hips as the fulcrum to rotate the opponent over your body and onto the mat. In BJJ, the key is landing in a dominant position (side control or mount) rather than following them to the mat.",
+  "shortInstruction": "Secure headlock/overhook, step inside their leg line, drop hips below theirs, rotate shoulders away, and land in mount or side control.",
+  "summary": "The lateral drop throw uses your hips as the fulcrum to rotate the opponent over your body from a headlock. The key BJJ adaptation is staying on your feet to land in a dominant position rather than following them to the mat.",
+  "whyItWorks": [
+    "The headlock controls their posture and prevents them from posting or backing out",
+    "Your hips positioned in front of theirs create a rotational fulcrum — they must rotate over you",
+    "Bending your knees and dropping your hips below theirs loads them onto your hip — the throw becomes effortless",
+    "Landing on top gives you immediate position — you do not sacrifice position for the takedown"
+  ],
+  "commonMistakes": [
+    "Bending at the waist instead of dropping the hips — this strains the back and lacks leverage",
+    "Not stepping inside their leg line — without inside position, the throw fails",
+    "Following them to the mat instead of staying on top — this gives away the positional advantage",
+    "Holding the headlock too long after the throw finishes — release and progress to the next position"
+  ],
+  "coachingCues": [
+    "Hips below theirs, not waist bend",
+    "Step inside, headlock tight, drop and rotate",
+    "Stay on your feet — they go down, you stay up",
+    "If they post, switch to double leg"
+  ],
+  "safetySummary": [
+    "Dropping your hips too explosively can strain your lower back — use controlled depth",
+    "Ensure your head is positioned to the outside of their body to avoid landing on your neck",
+    "Do not hold the headlock as they fall — release to avoid landing on your head or shoulder"
+  ],
+  "keyCorrections": [
+    "If they block by posting the far arm: release the headlock and switch to double leg",
+    "If they back out of the headlock: circle to front headlock and snapdown",
+    "If they drop level to counter: pull them into guard and attack from bottom"
+  ],
+  "systemLogic": {
+    "corePrinciple": "Lateral drop: secure headlock/overhook → step inside their leg line → drop hips below theirs (bend knees, not waist) → rotate shoulders away → they rotate over your hips → land in mount or side control.",
+    "decisionTree": [
+      {
+        "condition": "They post the far arm to block the throw",
+        "action": "release headlock and switch to double leg"
+      },
+      {
+        "condition": "They back out of the headlock",
+        "action": "circle to front headlock and snapdown"
+      },
+      {
+        "condition": "They drop level to counter",
+        "action": "pull them into guard and attack from bottom"
+      }
+    ],
+    "exitStrategies": [
+      "If the throw fails and you are underneath, recover guard",
+      "If you land in their guard after throw attempt, stand and pass"
+    ]
+  },
+  "moneyDetails": [
+    "The lateral drop is one of the highest-percentage takedowns from a headlock position in no-gi",
+    "Mastering the stay-on-feet finish is what separates BJJ lateral drops from wrestling lateral drops",
+    "The lateral drop is especially effective against opponents who lunge forward with their head low"
+  ],
+  "fixItFast": [
+    "If they post the far arm: release and switch to single leg immediately",
+    "If they sprawl: you are too slow — reset and set up the headlock with more control",
+    "If they pull guard during the throw: stay on your feet and pass instead of following"
+  ]
+}

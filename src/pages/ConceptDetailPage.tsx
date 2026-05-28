@@ -113,7 +113,7 @@ export default function ConceptDetailPage() {
       </div>
 
       <SectionCard title={t('video.videoReferences')}>
-        <ConceptVideoReferencePanel />
+        <ConceptVideoReferencePanel skillIds={concept.relatedSkillIds} />
       </SectionCard>
 
       <NextStepStrip

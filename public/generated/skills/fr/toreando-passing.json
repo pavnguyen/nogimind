@@ -1,0 +1,106 @@
+{
+  "id": "toreando-passing",
+  "domain": "passing",
+  "level": "intermediate",
+  "status": "draft",
+  "name": "Passe Toreando / Float",
+  "aliases": [
+    "float passing",
+    "torreando passing"
+  ],
+  "tags": [
+    "passing",
+    "float-passing",
+    "toreando",
+    "mobility",
+    "footwork"
+  ],
+  "keywords": [
+    "toreando passing",
+    "float passing",
+    "open guard passing",
+    "hip mobility",
+    "leg drag"
+  ],
+  "relatedSkills": [
+    {
+      "id": "leg-drag-basics",
+      "type": "chain"
+    },
+    {
+      "id": "outside-passing",
+      "type": "recommended"
+    },
+    {
+      "id": "knee-cut-passing",
+      "type": "alternative"
+    },
+    {
+      "id": "side-control-pin",
+      "type": "recommended"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [
+    "pressure-passer",
+    "scramble-controller"
+  ],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "supine-guard-retention",
+    "headquarters-passing"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [
+    "S'ils vous frame constamment : changez d'angle de passe",
+    "S'ils récupèrent la garde : vos appuis sont trop superficiels — pummellez plus profond"
+  ],
+  "version": 1,
+  "updatedAt": "2026-05-28T00:00:00.000Z",
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": true,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "fr",
+  "description": "La passe Toreando (float) est un système de passing no-gi moderne qui utilise des mouvements latéraux constants, des changements de hanche et des appuis manuels pour flotter autour de la garde de l'adversaire. Popularisé par les frères Ruotolo et Nicky Ryan, le float passing maintient le passeur debout, utilisant le momentum et la mobilité des hanches.",
+  "shortInstruction": "Restez debout, hanches mobiles, appuyez sur leurs jambes pour rediriger leurs frames, et flottez vers side control quand ils s'engagent dans une direction défensive.",
+  "summary": "Le float passing fonctionne en n'installant jamais de position statique. Le passeur utilise un mouvement latéral continu, alternant les hanches et s'appuyant sur les jambes de l'adversaire pour empêcher l'établissement de frames.",
+  "whyItWorks": [
+    "Le mouvement constant empêche l'adversaire de verrouiller sa garde ou d'établir des frames",
+    "Rester debout élimine la menace des sweeps et leg locks depuis la seated guard",
+    "Les changements de hanche et les appuis créent des couloirs de passe inexistants en passing statique"
+  ],
+  "commonMistakes": [
+    "Arrêter le mouvement après un appui réussi — le float passing nécessite un mouvement continu",
+    "Baisser la tête sous leurs hanches — expose à la guillotine et au front headlock",
+    "Appuyer avec les bras tendus — appuis faibles et faciles à écarter"
+  ],
+  "coachingCues": [
+    "Bougez sans cesse — l'arrêt est fatal en float passing",
+    "Tête au-dessus des hanches en tout temps",
+    "Appui, pivot, pummel — les trois P du float passing"
+  ],
+  "safetySummary": [
+    "Rester debout réduit considérablement le risque de heel hooks et ankle locks",
+    "Attention à la position de la tête pour éviter les contres en guillotine"
+  ],
+  "moneyDetails": [
+    "Le float passing est le plus efficace contre les joueurs de garde flexibles",
+    "Combiner float passing et pressure passing donne un jeu de passe complet"
+  ],
+  "fixItFast": [
+    "S'ils frame : changez de côté de passe",
+    "S'ils sweep : votre poids est trop avancé — reculez les hanches"
+  ]
+}

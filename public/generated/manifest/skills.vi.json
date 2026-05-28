@@ -1,5 +1,39 @@
 [
   {
+    "id": "gift-wrap-back-take",
+    "domain": "back_control",
+    "level": "intermediate",
+    "name": "Gift Wrap / Đòn xoay lưng từ Arm Drag",
+    "tags": [
+      "tier:modern-expansion",
+      "meta:modern-common",
+      "risk:low",
+      "family:back_take",
+      "modern-no-gi"
+    ],
+    "summary": "Gift wrap kiểm soát một tay đối thủ bằng cách gập ra sau lưng, vô hiệu hóa một nửa khả năng phòng thủ của họ. Từ side control, bạn bẫy tay xa, gập ra sau lưng và xoay ra sau để lên lưng.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "leg-drag-to-back-take",
+    "domain": "back_control",
+    "level": "advanced",
+    "name": "Leg Drag sang Back Take",
+    "tags": [
+      "tier:modern-expansion",
+      "meta:modern-common",
+      "risk:medium",
+      "family:back_take",
+      "modern-no-gi"
+    ],
+    "summary": "Leg drag to back take sử dụng leg drag để lộ lưng đối thủ. Khi họ chống tay xa để phòng thủ leg drag, bạn thả chân, luồn dưới tay họ và xoay ra sau — chuyển đổi liên tục từ pass sang back take.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
     "id": "back-escape",
     "domain": "escapes",
     "level": "intermediate",
@@ -413,6 +447,23 @@
     "hasChecklist": false
   },
   {
+    "id": "turtle-to-guard-recovery",
+    "domain": "escapes",
+    "level": "intermediate",
+    "name": "Phục hồi Guard từ Tư thế Rùa",
+    "tags": [
+      "tier:modern-expansion",
+      "meta:modern-common",
+      "risk:low",
+      "family:escape",
+      "modern-no-gi"
+    ],
+    "summary": "Phục hồi guard từ turtle sử dụng động tác hông bùng nổ để tạo khoảng trống, đưa chân vào giữa và thiết lập lại guard. An toàn hơn đứng lên vì bạn không lộ lưng cho đòn siết.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
     "id": "butterfly-guard-off-balance",
     "domain": "guard_offense",
     "level": "intermediate",
@@ -494,6 +545,24 @@
     "hasVideos": true,
     "hasMicroDetails": false,
     "hasChecklist": false
+  },
+  {
+    "id": "coyote-half-guard",
+    "domain": "guard_offense",
+    "level": "intermediate",
+    "name": "Coyote Half Guard",
+    "tags": [
+      "half-guard",
+      "coyote-hook",
+      "waiter-sweep",
+      "sweep",
+      "guard-offense",
+      "underhook"
+    ],
+    "summary": "Coyote half guard giải quyết vấn đề bị flatten. Deep underhook và xoay nghiêng tạo khoảng trống và góc. Coyote hook kiểm soát trụ đối thủ.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": true
   },
   {
     "id": "de-la-riva-sweeps",
@@ -878,6 +947,40 @@
     "hasChecklist": false
   },
   {
+    "id": "berimbolo-back-take",
+    "domain": "guard_offense",
+    "level": "advanced",
+    "name": "Berimbolo / Đòn xoay lưng",
+    "tags": [
+      "tier:modern-expansion",
+      "meta:modern-common",
+      "risk:medium",
+      "family:back_take",
+      "modern-no-gi"
+    ],
+    "summary": "Berimbolo back take sử dụng động tác lộn người để đổi vị trí từ dưới đối thủ ra sau lưng họ. Kích hoạt khi đối thủ bước tới, bạn lộn qua vai, kéo hông xa và hạ cánh ở tư thế back control.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "k-guard-to-outside-ashi",
+    "domain": "guard_offense",
+    "level": "advanced",
+    "name": "K-Guard sang Outside Ashi",
+    "tags": [
+      "tier:modern-expansion",
+      "meta:modern-common",
+      "risk:high",
+      "family:leg_lock",
+      "modern-no-gi"
+    ],
+    "summary": "K-guard to outside ashi chuyển từ tư thế guard sang leg entanglement bằng cách thả móc K-guard và luồn trực tiếp vào outside ashi. Quá trình chuyển đổi nhanh hơn đối thủ có thể phòng thủ vì bạn đã ở dưới họ với một chân bị rối.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
     "id": "bodylock-pass",
     "domain": "passing",
     "level": "intermediate",
@@ -958,6 +1061,76 @@
       "mobility"
     ],
     "summary": "Bên ngoài passing sử dụng động tác bằng chân và khoảng cách để buộc đối thủ phải xoay hông, tạo ra pass đường mà áp lực passing không thể tiếp cận. Hệ thống hoạt động bằng cách đứng trên đôi chân của bạn (không khuỵu gối) và đi vòng ra bên ngoài chân dẫn đầu của đối phương. Khi họ quay mặt về phía bạn, bạn tấn công phần hông lộ ra bằng cách kéo chân, lùi lại hoặc x-pass. Bên ngoài passing đặc biệt hiệu quả đối với những người chơi guard linh hoạt, những người khó pass với áp lực.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": true
+  },
+  {
+    "id": "over-under-pass",
+    "domain": "passing",
+    "level": "intermediate",
+    "name": "Over-Under / Smash Pass",
+    "tags": [
+      "passing",
+      "over-under",
+      "smash-pass",
+      "half-guard",
+      "pressure-passing"
+    ],
+    "summary": "Over-under pass tạo chest-to-chest connection loại bỏ frames và knee shield. Một tay khóa qua lưng, tay kia móc dưới chân xa. Từ vị trí này, đẩy hông vào hông gần của họ và circle về phía đầu, flatten và pass.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": true
+  },
+  {
+    "id": "toreando-passing",
+    "domain": "passing",
+    "level": "intermediate",
+    "name": "Toreando / Float Passing",
+    "tags": [
+      "passing",
+      "float-passing",
+      "toreando",
+      "mobility",
+      "footwork"
+    ],
+    "summary": "Float passing hoạt động bằng cách không bao giờ cố định một vị trí. Người pass di chuyển liên tục, đổi hông và post lên chân đối thủ để ngăn họ tạo frames. Không giống pressure passing, float passing giữ khoảng cách cho đến moment xâm nhập.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": true
+  },
+  {
+    "id": "tripod-folding-pass",
+    "domain": "passing",
+    "level": "intermediate",
+    "name": "Tripod / Folding Pass",
+    "tags": [
+      "passing",
+      "tripod",
+      "folding-pass",
+      "smash-pass",
+      "headquarters",
+      "pressure"
+    ],
+    "summary": "Tripod pass dùng stance rộng kết hợp head pressure để gập người đối thủ. Từ headquarters, người pass post chân ngoài rộng, hạ đầu xuống một bên và đẩy vai vào hip line đối thủ.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": true
+  },
+  {
+    "id": "chin-strap-control",
+    "domain": "pins_rides",
+    "level": "intermediate",
+    "name": "Hệ Thống Kiểm Soát Cằm (Chin Strap)",
+    "tags": [
+      "front-headlock",
+      "chin-strap",
+      "head-control",
+      "ride",
+      "turtle",
+      "back-exposure"
+    ],
+    "summary": "Chin strap cho kiểm soát đầu → cột sống → hông. Nâng cằm phá tư thế, lộ back và vô hiệu hóa frames. Đặc biệt hiệu quả với turtle.",
     "hasVideos": true,
     "hasMicroDetails": false,
     "hasChecklist": true
@@ -1228,6 +1401,108 @@
     "hasChecklist": false
   },
   {
+    "id": "body-triangle-control",
+    "domain": "submission_systems",
+    "level": "advanced",
+    "name": "Kiểm soát Body Triangle",
+    "tags": [
+      "tier:modern-expansion",
+      "meta:modern-common",
+      "risk:medium",
+      "family:submission",
+      "modern-no-gi"
+    ],
+    "summary": "Body triangle khóa chân quanh eo đối thủ để kiểm soát hông và nén cơ hoành. Không giống móc chân, body triangle không thể bị bóc dễ dàng — nó là một cấu trúc khóa.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "calf-slicer-system",
+    "domain": "submission_systems",
+    "level": "advanced",
+    "name": "Hệ thống Calf Slicer / Khóa nén",
+    "tags": [
+      "tier:advanced-niche",
+      "meta:specialized",
+      "risk:high",
+      "family:compression",
+      "modern-no-gi"
+    ],
+    "summary": "Calf slicer nén cơ bắp chân giữa xương ống chân của bạn và xương chày/xương đùi của họ. Đây là đòn khóa cơ (không phải khóa khớp) — hoạt động dựa trên sự nén và đau cơ, không phải kéo căng dây chằng.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "inside-outside-heel-hook",
+    "domain": "submission_systems",
+    "level": "advanced",
+    "name": "Inside & Outside Heel Hook — Kết thúc",
+    "tags": [
+      "tier:safety-critical",
+      "meta:modern-common",
+      "risk:safety-critical",
+      "family:leg_lock",
+      "modern-no-gi"
+    ],
+    "summary": "Heel hook kết thúc bằng cách xoay bàn chân tương đối so với đầu gối — inside heel hook xoay ra ngoài, outside heel hook xoay vào trong. Sức mạnh đến từ xoay hông chứ không phải kéo tay.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "mounted-triangle",
+    "domain": "submission_systems",
+    "level": "advanced",
+    "name": "Mounted Triangle / Armbar từ Mount",
+    "tags": [
+      "tier:modern-expansion",
+      "meta:modern-common",
+      "risk:medium",
+      "family:submission",
+      "modern-no-gi"
+    ],
+    "summary": "Mounted triangle kết hợp tư thế đè trên cao để kẹp tay đối thủ giữa chân bạn và đầu họ. Chuyển lên S-mount là bước quan trọng — từ low mount, triangle không có sẵn.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "peruvian-necktie",
+    "domain": "submission_systems",
+    "level": "advanced",
+    "name": "Peruvian Necktie",
+    "tags": [
+      "tier:advanced-niche",
+      "meta:specialized",
+      "risk:safety-critical",
+      "family:front_headlock",
+      "modern-no-gi"
+    ],
+    "summary": "Peruvian necktie là đòn siết cổ từ front headlock nén cả hai động mạch cảnh đồng thời. Gập thân đối thủ về phía trước ngăn họ chống đỡ — trọng lượng cơ thể họ làm chặt đòn siết.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "toe-hold-system",
+    "domain": "submission_systems",
+    "level": "advanced",
+    "name": "Hệ thống Toe Hold / Estima Lock",
+    "tags": [
+      "tier:advanced-niche",
+      "meta:specialized",
+      "risk:high",
+      "family:leg_lock",
+      "modern-no-gi"
+    ],
+    "summary": "Toe hold tấn công dây chằng mắt cá chân ở tư thế gập mu bàn chân kết hợp với xoay. Biến thể Estima lock dùng grip figure-four để tăng lực xoắn và có hiệu lực ở các cấp độ đai nơi heel hook bị cấm.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
     "id": "anaconda-choke",
     "domain": "submission_systems",
     "level": "intermediate",
@@ -1393,6 +1668,25 @@
     "hasChecklist": false
   },
   {
+    "id": "calf-compression-locks",
+    "domain": "submission_systems",
+    "level": "intermediate",
+    "name": "Khóa Nén Bắp Chân (Calf & Compression Locks)",
+    "tags": [
+      "calf-slicer",
+      "compression",
+      "leg-lock",
+      "knee-safety",
+      "meta:modern-common",
+      "family:leg-lock",
+      "group:compression"
+    ],
+    "summary": "Khóa nén bắp chân (calf slicer) dùng xương ống chân của bạn ép vào bắp chân đối thủ với chân họ bị kẹt trong khớp gối của bạn. Lực nén tạo áp lực dữ dội lên bắp chân và gối — đối thủ phải tap, lộ lưng hoặc cho sweep. Không giống heel hook nhắm vào dây chằng xoay của gối, khóa nén tấn công gối ở một mặt phẳng khác và thường có sẵn khi heel hook bị phòng thủ. Chúng hoạt động từ saddle, 50/50, backside 50/50, half guard và truck. Chìa khóa là tiếp xúc xương-với-cơ với góc ống chân đúng và lực từ hông.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
     "id": "choi-bar",
     "domain": "submission_systems",
     "level": "advanced",
@@ -1520,6 +1814,26 @@
     "hasChecklist": true
   },
   {
+    "id": "heel-hook-finishing-system",
+    "domain": "submission_systems",
+    "level": "advanced",
+    "name": "Hệ Thống Finish Heel Hook",
+    "tags": [
+      "heel-hook",
+      "finish",
+      "leg-lock",
+      "knee-safety",
+      "tier:safety-critical",
+      "meta:modern-common",
+      "family:leg-lock",
+      "group:heel-hook"
+    ],
+    "summary": "Heel hook finish là submission chính xác nhất về mặt cơ học trong no-gi. Không giống hầu hết các đòn khóa khác nơi bạn có thể 'siết mạnh hơn,' heel hook đòi hỏi sự căn chỉnh hoàn hảo của kiểm soát knee line, vị trí grip và hướng xoay. Skill này bao gồm sự khác biệt giữa inside và outside heel hook finishing, ba loại grip chính (figure-four, honey-hole và seatbelt), cách điều chỉnh góc khi đối thủ giấu gót, và cách chain finish khi họ cố xoay ra. Triết lý finishing hiện đại nhấn mạnh xoay hông hơn là sức tay — tay giữ vị trí, hông tạo ra finish.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
     "id": "heel-hook-safety",
     "domain": "submission_systems",
     "level": "advanced",
@@ -1568,6 +1882,25 @@
     "hasVideos": true,
     "hasMicroDetails": false,
     "hasChecklist": true
+  },
+  {
+    "id": "mounted-triangle-armbar",
+    "domain": "submission_systems",
+    "level": "intermediate",
+    "name": "Tam Giác / Armbar Từ Mount",
+    "tags": [
+      "triangle",
+      "armbar",
+      "mount",
+      "dilemma",
+      "meta:modern-common",
+      "family:submission",
+      "group:mount-attacks"
+    ],
+    "summary": "Tam giác từ mount là một trong những đòn tấn công nguy hiểm nhất từ mount vì cánh tay đối thủ đã bị khóa bởi trọng lượng cơ thể bạn. Không giống như tam giác từ guard nơi bạn phải bẻ tư thế trước, mount cho bạn áp lực ngực kề ngực ngay từ đầu. Từ S-mount, bạn đưa một chân qua đầu họ trong khi bẫy cánh tay kia bằng chân đối diện. Điểm khác biệt chính: trọng lượng bạn ở trên, họ không thể stack bạn, và tình thế tiến thoái lưỡng nan tam giác-armbar nguy hiểm hơn nhiều. Hệ thống này được sử dụng rộng rãi bởi Tye Ruotolo, Giancarlo Bodoni và các võ sĩ BJJ hiện đại.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
   },
   {
     "id": "octopus-back-take",
@@ -1774,6 +2107,25 @@
     "hasChecklist": false
   },
   {
+    "id": "toe-hold-estima-lock",
+    "domain": "submission_systems",
+    "level": "intermediate",
+    "name": "Toe Hold / Estima Lock",
+    "tags": [
+      "toe-hold",
+      "estima-lock",
+      "foot-lock",
+      "leg-lock",
+      "meta:modern-common",
+      "family:leg-lock",
+      "group:foot-lock"
+    ],
+    "summary": "Toe hold và Estima lock là những đòn tấn công bàn chân mạnh nhắm vào mắt cá và gối. Toe hold truyền thống dùng grip figure-four để xoay bàn chân, tạo lực xoắn ngang lên mắt cá. Estima lock hiện đại (được phổ biến bởi Victor và Braulio Estima) hoạt động khác — nó kẹp bàn chân đối thủ vào cơ thể bạn và dùng lực đẩy hông để tạo áp lực gập bàn chân cực độ, hoạt động như một 'straight ankle lock ngược'. Estima lock đặc biệt hiệu quả trong no-gi vì không cần grip áo và có thể setup nhanh từ các leg entanglements. Cả hai đòn chain tốt với heel hook và ankle lock.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
     "id": "triangle-system",
     "domain": "submission_systems",
     "level": "advanced",
@@ -1842,6 +2194,23 @@
     "hasChecklist": false
   },
   {
+    "id": "lateral-drop-headlock-throw",
+    "domain": "wrestle_up_wrestling",
+    "level": "intermediate",
+    "name": "Lateral Drop / Đòn quật headlock",
+    "tags": [
+      "tier:modern-expansion",
+      "meta:emerging",
+      "risk:high",
+      "family:wrestling",
+      "modern-no-gi"
+    ],
+    "summary": "Lateral drop sử dụng hông làm điểm tựa để xoay đối thủ qua người từ tư thế headlock. Điểm khác biệt của BJJ là đứng vững trên chân để hạ cánh ở tư thế kiểm soát thay vì đổ theo đối thủ xuống thảm.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
     "id": "ankle-pick-low-single",
     "domain": "wrestle_up_wrestling",
     "level": "intermediate",
@@ -1874,6 +2243,25 @@
     "hasVideos": true,
     "hasMicroDetails": false,
     "hasChecklist": false
+  },
+  {
+    "id": "bjj-foot-sweeps",
+    "domain": "wrestle_up_wrestling",
+    "level": "intermediate",
+    "name": "Quét Chân (Kouchi, Sasae, De Ashi)",
+    "tags": [
+      "takedown",
+      "wrestling",
+      "foot-sweep",
+      "kouchigari",
+      "sasae",
+      "deashibarai",
+      "clinch-fighting"
+    ],
+    "summary": "Quét chân khai thác sự di chuyển trọng lượng khi đối thủ tập trung phòng thủ double leg.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": true
   },
   {
     "id": "body-lock-takedown",
@@ -1912,6 +2300,24 @@
     "hasVideos": true,
     "hasMicroDetails": false,
     "hasChecklist": false
+  },
+  {
+    "id": "double-leg-bjj",
+    "domain": "wrestle_up_wrestling",
+    "level": "intermediate",
+    "name": "Double Leg Takedown",
+    "tags": [
+      "takedown",
+      "wrestling",
+      "double-leg",
+      "blast-double",
+      "standing",
+      "clinch"
+    ],
+    "summary": "Double leg BJJ khác wrestling ở head position ngoài (bảo vệ cổ), finish ưu tiên chest-to-chest, và entry thường từ arm drag, collar tie hoặc foot sweep.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": true
   },
   {
     "id": "front-headlock-system",

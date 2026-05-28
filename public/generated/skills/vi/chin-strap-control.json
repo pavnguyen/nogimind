@@ -1,0 +1,114 @@
+{
+  "id": "chin-strap-control",
+  "domain": "pins_rides",
+  "level": "intermediate",
+  "status": "draft",
+  "name": "Hệ Thống Kiểm Soát Cằm (Chin Strap)",
+  "aliases": [
+    "chin strap",
+    "head control system",
+    "front headlock ride"
+  ],
+  "tags": [
+    "front-headlock",
+    "chin-strap",
+    "head-control",
+    "ride",
+    "turtle",
+    "back-exposure"
+  ],
+  "keywords": [
+    "chin strap",
+    "head control",
+    "front headlock",
+    "turtle break",
+    "back exposure"
+  ],
+  "relatedSkills": [
+    {
+      "id": "turtle-ride",
+      "type": "prerequisite"
+    },
+    {
+      "id": "front-headlock-defense",
+      "type": "prerequisite"
+    },
+    {
+      "id": "claw-ride",
+      "type": "chain"
+    },
+    {
+      "id": "spiral-ride",
+      "type": "chain"
+    },
+    {
+      "id": "cross-wrist-ride",
+      "type": "recommended"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [
+    "front-headlock-player",
+    "pressure-passer",
+    "scramble-controller"
+  ],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "turtle-ride",
+    "front-headlock-defense"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [
+    "Họ ngước lên: tay quá nông",
+    "Họ thoát: ngực không áp sát cột sống"
+  ],
+  "version": 1,
+  "updatedAt": "2026-05-28T00:00:00.000Z",
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": true,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "vi",
+  "description": "Chin strap là một trong những điểm kiểm soát mạnh nhất trong no-gi BJJ. Tay khóa dưới cằm đối thủ, nắm vai hoặc lưng xa, dùng đầu làm đòn bẩy điều khiển toàn bộ cơ thể. Được hệ thống hóa bởi John Danaher và Gordon Ryan.",
+  "shortInstruction": "Luồn tay sâu dưới cằm, lòng bàn tay lên, ép khuỷu vào sườn, nâng cằm để phá tư thế, bước chân vào để lộ back.",
+  "summary": "Chin strap cho kiểm soát đầu → cột sống → hông. Nâng cằm phá tư thế, lộ back và vô hiệu hóa frames. Đặc biệt hiệu quả với turtle.",
+  "whyItWorks": [
+    "Kiểm soát đầu = kiểm soát cột sống = kiểm soát hông",
+    "Nâng cằm phá tư thế và vô hiệu hóa frames",
+    "Loại bỏ khả năng ngước lên của đối thủ khi turtle"
+  ],
+  "commonMistakes": [
+    "Nắm quá nông — tay phải sâu dưới cằm",
+    "Khuỷu tay dang ra",
+    "Kéo ra sau thay vì nâng lên",
+    "Mất chest-to-back contact"
+  ],
+  "coachingCues": [
+    "Tay sâu dưới cằm, lòng bàn tay lên, ép khuỷu",
+    "Nâng cằm, không kéo ra sau",
+    "Ngực trên cột sống — không khoảng trống",
+    "Bước chân vào để lộ back"
+  ],
+  "safetySummary": [
+    "Chin strap là vị trí kiểm soát mạnh — tôn trọng cổ bạn tập",
+    "Áp lực từ từ khi break turtle"
+  ],
+  "moneyDetails": [
+    "Chin strap là công cụ lộ back hiệu quả nhất từ front headlock"
+  ],
+  "fixItFast": [
+    "Họ ngước lên: tay sâu hơn",
+    "Họ thoát: ngực vào cột sống"
+  ]
+}

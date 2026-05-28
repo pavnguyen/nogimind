@@ -1,0 +1,121 @@
+{
+  "id": "peruvian-necktie",
+  "domain": "submission_systems",
+  "level": "advanced",
+  "status": "draft",
+  "name": "Peruvian Necktie",
+  "aliases": [
+    "Peruvian",
+    "Peruvian choke",
+    "front headlock choke"
+  ],
+  "tags": [
+    "tier:advanced-niche",
+    "meta:specialized",
+    "risk:safety-critical",
+    "family:front_headlock",
+    "modern-no-gi"
+  ],
+  "keywords": [
+    "Peruvian necktie",
+    "front headlock choke",
+    "Peruvian choke",
+    "carotid choke"
+  ],
+  "modernSystemGroup": "front_headlock",
+  "relatedSkills": [
+    {
+      "id": "snapdown-front-headlock",
+      "type": "chain"
+    },
+    {
+      "id": "d-arce-system",
+      "type": "alternative"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [
+    "front-headlock-player"
+  ],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "front-headlock-system"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [
+    "If they turn into you: switch to guillotine or D'Arce",
+    "If they posture up: Peruvian is available — step and fold",
+    "If they go limp: Peruvian will not work — switch to turtle ride or back take"
+  ],
+  "version": 1,
+  "updatedAt": "2026-05-28T09:34:33.159Z",
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "en",
+  "description": "The Peruvian necktie is a front headlock choke that finishes by folding the opponent body forward while compressing both sides of their neck with your biceps and forearm. Unlike the guillotine, it is a blood choke that compresses the carotids.",
+  "shortInstruction": "From front headlock, slide arm under neck, grab your own biceps, wrap other arm over head, step to the side, and fold their body forward.",
+  "summary": "The Peruvian necktie compresses both carotid arteries simultaneously using your forearm and biceps. It is not a squeeze — the opponent own body weight creates the choke as you fold them forward. Available when the opponent turns away from the front headlock.",
+  "whyItWorks": [
+    "Your forearm and biceps compress both carotid arteries simultaneously — it is a blood choke, not a neck crank",
+    "Folding their body forward prevents them from posturing out — their own body weight tightens the choke",
+    "The grip creates a locked structure that cannot be peeled open",
+    "The Peruvian necktie complements the guillotine (which works when they turn in) — it works when they turn away"
+  ],
+  "commonMistakes": [
+    "Squeezing with the arms instead of using body weight — this fatigues the arms and does not choke effectively",
+    "Not stepping to the side before folding — you need the angle to create the forward fold",
+    "Holding the grip too low on their neck — the choke must compress the carotids on the sides of the neck",
+    "Trying the Peruvian against a turtled opponent who is still heavy on their hands"
+  ],
+  "coachingCues": [
+    "Fold, don't squeeze — their weight does the choke",
+    "Step to the side before folding",
+    "Forearm on one side, biceps on the other",
+    "Carotids, not the windpipe"
+  ],
+  "safetySummary": [
+    "The Peruvian necktie compresses the carotid arteries — apply slowly and release immediately on tap",
+    "Do not use the Peruvian necktie as a neck crank — it should target the carotids, not the cervical spine",
+    "Ensure the choking arm is positioned correctly to avoid compressing the trachea"
+  ],
+  "systemLogic": {
+    "corePrinciple": "Peruvian necktie: front headlock → opponent turns away (trigger) → slide arm under neck and grab your own biceps → wrap other arm over head → lock figure-four → step to the side → fold their body forward — their weight tightens the choke.",
+    "decisionTree": [
+      {
+        "condition": "They turn into you instead of away",
+        "action": "switch to guillotine or D'Arce"
+      },
+      {
+        "condition": "They posture up",
+        "action": "Peruvian is available — step and fold"
+      }
+    ],
+    "exitStrategies": [
+      "If the Peruvian does not finish, transition to front headlock and re-attack",
+      "If they escape, use the front headlock to snap them back down"
+    ]
+  },
+  "moneyDetails": [
+    "The Peruvian necktie is one of the highest-percentage chokes from the front headlock position",
+    "Mastering the Peruvian gives you a finisher for when the opponent turns away — completes the front headlock system",
+    "The Peruvian necktie is particularly effective against opponents who try to posture out of the front headlock"
+  ],
+  "fixItFast": [
+    "If they defend by grabbing your choking arm: pummel back to front headlock and re-attack",
+    "If they turn in: switch to guillotine immediately",
+    "If the choke is not tight: step deeper to the side before folding"
+  ]
+}

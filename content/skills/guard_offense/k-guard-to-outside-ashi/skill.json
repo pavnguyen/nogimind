@@ -1,0 +1,55 @@
+{
+  "id": "k-guard-to-outside-ashi",
+  "domain": "guard_offense",
+  "level": "advanced",
+  "name": "K-Guard to Outside Ashi",
+  "aliases": [
+    "K-guard entry",
+    "K-guard leg lock",
+    "K-guard to heel hook"
+  ],
+  "tags": [
+    "tier:modern-expansion",
+    "meta:modern-common",
+    "risk:high",
+    "family:leg_lock",
+    "modern-no-gi"
+  ],
+  "keywords": [
+    "K-guard",
+    "outside ashi",
+    "heel hook entry",
+    "leg entanglement",
+    "saddle"
+  ],
+  "modernSystemGroup": "k_guard",
+  "relatedSkills": [
+    {
+      "id": "inside-outside-heel-hook",
+      "type": "chain"
+    },
+    {
+      "id": "coyote-half-guard",
+      "type": "supporting"
+    }
+  ],
+  "prerequisiteSkillIds": [
+    "leg-lock-safety-basics"
+  ],
+  "relatedPositions": [],
+  "relatedConcepts": [],
+  "archetypeIds": [
+    "leg-lock-safety-first"
+  ],
+  "trainingMethodIds": [],
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "updatedAt": "2026-05-28T09:34:33.158Z"
+}

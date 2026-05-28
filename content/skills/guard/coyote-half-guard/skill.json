@@ -1,0 +1,43 @@
+{
+  "id": "coyote-half-guard",
+  "domain": "guard_offense",
+  "level": "intermediate",
+  "name": "Coyote Half Guard",
+  "aliases": ["coyote hook half guard", "waiter sweep system", "deep half hook"],
+  "tags": [
+    "half-guard",
+    "coyote-hook",
+    "waiter-sweep",
+    "sweep",
+    "guard-offense",
+    "underhook"
+  ],
+  "keywords": [
+    "coyote half guard",
+    "waiter sweep",
+    "deep half hook",
+    "half guard sweep",
+    "coyote hook"
+  ],
+  "relatedSkills": [
+    { "id": "deep-half-guard", "type": "chain" },
+    { "id": "half-butterfly-to-leg-entanglements", "type": "chain" },
+    { "id": "single-leg-x-guard", "type": "chain" },
+    { "id": "leg-drag-pass", "type": "alternative" }
+  ],
+  "prerequisiteSkillIds": ["half-guard-knee-shield", "deep-half-guard"],
+  "relatedPositions": [],
+  "relatedConcepts": [],
+  "archetypeIds": ["half-guard-wrestler", "guard-retention-specialist", "wrestle-up-player"],
+  "trainingMethodIds": [],
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": true,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "updatedAt": "2026-05-28T00:00:00.000Z"
+}

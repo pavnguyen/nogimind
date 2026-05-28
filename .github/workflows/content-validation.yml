@@ -29,3 +29,7 @@ jobs:
 
       - name: Validate content against Zod schemas
         run: npm run validate:content
+
+      - name: Validate YouTube video references
+        run: npm run validate:videos
+        timeout-minutes: 10

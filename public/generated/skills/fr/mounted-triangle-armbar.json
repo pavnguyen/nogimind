@@ -1,0 +1,132 @@
+{
+  "id": "mounted-triangle-armbar",
+  "domain": "submission_systems",
+  "level": "intermediate",
+  "status": "draft",
+  "name": "Triangle / Armbar Depuis Mount",
+  "aliases": [],
+  "tags": [
+    "triangle",
+    "armbar",
+    "mount",
+    "dilemma",
+    "meta:modern-common",
+    "family:submission",
+    "group:mount-attacks"
+  ],
+  "keywords": [
+    "mounted triangle",
+    "mounted armbar",
+    "mount submissions",
+    "S-mount triangle",
+    "triangle armbar dilemma"
+  ],
+  "relatedSkills": [
+    {
+      "id": "s-mount-armbar",
+      "type": "recommended"
+    },
+    {
+      "id": "triangle-system",
+      "type": "recommended"
+    },
+    {
+      "id": "armbar-system",
+      "type": "recommended"
+    },
+    {
+      "id": "arm-triangle-mount",
+      "type": "recommended"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "mount-control",
+    "triangle-system",
+    "armbar-system"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [
+    "Le triangle ne se verrouille pas ? Votre S-mount est trop bas — montez plus haut sur leur poitrine.",
+    "Ils se redressent et s'échappent du triangle ? Vous n'avez pas bien piégé le bras — épinglez-le avec votre jambe avant de passer par-dessus.",
+    "Ils roulent pour s'échapper ? Suivez-les — prenez le dos au lieu de lutter pour garder le mount."
+  ],
+  "version": 1,
+  "updatedAt": "2026-05-28T00:00:00.000Z",
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "fr",
+  "description": "Depuis le mount ou S-mount, piégez leur bras et isolez leur tête pour configurer un triangle — quand ils défendent, enchaînez vers le armbar ou l'arm triangle. Le triangle depuis mount a un taux de finition plus élevé que le triangle depuis la guard en no-gi moderne.",
+  "shortInstruction": "Depuis S-mount, piégez un bras entre votre jambe et leur tête, amenez l'autre jambe par-dessus leur tête, verrouillez les talons et serrez — s'ils défendent, nagez le bras et attaquez le armbar.",
+  "summary": "Le triangle depuis mount est l'une des attaques les plus dangereuses du mount car le bras de l'adversaire est déjà piégé par votre poids. Contrairement au triangle depuis la guard où vous devez d'abord briser la posture, le mount vous donne une pression poitrine contre poitrine avant même de commencer. Depuis S-mount, vous passez une jambe au-dessus de leur tête tout en piégeant leur bras avec votre jambe opposée. La différence clé : votre poids est dessus, ils ne peuvent pas vous empiler, et le dilemme triangle-armbar est bien plus menaçant. Ce système est largement utilisé par Tye Ruotolo, Giancarlo Bodoni et les compétiteurs BJJ modernes.",
+  "whyItWorks": [
+    "Depuis le mount, leur bras est déjà comprimé par votre poids — pas besoin de briser la posture comme depuis la guard.",
+    "Le triangle depuis mount est plus serré que depuis la guard car la gravité ferme l'espace — votre poids presse leur épaule contre leur cou.",
+    "Le dilemme est plus fort que depuis la guard : s'ils défendent le triangle en se redressant, vous attaquez immédiatement le armbar ou prenez le dos.",
+    "Votre poids sur leur poitrine les empêche de rouler ou de faire le pont efficacement."
+  ],
+  "commonMistakes": [
+    "Essayer le triangle depuis un mount bas au lieu de monter en S-mount d'abord — l'angle est mauvais sans S-mount.",
+    "Passer la jambe trop loin par-dessus leur tête — vous perdez l'équilibre et ils s'échappent. Gardez la jambe serrée, le pied derrière leur tête.",
+    "Ne pas piéger le bras correctement — leur bras doit être coincé entre votre jambe et leur propre épaule/tête.",
+    "Serrez avec les jambes avant de verrouiller le triangle — verrouillez les talons d'abord, puis serrez."
+  ],
+  "coachingCues": [
+    "S-mount d'abord, puis attaquez le triangle.",
+    "Verrouillez les talons, puis serrez — pas l'inverse.",
+    "S'ils se redressent, nagez le bras et soulevez les hanches pour le armbar.",
+    "Votre poids est l'étranglement — la gravité fait le travail."
+  ],
+  "safetySummary": [
+    "Le triangle depuis mount comprime le cou comme un triangle depuis la guard — relâchez immédiatement au tap.",
+    "Soyez prudent lors de la transition vers un armbar depuis mount — une chute incontrôlée peut blesser les deux partenaires.",
+    "Appliquez la pression progressivement, jamais de façon explosive.",
+    "Le armbar depuis triangle mount met une torsion sur le coude et l'épaule — respectez le tap."
+  ],
+  "systemLogic": {
+    "corePrinciple": "Mount: montez en S-mount → piégez leur bras avec votre jambe du même côté → passez l'autre jambe par-dessus leur tête → verrouillez le triangle (pied derrière leur tête, tibia sur votre cheville) → rapprochez vos talons → serrez.",
+    "decisionTree": [
+      {
+        "condition": "Ils défendent le triangle en se redressant",
+        "action": "nagez votre bras sous leur bras qui défend, soulevez les hanches et attaquez le armbar."
+      },
+      {
+        "condition": "Ils roulent sur le côté pour s'échapper",
+        "action": "relâchez le triangle et prenez le dos immédiatement."
+      },
+      {
+        "condition": "Ils poussent vers l'avant",
+        "action": "ils ne peuvent pas pousser depuis mount comme depuis la guard — serrez plus fort, l'étranglement est là."
+      }
+    ],
+    "exitStrategies": []
+  },
+  "moneyDetails": [
+    "La clé du triangle depuis mount est de monter en S-mount d'abord — un mount haut sur leur poitrine (hanches au niveau du sternum) vous donne le bon angle.",
+    "Passez votre jambe par-dessus leur tête tout en gardant votre poids lourd — leur bras doit être coincé entre votre jambe et leur épaule.",
+    "Verrouillez le triangle en plaçant le pied de votre jambe supérieure derrière leur tête (pas à travers votre tibia comme dans la guard).",
+    "Rapprochez vos talons d'abord, puis serrez les genoux — cela serre l'étranglement sans gaspiller d'énergie.",
+    "La transition armbar : quand ils se redressent pour défendre, nagez votre bras sous leur triceps, soulevez les hanches et tombez en arrière avec contrôle — votre jambe sur leur tête ouvre le armbar."
+  ],
+  "nextStep": "Après le système de triangle depuis mount, apprenez l'arm triangle depuis mount et le armbar depuis le technical mount.",
+  "fixItFast": [
+    "Le triangle ne se verrouille pas ? Montez plus haut sur leur poitrine — S-mount est la clé.",
+    "Ils continuent de se redresser ? Attaquez le armbar ou passez à l'arm triangle.",
+    "Ils roulent ? Prenez le dos — ne combattez pas le roulis."
+  ]
+}

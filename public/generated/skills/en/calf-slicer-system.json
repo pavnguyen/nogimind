@@ -1,0 +1,122 @@
+{
+  "id": "calf-slicer-system",
+  "domain": "submission_systems",
+  "level": "advanced",
+  "status": "draft",
+  "name": "Calf Slicer / Compression Locks",
+  "aliases": [
+    "calf slicer",
+    "calf crusher",
+    "compression lock",
+    "shin compression"
+  ],
+  "tags": [
+    "tier:advanced-niche",
+    "meta:specialized",
+    "risk:high",
+    "family:compression",
+    "modern-no-gi"
+  ],
+  "keywords": [
+    "calf slicer",
+    "compression lock",
+    "shin compression",
+    "muscle lock"
+  ],
+  "modernSystemGroup": "leg_lock",
+  "relatedSkills": [
+    {
+      "id": "inside-outside-heel-hook",
+      "type": "alternative"
+    },
+    {
+      "id": "toe-hold-system",
+      "type": "alternative"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [
+    "submission-chain-hunter"
+  ],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "leg-lock-safety-basics"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [
+    "From saddle: control top leg, bring shin across calf, squeeze heels",
+    "From 50/50: step over, trap foot under armpit, drive shin into calf",
+    "If they straighten their leg: release — calf slicer requires a bent knee"
+  ],
+  "version": 1,
+  "updatedAt": "2026-05-28T09:34:33.159Z",
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "en",
+  "description": "Calf slicers compress the calf muscle between your shin and their own shin/hamstring, creating intense pain and muscle-locking pressure. Unlike joint locks that attack ligaments, calf slicers attack muscle tissue — the compression creates ischemia and pressure pain.",
+  "shortInstruction": "From saddle or 50/50, place your shin across the belly of their calf, trap their foot, squeeze your heels together while pulling the foot toward your chest.",
+  "summary": "Calf slicers compress the calf muscle against the tibia, creating a muscle lock that does not rely on hyperextension. They are available from leg entanglements where heel hooks are defended or illegal, and should be applied progressively for safety.",
+  "whyItWorks": [
+    "The shin-to-calf compression creates a muscle lock — the calf muscle is compressed against the tibia and fibula",
+    "Unlike joint locks, the calf slicer does not rely on hyperextension — it works on pain and muscle fatigue",
+    "Calf slicers are available from leg entanglements where heel hooks are defended or illegal",
+    "The compression creates a secondary pump that locks the ankle — the foot cannot escape"
+  ],
+  "commonMistakes": [
+    "Placing the shin on the ankle instead of the calf belly — ankle compression is weaker and easier to escape",
+    "Not trapping their foot — if the foot is free, they can slide out of the compression",
+    "Applying the slicer without isolation — they can spin out if their hip is free",
+    "Using explosive pressure — calf slicers should be applied progressively for safety"
+  ],
+  "coachingCues": [
+    "Shin on the calf belly, not the ankle",
+    "Trap the foot, lock the compression",
+    "Squeeze heels together — the closer the heels, the tighter the slice",
+    "Apply slow — calf slicers don't need explosion"
+  ],
+  "safetySummary": [
+    "Calf slicers attack muscle tissue — apply slowly and release when the opponent taps",
+    "Do not apply explosive pressure — the compression can cause muscle tearing",
+    "Be aware that calf slicers can cause cramps and muscle spasms even after release"
+  ],
+  "systemLogic": {
+    "corePrinciple": "Calf slicers: enter from leg entanglement (saddle or 50/50) → trap their foot against your body → place your shin across the belly of their calf → squeeze your heels together → compress the calf muscle against the tibia.",
+    "decisionTree": [
+      {
+        "condition": "They straighten their leg",
+        "action": "release and re-enter the leg entanglement — calf slicer requires a bent knee"
+      },
+      {
+        "condition": "They spin out",
+        "action": "you lost hip control — re-establish guard or leg entanglement"
+      }
+    ],
+    "exitStrategies": [
+      "If the calf slicer fails, transition to a heel hook or ankle lock",
+      "If you lose the leg entanglement, recover guard immediately"
+    ]
+  },
+  "moneyDetails": [
+    "Calf slicers are legal at all belt levels in IBJJF and most no-gi rulesets",
+    "The calf slicer is especially effective against larger opponents because it does not require strength",
+    "Having a reliable calf slicer gives you a submission option from leg entanglements without heel hook risks"
+  ],
+  "fixItFast": [
+    "If they straighten their leg: release immediately and re-enter the leg entanglement",
+    "If they spin out: re-establish guard and try a different entry",
+    "If the compression is not tight enough: bring your heels closer together"
+  ]
+}

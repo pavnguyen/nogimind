@@ -630,6 +630,12 @@ export const vi = {
     contentCoverage: 'Độ phủ',
     lastUpdate: 'Cập nhật',
     alsoToday: 'Cũng hôm nay',
+    newUpdates: {
+      heading: 'Cập nhật mới',
+      item1: '11 kỹ năng mới: submissions, passing, wrestling, pins & guard',
+      item2: 'Hệ submission mới: heel hook finishing, calf compression, toe hold / Estima lock, mounted triangle / armbar',
+      item3: 'Kỹ năng nền tảng mới: toreando passing, tripod folding pass, over-under pass, double leg takedown, foot sweeps',
+    },
     hubExplorer: 'Khám phá Hub',
     rotation: {
       microDetail: 'Micro-detail trong ngày',
@@ -806,6 +812,11 @@ export const vi = {
       safety_reference: 'Tham khảo an toàn',
     },
     offline: 'Video không khả dụng khi offline — hãy kết nối internet để xem.',
+    unavailable: 'Video này không còn khả dụng.',
+    unavailableHint: 'Video có thể đã bị xóa hoặc chuyển chế độ riêng tư bởi người đăng.',
+    retry: 'Thử lại',
+    reportBroken: 'Báo video hỏng',
+    reportSuccess: 'Cảm ơn! Chúng tôi sẽ xem xét video này.',
     level: {
       beginner: 'Cơ bản',
       intermediate: 'Trung cấp',

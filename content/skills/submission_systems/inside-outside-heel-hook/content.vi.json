@@ -1,0 +1,68 @@
+{
+  "id": "inside-outside-heel-hook",
+  "locale": "vi",
+  "name": "Inside & Outside Heel Hook — Kết thúc",
+  "description": "Heel hook kết thúc bằng cách xoay bàn chân tương đối so với đầu gối, tạo ra bằng cách xoay hông và vai của bạn. Inside heel hook xoay chân ra ngoài, outside heel hook xoay chân vào trong.",
+  "whyItWorks": [
+    "Heel hook tấn công đầu gối ở mặt phẳng xoay yếu nhất — đầu gối KHÔNG xoay ngang",
+    "Xoay hông tạo ra lực xoắn (không phải kéo tay) — hông bạn khỏe hơn tay",
+    "Boot grip (ống chân kẹp gót) cho bạn lợi thế cơ học lên bàn chân họ — bạn điều khiển sự xoay",
+    "Bóp bắp chân tạo ra sự kết thúc mà không cần lực bùng nổ — đó là nén + xoay, không phải giật"
+  ],
+  "commonMistakes": [
+    "Bóp heel hook trước khi thiết lập kiểm soát knee line — bạn sẽ không kết thúc được và có thể mất entanglement",
+    "Kéo bằng tay thay vì xoay hông — làm mỏi tay và thiếu sức mạnh",
+    "Không \"vắt bắp chân\" — nén bắp chân đúng cách tạo ra sự kết thúc, không chỉ xoay chân",
+    "Để họ giấu gót chân vào nách bạn — điều này vô hiệu hóa sự xoay"
+  ],
+  "coachingCues": [
+    "Knee line trước, sau đó boot grip, rồi xoay",
+    "Xoay hông, đừng kéo chân",
+    "Vắt bắp chân — bóp là kết thúc",
+    "Nếu gót chân biến mất, bạn mất góc"
+  ],
+  "shortInstruction": "Thiết lập leg entanglement, clear knee line, giữ boot grip, xoay hông theo hướng kết thúc, bóp bắp chân bằng ống chân, kết thúc bằng xoay chứ không phải bóp.",
+  "summary": "Heel hook kết thúc bằng cách xoay bàn chân tương đối so với đầu gối — inside heel hook xoay ra ngoài, outside heel hook xoay vào trong. Sức mạnh đến từ xoay hông chứ không phải kéo tay.",
+  "safetySummary": [
+    "Heel hook là đòn khóa nguy hiểm — luôn kiểm soát khi tập và tap sớm",
+    "Không bao giờ xoay mạnh khi tập — áp dụng áp lực từ từ",
+    "Chỉ tập heel hook với bạn tập có kinh nghiệm và đã thảo luận về an toàn",
+    "Chỉ tập heel hook với bạn tập đáng tin cậy và hiểu rõ về rủi ro của đòn này"
+  ],
+  "keyCorrections": [
+    "Nếu họ giấu gót: kéo đầu gối họ vào nách để lộ gót lại",
+    "Nếu họ xoay theo hướng khóa: thay đổi hướng xoay (inside vs outside)",
+    "Nếu họ chống tay để bóc chân: giữ chặt boot grip và điều chỉnh góc"
+  ],
+  "moneyDetails": [
+    "Heel hook là đòn kết thúc chính trong no-gi ADCC — tỷ lệ tap cao nhất trong số các đòn khóa chân",
+    "Thành thạo cả inside và outside heel hook là cần thiết để trở thành một leg locker toàn diện",
+    "Khả năng chuyển đổi giữa inside và outside heel hook là kỹ năng nâng cao của các võ sĩ đẳng cấp thế giới"
+  ],
+  "fixItFast": [
+    "Nếu gót biến mất: kéo đầu gối họ vào ngực và tìm lại gót",
+    "Nếu họ xoay cùng chiều: thả và chuyển sang straight ankle lock",
+    "Nếu bạn mất boot grip: bảo vệ chân bạn và phục hồi guard"
+  ],
+  "systemLogic": {
+    "corePrinciple": "Heel hook: thiết lập leg entanglement → clear knee line → giữ boot grip (ống chân kẹp gót) → xoay hông theo hướng kết thúc → vắt bắp chân bằng ống chân → kết thúc bằng xoay, không bóp.",
+    "decisionTree": [
+      {
+        "condition": "Họ giấu gót vào nách",
+        "action": "kéo đầu gối họ vào nách để lộ gót"
+      },
+      {
+        "condition": "Họ xoay cùng chiều khóa",
+        "action": "đảo ngược hướng xoay hoặc chuyển sang đòn khác"
+      },
+      {
+        "condition": "Họ chống tay bóc chân",
+        "action": "giữ boot grip chặt và điều chỉnh góc"
+      }
+    ],
+    "exitStrategies": [
+      "Nếu mất heel exposure, phục hồi guard và reset",
+      "Nếu họ thoát entanglement, không đuổi theo — bảo vệ chân bạn và phục hồi"
+    ]
+  }
+}

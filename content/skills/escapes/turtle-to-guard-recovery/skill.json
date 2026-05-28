@@ -1,0 +1,47 @@
+{
+  "id": "turtle-to-guard-recovery",
+  "domain": "escapes",
+  "level": "intermediate",
+  "name": "Turtle to Guard Recovery",
+  "aliases": [
+    "guard recovery from turtle",
+    "turtle guard recovery"
+  ],
+  "tags": [
+    "tier:modern-expansion",
+    "meta:modern-common",
+    "risk:low",
+    "family:escape",
+    "modern-no-gi"
+  ],
+  "keywords": [
+    "turtle escape",
+    "guard recovery",
+    "hip switch",
+    "turtle guard"
+  ],
+  "modernSystemGroup": "safety",
+  "relatedSkills": [
+    {
+      "id": "turtle-escape-standup",
+      "type": "alternative"
+    }
+  ],
+  "prerequisiteSkillIds": [],
+  "relatedPositions": [],
+  "relatedConcepts": [],
+  "archetypeIds": [
+    "guard-retention-specialist"
+  ],
+  "trainingMethodIds": [],
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "updatedAt": "2026-05-28T09:34:33.161Z"
+}

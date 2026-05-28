@@ -1,0 +1,50 @@
+{
+  "id": "body-triangle-control",
+  "domain": "submission_systems",
+  "level": "advanced",
+  "name": "Body Triangle Control",
+  "aliases": [
+    "body triangle",
+    "body triangle submission",
+    "waist lock"
+  ],
+  "tags": [
+    "tier:modern-expansion",
+    "meta:modern-common",
+    "risk:medium",
+    "family:submission",
+    "modern-no-gi"
+  ],
+  "keywords": [
+    "body triangle",
+    "back control",
+    "waist lock",
+    "body compression"
+  ],
+  "modernSystemGroup": "back_triangle",
+  "relatedSkills": [
+    {
+      "id": "rear-naked-choke-system",
+      "type": "chain"
+    }
+  ],
+  "prerequisiteSkillIds": [
+    "back-control"
+  ],
+  "relatedPositions": [],
+  "relatedConcepts": [],
+  "archetypeIds": [
+    "back-control-finisher"
+  ],
+  "trainingMethodIds": [],
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "updatedAt": "2026-05-28T09:34:33.160Z"
+}

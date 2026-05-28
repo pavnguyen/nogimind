@@ -125,7 +125,7 @@ export default function PositionDetailPage() {
       <ListCard title={t('positions.dangerSignals')} items={getLocalizedArray(position.dangerSignals, language)} tone="danger" />
 
       <SectionCard title={t('video.videoReferences')}>
-        <PositionVideoReferencePanel />
+        <PositionVideoReferencePanel skillIds={position.relatedSkillIds} />
       </SectionCard>
 
       <div className="grid gap-6 xl:grid-cols-2">

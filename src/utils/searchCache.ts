@@ -1,35 +1,65 @@
 /**
  * IndexedDB cache for search data bundle.
  *
- * On first visit, the search data bundle (all skills, concepts, positions, etc.)
- * is imported from TypeScript modules and sent to the Web Worker.
- * This module caches that bundle in IndexedDB so subsequent page loads
- * can skip the module-import step entirely — the data is read directly
- * from IndexedDB, which is significantly faster.
+ * The search pipeline separates two kinds of data:
+ *
+ * 1. **Manifests** (skills list) — always fetched fresh on every page load
+ *    because they reflect content changes (new skills added via build:content).
+ *    They are small (~15KB per locale) and fast to fetch.
+ *
+ * 2. **Static data** (concepts, positions, glossary, etc.) — cached in IndexedDB
+ *    because they rarely change (they are part of the source code) and are
+ *    expensive to import dynamically.
+ *
+ * This separation ensures new skills added via `npm run build:content`
+ * are immediately available in search without manual cache invalidation.
  *
  * Cache invalidation:
- * - bump CACHE_VERSION when the shape of SearchDataBundle changes
- *   (e.g. new fields added, new entity types, …)
- * - bump INDEX_VERSION when MiniSearch options / document-building logic changes
+ * - bump STATIC_CACHE_VERSION when the type shape of static data changes
+ *   (e.g. new entity types, new fields on existing types, …)
  */
 
 import type { SearchDataBundle } from './searchEngine'
+import type { ConceptNode } from '../types/concept'
+import type { PositionNode } from '../types/position'
+import type { GlossaryTerm } from '../types/glossary'
+import type { DefensiveLayer } from '../types/defense'
+import type { GrapplingArchetype } from '../types/archetype'
+import type { MasteryStage } from '../data/masteryStages'
+import type { TechniqueStateMachine } from '../types/stateMachine'
 
 // ── Cache keys & versioning ──────────────────────────────────────────
 
 const DB_NAME = 'nogimind-search-cache'
-const DB_VERSION = 1
+const DB_VERSION = 2  // bumped to add static-data store
 
-/** Bump when SearchDataBundle shape changes */
-const CACHE_VERSION = 3
+/** Bump when static data shape changes (new fields, new entity types) */
+const STATIC_CACHE_VERSION = 1
 
-/** Bump when MiniSearch options, document building, or underlying data changes */
-const INDEX_VERSION = 5
-
-const STORE_DATA = 'data-bundle'
+const STORE_STATIC = 'static-data'
 const STORE_META = 'meta'
 const logPerf = (...args: Parameters<typeof console.log>) => {
   if (import.meta.env.DEV) console.log(...args)
+}
+
+// ── Types ────────────────────────────────────────────────────────────
+
+export type StaticSearchData = {
+  concepts: ConceptNode[]
+  positions: PositionNode[]
+  glossaryTerms: GlossaryTerm[]
+  defensiveLayers: DefensiveLayer[]
+  archetypes: GrapplingArchetype[]
+  masteryStages: MasteryStage[]
+  techniqueStateMachineBySkillId: Map<string, TechniqueStateMachine>
+  techniqueStateMachines: TechniqueStateMachine[]
+}
+
+type StaticCacheMeta = {
+  key: string
+  staticVersion: number
+  createdAt: number
+  sizeBytes: number
 }
 
 // ── Helpers ──────────────────────────────────────────────────────────
@@ -40,8 +70,12 @@ const openDB = (): Promise<IDBDatabase> =>
 
     req.onupgradeneeded = () => {
       const db = req.result
-      if (!db.objectStoreNames.contains(STORE_DATA)) {
-        db.createObjectStore(STORE_DATA, { keyPath: 'id' })
+      // Clean up old store from previous cache format (full-bundle caching)
+      if (db.objectStoreNames.contains('data-bundle')) {
+        db.deleteObjectStore('data-bundle')
+      }
+      if (!db.objectStoreNames.contains(STORE_STATIC)) {
+        db.createObjectStore(STORE_STATIC, { keyPath: 'id' })
       }
       if (!db.objectStoreNames.contains(STORE_META)) {
         db.createObjectStore(STORE_META, { keyPath: 'key' })
@@ -54,28 +88,24 @@ const openDB = (): Promise<IDBDatabase> =>
 
 // ── Meta helpers ─────────────────────────────────────────────────────
 
-type CacheMeta = {
-  key: string
-  cacheVersion: number
-  indexVersion: number
-  createdAt: number
-  sizeBytes: number
+const getStaticMeta = async (): Promise<StaticCacheMeta | null> => {
+  try {
+    const db = await openDB()
+    return new Promise((resolve, reject) => {
+      const tx = db.transaction(STORE_META, 'readonly')
+      const store = tx.objectStore(STORE_META)
+      const req = store.get('static-cache-meta')
+      req.onsuccess = () => {
+        resolve((req.result as StaticCacheMeta) ?? null)
+      }
+      req.onerror = () => reject(req.error)
+    })
+  } catch {
+    return null
+  }
 }
 
-const getMeta = async (): Promise<CacheMeta | null> => {
-  const db = await openDB()
-  return new Promise((resolve, reject) => {
-    const tx = db.transaction(STORE_META, 'readonly')
-    const store = tx.objectStore(STORE_META)
-    const req = store.get('search-cache-meta')
-    req.onsuccess = () => {
-      resolve((req.result as CacheMeta) ?? null)
-    }
-    req.onerror = () => reject(req.error)
-  })
-}
-
-const setMeta = async (meta: CacheMeta): Promise<void> => {
+const setStaticMeta = async (meta: StaticCacheMeta): Promise<void> => {
   const db = await openDB()
   return new Promise((resolve, reject) => {
     const tx = db.transaction(STORE_META, 'readwrite')
@@ -89,92 +119,86 @@ const setMeta = async (meta: CacheMeta): Promise<void> => {
 // ── Public API ───────────────────────────────────────────────────────
 
 /**
- * Check if a valid (non-stale) cache exists.
+ * Check if a valid (non-stale) static data cache exists.
  */
-export const hasValidSearchCache = async (): Promise<boolean> => {
+export const hasValidStaticCache = async (): Promise<boolean> => {
   try {
-    const meta = await getMeta()
+    const meta = await getStaticMeta()
     if (!meta) return false
-    return meta.cacheVersion === CACHE_VERSION && meta.indexVersion === INDEX_VERSION
+    return meta.staticVersion === STATIC_CACHE_VERSION
   } catch {
     return false
   }
 }
 
 /**
- * Read the cached search data bundle from IndexedDB.
+ * Read the cached static data from IndexedDB.
  * Returns null if no valid cache exists.
  */
-export const getCachedSearchData = async (): Promise<SearchDataBundle | null> => {
+export const getCachedStaticData = async (): Promise<StaticSearchData | null> => {
   try {
-    const meta = await getMeta()
-    if (!meta || meta.cacheVersion !== CACHE_VERSION || meta.indexVersion !== INDEX_VERSION) {
-      return null
-    }
+    const meta = await getStaticMeta()
+    if (!meta || meta.staticVersion !== STATIC_CACHE_VERSION) return null
 
     const db = await openDB()
-    const bundle = await new Promise<SearchDataBundle | null>((resolve, reject) => {
-      const tx = db.transaction(STORE_DATA, 'readonly')
-      const store = tx.objectStore(STORE_DATA)
-      const req = store.get('main')
+    return new Promise<StaticSearchData | null>((resolve, reject) => {
+      const tx = db.transaction(STORE_STATIC, 'readonly')
+      const store = tx.objectStore(STORE_STATIC)
+      const req = store.get('static-data')
 
       req.onsuccess = () => {
-        const result = req.result as { id: string; bundle: SearchDataBundle } | undefined
-        resolve(result?.bundle ?? null)
+        const result = req.result as { id: string; data: StaticSearchData } | undefined
+        resolve(result?.data ?? null)
       }
       req.onerror = () => reject(req.error)
     })
-
-    return bundle
   } catch {
     return null
   }
 }
 
 /**
- * Save the search data bundle to IndexedDB for future visits.
+ * Save the static data to IndexedDB for future visits.
  */
-export const setCachedSearchData = async (bundle: SearchDataBundle): Promise<void> => {
+export const setCachedStaticData = async (data: StaticSearchData): Promise<void> => {
   try {
     const db = await openDB()
 
     // Estimate size for metadata
-    // Estimate size for metadata (compute once)
     const estimateSize = () => {
       try {
-        return new Blob([JSON.stringify(bundle)]).size
+        return new Blob([JSON.stringify(data)]).size
       } catch {
         return 0
       }
     }
     const sizeBytes = estimateSize()
 
-    // Store bundle
+    // Store data
     await new Promise<void>((resolve, reject) => {
-      const tx = db.transaction(STORE_DATA, 'readwrite')
-      const store = tx.objectStore(STORE_DATA)
-      store.put({ id: 'main', bundle })
+      const tx = db.transaction(STORE_STATIC, 'readwrite')
+      const store = tx.objectStore(STORE_STATIC)
+      store.put({ id: 'static-data', data })
       tx.oncomplete = () => resolve()
       tx.onerror = () => reject(tx.error)
     })
 
     // Store metadata
-    await setMeta({
-      key: 'search-cache-meta',
-      cacheVersion: CACHE_VERSION,
-      indexVersion: INDEX_VERSION,
+    await setStaticMeta({
+      key: 'static-cache-meta',
+      staticVersion: STATIC_CACHE_VERSION,
       createdAt: Date.now(),
       sizeBytes,
     })
 
-    logPerf(`[perf] searchCache:saved ${sizeBytes > 1024 ? `${(sizeBytes / 1024).toFixed(1)} KB` : `${sizeBytes} B`}`)
+    logPerf(`[perf] searchCache:static saved ${sizeBytes > 1024 ? `${(sizeBytes / 1024).toFixed(1)} KB` : `${sizeBytes} B`}`)
   } catch (err) {
-    console.warn('[perf] searchCache:failed to save', err)
+    console.warn('[perf] searchCache:failed to save static data', err)
   }
 }
 
 /**
- * Clear the entire search cache (useful for forced re-initialization).
+ * Clear the entire search cache (both static data and old format).
  */
 export const clearSearchCache = async (): Promise<void> => {
   try {
@@ -182,8 +206,8 @@ export const clearSearchCache = async (): Promise<void> => {
 
     await Promise.all([
       new Promise<void>((resolve, reject) => {
-        const tx = db.transaction(STORE_DATA, 'readwrite')
-        tx.objectStore(STORE_DATA).clear()
+        const tx = db.transaction(STORE_STATIC, 'readwrite')
+        tx.objectStore(STORE_STATIC).clear()
         tx.oncomplete = () => resolve()
         tx.onerror = () => reject(tx.error)
       }),
@@ -199,4 +223,21 @@ export const clearSearchCache = async (): Promise<void> => {
   } catch (err) {
     console.warn('[perf] searchCache:failed to clear', err)
   }
+}
+
+// ── Deprecated: remove after migration ───────────────────────────────
+
+/** @deprecated Replaced by getCachedStaticData() — search now always fetches fresh manifests */
+export const getCachedSearchData = async (): Promise<SearchDataBundle | null> => {
+  return null
+}
+
+/** @deprecated Replaced by setCachedStaticData() */
+export const setCachedSearchData = async (): Promise<void> => {
+  // No-op — manifests are always fetched fresh
+}
+
+/** @deprecated Replaced by hasValidStaticCache() */
+export const hasValidSearchCache = async (): Promise<boolean> => {
+  return hasValidStaticCache()
 }

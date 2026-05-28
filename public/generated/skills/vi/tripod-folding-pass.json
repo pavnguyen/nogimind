@@ -1,0 +1,111 @@
+{
+  "id": "tripod-folding-pass",
+  "domain": "passing",
+  "level": "intermediate",
+  "status": "draft",
+  "name": "Tripod / Folding Pass",
+  "aliases": [
+    "folding pass",
+    "headquarters pass",
+    "smash fold"
+  ],
+  "tags": [
+    "passing",
+    "tripod",
+    "folding-pass",
+    "smash-pass",
+    "headquarters",
+    "pressure"
+  ],
+  "keywords": [
+    "tripod pass",
+    "folding pass",
+    "headquarters",
+    "hip fold",
+    "shoulder pressure"
+  ],
+  "relatedSkills": [
+    {
+      "id": "headquarters-passing",
+      "type": "prerequisite"
+    },
+    {
+      "id": "knee-cut-passing",
+      "type": "chain"
+    },
+    {
+      "id": "over-under-pass",
+      "type": "alternative"
+    },
+    {
+      "id": "side-control-pin",
+      "type": "recommended"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [
+    "pressure-passer",
+    "half-guard-wrestler"
+  ],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "headquarters-passing",
+    "supine-guard-retention"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [
+    "Nếu họ re-guard: head pressure quá nhẹ — đẩy vai vào hông",
+    "Nếu họ sweep: base quá hẹp — mở rộng tripod stance"
+  ],
+  "version": 1,
+  "updatedAt": "2026-05-28T00:00:00.000Z",
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": true,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "vi",
+  "description": "Tripod (folding) pass là hệ thống pressure passing từ headquarters position. Người pass tạo tripod base với áp lực đầu sang một bên, đẩy gối đối thủ lên ngực và gập người họ để flatten guard. Được phổ biến bởi Gordon Ryan, tripod pass là một trong những pass no-gi hiệu quả nhất.",
+  "shortInstruction": "Từ headquarters, tạo tripod base, đầu ép một bên, đẩy gối họ lên ngực, gập người và flatten để pass lên side control.",
+  "summary": "Tripod pass dùng stance rộng kết hợp head pressure để gập người đối thủ. Từ headquarters, người pass post chân ngoài rộng, hạ đầu xuống một bên và đẩy vai vào hip line đối thủ.",
+  "whyItWorks": [
+    "Tripod base làm đối thủ không thể re-insert guard hooks",
+    "Head pressure ngăn đối thủ quay đi hoặc invert",
+    "Gập người flatten guard, loại bỏ frames và knee shield",
+    "Base rộng cực kỳ khó bị sweep hoặc mất thăng bằng"
+  ],
+  "commonMistakes": [
+    "Giữ đầu quá cao — không đủ head pressure để ngăn re-guard",
+    "Hông bị nâng lên — hông thấp là chìa khóa giữ fold",
+    "Đẩy thẳng thay vì chéo — tạo khoảng trống cho đối thủ thoát",
+    "Thả head pressure quá sớm"
+  ],
+  "coachingCues": [
+    "Tripod rộng — đầu chạm thảm, hông thấp",
+    "Đẩy gối họ lên ngực — gập người họ lại",
+    "Head pressure vào hông xa — giữ họ xuống",
+    "Hông thấp, base rộng"
+  ],
+  "safetySummary": [
+    "Giữ đầu ở ngoài hông để tránh guillotine counter",
+    "Cánh tay gần phải sát người để tránh kimura"
+  ],
+  "moneyDetails": [
+    "Tripod pass hiệu quả nhất với guard player linh hoạt",
+    "Gordon Ryan dùng tripod pass để pass guard mọi ADCC champion"
+  ],
+  "fixItFast": [
+    "Nếu họ re-guard: tăng head pressure",
+    "Nếu họ sweep: mở rộng base"
+  ]
+}

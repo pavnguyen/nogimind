@@ -1,0 +1,42 @@
+{
+  "id": "toreando-passing",
+  "domain": "passing",
+  "level": "intermediate",
+  "name": "Toreando / Float Passing",
+  "aliases": ["float passing", "torreando passing"],
+  "tags": [
+    "passing",
+    "float-passing",
+    "toreando",
+    "mobility",
+    "footwork"
+  ],
+  "keywords": [
+    "toreando passing",
+    "float passing",
+    "open guard passing",
+    "hip mobility",
+    "leg drag"
+  ],
+  "relatedSkills": [
+    { "id": "leg-drag-basics", "type": "chain" },
+    { "id": "outside-passing", "type": "recommended" },
+    { "id": "knee-cut-passing", "type": "alternative" },
+    { "id": "side-control-pin", "type": "recommended" }
+  ],
+  "prerequisiteSkillIds": ["supine-guard-retention", "headquarters-passing"],
+  "relatedPositions": [],
+  "relatedConcepts": [],
+  "archetypeIds": ["pressure-passer", "scramble-controller"],
+  "trainingMethodIds": [],
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": true,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "updatedAt": "2026-05-28T00:00:00.000Z"
+}

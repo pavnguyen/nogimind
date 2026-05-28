@@ -1,0 +1,60 @@
+{
+  "id": "mounted-triangle-armbar",
+  "domain": "submission_systems",
+  "level": "intermediate",
+  "name": "Mounted Triangle / Armbar",
+  "aliases": [],
+  "tags": [
+    "triangle",
+    "armbar",
+    "mount",
+    "dilemma",
+    "meta:modern-common",
+    "family:submission",
+    "group:mount-attacks"
+  ],
+  "keywords": [
+    "mounted triangle",
+    "mounted armbar",
+    "mount submissions",
+    "S-mount triangle",
+    "triangle armbar dilemma"
+  ],
+  "relatedSkills": [
+    {
+      "id": "s-mount-armbar",
+      "type": "recommended"
+    },
+    {
+      "id": "triangle-system",
+      "type": "recommended"
+    },
+    {
+      "id": "armbar-system",
+      "type": "recommended"
+    },
+    {
+      "id": "arm-triangle-mount",
+      "type": "recommended"
+    }
+  ],
+  "prerequisiteSkillIds": [
+    "mount-control",
+    "triangle-system",
+    "armbar-system"
+  ],
+  "relatedPositions": [],
+  "relatedConcepts": [],
+  "archetypeIds": [],
+  "trainingMethodIds": [],
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "updatedAt": "2026-05-28T00:00:00.000Z"
+}

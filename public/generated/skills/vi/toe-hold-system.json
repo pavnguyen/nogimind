@@ -1,0 +1,126 @@
+{
+  "id": "toe-hold-system",
+  "domain": "submission_systems",
+  "level": "advanced",
+  "status": "draft",
+  "name": "Hệ thống Toe Hold / Estima Lock",
+  "aliases": [
+    "toe hold",
+    "Estima lock",
+    "foot lock"
+  ],
+  "tags": [
+    "tier:advanced-niche",
+    "meta:specialized",
+    "risk:high",
+    "family:leg_lock",
+    "modern-no-gi"
+  ],
+  "keywords": [
+    "toe hold",
+    "Estima lock",
+    "foot lock",
+    "ankle lock",
+    "dorsiflexion"
+  ],
+  "modernSystemGroup": "leg_lock",
+  "relatedSkills": [
+    {
+      "id": "inside-outside-heel-hook",
+      "type": "alternative"
+    },
+    {
+      "id": "straight-ankle-lock-safety",
+      "type": "supporting"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [
+    "leg-lock-safety-first"
+  ],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "leg-lock-safety-basics"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [
+    "Nếu họ xoay theo đòn: điều chỉnh góc xoay và giữ dorsiflexion",
+    "Nếu họ bảo vệ bàn chân: kéo đầu gối họ gần hơn vào nách bạn",
+    "Nếu họ đứng lên: thả và chuyển sang single leg hoặc sweep"
+  ],
+  "version": 1,
+  "updatedAt": "2026-05-28T09:34:33.159Z",
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "vi",
+  "description": "Toe hold tấn công mắt cá chân ở tư thế gấp mu bàn chân (dorsiflexion) kết hợp với xoay. Biến thể Estima lock sử dụng nắm figure-four để tạo thêm lực xoay.",
+  "shortInstruction": "Cô lập bàn chân, kiểm soát đầu gối (kẹp vào nách), giữ grip chặt, gập mu bàn chân (dorsiflex), xoay bằng cơ thể, kết thúc.",
+  "summary": "Toe hold tấn công dây chằng mắt cá chân ở tư thế gập mu bàn chân kết hợp với xoay. Biến thể Estima lock dùng grip figure-four để tăng lực xoắn và có hiệu lực ở các cấp độ đai nơi heel hook bị cấm.",
+  "whyItWorks": [
+    "Toe hold kéo căng dây chằng mắt cá và kẹp xương talus — mắt cá chân có rất ít sức đề kháng theo hướng này",
+    "Grip figure-four (Estima lock) tạo lực xoay từ tay VÀ xoay cơ thể — nhiều lực xoắn hơn",
+    "Toe hold có sẵn từ các vị trí mà heel hook không có (outside ashi, 50/50, và một số đường pass)",
+    "Toe hold hợp pháp ở hầu hết các cấp độ đai nơi heel hook bị cấm"
+  ],
+  "commonMistakes": [
+    "Tấn công toe hold trước khi kiểm soát đầu gối — họ sẽ xoay và thoát",
+    "Chỉ dùng sức tay không có xoay cơ thể — sự xoay phải đến từ thân bạn",
+    "Áp dụng toe hold sai hướng — phải dorsiflex + xoay, không phải plantarflex",
+    "Giữ đòn quá lâu mà không có tiến triển — toe hold có cửa sổ hẹp trước khi họ thoát"
+  ],
+  "coachingCues": [
+    "Kiểm soát đầu gối, sau đó tấn công bàn chân",
+    "Dorsiflex trước, sau đó xoay — không làm ngược lại",
+    "Đối thủ nằm sấp là mục tiêu tốt nhất",
+    "Grip figure-four, xoay cơ thể, tap"
+  ],
+  "safetySummary": [
+    "Toe hold có thể gây tổn thương dây chằng mắt cá nếu áp dụng quá nhanh — tăng áp lực từ từ",
+    "Kiểm soát đầu gối của họ trong suốt đòn — mất kiểm soát đầu gối có thể dẫn đến chấn thương",
+    "Tap sớm khi tập toe hold — dây chằng mắt cá dễ bị tổn thương"
+  ],
+  "systemLogic": {
+    "corePrinciple": "Toe hold: cô lập bàn chân → kiểm soát đầu gối (kẹp vào nách) → giữ grip → gập mu bàn chân (dorsiflex) → xoay bằng xoay cơ thể → kết thúc.",
+    "decisionTree": [
+      {
+        "condition": "Họ xoay theo đòn",
+        "action": "điều chỉnh góc xoay và duy trì dorsiflexion"
+      },
+      {
+        "condition": "Họ bảo vệ bàn chân",
+        "action": "kéo đầu gối họ gần nách hơn"
+      },
+      {
+        "condition": "Họ đứng lên",
+        "action": "thả và chuyển sang single leg hoặc sweep"
+      }
+    ],
+    "exitStrategies": [
+      "Nếu không kết thúc được, thả và chuyển sang đòn khóa chân khác",
+      "Nếu họ thoát và vào guard, reset và thiết lập lại"
+    ]
+  },
+  "moneyDetails": [
+    "Toe hold là một trong những đòn khóa chân an toàn nhất để tập ở mọi cấp độ đai",
+    "Estima lock đã phổ biến hóa toe hold trong BJJ hiện đại bằng cách thêm lực xoắn từ grip figure-four",
+    "Toe hold đặc biệt hiệu quả với đối thủ nằm sấp (belly-down) vì họ không thể xoay theo"
+  ],
+  "fixItFast": [
+    "Nếu họ đứng lên: thả và chuyển sang sweep thay vì cố giữ đòn",
+    "Nếu họ xoay theo: đảo ngược hướng xoay hoặc chuyển sang heel hook",
+    "Nếu mất grip: kiểm soát lại vị trí và thiết lập grip lại"
+  ]
+}

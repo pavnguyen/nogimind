@@ -1,0 +1,43 @@
+{
+  "id": "tripod-folding-pass",
+  "domain": "passing",
+  "level": "intermediate",
+  "name": "Tripod / Folding Pass",
+  "aliases": ["folding pass", "headquarters pass", "smash fold"],
+  "tags": [
+    "passing",
+    "tripod",
+    "folding-pass",
+    "smash-pass",
+    "headquarters",
+    "pressure"
+  ],
+  "keywords": [
+    "tripod pass",
+    "folding pass",
+    "headquarters",
+    "hip fold",
+    "shoulder pressure"
+  ],
+  "relatedSkills": [
+    { "id": "headquarters-passing", "type": "prerequisite" },
+    { "id": "knee-cut-passing", "type": "chain" },
+    { "id": "over-under-pass", "type": "alternative" },
+    { "id": "side-control-pin", "type": "recommended" }
+  ],
+  "prerequisiteSkillIds": ["headquarters-passing", "supine-guard-retention"],
+  "relatedPositions": [],
+  "relatedConcepts": [],
+  "archetypeIds": ["pressure-passer", "half-guard-wrestler"],
+  "trainingMethodIds": [],
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": true,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "updatedAt": "2026-05-28T00:00:00.000Z"
+}

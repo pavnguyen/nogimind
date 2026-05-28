@@ -1,0 +1,118 @@
+{
+  "id": "turtle-to-guard-recovery",
+  "domain": "escapes",
+  "level": "intermediate",
+  "status": "draft",
+  "name": "Turtle to Guard Recovery",
+  "aliases": [
+    "guard recovery from turtle",
+    "turtle guard recovery"
+  ],
+  "tags": [
+    "tier:modern-expansion",
+    "meta:modern-common",
+    "risk:low",
+    "family:escape",
+    "modern-no-gi"
+  ],
+  "keywords": [
+    "turtle escape",
+    "guard recovery",
+    "hip switch",
+    "turtle guard"
+  ],
+  "modernSystemGroup": "safety",
+  "relatedSkills": [
+    {
+      "id": "turtle-escape-standup",
+      "type": "alternative"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [
+    "guard-retention-specialist"
+  ],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [
+    "If they commit weight forward: your trigger — hip switch and recover guard",
+    "If they circle to the side: sit back to guard directly",
+    "If they flatten you: turtle is lost — protect neck and wait for them to create space"
+  ],
+  "version": 1,
+  "updatedAt": "2026-05-28T09:34:33.161Z",
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "en",
+  "description": "The turtle to guard recovery is a specific escape from turtle back to a neutral or offensive guard position. It uses a hip switch and pummel to re-establish guard engagement.",
+  "shortInstruction": "From turtle, protect neck, read weight commitment, drop near hip, kick far leg through, pummel inside arm, re-establish guard.",
+  "summary": "Turtle to guard recovery uses an explosive hip switch to create space, re-engage the opponent, and establish guard. Unlike the stand-up which disengages, guard recovery keeps the fight in your guard where you can attack.",
+  "whyItWorks": [
+    "From turtle, you can explosively hip escape when the opponent commits weight forward",
+    "The hip switch creates space to bring your legs between you and them",
+    "Pummeling the inside arm prevents them from establishing seatbelt or body triangle control",
+    "Recovering to guard rather than standing is safer when the opponent has weight committed on top"
+  ],
+  "commonMistakes": [
+    "Trying to recover guard before protecting the neck — always cover the neck first",
+    "Dropping both hands to the mat to stand up — this exposes the back for a choke",
+    "Kicking through without pummeling the inside arm — they maintain seatbelt control",
+    "Staying in turtle too long — turtle is a reactive position; you must read and explode"
+  ],
+  "coachingCues": [
+    "Neck first, then hip switch, then pummel",
+    "Drop the hip, kick the leg through — one explosive movement",
+    "Pummel the inside arm or they keep the seatbelt",
+    "Read their weight commitment — that's your trigger"
+  ],
+  "safetySummary": [
+    "Protect your neck before attempting any turtle escape — the choke comes first",
+    "Do not explode into a position where your neck or spine is exposed",
+    "If the opponent has a deep seatbelt lock, do not fight it — pummel the arm first"
+  ],
+  "systemLogic": {
+    "corePrinciple": "Turtle to guard recovery: from turtle → protect neck → read opponent weight commitment forward (trigger) → drop near hip to mat → kick far leg through → pummel inside arm → re-establish guard.",
+    "decisionTree": [
+      {
+        "condition": "They commit weight forward",
+        "action": "your trigger — hip switch and recover guard"
+      },
+      {
+        "condition": "They circle to the side instead",
+        "action": "sit back to guard directly"
+      },
+      {
+        "condition": "They flatten you belly-down",
+        "action": "turtle is lost — protect neck and wait for space"
+      }
+    ],
+    "exitStrategies": [
+      "If guard recovery fails, stand up and reset",
+      "If they take the back during the attempt, protect your neck and escape from the back"
+    ]
+  },
+  "moneyDetails": [
+    "Turtle to guard recovery is a safer alternative to the turtle stand-up when the opponent has heavy weight forward",
+    "Mastering guard recovery from turtle removes the fear of being taken down from turtle",
+    "Guard recovery is particularly useful against opponents who immediately attack the back from turtle"
+  ],
+  "fixItFast": [
+    "If they grab a seatbelt: pummel the inside arm before attempting the hip switch",
+    "If you cannot kick through: your hips are too high — drop the hip lower before kicking",
+    "If they flatten you: wait for them to create space, then explode into the hip switch"
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "id": "tripod-folding-pass",
+  "domain": "passing",
+  "level": "intermediate",
+  "status": "draft",
+  "name": "Passe Trépied / Pliage",
+  "aliases": [
+    "folding pass",
+    "headquarters pass",
+    "smash fold"
+  ],
+  "tags": [
+    "passing",
+    "tripod",
+    "folding-pass",
+    "smash-pass",
+    "headquarters",
+    "pressure"
+  ],
+  "keywords": [
+    "tripod pass",
+    "folding pass",
+    "headquarters",
+    "hip fold",
+    "shoulder pressure"
+  ],
+  "relatedSkills": [
+    {
+      "id": "headquarters-passing",
+      "type": "prerequisite"
+    },
+    {
+      "id": "knee-cut-passing",
+      "type": "chain"
+    },
+    {
+      "id": "over-under-pass",
+      "type": "alternative"
+    },
+    {
+      "id": "side-control-pin",
+      "type": "recommended"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [
+    "pressure-passer",
+    "half-guard-wrestler"
+  ],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "headquarters-passing",
+    "supine-guard-retention"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [
+    "S'ils récupèrent la garde : pression de tête trop légère",
+    "S'ils sweep : base trop étroite"
+  ],
+  "version": 1,
+  "updatedAt": "2026-05-28T00:00:00.000Z",
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": true,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "fr",
+  "description": "La passe trépied (folding) est un système de pression depuis la position headquarters. Le passeur établit une base en trépied avec pression de tête d'un côté, poussant les genoux de l'adversaire vers sa poitrine et pliant son corps pour aplatir sa garde.",
+  "shortInstruction": "Depuis headquarters, établissez une base trépied, tête d'un côté, poussez leurs genoux vers la poitrine, pliez et aplatissez pour passer en side control.",
+  "summary": "La passe trépied utilise une stance large combinée à une pression de tête pour plier le corps de l'adversaire. Depuis headquarters, le passeur pose son pied extérieur large, abaisse sa tête et pousse son épaule dans la hip line.",
+  "whyItWorks": [
+    "La base trépied empêche l'adversaire de réinsérer ses hooks de garde",
+    "La pression de tête empêche l'adversaire de se tourner ou d'inverser",
+    "Plier le corps aplatit la garde, éliminant frames et knee shield"
+  ],
+  "commonMistakes": [
+    "Garder la tête trop haute — pas assez de pression pour empêcher le re-guard",
+    "Laisser les hanches se lever",
+    "Pousser droit au lieu de diagonale",
+    "Relâcher la pression de tête trop tôt"
+  ],
+  "coachingCues": [
+    "Trépied large — tête au sol, hanches basses",
+    "Poussez leurs genoux vers la poitrine",
+    "Pression de tête sur la hanche lointaine",
+    "Hanches basses, base large"
+  ],
+  "safetySummary": [
+    "Gardez la tête à l'extérieur de leur hanche pour éviter la guillotine",
+    "Bras proche serré pour éviter le kimura"
+  ],
+  "moneyDetails": [
+    "Passe trépied très efficace contre les joueurs de garde flexibles"
+  ],
+  "fixItFast": [
+    "S'ils récupèrent : plus de pression de tête",
+    "S'ils sweep : élargissez la base"
+  ]
+}

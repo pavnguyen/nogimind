@@ -1,0 +1,141 @@
+{
+  "id": "toe-hold-estima-lock",
+  "domain": "submission_systems",
+  "level": "intermediate",
+  "status": "draft",
+  "name": "Toe Hold / Estima Lock",
+  "aliases": [],
+  "tags": [
+    "toe-hold",
+    "estima-lock",
+    "foot-lock",
+    "leg-lock",
+    "meta:modern-common",
+    "family:leg-lock",
+    "group:foot-lock"
+  ],
+  "keywords": [
+    "toe hold",
+    "estima lock",
+    "foot lock",
+    "ankle lock",
+    "figure-four foot lock"
+  ],
+  "relatedSkills": [
+    {
+      "id": "backside-50-50-control",
+      "type": "recommended"
+    },
+    {
+      "id": "saddle-inside-sankaku-control",
+      "type": "recommended"
+    },
+    {
+      "id": "fifty-fifty-to-heel-exposure",
+      "type": "recommended"
+    },
+    {
+      "id": "straight-ankle-lock-safety",
+      "type": "recommended"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "leg-lock-safety-basics",
+    "straight-ankle-lock-safety"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [
+    "If the toe hold is not painful, your grip is too loose — tighten the figure-four and rotate from the shoulder, not the wrist.",
+    "If the Estima lock is not working, their foot is not pinned to your body — pull it tighter against your hip or stomach.",
+    "If they roll out of the toe hold, switch to the heel hook or straight ankle lock.",
+    "If you lose the Estima lock, their foot was too low — aim to pin the top of their foot at or above your hip bone."
+  ],
+  "version": 1,
+  "updatedAt": "2026-05-28T00:00:00.000Z",
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "en",
+  "description": "Attack the foot and ankle with the traditional toe hold (figure-four rotation) and the modern Estima lock (hip-driven foot pin) from leg entanglements and guard transitions.",
+  "shortInstruction": "Toe hold: figure-four grip, rotate their foot toward their hip. Estima lock: pin their foot to your body, drive your hips forward — squeeze, don't twist.",
+  "summary": "The toe hold and Estima lock are powerful foot attacks that target the ankle and knee. The traditional toe hold uses a figure-four grip to rotate the foot, creating lateral torque on the ankle. The modern Estima lock (popularized by Victor and Braulio Estima) works differently — it traps the opponent's foot against your body and uses hip drive to create extreme plantarflexion, effectively functioning as an 'inverse' straight ankle lock. The Estima lock is particularly effective in no-gi because it requires no gi grip and can be set up quickly from leg entanglements like 50/50, backside 50/50, and saddle. Both attacks chain well with heel hooks and ankle locks.",
+  "whyItWorks": [
+    "The Estima lock attacks the foot in a direction most opponents do not expect — instead of twisting, it hyperextends via hip drive.",
+    "Both attacks can be finished from positions where heel hooks are difficult or illegal under certain rule sets.",
+    "The toe hold is effective against larger opponents because it uses rotational leverage rather than raw strength.",
+    "The Estima lock can be entered very quickly from standing or leg entanglement transitions — speed is its primary weapon.",
+    "Both submissions create dilemmas: defending the toe hold exposes the heel hook, and vice versa."
+  ],
+  "commonMistakes": [
+    "Confusing the two mechanics — toe hold uses rotation (twist), Estima lock uses hip drive (squeeze). Do not mix them.",
+    "Applying the Estima lock with space between their foot and your body — the foot must be pinned tightly.",
+    "Using the toe hold with poor wrist alignment — the wrist should be neutral to avoid straining your own joints.",
+    "Hesitating with the Estima lock — it is a speed submission; hesitation gives them time to clear their foot.",
+    "Forgetting that the Estima lock is also a control position — if they do not tap, you can often sweep or transition."
+  ],
+  "coachingCues": [
+    "Toe hold: twist the foot toward their hip, not away.",
+    "Estima lock: pin the foot to your body, then drive with the hips.",
+    "If they turn away from the toe hold, you have the heel hook.",
+    "Estima lock is about speed — if you hesitate, they escape.",
+    "Control the knee line first, then attack the foot."
+  ],
+  "safetySummary": [
+    "Toe holds and Estima locks target the ankle and knee — apply slowly and release on tap.",
+    "The ankle has limited lateral stability — excessive rotation can cause ligament damage.",
+    "Do not crank the toe hold — controlled rotation is safer and more effective.",
+    "Estima locks apply pressure to the top of the foot and ankle — be aware of training partners with previous foot injuries.",
+    "Tap early on any foot or ankle lock — recovery from foot injuries is often slow."
+  ],
+  "systemLogic": {
+    "corePrinciple": "Leg entanglement or guard transition → identify foot exposure → choose attack: toe hold (figure-four grip + rotation) or Estima lock (foot pin + hip drive) → finish or chain.",
+    "decisionTree": [
+      {
+        "condition": "Toe hold entry from guard",
+        "action": "Secure figure-four grip on their foot, rotate their toes toward their hip. Use your forearm to block their knee from following the rotation."
+      },
+      {
+        "condition": "Estima lock entry from 50/50 or backside",
+        "action": "Trap their foot against your stomach or hip, grip their toes/forefoot, drive your hips forward while keeping their foot pinned."
+      },
+      {
+        "condition": "They defend the toe hold by turning out",
+        "action": "Release the toe hold and attack the heel hook on the same leg."
+      },
+      {
+        "condition": "They stand to clear the Estima lock",
+        "action": "Release the foot, re-enter the leg entanglement, or sweep as they stand."
+      }
+    ],
+    "exitStrategies": []
+  },
+  "moneyDetails": [
+    "Toe hold grip: figure-four with their foot in your armpit. Your near hand grabs their heel, your far hand grabs your own wrist. Rotate their toes toward their hip — this creates lateral ankle torque.",
+    "Estima lock grip: cup their heel with one hand, grab their toes/forefoot with the other. Pin the top of their foot against your stomach or hip bone. Drive your hips forward — the pressure comes from hip extension, not arm squeezing.",
+    "The Estima lock is often available when an opponent tries to stand up or clear their knee line from 50/50 or single-leg X — their foot becomes naturally pinned against your body as they posture.",
+    "A key detail for the toe hold: block their knee with your forearm as you rotate — if their knee follows the rotation, the ankle lock loses effectiveness.",
+    "Chain attack: from the Estima lock, if they pull their foot free, their heel is often exposed for a heel hook attack."
+  ],
+  "nextStep": "After the toe hold and Estima lock, learn the straight ankle lock and kneebar as additional leg attack options.",
+  "fixItFast": [
+    "Toe hold not working? Block their knee with your forearm to prevent it from following the rotation.",
+    "Estima lock not working? Their foot is too low on your body — pin it higher, at or above your hip bone.",
+    "They keep escaping? Chain to the heel hook — defending foot attacks often exposes the heel.",
+    "Pain in your own wrist? Your grip angle is wrong — keep your wrist neutral, not bent."
+  ]
+}

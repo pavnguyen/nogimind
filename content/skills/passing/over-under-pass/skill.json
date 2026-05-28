@@ -1,0 +1,43 @@
+{
+  "id": "over-under-pass",
+  "domain": "passing",
+  "level": "intermediate",
+  "name": "Over-Under / Smash Pass",
+  "aliases": ["over-under pass", "smash pass", "half guard smash"],
+  "tags": [
+    "passing",
+    "over-under",
+    "smash-pass",
+    "half-guard",
+    "pressure-passing"
+  ],
+  "keywords": [
+    "over-under pass",
+    "smash pass",
+    "half guard passing",
+    "chest-to-chest",
+    "hip pressure"
+  ],
+  "relatedSkills": [
+    { "id": "half-guard-knee-shield", "type": "prerequisite" },
+    { "id": "bodylock-passing", "type": "chain" },
+    { "id": "knee-cut-passing", "type": "alternative" },
+    { "id": "side-control-pin", "type": "recommended" },
+    { "id": "coyote-half-guard", "type": "alternative" }
+  ],
+  "prerequisiteSkillIds": ["half-guard-knee-shield", "bodylock-passing"],
+  "relatedPositions": [],
+  "relatedConcepts": [],
+  "archetypeIds": ["pressure-passer", "half-guard-wrestler"],
+  "trainingMethodIds": [],
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": true,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "updatedAt": "2026-05-28T00:00:00.000Z"
+}

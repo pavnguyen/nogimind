@@ -1,0 +1,67 @@
+{
+  "id": "toe-hold-system",
+  "locale": "en",
+  "name": "Toe Hold / Estima Lock",
+  "description": "The toe hold attacks the ankle in dorsiflexion (bending the foot toward the shin) combined with rotation. The Estima lock variant uses a figure-four grip on the foot creating more rotation with less force.",
+  "shortInstruction": "Control the knee, grip their foot (traditional or figure-four), dorsiflex the toes toward the shin, and rotate using body rotation.",
+  "summary": "The toe hold hyperextends the ankle ligaments by combining dorsiflexion with rotation. The Estima lock variant provides more rotational torque with a figure-four grip. The toe hold is most effective when the opponent is belly-down and the knee is immobilized.",
+  "whyItWorks": [
+    "The toe hold hyperextends the ankle ligaments and impinges the talus — the ankle has minimal resistance in this direction",
+    "The figure-four grip (Estima lock) creates rotational force from your arms AND your body rotation — more torque",
+    "Toe holds are available from positions where heel hooks are not (outside ashi, 50/50, and some guard passes)",
+    "The toe hold is legal at most belt levels where heel hooks are prohibited"
+  ],
+  "commonMistakes": [
+    "Attacking the toe hold before controlling the knee — they will spin and escape",
+    "Using only arm strength without body rotation — the rotation must come from your trunk",
+    "Applying toe hold in the wrong direction — must dorsiflex + rotate, not plantarflex",
+    "Holding the submission too long without progress — toe holds have a narrow window before they escape"
+  ],
+  "coachingCues": [
+    "Control the knee, then attack the foot",
+    "Dorsiflex first, then rotate — not the other way",
+    "Belly-down opponent is your best target",
+    "Figure-four grip, body rotation, tap"
+  ],
+  "safetySummary": [
+    "The toe hold attacks the ankle and can cause ligament tears — apply progressively",
+    "Do not crank the toe hold — the injury can occur before the opponent feels pain",
+    "Be especially careful with training partners who have pre-existing ankle injuries"
+  ],
+  "keyCorrections": [
+    "Traditional grip: one hand on the heel, one on the toes — opposing forces",
+    "Estima lock: figure-four grip, grab your own wrist, cup their heel",
+    "If they spin to escape: you lost knee control — release and re-enter"
+  ],
+  "systemLogic": {
+    "corePrinciple": "Toe hold system: isolate the foot → control the knee (pin it to your armpit) → secure grip (traditional or figure-four Estima lock) → dorsiflex the foot → rotate the foot while using body rotation → finish.",
+    "decisionTree": [
+      {
+        "condition": "They are belly-down",
+        "action": "ideal — they cannot spin to escape"
+      },
+      {
+        "condition": "They are on their back",
+        "action": "secure the knee first before attacking the foot"
+      },
+      {
+        "condition": "They spin to escape",
+        "action": "you lost knee control — release and re-enter the leg entanglement"
+      }
+    ],
+    "exitStrategies": [
+      "If the toe hold fails, transition to the straight ankle lock",
+      "If they clear the knee, release and re-enter from 50/50"
+    ]
+  },
+  "moneyDetails": [
+    "The toe hold is legal at IBJJF brown/black belt and most no-gi divisions — it is a versatile leg attack",
+    "The Estima lock variant is more powerful than the traditional grip for smaller practitioners",
+    "Having a reliable toe hold gives you a lower-risk leg attack option when heel hooks are illegal"
+  ],
+  "fixItFast": [
+    "If traditional grip fails: switch to Estima lock (figure-four for more rotation)",
+    "If they spin: release and re-enter — do not fight to maintain the grip",
+    "If you cannot control the knee: the toe hold will not work — switch to a different attack"
+  ]
+}

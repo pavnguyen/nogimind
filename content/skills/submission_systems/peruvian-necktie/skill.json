@@ -1,0 +1,54 @@
+{
+  "id": "peruvian-necktie",
+  "domain": "submission_systems",
+  "level": "advanced",
+  "name": "Peruvian Necktie",
+  "aliases": [
+    "Peruvian",
+    "Peruvian choke",
+    "front headlock choke"
+  ],
+  "tags": [
+    "tier:advanced-niche",
+    "meta:specialized",
+    "risk:safety-critical",
+    "family:front_headlock",
+    "modern-no-gi"
+  ],
+  "keywords": [
+    "Peruvian necktie",
+    "front headlock choke",
+    "Peruvian choke",
+    "carotid choke"
+  ],
+  "modernSystemGroup": "front_headlock",
+  "relatedSkills": [
+    {
+      "id": "snapdown-front-headlock",
+      "type": "chain"
+    },
+    {
+      "id": "d-arce-system",
+      "type": "alternative"
+    }
+  ],
+  "prerequisiteSkillIds": [
+    "front-headlock-system"
+  ],
+  "relatedPositions": [],
+  "relatedConcepts": [],
+  "archetypeIds": [
+    "front-headlock-player"
+  ],
+  "trainingMethodIds": [],
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "updatedAt": "2026-05-28T09:34:33.159Z"
+}

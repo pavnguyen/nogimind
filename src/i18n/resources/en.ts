@@ -555,6 +555,12 @@ export const en = {
     contentCoverage: 'Coverage',
     lastUpdate: 'Last update',
     alsoToday: 'Also Today',
+    newUpdates: {
+      heading: "What's New",
+      item1: '11 new skills across submissions, passing, wrestling, pins & guard',
+      item2: 'New submission systems: heel hook finishing, calf compression, toe hold / Estima lock, mounted triangle / armbar',
+      item3: 'New foundation skills: toreando passing, tripod folding pass, over-under pass, double leg takedown, foot sweeps',
+    },
     hubExplorer: 'Explore Hubs',
     rotation: {
       microDetail: 'Micro-Detail of the Day',
@@ -731,6 +737,11 @@ export const en = {
       safety_reference: 'Safety reference',
     },
     offline: 'Video unavailable offline — connect to the internet to watch.',
+    unavailable: 'This video is no longer available.',
+    unavailableHint: 'The video may have been removed or made private by the uploader.',
+    retry: 'Retry',
+    reportBroken: 'Report broken video',
+    reportSuccess: 'Thanks! We\'ll review this video.',
     level: {
       beginner: 'Beginner',
       intermediate: 'Intermediate',

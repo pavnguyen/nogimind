@@ -1,0 +1,59 @@
+{
+  "id": "toe-hold-estima-lock",
+  "domain": "submission_systems",
+  "level": "intermediate",
+  "name": "Toe Hold / Estima Lock",
+  "aliases": [],
+  "tags": [
+    "toe-hold",
+    "estima-lock",
+    "foot-lock",
+    "leg-lock",
+    "meta:modern-common",
+    "family:leg-lock",
+    "group:foot-lock"
+  ],
+  "keywords": [
+    "toe hold",
+    "estima lock",
+    "foot lock",
+    "ankle lock",
+    "figure-four foot lock"
+  ],
+  "relatedSkills": [
+    {
+      "id": "backside-50-50-control",
+      "type": "recommended"
+    },
+    {
+      "id": "saddle-inside-sankaku-control",
+      "type": "recommended"
+    },
+    {
+      "id": "fifty-fifty-to-heel-exposure",
+      "type": "recommended"
+    },
+    {
+      "id": "straight-ankle-lock-safety",
+      "type": "recommended"
+    }
+  ],
+  "prerequisiteSkillIds": [
+    "leg-lock-safety-basics",
+    "straight-ankle-lock-safety"
+  ],
+  "relatedPositions": [],
+  "relatedConcepts": [],
+  "archetypeIds": [],
+  "trainingMethodIds": [],
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "updatedAt": "2026-05-28T00:00:00.000Z"
+}

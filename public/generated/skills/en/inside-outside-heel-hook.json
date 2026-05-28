@@ -1,0 +1,127 @@
+{
+  "id": "inside-outside-heel-hook",
+  "domain": "submission_systems",
+  "level": "advanced",
+  "status": "draft",
+  "name": "Inside & Outside Heel Hook Finishing",
+  "aliases": [
+    "heel hook finishing",
+    "inside heel hook",
+    "outside heel hook"
+  ],
+  "tags": [
+    "tier:safety-critical",
+    "meta:modern-common",
+    "risk:safety-critical",
+    "family:leg_lock",
+    "modern-no-gi"
+  ],
+  "keywords": [
+    "heel hook",
+    "inside heel hook",
+    "outside heel hook",
+    "boot grip",
+    "milk the calf"
+  ],
+  "modernSystemGroup": "leg_lock",
+  "relatedSkills": [
+    {
+      "id": "k-guard-to-outside-ashi",
+      "type": "chain"
+    },
+    {
+      "id": "straight-ankle-lock-safety",
+      "type": "supporting"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [
+    "leg-lock-safety-first"
+  ],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "leg-lock-safety-basics"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [
+    "Inside heel hook: rotate hips toward their foot (foot rotates outward)",
+    "Outside heel hook: rotate hips away from their foot (foot rotates inward)",
+    "If they hide their heel: re-establish boot grip by prying with your forearm"
+  ],
+  "version": 1,
+  "updatedAt": "2026-05-28T09:34:33.158Z",
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "en",
+  "description": "The heel hook finish is a rotation of the foot relative to the knee, created by rotating your own hips and shoulders. Inside heel hook rotates the foot outward (away from their body), outside heel hook rotates the foot inward (toward their body). Both use hip rotation, not arm strength.",
+  "shortInstruction": "In outside ashi, secure the boot grip (four fingers on heel, thumb on sole), rotate your hips in the finishing direction, and milk the calf with your shin.",
+  "summary": "The heel hook finishes by rotating the foot relative to the knee using hip rotation rather than arm strength. Inside heel hooks rotate the foot outward; outside heel hooks rotate the foot inward. Both require knee line control, the boot grip, and the milk-the-calf compression to finish safely and effectively.",
+  "whyItWorks": [
+    "The heel hook attacks the knee in its weakest rotational plane — the knee does NOT rotate laterally",
+    "Hip rotation generates the torque (not arm pulling) — your hips are stronger than your arms",
+    "The boot grip (shin trapping the heel) gives you mechanical advantage over their foot — you control rotation",
+    "Milking the calf creates the finish without explosive force — it is a compression + rotation, not a yank"
+  ],
+  "commonMistakes": [
+    "Squeezing the heel hook before establishing knee line control — you will not finish and may lose the entanglement",
+    "Pulling with the arms instead of rotating the hips — this fatigues your arms and lacks power",
+    "Not 'milking the calf' — proper calf compression creates the finish, not the foot twist alone",
+    "Letting them hide their heel in your armpit — this neutralizes the rotation"
+  ],
+  "coachingCues": [
+    "Knee line first, then the boot, then rotation",
+    "Rotate the hips, don't pull the foot",
+    "Milk the calf — the squeeze is the finish",
+    "If the heel disappears, you lost the angle"
+  ],
+  "safetySummary": [
+    "Heel hooks can cause severe knee injuries (ACL, PCL, LCL, MCL tears) — apply slowly and release at the first sign of resistance",
+    "Never crank a heel hook during training — the injury may not be immediately felt by the opponent",
+    "Tap early to heel hooks — they cause injury before pain is felt",
+    "Only practice heel hooks with trusted training partners who understand the risks"
+  ],
+  "systemLogic": {
+    "corePrinciple": "Heel hook finishing: establish leg entanglement → clear knee line → secure the boot grip → rotate hips in finishing direction → milk the calf with your shin → finish by rotation, not squeeze.",
+    "decisionTree": [
+      {
+        "condition": "Inside heel hook",
+        "action": "rotate hips toward their foot (foot rotates outward) — targets LCL/MCL"
+      },
+      {
+        "condition": "Outside heel hook",
+        "action": "rotate hips away from their foot (foot rotates inward) — targets ACL/PCL"
+      },
+      {
+        "condition": "They hide their heel",
+        "action": "re-establish boot grip by prying with your forearm"
+      }
+    ],
+    "exitStrategies": [
+      "If they clear the knee line, release the entanglement and re-enter from guard",
+      "If the heel hook fails, transition to toe hold or straight ankle lock"
+    ]
+  },
+  "moneyDetails": [
+    "Heel hooks are the highest-percentage leg submission in no-gi at the elite level",
+    "Understanding inside vs outside heel hook mechanics is essential for safe and effective leg locking",
+    "The boot grip and milk-the-calf finish should be drilled thousands of times to build safe muscle memory"
+  ],
+  "fixItFast": [
+    "If the heel disappears: you lost angle control — release and re-enter the entanglement",
+    "If they clear the knee line: abandon the attack — you cannot finish without knee line control",
+    "If you cannot get the boot grip: switch to a toe hold or straight ankle lock instead"
+  ]
+}

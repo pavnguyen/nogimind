@@ -1,0 +1,62 @@
+{
+  "id": "heel-hook-finishing-system",
+  "domain": "submission_systems",
+  "level": "advanced",
+  "name": "Heel Hook Finishing System",
+  "aliases": [],
+  "tags": [
+    "heel-hook",
+    "finish",
+    "leg-lock",
+    "knee-safety",
+    "tier:safety-critical",
+    "meta:modern-common",
+    "family:leg-lock",
+    "group:heel-hook"
+  ],
+  "keywords": [
+    "heel hook finish",
+    "inside heel hook",
+    "outside heel hook",
+    "figure-four grip",
+    "rotation mechanics",
+    "knee line control"
+  ],
+  "relatedSkills": [
+    {
+      "id": "saddle-inside-sankaku-control",
+      "type": "recommended"
+    },
+    {
+      "id": "backside-50-50-control",
+      "type": "recommended"
+    },
+    {
+      "id": "heel-hook-safety",
+      "type": "recommended"
+    },
+    {
+      "id": "fifty-fifty-to-heel-exposure",
+      "type": "recommended"
+    }
+  ],
+  "prerequisiteSkillIds": [
+    "heel-hook-safety",
+    "leg-lock-safety-basics",
+    "saddle-inside-sankaku-control"
+  ],
+  "relatedPositions": [],
+  "relatedConcepts": [],
+  "archetypeIds": [],
+  "trainingMethodIds": [],
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "updatedAt": "2026-05-28T00:00:00.000Z"
+}

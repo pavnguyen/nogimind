@@ -1,0 +1,112 @@
+{
+  "id": "bjj-foot-sweeps",
+  "domain": "wrestle_up_wrestling",
+  "level": "intermediate",
+  "status": "draft",
+  "name": "Quét Chân (Kouchi, Sasae, De Ashi)",
+  "aliases": [
+    "foot sweeps",
+    "kouchigari",
+    "sasae",
+    "deashibarai"
+  ],
+  "tags": [
+    "takedown",
+    "wrestling",
+    "foot-sweep",
+    "kouchigari",
+    "sasae",
+    "deashibarai",
+    "clinch-fighting"
+  ],
+  "keywords": [
+    "foot sweeps",
+    "kouchi gari",
+    "sasae tsurikomi ashi",
+    "de ashi harai",
+    "judo for BJJ"
+  ],
+  "relatedSkills": [
+    {
+      "id": "arm-drag-system",
+      "type": "chain"
+    },
+    {
+      "id": "ankle-pick-low-single",
+      "type": "chain"
+    },
+    {
+      "id": "double-leg-bjj",
+      "type": "chain"
+    },
+    {
+      "id": "body-lock-takedown",
+      "type": "alternative"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [
+    "wrestle-up-player",
+    "scramble-controller"
+  ],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "stance-movement-basics",
+    "arm-drag-system"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [
+    "Chân không di chuyển: chưa off-balance",
+    "Bị guillotine: đầu đang cúi"
+  ],
+  "version": 1,
+  "updatedAt": "2026-05-28T00:00:00.000Z",
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": true,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "vi",
+  "description": "Hệ thống quét chân chuyển thể từ Judo sang no-gi BJJ, dùng timing, làm mất thăng bằng (kuzushi) và đặt chân chính xác. Các động tác chính: Kouchi Gari (móc trong), Sasae (chặn chân trụ), De Ashi Harai (quét chân tiến).",
+  "shortInstruction": "Tạo off-balancing với collar tie, quét chân khi chân chạm đất, chain vào double leg khi đối thủ bước lùi.",
+  "summary": "Quét chân khai thác sự di chuyển trọng lượng khi đối thủ tập trung phòng thủ double leg.",
+  "whyItWorks": [
+    "Khai thác weight transfer khi đối thủ phòng thủ takedown khác",
+    "Tốn ít năng lượng",
+    "Tạo reactions cho các đòn tấn công tiếp theo"
+  ],
+  "commonMistakes": [
+    "Quét mà không off-balance trước",
+    "Cúi đầu — lộ guillotine",
+    "Quét quá sớm hoặc quá muộn",
+    "Không chaining — quét chân nên dẫn vào double leg"
+  ],
+  "coachingCues": [
+    "Kéo trước, quét sau",
+    "Tay thiết lập đòn quét",
+    "Giữ cao — đầu cao, ngực cao",
+    "Quét chân khi chân chạm đất"
+  ],
+  "safetySummary": [
+    "Giữ đầu cao để tránh guillotine",
+    "Quét chân có rủi ro thấp"
+  ],
+  "moneyDetails": [
+    "Quét chân tốn ít năng lượng nhất trong no-gi",
+    "Garry Tonon và Gordon Ryan dùng quét chân cho toàn bộ standup game"
+  ],
+  "fixItFast": [
+    "Chân không move: off-balance trước",
+    "Bị guillotine: giữ đầu cao"
+  ]
+}

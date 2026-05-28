@@ -1,0 +1,67 @@
+{
+  "id": "berimbolo-back-take",
+  "locale": "fr",
+  "name": "Berimbolo / Prise de dos par inversion",
+  "description": "Le berimbolo utilise une inversion pour passer de sous l'adversaire à derrière lui. De la garde DLR ou RDLR, vous roulez sous lui quand il avance, accrochez sa hanche éloignée et revenez derrière.",
+  "whyItWorks": [
+    "L'inversion sous eux quand ils avancent inverse la relation intérieur/extérieur — vous passez de l'intérieur de leur guarde à l'extérieur de leur dos",
+    "L'accrochage de la hanche éloignée les empêche de vous suivre à travers l'inversion",
+    "Leur pas en avant est le déclencheur — s'ils avancent, le berimbolo est disponible",
+    "L'inversion utilise leur élan contre eux — aucune force requise"
+  ],
+  "commonMistakes": [
+    "Inverser par-dessus le sommet de la tête au lieu de l'épaule — dangereux pour le cou",
+    "Lâcher l'accroche de jambe pendant l'inversion — vous perdez la connexion et ils s'éloignent",
+    "Ne pas tirer la hanche éloignée pendant la roulade — la traction est ce qui fait pivoter votre corps à travers",
+    "S'arrêter en position truck au lieu de continuer jusqu'au back control — il faut terminer la prise de dos"
+  ],
+  "coachingCues": [
+    "Roulade sur l'épaule, pas sur la tête",
+    "Ils avancent = votre fenêtre",
+    "Tirez la hanche éloignée — ça vous fait pivoter",
+    "Ne vous arrêtez pas au truck — finissez en back control"
+  ],
+  "shortInstruction": "Accrochez DLR/RDLR, l'adversaire avance, inversez par-dessus votre épaule éloignée, tirez leur hanche éloignée à travers la roulade, et retombez derrière eux en back control.",
+  "summary": "La prise de dos par berimbolo utilise une inversion (roulade par-dessus l'épaule) pour passer de dessous l'adversaire à derrière lui. Déclenchée quand l'adversaire avance, vous roulez par-dessus l'épaule, tirez la hanche éloignée et retombez en back control.",
+  "safetySummary": [
+    "Inverser par-dessus le sommet de la tête peut blesser la colonne cervicale — roulez toujours sur l'épaule",
+    "Si vous sentez une pression sur le cou pendant l'inversion, abandonnez immédiatement",
+    "Pratiquez le berimbolo sur des tapis souples avec un partenaire coopératif avant de l'utiliser en combat"
+  ],
+  "keyCorrections": [
+    "S'ils n'avancent pas : le berimbolo n'est pas disponible — restez en DLR/RDLR et sweep plutôt",
+    "S'ils reculent pour éviter l'inversion : lâchez l'accroche DLR et entrez en K-guard",
+    "S'ils vous suivent à travers l'inversion : ils défendent correctement — rentrez en guarde et réessayez"
+  ],
+  "moneyDetails": [
+    "Le berimbolo a révolutionné le jeu de guarde BJJ moderne en introduisant les prises de dos par inversion",
+    "Maîtriser le berimbolo vous donne une entrée fiable en back control depuis la guarde sans force",
+    "Le berimbolo est particulièrement efficace contre les adversaires qui appuient vers l'avant avec leur poids"
+  ],
+  "fixItFast": [
+    "S'ils s'appuient sur une main pour bloquer la prise de dos : attaquez ce bras avec une kimura ou un armbar",
+    "S'ils reculent : relâchez et passez en K-guard entry",
+    "Si vous calez au milieu de la roulade : tirez leur hanche plus fort — la traction manuelle est le moteur de l'inversion"
+  ],
+  "systemLogic": {
+    "corePrinciple": "Berimbolo back take : guarde DLR ou RDLR → l'adversaire avance (déclencheur) → inversez par-dessus l'épaule éloignée → tirez leur hanche éloignée à travers la roulade → retombez derrière eux → remplacez l'accroche par le back control.",
+    "decisionTree": [
+      {
+        "condition": "Ils n'avancent pas",
+        "action": "le berimbolo n'est pas disponible — restez en DLR/RDLR et sweep plutôt"
+      },
+      {
+        "condition": "Ils reculent pour éviter l'inversion",
+        "action": "lâchez l'accroche DLR et entrez en K-guard"
+      },
+      {
+        "condition": "Ils vous suivent à travers l'inversion",
+        "action": "ils défendent correctement — rentrez en guarde et réessayez"
+      }
+    ],
+    "exitStrategies": [
+      "Si vous ne pouvez pas finir la prise de dos, rentrez en guarde et reset",
+      "S'ils vous aplatisent pendant la roulade, protégez votre cou et récupérez la guarde"
+    ]
+  }
+}

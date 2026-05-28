@@ -1,0 +1,132 @@
+{
+  "id": "mounted-triangle-armbar",
+  "domain": "submission_systems",
+  "level": "intermediate",
+  "status": "draft",
+  "name": "Mounted Triangle / Armbar",
+  "aliases": [],
+  "tags": [
+    "triangle",
+    "armbar",
+    "mount",
+    "dilemma",
+    "meta:modern-common",
+    "family:submission",
+    "group:mount-attacks"
+  ],
+  "keywords": [
+    "mounted triangle",
+    "mounted armbar",
+    "mount submissions",
+    "S-mount triangle",
+    "triangle armbar dilemma"
+  ],
+  "relatedSkills": [
+    {
+      "id": "s-mount-armbar",
+      "type": "recommended"
+    },
+    {
+      "id": "triangle-system",
+      "type": "recommended"
+    },
+    {
+      "id": "armbar-system",
+      "type": "recommended"
+    },
+    {
+      "id": "arm-triangle-mount",
+      "type": "recommended"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "mount-control",
+    "triangle-system",
+    "armbar-system"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [
+    "If the triangle won't lock, your S-mount is too low — climb higher on their chest.",
+    "If they posture and escape the triangle, you didn't trap the arm well enough — pin it with your leg before stepping over.",
+    "If they roll to escape, follow them — take the back instead of fighting to keep mount."
+  ],
+  "version": 1,
+  "updatedAt": "2026-05-28T00:00:00.000Z",
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "en",
+  "description": "From mount or S-mount, trap their arm and isolate their head to set up a triangle choke — when they defend, chain to the armbar or arm triangle. The mounted triangle is actually a higher percentage finish than the guard triangle in modern no-gi.",
+  "shortInstruction": "From S-mount, trap one arm between your leg and their head, bring your other leg over, crunch your heels, and squeeze — if they defend, swim the arm and attack the armbar.",
+  "summary": "The mounted triangle is one of the most dangerous attacks from mount because the opponent's arm is already trapped by your body weight. Unlike the guard triangle where you must break posture first, the mount gives you chest-on-chest pressure before you even begin. From S-mount, you step one leg over their head while trapping their arm with your opposite leg. The key difference from a guard triangle: your weight is on top, they cannot stack you, and the triangle-armbar dilemma is far more threatening. This system is heavily used by Tye Ruotolo, Giancarlo Bodoni, and modern BJJ competitors.",
+  "whyItWorks": [
+    "From mount, their arm is already compressed by your body weight — you don't need to break posture first like in guard.",
+    "The mounted triangle is tighter than a guard triangle because gravity helps close the space — your weight presses their shoulder into their neck.",
+    "The dilemma is stronger than from guard: if they defend the triangle by posturing, you immediately attack the armbar or take the back.",
+    "Your weight on their chest prevents them from rolling or bridging effectively to escape."
+  ],
+  "commonMistakes": [
+    "Trying the mounted triangle from a low mount instead of climbing to S-mount first — the angle is wrong without S-mount.",
+    "Reaching too far with the leg over their head — you lose balance and they escape. Keep the leg tight, foot behind their head.",
+    "Not trapping the arm properly — their arm must be pinned between your leg and their own head/shoulder.",
+    "Squeezing with the legs before locking the triangle — crunch your heels first, then squeeze."
+  ],
+  "coachingCues": [
+    "S-mount first, then attack the triangle.",
+    "Crunch your heels, then squeeze — not the other way around.",
+    "If they posture, swim the arm and lift your hips for the armbar.",
+    "Your weight is the choke — gravity does the work."
+  ],
+  "safetySummary": [
+    "Mounted triangle compresses the neck similarly to a guard triangle — release on tap immediately.",
+    "Be careful transitioning to armbar from mount — uncontrolled falling can injure both partners.",
+    "Apply submission pressure gradually, never explosively.",
+    "The armbar from mounted triangle puts torque on the elbow and shoulder — respect the tap."
+  ],
+  "systemLogic": {
+    "corePrinciple": "Mount: transition to S-mount → trap their arm with your same-side leg → step the other leg over their head → lock the triangle (foot behind their head, shin across your ankle) → crunch your heels together → squeeze.",
+    "decisionTree": [
+      {
+        "condition": "They defend the triangle by posturing straight",
+        "action": "swim your arm under their defending arm, lift your hips, and attack the armbar."
+      },
+      {
+        "condition": "They roll to their side to escape",
+        "action": "release the triangle and take the back immediately."
+      },
+      {
+        "condition": "They stack forward into you",
+        "action": "they can't stack from mount like from guard — squeeze tighter, the choke is there."
+      }
+    ],
+    "exitStrategies": []
+  },
+  "moneyDetails": [
+    "The key to the mounted triangle is climbing to S-mount first — a high mount on their chest (hips at sternum level) gives you the correct angle.",
+    "Step your leg over their head while keeping your weight heavy — their arm must be pinned between your leg and their shoulder.",
+    "Lock the triangle by placing the foot of your top leg behind their head (not across your shin like in guard).",
+    "Crunch your heels together first, then squeeze your knees — this tightens the choke without wasting energy.",
+    "The armbar transition: when they posture to defend, swim your arm under their triceps, lift your hips, and fall back with control — your leg over their head opens the armbar."
+  ],
+  "nextStep": "After the mounted triangle system, learn the arm triangle from mount and the technical mount armbar.",
+  "fixItFast": [
+    "Triangle won't lock? Climb higher on their chest — S-mount is the key.",
+    "They keep posturing? Attack the armbar or switch to arm triangle.",
+    "They roll? Take the back — don't fight the roll."
+  ]
+}

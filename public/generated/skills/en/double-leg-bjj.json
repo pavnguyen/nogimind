@@ -1,0 +1,134 @@
+{
+  "id": "double-leg-bjj",
+  "domain": "wrestle_up_wrestling",
+  "level": "intermediate",
+  "status": "draft",
+  "name": "Double Leg Takedown",
+  "aliases": [
+    "double leg",
+    "blast double"
+  ],
+  "tags": [
+    "takedown",
+    "wrestling",
+    "double-leg",
+    "blast-double",
+    "standing",
+    "clinch"
+  ],
+  "keywords": [
+    "double leg takedown",
+    "blast double",
+    "head outside single",
+    "wrestling for BJJ"
+  ],
+  "relatedSkills": [
+    {
+      "id": "ankle-pick-low-single",
+      "type": "chain"
+    },
+    {
+      "id": "arm-drag-system",
+      "type": "chain"
+    },
+    {
+      "id": "body-lock-takedown",
+      "type": "alternative"
+    },
+    {
+      "id": "bjj-foot-sweeps",
+      "type": "chain"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [
+    "wrestle-up-player",
+    "scramble-controller",
+    "half-guard-wrestler"
+  ],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "stance-movement-basics",
+    "hand-fighting"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [
+    "If you keep getting guillotined: your head is too low or centered — keep head outside",
+    "If you keep getting sprawled on: your level change is too shallow or your entry is telegraphed",
+    "If you keep landing in guard: drive your hips through before dropping your knee"
+  ],
+  "version": 1,
+  "updatedAt": "2026-05-28T00:00:00.000Z",
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": true,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "en",
+  "description": "The double leg takedown adapted for no-gi BJJ, with emphasis on head position, guillotine defense, and chaining to other takedowns. Unlike wrestling double legs which prioritize finishing at all costs, BJJ double legs must account for front headlock counters, guillotines, and the opponent pulling guard. The modern no-gi double leg uses a head-outside position to protect the neck, combined with a deep penetration step and run-the-pipe finish.",
+  "shortInstruction": "Level change, penetrate with head outside, drive through the hips, run the pipe to finish, and immediately defend the guillotine by keeping your head high.",
+  "summary": "The BJJ-adapted double leg differs from wrestling in several ways: head position is outside (not inside) to protect the neck from guillotines; the finish prioritizes landing chest-to-chest in side control; and the entry often comes from arm drags, collar ties, or foot sweeps rather than straight shots. The key mechanical sequence is: level change → penetration step (head outside) → hip drive → run the pipe → land in a dominant pin. Guillotine defense must be instinctive — posture up immediately and peel the hands.",
+  "whyItWorks": [
+    "Head-outside position protects the neck from guillotines and front headlocks",
+    "The double leg is the highest-percentage takedown in no-gi when combined with setup threats",
+    "Landing chest-to-chest gives immediate positional advancement to side control",
+    "Can be chained from foot sweeps, arm drags, and body lock entries"
+  ],
+  "commonMistakes": [
+    "Shooting with your head down — exposes the guillotine immediately",
+    "Dropping to your knees instead of driving through — gives up the finish",
+    "Stopping halfway — a partial double leg is worse than no attempt",
+    "Not chaining — a stuffed double leg should transition into a single or body lock",
+    "Landing in guard instead of driving to side control"
+  ],
+  "coachingCues": [
+    "Head outside, always — protects the neck",
+    "Level change before you step — don't telegraph",
+    "Drive through them, don't drop to your knees",
+    "Run the pipe — bring the far leg across your body",
+    "Chains: double → single → body lock → back take"
+  ],
+  "safetySummary": [
+    "Always keep your head to the outside to avoid guillotines",
+    "If you feel a guillotine, posture up immediately — do not continue driving",
+    "Sprawl defense: when sprawled on, protect your neck and recover to turtle or guard"
+  ],
+  "systemLogic": {
+    "corePrinciple": "Double leg has 3 entries: Collar Tie → Arm Drag → Foot Sweep",
+    "decisionTree": [
+      {
+        "condition": "Opponent sprawls and defends",
+        "action": "Circle out to single leg or body lock"
+      },
+      {
+        "condition": "Opponent guillotines",
+        "action": "Posture up, peel the hands, and pass to side"
+      },
+      {
+        "condition": "Opponent pulls guard",
+        "action": "Stay heavy and pass immediately"
+      }
+    ],
+    "exitStrategies": []
+  },
+  "moneyDetails": [
+    "The double leg is the highest-percentage takedown in ADCC and no-gi competition",
+    "Modern no-gi double legs prioritize head safety over finishing at all costs",
+    "Nicky Rod and Kade Ruotolo use the double leg as their primary takedown entry"
+  ],
+  "fixItFast": [
+    "If guillotined: posture up and hand fight before anything else",
+    "If sprawled: circle to single leg or back out to reset",
+    "If stuck in guard: you landed too early — drive through next time"
+  ]
+}

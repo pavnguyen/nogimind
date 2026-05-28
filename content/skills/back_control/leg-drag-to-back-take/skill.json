@@ -1,0 +1,47 @@
+{
+  "id": "leg-drag-to-back-take",
+  "domain": "back_control",
+  "level": "advanced",
+  "name": "Leg Drag to Back Take",
+  "aliases": [
+    "leg drag back take",
+    "leg drag to back"
+  ],
+  "tags": [
+    "tier:modern-expansion",
+    "meta:modern-common",
+    "risk:medium",
+    "family:back_take",
+    "modern-no-gi"
+  ],
+  "keywords": [
+    "leg drag",
+    "back take",
+    "pass and back take",
+    "leg drag chain"
+  ],
+  "modernSystemGroup": "crab_ride",
+  "relatedSkills": [
+    {
+      "id": "gift-wrap-back-take",
+      "type": "alternative"
+    }
+  ],
+  "prerequisiteSkillIds": [],
+  "relatedPositions": [],
+  "relatedConcepts": [],
+  "archetypeIds": [
+    "back-control-finisher"
+  ],
+  "trainingMethodIds": [],
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "updatedAt": "2026-05-28T09:34:33.160Z"
+}

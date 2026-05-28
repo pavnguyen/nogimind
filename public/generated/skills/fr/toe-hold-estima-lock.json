@@ -1,0 +1,140 @@
+{
+  "id": "toe-hold-estima-lock",
+  "domain": "submission_systems",
+  "level": "intermediate",
+  "status": "draft",
+  "name": "Toe Hold / Estima Lock",
+  "aliases": [],
+  "tags": [
+    "toe-hold",
+    "estima-lock",
+    "foot-lock",
+    "leg-lock",
+    "meta:modern-common",
+    "family:leg-lock",
+    "group:foot-lock"
+  ],
+  "keywords": [
+    "toe hold",
+    "estima lock",
+    "foot lock",
+    "ankle lock",
+    "figure-four foot lock"
+  ],
+  "relatedSkills": [
+    {
+      "id": "backside-50-50-control",
+      "type": "recommended"
+    },
+    {
+      "id": "saddle-inside-sankaku-control",
+      "type": "recommended"
+    },
+    {
+      "id": "fifty-fifty-to-heel-exposure",
+      "type": "recommended"
+    },
+    {
+      "id": "straight-ankle-lock-safety",
+      "type": "recommended"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "leg-lock-safety-basics",
+    "straight-ankle-lock-safety"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [
+    "Toe hold inefficace ? Votre prise est trop lâche — serrez et tournez de l'épaule, pas du poignet.",
+    "Estima lock inefficace ? Leur pied n'est pas épinglé — tirez-le plus fort contre votre corps.",
+    "Ils roulent hors du toe hold ? Passez au heel hook.",
+    "Vous perdez l'Estima lock ? Leur pied était trop bas."
+  ],
+  "version": 1,
+  "updatedAt": "2026-05-28T00:00:00.000Z",
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "fr",
+  "description": "Attaquez le pied et la cheville avec le toe hold traditionnel (rotation figure-four) et l'Estima lock moderne (pincement du pied par poussée des hanches) depuis les enchevêtrements de jambes.",
+  "shortInstruction": "Toe hold : prise figure-four, tournez leur pied vers leur hanche. Estima lock : épinglez leur pied contre votre corps, poussez les hanches — serrez, ne tordez pas.",
+  "summary": "Le toe hold et l'Estima lock sont de puissantes attaques du pied qui ciblent la cheville et le genou. Le toe hold traditionnel utilise une prise figure-four pour faire tourner le pied, créant une torsion latérale de la cheville. L'Estima lock moderne (popularisé par Victor et Braulio Estima) fonctionne différemment : il piège le pied de l'adversaire contre votre corps et utilise la poussée des hanches pour créer une flexion plantaire extrême. L'Estima lock est particulièrement efficace en no-gi car il ne nécessite pas de prise de kimono. Les deux attaques s'enchaînent bien avec les heel hooks et les ankle locks.",
+  "whyItWorks": [
+    "L'Estima lock attaque le pied dans une direction que la plupart des adversaires n'attendent pas — hyperextension par poussée des hanches plutôt que torsion.",
+    "Les deux attaques peuvent être finies depuis des positions où les heel hooks sont difficiles ou interdits.",
+    "Le toe hold est efficace contre les adversaires plus grands car il utilise le levier rotationnel.",
+    "L'Estima lock peut être entré très rapidement — la vitesse est son arme principale.",
+    "Les deux créent des dilemmes : défendre le toe hold expose le heel hook, et vice versa."
+  ],
+  "commonMistakes": [
+    "Confondre les deux mécanismes — toe hold utilise la rotation, Estima lock utilise la poussée des hanches.",
+    "Appliquer l'Estima lock avec de l'espace entre leur pied et votre corps.",
+    "Utiliser le toe hold avec un mauvais alignement du poignet.",
+    "Hésiter avec l'Estima lock — c'est une soumission de vitesse.",
+    "Oublier que l'Estima lock est aussi une position de contrôle."
+  ],
+  "coachingCues": [
+    "Toe hold : tournez le pied vers leur hanche, pas loin.",
+    "Estima lock : épinglez le pied contre votre corps, puis poussez avec les hanches.",
+    "S'ils tournent loin du toe hold, vous avez le heel hook.",
+    "L'Estima lock est une question de vitesse.",
+    "Contrôlez la knee line d'abord, puis attaquez le pied."
+  ],
+  "safetySummary": [
+    "Appliquez lentement et relâchez au tap.",
+    "La cheville a une stabilité latérale limitée.",
+    "Ne forcez pas le toe hold — la rotation contrôlée est plus sûre.",
+    "Les Estima locks exercent une pression sur le dessus du pied."
+  ],
+  "systemLogic": {
+    "corePrinciple": "Enchevêtrement de jambe → identifier l'exposition du pied → choisir l'attaque : toe hold (figure-four + rotation) ou Estima lock (pincement pied + poussée hanches) → finir ou enchaîner.",
+    "decisionTree": [
+      {
+        "condition": "Toe hold depuis la garde",
+        "action": "Figure-four sur leur pied, tournez les orteils vers leur hanche. Bloquez leur genou avec votre avant-bras."
+      },
+      {
+        "condition": "Estima lock depuis 50/50 ou backside",
+        "action": "Piégez leur pied contre votre ventre ou hanche, saisissez les orteils, poussez les hanches."
+      },
+      {
+        "condition": "Ils défendent le toe hold en tournant",
+        "action": "Relâchez et attaquez le heel hook sur la même jambe."
+      },
+      {
+        "condition": "Ils se lèvent pour libérer l'Estima lock",
+        "action": "Relâchez le pied, rentrez l'enchevêtrement ou balayez."
+      }
+    ],
+    "exitStrategies": []
+  },
+  "moneyDetails": [
+    "Toe hold : figure-four, pied dans l'aisselle. Main proche tient le talon, main éloignée tient votre poignet. Tournez les orteils vers leur hanche.",
+    "Estima lock : une main tient le talon, l'autre les orteils. Épinglez le dessus du pied contre votre ventre ou hanche. Poussez les hanches — la pression vient de l'extension des hanches.",
+    "L'Estima lock est souvent disponible quand l'adversaire essaie de se lever ou de libérer sa knee line.",
+    "Détail clé du toe hold : bloquez leur genou avec votre avant-bras pendant la rotation.",
+    "Enchaînement : depuis l'Estima lock, s'ils libèrent leur pied, leur talon est souvent exposé."
+  ],
+  "nextStep": "Après le toe hold et l'Estima lock, apprenez le straight ankle lock et le kneebar.",
+  "fixItFast": [
+    "Toe hold inefficace ? Bloquez leur genou avec l'avant-bras.",
+    "Estima lock inefficace ? Leur pied est trop bas — épinglez-le plus haut.",
+    "Ils s'échappent ? Enchaînez sur le heel hook.",
+    "Douleur au poignet ? Gardez le poignet neutre."
+  ]
+}

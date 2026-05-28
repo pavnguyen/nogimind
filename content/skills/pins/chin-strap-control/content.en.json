@@ -1,0 +1,56 @@
+{
+  "id": "chin-strap-control",
+  "locale": "en",
+  "name": "Chin Strap / Head Control System",
+  "description": "The chin strap is one of the most powerful control points in no-gi BJJ. It involves locking your hand under the opponent's chin, gripping their far lat or shoulder, and using their head as a lever to control their entire body. Systematized by John Danaher and used extensively by Gordon Ryan, the chin strap is the foundation of the front headlock ride system and a key tool for back exposure and turtle breaks.",
+  "shortInstruction": "Slide your hand deep under their chin (palm up), grip their far lat or shoulder, squeeze your elbow to your ribs, lift their chin to break posture, and walk your feet in to expose the back.",
+  "summary": "The chin strap gives you direct control of the opponent's head, which controls the spine, which controls the hips. By lifting and turning the head, you can break posture, expose the back, and neutralize frames. It is especially effective against turtled opponents because it removes their ability to look up and creates leverage to tip them over. Unlike a collar tie which only provides lateral control, the chin strap gives vertical and rotational control of the head and neck.",
+  "whyItWorks": [
+    "Direct head control translates to spine control, which translates to hip control",
+    "Lifting the chin breaks the opponent's posture and neutralizes their frames",
+    "Removes the opponent's ability to look up when turtled — they cannot see or post",
+    "Transitions directly into back takes, rides, and submissions"
+  ],
+  "commonMistakes": [
+    "Gripping too shallow — the hand must be deep under the chin, not just on the jawbone",
+    "Letting the elbow flare out — keeps your arm tight to your body at all times",
+    "Pulling straight back instead of lifting up — lift the chin to break posture",
+    "Losing chest-to-back contact — creates space for the opponent to escape",
+    "Releasing the chin strap too early when circling to the back"
+  ],
+  "coachingCues": [
+    "Hand deep under chin, palm up, squeeze elbow to ribs",
+    "Lift the chin, don't pull it back",
+    "Chest on their spine — no daylight",
+    "Walk your feet in toward their head to expose the back",
+    "The chin strap is a handle — use it to steer their head"
+  ],
+  "safetySummary": [
+    "The chin strap is a dominant control position — respect your training partner's neck",
+    "Apply pressure gradually when breaking the turtle — sudden neck cranks can cause injury",
+    "When training, give partners time to tap if the position becomes uncomfortable"
+  ],
+  "keyCorrections": [
+    "If they keep looking up: your hand is too shallow — dig deeper under the chin",
+    "If they keep escaping: your chest is off their back — glue your chest to their spine",
+    "If you lose the back: you released the chin strap too early — hold until you have seat belt"
+  ],
+  "systemLogic": {
+    "corePrinciple": "Chin strap has 3 branches: Back Exposure → Turtle Break → Ride Transition",
+    "decisionTree": [
+      { "condition": "Opponent stays in turtle", "action": "Lift the chin and walk your feet in to tip them over" },
+      { "condition": "Opponent tries to sit out", "action": "Follow their hip and transition to claw ride or spiral ride" },
+      { "condition": "Opponent exposes the back", "action": "Switch from chin strap to seat belt grip and take the back" }
+    ]
+  },
+  "moneyDetails": [
+    "The chin strap is the highest-percentage back exposure tool from front headlock",
+    "Gordon Ryan uses the chin strap to break the turtle of every ADCC opponent",
+    "Mastering the chin strap eliminates the need for complex turtle break techniques"
+  ],
+  "fixItFast": [
+    "If they keep looking up: dig deeper under the chin",
+    "If they keep escaping: chest to spine — close the gap",
+    "If you lose the back: hold the chin strap until seat belt is secured"
+  ]
+}

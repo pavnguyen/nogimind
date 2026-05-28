@@ -1,0 +1,56 @@
+{
+  "id": "bjj-foot-sweeps",
+  "locale": "en",
+  "name": "Foot Sweeps (Kouchi, Sasae, De Ashi)",
+  "description": "A system of foot sweeps adapted from Judo for no-gi BJJ. These techniques use timing, off-balancing (kuzushi), and precise foot placement to take down an opponent with minimal effort. Key sweeps include Kouchi Gari (inner reap), Sasae Tsurikomi Ashi (supporting foot block), and De Ashi Harai (forward foot sweep). Popularized in no-gi by Gordon Ryan, Garry Tonon, and the Danaher Death Squad.",
+  "shortInstruction": "Create off-balancing with collar ties and wrist control, sweep the foot as it receives weight, and chain into double legs when the opponent steps back.",
+  "summary": "Foot sweeps exploit the opponent's weight transfer during stance fighting. When the opponent is focused on defending double legs, their weight shifts predictably, making them vulnerable. In no-gi, collar ties, wrist control, and two-on-one grips create the necessary off-balancing. The key sweeps are Kouchi Gari (inner reap with circular pull), Sasae (blocking the advancing foot), and De Ashi Harai (sweeping the foot as it touches the mat).",
+  "whyItWorks": [
+    "Exploits predictable weight transfer when the opponent defends other takedowns",
+    "Requires minimal energy compared to high-commitment takedowns",
+    "Sets up higher commitment attacks by creating reactions",
+    "Constantly threatens even when you can't shoot for a double leg"
+  ],
+  "commonMistakes": [
+    "Sweeping without off-balancing first — the foot will be planted and cannot move",
+    "Dropping your head forward during the sweep, exposing the guillotine",
+    "Using only leg strength instead of coordinating upper body pull",
+    "Sweeping too early or too late — timing is everything",
+    "Not chaining — a foot sweep should lead into a double leg if partially blocked"
+  ],
+  "coachingCues": [
+    "Pull first, sweep second",
+    "The hands set up the sweep — create the reaction, then take it",
+    "Stay tall — head up, chest up throughout",
+    "Sweep the foot as it touches, not before",
+    "Chain sweeps: miss Kouchi → go Sasae → go double leg"
+  ],
+  "safetySummary": [
+    "Keep your head up to avoid guillotine counters when sweeping",
+    "Be aware of the opponent snapping you down as you close distance",
+    "Foot sweeps are low-risk — you stay on your feet and maintain distance"
+  ],
+  "keyCorrections": [
+    "If the foot won't move: you didn't off-balance first — pull them onto the foot, then sweep",
+    "If you keep getting guillotined: your head is dropping — keep your head up and spine tall",
+    "If the sweep doesn't disrupt their base: your timing is off — sweep as the foot lands, not before"
+  ],
+  "systemLogic": {
+    "corePrinciple": "Foot sweeps have 3 branches: Kouchi Gari → Sasae → De Ashi Harai",
+    "decisionTree": [
+      { "condition": "Opponent steps back from Kouchi attempt", "action": "Transition to double leg takedown" },
+      { "condition": "Opponent posts weight forward", "action": "Sasae — block their advancing foot and pull them over it" },
+      { "condition": "Opponent circles away", "action": "De Ashi Harai — catch their circling foot and sweep laterally" }
+    ]
+  },
+  "moneyDetails": [
+    "Foot sweeps are the lowest-energy takedowns in no-gi — use them to tire opponents",
+    "Garry Tonon and Gordon Ryan use foot sweeps to set up their entire standup game",
+    "Mastering foot sweeps eliminates the need to 'muscle' takedowns against larger opponents"
+  ],
+  "fixItFast": [
+    "If foot won't move: off-balance first — pull and then sweep",
+    "If guillotined: keep your head up, stay tall",
+    "If sweep fails: chain into a double leg immediately"
+  ]
+}

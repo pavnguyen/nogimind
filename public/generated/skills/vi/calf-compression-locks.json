@@ -1,0 +1,137 @@
+{
+  "id": "calf-compression-locks",
+  "domain": "submission_systems",
+  "level": "intermediate",
+  "status": "draft",
+  "name": "Khóa Nén Bắp Chân (Calf & Compression Locks)",
+  "aliases": [],
+  "tags": [
+    "calf-slicer",
+    "compression",
+    "leg-lock",
+    "knee-safety",
+    "meta:modern-common",
+    "family:leg-lock",
+    "group:compression"
+  ],
+  "keywords": [
+    "calf slicer",
+    "compression lock",
+    "bear trap",
+    "ham sandwich",
+    "calf crush",
+    "knee compression"
+  ],
+  "relatedSkills": [
+    {
+      "id": "bear-trap-ham-sandwich",
+      "type": "recommended"
+    },
+    {
+      "id": "saddle-inside-sankaku-control",
+      "type": "recommended"
+    },
+    {
+      "id": "backside-50-50-control",
+      "type": "recommended"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "leg-lock-safety-basics",
+    "heel-hook-safety"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [
+    "Nếu đối thủ rút chân ra, bẫy của bạn quá nông — vào lại sâu hơn.",
+    "Nếu không tap được, góc ống chân sai — xoay ống chân để cạnh xương ép vào bắp chân.",
+    "Nếu họ xoay ra, bạn mất kiểm soát upper body — grip cổ áo, tay hoặc hông xa.",
+    "Nếu chân bạn mỏi giữ bẫy, bạn đang dùng cơ thay vì cấu trúc — thư giãn và dựa vào xương."
+  ],
+  "version": 1,
+  "updatedAt": "2026-05-28T00:00:00.000Z",
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "vi",
+  "description": "Sử dụng khóa nén (calf slicer) từ leg entanglements và guard để tấn công gối và bắp chân — buộc tap hoặc mở sweep và back take.",
+  "shortInstruction": "Bẫy chân, đưa xương ống chân vào bắp chân đối thủ, nén — calf slicer là đòn 3 giây nếu góc đúng.",
+  "summary": "Khóa nén bắp chân (calf slicer) dùng xương ống chân của bạn ép vào bắp chân đối thủ với chân họ bị kẹt trong khớp gối của bạn. Lực nén tạo áp lực dữ dội lên bắp chân và gối — đối thủ phải tap, lộ lưng hoặc cho sweep. Không giống heel hook nhắm vào dây chằng xoay của gối, khóa nén tấn công gối ở một mặt phẳng khác và thường có sẵn khi heel hook bị phòng thủ. Chúng hoạt động từ saddle, 50/50, backside 50/50, half guard và truck. Chìa khóa là tiếp xúc xương-với-cơ với góc ống chân đúng và lực từ hông.",
+  "whyItWorks": [
+    "Xương ống chân (tibia) ép vào bắp chân tạo áp lực tập trung mà ít đối thủ chịu được.",
+    "Khóa nén tấn công gối ở mặt phẳng mà phòng thủ heel hook không bảo vệ — là đòn tấn công phụ xuất sắc.",
+    "Tạo dilemma: tap từ calf slicer hoặc cho sweep/back take.",
+    "Cơ chế đơn giản và lặp lại được — bẫy, căn chỉnh, nén — đáng tin cậy dưới áp lực.",
+    "Calf slicer có thể finish với lực tương đối thấp khi góc đúng."
+  ],
+  "commonMistakes": [
+    "Dùng mặt phẳng của ống chân thay vì cạnh xương — cạnh xương tạo áp lực tập trung.",
+    "Để khoảng trống giữa chân họ và cơ thể bạn — bẫy phải sát vào ngực hoặc hông.",
+    "Quên kiểm soát upper body của đối thủ — họ sẽ xoay ra khỏi khóa nén.",
+    "Áp dụng khóa nén quá chậm hoặc do dự — tiếp xúc xương-với-bắp chân dứt khoát hiệu quả hơn.",
+    "Over-commit vào finish khi đối thủ lăn — theo họ để sweep hoặc back take."
+  ],
+  "coachingCues": [
+    "Cạnh xương vào bắp chân, mặt phẳng ống chân không hiệu quả.",
+    "Bẫy sâu trong khớp gối — calf slicer cần sự gần gũi.",
+    "Kiểm soát upper body trước khi nén.",
+    "Nếu họ lăn, theo — sweep đáng giá hơn tap.",
+    "Nén là về góc, không phải sức mạnh."
+  ],
+  "safetySummary": [
+    "Calf slicer tạo áp lực dữ dội lên khớp gối và bắp chân — apply chậm và thả ngay khi tap.",
+    "Không apply khóa nén bạo lực — chấn thương gối có thể xảy ra trước khi đối thủ cảm thấy đau.",
+    "Không khuyến nghị cho người mới — cần kiểm soát và nhận thức đúng.",
+    "Một số đối tác có thể có vấn đề gối từ trước — thiết lập giao tiếp trước khi tập."
+  ],
+  "systemLogic": {
+    "corePrinciple": "Leg entanglement hoặc guard → bẫy chân đối thủ trong khớp gối của bạn → căn chỉnh cạnh xương ống chân vào bắp chân họ → nén bằng cách khép khoảng trống → finish hoặc theo hướng lăn.",
+    "decisionTree": [
+      {
+        "condition": "Từ saddle / inside sankaku",
+        "action": "Đưa chân ngoài qua chân bị bẫy của họ, bẫy bàn chân ở hông, đẩy ống chân vào bắp chân."
+      },
+      {
+        "condition": "Từ half guard / half butterfly",
+        "action": "Bẫy chân gần trong khớp gối, underhook chân xa, đẩy ống chân vào bắp chân (bear trap entry)."
+      },
+      {
+        "condition": "Từ truck position",
+        "action": "Khóa tam giác chân quanh eo, đưa ống chân sau gối họ, bẫy chân và nén."
+      },
+      {
+        "condition": "Họ lăn để thoát",
+        "action": "Thả nén, theo hông họ để sweep lên top hoặc lấy lưng."
+      }
+    ],
+    "exitStrategies": []
+  },
+  "moneyDetails": [
+    "Cạnh xương ống chân (tibia) là vũ khí — xoay ống chân để cạnh sắc, không phải mặt phẳng, tiếp xúc với bắp chân.",
+    "Chân bị bẫy càng gần hông hoặc ngực bạn, lực nén càng mạnh — sự gần gũi tạo áp lực.",
+    "Kiểm soát upper body (collar tie, underhook, hoặc far wrist) ngăn họ xoay ra.",
+    "Entry phổ biến từ saddle: đưa chân ngoài qua chân bị bẫy, bẫy bàn chân ở hông, đẩy hông về phía trước để nén.",
+    "Từ half guard: khi họ đẩy tới, bẫy chân gần trong khớp gối, underhook, và xoay hông về phía họ."
+  ],
+  "nextStep": "Sau calf compression locks, học toe hold / Estima lock như đòn tấn công bàn chân từ leg entanglements.",
+  "fixItFast": [
+    "Chân cứ trượt? Bẫy sâu hơn — gần hông hoặc ngực hơn.",
+    "Nén không hiệu quả? Điều chỉnh góc ống chân — dùng cạnh xương.",
+    "Họ lăn ra? Thả bẫy, theo hông, lấy lưng hoặc sweep.",
+    "Đau ống chân? Bạn đang dùng mặt phẳng — xoay sang cạnh xương."
+  ]
+}

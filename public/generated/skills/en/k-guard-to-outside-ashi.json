@@ -1,0 +1,126 @@
+{
+  "id": "k-guard-to-outside-ashi",
+  "domain": "guard_offense",
+  "level": "advanced",
+  "status": "draft",
+  "name": "K-Guard to Outside Ashi",
+  "aliases": [
+    "K-guard entry",
+    "K-guard leg lock",
+    "K-guard to heel hook"
+  ],
+  "tags": [
+    "tier:modern-expansion",
+    "meta:modern-common",
+    "risk:high",
+    "family:leg_lock",
+    "modern-no-gi"
+  ],
+  "keywords": [
+    "K-guard",
+    "outside ashi",
+    "heel hook entry",
+    "leg entanglement",
+    "saddle"
+  ],
+  "modernSystemGroup": "k_guard",
+  "relatedSkills": [
+    {
+      "id": "inside-outside-heel-hook",
+      "type": "chain"
+    },
+    {
+      "id": "coyote-half-guard",
+      "type": "supporting"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [
+    "leg-lock-safety-first"
+  ],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "leg-lock-safety-basics"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [
+    "If they step back to clear K-guard: pummel leg to outside ashi",
+    "If they step forward to pressure: stay in K-guard and sweep instead",
+    "If they post on your head to block: pummel their arm or switch to omoplata"
+  ],
+  "version": 1,
+  "updatedAt": "2026-05-28T09:34:33.158Z",
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "en",
+  "description": "K-guard to outside ashi is the primary leg-lock entry chain from K-guard. When the opponent defends the K-guard (by stepping back or posting), you release the K-guard hook and re-enter directly into outside ashi — the leg entanglement that leads to the saddle or straight heel hook exposure.",
+  "shortInstruction": "From K-guard, as they step back, release outside hook and pummel leg inside their far leg. Re-enter outside ashi with heel exposure.",
+  "summary": "K-guard to outside ashi transitions from a guard position to a leg entanglement by releasing the K-guard hook and pummeling directly into outside ashi. The transition is faster than the opponent can defend because you are already underneath them with one leg entangled.",
+  "whyItWorks": [
+    "The K-guard already has your hips underneath theirs and your leg entangled — you are already 50% into the leg lock",
+    "Releasing the K-guard hook and re-entering as outside ashi is one movement — they cannot defend both positions in sequence",
+    "Outside ashi gives you heel exposure on the far leg while protecting your own knee line",
+    "The transition happens below their field of vision — many do not recognize the threat until it is too late"
+  ],
+  "commonMistakes": [
+    "Losing the K-guard before establishing outside ashi — there is a gap between the two where you are vulnerable",
+    "Letting them clear their far knee during the transition — must keep the far leg trapped",
+    "Going to saddle too early — finish from outside ashi first; saddle is the backup option",
+    "Not controlling their near hand — they can frame against your head or peel the leg entanglement"
+  ],
+  "coachingCues": [
+    "K-guard hook pulls, outside ashi leg pummels — two movements that feel like one",
+    "Keep the far leg trapped through the transition — lose it, lose the entry",
+    "Finish from outside ashi before considering saddle",
+    "Control the near hand — if they frame your head, the entanglement fails"
+  ],
+  "safetySummary": [
+    "This transition involves leg entanglements — ensure you know the safety positions before practicing",
+    "Do not apply heel hook pressure during drilling — practice the transition with controlled movement only",
+    "If you lose the leg entanglement, immediately recover guard rather than fighting for the heel hook"
+  ],
+  "systemLogic": {
+    "corePrinciple": "K-guard to outside ashi: establish K-guard → opponent steps back (trigger) → release K-guard hook → pummel your leg inside their far leg → re-enter as outside ashi → expose the heel.",
+    "decisionTree": [
+      {
+        "condition": "They step back to clear K-guard",
+        "action": "pummel leg to outside ashi"
+      },
+      {
+        "condition": "They step forward to pressure",
+        "action": "stay in K-guard and sweep instead"
+      },
+      {
+        "condition": "They post on your head to block",
+        "action": "pummel their arm or switch to omoplata"
+      }
+    ],
+    "exitStrategies": [
+      "If they free their far leg, re-enter K-guard or recover guard",
+      "If you lose the entanglement, do not chase it — reset to full guard"
+    ]
+  },
+  "moneyDetails": [
+    "K-guard to outside ashi is the primary leg-lock entry used by elite no-gi competitors at ADCC level",
+    "Mastering this transition gives you a direct path from guard to heel hook that bypasses many common defenses",
+    "The K-guard is one of the safest guard positions for entering leg locks because your hips are below theirs"
+  ],
+  "fixItFast": [
+    "If they free their far leg: you lost the position — re-enter K-guard or recover guard",
+    "If they frame your head: pummel the arm and re-establish the entanglement",
+    "If they step back but you miss the outside ashi entry: recover full guard and try again from K-guard"
+  ]
+}

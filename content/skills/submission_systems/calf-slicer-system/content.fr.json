@@ -1,0 +1,63 @@
+{
+  "id": "calf-slicer-system",
+  "locale": "fr",
+  "name": "Système de Calf Slicer / Verrouillage par compression",
+  "description": "Le calf slicer comprime le muscle du mollet entre votre tibia et leur propre tibia, créant une pression douloureuse et un verrouillage musculaire.",
+  "whyItWorks": [
+    "La compression tibia-contre-mollet crée un verrou musculaire — le muscle du mollet est comprimé contre le tibia et le péroné",
+    "Contrairement aux clés articulaires, le calf slicer ne repose pas sur l'hyperextension — il fonctionne par la douleur et la fatigue musculaire",
+    "Les calf slicers sont disponibles depuis des enchevêtrements de jambes où les heel hooks sont défendus ou illégaux",
+    "La compression crée un verrou secondaire qui bloque la cheville — le pied ne peut pas s'échapper"
+  ],
+  "commonMistakes": [
+    "Placer le tibia sur la cheville au lieu du ventre du mollet — la compression de la cheville est plus faible et plus facile à échapper",
+    "Ne pas piéger leur pied — si le pied est libre, ils peuvent glisser hors de la compression",
+    "Appliquer le slicer sans isolement — ils peuvent tourner si leur hanche est libre",
+    "Utiliser une pression explosive — les calf slicers doivent être appliqués progressivement pour la sécurité"
+  ],
+  "coachingCues": [
+    "Tibia sur le ventre du mollet, pas sur la cheville",
+    "Piégez le pied, verrouillez la compression",
+    "Serrez les talons — plus les talons sont proches, plus la compression est forte",
+    "Appliquez lentement — les calf slicers n'ont pas besoin d'explosion"
+  ],
+  "shortInstruction": "Depuis le saddle ou 50/50, placez votre tibia en travers du ventre de leur mollet, piégez leur pied, serrez vos talons l'un vers l'autre en tirant le pied vers votre poitrine.",
+  "summary": "Le calf slicer comprime le muscle du mollet contre le tibia, créant un verrou musculaire qui ne repose pas sur l'hyperextension. Il est disponible depuis les enchevêtrements de jambes où les heel hooks sont défendus ou illégaux, et doit être appliqué progressivement pour la sécurité.",
+  "safetySummary": [
+    "Les calf slicers attaquent le tissu musculaire — appliquez lentement et relâchez quand l'adversaire tape",
+    "N'appliquez pas de pression explosive — la compression peut déchirer le muscle",
+    "Sachez que les calf slicers peuvent provoquer des crampes et des spasmes musculaires même après la libération"
+  ],
+  "keyCorrections": [
+    "Depuis le saddle : contrôlez la jambe du dessus, amenez le tibia en travers du mollet, serrez les talons",
+    "Depuis le 50/50 : enjambez, piégez le pied sous l'aisselle, poussez le tibia dans le mollet",
+    "S'ils tendent la jambe : relâchez — le calf slicer nécessite un genou plié"
+  ],
+  "moneyDetails": [
+    "Les calf slicers sont légaux à tous les niveaux de ceinture en IBJJF et dans la plupart des règlements no-gi",
+    "Le calf slicer est particulièrement efficace contre les adversaires plus grands car il ne nécessite pas de force",
+    "Avoir un calf slicer fiable vous donne une option de soumission depuis les enchevêtrements de jambes sans les risques du heel hook"
+  ],
+  "fixItFast": [
+    "S'ils tendent la jambe : relâchez immédiatement et rentrez à nouveau dans l'enchevêtrement",
+    "S'ils tournent pour sortir : rétablissez la guarde et essayez une autre entrée",
+    "Si la compression n'est pas assez serrée : rapprochez vos talons l'un de l'autre"
+  ],
+  "systemLogic": {
+    "corePrinciple": "Calf slicer : entrez depuis un enchevêtrement (saddle ou 50/50) → piégez leur pied contre votre corps → placez votre tibia en travers du ventre de leur mollet → serrez vos talons l'un vers l'autre → comprimez le muscle du mollet contre le tibia.",
+    "decisionTree": [
+      {
+        "condition": "Ils tendent la jambe",
+        "action": "relâchez et rentrez à nouveau dans l'enchevêtrement — le calf slicer nécessite un genou plié"
+      },
+      {
+        "condition": "Ils tournent pour sortir",
+        "action": "vous avez perdu le contrôle de la hanche — rétablissez la guarde ou l'enchevêtrement"
+      }
+    ],
+    "exitStrategies": [
+      "Si le calf slicer échoue, passez à un heel hook ou ankle lock",
+      "Si vous perdez l'enchevêtrement, récupérez immédiatement la guarde"
+    ]
+  }
+}

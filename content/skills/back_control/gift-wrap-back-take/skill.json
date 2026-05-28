@@ -1,0 +1,52 @@
+{
+  "id": "gift-wrap-back-take",
+  "domain": "back_control",
+  "level": "intermediate",
+  "name": "Gift Wrap / Arm Drag Back Take",
+  "aliases": [
+    "gift wrap",
+    "gift wrap back take",
+    "arm drag back take"
+  ],
+  "tags": [
+    "tier:modern-expansion",
+    "meta:modern-common",
+    "risk:low",
+    "family:back_take",
+    "modern-no-gi"
+  ],
+  "keywords": [
+    "gift wrap",
+    "arm drag back take",
+    "far arm control",
+    "back take from side control"
+  ],
+  "modernSystemGroup": "counter_wrestling",
+  "relatedSkills": [
+    {
+      "id": "leg-drag-to-back-take",
+      "type": "alternative"
+    },
+    {
+      "id": "arm-drag-system",
+      "type": "chain"
+    }
+  ],
+  "prerequisiteSkillIds": [],
+  "relatedPositions": [],
+  "relatedConcepts": [],
+  "archetypeIds": [
+    "back-control-finisher"
+  ],
+  "trainingMethodIds": [],
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "updatedAt": "2026-05-28T09:34:33.160Z"
+}

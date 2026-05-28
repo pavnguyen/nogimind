@@ -1,0 +1,77 @@
+{
+  "id": "toe-hold-estima-lock",
+  "locale": "vi",
+  "name": "Toe Hold / Estima Lock",
+  "description": "Tấn công bàn chân và mắt cá bằng toe hold truyền thống (xoay figure-four) và Estima lock hiện đại (dùng hông để ép bàn chân) từ leg entanglements và guard transitions.",
+  "shortInstruction": "Toe hold: grip figure-four, xoay bàn chân họ về phía hông. Estima lock: kẹp bàn chân họ vào cơ thể bạn, đẩy hông về phía trước — ép, không xoắn.",
+  "summary": "Toe hold và Estima lock là những đòn tấn công bàn chân mạnh nhắm vào mắt cá và gối. Toe hold truyền thống dùng grip figure-four để xoay bàn chân, tạo lực xoắn ngang lên mắt cá. Estima lock hiện đại (được phổ biến bởi Victor và Braulio Estima) hoạt động khác — nó kẹp bàn chân đối thủ vào cơ thể bạn và dùng lực đẩy hông để tạo áp lực gập bàn chân cực độ, hoạt động như một 'straight ankle lock ngược'. Estima lock đặc biệt hiệu quả trong no-gi vì không cần grip áo và có thể setup nhanh từ các leg entanglements. Cả hai đòn chain tốt với heel hook và ankle lock.",
+  "whyItWorks": [
+    "Estima lock tấn công bàn chân theo hướng mà hầu hết đối thủ không ngờ — thay vì xoắn, nó ép duỗi bằng lực hông.",
+    "Cả hai đòn có thể finish từ vị trí mà heel hook khó hoặc bị cấm trong một số ruleset.",
+    "Toe hold hiệu quả với đối thủ lớn hơn vì dùng đòn bẩy xoay thay vì sức mạnh thô.",
+    "Estima lock có thể vào rất nhanh từ transition — tốc độ là vũ khí chính của nó.",
+    "Cả hai đòn tạo dilemma: phòng thủ toe hold lộ heel hook, và ngược lại."
+  ],
+  "commonMistakes": [
+    "Nhầm lẫn hai cơ chế — toe hold dùng xoay, Estima lock dùng đẩy hông. Không trộn lẫn.",
+    "Estima lock để khoảng trống giữa bàn chân họ và cơ thể — bàn chân phải kẹp chặt.",
+    "Toe hold với sai góc cổ tay — cổ tay nên ở vị trí trung tính để tránh chấn thương.",
+    "Do dự với Estima lock — nó là đòn tốc độ; do dự cho họ thời gian rút chân.",
+    "Quên rằng Estima lock cũng là vị trí kiểm soát — nếu họ không tap, bạn có thể sweep hoặc transition."
+  ],
+  "coachingCues": [
+    "Toe hold: xoay bàn chân về phía hông họ, không ra xa.",
+    "Estima lock: kẹp bàn chân vào cơ thể, rồi đẩy hông.",
+    "Nếu họ xoay ra khỏi toe hold, bạn có heel hook.",
+    "Estima lock là về tốc độ — nếu do dự, họ thoát.",
+    "Kiểm soát knee line trước, rồi tấn công bàn chân."
+  ],
+  "safetySummary": [
+    "Toe hold và Estima lock nhắm vào mắt cá và gối — apply chậm và thả ngay khi tap.",
+    "Mắt cá có độ ổn định ngang hạn chế — xoay quá mức có thể gây tổn thương dây chằng.",
+    "Không crank toe hold — xoay có kiểm soát an toàn và hiệu quả hơn.",
+    "Estima lock tạo áp lực lên mu bàn chân — lưu ý đối tác có chấn thương chân trước đó.",
+    "Tap sớm trên bất kỳ đòn khóa bàn chân nào — phục hồi chấn thương bàn chân thường chậm."
+  ],
+  "keyCorrections": [
+    "Nếu toe hold không đau, grip của bạn quá lỏng — siết figure-four và xoay từ vai, không phải cổ tay.",
+    "Nếu Estima lock không hiệu quả, bàn chân họ không kẹp vào cơ thể bạn — kéo chặt hơn vào hông hoặc bụng.",
+    "Nếu họ lăn ra khỏi toe hold, chuyển sang heel hook hoặc straight ankle lock.",
+    "Nếu mất Estima lock, bàn chân họ quá thấp — nhắm kẹp mu bàn chân ở hoặc trên xương hông."
+  ],
+  "systemLogic": {
+    "corePrinciple": "Leg entanglement hoặc guard transition → nhận diện foot exposure → chọn tấn công: toe hold (grip figure-four + xoay) hoặc Estima lock (kẹp bàn chân + đẩy hông) → finish hoặc chain.",
+    "decisionTree": [
+      {
+        "condition": "Toe hold từ guard",
+        "action": "Khóa figure-four trên bàn chân họ, xoay ngón chân về phía hông. Dùng forearm chặn gối họ khỏi xoay theo."
+      },
+      {
+        "condition": "Estima lock từ 50/50 hoặc backside",
+        "action": "Kẹp bàn chân họ vào bụng hoặc hông, grip ngón chân/mu bàn chân, đẩy hông tới."
+      },
+      {
+        "condition": "Họ phòng thủ toe hold bằng cách xoay ra",
+        "action": "Thả toe hold và tấn công heel hook trên cùng chân."
+      },
+      {
+        "condition": "Họ đứng lên để clear Estima lock",
+        "action": "Thả bàn chân, vào lại leg entanglement, hoặc sweep khi họ đứng."
+      }
+    ]
+  },
+  "moneyDetails": [
+    "Toe hold grip: figure-four với bàn chân họ trong nách. Tay gần nắm gót họ, tay xa nắm cổ tay của bạn. Xoay ngón chân về phía hông.",
+    "Estima lock grip: một tay ôm gót, tay kia nắm ngón chân/mu bàn chân. Kẹp mu bàn chân vào bụng hoặc xương hông. Đẩy hông tới — áp lực từ duỗi hông, không phải siết tay.",
+    "Estima lock thường có sẵn khi đối thủ cố đứng lên hoặc clear knee line từ 50/50 hoặc SLX — bàn chân họ tự nhiên bị kẹp vào cơ thể bạn.",
+    "Chi tiết quan trọng cho toe hold: chặn gối họ bằng forearm khi xoay — nếu gối xoay theo, đòn mất hiệu quả.",
+    "Chain attack: từ Estima lock, nếu họ rút chân, gót họ thường lộ cho heel hook."
+  ],
+  "nextStep": "Sau toe hold và Estima lock, học straight ankle lock và kneebar như đòn tấn công chân bổ sung.",
+  "fixItFast": [
+    "Toe hold không hiệu quả? Chặn gối họ bằng forearm để ngăn gối xoay theo.",
+    "Estima lock không hiệu quả? Bàn chân họ quá thấp — kẹp cao hơn, ở hoặc trên xương hông.",
+    "Họ cứ thoát? Chain sang heel hook — phòng thủ đòn chân thường lộ gót.",
+    "Đau cổ tay? Sai góc grip — giữ cổ tay trung tính, không cong."
+  ]
+}

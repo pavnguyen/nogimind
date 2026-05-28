@@ -1,0 +1,132 @@
+{
+  "id": "mounted-triangle-armbar",
+  "domain": "submission_systems",
+  "level": "intermediate",
+  "status": "draft",
+  "name": "Tam Giác / Armbar Từ Mount",
+  "aliases": [],
+  "tags": [
+    "triangle",
+    "armbar",
+    "mount",
+    "dilemma",
+    "meta:modern-common",
+    "family:submission",
+    "group:mount-attacks"
+  ],
+  "keywords": [
+    "mounted triangle",
+    "mounted armbar",
+    "mount submissions",
+    "S-mount triangle",
+    "triangle armbar dilemma"
+  ],
+  "relatedSkills": [
+    {
+      "id": "s-mount-armbar",
+      "type": "recommended"
+    },
+    {
+      "id": "triangle-system",
+      "type": "recommended"
+    },
+    {
+      "id": "armbar-system",
+      "type": "recommended"
+    },
+    {
+      "id": "arm-triangle-mount",
+      "type": "recommended"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "mount-control",
+    "triangle-system",
+    "armbar-system"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [
+    "Tam giác không khóa được? S-mount của bạn quá thấp — trèo cao hơn trên ngực họ.",
+    "Họ ngồi dậy thoát tam giác? Bạn chưa bẫy tay tốt — kẹp chặt tay họ trước khi đưa chân qua.",
+    "Họ lăn để thoát? Theo họ — lấy back thay vì cố giữ mount."
+  ],
+  "version": 1,
+  "updatedAt": "2026-05-28T00:00:00.000Z",
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "vi",
+  "description": "Từ mount hoặc S-mount, bẫy cánh tay và cô lập đầu đối thủ để thiết lập tam giác — khi họ phòng thủ, chuyển sang armbar hoặc arm triangle. Tam giác từ mount có tỷ lệ kết thúc cao hơn tam giác từ guard trong no-gi hiện đại.",
+  "shortInstruction": "Từ S-mount, bẫy một tay giữa chân bạn và đầu họ, đưa chân kia qua đầu, khóa gót chân và siết — nếu họ phòng thủ, luồn tay và tấn công armbar.",
+  "summary": "Tam giác từ mount là một trong những đòn tấn công nguy hiểm nhất từ mount vì cánh tay đối thủ đã bị khóa bởi trọng lượng cơ thể bạn. Không giống như tam giác từ guard nơi bạn phải bẻ tư thế trước, mount cho bạn áp lực ngực kề ngực ngay từ đầu. Từ S-mount, bạn đưa một chân qua đầu họ trong khi bẫy cánh tay kia bằng chân đối diện. Điểm khác biệt chính: trọng lượng bạn ở trên, họ không thể stack bạn, và tình thế tiến thoái lưỡng nan tam giác-armbar nguy hiểm hơn nhiều. Hệ thống này được sử dụng rộng rãi bởi Tye Ruotolo, Giancarlo Bodoni và các võ sĩ BJJ hiện đại.",
+  "whyItWorks": [
+    "Từ mount, cánh tay họ đã bị nén bởi trọng lượng bạn — không cần bẻ tư thế như từ guard.",
+    "Tam giác từ mount chặt hơn từ guard vì trọng lực giúp đóng khoảng trống — trọng lượng bạn đè vai họ vào cổ họ.",
+    "Tình thế tiến thoái lưỡng nan mạnh hơn: nếu họ chống đỡ bằng cách ngồi dậy, bạn lập tức tấn công armbar hoặc lấy back.",
+    "Trọng lượng trên ngực ngăn họ lăn hoặc cầu một cách hiệu quả."
+  ],
+  "commonMistakes": [
+    "Thử tam giác từ mount thấp thay vì lên S-mount trước — góc sai nếu không có S-mount.",
+    "Đưa chân qua đầu quá xa — mất thăng bằng và họ thoát. Giữ chân sát, bàn chân sau đầu họ.",
+    "Không bẫy cánh tay đúng cách — cánh tay phải bị kẹp giữa chân bạn và vai/đầu họ.",
+    "Siết chân trước khi khóa tam giác — khóa gót trước, sau đó siết."
+  ],
+  "coachingCues": [
+    "S-mount trước, sau đó tấn công tam giác.",
+    "Khóa gót trước, rồi siết — không làm ngược lại.",
+    "Nếu họ ngồi dậy, luồn tay và nâng hông cho armbar.",
+    "Trọng lượng bạn là đòn siết — trọng lực làm việc."
+  ],
+  "safetySummary": [
+    "Tam giác từ mount nén cổ tương tự tam giác từ guard — nhả ngay khi họ tap.",
+    "Cẩn thận khi chuyển sang armbar từ mount — ngã không kiểm soát có thể gây thương tích.",
+    "Áp dụng áp lực từ từ, không bùng nổ.",
+    "Armbar từ tam giác mount tạo lực xoắn lên khuỷu tay và vai — tôn trọng cái tap."
+  ],
+  "systemLogic": {
+    "corePrinciple": "Mount: lên S-mount → bẫy cánh tay họ bằng chân cùng phía → đưa chân kia qua đầu → khóa tam giác (bàn chân sau đầu họ, ống chân qua mắt cá) → khóa gót chân vào nhau → siết.",
+    "decisionTree": [
+      {
+        "condition": "Họ chống đỡ bằng cách ngồi dậy thẳng",
+        "action": "luồn tay dưới cánh tay đang chống đỡ, nâng hông và tấn công armbar."
+      },
+      {
+        "condition": "Họ lăn nghiêng để thoát",
+        "action": "thả tam giác và lấy back ngay lập tức."
+      },
+      {
+        "condition": "Họ đẩy tới (stack) vào bạn",
+        "action": "họ không thể stack từ mount như từ guard — siết chặt hơn, đòn siết đã ở đó."
+      }
+    ],
+    "exitStrategies": []
+  },
+  "moneyDetails": [
+    "Chìa khóa của tam giác từ mount là lên S-mount trước — mount cao trên ngực họ (hông ở mức sternum) cho bạn góc chính xác.",
+    "Đưa chân qua đầu trong khi giữ trọng lượng nặng — cánh tay họ phải kẹp giữa chân bạn và vai họ.",
+    "Khóa tam giác bằng cách đặt bàn chân sau đầu họ (không phải qua ống chân như trong guard).",
+    "Khóa gót chân vào nhau trước, sau đó siết đầu gối — điều này siết chặt đòn mà không tốn sức.",
+    "Chuyển armbar: khi họ ngồi dậy chống đỡ, luồn tay dưới cánh tay sau, nâng hông và ngả người có kiểm soát — chân qua đầu họ mở ra cơ hội armbar."
+  ],
+  "nextStep": "Sau hệ thống tam giác từ mount, học arm triangle từ mount và armbar từ technical mount.",
+  "fixItFast": [
+    "Tam giác không khóa? Trèo cao hơn trên ngực họ — S-mount là chìa khóa.",
+    "Họ cứ ngồi dậy? Tấn công armbar hoặc chuyển sang arm triangle.",
+    "Họ lăn? Lấy back — đừng chống lại cú lăn."
+  ]
+}

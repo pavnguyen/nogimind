@@ -1,0 +1,42 @@
+{
+  "id": "double-leg-bjj",
+  "domain": "wrestle_up_wrestling",
+  "level": "intermediate",
+  "name": "Double Leg Takedown",
+  "aliases": ["double leg", "blast double"],
+  "tags": [
+    "takedown",
+    "wrestling",
+    "double-leg",
+    "blast-double",
+    "standing",
+    "clinch"
+  ],
+  "keywords": [
+    "double leg takedown",
+    "blast double",
+    "head outside single",
+    "wrestling for BJJ"
+  ],
+  "relatedSkills": [
+    { "id": "ankle-pick-low-single", "type": "chain" },
+    { "id": "arm-drag-system", "type": "chain" },
+    { "id": "body-lock-takedown", "type": "alternative" },
+    { "id": "bjj-foot-sweeps", "type": "chain" }
+  ],
+  "prerequisiteSkillIds": ["stance-movement-basics", "hand-fighting"],
+  "relatedPositions": [],
+  "relatedConcepts": [],
+  "archetypeIds": ["wrestle-up-player", "scramble-controller", "half-guard-wrestler"],
+  "trainingMethodIds": [],
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": true,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "updatedAt": "2026-05-28T00:00:00.000Z"
+}

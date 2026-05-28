@@ -1,0 +1,50 @@
+{
+  "id": "mounted-triangle",
+  "domain": "submission_systems",
+  "level": "advanced",
+  "name": "Mounted Triangle / Armbar from Mount",
+  "aliases": [
+    "mounted triangle",
+    "S-mount triangle",
+    "triangle from mount"
+  ],
+  "tags": [
+    "tier:modern-expansion",
+    "meta:modern-common",
+    "risk:medium",
+    "family:submission",
+    "modern-no-gi"
+  ],
+  "keywords": [
+    "mounted triangle",
+    "S-mount",
+    "triangle from mount",
+    "armbar from mount"
+  ],
+  "modernSystemGroup": "s_mount",
+  "relatedSkills": [
+    {
+      "id": "guard-retention",
+      "type": "supporting"
+    }
+  ],
+  "prerequisiteSkillIds": [
+    "mount-control"
+  ],
+  "relatedPositions": [],
+  "relatedConcepts": [],
+  "archetypeIds": [
+    "submission-chain-hunter"
+  ],
+  "trainingMethodIds": [],
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "updatedAt": "2026-05-28T09:34:33.159Z"
+}

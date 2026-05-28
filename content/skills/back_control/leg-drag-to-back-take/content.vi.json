@@ -1,0 +1,67 @@
+{
+  "id": "leg-drag-to-back-take",
+  "locale": "vi",
+  "name": "Leg Drag sang Back Take",
+  "description": "Leg drag to back take sử dụng leg drag để lộ lưng đối thủ. Khi họ chống tay xa để phòng thủ leg drag, bạn thả chân, luồn dưới tay họ và xoay ra sau.",
+  "whyItWorks": [
+    "Leg drag đã đặt họ nằm nghiêng một bên — họ đã bị lộ một phần cho back take",
+    "Phản ứng phòng thủ của họ (chống tay xa) tạo ra lỗ hổng cho back take",
+    "Quá trình chuyển đổi là liên tục — không có khoảng dừng giữa pass và back take",
+    "Thả chân và luồn dưới tay họ đảo ngược góc trong một động tác"
+  ],
+  "commonMistakes": [
+    "Giữ leg drag quá lâu — bạn phải thả khi họ chống tay xa",
+    "Luồn qua tay thay vì luồn dưới tay — luồn dưới cho bạn lối vào lưng",
+    "Không kiểm soát hông xa trong lúc xoay — họ có thể xoay lại đối mặt bạn",
+    "Mất khoảng cách trong lúc chuyển đổi — bạn phải giữ kết nối suốt quá trình"
+  ],
+  "coachingCues": [
+    "Kéo chân, đọc tay chống, luồn dưới",
+    "Thả chân khi họ chống tay — đó là tín hiệu của bạn",
+    "Luồn dưới tay, không luồn qua",
+    "Giữ kết nối — không khoảng cách"
+  ],
+  "shortInstruction": "Kiểm soát chân gần, kéo ngang cơ thể, đối thủ chống tay xa (tín hiệu), thả chân, luồn dưới tay đang chống, xoay ra sau, thiết lập back control.",
+  "summary": "Leg drag to back take sử dụng leg drag để lộ lưng đối thủ. Khi họ chống tay xa để phòng thủ leg drag, bạn thả chân, luồn dưới tay họ và xoay ra sau — chuyển đổi liên tục từ pass sang back take.",
+  "safetySummary": [
+    "Khi kéo chân họ, đảm bảo không xoắn đầu gối họ — kéo từ hông, không xoay chân",
+    "Khi luồn dưới tay họ, giữ đầu bạn ở vị trí an toàn — tránh bị kẹp đầu gối",
+    "Nếu họ lật bạn trong lúc xoay, bảo vệ cổ và kéo guard"
+  ],
+  "keyCorrections": [
+    "Nếu họ không chống tay: leg drag thành công — kết thúc pass thay vì back take",
+    "Nếu họ đạp bạn ra: kéo chân họ lại và thiết lập lại leg drag",
+    "Nếu họ xoay mặt vào: kéo họ nằm sấp và lên mount"
+  ],
+  "moneyDetails": [
+    "Leg drag to back take là một trong những chuỗi đòn thanh lịch nhất trong BJJ — kết hợp pass và back take trong một động tác liên tục",
+    "Đây là chuỗi ưa thích của các võ sĩ đẳng cấp thế giới vì tính hiệu quả và bất ngờ",
+    "Leg drag to back take thường kết thúc trận đấu vì đối thủ không mong đợi back take từ một pha pass"
+  ],
+  "fixItFast": [
+    "Nếu họ không chống tay: đừng chờ — kết thúc pass và vào side control",
+    "Nếu họ đạp bạn ra: bạn đã mất leg drag — phục hồi guard và reset",
+    "Nếu họ xoay mặt vào: giữ chân họ và lên mount"
+  ],
+  "systemLogic": {
+    "corePrinciple": "Leg drag to back take: kiểm soát chân gần → kéo ngang cơ thể → đối thủ chống tay xa (tín hiệu) → thả chân → luồn dưới tay đang chống → xoay ra sau → thiết lập back control.",
+    "decisionTree": [
+      {
+        "condition": "Họ không chống tay",
+        "action": "leg drag thành công — kết thúc pass thay vì back take"
+      },
+      {
+        "condition": "Họ đạp bạn ra",
+        "action": "kéo chân họ lại và thiết lập lại leg drag"
+      },
+      {
+        "condition": "Họ xoay mặt vào",
+        "action": "kéo họ nằm sấp và lên mount"
+      }
+    ],
+    "exitStrategies": [
+      "Nếu không thể lên lưng, kết thúc pass và vào side control",
+      "Nếu họ lật bạn, kéo guard và reset"
+    ]
+  }
+}

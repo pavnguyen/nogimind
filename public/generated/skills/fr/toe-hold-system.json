@@ -1,0 +1,126 @@
+{
+  "id": "toe-hold-system",
+  "domain": "submission_systems",
+  "level": "advanced",
+  "status": "draft",
+  "name": "Système de Toe Hold / Estima Lock",
+  "aliases": [
+    "toe hold",
+    "Estima lock",
+    "foot lock"
+  ],
+  "tags": [
+    "tier:advanced-niche",
+    "meta:specialized",
+    "risk:high",
+    "family:leg_lock",
+    "modern-no-gi"
+  ],
+  "keywords": [
+    "toe hold",
+    "Estima lock",
+    "foot lock",
+    "ankle lock",
+    "dorsiflexion"
+  ],
+  "modernSystemGroup": "leg_lock",
+  "relatedSkills": [
+    {
+      "id": "inside-outside-heel-hook",
+      "type": "alternative"
+    },
+    {
+      "id": "straight-ankle-lock-safety",
+      "type": "supporting"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [
+    "leg-lock-safety-first"
+  ],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "leg-lock-safety-basics"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [
+    "Prise traditionnelle : une main sur le talon, une sur les orteils — forces opposées",
+    "Estima lock : prise figure-four, attrapez votre propre poignet, cuvettez leur talon",
+    "S'ils tournent pour s'échapper : vous avez perdu le contrôle du genou — relâchez et rentrez à nouveau"
+  ],
+  "version": 1,
+  "updatedAt": "2026-05-28T09:34:33.159Z",
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "fr",
+  "description": "Le toe hold attaque la cheville en dorsiflexion combinée à une rotation. La variante Estima lock utilise une prise en figure-four pour plus de torque.",
+  "shortInstruction": "Contrôlez le genou, attrapez leur pied (prise traditionnelle ou figure-four), dorsifléchissez les orteils vers le tibia et pivotez en utilisant la rotation du corps.",
+  "summary": "Le toe hold hyperétend les ligaments de la cheville en combinant dorsiflexion et rotation. La variante Estima lock offre plus de couple de rotation avec une prise figure-four. Le toe hold est plus efficace quand l'adversaire est à plat ventre et que le genou est immobilisé.",
+  "whyItWorks": [
+    "Le toe hold hyperétend les ligaments de la cheville et coince l'astragale — la cheville a une résistance minimale dans cette direction",
+    "La prise figure-four (Estima lock) crée une force de rotation de vos bras ET de la rotation de votre corps — plus de couple",
+    "Les toe holds sont disponibles depuis des positions où les heel hooks ne le sont pas (outside ashi, 50/50 et certaines passes de guarde)",
+    "Le toe hold est légal dans la plupart des niveaux de ceinture où les heel hooks sont interdits"
+  ],
+  "commonMistakes": [
+    "Attaquer le toe hold avant de contrôler le genou — ils vont pivoter et s'échapper",
+    "Utiliser seulement la force des bras sans rotation du corps — la rotation doit venir de votre tronc",
+    "Appliquer le toe hold dans la mauvaise direction — il faut dorsiflexion + rotation, pas plantarflexion",
+    "Garder la soumission trop longtemps sans progrès — les toe holds ont une fenêtre étroite avant qu'ils ne s'échappent"
+  ],
+  "coachingCues": [
+    "Contrôlez le genou, puis attaquez le pied",
+    "Dorsiflexion d'abord, puis rotation — pas l'inverse",
+    "Adversaire à plat ventre est votre meilleure cible",
+    "Prise figure-four, rotation du corps, tap"
+  ],
+  "safetySummary": [
+    "Le toe hold attaque la cheville et peut provoquer des déchirures ligamentaires — appliquez progressivement",
+    "Ne forcez pas le toe hold — la blessure peut survenir avant que l'adversaire ne ressente la douleur",
+    "Soyez particulièrement prudent avec les partenaires qui ont des blessures préexistantes à la cheville"
+  ],
+  "systemLogic": {
+    "corePrinciple": "Système de toe hold : isolez le pied → contrôlez le genou (bloqué contre votre aisselle) → sécurisez la prise (traditionnelle ou figure-four Estima) → dorsifléchissez le pied → pivotez le pied avec rotation du corps → finition.",
+    "decisionTree": [
+      {
+        "condition": "Ils sont à plat ventre",
+        "action": "idéal — ils ne peuvent pas tourner pour s'échapper"
+      },
+      {
+        "condition": "Ils sont sur le dos",
+        "action": "sécurisez d'abord le genou avant d'attaquer le pied"
+      },
+      {
+        "condition": "Ils tournent pour s'échapper",
+        "action": "vous avez perdu le contrôle du genou — relâchez et rentrez à nouveau dans l'enchevêtrement"
+      }
+    ],
+    "exitStrategies": [
+      "Si le toe hold échoue, passez au straight ankle lock",
+      "S'ils dégagent le genou, relâchez et rentrez depuis le 50/50"
+    ]
+  },
+  "moneyDetails": [
+    "Le toe hold est légal en IBJJF ceinture marron/noire et dans la plupart des divisions no-gi — c'est une attaque de jambe polyvalente",
+    "La variante Estima lock est plus puissante que la prise traditionnelle pour les petits gabarits",
+    "Avoir un toe hold fiable vous donne une option d'attaque de jambe à moindre risque quand les heel hooks sont illégaux"
+  ],
+  "fixItFast": [
+    "Si la prise traditionnelle échoue : passez à l'Estima lock (figure-four pour plus de rotation)",
+    "S'ils tournent : relâchez et rentrez à nouveau — ne luttez pas pour maintenir la prise",
+    "Si vous ne pouvez pas contrôler le genou : le toe hold ne fonctionnera pas — passez à une autre attaque"
+  ]
+}

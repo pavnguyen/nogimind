@@ -2,6 +2,7 @@ import { useTranslation } from 'react-i18next'
 import { useSkillVideosQuery } from '../../queries/contentQueries'
 import { LazyYouTubeEmbed } from './LazyYouTubeEmbed'
 import { SectionAccordion } from '../skill/SectionAccordion'
+import { useVideoReport } from '../../hooks/useVideoReport'
 
 type Props = {
   skillId: string
@@ -11,6 +12,7 @@ export const PipelineVideoPanel = ({ skillId }: Props) => {
   const { t } = useTranslation()
   const videosQuery = useSkillVideosQuery(skillId)
   const videos = videosQuery.data?.videos ?? []
+  const { reportedIds, handleReport } = useVideoReport(skillId)
 
   if (videosQuery.isLoading) {
     return (
@@ -49,6 +51,7 @@ export const PipelineVideoPanel = ({ skillId }: Props) => {
               youtubeId={video.youtubeId}
               embedUrl={`https://www.youtube.com/embed/${video.youtubeId}`}
               title={video.title}
+              onReport={!reportedIds.has(video.youtubeId) ? handleReport : undefined}
             />
             <div className="space-y-4">
               <div>
@@ -67,6 +70,10 @@ export const PipelineVideoPanel = ({ skillId }: Props) => {
                 <p className="mt-1 text-sm text-slate-400">{video.channel}</p>
                 <p className="mt-3 text-sm leading-6 text-slate-300">{video.whyUseful}</p>
               </div>
+
+              {reportedIds.has(video.youtubeId) && (
+                <p className="mt-2 text-xs text-emerald-400">{t('video.reportSuccess')}</p>
+              )}
 
               {video.timestampStart !== undefined && video.timestampStart > 0 && (
                 <a

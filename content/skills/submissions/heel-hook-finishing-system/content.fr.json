@@ -1,0 +1,74 @@
+{
+  "id": "heel-hook-finishing-system",
+  "locale": "fr",
+  "name": "Système de Finition Heel Hook",
+  "description": "Maîtrisez les mécanismes précis de la finition du heel hook — rotation interne vs externe, variations de grip figure-four, alignement des hanches, et comment chercher la finition quand l'adversaire défend.",
+  "shortInstruction": "Contrôlez la knee line, alignez le vecteur de rotation avec leur hanche, choisissez la prise (figure-four ou honey-hole), et finissez avec rotation des hanches — pas de force des bras.",
+  "summary": "La finition du heel hook est la soumission la plus mécaniquement précise en no-gi. Contrairement à la plupart des soumissions où l'on peut « serrer plus fort », le heel hook exige un alignement parfait du contrôle de la knee line, du placement de la prise et de la direction de rotation. Cette technique couvre les différences entre la finition intérieure et extérieure du heel hook, les trois principaux types de prise (figure-four, honey-hole et seatbelt), comment ajuster l'angle quand l'adversaire cache son talon, et comment enchaîner les finitions quand il essaie de tourner. La philosophie moderne met l'accent sur la rotation des hanches plutôt que sur la force des bras — les bras tiennent la position, les hanches génèrent la finition.",
+  "whyItWorks": [
+    "Le genou a une stabilité rotationnelle minimale — moins de 5 degrés de rotation externe peuvent endommager les ligaments.",
+    "La rotation des hanches est plus forte et plus contrôlée que la force des bras seuls — utiliser le core et les hanches évite le « déchirement » qui cause des blessures.",
+    "La prise figure-four distribue la force sur les deux bras tout en gardant le poignet en position mécaniquement sûre.",
+    "Comprendre la rotation interne vs externe permet de choisir la direction de finition correcte selon l'enchevêtrement."
+  ],
+  "commonMistakes": [
+    "Utiliser la force des bras pour tourner au lieu d'engager les hanches et le core.",
+    "Appliquer la rotation avant que la knee line soit totalement isolée.",
+    "Utiliser le mauvais type de prise pour l'enchevêtrement — figure-four pour le saddle, honey-hole pour le backside 50/50.",
+    "Chercher le heel hook quand l'adversaire cache son talon au lieu de changer d'attaque.",
+    "Sur-roter après le tap — même 5 degrés supplémentaires peuvent causer des blessures."
+  ],
+  "coachingCues": [
+    "Les hanches conduisent la finition, les bras guident seulement.",
+    "Trouvez la knee line d'abord — si le genou bouge, le heel hook n'est pas prêt.",
+    "Figure-four pour saddle, honey-hole pour backside, seatbelt pour les transitions.",
+    "Si le talon se cache, changez d'attaque — ne forcez pas la rotation.",
+    "Finissez à 10% de vitesse — le contrôle est la finition, la vitesse est l'ennemie."
+  ],
+  "safetySummary": [
+    "N'appliquez JAMAIS un heel hook de façon explosive — cela peut endommager le genou avant que l'adversaire ne ressente la douleur.",
+    "Contrôlez toujours la hanche éloignée avant d'appliquer la rotation.",
+    "Établissez des protocoles de tap clairs avant de travailler les heel hooks.",
+    "Relâchez immédiatement sur le tap — ne continuez pas au-delà de 5 degrés de rotation supplémentaire.",
+    "Ne travaillez pas les heel hooks à pleine vitesse sans supervision et expérience."
+  ],
+  "keyCorrections": [
+    "Si la finition nécessite plus de 30% de la force de vos bras, votre alignement est mauvais — réinitialisez le contrôle de la knee line.",
+    "Si l'adversaire cache son talon, vous n'avez pas isolé la knee line — rapprochez-vous de sa hanche.",
+    "S'il tourne pendant la finition, vous avez perdu le contrôle de la hanche éloignée.",
+    "Si la prise glisse, le placement de votre main est mauvais — la paume de votre main supérieure doit faire face à son talon."
+  ],
+  "systemLogic": {
+    "corePrinciple": "Enchevêtrement établi → contrôler hanche éloignée → isoler knee line → choisir type de prise → aligner vecteur rotation avec hanche → appliquer rotation lente et contrôlée avec les hanches → finir.",
+    "decisionTree": [
+      {
+        "condition": "Inside sankaku / saddle",
+        "action": "Prise figure-four, rotation interne. Garder le genou plaqué contre votre poitrine."
+      },
+      {
+        "condition": "Outside ashi / 50/50",
+        "action": "Prise honey-hole ou figure-four, rotation externe. Contrôler la hanche éloignée."
+      },
+      {
+        "condition": "Backside 50/50",
+        "action": "Prise honey-hole, rotation externe. Suivre leurs hanches s'ils roulent."
+      },
+      {
+        "condition": "Ils cachent le talon",
+        "action": "Relâchez la tentative, remontez sur la jambe, ou passez au kneebar/calf slicer."
+      }
+    ]
+  },
+  "moneyDetails": [
+    "Prise figure-four : main supérieure attrape votre poignet, main inférieure tient leur talon. La paume de votre main supérieure fait face à leur talon.",
+    "Prise honey-hole : les deux mains sur leur talon (une paume de chaque côté), coudes serrés. Plus de contrôle rotationnel mais moins de levier que figure-four.",
+    "Alignement de rotation : imaginez une ligne de leur talon à travers leur genou jusqu'à leur hanche. Votre rotation doit suivre cette ligne."
+  ],
+  "nextStep": "Après avoir maîtrisé la finition heel hook, apprenez le kneebar et le calf slicer comme attaques secondaires.",
+  "fixItFast": [
+    "Vous ne trouvez pas la rotation ? Alignez votre poitrine avec leur knee line.",
+    "La prise glisse ? Passez en honey-hole pour un meilleur contrôle.",
+    "Ils tournent ? Relâchez, contrôlez la hanche, et rentrez l'enchevêtrement.",
+    "Résistance dans le genou ? Relâchez immédiatement — mauvais angle ou blessure."
+  ]
+}

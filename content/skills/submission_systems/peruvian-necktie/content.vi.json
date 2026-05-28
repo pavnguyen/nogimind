@@ -1,0 +1,67 @@
+{
+  "id": "peruvian-necktie",
+  "locale": "vi",
+  "name": "Peruvian Necktie",
+  "description": "Peruvian necktie là đòn siết cổ từ front headlock, kết thúc bằng cách gập thân đối thủ về phía trước trong khi nén cả hai bên cổ họ bằng bắp tay và cẳng tay của bạn.",
+  "whyItWorks": [
+    "Cẳng tay và bắp tay bạn nén cả hai động mạch cảnh đồng thời — đây là đòn siết máu, không phải bẻ cổ",
+    "Gập thân họ về phía trước ngăn họ chống đỡ — trọng lượng cơ thể họ làm chặt đòn siết",
+    "Grip tạo ra cấu trúc khóa không thể bóc mở được",
+    "Peruvian necktie bổ sung cho guillotine (hoạt động khi họ xoay vào) — nó hoạt động khi họ xoay ra"
+  ],
+  "commonMistakes": [
+    "Bóp bằng tay thay vì dùng trọng lượng cơ thể — làm mỏi tay và không siết hiệu quả",
+    "Không bước sang bên trước khi gập — bạn cần góc để tạo ra động tác gập về phía trước",
+    "Giữ grip quá thấp trên cổ họ — đòn siết phải nén động mạch cảnh ở hai bên cổ",
+    "Cố peruvian necktie với đối thủ ở tư thế rùa (turtle) còn nặng tay"
+  ],
+  "coachingCues": [
+    "Gập, không bóp — trọng lượng họ làm đòn siết",
+    "Bước sang bên trước khi gập",
+    "Cẳng tay một bên, bắp tay một bên",
+    "Động mạch cảnh, không phải khí quản"
+  ],
+  "shortInstruction": "Front headlock, đối thủ quay đi — luồn tay dưới cổ, nắm bắp tay, khóa tay kia qua đầu, bước sang bên, gập thân họ về phía trước — trọng lượng họ siết chặt đòn.",
+  "summary": "Peruvian necktie là đòn siết cổ từ front headlock nén cả hai động mạch cảnh đồng thời. Gập thân đối thủ về phía trước ngăn họ chống đỡ — trọng lượng cơ thể họ làm chặt đòn siết.",
+  "safetySummary": [
+    "Peruvian necktie là đòn siết máu — ngừng ngay khi bạn tập mất ý thức hoặc tap",
+    "Không kéo hoặc bẻ cổ — luôn đảm bảo áp lực lên động mạch cảnh, không phải cột sống cổ",
+    "Gập thân từ từ — gập quá nhanh có thể gây căng cổ"
+  ],
+  "keyCorrections": [
+    "Nếu họ không quay đi: peruvian necktie không có sẵn — giữ front headlock và chuyển sang guillotine",
+    "Nếu họ bảo vệ cổ: kéo tay họ ra khỏi cổ bằng cách kéo khuỷu tay",
+    "Nếu họ đứng lên: thả và chuyển sang single leg hoặc double leg"
+  ],
+  "moneyDetails": [
+    "Peruvian necktie là một đòn siết tỷ lệ cao từ front headlock, đặc biệt hiệu quả trong no-gi",
+    "Không giống guillotine (cần họ xoay vào), peruvian necktie hoạt động khi họ xoay ra — bổ sung hoàn hảo",
+    "Đòn này đặc biệt hiệu quả với đối thủ cố gắng đứng lên từ front headlock"
+  ],
+  "fixItFast": [
+    "Nếu họ không tap: điều chỉnh grip — đảm bảo cẳng tay trên động mạch cảnh",
+    "Nếu họ bảo vệ cổ: kéo tay họ ra bằng cách nắm cổ tay và kéo xuống",
+    "Nếu họ đứng lên: chuyển sang single leg takedown"
+  ],
+  "systemLogic": {
+    "corePrinciple": "Peruvian necktie: front headlock → đối thủ quay đi (tín hiệu) → luồn tay dưới cổ, nắm bắp tay → khóa tay kia qua đầu → bước sang bên → gập thân về phía trước — trọng lượng họ làm chặt đòn siết.",
+    "decisionTree": [
+      {
+        "condition": "Họ không quay đi",
+        "action": "peruvian necktie không có sẵn — giữ front headlock và chuyển sang guillotine"
+      },
+      {
+        "condition": "Họ bảo vệ cổ",
+        "action": "kéo khuỷu tay họ ra khỏi cổ"
+      },
+      {
+        "condition": "Họ đứng lên",
+        "action": "thả và chuyển sang single leg hoặc double leg"
+      }
+    ],
+    "exitStrategies": [
+      "Nếu không kết thúc được, thả về front headlock và chuyển sang đòn khác",
+      "Nếu họ thoát, kéo guard hoặc đứng lên và reset"
+    ]
+  }
+}

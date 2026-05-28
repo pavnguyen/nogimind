@@ -1,0 +1,67 @@
+{
+  "id": "mounted-triangle",
+  "locale": "vi",
+  "name": "Mounted Triangle / Armbar từ Mount",
+  "description": "Mounted triangle sử dụng tư thế trên cao để kẹp tay họ giữa chân bạn và đầu họ, sau đó bước qua để kết thúc. Việc chuyển lên S-mount là rất quan trọng.",
+  "whyItWorks": [
+    "Từ mount, tay họ đã bị nén bởi trọng lượng cơ thể bạn — bạn không cần phá tư thế như từ guard",
+    "Trọng lực làm việc cho bạn — sức nặng đè xuống siết chặt triangle mà không cần bóp mạnh hơn",
+    "Nếu họ phòng thủ triangle bằng cách chống đỡ, bạn tấn công armbar — tình thế lưỡng nan triangle-armbar mạnh hơn từ trên",
+    "Họ không thể stack bạn từ mount như từ guard — điều này loại bỏ phản công triangle chính"
+  ],
+  "commonMistakes": [
+    "Cố gắng mounted triangle từ low mount — phải lên S-mount trước",
+    "Không bẫy tay trước khi bước chân qua — nếu tay tự do, triangle không có sẵn",
+    "Bước chân qua ống chân thay vì qua sau đầu họ",
+    "Bóp đầu gối trước khi bóp gót — gót trước, sau đó đầu gối"
+  ],
+  "coachingCues": [
+    "S-mount trước, triangle sau — không bao giờ từ low mount",
+    "Bẫy tay trước khi bước qua — tay tự do = không có triangle",
+    "Bóp gót, siết gối — hai động tác riêng biệt, không phải một",
+    "Họ chống đỡ = lối vào armbar của bạn"
+  ],
+  "shortInstruction": "Từ mount, lên S-mount, bẫy tay gần, bước chân trên qua đầu họ, bóp gót chân lại, siết đầu gối. Nếu họ chống đỡ, chuyển sang armbar.",
+  "summary": "Mounted triangle kết hợp tư thế đè trên cao để kẹp tay đối thủ giữa chân bạn và đầu họ. Chuyển lên S-mount là bước quan trọng — từ low mount, triangle không có sẵn.",
+  "safetySummary": [
+    "Khi bước chân qua đầu, đảm bảo không tạo áp lực lên cổ đối thủ — bước qua sau đầu, không đè lên cổ",
+    "Nếu đối thủ đau ở vùng cổ khi bạn bước qua, thả ra ngay",
+    "Kiểm soát áp lực khi kết thúc — tăng từ từ, đặc biệt với bạn tập nhẹ cân hơn"
+  ],
+  "keyCorrections": [
+    "Nếu họ chống đỡ: chuyển sang armbar — kéo tay bị bẫy qua đầu họ",
+    "Nếu họ không để bạn bước chân qua đầu: kéo đầu họ xuống bằng tay bẫy",
+    "Nếu họ nâng bạn lên: ôm chặt và kéo gót chân lại để siết triangle"
+  ],
+  "moneyDetails": [
+    "Mounted triangle là một trong những đòn kết thúc tỷ lệ cao nhất từ mount trong BJJ",
+    "Sự kết hợp triangle-armbar từ đỉnh mount là một trong những tình thế lưỡng nan mạnh nhất trong BJJ",
+    "Chuyển lên S-mount trước khi tấn công là yếu tố quyết định giữa thành công và thất bại"
+  ],
+  "fixItFast": [
+    "Nếu họ chống đỡ: kéo tay bẫy qua đầu và kết thúc armbar",
+    "Nếu họ không cho bước chân qua: kéo đầu họ xuống bằng tay bẫy — dùng sức nặng của bạn",
+    "Nếu triangle lỏng: điều chỉnh góc — kéo gót gần mông hơn"
+  ],
+  "systemLogic": {
+    "corePrinciple": "Mounted triangle: mount → lên S-mount → bẫy tay gần → bước chân trên qua đầu họ → bóp gót chân lại → siết đầu gối → nếu họ chống đỡ, chuyển sang armbar.",
+    "decisionTree": [
+      {
+        "condition": "Họ chống đỡ",
+        "action": "chuyển sang armbar — kéo tay bẫy qua đầu họ"
+      },
+      {
+        "condition": "Không thể bước chân qua đầu",
+        "action": "kéo đầu họ xuống bằng tay bẫy"
+      },
+      {
+        "condition": "Họ nâng bạn lên",
+        "action": "ôm chặt và bóp gót để siết triangle"
+      }
+    ],
+    "exitStrategies": [
+      "Nếu triangle và armbar đều thất bại, giữ mount và chuyển sang cross choke hoặc americana",
+      "Nếu họ lật bạn, kéo guard và reset"
+    ]
+  }
+}

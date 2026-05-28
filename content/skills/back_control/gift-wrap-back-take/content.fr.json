@@ -1,0 +1,67 @@
+{
+  "id": "gift-wrap-back-take",
+  "locale": "fr",
+  "name": "Gift Wrap / Prise de dos par Arm Drag",
+  "description": "Le gift wrap contrôle un de leurs bras en le pliant derrière leur dos, exposant leur dos. De side control, vous piégez le bras éloigné et pivotez derrière.",
+  "whyItWorks": [
+    "Plier leur bras derrière leur dos crée une poignée qui contrôle leur épaule — ils ne peuvent pas tourner vers vous ni s'appuyer",
+    "Avec un bras neutralisé, leur capacité à défendre la prise de dos est réduite de moitié",
+    "Le gift wrap est disponible depuis toute position au-dessus où vous pouvez isoler un bras éloigné",
+    "Tourner derrière eux en contrôlant le gift wrap crée la prise de dos — la rotation + le contrôle du bras les empêche de vous suivre"
+  ],
+  "commonMistakes": [
+    "Essayer le gift wrap de trop loin — vous devez être poitrine contre poitrine pour isoler le bras éloigné",
+    "Ne pas plier assez le bras derrière leur dos — si le bras n'est pas derrière, ils peuvent le retirer",
+    "Tourner sans contrôler le bras — vous finissez derrière eux mais ils ont encore leurs deux bras fonctionnels",
+    "Garder le gift wrap trop longtemps après avoir sécurisé le back control — relâchez et passez à l'étranglement"
+  ],
+  "coachingCues": [
+    "Poitrine contre poitrine d'abord, puis attrapez le bras éloigné",
+    "Pliez-le derrière leur dos — pouce vers le haut",
+    "Tournez serré, restez connecté",
+    "Le gift wrap est l'entrée ; le back control est la destination"
+  ],
+  "shortInstruction": "Depuis le side control, isolez le bras éloigné, pliez-le derrière leur dos, enjambez leur tête, tournez derrière eux et établissez le back control.",
+  "summary": "La prise de dos par gift wrap neutralise le bras éloigné de l'adversaire en le pliant derrière son dos, puis utilise une rotation pour prendre le dos. Avec un bras piégé, leur capacité à défendre la prise de dos est réduite de moitié.",
+  "safetySummary": [
+    "Ne forcez pas le bras derrière leur dos s'ils résistent fortement — cela peut blesser l'épaule",
+    "Pliez le bras doucement et utilisez la rotation pour créer la prise de dos, pas le pliage du bras seul",
+    "Si le partenaire a une blessure préexistante à l'épaule, évitez complètement le gift wrap"
+  ],
+  "keyCorrections": [
+    "S'ils résistent à l'isolation du bras : passez à l'arm drag ou à la kimura depuis le side control",
+    "S'ils roulent loin pour s'échapper : suivez-les — la roulade devient une opportunité de prise de dos",
+    "S'ils s'aplatissent à plat ventre : maintenez le side control et avancez vers le mount à la place"
+  ],
+  "moneyDetails": [
+    "Le gift wrap est la prise de dos la plus efficace depuis le side control en no-gi",
+    "Maîtriser le gift wrap vous donne un chemin fiable du side control au back control",
+    "Le gift wrap est particulièrement efficace contre les adversaires qui s'appuient sur le bras éloigné pour échapper au side control"
+  ],
+  "fixItFast": [
+    "S'ils résistent à l'isolation du bras : passez à l'arm drag ou à la kimura",
+    "Si la rotation ne fonctionne pas : votre enjambée n'était pas assez profonde — enjambez plus loin par-dessus leur tête",
+    "S'ils vous suivent pendant la rotation : gardez votre poitrine connectée et terminez la prise de dos"
+  ],
+  "systemLogic": {
+    "corePrinciple": "Gift wrap back take : depuis le side control/mount → isolez le bras éloigné → pliez-le derrière leur dos → enjambez leur tête → tournez derrière → relâchez le gift wrap → établissez le back control.",
+    "decisionTree": [
+      {
+        "condition": "Ils résistent à l'isolation du bras",
+        "action": "passez à l'arm drag ou à la kimura depuis le side control"
+      },
+      {
+        "condition": "Ils roulent loin pour s'échapper",
+        "action": "suivez-les — la roulade devient une opportunité de prise de dos"
+      },
+      {
+        "condition": "Ils s'aplatissent à plat ventre",
+        "action": "maintenez le side control et avancez vers le mount à la place"
+      }
+    ],
+    "exitStrategies": [
+      "Si la rotation n'atteint pas le dos, retournez en side control et essayez une autre entrée de prise de dos",
+      "S'ils tournent vers vous, passez au mount"
+    ]
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "id": "coyote-half-guard",
+  "domain": "guard_offense",
+  "level": "intermediate",
+  "status": "draft",
+  "name": "Coyote Half Guard",
+  "aliases": [
+    "coyote hook half guard",
+    "waiter sweep system",
+    "deep half hook"
+  ],
+  "tags": [
+    "half-guard",
+    "coyote-hook",
+    "waiter-sweep",
+    "sweep",
+    "guard-offense",
+    "underhook"
+  ],
+  "keywords": [
+    "coyote half guard",
+    "waiter sweep",
+    "deep half hook",
+    "half guard sweep",
+    "coyote hook"
+  ],
+  "relatedSkills": [
+    {
+      "id": "deep-half-guard",
+      "type": "chain"
+    },
+    {
+      "id": "half-butterfly-to-leg-entanglements",
+      "type": "chain"
+    },
+    {
+      "id": "single-leg-x-guard",
+      "type": "chain"
+    },
+    {
+      "id": "leg-drag-pass",
+      "type": "alternative"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [
+    "half-guard-wrestler",
+    "guard-retention-specialist",
+    "wrestle-up-player"
+  ],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "half-guard-knee-shield",
+    "deep-half-guard"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [
+    "If they keep flattening you: your underhook is too shallow — reach deeper to the far hip",
+    "If they keep passing: your coyote hook is not active — squeeze and elevate their far leg",
+    "If the sweep doesn't work: you haven't controlled their posture — break them down first"
+  ],
+  "version": 1,
+  "updatedAt": "2026-05-28T00:00:00.000Z",
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": true,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "en",
+  "description": "The coyote half guard is an offensive half guard system based on a deep underhook combined with a hook on the opponent's far leg. The 'coyote' grip wraps around the opponent's torso with your hand gripping their far hip. From this position, you can sweep, take the back, or enter leg entanglements. Popularized by John Danaher and used extensively by Gordon Ryan, the coyote half guard is one of the most potent offensive guards in modern no-gi BJJ.",
+  "shortInstruction": "From bottom half guard, insert a deep underhook to their far hip, hook their far leg with your inside leg, turn to your side, and sweep by elevating the hooked leg while pulling the upper body.",
+  "summary": "The coyote half guard solves the biggest problem of traditional half guard: being flattened. By inserting a deep underhook and turning to your side, you create space, angle your body, and off-balance the opponent. The coyote hook (your inside leg hooking their far leg) gives you direct control of their base. This system is particularly effective against pressure passers because it uses their forward pressure against them.",
+  "whyItWorks": [
+    "The deep underhook prevents the opponent from flattening you",
+    "Turning to your side creates space and angles that sweep from",
+    "The coyote hook on their far leg gives direct control of their base",
+    "Uses the opponent's forward pressure against them — redirects their momentum"
+  ],
+  "commonMistakes": [
+    "Allowing the opponent to flatten your chest — must stay on your side",
+    "Underhook too shallow — must reach deep to the far hip, not just the near armpit",
+    "Losing the coyote hook — the hook on their far leg must be active and controlling",
+    "Trying to sweep before controlling their posture — break them down first",
+    "Keeping your bottom leg straight — bottom leg must shrimp to create space"
+  ],
+  "coachingCues": [
+    "Stay on your side — never flat on your back",
+    "Deep underhook to the far hip — wrap around the body",
+    "Coyote hook controls their far leg — active, not passive",
+    "Head to chest — glue your ear to their sternum",
+    "Elevate the hooked leg and pull the upper body — see-saw sweep"
+  ],
+  "safetySummary": [
+    "Keep your bottom arm protecting your side to prevent the opponent from stepping over into mount",
+    "Be aware of the opponent dropping weight to smash you flat — stay on your side",
+    "If the opponent clears your underhook, transition to deep half or recover knee shield immediately"
+  ],
+  "systemLogic": {
+    "corePrinciple": "Coyote half guard has 3 branches: Waiter Sweep → Back Take → Leg Entry",
+    "decisionTree": [
+      {
+        "condition": "Opponent drives forward with pressure",
+        "action": "Use their momentum for the waiter sweep — elevate the hooked leg and pull the upper body"
+      },
+      {
+        "condition": "Opponent posts a leg to defend the sweep",
+        "action": "Transition to single leg X or X guard for leg attacks"
+      },
+      {
+        "condition": "Opponent backs out to avoid the sweep",
+        "action": "Follow them up — wrestle up to a single leg or take the back"
+      }
+    ],
+    "exitStrategies": []
+  },
+  "moneyDetails": [
+    "The coyote half guard is the highest-percentage offensive half guard system in no-gi",
+    "Gordon Ryan uses the coyote half guard to sweep and submit black belt world champions",
+    "Mastering the coyote half guard gives you a complete bottom half guard game"
+  ],
+  "fixItFast": [
+    "If flattened: your underhook is too shallow — reach deeper",
+    "If passed: activate your coyote hook — squeeze and elevate",
+    "If sweep fails: break their posture down before sweeping"
+  ]
+}

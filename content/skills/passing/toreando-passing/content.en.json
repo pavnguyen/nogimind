@@ -1,0 +1,56 @@
+{
+  "id": "toreando-passing",
+  "locale": "en",
+  "name": "Toreando / Float Passing",
+  "description": "Toreando (float) passing is a modern no-gi passing system that uses constant lateral movement, hip switches, and hand posting to float around the opponent's guard rather than grinding through it. Popularized by the Ruotolo brothers and Nicky Ryan, float passing keeps the passer on their feet, using momentum and hip mobility to attack passing lanes as they open.",
+  "shortInstruction": "Stay on your feet, keep your hips mobile, post on their legs to redirect their frames, and float to side control when they commit to a defensive direction.",
+  "summary": "Float passing works by never settling into a static position. The passer uses continuous lateral movement, switching hips and posting on the opponent's legs to prevent them from establishing frames. Unlike pressure passing which locks chest-to-chest, float passing maintains distance until the moment of penetration. The key is to keep your head above their hips and use your hands to pummel their legs, creating passing windows through hip switches and angle changes.",
+  "whyItWorks": [
+    "Constant movement prevents the opponent from locking their guard or establishing frames",
+    "Staying on your feet removes the threat of sweeps and leg locks from seated guard",
+    "Hip switches and posts create passing windows that don't exist in static passing",
+    "Float passing forces the opponent to constantly re-adjust — creating hesitation and openings"
+  ],
+  "commonMistakes": [
+    "Stopping movement after a successful post — float passing requires continuous motion",
+    "Dropping your head below their hips — exposes you to guillotines and front headlocks",
+    "Posting with straight arms — makes your posts weak and easy to swat away",
+    "Staying too long in one passing lane — the opponent will adjust their defense",
+    "Failing to switch direction after the opponent commits to defending one side"
+  ],
+  "coachingCues": [
+    "Keep moving — stop and you die in float passing",
+    "Head above hips at all times",
+    "Post, pivot, pummel — the three Ps of float passing",
+    "If they defend one side, switch to the other",
+    "Float over their frames, don't smash through them"
+  ],
+  "safetySummary": [
+    "Staying on your feet significantly reduces the risk of heel hooks and ankle locks",
+    "Be mindful of your head position to avoid guillotine counters",
+    "Float passing is safer than pressure passing against flexible guard players"
+  ],
+  "keyCorrections": [
+    "If they keep framing you: switch your passing angle to the opposite side",
+    "If they keep re-guarding: your posts are too shallow — pummel deeper into their hip line",
+    "If they keep attacking your legs: raise your hands and stay more upright"
+  ],
+  "systemLogic": {
+    "corePrinciple": "Float passing has 3 branches: Toreando Post → Hip Switch Backstep → Leg Drag Float",
+    "decisionTree": [
+      { "condition": "Opponent frames on your near leg", "action": "Post on their far hip, switch your hips, and circle to the opposite side" },
+      { "condition": "Opponent opens their guard to attack legs", "action": "Drop your hips, leg drag the near leg, and pass to side control" },
+      { "condition": "Opponent sits up to wrestle", "action": "Snap their head down, circle behind, and take the back" }
+    ]
+  },
+  "moneyDetails": [
+    "Float passing is the most effective passing system against flexible/inverted guard players",
+    "Mastering float passing combined with pressure passing gives you a complete no-gi passing game",
+    "The Ruotolos and Nicky Ryan have used float passing to dominate ADCC and IBJJF no-gi"
+  ],
+  "fixItFast": [
+    "If they keep framing: switch lanes — go to the opposite passing side",
+    "If they keep sweeping: your weight is too far forward — sit your hips back",
+    "If they keep attacking legs: stand taller and use hand posts to keep distance"
+  ]
+}

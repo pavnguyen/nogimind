@@ -1,0 +1,109 @@
+{
+  "id": "toreando-passing",
+  "domain": "passing",
+  "level": "intermediate",
+  "status": "draft",
+  "name": "Toreando / Float Passing",
+  "aliases": [
+    "float passing",
+    "torreando passing"
+  ],
+  "tags": [
+    "passing",
+    "float-passing",
+    "toreando",
+    "mobility",
+    "footwork"
+  ],
+  "keywords": [
+    "toreando passing",
+    "float passing",
+    "open guard passing",
+    "hip mobility",
+    "leg drag"
+  ],
+  "relatedSkills": [
+    {
+      "id": "leg-drag-basics",
+      "type": "chain"
+    },
+    {
+      "id": "outside-passing",
+      "type": "recommended"
+    },
+    {
+      "id": "knee-cut-passing",
+      "type": "alternative"
+    },
+    {
+      "id": "side-control-pin",
+      "type": "recommended"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [
+    "pressure-passer",
+    "scramble-controller"
+  ],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "supine-guard-retention",
+    "headquarters-passing"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [
+    "Nếu họ liên tục frame: đổi góc passing sang phía đối diện",
+    "Nếu họ liên tục recover guard: post quá nông — pummel sâu hơn vào hip line"
+  ],
+  "version": 1,
+  "updatedAt": "2026-05-28T00:00:00.000Z",
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": true,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "vi",
+  "description": "Toreando (float) passing là hệ thống passing no-gi hiện đại sử dụng di chuyển ngang liên tục, xoay hông và post tay để lướt qua guard của đối thủ. Được phổ biến bởi anh em Ruotolo và Nicky Ryan, float passing giữ người pass trên chân, dùng momentum và sự linh hoạt hông để tấn công các passing lane.",
+  "shortInstruction": "Giữ trên chân, hông linh hoạt, post lên chân đối thủ để làm lệch frames, lướt đến side control khi họ phòng thủ một hướng.",
+  "summary": "Float passing hoạt động bằng cách không bao giờ cố định một vị trí. Người pass di chuyển liên tục, đổi hông và post lên chân đối thủ để ngăn họ tạo frames. Không giống pressure passing, float passing giữ khoảng cách cho đến moment xâm nhập.",
+  "whyItWorks": [
+    "Di chuyển liên tục ngăn đối thủ khóa guard hoặc tạo frames",
+    "Ở trên chân loại bỏ nguy cơ bị sweep và leg lock từ seated guard",
+    "Xoay hông và post tạo passing lane không có trong static passing",
+    "Float passing buộc đối thủ liên tục điều chỉnh — tạo sự do dự"
+  ],
+  "commonMistakes": [
+    "Ngừng di chuyển sau khi post thành công — float passing cần chuyển động liên tục",
+    "Thả đầu xuống dưới hông họ — lộ guillotine và front headlock",
+    "Post bằng tay thẳng — post yếu và dễ bị đẩy",
+    "Ở quá lâu trong một passing lane — đối thủ sẽ điều chỉnh phòng thủ"
+  ],
+  "coachingCues": [
+    "Di chuyển liên tục — dừng là chết với float passing",
+    "Đầu luôn cao hơn hông đối thủ",
+    "Post, pivot, pummel — ba chữ P của float passing",
+    "Nếu họ phòng thủ một bên, đổi sang bên kia"
+  ],
+  "safetySummary": [
+    "Ở trên chân giảm đáng kể nguy cơ heel hook và ankle lock",
+    "Cẩn thận vị trí đầu để tránh guillotine counter"
+  ],
+  "moneyDetails": [
+    "Float passing hiệu quả nhất với guard player linh hoạt",
+    "Kết hợp float passing và pressure passing cho game passing hoàn chỉnh"
+  ],
+  "fixItFast": [
+    "Nếu họ liên tục frame: đổi lane — sang phía passing đối diện",
+    "Nếu họ liên tục sweep: trọng lượng quá trước — ngồi hông về sau"
+  ]
+}

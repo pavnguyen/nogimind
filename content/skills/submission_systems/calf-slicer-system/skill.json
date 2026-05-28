@@ -1,0 +1,55 @@
+{
+  "id": "calf-slicer-system",
+  "domain": "submission_systems",
+  "level": "advanced",
+  "name": "Calf Slicer / Compression Locks",
+  "aliases": [
+    "calf slicer",
+    "calf crusher",
+    "compression lock",
+    "shin compression"
+  ],
+  "tags": [
+    "tier:advanced-niche",
+    "meta:specialized",
+    "risk:high",
+    "family:compression",
+    "modern-no-gi"
+  ],
+  "keywords": [
+    "calf slicer",
+    "compression lock",
+    "shin compression",
+    "muscle lock"
+  ],
+  "modernSystemGroup": "leg_lock",
+  "relatedSkills": [
+    {
+      "id": "inside-outside-heel-hook",
+      "type": "alternative"
+    },
+    {
+      "id": "toe-hold-system",
+      "type": "alternative"
+    }
+  ],
+  "prerequisiteSkillIds": [
+    "leg-lock-safety-basics"
+  ],
+  "relatedPositions": [],
+  "relatedConcepts": [],
+  "archetypeIds": [
+    "submission-chain-hunter"
+  ],
+  "trainingMethodIds": [],
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "updatedAt": "2026-05-28T09:34:33.159Z"
+}

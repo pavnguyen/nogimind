@@ -1,0 +1,107 @@
+{
+  "id": "double-leg-bjj",
+  "domain": "wrestle_up_wrestling",
+  "level": "intermediate",
+  "status": "draft",
+  "name": "Double Leg Takedown",
+  "aliases": [
+    "double leg",
+    "blast double"
+  ],
+  "tags": [
+    "takedown",
+    "wrestling",
+    "double-leg",
+    "blast-double",
+    "standing",
+    "clinch"
+  ],
+  "keywords": [
+    "double leg takedown",
+    "blast double",
+    "head outside single",
+    "wrestling for BJJ"
+  ],
+  "relatedSkills": [
+    {
+      "id": "ankle-pick-low-single",
+      "type": "chain"
+    },
+    {
+      "id": "arm-drag-system",
+      "type": "chain"
+    },
+    {
+      "id": "body-lock-takedown",
+      "type": "alternative"
+    },
+    {
+      "id": "bjj-foot-sweeps",
+      "type": "chain"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [
+    "wrestle-up-player",
+    "scramble-controller",
+    "half-guard-wrestler"
+  ],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "stance-movement-basics",
+    "hand-fighting"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [
+    "Guillotine : tête trop basse",
+    "Sprawl : changement de niveau trop superficiel"
+  ],
+  "version": 1,
+  "updatedAt": "2026-05-28T00:00:00.000Z",
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": true,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "fr",
+  "description": "Le double leg takedown adapté au no-gi BJJ, avec accent sur la position de tête, la défense de guillotine et l'enchaînement. Contrairement au double leg de lutte, le double leg BJJ doit tenir compte des contres front headlock et guillotine.",
+  "shortInstruction": "Changement de niveau, pénétration tête à l'extérieur, poussez à travers les hanches, run the pipe, et défendez immédiatement la guillotine.",
+  "summary": "Le double leg BJJ diffère de la lutte par la position de tête à l'extérieur, la finition priorisant chest-to-chest, et l'entrée venant souvent de l'arm drag, du collar tie ou du foot sweep.",
+  "whyItWorks": [
+    "Tête à l'extérieur protège le cou de la guillotine",
+    "Double leg est l'amenée au sol la plus efficace en no-gi",
+    "Chest-to-chest donne un avantage positionnel immédiat"
+  ],
+  "commonMistakes": [
+    "Pénétrer tête baissée — expose la guillotine",
+    "Tomber à genoux au lieu de pousser",
+    "S'arrêter à mi-chemin",
+    "Ne pas enchaîner"
+  ],
+  "coachingCues": [
+    "Tête à l'extérieur, toujours — protège le cou",
+    "Changement de niveau avant le pas",
+    "Poussez à travers, ne tombez pas"
+  ],
+  "safetySummary": [
+    "Gardez toujours la tête à l'extérieur",
+    "Guillotine : posturez-vous immédiatement"
+  ],
+  "moneyDetails": [
+    "Double leg est l'amenée au sol la plus efficace en ADCC"
+  ],
+  "fixItFast": [
+    "Guillotine : posturez-vous",
+    "Sprawl : passez en single leg"
+  ]
+}

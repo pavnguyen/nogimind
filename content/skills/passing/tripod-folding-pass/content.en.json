@@ -1,0 +1,56 @@
+{
+  "id": "tripod-folding-pass",
+  "locale": "en",
+  "name": "Tripod / Folding Pass",
+  "description": "The tripod (or folding) pass is a pressure passing system from the headquarters position. The passer establishes a tripod base with head pressure to one side, driving the opponent's knees to their chest and folding their body to flatten their guard. Popularized by Gordon Ryan and John Danaher, the tripod pass is considered one of the most effective no-gi passes against flexible guard players because it removes their ability to invert or re-guard.",
+  "shortInstruction": "From headquarters, establish a tripod base with your head on one side, drive their knees to their chest, fold their body, and flatten them to pass to side control.",
+  "summary": "The tripod pass works by using a wide, tripod-like stance combined with heavy head pressure to fold the opponent's body. From headquarters (one knee up, one knee down with crossface control), the passer posts their outside leg wide, drops their head to the mat on one side, and drives their shoulder into the opponent's hip line. This forces the opponent's knees toward their chest and flattens their guard, creating a clear path to side control or mount. The key mechanical detail is keeping your hips low and your head glued to their far hip.",
+  "whyItWorks": [
+    "The tripod base makes it impossible for the opponent to re-insert guard hooks",
+    "Head pressure on the far hip prevents the opponent from turning away or inverting",
+    "Folding the body flattens the guard, removing frames and knee shields",
+    "The wide base makes it extremely difficult for the opponent to sweep or off-balance you"
+  ],
+  "commonMistakes": [
+    "Keeping your head too high — without head pressure, the opponent can re-guard",
+    "Allowing your hips to rise — low hips are essential for maintaining the fold",
+    "Driving straight forward instead of diagonal — creates space for the opponent to escape",
+    "Releasing head pressure too early — the opponent will immediately re-insert their guard",
+    "Letting your back knee rise off the mat — destroys the tripod base"
+  ],
+  "coachingCues": [
+    "Tripod wide — head to mat, hips low",
+    "Drive their knees to their chest — fold them up",
+    "Head pressure to the far hip — pin them down",
+    "Low hips, wide base — you are a table that cannot be tipped",
+    "Pass when they're flat — not a moment before"
+  ],
+  "safetySummary": [
+    "Keep your head positioned to the outside of their hip to prevent guillotine counters",
+    "Your near arm should be tight to prevent kimura or arm drag attacks",
+    "Be aware of leg lasso or spider guard variations if your posture breaks"
+  ],
+  "keyCorrections": [
+    "If they keep re-guarding: your head pressure is too light — drive your shoulder into their hip",
+    "If they keep sweeping: your base is too narrow — widen your tripod stance",
+    "If they keep inverting: your head is on the wrong side — switch to the other hip"
+  ],
+  "systemLogic": {
+    "corePrinciple": "Tripod pass has 3 branches: Hip Fold Pass → Smash Knee Cut → Tripod to Mount",
+    "decisionTree": [
+      { "condition": "Opponent defends by turning away", "action": "Follow their hip turn and slide to mount or side control" },
+      { "condition": "Opponent frames on your head", "action": "Switch your head to the other side and continue the fold" },
+      { "condition": "Opponent tries to butterfly hook", "action": "Kill the hook with your near knee before continuing the pass" }
+    ]
+  },
+  "moneyDetails": [
+    "The tripod pass is the highest-percentage pass against flexible, inverted guard players",
+    "Gordon Ryan has used the tripod pass to pass the guard of every ADCC champion he faced",
+    "Mastering the tripod pass eliminates the need for complex footwork against most guard players"
+  ],
+  "fixItFast": [
+    "If they keep re-guarding: more head pressure — drive your shoulder into their far hip",
+    "If they keep sweeping: widen your base — your tripod is too narrow",
+    "If they keep inverting: switch your head to the other hip"
+  ]
+}

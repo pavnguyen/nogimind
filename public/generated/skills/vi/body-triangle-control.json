@@ -1,0 +1,121 @@
+{
+  "id": "body-triangle-control",
+  "domain": "submission_systems",
+  "level": "advanced",
+  "status": "draft",
+  "name": "Kiểm soát Body Triangle",
+  "aliases": [
+    "body triangle",
+    "body triangle submission",
+    "waist lock"
+  ],
+  "tags": [
+    "tier:modern-expansion",
+    "meta:modern-common",
+    "risk:medium",
+    "family:submission",
+    "modern-no-gi"
+  ],
+  "keywords": [
+    "body triangle",
+    "back control",
+    "waist lock",
+    "body compression"
+  ],
+  "modernSystemGroup": "back_triangle",
+  "relatedSkills": [
+    {
+      "id": "rear-naked-choke-system",
+      "type": "chain"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [
+    "back-control-finisher"
+  ],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "back-control"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [
+    "Nếu họ bóc chân bạn: kéo đầu gối gần hơn và khóa lại ở vị trí thấp hơn",
+    "Nếu họ xoay mặt vào: bạn mất back control — giữ body triangle và kéo họ trở lại",
+    "Nếu họ chịu đựng nén tốt: tăng cường tay chiến đấu cho RNC"
+  ],
+  "version": 1,
+  "updatedAt": "2026-05-28T09:34:33.160Z",
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "vi",
+  "description": "Body triangle sử dụng chân của bạn khóa quanh eo họ để kiểm soát hông và ngăn họ di chuyển. Nó nén cơ hoành và ngăn thoát hông.",
+  "shortInstruction": "Back control → trượt chân trên qua hông → khóa chân quanh eo (ống chân sau gối) → bóp để nén cơ hoành → tay chiến đấu cho RNC.",
+  "summary": "Body triangle khóa chân quanh eo đối thủ để kiểm soát hông và nén cơ hoành. Không giống móc chân, body triangle không thể bị bóc dễ dàng — nó là một cấu trúc khóa.",
+  "whyItWorks": [
+    "Khóa chân quanh eo nén cơ hoành họ — họ mệt nhanh hơn và không thể tạo ra chuyển động bùng nổ",
+    "Body triangle ngăn thoát hông — để thoát khỏi lưng, đối thủ phải tạo khoảng trống hông trước",
+    "Không giống móc, body triangle không thể bị bóc dễ dàng — nó là một cấu trúc khóa",
+    "Body triangle cũng hoạt động như một đòn nén cơ thể — nén kéo dài có thể buộc tap"
+  ],
+  "commonMistakes": [
+    "Khóa body triangle quá cao (ở xương sườn thay vì hông) — họ vẫn có thể di chuyển hông",
+    "Để body triangle lỏng — triangle lỏng cho họ khoảng trống để thoát",
+    "Chỉ dùng body triangle mà không tấn công đòn siết — bạn vẫn phải làm việc cho RNC",
+    "Khóa triangle và thư giãn — bạn vẫn cần tay chiến đấu để kết thúc"
+  ],
+  "coachingCues": [
+    "Hông, không xương sườn — khóa thấp trên eo",
+    "Triangle chặt = kiểm soát chặt; triangle lỏng = thoát",
+    "Body triangle kiểm soát hông; tay kiểm soát đòn siết",
+    "Giữ nó nhưng đừng ngừng làm việc"
+  ],
+  "safetySummary": [
+    "Nén cơ hoành kéo dài có thể gây khó thở — chú ý đến phản ứng của bạn tập",
+    "Khóa body triangle quá chặt có thể gây khó chịu ở vùng bụng và xương sườn",
+    "Nếu bạn tập có vấn đề về hô hấp, thả body triangle và dùng móc thay thế"
+  ],
+  "systemLogic": {
+    "corePrinciple": "Body triangle: back control → trượt chân trên qua hông → khóa chân quanh eo (ống chân sau gối) → bóp để nén cơ hoành → tay chiến đấu cho RNC.",
+    "decisionTree": [
+      {
+        "condition": "Họ bóc chân bạn",
+        "action": "kéo đầu gối gần hơn và khóa lại thấp hơn"
+      },
+      {
+        "condition": "Họ xoay mặt vào",
+        "action": "giữ body triangle và kéo họ trở lại"
+      },
+      {
+        "condition": "Họ chịu đựng nén tốt",
+        "action": "tăng tay chiến đấu — RNC là ưu tiên"
+      }
+    ],
+    "exitStrategies": [
+      "Nếu mất back control, chuyển sang mount hoặc side control",
+      "Nếu body triangle bị bóc, chuyển sang móc và duy trì back control"
+    ]
+  },
+  "moneyDetails": [
+    "Body triangle là hình thức kiểm soát lưng thống trị nhất trong no-gi BJJ hiện đại",
+    "Body triangle tiết kiệm năng lượng hơn móc vì nó là cấu trúc khóa — không cần sức mạnh duy trì",
+    "Khả năng giữ body triangle trong khi tay chiến đấu là kỹ năng tách biệt võ sĩ đẳng cấp thế giới"
+  ],
+  "fixItFast": [
+    "Nếu họ bóc chân: giữ chặt và khóa lại ở vị trí thấp hơn trên eo",
+    "Nếu họ xoay vào mặt: kéo khuỷu tay họ xuống để lộ cổ cho RNC",
+    "Nếu triangle lỏng: bóp gót lại gần mông hơn"
+  ]
+}

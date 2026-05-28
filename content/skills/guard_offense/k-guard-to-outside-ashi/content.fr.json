@@ -1,0 +1,67 @@
+{
+  "id": "k-guard-to-outside-ashi",
+  "locale": "fr",
+  "name": "K-Guard vers Outside Ashi",
+  "description": "Le K-guard vers outside ashi est la principale chaîne d'entrée en leg lock depuis le K-guard. Quand l'adversaire défend le K-guard, vous relâchez le crochet et entrez directement en outside ashi.",
+  "whyItWorks": [
+    "Le K-guard a déjà vos hanches sous les leurs et votre jambe enchevêtrée — vous êtes déjà à 50% dans le leg lock",
+    "Relâcher l'accroche K-guard et rentrer en outside ashi est un seul mouvement — ils ne peuvent pas défendre deux positions en séquence",
+    "L'outside ashi vous donne une exposition du talon sur la jambe éloignée tout en protégeant votre propre ligne de genou",
+    "La transition se produit sous leur champ de vision — beaucoup ne reconnaissent pas la menace jusqu'à ce qu'il soit trop tard"
+  ],
+  "commonMistakes": [
+    "Perdre le K-guard avant d'établir l'outside ashi — il y a un trou entre les deux où vous êtes vulnérable",
+    "Les laisser dégager leur genou éloigné pendant la transition — il faut garder la jambe éloignée piégée",
+    "Aller trop tôt en saddle — finissez depuis l'outside ashi d'abord ; le saddle est l'option de secours",
+    "Ne pas contrôler leur main proche — ils peuvent s'appuyer sur votre tête ou décoller l'enchevêtrement"
+  ],
+  "coachingCues": [
+    "L'accroche K-guard tire, la jambe outside ashi pompe — deux mouvements qui n'en font qu'un",
+    "Gardez la jambe éloignée piégée pendant la transition — perdez-la, perdez l'entrée",
+    "Finissez depuis l'outside ashi avant d'envisager le saddle",
+    "Contrôlez la main proche — s'ils s'appuient sur votre tête, l'enchevêtrement échoue"
+  ],
+  "shortInstruction": "Depuis le K-guard, quand ils reculent, relâchez l'accroche extérieure et passez la jambe à l'intérieur de leur jambe éloignée. Ré-entrez en outside ashi avec exposition du talon.",
+  "summary": "La transition K-guard vers outside ashi passe d'une position de guarde à un enchevêtrement de jambes en relâchant l'accroche K-guard et en pompant directement dans l'outside ashi. La transition est plus rapide que l'adversaire ne peut défendre car vous êtes déjà sous eux avec une jambe enchevêtrée.",
+  "safetySummary": [
+    "Cette transition implique des enchevêtrements de jambes — assurez-vous de connaître les positions de sécurité avant de pratiquer",
+    "N'appliquez pas de pression de heel hook pendant le drill — pratiquez la transition avec un mouvement contrôlé seulement",
+    "Si vous perdez l'enchevêtrement, récupérez immédiatement la guarde plutôt que de lutter pour le heel hook"
+  ],
+  "keyCorrections": [
+    "S'ils reculent pour dégager le K-guard : pompez la jambe en outside ashi",
+    "S'ils avancent pour faire pression : restez en K-guard et sweep plutôt",
+    "S'ils s'appuient sur votre tête pour bloquer : pompez leur bras ou passez en omoplata"
+  ],
+  "moneyDetails": [
+    "Le K-guard vers outside ashi est la principale entrée en leg lock utilisée par les compétiteurs no-gi d'élite au niveau ADCC",
+    "Maîtriser cette transition vous donne un chemin direct de la guarde au heel hook qui contourne de nombreuses défenses courantes",
+    "Le K-guard est l'une des positions de guarde les plus sûres pour entrer dans les leg locks car vos hanches sont sous les leurs"
+  ],
+  "fixItFast": [
+    "S'ils libèrent leur jambe éloignée : vous avez perdu la position — rentrez en K-guard ou récupérez la guarde",
+    "S'ils s'appuient sur votre tête : pompez le bras et rétablissez l'enchevêtrement",
+    "S'ils reculent mais vous ratez l'entrée outside ashi : récupérez la full guarde et réessayez depuis le K-guard"
+  ],
+  "systemLogic": {
+    "corePrinciple": "K-guard to outside ashi : établissez le K-guard → l'adversaire recule (déclencheur) → relâchez l'accroche K-guard → pompez votre jambe à l'intérieur de leur jambe éloignée → rentrez en outside ashi → exposez le talon.",
+    "decisionTree": [
+      {
+        "condition": "Ils reculent pour dégager le K-guard",
+        "action": "pompez la jambe en outside ashi"
+      },
+      {
+        "condition": "Ils avancent pour faire pression",
+        "action": "restez en K-guard et sweep plutôt"
+      },
+      {
+        "condition": "Ils s'appuient sur votre tête pour bloquer",
+        "action": "pompez leur bras ou passez en omoplata"
+      }
+    ],
+    "exitStrategies": [
+      "S'ils libèrent leur jambe éloignée, rentrez en K-guard ou récupérez la guarde",
+      "Si vous perdez l'enchevêtrement, ne le poursuivez pas — reset en full guarde"
+    ]
+  }
+}

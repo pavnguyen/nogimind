@@ -1,0 +1,54 @@
+{
+  "id": "lateral-drop-headlock-throw",
+  "domain": "wrestle_up_wrestling",
+  "level": "intermediate",
+  "name": "Lateral Drop / Headlock Throw",
+  "aliases": [
+    "headlock throw",
+    "lateral drop",
+    "hip throw headlock"
+  ],
+  "tags": [
+    "tier:modern-expansion",
+    "meta:emerging",
+    "risk:high",
+    "family:wrestling",
+    "modern-no-gi"
+  ],
+  "keywords": [
+    "headlock throw",
+    "lateral drop",
+    "hip throw",
+    "overhook throw"
+  ],
+  "modernSystemGroup": "front_headlock",
+  "relatedSkills": [
+    {
+      "id": "snapdown-front-headlock",
+      "type": "recommended"
+    },
+    {
+      "id": "single-leg-bjj",
+      "type": "alternative"
+    }
+  ],
+  "prerequisiteSkillIds": [
+    "hand-fighting"
+  ],
+  "relatedPositions": [],
+  "relatedConcepts": [],
+  "archetypeIds": [
+    "wrestle-up-player"
+  ],
+  "trainingMethodIds": [],
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "updatedAt": "2026-05-28T09:34:33.156Z"
+}

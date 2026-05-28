@@ -1,0 +1,144 @@
+{
+  "id": "heel-hook-finishing-system",
+  "domain": "submission_systems",
+  "level": "advanced",
+  "status": "draft",
+  "name": "Heel Hook Finishing System",
+  "aliases": [],
+  "tags": [
+    "heel-hook",
+    "finish",
+    "leg-lock",
+    "knee-safety",
+    "tier:safety-critical",
+    "meta:modern-common",
+    "family:leg-lock",
+    "group:heel-hook"
+  ],
+  "keywords": [
+    "heel hook finish",
+    "inside heel hook",
+    "outside heel hook",
+    "figure-four grip",
+    "rotation mechanics",
+    "knee line control"
+  ],
+  "relatedSkills": [
+    {
+      "id": "saddle-inside-sankaku-control",
+      "type": "recommended"
+    },
+    {
+      "id": "backside-50-50-control",
+      "type": "recommended"
+    },
+    {
+      "id": "heel-hook-safety",
+      "type": "recommended"
+    },
+    {
+      "id": "fifty-fifty-to-heel-exposure",
+      "type": "recommended"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "heel-hook-safety",
+    "leg-lock-safety-basics",
+    "saddle-inside-sankaku-control"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [
+    "If the finish requires more than 30% of your arm strength, your alignment is wrong — reset knee line control first.",
+    "If the opponent can hide their heel, you have not isolated the knee line — scoot closer to their hip.",
+    "If they spin out during the finish, you lost far hip control — re-establish hip control before re-attacking.",
+    "If you feel the grip slipping, your hand placement is wrong — the palm of your top hand should face their heel."
+  ],
+  "version": 1,
+  "updatedAt": "2026-05-28T00:00:00.000Z",
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "en",
+  "description": "Master the precise mechanics of finishing heel hooks — inside vs outside rotation, figure-four grip variations, hip alignment, and how to chase the finish when the opponent defends.",
+  "shortInstruction": "Control the knee line, align the rotation vector with their hip, choose the grip (figure-four or honey-hole), and finish with hip-driven rotation — not arm strength.",
+  "summary": "The heel hook finish is the most mechanically precise submission in no-gi. Unlike most submissions where you can 'squeeze harder,' the heel hook requires perfect alignment of knee line control, grip placement, and rotational direction. This skill covers the differences between inside and outside heel hook finishing, the three primary grip types (figure-four, honey-hole, and seatbelt), how to adjust the angle when the opponent hides their heel, and how to chain finishes when the opponent tries to spin out. The modern finishing philosophy emphasizes hip-driven rotation over arm strength — the arms hold the position, the hips generate the finish.",
+  "whyItWorks": [
+    "The knee has minimal rotational stability — less than 5 degrees of external rotation can cause ligament damage, making proper alignment critical.",
+    "Hip-driven rotation is stronger and more controlled than arm-only force — using your core and hips prevents the 'ripping' that causes injuries.",
+    "The figure-four grip distributes force across both arms while keeping the wrist in a mechanically safe position.",
+    "Understanding inside vs outside rotation lets you choose the correct finish direction based on the entanglement (saddle = inside rotation, outside ashi = external rotation)."
+  ],
+  "commonMistakes": [
+    "Using arm strength to rotate instead of engaging the hips and core — the finish comes from hip rotation, not biceps.",
+    "Applying rotation before the knee line is fully isolated — if the opponent can still move their knee, the finish will not be clean.",
+    "Using the wrong grip type for the entanglement — figure-four for saddle, honey-hole for backside 50/50.",
+    "Chasing the heel hook when the opponent hides their heel instead of switching to a different attack (kneebar, back take).",
+    "Over-rotating after the tap — even an extra 5 degrees can cause injury."
+  ],
+  "coachingCues": [
+    "Hips drive the finish, arms just guide it.",
+    "Find the knee line first — if the knee moves, the heel hook is not ready.",
+    "Figure-four for saddle, honey-hole for backside, seatbelt for transitions.",
+    "If the heel hides, switch attacks — don't force the rotation.",
+    "Finish at 10% speed — control is the finish, speed is the enemy."
+  ],
+  "safetySummary": [
+    "NEVER apply a heel hook explosively — 'ripping' a heel hook can cause permanent knee damage before the opponent feels pain.",
+    "Always control the opponent's far hip before applying rotation — without hip control, they can spin and injure their own knee.",
+    "Establish clear tap protocols before training heel hooks — tap on any rotational pressure, not just pain.",
+    "Release immediately on tap — continue no more than 5 degrees of additional rotation.",
+    "Do not train heel hooks at full speed without supervision and experience."
+  ],
+  "systemLogic": {
+    "corePrinciple": "Entanglement established → control far hip → isolate knee line → choose grip type → align rotation vector with hip → apply slow, controlled rotation using hips → finish.",
+    "decisionTree": [
+      {
+        "condition": "Inside sankaku / saddle",
+        "action": "Figure-four grip, inside rotation (turn their heel toward their glutes). Keep their knee pinned against your chest."
+      },
+      {
+        "condition": "Outside ashi / 50/50",
+        "action": "Honey-hole or figure-four, external rotation (turn their heel away from their body). Control their far hip to prevent spin."
+      },
+      {
+        "condition": "Backside 50/50",
+        "action": "Honey-hole grip, external rotation. Follow their hips if they try to roll."
+      },
+      {
+        "condition": "They hide their heel",
+        "action": "Release the finish attempt, scoot higher on their leg, or switch to kneebar/calf slicer."
+      }
+    ],
+    "exitStrategies": []
+  },
+  "moneyDetails": [
+    "The figure-four grip: your top hand grabs your own wrist, your bottom hand cups their heel. The palm of your top hand faces their heel — this ensures rotation goes through the correct axis.",
+    "The honey-hole grip: both hands on their heel (one palm on each side), elbows pinched together. This grip gives more rotational control but less leverage than figure-four.",
+    "Rotation alignment: imagine a line from their heel through their knee to their hip. Your rotation must follow this line — any deviation reduces effectiveness and increases injury risk.",
+    "Hip-driven finishing: instead of pulling the heel toward you, rotate your own hips away from them while keeping their heel pinned to your chest. This generates rotational force through your core, not your arms.",
+    "Inside rotation (saddle): turn their heel inward toward their glutes — this creates external rotation of the tibia on the femur.",
+    "Outside rotation (outside ashi): turn their heel outward away from their body — this creates internal rotation."
+  ],
+  "nextStep": "After mastering the heel hook finish, learn the kneebar and calf slicer as secondary attacks from leg entanglements.",
+  "fixItFast": [
+    "Can't find the rotation? Align your chest with their knee line — the rotation axis is knee-to-hip.",
+    "Grip keeps slipping? Switch to honey-hole grip (both hands on the heel) for better control.",
+    "They keep spinning? Release, control their far hip, and re-enter the entanglement.",
+    "Feeling resistance in their knee? Release immediately — you have the wrong angle or they are already injured."
+  ]
+}

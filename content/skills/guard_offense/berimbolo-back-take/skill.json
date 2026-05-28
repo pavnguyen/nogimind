@@ -1,0 +1,53 @@
+{
+  "id": "berimbolo-back-take",
+  "domain": "guard_offense",
+  "level": "advanced",
+  "name": "Berimbolo / Inversion Back Take",
+  "aliases": [
+    "berimbolo",
+    "inversion back take",
+    "berimbolo guard"
+  ],
+  "tags": [
+    "tier:modern-expansion",
+    "meta:modern-common",
+    "risk:medium",
+    "family:back_take",
+    "modern-no-gi"
+  ],
+  "keywords": [
+    "berimbolo",
+    "inversion",
+    "DLR back take",
+    "RDLR back take",
+    "shoulder roll"
+  ],
+  "modernSystemGroup": "x_guard",
+  "relatedSkills": [
+    {
+      "id": "coyote-half-guard",
+      "type": "chain"
+    },
+    {
+      "id": "k-guard-to-outside-ashi",
+      "type": "alternative"
+    }
+  ],
+  "prerequisiteSkillIds": [],
+  "relatedPositions": [],
+  "relatedConcepts": [],
+  "archetypeIds": [
+    "guard-retention-specialist"
+  ],
+  "trainingMethodIds": [],
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "updatedAt": "2026-05-28T09:34:33.157Z"
+}

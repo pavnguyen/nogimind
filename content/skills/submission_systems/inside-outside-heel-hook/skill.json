@@ -1,0 +1,55 @@
+{
+  "id": "inside-outside-heel-hook",
+  "domain": "submission_systems",
+  "level": "advanced",
+  "name": "Inside & Outside Heel Hook Finishing",
+  "aliases": [
+    "heel hook finishing",
+    "inside heel hook",
+    "outside heel hook"
+  ],
+  "tags": [
+    "tier:safety-critical",
+    "meta:modern-common",
+    "risk:safety-critical",
+    "family:leg_lock",
+    "modern-no-gi"
+  ],
+  "keywords": [
+    "heel hook",
+    "inside heel hook",
+    "outside heel hook",
+    "boot grip",
+    "milk the calf"
+  ],
+  "modernSystemGroup": "leg_lock",
+  "relatedSkills": [
+    {
+      "id": "k-guard-to-outside-ashi",
+      "type": "chain"
+    },
+    {
+      "id": "straight-ankle-lock-safety",
+      "type": "supporting"
+    }
+  ],
+  "prerequisiteSkillIds": [
+    "leg-lock-safety-basics"
+  ],
+  "relatedPositions": [],
+  "relatedConcepts": [],
+  "archetypeIds": [
+    "leg-lock-safety-first"
+  ],
+  "trainingMethodIds": [],
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "updatedAt": "2026-05-28T09:34:33.158Z"
+}

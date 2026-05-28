@@ -1,0 +1,44 @@
+{
+  "id": "bjj-foot-sweeps",
+  "domain": "wrestle_up_wrestling",
+  "level": "intermediate",
+  "name": "Foot Sweeps (Kouchi, Sasae, De Ashi)",
+  "aliases": ["foot sweeps", "kouchigari", "sasae", "deashibarai"],
+  "tags": [
+    "takedown",
+    "wrestling",
+    "foot-sweep",
+    "kouchigari",
+    "sasae",
+    "deashibarai",
+    "clinch-fighting"
+  ],
+  "keywords": [
+    "foot sweeps",
+    "kouchi gari",
+    "sasae tsurikomi ashi",
+    "de ashi harai",
+    "judo for BJJ"
+  ],
+  "relatedSkills": [
+    { "id": "arm-drag-system", "type": "chain" },
+    { "id": "ankle-pick-low-single", "type": "chain" },
+    { "id": "double-leg-bjj", "type": "chain" },
+    { "id": "body-lock-takedown", "type": "alternative" }
+  ],
+  "prerequisiteSkillIds": ["stance-movement-basics", "arm-drag-system"],
+  "relatedPositions": [],
+  "relatedConcepts": [],
+  "archetypeIds": ["wrestle-up-player", "scramble-controller"],
+  "trainingMethodIds": [],
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": true,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "updatedAt": "2026-05-28T00:00:00.000Z"
+}

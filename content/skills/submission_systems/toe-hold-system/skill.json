@@ -1,0 +1,55 @@
+{
+  "id": "toe-hold-system",
+  "domain": "submission_systems",
+  "level": "advanced",
+  "name": "Toe Hold / Estima Lock",
+  "aliases": [
+    "toe hold",
+    "Estima lock",
+    "foot lock"
+  ],
+  "tags": [
+    "tier:advanced-niche",
+    "meta:specialized",
+    "risk:high",
+    "family:leg_lock",
+    "modern-no-gi"
+  ],
+  "keywords": [
+    "toe hold",
+    "Estima lock",
+    "foot lock",
+    "ankle lock",
+    "dorsiflexion"
+  ],
+  "modernSystemGroup": "leg_lock",
+  "relatedSkills": [
+    {
+      "id": "inside-outside-heel-hook",
+      "type": "alternative"
+    },
+    {
+      "id": "straight-ankle-lock-safety",
+      "type": "supporting"
+    }
+  ],
+  "prerequisiteSkillIds": [
+    "leg-lock-safety-basics"
+  ],
+  "relatedPositions": [],
+  "relatedConcepts": [],
+  "archetypeIds": [
+    "leg-lock-safety-first"
+  ],
+  "trainingMethodIds": [],
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "updatedAt": "2026-05-28T09:34:33.159Z"
+}

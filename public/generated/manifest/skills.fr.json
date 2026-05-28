@@ -1,5 +1,39 @@
 [
   {
+    "id": "gift-wrap-back-take",
+    "domain": "back_control",
+    "level": "intermediate",
+    "name": "Gift Wrap / Prise de dos par Arm Drag",
+    "tags": [
+      "tier:modern-expansion",
+      "meta:modern-common",
+      "risk:low",
+      "family:back_take",
+      "modern-no-gi"
+    ],
+    "summary": "La prise de dos par gift wrap neutralise le bras éloigné de l'adversaire en le pliant derrière son dos, puis utilise une rotation pour prendre le dos. Avec un bras piégé, leur capacité à défendre la prise de dos est réduite de moitié.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "leg-drag-to-back-take",
+    "domain": "back_control",
+    "level": "advanced",
+    "name": "Leg Drag vers Prise de Dos",
+    "tags": [
+      "tier:modern-expansion",
+      "meta:modern-common",
+      "risk:medium",
+      "family:back_take",
+      "modern-no-gi"
+    ],
+    "summary": "La leg drag vers la prise de dos est un mouvement continu de la passe de guarde au back control. La leg drag force l'adversaire à s'appuyer sur son bras éloigné — et cet appui devient l'entrée pour la prise de dos.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
     "id": "back-escape",
     "domain": "escapes",
     "level": "intermediate",
@@ -413,6 +447,23 @@
     "hasChecklist": false
   },
   {
+    "id": "turtle-to-guard-recovery",
+    "domain": "escapes",
+    "level": "intermediate",
+    "name": "Récupération de Garde depuis la Tortue",
+    "tags": [
+      "tier:modern-expansion",
+      "meta:modern-common",
+      "risk:low",
+      "family:escape",
+      "modern-no-gi"
+    ],
+    "summary": "La récupération de guarde depuis la turtle utilise un basculement explosif des hanches pour créer de l'espace, ramener les jambes entre vous et l'adversaire, et rétablir la guarde. Contrairement à la remontée debout qui désengage, la récupération de guarde maintient le combat dans votre guarde où vous pouvez attaquer.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
     "id": "butterfly-guard-off-balance",
     "domain": "guard_offense",
     "level": "intermediate",
@@ -494,6 +545,24 @@
     "hasVideos": true,
     "hasMicroDetails": false,
     "hasChecklist": false
+  },
+  {
+    "id": "coyote-half-guard",
+    "domain": "guard_offense",
+    "level": "intermediate",
+    "name": "Coyote Half Guard",
+    "tags": [
+      "half-guard",
+      "coyote-hook",
+      "waiter-sweep",
+      "sweep",
+      "guard-offense",
+      "underhook"
+    ],
+    "summary": "Le coyote half guard résout le problème d'être aplati. L'underhook profond et la rotation sur le côté créent de l'espace et des angles.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": true
   },
   {
     "id": "de-la-riva-sweeps",
@@ -878,6 +947,40 @@
     "hasChecklist": false
   },
   {
+    "id": "berimbolo-back-take",
+    "domain": "guard_offense",
+    "level": "advanced",
+    "name": "Berimbolo / Prise de dos par inversion",
+    "tags": [
+      "tier:modern-expansion",
+      "meta:modern-common",
+      "risk:medium",
+      "family:back_take",
+      "modern-no-gi"
+    ],
+    "summary": "La prise de dos par berimbolo utilise une inversion (roulade par-dessus l'épaule) pour passer de dessous l'adversaire à derrière lui. Déclenchée quand l'adversaire avance, vous roulez par-dessus l'épaule, tirez la hanche éloignée et retombez en back control.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "k-guard-to-outside-ashi",
+    "domain": "guard_offense",
+    "level": "advanced",
+    "name": "K-Guard vers Outside Ashi",
+    "tags": [
+      "tier:modern-expansion",
+      "meta:modern-common",
+      "risk:high",
+      "family:leg_lock",
+      "modern-no-gi"
+    ],
+    "summary": "La transition K-guard vers outside ashi passe d'une position de guarde à un enchevêtrement de jambes en relâchant l'accroche K-guard et en pompant directement dans l'outside ashi. La transition est plus rapide que l'adversaire ne peut défendre car vous êtes déjà sous eux avec une jambe enchevêtrée.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
     "id": "bodylock-pass",
     "domain": "passing",
     "level": "intermediate",
@@ -958,6 +1061,76 @@
       "mobility"
     ],
     "summary": "Les passes extérieures utilisent le jeu de jambes et la distance pour forcer l'adversaire à tourner les hanches, créant ainsi des voies de passe auxquelles les passes sous pression ne peuvent pas accéder. Le système fonctionne en restant debout (sans tomber à genoux) et en tournant vers l'extérieur de la jambe de tête de l'adversaire. Alors qu'ils se tournent vers vous, vous attaquez la hanche exposée avec un mouvement de jambe, un recul ou une passe en X. Les passes extérieures sont particulièrement efficaces contre les joueurs flexibles guard qui sont difficiles à passer sous pression.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": true
+  },
+  {
+    "id": "over-under-pass",
+    "domain": "passing",
+    "level": "intermediate",
+    "name": "Passe Over-Under / Smash",
+    "tags": [
+      "passing",
+      "over-under",
+      "smash-pass",
+      "half-guard",
+      "pressure-passing"
+    ],
+    "summary": "La passe over-under crée une connexion poitrine-contre-poitrine qui élimine les frames et le knee shield. Le passeur verrouille un bras au-dessus du dos de l'adversaire et l'autre sous sa jambe lointaine.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": true
+  },
+  {
+    "id": "toreando-passing",
+    "domain": "passing",
+    "level": "intermediate",
+    "name": "Passe Toreando / Float",
+    "tags": [
+      "passing",
+      "float-passing",
+      "toreando",
+      "mobility",
+      "footwork"
+    ],
+    "summary": "Le float passing fonctionne en n'installant jamais de position statique. Le passeur utilise un mouvement latéral continu, alternant les hanches et s'appuyant sur les jambes de l'adversaire pour empêcher l'établissement de frames.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": true
+  },
+  {
+    "id": "tripod-folding-pass",
+    "domain": "passing",
+    "level": "intermediate",
+    "name": "Passe Trépied / Pliage",
+    "tags": [
+      "passing",
+      "tripod",
+      "folding-pass",
+      "smash-pass",
+      "headquarters",
+      "pressure"
+    ],
+    "summary": "La passe trépied utilise une stance large combinée à une pression de tête pour plier le corps de l'adversaire. Depuis headquarters, le passeur pose son pied extérieur large, abaisse sa tête et pousse son épaule dans la hip line.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": true
+  },
+  {
+    "id": "chin-strap-control",
+    "domain": "pins_rides",
+    "level": "intermediate",
+    "name": "Système de Contrôle du Menton (Chin Strap)",
+    "tags": [
+      "front-headlock",
+      "chin-strap",
+      "head-control",
+      "ride",
+      "turtle",
+      "back-exposure"
+    ],
+    "summary": "Le chin strap donne le contrôle de la tête → colonne → hanches. Soulever le menton brise la posture et expose le dos.",
     "hasVideos": true,
     "hasMicroDetails": false,
     "hasChecklist": true
@@ -1228,6 +1401,108 @@
     "hasChecklist": false
   },
   {
+    "id": "body-triangle-control",
+    "domain": "submission_systems",
+    "level": "advanced",
+    "name": "Contrôle Body Triangle",
+    "tags": [
+      "tier:modern-expansion",
+      "meta:modern-common",
+      "risk:medium",
+      "family:submission",
+      "modern-no-gi"
+    ],
+    "summary": "Le body triangle immobilise les hanches de l'adversaire en verrouillant vos jambes autour de leur taille. Il comprime le diaphragme, empêche l'échappée de hanche et ne peut pas être décollé facilement. C'est principalement un contrôle qui prépare le rear-naked choke.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "calf-slicer-system",
+    "domain": "submission_systems",
+    "level": "advanced",
+    "name": "Système de Calf Slicer / Verrouillage par compression",
+    "tags": [
+      "tier:advanced-niche",
+      "meta:specialized",
+      "risk:high",
+      "family:compression",
+      "modern-no-gi"
+    ],
+    "summary": "Le calf slicer comprime le muscle du mollet contre le tibia, créant un verrou musculaire qui ne repose pas sur l'hyperextension. Il est disponible depuis les enchevêtrements de jambes où les heel hooks sont défendus ou illégaux, et doit être appliqué progressivement pour la sécurité.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "inside-outside-heel-hook",
+    "domain": "submission_systems",
+    "level": "advanced",
+    "name": "Finitions Heel Hook Intérieur & Extérieur",
+    "tags": [
+      "tier:safety-critical",
+      "meta:modern-common",
+      "risk:safety-critical",
+      "family:leg_lock",
+      "modern-no-gi"
+    ],
+    "summary": "Le heel hook se finit en faisant pivoter le pied par rapport au genou en utilisant la rotation des hanches plutôt que la force des bras. L'inside heel hook tourne le pied vers l'extérieur ; l'outside heel hook tourne le pied vers l'intérieur. Les deux nécessitent le contrôle de la ligne de genou, le boot grip et la compression du mollet.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "mounted-triangle",
+    "domain": "submission_systems",
+    "level": "advanced",
+    "name": "Triangle Monté / Armbar depuis la Monture",
+    "tags": [
+      "tier:modern-expansion",
+      "meta:modern-common",
+      "risk:medium",
+      "family:submission",
+      "modern-no-gi"
+    ],
+    "summary": "Le triangle monté est une soumission à haut pourcentage depuis le mount qui utilise la gravité et la pression du dessus pour empêcher l'adversaire de se redresser ou de stacker. La montée en S-mount est le gardien — ne tentez jamais depuis un mount bas.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "peruvian-necktie",
+    "domain": "submission_systems",
+    "level": "advanced",
+    "name": "Peruvian Necktie",
+    "tags": [
+      "tier:advanced-niche",
+      "meta:specialized",
+      "risk:safety-critical",
+      "family:front_headlock",
+      "modern-no-gi"
+    ],
+    "summary": "La Peruvian necktie comprime les deux artères carotides simultanément en utilisant votre avant-bras et votre biceps. Ce n'est pas une compression — le poids du corps de l'adversaire crée l'étranglement quand vous les pliez vers l'avant. Disponible quand l'adversaire se détourne du front headlock.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "toe-hold-system",
+    "domain": "submission_systems",
+    "level": "advanced",
+    "name": "Système de Toe Hold / Estima Lock",
+    "tags": [
+      "tier:advanced-niche",
+      "meta:specialized",
+      "risk:high",
+      "family:leg_lock",
+      "modern-no-gi"
+    ],
+    "summary": "Le toe hold hyperétend les ligaments de la cheville en combinant dorsiflexion et rotation. La variante Estima lock offre plus de couple de rotation avec une prise figure-four. Le toe hold est plus efficace quand l'adversaire est à plat ventre et que le genou est immobilisé.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
     "id": "anaconda-choke",
     "domain": "submission_systems",
     "level": "intermediate",
@@ -1393,6 +1668,25 @@
     "hasChecklist": false
   },
   {
+    "id": "calf-compression-locks",
+    "domain": "submission_systems",
+    "level": "intermediate",
+    "name": "Clés de Compression du Mollet",
+    "tags": [
+      "calf-slicer",
+      "compression",
+      "leg-lock",
+      "knee-safety",
+      "meta:modern-common",
+      "family:leg-lock",
+      "group:compression"
+    ],
+    "summary": "Les clés de compression du mollet utilisent votre tibia contre le mollet de l'adversaire avec sa jambe piégée dans le creux de votre articulation. La compression crée une pression intense sur le mollet et le genou. Contrairement aux heel hooks qui ciblent les ligaments rotationnels du genou, les clés de compression attaquent le genou dans un plan différent. Elles fonctionnent depuis le saddle, 50/50, backside 50/50, half guard et truck. La clé est un contact os-sur-muscle avec un bon angle de tibia et une poussée des hanches.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
     "id": "choi-bar",
     "domain": "submission_systems",
     "level": "advanced",
@@ -1520,6 +1814,26 @@
     "hasChecklist": true
   },
   {
+    "id": "heel-hook-finishing-system",
+    "domain": "submission_systems",
+    "level": "advanced",
+    "name": "Système de Finition Heel Hook",
+    "tags": [
+      "heel-hook",
+      "finish",
+      "leg-lock",
+      "knee-safety",
+      "tier:safety-critical",
+      "meta:modern-common",
+      "family:leg-lock",
+      "group:heel-hook"
+    ],
+    "summary": "La finition du heel hook est la soumission la plus mécaniquement précise en no-gi. Contrairement à la plupart des soumissions où l'on peut « serrer plus fort », le heel hook exige un alignement parfait du contrôle de la knee line, du placement de la prise et de la direction de rotation. Cette technique couvre les différences entre la finition intérieure et extérieure du heel hook, les trois principaux types de prise (figure-four, honey-hole et seatbelt), comment ajuster l'angle quand l'adversaire cache son talon, et comment enchaîner les finitions quand il essaie de tourner. La philosophie moderne met l'accent sur la rotation des hanches plutôt que sur la force des bras — les bras tiennent la position, les hanches génèrent la finition.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
     "id": "heel-hook-safety",
     "domain": "submission_systems",
     "level": "advanced",
@@ -1568,6 +1882,25 @@
     "hasVideos": true,
     "hasMicroDetails": false,
     "hasChecklist": true
+  },
+  {
+    "id": "mounted-triangle-armbar",
+    "domain": "submission_systems",
+    "level": "intermediate",
+    "name": "Triangle / Armbar Depuis Mount",
+    "tags": [
+      "triangle",
+      "armbar",
+      "mount",
+      "dilemma",
+      "meta:modern-common",
+      "family:submission",
+      "group:mount-attacks"
+    ],
+    "summary": "Le triangle depuis mount est l'une des attaques les plus dangereuses du mount car le bras de l'adversaire est déjà piégé par votre poids. Contrairement au triangle depuis la guard où vous devez d'abord briser la posture, le mount vous donne une pression poitrine contre poitrine avant même de commencer. Depuis S-mount, vous passez une jambe au-dessus de leur tête tout en piégeant leur bras avec votre jambe opposée. La différence clé : votre poids est dessus, ils ne peuvent pas vous empiler, et le dilemme triangle-armbar est bien plus menaçant. Ce système est largement utilisé par Tye Ruotolo, Giancarlo Bodoni et les compétiteurs BJJ modernes.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
   },
   {
     "id": "octopus-back-take",
@@ -1774,6 +2107,25 @@
     "hasChecklist": false
   },
   {
+    "id": "toe-hold-estima-lock",
+    "domain": "submission_systems",
+    "level": "intermediate",
+    "name": "Toe Hold / Estima Lock",
+    "tags": [
+      "toe-hold",
+      "estima-lock",
+      "foot-lock",
+      "leg-lock",
+      "meta:modern-common",
+      "family:leg-lock",
+      "group:foot-lock"
+    ],
+    "summary": "Le toe hold et l'Estima lock sont de puissantes attaques du pied qui ciblent la cheville et le genou. Le toe hold traditionnel utilise une prise figure-four pour faire tourner le pied, créant une torsion latérale de la cheville. L'Estima lock moderne (popularisé par Victor et Braulio Estima) fonctionne différemment : il piège le pied de l'adversaire contre votre corps et utilise la poussée des hanches pour créer une flexion plantaire extrême. L'Estima lock est particulièrement efficace en no-gi car il ne nécessite pas de prise de kimono. Les deux attaques s'enchaînent bien avec les heel hooks et les ankle locks.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
     "id": "triangle-system",
     "domain": "submission_systems",
     "level": "advanced",
@@ -1842,6 +2194,23 @@
     "hasChecklist": false
   },
   {
+    "id": "lateral-drop-headlock-throw",
+    "domain": "wrestle_up_wrestling",
+    "level": "intermediate",
+    "name": "Lateral Drop / Projection par clé de tête",
+    "tags": [
+      "tier:modern-expansion",
+      "meta:emerging",
+      "risk:high",
+      "family:wrestling",
+      "modern-no-gi"
+    ],
+    "summary": "La projection latérale utilise vos hanches comme point d'appui pour faire basculer l'adversaire par-dessus vous depuis une clé de tête. La clé du BJJ est de rester sur vos pieds pour retomber en position dominante plutôt que de les suivre au sol.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
     "id": "ankle-pick-low-single",
     "domain": "wrestle_up_wrestling",
     "level": "intermediate",
@@ -1874,6 +2243,25 @@
     "hasVideos": true,
     "hasMicroDetails": false,
     "hasChecklist": false
+  },
+  {
+    "id": "bjj-foot-sweeps",
+    "domain": "wrestle_up_wrestling",
+    "level": "intermediate",
+    "name": "Balisages (Kouchi, Sasae, De Ashi)",
+    "tags": [
+      "takedown",
+      "wrestling",
+      "foot-sweep",
+      "kouchigari",
+      "sasae",
+      "deashibarai",
+      "clinch-fighting"
+    ],
+    "summary": "Les balayages exploitent le transfert de poids quand l'adversaire défend les doubles jambes.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": true
   },
   {
     "id": "body-lock-takedown",
@@ -1912,6 +2300,24 @@
     "hasVideos": true,
     "hasMicroDetails": false,
     "hasChecklist": false
+  },
+  {
+    "id": "double-leg-bjj",
+    "domain": "wrestle_up_wrestling",
+    "level": "intermediate",
+    "name": "Double Leg Takedown",
+    "tags": [
+      "takedown",
+      "wrestling",
+      "double-leg",
+      "blast-double",
+      "standing",
+      "clinch"
+    ],
+    "summary": "Le double leg BJJ diffère de la lutte par la position de tête à l'extérieur, la finition priorisant chest-to-chest, et l'entrée venant souvent de l'arm drag, du collar tie ou du foot sweep.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": true
   },
   {
     "id": "front-headlock-system",

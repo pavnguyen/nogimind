@@ -1,0 +1,68 @@
+{
+  "id": "inside-outside-heel-hook",
+  "locale": "fr",
+  "name": "Finitions Heel Hook Intérieur & Extérieur",
+  "description": "La finition heel hook est une rotation du pied par rapport au genou, créée par la rotation de vos propres hanches et épaules. Le heel hook intérieur tourne le pied vers lextérieur, lextérieur vers lintérieur.",
+  "whyItWorks": [
+    "Le heel hook attaque le genou dans son plan de rotation le plus faible — le genou NE tourne PAS latéralement",
+    "La rotation des hanches génère le couple (pas la traction des bras) — vos hanches sont plus fortes que vos bras",
+    "Le boot grip (tibia piégeant le talon) vous donne un avantage mécanique sur leur pied — vous contrôlez la rotation",
+    "Traire le mollet crée la finition sans force explosive — c'est une compression + rotation, pas une secousse"
+  ],
+  "commonMistakes": [
+    "Serrer le heel hook avant d'établir le contrôle de la ligne de genou — vous ne finirez pas et risquez de perdre l'enchevêtrement",
+    "Tirer avec les bras au lieu de pivoter les hanches — cela fatigue les bras et manque de puissance",
+    "Ne pas « traire le mollet » — une bonne compression du mollet crée la finition, pas la torsion du pied seule",
+    "Les laisser cacher leur talon dans votre aisselle — cela neutralise la rotation"
+  ],
+  "coachingCues": [
+    "Ligne de genou d'abord, puis le boot, puis la rotation",
+    "Pivotez les hanches, ne tirez pas le pied",
+    "Trairez le mollet — la compression est la finition",
+    "Si le talon disparaît, vous avez perdu l'angle"
+  ],
+  "shortInstruction": "Établissez l'enchevêtrement de jambes, dégagez la ligne de genou, sécurisez le boot grip, pivotez les hanches dans la direction de finition, trayez le mollet avec votre tibia, finissez par rotation pas par compression.",
+  "summary": "Le heel hook se finit en faisant pivoter le pied par rapport au genou en utilisant la rotation des hanches plutôt que la force des bras. L'inside heel hook tourne le pied vers l'extérieur ; l'outside heel hook tourne le pied vers l'intérieur. Les deux nécessitent le contrôle de la ligne de genou, le boot grip et la compression du mollet.",
+  "safetySummary": [
+    "Les heel hooks peuvent causer de graves blessures au genou (rupture LCA, LCP, LLE, LCM) — appliquez lentement et relâchez au premier signe de résistance",
+    "Ne forcez jamais un heel hook à l'entraînement — la blessure peut ne pas être immédiatement ressentie par l'adversaire",
+    "Tapez tôt sur les heel hooks — ils causent des blessures avant que la douleur ne soit ressentie",
+    "Pratiquez les heel hooks uniquement avec des partenaires de confiance qui comprennent les risques"
+  ],
+  "keyCorrections": [
+    "Inside heel hook : pivotez les hanches vers leur pied (le pied tourne vers l'extérieur)",
+    "Outside heel hook : pivotez les hanches loin de leur pied (le pied tourne vers l'intérieur)",
+    "S'ils cachent leur talon : rétablissez le boot grip en faisant levier avec votre avant-bras"
+  ],
+  "moneyDetails": [
+    "Les heel hooks sont la soumission de jambe la plus efficace en no-gi au niveau élite",
+    "Comprendre la mécanique inside vs outside heel hook est essentiel pour un leg locking sûr et efficace",
+    "Le boot grip et la finition en trayant le mollet doivent être drillés des milliers de fois pour construire une mémoire musculaire sûre"
+  ],
+  "fixItFast": [
+    "Si le talon disparaît : vous avez perdu le contrôle de l'angle — relâchez et rentrez à nouveau dans l'enchevêtrement",
+    "S'ils dégagent la ligne de genou : abandonnez l'attaque — vous ne pouvez pas finir sans contrôle de la ligne de genou",
+    "Si vous ne pouvez pas obtenir le boot grip : passez à un toe hold ou straight ankle lock à la place"
+  ],
+  "systemLogic": {
+    "corePrinciple": "Heel hook : établissez l'enchevêtrement → dégagez la ligne de genou → sécurisez le boot grip → pivotez les hanches dans la direction de finition → trayez le mollet avec votre tibia → finissez par rotation, pas par compression.",
+    "decisionTree": [
+      {
+        "condition": "Inside heel hook",
+        "action": "pivotez les hanches vers leur pied (pied vers l'extérieur) — cible LCL/MCL"
+      },
+      {
+        "condition": "Outside heel hook",
+        "action": "pivotez les hanches loin de leur pied (pied vers l'intérieur) — cible ACL/PCL"
+      },
+      {
+        "condition": "Ils cachent leur talon",
+        "action": "rétablissez le boot grip en faisant levier avec l'avant-bras"
+      }
+    ],
+    "exitStrategies": [
+      "S'ils dégagent la ligne de genou, relâchez l'enchevêtrement et rentrez depuis la guarde",
+      "Si le heel hook échoue, passez en toe hold ou straight ankle lock"
+    ]
+  }
+}

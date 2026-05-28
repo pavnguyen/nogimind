@@ -1,0 +1,108 @@
+{
+  "id": "coyote-half-guard",
+  "domain": "guard_offense",
+  "level": "intermediate",
+  "status": "draft",
+  "name": "Coyote Half Guard",
+  "aliases": [
+    "coyote hook half guard",
+    "waiter sweep system",
+    "deep half hook"
+  ],
+  "tags": [
+    "half-guard",
+    "coyote-hook",
+    "waiter-sweep",
+    "sweep",
+    "guard-offense",
+    "underhook"
+  ],
+  "keywords": [
+    "coyote half guard",
+    "waiter sweep",
+    "deep half hook",
+    "half guard sweep",
+    "coyote hook"
+  ],
+  "relatedSkills": [
+    {
+      "id": "deep-half-guard",
+      "type": "chain"
+    },
+    {
+      "id": "half-butterfly-to-leg-entanglements",
+      "type": "chain"
+    },
+    {
+      "id": "single-leg-x-guard",
+      "type": "chain"
+    },
+    {
+      "id": "leg-drag-pass",
+      "type": "alternative"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [
+    "half-guard-wrestler",
+    "guard-retention-specialist",
+    "wrestle-up-player"
+  ],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "half-guard-knee-shield",
+    "deep-half-guard"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [
+    "Aplati : underhook trop superficiel",
+    "Passé : coyote hook pas actif"
+  ],
+  "version": 1,
+  "updatedAt": "2026-05-28T00:00:00.000Z",
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": true,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "fr",
+  "description": "Le coyote half guard est un système offensif de half guard basé sur un underhook profond combiné à un crochet sur la jambe lointaine de l'adversaire. Popularisé par John Danaher et Gordon Ryan.",
+  "shortInstruction": "Depuis bottom half guard, insérez un underhook profond jusqu'à la hanche lointaine, crochetez leur jambe lointaine, tournez sur le côté, balayez en soulevant la jambe crochetée.",
+  "summary": "Le coyote half guard résout le problème d'être aplati. L'underhook profond et la rotation sur le côté créent de l'espace et des angles.",
+  "whyItWorks": [
+    "L'underhook profond empêche l'aplatissement",
+    "La rotation sur le côté crée des angles de balayage",
+    "Le coyote hook contrôle directement leur base"
+  ],
+  "commonMistakes": [
+    "Se faire aplatir — restez sur le côté",
+    "Underhook trop superficiel",
+    "Perdre le coyote hook"
+  ],
+  "coachingCues": [
+    "Restez sur le côté — jamais à plat",
+    "Underhook profond jusqu'à la hanche lointaine",
+    "Coyote hook actif, pas passif",
+    "Tête à la poitrine"
+  ],
+  "safetySummary": [
+    "Gardez le bras du dessous protégeant le côté"
+  ],
+  "moneyDetails": [
+    "Système de half guard offensif le plus efficace en no-gi"
+  ],
+  "fixItFast": [
+    "Aplati : underhook plus profond",
+    "Passé : activez le coyote hook"
+  ]
+}

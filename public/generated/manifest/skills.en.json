@@ -1,5 +1,39 @@
 [
   {
+    "id": "gift-wrap-back-take",
+    "domain": "back_control",
+    "level": "intermediate",
+    "name": "Gift Wrap / Arm Drag Back Take",
+    "tags": [
+      "tier:modern-expansion",
+      "meta:modern-common",
+      "risk:low",
+      "family:back_take",
+      "modern-no-gi"
+    ],
+    "summary": "The gift wrap back take neutralizes the opponent far arm by folding it behind their back, then uses a spin to take the back. With one arm trapped, their ability to defend the back take is halved.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "leg-drag-to-back-take",
+    "domain": "back_control",
+    "level": "advanced",
+    "name": "Leg Drag to Back Take",
+    "tags": [
+      "tier:modern-expansion",
+      "meta:modern-common",
+      "risk:medium",
+      "family:back_take",
+      "modern-no-gi"
+    ],
+    "summary": "The leg drag to back take is a continuous movement from guard passing to back control. The leg drag forces the opponent to post with their far arm — and that post becomes the entry for the back take.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
     "id": "back-escape",
     "domain": "escapes",
     "level": "intermediate",
@@ -413,6 +447,23 @@
     "hasChecklist": false
   },
   {
+    "id": "turtle-to-guard-recovery",
+    "domain": "escapes",
+    "level": "intermediate",
+    "name": "Turtle to Guard Recovery",
+    "tags": [
+      "tier:modern-expansion",
+      "meta:modern-common",
+      "risk:low",
+      "family:escape",
+      "modern-no-gi"
+    ],
+    "summary": "Turtle to guard recovery uses an explosive hip switch to create space, re-engage the opponent, and establish guard. Unlike the stand-up which disengages, guard recovery keeps the fight in your guard where you can attack.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
     "id": "butterfly-guard-off-balance",
     "domain": "guard_offense",
     "level": "intermediate",
@@ -494,6 +545,24 @@
     "hasVideos": true,
     "hasMicroDetails": false,
     "hasChecklist": false
+  },
+  {
+    "id": "coyote-half-guard",
+    "domain": "guard_offense",
+    "level": "intermediate",
+    "name": "Coyote Half Guard",
+    "tags": [
+      "half-guard",
+      "coyote-hook",
+      "waiter-sweep",
+      "sweep",
+      "guard-offense",
+      "underhook"
+    ],
+    "summary": "The coyote half guard solves the biggest problem of traditional half guard: being flattened. By inserting a deep underhook and turning to your side, you create space, angle your body, and off-balance the opponent. The coyote hook (your inside leg hooking their far leg) gives you direct control of their base. This system is particularly effective against pressure passers because it uses their forward pressure against them.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": true
   },
   {
     "id": "de-la-riva-sweeps",
@@ -878,6 +947,40 @@
     "hasChecklist": false
   },
   {
+    "id": "berimbolo-back-take",
+    "domain": "guard_offense",
+    "level": "advanced",
+    "name": "Berimbolo / Inversion Back Take",
+    "tags": [
+      "tier:modern-expansion",
+      "meta:modern-common",
+      "risk:medium",
+      "family:back_take",
+      "modern-no-gi"
+    ],
+    "summary": "The berimbolo back take uses an inversion to trade being underneath the opponent for being behind them. Triggered by the opponent stepping forward, you roll over your shoulder, pull their far hip, and land in back control.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "k-guard-to-outside-ashi",
+    "domain": "guard_offense",
+    "level": "advanced",
+    "name": "K-Guard to Outside Ashi",
+    "tags": [
+      "tier:modern-expansion",
+      "meta:modern-common",
+      "risk:high",
+      "family:leg_lock",
+      "modern-no-gi"
+    ],
+    "summary": "K-guard to outside ashi transitions from a guard position to a leg entanglement by releasing the K-guard hook and pummeling directly into outside ashi. The transition is faster than the opponent can defend because you are already underneath them with one leg entangled.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
     "id": "bodylock-pass",
     "domain": "passing",
     "level": "intermediate",
@@ -958,6 +1061,76 @@
       "mobility"
     ],
     "summary": "Outside passing uses footwork and distance to force the opponent to turn their hips, creating passing lanes that pressure passing cannot access. The system works by staying on your feet (not dropping to your knees) and circling to the outside of the opponent's lead leg. As they turn to face you, you attack the exposed hip with a leg drag, backstep, or x-pass. Outside passing is particularly effective against flexible guard players who are difficult to pass with pressure.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": true
+  },
+  {
+    "id": "over-under-pass",
+    "domain": "passing",
+    "level": "intermediate",
+    "name": "Over-Under / Smash Pass",
+    "tags": [
+      "passing",
+      "over-under",
+      "smash-pass",
+      "half-guard",
+      "pressure-passing"
+    ],
+    "summary": "The over-under pass works by creating a chest-to-chest connection that removes the opponent's ability to frame or knee shield. One arm locks over their back (controlling their upper body) while the other hooks under their far leg (clearing the knee line). From this position, the passer drives their hip into the opponent's near hip while circling toward their head, flattening them and clearing the leg to pass. The key is keeping your head on the correct side and maintaining continuous forward pressure.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": true
+  },
+  {
+    "id": "toreando-passing",
+    "domain": "passing",
+    "level": "intermediate",
+    "name": "Toreando / Float Passing",
+    "tags": [
+      "passing",
+      "float-passing",
+      "toreando",
+      "mobility",
+      "footwork"
+    ],
+    "summary": "Float passing works by never settling into a static position. The passer uses continuous lateral movement, switching hips and posting on the opponent's legs to prevent them from establishing frames. Unlike pressure passing which locks chest-to-chest, float passing maintains distance until the moment of penetration. The key is to keep your head above their hips and use your hands to pummel their legs, creating passing windows through hip switches and angle changes.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": true
+  },
+  {
+    "id": "tripod-folding-pass",
+    "domain": "passing",
+    "level": "intermediate",
+    "name": "Tripod / Folding Pass",
+    "tags": [
+      "passing",
+      "tripod",
+      "folding-pass",
+      "smash-pass",
+      "headquarters",
+      "pressure"
+    ],
+    "summary": "The tripod pass works by using a wide, tripod-like stance combined with heavy head pressure to fold the opponent's body. From headquarters (one knee up, one knee down with crossface control), the passer posts their outside leg wide, drops their head to the mat on one side, and drives their shoulder into the opponent's hip line. This forces the opponent's knees toward their chest and flattens their guard, creating a clear path to side control or mount. The key mechanical detail is keeping your hips low and your head glued to their far hip.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": true
+  },
+  {
+    "id": "chin-strap-control",
+    "domain": "pins_rides",
+    "level": "intermediate",
+    "name": "Chin Strap / Head Control System",
+    "tags": [
+      "front-headlock",
+      "chin-strap",
+      "head-control",
+      "ride",
+      "turtle",
+      "back-exposure"
+    ],
+    "summary": "The chin strap gives you direct control of the opponent's head, which controls the spine, which controls the hips. By lifting and turning the head, you can break posture, expose the back, and neutralize frames. It is especially effective against turtled opponents because it removes their ability to look up and creates leverage to tip them over. Unlike a collar tie which only provides lateral control, the chin strap gives vertical and rotational control of the head and neck.",
     "hasVideos": true,
     "hasMicroDetails": false,
     "hasChecklist": true
@@ -1228,6 +1401,108 @@
     "hasChecklist": false
   },
   {
+    "id": "body-triangle-control",
+    "domain": "submission_systems",
+    "level": "advanced",
+    "name": "Body Triangle Control",
+    "tags": [
+      "tier:modern-expansion",
+      "meta:modern-common",
+      "risk:medium",
+      "family:submission",
+      "modern-no-gi"
+    ],
+    "summary": "The body triangle immobilizes the opponent hips by locking your legs around their waist. It compresses the diaphragm, prevents hip escape, and cannot be peeled off easily. It is primarily a control hold that sets up the rear-naked choke.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "calf-slicer-system",
+    "domain": "submission_systems",
+    "level": "advanced",
+    "name": "Calf Slicer / Compression Locks",
+    "tags": [
+      "tier:advanced-niche",
+      "meta:specialized",
+      "risk:high",
+      "family:compression",
+      "modern-no-gi"
+    ],
+    "summary": "Calf slicers compress the calf muscle against the tibia, creating a muscle lock that does not rely on hyperextension. They are available from leg entanglements where heel hooks are defended or illegal, and should be applied progressively for safety.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "inside-outside-heel-hook",
+    "domain": "submission_systems",
+    "level": "advanced",
+    "name": "Inside & Outside Heel Hook Finishing",
+    "tags": [
+      "tier:safety-critical",
+      "meta:modern-common",
+      "risk:safety-critical",
+      "family:leg_lock",
+      "modern-no-gi"
+    ],
+    "summary": "The heel hook finishes by rotating the foot relative to the knee using hip rotation rather than arm strength. Inside heel hooks rotate the foot outward; outside heel hooks rotate the foot inward. Both require knee line control, the boot grip, and the milk-the-calf compression to finish safely and effectively.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "mounted-triangle",
+    "domain": "submission_systems",
+    "level": "advanced",
+    "name": "Mounted Triangle / Armbar from Mount",
+    "tags": [
+      "tier:modern-expansion",
+      "meta:modern-common",
+      "risk:medium",
+      "family:submission",
+      "modern-no-gi"
+    ],
+    "summary": "The mounted triangle is a high-percentage submission from mount that uses gravity and top pressure to eliminate the opponent ability to stack or posture out. The S-mount climb is the gatekeeper — never attempt from low mount.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "peruvian-necktie",
+    "domain": "submission_systems",
+    "level": "advanced",
+    "name": "Peruvian Necktie",
+    "tags": [
+      "tier:advanced-niche",
+      "meta:specialized",
+      "risk:safety-critical",
+      "family:front_headlock",
+      "modern-no-gi"
+    ],
+    "summary": "The Peruvian necktie compresses both carotid arteries simultaneously using your forearm and biceps. It is not a squeeze — the opponent own body weight creates the choke as you fold them forward. Available when the opponent turns away from the front headlock.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "toe-hold-system",
+    "domain": "submission_systems",
+    "level": "advanced",
+    "name": "Toe Hold / Estima Lock",
+    "tags": [
+      "tier:advanced-niche",
+      "meta:specialized",
+      "risk:high",
+      "family:leg_lock",
+      "modern-no-gi"
+    ],
+    "summary": "The toe hold hyperextends the ankle ligaments by combining dorsiflexion with rotation. The Estima lock variant provides more rotational torque with a figure-four grip. The toe hold is most effective when the opponent is belly-down and the knee is immobilized.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
     "id": "anaconda-choke",
     "domain": "submission_systems",
     "level": "intermediate",
@@ -1393,6 +1668,25 @@
     "hasChecklist": false
   },
   {
+    "id": "calf-compression-locks",
+    "domain": "submission_systems",
+    "level": "intermediate",
+    "name": "Calf & Compression Locks",
+    "tags": [
+      "calf-slicer",
+      "compression",
+      "leg-lock",
+      "knee-safety",
+      "meta:modern-common",
+      "family:leg-lock",
+      "group:compression"
+    ],
+    "summary": "Calf compression locks (slicers) use your shin bone against the opponent's calf muscle with their leg trapped in your joint crease. The compression creates intense pressure on the calf and knee — opponents must tap, expose their back, or give up a sweep. Unlike heel hooks which target rotational knee ligaments, compression locks attack the knee in a different plane and are often available when the heel hook is defended. They work from saddle, 50/50, backside 50/50, half guard, and truck positions. The key to effective compression locks is bone-on-muscle contact with proper shin angle and hip drive.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
     "id": "choi-bar",
     "domain": "submission_systems",
     "level": "advanced",
@@ -1520,6 +1814,26 @@
     "hasChecklist": true
   },
   {
+    "id": "heel-hook-finishing-system",
+    "domain": "submission_systems",
+    "level": "advanced",
+    "name": "Heel Hook Finishing System",
+    "tags": [
+      "heel-hook",
+      "finish",
+      "leg-lock",
+      "knee-safety",
+      "tier:safety-critical",
+      "meta:modern-common",
+      "family:leg-lock",
+      "group:heel-hook"
+    ],
+    "summary": "The heel hook finish is the most mechanically precise submission in no-gi. Unlike most submissions where you can 'squeeze harder,' the heel hook requires perfect alignment of knee line control, grip placement, and rotational direction. This skill covers the differences between inside and outside heel hook finishing, the three primary grip types (figure-four, honey-hole, and seatbelt), how to adjust the angle when the opponent hides their heel, and how to chain finishes when the opponent tries to spin out. The modern finishing philosophy emphasizes hip-driven rotation over arm strength — the arms hold the position, the hips generate the finish.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
     "id": "heel-hook-safety",
     "domain": "submission_systems",
     "level": "advanced",
@@ -1568,6 +1882,25 @@
     "hasVideos": true,
     "hasMicroDetails": false,
     "hasChecklist": true
+  },
+  {
+    "id": "mounted-triangle-armbar",
+    "domain": "submission_systems",
+    "level": "intermediate",
+    "name": "Mounted Triangle / Armbar",
+    "tags": [
+      "triangle",
+      "armbar",
+      "mount",
+      "dilemma",
+      "meta:modern-common",
+      "family:submission",
+      "group:mount-attacks"
+    ],
+    "summary": "The mounted triangle is one of the most dangerous attacks from mount because the opponent's arm is already trapped by your body weight. Unlike the guard triangle where you must break posture first, the mount gives you chest-on-chest pressure before you even begin. From S-mount, you step one leg over their head while trapping their arm with your opposite leg. The key difference from a guard triangle: your weight is on top, they cannot stack you, and the triangle-armbar dilemma is far more threatening. This system is heavily used by Tye Ruotolo, Giancarlo Bodoni, and modern BJJ competitors.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
   },
   {
     "id": "octopus-back-take",
@@ -1774,6 +2107,25 @@
     "hasChecklist": false
   },
   {
+    "id": "toe-hold-estima-lock",
+    "domain": "submission_systems",
+    "level": "intermediate",
+    "name": "Toe Hold / Estima Lock",
+    "tags": [
+      "toe-hold",
+      "estima-lock",
+      "foot-lock",
+      "leg-lock",
+      "meta:modern-common",
+      "family:leg-lock",
+      "group:foot-lock"
+    ],
+    "summary": "The toe hold and Estima lock are powerful foot attacks that target the ankle and knee. The traditional toe hold uses a figure-four grip to rotate the foot, creating lateral torque on the ankle. The modern Estima lock (popularized by Victor and Braulio Estima) works differently — it traps the opponent's foot against your body and uses hip drive to create extreme plantarflexion, effectively functioning as an 'inverse' straight ankle lock. The Estima lock is particularly effective in no-gi because it requires no gi grip and can be set up quickly from leg entanglements like 50/50, backside 50/50, and saddle. Both attacks chain well with heel hooks and ankle locks.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
     "id": "triangle-system",
     "domain": "submission_systems",
     "level": "advanced",
@@ -1842,6 +2194,23 @@
     "hasChecklist": false
   },
   {
+    "id": "lateral-drop-headlock-throw",
+    "domain": "wrestle_up_wrestling",
+    "level": "intermediate",
+    "name": "Lateral Drop / Headlock Throw",
+    "tags": [
+      "tier:modern-expansion",
+      "meta:emerging",
+      "risk:high",
+      "family:wrestling",
+      "modern-no-gi"
+    ],
+    "summary": "The lateral drop throw uses your hips as the fulcrum to rotate the opponent over your body from a headlock. The key BJJ adaptation is staying on your feet to land in a dominant position rather than following them to the mat.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
     "id": "ankle-pick-low-single",
     "domain": "wrestle_up_wrestling",
     "level": "intermediate",
@@ -1874,6 +2243,25 @@
     "hasVideos": true,
     "hasMicroDetails": false,
     "hasChecklist": false
+  },
+  {
+    "id": "bjj-foot-sweeps",
+    "domain": "wrestle_up_wrestling",
+    "level": "intermediate",
+    "name": "Foot Sweeps (Kouchi, Sasae, De Ashi)",
+    "tags": [
+      "takedown",
+      "wrestling",
+      "foot-sweep",
+      "kouchigari",
+      "sasae",
+      "deashibarai",
+      "clinch-fighting"
+    ],
+    "summary": "Foot sweeps exploit the opponent's weight transfer during stance fighting. When the opponent is focused on defending double legs, their weight shifts predictably, making them vulnerable. In no-gi, collar ties, wrist control, and two-on-one grips create the necessary off-balancing. The key sweeps are Kouchi Gari (inner reap with circular pull), Sasae (blocking the advancing foot), and De Ashi Harai (sweeping the foot as it touches the mat).",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": true
   },
   {
     "id": "body-lock-takedown",
@@ -1912,6 +2300,24 @@
     "hasVideos": true,
     "hasMicroDetails": false,
     "hasChecklist": false
+  },
+  {
+    "id": "double-leg-bjj",
+    "domain": "wrestle_up_wrestling",
+    "level": "intermediate",
+    "name": "Double Leg Takedown",
+    "tags": [
+      "takedown",
+      "wrestling",
+      "double-leg",
+      "blast-double",
+      "standing",
+      "clinch"
+    ],
+    "summary": "The BJJ-adapted double leg differs from wrestling in several ways: head position is outside (not inside) to protect the neck from guillotines; the finish prioritizes landing chest-to-chest in side control; and the entry often comes from arm drags, collar ties, or foot sweeps rather than straight shots. The key mechanical sequence is: level change → penetration step (head outside) → hip drive → run the pipe → land in a dominant pin. Guillotine defense must be instinctive — posture up immediately and peel the hands.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": true
   },
   {
     "id": "front-headlock-system",

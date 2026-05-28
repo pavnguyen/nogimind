@@ -1,11 +1,12 @@
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useCallback } from 'react'
 import { useTranslation } from 'react-i18next'
-import { Film } from 'lucide-react'
+import { Film, AlertTriangle, RefreshCw, Flag } from 'lucide-react'
 
 type Props = {
   youtubeId: string
   embedUrl: string
   title: string
+  onReport?: (youtubeId: string) => void
 }
 
 function useOnlineStatus() {
@@ -34,14 +35,88 @@ const OfflinePlaceholder = ({ t: translate }: { t: (key: string) => string }) =>
   </div>
 )
 
-export const LazyYouTubeEmbed = ({ youtubeId, embedUrl, title }: Props) => {
+const UnavailablePlaceholder = ({
+  t: translate,
+  onRetry,
+  onReport,
+}: {
+  t: (key: string) => string
+  onRetry: () => void
+  onReport?: () => void
+}) => (
+  <div className="flex aspect-video flex-col items-center justify-center gap-3 rounded-lg border border-amber-400/20 bg-slate-900/90 text-slate-400">
+    <AlertTriangle className="h-10 w-10 text-amber-400/70" />
+    <p className="max-w-xs px-4 text-center text-sm font-medium text-amber-200">
+      {translate('video.unavailable')}
+    </p>
+    <p className="max-w-xs px-4 text-center text-xs text-slate-500">
+      {translate('video.unavailableHint')}
+    </p>
+    <div className="flex gap-2">
+      <button
+        type="button"
+        onClick={onRetry}
+        className="inline-flex items-center gap-1.5 rounded-md bg-slate-800 px-3 py-1.5 text-xs font-medium text-slate-300 transition hover:bg-slate-700 hover:text-white"
+      >
+        <RefreshCw className="h-3.5 w-3.5" />
+        {translate('video.retry')}
+      </button>
+      {onReport && (
+        <button
+          type="button"
+          onClick={onReport}
+          className="inline-flex items-center gap-1.5 rounded-md bg-amber-400/10 px-3 py-1.5 text-xs font-medium text-amber-300 transition hover:bg-amber-400/20"
+        >
+          <Flag className="h-3.5 w-3.5" />
+          {translate('video.reportBroken')}
+        </button>
+      )}
+    </div>
+  </div>
+)
+
+export const LazyYouTubeEmbed = ({ youtubeId, embedUrl, title, onReport }: Props) => {
   const { t } = useTranslation()
   const [loaded, setLoaded] = useState(false)
+  const [thumbnailError, setThumbnailError] = useState(false)
+  const [iframeError, setIframeError] = useState(false)
+  const [retryCount, setRetryCount] = useState(0)
   const isOnline = useOnlineStatus()
   const thumbnailUrl = `https://i.ytimg.com/vi/${youtubeId}/hqdefault.jpg`
 
+  const handleThumbnailError = useCallback(() => {
+    // Don't mark as unavailable on first load — retry once
+    if (retryCount < 1) {
+      setRetryCount(prev => prev + 1)
+      return
+    }
+    setThumbnailError(true)
+  }, [retryCount])
+
+  const handleRetry = useCallback(() => {
+    setThumbnailError(false)
+    setIframeError(false)
+    setLoaded(false)
+    setRetryCount(0)
+  }, [])
+
+  const handleReport = useCallback(() => {
+    onReport?.(youtubeId)
+  }, [onReport, youtubeId])
+
   if (!isOnline) {
     return <OfflinePlaceholder t={t} />
+  }
+
+  // Unavailable state (thumbnail 404 after retry, or iframe error)
+  if (thumbnailError || iframeError) {
+    return (
+      <UnavailablePlaceholder
+        t={t}
+        onRetry={handleRetry}
+        onReport={onReport ? handleReport : undefined}
+      />
+    )
   }
 
   return (
@@ -56,6 +131,7 @@ export const LazyYouTubeEmbed = ({ youtubeId, embedUrl, title }: Props) => {
           allowFullScreen
           referrerPolicy="strict-origin-when-cross-origin"
           sandbox="allow-scripts allow-same-origin allow-presentation allow-popups"
+          onError={() => setIframeError(true)}
         />
       ) : (
         <button
@@ -65,9 +141,11 @@ export const LazyYouTubeEmbed = ({ youtubeId, embedUrl, title }: Props) => {
           aria-label={`${t('video.watch')}: ${title}`}
         >
           <img
+            key={retryCount}
             src={thumbnailUrl}
             alt=""
             loading="lazy"
+            onError={handleThumbnailError}
             className="h-full w-full object-cover opacity-75 transition duration-200 group-hover:scale-[1.02] group-hover:opacity-90"
           />
           <span className="absolute inset-0 bg-slate-950/35" />
