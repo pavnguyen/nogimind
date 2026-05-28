@@ -1,11 +1,9 @@
 import { masteryStages } from '../data/masteryStages'
 import type { MasteryStage } from '../data/masteryStages'
 import type {
-  FailureResponse,
   LanguageCode,
   LocalizedText,
   MicroDetailSystem,
-  ReactionBranch,
   SkillNode,
   TechnicalDetail,
 } from '../types/skill'
@@ -44,26 +42,6 @@ export type TroubleshooterItem = {
     relatedDetailIds: string[]
   }[]
   safetyNotes: string[]
-}
-
-export type EscapeRouteItem = {
-  id: string
-  title: LocalizedText
-  earlySignal: LocalizedText
-  prevention: LocalizedText
-  ifPreventionFails: LocalizedText
-  followUpSkillIds: string[]
-  correctionCue: LocalizedText
-}
-
-export type EscapeMapItem = {
-  id: string
-  skillId: string
-  title: LocalizedText
-  overview: LocalizedText
-  category: 'back_control' | 'mount' | 'side_control' | 'passing' | 'submission' | 'front_headlock' | 'leg_lock' | 'escape'
-  routes: EscapeRouteItem[]
-  priorityPreventions: string[]
 }
 
 const textFromDetail = (detail: TechnicalDetail): LocalizedText => ({
@@ -239,71 +217,10 @@ export const getTroubleshooters = (skills: SkillNode[], lang: LanguageCode = 'en
       }
     })
 
-const escapeMapCategoryFor = (skill: SkillNode): EscapeMapItem['category'] => {
-  if (skill.id.includes('back') || skill.domain === 'back_control') return 'back_control'
-  if (skill.id.includes('mount')) return 'mount'
-  if (skill.id.includes('side-control')) return 'side_control'
-  if (skill.domain === 'passing') return 'passing'
-  if (skill.domain === 'submission_systems') return 'submission'
-  if (skill.tags.includes('front-headlock')) return 'front_headlock'
-  if (skill.tags.some((tag) => tag.includes('leg-lock') || tag.includes('heel-hook'))) return 'leg_lock'
-  return 'escape'
-}
-
-const routeFromReaction = (skill: SkillNode, branch: ReactionBranch, index: number): EscapeRouteItem => ({
-  id: `${skill.id}-reaction-${index}`,
-  title: branch.opponentReaction,
-  earlySignal: branch.bodySignal,
-  prevention: branch.bodyMechanicAdjustment,
-  ifPreventionFails: branch.recommendedResponse,
-  followUpSkillIds: branch.nextSkillIds,
-  correctionCue: branch.bodyMechanicAdjustment,
-})
-
-const routeFromFailure = (skill: SkillNode, branch: FailureResponse, index: number): EscapeRouteItem => ({
-  id: `${skill.id}-failure-${index}`,
-  title: branch.failure,
-  earlySignal: branch.failure,
-  prevention: branch.response,
-  ifPreventionFails: branch.response,
-  followUpSkillIds: branch.nextSkillIds,
-  correctionCue: branch.response,
-})
-
-export const getEscapeMaps = (skills: SkillNode[], lang: LanguageCode = 'en'): EscapeMapItem[] =>
-  skills
-    .filter((skill) => skill.reactionBranches?.length || skill.failureResponses.length)
-    .map((skill) => {
-      const routes = [
-        ...(skill.reactionBranches ?? []).map((branch, index) => routeFromReaction(skill, branch, index)),
-        ...skill.failureResponses.map((branch, index) => routeFromFailure(skill, branch, index)),
-      ].slice(0, 8)
-
-      return {
-        id: `${skill.id}-escape-map`,
-        skillId: skill.id,
-        title: skill.title,
-        overview: lt(
-          `Escape map cho ${skill.title.vi}: đọc phản ứng đối thủ sớm, giữ control point và branch trước khi vị trí sụp.`,
-          `Escape map for ${skill.title.en}: read opponent reactions early, keep the control point, and branch before the position collapses.`,
-          `Escape map pour ${skill.title.fr} : lire la réaction tôt, garder le point de contrôle et brancher avant effondrement.`,
-        ),
-        category: escapeMapCategoryFor(skill),
-        routes,
-        priorityPreventions: [
-          ...getLocalizedArray(skill.bodyMechanicsSystem.nonNegotiables, lang),
-          ...getLocalizedArray(skill.bodyMechanicsSystem.correctionCues, lang),
-        ].slice(0, 6),
-      }
-    })
-
 export const getMasteryStages = (): MasteryStage[] => masteryStages
 
 export const skillHasTroubleshooter = (skill: SkillNode) =>
   Boolean(skill.technicalDetails?.finishingMechanics?.length || skill.domain === 'submission_systems')
-
-export const skillHasEscapeMap = (skill: SkillNode) =>
-  Boolean(skill.reactionBranches?.length || skill.failureResponses.length)
 
 export const summarizeTechniqueDetail = (skill: SkillNode, lang: LanguageCode) =>
   skill.technicalDetails?.keyDetails.slice(0, 3).map((detail) => textFromDetail(detail)).map((text) => getLocalizedText(text, lang)) ?? []

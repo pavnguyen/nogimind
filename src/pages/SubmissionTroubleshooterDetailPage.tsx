@@ -86,7 +86,7 @@ export default function SubmissionTroubleshooterDetailPage() {
         items={[
           { title: t('common.skill'), body: t('troubleshooters.skillDetailPrompt'), to: `/skills/${skill.id}` },
           { title: t('cardOS.topDetails'), body: t('troubleshooters.guidedDiagnosisBody'), to: `/skills/${skill.id}` },
-          { title: t('escapeMaps.heading'), body: t('troubleshooters.guidedDiagnosisBody'), to: `/escape-maps/${skill.id}` },
+          { title: t('common.skill'), body: t('troubleshooters.skillDetailPrompt'), to: `/skills/${skill.id}` },
         ]}
       />
     </PageShell>

@@ -26,7 +26,7 @@ export const en = {
     concepts: 'Concepts',
     positions: 'Positions',
     troubleshooters: 'Troubleshooter',
-    escapeMaps: 'Escape Maps',
+
     archetypes: 'Archetypes',
     mastery: 'Mastery Map',
     modernSystems: 'Modern Systems',
@@ -97,7 +97,7 @@ export const en = {
       items: {
         positions: { title: 'Positions', body: 'Start from where the body relationship happens.' },
         skills: { title: 'Skills', body: 'Choose the action that solves the position.' },
-        escapeMaps: { title: 'Escape Maps', body: 'Know how the opponent exits and what blocks it.' },
+    
         archetypes: { title: 'Archetypes', body: 'Use a game style as a template.' },
         mastery: { title: 'Mastery', body: 'See the long-term learning order.' },
       },
@@ -110,7 +110,7 @@ export const en = {
         concepts: { title: 'Concepts', body: 'Reusable ideas behind many skills.' },
         positions: { title: 'Positions', body: 'Top, bottom, danger, and advancement options by position.' },
         troubleshooters: { title: 'Troubleshooters', body: 'Diagnose why a submission or control is not working.' },
-        escapeMaps: { title: 'Escape Maps', body: 'See what opponents do when a position or attack starts to fail.' },
+
         archetypes: { title: 'Archetypes', body: 'Use a game style as a template.' },
         mastery: { title: 'Mastery', body: 'See the long-term learning order.' },
         defense: { title: 'Safety', body: 'Defensive layers and safety-critical warnings.' },
@@ -1039,33 +1039,7 @@ export const en = {
       submission: 'Submission',
     },
   },
-  escapeMaps: {
-    heading: 'Opponent Escape Map',
-    subtitle: 'Study how opponents escape, the early signal, the prevention, and the follow-up when prevention fails.',
-    whatFor: 'Use this page when you want to understand how the other player gets out.',
-    whenToUse: 'Open it when a pin, back control, or submission keeps getting reversed or escaped.',
-    nextStep: 'Open the skill detail and review the micro-details that stop the escape.',
-    search: 'Search clear hook, frame, hip escape, knee shield, shoulder line...',
-    empty: 'No escape maps match the current filters.',
-    emptyBody: 'Try back control, mount, bodylock, front headlock, or a specific escape signal.',
-    notFoundTitle: 'Escape map not found',
-    notFoundBody: 'That skill does not have an escape map in the current system.',
-    backToEscapeMaps: 'Back to escape maps',
-    routes: 'routes',
-    priorityPreventions: 'Highest priority preventions',
-    earlySignal: 'Early signal',
-    prevention: 'Prevention',
-    categories: {
-      back_control: 'Back control',
-      mount: 'Mount',
-      side_control: 'Side control',
-      passing: 'Passing',
-      submission: 'Submission',
-      front_headlock: 'Front headlock',
-      leg_lock: 'Leg lock',
-      escape: 'Escape',
-    },
-  },
+
   archetypes: {
     heading: 'Grappling Archetypes',
     subtitle: 'Personal game templates that connect concepts, skills, defensive requirements, and if-then strategy.',
@@ -1111,7 +1085,7 @@ export const en = {
     tipExact: 'Try exact terms',
     tipExactBody: 'Search body parts, positions, submission names, or concepts for the best results.',
     tipDeep: 'Deep Search',
-    tipDeepBody: 'Toggle "Search in details" above to find mentions inside micro-details, troubleshooters, and escape maps.',
+    tipDeepBody: 'Toggle "Search in details" above to find mentions inside micro-details and troubleshooters.',
     openFullResults: 'Open full results',
   },
   knowledgeTypes: {
@@ -1122,7 +1096,7 @@ export const en = {
     defense: 'Defense / Safety',
     micro_detail: 'Micro Details',
     troubleshooter: 'Troubleshooters',
-    escape_map: 'Escape Maps',
+
     problem: 'Problems',
     archetype: 'Archetypes',
     mastery: 'Mastery Map',

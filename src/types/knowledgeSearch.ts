@@ -8,7 +8,6 @@ export type KnowledgeItemType =
   | 'defense'
   | 'micro_detail'
   | 'troubleshooter'
-  | 'escape_map'
   | 'archetype'
   | 'mastery'
 

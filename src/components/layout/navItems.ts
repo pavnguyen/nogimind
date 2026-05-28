@@ -49,7 +49,6 @@ export const hubNavItems: HubNavItem[] = [
     to: '/fix',
     items: [
       { key: 'nav.troubleshooters', to: '/troubleshooters' },
-      { key: 'nav.escapeMaps', to: '/escape-maps' },
       { key: 'nav.defense', to: '/defense' },
     ],
   },

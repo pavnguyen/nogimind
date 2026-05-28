@@ -150,7 +150,7 @@ export default function PositionDetailPage() {
           position.relatedSkillIds[0]
             ? { title: t('common.relatedSkills'), body: t('positions.skillsStartHere'), to: `/skills/${position.relatedSkillIds[0]}` }
             : { title: t('common.relatedSkills'), body: t('positions.skillsStartHere'), to: '/skills' },
-          { title: t('escapeMaps.heading'), body: t('positions.commonProblems'), to: position.relatedSkillIds[0] ? `/escape-maps/${position.relatedSkillIds[0]}` : '/escape-maps' },
+          { title: t('troubleshooters.heading'), body: t('positions.commonProblems'), to: position.relatedSkillIds[0] ? `/troubleshooters/${position.relatedSkillIds[0]}` : '/troubleshooters' },
         ]}
       />
     </PageShell>

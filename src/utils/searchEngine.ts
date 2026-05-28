@@ -8,7 +8,7 @@ import type { PositionNode } from '../types/position'
 import type { LanguageCode, LocalizedStringArray, LocalizedText, SkillNode } from '../types/skill'
 import type { MasteryStage } from '../data/masteryStages'
 import type { TechniqueStateMachine } from '../types/stateMachine'
-import type { MicroDetailItem, TroubleshooterItem, EscapeMapItem } from './knowledgeModules'
+import type { MicroDetailItem, TroubleshooterItem } from './knowledgeModules'
 import { getLocalizedArray, getLocalizedText } from './localization'
 
 export type SearchMode = 'quick' | 'deep'
@@ -29,7 +29,6 @@ export interface SearchDataBundle {
   techniqueStateMachineBySkillId: Map<string, TechniqueStateMachine>
   microDetails: MicroDetailItem[]
   troubleshooters: TroubleshooterItem[]
-  escapeMaps: EscapeMapItem[]
 }
 
 let data: SearchDataBundle | null = null
@@ -498,23 +497,6 @@ const troubleshooterDocuments = (lang: LanguageCode): SearchDocument[] =>
     ],
   }))
 
-const escapeMapDocuments = (lang: LanguageCode): SearchDocument[] =>
-  getData().escapeMaps.map((map) => ({
-    id: `escape-map:${map.skillId}:${map.id}`,
-    type: 'escape_map',
-    title: map.title,
-    description: map.overview,
-    tags: [map.category],
-    url: `/escape-maps/${map.skillId}`,
-    fields: [
-      field('title', map.title, lang, 8),
-      field('overview', map.overview, lang, 4),
-      field('routes', map.routes, lang, 4),
-      field('preventions', map.priorityPreventions, lang, 3),
-      field('category', map.category, lang, 2),
-    ],
-  }))
-
 const masteryDocuments = (lang: LanguageCode, mode: SearchMode): SearchDocument[] =>
   getData().masteryStages.map((stage) => ({
     id: stage.id,
@@ -562,7 +544,6 @@ const documentBuilders: Record<KnowledgeItemType, (lang: LanguageCode, mode: Sea
   defense: (lang, mode) => getData().defensiveLayers.map((layer) => defenseDocument(layer, lang, mode)),
   micro_detail: (lang, mode) => mode === 'deep' ? microDetailDocuments(lang) : [],
   troubleshooter: (lang, mode) => mode === 'deep' ? troubleshooterDocuments(lang) : [],
-  escape_map: (lang, mode) => mode === 'deep' ? escapeMapDocuments(lang) : [],
   archetype: (lang, mode) => getData().archetypes.map((archetypeValue) => archetypeDocument(archetypeValue, lang, mode)),
   mastery: (lang, mode) => masteryDocuments(lang, mode),
 }

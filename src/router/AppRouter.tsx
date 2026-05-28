@@ -13,8 +13,6 @@ import {
   DashboardPage,
   DefenseDetailPage,
   DefensePage,
-  EscapeMapDetailPage,
-  EscapeMapsPage,
   FixHubPage,
   GlossaryPage,
   MasteryMapPage,
@@ -61,8 +59,6 @@ export const AppRouter = () => (
           <Route path="/skills/:skillId" element={<SkillDetailPage />} />
           <Route path="/troubleshooters" element={<SubmissionTroubleshootersPage />} />
           <Route path="/troubleshooters/:skillId" element={<SubmissionTroubleshooterDetailPage />} />
-          <Route path="/escape-maps" element={<EscapeMapsPage />} />
-          <Route path="/escape-maps/:skillId" element={<EscapeMapDetailPage />} />
           <Route path="/concepts" element={<ConceptsPage />} />
           <Route path="/concepts/:conceptId" element={<ConceptDetailPage />} />
           <Route path="/positions" element={<PositionsPage />} />

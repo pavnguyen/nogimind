@@ -79,7 +79,6 @@ export default function LearnPage() {
       [
         { title: t('learn.tracks.fix.steps.1.title'), body: t('learn.tracks.fix.steps.1.body'), to: '/troubleshooters' },
         { title: t('learn.tracks.fix.steps.2.title'), body: t('learn.tracks.fix.steps.2.body'), to: '/study' },
-        { title: t('learn.tracks.fix.steps.3.title'), body: t('learn.tracks.fix.steps.3.body'), to: '/escape-maps' },
       ],
       'amber',
       ShieldCheck,

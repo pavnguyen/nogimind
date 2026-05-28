@@ -1,7 +1,7 @@
 import { useMemo } from 'react'
 import { Link, useSearchParams } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
-import { ArrowRightFromLine, HelpCircle, Shield, Wrench } from 'lucide-react'
+import { HelpCircle, Shield, Wrench } from 'lucide-react'
 import { Badge } from '../components/common/Badge'
 import { EmptyState } from '../components/common/EmptyState'
 import { FormattedText } from '../components/common/FormattedText'
@@ -11,13 +11,11 @@ import { useSkillsQuery } from '../queries/skillQueries'
 import { useDefensiveLayersQuery } from '../queries/defenseQueries'
 import { useSettingsStore } from '../stores/useSettingsStore'
 import { safetyCategories } from '../data/defensiveLayers'
-import { getEscapeMaps, getTroubleshooters } from '../utils/knowledgeModules'
+import { getTroubleshooters } from '../utils/knowledgeModules'
 import { getLocalizedText } from '../utils/localization'
 import type { SafetyCategory } from '../types/defense'
 
 const troubleshooterCategories = ['choke', 'joint_lock', 'leg_lock', 'back', 'front_headlock', 'submission']
-const escapeMapCategories = ['back_control', 'mount', 'side_control', 'passing', 'submission', 'front_headlock', 'leg_lock', 'escape']
-
 export default function FixHubPage() {
   const { t } = useTranslation()
   const lang = useSettingsStore((state) => state.language)
@@ -50,28 +48,6 @@ export default function FixHubPage() {
       return (!tsCategory || item.category === tsCategory) && (!normalized || haystack.includes(normalized))
     })
   }, [tsCategory, lang, tsQuery, skills])
-
-  // Escape maps filter — top level
-  const emQuery = searchParams.get('q') ?? ''
-  const emCategory = searchParams.get('category') ?? ''
-  const maps = useMemo(() => {
-    const normalized = emQuery.trim().toLowerCase()
-    return getEscapeMaps(skills, lang).filter((map) => {
-      const haystack = [
-        getLocalizedText(map.title, lang),
-        getLocalizedText(map.overview, lang),
-        map.category,
-        ...map.priorityPreventions,
-        ...map.routes.flatMap((r) => [
-          getLocalizedText(r.title, lang),
-          getLocalizedText(r.earlySignal, lang),
-          getLocalizedText(r.prevention, lang),
-          getLocalizedText(r.correctionCue, lang),
-        ]),
-      ].join(' ').toLowerCase()
-      return (!emCategory || map.category === emCategory) && (!normalized || haystack.includes(normalized))
-    })
-  }, [emCategory, lang, emQuery, skills])
 
   // Defense filter — top level
   const dfQuery = searchParams.get('q') ?? ''
@@ -154,65 +130,6 @@ export default function FixHubPage() {
                     </h3>
                     <div className="mt-1 line-clamp-2 text-xs leading-5 text-slate-400">
                       <FormattedText text={getLocalizedText(item.overview, lang)} className="text-xs leading-5 text-slate-400" />
-                    </div>
-                  </Link>
-                ))}
-              </div>
-            )}
-          </div>
-        )
-
-      case 'escapeMaps':
-        return (
-          <div className="space-y-4">
-            <div className="flex items-center justify-between">
-              <p className="text-sm text-slate-400">{t('escapeMaps.whatFor')}</p>
-              <Link
-                to="/escape-maps"
-                className="text-xs font-medium text-amber-400 hover:text-amber-300 transition-colors"
-              >
-                {t('common.open')} →
-              </Link>
-            </div>
-
-            <div className="flex gap-3">
-              <input
-                value={emQuery}
-                onChange={(event) => setParam('q', event.target.value)}
-                placeholder={t('escapeMaps.search')}
-                className="flex-1 rounded-md border border-white/10 bg-slate-900 px-3 py-2 text-sm text-white outline-none search-focus-ring"
-              />
-              <select
-                value={emCategory}
-                onChange={(event) => setParam('category', event.target.value)}
-                className="rounded-md border border-white/10 bg-slate-900 px-3 py-2 text-sm text-white outline-none search-focus-ring"
-              >
-                <option value="">{t('common.all')}</option>
-                {escapeMapCategories.map((item) => (
-                  <option key={item} value={item}>{t(`escapeMaps.categories.${item}`)}</option>
-                ))}
-              </select>
-            </div>
-
-            {!maps.length ? (
-              <EmptyState title={t('escapeMaps.empty')} description={t('escapeMaps.emptyBody')} />
-            ) : (
-              <div className="grid gap-3 sm:grid-cols-2">
-                {maps.slice(0, 10).map((map) => (
-                  <Link
-                    key={map.id}
-                    to={`/escape-maps/${map.skillId}`}
-                    className="group rounded-xl border border-white/[0.06] bg-slate-900/40 p-4 transition-all hover:border-amber-400/20 hover:bg-slate-900/70"
-                  >
-                    <div className="flex flex-wrap gap-1.5 mb-2">
-                      <Badge tone="amber">{t(`escapeMaps.categories.${map.category}`)}</Badge>
-                      <Badge tone="emerald">{map.routes.length} {t('escapeMaps.routes')}</Badge>
-                    </div>
-                    <h3 className="text-sm font-semibold text-white group-hover:text-amber-200 transition-colors">
-                      {getLocalizedText(map.title, lang)}
-                    </h3>
-                    <div className="mt-1 line-clamp-2 text-xs leading-5 text-slate-400">
-                      <FormattedText text={getLocalizedText(map.overview, lang)} className="text-xs leading-5 text-slate-400" />
                     </div>
                   </Link>
                 ))}
@@ -305,7 +222,6 @@ export default function FixHubPage() {
       <HubTabBar
         tabs={[
           { id: 'troubleshooters', labelKey: 'nav.troubleshooters', icon: HelpCircle },
-          { id: 'escapeMaps', labelKey: 'nav.escapeMaps', icon: ArrowRightFromLine },
           { id: 'defense', labelKey: 'nav.defense', icon: Shield },
         ]}
         accent="amber"

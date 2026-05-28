@@ -20,7 +20,7 @@ export const fr = {
     concepts: 'Concepts',
     positions: 'Positions',
     troubleshooters: 'Diagnostic',
-    escapeMaps: 'Évasion',
+
     archetypes: 'Archétypes',
     mastery: 'Maîtrise',
     modernSystems: 'Systèmes modernes',
@@ -89,7 +89,7 @@ export const fr = {
       items: {
         positions: { title: 'Positions', body: 'Commencez par la relation corporelle.' },
         skills: { title: 'Techniques', body: 'Choisissez l’action qui résout la position.' },
-        escapeMaps: { title: 'Cartes d’évasion', body: 'Voyez comment l’adversaire sort et où bloquer.' },
+
         archetypes: { title: 'Archétypes', body: 'Utilisez un style comme modèle.' },
         mastery: { title: 'Maîtrise', body: 'Voyez l’ordre d’apprentissage long terme.' },
       },
@@ -102,7 +102,7 @@ export const fr = {
         concepts: { title: 'Concepts', body: 'Idées réutilisables dans plusieurs techniques.' },
         positions: { title: 'Positions', body: 'Objectifs haut/bas, dangers et options de progression.' },
         troubleshooters: { title: 'Dépannage', body: 'Diagnostiquer pourquoi une soumission ou un contrôle ne marche pas.' },
-        escapeMaps: { title: 'Cartes d’évasion', body: 'Voir ce que fait l’adversaire quand une position ou attaque échoue.' },
+
         archetypes: { title: 'Archétypes', body: 'Utiliser un style de jeu comme modèle.' },
         mastery: { title: 'Maîtrise', body: 'Voir l’ordre d’apprentissage long terme.' },
         defense: { title: 'Sécurité', body: 'Couches défensives et alertes techniques risquées.' },
@@ -1050,22 +1050,7 @@ export const fr = {
     likelyCause: 'Cause probable',
     openTroubleshooter: 'Diagnostiquer cette soumission',
   },
-  escapeMaps: {
-    ...en.escapeMaps,
-    heading: 'Carte d\'évasion adverse',
-    subtitle: 'Étudier comment l’adversaire sort, le signal précoce, la prévention et le follow-up si ça échoue.',
-    whatFor: 'Utilisez cette page pour comprendre comment l’autre joueur sort de la position.',
-    whenToUse: 'Ouvrez-la quand un pin, un back control ou une soumission se fait sans cesse retourner ou échapper.',
-    nextStep: 'Ouvrez le skill détaillé et revoyez les micro-details qui bloquent la sortie.',
-    empty: 'Aucune escape map ne correspond aux filtres.',
-    notFoundTitle: 'Escape map introuvable',
-    notFoundBody: 'Ce skill n’a pas d’escape map dans le système actuel.',
-    backToEscapeMaps: 'Retour aux cartes d’évasion',
-    routes: 'itinéraires',
-    priorityPreventions: 'Préventions prioritaires',
-    earlySignal: 'Signal précoce',
-    prevention: 'Prévention',
-  },
+
   archetypes: {
     ...en.archetypes,
     heading: 'Archétypes de grappling',
@@ -1118,7 +1103,7 @@ export const fr = {
     micro_detail: 'Micro-détail',
     technique_chain: 'Chaîne technique',
     troubleshooter: 'Diagnostic',
-    escape_map: 'Carte d’évasion',
+
     problem: 'Problème',
     archetype: 'Archétype',
     mastery: 'Carte de maîtrise',

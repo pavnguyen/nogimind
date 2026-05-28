@@ -14,7 +14,6 @@ import {
   Zap,
   Sun,
   BugPlay,
-  MapIcon,
   Brain,
 } from 'lucide-react'
 import { Badge } from '../components/common/Badge'
@@ -475,7 +474,6 @@ export default function DashboardPage() {
             <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
               {[
                 { key: 'troubleshooters', to: '/troubleshooters', icon: BugPlay },
-                { key: 'escapeMaps', to: '/escape-maps', icon: MapIcon },
                 { key: 'defense', to: '/defense', icon: Shield },
               ].map((item) => {
                 const ItemIcon = item.icon
