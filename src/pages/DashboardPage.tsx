@@ -96,12 +96,6 @@ export default function DashboardPage() {
   const pipelineSafetyCount = manifest.filter((s) =>
     s.tags?.some((tag) => tag.includes('safety') || tag.includes('neck') || tag.includes('spine')),
   ).length
-  const pipelineDetailsCount: number = manifest.filter((s) => s.hasChecklist).length
-  const pipelineCoveragePct =
-    pipelineSkillCount > 0
-      ? Math.round((pipelineDetailsCount / pipelineSkillCount) * 100)
-      : 0
-
   // ── Legacy data (for daily rotation items that need full skill data) ───
   const conceptsQuery = useConceptsQuery()
   const concepts = useMemo(() => conceptsQuery.data ?? [], [conceptsQuery.data])
@@ -216,42 +210,6 @@ export default function DashboardPage() {
                 cardGradients[todayConfig.key],
               )}
             >
-              {/* Coverage ring — top-right corner (SVG circle for smooth arc) */}
-              {pipelineSkillCount > 0 && (
-                <div className="absolute right-6 top-6 z-20 flex items-center gap-2 rounded-lg border border-white/[0.06] bg-slate-950/60 px-2.5 py-1.5 backdrop-blur-sm">
-                  <div className="relative h-8 w-8">
-                    <svg className="h-8 w-8 -rotate-90" viewBox="0 0 36 36">
-                      {/* Background ring */}
-                      <circle
-                        cx="18" cy="18" r="15.5"
-                        fill="none"
-                        stroke="currentColor"
-                        strokeWidth="3"
-                        className="text-slate-800"
-                      />
-                      {/* Progress arc */}
-                      <circle
-                        cx="18" cy="18" r="15.5"
-                        fill="none"
-                        stroke="currentColor"
-                        strokeWidth="3"
-                        strokeLinecap="round"
-                        className="text-emerald-400/80 transition-all duration-700"
-                        strokeDasharray={`${pipelineCoveragePct} ${100 - pipelineCoveragePct}`}
-                        strokeDashoffset="0"
-                      />
-                    </svg>
-                    <span className="absolute inset-0 flex items-center justify-center text-[9px] font-bold text-white">
-                      {pipelineCoveragePct}%
-                    </span>
-                  </div>
-                  <div className="leading-tight">
-                    <p className="text-[9px] font-semibold uppercase tracking-wider text-slate-400">Coverage</p>
-                    <p className="text-[10px] font-medium text-emerald-400/80">{pipelineDetailsCount}/{pipelineSkillCount} with checklists</p>
-                  </div>
-                </div>
-              )}
-
               {/* Decorative glow blob */}
               <div className={cn(
                 'absolute -right-24 -top-24 h-80 w-80 rounded-full opacity-20 blur-[100px] transition-opacity group-hover:opacity-30',
@@ -418,19 +376,6 @@ export default function DashboardPage() {
             <div>
               <p className="text-[10px] font-semibold uppercase tracking-widest text-slate-500">{t('dashboard.safetyCritical')}</p>
               <p className="mt-0.5 text-base font-bold text-rose-400">{pipelineSafetyCount}</p>
-            </div>
-            <div className="h-6 w-px bg-white/[0.06]" />
-            <div>
-              <p className="text-[10px] font-semibold uppercase tracking-widest text-slate-500">{t('dashboard.contentCoverage')}</p>
-              <div className="mt-0.5 flex items-center gap-2">
-                <div className="h-1.5 w-20 rounded-full bg-slate-800">
-                  <div
-                    className="h-full rounded-full bg-violet-400/70 transition-all"
-                    style={{ width: `${pipelineCoveragePct}%` }}
-                  />
-                </div>
-                <span className="text-base font-bold text-violet-400">{pipelineCoveragePct}%</span>
-              </div>
             </div>
             <div className="h-6 w-px bg-white/[0.06]" />
             <div>
