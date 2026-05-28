@@ -1,0 +1,126 @@
+{
+  "id": "half-guard-wrestle-up",
+  "domain": "wrestle_up_wrestling",
+  "level": "intermediate",
+  "status": "draft",
+  "name": "Half Guard Wrestle-Up",
+  "aliases": [],
+  "tags": [
+    "wrestle-up",
+    "half-guard"
+  ],
+  "keywords": [
+    "wrestle-up",
+    "underhook",
+    "single leg",
+    "mat return"
+  ],
+  "relatedSkills": [
+    {
+      "id": "single-leg-bjj",
+      "type": "recommended"
+    },
+    {
+      "id": "bodylock-passing",
+      "type": "recommended"
+    },
+    {
+      "id": "scramble-control",
+      "type": "recommended"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "half-guard-knee-shield",
+    "technical-stand-up"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [
+    "If they flatten you during the wrestle-up: you lost the underhook — re-pummel before trying again",
+    "If you cannot find the single leg: they posted the leg back — switch to the front headlock using the underhook",
+    "If they guillotine you: your head was too high — keep your forehead to their jaw as you stand"
+  ],
+  "version": 1,
+  "updatedAt": "2026-05-21T00:24:30.758Z",
+  "contentRefs": {
+    "videos": "videos.json",
+    "qualityChecklist": "qualityChecklist"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": true,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "en",
+  "description": "Turn half guard from defense into a single leg when you win the underhook or hip angle. The wrestle-up is the highest-value offensive transition from half guard — it converts a defensive position into a takedown opportunity.",
+  "shortInstruction": "Win the underhook, create a hip angle, post on your outside foot, and drive to a single leg. If they resist the single leg, come up to a front headlock.",
+  "summary": "The half guard wrestle-up transforms half guard from a defensive pin into an offensive takedown entry. The sequence is: win the underhook → turn to face them → post your outside foot → drive to a single leg. The wrestle-up works because it catches the opponent in the transition between passing and pinning — they are not fully committed to either, making them vulnerable to the sudden stand-up.",
+  "whyItWorks": [
+    "The underhook gives you upper body control — they cannot crossface or flatten you as you stand",
+    "Creating a hip angle (turning to face them) aligns your body for the stand-up — you drive forward, not sideways",
+    "The single leg entry from half guard is unexpected — most opponents expect a sweep, not a takedown",
+    "A failed wrestle-up often resets to neutral rather than leaving you in a worse position"
+  ],
+  "commonMistakes": [
+    "Trying to wrestle up without the underhook — they will crossface you and flatten you back down",
+    "Standing up straight instead of staying low — a tall posture exposes the single leg counter and gives up the underhook",
+    "Not creating enough separation before standing — you need 6-8 inches of space to post the foot",
+    "Giving up on the wrestle-up too early — commit to the stand-up or you will be stuck in between"
+  ],
+  "coachingCues": [
+    "Underhook first, wrestle-up second",
+    "Create the angle, post the foot",
+    "Stay low, drive to the leg",
+    "Commit or don't start"
+  ],
+  "safetySummary": [
+    "Do not stand up with a straight back — this exposes your neck to guillotines and your back to takedowns",
+    "If the opponent sprawls on the wrestle-up, drop back to guard rather than fighting the sprawl",
+    "Be careful of knee strain when posting from half guard — the outside foot must be planted firmly"
+  ],
+  "systemLogic": {
+    "corePrinciple": "The half guard wrestle-up has four phases: Underhook → Hip Angle → Stand → Single Leg",
+    "decisionTree": [
+      {
+        "condition": "In Phase 1 (Underhook)",
+        "action": "win the underhook and control their posture. Your head should be on their chest (forehead to sternum)"
+      },
+      {
+        "condition": "In Phase 2 (Hip Angle)",
+        "action": "hip escape to create 6-8 inches of space. Turn your hips to face them at a 45-degree angle"
+      },
+      {
+        "condition": "In Phase 3 (Stand)",
+        "action": "post your outside foot and drive to a standing position. Stay low — your head should not rise above their shoulder"
+      },
+      {
+        "condition": "In Phase 4 (Single Leg)",
+        "action": "as you stand, attack their far leg for a single leg. If they block, drive into their hips for a body lock"
+      },
+      {
+        "condition": "the single leg fails",
+        "action": "transition to the front headlock using your underhook grip to snap them down"
+      }
+    ],
+    "exitStrategies": []
+  },
+  "moneyDetails": [
+    "The half guard wrestle-up is the highest-value transition from half guard — it scores 2 takedown points and lands you on top",
+    "Mastering the wrestle-up gives you a third option from half guard (sweep, submission, or wrestle-up)",
+    "The wrestle-up is particularly effective against pressure passers who commit weight forward"
+  ],
+  "fixItFast": [
+    "If they pressure forward: use their momentum — wrestle-up into the direction they are pushing",
+    "If they back away: stand up fully and re-engage from a neutral position",
+    "If they switch to a knee cut pass: re-pummel the underhook and hip escape to create space"
+  ]
+}

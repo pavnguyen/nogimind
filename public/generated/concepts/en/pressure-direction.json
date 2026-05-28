@@ -1,0 +1,65 @@
+{
+  "id": "pressure-direction",
+  "locale": "en",
+  "title": "Pressure Direction",
+  "category": "mechanical",
+  "level": "intermediate",
+  "tags": [
+    "pressure",
+    "direction",
+    "pin"
+  ],
+  "shortDefinition": "Effective pressure has a specific direction: diagonal, to far hip, to shoulder line, or down through hip line.",
+  "whyItMatters": "Straight-down pressure often lets opponents frame or hip escape; diagonal pressure makes them lose direction.",
+  "deepExplanation": "Pressure direction links head, sternum, pelvis, knees, and toes. When they do not point together, you feel heavy but do not control.",
+  "beginnerView": "Ask where your force is going.",
+  "advancedView": "Change pressure direction to make frames point the wrong way, then pass or pin.",
+  "ifThenExamples": [
+    {
+      "if": "If you lose Pressure Direction during the exchange.",
+      "then": "Stop accelerating, recover the nearest body structure, then continue the technique.",
+      "why": "Modern no-gi punishes forceful continuation after structure is lost.",
+      "relatedSkillIds": [
+        "bodylock-passing",
+        "side-control-pin"
+      ]
+    },
+    {
+      "if": "If the opponent correctly answers your first line.",
+      "then": "Use Pressure Direction to switch to a safer branch instead of forcing the same line.",
+      "why": "A good concept turns the opponent’s reaction into information for the next decision.",
+      "relatedSkillIds": [
+        "side-control-pin",
+        "mount-control",
+        "arm-triangle-mount"
+      ]
+    }
+  ],
+  "commonMisunderstandings": [
+    {
+      "misunderstanding": "Pressure Direction is a single technical trick.",
+      "correction": "Treat it as a decision rule that appears across many positions."
+    },
+    {
+      "misunderstanding": "Understanding the concept automatically makes it work live.",
+      "correction": "The concept needs body signals, short cues, and positional rolling."
+    }
+  ],
+  "trainingCues": [
+    "Name Pressure Direction before adding force.",
+    "Find the body signal instead of guessing generally.",
+    "If structure is lost, reset one layer first.",
+    "Drill slowly, then test with progressive resistance."
+  ],
+  "relatedSkillIds": [
+    "bodylock-passing",
+    "side-control-pin",
+    "mount-control",
+    "arm-triangle-mount"
+  ],
+  "relatedConceptIds": [
+    "connection-before-control",
+    "wedges",
+    "hip-line-shoulder-line"
+  ]
+}

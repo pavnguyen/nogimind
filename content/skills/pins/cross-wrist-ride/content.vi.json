@@ -1,0 +1,67 @@
+{
+  "id": "cross-wrist-ride",
+  "locale": "vi",
+  "name": "Đi xe chéo cổ tay",
+  "description": "Khóa cổ tay chéo của đối phương trên lưng, dùng áp lực ngực và kết nối hông để khống chế rùa và để lộ lưng. Động tác bắt chéo cổ tay khiến cả hai tay không thể cử động được để loại bỏ khả năng đứng vững hoặc đứng dậy của đối phương.",
+  "shortInstruction": "Từ con rùa, nắm lấy cả hai cổ tay, bắt chéo chúng ở lưng dưới và ghim chúng bằng ngực của bạn. Đẩy trọng lượng của bạn về phía trước để làm phẳng chúng và đưa lưng về phía sau.",
+  "summary": "Đu chéo cổ tay là một hệ thống bẻ rùa cấp cao giúp cố định tay của đối phương bằng cách bắt chéo cổ tay của họ ở lưng dưới và ghim chúng bằng trọng lượng ngực của bạn. Khi được điều khiển bằng cả hai tay, đối thủ không thể trụ, trụ hoặc đứng lên - họ hoàn toàn phụ thuộc vào chuyển động của hông để trốn thoát, điều này gần như không thể xảy ra khi áp lực của ngực lên cột sống của họ.",
+  "whyItWorks": [
+    "Bắt chéo cổ tay trên lưng sẽ loại bỏ khả năng đăng bài của họ - nếu không có tay, họ không thể tự đẩy mình lên hoặc đứng ra",
+    "Áp lực của ngực lên cổ tay bắt chéo sẽ ghim chúng một cách an toàn - đối phương không thể tách tay họ ra khỏi trọng lượng toàn cơ thể của bạn",
+    "Với bàn tay bất động và áp lực của ngực lên cột sống, lối thoát duy nhất của đối thủ là lăn - bạn có thể phản công bằng cách lăn theo",
+    "Động tác bắt chéo cổ tay chuyển trực tiếp sang còng tay Dagestani và quay lại khi đối thủ lốp xe"
+  ],
+  "commonMistakes": [
+    "Nắm cổ tay quá thấp - tay cầm phải ở khớp cổ tay chứ không phải cẳng tay",
+    "Để áp lực ở ngực tăng lên - ngực phải luôn được kết nối với cổ tay bắt chéo",
+    "Nhả điều khiển cổ tay quá sớm - duy trì cho đến khi mặt sau được cố định hoàn toàn",
+    "Không đẩy đủ về phía trước - cần phải có áp lực về phía trước để làm con rùa bị sập"
+  ],
+  "coachingCues": [
+    "Hai cổ tay bắt chéo về phía sau",
+    "Đặt ngực lên cổ tay, lái về phía trước",
+    "Không tay, không căn cứ, không lối thoát",
+    "Giữ cho đến khi mặt sau được cố định chắc chắn"
+  ],
+  "safetySummary": [
+    "Kiểm soát cổ tay nên được áp dụng cho khớp cổ tay chứ không phải bàn tay - việc nắm chặt bàn tay có thể gây thương tích cho ngón tay",
+    "Không tác động lực xuống đột ngột lên cổ tay bắt chéo - điều này có thể gây căng hoặc bong gân cổ tay",
+    "Nếu đối thủ lăn bất ngờ để trốn thoát, hãy thả điều khiển cổ tay thay vì chống lại cú lăn"
+  ],
+  "keyCorrections": [
+    "Nếu họ lăn ra khỏi xe: thả cổ tay ra và thu về phía sau khi họ lăn - không giữ cổ tay",
+    "Nếu họ tách tay ra: áp lực ở ngực của bạn quá nhẹ - hãy ấn mạnh ngực của bạn vào lưng họ",
+    "Nếu không thể với tới cả hai cổ tay: điều khiển một cổ tay và dùng tay kia để điều khiển khuỷu tay hoặc vai xa"
+  ],
+  "systemLogic": {
+    "corePrinciple": "Quá trình bắt chéo cổ tay có ba giai đoạn: Cố định cổ tay: Thu gọn Rùa → Chuyển sang back control",
+    "decisionTree": [
+      {
+        "condition": "Ở Giai đoạn 1 (Cổ tay an toàn)",
+        "action": "từ con rùa, đưa tay xuống dưới ngực và nắm lấy cổ tay ở phía xa. Kéo nó qua lưng dưới của họ. Sau đó nắm lấy cổ tay gần và bắt chéo qua cổ tay xa. Cả hai cổ tay nên được xếp chồng lên cột sống dưới của họ"
+      },
+      {
+        "condition": "Ở Giai đoạn 2 (Thu gọn Rùa)",
+        "action": "đẩy ngực vào cổ tay bắt chéo và đẩy về phía trước. Trọng lượng của bạn sẽ đẩy tay họ vào lưng dưới trong khi áp lực từ ngực của bạn khiến họ bị xẹp xuống. Đưa đầu gối về phía trước để duy trì áp lực"
+      },
+      {
+        "condition": "Trong Giai đoạn 3 (Chuyển sang back control)",
+        "action": "khi chúng đã phẳng, hãy nhả bộ điều khiển ở cổ tay (mỗi lần một tay) và thay thế bằng tay cầm seatbelt. Trượt đầu gối của bạn vào hông họ và cố định back control"
+      },
+      {
+        "condition": "họ chống cự bằng cách căng cứng lưng",
+        "action": "xen kẽ giữa việc tạo áp lực lên ngực và dùng đầu gối kéo hông của họ để phá vỡ sự căng thẳng"
+      }
+    ]
+  },
+  "moneyDetails": [
+    "Đòn bắt chéo cổ tay là một trong những hệ thống phá rùa chiếm ưu thế nhất - nó loại bỏ các công cụ thoát hiểm chính (tay) của đối phương",
+    "Hệ thống này được sử dụng rộng rãi trong đấu vật (hệ thống Khabib, Zahabi) và được dịch hoàn hảo sang No-Gi BJJ",
+    "Việc thành thạo động tác cưỡi chéo cổ tay sẽ mang lại cho bạn một con đường đáng tin cậy từ rùa đến back control khi chống lại đối thủ"
+  ],
+  "fixItFast": [
+    "Nếu chúng lăn ra: thả cổ tay ra và thu về phía sau - không đấu tranh để duy trì khả năng kiểm soát cổ tay",
+    "Nếu họ tách tay ra: chuyển sang điều khiển bằng một cổ tay ở cánh tay gần và sử dụng chuyển động xoắn ốc để thu gọn chúng",
+    "Nếu họ ngồi dậy bằng sức mạnh: hãy chuyển sang kiểu cưỡi bằng móng vuốt - kiểu bám bằng móng vuốt sẽ khó thoát ra hơn bằng sức mạnh thuần túy"
+  ]
+}

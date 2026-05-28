@@ -1,0 +1,56 @@
+{
+  "id": "front-headlock-bottom",
+  "locale": "fr",
+  "title": "Front headlock dessous",
+  "category": "front_headlock",
+  "status": "dangerous",
+  "description": "La tête et le cou du joueur du dessous sont tirés vers le bas ; il doit protéger sa respiration et reconstruire sa base.",
+  "topPlayerGoals": [
+    "Le joueur du dessus veut contrôler Front headlock dessous avec la position de tête, la position intérieure et une pression orientée.",
+    "L’attaquant cherche un chin strap profond, un go-behind ou une guillotine.",
+    "Garder une base stable pour éviter d’être déséquilibré ou contré."
+  ],
+  "bottomPlayerGoals": [
+    "Le joueur du dessous veut survivre en Front headlock dessous avec des cadres, du pummeling ou le bon angle.",
+    "Rentrer le menton, contrôler le poignet, garder les genoux sous les hanches et tourner en sécurité.",
+    "Reconnaître les signaux de danger tôt au lieu d’attendre que la position se stabilise."
+  ],
+  "controlPoints": [
+    "Point de contrôle principal : Menton, poignet qui étrangle et genoux sous les hanches..",
+    "La tête, les mains, les hanches et les genoux doivent suivre la même direction de force.",
+    "La connexion coude-genou ou la ligne hanches-épaules détermine si la position reste vivante ou verrouillée."
+  ],
+  "escapePriorities": [
+    "Priorité de sortie : Ne pas tourner le cou dans la pression ; réinitialiser si le danger augmente..",
+    "Protéger le cou, le dos, la ligne du genou ou la ligne du bras avant de contrer.",
+    "Si la position intérieure est perdue, rétablir d’abord une couche défensive."
+  ],
+  "advancementOptions": [
+    {
+      "action": "Retirer le poignet et tourner pour sortir",
+      "nextPositionId": "neutral-standing",
+      "relatedSkillIds": [
+        "front-headlock-defense",
+        "hand-fighting",
+        "technical-stand-up"
+      ],
+      "why": "C’est la branche naturelle lorsque vous gagnez le point de contrôle principal et que l’adversaire est forcé de défendre."
+    }
+  ],
+  "dangerSignals": [
+    "Le menton ou le cou sort de la ligne sûre.",
+    "Le coude se sépare des côtes ou du genou.",
+    "La ligne des hanches est verrouillée pendant que la ligne des épaules est encore tirée.",
+    "Vous devez poser une main loin pour éviter de tomber."
+  ],
+  "relatedSkillIds": [
+    "front-headlock-defense",
+    "hand-fighting",
+    "technical-stand-up"
+  ],
+  "relatedConceptIds": [
+    "early-vs-late-defense",
+    "head-position",
+    "posts"
+  ]
+}

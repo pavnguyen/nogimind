@@ -1,0 +1,53 @@
+{
+  "id": "back-attack-system",
+  "domain": "back_control",
+  "level": "intermediate",
+  "name": "Back Attack System",
+  "aliases": [],
+  "tags": [
+    "back-control",
+    "rnc",
+    "arm-triangle",
+    "body-triangle"
+  ],
+  "keywords": [
+    "back control",
+    "seatbelt",
+    "body triangle",
+    "hand fighting",
+    "RNC",
+    "arm triangle"
+  ],
+  "relatedSkills": [
+    {
+      "id": "crucifix-control",
+      "type": "recommended"
+    },
+    {
+      "id": "crab-ride",
+      "type": "recommended"
+    },
+    {
+      "id": "turtle-ride",
+      "type": "recommended"
+    }
+  ],
+  "prerequisiteSkillIds": [
+    "back-control",
+    "rear-naked-choke-system"
+  ],
+  "relatedPositions": [],
+  "relatedConcepts": [],
+  "archetypeIds": [],
+  "trainingMethodIds": [],
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "updatedAt": "2026-05-21T00:24:30.765Z"
+}

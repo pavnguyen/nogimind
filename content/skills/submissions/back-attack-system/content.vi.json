@@ -1,0 +1,65 @@
+{
+  "id": "back-attack-system",
+  "locale": "vi",
+  "name": "Hệ thống tấn công ngược",
+  "description": "Một hệ thống hoàn chỉnh từ back control: thiết lập seatbelt, móc hoặc thân cố định triangle, thắng trận đấu tay đôi, sau đó kết thúc bằng RNC, cánh tay triangle hoặc chuyển đổi khi đối thủ chuyển sang phòng thủ.",
+  "shortInstruction": "seatbelt → móc → đánh tay → kết thúc - tấn công ngược là một hệ thống kiểm soát lũy tiến, không phải một động tác duy nhất.",
+  "summary": "Hệ thống tấn công ngược có tỷ lệ chuỗi submission cao nhất trong BJJ. Quá trình này là: cố định seatbelt (một tay qua vai, một tay dưới nách), khóa móc hoặc cơ thể của bạn triangle, giành chiến thắng trong cuộc đấu tay đôi để lộ cổ của họ và kết thúc bằng đòn khóa trần phía sau. Nếu họ bảo vệ RNC bằng cách quay lại, hãy chuyển sang nhánh triangle hoặc mount. Hệ thống dựa trên phản ứng - bạn không ép buộc phải hoàn thành một lần; bạn xâu chuỗi cho đến khi một cái hoạt động.",
+  "whyItWorks": [
+    "seatbelt kiểm soát phần thân trên của họ và ngăn họ quay mặt về phía bạn.",
+    "Móc hoặc thân triangle neo phần thân dưới của bạn vào phần thân của chúng — chúng không thể thoát ra nếu không nhả móc trước.",
+    "Đánh tay là bước quan trọng nhất - bạn không thể bóp cổ họ nếu họ đặt tay lên cánh tay đang bị nghẹn của bạn.",
+    "Nguyên tắc Danaher: lưng là vị trí có tỷ lệ tấn công cao nhất vì bạn hoàn toàn kiểm soát được chuyển động của chúng."
+  ],
+  "commonMistakes": [
+    "Bỏ qua cuộc đấu tay đôi và cố gắng siết cổ - nếu tay họ đặt trên cánh tay của bạn, bạn sẽ không kết thúc.",
+    "Mất sự tiếp xúc giữa ngực với lưng - sự kết nối giữa ngực với lưng là nguyên nhân ngăn cản việc trốn thoát.",
+    "Để họ biến thành bạn mà không cần chuyển đổi — nếu họ biến thành mount hoặc cánh tay triangle.",
+    "Chỉ sử dụng một đòn tấn công — hệ thống yêu cầu xâu chuỗi: RNC → nhánh triangle → mount → rút lui."
+  ],
+  "coachingCues": [
+    "seatbelt đầu tiên, hook thứ hai, tay thứ ba, sặc cuối cùng.",
+    "Đánh tay theo thứ tự - bóc tay dưới trước.",
+    "Nếu họ biến thành bạn, hãy lấy mount.",
+    "Xâu chuỗi các cuộc tấn công của bạn - thiết lập này sẽ hỗ trợ thiết lập tiếp theo."
+  ],
+  "safetySummary": [
+    "Không quay cổ để ép RNC - đó là nghẹt thở chứ không phải quay cổ.",
+    "Thả ngay khi nhấn — RNCs có thể gây bất tỉnh trong vòng vài giây.",
+    "Khi chuyển sang cánh tay triangle, đừng vặn mạnh đầu họ."
+  ],
+  "keyCorrections": [
+    "Nếu họ tiếp tục bảo vệ cổ mình, hãy tấn công cánh tay triangle hoặc nhử để chuyển sang mount.",
+    "Nếu họ nắm lấy bàn tay đang nghẹt thở của bạn, hãy chuyển sang biến thể RNC cổ tay cao.",
+    "Nếu họ bóc móc của bạn, hãy chuyển sang cơ thể triangle hoặc bắt chéo chân."
+  ],
+  "systemLogic": {
+    "corePrinciple": "back control → seatbelt → móc/thân chắc chắn triangle → đấu tay → RNC nỗ lực.",
+    "decisionTree": [
+      {
+        "condition": "RNC Phản ứng 1: Họ phòng thủ",
+        "action": "cánh tay triangle trên cánh tay xa."
+      },
+      {
+        "condition": "RNC Phản ứng 2: Họ nộp đơn",
+        "action": "lấy mount hoặc kỹ thuật mount."
+      },
+      {
+        "condition": "RNC Phản ứng 3: Họ quay đi",
+        "action": "móc lại mặt sau và tiếp tục."
+      }
+    ]
+  },
+  "moneyDetails": [
+    "Trận đấu tay theo một trình tự cụ thể: bóc tay dưới (che cổ), sau đó đến tay trên.",
+    "Mối liên hệ giữa ngực và lưng được duy trì bằng cách ép xương ức của bạn vào cột sống của họ - không phải bằng cách dùng tay kéo.",
+    "Khi họ biến thành bạn, hãy thả cơ thể triangle/móc và theo họ đến mount — đừng tranh giành phía sau.",
+    "RNC kết thúc nhanh nhất khi khuỷu tay của cánh tay đang bị nghẹn của bạn ở dưới cằm của họ — vị trí của khuỷu tay quan trọng hơn sức bóp."
+  ],
+  "nextStep": "Sau hệ thống tấn công từ phía sau, hãy tìm hiểu cách điều khiển cơ thể triangle và cánh tay triangle từ phía sau.",
+  "fixItFast": [
+    "Không thể bị nghẹt thở? Chuyển sang armbar trên cánh tay xa — chúng mở ra khi bảo vệ cuộn cảm.",
+    "Họ tiếp tục quay vào? Lấy ngay mount — mất back control, thu được mount.",
+    "Họ nắm lấy tay bạn? Gập cằm và chuyển sang cổ tay cao RNC."
+  ]
+}

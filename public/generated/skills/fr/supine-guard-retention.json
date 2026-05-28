@@ -1,0 +1,126 @@
+{
+  "id": "supine-guard-retention",
+  "domain": "guard_retention",
+  "level": "beginner",
+  "status": "draft",
+  "name": "En décubitus dorsal guard Rétention",
+  "aliases": [],
+  "tags": [
+    "guard",
+    "retention"
+  ],
+  "keywords": [
+    "guard retention",
+    "knee line",
+    "hip escape",
+    "inside position"
+  ],
+  "relatedSkills": [
+    {
+      "id": "half-guard-knee-shield",
+      "type": "recommended"
+    },
+    {
+      "id": "k-guard-entry",
+      "type": "recommended"
+    },
+    {
+      "id": "outside-passing",
+      "type": "recommended"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "frames-pummeling"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [],
+  "version": 1,
+  "updatedAt": "2026-05-21T00:24:30.745Z",
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "fr",
+  "description": "Utilisez la mobilité des hanches, les knee shield et les repose-pieds pour garder vos jambes entre vous et le passeur lorsque votre dos touche le tapis.",
+  "shortInstruction": "Hanches hors du tapis, genoux entre vous et eux, pieds sur les hanches – la rétention en décubitus dorsal permet de contrôler les dégâts avec un but précis.",
+  "summary": "La rétention en position couchée guard est ce que vous utilisez lorsque vous vous retrouvez à plat sur le dos. Contrairement à la rétention guard assise (où vous êtes actif et mobile), la rétention en décubitus dorsal consiste à récupérer la structure d'une position compromise. Vos outils sont : l'élévation des hanches (shrimping), les knee shields (insérer vos genoux entre vous et eux) et les repose-pieds (placer vos pieds sur leurs hanches ou leurs biceps). Le but est toujours de revenir à vos côtés et de rétablir un guard actif.",
+  "whyItWorks": [
+    "Garder vos hanches hors du tapis les empêche de vous aplatir complètement – ​​un dos plat est un guard réussi.",
+    "Les knee shield créent de la distance même lorsque vous êtes en décubitus dorsal : vos genoux sont votre première ligne de défense.",
+    "Les repose-pieds sur les hanches ou les biceps utilisent vos leviers les plus longs pour les repousser.",
+    "Principe de Danaher : la rétention guard est une série de récupérations : chaque récupération vous fait gagner du temps pour la suivante."
+  ],
+  "commonMistakes": [
+    "Restez à plat sur le dos – la position couchée doit être temporaire et non une position de repos.",
+    "Pousser avec les bras tendus lorsqu’ils avancent – ​​cela expose vos coudes aux clés des bras.",
+    "En laissant tomber vos genoux sur le tapis après shrimping, gardez vos genoux entre vous et eux à tout moment.",
+    "Laissez-les saisir vos chevilles et diviser votre guard – gardez vos pieds mobiles et hors du tapis."
+  ],
+  "coachingCues": [
+    "Hanches relevées, genoux rentrés, pieds sur les hanches.",
+    "shrimp d'abord, image ensuite : le mouvement de la hanche crée de l'espace.",
+    "Vos genoux sont vos guard – ne les laissez pas toucher le tapis.",
+    "Récupérez à vos côtés – l’appartement est mort."
+  ],
+  "safetySummary": [
+    "Ne les laissez pas enfoncer votre tête dans le tapis lorsqu'ils poussent vers l'avant – placez-vous sur leurs hanches avec vos bras.",
+    "Protégez vos côtes de la pression des genoux en gardant vos coudes près de votre corps.",
+    "Lorsque vous shrimping, ne tordez pas le bas du dos de manière explosive : un mouvement contrôlé de la hanche évite les blessures."
+  ],
+  "systemLogic": {
+    "corePrinciple": "La rétention guard en position couchée permet de contrôler les dommages avec un but précis : lorsque vous êtes à plat sur le dos, utilisez l'élévation des hanches (shrimp), les knee shield et les repose-pieds pour récupérer la structure. Chaque couche de rétention vous fait gagner du temps pour récupérer la suivante : Pieds sur les hanches → Genoux entre → Cadres des avant-bras.",
+    "decisionTree": [
+      {
+        "condition": "Vous êtes à plat sur le dos et votre adversaire fait pression vers l'avant.",
+        "action": "shrimp pour créer de l'espace : tournez-vous sur le côté et éloignez vos hanches d'elles. Un dos plat est un guard réussi. Le mouvement de la hanche doit primer."
+      },
+      {
+        "condition": "L'adversaire traverse votre shrimp et vous réaplatit",
+        "action": "Vous n'avez pas créé suffisamment de distance – shrimp plus fort et plus loin. Une grande évasion branchée vaut mieux que trois petites. Insérez votre genou côté extérieur pendant que vous shrimp."
+      },
+      {
+        "condition": "L'adversaire attrape votre cheville et tente de vous fendre guard",
+        "action": "Libérez votre pied et ramenez-le immédiatement à sa hanche. Gardez vos pieds mobiles et éloignés du tapis : les pieds plantés peuvent être épinglés et fendus."
+      },
+      {
+        "condition": "Votre knee shield est en place mais l'adversaire continue",
+        "action": "L’angle de votre hanche est incorrect : tournez-vous davantage sur le côté lorsque vous insérez le genou. Le knee shield doit être diagonal et non plat."
+      },
+      {
+        "condition": "L'adversaire passe le knee shield",
+        "action": "Récupérez la tortue comme dernière ligne de défense. Depuis la tortue, utilisez le stand-up technique ou la récupération guard pour relancer le cycle de rétention."
+      }
+    ],
+    "exitStrategies": [
+      "Une fois que vous avez de la distance et un knee shield, remettez-vous à vos côtés (knee shield/Z-guard) ou asseyez-vous guard — ne restez jamais couché sur le dos.",
+      "Si vous ne parvenez pas à revenir assis guard, utilisez plutôt une position debout technique jusqu'à wrestle up.",
+      "La rétention en décubitus dorsal est la deuxième couche (après l'échec de guard assis) - cela vous fait gagner du temps pour récupérer la première couche."
+    ]
+  },
+  "moneyDetails": [
+    "Votre premier mouvement devrait toujours être un shrimp : tournez-vous sur le côté et éloignez vos hanches.",
+    "Pendant que vous shrimp, insérez votre genou extérieur entre vos corps – c'est votre knee shield.",
+    "Placez votre pied supérieur sur sa hanche et votre pied inférieur sur son genou – deux points de contrôle de la distance.",
+    "Une fois que vous avez atteint la distance, remettez-vous à vos côtés (knee shield) ou assis guard – ne restez jamais couché sur le dos."
+  ],
+  "nextStep": "Après la rétention en décubitus dorsal, apprenez le système knee shield et la rétention guard en position assise pour construire une chaîne de rétention guard complète.",
+  "fixItFast": [
+    "Ils continuent de passer ? shrimp plus fort et plus loin : une grande évasion de la hanche vaut mieux que trois petites.",
+    "knee shield ne veut pas rester ? Tournez-vous davantage sur le côté et serrez votre genou contre votre coude.",
+    "Vous ne parvenez pas à vous asseoir ? Utilisez plutôt un stand-up technique à wrestle up."
+  ]
+}

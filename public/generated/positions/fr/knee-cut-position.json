@@ -1,0 +1,56 @@
+{
+  "id": "knee-cut-position",
+  "locale": "fr",
+  "title": "Position de knee cut",
+  "category": "top_control",
+  "status": "advantage",
+  "description": "Le joueur du dessus coupe le genou à travers la ligne de la cuisse tout en cherchant l’underhook ou le crossface et le contrôle de la ligne des hanches.",
+  "topPlayerGoals": [
+    "Le joueur du dessus veut contrôler Position de knee cut avec la position de tête, la position intérieure et une pression orientée.",
+    "Séparer la ligne des épaules de la ligne des hanches, puis libérer le pied en windshield wiper.",
+    "Garder une base stable pour éviter d’être déséquilibré ou contré."
+  ],
+  "bottomPlayerGoals": [
+    "Le joueur du dessous veut survivre en Position de knee cut avec des cadres, du pummeling ou le bon angle.",
+    "Pummeler pour un knee shield ou un underhook afin de faire un wrestle-up ou récupérer la garde.",
+    "Reconnaître les signaux de danger tôt au lieu d’attendre que la position se stabilise."
+  ],
+  "controlPoints": [
+    "Point de contrôle principal : Angle du genou proche, far underhook ou crossface..",
+    "La tête, les mains, les hanches et les genoux doivent suivre la même direction de force.",
+    "La connexion coude-genou ou la ligne hanches-épaules détermine si la position reste vivante ou verrouillée."
+  ],
+  "escapePriorities": [
+    "Priorité de sortie : Ne pas laisser la ligne des épaules être aplatie avant de récupérer le genou..",
+    "Protéger le cou, le dos, la ligne du genou ou la ligne du bras avant de contrer.",
+    "Si la position intérieure est perdue, rétablir d’abord une couche défensive."
+  ],
+  "advancementOptions": [
+    {
+      "action": "Libérer le pied et stabiliser le pin",
+      "nextPositionId": "side-control-top",
+      "relatedSkillIds": [
+        "knee-cut-passing",
+        "headquarters-passing",
+        "half-guard-knee-shield"
+      ],
+      "why": "C’est la branche naturelle lorsque vous gagnez le point de contrôle principal et que l’adversaire est forcé de défendre."
+    }
+  ],
+  "dangerSignals": [
+    "Le menton ou le cou sort de la ligne sûre.",
+    "Le coude se sépare des côtes ou du genou.",
+    "La ligne des hanches est verrouillée pendant que la ligne des épaules est encore tirée.",
+    "Vous devez poser une main loin pour éviter de tomber."
+  ],
+  "relatedSkillIds": [
+    "knee-cut-passing",
+    "headquarters-passing",
+    "half-guard-knee-shield"
+  ],
+  "relatedConceptIds": [
+    "angle-creation",
+    "pressure-direction",
+    "hip-line-shoulder-line"
+  ]
+}

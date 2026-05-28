@@ -1,0 +1,54 @@
+{
+  "id": "knee-line-escape",
+  "domain": "survival_defense",
+  "level": "intermediate",
+  "name": "Knee Line Escape / Heel Hide",
+  "aliases": [],
+  "tags": [
+    "knee-line",
+    "leg-lock",
+    "heel-hide",
+    "defense",
+    "escape"
+  ],
+  "keywords": [
+    "heel hide",
+    "knee line",
+    "boot defense",
+    "rotation direction",
+    "tap timing",
+    "secondary leg"
+  ],
+  "relatedSkills": [
+    {
+      "id": "single-leg-x-basics",
+      "type": "recommended"
+    },
+    {
+      "id": "saddle-inside-sankaku-control",
+      "type": "recommended"
+    },
+    {
+      "id": "backside-50-50-control",
+      "type": "recommended"
+    }
+  ],
+  "prerequisiteSkillIds": [
+    "leg-lock-safety-basics",
+    "heel-hook-safety"
+  ],
+  "relatedPositions": [],
+  "relatedConcepts": [],
+  "archetypeIds": [],
+  "trainingMethodIds": [],
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "updatedAt": "2026-05-21T00:24:30.766Z"
+}

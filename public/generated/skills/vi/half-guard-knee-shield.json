@@ -1,0 +1,126 @@
+{
+  "id": "half-guard-knee-shield",
+  "domain": "guard_retention",
+  "level": "beginner",
+  "status": "draft",
+  "name": "half guard knee shield",
+  "aliases": [],
+  "tags": [
+    "half-guard",
+    "guard"
+  ],
+  "keywords": [
+    "knee shield",
+    "underhook",
+    "crossface",
+    "wrestle-up"
+  ],
+  "relatedSkills": [
+    {
+      "id": "half-guard-wrestle-up",
+      "type": "recommended"
+    },
+    {
+      "id": "side-control-escape",
+      "type": "recommended"
+    },
+    {
+      "id": "knee-cut-passing",
+      "type": "recommended"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "supine-guard-retention"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [],
+  "version": 1,
+  "updatedAt": "2026-05-21T00:24:30.745Z",
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "vi",
+  "description": "Sử dụng knee shield (Z-guard) để tạo khoảng cách, giành chiến thắng trong trận underhook và chuyển sang quét, đấu vật hoặc khuất phục.",
+  "shortInstruction": "Đầu gối vào hông, nằm trên đầu, giành chiến thắng underhook — knee shield là vị trí điều khiển của đáy half guard.",
+  "summary": "knee shield (còn được gọi là Z-guard) là vị trí ổn định nhất ở dưới cùng half guard. Đầu gối gần bên của bạn được chèn vào giữa ngực của bạn và hông của họ, tạo ra một khung ngăn họ tạo áp lực lên ngực. Từ đây, bạn có thể chiến đấu để giành underhook, tạo khoảng cách và tấn công bằng các đòn quét (nửa sâu, bồi bàn), khuất phục (kimura) hoặc đấu vật. Nếu bạn đánh mất knee shield, bạn sẽ bị san bằng — vì vậy việc bảo vệ nó là ưu tiên số một của bạn.",
+  "whyItWorks": [
+    "knee shield tạo ra một khung cấu trúc ngăn chặn áp lực từ ngực đến ngực — nếu không có áp lực, chúng không thể vượt qua.",
+    "Nó cho phép bạn chiến đấu vì underhook từ một khoảng cách an toàn, thay vì bị đè bẹp và đập tan.",
+    "knee shield có thể được mở rộng để tạo khoảng trống hoặc rút lại để thu hẹp khoảng cách để quét.",
+    "Nguyên tắc Danaher: khoảng cách là an toàn ở dưới cùng half guard — knee shield là công cụ đo khoảng cách của bạn."
+  ],
+  "commonMistakes": [
+    "Để họ đẩy knee shield của bạn sang một bên hoặc áp nó vào ngực bạn.",
+    "Đấu tranh giành underhook bằng cánh tay thẳng — lần nào bạn cũng sẽ thua.",
+    "Giữ knee shield quá lâu mà không tấn công — đó là vị trí điều khiển chuyển tiếp, không phải vị trí nghỉ ngơi.",
+    "Để chúng tóm lấy cổ áo hoặc đầu của bạn để vô hiệu hóa lá chắn - đấu tay đôi để tước bỏ những chiếc kẹp này."
+  ],
+  "coachingCues": [
+    "Đầu gối ở hông chứ không phải xương sườn.",
+    "Giành được underhook hoặc chết vì cố gắng.",
+    "Khung hình đầu tiên, trận đấu thứ hai — knee shield là khung hình của bạn.",
+    "Khi bạn cảm thấy trọng lượng của chúng tăng lên, đó là thời điểm tấn công của bạn."
+  ],
+  "safetySummary": [
+    "Giữ knee shield của bạn hoạt động — nếu nó bị xẹp xuống, bạn sẽ phải chịu áp lực nặng nề ở ngực.",
+    "Bảo vệ cổ của bạn khỏi crossface bằng cách giữ đầu bạn sát vào cơ thể họ, không để hở.",
+    "Khi họ lái xe về phía trước, đừng dùng tay thẳng mà hãy uốn cong khuỷu tay của bạn để bảo vệ khớp."
+  ],
+  "systemLogic": {
+    "corePrinciple": "knee shield (Z-guard) là khung cấu trúc giúp ngăn chặn áp lực từ ngực đến ngực ở đáy half guard. Đó là một vị trí kiểm soát chuyển tiếp - bạn phải tấn công (quét, vật lộn hoặc khuất phục) thay vì giữ nó một cách thụ động.",
+    "decisionTree": [
+      {
+        "condition": "Đối thủ lao về phía trước với áp lực ở ngực",
+        "action": "Chấp nhận áp lực và tiến sâu half guard → quét người phục vụ. Động lượng về phía trước của họ truyền trực tiếp vào cú quét. Đừng chống lại áp lực - hãy chuyển hướng nó."
+      },
+      {
+        "condition": "Đối thủ đứng dậy và nâng tạ",
+        "action": "Đứng lên về mặt kỹ thuật → đấu vật. Thời điểm trọng lượng của họ tăng lên chính là thời điểm bạn tấn công. Hãy đứng đối diện với họ, không quay đi."
+      },
+      {
+        "condition": "Đối thủ vươn tay khắp cơ thể bạn",
+        "action": "kimura bẫy → quét hoặc khuất phục. Tầm tay ngang để lộ cánh tay của họ — nắm lấy cổ tay và đưa tay cầm kimura qua lưng họ."
+      },
+      {
+        "condition": "Đối thủ đẩy knee shield của bạn sang một bên",
+        "action": "Mở rộng chân của bạn để đẩy chúng ra xa và đóng khung lại tấm chắn. Nếu họ ép nó vào ngực bạn thì underhook của bạn chính là vấn đề — hãy chiến đấu chăm chỉ hơn vì underhook."
+      },
+      {
+        "condition": "Bạn thua trận underhook",
+        "action": "Bạn không thể ở lại knee shield nếu không có underhook. Chuyển sang half guard sâu hoặc khôi phục hoàn toàn guard. Đừng để phẳng ở nửa dưới."
+      }
+    ],
+    "exitStrategies": [
+      "Nếu đối thủ vượt qua knee shield của bạn, bạn đã đợi quá lâu để tấn công — quét hoặc wrestle up sớm hơn.",
+      "Nếu bạn không thể lấy underhook, hãy sử dụng cà vạt ở cổ hoặc kẹp cổ tay để kiểm soát tư thế của họ.",
+      "kimura từ knee shield là một trong những tỷ lệ phần trăm gửi No-Gi cao nhất — dụ crossface tham gia."
+    ]
+  },
+  "moneyDetails": [
+    "Đầu gối của bạn phải tựa vào hông họ chứ không phải bụng họ - khả năng kiểm soát hông giúp họ không bước qua tấm chắn.",
+    "Cuộc chiến underhook giành chiến thắng bằng cái đầu của bạn: đâm đầu bạn vào ngực họ để tạo khoảng trống cho underhook của bạn.",
+    "Khi chúng cố gắng san phẳng lá chắn của bạn, hãy duỗi chân để đẩy chúng ra — sau đó tấn công trước khi chúng hồi phục.",
+    "kimura từ knee shield là một trong những tỷ lệ phần trăm gửi cao nhất trong No-Gi half guard — dụ crossface tham gia."
+  ],
+  "nextStep": "Sau khi điều khiển knee shield, hãy học cách quét nửa sâu và kimura từ half guard để xâu chuỗi các đòn tấn công của bạn.",
+  "fixItFast": [
+    "knee shield bị san phẳng? Mở rộng chân của bạn để đẩy chúng ra và đóng khung lại.",
+    "Không thể lấy underhook? Thay vào đó, hãy sử dụng cà vạt cổ hoặc kẹp cổ tay để kiểm soát tư thế của họ.",
+    "Họ tiếp tục đi qua? knee shield của bạn quá lỏng — hãy ôm nó chặt hơn vào ngực bạn."
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "id": "bear-trap-ham-sandwich",
+  "domain": "submission_systems",
+  "level": "advanced",
+  "status": "draft",
+  "name": "Piège à ours / Sandwich au jambon",
+  "aliases": [],
+  "tags": [
+    "bear-trap",
+    "ham-sandwich",
+    "calf-slicer",
+    "compression",
+    "leg-lock",
+    "half-butterfly"
+  ],
+  "keywords": [
+    "bear trap",
+    "ham sandwich",
+    "calf slicer",
+    "compression lock",
+    "electric chair",
+    "half butterfly"
+  ],
+  "relatedSkills": [
+    {
+      "id": "deep-half-guard",
+      "type": "recommended"
+    },
+    {
+      "id": "half-butterfly-to-leg-entanglements",
+      "type": "recommended"
+    },
+    {
+      "id": "heel-hook-safety",
+      "type": "recommended"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "half-guard-knee-shield",
+    "leg-lock-safety-basics"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [
+    "S'ils libèrent leur jambe, votre piège était trop peu profond – rentrez dans le piège plus profondément dans votre genou.",
+    "Si vous ne parvenez pas à terminer, l'angle de votre tibia est incorrect : tournez votre tibia pour que le bord de l'os s'appuie sur son mollet.",
+    "S’ils tournent, vous perdez le contrôle du haut du corps – rétablissez votre emprise sur leur col ou leur bras."
+  ],
+  "version": 1,
+  "updatedAt": "2026-05-21T00:24:30.762Z",
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "fr",
+  "description": "Utilisez le piège à ours (également appelé sandwich au jambon) pour créer un verrouillage de compression – trancheuse de mollet – à partir d'un demi-papillon ou de half guard, forçant l'adversaire à taper, à exposer son dos ou à abandonner le balayage.",
+  "shortInstruction": "Emprisonnez leur jambe dans votre genou, enfoncez votre tibia dans leur mollet, comprimez – le piège à ours est une trancheuse à mollets cachée dans le half guard.",
+  "summary": "Le piège à ours (sandwich au jambon) est une soumission de compression (trancheuse de mollet) qui utilise votre tibia contre le muscle de son mollet, avec sa jambe coincée dans le creux de votre genou. Il est le plus souvent entré à partir d'un demi-papillon ou de half guard lorsque l'adversaire avance. La pression écrasante exercée sur leur mollet les oblige à taper, à rouler sur le dos (vous donnant le balayage) ou à exposer leur dos pour une prise en arrière.",
+  "whyItWorks": [
+    "La compression du tibia contre le muscle du mollet crée une douleur intense et une pression articulaire – la plupart des adversaires tapent ou roulent.",
+    "Cela fonctionne comme un dilemme : appuyez sur la trancheuse à mollets ou abandonnez le balayage/prise arrière.",
+    "On peut y accéder sans configuration complexe : si vous avez un demi-papillon et qu'il avance, le piège à ours est souvent disponible.",
+    "Principe Danaher : les verrous de compression sont à pourcentage élevé car ils travaillent sur une seule articulation (genou) avec une anatomie prévisible."
+  ],
+  "commonMistakes": [
+    "Laisser leur jambe glisser hors de votre genou – un piège peu profond perd la compression.",
+    "Utiliser vos mains pour tirer leur jambe au lieu de votre genou – le piège à jambe doit être passif.",
+    "En oubliant de contrôler le haut de leur corps, ils sortiront du piège à ours.",
+    "En appliquant la trancheuse à mollets de manière trop agressive, les blessures par compression peuvent survenir rapidement."
+  ],
+  "coachingCues": [
+    "Piège profondément dans la fosse du genou, conduisez avec le tibia.",
+    "Contrôlez le haut du corps : le piège à ours n'est qu'un crochet.",
+    "S'ils roulent, suivez le balayage ou la prise arrière.",
+    "La compression fonctionne : ne lancez pas, pressez simplement."
+  ],
+  "safetySummary": [
+    "Les coupe-mollets appliquent une pression intense sur le genou et le mollet – appliquez lentement et relâchez au robinet.",
+    "N'appliquez pas le coupe-mollet de manière explosive - le genou peut être blessé avant que l'adversaire ne ressente la douleur.",
+    "Non recommandé aux débutants – les verrous à compression nécessitent de l’expérience pour être appliqués en toute sécurité."
+  ],
+  "systemLogic": {
+    "corePrinciple": "Demi-papillon ou half guard : l'adversaire avance → emprisonne sa jambe dans votre genou (piège à ours) → compresse avec le tibia → termine ou balaye.",
+    "decisionTree": [
+      {
+        "condition": "Utiliser la réaction 1",
+        "action": "Ils tapent → finition trancheuse à veau. Réaction 2 : Ils roulent → balayent vers le haut ou vers l'arrière."
+      },
+      {
+        "condition": "Application générale",
+        "action": "Les chaînes du piège à ours sont insérées dans le dos lorsqu'elles roulent pour échapper à la pression du mollet."
+      }
+    ],
+    "exitStrategies": []
+  },
+  "moneyDetails": [
+    "Emprisonnez sa jambe aussi profondément que possible dans votre genou – la fosse au genou doit être au niveau ou derrière l'articulation du genou.",
+    "Enfoncez votre tibia (le bord tranchant) dans le muscle du mollet – la compression os sur muscle est la finition.",
+    "Contrôlez le haut de leur corps avec un underhook ou une cravate pour les empêcher de tourner.",
+    "S'ils essaient de sortir de la trancheuse à mollets, relâchez la compression et suivez leur roulis – prenez le dos ou balayez."
+  ],
+  "nextStep": "Après le piège à ours, apprenez les transitions entre le demi-papillon et l'enchevêtrement des jambes.",
+  "fixItFast": [
+    "La jambe continue de glisser ? Emprisonnez-le plus profondément dans votre genou, plus près de votre hanche.",
+    "La compression ne fonctionne pas ? Ajustez l’angle de votre tibia – le bord de l’os, pas le plat du tibia.",
+    "Ils roulent ? Lâchez le piège, suivez leurs hanches, prenez le dos."
+  ]
+}

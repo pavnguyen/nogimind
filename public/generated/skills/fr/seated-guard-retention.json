@@ -1,0 +1,201 @@
+{
+  "id": "seated-guard-retention",
+  "domain": "guard_retention",
+  "level": "beginner",
+  "status": "draft",
+  "name": "Assis guard Rétention",
+  "aliases": [
+    "seated guard",
+    "sitting guard retention",
+    "open guard retention seated"
+  ],
+  "tags": [],
+  "keywords": [
+    "guard retention",
+    "open guard",
+    "frames",
+    "seated guard",
+    "no gi guard",
+    "inside position"
+  ],
+  "relatedSkills": [
+    {
+      "id": "supine-guard-retention",
+      "type": "alternative"
+    },
+    {
+      "id": "frames-pummeling",
+      "type": "prerequisite"
+    },
+    {
+      "id": "technical-stand-up",
+      "type": "supporting"
+    },
+    {
+      "id": "shin-to-shin-entry",
+      "type": "chain"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [
+    "seated-guard",
+    "open-guard-bottom"
+  ],
+  "relatedPositionIds": [],
+  "relatedConcepts": [
+    "inside-position",
+    "knee-line",
+    "frames-pummeling",
+    "hip-control"
+  ],
+  "relatedConceptIds": [],
+  "archetypeIds": [
+    "guard-player",
+    "passing-specialist"
+  ],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [],
+  "trainingMethodIds": [
+    "static-repetition",
+    "progressive-resistance"
+  ],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "bodyToBodyDetails": {
+    "phases": [
+      {
+        "order": 1,
+        "name": "Establish Inside Position",
+        "description": "Keep knees between you and opponent. Fight for inside position on both sides."
+      },
+      {
+        "order": 2,
+        "name": "Frame on Contact",
+        "description": "When opponent closes distance, establish frames on biceps/shoulders to create space."
+      },
+      {
+        "order": 3,
+        "name": "Pummel for Inside Control",
+        "description": "Pummel arms and legs back to inside position whenever they are pushed outside."
+      },
+      {
+        "order": 4,
+        "name": "Manage Distance",
+        "description": "Use feet on hips or biceps frames to maintain distance; don't let them collapse your guard."
+      }
+    ],
+    "contactPoints": [
+      {
+        "bodyPart": "feet",
+        "target": "hips",
+        "role": "distance management"
+      },
+      {
+        "bodyPart": "hands",
+        "target": "biceps/shoulders",
+        "role": "frame"
+      },
+      {
+        "bodyPart": "knees",
+        "target": "center",
+        "role": "inside position"
+      }
+    ]
+  },
+  "systemLogic": {
+    "corePrinciple": "La rétention guard est un jeu de gestion de distance : vos pieds et votre corps sont la première ligne de défense. Réagissez à la direction de la passe avant de vous engager dans une fuite ou un contre-attaque.",
+    "decisionTree": [
+      {
+        "condition": "Le passant est debout et tourne en rond",
+        "action": "Gardez les deux pieds plantés sur leurs hanches, pivotez sur votre siège pour leur faire face et maintenez la connexion genou-coude."
+      },
+      {
+        "condition": "Le passeur se met à genoux et essaie de se placer poitrine contre poitrine.",
+        "action": "Étendez vos jambes pour créer de la distance, cadrez sur leurs biceps et shrimp vos hanches en arrière pour réinitialiser."
+      },
+      {
+        "condition": "Le passant attrape votre pantalon ou votre cheville",
+        "action": "Retirez immédiatement la poignée avec les deux mains (casse de la poignée en C) avant qu'ils ne puissent contrôler votre jambe."
+      },
+      {
+        "condition": "Le passeur force un underhook",
+        "action": "Laissez tomber votre coude sur le tapis, tournez-vous de ce côté et frappez votre genou vers l'intérieur pour retrouver la position intérieure."
+      },
+      {
+        "condition": "Le passeur s'engage avec élan",
+        "action": "Utilisez leur élan : encadrez les biceps, élevez vos hanches et wrestle up vers un stand-up technique."
+      }
+    ],
+    "exitStrategies": [
+      "S'ils dépassent une jambe, récupérez half guard et redémarrez le cycle de rétention.",
+      "S'ils vous aplatissent complètement, tournez-vous sur le côté, frappez le genou le plus proche et rétablissez votre position assise guard.",
+      "Si la rétention échoue à plusieurs reprises, passez à guard en décubitus dorsal avec la moitié profonde comme couche de sauvegarde."
+    ]
+  },
+  "keyCorrections": [
+    "S’ils réduisent la distance, vos pieds ne s’affichent pas – ramenez-les aux hanches.",
+    "S'ils obtiennent un underhook, votre espace genou-coude est ouvert – fermez-le.",
+    "S'ils vous aplatissent, vous avez attendu trop longtemps pour cadrer ou pivoter."
+  ],
+  "moneyDetails": [
+    "Gardez toujours un pied sur la hanche pour maintenir la distance ; un pied qui pend est un pied mort.",
+    "La poignée en C au poignet est votre meilleure amie : elle tue la prise de leur pantalon avant qu'elle ne commence.",
+    "Pivotez sur votre siège, pas sur votre dos ; rester assis garde vos hanches mobiles."
+  ],
+  "safetyNotes": "Avoid posting with straight arms — keep elbows bent. Protect your knees from lateral pressure.",
+  "fixItFast": [
+    "Ils sont sous vos pieds ? Encadrez-vous avec les avant-bras et shrimp vos hanches vers l'extérieur.",
+    "Ils ont une poignée de pantalon ? Dénudez-le avec les deux mains avant qu'ils ne se déposent.",
+    "Vous êtes aplati ? Tournez-vous sur le côté et frappez votre genou à l’intérieur."
+  ],
+  "version": 1,
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "fr",
+  "shortName": "Rétention assise",
+  "description": "Un système défensif actif en position assise, utilisant des cadres squelettiques, des poteaux de pied et la mobilité des jambes pour bloquer la passe de l'adversaire et maintenir guard couches.",
+  "shortInstruction": "Gardez les pieds sur les hanches, maintenez la connexion genou-coude, utilisez des poignées en C sur les poignets et le cadre pour récupérer ou wrestle up.",
+  "summary": "Rétention active guard depuis la position assise à l'aide des cadres, des repose-pieds et de la position intérieure.",
+  "whyItWorks": [
+    "Garde ses distances en utilisant les leviers les plus longs (pieds, tibias) avant que le passeur puisse se rapprocher poitrine contre poitrine.",
+    "Préserve la position intérieure grâce à une connexion genou-coude et à un combat actif avec les mains.",
+    "Transformez les cadres en mouvements de hanche plutôt que de pousser avec les bras.",
+    "Crée des opportunités de wrestle up ou de réattaquer lorsque le passeur s'engage trop."
+  ],
+  "commonMistakes": [
+    "Laisser les pieds pendre sans poteau sur les hanches ou les biceps.",
+    "Espace d'ouverture entre le genou et le coude, permettant underhooks.",
+    "Laisser l'adversaire saisir librement votre pantalon ou vos jambes.",
+    "Pousser avec les bras tendus au lieu de cadrer avec les avant-bras.",
+    "Se battre à plat sur le dos au lieu de rester assis ou sur le côté."
+  ],
+  "coachingCues": [
+    "Pieds sur les hanches, coudes aux genoux.",
+    "Tuez les poignées avant qu'elles ne s'installent.",
+    "Cadrez puis bougez les hanches, pas les bras.",
+    "Restez assis, restez actif."
+  ],
+  "oneMinuteMode": {
+    "goal": "Maintenez la distance et la position intérieure par rapport à la position assise guard.",
+    "steps": [
+      "Gardez les deux pieds posés sur les hanches ou les biceps.",
+      "Maintenez la connexion genou-coude des deux côtés.",
+      "Gagnez le combat à la main avec des poignées en C sur les poignets.",
+      "Réagissez à la direction de passe et pivotez sur votre siège.",
+      "Lorsqu'ils s'engagent trop, wrestle up ou re-guard."
+    ]
+  },
+  "safetySummary": [
+    "Ne laissez pas votre tête s'aplatir vers le tapis.",
+    "Protégez votre cou en gardant le menton rentré pendant les prises.",
+    "Évitez de poster avec les bras tendus pour éviter les blocages articulaires."
+  ],
+  "nextStep": "Après avoir conservé guard, regardez wrestle up (debout technique), passez à guard en décubitus dorsal ou attaquez avec des entrées tibia à tibia."
+}

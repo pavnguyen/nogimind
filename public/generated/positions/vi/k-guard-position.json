@@ -1,0 +1,56 @@
+{
+  "id": "k-guard-position",
+  "locale": "vi",
+  "title": "K-Guard",
+  "category": "bottom_guard",
+  "status": "neutral",
+  "description": "K-guard kiểm soát một chân đối thủ bằng shin frame và foot hook, tạo angle vào matrix, leg locks hoặc back take.",
+  "topPlayerGoals": [
+    "Người ở trên muốn kiểm soát K-Guard bằng vị trí đầu, vị trí trong và áp lực có hướng.",
+    "Kill shin frame, clear knee line và ép trọng lượng.",
+    "Giữ nền vững để không bị mất thăng bằng hoặc bị phản đòn."
+  ],
+  "bottomPlayerGoals": [
+    "Người ở dưới muốn sống sót trong K-Guard bằng khung chặn, pummel hoặc góc phù hợp.",
+    "Giữ shin frame active, kiểm soát knee line và chọn matrix/false reap entry.",
+    "Nhận diện tín hiệu nguy hiểm sớm thay vì chờ vị trí ổn định."
+  ],
+  "controlPoints": [
+    "Điểm kiểm soát chính: Shin frame, knee line và ankle control..",
+    "Đầu, tay, hông và gối nên cùng hướng lực.",
+    "Kết nối khuỷu-gối hoặc đường hông-vai quyết định vị trí còn sống hay đã bị khóa."
+  ],
+  "escapePriorities": [
+    "Ưu tiên thoát: Bảo vệ knee line trước khi clear shin..",
+    "Bảo vệ cổ, lưng, đường gối hoặc đường tay trước khi phản công.",
+    "Nếu mất vị trí trong, hãy lùi lại một lớp phòng thủ trước."
+  ],
+  "advancementOptions": [
+    {
+      "action": "Vào matrix hoặc false reap entry",
+      "nextPositionId": "inverted-guard",
+      "relatedSkillIds": [
+        "k-guard-matrix",
+        "false-reap-entry",
+        "saddle-inside-sankaku-control"
+      ],
+      "why": "Đây là nhánh tự nhiên khi bạn thắng điểm kiểm soát chính và đối thủ buộc phải phòng thủ."
+    }
+  ],
+  "dangerSignals": [
+    "Cằm hoặc cổ bị kéo ra khỏi đường an toàn.",
+    "Khuỷu tay tách khỏi sườn hoặc đầu gối.",
+    "Đường hông bị khóa trong khi đường vai vẫn đang bị kéo.",
+    "Bạn phải chống tay dài để không ngã."
+  ],
+  "relatedSkillIds": [
+    "k-guard-matrix",
+    "false-reap-entry",
+    "saddle-inside-sankaku-control"
+  ],
+  "relatedConceptIds": [
+    "knee-line",
+    "leg-lock-safety-hierarchy",
+    "hooks"
+  ]
+}

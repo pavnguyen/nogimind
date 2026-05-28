@@ -1,0 +1,67 @@
+{
+  "id": "crucifix-control",
+  "locale": "en",
+  "name": "Crucifix Control",
+  "description": "Use the crucifix to trap the opponent's arm with your legs, creating a dilemma between choke and armlock without requiring full back control. The crucifix is a specialized pin that controls one arm completely, giving you time and safety to attack.",
+  "shortInstruction": "From the side or back, trap one of their arms between your legs (arm between your thighs), lock your feet, and drive your chest into their back. Attack the choke or the trapped arm armbar.",
+  "summary": "The crucifix immobilizes one of the opponent's arms by trapping it between your thighs, leaving them with only one arm to defend all your attacks. With the arm trapped, you can attack a rear-naked choke (they have only one hand to defend), armbar the trapped arm, or transition to full back control. The crucifix is safer than full back control because the trapped arm cannot be used to escape or counter-attack.",
+  "whyItWorks": [
+    "Trapping the arm between your thighs removes it from the defensive equation — the opponent must defend all attacks with one arm",
+    "The crucifix is structurally strong — your legs are stronger than their arm, so they cannot pull the arm free against your thigh squeeze",
+    "The one-arm dilemma: choke (RNC) vs armbar on the trapped arm. They cannot defend both with one free hand",
+    "The crucifix can be entered from failed back takes, from the side, or from mount — it is a versatile catch position"
+  ],
+  "commonMistakes": [
+    "Keeping the trapped arm too low between the thighs — the arm should be at hip level, not knee level",
+    "Letting the opponent free the arm by rotating their elbow — keep your thighs squeezed tight at the hip",
+    "Not controlling the free arm — they can still defend the choke with the free hand",
+    "Staying in the crucifix too long — it is a transitional position, not a pin"
+  ],
+  "coachingCues": [
+    "Arm at hip level, squeeze the thighs",
+    "Choke or armbar, choose your attack",
+    "Control the free arm, too",
+    "Transition to back when they defend"
+  ],
+  "safetySummary": [
+    "The armbar from the crucifix applies hyperextension force to the elbow — apply slowly and release on tap",
+    "Do not crank the trapped arm at an unnatural angle — the arm should be straight, not twisted",
+    "When entering the crucifix, be careful not to hyperextend your own knee against their arm"
+  ],
+  "keyCorrections": [
+    "If they free the arm: your thigh squeeze was too loose — re-trap at the hip level and squeeze harder",
+    "If they defend the choke easily: switch to the armbar — they cannot defend both",
+    "If you cannot lock the crucifix: you are too far away — scoot closer to their hip before trapping the arm"
+  ],
+  "systemLogic": {
+    "corePrinciple": "The crucifix has three attack branches: Rear-Naked Choke → Trapped Arm Armbar → Full Back Control",
+    "decisionTree": [
+      {
+        "condition": "Using Branch 1 (Arm Attacks)",
+        "action": "from the crucifix, isolate one arm with your legs and attack the straight armbar or kimura. The leg position prevents them from escaping the arm lock"
+      },
+      {
+        "condition": "Using Branch 2 (Neck Attacks)",
+        "action": "if the arm is blocked or they are facing you, attack the neck. The crucifix position gives you excellent access to the RNC from the side"
+      },
+      {
+        "condition": "Using Branch 3 (Back Control)",
+        "action": "if they turn toward you to defend, release the crucifix and slide a hook in to take full back control. The crucifix is a transitional position to the back"
+      },
+      {
+        "condition": "General application",
+        "action": "The crucifix is a control position — your goal is either to finish from crucifix or transition to the back. Do not stay in crucifix if the opponent is actively escaping"
+      }
+    ]
+  },
+  "moneyDetails": [
+    "The crucifix is one of the highest-percentage submission entries in no-gi — the one-arm dilemma is almost unsolvable",
+    "Mastering the crucifix gives you a reliable finish when standard back attacks fail",
+    "The crucifix is particularly effective against stronger opponents because legs are stronger than arms"
+  ],
+  "fixItFast": [
+    "If they defend the RNC: switch to the armbar immediately — do not fight for the choke",
+    "If they free the trapped arm: return to back control or mount — do not force the crucifix entry",
+    "If you are in the crucifix and losing position: release the legs and return to a neutral position"
+  ]
+}

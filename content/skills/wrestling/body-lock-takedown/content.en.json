@@ -1,0 +1,67 @@
+{
+  "id": "body-lock-takedown",
+  "locale": "en",
+  "name": "Body Lock Takedown / Mat Returns",
+  "description": "Lock arms around the torso from clinch or turtle, drive through the hips, and return the opponent to the mat. The body lock is the highest-control takedown in grappling — it prevents the opponent from escaping and lands you in a dominant position.",
+  "shortInstruction": "Lock hands behind their back at hip level, step between their legs, squeeze your elbows together, and drive them backward to the mat. Land in side control or mount.",
+  "summary": "The body lock is the most dominant takedown position in no-gi because it eliminates the opponent's ability to post or base — both arms are trapped between your body and theirs. From the body lock, you can lift, trip, or drive the opponent to the mat while maintaining full upper body control. The body lock is also the primary mat return tool when the opponent stands from turtle or half guard.",
+  "whyItWorks": [
+    "Locking your hands behind their back traps both of their arms — they cannot post, frame, or base to break the fall",
+    "The body lock transfers your full body weight into the takedown — you are driving with your legs and hips, not your arms",
+    "The body lock finish lands you in a dominant position (side control or mount) — not in their guard",
+    "The body lock is safe from guillotines — your head is on their chest, not their hip"
+  ],
+  "commonMistakes": [
+    "Locking hands too high (at the shoulder blades) — the lock must be at hip level for mechanical advantage",
+    "Keeping elbows wide — pinched elbows trap the opponent's arms and prevent them from posting",
+    "Bending at the waist instead of driving through the legs — the takedown comes from hip extension, not upper body",
+    "Releasing the lock during the takedown — maintain the grip until the opponent is fully on the mat"
+  ],
+  "coachingCues": [
+    "Lock at the hip, not the shoulders",
+    "Pinch the elbows, trap the arms",
+    "Drive through the legs, not the back",
+    "Hold the lock until they land"
+  ],
+  "safetySummary": [
+    "The body lock takedown is high-amplitude — control the descent to prevent the opponent from landing on their head or neck",
+    "Do not lift the opponent if you lack the hip strength — use a trip or drive instead of a lift",
+    "Be aware of weight differences — body locking a significantly heavier opponent may put you in a vulnerable position"
+  ],
+  "keyCorrections": [
+    "If they keep escaping the lock: your elbows are too wide — pinch them together to trap the arms",
+    "If you cannot lift: use a trip instead — hook their lead leg with your foot and drive them backward",
+    "If you land in their guard: your head was too high — keep your head on their chest, not their stomach"
+  ],
+  "systemLogic": {
+    "corePrinciple": "The body lock has three finish options: Lift → Trip → Drive, depending on the opponent's weight and base",
+    "decisionTree": [
+      {
+        "condition": "Using Finish 1 (Lift)",
+        "action": "squat under their hips, extend your legs, and lift them off the mat. This works best against lighter opponents or when they are off-balance"
+      },
+      {
+        "condition": "Using Finish 2 (Trip)",
+        "action": "hook your foot behind their lead ankle and drive them backward. The trip works against heavier opponents or when you cannot get deep enough for the lift"
+      },
+      {
+        "condition": "Using Finish 3 (Drive)",
+        "action": "simply drive forward with your legs, using the body lock to steer them to the mat. This works when they are already moving backward"
+      },
+      {
+        "condition": "General application",
+        "action": "Landing position: aim to land in side control (chest to chest, head on the far side). If they land on their back, slide immediately to side control"
+      }
+    ]
+  },
+  "moneyDetails": [
+    "The body lock takedown is the most dominant takedown in no-gi — it lands you in side control, not their guard",
+    "Mastering the body lock gives you a reliable mat return from turtle, half guard, and standing positions",
+    "The body lock is a staple of all high-level no-gi grappling (Gordon Ryan, Nicky Rod, etc.)"
+  ],
+  "fixItFast": [
+    "If you cannot lock the hands: they are posturing too tall — snap them down first, then lock",
+    "If they sprawl on the lock: switch to a single leg — the body lock position easily transitions to the leg",
+    "If they separate their arms: re-pinch the elbows and squeeze the lock tighter"
+  ]
+}

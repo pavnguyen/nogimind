@@ -1,0 +1,121 @@
+{
+  "id": "fifty-fifty-to-heel-exposure",
+  "domain": "submission_systems",
+  "level": "advanced",
+  "status": "draft",
+  "name": "50/50 to Heel Exposure",
+  "aliases": [],
+  "tags": [
+    "50-50",
+    "heel-hook",
+    "heel-exposure",
+    "leg-lock",
+    "entanglement"
+  ],
+  "keywords": [
+    "heel exposure",
+    "50/50",
+    "hip rotation",
+    "secondary leg",
+    "finishing mechanics"
+  ],
+  "relatedSkills": [
+    {
+      "id": "saddle-inside-sankaku-control",
+      "type": "recommended"
+    },
+    {
+      "id": "knee-line-escape",
+      "type": "recommended"
+    },
+    {
+      "id": "k-guard-entry",
+      "type": "recommended"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "backside-50-50-control",
+    "heel-hook-safety",
+    "leg-lock-safety-basics"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [
+    "If they spin out of the heel hook, you lost control of their secondary leg — re-establish the grip.",
+    "If you can't find the heel, your angle is too square — rotate your hips further.",
+    "If they stack you, release and reset — don't fight the stack in 50/50."
+  ],
+  "version": 1,
+  "updatedAt": "2026-05-21T00:24:30.766Z",
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "en",
+  "description": "From the 50/50 position, rotate your hip angle and control the opponent's secondary leg to expose their heel for a safe and effective heel hook finish.",
+  "shortInstruction": "50/50 locked, rotate the hip, control the far leg, attack the exposed heel.",
+  "summary": "The 50/50 position is one of the most common leg entanglement positions. However, finishing a heel hook from 50/50 requires specific mechanics: you must break the symmetry of the position by rotating your hips and controlling their secondary leg (the leg not being attacked). Without controlling the secondary leg, the opponent can simply rotate their hip to relieve the heel pressure. The key to the 50/50 heel hook is making it asymmetrical — you control their free leg so they cannot counter-rotate.",
+  "whyItWorks": [
+    "Control their secondary leg prevents them from rotating their hips to escape the heel pressure.",
+    "Hip rotation changes the angle of the heel hook — turning their heel toward you for a cleaner finish.",
+    "The 50/50 position gives you strong control of their primary leg — the secondary leg is the escape route.",
+    "Danaher principle: the 50/50 heel hook is won by controlling the hip they can turn to — control their far hip to break the symmetry."
+  ],
+  "commonMistakes": [
+    "Trying to finish the heel hook without controlling the secondary leg — they will spin out.",
+    "Sitting too square to them — the 50/50 requires an angle, not symmetry.",
+    "Applying the heel hook before you have the angle — heel exposure comes after hip control.",
+    "Releasing the secondary leg too soon during the finish — control it until the tap."
+  ],
+  "coachingCues": [
+    "Control the far leg, own the finish.",
+    "Break the symmetry — an asymmetrical 50/50 is winnable.",
+    "Rotate your hips, then attack the heel.",
+    "If they turn their heel away, you're losing the hip fight."
+  ],
+  "safetySummary": [
+    "Heel hooks apply rotational force to the knee — apply slowly and respect the tap.",
+    "Never explode into a heel hook — knee injuries can occur before the opponent feels pain.",
+    "Establish clear tap protocols for all leg attacks before training.",
+    "Not appropriate for beginners — requires solid leg lock understanding."
+  ],
+  "systemLogic": {
+    "corePrinciple": "50/50 locked: control the secondary leg → rotate your hips → expose the heel → apply heel hook rotation → finish.",
+    "decisionTree": [
+      {
+        "condition": "General application",
+        "action": "The 50/50 is a transitional position — pass through it to the finish, don't get stuck there."
+      },
+      {
+        "condition": "they defend the heel hook by turning",
+        "action": "take the back instead."
+      }
+    ],
+    "exitStrategies": []
+  },
+  "moneyDetails": [
+    "Control their secondary leg by trapping it between your legs or grabbing their ankle with your free hand.",
+    "Rotate your hips away from the heel you are attacking — this turns their heel toward you.",
+    "The heel hook grip should be: same-side hand on their heel, other hand on their toes (pistol grip).",
+    "Rotational finish: turn their heel toward their own hip — external rotation is the finish."
+  ],
+  "nextStep": "After 50/50 heel exposure, learn the saddle and backside 50/50 for more leg entanglement options.",
+  "fixItFast": [
+    "Can't find the heel? Rotate your hips more to expose it.",
+    "They spin out? Control their secondary leg tighter.",
+    "Heel hook feels weak? Your grip is too shallow — dig your hand deeper into their heel."
+  ]
+}

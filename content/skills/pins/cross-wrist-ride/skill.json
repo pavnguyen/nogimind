@@ -1,0 +1,53 @@
+{
+  "id": "cross-wrist-ride",
+  "domain": "pins_rides",
+  "level": "advanced",
+  "name": "Cross-Wrist Ride",
+  "aliases": [],
+  "tags": [
+    "cross-wrist",
+    "ride",
+    "turtle",
+    "back-exposure",
+    "wrist-control"
+  ],
+  "keywords": [
+    "cross-wrist",
+    "wrist control",
+    "turtle ride",
+    "back exposure",
+    "chest-to-spine"
+  ],
+  "relatedSkills": [
+    {
+      "id": "claw-ride",
+      "type": "recommended"
+    },
+    {
+      "id": "crucifix-control",
+      "type": "recommended"
+    },
+    {
+      "id": "back-control",
+      "type": "recommended"
+    }
+  ],
+  "prerequisiteSkillIds": [
+    "turtle-ride",
+    "crab-ride"
+  ],
+  "relatedPositions": [],
+  "relatedConcepts": [],
+  "archetypeIds": [],
+  "trainingMethodIds": [],
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "updatedAt": "2026-05-21T00:24:30.768Z"
+}

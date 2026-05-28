@@ -1,0 +1,56 @@
+{
+  "id": "scramble-neutral",
+  "locale": "fr",
+  "title": "Scramble neutre",
+  "category": "scramble",
+  "status": "neutral",
+  "description": "Un moment de transition où aucun joueur n’a encore un contrôle clair ; les priorités sont la position de tête, le contrôle des hanches, la position intérieure et la sécurité.",
+  "topPlayerGoals": [
+    "Le joueur du dessus veut contrôler Scramble neutre avec la position de tête, la position intérieure et une pression orientée.",
+    "Gagner la course tête-hanches et aller vers un ride, un passage ou le contrôle du dos.",
+    "Garder une base stable pour éviter d’être déséquilibré ou contré."
+  ],
+  "bottomPlayerGoals": [
+    "Le joueur du dessous veut survivre en Scramble neutre avec des cadres, du pummeling ou le bon angle.",
+    "Éviter d’exposer le cou, le dos ou la ligne du genou pendant la récupération de la base.",
+    "Reconnaître les signaux de danger tôt au lieu d’attendre que la position se stabilise."
+  ],
+  "controlPoints": [
+    "Point de contrôle principal : Position de tête, connexion des hanches et mains à l’intérieur..",
+    "La tête, les mains, les hanches et les genoux doivent suivre la même direction de force.",
+    "La connexion coude-genou ou la ligne hanches-épaules détermine si la position reste vivante ou verrouillée."
+  ],
+  "escapePriorities": [
+    "Priorité de sortie : En cas de doute, protéger le cou, le dos et les jambes, puis réinitialiser la base..",
+    "Protéger le cou, le dos, la ligne du genou ou la ligne du bras avant de contrer.",
+    "Si la position intérieure est perdue, rétablir d’abord une couche défensive."
+  ],
+  "advancementOptions": [
+    {
+      "action": "Gagner la course tête-hanches et stabiliser la position",
+      "nextPositionId": "neutral-standing",
+      "relatedSkillIds": [
+        "scramble-control",
+        "sprawl-go-behind",
+        "mat-return-basics"
+      ],
+      "why": "C’est la branche naturelle lorsque vous gagnez le point de contrôle principal et que l’adversaire est forcé de défendre."
+    }
+  ],
+  "dangerSignals": [
+    "Le menton ou le cou sort de la ligne sûre.",
+    "Le coude se sépare des côtes ou du genou.",
+    "La ligne des hanches est verrouillée pendant que la ligne des épaules est encore tirée.",
+    "Vous devez poser une main loin pour éviter de tomber."
+  ],
+  "relatedSkillIds": [
+    "scramble-control",
+    "sprawl-go-behind",
+    "mat-return-basics"
+  ],
+  "relatedConceptIds": [
+    "positional-hierarchy",
+    "failure-response",
+    "base-balance"
+  ]
+}

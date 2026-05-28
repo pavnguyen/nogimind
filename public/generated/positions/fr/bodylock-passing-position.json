@@ -1,0 +1,56 @@
+{
+  "id": "bodylock-passing-position",
+  "locale": "fr",
+  "title": "Position de body lock passing",
+  "category": "top_control",
+  "status": "advantage",
+  "description": "Le joueur du dessus verrouille bas autour des hanches du joueur en garde avec une connexion poitrine-hanche pour passer la ligne du genou.",
+  "topPlayerGoals": [
+    "Le joueur du dessus veut contrôler Position de body lock passing avec la position de tête, la position intérieure et une pression orientée.",
+    "Verrouiller les hanches, neutraliser le hook et passer la ligne du genou couche par couche.",
+    "Garder une base stable pour éviter d’être déséquilibré ou contré."
+  ],
+  "bottomPlayerGoals": [
+    "Le joueur du dessous veut survivre en Position de body lock passing avec des cadres, du pummeling ou le bon angle.",
+    "Pummeler le genou à l’intérieur, créer un cadre tibial ou utiliser un shoulder crunch.",
+    "Reconnaître les signaux de danger tôt au lieu d’attendre que la position se stabilise."
+  ],
+  "controlPoints": [
+    "Point de contrôle principal : Prise basse, tête décalée et connexion poitrine-hanche..",
+    "La tête, les mains, les hanches et les genoux doivent suivre la même direction de force.",
+    "La connexion coude-genou ou la ligne hanches-épaules détermine si la position reste vivante ou verrouillée."
+  ],
+  "escapePriorities": [
+    "Priorité de sortie : Créer un wedge avec le tibia ou le genou entre la poitrine et les hanches..",
+    "Protéger le cou, le dos, la ligne du genou ou la ligne du bras avant de contrer.",
+    "Si la position intérieure est perdue, rétablir d’abord une couche défensive."
+  ],
+  "advancementOptions": [
+    {
+      "action": "Passer la ligne du genou et stabiliser le side control",
+      "nextPositionId": "side-control-top",
+      "relatedSkillIds": [
+        "bodylock-passing",
+        "seated-guard-retention",
+        "half-guard-wrestle-up"
+      ],
+      "why": "C’est la branche naturelle lorsque vous gagnez le point de contrôle principal et que l’adversaire est forcé de défendre."
+    }
+  ],
+  "dangerSignals": [
+    "Le menton ou le cou sort de la ligne sûre.",
+    "Le coude se sépare des côtes ou du genou.",
+    "La ligne des hanches est verrouillée pendant que la ligne des épaules est encore tirée.",
+    "Vous devez poser une main loin pour éviter de tomber."
+  ],
+  "relatedSkillIds": [
+    "bodylock-passing",
+    "seated-guard-retention",
+    "half-guard-wrestle-up"
+  ],
+  "relatedConceptIds": [
+    "connection-before-control",
+    "pressure-direction",
+    "inside-position"
+  ]
+}

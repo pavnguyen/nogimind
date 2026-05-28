@@ -1,0 +1,73 @@
+{
+  "id": "side-control-survival",
+  "locale": "fr",
+  "name": "side control Survie",
+  "description": "Préservez la respiration, les cadres et les couloirs intérieurs sous la pression de crossface et underhook dans side control. La survie est la première priorité avant de tenter une évasion.",
+  "shortInstruction": "Gardez les coudes collés aux côtes, reposez-vous sur la hanche (pas sur la poitrine), respirez par le nez et ne tournez jamais le dos. Survivez d’abord, échappez-vous ensuite.",
+  "summary": "side control la survie est l'art d'absorber la pression sans panique tout en maintenant l'intégrité structurelle nécessaire à une évasion. L'ordre de priorité est le suivant : protéger le bras le plus proche (du coude aux côtes), protéger le cou (menton rentré, tête tournée vers le tapis sous crossface) et gérer la respiration. Un joueur du bas survivant est calme, cadre correctement et attend le bon moment pour lancer la séquence d'évasion.",
+  "whyItWorks": [
+    "Garder votre coude proche épinglé contre vos côtes empêche l'adversaire d'isoler votre bras pour une attaque americana ou kimura",
+    "Un cadre d'avant-bras traversant la ligne des hanches utilise la structure osseuse (et non les muscles) pour retenir le poids de l'adversaire sur votre torse - les os ne se fatiguent pas comme les muscles.",
+    "Tourner la tête vers le tapis lorsque crossfaced protège le cou et empêche l'adversaire de forcer votre tête dans un alignement dangereux",
+    "La respiration contrôlée par le nez évite l'hyperventilation de panique et préserve l'oxygène nécessaire à la séquence d'évacuation."
+  ],
+  "commonMistakes": [
+    "Laisser le coude le plus proche s'éloigner des côtes - cela donne à l'adversaire une attaque de bras et ouvre la voie underhook",
+    "Cadre sur la poitrine au lieu de la ligne des hanches : un cadre de poitrine s'effondre facilement lorsque l'adversaire pousse son poids vers l'avant.",
+    "Tourner la tête loin du crossface (exposant le cou) au lieu de la diriger vers le tapis",
+    "Respiration de panique ou retenir sa respiration - cela brûle de l'oxygène et conduit à des fuites de panique qui exposent le dos"
+  ],
+  "coachingCues": [
+    "Du coude à la côte, toujours",
+    "Cadre sur la hanche, pas sur la poitrine",
+    "Respirez par le nez",
+    "Survivre d'abord, échapper ensuite"
+  ],
+  "safetySummary": [
+    "side control est l'une des positions les plus claustrophobes de BJJ : ressentir de la panique est normal, mais gérez-le avec une respiration contrôlée plutôt qu'avec des mouvements explosifs.",
+    "Si vous ressentez une douleur aux côtes à cause de la pression, cadrez immédiatement et créez de l'espace plutôt que d'essayer de presser l'adversaire sur le banc.",
+    "Exposer votre dos sous une pression de side control peut entraîner rear-naked choke entrées ou attaques de la colonne vertébrale.",
+    "Si l'adversaire isole votre bras proche pour un americana ou kimura, appuyez tôt plutôt que de risquer de vous blesser à l'épaule ou au coude."
+  ],
+  "systemLogic": {
+    "corePrinciple": "La survie side control suit une hiérarchie à cinq niveaux : protéger le bras proche → établir le cadre de la hanche → protéger le cou → gérer la respiration → attendre une opportunité de fuite. Ne tentez jamais de vous échapper avant d’avoir établi toutes les couches de survie.",
+    "decisionTree": [
+      {
+        "condition": "L'adversaire éloigne votre bras le plus proche de vos côtes",
+        "action": "Recollez immédiatement le coude en tournant légèrement votre torse vers l'adversaire et en serrant le coude sur le côté. Si le coude se soulève, ils peuvent attaquer le bras ou entrer dans la voie underhook."
+      },
+      {
+        "condition": "L'adversaire fait passer le poids dans votre poitrine",
+        "action": "Déposez un cadre d'avant-bras en diagonale sur la ligne de leurs hanches, pas au-dessus. Un cadre de hanche détourne leur poids en utilisant la structure osseuse. Au-dessus de la hanche, cela devient une faible poussée thoracique."
+      },
+      {
+        "condition": "L'adversaire crossface vous dit dur",
+        "action": "Tournez la tête vers le tapis pour que la pression atterrisse sur le dessus de votre tête et non sur le côté de votre cou. Encadrez votre avant-bras supérieur sur leurs biceps pour gérer la distance."
+      },
+      {
+        "condition": "Vous ne pouvez pas respirer sous leur poids",
+        "action": "Votre silhouette est trop haute : déposez-la sur la ligne des hanches et échappez-la à 3 à 4 pouces pour créer une poche respiratoire. La respiration nasale contrôlée préserve l'oxygène pour la fuite."
+      },
+      {
+        "condition": "L'adversaire passe à north-south",
+        "action": "Gardez votre bras le plus proche sur votre poitrine et placez-le sur ses hanches immédiatement avant qu'il ne repose son poids. Protégez le bras de l’isolement."
+      }
+    ],
+    "exitStrategies": [
+      "Une fois que les quatre couches de survie sont stables, lancez la fuite (évasion de la hanche, underhook ou récupération genou-coude).",
+      "Si la survie échoue et que vous êtes aplati, acceptez brièvement la position, rétablissez les cadres et réessayez en adoptant une posture défensive plus serrée.",
+      "Si l'adversaire isole votre bras proche pour un americana ou un kimura, appuyez tôt plutôt que de risquer des blessures à l'épaule ou au coude."
+    ]
+  },
+  "moneyDetails": [
+    "La survie de side control est la compétence la plus fréquemment utilisée dans BJJ — chaque grappler passe du temps sous side control à chaque séance d'entraînement.",
+    "Maîtriser la survie avant de s'échapper évite la blessure la plus courante dans BJJ : les blessures à l'épaule causées par des attaques forcées du bras sous pression.",
+    "Une approche de survie calme et structurée préserve l'énergie et vous permet de vous échapper plusieurs fois par tour sans vous gazer.",
+    "La capacité de survivre sous une forte pression distingue les grapplers intermédiaires des grapplers avancés."
+  ],
+  "fixItFast": [
+    "Si vous ne pouvez pas respirer : le cadre est trop haut – laissez-le tomber jusqu'à la ligne des hanches et les hanches s'échappent à 3 à 4 pouces d'elles.",
+    "S'ils isolent votre bras le plus proche : tournez-vous légèrement vers eux et serrez fermement le coude - ne le laissez pas se soulever ne serait-ce qu'un pouce.",
+    "S'ils passent à north-south : gardez votre bras le plus proche sur votre poitrine et placez-vous sur leurs hanches immédiatement avant qu'ils ne règlent leur poids."
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "id": "choi-bar",
+  "locale": "vi",
+  "name": "Choi Bar",
+  "description": "Sử dụng kẹp vai và điều khiển cổ tay từ guard để di chuyển vào đường armbar — một đường kết hợp armbar tấn công từ góc 45 độ thay vì theo hướng vuông góc truyền thống.",
+  "shortInstruction": "Kẹp vai, điều khiển cổ tay, xoay theo đường armbar — thanh Choi kết thúc từ một góc chứ không phải thẳng.",
+  "summary": "Thanh Choi là một biến thể No-Gi armbar tấn công từ góc 45 độ thay vì hoàn thiện vuông góc truyền thống. Bạn dùng kẹp vai (tương tự như kẹp guard) để kẹp cánh tay và vai của họ, sau đó xoay hông để lộ khuỷu tay của họ. Tên này là sự kết hợp của 'cuộn cảm' và 'armbar' — nó có thể được nhập trực tiếp từ thiết lập cuộn cảm và chuỗi vào armbar. Nó đặc biệt hiệu quả từ các vị trí kimura bẫy và kẹp guard.",
+  "whyItWorks": [
+    "Góc tấn công 45 độ sẽ bắt được những đối thủ đã quen với cách phòng thủ 90 độ truyền thống armbar.",
+    "Kẹp vai ngăn họ rút cánh tay ra - khuỷu tay của họ bị lộ ra khi xoay hông của bạn.",
+    "Nó có thể được nhập từ các vị trí phổ biến (guard, half guard, kimura bẫy) mà không cần thiết lập phức tạp.",
+    "Nguyên tắc Danaher: tấn công bằng cùi chỏ từ góc mà họ không phòng thủ."
+  ],
+  "commonMistakes": [
+    "Không kiểm soát vai trước khi tấn công cánh tay - kẹp vai phải thật chặt.",
+    "Để đối thủ hướng khuỷu tay xuống - giữ lòng bàn tay hướng lên trong suốt.",
+    "Ngả về phía sau để kết thúc thay vì xoay hông - thanh Choi sử dụng động tác xoay hông chứ không phải ngã ra sau.",
+    "Mất khả năng kiểm soát cổ tay trong khi xoay - duy trì độ bám cổ tay khi bạn xoay."
+  ],
+  "coachingCues": [
+    "Kẹp vai, làm chủ cánh tay.",
+    "Xoay hông, không ngã về phía sau.",
+    "Nếu họ bảo vệ kimura, hãy đánh vào thanh Choi.",
+    "Lòng bàn tay hướng lên, khuỷu tay lộ ra, hoàn thiện sạch sẽ."
+  ],
+  "safetySummary": [
+    "Thanh Choi mở rộng khuỷu tay quá mức - áp dụng bằng cách kiểm soát và thả ra khi nhấn.",
+    "Không xoay mạnh nếu bạn cảm thấy lực cản ở khuỷu tay - cú dứt điểm có kiểm soát sẽ ngăn ngừa chấn thương.",
+    "Không bao giờ tác dụng armbar với lực đột ngột — chấn thương do duỗi quá mức xảy ra rất nhanh."
+  ],
+  "keyCorrections": [
+    "Nếu họ rút tay ra, kẹp vai của bạn bị lỏng - hãy siết chặt kẹp trước khi tấn công lại.",
+    "Nếu bạn không thể tìm thấy góc armbar thì khả năng xoay hông của bạn là chưa đủ — hãy xoay hông ra xa hơn.",
+    "Nếu họ xếp chồng cho bạn, hãy thả thanh Choi và đặt lại - đừng chống lại chồng."
+  ],
+  "systemLogic": {
+    "corePrinciple": "kimura bẫy hoặc kẹp guard: kẹp vai → điều khiển cổ tay → xoay hông → để lộ khuỷu tay → kéo dài cho armbar.",
+    "decisionTree": [
+      {
+        "condition": "Ứng dụng chung",
+        "action": "Thanh Choi hoạt động như một sợi dây xích từ kimura: nếu họ bảo vệ kimura bằng cách giấu cánh tay của mình thì thanh Choi chính là câu trả lời."
+      },
+      {
+        "condition": "Ứng dụng chung",
+        "action": "Sau thanh Choi, xâu chuỗi tới kimura hoặc omoplata nếu họ phòng thủ."
+      }
+    ]
+  },
+  "moneyDetails": [
+    "Kẹp vai là nền tảng của bạn: một tay quàng qua vai họ, tay kia điều khiển cổ tay của họ.",
+    "Xoay hông ra xa họ đồng thời kéo cổ tay họ về phía bạn - thao tác này để lộ khuỷu tay.",
+    "Giữ lòng bàn tay hướng lên trên (ngửa) trong suốt - lòng bàn tay xoay có nghĩa là khuỷu tay được bảo vệ.",
+    "Kết thúc là một phần mở rộng tầm ngắn - bạn không cần phải mở rộng hoàn toàn; chỉ cần nâng hông của bạn và kéo cổ tay của họ."
+  ],
+  "nextStep": "Sau thanh Choi, tìm hiểu hệ thống kimura và kẹp điều khiển guard.",
+  "fixItFast": [
+    "Không thể xoay? Hông của bạn bị kẹt - hãy nhấc lên và xoay người, đừng chỉ kéo cánh tay.",
+    "Cánh tay tiếp tục duỗi thẳng? Lòng bàn tay phải hướng lên - xoay cổ tay để ngửa cánh tay.",
+    "Họ xếp chồng bạn? Thả ra, đặt trên hông và đặt lại về guard."
+  ]
+}

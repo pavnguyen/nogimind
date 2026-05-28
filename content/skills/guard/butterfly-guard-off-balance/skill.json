@@ -1,0 +1,48 @@
+{
+  "id": "butterfly-guard-off-balance",
+  "domain": "guard_offense",
+  "level": "intermediate",
+  "name": "Butterfly Guard Off-Balance",
+  "aliases": [],
+  "tags": [
+    "butterfly",
+    "guard"
+  ],
+  "keywords": [
+    "butterfly hook",
+    "underhook",
+    "off-balancing",
+    "wrestle-up"
+  ],
+  "relatedSkills": [
+    {
+      "id": "shin-to-shin-entry",
+      "type": "recommended"
+    },
+    {
+      "id": "half-guard-wrestle-up",
+      "type": "recommended"
+    },
+    {
+      "id": "guillotine-system",
+      "type": "recommended"
+    }
+  ],
+  "prerequisiteSkillIds": [
+    "seated-guard-retention"
+  ],
+  "relatedPositions": [],
+  "relatedConcepts": [],
+  "archetypeIds": [],
+  "trainingMethodIds": [],
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "updatedAt": "2026-05-21T00:24:30.746Z"
+}

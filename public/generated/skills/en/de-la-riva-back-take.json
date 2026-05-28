@@ -1,0 +1,116 @@
+{
+  "id": "de-la-riva-back-take",
+  "domain": "back_control",
+  "level": "advanced",
+  "status": "draft",
+  "name": "De La Riva Back Take",
+  "aliases": [],
+  "tags": [
+    "de-la-riva",
+    "berimbolo",
+    "back-take"
+  ],
+  "keywords": [
+    "back take",
+    "berimbolo",
+    "far hip",
+    "hip spin"
+  ],
+  "relatedSkills": [
+    {
+      "id": "reverse-de-la-riva-transitions",
+      "type": "recommended"
+    },
+    {
+      "id": "back-control",
+      "type": "recommended"
+    },
+    {
+      "id": "rear-naked-choke-system",
+      "type": "recommended"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "de-la-riva-sweeps",
+    "guard-pulling-strategy"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [
+    "If you can't take the back, your DLR hook came out — keep the hook locked through the spin.",
+    "If they face you during the spin, your far hip control was weak — grip their far hip firmly.",
+    "If they sprawl on the spin, you spun too early — wait for them to fully commit to the post."
+  ],
+  "version": 1,
+  "updatedAt": "2026-05-21T00:24:30.747Z",
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "en",
+  "description": "Use the DLR hook and far hip control to spin into a back take when the opponent defends the sweep by posting or stepping back.",
+  "shortInstruction": "Deep DLR hook, far hip control, spin under them — DLR back take is the ultimate prize from the open guard.",
+  "summary": "The DLR back take is the highest percentage reward from the De La Riva guard. When you attempt the DLR sweep (off-balancing them forward), many opponents will respond by posting a hand or stepping back to avoid the sweep. This reaction creates exactly the space and angle you need to spin under them and take the back. The DLR back take transforms a failed sweep into a dominant position.",
+  "whyItWorks": [
+    "When they post to defend the sweep, their arm is committed and cannot be used to block your spin.",
+    "The DLR hook keeps their leg controlled while you spin — they cannot step away from the back take.",
+    "Far hip control gives you the pivot point for the spin — you rotate around their center.",
+    "Danaher principle: the sweep and back take form a dilemma — defend the sweep, lose the back; defend the back, lose the sweep."
+  ],
+  "commonMistakes": [
+    "Spinning before they commit to the post — you need their reaction to create the space.",
+    "Losing the DLR hook during the spin — the hook keeps them close while you rotate.",
+    "Not controlling their far hip — they will spin out and face you.",
+    "Spinning the wrong direction — the back take spin is under them, not around them."
+  ],
+  "coachingCues": [
+    "Sweep first, back take second — the sweep bait creates the back.",
+    "Spin under, not around — your head goes under their armpit.",
+    "DLR hook stays locked — without it, the back take is gone.",
+    "If they post, that arm is out — go for the back."
+  ],
+  "safetySummary": [
+    "Keep your head protected during the spin — your head should be under their armpit, not in their hip.",
+    "Do not spin if they have a grip on your collar or head — strip the grip first.",
+    "When landing on the back, protect your own back from landing awkwardly on their legs."
+  ],
+  "systemLogic": {
+    "corePrinciple": "DLR guard established: off-balance for sweep → opponent posts hand → spin under their posted arm → take the back → secure seatbelt and hooks.",
+    "decisionTree": [
+      {
+        "condition": "The DLR back take works in one continuous motion: off-balance",
+        "action": "feel the post → spin."
+      },
+      {
+        "condition": "they don't post (defend the sweep by stepping back)",
+        "action": "extend into X-guard instead."
+      }
+    ],
+    "exitStrategies": []
+  },
+  "moneyDetails": [
+    "Keep your DLR hook deep and active throughout the spin — it is your anchor point.",
+    "Grip their far hip (or belt area) with your free hand — this is your steering wheel for the spin.",
+    "The spin should be under their armpit — your head goes under their arm, not around their body.",
+    "After the spin, immediately establish the seatbelt grip before they can turn to face you."
+  ],
+  "nextStep": "After the DLR back take, learn back control and the back attack system.",
+  "fixItFast": [
+    "Can't spin under? Your DLR hook is too loose — re-hook deeper.",
+    "They stop the spin? Your far hip grip is weak — clamp their hip harder.",
+    "They sprawl? You spun too early — wait for the post next time and spin faster."
+  ]
+}

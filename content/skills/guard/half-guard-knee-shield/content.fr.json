@@ -1,0 +1,73 @@
+{
+  "id": "half-guard-knee-shield",
+  "locale": "fr",
+  "name": "half guard knee shield",
+  "description": "Utilisez le knee shield (Z-guard) pour créer de la distance, gagner la bataille underhook et passer aux balayages, aux luttes ou aux soumissions.",
+  "shortInstruction": "Genou dans la hanche, cadre sur la tête, gagnez le underhook — knee shield est la position de contrôle du bas half guard.",
+  "summary": "Le knee shield (également appelé Z-guard) est la position la plus stable dans le bas half guard. Votre genou latéral est inséré entre votre poitrine et sa hanche, créant un cadre qui l'empêche d'appliquer une pression thoracique. À partir de là, vous pouvez vous battre pour le underhook, créer de la distance et attaquer avec des balayages (moitié profonde, serveur), des soumissions (kimura) ou des luttes. Si vous perdez le knee shield, vous êtes aplati – le protéger est donc votre priorité numéro un.",
+  "whyItWorks": [
+    "Le knee shield crée un cadre structurel qui empêche la pression de poitrine à poitrine – sans pression, ils ne peuvent pas passer.",
+    "Il vous permet de vous battre pour le underhook à distance de sécurité, plutôt que de vous faire aplatir et écraser.",
+    "Le knee shield peut être étendu pour créer de l'espace ou rétracté à courte distance pour les balayages.",
+    "Principe Danaher : la distance est la sécurité en bas half guard — le knee shield est votre outil de distance."
+  ],
+  "commonMistakes": [
+    "Laissez-les pousser votre knee shield sur le côté ou l’aplatir contre votre poitrine.",
+    "En vous battant pour le underhook avec un bras tendu, vous perdrez à chaque fois.",
+    "Tenir le knee shield trop longtemps sans attaquer — c'est une position de contrôle de transition, pas une position de repos.",
+    "Laissez-les saisir votre col ou votre tête pour neutraliser le bouclier – combattez à la main pour retirer ces poignées."
+  ],
+  "coachingCues": [
+    "Genou dans la hanche, pas dans les côtes.",
+    "Gagnez le underhook ou mourez en essayant.",
+    "Cadrez d'abord, combattez ensuite - votre knee shield est votre cadre.",
+    "Lorsque vous sentez leur poids soulever, c'est votre moment d'attaque."
+  ],
+  "safetySummary": [
+    "Gardez votre knee shield actif : s'il s'aplatit, vous êtes exposé à une forte pression thoracique.",
+    "Protégez votre cou des crossface en gardant votre tête serrée contre leur corps, sans l'exposer.",
+    "Lorsqu’ils avancent, ne vous tenez pas avec un bras tendu – pliez votre coude pour protéger l’articulation."
+  ],
+  "systemLogic": {
+    "corePrinciple": "Le knee shield (Z-guard) est un cadre structurel qui empêche la pression de poitrine à poitrine dans le bas half guard. Il s'agit d'une position de contrôle de transition : vous devez attaquer (balayage, lutte ou soumission) plutôt que de la maintenir passivement.",
+    "decisionTree": [
+      {
+        "condition": "L'adversaire avance avec une pression sur la poitrine",
+        "action": "Acceptez la pression et entrez en profondeur half guard → balayage du serveur. Leur élan vers l’avant alimente directement le balayage. Ne résistez pas à la pression – redirigez-la."
+      },
+      {
+        "condition": "L'adversaire se redresse et lève son poids",
+        "action": "Stand-up technique → catch-up. Le moment où leur poids se lève est votre fenêtre d’attaque. Tenez-vous debout face à eux, sans vous détourner."
+      },
+      {
+        "condition": "L’adversaire traverse votre corps",
+        "action": "kimura piège → balayage ou soumission. La portée expose leur bras : capturez le poignet et passez la poignée kimura sur leur dos."
+      },
+      {
+        "condition": "L'adversaire pousse votre knee shield sur le côté",
+        "action": "Étendez votre jambe pour les repousser et recadrez le bouclier. S'ils l'aplatissent contre votre poitrine, votre underhook est le problème – battez-vous plus fort pour le underhook."
+      },
+      {
+        "condition": "Vous perdez la bataille underhook",
+        "action": "Vous ne pouvez pas séjourner à knee shield sans le underhook. Passez au half guard profond ou récupérez au guard complet. Ne restez pas aplati dans la moitié inférieure."
+      }
+    ],
+    "exitStrategies": [
+      "Si l'adversaire dépasse votre knee shield, vous avez attendu trop longtemps pour attaquer – balayer ou wrestle up plus tôt.",
+      "Si vous ne parvenez pas à obtenir le underhook, utilisez plutôt une cravate ou une poignée de poignet pour contrôler leur posture.",
+      "Le kimura de knee shield est l'un des pourcentages de soumissions No-Gi les plus élevés - incitez le crossface à y entrer."
+    ]
+  },
+  "moneyDetails": [
+    "Votre genou doit être encadré contre leur hanche, pas contre leur ventre – le contrôle de la hanche les empêche d’enjamber le bouclier.",
+    "Le combat underhook se gagne avec votre tête : enfoncez votre tête dans leur poitrine pour créer de l'espace pour votre underhook.",
+    "Lorsqu'ils tentent d'aplatir votre bouclier, étendez votre jambe pour les repousser, puis attaquez avant qu'ils ne récupèrent.",
+    "Le kimura de knee shield est l'un des pourcentages de soumissions les plus élevés dans No-Gi half guard - incitez le crossface à y entrer."
+  ],
+  "nextStep": "Après le contrôle de knee shield, apprenez le demi-balayage profond et kimura de half guard pour enchaîner vos attaques.",
+  "fixItFast": [
+    "knee shield s'aplatit ? Étendez votre jambe pour les repousser et recadrer.",
+    "Vous ne parvenez pas à obtenir le underhook ? Utilisez plutôt une cravate ou une poignée de poignet pour contrôler leur posture.",
+    "Ils continuent de passer ? Votre knee shield est trop lâche : resserrez-le contre votre poitrine."
+  ]
+}

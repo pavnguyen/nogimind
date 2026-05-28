@@ -1,0 +1,71 @@
+{
+  "id": "leg-drag-basics",
+  "locale": "en",
+  "name": "Leg Drag Basics",
+  "description": "Drag the opponent's leg across the center line to turn their hips and enter a pin or back exposure. The leg drag is the most dominant guard passing position — it gives you complete control of their lower body.",
+  "shortInstruction": "From headquarters, step to the outside, reach for their near leg, drag it across your body, and pin it to the mat. Circle to the opposite side and take side control or the back.",
+  "summary": "The leg drag attacks the opponent's base by controlling one leg and dragging it across your body, turning their hips away from you. Once their hips are turned, they cannot re-guard effectively. The leg drag is the most dominant passing position because it completely neutralizes the opponent's guard — they cannot sweep, submit, or recover guard from the leg drag position.",
+  "whyItWorks": [
+    "Dragging the leg across the center line turns the opponent's hips away from you — the prerequisite for all guard retention",
+    "The leg drag requires the opponent to post on both hands to maintain balance — they cannot frame or grip from this position",
+    "With hips turned and hands posted, the opponent has no tools to defend the pass",
+    "The leg drag transitions to both side control and back control — the two most dominant positions"
+  ],
+  "commonMistakes": [
+    "Dragging the leg without stepping to the outside first — you must create the angle before the drag",
+    "Lifting the leg instead of dragging it — the drag is a lateral pull, not a lift",
+    "Releasing the leg too early — maintain leg control until side control is established",
+    "Not protecting the leg from heel hooks — keep the leg close to your body to prevent leg attacks"
+  ],
+  "coachingCues": [
+    "Step outside, then drag",
+    "Pull laterally, don't lift",
+    "Hips turn, guard dies",
+    "Leg drag to side or back"
+  ],
+  "safetySummary": [
+    "Be careful of heel hooks when controlling the opponent's leg — keep the leg close to your body to prevent reaping",
+    "Do not drag the leg at an awkward angle that hyperextends the hip or knee",
+    "If the opponent rolls to escape the leg drag, release the leg and follow the roll to take the back"
+  ],
+  "keyCorrections": [
+    "If they keep re-guarding from the leg drag: your drag did not turn their hips enough — pull the leg further across your body",
+    "If they kick free: your grip was too shallow — grip at the knee or mid-thigh, not the ankle",
+    "If they take your back: your head was inside — keep your head to the outside of their leg"
+  ],
+  "systemLogic": {
+    "corePrinciple": "The leg drag has four phases: Outside Step → Leg Grip → Drag → Pin",
+    "decisionTree": [
+      {
+        "condition": "In Phase 1 (Outside Step)",
+        "action": "from headquarters, step your lead foot to the outside of their near leg. This creates the angle for the drag"
+      },
+      {
+        "condition": "In Phase 2 (Leg Grip)",
+        "action": "reach across and grip their near leg at the knee or mid-thigh. Your other hand posts on the mat for balance"
+      },
+      {
+        "condition": "In Phase 3 (Drag)",
+        "action": "pull their leg across your body toward your far hip. This turns their hips away from you. As the hips turn, they must post both hands to maintain balance"
+      },
+      {
+        "condition": "In Phase 4 (Pin)",
+        "action": "once their hips are turned and hands are posted, pin their leg to the mat and circle to the opposite side. Enter side control or take the back"
+      },
+      {
+        "condition": "the leg drag fails (they re-guard)",
+        "action": "reset to headquarters and try a different pass (knee cut or backstep)"
+      }
+    ]
+  },
+  "moneyDetails": [
+    "The leg drag is the most dominant guard passing position in BJJ — no other pass gives you such complete control",
+    "Mastering the leg drag allows you to neutralize the guard of even the most flexible opponents",
+    "The leg drag is a core component of Gordon Ryan's passing system"
+  ],
+  "fixItFast": [
+    "If they keep re-guarding: pull the leg further across your body to turn the hips more",
+    "If they kick free: grip higher on the leg (above the knee, not below)",
+    "If they try to heel hook: keep the leg close to your chest and circle to the back"
+  ]
+}

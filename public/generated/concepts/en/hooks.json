@@ -1,0 +1,65 @@
+{
+  "id": "hooks",
+  "locale": "en",
+  "title": "Hooks",
+  "category": "mechanical",
+  "level": "fundamental",
+  "tags": [
+    "hook",
+    "butterfly",
+    "back control"
+  ],
+  "shortDefinition": "A hook is a leg or foot connection used to lift, pull, hold hip line, or off-balance.",
+  "whyItMatters": "Live hooks power guard retention, butterfly, back control, and single leg X.",
+  "deepExplanation": "A hook is not just placing a foot. It needs knee angle, instep or heel tension, and hip connection. Dead hooks get smashed; live hooks force posts and base adjustments.",
+  "beginnerView": "Keep toes active and know whether the hook pulls or lifts.",
+  "advancedView": "Use hooks as sensors: when they shift weight, switch sweep, wrestle-up, or retention.",
+  "ifThenExamples": [
+    {
+      "if": "If you lose Hooks during the exchange.",
+      "then": "Stop accelerating, recover the nearest body structure, then continue the technique.",
+      "why": "Modern no-gi punishes forceful continuation after structure is lost.",
+      "relatedSkillIds": [
+        "butterfly-guard-off-balance",
+        "seated-guard-retention"
+      ]
+    },
+    {
+      "if": "If the opponent correctly answers your first line.",
+      "then": "Use Hooks to switch to a safer branch instead of forcing the same line.",
+      "why": "A good concept turns the opponent’s reaction into information for the next decision.",
+      "relatedSkillIds": [
+        "seated-guard-retention",
+        "back-control",
+        "single-leg-x-control"
+      ]
+    }
+  ],
+  "commonMisunderstandings": [
+    {
+      "misunderstanding": "Hooks is a single technical trick.",
+      "correction": "Treat it as a decision rule that appears across many positions."
+    },
+    {
+      "misunderstanding": "Understanding the concept automatically makes it work live.",
+      "correction": "The concept needs body signals, short cues, and positional rolling."
+    }
+  ],
+  "trainingCues": [
+    "Name Hooks before adding force.",
+    "Find the body signal instead of guessing generally.",
+    "If structure is lost, reset one layer first.",
+    "Drill slowly, then test with progressive resistance."
+  ],
+  "relatedSkillIds": [
+    "butterfly-guard-off-balance",
+    "seated-guard-retention",
+    "back-control",
+    "single-leg-x-control"
+  ],
+  "relatedConceptIds": [
+    "base-balance",
+    "connection-before-control",
+    "guard-retention-layers"
+  ]
+}

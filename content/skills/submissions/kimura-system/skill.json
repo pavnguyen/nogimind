@@ -1,0 +1,49 @@
+{
+  "id": "kimura-system",
+  "domain": "submission_systems",
+  "level": "advanced",
+  "name": "Kimura System",
+  "aliases": [],
+  "tags": [
+    "submission",
+    "control"
+  ],
+  "keywords": [
+    "kimura trap",
+    "shoulder line",
+    "dilemma",
+    "back exposure"
+  ],
+  "relatedSkills": [
+    {
+      "id": "back-control",
+      "type": "recommended"
+    },
+    {
+      "id": "side-control-pin",
+      "type": "recommended"
+    },
+    {
+      "id": "guard-pulling-strategy",
+      "type": "recommended"
+    }
+  ],
+  "prerequisiteSkillIds": [
+    "dilemmas-two-way-attacks"
+  ],
+  "relatedPositions": [],
+  "relatedConcepts": [],
+  "archetypeIds": [],
+  "trainingMethodIds": [],
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": true,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "contentRefs": {
+    "videos": "videos.json",
+    "qualityChecklist": "qualityChecklist"
+  },
+  "updatedAt": "2026-05-21T00:24:30.743Z"
+}

@@ -1,0 +1,122 @@
+{
+  "id": "rear-triangle-control",
+  "domain": "back_control",
+  "level": "advanced",
+  "status": "draft",
+  "name": "Rear Triangle Control",
+  "aliases": [],
+  "tags": [
+    "rear-triangle",
+    "back-triangle",
+    "arm-isolation",
+    "tier:modern-expansion",
+    "meta:modern-common",
+    "risk:high",
+    "family:submission",
+    "group:back-triangle",
+    "modern-no-gi"
+  ],
+  "keywords": [
+    "rear triangle",
+    "shoulder line",
+    "arm isolation"
+  ],
+  "modernSystemGroup": "back_triangle",
+  "relatedSkills": [
+    {
+      "id": "s-mount-control",
+      "type": "recommended"
+    },
+    {
+      "id": "s-mount-armbar",
+      "type": "recommended"
+    },
+    {
+      "id": "rear-naked-choke-system",
+      "type": "recommended"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "back-control",
+    "s-mount-control"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [
+    "If you can't lock the triangle, their posture is too upright — break them down first.",
+    "If the choke feels like a crank, your leg is on their chin — adjust your leg to the throat.",
+    "If they peel your leg, your control was too loose — squeeze tighter or re-engage the hooks."
+  ],
+  "version": 1,
+  "updatedAt": "2026-05-21T00:24:30.780Z",
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "en",
+  "description": "Use your legs to trap the opponent's shoulder line from the back, opening choke (rear triangle), armbar, or kimura attacks while maintaining back control.",
+  "shortInstruction": "One leg over their shoulder, one leg hooking their body, squeeze — the rear triangle is a leg choke from the back.",
+  "summary": "The rear triangle (also called the rear triangle choke or body triangle choke) is a powerful submission from back control where you use your legs to choke, not your arms. By bringing one leg over their shoulder and locking it behind their neck while the other leg hooks around their body, you create a leg triangle that compresses their neck and shoulder. This attack works when they are defending their neck with both hands — your arms are free while your legs do the choking.",
+  "whyItWorks": [
+    "Uses your strongest muscles (legs) to choke — leg compression is far stronger than arm compression.",
+    "Works when they are defending their neck with both hands — your hands can control their body while your legs choke.",
+    "The rear triangle also controls their shoulder, limiting their escape options.",
+    "Danaher principle: when the hands are unavailable (they are defending), use the legs to attack — the rear triangle is the answer."
+  ],
+  "commonMistakes": [
+    "Trying to lock the rear triangle without controlling their near arm — their arm will block the choke.",
+    "Letting the triangle slide to their face instead of their neck — the shin must be on the throat.",
+    "Releasing the body triangle or hooks too early — maintain lower body control while locking the choke.",
+    "Forcing the lock when their posture is too upright — break their posture before locking."
+  ],
+  "coachingCues": [
+    "Leg over the shoulder, shin on the throat, squeeze with the thighs.",
+    "Control the arm first, then lock the triangle.",
+    "If they defend with hands, attack with legs.",
+    "Legs are stronger than arms — use them."
+  ],
+  "safetySummary": [
+    "The rear triangle applies pressure to the neck and shoulder — apply gradually.",
+    "Do not crank the opponent's neck by pulling their head sideways to fit the triangle.",
+    "Release immediately on tap — neck and shoulder compression can cause injury quickly."
+  ],
+  "systemLogic": {
+    "corePrinciple": "Back control: break their posture → bring top leg over their shoulder → lock the triangle (shin on their throat, foot behind your knee) → squeeze.",
+    "decisionTree": [
+      {
+        "condition": "The rear triangle chains with the RNC",
+        "action": "if they defend the RNC with both hands, switch to rear triangle."
+      },
+      {
+        "condition": "they defend the rear triangle by turning",
+        "action": "switch to the armbar or back to RNC."
+      }
+    ],
+    "exitStrategies": []
+  },
+  "moneyDetails": [
+    "Control their near arm by pinning it with your hand or against your chest — this prevents them from blocking the triangle.",
+    "Your top leg goes over their shoulder, not their head — the shin should press against the side of their neck.",
+    "Lock the triangle by hooking your foot behind your own knee — this creates a tight, adjustable triangle.",
+    "Squeeze with your thighs, not your calves — thigh compression is stronger and safer."
+  ],
+  "nextStep": "After the rear triangle, learn the armbar from the back and the back attack system.",
+  "fixItFast": [
+    "Can't lock the triangle? Break their posture more before trying.",
+    "Choke feels like a crank? Adjust your leg — shin should be on the throat, not the chin.",
+    "They peel your leg? Switch to hooks and RNC — don't force the triangle."
+  ]
+}

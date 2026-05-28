@@ -1,0 +1,56 @@
+{
+  "id": "crab-ride-position",
+  "locale": "fr",
+  "title": "Crab Ride",
+  "category": "back",
+  "status": "advantage",
+  "description": "Le joueur du dessus ride par dessous/derrière avec des hooks derrière genoux, tirant les hanches adverses pour exposer le dos.",
+  "topPlayerGoals": [
+    "Le joueur du dessus veut contrôler Crab Ride avec la position de tête, la position intérieure et une pression orientée.",
+    "Maintenir les hooks, suivre la shoulder line et passer au contrôle du dos.",
+    "Garder une base stable pour éviter d’être déséquilibré ou contré."
+  ],
+  "bottomPlayerGoals": [
+    "Le joueur du dessous veut survivre en Crab Ride avec des cadres, du pummeling ou le bon angle.",
+    "Enlever les hooks, tourner les hanches et se lever ou re-garder.",
+    "Reconnaître les signaux de danger tôt au lieu d’attendre que la position se stabilise."
+  ],
+  "controlPoints": [
+    "Point de contrôle principal : Hooks derrière genoux, levée hanche et far wrist..",
+    "La tête, les mains, les hanches et les genoux doivent suivre la même direction de force.",
+    "La connexion coude-genou ou la ligne hanches-épaules détermine si la position reste vivante ou verrouillée."
+  ],
+  "escapePriorities": [
+    "Priorité de sortie : Ne pas laisser le far wrist être contrôlé..",
+    "Protéger le cou, le dos, la ligne du genou ou la ligne du bras avant de contrer.",
+    "Si la position intérieure est perdue, rétablir d’abord une couche défensive."
+  ],
+  "advancementOptions": [
+    {
+      "action": "Passer en back control ou wrist ride",
+      "nextPositionId": "back-control-position",
+      "relatedSkillIds": [
+        "crab-ride",
+        "wrist-ride-back-exposure",
+        "back-control"
+      ],
+      "why": "C’est la branche naturelle lorsque vous gagnez le point de contrôle principal et que l’adversaire est forcé de défendre."
+    }
+  ],
+  "dangerSignals": [
+    "Le menton ou le cou sort de la ligne sûre.",
+    "Le coude se sépare des côtes ou du genou.",
+    "La ligne des hanches est verrouillée pendant que la ligne des épaules est encore tirée.",
+    "Vous devez poser une main loin pour éviter de tomber."
+  ],
+  "relatedSkillIds": [
+    "crab-ride",
+    "wrist-ride-back-exposure",
+    "back-control"
+  ],
+  "relatedConceptIds": [
+    "hooks",
+    "positional-hierarchy",
+    "connection-before-control"
+  ]
+}

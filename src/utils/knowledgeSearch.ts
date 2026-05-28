@@ -1,8 +1,9 @@
 import type { KnowledgeItemType, KnowledgeSearchResult } from '../types/knowledgeSearch'
-import type { LanguageCode } from '../types/skill'
+import type { LanguageCode, SkillDomain, SkillLevel, SkillNode } from '../types/skill'
 import type { SearchDataBundle } from '../utils/searchEngine'
 import { getEscapeMaps, getMicroDetails, getTroubleshooters } from './knowledgeModules'
 import { getCachedSearchData, setCachedSearchData, hasValidSearchCache } from './searchCache'
+import { getManifest, type ManifestEntry } from '../content-runtime/manifests'
 
 let worker: Worker | null = null
 let ready = false
@@ -85,11 +86,62 @@ const getOrCreateWorker = (): Worker => {
   return w
 }
 
-// ── Data bundle builder (lazy, uses cache or dynamic imports) ────────
+// ── Build SkillNode from manifest entry ─────────────────────────────
 
 /**
- * Build the data bundle either from IndexedDB cache or dynamic imports.
- * When the cache is warm, this avoids loading any data modules at all.
+ * Create a minimal SkillNode from pipeline manifest entries.
+ * Most fields are empty — the key searchable data is name, summary, and tags.
+ */
+const buildPipelineSkillNode = (
+  id: string,
+  enEntry: ManifestEntry,
+  viEntry: ManifestEntry | undefined,
+  frEntry: ManifestEntry | undefined,
+): SkillNode => ({
+  id,
+  title: {
+    en: enEntry.name,
+    vi: viEntry?.name ?? enEntry.name,
+    fr: frEntry?.name ?? enEntry.name,
+  },
+  shortDescription: {
+    en: enEntry.summary || '',
+    vi: viEntry?.summary || enEntry.summary || '',
+    fr: frEntry?.summary || enEntry.summary || '',
+  },
+  domain: enEntry.domain as SkillDomain,
+  level: enEntry.level as SkillLevel,
+  tags: [...new Set([...(enEntry.tags ?? []), ...(viEntry?.tags ?? []), ...(frEntry?.tags ?? [])])],
+  // ── Defaults for remaining required SkillNode fields ──
+  whyItMatters: { en: '', vi: '', fr: '' },
+  situation: { en: '', vi: '', fr: '' },
+  primaryGoal: { en: '', vi: '', fr: '' },
+  keyConcepts: { en: [], vi: [], fr: [] },
+  bodyChecklist: {},
+  decisionTree: [],
+  dangerSignals: { en: [], vi: [], fr: [] },
+  commonMistakes: { en: [], vi: [], fr: [] },
+  failureResponses: [],
+  drills: [],
+  skillTests: [],
+  prerequisites: [],
+  relatedSkills: [],
+  bodyMechanicsSystem: {
+    overview: { en: '', vi: '', fr: '' },
+    phases: [],
+    globalPrinciples: { en: [], vi: [], fr: [] },
+    nonNegotiables: { en: [], vi: [], fr: [] },
+    commonMechanicalErrors: { en: [], vi: [], fr: [] },
+    correctionCues: { en: [], vi: [], fr: [] },
+    safetyNotes: { en: [], vi: [], fr: [] },
+  },
+})
+
+// ── Data bundle builder (lazy, uses cache or manifest fetches) ──────
+
+/**
+ * Build the data bundle either from IndexedDB cache or by fetching
+ * the content pipeline manifests for all 3 locales.
  */
 const buildSearchPayload = async (): Promise<SearchDataBundle> => {
   // 1. Try IndexedDB cache first (fastest path)
@@ -99,31 +151,45 @@ const buildSearchPayload = async (): Promise<SearchDataBundle> => {
     return cached
   }
 
-  // 2. Cache miss — dynamically import all data modules
-  const tImport = performance.now()
+  // 2. Cache miss — fetch manifests + legacy modules
+  const tFetch = performance.now()
 
-  const [
-    { skillNodes },
-    { concepts },
-    { positions },
-    { glossaryTerms },
-    { defensiveLayers },
-    { archetypes },
-    { masteryStages },
-    { techniqueStateMachineBySkillId, techniqueStateMachines },
-  ] = await Promise.all([
-    import('../data/skillNodes'),
-    import('../data/concepts'),
-    import('../data/positions'),
-    import('../data/glossaryTerms'),
-    import('../data/defensiveLayers'),
-    import('../data/archetypes'),
-    import('../data/masteryStages'),
-    import('../data/techniqueStateMachines'),
-  ] as const)
+  // Safe wrapper: if a manifest fails to load, treat it as empty (graceful degradation)
+  const safeGetManifest = async (locale: string): Promise<ManifestEntry[]> => {
+    try { return await getManifest(locale) }
+    catch { return [] }
+  }
+
+  const [enManifest, viManifest, frManifest, { concepts }, { positions }, { glossaryTerms }, { defensiveLayers }, { archetypes }, { masteryStages }, { techniqueStateMachineBySkillId, techniqueStateMachines }] =
+    await Promise.all([
+      safeGetManifest('en'),
+      safeGetManifest('vi'),
+      safeGetManifest('fr'),
+      import('../data/concepts'),
+      import('../data/positions'),
+      import('../data/glossaryTerms'),
+      import('../data/defensiveLayers'),
+      import('../data/archetypes'),
+      import('../data/masteryStages'),
+      import('../data/techniqueStateMachines'),
+    ] as const)
 
   const tBuild = performance.now()
-  logPerf(`[perf] init:dynamic-import ${(tBuild - tImport).toFixed(2)} ms`)
+  logPerf(`[perf] init:fetch-manifests ${(tBuild - tFetch).toFixed(2)} ms`)
+
+  // ── Build SkillNodes from manifest (all skills, both pipeline and legacy) ─
+  const enById = new Map(enManifest.map((e) => [e.id, e]))
+  const viById = new Map(viManifest.map((e) => [e.id, e]))
+  const frById = new Map(frManifest.map((e) => [e.id, e]))
+
+  const skillNodes: SkillNode[] = []
+  for (const [id, enEntry] of enById) {
+    skillNodes.push(
+      buildPipelineSkillNode(id, enEntry, viById.get(id), frById.get(id)),
+    )
+  }
+
+  logPerf(`[perf] init:built ${skillNodes.length} skill nodes from manifest`)
 
   const payload: SearchDataBundle = {
     skillNodes,
@@ -177,7 +243,7 @@ export const initSearchIndexes = (): Promise<void> => {
 
         w.addEventListener('message', onMessage)
 
-        // Build payload from cache or dynamic imports
+        // Build payload from cache or manifest fetches
         const tPayload = performance.now()
         const payload = await buildSearchPayload()
         logPerf(`[perf] init:get-payload ${(performance.now() - tPayload).toFixed(2)} ms`)
@@ -230,13 +296,24 @@ export const warmSearchIndexes = (): Promise<void> => {
   return warmupPromise
 }
 
+
+
+/**
+ * Clear the warmup/init promise caches so the next call to
+ * warmSearchIndexes / initSearchIndexes actually re-initializes.
+ */
+export const clearIndexCache = (): void => {
+  initPromise = null
+  warmupPromise = null
+}
+
 /** Pre-warm the cache ahead of time (no worker init needed yet) */
 export const preWarmSearchCache = async (): Promise<void> => {
   if (await hasValidSearchCache()) {
     logPerf('[perf] prewarm:cache already valid, skipping')
     return
   }
-  logPerf('[perf] prewarm:building cache from dynamic imports...')
+  logPerf('[perf] prewarm:building cache from manifest fetches...')
   await buildSearchPayload()
   logPerf('[perf] prewarm:done')
 }
@@ -287,5 +364,3 @@ export const searchKnowledge = (
     })
   })
 }
-
-

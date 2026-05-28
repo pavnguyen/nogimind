@@ -1,0 +1,127 @@
+{
+  "id": "north-south-control",
+  "domain": "pins_rides",
+  "level": "intermediate",
+  "status": "draft",
+  "name": "Contrôle Nord Sud",
+  "aliases": [],
+  "tags": [
+    "north-south",
+    "pin",
+    "control",
+    "choke"
+  ],
+  "keywords": [
+    "north south",
+    "shoulder pressure",
+    "north south choke",
+    "arm isolation"
+  ],
+  "relatedSkills": [
+    {
+      "id": "rear-naked-choke-system",
+      "type": "recommended"
+    },
+    {
+      "id": "kimura-system",
+      "type": "recommended"
+    },
+    {
+      "id": "side-control-pin",
+      "type": "recommended"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "side-control-pin",
+    "mount-control"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [
+    "S’ils continuent à shrimp sortir : votre tête n’est pas sur le sternum – enfoncez votre tête plus profondément dans leur poitrine",
+    "S'ils continuent à cadrer avec leurs bras : vos coudes sont trop larges – rapprochez-les pour coincer les bras.",
+    "S'il vous renverse : vous êtes trop en avant ; gardez votre poids centré sur sa poitrine."
+  ],
+  "version": 1,
+  "updatedAt": "2026-05-21T00:24:30.753Z",
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "fr",
+  "description": "Utilisez la pression des épaules, la poitrine contre la poitrine et le contrôle des bras du nord au sud pour vous étouffer ou faire la transition. north-south est une épingle sous-estimée qui comprime la ligne d'épaule de l'adversaire et crée des entrées de soumission uniques.",
+  "shortInstruction": "Placez votre tête contre son sternum, serrez vos coudes contre ses épaules et enfoncez votre poids dans sa poitrine. Recherchez le starter north-south ou la transition vers side control.",
+  "summary": "Le contrôle north-south utilise l'alignement du corps le long de la ligne médiane de l'adversaire pour comprimer sa ligne d'épaule et restreindre les mouvements. Les principaux points de pression sont : votre tête enfoncée dans leur sternum (l'empêche de détourner le regard), vos bras emprisonnant ses épaules (empêche le mouvement des bras) et le poids de votre poitrine comprimant son torse (restreint la respiration et le mouvement des hanches). north-south est une broche de transition qui mène aux transitions north-south starter, kimura ou side control.",
+  "whyItWorks": [
+    "La pression de la tête sur le sternum empêche l'adversaire de tourner la tête ou de détourner le regard, ce qui constitue la première étape de la plupart des évasions.",
+    "La compression des bras (en serrant vos coudes pour emprisonner leurs bras) les empêche de cadrer ou de poster pour s'échapper.",
+    "La compression du poids de la poitrine à la poitrine restreint le mouvement de leur diaphragme, créant une urgence respiratoire qui force les tentatives de fuite.",
+    "La position north-south attaque un plan différent de side control — l'adversaire ne peut pas utiliser les mêmes mécanismes d'évasion"
+  ],
+  "commonMistakes": [
+    "Laisser votre tête dériver sur le côté – la tête doit pénétrer dans le sternum pour maintenir la pression",
+    "Garder les bras trop écartés : les coudes doivent être pincés l'un contre l'autre pour coincer les bras de l'adversaire.",
+    "Élever vos hanches trop haut - cela supprime la compression thoracique et permet à l'adversaire de s'échapper de la hanche",
+    "Rester trop longtemps dans north-south sans attaquer : c'est une position de transition, pas une épingle statique"
+  ],
+  "coachingCues": [
+    "Tête sur le sternum, toujours",
+    "Pincez les coudes, coincez les bras",
+    "Poids de la poitrine sur la poitrine",
+    "Attaque ou transition - ne restez pas"
+  ],
+  "safetySummary": [
+    "Le starter north-south peut s'activer rapidement : relâchez-le immédiatement au robinet, car la pression du starter sous cet angle peut comprimer la trachée.",
+    "N'enfoncez pas votre tête dans la gorge de l'adversaire : c'est le sternum qui est la cible, pas la gorge.",
+    "Si l'adversaire a des antécédents de problèmes au cou, évitez les pressions agressives de north-south"
+  ],
+  "systemLogic": {
+    "corePrinciple": "Le contrôle north-south comporte trois piliers structurels : Position de la tête → Piège des bras → Compression thoracique",
+    "decisionTree": [
+      {
+        "condition": "Application générale",
+        "action": "Si pilier 1, position de la tête : votre front s'enfonce dans leur sternum (pas dans leur gorge). Cela maintient leur tête coincée et les empêche de détourner le regard ou de poster avec le bras éloigné."
+      },
+      {
+        "condition": "Application générale",
+        "action": "Si pilier 2, Arm Trap : vos bras se serrent contre leurs épaules, épinglant leurs bras au tapis. Vos coudes doivent être rapprochés et non évasés. Cela les empêche de cadrer sur vos hanches ou de poster pour s'échapper."
+      },
+      {
+        "condition": "Application générale",
+        "action": "S'il s'agit du pilier 3, compression thoracique : le poids de votre poitrine s'enfonce dans le haut du torse, limitant leur capacité à s'échapper ou à combler la hanche. La compression rend également la respiration superficielle, créant une urgence"
+      },
+      {
+        "condition": "À partir du north-south",
+        "action": "vous avez trois branches d'attaque : (1) north-south étranglez, glissez votre avant-bras sous leur cou tout en gardant la pression sur la tête, (2) kimura — isolez leur bras proche et faites pivoter dans la poignée kimura, (3) Transition vers side control ou knee-on-belly"
+      },
+      {
+        "condition": "Application générale",
+        "action": "Si l'adversaire s'échappe à ses côtés, suivez-le et reprenez-le. Le north-south vers la prise en arrière est une transition à pourcentage élevé"
+      }
+    ],
+    "exitStrategies": []
+  },
+  "moneyDetails": [
+    "north-south est l'une des quilles les moins défendues de BJJ — la plupart des grapplers s'entraînent intensivement pour les évasions de side control mais négligent north-south",
+    "Le starter north-south est une soumission à pourcentage élevé qui surprend même les grapplers expérimentés par guard",
+    "Maîtriser le contrôle north-south vous offre un jeu complet de haut niveau qui attaque les deux avions (ligne latérale et centrale)"
+  ],
+  "fixItFast": [
+    "S'ils continuent à shrimp sortir : enfoncez votre tête plus profondément dans le sternum et pincez vos coudes plus fort - cela tue la fuite de la hanche.",
+    "S'ils font un pont pour vous faire rouler : placez vos orteils et faites avancer votre poids vers leur poitrine.",
+    "S'ils se tournent vers eux : suivez-les et prenez le dos – ne restez pas à north-south"
+  ]
+}

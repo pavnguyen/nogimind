@@ -1,0 +1,54 @@
+{
+  "id": "wrestling-up-from-guard",
+  "domain": "wrestle_up_wrestling",
+  "level": "intermediate",
+  "name": "Wrestling Up from Guard",
+  "aliases": [],
+  "tags": [
+    "wrestle-up",
+    "guard",
+    "standing",
+    "single-leg"
+  ],
+  "keywords": [
+    "wrestle up",
+    "shin-to-shin",
+    "2-on-1",
+    "underhook",
+    "head position",
+    "single leg"
+  ],
+  "relatedSkills": [
+    {
+      "id": "single-leg-bjj",
+      "type": "recommended"
+    },
+    {
+      "id": "snapdown-front-headlock",
+      "type": "recommended"
+    },
+    {
+      "id": "half-guard-wrestle-up",
+      "type": "recommended"
+    }
+  ],
+  "prerequisiteSkillIds": [
+    "seated-guard-retention",
+    "hand-fighting",
+    "technical-stand-up"
+  ],
+  "relatedPositions": [],
+  "relatedConcepts": [],
+  "archetypeIds": [],
+  "trainingMethodIds": [],
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "updatedAt": "2026-05-21T00:24:30.764Z"
+}

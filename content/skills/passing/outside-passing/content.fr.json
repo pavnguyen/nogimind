@@ -1,0 +1,67 @@
+{
+  "id": "outside-passing",
+  "locale": "fr",
+  "name": "Passage extérieur",
+  "description": "Utilisez un jeu de jambes extérieur pour forcer les virages des hanches et exposer la traînée des jambes ou les voies d'épinglage. Le dépassement extérieur est une alternative au passage sous pression qui utilise la vitesse et les angles au lieu du poids.",
+  "shortInstruction": "Restez debout, faites un cercle vers l'extérieur de leur jambe de tête, forcez-les à tourner leurs hanches et attaquez l'espace exposé avec une traînée de jambe ou un recul.",
+  "summary": "Les passes extérieures utilisent le jeu de jambes et la distance pour forcer l'adversaire à tourner les hanches, créant ainsi des voies de passe auxquelles les passes sous pression ne peuvent pas accéder. Le système fonctionne en restant debout (sans tomber à genoux) et en tournant vers l'extérieur de la jambe de tête de l'adversaire. Alors qu'ils se tournent vers vous, vous attaquez la hanche exposée avec un mouvement de jambe, un recul ou une passe en X. Les passes extérieures sont particulièrement efficaces contre les joueurs flexibles guard qui sont difficiles à passer sous pression.",
+  "whyItWorks": [
+    "Rester debout vous permet de rester mobile et empêche l'adversaire de vous piéger dans half guard ou dans la moitié profonde",
+    "Faire des cercles vers l'extérieur oblige l'adversaire à réajuster constamment l'angle de ses hanches, créant ainsi des ouvertures momentanées.",
+    "Les passes extérieures attaquent le guard sous des angles auxquels la passe sous pression n'accède pas.",
+    "Les dépassements extérieurs sont plus sûrs car votre poids n'est pas engagé vers l'avant."
+  ],
+  "commonMistakes": [
+    "Rester directement devant l'adversaire - cela lui donne l'angle de rétention guard le plus simple",
+    "Circuler sans changer de niveau – vous devez alterner entre debout et accroupi",
+    "S'engager dans une passe sans créer d'abord le tour de hanche - le tour de hanche est la condition préalable à toutes les passes extérieures",
+    "Rester trop loin : il y a un point où vous êtes hors de portée et ils peuvent se lever ou attaquer"
+  ],
+  "coachingCues": [
+    "Cercle vers l'extérieur, force le virage",
+    "Restez debout, restez mobile",
+    "Glissement de jambe ou recul – attaquez la hanche ouverte",
+    "S'ils sont au carré, faites un cercle dans l'autre sens"
+  ],
+  "safetySummary": [
+    "Les dépassements extérieurs vous maintiennent debout ; cela réduit le risque de heel hook et ankle lock.",
+    "Faites attention aux jambes de l'adversaire lorsque vous tournez en rond : il peut tenter de récolter des entrées pendant que vous tournez en rond.",
+    "Si l'adversaire se lève pour correspondre à votre position, soyez prêt à vous lancer dans des échanges de retrait."
+  ],
+  "keyCorrections": [
+    "S'ils restent face à vous : vous ne tournez pas assez loin – cerclez jusqu'à ce que vous soyez à un angle de 90 degrés par rapport à leurs hanches.",
+    "S'ils continuent à vous sweep : votre base est trop étroite – élargissez votre position lorsque vous tournez",
+    "S’ils continuent d’attaquer vos jambes : vos mains sont trop basses – gardez vos mains prêtes à leur frapper les jambes"
+  ],
+  "systemLogic": {
+    "corePrinciple": "Les passes extérieures ont trois branches : Leg Drag → Backstep → X-Pass",
+    "decisionTree": [
+      {
+        "condition": "Utilisation de la branche 1 (glisser les jambes)",
+        "action": "Alors qu'ils tournent leurs hanches pour faire face à votre cercle, attaquez leur jambe éloignée avec une traînée de jambe. Le tour de hanche est le signal d’entrée pour la traînée"
+      },
+      {
+        "condition": "Utilisation de la branche 2 (Backstep)",
+        "action": "s'ils maintiennent la distance et gardent leurs jambes entre vous, reculez du côté opposé. Le recul change l'angle et les oblige à se réajuster"
+      },
+      {
+        "condition": "Utilisation de la branche 3 (X-Pass)",
+        "action": "s'ils ouvrent leurs jambes pendant que vous tournez (papillon ou tibia guard), passez par le milieu en utilisant le X-pass - écartez les deux jambes d'un côté et conduisez jusqu'à side control"
+      },
+      {
+        "condition": "Quand combiner les styles passing",
+        "action": "les passes extérieures sont plus efficaces lorsqu'elles sont combinées avec des passes sous pression - basculer entre les deux empêche l'adversaire de s'installer dans une défense"
+      }
+    ]
+  },
+  "moneyDetails": [
+    "Les passes extérieures sont essentielles pour dépasser les joueurs flexibles guard qui sont impossibles à passer avec la seule pression.",
+    "Maîtriser les passes extérieures vous offre un jeu de passes complet : vous pouvez passer avec pression ou vitesse.",
+    "Le dépassement extérieur est le fondement du style moderne de « passage flottant » popularisé par les Ruotolos et Nicky Ryan."
+  ],
+  "fixItFast": [
+    "S'ils restent face à vous : faites un cercle plus large : vous devez faire tourner leurs hanches avant de pouvoir passer.",
+    "S'ils continuent de tirer half guard : passez à la passe de pression – la coupe du genou ou le bodylock fonctionne mieux contre half guard",
+    "S'ils continuent de se lever : lancez-vous dans un retrait – la position extérieure pass passe naturellement à une seule jambe."
+  ]
+}

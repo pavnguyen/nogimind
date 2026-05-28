@@ -1,0 +1,65 @@
+{
+  "id": "pressure-direction",
+  "locale": "vi",
+  "title": "Hướng áp lực",
+  "category": "mechanical",
+  "level": "intermediate",
+  "tags": [
+    "pressure",
+    "direction",
+    "pin"
+  ],
+  "shortDefinition": "Pressure hiệu quả có hướng cụ thể: chéo, vào far hip, vào shoulder line hoặc xuống hip line.",
+  "whyItMatters": "Pressure thẳng xuống thường giúp đối thủ frame hoặc hip escape; pressure chéo làm họ mất hướng.",
+  "deepExplanation": "Pressure direction nối head, sternum, pelvis, knees và toes. Khi các điểm này không cùng hướng, bạn nặng nhưng không kiểm soát.",
+  "beginnerView": "Hỏi lực của bạn đang đi đâu.",
+  "advancedView": "Đổi pressure direction để buộc frame sai hướng rồi pass/pin.",
+  "ifThenExamples": [
+    {
+      "if": "Nếu bạn mất Hướng áp lực trong trao đổi.",
+      "then": "Dừng tăng tốc, lấy lại cấu trúc cơ thể gần nhất rồi mới tiếp tục kỹ thuật.",
+      "why": "No-gi hiện đại phạt rất nhanh khi bạn cố thắng bằng sức sau khi mất cấu trúc.",
+      "relatedSkillIds": [
+        "bodylock-passing",
+        "side-control-pin"
+      ]
+    },
+    {
+      "if": "Nếu đối thủ phản ứng đúng với hướng đầu tiên.",
+      "then": "Dùng Hướng áp lực để đổi sang nhánh an toàn hơn thay vì ép cùng một hướng.",
+      "why": "Concept tốt biến phản ứng của đối thủ thành thông tin cho quyết định tiếp theo.",
+      "relatedSkillIds": [
+        "side-control-pin",
+        "mount-control",
+        "arm-triangle-mount"
+      ]
+    }
+  ],
+  "commonMisunderstandings": [
+    {
+      "misunderstanding": "Hướng áp lực là một mẹo kỹ thuật riêng lẻ.",
+      "correction": "Hãy xem nó như quy tắc quyết định xuất hiện trong nhiều vị trí khác nhau."
+    },
+    {
+      "misunderstanding": "Bạn chỉ cần hiểu khái niệm là tự động dùng được trong live roll.",
+      "correction": "Khái niệm phải được gắn với body signal, cue ngắn và positional rolling."
+    }
+  ],
+  "trainingCues": [
+    "Gọi tên Hướng áp lực trước khi tăng lực.",
+    "Tìm body signal, không đoán bằng cảm giác chung.",
+    "Nếu mất cấu trúc, reset một layer trước.",
+    "Drill chậm, test bằng resistance tăng dần."
+  ],
+  "relatedSkillIds": [
+    "bodylock-passing",
+    "side-control-pin",
+    "mount-control",
+    "arm-triangle-mount"
+  ],
+  "relatedConceptIds": [
+    "connection-before-control",
+    "wedges",
+    "hip-line-shoulder-line"
+  ]
+}

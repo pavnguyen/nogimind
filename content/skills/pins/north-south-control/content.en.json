@@ -1,0 +1,71 @@
+{
+  "id": "north-south-control",
+  "locale": "en",
+  "name": "North South Control",
+  "description": "Use shoulder pressure, chest-to-chest, and arm control from north south to choke or transition. North-south is an underrated pin that compresses the opponent's shoulder line and sets up unique submission entries.",
+  "shortInstruction": "Position your head at their sternum, squeeze your elbows together against their shoulders, and drive your weight into their chest. Look for the north-south choke or transition to side control.",
+  "summary": "North-south control uses body alignment along the opponent's center line to compress their shoulder line and restrict movement. The key pressure points are: your head driving into their sternum (prevents them from looking away), your arms trapping their shoulders (prevents arm movement), and your chest weight compressing their torso (restricts breathing and hip movement). North-south is a transitional pin that leads to the north-south choke, kimura, or side control transitions.",
+  "whyItWorks": [
+    "Head pressure on the sternum prevents the opponent from turning their head or looking away, which is the first step of most escapes",
+    "Arm compression (squeezing your elbows to trap their arms) prevents them from framing or posting to escape",
+    "Chest-to-chest weight compression restricts their diaphragm movement, creating breathing urgency that forces escape attempts",
+    "The north-south position attacks a different plane than side control — the opponent cannot use the same escape mechanics"
+  ],
+  "commonMistakes": [
+    "Letting your head drift to the side — the head must drive into the sternum to maintain pressure",
+    "Keeping arms too wide — elbows must be pinched together to trap the opponent's arms",
+    "Raising your hips too high — this removes the chest compression and allows the opponent to hip escape",
+    "Staying too long in north-south without attacking — it is a transitional position, not a static pin"
+  ],
+  "coachingCues": [
+    "Head on the sternum, always",
+    "Pinch the elbows, trap the arms",
+    "Chest weight on their chest",
+    "Attack or transition — do not stay"
+  ],
+  "safetySummary": [
+    "The north-south choke can come on fast — release immediately on tap, as choke pressure from this angle can compress the trachea",
+    "Do not drive your head into the opponent's throat — the sternum is the target, not the throat",
+    "If the opponent has a history of neck issues, avoid aggressive north-south pressure"
+  ],
+  "keyCorrections": [
+    "If they keep shrimping out: your head is not on the sternum — drive your head deeper into their chest",
+    "If they keep framing with their arms: your elbows are too wide — pinch them together to trap the arms",
+    "If they roll you over: you are too far forward — keep your weight centered over their chest"
+  ],
+  "systemLogic": {
+    "corePrinciple": "North-south control has three structural pillars: Head Position → Arm Trap → Chest Compression",
+    "decisionTree": [
+      {
+        "condition": "General application",
+        "action": "If Pillar 1, Head Position: your forehead drives into their sternum (not their throat). This keeps their head pinned and prevents them from looking away or posting with the far arm"
+      },
+      {
+        "condition": "General application",
+        "action": "If Pillar 2, Arm Trap: your upper arms squeeze against their shoulders, pinning their arms to the mat. Your elbows should be close together, not flared. This prevents them from framing on your hips or posting to escape"
+      },
+      {
+        "condition": "General application",
+        "action": "If Pillar 3, Chest Compression: your chest weight drives into their upper torso, restricting their ability to hip escape or bridge. The compression also makes breathing shallow, creating urgency"
+      },
+      {
+        "condition": "From north-south",
+        "action": "you have three attack branches: (1) North-south choke, slide your forearm under their neck while keeping head pressure, (2) Kimura — isolate their near arm and rotate into the kimura grip, (3) Transition to side control or knee-on-belly"
+      },
+      {
+        "condition": "General application",
+        "action": "If the opponent escapes to their side, follow them and take the back. The north-south to back take is a high-percentage transition"
+      }
+    ]
+  },
+  "moneyDetails": [
+    "North-south is one of the least defended pins in BJJ — most grapplers train extensively for side control escapes but neglect north-south",
+    "The north-south choke is a high-percentage submission that catches even experienced grapplers off guard",
+    "Mastering north-south control gives you a complete top game that attacks both planes (side and center line)"
+  ],
+  "fixItFast": [
+    "If they keep shrimping out: drive your head deeper into the sternum and pinch your elbows tighter — this kills the hip escape",
+    "If they bridge to roll you: post your toes and drive your weight forward into their chest",
+    "If they turn to their side: follow them and take the back — do not stay in north-south"
+  ]
+}

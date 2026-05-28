@@ -1,0 +1,70 @@
+{
+  "id": "side-control-escape",
+  "locale": "vi",
+  "name": "side control Thoát",
+  "description": "Biến khung hình thành lối thoát hông, underhook hoặc rùa thay vì để lộ lưng một cách ngẫu nhiên.",
+  "shortInstruction": "Khung ngang hông, đưa đầu gối gần vào, thoát hông để tạo khoảng trống và thu hồi guard hoặc thu lưng qua underhook.",
+  "summary": "side control lối thoát sử dụng khung cứng ở hông để tạo thành hình nêm, sau đó thoát hông để phục hồi vị trí bên trong. Hệ thống có hai nhánh chính: phục hồi underhook (đưa lưng hoặc guard) và phục hồi khuỷu tay đầu gối (guard).",
+  "whyItWorks": [
+    "Khung cẳng tay ngang hông sử dụng cấu trúc xương chống lại cơ, ngăn đối thủ đè bẹp thân mình",
+    "Hông thoát ra trước underhook tạo ra góc cần thiết để đi vào không gian bên trong",
+    "Xoay sang một bên sẽ sắp xếp lại bộ xương của bạn để bạn bị đè lên hông chứ không phải xương sườn",
+    "Nhánh underhook mang lại cho bạn phần thưởng cao nhất (tiềm năng lấy lại) nhưng cần nhiều không gian hơn nhánh khuỷu tay đầu gối"
+  ],
+  "commonMistakes": [
+    "Đóng khung trên ngực thay vì hông - điều này khiến đối thủ đè bẹp bạn vì khung quá cao",
+    "Quay lưng lại với đối thủ (để lộ lưng) thay vì lao vào họ bằng underhook",
+    "Đang cố gắng shrimp mà không tạo khung hình đầu tiên — bạn chỉ trượt mà không tạo khoảng trống",
+    "Từ bỏ cuộc chiến underhook quá sớm và chấp nhận thế trận ngang bằng"
+  ],
+  "coachingCues": [
+    "Khung ở hông, không phải ở ngực",
+    "Giành được underhook hoặc chết vì cố gắng",
+    "Hông thoát trước rồi hãy suy nghĩ"
+  ],
+  "safetySummary": [
+    "side control là một trong những tư thế ngột ngạt nhất trong BJJ — hoảng loạn là điều bình thường nhưng phải được kiểm soát bằng cách kiểm soát hơi thở",
+    "Lộ lưng trong một cuộc tranh giành có thể dẫn đến rear-naked choke mục; giữ cánh tay gần ngang bụng của bạn",
+    "Nếu bạn cảm thấy đau xương sườn do áp lực, hãy lập tức giữ khung và thoát hông thay vì cố gắng đè đối thủ xuống."
+  ],
+  "systemLogic": {
+    "corePrinciple": "side control lối thoát có hai nhánh vào dựa trên những gì đối thủ mang lại cho bạn: nhánh underhook (lấy lại hoặc granby) để có phần thưởng cao hơn hoặc nhánh khuỷu tay đầu gối (half guard hồi phục) để có độ an toàn cao hơn.",
+    "decisionTree": [
+      {
+        "condition": "Đối thủ cho bạn khoảng trống để chèn underhook",
+        "action": "Hông thoát ra → nhét underhook → đưa đầu gối bên ngoài của bạn vào → chuyển sang tư thế không chiến hoặc một chân. Chi nhánh này mang lại tiềm năng."
+      },
+      {
+        "condition": "Đối thủ chặn underhook và tiến về phía trước",
+        "action": "Chuyển sang nhánh đầu gối-khuỷu tay: khung trên hông → thoát hông → chèn gần đầu gối → nối đầu gối với khuỷu tay cùng một bên → phục hồi half guard."
+      },
+      {
+        "condition": "Đối thủ crossface tấn công bạn trong lúc chạy trốn",
+        "action": "Đặt cả hai cẳng tay lên bắp tay, quay đầu về phía thảm và hông thoát ra ngay lập tức. Đừng chống lại crossface — hãy thoát khỏi nó."
+      },
+      {
+        "condition": "Đối thủ dồn bạn bằng cách đẩy vai bạn vào thảm",
+        "action": "Đập cánh tay gần dưới chân họ và lấy lưng. Động lực tiến về phía trước của họ giúp bạn có cơ hội tiến về phía sau."
+      },
+      {
+        "condition": "Không có underhook và khuỷu tay đầu gối",
+        "action": "Chấp nhận vị trí rùa và sử dụng trình tự rùa trốn thoát thay vì nằm im và hấp thụ sát thương. Rùa là một tư thế chuyển tiếp chứ không phải là một tư thế nghỉ ngơi."
+      }
+    ],
+    "exitStrategies": [
+      "Nếu đối thủ chặn underhook, hãy đứng trên hông, chèn đầu gối gần của bạn ngang qua đường hông của họ và lăn tròn để phục hồi guard.",
+      "Nếu bạn khôi phục half guard, hãy thiết lập ngay knee shield để ngăn chúng làm phẳng lại bạn.",
+      "Nếu cuộc trốn thoát thất bại, hãy thiết lập lại các lớp sinh tồn và đợi lần mở cửa tiếp theo - đừng ép thực hiện lần thứ hai từ vị trí bị xâm phạm."
+    ]
+  },
+  "moneyDetails": [
+    "Lối thoát side control là lối thoát có tần suất cao nhất trong BJJ — bạn sẽ sử dụng nó trong mỗi lần cuộn",
+    "Nắm vững nhánh underhook mở lại sẽ giành được 4 điểm trong cuộc thi",
+    "Một chuỗi thoát side control tốt sẽ tiết kiệm năng lượng của bạn để bạn có thể tấn công thay vì sống sót cả hiệp"
+  ],
+  "fixItFast": [
+    "Nếu họ crossface bạn cứng: đặt cả hai cẳng tay lên bắp tay của họ, quay đầu về phía thảm và hông thoát ra ngay lập tức",
+    "Nếu họ dồn bạn bằng cách ấn vai bạn vào thảm: hãy đập cánh tay gần dưới chân họ và lấy lưng",
+    "Nếu bạn không thể có được khung underhook: ở hông, hãy chèn đầu gối gần của bạn ngang qua đường hông của họ và lăn tròn để phục hồi guard"
+  ]
+}

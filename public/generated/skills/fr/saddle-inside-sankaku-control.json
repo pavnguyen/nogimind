@@ -1,0 +1,125 @@
+{
+  "id": "saddle-inside-sankaku-control",
+  "domain": "submission_systems",
+  "level": "advanced",
+  "status": "draft",
+  "name": "saddle / inside sankaku Contrôle",
+  "aliases": [],
+  "tags": [
+    "saddle",
+    "inside-sankaku",
+    "heel-hook",
+    "knee-safety",
+    "tier:safety-critical",
+    "meta:modern-common",
+    "risk:safety-critical",
+    "family:leg-lock",
+    "group:leg-lock",
+    "modern-no-gi"
+  ],
+  "keywords": [
+    "saddle",
+    "inside sankaku",
+    "knee line"
+  ],
+  "modernSystemGroup": "leg_lock",
+  "relatedSkills": [
+    {
+      "id": "false-reap-entry",
+      "type": "recommended"
+    },
+    {
+      "id": "k-guard-matrix",
+      "type": "recommended"
+    },
+    {
+      "id": "heel-hook-safety",
+      "type": "recommended"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "leg-lock-safety-basics",
+    "heel-hook-safety",
+    "k-guard-entry"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [
+    "S'ils sortent du saddle, vos jambes étaient trop lâches : serrez la cage pour les jambes.",
+    "Si vous ne trouvez pas le heel hook, vous êtes trop bas sur sa jambe : montez plus haut vers sa hanche.",
+    "S'ils vous saisissent les mains, revenez en position intérieure – ne les laissez pas contrôler vos mains."
+  ],
+  "version": 1,
+  "updatedAt": "2026-05-21T00:24:30.779Z",
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "fr",
+  "description": "Le saddle (inside sankaku) est l'une des positions d'enchevêtrement des jambes les plus fortes : il contrôle la ligne des hanches et des genoux de l'adversaire, mais nécessite un combat clair avec les mains et une conscience de la sécurité pour le maintenir et le terminer.",
+  "shortInstruction": "Jambes croisées sur le corps, pied sur la hanche, combats de mains clairs – le saddle est le roi des enchevêtrements de jambes.",
+  "summary": "Le saddle (inside sankaku) est la position d'enchevêtrement des jambes la plus dominante dans No-Gi. Vos jambes sont croisées sur le corps de l'adversaire (une jambe sur son ventre, l'autre accrochant sa jambe arrière), avec votre pied posé sur sa hanche. Depuis le saddle, vous contrôlez à la fois la rotation de leurs hanches et leur ligne de genoux, ce qui rend leur évasion extrêmement difficile. L'attaque principale est le heel hook intérieur, mais le saddle vous donne également accès aux prises arrière et aux balayages.",
+  "whyItWorks": [
+    "La position des jambes crée une cage autour de leur corps : ils ne peuvent pas rouler ou tourner sans porter votre poids.",
+    "Le pied sur leur hanche contrôle leur distance et les empêche de se positionner.",
+    "A partir du saddle, le heel hook est déjà partiellement exposé — il suffit de trouver l'angle.",
+    "Principe de Danaher : le saddle est la destination de la plupart des entrées de verrouillage de jambe modernes – si vous pouvez accéder au saddle, vous gagnez."
+  ],
+  "commonMistakes": [
+    "Laisser le saddle se détacher – vos jambes doivent être actives et serrées partout.",
+    "Perdre le contrôle du pied sur la hanche – le poteau de hanche est votre contrôle de distance.",
+    "Pas de combat à la main avant d'attaquer le heel hook - leurs mains peuvent défendre l'arrivée.",
+    "Assis trop bas sur son corps, vous devriez être haut sur sa cuisse et non sur son genou."
+  ],
+  "coachingCues": [
+    "Jambes croisées, pied sur la hanche, combat de mains en premier.",
+    "Si votre pied descend de la hanche, le saddle est compromis.",
+    "heel hook est le prix – le combat à mains nues est le prix.",
+    "Restez haut sur la jambe – un saddle bas est un saddle faible."
+  ],
+  "safetySummary": [
+    "Le saddle est un enchevêtrement de jambe — les heel hook du saddle peuvent causer de graves blessures au genou.",
+    "N'appliquez jamais un heel hook à partir du saddle sans contrôler sa hanche éloignée.",
+    "Établissez des protocoles clairs pour les attaques de jambes avant l’entraînement.",
+    "Relâchez immédiatement dès tout signe d'inconfort au genou de la part de votre partenaire d'entraînement."
+  ],
+  "systemLogic": {
+    "corePrinciple": "Entrez saddle (jambes croisées sur le corps, pied sur la hanche) : combat de mains pour contrôler leurs mains → identifier l'exposition du talon → aligner la rotation → terminer heel hook.",
+    "decisionTree": [
+      {
+        "condition": "ils se tournent pour échapper au heel hook",
+        "action": "transition vers la prise en arrière."
+      },
+      {
+        "condition": "ils empilent",
+        "action": "relâchez et entrez à nouveau - ne combattez pas la pile de saddle."
+      }
+    ],
+    "exitStrategies": []
+  },
+  "moneyDetails": [
+    "Votre jambe supérieure traverse son corps et accroche sa hanche éloignée – votre pied doit être sur l'os de sa hanche.",
+    "Votre jambe inférieure s'accroche sous sa jambe la plus proche - cela crée la cage de la jambe.",
+    "Combattez à la main pour contrôler leurs mains – saisissez leur manche ou leur poignet éloigné avec votre main supérieure.",
+    "La finition heel hook : faites pivoter vos hanches vers le tapis tout en tirant leur talon vers vous – la rotation externe est la finition."
+  ],
+  "nextStep": "Après le contrôle saddle, apprenez la finition intérieure heel hook et le saddle pour prendre la transition vers l'arrière.",
+  "fixItFast": [
+    "Ils continuent de tourner ? Serrez la cage de vos jambes et contrôlez leur hanche éloignée.",
+    "Vous ne trouvez pas le talon ? Montez plus haut sur leur jambe.",
+    "Ils vous prennent les mains ? Frappez vers l’intérieur du contrôle du poignet."
+  ]
+}

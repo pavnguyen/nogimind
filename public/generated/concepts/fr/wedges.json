@@ -1,0 +1,65 @@
+{
+  "id": "wedges",
+  "locale": "fr",
+  "title": "Wedges",
+  "category": "mechanical",
+  "level": "intermediate",
+  "tags": [
+    "wedge",
+    "knee shield",
+    "shin frame"
+  ],
+  "shortDefinition": "Un wedge est une partie du corps insérée pour bloquer rotation ou connexion adverse.",
+  "whyItMatters": "Les bons wedges refusent chest-to-chest, chest-to-hip ou shoulder line.",
+  "deepExplanation": "Knee shield, shin frame, head post, elbow wedge et hip block sont des wedges. Ils créent espace et dévient la force.",
+  "beginnerView": "Insérer genou, coude ou tibia là où il veut connecter poitrine.",
+  "advancedView": "Utiliser wedge pour forcer changement de pass line puis attaquer réaction.",
+  "ifThenExamples": [
+    {
+      "if": "Si vous perdez Wedges pendant l’échange.",
+      "then": "Arrêtez d’accélérer, récupérez la structure corporelle proche, puis continuez.",
+      "why": "Le no-gi moderne punit vite la force après perte de structure.",
+      "relatedSkillIds": [
+        "half-guard-knee-shield",
+        "seated-guard-retention"
+      ]
+    },
+    {
+      "if": "Si l’adversaire répond correctement à votre première ligne.",
+      "then": "Utilisez Wedges pour passer à une branche plus sûre au lieu de forcer.",
+      "why": "Un bon concept transforme la réaction adverse en information pour la décision suivante.",
+      "relatedSkillIds": [
+        "seated-guard-retention",
+        "bodylock-passing",
+        "side-control-escape"
+      ]
+    }
+  ],
+  "commonMisunderstandings": [
+    {
+      "misunderstanding": "Wedges est une astuce technique isolée.",
+      "correction": "Voyez-le comme une règle de décision présente dans plusieurs positions."
+    },
+    {
+      "misunderstanding": "Comprendre le concept suffit pour l’utiliser en live.",
+      "correction": "Le concept doit être lié à signaux corporels, cues courts et rolling positionnel."
+    }
+  ],
+  "trainingCues": [
+    "Nommez Wedges avant d’ajouter force.",
+    "Cherchez le signal corporel, pas une impression vague.",
+    "Si la structure est perdue, reset une couche d’abord.",
+    "Driller lentement, puis tester avec résistance progressive."
+  ],
+  "relatedSkillIds": [
+    "half-guard-knee-shield",
+    "seated-guard-retention",
+    "bodylock-passing",
+    "side-control-escape"
+  ],
+  "relatedConceptIds": [
+    "frames",
+    "inside-position",
+    "pressure-direction"
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "id": "heel-hook-safety",
+  "domain": "submission_systems",
+  "level": "advanced",
+  "status": "draft",
+  "name": "heel hook Sécurité",
+  "aliases": [],
+  "tags": [
+    "leg-lock",
+    "heel-hook",
+    "knee-safety"
+  ],
+  "keywords": [
+    "heel hook",
+    "knee line",
+    "saddle / inside sankaku",
+    "safety tap"
+  ],
+  "relatedSkills": [
+    {
+      "id": "k-guard-entry",
+      "type": "recommended"
+    },
+    {
+      "id": "single-leg-x-basics",
+      "type": "recommended"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "leg-lock-safety-basics",
+    "straight-ankle-lock-safety"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [
+    "Si votre partenaire doit crier « tapez » après que vous ayez appliqué une pression, vous l'appliquez trop vite.",
+    "Si vous ressentez une résistance lors de la rotation (ils ne suivent pas la force), relâchez immédiatement.",
+    "Si vous ne pouvez pas expliquer pourquoi le talon est exposé, vous n'avez pas la position — réinitialisez-la."
+  ],
+  "version": 1,
+  "updatedAt": "2026-05-21T00:24:30.755Z",
+  "contentRefs": {
+    "videos": "videos.json",
+    "qualityChecklist": "qualityChecklist"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": true,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "fr",
+  "description": "Apprenez à reconnaître l'exposition du talon, la mécanique de la force de rotation et les règles critiques de frappe avant force avant qu'une pression importante n'entre dans le heel hook.",
+  "shortInstruction": "Talon exposé ? Contrôle établi ? Force de rotation alignée ? Sinon, n’attaquez pas – contrôlez d’abord, terminez ensuite.",
+  "summary": "La sécurité heel hook est le sujet le plus important du verrouillage moderne des jambes No-Gi. Contrairement à la plupart des soumissions, le heel hook peut provoquer de graves blessures au genou (ACL, PCL, MCL, lésions du ménisque) avec très peu de force et presque aucune douleur d'avertissement. Le protocole de sécurité est le suivant : reconnaître quand un talon est exposé, établir un contrôle total de la hanche et de la jambe secondaire, aligner le vecteur de force de rotation, puis appliquer une pression lente et contrôlée. Ne « déchirez » jamais un heel hook.",
+  "whyItWorks": [
+    "Le genou a très peu de stabilité en rotation : moins de 5 degrés de rotation externe peuvent provoquer des lésions ligamentaires.",
+    "Les heel hook provoquent des blessures avant que l'adversaire ne ressente de la douleur – vous ne pouvez pas compter sur leur frappe comme seul signal de sécurité.",
+    "L'application contrôlée des heel hooks renforce la confiance et permet aux partenaires de formation d'apprendre le poste en toute sécurité.",
+    "Principe de Danaher : les blocages de jambes sont les soumissions les plus dangereuses dans BJJ – les protocoles de sécurité ne sont pas facultatifs, ils sont obligatoires."
+  ],
+  "commonMistakes": [
+    "Appliquer les heel hook de manière explosive – la « déchirure » provoque des blessures qui auraient pu être évitées avec une application lente.",
+    "Terminer sans contrôler la hanche de l'adversaire - il peut tourner et se blesser au genou.",
+    "Ne pas reconnaître le moment où un talon est exposé par rapport au moment où l'enchevêtrement n'est pas encore contrôlé.",
+    "Former des heel hook avec des partenaires imprévisibles : la confiance et la communication sont essentielles."
+  ],
+  "coachingCues": [
+    "Contrôlez d’abord, terminez ensuite – ne sautez jamais la phase de contrôle.",
+    "Lentement est doux, doux est sûr – si vous « déchirez », vous vous trompez.",
+    "Si vous ne pouvez pas expliquer pourquoi le talon est exposé, vous n'avez aucun contrôle.",
+    "Tapez tôt, tapez souvent : il n’y a aucune honte à protéger votre genou."
+  ],
+  "safetySummary": [
+    "N'appliquez JAMAIS un heel hook de manière explosive : une pression lente et contrôlée permet au partenaire de taper avant de se blesser.",
+    "Établissez toujours un contrôle total de la hanche et de la jambe secondaire avant d’appliquer une force de rotation.",
+    "Appuyez sur TOUTE sensation de pression rotationnelle sur le genou – n’attendez pas la douleur.",
+    "Ne formez pas les heel hook avec des partenaires en qui vous n'avez pas confiance.",
+    "Les heel hook ne conviennent pas aux débutants : ils nécessitent d'abord des bases solides en matière de verrouillage des jambes."
+  ],
+  "systemLogic": {
+    "corePrinciple": "Enchevêtrement des jambes établi : contrôler la hanche → contrôler la jambe secondaire → exposer le talon → aligner le vecteur de rotation → appliquer une pression lente → terminer.",
+    "decisionTree": [
+      {
+        "condition": "il manque une étape",
+        "action": "revenez à cette étape avant d’avancer."
+      },
+      {
+        "condition": "Application générale",
+        "action": "La liste de contrôle de sécurité n'est PAS facultative : c'est la partie la plus importante de la formation heel hook."
+      }
+    ],
+    "exitStrategies": []
+  },
+  "moneyDetails": [
+    "L'exposition du talon se produit lorsque le talon de l'adversaire est tourné vers votre poitrine et que son genou est fixé par votre enchevêtrement.",
+    "Contrôlez sa hanche opposée avec votre main ou votre jambe – cela l’empêche de s’éloigner et de se blesser.",
+    "Le vecteur rotationnel doit être aligné avec la courbure naturelle du genou – rotation externe, et non varus/valgus.",
+    "Appliquez une pression à 10 % pendant 3 secondes, puis à 20 % pendant 3 secondes — s'ils ne tapent pas, vous avez le contrôle."
+  ],
+  "nextStep": "Après heel hook sécurité, apprenez la commande saddle et la mécanique interne de heel hook.",
+  "fixItFast": [
+    "Votre partenaire s'est blessé ? Arrêtez immédiatement l’entraînement – ​​réévaluez votre contrôle et votre vitesse.",
+    "Vous n'êtes pas sûr de la finition ? Relâchez et rentrez – il n’y a aucune pénalité pour être en sécurité.",
+    "Le partenaire n'a pas tapé ? Vous n’avez peut-être pas la position – vérifiez votre enchevêtrement et l’exposition du talon."
+  ]
+}

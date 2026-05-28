@@ -1,0 +1,124 @@
+{
+  "id": "hand-fighting",
+  "domain": "wrestle_up_wrestling",
+  "level": "beginner",
+  "status": "draft",
+  "name": "Combat à la main",
+  "aliases": [],
+  "tags": [
+    "wrestling",
+    "grips"
+  ],
+  "keywords": [
+    "hand fighting",
+    "inside position",
+    "underhook",
+    "collar tie"
+  ],
+  "relatedSkills": [
+    {
+      "id": "snapdown-front-headlock",
+      "type": "recommended"
+    },
+    {
+      "id": "single-leg-bjj",
+      "type": "recommended"
+    },
+    {
+      "id": "front-headlock-defense",
+      "type": "recommended"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "inside-position"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [],
+  "version": 1,
+  "updatedAt": "2026-05-21T00:24:30.760Z",
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "fr",
+  "description": "Gagnez le combat de mains pour contrôler les poignets, les liens intérieurs, les underhook et la position de la tête. Le combat à la main est la bataille pour le contrôle qui se déroule avant toute technique : celui qui remporte le combat à la main dicte l'engagement.",
+  "shortInstruction": "Gagnez l'égalité intérieure, assurez le contrôle du poignet, combattez pour le underhook et établissez la position de la tête. Si vous perdez prise, revenez immédiatement à l’intérieur – ne vous battez pas depuis l’extérieur.",
+  "summary": "Le combat à la main est la bataille invisible de contrôle de la préhension, du poignet et du bras qui détermine qui initie le retrait, la passe guard ou la traction guard. Les principes clés sont : (1) inside control bat outside control – votre main entre le bras et le corps contrôle son centre, (2) deux contre un bat en tête-à-tête – utilisez les deux mains sur l'un de leurs bras pour créer des avantages, (3) frappez immédiatement lorsque vous perdez la position intérieure – ne saisissez pas de l'extérieur, (4) la position de la tête contrôle la position du corps – le underhook nécessite le contrôle de la tête pour être efficace.",
+  "whyItWorks": [
+    "La position intérieure (votre main entre son bras et son corps) vous donne un avantage mécanique – vous contrôlez sa ligne médiane",
+    "Le deux contre un (les deux mains sur un de leurs bras) crée un avantage de force local qui neutralise leur autre bras.",
+    "Le underhook est la victoire en combat manuel la plus précieuse car il vous donne le contrôle du haut du corps.",
+    "La position de la tête (du front jusqu'à la mâchoire) l'empêche de se poster sur votre tête et brise sa posture"
+  ],
+  "commonMistakes": [
+    "Saisir depuis l'extérieur (en passant autour de leurs bras) - c'est plus faible que de frapper vers l'intérieur",
+    "Combattre au corps à corps (en tête-à-tête) contre un adversaire plus fort – utilisez-le en deux contre un pour annuler la force",
+    "Perdre le combat à mains nues puis essayer de forcer un retrait à partir d'une position compromise",
+    "Ignorer la position de la tête – la commande manuelle sans commande de la tête est incomplète"
+  ],
+  "coachingCues": [
+    "L'intérieur bat l'extérieur, toujours",
+    "Le deux contre un bat le un contre un",
+    "Frappez en arrière, ne tendez pas la main",
+    "Mains et tête ensemble"
+  ],
+  "safetySummary": [
+    "Les combats à la main peuvent entraîner des blessures aux doigts si vous saisissez de manière agressive : protégez vos doigts en les saisissant avec la paume et non avec le bout des doigts.",
+    "Ne verrouillez pas vos doigts ou ne serrez pas si fort que vous ne pouvez pas relâcher rapidement : des poignées verrouillées en position debout peuvent provoquer des blessures à l'épaule lorsque l'adversaire bouge brusquement.",
+    "Évitez de vous piquer les yeux – gardez vos mains visibles et contrôlées pendant les échanges de combats à main"
+  ],
+  "systemLogic": {
+    "corePrinciple": "Les combats à la main déterminent qui initie l'engagement. La hiérarchie des priorités est la suivante : égalité intérieure → contrôle du poignet → underhook → position de la tête. Si vous perdez une priorité, revenez à l’intérieur – ne vous battez jamais depuis l’extérieur.",
+    "decisionTree": [
+      {
+        "condition": "L'adversaire a une égalité intérieure (sa main entre votre bras et votre corps)",
+        "action": "Renvoyez votre bras à l’intérieur en encerclant votre coude sous le leur. Ne tendez pas la main et ne saisissez pas de l’extérieur – la main intérieure gagne toujours le combat de préhension."
+      },
+      {
+        "condition": "L'adversaire contrôle vos deux poignets",
+        "action": "Libérez une main avec une rotation du poignet, puis établissez un contrôle à deux contre un sur leur bras principal. Le deux contre un crée un avantage de force local qui neutralise leur autre bras."
+      },
+      {
+        "condition": "L'adversaire vous baisse la tête",
+        "action": "Élargissez votre position et gardez les mains levées. La position de la tête contrôle la position du corps – s’ils contrôlent votre tête, ils contrôlent votre posture."
+      },
+      {
+        "condition": "L'adversaire est plus fort dans le col cravate",
+        "action": "Passez à un overhook ou à deux contre un pour neutraliser leur avantage en force. Ne combattez pas la force par la force – changez la prise."
+      },
+      {
+        "condition": "L'adversaire établit le underhook",
+        "action": "Passez à un underhook du côté éloigné (passez sous leur bras éloigné) ou utilisez un siffleur (overhook) pour contrer leur underhook. Enfoncez votre épaule dans leur poitrine pour les réaplatir."
+      }
+    ],
+    "exitStrategies": [
+      "Si vous continuez à perdre le combat à main levée, percez des entrées de frappe – vous atteignez au lieu de frapper.",
+      "Si l'adversaire est plus fort dans le combat à main, utilisez son bras principal en deux contre un pour neutraliser son avantage en force.",
+      "Le contrôle manuel sans position de la tête est incomplet – associez toujours le combat avec les mains à la position de la tête du front à la mâchoire."
+    ]
+  },
+  "moneyDetails": [
+    "Le combat à la main détermine le résultat de la plupart des matchs de grappling avant qu'une technique ne soit tentée.",
+    "Gagner le combat à main contre un adversaire plus fort nécessite de la technique (coups, deux contre un) et non de la force.",
+    "Le combat à mains nues est la compétence la plus sous-entraînée dans BJJ : la maîtriser vous donne un avantage immédiat sur la plupart des adversaires."
+  ],
+  "fixItFast": [
+    "S'ils continuent à saisir vos poignets : utilisez une rotation du poignet pour libérer votre main et rétablir la position intérieure.",
+    "S'ils sont plus forts au niveau du collier : passez à un overhook ou à deux contre un",
+    "S'ils continuent à vous casser la tête : élargissez votre position et gardez les mains levées."
+  ]
+}

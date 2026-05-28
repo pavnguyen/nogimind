@@ -1,0 +1,61 @@
+{
+  "id": "closed-guard-sweeps",
+  "locale": "fr",
+  "name": "closed guard Balayages",
+  "description": "Brisez la posture de l'adversaire, créez un élan et balayez-le de closed guard à l'aide de la mécanique du hip bump, des ciseaux, de la fleur ou du pendule.",
+  "shortInstruction": "Briser la posture, déséquilibrer, tirer l'angle et balayer – chaque balayage commence avec un adversaire brisé.",
+  "summary": "closed guard sweeps transforme votre guard d'une position neutre en position de score. Le principe clé est que vous ne pouvez pas sweep un adversaire bien basé – vous devez d'abord briser son posture, le déséquilibrer et attaquer lorsqu'il réagit. Les quatre grands sweeps sont la bosse de la hanche (vers l'avant), les ciseaux (sur le côté), la fleur (en diagonale) et le pendule (circulaire). Chacun exploite une réaction différente à votre contrôle posture.",
+  "whyItWorks": [
+    "Un adversaire à la posture brisée a son poids chargé vers l'avant, ce qui le rend vulnérable à la redirection.",
+    "Les balayages fonctionnent comme un dilemme : défendre le bosse de la hanche, se faire ciseaux ; défendre les ciseaux, se faire cogner la hanche.",
+    "Les jambes sont plus fortes que les bras : utiliser vos jambes pour balayer vos muscles les plus forts contre leur base.",
+    "Principe Danaher : le balayage est le produit final de la rupture de posture + angle + élan."
+  ],
+  "commonMistakes": [
+    "Balayer sans rompre sa posture au préalable – un adversaire en posture peut simplement sortir du balayage.",
+    "Laisser l'adversaire poster sur votre tête pendant le balayage – cadrez immédiatement pour éviter cela.",
+    "Abandonner le closed guard après un balayage raté – ayez toujours un plan re-guard.",
+    "Utiliser uniquement les bras pour balayer au lieu d’engager les hanches et les jambes."
+  ],
+  "coachingCues": [
+    "Brisez la posture avant chaque balayage – sans exception.",
+    "Balayage des jambes, guidage des bras – vos bras contrôlent la direction, vos jambes fournissent la puissance.",
+    "Engagez-vous pleinement ou non sweep - à mi-chemin sweeps donnez-leur le pass.",
+    "Balayez vers une épingle, pas seulement pour vous échapper – terminez en haut avec le contrôle."
+  ],
+  "safetySummary": [
+    "Ne tournez pas le cou de votre partenaire lorsque vous le tirez dans le sweep : contrôlez le corps, pas la tête.",
+    "Lorsque vous atterrissez au sommet après un sweep, protégez votre tête pour éviter de heurter le tapis.",
+    "S'ils atterrissent sur vos jambes lors d'un sweep raté, récupérez immédiatement guard pour éviter la pression sur les genoux."
+  ],
+  "keyCorrections": [
+    "Le hip bump a échoué ? Ils ont posté leur bras – passez à un balayage en ciseaux du même côté.",
+    "Le balayage aux ciseaux a échoué ? Ils ont enjambé votre jambe – transition vers un triangle ou un balayage pendulaire.",
+    "Tous les balayages échouent ? Votre pause de posture est faible – revenez d’abord au contrôle de votre posture."
+  ],
+  "systemLogic": {
+    "corePrinciple": "Briser la posture → déséquilibrer → choisir le balayage en fonction de sa réaction → atterrir sur une quille dominante.",
+    "decisionTree": [
+      {
+        "condition": "Dilemme : vers l’avant (hanche bump) ou latéralement (ciseaux)",
+        "action": "ils ne peuvent pas défendre les deux simultanément."
+      },
+      {
+        "condition": "ils défendent le balayage en prenant des postures, attaquent le triangle ou le armbar à la place",
+        "action": "le guard est un système, pas des mouvements isolés."
+      }
+    ]
+  },
+  "moneyDetails": [
+    "Pour le coup de hanche, tirez la tête vers votre poitrine et frappez-le avec vos hanches – ne vous contentez pas de pousser avec vos bras.",
+    "Pour les ciseaux, coupez votre jambe inférieure sur le ventre pendant que votre jambe supérieure bloque son épaule – il s'agit d'une coupe au niveau du genou, pas d'une poussée de jambe.",
+    "Pour le balayage des fleurs, donnez un coup de pied depuis la hanche jusqu'à la ligne médiane : l'élan vient de la hanche et non du pied.",
+    "Terminez toujours le balayage par une broche dominante (mount, side control ou knee-on-belly) - ne vous contentez pas de les supprimer et de les réinitialiser."
+  ],
+  "nextStep": "Après avoir maîtrisé les balayages closed guard, apprenez les soumissions de closed guard (triangle, armbar) à enchaîner avec vos balayages.",
+  "fixItFast": [
+    "Le hip bump ne fonctionne pas ? Vous poussez, pas de cognement des hanches – faites monter vos hanches, pas vos bras.",
+    "Le balayage aux ciseaux vous semble faible ? Votre jambe inférieure ne coupe pas assez profondément – ​​amenez-la plus haut sur son ventre.",
+    "Ils continuent de poster ? Utilisez leur message comme entrée à armbar ou kimura."
+  ]
+}

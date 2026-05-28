@@ -1,3 +1,4 @@
+import { useMemo } from 'react'
 import { Link, useParams } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import { Badge } from '../components/common/Badge'
@@ -6,10 +7,11 @@ import { PageShell } from '../components/common/PageShell'
 import { SectionCard } from '../components/common/SectionCard'
 import { useArchetypeQuery } from '../queries/archetypeQueries'
 import { useConceptsQuery } from '../queries/conceptQueries'
-import { useSkillsQuery } from '../queries/skillQueries'
+import { useManifestQuery } from '../queries/contentQueries'
 import { useSettingsStore } from '../stores/useSettingsStore'
+import type { ManifestEntry } from '../content-runtime/manifests'
 import type { ConceptNode } from '../types/concept'
-import type { LanguageCode, SkillNode } from '../types/skill'
+import type { LanguageCode } from '../types/skill'
 import { getLocalizedArray, getLocalizedText } from '../utils/localization'
 
 export default function ArchetypeDetailPage() {
@@ -17,10 +19,11 @@ export default function ArchetypeDetailPage() {
   const { t } = useTranslation()
   const language = useSettingsStore((state) => state.language)
   const archetypeQuery = useArchetypeQuery(archetypeId)
-  const skills = useSkillsQuery().data ?? []
+  const manifestQuery = useManifestQuery(language)
+  const manifest = useMemo(() => manifestQuery.data ?? [], [manifestQuery.data])
   const concepts = useConceptsQuery().data ?? []
   const archetype = archetypeQuery.data
-  const skillsById = new Map(skills.map((skill) => [skill.id, skill]))
+  const skillsById = useMemo(() => new Map(manifest.map((s) => [s.id, s])), [manifest])
   const conceptsById = new Map(concepts.map((concept) => [concept.id, concept]))
 
   if (!archetypeQuery.isLoading && !archetype) {
@@ -55,13 +58,13 @@ export default function ArchetypeDetailPage() {
           <ConceptLinks ids={archetype.coreConceptIds} conceptsById={conceptsById} lang={language} />
         </SectionCard>
         <SectionCard title={t('archetypes.coreSkills')}>
-          <SkillLinks ids={archetype.coreSkillIds} skillsById={skillsById} lang={language} />
+          <SkillLinks ids={archetype.coreSkillIds} skillsById={skillsById} />
         </SectionCard>
         <SectionCard title={t('archetypes.supportSkills')}>
-          <SkillLinks ids={archetype.supportSkillIds} skillsById={skillsById} lang={language} />
+          <SkillLinks ids={archetype.supportSkillIds} skillsById={skillsById} />
         </SectionCard>
         <SectionCard title={t('archetypes.requiredDefensiveSkills')}>
-          <SkillLinks ids={archetype.requiredDefensiveSkillIds} skillsById={skillsById} lang={language} />
+          <SkillLinks ids={archetype.requiredDefensiveSkillIds} skillsById={skillsById} />
         </SectionCard>
       </div>
 
@@ -80,7 +83,7 @@ export default function ArchetypeDetailPage() {
               <p className="mt-1 text-sm leading-6 text-slate-200">{getLocalizedText(strategy.then, language)}</p>
               <p className="mt-3 text-xs font-semibold uppercase tracking-wide text-slate-500">{t('ifThen.why')}</p>
               <p className="mt-1 text-sm leading-6 text-slate-400">{getLocalizedText(strategy.why, language)}</p>
-              <SkillLinks ids={strategy.skillIds} skillsById={skillsById} lang={language} className="mt-3" />
+              <SkillLinks ids={strategy.skillIds} skillsById={skillsById} className="mt-3" />
             </article>
           ))}
         </div>
@@ -101,12 +104,10 @@ const ListCard = ({ title, items, tone = 'default' }: { title: string; items: st
 const SkillLinks = ({
   ids,
   skillsById,
-  lang,
   className = '',
 }: {
   ids: string[]
-  skillsById: Map<string, SkillNode>
-  lang: LanguageCode
+  skillsById: Map<string, ManifestEntry>
   className?: string
 }) => {
   const { t } = useTranslation()
@@ -115,7 +116,7 @@ const SkillLinks = ({
     <div className={`flex flex-wrap gap-2 ${className}`}>
       {skills.map((skill) => (
         <Link key={skill?.id} to={`/skills/${skill?.id}`} className="rounded-md border border-cyan-300/20 px-2 py-1 text-xs text-cyan-100 hover:bg-white/10">
-          {getLocalizedText(skill?.title, lang)}
+          {skill?.name}
         </Link>
       ))}
       {!skills.length ? <span className="text-xs text-slate-500">{t('common.none')}</span> : null}

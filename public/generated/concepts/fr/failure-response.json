@@ -1,0 +1,65 @@
+{
+  "id": "failure-response",
+  "locale": "fr",
+  "title": "Réponse à l’échec",
+  "category": "strategic",
+  "level": "intermediate",
+  "tags": [
+    "failure response",
+    "transition",
+    "branch"
+  ],
+  "shortDefinition": "Failure response est le plan quand la première technique est bloquée.",
+  "whyItMatters": "Le moment d’échec fait freeze, overcommit ou expose cou/dos/jambes.",
+  "deepExplanation": "Un bon système définit: inside perdu reset; turn away back; frame change angle. Échec n’est pas arrêt, c’est branche.",
+  "beginnerView": "Savoir quoi faire quand le mouvement ne marche pas.",
+  "advancedView": "Concevoir pour que le premier échec ouvre seconde option.",
+  "ifThenExamples": [
+    {
+      "if": "Si vous perdez Réponse à l’échec pendant l’échange.",
+      "then": "Arrêtez d’accélérer, récupérez la structure corporelle proche, puis continuez.",
+      "why": "Le no-gi moderne punit vite la force après perte de structure.",
+      "relatedSkillIds": [
+        "failure-response-transitions",
+        "scramble-control"
+      ]
+    },
+    {
+      "if": "Si l’adversaire répond correctement à votre première ligne.",
+      "then": "Utilisez Réponse à l’échec pour passer à une branche plus sûre au lieu de forcer.",
+      "why": "Un bon concept transforme la réaction adverse en information pour la décision suivante.",
+      "relatedSkillIds": [
+        "scramble-control",
+        "bodylock-passing",
+        "front-headlock-defense"
+      ]
+    }
+  ],
+  "commonMisunderstandings": [
+    {
+      "misunderstanding": "Réponse à l’échec est une astuce technique isolée.",
+      "correction": "Voyez-le comme une règle de décision présente dans plusieurs positions."
+    },
+    {
+      "misunderstanding": "Comprendre le concept suffit pour l’utiliser en live.",
+      "correction": "Le concept doit être lié à signaux corporels, cues courts et rolling positionnel."
+    }
+  ],
+  "trainingCues": [
+    "Nommez Réponse à l’échec avant d’ajouter force.",
+    "Cherchez le signal corporel, pas une impression vague.",
+    "Si la structure est perdue, reset une couche d’abord.",
+    "Driller lentement, puis tester avec résistance progressive."
+  ],
+  "relatedSkillIds": [
+    "failure-response-transitions",
+    "scramble-control",
+    "bodylock-passing",
+    "front-headlock-defense"
+  ],
+  "relatedConceptIds": [
+    "dilemma-attacks",
+    "positional-hierarchy",
+    "early-vs-late-defense"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "id": "deliberate-practice",
+  "locale": "en",
+  "title": "Deliberate Practice",
+  "category": "training",
+  "level": "fundamental",
+  "tags": [
+    "training",
+    "feedback loop",
+    "practice"
+  ],
+  "shortDefinition": "Deliberate practice means choosing one small cue, measuring results, and increasing resistance step by step.",
+  "whyItMatters": "Knowing many techniques does not become skill without a feedback loop.",
+  "deepExplanation": "A good block has static reps, progressive resistance, positional rolling, live testing, and journaling. Each loop asks: which cue worked, which failed, what problem repeated?",
+  "beginnerView": "Train one small goal across many rounds.",
+  "advancedView": "Design constraints that force the skill to appear under real pressure.",
+  "ifThenExamples": [
+    {
+      "if": "If you lose Deliberate Practice during the exchange.",
+      "then": "Stop accelerating, recover the nearest body structure, then continue the technique.",
+      "why": "Modern no-gi punishes forceful continuation after structure is lost.",
+      "relatedSkillIds": [
+        "positional-hierarchy",
+        "failure-response-transitions"
+      ]
+    },
+    {
+      "if": "If the opponent correctly answers your first line.",
+      "then": "Use Deliberate Practice to switch to a safer branch instead of forcing the same line.",
+      "why": "A good concept turns the opponent’s reaction into information for the next decision.",
+      "relatedSkillIds": [
+        "failure-response-transitions",
+        "scramble-control",
+        "bodylock-passing"
+      ]
+    }
+  ],
+  "commonMisunderstandings": [
+    {
+      "misunderstanding": "Deliberate Practice is a single technical trick.",
+      "correction": "Treat it as a decision rule that appears across many positions."
+    },
+    {
+      "misunderstanding": "Understanding the concept automatically makes it work live.",
+      "correction": "The concept needs body signals, short cues, and positional rolling."
+    }
+  ],
+  "trainingCues": [
+    "Name Deliberate Practice before adding force.",
+    "Find the body signal instead of guessing generally.",
+    "If structure is lost, reset one layer first.",
+    "Drill slowly, then test with progressive resistance."
+  ],
+  "relatedSkillIds": [
+    "positional-hierarchy",
+    "failure-response-transitions",
+    "scramble-control",
+    "bodylock-passing"
+  ],
+  "relatedConceptIds": [
+    "positional-rolling",
+    "failure-response",
+    "early-vs-late-defense"
+  ]
+}

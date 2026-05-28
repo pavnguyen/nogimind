@@ -1,0 +1,128 @@
+{
+  "id": "wrist-ride-back-exposure",
+  "domain": "pins_rides",
+  "level": "advanced",
+  "status": "draft",
+  "name": "Exposition du tour du poignet à l'arrière",
+  "aliases": [],
+  "tags": [
+    "wrist-ride",
+    "back-exposure",
+    "turtle",
+    "tier:modern-expansion",
+    "meta:modern-common",
+    "risk:medium",
+    "family:ride",
+    "group:wrist-ride",
+    "modern-no-gi"
+  ],
+  "keywords": [
+    "wrist ride",
+    "spiral ride",
+    "back exposure"
+  ],
+  "modernSystemGroup": "wrist_ride",
+  "relatedSkills": [
+    {
+      "id": "crab-ride",
+      "type": "recommended"
+    },
+    {
+      "id": "back-control",
+      "type": "recommended"
+    },
+    {
+      "id": "sprawl-go-behind",
+      "type": "recommended"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "turtle-ride",
+    "hand-fighting"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [
+    "S’ils ne s’effondrent pas : augmentez la pression thoracique sur l’épaule proche et tirez plus fort sur le poignet.",
+    "S'ils libèrent le poignet : saisissez-le immédiatement à nouveau ou passez à la commande du poignet proche.",
+    "S'ils roulent vers vous : relâchez le poignet et reprenez le dos"
+  ],
+  "version": 1,
+  "updatedAt": "2026-05-21T00:24:30.778Z",
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "fr",
+  "description": "Le tour de poignet tire le poignet le plus éloigné sur la ligne des hanches pour effondrer l'épaule et exposer le dos. Le tour de poignet est un outil de précision permettant de briser la tortue en attaquant par le poignet.",
+  "shortInstruction": "À côté de la tortue, saisissez le poignet le plus éloigné et tirez-le vers vous dans le bas de son dos. Enfoncez votre poitrine dans leur épaule proche pour les effondrer à plat. Prenez le dos pendant qu'ils roulent ou s'aplatissent.",
+  "summary": "Le tour de poignet utilise une seule poignée de poignet (le poignet le plus éloigné) pour effondrer la ligne des épaules de l'adversaire en tirant le poignet sur le bas du dos. Lorsque le poignet traverse la ligne des hanches, l'épaule est poussée vers l'avant et la base de l'adversaire s'effondre. Le tour de poignet est particulièrement efficace car il est difficile à défendre : l’adversaire ne peut pas facilement vous empêcher de contrôler son poignet.",
+  "whyItWorks": [
+    "Tirer le poignet le plus éloigné sur la ligne des hanches force l'épaule la plus éloignée vers l'avant, effondrant sa base.",
+    "La poignée de poignet est plus facile à sécuriser qu'une poignée croisée car elle attaque le membre exposé",
+    "La course du poignet expose naturellement le dos lorsque l'épaule de l'adversaire avance et que ses hanches tombent.",
+    "Le tour de poignet passe directement au tour de poignet croisé ou aux menottes du Daghestan à mesure que vous prenez le contrôle du poignet."
+  ],
+  "commonMistakes": [
+    "Tirer le poignet vers votre poitrine plutôt que sur la ligne de vos hanches : le poignet doit traverser son corps et non venir vers vous.",
+    "Ne pas faire pénétrer la pression thoracique dans l'épaule proche - c'est la pression thoracique qui les fait s'effondrer",
+    "Relâcher le poignet trop tôt – maintenir le contrôle du poignet jusqu'à ce que le dos soit sécurisé",
+    "Tirer trop lentement – ​​une traction brusque et contrôlée est plus efficace qu’un remorqueur lent"
+  ],
+  "coachingCues": [
+    "Poignet éloigné, tirez sur la hanche",
+    "Poitrine sur l'épaule proche, conduisez",
+    "Poignet croisé = épaule en avant",
+    "Contrôle du poignet pour prendre en arrière"
+  ],
+  "safetySummary": [
+    "Ne tirez pas le poignet selon un angle inconfortable : tirez sur la ligne des hanches et non sur le côté.",
+    "Si l'adversaire roule pour s'échapper, relâchez le poignet et suivez le lancer",
+    "Faites attention aux blessures aux doigts lorsque vous saisissez le poignet en No-Gi - utilisez une prise profonde"
+  ],
+  "systemLogic": {
+    "corePrinciple": "Le tour de poignet comporte trois phases : Poignet sécurisé : effondrement de l'épaule → prise en arrière",
+    "decisionTree": [
+      {
+        "condition": "En phase 1 (poignet sécurisé)",
+        "action": "À côté de la tortue, tendez la main et saisissez le poignet le plus éloigné. Utilisez une prise forte (paume à paume ou prise de singe selon gi/No-Gi)"
+      },
+      {
+        "condition": "En phase 2 (effondrement de l'épaule)",
+        "action": "tirez le poignet sur le bas de leur dos (vers leur hanche opposée) tout en enfonçant votre poitrine dans leur épaule la plus proche. Les forces combinées effondrent leur ligne d'épaule et baissent leurs hanches."
+      },
+      {
+        "condition": "En phase 3 (retour en arrière)",
+        "action": "lorsqu'ils s'effondrent sur le côté ou sur la hanche, relâchez la poignée du poignet et remplacez-la par un seatbelt. Faites glisser votre genou le plus proche dans la ligne de ses hanches et fixez back control"
+      },
+      {
+        "condition": "le tour de poignet échoue",
+        "action": "passer à la conduite croisée (en contrôlant les deux poignets) pour un contrôle accru"
+      }
+    ],
+    "exitStrategies": []
+  },
+  "moneyDetails": [
+    "Le tour de poignet est la technique de casse-tortue à laquelle on résiste le moins car le poignet est souvent exposé",
+    "Maîtriser le tour du poignet vous donne un chemin rapide et sans effort vers back control depuis la tortue",
+    "Le tour de poignet est particulièrement efficace contre les adversaires fatigués qui ne peuvent pas résister à la traction."
+  ],
+  "fixItFast": [
+    "S'ils résistent à la traction du poignet : passez au power half ride - il est plus difficile de résister à la poignée transversale",
+    "S'ils roulent : suivez et maintenez le contrôle du poignet – ne relâchez pas",
+    "S'ils s'assoient : relâchez le poignet et passez à la course en griffes - la prise en griffes est meilleure contre les adversaires en posture."
+  ]
+}

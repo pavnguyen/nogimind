@@ -1,0 +1,67 @@
+{
+  "id": "cross-wrist-ride",
+  "locale": "en",
+  "name": "Cross-Wrist Ride",
+  "description": "Lock the opponent's wrists crossed on their back, use chest pressure and hip connection to control the turtle and expose the back. The cross-wrist ride immobilizes both hands to eliminate the opponent's ability to base or posture up.",
+  "shortInstruction": "From turtle, grab both wrists, cross them on their lower back, and pin them with your chest. Drive your weight forward to collapse them flat and take the back.",
+  "summary": "The cross-wrist ride is a high-level turtle-breaking system that immobilizes the opponent's hands by crossing their wrists on their lower back and pinning them with your chest weight. With both hands controlled, the opponent cannot base, post, or posture up — they are completely dependent on hip movement alone to escape, which is nearly impossible with chest pressure on their spine.",
+  "whyItWorks": [
+    "Crossing the wrists on their back removes their ability to post — without hands, they cannot push themselves up or base out",
+    "Chest pressure on the crossed wrists pins them securely — the opponent cannot separate their hands against your full body weight",
+    "With hands immobilized and chest pressure on the spine, the opponent's only escape is to roll — which you can counter by following the roll",
+    "The cross-wrist ride transitions directly to the Dagestani handcuff and back take as the opponent tires"
+  ],
+  "commonMistakes": [
+    "Grabbing too low on the wrists — the grip must be at the wrist joint, not the forearm",
+    "Letting chest pressure lift — the chest must stay connected to the crossed wrists at all times",
+    "Releasing wrist control too early — maintain until the back is fully secured",
+    "Not driving forward enough — forward pressure is required to collapse the turtle"
+  ],
+  "coachingCues": [
+    "Both wrists, cross them on the back",
+    "Chest on the wrists, drive forward",
+    "No hands, no base, no escape",
+    "Hold until the back is secure"
+  ],
+  "safetySummary": [
+    "Wrist control should be applied to the wrist joint, not the hand — gripping the hand can cause finger injuries",
+    "Do not apply sudden downward pressure on the crossed wrists — this can cause wrist strain or sprain",
+    "If the opponent rolls suddenly to escape, release the wrist control rather than fighting the roll"
+  ],
+  "keyCorrections": [
+    "If they roll out of the ride: release the wrists and take the back as they roll — do not hold the wrists",
+    "If they separate their hands: your chest pressure was too light — drive your chest harder into their back",
+    "If you cannot reach both wrists: control one wrist and use the other hand to control the far elbow or shoulder"
+  ],
+  "systemLogic": {
+    "corePrinciple": "The cross-wrist ride has three phases: Secure Wrists: Collapse Turtle → Transition to Back Control",
+    "decisionTree": [
+      {
+        "condition": "In Phase 1 (Secure Wrists)",
+        "action": "from turtle, reach under their chest and grab the far wrist. Pull it across their lower back. Then grab the near wrist and cross it over the far wrist. Both wrists should be stacked on their lower spine"
+      },
+      {
+        "condition": "In Phase 2 (Collapse Turtle)",
+        "action": "drive your chest into the crossed wrists and push forward. Your weight should push their hands into their lower back while your chest pressure drives them flat. Walk your knees forward to maintain pressure"
+      },
+      {
+        "condition": "In Phase 3 (Transition to Back Control)",
+        "action": "once they are flat, release the wrist control (one hand at a time) and replace with a seatbelt grip. Slide your knee into their hip and secure back control"
+      },
+      {
+        "condition": "they resist by tensing the back",
+        "action": "alternate between driving chest pressure and pulling their hips with your knees to break the tension"
+      }
+    ]
+  },
+  "moneyDetails": [
+    "The cross-wrist ride is one of the most dominant turtle-breaking systems — it eliminates the opponent's primary escape tools (hands)",
+    "This system is used extensively in wrestling (Khabib, Zahabi system) and translates perfectly to no-gi BJJ",
+    "Mastering the cross-wrist ride gives you a reliable path from turtle to back control against resisting opponents"
+  ],
+  "fixItFast": [
+    "If they roll out: release the wrists and take the back — do not fight to maintain wrist control",
+    "If they separate their hands: switch to a single wrist control on the near arm and use the spiral ride to collapse them",
+    "If they sit up with power: switch to the claw ride — the claw grip is harder to escape with pure strength"
+  ]
+}

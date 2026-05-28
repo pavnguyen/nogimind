@@ -1,0 +1,57 @@
+{
+  "id": "z-guard",
+  "locale": "fr",
+  "title": "Z-Guard (93 Guard)",
+  "category": "bottom_guard",
+  "status": "defensive",
+  "description": "Z-guard est un half guard profond avec knee shield, utilisant le tibia et l’underhook pour bloquer le crossface et préparer le wrestle-up.",
+  "topPlayerGoals": [
+    "Le joueur du dessus veut contrôler Z-Guard (93 Guard) avec la position de tête, la position intérieure et une pression orientée.",
+    "Écraser le knee shield, pousser le crossface et aplatir la hip line.",
+    "Garder une base stable pour éviter d’être déséquilibré ou contré."
+  ],
+  "bottomPlayerGoals": [
+    "Le joueur du dessous veut survivre en Z-Guard (93 Guard) avec des cadres, du pummeling ou le bon angle.",
+    "Garder le knee shield actif, gagner l’underhook et entrer wrestle-up ou deep half.",
+    "Reconnaître les signaux de danger tôt au lieu d’attendre que la position se stabilise."
+  ],
+  "controlPoints": [
+    "Point de contrôle principal : Angle knee shield, underhook et position de tête..",
+    "La tête, les mains, les hanches et les genoux doivent suivre la même direction de force.",
+    "La connexion coude-genou ou la ligne hanches-épaules détermine si la position reste vivante ou verrouillée."
+  ],
+  "escapePriorities": [
+    "Priorité de sortie : Ne pas perdre l’underhook avant de passer à l’attaque..",
+    "Protéger le cou, le dos, la ligne du genou ou la ligne du bras avant de contrer.",
+    "Si la position intérieure est perdue, rétablir d’abord une couche défensive."
+  ],
+  "advancementOptions": [
+    {
+      "action": "Gagner l’underhook pour entrer dogfight",
+      "nextPositionId": "dogfight",
+      "relatedSkillIds": [
+        "z-guard-sweeps",
+        "half-guard-knee-shield",
+        "half-guard-wrestle-up"
+      ],
+      "why": "C’est la branche naturelle lorsque vous gagnez le point de contrôle principal et que l’adversaire est forcé de défendre."
+    }
+  ],
+  "dangerSignals": [
+    "Le menton ou le cou sort de la ligne sûre.",
+    "Le coude se sépare des côtes ou du genou.",
+    "La ligne des hanches est verrouillée pendant que la ligne des épaules est encore tirée.",
+    "Vous devez poser une main loin pour éviter de tomber."
+  ],
+  "relatedSkillIds": [
+    "z-guard-sweeps",
+    "half-guard-knee-shield",
+    "half-guard-wrestle-up",
+    "side-control-escape"
+  ],
+  "relatedConceptIds": [
+    "wedges",
+    "inside-position",
+    "elbow-knee-connection"
+  ]
+}

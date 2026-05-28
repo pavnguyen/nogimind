@@ -1,0 +1,114 @@
+{
+  "id": "reverse-buggy-choke",
+  "domain": "submission_systems",
+  "level": "advanced",
+  "status": "draft",
+  "name": "Starter de buggy inversé",
+  "aliases": [],
+  "tags": [
+    "reverse-buggy",
+    "choke",
+    "leg",
+    "shoulder-crunch",
+    "submission"
+  ],
+  "keywords": [
+    "reverse buggy",
+    "buggy choke",
+    "leg choke",
+    "shoulder crunch"
+  ],
+  "relatedSkills": [
+    {
+      "id": "triple-attack-system",
+      "type": "recommended"
+    },
+    {
+      "id": "omoplata-system",
+      "type": "recommended"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "side-control-escape",
+    "side-control-survival"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [
+    "S’ils vous empilent, c’est que vous vous êtes engagé trop tôt ou sous le mauvais angle – relâchez et réinitialisez les images.",
+    "S'ils libèrent leur bras, c'est que l'enveloppe de votre jambe était trop lâche – serrez-la plus fort ou abandonnez l'étranglement.",
+    "Si vous ne pouvez pas terminer, revenez aux évasions side control conventionnelles (évasion de la hanche, underhook)."
+  ],
+  "version": 1,
+  "updatedAt": "2026-05-21T00:24:30.771Z",
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "fr",
+  "description": "Un étranglement depuis le bas side control où vous enroulez vos jambes autour du cou et du bras de l'adversaire - une attaque à faible pourcentage qui ne devrait pas remplacer les cadres fondamentaux et les évasions de hanche.",
+  "shortInstruction": "Enroulez les jambes autour de leur cou et de leur bras, serrez – le buggy inversé est une attaque désespérée depuis le bas side control.",
+  "summary": "Le starter buggy inversé est une variante du starter buggy du bas side control. La principale différence réside dans le positionnement des jambes : dans la poussette inversée, vos jambes s'enroulent autour du cou et un bras du côté opposé. Comme le starter buggy standard, il s'agit d'une attaque surprise plutôt que d'une stratégie principale. Cela fonctionne mieux contre les adversaires qui font fortement pression avec un crossface, laissant leur cou exposé de l'autre côté.",
+  "whyItWorks": [
+    "L'élément de surprise : les adversaires ne s'attendent pas à un étranglement venant du bas side control.",
+    "Peut attraper des adversaires lourds du côté crossface, exposant leur cou.",
+    "Crée un dilemme momentané : défendre l'étranglement ou maintenir side control.",
+    "Utile comme attaque de dernier recours lorsque les évasions conventionnelles échouent."
+  ],
+  "commonMistakes": [
+    "L'utiliser comme évasion principale au lieu de cadres et d'évasions de hanche.",
+    "Laisser le underhook disponible – le underhook est plus important que le starter.",
+    "Laisser l’adversaire vous empiler – cela neutralise l’étranglement et vous met en danger.",
+    "Gaspiller de l'énergie sur le starter alors que vous pourriez vous échapper vers une meilleure position."
+  ],
+  "coachingCues": [
+    "Arme surprise, pas stratégie principale.",
+    "S'ils vous empilent, relâchez immédiatement.",
+    "underhook d'abord, puis attaquez – jamais l'inverse.",
+    "Une seule tentative : si elle échoue, revenez aux fondamentaux."
+  ],
+  "safetySummary": [
+    "Le starter buggy inversé comprime le cou – appliquez progressivement et relâchez au robinet.",
+    "Ne l’utilisez pas contre des adversaires plus gros qui peuvent vous empiler – la pile peut vous blesser le bas du dos.",
+    "Tapez tôt si vous sentez que l'étranglement est appliqué sur votre propre cou."
+  ],
+  "systemLogic": {
+    "corePrinciple": "En bas side control : l'adversaire est lourd du côté crossface → enroulez les jambes autour de son cou et de son bras → serrez → étranglez.",
+    "decisionTree": [
+      {
+        "condition": "Application générale",
+        "action": "Le buggy inversé est une option tertiaire – les cadres et les évasions de hanche sont primaires."
+      },
+      {
+        "condition": "le starter tombe en panne",
+        "action": "allez à l'évasion de la hanche et à la récupération underhook."
+      }
+    ],
+    "exitStrategies": []
+  },
+  "moneyDetails": [
+    "L’enveloppement des jambes doit inclure le cou ET un bras – envelopper uniquement le cou ne sécurisera pas l’étranglement.",
+    "Gardez votre jambe supérieure sur le dos pour éviter qu'il ne se retire de l'écharpe.",
+    "L'étranglement vient du fait de serrer vos cuisses l'une contre l'autre, et non de tirer avec vos jambes.",
+    "S'ils se redressent, l'étranglement est perdu – revenez immédiatement aux cadres et échappez-vous à la hanche."
+  ],
+  "nextStep": "Après avoir compris le starter inversé du buggy, concentrez-vous sur les principales évasions side control : les cadres, l'évasion de la hanche et la récupération underhook.",
+  "fixItFast": [
+    "Ils vous empilent ? Relâchez et encadrez sur leurs hanches.",
+    "Les jambes glissent ? Enroulez-le plus étroitement autour de son bras.",
+    "Vous n'arrivez pas à obtenir le starter ? Retour aux frames et à l'évasion branchée."
+  ]
+}

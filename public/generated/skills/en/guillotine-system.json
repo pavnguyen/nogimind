@@ -1,0 +1,120 @@
+{
+  "id": "guillotine-system",
+  "domain": "submission_systems",
+  "level": "advanced",
+  "status": "draft",
+  "name": "Guillotine System",
+  "aliases": [],
+  "tags": [
+    "choke",
+    "front-headlock"
+  ],
+  "keywords": [
+    "guillotine",
+    "front headlock",
+    "chin strap",
+    "neck safety"
+  ],
+  "relatedSkills": [
+    {
+      "id": "dilemmas-two-way-attacks",
+      "type": "recommended"
+    },
+    {
+      "id": "butterfly-guard-off-balance",
+      "type": "recommended"
+    },
+    {
+      "id": "single-leg-bjj",
+      "type": "recommended"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "snapdown-front-headlock",
+    "front-headlock-defense"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [
+    "If you can't finish, your angle is too square — step to the side and cut the angle.",
+    "If they posture out, you lost hip distance — release and reset rather than chasing the choke.",
+    "If your wrist is shallow, re-grip deeper — the choking arm must be as deep as possible on the neck."
+  ],
+  "version": 1,
+  "updatedAt": "2026-05-21T00:24:30.742Z",
+  "contentRefs": {
+    "videos": "videos.json",
+    "qualityChecklist": "qualityChecklist"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": true,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "en",
+  "description": "Build guillotine choke threats from front headlock, guard, and scrambles — prioritizing angle, wrist depth, and neck safety over brute force.",
+  "shortInstruction": "Deep wrist, elbow tight, cut the angle, squeeze — the guillotine is a position, not just a grip.",
+  "summary": "The guillotine is the most accessible front headlock choke and the first choke most BJJ practitioners learn. The system includes multiple variations: the standard arm-in guillotine (from guard), the arm-out guillotine (from front headlock), the high-wrist guillotine (for deeper neck penetration), and the Marcelotine (Marcelo Garcia's no-gi variation). The key principle across all variations is that the guillotine is a position — you must control their posture and create the angle before squeezing.",
+  "whyItWorks": [
+    "The guillotine attacks the neck from the front, where most opponents' head and posture create a natural entry for the choke.",
+    "It is available from almost every position: front headlock, guard, scrambles, and failed takedowns.",
+    "The arm-in variation (from guard) prevents them from posturing and makes the choke tighter.",
+    "Danaher principle: the guillotine is a 'position first, submission second' choke — control their posture, then attack."
+  ],
+  "commonMistakes": [
+    "Squeezing before controlling their posture — a postured opponent can relieve the pressure by standing.",
+    "Letting the choking arm slide shallow on the neck — a deep wrist is essential for the finish.",
+    "Using only arm strength to finish — the finish comes from cutting an angle and using your chest.",
+    "Letting them stack you or drive forward — maintain hip distance to keep the angle."
+  ],
+  "coachingCues": [
+    "Deep wrist, tight elbow, sharp angle, squeeze.",
+    "If you can see their back, your angle is wrong — cut the angle more.",
+    "Arm-in is control, arm-out is speed — choose wisely.",
+    "The guillotine is a fight for posture — win the posture, win the choke."
+  ],
+  "safetySummary": [
+    "The guillotine compresses the neck — apply gradually and release on tap.",
+    "Do not crank the opponent's head forward — a clean guillotine is a blood choke, not a neck crank.",
+    "Tap early if you feel pressure on your cervical spine — some guillotine variations can cause neck injury."
+  ],
+  "systemLogic": {
+    "corePrinciple": "Front headlock or guard: secure guillotine grip (deep wrist, elbow tight) → cut the angle (step to the side) → squeeze with chest and arms.",
+    "decisionTree": [
+      {
+        "condition": "From guard: arm-in guillotine",
+        "action": "pull their head down with legs → cut the angle → finish."
+      },
+      {
+        "condition": "From FHL: arm-out guillotine",
+        "action": "circle to the side → drop weight → finish."
+      },
+      {
+        "condition": "they defend the guillotine",
+        "action": "transition to D'Arce or anaconda — the three form a front headlock chain."
+      }
+    ],
+    "exitStrategies": []
+  },
+  "moneyDetails": [
+    "The choking arm must be deep — your wrist should touch their cervical spine, not just the side of their neck.",
+    "Your elbow must be tight to your body — a flared elbow gives them the space to posture.",
+    "Cut the angle by stepping to the side of their head — a 45-degree angle is ideal.",
+    "Squeeze with your chest and shoulder, not just your arms — chest pressure creates a tighter choke."
+  ],
+  "nextStep": "After the guillotine system, learn the high-wrist guillotine and Marcelotine variations.",
+  "fixItFast": [
+    "Wrist is too shallow? Slide deeper — the wrist should be at their spine, not the skin.",
+    "They keep posturing? Step further to the side — the angle breaks their posture.",
+    "Arm burning out? Use your chest to squeeze — arm-only guillotines burn out fast."
+  ]
+}

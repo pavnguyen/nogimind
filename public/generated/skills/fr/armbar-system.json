@@ -1,0 +1,118 @@
+{
+  "id": "armbar-system",
+  "domain": "submission_systems",
+  "level": "advanced",
+  "status": "draft",
+  "name": "armbar Système",
+  "aliases": [],
+  "tags": [
+    "submission",
+    "armbar",
+    "elbow-safety"
+  ],
+  "keywords": [
+    "armbar",
+    "elbow line",
+    "shoulder isolation",
+    "submission safety"
+  ],
+  "relatedSkills": [
+    {
+      "id": "s-mount-armbar",
+      "type": "recommended"
+    },
+    {
+      "id": "triangle-system",
+      "type": "recommended"
+    },
+    {
+      "id": "kimura-system",
+      "type": "recommended"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "mount-control",
+    "clamp-guard-control"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [
+    "S'ils vous empilent, nagez votre pied libre jusqu'à leur hanche et repoussez-les.",
+    "S’ils libèrent leur bras, vous perdez le contrôle de vos épaules – rétablissez la position des jambes en forme de quatre.",
+    "Si vos hanches sont trop éloignées de leur coude, rapprochez-vous – le coude doit être au niveau ou au-dessus de l’os de votre hanche."
+  ],
+  "version": 1,
+  "updatedAt": "2026-05-21T00:24:30.744Z",
+  "contentRefs": {
+    "videos": "videos.json",
+    "qualityChecklist": "qualityChecklist"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": true,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "fr",
+  "description": "Isolez la ligne des épaules de l'adversaire, contrôlez son poignet et gardez son coude au-dessus de votre ligne de hanches avant d'appliquer une extension pour terminer le armbar.",
+  "shortInstruction": "Contrôlez le poignet, épinglez le coude à votre hanche, gardez le pouce levé – l'extension est terminée ; ruptures d'hyperextension.",
+  "summary": "Le armbar est le verrou articulaire le plus fondamental du BJJ. Le système s'articule autour de trois principes : isoler l'épaule (les empêcher de libérer le bras), contrôler le poignet (pouce vers le haut, paume face à vous) et positionner le coude au-dessus de la ligne de vos hanches avant de l'étendre. Sans les détails de la ligne des hanches, le armbar devient une lutte de force. Avec cela, l'avantage mécanique est écrasant. Le système armbar s'applique à partir de guard, mount et des transitions.",
+  "whyItWorks": [
+    "Épingler leur coude au-dessus de la ligne de vos hanches crée un levier de première classe : vos hanches sont le point d'appui, leur bras est la charge.",
+    "La position du pouce vers le haut force le coude à s'étendre en hyperextension dans son plan le plus faible – la supination est le détail clé.",
+    "Les jambes au-dessus de la tête et de la poitrine contrôlent leur posture – ils ne peuvent pas s’asseoir pour s’échapper.",
+    "Principe de Danaher : le armbar ne consiste pas à tirer le bras, il s'agit de contrôler l'épaule et d'utiliser vos hanches comme point d'appui."
+  ],
+  "commonMistakes": [
+    "S'étendre sans d'abord épingler son coude à votre hanche - le point d'appui de la hanche est le mécanisme de finition.",
+    "Laisser leur pouce tourner vers le bas – la position du pouce vers le bas transforme le armbar en une déchirure ou une fuite du biceps.",
+    "En leur permettant de libérer leur bras en pliant le coude, gardez leur bras droit contre votre hanche.",
+    "Tomber en arrière pour terminer au lieu de soulever les hanches – le lifting des hanches génère une extension plus contrôlée."
+  ],
+  "coachingCues": [
+    "Pouce vers le haut, coude contre la hanche, puis étendez.",
+    "Les hanches sont le point d’appui, les bras sont le levier.",
+    "Si vous voyez leur paume, vous gagnez.",
+    "Contrôlez d’abord l’épaule – le bras est juste là pour le trajet."
+  ],
+  "safetySummary": [
+    "N’appliquez jamais d’extension soudaine ou explosive – les blessures d’hyperextension sont cumulatives et graves.",
+    "Relâchez immédiatement au robinet – les armbars peuvent causer des dommages permanents au coude en quelques millisecondes.",
+    "Ne continuez pas l'extension après le robinet - même quelques degrés d'extension supplémentaires peuvent provoquer des blessures.",
+    "La sensibilité du poignet et du coude varie selon les partenaires – établissez la communication avant l’entraînement."
+  ],
+  "systemLogic": {
+    "corePrinciple": "Contrôlez le bras : fixez le poignet (pouce vers le haut) → amenez le coude jusqu'à la ligne de vos hanches → jambes en forme de quatre au-dessus de la tête/poitrine → soulevez les hanches → étendez.",
+    "decisionTree": [
+      {
+        "condition": "À partir du guard",
+        "action": "briser la posture, nager le bras en travers, la hanche dehors, terminer."
+      },
+      {
+        "condition": "À partir du mount",
+        "action": "s-mount ou mount technique, isolez le bras, repliez-vous avec contrôle."
+      }
+    ],
+    "exitStrategies": []
+  },
+  "moneyDetails": [
+    "Le verrouillage des jambes en forme de quatre au-dessus de leur tête et de leur poitrine est ce qui les empêche de s'asseoir – serrez vos genoux l'un contre l'autre.",
+    "Leur pouce doit pointer vers le haut tout au long de la finition – cela supine l'avant-bras et hyperétend le coude.",
+    "Soulevez vos hanches, ne tirez pas leur bras vers vous – le lifting des hanches crée une extension nette sans force.",
+    "Gardez son bras droit contre votre poitrine ou votre hanche – un coude plié peut générer une force contraire."
+  ],
+  "nextStep": "Après le système armbar, apprenez les s-mount armbar et armbar à partir des variantes guard.",
+  "fixItFast": [
+    "Vous n'arrivez pas à tendre votre bras ? Épinglez le coude sur votre hanche avec vos jambes et utilisez une commande de poignet deux contre un.",
+    "Ils vous empilent ? Amenez votre pied libre jusqu'à leur hanche la plus éloignée et repoussez-le.",
+    "Le pouce continue de tourner vers le bas ? Saisissez son poignet avec votre pouce sur le dessus de sa main – cela contrôle la rotation."
+  ]
+}

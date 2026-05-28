@@ -1,0 +1,128 @@
+{
+  "id": "half-guard-bottom-escape",
+  "domain": "escapes",
+  "level": "intermediate",
+  "status": "draft",
+  "name": "Half Guard Bottom Escape",
+  "aliases": [
+    "bottom half escape",
+    "half guard recovery",
+    "dogfight escape"
+  ],
+  "tags": [
+    "escape",
+    "half-guard",
+    "underhook",
+    "dogfight",
+    "wrestle-up"
+  ],
+  "keywords": [
+    "half guard bottom",
+    "underhook",
+    "dogfight",
+    "knee shield",
+    "technical stand-up"
+  ],
+  "relatedSkills": [
+    {
+      "id": "half-guard-knee-shield",
+      "type": "recommended"
+    },
+    {
+      "id": "dogfight-knee-tap",
+      "type": "recommended"
+    },
+    {
+      "id": "side-control-escape",
+      "type": "recommended"
+    },
+    {
+      "id": "half-guard-wrestle-up",
+      "type": "recommended"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "side-control-escape",
+    "half-guard-knee-shield"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [],
+  "version": 1,
+  "updatedAt": "2026-06-12T00:00:00.000Z",
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "en",
+  "description": "Escape from bottom half guard by winning the underhook, creating a frame, and regaining guard or standing up.",
+  "shortInstruction": "Win the underhook, bring the outside knee across the opponent's back, and drive to dogfight or recover butterfly guard.",
+  "summary": "Half guard bottom escape uses the underhook and outside knee position to create a dogfight entry, from which you can wrestle up, sweep, or recover full guard. The system rewards hip mobility and head position over upper-body strength.",
+  "whyItWorks": [
+    "The underhook removes the opponent's crossface threat and gives you control of their upper body posture",
+    "The outside knee across the back creates a structural wedge that prevents them from flattening you back down",
+    "The dogfight position gives you three branches: single leg (wrestle up), knee tap (sweep), or re-guard (recover butterfly)",
+    "Winning the head position (forehead to their jaw) prevents them from crushing you with shoulder pressure"
+  ],
+  "commonMistakes": [
+    "Fighting for the underhook from a flat back instead of turning to the side first",
+    "Letting the opponent crossface while reaching for the underhook — this exposes the neck",
+    "Pulling the underhook arm out instead of driving the elbow upward into their armpit",
+    "Staying in dogfight too long without committing to a branch — the opponent will eventually flatten you"
+  ],
+  "coachingCues": [
+    "Underhook or die",
+    "Outside knee across the back",
+    "Forehead to their jaw"
+  ],
+  "safetySummary": [
+    "Half guard is the most common place to injure fingers and toes — keep digits safe when gripping pants or inserting hooks",
+    "If the opponent has a strong crossface, protect your neck by turning your head toward the mat before reaching for the underhook",
+    "Do not force the dogfight if your knee is trapped — this can stress the MCL"
+  ],
+  "systemLogic": {
+    "corePrinciple": "The half guard bottom escape has three sequential steps: turn to side → win underhook → insert outside knee across back",
+    "decisionTree": [
+      {
+        "condition": "General application",
+        "action": "If Step 1, Turn to side: before reaching for anything, turn onto your side facing the opponent. This aligns your skeleton for frame and prevents them from flattening you"
+      },
+      {
+        "condition": "General application",
+        "action": "If Step 2, Win underhook: pummel your near arm deep into their armpit with the elbow driving up. Your head must be either inside (forehead to jaw) or outside (cheek to their shoulder)"
+      },
+      {
+        "condition": "Step 3, Outside knee: bring your outside knee across their lower back and post your foot. This creates the dog",
+        "action": "fight position"
+      },
+      {
+        "condition": "General application",
+        "action": "From dogfight, you have three branches: single leg (they post far hand), knee tap (they post close), or re-guard (they drive into you)"
+      }
+    ],
+    "exitStrategies": []
+  },
+  "moneyDetails": [
+    "Half guard bottom is one of the most common positions in BJJ — a reliable escape here dramatically improves your overall game",
+    "A successful half guard escape leads directly to a dominant top position (side control or mount via the pass)",
+    "Escaping half guard to wrestle-up scores a takedown in competition (2 points) and establishes top control"
+  ],
+  "fixItFast": [
+    "If they smash you flat before you get the underhook: go to deep half guard and sweep them over the trapped leg",
+    "If they crossface you hard: hide your head, go to your side, and use your top arm to frame on their biceps instead of reaching for the underhook",
+    "If they knee slide through your half guard: immediately turn into them, trap their passing leg between yours, and re-pummel for the underhook"
+  ]
+}

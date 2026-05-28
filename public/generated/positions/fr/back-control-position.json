@@ -1,0 +1,56 @@
+{
+  "id": "back-control-position",
+  "locale": "fr",
+  "title": "Contrôle du dos",
+  "category": "back",
+  "status": "dominant",
+  "description": "L’attaquant garde la connexion poitrine-dos, le seatbelt et les hooks ou le body triangle pour créer des dilemmes d’étranglement.",
+  "topPlayerGoals": [
+    "Le joueur du dessus veut contrôler Contrôle du dos avec la position de tête, la position intérieure et une pression orientée.",
+    "Maintenir la connexion poitrine-dos, gagner le hand fight et créer un arm trap ou un étranglement.",
+    "Garder une base stable pour éviter d’être déséquilibré ou contré."
+  ],
+  "bottomPlayerGoals": [
+    "Le joueur du dessous veut survivre en Contrôle du dos avec des cadres, du pummeling ou le bon angle.",
+    "Gagner le two-on-one, mettre l’épaule au tapis et enlever le hook.",
+    "Reconnaître les signaux de danger tôt au lieu d’attendre que la position se stabilise."
+  ],
+  "controlPoints": [
+    "Point de contrôle principal : Seatbelt, hooks, appui de tête et connexion poitrine-dos..",
+    "La tête, les mains, les hanches et les genoux doivent suivre la même direction de force.",
+    "La connexion coude-genou ou la ligne hanches-épaules détermine si la position reste vivante ou verrouillée."
+  ],
+  "escapePriorities": [
+    "Priorité de sortie : Faire le hand fight avant de tourner vers la garde..",
+    "Protéger le cou, le dos, la ligne du genou ou la ligne du bras avant de contrer.",
+    "Si la position intérieure est perdue, rétablir d’abord une couche défensive."
+  ],
+  "advancementOptions": [
+    {
+      "action": "Ouvrir le RNC ou l’arm trap",
+      "nextPositionId": "rear-naked-choke-threat",
+      "relatedSkillIds": [
+        "back-control",
+        "rear-naked-choke-system",
+        "back-escape"
+      ],
+      "why": "C’est la branche naturelle lorsque vous gagnez le point de contrôle principal et que l’adversaire est forcé de défendre."
+    }
+  ],
+  "dangerSignals": [
+    "Le menton ou le cou sort de la ligne sûre.",
+    "Le coude se sépare des côtes ou du genou.",
+    "La ligne des hanches est verrouillée pendant que la ligne des épaules est encore tirée.",
+    "Vous devez poser une main loin pour éviter de tomber."
+  ],
+  "relatedSkillIds": [
+    "back-control",
+    "rear-naked-choke-system",
+    "back-escape"
+  ],
+  "relatedConceptIds": [
+    "hooks",
+    "control-before-submission",
+    "dilemma-attacks"
+  ]
+}

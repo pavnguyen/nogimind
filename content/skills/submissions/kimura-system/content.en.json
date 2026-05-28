@@ -1,0 +1,61 @@
+{
+  "id": "kimura-system",
+  "locale": "en",
+  "name": "Kimura System",
+  "description": "Use the kimura grip as a control hub for sweeps, passes, back takes, or finishes — the kimura is a position, not just a submission.",
+  "shortInstruction": "Grip the wrist, figure-four the arm, rotate the shoulder — the kimura is control first, submission second.",
+  "summary": "The kimura is the most versatile submission in no-gi BJJ. The Kimura grip (one hand holding their same-side wrist, the other arm threading through to grab your own wrist) is more commonly used as a control position than as a submission. From the Kimura grip, you can: sweep, pass the guard, take the back, or finish the shoulder lock. The system is based on isolating one of their arms and using it as a handle to control their entire body.",
+  "whyItWorks": [
+    "The Kimura grip creates a figure-four lock on their arm that they cannot easily break — once locked, you control their shoulder.",
+    "Using their arm as a 'handle' gives you control over their entire body — when you move their arm, their body follows.",
+    "The Kimura system works from almost every position: guard, side control, half guard, mount, and transitions.",
+    "Danaher principle: the Kimura is the most versatile submission in BJJ because it is also the best control position."
+  ],
+  "commonMistakes": [
+    "Chasing the submission before establishing control — the Kimura is a control position first.",
+    "Letting the opponent straighten their arm — a straight arm escapes the Kimura lock.",
+    "Using only arm strength instead of body rotation — the Kimura finish comes from rotating your hips.",
+    "Losing the wrist grip — the wrist grip is the anchor of the entire system."
+  ],
+  "coachingCues": [
+    "Kimura is control — the submission is just one option.",
+    "Control the wrist, lock the figure-four, own their body.",
+    "If you have the Kimura grip, you have the position — now choose your attack.",
+    "Rotate the shoulder, not the arm — shoulder rotation is the finish."
+  ],
+  "safetySummary": [
+    "The Kimura applies rotational pressure to the shoulder and elbow — apply gradually.",
+    "Do not crank the shoulder lock — shoulder injuries can take months to recover.",
+    "Release immediately on tap — the Kimura can cause serious shoulder damage with minimal force."
+  ],
+  "keyCorrections": [
+    "If they straighten their arm, you lost the angle — pull their elbow toward you to re-bend the arm.",
+    "If you can't finish, your rotation is insufficient — bring their elbow toward your hips while rotating.",
+    "If they grab their own leg to defend, switch to the armbar or back take."
+  ],
+  "systemLogic": {
+    "corePrinciple": "Secure Kimura grip (wrist control + figure-four): use their arm as a handle → choose your attack based on their reaction.",
+    "decisionTree": [
+      {
+        "condition": "Using Option 1",
+        "action": "They resist → Kimura submission. Option 2: They post → sweep to top."
+      },
+      {
+        "condition": "Using Option 3",
+        "action": "They turn away → take the back. Option 4: They play dead → pass the guard."
+      }
+    ]
+  },
+  "moneyDetails": [
+    "Your wrist grip must be strong — four fingers on their wrist, thumb on their palm side for control.",
+    "The figure-four lock should be at your own wrist, not theirs — this gives you maximum leverage.",
+    "Keep their elbow bent throughout — a straight arm can pull free from the Kimura.",
+    "The finish is a rotation: bring their elbow toward your belly button while turning your shoulders away from them."
+  ],
+  "nextStep": "After the Kimura system, learn the armbar system and baratoplata to chain with the Kimura.",
+  "fixItFast": [
+    "Arm keeps straightening? Pull their elbow toward you to re-bend it.",
+    "Can't finish? Rotate your shoulders more — the finish is shoulder rotation, not arm pull.",
+    "They defend by grabbing their belt? Switch to the armbar or omoplata."
+  ]
+}

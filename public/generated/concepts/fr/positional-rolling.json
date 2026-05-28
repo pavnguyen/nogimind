@@ -1,0 +1,65 @@
+{
+  "id": "positional-rolling",
+  "locale": "fr",
+  "title": "Rolling positionnel",
+  "category": "training",
+  "level": "fundamental",
+  "tags": [
+    "positional rolling",
+    "training",
+    "constraints"
+  ],
+  "shortDefinition": "Le rolling positionnel commence dans une situation précise avec conditions de réussite/reset.",
+  "whyItMatters": "Il transforme connaissance en timing avec répétitions que le live libre ne donne pas assez.",
+  "deepExplanation": "On peut spar side-control escape, back retention, bodylock pass ou front-headlock defense. L’important est objectif limité: pass/recover, finish/escape.",
+  "beginnerView": "Commencer dans la position à corriger au lieu d’attendre en live.",
+  "advancedView": "Utiliser petites contraintes pour tester un cue, pas gagner tout le round.",
+  "ifThenExamples": [
+    {
+      "if": "Si vous perdez Rolling positionnel pendant l’échange.",
+      "then": "Arrêtez d’accélérer, récupérez la structure corporelle proche, puis continuez.",
+      "why": "Le no-gi moderne punit vite la force après perte de structure.",
+      "relatedSkillIds": [
+        "side-control-escape",
+        "back-control"
+      ]
+    },
+    {
+      "if": "Si l’adversaire répond correctement à votre première ligne.",
+      "then": "Utilisez Rolling positionnel pour passer à une branche plus sûre au lieu de forcer.",
+      "why": "Un bon concept transforme la réaction adverse en information pour la décision suivante.",
+      "relatedSkillIds": [
+        "back-control",
+        "bodylock-passing",
+        "front-headlock-defense"
+      ]
+    }
+  ],
+  "commonMisunderstandings": [
+    {
+      "misunderstanding": "Rolling positionnel est une astuce technique isolée.",
+      "correction": "Voyez-le comme une règle de décision présente dans plusieurs positions."
+    },
+    {
+      "misunderstanding": "Comprendre le concept suffit pour l’utiliser en live.",
+      "correction": "Le concept doit être lié à signaux corporels, cues courts et rolling positionnel."
+    }
+  ],
+  "trainingCues": [
+    "Nommez Rolling positionnel avant d’ajouter force.",
+    "Cherchez le signal corporel, pas une impression vague.",
+    "Si la structure est perdue, reset une couche d’abord.",
+    "Driller lentement, puis tester avec résistance progressive."
+  ],
+  "relatedSkillIds": [
+    "side-control-escape",
+    "back-control",
+    "bodylock-passing",
+    "front-headlock-defense"
+  ],
+  "relatedConceptIds": [
+    "deliberate-practice",
+    "failure-response",
+    "positional-hierarchy"
+  ]
+}

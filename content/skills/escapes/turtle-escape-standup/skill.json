@@ -1,0 +1,57 @@
+{
+  "id": "turtle-escape-standup",
+  "domain": "escapes",
+  "level": "intermediate",
+  "name": "Turtle Escape to Stand Up",
+  "aliases": [
+    "turtle stand-up",
+    "turtle technical stand-up",
+    "tripod stand-up"
+  ],
+  "tags": [
+    "escape",
+    "turtle",
+    "stand-up",
+    "wrestling",
+    "back-defense"
+  ],
+  "keywords": [
+    "turtle position",
+    "technical stand-up",
+    "granby roll",
+    "back exposure",
+    "tripod base"
+  ],
+  "relatedSkills": [
+    {
+      "id": "back-escape",
+      "type": "recommended"
+    },
+    {
+      "id": "technical-stand-up",
+      "type": "recommended"
+    },
+    {
+      "id": "sprawl-go-behind",
+      "type": "recommended"
+    }
+  ],
+  "prerequisiteSkillIds": [
+    "back-escape",
+    "side-control-escape"
+  ],
+  "relatedPositions": [],
+  "relatedConcepts": [],
+  "archetypeIds": [],
+  "trainingMethodIds": [],
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "updatedAt": "2026-06-12T00:00:00.000Z"
+}

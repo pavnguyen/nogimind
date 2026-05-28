@@ -1,0 +1,115 @@
+{
+  "id": "back-escape",
+  "domain": "escapes",
+  "level": "intermediate",
+  "status": "draft",
+  "name": "Retour Évasion",
+  "aliases": [],
+  "tags": [
+    "escape",
+    "back"
+  ],
+  "keywords": [
+    "back control",
+    "hand fighting",
+    "shoulder line",
+    "inside position"
+  ],
+  "relatedSkills": [
+    {
+      "id": "back-control",
+      "type": "recommended"
+    },
+    {
+      "id": "rear-naked-choke-system",
+      "type": "recommended"
+    },
+    {
+      "id": "scramble-control",
+      "type": "recommended"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "back-survival"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [],
+  "version": 1,
+  "updatedAt": "2026-05-21T00:24:30.751Z",
+  "contentRefs": {
+    "videos": "videos.json",
+    "qualityChecklist": "qualityChecklist"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": true,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "fr",
+  "description": "Échappez-vous du dos en remportant le combat à main levée, en glissant la ligne d'épaule et en vous tournant vers guard ou vers le haut.",
+  "shortInstruction": "Contrôlez la main qui s'étouffe, laissez tomber l'épaule au-delà de la ligne des hanches, créez un crochet et transformez-vous en guard ou levez-vous.",
+  "summary": "L'évasion arrière nécessite d'abord de gagner le combat à main, puis de créer de l'espace en laissant tomber l'épaule coincée sous la ligne des hanches de l'adversaire. Une branche systématique : combat à la main → glissade d'épaule → retrait d'un seul crochet → virage ou redressement.",
+  "whyItWorks": [
+    "Contrôler la main qui s'étouffe arrête la principale menace de finition avant de travailler à l'évasion.",
+    "Abaisser l'épaule sous la ligne des hanches supprime leur contrôle structurel principal - la connexion côte-dos",
+    "Retirer un crochet à la fois est plus réalisable que d’essayer de se débarrasser des deux simultanément",
+    "Se tourner vers eux plutôt que de s'en éloigner réduit le risque d'exposer à nouveau le dos lors de la tentative d'évasion"
+  ],
+  "commonMistakes": [
+    "Combattre le corps triangle au lieu de la main qui s'étouffe — vous pouvez survivre au corps triangle mais pas à l'étouffement",
+    "Se détourner de l'adversaire (donnant l'autre côté du cou) au lieu de se tourner vers sa poitrine",
+    "Utiliser les deux mains sur la main qui s'étouffe et laisser le crochet le plus proche complètement incontrôlé",
+    "Attendre trop longtemps : plus ils ont le dos long, plus leur seatbelt est serré et plus la fuite est difficile"
+  ],
+  "coachingCues": [
+    "Combattez à la main d'abord, toujours",
+    "Épaule sous la ligne des hanches",
+    "Un crochet à la fois"
+  ],
+  "safetySummary": [
+    "Le rear-naked choke s'allume rapidement : si vous sentez la mâchoire s'ouvrir, appuyez et réinitialisez avant de perdre connaissance.",
+    "N'utilisez pas de mouvements explosifs qui pourraient provoquer une pression accidentelle sur la colonne vertébrale lors du roulement depuis l'arrière.",
+    "Si l'adversaire a un corps triangle, privilégiez la respiration et les combats de mains plutôt que les mouvements paniqués."
+  ],
+  "systemLogic": {
+    "corePrinciple": "L'évasion arrière suit une séquence en quatre étapes : combat de mains (contrôle de la main qui s'étouffe) → glissement de l'épaule (chute de l'épaule coincée sous la ligne des hanches) → retrait du crochet (dégagement d'un crochet à la fois) → retournement ou redressement",
+    "decisionTree": [
+      {
+        "condition": "Dans la phase de combat manuel",
+        "action": "Utilisez les deux mains sur leur avant-bras étouffant, retirez le bras du cou et gardez-le épinglé contre votre poitrine."
+      },
+      {
+        "condition": "Dans la phase de glissement de l'épaule",
+        "action": "Après avoir contrôlé le bras, écartez vos hanches et laissez tomber l'épaule coincée au-delà de la ligne de leurs hanches - cela tue leur contrôle seatbelt"
+      },
+      {
+        "condition": "Ils passent à une tentative de armbar pendant l'évasion",
+        "action": "Gardez vos coudes serrés contre vos côtes et continuez à vous tourner vers elles."
+      }
+    ],
+    "exitStrategies": [
+      "Si l'évasion échoue et qu'ils rétablissent back control, réinitialisez la phase de combat à main levée et recommencez.",
+      "S'ils vous aplatissent à plat ventre, protégez votre cou et utilisez le stand-up mur/lutte plutôt que de rouler."
+    ]
+  },
+  "moneyDetails": [
+    "Les évasions arrière gagnent des matchs en refusant 4 points à l'adversaire et en revenant à une position neutre ou avantageuse",
+    "Une évasion arrière fiable élimine la peur de back control - vous pouvez prendre plus de risques en entrant dans les bousculades",
+    "Les concurrents avec de solides évasions arrière sont beaucoup plus difficiles à terminer dans les tournois"
+  ],
+  "fixItFast": [
+    "Si vous ne parvenez pas à atteindre la main qui s'étouffe : coincez sa manche contre votre poitrine en cachant votre menton et en la décollant avec la main opposée.",
+    "Si vous retirez un crochet mais qu'ils le remplacent immédiatement : gardez la jambe dégagée largement affichée et ne la laissez pas se réengager.",
+    "S'ils vous aplatissent à plat ventre par l'arrière : protégez votre cou, mettez-vous à genoux et utilisez le stand-up mur/lutte plutôt que de rouler."
+  ]
+}

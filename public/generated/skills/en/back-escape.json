@@ -1,0 +1,115 @@
+{
+  "id": "back-escape",
+  "domain": "escapes",
+  "level": "intermediate",
+  "status": "draft",
+  "name": "Back Escape",
+  "aliases": [],
+  "tags": [
+    "escape",
+    "back"
+  ],
+  "keywords": [
+    "back control",
+    "hand fighting",
+    "shoulder line",
+    "inside position"
+  ],
+  "relatedSkills": [
+    {
+      "id": "back-control",
+      "type": "recommended"
+    },
+    {
+      "id": "rear-naked-choke-system",
+      "type": "recommended"
+    },
+    {
+      "id": "scramble-control",
+      "type": "recommended"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "back-survival"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [],
+  "version": 1,
+  "updatedAt": "2026-05-21T00:24:30.751Z",
+  "contentRefs": {
+    "videos": "videos.json",
+    "qualityChecklist": "qualityChecklist"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": true,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "en",
+  "description": "Escape the back by winning the hand fight, slipping shoulder line, and turning to guard or top.",
+  "shortInstruction": "Control the choking hand, drop the shoulder past their hip line, create one hook out, and turn into guard or stand up.",
+  "summary": "Back escape requires winning the hand fight first, then creating space by dropping the trapped shoulder below the opponent's hip line. A systematic branch: hand fight → shoulder slip → single hook removal → turn or stand-up.",
+  "whyItWorks": [
+    "Controlling the choking hand stops the primary finishing threat before you work on the escape",
+    "Dropping the shoulder below the hip line removes their primary structural control — the rib-to-back connection",
+    "Removing one hook at a time is more achievable than trying to shed both simultaneously",
+    "Turning into them rather than away reduces the risk of exposing the back again during the escape attempt"
+  ],
+  "commonMistakes": [
+    "Fighting the body triangle instead of the choking hand — you can survive the body triangle but not the choke",
+    "Turning away from the opponent (giving the other side of the neck) instead of turning into their chest",
+    "Using both hands on the choking hand and leaving the near hook completely uncontrolled",
+    "Waiting too long — the longer they have the back, the tighter their seatbelt and the harder the escape"
+  ],
+  "coachingCues": [
+    "Hand fight first, always",
+    "Shoulder below hip line",
+    "One hook at a time"
+  ],
+  "safetySummary": [
+    "The rear-naked choke comes on fast — if you feel the jaw line open, tap and reset before losing consciousness",
+    "Do not use explosive movements that might cause accidental spinal pressure when rolling from the back",
+    "If the opponent has a body triangle, prioritize breathing and hand fighting over panicked movement"
+  ],
+  "systemLogic": {
+    "corePrinciple": "The back escape follows a four-step sequence: hand fight (control choking hand) → shoulder slip (drop trapped shoulder below hip line) → hook removal (clear one hook at a time) → turn or stand-up",
+    "decisionTree": [
+      {
+        "condition": "In the Hand Fight phase",
+        "action": "Use both hands on their choking forearm, peel the arm away from the neck, keep it pinned to your chest"
+      },
+      {
+        "condition": "In the Shoulder Slip phase",
+        "action": "After controlling the arm, sit your hips away and drop the trapped shoulder past their hip line — this kills their seatbelt control"
+      },
+      {
+        "condition": "They switch to an armbar attempt during the escape",
+        "action": "Keep your elbows tight to your ribs and continue turning toward them"
+      }
+    ],
+    "exitStrategies": [
+      "If the escape fails and they re-establish back control, reset to the hand fight phase and start again",
+      "If they flatten you belly-down, protect your neck and use the wall/wrestling stand-up rather than rolling"
+    ]
+  },
+  "moneyDetails": [
+    "Back escapes win matches by denying 4 points to the opponent and returning to a neutral or advantageous position",
+    "A reliable back escape removes the fear of back control — you can take more risks entering scrambles",
+    "Competitors with strong back escapes are significantly harder to finish in tournaments"
+  ],
+  "fixItFast": [
+    "If you cannot reach the choking hand: trap their sleeve against your chest by hiding your chin and peeling with the opposite hand",
+    "If you remove one hook but they replace it immediately: keep the cleared leg posted wide and do not let it re-engage",
+    "If they flatten you belly-down from the back: protect your neck, get to your knees, and use the wall/wrestling stand-up rather than rolling"
+  ]
+}

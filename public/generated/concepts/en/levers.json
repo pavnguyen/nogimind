@@ -1,0 +1,65 @@
+{
+  "id": "levers",
+  "locale": "en",
+  "title": "Levers",
+  "category": "mechanical",
+  "level": "intermediate",
+  "tags": [
+    "lever",
+    "kimura",
+    "off-balance"
+  ],
+  "shortDefinition": "A lever uses one segment of the opponent’s body to rotate or disrupt a larger structure.",
+  "whyItMatters": "Levers let a smaller player off-balance, kimura control, or arm drag without brute strength.",
+  "deepExplanation": "An elbow separated from ribs, wrist across centerline, trapped knee line, or rotated shoulder line creates a lever. Reading levers lets you attack at the right moment.",
+  "beginnerView": "Look for elbows or wrists separated from the body.",
+  "advancedView": "Create levers through dilemmas instead of waiting for mistakes.",
+  "ifThenExamples": [
+    {
+      "if": "If you lose Levers during the exchange.",
+      "then": "Stop accelerating, recover the nearest body structure, then continue the technique.",
+      "why": "Modern no-gi punishes forceful continuation after structure is lost.",
+      "relatedSkillIds": [
+        "kimura-system",
+        "arm-triangle-mount"
+      ]
+    },
+    {
+      "if": "If the opponent correctly answers your first line.",
+      "then": "Use Levers to switch to a safer branch instead of forcing the same line.",
+      "why": "A good concept turns the opponent’s reaction into information for the next decision.",
+      "relatedSkillIds": [
+        "arm-triangle-mount",
+        "butterfly-guard-off-balance",
+        "seated-guard-retention"
+      ]
+    }
+  ],
+  "commonMisunderstandings": [
+    {
+      "misunderstanding": "Levers is a single technical trick.",
+      "correction": "Treat it as a decision rule that appears across many positions."
+    },
+    {
+      "misunderstanding": "Understanding the concept automatically makes it work live.",
+      "correction": "The concept needs body signals, short cues, and positional rolling."
+    }
+  ],
+  "trainingCues": [
+    "Name Levers before adding force.",
+    "Find the body signal instead of guessing generally.",
+    "If structure is lost, reset one layer first.",
+    "Drill slowly, then test with progressive resistance."
+  ],
+  "relatedSkillIds": [
+    "kimura-system",
+    "arm-triangle-mount",
+    "butterfly-guard-off-balance",
+    "seated-guard-retention"
+  ],
+  "relatedConceptIds": [
+    "dilemma-attacks",
+    "angle-creation",
+    "control-before-submission"
+  ]
+}

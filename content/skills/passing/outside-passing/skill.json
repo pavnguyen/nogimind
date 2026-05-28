@@ -1,0 +1,49 @@
+{
+  "id": "outside-passing",
+  "domain": "passing",
+  "level": "intermediate",
+  "name": "Outside Passing",
+  "aliases": [],
+  "tags": [
+    "passing",
+    "mobility"
+  ],
+  "keywords": [
+    "outside passing",
+    "leg drag",
+    "knee line",
+    "guard retention"
+  ],
+  "relatedSkills": [
+    {
+      "id": "leg-drag-basics",
+      "type": "recommended"
+    },
+    {
+      "id": "side-control-pin",
+      "type": "recommended"
+    },
+    {
+      "id": "scramble-control",
+      "type": "recommended"
+    }
+  ],
+  "prerequisiteSkillIds": [
+    "supine-guard-retention"
+  ],
+  "relatedPositions": [],
+  "relatedConcepts": [],
+  "archetypeIds": [],
+  "trainingMethodIds": [],
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": true,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "contentRefs": {
+    "videos": "videos.json",
+    "qualityChecklist": "qualityChecklist"
+  },
+  "updatedAt": "2026-05-21T00:24:30.749Z"
+}

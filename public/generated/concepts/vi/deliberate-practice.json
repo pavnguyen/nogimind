@@ -1,0 +1,65 @@
+{
+  "id": "deliberate-practice",
+  "locale": "vi",
+  "title": "Tập luyện có chủ đích",
+  "category": "training",
+  "level": "fundamental",
+  "tags": [
+    "training",
+    "feedback loop",
+    "practice"
+  ],
+  "shortDefinition": "Tập có chủ đích là chọn một cue nhỏ, đo kết quả và tăng resistance theo từng bước.",
+  "whyItMatters": "Biết nhiều kỹ thuật không biến thành skill nếu không có feedback loop.",
+  "deepExplanation": "Một block tốt có static reps, progressive resistance, positional rolling, live test và journal. Mỗi vòng trả lời: cue nào chạy, cue nào fail, problem nào lặp lại?",
+  "beginnerView": "Tập một mục tiêu nhỏ trong nhiều round.",
+  "advancedView": "Thiết kế constraints để ép kỹ năng xuất hiện dưới áp lực thật.",
+  "ifThenExamples": [
+    {
+      "if": "Nếu bạn mất Tập luyện có chủ đích trong trao đổi.",
+      "then": "Dừng tăng tốc, lấy lại cấu trúc cơ thể gần nhất rồi mới tiếp tục kỹ thuật.",
+      "why": "No-gi hiện đại phạt rất nhanh khi bạn cố thắng bằng sức sau khi mất cấu trúc.",
+      "relatedSkillIds": [
+        "positional-hierarchy",
+        "failure-response-transitions"
+      ]
+    },
+    {
+      "if": "Nếu đối thủ phản ứng đúng với hướng đầu tiên.",
+      "then": "Dùng Tập luyện có chủ đích để đổi sang nhánh an toàn hơn thay vì ép cùng một hướng.",
+      "why": "Concept tốt biến phản ứng của đối thủ thành thông tin cho quyết định tiếp theo.",
+      "relatedSkillIds": [
+        "failure-response-transitions",
+        "scramble-control",
+        "bodylock-passing"
+      ]
+    }
+  ],
+  "commonMisunderstandings": [
+    {
+      "misunderstanding": "Tập luyện có chủ đích là một mẹo kỹ thuật riêng lẻ.",
+      "correction": "Hãy xem nó như quy tắc quyết định xuất hiện trong nhiều vị trí khác nhau."
+    },
+    {
+      "misunderstanding": "Bạn chỉ cần hiểu khái niệm là tự động dùng được trong live roll.",
+      "correction": "Khái niệm phải được gắn với body signal, cue ngắn và positional rolling."
+    }
+  ],
+  "trainingCues": [
+    "Gọi tên Tập luyện có chủ đích trước khi tăng lực.",
+    "Tìm body signal, không đoán bằng cảm giác chung.",
+    "Nếu mất cấu trúc, reset một layer trước.",
+    "Drill chậm, test bằng resistance tăng dần."
+  ],
+  "relatedSkillIds": [
+    "positional-hierarchy",
+    "failure-response-transitions",
+    "scramble-control",
+    "bodylock-passing"
+  ],
+  "relatedConceptIds": [
+    "positional-rolling",
+    "failure-response",
+    "early-vs-late-defense"
+  ]
+}

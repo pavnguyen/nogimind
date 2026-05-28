@@ -1,0 +1,119 @@
+{
+  "id": "shotgun-ankle-lock",
+  "domain": "submission_systems",
+  "level": "advanced",
+  "status": "draft",
+  "name": "Fusil de chasse ankle lock",
+  "aliases": [],
+  "tags": [
+    "shotgun-ankle-lock",
+    "leg-lock",
+    "ankle-lock",
+    "straight-ankle",
+    "saddle"
+  ],
+  "keywords": [
+    "shotgun ankle lock",
+    "straight ankle",
+    "leg entanglement",
+    "saddle",
+    "finishing mechanics"
+  ],
+  "relatedSkills": [
+    {
+      "id": "heel-hook-safety",
+      "type": "recommended"
+    },
+    {
+      "id": "backside-50-50-control",
+      "type": "recommended"
+    },
+    {
+      "id": "fifty-fifty-to-heel-exposure",
+      "type": "recommended"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "saddle-inside-sankaku-control",
+    "leg-lock-safety-basics"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [
+    "Si vous ne parvenez pas à terminer, c'est que leur pied n'est pas assez près de votre poitrine – serrez-le plus fort.",
+    "S’ils échappent au ankle lock, votre jambe croisée était trop superficielle – rentrez plus profondément.",
+    "S'ils roulent, relâchez et suivez jusqu'à la prise arrière ou saddle."
+  ],
+  "version": 1,
+  "updatedAt": "2026-05-21T00:24:30.770Z",
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "fr",
+  "description": "Une variation plus forte du ankle lock droit à partir du saddle ou 50/50 : croisez les jambes de l'adversaire et utilisez la rotation des hanches et la pression de la poitrine pour terminer.",
+  "shortInstruction": "Croisez les jambes, épinglez le pied contre votre poitrine, faites pivoter vos hanches – le fusil de chasse ankle lock ajoute du poids au ankle lock droit.",
+  "summary": "Le fusil de chasse ankle lock est une variante plus puissante du ankle lock droit. En croisant les jambes de l'adversaire et en plaquant son pied contre votre poitrine, vous ajoutez le poids du corps et la rotation des hanches à la finition standard ankle lock. Le nom « fusil de chasse » vient de la façon dont vous utilisez votre poitrine et vos hanches comme un mécanisme de tir, combinant pression vers l'avant et rotation. Il est généralement saisi à partir des positions saddle ou 50/50.",
+  "whyItWorks": [
+    "Croiser les jambes crée un avantage mécanique : le poids de votre corps ajoute de la force au ankle lock.",
+    "La pression thoracique exercée sur leur pied multiplie la force d’extension sur leur cheville.",
+    "La rotation de la hanche ajoute un élément de torsion que le ankle lock droit standard n'a pas.",
+    "Principe Danaher : ajouter du poids corporel à n'importe quel verrou articulaire augmente son efficacité sans nécessiter plus de force."
+  ],
+  "commonMistakes": [
+    "Ne croisant pas les jambes assez profondément – ​​une croix peu profonde leur donne la possibilité de s’échapper.",
+    "Laisser son pied glisser loin de votre poitrine – le pied doit être fermement épinglé.",
+    "En utilisant uniquement les bras pour finir au lieu de la poitrine et des hanches, le fusil de chasse est une soumission de tout le corps.",
+    "Relâcher l'enchevêtrement des jambes trop tôt - le fusil de chasse nécessite que l'enchevêtrement reste serré."
+  ],
+  "coachingCues": [
+    "Traversez profondément, épinglez le pied, conduisez avec la poitrine.",
+    "Votre poitrine est le marteau, leur cheville est le clou.",
+    "Si la cheville n’est pas pincée, vous perdez l’effet de levier.",
+    "Faites pivoter vos hanches, ne vous contentez pas de tirer."
+  ],
+  "safetySummary": [
+    "Le fusil de chasse ankle lock applique une pression sur la cheville et le genou – appliquez-la progressivement et relâchez en appuyant dessus.",
+    "N'explosez pas dans la finition - des blessures à la cheville peuvent survenir rapidement.",
+    "Soyez prudent lorsque vous croisez les jambes de l'adversaire – assurez-vous que son genou n'est pas soumis à une tension excessive."
+  ],
+  "systemLogic": {
+    "corePrinciple": "saddle ou 50/50 : croisez les jambes de l'adversaire (l'une sur l'autre) → épinglez son pied contre votre poitrine → penchez-vous en avant avec une pression thoracique → faites pivoter les hanches → terminez.",
+    "decisionTree": [
+      {
+        "condition": "Application générale",
+        "action": "Le fusil de chasse ankle lock s'enchaîne avec le heel hook depuis la même position."
+      },
+      {
+        "condition": "ils défendent le ankle lock",
+        "action": "passez à heel hook ou à la barre de genou."
+      }
+    ],
+    "exitStrategies": []
+  },
+  "moneyDetails": [
+    "Croisez les jambes au niveau des chevilles, pas des mollets – le croisement au niveau des chevilles vous donne plus de contrôle.",
+    "Épinglez le dessus de votre pied contre votre sternum avec votre poitrine – c'est la position « fusil de chasse ».",
+    "Penchez votre poitrine vers l'avant sur son pied pendant que vous tirez ses orteils vers vous - la combinaison des forces crée le verrou.",
+    "Faites pivoter vos hanches sur le côté lorsque vous vous penchez – cela ajoute une pression de rotation sur la cheville."
+  ],
+  "nextStep": "Après le fusil de chasse ankle lock, apprenez les lignes droites ankle lock et heel hook à partir de saddle.",
+  "fixItFast": [
+    "La cheville ne comprime pas ? Tirez leur pied plus fort contre votre poitrine.",
+    "Vous ne pouvez pas terminer ? Ajoutez une rotation de la hanche – le fusil de chasse n’est pas seulement une pression, c’est une pression + une rotation.",
+    "Ils roulent ? Relâchez et suivez jusqu'à saddle ou revenez en arrière."
+  ]
+}

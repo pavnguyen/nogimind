@@ -1,0 +1,63 @@
+{
+  "id": "heel-hook-safety",
+  "locale": "vi",
+  "name": "heel hook An toàn",
+  "description": "Tìm hiểu cách nhận biết mức độ tiếp xúc của gót chân, cơ học lực quay và các quy tắc quan trọng chạm trước lực trước khi bất kỳ áp lực nghiêm trọng nào đi vào heel hook.",
+  "shortInstruction": "Gót chân lộ ra? Kiểm soát được thiết lập? Lực quay có thẳng hàng không? Nếu không, đừng tấn công - kiểm soát trước, về đích thứ hai.",
+  "summary": "heel hook an toàn là chủ đề quan trọng nhất trong khóa chân No-Gi hiện đại. Không giống như hầu hết các bài tập, heel hook có thể gây chấn thương đầu gối nghiêm trọng (ACL, PCL, MCL, tổn thương sụn khớp) với rất ít lực và hầu như không gây đau đớn. Quy trình an toàn là: nhận biết khi gót chân lộ ra, thiết lập toàn quyền kiểm soát hông và chân phụ, căn chỉnh vectơ lực quay và chỉ sau đó áp dụng áp lực chậm, có kiểm soát. Đừng bao giờ 'xé' heel hook.",
+  "whyItWorks": [
+    "Đầu gối có rất ít khả năng ổn định khi xoay - xoay ra ngoài dưới 5 độ có thể gây tổn thương dây chằng.",
+    "heel hook gây thương tích trước khi đối thủ cảm thấy đau — bạn không thể dựa vào cú chạm của họ làm dấu hiệu an toàn duy nhất cho mình.",
+    "Việc áp dụng heel hooks có kiểm soát sẽ tạo dựng niềm tin và cho phép các đối tác đào tạo tìm hiểu vị trí một cách an toàn.",
+    "Nguyên tắc Danaher: khóa chân là động tác nguy hiểm nhất trong BJJ — các quy trình an toàn không phải là tùy chọn mà là bắt buộc."
+  ],
+  "commonMistakes": [
+    "Áp dụng heel hook một cách bùng nổ - 'xé toạc' gây ra thương tích mà lẽ ra có thể ngăn ngừa được nếu áp dụng chậm.",
+    "Kết thúc mà không kiểm soát được hông của đối phương - họ có thể xoay người và làm bị thương đầu gối của chính mình.",
+    "Không nhận biết được khi nào gót chân lộ ra ngoài và khi nào sự vướng víu chưa được kiểm soát.",
+    "Đào tạo heel hook với những đối tác không thể đoán trước — sự tin tưởng và giao tiếp là điều cần thiết."
+  ],
+  "coachingCues": [
+    "Kiểm soát trước, về đích sau - không bao giờ bỏ qua giai đoạn kiểm soát.",
+    "Chậm là trơn tru, trơn tru là an toàn - nếu bạn 'xé', bạn đã sai.",
+    "Nếu bạn không thể giải thích tại sao gót chân lại lộ ra ngoài thì bạn không có quyền kiểm soát.",
+    "Chạm sớm, chạm thường xuyên - không có gì xấu hổ khi bảo vệ đầu gối của bạn."
+  ],
+  "safetySummary": [
+    "KHÔNG BAO GIỜ áp dụng heel hook một cách bùng nổ - áp lực chậm, có kiểm soát cho phép đối tác chạm vào trước khi bị thương.",
+    "Luôn kiểm soát hoàn toàn hông và chân phụ trước khi tác dụng lực quay.",
+    "Chạm vào BẤT KỲ cảm giác áp lực quay nào lên đầu gối - đừng chờ đợi cơn đau.",
+    "Không đào tạo heel hook với đối tác mà bạn không tin tưởng.",
+    "heel hook không phù hợp với người mới bắt đầu - trước tiên cần phải có nguyên tắc cơ bản về khóa chân vững chắc."
+  ],
+  "keyCorrections": [
+    "Nếu đối tác của bạn phải hét lên 'chạm' sau khi bạn tạo áp lực thì bạn đang áp dụng quá nhanh.",
+    "Nếu bạn cảm thấy lực cản trong quá trình quay (chúng không chịu tác động của lực), hãy thả ra ngay lập tức.",
+    "Nếu bạn không thể giải thích tại sao gót chân lại lộ ra, thì bạn không có được vị trí - đặt lại."
+  ],
+  "systemLogic": {
+    "corePrinciple": "Sự vướng víu của chân được thiết lập: kiểm soát hông → kiểm soát chân phụ → để lộ gót chân → căn chỉnh vectơ xoay → tạo áp lực chậm → kết thúc.",
+    "decisionTree": [
+      {
+        "condition": "thiếu bước nào",
+        "action": "quay lại bước đó trước khi tiến lên."
+      },
+      {
+        "condition": "Ứng dụng chung",
+        "action": "Danh sách kiểm tra an toàn KHÔNG phải là tùy chọn — đây là phần quan trọng nhất của khóa đào tạo heel hook."
+      }
+    ]
+  },
+  "moneyDetails": [
+    "Lộ gót chân xảy ra khi gót chân của đối phương quay về phía ngực của bạn và đầu gối của họ được cố định bởi sự vướng víu của bạn.",
+    "Kiểm soát hông xa của họ bằng tay hoặc chân của bạn - điều này ngăn họ quay đi và tự làm mình bị thương.",
+    "Vectơ quay phải thẳng hàng với độ cong tự nhiên của đầu gối - xoay ra ngoài, không phải vẹo trong/vẹo ngoài.",
+    "Tạo áp lực ở mức 10% trong 3 giây, sau đó là 20% trong 3 giây — nếu họ không chạm vào, bạn có quyền kiểm soát."
+  ],
+  "nextStep": "Sau heel hook an toàn, hãy tìm hiểu điều khiển saddle và cơ chế bên trong heel hook.",
+  "fixItFast": [
+    "Đối tác bị thương? Hãy ngừng tập luyện ngay lập tức - đánh giá lại khả năng kiểm soát và tốc độ của bạn.",
+    "Không chắc chắn về kết thúc? Thả ra và vào lại - không có hình phạt nào cho việc an toàn.",
+    "Đối tác không nhấn? Bạn có thể không có được vị trí - hãy kiểm tra độ vướng víu và độ hở của gót chân."
+  ]
+}

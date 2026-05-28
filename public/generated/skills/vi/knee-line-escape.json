@@ -1,0 +1,131 @@
+{
+  "id": "knee-line-escape",
+  "domain": "survival_defense",
+  "level": "intermediate",
+  "status": "draft",
+  "name": "Thoát khỏi đường đầu gối / Ẩn gót chân",
+  "aliases": [],
+  "tags": [
+    "knee-line",
+    "leg-lock",
+    "heel-hide",
+    "defense",
+    "escape"
+  ],
+  "keywords": [
+    "heel hide",
+    "knee line",
+    "boot defense",
+    "rotation direction",
+    "tap timing",
+    "secondary leg"
+  ],
+  "relatedSkills": [
+    {
+      "id": "single-leg-x-basics",
+      "type": "recommended"
+    },
+    {
+      "id": "saddle-inside-sankaku-control",
+      "type": "recommended"
+    },
+    {
+      "id": "backside-50-50-control",
+      "type": "recommended"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "leg-lock-safety-basics",
+    "heel-hook-safety"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [
+    "Nếu bạn cảm thấy áp lực xoay mặc dù đã giấu gót chân: hông của bạn quá gần - hãy tách hông ra ngay trước khi mô-men xoắn chạm tới đầu gối",
+    "Nếu bạn không thể xóa móc phụ: hãy thay đổi góc của bạn - xoay nhẹ hông về phía tấm thảm và đẩy chân còn lại của bạn qua khoảng trống",
+    "Nếu họ chuyển từ heel hook sang thanh đầu gối: giấu gót chân và duỗi chân ra một chút để giảm áp lực duỗi quá mức trong khi vẫn giữ nguyên gót chân"
+  ],
+  "version": 1,
+  "updatedAt": "2026-05-21T00:24:30.766Z",
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "vi",
+  "description": "Thoát khỏi đường đầu gối khỏi vướng víu ở chân: giấu gót chân, tách hông, tách chân phụ và xoay chính xác trước khi lực quay chạm đến đầu gối. Phòng thủ đường đầu gối là kỹ năng an toàn quan trọng nhất trong môn vật lộn khóa chân hiện đại.",
+  "shortInstruction": "Giấu gót chân sau đùi, tách hông của bạn ra khỏi hông của họ, bỏ móc chân thứ hai và xoay về phía chân tự do - không bao giờ rời xa chân bị mắc kẹt.",
+  "summary": "Thoát khỏi đường đầu gối là một quá trình có hệ thống để loại bỏ đầu gối của bạn khỏi sự kiểm soát của đối phương trong tình huống vướng chân. Trình tự bốn bước là: (1) ẩn gót chân — đưa gót chân về phía cơ mông để ngăn chúng kiểm soát bàn chân, (2) tách hông — tạo khoảng cách giữa hông của bạn và hông của họ để giảm lực xoay, (3) bỏ chân phụ — tháo móc chân bên ngoài đang bẫy chân bạn, (4) xoay đúng — xoay về phía chân tự do của bạn (không bao giờ rời khỏi chân bị mắc kẹt). Hệ thống này dựa trên triết lý thoát khóa chân của Danaher và là nền tảng của mọi biện pháp phòng thủ khóa chân.",
+  "whyItWorks": [
+    "Việc giấu gót chân sau đùi của bạn sẽ loại bỏ điểm kiểm soát chính của chúng — nếu không có khả năng kiểm soát gót chân, chúng không thể tạo ra mô-men quay cần thiết để hoàn thành",
+    "Việc tách hông của bạn khỏi hông của họ sẽ loại bỏ điểm tựa của khóa chân - tất cả các khóa chân đều yêu cầu ở gần hông để tạo ra lực bẻ gãy",
+    "Việc tháo móc chân phụ giúp chúng không bị vướng khi bạn cố gắng trốn thoát",
+    "Xoay về phía chân tự do tạo ra áp lực tò mò chống lại sự bám chặt của chúng - quay ra xa (chuyển động bản năng) sẽ siết chặt sự vướng víu"
+  ],
+  "commonMistakes": [
+    "Hoảng sợ và xoay người khỏi chân bị kẹt — thao tác này sẽ siết chặt heel hook hoặc thanh đầu gối",
+    "Cố gắng kéo thẳng chân ra thay vì giấu gót chân và dọn sạch chân phụ trước",
+    "Để hông của bạn ở gần hông của họ - điều này mang lại cho họ lực đẩy xoay hoàn toàn vào đầu gối của bạn",
+    "Bỏ qua móc chân phụ - ngay cả khi bạn giải quyết được vướng víu chính, móc phụ vẫn khiến bạn bị mắc kẹt"
+  ],
+  "coachingCues": [
+    "Gót chân để mông, luôn luôn",
+    "Hông đi, không hướng tới",
+    "Xóa móc bên ngoài trước",
+    "Xoay về phía chân tự do"
+  ],
+  "safetySummary": [
+    "Khóa chân rất nguy hiểm — heel hooks có thể làm hỏng đầu gối trong một phần nghìn giây trước khi bạn cảm thấy đau. Nhấn để định vị, không nhấn",
+    "Nếu bạn cảm thấy bất kỳ áp lực xoay nào lên đầu gối của mình, hãy nhấn ngay lập tức - tái tạo đầu gối là thời gian phục hồi trong nhiều tháng, một lần nhấn là thiết lập lại vài giây",
+    "Không bao giờ tập khóa chân mà không hiểu trình tự thoát hiểm - huấn luyện phòng thủ cũng quan trọng không kém huấn luyện tấn công",
+    "Trao đổi với các đối tác đào tạo về mức độ kinh nghiệm khóa chân trước khi lăn"
+  ],
+  "systemLogic": {
+    "corePrinciple": "Việc thoát khỏi đường đầu gối tuân theo trình tự bốn bước: Ẩn gót chân → Tách hông → Xóa chân phụ → Xoay đúng",
+    "decisionTree": [
+      {
+        "condition": "Bước 1, Giấu gót chân: thời điểm",
+        "action": "bạn cảm thấy chân mình bị cô lập, hãy đưa gót chân càng gần mông càng tốt. Việc này sẽ loại bỏ 'tay cầm' mà chúng cần để xoay bàn chân của bạn. Nếu không kiểm soát được gót chân, họ không thể hoàn thành heel hook"
+      },
+      {
+        "condition": "Bước 2, Tách hông: bước đi hoặc đưa hông của bạn ra xa hông của họ. Khoảng cách gần hông là điều kiện tiên quyết cho tất cả các cơ chế hoàn thiện khóa chân. Bằng cách tách hông",
+        "action": "bạn loại bỏ điểm đòn bẩy của họ. Khoảng cách 6-8 inch giữa hông của bạn là đủ để vô hiệu hóa hầu hết các đòn khóa chân"
+      },
+      {
+        "condition": "Ứng dụng chung",
+        "action": "Nếu Bước 3, Xóa chân phụ: chân ngoài của đối phương (chân không tấn công) đang móc hoặc bẫy chân còn lại của bạn. Đập chân còn lại của bạn ra khỏi dưới móc của chúng bằng cách vòng nó ra khỏi chỗ vướng víu"
+      },
+      {
+        "condition": "Ứng dụng chung",
+        "action": "Nếu Bước 4, Xoay đúng: sau khi hoàn thành ba bước đầu tiên, hãy xoay cơ thể về phía chân còn lại (chân không bị kẹt). Điều này tạo ra áp lực tò mò chống lại sự bám chặt của chúng và cho phép đầu gối bị mắc kẹt của bạn trượt ra khỏi chỗ vướng víu."
+      },
+      {
+        "condition": "tất cả bốn bước đều được thực hiện thành công",
+        "action": "bạn sẽ thoát ra hoàn toàn hoặc đến vị trí 50/50 mà cả người vật lộn đều không kiểm soát được đường đầu gối"
+      }
+    ],
+    "exitStrategies": []
+  },
+  "moneyDetails": [
+    "Thoát khỏi đường đầu gối là kỹ năng an toàn quan trọng nhất trong BJJ hiện đại — sự gia tăng của khóa chân có nghĩa là mọi vận động viên vật lộn đều phải biết trình tự này",
+    "Đường thoát hiểm bằng đầu gối đáng tin cậy giúp loại bỏ nỗi sợ bị vướng vào chân — bạn có thể tham gia mà không có nguy cơ chấn thương thường xuyên",
+    "Việc thành thạo phòng thủ đường đầu gối khiến bạn trở thành kẻ tấn công khóa chân nguy hiểm hơn - bạn hiểu chính xác đối thủ cần gì để trốn thoát và có thể chống lại nó"
+  ],
+  "fixItFast": [
+    "Nếu heel hook đã sâu và bạn cảm thấy đầu gối đang xoay: chạm ngay lập tức — việc phòng thủ phải xảy ra trước khi áp dụng mô-men xoắn",
+    "Nếu bạn đang ở trong inside sankaku (saddle/keo) và không thể giấu được gót chân: hãy dùng cả hai tay nắm lấy gót chân và kéo về phía mông",
+    "Nếu họ chuyển sang tư thế thẳng ankle lock: duỗi chân của bạn để chống lại áp lực, nắm lấy tay áo của họ để ngăn họ kéo chân bạn và vòng chân bạn về phía hông xa của họ"
+  ]
+}

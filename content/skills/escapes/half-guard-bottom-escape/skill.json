@@ -1,0 +1,61 @@
+{
+  "id": "half-guard-bottom-escape",
+  "domain": "escapes",
+  "level": "intermediate",
+  "name": "Half Guard Bottom Escape",
+  "aliases": [
+    "bottom half escape",
+    "half guard recovery",
+    "dogfight escape"
+  ],
+  "tags": [
+    "escape",
+    "half-guard",
+    "underhook",
+    "dogfight",
+    "wrestle-up"
+  ],
+  "keywords": [
+    "half guard bottom",
+    "underhook",
+    "dogfight",
+    "knee shield",
+    "technical stand-up"
+  ],
+  "relatedSkills": [
+    {
+      "id": "half-guard-knee-shield",
+      "type": "recommended"
+    },
+    {
+      "id": "dogfight-knee-tap",
+      "type": "recommended"
+    },
+    {
+      "id": "side-control-escape",
+      "type": "recommended"
+    },
+    {
+      "id": "half-guard-wrestle-up",
+      "type": "recommended"
+    }
+  ],
+  "prerequisiteSkillIds": [
+    "side-control-escape",
+    "half-guard-knee-shield"
+  ],
+  "relatedPositions": [],
+  "relatedConcepts": [],
+  "archetypeIds": [],
+  "trainingMethodIds": [],
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "updatedAt": "2026-06-12T00:00:00.000Z"
+}

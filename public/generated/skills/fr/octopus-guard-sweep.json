@@ -1,0 +1,122 @@
+{
+  "id": "octopus-guard-sweep",
+  "domain": "guard_offense",
+  "level": "intermediate",
+  "status": "draft",
+  "name": "Poulpe guard Balayage",
+  "aliases": [],
+  "tags": [
+    "octopus",
+    "sweep",
+    "hip-heist",
+    "tier:modern-expansion",
+    "meta:modern-common",
+    "risk:medium",
+    "family:guard",
+    "group:octopus",
+    "modern-no-gi"
+  ],
+  "keywords": [
+    "hip angle",
+    "far hip",
+    "post removal"
+  ],
+  "modernSystemGroup": "octopus",
+  "relatedSkills": [
+    {
+      "id": "octopus-guard-control",
+      "type": "recommended"
+    },
+    {
+      "id": "octopus-back-take",
+      "type": "recommended"
+    },
+    {
+      "id": "dogfight-knee-tap",
+      "type": "recommended"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "octopus-guard-control",
+    "half-guard-wrestle-up"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [
+    "S'ils ne tombent pas, vous n'avez pas bloqué leur jambe proche : recadrez la jambe avant de tirer.",
+    "S'ils s'affichent, votre angle était trop lent – ​​accélérez la traction et la rotation.",
+    "S'ils partent en arrière, passez à une prise arrière au lieu de forcer le balayage."
+  ],
+  "version": 1,
+  "updatedAt": "2026-05-21T00:24:30.774Z",
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "fr",
+  "description": "Balayez depuis la pieuvre guard en tirant la hanche la plus éloignée de l'adversaire sur votre angle d'assise lorsqu'il poste mal ou qu'il engage son poids vers l'avant.",
+  "shortInstruction": "Tirez la hanche la plus éloignée, bloquez la jambe la plus proche, traversez l'angle et balayez-la sur votre corps.",
+  "summary": "Le balayage de la pieuvre guard exploite la pression vers l'avant de l'adversaire lorsqu'il tente de passer. Alors qu'ils déposent leur poids vers l'avant, vous tirez leur hanche la plus éloignée sur votre corps tout en bloquant leur jambe la plus proche avec votre corps. La combinaison du fait de tirer leur poids vers l’avant et de bloquer leur base crée un puissant balayage rotatif qui les renverse sur le dos. Ce balayage fonctionne particulièrement bien contre les adversaires qui tentent de briser votre pieuvre guard avec pression.",
+  "whyItWorks": [
+    "Lorsqu’ils s’engagent à passer, leur poids bouge déjà – il suffit de le rediriger avec la traction de la hanche.",
+    "Bloquer leur jambe proche avec votre cadre supprime leur capacité à sortir du balayage.",
+    "La traction au loin crée un élan de rotation auquel ils ne peuvent pas résister sans abandonner la passe.",
+    "Principe de Danaher : utilisez leur pression vers l'avant contre eux - tirez-les là où ils vont déjà."
+  ],
+  "commonMistakes": [
+    "En tirant la hanche sans bloquer la jambe la plus proche, ils sortiront simplement du balayage.",
+    "Tirer avec le bras uniquement au lieu d’utiliser la rotation complète de votre corps – le balayage vient des hanches et non du bras.",
+    "Essayer de balayer quand ils ont une bonne base (poids en arrière) – le balayage des poulpes nécessite une pression vers l’avant.",
+    "Lâcher l'enveloppement de la hanche pendant le balayage - vous avez besoin de l'enveloppement pour contrôler leur rotation."
+  ],
+  "coachingCues": [
+    "Tirez la hanche, bloquez la jambe, passez.",
+    "Sentez leur poids s'engager - c'est votre déclencheur.",
+    "Le balayage est une rotation et non une portance.",
+    "S'ils sont légers sur vous, le balayage des poulpes ne fonctionnera pas – passez à une attaque différente."
+  ],
+  "safetySummary": [
+    "Ne faites pas tourner la hanche ou le bas du dos lorsque vous tirez sur le balai – utilisez une rotation contrôlée et non un couple.",
+    "Gardez votre tête éloignée de la chute de son corps pour éviter tout contact avec la tête.",
+    "Lorsqu’ils atterrissent, protégez vos propres jambes pour éviter qu’elles ne soient coincées sous leur poids."
+  ],
+  "systemLogic": {
+    "corePrinciple": "Octopus guard contrôle établi → l'adversaire s'engage vers l'avant → tirez la hanche la plus éloignée sur le corps → bloquez la jambe proche avec le cadre → faites-le pivoter sur votre cadre → atterrissez en side control ou mount.",
+    "decisionTree": [
+      {
+        "condition": "Application générale",
+        "action": "Si vous résistez, effectuez le balayage en tirant vers l'arrière, relâchez l'enveloppement de la hanche éloignée et wrestle up à la place."
+      },
+      {
+        "condition": "Le balayage du poulpe fonctionne mieux lorsque",
+        "action": "ils pensent qu'ils passent, leur élan vers l'avant est le moteur."
+      }
+    ],
+    "exitStrategies": []
+  },
+  "moneyDetails": [
+    "La traction sur la hanche lointaine doit être une traction rotationnelle sur votre poitrine, et non une traction directe vers vous.",
+    "Bloquez leur genou proche avec votre jambe supérieure pendant que vous tirez – c'est le point pivot du balayage.",
+    "Enfoncez votre épaule dans la hanche pendant que vous tirez – cela ajoute une force de rotation au balayage.",
+    "Après le balayage, établissez immédiatement side control ou knee-on-belly — ne les laissez pas revenir en arrière."
+  ],
+  "nextStep": "Après le balayage de la pieuvre, apprenez la prise arrière de la pieuvre guard pour attaquer les adversaires qui défendent le balayage.",
+  "fixItFast": [
+    "Vous ne pouvez pas les arrêter ? Votre bloc de jambe est incorrect : assurez-vous que votre jambe repose sur le genou le plus proche et non sur la cuisse.",
+    "Ils publient ? Le balayage était trop lent – ​​tirez plus vite et avec plus de rotation.",
+    "Ils se retirent ? Relâchez le guard et le wrestle up – ne poursuivez pas un adversaire en retraite."
+  ]
+}

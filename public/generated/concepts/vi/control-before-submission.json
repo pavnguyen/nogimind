@@ -1,0 +1,65 @@
+{
+  "id": "control-before-submission",
+  "locale": "vi",
+  "title": "Kiểm soát trước khóa siết",
+  "category": "offensive",
+  "level": "fundamental",
+  "tags": [
+    "submission",
+    "control",
+    "safety"
+  ],
+  "shortDefinition": "Submission chỉ bền khi opponent bị giữ ở vị trí không thể thoát cấu trúc chính.",
+  "whyItMatters": "Tấn công quá sớm làm mất mount, back, side control hoặc tạo scramble nguy hiểm.",
+  "deepExplanation": "Control trước submission nghĩa là isolate vai/cổ/hip line, chặn escape đầu tiên, rồi mới tăng finishing pressure. Nó bảo vệ cả hiệu quả lẫn an toàn.",
+  "beginnerView": "Đừng bóp khi đối thủ còn xoay tự do.",
+  "advancedView": "Tạo dilemma: họ phải chọn giữ vị trí xấu hoặc mở đường finish.",
+  "ifThenExamples": [
+    {
+      "if": "Nếu bạn mất Kiểm soát trước khóa siết trong trao đổi.",
+      "then": "Dừng tăng tốc, lấy lại cấu trúc cơ thể gần nhất rồi mới tiếp tục kỹ thuật.",
+      "why": "No-gi hiện đại phạt rất nhanh khi bạn cố thắng bằng sức sau khi mất cấu trúc.",
+      "relatedSkillIds": [
+        "rear-naked-choke-system",
+        "arm-triangle-mount"
+      ]
+    },
+    {
+      "if": "Nếu đối thủ phản ứng đúng với hướng đầu tiên.",
+      "then": "Dùng Kiểm soát trước khóa siết để đổi sang nhánh an toàn hơn thay vì ép cùng một hướng.",
+      "why": "Concept tốt biến phản ứng của đối thủ thành thông tin cho quyết định tiếp theo.",
+      "relatedSkillIds": [
+        "arm-triangle-mount",
+        "guillotine-system",
+        "kimura-system"
+      ]
+    }
+  ],
+  "commonMisunderstandings": [
+    {
+      "misunderstanding": "Kiểm soát trước khóa siết là một mẹo kỹ thuật riêng lẻ.",
+      "correction": "Hãy xem nó như quy tắc quyết định xuất hiện trong nhiều vị trí khác nhau."
+    },
+    {
+      "misunderstanding": "Bạn chỉ cần hiểu khái niệm là tự động dùng được trong live roll.",
+      "correction": "Khái niệm phải được gắn với body signal, cue ngắn và positional rolling."
+    }
+  ],
+  "trainingCues": [
+    "Gọi tên Kiểm soát trước khóa siết trước khi tăng lực.",
+    "Tìm body signal, không đoán bằng cảm giác chung.",
+    "Nếu mất cấu trúc, reset một layer trước.",
+    "Drill chậm, test bằng resistance tăng dần."
+  ],
+  "relatedSkillIds": [
+    "rear-naked-choke-system",
+    "arm-triangle-mount",
+    "guillotine-system",
+    "kimura-system"
+  ],
+  "relatedConceptIds": [
+    "dilemma-attacks",
+    "connection-before-control",
+    "positional-hierarchy"
+  ]
+}

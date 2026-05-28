@@ -1,0 +1,65 @@
+{
+  "id": "failure-response",
+  "locale": "en",
+  "title": "Failure Response",
+  "category": "strategic",
+  "level": "intermediate",
+  "tags": [
+    "failure response",
+    "transition",
+    "branch"
+  ],
+  "shortDefinition": "Failure response is the plan for the moment the first technique is blocked.",
+  "whyItMatters": "The failure moment is where many people freeze, overcommit, or expose neck, back, or legs.",
+  "deepExplanation": "A good system defines: if inside position is lost, reset; if they turn away, take back; if they frame, change angle. Failure is not stopping; it is branching.",
+  "beginnerView": "Know what to do when the move does not work.",
+  "advancedView": "Design techniques so the first failure opens the second option.",
+  "ifThenExamples": [
+    {
+      "if": "If you lose Failure Response during the exchange.",
+      "then": "Stop accelerating, recover the nearest body structure, then continue the technique.",
+      "why": "Modern no-gi punishes forceful continuation after structure is lost.",
+      "relatedSkillIds": [
+        "failure-response-transitions",
+        "scramble-control"
+      ]
+    },
+    {
+      "if": "If the opponent correctly answers your first line.",
+      "then": "Use Failure Response to switch to a safer branch instead of forcing the same line.",
+      "why": "A good concept turns the opponent’s reaction into information for the next decision.",
+      "relatedSkillIds": [
+        "scramble-control",
+        "bodylock-passing",
+        "front-headlock-defense"
+      ]
+    }
+  ],
+  "commonMisunderstandings": [
+    {
+      "misunderstanding": "Failure Response is a single technical trick.",
+      "correction": "Treat it as a decision rule that appears across many positions."
+    },
+    {
+      "misunderstanding": "Understanding the concept automatically makes it work live.",
+      "correction": "The concept needs body signals, short cues, and positional rolling."
+    }
+  ],
+  "trainingCues": [
+    "Name Failure Response before adding force.",
+    "Find the body signal instead of guessing generally.",
+    "If structure is lost, reset one layer first.",
+    "Drill slowly, then test with progressive resistance."
+  ],
+  "relatedSkillIds": [
+    "failure-response-transitions",
+    "scramble-control",
+    "bodylock-passing",
+    "front-headlock-defense"
+  ],
+  "relatedConceptIds": [
+    "dilemma-attacks",
+    "positional-hierarchy",
+    "early-vs-late-defense"
+  ]
+}

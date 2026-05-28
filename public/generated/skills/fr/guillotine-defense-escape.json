@@ -1,0 +1,131 @@
+{
+  "id": "guillotine-defense-escape",
+  "domain": "escapes",
+  "level": "intermediate",
+  "status": "draft",
+  "name": "guillotine Défense et évasion",
+  "aliases": [
+    "front headlock defense",
+    "guillotine escape",
+    "guillotine counter"
+  ],
+  "tags": [
+    "defense",
+    "guillotine",
+    "choke-defense",
+    "headlock",
+    "neck-safety",
+    "takedown-defense"
+  ],
+  "keywords": [
+    "guillotine choke",
+    "front headlock",
+    "chin tuck",
+    "elbow control",
+    "stack escape",
+    "arm peel"
+  ],
+  "relatedSkills": [
+    {
+      "id": "front-headlock-defense",
+      "type": "recommended"
+    },
+    {
+      "id": "single-leg-bjj",
+      "type": "recommended"
+    },
+    {
+      "id": "high-wrist-guillotine",
+      "type": "recommended"
+    },
+    {
+      "id": "neck-crank-recognition",
+      "type": "recommended"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "neck-crank-recognition",
+    "front-headlock-defense"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [],
+  "version": 1,
+  "updatedAt": "2026-06-12T00:00:00.000Z",
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "fr",
+  "description": "Défendez et échappez à un étranglement guillotine en protégeant le cou, en dégageant le bras étouffant et en revenant à une position neutre ou dominante.",
+  "shortInstruction": "Rentrez votre menton, combattez avec la main le bras qui s'étouffe, empilez votre poids dessus et décollez le bras sur votre corps pour vous échapper.",
+  "summary": "La défense guillotine utilise le repli du menton, les combats avec les mains et la position du corps pour soulager la pression du cou, puis une séquence systématique pour dégager le bras qui s'étouffe et récupérer guard ou la position supérieure. Le système donne la priorité à la posture et au contrôle des bras plutôt qu’aux tirs explosifs.",
+  "whyItWorks": [
+    "Rentrer le menton ferme l'espace entre votre cou et votre épaule, ce qui rend plus difficile pour le bras étouffant de s'enfoncer profondément",
+    "Contrôler le bras d'étranglement au niveau du coude (et non de la main) vous donne un avantage mécanique : le coude est le point d'appui de l'étranglement.",
+    "Empiler votre poids vers l'avant sur l'adversaire charge le haut de son dos et l'oblige à porter le poids de votre corps, le faisant abandonner la tentative d'étranglement.",
+    "Le fait de décoller le bras sur votre corps utilise toute la rotation de votre torse, et pas seulement la force de votre bras, pour briser la prise."
+  ],
+  "commonMistakes": [
+    "Levant les yeux (en étendant le cou) lorsque vous sentez l'étouffement - cela ouvre la gorge et approfondit le guillotine",
+    "Saisir la main au lieu du bras : une poignée peut être décollée mais le contrôle du bras l'empêche de s'enfoncer à nouveau",
+    "Essayer de faire du développé couché ou d'étendre les bras loin du corps - cela soulève votre posture et approfondit l'étouffement",
+    "Rester à plat sur le ventre lorsque le guillotine est verrouillé : cela leur donne tout l'effet de levier et aucune issue de secours"
+  ],
+  "coachingCues": [
+    "Du menton à la poitrine, toujours",
+    "Contrôlez le coude, pas la main",
+    "Empilez et pelez, ne tirez pas"
+  ],
+  "safetySummary": [
+    "Le guillotine peut provoquer une perte de conscience en quelques secondes si les artères carotides sont comprimées – appuyez tôt si l'étranglement est profond",
+    "Certaines variantes de guillotine ciblent la trachée plutôt que la carotide : cela est plus dangereux et doit être exploité immédiatement.",
+    "Ne combattez pas un guillotine profond — il est préférable d'appuyer, de réinitialiser et d'essayer la défense plus tôt lors du prochain engagement.",
+    "Les manivelles déguisées en guillotine (pression sur le menton au lieu de la gorge) nécessitent un tapotement immédiat pour protéger la colonne cervicale."
+  ],
+  "systemLogic": {
+    "corePrinciple": "La défense guillotine suit une séquence en trois phases : prévention → défense → évasion",
+    "decisionTree": [
+      {
+        "condition": "En phase 1 (prévention)",
+        "action": "Lorsque vous entrez dans le retrait ou front headlock, gardez votre menton rentré et votre tête légèrement sur le côté. Ne dirigez pas le front droit vers la poitrine"
+      },
+      {
+        "condition": "En phase 2 (Défense)",
+        "action": "s'ils verrouillent le guillotine, gelez immédiatement et repliez le menton. Les deux mains vont à leur bras étouffant au niveau du coude. Ne faites pas de pont ou de spaz - posture d'abord"
+      },
+      {
+        "condition": "En phase 3 (évasion)",
+        "action": "empilez votre poids vers l’avant en avançant vos genoux vers leur tête. Lorsque leur dos touche le tapis, décollez le bras qui s'étouffe sur votre corps en utilisant la rotation de votre avant-bras."
+      },
+      {
+        "condition": "Application générale",
+        "action": "Branche d'évasion : s'ils roulent jusqu'à guard pendant l'évasion, gardez leur manche contrôlée et postez-les dans leur guard. S'ils se lèvent, relâchez la poignée et tournez au point mort."
+      }
+    ],
+    "exitStrategies": []
+  },
+  "moneyDetails": [
+    "Le guillotine est la soumission la plus courante pour les éliminations ratées et les front headlock — une défense fiable est essentielle pour chaque grappler.",
+    "Maîtriser la défense guillotine vous permet d'effectuer des mises au sol sans craindre d'être pris dans le contre le plus courant.",
+    "Une évasion en douceur de guillotine mène souvent directement à une position dominante (en passant leur open guard lors de leur publication)"
+  ],
+  "fixItFast": [
+    "S'ils ont un poignet haut guillotine (mentonnière profonde) : n'essayez pas de retirer la poignée - placez plutôt votre main sur leur hanche, dirigez votre tête vers l'extérieur et faites un cercle.",
+    "S'ils descendent à guard avec le guillotine : gardez votre posture haute, les mains sur leur hanche (pas sur leur bras qui s'étouffe) et enfoncez votre épaule coincée dans leur cuisse.",
+    "S'ils passent à un anaconda ou d'arce : placez-vous sur leur tête avec votre bras libre et enfoncez votre épaule dans leur poitrine avant de pouvoir verrouiller le chiffre quatre."
+  ]
+}

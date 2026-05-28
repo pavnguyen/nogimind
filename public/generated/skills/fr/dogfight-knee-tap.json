@@ -1,0 +1,128 @@
+{
+  "id": "dogfight-knee-tap",
+  "domain": "wrestle_up_wrestling",
+  "level": "intermediate",
+  "status": "draft",
+  "name": "Genouillère Dogfight",
+  "aliases": [],
+  "tags": [
+    "dogfight",
+    "wrestle-up",
+    "knee-tap",
+    "tier:modern-expansion",
+    "meta:modern-common",
+    "risk:medium",
+    "family:wrestling",
+    "group:wrestle-up",
+    "modern-no-gi"
+  ],
+  "keywords": [
+    "dogfight",
+    "underhook",
+    "knee tap"
+  ],
+  "modernSystemGroup": "wrestle_up",
+  "relatedSkills": [
+    {
+      "id": "octopus-guard-control",
+      "type": "recommended"
+    },
+    {
+      "id": "single-leg-bjj",
+      "type": "recommended"
+    },
+    {
+      "id": "sprawl-go-behind",
+      "type": "recommended"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "half-guard-wrestle-up",
+    "single-leg-bjj"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [
+    "S'ils ne tombent pas : vous ne les avez pas suffisamment tirés vers l'avant — augmentez la traction vers l'avant avec le underhook",
+    "S'ils vous enjambent la tête : la position de votre tête était trop basse – gardez votre tête au niveau de leurs épaules.",
+    "S'ils sprawl sur vous : passez à la jambe unique – votre underhook vous donne l'entrée à une jambe."
+  ],
+  "version": 1,
+  "updatedAt": "2026-05-21T00:24:30.779Z",
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "fr",
+  "description": "Lors d'un combat aérien, le coup de genou utilise underhook et la position de la tête pour abattre l'adversaire. Le combat aérien est la position de lutte la plus courante à partir du bas half guard.",
+  "shortInstruction": "Lors d'un combat aérien, entourez votre genou extérieur sur leur dos, utilisez le underhook pour les tirer vers l'avant et tapotez leur genou éloigné avec votre main libre pour les faire tomber.",
+  "summary": "Le coup de genou en combat aérien est le balayage avec le pourcentage le plus élevé depuis la position de combat aérien (underhook half guard). Lors d'un combat aérien, vous utilisez votre underhook pour tirer l'adversaire vers l'avant tout en tapotant son genou le plus éloigné avec votre main libre. Leur élan vers l'avant combiné à la frappe du genou enlève leur base et les fait basculer vers le tapis. La tape du genou passe directement à side control ou front headlock.",
+  "whyItWorks": [
+    "Le underhook en combat aérien vous donne le contrôle du haut de leur corps : vous pouvez les tirer vers l'avant et les déséquilibrer.",
+    "Taper sur le genou le plus éloigné supprime leur point de base arrière – ils ne peuvent pas reculer pour retrouver l’équilibre",
+    "La combinaison de la traction vers l'avant (underhook) et du retrait de la base arrière (coup de genou) crée un problème d'équilibre insoluble.",
+    "La tape sur le genou est à l'abri des guillotine car votre tête est à l'extérieur (joue contre son épaule)."
+  ],
+  "commonMistakes": [
+    "Ne pas les tirer suffisamment vers l’avant avant de taper sur le genou – le coup de genou à lui seul ne provoque pas le retrait",
+    "Taper sur le genou proche au lieu du genou éloigné – le coup de genou proche ne retire pas leur base",
+    "Rester trop bas pendant le combat aérien - levez-vous pour créer l'angle du coup de genou",
+    "Relâcher le underhook pendant la tape du genou - maintenir le contrôle du underhook tout au long"
+  ],
+  "coachingCues": [
+    "Tirez vers l'avant, puis tapez sur le genou",
+    "underhook reste, toujours",
+    "Tapez sur le genou éloigné, pas sur le genou proche",
+    "Tenez-vous droit, puis appuyez sur"
+  ],
+  "safetySummary": [
+    "Le coup de genou est un balayage à faible impact : l'adversaire atterrit sur sa hanche, pas sur sa tête ou son cou.",
+    "N'étendez pas trop votre genou en le plaçant trop loin dans le dos.",
+    "Si l'adversaire résiste au coup de genou en reculant, soyez prêt à faire un cercle vers la jambe unique."
+  ],
+  "systemLogic": {
+    "corePrinciple": "Le genou de combat aérien fait partie d'un système de combat aérien plus vaste : Knee Tap → Single Leg → Re-guard",
+    "decisionTree": [
+      {
+        "condition": "Utilisation de l'option 1 (Tap du genou)",
+        "action": "conduisez votre genou intérieur vers le tapis et atteignez leur cheville la plus éloignée. Le coup de genou est votre principal retrait depuis la position de combat aérien."
+      },
+      {
+        "condition": "Utilisation de l'option 2 (une seule jambe)",
+        "action": "S'ils reculent leur jambe éloignée pour défendre le coup de genou, passez à la jambe simple sur la jambe affichée. Leur poids est déjà engagé sur le poste"
+      },
+      {
+        "condition": "Utilisation de l'option 3 (prise en arrière)",
+        "action": "s'ils se tournent vers vous pour vous défendre, suivez leur élan et prenez le pas. Le virage vers toi expose leur dos"
+      },
+      {
+        "condition": "Application générale",
+        "action": "La position du combat aérien est intrinsèquement instable : engagez-vous rapidement sur une option plutôt que de faire une pause"
+      }
+    ],
+    "exitStrategies": []
+  },
+  "moneyDetails": [
+    "Le coup de genou en combat aérien est le balayage le plus courant du bas de half guard à No-Gi - il fonctionne à tous les niveaux.",
+    "Maîtriser le coup de genou en combat aérien vous donne un chemin fiable de half guard à la première position.",
+    "La tape du genou sur side control rapporte 2 points (balayage) en IBJJF."
+  ],
+  "fixItFast": [
+    "S'ils ne tombent pas : tirez plus fort et tapez à nouveau sur le genou le plus éloigné.",
+    "S'ils enjambent : sprawl reculez et rétablissez le underhook sous un angle inférieur.",
+    "S'ils s'assoient : relâchez le underhook et revenez au neutre"
+  ]
+}

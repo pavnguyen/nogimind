@@ -1,0 +1,122 @@
+{
+  "id": "de-la-riva-sweeps",
+  "domain": "guard_offense",
+  "level": "intermediate",
+  "status": "draft",
+  "name": "De La Riva Quét",
+  "aliases": [],
+  "tags": [
+    "de-la-riva",
+    "guard",
+    "sweep"
+  ],
+  "keywords": [
+    "de la riva",
+    "sweep",
+    "off-balance",
+    "X-guard",
+    "single leg X"
+  ],
+  "relatedSkills": [
+    {
+      "id": "x-guard-control",
+      "type": "recommended"
+    },
+    {
+      "id": "single-leg-x-control",
+      "type": "recommended"
+    },
+    {
+      "id": "de-la-riva-back-take",
+      "type": "recommended"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "guard-pulling-strategy",
+    "seated-guard-retention"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [
+    "Nếu họ lột móc của bạn thì góc của bạn đã sai - hãy lắp lại móc từ một góc nhọn hơn.",
+    "Nếu bạn không thể làm mất thăng bằng thì tay nắm tay áo của bạn quá xa hông - hãy kéo nó lại gần hơn.",
+    "Nếu họ lùi lại và tránh sweep, hãy kéo móc của bạn và chuyển sang mục heel hook hoặc vướng chân."
+  ],
+  "version": 1,
+  "updatedAt": "2026-05-21T00:24:30.747Z",
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "vi",
+  "description": "Sử dụng móc De La Riva bên trong và tay cầm để làm mất thăng bằng người qua đường, nhập X-guard hoặc X một chân hoặc quét thẳng lên vị trí trên cùng.",
+  "shortInstruction": "Móc bên trong, tay cầm, góc lệch hông — DLR là cửa ngõ vào toàn bộ hệ thống open guard.",
+  "summary": "De La Riva (DLR) guard là open guard phổ biến nhất trong No-Gi hiện đại. Móc bên trong ở chân gần của đối phương, kết hợp với tay áo hoặc tay nắm mắt cá chân, giúp bạn kiểm soát phần đế của họ. Bằng cách kéo tay áo của họ ngang qua cơ thể bạn và đồng thời móc chân họ, bạn sẽ tạo ra một góc khiến họ mất thăng bằng về phía trước và sang một bên. Thao tác này sẽ mở các mục nhập vào X-guard, single-leg X hoặc trực tiếp sweeps.",
+  "whyItWorks": [
+    "Móc DLR ở bên trong chân chặn pass về phía trước của họ đồng thời tạo cho bạn một đòn bẩy để mất thăng bằng.",
+    "Tay nắm tay áo nối với hông xa của bạn tạo ra lực căng chéo làm gãy phần đế của chúng.",
+    "Các mục DLR dẫn đến vị trí quét mạnh nhất trong No-Gi: X-guard và X một chặng.",
+    "Nguyên tắc Danaher: DLR loại bỏ một trong các chân passing của chúng, giảm 50% tùy chọn passing của chúng.",
+    "Nó hoạt động xuất sắc trước một passer đang đứng — khi họ đứng ở pass, DLR sẽ là quầy của bạn."
+  ],
+  "commonMistakes": [
+    "Để móc DLR nông hoặc bị tuột — móc sâu là điều cần thiết để kiểm soát.",
+    "Giữ tay áo ở hông thay vì kéo ngang cơ thể - lực căng của cơ thể tạo ra sự mất cân bằng.",
+    "Đấu tranh giành DLR khi người qua đường đã quỳ gối - DLR dành cho người qua đường đang đứng.",
+    "Nằm ngửa - DLR yêu cầu bạn phải nằm nghiêng để tạo ra năng lượng."
+  ],
+  "coachingCues": [
+    "Móc sâu, tay áo chéo, bên hông.",
+    "Kéo tay áo, móc chân - góc tạo nên đường quét.",
+    "DLR tới X-guard là một chuyển động, không phải hai.",
+    "Nếu họ quỳ gối thì DLR sai guard — chuyển sang half guard hoặc knee shield."
+  ],
+  "safetySummary": [
+    "Đừng để chúng tóm lấy chân móc DLR của bạn và vặn - bảo vệ đầu gối của bạn bằng cách giữ cho móc hoạt động và di động.",
+    "Khi mất thăng bằng, hãy giữ đầu bạn khỏi thảm để tránh guillotine lọt vào.",
+    "Nếu họ bước qua móc DLR của bạn, hãy ngay lập tức chuyển sang đảo ngược DLR hoặc khôi phục guard."
+  ],
+  "systemLogic": {
+    "corePrinciple": "DLR móc + tay cầm → mất thăng bằng về phía trước → trụ của đối thủ → nhập X-guard hoặc SLX → sweep hoặc tấn công bằng chân.",
+    "decisionTree": [
+      {
+        "condition": "Ứng dụng chung",
+        "action": "Nếu họ bước về phía trước (vượt quá giới hạn), hãy chuyển sang DLR sâu hoặc quét bồi bàn."
+      },
+      {
+        "condition": "Ứng dụng chung",
+        "action": "Nếu họ lùi lại, hãy kéo dài vào X-guard và quét về phía trước."
+      },
+      {
+        "condition": "Ứng dụng chung",
+        "action": "DLR là mục nhập; X-guard và SLX là đích đến."
+      }
+    ],
+    "exitStrategies": []
+  },
+  "moneyDetails": [
+    "Cú móc DLR của bạn phải sâu — bóng của bàn chân bạn móc vào trong đùi họ chứ không phải bắp chân của họ.",
+    "Kéo tay áo của chúng đến hông xa của bạn, không kéo thẳng xuống - lực căng chéo sẽ phá vỡ phần đế của chúng hiệu quả hơn.",
+    "Ở bên cạnh bạn chứ không phải nằm ngửa - nằm nghiêng giúp lưỡi câu của bạn có phạm vi và lực mạnh hơn.",
+    "Khi họ chống lại sự mất thăng bằng bằng cách lùi lại, đó là mục nhập X-guard của bạn — mở rộng móc và trượt chân kia của bạn sang hông họ."
+  ],
+  "nextStep": "Sau khi quét DLR, hãy tìm hiểu các chuyển tiếp X-guard và X một chặng để hoàn thiện hệ thống open guard.",
+  "fixItFast": [
+    "Móc cứ trượt? Đào sâu hơn - bàn chân phải móc vào trong đùi, không phải phía sau đầu gối.",
+    "Không thể mất cân bằng? Kéo tay áo ngang cơ thể chứ không kéo về phía bạn - độ căng của cơ thể là điều quan trọng.",
+    "Họ tiếp tục passing? Móc DLR của bạn quá nông hoặc bạn nằm ngửa quá thẳng — hãy ngồi nghiêng người."
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "id": "inverted-guard-control",
+  "locale": "fr",
+  "name": "guard inversé et transitions",
+  "description": "Utilisez des angles d'inversion pour placer vos pieds sur la ligne des hanches ou de l'épaule de l'adversaire, puis passez aux entrées K-guard, matrice ou enchevêtrement des jambes.",
+  "shortInstruction": "Inversez-vous, placez les pieds sur les hanches ou les épaules, créez un angle – l’inversion est l’entrée dans l’ensemble du système d’attaque du bas du corps.",
+  "summary": "Le guard inversé n'est pas une position dans laquelle vous restez - c'est un outil de transition pour faire passer le bas de votre corps au-delà du haut de votre corps. En vous inversant (en posant vos épaules sur le tapis et en élevant vos hanches), vous pouvez placer vos pieds sur leurs hanches, leurs épaules ou leurs côtes. À partir de là, vous pouvez créer les angles pour les entrées K-guard (pied sur hanche), matrice (pied sur épaule) ou jambe. L’inversion doit être rapide et ciblée : rester inversé trop longtemps expose votre dos aux attaques.",
+  "whyItWorks": [
+    "L'inversion place vos leviers (jambes) les plus puissants au-dessus de leur centre de masse – vous contrôlez le haut de leur corps avec le bas de votre corps.",
+    "Cela résout le problème de la distance : lorsqu’ils se lèvent pour passer, l’inversion comble l’écart et pose les pieds sur leur corps.",
+    "L'angle inversé crée des entrées qui ne sont pas disponibles en position assise ou couchée guard.",
+    "Principe Danaher : lorsqu'ils sont en hauteur, inversez-les pour rétablir la connexion."
+  ],
+  "commonMistakes": [
+    "Rester inversé trop longtemps – le guard inversé est une position de transition, pas une position de repos.",
+    "En s'inversant sans contrôler leur bras proche, ils tourneront ou vous prendront le dos.",
+    "À défaut de protéger votre cou pendant l’inversion, gardez votre menton rentré.",
+    "Inversion avec les jambes droites : les genoux pliés vous donnent la puissance et la mobilité nécessaires pour vous ajuster."
+  ],
+  "coachingCues": [
+    "Inversez-vous rapidement, sortez plus vite – l’inversé n’est pas une maison.",
+    "Les pieds sur les hanches, pas sur l’air – connectez-vous avant de vous inverser.",
+    "Contrôlez le bras, protégez le dos.",
+    "K-guard ou matrice - décidez avant d'inverser."
+  ],
+  "safetySummary": [
+    "Rentrez votre menton contre votre poitrine pendant l'inversion pour protéger votre cou.",
+    "Ne vous retournez pas avec le dos directement face à l’adversaire – tournez-vous sur le côté pendant l’inversion.",
+    "S'ils sprawl lors de votre inversion, renflouez immédiatement – ​​ne les laissez pas faire pression sur le bas de votre dos.",
+    "Soyez conscient de votre propre colonne vertébrale : si l’inversion provoque de la douleur, ne la forcez pas."
+  ],
+  "keyCorrections": [
+    "S’il vous prend par le dos pendant l’inversion, vous n’avez pas réussi à contrôler son bras le plus proche – gardez toujours une main sur sa manche ou son poignet.",
+    "Si vous ne parvenez pas à poser vos pieds sur leurs hanches, votre angle est mauvais : tournez davantage vos hanches avant de les étendre.",
+    "S'ils sprawl et vous aplatissent, sautez immédiatement vers un guard assis."
+  ],
+  "systemLogic": {
+    "corePrinciple": "Inverser : placez les pieds sur la ligne des hanches ou des épaules → contrôlez près du bras → transition vers K-guard, la matrice ou l'enchevêtrement des jambes.",
+    "decisionTree": [
+      {
+        "condition": "Pied sur la hanche = entrée K-guard",
+        "action": "attaques au dos ou aux jambes."
+      },
+      {
+        "condition": "Pied sur l'épaule = entrée dans la matrice",
+        "action": "prise arrière ou traînée de jambe."
+      },
+      {
+        "condition": "Application générale",
+        "action": "L'inversion est le point de passage : vous ne restez jamais ; tu vas toujours quelque part."
+      }
+    ]
+  },
+  "moneyDetails": [
+    "Inversez-vous en tournant vos hanches et vos épaules sur le côté – une inversion droite du dos expose votre colonne vertébrale et votre dos.",
+    "Placez votre pied principal sur sa hanche et votre deuxième pied sur son biceps ou son épaule – deux points de contact.",
+    "Gardez toujours une main sur sa manche ou son poignet – cela l'empêche de tourner derrière vous.",
+    "La sortie de l'inversion est la partie la plus importante : soit s'étendre dans K-guard, soit s'effondrer dans la matrice."
+  ],
+  "nextStep": "Après avoir maîtrisé les entrées d'inversion, apprenez le K-guard et les systèmes matriciels pour construire votre open guard complet.",
+  "fixItFast": [
+    "Ils vous reprennent ? Vous n'avez pas contrôlé son bras – saisissez-le à nouveau avant de vous inverser la prochaine fois.",
+    "Vous ne parvenez pas à connecter les pieds ? Vous vous êtes inversé trop loin – rapprochez-vous avant de passer.",
+    "La colonne vertébrale fait mal ? Tournez-vous sur le côté pendant l’inversion – ne vous retournez pas à plat sur le dos."
+  ]
+}

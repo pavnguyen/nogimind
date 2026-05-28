@@ -1,0 +1,65 @@
+{
+  "id": "z-guard-sweeps",
+  "locale": "vi",
+  "name": "Z-guard Quét & sâu một nửa",
+  "description": "Sử dụng knee shield (Z-guard) và underhook để tạo các mục nhập nửa sâu, quét bồi bàn hoặc cơ hội đấu vật từ dưới cùng half guard.",
+  "shortInstruction": "knee shield, underhook, cảm nhận sức nặng của chúng — trượt vào nửa sâu hoặc quét từ Z-guard.",
+  "summary": "Z-guard (knee shield) là vị trí điều khiển; quét là phần thưởng. Từ Z-guard, knee shield của bạn tạo ra khoảng cách trong khi bạn chiến đấu vì underhook. Sau khi thắng underhook, bạn có ba tùy chọn quét chính: trượt vào nửa sâu (khi họ lái xe về phía trước), đánh quét bồi bàn (khi họ đứng) hoặc wrestle up (khi họ lùi lại). Quá trình chuyển đổi Z-guard sang nửa sâu là một trong những chuỗi quét có tỷ lệ phần trăm cao nhất trong No-Gi.",
+  "whyItWorks": [
+    "knee shield ngăn chặn áp lực ở ngực, giúp bạn có thời gian tìm thấy underhook.",
+    "Chiến thắng underhook mang lại cho bạn điểm kiểm soát để vào nửa sâu — nếu không có nó, nửa sâu là không thể.",
+    "Các cú quét half guard phía dưới của bạn sẽ khai thác động lượng tiến về phía trước của chúng — chúng càng lái mạnh thì việc quét càng dễ dàng.",
+    "Nguyên tắc Danaher: half guard quét không phải về sức mạnh — mà là về trọng lượng và thời gian."
+  ],
+  "commonMistakes": [
+    "Cố gắng quét mà không thắng underhook trước — underhook là chìa khóa cho tất cả các lần quét half guard.",
+    "Đi tới nửa sâu khi họ đang ở tư thế đứng - nửa sâu hoạt động khi họ tiến về phía trước chứ không phải khi họ đứng.",
+    "Chỉ sử dụng cánh tay của bạn để quét - sức mạnh đến từ chuyển động của hông và động tác chân của bạn.",
+    "Ở trong Z-guard quá lâu — Z-guard là quyền kiểm soát; quét là lối ra."
+  ],
+  "coachingCues": [
+    "Giành chiến thắng underhook rồi quét sạch — chưa từng có trước đây.",
+    "Hãy cảm nhận sức nặng của họ - phía trước là nửa sâu, phía sau là vật lộn.",
+    "Trượt hông của bạn dưới hông của họ chứ không phải bên cạnh họ.",
+    "Z-guard là phòng chờ - quét là cửa thoát hiểm."
+  ],
+  "safetySummary": [
+    "Đừng vặn cổ đối tác của bạn trong underhook trận chiến — hãy giữ đầu bạn vào ngực họ chứ không phải cổ họ.",
+    "Khi vào nửa sâu, hãy bảo vệ khuôn mặt của bạn khỏi cánh tay đối diện của họ.",
+    "Nếu họ xếp bạn trong quá trình quét, hãy cứu nguy và đặt lại - đừng để họ đập đầu bạn vào thảm."
+  ],
+  "keyCorrections": [
+    "Nếu bạn không thể trượt vào nửa sâu thì underhook của bạn chưa đủ sâu - hãy đẩy vai bạn sâu hơn vào dưới nách của họ.",
+    "Nếu cú ​​quét của người phục vụ không có tác dụng, trọng lượng của họ đã lùi quá xa - hãy chuyển sang đấu vật.",
+    "Nếu họ san bằng bạn, bạn sẽ thua underhook — hãy đập lại nó trước khi cố gắng quét."
+  ],
+  "systemLogic": {
+    "corePrinciple": "Z-guard (knee shield) → thắng underhook → đọc trọng số của họ → chọn quét.",
+    "decisionTree": [
+      {
+        "condition": "Phản ứng 1: Họ tiến về phía trước",
+        "action": "trượt vào nửa sâu → người phục vụ quét hoặc quay lại."
+      },
+      {
+        "condition": "Phản ứng 2: Họ đứng dậy",
+        "action": "hỗ trợ kỹ thuật → wrestle up."
+      },
+      {
+        "condition": "Phản ứng 3: Họ vươn tay qua",
+        "action": "kimura bẫy → quét hoặc khuất phục."
+      }
+    ]
+  },
+  "moneyDetails": [
+    "underhook phải sâu — vai của bạn phải nằm dưới nách họ chứ không chỉ cánh tay bạn quàng qua lưng họ.",
+    "Để vào phần sâu, hãy trượt đầu của bạn sang phía xa cơ thể họ trong khi vẫn giữ underhook.",
+    "Động tác quét của người phục vụ hoạt động bằng cách dùng chân đẩy đầu gối xa của họ trong khi kéo chân gần của họ - chuyển động cắt kéo.",
+    "Nếu họ chống lại cuộc càn quét bằng cách lùi lại, hãy đi theo họ và tiến vào một chân X."
+  ],
+  "nextStep": "Sau khi quét Z-guard, hãy tìm hiểu chi tiết về half guard sâu và quét bồi bàn.",
+  "fixItFast": [
+    "Không thể trượt vào nửa sâu? underhook của bạn quá nông — hãy đào sâu hơn vào nách của họ.",
+    "Họ tiếp tục lùi lại? Hãy ngừng theo đuổi — thay vào đó là wrestle up.",
+    "Người phục vụ quét không hoạt động? Đẩy đầu gối xa của họ chứ không phải hông - đầu gối là điểm bùng phát."
+  ]
+}

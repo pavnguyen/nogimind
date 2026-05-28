@@ -1,0 +1,67 @@
+{
+  "id": "arm-drag-system",
+  "locale": "fr",
+  "name": "Système de traînée de bras",
+  "description": "Tirez le bras de l'adversaire sur la ligne médiane, combinez mouvement de la tête et jeu de jambes pour prendre le dos, une seule jambe ou front headlock. La traînée de bras est l'entrée de retrait avec le pourcentage le plus élevé dans No-Gi car elle attaque l'équilibre de l'adversaire avant sa base.",
+  "shortInstruction": "Tirez leur bras éloigné sur votre ligne médiane, placez-vous derrière leur jambe avant avec votre pied extérieur et prenez la jambe arrière ou simple. Gardez la tête basse et tournée vers l’extérieur.",
+  "summary": "La traînée du bras tire le bras de l'adversaire sur votre corps, perturbant sa base et exposant son dos ou sa jambe éloignée. À partir de la traînée du bras, vous avez trois branches principales : (1) prise arrière – cerclez derrière pendant qu'ils suivent la traînée, (2) jambe unique – descendez vers la jambe éloignée pendant qu'ils postent, (3) front headlock – abaissez-vous pendant qu'ils résistent à la traînée. La traînée de bras est la base de tous les retraits de style blitz dans No-Gi.",
+  "whyItWorks": [
+    "Tirer le bras sur la ligne médiane fait pivoter le haut du corps de l'adversaire, perturbant sa base et son équilibre.",
+    "La traînée du bras expose le dos ou la jambe éloignée de l'adversaire – les deux sont des cibles de grande valeur",
+    "La traînée crée un élan vers l'avant auquel l'adversaire doit résister – vous pouvez utiliser cet élan contre lui.",
+    "La traînée des bras est à l'abri des compteurs guillotine car votre tête reste basse et vers l'extérieur"
+  ],
+  "commonMistakes": [
+    "Tirer le bras vers votre poitrine plutôt que sur votre corps – la direction de la traînée doit être transversale et non vers",
+    "Se tenir trop haut pendant la traînée - votre posture doit rester basse pour empêcher l'adversaire de contrer",
+    "Ne pas marcher avec la traînée - le jeu de jambes doit accompagner la traction du bras pour créer l'angle",
+    "Laisser l'adversaire rétablir l'emprise - une fois que vous avez traîné, engagez-vous immédiatement au retrait"
+  ],
+  "coachingCues": [
+    "Tirez en travers, pas vers",
+    "Faites un pas avec la traction, créez l'angle",
+    "Posture basse, position extérieure de la tête",
+    "Faites glisser → retour, simple ou snapdown"
+  ],
+  "safetySummary": [
+    "La traînée des bras est une entrée de retrait à faible risque : votre tête reste à l'écart des guillotine et vos genoux ne touchent pas le tapis.",
+    "Ne tirez pas violemment sur le bras : une traction contrôlée avec un jeu de jambes approprié est plus sûre et plus efficace.",
+    "Lorsque vous retirez le dos de la traînée des bras, protégez la position de votre tête pour éviter les manivelles du cou."
+  ],
+  "keyCorrections": [
+    "Si l'adversaire résiste à la traînée : passez à un snapdown – sa résistance devient un élan vers l'avant.",
+    "Si vous ne pouvez pas passer derrière eux : votre pas était trop court — le pied extérieur doit dégager leur talon d'attaque.",
+    "S'ils contrent avec un guillotine : votre tête était trop haute – gardez votre tête sous la ligne de leurs épaules."
+  ],
+  "systemLogic": {
+    "corePrinciple": "Le système de traînée des bras comporte trois branches : Back Take → Single Leg → front headlock, lu à partir de la réaction de l'adversaire.",
+    "decisionTree": [
+      {
+        "condition": "Utilisation de la branche 1 (prise en arrière)",
+        "action": "pendant que vous tirez le bras, placez votre pied extérieur derrière la jambe de tête. Faites un cercle derrière eux. S'ils suivent la traînée, prenez le recul. S'ils sprawl, passez à une seule jambe"
+      },
+      {
+        "condition": "Utilisation de la branche 2 (une seule jambe)",
+        "action": "Si l'adversaire poste sa jambe opposée pour résister à la traînée, déposez votre main intérieure sur sa cheville opposée et terminez la jambe unique. La traînée de bras a déjà perturbé leur base"
+      },
+      {
+        "condition": "Utilisation de la branche 3 (front headlock)",
+        "action": "si l'adversaire baisse de niveau pour résister à la traînée, enfoncez-le dans un front headlock. Leur élan vers l'avant les entraîne dans le snapdown"
+      },
+      {
+        "condition": "Lire la réaction de l'adversaire",
+        "action": "ils suivent le glisser → retour en arrière. Ils affichent la jambe éloignée → jambe unique. Ils descendent du niveau → snapdown à front headlock"
+      }
+    ]
+  },
+  "moneyDetails": [
+    "La traînée de bras est l'entrée de retrait avec le pourcentage le plus élevé dans No-Gi car elle attaque l'équilibre avant la base.",
+    "Maîtriser le système de traînée des bras vous donne trois mises au sol à partir d'une seule entrée - vous avez toujours des options",
+    "La traînée de bras est particulièrement efficace contre les adversaires agressifs qui se jettent en avant"
+  ],
+  "fixItFast": [
+    "S'ils sprawl sur la traînée : passez au front headlock - leur sprawl laisse leur cou exposé",
+    "S'ils reculent : changez de direction et faites glisser à nouveau l'autre bras.",
+    "S'ils vous attrapent la tête : frappez à l'intérieur et rétablissez la poignée de traînée"
+  ]
+}

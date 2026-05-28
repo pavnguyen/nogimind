@@ -1,0 +1,56 @@
+{
+  "id": "scramble-neutral",
+  "locale": "vi",
+  "title": "Scramble Trung lập",
+  "category": "scramble",
+  "status": "neutral",
+  "description": "Khoảnh khắc chuyển tiếp khi chưa ai kiểm soát rõ; ưu tiên là đầu, hông, vị trí trong và an toàn.",
+  "topPlayerGoals": [
+    "Người ở trên muốn kiểm soát Scramble Trung lập bằng vị trí đầu, vị trí trong và áp lực có hướng.",
+    "Thắng cuộc đua đầu-hông và đi tới ride, pass hoặc back control.",
+    "Giữ nền vững để không bị mất thăng bằng hoặc bị phản đòn."
+  ],
+  "bottomPlayerGoals": [
+    "Người ở dưới muốn sống sót trong Scramble Trung lập bằng khung chặn, pummel hoặc góc phù hợp.",
+    "Không lộ cổ, lưng hoặc knee line trong khi recover base.",
+    "Nhận diện tín hiệu nguy hiểm sớm thay vì chờ vị trí ổn định."
+  ],
+  "controlPoints": [
+    "Điểm kiểm soát chính: Vị trí đầu, kết nối hông và tay ở trong..",
+    "Đầu, tay, hông và gối nên cùng hướng lực.",
+    "Kết nối khuỷu-gối hoặc đường hông-vai quyết định vị trí còn sống hay đã bị khóa."
+  ],
+  "escapePriorities": [
+    "Ưu tiên thoát: Nếu không chắc, bảo vệ cổ, lưng, chân và reset base..",
+    "Bảo vệ cổ, lưng, đường gối hoặc đường tay trước khi phản công.",
+    "Nếu mất vị trí trong, hãy lùi lại một lớp phòng thủ trước."
+  ],
+  "advancementOptions": [
+    {
+      "action": "Thắng cuộc đua đầu-hông và ổn định vị trí",
+      "nextPositionId": "neutral-standing",
+      "relatedSkillIds": [
+        "scramble-control",
+        "sprawl-go-behind",
+        "mat-return-basics"
+      ],
+      "why": "Đây là nhánh tự nhiên khi bạn thắng điểm kiểm soát chính và đối thủ buộc phải phòng thủ."
+    }
+  ],
+  "dangerSignals": [
+    "Cằm hoặc cổ bị kéo ra khỏi đường an toàn.",
+    "Khuỷu tay tách khỏi sườn hoặc đầu gối.",
+    "Đường hông bị khóa trong khi đường vai vẫn đang bị kéo.",
+    "Bạn phải chống tay dài để không ngã."
+  ],
+  "relatedSkillIds": [
+    "scramble-control",
+    "sprawl-go-behind",
+    "mat-return-basics"
+  ],
+  "relatedConceptIds": [
+    "positional-hierarchy",
+    "failure-response",
+    "base-balance"
+  ]
+}

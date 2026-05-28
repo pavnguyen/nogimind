@@ -1,0 +1,65 @@
+{
+  "id": "early-vs-late-defense",
+  "locale": "fr",
+  "title": "Défense tôt vs tard",
+  "category": "defensive",
+  "level": "fundamental",
+  "tags": [
+    "defense",
+    "safety",
+    "recognition"
+  ],
+  "shortDefinition": "Défense tôt traite signaux avant lock; défense tard traite force déjà appliquée.",
+  "whyItMatters": "Le no-gi moderne est rapide: défense tôt économise énergie et sécurité.",
+  "deepExplanation": "Défense tôt: menton avant chin strap, knee line avant talon, coude-genou avant chest-to-chest. Défense tard exige tap/reset si danger.",
+  "beginnerView": "Reconnaître signaux tôt au lieu d’attendre douleur/étranglement.",
+  "advancedView": "Créer systèmes de cues pour cou, knee line, shoulder line, back exposure.",
+  "ifThenExamples": [
+    {
+      "if": "Si vous perdez Défense tôt vs tard pendant l’échange.",
+      "then": "Arrêtez d’accélérer, récupérez la structure corporelle proche, puis continuez.",
+      "why": "Le no-gi moderne punit vite la force après perte de structure.",
+      "relatedSkillIds": [
+        "leg-lock-safety-basics",
+        "front-headlock-defense"
+      ]
+    },
+    {
+      "if": "Si l’adversaire répond correctement à votre première ligne.",
+      "then": "Utilisez Défense tôt vs tard pour passer à une branche plus sûre au lieu de forcer.",
+      "why": "Un bon concept transforme la réaction adverse en information pour la décision suivante.",
+      "relatedSkillIds": [
+        "front-headlock-defense",
+        "back-survival",
+        "mount-survival"
+      ]
+    }
+  ],
+  "commonMisunderstandings": [
+    {
+      "misunderstanding": "Défense tôt vs tard est une astuce technique isolée.",
+      "correction": "Voyez-le comme une règle de décision présente dans plusieurs positions."
+    },
+    {
+      "misunderstanding": "Comprendre le concept suffit pour l’utiliser en live.",
+      "correction": "Le concept doit être lié à signaux corporels, cues courts et rolling positionnel."
+    }
+  ],
+  "trainingCues": [
+    "Nommez Défense tôt vs tard avant d’ajouter force.",
+    "Cherchez le signal corporel, pas une impression vague.",
+    "Si la structure est perdue, reset une couche d’abord.",
+    "Driller lentement, puis tester avec résistance progressive."
+  ],
+  "relatedSkillIds": [
+    "leg-lock-safety-basics",
+    "front-headlock-defense",
+    "back-survival",
+    "mount-survival"
+  ],
+  "relatedConceptIds": [
+    "knee-line",
+    "elbow-knee-connection",
+    "positional-hierarchy"
+  ]
+}

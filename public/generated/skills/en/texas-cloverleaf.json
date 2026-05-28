@@ -1,0 +1,121 @@
+{
+  "id": "texas-cloverleaf",
+  "domain": "submission_systems",
+  "level": "advanced",
+  "status": "draft",
+  "name": "Texas Cloverleaf",
+  "aliases": [],
+  "tags": [
+    "texas-cloverleaf",
+    "heel-hook",
+    "leg-lock",
+    "entanglement",
+    "submission"
+  ],
+  "keywords": [
+    "texas cloverleaf",
+    "heel hook",
+    "reap",
+    "rotational pressure",
+    "leg entanglement"
+  ],
+  "relatedSkills": [
+    {
+      "id": "saddle-inside-sankaku-control",
+      "type": "recommended"
+    },
+    {
+      "id": "backside-50-50-control",
+      "type": "recommended"
+    },
+    {
+      "id": "fifty-fifty-to-heel-exposure",
+      "type": "recommended"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "heel-hook-safety",
+    "false-reap-entry"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [
+    "If you can't find the heel, your reaping angle is too shallow — adjust your leg position.",
+    "If they spin out, you lost far leg control — re-establish the secondary leg control.",
+    "If they stack you, release and reset — don't fight the stack from this position."
+  ],
+  "version": 1,
+  "updatedAt": "2026-05-21T00:24:30.772Z",
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "en",
+  "description": "A heel hook from a reaping position with a unique leg configuration that creates direct rotational pressure on the knee — popularized in no-gi by leg lock specialists.",
+  "shortInstruction": "Reap the leg, control the far leg, rotate the heel — the Texas Cloverleaf is a heel hook with a unique angle from the reaping position.",
+  "summary": "The Texas Cloverleaf is a heel hook variation that uses a reaping leg position to attack the knee with direct rotational pressure. The 'cloverleaf' name comes from the way the legs wrap around each other like a four-leaf clover. It is a specialized submission that is most effective from specific leg entanglement configurations and is often used as a surprise attack from positions where the standard heel hook is not available.",
+  "whyItWorks": [
+    "The reaping position creates a unique angle that the standard heel hook does not cover.",
+    "The leg configuration traps the opponent's far leg, preventing them from rolling to escape.",
+    "It can be entered from positions where the saddle is not available.",
+    "Danaher principle: every leg attack should have a chain — the Texas Cloverleaf is the chain from the reap."
+  ],
+  "commonMistakes": [
+    "Applying the heel hook before fully establishing the leg entanglement — the reaping position must be secure.",
+    "Not controlling their secondary leg — they will spin out.",
+    "Using too much rotation too quickly — heel hooks from reaping positions are especially dangerous.",
+    "Attempting the Texas Cloverleaf without solid heel hook fundamentals."
+  ],
+  "coachingCues": [
+    "Reap deep, control the far leg, rotate safely.",
+    "The Texas Cloverleaf is a specialized finish — master the standard heel hook first.",
+    "If you can't find the heel, adjust the reaping angle.",
+    "Slow rotation, controlled finish."
+  ],
+  "safetySummary": [
+    "The Texas Cloverleaf applies rotational force to the knee — this is a dangerous submission.",
+    "NEVER apply this submission explosively.",
+    "Only attempt this submission with trusted training partners who understand leg lock mechanics.",
+    "Tap on ANY knee rotational discomfort — do not wait for pain.",
+    "Not appropriate for beginners — requires advanced leg lock understanding."
+  ],
+  "systemLogic": {
+    "corePrinciple": "Leg entanglement: reaping position → control far leg → find the heel → align rotation → apply slow heel hook pressure.",
+    "decisionTree": [
+      {
+        "condition": "General application",
+        "action": "The Texas Cloverleaf is an advanced variation — it should only be attempted after mastering the standard inside heel hook."
+      },
+      {
+        "condition": "they defend the heel hook",
+        "action": "transition to the standard saddle heel hook."
+      }
+    ],
+    "exitStrategies": []
+  },
+  "moneyDetails": [
+    "The reaping leg should be in a deep reap position — your leg hooks their leg from the inside, crossing the knee line.",
+    "Control their far leg by trapping it between your legs or grabbing their ankle.",
+    "The heel hook grip is standard: one hand on the heel, one hand on the toes.",
+    "Rotate slowly — the finish is about controlled pressure, not speed."
+  ],
+  "nextStep": "After the Texas Cloverleaf, master the standard inside heel hook from the saddle.",
+  "fixItFast": [
+    "Can't find the heel? Adjust your reaping angle.",
+    "They spin out? Control their far leg more aggressively.",
+    "Feel resistance? Release and re-enter — don't force it."
+  ]
+}

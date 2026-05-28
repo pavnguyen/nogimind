@@ -1,0 +1,65 @@
+{
+  "id": "back-attack-system",
+  "locale": "fr",
+  "name": "Système d'attaque arrière",
+  "description": "Un système complet à partir de back control : établir seatbelt, sécuriser les crochets ou le corps triangle, gagner le combat à main, puis terminer avec RNC, armer triangle, ou effectuer une transition lorsque l'adversaire se retourne pour se défendre.",
+  "shortInstruction": "seatbelt → crochets → combat à main → finition — les attaques arrière sont un système de contrôle progressif, pas un seul mouvement.",
+  "summary": "Le système de contre-attaque est la chaîne de soumission avec le pourcentage le plus élevé en BJJ. Le processus est le suivant : fixez le seatbelt (un bras sur l'épaule, un bras sous l'aisselle), verrouillez vos crochets ou votre corps triangle, gagnez le combat à main pour exposer leur cou et terminez avec l'étranglement arrière nu. S'ils défendent le RNC en se rendant, passez à l'armement triangle ou mount. Le système est basé sur la réaction : vous ne forcez pas une fin ; vous enchaînez jusqu'à ce qu'on fonctionne.",
+  "whyItWorks": [
+    "Le seatbelt contrôle le haut de leur corps et les empêche de se tourner vers vous.",
+    "Les crochets ou le corps triangle ancrent le bas de votre corps au leur – ils ne peuvent pas s'échapper sans d'abord libérer les crochets.",
+    "Le combat à mains nues est l'étape la plus importante : vous ne pouvez pas les étouffer s'ils ont les mains sur votre bras qui s'étouffe.",
+    "Principe Danaher : le dos est la position d'attaque avec le pourcentage le plus élevé car vous contrôlez complètement leur mouvement."
+  ],
+  "commonMistakes": [
+    "Sauter le combat à mains nues et essayer de forcer l'étranglement - si leurs mains sont sur votre bras, vous n'aurez pas fini.",
+    "La perte du contact entre la poitrine et le dos – la connexion poitrine-dos est ce qui empêche les fuites.",
+    "Laissez-les se transformer en vous sans transition : s'ils se tournent, passez à mount ou armez triangle.",
+    "En utilisant une seule attaque — le système nécessite d'enchaîner : RNC → armer triangle → mount → reprendre la prise."
+  ],
+  "coachingCues": [
+    "seatbelt en premier, les crochets en deuxième, les mains en troisième, l'étranglement en dernier.",
+    "Combattez à la main dans l’ordre – décollez d’abord la main inférieure.",
+    "S'ils se transforment en vous, prenez le mount.",
+    "Enchaînez vos attaques : une configuration alimente la suivante."
+  ],
+  "safetySummary": [
+    "Ne tournez pas le cou pour forcer le RNC - c'est un étranglement sanguin, pas une manivelle.",
+    "Relâchez immédiatement au toucher – les RNCs peuvent provoquer une perte de conscience en quelques secondes.",
+    "Lors de la transition vers le bras triangle, ne tournez pas la tête de manière agressive."
+  ],
+  "keyCorrections": [
+    "S'ils continuent de protéger leur cou, attaquez le bras triangle ou appâtez le tour pour passer à mount.",
+    "S'ils saisissent votre main qui s'étouffe, passez à la variante RNC à poignet haut.",
+    "S'ils décollent vos crochets, passez à un corps triangle ou croisez les pieds."
+  ],
+  "systemLogic": {
+    "corePrinciple": "back control → seatbelt → crochets/corps sécurisés triangle → combat à main → RNC tentative.",
+    "decisionTree": [
+      {
+        "condition": "RNC Réaction 1 : Ils défendent",
+        "action": "bras triangle sur le bras éloigné."
+      },
+      {
+        "condition": "RNC Réaction 2 : Ils se rendent",
+        "action": "prenez mount ou technique mount."
+      },
+      {
+        "condition": "RNC Réaction 3 : Ils se détournent",
+        "action": "raccrochez le dos et continuez."
+      }
+    ]
+  },
+  "moneyDetails": [
+    "Le combat à la main suit un ordre précis : décoller la main du bas (couvrant le cou), puis la main du haut.",
+    "La connexion poitrine-dos est maintenue en pressant votre sternum contre la colonne vertébrale, et non en tirant avec vos bras.",
+    "Lorsqu'ils se tournent vers vous, relâchez le corps triangle/crochets et suivez-les jusqu'à mount — ne vous battez pas pour le dos.",
+    "Le RNC se termine le plus rapidement lorsque le coude de votre bras qui s'étouffe est sous le menton : la position du coude compte plus que la force de compression."
+  ],
+  "nextStep": "Après le système d'attaque arrière, apprenez le contrôle du corps triangle et le bras triangle par l'arrière.",
+  "fixItFast": [
+    "Vous n'arrivez pas à obtenir le starter ? Passez au armbar sur le bras éloigné – ils s’ouvrent lorsque vous défendez le starter.",
+    "Ils continuent de se rendre ? Prenez mount immédiatement — back control est perdu, mount est gagné.",
+    "Ils vous prennent les mains ? Rentrez votre menton et passez au poignet haut RNC."
+  ]
+}

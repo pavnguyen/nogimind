@@ -1,0 +1,66 @@
+{
+  "id": "inverted-guard-control",
+  "locale": "en",
+  "name": "Inverted Guard & Transitions",
+  "description": "Use inversion angles to place your feet on the opponent's hip line or shoulder line, then transition to K-guard, matrix, or leg entanglement entries.",
+  "shortInstruction": "Invert, place feet on hips or shoulders, create angle — inversion is the entry to the entire lower-body attack system.",
+  "summary": "Inverted guard is not a position you stay in — it is a transitional tool to get your lower body past their upper body. By inverting (putting your shoulders on the mat and elevating your hips), you can place your feet on their hips, shoulders, or ribs. From there, you can create the angles for K-guard (foot on hip), matrix (foot on shoulder), or leg entries. The inversion should be fast and purposeful — staying inverted too long exposes your back to attacks.",
+  "whyItWorks": [
+    "Inversion places your strongest levers (legs) above their center of mass — you control their upper body with your lower body.",
+    "It solves the problem of distance: when they stand to pass, inversion closes the gap and puts your feet on their body.",
+    "The inverted angle creates entries that are unavailable from seated or supine guard.",
+    "Danaher principle: when they stand high, invert to re-establish connection."
+  ],
+  "commonMistakes": [
+    "Staying inverted too long — inverted guard is transitional, not a resting position.",
+    "Inverting without controlling their near arm — they will spin or take your back.",
+    "Failing to protect your neck during the inversion — keep your chin tucked.",
+    "Inverting with straight legs — bent knees give you power and mobility to adjust."
+  ],
+  "coachingCues": [
+    "Invert fast, exit faster — inverted is not a home.",
+    "Feet on hips, not air — connect before you invert.",
+    "Control the arm, protect the back.",
+    "K-guard or matrix — decide before you invert."
+  ],
+  "safetySummary": [
+    "Tuck your chin to your chest during inversion to protect your neck.",
+    "Do not invert with your back directly facing the opponent — turn to your side during the inversion.",
+    "If they sprawl on your inversion, bail out immediately — do not let them pressure your lower back.",
+    "Be aware of your own spine — if inversion causes pain, do not force it."
+  ],
+  "keyCorrections": [
+    "If they take your back during inversion, you failed to control their near arm — keep one hand on their sleeve or wrist at all times.",
+    "If you can't get your feet on their hips, your angle is wrong — turn your hips more before extending.",
+    "If they sprawl and flatten you, bail out to a seated guard immediately."
+  ],
+  "systemLogic": {
+    "corePrinciple": "Invert: place feet on hip or shoulder line → control near arm → transition to K-guard, matrix, or leg entanglement.",
+    "decisionTree": [
+      {
+        "condition": "Foot on hip = K-guard entry",
+        "action": "backside or leg attacks."
+      },
+      {
+        "condition": "Foot on shoulder = matrix entry",
+        "action": "back take or leg drag."
+      },
+      {
+        "condition": "General application",
+        "action": "The inversion is the pass-through point — you are never staying; you are always going somewhere."
+      }
+    ]
+  },
+  "moneyDetails": [
+    "Invert by turning your hips and shoulders to the side — a straight back-inversion exposes your spine and back.",
+    "Place your lead foot on their hip and your second foot on their biceps or shoulder — two points of contact.",
+    "Keep one hand on their sleeve or wrist at all times — this prevents them from spinning behind you.",
+    "The exit from inversion is the most important part: either extend into K-guard or collapse into matrix."
+  ],
+  "nextStep": "After mastering inversion entries, learn the K-guard and matrix systems to build your complete open guard.",
+  "fixItFast": [
+    "They take your back? You didn't control their arm — re-grip before inverting next time.",
+    "Can't connect feet? You inverted too far away — scoot closer before going over.",
+    "Spine hurts? Turn to your side during inversion — don't invert flat on your back."
+  ]
+}

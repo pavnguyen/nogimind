@@ -1,0 +1,71 @@
+{
+  "id": "turtle-ride",
+  "locale": "fr",
+  "name": "Promenade en tortue",
+  "description": "Montez la tortue avec une pression sur la hanche, près du poignet, une balade en spirale et une menace mat return. Le tour des tortues intègre tous les systèmes de casse-tortues dans un système de contrôle de position cohérent.",
+  "shortInstruction": "À partir de la tortue, établissez la pression de la hanche et le contrôle proche du poignet. Lisez leur réaction : s'ils se tiennent en position, utilisez le trajet en spirale. S'ils restent plats, utilisez la moitié de la puissance. S'ils sont debout, utilisez le mat return.",
+  "summary": "Le tour de tortue est le système complet permettant de contrôler, de démonter et de reprendre la position de la tortue. Il intègre quatre systèmes complémentaires : (1) la pression de la hanche et le contrôle près du poignet pour le contrôle de la ligne de base, (2) le tour en spirale pour l'effondrement en rotation, (3) le demi-tour en puissance pour l'effondrement à plat et (4) le mat return pour lorsque l'adversaire se tient debout. La clé est de lire la réaction de l'adversaire et de sélectionner le système approprié.",
+  "whyItWorks": [
+    "La pression de la hanche et le contrôle du poignet empêchent l'adversaire d'exploser hors de la tortue ou de s'asseoir.",
+    "Le tour en spirale et le demi-tour puissant attaquent la tortue sous différents angles : si l'un échoue, l'autre fonctionne",
+    "La menace mat return empêche l'adversaire de s'enfuir en se relevant",
+    "Le système intégré permet d'enchaîner les attaques : spirale → puissance demi → mat return au fur et à mesure que l'adversaire s'ajuste"
+  ],
+  "commonMistakes": [
+    "S'engager trop tôt dans un système : lisez la réaction de l'adversaire avant de choisir la spirale, la moitié de puissance ou mat return",
+    "Perte de pression de la hanche – le contrôle de base doit être maintenu tout au long",
+    "Laisser l'adversaire s'asseoir jusqu'à guard - rester lourd sur les hanches et contrôler le poignet le plus proche",
+    "Ne pas passer à mat return lorsqu'ils se lèvent – les adversaires debout doivent être renvoyés immédiatement"
+  ],
+  "coachingCues": [
+    "Pression de la hanche, près du poignet en premier",
+    "Lisez leur réaction, choisissez le système",
+    "Spirale, moitié de puissance ou mat return",
+    "Restez connecté, ne les laissez jamais s'asseoir"
+  ],
+  "safetySummary": [
+    "N'appliquez pas de pression excessive sur la colonne vertébrale de l'adversaire lorsque vous chevauchez la tortue : utilisez une pression thoracique sur le dos, pas sur les vertèbres.",
+    "Si l'adversaire sort brusquement de la tortue, protégez votre tête et votre cou.",
+    "Soyez conscient de la position du cou de l'adversaire : si sa tête est tournée dans un angle inconfortable, évitez les techniques agressives pour briser la tortue."
+  ],
+  "keyCorrections": [
+    "S'il reste assis jusqu'à guard : la pression de votre hanche est trop légère – enfoncez votre poitrine dans son dos et contrôlez le poignet le plus proche.",
+    "S'ils se lèvent : passez immédiatement au mat return – n'essayez pas de monter en spirale sur un adversaire debout.",
+    "S'ils roulent : suivez-les et prenez le dos – maintenez le contact tout au long du roulement"
+  ],
+  "systemLogic": {
+    "corePrinciple": "Le tour des tortues est un système d'arbre de décision : Contrôle de base → Lire la réaction → Appliquer le système",
+    "decisionTree": [
+      {
+        "condition": "Application générale",
+        "action": "Contrôle de base : depuis derrière la tortue, établissez la pression de la hanche (poitrine dans le haut du dos) et contrôlez le poignet le plus proche. Vos genoux doivent être sur le tapis, vos hanches lourdes sur leurs hanches."
+      },
+      {
+        "condition": "Réaction 1",
+        "action": "Ils restent bas et défensifs : utilisez le tour en spirale (pousser la cuisse, tirer l'épaule) ou le demi-tour en puissance (prise croisée, marcher les hanches). L’un ou l’autre système les effondrera"
+      },
+      {
+        "condition": "Réaction 2",
+        "action": "Ils se tiennent debout ou assis : augmentez la pression sur la hanche et utilisez le tour de griffe (bras autour de la hanche) pour les ramener vers le bas."
+      },
+      {
+        "condition": "Réaction 3",
+        "action": "Ils se lèvent : passez immédiatement au mat return – fixez la poignée de taille ou une jambe et ramenez-les au tapis."
+      },
+      {
+        "condition": "Application générale",
+        "action": "Si toutes les réactions échouent, revenez au contrôle de base et redémarrez. La position de la tortue récompense la patience : l'adversaire finira par se tromper"
+      }
+    ]
+  },
+  "moneyDetails": [
+    "Le Turtle Ride est le système complet pour briser les tortues : le maîtriser signifie que vous pouvez prendre le dos dans n'importe quelle position de la tortue.",
+    "Une chaîne de conduite de tortue fiable (spirale → moitié puissance → mat return) élimine la position défensive la plus sûre de l'adversaire",
+    "Les prises arrière du tour de tortue marquent 4 points dans IBJJF et mènent directement à la position la plus dominante du grappling."
+  ],
+  "fixItFast": [
+    "S'ils restent assis jusqu'au guard : relâchez le tour de tortue, placez-vous sur leurs hanches et levez-vous pour passer.",
+    "S'ils se lèvent : passez au mat return – fixez la taille et conduisez-les vers le tapis.",
+    "S'ils roulent vers vous : prenez le dos - maintenez la connexion de la hanche pendant qu'ils roulent"
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "id": "s-mount-armbar",
+  "locale": "vi",
+  "name": "s-mount armbar",
+  "description": "Kết thúc armbar từ s-mount bằng cách sử dụng kẹp vai và nâng cao đường hông — không phải bằng cách ngã về phía sau mà bằng cách duy trì khả năng kiểm soát và nâng hông lên.",
+  "shortInstruction": "Cao mount, cô lập cánh tay, giữ trọng lượng nặng, nâng hông lên để kết thúc — s-mount armbar là kiểm soát chứ không phải tuyệt vọng.",
+  "summary": "s-mount armbar là tiêu chuẩn vàng của armbar từ vị trí mount. Trong s-mount (một chân ở hông, một đầu gối ở nách, trọng lượng của bạn dồn lên ngực họ), bạn có quyền kiểm soát đặc biệt đối với phần thân trên của họ. Từ đây, việc cô lập một cánh tay và hoàn thành armbar là về việc duy trì sự thống trị về vị trí thay vì lùi lại phía sau. Điểm khác biệt chính so với mount armbar thông thường là bạn kết thúc ở tư thế ngồi bằng cách nâng hông lên thay vì ngã về phía sau.",
+  "whyItWorks": [
+    "s-mount đặt trọng lượng của bạn lên ngực họ - họ không thể bắc cầu hoặc lăn bạn ra.",
+    "Bàn chân ở hông của họ tạo cho bạn một trụ vững chắc để ngăn họ biến thành bạn.",
+    "Kết thúc bằng cách nâng hông lên (thay vì lùi về phía sau) sẽ duy trì khả năng kiểm soát và ngăn chặn việc trốn thoát.",
+    "Nguyên tắc Danaher: s-mount là vị trí ghim mạnh nhất cho armbars vì nó cô lập hoàn toàn phần thân trên."
+  ],
+  "commonMistakes": [
+    "Ngả về phía sau để kết thúc thay vì nâng hông - ngã ​​về phía sau giúp họ thoát ra ngoài.",
+    "Không kiểm soát được cánh tay xa của mình - họ sẽ đứng vững và ngăn chặn cú ngã.",
+    "Mất vị trí s-mount trong quá trình chuyển đổi armbar — duy trì áp lực cho đến khi bạn về đích.",
+    "Để khuỷu tay của họ hạ xuống dưới hông của bạn - khuỷu tay phải ở trên hông của bạn để kết thúc."
+  ],
+  "coachingCues": [
+    "s-mount cao, nặng, kiểm soát được cánh tay.",
+    "Nâng hông lên, không bị ngã về phía sau.",
+    "Nếu bạn ngã, bạn sẽ mất kiểm soát - hãy nhấc lên để kết thúc.",
+    "Khuỷu tay chạm hông, ngón tay cái hướng lên, hông hướng lên."
+  ],
+  "safetySummary": [
+    "Áp dụng phần mở rộng armbar từ từ và có kiểm soát — chấn thương do duỗi quá mức xảy ra nhanh chóng.",
+    "Không tiếp tục gia hạn sau khi nhấn.",
+    "Xin lưu ý rằng s-mount áp lực có thể tác động mạnh lên xương sườn và ngực."
+  ],
+  "keyCorrections": [
+    "Nếu bạn ngã về phía sau khi về đích, bạn đã mất s-mount khả năng kiểm soát — hãy tập giữ trọng lượng nặng.",
+    "Nếu họ rút tay ra, khả năng kiểm soát vai của bạn yếu - trước tiên hãy ghim cánh tay của họ vào ngực bạn.",
+    "Nếu họ chặn bạn lại, s-mount của bạn chưa đủ cao — hãy trèo cao hơn trên ngực họ."
+  ],
+  "systemLogic": {
+    "corePrinciple": "mount: chuyển sang s-mount (một chân ở hông, một đầu gối ở nách) → cô lập cánh tay của họ → đưa khuỷu tay lên trên hông → nâng hông → duỗi ra.",
+    "decisionTree": [
+      {
+        "condition": "Ứng dụng chung",
+        "action": "s-mount armbar xích bằng cánh tay triangle: nếu họ bảo vệ armbar, hãy chuyển sang cánh tay triangle từ mount."
+      },
+      {
+        "condition": "họ lăn lộn để trốn thoát",
+        "action": "thay vào đó hãy lấy mặt sau."
+      }
+    ]
+  },
+  "moneyDetails": [
+    "Vị trí s-mount của bạn phải cao trên ngực họ — hông của bạn phải ngang với xương ức của họ.",
+    "Bàn chân ở hông của họ phải hoạt động - bạn ấn vào hông để điều khiển cầu của họ.",
+    "Cô lập cánh tay bằng cách ghim nó vào ngực bằng tay cùng bên.",
+    "Kết thúc: nâng hông lên khi bạn kéo cánh tay của họ về phía mình - điều này tạo ra độ duỗi quá mức mà không bị ngã về phía sau."
+  ],
+  "nextStep": "Sau s-mount armbar, hãy tìm hiểu mounted triangle và nhánh triangle từ mount.",
+  "fixItFast": [
+    "Bạn tiếp tục rơi trở lại? Thay vào đó, hãy ngồi yên và nâng hông của bạn lên.",
+    "Không thể cách ly cánh tay? Luồn bàn tay của bạn dưới cánh tay của họ và ghim nó vào ngực bạn.",
+    "Họ bắc cầu à? Đẩy vào hông họ bằng chân s-mount của bạn và giữ nguyên trọng lượng cơ thể."
+  ]
+}

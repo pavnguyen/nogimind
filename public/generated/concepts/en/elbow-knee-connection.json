@@ -1,0 +1,65 @@
+{
+  "id": "elbow-knee-connection",
+  "locale": "en",
+  "title": "Elbow-Knee Connection",
+  "category": "defensive",
+  "level": "fundamental",
+  "tags": [
+    "elbow knee",
+    "escape",
+    "guard retention"
+  ],
+  "shortDefinition": "Elbow-knee connection closes the space between upper body and hip line to prevent pins and passes.",
+  "whyItMatters": "When elbow separates from knee, the opponent inserts chest, knee, hook, or arm isolation.",
+  "deepExplanation": "This is a survival principle in side control, mount, guard retention, and back escape. It rebuilds a defensive layer before shrimping, bridging, or wrestling up.",
+  "beginnerView": "Bring elbow inside, then bring knee back.",
+  "advancedView": "Use elbow-knee to bait pressure then switch to underhook, turtle, or guard recovery.",
+  "ifThenExamples": [
+    {
+      "if": "If you lose Elbow-Knee Connection during the exchange.",
+      "then": "Stop accelerating, recover the nearest body structure, then continue the technique.",
+      "why": "Modern no-gi punishes forceful continuation after structure is lost.",
+      "relatedSkillIds": [
+        "side-control-escape",
+        "mount-escape"
+      ]
+    },
+    {
+      "if": "If the opponent correctly answers your first line.",
+      "then": "Use Elbow-Knee Connection to switch to a safer branch instead of forcing the same line.",
+      "why": "A good concept turns the opponent’s reaction into information for the next decision.",
+      "relatedSkillIds": [
+        "mount-escape",
+        "seated-guard-retention",
+        "back-escape"
+      ]
+    }
+  ],
+  "commonMisunderstandings": [
+    {
+      "misunderstanding": "Elbow-Knee Connection is a single technical trick.",
+      "correction": "Treat it as a decision rule that appears across many positions."
+    },
+    {
+      "misunderstanding": "Understanding the concept automatically makes it work live.",
+      "correction": "The concept needs body signals, short cues, and positional rolling."
+    }
+  ],
+  "trainingCues": [
+    "Name Elbow-Knee Connection before adding force.",
+    "Find the body signal instead of guessing generally.",
+    "If structure is lost, reset one layer first.",
+    "Drill slowly, then test with progressive resistance."
+  ],
+  "relatedSkillIds": [
+    "side-control-escape",
+    "mount-escape",
+    "seated-guard-retention",
+    "back-escape"
+  ],
+  "relatedConceptIds": [
+    "frames",
+    "guard-retention-layers",
+    "early-vs-late-defense"
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "id": "clamp-guard-control",
+  "domain": "guard_offense",
+  "level": "intermediate",
+  "name": "Clamp Guard Control",
+  "aliases": [],
+  "tags": [
+    "clamp-guard",
+    "shoulder-line",
+    "overhook",
+    "tier:modern-expansion",
+    "meta:modern-common",
+    "risk:medium",
+    "family:guard",
+    "group:clamp-guard",
+    "modern-no-gi"
+  ],
+  "keywords": [
+    "shoulder line",
+    "overhook",
+    "posture break"
+  ],
+  "modernSystemGroup": "clamp_guard",
+  "relatedSkills": [
+    {
+      "id": "shoulder-crunch-control",
+      "type": "recommended"
+    },
+    {
+      "id": "choi-bar",
+      "type": "recommended"
+    },
+    {
+      "id": "tarikoplata",
+      "type": "recommended"
+    }
+  ],
+  "prerequisiteSkillIds": [
+    "supine-guard-retention",
+    "kimura-system"
+  ],
+  "relatedPositions": [],
+  "relatedConcepts": [],
+  "archetypeIds": [],
+  "trainingMethodIds": [],
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "updatedAt": "2026-05-21T00:24:30.775Z"
+}

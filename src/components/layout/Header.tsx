@@ -93,7 +93,7 @@ export const Header = () => {
           type="button"
           onClick={() => setMobileNavOpen(true)}
           className="flex shrink-0 items-center gap-2 rounded-lg border border-white/[0.06] px-3 py-2 text-sm font-medium text-slate-300 transition-all hover:bg-white/[0.04] hover:text-white lg:hidden"
-          aria-label={t('nav.settings')}
+          aria-label={t('nav.openMenu', 'Open navigation menu')}
         >
           <Menu className="h-4 w-4" aria-hidden="true" />
           <span className="hidden sm:inline text-xs text-slate-500">{t('app.name')}</span>
@@ -120,6 +120,11 @@ export const Header = () => {
               onFocus={() => setOpen(Boolean(query.trim()))}
               placeholder={t('search.headerPlaceholder')}
               className="min-w-0 flex-1 bg-transparent text-sm text-white outline-none placeholder:text-slate-500"
+              role="combobox"
+              aria-expanded={canSuggest}
+              aria-controls="search-suggestions"
+              aria-label={t('search.placeholder')}
+              aria-autocomplete="list"
             />
             <kbd className="hidden shrink-0 items-center gap-0.5 rounded border border-white/[0.08] bg-slate-800 px-1.5 py-0.5 text-[10px] font-medium text-slate-500 md:flex">
               <Command className="h-2.5 w-2.5" />
@@ -127,7 +132,7 @@ export const Header = () => {
             </kbd>
           </form>
           {canSuggest && (
-            <div className="absolute left-0 right-0 top-[calc(100%+6px)] z-30 animate-scale-in rounded-xl border border-white/[0.08] bg-slate-950/95 p-2 shadow-glow-lg backdrop-blur-2xl">
+            <div id="search-suggestions" role="listbox" className="absolute left-0 right-0 top-[calc(100%+6px)] z-30 animate-scale-in rounded-xl border border-white/[0.08] bg-slate-950/95 p-2 shadow-glow-lg backdrop-blur-2xl">
               {isSearching ? (
                 <p className="px-3 py-3 text-center text-sm text-slate-500">{t('common.loading')}</p>
               ) : visibleSuggestions.length ? (
@@ -136,6 +141,7 @@ export const Header = () => {
                     <button
                       key={`${result.type}-${result.id}`}
                       type="button"
+                      role="option"
                       onClick={() => {
                         navigate(result.url)
                         setOpen(false)

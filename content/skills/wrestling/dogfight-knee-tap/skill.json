@@ -1,0 +1,56 @@
+{
+  "id": "dogfight-knee-tap",
+  "domain": "wrestle_up_wrestling",
+  "level": "intermediate",
+  "name": "Dogfight Knee Tap",
+  "aliases": [],
+  "tags": [
+    "dogfight",
+    "wrestle-up",
+    "knee-tap",
+    "tier:modern-expansion",
+    "meta:modern-common",
+    "risk:medium",
+    "family:wrestling",
+    "group:wrestle-up",
+    "modern-no-gi"
+  ],
+  "keywords": [
+    "dogfight",
+    "underhook",
+    "knee tap"
+  ],
+  "modernSystemGroup": "wrestle_up",
+  "relatedSkills": [
+    {
+      "id": "octopus-guard-control",
+      "type": "recommended"
+    },
+    {
+      "id": "single-leg-bjj",
+      "type": "recommended"
+    },
+    {
+      "id": "sprawl-go-behind",
+      "type": "recommended"
+    }
+  ],
+  "prerequisiteSkillIds": [
+    "half-guard-wrestle-up",
+    "single-leg-bjj"
+  ],
+  "relatedPositions": [],
+  "relatedConcepts": [],
+  "archetypeIds": [],
+  "trainingMethodIds": [],
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "updatedAt": "2026-05-21T00:24:30.779Z"
+}

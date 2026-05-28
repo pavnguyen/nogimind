@@ -1,0 +1,118 @@
+{
+  "id": "fhl-go-behind",
+  "domain": "submission_systems",
+  "level": "intermediate",
+  "status": "draft",
+  "name": "Front Headlock Go-Behind",
+  "aliases": [],
+  "tags": [
+    "go-behind",
+    "front-headlock",
+    "back-take",
+    "transition",
+    "tier:modern-expansion",
+    "meta:modern-common",
+    "risk:low",
+    "family:front-headlock",
+    "group:front-headlock",
+    "modern-no-gi"
+  ],
+  "keywords": [
+    "circling mechanics",
+    "posture control",
+    "back exposure"
+  ],
+  "modernSystemGroup": "front_headlock",
+  "relatedSkills": [
+    {
+      "id": "guillotine-system",
+      "type": "recommended"
+    },
+    {
+      "id": "high-wrist-guillotine",
+      "type": "recommended"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "snapdown-front-headlock"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [
+    "If they turn to face you during the go-behind, you circled too wide — circle tighter to their body.",
+    "If you can't get the seatbelt, you lost head control too soon — maintain head contact until the seatbelt is secure.",
+    "If they sprawl on your go-behind, they felt it coming — use a feint (fake choke) before committing."
+  ],
+  "version": 1,
+  "updatedAt": "2026-05-21T00:24:30.782Z",
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "en",
+  "description": "The most fundamental back take from front headlock — circle to the rear when the opponent resists the choke or tries to belly down.",
+  "shortInstruction": "Control the head, circle to the back, take the hooks — the go-behind is the simplest path from front headlock to back control.",
+  "summary": "The go-behind from front headlock is the highest percentage transition in the front headlock system. When you have the front headlock and the opponent resists your choke attempt (guillotine, D'Arce, anaconda), they will often try to flatten out or circle away. Their resistance creates the space you need to release the choke, circle behind them, and take the back. The go-behind turns a failed submission into the most dominant position in BJJ.",
+  "whyItWorks": [
+    "When they resist the choke, they are focused on defending their neck — their back is exposed.",
+    "The front headlock already controls their head and one arm — you are 50% of the way to back control already.",
+    "Circling behind is a natural movement from front headlock — their forward pressure creates the space.",
+    "Danaher principle: every front headlock attempt should have a go-behind option — never commit fully to the choke."
+  ],
+  "commonMistakes": [
+    "Committing fully to the choke and forgetting the go-behind — the go-behind should always be an option.",
+    "Circling the wrong direction — circle toward the back, not toward their face.",
+    "Letting go of head control too early — maintain some head control until you have the seatbelt.",
+    "Not securing the seatbelt fast enough after the go-behind — they will turn to face you."
+  ],
+  "coachingCues": [
+    "Choke → resist → release → circle → back — the go-behind is always there.",
+    "Circle toward the back, not toward the face.",
+    "Head control first, seatbelt second, hooks third.",
+    "If they fight the choke, take the back."
+  ],
+  "safetySummary": [
+    "Do not crank the head when circling behind — release the choke before circling, not during.",
+    "Keep your head protected during the transition — their elbows are dangerous as they turn.",
+    "When taking the back, slide your hooks in smoothly to avoid hitting their knees."
+  ],
+  "systemLogic": {
+    "corePrinciple": "Front headlock established → opponent resists choke → release the choke → circle behind them → secure seatbelt → insert hooks → back control.",
+    "decisionTree": [
+      {
+        "condition": "The go-behind works as part of the FHL system: choke threat",
+        "action": "go-behind → back control → RNC."
+      },
+      {
+        "condition": "General application",
+        "action": "If the go-behind fails, return to front headlock or transition to side control."
+      }
+    ],
+    "exitStrategies": []
+  },
+  "moneyDetails": [
+    "Release the choke grip as you circle — holding the grip during the circle slows you down.",
+    "Maintain head pressure as you circle — use your shoulder to keep their head down while you move.",
+    "Circular path should be tight to their body — a wide circle gives them time to react.",
+    "Once behind, slide your hands into the seatbelt grip before inserting hooks — seatbelt first, hooks second."
+  ],
+  "nextStep": "After the FHL go-behind, learn back control and the back attack system.",
+  "fixItFast": [
+    "They keep facing you? Circle tighter — your path is too wide.",
+    "Can't get the seatbelt? Don't let go of their head — maintain head control and walk your hands back.",
+    "They sprawl? Fake the choke, wait for them to react, then go-behind."
+  ]
+}

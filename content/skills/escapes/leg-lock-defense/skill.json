@@ -1,0 +1,54 @@
+{
+  "id": "leg-lock-defense",
+  "domain": "survival_defense",
+  "level": "intermediate",
+  "name": "Leg Lock Defense",
+  "aliases": [],
+  "tags": [
+    "leg-lock",
+    "defense",
+    "heel-hook",
+    "knee-safety",
+    "escape"
+  ],
+  "keywords": [
+    "heel hide",
+    "knee line",
+    "boot defense",
+    "rotation direction",
+    "tap timing",
+    "ashi escape"
+  ],
+  "relatedSkills": [
+    {
+      "id": "single-leg-x-basics",
+      "type": "recommended"
+    },
+    {
+      "id": "saddle-inside-sankaku-control",
+      "type": "recommended"
+    },
+    {
+      "id": "k-guard-entry",
+      "type": "recommended"
+    }
+  ],
+  "prerequisiteSkillIds": [
+    "leg-lock-safety-basics",
+    "heel-hook-safety"
+  ],
+  "relatedPositions": [],
+  "relatedConcepts": [],
+  "archetypeIds": [],
+  "trainingMethodIds": [],
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "updatedAt": "2026-05-21T00:24:30.765Z"
+}

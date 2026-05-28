@@ -1,0 +1,120 @@
+{
+  "id": "guillotine-system",
+  "domain": "submission_systems",
+  "level": "advanced",
+  "status": "draft",
+  "name": "guillotine Hệ thống",
+  "aliases": [],
+  "tags": [
+    "choke",
+    "front-headlock"
+  ],
+  "keywords": [
+    "guillotine",
+    "front headlock",
+    "chin strap",
+    "neck safety"
+  ],
+  "relatedSkills": [
+    {
+      "id": "dilemmas-two-way-attacks",
+      "type": "recommended"
+    },
+    {
+      "id": "butterfly-guard-off-balance",
+      "type": "recommended"
+    },
+    {
+      "id": "single-leg-bjj",
+      "type": "recommended"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "snapdown-front-headlock",
+    "front-headlock-defense"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [
+    "Nếu bạn không thể hoàn thành, góc của bạn quá vuông - hãy bước sang một bên và cắt góc.",
+    "Nếu họ ra ngoài, bạn sẽ mất khoảng cách hông - thả ra và đặt lại thay vì đuổi theo cuộn cảm.",
+    "Nếu cổ tay của bạn nông, hãy nắm lại sâu hơn - cánh tay bị nghẹn phải càng sâu càng tốt trên cổ."
+  ],
+  "version": 1,
+  "updatedAt": "2026-05-21T00:24:30.742Z",
+  "contentRefs": {
+    "videos": "videos.json",
+    "qualityChecklist": "qualityChecklist"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": true,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "vi",
+  "description": "Xây dựng guillotine các mối đe dọa nghẹt thở từ front headlock, guard và các cuộc tranh giành — ưu tiên góc, độ sâu cổ tay và sự an toàn của cổ hơn là vũ lực.",
+  "shortInstruction": "Cổ tay sâu, khuỷu tay siết chặt, cắt góc, siết chặt - guillotine là một tư thế, không chỉ là một cái nắm.",
+  "summary": "guillotine là cuộn cảm front headlock dễ tiếp cận nhất và là cuộn cảm đầu tiên mà hầu hết các học viên BJJ đều học. Hệ thống này bao gồm nhiều biến thể: động tác giơ tay tiêu chuẩn guillotine (từ guard), động tác giơ tay ra guillotine (từ front headlock), động tác đưa tay cao guillotine (để thâm nhập cổ sâu hơn) và động tác Marcelotine (biến thể No-Gi của Marcelo Garcia). Nguyên tắc chính trong tất cả các biến thể là guillotine là một vị trí — bạn phải kiểm soát tư thế của chúng và tạo góc trước khi siết chặt.",
+  "whyItWorks": [
+    "guillotine tấn công vào cổ từ phía trước, nơi đầu và tư thế của hầu hết đối thủ tạo ra đường vào tự nhiên cho đòn siết cổ.",
+    "Nó có sẵn ở hầu hết mọi vị trí: front headlock, guard, tranh giành và hạ gục không thành công.",
+    "Biến thể tay trong (từ guard) ngăn cản chúng giữ tư thế và làm cho vòng bị siết chặt hơn.",
+    "Nguyên tắc Danaher: guillotine là một nút thắt 'vị trí đầu tiên, phục tùng thứ hai' - kiểm soát tư thế của họ, sau đó tấn công."
+  ],
+  "commonMistakes": [
+    "Siết chặt trước khi kiểm soát tư thế của họ - đối thủ trong tư thế có thể giảm bớt áp lực bằng cách đứng.",
+    "Để cánh tay nghẹt thở trượt nông trên cổ - cổ tay sâu là điều cần thiết để kết thúc.",
+    "Chỉ sử dụng sức mạnh của cánh tay để kết thúc - kết thúc đến từ việc cắt một góc và sử dụng ngực của bạn.",
+    "Để chúng xếp bạn hoặc lái về phía trước - duy trì khoảng cách hông để giữ góc."
+  ],
+  "coachingCues": [
+    "Cổ tay sâu, khuỷu tay khép chặt, góc nhọn, siết chặt.",
+    "Nếu bạn có thể nhìn thấy lưng họ thì góc của bạn đã sai - hãy cắt góc nhiều hơn.",
+    "Tay vào là kiểm soát, tay ra là tốc độ - hãy chọn một cách khôn ngoan.",
+    "guillotine là một cuộc đấu tranh giành tư thế — thắng thế, thắng nghẹt thở."
+  ],
+  "safetySummary": [
+    "guillotine nén cổ — áp dụng dần dần và thả ra khi nhấn.",
+    "Không quay đầu đối phương về phía trước - guillotine sạch sẽ là nghẹt thở chứ không phải gập cổ.",
+    "Chạm sớm nếu bạn cảm thấy áp lực lên cột sống cổ - một số biến thể guillotine có thể gây chấn thương cổ."
+  ],
+  "systemLogic": {
+    "corePrinciple": "front headlock hoặc guard: nắm chặt guillotine (sâu cổ tay, siết chặt khuỷu tay) → cắt góc (bước sang một bên) → siết chặt bằng ngực và cánh tay.",
+    "decisionTree": [
+      {
+        "condition": "Từ guard: tham gia guillotine",
+        "action": "dùng chân kéo đầu họ xuống → cắt góc → kết thúc."
+      },
+      {
+        "condition": "Từ FHL: hỗ trợ guillotine",
+        "action": "vòng sang một bên → thả tạ → kết thúc."
+      },
+      {
+        "condition": "họ bảo vệ guillotine",
+        "action": "chuyển sang d'arce hoặc anaconda — cả ba tạo thành một chuỗi front headlock."
+      }
+    ],
+    "exitStrategies": []
+  },
+  "moneyDetails": [
+    "Cánh tay bị nghẹn phải sâu - cổ tay của bạn phải chạm vào cột sống cổ của họ, không chỉ một bên cổ của họ.",
+    "Khuỷu tay của bạn phải ôm chặt vào cơ thể - khuỷu tay loe ra giúp họ có không gian để thực hiện tư thế.",
+    "Cắt góc bằng cách bước sang một bên đầu của họ - góc 45 độ là lý tưởng.",
+    "Siết chặt bằng ngực và vai, không chỉ bằng cánh tay - áp lực vào ngực sẽ tạo ra cảm giác nghẹt thở chặt hơn."
+  ],
+  "nextStep": "Sau hệ thống guillotine, hãy tìm hiểu các biến thể guillotine và Marcelotine dành cho cổ tay cao.",
+  "fixItFast": [
+    "Cổ tay quá nông? Trượt sâu hơn - cổ tay phải ở cột sống của họ chứ không phải da.",
+    "Họ cứ làm ra vẻ thế à? Bước xa hơn sang một bên - góc này phá vỡ tư thế của họ.",
+    "Cánh tay bị đốt cháy? Dùng ngực để siết chặt — guillotine chỉ dùng tay sẽ kiệt sức nhanh chóng."
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "id": "supine-guard",
+  "locale": "vi",
+  "title": "Guard nằm ngửa",
+  "category": "bottom_guard",
+  "status": "defensive",
+  "description": "Người guard nằm ngửa dùng bàn chân, đầu gối, frame và góc hông để ngăn passer vào chest-to-chest.",
+  "topPlayerGoals": [
+    "Người ở trên muốn kiểm soát Guard nằm ngửa bằng vị trí đầu, vị trí trong và áp lực có hướng.",
+    "Staple chân và thắng đường hông trước khi pass.",
+    "Giữ nền vững để không bị mất thăng bằng hoặc bị phản đòn."
+  ],
+  "bottomPlayerGoals": [
+    "Người ở dưới muốn sống sót trong Guard nằm ngửa bằng khung chặn, pummel hoặc góc phù hợp.",
+    "Giữ bàn chân và đầu gối ở trong để recover seated guard hoặc vào leg entry.",
+    "Nhận diện tín hiệu nguy hiểm sớm thay vì chờ vị trí ổn định."
+  ],
+  "controlPoints": [
+    "Điểm kiểm soát chính: Bàn chân trên hông hoặc biceps, gối ở trong và góc vai..",
+    "Đầu, tay, hông và gối nên cùng hướng lực.",
+    "Kết nối khuỷu-gối hoặc đường hông-vai quyết định vị trí còn sống hay đã bị khóa."
+  ],
+  "escapePriorities": [
+    "Ưu tiên thoát: Không để cả hai gối bị đưa qua cùng một phía..",
+    "Bảo vệ cổ, lưng, đường gối hoặc đường tay trước khi phản công.",
+    "Nếu mất vị trí trong, hãy lùi lại một lớp phòng thủ trước."
+  ],
+  "advancementOptions": [
+    {
+      "action": "Recover knee shield hoặc seated layer",
+      "nextPositionId": "knee-shield-half-guard",
+      "relatedSkillIds": [
+        "supine-guard-retention",
+        "seated-guard-retention",
+        "k-guard-entry"
+      ],
+      "why": "Đây là nhánh tự nhiên khi bạn thắng điểm kiểm soát chính và đối thủ buộc phải phòng thủ."
+    }
+  ],
+  "dangerSignals": [
+    "Cằm hoặc cổ bị kéo ra khỏi đường an toàn.",
+    "Khuỷu tay tách khỏi sườn hoặc đầu gối.",
+    "Đường hông bị khóa trong khi đường vai vẫn đang bị kéo.",
+    "Bạn phải chống tay dài để không ngã."
+  ],
+  "relatedSkillIds": [
+    "supine-guard-retention",
+    "seated-guard-retention",
+    "k-guard-entry"
+  ],
+  "relatedConceptIds": [
+    "guard-retention-layers",
+    "inside-position",
+    "wedges"
+  ]
+}

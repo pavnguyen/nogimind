@@ -1,0 +1,61 @@
+{
+  "id": "k-guard-matrix",
+  "locale": "vi",
+  "name": "K-guard tới Ma trận",
+  "description": "Chuyển đổi từ K-guard sang ma trận (đảo ngược dưới hông) để tạo góc nghiêng về phía sau cho động tác lùi, kéo chân ngược hoặc kết thúc vướng chân.",
+  "shortInstruction": "K-guard thành ma trận: xoay hông qua, móc hông ở xa và đưa ra phía sau.",
+  "summary": "Quá trình chuyển đổi K-guard sang ma trận là mục nhập mặt sau mạnh mẽ nhất trong No-Gi hiện đại. Khi bạn ở tư thế K-guard và họ bảo vệ tình trạng vướng chân bằng cách lùi lại hoặc đăng, bạn xoay hông qua vai của chính mình và 'ma trận' dưới hông họ — đảo ngược góc của bạn từ dưới họ về phía sau họ. Từ ma trận, bạn có thể lùi lại, thực hiện động tác kéo chân ngược hoặc hoàn thành heel hook từ phía sau.",
+  "whyItWorks": [
+    "Ma trận đảo ngược mối quan hệ bên trong/bên ngoài - bạn đi từ bên dưới sang đứng sau họ.",
+    "Nó biến sự phòng thủ của họ (lùi lại) thành hành vi tấn công của bạn (rút lui).",
+    "Ma trận không yêu cầu sức mạnh - đó là chuyển động xoay hông và thay đổi góc.",
+    "Nguyên tắc Danaher: ma trận giải quyết vấn đề đối thủ bước ra khỏi K-guard."
+  ],
+  "commonMistakes": [
+    "Cố gắng ma trận mà không kiểm soát cánh tay xa của họ - họ sẽ quay tròn và đối mặt với bạn.",
+    "Xoay qua đầu thay vì vai - điều này có thể làm bạn bị thương ở cổ.",
+    "Dừng lại ở ma trận thay vì đi đến phần cuối - ma trận mang tính chất chuyển tiếp, không phải cuối cùng.",
+    "Mất sự vướng víu ở chân trong quá trình chuyển đổi ma trận."
+  ],
+  "coachingCues": [
+    "Xoay qua vai chứ không phải đầu.",
+    "Kiểm soát cánh tay, móc hông, đi phía sau.",
+    "Nếu họ lùi lại, hãy tiến về phía trước.",
+    "Ma trận là đường hầm - quay lại là đích đến."
+  ],
+  "safetySummary": [
+    "Không xoay qua đỉnh đầu - luôn xoay qua vai để bảo vệ cổ và cột sống.",
+    "Khi vào ma trận, hãy giữ cho đôi chân của bạn hoạt động để tránh căng thẳng đầu gối.",
+    "Nếu bạn cảm thấy áp lực lên lưng dưới trong quá trình xoay, hãy thoát ra và đặt lại."
+  ],
+  "keyCorrections": [
+    "Nếu chúng không tuân theo ma trận, bạn sẽ mất đà - duy trì tốc độ trong suốt quá trình quay.",
+    "Nếu bạn không thể lùi lại thì góc của bạn đã sai - hãy đưa hông của bạn lại gần hông của họ trước khi xoay.",
+    "Nếu họ san bằng bạn trong ma trận, bạn đã không cam kết hoàn toàn - hãy cố gắng hơn nữa hoặc rút lui."
+  ],
+  "systemLogic": {
+    "corePrinciple": "K-guard đã thiết lập: đối thủ lùi lại hoặc trụ → xoay hông qua vai → móc hông xa → lùi lại hoặc thực hiện kéo chân ngược.",
+    "decisionTree": [
+      {
+        "condition": "Ứng dụng chung",
+        "action": "Ma trận hoạt động vì K-guard đã có bạn ở trung tâm — phép quay chỉ đảo ngược góc."
+      },
+      {
+        "condition": "họ không lùi bước",
+        "action": "thay vào đó hãy tấn công vào chỗ vướng chân từ K-guard."
+      }
+    ]
+  },
+  "moneyDetails": [
+    "Xoay qua vai chứ không phải đầu - đặt đầu sang một bên khi bạn lăn.",
+    "Móc hông xa của họ bằng chân trên của bạn khi bạn xoay - điều này ngăn họ theo dõi bạn.",
+    "Kiểm soát cánh tay gần của chúng trong suốt quá trình xoay để ngăn chúng lột xác bạn.",
+    "Khi bạn đến ma trận, ngay lập tức tìm kiếm điểm quay lại - đừng tạm dừng."
+  ],
+  "nextStep": "Sau ma trận, hãy tìm hiểu động tác lùi từ K-guard và mục nhập kéo chân ngược.",
+  "fixItFast": [
+    "Ma trận có vẻ rắc rối? Thực hành động tác xoay hông trên mặt đất mà không có đối tác - qua vai chứ không phải qua đầu.",
+    "Không thể lấy lại? Bạn chưa móc hông xa - hãy thiết lập lại móc hông trước khi tiến lên.",
+    "Họ theo bạn qua ma trận? Khả năng kiểm soát cánh tay của bạn yếu - hãy nắm chặt cơ tam đầu hoặc tay áo của họ chặt hơn."
+  ]
+}

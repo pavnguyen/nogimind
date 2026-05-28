@@ -1,0 +1,68 @@
+{
+  "id": "mat-return-basics",
+  "locale": "en",
+  "name": "Mat Return Basics",
+  "description": "Return the opponent safely to the mat when they stand from single leg, bodylock, or turtle. The mat return is a critical wrestling skill that prevents the opponent from escaping by standing up.",
+  "shortInstruction": "Maintain the leg grip (single or bodylock), drive your shoulder into their hip, elevate the trapped leg, and drive them to the mat on their hip or back. Protect your head position throughout.",
+  "summary": "The mat return is the process of returning a standing opponent to the mat after you have secured a single leg, double leg, or body lock. It requires three elements: a secure grip that prevents them from escaping, elevation of the trapped leg to remove their base, and a driving motion that lands them on their hip or back. The mat return is essential for preventing stance-up escapes from turtle and half guard.",
+  "whyItWorks": [
+    "Elevating the trapped leg removes one point of their base, making it impossible to maintain standing position",
+    "Driving your shoulder into their hip creates a lever that tips their center of gravity backward",
+    "Landing them on their hip (not their back) gives you immediate positional control for the next phase (pin or pass)",
+    "A well-executed mat return lands you in a dominant top position, not just neutral"
+  ],
+  "commonMistakes": [
+    "Letting go of the leg during the return — the grip must be maintained until they are fully on the mat",
+    "Driving sideways instead of backward — a sideways return can land you in their guard",
+    "Losing head position — your head must be on the inside (chest to hip) not the outside",
+    "Dropping your own base during the return — you must stay balanced to land on top"
+  ],
+  "coachingCues": [
+    "Elevate the leg, remove the base",
+    "Shoulder to the hip, drive through",
+    "Land on the hip, not the back",
+    "Stay connected through the return"
+  ],
+  "safetySummary": [
+    "Do not lift the opponent too high before slamming — controlled returns are safer than high-amplitude slams",
+    "Be aware of competition rules — some organizations limit slamming (IBJJF, ADCC have specific rules)",
+    "If the opponent is significantly heavier, adjust your return to a lower-impact sweep rather than a full lift",
+    "Protect your neck — keep your head on the inside of their body during the return"
+  ],
+  "keyCorrections": [
+    "If they keep hopping on one leg: you have not elevated enough — lift the trapped leg higher",
+    "If you land in their guard: your drive direction was wrong — drive backward, not sideways",
+    "If they escape the leg: your grip was too shallow — re-shoot and secure the leg higher (at the knee or thigh)"
+  ],
+  "systemLogic": {
+    "corePrinciple": "The mat return has three phases: Secure Grip → Elevate → Drive to Mat",
+    "decisionTree": [
+      {
+        "condition": "In Phase 1 (Secure Grip)",
+        "action": "if single leg, grip at the knee and bring the leg between your legs. If body lock, lock your hands behind their back at the hip level. If turtle, secure the waist grip"
+      },
+      {
+        "condition": "In Phase 2 (Elevate)",
+        "action": "lift the trapped leg by extending your hips and standing tall. The higher the leg, the less base they have. Their balance should be entirely on one leg"
+      },
+      {
+        "condition": "In Phase 3 (Drive to Mat)",
+        "action": "drive your shoulder into their hip and take a large step backward with your outside leg. This pulls their base out and lands them on their hip. Maintain the grip as they land"
+      },
+      {
+        "condition": "Landing position: aim for side control or north-south. If they land on their back, you are in their guard",
+        "action": "this is not ideal but acceptable. If they land on their hip, drive immediately into side control"
+      }
+    ]
+  },
+  "moneyDetails": [
+    "The mat return is essential for preventing stance-up escapes from half guard, turtle, and single leg — without it, opponents can stand and reset at will",
+    "Mastering the mat return gives you top control confidence — you know you can keep them on the mat",
+    "A good mat return scores 2 takedown points in IBJJF"
+  ],
+  "fixItFast": [
+    "If they hop away on one leg: switch to an ankle pick by grabbing the standing ankle",
+    "If they sprawl on you: circle to the back and take the back before they can complete the sprawl",
+    "If you cannot lift the leg: switch to a low single or ankle pick instead of forcing the lift"
+  ]
+}

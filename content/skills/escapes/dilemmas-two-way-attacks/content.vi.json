@@ -1,0 +1,72 @@
+{
+  "id": "dilemmas-two-way-attacks",
+  "locale": "vi",
+  "name": "Vấn đề nan giải và tấn công hai chiều",
+  "description": "Tạo ra hai mối đe dọa để đối thủ phải phòng thủ một tuyến và vạch trần tuyến kia. Một tình thế tiến thoái lưỡng nan buộc đối phương phải lựa chọn giữa hai phương án tồi - công việc của bạn là đưa ra lựa chọn đó và tận dụng một trong hai phương án phản ứng.",
+  "shortInstruction": "Liên kết hai đòn tấn công bổ sung cho nhau để phòng thủ cái này mở ra cái kia. Nếu họ chặn việc quét, hãy gửi bài. Nếu họ chặn việc gửi, hãy hoàn tất quá trình quét.",
+  "summary": "Một thế tiến thoái lưỡng nan là bất kỳ vị trí nào mà phản ứng phòng thủ của đối phương trước một đòn tấn công sẽ mở ra một đòn tấn công thứ hai, nguy hiểm không kém. Các tình huống khó xử mạnh mẽ nhất liên kết một cú quét và một cú khuất phục (ví dụ: quét cắt kéo → kimura từ closed guard) hoặc một đường chuyền và một cú lùi (ví dụ: chuyền sang một bên để lộ mặt sau). Hệ thống dạy bạn cách tấn công theo chuỗi thay vì bắn các kỹ thuật đơn lẻ và khởi động lại khi thất bại.",
+  "whyItWorks": [
+    "Bộ não con người bị giới hạn trong việc xử lý một mối đe dọa lớn tại một thời điểm - một tình huống khó xử thực sự sẽ phân tán sự chú ý của họ và đảm bảo độ trễ phản ứng",
+    "Các cuộc tấn công liên kết tạo ra áp lực gộp - ngay cả khi họ phòng thủ hoàn hảo đòn tấn công đầu tiên, họ vẫn đến một vị trí tồi tệ hơn so với nơi họ bắt đầu",
+    "Các cuộc tấn công hai chiều khai thác bản năng phòng thủ của đối thủ - phản ứng đã được huấn luyện của họ trước một mối đe dọa sẽ trở thành sơ hở cho mối đe dọa thứ hai",
+    "Những vận động viên vật lộn cấp cao nhất (Danaher, Gordon Ryan) xây dựng toàn bộ trò chơi của họ xoay quanh những tình huống khó xử hơn là các kỹ thuật cá nhân"
+  ],
+  "commonMistakes": [
+    "Cam kết 100% cho một cuộc tấn công và không có kế hoạch B khi thất bại",
+    "Xâu chuỗi các cuộc tấn công không liên quan - cuộc tấn công thứ hai phải là hệ quả tự nhiên của việc bảo vệ cuộc tấn công đầu tiên",
+    "Di chuyển quá nhanh trong trình tự - mỗi cuộc tấn công phải là một mối đe dọa thực sự, không chỉ là một chuyển động chuyển tiếp",
+    "Không nhận ra khi nào đối thủ đã vô hiệu hóa cả hai mối đe dọa - đây là lúc để thiết lập lại, không thực hiện đòn tấn công có xác suất thấp thứ ba"
+  ],
+  "coachingCues": [
+    "Hai mối đe dọa, một sự lựa chọn cho họ",
+    "quét → khuất phục, khuất phục → quét",
+    "Nếu họ dừng A, đưa họ B",
+    "Mỗi cuộc tấn công đều thiết lập cuộc tấn công tiếp theo"
+  ],
+  "safetySummary": [
+    "Đừng ép buộc vào thế tiến thoái lưỡng nan ở tốc độ cao - tấn công dây chuyền với tốc độ được kiểm soát để ngăn ngừa chấn thương khớp do vô tình",
+    "Khi tấn công bằng chuỗi gửi hai chiều (ví dụ: armbar đến triangle), hãy áp dụng các lần gửi tăng dần, không bùng nổ",
+    "Xin lưu ý rằng các đối tác đào tạo có thể lợi dụng mối đe dọa từ việc phục tùng hơn là áp lực thực tế - hãy tôn trọng việc khai thác sớm"
+  ],
+  "keyCorrections": [
+    "Nếu đối thủ phòng thủ dễ dàng cả hai đòn tấn công: tình thế khó xử của bạn không được kết nối - hai mối đe dọa phải có chung một liên kết cấu trúc (ví dụ: cả hai đều tấn công cùng một cánh tay hoặc cả hai đều khai thác cùng một sự phân bổ trọng lượng)",
+    "Nếu bạn chuyển từ tấn công A sang tấn công B nhưng mất vị trí: bạn đang cam kết quá đầy đủ với A - hãy giữ 20% nhận thức về kết quả vị trí ngay cả khi đang tấn công",
+    "Nếu bạn đứng hình khi đối thủ bảo vệ A: hãy thực hiện quá trình chuyển đổi từ A sang B cho đến khi nó diễn ra tự động - sự do dự sẽ giết chết tình thế tiến thoái lưỡng nan"
+  ],
+  "systemLogic": {
+    "corePrinciple": "Một tình huống khó xử đòi hỏi ba thành phần: (1) một cặp tấn công được kết nối, (2) cơ chế cấu trúc chung và (3) trình kích hoạt nhận dạng để chuyển đổi giữa chúng",
+    "decisionTree": [
+      {
+        "condition": "Ứng dụng chung",
+        "action": "Một tình huống khó xử đòi hỏi ba thành phần: (1) một cặp tấn công được kết nối, (2) cơ chế cấu trúc chung và (3) trình kích hoạt nhận dạng để chuyển đổi giữa chúng"
+      },
+      {
+        "condition": "Thành phần 1: Cặp kết nối",
+        "action": "hai đòn tấn công phải nhắm vào các bộ phận khác nhau trên cơ thể đối phương hoặc các phản ứng phòng thủ khác nhau. Ví dụ: quét + khuất phục, sặc + armbar, chuyền + lùi"
+      },
+      {
+        "condition": "Hợp phần 2: Cơ chế chia sẻ",
+        "action": "cả hai cuộc tấn công phải xuất phát từ cùng một vị trí cấu trúc. Nếu bạn phải thay đổi toàn bộ vị trí cơ thể của mình để chuyển đổi đòn tấn công thì đó không phải là vấn đề khó xử - đó là hai kỹ thuật riêng biệt"
+      },
+      {
+        "condition": "Thành phần 3: Trình kích hoạt nhận dạng",
+        "action": "bạn phải biết chính xác khi nào cần chuyển đổi. Cách kích hoạt hầu như luôn giống nhau: thời điểm họ dồn trọng lượng hoặc dùng tay để bảo vệ A, bạn sẽ chuyển sang B"
+      },
+      {
+        "condition": "Các ví dụ về vấn đề nan giải thường gặp",
+        "action": "closed guard: quét cắt kéo (họ đăng tay → kimura) hoặc armbar (họ tạo tư thế → triangle). mount: armbar (họ bảo vệ cánh tay → khóa chéo) hoặc khóa chéo (họ bảo vệ cổ → armbar). Mặt sau: rear-naked choke (bảo vệ cổ → cung tên) hoặc cung tên (bảo vệ hông → RNC). Khóa chân: heel hook (họ phòng thủ bên trong → bên ngoài ashi) hoặc thẳng ankle lock (họ phòng thủ heel hook → ankle lock)"
+      }
+    ]
+  },
+  "moneyDetails": [
+    "Các tình huống khó xử là cơ chế tính điểm chính ở BJJ cấp cao — phần lớn số điểm và lượt gửi đến từ các cuộc tấn công hai chiều chứ không phải các kỹ thuật đơn lẻ",
+    "Một tình huống khó xử được xây dựng tốt có thể kết thúc trận đấu trong vài giây bằng cách tạo ra một vấn đề nan giải cho đối thủ",
+    "Xây dựng trò chơi xoay quanh các tình huống khó xử thay vì các kỹ thuật riêng lẻ là con đường nhanh nhất để đạt đến cấp độ nâng cao BJJ",
+    "Những vận động viên vật lộn giỏi nhất thế giới (Gordon Ryan, Mica Galvao, Tainan Dalpra) toàn bộ trận đấu của họ dựa trên 3-4 tình huống khó xử có tỷ lệ phần trăm cao"
+  ],
+  "fixItFast": [
+    "Nếu tình huống khó xử của bạn không giải quyết được: hãy kiểm tra xem hai cuộc tấn công có cùng vị trí cấu trúc hay không. Nếu bạn phải di chuyển đáng kể giữa chúng, đó không phải là vấn đề nan giải",
+    "Nếu đối thủ đang phòng thủ cả hai đòn tấn công: thêm lớp thứ ba. Chuỗi ba đòn tấn công từ một vị trí gần như không thể phòng thủ được",
+    "Nếu bạn tiếp tục mất vị trí trong quá trình chuyển đổi: hãy chậm lại. Tình thế tiến thoái lưỡng nan đòi hỏi mỗi cuộc tấn công phải là một mối đe dọa thực sự - việc vội vã khiến cả cuộc tấn công đều không nguy hiểm"
+  ]
+}

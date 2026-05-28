@@ -1,0 +1,57 @@
+{
+  "id": "knee-on-belly",
+  "locale": "fr",
+  "title": "Genou sur le ventre",
+  "category": "top_control",
+  "status": "advantage",
+  "description": "Le joueur du dessus pose un genou sur le ventre ou la hanche adverse, créant pression et transitions rapides vers pass, mount ou soumissions.",
+  "topPlayerGoals": [
+    "Le joueur du dessus veut contrôler Genou sur le ventre avec la position de tête, la position intérieure et une pression orientée.",
+    "Garder le genou lourd et suivre la hip line pour ouvrir les soumissions.",
+    "Garder une base stable pour éviter d’être déséquilibré ou contré."
+  ],
+  "bottomPlayerGoals": [
+    "Le joueur du dessous veut survivre en Genou sur le ventre avec des cadres, du pummeling ou le bon angle.",
+    "Créer des cadres, ramener la jambe en garde ou créer espace pour hip escape.",
+    "Reconnaître les signaux de danger tôt au lieu d’attendre que la position se stabilise."
+  ],
+  "controlPoints": [
+    "Point de contrôle principal : Genou sur ventre, far hip grip et position de tête..",
+    "La tête, les mains, les hanches et les genoux doivent suivre la même direction de force.",
+    "La connexion coude-genou ou la ligne hanches-épaules détermine si la position reste vivante ou verrouillée."
+  ],
+  "escapePriorities": [
+    "Priorité de sortie : Protéger le cou et reconnecter coude-genou avant de pousser le genou..",
+    "Protéger le cou, le dos, la ligne du genou ou la ligne du bras avant de contrer.",
+    "Si la position intérieure est perdue, rétablir d’abord une couche défensive."
+  ],
+  "advancementOptions": [
+    {
+      "action": "Avancer vers mount ou prise de dos",
+      "nextPositionId": "mount-top",
+      "relatedSkillIds": [
+        "knee-on-belly-control",
+        "side-control-pin",
+        "mount-control"
+      ],
+      "why": "C’est la branche naturelle lorsque vous gagnez le point de contrôle principal et que l’adversaire est forcé de défendre."
+    }
+  ],
+  "dangerSignals": [
+    "Le menton ou le cou sort de la ligne sûre.",
+    "Le coude se sépare des côtes ou du genou.",
+    "La ligne des hanches est verrouillée pendant que la ligne des épaules est encore tirée.",
+    "Vous devez poser une main loin pour éviter de tomber."
+  ],
+  "relatedSkillIds": [
+    "knee-on-belly-control",
+    "side-control-pin",
+    "mount-control",
+    "kimura-system"
+  ],
+  "relatedConceptIds": [
+    "pressure-direction",
+    "control-before-submission",
+    "hip-line-shoulder-line"
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "id": "dilemmas-two-way-attacks",
+  "locale": "fr",
+  "name": "Dilemmes et attaques bidirectionnelles",
+  "description": "Créez deux menaces pour que l'adversaire doive défendre une ligne et exposer l'autre. Un dilemme oblige l’adversaire à choisir entre deux mauvaises options : votre travail consiste à présenter le choix et à capitaliser sur l’une ou l’autre réponse.",
+  "shortInstruction": "Reliez deux attaques complémentaires pour que défendre l’une ouvre l’autre. S'ils bloquent le balayage, acceptez la soumission. S'ils bloquent la soumission, terminez le balayage.",
+  "summary": "Un dilemme est une position dans laquelle la réponse défensive de l'adversaire à une attaque ouvre une seconde attaque tout aussi dangereuse. Les dilemmes les plus puissants lient un balayage et une soumission (par exemple, un balayage en ciseaux → kimura à partir de closed guard) ou une passe et une reprise (par exemple, passer sur le côté expose le dos). Le système vous apprend à enchaîner les attaques plutôt que de lancer des techniques uniques et de redémarrer en cas d'échec.",
+  "whyItWorks": [
+    "Le cerveau humain est limité à traiter une menace majeure à la fois : un véritable dilemme divise son attention et garantit un délai de réaction.",
+    "Enchaîner les attaques crée une pression croissante : même s’ils défendent parfaitement la première attaque, ils arrivent dans une pire position que là où ils ont commencé.",
+    "Les attaques bidirectionnelles exploitent les instincts défensifs de l'adversaire : sa réaction entraînée à une menace devient l'ouverture pour la seconde.",
+    "Les grapplers de plus haut niveau (Danaher, Gordon Ryan) construisent tout leur jeu autour de dilemmes plutôt que de techniques individuelles."
+  ],
+  "commonMistakes": [
+    "S'engager à 100 % dans une attaque et n'avoir aucun plan B en cas d'échec",
+    "Enchaîner des attaques sans rapport – la deuxième attaque doit être une conséquence naturelle de la défense de la première",
+    "Se déplacer trop rapidement dans la séquence : chaque attaque doit être une véritable menace, pas seulement un mouvement de transition.",
+    "Ne pas reconnaître le moment où l'adversaire a neutralisé les deux menaces : c'est le moment de réinitialiser, et non de forcer une troisième attaque à faible probabilité."
+  ],
+  "coachingCues": [
+    "Deux menaces, un choix pour eux",
+    "Balayage → soumission, soumission → balayage",
+    "S'ils arrêtent A, donnez-leur B",
+    "Chaque attaque prépare la suivante"
+  ],
+  "safetySummary": [
+    "Ne forcez pas un dilemme à grande vitesse : attaquez en chaîne à un rythme contrôlé pour éviter un traumatisme articulaire accidentel.",
+    "Lorsque vous attaquez avec une chaîne de soumission bidirectionnelle (par exemple, armbar à triangle), appliquez les soumissions progressivement et non de manière explosive.",
+    "Soyez conscient que les partenaires de formation peuvent exploiter la menace d'une soumission plutôt que la pression réelle - respectez la première pression."
+  ],
+  "keyCorrections": [
+    "Si l'adversaire défend facilement les deux attaques : votre dilemme n'est pas lié : les deux menaces doivent partager un lien structurel (par exemple, les deux attaquent le même bras, ou les deux exploitent la même répartition du poids)",
+    "Si vous passez de l'attaque A à l'attaque B mais perdez votre position : vous vous engagez trop pleinement dans A – gardez 20 % de conscience du résultat de la position même pendant l'attaque.",
+    "Si vous vous figez lorsque l'adversaire défend A : percez la transition de A à B jusqu'à ce qu'elle soit automatique — l'hésitation tue le dilemme"
+  ],
+  "systemLogic": {
+    "corePrinciple": "Un dilemme nécessite trois composants : (1) une paire d'attaques connectées, (2) une mécanique structurelle partagée et (3) un déclencheur de reconnaissance pour basculer entre elles.",
+    "decisionTree": [
+      {
+        "condition": "Application générale",
+        "action": "Un dilemme nécessite trois composants : (1) une paire d'attaques connectées, (2) une mécanique structurelle partagée et (3) un déclencheur de reconnaissance pour basculer entre elles."
+      },
+      {
+        "condition": "Composant 1 : Paire connectée",
+        "action": "les deux attaques doivent cibler des parties différentes du corps de l'adversaire ou des réponses défensives différentes. Exemples : balayage + soumission, starter + armbar, passe + reprise"
+      },
+      {
+        "condition": "Composante 2 : Mécanique partagée",
+        "action": "les deux attaques doivent découler de la même position structurelle. Si vous devez changer la position de tout votre corps pour changer d'attaque, ce n'est pas un dilemme : il s'agit de deux techniques distinctes."
+      },
+      {
+        "condition": "Composant 3 : Déclencheur de reconnaissance",
+        "action": "vous devez savoir exactement quand changer. Le déclencheur est presque toujours le même : au moment où ils engagent leur poids ou leurs mains pour défendre A, vous passez à B."
+      },
+      {
+        "condition": "Exemples de dilemmes courants",
+        "action": "closed guard : balayage en ciseaux (ils affichent la main → kimura) ou armbar (ils postent → triangle). mount : armbar (ils défendent le bras → étranglement croisé) ou étranglement croisé (ils défendent le cou → armbar). Dos : rear-naked choke (ils défendent le cou → arc et flèches) ou arc et flèches (ils défendent la hanche → RNC). Blocages de jambes : heel hook (ils défendent à l'intérieur → à l'extérieur de l'ashi) ou directement ankle lock (ils défendent heel hook → ankle lock)"
+      }
+    ]
+  },
+  "moneyDetails": [
+    "Les dilemmes sont le principal mécanisme de notation dans BJJ de haut niveau : la majorité des points et des soumissions proviennent d'attaques bidirectionnelles, et non de techniques uniques.",
+    "Un seul dilemme bien construit peut mettre fin à un match en quelques secondes en créant un problème insoluble pour l'adversaire.",
+    "Construire un jeu autour de dilemmes plutôt que de techniques individuelles est le chemin le plus rapide vers le niveau avancé BJJ",
+    "Les meilleurs grapplers du monde (Gordon Ryan, Mica Galvao, Tainan Dalpra) basent tout leur jeu sur 3-4 dilemmes à pourcentage élevé"
+  ],
+  "fixItFast": [
+    "Si votre dilemme ne fonctionne pas : vérifiez que les deux attaques partagent la même position structurelle. Si vous devez vous déplacer considérablement entre eux, ce n’est pas un dilemme",
+    "Si l'adversaire défend les deux attaques : ajoutez une troisième couche. Une chaîne de trois attaques depuis une position est presque impossible à défendre",
+    "Si vous continuez à perdre de la position pendant la transition : ralentissez. Le dilemme exige que chaque attaque soit une véritable menace – la précipitation ne rend aucune des attaques dangereuses."
+  ]
+}

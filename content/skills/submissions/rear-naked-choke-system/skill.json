@@ -1,0 +1,29 @@
+{
+  "id": "rear-naked-choke-system",
+  "slug": "rear-naked-choke-system",
+  "domain": "submission_systems",
+  "level": "intermediate",
+  "status": "published",
+  "tags": ["choke", "back-control", "submission", "no-gi", "strangle"],
+  "keywords": ["rear naked choke", "RNC", "back choke", "blood choke", "strangle"],
+  "techniqueFamily": "submissions",
+  "relatedSkillIds": ["back-control", "seatbelt-control", "hand-fighting"],
+  "relatedPositionIds": ["back-mount", "rear-side-control", "turtle"],
+  "relatedConceptIds": ["connection-before-control", "inside-position", "hierarchy-of-finishes"],
+  "relatedArchetypeIds": ["back-attack-specialist", "pressure-top-player"],
+  "prerequisiteSkillIds": ["back-control"],
+  "nextSkillIds": ["arm-triangle-mount"],
+  "sortOrder": 100,
+  "searchBoost": 1.2,
+  "version": 1,
+  "updatedAt": "2026-05-21",
+  "featureFlags": {
+    "hasMicroDetails": true,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "contentRefs": {
+    "videos": "videos.json"
+  }
+}

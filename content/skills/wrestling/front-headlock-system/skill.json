@@ -1,0 +1,54 @@
+{
+  "id": "front-headlock-system",
+  "domain": "wrestle_up_wrestling",
+  "level": "intermediate",
+  "name": "Front Headlock System",
+  "aliases": [],
+  "tags": [
+    "front-headlock",
+    "guillotine",
+    "darce",
+    "anaconda",
+    "go-behind"
+  ],
+  "keywords": [
+    "front headlock",
+    "guillotine",
+    "darce",
+    "anaconda",
+    "go-behind",
+    "snap down"
+  ],
+  "relatedSkills": [
+    {
+      "id": "guillotine-system",
+      "type": "recommended"
+    },
+    {
+      "id": "sprawl-go-behind",
+      "type": "recommended"
+    },
+    {
+      "id": "back-control",
+      "type": "recommended"
+    }
+  ],
+  "prerequisiteSkillIds": [
+    "snapdown-front-headlock",
+    "hand-fighting"
+  ],
+  "relatedPositions": [],
+  "relatedConcepts": [],
+  "archetypeIds": [],
+  "trainingMethodIds": [],
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "updatedAt": "2026-05-21T00:24:30.765Z"
+}

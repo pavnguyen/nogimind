@@ -1,0 +1,72 @@
+{
+  "id": "positional-hierarchy",
+  "locale": "fr",
+  "name": "Hiérarchie positionnelle",
+  "description": "Une carte prioritaire pour savoir quand survivre, s'échapper, balayer, passer, épingler ou terminer. La hiérarchie positionnelle est le cadre de prise de décision qui sépare les luttes chaotiques des BJJ systématiques.",
+  "shortInstruction": "Classement du pire au meilleur : dos pris → mounted → side control → genou sur le ventre → guard bas → half guard haut → side control haut → mount → dos pris (vous en haut). Sachez toujours où vous vous situez dans la hiérarchie et quel est votre objectif.",
+  "summary": "La hiérarchie positionnelle classe les positions de lutte de la plus vulnérable à la plus dominante. Le système dicte votre objectif tactique à chaque position : si vous êtes en position basse (pire), votre objectif est de vous échapper. Si vous êtes en première position (meilleure), votre objectif est d’avancer ou de vous soumettre. Chaque décision que vous prenez doit être filtrée à travers cette hiérarchie – ne tentez pas de soumettre une proposition à partir d'un poste où vous n'avez pas de position dominante en premier.",
+  "whyItWorks": [
+    "La hiérarchie vous donne un objectif clair à chaque instant — il n'y a aucune confusion sur ce qu'il faut faire ensuite",
+    "Les tentatives de soumission depuis des positions inférieures contre des adversaires expérimentés échouent à un taux élevé – la hiérarchie vous indique quand les soumissions sont viables et quand donner la priorité à la fuite.",
+    "Comprendre la hiérarchie vous évite de gaspiller de l'énergie sur des techniques à faible pourcentage à partir de mauvaises positions",
+    "La hiérarchie est universelle dans tous les sports de grappling (BJJ, lutte, judo, MMA) — c'est le langage commun du contrôle de position"
+  ],
+  "commonMistakes": [
+    "Tentative de soumissions à partir du guard bas alors que vous devriez balayer ou vous échapper en premier",
+    "Essayer de passer guard lorsque vous êtes en half guard bas — votre objectif en half guard bas est de vous échapper au neutre ou guard, de ne pas passer",
+    "Accepter une pire position parce que vous essayez une soumission à faible pourcentage (par exemple, abandonner mount pour essayer un kimura à partir du bas)",
+    "Ne pas reconnaître quand la hiérarchie change : une transition qui vous fait monter d'un niveau est plus précieuse qu'une tentative de soumission qui échouera probablement."
+  ],
+  "coachingCues": [
+    "Connaissez votre position, connaissez votre objectif",
+    "Bas = échapper, Haut = avancer",
+    "Ne chassez pas les soumissions provenant de mauvaises positions",
+    "Un niveau supérieur est toujours une victoire"
+  ],
+  "safetySummary": [
+    "Ne sacrifiez pas votre position pour une soumission à faible pourcentage : les inversions de position peuvent causer des blessures lorsque les deux grapplers se battent pour prendre le contrôle.",
+    "Accepter une pire position (par exemple, abandonner side control) pour tenter une soumission présente un risque de blessure plus élevé qu'il n'en vaut la peine à l'entraînement.",
+    "Lorsque vous êtes dans une position clairement inférieure, donnez la priorité à la respiration et à la survie avant de tenter de vous échapper : les mouvements de panique augmentent le risque de blessure."
+  ],
+  "systemLogic": {
+    "corePrinciple": "La hiérarchie positionnelle classe les positions de lutte de la plus vulnérable (reprise) à la plus dominante (soumission). Votre objectif tactique à chaque position est déterminé par votre place dans la hiérarchie : en dessous de l'adversaire = s'échapper, au-dessus de l'adversaire = avancer.",
+    "decisionTree": [
+      {
+        "condition": "Vous êtes en bas side control, mount ou en arrière",
+        "action": "Votre objectif est de vous échapper de la hiérarchie. N'essayez pas de soumissions à partir de ces positions - concentrez-vous sur la récupération de guard ou l'inversion de position."
+      },
+      {
+        "condition": "Vous êtes en bas guard ou half guard",
+        "action": "Votre objectif principal est de balayer ou de vous échapper vers une position neutre/haute. Les soumissions sont à un pourcentage inférieur à partir d’ici – donnez la priorité à l’avancement positionnel en premier."
+      },
+      {
+        "condition": "Vous êtes en première position (side control, mount, retour)",
+        "action": "Votre objectif est d’AVANCER vers une position plus dominante ou de vous soumettre. Stabilisez la position avant d’attaquer – ne précipitez pas la tentative de soumission."
+      },
+      {
+        "condition": "Vous continuez à perdre votre position en essayant de vous soumettre",
+        "action": "Vous sautez des niveaux dans la hiérarchie. Revenez à assurer la domination positionnelle avant d’attaquer. Un niveau supérieur est toujours une victoire."
+      },
+      {
+        "condition": "Vous restez coincé à un niveau hiérarchique",
+        "action": "Il vous manque des techniques d'évasion ou de transition pour ce niveau spécifique. Effectuez 1 à 2 transitions à pourcentage élevé à partir de votre position bloquée la plus courante."
+      }
+    ],
+    "exitStrategies": [
+      "Avancer d'un niveau (par exemple, side control Bottom → half guard Bottom) est une victoire tactique même sans marquer de points - plusieurs petites avancées se combinent pour marquer des positions.",
+      "Si l'adversaire opère en dehors de la hiérarchie traditionnelle (spécialiste du verrouillage des jambes, tireur guard), reconnaissez qu'il joue à un jeu différent et ajustez votre stratégie en conséquence.",
+      "Après avoir avancé d'un niveau, passez 2 à 3 secondes à vous stabiliser avant de passer au niveau suivant pour éviter les inversions."
+    ]
+  },
+  "moneyDetails": [
+    "La hiérarchie positionnelle est le cadre conceptuel le plus important de BJJ : elle vous indique quoi faire à chaque instant du match.",
+    "La compétition BJJ se gagne en progressant dans la hiérarchie plus rapidement et de manière plus cohérente que l'adversaire",
+    "Comprendre la hiérarchie évite l'erreur la plus courante dans BJJ : tenter des soumissions avant d'établir le contrôle de position.",
+    "La hiérarchie est la raison pour laquelle le Gracie jiu-jitsu met l'accent sur la domination positionnelle avant les soumissions – elle a été testée depuis un siècle"
+  ],
+  "fixItFast": [
+    "Si vous êtes en mauvaise position et que vous ne savez pas quoi faire : vérifiez la hiérarchie. Vous êtes en bas side control — votre objectif est side control l'évasion, pas une soumission",
+    "Si vous occupez la première place et ne pouvez pas soumettre : avancez dans la hiérarchie. side control → mount → retour mount crée une probabilité de soumission exponentiellement plus élevée",
+    "Si vous continuez à faire marche arrière : vous sautez l'étape de la « position sécurisée ». Après avoir avancé d'un niveau, passez 2 à 3 secondes à vous stabiliser avant de passer au niveau suivant."
+  ]
+}

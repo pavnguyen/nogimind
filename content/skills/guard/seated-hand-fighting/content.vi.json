@@ -1,0 +1,73 @@
+{
+  "id": "seated-hand-fighting",
+  "locale": "vi",
+  "name": "Ngồi guard Đấu tay đôi",
+  "description": "Giành chiến thắng trong cuộc trao đổi đánh tay từ người ngồi guard bằng cách sử dụng dây buộc cổ áo, đánh vào vị trí bên trong, chặn tay cầm và tạo góc trước khi người qua đường áp sát ngực vào ngực.",
+  "shortInstruction": "Vị trí bên trong thắng guard — đòn đánh trong underhook giây, chặn tay cầm, tạo góc.",
+  "summary": "Ngồi đánh nhau guard là tuyến phòng thủ đầu tiên trong open guard. Trước khi bất kỳ việc giữ hoặc quét guard nào có thể xảy ra, bạn phải thắng trận đấu tay đôi. Điều này có nghĩa là kiểm soát bàn tay và cổ tay của đối phương để họ không thể nắm chặt chân, cổ áo hoặc thắt lưng của bạn. Các nguyên tắc chính là: ở trong cánh tay của họ (khuỷu tay sát cơ thể bạn, bàn tay ở giữa hai cánh tay của họ), loại bỏ bất kỳ lực bám nào tiếp đất và sử dụng vị trí đầu của bạn để chặn dây buộc cổ áo của họ.",
+  "whyItWorks": [
+    "Chiến thắng trong cuộc đấu tay đôi ngăn cản họ thiết lập các thế bám mà họ cần phải vượt qua (tay nắm quần, dây buộc cổ, tay nắm thắt lưng).",
+    "Vị trí bên trong (tay của bạn ở giữa hai cánh tay của họ) mang lại cho bạn lợi thế về mặt cơ học trong mọi cuộc đấu tay đôi.",
+    "Mỗi lần cầm mà bạn tháo ra là một giây sự chú ý mà bạn kiểm soát — thời gian bạn sử dụng để thiết lập guard của mình.",
+    "Nguyên tắc Danaher: guard bắt đầu bằng ván bài — nếu bạn thua trận đánh tay, bạn sẽ thua guard."
+  ],
+  "commonMistakes": [
+    "Để khuỷu tay của bạn xòe rộng - điều này sẽ mở ra vị trí bên trong cho bàn tay của họ.",
+    "Đuổi theo bàn tay của họ thay vì kiểm soát trung tâm - kiểm soát đường trung tâm và các tay sẽ theo sau.",
+    "Thả tay xuống thảm - tay đặt trên thảm có nghĩa là chúng điều khiển đầu bạn.",
+    "Chiến đấu bằng cánh tay thẳng - cánh tay cong sẽ mạnh hơn và phản ứng nhanh hơn."
+  ],
+  "coachingCues": [
+    "Khuỷu tay vào trong, bàn tay đặt giữa hai cánh tay.",
+    "Giết mọi sự kìm kẹp trước khi nó lắng xuống.",
+    "Đầu ở trong ngực họ, không phải trong tay họ.",
+    "Vị trí bên trong luôn thắng."
+  ],
+  "safetySummary": [
+    "Giữ cằm và ngẩng cao đầu để ngăn chặn guillotine mục trong trận đấu tay đôi.",
+    "Không mở rộng cánh tay của bạn hoàn toàn khi chiến đấu với các tay cầm — điều này khiến khuỷu tay của bạn lộ ra kimuras.",
+    "Khi họ nắm lấy cổ áo của bạn, hãy tước phần tay cầm bằng cách xoay cổ tay của bạn và đẩy ngón tay cái của họ ra."
+  ],
+  "systemLogic": {
+    "corePrinciple": "guard bắt đầu bằng ván bài — chiến thắng trong trận đánh tay từ người ngồi guard là tuyến phòng thủ đầu tiên trước khi giữ lại guard. Vị trí bên trong (tay đặt giữa hai cánh tay) mang lại lợi thế về mặt cơ học; mỗi lần cầm nắm của bạn là một giây sự chú ý mà bạn kiểm soát.",
+    "decisionTree": [
+      {
+        "condition": "Đối thủ thiết lập thế kẹp quần",
+        "action": "Bạn đã thua trong cuộc chiến tay đôi ở bên đó - ngay lập tức đưa tay của bạn vào trong và tước tay cầm bằng cách bẻ tay cầm C trước khi họ đảm bảo quyền kiểm soát chân."
+      },
+      {
+        "condition": "Vòng cổ của đối phương trói buộc bạn",
+        "action": "Đầu của bạn quá cao hoặc quá thấp - hãy dán đầu bạn vào ngực họ. Kẹp tay họ vào giữa đầu và vai của bạn, sau đó lột nó bằng cả hai tay."
+      },
+      {
+        "condition": "Đối thủ nhận được underhook",
+        "action": "Khuỷu tay của bạn loe ra - hãy ôm chặt cả hai khuỷu tay vào xương sườn. Thả khuỷu tay xuống thảm, quay sang bên đó và ấn đầu gối vào trong."
+      },
+      {
+        "condition": "Đối thủ chạm vào chân bạn",
+        "action": "Bơi tay của bạn lên tay họ và ghim cổ tay họ vào tấm thảm. Giữ chặt khuỷu tay của bạn để ngăn cánh tay của họ trượt qua."
+      },
+      {
+        "condition": "Đối thủ chiếm ưu thế trong cuộc giao tranh tay và nắm được nhiều thế cầm",
+        "action": "Thả người nằm ngửa guard hoặc rùa để đặt lại hoạt động đính hôn. Đừng ngồi yên guard nếu bạn đã thua trong trận đấu tay đôi — hãy thay đổi vị trí để đặt lại."
+      }
+    ],
+    "exitStrategies": [
+      "Nếu họ nắm chặt quần, bạn sẽ thua trong cuộc chiến tay đôi ở bên đó - ngay lập tức đưa tay của bạn vào trong và tước nó trước khi họ kiểm soát được chân.",
+      "Nếu họ chiếm ưu thế trong cuộc đấu tay đôi, hãy thả người xuống guard hoặc rùa để thiết lập lại giao tranh.",
+      "Sử dụng tay cầm hình chữ C trên cổ tay của họ để kiểm soát vị trí bàn tay và ngăn ngừa việc hình thành tay cầm."
+    ]
+  },
+  "moneyDetails": [
+    "Luôn giữ khuỷu tay của bạn thật chặt với xương sườn - khuỷu tay loe ra giúp chúng có thể tiếp cận bên trong.",
+    "Sử dụng tay cầm hình chữ C trên cổ tay của họ để kiểm soát vị trí bàn tay và ngăn chặn việc hình thành tay cầm.",
+    "Khi họ với tới chân bạn, hãy bơi tay bạn qua tay họ và ghim cổ tay họ vào tấm thảm.",
+    "Đầu của bạn phải ở trong ngực họ chứ không phải trong tay họ - vị trí đầu sẽ kiểm soát các lựa chọn cà vạt cổ áo của họ."
+  ],
+  "nextStep": "Sau khi chiến đấu bằng tay trong tư thế ngồi, hãy học cách giữ tư thế guard trong tư thế ngồi để kết hợp chiến đấu bằng tay với khung bàn chân và khả năng di chuyển của chân.",
+  "fixItFast": [
+    "Họ cứ túm lấy chân bạn à? Bơi tay của bạn vào bên trong khuỷu tay của họ và đẩy cánh tay của họ ra ngoài.",
+    "Họ trói cổ bạn à? Kẹp tay họ vào giữa đầu và vai của bạn, sau đó lột nó bằng cả hai tay.",
+    "Cánh tay của bạn đang mỏi dần? Bạn đang đẩy quá nhiều - hãy sử dụng khung và góc chứ không phải sức mạnh."
+  ]
+}

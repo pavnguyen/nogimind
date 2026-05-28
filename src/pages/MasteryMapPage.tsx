@@ -1,3 +1,4 @@
+import { useMemo } from 'react'
 import { Link } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import { Badge } from '../components/common/Badge'
@@ -6,16 +7,17 @@ import { SectionCard } from '../components/common/SectionCard'
 import { Shield } from 'lucide-react'
 import { masteryStages } from '../data/masteryStages'
 import { useConceptsQuery } from '../queries/conceptQueries'
-import { useSkillsQuery } from '../queries/skillQueries'
+import { useManifestQuery } from '../queries/contentQueries'
 import { useSettingsStore } from '../stores/useSettingsStore'
 import { getLocalizedArray, getLocalizedText } from '../utils/localization'
 
 export default function MasteryMapPage() {
   const { t } = useTranslation()
   const lang = useSettingsStore((state) => state.language)
-  const skills = useSkillsQuery().data ?? []
+  const manifestQuery = useManifestQuery(lang)
+  const manifest = useMemo(() => manifestQuery.data ?? [], [manifestQuery.data])
   const concepts = useConceptsQuery().data ?? []
-  const skillsById = new Map(skills.map((skill) => [skill.id, skill]))
+  const skillsById = useMemo(() => new Map(manifest.map((s) => [s.id, s])), [manifest])
   const conceptsById = new Map(concepts.map((concept) => [concept.id, concept]))
 
   return (
@@ -58,10 +60,9 @@ export default function MasteryMapPage() {
                 </div>
                 <div>
                   <p className="text-sm font-semibold text-white">{t('common.skills')}</p>
-                  <div className="mt-2 flex flex-wrap gap-2">
-                    {stage.keySkillIds.map((id) => skillsById.get(id)).filter(Boolean).map((skill) => (
+                  <div className="mt-2 flex flex-wrap gap-2">                      {stage.keySkillIds.map((id) => skillsById.get(id)).filter(Boolean).map((skill) => (
                       <Link key={skill?.id} to={`/skills/${skill?.id}`} className="rounded-md border border-white/10 px-2 py-1 text-xs text-cyan-200 hover:bg-white/10">
-                        {getLocalizedText(skill?.title, lang)}
+                        {skill?.name}
                       </Link>
                     ))}
                   </div>

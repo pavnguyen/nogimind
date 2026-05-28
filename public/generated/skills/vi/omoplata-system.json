@@ -1,0 +1,121 @@
+{
+  "id": "omoplata-system",
+  "domain": "submission_systems",
+  "level": "advanced",
+  "status": "draft",
+  "name": "omoplata Hệ thống",
+  "aliases": [],
+  "tags": [
+    "submission",
+    "shoulder-lock-safety",
+    "guard"
+  ],
+  "keywords": [
+    "omoplata",
+    "shoulder isolation",
+    "hip angle",
+    "submission safety"
+  ],
+  "relatedSkills": [
+    {
+      "id": "triangle-system",
+      "type": "recommended"
+    },
+    {
+      "id": "choi-bar",
+      "type": "recommended"
+    },
+    {
+      "id": "tarikoplata",
+      "type": "recommended"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "clamp-guard-control",
+    "triangle-system"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [
+    "Nếu bạn không thể hoàn thành, có nghĩa là hông của bạn chưa đủ gần vai họ - hãy đưa hông của bạn lại gần hơn.",
+    "Nếu họ tư thế ra ngoài, khả năng kiểm soát chân của bạn quá lỏng lẻo - hãy kẹp chân bạn chặt hơn quanh cánh tay của họ.",
+    "Nếu họ xếp chồng lên nhau, hãy thả omoplata và đẩy hông của họ ra xa — đừng chống lại chồng."
+  ],
+  "version": 1,
+  "updatedAt": "2026-05-21T00:24:30.744Z",
+  "contentRefs": {
+    "videos": "videos.json",
+    "qualityChecklist": "qualityChecklist"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": true,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "vi",
+  "description": "Biến kẹp vai thành khóa vai bằng cách sử dụng góc hông, chuyển động tư thế và điều khiển cổ tay — omoplata tạo áp lực quay lên vai.",
+  "shortInstruction": "Giữ cánh tay, kẹp bằng chân, xoay hông, khóa vai theo sau - omoplata là khóa vai có hỗ trợ bằng chân.",
+  "summary": "omoplata là một trong những khóa vai mạnh mẽ nhất từ ​​guard. Nó sử dụng chân của bạn để giữ cánh tay của họ và xoay hông của bạn để tạo áp lực phục tùng. Không giống như kimura (sử dụng cả hai tay), omoplata sử dụng một chân làm cần gạt và hông của bạn làm động cơ. Hệ thống omoplata bao gồm quét (khi họ vào tư thế phòng thủ) và lùi (khi họ lăn người để trốn thoát). Nó là một hệ thống tấn công hoàn chỉnh từ guard.",
+  "whyItWorks": [
+    "Sử dụng chân làm đòn bẩy mang lại cho bạn lợi thế cơ học mà sức mạnh thuần túy của cánh tay không thể sánh bằng.",
+    "omoplata tạo ra tình huống khó xử: chạm vào khóa vai, bị cuốn hoặc bỏ cuộc.",
+    "Nó hoạt động ở những vị trí mà kimura khó thực hiện (closed guard, half guard).",
+    "Nguyên tắc Danaher: omoplata là một sự đệ trình 'quan điểm' — nếu quan điểm đúng thì việc đệ trình cần có lực lượng tối thiểu."
+  ],
+  "commonMistakes": [
+    "Không kiểm soát tư thế của đối thủ trước khi tấn công - họ có thể tạo tư thế và xếp chồng cho bạn.",
+    "Để cánh tay bị mắc kẹt trượt ra khỏi dưới chân - chân phải kẹp cánh tay vào cơ thể bạn.",
+    "Xoay sai hướng — vòng quay omoplata cách xa chúng chứ không hướng về phía chúng.",
+    "Ngả sang một bên để kết thúc thay vì xoay người - kết thúc là động tác xoay hông chứ không phải ngã sang bên."
+  ],
+  "coachingCues": [
+    "Bẫy tay, kẹp chân, xoay người.",
+    "Nếu họ tạo tư thế, hãy quét. Nếu họ lăn, hãy lùi lại.",
+    "Chân là đòn bẩy, hông là động cơ, vai là mục tiêu.",
+    "Xoay đi, không sang một bên."
+  ],
+  "safetySummary": [
+    "omoplata tác dụng áp lực xoay lên vai — tác động từ từ và tôn trọng lực nhấn.",
+    "Không xoay vai nếu đối thủ đã có vấn đề về vai từ trước.",
+    "Hãy cẩn thận khi đối thủ lăn để thoát khỏi omoplata — chúng có thể đáp xuống mặt hoặc cổ của bạn."
+  ],
+  "systemLogic": {
+    "corePrinciple": "guard: giữ cánh tay của họ bằng chân của bạn (qua vai họ) → kẹp cánh tay vào cơ thể bạn → xoay hông của bạn ra xa → kết thúc khóa vai.",
+    "decisionTree": [
+      {
+        "condition": "Sử dụng phản ứng 1",
+        "action": "Họ vào tư thế phòng thủ → ngồi dậy quét → đáp xuống mount hoặc side control."
+      },
+      {
+        "condition": "Sử dụng phản ứng 2",
+        "action": "Họ lăn để trốn thoát → đuổi theo cú lăn của mình → lùi lại."
+      },
+      {
+        "condition": "Chuỗi hệ thống omoplata: gửi",
+        "action": "quét → lấy lại."
+      }
+    ],
+    "exitStrategies": []
+  },
+  "moneyDetails": [
+    "Bẫy cánh tay của họ bằng cách vung chân cùng bên của bạn qua vai họ - đầu gối của bạn phải ở nách họ.",
+    "Kẹp chân của bạn vào ngực của chính bạn để ghim cánh tay của họ - một chân lỏng lẻo sẽ giúp họ trốn thoát.",
+    "Kiểm soát cánh tay còn lại của họ bằng tay của bạn để ngăn họ đăng bài trong quá trình quay.",
+    "Xoay hông của bạn ra xa chúng - động tác xoay sẽ áp dụng khóa vai mà không cần dùng sức của cánh tay."
+  ],
+  "nextStep": "Sau hệ thống omoplata, hãy tìm hiểu hệ thống kimura và baratoplata để hoàn thiện kho vũ khí tấn công vai.",
+  "fixItFast": [
+    "Cánh tay cứ trượt? Kẹp chân chặt hơn vào ngực.",
+    "Không thể xoay? Hông của bạn quá xa - hãy kéo hông của bạn lại gần vai họ.",
+    "Họ đứng dậy? Thả omoplata và kéo chúng vào cuộc quét."
+  ]
+}

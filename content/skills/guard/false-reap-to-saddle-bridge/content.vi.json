@@ -1,0 +1,61 @@
+{
+  "id": "false-reap-to-saddle-bridge",
+  "locale": "vi",
+  "name": "Sai Reap tới cầu saddle",
+  "description": "Bắt cầu từ sai lầm vào saddle (inside sankaku) khi đối thủ tách hông hoặc lùi lại — sử dụng chuyển động của họ để xoay vào tư thế vướng chân.",
+  "shortInstruction": "Họ tách hông ra hay lùi lại? Bắt hông của bạn qua và khóa saddle — lối thoát của họ trở thành mục tiêu của bạn.",
+  "summary": "Cầu gặt sai đến cầu saddle là chuỗi tấn công chính từ vị trí gặt sai. Khi đối phương cảm thấy chân của mình bị kiểm soát và cố gắng giải phóng bằng cách lùi lại hoặc tách hông ra, họ sẽ tạo ra góc xoay chính xác mà bạn cần để vung chân trên qua cơ thể của họ và khóa saddle (inside sankaku). Lối thoát của họ tạo sức mạnh cho mục nhập của bạn - đây là nguyên tắc Danaher sử dụng phản ứng của đối thủ làm thiết lập của bạn.",
+  "whyItWorks": [
+    "Khi họ tách hông ra để thoát khỏi cú gặt giả, chân của bạn sẽ tự nhiên vung qua cơ thể họ vào vị trí saddle.",
+    "Chuyển động bước của chúng dồn trọng lượng của chúng lên chân móc của bạn, mang lại cho bạn lợi thế cơ học cho cây cầu.",
+    "Quá trình chuyển đổi không yêu cầu tạo không gian - chuyển động của chúng tạo ra tất cả không gian bạn cần.",
+    "Từ saddle, bạn có quyền truy cập trực tiếp vào heel hook, giữ ngón chân và lùi lại."
+  ],
+  "commonMistakes": [
+    "Cố gắng chuyển sang saddle trước khi đối thủ phản ứng — bạn cần chuyển động của họ để tạo góc.",
+    "Mất khả năng kiểm soát hông ở xa khi qua cầu - họ sẽ lao ra cửa sau.",
+    "Không duy trì móc khi bạn bắc cầu - chân móc của bạn phải quấn sâu hơn chứ không được thả ra.",
+    "Không khóa chân bạn vào saddle — saddle lỏng lẻo sẽ khiến chân bạn thoát ra ngoài."
+  ],
+  "coachingCues": [
+    "Đợi bước đi của họ - cây cầu là một phản ứng.",
+    "Móc sâu, cầu cứng, khóa chặt.",
+    "Cảm nhận sự tách rời của hông - đó là tác nhân kích hoạt của bạn.",
+    "saddle hoặc quay lại — hai tùy chọn từ một cây cầu."
+  ],
+  "safetySummary": [
+    "Đừng bắt cầu một cách bùng nổ nếu bạn không kiểm soát được chân xa của họ - họ có thể đá tự do và duỗi đầu gối của chính bạn.",
+    "Khi khóa saddle, hãy giữ chân bị kẹt ở vị trí an toàn — không xoay heel hook cho đến khi saddle được khóa hoàn toàn.",
+    "Nếu họ xếp bạn trong cầu, hãy thả ra và vào lại - đừng để họ ấn đầu bạn vào thảm."
+  ],
+  "keyCorrections": [
+    "Nếu bạn không thể khóa saddle thì hông của họ vẫn quá gần — hãy tạo sự tách biệt bằng cách đá chân móc của bạn sâu hơn.",
+    "Nếu chúng quay ra ngoài, bạn sẽ mất khả năng kiểm soát hông ở xa - hãy thiết lập lại cách cầm hông trước lần thử tiếp theo.",
+    "Nếu họ làm phẳng bạn trong saddle thì góc của bạn sai — đưa hông của bạn hướng lên về phía đường vai của họ."
+  ],
+  "systemLogic": {
+    "corePrinciple": "Thiết lập sai lầm: đối thủ tách hông hoặc lùi lại → bắt hông của bạn qua → khóa saddle → tấn công heel hook hoặc lùi lại.",
+    "decisionTree": [
+      {
+        "condition": "họ không tách hông ra",
+        "action": "Thay vào đó hãy tấn công kimura từ việc gặt hái sai lầm — chúng phải phản ứng lại một mối đe dọa, tạo ra mối đe dọa khác."
+      },
+      {
+        "condition": "Từ saddle",
+        "action": "bên trong heel hook, giữ ngón chân hoặc lùi lại khi lăn."
+      }
+    ]
+  },
+  "moneyDetails": [
+    "Giữ móc của bạn sâu trên đùi họ trong suốt cây cầu - móc nông sẽ mất kết nối trong quá trình xoay.",
+    "Khi bạn bắc cầu, hãy dùng tay kiểm soát hông xa của chúng để ngăn chúng quay đi.",
+    "Khóa saddle bằng cách bắt chéo chân của bạn ra sau lưng họ — bàn chân trên móc vào dưới mắt cá chân dưới của bạn.",
+    "Sau khi khóa saddle, hãy đưa hông về phía vai của họ để thắt chặt sự vướng víu trước khi tấn công."
+  ],
+  "nextStep": "Sau khi thành thạo mục saddle, hãy tìm hiểu động tác kết thúc bên trong heel hook và động tác lùi từ saddle để hoàn thiện hệ thống tấn công bằng chân.",
+  "fixItFast": [
+    "saddle không khóa? Cú móc của bạn quá nông - hãy vào lại sâu hơn ở đùi.",
+    "Họ tiếp tục quay ra ngoài? Khả năng kiểm soát hông xa của bạn yếu - hãy nắm chặt hông hoặc thắt lưng của họ.",
+    "Họ san phẳng bạn? Nhả saddle và đặt lại về vị trí guard — không chiến đấu ở tư thế nằm phẳng."
+  ]
+}

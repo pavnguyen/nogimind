@@ -1,0 +1,56 @@
+{
+  "id": "mount-bottom",
+  "locale": "en",
+  "title": "Mount Bottom",
+  "category": "pin",
+  "status": "critical",
+  "description": "The bottom player is mounted and must protect the neck and arms while recovering the elbow-knee connection before high mount develops.",
+  "topPlayerGoals": [
+    "The top player wants to control Mount Bottom through head position, inside position, and directed pressure.",
+    "The top player wants to isolate the elbow and climb to high mount.",
+    "Keep a stable base so you are not off-balanced or countered."
+  ],
+  "bottomPlayerGoals": [
+    "The bottom player wants to survive Mount Bottom with frames, pummeling, or the right angle.",
+    "Bridge or use a knee-elbow escape without exposing the back or neck.",
+    "Recognize danger signals early instead of waiting for the position to settle."
+  ],
+  "controlPoints": [
+    "Main control point: Tight elbows, active knees, and a safe chin..",
+    "Head, hands, hips, and knees should share the same force direction.",
+    "The elbow-knee connection or hip-shoulder line determines whether the position is still alive or already locked."
+  ],
+  "escapePriorities": [
+    "Escape priority: Do not push the opponent’s chest with straight arms..",
+    "Protect the neck, back, knee line, or arm line before countering.",
+    "If inside position is lost, reset one defensive layer first."
+  ],
+  "advancementOptions": [
+    {
+      "action": "Recover half guard or quarter guard",
+      "nextPositionId": "half-guard-bottom",
+      "relatedSkillIds": [
+        "mount-survival",
+        "mount-escape",
+        "half-guard-knee-shield"
+      ],
+      "why": "This is the natural branch when you win the main control point and the opponent is forced to defend."
+    }
+  ],
+  "dangerSignals": [
+    "The chin or neck is pulled out of a safe line.",
+    "The elbow separates from the ribs or knee.",
+    "The hip line is locked while the shoulder line is still being pulled.",
+    "You need a long hand post to avoid falling."
+  ],
+  "relatedSkillIds": [
+    "mount-survival",
+    "mount-escape",
+    "half-guard-knee-shield"
+  ],
+  "relatedConceptIds": [
+    "early-vs-late-defense",
+    "elbow-knee-connection",
+    "frames"
+  ]
+}

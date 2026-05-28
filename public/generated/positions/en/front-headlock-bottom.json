@@ -1,0 +1,56 @@
+{
+  "id": "front-headlock-bottom",
+  "locale": "en",
+  "title": "Front Headlock Bottom",
+  "category": "front_headlock",
+  "status": "dangerous",
+  "description": "The bottom player’s head and neck are pulled down, so they must protect the airway and rebuild their base.",
+  "topPlayerGoals": [
+    "The top player wants to control Front Headlock Bottom through head position, inside position, and directed pressure.",
+    "The attacker wants a deep chin strap, a go-behind, or a guillotine.",
+    "Keep a stable base so you are not off-balanced or countered."
+  ],
+  "bottomPlayerGoals": [
+    "The bottom player wants to survive Front Headlock Bottom with frames, pummeling, or the right angle.",
+    "Tuck the chin, control the wrist, keep the knees under the hips, and circle safely.",
+    "Recognize danger signals early instead of waiting for the position to settle."
+  ],
+  "controlPoints": [
+    "Main control point: Chin, choking wrist, and knees under the hips..",
+    "Head, hands, hips, and knees should share the same force direction.",
+    "The elbow-knee connection or hip-shoulder line determines whether the position is still alive or already locked."
+  ],
+  "escapePriorities": [
+    "Escape priority: Do not turn your neck into pressure; reset if the danger increases..",
+    "Protect the neck, back, knee line, or arm line before countering.",
+    "If inside position is lost, reset one defensive layer first."
+  ],
+  "advancementOptions": [
+    {
+      "action": "Peel the wrist and circle out",
+      "nextPositionId": "neutral-standing",
+      "relatedSkillIds": [
+        "front-headlock-defense",
+        "hand-fighting",
+        "technical-stand-up"
+      ],
+      "why": "This is the natural branch when you win the main control point and the opponent is forced to defend."
+    }
+  ],
+  "dangerSignals": [
+    "The chin or neck is pulled out of a safe line.",
+    "The elbow separates from the ribs or knee.",
+    "The hip line is locked while the shoulder line is still being pulled.",
+    "You need a long hand post to avoid falling."
+  ],
+  "relatedSkillIds": [
+    "front-headlock-defense",
+    "hand-fighting",
+    "technical-stand-up"
+  ],
+  "relatedConceptIds": [
+    "early-vs-late-defense",
+    "head-position",
+    "posts"
+  ]
+}

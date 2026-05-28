@@ -1,0 +1,61 @@
+{
+  "id": "darce-choke",
+  "locale": "fr",
+  "name": "d'arce Étrangleur",
+  "description": "Un bras triangle s'étouffe à partir de front headlock ou lorsque l'adversaire se retourne - verrouillez l'épaule et le cou ensemble et terminez par une pression sur l'épaule plutôt qu'une pression sur le bras.",
+  "shortInstruction": "Enfilez profondément le bras éloigné, verrouillez le chiffre quatre, laissez tomber votre poids – le d'arce se termine par la gravité, pas par le muscle.",
+  "summary": "Le starter d'arce est l'une des trois finitions principales front headlock (avec le anaconda et guillotine). La principale différence avec le anaconda est que votre bras d'étouffement s'enfile du côté éloigné (le bras éloigné passe sous le cou et par-dessus le bras proche). Le d'arce est particulièrement efficace contre les adversaires qui se transforment en vous (contrairement au anaconda, qui fonctionne lorsqu'ils se détournent). La finition vient du fait de laisser tomber votre poids sur leur épaule et leur cou coincés.",
+  "whyItWorks": [
+    "Le d'arce emprisonne à la fois leur bras et leur cou – la même mécanique de bras triangle que le anaconda, mais du côté opposé.",
+    "C'est le contre parfait lorsque l'adversaire se transforme en vous à partir de front headlock.",
+    "La gravité fait le travail : perdre du poids crée plus de pression que serrer avec les bras.",
+    "Principe de Danaher : le d'arce est un étranglement de « position avant soumission » — si la position est correcte, l'étranglement est inévitable."
+  ],
+  "commonMistakes": [
+    "Ne pas enfiler le bras d'étouffement assez profondément - un d'arce peu profond est facilement défendu.",
+    "Verrouiller le chiffre quatre au poignet plutôt qu'au coude - un verrou de poignet leur donne de la place pour la posture.",
+    "Presser horizontalement au lieu de laisser tomber le poids verticalement – ​​le d'arce est un starter à pression vertical.",
+    "Laissez-les vous aplatir sur le dos – gardez votre poids sur le côté ou sur la poitrine."
+  ],
+  "coachingCues": [
+    "Enfilez profondément, verrouillez au niveau du coude, laissez tomber le marteau.",
+    "Chute de poids, pas compression des bras – la gravité est plus forte que les biceps.",
+    "S'ils se rendent, d'arce eux. S'ils se révèlent, anaconda.",
+    "L’épaule contre l’oreille – c’est le point de pression."
+  ],
+  "safetySummary": [
+    "Appliquez progressivement une pression sur l'épaule : le d'arce comprime à la fois le cou et l'épaule.",
+    "Ne tournez pas la tête de l'adversaire pour forcer l'étranglement.",
+    "Tapez tôt sur la compression du cou - un d'arce peut blesser la colonne cervicale s'il est appliqué de manière explosive."
+  ],
+  "keyCorrections": [
+    "Si l'étrangleur semble lâche, votre bras n'est pas assez profond – enfilez-le plus profondément sous son cou.",
+    "S'ils vous empilent, votre tête est trop basse – amenez votre tête au niveau de leurs hanches.",
+    "S’ils passent, suivez leur rotation et réattaquez de l’autre côté."
+  ],
+  "systemLogic": {
+    "corePrinciple": "front headlock établi → l'adversaire se retourne → passe le bras le plus éloigné sous son cou → verrouille la prise en quatre → laisse tomber le poids de la poitrine → termine.",
+    "decisionTree": [
+      {
+        "condition": "Application générale",
+        "action": "Le d'arce s'enchaîne avec le anaconda : s'il se rend, d'arce ; s'ils se présentent, anaconda."
+      },
+      {
+        "condition": "Application générale",
+        "action": "À partir de d'arce, s'ils s'échappent, passez à side control ou revenez en arrière."
+      }
+    ]
+  },
+  "moneyDetails": [
+    "Enfilez votre bras étouffant aussi profondément que possible – votre épaule doit appuyer contre son oreille.",
+    "Le verrou en forme de quatre doit être à votre coude et non à votre poignet – cela maximise l’effet de levier.",
+    "Lâchez votre poids en abaissant votre poitrine vers le tapis – cela enfonce votre épaule dans son cou.",
+    "Gardez votre tête du côté opposé du starter pour éviter qu'il ne vous roule."
+  ],
+  "nextStep": "Après le d'arce, apprenez le starter anaconda et le guillotine à enchaîner à partir de front headlock.",
+  "fixItFast": [
+    "Le starter semble lâche ? Enfilez votre bras plus profondément sous son cou.",
+    "Ils vous empilent ? Apportez votre tête à leur hanche et réengagez-vous.",
+    "Ils passent ? Suivez la rotation – vous pouvez terminer de l’autre côté."
+  ]
+}

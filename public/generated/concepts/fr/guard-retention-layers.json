@@ -1,0 +1,75 @@
+{
+  "id": "guard-retention-layers",
+  "locale": "fr",
+  "title": "Couches de rétention de garde",
+  "category": "defensive",
+  "level": "intermediate",
+  "tags": [
+    "guard retention",
+    "layers",
+    "recovery",
+    "knee shield",
+    "hip escape",
+    "re-attack",
+    "defensive system"
+  ],
+  "shortDefinition": "La rétention a 7 couches: distance → pieds → genoux → frames → hanches → épaules → re-attack. Chaque couche perdue mène à la suivante.",
+  "whyItMatters": "Avec une seule couche, le passer la tue et vous aplatit. Les couches disent quoi faire en se faisant passer étape par étape.",
+  "deepExplanation": "7 couches de rétention, de l'extérieur vers l'intérieur:\n\n1. Distance — pieds menacent, mains combattent. Quand le passer s'approche, couche perdue.\n2. Pieds — sole-hanche, sole-biceps. Poussez hanches, brisez rythme.\n3. Genoux — knee pummel, shin-to-shin, knee shield. Bloquer chest-to-chest, créer wedges.\n4. Frames — forearm frame, elbow frame. Garder espace quand genoux clear.\n5. Hanches — hip escape, shrimp, whizzer. Tourner hanches hors ligne pass.\n6. Épaules — granby roll, shoulder-in, back exposure escape. Quand hanches ne tournent plus.\n7. Re-attack — wrestle-up, leg pummel, turtle avec underhook. Dernière couche — défense vers attaque.\n\nRétention non linéaire 1→7. Bonne rétention saute des couches: s'ils engagent bodylock, sautez distance/pieds, allez genoux + frames. S'ils back step, rouvrez distance par technical stand-up.",
+  "beginnerView": "7 couches avec 3 questions:\n1. Pieds menacent encore? → Pieds/genoux\n2. Wedge (genou) tient? → Genoux/frames\n3. Hanches tournent? → Hanches/épaules\n\nQuand aplati, n'essayez pas reguarder — passez re-attack (wrestle-up ou turtle). Règle d'or: jamais leur poitrine sur la vôtre à aucune couche.",
+  "advancedView": "Rétention avancée ne garde pas juste — elle piège le passer. Laissez un trou en distance pour qu'ils s'engagent, puis sweep ou wrestle-up. Layering non-linéaire: s'ils sont habitués à bodylock votre knee shield, lâchez-le tôt, passez shin-to-shin + déséquilibre. Chaque couche est opportunité de contre: pieds menace sweep, genoux menace wrestle-up ou triangle, frames menace back take s'ils overcommit. Bonne rétention joue haut (distance/genoux) mais prête à descendre re-attack.",
+  "ifThenExamples": [
+    {
+      "if": "Si vous perdez Couches de rétention de garde pendant l’échange.",
+      "then": "Arrêtez d’accélérer, récupérez la structure corporelle proche, puis continuez.",
+      "why": "Le no-gi moderne punit vite la force après perte de structure.",
+      "relatedSkillIds": [
+        "seated-guard-retention",
+        "supine-guard-retention"
+      ]
+    },
+    {
+      "if": "Si l’adversaire répond correctement à votre première ligne.",
+      "then": "Utilisez Couches de rétention de garde pour passer à une branche plus sûre au lieu de forcer.",
+      "why": "Un bon concept transforme la réaction adverse en information pour la décision suivante.",
+      "relatedSkillIds": [
+        "supine-guard-retention",
+        "half-guard-knee-shield",
+        "technical-stand-up"
+      ]
+    }
+  ],
+  "commonMisunderstandings": [
+    {
+      "misunderstanding": "Couches de rétention de garde est une astuce technique isolée.",
+      "correction": "Voyez-le comme une règle de décision présente dans plusieurs positions."
+    },
+    {
+      "misunderstanding": "Comprendre le concept suffit pour l’utiliser en live.",
+      "correction": "Le concept doit être lié à signaux corporels, cues courts et rolling positionnel."
+    }
+  ],
+  "trainingCues": [
+    "Nommez Couches de rétention de garde avant d’ajouter force.",
+    "Cherchez le signal corporel, pas une impression vague.",
+    "Si la structure est perdue, reset une couche d’abord.",
+    "Driller lentement, puis tester avec résistance progressive."
+  ],
+  "relatedSkillIds": [
+    "seated-guard-retention",
+    "supine-guard-retention",
+    "half-guard-knee-shield",
+    "technical-stand-up",
+    "closed-guard-sweeps",
+    "butterfly-guard-off-balance",
+    "scramble-control"
+  ],
+  "relatedConceptIds": [
+    "hooks",
+    "frames",
+    "elbow-knee-connection",
+    "inside-position",
+    "failure-response",
+    "wedges"
+  ]
+}

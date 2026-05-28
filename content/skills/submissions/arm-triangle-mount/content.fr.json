@@ -1,0 +1,61 @@
+{
+  "id": "arm-triangle-mount",
+  "locale": "fr",
+  "name": "Armer triangle à partir de mount",
+  "description": "À partir de mount, séparez le bras de l'adversaire, coupez l'angle et terminez le bras triangle avec une pression sur l'épaule plutôt qu'une pression sur le bras.",
+  "shortInstruction": "Séparez le bras, enjambez la tête, laissez tomber votre poids – le bras triangle de mount est la pression de l'épaule, pas la force du biceps.",
+  "summary": "Le bras triangle de mount est l'une des soumissions avec le pourcentage le plus élevé de la position dominante mount. Contrairement au bras standard triangle de side control, la version mount vous permet d'utiliser tout votre poids corporel. La clé consiste à séparer son bras de son corps (généralement en enfonçant votre avant-bras dans son biceps), à enjamber sa tête et à laisser tomber le poids de sa poitrine sur son épaule coincée.",
+  "whyItWorks": [
+    "mount vous donne l'avantage de la gravité : tout le poids de votre corps comprime le cou et le bras.",
+    "Le bras triangle emprisonne à la fois une artère carotide et son épaule – deux points de pression d'un seul mouvement.",
+    "Une fois que l’angle est coupé et que votre épaule est sur leur cou, ils ne peuvent pas vous combler ou vous faire rouler.",
+    "Principe de Danaher : les triangle de bras mount ont le pourcentage de finition mount le plus élevé car ils combinent position et soumission."
+  ],
+  "commonMistakes": [
+    "Essayer de finir sans séparer au préalable le bras de son corps – le bras doit être isolé.",
+    "Enjamber la tête trop tôt – enjamber seulement après que le bras soit épinglé à son cou.",
+    "Presser avec les bras au lieu de pousser l'épaule - la compression des bras brûle ; la pression sur les épaules se termine.",
+    "Perdre la position mount pour poursuivre l'arrivée – maintenir une forte pression thoracique tout au long."
+  ],
+  "coachingCues": [
+    "Séparez le bras, puis enjambez-le – ne marchez jamais avant la séparation.",
+    "Épaule jusqu'au cou, pas biceps jusqu'au cou.",
+    "Lâchez votre poids comme un soulevé de terre – lourd et contrôlé.",
+    "S'ils roulent, suivez leur rotation et rattachez-les."
+  ],
+  "safetySummary": [
+    "Appliquez progressivement une pression sur l'épaule : le bras triangle comprime simultanément le cou et l'épaule.",
+    "Ne tournez pas la tête de l'adversaire pour forcer la séparation des bras.",
+    "Appuyez tôt sur la compression du cou - faites la distinction entre la pression de l'étranglement et la manivelle du cou."
+  ],
+  "keyCorrections": [
+    "Si vous ne pouvez pas séparer le bras, passez à un crossface ou à une commande au poignet pour briser leur cadre.",
+    "S'ils vous relient, votre base est trop étroite – élargissez vos genoux et abaissez vos hanches.",
+    "S'ils roulent pour s'échapper, suivez leur rotation et prenez le dos."
+  ],
+  "systemLogic": {
+    "corePrinciple": "Position mount : séparez son bras avec le contrôle de l'avant-bras ou du poignet → guidez son bras vers son cou → enjambez sa tête → laissez tomber le poids de la poitrine → terminez.",
+    "decisionTree": [
+      {
+        "condition": "ils défendent le bras triangle en cachant le bras",
+        "action": "passez aux attaques mounted armbar ou s-mount."
+      },
+      {
+        "condition": "Application générale",
+        "action": "Le bras triangle de mount s'enchaîne directement à la prise arrière s'ils roulent pour s'échapper."
+      }
+    ]
+  },
+  "moneyDetails": [
+    "Séparez leur bras en enfonçant votre avant-bras dans leur triceps, en le poussant vers leur tête – et non loin de leur corps.",
+    "Une fois que le bras est contre son cou, placez votre jambe la plus proche au-dessus de sa tête – cela verrouille la position.",
+    "Déposez le poids de votre poitrine sur votre propre épaule – la pression est transférée de votre épaule à son cou.",
+    "S'ils font un pont, abaissez vos hanches et répartissez votre poids – vous voulez être « lourd », pas haut."
+  ],
+  "nextStep": "Après le bras triangle de mount, apprenez le mounted triangle et s-mount armbar.",
+  "fixItFast": [
+    "Le bras continue de glisser ? Épinglez-le contre votre propre poitrine avant de l'enjamber.",
+    "Ils vous relient ? Élargissez vos genoux et rapprochez vos hanches du tapis.",
+    "Vous ne pouvez pas terminer ? Votre angle est trop carré – coupez un angle plus net vers leur tête."
+  ]
+}

@@ -1,0 +1,578 @@
+[
+  {
+    "id": "positional-hierarchy",
+    "title": {
+      "en": "Positional Hierarchy",
+      "vi": "Phân cấp vị trí",
+      "fr": "Hiérarchie positionnelle"
+    },
+    "category": "positional",
+    "level": "fundamental",
+    "tags": [
+      "map",
+      "risk",
+      "decision-making"
+    ],
+    "shortDefinition": {
+      "en": "A priority map showing which positions increase control, reduce risk, and open submissions.",
+      "vi": "Bản đồ ưu tiên cho biết vị trí nào tăng kiểm soát, giảm rủi ro và mở submission.",
+      "fr": "Une carte qui montre quelles positions augmentent contrôle, réduisent risque et ouvrent soumissions."
+    }
+  },
+  {
+    "id": "inside-position",
+    "title": {
+      "en": "Inside Position",
+      "vi": "Vị trí trong",
+      "fr": "Inside position"
+    },
+    "category": "positional",
+    "level": "fundamental",
+    "tags": [
+      "inside position",
+      "pummel",
+      "centerline",
+      "elbow position",
+      "knee pummel",
+      "hand fighting"
+    ],
+    "shortDefinition": {
+      "en": "Inside position means your hand, head, knee, or hip occupies the space between your structure and the opponent’s center — whoever wins this lane controls the direction of movement.",
+      "vi": "Đường trong là vị trí tay, đầu, gối hoặc hông nằm giữa cấu trúc của bạn và trọng tâm đối thủ — ai thắng line này kiểm soát hướng di chuyển.",
+      "fr": "Inside position signifie main, tête, genou ou hanche entre votre structure et le centre adverse — qui gagne cette ligne contrôle la direction."
+    }
+  },
+  {
+    "id": "connection-before-control",
+    "title": {
+      "en": "Connection Before Control",
+      "vi": "Kết nối trước kiểm soát",
+      "fr": "Connexion avant contrôle"
+    },
+    "category": "mechanical",
+    "level": "fundamental",
+    "tags": [
+      "connection",
+      "pressure",
+      "control"
+    ],
+    "shortDefinition": {
+      "en": "You must attach the correct body points before trying to hold or steer the opponent.",
+      "vi": "Bạn phải gắn đúng điểm cơ thể trước khi cố giữ hoặc điều khiển đối thủ.",
+      "fr": "Il faut connecter les bons points du corps avant de tenir ou diriger."
+    }
+  },
+  {
+    "id": "control-before-submission",
+    "title": {
+      "en": "Control Before Submission",
+      "vi": "Kiểm soát trước khóa siết",
+      "fr": "Contrôle avant soumission"
+    },
+    "category": "offensive",
+    "level": "fundamental",
+    "tags": [
+      "submission",
+      "control",
+      "safety"
+    ],
+    "shortDefinition": {
+      "en": "Submissions become reliable only when the opponent is held where the main escape structure is denied.",
+      "vi": "Submission chỉ bền khi opponent bị giữ ở vị trí không thể thoát cấu trúc chính.",
+      "fr": "Une soumission devient fiable quand l’évasion principale est bloquée."
+    }
+  },
+  {
+    "id": "frames",
+    "title": {
+      "en": "Frames",
+      "vi": "Frames",
+      "fr": "Frames"
+    },
+    "category": "mechanical",
+    "level": "fundamental",
+    "tags": [
+      "frame",
+      "escape",
+      "structure",
+      "forearm",
+      "knee shield",
+      "connection",
+      "space management"
+    ],
+    "shortDefinition": {
+      "en": "A frame is a bone structure (forearm, shin, knee, bicep) connected to the torso to maintain space, not arm strength to push.",
+      "vi": "Frame là cấu trúc xương (forearm, shin, knee, bicep) nối vào thân để giữ khoảng cách, không dùng cơ tay đẩy.",
+      "fr": "Un frame est une structure osseuse (forearm, tibia, genou, biceps) connectée au torse pour garder distance, pas la force des bras."
+    }
+  },
+  {
+    "id": "wedges",
+    "title": {
+      "en": "Wedges",
+      "vi": "Wedges",
+      "fr": "Wedges"
+    },
+    "category": "mechanical",
+    "level": "intermediate",
+    "tags": [
+      "wedge",
+      "knee shield",
+      "shin frame"
+    ],
+    "shortDefinition": {
+      "en": "A wedge is a body part inserted into space to block the opponent’s rotation or connection.",
+      "vi": "Wedge là phần cơ thể chèn vào khoảng trống để chặn rotation hoặc connection của đối thủ.",
+      "fr": "Un wedge est une partie du corps insérée pour bloquer rotation ou connexion adverse."
+    }
+  },
+  {
+    "id": "levers",
+    "title": {
+      "en": "Levers",
+      "vi": "Levers",
+      "fr": "Leviers"
+    },
+    "category": "mechanical",
+    "level": "intermediate",
+    "tags": [
+      "lever",
+      "kimura",
+      "off-balance"
+    ],
+    "shortDefinition": {
+      "en": "A lever uses one segment of the opponent’s body to rotate or disrupt a larger structure.",
+      "vi": "Lever là cách dùng một đoạn cơ thể của đối thủ để xoay hoặc phá cấu trúc lớn hơn.",
+      "fr": "Un levier utilise un segment du corps adverse pour tourner ou casser une structure plus grande."
+    }
+  },
+  {
+    "id": "hooks",
+    "title": {
+      "en": "Hooks",
+      "vi": "Hooks",
+      "fr": "Hooks"
+    },
+    "category": "mechanical",
+    "level": "fundamental",
+    "tags": [
+      "hook",
+      "butterfly",
+      "back control"
+    ],
+    "shortDefinition": {
+      "en": "A hook is a leg or foot connection used to lift, pull, hold hip line, or off-balance.",
+      "vi": "Hook là chân hoặc bàn chân gắn vào đối thủ để nâng, kéo, giữ hip line hoặc tạo off-balance.",
+      "fr": "Un hook est une connexion jambe/pied pour lever, tirer, tenir hip line ou déséquilibrer."
+    }
+  },
+  {
+    "id": "posts",
+    "title": {
+      "en": "Posts",
+      "vi": "Posts",
+      "fr": "Posts"
+    },
+    "category": "mechanical",
+    "level": "fundamental",
+    "tags": [
+      "post",
+      "base",
+      "scramble"
+    ],
+    "shortDefinition": {
+      "en": "A post is a temporary support point to keep base, change hips, or stop rotation.",
+      "vi": "Post là điểm chống tạm thời để giữ base, đổi hông hoặc ngăn bị xoay.",
+      "fr": "Un post est un appui temporaire pour base, changer hanches ou bloquer rotation."
+    }
+  },
+  {
+    "id": "pummeling",
+    "title": {
+      "en": "Pummeling",
+      "vi": "Pummeling",
+      "fr": "Pummeling"
+    },
+    "category": "mechanical",
+    "level": "fundamental",
+    "tags": [
+      "pummel",
+      "inside position",
+      "underhook"
+    ],
+    "shortDefinition": {
+      "en": "Pummeling is the repeated battle to regain inside lanes with hands, head, knees, or hips.",
+      "vi": "Pummeling là cuộc đổi đường trong liên tục bằng tay, đầu, gối hoặc hông.",
+      "fr": "Pummeling est la bataille répétée pour reprendre les lignes inside avec mains, tête, genoux ou hanches."
+    }
+  },
+  {
+    "id": "head-position",
+    "title": {
+      "en": "Head Position",
+      "vi": "Vị trí đầu",
+      "fr": "Position de tête"
+    },
+    "category": "mechanical",
+    "level": "fundamental",
+    "tags": [
+      "head position",
+      "neck safety",
+      "wedge"
+    ],
+    "shortDefinition": {
+      "en": "The head is a post, wedge, pressure source, and sensor that organizes the spine.",
+      "vi": "Đầu là post, wedge, pressure source và sensor định hướng cho cả spine.",
+      "fr": "La tête est post, wedge, source de pression et capteur qui organise la colonne."
+    }
+  },
+  {
+    "id": "hip-line-shoulder-line",
+    "title": {
+      "en": "Hip Line vs Shoulder Line",
+      "vi": "Đường hông vs đường vai",
+      "fr": "Hip line vs shoulder line"
+    },
+    "category": "positional",
+    "level": "intermediate",
+    "tags": [
+      "hip line",
+      "shoulder line",
+      "pin"
+    ],
+    "shortDefinition": {
+      "en": "Hip line and shoulder line are the two rotation axes that decide passes, pins, escapes, and back exposure.",
+      "vi": "Hip line và shoulder line là hai trục xoay quyết định pass, pin, escape và back exposure.",
+      "fr": "Hip line et shoulder line sont deux axes de rotation qui décident pass, pin, escape et back exposure."
+    }
+  },
+  {
+    "id": "knee-line",
+    "title": {
+      "en": "Knee Line",
+      "vi": "Đường gối",
+      "fr": "Knee line"
+    },
+    "category": "safety",
+    "level": "fundamental",
+    "tags": [
+      "knee line",
+      "leg lock",
+      "safety"
+    ],
+    "shortDefinition": {
+      "en": "The knee line is the boundary that decides whether the leg is controlled in an entanglement or free.",
+      "vi": "Knee line là ranh giới quyết định chân bị kiểm soát trong leg entanglement hay đã thoát.",
+      "fr": "La knee line décide si la jambe est contrôlée dans entanglement ou libre."
+    }
+  },
+  {
+    "id": "elbow-knee-connection",
+    "title": {
+      "en": "Elbow-Knee Connection",
+      "vi": "Kết nối khuỷu-gối",
+      "fr": "Connexion coude-genou"
+    },
+    "category": "defensive",
+    "level": "fundamental",
+    "tags": [
+      "elbow knee",
+      "escape",
+      "guard retention"
+    ],
+    "shortDefinition": {
+      "en": "Elbow-knee connection closes the space between upper body and hip line to prevent pins and passes.",
+      "vi": "Kết nối khuỷu-gối đóng khoảng trống giữa upper body và hip line để ngăn pin/pass.",
+      "fr": "La connexion coude-genou ferme l’espace entre haut du corps et hip line pour prévenir pin/pass."
+    }
+  },
+  {
+    "id": "base-balance",
+    "title": {
+      "en": "Base and Balance",
+      "vi": "Nền và thăng bằng",
+      "fr": "Base et équilibre"
+    },
+    "category": "mechanical",
+    "level": "fundamental",
+    "tags": [
+      "base",
+      "balance",
+      "weight"
+    ],
+    "shortDefinition": {
+      "en": "Base is the ability to keep center of gravity while staying mobile and reactive.",
+      "vi": "Base là khả năng giữ trọng tâm trong khi vẫn có thể di chuyển và phản ứng.",
+      "fr": "La base est garder centre de gravité tout en restant mobile et réactif."
+    }
+  },
+  {
+    "id": "angle-creation",
+    "title": {
+      "en": "Angle Creation",
+      "vi": "Tạo góc",
+      "fr": "Création d’angle"
+    },
+    "category": "strategic",
+    "level": "intermediate",
+    "tags": [
+      "angle",
+      "pivot",
+      "direction"
+    ],
+    "shortDefinition": {
+      "en": "Angle creation changes body or hip position so your force attacks weak structure instead of pushing straight into strength.",
+      "vi": "Tạo angle là đổi vị trí thân/hông để lực của bạn đi vào điểm yếu thay vì đẩy thẳng vào cấu trúc mạnh.",
+      "fr": "Créer angle change corps/hanches pour attaquer structure faible plutôt que pousser droit."
+    }
+  },
+  {
+    "id": "pressure-direction",
+    "title": {
+      "en": "Pressure Direction",
+      "vi": "Hướng áp lực",
+      "fr": "Direction de pression"
+    },
+    "category": "mechanical",
+    "level": "intermediate",
+    "tags": [
+      "pressure",
+      "direction",
+      "pin"
+    ],
+    "shortDefinition": {
+      "en": "Effective pressure has a specific direction: diagonal, to far hip, to shoulder line, or down through hip line.",
+      "vi": "Pressure hiệu quả có hướng cụ thể: chéo, vào far hip, vào shoulder line hoặc xuống hip line.",
+      "fr": "La pression efficace a direction: diagonale, far hip, shoulder line ou hip line."
+    }
+  },
+  {
+    "id": "dilemma-attacks",
+    "title": {
+      "en": "Dilemma Attacks",
+      "vi": "Dilemma Attacks",
+      "fr": "Attaques en dilemme"
+    },
+    "category": "offensive",
+    "level": "advanced",
+    "tags": [
+      "dilemma",
+      "chain",
+      "submission"
+    ],
+    "shortDefinition": {
+      "en": "A dilemma is two or more threats where defending one line exposes another.",
+      "vi": "Dilemma là hai hoặc nhiều threat khiến đối thủ phòng một hướng và mở hướng còn lại.",
+      "fr": "Un dilemme combine plusieurs menaces: défendre une ligne expose l’autre."
+    }
+  },
+  {
+    "id": "failure-response",
+    "title": {
+      "en": "Failure Response",
+      "vi": "Phản ứng khi thất bại",
+      "fr": "Réponse à l’échec"
+    },
+    "category": "strategic",
+    "level": "intermediate",
+    "tags": [
+      "failure response",
+      "transition",
+      "branch"
+    ],
+    "shortDefinition": {
+      "en": "Failure response is the plan for the moment the first technique is blocked.",
+      "vi": "Failure response là kế hoạch ngay khi kỹ thuật đầu tiên bị chặn.",
+      "fr": "Failure response est le plan quand la première technique est bloquée."
+    }
+  },
+  {
+    "id": "early-vs-late-defense",
+    "title": {
+      "en": "Early Defense vs Late Defense",
+      "vi": "Phòng thủ sớm vs phòng thủ muộn",
+      "fr": "Défense tôt vs tard"
+    },
+    "category": "defensive",
+    "level": "fundamental",
+    "tags": [
+      "defense",
+      "safety",
+      "recognition"
+    ],
+    "shortDefinition": {
+      "en": "Early defense addresses body signals before the position locks; late defense deals with force already applied.",
+      "vi": "Early defense xử lý body signal trước khi position khóa; late defense xử lý khi danger đã có lực.",
+      "fr": "Défense tôt traite signaux avant lock; défense tard traite force déjà appliquée."
+    }
+  },
+  {
+    "id": "guard-retention-layers",
+    "title": {
+      "en": "Guard Retention Layers",
+      "vi": "Lớp giữ guard",
+      "fr": "Couches de rétention de garde"
+    },
+    "category": "defensive",
+    "level": "intermediate",
+    "tags": [
+      "guard retention",
+      "layers",
+      "recovery",
+      "knee shield",
+      "hip escape",
+      "re-attack",
+      "defensive system"
+    ],
+    "shortDefinition": {
+      "en": "Guard retention has 7 layers: distance → feet → knees → frames → hips → shoulders → re-attack. Each layer lost drops you to the next.",
+      "vi": "Guard retention có 7 layer: distance → feet → knees → frames → hips → shoulders → re-attack. Mỗi layer mất dần, bạn rơi xuống layer tiếp theo.",
+      "fr": "La rétention a 7 couches: distance → pieds → genoux → frames → hanches → épaules → re-attack. Chaque couche perdue mène à la suivante."
+    }
+  },
+  {
+    "id": "wrestle-up-philosophy",
+    "title": {
+      "en": "Wrestle-Up Philosophy",
+      "vi": "Wrestle-Up Philosophy",
+      "fr": "Philosophie wrestle-up"
+    },
+    "category": "offensive",
+    "level": "intermediate",
+    "tags": [
+      "wrestle-up",
+      "single leg",
+      "guard offense"
+    ],
+    "shortDefinition": {
+      "en": "Wrestle-up turns guard from a defensive position into a controlled race to come on top.",
+      "vi": "Wrestle-up biến guard từ vị trí phòng thủ thành cuộc đua lên top có kiểm soát.",
+      "fr": "Le wrestle-up transforme la garde défensive en course contrôlée vers top."
+    }
+  },
+  {
+    "id": "leg-lock-safety-hierarchy",
+    "title": {
+      "en": "Leg Lock Safety Hierarchy",
+      "vi": "Leg Lock Safety Hierarchy",
+      "fr": "Hiérarchie sécurité leg lock"
+    },
+    "category": "safety",
+    "level": "fundamental",
+    "tags": [
+      "leg lock",
+      "heel hook",
+      "safety"
+    ],
+    "shortDefinition": {
+      "en": "The safety order: recognize entanglement, hide heel, protect knee line, clear secondary leg, then exit with control.",
+      "vi": "Thứ tự an toàn: nhận diện entanglement, giấu heel, bảo vệ knee line, clear leg phụ, rồi thoát có kiểm soát.",
+      "fr": "Ordre sécurité: reconnaître entanglement, cacher talon, protéger knee line, clear jambe secondaire, sortir contrôlé."
+    }
+  },
+  {
+    "id": "deliberate-practice",
+    "title": {
+      "en": "Deliberate Practice",
+      "vi": "Tập luyện có chủ đích",
+      "fr": "Pratique délibérée"
+    },
+    "category": "training",
+    "level": "fundamental",
+    "tags": [
+      "training",
+      "feedback loop",
+      "practice"
+    ],
+    "shortDefinition": {
+      "en": "Deliberate practice means choosing one small cue, measuring results, and increasing resistance step by step.",
+      "vi": "Tập có chủ đích là chọn một cue nhỏ, đo kết quả và tăng resistance theo từng bước.",
+      "fr": "La pratique délibérée choisit un cue précis, mesure résultat et augmente résistance progressivement."
+    }
+  },
+  {
+    "id": "positional-rolling",
+    "title": {
+      "en": "Positional Rolling",
+      "vi": "Rolling vị trí",
+      "fr": "Rolling positionnel"
+    },
+    "category": "training",
+    "level": "fundamental",
+    "tags": [
+      "positional rolling",
+      "training",
+      "constraints"
+    ],
+    "shortDefinition": {
+      "en": "Positional rolling starts in a specific situation with clear win and reset conditions.",
+      "vi": "Positional rolling bắt đầu trong một tình huống cụ thể với điều kiện thắng/thua rõ ràng.",
+      "fr": "Le rolling positionnel commence dans une situation précise avec conditions de réussite/reset."
+    }
+  },
+  {
+    "id": "exposure-before-finish",
+    "title": {
+      "en": "Exposure Before Finish",
+      "vi": "Exposure trước Finish",
+      "fr": "Exposition avant finition"
+    },
+    "category": "offensive",
+    "level": "intermediate",
+    "tags": [
+      "exposure",
+      "finish line",
+      "submission",
+      "timing"
+    ],
+    "shortDefinition": {
+      "en": "Exposure means opening the finish line before applying finishing force — if the path is not clear, it is not time to squeeze.",
+      "vi": "Exposure là mở finish line trước khi đặt lực finish — nếu không thấy đường clear thì chưa đến lúc squeeze.",
+      "fr": "Exposition signifie ouvrir la ligne de finition avant la force — si la voie n’est pas claire, ce n’est pas le moment de serrer."
+    }
+  },
+  {
+    "id": "ride-vs-pin-vs-submission",
+    "title": {
+      "en": "Ride vs Pin vs Submission",
+      "vi": "Ride vs Pin vs Submission",
+      "fr": "Ride vs Pin vs Soumission"
+    },
+    "category": "strategic",
+    "level": "advanced",
+    "tags": [
+      "ride",
+      "pin",
+      "submission",
+      "phase",
+      "decision"
+    ],
+    "shortDefinition": {
+      "en": "Three different phases: ride to expose the back, pin to stabilize the position, submission to finish.",
+      "vi": "Ba phase khác nhau: ride để lộ lưng, pin để ổn định vị trí, submission để kết thúc.",
+      "fr": "Trois phases: ride pour exposer le dos, pin pour stabiliser, soumission pour finir."
+    }
+  },
+  {
+    "id": "safe-unsafe-rotation",
+    "title": {
+      "en": "Safe vs Unsafe Rotation",
+      "vi": "Xoay An Toàn vs Không An Toàn",
+      "fr": "Rotation sûre vs risquée"
+    },
+    "category": "safety",
+    "level": "fundamental",
+    "tags": [
+      "rotation",
+      "safety",
+      "leg lock",
+      "knee line",
+      "heel"
+    ],
+    "shortDefinition": {
+      "en": "Safe rotation occurs when knee line is free and heel is hidden; unsafe rotation occurs when knee line is trapped and heel is exposed.",
+      "vi": "Xoay an toàn khi knee line free và heel hidden; xoay nguy hiểm khi knee line trapped và heel exposed.",
+      "fr": "Rotation sûre quand knee line libre et talon caché; rotation risquée quand knee line piégée et talon exposé."
+    }
+  }
+]

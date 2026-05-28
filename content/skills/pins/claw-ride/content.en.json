@@ -1,0 +1,67 @@
+{
+  "id": "claw-ride",
+  "locale": "en",
+  "name": "Claw Ride",
+  "description": "Use arm and chest clamps around the hip line or torso from turtle, build base, and secure back exposure through hip switches and hand fighting. The claw ride is a transitional control system that uses leg and arm clamps to break down the turtle position.",
+  "shortInstruction": "From turtle, clamp your near arm around their hip (claw grip), drive your chest into their ribs, and walk your hips to the side to collapse their base. Switch between claw and back take as they react.",
+  "summary": "The claw ride uses a deep arm clamp around the opponent's hip or lower torso to break down the turtle position and expose the back. The claw grip (arm wrapped around the hip, hand gripping the far hip or belt line) creates a structural lever that allows you to pull the opponent flat while your chest pressure prevents them from posturing up. The system alternates between claw pressure and back take attempts, forcing the opponent to defend one and expose the other.",
+  "whyItWorks": [
+    "The claw grip on the far hip creates a lever that pulls the opponent's base out from under them — they cannot posture up when their hip is pulled toward you",
+    "Chest pressure on their ribs prevents them from sitting up or turning into you — the two primary turtle escapes",
+    "Alternating between claw pressure and back take attempts creates a dilemma — if they defend the claw, they expose the back",
+    "The claw ride works from both sides — you can switch your claw to the opposite hip without losing pressure"
+  ],
+  "commonMistakes": [
+    "Clamping too high on the torso instead of the hip — a torso clamp can be escaped by sitting through",
+    "Letting your chest separate from their back — chest connection is what prevents them from posturing up",
+    "Staying in the claw ride too long without transitioning — the claw ride is a transitional control, not a pin",
+    "Not protecting your own head — the opponent can sit through and take your back if your head is on the far side without control"
+  ],
+  "coachingCues": [
+    "Claw on the hip, not the ribs",
+    "Chest on their back, always",
+    "Alternate claw and back take",
+    "Protect your head position"
+  ],
+  "safetySummary": [
+    "Do not apply sudden rotational pressure to the opponent's spine when collapsing the turtle — use slow, controlled pressure",
+    "If the opponent rolls out of the claw ride suddenly, protect your head and neck",
+    "Be aware of your fingers when clawing — fingers caught between the mat and the opponent's body can be injured"
+  ],
+  "keyCorrections": [
+    "If they keep sitting up: your chest pressure is not enough — drive your chest deeper into their upper back",
+    "If they turn into you: switch to the back take immediately — do not stay in the claw",
+    "If you lose the claw grip: re-establish it by reaching deeper around their hip"
+  ],
+  "systemLogic": {
+    "corePrinciple": "The claw ride is a three-phase system: Establish Claw: Collapse Turtle → Back Take",
+    "decisionTree": [
+      {
+        "condition": "In Phase 1 (Establish Claw)",
+        "action": "from behind the turtle, reach your near arm around their hip and grip their far hip crease or belt. Your chest should be connected to their upper back or shoulder blade"
+      },
+      {
+        "condition": "In Phase 2 (Collapse Turtle)",
+        "action": "drive your chest down into their back while pulling their hip toward you with the claw grip. Walk your knees toward their head to flatten them. They should roll onto their hip or side"
+      },
+      {
+        "condition": "In Phase 3 (Back Take)",
+        "action": "as they collapse, release the claw grip and replace it with a seatbelt (arm over the far shoulder, hand on the near hip). Slide your near knee into their hip line and secure back control"
+      },
+      {
+        "condition": "they resist the collapse by posturing hard",
+        "action": "switch your grip to the near wrist and use the spiral ride to collapse them instead. The claw ride and spiral ride are complementary systems"
+      }
+    ]
+  },
+  "moneyDetails": [
+    "The claw ride is the primary turtle-breaking system in modern wrestling and BJJ — every grappler who trains to break the turtle uses this system",
+    "Mastering the claw ride gives you a reliable path from turtle to back control — the most dominant position in grappling",
+    "The claw ride works against larger opponents because it uses leverage (pulling the hip) rather than strength"
+  ],
+  "fixItFast": [
+    "If they sit up despite your claw: switch to a collar tie and drive their head to the mat — head control beats posture every time",
+    "If they roll toward you: release the claw and take the back",
+    "If they roll away from you: follow them, maintain the claw, and drive your chest into their back"
+  ]
+}

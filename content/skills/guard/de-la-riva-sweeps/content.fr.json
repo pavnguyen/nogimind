@@ -1,0 +1,66 @@
+{
+  "id": "de-la-riva-sweeps",
+  "locale": "fr",
+  "name": "De La Riva Balayages",
+  "description": "Utilisez le crochet intérieur De La Riva et la poignée de la manche pour déséquilibrer le passeur, entrez X-guard ou X sur une jambe, ou balayez directement vers la position supérieure.",
+  "shortInstruction": "Crochet intérieur, poignée de manche, angle de la hanche : le DLR est la passerelle vers l'ensemble du système open guard.",
+  "summary": "De La Riva (DLR) guard est le open guard le plus courant dans le No-Gi moderne. Le crochet intérieur sur la jambe proche de l'adversaire, combiné à une poignée de manche ou de cheville, vous donne le contrôle de sa base. En tirant leur manche sur votre corps et en accrochant simultanément leur jambe, vous créez un angle qui les déséquilibre vers l'avant et sur le côté. Cela ouvre les entrées dans X-guard, X à une seule jambe ou balayages directs.",
+  "whyItWorks": [
+    "Le crochet DLR à l’intérieur de leur jambe bloque leur passe avant tout en vous donnant un levier pour déséquilibrer.",
+    "La poignée de manche reliée à votre hanche opposée crée une tension diagonale qui brise leur base.",
+    "Les entrées DLR mènent aux positions de balayage les plus fortes dans No-Gi : X-guard et X sur une seule jambe.",
+    "Principe Danaher : DLR supprime une de ses jambes de passe, réduisant ainsi ses options de passe de 50 %.",
+    "Cela fonctionne parfaitement contre un passeur debout : lorsqu'il se lève pour passer, DLR est votre compteur."
+  ],
+  "commonMistakes": [
+    "Laisser l’hameçon DLR devenir peu profond ou dénudé – un hameçon profond est essentiel pour le contrôle.",
+    "En tenant la poignée de la manche au niveau de votre hanche au lieu de la tirer sur votre corps, la tension transversale crée un déséquilibre.",
+    "Se battre pour le DLR lorsque le passeur est déjà à genoux – le DLR est destiné aux passants debout.",
+    "Rester à plat sur le dos – Le DLR nécessite que vous soyez à vos côtés pour produire de l’énergie."
+  ],
+  "coachingCues": [
+    "Crochet profond, manche croisée, sur le côté.",
+    "Tirez sur la manche, accrochez la jambe – l’angle crée le balayage.",
+    "DLR vers X-guard est un mouvement, pas deux.",
+    "S'ils sont à genoux, DLR n'est pas le bon guard – passez à half guard ou knee shield."
+  ],
+  "safetySummary": [
+    "Ne les laissez pas saisir votre pied de crochet DLR et le tordre – protégez votre genou en gardant le crochet actif et mobile.",
+    "En cas de déséquilibre, gardez la tête hors du tapis pour éviter guillotine entrées.",
+    "S'ils enjambent votre crochet DLR, passez immédiatement au DLR inversé ou récupérez guard."
+  ],
+  "keyCorrections": [
+    "S'ils enlèvent votre hameçon, votre angle était mauvais : réinsérez l'hameçon sous un angle plus aigu.",
+    "Si vous ne parvenez pas à les déséquilibrer, la poignée de votre manche est trop éloignée de votre hanche – rapprochez-la.",
+    "S'ils reculent et évitent le balayage, étendez votre crochet et passez à une entrée heel hook ou à un enchevêtrement de jambe."
+  ],
+  "systemLogic": {
+    "corePrinciple": "Crochet DLR + poignée de manche → déséquilibrez-les vers l'avant → poteaux adverses → entrez X-guard ou SLX → balayez ou attaquez les jambes.",
+    "decisionTree": [
+      {
+        "condition": "Application générale",
+        "action": "S'ils avancent (par-dessus le crochet), passez au DLR profond ou au balayage du serveur."
+      },
+      {
+        "condition": "Application générale",
+        "action": "S’ils reculent, étendez-vous jusqu’à X-guard et avancez."
+      },
+      {
+        "condition": "Application générale",
+        "action": "DLR est l'entrée ; X-guard et SLX sont la destination."
+      }
+    ]
+  },
+  "moneyDetails": [
+    "Votre crochet DLR doit être profond – la pointe de votre pied s’accroche à l’intérieur de la cuisse, pas du mollet.",
+    "Tirez leur manche vers votre hanche opposée, pas vers le bas – la tension diagonale brise leur base plus efficacement.",
+    "Restez sur le côté, pas sur le dos : être à vos côtés donne à votre crochet plus de portée et de puissance.",
+    "Lorsqu'ils résistent au déséquilibre en reculant, c'est votre entrée X-guard : étendez le crochet et faites glisser votre autre jambe jusqu'à leur hanche."
+  ],
+  "nextStep": "Après les balayages DLR, apprenez les transitions X-guard et X sur une seule jambe pour compléter le système open guard.",
+  "fixItFast": [
+    "Le crochet continue de glisser ? Creusez plus profondément : le pied doit s'accrocher à l'intérieur de la cuisse, pas derrière le genou.",
+    "Vous ne pouvez pas déséquilibrer ? Tirez la manche sur votre corps, pas vers vous – la tension transversale est la clé.",
+    "Ils continuent de passer ? Votre crochet DLR est trop peu profond ou vous êtes trop plat sur le dos – asseyez-vous sur le côté."
+  ]
+}

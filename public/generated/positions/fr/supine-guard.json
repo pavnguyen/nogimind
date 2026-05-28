@@ -1,0 +1,56 @@
+{
+  "id": "supine-guard",
+  "locale": "fr",
+  "title": "Garde sur le dos",
+  "category": "bottom_guard",
+  "status": "defensive",
+  "description": "Le joueur en garde est sur le dos et utilise les pieds, les genoux, les cadres et l’angle des hanches pour empêcher le passage chest-to-chest.",
+  "topPlayerGoals": [
+    "Le joueur du dessus veut contrôler Garde sur le dos avec la position de tête, la position intérieure et une pression orientée.",
+    "Fixer les jambes et gagner la ligne des hanches avant de passer.",
+    "Garder une base stable pour éviter d’être déséquilibré ou contré."
+  ],
+  "bottomPlayerGoals": [
+    "Le joueur du dessous veut survivre en Garde sur le dos avec des cadres, du pummeling ou le bon angle.",
+    "Garder les pieds et les genoux à l’intérieur pour récupérer la garde assise ou entrer sur une attaque de jambe.",
+    "Reconnaître les signaux de danger tôt au lieu d’attendre que la position se stabilise."
+  ],
+  "controlPoints": [
+    "Point de contrôle principal : Pieds sur les hanches ou les biceps, genoux à l’intérieur et angle des épaules..",
+    "La tête, les mains, les hanches et les genoux doivent suivre la même direction de force.",
+    "La connexion coude-genou ou la ligne hanches-épaules détermine si la position reste vivante ou verrouillée."
+  ],
+  "escapePriorities": [
+    "Priorité de sortie : Ne pas laisser les deux genoux être forcés du même côté..",
+    "Protéger le cou, le dos, la ligne du genou ou la ligne du bras avant de contrer.",
+    "Si la position intérieure est perdue, rétablir d’abord une couche défensive."
+  ],
+  "advancementOptions": [
+    {
+      "action": "Récupérer le knee shield ou une couche assise",
+      "nextPositionId": "knee-shield-half-guard",
+      "relatedSkillIds": [
+        "supine-guard-retention",
+        "seated-guard-retention",
+        "k-guard-entry"
+      ],
+      "why": "C’est la branche naturelle lorsque vous gagnez le point de contrôle principal et que l’adversaire est forcé de défendre."
+    }
+  ],
+  "dangerSignals": [
+    "Le menton ou le cou sort de la ligne sûre.",
+    "Le coude se sépare des côtes ou du genou.",
+    "La ligne des hanches est verrouillée pendant que la ligne des épaules est encore tirée.",
+    "Vous devez poser une main loin pour éviter de tomber."
+  ],
+  "relatedSkillIds": [
+    "supine-guard-retention",
+    "seated-guard-retention",
+    "k-guard-entry"
+  ],
+  "relatedConceptIds": [
+    "guard-retention-layers",
+    "inside-position",
+    "wedges"
+  ]
+}

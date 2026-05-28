@@ -1,0 +1,61 @@
+{
+  "id": "butterfly-guard-off-balance",
+  "locale": "fr",
+  "name": "Papillon guard déséquilibré",
+  "description": "Utilisez des crochets papillon, un collier cravate ou underhook et un positionnement de la tête pour briser la base de l'adversaire et créer des opportunités de balayage, d'entrée ou d'attaque.",
+  "shortInstruction": "Accrochez une jambe, rompez la posture, déséquilibrez-vous vers l'avant ou sur le côté, puis balayez ou entrez dans des enchevêtrements de jambes.",
+  "summary": "Le déséquilibre du Butterfly guard est le moteur de tout le système Butterfly. Sans briser la base de l'adversaire, vous ne pouvez ni balayer ni attaquer. Le but est de leur faire poster une main ou un pas – puis vous bougez.",
+  "whyItWorks": [
+    "Les crochets papillon créent un levier sur le centre de masse de l'adversaire : le tirer vers l'avant ou le soulever latéralement détruit sa base.",
+    "Le collier cravate ou underhook contrôle le haut de leur corps afin que votre crochet puisse fonctionner de manière isolée.",
+    "Réaction des forces déséquilibrées : soit elles postent (vous donnant une entrée), soit tombent (vous donnent le balayage).",
+    "Principe de Danaher : on ne peut pas balayer un adversaire bien implanté. Cassez d’abord la base, puis attaquez."
+  ],
+  "commonMistakes": [
+    "Tirer sur l'attache du col sans engager le crochet - le balayage vient du crochet, pas des bras.",
+    "Laissez vos hameçons s'aplatir ou se dénuder avant de vous déséquilibrer.",
+    "Déséquilibré latéralement sans contrôler le bras éloigné, leur permettant de poster et de récupérer.",
+    "Restez à plat sur le dos au lieu de vous asseoir sur vos épaules pour maintenir la pression du crochet."
+  ],
+  "coachingCues": [
+    "Accrochez d'abord, puis tirez - le crochet crée le déséquilibre, les bras le guident.",
+    "Faites-les publier, puis bougez.",
+    "Asseyez-vous pour activer le crochet – le crochet plat est un crochet mort.",
+    "Menace dans les deux sens : vers l'avant ou sur le côté – ils ne peuvent pas défendre les deux."
+  ],
+  "safetySummary": [
+    "Gardez la tête haute et le menton dégagé de votre poitrine pour protéger votre cou lors des attaches de col.",
+    "Ne vous engagez pas trop en cas d'échec d'un déséquilibre - vous pourriez exposer votre dos à un front headlock.",
+    "Protégez vos côtes lorsque l’adversaire avance fort – cadrez avant qu’il ne s’écrase."
+  ],
+  "keyCorrections": [
+    "Si le balayage échoue, que votre hook a perdu la connexion ou que vous n'avez pas suffisamment déséquilibré — réinitialisez le hook et réessayez.",
+    "S'ils aplatissent votre crochet, vous êtes trop à plat sur le dos – asseyez-vous sur votre épaule la plus éloignée.",
+    "S'ils se tiennent hors de la cravate du col, passez à un underhook ou à une poignée de manche."
+  ],
+  "systemLogic": {
+    "corePrinciple": "Gagnez le combat à main → établissez une cravate ou underhook → insérez un crochet papillon → déséquilibrez → poteaux de l'adversaire → balayez ou entrez dans l'enchevêtrement des jambes.",
+    "decisionTree": [
+      {
+        "condition": "résister, pression vers l'avant",
+        "action": "aller de côté. S'ils résistent de côté, avancez. Le dilemme est le système."
+      },
+      {
+        "condition": "Application générale",
+        "action": "Options de déséquilibre : vers l'avant (balayage de l'ascenseur), latéralement (balayage du pendule) ou vers l'arrière (glisser le bras vers l'arrière)."
+      }
+    ]
+  },
+  "moneyDetails": [
+    "Votre crochet papillon doit être profond – la cheville derrière les aisselles – et non peu profond sur la cuisse.",
+    "La cravate du col tire la tête jusqu'au niveau de votre poitrine ; cela charge leur poids sur le crochet.",
+    "Lorsqu’ils placent une main, attaquez immédiatement ce côté – ce bras est désormais hors service.",
+    "S'ils reculent pour éviter le balayage, étendez le crochet et passez à une jambe X ou X-guard."
+  ],
+  "nextStep": "Après un déséquilibre, passez au balayage papillon, au X sur une seule jambe ou au X-guard en fonction de leur réaction.",
+  "fixItFast": [
+    "L'hameçon s'aplatit ? Asseyez-vous immédiatement sur votre coude le plus éloigné.",
+    "Ils se présentent ? Passez à la poignée à double manche et enfoncez vos hameçons plus profondément.",
+    "Ils reculent ? Étendez le crochet et entrez X sur une seule jambe."
+  ]
+}

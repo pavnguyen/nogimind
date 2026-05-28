@@ -1,0 +1,141 @@
+{
+  "id": "neck-crank-recognition",
+  "domain": "positional_awareness",
+  "level": "intermediate",
+  "status": "draft",
+  "name": "Neck Crank Recognition",
+  "aliases": [
+    "crank vs choke",
+    "cervical spine safety",
+    "choke recognition"
+  ],
+  "tags": [
+    "safety",
+    "neck-safety",
+    "cervical-spine",
+    "tier:safety-critical",
+    "risk:safety-critical",
+    "family:safety",
+    "group:neck-safety",
+    "modern-no-gi"
+  ],
+  "keywords": [
+    "neck crank",
+    "cervical spine",
+    "choke vs crank",
+    "can opener",
+    "twister",
+    "spine safety"
+  ],
+  "modernSystemGroup": "neck_safety",
+  "relatedSkills": [
+    {
+      "id": "compression-vs-strangle-recognition",
+      "type": "recommended"
+    },
+    {
+      "id": "smother-safety",
+      "type": "recommended"
+    },
+    {
+      "id": "front-headlock-defense",
+      "type": "recommended"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "positional-hierarchy"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [
+    "If you feel chin pressure during a submission attempt: tap immediately — do not wait to see if it 'turns into' a choke",
+    "If your training partner consistently applies neck cranks instead of chokes: have a conversation with them about technique and safety",
+    "If you are the attacker and your partner taps to a position you thought was a choke: re-examine your angle — you may be cranking without realizing it"
+  ],
+  "version": 1,
+  "updatedAt": "2026-06-12T00:00:00.000Z",
+  "contentRefs": {
+    "videos": "videos.json",
+    "qualityChecklist": "qualityChecklist"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": true,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "en",
+  "description": "Learn to distinguish between a safe choke (strangle) and a dangerous neck crank. A crank attacks the cervical spine via pressure on the chin or back of the head rather than the carotid arteries, and must be recognized immediately to tap or adjust.",
+  "shortInstruction": "If you feel pressure on the chin or back of the head (not the sides of the neck), you are being cranked, not choked. Tap early and protect your cervical spine.",
+  "summary": "Neck crank recognition is the ability to instantly distinguish between a blood choke (strangle) that targets the carotid arteries and a neck crank that targets the cervical spine. A blood choke is safe to train with a training partner — it cuts off blood flow to the brain and causes unconsciousness without structural damage. A neck crank attacks the vertebrae, discs, and ligaments of the cervical spine and can cause cumulative damage over training years. The key difference: chokes apply pressure to the sides of the neck (carotid), cranks apply pressure to the chin, back of the head, or top of the spine.",
+  "whyItWorks": [
+    "Blood chokes are safe because they interrupt blood flow without damaging neck structures — unconsciousness is reversible with no lasting effects",
+    "Neck cranks are dangerous because they compress, rotate, or hyperflex the cervical spine — the damage is cumulative and can lead to chronic issues",
+    "The chin is the most reliable indicator — if the pressure is on your chin pushing your head toward your chest or shoulder, it is a crank",
+    "Carotid pressure (sides of the neck) with no chin/spine pressure is always a choke and is safe to defend"
+  ],
+  "commonMistakes": [
+    "Assuming every hand-on-neck attack is a choke — many are disguised cranks",
+    "Trying to 'tough out' a neck crank thinking it will 'come on' like a choke — cranks do not resolve, they only get worse",
+    "Not tapping early enough to neck cranks in training — the damage accumulates over months and years",
+    "Confusing a can opener (crank) with a collar choke (safe) — both can be applied from guard but have completely different mechanisms"
+  ],
+  "coachingCues": [
+    "Chin pressure = crank, tap now",
+    "Side neck pressure = choke, defend safely",
+    "Spine compression = immediate tap",
+    "If unsure, tap — protect the neck"
+  ],
+  "safetySummary": [
+    "Neck cranks can cause disc herniation, ligament sprains, nerve impingement, and chronic neck pain",
+    "The can opener (pushing the back of the head toward the chest from guard) is the most common dangerous crank in BJJ",
+    "The twister (spinal lock from back control) aggressively rotates the cervical spine and can cause serious injury if applied suddenly",
+    "Some guillotine and D'Arce variations can become neck cranks if the angle is off — if you feel chin pressure, tap and re-set",
+    "Even mild neck cranks cause cumulative damage — do not accept 10 'light' cranks per week as normal training"
+  ],
+  "systemLogic": {
+    "corePrinciple": "Neck crank recognition requires understanding the three types of neck attacks: blood choke, air choke, and neck crank",
+    "decisionTree": [
+      {
+        "condition": "General application",
+        "action": "Blood choke (strangle): pressure is applied to the carotid arteries on both sides of the neck. Cause unconsciousness by preventing oxygenated blood from reaching the brain. Structure: cross-collar, rear-naked, triangle, guillotine (when correctly applied), baseball bat. Safe to train with controlled application"
+      },
+      {
+        "condition": "General application",
+        "action": "Air choke: pressure is applied to the trachea/windpipe. Causes difficulty breathing but does not cut off blood flow. Structure: front choke, some cross-collar variations, some baseball bat variations. Higher injury risk than blood choke"
+      },
+      {
+        "condition": "Neck crank: pressure is applied to the cervical spine via the chin, back of the head, or base of the skull. Structure: can opener, twister, some guillotine variations (when rolled), some D'Arce variations, some triangle variations. NOT safe to train aggressively",
+        "action": "cumulative damage"
+      },
+      {
+        "condition": "General application",
+        "action": "Recognition rule: if you feel pressure on the sides of your neck (near the jaw bone) = likely a blood choke. If you feel pressure on your chin, back of head, or top of spine = definitely a crank"
+      },
+      {
+        "condition": "General application",
+        "action": "Response rule: blood choke = defend or escape. Neck crank = tap immediately if significant pressure is applied"
+      }
+    ],
+    "exitStrategies": []
+  },
+  "moneyDetails": [
+    "Neck crank recognition prevents the most common source of chronic training injuries in BJJ — cumulative neck damage",
+    "Knowing the difference between a crank and a choke allows you to train submissions safely at full intensity",
+    "Protecting your neck for 10+ years of training requires disciplined tapping to cranks in every training session",
+    "A healthy neck at age 50 is worth more than any tap you avoided at age 25"
+  ],
+  "fixItFast": [
+    "If you feel chin or spine pressure: tap immediately — you lose absolutely nothing by tapping early to a neck crank",
+    "If you feel ambiguous pressure (unsure if crank or choke): tap — uncertainty means it is probably not a clean choke",
+    "If your neck feels stiff or sore after training: you are not tapping early enough to cranks. Prioritize neck protection"
+  ]
+}

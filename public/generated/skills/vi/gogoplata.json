@@ -1,0 +1,123 @@
+{
+  "id": "gogoplata",
+  "domain": "submission_systems",
+  "level": "advanced",
+  "status": "draft",
+  "name": "gogoplata",
+  "aliases": [],
+  "tags": [
+    "gogoplata",
+    "neck-safety",
+    "guard-submission",
+    "tier:advanced-niche",
+    "meta:specialized",
+    "risk:safety-critical",
+    "family:submission",
+    "group:clamp-guard",
+    "modern-no-gi"
+  ],
+  "keywords": [
+    "gogoplata",
+    "neck safety",
+    "shin pressure"
+  ],
+  "modernSystemGroup": "clamp_guard",
+  "relatedSkills": [
+    {
+      "id": "clamp-guard-control",
+      "type": "recommended"
+    },
+    {
+      "id": "buggy-choke",
+      "type": "recommended"
+    },
+    {
+      "id": "smother-safety",
+      "type": "recommended"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "clamp-guard-control",
+    "front-headlock-defense"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [
+    "Nếu họ có thể thở bằng ống chân của bạn trên cổ họ thì góc của bạn đã sai - hãy xoay hông để cắt sâu hơn.",
+    "Nếu chúng chạm vào áp lực quay cổ (không bị sặc), hãy điều chỉnh vị trí ống chân của bạn ngay lập tức.",
+    "Nếu họ tóm lấy chân bạn và đẩy ra xa thì khả năng kiểm soát chân của bạn yếu - hãy kẹp chân bạn chặt hơn."
+  ],
+  "version": 1,
+  "updatedAt": "2026-05-21T00:24:30.776Z",
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "vi",
+  "description": "Đòn bóp cổ sử dụng xương ống chân ngang cổ họng của đối phương - phải được phân biệt với đòn siết cổ bằng cách đảm bảo ống chân nằm ngang cổ họng chứ không phải qua hàm hoặc cột sống cổ.",
+  "shortInstruction": "Shin qua cổ họng, kéo đầu xuống, bóp - gogoplata là một cú siết cổ chân, không phải là quây cổ.",
+  "summary": "gogoplata là một đòn bóp cổ No-Gi nâng cao, trong đó bạn sử dụng xương ống chân của chính mình để nén cổ họng đối phương trong khi dùng tay kéo đầu họ xuống. Nó thường được thiết lập từ cao su guard hoặc cao guard. Sự khác biệt quan trọng về an toàn là giữa nghẹt máu (ống chân ngang cổ họng, nén khí quản và động mạch cảnh) và cổ vẹo (ống ngang cằm hoặc cột sống cổ). gogoplata là một cuộn cảm hợp pháp khi được áp dụng đúng cách, nhưng rất dễ vô tình áp dụng như một tay quay.",
+  "whyItWorks": [
+    "Xương ống chân là một đòn bẩy chắc chắn và cứng cáp - nó tạo ra nhiều áp lực trực tiếp hơn so với một cú bóp cổ tay.",
+    "Đó là một cuộc tấn công bất ngờ từ guard - hầu hết các đối thủ đều không lường trước được một cú đâm vào cổ họng của họ.",
+    "gogoplata tạo ra một tình huống khó xử: bảo vệ ống chân trên cổ họng của bạn hoặc bảo vệ armbar trên cánh tay đã trụ của bạn.",
+    "Nguyên tắc Danaher: cuộn cảm ở chân rất mạnh vì chúng sử dụng những xương khỏe nhất trong cơ thể (ống chân) để chống lại vùng dễ bị tổn thương nhất (cổ)."
+  ],
+  "commonMistakes": [
+    "Để ống chân trượt lên mặt hoặc cằm - điều này biến cuộn cảm thành cổ.",
+    "Không kéo đầu đối phương xuống - động tác kéo đầu tạo ra sự kết nối giữa ống chân và cổ họng.",
+    "Sử dụng cao su guard quá mức — gogoplata có thể được thiết lập từ mức cao thông thường guard.",
+    "Buộc cuộn cảm khi không có góc — gogoplata yêu cầu vị trí cụ thể."
+  ],
+  "coachingCues": [
+    "Shin trên cổ họng, không phải cằm.",
+    "Kéo đầu xuống, không đẩy ống chân lên.",
+    "Nếu cằm của họ chạm vào ống chân của bạn, bạn đang vặn vẹo - hãy điều chỉnh.",
+    "gogoplata bị sặc — nếu cảm thấy không giống như vậy thì đã sai."
+  ],
+  "safetySummary": [
+    "Hãy chắc chắn rằng ống chân của bạn nằm ngang qua HỌNG, không phải mặt hoặc cột sống cổ.",
+    "Một cú đánh ngang qua cằm hoặc quai hàm có thể gây chấn thương cổ nghiêm trọng - đây là hiện tượng tay quay chứ không phải nghẹt thở.",
+    "Nhả ngay khi nhấn — gogoplata có thể cực kỳ khó chịu ngay cả khi ở áp suất thấp.",
+    "Hãy thận trọng khi sử dụng — gogoplata bị cấm trong một số bộ quy tắc cạnh tranh."
+  ],
+  "systemLogic": {
+    "corePrinciple": "Cao su guard hoặc cao guard: đưa chân lên vai đối diện → cẳng chân qua cổ họng họ → kéo đầu họ xuống → bóp.",
+    "decisionTree": [
+      {
+        "condition": "Ứng dụng chung",
+        "action": "gogoplata hoạt động như một sợi dây xích từ cao su guard: nếu họ bảo vệ cú quét, hãy tấn công gogoplata."
+      },
+      {
+        "condition": "họ bảo vệ bằng tư thế",
+        "action": "chuyển sang triangle hoặc armbar."
+      }
+    ],
+    "exitStrategies": []
+  },
+  "moneyDetails": [
+    "Đặt ống chân của bạn sao cho phần xương phẳng, phẳng ép vào khí quản của chúng - không phải bên ống chân của bạn.",
+    "Kéo đầu họ xuống bằng cách nắm lấy phía sau đầu họ và kéo về phía ngực bạn.",
+    "Bàn chân tự do của bạn phải móc qua mắt cá chân của chính bạn để khóa vị trí chân.",
+    "Giữ hông của bạn di động - điều chỉnh góc cho đến khi cuộn cảm sạch."
+  ],
+  "nextStep": "Sau gogoplata, hãy tìm hiểu hệ thống guard cao su và triangle cuộn cảm.",
+  "fixItFast": [
+    "Shin cứ trượt tới cằm à? Kéo đầu họ xuống mạnh hơn - sự thay đổi góc làm ống chân rơi xuống cổ họng.",
+    "Họ nắm lấy chân của bạn? Bơi chân của bạn sang phía bên kia cổ của họ.",
+    "Choke không hoạt động? Xoay hông của bạn - một sự điều chỉnh nhỏ ở hông sẽ làm thay đổi góc ống chân một cách đáng kể."
+  ]
+}

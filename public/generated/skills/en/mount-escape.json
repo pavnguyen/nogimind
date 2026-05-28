@@ -1,0 +1,124 @@
+{
+  "id": "mount-escape",
+  "domain": "escapes",
+  "level": "beginner",
+  "status": "draft",
+  "name": "Mount Escape",
+  "aliases": [],
+  "tags": [
+    "escape",
+    "mount"
+  ],
+  "keywords": [
+    "mount",
+    "bridge",
+    "elbow escape",
+    "inside position"
+  ],
+  "relatedSkills": [
+    {
+      "id": "half-guard-knee-shield",
+      "type": "recommended"
+    },
+    {
+      "id": "mount-control",
+      "type": "recommended"
+    },
+    {
+      "id": "side-control-escape",
+      "type": "recommended"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "mount-survival"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [],
+  "version": 1,
+  "updatedAt": "2026-05-21T00:24:30.750Z",
+  "contentRefs": {
+    "videos": "videos.json",
+    "qualityChecklist": "qualityChecklist"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": true,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "en",
+  "description": "Combine bridge, elbow escape, and knee-elbow recovery to escape mount with structure.",
+  "shortInstruction": "Bridge to off-balance, turn to your side, pummel the elbow inside, and recover guard using the knee-elbow connection.",
+  "summary": "Mount escape uses a sequenced bridge to create space, elbow placement to block the crossface, and hip escape to recover guard or a knee-shield position. The system rewards timing over explosiveness.",
+  "whyItWorks": [
+    "A well-timed bridge loads the opponent's weight onto their hands, creating the window to insert the elbow",
+    "The elbow-to-knee connection creates a structural frame that prevents the opponent from flattening you again",
+    "Hip escape after the bridge maintains distance and denies them the ability to re-establish high mount",
+    "Turning to your side before escaping uses your strongest skeletal alignment against their top pressure"
+  ],
+  "commonMistakes": [
+    "Bridging without first framing — you waste energy and stay flat",
+    "Pulling the knee toward the chest instead of inserting the knee-elbow connection",
+    "Turning to the wrong side and giving up the back",
+    "Chasing the escape with multiple weak bridges instead of one well-timed bridge with elbow pummel"
+  ],
+  "coachingCues": [
+    "Frame before bridge",
+    "Knee to elbow, not chest",
+    "Turn, don't bench press"
+  ],
+  "safetySummary": [
+    "Escaping mount with explosive bridging in a confined space can cause accidental head clashes",
+    "Do not bridge if you feel the opponent has already isolated your arm for an armbar",
+    "Relax and breathe when flattened — panic bridging consumes oxygen and makes the position worse"
+  ],
+  "systemLogic": {
+    "corePrinciple": "Mount escape follows a three-step sequence: frame + bridge → elbow pummel → hip escape toward knee-elbow connection. Each step sets up the next — bridging loads weight forward, elbow pummel blocks the crossface, and knee-elbow frames the guard.",
+    "decisionTree": [
+      {
+        "condition": "Opponent is mounted with both knees on the mat",
+        "action": "Frame both forearms on their hips, bridge to off-balance them forward, then immediately turn to your side and pummel your near elbow inside."
+      },
+      {
+        "condition": "Opponent posts wide to counter your bridge",
+        "action": "Re-frame and bridge in the opposite direction before committing to the elbow pummel. Do not force the elbow pummel against a counter — reset and bridge again."
+      },
+      {
+        "condition": "Elbow pummel succeeds (elbow is inside)",
+        "action": "Hip escape away from the opponent while keeping the elbow-knee connection tight. Recover to half guard with a knee shield."
+      },
+      {
+        "condition": "Opponent switches to technical mount as you escape",
+        "action": "Protect your back immediately by staying on your side and keeping the near arm across your belly. Do not turn away from them."
+      },
+      {
+        "condition": "Opponent flattens you again after the bridge",
+        "action": "Your elbow pummel was too shallow — focus on getting the elbow past their hip line before committing to the hip escape."
+      }
+    ],
+    "exitStrategies": [
+      "If you recover knee-elbow, enter half guard and establish the knee shield immediately.",
+      "If they turn to side control during the escape, use the frame to keep distance and continue hip escaping.",
+      "If the first bridge fails to create space, do not chain multiple weak bridges — one well-timed bridge with elbow pummel is worth ten explosive bridges without structure."
+    ]
+  },
+  "moneyDetails": [
+    "Mastering the mount escape removes the fear of being mounted — you can train harder and compete more confidently",
+    "It is the single most important survival skill in BJJ: everyone gets mounted, not everyone escapes",
+    "Competition mount escapes win matches by one point or by resetting to a neutral position where you can attack"
+  ],
+  "fixItFast": [
+    "If you can't insert the elbow: bridge harder to one side, then sharply change direction to create space on the trapped arm side",
+    "If they flatten you again after the bridge: your elbow pummel was too shallow. Focus on getting the elbow past their hip line",
+    "If they switch to technical mount: protect the back immediately by staying on your side and keeping the near arm across your belly"
+  ]
+}

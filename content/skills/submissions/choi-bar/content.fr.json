@@ -1,0 +1,61 @@
+{
+  "id": "choi-bar",
+  "locale": "fr",
+  "name": "Choi Bar",
+  "description": "Utilisez une pince d'épaule et une commande de poignet de guard pour vous déplacer dans une ligne armbar - un armbar hybride qui attaque depuis un angle de 45 degrés plutôt que la finition perpendiculaire traditionnelle.",
+  "shortInstruction": "Serrez l'épaule, contrôlez le poignet, tournez vers la ligne armbar - la barre Choi se termine sous un angle, pas directement.",
+  "summary": "La barre Choi est une variante No-Gi armbar qui attaque depuis un angle de 45 degrés plutôt que la finition perpendiculaire traditionnelle. Vous utilisez une pince d'épaule (similaire à la pince guard) pour coincer son bras et son épaule, puis faites pivoter vos hanches pour exposer son coude. Le nom vient d'une combinaison de « starter » et « armbar » — il peut être saisi à partir des configurations et des chaînes de starter directement dans le armbar. Il est particulièrement efficace à partir des positions de piège kimura et de pince guard.",
+  "whyItWorks": [
+    "L'angle d'attaque de 45 degrés attrape les adversaires habitués à défendre le armbar traditionnel de 90 degrés.",
+    "La pince d’épaule les empêche de libérer leur bras – leur coude est exposé par la rotation de votre hanche.",
+    "Il peut être saisi à partir de positions communes (guard, half guard, kimura trap) sans configuration complexe.",
+    "Principe de Danaher : attaquer le coude sous l'angle qu'il ne défend pas."
+  ],
+  "commonMistakes": [
+    "Ne pas contrôler l’épaule avant d’attaquer le bras – la pince d’épaule doit être serrée.",
+    "Laisser l’adversaire baisser le coude – garder la paume vers le haut tout au long.",
+    "Tomber en arrière pour finir au lieu de faire pivoter les hanches – la barre Choi utilise la rotation des hanches et non la chute en arrière.",
+    "Perdre le contrôle du poignet pendant la rotation : maintenez la poignée du poignet pendant la rotation."
+  ],
+  "coachingCues": [
+    "Serrez l'épaule, possédez le bras.",
+    "Faites pivoter vos hanches, ne tombez pas en arrière.",
+    "S'ils défendent le kimura, frappez la barre Choi.",
+    "Paume vers le haut, coude exposé, finition propre."
+  ],
+  "safetySummary": [
+    "La barre Choi hyperétend le coude – appliquez avec contrôle et relâchez en appuyant.",
+    "Ne faites pas de rotation explosive si vous ressentez une résistance au niveau du coude – une finition contrôlée évite les blessures.",
+    "N’appliquez jamais le armbar avec une force soudaine – les blessures par hyperextension se produisent rapidement."
+  ],
+  "keyCorrections": [
+    "S'ils libèrent leur bras, votre pince d'épaule était desserrée – serrez la pince avant de réattaquer.",
+    "Si vous ne trouvez pas l'angle armbar, la rotation de votre hanche est insuffisante : éloignez davantage vos hanches.",
+    "S'ils vous empilent, relâchez la barre Choi et réinitialisez – ne combattez pas la pile."
+  ],
+  "systemLogic": {
+    "corePrinciple": "kimura piège ou pince guard : pince d'épaule → commande du poignet → rotation des hanches → exposer le coude → étendre pendant armbar.",
+    "decisionTree": [
+      {
+        "condition": "Application générale",
+        "action": "La barre Choi fonctionne comme une chaîne du kimura : s'ils défendent le kimura en cachant leur bras, la barre Choi est la réponse."
+      },
+      {
+        "condition": "Application générale",
+        "action": "Après la barre Choi, enchaînez vers kimura ou omoplata s'ils défendent."
+      }
+    ]
+  },
+  "moneyDetails": [
+    "La pince d'épaule est votre base : un bras sur l'épaule, l'autre contrôlant son poignet.",
+    "Éloignez vos hanches d'eux tout en tirant leur poignet vers vous - cela expose le coude.",
+    "Gardez la paume tournée vers le haut (en supination) partout – une paume tournée signifie que le coude est protégé.",
+    "La finition est une extension à courte portée – vous n’avez pas besoin de l’étendre complètement ; soulevez simplement vos hanches et tirez leur poignet."
+  ],
+  "nextStep": "Après la barre Choi, apprenez le système kimura et serrez le contrôle guard.",
+  "fixItFast": [
+    "Vous ne pouvez pas tourner ? Vos hanches sont coincées – soulevez et tournez, ne vous contentez pas de tirer le bras.",
+    "Le bras continue de se redresser ? La paume doit être relevée – faites pivoter le poignet pour supiner le bras.",
+    "Ils vous empilent ? Relâchez, cadrez sur leurs hanches et réinitialisez à guard."
+  ]
+}

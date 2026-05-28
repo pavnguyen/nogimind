@@ -1,0 +1,61 @@
+{
+  "id": "baratoplata",
+  "locale": "fr",
+  "name": "Baratoplata",
+  "description": "Un verrouillage d'épaule de guard utilisant les jambes et l'angle de la hanche pour isoler l'épaule de l'adversaire - résultat similaire à un kimura, mais attaquant sous un angle différent avec implication des jambes.",
+  "shortInstruction": "Contrôlez le poignet, emprisonnez le bras avec votre jambe, faites pivoter vos hanches – le baratoplata est un kimura assisté par la jambe sous un angle différent.",
+  "summary": "Le baratoplata est un puissant verrou d'épaule qui combine des éléments du omoplata et du kimura. Contrairement au kimura (qui utilise les deux mains sur le bras), le baratoplata utilise l'une de vos jambes pour épingler son bras contre votre corps pendant que vous faites pivoter vos hanches pour appliquer le verrouillage de l'épaule. Cela crée des angles uniques que le kimura ne peut pas atteindre et peut attraper des adversaires concentrés sur la défense des entrées standard kimura.",
+  "whyItWorks": [
+    "Utiliser votre jambe pour piéger son bras libère une de vos mains pour l'équilibre ou le combat de préhension.",
+    "Le baratoplata attaque l'épaule sous un angle que la norme kimura ne couvre pas.",
+    "Il peut être saisi à partir de positions où le kimura est difficile (guard, half guard).",
+    "Principe de Danaher : chaque articulation doit être attaquée sous plusieurs angles : le baratoplata couvre l'angle manqué par le kimura."
+  ],
+  "commonMistakes": [
+    "Ne contrôlant pas le poignet avant d’engager le piège à jambe, ils libéreront leur bras.",
+    "Laisser le bras coincé glisser sous votre jambe – la jambe doit épingler le bras contre votre corps.",
+    "S'appuyer sur la force des bras pour terminer au lieu de la rotation des hanches - la finition vient de la rotation de vos hanches.",
+    "Oublier de contrôler leur posture – s’ils se maintiennent, le baratoplata perd son angle."
+  ],
+  "coachingCues": [
+    "Poignet en premier, jambe en deuxième, hanche en troisième.",
+    "Piège le bras, fais pivoter les hanches, termine l'épaule.",
+    "S'ils défendent le kimura, attaquez le baratoplata.",
+    "Les jambes font le travail, les bras ne font que guider."
+  ],
+  "safetySummary": [
+    "Le baratoplata applique une pression de rotation sur l'épaule – appliquez lentement et respectez le robinet.",
+    "Ne tournez pas l’épaule si l’adversaire a des problèmes d’épaule préexistants.",
+    "Gardez le contrôle de leur posture tout au long pour éviter qu’ils ne tombent sur votre jambe."
+  ],
+  "keyCorrections": [
+    "S'ils libèrent le bras, le contrôle de votre poignet était faible – saisissez-le à nouveau avec une prise plus forte à deux contre un.",
+    "Si vous ne parvenez pas à terminer, la rotation de vos hanches est insuffisante – éloignez davantage vos hanches d'elles.",
+    "S'ils vous empilent, relâchez le baratoplata et réinitialisez – ne combattez pas la pile."
+  ],
+  "systemLogic": {
+    "corePrinciple": "kimura tentative de préhension : l'adversaire défend le kimura → passer en baratoplata : amener votre jambe sur son bras → faire pivoter les hanches → terminer.",
+    "decisionTree": [
+      {
+        "condition": "Le baratoplata peut également être saisi directement depuis guard : contrôlez son poignet",
+        "action": "coincez le bras avec votre jambe → faites pivoter."
+      },
+      {
+        "condition": "ils défendent le baratoplata en tirant le bras",
+        "action": "revenez au kimura."
+      }
+    ]
+  },
+  "moneyDetails": [
+    "Saisissez son poignet avec une forte prise à quatre doigts (pouce du côté de la paume) pour contrôler la rotation.",
+    "Amenez votre jambe supérieure sur son bras coincé et épinglez-la contre votre poitrine – c'est votre piège à jambe.",
+    "Éloignez vos hanches d'elles pendant que vous tirez leur poignet vers vous - la rotation crée le verrouillage de l'épaule.",
+    "Gardez votre jambe libre sur sa hanche pour contrôler sa distance – cela l’empêche de se positionner."
+  ],
+  "nextStep": "Après le baratoplata, apprenez le système kimura et omoplata pour construire un système complet d'attaque d'épaule.",
+  "fixItFast": [
+    "Le bras continue de glisser ? Épinglez-le plus fort avec votre jambe contre votre poitrine.",
+    "Vous ne pouvez pas tourner ? Vos hanches sont coincées – soulevez vos hanches et éloignez votre corps d’elles.",
+    "Ils se tiennent debout ? Poussez sur leur hanche avec votre jambe libre pour les faire tomber."
+  ]
+}

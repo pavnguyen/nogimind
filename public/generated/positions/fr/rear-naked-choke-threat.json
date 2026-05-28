@@ -1,0 +1,56 @@
+{
+  "id": "rear-naked-choke-threat",
+  "locale": "fr",
+  "title": "Menace de rear naked choke",
+  "category": "submission_threat",
+  "status": "critical",
+  "description": "L’attaquant depuis le contrôle du dos ouvre un chemin sous le menton avec le hand fighting et la connexion poitrine-dos.",
+  "topPlayerGoals": [
+    "Le joueur du dessus veut contrôler Menace de rear naked choke avec la position de tête, la position intérieure et une pression orientée.",
+    "Aligner le coude qui étrangle, enlever le jeu et finir proprement sans tordre le cou.",
+    "Garder une base stable pour éviter d’être déséquilibré ou contré."
+  ],
+  "bottomPlayerGoals": [
+    "Le joueur du dessous veut survivre en Menace de rear naked choke avec des cadres, du pummeling ou le bon angle.",
+    "Gagner le two-on-one, garder le menton en sécurité et mettre l’épaule au tapis.",
+    "Reconnaître les signaux de danger tôt au lieu d’attendre que la position se stabilise."
+  ],
+  "controlPoints": [
+    "Point de contrôle principal : Poignet qui étrangle, ligne du coude et connexion poitrine-dos..",
+    "La tête, les mains, les hanches et les genoux doivent suivre la même direction de force.",
+    "La connexion coude-genou ou la ligne hanches-épaules détermine si la position reste vivante ou verrouillée."
+  ],
+  "escapePriorities": [
+    "Priorité de sortie : Faire le hand fight avant de retirer le hook..",
+    "Protéger le cou, le dos, la ligne du genou ou la ligne du bras avant de contrer.",
+    "Si la position intérieure est perdue, rétablir d’abord une couche défensive."
+  ],
+  "advancementOptions": [
+    {
+      "action": "Le défenseur libère la ligne d’étranglement pour entrer dans une voie de sortie",
+      "nextPositionId": "back-escape-position",
+      "relatedSkillIds": [
+        "rear-naked-choke-system",
+        "back-control",
+        "back-escape"
+      ],
+      "why": "C’est la branche naturelle lorsque vous gagnez le point de contrôle principal et que l’adversaire est forcé de défendre."
+    }
+  ],
+  "dangerSignals": [
+    "Le menton ou le cou sort de la ligne sûre.",
+    "Le coude se sépare des côtes ou du genou.",
+    "La ligne des hanches est verrouillée pendant que la ligne des épaules est encore tirée.",
+    "Vous devez poser une main loin pour éviter de tomber."
+  ],
+  "relatedSkillIds": [
+    "rear-naked-choke-system",
+    "back-control",
+    "back-escape"
+  ],
+  "relatedConceptIds": [
+    "control-before-submission",
+    "dilemma-attacks",
+    "early-vs-late-defense"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "id": "pummeling",
+  "locale": "vi",
+  "title": "Pummeling",
+  "category": "mechanical",
+  "level": "fundamental",
+  "tags": [
+    "pummel",
+    "inside position",
+    "underhook"
+  ],
+  "shortDefinition": "Pummeling là cuộc đổi đường trong liên tục bằng tay, đầu, gối hoặc hông.",
+  "whyItMatters": "No-gi không có grip áo, nên pummeling là cách tái tạo kiểm soát sau mỗi phản ứng.",
+  "deepExplanation": "Pummeling không chỉ là underhook battle. Guard retention có knee pummel; leg locks có knee line pummel; front headlock defense có elbow/chin pummel.",
+  "beginnerView": "Mất đường trong thì lấy lại trước khi tấn công.",
+  "advancedView": "Pummel theo reaction: đối thủ frame đâu thì đường trong mở ở chỗ khác.",
+  "ifThenExamples": [
+    {
+      "if": "Nếu bạn mất Pummeling trong trao đổi.",
+      "then": "Dừng tăng tốc, lấy lại cấu trúc cơ thể gần nhất rồi mới tiếp tục kỹ thuật.",
+      "why": "No-gi hiện đại phạt rất nhanh khi bạn cố thắng bằng sức sau khi mất cấu trúc.",
+      "relatedSkillIds": [
+        "frames-pummeling",
+        "hand-fighting"
+      ]
+    },
+    {
+      "if": "Nếu đối thủ phản ứng đúng với hướng đầu tiên.",
+      "then": "Dùng Pummeling để đổi sang nhánh an toàn hơn thay vì ép cùng một hướng.",
+      "why": "Concept tốt biến phản ứng của đối thủ thành thông tin cho quyết định tiếp theo.",
+      "relatedSkillIds": [
+        "hand-fighting",
+        "half-guard-wrestle-up",
+        "bodylock-passing"
+      ]
+    }
+  ],
+  "commonMisunderstandings": [
+    {
+      "misunderstanding": "Pummeling là một mẹo kỹ thuật riêng lẻ.",
+      "correction": "Hãy xem nó như quy tắc quyết định xuất hiện trong nhiều vị trí khác nhau."
+    },
+    {
+      "misunderstanding": "Bạn chỉ cần hiểu khái niệm là tự động dùng được trong live roll.",
+      "correction": "Khái niệm phải được gắn với body signal, cue ngắn và positional rolling."
+    }
+  ],
+  "trainingCues": [
+    "Gọi tên Pummeling trước khi tăng lực.",
+    "Tìm body signal, không đoán bằng cảm giác chung.",
+    "Nếu mất cấu trúc, reset một layer trước.",
+    "Drill chậm, test bằng resistance tăng dần."
+  ],
+  "relatedSkillIds": [
+    "frames-pummeling",
+    "hand-fighting",
+    "half-guard-wrestle-up",
+    "bodylock-passing"
+  ],
+  "relatedConceptIds": [
+    "inside-position",
+    "frames",
+    "failure-response"
+  ]
+}

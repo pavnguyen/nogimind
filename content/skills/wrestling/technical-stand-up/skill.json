@@ -1,0 +1,48 @@
+{
+  "id": "technical-stand-up",
+  "domain": "wrestle_up_wrestling",
+  "level": "beginner",
+  "name": "Technical Stand-Up",
+  "aliases": [],
+  "tags": [
+    "wrestling",
+    "base"
+  ],
+  "keywords": [
+    "technical stand-up",
+    "base",
+    "head position",
+    "hand fighting"
+  ],
+  "relatedSkills": [
+    {
+      "id": "hand-fighting",
+      "type": "recommended"
+    },
+    {
+      "id": "seated-guard-retention",
+      "type": "recommended"
+    },
+    {
+      "id": "guard-pulling-strategy",
+      "type": "recommended"
+    }
+  ],
+  "prerequisiteSkillIds": [
+    "inside-position"
+  ],
+  "relatedPositions": [],
+  "relatedConcepts": [],
+  "archetypeIds": [],
+  "trainingMethodIds": [],
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "updatedAt": "2026-05-21T00:24:30.759Z"
+}

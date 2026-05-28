@@ -1,0 +1,117 @@
+{
+  "id": "triangle-system",
+  "domain": "submission_systems",
+  "level": "advanced",
+  "status": "draft",
+  "name": "Triangle System",
+  "aliases": [],
+  "tags": [
+    "choke",
+    "triangle",
+    "neck-safety"
+  ],
+  "keywords": [
+    "triangle",
+    "posture control",
+    "angle before squeeze",
+    "neck safety"
+  ],
+  "relatedSkills": [
+    {
+      "id": "armbar-system",
+      "type": "recommended"
+    },
+    {
+      "id": "omoplata-system",
+      "type": "recommended"
+    },
+    {
+      "id": "shoulder-crunch-control",
+      "type": "recommended"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "clamp-guard-control",
+    "guard-pulling-strategy"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [
+    "If the choke feels loose, your angle is not sharp enough — walk your hips further away from them.",
+    "If they stack you, release the triangle and hip escape — don't fight the stack.",
+    "If they pull their trapped arm free, your leg position was wrong — re-capture the arm with your leg."
+  ],
+  "version": 1,
+  "updatedAt": "2026-05-21T00:24:30.744Z",
+  "contentRefs": {
+    "videos": "videos.json",
+    "qualityChecklist": "qualityChecklist"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": true,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "en",
+  "description": "Lock one shoulder in and one shoulder out, break the opponent's posture, cut the angle, and squeeze — the triangle is a leg choke that uses the opponent's own shoulder to close the choke.",
+  "shortInstruction": "One arm in, one arm out, break posture, cut the angle, squeeze — the triangle is the ultimate control choke from guard.",
+  "summary": "The triangle choke is the highest percentage submission from closed guard. It works by trapping one of their arms inside your legs while the other arm is outside, creating a 'triangle' of your legs around their neck and arm. When you cut an angle (walking your hips away from them), their own shoulder presses against one side of their carotid while your leg compresses the other. The opponent's own shoulder becomes part of the choke — this is why the triangle is so effective.",
+  "whyItWorks": [
+    "The opponent's own shoulder completes the choke — their body is used against them.",
+    "Cutting the angle (walking your hips away) tightens the choke without needing to squeeze harder.",
+    "The triangle traps one arm, preventing them from posting or basing to escape.",
+    "Danaher principle: the triangle is the most mechanically efficient choke in BJJ — when the angle is correct, the choke requires almost no squeezing force."
+  ],
+  "commonMistakes": [
+    "Locking the triangle too early — lock only after breaking their posture and cutting the angle.",
+    "Not cutting the angle before squeezing — a square triangle can be escaped by posture.",
+    "Letting their trapped arm slide out — the arm must be pinned against your body.",
+    "Squeezing with the legs before locking the triangle — the lock must be secure before any squeeze."
+  ],
+  "coachingCues": [
+    "One arm in, one arm out — that's the triangle.",
+    "Break posture, cut the angle, lock, squeeze.",
+    "Walk your hips away — the angle creates the choke.",
+    "Their shoulder is your partner — let it help you."
+  ],
+  "safetySummary": [
+    "The triangle compresses the neck and carotid arteries — apply gradually and release on tap.",
+    "Do not pull the opponent's head down aggressively — this can cause neck cranking.",
+    "Release immediately on tap — triangle chokes can cause unconsciousness quickly."
+  ],
+  "systemLogic": {
+    "corePrinciple": "Guard: trap their arm across your body → one arm in, one arm out → break their posture → lock the triangle (shin across back of your knee) → cut angle → squeeze.",
+    "decisionTree": [
+      {
+        "condition": "The triangle chains with the armbar",
+        "action": "if they defend the triangle by posturing, attack the armbar."
+      },
+      {
+        "condition": "they stack to escape",
+        "action": "hip escape and re-attack or transition to sweep."
+      }
+    ],
+    "exitStrategies": []
+  },
+  "moneyDetails": [
+    "Their trapped arm must be across your centerline — pin their arm against your chest with your same-side hand.",
+    "Lock your triangle by placing the shin of your top leg across the back of your bottom leg's knee.",
+    "Cut the angle by walking your hips away from them — the further you walk, the tighter the choke.",
+    "The choke tightens when you squeeze your knees together while pulling their head down."
+  ],
+  "nextStep": "After the triangle system, learn the armbar from triangle and triangle to sweep transitions.",
+  "fixItFast": [
+    "Choke feels loose? Walk your hips further away — the angle is the key.",
+    "They stack you? Hip escape and re-attack — don't fight the stack.",
+    "They posture? Attack the armbar on the free arm."
+  ]
+}

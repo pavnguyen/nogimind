@@ -1,0 +1,123 @@
+{
+  "id": "octopus-guard-control",
+  "domain": "guard_retention",
+  "level": "intermediate",
+  "status": "draft",
+  "name": "Poulpe guard Contrôle",
+  "aliases": [],
+  "tags": [
+    "octopus",
+    "guard",
+    "hip-angle",
+    "wrestle-up",
+    "tier:modern-expansion",
+    "meta:modern-common",
+    "risk:medium",
+    "family:guard",
+    "group:octopus",
+    "modern-no-gi"
+  ],
+  "keywords": [
+    "octopus guard",
+    "far hip",
+    "crossface defense"
+  ],
+  "modernSystemGroup": "octopus",
+  "relatedSkills": [
+    {
+      "id": "octopus-guard-sweep",
+      "type": "recommended"
+    },
+    {
+      "id": "octopus-back-take",
+      "type": "recommended"
+    },
+    {
+      "id": "dogfight-knee-tap",
+      "type": "recommended"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "side-control-escape",
+    "half-guard-wrestle-up"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [
+    "S'ils s'éloignent, votre écharpe au niveau de la hanche est lâche : resserrez-la ou passez à un underhook.",
+    "S'ils vous crossface, vous êtes assis trop carrément – ​​coupez un angle plus net par rapport à leur pression.",
+    "S'ils dépassent le cadre de votre jambe, vous avez attendu trop longtemps pour attaquer – balayage ou transition immédiatement."
+  ],
+  "version": 1,
+  "updatedAt": "2026-05-21T00:24:30.774Z",
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "fr",
+  "description": "Maintenez la position guard de la pieuvre avec un enveloppement éloigné de la hanche, un angle assis et un refus crossface pour contrôler le haut du corps de l'adversaire et l'empêcher de passer.",
+  "shortInstruction": "Enroulez la hanche la plus éloignée, asseyez-vous incliné, refusez le crossface — la pieuvre guard est contrôlée par le bas.",
+  "summary": "Octopus guard est un guard spécifique à No-Gi où vous vous asseyez d'un côté de l'adversaire, enroulez votre bras autour de sa hanche éloignée (ou passez la main sous son corps) et utilisez vos jambes pour encadrer sa jambe la plus proche. Cette position les empêche de vous aplatir ou d'appliquer une pression crossface. À partir de là, vous pouvez balayer (en tirant sur la hanche la plus éloignée), prendre le dos ou entrer dans des enchevêtrements de jambes.",
+  "whyItWorks": [
+    "S'asseoir sur le côté supprime leur capacité à vous aplatir avec une pression sur la poitrine – ils n'ont pas d'angle carré à partir duquel passer.",
+    "L'enveloppement au niveau des hanches contrôle leur centre de gravité : vous ressentez chaque transfert de poids qu'ils effectuent.",
+    "Vos jambes encadrant leur jambe la plus proche les empêchent d'entrer dans la passe.",
+    "Principe de Danaher : si vous ne pouvez pas être aplati, vous ne pouvez pas être dépassé — la pieuvre guard est la position anti-aplatie."
+  ],
+  "commonMistakes": [
+    "Perdre l'enveloppe de la hanche lointaine : c'est votre principal point de contrôle ; sans cela, ils s'en vont.",
+    "Assis en carré plutôt qu'en angle – une position carrée leur donne le crossface.",
+    "Laissez-les enjamber votre jambe d’encadrement – ​​une fois qu’ils ont dégagé la jambe, la passe est à moitié terminée.",
+    "Rester trop longtemps dans la pieuvre guard - c'est un poste de contrôle de transition, pas un foyer."
+  ],
+  "coachingCues": [
+    "Asseyez-vous sur le côté, pas devant.",
+    "Enroulez la hanche éloignée, maîtrisez la rotation.",
+    "Les cadres de pieds sont vos murs – ne les laissez pas enjamber.",
+    "S'ils refusent l'enveloppement de la hanche, frappez le underhook."
+  ],
+  "safetySummary": [
+    "Ne les laissez pas vous saisir la tête et crossface — gardez votre tête serrée contre leur corps ou du côté opposé.",
+    "Protégez votre genou du côté proche de l’hyperextension lorsqu’il essaie de traverser votre cadre.",
+    "Lorsqu’ils vous percutent, ne postez pas avec le bras tendu – gardez les coudes pliés."
+  ],
+  "systemLogic": {
+    "corePrinciple": "Asseyez-vous sur le côté → enveloppez la hanche la plus éloignée ou passez la main sous le corps → encadrez la jambe près de vos jambes → sentez leur poids → balayez ou prenez le dos.",
+    "decisionTree": [
+      {
+        "condition": "Application générale",
+        "action": "Options Octopus guard : balayez-les vers l'avant (traction de la hanche), balayez-les vers l'arrière (ascenseur) ou revenez en arrière lorsqu'ils se détournent."
+      },
+      {
+        "condition": "Application générale",
+        "action": "S'ils refusent l'entrée de la pieuvre, passez à la position assise guard ou à la moitié profonde."
+      }
+    ],
+    "exitStrategies": []
+  },
+  "moneyDetails": [
+    "Enroulez votre bras autour de leur hanche éloignée aussi profondément que possible – plus l'enveloppement est profond, plus vous avez de contrôle.",
+    "Votre jambe proche est posée sur la cuisse, votre jambe éloignée est posée sur la hanche - deux points de contrôle de la jambe.",
+    "Gardez votre tête de l'autre côté de son corps pour éviter les crossface.",
+    "Lorsque vous sentez qu'ils déplacent leur poids vers l'avant, tirez la hanche la plus éloignée sur votre corps pour le balayage."
+  ],
+  "nextStep": "Après le contrôle du poulpe guard, apprenez le balayage et la prise en retour du poulpe guard.",
+  "fixItFast": [
+    "Ils s'écartent ? Rétablissez l'enveloppe de la hanche éloignée avant qu'elle ne s'ajuste.",
+    "Ils vous crossface ? Asseyez-vous plus profondément sur le côté – éloignez votre tête de la ligne médiane.",
+    "Ils passent votre cadre de jambe ? Passez immédiatement au half guard profond."
+  ]
+}

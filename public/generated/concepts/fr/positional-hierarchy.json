@@ -1,0 +1,65 @@
+{
+  "id": "positional-hierarchy",
+  "locale": "fr",
+  "title": "Hiérarchie positionnelle",
+  "category": "positional",
+  "level": "fundamental",
+  "tags": [
+    "map",
+    "risk",
+    "decision-making"
+  ],
+  "shortDefinition": "Une carte qui montre quelles positions augmentent contrôle, réduisent risque et ouvrent soumissions.",
+  "whyItMatters": "Sans hiérarchie, on attaque au mauvais moment et on saute survie, sortie ou contrôle.",
+  "deepExplanation": "La hiérarchie n’est pas seulement le score; c’est lire le risque. En mauvaise position, survivre et reconstruire. En top/pin, stabiliser avant finir.",
+  "beginnerView": "Apprendre quelles positions sont dangereuses ou plus sûres.",
+  "advancedView": "Utiliser la hiérarchie pour choisir reset, chain ou accepter le risque.",
+  "ifThenExamples": [
+    {
+      "if": "Si vous perdez Hiérarchie positionnelle pendant l’échange.",
+      "then": "Arrêtez d’accélérer, récupérez la structure corporelle proche, puis continuez.",
+      "why": "Le no-gi moderne punit vite la force après perte de structure.",
+      "relatedSkillIds": [
+        "side-control-survival",
+        "mount-control"
+      ]
+    },
+    {
+      "if": "Si l’adversaire répond correctement à votre première ligne.",
+      "then": "Utilisez Hiérarchie positionnelle pour passer à une branche plus sûre au lieu de forcer.",
+      "why": "Un bon concept transforme la réaction adverse en information pour la décision suivante.",
+      "relatedSkillIds": [
+        "mount-control",
+        "back-control",
+        "mount-escape"
+      ]
+    }
+  ],
+  "commonMisunderstandings": [
+    {
+      "misunderstanding": "Hiérarchie positionnelle est une astuce technique isolée.",
+      "correction": "Voyez-le comme une règle de décision présente dans plusieurs positions."
+    },
+    {
+      "misunderstanding": "Comprendre le concept suffit pour l’utiliser en live.",
+      "correction": "Le concept doit être lié à signaux corporels, cues courts et rolling positionnel."
+    }
+  ],
+  "trainingCues": [
+    "Nommez Hiérarchie positionnelle avant d’ajouter force.",
+    "Cherchez le signal corporel, pas une impression vague.",
+    "Si la structure est perdue, reset une couche d’abord.",
+    "Driller lentement, puis tester avec résistance progressive."
+  ],
+  "relatedSkillIds": [
+    "side-control-survival",
+    "mount-control",
+    "back-control",
+    "mount-escape"
+  ],
+  "relatedConceptIds": [
+    "control-before-submission",
+    "failure-response",
+    "base-balance"
+  ]
+}

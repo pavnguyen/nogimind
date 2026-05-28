@@ -1,0 +1,56 @@
+{
+  "id": "knee-cut-position",
+  "locale": "en",
+  "title": "Knee Cut Position",
+  "category": "top_control",
+  "status": "advantage",
+  "description": "The top player cuts the knee across the thigh line while working to win the underhook or crossface and control the hip line.",
+  "topPlayerGoals": [
+    "The top player wants to control Knee Cut Position through head position, inside position, and directed pressure.",
+    "Separate the shoulder line from the hip line, then windshield-wiper the foot free.",
+    "Keep a stable base so you are not off-balanced or countered."
+  ],
+  "bottomPlayerGoals": [
+    "The bottom player wants to survive Knee Cut Position with frames, pummeling, or the right angle.",
+    "Pummel for a knee shield or underhook to wrestle up or recover guard.",
+    "Recognize danger signals early instead of waiting for the position to settle."
+  ],
+  "controlPoints": [
+    "Main control point: Near-knee angle, far underhook, or crossface..",
+    "Head, hands, hips, and knees should share the same force direction.",
+    "The elbow-knee connection or hip-shoulder line determines whether the position is still alive or already locked."
+  ],
+  "escapePriorities": [
+    "Escape priority: Do not let the shoulder line get flattened before recovering the knee..",
+    "Protect the neck, back, knee line, or arm line before countering.",
+    "If inside position is lost, reset one defensive layer first."
+  ],
+  "advancementOptions": [
+    {
+      "action": "Clear the foot and settle the pin",
+      "nextPositionId": "side-control-top",
+      "relatedSkillIds": [
+        "knee-cut-passing",
+        "headquarters-passing",
+        "half-guard-knee-shield"
+      ],
+      "why": "This is the natural branch when you win the main control point and the opponent is forced to defend."
+    }
+  ],
+  "dangerSignals": [
+    "The chin or neck is pulled out of a safe line.",
+    "The elbow separates from the ribs or knee.",
+    "The hip line is locked while the shoulder line is still being pulled.",
+    "You need a long hand post to avoid falling."
+  ],
+  "relatedSkillIds": [
+    "knee-cut-passing",
+    "headquarters-passing",
+    "half-guard-knee-shield"
+  ],
+  "relatedConceptIds": [
+    "angle-creation",
+    "pressure-direction",
+    "hip-line-shoulder-line"
+  ]
+}

@@ -1,3 +1,4 @@
+import { useMemo } from 'react'
 import { Link, useParams } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import { NotFound } from '../components/common/NotFound'
@@ -5,9 +6,9 @@ import { PageShell } from '../components/common/PageShell'
 import { SectionCard } from '../components/common/SectionCard'
 import { useConceptsQuery } from '../queries/conceptQueries'
 import { useDefensiveLayerQuery } from '../queries/defenseQueries'
-import { useSkillsQuery } from '../queries/skillQueries'
+import { useManifestQuery } from '../queries/contentQueries'
 import { useSettingsStore } from '../stores/useSettingsStore'
-import type { LanguageCode, SkillNode } from '../types/skill'
+import type { ManifestEntry } from '../content-runtime/manifests'
 import { getLocalizedArray, getLocalizedText } from '../utils/localization'
 
 export default function DefenseDetailPage() {
@@ -15,10 +16,11 @@ export default function DefenseDetailPage() {
   const { t } = useTranslation()
   const language = useSettingsStore((state) => state.language)
   const layerQuery = useDefensiveLayerQuery(layerId)
-  const skills = useSkillsQuery().data ?? []
+  const manifestQuery = useManifestQuery(language)
+  const manifest = useMemo(() => manifestQuery.data ?? [], [manifestQuery.data])
   const concepts = useConceptsQuery().data ?? []
   const layer = layerQuery.data
-  const skillsById = new Map(skills.map((skill) => [skill.id, skill]))
+  const skillsById = useMemo(() => new Map(manifest.map((s) => [s.id, s])), [manifest])
   const conceptsById = new Map(concepts.map((concept) => [concept.id, concept]))
 
   if (!layerQuery.isLoading && !layer) {
@@ -51,7 +53,7 @@ export default function DefenseDetailPage() {
 
       <div className="grid gap-6 xl:grid-cols-2">
         <SectionCard title={t('common.relatedSkills')}>
-          <SkillLinks ids={layer.relatedSkillIds} skillsById={skillsById} lang={language} />
+          <SkillLinks ids={layer.relatedSkillIds} skillsById={skillsById} />
         </SectionCard>
         <SectionCard title={t('concepts.relatedConcepts')}>
           <div className="flex flex-wrap gap-2">
@@ -76,14 +78,14 @@ const ListCard = ({ title, items, tone = 'default' }: { title: string; items: st
   </SectionCard>
 )
 
-const SkillLinks = ({ ids, skillsById, lang }: { ids: string[]; skillsById: Map<string, SkillNode>; lang: LanguageCode }) => {
+const SkillLinks = ({ ids, skillsById }: { ids: string[]; skillsById: Map<string, ManifestEntry> }) => {
   const { t } = useTranslation()
   const skills = ids.map((id) => skillsById.get(id)).filter(Boolean)
   return (
     <div className="flex flex-wrap gap-2">
       {skills.map((skill) => (
         <Link key={skill?.id} to={`/skills/${skill?.id}`} className="rounded-md border border-cyan-300/20 px-2 py-1 text-xs text-cyan-100 hover:bg-white/10">
-          {getLocalizedText(skill?.title, lang)}
+          {skill?.name}
         </Link>
       ))}
       {!skills.length ? <span className="text-xs text-slate-500">{t('common.none')}</span> : null}

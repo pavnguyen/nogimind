@@ -1,0 +1,55 @@
+{
+  "id": "bear-trap-ham-sandwich",
+  "domain": "submission_systems",
+  "level": "advanced",
+  "name": "Bear Trap / Ham Sandwich",
+  "aliases": [],
+  "tags": [
+    "bear-trap",
+    "ham-sandwich",
+    "calf-slicer",
+    "compression",
+    "leg-lock",
+    "half-butterfly"
+  ],
+  "keywords": [
+    "bear trap",
+    "ham sandwich",
+    "calf slicer",
+    "compression lock",
+    "electric chair",
+    "half butterfly"
+  ],
+  "relatedSkills": [
+    {
+      "id": "deep-half-guard",
+      "type": "recommended"
+    },
+    {
+      "id": "half-butterfly-to-leg-entanglements",
+      "type": "recommended"
+    },
+    {
+      "id": "heel-hook-safety",
+      "type": "recommended"
+    }
+  ],
+  "prerequisiteSkillIds": [
+    "half-guard-knee-shield",
+    "leg-lock-safety-basics"
+  ],
+  "relatedPositions": [],
+  "relatedConcepts": [],
+  "archetypeIds": [],
+  "trainingMethodIds": [],
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "updatedAt": "2026-05-21T00:24:30.762Z"
+}

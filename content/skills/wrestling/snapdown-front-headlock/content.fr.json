@@ -1,0 +1,67 @@
+{
+  "id": "snapdown-front-headlock",
+  "locale": "fr",
+  "name": "snapdown à front headlock",
+  "description": "Brisez la posture de l'adversaire en un front headlock pour menacer de passer derrière, guillotine ou de revenir en arrière. Le snapdown est la principale entrée de retrait pour les grapplers No-Gi qui préfèrent les attaques du haut du corps plutôt que le tir.",
+  "shortInstruction": "À partir du col cravate ou du overhook, faites baisser la tête de l'adversaire et vers son genou principal. Lorsque leur tête tombe, fixez la position front headlock (bras autour de la tête, contrôlez le bras ou la hanche éloignés). Chaîne à suivre, guillotine, ou prise arrière.",
+  "summary": "Le snapdown convertit le contrôle du haut du corps en un retrait en forçant la tête de l'adversaire vers le tapis, puis en sécurisant la position front headlock. Le snapdown fonctionne parce que la tête contrôle le corps – une forte force vers le bas sur le cou force l'adversaire à prendre son poids sur ses mains, brisant sa posture et créant l'entrée pour le front headlock. À partir du front headlock, vous avez trois branches : go-behind, guillotine ou back take.",
+  "whyItWorks": [
+    "La cravate ou overhook vous donne le contrôle de la tête de l'adversaire - le point de contrôle le plus important dans le grappling debout.",
+    "Un snapdown pointu oblige l'adversaire à poser ses mains sur le tapis pour attraper son poids, brisant ainsi sa position.",
+    "La position front headlock (bras autour de la tête, bras éloigné ou hanche contrôlée) est la position du haut du corps la plus dominante dans No-Gi.",
+    "Le snapdown est à l'abri de tous les compteurs de retrait : vous ne tirez pas et ne vous mettez pas à genoux"
+  ],
+  "commonMistakes": [
+    "Tirer au lieu de claquer : un claquement est tranchant et utilise la chute du poids du corps, une traction est lente et utilise la force des bras.",
+    "Ne pas suivre le snapdown — après le snap, vous devez intervenir et sécuriser le front headlock immédiatement",
+    "Laisser l’adversaire rétablir sa posture – maintenir la pression sur la tête tout au long",
+    "Prise de vue trop loin : vous devez être à portée de main pour que la prise soit efficace"
+  ],
+  "coachingCues": [
+    "Snap avec le corps, pas avec le bras",
+    "Suivez le claquement, sécurisez le headlock",
+    "Ne les laissez jamais se redresser",
+    "Snap → front headlock → chaîne"
+  ],
+  "safetySummary": [
+    "Le snapdown applique une force sur le cou – s'enclenche vers le bas, et non sur le côté, pour éviter les tensions au niveau du cou.",
+    "Ne frappez pas la tête de l'adversaire avec une force excessive : un claquement contrôlé est plus sûr et plus efficace.",
+    "Si l'adversaire baisse brusquement de niveau pendant le snap, protégez votre propre position de tête pour éviter les collisions accidentelles de tête."
+  ],
+  "keyCorrections": [
+    "S'ils résistent au snapdown : ils sont trop grands – élargissez votre position et relâchez votre poids plus fort.",
+    "S'ils se retirent du front headlock : votre bras n'était pas assez profond – atteignez plus profondément autour de leur tête",
+    "S'ils vous font tomber pendant le snap : votre position était trop étroite – élargissez votre base avant de snaper"
+  ],
+  "systemLogic": {
+    "corePrinciple": "Le système snapdown comporte trois phases : Collier cravate → Bouton-pression → front headlock",
+    "decisionTree": [
+      {
+        "condition": "En phase 1 (collier cravate)",
+        "action": "établir la cravate du col ou overhook. Votre avant-bras doit être sur la nuque. Contrôlez leur bras ou leur coude éloigné pour les empêcher de poster"
+      },
+      {
+        "condition": "En phase 2 (Snap)",
+        "action": "baissez brusquement votre poids et abaissez leur tête vers leur genou principal. Le claquement doit provenir de votre corps (en laissant tomber vos hanches), et non de votre bras. Leurs mains doivent toucher le tapis"
+      },
+      {
+        "condition": "En phase 3 (front headlock)",
+        "action": "lorsque sa tête tombe, enroulez votre bras autour de sa tête (la main derrière son cou) et fixez la position front headlock. Votre autre main contrôle son bras ou sa hanche éloignés"
+      },
+      {
+        "condition": "Application générale",
+        "action": "Du front headlock, enchaînez jusqu'à : guillotine (bras sous le menton), go-derrière (encercler derrière) ou prise arrière (suivre leur mouvement)"
+      }
+    ]
+  },
+  "moneyDetails": [
+    "Le snapdown est l'entrée de retrait la plus sûre dans BJJ — pas de tir, pas de tête à l'intérieur, aucun risque de guillotine",
+    "Maîtriser le snapdown vous permet d'effectuer un retrait fiable sans apprendre des mécanismes de tir complexes.",
+    "La chaîne snapdown à front headlock est le principal système de notation pour les lutteurs et les grapplers qui préfèrent les attaques sur le haut du corps."
+  ],
+  "fixItFast": [
+    "S'ils se tiennent debout : recommencez avec une perte de poids plus importante - la cohérence brise la posture",
+    "S'ils tournent en rond : rétablissez l'attache du col et fermez-le dans la direction dans laquelle ils tournent.",
+    "S'ils tirent sous votre snap : sprawl et accédez au front headlock – leur tir devient votre entrée front headlock"
+  ]
+}

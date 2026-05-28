@@ -8,15 +8,17 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "validate:data": "tsx scripts/validateData.ts",
-    "validate:search": "tsx scripts/validateSearch.ts",
-    "audit:vi": "tsx scripts/auditViKeys.ts"
+    "build:content": "tsx scripts/content/build-content.ts",
+    "create-skill": "tsx scripts/content/scaffold-skill.ts",
+    "validate:content": "tsx scripts/content/validate-content.ts",
+    "audit:vi": "tsx scripts/auditViKeys.ts",
+    "collect-videos": "tsx scripts/collectVideoCandidates.ts",
+    "generate-video-refs": "tsx scripts/generateVideoReferences.ts"
   },
   "dependencies": {
     "@tanstack/react-query": "^5.100.7",
     "@tanstack/react-query-devtools": "^5.100.7",
     "@tanstack/react-virtual": "^3.13.24",
-    "@xyflow/react": "^12.10.2",
     "clsx": "^2.1.1",
     "i18next": "^26.0.8",
     "lucide-react": "^1.14.0",
@@ -26,6 +28,7 @@
     "react-i18next": "^17.0.6",
     "react-router-dom": "^7.14.2",
     "tailwind-merge": "^3.5.0",
+    "zod": "^4.4.3",
     "zustand": "^5.0.12"
   },
   "devDependencies": {
@@ -40,10 +43,12 @@
     "eslint-plugin-react-refresh": "^0.5.2",
     "globals": "^17.5.0",
     "postcss": "^8.5.13",
+    "rollup-plugin-visualizer": "^7.0.1",
     "tailwindcss": "^3.4.17",
     "tsx": "^4.21.0",
     "typescript": "~6.0.2",
     "typescript-eslint": "^8.58.2",
-    "vite": "^8.0.10"
+    "vite": "^8.0.10",
+    "vite-plugin-pwa": "^1.3.0"
   }
 }

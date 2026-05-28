@@ -15,6 +15,7 @@ import {
   DefensePage,
   EscapeMapDetailPage,
   EscapeMapsPage,
+  FixHubPage,
   GlossaryPage,
   MasteryMapPage,
   LearnPage,
@@ -54,6 +55,7 @@ export const AppRouter = () => (
           <Route path="/learn" element={<LearnPage />} />
           <Route path="/study" element={<StudyPage />} />
           <Route path="/build" element={<BuildHubPage />} />
+          <Route path="/fix" element={<FixHubPage />} />
           <Route path="/reference" element={<ReferencePage />} />
           <Route path="/skills" element={<SkillMapPage />} />
           <Route path="/skills/:skillId" element={<SkillDetailPage />} />

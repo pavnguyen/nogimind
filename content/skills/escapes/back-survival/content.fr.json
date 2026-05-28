@@ -1,0 +1,67 @@
+{
+  "id": "back-survival",
+  "locale": "fr",
+  "name": "Retour Survie",
+  "description": "Donnez la priorité à la protection du cou et aux combats avec les mains lorsque l'adversaire a seatbelt ou des crochets. Le but est de survivre suffisamment longtemps pour créer un espace pour une évasion complète.",
+  "shortInstruction": "Menton rentré, les deux mains sur le bras qui s'étouffe, protégez le cou avant de dégager les crochets et ne vous détournez jamais de l'adversaire.",
+  "summary": "La survie arrière est une action de retenue : protéger le cou, empêcher le starter de couler et gérer sa respiration tout en préparant la séquence de fuite. La priorité est toujours la main qui s'étouffe, puis le corps triangle, puis les crochets.",
+  "whyItWorks": [
+    "Le rear-naked choke est le pourcentage de soumission le plus élevé de back control — l'empêcher de se verrouiller est votre première priorité de survie.",
+    "Garder votre menton rentré ferme l'espace entre votre mâchoire et votre épaule, ce qui rend plus difficile pour le bras étouffant d'atteindre les artères carotides.",
+    "Les deux mains sur le bras d'étouffement vous font gagner du temps - même si elles ont le seatbelt, vous pouvez empêcher l'arrivée en contrôlant la poignée.",
+    "Le corps triangle est inconfortable mais peut survivre – ne gaspillez pas d'énergie à le combattre jusqu'à ce que la menace d'étranglement soit neutralisée."
+  ],
+  "commonMistakes": [
+    "Tourner la tête loin du bras qui s'étouffe (exposant l'autre côté du cou) au lieu de garder le menton contre la poitrine",
+    "Combattre le corps triangle pendant que l'étranglement se met en place - vous pouvez survivre au triangle mais pas à l'étranglement",
+    "Gaspiller les deux bras en essayant de retirer le seatbelt au lieu de garder une main sur le bras qui s'étouffe à tout moment",
+    "Panique et explosion sauvage - cela brûle de l'énergie et enfonce souvent l'étranglement plus profondément"
+  ],
+  "coachingCues": [
+    "Menton baissé, mains en l'air",
+    "Le bras qui s'étouffe en premier, les crochets ensuite",
+    "Respirez lentement, bougez de manière délibérée"
+  ],
+  "safetySummary": [
+    "Le rear-naked choke peut provoquer une perte de conscience en 4 à 8 secondes s'il est complètement verrouillé : appuyez tôt et réinitialisez",
+    "Ne laissez pas la fierté vous empêcher de taper - de multiples pertes de RNC à l'entraînement permettent de meilleures évasions que de combattre tout le monde au bord du gouffre.",
+    "Si vous sentez la mâchoire s'ouvrir (le bras qui s'étouffe glisser sous le menton), il est temps d'allouer 100% de votre défense au combat à mains nues.",
+    "Communiquez avec votre partenaire d'entraînement : un tapotement est un signal d'apprentissage, pas un échec."
+  ],
+  "systemLogic": {
+    "corePrinciple": "La survie du dos suit une hiérarchie stricte : protéger d'abord le cou, puis contrôler le bras qui s'étouffe, gérer la respiration, et ensuite seulement organiser la fuite. Chaque couche prépare la suivante : sauter des couches vous expose à une finition immédiate.",
+    "decisionTree": [
+      {
+        "condition": "L'adversaire a seatbelt grip mais aucun starter verrouillé",
+        "action": "Gardez le menton rentré, les deux mains sur l'avant-bras et le pont qui s'étouffent pour les empêcher de régler l'étranglement."
+      },
+      {
+        "condition": "L'adversaire a le corps triangle verrouillé mais pas d'étranglement",
+        "action": "Concentrez-vous sur la respiration et la position des mains : le corps triangle peut survivre. Ne gaspillez pas d'énergie à combattre les jambes jusqu'à ce que la menace d'étranglement soit neutralisée."
+      },
+      {
+        "condition": "L'adversaire passe à une tentative de armbar",
+        "action": "Gardez les coudes collés à vos côtes et ne les laissez pas tendre votre bras. Renvoyez votre coude vers votre corps s'ils l'isolent."
+      },
+      {
+        "condition": "L'adversaire vous fait rouler à plat ventre par l'arrière",
+        "action": "Protégez immédiatement votre cou avec les deux mains, écartez votre base et préparez-vous pour le stand-up de lutte."
+      }
+    ],
+    "exitStrategies": [
+      "Si vous sentez la mâchoire s'ouvrir (le bras qui s'étouffe glisse sous le menton), consacrez 100 % de votre défense au combat à main : saisissez son avant-bras avec les deux mains et tirez-le vers votre poitrine.",
+      "Si le starter est déjà verrouillé d’un côté, appuyez immédiatement – ​​n’attendez pas une meilleure position défensive.",
+      "Une fois la menace d'étranglement neutralisée, commencez la séquence d'évasion arrière : combat à main → dégager les crochets → rendre → récupérer guard."
+    ]
+  },
+  "moneyDetails": [
+    "La survie sur le dos est la compétence défensive la plus importante dans BJJ : chaque grappler passera du temps sur le dos, et savoir comment survivre est la première étape pour s'échapper.",
+    "Survivre dans le dos pendant 30 secondes est une victoire en compétition – cela prive l'adversaire de la possibilité de travailler pour l'arrivée.",
+    "Une approche de survie calme et systématique préserve l'énergie nécessaire à la séquence d'évasion qui suit"
+  ],
+  "fixItFast": [
+    "S'ils ont déjà le starter verrouillé d'un côté : appuyez immédiatement — n'attendez pas une meilleure position défensive",
+    "S'ils travaillent jusqu'au seatbelt mais n'ont pas encore verrouillé le starter : gardez votre menton rentré et passez votre bras le plus proche sur votre poitrine pour bloquer leur prise.",
+    "S'ils vous roulent sur le ventre depuis le dos : protégez immédiatement votre cou avec les deux mains, écartez votre base et préparez-vous au stand-up de lutte."
+  ]
+}

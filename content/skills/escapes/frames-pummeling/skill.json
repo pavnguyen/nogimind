@@ -1,0 +1,48 @@
+{
+  "id": "frames-pummeling",
+  "domain": "positional_awareness",
+  "level": "beginner",
+  "name": "Frames and Pummeling",
+  "aliases": [],
+  "tags": [
+    "frames",
+    "pummeling"
+  ],
+  "keywords": [
+    "frame",
+    "pummel",
+    "inside position",
+    "elbow knee connection"
+  ],
+  "relatedSkills": [
+    {
+      "id": "side-control-survival",
+      "type": "recommended"
+    },
+    {
+      "id": "mount-survival",
+      "type": "recommended"
+    },
+    {
+      "id": "seated-guard-retention",
+      "type": "recommended"
+    }
+  ],
+  "prerequisiteSkillIds": [
+    "inside-position"
+  ],
+  "relatedPositions": [],
+  "relatedConcepts": [],
+  "archetypeIds": [],
+  "trainingMethodIds": [],
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "updatedAt": "2026-05-21T00:24:30.756Z"
+}

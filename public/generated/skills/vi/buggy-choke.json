@@ -1,0 +1,122 @@
+{
+  "id": "buggy-choke",
+  "domain": "submission_systems",
+  "level": "advanced",
+  "status": "draft",
+  "name": "lỗi sặc",
+  "aliases": [],
+  "tags": [
+    "buggy-choke",
+    "side-control-bottom",
+    "neck-safety",
+    "tier:advanced-niche",
+    "meta:specialized",
+    "risk:safety-critical",
+    "family:submission",
+    "group:smother",
+    "modern-no-gi"
+  ],
+  "keywords": [
+    "buggy choke",
+    "side control bottom",
+    "neck safety"
+  ],
+  "modernSystemGroup": "smother",
+  "relatedSkills": [
+    {
+      "id": "smother-safety",
+      "type": "recommended"
+    },
+    {
+      "id": "gogoplata",
+      "type": "recommended"
+    },
+    {
+      "id": "side-control-escape",
+      "type": "recommended"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "side-control-survival",
+    "side-control-escape"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [
+    "Nếu họ xếp chồng bạn, bạn đã cam kết quá sớm hoặc sai góc độ - thả ra và đặt lại khung.",
+    "Nếu họ rút tay ra, nghĩa là quấn chân của bạn quá lỏng - quấn chặt hơn hoặc bỏ vòng quấn.",
+    "Nếu bạn không thể hoàn thành, hãy chuyển về lối thoát side control thông thường (thoát hông, underhook)."
+  ],
+  "version": 1,
+  "updatedAt": "2026-05-21T00:24:30.776Z",
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "vi",
+  "description": "Một cuộn cảm điều khiển phía dưới sử dụng chân của bạn quấn quanh cổ và cánh tay của đối thủ - một cuộc tấn công tuyệt vọng có rủi ro cao, có phần thưởng cao và không nên thay thế các nguyên tắc cơ bản về sinh tồn và thoát khỏi.",
+  "shortInstruction": "Quấn chân bạn quanh cổ và cánh tay của họ, siết chặt — buggy sặc là một đòn tấn công bất ngờ từ phía dưới side control.",
+  "summary": "Cuộn cảm lỗi là một cuộn cảm đặc trưng No-Gi từ phía dưới side control. Bạn quấn chân quanh cổ và một cánh tay của đối phương, tạo ra tình trạng sặc máu bằng cách ép cổ họ vào đùi bạn. Đó là submission hợp pháp nhưng được coi là 'tỷ lệ phần trăm thấp' vì nó yêu cầu thời gian và loại nội dung cụ thể. Quan trọng hơn, việc cố gắng siết cổ lỗi thường dẫn đến việc thoát khỏi underhook và hông, vốn là nền tảng của việc thoát side control. Nó phải là một vũ khí bất ngờ chứ không phải là một chiến lược trốn thoát chủ yếu.",
+  "whyItWorks": [
+    "Tạo ra tình trạng sặc máu từ một vị trí (dưới side control) mà người chơi ở cuối thường không có mối đe dọa khuất phục.",
+    "Yếu tố bất ngờ rất quan trọng — hầu hết những người chơi hàng đầu đều không mong đợi một cú bóp cổ từ phía dưới side control.",
+    "Nó có thể bắt những đối thủ nặng về một bên bằng crossface.",
+    "Hữu ích như một cuộc tấn công cuối cùng khi các lối thoát thông thường không thành công."
+  ],
+  "commonMistakes": [
+    "Sử dụng nó như một lối thoát chính thay vì tập trung vào các khung và lối thoát hông.",
+    "Để sẵn underhook — underhook quan trọng hơn cuộn cảm lỗi.",
+    "Để đối thủ xếp chồng bạn - điều này vô hiệu hóa sự nghẹt thở và khiến bạn gặp nguy hiểm.",
+    "Lãng phí năng lượng cho chiếc xe bị sặc khi bạn có thể trốn thoát."
+  ],
+  "coachingCues": [
+    "Vũ khí bất ngờ, không phải chiến lược chính.",
+    "Nếu bạn bị xếp chồng lên nhau, hãy thả ra - cuộn cảm sẽ bị mất.",
+    "underhook đầu tiên, sau đó là lỗi — không bao giờ ngược lại.",
+    "Một lần thử - nếu thất bại, hãy quay lại trốn thoát."
+  ],
+  "safetySummary": [
+    "Cuộn cảm lỗi sẽ nén cổ - áp dụng dần dần và thả ra khi nhấn.",
+    "Không sử dụng buggy sặc để chống lại những đối thủ lớn hơn có thể xếp chồng bạn - ngăn xếp có thể làm tổn thương lưng dưới của bạn.",
+    "Hãy chạm sớm nếu bạn cảm thấy nút thắt đang đè lên cổ mình."
+  ],
+  "systemLogic": {
+    "corePrinciple": "Dưới side control: đối thủ nặng ở một bên (crossface bên) → quấn chân quanh cổ và cánh tay của họ → bóp → bóp cổ.",
+    "decisionTree": [
+      {
+        "condition": "họ đăng bài khi rảnh rỗi",
+        "action": "cuộn cảm buggy có sẵn - nếu họ đăng bằng cả hai tay thì cuộn cảm sẽ khó khăn."
+      },
+      {
+        "condition": "Ứng dụng chung",
+        "action": "Buggy sặc là một lựa chọn cấp ba — khung và thoát hông là chính, kimura và các đòn tấn công khác là phụ."
+      }
+    ],
+    "exitStrategies": []
+  },
+  "moneyDetails": [
+    "Việc quấn chân phải bao gồm cổ VÀ một cánh tay của họ - chỉ quấn cổ sẽ không giữ được chiếc sặc.",
+    "Giữ chân trên của bạn qua lưng để ngăn chúng tuột ra khỏi lớp bọc.",
+    "Cảm giác nghẹt thở xuất phát từ việc ép hai đùi của bạn vào nhau - không phải do kéo bằng chân.",
+    "Nếu họ đứng dậy, lực cản lỗi sẽ bị mất - ngay lập tức quay trở lại khung và thoát ra khỏi hông."
+  ],
+  "nextStep": "Sau khi hiểu rõ hiện tượng tắc nghẽn do lỗi, hãy tập trung vào các cách thoát side control chính: khung, thoát hông và phục hồi underhook.",
+  "fixItFast": [
+    "Họ xếp chồng bạn? Thả ra và đóng khung trên hông của họ.",
+    "Chân trượt ra? Quấn chặt hơn quanh cánh tay của họ - kiểm soát cánh tay là điều cần thiết.",
+    "Không thể bị nghẹt thở? Quay trở lại khung hình và lối thoát hông - lối thoát quan trọng hơn sự phục tùng."
+  ]
+}

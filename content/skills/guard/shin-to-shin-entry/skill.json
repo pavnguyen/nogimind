@@ -1,0 +1,48 @@
+{
+  "id": "shin-to-shin-entry",
+  "domain": "guard_offense",
+  "level": "intermediate",
+  "name": "Shin-to-Shin Entry",
+  "aliases": [],
+  "tags": [
+    "guard",
+    "entry"
+  ],
+  "keywords": [
+    "shin-to-shin",
+    "off-balancing",
+    "single leg X",
+    "wrestle-up"
+  ],
+  "relatedSkills": [
+    {
+      "id": "single-leg-x-basics",
+      "type": "recommended"
+    },
+    {
+      "id": "single-leg-bjj",
+      "type": "recommended"
+    },
+    {
+      "id": "leg-lock-safety-basics",
+      "type": "recommended"
+    }
+  ],
+  "prerequisiteSkillIds": [
+    "seated-guard-retention"
+  ],
+  "relatedPositions": [],
+  "relatedConcepts": [],
+  "archetypeIds": [],
+  "trainingMethodIds": [],
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "updatedAt": "2026-05-21T00:24:30.745Z"
+}

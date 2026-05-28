@@ -1,0 +1,56 @@
+{
+  "id": "smother-safety",
+  "domain": "positional_awareness",
+  "level": "advanced",
+  "name": "Smother Safety",
+  "aliases": [],
+  "tags": [
+    "smother",
+    "compression",
+    "safety",
+    "tier:safety-critical",
+    "meta:specialized",
+    "risk:safety-critical",
+    "family:safety",
+    "group:smother",
+    "modern-no-gi"
+  ],
+  "keywords": [
+    "smother",
+    "compression",
+    "safety"
+  ],
+  "modernSystemGroup": "smother",
+  "relatedSkills": [
+    {
+      "id": "mount-control",
+      "type": "recommended"
+    },
+    {
+      "id": "side-control-pin",
+      "type": "recommended"
+    },
+    {
+      "id": "buggy-choke",
+      "type": "recommended"
+    }
+  ],
+  "prerequisiteSkillIds": [
+    "mount-control",
+    "side-control-pin"
+  ],
+  "relatedPositions": [],
+  "relatedConcepts": [],
+  "archetypeIds": [],
+  "trainingMethodIds": [],
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "updatedAt": "2026-05-21T00:24:30.780Z"
+}

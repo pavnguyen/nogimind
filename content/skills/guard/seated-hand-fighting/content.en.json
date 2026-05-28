@@ -1,0 +1,73 @@
+{
+  "id": "seated-hand-fighting",
+  "locale": "en",
+  "name": "Seated Guard Hand-Fighting",
+  "description": "Win the hand-fighting exchange from seated guard using collar ties, pummeling for inside position, grip blocking, and angle creation before the passer enters chest-to-chest.",
+  "shortInstruction": "Inside position wins the guard — pummel for underhooks, block grips, create the angle.",
+  "summary": "Seated guard hand-fighting is the first line of defense in open guard. Before any guard retention or sweep can happen, you must win the hand fight. This means controlling the opponent's hands and wrists so they cannot establish grips on your legs, collar, or belt. The key principles are: stay inside their arms (elbows close to your body, hands between their arms), strip any grip that lands, and use your head position to block their collar ties.",
+  "whyItWorks": [
+    "Winning the hand fight prevents them from establishing the grips they need to pass (pant grips, collar ties, belt grips).",
+    "Inside position (your hands between their arms) gives you a mechanical advantage in every grip fight.",
+    "Each grip you strip is a second of their attention you control — time you use to set up your guard.",
+    "Danaher principle: the guard begins with the hands — if you lose the hand fight, you lose the guard."
+  ],
+  "commonMistakes": [
+    "Letting your elbows flare wide — this opens the inside position for their hands.",
+    "Chasing their hands instead of controlling the center — control the center line, and the hands follow.",
+    "Dropping your hands to the mat — hands on the mat means they control your head.",
+    "Fighting with straight arms — bent arms are stronger and more reactive."
+  ],
+  "coachingCues": [
+    "Elbows in, hands between their arms.",
+    "Kill every grip before it settles.",
+    "Head in their chest, not in their hands.",
+    "Inside position wins every time."
+  ],
+  "safetySummary": [
+    "Keep your chin tucked and your head up to prevent guillotine entries during the hand fight.",
+    "Do not extend your arms fully when fighting grips — this exposes your elbows to kimuras.",
+    "When they grab your collar, strip the grip by rotating your wrist and pushing their thumb out."
+  ],
+  "systemLogic": {
+    "corePrinciple": "The guard begins with the hands — winning the hand fight from seated guard is the first line of defense before any guard retention. Inside position (hands between their arms) gives mechanical advantage; each grip you strip is a second of their attention you control.",
+    "decisionTree": [
+      {
+        "condition": "Opponent establishes a pant grip",
+        "action": "You lost the hand fight on that side — immediately swim your hand inside and strip the grip with a C-grip break before they secure leg control."
+      },
+      {
+        "condition": "Opponent collar ties you",
+        "action": "Your head was too high or too low — keep your head glued to their chest. Trap their hand between your head and shoulder, then strip it with both hands."
+      },
+      {
+        "condition": "Opponent gets an underhook",
+        "action": "Your elbow was flared — bring both elbows tight to your ribs. Drop your elbow to the mat, turn to that side, and pummel your knee inside."
+      },
+      {
+        "condition": "Opponent reaches for your leg",
+        "action": "Swim your hand over theirs and pin their wrist to the mat. Keep your elbows tight to prevent their arm from slipping past."
+      },
+      {
+        "condition": "Opponent dominates the hand fight and secures multiple grips",
+        "action": "Drop to supine guard or turtle to reset the engagement. Do not stay in seated guard if you have lost the hand fight — change the position to reset."
+      }
+    ],
+    "exitStrategies": [
+      "If they establish a pant grip, you lost the hand fight on that side — immediately swim your hand inside and strip it before they secure leg control.",
+      "If they dominate the hand fight, drop to supine guard or turtle to reset the engagement.",
+      "Use C-grips on their wrists to control hand position and prevent grip establishment."
+    ]
+  },
+  "moneyDetails": [
+    "Keep your elbows tight to your ribs at all times — flared elbows give them inside access.",
+    "Use C-grips on their wrists to control their hand position and prevent grip establishment.",
+    "When they reach for your leg, swim your hand over theirs and pin their wrist to the mat.",
+    "Your head should be in their chest, not in their hands — head position controls their collar tie options."
+  ],
+  "nextStep": "After seated hand-fighting, learn seated guard retention to combine grip fighting with foot frames and leg mobility.",
+  "fixItFast": [
+    "They keep grabbing your legs? Swim your hands inside their elbows and push their arms outward.",
+    "They collar tie you? Trap their hand between your head and shoulder, then strip it with both hands.",
+    "Your arms are getting tired? You're pushing too much — use frames and angles, not strength."
+  ]
+}

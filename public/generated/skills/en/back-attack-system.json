@@ -1,0 +1,123 @@
+{
+  "id": "back-attack-system",
+  "domain": "back_control",
+  "level": "intermediate",
+  "status": "draft",
+  "name": "Back Attack System",
+  "aliases": [],
+  "tags": [
+    "back-control",
+    "rnc",
+    "arm-triangle",
+    "body-triangle"
+  ],
+  "keywords": [
+    "back control",
+    "seatbelt",
+    "body triangle",
+    "hand fighting",
+    "RNC",
+    "arm triangle"
+  ],
+  "relatedSkills": [
+    {
+      "id": "crucifix-control",
+      "type": "recommended"
+    },
+    {
+      "id": "crab-ride",
+      "type": "recommended"
+    },
+    {
+      "id": "turtle-ride",
+      "type": "recommended"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "back-control",
+    "rear-naked-choke-system"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [
+    "If they keep protecting their neck, attack the arm triangle or bait the turn to switch to mount.",
+    "If they grab your choking hand, switch to the high-wrist RNC variation.",
+    "If they peel your hooks, switch to a body triangle or cross your feet."
+  ],
+  "version": 1,
+  "updatedAt": "2026-05-21T00:24:30.765Z",
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "en",
+  "description": "A complete system from back control: establish seatbelt, secure hooks or body triangle, win the hand fight, then finish with RNC, arm triangle, or transition when the opponent turns to defend.",
+  "shortInstruction": "Seatbelt → hooks → hand fight → finish — back attacks are a system of progressive control, not a single move.",
+  "summary": "The back attack system is the highest percentage submission chain in BJJ. The process is: secure the seatbelt (one arm over their shoulder, one arm under their armpit), lock your hooks or body triangle, win the hand fight to expose their neck, and finish with the rear naked choke. If they defend the RNC by turning in, switch to arm triangle or mount. The system is reaction-based — you don't force one finish; you chain until one works.",
+  "whyItWorks": [
+    "The seatbelt controls their upper body and prevents them from turning to face you.",
+    "Hooks or body triangle anchor your lower body to theirs — they cannot escape without freeing the hooks first.",
+    "The hand fight is the most important step — you cannot choke them if they have hands on your choking arm.",
+    "Danaher principle: the back is the highest percentage attacking position because you control their movement completely."
+  ],
+  "commonMistakes": [
+    "Skipping the hand fight and trying to force the choke — if their hands are on your arm, you will not finish.",
+    "Losing chest contact with their back — chest-to-back connection is what prevents escapes.",
+    "Letting them turn into you without transitioning — if they turn, switch to mount or arm triangle.",
+    "Using only one attack — the system requires chaining: RNC → arm triangle → mount → back take."
+  ],
+  "coachingCues": [
+    "Seatbelt first, hooks second, hands third, choke last.",
+    "Hand fight in order — peel the bottom hand first.",
+    "If they turn into you, take the mount.",
+    "Chain your attacks — one setup feeds the next."
+  ],
+  "safetySummary": [
+    "Do not crank the neck to force the RNC — it is a blood choke, not a neck crank.",
+    "Release immediately on tap — RNCs can cause unconsciousness within seconds.",
+    "When transitioning to the arm triangle, do not twist their head aggressively."
+  ],
+  "systemLogic": {
+    "corePrinciple": "Back control → seatbelt → secure hooks/body triangle → hand fight → RNC attempt.",
+    "decisionTree": [
+      {
+        "condition": "RNC Reaction 1: They defend",
+        "action": "arm triangle on the far arm."
+      },
+      {
+        "condition": "RNC Reaction 2: They turn in",
+        "action": "take mount or technical mount."
+      },
+      {
+        "condition": "RNC Reaction 3: They turn away",
+        "action": "re-hook the back and continue."
+      }
+    ],
+    "exitStrategies": []
+  },
+  "moneyDetails": [
+    "The hand fight follows a specific order: peel the bottom hand (covering the neck), then the top hand.",
+    "Chest-to-back connection is maintained by squeezing your sternum against their spine — not by pulling with your arms.",
+    "When they turn into you, release the body triangle/hooks and follow them to mount — don't fight for the back.",
+    "The RNC finishes fastest when your choking arm's elbow is under their chin — elbow position matters more than squeeze strength."
+  ],
+  "nextStep": "After the back attack system, learn the body triangle control and arm triangle from the back.",
+  "fixItFast": [
+    "Can't get the choke? Switch to the armbar on the far arm — they open up when defending the choke.",
+    "They keep turning in? Take mount immediately — back control is lost, mount is gained.",
+    "They grab your hands? Tuck your chin and switch to high-wrist RNC."
+  ]
+}

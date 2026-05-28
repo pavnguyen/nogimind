@@ -177,7 +177,7 @@ const grapplingTermAliases: Record<string, string[]> = {
   'peruvian necktie': ['peruvian necktie', 'cravate péruvienne', 'cravate peruvienne'],
   anaconda: ['anaconda', 'anaconda choke', 'anaconda roll', 'anaconda giro'],
   'aoki lock': ['aoki lock', 'aoki lock awareness', 'ankle lock heel exposure'],
-  'z lock': ['z lock', 'z-lock', 'knee compression lock'],
+  'z lock': ['z lock', 'z-lock', 'zlock', 'knee compression lock'],
   'shotgun ankle lock': ['shotgun ankle lock', 'shotgun ankle', 'ankle lock pressure'],
   'knee line escape': ['knee line escape', 'free knee line', 'thoat duong goi', 'thoát đường gối'],
   'compression safety': ['compression safety', 'compression vs strangle', 'smother distress', 'an toan nen ep', 'sécurité compression'],
@@ -657,6 +657,36 @@ export const syncSearchKnowledge = (
   const queryNorm = normalizeSearchTerm(normalizedQuery)
   const queryTokens = tokenizeSearchText(queryNorm).filter((token) => token.length >= 2)
 
+  // ── Snippet extraction helper ───────────────────────────────────────
+  const extractSnippet = (contentText: string, queryNorm: string): string | undefined => {
+    const rawContent = contentText || ''
+    if (!rawContent) return undefined
+
+    // Try exact query match first
+    const exactIdx = rawContent.indexOf(queryNorm)
+    if (exactIdx !== -1) {
+      const start = Math.max(0, exactIdx - 50)
+      const end = Math.min(rawContent.length, exactIdx + queryNorm.length + 50)
+      const prefix = start > 0 ? '…' : ''
+      const suffix = end < rawContent.length ? '…' : ''
+      return `${prefix}${rawContent.slice(start, end)}${suffix}`
+    }
+
+    // Try token matches
+    for (const token of queryTokens) {
+      const idx = rawContent.indexOf(token)
+      if (idx !== -1) {
+        const start = Math.max(0, idx - 50)
+        const end = Math.min(rawContent.length, idx + token.length + 50)
+        const prefix = start > 0 ? '…' : ''
+        const suffix = end < rawContent.length ? '…' : ''
+        return `${prefix}${rawContent.slice(start, end)}${suffix}`
+      }
+    }
+
+    return undefined
+  }
+
   const exactBoosted = results.map((result) => {
     const title = normalizeSearchTerm(getLocalizedText(result.title, lang))
     const description = normalizeSearchTerm(getLocalizedText(result.description, lang))
@@ -680,6 +710,7 @@ export const syncSearchKnowledge = (
     return {
       ...result,
       score: Math.max(1, Math.round((result.score + bonus) * (0.4 + tokenCoverage * 0.6))),
+      snippet: extractSnippet(result.contentText ?? '', queryNorm),
     }
   })
 

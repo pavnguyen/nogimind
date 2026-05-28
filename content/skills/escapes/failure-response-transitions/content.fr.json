@@ -1,0 +1,71 @@
+{
+  "id": "failure-response-transitions",
+  "locale": "fr",
+  "name": "Réponse aux échecs et transitions",
+  "description": "Le plan en cas d'échec d'une technique : changer d'angle, changer de prise, changer de position ou reculer en toute sécurité. Chaque technique finit par échouer : le lutteur avec une réponse d'échec planifiée à l'avance remporte plus de matchs que celui qui se fige.",
+  "shortInstruction": "Lorsqu'une technique échoue, suivez la séquence : changez d'abord l'angle, changez ensuite la prise, changez la position en troisième et reculez en toute sécurité uniquement en dernier recours.",
+  "summary": "La réponse à l'échec est un arbre de décision structuré lorsque la technique A ne fonctionne pas. Le système propose quatre réponses progressives : (1) réglage de l'angle : déplacez votre corps de 10 à 30 degrés sans changer la technique, (2) réglage de la poignée : changez l'endroit et la façon dont vous tenez l'adversaire, (3) changement de position : passez à une position différente tout en conservant le même thème d'attaque, (4) retraite en toute sécurité : désengagez et réinitialisez au neutre. Le principe clé est d’épuiser les options 1 à 3 avant d’accepter l’option 4.",
+  "whyItWorks": [
+    "La plupart des échecs techniques sont causés par un désalignement mineur des angles ou des poignées : un ajustement de 10 à 30 degrés permet souvent à la même technique de fonctionner sans la modifier.",
+    "Changer la poignée (par exemple, la poignée de poche en poignée kimura, le collier en overhook) modifie le levier mécanique sans nécessiter une nouvelle saisie de position.",
+    "Avoir une réponse à l'échec planifiée élimine toute hésitation : le lutteur qui sait quoi faire lorsque la technique A échoue a toujours une longueur d'avance.",
+    "La retraite en toute sécurité devrait être le dernier recours, car la retraite donne à l'adversaire le temps de réinitialiser sa propre défense et son attaque."
+  ],
+  "commonMistakes": [
+    "Geler lorsqu'une technique échoue - l'hésitation donne à l'adversaire le temps de contre-attaquer ou de s'échapper complètement",
+    "Répéter la même technique échouée avec plus de force – si cela n’a pas fonctionné avec une bonne technique, plus de force ne le fera pas fonctionner",
+    "Passer directement au changement de position ou au retrait sans essayer au préalable les réglages de l'angle et de la poignée.",
+    "Reculer sans sécurité (exposer le dos ou laisser un membre vulnérable aux contres)"
+  ],
+  "coachingCues": [
+    "L'angle d'abord, la poignée ensuite",
+    "Changez de position avant de battre en retraite",
+    "Ne répétez jamais l’échec de la même manière",
+    "Retraite avec structure, pas de panique"
+  ],
+  "safetySummary": [
+    "Ne forcez pas une technique qui a échoué : répéter une tentative de soumission bien défendue augmente le risque de blessure pour les deux partenaires.",
+    "Lorsque vous battez en retraite après une attaque ratée, protégez votre cou et vos membres : l'adversaire contre-attaquera lorsque vous vous désengagerez.",
+    "Si vous ressentez une pression articulaire lors d'une tentative de soumission ratée, relâchez immédiatement et réinitialisez plutôt que de lutter contre le mauvais angle."
+  ],
+  "keyCorrections": [
+    "Si vous continuez à tenter la même attaque et que vous échouez : votre réponse à l'échec est manquante. Arrêtez-vous et forez la transition vers la prochaine attaque",
+    "Si vous perdez votre position à chaque échec d’une technique : vous reculez sans structure. Entraînez-vous à reculer avec les cadres et la position de la tête",
+    "Si vous ne trouvez pas le bon réglage à mi-rouleau : choisissez un réglage (angle ou grip) et percez-le 50 fois jusqu'à ce qu'il soit automatique."
+  ],
+  "systemLogic": {
+    "corePrinciple": "Le système de réponse aux pannes comporte quatre niveaux : Angle → Prise → Position → Retraite. Chaque niveau doit être épuisé avant de passer au suivant",
+    "decisionTree": [
+      {
+        "condition": "Au niveau 1 (angle)",
+        "action": "déplacez votre corps de 10 à 30 degrés par rapport à l'adversaire. La plupart des soumissions et des balayages échouent à cause d'un désalignement de 5 degrés, et non pas parce que l'adversaire est « trop fort ». Réglages d'angle courants : déplacez vos hanches vers la gauche/droite, levez/abaissez la position de votre tête, faites pivoter vos épaules."
+      },
+      {
+        "condition": "Au niveau 2 (Grip)",
+        "action": "changez le type ou l’emplacement de votre prise sans changer la technique. Exemples : prise superficielle à prise profonde, pronation à sous-main, contrôle du poignet au contrôle du coude. Les changements de poignée modifient les vecteurs de levier"
+      },
+      {
+        "condition": "Au niveau 3 (Poste)",
+        "action": "passer à une position différente tout en gardant le même thème d'attaque. Exemples : si triangle échoue à partir de closed guard, passez à armbar à partir de la même entrée guard. Si une jambe échoue, passez au verrouillage du corps. Les changements de poste préservent le travail que vous avez déjà effectué pour briser leur structure"
+      },
+      {
+        "condition": "Au niveau 4 (retraite)",
+        "action": "désengager avec une retraite contrôlée. Cadrez sur l'adversaire, protégez votre tête et vos membres et revenez à une position neutre ou défensive. Ne reculez jamais sans cadre ou guard"
+      },
+      {
+        "condition": "Après avoir reculé",
+        "action": "le cycle recommence : observez la posture de l'adversaire, trouvez un nouveau point d'entrée et recommencez la séquence d'attaque depuis le début"
+      }
+    ]
+  },
+  "moneyDetails": [
+    "Un système structuré de réponse aux pannes sépare les grapplers avancés des intermédiaires : les meilleurs au monde n'échouent jamais, ils passent simplement à l'attaque suivante.",
+    "La capacité d’enchaîner les échecs en nouvelles attaques est plus précieuse que n’importe quelle technique unique, car elle garantit que vous menacez toujours quelque chose.",
+    "La qualité la plus dangereuse de Gordon Ryan n'est pas son pourcentage de finition, c'est qu'il n'arrête jamais d'attaquer même lorsque la première technique échoue."
+  ],
+  "fixItFast": [
+    "Si vous êtes coincé à répéter la même attaque ratée : arrêtez-vous, cadrez, réinitialisez votre prise et essayez un angle différent. Si cela échoue toujours, changez complètement de technique",
+    "Si l’adversaire continue de contrer vos transitions : vous êtes prévisible. Mélangez-vous dans une fausse retraite – reculez légèrement et attrapez-les qui vous suivent",
+    "Si vous perdez votre position après une attaque ratée : vous vous êtes trop engagé. Gardez votre base engagée à 70 % dans l'attaque et à 30 % dans la transition."
+  ]
+}

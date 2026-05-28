@@ -1,0 +1,56 @@
+{
+  "id": "butterfly-guard",
+  "locale": "en",
+  "title": "Butterfly Guard",
+  "category": "bottom_guard",
+  "status": "neutral",
+  "description": "A guard that uses butterfly hooks to elevate the opponent’s hips, force posts, and switch to sweeps or wrestle-ups.",
+  "topPlayerGoals": [
+    "The top player wants to control Butterfly Guard through head position, inside position, and directed pressure.",
+    "Kill the hook and keep the head or chest low while maintaining structure.",
+    "Keep a stable base so you are not off-balanced or countered."
+  ],
+  "bottomPlayerGoals": [
+    "The bottom player wants to survive Butterfly Guard with frames, pummeling, or the right angle.",
+    "Combine the hook with hand control to force the passer to post.",
+    "Recognize danger signals early instead of waiting for the position to settle."
+  ],
+  "controlPoints": [
+    "Main control point: Instep hook, knee flare, and head position..",
+    "Head, hands, hips, and knees should share the same force direction.",
+    "The elbow-knee connection or hip-shoulder line determines whether the position is still alive or already locked."
+  ],
+  "escapePriorities": [
+    "Escape priority: Do not let the body lock trap the hips before your hook can work..",
+    "Protect the neck, back, knee line, or arm line before countering.",
+    "If inside position is lost, reset one defensive layer first."
+  ],
+  "advancementOptions": [
+    {
+      "action": "Return to seated guard or create an off-balance",
+      "nextPositionId": "seated-guard",
+      "relatedSkillIds": [
+        "butterfly-guard-off-balance",
+        "seated-guard-retention",
+        "bodylock-passing"
+      ],
+      "why": "This is the natural branch when you win the main control point and the opponent is forced to defend."
+    }
+  ],
+  "dangerSignals": [
+    "The chin or neck is pulled out of a safe line.",
+    "The elbow separates from the ribs or knee.",
+    "The hip line is locked while the shoulder line is still being pulled.",
+    "You need a long hand post to avoid falling."
+  ],
+  "relatedSkillIds": [
+    "butterfly-guard-off-balance",
+    "seated-guard-retention",
+    "bodylock-passing"
+  ],
+  "relatedConceptIds": [
+    "hooks",
+    "base-balance",
+    "levers"
+  ]
+}

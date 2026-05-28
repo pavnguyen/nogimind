@@ -1,14 +1,16 @@
+import { useMemo } from 'react'
 import { Link, useParams } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import { Badge } from '../components/common/Badge'
+import { FormattedText } from '../components/common/FormattedText'
 import { NotFound } from '../components/common/NotFound'
 import { PageShell } from '../components/common/PageShell'
 import { SectionCard } from '../components/common/SectionCard'
 import { NextStepStrip } from '../components/learning/NextStepStrip'
 import { useConceptQuery, useConceptsQuery } from '../queries/conceptQueries'
-import { useSkillsQuery } from '../queries/skillQueries'
+import { useManifestQuery } from '../queries/contentQueries'
 import { useSettingsStore } from '../stores/useSettingsStore'
-import type { LanguageCode, SkillNode } from '../types/skill'
+import type { ManifestEntry } from '../content-runtime/manifests'
 import { getLocalizedArray, getLocalizedText } from '../utils/localization'
 import { ConceptVideoReferencePanel } from '../components/video/ConceptVideoReferencePanel'
 
@@ -18,9 +20,10 @@ export default function ConceptDetailPage() {
   const language = useSettingsStore((state) => state.language)
   const conceptQuery = useConceptQuery(conceptId)
   const concepts = useConceptsQuery().data ?? []
-  const skills = useSkillsQuery().data ?? []
+  const manifestQuery = useManifestQuery(language)
+  const manifest = useMemo(() => manifestQuery.data ?? [], [manifestQuery.data])
   const concept = conceptQuery.data
-  const skillsById = new Map(skills.map((skill) => [skill.id, skill]))
+  const skillsById = useMemo(() => new Map(manifest.map((s) => [s.id, s])), [manifest])
   const conceptsById = new Map(concepts.map((item) => [item.id, item]))
 
   if (!conceptQuery.isLoading && !concept) {
@@ -54,15 +57,15 @@ export default function ConceptDetailPage() {
       </div>
 
       <SectionCard title={t('concepts.deepExplanation')}>
-        <p className="leading-7 text-slate-300">{getLocalizedText(concept.deepExplanation, language)}</p>
+        <FormattedText text={getLocalizedText(concept.deepExplanation, language)} />
       </SectionCard>
 
       <div className="grid gap-6 xl:grid-cols-2">
         <SectionCard title={t('concepts.beginnerView')}>
-          <p className="leading-7 text-slate-300">{getLocalizedText(concept.beginnerView, language)}</p>
+          <FormattedText text={getLocalizedText(concept.beginnerView, language)} />
         </SectionCard>
         <SectionCard title={t('concepts.advancedView')}>
-          <p className="leading-7 text-slate-300">{getLocalizedText(concept.advancedView, language)}</p>
+          <FormattedText text={getLocalizedText(concept.advancedView, language)} />
         </SectionCard>
       </div>
 
@@ -76,7 +79,7 @@ export default function ConceptDetailPage() {
               <p className="mt-1 text-sm leading-6 text-slate-200">{getLocalizedText(example.then, language)}</p>
               <p className="mt-3 text-xs font-semibold uppercase tracking-wide text-slate-500">{t('ifThen.why')}</p>
               <p className="mt-1 text-sm leading-6 text-slate-400">{getLocalizedText(example.why, language)}</p>
-              <SkillLinks ids={example.relatedSkillIds} skillsById={skillsById} lang={language} />
+              <SkillLinks ids={example.relatedSkillIds} skillsById={skillsById} />
             </article>
           ))}
         </div>
@@ -95,7 +98,7 @@ export default function ConceptDetailPage() {
 
       <div className="grid gap-6 xl:grid-cols-2">
         <SectionCard title={t('common.relatedSkills')}>
-          <SkillLinks ids={concept.relatedSkillIds} skillsById={skillsById} lang={language} />
+          <SkillLinks ids={concept.relatedSkillIds} skillsById={skillsById} />
         </SectionCard>
         <SectionCard title={t('concepts.relatedConcepts')}>
           <div className="flex flex-wrap gap-2">
@@ -110,7 +113,7 @@ export default function ConceptDetailPage() {
       </div>
 
       <SectionCard title={t('video.videoReferences')}>
-        <ConceptVideoReferencePanel conceptId={concept.id} lang={language} />
+        <ConceptVideoReferencePanel />
       </SectionCard>
 
       <NextStepStrip
@@ -130,11 +133,9 @@ export default function ConceptDetailPage() {
 const SkillLinks = ({
   ids,
   skillsById,
-  lang,
 }: {
   ids: string[]
-  skillsById: Map<string, SkillNode>
-  lang: LanguageCode
+  skillsById: Map<string, ManifestEntry>
 }) => {
   const { t } = useTranslation()
   const skills = ids.map((id) => skillsById.get(id)).filter(Boolean)
@@ -142,7 +143,7 @@ const SkillLinks = ({
     <div className="mt-3 flex flex-wrap gap-2">
       {skills.map((skill) => (
         <Link key={skill?.id} to={`/skills/${skill?.id}`} className="rounded-md border border-cyan-300/20 px-2 py-1 text-xs text-cyan-100 hover:bg-white/10">
-          {getLocalizedText(skill?.title, lang)}
+          {skill?.name}
         </Link>
       ))}
       {!skills.length ? <span className="text-xs text-slate-500">{t('common.none')}</span> : null}

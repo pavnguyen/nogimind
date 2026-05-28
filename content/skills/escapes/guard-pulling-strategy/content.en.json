@@ -1,0 +1,71 @@
+{
+  "id": "guard-pulling-strategy",
+  "locale": "en",
+  "name": "Guard Pulling Strategy",
+  "description": "Pull guard with intent: grip and angle first, then seated, shin-to-shin, K-guard, or wrestle-up plan. A guard pull is an offensive entry that should lead directly to one of your strongest guard systems.",
+  "shortInstruction": "Establish a grip (collar tie or wrist control), create an angle off the center line, sit back to one hip, and enter your chosen guard (seated, shin-to-shin, K-guard) immediately. Pulling guard without a plan is conceding position.",
+  "summary": "Guard pulling should be an offensive transition, not a defensive retreat. The sequence is: establish a dominant grip → create an angle by circling or pummeling → control the distance by maintaining the grip → sit back with control → enter directly into your best guard system. A well-executed guard pull arrives in a scoring guard (not flat on your back) with grips already established and the opponent off-balance.",
+  "whyItWorks": [
+    "Establishing a grip before pulling ensures you control the distance — the opponent cannot back away or circle to side control",
+    "Creating an angle (stepping off the center line) forces the opponent to re-align, giving you the opening to pull without being passed",
+    "Pulling to a specific guard system (seated, shin-to-shin, K-guard) rather than a generic closed guard gives you an immediate offensive plan",
+    "A controlled pull prevents the opponent from immediately scoring a pass or takedown on your landing"
+  ],
+  "commonMistakes": [
+    "Pulling guard without any grip — the opponent can immediately disengage or circle to side control",
+    "Sitting back straight (both hips down) instead of sitting to one hip — this lands you flat, giving them an immediate pass opportunity",
+    "Pulling guard too far away — if there is a 3-foot gap when you sit, the opponent can disengage and reset",
+    "Forgetting to maintain the grip after pulling — the grip is what keeps them in your guard and prevents them from standing up and passing"
+  ],
+  "coachingCues": [
+    "Grip first, pull second",
+    "Angle before you sit",
+    "Land on one hip, not flat",
+    "Pull to a guard, not to the floor"
+  ],
+  "safetySummary": [
+    "Do not sit back explosively if your foot is caught between the opponent's legs — this can cause ankle or knee injury",
+    "When pulling guard in competition, be aware of slam rules — in some rule sets, the opponent can lift and slam you if you pull guard without grips",
+    "Practice guard pulling with a resisting partner at controlled speed before using it live — a bad guard pull can land you in side control immediately"
+  ],
+  "keyCorrections": [
+    "If you keep landing flat on your back: you are not sitting to one hip. Focus on sitting to your outside hip while keeping the inside leg active",
+    "If the opponent passes immediately after you pull: your distance was wrong or you lost the grip. Pull closer and maintain the grip until you establish guard",
+    "If the opponent circles out before you pull: you did not create enough angle. Circle further off the center line before sitting"
+  ],
+  "systemLogic": {
+    "corePrinciple": "Guard pulling follows a four-step sequence: Grip → Angle → Sit → Enter Guard System",
+    "decisionTree": [
+      {
+        "condition": "In Step 1 (Grip)",
+        "action": "establish your strongest guard grip before pulling. If pulling to shin-to-shin: collar tie + wrist control. If pulling to K-guard: collar tie + sleeve grip. If pulling to seated guard: two-on-one wrist control or collar tie"
+      },
+      {
+        "condition": "In Step 2 (Angle)",
+        "action": "step off the center line at a 30-45 degree angle. If you pull straight at them, they can drive forward into side control. An angle forces them to re-align their hips, creating the entry window"
+      },
+      {
+        "condition": "In Step 3 (Sit)",
+        "action": "lower your hips to the mat by sitting to your outside hip (not both hips at once). Keep your inside leg active (posted foot or shin-to-shin connection) to prevent them from stepping into the guard pass"
+      },
+      {
+        "condition": "In Step 4 (Enter Guard System)",
+        "action": "immediately transition to your best guard from the landing position. If you pulled to shin-to-shin: enter single leg X or X-guard. If you pulled to seated: enter K-guard, DLR, or collar-sleeve. If you pulled to closed guard: break their posture immediately"
+      },
+      {
+        "condition": "Guard pull selection guide",
+        "action": "against a standing passer → seated guard. Against a kneeling passer → shin-to-shin. Against pressure passer → K-guard or butterfly"
+      }
+    ]
+  },
+  "moneyDetails": [
+    "A good guard pull is the foundation of your entire guard game — it determines whether you start the guard sequence in a strong or weak position",
+    "Competition guard pulling is a strategic decision — pulling guard to enter your best attack system is often better than wrestling for a takedown",
+    "Mastering guard pulling allows you to dictate where the match starts — you choose the guard system, not the opponent"
+  ],
+  "fixItFast": [
+    "If the opponent is rushing you as you try to pull: use a collar tie to post on their head and circle behind their rush before pulling",
+    "If you keep getting passed during the pull: you are not controlling their far leg. Keep your foot on their far hip as you sit to prevent the knee cut",
+    "If the opponent disengages after you pull: use a wrestle-up to stand and re-engage rather than sitting and waiting"
+  ]
+}

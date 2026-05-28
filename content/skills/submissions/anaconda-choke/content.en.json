@@ -1,0 +1,61 @@
+{
+  "id": "anaconda-choke",
+  "locale": "en",
+  "name": "Anaconda Choke",
+  "description": "An arm triangle choke from the front headlock position, using your arm to lock around the neck while pulling the elbow to the knee and rotating to finish with shoulder pressure.",
+  "shortInstruction": "Lock the arm around the neck, pull their elbow to your knee, rotate your chest to the mat — the anaconda finishes with shoulder pressure, not arm squeeze.",
+  "summary": "The anaconda choke is one of the three primary front headlock finishes (with the D'Arce and guillotine). The key difference from the D'Arce is that your choking arm threads from the opposite side (near arm goes under the neck and over their far arm). The finish comes from rotating your chest toward the mat while pulling their trapped arm's elbow toward your knee — this creates a tight arm triangle on their neck and shoulder.",
+  "whyItWorks": [
+    "The anaconda traps both their arm and neck in the same lock — two structures compressed by one movement.",
+    "Rotational pressure from your chest to the mat is stronger than squeezing with your arms.",
+    "It works from front headlock when they are turtled or trying to belly down to escape.",
+    "Danaher principle: arm triangles are driven by shoulder pressure, not arm strength — the anaconda is a shoulder-driven choke."
+  ],
+  "commonMistakes": [
+    "Locking the hands without controlling the elbow position — the elbow must be pulled toward your knee.",
+    "Trying to finish flat on your stomach instead of on your side — the finish requires a rotation angle.",
+    "Squeezing with the arms instead of driving with the chest — arm squeeze fatigues; chest pressure finishes.",
+    "Letting the opponent stack you by keeping your head low — keep your head up and to the side."
+  ],
+  "coachingCues": [
+    "Elbow to the knee — that's the finish line.",
+    "Chest to the mat, not arms to the neck.",
+    "Lock first, rotate second, squeeze last.",
+    "Head up, angle sharp, pressure deep."
+  ],
+  "safetySummary": [
+    "Apply pressure gradually — the anaconda compresses the neck and shoulder simultaneously.",
+    "Do not crank the opponent's neck by pulling their head too aggressively.",
+    "Tap early if you feel pressure on your cervical spine during the rotation."
+  ],
+  "keyCorrections": [
+    "If the choke doesn't lock, your elbow is not close enough to their body — walk your elbow toward their ribcage.",
+    "If they stack you, your head is too low — bring your head to their hip side.",
+    "If they roll through, follow their rotation and re-attack from turtle."
+  ],
+  "systemLogic": {
+    "corePrinciple": "Front headlock established → thread near arm under neck and over far arm → lock hands → pull trapped arm's elbow to your knee → rotate chest to mat → finish.",
+    "decisionTree": [
+      {
+        "condition": "they resist the rotation, switch to the D'Arce or guillotine",
+        "action": "the three form a chain."
+      },
+      {
+        "condition": "General application",
+        "action": "The anaconda works best against opponents who try to turn in toward you from front headlock."
+      }
+    ]
+  },
+  "moneyDetails": [
+    "Your choking arm should thread deep under the neck — your shoulder should be close to their ear.",
+    "Pull their trapped arm's elbow toward your nearside knee — this is what creates the shoulder compression.",
+    "Rotate your chest toward the mat by turning your hips — the rotation tightens the choke without squeezing.",
+    "Keep your head on the same side as the trapped arm — this prevents them from rolling you over."
+  ],
+  "nextStep": "After the anaconda, learn the D'Arce choke and guillotine to chain from front headlock.",
+  "fixItFast": [
+    "Choke feels loose? Pull their elbow closer to your knee and rotate more.",
+    "They stack you? Bring your head to their hip side and re-engage.",
+    "They roll through? Follow the rotation and re-attack from top turtle."
+  ]
+}

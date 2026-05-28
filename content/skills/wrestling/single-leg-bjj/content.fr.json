@@ -1,0 +1,71 @@
+{
+  "id": "single-leg-bjj",
+  "locale": "fr",
+  "name": "Jambe simple pour BJJ",
+  "description": "Terminez la jambe unique en respectant les menaces de tirage guillotine, kimura et guard en BJJ. La jambe unique dans BJJ doit être adaptée de la lutte pour tenir compte des compteurs uniques qui existent dans le grappling de soumission.",
+  "shortInstruction": "Fixez la jambe, gardez la tête vers l'extérieur (pas vers le centre) et terminez en faisant passer le tuyau, en le soulevant ou en faisant des cercles vers l'arrière. Ne laissez jamais votre tête dériver vers l’intérieur où ils peuvent vous guillotine.",
+  "summary": "La jambe unique BJJ est une version modifiée de la jambe unique de lutte qui donne la priorité à la sécurité contre les compteurs de soumission. Les adaptations clés sont : la position de la tête doit toujours être vers l'extérieur (joue contre hanche/dos) plutôt que vers l'intérieur (poitrine contre poitrine), la finition donne la priorité à l'exécution du tuyau (les conduisant latéralement) plutôt qu'au levage (ce qui expose le guillotine), et la prise arrière est toujours disponible comme alternative à pourcentage élevé à la finition du retrait.",
+  "whyItWorks": [
+    "La position extérieure de la tête empêche le guillotine — le contre-pied le plus courant aux jambes simples dans BJJ",
+    "Faire passer le tuyau (entraînement latéral) protège votre tête et utilise son poids contre elle",
+    "La prise arrière sur une jambe est une adaptation spécifique à BJJ qui rapporte 4 points au lieu de 2.",
+    "La jambe unique passe à la fois à la position supérieure et à back control – il s'agit du retrait le plus polyvalent de BJJ."
+  ],
+  "commonMistakes": [
+    "Laisser votre tête dériver à l'intérieur (poitrine contre poitrine) - cela vous expose aux guillotine, kimura et front headlock",
+    "Essayer de lever la jambe vers le haut - cela retarde l'arrivée et expose le guillotine",
+    "Rester trop longtemps sur la jambe — la jambe unique doit être terminée rapidement ou abandonnée",
+    "Ne pas passer à l'arrière lorsque l'arrivée est bloquée"
+  ],
+  "coachingCues": [
+    "Dirigez-vous vers l'extérieur, toujours",
+    "Faites passer le tuyau, ne soulevez pas",
+    "Terminer ou transition – ne traînez pas",
+    "La prise en retour est toujours disponible"
+  ],
+  "safetySummary": [
+    "Le guillotine résultant d'une jambe unique défaillante est l'étranglement le plus courant dans BJJ - gardez la tête vers l'extérieur à tout moment",
+    "Si vous sentez le guillotine se mettre en place, tournez-vous immédiatement vers l'arrière plutôt que d'essayer de terminer le retrait.",
+    "Ne tenez pas la jambe unique et tenez-vous droit - cela expose le genou aux fauches et le cou aux guillotines"
+  ],
+  "keyCorrections": [
+    "S'ils vous guillotine : votre tête était à l'intérieur - faites immédiatement un cercle vers l'arrière pour soulager la pression de l'étranglement",
+    "S'ils kimura votre bras coincé : ne combattez pas le kimura - relâchez la jambe et réengagez-vous à partir de la position debout.",
+    "S'ils sautent sur une jambe : passez à un entrejambe haut ou jetez-les latéralement avec le tuyau en cours d'exécution"
+  ],
+  "systemLogic": {
+    "corePrinciple": "Le pied simple BJJ a quatre finitions : Tuyau de course → Soulever → Prise arrière → Dump à entrejambe haut",
+    "decisionTree": [
+      {
+        "condition": "Utilisation de Finish 1 (Exécution du tuyau (priorité la plus élevée))",
+        "action": "avec la jambe coincée et la tête dehors, conduisez-les latéralement sur le tapis. Leur jambe éloignée ne peut pas suivre le mouvement latéral et ils tombent. Fin la plus sûre en BJJ"
+      },
+      {
+        "condition": "Utilisation de Finish 2 (Lift)",
+        "action": "s'ils sont déséquilibrés (poids sur une jambe), soulevez la jambe coincée et faites-les reculer. Utilisez-le uniquement si la position de la tête est confirmée à l'extérieur"
+      },
+      {
+        "condition": "Utilisation de Finish 3 (Back Take)",
+        "action": "s'ils sprawl sur une seule jambe, relâchez la jambe et faites un cercle derrière eux. Le back take marque 4 points et évite le compteur sprawl"
+      },
+      {
+        "condition": "Utilisation de Finish 4 (High Crotch Dump)",
+        "action": "S'ils reculent la jambe éloignée, passez à une prise à l'entrejambe haute et jetez-les du côté opposé."
+      },
+      {
+        "condition": "Réactions défensives",
+        "action": "s'ils guillotine → reprennent. S'ils kimura → relâchez et réengagez. S'ils sprawl → reviennent, reprenons"
+      }
+    ]
+  },
+  "moneyDetails": [
+    "La jambe unique est la mise au sol la plus courante dans BJJ : une finition fiable est essentielle au succès en compétition.",
+    "Maîtriser la jambe unique adaptée au BJJ élimine la peur des compteurs de retrait et vous permet de tirer en toute confiance",
+    "La prise d'une jambe vers l'arrière est la séquence de valeur la plus élevée dans les No-Gi takedowns (4 points au lieu de 2)"
+  ],
+  "fixItFast": [
+    "S'ils sprawl sur une seule jambe : allez à l'arrière - ne combattez pas le sprawl",
+    "S'ils guillotine : tournez immédiatement vers l'arrière - la prise arrière bat le guillotine",
+    "S'ils sautent sur une jambe : conduisez-les latéralement avec le tuyau en cours d'exécution - ils ne peuvent pas sauter latéralement"
+  ]
+}

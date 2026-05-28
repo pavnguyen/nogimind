@@ -1,0 +1,56 @@
+{
+  "id": "octopus-guard-sweep",
+  "domain": "guard_offense",
+  "level": "intermediate",
+  "name": "Octopus Guard Sweep",
+  "aliases": [],
+  "tags": [
+    "octopus",
+    "sweep",
+    "hip-heist",
+    "tier:modern-expansion",
+    "meta:modern-common",
+    "risk:medium",
+    "family:guard",
+    "group:octopus",
+    "modern-no-gi"
+  ],
+  "keywords": [
+    "hip angle",
+    "far hip",
+    "post removal"
+  ],
+  "modernSystemGroup": "octopus",
+  "relatedSkills": [
+    {
+      "id": "octopus-guard-control",
+      "type": "recommended"
+    },
+    {
+      "id": "octopus-back-take",
+      "type": "recommended"
+    },
+    {
+      "id": "dogfight-knee-tap",
+      "type": "recommended"
+    }
+  ],
+  "prerequisiteSkillIds": [
+    "octopus-guard-control",
+    "half-guard-wrestle-up"
+  ],
+  "relatedPositions": [],
+  "relatedConcepts": [],
+  "archetypeIds": [],
+  "trainingMethodIds": [],
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "updatedAt": "2026-05-21T00:24:30.774Z"
+}

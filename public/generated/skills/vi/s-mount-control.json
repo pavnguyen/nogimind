@@ -1,0 +1,132 @@
+{
+  "id": "s-mount-control",
+  "domain": "pins_rides",
+  "level": "advanced",
+  "status": "draft",
+  "name": "s-mount Kiểm soát",
+  "aliases": [],
+  "tags": [
+    "s-mount",
+    "mount",
+    "arm-isolation",
+    "tier:modern-expansion",
+    "meta:modern-common",
+    "risk:medium",
+    "family:pin",
+    "group:s-mount",
+    "modern-no-gi"
+  ],
+  "keywords": [
+    "s-mount",
+    "shoulder isolation",
+    "armbar angle"
+  ],
+  "modernSystemGroup": "s_mount",
+  "relatedSkills": [
+    {
+      "id": "s-mount-armbar",
+      "type": "recommended"
+    },
+    {
+      "id": "rear-triangle-control",
+      "type": "recommended"
+    },
+    {
+      "id": "mount-control",
+      "type": "recommended"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "mount-control",
+    "arm-triangle-mount"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [
+    "Nếu đối phương giải phóng cánh tay bị mắc kẹt: xoay hông của bạn về giữa và vào lại s-mount với tư thế đầu gối sâu hơn",
+    "Nếu bạn không thể nâng đầu gối s-mount đủ cao: bạn đang ngồi quá xa — hãy nhích lại gần đầu họ trước khi trượt đầu gối lên",
+    "Nếu đối thủ chặn bạn trong s-mount nhập cuộc: hãy dang rộng chân còn lại của bạn và thiết lập lại mức thấp mount trước khi thử lại"
+  ],
+  "version": 1,
+  "updatedAt": "2026-05-21T00:24:30.775Z",
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "vi",
+  "description": "s-mount cô lập đường vai đối với các mối đe dọa armbar, lùi lại hoặc triangle. Đó là vị trí mount mang tính tấn công nhất — từ đây, đối thủ phải phòng thủ đồng thời nhiều mối đe dọa khuất phục.",
+  "shortInstruction": "Từ mount, trượt một đầu gối lên nách họ và xoay hông về phía đầu họ. Giữ cánh tay gần giữa đùi của bạn và đầu của họ. Tấn công armbar, triangle hoặc lùi lại.",
+  "summary": "s-mount được tạo ra bằng cách trượt một đầu gối vào nách đối phương đồng thời xoay nhẹ ngực của bạn về phía đầu họ. Điều này đặt hông của bạn ngang qua đường vai của họ, cô lập một cánh tay và tạo ra tình huống khó xử giữa armbar, triangle và lùi lại. s-mount là mã pin có giá trị cao nhất vì nó đe dọa trực tiếp đến việc gửi mà không yêu cầu chuyển đổi bổ sung.",
+  "whyItWorks": [
+    "Vị trí đầu gối s-mount (một đầu gối ở nách, một đầu gối ở hông) tạo ra một cấu trúc nêm cô lập vai gần",
+    "Xoay hông của bạn về phía đầu họ sẽ giữ cánh tay gần của họ ở giữa đùi bạn và đầu họ - đây là vị trí vào armbar",
+    "Từ s-mount, bạn đe dọa armbar, triangle (dùng chân còn lại của bạn qua đầu họ) và quay lại — tạo ra tình huống khó xử ba bên",
+    "Đối thủ không thể vượt qua hoặc trốn thoát một cách hiệu quả vì trọng lượng của bạn được phân bổ qua đường vai của họ chứ không phải hông của họ"
+  ],
+  "commonMistakes": [
+    "Không xoay hông đủ — xoay một phần để lại khoảng trống cho đối phương thoát khỏi armbar",
+    "Cho phép đối phương giải phóng cánh tay bị mắc kẹt của họ — điều này sẽ giết chết s-mount và trở về tiêu chuẩn mount",
+    "Ngồi quá cao — đầu gối s-mount phải ở nách chứ không phải cổ",
+    "Mất hoàn toàn vị trí mount khi cố gắng nhập s-mount — quá trình chuyển đổi phải được kiểm soát"
+  ],
+  "coachingCues": [
+    "Đầu gối đến nách, không phải cổ",
+    "Xoay hông về phía đầu",
+    "Bẫy cánh tay, đe dọa armbar",
+    "armbar, triangle hoặc quay lại — chọn hai"
+  ],
+  "safetySummary": [
+    "armbar từ s-mount có thể duỗi thẳng khuỷu tay một cách nhanh chóng nếu dùng đà — tạo áp lực chậm, có kiểm soát",
+    "Khi sử dụng triangle từ s-mount, không kéo mạnh đầu — điều này có thể làm căng cổ",
+    "Nếu đối thủ quay đi để trốn thoát s-mount, họ sẽ lộ lưng - nhận lấy nhưng không đuổi theo sự khuất phục từ góc độ xấu"
+  ],
+  "systemLogic": {
+    "corePrinciple": "s-mount được cấu trúc như một hệ thống tiến thoái lưỡng nan: armbar: triangle → Quay lại, với mỗi mối đe dọa sẽ dẫn đến mối đe dọa tiếp theo",
+    "decisionTree": [
+      {
+        "condition": "Sử dụng mối đe dọa 1 (armbar)",
+        "action": "từ s-mount, đùi của bạn sẽ giữ chặt cánh tay gần của họ. Để tấn công armbar, hãy nhấc hông lên một chút và thả người về phía sau, đưa cánh tay của họ ngang qua cơ thể bạn. Giữ ngón tay cái của họ hướng lên"
+      },
+      {
+        "condition": "Sử dụng mối đe dọa 2 (triangle)",
+        "action": "nếu họ bảo vệ armbar bằng cách kéo cánh tay ra sau, hãy đưa chân còn lại của bạn qua đầu họ và khóa triangle. Đầu gối s-mount của bạn vẫn giữ nguyên vị trí làm đế của triangle"
+      },
+      {
+        "condition": "Sử dụng Đe dọa 3 (Quay lại)",
+        "action": "nếu họ quay đi để thoát khỏi armbar hoặc triangle, hãy tiếp xúc bằng hông và lùi lại. Vòng xoay s-mount tự nhiên chuyển sang back control khi chúng quay"
+      },
+      {
+        "condition": "Kỹ thuật vào lệnh",
+        "action": "từ thấp mount, trượt tay thuận của bạn xuống dưới đầu họ. Nâng đầu gối gần của bạn và trượt nó vào nách của họ. Xoay hông của bạn 45 độ về phía đầu của họ. Ống chân của bạn phải ngang ngực họ"
+      },
+      {
+        "condition": "s-mount thất bại (họ trốn thoát)",
+        "action": "trở về mức thấp mount ngay lập tức thay vì đấu tranh để thiết lập lại s-mount từ vị trí bị xâm phạm"
+      }
+    ],
+    "exitStrategies": []
+  },
+  "moneyDetails": [
+    "s-mount là chốt tấn công mạnh nhất trong BJJ — từ đây, bạn kết thúc trận đấu chứ không phải dừng lại",
+    "s-mount armbar là mục nhập armbar có tỷ lệ phần trăm cao nhất trong No-Gi vật lộn",
+    "Việc nắm vững các quá trình chuyển đổi s-mount sẽ tách biệt các trình grappler gửi khỏi các trình grappler vị trí"
+  ],
+  "fixItFast": [
+    "Nếu đối thủ bảo vệ armbar bằng cách rút cánh tay ra: chuyển sang triangle — không đuổi theo cánh tay",
+    "Nếu đối phương lăn để trốn thoát s-mount: lùi lại và cố định seatbelt trước khi họ kịp phục hồi",
+    "Nếu bạn ngã trong nỗ lực armbar: tiếp đất ở guard chứ không phải side control — giữ cánh tay bị kẹt khi bạn ngã"
+  ]
+}

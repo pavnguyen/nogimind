@@ -1,0 +1,61 @@
+{
+  "id": "leg-drag-pass",
+  "locale": "fr",
+  "name": "Passe de traînée de jambe",
+  "description": "Faites glisser la jambe la plus proche de l'adversaire sur vos hanches pour couper l'angle et sécuriser side control, le dos mount ou un enchevêtrement de jambe.",
+  "shortInstruction": "Saisissez la cheville, faites glisser sur vos hanches, coupez l'angle, fixez l'épingle.",
+  "summary": "La passe traînée de jambe est l'une des passes guard les plus efficaces du No-Gi moderne. En contrôlant la cheville proche de l'adversaire et en la faisant glisser sur vos propres hanches, vous coupez un angle aigu qui supprime son guard et expose son dos ou son côté. La traînée de jambe fonctionne contre presque tous les open guard (DLR, RDLR, spider, assis guard) et vous donne un accès immédiat aux premières positions dominantes.",
+  "whyItWorks": [
+    "Faire glisser sa jambe sur vos hanches modifie l'angle de son guard : ses jambes ne peuvent plus s'encadrer sur vos hanches.",
+    "Vos hanches deviennent le point d'appui : une fois que leur jambe est sur vos hanches, elles ne peuvent pas re-guard sans dégager leur propre jambe.",
+    "Le déplacement de jambe supprime l'un de leurs principaux outils guard (jambes) et le remplace par un point de contrôle pour vous.",
+    "Principe de Danaher : contrôler les jambes, contrôler la passe guard — la traînée des jambes en est l'application la plus directe."
+  ],
+  "commonMistakes": [
+    "Baisser la tête pendant la traînée - cela expose votre cou aux guillotines.",
+    "En faisant glisser la jambe sans contrôler le haut du corps, ils tourneront et vous prendront le dos.",
+    "S'arrêter après le glissement au lieu de l'épingler — le glisser n'est pas la fin ; la broche est.",
+    "En saisissant la jambe du pantalon plutôt que la cheville, le contrôle de la cheville vous offre un meilleur effet de levier."
+  ],
+  "coachingCues": [
+    "Cheville à la hanche, tête à la poitrine.",
+    "Contrôlez la jambe, tuez leur guard.",
+    "Faites glisser sur les hanches, pas sur le sol.",
+    "La passe ne se termine pas à la traînée, elle se termine à l'épingle."
+  ],
+  "safetySummary": [
+    "Gardez la tête haute et vers l'extérieur de leur corps pendant la traînée - une tête baissée invite le guillotine.",
+    "N'étendez pas trop votre dos en vous penchant trop en avant pendant la traînée - engagez votre tronc.",
+    "Lorsque vous épinglez après la traînée, protégez votre genou de sa jambe libre."
+  ],
+  "keyCorrections": [
+    "S'ils sortent de la traînée, vous n'avez pas contrôlé le haut de leur corps – maintenez crossface ou la pression sur les épaules.",
+    "S'ils re-guard après le glissement, votre angle n'était pas assez net : coupez un angle plus profond avant de l'épingler.",
+    "S'ils vous guillotine, votre tête était trop basse – gardez la tête haute et vers l'extérieur."
+  ],
+  "systemLogic": {
+    "corePrinciple": "Identifiez le open guard (DLR, RDLR, assis) → contrôlez la cheville proche → faites glisser sa jambe sur vos hanches → coupez l'angle → épinglez side control ou prenez l'arrière.",
+    "decisionTree": [
+      {
+        "condition": "Application générale",
+        "action": "La traînée de jambe peut s'enchaîner en : passe à side control, prise en arrière ou enchevêtrement de jambe."
+      },
+      {
+        "condition": "résister, à la traînée en tirant la jambe en arrière",
+        "action": "utilisez leur résistance pour entrer dans un coup de genou ou une passe."
+      }
+    ]
+  },
+  "moneyDetails": [
+    "Saisissez la ligne de la chaussette ou la cheville, pas la jambe du pantalon : une prise propre à la cheville vous offre un meilleur contrôle de la rotation.",
+    "Faites glisser la jambe sur vos hanches à la hauteur des hanches – si vous la faites glisser trop bas (à hauteur des genoux), vous perdez l’avantage de l’angle.",
+    "Gardez votre tête collée à sa poitrine ou à son épaule lorsque vous passez, cela l'empêche de s'asseoir.",
+    "Après la traînée, établissez immédiatement une épingle poitrine à poitrine – ne leur laissez pas le temps de récupérer guard."
+  ],
+  "nextStep": "Après avoir maîtrisé la passe traînée de jambe, apprenez la prise arrière de la traînée de jambe et les combinaisons genou-coupe-passe.",
+  "fixItFast": [
+    "Ils continuent de tourner ? Maintenez crossface pression avec votre épaule – ne les laissez pas vous tourner le dos.",
+    "Vous ne pouvez pas tenir la cheville ? Passez à une prise à deux contre un (les deux mains sur la cheville) pour plus de contrôle.",
+    "Ils re-guard immédiatement ? Votre angle était trop faible – faites glisser la jambe plus loin sur votre ligne médiane."
+  ]
+}

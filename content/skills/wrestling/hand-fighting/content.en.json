@@ -1,0 +1,71 @@
+{
+  "id": "hand-fighting",
+  "locale": "en",
+  "name": "Hand Fighting",
+  "description": "Win the hand fight to control wrists, inside ties, underhooks, and head position. Hand fighting is the battle for control that happens before any technique — whoever wins the hand fight dictates the engagement.",
+  "shortInstruction": "Win the inside tie, secure wrist control, fight for the underhook, and establish head position. If you lose a grip, pummel back inside immediately — do not fight from outside position.",
+  "summary": "Hand fighting is the invisible battle of grip, wrist, and arm control that determines who initiates the takedown, guard pass, or guard pull. The key principles are: (1) inside control beats outside control — your hand between their arm and body controls their center, (2) two-on-one beats one-on-one — use both hands on one of their arms to create advantages, (3) pummel back immediately when you lose inside position — do not grab from outside, (4) head position controls body position — the underhook requires head control to be effective.",
+  "whyItWorks": [
+    "Inside position (your hand between their arm and body) gives you mechanical advantage — you control their center line",
+    "Two-on-one (both hands on one of their arms) creates a local strength advantage that neutralizes their other arm",
+    "The underhook is the most valuable hand fight win because it gives you control of their upper body",
+    "Head position (forehead to their jaw) prevents them from posting on your head and breaks their posture"
+  ],
+  "commonMistakes": [
+    "Grabbing from outside position (reaching around their arms) — this is weaker than pummeling to inside",
+    "Fighting hand-to-hand (one-on-one) against a stronger opponent — use two-on-one to negate strength",
+    "Losing the hand fight and then trying to force a takedown from a compromised position",
+    "Ignoring head position — hand control without head control is incomplete"
+  ],
+  "coachingCues": [
+    "Inside beats outside, always",
+    "Two-on-one beats one-on-one",
+    "Pummel back, don't reach around",
+    "Hands and head together"
+  ],
+  "safetySummary": [
+    "Hand fighting can lead to finger injuries if you grip aggressively — keep fingers safe by gripping with the palm, not the fingertips",
+    "Do not lock your fingers or grip so tight that you cannot release quickly — locked grips in standing can cause shoulder injuries when the opponent moves suddenly",
+    "Avoid eye pokes — keep your hands visible and controlled during hand fighting exchanges"
+  ],
+  "systemLogic": {
+    "corePrinciple": "Hand fighting determines who initiates the engagement. The priority hierarchy is: Inside Tie → Wrist Control → Underhook → Head Position. If you lose any priority, pummel back inside — never fight from outside position.",
+    "decisionTree": [
+      {
+        "condition": "Opponent has inside tie (their hand between your arm and body)",
+        "action": "Pummel your arm back inside by circling your elbow under theirs. Do not reach around or grab from outside — the inside hand always wins the grip fight."
+      },
+      {
+        "condition": "Opponent controls both of your wrists",
+        "action": "Free one hand with a wrist spin rotation, then establish two-on-one control on their lead arm. Two-on-one creates a local strength advantage that neutralizes their other arm."
+      },
+      {
+        "condition": "Opponent snaps your head down",
+        "action": "Set your stance wider and keep your hands up. Head position controls body position — if they control your head, they control your posture."
+      },
+      {
+        "condition": "Opponent is stronger in the collar tie",
+        "action": "Switch to an overhook or two-on-one to neutralize their strength advantage. Do not fight strength with strength — change the grip."
+      },
+      {
+        "condition": "Opponent establishes the underhook",
+        "action": "Switch to a far-side underhook (reach under their far arm) or use a whizzer (overhook) to counter their underhook. Drive your shoulder into their chest to re-flatten them."
+      }
+    ],
+    "exitStrategies": [
+      "If you keep losing the hand fight, drill pummeling entries — you are reaching instead of pummeling.",
+      "If the opponent is stronger in the hand fight, use two-on-one on their lead arm to neutralize their strength advantage.",
+      "Hand control without head position is incomplete — always pair hand fighting with forehead-to-jaw head position."
+    ]
+  },
+  "moneyDetails": [
+    "Hand fighting determines the outcome of most grappling matches before any technique is attempted",
+    "Winning the hand fight against a stronger opponent requires technique (pummeling, two-on-one) not strength",
+    "Hand fighting is the most under-trained skill in BJJ — mastering it gives you an immediate advantage over most opponents"
+  ],
+  "fixItFast": [
+    "If they keep grabbing your wrists: use a wrist spin to free your hand and re-establish inside position",
+    "If they are stronger in the collar tie: switch to an overhook or two-on-one",
+    "If they keep snapping your head: set your stance wider and keep your hands up"
+  ]
+}

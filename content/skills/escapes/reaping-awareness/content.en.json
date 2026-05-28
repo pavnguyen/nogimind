@@ -1,0 +1,73 @@
+{
+  "id": "reaping-awareness",
+  "locale": "en",
+  "name": "Reaping Awareness",
+  "description": "Recognize and avoid illegal reaping of the knee in leg lock entanglements. Reaping occurs when the attacking foot crosses the opponent's midline and the heel is driven toward the hip, creating dangerous rotational torque on the knee.",
+  "shortInstruction": "If your attacking foot crosses the opponent's belly button line and your heel drives toward their hip, you are reaping. Immediately release or adjust to outside ashi position to train safely.",
+  "summary": "Reaping awareness teaches you to identify when a leg entanglement becomes an illegal reap (IBJJF rule) or a dangerous knee position, and how to adjust to safe training positions. The key measure is the midline — if your attacking foot is on the opposite side of the opponent's body from where you started, you are likely reaping. The danger is that reaping applies the same rotational torque to the knee as a heel hook, and training in reaped positions normalizes unsafe knee angles.",
+  "whyItWorks": [
+    "Understanding the medial vs lateral knee line prevents training injuries — reaping applies external rotation to the knee that can damage the MCL and meniscus",
+    "Knowing competition rules avoids disqualification — IBJJF bans reaping at all belt levels",
+    "Recognizing reaping early allows safe adjustment before torque is applied — you can switch to outside ashi or 50/50",
+    "Training awareness of reaping prevents accidental injuries when training at higher intensity"
+  ],
+  "commonMistakes": [
+    "Confusing reaping (foot crosses midline, heel drives to hip) with outside ashi (foot stays on same side) — they look similar but the knee risk is completely different",
+    "Continuing to apply leg lock pressure after the partner signals pain — always check which position you are in",
+    "Not knowing the difference between reaping and legal heel exposure — heel exposure alone is not reaping if the foot does not cross midline",
+    "Assuming 'light' reaping is safe — rotational torque applied gradually still stresses the knee structures"
+  ],
+  "coachingCues": [
+    "Foot crosses midline = reap",
+    "Heel to hip = dangerous rotation",
+    "Outside ashi is safe, inside sankaku is reaping",
+    "When in doubt, switch to straight footlock"
+  ],
+  "safetySummary": [
+    "Reaping applies dangerous rotational torque to the knee — the MCL is most vulnerable, followed by the ACL and meniscus",
+    "Always release immediately if you feel the foot cross the opponent's midline during a leg entanglement",
+    "When in doubt, switch to outside ashi (foot on same side) or straight footlock position (no crossing)",
+    "IBJJF rules: reaping results in immediate disqualification at all belt levels",
+    "In ADCC and no-gi sub-only rules, reaping is legal but still carries the same inherent knee injury risk"
+  ],
+  "systemLogic": {
+    "corePrinciple": "Reaping occurs when the attacking foot crosses the opponent's midline and the heel is driven toward the hip, creating dangerous rotational torque on the knee. The key safety marker is the midline — if your attacking foot is on the opposite side of their body, you are reaping.",
+    "decisionTree": [
+      {
+        "condition": "Your foot crosses the opponent's midline during a leg entanglement",
+        "action": "You are reaping — immediately slide your attacking foot back to the same side of their body and switch to outside ashi position. Do not apply pressure until you have adjusted."
+      },
+      {
+        "condition": "You are inside sankaku (saddle) and want to train safely",
+        "action": "Scoot your hips back to bring your foot to the same side, enter outside ashi. This removes the reaping condition while maintaining leg control."
+      },
+      {
+        "condition": "You feel your knee being reaped (foot on the wrong side, heel driving toward hip)",
+        "action": "Tap immediately and ask your partner to check their foot position before continuing. Rotational torque can damage the MCL before you feel pain."
+      },
+      {
+        "condition": "You are unsure whether you are reaping",
+        "action": "Stop, straighten your legs, and re-enter from a safe outside ashi position. When in doubt, switch to a straight footlock — no crossing involved."
+      },
+      {
+        "condition": "Your partner taps to reaping pressure during training",
+        "action": "Check your foot position — you may be further across the midline than you thought. Release immediately and adjust to outside ashi before continuing."
+      }
+    ],
+    "exitStrategies": [
+      "Under IBJJF rules, reaping results in immediate disqualification at all belt levels — train outside ashi or straight ankle lock instead.",
+      "Under ADCC or no-gi rules, reaping is legal but still carries knee injury risk — train with controlled intensity and release on any sign of discomfort.",
+      "If you want to train leg locks safely, learn the difference between outside ashi (safe) and inside sankaku (reaping) before attempting any leg entanglement."
+    ]
+  },
+  "moneyDetails": [
+    "Reaping awareness prevents the most common disqualification in IBJJF competitions — a single reaping DQ costs the entire tournament",
+    "Understanding reaping protects your training partners from accidental knee injuries during leg lock training",
+    "Learning to adjust from reaping to safe positions (outside ashi, 50/50) makes you a more versatile and safer training partner"
+  ],
+  "fixItFast": [
+    "If you are inside sankaku (saddle) and want to adjust: scoot your hips back to bring your foot to the same side, enter outside ashi",
+    "If you feel your knee being reaped: tap immediately and ask your partner to check their foot position before continuing",
+    "If you are the attacker and unsure: straighten both legs, release the entanglement, and re-enter from a neutral leg position"
+  ]
+}

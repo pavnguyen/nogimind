@@ -1,0 +1,69 @@
+{
+  "id": "compression-vs-strangle-recognition",
+  "locale": "vi",
+  "name": "Nén vs bóp cổ",
+  "description": "Nhận biết các khóa nén (máy cắt bắp chân, máy cắt bắp tay) so với siết cổ và phản ứng chính xác: chạm khi lực nén nhắm vào khớp, đánh khi nhắm vào cổ. Biết được sự khác biệt sẽ giúp bạn tránh hoảng loạn khi tiếp cận các kỹ thuật an toàn và trì hoãn nguy hiểm đối với các kỹ thuật nguy hiểm.",
+  "shortInstruction": "Lực ép tấn công cơ vào xương (gõ nhẹ khi cơn đau nhói), siết cổ tấn công cổ (đánh nhau nếu sặc máu, gõ nhẹ nếu sặc không khí hoặc quây). Nếu không chắc chắn, hãy chạm vào - tổn thương cơ sẽ mất vài tuần để lành lại.",
+  "summary": "Các đòn tấn công nén (máy cắt) tạo áp lực khiến bụng cơ bám vào xương, tạo ra cơn đau cục bộ rõ rệt. Siết cổ (nghẹt máu) gây áp lực lên động mạch cảnh. Phản hồi thì ngược lại: đối với khóa nén, hãy chạm vào khi cơn đau trở nên gay gắt (chúng sẽ không khiến bạn bất tỉnh). Đối với tình trạng sặc máu, bạn có thể phòng thủ lâu hơn vì tình trạng bất tỉnh có thể hồi phục. Điều nguy hiểm là nhầm lẫn giữa chứng sặc máu sâu có cảm giác như bị đè ở cổ với tay quay - hãy chạm sớm nếu cảm thấy áp lực không đúng.",
+  "whyItWorks": [
+    "Khóa nén không gây bất tỉnh - chúng gây đau cơ và dây thần kinh tăng dần",
+    "Sặc máu gây bất tỉnh sau 4-10 giây - bạn có thời gian để phòng thủ nhưng phải nhận biết mức độ đe dọa",
+    "Cuộn cảm khí (áp lực khí quản) và tay quay cổ (áp lực cột sống) cần phải gõ nhẹ ngay lập tức do nguy cơ chấn thương cấu trúc",
+    "Biết bạn đang tham gia kiểu tấn công nào sẽ xác định xem bạn nên chiến đấu, trốn thoát hay chạm vào ngay lập tức"
+  ],
+  "commonMistakes": [
+    "Nhấn mạnh vào các khóa nén chưa được áp dụng hoàn toàn - cảm giác đau khi nén rất rõ nhưng hiếm khi gây ra tổn thương lâu dài nếu bạn nhấn sớm",
+    "Không gõ đủ sớm để tránh nghẹt thở hoặc quay cổ - 'làm cứng' nghẹt khí quản có thể gây tổn thương dây thanh âm",
+    "Nhầm lẫn giữa chứng sặc máu với chứng vẹo cổ - chứng sặc máu gây áp lực lên hai bên cổ chứ không phải phía trước hay phía sau",
+    "Chống lại khóa nén quá lâu - tổn thương cơ do máy thái có thể mất vài tuần để lành lại"
+  ],
+  "coachingCues": [
+    "Nén = chạm vào cơn đau nhói",
+    "Sặc máu = chiến đấu hoặc trốn thoát",
+    "Cuộn cảm/tay quay = chạm ngay lập tức",
+    "Nếu không chắc chắn, hãy nhấn"
+  ],
+  "safetySummary": [
+    "Máy thái bắp chân ép cơ bụng vào xương chày - gây đau nhưng hiếm khi gây tổn thương cấu trúc nếu bạn chạm vào khi cơn đau trở nên dữ dội",
+    "Máy cắt bắp tay ép cơ bắp tay vào xương cánh tay - có thể gây tổn thương dây thần kinh nếu giữ quá lâu",
+    "Máy cắt cổ tay (từ một số vị trí ve áo hoặc tay cầm nhất định) có thể nén các dây thần kinh giữa và dây thần kinh trụ - hãy chạm sớm",
+    "Những cơn sặc máu kéo dài đến bất tỉnh có thể gây ra co giật hoặc trong một số trường hợp hiếm hoi là đột quỵ - luôn giải phóng ngay lập tức khi chạm vào hoặc cơ thể khập khiễng",
+    "Cuộn khí (áp lực lên khí quản) có thể gây tổn thương dây thanh âm, gãy sụn tuyến giáp hoặc khó thở - hãy chạm ngay vào"
+  ],
+  "keyCorrections": [
+    "Nếu bạn cảm thấy đau nhói ở cơ bụng (bắp chân, bắp tay): bạn đang ở trạng thái khóa nén - hãy nhấn nếu cơn đau vượt quá mức độ thoải mái của bạn",
+    "Nếu bạn cảm thấy áp lực ở hai bên cổ (động mạch cảnh): bạn đang bị sặc máu - phòng thủ, trốn thoát hoặc thiết lập lại",
+    "Nếu bạn cảm thấy áp lực ở cằm, cổ họng hoặc phía sau đầu: hãy chạm ngay lập tức - bạn đang bị ngạt thở hoặc bị ngạt thở"
+  ],
+  "systemLogic": {
+    "corePrinciple": "Ba kiểu tấn công vào cổ/tay chân yêu cầu các phản ứng khác nhau: Khóa nén → chạm vào cơn đau nhói. Hút máu → phòng thủ/thoát theo thời gian. Cuộn cảm khí/Quay cổ → chạm ngay.",
+    "decisionTree": [
+      {
+        "condition": "Khóa nén (slicers): chi tấn công (ống chân, cẳng tay) đẩy bụng cơ vào xương, tạo ra tình trạng thiếu máu cục bộ (thiếu lưu lượng máu) và chèn ép dây thần kinh. Cơn đau tăng dần",
+        "action": "bạn có thời gian để khai thác. Đừng 'cố gắng' khóa nén vì chúng có thể gây tiêu cơ vân (phá vỡ mô cơ) trong trường hợp nghiêm trọng"
+      },
+      {
+        "condition": "Ứng dụng chung",
+        "action": "Tắc nghẽn máu (bóp cổ): (các) cánh tay tấn công sẽ nén các động mạch cảnh, ngăn máu giàu oxy đến não. Bạn có 4-10 giây tỉnh táo sau khi khóa cuộn cảm. Sặc máu an toàn khi tập luyện vì tình trạng bất tỉnh có thể hồi phục"
+      },
+      {
+        "condition": "Ứng dụng chung",
+        "action": "Nghẹt thở: áp lực lên khí quản/khí quản hạn chế hô hấp. Những thứ này có thể làm hỏng xương móng, sụn tuyến giáp và dây thanh âm. Chạm ngay vào áp lực khí quản"
+      },
+      {
+        "condition": "Ứng dụng chung",
+        "action": "Xoay cổ: tác động lên cột sống cổ qua cằm, phía sau đầu hoặc nền sọ. Có thể gây thoát vị đĩa đệm, tổn thương dây chằng và đau cổ mãn tính. Nhấn ngay"
+      }
+    ]
+  },
+  "moneyDetails": [
+    "Biết sự khác biệt giữa nén, nghẹt máu và quay cổ là điều cần thiết để tập luyện an toàn - phản ứng không chính xác dẫn đến chấn thương hoặc gõ nhẹ không cần thiết",
+    "Khả năng phân biệt các kiểu tấn công trong thời gian thực giúp phân biệt người chơi có kinh nghiệm với người mới bắt đầu",
+    "Hiểu khi nào nên chiến đấu (nghẹt máu) và khi nào nên chạm (quay/nghẹt hơi/đau do nén) sẽ tối ưu hóa các quyết định phòng thủ của bạn trong thi đấu"
+  ],
+  "fixItFast": [
+    "Nếu bạn không chắc chắn mình đang gặp phải kiểu tấn công nào: kiểm tra xem áp lực ở đâu - hai bên cổ = sặc máu, phía trước cổ = sặc không khí, cằm/cột sống = tay quay, bụng cơ = nén",
+    "Nếu đối phương có khóa nén nhưng bạn cảm thấy thoải mái: chạm vào khi cơn đau trở nên gay gắt - đừng đợi tổn thương cấu trúc",
+    "Nếu bạn cảm thấy bất kỳ áp lực nào ở cổ có vẻ 'sai': hãy chạm vào. Bản năng của bạn thường đúng"
+  ]
+}

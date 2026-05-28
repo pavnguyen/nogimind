@@ -1,0 +1,122 @@
+{
+  "id": "s-mount-armbar",
+  "domain": "submission_systems",
+  "level": "advanced",
+  "status": "draft",
+  "name": "s-mount armbar",
+  "aliases": [],
+  "tags": [
+    "s-mount",
+    "armbar",
+    "shoulder-lock-safety",
+    "tier:modern-expansion",
+    "meta:modern-common",
+    "risk:high",
+    "family:submission",
+    "group:s-mount",
+    "modern-no-gi"
+  ],
+  "keywords": [
+    "armbar",
+    "shoulder isolation",
+    "hip extension"
+  ],
+  "modernSystemGroup": "s_mount",
+  "relatedSkills": [
+    {
+      "id": "s-mount-control",
+      "type": "recommended"
+    },
+    {
+      "id": "rear-triangle-control",
+      "type": "recommended"
+    },
+    {
+      "id": "kimura-system",
+      "type": "recommended"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "s-mount-control",
+    "mount-control"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [
+    "Si vous tombez en arrière pendant l'arrivée, vous avez perdu le contrôle de s-mount – entraînez-vous à garder votre poids lourd.",
+    "S'ils libèrent leur bras, votre contrôle de l'épaule était faible – épinglez d'abord leur bras contre votre poitrine.",
+    "S'ils vous relient, votre s-mount n'était pas assez haut – montez plus haut sur leur poitrine."
+  ],
+  "version": 1,
+  "updatedAt": "2026-05-21T00:24:30.776Z",
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "fr",
+  "description": "Terminez le armbar à partir du s-mount en utilisant la pince d'épaule et l'élévation de la ligne des hanches - non pas en tombant en arrière, mais en gardant le contrôle et en soulevant les hanches.",
+  "shortInstruction": "Élevé mount, isolez le bras, gardez votre poids lourd, soulevez vos hanches pour terminer — s-mount armbar est le contrôle, pas le désespoir.",
+  "summary": "Le s-mount armbar est l'étalon-or des armbar à partir de la position mount. Dans s-mount (un pied dans la hanche, un genou dans l'aisselle, votre poids haut sur la poitrine), vous avez un contrôle exceptionnel sur le haut de son corps. À partir de là, isoler un bras et terminer le armbar consiste à maintenir une domination positionnelle plutôt que de tomber en arrière. La principale différence par rapport à un mount armbar classique est que vous terminez en position assise en soulevant vos hanches plutôt qu'en tombant en arrière.",
+  "whyItWorks": [
+    "s-mount place votre poids haut sur leur poitrine – ils ne peuvent pas vous ponter ou vous faire rouler.",
+    "Le pied dans leur hanche vous donne un poteau qui les empêche de se transformer en vous.",
+    "Terminer en soulevant vos hanches (plutôt que de tomber en arrière) maintient le contrôle et empêche les fuites.",
+    "Principe de Danaher : s-mount est la position d'épinglage la plus forte pour les armbar car elle isole complètement le haut du corps."
+  ],
+  "commonMistakes": [
+    "Tomber en arrière pour finir au lieu de soulever les hanches – tomber en arrière leur donne la possibilité de s'échapper.",
+    "Ne contrôlant pas leur bras éloigné, ils posteront et empêcheront la chute.",
+    "Perdre la position s-mount pendant la transition armbar – maintenez la pression jusqu'à ce que vous ayez terminé.",
+    "Laisser leur coude descendre sous votre hanche – le coude doit être au-dessus de votre hanche pour la finition."
+  ],
+  "coachingCues": [
+    "s-mount haut, poids lourd, contrôle le bras.",
+    "Soulevez les hanches, ne tombez pas en arrière.",
+    "Si vous tombez, vous perdez le contrôle – soulevez pour finir.",
+    "Coude jusqu'à la hanche, pouce vers le haut, hanches vers le haut."
+  ],
+  "safetySummary": [
+    "Appliquez l'extension armbar lentement et de manière contrôlée : les blessures par hyperextension se produisent rapidement.",
+    "Ne continuez pas l’extension après le robinet.",
+    "Sachez que la pression de s-mount peut être intense sur les côtes et la poitrine."
+  ],
+  "systemLogic": {
+    "corePrinciple": "mount : transition vers s-mount (un pied dans la hanche, un genou dans l'aisselle) → isoler son bras → amener le coude au-dessus de votre hanche → soulever les hanches → étendre.",
+    "decisionTree": [
+      {
+        "condition": "Application générale",
+        "action": "s-mount armbar enchaîne avec le bras triangle : s'ils défendent le armbar, passez au bras triangle à partir de mount."
+      },
+      {
+        "condition": "ils roulent pour s'échapper",
+        "action": "prenez plutôt le dos."
+      }
+    ],
+    "exitStrategies": []
+  },
+  "moneyDetails": [
+    "Votre position s-mount doit être haute sur sa poitrine – vos hanches doivent être au niveau de son sternum.",
+    "Le pied dans leur hanche doit être actif – vous poussez sur leur hanche pour contrôler leur pont.",
+    "Isolez le bras en le plaquant contre votre poitrine avec votre main du même côté.",
+    "La finition : soulevez vos hanches tout en tirant leur bras vers vous — cela crée l'hyperextension sans tomber en arrière."
+  ],
+  "nextStep": "Après le s-mount armbar, apprenez le mounted triangle et armez triangle à partir de mount.",
+  "fixItFast": [
+    "Vous continuez à reculer ? Restez assis et soulevez plutôt vos hanches.",
+    "Vous ne parvenez pas à isoler le bras ? Passez votre main sous son bras et épinglez-la contre votre poitrine.",
+    "Ils font le pont ? Poussez sur sa hanche avec votre pied s-mount et restez lourd."
+  ]
+}

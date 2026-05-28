@@ -1,0 +1,2591 @@
+{
+  "generatedAt": "2026-05-28T01:08:37.189Z",
+  "summary": {
+    "totalFiles": 366,
+    "byLocale": {
+      "en": {
+        "total": 122,
+        "errors": 0,
+        "warnings": 0,
+        "clean": 122
+      },
+      "vi": {
+        "total": 122,
+        "errors": 0,
+        "warnings": 0,
+        "clean": 122
+      },
+      "fr": {
+        "total": 122,
+        "errors": 0,
+        "warnings": 0,
+        "clean": 122
+      }
+    },
+    "topProblemFiles": []
+  },
+  "results": [
+    {
+      "path": "content/skills/escapes/back-escape/content.en.json",
+      "locale": "en",
+      "id": "back-escape",
+      "name": "Back Escape",
+      "issues": []
+    },
+    {
+      "path": "content/skills/escapes/back-escape/content.fr.json",
+      "locale": "fr",
+      "id": "back-escape",
+      "name": "Retour Évasion",
+      "issues": []
+    },
+    {
+      "path": "content/skills/escapes/back-escape/content.vi.json",
+      "locale": "vi",
+      "id": "back-escape",
+      "name": "Trở lại Thoát",
+      "issues": []
+    },
+    {
+      "path": "content/skills/escapes/back-survival/content.en.json",
+      "locale": "en",
+      "id": "back-survival",
+      "name": "Back Survival",
+      "issues": []
+    },
+    {
+      "path": "content/skills/escapes/back-survival/content.fr.json",
+      "locale": "fr",
+      "id": "back-survival",
+      "name": "Retour Survie",
+      "issues": []
+    },
+    {
+      "path": "content/skills/escapes/back-survival/content.vi.json",
+      "locale": "vi",
+      "id": "back-survival",
+      "name": "Trở lại Sinh tồn",
+      "issues": []
+    },
+    {
+      "path": "content/skills/escapes/compression-vs-strangle-recognition/content.en.json",
+      "locale": "en",
+      "id": "compression-vs-strangle-recognition",
+      "name": "Compression vs Strangle",
+      "issues": []
+    },
+    {
+      "path": "content/skills/escapes/compression-vs-strangle-recognition/content.fr.json",
+      "locale": "fr",
+      "id": "compression-vs-strangle-recognition",
+      "name": "Compression ou étranglement",
+      "issues": []
+    },
+    {
+      "path": "content/skills/escapes/compression-vs-strangle-recognition/content.vi.json",
+      "locale": "vi",
+      "id": "compression-vs-strangle-recognition",
+      "name": "Nén vs bóp cổ",
+      "issues": []
+    },
+    {
+      "path": "content/skills/escapes/dilemmas-two-way-attacks/content.en.json",
+      "locale": "en",
+      "id": "dilemmas-two-way-attacks",
+      "name": "Dilemmas and Two-Way Attacks",
+      "issues": []
+    },
+    {
+      "path": "content/skills/escapes/dilemmas-two-way-attacks/content.fr.json",
+      "locale": "fr",
+      "id": "dilemmas-two-way-attacks",
+      "name": "Dilemmes et attaques bidirectionnelles",
+      "issues": []
+    },
+    {
+      "path": "content/skills/escapes/dilemmas-two-way-attacks/content.vi.json",
+      "locale": "vi",
+      "id": "dilemmas-two-way-attacks",
+      "name": "Vấn đề nan giải và tấn công hai chiều",
+      "issues": []
+    },
+    {
+      "path": "content/skills/escapes/failure-response-transitions/content.en.json",
+      "locale": "en",
+      "id": "failure-response-transitions",
+      "name": "Failure Response and Transitions",
+      "issues": []
+    },
+    {
+      "path": "content/skills/escapes/failure-response-transitions/content.fr.json",
+      "locale": "fr",
+      "id": "failure-response-transitions",
+      "name": "Réponse aux échecs et transitions",
+      "issues": []
+    },
+    {
+      "path": "content/skills/escapes/failure-response-transitions/content.vi.json",
+      "locale": "vi",
+      "id": "failure-response-transitions",
+      "name": "Phản hồi và chuyển đổi thất bại",
+      "issues": []
+    },
+    {
+      "path": "content/skills/escapes/frames-pummeling/content.en.json",
+      "locale": "en",
+      "id": "frames-pummeling",
+      "name": "Frames and Pummeling",
+      "issues": []
+    },
+    {
+      "path": "content/skills/escapes/frames-pummeling/content.fr.json",
+      "locale": "fr",
+      "id": "frames-pummeling",
+      "name": "Cadres et coups",
+      "issues": []
+    },
+    {
+      "path": "content/skills/escapes/frames-pummeling/content.vi.json",
+      "locale": "vi",
+      "id": "frames-pummeling",
+      "name": "Khung và đập",
+      "issues": []
+    },
+    {
+      "path": "content/skills/escapes/front-headlock-defense/content.en.json",
+      "locale": "en",
+      "id": "front-headlock-defense",
+      "name": "Front Headlock Defense",
+      "issues": []
+    },
+    {
+      "path": "content/skills/escapes/front-headlock-defense/content.fr.json",
+      "locale": "fr",
+      "id": "front-headlock-defense",
+      "name": "front headlock Défense",
+      "issues": []
+    },
+    {
+      "path": "content/skills/escapes/front-headlock-defense/content.vi.json",
+      "locale": "vi",
+      "id": "front-headlock-defense",
+      "name": "front headlock Phòng thủ",
+      "issues": []
+    },
+    {
+      "path": "content/skills/escapes/guard-pulling-strategy/content.en.json",
+      "locale": "en",
+      "id": "guard-pulling-strategy",
+      "name": "Guard Pulling Strategy",
+      "issues": []
+    },
+    {
+      "path": "content/skills/escapes/guard-pulling-strategy/content.fr.json",
+      "locale": "fr",
+      "id": "guard-pulling-strategy",
+      "name": "guard Stratégie de traction",
+      "issues": []
+    },
+    {
+      "path": "content/skills/escapes/guard-pulling-strategy/content.vi.json",
+      "locale": "vi",
+      "id": "guard-pulling-strategy",
+      "name": "guard Chiến lược kéo",
+      "issues": []
+    },
+    {
+      "path": "content/skills/escapes/guillotine-defense-escape/content.en.json",
+      "locale": "en",
+      "id": "guillotine-defense-escape",
+      "name": "Guillotine Defense and Escape",
+      "issues": []
+    },
+    {
+      "path": "content/skills/escapes/guillotine-defense-escape/content.fr.json",
+      "locale": "fr",
+      "id": "guillotine-defense-escape",
+      "name": "guillotine Défense et évasion",
+      "issues": []
+    },
+    {
+      "path": "content/skills/escapes/guillotine-defense-escape/content.vi.json",
+      "locale": "vi",
+      "id": "guillotine-defense-escape",
+      "name": "guillotine Phòng thủ và trốn thoát",
+      "issues": []
+    },
+    {
+      "path": "content/skills/escapes/half-guard-bottom-escape/content.en.json",
+      "locale": "en",
+      "id": "half-guard-bottom-escape",
+      "name": "Half Guard Bottom Escape",
+      "issues": []
+    },
+    {
+      "path": "content/skills/escapes/half-guard-bottom-escape/content.fr.json",
+      "locale": "fr",
+      "id": "half-guard-bottom-escape",
+      "name": "half guard Échappement par le bas",
+      "issues": []
+    },
+    {
+      "path": "content/skills/escapes/half-guard-bottom-escape/content.vi.json",
+      "locale": "vi",
+      "id": "half-guard-bottom-escape",
+      "name": "half guard Thoát đáy",
+      "issues": []
+    },
+    {
+      "path": "content/skills/escapes/inside-position/content.en.json",
+      "locale": "en",
+      "id": "inside-position",
+      "name": "Inside Position",
+      "issues": []
+    },
+    {
+      "path": "content/skills/escapes/inside-position/content.fr.json",
+      "locale": "fr",
+      "id": "inside-position",
+      "name": "Position intérieure",
+      "issues": []
+    },
+    {
+      "path": "content/skills/escapes/inside-position/content.vi.json",
+      "locale": "vi",
+      "id": "inside-position",
+      "name": "Vị trí bên trong",
+      "issues": []
+    },
+    {
+      "path": "content/skills/escapes/kani-basami-safety/content.en.json",
+      "locale": "en",
+      "id": "kani-basami-safety",
+      "name": "Kani Basami Safety",
+      "issues": []
+    },
+    {
+      "path": "content/skills/escapes/kani-basami-safety/content.fr.json",
+      "locale": "fr",
+      "id": "kani-basami-safety",
+      "name": "Kani Basami Sécurité",
+      "issues": []
+    },
+    {
+      "path": "content/skills/escapes/kani-basami-safety/content.vi.json",
+      "locale": "vi",
+      "id": "kani-basami-safety",
+      "name": "An toàn Kani Basami",
+      "issues": []
+    },
+    {
+      "path": "content/skills/escapes/knee-line-escape/content.en.json",
+      "locale": "en",
+      "id": "knee-line-escape",
+      "name": "Knee Line Escape / Heel Hide",
+      "issues": []
+    },
+    {
+      "path": "content/skills/escapes/knee-line-escape/content.fr.json",
+      "locale": "fr",
+      "id": "knee-line-escape",
+      "name": "Évasion de la ligne du genou / Masquer le talon",
+      "issues": []
+    },
+    {
+      "path": "content/skills/escapes/knee-line-escape/content.vi.json",
+      "locale": "vi",
+      "id": "knee-line-escape",
+      "name": "Thoát khỏi đường đầu gối / Ẩn gót chân",
+      "issues": []
+    },
+    {
+      "path": "content/skills/escapes/leg-lock-defense/content.en.json",
+      "locale": "en",
+      "id": "leg-lock-defense",
+      "name": "Leg Lock Defense",
+      "issues": []
+    },
+    {
+      "path": "content/skills/escapes/leg-lock-defense/content.fr.json",
+      "locale": "fr",
+      "id": "leg-lock-defense",
+      "name": "Défense de verrouillage des jambes",
+      "issues": []
+    },
+    {
+      "path": "content/skills/escapes/leg-lock-defense/content.vi.json",
+      "locale": "vi",
+      "id": "leg-lock-defense",
+      "name": "Bảo vệ khóa chân",
+      "issues": []
+    },
+    {
+      "path": "content/skills/escapes/leg-lock-safety-basics/content.en.json",
+      "locale": "en",
+      "id": "leg-lock-safety-basics",
+      "name": "Leg Lock Safety Basics",
+      "issues": []
+    },
+    {
+      "path": "content/skills/escapes/leg-lock-safety-basics/content.fr.json",
+      "locale": "fr",
+      "id": "leg-lock-safety-basics",
+      "name": "Bases de sécurité du verrouillage des jambes",
+      "issues": []
+    },
+    {
+      "path": "content/skills/escapes/leg-lock-safety-basics/content.vi.json",
+      "locale": "vi",
+      "id": "leg-lock-safety-basics",
+      "name": "Khái niệm cơ bản về an toàn khóa chân",
+      "issues": []
+    },
+    {
+      "path": "content/skills/escapes/mount-escape/content.en.json",
+      "locale": "en",
+      "id": "mount-escape",
+      "name": "Mount Escape",
+      "issues": []
+    },
+    {
+      "path": "content/skills/escapes/mount-escape/content.fr.json",
+      "locale": "fr",
+      "id": "mount-escape",
+      "name": "mount Évasion",
+      "issues": []
+    },
+    {
+      "path": "content/skills/escapes/mount-escape/content.vi.json",
+      "locale": "vi",
+      "id": "mount-escape",
+      "name": "mount Thoát",
+      "issues": []
+    },
+    {
+      "path": "content/skills/escapes/mount-survival/content.en.json",
+      "locale": "en",
+      "id": "mount-survival",
+      "name": "Mount Survival",
+      "issues": []
+    },
+    {
+      "path": "content/skills/escapes/mount-survival/content.fr.json",
+      "locale": "fr",
+      "id": "mount-survival",
+      "name": "mount Survie",
+      "issues": []
+    },
+    {
+      "path": "content/skills/escapes/mount-survival/content.vi.json",
+      "locale": "vi",
+      "id": "mount-survival",
+      "name": "mount Sống sót",
+      "issues": []
+    },
+    {
+      "path": "content/skills/escapes/neck-crank-recognition/content.en.json",
+      "locale": "en",
+      "id": "neck-crank-recognition",
+      "name": "Neck Crank Recognition",
+      "issues": []
+    },
+    {
+      "path": "content/skills/escapes/neck-crank-recognition/content.fr.json",
+      "locale": "fr",
+      "id": "neck-crank-recognition",
+      "name": "Reconnaissance de la manivelle du cou",
+      "issues": []
+    },
+    {
+      "path": "content/skills/escapes/neck-crank-recognition/content.vi.json",
+      "locale": "vi",
+      "id": "neck-crank-recognition",
+      "name": "Nhận dạng tay quay cổ",
+      "issues": []
+    },
+    {
+      "path": "content/skills/escapes/north-south-escape/content.en.json",
+      "locale": "en",
+      "id": "north-south-escape",
+      "name": "North South Escape",
+      "issues": []
+    },
+    {
+      "path": "content/skills/escapes/north-south-escape/content.fr.json",
+      "locale": "fr",
+      "id": "north-south-escape",
+      "name": "Évasion Nord Sud",
+      "issues": []
+    },
+    {
+      "path": "content/skills/escapes/north-south-escape/content.vi.json",
+      "locale": "vi",
+      "id": "north-south-escape",
+      "name": "Bắc Nam thoát hiểm",
+      "issues": []
+    },
+    {
+      "path": "content/skills/escapes/positional-hierarchy/content.en.json",
+      "locale": "en",
+      "id": "positional-hierarchy",
+      "name": "Positional Hierarchy",
+      "issues": []
+    },
+    {
+      "path": "content/skills/escapes/positional-hierarchy/content.fr.json",
+      "locale": "fr",
+      "id": "positional-hierarchy",
+      "name": "Hiérarchie positionnelle",
+      "issues": []
+    },
+    {
+      "path": "content/skills/escapes/positional-hierarchy/content.vi.json",
+      "locale": "vi",
+      "id": "positional-hierarchy",
+      "name": "Hệ thống phân cấp vị trí",
+      "issues": []
+    },
+    {
+      "path": "content/skills/escapes/reaping-awareness/content.en.json",
+      "locale": "en",
+      "id": "reaping-awareness",
+      "name": "Reaping Awareness",
+      "issues": []
+    },
+    {
+      "path": "content/skills/escapes/reaping-awareness/content.fr.json",
+      "locale": "fr",
+      "id": "reaping-awareness",
+      "name": "Récolter la conscience",
+      "issues": []
+    },
+    {
+      "path": "content/skills/escapes/reaping-awareness/content.vi.json",
+      "locale": "vi",
+      "id": "reaping-awareness",
+      "name": "Gặt hái nhận thức",
+      "issues": []
+    },
+    {
+      "path": "content/skills/escapes/scramble-control/content.en.json",
+      "locale": "en",
+      "id": "scramble-control",
+      "name": "Scramble Control",
+      "issues": []
+    },
+    {
+      "path": "content/skills/escapes/scramble-control/content.fr.json",
+      "locale": "fr",
+      "id": "scramble-control",
+      "name": "Contrôle de brouillage",
+      "issues": []
+    },
+    {
+      "path": "content/skills/escapes/scramble-control/content.vi.json",
+      "locale": "vi",
+      "id": "scramble-control",
+      "name": "Kiểm soát tranh giành",
+      "issues": []
+    },
+    {
+      "path": "content/skills/escapes/side-control-escape/content.en.json",
+      "locale": "en",
+      "id": "side-control-escape",
+      "name": "Side Control Escape",
+      "issues": []
+    },
+    {
+      "path": "content/skills/escapes/side-control-escape/content.fr.json",
+      "locale": "fr",
+      "id": "side-control-escape",
+      "name": "side control Évasion",
+      "issues": []
+    },
+    {
+      "path": "content/skills/escapes/side-control-escape/content.vi.json",
+      "locale": "vi",
+      "id": "side-control-escape",
+      "name": "side control Thoát",
+      "issues": []
+    },
+    {
+      "path": "content/skills/escapes/side-control-survival/content.en.json",
+      "locale": "en",
+      "id": "side-control-survival",
+      "name": "Side Control Survival",
+      "issues": []
+    },
+    {
+      "path": "content/skills/escapes/side-control-survival/content.fr.json",
+      "locale": "fr",
+      "id": "side-control-survival",
+      "name": "side control Survie",
+      "issues": []
+    },
+    {
+      "path": "content/skills/escapes/side-control-survival/content.vi.json",
+      "locale": "vi",
+      "id": "side-control-survival",
+      "name": "side control Sống sót",
+      "issues": []
+    },
+    {
+      "path": "content/skills/escapes/smother-safety/content.en.json",
+      "locale": "en",
+      "id": "smother-safety",
+      "name": "Smother Safety",
+      "issues": []
+    },
+    {
+      "path": "content/skills/escapes/smother-safety/content.fr.json",
+      "locale": "fr",
+      "id": "smother-safety",
+      "name": "Étouffez la sécurité",
+      "issues": []
+    },
+    {
+      "path": "content/skills/escapes/smother-safety/content.vi.json",
+      "locale": "vi",
+      "id": "smother-safety",
+      "name": "An toàn hơn",
+      "issues": []
+    },
+    {
+      "path": "content/skills/escapes/turtle-escape-standup/content.en.json",
+      "locale": "en",
+      "id": "turtle-escape-standup",
+      "name": "Turtle Escape to Stand Up",
+      "issues": []
+    },
+    {
+      "path": "content/skills/escapes/turtle-escape-standup/content.fr.json",
+      "locale": "fr",
+      "id": "turtle-escape-standup",
+      "name": "La tortue s'échappe pour se relever",
+      "issues": []
+    },
+    {
+      "path": "content/skills/escapes/turtle-escape-standup/content.vi.json",
+      "locale": "vi",
+      "id": "turtle-escape-standup",
+      "name": "Rùa trốn thoát để đứng lên",
+      "issues": []
+    },
+    {
+      "path": "content/skills/guard/butterfly-guard-off-balance/content.en.json",
+      "locale": "en",
+      "id": "butterfly-guard-off-balance",
+      "name": "Butterfly Guard Off-Balance",
+      "issues": []
+    },
+    {
+      "path": "content/skills/guard/butterfly-guard-off-balance/content.fr.json",
+      "locale": "fr",
+      "id": "butterfly-guard-off-balance",
+      "name": "Papillon guard déséquilibré",
+      "issues": []
+    },
+    {
+      "path": "content/skills/guard/butterfly-guard-off-balance/content.vi.json",
+      "locale": "vi",
+      "id": "butterfly-guard-off-balance",
+      "name": "Bướm guard Mất cân bằng",
+      "issues": []
+    },
+    {
+      "path": "content/skills/guard/clamp-guard-control/content.en.json",
+      "locale": "en",
+      "id": "clamp-guard-control",
+      "name": "Clamp Guard Control",
+      "issues": []
+    },
+    {
+      "path": "content/skills/guard/clamp-guard-control/content.fr.json",
+      "locale": "fr",
+      "id": "clamp-guard-control",
+      "name": "Pince guard Contrôle",
+      "issues": []
+    },
+    {
+      "path": "content/skills/guard/clamp-guard-control/content.vi.json",
+      "locale": "vi",
+      "id": "clamp-guard-control",
+      "name": "Kẹp guard Điều khiển",
+      "issues": []
+    },
+    {
+      "path": "content/skills/guard/clamp-to-triangle-bridge/content.en.json",
+      "locale": "en",
+      "id": "clamp-to-triangle-bridge",
+      "name": "Clamp Guard to Triangle Bridge",
+      "issues": []
+    },
+    {
+      "path": "content/skills/guard/clamp-to-triangle-bridge/content.fr.json",
+      "locale": "fr",
+      "id": "clamp-to-triangle-bridge",
+      "name": "Fixez guard au pont triangle",
+      "issues": []
+    },
+    {
+      "path": "content/skills/guard/clamp-to-triangle-bridge/content.vi.json",
+      "locale": "vi",
+      "id": "clamp-to-triangle-bridge",
+      "name": "Kẹp cầu guard vào cầu triangle",
+      "issues": []
+    },
+    {
+      "path": "content/skills/guard/closed-guard-posture-control/content.en.json",
+      "locale": "en",
+      "id": "closed-guard-posture-control",
+      "name": "Closed Guard Posture Control",
+      "issues": []
+    },
+    {
+      "path": "content/skills/guard/closed-guard-posture-control/content.fr.json",
+      "locale": "fr",
+      "id": "closed-guard-posture-control",
+      "name": "closed guard Contrôle de la posture",
+      "issues": []
+    },
+    {
+      "path": "content/skills/guard/closed-guard-posture-control/content.vi.json",
+      "locale": "vi",
+      "id": "closed-guard-posture-control",
+      "name": "closed guard Kiểm soát tư thế",
+      "issues": []
+    },
+    {
+      "path": "content/skills/guard/closed-guard-sweeps/content.en.json",
+      "locale": "en",
+      "id": "closed-guard-sweeps",
+      "name": "Closed Guard Sweeps",
+      "issues": []
+    },
+    {
+      "path": "content/skills/guard/closed-guard-sweeps/content.fr.json",
+      "locale": "fr",
+      "id": "closed-guard-sweeps",
+      "name": "closed guard Balayages",
+      "issues": []
+    },
+    {
+      "path": "content/skills/guard/closed-guard-sweeps/content.vi.json",
+      "locale": "vi",
+      "id": "closed-guard-sweeps",
+      "name": "closed guard Quét",
+      "issues": []
+    },
+    {
+      "path": "content/skills/guard/de-la-riva-sweeps/content.en.json",
+      "locale": "en",
+      "id": "de-la-riva-sweeps",
+      "name": "De La Riva Sweeps",
+      "issues": []
+    },
+    {
+      "path": "content/skills/guard/de-la-riva-sweeps/content.fr.json",
+      "locale": "fr",
+      "id": "de-la-riva-sweeps",
+      "name": "De La Riva Balayages",
+      "issues": []
+    },
+    {
+      "path": "content/skills/guard/de-la-riva-sweeps/content.vi.json",
+      "locale": "vi",
+      "id": "de-la-riva-sweeps",
+      "name": "De La Riva Quét",
+      "issues": []
+    },
+    {
+      "path": "content/skills/guard/deep-half-guard/content.en.json",
+      "locale": "en",
+      "id": "deep-half-guard",
+      "name": "Deep Half Guard",
+      "issues": []
+    },
+    {
+      "path": "content/skills/guard/deep-half-guard/content.fr.json",
+      "locale": "fr",
+      "id": "deep-half-guard",
+      "name": "Profond half guard",
+      "issues": []
+    },
+    {
+      "path": "content/skills/guard/deep-half-guard/content.vi.json",
+      "locale": "vi",
+      "id": "deep-half-guard",
+      "name": "Sâu half guard",
+      "issues": []
+    },
+    {
+      "path": "content/skills/guard/false-reap-entry/content.en.json",
+      "locale": "en",
+      "id": "false-reap-entry",
+      "name": "False Reap Entry",
+      "issues": []
+    },
+    {
+      "path": "content/skills/guard/false-reap-entry/content.fr.json",
+      "locale": "fr",
+      "id": "false-reap-entry",
+      "name": "Fausse entrée de récolte",
+      "issues": []
+    },
+    {
+      "path": "content/skills/guard/false-reap-entry/content.vi.json",
+      "locale": "vi",
+      "id": "false-reap-entry",
+      "name": "Nhập sai",
+      "issues": []
+    },
+    {
+      "path": "content/skills/guard/false-reap-to-saddle-bridge/content.en.json",
+      "locale": "en",
+      "id": "false-reap-to-saddle-bridge",
+      "name": "False Reap to Saddle Bridge",
+      "issues": []
+    },
+    {
+      "path": "content/skills/guard/false-reap-to-saddle-bridge/content.fr.json",
+      "locale": "fr",
+      "id": "false-reap-to-saddle-bridge",
+      "name": "Fausse récolte jusqu'au pont saddle",
+      "issues": []
+    },
+    {
+      "path": "content/skills/guard/false-reap-to-saddle-bridge/content.vi.json",
+      "locale": "vi",
+      "id": "false-reap-to-saddle-bridge",
+      "name": "Sai Reap tới cầu saddle",
+      "issues": []
+    },
+    {
+      "path": "content/skills/guard/half-butterfly-to-leg-entanglements/content.en.json",
+      "locale": "en",
+      "id": "half-butterfly-to-leg-entanglements",
+      "name": "Half Butterfly to Leg Entanglements",
+      "issues": []
+    },
+    {
+      "path": "content/skills/guard/half-butterfly-to-leg-entanglements/content.fr.json",
+      "locale": "fr",
+      "id": "half-butterfly-to-leg-entanglements",
+      "name": "Enchevêtrements du demi-papillon aux jambes",
+      "issues": []
+    },
+    {
+      "path": "content/skills/guard/half-butterfly-to-leg-entanglements/content.vi.json",
+      "locale": "vi",
+      "id": "half-butterfly-to-leg-entanglements",
+      "name": "Sự vướng víu của nửa con bướm đến chân",
+      "issues": []
+    },
+    {
+      "path": "content/skills/guard/half-guard-knee-shield/content.en.json",
+      "locale": "en",
+      "id": "half-guard-knee-shield",
+      "name": "Half Guard Knee Shield",
+      "issues": []
+    },
+    {
+      "path": "content/skills/guard/half-guard-knee-shield/content.fr.json",
+      "locale": "fr",
+      "id": "half-guard-knee-shield",
+      "name": "half guard knee shield",
+      "issues": []
+    },
+    {
+      "path": "content/skills/guard/half-guard-knee-shield/content.vi.json",
+      "locale": "vi",
+      "id": "half-guard-knee-shield",
+      "name": "half guard knee shield",
+      "issues": []
+    },
+    {
+      "path": "content/skills/guard/inverted-guard-control/content.en.json",
+      "locale": "en",
+      "id": "inverted-guard-control",
+      "name": "Inverted Guard & Transitions",
+      "issues": []
+    },
+    {
+      "path": "content/skills/guard/inverted-guard-control/content.fr.json",
+      "locale": "fr",
+      "id": "inverted-guard-control",
+      "name": "guard inversé et transitions",
+      "issues": []
+    },
+    {
+      "path": "content/skills/guard/inverted-guard-control/content.vi.json",
+      "locale": "vi",
+      "id": "inverted-guard-control",
+      "name": "Đảo ngược guard & Chuyển tiếp",
+      "issues": []
+    },
+    {
+      "path": "content/skills/guard/k-guard-entry/content.en.json",
+      "locale": "en",
+      "id": "k-guard-entry",
+      "name": "K-Guard Entry",
+      "issues": []
+    },
+    {
+      "path": "content/skills/guard/k-guard-entry/content.fr.json",
+      "locale": "fr",
+      "id": "k-guard-entry",
+      "name": "K-guard Entrée",
+      "issues": []
+    },
+    {
+      "path": "content/skills/guard/k-guard-entry/content.vi.json",
+      "locale": "vi",
+      "id": "k-guard-entry",
+      "name": "K-guard Mục nhập",
+      "issues": []
+    },
+    {
+      "path": "content/skills/guard/k-guard-matrix/content.en.json",
+      "locale": "en",
+      "id": "k-guard-matrix",
+      "name": "K-Guard to Matrix",
+      "issues": []
+    },
+    {
+      "path": "content/skills/guard/k-guard-matrix/content.fr.json",
+      "locale": "fr",
+      "id": "k-guard-matrix",
+      "name": "K-guard à la matrice",
+      "issues": []
+    },
+    {
+      "path": "content/skills/guard/k-guard-matrix/content.vi.json",
+      "locale": "vi",
+      "id": "k-guard-matrix",
+      "name": "K-guard tới Ma trận",
+      "issues": []
+    },
+    {
+      "path": "content/skills/guard/leg-drag-pass/content.en.json",
+      "locale": "en",
+      "id": "leg-drag-pass",
+      "name": "Leg Drag Pass",
+      "issues": []
+    },
+    {
+      "path": "content/skills/guard/leg-drag-pass/content.fr.json",
+      "locale": "fr",
+      "id": "leg-drag-pass",
+      "name": "Passe de traînée de jambe",
+      "issues": []
+    },
+    {
+      "path": "content/skills/guard/leg-drag-pass/content.vi.json",
+      "locale": "vi",
+      "id": "leg-drag-pass",
+      "name": "Đèo kéo chân",
+      "issues": []
+    },
+    {
+      "path": "content/skills/guard/octopus-guard-control/content.en.json",
+      "locale": "en",
+      "id": "octopus-guard-control",
+      "name": "Octopus Guard Control",
+      "issues": []
+    },
+    {
+      "path": "content/skills/guard/octopus-guard-control/content.fr.json",
+      "locale": "fr",
+      "id": "octopus-guard-control",
+      "name": "Poulpe guard Contrôle",
+      "issues": []
+    },
+    {
+      "path": "content/skills/guard/octopus-guard-control/content.vi.json",
+      "locale": "vi",
+      "id": "octopus-guard-control",
+      "name": "Bạch tuộc guard Kiểm soát",
+      "issues": []
+    },
+    {
+      "path": "content/skills/guard/octopus-guard-sweep/content.en.json",
+      "locale": "en",
+      "id": "octopus-guard-sweep",
+      "name": "Octopus Guard Sweep",
+      "issues": []
+    },
+    {
+      "path": "content/skills/guard/octopus-guard-sweep/content.fr.json",
+      "locale": "fr",
+      "id": "octopus-guard-sweep",
+      "name": "Poulpe guard Balayage",
+      "issues": []
+    },
+    {
+      "path": "content/skills/guard/octopus-guard-sweep/content.vi.json",
+      "locale": "vi",
+      "id": "octopus-guard-sweep",
+      "name": "Bạch tuộc guard Quét",
+      "issues": []
+    },
+    {
+      "path": "content/skills/guard/reverse-de-la-riva-transitions/content.en.json",
+      "locale": "en",
+      "id": "reverse-de-la-riva-transitions",
+      "name": "Reverse De La Riva Transitions",
+      "issues": []
+    },
+    {
+      "path": "content/skills/guard/reverse-de-la-riva-transitions/content.fr.json",
+      "locale": "fr",
+      "id": "reverse-de-la-riva-transitions",
+      "name": "Inverser les transitions De La Riva",
+      "issues": []
+    },
+    {
+      "path": "content/skills/guard/reverse-de-la-riva-transitions/content.vi.json",
+      "locale": "vi",
+      "id": "reverse-de-la-riva-transitions",
+      "name": "Đảo ngược De La Riva Chuyển tiếp",
+      "issues": []
+    },
+    {
+      "path": "content/skills/guard/seated-guard-retention/content.en.json",
+      "locale": "en",
+      "id": "seated-guard-retention",
+      "name": "Seated Guard Retention",
+      "issues": []
+    },
+    {
+      "path": "content/skills/guard/seated-guard-retention/content.fr.json",
+      "locale": "fr",
+      "id": "seated-guard-retention",
+      "name": "Assis guard Rétention",
+      "issues": []
+    },
+    {
+      "path": "content/skills/guard/seated-guard-retention/content.vi.json",
+      "locale": "vi",
+      "id": "seated-guard-retention",
+      "name": "Ngồi guard Giữ chân",
+      "issues": []
+    },
+    {
+      "path": "content/skills/guard/seated-hand-fighting/content.en.json",
+      "locale": "en",
+      "id": "seated-hand-fighting",
+      "name": "Seated Guard Hand-Fighting",
+      "issues": []
+    },
+    {
+      "path": "content/skills/guard/seated-hand-fighting/content.fr.json",
+      "locale": "fr",
+      "id": "seated-hand-fighting",
+      "name": "Assis guard Combat à mains nues",
+      "issues": []
+    },
+    {
+      "path": "content/skills/guard/seated-hand-fighting/content.vi.json",
+      "locale": "vi",
+      "id": "seated-hand-fighting",
+      "name": "Ngồi guard Đấu tay đôi",
+      "issues": []
+    },
+    {
+      "path": "content/skills/guard/shin-to-shin-entry/content.en.json",
+      "locale": "en",
+      "id": "shin-to-shin-entry",
+      "name": "Shin-to-Shin Entry",
+      "issues": []
+    },
+    {
+      "path": "content/skills/guard/shin-to-shin-entry/content.fr.json",
+      "locale": "fr",
+      "id": "shin-to-shin-entry",
+      "name": "Entrée tibia à tibia",
+      "issues": []
+    },
+    {
+      "path": "content/skills/guard/shin-to-shin-entry/content.vi.json",
+      "locale": "vi",
+      "id": "shin-to-shin-entry",
+      "name": "Lối vào Shin-to-Shin",
+      "issues": []
+    },
+    {
+      "path": "content/skills/guard/shoulder-crunch-control/content.en.json",
+      "locale": "en",
+      "id": "shoulder-crunch-control",
+      "name": "Shoulder Crunch Control",
+      "issues": []
+    },
+    {
+      "path": "content/skills/guard/shoulder-crunch-control/content.fr.json",
+      "locale": "fr",
+      "id": "shoulder-crunch-control",
+      "name": "Contrôle du resserrement des épaules",
+      "issues": []
+    },
+    {
+      "path": "content/skills/guard/shoulder-crunch-control/content.vi.json",
+      "locale": "vi",
+      "id": "shoulder-crunch-control",
+      "name": "Kiểm soát độ cứng vai",
+      "issues": []
+    },
+    {
+      "path": "content/skills/guard/single-leg-x-basics/content.en.json",
+      "locale": "en",
+      "id": "single-leg-x-basics",
+      "name": "Single Leg X Basics",
+      "issues": []
+    },
+    {
+      "path": "content/skills/guard/single-leg-x-basics/content.fr.json",
+      "locale": "fr",
+      "id": "single-leg-x-basics",
+      "name": "single leg x Notions de base",
+      "issues": []
+    },
+    {
+      "path": "content/skills/guard/single-leg-x-basics/content.vi.json",
+      "locale": "vi",
+      "id": "single-leg-x-basics",
+      "name": "single leg x Thông tin cơ bản",
+      "issues": []
+    },
+    {
+      "path": "content/skills/guard/single-leg-x-control/content.en.json",
+      "locale": "en",
+      "id": "single-leg-x-control",
+      "name": "Single Leg X Control",
+      "issues": []
+    },
+    {
+      "path": "content/skills/guard/single-leg-x-control/content.fr.json",
+      "locale": "fr",
+      "id": "single-leg-x-control",
+      "name": "single leg x Contrôle",
+      "issues": []
+    },
+    {
+      "path": "content/skills/guard/single-leg-x-control/content.vi.json",
+      "locale": "vi",
+      "id": "single-leg-x-control",
+      "name": "single leg x Kiểm soát",
+      "issues": []
+    },
+    {
+      "path": "content/skills/guard/supine-guard-retention/content.en.json",
+      "locale": "en",
+      "id": "supine-guard-retention",
+      "name": "Supine Guard Retention",
+      "issues": []
+    },
+    {
+      "path": "content/skills/guard/supine-guard-retention/content.fr.json",
+      "locale": "fr",
+      "id": "supine-guard-retention",
+      "name": "En décubitus dorsal guard Rétention",
+      "issues": []
+    },
+    {
+      "path": "content/skills/guard/supine-guard-retention/content.vi.json",
+      "locale": "vi",
+      "id": "supine-guard-retention",
+      "name": "Nằm ngửa guard Giữ nguyên",
+      "issues": []
+    },
+    {
+      "path": "content/skills/guard/x-guard-control/content.en.json",
+      "locale": "en",
+      "id": "x-guard-control",
+      "name": "X-Guard Control",
+      "issues": []
+    },
+    {
+      "path": "content/skills/guard/x-guard-control/content.fr.json",
+      "locale": "fr",
+      "id": "x-guard-control",
+      "name": "X-guard Contrôle",
+      "issues": []
+    },
+    {
+      "path": "content/skills/guard/x-guard-control/content.vi.json",
+      "locale": "vi",
+      "id": "x-guard-control",
+      "name": "X-guard Kiểm soát",
+      "issues": []
+    },
+    {
+      "path": "content/skills/guard/z-guard-sweeps/content.en.json",
+      "locale": "en",
+      "id": "z-guard-sweeps",
+      "name": "Z-Guard Sweeps & Deep Half",
+      "issues": []
+    },
+    {
+      "path": "content/skills/guard/z-guard-sweeps/content.fr.json",
+      "locale": "fr",
+      "id": "z-guard-sweeps",
+      "name": "Z-guard Balayages et moitié profonde",
+      "issues": []
+    },
+    {
+      "path": "content/skills/guard/z-guard-sweeps/content.vi.json",
+      "locale": "vi",
+      "id": "z-guard-sweeps",
+      "name": "Z-guard Quét & sâu một nửa",
+      "issues": []
+    },
+    {
+      "path": "content/skills/passing/bodylock-pass/content.en.json",
+      "locale": "en",
+      "id": "bodylock-pass",
+      "name": "Body Lock Pass",
+      "issues": []
+    },
+    {
+      "path": "content/skills/passing/bodylock-pass/content.fr.json",
+      "locale": "fr",
+      "id": "bodylock-pass",
+      "name": "Passe de verrouillage corporel",
+      "issues": []
+    },
+    {
+      "path": "content/skills/passing/bodylock-pass/content.vi.json",
+      "locale": "vi",
+      "id": "bodylock-pass",
+      "name": "Thẻ khóa cơ thể",
+      "issues": []
+    },
+    {
+      "path": "content/skills/passing/headquarters-passing/content.en.json",
+      "locale": "en",
+      "id": "headquarters-passing",
+      "name": "Headquarters Passing",
+      "issues": []
+    },
+    {
+      "path": "content/skills/passing/headquarters-passing/content.fr.json",
+      "locale": "fr",
+      "id": "headquarters-passing",
+      "name": "Passage du siège social",
+      "issues": []
+    },
+    {
+      "path": "content/skills/passing/headquarters-passing/content.vi.json",
+      "locale": "vi",
+      "id": "headquarters-passing",
+      "name": "Trụ sở đi qua",
+      "issues": []
+    },
+    {
+      "path": "content/skills/passing/hq-split-squat-passing/content.en.json",
+      "locale": "en",
+      "id": "hq-split-squat-passing",
+      "name": "HQ / Split-Squat Passing",
+      "issues": []
+    },
+    {
+      "path": "content/skills/passing/hq-split-squat-passing/content.fr.json",
+      "locale": "fr",
+      "id": "hq-split-squat-passing",
+      "name": "QG / Passe Split-Squat",
+      "issues": []
+    },
+    {
+      "path": "content/skills/passing/hq-split-squat-passing/content.vi.json",
+      "locale": "vi",
+      "id": "hq-split-squat-passing",
+      "name": "HQ / Chuyển động ngồi xổm",
+      "issues": []
+    },
+    {
+      "path": "content/skills/passing/knee-cut-passing/content.en.json",
+      "locale": "en",
+      "id": "knee-cut-passing",
+      "name": "Knee Cut Passing",
+      "issues": []
+    },
+    {
+      "path": "content/skills/passing/knee-cut-passing/content.fr.json",
+      "locale": "fr",
+      "id": "knee-cut-passing",
+      "name": "Passage coupé au genou",
+      "issues": []
+    },
+    {
+      "path": "content/skills/passing/knee-cut-passing/content.vi.json",
+      "locale": "vi",
+      "id": "knee-cut-passing",
+      "name": "Cắt đầu gối",
+      "issues": []
+    },
+    {
+      "path": "content/skills/passing/leg-drag-basics/content.en.json",
+      "locale": "en",
+      "id": "leg-drag-basics",
+      "name": "Leg Drag Basics",
+      "issues": []
+    },
+    {
+      "path": "content/skills/passing/leg-drag-basics/content.fr.json",
+      "locale": "fr",
+      "id": "leg-drag-basics",
+      "name": "Bases de la traînée de jambe",
+      "issues": []
+    },
+    {
+      "path": "content/skills/passing/leg-drag-basics/content.vi.json",
+      "locale": "vi",
+      "id": "leg-drag-basics",
+      "name": "Khái niệm cơ bản về kéo chân",
+      "issues": []
+    },
+    {
+      "path": "content/skills/passing/outside-passing/content.en.json",
+      "locale": "en",
+      "id": "outside-passing",
+      "name": "Outside Passing",
+      "issues": []
+    },
+    {
+      "path": "content/skills/passing/outside-passing/content.fr.json",
+      "locale": "fr",
+      "id": "outside-passing",
+      "name": "Passage extérieur",
+      "issues": []
+    },
+    {
+      "path": "content/skills/passing/outside-passing/content.vi.json",
+      "locale": "vi",
+      "id": "outside-passing",
+      "name": "Đi qua bên ngoài",
+      "issues": []
+    },
+    {
+      "path": "content/skills/pins/claw-ride/content.en.json",
+      "locale": "en",
+      "id": "claw-ride",
+      "name": "Claw Ride",
+      "issues": []
+    },
+    {
+      "path": "content/skills/pins/claw-ride/content.fr.json",
+      "locale": "fr",
+      "id": "claw-ride",
+      "name": "Tour de griffe",
+      "issues": []
+    },
+    {
+      "path": "content/skills/pins/claw-ride/content.vi.json",
+      "locale": "vi",
+      "id": "claw-ride",
+      "name": "Đi xe vuốt",
+      "issues": []
+    },
+    {
+      "path": "content/skills/pins/crab-ride/content.en.json",
+      "locale": "en",
+      "id": "crab-ride",
+      "name": "Crab Ride",
+      "issues": []
+    },
+    {
+      "path": "content/skills/pins/crab-ride/content.fr.json",
+      "locale": "fr",
+      "id": "crab-ride",
+      "name": "Balade en crabe",
+      "issues": []
+    },
+    {
+      "path": "content/skills/pins/crab-ride/content.vi.json",
+      "locale": "vi",
+      "id": "crab-ride",
+      "name": "Đua Cua",
+      "issues": []
+    },
+    {
+      "path": "content/skills/pins/cross-wrist-ride/content.en.json",
+      "locale": "en",
+      "id": "cross-wrist-ride",
+      "name": "Cross-Wrist Ride",
+      "issues": []
+    },
+    {
+      "path": "content/skills/pins/cross-wrist-ride/content.fr.json",
+      "locale": "fr",
+      "id": "cross-wrist-ride",
+      "name": "Tour de poignet croisé",
+      "issues": []
+    },
+    {
+      "path": "content/skills/pins/cross-wrist-ride/content.vi.json",
+      "locale": "vi",
+      "id": "cross-wrist-ride",
+      "name": "Đi xe chéo cổ tay",
+      "issues": []
+    },
+    {
+      "path": "content/skills/pins/crucifix-control/content.en.json",
+      "locale": "en",
+      "id": "crucifix-control",
+      "name": "Crucifix Control",
+      "issues": []
+    },
+    {
+      "path": "content/skills/pins/crucifix-control/content.fr.json",
+      "locale": "fr",
+      "id": "crucifix-control",
+      "name": "crucifix Contrôle",
+      "issues": []
+    },
+    {
+      "path": "content/skills/pins/crucifix-control/content.vi.json",
+      "locale": "vi",
+      "id": "crucifix-control",
+      "name": "crucifix Kiểm soát",
+      "issues": []
+    },
+    {
+      "path": "content/skills/pins/dagestani-handcuff/content.en.json",
+      "locale": "en",
+      "id": "dagestani-handcuff",
+      "name": "Dagestani Handcuff",
+      "issues": []
+    },
+    {
+      "path": "content/skills/pins/dagestani-handcuff/content.fr.json",
+      "locale": "fr",
+      "id": "dagestani-handcuff",
+      "name": "Menottes du Daghestan",
+      "issues": []
+    },
+    {
+      "path": "content/skills/pins/dagestani-handcuff/content.vi.json",
+      "locale": "vi",
+      "id": "dagestani-handcuff",
+      "name": "Còng tay Dagestani",
+      "issues": []
+    },
+    {
+      "path": "content/skills/pins/knee-on-belly-control/content.en.json",
+      "locale": "en",
+      "id": "knee-on-belly-control",
+      "name": "Knee On Belly Control",
+      "issues": []
+    },
+    {
+      "path": "content/skills/pins/knee-on-belly-control/content.fr.json",
+      "locale": "fr",
+      "id": "knee-on-belly-control",
+      "name": "Contrôle du genou sur le ventre",
+      "issues": []
+    },
+    {
+      "path": "content/skills/pins/knee-on-belly-control/content.vi.json",
+      "locale": "vi",
+      "id": "knee-on-belly-control",
+      "name": "Kiểm soát đầu gối trên bụng",
+      "issues": []
+    },
+    {
+      "path": "content/skills/pins/mat-return-basics/content.en.json",
+      "locale": "en",
+      "id": "mat-return-basics",
+      "name": "Mat Return Basics",
+      "issues": []
+    },
+    {
+      "path": "content/skills/pins/mat-return-basics/content.fr.json",
+      "locale": "fr",
+      "id": "mat-return-basics",
+      "name": "mat return Notions de base",
+      "issues": []
+    },
+    {
+      "path": "content/skills/pins/mat-return-basics/content.vi.json",
+      "locale": "vi",
+      "id": "mat-return-basics",
+      "name": "mat return Khái niệm cơ bản",
+      "issues": []
+    },
+    {
+      "path": "content/skills/pins/mount-control/content.en.json",
+      "locale": "en",
+      "id": "mount-control",
+      "name": "Mount Control",
+      "issues": []
+    },
+    {
+      "path": "content/skills/pins/mount-control/content.fr.json",
+      "locale": "fr",
+      "id": "mount-control",
+      "name": "mount Contrôle",
+      "issues": []
+    },
+    {
+      "path": "content/skills/pins/mount-control/content.vi.json",
+      "locale": "vi",
+      "id": "mount-control",
+      "name": "mount Kiểm soát",
+      "issues": []
+    },
+    {
+      "path": "content/skills/pins/north-south-control/content.en.json",
+      "locale": "en",
+      "id": "north-south-control",
+      "name": "North South Control",
+      "issues": []
+    },
+    {
+      "path": "content/skills/pins/north-south-control/content.fr.json",
+      "locale": "fr",
+      "id": "north-south-control",
+      "name": "Contrôle Nord Sud",
+      "issues": []
+    },
+    {
+      "path": "content/skills/pins/north-south-control/content.vi.json",
+      "locale": "vi",
+      "id": "north-south-control",
+      "name": "Kiểm soát Bắc Nam",
+      "issues": []
+    },
+    {
+      "path": "content/skills/pins/power-half-ride/content.en.json",
+      "locale": "en",
+      "id": "power-half-ride",
+      "name": "Power Half Ride",
+      "issues": []
+    },
+    {
+      "path": "content/skills/pins/power-half-ride/content.fr.json",
+      "locale": "fr",
+      "id": "power-half-ride",
+      "name": "Demi-tour de puissance",
+      "issues": []
+    },
+    {
+      "path": "content/skills/pins/power-half-ride/content.vi.json",
+      "locale": "vi",
+      "id": "power-half-ride",
+      "name": "Đi xe nửa sức mạnh",
+      "issues": []
+    },
+    {
+      "path": "content/skills/pins/s-mount-control/content.en.json",
+      "locale": "en",
+      "id": "s-mount-control",
+      "name": "S-Mount Control",
+      "issues": []
+    },
+    {
+      "path": "content/skills/pins/s-mount-control/content.fr.json",
+      "locale": "fr",
+      "id": "s-mount-control",
+      "name": "s-mount Contrôle",
+      "issues": []
+    },
+    {
+      "path": "content/skills/pins/s-mount-control/content.vi.json",
+      "locale": "vi",
+      "id": "s-mount-control",
+      "name": "s-mount Kiểm soát",
+      "issues": []
+    },
+    {
+      "path": "content/skills/pins/side-control-pin/content.en.json",
+      "locale": "en",
+      "id": "side-control-pin",
+      "name": "Side Control Pin",
+      "issues": []
+    },
+    {
+      "path": "content/skills/pins/side-control-pin/content.fr.json",
+      "locale": "fr",
+      "id": "side-control-pin",
+      "name": "side control Épingle",
+      "issues": []
+    },
+    {
+      "path": "content/skills/pins/side-control-pin/content.vi.json",
+      "locale": "vi",
+      "id": "side-control-pin",
+      "name": "side control Ghim",
+      "issues": []
+    },
+    {
+      "path": "content/skills/pins/spiral-ride/content.en.json",
+      "locale": "en",
+      "id": "spiral-ride",
+      "name": "Spiral Ride",
+      "issues": []
+    },
+    {
+      "path": "content/skills/pins/spiral-ride/content.fr.json",
+      "locale": "fr",
+      "id": "spiral-ride",
+      "name": "Tour en spirale",
+      "issues": []
+    },
+    {
+      "path": "content/skills/pins/spiral-ride/content.vi.json",
+      "locale": "vi",
+      "id": "spiral-ride",
+      "name": "Đi xe xoắn ốc",
+      "issues": []
+    },
+    {
+      "path": "content/skills/pins/turtle-ride/content.en.json",
+      "locale": "en",
+      "id": "turtle-ride",
+      "name": "Turtle Ride",
+      "issues": []
+    },
+    {
+      "path": "content/skills/pins/turtle-ride/content.fr.json",
+      "locale": "fr",
+      "id": "turtle-ride",
+      "name": "Promenade en tortue",
+      "issues": []
+    },
+    {
+      "path": "content/skills/pins/turtle-ride/content.vi.json",
+      "locale": "vi",
+      "id": "turtle-ride",
+      "name": "cưỡi rùa",
+      "issues": []
+    },
+    {
+      "path": "content/skills/pins/wrist-ride-back-exposure/content.en.json",
+      "locale": "en",
+      "id": "wrist-ride-back-exposure",
+      "name": "Wrist Ride to Back Exposure",
+      "issues": []
+    },
+    {
+      "path": "content/skills/pins/wrist-ride-back-exposure/content.fr.json",
+      "locale": "fr",
+      "id": "wrist-ride-back-exposure",
+      "name": "Exposition du tour du poignet à l'arrière",
+      "issues": []
+    },
+    {
+      "path": "content/skills/pins/wrist-ride-back-exposure/content.vi.json",
+      "locale": "vi",
+      "id": "wrist-ride-back-exposure",
+      "name": "Đi xe cổ tay để tiếp xúc với lưng",
+      "issues": []
+    },
+    {
+      "path": "content/skills/submissions/anaconda-choke/content.en.json",
+      "locale": "en",
+      "id": "anaconda-choke",
+      "name": "Anaconda Choke",
+      "issues": []
+    },
+    {
+      "path": "content/skills/submissions/anaconda-choke/content.fr.json",
+      "locale": "fr",
+      "id": "anaconda-choke",
+      "name": "anaconda Étrangleur",
+      "issues": []
+    },
+    {
+      "path": "content/skills/submissions/anaconda-choke/content.vi.json",
+      "locale": "vi",
+      "id": "anaconda-choke",
+      "name": "anaconda Nghẹt thở",
+      "issues": []
+    },
+    {
+      "path": "content/skills/submissions/aoki-lock/content.en.json",
+      "locale": "en",
+      "id": "aoki-lock",
+      "name": "Aoki Lock",
+      "issues": []
+    },
+    {
+      "path": "content/skills/submissions/aoki-lock/content.fr.json",
+      "locale": "fr",
+      "id": "aoki-lock",
+      "name": "Serrure Aoki",
+      "issues": []
+    },
+    {
+      "path": "content/skills/submissions/aoki-lock/content.vi.json",
+      "locale": "vi",
+      "id": "aoki-lock",
+      "name": "Khóa Aoki",
+      "issues": []
+    },
+    {
+      "path": "content/skills/submissions/arm-triangle-mount/content.en.json",
+      "locale": "en",
+      "id": "arm-triangle-mount",
+      "name": "Arm Triangle from Mount",
+      "issues": []
+    },
+    {
+      "path": "content/skills/submissions/arm-triangle-mount/content.fr.json",
+      "locale": "fr",
+      "id": "arm-triangle-mount",
+      "name": "Armer triangle à partir de mount",
+      "issues": []
+    },
+    {
+      "path": "content/skills/submissions/arm-triangle-mount/content.vi.json",
+      "locale": "vi",
+      "id": "arm-triangle-mount",
+      "name": "Nhóm triangle từ mount",
+      "issues": []
+    },
+    {
+      "path": "content/skills/submissions/armbar-system/content.en.json",
+      "locale": "en",
+      "id": "armbar-system",
+      "name": "Armbar System",
+      "issues": []
+    },
+    {
+      "path": "content/skills/submissions/armbar-system/content.fr.json",
+      "locale": "fr",
+      "id": "armbar-system",
+      "name": "armbar Système",
+      "issues": []
+    },
+    {
+      "path": "content/skills/submissions/armbar-system/content.vi.json",
+      "locale": "vi",
+      "id": "armbar-system",
+      "name": "armbar Hệ thống",
+      "issues": []
+    },
+    {
+      "path": "content/skills/submissions/back-attack-system/content.en.json",
+      "locale": "en",
+      "id": "back-attack-system",
+      "name": "Back Attack System",
+      "issues": []
+    },
+    {
+      "path": "content/skills/submissions/back-attack-system/content.fr.json",
+      "locale": "fr",
+      "id": "back-attack-system",
+      "name": "Système d'attaque arrière",
+      "issues": []
+    },
+    {
+      "path": "content/skills/submissions/back-attack-system/content.vi.json",
+      "locale": "vi",
+      "id": "back-attack-system",
+      "name": "Hệ thống tấn công ngược",
+      "issues": []
+    },
+    {
+      "path": "content/skills/submissions/back-control/content.en.json",
+      "locale": "en",
+      "id": "back-control",
+      "name": "Back Control",
+      "issues": []
+    },
+    {
+      "path": "content/skills/submissions/back-control/content.fr.json",
+      "locale": "fr",
+      "id": "back-control",
+      "name": "back control",
+      "issues": []
+    },
+    {
+      "path": "content/skills/submissions/back-control/content.vi.json",
+      "locale": "vi",
+      "id": "back-control",
+      "name": "back control",
+      "issues": []
+    },
+    {
+      "path": "content/skills/submissions/backside-50-50-control/content.en.json",
+      "locale": "en",
+      "id": "backside-50-50-control",
+      "name": "Backside 50/50 Control",
+      "issues": []
+    },
+    {
+      "path": "content/skills/submissions/backside-50-50-control/content.fr.json",
+      "locale": "fr",
+      "id": "backside-50-50-control",
+      "name": "Contrôle 50/50 à l'arrière",
+      "issues": []
+    },
+    {
+      "path": "content/skills/submissions/backside-50-50-control/content.vi.json",
+      "locale": "vi",
+      "id": "backside-50-50-control",
+      "name": "Kiểm soát 50/50 mặt sau",
+      "issues": []
+    },
+    {
+      "path": "content/skills/submissions/baratoplata/content.en.json",
+      "locale": "en",
+      "id": "baratoplata",
+      "name": "Baratoplata",
+      "issues": []
+    },
+    {
+      "path": "content/skills/submissions/baratoplata/content.fr.json",
+      "locale": "fr",
+      "id": "baratoplata",
+      "name": "Baratoplata",
+      "issues": []
+    },
+    {
+      "path": "content/skills/submissions/baratoplata/content.vi.json",
+      "locale": "vi",
+      "id": "baratoplata",
+      "name": "Baratoplata",
+      "issues": []
+    },
+    {
+      "path": "content/skills/submissions/bear-trap-ham-sandwich/content.en.json",
+      "locale": "en",
+      "id": "bear-trap-ham-sandwich",
+      "name": "Bear Trap / Ham Sandwich",
+      "issues": []
+    },
+    {
+      "path": "content/skills/submissions/bear-trap-ham-sandwich/content.fr.json",
+      "locale": "fr",
+      "id": "bear-trap-ham-sandwich",
+      "name": "Piège à ours / Sandwich au jambon",
+      "issues": []
+    },
+    {
+      "path": "content/skills/submissions/bear-trap-ham-sandwich/content.vi.json",
+      "locale": "vi",
+      "id": "bear-trap-ham-sandwich",
+      "name": "Bẫy gấu/Bánh kẹp giăm bông",
+      "issues": []
+    },
+    {
+      "path": "content/skills/submissions/buggy-choke/content.en.json",
+      "locale": "en",
+      "id": "buggy-choke",
+      "name": "Buggy Choke",
+      "issues": []
+    },
+    {
+      "path": "content/skills/submissions/buggy-choke/content.fr.json",
+      "locale": "fr",
+      "id": "buggy-choke",
+      "name": "Étrangleur de buggy",
+      "issues": []
+    },
+    {
+      "path": "content/skills/submissions/buggy-choke/content.vi.json",
+      "locale": "vi",
+      "id": "buggy-choke",
+      "name": "lỗi sặc",
+      "issues": []
+    },
+    {
+      "path": "content/skills/submissions/choi-bar/content.en.json",
+      "locale": "en",
+      "id": "choi-bar",
+      "name": "Choi Bar",
+      "issues": []
+    },
+    {
+      "path": "content/skills/submissions/choi-bar/content.fr.json",
+      "locale": "fr",
+      "id": "choi-bar",
+      "name": "Choi Bar",
+      "issues": []
+    },
+    {
+      "path": "content/skills/submissions/choi-bar/content.vi.json",
+      "locale": "vi",
+      "id": "choi-bar",
+      "name": "Choi Bar",
+      "issues": []
+    },
+    {
+      "path": "content/skills/submissions/darce-choke/content.en.json",
+      "locale": "en",
+      "id": "darce-choke",
+      "name": "D'Arce Choke",
+      "issues": []
+    },
+    {
+      "path": "content/skills/submissions/darce-choke/content.fr.json",
+      "locale": "fr",
+      "id": "darce-choke",
+      "name": "d'arce Étrangleur",
+      "issues": []
+    },
+    {
+      "path": "content/skills/submissions/darce-choke/content.vi.json",
+      "locale": "vi",
+      "id": "darce-choke",
+      "name": "d'arce Nghẹt thở",
+      "issues": []
+    },
+    {
+      "path": "content/skills/submissions/de-la-riva-back-take/content.en.json",
+      "locale": "en",
+      "id": "de-la-riva-back-take",
+      "name": "De La Riva Back Take",
+      "issues": []
+    },
+    {
+      "path": "content/skills/submissions/de-la-riva-back-take/content.fr.json",
+      "locale": "fr",
+      "id": "de-la-riva-back-take",
+      "name": "De La Riva Retour en arrière",
+      "issues": []
+    },
+    {
+      "path": "content/skills/submissions/de-la-riva-back-take/content.vi.json",
+      "locale": "vi",
+      "id": "de-la-riva-back-take",
+      "name": "De La Riva Quay lại",
+      "issues": []
+    },
+    {
+      "path": "content/skills/submissions/fhl-go-behind/content.en.json",
+      "locale": "en",
+      "id": "fhl-go-behind",
+      "name": "Front Headlock Go-Behind",
+      "issues": []
+    },
+    {
+      "path": "content/skills/submissions/fhl-go-behind/content.fr.json",
+      "locale": "fr",
+      "id": "fhl-go-behind",
+      "name": "prise de dos depuis front headlock",
+      "issues": []
+    },
+    {
+      "path": "content/skills/submissions/fhl-go-behind/content.vi.json",
+      "locale": "vi",
+      "id": "fhl-go-behind",
+      "name": "front headlock Đi phía sau",
+      "issues": []
+    },
+    {
+      "path": "content/skills/submissions/fifty-fifty-to-heel-exposure/content.en.json",
+      "locale": "en",
+      "id": "fifty-fifty-to-heel-exposure",
+      "name": "50/50 to Heel Exposure",
+      "issues": []
+    },
+    {
+      "path": "content/skills/submissions/fifty-fifty-to-heel-exposure/content.fr.json",
+      "locale": "fr",
+      "id": "fifty-fifty-to-heel-exposure",
+      "name": "Exposition 50/50 au talon",
+      "issues": []
+    },
+    {
+      "path": "content/skills/submissions/fifty-fifty-to-heel-exposure/content.vi.json",
+      "locale": "vi",
+      "id": "fifty-fifty-to-heel-exposure",
+      "name": "Tiếp xúc 50/50 với gót chân",
+      "issues": []
+    },
+    {
+      "path": "content/skills/submissions/gogoplata/content.en.json",
+      "locale": "en",
+      "id": "gogoplata",
+      "name": "Gogoplata",
+      "issues": []
+    },
+    {
+      "path": "content/skills/submissions/gogoplata/content.fr.json",
+      "locale": "fr",
+      "id": "gogoplata",
+      "name": "gogoplata",
+      "issues": []
+    },
+    {
+      "path": "content/skills/submissions/gogoplata/content.vi.json",
+      "locale": "vi",
+      "id": "gogoplata",
+      "name": "gogoplata",
+      "issues": []
+    },
+    {
+      "path": "content/skills/submissions/guillotine-system/content.en.json",
+      "locale": "en",
+      "id": "guillotine-system",
+      "name": "Guillotine System",
+      "issues": []
+    },
+    {
+      "path": "content/skills/submissions/guillotine-system/content.fr.json",
+      "locale": "fr",
+      "id": "guillotine-system",
+      "name": "guillotine Système",
+      "issues": []
+    },
+    {
+      "path": "content/skills/submissions/guillotine-system/content.vi.json",
+      "locale": "vi",
+      "id": "guillotine-system",
+      "name": "guillotine Hệ thống",
+      "issues": []
+    },
+    {
+      "path": "content/skills/submissions/heel-hook-safety/content.en.json",
+      "locale": "en",
+      "id": "heel-hook-safety",
+      "name": "Heel Hook Safety",
+      "issues": []
+    },
+    {
+      "path": "content/skills/submissions/heel-hook-safety/content.fr.json",
+      "locale": "fr",
+      "id": "heel-hook-safety",
+      "name": "heel hook Sécurité",
+      "issues": []
+    },
+    {
+      "path": "content/skills/submissions/heel-hook-safety/content.vi.json",
+      "locale": "vi",
+      "id": "heel-hook-safety",
+      "name": "heel hook An toàn",
+      "issues": []
+    },
+    {
+      "path": "content/skills/submissions/high-wrist-guillotine/content.en.json",
+      "locale": "en",
+      "id": "high-wrist-guillotine",
+      "name": "High-Wrist Guillotine",
+      "issues": []
+    },
+    {
+      "path": "content/skills/submissions/high-wrist-guillotine/content.fr.json",
+      "locale": "fr",
+      "id": "high-wrist-guillotine",
+      "name": "Poignet haut guillotine",
+      "issues": []
+    },
+    {
+      "path": "content/skills/submissions/high-wrist-guillotine/content.vi.json",
+      "locale": "vi",
+      "id": "high-wrist-guillotine",
+      "name": "Cổ tay cao guillotine",
+      "issues": []
+    },
+    {
+      "path": "content/skills/submissions/kimura-system/content.en.json",
+      "locale": "en",
+      "id": "kimura-system",
+      "name": "Kimura System",
+      "issues": []
+    },
+    {
+      "path": "content/skills/submissions/kimura-system/content.fr.json",
+      "locale": "fr",
+      "id": "kimura-system",
+      "name": "kimura Système",
+      "issues": []
+    },
+    {
+      "path": "content/skills/submissions/kimura-system/content.vi.json",
+      "locale": "vi",
+      "id": "kimura-system",
+      "name": "kimura Hệ thống",
+      "issues": []
+    },
+    {
+      "path": "content/skills/submissions/octopus-back-take/content.en.json",
+      "locale": "en",
+      "id": "octopus-back-take",
+      "name": "Octopus Back Take",
+      "issues": []
+    },
+    {
+      "path": "content/skills/submissions/octopus-back-take/content.fr.json",
+      "locale": "fr",
+      "id": "octopus-back-take",
+      "name": "Prise de retour de poulpe",
+      "issues": []
+    },
+    {
+      "path": "content/skills/submissions/octopus-back-take/content.vi.json",
+      "locale": "vi",
+      "id": "octopus-back-take",
+      "name": "Bạch tuộc trở lại",
+      "issues": []
+    },
+    {
+      "path": "content/skills/submissions/omoplata-system/content.en.json",
+      "locale": "en",
+      "id": "omoplata-system",
+      "name": "Omoplata System",
+      "issues": []
+    },
+    {
+      "path": "content/skills/submissions/omoplata-system/content.fr.json",
+      "locale": "fr",
+      "id": "omoplata-system",
+      "name": "omoplata Système",
+      "issues": []
+    },
+    {
+      "path": "content/skills/submissions/omoplata-system/content.vi.json",
+      "locale": "vi",
+      "id": "omoplata-system",
+      "name": "omoplata Hệ thống",
+      "issues": []
+    },
+    {
+      "path": "content/skills/submissions/rear-naked-choke-system/content.en.json",
+      "locale": "en",
+      "id": "rear-naked-choke-system",
+      "name": "Rear Naked Choke",
+      "issues": []
+    },
+    {
+      "path": "content/skills/submissions/rear-naked-choke-system/content.fr.json",
+      "locale": "fr",
+      "id": "rear-naked-choke-system",
+      "name": "Starter nu arrière",
+      "issues": []
+    },
+    {
+      "path": "content/skills/submissions/rear-naked-choke-system/content.vi.json",
+      "locale": "vi",
+      "id": "rear-naked-choke-system",
+      "name": "Choke trần trụi phía sau",
+      "issues": []
+    },
+    {
+      "path": "content/skills/submissions/rear-triangle-control/content.en.json",
+      "locale": "en",
+      "id": "rear-triangle-control",
+      "name": "Rear Triangle Control",
+      "issues": []
+    },
+    {
+      "path": "content/skills/submissions/rear-triangle-control/content.fr.json",
+      "locale": "fr",
+      "id": "rear-triangle-control",
+      "name": "Commande arrière triangle",
+      "issues": []
+    },
+    {
+      "path": "content/skills/submissions/rear-triangle-control/content.vi.json",
+      "locale": "vi",
+      "id": "rear-triangle-control",
+      "name": "Kiểm soát triangle phía sau",
+      "issues": []
+    },
+    {
+      "path": "content/skills/submissions/reverse-buggy-choke/content.en.json",
+      "locale": "en",
+      "id": "reverse-buggy-choke",
+      "name": "Reverse Buggy Choke",
+      "issues": []
+    },
+    {
+      "path": "content/skills/submissions/reverse-buggy-choke/content.fr.json",
+      "locale": "fr",
+      "id": "reverse-buggy-choke",
+      "name": "Starter de buggy inversé",
+      "issues": []
+    },
+    {
+      "path": "content/skills/submissions/reverse-buggy-choke/content.vi.json",
+      "locale": "vi",
+      "id": "reverse-buggy-choke",
+      "name": "Ngược lại Buggy Choke",
+      "issues": []
+    },
+    {
+      "path": "content/skills/submissions/s-mount-armbar/content.en.json",
+      "locale": "en",
+      "id": "s-mount-armbar",
+      "name": "S-Mount Armbar",
+      "issues": []
+    },
+    {
+      "path": "content/skills/submissions/s-mount-armbar/content.fr.json",
+      "locale": "fr",
+      "id": "s-mount-armbar",
+      "name": "s-mount armbar",
+      "issues": []
+    },
+    {
+      "path": "content/skills/submissions/s-mount-armbar/content.vi.json",
+      "locale": "vi",
+      "id": "s-mount-armbar",
+      "name": "s-mount armbar",
+      "issues": []
+    },
+    {
+      "path": "content/skills/submissions/saddle-inside-sankaku-control/content.en.json",
+      "locale": "en",
+      "id": "saddle-inside-sankaku-control",
+      "name": "Saddle / Inside Sankaku Control",
+      "issues": []
+    },
+    {
+      "path": "content/skills/submissions/saddle-inside-sankaku-control/content.fr.json",
+      "locale": "fr",
+      "id": "saddle-inside-sankaku-control",
+      "name": "saddle / inside sankaku Contrôle",
+      "issues": []
+    },
+    {
+      "path": "content/skills/submissions/saddle-inside-sankaku-control/content.vi.json",
+      "locale": "vi",
+      "id": "saddle-inside-sankaku-control",
+      "name": "saddle / inside sankaku Kiểm soát",
+      "issues": []
+    },
+    {
+      "path": "content/skills/submissions/shotgun-ankle-lock/content.en.json",
+      "locale": "en",
+      "id": "shotgun-ankle-lock",
+      "name": "Shotgun Ankle Lock",
+      "issues": []
+    },
+    {
+      "path": "content/skills/submissions/shotgun-ankle-lock/content.fr.json",
+      "locale": "fr",
+      "id": "shotgun-ankle-lock",
+      "name": "Fusil de chasse ankle lock",
+      "issues": []
+    },
+    {
+      "path": "content/skills/submissions/shotgun-ankle-lock/content.vi.json",
+      "locale": "vi",
+      "id": "shotgun-ankle-lock",
+      "name": "Súng săn ankle lock",
+      "issues": []
+    },
+    {
+      "path": "content/skills/submissions/straight-ankle-lock-safety/content.en.json",
+      "locale": "en",
+      "id": "straight-ankle-lock-safety",
+      "name": "Straight Ankle Lock Safety",
+      "issues": []
+    },
+    {
+      "path": "content/skills/submissions/straight-ankle-lock-safety/content.fr.json",
+      "locale": "fr",
+      "id": "straight-ankle-lock-safety",
+      "name": "Droit ankle lock Sécurité",
+      "issues": []
+    },
+    {
+      "path": "content/skills/submissions/straight-ankle-lock-safety/content.vi.json",
+      "locale": "vi",
+      "id": "straight-ankle-lock-safety",
+      "name": "Thẳng ankle lock An toàn",
+      "issues": []
+    },
+    {
+      "path": "content/skills/submissions/tarikoplata/content.en.json",
+      "locale": "en",
+      "id": "tarikoplata",
+      "name": "Tarikoplata",
+      "issues": []
+    },
+    {
+      "path": "content/skills/submissions/tarikoplata/content.fr.json",
+      "locale": "fr",
+      "id": "tarikoplata",
+      "name": "Tarikoplata",
+      "issues": []
+    },
+    {
+      "path": "content/skills/submissions/tarikoplata/content.vi.json",
+      "locale": "vi",
+      "id": "tarikoplata",
+      "name": "Tarikplata",
+      "issues": []
+    },
+    {
+      "path": "content/skills/submissions/texas-cloverleaf/content.en.json",
+      "locale": "en",
+      "id": "texas-cloverleaf",
+      "name": "Texas Cloverleaf",
+      "issues": []
+    },
+    {
+      "path": "content/skills/submissions/texas-cloverleaf/content.fr.json",
+      "locale": "fr",
+      "id": "texas-cloverleaf",
+      "name": "Feuille de trèfle du Texas",
+      "issues": []
+    },
+    {
+      "path": "content/skills/submissions/texas-cloverleaf/content.vi.json",
+      "locale": "vi",
+      "id": "texas-cloverleaf",
+      "name": "Lá cỏ ba lá Texas",
+      "issues": []
+    },
+    {
+      "path": "content/skills/submissions/triangle-system/content.en.json",
+      "locale": "en",
+      "id": "triangle-system",
+      "name": "Triangle System",
+      "issues": []
+    },
+    {
+      "path": "content/skills/submissions/triangle-system/content.fr.json",
+      "locale": "fr",
+      "id": "triangle-system",
+      "name": "triangle Système",
+      "issues": []
+    },
+    {
+      "path": "content/skills/submissions/triangle-system/content.vi.json",
+      "locale": "vi",
+      "id": "triangle-system",
+      "name": "triangle Hệ thống",
+      "issues": []
+    },
+    {
+      "path": "content/skills/submissions/truck-twister/content.en.json",
+      "locale": "en",
+      "id": "truck-twister",
+      "name": "Truck / Twister",
+      "issues": []
+    },
+    {
+      "path": "content/skills/submissions/truck-twister/content.fr.json",
+      "locale": "fr",
+      "id": "truck-twister",
+      "name": "Camion / Twister",
+      "issues": []
+    },
+    {
+      "path": "content/skills/submissions/truck-twister/content.vi.json",
+      "locale": "vi",
+      "id": "truck-twister",
+      "name": "Xe tải / Twister",
+      "issues": []
+    },
+    {
+      "path": "content/skills/submissions/von-flue-choke/content.en.json",
+      "locale": "en",
+      "id": "von-flue-choke",
+      "name": "Von Flue Choke",
+      "issues": []
+    },
+    {
+      "path": "content/skills/submissions/von-flue-choke/content.fr.json",
+      "locale": "fr",
+      "id": "von-flue-choke",
+      "name": "Choke Von Flue",
+      "issues": []
+    },
+    {
+      "path": "content/skills/submissions/von-flue-choke/content.vi.json",
+      "locale": "vi",
+      "id": "von-flue-choke",
+      "name": "Von Flue Choke",
+      "issues": []
+    },
+    {
+      "path": "content/skills/submissions/z-lock/content.en.json",
+      "locale": "en",
+      "id": "z-lock",
+      "name": "Z-Lock",
+      "issues": []
+    },
+    {
+      "path": "content/skills/submissions/z-lock/content.fr.json",
+      "locale": "fr",
+      "id": "z-lock",
+      "name": "Verrouillage en Z",
+      "issues": []
+    },
+    {
+      "path": "content/skills/submissions/z-lock/content.vi.json",
+      "locale": "vi",
+      "id": "z-lock",
+      "name": "Khóa Z",
+      "issues": []
+    },
+    {
+      "path": "content/skills/wrestling/ankle-pick-low-single/content.en.json",
+      "locale": "en",
+      "id": "ankle-pick-low-single",
+      "name": "Ankle Pick / Low Single",
+      "issues": []
+    },
+    {
+      "path": "content/skills/wrestling/ankle-pick-low-single/content.fr.json",
+      "locale": "fr",
+      "id": "ankle-pick-low-single",
+      "name": "Choix de cheville / simple bas",
+      "issues": []
+    },
+    {
+      "path": "content/skills/wrestling/ankle-pick-low-single/content.vi.json",
+      "locale": "vi",
+      "id": "ankle-pick-low-single",
+      "name": "Chọn mắt cá chân / Đơn thấp",
+      "issues": []
+    },
+    {
+      "path": "content/skills/wrestling/arm-drag-system/content.en.json",
+      "locale": "en",
+      "id": "arm-drag-system",
+      "name": "Arm Drag System",
+      "issues": []
+    },
+    {
+      "path": "content/skills/wrestling/arm-drag-system/content.fr.json",
+      "locale": "fr",
+      "id": "arm-drag-system",
+      "name": "Système de traînée de bras",
+      "issues": []
+    },
+    {
+      "path": "content/skills/wrestling/arm-drag-system/content.vi.json",
+      "locale": "vi",
+      "id": "arm-drag-system",
+      "name": "Hệ thống kéo cánh tay",
+      "issues": []
+    },
+    {
+      "path": "content/skills/wrestling/body-lock-takedown/content.en.json",
+      "locale": "en",
+      "id": "body-lock-takedown",
+      "name": "Body Lock Takedown / Mat Returns",
+      "issues": []
+    },
+    {
+      "path": "content/skills/wrestling/body-lock-takedown/content.fr.json",
+      "locale": "fr",
+      "id": "body-lock-takedown",
+      "name": "Démontage du verrou corporel / mat returns",
+      "issues": []
+    },
+    {
+      "path": "content/skills/wrestling/body-lock-takedown/content.vi.json",
+      "locale": "vi",
+      "id": "body-lock-takedown",
+      "name": "Gỡ bỏ khóa cơ thể / mat returns",
+      "issues": []
+    },
+    {
+      "path": "content/skills/wrestling/dogfight-knee-tap/content.en.json",
+      "locale": "en",
+      "id": "dogfight-knee-tap",
+      "name": "Dogfight Knee Tap",
+      "issues": []
+    },
+    {
+      "path": "content/skills/wrestling/dogfight-knee-tap/content.fr.json",
+      "locale": "fr",
+      "id": "dogfight-knee-tap",
+      "name": "Genouillère Dogfight",
+      "issues": []
+    },
+    {
+      "path": "content/skills/wrestling/dogfight-knee-tap/content.vi.json",
+      "locale": "vi",
+      "id": "dogfight-knee-tap",
+      "name": "Cú chạm đầu gối không chiến",
+      "issues": []
+    },
+    {
+      "path": "content/skills/wrestling/front-headlock-system/content.en.json",
+      "locale": "en",
+      "id": "front-headlock-system",
+      "name": "Front Headlock System",
+      "issues": []
+    },
+    {
+      "path": "content/skills/wrestling/front-headlock-system/content.fr.json",
+      "locale": "fr",
+      "id": "front-headlock-system",
+      "name": "front headlock Système",
+      "issues": []
+    },
+    {
+      "path": "content/skills/wrestling/front-headlock-system/content.vi.json",
+      "locale": "vi",
+      "id": "front-headlock-system",
+      "name": "front headlock Hệ thống",
+      "issues": []
+    },
+    {
+      "path": "content/skills/wrestling/half-guard-wrestle-up/content.en.json",
+      "locale": "en",
+      "id": "half-guard-wrestle-up",
+      "name": "Half Guard Wrestle-Up",
+      "issues": []
+    },
+    {
+      "path": "content/skills/wrestling/half-guard-wrestle-up/content.fr.json",
+      "locale": "fr",
+      "id": "half-guard-wrestle-up",
+      "name": "half guard Lutte",
+      "issues": []
+    },
+    {
+      "path": "content/skills/wrestling/half-guard-wrestle-up/content.vi.json",
+      "locale": "vi",
+      "id": "half-guard-wrestle-up",
+      "name": "half guard Đấu vật",
+      "issues": []
+    },
+    {
+      "path": "content/skills/wrestling/hand-fighting/content.en.json",
+      "locale": "en",
+      "id": "hand-fighting",
+      "name": "Hand Fighting",
+      "issues": []
+    },
+    {
+      "path": "content/skills/wrestling/hand-fighting/content.fr.json",
+      "locale": "fr",
+      "id": "hand-fighting",
+      "name": "Combat à la main",
+      "issues": []
+    },
+    {
+      "path": "content/skills/wrestling/hand-fighting/content.vi.json",
+      "locale": "vi",
+      "id": "hand-fighting",
+      "name": "Đấu tay đôi",
+      "issues": []
+    },
+    {
+      "path": "content/skills/wrestling/hip-heist-wrestle-up/content.en.json",
+      "locale": "en",
+      "id": "hip-heist-wrestle-up",
+      "name": "Hip Heist Wrestle-Up",
+      "issues": []
+    },
+    {
+      "path": "content/skills/wrestling/hip-heist-wrestle-up/content.fr.json",
+      "locale": "fr",
+      "id": "hip-heist-wrestle-up",
+      "name": "Lutte contre le braquage de hanche",
+      "issues": []
+    },
+    {
+      "path": "content/skills/wrestling/hip-heist-wrestle-up/content.vi.json",
+      "locale": "vi",
+      "id": "hip-heist-wrestle-up",
+      "name": "Cuộc đấu vật cướp giật thời thượng",
+      "issues": []
+    },
+    {
+      "path": "content/skills/wrestling/single-leg-bjj/content.en.json",
+      "locale": "en",
+      "id": "single-leg-bjj",
+      "name": "Single Leg for BJJ",
+      "issues": []
+    },
+    {
+      "path": "content/skills/wrestling/single-leg-bjj/content.fr.json",
+      "locale": "fr",
+      "id": "single-leg-bjj",
+      "name": "Jambe simple pour BJJ",
+      "issues": []
+    },
+    {
+      "path": "content/skills/wrestling/single-leg-bjj/content.vi.json",
+      "locale": "vi",
+      "id": "single-leg-bjj",
+      "name": "Chân đơn cho BJJ",
+      "issues": []
+    },
+    {
+      "path": "content/skills/wrestling/snapdown-front-headlock/content.en.json",
+      "locale": "en",
+      "id": "snapdown-front-headlock",
+      "name": "Snapdown to Front Headlock",
+      "issues": []
+    },
+    {
+      "path": "content/skills/wrestling/snapdown-front-headlock/content.fr.json",
+      "locale": "fr",
+      "id": "snapdown-front-headlock",
+      "name": "snapdown à front headlock",
+      "issues": []
+    },
+    {
+      "path": "content/skills/wrestling/snapdown-front-headlock/content.vi.json",
+      "locale": "vi",
+      "id": "snapdown-front-headlock",
+      "name": "snapdown đến front headlock",
+      "issues": []
+    },
+    {
+      "path": "content/skills/wrestling/sprawl-go-behind/content.en.json",
+      "locale": "en",
+      "id": "sprawl-go-behind",
+      "name": "Sprawl and Go-Behind",
+      "issues": []
+    },
+    {
+      "path": "content/skills/wrestling/sprawl-go-behind/content.fr.json",
+      "locale": "fr",
+      "id": "sprawl-go-behind",
+      "name": "sprawl et Go-Behind",
+      "issues": []
+    },
+    {
+      "path": "content/skills/wrestling/sprawl-go-behind/content.vi.json",
+      "locale": "vi",
+      "id": "sprawl-go-behind",
+      "name": "sprawl và Đi về phía sau",
+      "issues": []
+    },
+    {
+      "path": "content/skills/wrestling/technical-stand-up/content.en.json",
+      "locale": "en",
+      "id": "technical-stand-up",
+      "name": "Technical Stand-Up",
+      "issues": []
+    },
+    {
+      "path": "content/skills/wrestling/technical-stand-up/content.fr.json",
+      "locale": "fr",
+      "id": "technical-stand-up",
+      "name": "Stand-up technique",
+      "issues": []
+    },
+    {
+      "path": "content/skills/wrestling/technical-stand-up/content.vi.json",
+      "locale": "vi",
+      "id": "technical-stand-up",
+      "name": "Hỗ trợ kỹ thuật",
+      "issues": []
+    },
+    {
+      "path": "content/skills/wrestling/wrestling-up-from-guard/content.en.json",
+      "locale": "en",
+      "id": "wrestling-up-from-guard",
+      "name": "Wrestling Up from Guard",
+      "issues": []
+    },
+    {
+      "path": "content/skills/wrestling/wrestling-up-from-guard/content.fr.json",
+      "locale": "fr",
+      "id": "wrestling-up-from-guard",
+      "name": "Lutte à partir de guard",
+      "issues": []
+    },
+    {
+      "path": "content/skills/wrestling/wrestling-up-from-guard/content.vi.json",
+      "locale": "vi",
+      "id": "wrestling-up-from-guard",
+      "name": "Đấu tranh từ guard",
+      "issues": []
+    }
+  ]
+}

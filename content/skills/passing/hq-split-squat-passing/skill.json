@@ -1,0 +1,59 @@
+{
+  "id": "hq-split-squat-passing",
+  "domain": "passing",
+  "level": "intermediate",
+  "name": "HQ / Split-Squat Passing",
+  "aliases": [],
+  "tags": [
+    "hq",
+    "split-squat",
+    "headquarters",
+    "passing",
+    "knee-cut",
+    "bodylock"
+  ],
+  "keywords": [
+    "headquarters",
+    "split-squat",
+    "knee cut",
+    "bodylock",
+    "toreando",
+    "knee line"
+  ],
+  "relatedSkills": [
+    {
+      "id": "knee-cut-passing",
+      "type": "recommended"
+    },
+    {
+      "id": "bodylock-passing",
+      "type": "recommended"
+    },
+    {
+      "id": "outside-passing",
+      "type": "recommended"
+    },
+    {
+      "id": "leg-drag-basics",
+      "type": "recommended"
+    }
+  ],
+  "prerequisiteSkillIds": [
+    "bodylock-passing",
+    "knee-cut-passing"
+  ],
+  "relatedPositions": [],
+  "relatedConcepts": [],
+  "archetypeIds": [],
+  "trainingMethodIds": [],
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "updatedAt": "2026-05-21T00:24:30.768Z"
+}

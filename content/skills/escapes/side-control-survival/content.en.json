@@ -1,0 +1,73 @@
+{
+  "id": "side-control-survival",
+  "locale": "en",
+  "name": "Side Control Survival",
+  "description": "Preserve breathing, frames, and inside lanes under crossface and underhook pressure in side control. Survival is the first priority before attempting any escape.",
+  "shortInstruction": "Keep elbows glued to ribs, frame on the hip (not chest), breathe through the nose, and never turn your back. Survive first, escape second.",
+  "summary": "Side control survival is the art of absorbing pressure without panic while maintaining the structural integrity needed for an escape. The priority order is: protect the near arm (elbow to ribs), protect the neck (chin tucked, head turned toward mat under crossface), and manage breathing. A surviving bottom player is calm, frames correctly, and waits for the right moment to initiate the escape sequence.",
+  "whyItWorks": [
+    "Keeping your near elbow pinned to your ribs prevents the opponent from isolating your arm for an americana or kimura attack",
+    "A forearm frame across the hip line uses bone structure (not muscle) to hold the opponent's weight off your torso — bone does not fatigue like muscle",
+    "Turning your head toward the mat when crossfaced protects the neck and prevents the opponent from forcing your head into an unsafe alignment",
+    "Controlled breathing through the nose prevents panic hyperventilation and preserves the oxygen needed for the escape sequence"
+  ],
+  "commonMistakes": [
+    "Letting the near elbow flare away from the ribs — this gives the opponent an arm attack and opens the underhook lane",
+    "Framing on the chest instead of the hip line — a chest frame is easily collapsed by the opponent driving their weight forward",
+    "Turning the head away from the crossface (exposing the neck) instead of toward the mat",
+    "Panic breathing or holding the breath — this burns oxygen and leads to panic escapes that expose the back"
+  ],
+  "coachingCues": [
+    "Elbow to rib, always",
+    "Frame on the hip, not the chest",
+    "Breathe through the nose",
+    "Survive first, escape second"
+  ],
+  "safetySummary": [
+    "Side control is one of the most claustrophobic positions in BJJ — feeling panic is normal, but manage it with controlled breathing rather than explosive movement",
+    "If you feel rib pain from pressure, frame immediately and create space rather than trying to bench press the opponent off",
+    "Exposing your back under side control pressure can lead to rear-naked choke entries or spine attacks",
+    "If the opponent isolates your near arm for an americana or kimura, tap early rather than risking shoulder or elbow damage"
+  ],
+  "systemLogic": {
+    "corePrinciple": "Side control survival follows a five-layer hierarchy: protect the near arm → establish hip frame → protect the neck → manage breathing → wait for escape opportunity. Never attempt an escape before establishing all survival layers.",
+    "decisionTree": [
+      {
+        "condition": "Opponent pulls your near arm away from your ribs",
+        "action": "Immediately re-glue the elbow by turning your torso slightly toward the opponent and clamping the elbow to your side. If the elbow lifts, they can attack the arm or enter the underhook lane."
+      },
+      {
+        "condition": "Opponent drives weight through your chest",
+        "action": "Drop a forearm frame diagonally across their hip line — not above it. A hip frame diverts their weight away using bone structure. Above the hip it becomes a weak chest push."
+      },
+      {
+        "condition": "Opponent crossfaces you hard",
+        "action": "Turn your head toward the mat so the pressure lands on the top of your head, not the side of your neck. Frame your top forearm on their biceps to manage distance."
+      },
+      {
+        "condition": "You cannot breathe under their weight",
+        "action": "Your frame is too high — drop it to the hip line and hip escape 3-4 inches away to create a breathing pocket. Controlled nasal breathing preserves oxygen for the escape."
+      },
+      {
+        "condition": "Opponent switches to north-south",
+        "action": "Keep your near arm across your chest and frame on their hips immediately before they settle their weight. Protect the arm from isolation."
+      }
+    ],
+    "exitStrategies": [
+      "Once all four survival layers are stable, initiate the escape (hip escape, underhook, or knee-elbow recovery).",
+      "If survival fails and you get flattened, accept the position briefly, re-establish frames, and try again from a tighter defensive posture.",
+      "If the opponent isolates your near arm for an americana or kimura, tap early rather than risking shoulder or elbow damage."
+    ]
+  },
+  "moneyDetails": [
+    "Side control survival is the most frequently used skill in BJJ — every grappler spends time under side control in every training session",
+    "Mastering survival before escape prevents the most common injury in BJJ: shoulder damage from forcing arm attacks under pressure",
+    "A calm, structured survival approach preserves energy and allows you to escape multiple times per round without gassing",
+    "The ability to survive under heavy pressure separates intermediate from advanced grapplers"
+  ],
+  "fixItFast": [
+    "If you cannot breathe: the frame is too high — drop it to the hip line and hip escape 3-4 inches away from them",
+    "If they are isolating your near arm: turn slightly toward them and clamp the elbow tight — do not let it lift even an inch",
+    "If they switch to north-south: keep your near arm across your chest and frame on their hips immediately before they settle their weight"
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "id": "triangle-system",
+  "domain": "submission_systems",
+  "level": "advanced",
+  "status": "draft",
+  "name": "triangle Système",
+  "aliases": [],
+  "tags": [
+    "choke",
+    "triangle",
+    "neck-safety"
+  ],
+  "keywords": [
+    "triangle",
+    "posture control",
+    "angle before squeeze",
+    "neck safety"
+  ],
+  "relatedSkills": [
+    {
+      "id": "armbar-system",
+      "type": "recommended"
+    },
+    {
+      "id": "omoplata-system",
+      "type": "recommended"
+    },
+    {
+      "id": "shoulder-crunch-control",
+      "type": "recommended"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "clamp-guard-control",
+    "guard-pulling-strategy"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [
+    "Si l'étrangleur semble lâche, votre angle n'est pas assez aigu – éloignez davantage vos hanches d'elles.",
+    "S'ils vous empilent, relâchez le triangle et l'évasion de la hanche – ne combattez pas la pile.",
+    "S'ils libèrent le bras piégé, la position de vos jambes était incorrecte — reprenez immédiatement le bras avec vos jambes."
+  ],
+  "version": 1,
+  "updatedAt": "2026-05-21T00:24:30.744Z",
+  "contentRefs": {
+    "videos": "videos.json",
+    "qualityChecklist": "qualityChecklist"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": true,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "fr",
+  "description": "Verrouillez une épaule vers l'intérieur et une épaule vers l'extérieur, brisez la posture de l'adversaire, coupez l'angle et serrez - le triangle est un étranglement de jambe qui utilise la propre épaule de l'adversaire pour fermer l'étranglement.",
+  "shortInstruction": "Un bras dedans, un bras dehors, rompez la posture, coupez l'angle, serrez — le triangle est le starter de contrôle ultime de guard.",
+  "summary": "Le starter triangle est le pourcentage de soumission le plus élevé de closed guard. Cela fonctionne en emprisonnant l'un de leurs bras à l'intérieur de vos jambes tandis que l'autre bras est à l'extérieur, créant ainsi un « triangle » de vos jambes autour de leur cou et de leur bras. Lorsque vous coupez un angle (en éloignant vos hanches), leur propre épaule appuie contre un côté de leur carotide tandis que votre jambe comprime l'autre. La propre épaule de l'adversaire devient une partie de l'étranglement – ​​c'est pourquoi le triangle est si efficace.",
+  "whyItWorks": [
+    "La propre épaule de l'adversaire complète l'étranglement : son corps est utilisé contre lui.",
+    "Couper l'angle (en éloignant vos hanches) resserre le starter sans avoir besoin de serrer plus fort.",
+    "Le triangle emprisonne un bras, l'empêchant de se poster ou de se baser pour s'échapper.",
+    "Principe Danaher : le triangle est le starter le plus efficace mécaniquement du BJJ — lorsque l'angle est correct, le starter ne nécessite presque aucune force de compression."
+  ],
+  "commonMistakes": [
+    "Verrouiller le triangle trop tôt - verrouiller seulement après avoir rompu sa posture et coupé l'angle.",
+    "Ne pas couper l'angle avant de serrer - un carré triangle peut être échappé par la posture.",
+    "Laisser glisser leur bras coincé – le bras doit être plaqué contre votre corps.",
+    "Presser avec les jambes avant de verrouiller le triangle — le verrou doit être sécurisé avant toute pression."
+  ],
+  "coachingCues": [
+    "Un bras dedans, un bras dehors, c'est le triangle.",
+    "Casser la posture, couper l'angle, verrouiller, presser.",
+    "Éloignez vos hanches – l’angle crée l’étranglement.",
+    "Leur épaule est votre partenaire – laissez-la vous aider."
+  ],
+  "safetySummary": [
+    "Le triangle comprime le cou et les artères carotides – appliquez progressivement et relâchez au robinet.",
+    "Ne tirez pas la tête de l'adversaire vers le bas de manière agressive – cela pourrait provoquer des courbures du cou.",
+    "Relâchez immédiatement au robinet – les starters triangle peuvent rapidement provoquer une perte de conscience."
+  ],
+  "systemLogic": {
+    "corePrinciple": "guard : coincez leur bras autour de votre corps → un bras dedans, un bras dehors → rompez leur posture → verrouillez le triangle (tibia sur l'arrière de votre genou) → coupez l'angle → serrez.",
+    "decisionTree": [
+      {
+        "condition": "Le triangle s'enchaîne avec le armbar",
+        "action": "s'ils défendent le triangle en prenant des postures, attaquez le armbar."
+      },
+      {
+        "condition": "ils s'empilent pour s'échapper",
+        "action": "évasion de la hanche et réattaque ou transition vers le balayage."
+      }
+    ],
+    "exitStrategies": []
+  },
+  "moneyDetails": [
+    "Leur bras coincé doit être en travers de votre ligne médiane – épinglez leur bras contre votre poitrine avec votre main du même côté.",
+    "Verrouillez votre triangle en plaçant le tibia de votre jambe supérieure à l'arrière du genou de votre jambe inférieure.",
+    "Coupez l'angle en éloignant vos hanches d'elles - plus vous marchez loin, plus l'étranglement est serré.",
+    "L'étranglement se resserre lorsque vous serrez vos genoux tout en baissant la tête."
+  ],
+  "nextStep": "Après le système triangle, apprenez le armbar de triangle et triangle pour balayer les transitions.",
+  "fixItFast": [
+    "Le starter semble lâche ? Éloignez vos hanches – l’angle est la clé.",
+    "Ils vous empilent ? Évadez-vous de la hanche et réattaquez – ne combattez pas la pile.",
+    "Ils se posent ? Attaquez le armbar sur le bras libre."
+  ]
+}

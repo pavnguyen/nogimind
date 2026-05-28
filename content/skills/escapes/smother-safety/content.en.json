@@ -1,0 +1,68 @@
+{
+  "id": "smother-safety",
+  "locale": "en",
+  "name": "Smother Safety",
+  "description": "Recognize safe smother and compression: slow pressure, good base, immediate release on tap or distress. Smother techniques apply pressure to the face or torso to create discomfort — they are legal in some contexts but require strict safety protocols.",
+  "shortInstruction": "Apply smother pressure slowly, maintain a stable base to avoid slipping, and release immediately on tap, vocal distress, or signs of panic. Never use smother techniques against newer grapplers.",
+  "summary": "Smother techniques (chest compression, shoulder pressure on the face, body positioning that restricts breathing) are part of high-level pressure passing and pinning. The key safety distinction is between 'positional pressure' (safe, controlled) and 'smothering with intent to cause breathing distress' (requires caution). Safe smother techniques are applied gradually with a stable base so the opponent can tap at any time. Unsafe smother techniques involve sudden weight drops, slipping the shoulder onto the throat, or holding pressure after a tap.",
+  "whyItWorks": [
+    "Chest compression from side control or mount restricts the opponent's diaphragm movement, making breathing shallow and uncomfortable — this creates urgency to escape",
+    "Shoulder pressure on the face creates a distraction that prevents the opponent from focusing on their escape sequence",
+    "Smother pressure, when applied safely, is a psychological tool that makes the opponent panic and make technical errors",
+    "Good base during smother ensures you can control the pressure level and release immediately"
+  ],
+  "commonMistakes": [
+    "Dropping your full body weight suddenly onto the opponent's face or chest — this is dangerous and should be avoided",
+    "Continuing pressure after the opponent has tapped or shows signs of distress (tapping the mat, gasping, panicked movement)",
+    "Using smother techniques against white belts or inexperienced grapplers who may not know how to tap safely",
+    "Letting your base collapse while applying pressure — this can cause you to slip into an unsafe neck or spine position"
+  ],
+  "coachingCues": [
+    "Slow pressure, never sudden",
+    "Stable base before pressure",
+    "Release on any tap or distress",
+    "Save smothers for experienced partners"
+  ],
+  "safetySummary": [
+    "Never drop your full weight onto an opponent's face or throat — this can cause injury even with a tap",
+    "If the opponent cannot breathe, they cannot tap — watch for non-verbal tap signals (hand on mat, tapping foot, body going limp)",
+    "Smother techniques should never be used to 'punish' a training partner — they are positional tools, not ego tools",
+    "Some grapplers have respiratory conditions (asthma, etc.) — be aware that smother pressure may trigger panic or breathing difficulty faster than expected"
+  ],
+  "keyCorrections": [
+    "If your partner taps to smother pressure that you thought was normal: you may be applying too much weight to the face — check your shoulder position",
+    "If you feel your base slipping during a smother: release the pressure immediately, re-establish your base, and re-apply with better structure",
+    "If you find yourself holding pressure after a tap: this is a training habit that must be corrected immediately — release on every tap, no exceptions"
+  ],
+  "systemLogic": {
+    "corePrinciple": "Safe smother pressure follows three rules: Gradual Application: Stable Base → Immediate Release",
+    "decisionTree": [
+      {
+        "condition": "Rule 1 (Gradual Application)",
+        "action": "increase pressure slowly over 2-3 seconds. Sudden weight drops on the face or chest can cause injury before the opponent has time to tap"
+      },
+      {
+        "condition": "Rule 2 (Stable Base)",
+        "action": "maintain a base that allows you to control pressure level at all times. If your base collapses, you lose control of pressure application and risk injury"
+      },
+      {
+        "condition": "Rule 3 (Immediate Release)",
+        "action": "the instant you feel a tap, hear a vocal tap, or see a non-verbal distress signal, release all pressure. There is no 'one more second' in training"
+      },
+      {
+        "condition": "Ethical training principle",
+        "action": "smother techniques should be used to teach positional control, not to dominate training partners. If you can hold side control without smother, do so"
+      }
+    ]
+  },
+  "moneyDetails": [
+    "Smother pressure is a legitimate component of high-level pressure passing — used correctly, it creates escape urgency without injury risk",
+    "Learning smother techniques safely builds trust with training partners — they know you will not hurt them and can train at higher intensity",
+    "The ability to apply and receive smother pressure without panic separates competitive grapplers from recreational ones"
+  ],
+  "fixItFast": [
+    "If your partner is having trouble breathing under your pressure: immediately shift your weight off their chest and check if they are okay",
+    "If you feel a tap but are unsure if it was real: release immediately and check — it is better to stop for a false tap than to continue through a real one",
+    "If you are the receiver of smother pressure and cannot tap with your hands: tap with your foot, tap the mat, or vocalize 'tap' loudly"
+  ]
+}

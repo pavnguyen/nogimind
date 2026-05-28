@@ -1,0 +1,56 @@
+{
+  "id": "octopus-back-take",
+  "domain": "back_control",
+  "level": "advanced",
+  "name": "Octopus Back Take",
+  "aliases": [],
+  "tags": [
+    "octopus",
+    "back-take",
+    "hip-angle",
+    "tier:modern-expansion",
+    "meta:modern-common",
+    "risk:medium",
+    "family:back-take",
+    "group:octopus",
+    "modern-no-gi"
+  ],
+  "keywords": [
+    "back exposure",
+    "hip line",
+    "wrist control"
+  ],
+  "modernSystemGroup": "octopus",
+  "relatedSkills": [
+    {
+      "id": "octopus-guard-sweep",
+      "type": "recommended"
+    },
+    {
+      "id": "back-control",
+      "type": "recommended"
+    },
+    {
+      "id": "rear-naked-choke-system",
+      "type": "recommended"
+    }
+  ],
+  "prerequisiteSkillIds": [
+    "octopus-guard-control",
+    "back-control"
+  ],
+  "relatedPositions": [],
+  "relatedConcepts": [],
+  "archetypeIds": [],
+  "trainingMethodIds": [],
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "updatedAt": "2026-05-21T00:24:30.775Z"
+}

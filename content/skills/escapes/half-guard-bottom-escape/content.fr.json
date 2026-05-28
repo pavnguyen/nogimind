@@ -1,0 +1,62 @@
+{
+  "id": "half-guard-bottom-escape",
+  "locale": "fr",
+  "name": "half guard Échappement par le bas",
+  "description": "Évadez-vous du half guard inférieur en remportant le underhook, en créant un cadre et en récupérant guard ou en vous levant.",
+  "shortInstruction": "Gagnez le underhook, amenez le genou extérieur sur le dos de l'adversaire et dirigez-vous vers le combat aérien ou récupérez le papillon guard.",
+  "summary": "half guard bottom escape utilise le underhook et la position extérieure du genou pour créer une entrée de combat aérien, à partir de laquelle vous pouvez wrestle up, balayer ou récupérer le guard complet. Le système récompense la mobilité des hanches et la position de la tête plutôt que la force du haut du corps.",
+  "whyItWorks": [
+    "Le underhook supprime la menace crossface de l'adversaire et vous donne le contrôle de la posture du haut du corps.",
+    "Le genou extérieur dans le dos crée un coin structurel qui les empêche de vous aplatir.",
+    "La position de combat aérien vous donne trois branches : une jambe (wrestle up), une tape sur le genou (balayage) ou re-guard (récupération du papillon).",
+    "Gagner la position de la tête (du front à la mâchoire) les empêche de vous écraser avec la pression des épaules"
+  ],
+  "commonMistakes": [
+    "Se battre pour le underhook à dos plat au lieu de se tourner d'abord sur le côté",
+    "Laisser l'adversaire crossface tout en atteignant le underhook - cela expose le cou",
+    "Tirer le bras underhook vers l'extérieur au lieu de pousser le coude vers le haut dans l'aisselle",
+    "Rester trop longtemps en combat aérien sans s'engager sur une branche - l'adversaire finira par vous aplatir"
+  ],
+  "coachingCues": [
+    "underhook ou mourir",
+    "Genou extérieur dans le dos",
+    "Du front à la mâchoire"
+  ],
+  "safetySummary": [
+    "half guard est l'endroit le plus courant où se blesser les doigts et les orteils : protégez vos doigts lorsque vous saisissez un pantalon ou insérez des crochets.",
+    "Si l'adversaire a un crossface fort, protégez votre cou en tournant la tête vers le tapis avant d'atteindre le underhook.",
+    "Ne forcez pas le combat aérien si votre genou est coincé – cela peut stresser le MCL"
+  ],
+  "keyCorrections": [],
+  "systemLogic": {
+    "corePrinciple": "L'évasion inférieure half guard comporte trois étapes séquentielles : se tourner sur le côté → gagner underhook → insérer le genou extérieur dans le dos",
+    "decisionTree": [
+      {
+        "condition": "Application générale",
+        "action": "Si l'étape 1, tournez-vous sur le côté : avant de chercher quoi que ce soit, tournez-vous sur le côté face à l'adversaire. Cela aligne votre squelette pour le cadre et l'empêche de vous aplatir."
+      },
+      {
+        "condition": "Application générale",
+        "action": "Si l'étape 2, gagnez underhook : frappez votre bras proche profondément dans l'aisselle avec le coude vers le haut. Votre tête doit être soit à l'intérieur (du front à la mâchoire), soit à l'extérieur (de la joue à l'épaule)"
+      },
+      {
+        "condition": "Étape 3, Genou extérieur : amenez votre genou extérieur sur le bas du dos et placez votre pied. Cela crée le chien",
+        "action": "position de combat"
+      },
+      {
+        "condition": "Application générale",
+        "action": "Depuis le combat aérien, vous avez trois branches : une jambe (ils postent la main éloignée), un coup de genou (ils postent près) ou re-guard (ils vous pénètrent)."
+      }
+    ]
+  },
+  "moneyDetails": [
+    "half guard en bas est l'une des positions les plus courantes dans BJJ — une évasion fiable ici améliore considérablement votre jeu global",
+    "Une évasion réussie de half guard mène directement à une position dominante (side control ou mount via la passe)",
+    "S'échapper de half guard pour lutter rapporte un retrait en compétition (2 points) et établit un contrôle supérieur"
+  ],
+  "fixItFast": [
+    "S'ils vous écrasent avant que vous n'obteniez le underhook : allez dans les profondeurs du half guard et balayez-les par-dessus la jambe coincée.",
+    "S'ils crossface vous ont du mal : cachez votre tête, allez à vos côtés et utilisez le haut de votre bras pour encadrer leurs biceps au lieu d'atteindre le underhook.",
+    "S'il glisse son genou à travers votre half guard : tournez-vous immédiatement vers lui, coincez sa jambe qui passe entre la vôtre et frappez à nouveau pour le underhook."
+  ]
+}

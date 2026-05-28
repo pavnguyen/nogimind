@@ -1,0 +1,73 @@
+{
+  "id": "leg-lock-safety-basics",
+  "locale": "vi",
+  "name": "Khái niệm cơ bản về an toàn khóa chân",
+  "description": "Nhận biết đường đầu gối, tiếp xúc với gót chân và xoay người an toàn trước khi học các đòn tấn công bằng chân. An toàn trong khóa chân không phải là tùy chọn - đó là điều kiện tiên quyết cho tất cả các khóa đào tạo khóa chân.",
+  "shortInstruction": "Tìm hiểu bốn khái niệm an toàn trước khi thực hiện bất kỳ động tác khóa chân nào: (1) nhận biết đường đầu gối, (2) nhận biết mức độ tiếp xúc với gót chân, (3) hướng xoay an toàn, (4) kỷ luật chạm. Nếu bạn không thể kể tên cả bốn thì bạn chưa sẵn sàng tập khóa chân.",
+  "summary": "Khái niệm cơ bản về an toàn khóa chân bao gồm bốn khái niệm an toàn cơ bản mà mọi vận động viên vật lộn phải nắm vững trước khi cố gắng hoặc bảo vệ khóa chân: (1) đường đầu gối — đường vô hình ở phía sau đầu gối, khi bắt chéo, sẽ báo hiệu cần chạm hoặc thoát, (2) tiếp xúc với gót chân — khi gót chân bị cô lập và tách khỏi đùi, đầu gối đang gặp nguy hiểm, (3) xoay an toàn — quay về phía chân tự do luôn an toàn, xoay ra xa luôn nguy hiểm, (4) kỷ luật chạm — chạm vào vị trí thay vì đau là nguyên tắc vàng của khóa luyện tập khóa chân.",
+  "whyItWorks": [
+    "Hiểu được đường đầu gối sẽ mang lại cho bạn một điểm đánh dấu an toàn khách quan - bạn biết chính xác khi nào bạn gặp nguy hiểm và khi nào bạn an toàn",
+    "Nhận dạng gót chân cho phép bạn đánh giá mức độ đe dọa trong thời gian thực - gót chân lộ = nguy hiểm sắp xảy ra, gót chân ẩn = an toàn",
+    "Kiến thức xoay vòng an toàn ngăn ngừa sai lầm phòng thủ phổ biến nhất (xoay đi) gây ra phần lớn chấn thương khóa chân",
+    "Kỷ luật chạm là cơ chế an toàn tối ưu - biết khi nào nên chạm sẽ ngăn chặn 5% các lần khóa chân dẫn đến chấn thương"
+  ],
+  "commonMistakes": [
+    "Không biết đường đầu gối là gì - tập khóa chân mà không hiểu khái niệm này là nguy hiểm",
+    "Nhầm lẫn 'áp lực' với 'nguy hiểm' - khóa chân có thể tạo áp lực mà không ảnh hưởng đến đầu gối và chấn thương thảm khốc có thể xảy ra mà không cần áp lực",
+    "Xoay người khỏi chân bị mắc kẹt theo bản năng khi bị vướng chân",
+    "Đợi cơn đau trước khi chạm vào — vào thời điểm heel hook bị đau, đầu gối thường đã bị tổn thương"
+  ],
+  "coachingCues": [
+    "Biết đường đầu gối",
+    "Gót chân lộ ra = nguy hiểm",
+    "Xoay về phía chân tự do",
+    "Chạm vào vị trí, không đau"
+  ],
+  "safetySummary": [
+    "Đường đầu gối là đường vô hình ở phía sau đầu gối - khi đối phương khống chế chân bạn phía trên đường đầu gối, đầu gối của bạn sẽ gặp nguy hiểm",
+    "heel hooks có thể làm hỏng ACL, MCL, PCL và mặt khum trong mô-men quay dưới 100 mili giây",
+    "Không có gì 'cố gắng' heel hook - tổn thương dây chằng xảy ra trước khi tín hiệu đau đến não của bạn",
+    "Chạm bằng tay (không phải bằng chân) và chạm rõ ràng - đối tác đào tạo có thể bỏ qua việc chạm không rõ ràng",
+    "Nếu bạn là kẻ tấn công, hãy tạo áp lực heel hook từ từ và thả ra ngay khi đối tác của bạn chạm hoặc phát ra âm thanh khó chịu"
+  ],
+  "systemLogic": {
+    "corePrinciple": "An toàn khóa chân được xây dựng trên bốn trụ cột: Kiến thức (giải phẫu đầu gối) → Nhận biết (kiểm soát đường đầu gối, tiếp xúc với gót chân, khoảng cách với hông) → Phản ứng (tiếp tục, thoát ra hoặc chạm) → Kỷ luật (chạm sớm và thường xuyên). An toàn là điều kiện tiên quyết cho tất cả các bài tập khóa chân.",
+    "decisionTree": [
+      {
+        "condition": "Bạn không biết đường đầu gối là gì",
+        "action": "Hãy ngừng tập khóa chân cho đến khi bạn hiểu được khái niệm này. Đường đầu gối là đường vô hình ở phía sau đầu gối - khi đối thủ kiểm soát chân của bạn phía trên đường này, đầu gối của bạn sẽ gặp nguy hiểm."
+      },
+      {
+        "condition": "Gót chân của bạn bị cô lập và tách biệt khỏi đùi",
+        "action": "Đầu gối của bạn đang gặp nguy hiểm - chạm ngay lập tức hoặc bắt đầu thoát ra khỏi đường đầu gối trước khi vòng quay bắt đầu. Gót chân lộ ra + không có khoảng cách hông = sắp phải khuất phục."
+      },
+      {
+        "condition": "Bạn cảm thấy chân bị kẹt bắt đầu xoay",
+        "action": "Xoay về phía chân còn lại của bạn - điều này luôn an toàn. Xoay người ra khỏi chân bị kẹt là sai lầm phòng thủ phổ biến nhất và gây ra phần lớn các chấn thương do khóa chân."
+      },
+      {
+        "condition": "Bạn cảm thấy áp lực nhưng không đau khi vướng chân",
+        "action": "Áp lực không bằng sự an toàn - chấn thương đầu gối thảm khốc có thể xảy ra mà không gây đau đớn. Nếu đường đầu gối của bạn được kiểm soát và gót chân của bạn lộ ra, hãy chạm vào trước khi bắt đầu xoay."
+      },
+      {
+        "condition": "Đối tác tập luyện của bạn không biết những điều cơ bản về an toàn khóa chân",
+        "action": "Đừng tập khóa chân với chúng cho đến khi bạn đã cùng nhau trải qua bốn khái niệm an toàn. An toàn là trách nhiệm chung."
+      }
+    ],
+    "exitStrategies": [
+      "Nếu không chắc chắn liệu bạn có đang gặp nguy hiểm hay không, hãy chạm vào, yêu cầu đối tác của bạn giữ nguyên tư thế và đánh giá trực quan đường đầu gối cũng như vị trí gót chân của bạn trước khi tiếp tục.",
+      "Chạm bằng tay (không phải bằng chân) và chạm rõ ràng - các đối tác tập luyện có thể bỏ qua việc chạm không rõ ràng.",
+      "Nếu bạn là kẻ tấn công, hãy tạo áp lực heel hook từ từ và thả ra ngay khi đối tác của bạn chạm vào hoặc tỏ ra khó chịu."
+    ]
+  },
+  "moneyDetails": [
+    "Những điều cơ bản về an toàn khóa chân là bài học quan trọng nhất trong môn vật lộn hiện đại - hiểu được những khái niệm này sẽ ngăn ngừa được những chấn thương đầu gối thảm khốc có thể chấm dứt sự nghiệp",
+    "Mọi vận động viên vật lộn, bất kể trình độ kỹ năng hay mục tiêu thi đấu, đều phải biết khóa chân an toàn trước khi lăn trong môi trường BJJ hiện đại",
+    "Năm phút dành để học những kiến ​​thức cơ bản về an toàn khóa chân sẽ bảo vệ nhiều năm huấn luyện trong tương lai"
+  ],
+  "fixItFast": [
+    "Nếu bạn không biết đường đầu gối là gì: hãy ngừng tập khóa chân cho đến khi bạn đã nghiên cứu và hiểu khái niệm này",
+    "Nếu đối tác của bạn không biết an toàn khi khóa chân: đừng vướng vào chân họ - hãy giúp họ tìm hiểu trước",
+    "Nếu bạn không chắc chắn liệu mình có gặp nguy hiểm khi bị vướng chân hay không: chạm vào, yêu cầu đối tác của bạn giữ nguyên tư thế và đánh giá trực quan đường đầu gối cũng như vị trí gót chân của bạn trước khi tiếp tục"
+  ]
+}

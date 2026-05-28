@@ -1,0 +1,131 @@
+{
+  "id": "hq-split-squat-passing",
+  "domain": "passing",
+  "level": "intermediate",
+  "status": "draft",
+  "name": "HQ / Chuyển động ngồi xổm",
+  "aliases": [],
+  "tags": [
+    "hq",
+    "split-squat",
+    "headquarters",
+    "passing",
+    "knee-cut",
+    "bodylock"
+  ],
+  "keywords": [
+    "headquarters",
+    "split-squat",
+    "knee cut",
+    "bodylock",
+    "toreando",
+    "knee line"
+  ],
+  "relatedSkills": [
+    {
+      "id": "knee-cut-passing",
+      "type": "recommended"
+    },
+    {
+      "id": "bodylock-passing",
+      "type": "recommended"
+    },
+    {
+      "id": "outside-passing",
+      "type": "recommended"
+    },
+    {
+      "id": "leg-drag-basics",
+      "type": "recommended"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "bodylock-passing",
+    "knee-cut-passing"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [
+    "Nếu họ tiếp tục đóng khung ống chân: thả thêm trọng lượng lên đầu gối đã trụ - khung ống chân sẽ xẹp xuống dưới sức nặng",
+    "Nếu họ tiếp tục thoát hông: chuyển sang bước lùi hoặc kéo chân - việc cắt đầu gối sẽ không có tác dụng ở khoảng cách xa",
+    "Nếu họ tiếp tục tấn công chân trụ của bạn: thả đầu gối đã trụ xuống thảm và chuyển sang khóa thân pass"
+  ],
+  "version": 1,
+  "updatedAt": "2026-05-21T00:24:30.768Z",
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "vi",
+  "description": "Trụ sở chính (HQ) và động tác squat tách đôi passing: quản lý khoảng cách bằng một đầu gối nâng lên và một đầu gối hạ xuống, chặn khung ống chân và chọn cắt đầu gối, khóa thân hoặc toreando dựa trên phản ứng của người chơi guard.",
+  "shortInstruction": "Từ tư thế ngồi xổm (một đầu gối nâng lên, một đầu gối hạ xuống), chặn khung ống chân của họ bằng đầu gối đã đăng của bạn, kiểm soát hông xa của họ và đọc phản ứng của họ để chọn cắt đầu gối, khóa cơ thể hoặc toreando.",
+  "summary": "Tư thế ngồi xổm (còn gọi là trụ sở) là vị trí pass nền tảng cho BJJ hiện đại. Nó tạo ra một đế hình tam giác chặn khung ống chân của đối phương trong khi vẫn giữ cho hông của bạn di động. Từ động tác squat-squat, bạn đọc góc hông và khoảng cách của đối phương để chọn pass thích hợp: cắt đầu gối (khoảng cách ngắn), khóa thân (khoảng cách trung bình) hoặc toreando (khoảng cách dài).",
+  "whyItWorks": [
+    "Tư thế ngồi xổm (một đầu gối nâng lên, một đầu gối hạ xuống) tạo ra một bệ đỡ ổn định có thể điều chỉnh theo bất kỳ phản ứng nào của người chơi guard",
+    "Đầu gối được gắn chặn công cụ giữ guard phổ biến nhất - khung ống chân",
+    "Động tác squat giữ trọng lượng của bạn về phía trước, ngăn đối thủ thoát hông hoặc tạo khoảng cách",
+    "Ba tùy chọn chuyển từ một vị trí có nghĩa là bạn luôn có phản hồi dựa trên đọc"
+  ],
+  "commonMistakes": [
+    "Để bàn chân hướng lên trên đầu gối bằng phẳng - bàn chân phải ở trên quả bóng, không bằng phẳng, để di chuyển",
+    "Mất kết nối hông xa - tay của bạn phải duy trì tiếp xúc với hông xa của họ",
+    "Cam kết pass trước khi đọc phản hồi của họ - việc đọc phải đến trước lựa chọn pass",
+    "Nâng hông lên quá cao — điều này tạo cho đối thủ không gian để thực hiện lại guard hoặc tấn công"
+  ],
+  "coachingCues": [
+    "Đầu gối lên, đầu gối xuống, chân đế ổn định",
+    "Chặn ống chân, kiểm soát hông",
+    "Đọc đầu tiên, vượt qua thứ hai",
+    "Cắt đầu gối, khóa thân hoặc toreando"
+  ],
+  "safetySummary": [
+    "Đừng để bàn chân chống lên đầu gối của bạn trượt quá xa về phía trước - điều này có thể khiến hông bị duỗi quá mức",
+    "Hãy cẩn thận với ankle lock khi thực hiện động tác squat gập người — hãy luôn chủ động và chú ý đến đôi chân của bạn",
+    "Nếu đối thủ lăn dưới pass của bạn, hãy bảo vệ đầu gối của bạn khỏi bị va đập hoặc để lộ gót chân"
+  ],
+  "systemLogic": {
+    "corePrinciple": "Hệ thống chuyền squat-squat có ba nhánh: Knee Cut → Bodylock → Toreando",
+    "decisionTree": [
+      {
+        "condition": "Nhánh 1, Cắt đầu gối: khi đối thủ ấn ống chân của họ vào đầu gối đã đăng của bạn. Thả đầu gối đã đặt của bạn xuống tấm thảm, trượt qua ống chân của họ và cắt ngang tới side control.",
+        "action": "Sử dụng crossface để ghim đầu"
+      },
+      {
+        "condition": "Ứng dụng chung",
+        "action": "Nếu Nhánh 2, Bodylock: khi đối thủ áp sát nhưng không gây áp lực lên ống chân. Thả đầu gối đã cố định của bạn xuống thảm, khóa tay quanh hông họ và lái tới side control bằng áp lực từ ngực đến hông"
+      },
+      {
+        "condition": "Ứng dụng chung",
+        "action": "Nếu Nhánh 3, Toreando: khi đối thủ tạo khoảng cách đáng kể (thoát hông hoặc đập chân). Đẩy cả hai chân sang một bên và vòng sang phía đối diện. Không được sử dụng phổ biến trong No-Gi nhưng hiệu quả với những người chơi guard linh hoạt"
+      },
+      {
+        "condition": "Ứng dụng chung",
+        "action": "Dự phòng: nếu cả ba đường chuyền đều không có tác dụng, hãy đứng lên và vào lại trụ sở từ trạng thái đứng"
+      }
+    ],
+    "exitStrategies": []
+  },
+  "moneyDetails": [
+    "Squat-squat là tư thế chuyền phổ biến — nó có tác dụng với tất cả các kiểu cơ thể và kiểu guard",
+    "Học cách chuyền bóng theo tư thế ngồi xổm là con đường nhanh nhất để có được một trò chơi chuyền bóng hoàn chỉnh",
+    "Hệ thống này là nền tảng của chương trình giảng dạy guard passing của Danaher"
+  ],
+  "fixItFast": [
+    "Nếu họ tiếp tục giữ khung ống chân: chuyển sang đường chuyền khóa thân - khóa cơ thể sẽ vô hiệu hóa khung ống chân",
+    "Nếu họ tiếp tục thoát hông: chuyển sang bước lùi - bước lùi bao phủ khoảng cách nhanh hơn vết cắt đầu gối",
+    "Nếu họ tiếp tục tấn công vào chân bạn: hãy đứng lên và vào lại - bạn không cần phải vượt qua tư thế squat"
+  ]
+}

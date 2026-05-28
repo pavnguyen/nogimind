@@ -1,0 +1,59 @@
+{
+  "id": "closed-guard",
+  "locale": "en",
+  "title": "Closed Guard",
+  "category": "bottom_guard",
+  "status": "neutral",
+  "description": "The guard player locks legs around the passer hips to control posture and set up submissions or sweeps.",
+  "topPlayerGoals": [
+    "The top player wants to control Closed Guard through head position, inside position, and directed pressure.",
+    "Break posture, stay heavy, and deny attack angles.",
+    "Keep a stable base so you are not off-balanced or countered."
+  ],
+  "bottomPlayerGoals": [
+    "The bottom player wants to survive Closed Guard with frames, pummeling, or the right angle.",
+    "Win posture angle, separate elbow from ribs, and open attacks or sweeps.",
+    "Recognize danger signals early instead of waiting for the position to settle."
+  ],
+  "controlPoints": [
+    "Main control point: Posture, hip connection, and shoulder line..",
+    "Head, hands, hips, and knees should share the same force direction.",
+    "The elbow-knee connection or hip-shoulder line determines whether the position is still alive or already locked."
+  ],
+  "escapePriorities": [
+    "Escape priority: Protect the neck and posture before opening the guard..",
+    "Protect the neck, back, knee line, or arm line before countering.",
+    "If inside position is lost, reset one defensive layer first."
+  ],
+  "advancementOptions": [
+    {
+      "action": "Open the guard and transition to pass",
+      "nextPositionId": "knee-cut-position",
+      "relatedSkillIds": [
+        "closed-guard-posture-control",
+        "closed-guard-sweeps",
+        "clamp-guard-control"
+      ],
+      "why": "This is the natural branch when you win the main control point and the opponent is forced to defend."
+    }
+  ],
+  "dangerSignals": [
+    "The chin or neck is pulled out of a safe line.",
+    "The elbow separates from the ribs or knee.",
+    "The hip line is locked while the shoulder line is still being pulled.",
+    "You need a long hand post to avoid falling."
+  ],
+  "relatedSkillIds": [
+    "closed-guard-posture-control",
+    "closed-guard-sweeps",
+    "clamp-guard-control",
+    "armbar-system",
+    "triangle-system",
+    "kimura-system"
+  ],
+  "relatedConceptIds": [
+    "control-before-submission",
+    "levers",
+    "angle-creation"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "id": "bodylock-pass",
+  "domain": "passing",
+  "level": "intermediate",
+  "name": "Bodylock Passing",
+  "aliases": ["body lock pass", "bodylock pass system"],
+  "keywords": ["bodylock", "pressure pass", "hip control", "no gi passing", "chest-to-hip"],
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "relatedSkills": [
+    { "id": "leg-pummel-pass", "type": "supporting" },
+    { "id": "smash-pass", "type": "alternative" },
+    { "id": "headquarters-passing", "type": "prerequisite" },
+    { "id": "knee-cut-passing", "type": "alternative" }
+  ],
+  "relatedPositions": ["half-guard-top", "open-guard-top"],
+  "relatedConcepts": ["hip-control", "inside-position", "knee-line", "frames-pummeling"],
+  "archetypeIds": ["pressure-top-player", "passing-specialist"],
+  "trainingMethodIds": ["static-repetition", "progressive-resistance", "live-positional"],
+  "bodyToBodyDetails": {
+    "phases": [
+      { "order": 1, "name": "Chest-to-Hip Connection", "description": "Drive chest into hip, lock hands low around the waist to prevent hip escape." },
+      { "order": 2, "name": "Head Offset", "description": "Position head to one side to block shoulder crunch and frames." },
+      { "order": 3, "name": "Kill the Hooks", "description": "Smash butterfly hooks flat with chest pressure before clearing the knee line." },
+      { "order": 4, "name": "Clear Knee Line", "description": "Step the trapped leg back while maintaining chest-to-hip pressure." },
+      { "order": 5, "name": "Stabilize Side Control", "description": "Once past, transition to side control pin immediately." }
+    ],
+    "contactPoints": [
+      { "bodyPart": "chest", "target": "hips", "role": "primary pressure" },
+      { "bodyPart": "hands", "target": "lower back / waist", "role": "connection" },
+      { "bodyPart": "head", "target": "shoulder / chest", "role": "block" }
+    ]
+  },
+  "systemLogic": {
+    "corePrinciple": "Chest glued to hips + hands locked low + head offset = no space for hooks, no hip escape.",
+    "decisionTree": [
+      { "condition": "Opponent frames on your head", "action": "Drive head to the opposite side, re-establish chest contact" },
+      { "condition": "Butterfly hook lifts you", "action": "Drop hips, pin the hook knee, reset chest position" },
+      { "condition": "Opponent turns away", "action": "Follow hips, take the back instead of passing" }
+    ],
+    "exitStrategies": [
+      "Take the back if opponent turns away",
+      "Switch to knee-cut pass if bodylock is stuck",
+      "Reset to headquarters if leg is trapped too long"
+    ]
+  },
+  "keyCorrections": [
+    { "issue": "Hands locked too high (on ribcage)", "fix": "Lock hands around the waist, below the belt line" },
+    { "issue": "Head centered between their hands", "fix": "Drive head to one side, pressing cheek to their chest" },
+    { "issue": "Standing up to clear the knee", "fix": "Keep chest connected; step back, don't stand up" }
+  ],
+  "moneyDetails": {
+    "oneLiner": "Chest down, hands low, head off, knee clear.",
+    "mnemonic": "CHHK: Chest → Hands → Head → Knee"
+  },
+  "safetyNotes": "Watch your lower back — do not round it under pressure. Keep hips low to avoid being lifted.",
+  "fixItFast": "Chest-to-hips → head offset → kill hooks → clear knee → pin"
+}

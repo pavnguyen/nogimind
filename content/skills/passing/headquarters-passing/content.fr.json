@@ -1,0 +1,67 @@
+{
+  "id": "headquarters-passing",
+  "locale": "fr",
+  "name": "Passage du siège social",
+  "description": "Tenez-vous au quartier général pour contrôler les hanches de l'adversaire et forcez les choix de coupe du genou, de recul ou de traînée de jambe. Le quartier général est la position centrale de passing d'où proviennent tous les systèmes guard passing.",
+  "shortInstruction": "Depuis le quartier général (un genou en l'air, un genou en bas), contrôlez leur hanche éloignée avec votre main proche et bloquez leur tibia proche avec votre genou posté. Lisez leur réaction et choisissez la passe appropriée.",
+  "summary": "Le quartier général passing est le concept passing le plus important du BJJ moderne. Depuis la position de quartier général (un genou en l'air guard contre le cadre du tibia, un genou en bas pour la base), vous contrôlez le mouvement de la hanche de l'adversaire et le forcez à réagir. Votre arbre de décision comporte trois branches principales : (1) genou coupé s'ils appuient leur tibia contre votre genou, (2) recul s'ils créent de la distance en s'échappant de la hanche, (3) traînée de jambe s'ils se placent face à vous. Le système est basé sur la lecture de l'angle de la hanche et de la position du tibia de l'adversaire.",
+  "whyItWorks": [
+    "La position du quartier général contrôle à la fois la hanche proche (votre genou posté) et la hanche éloignée (votre commande manuelle).",
+    "Se tenir au quartier général oblige l'adversaire soit à s'engager (cadre du tibia), soit à battre en retraite (évasion de la hanche) - les deux réactions exposent une voie de passe.",
+    "L'arbre de décision du quartier général couvre 90 % des réactions des joueurs de guard de open guard.",
+    "Le quartier général est un poste universel de passing qui fonctionne en gi et No-Gi, contre tous les types guard."
+  ],
+  "commonMistakes": [
+    "Rester trop longtemps au quartier général sans s'engager sur un pass — c'est un poste de transition, pas un poste de repos",
+    "Laisser l'adversaire établir un cadre de tibia solide - le cadre de tibia doit être neutralisé avant de passer",
+    "Perte de connexion avec la hanche : votre genou posté doit rester en contact avec sa hanche proche",
+    "Ne pas lire la réaction de l'adversaire — la sélection de passe doit être réactive et non prédéterminée"
+  ],
+  "coachingCues": [
+    "Contrôlez la hanche éloignée, bloquez le tibia",
+    "Lisez leur réaction, choisissez le pass",
+    "Coupure du genou, recul ou traînée de jambe",
+    "Validez ou réinitialisez – ne calez pas"
+  ],
+  "safetySummary": [
+    "N'appliquez pas de pression excessive sur le genou posté - le genou doit reposer sur la hanche et ne pas s'enfoncer dans l'articulation.",
+    "Faites attention aux heel hook lorsque vous reculez – protégez votre jambe de tête lorsque vous faites le tour du dos.",
+    "Si l'adversaire roule de manière agressive pendant le pass, protégez votre tête et rétablissez la position."
+  ],
+  "keyCorrections": [
+    "S'ils continuent à re-guarding : vous n'avez pas complètement dégagé le cadre du tibia – concentrez-vous sur le blocage du tibia avant de passer.",
+    "S'ils continuent à vous sweeping : votre base est trop étroite au sein du quartier général – élargissez votre position",
+    "S'ils continuent d'attaquer vos jambes : vos hanches sont trop hautes – abaissez vos hanches pour neutraliser la menace d'attaque des jambes."
+  ],
+  "systemLogic": {
+    "corePrinciple": "Les passes du quartier général comportent trois branches basées sur la réaction de l'adversaire : Knee Cut → Backstep → Leg Drag",
+    "decisionTree": [
+      {
+        "condition": "Utilisation de la branche 1 (coupe au genou)",
+        "action": "l'adversaire reste sur la défensive avec un knee shield ou un half guard. Lâchez votre genou posté et dépassez leur knee shield. Sécurisez le crossface et le underhook"
+      },
+      {
+        "condition": "Utilisation de la branche 2 (étape longue)",
+        "action": "l'adversaire est actif et se transforme en vous. Passez votre jambe éloignée au-dessus de leur tête pendant qu'ils tournent, neutralisant leur roulis et atterrissant en side control."
+      },
+      {
+        "condition": "Utilisation de la branche 3 (étape arrière)",
+        "action": "l'adversaire maintient ses distances ou menace de balayer. Reculez du côté opposé et attaquez la traînée du dos ou de la jambe. Le pas en arrière change l'angle de passe"
+      },
+      {
+        "condition": "Choisir entre les succursales",
+        "action": "lisez la position des hanches de l'adversaire. knee shields → coupe au genou. Se transformer en toi → long pas. Maintenir une distance ou menacer sweeps → reculer"
+      }
+    ]
+  },
+  "moneyDetails": [
+    "Le quartier général est le poste de réussite le plus important dans BJJ — le maîtriser vous donne un système de réussite complet de guard",
+    "L'apprentissage de l'arbre de décision du siège social est plus rapide que l'apprentissage des passes individuelles pour chaque type guard",
+    "Le passage au quartier général est utilisé par tous les grapplers No-Gi de haut niveau (Gordon Ryan, JT Torres, Lepri)"
+  ],
+  "fixItFast": [
+    "Si leur armature de tibia est trop solide : déposez votre poids sur le tibia pour l'effondrer avant de tenter la passe.",
+    "S'ils continuent à tourner en rond : poursuivez le cercle avec votre recul – vous atterrirez en traînée de jambe",
+    "S'ils retirent guard : levez-vous et rétablissez le quartier général debout"
+  ]
+}

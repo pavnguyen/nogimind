@@ -1,0 +1,56 @@
+{
+  "id": "bodylock-passing-position",
+  "locale": "en",
+  "title": "Body Lock Passing Position",
+  "category": "top_control",
+  "status": "advantage",
+  "description": "The top player locks low around the guard player’s hips with chest-to-hip connection to clear the knee line.",
+  "topPlayerGoals": [
+    "The top player wants to control Body Lock Passing Position through head position, inside position, and directed pressure.",
+    "Lock the hips, kill the hook, and clear the knee line layer by layer.",
+    "Keep a stable base so you are not off-balanced or countered."
+  ],
+  "bottomPlayerGoals": [
+    "The bottom player wants to survive Body Lock Passing Position with frames, pummeling, or the right angle.",
+    "Pummel the inside knee, create a shin frame, or use a shoulder crunch.",
+    "Recognize danger signals early instead of waiting for the position to settle."
+  ],
+  "controlPoints": [
+    "Main control point: Low grip, head offset, and chest-to-hip connection..",
+    "Head, hands, hips, and knees should share the same force direction.",
+    "The elbow-knee connection or hip-shoulder line determines whether the position is still alive or already locked."
+  ],
+  "escapePriorities": [
+    "Escape priority: Create a shin or knee wedge between the chest and hips..",
+    "Protect the neck, back, knee line, or arm line before countering.",
+    "If inside position is lost, reset one defensive layer first."
+  ],
+  "advancementOptions": [
+    {
+      "action": "Clear the knee line and stabilize side control",
+      "nextPositionId": "side-control-top",
+      "relatedSkillIds": [
+        "bodylock-passing",
+        "seated-guard-retention",
+        "half-guard-wrestle-up"
+      ],
+      "why": "This is the natural branch when you win the main control point and the opponent is forced to defend."
+    }
+  ],
+  "dangerSignals": [
+    "The chin or neck is pulled out of a safe line.",
+    "The elbow separates from the ribs or knee.",
+    "The hip line is locked while the shoulder line is still being pulled.",
+    "You need a long hand post to avoid falling."
+  ],
+  "relatedSkillIds": [
+    "bodylock-passing",
+    "seated-guard-retention",
+    "half-guard-wrestle-up"
+  ],
+  "relatedConceptIds": [
+    "connection-before-control",
+    "pressure-direction",
+    "inside-position"
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "back-control",
+  "domain": "back_control",
+  "level": "intermediate",
+  "name": "Back Control",
+  "aliases": [],
+  "tags": [
+    "back",
+    "control"
+  ],
+  "keywords": [
+    "back control",
+    "seatbelt",
+    "hand fighting",
+    "dilemma"
+  ],
+  "relatedSkills": [
+    {
+      "id": "rear-naked-choke-system",
+      "type": "recommended"
+    },
+    {
+      "id": "back-escape",
+      "type": "recommended"
+    },
+    {
+      "id": "arm-triangle-mount",
+      "type": "recommended"
+    }
+  ],
+  "prerequisiteSkillIds": [
+    "back-survival",
+    "turtle-ride"
+  ],
+  "relatedPositions": [],
+  "relatedConcepts": [],
+  "archetypeIds": [],
+  "trainingMethodIds": [],
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": true,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "contentRefs": {
+    "videos": "videos.json",
+    "qualityChecklist": "qualityChecklist"
+  },
+  "updatedAt": "2026-05-21T00:24:30.752Z"
+}

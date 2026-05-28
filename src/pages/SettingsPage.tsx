@@ -1,18 +1,90 @@
+import { useState, useEffect } from 'react'
 import { useTranslation } from 'react-i18next'
 import { PageShell } from '../components/common/PageShell'
 import { SectionCard } from '../components/common/SectionCard'
+import { Download, CheckCircle2 } from 'lucide-react'
 
 import { getBuildDate } from '../utils/version'
 
 import { LanguageSwitcher } from '../components/i18n/LanguageSwitcher'
 import { ExportImportPanel } from '../components/settings/ExportImportPanel'
-import { useSettingsStore } from '../stores/useSettingsStore'
-import type { SkillMapView } from '../types/settings'
+
+function useIsStandalone() {
+  return typeof window !== 'undefined' && window.matchMedia('(display-mode: standalone)').matches
+}
+
+function InstallAppButton() {
+  const { t } = useTranslation()
+  const isStandalone = useIsStandalone()
+  const [deferredPrompt, setDeferredPrompt] = useState<Event | null>(null)
+  const [installed, setInstalled] = useState(isStandalone)
+
+  useEffect(() => {
+    const handler = (e: Event) => {
+      e.preventDefault()
+      setDeferredPrompt(e)
+    }
+    window.addEventListener('beforeinstallprompt', handler)
+
+    const onAppInstalled = () => {
+      setInstalled(true)
+      setDeferredPrompt(null)
+    }
+    window.addEventListener('appinstalled', onAppInstalled)
+
+    return () => {
+      window.removeEventListener('beforeinstallprompt', handler)
+      window.removeEventListener('appinstalled', onAppInstalled)
+    }
+  }, [])
+
+  const handleInstall = async () => {
+    if (!deferredPrompt) return
+    ;(deferredPrompt as unknown as { prompt: () => Promise<void> }).prompt()
+    const result = await (deferredPrompt as unknown as { userChoice: Promise<{ outcome: string }> }).userChoice
+    if (result.outcome === 'accepted') {
+      setInstalled(true)
+    }
+    setDeferredPrompt(null)
+  }
+
+  if (installed) {
+    return (
+      <button
+        disabled
+        className="flex items-center gap-2 rounded-lg border border-emerald-500/30 bg-emerald-500/10 px-4 py-2.5 text-sm font-medium text-emerald-300"
+      >
+        <CheckCircle2 className="h-4 w-4" />
+        {t('pwa.installed')}
+      </button>
+    )
+  }
+
+  if (!deferredPrompt) {
+    return (
+      <button
+        disabled
+        className="flex items-center gap-2 rounded-lg border border-slate-600 bg-slate-800/50 px-4 py-2.5 text-sm font-medium text-slate-500"
+      >
+        <Download className="h-4 w-4" />
+        {t('pwa.notAvailable')}
+      </button>
+    )
+  }
+
+  return (
+    <button
+      onClick={handleInstall}
+      className="flex items-center gap-2 rounded-lg border border-cyan-500/40 bg-cyan-500/10 px-4 py-2.5 text-sm font-medium text-cyan-300 transition hover:bg-cyan-500/20 hover:text-cyan-200"
+    >
+      <Download className="h-4 w-4" />
+      {t('pwa.install')}
+    </button>
+  )
+}
 
 export default function SettingsPage() {
   const { t } = useTranslation()
-  const skillMapView = useSettingsStore((state) => state.skillMapView)
-  const setSkillMapView = useSettingsStore((state) => state.setSkillMapView)
 
   return (
     <PageShell
@@ -27,20 +99,11 @@ export default function SettingsPage() {
         <LanguageSwitcher />
       </SectionCard>
 
-      <SectionCard title={t('settings.skillMapDefault')}>
-        <div className="inline-flex rounded-lg border border-white/10 bg-slate-950/70 p-1">
-          {(['cards', 'graph'] as SkillMapView[]).map((view) => (
-            <button
-              type="button"
-              key={view}
-              onClick={() => setSkillMapView(view)}
-              className={`rounded-md px-3 py-1.5 text-sm font-medium ${skillMapView === view ? 'bg-emerald-300 text-slate-950' : 'text-slate-300 hover:bg-white/10'}`}
-            >
-              {t(`common.${view}`)}
-            </button>
-          ))}
-        </div>
+      <SectionCard title={t('settings.installApp')}>
+        <p className="mb-3 text-sm text-slate-400">{t('pwa.description')}</p>
+        <InstallAppButton />
       </SectionCard>
+
       <SectionCard title={t('settings.exportImport')}>
         <ExportImportPanel />
       </SectionCard>

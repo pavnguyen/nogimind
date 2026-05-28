@@ -1,0 +1,65 @@
+{
+  "id": "dilemma-attacks",
+  "locale": "fr",
+  "title": "Attaques en dilemme",
+  "category": "offensive",
+  "level": "advanced",
+  "tags": [
+    "dilemma",
+    "chain",
+    "submission"
+  ],
+  "shortDefinition": "Un dilemme combine plusieurs menaces: défendre une ligne expose l’autre.",
+  "whyItMatters": "À haut niveau, pas de finish isolé; il faut chain selon réactions.",
+  "deepExplanation": "Bon dilemme part du contrôle. En back, défendre cou expose arm trap; clear hook expose mount. Attaque devient choix mauvais conçus.",
+  "beginnerView": "Préparer seconde attaque quand première bloquée.",
+  "advancedView": "Créer branches où chaque défense vous garde dans meilleure hiérarchie.",
+  "ifThenExamples": [
+    {
+      "if": "Si vous perdez Attaques en dilemme pendant l’échange.",
+      "then": "Arrêtez d’accélérer, récupérez la structure corporelle proche, puis continuez.",
+      "why": "Le no-gi moderne punit vite la force après perte de structure.",
+      "relatedSkillIds": [
+        "dilemmas-two-way-attacks",
+        "rear-naked-choke-system"
+      ]
+    },
+    {
+      "if": "Si l’adversaire répond correctement à votre première ligne.",
+      "then": "Utilisez Attaques en dilemme pour passer à une branche plus sûre au lieu de forcer.",
+      "why": "Un bon concept transforme la réaction adverse en information pour la décision suivante.",
+      "relatedSkillIds": [
+        "rear-naked-choke-system",
+        "guillotine-system",
+        "kimura-system"
+      ]
+    }
+  ],
+  "commonMisunderstandings": [
+    {
+      "misunderstanding": "Attaques en dilemme est une astuce technique isolée.",
+      "correction": "Voyez-le comme une règle de décision présente dans plusieurs positions."
+    },
+    {
+      "misunderstanding": "Comprendre le concept suffit pour l’utiliser en live.",
+      "correction": "Le concept doit être lié à signaux corporels, cues courts et rolling positionnel."
+    }
+  ],
+  "trainingCues": [
+    "Nommez Attaques en dilemme avant d’ajouter force.",
+    "Cherchez le signal corporel, pas une impression vague.",
+    "Si la structure est perdue, reset une couche d’abord.",
+    "Driller lentement, puis tester avec résistance progressive."
+  ],
+  "relatedSkillIds": [
+    "dilemmas-two-way-attacks",
+    "rear-naked-choke-system",
+    "guillotine-system",
+    "kimura-system"
+  ],
+  "relatedConceptIds": [
+    "control-before-submission",
+    "failure-response",
+    "angle-creation"
+  ]
+}

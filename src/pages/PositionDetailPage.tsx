@@ -11,7 +11,6 @@ import { usePositionQuery, usePositionsQuery } from '../queries/positionQueries'
 import { useSkillsQuery } from '../queries/skillQueries'
 import { useSettingsStore } from '../stores/useSettingsStore'
 import type { LanguageCode, SkillNode } from '../types/skill'
-import { getMicroDetails } from '../utils/knowledgeModules'
 import { getLocalizedArray, getLocalizedText } from '../utils/localization'
 
 export default function PositionDetailPage() {
@@ -26,7 +25,6 @@ export default function PositionDetailPage() {
   const positionsById = new Map(positions.map((item) => [item.id, item]))
   const skillsById = new Map(skills.map((item) => [item.id, item]))
   const conceptsById = new Map(concepts.map((item) => [item.id, item]))
-  const microDetails = getMicroDetails(skills)
 
   if (!positionQuery.isLoading && !position) {
     return <NotFound title={t('positions.notFoundTitle')} body={t('positions.notFoundBody')} to="/positions" label={t('positions.backToPositions')} />
@@ -38,7 +36,6 @@ export default function PositionDetailPage() {
     .flatMap((item) => item.relatedSkillIds)
     .map((id) => skillsById.get(id))
     .filter((item): item is SkillNode => Boolean(item))
-  const relatedMicroDetails = microDetails.filter((detail) => position.relatedSkillIds.includes(detail.skillId))
 
   return (
     <PageShell
@@ -59,7 +56,6 @@ export default function PositionDetailPage() {
             { title: t('positions.stepTitles.understand'), body: t('positions.whatIsTheGoal') },
             { title: t('positions.stepTitles.survival'), body: t('positions.dangerToRecognize') },
             { title: t('positions.stepTitles.skills'), body: t('positions.skillsStartHere') },
-            { title: t('positions.stepTitles.details'), body: t('positions.microDetailsMatter') },
             { title: t('positions.stepTitles.escapes'), body: t('positions.commonProblems') },
             { title: t('positions.stepTitles.chains'), body: t('positions.whatToLearnNext') },
           ].map((step, index) => (
@@ -92,16 +88,6 @@ export default function PositionDetailPage() {
       </div>
 
       <div className="grid gap-6 xl:grid-cols-2">
-        <SectionCard title={t('positions.microDetailsMatter')}>
-          <div className="space-y-2">
-            {relatedMicroDetails.slice(0, 4).map((detail) => (
-              <div key={detail.id} className="rounded-md border border-white/10 bg-slate-900/60 p-3">
-                <p className="text-sm font-semibold text-white">{getLocalizedText(detail.title, language)}</p>
-                <p className="mt-2 text-sm leading-6 text-slate-400">{getLocalizedText(detail.correctionCue, language)}</p>
-              </div>
-            ))}
-          </div>
-        </SectionCard>
         <SectionCard title={t('positions.commonProblems')}>
           <ul className="space-y-2 text-sm leading-6 text-slate-300">
             {getLocalizedArray(position.escapePriorities, language).slice(0, 4).map((item) => <li key={item}>{item}</li>)}
@@ -139,7 +125,7 @@ export default function PositionDetailPage() {
       <ListCard title={t('positions.dangerSignals')} items={getLocalizedArray(position.dangerSignals, language)} tone="danger" />
 
       <SectionCard title={t('video.videoReferences')}>
-        <PositionVideoReferencePanel positionId={position.id} lang={language} />
+        <PositionVideoReferencePanel />
       </SectionCard>
 
       <div className="grid gap-6 xl:grid-cols-2">
@@ -164,7 +150,6 @@ export default function PositionDetailPage() {
           position.relatedSkillIds[0]
             ? { title: t('common.relatedSkills'), body: t('positions.skillsStartHere'), to: `/skills/${position.relatedSkillIds[0]}` }
             : { title: t('common.relatedSkills'), body: t('positions.skillsStartHere'), to: '/skills' },
-          { title: t('cardOS.topDetails'), body: t('positions.microDetailsMatter'), to: `/skills/${position.relatedSkillIds[0] ?? ''}`.replace(/\/skills\/$/, '/skills') },
           { title: t('escapeMaps.heading'), body: t('positions.commonProblems'), to: position.relatedSkillIds[0] ? `/escape-maps/${position.relatedSkillIds[0]}` : '/escape-maps' },
         ]}
       />

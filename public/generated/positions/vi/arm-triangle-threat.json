@@ -1,0 +1,56 @@
+{
+  "id": "arm-triangle-threat",
+  "locale": "vi",
+  "title": "Đe dọa Arm Triangle",
+  "category": "submission_threat",
+  "status": "critical",
+  "description": "Attacker đã đưa tay đối thủ qua đường cổ và đang tìm shoulder pressure cùng góc để finish.",
+  "topPlayerGoals": [
+    "Người ở trên muốn kiểm soát Đe dọa Arm Triangle bằng vị trí đầu, vị trí trong và áp lực có hướng.",
+    "Isolate tay, chặn elbow recovery và finish có kiểm soát.",
+    "Giữ nền vững để không bị mất thăng bằng hoặc bị phản đòn."
+  ],
+  "bottomPlayerGoals": [
+    "Người ở dưới muốn sống sót trong Đe dọa Arm Triangle bằng khung chặn, pummel hoặc góc phù hợp.",
+    "Kéo khuỷu tay về sườn, tạo hip frame và recover posture.",
+    "Nhận diện tín hiệu nguy hiểm sớm thay vì chờ vị trí ổn định."
+  ],
+  "controlPoints": [
+    "Điểm kiểm soát chính: Tay qua cổ, head block và shoulder pressure..",
+    "Đầu, tay, hông và gối nên cùng hướng lực.",
+    "Kết nối khuỷu-gối hoặc đường hông-vai quyết định vị trí còn sống hay đã bị khóa."
+  ],
+  "escapePriorities": [
+    "Ưu tiên thoát: Đưa khuỷu tay về sườn trước khi bridge lớn..",
+    "Bảo vệ cổ, lưng, đường gối hoặc đường tay trước khi phản công.",
+    "Nếu mất vị trí trong, hãy lùi lại một lớp phòng thủ trước."
+  ],
+  "advancementOptions": [
+    {
+      "action": "Đi góc tới finish line từ side control",
+      "nextPositionId": "side-control-top",
+      "relatedSkillIds": [
+        "arm-triangle-mount",
+        "mount-control",
+        "side-control-pin"
+      ],
+      "why": "Đây là nhánh tự nhiên khi bạn thắng điểm kiểm soát chính và đối thủ buộc phải phòng thủ."
+    }
+  ],
+  "dangerSignals": [
+    "Cằm hoặc cổ bị kéo ra khỏi đường an toàn.",
+    "Khuỷu tay tách khỏi sườn hoặc đầu gối.",
+    "Đường hông bị khóa trong khi đường vai vẫn đang bị kéo.",
+    "Bạn phải chống tay dài để không ngã."
+  ],
+  "relatedSkillIds": [
+    "arm-triangle-mount",
+    "mount-control",
+    "side-control-pin"
+  ],
+  "relatedConceptIds": [
+    "control-before-submission",
+    "angle-creation",
+    "pressure-direction"
+  ]
+}

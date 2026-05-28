@@ -1,0 +1,56 @@
+{
+  "id": "x-guard-position",
+  "locale": "en",
+  "title": "X-Guard",
+  "category": "bottom_guard",
+  "status": "neutral",
+  "description": "X-guard uses foot on hip and leg wrap to off-balance and sweep from bottom, controlling the passer hip line.",
+  "topPlayerGoals": [
+    "The top player wants to control X-Guard through head position, inside position, and directed pressure.",
+    "Remove the foot from the hip, snap the head, and break the base.",
+    "Keep a stable base so you are not off-balanced or countered."
+  ],
+  "bottomPlayerGoals": [
+    "The bottom player wants to survive X-Guard with frames, pummeling, or the right angle.",
+    "Foot on hip controls distance, ankle pulled across centerline, choose sweep or leg entry.",
+    "Recognize danger signals early instead of waiting for the position to settle."
+  ],
+  "controlPoints": [
+    "Main control point: Foot on hip, ankle control, and hip lift..",
+    "Head, hands, hips, and knees should share the same force direction.",
+    "The elbow-knee connection or hip-shoulder line determines whether the position is still alive or already locked."
+  ],
+  "escapePriorities": [
+    "Escape priority: Bring the knee to centerline before they sweep..",
+    "Protect the neck, back, knee line, or arm line before countering.",
+    "If inside position is lost, reset one defensive layer first."
+  ],
+  "advancementOptions": [
+    {
+      "action": "Transition to SLX or sweep to top",
+      "nextPositionId": "single-leg-x",
+      "relatedSkillIds": [
+        "x-guard-control",
+        "single-leg-x-control",
+        "k-guard-matrix"
+      ],
+      "why": "This is the natural branch when you win the main control point and the opponent is forced to defend."
+    }
+  ],
+  "dangerSignals": [
+    "The chin or neck is pulled out of a safe line.",
+    "The elbow separates from the ribs or knee.",
+    "The hip line is locked while the shoulder line is still being pulled.",
+    "You need a long hand post to avoid falling."
+  ],
+  "relatedSkillIds": [
+    "x-guard-control",
+    "single-leg-x-control",
+    "k-guard-matrix"
+  ],
+  "relatedConceptIds": [
+    "hooks",
+    "levers",
+    "base-balance"
+  ]
+}

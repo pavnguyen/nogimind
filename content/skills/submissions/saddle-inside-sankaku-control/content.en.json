@@ -1,0 +1,62 @@
+{
+  "id": "saddle-inside-sankaku-control",
+  "locale": "en",
+  "name": "Saddle / Inside Sankaku Control",
+  "description": "The saddle (inside sankaku) is one of the strongest leg entanglement positions — it controls the opponent's hip and knee line but requires clear hand fighting and safety awareness to maintain and finish.",
+  "shortInstruction": "Legs crossed over their body, foot on their hip, clear hand fighting — the saddle is the king of leg entanglements.",
+  "summary": "The saddle (inside sankaku) is the most dominant leg entanglement position in no-gi. Your legs are crossed over the opponent's body (one leg over their belly, the other hooking their far leg), with your foot posted on their hip. From the saddle, you control both their hip rotation and their knee line, making it extremely difficult for them to escape. The primary attack is the inside heel hook, but the saddle also gives you access to back takes and sweeps.",
+  "whyItWorks": [
+    "The leg position creates a cage around their body — they cannot roll or spin without carrying your weight.",
+    "The foot on their hip controls their distance and prevents them from posturing.",
+    "From the saddle, the heel hook is already partially exposed — you only need to find the angle.",
+    "Danaher principle: the saddle is the destination of most modern leg lock entries — if you can get to the saddle, you are winning."
+  ],
+  "commonMistakes": [
+    "Letting the saddle get loose — your legs must be active and squeezing throughout.",
+    "Losing foot control on their hip — the hip post is your distance control.",
+    "Not hand fighting before attacking the heel hook — their hands can defend the finish.",
+    "Sitting too low on their body — you should be high on their thigh, not at their knee."
+  ],
+  "coachingCues": [
+    "Legs crossed, foot on the hip, hand fight first.",
+    "If your foot drops from the hip, the saddle is compromised.",
+    "Heel hook is the prize — hand fighting is the price.",
+    "Stay high on the leg — low saddle is weak saddle."
+  ],
+  "safetySummary": [
+    "The saddle is a leg entanglement — heel hooks from the saddle can cause serious knee injury.",
+    "Never apply a heel hook from the saddle without controlling their far hip.",
+    "Establish clear tap protocols for leg attacks before training.",
+    "Release immediately on any sign of knee discomfort from your training partner."
+  ],
+  "keyCorrections": [
+    "If they spin out of the saddle, your legs were too loose — tighten the leg cage.",
+    "If you can't find the heel hook, you are too low on their leg — scoot higher toward their hip.",
+    "If they grab your hands, pummel back to inside position — don't let them control your hands."
+  ],
+  "systemLogic": {
+    "corePrinciple": "Enter saddle (legs crossed over their body, foot on hip): hand fight to control their hands → identify heel exposure → align rotation → finish heel hook.",
+    "decisionTree": [
+      {
+        "condition": "they turn to escape the heel hook",
+        "action": "transition to back take."
+      },
+      {
+        "condition": "they stack",
+        "action": "release and re-enter — don't fight the stack from saddle."
+      }
+    ]
+  },
+  "moneyDetails": [
+    "Your top leg crosses over their body and hooks their far hip — your foot should be on their hip bone.",
+    "Your bottom leg hooks under their nearside leg — this creates the leg cage.",
+    "Hand fight to control their hands — grip their far sleeve or wrist with your top hand.",
+    "The heel hook finish: rotate your hips toward the mat while pulling their heel toward you — external rotation is the finish."
+  ],
+  "nextStep": "After saddle control, learn the inside heel hook finish and the saddle to back take transition.",
+  "fixItFast": [
+    "They keep spinning? Tighten your leg cage and control their far hip.",
+    "Can't find the heel? Scoot higher on their leg.",
+    "They grab your hands? Pummel back to inside wrist control."
+  ]
+}

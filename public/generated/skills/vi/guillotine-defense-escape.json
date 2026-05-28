@@ -1,0 +1,131 @@
+{
+  "id": "guillotine-defense-escape",
+  "domain": "escapes",
+  "level": "intermediate",
+  "status": "draft",
+  "name": "guillotine Phòng thủ và trốn thoát",
+  "aliases": [
+    "front headlock defense",
+    "guillotine escape",
+    "guillotine counter"
+  ],
+  "tags": [
+    "defense",
+    "guillotine",
+    "choke-defense",
+    "headlock",
+    "neck-safety",
+    "takedown-defense"
+  ],
+  "keywords": [
+    "guillotine choke",
+    "front headlock",
+    "chin tuck",
+    "elbow control",
+    "stack escape",
+    "arm peel"
+  ],
+  "relatedSkills": [
+    {
+      "id": "front-headlock-defense",
+      "type": "recommended"
+    },
+    {
+      "id": "single-leg-bjj",
+      "type": "recommended"
+    },
+    {
+      "id": "high-wrist-guillotine",
+      "type": "recommended"
+    },
+    {
+      "id": "neck-crank-recognition",
+      "type": "recommended"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "neck-crank-recognition",
+    "front-headlock-defense"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [],
+  "version": 1,
+  "updatedAt": "2026-06-12T00:00:00.000Z",
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "vi",
+  "description": "Bảo vệ và thoát khỏi tình trạng nghẹt thở guillotine bằng cách bảo vệ cổ, giải phóng cánh tay bị nghẹt thở và khôi phục về vị trí trung lập hoặc chiếm ưu thế.",
+  "shortInstruction": "Hóp cằm, dùng tay chống lại cánh tay đang bị nghẹn, dồn trọng lượng của bạn lên chúng và kéo cánh tay qua người để thoát ra ngoài.",
+  "summary": "guillotine phòng thủ sử dụng động tác gập cằm, đánh tay và tư thế cơ thể để giảm áp lực ở cổ, sau đó thực hiện một trình tự có hệ thống để loại bỏ cánh tay bị nghẹn và phục hồi guard hoặc vị trí trên cùng. Hệ thống ưu tiên kiểm soát tư thế và cánh tay hơn là giật mạnh.",
+  "whyItWorks": [
+    "Gập cằm sẽ thu hẹp khoảng trống giữa cổ và vai, khiến cánh tay bị nghẹn khó chìm sâu hơn",
+    "Kiểm soát cánh tay bị nghẹn ở khuỷu tay (không phải bàn tay) mang lại cho bạn lợi thế về mặt cơ học - khuỷu tay là điểm tựa của cuộn cảm",
+    "Dồn trọng lượng của bạn về phía trước lên đối thủ sẽ tạo áp lực lên lưng trên của họ và buộc họ phải gánh trọng lượng cơ thể của bạn, khiến họ bỏ nỗ lực siết cổ",
+    "Việc tách cánh tay dọc theo cơ thể sẽ sử dụng toàn bộ động tác xoay thân mình chứ không chỉ sức mạnh của cánh tay để phá vỡ khả năng cầm nắm"
+  ],
+  "commonMistakes": [
+    "Nhìn lên (duỗi cổ) khi bạn cảm thấy bị nghẹn — điều này làm mở cổ họng và làm sâu hơn guillotine",
+    "Nắm lấy bàn tay thay vì cánh tay - một tay cầm có thể bị bong ra nhưng phần điều khiển trên cánh tay sẽ ngăn chúng chìm trở lại",
+    "Cố gắng ép ghế hoặc duỗi cánh tay ra khỏi cơ thể - điều này làm tăng tư thế của bạn và làm cho cơn nghẹt thở sâu hơn",
+    "Nằm sấp khi guillotine bị khóa — điều này mang lại cho chúng tất cả đòn bẩy và không có lối thoát"
+  ],
+  "coachingCues": [
+    "Cằm sát ngực luôn",
+    "Kiểm soát khuỷu tay, không phải bàn tay",
+    "Xếp và bóc, đừng kéo"
+  ],
+  "safetySummary": [
+    "guillotine có thể gây bất tỉnh trong vài giây nếu động mạch cảnh bị nén — chạm sớm nếu bị nghẹt thở sâu",
+    "Một số biến thể guillotine nhắm vào khí quản thay vì động mạch cảnh - điều này nguy hiểm hơn và cần được khai thác ngay lập tức",
+    "Đừng đánh sâu guillotine - tốt hơn là bạn nên nhấn, đặt lại và thử phòng thủ sớm hơn trong lần giao chiến tiếp theo",
+    "Tay quay cổ được ngụy trang thành guillotines (áp lực lên cằm thay vì cổ họng) cần gõ nhẹ ngay lập tức để bảo vệ cột sống cổ"
+  ],
+  "systemLogic": {
+    "corePrinciple": "Việc phòng thủ guillotine tuân theo trình tự ba giai đoạn: phòng ngừa → phòng thủ → trốn thoát",
+    "decisionTree": [
+      {
+        "condition": "Ở Giai đoạn 1 (Phòng ngừa)",
+        "action": "khi bạn bước vào cuộc gỡ xuống hoặc front headlock, hãy giữ cằm và hơi nghiêng đầu sang một bên. Đừng đưa trán thẳng vào ngực họ"
+      },
+      {
+        "condition": "Ở Giai đoạn 2 (Phòng thủ)",
+        "action": "nếu họ khóa guillotine, ngay lập tức đứng yên và hóp cằm. Cả hai tay đặt lên cánh tay đang bị nghẹn ở khuỷu tay. Đừng bắc cầu hoặc spaz - tư thế đầu tiên"
+      },
+      {
+        "condition": "Ở Giai đoạn 3 (Thoát)",
+        "action": "dồn trọng lượng của bạn về phía trước bằng cách đưa đầu gối của bạn về phía đầu của họ. Khi lưng của họ chạm vào thảm, hãy kéo cánh tay đang bị nghẹn ra khắp cơ thể bằng cách xoay cẳng tay"
+      },
+      {
+        "condition": "Ứng dụng chung",
+        "action": "Nhánh thoát hiểm: nếu họ lăn tới guard trong khi trốn thoát, hãy kiểm soát tay áo của họ và đăng lên guard của họ. Nếu họ đứng lên, hãy thả tay cầm và quay vòng về vị trí trung lập"
+      }
+    ],
+    "exitStrategies": []
+  },
+  "moneyDetails": [
+    "guillotine là lần gửi phổ biến nhất từ ​​các lần gỡ xuống không thành công và front headlock — khả năng phòng thủ đáng tin cậy là điều cần thiết đối với mọi người vật lộn",
+    "Thành thạo cách phòng thủ guillotine cho phép bạn thực hiện các đòn hạ gục mà không sợ bị vướng vào đòn phản đòn thông thường nhất",
+    "Một cuộc thoát guillotine suôn sẻ thường dẫn trực tiếp đến vị trí hàng đầu thống trị (vượt qua open guard của họ khi họ đăng lên)"
+  ],
+  "fixItFast": [
+    "Nếu họ có cổ tay cao guillotine (dây đeo cằm sâu): đừng cố bóc báng cầm — thay vào đó, hãy đặt tay bạn lên hông họ, đưa đầu bạn ra phía ngoài và vòng ra ngoài",
+    "Nếu họ tụt xuống guard với guillotine: giữ tư thế thẳng, đặt tay lên hông họ (không phải cánh tay đang khiến họ nghẹt thở) và ấn vai bị mắc kẹt của bạn vào đùi họ",
+    "Nếu họ chuyển sang anaconda hoặc d'arce: đặt cánh tay còn lại của bạn lên đầu họ và ấn vai bạn vào ngực họ trước khi họ có thể khóa hình số bốn"
+  ]
+}

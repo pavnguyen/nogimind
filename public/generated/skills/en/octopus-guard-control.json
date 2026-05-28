@@ -1,0 +1,123 @@
+{
+  "id": "octopus-guard-control",
+  "domain": "guard_retention",
+  "level": "intermediate",
+  "status": "draft",
+  "name": "Octopus Guard Control",
+  "aliases": [],
+  "tags": [
+    "octopus",
+    "guard",
+    "hip-angle",
+    "wrestle-up",
+    "tier:modern-expansion",
+    "meta:modern-common",
+    "risk:medium",
+    "family:guard",
+    "group:octopus",
+    "modern-no-gi"
+  ],
+  "keywords": [
+    "octopus guard",
+    "far hip",
+    "crossface defense"
+  ],
+  "modernSystemGroup": "octopus",
+  "relatedSkills": [
+    {
+      "id": "octopus-guard-sweep",
+      "type": "recommended"
+    },
+    {
+      "id": "octopus-back-take",
+      "type": "recommended"
+    },
+    {
+      "id": "dogfight-knee-tap",
+      "type": "recommended"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "side-control-escape",
+    "half-guard-wrestle-up"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [
+    "If they spin away, your far-hip wrap is loose — tighten the wrap or switch to an underhook.",
+    "If they crossface you, you're sitting too square — cut a sharper angle away from their pressure.",
+    "If they pass your leg frame, you waited too long to attack — sweep or transition immediately."
+  ],
+  "version": 1,
+  "updatedAt": "2026-05-21T00:24:30.774Z",
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "en",
+  "description": "Maintain the octopus guard position with a far-hip wrap, sitting angle, and crossface denial to control the opponent's upper body and prevent them from passing.",
+  "shortInstruction": "Wrap the far hip, sit angled, deny the crossface — octopus guard is control from below.",
+  "summary": "Octopus guard is a no-gi-specific guard where you sit to one side of the opponent, wrap your arm around their far hip (or reach under their body), and use your legs to frame on their near leg. This position prevents them from flattening you or applying crossface pressure. From here, you can sweep (by pulling their far hip), take the back, or enter leg entanglements.",
+  "whyItWorks": [
+    "Sitting to the side removes their ability to flatten you with chest pressure — they have no square angle to pass from.",
+    "The far-hip wrap controls their center of gravity — you feel every weight shift they make.",
+    "Your legs framing on their near leg prevent them from stepping into the pass.",
+    "Danaher principle: if you cannot be flattened, you cannot be passed — octopus guard is the anti-flatten position."
+  ],
+  "commonMistakes": [
+    "Losing the far-hip wrap — this is your primary control point; without it, they spin away.",
+    "Sitting square instead of at an angle — a square position gives them the crossface.",
+    "Letting them step over your framing leg — once they clear the leg, the pass is half done.",
+    "Staying in octopus guard too long — it is a transitional control position, not a home."
+  ],
+  "coachingCues": [
+    "Sit to the side, not in front.",
+    "Wrap the far hip, own the rotation.",
+    "Leg frames are your walls — don't let them step over.",
+    "If they deny the hip wrap, pummel to the underhook."
+  ],
+  "safetySummary": [
+    "Do not let them grab your head and crossface — keep your head tight to their body or on the opposite side.",
+    "Protect your near-side knee from hyperextension when they try to kick through your frame.",
+    "When they drive into you, do not post with a straight arm — keep your elbows bent."
+  ],
+  "systemLogic": {
+    "corePrinciple": "Sit to the side → wrap far hip or reach under body → frame near leg with your legs → feel their weight → sweep or take the back.",
+    "decisionTree": [
+      {
+        "condition": "General application",
+        "action": "Octopus guard options: sweep them forward (hip pull), sweep them backward (elevator), or back take when they turn away."
+      },
+      {
+        "condition": "General application",
+        "action": "If they deny the octopus entry, transition to seated guard or deep half."
+      }
+    ],
+    "exitStrategies": []
+  },
+  "moneyDetails": [
+    "Wrap your arm around their far hip as deep as possible — the deeper the wrap, the more control you have.",
+    "Your near leg frames on their thigh, your far leg frames on their hip — two points of leg control.",
+    "Keep your head on the far side of their body to avoid crossfaces.",
+    "When you feel them shift their weight forward, pull the far hip across your body for the sweep."
+  ],
+  "nextStep": "After octopus guard control, learn the octopus guard sweep and back take.",
+  "fixItFast": [
+    "They spin out? Re-establish the far-hip wrap before they square up.",
+    "They crossface you? Sit deeper to the side — get your head off the center line.",
+    "They pass your leg frame? Switch to deep half guard immediately."
+  ]
+}

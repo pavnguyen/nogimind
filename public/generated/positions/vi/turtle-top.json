@@ -1,0 +1,56 @@
+{
+  "id": "turtle-top",
+  "locale": "vi",
+  "title": "Turtle Trên",
+  "category": "turtle",
+  "status": "advantage",
+  "description": "Người ở trên ride turtle, tìm kiểm soát cổ tay, áp lực hông, mat return hoặc mở lưng.",
+  "topPlayerGoals": [
+    "Người ở trên muốn kiểm soát Turtle Trên bằng vị trí đầu, vị trí trong và áp lực có hướng.",
+    "Ngăn stand-up hoặc re-guard và chuyển sang back control.",
+    "Giữ nền vững để không bị mất thăng bằng hoặc bị phản đòn."
+  ],
+  "bottomPlayerGoals": [
+    "Người ở dưới muốn sống sót trong Turtle Trên bằng khung chặn, pummel hoặc góc phù hợp.",
+    "Không để near wrist bị kéo, xây base hoặc recover guard.",
+    "Nhận diện tín hiệu nguy hiểm sớm thay vì chờ vị trí ổn định."
+  ],
+  "controlPoints": [
+    "Điểm kiểm soát chính: Near wrist, áp lực hông và shoulder spiral..",
+    "Đầu, tay, hông và gối nên cùng hướng lực.",
+    "Kết nối khuỷu-gối hoặc đường hông-vai quyết định vị trí còn sống hay đã bị khóa."
+  ],
+  "escapePriorities": [
+    "Ưu tiên thoát: Giữ khuỷu tay vào trong và gối dưới hông..",
+    "Bảo vệ cổ, lưng, đường gối hoặc đường tay trước khi phản công.",
+    "Nếu mất vị trí trong, hãy lùi lại một lớp phòng thủ trước."
+  ],
+  "advancementOptions": [
+    {
+      "action": "Cài hook và lấy lưng",
+      "nextPositionId": "back-control-position",
+      "relatedSkillIds": [
+        "turtle-ride",
+        "mat-return-basics",
+        "back-control"
+      ],
+      "why": "Đây là nhánh tự nhiên khi bạn thắng điểm kiểm soát chính và đối thủ buộc phải phòng thủ."
+    }
+  ],
+  "dangerSignals": [
+    "Cằm hoặc cổ bị kéo ra khỏi đường an toàn.",
+    "Khuỷu tay tách khỏi sườn hoặc đầu gối.",
+    "Đường hông bị khóa trong khi đường vai vẫn đang bị kéo.",
+    "Bạn phải chống tay dài để không ngã."
+  ],
+  "relatedSkillIds": [
+    "turtle-ride",
+    "mat-return-basics",
+    "back-control"
+  ],
+  "relatedConceptIds": [
+    "hooks",
+    "posts",
+    "positional-hierarchy"
+  ]
+}

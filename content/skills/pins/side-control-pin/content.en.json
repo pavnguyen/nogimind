@@ -1,0 +1,71 @@
+{
+  "id": "side-control-pin",
+  "locale": "en",
+  "name": "Side Control Pin",
+  "description": "Hold side control with crossface, underhook, and hip blocking instead of only lying heavy. The side control pin is the foundational top position that controls the opponent through chest-to-chest pressure and structural blocking.",
+  "shortInstruction": "Crossface to pin the head, underhook to block the far hip, and keep your hip line heavy on their near hip. Never let them regain the underhook or insert a knee shield.",
+  "summary": "The side control pin is maintained through three interconnected pressure points: the crossface (controls head direction and prevents them from looking away), the underhook control (prevents them from turning into you and recovering guard), and the hip block (your hip weight on their near hip prevents hip escape). The system prioritizes structural pinning over brute weight — correct alignment creates pressure without exhausting you.",
+  "whyItWorks": [
+    "The crossface controls the opponent's head direction — where the head goes, the body follows, and a head pinned to the mat cannot initiate an escape",
+    "The underhook blocks the opponent's primary escape mechanism — turning into you to recover guard. Without the underhook, they must escape to the other side (lower percentage)",
+    "Your hip weight on their near hip prevents the hip escape (shrimp) — the most common and effective side control escape",
+    "Chest-to-chest pressure transfers your weight through the sternum, not the shoulders, allowing you to maintain pressure without fatiguing your arms"
+  ],
+  "commonMistakes": [
+    "Lying heavy without active crossface or underhook — the opponent can shrimp out if you are just 'sitting' on them",
+    "Letting the opponent get the underhook — once they have the underhook, your side control is compromised and they can escape or sweep",
+    "Framing with your arms straight instead of using chest pressure — straight arms fatigue quickly and can be collapsed",
+    "Raising your hips too high — this removes the weight from their hip line and allows the hip escape"
+  ],
+  "coachingCues": [
+    "Crossface to lock the head",
+    "Block the underhook, always",
+    "Hip weight on their near hip",
+    "Chest to chest, not arm to chest"
+  ],
+  "safetySummary": [
+    "Crossface pressure should be applied to the jaw/cheek area, not the throat — throat pressure can cause breathing difficulty or trachea injury",
+    "Do not use the crossface to crank the neck aggressively — it is a control point, not a submission",
+    "If the opponent taps to pressure, release immediately — side control pressure can cause rib discomfort or breathing panic in some training partners"
+  ],
+  "systemLogic": {
+    "corePrinciple": "The side control pin is maintained through three interconnected control points: crossface (controls head direction), hip weight (prevents hip escape), and underhook lane (blocks the underhook). The three points work as a triangulated system — if the opponent attacks one, the other two must tighten.",
+    "decisionTree": [
+      {
+        "condition": "Opponent shrimps to create space",
+        "action": "Drop your hip weight onto their near hip and drive your crossface deeper — they cannot shrimp if the head is pinned and the hip is blocked. Follow the bridge with your hips."
+      },
+      {
+        "condition": "Opponent pummels for the underhook",
+        "action": "Block the underhook lane by keeping your near arm tight against their far arm/shoulder. If they get the underhook, switch to a far-side underhook and drive your shoulder into their chest."
+      },
+      {
+        "condition": "Opponent turns away from you (exposing their back)",
+        "action": "Follow them immediately — do not let them create separation. Stay chest-to-chest and take the back if they commit to turning away. This is the highest reward transition."
+      },
+      {
+        "condition": "Opponent recovers half guard under your pressure",
+        "action": "You let your hip weight lift — re-engage the hip block before they can insert the knee. Drop your hips lower on their near hip line."
+      },
+      {
+        "condition": "You want to advance position",
+        "action": "Clear the near arm and step your near knee over their hip to mount, or slide up to north-south to compress the shoulder line, or post on the far hip for knee-on-belly."
+      }
+    ],
+    "exitStrategies": [
+      "If the opponent keeps shrimping out, your hip weight is too high — drop your hips lower on their near hip line.",
+      "If they keep getting the underhook, your crossface arm is too shallow — drive it deeper across their face.",
+      "If they recover half guard, you let your hip weight lift — re-engage the hip block before they can insert the knee."
+    ]
+  },
+  "moneyDetails": [
+    "Side control is the most common top position in BJJ — mastering the pin here will save you more points than almost any other skill",
+    "A dominant side control pin leads directly to submissions (armbar, kimura, shoulder attacks) while exhausting the opponent",
+    "Side control is the first position where smaller grapplers can neutralize a size advantage through technique rather than strength"
+  ],
+  "fixItFast": [
+    "If they keep shrimping: drop your hip weight onto their near hip and drive your crossface deeper — they cannot shrimp if the head is pinned and the hip is blocked",
+    "If they get the underhook: immediately switch to a far-side underhook (reach under their far arm) and drive your shoulder into their chest to re-flatten them",
+    "If they turn away from you: follow them — do not let them create separation. Stay chest-to-chest and take the back if they commit to turning away"
+  ]
+}

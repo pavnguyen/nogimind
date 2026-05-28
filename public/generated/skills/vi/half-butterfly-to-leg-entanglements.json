@@ -1,0 +1,129 @@
+{
+  "id": "half-butterfly-to-leg-entanglements",
+  "domain": "guard_offense",
+  "level": "advanced",
+  "status": "draft",
+  "name": "Sự vướng víu của nửa con bướm đến chân",
+  "aliases": [],
+  "tags": [
+    "half-butterfly",
+    "leg-lock",
+    "bear-trap",
+    "k-guard",
+    "leg-entry"
+  ],
+  "keywords": [
+    "half butterfly",
+    "butterfly hook",
+    "K-guard entry",
+    "bear trap",
+    "elevation",
+    "leg entry"
+  ],
+  "relatedSkills": [
+    {
+      "id": "k-guard-matrix",
+      "type": "recommended"
+    },
+    {
+      "id": "bear-trap-ham-sandwich",
+      "type": "recommended"
+    },
+    {
+      "id": "deep-half-guard",
+      "type": "recommended"
+    },
+    {
+      "id": "false-reap-entry",
+      "type": "recommended"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "butterfly-guard-off-balance",
+    "half-guard-knee-shield",
+    "k-guard-entry"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [
+    "Nếu chúng làm phẳng lưỡi câu của bạn, nghĩa là bạn đang nằm ngửa quá - hãy ngồi bằng khuỷu tay xa của bạn.",
+    "Nếu họ lùi lại và tránh cái móc, hãy tiến vào K-guard ngay lập tức — đừng đuổi theo cái móc.",
+    "Nếu họ lao về phía bạn, hãy tận dụng đà của họ để vào bẫy gấu."
+  ],
+  "version": 1,
+  "updatedAt": "2026-05-21T00:24:30.764Z",
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "vi",
+  "description": "Sử dụng móc nửa bướm để làm mất thăng bằng đối thủ, sau đó chuyển sang K-guard, bẫy gấu hoặc saddle khi họ phản ứng với áp lực móc.",
+  "shortInstruction": "Nửa con bướm móc, mất thăng bằng, theo phản ứng của chúng mà vướng chân hoặc quét.",
+  "summary": "Nửa con bướm là sự chuyển tiếp mạnh mẽ nhất guard trong No-Gi hiện đại. Với một móc ở chân gần và chân còn lại đặt trên hông, bạn có thể làm chúng mất thăng bằng về phía trước hoặc sang một bên. Phản ứng của họ quyết định mục nhập của bạn: nếu họ đứng vững, hãy đi tới K-guard; nếu họ lùi lại thì vào bẫy gấu; nếu họ đăng bài, hãy nhập saddle. Nửa con bướm là động cơ cung cấp năng lượng cho toàn bộ hệ thống tấn công phần thân dưới.",
+  "whyItWorks": [
+    "Móc nửa con bướm ở một chân cho phép bạn kiểm soát phần đế của chúng trong khi vẫn giữ cho chân còn lại của bạn tự do đóng khung hoặc tấn công.",
+    "Nó hoạt động chống lại cả người qua đường đứng và quỳ, khiến nó trở thành một trong những mục guard linh hoạt nhất.",
+    "Nửa con bướm tạo ra một tình huống khó xử: nếu chúng tiến về phía trước, chúng sẽ ăn theo đường quét; nếu chúng ra tư thế thì chúng ăn vướng chân.",
+    "Triết lý của Danaher/heel hook: nửa con bướm là mục giải quyết được vấn đề 'làm thế nào để đi đến chân từ guard.'"
+  ],
+  "commonMistakes": [
+    "Để nửa móc bướm bị xẹp hoặc bị bong ra - móc phải luôn hoạt động.",
+    "Định hình bằng chân tự do đặt trên hông thay vì bắp tay - khung hông mang lại không gian, khung bắp tay mang lại khả năng kiểm soát.",
+    "Dừng lại ở nửa con bướm thay vì chuyển sang vị trí tiếp theo - nửa con bướm là sự chuyển tiếp chứ không phải cuối cùng.",
+    "Sử dụng móc để nâng thay vì làm mất thăng bằng — nhấc chúng = chúng đăng; mất thăng bằng chúng = chúng rơi."
+  ],
+  "coachingCues": [
+    "Móc chủ động, thả lỏng khung chân, cảm nhận phản ứng.",
+    "Trước tiên hãy cân bằng, sau đó nhập - không bao giờ bỏ qua quá trình thiết lập.",
+    "Nửa con bướm là cánh cửa — K-guard và saddle là các phòng.",
+    "Nếu họ đứng vững, hãy đi K-guard. Nếu họ quỳ, hãy đi bẫy gấu."
+  ],
+  "safetySummary": [
+    "Giữ đầu của bạn khỏi thảm khi mất thăng bằng — bảo vệ cổ của bạn khỏi guillotine bộ đếm.",
+    "Không duỗi thẳng hoàn toàn chân của bạn vào tình trạng vướng chân mà không kiểm soát được hông của chúng - chúng có thể đá tự do và phản đòn.",
+    "Khi chuyển sang saddle, hãy giữ chân bạn ở bên ngoài chân của họ để tránh bị phạt."
+  ],
+  "systemLogic": {
+    "corePrinciple": "Móc nửa con bướm ở chân gần: khung chân tự do trên hông/bắp tay → mất thăng bằng về phía trước hoặc sang một bên → đọc phản ứng của họ → nhập K-guard, bẫy gấu hoặc saddle.",
+    "decisionTree": [
+      {
+        "condition": "Sử dụng phản ứng 1",
+        "action": "Họ đứng → K-guard vào → vướng lưng hoặc vướng chân."
+      },
+      {
+        "condition": "Sử dụng phản ứng 2",
+        "action": "Họ lái xe về phía trước → vào bẫy gấu → quét hoặc khóa chân."
+      },
+      {
+        "condition": "Sử dụng phản ứng 3",
+        "action": "Họ lùi lại → saddle mục nhập → heel hook."
+      }
+    ],
+    "exitStrategies": []
+  },
+  "moneyDetails": [
+    "Móc nửa con bướm của bạn phải sâu - móc chân vào phía sau đùi của họ, không chỉ phía sau đầu gối.",
+    "Sử dụng chân còn lại của bạn để tạo khung ở hông xa chứ không phải hông gần - điều này sẽ điều khiển chuyển động xoay của họ.",
+    "Làm mất thăng bằng chúng bằng cách kéo móc về phía ngực của bạn trong khi đẩy bằng khung chân tự do.",
+    "Việc chuyển sang K-guard chỉ là một động tác duy nhất: duỗi móc bướm và xoay hông 90 độ."
+  ],
+  "nextStep": "Sau khi thực hiện một nửa mục tiêu bướm, hãy tìm hiểu K-guard và hệ thống bẫy gấu để xâu chuỗi các đòn tấn công vướng chân của bạn.",
+  "fixItFast": [
+    "Móc phẳng? Ngồi trên khuỷu tay của bạn và đập móc trở lại.",
+    "Họ tiếp tục lùi lại? Dừng theo đuổi — nhập K-guard ngay lập tức.",
+    "Họ lái xe qua bạn? Chấp nhận áp lực và rơi vào bẫy gấu – dùng đà của chúng để chống lại chúng."
+  ]
+}

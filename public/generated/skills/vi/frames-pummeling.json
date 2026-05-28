@@ -1,0 +1,123 @@
+{
+  "id": "frames-pummeling",
+  "domain": "positional_awareness",
+  "level": "beginner",
+  "status": "draft",
+  "name": "Khung và đập",
+  "aliases": [],
+  "tags": [
+    "frames",
+    "pummeling"
+  ],
+  "keywords": [
+    "frame",
+    "pummel",
+    "inside position",
+    "elbow knee connection"
+  ],
+  "relatedSkills": [
+    {
+      "id": "side-control-survival",
+      "type": "recommended"
+    },
+    {
+      "id": "mount-survival",
+      "type": "recommended"
+    },
+    {
+      "id": "seated-guard-retention",
+      "type": "recommended"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "inside-position"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [],
+  "version": 1,
+  "updatedAt": "2026-05-21T00:24:30.756Z",
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "vi",
+  "description": "Sử dụng khung xương để tạo khoảng trống và đẩy cơ thể về vị trí bên trong thay vì dùng sức của cánh tay ép vào băng ghế. Nền tảng của mọi sự lưu giữ và trốn thoát guard.",
+  "shortInstruction": "Giữ chặt khuỷu tay, dùng cẳng tay làm xương nêm (không phải đòn bẩy cơ) và đập mạnh vào trong khi đẩy ra ngoài. Khung ở hông, không phải ở ngực.",
+  "summary": "Khung sử dụng cấu trúc xương chống lại cơ để duy trì khoảng cách và chịu được áp lực. Đập phá là quá trình tích cực nhằm giành lại vị trí bên trong sau khi bị mất. Chúng cùng nhau tạo thành nền tảng cơ học của việc trốn thoát, guard giữ chân và vật lộn phòng thủ.",
+  "whyItWorks": [
+    "Khung xương liền xương truyền lực qua bộ xương chứ không phải cơ bắp, bảo tồn năng lượng và ngăn ngừa mệt mỏi",
+    "Khung được đặt đúng vị trí trên đường hông giúp đối thủ không bị đè bẹp thân mình và kiểm soát khả năng tạo áp lực crossface của họ",
+    "Đòn tấn công chiếm lại vị trí bên trong bằng cách tấn công vào đòn bẩy (khuỷu tay hoặc đầu gối) thay vì vào cơ (bắp tay hoặc cơ tứ đầu)",
+    "Kết nối khuỷu tay-đầu gối là cấu trúc phòng thủ mạnh nhất - các khung kết nối khuỷu tay với đầu gối tạo ra một lớp vỏ không thể phá vỡ"
+  ],
+  "commonMistakes": [
+    "Đẩy tạ bằng cánh tay thẳng - động tác này sử dụng cơ thay vì cấu trúc xương và nhanh chóng gây mệt mỏi",
+    "Khung trên ngực thay vì hông - khung ngực dễ bị sập khi đối phương lao về phía trước",
+    "Để khuỷu tay nhô ra khỏi xương sườn — điều này sẽ mở ra không gian bên trong trong underhooks và crossfaces",
+    "Chỉ đập bằng cánh tay mà bỏ qua đòn đánh ở đầu gối - vị trí bên trong yêu cầu cả phần trên và phần dưới cơ thể"
+  ],
+  "coachingCues": [
+    "Xương không phải cơ",
+    "Khung trên đường hông",
+    "Khuỷu tay đến đầu gối luôn"
+  ],
+  "safetySummary": [
+    "Không đứng với cánh tay duỗi thẳng hoàn toàn để chống lại trọng lượng - điều này có nguy cơ bị duỗi quá mức và chấn thương khuỷu tay",
+    "Giữ khuỷu tay của bạn hơi cong khi đóng khung để hấp thụ lực tác động thay vì khóa khớp",
+    "Bảo vệ cổ của bạn bằng cách giữ cằm bạn trong khung hình — crossface có thể khiến đầu bạn rơi vào vị trí không an toàn"
+  ],
+  "systemLogic": {
+    "corePrinciple": "Các khung và đập hoạt động theo một chu trình liên tục: thiết lập một khung để hấp thụ áp lực → tấn công của đối thủ → khung chuyển hướng lực → đập để giành lại vị trí bên trong → thiết lập lại khung. Mỗi chu kỳ mua thời gian để đọc đòn tấn công tiếp theo của đối thủ.",
+    "decisionTree": [
+      {
+        "condition": "Đối thủ lao về phía trước với áp lực ở ngực",
+        "action": "Thiết lập khung cẳng tay ngang qua đường hông - không phải ngực của họ. Khung hông chuyển trọng lượng của chúng ra khỏi thân mình bằng cấu trúc xương."
+      },
+      {
+        "condition": "Đối thủ đập cánh tay của họ vào trong khung của bạn",
+        "action": "Vòng khuỷu tay của bạn dưới khuỷu tay của họ để thiết lập lại vị trí bên trong. Đấm từ khuỷu tay chứ không phải từ bàn tay - khuỷu tay là đòn bẩy mạnh hơn."
+      },
+      {
+        "condition": "Khung hình của bạn sụp đổ dưới áp lực",
+        "action": "Đừng cơ bắp nó. Chuyển sang lớp phòng thủ tiếp theo: rùa, thoát hông hoặc đứng kỹ thuật. Khuỷu tay của bạn quá xa hông - hãy đưa nó lại gần hơn."
+      },
+      {
+        "condition": "Đối thủ crossface là bạn",
+        "action": "Đặt cẳng tay trên của bạn lên bắp tay của họ và quay đầu về phía thảm để bảo vệ cổ. Sau đó hông thoát ra để tạo khoảng trống."
+      },
+      {
+        "condition": "Bạn thua cú đấm underhook",
+        "action": "Chuyển sang overhook để tạm thời kiểm soát tư thế của họ, sau đó đánh lại bằng cánh tay còn lại."
+      }
+    ],
+    "exitStrategies": [
+      "Nếu khung bị hỏng hoàn toàn, hãy thả xuống vị trí rùa và sử dụng trình tự rùa thoát ra ngoài.",
+      "Nếu bạn không thể đập vào trong, hãy thay đổi góc bằng cách di chuyển hông 10-30 độ trước khi thử lại.",
+      "Nếu việc đánh đập không hiệu quả, hãy tạo khoảng cách thông qua lối thoát hông để thiết lập lại hoàn toàn giao diện."
+    ]
+  },
+  "moneyDetails": [
+    "Khung và đập là nền tảng cơ học của mọi lối thoát trong BJJ — không có chúng, hệ thống phòng thủ sẽ không có chức năng",
+    "Làm chủ các khung hình cho phép những người vật nhỏ hơn sống sót và thoát khỏi đối thủ lớn hơn bằng cách sử dụng đòn bẩy xương thay vì sức mạnh",
+    "Tốc độ và thời gian dồn dập giúp phân biệt đai trắng với các vận động viên vật lộn nâng cao — đó là kỹ năng được luyện tập nhiều nhất trong thi đấu BJJ"
+  ],
+  "fixItFast": [
+    "Nếu bạn bị ép ngực vào ngực: đặt cẳng tay của bạn ngang hông họ và hông thoát ra ngoài để tạo khoảng trống",
+    "Nếu họ đang đối mặt với bạn: đặt cẳng tay trên của bạn lên bắp tay của họ và quay đầu về phía thảm",
+    "Nếu bạn bị mất đòn đánh underhook: hãy chuyển sang overhook và sử dụng nó để kiểm soát tư thế của họ trong khi bạn đánh lại bằng cánh tay kia"
+  ]
+}

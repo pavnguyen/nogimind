@@ -1,0 +1,65 @@
+{
+  "id": "knee-line",
+  "locale": "fr",
+  "title": "Knee line",
+  "category": "safety",
+  "level": "fundamental",
+  "tags": [
+    "knee line",
+    "leg lock",
+    "safety"
+  ],
+  "shortDefinition": "La knee line décide si la jambe est contrôlée dans entanglement ou libre.",
+  "whyItMatters": "En leg locks, knee line piégée plus talon exposé est signal majeur.",
+  "deepExplanation": "Knee line est sécurité avant attaque. Ne tournez pas fort si piégée. En attaque, son contrôle empêche retrait jambe.",
+  "beginnerView": "Savoir si genou piégé ou libre avant tourner.",
+  "advancedView": "Utiliser knee line pour évaluer sweep, pass, entrée jambe et sécurité.",
+  "ifThenExamples": [
+    {
+      "if": "Si vous perdez Knee line pendant l’échange.",
+      "then": "Arrêtez d’accélérer, récupérez la structure corporelle proche, puis continuez.",
+      "why": "Le no-gi moderne punit vite la force après perte de structure.",
+      "relatedSkillIds": [
+        "leg-lock-safety-basics",
+        "heel-hook-safety"
+      ]
+    },
+    {
+      "if": "Si l’adversaire répond correctement à votre première ligne.",
+      "then": "Utilisez Knee line pour passer à une branche plus sûre au lieu de forcer.",
+      "why": "Un bon concept transforme la réaction adverse en information pour la décision suivante.",
+      "relatedSkillIds": [
+        "heel-hook-safety",
+        "straight-ankle-lock-safety",
+        "single-leg-x-control"
+      ]
+    }
+  ],
+  "commonMisunderstandings": [
+    {
+      "misunderstanding": "Knee line est une astuce technique isolée.",
+      "correction": "Voyez-le comme une règle de décision présente dans plusieurs positions."
+    },
+    {
+      "misunderstanding": "Comprendre le concept suffit pour l’utiliser en live.",
+      "correction": "Le concept doit être lié à signaux corporels, cues courts et rolling positionnel."
+    }
+  ],
+  "trainingCues": [
+    "Nommez Knee line avant d’ajouter force.",
+    "Cherchez le signal corporel, pas une impression vague.",
+    "Si la structure est perdue, reset une couche d’abord.",
+    "Driller lentement, puis tester avec résistance progressive."
+  ],
+  "relatedSkillIds": [
+    "leg-lock-safety-basics",
+    "heel-hook-safety",
+    "straight-ankle-lock-safety",
+    "single-leg-x-control"
+  ],
+  "relatedConceptIds": [
+    "leg-lock-safety-hierarchy",
+    "early-vs-late-defense",
+    "inside-position"
+  ]
+}

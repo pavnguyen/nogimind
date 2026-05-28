@@ -1,0 +1,58 @@
+{
+  "id": "darce-choke",
+  "domain": "submission_systems",
+  "level": "intermediate",
+  "name": "D'Arce Choke",
+  "aliases": [],
+  "tags": [
+    "darce",
+    "choke",
+    "front-headlock",
+    "arm-triangle",
+    "shoulder-crunch"
+  ],
+  "keywords": [
+    "darce",
+    "arm triangle",
+    "front headlock",
+    "shoulder crunch",
+    "chest pressure",
+    "go-behind"
+  ],
+  "relatedSkills": [
+    {
+      "id": "anaconda-choke",
+      "type": "recommended"
+    },
+    {
+      "id": "guillotine-system",
+      "type": "recommended"
+    },
+    {
+      "id": "sprawl-go-behind",
+      "type": "recommended"
+    },
+    {
+      "id": "crucifix-control",
+      "type": "recommended"
+    }
+  ],
+  "prerequisiteSkillIds": [
+    "front-headlock-system",
+    "snapdown-front-headlock"
+  ],
+  "relatedPositions": [],
+  "relatedConcepts": [],
+  "archetypeIds": [],
+  "trainingMethodIds": [],
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "updatedAt": "2026-05-21T00:24:30.767Z"
+}

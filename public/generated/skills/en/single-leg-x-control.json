@@ -1,0 +1,129 @@
+{
+  "id": "single-leg-x-control",
+  "domain": "guard_offense",
+  "level": "intermediate",
+  "status": "draft",
+  "name": "Single Leg X Control",
+  "aliases": [],
+  "tags": [
+    "single-leg-x",
+    "ashi-garami",
+    "guard",
+    "sweep",
+    "leg-entry",
+    "tier:modern-expansion",
+    "meta:modern-common",
+    "risk:medium",
+    "family:guard",
+    "group:single-leg_x",
+    "modern-no-gi"
+  ],
+  "keywords": [
+    "single leg x",
+    "ashi garami",
+    "foot on hip",
+    "ankle control"
+  ],
+  "modernSystemGroup": "single_leg_x",
+  "relatedSkills": [
+    {
+      "id": "x-guard-control",
+      "type": "recommended"
+    },
+    {
+      "id": "k-guard-matrix",
+      "type": "recommended"
+    },
+    {
+      "id": "butterfly-guard-off-balance",
+      "type": "recommended"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "seated-guard-retention",
+    "leg-lock-safety-basics"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [
+    "If they free their leg, your lock was too shallow — re-enter with a deeper lock behind their knee.",
+    "If they flatten your hip foot, you lost distance control — re-post immediately before they close the space.",
+    "If they grab your head, swim your hand inside their arm and pummel back to their collar."
+  ],
+  "version": 1,
+  "updatedAt": "2026-05-21T00:24:30.782Z",
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "en",
+  "description": "Full control of the opponent's single trapped leg with both legs in SLX, enabling sweeps to top position, back takes, or leg lock entries.",
+  "shortInstruction": "Lock the leg, control the hip, own the base — SLX is control, not survival.",
+  "summary": "Single-leg X control goes beyond the basics — it means you own the opponent's trapped leg completely. They cannot free it, cannot step out, and cannot base on it. From this level of control, every option is available: you can sweep them to their back, take their back when they post, or drop into a leg entanglement. The difference between basic SLX and SLX control is the depth of your lock and your ability to read and react to their weight shifts.",
+  "whyItWorks": [
+    "A properly locked SLX gives you the mechanical advantage of two legs against one — they cannot simply pull free.",
+    "Controlling the hip with your foot prevents them from circling out or stepping around your guard.",
+    "Your proximity to their center of mass means every weight shift they make is telegraphed through the trapped leg.",
+    "Danaher principle: the transition from SLX to the finish should be continuous — control through motion."
+  ],
+  "commonMistakes": [
+    "Locking the SLX too loosely — a loose SLX gives them the freedom to step out or posture.",
+    "Focusing only on the trapped leg and forgetting to hand fight — their hands can still attack your head.",
+    "Staying in SLX too long without attacking — your legs will fatigue, and they will escape.",
+    "Letting them grab your hip foot and remove the post."
+  ],
+  "coachingCues": [
+    "Lock tight, hip high, stay active.",
+    "Their leg is your steering wheel — feel every move.",
+    "If you're comfortable in SLX, you're not attacking enough.",
+    "Flow through SLX — don't camp there."
+  ],
+  "safetySummary": [
+    "Protect your own knee when they try to spin out of the SLX — release and re-enter if you feel twisting.",
+    "Keep your hip foot active to prevent them from grabbing and controlling your ankle.",
+    "When sweeping from SLX, control your own fall to avoid landing badly on your back."
+  ],
+  "systemLogic": {
+    "corePrinciple": "Deep SLX lock → hip foot posted → feel weight shift → attack sweep, back take, or leg entanglement.",
+    "decisionTree": [
+      {
+        "condition": "Reaction 1: They post a hand",
+        "action": "sweep them backward over the posted leg."
+      },
+      {
+        "condition": "Reaction 2: They sit back",
+        "action": "enter 50/50 or saddle → leg attack."
+      },
+      {
+        "condition": "Reaction 3: They turn away",
+        "action": "follow into back take."
+      }
+    ],
+    "exitStrategies": []
+  },
+  "moneyDetails": [
+    "Your SLX lock should be behind their knee, not at the ankle — knee-level lock gives you maximum leverage.",
+    "The hip foot should be driving into their hip bone, not just resting — active pressure changes their base.",
+    "Maintain a sleeve or wrist grip on their far arm to prevent them from posting or grabbing your head.",
+    "When they post a hand to defend the sweep, that arm is now committed — attack the armbar or transition to the back."
+  ],
+  "nextStep": "After mastering SLX control, learn the advanced sweeps and the continuous transition to X-guard.",
+  "fixItFast": [
+    "They keep pulling their leg free? Lock higher — behind the knee, not the calf.",
+    "Can't sweep? Your hip foot is too passive — drive it into their hip as you pull the trapped leg.",
+    "They grab your foot? Pummel your foot to a different angle — don't let them settle their grip."
+  ]
+}

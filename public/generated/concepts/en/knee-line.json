@@ -1,0 +1,65 @@
+{
+  "id": "knee-line",
+  "locale": "en",
+  "title": "Knee Line",
+  "category": "safety",
+  "level": "fundamental",
+  "tags": [
+    "knee line",
+    "leg lock",
+    "safety"
+  ],
+  "shortDefinition": "The knee line is the boundary that decides whether the leg is controlled in an entanglement or free.",
+  "whyItMatters": "In leg locks, trapped knee line plus heel exposure is a major danger signal.",
+  "deepExplanation": "Knee line is a safety concept before it is an attacking concept. Do not rotate hard while knee line is trapped. When attacking, controlling it prevents leg withdrawal.",
+  "beginnerView": "Know whether your knee is trapped or free before turning.",
+  "advancedView": "Use knee line to evaluate sweep, pass, leg entry, and safety at the same time.",
+  "ifThenExamples": [
+    {
+      "if": "If you lose Knee Line during the exchange.",
+      "then": "Stop accelerating, recover the nearest body structure, then continue the technique.",
+      "why": "Modern no-gi punishes forceful continuation after structure is lost.",
+      "relatedSkillIds": [
+        "leg-lock-safety-basics",
+        "heel-hook-safety"
+      ]
+    },
+    {
+      "if": "If the opponent correctly answers your first line.",
+      "then": "Use Knee Line to switch to a safer branch instead of forcing the same line.",
+      "why": "A good concept turns the opponent’s reaction into information for the next decision.",
+      "relatedSkillIds": [
+        "heel-hook-safety",
+        "straight-ankle-lock-safety",
+        "single-leg-x-control"
+      ]
+    }
+  ],
+  "commonMisunderstandings": [
+    {
+      "misunderstanding": "Knee Line is a single technical trick.",
+      "correction": "Treat it as a decision rule that appears across many positions."
+    },
+    {
+      "misunderstanding": "Understanding the concept automatically makes it work live.",
+      "correction": "The concept needs body signals, short cues, and positional rolling."
+    }
+  ],
+  "trainingCues": [
+    "Name Knee Line before adding force.",
+    "Find the body signal instead of guessing generally.",
+    "If structure is lost, reset one layer first.",
+    "Drill slowly, then test with progressive resistance."
+  ],
+  "relatedSkillIds": [
+    "leg-lock-safety-basics",
+    "heel-hook-safety",
+    "straight-ankle-lock-safety",
+    "single-leg-x-control"
+  ],
+  "relatedConceptIds": [
+    "leg-lock-safety-hierarchy",
+    "early-vs-late-defense",
+    "inside-position"
+  ]
+}

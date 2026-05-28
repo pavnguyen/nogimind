@@ -1,0 +1,78 @@
+{
+  "id": "back-control",
+  "locale": "vi",
+  "name": "back control",
+  "description": "Thống trị phía sau bằng seatbelt bị khóa, móc hoặc thân chủ động triangle và đấu tay đôi có hệ thống để duy trì quyền kiểm soát và thiết lập sự phục tùng.",
+  "shortInstruction": "Ngực chạm xương sống, seatbelt khóa, móc vào, đánh tay — back control là vua của các vị trí là có lý do.",
+  "summary": "back control là vị trí thống trị nhất trong BJJ. Từ đây, bạn gần như kiểm soát được chuyển động của chúng. seatbelt (một tay đặt trên vai, một tay đặt dưới nách, hai tay chắp lại) điều khiển phần thân trên của họ. Móc (bàn chân bên trong đùi) hoặc cơ thể triangle (chân quấn quanh thân) kiểm soát phần thân dưới của họ. Từ sự kiểm soát hoàn toàn này, bạn có thể tấn công vào cổ, cánh tay hoặc chuyển sang mount.",
+  "whyItWorks": [
+    "Từ phía sau, bạn có thể nhìn thấy mọi việc họ làm trong khi họ không thể nhìn thấy bạn - lợi thế phản ứng là rất lớn.",
+    "seatbelt và những cái móc tạo thành một cái lồng bao quanh cơ thể — chúng không thể thoát ra ngoài nếu không phá vỡ nhiều nút điều khiển.",
+    "Kết nối ngực với lưng có nghĩa là trọng lượng của bạn dồn lên cột sống của họ - họ sẽ cõng bạn khi bạn tấn công.",
+    "Nguyên tắc Danaher: phía sau là vị trí có tỷ lệ tấn công cao nhất vì nó loại bỏ khả năng phòng thủ chính - bàn tay của họ."
+  ],
+  "commonMistakes": [
+    "Mất liên lạc giữa ngực và lưng - điều này mang lại cho họ không gian để quay lại hoặc trốn thoát.",
+    "Bắt chéo chân khi sử dụng móc - bàn chân bắt chéo có thể bị gãy do áp lực từ mắt cá chân.",
+    "Để seatbelt trượt lên cổ họ — seatbelt phải được khóa ở ngực chứ không phải ở cổ.",
+    "Nghỉ thay vì tấn công — back control là tư thế tấn công chuyển tiếp, không phải tư thế nghỉ."
+  ],
+  "coachingCues": [
+    "Ngực chạm xương sống - không có ánh sáng ban ngày giữa bạn.",
+    "Móc ở đùi, không phải gân kheo.",
+    "seatbelt ở ngực, hãy nắm chặt như thể mạng sống của bạn phụ thuộc vào nó.",
+    "Nếu họ di chuyển, hãy làm theo - hãy dán mắt vào."
+  ],
+  "safetySummary": [
+    "Giữ móc của bạn hoạt động nhưng không đâm sâu vào đùi trong của chúng - điều này có thể gây căng cơ háng.",
+    "Không ép cơ thể triangle quá chặt vào xương sườn của họ — chấn thương xương sườn thường xảy ra do áp lực cơ thể triangle quá mức.",
+    "Hãy để ý đến nhịp thở của đối tác khi sử dụng cơ thể triangle — họ có thể không chạm được bằng lời nói."
+  ],
+  "keyCorrections": [
+    "Nếu họ bóc một móc, hãy chuyển sang thân triangle hoặc bắt chéo chân.",
+    "Nếu họ quay lại, hãy thả seatbelt và lấy mount — đừng đuổi theo.",
+    "Nếu họ nắm lấy tay seatbelt của bạn, hãy đập tay bạn vào trong."
+  ],
+  "systemLogic": {
+    "corePrinciple": "back control là nền tảng cho tất cả các cuộc tấn công ngược. Trình tự như sau: rút lưng → khóa seatbelt → móc hoặc thân chắc chắn triangle → đánh tay → tấn công RNC hoặc cánh tay triangle.",
+    "decisionTree": [
+      {
+        "condition": "Bắt đầu từ back control",
+        "action": "Khóa seatbelt ngay lập tức (một tay quàng qua vai, một tay kẹp dưới nách, hai tay chắp lại). Cố định móc (bàn chân bên trong đùi) hoặc cơ thể triangle trước khi thực hiện bất kỳ động tác khuất phục nào"
+      },
+      {
+        "condition": "Họ thoát khỏi móc của bạn",
+        "action": "Chuyển sang phần thân triangle để duy trì khả năng kiểm soát phần thân dưới"
+      },
+      {
+        "condition": "Họ thoát khỏi cơ thể triangle",
+        "action": "Chuyển về móc để thiết lập lại khả năng kiểm soát phần thân dưới"
+      },
+      {
+        "condition": "Họ nắm lấy tay seatbelt của bạn",
+        "action": "Đập tay bạn vào trong — đừng để chúng làm gãy hoàn toàn seatbelt"
+      },
+      {
+        "condition": "Họ quay lại đối mặt với bạn",
+        "action": "Thả seatbelt và lấy mount — không đuổi theo vị trí phía sau"
+      }
+    ],
+    "exitStrategies": [
+      "Nếu bạn làm mất seatbelt, hãy cầm lại trước khi chúng có thể tạo khoảng trống",
+      "Nếu họ bóc cả hai móc và làm phẳng bạn, hãy quay lại front headlock hoặc đứng lên để đặt lại giao tranh",
+      "back control là một vị trí tấn công chuyển tiếp — đừng nghỉ ngơi ở đó; tấn công hoặc tiến lên"
+    ]
+  },
+  "moneyDetails": [
+    "Móc của bạn phải hoạt động - bàn chân co lại, ấn vào đùi trong, không lủng lẳng.",
+    "Tay cầm seatbelt phải nằm trong lòng bàn tay, không được đan vào các ngón tay — tay cầm chắc chắn hơn sẽ ngăn ngừa gãy xương.",
+    "Giữ đầu của bạn nghiêng về một bên cột sống của họ - điều này bảo vệ khuôn mặt của bạn khỏi khuỷu tay và ngăn họ quay sang bạn.",
+    "Khi họ cố gắng biến thành bạn, hãy đi theo hông họ và thực hiện mount — quá trình chuyển đổi từ quay lại thành mount là một chuỗi quan trọng."
+  ],
+  "nextStep": "Sau back control, tìm hiểu hệ thống tấn công ngược (RNC, cánh tay triangle, chuyển tiếp ngược).",
+  "fixItFast": [
+    "Móc cứ bị bong tróc? Chuyển sang nội dung triangle ngay lập tức.",
+    "seatbelt tay nắm bị gãy? Nắm chặt lại trước khi họ rẽ - đừng để họ tạo khoảng trống.",
+    "Họ đang quay lại à? Thả móc và đi theo hông đến mount."
+  ]
+}

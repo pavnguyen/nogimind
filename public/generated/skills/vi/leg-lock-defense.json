@@ -1,0 +1,136 @@
+{
+  "id": "leg-lock-defense",
+  "domain": "survival_defense",
+  "level": "intermediate",
+  "status": "draft",
+  "name": "Bảo vệ khóa chân",
+  "aliases": [],
+  "tags": [
+    "leg-lock",
+    "defense",
+    "heel-hook",
+    "knee-safety",
+    "escape"
+  ],
+  "keywords": [
+    "heel hide",
+    "knee line",
+    "boot defense",
+    "rotation direction",
+    "tap timing",
+    "ashi escape"
+  ],
+  "relatedSkills": [
+    {
+      "id": "single-leg-x-basics",
+      "type": "recommended"
+    },
+    {
+      "id": "saddle-inside-sankaku-control",
+      "type": "recommended"
+    },
+    {
+      "id": "k-guard-entry",
+      "type": "recommended"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "leg-lock-safety-basics",
+    "heel-hook-safety"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [
+    "Nếu bạn cảm thấy gót chân đang xoay nhưng không thể với tới để che giấu: hãy nắm lấy bàn chân của chính bạn bằng cả hai tay và kéo về phía mông - đây là hành động 'tự ẩn mình'",
+    "Nếu đối thủ chuyển từ mắt cá chân thẳng sang heel hook: không thay đổi cách phòng thủ của bạn - ẩn gót chân và tách hông có tác dụng cho cả hai",
+    "Nếu bạn đang ở trong thế 50/50 guard và không thể xác định được mối đe dọa gửi bài: giả sử heel hook và phòng thủ tương ứng cho đến khi bạn xác định được cuộc tấn công thực sự"
+  ],
+  "version": 1,
+  "updatedAt": "2026-05-21T00:24:30.765Z",
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "vi",
+  "description": "Nhận biết và thoát khóa chân: giấu gót chân, vạch rõ đường đầu gối, rẽ đúng hướng và chạm sớm khi cần. Phòng thủ khóa chân là sự tích hợp của tất cả các nguyên tắc thoát khỏi đường đầu gối thành một hệ thống phòng thủ hoàn chỉnh chống lại tất cả các cuộc tấn công bằng chân thông thường.",
+  "shortInstruction": "Gập gót chân, tạo khoảng cách với hông, bỏ móc phụ, xoay về phía chân tự do và chạm vào ngay khi bạn cảm thấy mô-men xoắn quay trên đầu gối.",
+  "summary": "Phòng thủ khóa chân bao gồm đầy đủ các phản ứng phòng thủ chống lại tất cả các cuộc tấn công chính bằng chân: heel hooks (bên trong và bên ngoài), ankle locks thẳng, đòn đầu gối, giữ ngón chân và máy cắt bắp chân. Hệ thống tích hợp cơ chế thoát khỏi đường đầu gối với các bộ đếm cụ thể. Nguyên tắc chung: nếu đầu gối của bạn bị cô lập và gót chân của bạn bị kiểm soát, hãy ưu tiên thoát thân. Nếu đầu gối của bạn bị cô lập và gót chân đã lộ ra ngoài, hãy ưu tiên chạm vào.",
+  "whyItWorks": [
+    "Phần ẩn ở gót chân sẽ loại bỏ tay cầm cần thiết để hoàn thiện heel hook — nếu không xoay gót chân, heel hook không thể tạo ra mô-men xoắn cần thiết",
+    "Tách hông áp dụng cho tất cả các đòn tấn công bằng chân vì mọi đòn khóa chân đều yêu cầu khoảng cách gần với hông để tạo ra đòn bẩy dứt điểm",
+    "Xoay đúng (về phía chân tự do) là hướng thoát phổ biến cho tất cả các vướng víu ở chân - xoay ra xa sẽ siết chặt mọi loại khóa chân",
+    "Chạm sớm vào áp lực gót chân sẽ ngăn ngừa chấn thương nặng nề nhất khi tập luyện (tái tạo dây chằng đầu gối)"
+  ],
+  "commonMistakes": [
+    "Xoay người ra khỏi chân bị mắc kẹt (chuyển động hoảng loạn theo bản năng) - điều này thắt chặt mọi biến thể khóa chân",
+    "Cố gắng kéo chân ra khỏi đòn khóa chân bằng cách duỗi hông thay vì gập hông và giấu gót chân",
+    "Đóng băng và hy vọng đối thủ sẽ không áp dụng sự phục tùng - khóa chân tăng tốc đột ngột",
+    "Chỉ tập trung vào heel hook phòng thủ trong khi bỏ qua các mục tiêu thẳng ankle lock, thanh đầu gối và ngón chân"
+  ],
+  "coachingCues": [
+    "Giấu gót chân, cách xa hông",
+    "Chạm vào vị trí, không đau",
+    "Xoay về phía chân tự do",
+    "Nếu đầu gối bị áp lực, hãy chạm ngay vào"
+  ],
+  "safetySummary": [
+    "heel hook có thể làm hỏng đầu gối trước khi cảm thấy đau — bạn phải chạm vào vị trí chứ không phải để bị đau",
+    "Thanh đầu gối tấn công dây chằng chéo sau - duỗi chân một chút nếu bạn cảm thấy duỗi quá mức, nhưng gõ nhẹ nếu chúng kiểm soát được chân",
+    "ankle lock thẳng tạo áp lực xoay và duỗi quá mức lên mắt cá chân và đầu gối - chạm vào nếu bạn cảm thấy đau nhói, không chỉ là áp lực",
+    "Máy thái thịt bắp chân ép cơ bụng vào xương chày - việc này gây đau nhưng hiếm khi gây tổn thương cấu trúc. Hãy chạm vào trước khi cơn đau trở nên không thể chịu nổi",
+    "Ngón chân giữ đòn tấn công hội chứng mắt cá chân - chạm sớm vì chấn thương này cần nhiều tháng để hồi phục"
+  ],
+  "systemLogic": {
+    "corePrinciple": "Phòng thủ khóa chân được tổ chức theo kiểu tấn công, với các nguyên tắc cốt lõi giống nhau được điều chỉnh cho từng kiểu tấn công",
+    "decisionTree": [
+      {
+        "condition": "heel hook phòng thủ: ẩn gót chân",
+        "action": "tách hông → móc phụ rõ ràng → xoay về phía chân tự do. Trình tự này hoạt động cho cả bên trong và bên ngoài heel hook với những điều chỉnh vị trí nhỏ"
+      },
+      {
+        "condition": "Phòng thủ thẳng ankle lock: hướng bàn chân của bạn (gập lòng bàn chân) để bảo vệ mắt cá chân, nắm lấy tay áo của họ để ngăn họ kéo chân bạn, vòng bàn chân về phía hông xa của họ trong khi duỗi thẳng chân của bạn. Đừng giấu gót chân",
+        "action": "bạn muốn bàn chân của bạn có thể nhìn thấy được để kiểm soát góc"
+      },
+      {
+        "condition": "Ứng dụng chung",
+        "action": "Phòng thủ thanh đầu gối: giữ đầu gối của bạn hơi cong (không để chúng duỗi quá mức), giấu gót chân vào cơ mông của bạn, đập chân còn lại của bạn qua đầu họ để thoát khỏi sự vướng víu. Bảo vệ thanh đầu gối ưu tiên uốn cong đầu gối hơn là ẩn gót chân"
+      },
+      {
+        "condition": "Ứng dụng chung",
+        "action": "Phòng thủ giữ ngón chân: xoay bàn chân theo hướng giữ (theo chiều xoay chứ không chống lại), đặt chân còn lại lên hông họ và đẩy ra xa để tạo khoảng trống, sau đó giấu chân và thoát ra"
+      },
+      {
+        "condition": "Ứng dụng chung",
+        "action": "Bảo vệ máy cắt bắp chân: chỉ ngón chân, duỗi chân hoàn toàn để trượt bắp chân ra khỏi lực nén, ấn mạnh chân còn lại giữa bạn và chúng để tạo khoảng trống"
+      },
+      {
+        "condition": "Ứng dụng chung",
+        "action": "Nếu bất kỳ đòn khóa chân nào được áp dụng với toàn quyền kiểm soát và bạn không thể thực hiện bước phòng thủ đầu tiên trong vòng 1 giây, hãy nhấn ngay lập tức"
+      }
+    ],
+    "exitStrategies": []
+  },
+  "moneyDetails": [
+    "Phòng thủ khóa chân là một kỹ năng bắt buộc đối với tất cả các vận động viên vật lộn hiện đại — sự phổ biến của các cuộc tấn công bằng chân trong thi đấu có nghĩa là bạn sẽ phải đối mặt với chúng ở mọi hạng đấu",
+    "Cơ chế bảo vệ khóa chân đáng tin cậy giúp loại bỏ nỗi sợ giao tranh và cho phép bạn tập luyện ở cường độ tối đa mà không cần đắn đo",
+    "Hiểu cách phòng thủ khóa chân từ phía phòng thủ giúp bạn trở thành kẻ tấn công khóa chân tốt hơn - bạn biết chính xác đối thủ cần làm gì để trốn thoát"
+  ],
+  "fixItFast": [
+    "Nếu bạn cảm thấy gót chân xoay mà không thể ẩn gót chân: hãy chạm ngay lập tức - bạn đã thua cuộc đua",
+    "Nếu bạn đang ở trong ankle lock thẳng và bàn chân của bạn đã bị cô lập: đừng giật — chỉ bàn chân của bạn, nắm lấy tay áo của họ và vòng chân bạn về phía hông xa của họ",
+    "Nếu bạn thoát khỏi đòn khóa chân nhưng họ lập tức lao vào lại: khoảng cách hông của bạn không được duy trì. Giữ hông của bạn cách xa khi bạn hồi phục về vị trí trung lập"
+  ]
+}

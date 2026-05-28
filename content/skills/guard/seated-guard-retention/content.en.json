@@ -1,0 +1,89 @@
+{
+  "id": "seated-guard-retention",
+  "locale": "en",
+  "name": "Seated Guard Retention",
+  "shortName": "Seated Retention",
+  "description": "An active defensive system while seated, using skeletal frames, foot posts, and leg mobility to block the opponent's pass and maintain guard layers.",
+  "shortInstruction": "Keep feet on hips, maintain knee-elbow connection, use C-grips on wrists, and frame to recover or wrestle up.",
+  "summary": "Active guard retention from seated position using frames, foot posts, and inside position.",
+  "whyItWorks": [
+    "Keeps distance by using the longest levers (feet, shins) before the passer can close chest-to-chest.",
+    "Preserves inside position through knee-elbow connection and active hand fighting.",
+    "Turn frames into hip movement rather than pushing with arms.",
+    "Creates opportunities to wrestle up or re-attack when the passer overcommits."
+  ],
+  "commonMistakes": [
+    "Letting feet dangle without a post on hips or biceps.",
+    "Opening space between knee and elbow, allowing underhooks.",
+    "Letting the opponent freely grip your pants or legs.",
+    "Pushing with straight arms instead of framing with forearms.",
+    "Fighting flat on the back instead of staying seated or on the side."
+  ],
+  "coachingCues": [
+    "Feet on hips, elbows to knees.",
+    "Kill grips before they settle.",
+    "Frame then move hips, not arms.",
+    "Stay seated, stay active."
+  ],
+  "oneMinuteMode": {
+    "goal": "Maintain distance and inside position from seated guard.",
+    "steps": [
+      "Keep both feet posted on hips or biceps.",
+      "Maintain knee-elbow connection on both sides.",
+      "Win the hand fight with C-grips on wrists.",
+      "React to the pass direction and pivot on your seat.",
+      "When they overcommit, wrestle up or re-guard."
+    ]
+  },
+  "safetySummary": [
+    "Do not let your head get flattened toward the mat.",
+    "Protect your neck by keeping chin tucked during frames.",
+    "Avoid posting with straight arms to prevent joint locks."
+  ],
+  "keyCorrections": [
+    "If they close the distance, your feet are not posting — bring them back to hips.",
+    "If they get an underhook, your knee-elbow gap is open — close it.",
+    "If they flatten you, you waited too long to frame or pivot."
+  ],
+  "systemLogic": {
+    "corePrinciple": "Guard retention is a distance management game — your feet and frames are the first line of defense. React to the pass direction before committing to an escape or counter.",
+    "decisionTree": [
+      {
+        "condition": "Passer is standing and circling",
+        "action": "Keep both feet planted on their hips, pivot on your seat to face them, and maintain knee-elbow connection."
+      },
+      {
+        "condition": "Passer drops to both knees and tries to chest-to-chest",
+        "action": "Extend your legs to create distance, frame on their biceps, and shrimp your hips back to reset."
+      },
+      {
+        "condition": "Passer grabs your pants or ankle",
+        "action": "Strip the grip immediately with both hands (C-grip break) before they can control your leg."
+      },
+      {
+        "condition": "Passer forces an underhook",
+        "action": "Drop your elbow to the mat, turn to that side, and pummel your knee inside to regain inside position."
+      },
+      {
+        "condition": "Passer overcommits forward with momentum",
+        "action": "Use their momentum — frame off the biceps, elevate your hips, and wrestle up to a technical stand-up."
+      }
+    ],
+    "exitStrategies": [
+      "If they pass one leg, recover half guard and restart the retention cycle.",
+      "If they flatten you completely, turn to your side, pummel the near knee, and re-establish seated guard.",
+      "If retention fails repeatedly, transition to supine guard with deep half as a backup layer."
+    ]
+  },
+  "moneyDetails": [
+    "Always keep one foot on the hip to maintain distance; a dangling foot is a dead foot.",
+    "The C-grip on the wrist is your best friend — it kills their pant grip before it starts.",
+    "Pivot on your seat, not on your back; staying seated keeps your hips mobile."
+  ],
+  "nextStep": "After retaining guard, look to wrestle up (technical stand-up), transition to supine guard, or attack with shin-to-shin entries.",
+  "fixItFast": [
+    "They're past your feet? Frame with forearms and shrimp your hips out.",
+    "They have a pant grip? Strip it with both hands before they settle.",
+    "You're getting flattened? Turn to your side and pummel your knee inside."
+  ]
+}

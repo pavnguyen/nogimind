@@ -1,0 +1,62 @@
+{
+  "id": "north-south-escape",
+  "locale": "en",
+  "name": "North South Escape",
+  "description": "Escape the north-south position by creating a frame, turning into the opponent, and recovering guard or standing up.",
+  "shortInstruction": "Frame on the hips, insert a knee shield, turn toward the opponent, and recover guard or wrestle up.",
+  "summary": "North-south escape uses a forearm frame on the hips to create separation, then a knee shield to turn into the opponent and recover guard. The system is distinct from side control escapes because the opponent's weight is aligned along your centerline rather than perpendicular to it.",
+  "whyItWorks": [
+    "The north-south pin compresses the torso along the centerline — a forearm frame on the hip redirects their weight away from your ribs",
+    "Turning into the opponent (instead of away) uses your strongest skeletal structure against their chest pressure",
+    "The knee shield creates a structural barrier that prevents them from re-establishing the pin after you create space",
+    "North-south is a transitional position — a well-timed escape prevents them from establishing it as a pin and forces them to recover to side control or stand up"
+  ],
+  "commonMistakes": [
+    "Trying to bench press the opponent off from a flat back — this wastes energy against their weight advantage",
+    "Turning away from the opponent (exposing the back) instead of turning into them with a frame",
+    "Letting the opponent trap your near arm between their legs — this sets up the north-south choke",
+    "Waiting too long — north-south becomes increasingly tight as the opponent sinks their weight and locks their arms under your shoulders"
+  ],
+  "coachingCues": [
+    "Frame on the hip, not the chest",
+    "Turn into them, not away",
+    "Knee shield before they settle"
+  ],
+  "safetySummary": [
+    "The north-south choke can come on quickly — protect your neck by keeping your chin tucked and near arm across your chest",
+    "If the opponent has your arm trapped between their legs for a kimura, tap early and reset rather than risking shoulder damage",
+    "North-south can cause claustrophobia — manage your breathing and execute the escape sequence calmly"
+  ],
+  "keyCorrections": [],
+  "systemLogic": {
+    "corePrinciple": "The north-south escape follows a four-step sequence: frame → hip escape → knee shield → turn/recover guard",
+    "decisionTree": [
+      {
+        "condition": "General application",
+        "action": "Frame phase: place both forearms across their hip line (not chest). This uses bone to hold their weight off your ribs"
+      },
+      {
+        "condition": "General application",
+        "action": "Hip escape phase: walk your hips away from their hips to create a pocket of space for the knee shield"
+      },
+      {
+        "condition": "General application",
+        "action": "Knee shield phase: insert your near knee between your chest and their hip. The shin should face across their body, not straight up"
+      },
+      {
+        "condition": "General application",
+        "action": "Turn/recover: use the knee shield as a pivot point to turn toward them, then either recover full guard (by overhooking their far arm) or stand up via technical stand-up"
+      }
+    ]
+  },
+  "moneyDetails": [
+    "North-south escapes are less common than side control escapes — mastering this position makes you a more complete grappler",
+    "A smooth north-south escape often catches the opponent off guard and leads directly to a sweep or back take opportunity",
+    "Escaping north-south without gassing yourself preserves energy for the rest of the match"
+  ],
+  "fixItFast": [
+    "If they already have the north-south choke locked: protect your neck with both hands, bridge to off-balance, and peel the choking arm from the inside out",
+    "If they trap your arm between their legs: do not yank it out — turn your thumb up and slide your arm out along their thigh line",
+    "If they switch to a kimura from north-south: rotate your thumb toward your hip and bring your hand to your opposite hip before they can fully isolate the arm"
+  ]
+}

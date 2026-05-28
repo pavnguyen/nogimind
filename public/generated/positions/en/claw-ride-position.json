@@ -1,0 +1,57 @@
+{
+  "id": "claw-ride-position",
+  "locale": "en",
+  "title": "Claw Ride",
+  "category": "back",
+  "status": "advantage",
+  "description": "A ride combining deep underhook, head control, and hip pressure from turtle to expose the back or mat return.",
+  "topPlayerGoals": [
+    "The top player wants to control Claw Ride through head position, inside position, and directed pressure.",
+    "Keep a deep underhook, head post, and offset hip pressure to prevent the stand-up.",
+    "Keep a stable base so you are not off-balanced or countered."
+  ],
+  "bottomPlayerGoals": [
+    "The bottom player wants to survive Claw Ride with frames, pummeling, or the right angle.",
+    "Pummel the underhook out, bring the head to the hip line, and keep knees under hips.",
+    "Recognize danger signals early instead of waiting for the position to settle."
+  ],
+  "controlPoints": [
+    "Main control point: Underhook depth, head post, and hip pressure vector..",
+    "Head, hands, hips, and knees should share the same force direction.",
+    "The elbow-knee connection or hip-shoulder line determines whether the position is still alive or already locked."
+  ],
+  "escapePriorities": [
+    "Escape priority: Fight the underhook first — if the underhook is lost, head post and hip pressure are also neutralized..",
+    "Protect the neck, back, knee line, or arm line before countering.",
+    "If inside position is lost, reset one defensive layer first."
+  ],
+  "advancementOptions": [
+    {
+      "action": "Transition to hook or back take",
+      "nextPositionId": "back-control-position",
+      "relatedSkillIds": [
+        "claw-ride",
+        "turtle-ride",
+        "back-control"
+      ],
+      "why": "This is the natural branch when you win the main control point and the opponent is forced to defend."
+    }
+  ],
+  "dangerSignals": [
+    "The chin or neck is pulled out of a safe line.",
+    "The elbow separates from the ribs or knee.",
+    "The hip line is locked while the shoulder line is still being pulled.",
+    "You need a long hand post to avoid falling."
+  ],
+  "relatedSkillIds": [
+    "claw-ride",
+    "turtle-ride",
+    "back-control",
+    "cross-wrist-ride"
+  ],
+  "relatedConceptIds": [
+    "ride-vs-pin-vs-submission",
+    "hooks",
+    "connection-before-control"
+  ]
+}

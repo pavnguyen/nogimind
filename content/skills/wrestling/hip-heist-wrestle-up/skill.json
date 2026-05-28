@@ -1,0 +1,53 @@
+{
+  "id": "hip-heist-wrestle-up",
+  "domain": "wrestle_up_wrestling",
+  "level": "intermediate",
+  "name": "Hip Heist Wrestle-Up",
+  "aliases": [],
+  "tags": [
+    "hip-heist",
+    "wrestle-up",
+    "bottom-offense",
+    "stand-up",
+    "tier:modern-expansion",
+    "meta:modern-common",
+    "risk:low",
+    "family:wrestling",
+    "group:wrestle-up",
+    "modern-no-gi"
+  ],
+  "keywords": [
+    "explosive elevation",
+    "head slipping",
+    "back exposure"
+  ],
+  "modernSystemGroup": "wrestle_up",
+  "relatedSkills": [
+    {
+      "id": "single-leg-bjj",
+      "type": "recommended"
+    },
+    {
+      "id": "sprawl-go-behind",
+      "type": "recommended"
+    }
+  ],
+  "prerequisiteSkillIds": [
+    "inside-position",
+    "butterfly-guard-off-balance"
+  ],
+  "relatedPositions": [],
+  "relatedConcepts": [],
+  "archetypeIds": [],
+  "trainingMethodIds": [],
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "updatedAt": "2026-05-21T00:24:30.781Z"
+}

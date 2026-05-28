@@ -1,0 +1,71 @@
+{
+  "id": "knee-on-belly-control",
+  "locale": "vi",
+  "name": "Kiểm soát đầu gối trên bụng",
+  "description": "Sử dụng đầu gối đặt trên bụng và tay nắm xa hông để kiểm soát, chuyển tiếp nhanh chóng và mở đầu bài. knee-on-belly là chốt di động nhất — nó hy sinh một số quyền kiểm soát để có khả năng chuyển đổi nhanh hơn bất kỳ vị trí nào khác.",
+  "shortInstruction": "Đẩy đầu gối của bạn vào xương ức hoặc đám rối thần kinh mặt trời của họ, nắm chặt hông hoặc cổ áo ở xa của họ và sẵn sàng chuyển sang mount, side control hoặc north-south. Đừng để chúng bẫy chân bạn.",
+  "summary": "knee-on-belly sử dụng đầu gối của bạn làm điểm áp lực chính, tạo ra sự khó chịu buộc đối phương phải phản ứng, để lộ sơ hở để phục tùng hoặc chuyển đổi. Điều quan trọng là khả năng di chuyển — chân tự do của bạn và tay cầm xa bằng hông cho phép bạn vòng quanh đối thủ nhanh hơn so với từ side control hoặc mount. knee-on-belly là chốt chuyển tiếp, không phải là vị trí nghỉ.",
+  "whyItWorks": [
+    "Áp lực đầu gối lên xương ức/đám rối thần kinh mặt trời tạo ra sự khó chịu và hạn chế hô hấp buộc đối phương phải phản ứng",
+    "Tay nắm xa hông (hoặc tay nắm cổ) giúp bạn kiểm soát cấu trúc - bạn có thể kéo chúng về phía mình trong khi di chuyển đầu gối",
+    "Chân còn lại trên thảm mang lại khả năng di chuyển tức thì — bạn có thể chuyển sang mount, side control, north-south hoặc phía sau mà không cần định vị lại",
+    "knee-on-belly là ghim duy nhất không yêu cầu tiếp xúc toàn thân — điều này lý tưởng cho việc chuyển đổi nhanh chóng"
+  ],
+  "commonMistakes": [
+    "Để đối thủ bẫy chân bạn - một khi chân bị mắc kẹt, bạn sẽ mất khả năng di chuyển và có thể bị cuốn hoặc đảo ngược",
+    "Đẩy đầu gối quá cao (vào cổ họng) hoặc quá thấp (vào hông) - mục tiêu chính xác là xương ức/đám rối thần kinh mặt trời",
+    "Ở quá lâu trong knee-on-belly mà không tấn công - đó là điểm chuyển tiếp chứ không phải vị trí nghỉ",
+    "Nghiêng quá xa về phía trước - điều này làm tổn hại đến căn cứ của bạn và cho phép đối thủ lăn bạn"
+  ],
+  "coachingCues": [
+    "Đầu gối trên xương ức, không phải cổ họng",
+    "Bảo vệ bàn chân, giữ cho nó di động",
+    "Chuyển đổi nhanh chóng, đừng nghỉ ngơi",
+    "Tay nắm xa ở hông điều khiển chuyển động của họ"
+  ],
+  "safetySummary": [
+    "Không đưa đầu gối vào cổ họng đối phương - nhắm vào xương ức hoặc đám rối thái dương",
+    "knee-on-belly có thể gây đau xương sườn đối với những đối thủ nhẹ cân hơn — hãy lưu ý đến mức độ thoải mái của bạn tập của bạn",
+    "Nếu đối thủ lăn lộn hung hăng để trốn thoát, hãy giải phóng áp lực đầu gối và chuyển tiếp với họ thay vì chống cự"
+  ],
+  "keyCorrections": [
+    "Nếu bạn tiếp tục bị cuốn theo: trọng lượng của bạn quá dồn về phía trước - hãy ngồi lùi lại một chút và giữ hông ở dưới bạn",
+    "Nếu chúng bẫy chân bạn: hãy đập chân bạn ra ngay lập tức bằng cách vòng tròn về phía cơ thể bạn",
+    "Nếu họ trốn thoát trước khi bạn kịp phản ứng: bạn đã ở lại quá lâu - hãy cam kết chuyển đổi sớm hơn"
+  ],
+  "systemLogic": {
+    "corePrinciple": "knee-on-belly được tổ chức như một trung tâm chuyển tiếp với bốn nhánh: mount → side control → north-south → Quay lại",
+    "decisionTree": [
+      {
+        "condition": "Sử dụng Nhánh 1 (mount)",
+        "action": "trượt đầu gối của bạn ra khỏi bụng họ và bước qua cánh tay gần của họ tới mount. Giữ tay cầm ở xa hông để kéo chúng về phía bạn khi bạn bước vào mount"
+      },
+      {
+        "condition": "Sử dụng Nhánh 2 (side control)",
+        "action": "thả đầu gối của bạn xuống tấm thảm cạnh hông họ và trượt vào side control. Duy trì áp lực từ ngực đến ngực"
+      },
+      {
+        "condition": "Sử dụng Nhánh 3 (north-south)",
+        "action": "đưa đầu gối của bạn lên ngực về phía đầu trong khi vẫn giữ chặt hông ở phía xa. Trượt đến north-south khi đầu gối của bạn chạm tới cằm"
+      },
+      {
+        "condition": "Sử dụng Nhánh 4 (Quay lại)",
+        "action": "nếu họ quay đi hoặc nằm nghiêng để thoát khỏi áp lực đầu gối, hãy thả lỏng đầu gối, đi theo lượt của họ và lùi lại bằng seatbelt"
+      },
+      {
+        "condition": "Hướng dẫn quyết định",
+        "action": "nếu họ giữ nguyên → tấn công hoặc chuyển sang mount. Nếu họ quay đi → lùi lại. Nếu họ mắc kẹt chân → thoát khỏi đòn tấn công và tái lập"
+      }
+    ]
+  },
+  "moneyDetails": [
+    "knee-on-belly ghi được 2 điểm trong IBJJF — đây là cách ghi điểm nhanh nhất từ ​​side control",
+    "knee-on-belly là đòn ghim đe dọa nhất đối với đối thủ vì cảm giác khó chịu ngay lập tức buộc họ phải phản ứng có thể đoán trước được",
+    "Việc nắm vững các chuyển đổi knee-on-belly mang đến cho bạn trò chơi hàng đầu trên thiết bị di động nhất trong BJJ"
+  ],
+  "fixItFast": [
+    "Nếu họ bẫy chân bạn: hãy vòng chân về phía cơ thể bạn và đăng lại về phía sau",
+    "Nếu chúng không phản ứng với áp lực đầu gối: bạn đang ở sai vị trí - hãy tìm khoảng trống ở xương ức và đặt lại vị trí",
+    "Nếu họ quay lưng lại với áp lực: thả đầu gối ra và thu lưng lại ngay lập tức"
+  ]
+}

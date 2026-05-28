@@ -1,5 +1,6 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { useTranslation } from 'react-i18next'
+import { Film } from 'lucide-react'
 
 type Props = {
   youtubeId: string
@@ -7,10 +8,41 @@ type Props = {
   title: string
 }
 
+function useOnlineStatus() {
+  const [online, setOnline] = useState(
+    typeof navigator !== 'undefined' ? navigator.onLine : true
+  )
+  useEffect(() => {
+    const goOnline = () => setOnline(true)
+    const goOffline = () => setOnline(false)
+    window.addEventListener('online', goOnline)
+    window.addEventListener('offline', goOffline)
+    return () => {
+      window.removeEventListener('online', goOnline)
+      window.removeEventListener('offline', goOffline)
+    }
+  }, [])
+  return online
+}
+
+const OfflinePlaceholder = ({ t: translate }: { t: (key: string) => string }) => (
+  <div className="flex aspect-video flex-col items-center justify-center gap-3 rounded-lg border border-white/10 bg-slate-900/80 text-slate-500">
+    <Film className="h-10 w-10 text-slate-600" />
+    <p className="max-w-xs px-4 text-center text-sm">
+      {translate('video.offline')}
+    </p>
+  </div>
+)
+
 export const LazyYouTubeEmbed = ({ youtubeId, embedUrl, title }: Props) => {
   const { t } = useTranslation()
   const [loaded, setLoaded] = useState(false)
+  const isOnline = useOnlineStatus()
   const thumbnailUrl = `https://i.ytimg.com/vi/${youtubeId}/hqdefault.jpg`
+
+  if (!isOnline) {
+    return <OfflinePlaceholder t={t} />
+  }
 
   return (
     <div className="aspect-video overflow-hidden rounded-lg border border-white/10 bg-slate-950">

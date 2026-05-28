@@ -1,0 +1,61 @@
+{
+  "id": "shoulder-crunch-control",
+  "locale": "vi",
+  "name": "Kiểm soát độ cứng vai",
+  "description": "Khóa vai và đầu của đối phương lại với nhau bằng cách sử dụng tư thế gập vai để thiết lập các mục quét, triangles, armbars và khóa chân.",
+  "shortInstruction": "Kéo đầu họ lên vai, khóa đòn, tấn công vào bên hở.",
+  "summary": "Gập vai là một trong những tư thế có khả năng kiểm soát cao nhất trong công việc No-Gi guard. Bằng cách kéo đầu đối phương xuống về phía vai cùng bên của họ (tạo ra tiếng 'bóp' trên cổ và vai của họ), bạn hạn chế chuyển động của họ ở bên đó và để lộ cánh tay xa, lưng và chân của họ. Bản thân động tác gập vai không phải là một động tác phục tùng - nó là một tư thế kiểm soát giúp mọi đòn tấn công từ guard trở nên dễ dàng hơn.",
+  "whyItWorks": [
+    "Kéo đầu họ lên vai khiến cánh tay và cổ họ ở cùng một phía, hạn chế các lựa chọn phòng thủ của họ.",
+    "Việc gập ghềnh tạo ra điểm yếu về cấu trúc - họ không thể tạo tư thế, tạo khung hoặc tựa vào mặt bị gập ghềnh.",
+    "Nó mở ra nhiều đường tấn công: triangle (qua cánh tay bị bẻ), quét (sang phía hở) hoặc khóa chân.",
+    "Nguyên tắc Danaher/John Danaher: phần thân trên bị tổn thương sẽ khiến phần thân dưới dễ bị tổn thương."
+  ],
+  "commonMistakes": [
+    "Để họ có tư thế thoát khỏi tình trạng khó khăn - việc gập bụng đòi hỏi phải có sự căng thẳng liên tục.",
+    "Kéo đầu thẳng xuống thay vì sang một bên - tiếng kêu là ở góc chứ không phải độ sâu.",
+    "Giải phóng sức ép để theo đuổi sự phục tùng - hãy duy trì sự phục tùng và sự phục tùng sẽ đến với bạn.",
+    "Quên kiểm soát cánh tay còn lại của mình - họ sẽ sử dụng nó để đăng bài và trốn thoát."
+  ],
+  "coachingCues": [
+    "Đầu kề vai, khóa góc.",
+    "Cuộc khủng hoảng là cái lồng - sự phục tùng là phần thưởng.",
+    "Kiểm soát cánh tay tự do, sở hữu vị trí.",
+    "Nếu họ chống chọi được với tiếng kêu, họ sẽ mở triangle."
+  ],
+  "safetySummary": [
+    "Không vặn cổ đối phương - động tác gập vai sẽ tạo áp lực lên cơ vai chứ không phải cột sống cổ.",
+    "Hãy thả lỏng ngay lập tức nếu đối tác của bạn chạm vào - vết thương ở cổ và vai rất nghiêm trọng.",
+    "Hãy cẩn thận khi tập luyện với những đối tác đã có vấn đề về cổ hoặc vai."
+  ],
+  "keyCorrections": [
+    "Nếu họ tạo tư thế hướng ra ngoài, bạn sẽ mất góc - hãy kéo đầu họ xuống vai chứ không phải vào ngực bạn.",
+    "Nếu họ vuông góc lại, nghĩa là lực siết quá lỏng - hãy siết chặt tay của bạn và kéo khuỷu tay của họ qua cơ thể họ.",
+    "Nếu chúng tấn công vào chân bạn khi bạn đang gập bụng thì tức là chân của bạn đã lộ ra quá nhiều - hãy giữ đầu gối của bạn ở giữa bạn và chúng."
+  ],
+  "systemLogic": {
+    "corePrinciple": "Giữ chặt vai (đầu vào vai) → kiểm soát cánh tay còn lại → tấn công dựa trên phản ứng của họ.",
+    "decisionTree": [
+      {
+        "condition": "Cách 1: Họ tạo dáng",
+        "action": "triangle nghẹt thở. Cách 2: Họ quay đi → quét hoặc quay lại."
+      },
+      {
+        "condition": "Tùy chọn 3: Họ liên hệ lại",
+        "action": "armbar trên cánh tay còn lại. Cách 4: Đứng → khóa chân vào."
+      }
+    ]
+  },
+  "moneyDetails": [
+    "Kéo đầu họ về phía vai chứ không phải vào ngực của bạn - góc của cú va chạm là thứ khiến họ bất động.",
+    "Dùng tay cùng bên của bạn để nắm lấy cơ tam đầu hoặc tay áo của họ trên cánh tay còn lại - điều này ngăn họ đăng bài.",
+    "Giữ cho chân của bạn luôn hoạt động: một chân đặt trên hông, chân kia sẵn sàng tấn công triangle hoặc quét.",
+    "Động tác gập vai hiệu quả nhất khi ở tư thế bướm guard hoặc half guard — những tư thế mà bạn đã ở gần phần thân trên của họ."
+  ],
+  "nextStep": "Sau khi điều khiển gập vai, hãy học triangle từ gập vai và kết hợp quét.",
+  "fixItFast": [
+    "Họ cứ làm ra vẻ thế à? Kéo mạnh hơn sang một bên chứ không phải kéo xuống - lực kéo sang bên khó cưỡng lại hơn.",
+    "Họ bẫy chân bạn à? Chân của bạn quá rộng - hãy giữ hai đầu gối của bạn sát vào cơ thể họ.",
+    "Họ nắm lấy bàn tay miễn phí của bạn? Thay vào đó hãy chuyển sang cà vạt cổ hoặc điều khiển đầu."
+  ]
+}

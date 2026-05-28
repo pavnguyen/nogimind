@@ -1,0 +1,121 @@
+{
+  "id": "bear-trap-ham-sandwich",
+  "domain": "submission_systems",
+  "level": "advanced",
+  "status": "draft",
+  "name": "Bẫy gấu/Bánh kẹp giăm bông",
+  "aliases": [],
+  "tags": [
+    "bear-trap",
+    "ham-sandwich",
+    "calf-slicer",
+    "compression",
+    "leg-lock",
+    "half-butterfly"
+  ],
+  "keywords": [
+    "bear trap",
+    "ham sandwich",
+    "calf slicer",
+    "compression lock",
+    "electric chair",
+    "half butterfly"
+  ],
+  "relatedSkills": [
+    {
+      "id": "deep-half-guard",
+      "type": "recommended"
+    },
+    {
+      "id": "half-butterfly-to-leg-entanglements",
+      "type": "recommended"
+    },
+    {
+      "id": "heel-hook-safety",
+      "type": "recommended"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "half-guard-knee-shield",
+    "leg-lock-safety-basics"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [
+    "Nếu chúng rút chân ra, bẫy của bạn quá nông - hãy đưa bẫy vào sâu hơn ở hố đầu gối của bạn.",
+    "Nếu bạn không thể hoàn thành, góc ống chân của bạn sai - hãy xoay ống chân của bạn để mép xương ép vào bắp chân của họ.",
+    "Nếu họ quay ra, bạn sẽ mất kiểm soát phần thân trên - hãy thiết lập lại khả năng bám của bạn vào cổ áo hoặc cánh tay của họ."
+  ],
+  "version": 1,
+  "updatedAt": "2026-05-21T00:24:30.762Z",
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "vi",
+  "description": "Sử dụng bẫy gấu (còn gọi là bánh mì giăm bông) để tạo khóa nén - máy thái bắp chân - từ nửa con bướm hoặc half guard, buộc đối thủ phải chạm, lộ lưng hoặc từ bỏ đòn quét.",
+  "shortInstruction": "Nhốt chân chúng vào hố đầu gối của bạn, ấn ống chân của bạn vào bắp chân của chúng, nén — bẫy gấu là một máy thái bắp chân được giấu trong half guard.",
+  "summary": "Bẫy gấu (bánh sandwich giăm bông) là một dụng cụ nén submission (máy thái bắp chân) sử dụng xương ống chân của bạn để chống vào cơ bắp chân của chúng, với chân của chúng bị mắc kẹt trong khúc cua đầu gối của bạn. Nó thường được thực hiện từ tư thế nửa bướm hoặc half guard khi đối thủ tiến về phía trước. Áp lực đè lên bắp chân buộc chúng phải chạm, lăn ngửa (cho bạn sweep) hoặc để lộ lưng trong back take.",
+  "whyItWorks": [
+    "Sự nén của xương ống chân vào cơ bắp chân tạo ra cơn đau dữ dội và áp lực ở khớp - hầu hết các đối thủ sẽ chạm hoặc lăn.",
+    "Nó hoạt động như một vấn đề nan giải: chạm vào máy cắt bắp chân hoặc từ bỏ thao tác quét/quay lại.",
+    "Nó có thể được vào mà không cần thiết lập phức tạp - nếu bạn có một nửa con bướm và chúng lao về phía trước, bẫy gấu thường có sẵn.",
+    "Nguyên tắc Danaher: khóa nén có tỷ lệ phần trăm cao vì chúng hoạt động trên một khớp duy nhất (đầu gối) với giải phẫu có thể đoán trước được."
+  ],
+  "commonMistakes": [
+    "Để chân của họ trượt ra khỏi hố đầu gối của bạn - một cái bẫy nông sẽ làm mất lực nén.",
+    "Dùng tay để kéo chân của họ thay vì kéo hố đầu gối của bạn - bẫy chân phải passive.",
+    "Quên kiểm soát phần thân trên của mình - họ sẽ thoát ra khỏi bẫy gấu.",
+    "Áp dụng máy thái bắp chân quá mạnh - chấn thương do nén có thể xảy ra nhanh chóng."
+  ],
+  "coachingCues": [
+    "Bẫy sâu trong hố đầu gối, lái bằng ống chân.",
+    "Kiểm soát phần thân trên - bẫy gấu chỉ là cái móc.",
+    "Nếu chúng lăn, hãy làm theo sweep hoặc back take.",
+    "Quá trình nén hoạt động - không quay, chỉ bóp."
+  ],
+  "safetySummary": [
+    "Máy thái bắp chân tạo áp lực mạnh lên đầu gối và bắp chân - áp dụng từ từ và thả ra khi nhấn.",
+    "Không áp dụng máy thái bắp chân một cách mạnh mẽ - đầu gối có thể bị thương trước khi đối thủ cảm thấy đau.",
+    "Không nên dùng cho người mới bắt đầu - khóa nén cần có kinh nghiệm để áp dụng an toàn."
+  ],
+  "systemLogic": {
+    "corePrinciple": "Nửa bướm hoặc half guard: đối thủ tiến về phía trước → nhốt chân họ vào hố đầu gối của bạn (bẫy gấu) → nén bằng ống chân → kết thúc hoặc sweep.",
+    "decisionTree": [
+      {
+        "condition": "Sử dụng phản ứng 1",
+        "action": "Họ chạm → xong máy thái bắp chân. Phản ứng 2: Chúng lăn → quét lên trên hoặc quay lại lấy."
+      },
+      {
+        "condition": "Ứng dụng chung",
+        "action": "Dây xích bẫy gấu ở phía sau chịu lực khi chúng lăn để thoát khỏi áp lực ở bắp chân."
+      }
+    ],
+    "exitStrategies": []
+  },
+  "moneyDetails": [
+    "Bẫy chân họ càng sâu càng tốt trong hố đầu gối của bạn - hố đầu gối phải ở hoặc phía sau khớp gối của họ.",
+    "Đưa xương ống chân của bạn (cạnh nhọn) vào cơ bắp chân của họ - việc nén xương lên cơ là kết thúc.",
+    "Kiểm soát phần thân trên của chúng bằng underhook hoặc collar tie để ngăn chúng quay đi.",
+    "Nếu họ cố gắng lăn ra khỏi máy thái bắp chân, hãy nhả lực nén và làm theo cuộn của họ — lấy phần sau hoặc sweep."
+  ],
+  "nextStep": "Sau bẫy gấu, hãy học chuyển động từ nửa bướm sang vướng chân.",
+  "fixItFast": [
+    "Chân cứ trượt ra ngoài? Giữ nó sâu hơn trong hố đầu gối của bạn - gần hông của bạn hơn.",
+    "Nén không hoạt động? Điều chỉnh góc ống chân của bạn - mép xương chứ không phải mặt phẳng của ống chân.",
+    "Họ lăn đi? Thả bẫy, đi theo hông họ, lùi lại."
+  ]
+}

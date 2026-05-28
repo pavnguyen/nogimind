@@ -1,0 +1,61 @@
+{
+  "id": "butterfly-guard-off-balance",
+  "locale": "en",
+  "name": "Butterfly Guard Off-Balance",
+  "description": "Use butterfly hooks, collar tie or underhook, and head positioning to break the opponent's base and create sweep, entry, or attack opportunities.",
+  "shortInstruction": "Hook a leg, break posture, off-balance forward or sideways, then sweep or enter leg entanglements.",
+  "summary": "Butterfly guard off-balance is the engine of the entire butterfly system. Without breaking the opponent's base, you cannot sweep or attack. The goal is to make them post a hand or step — then you move.",
+  "whyItWorks": [
+    "Butterfly hooks create a lever on the opponent's center of mass — pulling them forward or lifting them sideways destroys their base.",
+    "The collar tie or underhook controls their upper body so your hook can work in isolation.",
+    "Off-balancing forces reaction: they either post (giving you an entry) or fall (giving you the sweep).",
+    "Danaher principle: you cannot sweep a well-based opponent. First break the base, then attack."
+  ],
+  "commonMistakes": [
+    "Pulling on the collar tie without engaging the hook — the sweep comes from the hook, not the arms.",
+    "Letting your hooks get flattened or stripped before you off-balance.",
+    "Off-balancing sideways without controlling the far arm, allowing them to post and recover.",
+    "Staying flat on your back instead of sitting up on your shoulders to maintain hook pressure."
+  ],
+  "coachingCues": [
+    "Hook first, then pull — the hook creates the off-balance, the arms guide it.",
+    "Make them post, then move.",
+    "Sit up to activate the hook — flat hook is a dead hook.",
+    "Two-way threat: forward or sideways — they can't defend both."
+  ],
+  "safetySummary": [
+    "Keep your head up and chin off your chest to protect your neck during collar ties.",
+    "Do not overcommit forward on a failed off-balance — you may expose your back to a front headlock.",
+    "Protect your ribs when the opponent drives forward hard — frame before they smash."
+  ],
+  "keyCorrections": [
+    "If the sweep fails, your hook lost connection or you didn't off-balance enough — reset the hook and try again.",
+    "If they flatten your hook, you're too flat on your back — sit up on your far shoulder.",
+    "If they posture out of the collar tie, switch to an underhook or sleeve grip."
+  ],
+  "systemLogic": {
+    "corePrinciple": "Win the hand fight → establish collar tie or underhook → insert butterfly hook → off-balance → opponent posts → sweep or enter leg entanglement.",
+    "decisionTree": [
+      {
+        "condition": "resist, forward pressure",
+        "action": "go sideways. If they resist sideways, go forward. The dilemma is the system."
+      },
+      {
+        "condition": "General application",
+        "action": "Off-balance options: forward (elevator sweep), sideways (pendulum sweep), or backward (arm drag to back take)."
+      }
+    ]
+  },
+  "moneyDetails": [
+    "Your butterfly hook should be deep — ankle behind their armpit area — not shallow on the thigh.",
+    "The collar tie pulls their head down to your chest level; this loads their weight onto the hook.",
+    "When they post a hand, attack that side immediately — that arm is now out of commission.",
+    "If they step back to avoid the sweep, extend the hook and transition to single-leg X or X-guard."
+  ],
+  "nextStep": "After off-balancing, transition to butterfly sweep, single-leg X, or X-guard depending on their reaction.",
+  "fixItFast": [
+    "Hook getting flattened? Sit up on your far elbow immediately.",
+    "They posture out? Switch to double sleeve grip and kick your hooks in deeper.",
+    "They step back? Extend the hook and enter single-leg X."
+  ]
+}

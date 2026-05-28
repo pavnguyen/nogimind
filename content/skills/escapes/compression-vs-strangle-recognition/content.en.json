@@ -1,0 +1,69 @@
+{
+  "id": "compression-vs-strangle-recognition",
+  "locale": "en",
+  "name": "Compression vs Strangle",
+  "description": "Recognize compression locks (calf slicer, bicep slicer) vs strangles and respond correctly: tap when compression targets the joint, fight when targeting the neck. Knowing the difference prevents panic tapping to safe techniques and dangerous delay on dangerous ones.",
+  "shortInstruction": "Compression attacks the muscle against the bone (tap when pain is sharp), strangles attack the neck (fight if blood choke, tap if air choke or crank). If unsure, tap — muscle damage takes weeks to heal.",
+  "summary": "Compression attacks (slicers) apply pressure that traps a muscle belly against a bone, creating sharp localized pain. Strangles (blood chokes) apply pressure to the carotid arteries. The response is opposite: for compression locks, tap when the pain becomes sharp (they will not make you unconscious). For blood chokes, you can defend longer because unconsciousness is reversible. The danger is confusing a deep blood choke that feels like neck pressure with a crank — tap early if the pressure feels wrong.",
+  "whyItWorks": [
+    "Compression locks do not cause unconsciousness — they cause muscle and nerve compression pain that increases gradually",
+    "Blood chokes cause unconsciousness in 4-10 seconds — you have time to defend but must recognize the threat level",
+    "Air chokes (trachea pressure) and neck cranks (spine pressure) require immediate tapping due to structural injury risk",
+    "Knowing which type of attack you are in determines whether you should fight, escape, or tap immediately"
+  ],
+  "commonMistakes": [
+    "Panic tapping to compression locks that are not fully applied — compression pain is sharp but rarely causes lasting damage if you tap early",
+    "Not tapping early enough to air chokes or neck cranks — 'toughing out' a trachea choke can cause vocal cord damage",
+    "Confusing a tight blood choke with a neck crank — a blood choke applies pressure to the sides of the neck, not the front or back",
+    "Fighting a compression lock too long — muscle damage from slicers can take weeks to heal"
+  ],
+  "coachingCues": [
+    "Compression = tap on sharp pain",
+    "Blood choke = fight or escape",
+    "Air choke / crank = tap immediately",
+    "If unsure, tap"
+  ],
+  "safetySummary": [
+    "Calf slicers compress the gastrocnemius against the tibia — painful but rarely causes structural damage if you tap when pain becomes sharp",
+    "Bicep slicers compress the biceps brachii against the humerus — can cause nerve damage if held too long",
+    "Wrist slicers (from certain lapel or grip positions) can compress median and ulnar nerves — tap early",
+    "Blood chokes that are held past unconsciousness can cause seizures or, in rare cases, stroke — always release immediately on tap or limp body",
+    "Air chokes (pressure on the trachea) can cause vocal cord damage, thyroid cartilage fracture, or breathing difficulty — tap immediately"
+  ],
+  "keyCorrections": [
+    "If you feel sharp pain in a muscle belly (calf, bicep): you are in a compression lock — tap if the pain escalates past your comfort level",
+    "If you feel pressure on the sides of your neck (carotids): you are in a blood choke — defend, escape, or reset",
+    "If you feel pressure on your chin, throat, or back of the head: tap immediately — you are in a crank or air choke"
+  ],
+  "systemLogic": {
+    "corePrinciple": "The three attack types on the neck/limbs require different responses: Compression Lock → tap on sharp pain. Blood Choke → defend/escape with time. Air Choke / Neck Crank → tap immediately.",
+    "decisionTree": [
+      {
+        "condition": "Compression locks (slicers): the attacking limb (shin, forearm) drives the muscle belly against the bone, creating ischemia (lack of blood flow) and nerve compression. The pain increases gradually",
+        "action": "you have time to tap. Do not 'tough out' compression locks as they can cause rhabdomyolysis (muscle tissue breakdown) in extreme cases"
+      },
+      {
+        "condition": "General application",
+        "action": "Blood chokes (strangles): the attacking arm(s) compress the carotid arteries, preventing oxygenated blood from reaching the brain. You have 4-10 seconds of consciousness after the choke is locked. Blood chokes are safe to train because unconsciousness is reversible"
+      },
+      {
+        "condition": "General application",
+        "action": "Air chokes: pressure on the trachea/windpipe restricts breathing. These can damage the hyoid bone, thyroid cartilage, and vocal cords. Tap immediately on trachea pressure"
+      },
+      {
+        "condition": "General application",
+        "action": "Neck cranks: leverage the cervical spine through the chin, back of the head, or base of skull. Can cause disc herniation, ligament damage, and chronic neck pain. Tap immediately"
+      }
+    ]
+  },
+  "moneyDetails": [
+    "Knowing the difference between compression, blood choke, and neck crank is essential for safe training — incorrect responses lead to injury or unnecessary tapping",
+    "The ability to distinguish attack types in real time separates experienced grapplers from beginners",
+    "Understanding when to fight (blood choke) and when to tap (crank/air choke/compression pain) optimizes your defensive decisions in competition"
+  ],
+  "fixItFast": [
+    "If you are unsure what type of attack you are in: check where the pressure is — sides of neck = blood choke, front of neck = air choke, chin/spine = crank, muscle belly = compression",
+    "If the opponent has a compression lock but you are comfortable: tap when the pain becomes sharp — do not wait for structural damage",
+    "If you feel any neck pressure that seems 'wrong': tap. Your instinct is usually correct"
+  ]
+}

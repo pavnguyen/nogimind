@@ -1,0 +1,65 @@
+{
+  "id": "angle-creation",
+  "locale": "vi",
+  "title": "Tạo góc",
+  "category": "strategic",
+  "level": "intermediate",
+  "tags": [
+    "angle",
+    "pivot",
+    "direction"
+  ],
+  "shortDefinition": "Tạo angle là đổi vị trí thân/hông để lực của bạn đi vào điểm yếu thay vì đẩy thẳng vào cấu trúc mạnh.",
+  "whyItMatters": "Nhiều kỹ thuật fail vì người tập đúng grip nhưng sai angle.",
+  "deepExplanation": "Angle có thể đến từ hip heist, head position, shoulder line cut, knee cut, back step hoặc pivot. Angle tốt làm đối thủ phòng thủ một hướng trong khi bạn đi hướng khác.",
+  "beginnerView": "Nếu đẩy không chạy, đừng đẩy mạnh hơn; đổi góc.",
+  "advancedView": "Tạo angle bằng reaction của đối thủ, không chỉ bằng footwork của bạn.",
+  "ifThenExamples": [
+    {
+      "if": "Nếu bạn mất Tạo góc trong trao đổi.",
+      "then": "Dừng tăng tốc, lấy lại cấu trúc cơ thể gần nhất rồi mới tiếp tục kỹ thuật.",
+      "why": "No-gi hiện đại phạt rất nhanh khi bạn cố thắng bằng sức sau khi mất cấu trúc.",
+      "relatedSkillIds": [
+        "knee-cut-passing",
+        "guillotine-system"
+      ]
+    },
+    {
+      "if": "Nếu đối thủ phản ứng đúng với hướng đầu tiên.",
+      "then": "Dùng Tạo góc để đổi sang nhánh an toàn hơn thay vì ép cùng một hướng.",
+      "why": "Concept tốt biến phản ứng của đối thủ thành thông tin cho quyết định tiếp theo.",
+      "relatedSkillIds": [
+        "guillotine-system",
+        "arm-triangle-mount",
+        "half-guard-wrestle-up"
+      ]
+    }
+  ],
+  "commonMisunderstandings": [
+    {
+      "misunderstanding": "Tạo góc là một mẹo kỹ thuật riêng lẻ.",
+      "correction": "Hãy xem nó như quy tắc quyết định xuất hiện trong nhiều vị trí khác nhau."
+    },
+    {
+      "misunderstanding": "Bạn chỉ cần hiểu khái niệm là tự động dùng được trong live roll.",
+      "correction": "Khái niệm phải được gắn với body signal, cue ngắn và positional rolling."
+    }
+  ],
+  "trainingCues": [
+    "Gọi tên Tạo góc trước khi tăng lực.",
+    "Tìm body signal, không đoán bằng cảm giác chung.",
+    "Nếu mất cấu trúc, reset một layer trước.",
+    "Drill chậm, test bằng resistance tăng dần."
+  ],
+  "relatedSkillIds": [
+    "knee-cut-passing",
+    "guillotine-system",
+    "arm-triangle-mount",
+    "half-guard-wrestle-up"
+  ],
+  "relatedConceptIds": [
+    "dilemma-attacks",
+    "pressure-direction",
+    "failure-response"
+  ]
+}

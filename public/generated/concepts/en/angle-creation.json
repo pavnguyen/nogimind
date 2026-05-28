@@ -1,0 +1,65 @@
+{
+  "id": "angle-creation",
+  "locale": "en",
+  "title": "Angle Creation",
+  "category": "strategic",
+  "level": "intermediate",
+  "tags": [
+    "angle",
+    "pivot",
+    "direction"
+  ],
+  "shortDefinition": "Angle creation changes body or hip position so your force attacks weak structure instead of pushing straight into strength.",
+  "whyItMatters": "Many techniques fail because the grip is correct but the angle is wrong.",
+  "deepExplanation": "Angles come from hip heist, head position, shoulder-line cuts, knee cuts, back steps, or pivots. Good angle makes the opponent defend one direction while you move another.",
+  "beginnerView": "If pushing fails, do not push harder; change angle.",
+  "advancedView": "Create angles from the opponent’s reaction, not only your footwork.",
+  "ifThenExamples": [
+    {
+      "if": "If you lose Angle Creation during the exchange.",
+      "then": "Stop accelerating, recover the nearest body structure, then continue the technique.",
+      "why": "Modern no-gi punishes forceful continuation after structure is lost.",
+      "relatedSkillIds": [
+        "knee-cut-passing",
+        "guillotine-system"
+      ]
+    },
+    {
+      "if": "If the opponent correctly answers your first line.",
+      "then": "Use Angle Creation to switch to a safer branch instead of forcing the same line.",
+      "why": "A good concept turns the opponent’s reaction into information for the next decision.",
+      "relatedSkillIds": [
+        "guillotine-system",
+        "arm-triangle-mount",
+        "half-guard-wrestle-up"
+      ]
+    }
+  ],
+  "commonMisunderstandings": [
+    {
+      "misunderstanding": "Angle Creation is a single technical trick.",
+      "correction": "Treat it as a decision rule that appears across many positions."
+    },
+    {
+      "misunderstanding": "Understanding the concept automatically makes it work live.",
+      "correction": "The concept needs body signals, short cues, and positional rolling."
+    }
+  ],
+  "trainingCues": [
+    "Name Angle Creation before adding force.",
+    "Find the body signal instead of guessing generally.",
+    "If structure is lost, reset one layer first.",
+    "Drill slowly, then test with progressive resistance."
+  ],
+  "relatedSkillIds": [
+    "knee-cut-passing",
+    "guillotine-system",
+    "arm-triangle-mount",
+    "half-guard-wrestle-up"
+  ],
+  "relatedConceptIds": [
+    "dilemma-attacks",
+    "pressure-direction",
+    "failure-response"
+  ]
+}

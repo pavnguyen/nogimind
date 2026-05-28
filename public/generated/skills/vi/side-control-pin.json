@@ -1,0 +1,125 @@
+{
+  "id": "side-control-pin",
+  "domain": "pins_rides",
+  "level": "beginner",
+  "status": "draft",
+  "name": "side control Ghim",
+  "aliases": [],
+  "tags": [
+    "pin",
+    "pressure"
+  ],
+  "keywords": [
+    "crossface",
+    "underhook",
+    "hip block",
+    "pressure"
+  ],
+  "relatedSkills": [
+    {
+      "id": "mount-control",
+      "type": "recommended"
+    },
+    {
+      "id": "arm-triangle-mount",
+      "type": "recommended"
+    },
+    {
+      "id": "side-control-survival",
+      "type": "recommended"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "bodylock-passing"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [],
+  "version": 1,
+  "updatedAt": "2026-05-21T00:24:30.751Z",
+  "contentRefs": {
+    "videos": "videos.json",
+    "qualityChecklist": "qualityChecklist"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": true,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "vi",
+  "description": "Giữ side control với crossface, underhook và chặn hông thay vì chỉ nằm nặng. Chốt side control là vị trí cơ bản trên cùng để điều khiển đối thủ thông qua áp lực từ ngực đến ngực và chặn cấu trúc.",
+  "shortInstruction": "crossface để ghim đầu, underhook để chặn hông xa và giữ cho đường hông của bạn nặng trên hông gần của họ. Đừng bao giờ để họ lấy lại underhook hoặc chèn knee shield.",
+  "summary": "Chốt side control được duy trì thông qua ba điểm áp lực liên kết với nhau: crossface (điều khiển hướng đầu và ngăn chúng nhìn đi chỗ khác), điều khiển underhook (ngăn chúng biến thành bạn và phục hồi guard) và khối hông (trọng lượng hông của bạn đặt lên hông gần của chúng sẽ ngăn hông thoát ra ngoài). Hệ thống ưu tiên việc ghim cấu trúc thay vì trọng lượng nặng nề — việc căn chỉnh chính xác sẽ tạo ra áp lực mà không làm bạn kiệt sức.",
+  "whyItWorks": [
+    "crossface điều khiển hướng đầu của đối phương — đầu đi đâu, cơ thể đi theo và đầu ghim vào thảm không thể bắt đầu chạy trốn",
+    "underhook chặn cơ chế trốn thoát chính của đối thủ — biến thành bạn để phục hồi guard. Nếu không có underhook, họ phải trốn sang phía bên kia (tỷ lệ phần trăm thấp hơn)",
+    "Trọng lượng hông của bạn dồn lên hông gần của họ ngăn cản việc thoát hông (shrimp) — cách thoát side control phổ biến và hiệu quả nhất",
+    "Áp lực từ ngực đến ngực truyền trọng lượng của bạn qua xương ức chứ không phải vai, cho phép bạn duy trì áp lực mà không làm mỏi cánh tay"
+  ],
+  "commonMistakes": [
+    "Nằm nặng mà không hoạt động crossface hoặc underhook — đối thủ có thể shrimp ra ngoài nếu bạn chỉ 'ngồi' lên họ",
+    "Để đối thủ lấy underhook — khi họ có underhook, side control của bạn bị xâm phạm và họ có thể trốn thoát hoặc sweep",
+    "Định hình bằng cánh tay thẳng thay vì sử dụng áp lực ở ngực - cánh tay thẳng sẽ nhanh chóng mỏi và có thể bị gục xuống",
+    "Nâng hông của bạn quá cao - điều này sẽ loại bỏ trọng lượng khỏi đường hông của họ và khiến hông thoát ra ngoài"
+  ],
+  "coachingCues": [
+    "crossface để khóa đầu",
+    "Luôn chặn underhook",
+    "Trọng lượng hông ở gần hông của họ",
+    "Ngực kề ngực chứ không phải tay kề ngực"
+  ],
+  "safetySummary": [
+    "crossface nên tác dụng áp lực lên vùng hàm/má chứ không phải cổ họng - áp lực ở cổ họng có thể gây khó thở hoặc tổn thương khí quản",
+    "Không sử dụng crossface để vặn cổ một cách mạnh mẽ - đó là điểm kiểm soát, không phải là sự khuất phục",
+    "Nếu đối thủ chạm vào để gây áp lực, hãy thả ra ngay lập tức — side control áp lực có thể gây khó chịu ở xương sườn hoặc khiến một số bạn tập thở hoảng loạn"
+  ],
+  "systemLogic": {
+    "corePrinciple": "Chốt side control được duy trì thông qua ba điểm kiểm soát được kết nối với nhau: crossface (điều khiển hướng đầu), trọng lượng hông (ngăn hông thoát ra ngoài) và làn underhook (chặn underhook). Ba điểm hoạt động như một hệ thống tam giác - nếu đối thủ tấn công một điểm thì hai điểm còn lại phải siết chặt.",
+    "decisionTree": [
+      {
+        "condition": "Đối thủ shrimps để tạo khoảng trống",
+        "action": "Thả trọng lượng hông của bạn lên hông gần của họ và đẩy crossface của bạn sâu hơn — họ không thể shrimp nếu đầu bị ghim và hông bị chặn. Đi theo cây cầu bằng hông của bạn."
+      },
+      {
+        "condition": "Đối thủ đánh bại underhook",
+        "action": "Chặn làn đường underhook bằng cách giữ chặt cánh tay gần của bạn với cánh tay/vai xa của họ. Nếu họ nhận được underhook, hãy chuyển sang underhook ở phía xa và đẩy vai bạn vào ngực họ."
+      },
+      {
+        "condition": "Đối phương quay lưng lại với bạn (để lộ lưng)",
+        "action": "Hãy theo dõi họ ngay lập tức - đừng để họ tạo ra sự chia cắt. Ôm ngực và lùi về phía sau nếu họ cam kết quay đi. Đây là sự chuyển đổi phần thưởng cao nhất."
+      },
+      {
+        "condition": "Đối thủ phục hồi half guard dưới áp lực của bạn",
+        "action": "Bạn để trọng lượng hông của mình nâng lên - tái tác động vào khối hông trước khi chúng có thể đưa đầu gối vào. Hạ hông của bạn xuống thấp hơn đường hông gần của họ."
+      },
+      {
+        "condition": "Bạn muốn thăng tiến vị trí",
+        "action": "Bỏ cánh tay ở gần và bước đầu gối gần của bạn qua hông của họ tới mount hoặc trượt lên north-south để nén đường vai hoặc đặt lên hông xa trong knee-on-belly."
+      }
+    ],
+    "exitStrategies": [
+      "Nếu đối thủ tiếp tục shrimp ra đòn, trọng lượng hông của bạn quá cao - thả hông của bạn xuống thấp hơn đường gần hông của họ.",
+      "Nếu họ tiếp tục nhận được underhook thì cánh tay crossface của bạn quá nông — hãy đưa nó sâu hơn trên khuôn mặt của họ.",
+      "Nếu họ hồi phục half guard, bạn để trọng lượng hông của mình nâng lên - tập lại khối hông trước khi họ có thể đưa đầu gối vào."
+    ]
+  },
+  "moneyDetails": [
+    "side control là vị trí hàng đầu phổ biến nhất trong BJJ — thành thạo chốt ở đây sẽ giúp bạn tiết kiệm được nhiều điểm hơn hầu hết mọi kỹ năng khác",
+    "Ghim chiếm ưu thế side control dẫn trực tiếp đến việc khuất phục (armbar, kimura, tấn công bằng vai) trong khi khiến đối thủ kiệt sức",
+    "side control là vị trí đầu tiên mà những vận động viên vật nhỏ hơn có thể vô hiệu hóa lợi thế về kích thước thông qua kỹ thuật thay vì sức mạnh"
+  ],
+  "fixItFast": [
+    "Nếu họ tiếp tục shrimp: thả trọng lượng hông của bạn lên hông gần của họ và đẩy crossface của bạn sâu hơn — họ không thể shrimp nếu đầu bị ghim và hông bị chặn",
+    "Nếu họ nhận được underhook: ngay lập tức chuyển sang underhook ở phía xa (với tay dưới cánh tay xa của họ) và ấn vai bạn vào ngực họ để làm phẳng lại họ",
+    "Nếu họ quay lưng lại với bạn: hãy đi theo họ - đừng để họ tạo ra sự chia cắt. Ôm ngực và lùi về phía sau nếu họ cam kết quay đi"
+  ]
+}

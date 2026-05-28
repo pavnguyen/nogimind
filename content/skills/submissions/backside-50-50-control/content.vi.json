@@ -1,0 +1,65 @@
+{
+  "id": "backside-50-50-control",
+  "locale": "vi",
+  "name": "Kiểm soát 50/50 mặt sau",
+  "description": "Kiểm soát mặt sau 50/50 — một tư thế vướng chân phía sau đường hông của đối phương tạo ra các mối đe dọa heel hook mà không yêu cầu toàn bộ tư thế saddle.",
+  "shortInstruction": "Sau hông, kiểm soát chân trong, quản lý chân xa của họ — mặt sau 50/50 là back take của thế giới leg lock.",
+  "summary": "Mặt sau 50/50 là tư thế vướng chân trong đó bạn ở vị trí phía sau đường hông của đối phương bằng cả hai chân của bạn điều khiển một trong hai chân của họ theo cấu hình 50/50. Ưu điểm chính so với saddle là bạn ở phía sau chúng - chúng không thể nhìn thấy các cuộc tấn công của bạn và có các lựa chọn trốn thoát hạn chế. Từ đây, bạn có thể tấn công heel hook, chuyển sang saddle hoặc lùi lại.",
+  "whyItWorks": [
+    "Ở phía sau đường hông của họ mang lại cho bạn lợi thế về vị trí - họ không thể nhìn thấy vị trí tay hoặc chân của bạn.",
+    "Cấu hình chân 50/50 giúp bạn kiểm soát mạnh mẽ chân xa của họ trong khi tay bạn tấn công chân gần.",
+    "Nó dễ dàng chuyển đổi sang saddle hoặc back take tùy thuộc vào phản ứng của họ.",
+    "Nguyên tắc Danaher: vị trí trước khi phục tùng - mặt sau 50/50 là vị trí; heel hook là bài nộp."
+  ],
+  "commonMistakes": [
+    "Mất kiểm soát ở chân xa - chân xa là lối thoát của họ.",
+    "Để họ quay lại và đối mặt với bạn - một khi họ đối mặt với bạn, 50/50 mặt sau sẽ trở thành 50/50 tiêu chuẩn.",
+    "Chỉ tập trung vào heel hook và bỏ qua hậu quả — cả hai đều phải là mối đe dọa.",
+    "Ngồi quá thấp trên chân họ - bạn cần phải cao trên đùi họ để kiểm soát."
+  ],
+  "coachingCues": [
+    "Sau hông, bạn điều khiển trò chơi.",
+    "Chân xa là chìa khóa - kiểm soát nó hoặc mất vị trí.",
+    "Nếu họ rẽ, hãy lùi lại. Nếu họ ở lại, heel hook.",
+    "Kê cao chân – việc kiểm soát mắt cá chân chẳng giúp ích được gì cho bạn."
+  ],
+  "safetySummary": [
+    "Vị trí 50/50 phía sau có thể tạo áp lực xoay lên đầu gối - áp dụng heel hooks từ từ và cẩn thận.",
+    "Không quay heel hook từ phía sau 50/50 mà không kiểm soát rõ ràng hông của họ.",
+    "Thiết lập các giao thức chạm cho tất cả các đòn tấn công bằng chân trước khi tập luyện."
+  ],
+  "keyCorrections": [
+    "Nếu họ quay mặt về phía bạn, bạn sẽ mất kiểm soát hông - hãy thiết lập lại khả năng bám của bạn ở hông xa của họ.",
+    "Nếu bạn không thể tìm thấy gót chân, nghĩa là bạn đang ở quá thấp trên chân họ - hãy nhích lên về phía hông họ.",
+    "Nếu họ đá phạt, chân bạn vướng vào quá lỏng — hãy siết chặt khả năng kiểm soát 50/50 của bạn."
+  ],
+  "systemLogic": {
+    "corePrinciple": "Vào mặt sau 50/50 (phía sau hông, vị trí chân 50/50): điều khiển chân xa → tấn công heel hook hoặc chuyển tiếp.",
+    "decisionTree": [
+      {
+        "condition": "Sử dụng tùy chọn 1",
+        "action": "Họ quay mặt ra xa → heel hook kết thúc."
+      },
+      {
+        "condition": "Sử dụng tùy chọn 2",
+        "action": "Họ quay về phía bạn → chuyển sang saddle hoặc quay lại."
+      },
+      {
+        "condition": "Ứng dụng chung",
+        "action": "Mặt sau 50/50 là mục nhập; saddle và quay lại là điểm đến."
+      }
+    ]
+  },
+  "moneyDetails": [
+    "Vị trí của bạn phải cao trên đùi họ chứ không phải thấp trên bắp chân của họ - vị trí cao giúp bạn kiểm soát hông.",
+    "Kiểm soát chân xa của họ bằng cách giữ nó giữa hai chân của bạn hoặc dùng tay còn lại nắm lấy mắt cá chân của họ.",
+    "Giữ ngực của bạn gần hông họ - bạn càng gần, họ càng ít cử động.",
+    "Khi họ quay về phía bạn, hãy đi theo hông họ và nhập saddle hoặc lùi lại — đừng ở lại 50/50."
+  ],
+  "nextStep": "Sau 50/50 mặt sau, hãy tìm hiểu điều khiển saddle và heel hook kết thúc.",
+  "fixItFast": [
+    "Họ tiếp tục quay? Đi theo hông của họ và lấy lại.",
+    "Không thể tìm thấy gót chân? Leo cao hơn trên chân của họ.",
+    "Họ đá phạt? Tái lập mối ràng buộc 50/50 chặt chẽ hơn."
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "id": "straight-ankle-lock-safety",
+  "locale": "en",
+  "name": "Straight Ankle Lock Safety",
+  "description": "Learn the straight ankle lock through proper knee-line control, foot position, angle mechanics, and safe tap etiquette — it is the most common leg lock and requires respect for the knee and ankle.",
+  "shortInstruction": "Control the knee line, position the foot on your hip, lean back with hip extension — the straight ankle lock is safe with control, dangerous without it.",
+  "summary": "The straight ankle lock is the first leg lock most BJJ practitioners learn and the most common leg attack in no-gi. While it is considered the 'safest' leg lock, it still requires proper mechanics and respect. The key safety principles are: control the knee line (prevent them from turning their knee toward you), position their foot correctly against your hip, and use slow, controlled extension. The straight ankle lock attacks the ankle and can also put pressure on the knee if applied incorrectly.",
+  "whyItWorks": [
+    "It attacks the ankle joint with a simple hyper-extension/rotation mechanism.",
+    "Control of the knee line prevents them from escaping by rolling or turning their hip.",
+    "The position can be maintained even if the submission is not finished — you can hold and transition.",
+    "Danaher principle: the straight ankle lock is the safest leg lock to teach beginners because it has the clearest mechanics and tap signals."
+  ],
+  "commonMistakes": [
+    "Not controlling the opponent's knee — a free knee allows them to turn and escape.",
+    "Positioning their foot on the wrong part of your hip — the foot should be on your hip bone, not your stomach.",
+    "Applying the submission explosively — slow extension allows your partner to tap before injury.",
+    "Letting them grab their own leg to defend — strip their grip before finishing."
+  ],
+  "coachingCues": [
+    "Knee line control first — without it, the lock will fail.",
+    "Foot on the hip bone, not the stomach.",
+    "Lean back slowly — explosive ankle locks cause injuries.",
+    "If you feel the ankle pop, stop — you are past the tap point."
+  ],
+  "safetySummary": [
+    "NEVER apply the straight ankle lock explosively — slow, controlled pressure allows the partner to tap before injury.",
+    "The straight ankle lock can also put rotational pressure on the knee — be aware of this.",
+    "Tap on ANY ankle or knee discomfort — do not wait for pain.",
+    "Establish clear tap protocols before training leg locks."
+  ],
+  "keyCorrections": [
+    "If they escape by turning their knee, your knee-line control was insufficient — clamp their knee with your other leg.",
+    "If you can't finish, their foot is too low on your body — bring it up to your hip bone.",
+    "If they grab their own leg, strip the grip by pummeling your hand inside."
+  ],
+  "systemLogic": {
+    "corePrinciple": "Leg entanglement established → control their knee line → position their foot on your hip bone → lean backward → extension finishes.",
+    "decisionTree": [
+      {
+        "condition": "General application",
+        "action": "The straight ankle lock is the entry position for more advanced leg locks (heel hook, toe hold)."
+      },
+      {
+        "condition": "General application",
+        "action": "If defend, the straight ankle lock, transition to the heel hook or toe hold."
+      }
+    ]
+  },
+  "moneyDetails": [
+    "Control their knee by pinning it against your chest or trapping it with your other leg.",
+    "Position their foot against your hip bone (ASIS) — if it slides to your stomach, you lose leverage.",
+    "The finish comes from leaning backward while pulling their toes toward you — hip extension, not arm pull.",
+    "If they try to grab their leg, swim your hand inside and re-establish the grip."
+  ],
+  "nextStep": "After straight ankle lock safety, learn the heel hook safety and knee bar.",
+  "fixItFast": [
+    "They keep turning their knee? Trap it against your chest.",
+    "Foot keeps slipping? Re-position it on your hip bone.",
+    "Can't finish? Your body is too far from their foot — scoot closer."
+  ]
+}

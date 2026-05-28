@@ -1,0 +1,57 @@
+{
+  "id": "reverse-de-la-riva-guard",
+  "locale": "fr",
+  "title": "Garde De La Riva inversée",
+  "category": "bottom_guard",
+  "status": "defensive",
+  "description": "RDLR utilise un hook extérieur de cuisse et une rotation de hanche pour créer angle, balayer ou transiter.",
+  "topPlayerGoals": [
+    "Le joueur du dessus veut contrôler Garde De La Riva inversée avec la position de tête, la position intérieure et une pression orientée.",
+    "Neutraliser le hook, fixer la jambe et pousser la shoulder line.",
+    "Garder une base stable pour éviter d’être déséquilibré ou contré."
+  ],
+  "bottomPlayerGoals": [
+    "Le joueur du dessous veut survivre en Garde De La Riva inversée avec des cadres, du pummeling ou le bon angle.",
+    "Garder hook actif, tourner hanches dehors et choisir sweep, kimura ou prise de dos.",
+    "Reconnaître les signaux de danger tôt au lieu d’attendre que la position se stabilise."
+  ],
+  "controlPoints": [
+    "Point de contrôle principal : Hook extérieur, angle hanche et far wrist..",
+    "La tête, les mains, les hanches et les genoux doivent suivre la même direction de force.",
+    "La connexion coude-genou ou la ligne hanches-épaules détermine si la position reste vivante ou verrouillée."
+  ],
+  "escapePriorities": [
+    "Priorité de sortie : Ne pas les laisser tirer le far wrist à travers la hip line..",
+    "Protéger le cou, le dos, la ligne du genou ou la ligne du bras avant de contrer.",
+    "Si la position intérieure est perdue, rétablir d’abord une couche défensive."
+  ],
+  "advancementOptions": [
+    {
+      "action": "Passer en DLR ou entrer berimbolo",
+      "nextPositionId": "de-la-riva-guard",
+      "relatedSkillIds": [
+        "reverse-de-la-riva-transitions",
+        "single-leg-x-control",
+        "kimura-system"
+      ],
+      "why": "C’est la branche naturelle lorsque vous gagnez le point de contrôle principal et que l’adversaire est forcé de défendre."
+    }
+  ],
+  "dangerSignals": [
+    "Le menton ou le cou sort de la ligne sûre.",
+    "Le coude se sépare des côtes ou du genou.",
+    "La ligne des hanches est verrouillée pendant que la ligne des épaules est encore tirée.",
+    "Vous devez poser une main loin pour éviter de tomber."
+  ],
+  "relatedSkillIds": [
+    "reverse-de-la-riva-transitions",
+    "single-leg-x-control",
+    "kimura-system",
+    "guard-pulling-strategy"
+  ],
+  "relatedConceptIds": [
+    "hooks",
+    "angle-creation",
+    "hip-line-shoulder-line"
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "id": "guard-pulling-strategy",
+  "locale": "vi",
+  "name": "guard Chiến lược kéo",
+  "description": "Kéo guard với mục đích: nắm và tạo góc trước, sau đó ngồi, từ ống chân tới ống chân, K-guard hoặc kế hoạch vật lộn. Kéo guard là một mục tấn công sẽ dẫn trực tiếp đến một trong những hệ thống guard mạnh nhất của bạn.",
+  "shortInstruction": "Thiết lập kiểu cầm nắm (buộc cổ hoặc điều khiển cổ tay), tạo một góc khỏi đường giữa, ngồi lùi về một bên hông và nhập ngay guard (ngồi, ống chân tới ống chân, K-guard) đã chọn của bạn. Kéo guard mà không có kế hoạch là nhường vị trí.",
+  "summary": "guard kéo phải là một bước chuyển tiếp tấn công chứ không phải là một cuộc rút lui phòng thủ. Trình tự như sau: thiết lập tay cầm thuận → tạo góc bằng cách xoay tròn hoặc đập mạnh → kiểm soát khoảng cách bằng cách duy trì tay cầm → ngồi lại và kiểm soát → nhập thẳng vào hệ thống guard tốt nhất của bạn. Một cú kéo guard được thực hiện tốt sẽ mang lại điểm guard (không nằm ngửa) với tay cầm đã được thiết lập sẵn và đối thủ mất thăng bằng.",
+  "whyItWorks": [
+    "Việc giữ thế bám trước khi kéo đảm bảo bạn kiểm soát được khoảng cách — đối thủ không thể lùi lại hoặc vòng tới side control",
+    "Tạo góc (bước ra khỏi đường giữa) buộc đối thủ phải căn chỉnh lại, tạo cho bạn sơ hở để kéo mà không bị vượt qua",
+    "Kéo đến một hệ thống guard cụ thể (ngồi, cẳng chân, K-guard) thay vì hệ thống closed guard chung chung sẽ mang lại cho bạn một kế hoạch tấn công ngay lập tức",
+    "Một cú kéo có kiểm soát sẽ ngăn đối thủ ngay lập tức ghi được đường chuyền hoặc hạ gục khi bạn chạm bóng"
+  ],
+  "commonMistakes": [
+    "Kéo guard mà không cần cầm — đối phương có thể ngay lập tức rút lui hoặc vòng tới side control",
+    "Ngồi thẳng lưng (cả hai hông hạ xuống) thay vì ngồi nghiêng một bên hông - điều này giúp bạn tiếp đất bằng phẳng, tạo cơ hội cho họ vượt qua ngay lập tức",
+    "Kéo guard quá xa — nếu có khoảng cách 3 foot khi bạn ngồi, đối thủ có thể thảnh thơi và đặt lại",
+    "Quên duy trì tay cầm sau khi kéo — tay cầm là thứ giữ chúng trong guard của bạn và ngăn chúng đứng lên và đi qua"
+  ],
+  "coachingCues": [
+    "Nắm trước, kéo sau",
+    "Góc trước khi bạn ngồi",
+    "Đất bằng một bên hông, không bằng phẳng",
+    "Kéo đến guard, không kéo xuống sàn"
+  ],
+  "safetySummary": [
+    "Đừng ngồi xổm một cách mạnh mẽ nếu chân bạn bị kẹt giữa hai chân của đối phương - điều này có thể gây chấn thương mắt cá chân hoặc đầu gối",
+    "Khi kéo guard trong cuộc thi, hãy lưu ý các quy tắc đánh bóng — trong một số bộ quy tắc, đối thủ có thể nhấc và đánh bạn nếu bạn kéo guard mà không cần nắm",
+    "Thực hành guard kéo với một đối tác chống cự ở tốc độ được kiểm soát trước khi sử dụng nó trực tiếp — một cú kéo guard không tốt có thể khiến bạn rơi vào side control ngay lập tức"
+  ],
+  "keyCorrections": [
+    "Nếu bạn tiếp tục hạ cánh bằng lưng: bạn đang không ngồi bằng một bên hông. Tập trung vào việc ngồi ở hông bên ngoài trong khi vẫn giữ cho chân bên trong hoạt động",
+    "Nếu đối thủ vượt qua ngay sau khi bạn kéo: khoảng cách của bạn sai hoặc bạn bị mất độ bám. Kéo lại gần hơn và duy trì độ bám cho đến khi bạn thiết lập guard",
+    "Nếu đối thủ vòng ra trước khi bạn kéo: bạn chưa tạo đủ góc. Vòng ra xa khỏi đường trung tâm trước khi ngồi"
+  ],
+  "systemLogic": {
+    "corePrinciple": "guard kéo theo trình tự bốn bước: Nắm → Góc → Ngồi → Vào Hệ thống guard",
+    "decisionTree": [
+      {
+        "condition": "Ở Bước 1 (Cầm)",
+        "action": "thiết lập độ bám guard mạnh nhất của bạn trước khi kéo. Nếu kéo đến ống chân: buộc cổ + kiểm soát cổ tay. Nếu kéo đến K-guard: buộc cổ + tay nắm. Nếu kéo đến chỗ ngồi guard: kiểm soát cổ tay hai đối một hoặc buộc cổ áo"
+      },
+      {
+        "condition": "Ở Bước 2 (Góc)",
+        "action": "bước ra khỏi đường giữa một góc 30-45 độ. Nếu bạn lao thẳng vào họ, họ có thể lao về phía trước vào side control. Một góc buộc họ phải căn chỉnh lại hông, tạo ra cửa sổ vào"
+      },
+      {
+        "condition": "Ở Bước 3 (Ngồi)",
+        "action": "hạ hông xuống thảm bằng cách ngồi sát hông bên ngoài (không phải cả hai hông cùng một lúc). Giữ chân bên trong của bạn hoạt động (kết nối chân sau hoặc ống chân với ống chân) để ngăn chúng bước vào đường chuyền guard"
+      },
+      {
+        "condition": "Ở Bước 4 (Nhập hệ thống guard)",
+        "action": "ngay lập tức chuyển sang trạng thái guard tốt nhất của bạn từ vị trí tiếp đất. Nếu bạn kéo đến shin-to-shin: nhập single leg x hoặc X-guard. Nếu bạn kéo đến chỗ ngồi: nhập K-guard, DLR hoặc tay áo có cổ. Nếu bạn kéo đến closed guard: phá vỡ tư thế của họ ngay lập tức"
+      },
+      {
+        "condition": "guard hướng dẫn lựa chọn kéo",
+        "action": "dựa vào người qua đường đang đứng → ngồi guard. Chống lại người qua đường đang quỳ → shin-to-shin. Chống lại người vượt qua áp lực → K-guard hoặc bướm"
+      }
+    ]
+  },
+  "moneyDetails": [
+    "Một cú kéo guard tốt là nền tảng của toàn bộ trò chơi guard của bạn — nó quyết định xem bạn bắt đầu chuỗi guard ở vị trí mạnh hay yếu",
+    "Cạnh tranh guard kéo là một quyết định chiến lược — kéo guard để vào hệ thống tấn công tốt nhất của bạn thường tốt hơn là vật lộn để hạ gục",
+    "Việc thuần thục thao tác kéo guard cho phép bạn quyết định nơi trận đấu bắt đầu — bạn chọn hệ thống guard chứ không phải đối thủ"
+  ],
+  "fixItFast": [
+    "Nếu đối thủ đang lao tới bạn khi bạn cố gắng kéo: hãy dùng cà vạt buộc cổ lên đầu họ và vòng ra phía sau cuộc lao tới của họ trước khi kéo",
+    "Nếu bạn tiếp tục bị vượt qua trong quá trình kéo: bạn đang không kiểm soát được chân xa của họ. Giữ chân bạn trên hông xa của họ khi bạn ngồi để tránh bị cắt đầu gối",
+    "Nếu đối thủ rút lui sau khi bạn kéo: hãy dùng động tác vật lộn để đứng lên và giao chiến lại thay vì ngồi chờ"
+  ]
+}

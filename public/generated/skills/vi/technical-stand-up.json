@@ -1,0 +1,124 @@
+{
+  "id": "technical-stand-up",
+  "domain": "wrestle_up_wrestling",
+  "level": "beginner",
+  "status": "draft",
+  "name": "Hỗ trợ kỹ thuật",
+  "aliases": [],
+  "tags": [
+    "wrestling",
+    "base"
+  ],
+  "keywords": [
+    "technical stand-up",
+    "base",
+    "head position",
+    "hand fighting"
+  ],
+  "relatedSkills": [
+    {
+      "id": "hand-fighting",
+      "type": "recommended"
+    },
+    {
+      "id": "seated-guard-retention",
+      "type": "recommended"
+    },
+    {
+      "id": "guard-pulling-strategy",
+      "type": "recommended"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "inside-position"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [],
+  "version": 1,
+  "updatedAt": "2026-05-21T00:24:30.759Z",
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "vi",
+  "description": "Đứng lên một cách an toàn khi đang ngồi hoặc nằm ngửa guard mà không cần cho front headlock ăn. Kỹ thuật đứng lên là động tác nền tảng để chuyển sang đứng từ bất kỳ vị trí dưới cùng nào.",
+  "shortInstruction": "Đặt một tay lên thảm, đưa chân cùng bên vào tay đó, đẩy qua bàn chân và tay để đứng, đồng thời giữ tay kia giơ lên ​​trong khung phòng thủ. Đối mặt với đối thủ khi bạn đứng.",
+  "summary": "Kỹ thuật đứng lên là một động tác tuần tự từ ngồi hoặc nằm đến đứng: (1) đặt tay lên tấm thảm cạnh hông, (2) đưa chân cùng bên chạm vào tay bạn, (3) đưa tay và chân chống lên để nâng hông lên, (4) đặt chân kia xuống dưới khi bạn đứng lên, (5) thiết lập tư thế phòng thủ đối mặt với đối thủ. Việc đứng lên về mặt kỹ thuật là cần thiết để phục hồi guard, rùa thoát ra ngoài và đứng để vượt qua.",
+  "whyItWorks": [
+    "Đế ba chân (một tay, một đầu gối, một chân) mang lại sự ổn định trong suốt quá trình đứng lên",
+    "Đối mặt với đối thủ khi bạn đứng sẽ ngăn họ lùi lại hoặc tấn công bằng front headlock",
+    "Kỹ thuật đứng lên sử dụng các nhóm cơ mạnh nhất (mông, cơ tứ đầu, gân kheo) để nâng trọng lượng cơ thể của bạn",
+    "Bàn tay giơ lên ​​tạo khung phòng thủ chống lại các đòn hạ gục và tấn công"
+  ],
+  "commonMistakes": [
+    "Đặt cả hai tay phẳng và cố gắng đứng - điều này khiến không có cánh tay nào để bảo vệ cú đánh phía sau hoặc front headlock",
+    "Đứng quay lưng về phía đối thủ - điều này để lộ phần lưng để thực hiện cú đánh lưng dễ dàng nhất trong cuộc đời của họ",
+    "Đứng thẳng thay vì giữ tư thế vật lộn - tư thế cao rất dễ bị hạ gục",
+    "Đưa chân lên đầu gối thay vì tay - bàn chân phải chạm vào tay để tạo đòn bẩy thích hợp"
+  ],
+  "coachingCues": [
+    "Tay đặt trên thảm, chân chạm tay",
+    "Đối mặt với chúng khi bạn đứng",
+    "Một tay giơ lên, một tay xuống",
+    "Đứng trong tư thế, không cao"
+  ],
+  "safetySummary": [
+    "Không đăng bài với cánh tay khóa thẳng - giữ khuỷu tay hơi cong để tránh bị duỗi quá mức",
+    "Nếu đối thủ bắn khi bạn đang đứng, hãy sẵn sàng sprawl ngay lập tức",
+    "Thực hành kỹ thuật đứng lên từ từ trước khi sử dụng dưới áp lực - vội vàng dẫn đến mất thăng bằng"
+  ],
+  "systemLogic": {
+    "corePrinciple": "Kỹ thuật đứng lên là một chuyển động tuần tự từ ngồi/nằm sang đứng: Đứng → Chân → Nâng → Đế → Đứng → Tư thế. Đối mặt xuyên suốt với đối thủ sẽ tránh bị lộ lưng và front headlock mục.",
+    "decisionTree": [
+      {
+        "condition": "Đối thủ đang đứng cạnh bạn khi bạn đang ngồi hoặc nằm ngửa",
+        "action": "Thực hiện động tác đứng kỹ thuật: đặt tay lên tấm thảm cạnh hông, đưa chân cùng bên chạm vào tay bạn, đẩy qua cả hai để nâng hông lên, đưa chân còn lại xuống dưới và đứng đối mặt với họ."
+      },
+      {
+        "condition": "Đối thủ đẩy bạn xuống khi bạn bắt đầu đứng dậy",
+        "action": "Lái xe mạnh hơn qua chân trụ - không rơi trở lại thảm. Sức mạnh đến từ cơ mông và cơ tứ đầu, không phải từ cánh tay của bạn."
+      },
+      {
+        "condition": "Đối thủ cố gắng vượt qua khi bạn đứng",
+        "action": "Giữ bàn tay phòng thủ lên và tránh xa cuộc tấn công của họ. Bàn tay giơ lên ​​tạo khung chống lại việc gỡ xuống."
+      },
+      {
+        "condition": "Đối thủ bắn hạ gục khi bạn đứng",
+        "action": "sprawl ngay lập tức — bàn tay phòng thủ của bạn đã sẵn sàng để đăng lên lưng họ. Việc đứng vững về mặt kỹ thuật sẽ đặt bạn vào một vị thế sprawl vững chắc."
+      },
+      {
+        "condition": "Bạn liên tục ngã về phía sau trong khi đứng lên",
+        "action": "Bàn chân của bạn quá xa bàn tay của bạn - hãy đưa nó lại gần hơn (trong vòng 2 inch tính từ bàn tay đã đặt). Đế ba chân yêu cầu chân và tay phải gần nhau."
+      }
+    ],
+    "exitStrategies": [
+      "Nếu bạn không thể đứng dậy, nghĩa là trụ tay của bạn quá xa cơ thể - hãy đưa nó lại gần hông hơn.",
+      "Nếu họ lùi lại khi bạn đứng, nghĩa là bạn đã quay lưng lại với họ - đối mặt với họ trong toàn bộ quá trình đứng lên.",
+      "Nếu không thể đứng lên về mặt kỹ thuật (đối thủ đã ghim chân bạn), thay vào đó hãy sử dụng đế chiến đấu hoặc cuộn granby."
+    ]
+  },
+  "moneyDetails": [
+    "Kỹ thuật đứng lên là kỹ năng di chuyển quan trọng nhất trong BJJ — nó được sử dụng trong mọi guard hồi phục, rùa trốn thoát và đứng lên ghi điểm",
+    "Nắm vững kỹ thuật đứng lên sẽ ngăn ngừa tình trạng mất vị trí phổ biến nhất: bị lộ lưng do đứng sai",
+    "Kỹ thuật đứng lên là nền tảng của tất cả các hệ thống đấu vật"
+  ],
+  "fixItFast": [
+    "Nếu ngã về phía sau: đưa chân lại gần tay trước khi nhấc lên",
+    "Nếu họ đẩy bạn lùi xuống: hãy đạp mạnh hơn bằng chân, đừng thả mình xuống thảm",
+    "Nếu họ cố vượt qua khi bạn đang đứng: hãy giơ tay phòng thủ lên và vòng ra khỏi đòn tấn công của họ"
+  ]
+}

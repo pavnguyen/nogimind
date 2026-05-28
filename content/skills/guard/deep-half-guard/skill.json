@@ -1,0 +1,53 @@
+{
+  "id": "deep-half-guard",
+  "domain": "guard_offense",
+  "level": "intermediate",
+  "name": "Deep Half Guard",
+  "aliases": [],
+  "tags": [
+    "deep-half",
+    "half-guard",
+    "sweep",
+    "underhook"
+  ],
+  "keywords": [
+    "deep half",
+    "waiter sweep",
+    "Homers sweep",
+    "back door",
+    "underhook",
+    "coyote half guard"
+  ],
+  "relatedSkills": [
+    {
+      "id": "half-butterfly-to-leg-entanglements",
+      "type": "recommended"
+    },
+    {
+      "id": "bear-trap-ham-sandwich",
+      "type": "recommended"
+    },
+    {
+      "id": "half-guard-wrestle-up",
+      "type": "recommended"
+    }
+  ],
+  "prerequisiteSkillIds": [
+    "half-guard-knee-shield",
+    "supine-guard-retention"
+  ],
+  "relatedPositions": [],
+  "relatedConcepts": [],
+  "archetypeIds": [],
+  "trainingMethodIds": [],
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "updatedAt": "2026-05-21T00:24:30.763Z"
+}

@@ -1,0 +1,61 @@
+{
+  "id": "aoki-lock",
+  "locale": "en",
+  "name": "Aoki Lock",
+  "description": "A kneebar from 50/50 or leg entanglement that uses a special figure-four grip and hip rotation to finish quickly without requiring full saddle control.",
+  "shortInstruction": "Figure-four grip on the leg, rotate your hips toward their hip, extend the leg — the Aoki lock is a fast kneebar from 50/50.",
+  "summary": "The Aoki lock (named after Shinya Aoki) is a kneebar variation from 50/50 guard that uses a unique grip: instead of controlling the leg with both hands in standard kneebar fashion, you lock a figure-four grip around their thigh. This grip gives you exceptional control of their hip rotation while your hip movement applies the hyper-extension on their knee. The Aoki lock is effective because it finishes quickly and doesn't require the full saddle or ashi garami position.",
+  "whyItWorks": [
+    "The figure-four grip around their thigh prevents them from rotating their hip out of the kneebar.",
+    "It finishes from 50/50, a position where heel hooks are the primary threat — the Aoki lock catches opponents focused on heel defense.",
+    "The finish comes from hip rotation rather than pulling the leg — making it mechanically efficient.",
+    "Danaher principle: control the hip to control the knee — the figure-four grip is hip control."
+  ],
+  "commonMistakes": [
+    "Not locking the figure-four grip deep enough on the thigh — a shallow grip lets them slip out.",
+    "Pulling the leg straight back instead of rotating the hips — the Aoki lock is a rotational kneebar.",
+    "Letting the opponent sit back and pull their heel free — maintain forward pressure.",
+    "Releasing the grip when they start to escape — the figure-four must stay tight throughout."
+  ],
+  "coachingCues": [
+    "Figure-four deep on the thigh, not the calf.",
+    "Rotate your hips, don't pull the leg.",
+    "50/50 to Aoki lock — one movement, no pause.",
+    "Feel the hip rotation — that's the finish mechanism."
+  ],
+  "safetySummary": [
+    "The Aoki lock hyper-extends the knee — apply pressure slowly and respect the tap.",
+    "Be aware that the figure-four grip can also put pressure on your own knee if you twist too aggressively.",
+    "Not recommended for beginners — requires kneebar mechanics understanding."
+  ],
+  "keyCorrections": [
+    "If they pull their leg free, your figure-four was too shallow — re-lock higher on the thigh.",
+    "If you can't finish, your hip angle is wrong — rotate your hips toward them, not away.",
+    "If they stack you, release the grip and reset — don't fight the stack."
+  ],
+  "systemLogic": {
+    "corePrinciple": "50/50 or leg entanglement: figure-four grip on their thigh → rotate hips toward their hip → extend their leg → finish.",
+    "decisionTree": [
+      {
+        "condition": "General application",
+        "action": "The Aoki lock works as a chain from the heel hook threat: bait the heel defense, switch to Aoki."
+      },
+      {
+        "condition": "they defend the Aoki by turning their hip",
+        "action": "switch to the heel hook."
+      }
+    ]
+  },
+  "moneyDetails": [
+    "Lock the figure-four high on their thigh — as close to their hip as possible for maximum control.",
+    "Your grip should be: one hand grabs your own wrist, the other grabs their ankle — this creates the figure-four.",
+    "Rotate your hips toward their hip, not toward their foot — hip rotation creates the hyper-extension.",
+    "Keep their foot pinned to your hip as you rotate — this prevents them from kicking free."
+  ],
+  "nextStep": "After the Aoki lock, learn the standard kneebar and the heel hook from 50/50.",
+  "fixItFast": [
+    "Figure-four keeps slipping? Lock it higher on the thigh, closer to the hip.",
+    "Can't finish? Your hips aren't rotating enough — focus on bringing your hip toward their hip.",
+    "They sit back? Drive forward into them — don't let them create distance."
+  ]
+}

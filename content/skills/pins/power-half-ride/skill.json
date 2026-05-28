@@ -1,0 +1,66 @@
+{
+  "id": "power-half-ride",
+  "domain": "pins_rides",
+  "level": "intermediate",
+  "name": "Power Half Ride",
+  "aliases": [
+    "power half",
+    "power half nelson ride"
+  ],
+  "tags": [
+    "ride",
+    "power-half",
+    "shoulder-control",
+    "tier:modern-expansion",
+    "meta:modern-common",
+    "risk:medium",
+    "family:ride",
+    "group:power-half",
+    "modern-no-gi"
+  ],
+  "keywords": [
+    "power half",
+    "far arm control",
+    "shoulder pressure",
+    "flatten opponent"
+  ],
+  "modernSystemGroup": "power_half_ride",
+  "relatedSkills": [
+    {
+      "id": "turtle-ride",
+      "type": "recommended"
+    },
+    {
+      "id": "spiral-ride",
+      "type": "recommended"
+    },
+    {
+      "id": "cross-wrist-ride",
+      "type": "recommended"
+    },
+    {
+      "id": "back-control",
+      "type": "recommended"
+    }
+  ],
+  "prerequisiteSkillIds": [
+    "turtle-ride",
+    "positional-hierarchy"
+  ],
+  "relatedPositions": [],
+  "relatedConcepts": [],
+  "archetypeIds": [
+    "pressure-passer"
+  ],
+  "trainingMethodIds": [],
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "updatedAt": "2026-06-12T00:00:00.000Z"
+}

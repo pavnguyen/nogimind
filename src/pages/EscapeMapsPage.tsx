@@ -51,23 +51,27 @@ export default function EscapeMapsPage() {
   return (
     <PageShell
       header={
-        <div className="space-y-4">
-          <div className="flex items-center gap-3">
-            <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-gradient-to-br from-cyan-500 to-teal-500 shadow-lg">
-              <ArrowRightFromLine className="h-5 w-5 text-slate-950" aria-hidden="true" />
+        <div className="relative overflow-hidden rounded-3xl border border-white/[0.06] bg-slate-900/30 p-6 hero-blob-fix">
+          <div className="pointer-events-none absolute -right-16 -top-16 h-48 w-48 rounded-full bg-cyan-400/5 blur-[80px]" />
+          <div className="relative z-10 space-y-4">
+            <div className="flex items-center gap-4">
+              <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-gradient-to-br from-cyan-500 to-teal-500 shadow-lg shadow-cyan-500/20">
+                <ArrowRightFromLine className="h-6 w-6 text-slate-950" aria-hidden="true" />
+              </div>
+              <div>
+                <Badge tone="cyan" className="text-[10px] uppercase tracking-widest">{t('nav.fix')}</Badge>
+                <h1 className="mt-1 display-heading text-2xl font-extrabold text-white lg:text-3xl">{t('escapeMaps.heading')}</h1>
+                <p className="mt-1 text-sm text-slate-400">{t('escapeMaps.whatFor')}</p>
+              </div>
             </div>
-            <div>
-              <h1 className="text-2xl font-semibold tracking-tight text-white">{t('escapeMaps.heading')}</h1>
-              <p className="text-sm text-slate-400">{t('escapeMaps.whatFor')}</p>
-            </div>
-          </div>
 
           <div className="grid gap-3 lg:grid-cols-[1fr_260px]">
-        <input value={query} onChange={(event) => setParam('q', event.target.value)} placeholder={t('escapeMaps.search')} className="rounded-md border border-white/10 bg-slate-900 px-3 py-2 text-sm text-white outline-none focus:border-cyan-300" />
-        <select value={category} onChange={(event) => setParam('category', event.target.value)} className="rounded-md border border-white/10 bg-slate-900 px-3 py-2 text-sm text-white outline-none focus:border-cyan-300">
+        <input value={query} onChange={(event) => setParam('q', event.target.value)} placeholder={t('escapeMaps.search')} className="rounded-md border border-white/10 bg-slate-900 px-3 py-2 text-sm text-white outline-none search-focus-ring" />
+        <select value={category} onChange={(event) => setParam('category', event.target.value)} className="rounded-md border border-white/10 bg-slate-900 px-3 py-2 text-sm text-white outline-none search-focus-ring">
           <option value="">{t('common.all')}</option>
           {categories.map((item) => <option key={item} value={item}>{t(`escapeMaps.categories.${item}`)}</option>)}
         </select>
+      </div>
       </div>
     </div>
   }

@@ -1,0 +1,126 @@
+{
+  "id": "body-lock-takedown",
+  "domain": "wrestle_up_wrestling",
+  "level": "intermediate",
+  "status": "draft",
+  "name": "Démontage du verrou corporel / mat returns",
+  "aliases": [],
+  "tags": [
+    "body-lock",
+    "takedown",
+    "mat-return",
+    "double-leg",
+    "wrestling"
+  ],
+  "keywords": [
+    "body lock",
+    "mat return",
+    "takedown",
+    "clinche",
+    "hip drive",
+    "chest control"
+  ],
+  "relatedSkills": [
+    {
+      "id": "single-leg-bjj",
+      "type": "recommended"
+    },
+    {
+      "id": "snapdown-front-headlock",
+      "type": "recommended"
+    },
+    {
+      "id": "turtle-ride",
+      "type": "recommended"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "hand-fighting",
+    "sprawl-go-behind"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [
+    "S'ils continuent à échapper au verrou : vos coudes sont trop larges – pincez-les ensemble pour coincer les bras.",
+    "Si vous ne pouvez pas soulever : utilisez plutôt un voyage : accrochez leur jambe de tête avec votre pied et faites-les reculer.",
+    "Si vous atterrissez dans leur guard : votre tête était trop haute – gardez votre tête sur leur poitrine, pas sur leur ventre."
+  ],
+  "version": 1,
+  "updatedAt": "2026-05-21T00:24:30.769Z",
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "fr",
+  "description": "Verrouillez les bras autour du torse depuis le corps à corps ou la tortue, traversez les hanches et ramenez l'adversaire sur le tapis. Le verrouillage corporel est le retrait le plus contrôlé en grappling – il empêche l’adversaire de s’échapper et vous place dans une position dominante.",
+  "shortInstruction": "Verrouillez les mains derrière leur dos au niveau des hanches, placez-vous entre leurs jambes, serrez vos coudes l'un contre l'autre et poussez-les vers le tapis. Atterrissez à side control ou mount.",
+  "summary": "Le body lock est la position de retrait la plus dominante dans No-Gi car elle élimine la capacité de l'adversaire à poster ou à baser - les deux bras sont coincés entre votre corps et le sien. Depuis le verrouillage du corps, vous pouvez soulever, trébucher ou conduire l'adversaire vers le tapis tout en conservant un contrôle total du haut du corps. Le body lock est également le principal outil mat return lorsque l'adversaire se tient devant la tortue ou half guard.",
+  "whyItWorks": [
+    "Verrouiller vos mains derrière le dos piège leurs deux bras – ils ne peuvent pas poster, encadrer ou baser pour amortir la chute.",
+    "Le système de verrouillage corporel transfère tout le poids de votre corps lors du retrait : vous conduisez avec vos jambes et vos hanches, pas avec vos bras.",
+    "La finition du body lock vous place dans une position dominante (side control ou mount) – pas dans leur guard",
+    "Le body lock est protégé contre les guillotine : votre tête est sur leur poitrine, pas sur leur hanche."
+  ],
+  "commonMistakes": [
+    "Verrouillage des mains trop haut (au niveau des omoplates) — le verrouillage doit être au niveau des hanches pour un avantage mécanique",
+    "Garder les coudes écartés - les coudes pincés emprisonnent les bras de l'adversaire et l'empêchent de poster",
+    "Se pencher au niveau de la taille au lieu de passer par les jambes - le retrait vient de l'extension de la hanche et non du haut du corps",
+    "Relâcher le verrou pendant le retrait - maintenir la prise jusqu'à ce que l'adversaire soit complètement sur le tapis"
+  ],
+  "coachingCues": [
+    "Verrouillage à la hanche, pas aux épaules",
+    "Pincez les coudes, coincez les bras",
+    "Traversez les jambes, pas le dos",
+    "Tenez le verrou jusqu'à ce qu'ils atterrissent"
+  ],
+  "safetySummary": [
+    "Le retrait du body lock est de grande amplitude : contrôlez la descente pour empêcher l'adversaire d'atterrir sur la tête ou le cou.",
+    "Ne soulevez pas l'adversaire si vous n'avez pas la force des hanches - utilisez un voyage ou une conduite au lieu d'un ascenseur.",
+    "Soyez conscient des différences de poids : le fait de bloquer un adversaire beaucoup plus lourd peut vous mettre dans une position vulnérable."
+  ],
+  "systemLogic": {
+    "corePrinciple": "Le body lock a trois options de finition : Lift → Trip → Drive, en fonction du poids et de la base de l'adversaire.",
+    "decisionTree": [
+      {
+        "condition": "Utilisation de Finish 1 (Lift)",
+        "action": "accroupissez-vous sous leurs hanches, étendez vos jambes et soulevez-les du tapis. Cela fonctionne mieux contre des adversaires plus légers ou lorsqu'ils sont déséquilibrés."
+      },
+      {
+        "condition": "Utilisation de Finish 2 (Voyage)",
+        "action": "accrochez votre pied derrière leur cheville principale et faites-les reculer. Le voyage fonctionne contre des adversaires plus lourds ou lorsque vous ne pouvez pas vous enfoncer assez profondément pour le levage."
+      },
+      {
+        "condition": "Utilisation de Finish 3 (Drive)",
+        "action": "avancez simplement avec vos jambes, en utilisant le verrou corporel pour les diriger vers le tapis. Cela fonctionne quand ils reculent déjà"
+      },
+      {
+        "condition": "Application générale",
+        "action": "Position d'atterrissage : essayez d'atterrir en side control (poitrine contre poitrine, tête de l'autre côté). S'ils atterrissent sur le dos, glissez immédiatement vers side control."
+      }
+    ],
+    "exitStrategies": []
+  },
+  "moneyDetails": [
+    "Le retrait du verrou corporel est le retrait le plus dominant de No-Gi : il vous amène à side control, pas à leur guard.",
+    "Maîtriser le verrouillage du corps vous donne un mat return fiable depuis la tortue, half guard et les positions debout",
+    "Le body lock est un élément essentiel de tous les grapplings No-Gi de haut niveau (Gordon Ryan, Nicky Rod, etc.)"
+  ],
+  "fixItFast": [
+    "Si vous ne pouvez pas verrouiller les mains : elles sont trop hautes – abaissez-les d'abord, puis verrouillez-les.",
+    "S'ils sprawl sur le verrou : passez à une seule jambe – la position de verrouillage du corps passe facilement à la jambe",
+    "S'ils écartent les bras : pincez à nouveau les coudes et serrez plus fort le verrou."
+  ]
+}

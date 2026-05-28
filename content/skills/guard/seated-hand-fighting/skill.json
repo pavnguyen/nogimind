@@ -1,0 +1,54 @@
+{
+  "id": "seated-hand-fighting",
+  "domain": "guard_retention",
+  "level": "beginner",
+  "name": "Seated Guard Hand-Fighting",
+  "aliases": [],
+  "tags": [
+    "seated-guard",
+    "hand-fighting",
+    "collar-tie",
+    "pummel",
+    "guard-retention"
+  ],
+  "keywords": [
+    "seated guard",
+    "hand fighting",
+    "collar tie",
+    "inside position",
+    "pummel",
+    "grip breaking"
+  ],
+  "relatedSkills": [
+    {
+      "id": "seated-guard-retention",
+      "type": "recommended"
+    },
+    {
+      "id": "butterfly-guard-off-balance",
+      "type": "recommended"
+    },
+    {
+      "id": "wrestling-up-from-guard",
+      "type": "recommended"
+    }
+  ],
+  "prerequisiteSkillIds": [
+    "supine-guard-retention",
+    "hand-fighting"
+  ],
+  "relatedPositions": [],
+  "relatedConcepts": [],
+  "archetypeIds": [],
+  "trainingMethodIds": [],
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "updatedAt": "2026-05-21T00:24:30.769Z"
+}

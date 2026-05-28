@@ -1,0 +1,128 @@
+{
+  "id": "x-guard-control",
+  "domain": "guard_offense",
+  "level": "intermediate",
+  "status": "draft",
+  "name": "X-guard Kiểm soát",
+  "aliases": [],
+  "tags": [
+    "x-guard",
+    "guard",
+    "sweep",
+    "off-balance",
+    "tier:modern-expansion",
+    "meta:modern-common",
+    "risk:medium",
+    "family:guard",
+    "group:x-guard",
+    "modern-no-gi"
+  ],
+  "keywords": [
+    "x-guard",
+    "foot on hip",
+    "off-balance",
+    "leg wrap"
+  ],
+  "modernSystemGroup": "x_guard",
+  "relatedSkills": [
+    {
+      "id": "single-leg-x-control",
+      "type": "recommended"
+    },
+    {
+      "id": "k-guard-matrix",
+      "type": "recommended"
+    },
+    {
+      "id": "guard-pulling-strategy",
+      "type": "recommended"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "supine-guard-retention",
+    "seated-guard-retention"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [
+    "Nếu bạn không thể quét được họ thì hông của bạn chưa đủ sâu - hãy nhích lại gần hơn để hông của bạn ở dưới hông của họ.",
+    "Nếu họ bước ra ngoài, bàn chân ở hông xa của bạn sẽ mất kết nối - hãy thiết lập lại trụ hông ngay lập tức.",
+    "Nếu họ tóm lấy đầu bạn, bạn sẽ thua trong cuộc chiến tay - hãy bơi tay vào trong và đánh."
+  ],
+  "version": 1,
+  "updatedAt": "2026-05-21T00:24:30.782Z",
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "vi",
+  "description": "Sử dụng X-guard (cả hai chân điều khiển một chân từ bên dưới) để làm mất thăng bằng và quét đối phương lên vị trí trên cùng.",
+  "shortInstruction": "Cả hai chân trên một chân, chân đặt trên hông, mất thăng bằng và quét — X-guard là vua của các pha quét.",
+  "summary": "X-guard là vị trí càn quét mạnh mẽ nhất trong No-Gi. Cả hai chân của bạn đều điều khiển chân gần của chúng (một chân móc sau đầu gối, một chân trên hông), trong khi bạn ngồi dưới trọng tâm của chúng. Từ đây, bạn có thế 2 chọi 1 trên chân họ và kiểm soát căn cứ của họ. Bất kỳ sự thay đổi trọng lượng nào họ thực hiện đều có thể bị lợi dụng để quét. X-guard là đích của quá trình chuyển đổi DLR-to-X và SLX-to-X.",
+  "whyItWorks": [
+    "Hai chân trên một chân mang lại cho bạn lợi thế cơ học vượt trội - chúng không thể kéo tự do một cách đơn giản.",
+    "Vị trí của bạn ở dưới trọng tâm của họ có nghĩa là họ không có căn cứ trực tiếp phía trên bạn - họ luôn mất cân bằng.",
+    "Bàn chân ở hông xa điều khiển chuyển động quay của chúng và ngăn chúng bước đi.",
+    "Nguyên tắc Danaher: X-guard là 'quét chắc chắn' — vị trí chiếm ưu thế đến mức việc quét gần như là không thể tránh khỏi."
+  ],
+  "commonMistakes": [
+    "Để cả hai chân thả về cùng một bên chân - một chân phải móc ra sau, một chân đặt trên hông.",
+    "Ngồi quá xa cơ sở của họ - hông của bạn phải ở ngay dưới hông của họ.",
+    "Thực hiện cú quét mà không kiểm soát được cánh tay xa của mình - họ sẽ đăng bài và phục hồi.",
+    "Ở trong X-guard quá lâu — đó là một vị trí chuyển tiếp; quét hoặc chuyển tiếp ngay lập tức."
+  ],
+  "coachingCues": [
+    "Một phía sau, một phía trên — đó là X-guard.",
+    "Hông dưới hông, quét chắc chắn.",
+    "Nếu họ đăng, bạn quét - nếu không, họ sẽ rớt.",
+    "X-guard là khoảnh khắc chứ không phải là nhà."
+  ],
+  "safetySummary": [
+    "Giữ đầu của bạn khỏi thảm để tránh guillotine quầy khi bạn quét.",
+    "Đừng để chúng xếp chồng bạn bằng cách lái xe về phía trước — nếu chúng xếp chồng lên nhau, hãy nhả X-guard và đặt lại.",
+    "Khi bạn quét và lên trên, hãy bảo vệ đầu của bạn khỏi chạm vào thảm."
+  ],
+  "systemLogic": {
+    "corePrinciple": "Nhập X-guard (một chân sau đầu gối, một chân ở xa hông) → hông dưới hông → mất thăng bằng → quét hoặc chuyển tiếp.",
+    "decisionTree": [
+      {
+        "condition": "Phương án 1: Họ chống lại cuộc càn quét",
+        "action": "tiếp tục kéo cho đến khi họ đăng → quét theo hướng ngược lại."
+      },
+      {
+        "condition": "Phương án 2: Họ lùi lại",
+        "action": "kéo dài tới SLX hoặc vướng vào chân."
+      },
+      {
+        "condition": "Lựa chọn 3: Họ ngồi lại",
+        "action": "nhập 50/50 hoặc saddle."
+      }
+    ],
+    "exitStrategies": []
+  },
+  "moneyDetails": [
+    "Cú móc sau đầu gối của bạn phải sâu - bàn chân phải móc vào đùi trong của chúng, không chỉ sau đầu gối.",
+    "Bàn chân ở hông xa của họ phải đặt trên xương hông, chủ động ấn vào để kiểm soát khoảng cách của họ.",
+    "Nắm lấy mắt cá chân hoặc tay áo ở xa của họ bằng tay cùng phía của bạn để ngăn họ lùi lại.",
+    "Động tác quét X-guard hoạt động bằng cách kéo chân móc của chúng về phía ngực của bạn trong khi đẩy bằng chân hông — một chuyển động cắt kéo."
+  ],
+  "nextStep": "Sau điều khiển X-guard, hãy tìm hiểu quá trình chuyển đổi X-guard sang SLX và các biến thể quét X-guard.",
+  "fixItFast": [
+    "Không thể quét? Hông của bạn không ở dưới hông của họ - hãy nhích lại gần hơn.",
+    "Họ bước ra ngoài? Bàn chân hông của bạn cần áp lực tích cực hơn - hãy cắm nó vào xương hông.",
+    "Họ xếp chồng bạn? Thả X-guard ra và ngã ngửa ra — đừng chống cự lại chồng."
+  ]
+}

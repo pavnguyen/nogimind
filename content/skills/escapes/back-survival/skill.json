@@ -1,0 +1,49 @@
+{
+  "id": "back-survival",
+  "domain": "survival_defense",
+  "level": "beginner",
+  "name": "Back Survival",
+  "aliases": [],
+  "tags": [
+    "survival",
+    "back"
+  ],
+  "keywords": [
+    "back control",
+    "hand fighting",
+    "seatbelt",
+    "shoulder line"
+  ],
+  "relatedSkills": [
+    {
+      "id": "back-escape",
+      "type": "recommended"
+    },
+    {
+      "id": "back-control",
+      "type": "recommended"
+    },
+    {
+      "id": "rear-naked-choke-system",
+      "type": "recommended"
+    }
+  ],
+  "prerequisiteSkillIds": [
+    "positional-hierarchy"
+  ],
+  "relatedPositions": [],
+  "relatedConcepts": [],
+  "archetypeIds": [],
+  "trainingMethodIds": [],
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": true,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "contentRefs": {
+    "videos": "videos.json",
+    "qualityChecklist": "qualityChecklist"
+  },
+  "updatedAt": "2026-05-21T00:24:30.750Z"
+}

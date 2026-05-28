@@ -1,0 +1,61 @@
+{
+  "id": "shoulder-crunch-control",
+  "locale": "en",
+  "name": "Shoulder Crunch Control",
+  "description": "Lock the opponent's shoulder and head together using the shoulder crunch position to set up sweeps, triangles, armbars, and leg lock entries.",
+  "shortInstruction": "Pull their head to their shoulder, lock the crunch, attack the exposed side.",
+  "summary": "The shoulder crunch is one of the highest-control positions in no-gi guard work. By pulling the opponent's head down toward their same-side shoulder (creating a 'crunch' on their neck and shoulder), you limit their movement on that side and expose their far arm, their back, and their legs. The shoulder crunch is not a submission itself — it is a control position that makes every attack from guard easier.",
+  "whyItWorks": [
+    "Pulling their head to their shoulder traps their arm and neck on the same side, limiting their defensive options.",
+    "The crunch creates a structural weakness — they cannot posture, frame, or base on the crunched side.",
+    "It opens multiple attack lines: triangle (over the crunched arm), sweep (to the open side), or leg lock entry.",
+    "Danaher/John Danaher principle: a compromised upper body makes the lower body vulnerable."
+  ],
+  "commonMistakes": [
+    "Letting them posture out of the crunch — the crunch requires constant tension.",
+    "Pulling their head straight down instead of to the side — the crunch is about the angle, not the depth.",
+    "Releasing the crunch to chase a submission — maintain the crunch, and the submission comes to you.",
+    "Forgetting to control their free arm — they will use it to post and escape."
+  ],
+  "coachingCues": [
+    "Head to shoulder, lock the angle.",
+    "The crunch is the cage — the submission is the reward.",
+    "Control the free arm, own the position.",
+    "If they fight the crunch, they open the triangle."
+  ],
+  "safetySummary": [
+    "Do not crank the opponent's neck — the shoulder crunch applies pressure to the shoulder girdle, not the cervical spine.",
+    "Release the crunch immediately if your partner taps — neck and shoulder injuries are serious.",
+    "Be careful when training with partners who have pre-existing neck or shoulder issues."
+  ],
+  "keyCorrections": [
+    "If they posture out, you lost the angle — pull their head back down to their shoulder, not to your chest.",
+    "If they square back up, the crunch is too loose — tighten your grip and pull their elbow across their body.",
+    "If they attack your legs while you're in the crunch, your legs are too exposed — keep your knees between you and them."
+  ],
+  "systemLogic": {
+    "corePrinciple": "Secure the shoulder crunch (head to their shoulder) → control their free arm → attack based on their reaction.",
+    "decisionTree": [
+      {
+        "condition": "Option 1: They posture",
+        "action": "triangle choke. Option 2: They turn away → sweep or back take."
+      },
+      {
+        "condition": "Option 3: They reach back",
+        "action": "armbar on the free arm. Option 4: They stand → leg lock entry."
+      }
+    ]
+  },
+  "moneyDetails": [
+    "Pull their head to their shoulder, not to your chest — the angle of the crunch is what immobilizes them.",
+    "Use your same-side hand to grab their triceps or sleeve on the free arm — this prevents them from posting.",
+    "Keep your legs active: one leg on their hip, the other ready to attack the triangle or sweep.",
+    "The shoulder crunch is most effective from butterfly guard or half guard — positions where you are already close to their upper body."
+  ],
+  "nextStep": "After shoulder crunch control, learn the triangle from shoulder crunch and the sweep combinations.",
+  "fixItFast": [
+    "They keep posturing? Pull harder to the side, not down — the lateral pull is harder to resist.",
+    "They trap your leg? Your legs are too wide — keep your knees together close to their body.",
+    "They grab your free hand? Switch to a collar tie or head control instead."
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "id": "x-guard-position",
+  "locale": "fr",
+  "title": "X-Guard",
+  "category": "bottom_guard",
+  "status": "neutral",
+  "description": "X-guard utilise le pied sur la hanche et le wrap de jambe pour déséquilibrer et balayer, contrôlant la hip line du passeur.",
+  "topPlayerGoals": [
+    "Le joueur du dessus veut contrôler X-Guard avec la position de tête, la position intérieure et une pression orientée.",
+    "Enlever le pied de la hanche, snapper la tête et casser la base.",
+    "Garder une base stable pour éviter d’être déséquilibré ou contré."
+  ],
+  "bottomPlayerGoals": [
+    "Le joueur du dessous veut survivre en X-Guard avec des cadres, du pummeling ou le bon angle.",
+    "Pied sur hanche contrôle distance, cheville tirée centerline, choisir sweep ou entrée jambe.",
+    "Reconnaître les signaux de danger tôt au lieu d’attendre que la position se stabilise."
+  ],
+  "controlPoints": [
+    "Point de contrôle principal : Pied sur hanche, contrôle cheville et levée hanche..",
+    "La tête, les mains, les hanches et les genoux doivent suivre la même direction de force.",
+    "La connexion coude-genou ou la ligne hanches-épaules détermine si la position reste vivante ou verrouillée."
+  ],
+  "escapePriorities": [
+    "Priorité de sortie : Ramener le genou à centerline avant le sweep..",
+    "Protéger le cou, le dos, la ligne du genou ou la ligne du bras avant de contrer.",
+    "Si la position intérieure est perdue, rétablir d’abord une couche défensive."
+  ],
+  "advancementOptions": [
+    {
+      "action": "Passer en SLX ou balayer vers top",
+      "nextPositionId": "single-leg-x",
+      "relatedSkillIds": [
+        "x-guard-control",
+        "single-leg-x-control",
+        "k-guard-matrix"
+      ],
+      "why": "C’est la branche naturelle lorsque vous gagnez le point de contrôle principal et que l’adversaire est forcé de défendre."
+    }
+  ],
+  "dangerSignals": [
+    "Le menton ou le cou sort de la ligne sûre.",
+    "Le coude se sépare des côtes ou du genou.",
+    "La ligne des hanches est verrouillée pendant que la ligne des épaules est encore tirée.",
+    "Vous devez poser une main loin pour éviter de tomber."
+  ],
+  "relatedSkillIds": [
+    "x-guard-control",
+    "single-leg-x-control",
+    "k-guard-matrix"
+  ],
+  "relatedConceptIds": [
+    "hooks",
+    "levers",
+    "base-balance"
+  ]
+}

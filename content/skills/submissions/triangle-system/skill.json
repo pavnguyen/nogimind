@@ -1,0 +1,51 @@
+{
+  "id": "triangle-system",
+  "domain": "submission_systems",
+  "level": "advanced",
+  "name": "Triangle System",
+  "aliases": [],
+  "tags": [
+    "choke",
+    "triangle",
+    "neck-safety"
+  ],
+  "keywords": [
+    "triangle",
+    "posture control",
+    "angle before squeeze",
+    "neck safety"
+  ],
+  "relatedSkills": [
+    {
+      "id": "armbar-system",
+      "type": "recommended"
+    },
+    {
+      "id": "omoplata-system",
+      "type": "recommended"
+    },
+    {
+      "id": "shoulder-crunch-control",
+      "type": "recommended"
+    }
+  ],
+  "prerequisiteSkillIds": [
+    "clamp-guard-control",
+    "guard-pulling-strategy"
+  ],
+  "relatedPositions": [],
+  "relatedConcepts": [],
+  "archetypeIds": [],
+  "trainingMethodIds": [],
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": true,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "contentRefs": {
+    "videos": "videos.json",
+    "qualityChecklist": "qualityChecklist"
+  },
+  "updatedAt": "2026-05-21T00:24:30.744Z"
+}

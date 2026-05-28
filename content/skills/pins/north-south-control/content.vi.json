@@ -1,0 +1,71 @@
+{
+  "id": "north-south-control",
+  "locale": "vi",
+  "name": "Kiểm soát Bắc Nam",
+  "description": "Sử dụng áp lực từ vai, ngực vào ngực và điều khiển cánh tay từ bắc nam để bóp nghẹt hoặc chuyển tiếp. north-south là một chốt được đánh giá thấp nhằm nén đường vai của đối thủ và thiết lập các mục gửi duy nhất.",
+  "shortInstruction": "Đặt đầu của bạn vào xương ức của họ, ép khuỷu tay của bạn vào vai họ và dồn trọng lượng của bạn vào ngực họ. Tìm kiếm hiện tượng ngắt quãng north-south hoặc chuyển sang side control.",
+  "summary": "Điều khiển north-south sử dụng sự căn chỉnh của cơ thể dọc theo đường giữa của đối phương để nén đường vai của họ và hạn chế chuyển động. Các điểm áp lực chính là: đầu của bạn ấn vào xương ức của họ (ngăn họ nhìn đi chỗ khác), cánh tay của bạn giữ vai họ (ngăn cản chuyển động của cánh tay) và trọng lượng ngực của bạn đè lên thân của họ (hạn chế thở và chuyển động hông). north-south là một chân chuyển tiếp dẫn đến các chuyển đổi north-south, kimura hoặc side control.",
+  "whyItWorks": [
+    "Áp lực đầu lên xương ức khiến đối phương không thể quay đầu hoặc nhìn đi chỗ khác, đây là bước đầu tiên của hầu hết các cuộc chạy trốn",
+    "Nén cánh tay (ép khuỷu tay của bạn để giữ cánh tay của họ) ngăn họ đóng khung hoặc đăng để trốn thoát",
+    "Sức ép từ ngực đến ngực hạn chế chuyển động của cơ hoành, tạo ra tình trạng hô hấp gấp buộc họ phải cố gắng trốn thoát",
+    "Vị trí north-south tấn công một mặt phẳng khác với side control — đối thủ không thể sử dụng cùng một cơ chế thoát hiểm"
+  ],
+  "commonMistakes": [
+    "Để đầu bạn lệch sang một bên - đầu phải ép vào xương ức để duy trì áp lực",
+    "Giữ cánh tay quá rộng - khuỷu tay phải chụm vào nhau để bẫy cánh tay đối phương",
+    "Nâng hông của bạn lên quá cao - điều này sẽ loại bỏ lực ép ở ngực và cho phép đối phương thoát ra khỏi hông",
+    "Ở quá lâu trong north-south mà không tấn công — đó là vị trí chuyển tiếp, không phải là vị trí cố định"
+  ],
+  "coachingCues": [
+    "Luôn luôn hướng đầu vào xương ức",
+    "Bóp khuỷu tay, giữ chặt cánh tay",
+    "Trọng lượng ngực trên ngực của họ",
+    "Tấn công hoặc chuyển tiếp - không ở lại"
+  ],
+  "safetySummary": [
+    "Cuộn cảm north-south có thể hoạt động nhanh — thả ra ngay lập tức khi chạm vào, vì áp lực của cuộn cảm từ góc này có thể nén khí quản",
+    "Đừng đâm đầu vào cổ họng đối phương - xương ức là mục tiêu chứ không phải cổ họng",
+    "Nếu đối thủ có tiền sử vấn đề về cổ, hãy tránh áp lực quá khích north-south"
+  ],
+  "keyCorrections": [
+    "Nếu họ tiếp tục shrimp ra ngoài: đầu bạn không tựa vào xương ức - hãy ấn đầu bạn sâu hơn vào ngực họ",
+    "Nếu họ tiếp tục đóng khung bằng cánh tay của mình: khuỷu tay của bạn quá rộng - hãy kẹp chúng lại với nhau để giữ cánh tay",
+    "Nếu họ lăn bạn: bạn ở quá xa về phía trước - hãy giữ trọng lượng của bạn tập trung vào ngực họ"
+  ],
+  "systemLogic": {
+    "corePrinciple": "Điều khiển north-south có ba cột cấu trúc: Vị trí đầu → Bẫy tay → Nén ngực",
+    "decisionTree": [
+      {
+        "condition": "Ứng dụng chung",
+        "action": "Nếu Trụ cột 1, Vị trí Đầu: trán của bạn chạm vào xương ức của họ (không phải cổ họng của họ). Điều này giữ cho đầu của họ được cố định và ngăn họ nhìn đi chỗ khác hoặc đăng bằng cánh tay xa"
+      },
+      {
+        "condition": "Ứng dụng chung",
+        "action": "Nếu Trụ 2, Bẫy cánh tay: cánh tay trên của bạn ép vào vai họ, ghim cánh tay của họ xuống thảm. Khuỷu tay của bạn phải gần nhau, không loe ra. Điều này ngăn cản chúng bám vào hông bạn hoặc lao lên để trốn thoát"
+      },
+      {
+        "condition": "Ứng dụng chung",
+        "action": "Nếu Trụ cột 3, Nén ngực: trọng lượng ngực của bạn dồn vào phần thân trên của họ, hạn chế khả năng thoát hông hoặc cầu của họ. Việc nén cũng khiến hơi thở nông, tạo cảm giác gấp gáp"
+      },
+      {
+        "condition": "Từ north-south",
+        "action": "bạn có ba nhánh tấn công: (1) north-south bóp cổ, trượt cẳng tay của bạn dưới cổ họ trong khi vẫn giữ áp lực đầu, (2) kimura — cô lập cánh tay gần của họ và xoay vào tay cầm kimura, (3) Chuyển sang side control hoặc knee-on-belly"
+      },
+      {
+        "condition": "Ứng dụng chung",
+        "action": "Nếu đối thủ chạy về phía mình thì hãy đuổi theo và lùi lại. north-south quay lại là một quá trình chuyển đổi có tỷ lệ phần trăm cao"
+      }
+    ]
+  },
+  "moneyDetails": [
+    "north-south là một trong những chốt ít được bảo vệ nhất trong BJJ — hầu hết các vận động viên vật lộn đều luyện tập rộng rãi để side control trốn thoát nhưng lại bỏ bê north-south",
+    "Cú giật north-south là một cú trình diễn có tỷ lệ phần trăm cao có thể hạ gục ngay cả những vận động viên vật lộn có kinh nghiệm guard",
+    "Việc nắm vững khả năng điều khiển north-south mang đến cho bạn một trò chơi hàng đầu hoàn chỉnh tấn công cả hai mặt phẳng (đường bên và đường giữa)"
+  ],
+  "fixItFast": [
+    "Nếu họ tiếp tục shrimp ra ngoài: đẩy đầu bạn sâu hơn vào xương ức và kẹp chặt khuỷu tay của bạn hơn - điều này sẽ giết chết lối thoát hông",
+    "Nếu họ bắc cầu để lăn bạn: hãy nhón chân và dồn trọng lượng của bạn về phía trước vào ngực họ",
+    "Nếu họ quay về phía họ: hãy đi theo họ và lùi lại — đừng ở lại north-south"
+  ]
+}

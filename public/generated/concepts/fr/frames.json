@@ -1,0 +1,73 @@
+{
+  "id": "frames",
+  "locale": "fr",
+  "title": "Frames",
+  "category": "mechanical",
+  "level": "fundamental",
+  "tags": [
+    "frame",
+    "escape",
+    "structure",
+    "forearm",
+    "knee shield",
+    "connection",
+    "space management"
+  ],
+  "shortDefinition": "Un frame est une structure osseuse (forearm, tibia, genou, biceps) connectée au torse pour garder distance, pas la force des bras.",
+  "whyItMatters": "Bon frame permet respirer, tourner hanches et pummel. Mauvais frame force défense bras tendus, facile à smash ou soumettre.",
+  "deepExplanation": "4 types de frames, chacune pour une situation:\n\n1. Forearm frame (biceps-poitrine) — plus fort, garde distance épaule. Side control, mount escape, rétention.\n2. Elbow frame (coude-hanche) — plus court, permet rotation hanche. Shrimp ou bridge.\n3. Shin frame — knee shield, half guard, bloque bodylock ou chest-to-chest.\n4. Bicep frame (bras plié devant poitrine) — court et fort, quand aplati ou pression directe.\n\nUn frame n'est pas barrière statique. Il a besoin connexion active — si le coude glisse de l'épaule, l'adversaire insère poitrine et le frame meurt. Un frame vivant sait quand pousser, tourner ou passer en pummel.",
+  "beginnerView": "Trois règles de frame:\n1. Coude touche hanche ou sternum, pas flottant.\n2. Dos pas rond — colonne droite transmet force par os.\n3. En framant, tournez hanches en même temps — frame ne pousse pas, il redirige.\n\nSi bras brûlent après 10s de frame, vous utilisez muscle au lieu d'os.",
+  "advancedView": "Le frame est la première phase d'une chaîne défensive à 3 étapes: frame → pummel → attack. Bon frame dure peu — crée espace pour pummel. S'ils poussent, utilisez force pour shrimp ou rotation. Lire frame: coude loin de hanche = faible; coude collé côtes = fort. Passer de frame à wedge (genou) quand ils engagent poids — s'ils rentrent, genou entre; s'ils reculent, pummel.",
+  "ifThenExamples": [
+    {
+      "if": "Si vous perdez Frames pendant l’échange.",
+      "then": "Arrêtez d’accélérer, récupérez la structure corporelle proche, puis continuez.",
+      "why": "Le no-gi moderne punit vite la force après perte de structure.",
+      "relatedSkillIds": [
+        "frames-pummeling",
+        "side-control-escape"
+      ]
+    },
+    {
+      "if": "Si l’adversaire répond correctement à votre première ligne.",
+      "then": "Utilisez Frames pour passer à une branche plus sûre au lieu de forcer.",
+      "why": "Un bon concept transforme la réaction adverse en information pour la décision suivante.",
+      "relatedSkillIds": [
+        "side-control-escape",
+        "mount-escape",
+        "seated-guard-retention"
+      ]
+    }
+  ],
+  "commonMisunderstandings": [
+    {
+      "misunderstanding": "Frames est une astuce technique isolée.",
+      "correction": "Voyez-le comme une règle de décision présente dans plusieurs positions."
+    },
+    {
+      "misunderstanding": "Comprendre le concept suffit pour l’utiliser en live.",
+      "correction": "Le concept doit être lié à signaux corporels, cues courts et rolling positionnel."
+    }
+  ],
+  "trainingCues": [
+    "Nommez Frames avant d’ajouter force.",
+    "Cherchez le signal corporel, pas une impression vague.",
+    "Si la structure est perdue, reset une couche d’abord.",
+    "Driller lentement, puis tester avec résistance progressive."
+  ],
+  "relatedSkillIds": [
+    "frames-pummeling",
+    "side-control-escape",
+    "mount-escape",
+    "seated-guard-retention",
+    "half-guard-knee-shield",
+    "supine-guard-retention"
+  ],
+  "relatedConceptIds": [
+    "wedges",
+    "posts",
+    "elbow-knee-connection",
+    "inside-position",
+    "guard-retention-layers"
+  ]
+}

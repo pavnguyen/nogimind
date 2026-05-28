@@ -1,0 +1,56 @@
+{
+  "id": "side-control-bottom",
+  "locale": "fr",
+  "title": "Side control dessous",
+  "category": "pin",
+  "status": "dangerous",
+  "description": "Le joueur du dessous est immobilisé chest-to-chest ou contrôlé par un crossface et un underhook, et doit d’abord survivre avant de sortir.",
+  "topPlayerGoals": [
+    "Le joueur du dessus veut contrôler Side control dessous avec la position de tête, la position intérieure et une pression orientée.",
+    "Le joueur du dessus veut stabiliser le pin, séparer le coude du genou et monter en mount.",
+    "Garder une base stable pour éviter d’être déséquilibré ou contré."
+  ],
+  "bottomPlayerGoals": [
+    "Le joueur du dessous veut survivre en Side control dessous avec des cadres, du pummeling ou le bon angle.",
+    "Créer un cadre sur le cou ou la hanche, récupérer la connexion coude-genou et faire un hip escape.",
+    "Reconnaître les signaux de danger tôt au lieu d’attendre que la position se stabilise."
+  ],
+  "controlPoints": [
+    "Point de contrôle principal : Coude proche, cadre sur la hanche éloignée et ligne du cou..",
+    "La tête, les mains, les hanches et les genoux doivent suivre la même direction de force.",
+    "La connexion coude-genou ou la ligne hanches-épaules détermine si la position reste vivante ou verrouillée."
+  ],
+  "escapePriorities": [
+    "Priorité de sortie : Ne pas pousser en bench press ; construire d’abord des cadres osseux..",
+    "Protéger le cou, le dos, la ligne du genou ou la ligne du bras avant de contrer.",
+    "Si la position intérieure est perdue, rétablir d’abord une couche défensive."
+  ],
+  "advancementOptions": [
+    {
+      "action": "Récupérer la connexion genou-coude vers la garde",
+      "nextPositionId": "knee-shield-half-guard",
+      "relatedSkillIds": [
+        "side-control-survival",
+        "side-control-escape",
+        "frames-pummeling"
+      ],
+      "why": "C’est la branche naturelle lorsque vous gagnez le point de contrôle principal et que l’adversaire est forcé de défendre."
+    }
+  ],
+  "dangerSignals": [
+    "Le menton ou le cou sort de la ligne sûre.",
+    "Le coude se sépare des côtes ou du genou.",
+    "La ligne des hanches est verrouillée pendant que la ligne des épaules est encore tirée.",
+    "Vous devez poser une main loin pour éviter de tomber."
+  ],
+  "relatedSkillIds": [
+    "side-control-survival",
+    "side-control-escape",
+    "frames-pummeling"
+  ],
+  "relatedConceptIds": [
+    "frames",
+    "elbow-knee-connection",
+    "early-vs-late-defense"
+  ]
+}

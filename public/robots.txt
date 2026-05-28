@@ -1,0 +1,8 @@
+# NoGi Mind — Robots Exclusion
+# https://nogimind.com
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://nogimind.com/sitemap.xml

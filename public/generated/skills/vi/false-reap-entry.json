@@ -1,0 +1,123 @@
+{
+  "id": "false-reap-entry",
+  "domain": "guard_offense",
+  "level": "advanced",
+  "status": "draft",
+  "name": "Nhập sai",
+  "aliases": [],
+  "tags": [
+    "false-reap",
+    "leg-lock",
+    "knee-safety",
+    "tier:safety-critical",
+    "meta:modern-common",
+    "risk:safety-critical",
+    "family:leg-lock",
+    "group:false-reap",
+    "modern-no-gi"
+  ],
+  "keywords": [
+    "false reap",
+    "knee line",
+    "backside entry"
+  ],
+  "modernSystemGroup": "false_reap",
+  "relatedSkills": [
+    {
+      "id": "k-guard-matrix",
+      "type": "recommended"
+    },
+    {
+      "id": "saddle-inside-sankaku-control",
+      "type": "recommended"
+    },
+    {
+      "id": "heel-hook-safety",
+      "type": "recommended"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "k-guard-entry",
+    "leg-lock-safety-basics",
+    "heel-hook-safety"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [
+    "Nếu họ quay ra ngoài, bạn sẽ mất quyền kiểm soát hông ở xa - hãy đặt lại tay của bạn lên hông họ trước khi tiếp tục.",
+    "Nếu họ bước qua móc câu của bạn, góc của bạn quá nông - hãy xoay hông của bạn cao hơn và móc lại.",
+    "Nếu họ đè bẹp bạn, bạn sẽ thua trong cuộc đấu hông - hãy đập đầu gối vào bên trong và quay trở lại bên cạnh bạn."
+  ],
+  "version": 1,
+  "updatedAt": "2026-05-21T00:24:30.778Z",
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "vi",
+  "description": "Sử dụng cú gặt sai (gặt chân bên ngoài) để tạo góc sau trên chân đối phương trong khi vẫn duy trì sự an toàn ở đầu gối và nhận thức về quy tắc để hạn chế việc gặt.",
+  "shortInstruction": "Móc chân bên ngoài, an toàn ở đầu gối, xoay sang góc sau - gặt sai là cửa ngõ dẫn đến saddle và các đòn tấn công bằng chân.",
+  "summary": "Cú gặt sai là mục nhập No-Gi guard trong đó bạn móc chân gần của đối phương từ bên ngoài bằng chân của mình, thay vì bên trong. Điều này tạo ra một góc phía sau trên đường chân của họ, mở các mục vào saddle (inside sankaku), chéo ashi và lùi lại. Không giống như động tác gặt truyền thống, động tác gặt sai không vượt qua đường đầu gối của đối phương một cách nguy hiểm — khiến nó hợp pháp trong hầu hết các bộ quy tắc IBJJF trong khi vẫn cho phép bạn tiếp cận vướng chân.",
+  "whyItWorks": [
+    "Móc bên ngoài trên chân họ kiểm soát khả năng xoay hông của họ và ngăn họ bước ra khỏi guard của bạn.",
+    "Góc phía sau cắt đứt phần đế của họ ở phía đó - họ không thể đơn giản lùi lại để trốn thoát.",
+    "Gặt sai là IBJJF-hợp lệ vì bàn chân không vượt qua đường giữa của đối phương ở đầu gối.",
+    "Nguyên tắc Danaher: khống chế hông để khống chế chân – sai lầm sẽ mang lại cho bạn cả hai."
+  ],
+  "commonMistakes": [
+    "Để chân móc của bạn trượt vào bên trong chân của họ - điều này biến nó thành một cú gặt và có thể là bất hợp pháp trong thi đấu.",
+    "Không dùng tay bạn kiểm soát hông xa của họ - họ sẽ lao ra khỏi vòng gặt giả.",
+    "Đi gặt sai mà không cần nắm tay áo hoặc cổ tay - họ có thể đăng và căn cứ.",
+    "Nằm ngửa - gặt sai yêu cầu bạn phải lăn sang một bên để điều chỉnh hông thích hợp."
+  ],
+  "coachingCues": [
+    "Ở bên cạnh bạn, giữ lưỡi câu sâu.",
+    "Kiểm soát hông, gặt góc.",
+    "Đầu gối an toàn, quy tắc tự hào.",
+    "Xoay hông của bạn lên trần nhà - góc tạo ra lối vào."
+  ],
+  "safetySummary": [
+    "Luôn giữ chân móc của bạn ở bên ngoài chân của họ - nếu chân của bạn vượt qua đường trung tâm của họ, bạn đang gặt.",
+    "Không tạo áp lực xoay lên đầu gối của đối phương khi gặt sai - chỉ kết thúc khi bạn có toàn quyền kiểm soát vướng chân.",
+    "Hãy lưu ý các quy tắc IBJJF về việc thu hoạch - việc thu hoạch sai là hợp pháp, nhưng rất dễ vô tình chuyển thành thu hoạch."
+  ],
+  "systemLogic": {
+    "corePrinciple": "Móc gặt giả ở bên ngoài chân của họ: điều khiển hông xa → xoay sang góc sau → nhập saddle, chéo ashi hoặc quay lại.",
+    "decisionTree": [
+      {
+        "condition": "Sử dụng tùy chọn 1",
+        "action": "Họ bước tới → nhập saddle (inside sankaku). Cách 2: Họ lùi lại → lùi lại."
+      },
+      {
+        "condition": "Sử dụng tùy chọn 3",
+        "action": "Họ đăng bài → tấn công kimura hoặc thực hiện kéo chân."
+      }
+    ],
+    "exitStrategies": []
+  },
+  "moneyDetails": [
+    "Chân móc của bạn phải quấn quanh đùi của họ chứ không phải bắp chân của họ - khả năng kiểm soát đùi giúp bạn có đòn bẩy trên hông của họ.",
+    "Kiểm soát hông xa của chúng bằng tay của bạn - điều này ngăn chúng quay khỏi phạm vi gặt sai.",
+    "Xoay hông của bạn về phía trần nhà khi bạn móc - điều này giúp điều chỉnh cột sống của bạn để có đòn bẩy tối đa.",
+    "Khi họ đăng chân còn lại, đó là thời điểm bước vào saddle — căn cứ của họ bị chia cắt và dễ bị tổn thương."
+  ],
+  "nextStep": "Sau khi nắm vững mục nhập sai, hãy học cách nhập sai đến cầu saddle để hoàn thành chuỗi vướng chân.",
+  "fixItFast": [
+    "Họ quay ra? Thiết lập lại khả năng kiểm soát hông xa bằng tay của bạn.",
+    "Móc cứ trượt? Quấn cao hơn ở đùi chứ không phải bắp chân.",
+    "Họ san phẳng bạn? Đẩy đầu gối của bạn vào bên trong và trở lại bên cạnh bạn ngay lập tức."
+  ]
+}

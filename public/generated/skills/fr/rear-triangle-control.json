@@ -1,0 +1,122 @@
+{
+  "id": "rear-triangle-control",
+  "domain": "back_control",
+  "level": "advanced",
+  "status": "draft",
+  "name": "Commande arrière triangle",
+  "aliases": [],
+  "tags": [
+    "rear-triangle",
+    "back-triangle",
+    "arm-isolation",
+    "tier:modern-expansion",
+    "meta:modern-common",
+    "risk:high",
+    "family:submission",
+    "group:back-triangle",
+    "modern-no-gi"
+  ],
+  "keywords": [
+    "rear triangle",
+    "shoulder line",
+    "arm isolation"
+  ],
+  "modernSystemGroup": "back_triangle",
+  "relatedSkills": [
+    {
+      "id": "s-mount-control",
+      "type": "recommended"
+    },
+    {
+      "id": "s-mount-armbar",
+      "type": "recommended"
+    },
+    {
+      "id": "rear-naked-choke-system",
+      "type": "recommended"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "back-control",
+    "s-mount-control"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [
+    "Si vous ne parvenez pas à verrouiller le triangle, leur posture est trop droite : démontez-les d'abord.",
+    "Si le starter ressemble à une manivelle, votre jambe est sur son menton – ajustez votre jambe à la gorge.",
+    "S’ils vous décollent la jambe, votre contrôle était trop lâche – serrez plus fort ou réengagez les crochets."
+  ],
+  "version": 1,
+  "updatedAt": "2026-05-21T00:24:30.780Z",
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "fr",
+  "description": "Utilisez vos jambes pour piéger la ligne d'épaule de l'adversaire depuis l'arrière, en ouvrant les attaques du starter (arrière triangle), armbar ou kimura tout en maintenant back control.",
+  "shortInstruction": "Une jambe par-dessus l'épaule, une jambe accrochée à son corps, serrez - l'arrière triangle est un étranglement de jambe par l'arrière.",
+  "summary": "Le triangle arrière (également appelé starter arrière triangle ou starter corps triangle) est une soumission puissante de back control où vous utilisez vos jambes pour vous étouffer, pas vos bras. En amenant une jambe par-dessus son épaule et en la verrouillant derrière son cou tandis que l'autre jambe s'accroche autour de son corps, vous créez une jambe triangle qui comprime son cou et son épaule. Cette attaque fonctionne lorsqu'ils défendent leur cou avec les deux mains : vos bras sont libres pendant que vos jambes s'étouffent.",
+  "whyItWorks": [
+    "Utilise vos muscles les plus forts (jambes) pour s'étouffer – la compression des jambes est bien plus forte que la compression des bras.",
+    "Fonctionne lorsqu'ils défendent leur cou avec les deux mains : vos mains peuvent contrôler leur corps pendant que vos jambes s'étouffent.",
+    "L'arrière triangle contrôle également leur épaule, limitant leurs options de fuite.",
+    "Principe de Danaher : lorsque les mains ne sont pas disponibles (elles défendent), utilisez les jambes pour attaquer — l'arrière triangle est la réponse."
+  ],
+  "commonMistakes": [
+    "Si vous essayez de verrouiller le triangle arrière sans contrôler son bras proche, son bras bloquera le starter.",
+    "Laisser le triangle glisser vers son visage plutôt que vers son cou : le tibia doit être sur la gorge.",
+    "Lâcher le corps triangle ou les crochets trop tôt — maintenir le contrôle du bas du corps tout en verrouillant le starter.",
+    "Forcer le verrouillage lorsque leur posture est trop droite – rompez leur posture avant de verrouiller."
+  ],
+  "coachingCues": [
+    "Jambe par-dessus l'épaule, tibia sur la gorge, serrez avec les cuisses.",
+    "Contrôlez d'abord le bras, puis verrouillez le triangle.",
+    "S'ils défendent avec les mains, attaquez avec les jambes.",
+    "Les jambes sont plus fortes que les bras – utilisez-les."
+  ],
+  "safetySummary": [
+    "L'arrière triangle applique une pression sur le cou et l'épaule – appliquez-la progressivement.",
+    "Ne faites pas tourner le cou de l'adversaire en tirant sa tête sur le côté pour l'ajuster au triangle.",
+    "Relâchez immédiatement au toucher – la compression du cou et des épaules peut rapidement causer des blessures."
+  ],
+  "systemLogic": {
+    "corePrinciple": "back control : rompez leur posture → amenez la jambe supérieure par-dessus leur épaule → verrouillez le triangle (tibia sur la gorge, pied derrière votre genou) → serrez.",
+    "decisionTree": [
+      {
+        "condition": "Les chaînes triangle arrière avec le RNC",
+        "action": "s'ils défendent le RNC à deux mains, passez à l'arrière triangle."
+      },
+      {
+        "condition": "ils défendent l'arrière triangle en tournant",
+        "action": "passez au armbar ou revenez au RNC."
+      }
+    ],
+    "exitStrategies": []
+  },
+  "moneyDetails": [
+    "Contrôlez son bras proche en le plaquant avec votre main ou contre votre poitrine – cela l'empêche de bloquer le triangle.",
+    "Votre jambe supérieure passe par-dessus son épaule, pas sa tête – le tibia doit appuyer contre le côté de son cou.",
+    "Verrouillez le triangle en accrochant votre pied derrière votre propre genou – cela crée un triangle serré et réglable.",
+    "Pressez avec vos cuisses, pas avec vos mollets : la compression des cuisses est plus forte et plus sûre."
+  ],
+  "nextStep": "Après le triangle arrière, apprenez le armbar du dos et le système d'attaque arrière.",
+  "fixItFast": [
+    "Vous ne parvenez pas à verrouiller le triangle ? Brisez davantage leur posture avant d’essayer.",
+    "Le starter ressemble à une manivelle ? Ajustez votre jambe : le tibia doit être sur la gorge et non sur le menton.",
+    "Ils te pèlent la jambe ? Passez aux hooks et RNC — ne forcez pas le triangle."
+  ]
+}

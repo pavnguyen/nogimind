@@ -1,0 +1,75 @@
+{
+  "id": "guard-retention-layers",
+  "locale": "en",
+  "title": "Guard Retention Layers",
+  "category": "defensive",
+  "level": "intermediate",
+  "tags": [
+    "guard retention",
+    "layers",
+    "recovery",
+    "knee shield",
+    "hip escape",
+    "re-attack",
+    "defensive system"
+  ],
+  "shortDefinition": "Guard retention has 7 layers: distance → feet → knees → frames → hips → shoulders → re-attack. Each layer lost drops you to the next.",
+  "whyItMatters": "If you rely on one layer, the passer kills it and flattens you. Retention layers tell you exactly what to do as you get passed step by step.",
+  "deepExplanation": "7 retention layers, outside to inside:\n\n1. Distance — feet threaten, hands fight. When the passer gets close, you have lost this layer.\n2. Feet — sole-to-hip, sole-to-bicep. Push their hips away, break passing rhythm.\n3. Knees — knee pummel, shin-to-shin, knee shield. Block chest-to-chest, create wedges.\n4. Frames — forearm frame, elbow frame. Maintain space when knees get cleared.\n5. Hips — hip escape, shrimp, whizzer. Turn hips off the pass line when upper structure breaks.\n6. Shoulders — granby roll, shoulder-in, back exposure escape. When hips can no longer turn.\n7. Re-attack — wrestle-up, leg pummel, turtle with underhook. Final layer — switch defense to offense.\n\nRetention is not linear 1→7. Good retention jumps layers based on the passer’s intent: if they commit to bodylock, skip distance/feet and go straight to knees + frames. If they back step, reopen distance with technical stand-up.",
+  "beginnerView": "7 layers with 3 recurring questions:\n1. Can your feet still threaten? → Feet/knees\n2. Can you still keep a wedge (knee)? → Knees/frames\n3. Can your hips still turn? → Hips/shoulders\n\nWhen flattened, do not keep trying to reguard — switch to re-attack (wrestle-up or turtle). Golden rule: never let their chest touch your chest at any layer.",
+  "advancedView": "Advanced retention does not just keep guard — it baits the passer into traps. Leave a gap in the distance layer so they commit to a pass line, then hit a sweep or wrestle-up. Use non-linear layering: if they are used to bodylocking past your knee shield, drop the knee shield early and switch to shin-to-shin + off-balance. Every layer is a counter opportunity: feet layer threatens sweeps, knees layer threatens wrestle-up or triangle, frames layer threatens back takes if they overcommit. Great retention plays at high layers (distance/knees) but is ready to drop to re-attack when they get low.",
+  "ifThenExamples": [
+    {
+      "if": "If you lose Guard Retention Layers during the exchange.",
+      "then": "Stop accelerating, recover the nearest body structure, then continue the technique.",
+      "why": "Modern no-gi punishes forceful continuation after structure is lost.",
+      "relatedSkillIds": [
+        "seated-guard-retention",
+        "supine-guard-retention"
+      ]
+    },
+    {
+      "if": "If the opponent correctly answers your first line.",
+      "then": "Use Guard Retention Layers to switch to a safer branch instead of forcing the same line.",
+      "why": "A good concept turns the opponent’s reaction into information for the next decision.",
+      "relatedSkillIds": [
+        "supine-guard-retention",
+        "half-guard-knee-shield",
+        "technical-stand-up"
+      ]
+    }
+  ],
+  "commonMisunderstandings": [
+    {
+      "misunderstanding": "Guard Retention Layers is a single technical trick.",
+      "correction": "Treat it as a decision rule that appears across many positions."
+    },
+    {
+      "misunderstanding": "Understanding the concept automatically makes it work live.",
+      "correction": "The concept needs body signals, short cues, and positional rolling."
+    }
+  ],
+  "trainingCues": [
+    "Name Guard Retention Layers before adding force.",
+    "Find the body signal instead of guessing generally.",
+    "If structure is lost, reset one layer first.",
+    "Drill slowly, then test with progressive resistance."
+  ],
+  "relatedSkillIds": [
+    "seated-guard-retention",
+    "supine-guard-retention",
+    "half-guard-knee-shield",
+    "technical-stand-up",
+    "closed-guard-sweeps",
+    "butterfly-guard-off-balance",
+    "scramble-control"
+  ],
+  "relatedConceptIds": [
+    "hooks",
+    "frames",
+    "elbow-knee-connection",
+    "inside-position",
+    "failure-response",
+    "wedges"
+  ]
+}

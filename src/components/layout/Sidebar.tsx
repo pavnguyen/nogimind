@@ -1,4 +1,4 @@
-import { useMemo, useState } from 'react'
+import { useMemo, useRef, useState, useEffect } from 'react'
 import { NavLink, Link, useLocation } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import { ChevronDown, PanelLeftClose, PanelLeftOpen } from 'lucide-react'
@@ -30,6 +30,41 @@ export const Sidebar = () => {
   }
 
   const isHubActive = (hub: (typeof hubNavItems)[number]) => pathInHub(location.pathname, hub)
+
+  // ── Sliding pill indicator ──────────────────────────────────────────────
+  const navRef = useRef<HTMLDivElement>(null)
+  const [pillStyle, setPillStyle] = useState({ top: 0, height: 0, opacity: 0 })
+
+  useEffect(() => {
+    const navEl = navRef.current
+    if (!navEl) return
+
+    const updatePill = () => {
+      if (!activeHubId) {
+        setPillStyle((prev) => ({ ...prev, opacity: 0 }))
+        return
+      }
+      const activeEl = navEl.querySelector<HTMLElement>(`[data-hub-id="${activeHubId}"]`)
+      if (!activeEl) return
+
+      const navRect = navEl.getBoundingClientRect()
+      const activeRect = activeEl.getBoundingClientRect()
+
+      setPillStyle({
+        top: activeRect.top - navRect.top + navEl.scrollTop,
+        height: activeRect.height,
+        opacity: 1,
+      })
+    }
+
+    updatePill()
+
+    const observer = new ResizeObserver(updatePill)
+    observer.observe(navEl)
+
+    return () => observer.disconnect()
+  }, [activeHubId, collapsed])
+
   const hubAccent: Record<string, { active: string; icon: string; rail: string; sub: string; chevron: string }> = {
     learn: {
       active: 'bg-gradient-to-r from-cyan-400/18 via-cyan-400/10 to-transparent text-cyan-100 shadow-[inset_0_0_0_1px_rgba(34,211,238,0.18)]',
@@ -89,8 +124,40 @@ export const Sidebar = () => {
       </Link>
 
       {/* Hub Navigation */}
-      <nav className="flex-1 space-y-0.5 overflow-y-auto px-2 py-3">
-        <div className="mb-1.5 space-y-0.5">
+      <nav ref={navRef} className="relative flex-1 space-y-0.5 overflow-y-auto px-2 py-3">
+        {/* Sliding pill indicator */}
+        <div
+          className={cn(
+            'pointer-events-none absolute z-0 transition-all duration-300 ease-[cubic-bezier(0.34,1.56,0.64,1)]',
+            collapsed ? 'left-1.5 right-1.5' : 'left-2 right-2',
+          )}
+          style={{
+            top: pillStyle.top,
+            height: pillStyle.height,
+            opacity: pillStyle.opacity,
+            borderRadius: collapsed ? '0.5rem' : '0.75rem',
+            background: activeHubId
+              ? ({
+                  learn: 'linear-gradient(135deg, rgba(34,211,238,0.08), rgba(34,211,238,0.02))',
+                  study: 'linear-gradient(135deg, rgba(52,211,153,0.08), rgba(52,211,153,0.02))',
+                  fix: 'linear-gradient(135deg, rgba(251,191,36,0.08), rgba(251,191,36,0.02))',
+                  build: 'linear-gradient(135deg, rgba(167,139,250,0.08), rgba(167,139,250,0.02))',
+                  reference: 'linear-gradient(135deg, rgba(56,189,248,0.08), rgba(56,189,248,0.02))',
+                } as Record<string, string>)[activeHubId] ?? 'transparent'
+              : 'transparent',
+            boxShadow: activeHubId
+              ? ({
+                  learn: 'inset 0 0 0 1px rgba(34,211,238,0.10), 0 0 12px rgba(34,211,238,0.04)',
+                  study: 'inset 0 0 0 1px rgba(52,211,153,0.10), 0 0 12px rgba(52,211,153,0.04)',
+                  fix: 'inset 0 0 0 1px rgba(251,191,36,0.10), 0 0 12px rgba(251,191,36,0.04)',
+                  build: 'inset 0 0 0 1px rgba(167,139,250,0.10), 0 0 12px rgba(167,139,250,0.04)',
+                  reference: 'inset 0 0 0 1px rgba(56,189,248,0.10), 0 0 12px rgba(56,189,248,0.04)',
+                } as Record<string, string>)[activeHubId]
+              : undefined,
+          }}
+        />
+
+        <div className="relative mb-1.5 space-y-0.5 z-[1]">
           {hubNavItems.map((hub) => {
             const Icon = hub.icon
             const active = isHubActive(hub)
@@ -103,6 +170,7 @@ export const Sidebar = () => {
                   key={hub.hub}
                   to={hub.to}
                   end
+                  data-hub-id={hub.hub}
                   className={({ isActive }) =>
                     cn(
                       'flex items-center justify-center rounded-lg px-2 py-2 text-sm font-medium transition-all duration-150',
@@ -124,6 +192,7 @@ export const Sidebar = () => {
                   <NavLink
                     to={hub.to}
                     end
+                    data-hub-id={hub.hub}
                     className={cn(
                       'flex flex-1 items-center gap-2.5 rounded-xl px-3 py-2 text-sm font-medium transition-all duration-200',
                       active
@@ -154,7 +223,7 @@ export const Sidebar = () => {
                       'ml-1 flex items-center justify-center rounded-lg p-2 transition-all duration-200 hover:bg-white/[0.06]',
                       active ? accent.chevron : 'text-slate-500',
                     )}
-                    aria-label={expanded ? 'Collapse section' : 'Expand section'}
+                    aria-label={expanded ? t('accessibility.collapseSection') : t('accessibility.expandSection')}
                   >
                     <ChevronDown
                       className={cn(
@@ -224,6 +293,7 @@ export const Sidebar = () => {
           type="button"
           onClick={() => setCollapsed(!collapsed)}
           className="flex w-full items-center justify-center gap-2 rounded-lg px-3 py-1.5 text-xs font-medium text-slate-400 transition-all hover:bg-white/[0.04] hover:text-slate-200"
+          aria-label={collapsed ? t('accessibility.expandSidebar') : t('accessibility.collapseSidebar')}
         >
           {collapsed ? (
             <PanelLeftOpen className="h-4 w-4" aria-hidden="true" />

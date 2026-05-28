@@ -1,0 +1,65 @@
+{
+  "id": "hip-line-shoulder-line",
+  "locale": "vi",
+  "title": "Đường hông vs đường vai",
+  "category": "positional",
+  "level": "intermediate",
+  "tags": [
+    "hip line",
+    "shoulder line",
+    "pin"
+  ],
+  "shortDefinition": "Hip line và shoulder line là hai trục xoay quyết định pass, pin, escape và back exposure.",
+  "whyItMatters": "Bạn có thể qua chân nhưng vẫn chưa pin nếu shoulder line còn tự do.",
+  "deepExplanation": "Passing thường bắt đầu bằng kiểm soát hip line, nhưng pin cần tách hoặc khóa shoulder line. Escape thường làm ngược lại: lấy shoulder angle rồi đưa hip line về guard.",
+  "beginnerView": "Hỏi: họ còn xoay vai hoặc hông được không?",
+  "advancedView": "Tách hai line để tạo dilemma: họ cứu hông thì lộ vai, cứu vai thì mất hông.",
+  "ifThenExamples": [
+    {
+      "if": "Nếu bạn mất Đường hông vs đường vai trong trao đổi.",
+      "then": "Dừng tăng tốc, lấy lại cấu trúc cơ thể gần nhất rồi mới tiếp tục kỹ thuật.",
+      "why": "No-gi hiện đại phạt rất nhanh khi bạn cố thắng bằng sức sau khi mất cấu trúc.",
+      "relatedSkillIds": [
+        "bodylock-passing",
+        "side-control-pin"
+      ]
+    },
+    {
+      "if": "Nếu đối thủ phản ứng đúng với hướng đầu tiên.",
+      "then": "Dùng Đường hông vs đường vai để đổi sang nhánh an toàn hơn thay vì ép cùng một hướng.",
+      "why": "Concept tốt biến phản ứng của đối thủ thành thông tin cho quyết định tiếp theo.",
+      "relatedSkillIds": [
+        "side-control-pin",
+        "back-control",
+        "leg-drag-basics"
+      ]
+    }
+  ],
+  "commonMisunderstandings": [
+    {
+      "misunderstanding": "Đường hông vs đường vai là một mẹo kỹ thuật riêng lẻ.",
+      "correction": "Hãy xem nó như quy tắc quyết định xuất hiện trong nhiều vị trí khác nhau."
+    },
+    {
+      "misunderstanding": "Bạn chỉ cần hiểu khái niệm là tự động dùng được trong live roll.",
+      "correction": "Khái niệm phải được gắn với body signal, cue ngắn và positional rolling."
+    }
+  ],
+  "trainingCues": [
+    "Gọi tên Đường hông vs đường vai trước khi tăng lực.",
+    "Tìm body signal, không đoán bằng cảm giác chung.",
+    "Nếu mất cấu trúc, reset một layer trước.",
+    "Drill chậm, test bằng resistance tăng dần."
+  ],
+  "relatedSkillIds": [
+    "bodylock-passing",
+    "side-control-pin",
+    "back-control",
+    "leg-drag-basics"
+  ],
+  "relatedConceptIds": [
+    "positional-hierarchy",
+    "angle-creation",
+    "pressure-direction"
+  ]
+}

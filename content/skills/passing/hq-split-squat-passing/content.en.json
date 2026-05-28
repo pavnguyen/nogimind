@@ -1,0 +1,67 @@
+{
+  "id": "hq-split-squat-passing",
+  "locale": "en",
+  "name": "HQ / Split-Squat Passing",
+  "description": "Headquarters (HQ) and split-squat passing: manage distance with one knee up and one knee down, block the shin frame, and choose knee cut, bodylock, or toreando based on the guard player's reaction.",
+  "shortInstruction": "From split-squat (one knee up, one knee down), block their shin frame with your posted knee, control their far hip, and read their reaction to select knee cut, bodylock, or toreando.",
+  "summary": "The split-squat (also called headquarters) is the foundational passing position for modern BJJ. It creates a triangular base that blocks the opponent's shin frame while keeping your hips mobile. From the split-squat, you read the opponent's hip angle and distance to select the appropriate pass: knee cut (short distance), bodylock (medium distance), or toreando (long distance).",
+  "whyItWorks": [
+    "The split-squat position (one knee up, one knee down) creates a stable base that can adjust to any guard player reaction",
+    "The posted knee blocks the most common guard retention tool — the shin frame",
+    "The split-squat keeps your weight forward, preventing the opponent from hip escaping or creating distance",
+    "Three passing options from one position means you always have a read-based response"
+  ],
+  "commonMistakes": [
+    "Letting the knee-up foot go flat — the foot should be on the ball, not flat, for mobility",
+    "Losing the far hip connection — your hand must maintain contact with their far hip",
+    "Committing to a pass before reading their reaction — the read must come before the pass selection",
+    "Raising the hips too high — this gives the opponent space to re-guard or attack"
+  ],
+  "coachingCues": [
+    "Knee up, knee down, stable base",
+    "Block the shin, control the hip",
+    "Read first, pass second",
+    "Knee cut, bodylock, or toreando"
+  ],
+  "safetySummary": [
+    "Do not let your knee-up foot slide too far forward — this can hyperextend the hip",
+    "Be careful of ankle locks when in the split-squat — keep your feet active and aware",
+    "If the opponent rolls under your pass, protect your knees from reaping or heel exposure"
+  ],
+  "keyCorrections": [
+    "If they keep shin framing: drop more weight onto the posted knee — the shin frame collapses under weight",
+    "If they keep hip escaping: switch to the backstep or leg drag — the knee cut will not work at long distance",
+    "If they keep attacking your posted leg: drop the posted knee to the mat and switch to a bodylock pass"
+  ],
+  "systemLogic": {
+    "corePrinciple": "The split-squat passing system has three branches: Knee Cut → Bodylock → Toreando",
+    "decisionTree": [
+      {
+        "condition": "Branch 1, Knee Cut: when the opponent presses their shin into your posted knee. Drop your posted knee to the mat, slide it past their shin, and cut through to side control.",
+        "action": "Use crossface to pin the head"
+      },
+      {
+        "condition": "General application",
+        "action": "If Branch 2, Bodylock: when the opponent is close but not pressuring the shin. Drop your posted knee to the mat, lock your hands around their hips, and drive through to side control using chest-to-hip pressure"
+      },
+      {
+        "condition": "General application",
+        "action": "If Branch 3, Toreando: when the opponent creates significant distance (hip escape or leg pummel). Push both legs to one side and circle to the opposite side. Not commonly used in no-gi but effective against flexible guard players"
+      },
+      {
+        "condition": "General application",
+        "action": "Fallback: if none of the three passes work, stand up and re-enter headquarters from standing"
+      }
+    ]
+  },
+  "moneyDetails": [
+    "The split-squat is the universal passing position — it works against all guard types and body types",
+    "Learning split-squat passing is the fastest path to a complete passing game",
+    "This system is the foundation of Danaher's guard passing curriculum"
+  ],
+  "fixItFast": [
+    "If they keep shin framing: switch to the bodylock pass — the body lock neutralizes the shin frame",
+    "If they keep hip escaping: switch to the backstep — the backstep covers distance faster than the knee cut",
+    "If they keep attacking your legs: stand up and re-enter — you do not have to pass from the split-squat"
+  ]
+}

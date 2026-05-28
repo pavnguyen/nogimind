@@ -1,0 +1,61 @@
+{
+  "id": "deep-half-guard",
+  "locale": "fr",
+  "name": "Profond half guard",
+  "description": "Placez vos hanches sous le centre de masse de l'adversaire, contrôlez la jambe proche et créez des balayages (serveur, prise arrière ou balayage vers le haut) lorsque le passeur s'engage trop vers l'avant.",
+  "shortInstruction": "Hanches sous les hanches, tête du côté éloigné, contrôlez la jambe la plus proche – la moitié profonde est la position inférieure ultime pour le balayage.",
+  "summary": "Deep half guard est l’une des positions de balayage les plus puissantes de No-Gi. En glissant vos hanches sous les hanches de l'adversaire et en contrôlant sa jambe la plus proche, vous lui rendez presque impossible d'appliquer une pression sans perdre son équilibre. La principale différence avec le half guard classique est que votre tête va du côté le plus éloigné (au-delà de la hanche), vous donnant accès à des prises en arrière et à des balayages que le half guard classique ne peut pas offrir.",
+  "whyItWorks": [
+    "Vos hanches sous leurs hanches signifient qu'ils ne peuvent pas mettre de poids sur vous sans tomber sur votre corps.",
+    "Contrôler leur jambe proche (en l'enroulant ou en tenant la cheville) supprime leur capacité à se baser de ce côté.",
+    "Votre tête du côté éloigné bloque leur crossface et vous donne accès à leur hanche éloignée.",
+    "Principe de Danaher : être en dessous n'est pas un inconvénient si vous contrôlez leur base : vous balayez par le bas."
+  ],
+  "commonMistakes": [
+    "Rester avec la tête du côté proche – cela leur donne le crossface et évite les retours en arrière.",
+    "Se battant pour la moitié profonde sans contrôler la jambe proche, ils sortiront simplement.",
+    "Aller à moitié en profondeur trop tôt (avant qu'ils ne mettent leur poids vers l'avant) - vous avez besoin de leur pression vers l'avant pour créer le balayage.",
+    "Abandonner le underhook – le underhook est essentiel pour arriver au sommet."
+  ],
+  "coachingCues": [
+    "Dirigez-vous vers le côté éloigné, hanches sous les hanches.",
+    "Contrôlez la jambe proche, possédez le balayage.",
+    "Sentez leur poids : s'ils sont légers, la moitié profonde ne fonctionnera pas.",
+    "underhook ou mourir – sans cela, vous ne pouvez pas vous relever."
+  ],
+  "safetySummary": [
+    "Gardez votre cou protégé : la tête vers l'autre côté signifie que votre cou est exposé aux guillotine s'ils se tiennent debout.",
+    "Ne les laissez pas aplatir votre dos – restez sur le côté pour protéger votre colonne vertébrale.",
+    "S'ils vous empilent durement, sautez vers une position plus sûre (half guard ou tortue) plutôt que de combattre la pile."
+  ],
+  "keyCorrections": [
+    "S'ils vous aplatissent, vous perdez le underhook - revenez au underhook avant d'essayer de balayer.",
+    "Si vous ne pouvez pas les balayer, leur poids est trop en arrière – attendez qu'ils s'engagent à nouveau vers l'avant.",
+    "S'ils sortent de la moitié profonde, suivez-les avec vos hanches et passez à une jambe X ou X-guard."
+  ],
+  "systemLogic": {
+    "corePrinciple": "half guard → gagner le underhook → glisser la tête vers le côté le plus éloigné → contrôler la jambe près → les hanches sous les hanches → balayer ou prendre le dos.",
+    "decisionTree": [
+      {
+        "condition": "Option 1 : Ils résistent en avant",
+        "action": "balayage du serveur. Option 2 : Ils se détournent → reviennent en arrière. Option 3 : Ils enjambent → X sur une jambe."
+      },
+      {
+        "condition": "La moitié profonde est une position de transition",
+        "action": "Soit vous balayez, soit vous prenez le dos, soit vous entrez dans des enchevêtrements de jambes."
+      }
+    ]
+  },
+  "moneyDetails": [
+    "Votre tête DOIT aller du côté éloigné – si votre tête reste du côté proche, vous jouez régulièrement half guard, pas la moitié profonde.",
+    "Contrôlez leur cheville proche avec votre main éloignée – cela les empêche de sortir et de se baser.",
+    "Enfoncez votre épaule dans leur hanche pour créer l'espace pour votre balayage - la poussée de la hanche crée un élan.",
+    "Lorsqu'ils postent une main pour empêcher le balayage, ce bras est vulnérable à un kimura ou à une entrée en arrière."
+  ],
+  "nextStep": "Après les demi-balayages profonds, apprenez le balayage du serveur et la reprise depuis la moitié profonde pour compléter votre système half guard inférieur.",
+  "fixItFast": [
+    "Vous êtes aplati ? Frappez votre underhook et rejoignez-vous immédiatement.",
+    "Vous ne pouvez pas balayer ? Vos hanches ne sont pas assez profondes – placez-les plus loin sous les leurs.",
+    "Ils se retirent ? Suivez-les et passez à une seule jambe X – ne les laissez pas réinitialiser la distance de dépassement."
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "id": "de-la-riva-back-take",
+  "domain": "back_control",
+  "level": "advanced",
+  "status": "draft",
+  "name": "De La Riva Quay lại",
+  "aliases": [],
+  "tags": [
+    "de-la-riva",
+    "berimbolo",
+    "back-take"
+  ],
+  "keywords": [
+    "back take",
+    "berimbolo",
+    "far hip",
+    "hip spin"
+  ],
+  "relatedSkills": [
+    {
+      "id": "reverse-de-la-riva-transitions",
+      "type": "recommended"
+    },
+    {
+      "id": "back-control",
+      "type": "recommended"
+    },
+    {
+      "id": "rear-naked-choke-system",
+      "type": "recommended"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "de-la-riva-sweeps",
+    "guard-pulling-strategy"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [
+    "Nếu bạn không thể lùi lại, móc DLR của bạn sẽ bung ra — hãy giữ móc khóa trong quá trình quay.",
+    "Nếu họ đối mặt với bạn trong khi quay, khả năng kiểm soát hông xa của bạn yếu - hãy nắm chặt hông xa của họ.",
+    "Nếu họ sprawl trong vòng quay, bạn đã quay quá sớm - hãy đợi họ cam kết hoàn toàn với bài đăng."
+  ],
+  "version": 1,
+  "updatedAt": "2026-05-21T00:24:30.747Z",
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "vi",
+  "description": "Sử dụng móc DLR và điều khiển hông xa để quay về phía sau khi đối thủ bảo vệ cú quét bằng cách đăng bài hoặc lùi lại.",
+  "shortInstruction": "Móc DLR sâu, kiểm soát hông xa, xoay theo chúng - Đòn trả lại DLR là giải thưởng cao nhất từ ​​open guard.",
+  "summary": "Việc lấy lại DLR là phần thưởng có tỷ lệ phần trăm cao nhất từ ​​De La Riva guard. Khi bạn cố gắng quét DLR (làm mất thăng bằng về phía trước), nhiều đối thủ sẽ phản ứng bằng cách đưa tay hoặc lùi lại để tránh đòn quét. Phản ứng này tạo ra chính xác không gian và góc mà bạn cần để quay theo chúng và lấy lại phần lưng. DLR quay lại biến một cú quét thất bại thành một vị trí thống trị.",
+  "whyItWorks": [
+    "Khi họ đăng bài để bảo vệ sweep, cánh tay của họ đã bị ràng buộc và không thể sử dụng để chặn vòng quay của bạn.",
+    "Móc DLR giữ cho chân của họ được kiểm soát trong khi bạn quay — họ không thể bước ra khỏi back take.",
+    "Kiểm soát hông xa cung cấp cho bạn điểm xoay để xoay - bạn xoay quanh tâm của chúng.",
+    "Nguyên tắc Danaher: quét và lùi tạo thành một tình thế tiến thoái lưỡng nan - phòng thủ quét, thua sau; phòng thủ phía sau, mất khả năng quét."
+  ],
+  "commonMistakes": [
+    "Quay vòng trước khi họ đăng bài - bạn cần phản ứng của họ để tạo khoảng trống.",
+    "Mất móc DLR trong khi quay - móc giữ chúng gần nhau khi bạn xoay.",
+    "Không kiểm soát được phần hông xa của họ - họ sẽ lao ra và đối mặt với bạn.",
+    "Xoay sai hướng - vòng quay phía sau nằm ở dưới họ chứ không phải xung quanh họ."
+  ],
+  "coachingCues": [
+    "Quét trước, lùi lại sau - mồi quét tạo ra mặt sau.",
+    "Xoay xuống dưới chứ không phải quay vòng - đầu của bạn nằm dưới nách của họ.",
+    "Móc DLR vẫn bị khóa — nếu không có nó, chốt quay lại sẽ không còn nữa.",
+    "Nếu họ đăng, cánh tay đó sẽ bị đưa ra - hãy đi về phía sau."
+  ],
+  "safetySummary": [
+    "Giữ đầu của bạn được bảo vệ trong quá trình quay - đầu của bạn phải ở dưới nách họ chứ không phải ở hông họ.",
+    "Không quay nếu chúng có chuôi trên cổ hoặc đầu của bạn - trước tiên hãy tháo chuôi.",
+    "Khi tiếp đất bằng lưng, hãy bảo vệ lưng của bạn không tiếp đất một cách vụng về trên chân họ."
+  ],
+  "systemLogic": {
+    "corePrinciple": "DLR guard đã thiết lập: mất thăng bằng cho sweep → đối thủ trụ tay → xoay dưới cánh tay trụ của họ → lùi lại → cố định seatbelt và móc.",
+    "decisionTree": [
+      {
+        "condition": "Cơ cấu quay lại DLR hoạt động theo một chuyển động liên tục: mất cân bằng",
+        "action": "cảm nhận bài → quay."
+      },
+      {
+        "condition": "họ không đăng bài (bảo vệ cuộc càn quét bằng cách lùi lại)",
+        "action": "thay vào đó hãy mở rộng sang X-guard."
+      }
+    ],
+    "exitStrategies": []
+  },
+  "moneyDetails": [
+    "Giữ cú móc DLR của bạn sâu và hoạt động trong suốt vòng quay — đó là điểm neo của bạn.",
+    "Nắm chặt hông xa (hoặc vùng thắt lưng) của họ bằng tay còn lại - đây là tay lái của bạn để quay.",
+    "Vòng quay phải ở dưới nách của họ - đầu của bạn nằm dưới cánh tay của họ chứ không phải xung quanh cơ thể họ.",
+    "Sau khi quay, ngay lập tức thiết lập tay cầm seatbelt trước khi họ có thể quay mặt về phía bạn."
+  ],
+  "nextStep": "Sau khi lấy lại DLR, hãy tìm hiểu back control và hệ thống tấn công ngược.",
+  "fixItFast": [
+    "Không thể quay dưới? Móc DLR của bạn quá lỏng — hãy móc lại sâu hơn.",
+    "Họ dừng quay? Khả năng nắm hông ở xa của bạn yếu - hãy kẹp hông họ mạnh hơn.",
+    "Họ sprawl? Bạn quay quá sớm - hãy đợi bài đăng lần sau và quay nhanh hơn."
+  ]
+}

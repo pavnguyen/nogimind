@@ -1,0 +1,122 @@
+{
+  "id": "north-south-escape",
+  "domain": "escapes",
+  "level": "intermediate",
+  "status": "draft",
+  "name": "Évasion Nord Sud",
+  "aliases": [
+    "north-south pin escape",
+    "north-south guard recovery"
+  ],
+  "tags": [
+    "escape",
+    "pin",
+    "north-south",
+    "frame",
+    "knee-shield"
+  ],
+  "keywords": [
+    "north south",
+    "hip frame",
+    "knee shield",
+    "technical stand-up",
+    "shrimp escape"
+  ],
+  "relatedSkills": [
+    {
+      "id": "side-control-escape",
+      "type": "recommended"
+    },
+    {
+      "id": "mount-escape",
+      "type": "recommended"
+    },
+    {
+      "id": "turtle-escape-standup",
+      "type": "recommended"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "side-control-escape"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [],
+  "version": 1,
+  "updatedAt": "2026-06-12T00:00:00.000Z",
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "fr",
+  "description": "Échappez à la position north-south en créant un cadre, en vous transformant en adversaire et en récupérant guard ou en vous levant.",
+  "shortInstruction": "Cadrez sur les hanches, insérez un knee shield, tournez-vous vers l'adversaire, et récupérez guard ou wrestle up.",
+  "summary": "north-south escape utilise un cadre d'avant-bras sur les hanches pour créer une séparation, puis un knee shield pour se transformer en adversaire et récupérer guard. Le système est distinct des évasions side control car le poids de l'adversaire est aligné le long de votre ligne médiane plutôt que perpendiculairement à celle-ci.",
+  "whyItWorks": [
+    "La broche north-south comprime le torse le long de la ligne médiane : un cadre d'avant-bras sur la hanche redirige son poids loin de vos côtes.",
+    "Se transformer en adversaire (au lieu de s'éloigner) utilise votre structure squelettique la plus solide contre sa pression thoracique",
+    "Le knee shield crée une barrière structurelle qui les empêche de rétablir la broche après avoir créé de l'espace.",
+    "north-south est une position de transition : une fuite au bon moment les empêche de l'établir comme une épingle et les oblige à revenir à side control ou à se lever."
+  ],
+  "commonMistakes": [
+    "Essayer de presser l'adversaire sur un dos plat - cela gaspille de l'énergie par rapport à son avantage de poids",
+    "Se détourner de l'adversaire (exposer le dos) au lieu de se transformer en lui avec un cadre",
+    "Laisser l'adversaire coincer votre bras le plus proche entre ses jambes - cela déclenche l'étranglement north-south",
+    "Attendre trop longtemps – north-south devient de plus en plus serré à mesure que l'adversaire baisse son poids et verrouille ses bras sous vos épaules."
+  ],
+  "coachingCues": [
+    "Cadre sur la hanche, pas sur la poitrine",
+    "Transformez-vous en eux, pas loin",
+    "knee shield avant de s'installer"
+  ],
+  "safetySummary": [
+    "L'étranglement north-south peut se déclencher rapidement : protégez votre cou en gardant votre menton rentré et votre bras près de votre poitrine.",
+    "Si l'adversaire a votre bras coincé entre ses jambes pendant un kimura, appuyez tôt et réinitialisez plutôt que de risquer de vous blesser à l'épaule.",
+    "north-south peut provoquer de la claustrophobie : gérez votre respiration et exécutez la séquence d'évasion calmement"
+  ],
+  "systemLogic": {
+    "corePrinciple": "L'évasion north-south suit une séquence en quatre étapes : cadre → évasion de la hanche → knee shield → tourner/récupérer guard",
+    "decisionTree": [
+      {
+        "condition": "Application générale",
+        "action": "Phase de cadre : placez les deux avant-bras sur la ligne des hanches (et non sur la poitrine). Cela utilise les os pour retenir leur poids sur vos côtes"
+      },
+      {
+        "condition": "Application générale",
+        "action": "Phase d'évasion des hanches : éloignez vos hanches des leurs pour créer une poche d'espace pour le knee shield"
+      },
+      {
+        "condition": "Application générale",
+        "action": "Phase knee shield : insérez votre genou proche entre votre poitrine et sa hanche. Le tibia doit être tourné vers l’ensemble du corps et non vers le haut."
+      },
+      {
+        "condition": "Application générale",
+        "action": "Tournez/récupérez : utilisez le knee shield comme point de pivot pour vous tourner vers eux, puis récupérez le guard complet (en overhooking leur bras éloigné) ou levez-vous via un stand-up technique"
+      }
+    ],
+    "exitStrategies": []
+  },
+  "moneyDetails": [
+    "Les évasions north-south sont moins courantes que les évasions side control - maîtriser cette position fait de vous un grappler plus complet",
+    "Une fuite en douceur de north-south rattrape souvent l'adversaire sur guard et mène directement à un balayage ou à une opportunité de reprise.",
+    "S'échapper north-south sans vous gazer permet de conserver de l'énergie pour le reste du match."
+  ],
+  "fixItFast": [
+    "S'ils ont déjà verrouillé le starter north-south : protégez votre cou avec les deux mains, pontez pour déséquilibrer et décollez le bras d'étranglement de l'intérieur vers l'extérieur.",
+    "S’il coince votre bras entre ses jambes : ne le tirez pas – levez votre pouce et faites glisser votre bras le long de la ligne de ses cuisses.",
+    "S'ils passent d'un north-south à un kimura : faites pivoter votre pouce vers votre hanche et amenez votre main vers votre hanche opposée avant qu'ils puissent isoler complètement le bras."
+  ]
+}

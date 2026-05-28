@@ -1,0 +1,123 @@
+{
+  "id": "gogoplata",
+  "domain": "submission_systems",
+  "level": "advanced",
+  "status": "draft",
+  "name": "Gogoplata",
+  "aliases": [],
+  "tags": [
+    "gogoplata",
+    "neck-safety",
+    "guard-submission",
+    "tier:advanced-niche",
+    "meta:specialized",
+    "risk:safety-critical",
+    "family:submission",
+    "group:clamp-guard",
+    "modern-no-gi"
+  ],
+  "keywords": [
+    "gogoplata",
+    "neck safety",
+    "shin pressure"
+  ],
+  "modernSystemGroup": "clamp_guard",
+  "relatedSkills": [
+    {
+      "id": "clamp-guard-control",
+      "type": "recommended"
+    },
+    {
+      "id": "buggy-choke",
+      "type": "recommended"
+    },
+    {
+      "id": "smother-safety",
+      "type": "recommended"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "clamp-guard-control",
+    "front-headlock-defense"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [
+    "If they can breathe with your shin on their neck, your angle is wrong — rotate your hips to cut deeper.",
+    "If they tap to neck crank pressure (not choke), adjust your shin position immediately.",
+    "If they grab your foot and push it away, your leg control is weak — clamp your legs tighter."
+  ],
+  "version": 1,
+  "updatedAt": "2026-05-21T00:24:30.776Z",
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "en",
+  "description": "A choke that uses the shin bone across the opponent's throat — must be differentiated from a neck crank by ensuring the shin is across the throat, not the jaw or cervical spine.",
+  "shortInstruction": "Shin across the throat, pull the head down, squeeze — the gogoplata is a shin choke, not a neck crank.",
+  "summary": "The gogoplata is an advanced no-gi choke where you use your own shin bone to compress the opponent's throat while pulling their head down with your hands. It is typically set up from rubber guard or high guard. The critical safety distinction is between a blood choke (shin across the throat, compressing the trachea and carotids) and a neck crank (shin across the chin or cervical spine). The gogoplata is a legitimate choke when applied correctly, but it is easy to accidentally apply as a crank.",
+  "whyItWorks": [
+    "The shin bone is a strong, rigid lever — it creates more direct pressure than a forearm choke.",
+    "It is an unexpected attack from guard — most opponents do not anticipate a shin on their throat.",
+    "The gogoplata creates a dilemma: defend the shin on your throat or defend the armbar on your posted arm.",
+    "Danaher principle: leg chokes are powerful because they use the strongest bones in the body (shins) against the most vulnerable area (neck)."
+  ],
+  "commonMistakes": [
+    "Letting the shin slide up to the face or chin — this turns a choke into a neck crank.",
+    "Not pulling the opponent's head down — the head pull creates the shin-to-throat connection.",
+    "Using the rubber guard excessively — the gogoplata can be set up from a regular high guard.",
+    "Forcing the choke when the angle is not there — gogoplata requires specific positioning."
+  ],
+  "coachingCues": [
+    "Shin on the throat, not the chin.",
+    "Pull the head down, don't push the shin up.",
+    "If their chin is on your shin, you're cranking — adjust.",
+    "Gogoplata is a choke — if it doesn't feel like one, it's wrong."
+  ],
+  "safetySummary": [
+    "Make absolutely sure your shin is across the THROAT, not the face or cervical spine.",
+    "A shin across the chin or jaw can cause serious neck injury — this is a crank, not a choke.",
+    "Release immediately on tap — the gogoplata can be extremely uncomfortable even at low pressure.",
+    "Use with caution — the gogoplata is banned in some competition rulesets."
+  ],
+  "systemLogic": {
+    "corePrinciple": "Rubber guard or high guard: bring your foot to your opposite shoulder → shin across their throat → pull their head down → squeeze.",
+    "decisionTree": [
+      {
+        "condition": "General application",
+        "action": "The gogoplata works as a chain from the rubber guard: if they defend the sweep, attack the gogoplata."
+      },
+      {
+        "condition": "they defend by posturing",
+        "action": "switch to a triangle or armbar."
+      }
+    ],
+    "exitStrategies": []
+  },
+  "moneyDetails": [
+    "Position your shin so the flat, bony part presses against their trachea — not the side of your shin.",
+    "Pull their head down by grabbing the back of their head and pulling toward your chest.",
+    "Your free foot should hook over your own ankle to lock the leg position.",
+    "Keep your hips mobile — adjust the angle until the choke is clean."
+  ],
+  "nextStep": "After the gogoplata, learn the rubber guard system and triangle choke.",
+  "fixItFast": [
+    "Shin keeps sliding to their chin? Pull their head down harder — the angle change drops the shin to the throat.",
+    "They grab your foot? Swim your foot to the other side of their neck.",
+    "Choke not working? Rotate your hips — a small hip adjustment changes the shin angle dramatically."
+  ]
+}

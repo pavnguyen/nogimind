@@ -1,0 +1,226 @@
+[
+  {
+    "id": "positional-hierarchy",
+    "name": {
+      "en": "Positional Hierarchy",
+      "vi": "Phân cấp vị trí",
+      "fr": "Hiérarchie positionnelle"
+    }
+  },
+  {
+    "id": "inside-position",
+    "name": {
+      "en": "Inside Position",
+      "vi": "Vị trí trong",
+      "fr": "Inside position"
+    }
+  },
+  {
+    "id": "connection-before-control",
+    "name": {
+      "en": "Connection Before Control",
+      "vi": "Kết nối trước kiểm soát",
+      "fr": "Connexion avant contrôle"
+    }
+  },
+  {
+    "id": "control-before-submission",
+    "name": {
+      "en": "Control Before Submission",
+      "vi": "Kiểm soát trước khóa siết",
+      "fr": "Contrôle avant soumission"
+    }
+  },
+  {
+    "id": "frames",
+    "name": {
+      "en": "Frames",
+      "vi": "Frames",
+      "fr": "Frames"
+    }
+  },
+  {
+    "id": "wedges",
+    "name": {
+      "en": "Wedges",
+      "vi": "Wedges",
+      "fr": "Wedges"
+    }
+  },
+  {
+    "id": "levers",
+    "name": {
+      "en": "Levers",
+      "vi": "Levers",
+      "fr": "Leviers"
+    }
+  },
+  {
+    "id": "hooks",
+    "name": {
+      "en": "Hooks",
+      "vi": "Hooks",
+      "fr": "Hooks"
+    }
+  },
+  {
+    "id": "posts",
+    "name": {
+      "en": "Posts",
+      "vi": "Posts",
+      "fr": "Posts"
+    }
+  },
+  {
+    "id": "pummeling",
+    "name": {
+      "en": "Pummeling",
+      "vi": "Pummeling",
+      "fr": "Pummeling"
+    }
+  },
+  {
+    "id": "head-position",
+    "name": {
+      "en": "Head Position",
+      "vi": "Vị trí đầu",
+      "fr": "Position de tête"
+    }
+  },
+  {
+    "id": "hip-line-shoulder-line",
+    "name": {
+      "en": "Hip Line vs Shoulder Line",
+      "vi": "Đường hông vs đường vai",
+      "fr": "Hip line vs shoulder line"
+    }
+  },
+  {
+    "id": "knee-line",
+    "name": {
+      "en": "Knee Line",
+      "vi": "Đường gối",
+      "fr": "Knee line"
+    }
+  },
+  {
+    "id": "elbow-knee-connection",
+    "name": {
+      "en": "Elbow-Knee Connection",
+      "vi": "Kết nối khuỷu-gối",
+      "fr": "Connexion coude-genou"
+    }
+  },
+  {
+    "id": "base-balance",
+    "name": {
+      "en": "Base and Balance",
+      "vi": "Nền và thăng bằng",
+      "fr": "Base et équilibre"
+    }
+  },
+  {
+    "id": "angle-creation",
+    "name": {
+      "en": "Angle Creation",
+      "vi": "Tạo góc",
+      "fr": "Création d’angle"
+    }
+  },
+  {
+    "id": "pressure-direction",
+    "name": {
+      "en": "Pressure Direction",
+      "vi": "Hướng áp lực",
+      "fr": "Direction de pression"
+    }
+  },
+  {
+    "id": "dilemma-attacks",
+    "name": {
+      "en": "Dilemma Attacks",
+      "vi": "Dilemma Attacks",
+      "fr": "Attaques en dilemme"
+    }
+  },
+  {
+    "id": "failure-response",
+    "name": {
+      "en": "Failure Response",
+      "vi": "Phản ứng khi thất bại",
+      "fr": "Réponse à l’échec"
+    }
+  },
+  {
+    "id": "early-vs-late-defense",
+    "name": {
+      "en": "Early Defense vs Late Defense",
+      "vi": "Phòng thủ sớm vs phòng thủ muộn",
+      "fr": "Défense tôt vs tard"
+    }
+  },
+  {
+    "id": "guard-retention-layers",
+    "name": {
+      "en": "Guard Retention Layers",
+      "vi": "Lớp giữ guard",
+      "fr": "Couches de rétention de garde"
+    }
+  },
+  {
+    "id": "wrestle-up-philosophy",
+    "name": {
+      "en": "Wrestle-Up Philosophy",
+      "vi": "Wrestle-Up Philosophy",
+      "fr": "Philosophie wrestle-up"
+    }
+  },
+  {
+    "id": "leg-lock-safety-hierarchy",
+    "name": {
+      "en": "Leg Lock Safety Hierarchy",
+      "vi": "Leg Lock Safety Hierarchy",
+      "fr": "Hiérarchie sécurité leg lock"
+    }
+  },
+  {
+    "id": "deliberate-practice",
+    "name": {
+      "en": "Deliberate Practice",
+      "vi": "Tập luyện có chủ đích",
+      "fr": "Pratique délibérée"
+    }
+  },
+  {
+    "id": "positional-rolling",
+    "name": {
+      "en": "Positional Rolling",
+      "vi": "Rolling vị trí",
+      "fr": "Rolling positionnel"
+    }
+  },
+  {
+    "id": "exposure-before-finish",
+    "name": {
+      "en": "Exposure Before Finish",
+      "vi": "Exposure trước Finish",
+      "fr": "Exposition avant finition"
+    }
+  },
+  {
+    "id": "ride-vs-pin-vs-submission",
+    "name": {
+      "en": "Ride vs Pin vs Submission",
+      "vi": "Ride vs Pin vs Submission",
+      "fr": "Ride vs Pin vs Soumission"
+    }
+  },
+  {
+    "id": "safe-unsafe-rotation",
+    "name": {
+      "en": "Safe vs Unsafe Rotation",
+      "vi": "Xoay An Toàn vs Không An Toàn",
+      "fr": "Rotation sûre vs risquée"
+    }
+  }
+]

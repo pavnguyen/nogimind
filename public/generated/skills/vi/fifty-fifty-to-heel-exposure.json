@@ -1,0 +1,121 @@
+{
+  "id": "fifty-fifty-to-heel-exposure",
+  "domain": "submission_systems",
+  "level": "advanced",
+  "status": "draft",
+  "name": "Tiếp xúc 50/50 với gót chân",
+  "aliases": [],
+  "tags": [
+    "50-50",
+    "heel-hook",
+    "heel-exposure",
+    "leg-lock",
+    "entanglement"
+  ],
+  "keywords": [
+    "heel exposure",
+    "50/50",
+    "hip rotation",
+    "secondary leg",
+    "finishing mechanics"
+  ],
+  "relatedSkills": [
+    {
+      "id": "saddle-inside-sankaku-control",
+      "type": "recommended"
+    },
+    {
+      "id": "knee-line-escape",
+      "type": "recommended"
+    },
+    {
+      "id": "k-guard-entry",
+      "type": "recommended"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "backside-50-50-control",
+    "heel-hook-safety",
+    "leg-lock-safety-basics"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [
+    "Nếu họ quay ra khỏi heel hook, bạn sẽ mất quyền kiểm soát chân phụ của họ — hãy thiết lập lại thế bám.",
+    "Nếu bạn không thể tìm thấy gót chân, góc của bạn quá vuông - hãy xoay hông xa hơn.",
+    "Nếu chúng xếp chồng cho bạn, hãy thả ra và đặt lại - đừng chống lại ngăn xếp theo tỷ lệ 50/50."
+  ],
+  "version": 1,
+  "updatedAt": "2026-05-21T00:24:30.766Z",
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "vi",
+  "description": "Từ vị trí 50/50, xoay góc hông của bạn và điều khiển chân phụ của đối phương để lộ gót chân của họ để thực hiện cú dứt điểm heel hook an toàn và hiệu quả.",
+  "shortInstruction": "Khóa 50/50, xoay hông, khống chế chân xa, tấn công gót chân lộ ra.",
+  "summary": "Tư thế 50/50 là một trong những tư thế vướng chân phổ biến nhất. Tuy nhiên, việc hoàn thành heel hook từ 50/50 đòi hỏi cơ chế cụ thể: bạn phải phá vỡ tính đối xứng của vị trí bằng cách xoay hông và điều khiển chân phụ của chúng (chân không bị tấn công). Nếu không kiểm soát được chân phụ, đối thủ chỉ cần xoay hông để giảm áp lực ở gót chân. Chìa khóa của 50/50 heel hook là làm cho nó không đối xứng - bạn điều khiển chân còn lại của chúng để chúng không thể quay ngược chiều.",
+  "whyItWorks": [
+    "Kiểm soát chân phụ giúp họ không thể xoay hông để thoát khỏi áp lực từ gót chân.",
+    "Xoay hông sẽ thay đổi góc của heel hook — quay gót chân về phía bạn để có cú dứt điểm gọn gàng hơn.",
+    "Vị trí 50/50 giúp bạn kiểm soát chặt chẽ chân chính của chúng - chân phụ là lối thoát hiểm.",
+    "Nguyên tắc Danaher: 50/50 heel hook giành chiến thắng bằng cách kiểm soát hông mà họ có thể hướng tới - kiểm soát hông xa của họ để phá vỡ tính đối xứng."
+  ],
+  "commonMistakes": [
+    "Cố gắng hoàn thành heel hook mà không điều khiển chặng phụ — chúng sẽ quay ra ngoài.",
+    "Ngồi quá vuông góc với họ - 50/50 đòi hỏi một góc chứ không phải sự đối xứng.",
+    "Áp dụng heel hook trước khi bạn có góc — việc tiếp xúc với gót chân diễn ra sau khi kiểm soát hông.",
+    "Nhả chân phụ quá sớm trong khi kết thúc - hãy kiểm soát nó cho đến khi chạm."
+  ],
+  "coachingCues": [
+    "Kiểm soát chân xa, sở hữu cú dứt điểm.",
+    "Phá vỡ tính đối xứng - tỷ lệ 50/50 không đối xứng có thể thắng được.",
+    "Xoay hông của bạn, sau đó tấn công gót chân.",
+    "Nếu họ quay gót đi, bạn sẽ thua trong cuộc chiến hông."
+  ],
+  "safetySummary": [
+    "heel hooks tác dụng lực xoay lên đầu gối — tác động từ từ và tôn trọng lực chạm.",
+    "Không bao giờ bùng nổ thành heel hook — chấn thương đầu gối có thể xảy ra trước khi đối phương cảm thấy đau.",
+    "Thiết lập các giao thức chạm rõ ràng cho tất cả các đòn tấn công bằng chân trước khi tập luyện.",
+    "Không thích hợp cho người mới bắt đầu - đòi hỏi sự hiểu biết vững chắc về khóa chân."
+  ],
+  "systemLogic": {
+    "corePrinciple": "Khóa 50/50: điều khiển chân phụ → xoay hông → lộ gót chân → áp dụng vòng xoay heel hook → kết thúc.",
+    "decisionTree": [
+      {
+        "condition": "Ứng dụng chung",
+        "action": "50/50 là một vị trí chuyển tiếp - hãy vượt qua nó để về đích, đừng mắc kẹt ở đó."
+      },
+      {
+        "condition": "họ bảo vệ heel hook bằng cách chuyển sang",
+        "action": "thay vào đó hãy lấy mặt sau."
+      }
+    ],
+    "exitStrategies": []
+  },
+  "moneyDetails": [
+    "Kiểm soát chân phụ của họ bằng cách giữ nó giữa hai chân của bạn hoặc dùng tay còn lại nắm lấy mắt cá chân của họ.",
+    "Xoay hông ra xa gót chân mà bạn đang tấn công - thao tác này sẽ hướng gót chân của họ về phía bạn.",
+    "Cách cầm heel hook phải là: một tay đặt trên gót chân, tay kia đặt trên ngón chân (tay cầm súng lục).",
+    "Kết thúc xoay: xoay gót chân về phía hông của chính họ - xoay bên ngoài là kết thúc."
+  ],
+  "nextStep": "Sau khi tiếp xúc với gót chân 50/50, hãy tìm hiểu saddle và mặt sau 50/50 để có thêm các tùy chọn vướng chân.",
+  "fixItFast": [
+    "Không thể tìm thấy gót chân? Xoay hông của bạn nhiều hơn để lộ nó.",
+    "Họ quay ra? Kiểm soát chân phụ của họ chặt chẽ hơn.",
+    "heel hook cảm thấy yếu đuối? Tay cầm của bạn quá nông - hãy thọc tay bạn sâu hơn vào gót chân của họ."
+  ]
+}

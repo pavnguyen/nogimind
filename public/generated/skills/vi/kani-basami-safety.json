@@ -1,0 +1,139 @@
+{
+  "id": "kani-basami-safety",
+  "domain": "positional_awareness",
+  "level": "beginner",
+  "status": "draft",
+  "name": "An toàn Kani Basami",
+  "aliases": [
+    "scissor takedown safety",
+    "scissor reap awareness",
+    "banned takedown"
+  ],
+  "tags": [
+    "safety",
+    "knee-safety",
+    "takedown",
+    "tier:safety-critical",
+    "risk:safety-critical",
+    "family:safety",
+    "group:takedown-safety",
+    "ibjjf-rules",
+    "modern-no-gi"
+  ],
+  "keywords": [
+    "kani basami",
+    "scissor takedown",
+    "ACL",
+    "banned technique",
+    "IBJJF"
+  ],
+  "modernSystemGroup": "takedown_safety",
+  "relatedSkills": [
+    {
+      "id": "single-leg-bjj",
+      "type": "recommended"
+    },
+    {
+      "id": "leg-lock-safety-basics",
+      "type": "recommended"
+    },
+    {
+      "id": "reaping-awareness",
+      "type": "recommended"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "positional-hierarchy"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [],
+  "version": 1,
+  "updatedAt": "2026-06-12T00:00:00.000Z",
+  "contentRefs": {
+    "videos": "videos.json",
+    "qualityChecklist": "qualityChecklist"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": true,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "vi",
+  "description": "Kani basami (hạ gục bằng cắt kéo) là động tác có độ rủi ro cao bị cấm trong hầu hết BJJ và các cuộc thi vật lộn. Một chân đi ra sau đầu gối của đối phương trong khi chân kia tiến về phía hông của họ, tạo ra lực quay và lực nén nguy hiểm lên khớp gối.",
+  "shortInstruction": "Đừng cố gắng tập luyện kani basami trừ khi có sự giám sát của chuyên gia. Chân đẩy sau đầu gối đối phương có thể phá hủy ACL, MCL và sụn chêm. Sử dụng các lựa chọn thay thế gỡ xuống an toàn hơn như chọn một chân hoặc mắt cá chân.",
+  "summary": "Nhận thức về Kani basami dạy về sự nguy hiểm của kỹ thuật bị cấm này và cung cấp các lựa chọn thay thế an toàn hơn cho các mục gỡ xuống. Kỹ thuật này bị cấm vì chuyển động cắt kéo khiến đầu gối không có đường xoay an toàn và trọng lượng của đối phương đè lên đầu gối cố định sẽ tạo ra lực thảm khốc mà phẫu thuật tái tạo không thể sửa chữa hoàn toàn.",
+  "whyItWorks": [
+    "Chuyển động cắt kéo khiến khớp gối giữa hai chân của kẻ tấn công không có nơi nào để xoay an toàn",
+    "Trọng lượng cơ thể của đối thủ đè lên đầu gối bị kẹt sẽ tạo ra lực vượt quá độ căng của dây chằng - rách ACL là chấn thương phổ biến nhất",
+    "Ngay cả với một đối tác hợp tác, tốc độ và đòn bẩy của việc di chuyển khiến không thể kiểm soát an toàn trong môi trường trực tiếp",
+    "Mọi cơ quan quản lý lớn (IBJJF, ADCC, UAEJJF) đều cấm kani basami do tỷ lệ thương tật không đổi"
+  ],
+  "commonMistakes": [
+    "Cố gắng tập luyện kani basami với suy nghĩ rằng nó 'an toàn' với một đối tác hợp tác - thương tích vẫn xảy ra với tỷ lệ cao trong môi trường được kiểm soát",
+    "Gây nhầm lẫn giữa kani basami (gặt cắt kéo) với thu hoạch hợp pháp (gặt bên ngoài, chuyến đi bên trong, ko-soto-gari) - chúng khác nhau về mặt cơ học",
+    "Không biết luật thi đấu: kani basami bị cấm ở TẤT CẢ các cấp độ đai trong IBJJF và hầu hết các giải đấu lớn",
+    "Tin rằng việc tập luyện kani basami một cách 'cẩn thận' sẽ loại bỏ rủi ro - cơ chế chấn thương vốn có của kỹ thuật chứ không phải cường độ"
+  ],
+  "coachingCues": [
+    "Cắt kéo = bị cấm",
+    "Rủi ro ACL là có thật và vĩnh viễn",
+    "Thay vào đó hãy sử dụng chân đơn, chân đôi hoặc mắt cá chân",
+    "Không có sự cạnh tranh nào cho phép điều đó vì một lý do"
+  ],
+  "safetySummary": [
+    "Kani basami bị cấm bởi IBJJF, ADCC, UAEJJF và hầu hết các cuộc thi BJJ trên toàn thế giới",
+    "Nguy cơ chấn thương đầu gối thảm khốc (ACL, MCL, rách sụn khớp) cần phẫu thuật và hồi phục 9-12 tháng vượt xa bất kỳ lợi ích nào",
+    "Có nhiều lựa chọn thay thế an toàn: hạ gục một chân, hạ gục hai chân, nâng mắt cá chân, kéo tay để thu lại, đi vào trong (ko-soto-gari), gặt bên ngoài (o-soto-gari)",
+    "Nếu bạn thấy một đối tác đang tập luyện kani basami, hãy dừng động tác bằng lời nói và giải thích sự nguy hiểm"
+  ],
+  "systemLogic": {
+    "corePrinciple": "Kani basami (hạ gục bằng cắt kéo) bị cấm bởi mọi cơ quan quản lý vật lộn lớn vì chuyển động cắt kéo khiến đầu gối không có đường xoay an toàn và trọng lượng cơ thể của đối thủ rơi xuống tạo ra lực dây chằng thảm khốc mà phẫu thuật không thể sửa chữa hoàn toàn.",
+    "decisionTree": [
+      {
+        "condition": "Bạn muốn một mục gỡ xuống giống như hình cắt kéo",
+        "action": "Thay vào đó, hãy sử dụng dụng cụ kẹp mắt cá chân - nó sử dụng khái niệm tương tự (bỏ một chân ra) mà không gây chèn ép đầu gối nguy hiểm."
+      },
+      {
+        "condition": "Bạn muốn tấn công vào chân khi đứng",
+        "action": "Sử dụng đòn hạ gục bằng một chân bằng đòn quét hoặc nâng. Điều này an toàn hơn, ghi điểm và không có nguy cơ chấn thương đầu gối cho bạn tập của bạn."
+      },
+      {
+        "condition": "Một đối tác tập luyện thử kani basami với bạn",
+        "action": "Ngay lập tức đặt tay còn lại của bạn lên tấm thảm để giảm trọng lượng cho chân bị mắc kẹt và chạm bằng lời nói. Đừng chống lại sự xoay - thư giãn sẽ giảm thiểu tổn thương dây chằng."
+      },
+      {
+        "condition": "Một đối tác đào tạo muốn thực hành kani basami",
+        "action": "Chuyển hướng họ đến các mục một chân - họ sẽ nhận được kết quả hạ gục tương tự mà không gặp rủi ro về đầu gối. Giải thích rằng cơ chế chấn thương là do kỹ thuật chứ không phải cường độ."
+      },
+      {
+        "condition": "Bạn cảm thấy đầu gối của mình bị cắt khi tập luyện",
+        "action": "Hãy thư giãn và chạm ngay lập tức. Đừng cố gắng chống lại nó - ACL có thể xé nát lực thấp tới 500 Newton. Một cú chạm trong thực tế không phải là một mất mát."
+      }
+    ],
+    "exitStrategies": [
+      "Nếu ai đó thử kani basami, hãy dán lên tấm thảm và chạm vào trước khi kéo đóng lại.",
+      "Nếu bạn muốn hạ gục ở biên độ cao, hãy sử dụng đòn ném hai chân hoặc khóa cơ thể — an toàn hơn và đạt điểm cao hơn trong thi đấu.",
+      "Biết luật thi đấu: kani basami bị cấm ở TẤT CẢ các cấp độ đai trong IBJJF và hầu hết các giải đấu lớn."
+    ]
+  },
+  "moneyDetails": [
+    "Kani basami là kỹ thuật bị cấm nhiều nhất trong vật lộn vì một lý do - tỷ lệ chấn thương rất thảm khốc và quá trình hồi phục lâu dài",
+    "Biết được sự nguy hiểm của kani basami sẽ ngăn bạn thử nó và bảo vệ bạn khỏi những đối tác đào tạo có thể không biết nó bị cấm",
+    "Sự lựa chọn an toàn nhất rất đơn giản: đừng làm kani basami. Bao giờ. Có hàng chục lần gỡ xuống an toàn ghi được số điểm giống nhau"
+  ],
+  "fixItFast": [
+    "Nếu ai đó cố gắng tấn công bạn bằng kani basami: ngay lập tức đặt tay còn lại của bạn lên tấm thảm để giảm trọng lượng cho chân bị mắc kẹt và chạm bằng lời nói",
+    "Nếu một đối tác đào tạo cố gắng học kani basami: chuyển hướng họ đến các mục bằng một chân - họ sẽ nhận được cùng một lần hạ gục mà không gặp rủi ro về đầu gối",
+    "Nếu bạn cảm thấy đầu gối của mình bị cắt: đừng chống lại sự xoay - hãy thư giãn và gõ nhẹ ngay lập tức để giảm thiểu tổn thương dây chằng"
+  ]
+}

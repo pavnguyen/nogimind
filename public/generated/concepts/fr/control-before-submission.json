@@ -1,0 +1,65 @@
+{
+  "id": "control-before-submission",
+  "locale": "fr",
+  "title": "Contrôle avant soumission",
+  "category": "offensive",
+  "level": "fundamental",
+  "tags": [
+    "submission",
+    "control",
+    "safety"
+  ],
+  "shortDefinition": "Une soumission devient fiable quand l’évasion principale est bloquée.",
+  "whyItMatters": "Attaquer trop tôt fait perdre mount, back, side control ou crée scramble dangereux.",
+  "deepExplanation": "Contrôle avant soumission signifie isoler shoulder, cou ou hip line, bloquer la première évasion, puis finir. Cela protège efficacité et sécurité.",
+  "beginnerView": "Ne serrez pas si l’adversaire peut encore tourner librement.",
+  "advancedView": "Créer un dilemme: rester contrôlé ou exposer le finish.",
+  "ifThenExamples": [
+    {
+      "if": "Si vous perdez Contrôle avant soumission pendant l’échange.",
+      "then": "Arrêtez d’accélérer, récupérez la structure corporelle proche, puis continuez.",
+      "why": "Le no-gi moderne punit vite la force après perte de structure.",
+      "relatedSkillIds": [
+        "rear-naked-choke-system",
+        "arm-triangle-mount"
+      ]
+    },
+    {
+      "if": "Si l’adversaire répond correctement à votre première ligne.",
+      "then": "Utilisez Contrôle avant soumission pour passer à une branche plus sûre au lieu de forcer.",
+      "why": "Un bon concept transforme la réaction adverse en information pour la décision suivante.",
+      "relatedSkillIds": [
+        "arm-triangle-mount",
+        "guillotine-system",
+        "kimura-system"
+      ]
+    }
+  ],
+  "commonMisunderstandings": [
+    {
+      "misunderstanding": "Contrôle avant soumission est une astuce technique isolée.",
+      "correction": "Voyez-le comme une règle de décision présente dans plusieurs positions."
+    },
+    {
+      "misunderstanding": "Comprendre le concept suffit pour l’utiliser en live.",
+      "correction": "Le concept doit être lié à signaux corporels, cues courts et rolling positionnel."
+    }
+  ],
+  "trainingCues": [
+    "Nommez Contrôle avant soumission avant d’ajouter force.",
+    "Cherchez le signal corporel, pas une impression vague.",
+    "Si la structure est perdue, reset une couche d’abord.",
+    "Driller lentement, puis tester avec résistance progressive."
+  ],
+  "relatedSkillIds": [
+    "rear-naked-choke-system",
+    "arm-triangle-mount",
+    "guillotine-system",
+    "kimura-system"
+  ],
+  "relatedConceptIds": [
+    "dilemma-attacks",
+    "connection-before-control",
+    "positional-hierarchy"
+  ]
+}

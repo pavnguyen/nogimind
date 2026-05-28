@@ -1,0 +1,113 @@
+{
+  "id": "straight-ankle-lock-safety",
+  "domain": "submission_systems",
+  "level": "intermediate",
+  "status": "draft",
+  "name": "Droit ankle lock Sécurité",
+  "aliases": [],
+  "tags": [
+    "leg-lock",
+    "ankle-lock"
+  ],
+  "keywords": [
+    "straight ankle lock",
+    "ashi garami",
+    "knee line",
+    "safety tap"
+  ],
+  "relatedSkills": [
+    {
+      "id": "heel-hook-safety",
+      "type": "recommended"
+    },
+    {
+      "id": "single-leg-x-basics",
+      "type": "recommended"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "leg-lock-safety-basics",
+    "single-leg-x-basics"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [
+    "S'ils s'échappent en tournant le genou, votre contrôle de la ligne du genou était insuffisant : serrez leur genou avec votre autre jambe.",
+    "Si vous ne pouvez pas terminer, leur pied est trop bas sur votre corps – amenez-le jusqu'à l'os de votre hanche.",
+    "S'ils saisissent leur propre jambe, enlevez la poignée en frappant votre main à l'intérieur."
+  ],
+  "version": 1,
+  "updatedAt": "2026-05-21T00:24:30.754Z",
+  "contentRefs": {
+    "videos": "videos.json",
+    "qualityChecklist": "qualityChecklist"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": true,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "fr",
+  "description": "Apprenez le ankle lock droit grâce au contrôle approprié de la ligne du genou, à la position du pied, à la mécanique de l'angle et à l'étiquette de frappe en toute sécurité - il s'agit du verrouillage de jambe le plus courant et nécessite le respect du genou et de la cheville.",
+  "shortInstruction": "Contrôlez la ligne du genou, placez le pied sur votre hanche, penchez-vous en arrière avec l'extension de la hanche - le ankle lock droit est sûr avec le contrôle, dangereux sans lui.",
+  "summary": "Le ankle lock droit est le premier verrouillage de jambe que la plupart des praticiens de BJJ apprennent et l'attaque de jambe la plus courante dans No-Gi. Bien qu'il soit considéré comme le verrou de jambe « le plus sûr », il nécessite néanmoins une mécanique appropriée et du respect. Les principes clés de sécurité sont les suivants : contrôlez la ligne du genou (empêchez-le de tourner son genou vers vous), positionnez correctement son pied contre votre hanche et utilisez une extension lente et contrôlée. Le ankle lock droit attaque la cheville et peut également exercer une pression sur le genou s'il est mal appliqué.",
+  "whyItWorks": [
+    "Il attaque l’articulation de la cheville avec un simple mécanisme d’hyper-extension/rotation.",
+    "Le contrôle de la ligne du genou les empêche de s'échapper en roulant ou en tournant la hanche.",
+    "Le poste peut être conservé même si la soumission n’est pas terminée – vous pouvez le conserver et effectuer une transition.",
+    "Principe Danaher : le ankle lock droit est le verrou de jambe le plus sûr pour enseigner aux débutants car il possède la mécanique et les signaux de frappe les plus clairs."
+  ],
+  "commonMistakes": [
+    "Ne pas contrôler le genou de l'adversaire – un genou libre lui permet de se retourner et de s'échapper.",
+    "Placer son pied sur la mauvaise partie de votre hanche – le pied doit être sur l’os de votre hanche, pas sur votre ventre.",
+    "Appliquer la soumission de manière explosive – une extension lente permet à votre partenaire de taper avant de se blesser.",
+    "Les laisser saisir leur propre jambe pour se défendre – retirer leur emprise avant de terminer."
+  ],
+  "coachingCues": [
+    "Contrôlez d’abord la ligne du genou – sans cela, le verrouillage échouera.",
+    "Le pied sur l'os de la hanche, pas sur le ventre.",
+    "Penchez-vous lentement en arrière – les ankle lock explosifs provoquent des blessures.",
+    "Si vous sentez la cheville éclater, arrêtez-vous – vous avez dépassé le point de frappe."
+  ],
+  "safetySummary": [
+    "N'appliquez JAMAIS le ankle lock droit de manière explosive : une pression lente et contrôlée permet au partenaire de taper avant de se blesser.",
+    "Le ankle lock droit peut également exercer une pression de rotation sur le genou – soyez-en conscient.",
+    "Tapez sur TOUT inconfort à la cheville ou au genou – n’attendez pas la douleur.",
+    "Établissez des protocoles de frappe clairs avant d’entraîner les verrouillages des jambes."
+  ],
+  "systemLogic": {
+    "corePrinciple": "Enchevêtrement des jambes établi → contrôlez la ligne de vos genoux → positionnez leur pied sur l'os de votre hanche → penchez-vous en arrière → terminez l'extension.",
+    "decisionTree": [
+      {
+        "condition": "Application générale",
+        "action": "Le ankle lock droit est la position d'entrée pour les verrouillages de jambes plus avancés (heel hook, prise des orteils)."
+      },
+      {
+        "condition": "Application générale",
+        "action": "Si vous défendez, le ankle lock droit, passez au heel hook ou à la prise des orteils."
+      }
+    ],
+    "exitStrategies": []
+  },
+  "moneyDetails": [
+    "Contrôlez son genou en le plaquant contre votre poitrine ou en le piégeant avec votre autre jambe.",
+    "Placez leur pied contre votre os de la hanche (ASIS) – s'il glisse vers votre ventre, vous perdez l'effet de levier.",
+    "La finition vient du fait de se pencher en arrière tout en tirant les orteils vers vous – extension de la hanche, pas traction du bras.",
+    "S'il essaie de saisir sa jambe, nagez votre main à l'intérieur et rétablissez la prise."
+  ],
+  "nextStep": "Après la sécurité ankle lock directe, apprenez la sécurité heel hook et la barre de genou.",
+  "fixItFast": [
+    "Ils continuent de tourner le genou ? Coincez-le contre votre poitrine.",
+    "Le pied continue de glisser ? Repositionnez-le sur votre os de la hanche.",
+    "Vous ne pouvez pas terminer ? Votre corps est trop loin de son pied – rapprochez-vous."
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "id": "turtle-escape-standup",
+  "locale": "vi",
+  "name": "Rùa trốn thoát để đứng lên",
+  "description": "Thoát khỏi tư thế con rùa bằng cách tránh để lộ lưng, tạo chân đế và đứng ở tư thế trung lập.",
+  "shortInstruction": "Bảo vệ cổ của bạn, trụ bằng một tay, đặt đầu gối bên dưới và đứng dậy kỹ thuật để đối mặt với đối thủ.",
+  "summary": "Rùa thoát hiểm để đứng lên sử dụng trình tự đứng lên kỹ thuật để chuyển từ rùa phòng thủ sang tư thế đứng trung lập hoặc giao tranh mà không cần lùi lại. Hệ thống ưu tiên vị trí đặt tay và thời gian đầu gối hơn là lăn nổ.",
+  "whyItWorks": [
+    "Con rùa bảo vệ lưng nhưng cũng nhốt bạn trong tư thế phòng thủ - một lối thoát đứng sẽ giữ lại trạng thái trung lập mà không để lộ lưng",
+    "Đăng bài bằng một tay tạo ra chân đế giúp đối phương không thể lăn bạn qua đường vai của bạn",
+    "Trình tự đứng lên kỹ thuật có hiệu quả về mặt cơ sinh học - nó sử dụng các nhóm cơ mạnh nhất của bạn (mông, cơ tứ đầu) để nâng trọng lượng của bạn",
+    "Đối mặt với đối thủ trong khi đứng lên sẽ khiến họ không thể lùi lại khi bạn đứng lên"
+  ],
+  "commonMistakes": [
+    "Ngồi lùi lại guard thay vì đứng lên — điều này làm mất vị trí hàng đầu và đặt lại vị trí yếu hơn",
+    "Đặt cả hai tay phẳng khi cố gắng đứng - điều này khiến không có cánh tay để bảo vệ lưng",
+    "Quay lưng lại với đối thủ khi đứng lên (để lộ lưng) thay vì đứng thẳng",
+    "Cố gắng bùng nổ thay vì sử dụng kỹ thuật đứng lên có kiểm soát, tuần tự"
+  ],
+  "coachingCues": [
+    "Một tay trụ, một tay đánh",
+    "Đầu gối dưới hông, không phải ngực",
+    "Hãy đối mặt với họ, đừng để lộ phía sau"
+  ],
+  "safetySummary": [
+    "Đừng chống cự lại cú đánh mạnh đến mức bạn có thể bị vẹo cổ hoặc bị nghẹn - thà thủng lưới và thoát ra ngoài còn hơn là bị nghẹn",
+    "Nếu đối thủ có seatbelt chặt chẽ, hãy ưu tiên đánh tay trước khi cố gắng đứng lên",
+    "Granby lăn để trốn thoát rùa có thể bị thương ở cổ nếu thực hiện mà không có sự kiểm soát đầu - hãy sử dụng tư thế đứng như một giải pháp thay thế an toàn hơn"
+  ],
+  "keyCorrections": [],
+  "systemLogic": {
+    "corePrinciple": "Quá trình thoát ra khỏi tư thế đứng của rùa tuân theo trình tự năm bước: bảo vệ cổ → trụ một tay → chèn đầu gối → tư thế đứng kỹ thuật → giao chiến",
+    "decisionTree": [
+      {
+        "condition": "Ở Bước 1 (Nhận thức)",
+        "action": "nhận biết mình đang ở thế rùa và đối thủ ở trên. Đây là một vị trí phòng thủ - mục tiêu của bạn là trốn thoát chứ không phải ở lại"
+      },
+      {
+        "condition": "Ở Bước 2 (Khung)",
+        "action": "đặt khung trên thảm bằng cẳng tay để tạo khoảng trống dưới ngực. Khung ngăn chặn đối thủ đè bẹp bạn hoặc lấy lại"
+      },
+      {
+        "condition": "Ở Bước 3 (Cơ sở)",
+        "action": "đặt một đầu gối bên dưới cơ thể để tạo điểm tựa. Một đầu gối duy nhất đặt dưới bạn cho phép bạn đứng lên hoặc ngồi qua"
+      },
+      {
+        "condition": "Ở Bước 4 (Quyết định thoát)",
+        "action": "chọn lối thoát của bạn: ngồi đến guard, đứng lên căn cứ hoặc lăn tròn để phục hồi guard. Mỗi lối thoát có mức độ rủi ro khác nhau"
+      },
+      {
+        "condition": "Ở Bước 5 (Tương tác)",
+        "action": "khi bạn thực hiện cuộc chạy trốn, hãy luôn kết nối với đối thủ. Nếu họ đi theo bạn, hãy sử dụng đà của họ; nếu họ thảnh thơi, hãy đứng lên hoàn toàn"
+      }
+    ]
+  },
+  "moneyDetails": [
+    "Rùa đứng là một kỹ năng có nguồn gốc từ đấu vật được dịch trực tiếp sang BJJ — đây là cách trốn thoát an toàn nhất và tiết kiệm năng lượng nhất của rùa",
+    "Sử dụng giá đỡ thay vì lăn từ rùa sẽ giúp bạn không bị đè bẹp bởi những người cản sau có kinh nghiệm",
+    "Một con rùa đứng lên nhanh chóng chuyển sang cơ hội hạ gục (chân đơn, chân đôi) thay vì để thủng lưới ở vị trí cuối bảng"
+  ],
+  "fixItFast": [
+    "Nếu họ khóa một cơ thể triangle khi bạn đang ở trong rùa: đừng hoảng sợ — hãy bảo vệ cổ của bạn, quỳ xuống và lột phần chân trên ra bằng cách hơi ngả người ra sau",
+    "Nếu họ cứ kéo bạn nằm bẹp mỗi khi bạn đăng bài: hãy thay đổi vị trí đặt tay của bạn sang tư thế thẳng đứng hơn (đầu ngón tay chứ không phải lòng bàn tay phẳng) và nâng hông của bạn cao hơn trước khi đứng",
+    "Nếu họ đuổi theo phía sau khi bạn đứng: thả hông gần của bạn xuống, đối mặt trực tiếp với họ và vòng ra khỏi cánh tay đang nghẹt thở của họ"
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "id": "spiral-ride",
+  "domain": "pins_rides",
+  "level": "intermediate",
+  "status": "draft",
+  "name": "Spiral Ride",
+  "aliases": [],
+  "tags": [
+    "spiral-ride",
+    "turtle-ride",
+    "back-exposure",
+    "control",
+    "tier:modern-expansion",
+    "meta:modern-common",
+    "risk:low",
+    "family:ride",
+    "group:turtle-ride",
+    "modern-no-gi"
+  ],
+  "keywords": [
+    "rotational pressure",
+    "base collapse",
+    "back exposure"
+  ],
+  "modernSystemGroup": "turtle_ride",
+  "relatedSkills": [
+    {
+      "id": "wrist-ride-back-exposure",
+      "type": "recommended"
+    },
+    {
+      "id": "sprawl-go-behind",
+      "type": "recommended"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "inside-position",
+    "turtle-ride"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [
+    "If they do not collapse: increase the rotational force — push the thigh harder and pull the shoulder harder",
+    "If they roll out of the spiral: follow and take the back",
+    "If you lose contact: re-establish the chest connection before restarting the spiral"
+  ],
+  "version": 1,
+  "updatedAt": "2026-05-21T00:24:30.781Z",
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "en",
+  "description": "Spiral Ride uses rotational pressure on the thigh and shoulder to collapse the turtle base. The spiral ride is a wrestling-origin turtle-breaking system that uses spiral rotation to destabilize the opponent's base.",
+  "shortInstruction": "From the side of the turtle, place your near hand on their far thigh and your far hand on their near shoulder. Rotate your hands in opposite directions (push the thigh, pull the shoulder) to spiral them flat.",
+  "summary": "The spiral ride breaks down the turtle by applying opposing rotational forces: one hand pushes the far thigh away while the other pulls the near shoulder toward you. This rotation removes the opponent's base and forces them flat on their hip or side. The spiral ride is particularly effective against opponents who are too strong or too flexible for the power half ride.",
+  "whyItWorks": [
+    "Opposing rotational forces (push thigh, pull shoulder) create a spiral that the opponent cannot brace against",
+    "The spiral removes the opponent's triangular base — the tripod of both hands and knees becomes unstable",
+    "The spiral works even against stronger opponents because it uses rotational leverage rather than direct force",
+    "The spiral transition to back control is smooth because the rotation naturally exposes the back"
+  ],
+  "commonMistakes": [
+    "Pushing the thigh in the same direction as pulling the shoulder — they must be opposite directions",
+    "Releasing pressure after the spiral starts — maintain both contact points through the collapse",
+    "Staying too high — your chest should be connected to their back throughout",
+    "Not advancing to back control quickly enough after the collapse"
+  ],
+  "coachingCues": [
+    "Push the thigh, pull the shoulder",
+    "Opposite directions, create the spiral",
+    "Stay connected through the collapse",
+    "Spiral then back take"
+  ],
+  "safetySummary": [
+    "Do not apply aggressive rotational torque to the hip joint — the push on the thigh is a control, not a submission",
+    "If the opponent falls awkwardly, release pressure immediately and check their position",
+    "The spiral ride should be applied with controlled, steady pressure — not explosive twisting"
+  ],
+  "systemLogic": {
+    "corePrinciple": "The spiral ride has three phases: Establish Contact → Apply Rotation → Back Take",
+    "decisionTree": [
+      {
+        "condition": "In Phase 1 (Establish Contact)",
+        "action": "position yourself beside the turtle (perpendicular). Place your near hand on their far thigh (palm flat, fingers pointing toward their hip). Place your far hand on their near shoulder (palm on their shoulder blade)"
+      },
+      {
+        "condition": "In Phase 2 (Apply Rotation)",
+        "action": "push the far thigh away from you while pulling the near shoulder toward you. These opposing forces create a spiral that collapses their base. Maintain chest contact on their back throughout"
+      },
+      {
+        "condition": "In Phase 3 (Back Take)",
+        "action": "as they collapse to their side or hip, release the spiral grip and replace with a seatbelt. Slide your near knee into their hip line and secure back control"
+      },
+      {
+        "condition": "the spiral fails (they stay balanced)",
+        "action": "switch to the power half ride — the power half works when the spiral does not"
+      }
+    ],
+    "exitStrategies": []
+  },
+  "moneyDetails": [
+    "The spiral ride is the second component of the wrestling turtle-breaking system (paired with the power half) — having both gives you a complete toolkit",
+    "The spiral is particularly effective against flexible opponents who can sit through the power half ride",
+    "Mastering the spiral ride gives you a reliable turtle break that works at every level of grappling"
+  ],
+  "fixItFast": [
+    "If they do not collapse: switch to the power half ride — it uses a different leverage system",
+    "If they roll toward you: take the back immediately — the spiral exposes the back on both sides",
+    "If they sit up: drive your chest into their back and restart the spiral from the beginning"
+  ]
+}

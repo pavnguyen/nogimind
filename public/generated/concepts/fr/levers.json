@@ -1,0 +1,65 @@
+{
+  "id": "levers",
+  "locale": "fr",
+  "title": "Leviers",
+  "category": "mechanical",
+  "level": "intermediate",
+  "tags": [
+    "lever",
+    "kimura",
+    "off-balance"
+  ],
+  "shortDefinition": "Un levier utilise un segment du corps adverse pour tourner ou casser une structure plus grande.",
+  "whyItMatters": "Les leviers permettent off-balance, kimura control ou arm drag sans force brute.",
+  "deepExplanation": "Coude séparé, poignet centerline, knee line piégée ou shoulder line tournée créent levier. Lire levier donne timing.",
+  "beginnerView": "Chercher coude ou poignet séparé du corps.",
+  "advancedView": "Créer leviers par dilemmes plutôt qu’attendre erreur.",
+  "ifThenExamples": [
+    {
+      "if": "Si vous perdez Leviers pendant l’échange.",
+      "then": "Arrêtez d’accélérer, récupérez la structure corporelle proche, puis continuez.",
+      "why": "Le no-gi moderne punit vite la force après perte de structure.",
+      "relatedSkillIds": [
+        "kimura-system",
+        "arm-triangle-mount"
+      ]
+    },
+    {
+      "if": "Si l’adversaire répond correctement à votre première ligne.",
+      "then": "Utilisez Leviers pour passer à une branche plus sûre au lieu de forcer.",
+      "why": "Un bon concept transforme la réaction adverse en information pour la décision suivante.",
+      "relatedSkillIds": [
+        "arm-triangle-mount",
+        "butterfly-guard-off-balance",
+        "seated-guard-retention"
+      ]
+    }
+  ],
+  "commonMisunderstandings": [
+    {
+      "misunderstanding": "Leviers est une astuce technique isolée.",
+      "correction": "Voyez-le comme une règle de décision présente dans plusieurs positions."
+    },
+    {
+      "misunderstanding": "Comprendre le concept suffit pour l’utiliser en live.",
+      "correction": "Le concept doit être lié à signaux corporels, cues courts et rolling positionnel."
+    }
+  ],
+  "trainingCues": [
+    "Nommez Leviers avant d’ajouter force.",
+    "Cherchez le signal corporel, pas une impression vague.",
+    "Si la structure est perdue, reset une couche d’abord.",
+    "Driller lentement, puis tester avec résistance progressive."
+  ],
+  "relatedSkillIds": [
+    "kimura-system",
+    "arm-triangle-mount",
+    "butterfly-guard-off-balance",
+    "seated-guard-retention"
+  ],
+  "relatedConceptIds": [
+    "dilemma-attacks",
+    "angle-creation",
+    "control-before-submission"
+  ]
+}

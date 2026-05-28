@@ -1,0 +1,119 @@
+{
+  "id": "single-leg-x-basics",
+  "domain": "guard_offense",
+  "level": "intermediate",
+  "status": "draft",
+  "name": "single leg x Notions de base",
+  "aliases": [],
+  "tags": [
+    "guard",
+    "leg-lock"
+  ],
+  "keywords": [
+    "single leg X",
+    "ashi garami",
+    "knee line",
+    "off-balancing"
+  ],
+  "relatedSkills": [
+    {
+      "id": "straight-ankle-lock-safety",
+      "type": "recommended"
+    },
+    {
+      "id": "technical-stand-up",
+      "type": "recommended"
+    },
+    {
+      "id": "heel-hook-safety",
+      "type": "recommended"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "shin-to-shin-entry",
+    "leg-lock-safety-basics"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [
+    "S'ils sortent de SLX, votre pied de hanche a perdu son support : rétablissez le pied sur sa hanche.",
+    "Si vous ne pouvez pas les balayer, votre angle est mauvais : tournez davantage vos hanches vers la jambe coincée.",
+    "S’ils vous aplatissent, vos hanches sont trop éloignées d’eux – rapprochez vos hanches de leur jambe."
+  ],
+  "version": 1,
+  "updatedAt": "2026-05-21T00:24:30.754Z",
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "fr",
+  "description": "Contrôlez la ligne des hanches et des genoux de l'adversaire à partir d'une seule jambe X (SLX) pour balayer, se relever ou entrer en toute sécurité dans l'ashi garami (enchevêtrement des jambes).",
+  "shortInstruction": "Une jambe entre les leurs, une jambe sur la hanche – SLX vous donne le contrôle d'une jambe et de toute sa base.",
+  "summary": "Le X sur une jambe (SLX) est la position fondamentale de contrôle sur une jambe du No-Gi moderne. Vous coincez une de leurs jambes avec votre propre jambe (entre votre cuisse et votre mollet), tandis que votre autre pied repose sur leur hanche opposée. Cela vous donne le contrôle de toute leur base grâce à une seule jambe – lorsque vous tirez sur cette jambe, tout leur corps suit. SLX est le point d'entrée pour les balayages (balayage SLX classique), les enchevêtrements de jambes (entrez ashi garami) et les stand-ups (wrestle up).",
+  "whyItWorks": [
+    "Contrôler une jambe avec vos deux jambes vous donne un avantage mécanique de 2 contre 1 sur ce membre.",
+    "Le pied sur leur hanche contrôle leur distance et les empêche de reculer.",
+    "Tout mouvement qu’ils effectuent avec leur jambe libre modifie leur base – vous pouvez lire et réagir.",
+    "Principe de Danaher : contrôler une jambe, contrôler la moitié de son corps — SLX est la position de contrôle des jambes la plus efficace."
+  ],
+  "commonMistakes": [
+    "Laissez la jambe coincée glisser hors de votre verrou SLX : gardez votre genou pincé contre votre propre poitrine.",
+    "Laisser votre pied de hanche glisser de sa hanche – le poteau de hanche est votre contrôle de distance.",
+    "Assis trop loin de leur base : plus vos hanches sont proches de leur jambe, plus vous avez de contrôle.",
+    "Abandonnez quand ils enjambent votre SLX - restez calme et passez à un autre guard."
+  ],
+  "coachingCues": [
+    "Une jambe entre, une jambe sur la hanche – SLX, ce sont deux jambes qui travaillent ensemble.",
+    "Tirez la jambe vers votre poitrine et non vers le sol.",
+    "Pied de hanche sur la hanche – ne le laissez jamais tomber.",
+    "Réduisez la distance – plus vous êtes proche, moins ils peuvent bouger."
+  ],
+  "safetySummary": [
+    "Protégez le genou de votre jambe coincée – ne les laissez pas tordre votre genou en tournant leur jambe coincée.",
+    "Lorsque vous entrez dans SLX, gardez votre pied à l'extérieur de sa jambe pour éviter de récolter des pénalités.",
+    "S'ils vous empilent, relâchez le SLX et réinitialisez – ne combattez pas la pile avec un SLX verrouillé."
+  ],
+  "systemLogic": {
+    "corePrinciple": "Entrez SLX (une jambe coincée, un pied sur la hanche) → tirez la jambe coincée vers votre poitrine → déséquilibrez → balayez, levez-vous ou entrez dans un enchevêtrement des jambes.",
+    "decisionTree": [
+      {
+        "condition": "Option 1 : Ils se tiennent debout",
+        "action": "tirez la jambe et balayez-la vers l’arrière."
+      },
+      {
+        "condition": "Option 2 : Ils s'assoient",
+        "action": "entrez dans l'enchevêtrement des jambes (ashi garami)."
+      },
+      {
+        "condition": "Option 3 : Ils postent une main",
+        "action": "stand-up technique → wrestle up."
+      }
+    ],
+    "exitStrategies": []
+  },
+  "moneyDetails": [
+    "Votre jambe coincée doit être verrouillée avec votre genou pincé vers votre poitrine – la cheville doit être près de votre hanche.",
+    "Le pied sur la hanche doit être sur l'os de la hanche (ASIS), pas sur le ventre ou la cuisse – contrôle de l'os de la hanche = contrôle de la distance.",
+    "Gardez votre poids sur votre épaule éloignée, non centré – cela vous donne l’angle pour tirer et balayer.",
+    "Le balayage SLX est le suivant : tirez la jambe coincée vers votre poitrine tout en poussant avec le pied de la hanche - les forces combinées brisent leur base."
+  ],
+  "nextStep": "Après le contrôle de base de SLX, apprenez le balayage avancé de SLX et la transition de SLX vers ashi-garami.",
+  "fixItFast": [
+    "Ils sortent ? Reposez immédiatement votre pied sur sa hanche.",
+    "Le balayage ne fonctionne pas ? Tirez la jambe plus fort vers votre poitrine, pas vers le bas, mais vers vous.",
+    "Ils vous aplatissent ? Asseyez-vous sur votre coude le plus éloigné et rapprochez vos hanches d'eux."
+  ]
+}

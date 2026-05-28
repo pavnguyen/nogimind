@@ -8,8 +8,6 @@ import {
   Layers3,
   Sparkles,
   ArrowRight,
-  Clock,
-  CalendarDays,
   Shield,
   Lightbulb,
   Target,
@@ -17,18 +15,20 @@ import {
   Sun,
   BugPlay,
   MapIcon,
+  Brain,
 } from 'lucide-react'
 import { Badge } from '../components/common/Badge'
 import { PageShell } from '../components/common/PageShell'
 import { useConceptsQuery } from '../queries/conceptQueries'
 import { usePositionsQuery } from '../queries/positionQueries'
-import { useSkillsQuery } from '../queries/skillQueries'
+import { useManifestQuery } from '../queries/contentQueries'
+import type { ManifestEntry } from '../content-runtime/manifests'
 import { useSettingsStore } from '../stores/useSettingsStore'
-import { getMicroDetails } from '../utils/knowledgeModules'
 import { getLocalizedText } from '../utils/localization'
 import { getBuildDate } from '../utils/version'
 import { trainingMethods } from '../data/trainingMethods'
 import { defensiveLayers } from '../data/defensiveLayers'
+import { sharedKnowledgeItems } from '../data/sharedKnowledge'
 import { cn } from '../utils/cn'
 
 const dailySeed = () => {
@@ -54,28 +54,25 @@ const dayKeys = ['sunday', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday
 
 /** 7-day rotation configuration — what gets featured each day */
 const rotationConfig = [
-  { key: 'micro-detail', label: 'dashboard.rotation.microDetail', tone: 'cyan' as const, icon: Zap },
   { key: 'concept', label: 'dashboard.rotation.concept', tone: 'emerald' as const, icon: Lightbulb },
-  { key: 'position', label: 'dashboard.rotation.position', tone: 'amber' as const, icon: Compass },
-  { key: 'training-tip', label: 'dashboard.rotation.trainingTip', tone: 'violet' as const, icon: Target },
+  { key: 'position', label: 'dashboard.rotation.position', tone: 'cyan' as const, icon: Compass },
+  { key: 'skill', label: 'dashboard.rotation.skill', tone: 'sky' as const, icon: BookOpen },
   { key: 'safety', label: 'dashboard.rotation.safety', tone: 'rose' as const, icon: Shield },
-  { key: 'concept-alt', label: 'dashboard.rotation.conceptAlt', tone: 'emerald' as const, icon: Lightbulb },
-  { key: 'skill-insight', label: 'dashboard.rotation.skillInsight', tone: 'slate' as const, icon: Zap },
+  { key: 'training-tip', label: 'dashboard.rotation.trainingTip', tone: 'violet' as const, icon: Target },
+  { key: 'principle', label: 'dashboard.rotation.principle', tone: 'slate' as const, icon: Brain },
 ]
-
-const todayConfig = rotationConfig[dayOfWeek]
-const tomorrowConfig = rotationConfig[(dayOfWeek + 1) % 7]
-const nextConfig = rotationConfig[(dayOfWeek + 2) % 7]
+const todayConfig = rotationConfig[dayOfWeek % rotationConfig.length]
+  const tomorrowConfig = rotationConfig[(dayOfWeek + 1) % rotationConfig.length]
+  const nextConfig = rotationConfig[(dayOfWeek + 2) % rotationConfig.length]
 
 /** Per-rotation-type gradient and background styles for the large card */
 const cardGradients: Record<string, string> = {
-  'micro-detail': 'from-cyan-500/10 via-blue-500/5 to-slate-900 border-cyan-400/20',
   concept: 'from-emerald-500/10 via-teal-500/5 to-slate-900 border-emerald-400/20',
   position: 'from-amber-500/10 via-orange-500/5 to-slate-900 border-amber-400/20',
-  'training-tip': 'from-violet-500/10 via-purple-500/5 to-slate-900 border-violet-400/20',
   safety: 'from-rose-500/10 via-pink-500/5 to-slate-900 border-rose-400/20',
-  'concept-alt': 'from-emerald-500/10 via-teal-500/5 to-slate-900 border-emerald-400/20',
-  'skill-insight': 'from-slate-500/10 via-slate-600/5 to-slate-900 border-slate-400/20',
+  'training-tip': 'from-violet-500/10 via-purple-500/5 to-slate-900 border-violet-400/20',
+  skill: 'from-sky-500/10 via-blue-500/5 to-slate-900 border-sky-400/20',
+  principle: 'from-slate-500/10 via-slate-600/5 to-slate-900 border-slate-400/20',
 }
 
 const hubLinks = [
@@ -89,46 +86,50 @@ const hubLinks = [
 export default function DashboardPage() {
   const { t } = useTranslation()
   const lang = useSettingsStore((state) => state.language)
-  const skillsQuery = useSkillsQuery()
-  const skills = useMemo(() => skillsQuery.data ?? [], [skillsQuery.data])
+
+  // ── Generated content pipeline (Phase 2) ──────────────────────────────
+  const manifestQuery = useManifestQuery(lang)
+  const manifest: ManifestEntry[] = useMemo(() => manifestQuery.data ?? [], [manifestQuery.data])
+
+  // Stats from manifest
+  const pipelineSkillCount = manifest.length
+  const pipelineSafetyCount = manifest.filter((s) =>
+    s.tags?.some((tag) => tag.includes('safety') || tag.includes('neck') || tag.includes('spine')),
+  ).length
+  const pipelineDetailsCount: number = manifest.filter((s) => s.hasChecklist).length
+  const pipelineCoveragePct =
+    pipelineSkillCount > 0
+      ? Math.round((pipelineDetailsCount / pipelineSkillCount) * 100)
+      : 0
+
+  // ── Legacy data (for daily rotation items that need full skill data) ───
   const conceptsQuery = useConceptsQuery()
   const concepts = useMemo(() => conceptsQuery.data ?? [], [conceptsQuery.data])
   const positionsQuery = usePositionsQuery()
   const positions = useMemo(() => positionsQuery.data ?? [], [positionsQuery.data])
-  const microDetails = useMemo(() => getMicroDetails(skills), [skills])
-
-  // Daily picks for the 7-item rotation
-  const microDetail = useMemo(() => pickDailyItem(microDetails, 'micro-detail'), [microDetails])
+  // Daily picks for the 6-item rotation
   const concept = useMemo(() => pickDailyItem(concepts, 'concept'), [concepts])
   const position = useMemo(() => pickDailyItem(positions, 'position'), [positions])
-  const conceptAlt = useMemo(() => pickDailyItem(concepts, 'concept-alt'), [concepts])
   const trainingTip = useMemo(() => pickDailyItem(trainingMethods, 'training-tip'), [])
   const safetyLayer = useMemo(() => pickDailyItem(defensiveLayers, 'safety'), [])
-  const skillInsight = useMemo(() => pickDailyItem(skills, 'skill-insight'), [skills])
-
-  // Stats
-  const totalSkills = skills.length
-  const safetyCritical = skills.filter((s) => s.riskLevel === 'safety_critical' || s.libraryTier === 'safety_critical').length
-  const skillsWithDetails = skills.filter((s) => (s.microDetailSystem?.topFiveDetails?.length ?? 0) > 0).length
-  const coveragePct = totalSkills > 0 ? Math.round((skillsWithDetails / totalSkills) * 100) : 0
+  const skillOfDay = useMemo(() => manifest.length > 0 ? pickDailyItem(manifest, 'skill') : undefined, [manifest])
+  const knowledgePrinciple = useMemo(() => pickDailyItem(sharedKnowledgeItems, 'principle'), [])
 
   // Map rotation type to the data we want to render
   const renderTodayItem = () => {
     switch (todayConfig.key) {
-      case 'micro-detail':
-        return microDetail
-          ? { title: getLocalizedText(microDetail.title, lang), description: getLocalizedText(microDetail.correctionCue, lang), linkTo: `/skills/${microDetail.skillId}` }
-          : undefined
-      case 'concept':
-      case 'concept-alt': {
-        const item = todayConfig.key === 'concept' ? concept : conceptAlt
-        return item
-          ? { title: getLocalizedText(item.title, lang), description: getLocalizedText(item.shortDefinition, lang), linkTo: `/concepts/${item.id}` }
+      case 'concept': {
+        return concept
+          ? { title: getLocalizedText(concept.title, lang), description: getLocalizedText(concept.shortDefinition, lang), linkTo: `/concepts/${concept.id}` }
           : undefined
       }
       case 'position':
         return position
           ? { title: getLocalizedText(position.title, lang), description: getLocalizedText(position.description, lang), linkTo: `/positions/${position.id}` }
+          : undefined
+      case 'skill':
+        return skillOfDay
+          ? { title: skillOfDay.name, description: skillOfDay.summary, linkTo: `/skills/${skillOfDay.id}` }
           : undefined
       case 'training-tip':
         return trainingTip
@@ -138,29 +139,28 @@ export default function DashboardPage() {
         return safetyLayer
           ? { title: getLocalizedText(safetyLayer.title, lang), description: getLocalizedText(safetyLayer.threat, lang), linkTo: '/defense' }
           : undefined
-      case 'skill-insight':
-        return skillInsight
-          ? { title: getLocalizedText(skillInsight.title, lang), description: getLocalizedText(skillInsight.primaryGoal, lang), linkTo: `/skills/${skillInsight.id}` }
+      case 'principle':
+        return knowledgePrinciple
+          ? { title: getLocalizedText(knowledgePrinciple.title, lang), description: getLocalizedText(knowledgePrinciple.shortText, lang), linkTo: '/learn' }
           : undefined
       default:
         return undefined
     }
   }
 
-  const renderSecondaryItem = (config: typeof tomorrowConfig) => {
+  const renderSecondaryItem = (config: typeof tomorrowConfig): { title: string; description?: string; linkTo: string } | undefined => {
     switch (config.key) {
-      case 'micro-detail': {
-        const item = pickDailyItem(microDetails, 'micro-detail-secondary')
-        return item ? { title: getLocalizedText(item.title, lang), linkTo: `/skills/${item.skillId}` } : undefined
-      }
-      case 'concept':
-      case 'concept-alt': {
-        const item = pickDailyItem(concepts, config.key === 'concept' ? 'concept-secondary' : 'concept-alt-secondary')
+      case 'concept': {
+        const item = pickDailyItem(concepts, 'concept-secondary')
         return item ? { title: getLocalizedText(item.title, lang), linkTo: `/concepts/${item.id}` } : undefined
       }
       case 'position': {
         const item = pickDailyItem(positions, 'position-secondary')
         return item ? { title: getLocalizedText(item.title, lang), linkTo: `/positions/${item.id}` } : undefined
+      }
+      case 'skill': {
+        const item = pickDailyItem(manifest, 'skill-secondary')
+        return item ? { title: item.name, linkTo: `/skills/${item.id}` } : undefined
       }
       case 'training-tip': {
         const item = pickDailyItem(trainingMethods, 'training-tip-secondary')
@@ -170,9 +170,9 @@ export default function DashboardPage() {
         const item = pickDailyItem(defensiveLayers, 'safety-secondary')
         return item ? { title: getLocalizedText(item.title, lang), linkTo: '/defense' } : undefined
       }
-      case 'skill-insight': {
-        const item = pickDailyItem(skills, 'skill-insight-secondary')
-        return item ? { title: getLocalizedText(item.title, lang), linkTo: `/skills/${item.id}` } : undefined
+      case 'principle': {
+        const item = pickDailyItem(sharedKnowledgeItems, 'principle-secondary')
+        return item ? { title: getLocalizedText(item.title, lang), linkTo: '/learn' } : undefined
       }
       default:
         return undefined
@@ -190,45 +190,16 @@ export default function DashboardPage() {
     <PageShell
       header={
         <section className="space-y-6">
-          {/* Hero */}
-          <div className="flex flex-col gap-6 md:flex-row md:items-end md:justify-between">
-            <div className="flex items-center gap-4">
-              <div className="relative flex h-14 w-14 items-center justify-center rounded-2xl bg-gradient-to-br from-emerald-400 via-cyan-400 to-teal-400 shadow-[0_0_30px_rgba(52,211,153,0.25)]">
-                <Sparkles className="relative z-10 h-7 w-7 text-slate-950" aria-hidden="true" />
-                {/* Subtle pulse ring */}
-                <div className="absolute inset-0 animate-ping rounded-2xl bg-emerald-400/20" style={{ animationDuration: '3s' }} />
-              </div>
-              <div>
-                <div className="flex items-center gap-3">
-                  <h1 className="text-3xl font-bold tracking-tight text-white lg:text-4xl">
-                    {t('app.name')}
-                  </h1>
-                </div>
-                <p className="mt-1.5 text-sm text-slate-500">{t('app.thesis')}</p>
-              </div>
+          {/* ── Simplified hero ── */}
+          <div className="flex items-center gap-3">
+            <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-gradient-to-br from-emerald-400/80 via-cyan-400/80 to-teal-400/80 shadow-lg">
+              <Sparkles className="h-5 w-5 text-slate-950" aria-hidden="true" />
             </div>
-
-            {/* Stats strip */}
-            <div className="flex flex-wrap gap-2">
-              <div className="rounded-2xl border border-emerald-400/20 bg-emerald-400/5 px-4 py-2 backdrop-blur-sm">
-                <p className="text-[10px] font-bold uppercase tracking-widest text-slate-500">{t('dashboard.totalSkills')}</p>
-                <p className="text-xl font-bold text-emerald-400">{totalSkills}</p>
-              </div>
-              <div className="rounded-2xl border border-rose-400/20 bg-rose-400/5 px-4 py-2 backdrop-blur-sm">
-                <p className="text-[10px] font-bold uppercase tracking-widest text-slate-500">{t('dashboard.safetyCritical')}</p>
-                <p className="text-xl font-bold text-rose-400">{safetyCritical}</p>
-              </div>
-              <div className="rounded-2xl border border-violet-400/20 bg-violet-400/5 px-4 py-2 backdrop-blur-sm">
-                <p className="text-[10px] font-bold uppercase tracking-widest text-slate-500">{t('dashboard.contentCoverage')}</p>
-                <p className="text-xl font-bold text-violet-400">{coveragePct}%</p>
-              </div>
-              <div className="rounded-2xl border border-slate-400/20 bg-slate-400/5 px-4 py-2 backdrop-blur-sm">
-                <p className="text-[10px] font-bold uppercase tracking-widest text-slate-500">{t('dashboard.lastUpdate')}</p>
-                <p className="flex items-center gap-1.5 text-xl font-bold text-slate-300">
-                  <CalendarDays className="h-4 w-4" aria-hidden="true" />
-                  {getBuildDate()}
-                </p>
-              </div>
+            <div className="min-w-0 flex-1">
+              <h1 className="text-xl font-bold tracking-tight text-white sm:text-2xl lg:text-3xl">
+                {t('app.name')}
+              </h1>
+              <p className="mt-px text-xs text-slate-500 truncate">{t('app.thesis')}</p>
             </div>
           </div>
         </section>
@@ -245,16 +216,51 @@ export default function DashboardPage() {
                 cardGradients[todayConfig.key],
               )}
             >
+              {/* Coverage ring — top-right corner (SVG circle for smooth arc) */}
+              {pipelineSkillCount > 0 && (
+                <div className="absolute right-6 top-6 z-20 flex items-center gap-2 rounded-lg border border-white/[0.06] bg-slate-950/60 px-2.5 py-1.5 backdrop-blur-sm">
+                  <div className="relative h-8 w-8">
+                    <svg className="h-8 w-8 -rotate-90" viewBox="0 0 36 36">
+                      {/* Background ring */}
+                      <circle
+                        cx="18" cy="18" r="15.5"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth="3"
+                        className="text-slate-800"
+                      />
+                      {/* Progress arc */}
+                      <circle
+                        cx="18" cy="18" r="15.5"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth="3"
+                        strokeLinecap="round"
+                        className="text-emerald-400/80 transition-all duration-700"
+                        strokeDasharray={`${pipelineCoveragePct} ${100 - pipelineCoveragePct}`}
+                        strokeDashoffset="0"
+                      />
+                    </svg>
+                    <span className="absolute inset-0 flex items-center justify-center text-[9px] font-bold text-white">
+                      {pipelineCoveragePct}%
+                    </span>
+                  </div>
+                  <div className="leading-tight">
+                    <p className="text-[9px] font-semibold uppercase tracking-wider text-slate-400">Coverage</p>
+                    <p className="text-[10px] font-medium text-emerald-400/80">{pipelineDetailsCount}/{pipelineSkillCount} with checklists</p>
+                  </div>
+                </div>
+              )}
+
               {/* Decorative glow blob */}
               <div className={cn(
                 'absolute -right-24 -top-24 h-80 w-80 rounded-full opacity-20 blur-[100px] transition-opacity group-hover:opacity-30',
-                todayConfig.key === 'micro-detail' && 'bg-cyan-400',
                 todayConfig.key === 'concept' && 'bg-emerald-400',
                 todayConfig.key === 'position' && 'bg-amber-400',
+                todayConfig.key === 'skill' && 'bg-sky-400',
                 todayConfig.key === 'training-tip' && 'bg-violet-400',
                 todayConfig.key === 'safety' && 'bg-rose-400',
-                todayConfig.key === 'concept-alt' && 'bg-emerald-400',
-                todayConfig.key === 'skill-insight' && 'bg-slate-400',
+                todayConfig.key === 'principle' && 'bg-slate-400',
               )} />
 
               <div className="relative z-10">
@@ -264,15 +270,16 @@ export default function DashboardPage() {
                     'flex h-10 w-10 items-center justify-center rounded-xl transition-transform group-hover:scale-110',
                     todayConfig.tone === 'cyan' && 'bg-cyan-400/10 text-cyan-400',
                     todayConfig.tone === 'emerald' && 'bg-emerald-400/10 text-emerald-400',
-                    todayConfig.tone === 'amber' && 'bg-amber-400/10 text-amber-400',
+                    todayConfig.tone === 'cyan' && 'bg-cyan-400/10 text-cyan-400',
+                    todayConfig.tone === 'sky' && 'bg-sky-400/10 text-sky-400',
                     todayConfig.tone === 'violet' && 'bg-violet-400/10 text-violet-400',
                     todayConfig.tone === 'rose' && 'bg-rose-400/10 text-rose-400',
                     todayConfig.tone === 'slate' && 'bg-slate-400/10 text-slate-400',
                   )}>
-                    <TodayIcon className="h-5 w-5" />
+                    <TodayIcon className="h-5 w-5 icon-hover-spin" />
                   </div>
                   <div>
-                    <Badge tone={todayConfig.tone} className="px-2 py-0.5 text-[10px] uppercase tracking-widest">
+                    <Badge tone={todayConfig.tone === 'sky' ? 'cyan' : todayConfig.tone} className="px-2 py-0.5 text-[10px] uppercase tracking-widest">
                       {t('days.' + dayKeys[dayOfWeek])} · {t(todayConfig.label)}
                     </Badge>
                   </div>
@@ -294,15 +301,15 @@ export default function DashboardPage() {
           ) : (
             <div className="flex h-full min-h-[280px] items-center justify-center rounded-[2.5rem] border border-white/[0.06] bg-slate-900/30">
               <div className="text-center">
-                <Clock className="mx-auto h-8 w-8 text-slate-600" />
+                <Zap className="mx-auto h-8 w-8 text-slate-600" />
                 <p className="mt-3 text-sm text-slate-500">{t('common.empty')}</p>
               </div>
             </div>
           )}
         </section>
 
-        {/* ─── Also Today — 2 smaller cards, 5 cols ─── */}
-        <section className="flex flex-col gap-4 lg:col-span-5">
+        {/* ─── Also Today — 2 richer cards + Principle mini-card, 5 cols ─── */}
+        <section className="flex flex-col gap-3 lg:col-span-5">
           <div className="flex items-center gap-2">
             <DayIcon className="h-4 w-4 text-slate-500" />
             <h3 className="text-[10px] font-bold uppercase tracking-widest text-slate-500">{t('dashboard.alsoToday')}</h3>
@@ -321,7 +328,8 @@ export default function DashboardPage() {
                     'mr-4 flex h-9 w-9 items-center justify-center rounded-xl',
                     cfg.tone === 'cyan' && 'bg-cyan-400/5 text-cyan-400/50',
                     cfg.tone === 'emerald' && 'bg-emerald-400/5 text-emerald-400/50',
-                    cfg.tone === 'amber' && 'bg-amber-400/5 text-amber-400/50',
+                    cfg.tone === 'cyan' && 'bg-cyan-400/5 text-cyan-400/50',
+                    cfg.tone === 'sky' && 'bg-sky-400/5 text-sky-400/50',
                     cfg.tone === 'violet' && 'bg-violet-400/5 text-violet-400/50',
                     cfg.tone === 'rose' && 'bg-rose-400/5 text-rose-400/50',
                     cfg.tone === 'slate' && 'bg-slate-400/5 text-slate-400/50',
@@ -341,36 +349,95 @@ export default function DashboardPage() {
                 key={item.linkTo + item.title}
                 to={item.linkTo}
                 className={cn(
-                  'group flex items-center rounded-2xl border px-5 py-4 transition-all duration-200 hover:scale-[1.01]',
+                  'group relative flex flex-col rounded-2xl border px-5 py-4 transition-all duration-200 hover:scale-[1.01]',
                   cfg.tone === 'cyan' && 'border-cyan-400/15 bg-cyan-400/[0.03] hover:border-cyan-400/30 hover:bg-cyan-400/[0.06]',
                   cfg.tone === 'emerald' && 'border-emerald-400/15 bg-emerald-400/[0.03] hover:border-emerald-400/30 hover:bg-emerald-400/[0.06]',
-                  cfg.tone === 'amber' && 'border-amber-400/15 bg-amber-400/[0.03] hover:border-amber-400/30 hover:bg-amber-400/[0.06]',
+                  cfg.tone === 'cyan' && 'border-cyan-400/15 bg-cyan-400/[0.03] hover:border-cyan-400/30 hover:bg-cyan-400/[0.06]',
+                  cfg.tone === 'sky' && 'border-sky-400/15 bg-sky-400/[0.03] hover:border-sky-400/30 hover:bg-sky-400/[0.06]',
                   cfg.tone === 'violet' && 'border-violet-400/15 bg-violet-400/[0.03] hover:border-violet-400/30 hover:bg-violet-400/[0.06]',
                   cfg.tone === 'rose' && 'border-rose-400/15 bg-rose-400/[0.03] hover:border-rose-400/30 hover:bg-rose-400/[0.06]',
                   cfg.tone === 'slate' && 'border-slate-400/15 bg-slate-400/[0.03] hover:border-slate-400/30 hover:bg-slate-400/[0.06]',
                 )}
               >
-                <div className={cn(
-                  'mr-4 flex h-9 w-9 items-center justify-center rounded-xl transition-colors',
-                  cfg.tone === 'cyan' && 'bg-cyan-400/10 text-cyan-300 group-hover:bg-cyan-400/20',
-                  cfg.tone === 'emerald' && 'bg-emerald-400/10 text-emerald-300 group-hover:bg-emerald-400/20',
-                  cfg.tone === 'amber' && 'bg-amber-400/10 text-amber-300 group-hover:bg-amber-400/20',
-                  cfg.tone === 'violet' && 'bg-violet-400/10 text-violet-300 group-hover:bg-violet-400/20',
-                  cfg.tone === 'rose' && 'bg-rose-400/10 text-rose-300 group-hover:bg-rose-400/20',
-                  cfg.tone === 'slate' && 'bg-slate-400/10 text-slate-300 group-hover:bg-slate-400/20',
-                )}>
-                  <Icon className="h-4 w-4" />
+                <div className="mb-3 flex items-center gap-3">
+                  <div className={cn(
+                    'flex h-9 w-9 items-center justify-center rounded-xl transition-colors shrink-0',
+                    cfg.tone === 'cyan' && 'bg-cyan-400/10 text-cyan-300 group-hover:bg-cyan-400/20',
+                    cfg.tone === 'emerald' && 'bg-emerald-400/10 text-emerald-300 group-hover:bg-emerald-400/20',
+                    cfg.tone === 'cyan' && 'bg-cyan-400/10 text-cyan-300 group-hover:bg-cyan-400/20',
+                    cfg.tone === 'sky' && 'bg-sky-400/10 text-sky-300 group-hover:bg-sky-400/20',
+                    cfg.tone === 'violet' && 'bg-violet-400/10 text-violet-300 group-hover:bg-violet-400/20',
+                    cfg.tone === 'rose' && 'bg-rose-400/10 text-rose-300 group-hover:bg-rose-400/20',
+                    cfg.tone === 'slate' && 'bg-slate-400/10 text-slate-300 group-hover:bg-slate-400/20',
+                  )}>
+                    <Icon className="h-4 w-4" />
+                  </div>
+                  <p className="text-[10px] font-bold uppercase tracking-widest text-slate-500">{t(cfg.label)}</p>
+                  <ArrowRight className="ml-auto h-4 w-4 shrink-0 text-slate-600 opacity-0 transition-all group-hover:opacity-100" />
                 </div>
                 <div className="flex-1 min-w-0">
-                  <p className="text-[10px] font-bold uppercase tracking-widest text-slate-500">{t(cfg.label)}</p>
-                  <p className="mt-0.5 truncate text-sm font-medium text-white transition-colors group-hover:text-white">
+                  <p className="truncate text-sm font-semibold text-white transition-colors group-hover:text-white">
                     {item.title}
                   </p>
+                  {'description' in item && item.description && (
+                    <p className="mt-1 text-xs leading-relaxed text-slate-400 line-clamp-2">
+                      {item.description}
+                    </p>
+                  )}
                 </div>
-                <ArrowRight className="ml-3 h-4 w-4 shrink-0 text-slate-600 opacity-0 transition-all group-hover:opacity-100" />
               </Link>
             )
           })}
+
+          {/* ── Principle of the Day mini-card ── */}
+          {knowledgePrinciple && (
+            <div className="mt-1 rounded-xl border border-white/[0.06] bg-white/[0.02] px-4 py-3">
+              <div className="flex items-start gap-3">
+                <Brain className="mt-0.5 h-3.5 w-3.5 shrink-0 text-slate-500" />
+                <div className="min-w-0 flex-1">
+                  <p className="text-[10px] font-bold uppercase tracking-widest text-slate-500">
+                    {t('dashboard.rotation.principle')}
+                  </p>
+                  <p className="mt-0.5 text-sm font-medium text-slate-300 line-clamp-2">
+                    {getLocalizedText(knowledgePrinciple.shortText, lang)}
+                  </p>
+                </div>
+              </div>
+            </div>
+          )}
+        </section>
+
+        {/* ─── Compact Stats Strip — single horizontal bar ─── */}
+        <section className="lg:col-span-12">
+          <div className="flex flex-wrap items-center gap-x-6 gap-y-1.5 rounded-xl border border-white/[0.06] bg-slate-900/40 px-5 py-3">
+            <div>
+              <p className="text-[10px] font-semibold uppercase tracking-widest text-slate-500">{t('dashboard.totalSkills')}</p>
+              <p className="mt-0.5 text-base font-bold text-emerald-400">{pipelineSkillCount}</p>
+            </div>
+            <div className="h-6 w-px bg-white/[0.06]" />
+            <div>
+              <p className="text-[10px] font-semibold uppercase tracking-widest text-slate-500">{t('dashboard.safetyCritical')}</p>
+              <p className="mt-0.5 text-base font-bold text-rose-400">{pipelineSafetyCount}</p>
+            </div>
+            <div className="h-6 w-px bg-white/[0.06]" />
+            <div>
+              <p className="text-[10px] font-semibold uppercase tracking-widest text-slate-500">{t('dashboard.contentCoverage')}</p>
+              <div className="mt-0.5 flex items-center gap-2">
+                <div className="h-1.5 w-20 rounded-full bg-slate-800">
+                  <div
+                    className="h-full rounded-full bg-violet-400/70 transition-all"
+                    style={{ width: `${pipelineCoveragePct}%` }}
+                  />
+                </div>
+                <span className="text-base font-bold text-violet-400">{pipelineCoveragePct}%</span>
+              </div>
+            </div>
+            <div className="h-6 w-px bg-white/[0.06]" />
+            <div>
+              <p className="text-[10px] font-semibold uppercase tracking-widest text-slate-500">{t('dashboard.lastUpdate')}</p>
+              <p className="mt-0.5 text-base font-semibold text-slate-300">{getBuildDate()}</p>
+            </div>
+          </div>
         </section>
 
         {/* ─── Hub Explorer — full width ─── */}
@@ -397,7 +464,6 @@ export default function DashboardPage() {
                       hub.highlight && 'ring-1 ring-emerald-400/20',
                     )}
                   >
-                    {/* Corner glow */}
                     <div className={cn(
                       'absolute -right-6 -top-6 h-16 w-16 rounded-full opacity-0 blur-2xl transition-opacity group-hover:opacity-40',
                       hub.tone === 'cyan' && 'bg-cyan-400',
@@ -416,7 +482,7 @@ export default function DashboardPage() {
                         hub.tone === 'violet' && 'bg-violet-400/10 text-violet-300 group-hover:bg-violet-400/20',
                         hub.tone === 'slate' && 'bg-slate-400/10 text-slate-300 group-hover:bg-slate-400/20',
                       )}>
-                        <HubIcon className="h-5 w-5" />
+                        <HubIcon className="h-5 w-5 icon-hover-spin" />
                       </div>
                       <p className="text-sm font-bold text-white transition-colors group-hover:text-white">
                         {t(hub.label)}
@@ -450,7 +516,6 @@ export default function DashboardPage() {
                     to={item.to}
                     className="group relative overflow-hidden rounded-xl border border-amber-400/10 bg-slate-950/40 p-5 transition-all duration-200 hover:border-amber-400/30 hover:bg-amber-400/[0.05] hover:shadow-[0_0_25px_rgba(251,191,36,0.06)]"
                   >
-                    {/* Corner glow */}
                     <div className="absolute -right-10 -top-10 h-20 w-20 rounded-full bg-amber-400/5 blur-2xl transition-all duration-300 group-hover:bg-amber-400/10" />
                     <div className="relative z-10 flex items-start justify-between gap-4">
                       <div className="flex-1 min-w-0">

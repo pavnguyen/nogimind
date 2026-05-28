@@ -1,0 +1,71 @@
+{
+  "id": "s-mount-control",
+  "locale": "en",
+  "name": "S-Mount Control",
+  "description": "S-mount isolates the shoulder line for armbar, back take, or triangle threats. It is the most offensive mount position — from here, the opponent must defend multiple submission threats simultaneously.",
+  "shortInstruction": "From mount, slide one knee up to their armpit and rotate your hips toward their head. Trap the near arm between your thigh and their head. Attack armbar, triangle, or back take.",
+  "summary": "S-mount is created by sliding one knee to the opponent's armpit while rotating your chest slightly toward their head. This positions your hips across their shoulder line, isolating one arm and creating a dilemma between armbar, triangle, and back take. S-mount is the highest-value pin because it directly threatens submissions without requiring additional transitions.",
+  "whyItWorks": [
+    "The S-mount knee position (one knee at armpit, one knee at hip) creates a structural wedge that isolates the near shoulder",
+    "Rotating your hips toward their head traps their near arm between your thigh and their head — this is the armbar entry position",
+    "From S-mount, you threaten armbar, triangle (using your free leg over their head), and back take — creating a three-way dilemma",
+    "The opponent cannot effectively bridge or escape because your weight is distributed across their shoulder line, not their hips"
+  ],
+  "commonMistakes": [
+    "Not rotating the hips enough — partial rotation leaves space for the opponent to escape the armbar",
+    "Allowing the opponent to free their trapped arm — this kills the S-mount and returns to standard mount",
+    "Sitting too high — the S-mount knee must be at the armpit, not the neck",
+    "Losing the mount position entirely when trying to enter S-mount — the transition must be controlled"
+  ],
+  "coachingCues": [
+    "Knee to armpit, not the neck",
+    "Rotate the hips toward the head",
+    "Trap the arm, threaten the armbar",
+    "Armbar, triangle, or back — pick two"
+  ],
+  "safetySummary": [
+    "The armbar from S-mount can hyperextend the elbow quickly if applied with momentum — apply slow, controlled pressure",
+    "When using the triangle from S-mount, do not pull the head aggressively — this can strain the neck",
+    "If the opponent turns away to escape S-mount, they expose the back — take it, but do not chase submissions from a bad angle"
+  ],
+  "keyCorrections": [
+    "If the opponent frees the trapped arm: rotate your hips back to center and re-enter S-mount with a deeper knee position",
+    "If you cannot get the S-mount knee high enough: you are sitting too far away — scoot closer to their head before sliding the knee up",
+    "If the opponent bridges you off during S-mount entry: post your free foot wide and re-establish low mount before trying again"
+  ],
+  "systemLogic": {
+    "corePrinciple": "S-mount is structured as a dilemma system: Armbar: Triangle → Back Take, with each threat leading to the next",
+    "decisionTree": [
+      {
+        "condition": "Using Threat 1 (Armbar)",
+        "action": "from S-mount, your thigh traps their near arm. To attack the armbar, lift your hips slightly and drop backward, bringing their arm across your body. Keep their thumb pointing up"
+      },
+      {
+        "condition": "Using Threat 2 (Triangle)",
+        "action": "if they defend the armbar by pulling the arm back, bring your free leg over their head and lock the triangle. Your S-mount knee stays in place as the base of the triangle"
+      },
+      {
+        "condition": "Using Threat 3 (Back Take)",
+        "action": "if they turn away to escape the armbar or triangle, maintain hip contact and take the back. The S-mount rotation naturally transitions to back control when they turn"
+      },
+      {
+        "condition": "Entry technique",
+        "action": "from low mount, slide your dominant hand under their head. Lift your near knee and slide it to their armpit. Rotate your hips 45 degrees toward their head. Your shin should be across their chest"
+      },
+      {
+        "condition": "S-mount fails (they escape)",
+        "action": "return to low mount immediately rather than fighting to re-establish S-mount from a compromised position"
+      }
+    ]
+  },
+  "moneyDetails": [
+    "S-mount is the most offensive pin in BJJ — from here, you finish matches, not stall",
+    "The S-mount armbar is the highest percentage armbar entry in no-gi grappling",
+    "Mastering S-mount transitions separates submission grapplers from positional grapplers"
+  ],
+  "fixItFast": [
+    "If the opponent defends the armbar by pulling the arm free: switch to the triangle — do not chase the arm",
+    "If the opponent rolls to escape S-mount: take the back and secure the seatbelt before they can recover",
+    "If you fall off during the armbar attempt: land in guard, not side control — keep the arm trapped as you fall"
+  ]
+}

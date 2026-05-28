@@ -1,0 +1,56 @@
+{
+  "id": "headquarters-top",
+  "locale": "en",
+  "title": "Headquarters Top",
+  "category": "top_control",
+  "status": "advantage",
+  "description": "The top player stands in headquarters with one of the guard player’s legs stapled and multiple passing lanes available.",
+  "topPlayerGoals": [
+    "The top player wants to control Headquarters Top through head position, inside position, and directed pressure.",
+    "Force a dilemma between knee cut, backstep, leg drag, or smash passing.",
+    "Keep a stable base so you are not off-balanced or countered."
+  ],
+  "bottomPlayerGoals": [
+    "The bottom player wants to survive Headquarters Top with frames, pummeling, or the right angle.",
+    "Keep the knee shield or inside knee and prevent the hip line from being stapled.",
+    "Recognize danger signals early instead of waiting for the position to settle."
+  ],
+  "controlPoints": [
+    "Main control point: Stapled leg, hip angle, and head position..",
+    "Head, hands, hips, and knees should share the same force direction.",
+    "The elbow-knee connection or hip-shoulder line determines whether the position is still alive or already locked."
+  ],
+  "escapePriorities": [
+    "Escape priority: Recover the inside knee before attacking..",
+    "Protect the neck, back, knee line, or arm line before countering.",
+    "If inside position is lost, reset one defensive layer first."
+  ],
+  "advancementOptions": [
+    {
+      "action": "Enter the knee-cut lane",
+      "nextPositionId": "knee-cut-position",
+      "relatedSkillIds": [
+        "headquarters-passing",
+        "knee-cut-passing",
+        "leg-drag-basics"
+      ],
+      "why": "This is the natural branch when you win the main control point and the opponent is forced to defend."
+    }
+  ],
+  "dangerSignals": [
+    "The chin or neck is pulled out of a safe line.",
+    "The elbow separates from the ribs or knee.",
+    "The hip line is locked while the shoulder line is still being pulled.",
+    "You need a long hand post to avoid falling."
+  ],
+  "relatedSkillIds": [
+    "headquarters-passing",
+    "knee-cut-passing",
+    "leg-drag-basics"
+  ],
+  "relatedConceptIds": [
+    "dilemma-attacks",
+    "hip-line-shoulder-line",
+    "inside-position"
+  ]
+}

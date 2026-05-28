@@ -1,0 +1,119 @@
+{
+  "id": "shotgun-ankle-lock",
+  "domain": "submission_systems",
+  "level": "advanced",
+  "status": "draft",
+  "name": "Shotgun Ankle Lock",
+  "aliases": [],
+  "tags": [
+    "shotgun-ankle-lock",
+    "leg-lock",
+    "ankle-lock",
+    "straight-ankle",
+    "saddle"
+  ],
+  "keywords": [
+    "shotgun ankle lock",
+    "straight ankle",
+    "leg entanglement",
+    "saddle",
+    "finishing mechanics"
+  ],
+  "relatedSkills": [
+    {
+      "id": "heel-hook-safety",
+      "type": "recommended"
+    },
+    {
+      "id": "backside-50-50-control",
+      "type": "recommended"
+    },
+    {
+      "id": "fifty-fifty-to-heel-exposure",
+      "type": "recommended"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "saddle-inside-sankaku-control",
+    "leg-lock-safety-basics"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [
+    "If you can't finish, their foot is not close enough to your chest — pull it tighter.",
+    "If they escape the ankle lock, your leg cross was too shallow — re-enter deeper.",
+    "If they roll, release and follow to the back take or saddle."
+  ],
+  "version": 1,
+  "updatedAt": "2026-05-21T00:24:30.770Z",
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "en",
+  "description": "A stronger variation of the straight ankle lock from saddle or 50/50 — cross the opponent's legs and use hip rotation and chest pressure to finish.",
+  "shortInstruction": "Cross their legs, pin the foot to your chest, rotate your hips — the shotgun ankle lock adds body weight to the straight ankle lock.",
+  "summary": "The shotgun ankle lock is a more powerful variation of the straight ankle lock. By crossing the opponent's legs and pinning their foot against your chest, you add body weight and hip rotation to the standard ankle lock finish. The 'shotgun' name comes from the way you use your chest and hips like a firing mechanism — combining forward pressure with rotation. It is typically entered from the saddle or 50/50 positions.",
+  "whyItWorks": [
+    "Crossing their legs creates a mechanical advantage — your body weight adds force to the ankle lock.",
+    "Chest pressure on their foot multiplies the extension force on their ankle.",
+    "Hip rotation adds a twisting element that the standard straight ankle lock does not have.",
+    "Danaher principle: adding body weight to any joint lock increases its effectiveness without requiring more strength."
+  ],
+  "commonMistakes": [
+    "Not crossing their legs deeply enough — a shallow cross gives them room to escape.",
+    "Letting their foot slide away from your chest — the foot must be pinned firmly.",
+    "Using only arms to finish instead of chest and hips — the shotgun is a full-body submission.",
+    "Releasing the leg entanglement too early — the shotgun requires the entanglement to stay tight."
+  ],
+  "coachingCues": [
+    "Cross deep, pin the foot, drive with the chest.",
+    "Your chest is the hammer, their ankle is the nail.",
+    "If the ankle is not pinched, you lose the leverage.",
+    "Rotate your hips, don't just pull."
+  ],
+  "safetySummary": [
+    "The shotgun ankle lock applies pressure to the ankle and knee — apply gradually and release on tap.",
+    "Do not explode into the finish — ankle injuries can occur quickly.",
+    "Be careful when crossing the opponent's legs — ensure their knee is not under excessive stress."
+  ],
+  "systemLogic": {
+    "corePrinciple": "Saddle or 50/50: cross the opponent's legs (one over the other) → pin their foot to your chest → lean forward with chest pressure → rotate hips → finish.",
+    "decisionTree": [
+      {
+        "condition": "General application",
+        "action": "The shotgun ankle lock chains with the heel hook from the same position."
+      },
+      {
+        "condition": "they defend the ankle lock",
+        "action": "switch to heel hook or knee bar."
+      }
+    ],
+    "exitStrategies": []
+  },
+  "moneyDetails": [
+    "Cross their legs at the ankles, not the calves — ankle-level crossing gives you more control.",
+    "Pin their top foot against your sternum with your chest — this is the 'shotgun' position.",
+    "Lean your chest forward onto their foot as you pull their toes toward you — the combination of forces creates the lock.",
+    "Rotate your hips to the side as you lean — this adds rotational pressure to the ankle."
+  ],
+  "nextStep": "After the shotgun ankle lock, learn the straight ankle lock and heel hook from saddle.",
+  "fixItFast": [
+    "Ankle not compressing? Pull their foot tighter to your chest.",
+    "Can't finish? Add hip rotation — the shotgun is not just pressure, it's pressure + rotation.",
+    "They roll? Release and follow to saddle or back take."
+  ]
+}

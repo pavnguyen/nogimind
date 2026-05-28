@@ -1,0 +1,115 @@
+{
+  "id": "heel-hook-safety",
+  "domain": "submission_systems",
+  "level": "advanced",
+  "status": "draft",
+  "name": "Heel Hook Safety",
+  "aliases": [],
+  "tags": [
+    "leg-lock",
+    "heel-hook",
+    "knee-safety"
+  ],
+  "keywords": [
+    "heel hook",
+    "knee line",
+    "saddle / inside sankaku",
+    "safety tap"
+  ],
+  "relatedSkills": [
+    {
+      "id": "k-guard-entry",
+      "type": "recommended"
+    },
+    {
+      "id": "single-leg-x-basics",
+      "type": "recommended"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "leg-lock-safety-basics",
+    "straight-ankle-lock-safety"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [
+    "If your partner has to shout 'tap' after you apply pressure, you are applying too fast.",
+    "If you feel resistance during the rotation (they are not going with the force), release immediately.",
+    "If you cannot explain why the heel is exposed, you do not have the position — reset."
+  ],
+  "version": 1,
+  "updatedAt": "2026-05-21T00:24:30.755Z",
+  "contentRefs": {
+    "videos": "videos.json",
+    "qualityChecklist": "qualityChecklist"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": true,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "en",
+  "description": "Learn to recognize heel exposure, rotational force mechanics, and critical tap-before-force rules before any serious pressure enters the heel hook.",
+  "shortInstruction": "Heel exposed? Control established? Rotational force aligned? If not, do not attack — control first, finish second.",
+  "summary": "Heel hook safety is the most important subject in modern no-gi leg locking. Unlike most submissions, the heel hook can cause serious knee injury (ACL, PCL, MCL, meniscus damage) with very little force and almost no warning pain. The safety protocol is: recognize when a heel is exposed, establish full control of the hip and secondary leg, align the rotational force vector, and only then apply slow, controlled pressure. Never 'rip' a heel hook.",
+  "whyItWorks": [
+    "The knee has very little rotational stability — less than 5 degrees of external rotation can cause ligament damage.",
+    "Heel hooks cause injury before the opponent feels pain — you cannot rely on their tap as your only safety cue.",
+    "Controlled application of heel hooks builds trust and allows training partners to learn the position safely.",
+    "Danaher principle: leg locks are the most dangerous submissions in BJJ — safety protocols are not optional, they are mandatory."
+  ],
+  "commonMistakes": [
+    "Applying heel hooks explosively — 'ripping' causes injuries that could have been prevented with slow application.",
+    "Finishing without controlling the opponent's hip — they can spin and injure their own knee.",
+    "Not recognizing when a heel is exposed versus when the entanglement is not yet controlled.",
+    "Training heel hooks with unpredictable partners — trust and communication are essential."
+  ],
+  "coachingCues": [
+    "Control first, finish second — never skip the control phase.",
+    "Slow is smooth, smooth is safe — if you 'rip,' you're wrong.",
+    "If you can't explain why the heel is exposed, you don't have control.",
+    "Tap early, tap often — there is no shame in protecting your knee."
+  ],
+  "safetySummary": [
+    "NEVER apply a heel hook explosively — slow, controlled pressure allows the partner to tap before injury.",
+    "Always establish full control of the hip and secondary leg before applying rotational force.",
+    "Tap on ANY sensation of rotational pressure on the knee — do not wait for pain.",
+    "Do not train heel hooks with partners you do not trust.",
+    "Heel hooks are not appropriate for beginners — require solid leg lock fundamentals first."
+  ],
+  "systemLogic": {
+    "corePrinciple": "Leg entanglement established: control hip → control secondary leg → expose heel → align rotation vector → apply slow pressure → finish.",
+    "decisionTree": [
+      {
+        "condition": "any step is missing",
+        "action": "return to that step before advancing."
+      },
+      {
+        "condition": "General application",
+        "action": "The safety checklist is NOT optional — it is the most important part of heel hook training."
+      }
+    ],
+    "exitStrategies": []
+  },
+  "moneyDetails": [
+    "Heel exposure occurs when the opponent's heel is turned toward your chest and their knee is fixed by your entanglement.",
+    "Control their far hip with your hand or leg — this prevents them from rotating away and injuring themselves.",
+    "The rotational vector should be aligned with their knee's natural bend — external rotation, not varus/valgus.",
+    "Apply pressure at 10% for 3 seconds, then 20% for 3 seconds — if they don't tap, you have control."
+  ],
+  "nextStep": "After heel hook safety, learn the saddle control and inside heel hook mechanics.",
+  "fixItFast": [
+    "Partner got injured? Stop training immediately — reassess your control and speed.",
+    "Uncertain about the finish? Release and re-enter — there is no penalty for being safe.",
+    "Partner didn't tap? You may not have the position — check your entanglement and heel exposure."
+  ]
+}

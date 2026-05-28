@@ -1,0 +1,65 @@
+{
+  "id": "angle-creation",
+  "locale": "fr",
+  "title": "Création d’angle",
+  "category": "strategic",
+  "level": "intermediate",
+  "tags": [
+    "angle",
+    "pivot",
+    "direction"
+  ],
+  "shortDefinition": "Créer angle change corps/hanches pour attaquer structure faible plutôt que pousser droit.",
+  "whyItMatters": "Beaucoup de techniques échouent avec bon grip mais mauvais angle.",
+  "deepExplanation": "Angle vient de hip heist, head position, cut shoulder line, knee cut, back step ou pivot. Bon angle force défense une direction pendant que vous bougez autre.",
+  "beginnerView": "Si pousser échoue, ne poussez pas plus fort; changez angle.",
+  "advancedView": "Créer angle par réaction adverse, pas seulement footwork.",
+  "ifThenExamples": [
+    {
+      "if": "Si vous perdez Création d’angle pendant l’échange.",
+      "then": "Arrêtez d’accélérer, récupérez la structure corporelle proche, puis continuez.",
+      "why": "Le no-gi moderne punit vite la force après perte de structure.",
+      "relatedSkillIds": [
+        "knee-cut-passing",
+        "guillotine-system"
+      ]
+    },
+    {
+      "if": "Si l’adversaire répond correctement à votre première ligne.",
+      "then": "Utilisez Création d’angle pour passer à une branche plus sûre au lieu de forcer.",
+      "why": "Un bon concept transforme la réaction adverse en information pour la décision suivante.",
+      "relatedSkillIds": [
+        "guillotine-system",
+        "arm-triangle-mount",
+        "half-guard-wrestle-up"
+      ]
+    }
+  ],
+  "commonMisunderstandings": [
+    {
+      "misunderstanding": "Création d’angle est une astuce technique isolée.",
+      "correction": "Voyez-le comme une règle de décision présente dans plusieurs positions."
+    },
+    {
+      "misunderstanding": "Comprendre le concept suffit pour l’utiliser en live.",
+      "correction": "Le concept doit être lié à signaux corporels, cues courts et rolling positionnel."
+    }
+  ],
+  "trainingCues": [
+    "Nommez Création d’angle avant d’ajouter force.",
+    "Cherchez le signal corporel, pas une impression vague.",
+    "Si la structure est perdue, reset une couche d’abord.",
+    "Driller lentement, puis tester avec résistance progressive."
+  ],
+  "relatedSkillIds": [
+    "knee-cut-passing",
+    "guillotine-system",
+    "arm-triangle-mount",
+    "half-guard-wrestle-up"
+  ],
+  "relatedConceptIds": [
+    "dilemma-attacks",
+    "pressure-direction",
+    "failure-response"
+  ]
+}

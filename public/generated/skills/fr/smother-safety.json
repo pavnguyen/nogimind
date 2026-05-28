@@ -1,0 +1,129 @@
+{
+  "id": "smother-safety",
+  "domain": "positional_awareness",
+  "level": "advanced",
+  "status": "draft",
+  "name": "Étouffez la sécurité",
+  "aliases": [],
+  "tags": [
+    "smother",
+    "compression",
+    "safety",
+    "tier:safety-critical",
+    "meta:specialized",
+    "risk:safety-critical",
+    "family:safety",
+    "group:smother",
+    "modern-no-gi"
+  ],
+  "keywords": [
+    "smother",
+    "compression",
+    "safety"
+  ],
+  "modernSystemGroup": "smother",
+  "relatedSkills": [
+    {
+      "id": "mount-control",
+      "type": "recommended"
+    },
+    {
+      "id": "side-control-pin",
+      "type": "recommended"
+    },
+    {
+      "id": "buggy-choke",
+      "type": "recommended"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "mount-control",
+    "side-control-pin"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [
+    "Si votre partenaire tapote pour étouffer une pression que vous pensiez normale : vous appliquez peut-être trop de poids sur le visage – vérifiez la position de vos épaules.",
+    "Si vous sentez votre base glisser lors d'un étouffement : relâchez immédiatement la pression, rétablissez votre base et réappliquez avec une meilleure structure.",
+    "Si vous vous retrouvez à maintenir la pression après avoir tapé : il s'agit d'une habitude d'entraînement qui doit être corrigée immédiatement : relâchez à chaque pression, sans exception."
+  ],
+  "version": 1,
+  "updatedAt": "2026-05-21T00:24:30.780Z",
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "fr",
+  "description": "Reconnaissez l'étouffement et la compression sécuritaires : pression lente, bonne base, libération immédiate au robinet ou en cas de détresse. Les techniques d'étouffement appliquent une pression sur le visage ou le torse pour créer une gêne. Elles sont légales dans certains contextes mais nécessitent des protocoles de sécurité stricts.",
+  "shortInstruction": "Appliquez lentement une pression douce, maintenez une base stable pour éviter de glisser et relâchez immédiatement en cas de pression, de détresse vocale ou de signes de panique. N'utilisez jamais de techniques d'étouffement contre des grappins plus récents.",
+  "summary": "Les techniques d'étouffement (compression thoracique, pression des épaules sur le visage, positionnement du corps qui restreint la respiration) font partie du passage et du blocage de pression de haut niveau. La principale distinction en matière de sécurité se situe entre la « pression de position » (sûre, contrôlée) et « l'étouffement dans l'intention de provoquer une détresse respiratoire » (nécessite de la prudence). Les techniques d'étouffement sûres sont appliquées progressivement avec une base stable afin que l'adversaire puisse taper à tout moment. Les techniques d'étouffement dangereuses impliquent des chutes de poids soudaines, le glissement de l'épaule sur la gorge ou le maintien d'une pression après un robinet.",
+  "whyItWorks": [
+    "La compression thoracique de side control ou mount restreint le mouvement du diaphragme de l'adversaire, rendant la respiration superficielle et inconfortable — cela crée une urgence de s'échapper.",
+    "La pression de l'épaule sur le visage crée une distraction qui empêche l'adversaire de se concentrer sur sa séquence de fuite.",
+    "La pression d'étouffement, lorsqu'elle est appliquée en toute sécurité, est un outil psychologique qui fait paniquer l'adversaire et lui fait commettre des erreurs techniques.",
+    "Une bonne base pendant l'étouffement vous permet de contrôler le niveau de pression et de le relâcher immédiatement"
+  ],
+  "commonMistakes": [
+    "Laisser tomber soudainement tout votre poids sur le visage ou la poitrine de l'adversaire - ceci est dangereux et doit être évité",
+    "Pression continue après que l'adversaire a tapé ou montre des signes de détresse (tapotement sur le tapis, halètement, mouvement de panique)",
+    "Utiliser des techniques d'étouffement contre les ceintures blanches ou les grapplers inexpérimentés qui ne savent peut-être pas comment taper en toute sécurité",
+    "Laisser votre base s'effondrer tout en appliquant une pression - cela peut vous amener à glisser dans une position dangereuse pour le cou ou la colonne vertébrale."
+  ],
+  "coachingCues": [
+    "Pression lente, jamais soudaine",
+    "Base stable avant pression",
+    "Relâchez à chaque pression ou détresse",
+    "Économisez des étouffements pour des partenaires expérimentés"
+  ],
+  "safetySummary": [
+    "Ne laissez jamais tomber tout votre poids sur le visage ou la gorge d'un adversaire - cela peut provoquer des blessures même en tapant",
+    "Si l’adversaire ne peut pas respirer, il ne peut pas taper – surveillez les signaux de frappe non verbaux (main sur le tapis, tapotement du pied, corps mou)",
+    "Les techniques d'étouffement ne doivent jamais être utilisées pour « punir » un partenaire d'entraînement : ce sont des outils de position, pas des outils de l'ego.",
+    "Certains grapplers souffrent de problèmes respiratoires (asthme, etc.) – sachez qu'une pression étouffante peut déclencher une panique ou des difficultés respiratoires plus rapidement que prévu."
+  ],
+  "systemLogic": {
+    "corePrinciple": "Une pression d'étouffement sûre suit trois règles : Application progressive : Base stable → Libération immédiate",
+    "decisionTree": [
+      {
+        "condition": "Règle 1 (Application progressive)",
+        "action": "augmentez lentement la pression pendant 2 à 3 secondes. Des chutes de poids soudaines sur le visage ou la poitrine peuvent provoquer des blessures avant que l'adversaire n'ait le temps de taper."
+      },
+      {
+        "condition": "Règle 2 (Base stable)",
+        "action": "maintenez une base qui vous permet de contrôler le niveau de pression à tout moment. Si votre base s'effondre, vous perdez le contrôle de l'application de la pression et risquez de vous blesser."
+      },
+      {
+        "condition": "Règle 3 (publication immédiate)",
+        "action": "Dès l’instant où vous ressentez une tape, entendez une tape vocale ou voyez un signal de détresse non verbal, relâchez toute pression. Il n’y a pas « une seconde de plus » à l’entraînement"
+      },
+      {
+        "condition": "Principe de formation éthique",
+        "action": "des techniques d'étouffement doivent être utilisées pour enseigner le contrôle de position, et non pour dominer les partenaires d'entraînement. Si vous pouvez tenir side control sans étouffer, faites-le"
+      }
+    ],
+    "exitStrategies": []
+  },
+  "moneyDetails": [
+    "La pression d'étouffement est un élément légitime du passage d'une pression de haut niveau : utilisée correctement, elle crée une urgence de fuite sans risque de blessure.",
+    "L'apprentissage des techniques d'étouffement renforce la confiance avec les partenaires d'entraînement : ils savent que vous ne leur ferez pas de mal et que vous pouvez vous entraîner à une intensité plus élevée.",
+    "La capacité d'appliquer et de recevoir une pression plus douce sans panique sépare les grapplers compétitifs des grapplers récréatifs."
+  ],
+  "fixItFast": [
+    "Si votre partenaire a du mal à respirer sous votre pression : retirez immédiatement votre poids de sa poitrine et vérifiez s'il va bien.",
+    "Si vous sentez une tape mais que vous n'êtes pas sûr qu'elle soit réelle : relâchez immédiatement et vérifiez - il est préférable de s'arrêter pour une fausse tape plutôt que de continuer avec une vraie tape.",
+    "Si vous êtes soumis à une pression d'étouffement et que vous ne pouvez pas taper avec vos mains : tapez avec votre pied, tapez sur le tapis ou vocalisez « tapez » fort."
+  ]
+}

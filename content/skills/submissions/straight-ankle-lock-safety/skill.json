@@ -1,0 +1,46 @@
+{
+  "id": "straight-ankle-lock-safety",
+  "domain": "submission_systems",
+  "level": "intermediate",
+  "name": "Straight Ankle Lock Safety",
+  "aliases": [],
+  "tags": [
+    "leg-lock",
+    "ankle-lock"
+  ],
+  "keywords": [
+    "straight ankle lock",
+    "ashi garami",
+    "knee line",
+    "safety tap"
+  ],
+  "relatedSkills": [
+    {
+      "id": "heel-hook-safety",
+      "type": "recommended"
+    },
+    {
+      "id": "single-leg-x-basics",
+      "type": "recommended"
+    }
+  ],
+  "prerequisiteSkillIds": [
+    "leg-lock-safety-basics",
+    "single-leg-x-basics"
+  ],
+  "relatedPositions": [],
+  "relatedConcepts": [],
+  "archetypeIds": [],
+  "trainingMethodIds": [],
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": true,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "contentRefs": {
+    "videos": "videos.json",
+    "qualityChecklist": "qualityChecklist"
+  },
+  "updatedAt": "2026-05-21T00:24:30.754Z"
+}

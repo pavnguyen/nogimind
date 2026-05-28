@@ -1,0 +1,122 @@
+{
+  "id": "buggy-choke",
+  "domain": "submission_systems",
+  "level": "advanced",
+  "status": "draft",
+  "name": "Buggy Choke",
+  "aliases": [],
+  "tags": [
+    "buggy-choke",
+    "side-control-bottom",
+    "neck-safety",
+    "tier:advanced-niche",
+    "meta:specialized",
+    "risk:safety-critical",
+    "family:submission",
+    "group:smother",
+    "modern-no-gi"
+  ],
+  "keywords": [
+    "buggy choke",
+    "side control bottom",
+    "neck safety"
+  ],
+  "modernSystemGroup": "smother",
+  "relatedSkills": [
+    {
+      "id": "smother-safety",
+      "type": "recommended"
+    },
+    {
+      "id": "gogoplata",
+      "type": "recommended"
+    },
+    {
+      "id": "side-control-escape",
+      "type": "recommended"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "side-control-survival",
+    "side-control-escape"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [
+    "If they stack you, you committed too early or at the wrong angle — release and reset to frames.",
+    "If they pull their arm free, your leg wrap was too loose — wrap tighter or abandon the choke.",
+    "If you can't finish, switch back to conventional side control escapes (hip escape, underhook)."
+  ],
+  "version": 1,
+  "updatedAt": "2026-05-21T00:24:30.776Z",
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "en",
+  "description": "A bottom side-control choke that uses your legs wrapped around the opponent's neck and arm — a high-risk, high-reward desperation attack that should not replace basic survival and escape fundamentals.",
+  "shortInstruction": "Wrap your legs around their neck and arm, squeeze — the buggy choke is a surprise attack from bottom side control.",
+  "summary": "The buggy choke is a no-gi-specific choke from bottom side control. You wrap your legs around the opponent's neck and one arm, creating a blood choke by compressing their neck against your thighs. It is a legitimate submission but is considered 'low percentage' because it requires specific timing and body type. More importantly, attempting the buggy choke often gives up the underhook and hip escape, which are the foundations of side control escape. It should be a surprise weapon, not a primary escape strategy.",
+  "whyItWorks": [
+    "Creates a blood choke from a position (bottom side control) where the bottom player typically has no submission threats.",
+    "The element of surprise is significant — most top players do not expect a choke from bottom side control.",
+    "It can catch opponents who are heavy on one side with a crossface.",
+    "Useful as a last-resort attack when conventional escapes are failing."
+  ],
+  "commonMistakes": [
+    "Using it as a primary escape instead of focusing on frames and hip escapes.",
+    "Leaving the underhook available — the underhook is more important than the buggy choke.",
+    "Letting the opponent stack you — this neutralizes the choke and puts you in danger.",
+    "Wasting energy on the buggy choke when you could be escaping."
+  ],
+  "coachingCues": [
+    "Surprise weapon, not primary strategy.",
+    "If you get stacked, release — the choke is lost.",
+    "Underhook first, then buggy — never the other way around.",
+    "One attempt — if it fails, go back to escaping."
+  ],
+  "safetySummary": [
+    "The buggy choke compresses the neck — apply gradually and release on tap.",
+    "Do not use the buggy choke against larger opponents who can stack you — the stack can injure your lower back.",
+    "Tap early if you feel the choke is being applied to your own neck."
+  ],
+  "systemLogic": {
+    "corePrinciple": "Bottom side control: opponent is heavy on one side (crossface side) → wrap legs around their neck and arm → squeeze → choke.",
+    "decisionTree": [
+      {
+        "condition": "they post on their free hand",
+        "action": "the buggy choke is available — if they post on both hands, the choke is difficult."
+      },
+      {
+        "condition": "General application",
+        "action": "The buggy choke is a tertiary option — frames and hip escapes are primary, kimura and other attacks are secondary."
+      }
+    ],
+    "exitStrategies": []
+  },
+  "moneyDetails": [
+    "The leg wrap must include their neck AND one arm — wrapping only their neck will not secure the choke.",
+    "Keep your top leg over their back to prevent them from pulling out of the wrap.",
+    "The choke comes from squeezing your thighs together — not from pulling with your legs.",
+    "If they posture up, the buggy choke is lost — immediately return to frames and hip escape."
+  ],
+  "nextStep": "After understanding the buggy choke, focus on primary side control escapes: frames, hip escape, and underhook recovery.",
+  "fixItFast": [
+    "They stack you? Release and frame on their hips.",
+    "Legs slipping off? Wrap tighter around their arm — arm control is essential.",
+    "Can't get the choke? Return to frames and hip escape — the escape is more important than the submission."
+  ]
+}

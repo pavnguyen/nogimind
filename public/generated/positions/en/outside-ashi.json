@@ -1,0 +1,56 @@
+{
+  "id": "outside-ashi",
+  "locale": "en",
+  "title": "Outside Ashi",
+  "category": "leg_entanglement",
+  "status": "dangerous",
+  "description": "A leg entanglement with the leg outside the hip line, connected to straight ankle locks and heel exposure.",
+  "topPlayerGoals": [
+    "The top player wants to control Outside Ashi through head position, inside position, and directed pressure.",
+    "The attacker wants to hold the knee line and control the foot.",
+    "Keep a stable base so you are not off-balanced or countered."
+  ],
+  "bottomPlayerGoals": [
+    "The bottom player wants to survive Outside Ashi with frames, pummeling, or the right angle.",
+    "The defender wants to hide the heel, clear the knee line, and free the secondary leg.",
+    "Recognize danger signals early instead of waiting for the position to settle."
+  ],
+  "controlPoints": [
+    "Main control point: Knee line, heel line, and secondary leg..",
+    "Head, hands, hips, and knees should share the same force direction.",
+    "The elbow-knee connection or hip-shoulder line determines whether the position is still alive or already locked."
+  ],
+  "escapePriorities": [
+    "Escape priority: Hide the heel before turning..",
+    "Protect the neck, back, knee line, or arm line before countering.",
+    "If inside position is lost, reset one defensive layer first."
+  ],
+  "advancementOptions": [
+    {
+      "action": "Clear the knee line and reset safely",
+      "nextPositionId": "scramble-neutral",
+      "relatedSkillIds": [
+        "straight-ankle-lock-safety",
+        "heel-hook-safety",
+        "leg-lock-safety-basics"
+      ],
+      "why": "This is the natural branch when you win the main control point and the opponent is forced to defend."
+    }
+  ],
+  "dangerSignals": [
+    "The chin or neck is pulled out of a safe line.",
+    "The elbow separates from the ribs or knee.",
+    "The hip line is locked while the shoulder line is still being pulled.",
+    "You need a long hand post to avoid falling."
+  ],
+  "relatedSkillIds": [
+    "straight-ankle-lock-safety",
+    "heel-hook-safety",
+    "leg-lock-safety-basics"
+  ],
+  "relatedConceptIds": [
+    "knee-line",
+    "leg-lock-safety-hierarchy",
+    "early-vs-late-defense"
+  ]
+}

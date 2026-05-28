@@ -1,0 +1,58 @@
+{
+  "id": "backside-50-50",
+  "locale": "fr",
+  "title": "Backside 50/50",
+  "category": "leg_entanglement",
+  "status": "dangerous",
+  "description": "Un entanglement de jambe par derrière où l’attaquant contrôle la hip line et la knee line, créant une exposition du talon dangereuse par l’arrière.",
+  "topPlayerGoals": [
+    "Le joueur du dessus veut contrôler Backside 50/50 avec la position de tête, la position intérieure et une pression orientée.",
+    "Garder les deux knee lines, la jambe secondaire et la direction de rotation sûre.",
+    "Garder une base stable pour éviter d’être déséquilibré ou contré."
+  ],
+  "bottomPlayerGoals": [
+    "Le joueur du dessous veut survivre en Backside 50/50 avec des cadres, du pummeling ou le bon angle.",
+    "Ramener le talon à la hip line, libérer la jambe secondaire et libérer la knee line avant de tourner.",
+    "Reconnaître les signaux de danger tôt au lieu d’attendre que la position se stabilise."
+  ],
+  "controlPoints": [
+    "Point de contrôle principal : Knee line doublement piégée, talon passé hip line et jambe secondaire verrouillée..",
+    "La tête, les mains, les hanches et les genoux doivent suivre la même direction de force.",
+    "La connexion coude-genou ou la ligne hanches-épaules détermine si la position reste vivante ou verrouillée."
+  ],
+  "escapePriorities": [
+    "Priorité de sortie : Ne pas tourner à l’aveugle — évaluer piégeage knee line et exposition talon d’abord, puis agir..",
+    "Protéger le cou, le dos, la ligne du genou ou la ligne du bras avant de contrer.",
+    "Si la position intérieure est perdue, rétablir d’abord une couche défensive."
+  ],
+  "advancementOptions": [
+    {
+      "action": "Passer en saddle ou finition heel hook",
+      "nextPositionId": "saddle-inside-sankaku",
+      "relatedSkillIds": [
+        "backside-50-50-control",
+        "heel-hook-safety",
+        "leg-lock-safety-basics"
+      ],
+      "why": "C’est la branche naturelle lorsque vous gagnez le point de contrôle principal et que l’adversaire est forcé de défendre."
+    }
+  ],
+  "dangerSignals": [
+    "Le menton ou le cou sort de la ligne sûre.",
+    "Le coude se sépare des côtes ou du genou.",
+    "La ligne des hanches est verrouillée pendant que la ligne des épaules est encore tirée.",
+    "Vous devez poser une main loin pour éviter de tomber."
+  ],
+  "relatedSkillIds": [
+    "backside-50-50-control",
+    "heel-hook-safety",
+    "leg-lock-safety-basics",
+    "k-guard-matrix",
+    "false-reap-entry"
+  ],
+  "relatedConceptIds": [
+    "knee-line",
+    "leg-lock-safety-hierarchy",
+    "safe-unsafe-rotation"
+  ]
+}

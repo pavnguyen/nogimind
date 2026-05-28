@@ -1,0 +1,61 @@
+{
+  "id": "tarikoplata",
+  "locale": "en",
+  "name": "Tarikoplata",
+  "description": "A shoulder lock that turns the standard omoplata and clamp into a finishing shoulder lock when the wrist and elbow line are controlled — using the leg to apply rotational pressure on the shoulder.",
+  "shortInstruction": "Trap the arm, bring your leg over the shoulder, control the wrist, rotate — the tarikoplata is a leg-assisted shoulder lock with Kimura-like mechanics.",
+  "summary": "The tarikoplata (named after Tarsis Humphreys) is a hybrid shoulder lock that combines elements of the omoplata and Kimura. Unlike the omoplata (which rotates the shoulder by lifting the opponent's arm), the tarikoplata pins their arm to their own body and uses your leg to create the rotation. The result is a shoulder lock that is tighter than the omoplata and comes from an angle that the Kimura cannot reach. It is most commonly entered from the clamp or shoulder crunch positions.",
+  "whyItWorks": [
+    "Pinning their arm to their own body prevents them from straightening and escaping — a key advantage over the omoplata.",
+    "The leg-assisted rotation generates more torque than a standard Kimura grip.",
+    "It attacks the shoulder from an angle that most opponents do not expect.",
+    "Danaher principle: the tarikoplata solves the problem of the opponent pulling their arm free from the omoplata."
+  ],
+  "commonMistakes": [
+    "Not controlling the wrist before bringing the leg over — they will pull the arm free.",
+    "Bringing the leg over too soon — establish the arm trap first.",
+    "Letting their elbow escape behind their body — the elbow must stay in front for the rotation to work.",
+    "Using only leg strength to finish — combine leg rotation with upper body pull."
+  ],
+  "coachingCues": [
+    "Wrist first, leg second, rotate together.",
+    "Pin the arm, own the shoulder.",
+    "If they defend the omoplata, hit the tarikoplata.",
+    "Leg rotates, arm pulls, shoulder submits."
+  ],
+  "safetySummary": [
+    "The tarikoplata applies rotational pressure to the shoulder — apply gradually and respect the tap.",
+    "Do not crank the shoulder if the opponent has pre-existing shoulder issues.",
+    "Maintain control of their posture throughout to prevent them from falling on your leg."
+  ],
+  "keyCorrections": [
+    "If they pull their arm free, your wrist control was too weak — re-grip with a stronger hold.",
+    "If you can't finish, your leg is not controlling their shoulder — adjust your leg to trap the shoulder line.",
+    "If they stack you, release and reset — don't fight the stack."
+  ],
+  "systemLogic": {
+    "corePrinciple": "Clamp or omoplata position: control their wrist → bring your leg over their arm → pin arm to their body → rotate your hips → finish.",
+    "decisionTree": [
+      {
+        "condition": "The tarikoplata chains with the omoplata: omoplata",
+        "action": "tarikoplata → Kimura — a complete shoulder attack chain."
+      },
+      {
+        "condition": "they defend the tarikoplata by rolling",
+        "action": "transition to back take."
+      }
+    ]
+  },
+  "moneyDetails": [
+    "Control their wrist with a strong grip — four fingers on their wrist, thumb on the palm side.",
+    "Bring your top leg over their arm and trap it against their own body — the arm must be pinned, not free.",
+    "Rotate your hips away from them as you pull their wrist toward you — the combination creates the shoulder lock.",
+    "Keep your free leg on their hip to control their posture and prevent them from sitting up."
+  ],
+  "nextStep": "After the tarikoplata, learn the omoplata system and Kimura system.",
+  "fixItFast": [
+    "Arm keeps escaping? Your wrist control is too loose — re-grip with more pressure.",
+    "Can't rotate? Your leg position is wrong — adjust so your leg controls their shoulder, not their arm.",
+    "They stack you? Release and reset to guard."
+  ]
+}

@@ -1,0 +1,2055 @@
+[
+  {
+    "id": "back-escape",
+    "domain": "escapes",
+    "level": "intermediate",
+    "name": "Retour Évasion",
+    "tags": [
+      "escape",
+      "back"
+    ],
+    "summary": "L'évasion arrière nécessite d'abord de gagner le combat à main, puis de créer de l'espace en laissant tomber l'épaule coincée sous la ligne des hanches de l'adversaire. Une branche systématique : combat à la main → glissade d'épaule → retrait d'un seul crochet → virage ou redressement.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": true
+  },
+  {
+    "id": "back-survival",
+    "domain": "survival_defense",
+    "level": "beginner",
+    "name": "Retour Survie",
+    "tags": [
+      "survival",
+      "back"
+    ],
+    "summary": "La survie arrière est une action de retenue : protéger le cou, empêcher le starter de couler et gérer sa respiration tout en préparant la séquence de fuite. La priorité est toujours la main qui s'étouffe, puis le corps triangle, puis les crochets.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": true
+  },
+  {
+    "id": "compression-vs-strangle-recognition",
+    "domain": "positional_awareness",
+    "level": "intermediate",
+    "name": "Compression ou étranglement",
+    "tags": [
+      "compression",
+      "strangle",
+      "neck-safety",
+      "leg-lock",
+      "decision-making"
+    ],
+    "summary": "Les attaques de compression (slicers) appliquent une pression qui emprisonne un muscle du ventre contre un os, créant une vive douleur localisée. Les étranglements (étranglements sanguins) appliquent une pression sur les artères carotides. La réponse est inverse : pour les locks par compression, tapotez lorsque la douleur devient vive (ils ne vous feront pas perdre connaissance). En cas d'étouffement sanguin, vous pouvez vous défendre plus longtemps car l'inconscience est réversible. Le danger est de confondre un étranglement sanguin profond qui ressemble à une pression dans le cou avec une manivelle – appuyez tôt si la pression ne semble pas bonne.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "dilemmas-two-way-attacks",
+    "domain": "positional_awareness",
+    "level": "intermediate",
+    "name": "Dilemmes et attaques bidirectionnelles",
+    "tags": [
+      "decision-making",
+      "offense"
+    ],
+    "summary": "Un dilemme est une position dans laquelle la réponse défensive de l'adversaire à une attaque ouvre une seconde attaque tout aussi dangereuse. Les dilemmes les plus puissants lient un balayage et une soumission (par exemple, un balayage en ciseaux → kimura à partir de closed guard) ou une passe et une reprise (par exemple, passer sur le côté expose le dos). Le système vous apprend à enchaîner les attaques plutôt que de lancer des techniques uniques et de redémarrer en cas d'échec.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "failure-response-transitions",
+    "domain": "positional_awareness",
+    "level": "intermediate",
+    "name": "Réponse aux échecs et transitions",
+    "tags": [
+      "transitions",
+      "systems"
+    ],
+    "summary": "La réponse à l'échec est un arbre de décision structuré lorsque la technique A ne fonctionne pas. Le système propose quatre réponses progressives : (1) réglage de l'angle : déplacez votre corps de 10 à 30 degrés sans changer la technique, (2) réglage de la poignée : changez l'endroit et la façon dont vous tenez l'adversaire, (3) changement de position : passez à une position différente tout en conservant le même thème d'attaque, (4) retraite en toute sécurité : désengagez et réinitialisez au neutre. Le principe clé est d’épuiser les options 1 à 3 avant d’accepter l’option 4.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "frames-pummeling",
+    "domain": "positional_awareness",
+    "level": "beginner",
+    "name": "Cadres et coups",
+    "tags": [
+      "frames",
+      "pummeling"
+    ],
+    "summary": "Les cadres utilisent la structure osseuse contre les muscles pour maintenir la distance et survivre à la pression. Le martèlement est le processus actif de récupération de la position intérieure après sa perte. Ensemble, ils forment la base mécanique des évasions, de la rétention guard et du grappin défensif.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "front-headlock-defense",
+    "domain": "survival_defense",
+    "level": "intermediate",
+    "name": "front headlock Défense",
+    "tags": [
+      "front-headlock",
+      "neck-safety"
+    ],
+    "summary": "La défense front headlock est une réponse systématique à l’une des positions les plus dangereuses du grappling No-Gi. La priorité est d'abord la protection du cou, puis le contrôle du poignet, puis la récupération de la base et enfin la fuite. Le système récompense le timing et la prise de décision calme en cas de mouvement explosif.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": true
+  },
+  {
+    "id": "guard-pulling-strategy",
+    "domain": "positional_awareness",
+    "level": "intermediate",
+    "name": "guard Stratégie de traction",
+    "tags": [
+      "strategy",
+      "guard"
+    ],
+    "summary": "guard tirer devrait être une transition offensive et non une retraite défensive. La séquence est la suivante : établir une prise dominante → créer un angle en effectuant des cercles ou des coups → contrôler la distance en maintenant la prise → s'asseoir avec contrôle → entrer directement dans votre meilleur système guard. Un pull guard bien exécuté arrive dans un guard marquant (pas à plat sur le dos) avec des prises déjà établies et l'adversaire déséquilibré.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "guillotine-defense-escape",
+    "domain": "escapes",
+    "level": "intermediate",
+    "name": "guillotine Défense et évasion",
+    "tags": [
+      "defense",
+      "guillotine",
+      "choke-defense",
+      "headlock",
+      "neck-safety",
+      "takedown-defense"
+    ],
+    "summary": "La défense guillotine utilise le repli du menton, les combats avec les mains et la position du corps pour soulager la pression du cou, puis une séquence systématique pour dégager le bras qui s'étouffe et récupérer guard ou la position supérieure. Le système donne la priorité à la posture et au contrôle des bras plutôt qu’aux tirs explosifs.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "half-guard-bottom-escape",
+    "domain": "escapes",
+    "level": "intermediate",
+    "name": "half guard Échappement par le bas",
+    "tags": [
+      "escape",
+      "half-guard",
+      "underhook",
+      "dogfight",
+      "wrestle-up"
+    ],
+    "summary": "half guard bottom escape utilise le underhook et la position extérieure du genou pour créer une entrée de combat aérien, à partir de laquelle vous pouvez wrestle up, balayer ou récupérer le guard complet. Le système récompense la mobilité des hanches et la position de la tête plutôt que la force du haut du corps.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "inside-position",
+    "domain": "positional_awareness",
+    "level": "beginner",
+    "name": "Position intérieure",
+    "tags": [
+      "mechanics",
+      "pummeling"
+    ],
+    "summary": "La position intérieure est le contrôle de l’espace entre votre corps et la ligne médiane de l’adversaire. À partir de là, toutes les soumissions, balayages, passes et épingles sont générés. La position intérieure existe à quatre niveaux : main à l'intérieur (frappe pour le contrôle du poignet/coude), genou à l'intérieur (frappe pour guard/half guard), hanche à l'intérieur (position intérieure pour passer/balayer) et tête à l'intérieur (contrôle de la tête pour les retraits/pauses de tortue). La perte de position intérieure à n’importe quel niveau se répercute vers le haut – perdre le genou à l’intérieur entraîne la perte de la hanche à l’intérieur.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "kani-basami-safety",
+    "domain": "positional_awareness",
+    "level": "beginner",
+    "name": "Kani Basami Sécurité",
+    "tags": [
+      "safety",
+      "knee-safety",
+      "takedown",
+      "tier:safety-critical",
+      "risk:safety-critical",
+      "family:safety",
+      "group:takedown-safety",
+      "ibjjf-rules",
+      "modern-no-gi"
+    ],
+    "summary": "La sensibilisation Kani basami enseigne les dangers de cette technique interdite et propose des alternatives plus sûres pour les entrées de retrait. La technique est interdite car le mouvement de ciseaux emprisonne le genou sans trajectoire de rotation sûre, et le poids de l'adversaire tombant sur un genou fixe crée des forces catastrophiques que la chirurgie de reconstruction ne peut pas complètement réparer.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": true
+  },
+  {
+    "id": "knee-line-escape",
+    "domain": "survival_defense",
+    "level": "intermediate",
+    "name": "Évasion de la ligne du genou / Masquer le talon",
+    "tags": [
+      "knee-line",
+      "leg-lock",
+      "heel-hide",
+      "defense",
+      "escape"
+    ],
+    "summary": "L'évasion de la ligne du genou est le processus systématique consistant à retirer votre genou du contrôle de l'adversaire en cas d'enchevêtrement des jambes. La séquence en quatre étapes est la suivante : (1) cacher le talon - amener votre talon vers votre fessier pour l'empêcher de contrôler le pied, (2) séparer les hanches - créer une distance entre vos hanches et les leurs pour réduire le levier de rotation, (3) dégager la jambe secondaire - retirer le crochet extérieur de la jambe qui emprisonne votre jambe, (4) rotation correcte - pivoter vers votre jambe libre (jamais loin de la jambe piégée). Ce système est basé sur la philosophie d'évasion du verrouillage des jambes de Danaher et constitue la base de toute défense contre le verrouillage des jambes.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "leg-lock-defense",
+    "domain": "survival_defense",
+    "level": "intermediate",
+    "name": "Défense de verrouillage des jambes",
+    "tags": [
+      "leg-lock",
+      "defense",
+      "heel-hook",
+      "knee-safety",
+      "escape"
+    ],
+    "summary": "La défense de verrouillage des jambes couvre tout le spectre des réponses défensives contre toutes les attaques majeures des jambes : heel hooks (intérieur et extérieur), ankle lock droits, barres de genoux, prises d'orteils et trancheurs de mollets. Le système intègre une mécanique d'évasion de la ligne du genou avec des compteurs spécifiques à la soumission. La règle universelle : si votre genou est isolé et votre talon contrôlé, privilégiez la fuite. Si votre genou est isolé et que le talon est déjà exposé, privilégiez le tapotement.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "leg-lock-safety-basics",
+    "domain": "survival_defense",
+    "level": "beginner",
+    "name": "Bases de sécurité du verrouillage des jambes",
+    "tags": [
+      "leg-lock",
+      "knee-safety"
+    ],
+    "summary": "Les principes de base de la sécurité du verrouillage des jambes couvrent les quatre concepts de sécurité fondamentaux que chaque grappler doit maîtriser avant de tenter ou de défendre les verrouillages des jambes : (1) la ligne du genou - la ligne invisible à l'arrière du genou qui, lorsqu'elle est croisée, signale la nécessité de taper ou de s'échapper, (2) l'exposition du talon - lorsque le talon est isolé et séparé de la cuisse, le genou est en danger, (3) rotation sûre - la rotation vers la jambe libre est toujours sûre, la rotation en arrière est toujours dangereuse, (4) la discipline des claquettes - tapoter vers la position plutôt que la douleur est la règle d'or. de l'entraînement de verrouillage des jambes.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": true
+  },
+  {
+    "id": "mount-escape",
+    "domain": "escapes",
+    "level": "beginner",
+    "name": "mount Évasion",
+    "tags": [
+      "escape",
+      "mount"
+    ],
+    "summary": "L'évasion mount utilise un pont séquencé pour créer de l'espace, le placement du coude pour bloquer le crossface et l'évasion de la hanche pour récupérer guard ou une position de protection du genou. Le système récompense le timing plutôt que l’explosivité.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": true
+  },
+  {
+    "id": "mount-survival",
+    "domain": "survival_defense",
+    "level": "beginner",
+    "name": "mount Survie",
+    "tags": [
+      "survival",
+      "mount"
+    ],
+    "summary": "La survie de mount nécessite d'empêcher l'adversaire d'établir un mount élevé en gérant trois voies d'attaque : la voie d'isolement des bras (coudes évasés = armbar ou attaques d'épaule), la voie du cou (coudes hauts = étranglement du col ou crossface) et la voie des hanches (genoux hauts = progression élevée de mount). La survie est active et non passive : de petits ajustements et des bosses au bon moment empêchent l'adversaire de régler son poids.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": true
+  },
+  {
+    "id": "neck-crank-recognition",
+    "domain": "positional_awareness",
+    "level": "intermediate",
+    "name": "Reconnaissance de la manivelle du cou",
+    "tags": [
+      "safety",
+      "neck-safety",
+      "cervical-spine",
+      "tier:safety-critical",
+      "risk:safety-critical",
+      "family:safety",
+      "group:neck-safety",
+      "modern-no-gi"
+    ],
+    "summary": "La reconnaissance du cou est la capacité de distinguer instantanément un étranglement sanguin qui cible les artères carotides et un cou qui cible la colonne cervicale. Un étranglement sanguin peut s'entraîner en toute sécurité avec un partenaire d'entraînement : il coupe le flux sanguin vers le cerveau et provoque une perte de conscience sans dommages structurels. Une manivelle attaque les vertèbres, les disques et les ligaments de la colonne cervicale et peut causer des dommages cumulatifs au fil des années d'entraînement. La principale différence : les starters appliquent une pression sur les côtés du cou (carotide), les manivelles appliquent une pression sur le menton, l'arrière de la tête ou le haut de la colonne vertébrale.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": true
+  },
+  {
+    "id": "north-south-escape",
+    "domain": "escapes",
+    "level": "intermediate",
+    "name": "Évasion Nord Sud",
+    "tags": [
+      "escape",
+      "pin",
+      "north-south",
+      "frame",
+      "knee-shield"
+    ],
+    "summary": "north-south escape utilise un cadre d'avant-bras sur les hanches pour créer une séparation, puis un knee shield pour se transformer en adversaire et récupérer guard. Le système est distinct des évasions side control car le poids de l'adversaire est aligné le long de votre ligne médiane plutôt que perpendiculairement à celle-ci.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "positional-hierarchy",
+    "domain": "positional_awareness",
+    "level": "beginner",
+    "name": "Hiérarchie positionnelle",
+    "tags": [
+      "map",
+      "decision-making"
+    ],
+    "summary": "La hiérarchie positionnelle classe les positions de lutte de la plus vulnérable à la plus dominante. Le système dicte votre objectif tactique à chaque position : si vous êtes en position basse (pire), votre objectif est de vous échapper. Si vous êtes en première position (meilleure), votre objectif est d’avancer ou de vous soumettre. Chaque décision que vous prenez doit être filtrée à travers cette hiérarchie – ne tentez pas de soumettre une proposition à partir d'un poste où vous n'avez pas de position dominante en premier.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "reaping-awareness",
+    "domain": "positional_awareness",
+    "level": "beginner",
+    "name": "Récolter la conscience",
+    "tags": [
+      "safety",
+      "knee-safety",
+      "leg-lock",
+      "tier:safety-critical",
+      "risk:safety-critical",
+      "family:safety",
+      "group:leg-safety",
+      "ibjjf-rules",
+      "modern-no-gi"
+    ],
+    "summary": "La conscience de la récolte vous apprend à identifier quand un enchevêtrement de jambe devient une récolte illégale (règle IBJJF) ou une position dangereuse du genou, et comment vous adapter à des positions d'entraînement sûres. La mesure clé est la ligne médiane : si votre pied attaquant se trouve du côté opposé du corps de l'adversaire par rapport à l'endroit où vous avez commencé, vous récoltez probablement. Le danger est que la récolte applique le même couple de rotation au genou qu'un heel hook, et l'entraînement dans des positions récoltées normalise les angles de genou dangereux.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": true
+  },
+  {
+    "id": "scramble-control",
+    "domain": "positional_awareness",
+    "level": "advanced",
+    "name": "Contrôle de brouillage",
+    "tags": [
+      "scramble",
+      "transitions"
+    ],
+    "summary": "Le contrôle Scramble transforme les échanges chaotiques en une course aux priorités systématique. Les quatre priorités dans l'ordre sont : (1) la position de la tête – placez votre front jusqu'à la ligne de la mâchoire, (2) la hauteur des hanches – gardez vos hanches en dessous ou au niveau des leurs, (3) la position intérieure – frappez leurs mains, leurs genoux et leurs coudes vers l'intérieur, et (4) l'exposition du dos – ne montrez jamais votre dos. Le grappler qui structure en premier force l'adversaire à réagir et obtient un avantage positionnel.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "side-control-escape",
+    "domain": "escapes",
+    "level": "beginner",
+    "name": "side control Évasion",
+    "tags": [
+      "escape",
+      "pin"
+    ],
+    "summary": "side control escape utilise un cadre rigide au niveau des hanches pour créer un coin, puis une évasion de hanche pour récupérer la position intérieure. Le système comporte deux branches principales : la récupération underhook (prise arrière ou guard) et la récupération genou-coude (guard).",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": true
+  },
+  {
+    "id": "side-control-survival",
+    "domain": "survival_defense",
+    "level": "beginner",
+    "name": "side control Survie",
+    "tags": [
+      "survival",
+      "pin"
+    ],
+    "summary": "side control la survie est l'art d'absorber la pression sans panique tout en maintenant l'intégrité structurelle nécessaire à une évasion. L'ordre de priorité est le suivant : protéger le bras le plus proche (du coude aux côtes), protéger le cou (menton rentré, tête tournée vers le tapis sous crossface) et gérer la respiration. Un joueur du bas survivant est calme, cadre correctement et attend le bon moment pour lancer la séquence d'évasion.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": true
+  },
+  {
+    "id": "smother-safety",
+    "domain": "positional_awareness",
+    "level": "advanced",
+    "name": "Étouffez la sécurité",
+    "tags": [
+      "smother",
+      "compression",
+      "safety",
+      "tier:safety-critical",
+      "meta:specialized",
+      "risk:safety-critical",
+      "family:safety",
+      "group:smother",
+      "modern-no-gi"
+    ],
+    "summary": "Les techniques d'étouffement (compression thoracique, pression des épaules sur le visage, positionnement du corps qui restreint la respiration) font partie du passage et du blocage de pression de haut niveau. La principale distinction en matière de sécurité se situe entre la « pression de position » (sûre, contrôlée) et « l'étouffement dans l'intention de provoquer une détresse respiratoire » (nécessite de la prudence). Les techniques d'étouffement sûres sont appliquées progressivement avec une base stable afin que l'adversaire puisse taper à tout moment. Les techniques d'étouffement dangereuses impliquent des chutes de poids soudaines, le glissement de l'épaule sur la gorge ou le maintien d'une pression après un robinet.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "turtle-escape-standup",
+    "domain": "escapes",
+    "level": "intermediate",
+    "name": "La tortue s'échappe pour se relever",
+    "tags": [
+      "escape",
+      "turtle",
+      "stand-up",
+      "wrestling",
+      "back-defense"
+    ],
+    "summary": "L'évasion de la tortue pour se lever utilise une séquence technique de mise debout pour passer d'une tortue défensive à une position neutre ou engagée sans abandonner le dos. Le système donne la priorité au placement des mains et au timing des genoux plutôt qu’au roulement explosif.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "butterfly-guard-off-balance",
+    "domain": "guard_offense",
+    "level": "intermediate",
+    "name": "Papillon guard déséquilibré",
+    "tags": [
+      "butterfly",
+      "guard"
+    ],
+    "summary": "Le déséquilibre du Butterfly guard est le moteur de tout le système Butterfly. Sans briser la base de l'adversaire, vous ne pouvez ni balayer ni attaquer. Le but est de leur faire poster une main ou un pas – puis vous bougez.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "clamp-guard-control",
+    "domain": "guard_offense",
+    "level": "intermediate",
+    "name": "Pince guard Contrôle",
+    "tags": [
+      "clamp-guard",
+      "shoulder-line",
+      "overhook",
+      "tier:modern-expansion",
+      "meta:modern-common",
+      "risk:medium",
+      "family:guard",
+      "group:clamp-guard",
+      "modern-no-gi"
+    ],
+    "summary": "La pince guard (également appelée « pince » ou « pince à bras ») épingle le bras de l'adversaire sur votre corps pendant que votre genou bloque son épaule. Cela crée un deux contre un sur le bras coincé. À partir de là, chaque réaction qu'ils font ouvre une soumission : ils se positionnent dans le triangle, ils se retirent dans le armbar, ils roulent dans le omoplata.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "clamp-to-triangle-bridge",
+    "domain": "guard_offense",
+    "level": "advanced",
+    "name": "Fixez guard au pont triangle",
+    "tags": [
+      "clamp-guard",
+      "triangle",
+      "transition",
+      "guard-offense",
+      "submission-chain"
+    ],
+    "summary": "Le pont de serrage à triangle est la chaîne d'attaque principale de la pince guard. Lorsque l'adversaire sent la pince et tente de s'échapper en se tenant debout ou en prenant une posture, il crée exactement l'espace dont vous avez besoin pour jeter votre jambe par-dessus son épaule. Leur fuite devient votre configuration. Le pont n'est pas un mouvement de force, c'est une transition de timing et d'angle.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "closed-guard-posture-control",
+    "domain": "guard_offense",
+    "level": "beginner",
+    "name": "closed guard Contrôle de la posture",
+    "tags": [
+      "closed-guard",
+      "posture",
+      "control"
+    ],
+    "summary": "closed guard n'est efficace que lorsque la posture de l'adversaire est brisée. Un adversaire en posture peut se lever, passer ou frapper (en MMA). Votre objectif principal est de les empêcher de s'asseoir droit en utilisant la tension des jambes pour attirer leur poids sur vous, en vous battant avec les mains pour briser leur cadre défensif et en utilisant l'angle des hanches pour les déséquilibrer. Sans contrôle de la posture, vous n'êtes pas offensé par closed guard.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "closed-guard-sweeps",
+    "domain": "guard_offense",
+    "level": "intermediate",
+    "name": "closed guard Balayages",
+    "tags": [
+      "closed-guard",
+      "sweep",
+      "hip-bump",
+      "scissor"
+    ],
+    "summary": "closed guard sweeps transforme votre guard d'une position neutre en position de score. Le principe clé est que vous ne pouvez pas sweep un adversaire bien basé – vous devez d'abord briser son posture, le déséquilibrer et attaquer lorsqu'il réagit. Les quatre grands sweeps sont la bosse de la hanche (vers l'avant), les ciseaux (sur le côté), la fleur (en diagonale) et le pendule (circulaire). Chacun exploite une réaction différente à votre contrôle posture.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "de-la-riva-sweeps",
+    "domain": "guard_offense",
+    "level": "intermediate",
+    "name": "De La Riva Balayages",
+    "tags": [
+      "de-la-riva",
+      "guard",
+      "sweep"
+    ],
+    "summary": "De La Riva (DLR) guard est le open guard le plus courant dans le No-Gi moderne. Le crochet intérieur sur la jambe proche de l'adversaire, combiné à une poignée de manche ou de cheville, vous donne le contrôle de sa base. En tirant leur manche sur votre corps et en accrochant simultanément leur jambe, vous créez un angle qui les déséquilibre vers l'avant et sur le côté. Cela ouvre les entrées dans X-guard, X à une seule jambe ou balayages directs.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "deep-half-guard",
+    "domain": "guard_offense",
+    "level": "intermediate",
+    "name": "Profond half guard",
+    "tags": [
+      "deep-half",
+      "half-guard",
+      "sweep",
+      "underhook"
+    ],
+    "summary": "Deep half guard est l’une des positions de balayage les plus puissantes de No-Gi. En glissant vos hanches sous les hanches de l'adversaire et en contrôlant sa jambe la plus proche, vous lui rendez presque impossible d'appliquer une pression sans perdre son équilibre. La principale différence avec le half guard classique est que votre tête va du côté le plus éloigné (au-delà de la hanche), vous donnant accès à des prises en arrière et à des balayages que le half guard classique ne peut pas offrir.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "false-reap-entry",
+    "domain": "guard_offense",
+    "level": "advanced",
+    "name": "Fausse entrée de récolte",
+    "tags": [
+      "false-reap",
+      "leg-lock",
+      "knee-safety",
+      "tier:safety-critical",
+      "meta:modern-common",
+      "risk:safety-critical",
+      "family:leg-lock",
+      "group:false-reap",
+      "modern-no-gi"
+    ],
+    "summary": "La fausse récolte est une entrée No-Gi guard où vous accrochez la jambe proche de l'adversaire de l'extérieur avec votre jambe, plutôt que de l'intérieur. Cela crée un angle arrière sur la ligne de leurs jambes, ouvrant les entrées vers le saddle (inside sankaku), le cross ashi et les prises arrière. Contrairement à la récolte traditionnelle, la fausse récolte ne traverse pas la ligne des genoux de l'adversaire de manière dangereuse, ce qui la rend légale dans la plupart des règles IBJJF tout en vous donnant accès à l'enchevêtrement des jambes.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "false-reap-to-saddle-bridge",
+    "domain": "guard_offense",
+    "level": "advanced",
+    "name": "Fausse récolte jusqu'au pont saddle",
+    "tags": [
+      "false-reap",
+      "saddle",
+      "transition",
+      "inside-sankaku",
+      "leg-lock-entry"
+    ],
+    "summary": "La fausse récolte vers le pont saddle est la chaîne d'attaque principale depuis la position de fausse récolte. Lorsque l'adversaire sent sa jambe contrôlée et essaie de la libérer en reculant ou en écartant ses hanches, il crée l'angle de rotation exact dont vous avez besoin pour balancer votre jambe supérieure sur son corps et verrouiller le saddle (inside sankaku). Leur évasion alimente votre entrée – c'est le principe de Danaher qui consiste à utiliser la réaction de l'adversaire comme configuration.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "half-butterfly-to-leg-entanglements",
+    "domain": "guard_offense",
+    "level": "advanced",
+    "name": "Enchevêtrements du demi-papillon aux jambes",
+    "tags": [
+      "half-butterfly",
+      "leg-lock",
+      "bear-trap",
+      "k-guard",
+      "leg-entry"
+    ],
+    "summary": "Le demi-papillon est le guard de transition le plus fort du No-Gi moderne. Avec un crochet sur la jambe la plus proche et l'autre jambe encadrant la hanche, vous pouvez les déséquilibrer vers l'avant ou sur le côté. Leur réaction détermine votre entrée : s'ils se lèvent, rendez-vous à K-guard ; s'ils reculent, entrez dans le piège à ours ; s'ils publient, entrez le saddle. Le demi-papillon est le moteur qui alimente l’ensemble du système d’attaque du bas du corps.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "half-guard-knee-shield",
+    "domain": "guard_retention",
+    "level": "beginner",
+    "name": "half guard knee shield",
+    "tags": [
+      "half-guard",
+      "guard"
+    ],
+    "summary": "Le knee shield (également appelé Z-guard) est la position la plus stable dans le bas half guard. Votre genou latéral est inséré entre votre poitrine et sa hanche, créant un cadre qui l'empêche d'appliquer une pression thoracique. À partir de là, vous pouvez vous battre pour le underhook, créer de la distance et attaquer avec des balayages (moitié profonde, serveur), des soumissions (kimura) ou des luttes. Si vous perdez le knee shield, vous êtes aplati – le protéger est donc votre priorité numéro un.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "inverted-guard-control",
+    "domain": "guard_offense",
+    "level": "advanced",
+    "name": "guard inversé et transitions",
+    "tags": [
+      "inverted-guard",
+      "k-guard",
+      "matrix"
+    ],
+    "summary": "Le guard inversé n'est pas une position dans laquelle vous restez - c'est un outil de transition pour faire passer le bas de votre corps au-delà du haut de votre corps. En vous inversant (en posant vos épaules sur le tapis et en élevant vos hanches), vous pouvez placer vos pieds sur leurs hanches, leurs épaules ou leurs côtes. À partir de là, vous pouvez créer les angles pour les entrées K-guard (pied sur hanche), matrice (pied sur épaule) ou jambe. L’inversion doit être rapide et ciblée : rester inversé trop longtemps expose votre dos aux attaques.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "k-guard-entry",
+    "domain": "guard_offense",
+    "level": "advanced",
+    "name": "K-guard Entrée",
+    "tags": [
+      "guard",
+      "leg-lock"
+    ],
+    "summary": "K-guard est le point d'entrée le plus polyvalent du verrouillage moderne des jambes No-Gi. En plaçant un pied sur la hanche éloignée de l'adversaire et en accrochant sa jambe la plus proche avec votre autre jambe, vous créez un angle puissant sous son centre de masse. À partir de là, vous pouvez attaquer la jambe éloignée (heel hook), prendre l'arrière ou balayer vers la première position. K-guard est la colle qui relie le open guard inférieur au système d'enchevêtrement des jambes.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "k-guard-matrix",
+    "domain": "guard_offense",
+    "level": "advanced",
+    "name": "K-guard à la matrice",
+    "tags": [
+      "k-guard",
+      "matrix",
+      "backside-entry",
+      "tier:modern-expansion",
+      "meta:modern-common",
+      "risk:high",
+      "family:leg-lock",
+      "group:k-guard",
+      "modern-no-gi"
+    ],
+    "summary": "La transition K-guard vers la matrice est l'entrée arrière la plus puissante du No-Gi moderne. Lorsque vous êtes en K-guard et qu'ils défendent l'enchevêtrement des jambes en reculant ou en postant, vous faites pivoter vos hanches sur votre propre épaule et votre « matrice » sous leurs hanches – en inversant votre angle de dessous elles vers derrière elles. À partir de la matrice, vous pouvez prendre l'arrière, entrer une traînée de jambe inversée ou terminer un heel hook depuis l'arrière.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "leg-drag-pass",
+    "domain": "guard_offense",
+    "level": "intermediate",
+    "name": "Passe de traînée de jambe",
+    "tags": [
+      "leg-drag",
+      "passing",
+      "loose-passing",
+      "side-control-entry",
+      "tier:modern-expansion",
+      "meta:modern-common",
+      "risk:low",
+      "family:passing",
+      "group:modern-passing",
+      "modern-no-gi"
+    ],
+    "summary": "La passe traînée de jambe est l'une des passes guard les plus efficaces du No-Gi moderne. En contrôlant la cheville proche de l'adversaire et en la faisant glisser sur vos propres hanches, vous coupez un angle aigu qui supprime son guard et expose son dos ou son côté. La traînée de jambe fonctionne contre presque tous les open guard (DLR, RDLR, spider, assis guard) et vous donne un accès immédiat aux premières positions dominantes.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "octopus-guard-control",
+    "domain": "guard_retention",
+    "level": "intermediate",
+    "name": "Poulpe guard Contrôle",
+    "tags": [
+      "octopus",
+      "guard",
+      "hip-angle",
+      "wrestle-up",
+      "tier:modern-expansion",
+      "meta:modern-common",
+      "risk:medium",
+      "family:guard",
+      "group:octopus",
+      "modern-no-gi"
+    ],
+    "summary": "Octopus guard est un guard spécifique à No-Gi où vous vous asseyez d'un côté de l'adversaire, enroulez votre bras autour de sa hanche éloignée (ou passez la main sous son corps) et utilisez vos jambes pour encadrer sa jambe la plus proche. Cette position les empêche de vous aplatir ou d'appliquer une pression crossface. À partir de là, vous pouvez balayer (en tirant sur la hanche la plus éloignée), prendre le dos ou entrer dans des enchevêtrements de jambes.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "octopus-guard-sweep",
+    "domain": "guard_offense",
+    "level": "intermediate",
+    "name": "Poulpe guard Balayage",
+    "tags": [
+      "octopus",
+      "sweep",
+      "hip-heist",
+      "tier:modern-expansion",
+      "meta:modern-common",
+      "risk:medium",
+      "family:guard",
+      "group:octopus",
+      "modern-no-gi"
+    ],
+    "summary": "Le balayage de la pieuvre guard exploite la pression vers l'avant de l'adversaire lorsqu'il tente de passer. Alors qu'ils déposent leur poids vers l'avant, vous tirez leur hanche la plus éloignée sur votre corps tout en bloquant leur jambe la plus proche avec votre corps. La combinaison du fait de tirer leur poids vers l’avant et de bloquer leur base crée un puissant balayage rotatif qui les renverse sur le dos. Ce balayage fonctionne particulièrement bien contre les adversaires qui tentent de briser votre pieuvre guard avec pression.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "reverse-de-la-riva-transitions",
+    "domain": "guard_offense",
+    "level": "intermediate",
+    "name": "Inverser les transitions De La Riva",
+    "tags": [
+      "reverse-de-la-riva",
+      "guard",
+      "sweep"
+    ],
+    "summary": "L'inverse De La Riva (RDLR) est l'équivalent du DLR ordinaire. Là où le DLR accroche l’intérieur de la jambe proche, le RDLR accroche l’extérieur. Cela vous donne le contrôle de leur jambe sous un angle différent, ouvrant des transitions vers X-guard, DLR, X à une jambe et le piège kimura. Le RDLR est particulièrement efficace contre les adversaires qui ont déjà dégagé votre crochet DLR ou qui passent avec une forte pression vers l'avant.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "seated-guard-retention",
+    "domain": "guard_retention",
+    "level": "beginner",
+    "name": "Assis guard Rétention",
+    "tags": [],
+    "summary": "Rétention active guard depuis la position assise à l'aide des cadres, des repose-pieds et de la position intérieure.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "seated-hand-fighting",
+    "domain": "guard_retention",
+    "level": "beginner",
+    "name": "Assis guard Combat à mains nues",
+    "tags": [
+      "seated-guard",
+      "hand-fighting",
+      "collar-tie",
+      "pummel",
+      "guard-retention"
+    ],
+    "summary": "Le combat à la main assis guard est la première ligne de défense dans open guard. Avant qu’une rétention ou un balayage guard puisse avoir lieu, vous devez gagner le combat à main levée. Cela signifie contrôler les mains et les poignets de l'adversaire afin qu'il ne puisse pas saisir vos jambes, votre col ou votre ceinture. Les principes clés sont les suivants : restez dans leurs bras (coudes près du corps, mains entre les bras), retirez toute prise qui atterrit et utilisez la position de votre tête pour bloquer les attaches de leur col.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "shin-to-shin-entry",
+    "domain": "guard_offense",
+    "level": "intermediate",
+    "name": "Entrée tibia à tibia",
+    "tags": [
+      "guard",
+      "entry"
+    ],
+    "summary": "Shin-to-shin est l'entrée open guard la plus proche dans No-Gi. En plaçant votre tibia contre son tibia et en contrôlant sa manche ou sa cheville, vous créez une connexion directe qui vous permet de ressentir chaque transfert de poids. Lorsqu'ils s'engagent en avant, vous déséquilibrez et faites glisser vos hanches vers le bas, entrant en X sur une seule jambe. Lorsqu'ils reculent, vous vous levez et wrestle up. Shin-to-shin est le pont entre le guard assis et le système d'enchevêtrement des jambes.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "shoulder-crunch-control",
+    "domain": "guard_offense",
+    "level": "intermediate",
+    "name": "Contrôle du resserrement des épaules",
+    "tags": [
+      "shoulder-crunch",
+      "butterfly",
+      "sweep",
+      "tier:modern-expansion",
+      "meta:modern-common",
+      "risk:medium",
+      "family:guard",
+      "group:shoulder-crunch",
+      "modern-no-gi"
+    ],
+    "summary": "Le resserrement des épaules est l'une des positions de contrôle les plus élevées dans le travail No-Gi guard. En tirant la tête de l'adversaire vers son épaule du même côté (créant un « resserrement » sur son cou et son épaule), vous limitez son mouvement de ce côté et exposez son bras éloigné, son dos et ses jambes. Le resserrement des épaules n'est pas une soumission en soi - c'est une position de contrôle qui facilite chaque attaque de guard.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "single-leg-x-basics",
+    "domain": "guard_offense",
+    "level": "intermediate",
+    "name": "single leg x Notions de base",
+    "tags": [
+      "guard",
+      "leg-lock"
+    ],
+    "summary": "Le X sur une jambe (SLX) est la position fondamentale de contrôle sur une jambe du No-Gi moderne. Vous coincez une de leurs jambes avec votre propre jambe (entre votre cuisse et votre mollet), tandis que votre autre pied repose sur leur hanche opposée. Cela vous donne le contrôle de toute leur base grâce à une seule jambe – lorsque vous tirez sur cette jambe, tout leur corps suit. SLX est le point d'entrée pour les balayages (balayage SLX classique), les enchevêtrements de jambes (entrez ashi garami) et les stand-ups (wrestle up).",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "single-leg-x-control",
+    "domain": "guard_offense",
+    "level": "intermediate",
+    "name": "single leg x Contrôle",
+    "tags": [
+      "single-leg-x",
+      "ashi-garami",
+      "guard",
+      "sweep",
+      "leg-entry",
+      "tier:modern-expansion",
+      "meta:modern-common",
+      "risk:medium",
+      "family:guard",
+      "group:single-leg_x",
+      "modern-no-gi"
+    ],
+    "summary": "Le contrôle X sur une seule jambe va au-delà des bases : cela signifie que vous possédez entièrement la jambe piégée de l'adversaire. Ils ne peuvent pas le libérer, ne peuvent pas en sortir et ne peuvent pas s’appuyer sur lui. À partir de ce niveau de contrôle, toutes les options sont disponibles : vous pouvez les balayer sur le dos, les reprendre lorsqu'ils postent ou les laisser tomber dans un enchevêtrement de jambes. La différence entre les contrôles de base SLX et SLX réside dans la profondeur de votre serrure et dans votre capacité à lire et à réagir à leurs changements de poids.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "supine-guard-retention",
+    "domain": "guard_retention",
+    "level": "beginner",
+    "name": "En décubitus dorsal guard Rétention",
+    "tags": [
+      "guard",
+      "retention"
+    ],
+    "summary": "La rétention en position couchée guard est ce que vous utilisez lorsque vous vous retrouvez à plat sur le dos. Contrairement à la rétention guard assise (où vous êtes actif et mobile), la rétention en décubitus dorsal consiste à récupérer la structure d'une position compromise. Vos outils sont : l'élévation des hanches (shrimping), les knee shields (insérer vos genoux entre vous et eux) et les repose-pieds (placer vos pieds sur leurs hanches ou leurs biceps). Le but est toujours de revenir à vos côtés et de rétablir un guard actif.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "x-guard-control",
+    "domain": "guard_offense",
+    "level": "intermediate",
+    "name": "X-guard Contrôle",
+    "tags": [
+      "x-guard",
+      "guard",
+      "sweep",
+      "off-balance",
+      "tier:modern-expansion",
+      "meta:modern-common",
+      "risk:medium",
+      "family:guard",
+      "group:x-guard",
+      "modern-no-gi"
+    ],
+    "summary": "X-guard est la position de balayage la plus puissante de No-Gi. Vos deux jambes contrôlent leur jambe proche (une accrochée derrière le genou, une sur la hanche), tandis que vous êtes assis sous leur centre de masse. À partir de là, vous avez un 2 contre 1 sur leur jambe et le contrôle de leur base. Tout transfert de poids qu’ils effectuent peut être exploité en un balayage. X-guard est la destination des transitions DLR-vers-X et SLX-to-X.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "z-guard-sweeps",
+    "domain": "guard_offense",
+    "level": "intermediate",
+    "name": "Z-guard Balayages et moitié profonde",
+    "tags": [
+      "z-guard",
+      "deep-half",
+      "sweep",
+      "half-guard"
+    ],
+    "summary": "Z-guard (knee shield) est le poste de contrôle ; sweeps sont la récompense. À partir de Z-guard, votre knee shield crée de la distance pendant que vous vous battez pour le underhook. Une fois que vous avez remporté le underhook, vous disposez de trois options principales sweep : glisser dans la moitié profonde (quand ils avancent), frapper le serveur sweep (quand ils se lèvent) ou wrestle up (quand ils reculent). La transition Z-guard vers la moitié profonde est l'une des chaînes sweep avec le pourcentage le plus élevé dans No-Gi.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "bodylock-pass",
+    "domain": "passing",
+    "level": "intermediate",
+    "name": "Passe de verrouillage corporel",
+    "tags": [],
+    "summary": "Un système de passage de pression de base No-Gi qui neutralise les hanches avant de dégager les jambes.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "headquarters-passing",
+    "domain": "passing",
+    "level": "intermediate",
+    "name": "Passage du siège social",
+    "tags": [
+      "passing",
+      "headquarters"
+    ],
+    "summary": "Le quartier général passing est le concept passing le plus important du BJJ moderne. Depuis la position de quartier général (un genou en l'air guard contre le cadre du tibia, un genou en bas pour la base), vous contrôlez le mouvement de la hanche de l'adversaire et le forcez à réagir. Votre arbre de décision comporte trois branches principales : (1) genou coupé s'ils appuient leur tibia contre votre genou, (2) recul s'ils créent de la distance en s'échappant de la hanche, (3) traînée de jambe s'ils se placent face à vous. Le système est basé sur la lecture de l'angle de la hanche et de la position du tibia de l'adversaire.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": true
+  },
+  {
+    "id": "hq-split-squat-passing",
+    "domain": "passing",
+    "level": "intermediate",
+    "name": "QG / Passe Split-Squat",
+    "tags": [
+      "hq",
+      "split-squat",
+      "headquarters",
+      "passing",
+      "knee-cut",
+      "bodylock"
+    ],
+    "summary": "Le split-squat (également appelé quartier général) est la position fondamentale du passing pour le BJJ moderne. Il crée une base triangulaire qui bloque le tibia de l'adversaire tout en gardant vos hanches mobiles. À partir du split-squat, vous lisez l'angle et la distance de la hanche de l'adversaire pour sélectionner le pass approprié : coupe du genou (courte distance), bodylock (distance moyenne) ou toreando (longue distance).",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "knee-cut-passing",
+    "domain": "passing",
+    "level": "intermediate",
+    "name": "Passage coupé au genou",
+    "tags": [
+      "passing",
+      "knee-cut"
+    ],
+    "summary": "La passe coupée au genou attaque l'espace entre la hanche de l'adversaire et sa jambe proche alors qu'il se défend avec un knee shield ou half guard. La passe fonctionne en : (1) épinglant leur tête avec un crossface pour les empêcher de se transformer en vous, (2) en poussant votre genou le plus proche au-delà de leur knee shield dans l'espace au niveau de leur hanche, (3) en étendant votre jambe pour épingler leur hanche la plus proche et (4) en vous installant dans side control. La coupe du genou est la solution idéale pour la plupart des situations No-Gi, car elle maintient une pression maximale tout au long et nécessite un minimum d'espace.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": true
+  },
+  {
+    "id": "leg-drag-basics",
+    "domain": "passing",
+    "level": "intermediate",
+    "name": "Bases de la traînée de jambe",
+    "tags": [
+      "passing",
+      "leg-drag"
+    ],
+    "summary": "La traînée de jambe attaque la base de l'adversaire en contrôlant une jambe et en la faisant glisser sur votre corps, détournant ainsi ses hanches de vous. Une fois leurs hanches tournées, ils ne peuvent pas re-guard efficacement. La traînée de jambe est la position de pass la plus dominante car elle neutralise complètement le guard de l'adversaire — il ne peut pas sweep, se soumettre ou récupérer guard de la position de traînée de jambe.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": true
+  },
+  {
+    "id": "outside-passing",
+    "domain": "passing",
+    "level": "intermediate",
+    "name": "Passage extérieur",
+    "tags": [
+      "passing",
+      "mobility"
+    ],
+    "summary": "Les passes extérieures utilisent le jeu de jambes et la distance pour forcer l'adversaire à tourner les hanches, créant ainsi des voies de passe auxquelles les passes sous pression ne peuvent pas accéder. Le système fonctionne en restant debout (sans tomber à genoux) et en tournant vers l'extérieur de la jambe de tête de l'adversaire. Alors qu'ils se tournent vers vous, vous attaquez la hanche exposée avec un mouvement de jambe, un recul ou une passe en X. Les passes extérieures sont particulièrement efficaces contre les joueurs flexibles guard qui sont difficiles à passer sous pression.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": true
+  },
+  {
+    "id": "claw-ride",
+    "domain": "pins_rides",
+    "level": "advanced",
+    "name": "Tour de griffe",
+    "tags": [
+      "claw-ride",
+      "ride",
+      "turtle",
+      "back-exposure",
+      "body-lock"
+    ],
+    "summary": "Le tour de griffe utilise une pince de bras profonde autour de la hanche ou du bas du torse de l'adversaire pour briser la position de la tortue et exposer le dos. La prise en griffe (bras enroulé autour de la hanche, main saisissant la hanche éloignée ou la ligne de ceinture) crée un levier structurel qui vous permet de tirer l'adversaire à plat tandis que votre pression thoracique l'empêche de se redresser. Le système alterne entre la pression des griffes et les tentatives de prise en arrière, obligeant l'adversaire à défendre l'un et à exposer l'autre.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "crab-ride",
+    "domain": "pins_rides",
+    "level": "advanced",
+    "name": "Balade en crabe",
+    "tags": [
+      "crab-ride",
+      "back-take",
+      "ride",
+      "tier:modern-expansion",
+      "meta:modern-common",
+      "risk:medium",
+      "family:ride",
+      "group:crab-ride",
+      "modern-no-gi"
+    ],
+    "summary": "Le tour en crabe utilise des crochets derrière les genoux de l'adversaire pour contrôler ses hanches à distance, puis marche main sur main sur son dos pour effondrer sa posture et exposer son dos. Il est le plus souvent utilisé depuis la position du camion, depuis la tortue ou depuis back control lorsque l'adversaire se lève. Le système repose sur le principe selon lequel le contrôle des hanches par derrière avec des crochets de genou vous donne un levier pour plier l'adversaire vers l'avant.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "cross-wrist-ride",
+    "domain": "pins_rides",
+    "level": "advanced",
+    "name": "Tour de poignet croisé",
+    "tags": [
+      "cross-wrist",
+      "ride",
+      "turtle",
+      "back-exposure",
+      "wrist-control"
+    ],
+    "summary": "Le cross-wrist ride est un système de haut niveau pour briser les tortues qui immobilise les mains de l'adversaire en croisant ses poignets dans le bas du dos et en les épinglant avec le poids de votre poitrine. Avec les deux mains contrôlées, l'adversaire ne peut pas baser, poster ou se redresser - il dépend entièrement du mouvement de la hanche pour s'échapper, ce qui est presque impossible avec la pression thoracique sur la colonne vertébrale.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "crucifix-control",
+    "domain": "pins_rides",
+    "level": "intermediate",
+    "name": "crucifix Contrôle",
+    "tags": [
+      "crucifix",
+      "pin",
+      "back-attack",
+      "arm-trap"
+    ],
+    "summary": "Le crucifix immobilise l'un des bras de l'adversaire en le coinçant entre vos cuisses, lui laissant ainsi un seul bras pour défendre toutes vos attaques. Avec le bras piégé, vous pouvez attaquer un rear-naked choke (ils n'ont qu'une seule main à défendre), armbar le bras piégé, ou passer au back control complet. Le crucifix est plus sûr que le back control complet car le bras piégé ne peut pas être utilisé pour s'échapper ou contre-attaquer.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "dagestani-handcuff",
+    "domain": "pins_rides",
+    "level": "advanced",
+    "name": "Menottes du Daghestan",
+    "tags": [
+      "ride",
+      "wrist-control",
+      "handcuff",
+      "tier:modern-expansion",
+      "meta:modern-common",
+      "risk:medium",
+      "family:ride",
+      "group:handcuff",
+      "modern-no-gi",
+      "wrestling"
+    ],
+    "summary": "Les menottes du Daghestan emprisonnent les deux poignets pour immobiliser l'adversaire et forcer l'exposition, popularisées par Khabib Nurmagomedov et le style de lutte du Daghestan. En contrôlant les deux poignets ensemble, vous empêchez l'adversaire de poster, de baser ou de cadrer - la seule évasion est le roulement, que vous pouvez contrer en suivant le roulement et en prenant le dos.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "knee-on-belly-control",
+    "domain": "pins_rides",
+    "level": "intermediate",
+    "name": "Contrôle du genou sur le ventre",
+    "tags": [
+      "knee-on-belly",
+      "pin",
+      "control"
+    ],
+    "summary": "knee-on-belly utilise votre genou comme principal point de pression, créant un inconfort qui oblige l'adversaire à réagir, exposant des ouvertures pour des soumissions ou des transitions. La clé est la mobilité : votre pied libre et la prise de hanche éloignée vous permettent de faire le tour de l'adversaire plus rapidement qu'à partir de side control ou mount. knee-on-belly est une broche de transition, pas une position de repos.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "mat-return-basics",
+    "domain": "pins_rides",
+    "level": "intermediate",
+    "name": "mat return Notions de base",
+    "tags": [
+      "wrestling",
+      "ride"
+    ],
+    "summary": "Le mat return est le processus consistant à ramener un adversaire debout sur le tapis après avoir sécurisé une jambe simple, une jambe double ou un verrou corporel. Cela nécessite trois éléments : une prise sûre qui les empêche de s'échapper, une élévation de la jambe coincée pour retirer leur base et un mouvement de conduite qui les fait atterrir sur la hanche ou sur le dos. Le mat return est essentiel pour empêcher les tortues de s'échapper en position debout et le half guard.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": true
+  },
+  {
+    "id": "mount-control",
+    "domain": "pins_rides",
+    "level": "intermediate",
+    "name": "mount Contrôle",
+    "tags": [
+      "mount",
+      "pin"
+    ],
+    "summary": "Le contrôle de mount est maintenu grâce à des couches progressives : mount faible (hanches lourdes sur les hanches, pression poitrine contre poitrine) → mount élevé (les genoux glissent jusqu'aux aisselles, emprisonnant leurs épaules) → soumission ou prise en arrière. La clé est d'empêcher la fuite du pont et du roulis en contrôlant leurs hanches avec votre pincement du genou et en suivant leurs mouvements avec votre poids.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": true
+  },
+  {
+    "id": "north-south-control",
+    "domain": "pins_rides",
+    "level": "intermediate",
+    "name": "Contrôle Nord Sud",
+    "tags": [
+      "north-south",
+      "pin",
+      "control",
+      "choke"
+    ],
+    "summary": "Le contrôle north-south utilise l'alignement du corps le long de la ligne médiane de l'adversaire pour comprimer sa ligne d'épaule et restreindre les mouvements. Les principaux points de pression sont : votre tête enfoncée dans leur sternum (l'empêche de détourner le regard), vos bras emprisonnant ses épaules (empêche le mouvement des bras) et le poids de votre poitrine comprimant son torse (restreint la respiration et le mouvement des hanches). north-south est une broche de transition qui mène aux transitions north-south starter, kimura ou side control.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "power-half-ride",
+    "domain": "pins_rides",
+    "level": "intermediate",
+    "name": "Demi-tour de puissance",
+    "tags": [
+      "ride",
+      "power-half",
+      "shoulder-control",
+      "tier:modern-expansion",
+      "meta:modern-common",
+      "risk:medium",
+      "family:ride",
+      "group:power-half",
+      "modern-no-gi"
+    ],
+    "summary": "Le demi-tour de puissance aplatit l'adversaire de la tortue en contrôlant le bras éloigné et en exerçant la pression sur l'épaule, créant ainsi une exposition du dos. Les mécanismes clés sont : la prise transversale profonde (atteint sous le bras le plus proche pour contrôler le bras/l'épaule éloigné), la pression de poitrine à poitrine (votre poids traverse votre poitrine jusqu'au haut du dos) et la marche sur les hanches (vos hanches avancent vers leur tête lorsqu'elles s'effondrent). La moitié de puissance est l’un des systèmes de destruction de tortues avec le pourcentage le plus élevé de lutte.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "s-mount-control",
+    "domain": "pins_rides",
+    "level": "advanced",
+    "name": "s-mount Contrôle",
+    "tags": [
+      "s-mount",
+      "mount",
+      "arm-isolation",
+      "tier:modern-expansion",
+      "meta:modern-common",
+      "risk:medium",
+      "family:pin",
+      "group:s-mount",
+      "modern-no-gi"
+    ],
+    "summary": "s-mount est créé en faisant glisser un genou vers l'aisselle de l'adversaire tout en tournant légèrement votre poitrine vers sa tête. Cela positionne vos hanches sur la ligne des épaules, isolant un bras et créant un dilemme entre armbar, triangle et la prise arrière. s-mount est l'épingle de valeur la plus élevée car elle menace directement les soumissions sans nécessiter de transitions supplémentaires.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "side-control-pin",
+    "domain": "pins_rides",
+    "level": "beginner",
+    "name": "side control Épingle",
+    "tags": [
+      "pin",
+      "pressure"
+    ],
+    "summary": "La broche side control est maintenue par trois points de pression interconnectés : le crossface (contrôle la direction de la tête et l'empêche de détourner le regard), le contrôle underhook (l'empêche de se transformer en vous et de récupérer guard) et le bloc de hanche (le poids de votre hanche sur la hanche proche empêche la hanche de s'échapper). Le système donne la priorité au blocage structurel plutôt qu'au poids brut : un alignement correct crée une pression sans vous épuiser.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": true
+  },
+  {
+    "id": "spiral-ride",
+    "domain": "pins_rides",
+    "level": "intermediate",
+    "name": "Tour en spirale",
+    "tags": [
+      "spiral-ride",
+      "turtle-ride",
+      "back-exposure",
+      "control",
+      "tier:modern-expansion",
+      "meta:modern-common",
+      "risk:low",
+      "family:ride",
+      "group:turtle-ride",
+      "modern-no-gi"
+    ],
+    "summary": "Le tour en spirale décompose la tortue en appliquant des forces de rotation opposées : une main repousse la cuisse la plus éloignée tandis que l'autre tire l'épaule la plus proche vers vous. Cette rotation supprime la base de l'adversaire et le force à plat sur sa hanche ou sur son côté. Le tour en spirale est particulièrement efficace contre les adversaires trop forts ou trop flexibles pour le demi-tour en puissance.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "turtle-ride",
+    "domain": "pins_rides",
+    "level": "intermediate",
+    "name": "Promenade en tortue",
+    "tags": [
+      "turtle",
+      "ride"
+    ],
+    "summary": "Le tour de tortue est le système complet permettant de contrôler, de démonter et de reprendre la position de la tortue. Il intègre quatre systèmes complémentaires : (1) la pression de la hanche et le contrôle près du poignet pour le contrôle de la ligne de base, (2) le tour en spirale pour l'effondrement en rotation, (3) le demi-tour en puissance pour l'effondrement à plat et (4) le mat return pour lorsque l'adversaire se tient debout. La clé est de lire la réaction de l'adversaire et de sélectionner le système approprié.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": true
+  },
+  {
+    "id": "wrist-ride-back-exposure",
+    "domain": "pins_rides",
+    "level": "advanced",
+    "name": "Exposition du tour du poignet à l'arrière",
+    "tags": [
+      "wrist-ride",
+      "back-exposure",
+      "turtle",
+      "tier:modern-expansion",
+      "meta:modern-common",
+      "risk:medium",
+      "family:ride",
+      "group:wrist-ride",
+      "modern-no-gi"
+    ],
+    "summary": "Le tour de poignet utilise une seule poignée de poignet (le poignet le plus éloigné) pour effondrer la ligne des épaules de l'adversaire en tirant le poignet sur le bas du dos. Lorsque le poignet traverse la ligne des hanches, l'épaule est poussée vers l'avant et la base de l'adversaire s'effondre. Le tour de poignet est particulièrement efficace car il est difficile à défendre : l’adversaire ne peut pas facilement vous empêcher de contrôler son poignet.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "anaconda-choke",
+    "domain": "submission_systems",
+    "level": "intermediate",
+    "name": "anaconda Étrangleur",
+    "tags": [
+      "anaconda",
+      "choke",
+      "front-headlock",
+      "arm-triangle"
+    ],
+    "summary": "Le starter anaconda est l'une des trois finitions principales front headlock (avec le d'arce et guillotine). La principale différence avec le d'arce est que votre bras d'étouffement s'enfile du côté opposé (le bras proche passe sous le cou et par-dessus le bras éloigné). La finition vient de la rotation de votre poitrine vers le tapis tout en tirant le coude de leur bras coincé vers votre genou – cela crée un bras serré triangle sur leur cou et leur épaule.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "aoki-lock",
+    "domain": "submission_systems",
+    "level": "advanced",
+    "name": "Serrure Aoki",
+    "tags": [
+      "aoki-lock",
+      "knee-bar",
+      "leg-lock",
+      "heel-hook",
+      "submission"
+    ],
+    "summary": "Le verrou Aoki (du nom de Shinya Aoki) est une variante de la genouillère 50/50 guard qui utilise une prise unique : au lieu de contrôler la jambe avec les deux mains à la manière d'une genouillère standard, vous verrouillez une prise en forme de quatre autour de la cuisse. Cette poignée vous offre un contrôle exceptionnel sur la rotation de la hanche tandis que le mouvement de votre hanche applique l'hyper-extension sur son genou. Le verrou Aoki est efficace car il se termine rapidement et ne nécessite pas la position complète saddle ou ashi garami.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "arm-triangle-mount",
+    "domain": "submission_systems",
+    "level": "advanced",
+    "name": "Armer triangle à partir de mount",
+    "tags": [
+      "choke",
+      "mount"
+    ],
+    "summary": "Le bras triangle de mount est l'une des soumissions avec le pourcentage le plus élevé de la position dominante mount. Contrairement au bras standard triangle de side control, la version mount vous permet d'utiliser tout votre poids corporel. La clé consiste à séparer son bras de son corps (généralement en enfonçant votre avant-bras dans son biceps), à enjamber sa tête et à laisser tomber le poids de sa poitrine sur son épaule coincée.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": true
+  },
+  {
+    "id": "armbar-system",
+    "domain": "submission_systems",
+    "level": "advanced",
+    "name": "armbar Système",
+    "tags": [
+      "submission",
+      "armbar",
+      "elbow-safety"
+    ],
+    "summary": "Le armbar est le verrou articulaire le plus fondamental du BJJ. Le système s'articule autour de trois principes : isoler l'épaule (les empêcher de libérer le bras), contrôler le poignet (pouce vers le haut, paume face à vous) et positionner le coude au-dessus de la ligne de vos hanches avant de l'étendre. Sans les détails de la ligne des hanches, le armbar devient une lutte de force. Avec cela, l'avantage mécanique est écrasant. Le système armbar s'applique à partir de guard, mount et des transitions.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": true
+  },
+  {
+    "id": "back-attack-system",
+    "domain": "back_control",
+    "level": "intermediate",
+    "name": "Système d'attaque arrière",
+    "tags": [
+      "back-control",
+      "rnc",
+      "arm-triangle",
+      "body-triangle"
+    ],
+    "summary": "Le système de contre-attaque est la chaîne de soumission avec le pourcentage le plus élevé en BJJ. Le processus est le suivant : fixez le seatbelt (un bras sur l'épaule, un bras sous l'aisselle), verrouillez vos crochets ou votre corps triangle, gagnez le combat à main pour exposer leur cou et terminez avec l'étranglement arrière nu. S'ils défendent le RNC en se rendant, passez à l'armement triangle ou mount. Le système est basé sur la réaction : vous ne forcez pas une fin ; vous enchaînez jusqu'à ce qu'on fonctionne.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "back-control",
+    "domain": "back_control",
+    "level": "intermediate",
+    "name": "back control",
+    "tags": [
+      "back",
+      "control"
+    ],
+    "summary": "back control est la position la plus dominante dans BJJ. À partir de là, vous contrôlez presque entièrement leurs mouvements. Le seatbelt (un bras sur l'épaule, un sous l'aisselle, les mains jointes) contrôle le haut du corps. Les crochets (pieds à l'intérieur des cuisses) ou le corps triangle (jambes enroulées autour du torse) contrôlent le bas du corps. À partir de ce contrôle complet, vous pouvez attaquer le cou, les bras ou passer à mount.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": true
+  },
+  {
+    "id": "backside-50-50-control",
+    "domain": "submission_systems",
+    "level": "advanced",
+    "name": "Contrôle 50/50 à l'arrière",
+    "tags": [
+      "backside-50-50",
+      "leg-lock",
+      "heel-hook",
+      "entanglement",
+      "leg-entanglement"
+    ],
+    "summary": "Backside 50/50 est une position d'enchevêtrement des jambes dans laquelle vous êtes positionné derrière la ligne des hanches de l'adversaire, vos deux jambes contrôlant l'une de leurs jambes dans une configuration 50/50. Le principal avantage par rapport au saddle est que vous êtes derrière eux : ils ne peuvent pas voir vos attaques et ont des options de fuite limitées. À partir de là, vous pouvez attaquer le heel hook, passer au saddle ou reprendre le dessus.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "baratoplata",
+    "domain": "submission_systems",
+    "level": "advanced",
+    "name": "Baratoplata",
+    "tags": [
+      "baratoplata",
+      "shoulder-lock",
+      "kimura",
+      "omoplata",
+      "submission"
+    ],
+    "summary": "Le baratoplata est un puissant verrou d'épaule qui combine des éléments du omoplata et du kimura. Contrairement au kimura (qui utilise les deux mains sur le bras), le baratoplata utilise l'une de vos jambes pour épingler son bras contre votre corps pendant que vous faites pivoter vos hanches pour appliquer le verrouillage de l'épaule. Cela crée des angles uniques que le kimura ne peut pas atteindre et peut attraper des adversaires concentrés sur la défense des entrées standard kimura.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "bear-trap-ham-sandwich",
+    "domain": "submission_systems",
+    "level": "advanced",
+    "name": "Piège à ours / Sandwich au jambon",
+    "tags": [
+      "bear-trap",
+      "ham-sandwich",
+      "calf-slicer",
+      "compression",
+      "leg-lock",
+      "half-butterfly"
+    ],
+    "summary": "Le piège à ours (sandwich au jambon) est une soumission de compression (trancheuse de mollet) qui utilise votre tibia contre le muscle de son mollet, avec sa jambe coincée dans le creux de votre genou. Il est le plus souvent entré à partir d'un demi-papillon ou de half guard lorsque l'adversaire avance. La pression écrasante exercée sur leur mollet les oblige à taper, à rouler sur le dos (vous donnant le balayage) ou à exposer leur dos pour une prise en arrière.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "buggy-choke",
+    "domain": "submission_systems",
+    "level": "advanced",
+    "name": "Étrangleur de buggy",
+    "tags": [
+      "buggy-choke",
+      "side-control-bottom",
+      "neck-safety",
+      "tier:advanced-niche",
+      "meta:specialized",
+      "risk:safety-critical",
+      "family:submission",
+      "group:smother",
+      "modern-no-gi"
+    ],
+    "summary": "Le starter du buggy est un starter spécifique à No-Gi à partir du bas side control. Vous enroulez vos jambes autour du cou et d'un bras de l'adversaire, créant un étranglement de sang en comprimant son cou contre vos cuisses. Il s'agit d'une soumission légitime mais elle est considérée comme un « faible pourcentage » car elle nécessite un timing et un type de corps spécifiques. Plus important encore, tenter le starter du buggy abandonne souvent le underhook et l'évasion de la hanche, qui sont les fondements de l'évasion du side control. Il devrait s’agir d’une arme de surprise et non d’une stratégie d’évasion principale.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "choi-bar",
+    "domain": "submission_systems",
+    "level": "advanced",
+    "name": "Choi Bar",
+    "tags": [
+      "choi-bar",
+      "shoulder-lock",
+      "clamp-guard",
+      "tier:modern-expansion",
+      "meta:modern-common",
+      "risk:high",
+      "family:submission",
+      "group:clamp-guard",
+      "modern-no-gi"
+    ],
+    "summary": "La barre Choi est une variante No-Gi armbar qui attaque depuis un angle de 45 degrés plutôt que la finition perpendiculaire traditionnelle. Vous utilisez une pince d'épaule (similaire à la pince guard) pour coincer son bras et son épaule, puis faites pivoter vos hanches pour exposer son coude. Le nom vient d'une combinaison de « starter » et « armbar » — il peut être saisi à partir des configurations et des chaînes de starter directement dans le armbar. Il est particulièrement efficace à partir des positions de piège kimura et de pince guard.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "darce-choke",
+    "domain": "submission_systems",
+    "level": "intermediate",
+    "name": "d'arce Étrangleur",
+    "tags": [
+      "darce",
+      "choke",
+      "front-headlock",
+      "arm-triangle",
+      "shoulder-crunch"
+    ],
+    "summary": "Le starter d'arce est l'une des trois finitions principales front headlock (avec le anaconda et guillotine). La principale différence avec le anaconda est que votre bras d'étouffement s'enfile du côté éloigné (le bras éloigné passe sous le cou et par-dessus le bras proche). Le d'arce est particulièrement efficace contre les adversaires qui se transforment en vous (contrairement au anaconda, qui fonctionne lorsqu'ils se détournent). La finition vient du fait de laisser tomber votre poids sur leur épaule et leur cou coincés.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "de-la-riva-back-take",
+    "domain": "back_control",
+    "level": "advanced",
+    "name": "De La Riva Retour en arrière",
+    "tags": [
+      "de-la-riva",
+      "berimbolo",
+      "back-take"
+    ],
+    "summary": "Le retour du DLR est le pourcentage de récompense le plus élevé du De La Riva guard. Lorsque vous tentez le balayage DLR (en les déséquilibrant vers l'avant), de nombreux adversaires répondront en postant une main ou en reculant pour éviter le balayage. Cette réaction crée exactement l’espace et l’angle dont vous avez besoin pour tourner sous eux et prendre le dos. La prise en arrière du DLR transforme un balayage raté en position dominante.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "fhl-go-behind",
+    "domain": "submission_systems",
+    "level": "intermediate",
+    "name": "prise de dos depuis front headlock",
+    "tags": [
+      "go-behind",
+      "front-headlock",
+      "back-take",
+      "transition",
+      "tier:modern-expansion",
+      "meta:modern-common",
+      "risk:low",
+      "family:front-headlock",
+      "group:front-headlock",
+      "modern-no-gi"
+    ],
+    "summary": "Le retour à partir de front headlock est le pourcentage de transition le plus élevé dans le système front headlock. Lorsque vous avez le front headlock et que l'adversaire résiste à votre tentative d'étranglement (guillotine, d'arce, anaconda), il essaiera souvent de s'aplatir ou de s'éloigner. Leur résistance crée l’espace dont vous avez besoin pour relâcher l’étranglement, tourner derrière eux et prendre le dos. Le go-behind transforme une soumission échouée en position la plus dominante dans BJJ.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "fifty-fifty-to-heel-exposure",
+    "domain": "submission_systems",
+    "level": "advanced",
+    "name": "Exposition 50/50 au talon",
+    "tags": [
+      "50-50",
+      "heel-hook",
+      "heel-exposure",
+      "leg-lock",
+      "entanglement"
+    ],
+    "summary": "La position 50/50 est l’une des positions d’enchevêtrement des jambes les plus courantes. Cependant, terminer un heel hook à partir de 50/50 nécessite une mécanique spécifique : il faut briser la symétrie de la position en faisant pivoter ses hanches et en contrôlant leur jambe secondaire (la jambe n'étant pas attaquée). Sans contrôler la jambe secondaire, l’adversaire peut simplement faire pivoter sa hanche pour soulager la pression du talon. La clé du heel hook 50/50 est de le rendre asymétrique : vous contrôlez leur jambe libre afin qu'ils ne puissent pas contre-tourner.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "gogoplata",
+    "domain": "submission_systems",
+    "level": "advanced",
+    "name": "gogoplata",
+    "tags": [
+      "gogoplata",
+      "neck-safety",
+      "guard-submission",
+      "tier:advanced-niche",
+      "meta:specialized",
+      "risk:safety-critical",
+      "family:submission",
+      "group:clamp-guard",
+      "modern-no-gi"
+    ],
+    "summary": "Le gogoplata est un starter No-Gi avancé dans lequel vous utilisez votre propre tibia pour comprimer la gorge de l'adversaire tout en tirant sa tête vers le bas avec vos mains. Il est généralement configuré à partir de caoutchouc guard ou de haut guard. La distinction essentielle en matière de sécurité se situe entre un étranglement sanguin (tibia sur la gorge, comprimant la trachée et les carotides) et une manivelle cervicale (tibia sur le menton ou la colonne cervicale). Le gogoplata est un starter légitime lorsqu'il est appliqué correctement, mais il est facile de l'appliquer accidentellement comme une manivelle.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "guillotine-system",
+    "domain": "submission_systems",
+    "level": "advanced",
+    "name": "guillotine Système",
+    "tags": [
+      "choke",
+      "front-headlock"
+    ],
+    "summary": "Le guillotine est le starter front headlock le plus accessible et le premier starter que la plupart des praticiens BJJ apprennent. Le système comprend plusieurs variantes : le bras entrant standard guillotine (à partir de guard), le bras sortant guillotine (à partir de front headlock), le poignet haut guillotine (pour une pénétration plus profonde du cou) et la Marcelotine (variation No-Gi de Marcelo Garcia). Le principe clé de toutes les variantes est que le guillotine est une position : vous devez contrôler leur posture et créer l'angle avant de serrer.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": true
+  },
+  {
+    "id": "heel-hook-safety",
+    "domain": "submission_systems",
+    "level": "advanced",
+    "name": "heel hook Sécurité",
+    "tags": [
+      "leg-lock",
+      "heel-hook",
+      "knee-safety"
+    ],
+    "summary": "La sécurité heel hook est le sujet le plus important du verrouillage moderne des jambes No-Gi. Contrairement à la plupart des soumissions, le heel hook peut provoquer de graves blessures au genou (ACL, PCL, MCL, lésions du ménisque) avec très peu de force et presque aucune douleur d'avertissement. Le protocole de sécurité est le suivant : reconnaître quand un talon est exposé, établir un contrôle total de la hanche et de la jambe secondaire, aligner le vecteur de force de rotation, puis appliquer une pression lente et contrôlée. Ne « déchirez » jamais un heel hook.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": true
+  },
+  {
+    "id": "high-wrist-guillotine",
+    "domain": "submission_systems",
+    "level": "advanced",
+    "name": "Poignet haut guillotine",
+    "tags": [
+      "guillotine",
+      "front-headlock",
+      "neck-safety",
+      "tier:modern-expansion",
+      "meta:modern-common",
+      "risk:high",
+      "family:front-headlock",
+      "group:front-headlock",
+      "modern-no-gi"
+    ],
+    "summary": "Le guillotine à poignet haut (également appelé Marcelotine ou guillotine japonais) utilise la lame de votre poignet contre l'artère carotide plutôt que la poignée standard de compression du biceps. La clé est que votre poignet soit positionné plus profondément sur son cou – la lame de votre avant-bras (côté pouce) appuie directement sur sa carotide. Cette variation est plus efficace dans No-Gi car elle ne nécessite pas de prise par collier GI et crée un étranglement sanguin plus serré avec moins d'effort.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "kimura-system",
+    "domain": "submission_systems",
+    "level": "advanced",
+    "name": "kimura Système",
+    "tags": [
+      "submission",
+      "control"
+    ],
+    "summary": "Le kimura est la soumission la plus polyvalente de No-Gi BJJ. La poignée kimura (une main tenant son poignet du même côté, l'autre bras s'enfilant pour saisir votre propre poignet) est plus couramment utilisée comme position de contrôle que comme soumission. Depuis la prise kimura, vous pouvez : balayer, passer le guard, prendre le dos, ou terminer le lock d'épaule. Le système est basé sur l’isolation d’un de leurs bras et son utilisation comme poignée pour contrôler tout leur corps.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": true
+  },
+  {
+    "id": "octopus-back-take",
+    "domain": "back_control",
+    "level": "advanced",
+    "name": "Prise de retour de poulpe",
+    "tags": [
+      "octopus",
+      "back-take",
+      "hip-angle",
+      "tier:modern-expansion",
+      "meta:modern-common",
+      "risk:medium",
+      "family:back-take",
+      "group:octopus",
+      "modern-no-gi"
+    ],
+    "summary": "La prise en retour de la pieuvre est le pourcentage de suivi le plus élevé du balayage de la pieuvre guard. Lorsque vous tentez le balayage de la pieuvre (en tirant leur hanche la plus éloignée sur votre corps), de nombreux adversaires répondront en postant une main ou en avançant pour se défendre. Cette réaction crée l’angle exact dont vous avez besoin pour tourner sous son bras, tourner derrière lui et prendre le dos. La prise en arrière de la pieuvre transforme un balayage défendu en position la plus dominante dans BJJ.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "omoplata-system",
+    "domain": "submission_systems",
+    "level": "advanced",
+    "name": "omoplata Système",
+    "tags": [
+      "submission",
+      "shoulder-lock-safety",
+      "guard"
+    ],
+    "summary": "L'omoplata est l'un des plus puissants verrouillages d'épaule depuis la garde. Il utilise vos jambes pour piéger leur bras et la rotation de vos hanches pour appliquer la pression de soumission. Contrairement au kimura (qui utilise les deux mains), l'omoplata emploie une jambe comme levier et vos hanches comme moteur. Le système omoplata inclut le sweep (quand ils se redressent pour défendre) et la prise de dos (quand ils roulent pour s'échapper). C'est un système d'attaque complet depuis la garde.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": true
+  },
+  {
+    "id": "rear-naked-choke-system",
+    "domain": "submission_systems",
+    "level": "intermediate",
+    "name": "Starter nu arrière",
+    "tags": [
+      "choke",
+      "back-control",
+      "submission",
+      "no-gi",
+      "strangle"
+    ],
+    "summary": "L'étranglement sanguin No-Gi le plus fondamental de back control : maîtrisez le combat à la main, la ligne de coude et la connexion poitrine-dos.",
+    "hasVideos": true,
+    "hasMicroDetails": true,
+    "hasChecklist": false,
+    "sortOrder": 100
+  },
+  {
+    "id": "rear-triangle-control",
+    "domain": "back_control",
+    "level": "advanced",
+    "name": "Commande arrière triangle",
+    "tags": [
+      "rear-triangle",
+      "back-triangle",
+      "arm-isolation",
+      "tier:modern-expansion",
+      "meta:modern-common",
+      "risk:high",
+      "family:submission",
+      "group:back-triangle",
+      "modern-no-gi"
+    ],
+    "summary": "Le triangle arrière (également appelé starter arrière triangle ou starter corps triangle) est une soumission puissante de back control où vous utilisez vos jambes pour vous étouffer, pas vos bras. En amenant une jambe par-dessus son épaule et en la verrouillant derrière son cou tandis que l'autre jambe s'accroche autour de son corps, vous créez une jambe triangle qui comprime son cou et son épaule. Cette attaque fonctionne lorsqu'ils défendent leur cou avec les deux mains : vos bras sont libres pendant que vos jambes s'étouffent.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "reverse-buggy-choke",
+    "domain": "submission_systems",
+    "level": "advanced",
+    "name": "Starter de buggy inversé",
+    "tags": [
+      "reverse-buggy",
+      "choke",
+      "leg",
+      "shoulder-crunch",
+      "submission"
+    ],
+    "summary": "Le starter buggy inversé est une variante du starter buggy du bas side control. La principale différence réside dans le positionnement des jambes : dans la poussette inversée, vos jambes s'enroulent autour du cou et un bras du côté opposé. Comme le starter buggy standard, il s'agit d'une attaque surprise plutôt que d'une stratégie principale. Cela fonctionne mieux contre les adversaires qui font fortement pression avec un crossface, laissant leur cou exposé de l'autre côté.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "s-mount-armbar",
+    "domain": "submission_systems",
+    "level": "advanced",
+    "name": "s-mount armbar",
+    "tags": [
+      "s-mount",
+      "armbar",
+      "shoulder-lock-safety",
+      "tier:modern-expansion",
+      "meta:modern-common",
+      "risk:high",
+      "family:submission",
+      "group:s-mount",
+      "modern-no-gi"
+    ],
+    "summary": "Le s-mount armbar est l'étalon-or des armbar à partir de la position mount. Dans s-mount (un pied dans la hanche, un genou dans l'aisselle, votre poids haut sur la poitrine), vous avez un contrôle exceptionnel sur le haut de son corps. À partir de là, isoler un bras et terminer le armbar consiste à maintenir une domination positionnelle plutôt que de tomber en arrière. La principale différence par rapport à un mount armbar classique est que vous terminez en position assise en soulevant vos hanches plutôt qu'en tombant en arrière.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "saddle-inside-sankaku-control",
+    "domain": "submission_systems",
+    "level": "advanced",
+    "name": "saddle / inside sankaku Contrôle",
+    "tags": [
+      "saddle",
+      "inside-sankaku",
+      "heel-hook",
+      "knee-safety",
+      "tier:safety-critical",
+      "meta:modern-common",
+      "risk:safety-critical",
+      "family:leg-lock",
+      "group:leg-lock",
+      "modern-no-gi"
+    ],
+    "summary": "Le saddle (inside sankaku) est la position d'enchevêtrement des jambes la plus dominante dans No-Gi. Vos jambes sont croisées sur le corps de l'adversaire (une jambe sur son ventre, l'autre accrochant sa jambe arrière), avec votre pied posé sur sa hanche. Depuis le saddle, vous contrôlez à la fois la rotation de leurs hanches et leur ligne de genoux, ce qui rend leur évasion extrêmement difficile. L'attaque principale est le heel hook intérieur, mais le saddle vous donne également accès aux prises arrière et aux balayages.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "shotgun-ankle-lock",
+    "domain": "submission_systems",
+    "level": "advanced",
+    "name": "Fusil de chasse ankle lock",
+    "tags": [
+      "shotgun-ankle-lock",
+      "leg-lock",
+      "ankle-lock",
+      "straight-ankle",
+      "saddle"
+    ],
+    "summary": "Le fusil de chasse ankle lock est une variante plus puissante du ankle lock droit. En croisant les jambes de l'adversaire et en plaquant son pied contre votre poitrine, vous ajoutez le poids du corps et la rotation des hanches à la finition standard ankle lock. Le nom « fusil de chasse » vient de la façon dont vous utilisez votre poitrine et vos hanches comme un mécanisme de tir, combinant pression vers l'avant et rotation. Il est généralement saisi à partir des positions saddle ou 50/50.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "straight-ankle-lock-safety",
+    "domain": "submission_systems",
+    "level": "intermediate",
+    "name": "Droit ankle lock Sécurité",
+    "tags": [
+      "leg-lock",
+      "ankle-lock"
+    ],
+    "summary": "Le ankle lock droit est le premier verrouillage de jambe que la plupart des praticiens de BJJ apprennent et l'attaque de jambe la plus courante dans No-Gi. Bien qu'il soit considéré comme le verrou de jambe « le plus sûr », il nécessite néanmoins une mécanique appropriée et du respect. Les principes clés de sécurité sont les suivants : contrôlez la ligne du genou (empêchez-le de tourner son genou vers vous), positionnez correctement son pied contre votre hanche et utilisez une extension lente et contrôlée. Le ankle lock droit attaque la cheville et peut également exercer une pression sur le genou s'il est mal appliqué.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": true
+  },
+  {
+    "id": "tarikoplata",
+    "domain": "submission_systems",
+    "level": "advanced",
+    "name": "Tarikoplata",
+    "tags": [
+      "tarikoplata",
+      "shoulder-lock",
+      "kimura",
+      "tier:modern-expansion",
+      "meta:modern-common",
+      "risk:high",
+      "family:submission",
+      "group:clamp-guard",
+      "modern-no-gi"
+    ],
+    "summary": "Le tarikoplata (du nom de Tarsis Humphreys) est un verrou d'épaule hybride qui combine des éléments du omoplata et du kimura. Contrairement au omoplata (qui fait pivoter l'épaule en soulevant le bras de l'adversaire), le tarikoplata épingle son bras sur son propre corps et utilise votre jambe pour créer la rotation. Le résultat est un verrouillage d'épaule plus serré que le omoplata et provenant d'un angle que le kimura ne peut pas atteindre. Il est le plus souvent saisi à partir des positions de serrage ou de resserrement des épaules.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "texas-cloverleaf",
+    "domain": "submission_systems",
+    "level": "advanced",
+    "name": "Feuille de trèfle du Texas",
+    "tags": [
+      "texas-cloverleaf",
+      "heel-hook",
+      "leg-lock",
+      "entanglement",
+      "submission"
+    ],
+    "summary": "Le Texas Cloverleaf est une variante heel hook qui utilise une position de jambe moissonneuse pour attaquer le genou avec une pression de rotation directe. Le nom « feuille de trèfle » vient de la façon dont les pattes s'enroulent les unes autour des autres comme un trèfle à quatre feuilles. Il s'agit d'une soumission spécialisée qui est plus efficace dans des configurations spécifiques d'enchevêtrement de jambes et est souvent utilisée comme attaque surprise depuis des positions où le heel hook standard n'est pas disponible.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "triangle-system",
+    "domain": "submission_systems",
+    "level": "advanced",
+    "name": "triangle Système",
+    "tags": [
+      "choke",
+      "triangle",
+      "neck-safety"
+    ],
+    "summary": "Le starter triangle est le pourcentage de soumission le plus élevé de closed guard. Cela fonctionne en emprisonnant l'un de leurs bras à l'intérieur de vos jambes tandis que l'autre bras est à l'extérieur, créant ainsi un « triangle » de vos jambes autour de leur cou et de leur bras. Lorsque vous coupez un angle (en éloignant vos hanches), leur propre épaule appuie contre un côté de leur carotide tandis que votre jambe comprime l'autre. La propre épaule de l'adversaire devient une partie de l'étranglement – ​​c'est pourquoi le triangle est si efficace.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": true
+  },
+  {
+    "id": "truck-twister",
+    "domain": "submission_systems",
+    "level": "advanced",
+    "name": "Camion / Twister",
+    "tags": [
+      "truck",
+      "twister",
+      "back-attack",
+      "body-lock",
+      "spine-lock"
+    ],
+    "summary": "Le camion est une position spécialisée où vous contrôlez l'adversaire de côté avec un corps triangle (similaire à la position du camion en lutte). Depuis le camion, vous pouvez attaquer le twister – un verrou spinal qui tord la colonne vertébrale de l'adversaire en tirant sa tête vers sa propre hanche. Le twister n’est pas un étranglement ou un verrou articulaire – c’est un verrou vertébral qui crée une pression intense sur les vertèbres. Il est spécifique à No-Gi (le gi rend plus difficile le maintien du corps triangle) et est connu pour être extrêmement efficace mais nécessitant un positionnement précis.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "von-flue-choke",
+    "domain": "submission_systems",
+    "level": "intermediate",
+    "name": "Choke Von Flue",
+    "tags": [
+      "von-flue",
+      "choke",
+      "guillotine",
+      "defense",
+      "shoulder-pressure"
+    ],
+    "summary": "Le starter Von Flue (du nom de Jason Von Flue) est une contre-soumission au starter guillotine depuis la position supérieure. Lorsque votre adversaire vous attrape dans un guillotine et que vous ne pouvez pas vous échapper, vous pouvez inverser la soumission en enfonçant votre épaule dans son cou tout en maintenant une pression poitrine contre poitrine. Le mécanisme est un étranglement par pression d'épaule : votre épaule comprime un côté de son cou tandis que le chiffre quatre de son propre bras guillotine comprime l'autre côté. Leur propre poignée guillotine devient une partie de votre starter.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "z-lock",
+    "domain": "submission_systems",
+    "level": "advanced",
+    "name": "Verrouillage en Z",
+    "tags": [
+      "z-lock",
+      "leg-lock",
+      "submission",
+      "leg-entanglement",
+      "heel-hook",
+      "ankle-lock",
+      "junny-ocasio"
+    ],
+    "summary": "Le Z-lock est une soumission hybride de verrouillage de jambe qui combine des éléments du ankle lock et du heel hook en une seule attaque dévastatrice. Provenant de positions telles que X à une jambe (SLX) et 50/50 guard, il utilise une configuration de jambe unique pour piéger et serrer la jambe de l'adversaire. La position offre un excellent contrôle et peut être utilisée à la fois comme soumission finale et comme position de transition vers d'autres attaques de jambes comme le saddle ou le cross ashi garami. Il est particulièrement efficace dans les systèmes No-Gi et les systèmes modernes de verrouillage des jambes.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "ankle-pick-low-single",
+    "domain": "wrestle_up_wrestling",
+    "level": "intermediate",
+    "name": "Choix de cheville / simple bas",
+    "tags": [
+      "ankle-pick",
+      "low-single",
+      "takedown",
+      "wrestling",
+      "shot"
+    ],
+    "summary": "Le choix de la cheville utilise la manipulation de la tête pour forcer le poids sur la jambe avant de l'adversaire, puis attaque cette cheville pour retirer sa base. La clé est le claquement de tête – sans lui, la cheville n’est pas suffisamment chargée pour être vulnérable. La finition utilise un mouvement de traction latérale (et non de levage) pour conduire l'adversaire vers le tapis. Le choix de cheville est idéal pour BJJ car il protège votre tête des guillotine et ne nécessite pas de tirer sur vos genoux.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "arm-drag-system",
+    "domain": "wrestle_up_wrestling",
+    "level": "intermediate",
+    "name": "Système de traînée de bras",
+    "tags": [
+      "arm-drag",
+      "back-take",
+      "single-leg",
+      "front-headlock",
+      "wrestling"
+    ],
+    "summary": "La traînée du bras tire le bras de l'adversaire sur votre corps, perturbant sa base et exposant son dos ou sa jambe éloignée. À partir de la traînée du bras, vous avez trois branches principales : (1) prise arrière – cerclez derrière pendant qu'ils suivent la traînée, (2) jambe unique – descendez vers la jambe éloignée pendant qu'ils postent, (3) front headlock – abaissez-vous pendant qu'ils résistent à la traînée. La traînée de bras est la base de tous les retraits de style blitz dans No-Gi.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "body-lock-takedown",
+    "domain": "wrestle_up_wrestling",
+    "level": "intermediate",
+    "name": "Démontage du verrou corporel / mat returns",
+    "tags": [
+      "body-lock",
+      "takedown",
+      "mat-return",
+      "double-leg",
+      "wrestling"
+    ],
+    "summary": "Le body lock est la position de retrait la plus dominante dans No-Gi car elle élimine la capacité de l'adversaire à poster ou à baser - les deux bras sont coincés entre votre corps et le sien. Depuis le verrouillage du corps, vous pouvez soulever, trébucher ou conduire l'adversaire vers le tapis tout en conservant un contrôle total du haut du corps. Le body lock est également le principal outil mat return lorsque l'adversaire se tient devant la tortue ou half guard.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "dogfight-knee-tap",
+    "domain": "wrestle_up_wrestling",
+    "level": "intermediate",
+    "name": "Genouillère Dogfight",
+    "tags": [
+      "dogfight",
+      "wrestle-up",
+      "knee-tap",
+      "tier:modern-expansion",
+      "meta:modern-common",
+      "risk:medium",
+      "family:wrestling",
+      "group:wrestle-up",
+      "modern-no-gi"
+    ],
+    "summary": "Le coup de genou en combat aérien est le balayage avec le pourcentage le plus élevé depuis la position de combat aérien (underhook half guard). Lors d'un combat aérien, vous utilisez votre underhook pour tirer l'adversaire vers l'avant tout en tapotant son genou le plus éloigné avec votre main libre. Leur élan vers l'avant combiné à la frappe du genou enlève leur base et les fait basculer vers le tapis. La tape du genou passe directement à side control ou front headlock.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "front-headlock-system",
+    "domain": "wrestle_up_wrestling",
+    "level": "intermediate",
+    "name": "front headlock Système",
+    "tags": [
+      "front-headlock",
+      "guillotine",
+      "darce",
+      "anaconda",
+      "go-behind"
+    ],
+    "summary": "Le système front headlock est une séquence d'attaque continue à partir de la position front headlock (un bras autour de la tête, l'autre contrôlant le bras ou la hanche éloigné). A partir de cette position, vous enchaînez les soumissions et les avancées de position : le snapdown casse sa posture, le guillotine menace le cou, le d'arce attaque le cou par le côté, le anaconda attaque par l'avant et le go-derrière prend le dos. La clé est de ne jamais abandonner le front headlock : si une attaque échoue, passez immédiatement à la suivante.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "half-guard-wrestle-up",
+    "domain": "wrestle_up_wrestling",
+    "level": "intermediate",
+    "name": "half guard Lutte",
+    "tags": [
+      "wrestle-up",
+      "half-guard"
+    ],
+    "summary": "La lutte half guard transforme half guard d'une épingle défensive en une entrée de retrait offensif. La séquence est la suivante : gagnez le underhook → tournez-vous pour leur faire face → placez votre pied extérieur → conduisez vers une seule jambe. La lutte fonctionne car elle surprend l'adversaire dans la transition entre la passe et l'épinglage – il n'est pas pleinement engagé dans l'un ou l'autre, ce qui le rend vulnérable au redressement soudain.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": true
+  },
+  {
+    "id": "hand-fighting",
+    "domain": "wrestle_up_wrestling",
+    "level": "beginner",
+    "name": "Combat à la main",
+    "tags": [
+      "wrestling",
+      "grips"
+    ],
+    "summary": "Le combat à la main est la bataille invisible de contrôle de la préhension, du poignet et du bras qui détermine qui initie le retrait, la passe guard ou la traction guard. Les principes clés sont : (1) inside control bat outside control – votre main entre le bras et le corps contrôle son centre, (2) deux contre un bat en tête-à-tête – utilisez les deux mains sur l'un de leurs bras pour créer des avantages, (3) frappez immédiatement lorsque vous perdez la position intérieure – ne saisissez pas de l'extérieur, (4) la position de la tête contrôle la position du corps – le underhook nécessite le contrôle de la tête pour être efficace.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "hip-heist-wrestle-up",
+    "domain": "wrestle_up_wrestling",
+    "level": "intermediate",
+    "name": "Lutte contre le braquage de hanche",
+    "tags": [
+      "hip-heist",
+      "wrestle-up",
+      "bottom-offense",
+      "stand-up",
+      "tier:modern-expansion",
+      "meta:modern-common",
+      "risk:low",
+      "family:wrestling",
+      "group:wrestle-up",
+      "modern-no-gi"
+    ],
+    "summary": "Le braquage de la hanche utilise une rotation de la hanche et un balancement des jambes pour passer de manière explosive du bas guard à une position à genoux ou debout. Il s'agit de la lutte la plus rapide car elle convertit votre élan d'évasion de la hanche directement en un stand-up. Le braquage de hanche est particulièrement efficace contre les adversaires qui se penchent en avant avec une forte pression : leur élan vers l'avant devient l'énergie que vous utilisez pour vous tenir debout.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "single-leg-bjj",
+    "domain": "wrestle_up_wrestling",
+    "level": "intermediate",
+    "name": "Jambe simple pour BJJ",
+    "tags": [
+      "wrestling",
+      "takedown"
+    ],
+    "summary": "La jambe unique BJJ est une version modifiée de la jambe unique de lutte qui donne la priorité à la sécurité contre les compteurs de soumission. Les adaptations clés sont : la position de la tête doit toujours être vers l'extérieur (joue contre hanche/dos) plutôt que vers l'intérieur (poitrine contre poitrine), la finition donne la priorité à l'exécution du tuyau (les conduisant latéralement) plutôt qu'au levage (ce qui expose le guillotine), et la prise arrière est toujours disponible comme alternative à pourcentage élevé à la finition du retrait.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "snapdown-front-headlock",
+    "domain": "wrestle_up_wrestling",
+    "level": "intermediate",
+    "name": "snapdown à front headlock",
+    "tags": [
+      "front-headlock",
+      "wrestling"
+    ],
+    "summary": "Le snapdown convertit le contrôle du haut du corps en un retrait en forçant la tête de l'adversaire vers le tapis, puis en sécurisant la position front headlock. Le snapdown fonctionne parce que la tête contrôle le corps – une forte force vers le bas sur le cou force l'adversaire à prendre son poids sur ses mains, brisant sa posture et créant l'entrée pour le front headlock. À partir du front headlock, vous avez trois branches : go-behind, guillotine ou back take.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "sprawl-go-behind",
+    "domain": "wrestle_up_wrestling",
+    "level": "intermediate",
+    "name": "sprawl et Go-Behind",
+    "tags": [
+      "wrestling",
+      "defense"
+    ],
+    "summary": "La séquence sprawl et Go-derrière est la suivante : (1) sprawl – enfoncez vos hanches sur le bas de leur dos pendant qu'ils tirent, (2) contrôle – placez vos mains sur leurs épaules ou leur tête pour les empêcher de se tenir debout, (3) cercle – faites un pas d'un côté et faites un cercle derrière eux, (4) sécurisez – prenez le dos avec des crochets ou un seatbelt. Le timing doit être immédiat : si vous attendez qu’ils rétablissent leur base, la fenêtre de reprise se ferme.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "technical-stand-up",
+    "domain": "wrestle_up_wrestling",
+    "level": "beginner",
+    "name": "Stand-up technique",
+    "tags": [
+      "wrestling",
+      "base"
+    ],
+    "summary": "Le stand-up technique est un mouvement séquentiel de la position assise ou couchée à la position debout : (1) posez votre main sur le tapis à côté de votre hanche, (2) amenez votre pied du même côté à la rencontre de votre main, (3) passez à travers la main et le pied affichés pour soulever vos hanches, (4) amenez votre autre pied sous vous lorsque vous vous levez, (5) établissez une position défensive face à l'adversaire. Le stand-up technique est essentiel pour la récupération de guard, la fuite de la tortue et la position debout pour passer.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "wrestling-up-from-guard",
+    "domain": "wrestle_up_wrestling",
+    "level": "intermediate",
+    "name": "Lutte à partir de guard",
+    "tags": [
+      "wrestle-up",
+      "guard",
+      "standing",
+      "single-leg"
+    ],
+    "summary": "La lutte depuis guard transforme guard d'une position défensive en une entrée de retrait offensif. La séquence utilise soit un underhook, un tibia à tibia ou un 2 contre 1 pour contrôler le haut du corps de l'adversaire pendant que vous êtes debout. En position debout, vous terminez avec une seule jambe, un body lock ou front headlock. La lutte est au cœur du système No-Gi guard moderne : chaque joueur guard assis doit disposer d'une lutte fiable pour empêcher l'adversaire de se lever et de passer.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  }
+]

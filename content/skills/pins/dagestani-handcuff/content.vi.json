@@ -1,0 +1,71 @@
+{
+  "id": "dagestani-handcuff",
+  "locale": "vi",
+  "name": "Còng tay Dagestani",
+  "description": "Kiểm soát cả hai cổ tay từ phía sau hoặc rùa bằng cách kéo cổ tay gần về phía hông của bạn trong khi giữ cổ tay ở xa, tạo ra tư thế giống như còng tay để lộ phần lưng để thực hiện động tác quay lưng sạch sẽ.",
+  "shortInstruction": "Từ con rùa hoặc back control, cố định cổ tay gần đó và kéo nó về phía hông của bạn. Đưa tay xuống và nắm lấy cổ tay ở xa. Siết chặt khuỷu tay của bạn và đẩy về phía trước để thu gọn tư thế và để lộ phần lưng.",
+  "summary": "Còng tay Dagestani bẫy cả hai cổ tay để làm đối thủ bất động và buộc phải lộ ra sau, được phổ biến bởi Khabib Nurmagomedov và phong cách đấu vật Dagestani. Bằng cách kiểm soát cả hai cổ tay với nhau, bạn ngăn chặn đối thủ đăng, trụ hoặc đóng khung - lối thoát duy nhất là lăn, bạn có thể phản công bằng cách lăn theo và lấy lại.",
+  "whyItWorks": [
+    "Bẫy cả hai cổ tay sẽ loại bỏ khả năng trụ hoặc trụ của đối phương - nếu không có tay, họ không thể tự đẩy mình lên",
+    "Lái xe về phía trước với khuỷu tay bị kẹp sẽ làm họ mất tư thế và dồn trọng lượng lên đầu",
+    "Vị trí còng tay cực kỳ khó thoát ra vì cả hai tay đều bất động trong cùng một tay nắm",
+    "Hệ thống chuyển trực tiếp sang back control khi đối thủ gục ngã"
+  ],
+  "commonMistakes": [
+    "Nắm cẳng tay quá cao thay vì khớp cổ tay - nắm cẳng tay có thể bị trượt",
+    "Để khuỷu tay xòe ra - khuỷu tay bị kẹp là chìa khóa để kiểm soát cả hai cổ tay",
+    "Không lái xe về phía trước - riêng còng tay không xẹp xuống; cần phải có áp lực về phía trước để làm sụp đổ tư thế",
+    "Thả quá sớm - duy trì còng tay cho đến khi mặt sau được cố định hoàn toàn"
+  ],
+  "coachingCues": [
+    "Cả hai cổ tay, nhéo khuỷu tay",
+    "Lái xe về phía trước, thu gọn tư thế",
+    "còng tay để lấy lại",
+    "Giữ cho đến khi mặt sau được cố định chắc chắn"
+  ],
+  "safetySummary": [
+    "Kiểm soát cổ tay nên được áp dụng cho khớp cổ tay chứ không phải bàn tay - việc nắm chặt bàn tay có thể gây thương tích cho ngón tay",
+    "Không tác động lực xuống đột ngột - điều này có thể làm căng cổ tay hoặc vai của đối phương",
+    "Nếu đối thủ lăn lộn hung hãn thì thả còng tay và lăn theo chứ không đánh nhau"
+  ],
+  "keyCorrections": [
+    "Nếu bạn chỉ có một cổ tay: hãy kiểm soát cổ tay đó và thay vào đó hãy sử dụng tay còn lại để giữ chặt kiểu bắt chéo cổ tay hoặc kiểu vuốt",
+    "Nếu chúng lăn ra: thả còng tay ra và lấy phần còng sau khi chúng lăn ra",
+    "Nếu họ tách tay ra: bạn đã mất vị trí khuỷu tay bị kẹp - hãy kẹp lại và lái mạnh hơn về phía trước"
+  ],
+  "systemLogic": {
+    "corePrinciple": "Còng tay Dagestani tuân theo trình tự bốn bước: Cố định gần cổ tay: Bẫy cổ tay ở xa → Kẹp khuỷu tay → Lái xe về phía trước",
+    "decisionTree": [
+      {
+        "condition": "Ở Bước 1 (An toàn gần cổ tay)",
+        "action": "từ phía sau con rùa hoặc back control, nắm lấy cổ tay ở gần của đối phương và kéo về phía hông của bạn"
+      },
+      {
+        "condition": "Ở Bước 2 (Bẫy cổ tay xa)",
+        "action": "đưa tay kia của bạn xuống dưới ngực/nách của họ và nắm lấy cổ tay ở phía xa. Cả hai cổ tay phải được giữ ở tư thế xếp chồng lên nhau giữa hai bàn tay của bạn"
+      },
+      {
+        "condition": "Ở Bước 3 (Kéo khuỷu tay)",
+        "action": "ép khuỷu tay của bạn vào lưng họ. Điều này khóa cả hai cổ tay tại chỗ và ngăn chúng tách ra"
+      },
+      {
+        "condition": "Ở Bước 4 (Lái xe về phía trước)",
+        "action": "đưa đầu gối của bạn về phía trước và dồn áp lực của ngực vào lưng họ. Áp lực về phía trước làm sụp đổ tư thế của họ và buộc họ phải nằm phẳng (lộ ra phía sau) hoặc lăn (bạn phản công vào back control)"
+      },
+      {
+        "condition": "họ chống cự bằng cách làm ra vẻ",
+        "action": "nhấc cổ tay lên một chút (như thể đang còng tay) để phá vỡ tư thế"
+      }
+    ]
+  },
+  "moneyDetails": [
+    "Còng tay Dagestani là một trong những hệ thống phá rùa hiệu quả nhất trong đấu vật và BJJ",
+    "Đó là hệ thống chữ ký của Khabib Nurmagomedov và trường đấu vật Dagestani - đã được thử nghiệm ở cấp độ cao nhất",
+    "Việc thành thạo còng tay sẽ mang lại cho bạn con đường đáng tin cậy từ rùa đến back control mà không cần sức mạnh"
+  ],
+  "fixItFast": [
+    "Nếu bạn chỉ có một cổ tay: thay vào đó hãy chuyển sang đeo chéo cổ tay hoặc vuốt ve",
+    "Nếu chúng lăn ra: thả ra và rút lại - đừng đấu tranh để giữ còng tay",
+    "Nếu họ tách tay ra: nhéo lại khuỷu tay và lái mạnh hơn"
+  ]
+}

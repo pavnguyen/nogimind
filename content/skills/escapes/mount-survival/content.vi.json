@@ -1,0 +1,72 @@
+{
+  "id": "mount-survival",
+  "locale": "vi",
+  "name": "mount Sống sót",
+  "description": "Bảo vệ cổ, khuỷu tay và hông khi đối thủ mounts và bắt đầu tách tay bạn ra. Sống sót trong mount là một cuộc chạy đua với thời gian — họ định cư càng lâu thì việc trốn thoát càng khó khăn.",
+  "shortInstruction": "Giữ khuỷu tay chặt vào xương sườn, giữ thăng bằng trên hông, cầu để mất thăng bằng trước khi chúng ổn định và không bao giờ để chúng cô lập cánh tay của bạn phía trên đầu.",
+  "summary": "Sự sống còn của mount đòi hỏi phải ngăn chặn đối thủ thiết lập cao mount bằng cách quản lý ba làn tấn công: làn cách ly cánh tay (khuỷu tay xòe = armbar hoặc tấn công bằng vai), làn cổ (khuỷu tay cao = nghẹt cổ hoặc crossface) và làn hông (cao đầu gối = cao mount tiến triển). Sinh tồn là chủ động chứ không phải thụ động - những điều chỉnh nhỏ và va chạm đúng lúc sẽ ngăn cản đối thủ ổn định sức nặng của chúng.",
+  "whyItWorks": [
+    "Giữ chặt khuỷu tay vào xương sườn sẽ ngăn cản đối thủ kéo cánh tay của bạn qua đầu trong armbar mục",
+    "Những cầu nhỏ, đúng lúc (va chạm) khiến đối phương không thể ổn định toàn bộ sức nặng của mình, liên tục buộc họ phải điều chỉnh lại chân đế",
+    "Khung cẳng tay ở hông giúp đối phương không thể trượt đầu gối của họ về phía nách của bạn (tiến triển mount cao)",
+    "Bảo vệ cổ bằng cách phòng thủ bằng cách khoanh tay (cẳng tay bắt chéo qua mặt/cổ) giúp kéo dài thời gian chống lại hiện tượng nghẹt cổ và crossfaces"
+  ],
+  "commonMistakes": [
+    "Để đối thủ ghim cánh tay của bạn vào tấm thảm phía trên đầu - đây là điều kiện tiên quyết cho mọi mount armbar",
+    "Cho phép đầu gối của đối phương trượt lên qua đường hông của bạn (cao mount) — từ đây, trọng lượng của họ sẽ đè lên vai bạn",
+    "Định khung trên ngực thay vì hông — khung ngực dễ bị xẹp xuống và không cản trở tiến triển mount cao",
+    "Cầu nối bùng nổ mà không đóng khung lại - bạn lãng phí năng lượng và giữ nguyên vị trí"
+  ],
+  "coachingCues": [
+    "Khuỷu tay tới xương sườn luôn",
+    "Khung ở hông, không phải ở ngực",
+    "Bump trước khi họ giải quyết",
+    "Đầu gối dưới đường hông"
+  ],
+  "safetySummary": [
+    "mount armbars có thể khiến khuỷu tay duỗi quá mức hoặc trật khớp — chạm vào thời điểm cánh tay duỗi thẳng hoàn toàn",
+    "Nếu bạn cảm thấy cánh tay của mình bị cô lập phía trên đầu, hãy chạm vào trước khi chúng có thể duỗi khuỷu tay quá mức",
+    "Đừng cầu nguyện một cách bùng nổ nếu bạn cảm thấy đối phương đã cô lập cánh tay của bạn - điều này có thể gây thương tích ở vai hoặc khuỷu tay",
+    "crossface áp lực từ mount có thể làm căng cổ — luôn quay đầu về phía thảm khi có áp lực"
+  ],
+  "systemLogic": {
+    "corePrinciple": "mount Sinh tồn tuân theo hệ thống phòng thủ ba làn tấn công: bảo vệ làn cánh tay (khuỷu tay đến xương sườn), làn hông (đầu gối dưới nách của bạn) và làn cổ (khung cẳng tay). Sự sinh tồn tích cực với những va chạm nhỏ ngăn cản chúng ổn định trọng lượng.",
+    "decisionTree": [
+      {
+        "condition": "Đối thủ nắm lấy tay áo của bạn và kéo để cô lập cánh tay của bạn",
+        "action": "Xoay cánh tay của bạn khi kéo (không chống cự) và đập lại vào ngực. Nếu cánh tay được ghim phía trên đầu bạn thì mục nhập armbar sẽ được đặt."
+      },
+      {
+        "condition": "Đầu gối của đối phương trượt lên qua đường hông của bạn",
+        "action": "Đặt cả hai cẳng tay lên xương hông của họ và nâng hông lên bất cứ khi nào họ cố gắng trượt về phía trước. mount cao (đầu gối ở nách) khiến việc trốn thoát khó khăn hơn gấp bội."
+      },
+      {
+        "condition": "Đối thủ đứng dậy tấn công vào cổ",
+        "action": "Bắt chéo cẳng tay qua mặt/cổ trong tư thế phòng thủ. Giữ cánh tay nối với thân mình — cánh tay loe ra để lộ armbar."
+      },
+      {
+        "condition": "Đối thủ trói chân bạn",
+        "action": "Cầu sang một bên, dùng chân chặn chân gần của chúng và lăn chúng qua. Đừng để chúng ghim cả hai chân của bạn - điều này sẽ khóa hông của bạn và ngăn cản việc trốn thoát."
+      },
+      {
+        "condition": "Đối thủ quyết định toàn bộ trọng lượng của họ",
+        "action": "Những va chạm nhỏ cứ sau 2-3 giây sẽ ngăn chúng lắng xuống. Thời điểm họ ổn định hoàn toàn, việc trốn thoát trở nên khó khăn hơn theo cấp số nhân. Hãy va chạm trước khi họ đăng bài rộng rãi."
+      }
+    ],
+    "exitStrategies": [
+      "Nếu họ vào high mount (gối chạm nách), cầu mạnh sang một bên, chụp bàn chân xa của họ bằng tay, rồi lật họ để quay lại guard.",
+      "Nếu cánh tay đã bị cô lập phía trên đầu của bạn, hãy chạm vào trước khi họ có thể duỗi khuỷu tay quá mức - không bắc cầu bằng cánh tay bị cô lập.",
+      "Nếu khả năng sống sót của mount không thành công, hãy ưu tiên phòng thủ ở đường cánh tay: giữ chặt khuỷu tay để ngăn chặn đòn tấn công nguy hiểm nhất (armbar)."
+    ]
+  },
+  "moneyDetails": [
+    "mount sinh tồn là một kỹ năng có đòn bẩy cao — sống sót sau 10 giây trong mount thường buộc đối thủ phải cam kết quá mức và mất vị trí",
+    "Cách tiếp cận sinh tồn bình tĩnh trong mount khiến đối thủ sợ hãi hơn là trốn thoát bùng nổ vì nó thể hiện sự bình tĩnh trước áp lực",
+    "Cuộc thi trốn thoát mount có giá trị một điểm — sống sót mount và trốn thoát đến half guard hoặc guard là một sự thay đổi tâm lý lớn"
+  ],
+  "fixItFast": [
+    "Nếu họ đã cao mount (đầu gối ở nách): bắt cứng sang một bên, dùng tay chặn bàn chân xa của họ và lăn họ vào trạng thái phục hồi guard",
+    "Nếu họ đang lừa bạn: ngay lập tức lao về phía bên khỏe hơn của bạn, kẹp một chân vào giữa chân bạn và bắc cầu sang hướng khác để trốn thoát",
+    "Nếu họ đứng dậy để tấn công cổ áo bị sặc: đưa cẳng tay lên mặt/cổ, giữ khuỷu tay hướng xuống và va vào để làm mất thăng bằng khi họ nâng trọng lượng lên"
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "id": "turtle-escape-standup",
+  "domain": "escapes",
+  "level": "intermediate",
+  "status": "draft",
+  "name": "Turtle Escape to Stand Up",
+  "aliases": [
+    "turtle stand-up",
+    "turtle technical stand-up",
+    "tripod stand-up"
+  ],
+  "tags": [
+    "escape",
+    "turtle",
+    "stand-up",
+    "wrestling",
+    "back-defense"
+  ],
+  "keywords": [
+    "turtle position",
+    "technical stand-up",
+    "granby roll",
+    "back exposure",
+    "tripod base"
+  ],
+  "relatedSkills": [
+    {
+      "id": "back-escape",
+      "type": "recommended"
+    },
+    {
+      "id": "technical-stand-up",
+      "type": "recommended"
+    },
+    {
+      "id": "sprawl-go-behind",
+      "type": "recommended"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "back-escape",
+    "side-control-escape"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [],
+  "version": 1,
+  "updatedAt": "2026-06-12T00:00:00.000Z",
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "en",
+  "description": "Escape the turtle position by preventing back exposure, creating a base, and standing up to neutral.",
+  "shortInstruction": "Protect your neck, post on one hand, insert a knee underneath, and technical stand up to face the opponent.",
+  "summary": "Turtle escape to stand up uses a technical stand-up sequence to transition from a defensive turtle to a neutral standing or engaged position without giving up the back. The system prioritizes hand placement and knee timing over explosive rolling.",
+  "whyItWorks": [
+    "The turtle protects the back but also traps you in a defensive position — a stand-up escape reclaims neutral without exposing the back",
+    "Posting on one hand creates a tripod base that prevents the opponent from rolling you over your shoulder line",
+    "The technical stand-up sequence is biomechanically efficient — it uses your strongest muscle groups (glutes, quads) to lift your weight",
+    "Facing the opponent during the stand-up prevents them from taking your back as you rise"
+  ],
+  "commonMistakes": [
+    "Sitting back to guard instead of standing up — this concedes top position and resets to a weaker position",
+    "Posting both hands flat when trying to stand — this leaves no arm to defend the back take",
+    "Turning away from the opponent during the stand-up (exposing the back) instead of squaring up",
+    "Trying to explode up rather than using a controlled, sequential technical stand-up"
+  ],
+  "coachingCues": [
+    "One hand posts, one hand fights",
+    "Knee under the hip, not the chest",
+    "Face them, don't show the back"
+  ],
+  "safetySummary": [
+    "Do not resist the back take so hard that you allow a neck crank or choke — it is better to concede the back and escape than to get choked",
+    "If the opponent has a tight seatbelt, prioritize hand fighting before attempting the stand-up",
+    "Granby rolling to escape turtle can injure the neck if done without head control — use the stand-up as a safer alternative"
+  ],
+  "systemLogic": {
+    "corePrinciple": "The turtle escape to stand-up follows a five-step sequence: neck protection → single hand post → knee insertion → technical stand-up → engagement",
+    "decisionTree": [
+      {
+        "condition": "In Step 1 (Awareness)",
+        "action": "recognize that you are in turtle position and the opponent is on top. This is a defensive position — your goal is to escape, not to stay"
+      },
+      {
+        "condition": "In Step 2 (Frames)",
+        "action": "establish frames on the mat with your forearms to create space under your chest. Frames prevent the opponent from flattening you or taking the back"
+      },
+      {
+        "condition": "In Step 3 (Base)",
+        "action": "bring one knee underneath your body to create a base. A single knee under you gives you the option to stand up or sit through"
+      },
+      {
+        "condition": "In Step 4 (Escape decision)",
+        "action": "choose your escape: sit through to guard, stand up to base, or granby roll to recover guard. Each escape has different risk levels"
+      },
+      {
+        "condition": "In Step 5 (Engagement)",
+        "action": "as you execute the escape, stay connected to the opponent. If they follow you, use their momentum; if they disengage, stand up fully"
+      }
+    ],
+    "exitStrategies": []
+  },
+  "moneyDetails": [
+    "The turtle stand-up is a wrestling-origin skill that translates directly to BJJ — it is the safest and most energy-efficient turtle escape",
+    "Using the stand-up instead of rolling from turtle prevents you from being flattened by experienced back-takers",
+    "A quick turtle stand-up transitions to a takedown opportunity (single leg, double leg) rather than conceding bottom position"
+  ],
+  "fixItFast": [
+    "If they lock a body triangle while you are in turtle: do not panic — protect your neck, get to your knees, and peel the top leg off by sitting back slightly",
+    "If they keep dragging you flat every time you post: change your hand post to a more upright base (fingertips, not palm flat) and lift your hips higher before standing",
+    "If they chase the back as you stand: drop your near hip, face them directly, and circle away from their choking arm"
+  ]
+}

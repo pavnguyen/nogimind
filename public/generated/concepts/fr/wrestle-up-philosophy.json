@@ -1,0 +1,65 @@
+{
+  "id": "wrestle-up-philosophy",
+  "locale": "fr",
+  "title": "Philosophie wrestle-up",
+  "category": "offensive",
+  "level": "intermediate",
+  "tags": [
+    "wrestle-up",
+    "single leg",
+    "guard offense"
+  ],
+  "shortDefinition": "Le wrestle-up transforme la garde défensive en course contrôlée vers top.",
+  "whyItMatters": "En no-gi, se lever ou capter jambe force passer à respecter menace.",
+  "deepExplanation": "Wrestle-up n’est pas scramble aléatoire. Il demande head position, menton sûr, underhook/wrist control, hanches sous épaules et branches contre sprawl.",
+  "beginnerView": "Se lever quand tête haute et mains contrôlent.",
+  "advancedView": "Utiliser wrestle-up pour connecter garde, lutte, passing et mat returns.",
+  "ifThenExamples": [
+    {
+      "if": "Si vous perdez Philosophie wrestle-up pendant l’échange.",
+      "then": "Arrêtez d’accélérer, récupérez la structure corporelle proche, puis continuez.",
+      "why": "Le no-gi moderne punit vite la force après perte de structure.",
+      "relatedSkillIds": [
+        "half-guard-wrestle-up",
+        "seated-guard-retention"
+      ]
+    },
+    {
+      "if": "Si l’adversaire répond correctement à votre première ligne.",
+      "then": "Utilisez Philosophie wrestle-up pour passer à une branche plus sûre au lieu de forcer.",
+      "why": "Un bon concept transforme la réaction adverse en information pour la décision suivante.",
+      "relatedSkillIds": [
+        "seated-guard-retention",
+        "single-leg-bjj",
+        "technical-stand-up"
+      ]
+    }
+  ],
+  "commonMisunderstandings": [
+    {
+      "misunderstanding": "Philosophie wrestle-up est une astuce technique isolée.",
+      "correction": "Voyez-le comme une règle de décision présente dans plusieurs positions."
+    },
+    {
+      "misunderstanding": "Comprendre le concept suffit pour l’utiliser en live.",
+      "correction": "Le concept doit être lié à signaux corporels, cues courts et rolling positionnel."
+    }
+  ],
+  "trainingCues": [
+    "Nommez Philosophie wrestle-up avant d’ajouter force.",
+    "Cherchez le signal corporel, pas une impression vague.",
+    "Si la structure est perdue, reset une couche d’abord.",
+    "Driller lentement, puis tester avec résistance progressive."
+  ],
+  "relatedSkillIds": [
+    "half-guard-wrestle-up",
+    "seated-guard-retention",
+    "single-leg-bjj",
+    "technical-stand-up"
+  ],
+  "relatedConceptIds": [
+    "head-position",
+    "base-balance",
+    "failure-response"
+  ]
+}

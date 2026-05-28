@@ -1,0 +1,77 @@
+{
+  "id": "leg-lock-defense",
+  "locale": "en",
+  "name": "Leg Lock Defense",
+  "description": "Recognize and escape leg locks: hide the heel, clear the knee line, turn the correct direction, and tap early when needed. Leg lock defense is the integration of all knee line escape principles into a complete defensive system against all common leg attacks.",
+  "shortInstruction": "Heel to glute, create hip distance, clear the secondary hook, rotate toward the free leg, and tap the instant you feel rotational torque on the knee.",
+  "summary": "Leg lock defense covers the full spectrum of defensive responses against all major leg attacks: heel hooks (inside and outside), straight ankle locks, kneebars, toe holds, and calf slicers. The system integrates knee line escape mechanics with submission-specific counters. The universal rule: if your knee is isolated and your heel is controlled, prioritize escape. If your knee is isolated and the heel is already exposed, prioritize tapping.",
+  "whyItWorks": [
+    "Heel hide removes the handle needed for heel hook finishing — without heel rotation, the heel hook cannot generate the necessary torque",
+    "Hip separation applies across all leg attacks because every leg lock requires hip proximity to generate finishing leverage",
+    "Correct rotation (toward free leg) is the universal escape direction for all leg entanglements — rotating away tightens every type of leg lock",
+    "Early tapping on heel pressure prevents the most catastrophic training injury (knee ligament reconstruction)"
+  ],
+  "commonMistakes": [
+    "Rotating away from the trapped leg (instinctive panicked motion) — this tightens every leg lock variation",
+    "Trying to yank the leg out of a leg lock using hip extension instead of hip flexion and heel hide",
+    "Freezing and hoping the opponent will not apply the submission — leg locks accelerate suddenly",
+    "Focusing only on heel hook defense while ignoring straight ankle lock, kneebar, and toe hold entries"
+  ],
+  "coachingCues": [
+    "Heel hidden, hips away",
+    "Tap to position, not pain",
+    "Rotate toward the free leg",
+    "If knee pressure, tap immediately"
+  ],
+  "safetySummary": [
+    "Heel hooks can damage the knee before any pain is felt — you must tap to position, not to pain",
+    "Kneebars attack the posterior cruciate ligament — extend your leg slightly if you feel hyperextension, but tap if they control the leg",
+    "Straight ankle locks apply rotational and hyperextension pressure to the ankle and knee — tap if you feel sharp pain, not just pressure",
+    "Calf slicers compress the gastrocnemius against the tibia — these are painful but rarely cause structural damage. Tap before the pain becomes unbearable",
+    "Toe holds attack the ankle syndesmosis — tap early as this injury requires months of recovery"
+  ],
+  "keyCorrections": [
+    "If you feel the heel turning but cannot reach it to hide it: grab your own foot with both hands and pull it toward your glute — this is a 'self-hide'",
+    "If the opponent switches from straight ankle to heel hook: do not change your defense — heel hide and hip separation work for both",
+    "If you are in a 50/50 guard and cannot identify the submission threat: assume heel hook and defend accordingly until you identify the actual attack"
+  ],
+  "systemLogic": {
+    "corePrinciple": "Leg lock defense is organized by attack type, with the same core principles adapted for each",
+    "decisionTree": [
+      {
+        "condition": "Heel hook defense: heel hide",
+        "action": "hip separation → clear secondary hook → rotate toward free leg. This sequence works for both inside and outside heel hooks with minor positional adjustments"
+      },
+      {
+        "condition": "Straight ankle lock defense: point your foot (plantar flexion) to protect the ankle, grip their sleeve to prevent them from pulling your foot, circle your foot toward their far hip while extending your leg. Do not hide the heel",
+        "action": "you want your foot visible to control the angle"
+      },
+      {
+        "condition": "General application",
+        "action": "Kneebar defense: keep your knee slightly bent (do not let them hyperextend), hide the heel against your glute, pummel your free leg over their head to escape the entanglement. Kneebar defense prioritizes knee flexion over heel hide"
+      },
+      {
+        "condition": "General application",
+        "action": "Toe hold defense: rotate your foot in the direction of the hold (follow the rotation rather than resisting it), place your free foot on their hip and push away to create space, then hide the foot and escape"
+      },
+      {
+        "condition": "General application",
+        "action": "Calf slicer defense: point your toes, extend your leg fully to slide the calf out of the compression, pummel your free leg between you and them to create space"
+      },
+      {
+        "condition": "General application",
+        "action": "If any leg lock is applied with full control and you cannot execute the first defense step within 1 second, tap immediately"
+      }
+    ]
+  },
+  "moneyDetails": [
+    "Leg lock defense is a mandatory skill for all modern grapplers — the prevalence of leg attacks in competition means you will face them in every division",
+    "A reliable leg lock defense removes the fear of engagement and allows you to train at full intensity without hesitation",
+    "Understanding leg lock defense from the defensive side makes you a better leg lock attacker — you know exactly what the opponent needs to do to escape"
+  ],
+  "fixItFast": [
+    "If you feel heel rotation with no heel hide possible: tap immediately — you have already lost the race",
+    "If you are in a straight ankle lock and your foot is already isolated: don't yank — point your foot, grip their sleeve, and circle your foot toward their far hip",
+    "If you escape a leg lock but they immediately re-enter: your hip distance was not maintained. Keep your hips away as you recover to a neutral position"
+  ]
+}

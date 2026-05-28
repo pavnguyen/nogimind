@@ -1,0 +1,125 @@
+{
+  "id": "mount-control",
+  "domain": "pins_rides",
+  "level": "intermediate",
+  "status": "draft",
+  "name": "mount Contrôle",
+  "aliases": [],
+  "tags": [
+    "mount",
+    "pin"
+  ],
+  "keywords": [
+    "mount",
+    "high mount",
+    "hand fighting",
+    "dilemma"
+  ],
+  "relatedSkills": [
+    {
+      "id": "arm-triangle-mount",
+      "type": "recommended"
+    },
+    {
+      "id": "mount-survival",
+      "type": "recommended"
+    },
+    {
+      "id": "rear-naked-choke-system",
+      "type": "recommended"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "side-control-pin"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [
+    "S'ils continuent de vous combler : vos genoux sont trop lâches – pincez vos genoux contre leurs hanches et faites avancer votre poids vers leur poitrine.",
+    "S'ils continuent de shrimp jusqu'à half guard : vous êtes assis trop haut – abaissez vos hanches jusqu'à leur ligne de hanches et élargissez votre base.",
+    "S'ils vous coincent la jambe pour vous échapper : renvoyez immédiatement votre pied vers l'intérieur - ne les laissez pas bloquer votre jambe entre les leurs."
+  ],
+  "version": 1,
+  "updatedAt": "2026-05-21T00:24:30.751Z",
+  "contentRefs": {
+    "videos": "videos.json",
+    "qualityChecklist": "qualityChecklist"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": true,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "fr",
+  "description": "Stabilisez mount avec de la vigne, un pincement du genou, un mount élevé et des combats de mains pour ouvrir les soumissions. mount est le pin avec le pourcentage le plus élevé dans BJJ — à partir de là, les soumissions sont abondantes et les options d'évasion de l'adversaire sont limitées.",
+  "shortInstruction": "Gardez la poitrine contre la poitrine, pincez les genoux pour contrôler les hanches et luttez pour isoler les bras au-dessus de la tête. Transition vers le mount haut (genoux aux aisselles) pour terminer.",
+  "summary": "Le contrôle de mount est maintenu grâce à des couches progressives : mount faible (hanches lourdes sur les hanches, pression poitrine contre poitrine) → mount élevé (les genoux glissent jusqu'aux aisselles, emprisonnant leurs épaules) → soumission ou prise en arrière. La clé est d'empêcher la fuite du pont et du roulis en contrôlant leurs hanches avec votre pincement du genou et en suivant leurs mouvements avec votre poids.",
+  "whyItWorks": [
+    "La faible pression mount poitrine contre poitrine empêche l'adversaire de s'asseoir ou de créer un espace pour s'échapper.",
+    "Le pincement du genou (en serrant vos genoux contre leurs hanches) empêche la fuite du pont et du roulis en reliant vos hanches aux leurs.",
+    "Un mount élevé (genoux aux aisselles) emprisonne les épaules de l'adversaire sur le tapis, lui ôtant ainsi sa capacité à établir un pont efficacement.",
+    "L'isolement des bras (faire glisser les bras au-dessus de la tête) est la condition préalable à toutes les soumissions mount - sans cela, les candidatures armbar échouent."
+  ],
+  "commonMistakes": [
+    "S'asseoir trop haut en mount — cela supprime la pression sur la poitrine et permet à l'adversaire de shrimp ou de faire un pont",
+    "Laisser vos genoux trop écartés : cela ouvre l'espace à l'adversaire pour s'échapper vers half guard ou side control.",
+    "Chasser les soumissions avant de stabiliser le mount — un mount lâche donne à l'adversaire la possibilité de s'échapper avant que vous puissiez terminer",
+    "Ignorer la fuite de la vigne - l'adversaire peut vous accrocher les jambes et vous faire rouler si vous ne contrôlez pas ses pieds"
+  ],
+  "coachingCues": [
+    "Poitrine contre poitrine, reste bas",
+    "Pincez les genoux, emprisonnez les hanches",
+    "Bras levés, épaules baissées",
+    "Stabilisez-vous avant d'attaquer"
+  ],
+  "safetySummary": [
+    "N'appliquez pas soudainement tout le poids du corps sur la poitrine ou les côtes de l'adversaire - une compression thoracique peut provoquer des blessures aux côtes ou une panique respiratoire.",
+    "Lors de la vigne, appliquez une pression contrôlée : une flexion soudaine de la hanche peut fatiguer le bas du dos de l'adversaire.",
+    "Si l'adversaire effectue un pont de manière explosive alors que vous êtes en mount élevé, votre poids tombant vers l'avant peut provoquer des chocs accidentels à la tête."
+  ],
+  "systemLogic": {
+    "corePrinciple": "Le contrôle mount progresse en trois phases : Faible mount → Élevé mount → Entrée de soumission",
+    "decisionTree": [
+      {
+        "condition": "En phase 1 (bas mount)",
+        "action": "genoux au niveau des hanches, poitrine sur poitrine, poids vers l’avant. Objectif : établir la connexion et empêcher le pont. Utilisez de la vigne (accrochez vos pieds à l’intérieur de leurs jambes) pour ancrer votre poids et suivez leurs ponts"
+      },
+      {
+        "condition": "En phase 2 (haut mount)",
+        "action": "faites glisser vos genoux vers leurs aisselles pendant qu'ils comblent ou créent de l'espace. Le but est de plaquer leurs épaules au tapis. Depuis le haut mount, l'adversaire ne peut pas effectuer un pont efficacement car ses épaules sont coincées"
+      },
+      {
+        "condition": "En phase 3 (saisie de soumission)",
+        "action": "une fois le mount élevé établi, commencez à isoler les bras. Faites glisser un bras au-dessus de leur tête (entrée armbar), ou crossface pour configurer le bras triangle, ou positionnez-vous pour l'Ézéchiel ou l'étranglement croisé."
+      },
+      {
+        "condition": "Prévention des fuites",
+        "action": "S'ils essaient le pont et le roulis, placez vos pieds dans leurs jambes et enfoncez votre poids dans leur poitrine. S'ils tentent de s'échapper du coude, frappez votre genou vers la ligne des hanches pour rétablir le mount bas."
+      },
+      {
+        "condition": "Application générale",
+        "action": "S'ils se tournent de leur côté (abandonnant le dos), maintenez la connexion et reprenez le dos plutôt que de lutter pour rétablir mount"
+      }
+    ],
+    "exitStrategies": []
+  },
+  "moneyDetails": [
+    "mount est la deuxième position la plus dominante dans BJJ (derrière back control) — à partir de mount, vous avez accès à plus de soumissions que toute autre position",
+    "mount marque 4 points dans la compétition IBJJF — établir mount est souvent le facteur décisif dans les matchs serrés",
+    "La capacité de tenir mount contre un adversaire expérimenté est la marque d'un grappler avancé : la plupart des ceintures blanches et bleues perdent mount en quelques secondes."
+  ],
+  "fixItFast": [
+    "S'ils font un pont dur et vous font presque rouler : placez vos pieds dans leurs jambes et enfoncez votre poitrine dans la leur - cela tue leur pont.",
+    "S'ils commencent à s'échapper du coude : frappez votre genou jusqu'à la ligne de leurs hanches et revenez immédiatement au mount bas.",
+    "S'ils se tournent de leur côté : prenez le recul - ne vous battez pas pour re-mount. back control est plus dominant et marque plus de points"
+  ]
+}

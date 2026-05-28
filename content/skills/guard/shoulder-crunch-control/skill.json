@@ -1,0 +1,56 @@
+{
+  "id": "shoulder-crunch-control",
+  "domain": "guard_offense",
+  "level": "intermediate",
+  "name": "Shoulder Crunch Control",
+  "aliases": [],
+  "tags": [
+    "shoulder-crunch",
+    "butterfly",
+    "sweep",
+    "tier:modern-expansion",
+    "meta:modern-common",
+    "risk:medium",
+    "family:guard",
+    "group:shoulder-crunch",
+    "modern-no-gi"
+  ],
+  "keywords": [
+    "shoulder crunch",
+    "butterfly hook",
+    "posture"
+  ],
+  "modernSystemGroup": "shoulder_crunch",
+  "relatedSkills": [
+    {
+      "id": "clamp-guard-control",
+      "type": "recommended"
+    },
+    {
+      "id": "dogfight-knee-tap",
+      "type": "recommended"
+    },
+    {
+      "id": "choi-bar",
+      "type": "recommended"
+    }
+  ],
+  "prerequisiteSkillIds": [
+    "butterfly-guard-off-balance",
+    "seated-guard-retention"
+  ],
+  "relatedPositions": [],
+  "relatedConcepts": [],
+  "archetypeIds": [],
+  "trainingMethodIds": [],
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "updatedAt": "2026-05-21T00:24:30.775Z"
+}

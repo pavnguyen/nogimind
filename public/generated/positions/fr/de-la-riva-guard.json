@@ -1,0 +1,58 @@
+{
+  "id": "de-la-riva-guard",
+  "locale": "fr",
+  "title": "Garde De La Riva",
+  "category": "bottom_guard",
+  "status": "neutral",
+  "description": "Le gardiste utilise un hook de jambe sur la cuisse intérieure et une main sur la cheville extérieure pour déséquilibrer et balayer le passeur debout.",
+  "topPlayerGoals": [
+    "Le joueur du dessus veut contrôler Garde De La Riva avec la position de tête, la position intérieure et une pression orientée.",
+    "Fixer la jambe hook, appliquer du poids et tuer l’angle.",
+    "Garder une base stable pour éviter d’être déséquilibré ou contré."
+  ],
+  "bottomPlayerGoals": [
+    "Le joueur du dessous veut survivre en Garde De La Riva avec des cadres, du pummeling ou le bon angle.",
+    "Combiner le hook avec sleeve grip et contrôle de hanche éloignée pour sweeps ou prise de dos.",
+    "Reconnaître les signaux de danger tôt au lieu d’attendre que la position se stabilise."
+  ],
+  "controlPoints": [
+    "Point de contrôle principal : Hook cuisse intérieure, sleeve grip et far hip..",
+    "La tête, les mains, les hanches et les genoux doivent suivre la même direction de force.",
+    "La connexion coude-genou ou la ligne hanches-épaules détermine si la position reste vivante ou verrouillée."
+  ],
+  "escapePriorities": [
+    "Priorité de sortie : Ne pas laisser le hook cuisse verrouiller la knee line..",
+    "Protéger le cou, le dos, la ligne du genou ou la ligne du bras avant de contrer.",
+    "Si la position intérieure est perdue, rétablir d’abord une couche défensive."
+  ],
+  "advancementOptions": [
+    {
+      "action": "Passer en X-guard ou single leg X",
+      "nextPositionId": "x-guard-position",
+      "relatedSkillIds": [
+        "de-la-riva-sweeps",
+        "de-la-riva-back-take",
+        "x-guard-control"
+      ],
+      "why": "C’est la branche naturelle lorsque vous gagnez le point de contrôle principal et que l’adversaire est forcé de défendre."
+    }
+  ],
+  "dangerSignals": [
+    "Le menton ou le cou sort de la ligne sûre.",
+    "Le coude se sépare des côtes ou du genou.",
+    "La ligne des hanches est verrouillée pendant que la ligne des épaules est encore tirée.",
+    "Vous devez poser une main loin pour éviter de tomber."
+  ],
+  "relatedSkillIds": [
+    "de-la-riva-sweeps",
+    "de-la-riva-back-take",
+    "x-guard-control",
+    "single-leg-x-control",
+    "guard-pulling-strategy"
+  ],
+  "relatedConceptIds": [
+    "hooks",
+    "guard-retention-layers",
+    "angle-creation"
+  ]
+}

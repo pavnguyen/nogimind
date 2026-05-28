@@ -1,0 +1,131 @@
+{
+  "id": "knee-line-escape",
+  "domain": "survival_defense",
+  "level": "intermediate",
+  "status": "draft",
+  "name": "Évasion de la ligne du genou / Masquer le talon",
+  "aliases": [],
+  "tags": [
+    "knee-line",
+    "leg-lock",
+    "heel-hide",
+    "defense",
+    "escape"
+  ],
+  "keywords": [
+    "heel hide",
+    "knee line",
+    "boot defense",
+    "rotation direction",
+    "tap timing",
+    "secondary leg"
+  ],
+  "relatedSkills": [
+    {
+      "id": "single-leg-x-basics",
+      "type": "recommended"
+    },
+    {
+      "id": "saddle-inside-sankaku-control",
+      "type": "recommended"
+    },
+    {
+      "id": "backside-50-50-control",
+      "type": "recommended"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "leg-lock-safety-basics",
+    "heel-hook-safety"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [
+    "Si vous ressentez une pression de rotation même si le talon est caché : vos hanches sont trop proches – séparez vos hanches immédiatement avant que le couple n'atteigne le genou.",
+    "Si vous ne parvenez pas à dégager le crochet secondaire : changez d'angle : faites pivoter légèrement vos hanches vers le tapis et frappez votre jambe libre à travers l'espace.",
+    "S'ils passent de heel hook à la genouillère : gardez votre talon caché et étendez légèrement votre jambe pour soulager la pression d'hyperextension tout en maintenant la dissimulation du talon."
+  ],
+  "version": 1,
+  "updatedAt": "2026-05-21T00:24:30.766Z",
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "fr",
+  "description": "Échapper à la ligne du genou des enchevêtrements de jambes : cachez le talon, séparez les hanches, dégagez la jambe secondaire et faites une rotation correcte avant que la force de rotation n'atteigne le genou. La défense de la ligne de genou est la compétence de sécurité la plus critique dans le grappling moderne avec verrouillage des jambes.",
+  "shortInstruction": "Cachez le talon derrière votre cuisse, séparez vos hanches des leurs, dégagez le crochet de jambe secondaire et tournez VERS la jambe libre – jamais loin de la jambe coincée.",
+  "summary": "L'évasion de la ligne du genou est le processus systématique consistant à retirer votre genou du contrôle de l'adversaire en cas d'enchevêtrement des jambes. La séquence en quatre étapes est la suivante : (1) cacher le talon - amener votre talon vers votre fessier pour l'empêcher de contrôler le pied, (2) séparer les hanches - créer une distance entre vos hanches et les leurs pour réduire le levier de rotation, (3) dégager la jambe secondaire - retirer le crochet extérieur de la jambe qui emprisonne votre jambe, (4) rotation correcte - pivoter vers votre jambe libre (jamais loin de la jambe piégée). Ce système est basé sur la philosophie d'évasion du verrouillage des jambes de Danaher et constitue la base de toute défense contre le verrouillage des jambes.",
+  "whyItWorks": [
+    "Cacher le talon derrière votre cuisse supprime leur point de contrôle principal : sans contrôle du talon, ils ne peuvent pas générer le couple de rotation nécessaire pour terminer.",
+    "Séparer vos hanches des leurs supprime le point d'appui du verrouillage des jambes - tous les verrouillages des jambes nécessitent la proximité des hanches pour générer une force de rupture",
+    "Dégager le crochet de la jambe secondaire les empêche de maintenir l'enchevêtrement lorsque vous essayez de vous échapper",
+    "La rotation vers la jambe libre crée une pression indiscrète contre leur prise – la rotation vers l'extérieur (le mouvement instinctif) resserre l'enchevêtrement"
+  ],
+  "commonMistakes": [
+    "Panique et rotation loin de la jambe coincée - cela resserre le heel hook ou la genouillère",
+    "Essayer de tirer la jambe tout droit au lieu de cacher le talon et de dégager d'abord la jambe secondaire",
+    "Laisser vos hanches rester près des leurs – cela leur donne un effet de rotation complet contre votre genou",
+    "Ignorer le crochet de jambe secondaire - même si vous éliminez l'enchevêtrement principal, le crochet secondaire vous maintient piégé"
+  ],
+  "coachingCues": [
+    "Du talon au fessier, toujours",
+    "Hanches éloignées, pas vers",
+    "Dégagez d'abord le crochet extérieur",
+    "Rotation vers la jambe libre"
+  ],
+  "safetySummary": [
+    "Les blocages de jambe sont dangereux : les heel hook peuvent endommager le genou quelques millisecondes avant que vous ressentiez de la douleur. Appuyez pour positionner, pas pour appuyer",
+    "Si vous ressentez une pression de rotation sur votre genou, tapotez immédiatement : la reconstruction du genou représente des mois de récupération, une tapotement représente des secondes de réinitialisation.",
+    "N'entraînez jamais les verrous de jambe sans comprendre la séquence d'évasion - l'entraînement en défense est tout aussi important que l'entraînement en attaque.",
+    "Communiquez avec les partenaires d'entraînement sur le niveau d'expérience en matière de verrouillage des jambes avant de rouler"
+  ],
+  "systemLogic": {
+    "corePrinciple": "L'évasion de la ligne du genou suit une séquence en quatre étapes : Masquage du talon → Séparation de la hanche → Effacer la jambe secondaire → Rotation correcte",
+    "decisionTree": [
+      {
+        "condition": "Étape 1, Masquer le talon : le moment",
+        "action": "vous sentez votre jambe isolée, rapprochez votre talon le plus possible de votre fessier. Cela supprime la « poignée » dont ils ont besoin pour faire pivoter votre pied. S'ils ne peuvent pas contrôler le talon, ils ne peuvent pas terminer le heel hook"
+      },
+      {
+        "condition": "Étape 2, séparation des hanches : éloignez ou éloignez vos hanches des leurs. La proximité des hanches est la condition préalable à toute mécanique de finition de verrouillage des jambes. En séparant les hanches",
+        "action": "vous supprimez leur point de levier. Un espace de 6 à 8 pouces entre vos hanches est suffisant pour neutraliser la plupart des blocages de jambes"
+      },
+      {
+        "condition": "Application générale",
+        "action": "Si l'étape 3, effacer la jambe secondaire : la jambe extérieure de l'adversaire (celle qui n'attaque pas) accroche ou emprisonne votre jambe libre. Frappez votre jambe libre sous leur crochet en l'éloignant de l'enchevêtrement."
+      },
+      {
+        "condition": "Application générale",
+        "action": "Si l'étape 4, Rotation correcte : une fois les trois premières étapes terminées, faites pivoter votre corps vers votre jambe libre (la jambe qui n'est pas coincée). Cela crée une pression indiscrète contre leur prise et permet à votre genou coincé de glisser hors de l'enchevêtrement."
+      },
+      {
+        "condition": "les quatre étapes sont exécutées avec succès",
+        "action": "soit vous vous échapperez complètement, soit vous arriverez dans une position 50/50 où aucun des grappins n'a le contrôle de la ligne du genou"
+      }
+    ],
+    "exitStrategies": []
+  },
+  "moneyDetails": [
+    "L'évasion de la ligne des genoux est la compétence de sécurité la plus importante dans le BJJ moderne - l'augmentation du verrouillage des jambes signifie que chaque grappin doit connaître cette séquence",
+    "Une évacuation fiable de la ligne de genou élimine la crainte d'entrer dans des enchevêtrements de jambes - vous pouvez vous engager sans risque constant de blessure",
+    "Maîtriser la défense de la ligne des genoux fait de vous un attaquant plus dangereux avec le verrouillage des jambes : vous comprenez exactement ce dont l'adversaire a besoin pour s'échapper et pouvez le contrer."
+  ],
+  "fixItFast": [
+    "Si le heel hook est déjà profond et que vous sentez une rotation sur le genou : tapez immédiatement — la défense doit avoir lieu avant que le couple ne soit appliqué",
+    "Si vous êtes dans un inside sankaku (saddle/colle) et que vous ne pouvez pas cacher le talon : utilisez vos deux mains pour saisir votre talon et tirez-le vers votre fessier.",
+    "S'il passe à un ankle lock droit : étendez votre jambe contre la pression, saisissez sa manche pour l'empêcher de tirer votre pied et entourez votre pied vers sa hanche la plus éloignée."
+  ]
+}

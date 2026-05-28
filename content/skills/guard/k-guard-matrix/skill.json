@@ -1,0 +1,56 @@
+{
+  "id": "k-guard-matrix",
+  "domain": "guard_offense",
+  "level": "advanced",
+  "name": "K-Guard to Matrix",
+  "aliases": [],
+  "tags": [
+    "k-guard",
+    "matrix",
+    "backside-entry",
+    "tier:modern-expansion",
+    "meta:modern-common",
+    "risk:high",
+    "family:leg-lock",
+    "group:k-guard",
+    "modern-no-gi"
+  ],
+  "keywords": [
+    "K-guard",
+    "matrix",
+    "backside"
+  ],
+  "modernSystemGroup": "k_guard",
+  "relatedSkills": [
+    {
+      "id": "false-reap-entry",
+      "type": "recommended"
+    },
+    {
+      "id": "saddle-inside-sankaku-control",
+      "type": "recommended"
+    },
+    {
+      "id": "crab-ride",
+      "type": "recommended"
+    }
+  ],
+  "prerequisiteSkillIds": [
+    "k-guard-entry",
+    "leg-lock-safety-basics"
+  ],
+  "relatedPositions": [],
+  "relatedConcepts": [],
+  "archetypeIds": [],
+  "trainingMethodIds": [],
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "updatedAt": "2026-05-21T00:24:30.778Z"
+}

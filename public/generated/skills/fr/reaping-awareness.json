@@ -1,0 +1,142 @@
+{
+  "id": "reaping-awareness",
+  "domain": "positional_awareness",
+  "level": "beginner",
+  "status": "draft",
+  "name": "Récolter la conscience",
+  "aliases": [
+    "reaping the knee",
+    "knee reaping safety",
+    "leg reap rules"
+  ],
+  "tags": [
+    "safety",
+    "knee-safety",
+    "leg-lock",
+    "tier:safety-critical",
+    "risk:safety-critical",
+    "family:safety",
+    "group:leg-safety",
+    "ibjjf-rules",
+    "modern-no-gi"
+  ],
+  "keywords": [
+    "reaping",
+    "knee line",
+    "medial rotation",
+    "outside ashi",
+    "ibjjf",
+    "heel exposure"
+  ],
+  "modernSystemGroup": "leg_locking_safety",
+  "relatedSkills": [
+    {
+      "id": "leg-lock-safety-basics",
+      "type": "prerequisite"
+    },
+    {
+      "id": "heel-hook-safety",
+      "type": "recommended"
+    },
+    {
+      "id": "single-leg-x-basics",
+      "type": "recommended"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "positional-hierarchy",
+    "leg-lock-safety-basics"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [],
+  "version": 1,
+  "updatedAt": "2026-06-12T00:00:00.000Z",
+  "contentRefs": {
+    "videos": "videos.json",
+    "qualityChecklist": "qualityChecklist"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": true,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "fr",
+  "description": "Reconnaître et éviter de couper illégalement le genou dans les enchevêtrements de jambes. La récolte se produit lorsque le pied attaquant traverse la ligne médiane de l'adversaire et que le talon est poussé vers la hanche, créant un couple de rotation dangereux sur le genou.",
+  "shortInstruction": "Si votre pied attaquant traverse la ligne du nombril de l'adversaire et que votre talon se dirige vers sa hanche, vous récoltez. Relâchez immédiatement ou ajustez-vous à la position ashi extérieure pour vous entraîner en toute sécurité.",
+  "summary": "La conscience de la récolte vous apprend à identifier quand un enchevêtrement de jambe devient une récolte illégale (règle IBJJF) ou une position dangereuse du genou, et comment vous adapter à des positions d'entraînement sûres. La mesure clé est la ligne médiane : si votre pied attaquant se trouve du côté opposé du corps de l'adversaire par rapport à l'endroit où vous avez commencé, vous récoltez probablement. Le danger est que la récolte applique le même couple de rotation au genou qu'un heel hook, et l'entraînement dans des positions récoltées normalise les angles de genou dangereux.",
+  "whyItWorks": [
+    "Comprendre la ligne médiale et latérale du genou évite les blessures à l'entraînement : la récolte applique une rotation externe au genou qui peut endommager le MCL et le ménisque.",
+    "Connaître les règles de la compétition évite la disqualification – IBJJF interdit de récolter à tous les niveaux de ceinture",
+    "Reconnaître la récolte tôt permet un ajustement sûr avant que le couple ne soit appliqué - vous pouvez passer à l'ashi extérieur ou à 50/50",
+    "La sensibilisation à la récolte évite les blessures accidentelles lors d'un entraînement à intensité plus élevée."
+  ],
+  "commonMistakes": [
+    "Reaping confus (le pied traverse la ligne médiane, le talon se dirige vers la hanche) avec l'ashi extérieur (le pied reste du même côté) - ils se ressemblent mais le risque au genou est complètement différent",
+    "Continuer à appliquer une pression de verrouillage de la jambe après que le partenaire ait signalé la douleur - vérifiez toujours dans quelle position vous vous trouvez",
+    "Ne pas connaître la différence entre la récolte et l'exposition légale du talon - l'exposition du talon à elle seule ne constitue pas une récolte si le pied ne traverse pas la ligne médiane",
+    "En supposant que la récolte « légère » soit sûre, le couple de rotation appliqué progressivement met toujours à rude épreuve les structures du genou."
+  ],
+  "coachingCues": [
+    "Le pied traverse la ligne médiane = récolter",
+    "Talon à hanche = rotation dangereuse",
+    "Dehors, Ashi est en sécurité, inside sankaku récolte",
+    "En cas de doute, passez au footlock droit"
+  ],
+  "safetySummary": [
+    "Reaping applique un couple de rotation dangereux au genou – le MCL est le plus vulnérable, suivi du LCA et du ménisque",
+    "Relâchez toujours immédiatement si vous sentez le pied traverser la ligne médiane de l'adversaire lors d'un enchevêtrement de jambe.",
+    "En cas de doute, passez en position ashi extérieur (pied du même côté) ou en position footlock droite (pas de croisement)",
+    "Règles IBJJF : la récolte entraîne une disqualification immédiate à tous les niveaux de ceinture",
+    "Dans les sous-règles ADCC et No-Gi, la récolte est légale mais comporte toujours le même risque inhérent de blessure au genou."
+  ],
+  "systemLogic": {
+    "corePrinciple": "La récolte se produit lorsque le pied attaquant traverse la ligne médiane de l'adversaire et que le talon est poussé vers la hanche, créant un couple de rotation dangereux sur le genou. Le principal marqueur de sécurité est la ligne médiane : si votre pied attaquant est du côté opposé de son corps, vous récoltez.",
+    "decisionTree": [
+      {
+        "condition": "Votre pied traverse la ligne médiane de l'adversaire lors d'un enchevêtrement de jambe",
+        "action": "Vous récoltez – faites immédiatement glisser votre pied attaquant du même côté de son corps et passez à la position ashi extérieure. N'appliquez pas de pression avant d'avoir ajusté."
+      },
+      {
+        "condition": "Vous êtes inside sankaku (saddle) et souhaitez vous entraîner en toute sécurité",
+        "action": "Reculez vos hanches pour amener votre pied du même côté, entrez à l’extérieur de l’ashi. Cela supprime la condition de récolte tout en conservant le contrôle des jambes."
+      },
+      {
+        "condition": "Vous sentez que votre genou est frotté (pied du mauvais côté, talon dirigé vers la hanche)",
+        "action": "Tapez immédiatement et demandez à votre partenaire de vérifier la position de ses pieds avant de continuer. Le couple de rotation peut endommager le MCL avant que vous ressentiez de la douleur."
+      },
+      {
+        "condition": "Vous ne savez pas si vous récoltez",
+        "action": "Arrêtez-vous, redressez vos jambes et rentrez depuis une position ashi extérieure sûre. En cas de doute, passez à une prise de pied droite – aucun croisement n’est impliqué."
+      },
+      {
+        "condition": "Votre partenaire exploite la pression pendant l'entraînement",
+        "action": "Vérifiez la position de vos pieds : vous êtes peut-être plus loin sur la ligne médiane que vous ne le pensiez. Relâchez immédiatement et ajustez-vous à l'ashi extérieur avant de continuer."
+      }
+    ],
+    "exitStrategies": [
+      "Selon les règles IBJJF, la récolte entraîne une disqualification immédiate à tous les niveaux de ceinture – entraînez-vous en dehors de l'ashi ou directement ankle lock à la place.",
+      "Selon les règles ADCC ou No-Gi, la récolte est légale mais comporte toujours un risque de blessure au genou : entraînez-vous avec une intensité contrôlée et relâchez-vous dès tout signe d'inconfort.",
+      "Si vous souhaitez entraîner les verrous de jambe en toute sécurité, apprenez la différence entre l'ashi extérieur (sûr) et inside sankaku (récolte) avant de tenter un enchevêtrement de jambe."
+    ]
+  },
+  "moneyDetails": [
+    "La sensibilisation à la récolte évite la disqualification la plus courante dans les compétitions IBJJF : une seule DQ de récolte coûte tout le tournoi.",
+    "Comprendre la récolte protège vos partenaires d'entraînement des blessures accidentelles au genou lors de l'entraînement avec verrouillage des jambes",
+    "Apprendre à s'adapter de la récolte à des positions sûres (en dehors de l'ashi, 50/50) fait de vous un partenaire d'entraînement plus polyvalent et plus sûr."
+  ],
+  "fixItFast": [
+    "Si vous avez inside sankaku (saddle) et que vous souhaitez vous ajuster : reculez vos hanches pour amener votre pied du même côté, entrez à l'extérieur de l'ashi.",
+    "Si vous sentez que votre genou est frotté : tapotez immédiatement et demandez à votre partenaire de vérifier la position de son pied avant de continuer.",
+    "Si vous êtes l'attaquant et que vous n'êtes pas sûr : redressez les deux jambes, libérez l'enchevêtrement et revenez à partir d'une position de jambe neutre."
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "id": "neutral-standing",
+  "locale": "vi",
+  "title": "Đứng trung lập",
+  "category": "standing",
+  "status": "neutral",
+  "description": "Hai người đang đứng và chưa ai thắng rõ ràng về grip, vị trí đầu hoặc góc tấn công.",
+  "topPlayerGoals": [
+    "Người ở trên muốn kiểm soát Đứng trung lập bằng vị trí đầu, vị trí trong và áp lực có hướng.",
+    "Tạo inside tie, collar tie hoặc level change an toàn.",
+    "Giữ nền vững để không bị mất thăng bằng hoặc bị phản đòn."
+  ],
+  "bottomPlayerGoals": [
+    "Người ở dưới muốn sống sót trong Đứng trung lập bằng khung chặn, pummel hoặc góc phù hợp.",
+    "Giữ stance chắc, không để đầu bị kéo xuống hoặc bị ép vào một guard pull xấu.",
+    "Nhận diện tín hiệu nguy hiểm sớm thay vì chờ vị trí ổn định."
+  ],
+  "controlPoints": [
+    "Điểm kiểm soát chính: Vị trí đầu, kiểm soát cổ tay và độ rộng stance..",
+    "Đầu, tay, hông và gối nên cùng hướng lực.",
+    "Kết nối khuỷu-gối hoặc đường hông-vai quyết định vị trí còn sống hay đã bị khóa."
+  ],
+  "escapePriorities": [
+    "Ưu tiên thoát: Reset grip nếu mất posture hoặc bị kéo đầu..",
+    "Bảo vệ cổ, lưng, đường gối hoặc đường tay trước khi phản công.",
+    "Nếu mất vị trí trong, hãy lùi lại một lớp phòng thủ trước."
+  ],
+  "advancementOptions": [
+    {
+      "action": "Vào hand fighting với inside ties",
+      "nextPositionId": "hand-fighting-position",
+      "relatedSkillIds": [
+        "hand-fighting",
+        "single-leg-bjj",
+        "guard-pulling-strategy"
+      ],
+      "why": "Đây là nhánh tự nhiên khi bạn thắng điểm kiểm soát chính và đối thủ buộc phải phòng thủ."
+    }
+  ],
+  "dangerSignals": [
+    "Cằm hoặc cổ bị kéo ra khỏi đường an toàn.",
+    "Khuỷu tay tách khỏi sườn hoặc đầu gối.",
+    "Đường hông bị khóa trong khi đường vai vẫn đang bị kéo.",
+    "Bạn phải chống tay dài để không ngã."
+  ],
+  "relatedSkillIds": [
+    "hand-fighting",
+    "single-leg-bjj",
+    "guard-pulling-strategy"
+  ],
+  "relatedConceptIds": [
+    "base-balance",
+    "head-position",
+    "inside-position"
+  ]
+}

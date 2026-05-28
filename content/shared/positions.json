@@ -1,0 +1,322 @@
+[
+  {
+    "id": "neutral-standing",
+    "name": {
+      "en": "Neutral Standing",
+      "vi": "Đứng trung lập",
+      "fr": "Debout neutre"
+    }
+  },
+  {
+    "id": "hand-fighting-position",
+    "name": {
+      "en": "Hand Fighting",
+      "vi": "Hand Fighting",
+      "fr": "Hand fighting"
+    }
+  },
+  {
+    "id": "seated-guard",
+    "name": {
+      "en": "Seated Guard",
+      "vi": "Seated Guard",
+      "fr": "Garde assise"
+    }
+  },
+  {
+    "id": "supine-guard",
+    "name": {
+      "en": "Supine Guard",
+      "vi": "Guard nằm ngửa",
+      "fr": "Garde sur le dos"
+    }
+  },
+  {
+    "id": "butterfly-guard",
+    "name": {
+      "en": "Butterfly Guard",
+      "vi": "Butterfly Guard",
+      "fr": "Garde papillon"
+    }
+  },
+  {
+    "id": "half-guard-bottom",
+    "name": {
+      "en": "Half Guard Bottom",
+      "vi": "Half Guard Dưới",
+      "fr": "Half guard dessous"
+    }
+  },
+  {
+    "id": "knee-shield-half-guard",
+    "name": {
+      "en": "Knee Shield Half Guard",
+      "vi": "Knee Shield Half Guard",
+      "fr": "Half guard avec knee shield"
+    }
+  },
+  {
+    "id": "dogfight",
+    "name": {
+      "en": "Dogfight",
+      "vi": "Dogfight",
+      "fr": "Dogfight"
+    }
+  },
+  {
+    "id": "front-headlock-top",
+    "name": {
+      "en": "Front Headlock Top",
+      "vi": "Front Headlock Trên",
+      "fr": "Front headlock dessus"
+    }
+  },
+  {
+    "id": "front-headlock-bottom",
+    "name": {
+      "en": "Front Headlock Bottom",
+      "vi": "Front Headlock Dưới",
+      "fr": "Front headlock dessous"
+    }
+  },
+  {
+    "id": "turtle-top",
+    "name": {
+      "en": "Turtle Top",
+      "vi": "Turtle Trên",
+      "fr": "Turtle dessus"
+    }
+  },
+  {
+    "id": "turtle-bottom",
+    "name": {
+      "en": "Turtle Bottom",
+      "vi": "Turtle Dưới",
+      "fr": "Turtle dessous"
+    }
+  },
+  {
+    "id": "bodylock-passing-position",
+    "name": {
+      "en": "Body Lock Passing Position",
+      "vi": "Vị trí Body Lock Passing",
+      "fr": "Position de body lock passing"
+    }
+  },
+  {
+    "id": "headquarters-top",
+    "name": {
+      "en": "Headquarters Top",
+      "vi": "Headquarters Trên",
+      "fr": "Headquarters dessus"
+    }
+  },
+  {
+    "id": "knee-cut-position",
+    "name": {
+      "en": "Knee Cut Position",
+      "vi": "Vị trí Knee Cut",
+      "fr": "Position de knee cut"
+    }
+  },
+  {
+    "id": "side-control-top",
+    "name": {
+      "en": "Side Control Top",
+      "vi": "Side Control Trên",
+      "fr": "Side control dessus"
+    }
+  },
+  {
+    "id": "side-control-bottom",
+    "name": {
+      "en": "Side Control Bottom",
+      "vi": "Side Control Dưới",
+      "fr": "Side control dessous"
+    }
+  },
+  {
+    "id": "mount-top",
+    "name": {
+      "en": "Mount Top",
+      "vi": "Mount Trên",
+      "fr": "Mount dessus"
+    }
+  },
+  {
+    "id": "mount-bottom",
+    "name": {
+      "en": "Mount Bottom",
+      "vi": "Mount Dưới",
+      "fr": "Mount dessous"
+    }
+  },
+  {
+    "id": "back-control-position",
+    "name": {
+      "en": "Back Control",
+      "vi": "Back Control",
+      "fr": "Contrôle du dos"
+    }
+  },
+  {
+    "id": "back-escape-position",
+    "name": {
+      "en": "Back Escape Position",
+      "vi": "Vị trí Thoát Back",
+      "fr": "Position de sortie du dos"
+    }
+  },
+  {
+    "id": "single-leg-x",
+    "name": {
+      "en": "Single Leg X",
+      "vi": "Single Leg X",
+      "fr": "Single Leg X"
+    }
+  },
+  {
+    "id": "outside-ashi",
+    "name": {
+      "en": "Outside Ashi",
+      "vi": "Outside Ashi",
+      "fr": "Outside ashi"
+    }
+  },
+  {
+    "id": "saddle-inside-sankaku",
+    "name": {
+      "en": "Saddle / Inside Sankaku",
+      "vi": "Saddle / Inside Sankaku",
+      "fr": "Saddle / inside sankaku"
+    }
+  },
+  {
+    "id": "scramble-neutral",
+    "name": {
+      "en": "Scramble Neutral",
+      "vi": "Scramble Trung lập",
+      "fr": "Scramble neutre"
+    }
+  },
+  {
+    "id": "arm-triangle-threat",
+    "name": {
+      "en": "Arm Triangle Threat",
+      "vi": "Đe dọa Arm Triangle",
+      "fr": "Menace d’arm triangle"
+    }
+  },
+  {
+    "id": "rear-naked-choke-threat",
+    "name": {
+      "en": "Rear Naked Choke Threat",
+      "vi": "Đe dọa Rear Naked Choke",
+      "fr": "Menace de rear naked choke"
+    }
+  },
+  {
+    "id": "closed-guard",
+    "name": {
+      "en": "Closed Guard",
+      "vi": "Closed Guard",
+      "fr": "Garde fermée"
+    }
+  },
+  {
+    "id": "de-la-riva-guard",
+    "name": {
+      "en": "De La Riva Guard",
+      "vi": "De La Riva Guard",
+      "fr": "Garde De La Riva"
+    }
+  },
+  {
+    "id": "reverse-de-la-riva-guard",
+    "name": {
+      "en": "Reverse De La Riva Guard",
+      "vi": "Reverse De La Riva Guard",
+      "fr": "Garde De La Riva inversée"
+    }
+  },
+  {
+    "id": "x-guard-position",
+    "name": {
+      "en": "X-Guard",
+      "vi": "X-Guard",
+      "fr": "X-Guard"
+    }
+  },
+  {
+    "id": "z-guard",
+    "name": {
+      "en": "Z-Guard (93 Guard)",
+      "vi": "Z-Guard (93 Guard)",
+      "fr": "Z-Guard (93 Guard)"
+    }
+  },
+  {
+    "id": "knee-on-belly",
+    "name": {
+      "en": "Knee On Belly",
+      "vi": "Knee On Belly",
+      "fr": "Genou sur le ventre"
+    }
+  },
+  {
+    "id": "north-south",
+    "name": {
+      "en": "North South",
+      "vi": "North South",
+      "fr": "North South"
+    }
+  },
+  {
+    "id": "inverted-guard",
+    "name": {
+      "en": "Inverted Guard",
+      "vi": "Inverted Guard",
+      "fr": "Garde inversée"
+    }
+  },
+  {
+    "id": "k-guard-position",
+    "name": {
+      "en": "K-Guard",
+      "vi": "K-Guard",
+      "fr": "K-Guard"
+    }
+  },
+  {
+    "id": "crab-ride-position",
+    "name": {
+      "en": "Crab Ride",
+      "vi": "Crab Ride",
+      "fr": "Crab Ride"
+    }
+  },
+  {
+    "id": "backside-50-50",
+    "name": {
+      "en": "Backside 50/50",
+      "vi": "Backside 50/50",
+      "fr": "Backside 50/50"
+    }
+  },
+  {
+    "id": "cross-wrist-ride-position",
+    "name": {
+      "en": "Cross-Wrist Ride",
+      "vi": "Cross-Wrist Ride",
+      "fr": "Cross-wrist ride"
+    }
+  },
+  {
+    "id": "claw-ride-position",
+    "name": {
+      "en": "Claw Ride",
+      "vi": "Claw Ride",
+      "fr": "Claw ride"
+    }
+  }
+]

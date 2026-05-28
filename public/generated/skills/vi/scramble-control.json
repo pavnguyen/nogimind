@@ -1,0 +1,127 @@
+{
+  "id": "scramble-control",
+  "domain": "positional_awareness",
+  "level": "advanced",
+  "status": "draft",
+  "name": "Kiểm soát tranh giành",
+  "aliases": [],
+  "tags": [
+    "scramble",
+    "transitions"
+  ],
+  "keywords": [
+    "scramble",
+    "inside position",
+    "go-behind",
+    "failure response"
+  ],
+  "relatedSkills": [
+    {
+      "id": "sprawl-go-behind",
+      "type": "recommended"
+    },
+    {
+      "id": "back-control",
+      "type": "recommended"
+    },
+    {
+      "id": "mat-return-basics",
+      "type": "recommended"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "failure-response-transitions",
+    "hand-fighting"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [
+    "Nếu bạn liên tục thua trong các cuộc tranh giành: bạn đang ưu tiên sai cuộc đua. Luôn xuất phát ở vị trí đứng đầu - nếu bạn thua cuộc đua đối đầu, bạn sẽ thua cuộc tranh giành",
+    "Nếu đối thủ liên tục lùi lại trong các pha tranh giành: bạn đang quay lưng lại. Khoan quay vào chúng (không phải đi) khi cuộc tranh giành bắt đầu",
+    "Nếu bạn nhanh chóng mệt mỏi khi tranh giành: bạn đang nín thở và căng cơ hoàn toàn. Thực hành kiểm soát hơi thở và căng thẳng có chọn lọc"
+  ],
+  "version": 1,
+  "updatedAt": "2026-05-21T00:24:30.758Z",
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "vi",
+  "description": "Biến các cuộc tranh giành từ sự hỗn loạn thành các cuộc đua ưu tiên: đầu, hông, vị trí bên trong và tiếp xúc phía sau. Tranh giành là một cuộc đua giành quyền kiểm soát vị trí trong đó người đầu tiên thiết lập được cấu trúc sẽ giành chiến thắng.",
+  "shortInstruction": "Giành chiến thắng trong cuộc đua đối đầu (trán tới hàm của họ), đánh bại họ ở vị trí bên trong, giữ hông của bạn ở dưới hông họ và không bao giờ lộ lưng. Người đầu tiên về cấu trúc sẽ thắng cuộc tranh giành.",
+  "summary": "Kiểm soát tranh giành biến các sàn giao dịch hỗn loạn thành một cuộc đua ưu tiên có hệ thống. Bốn mức độ ưu tiên theo thứ tự là: (1) vị trí đầu - đưa trán của bạn chạm vào quai hàm của họ, (2) chiều cao của hông - giữ hông của bạn ở dưới hoặc ngang bằng với họ, (3) vị trí bên trong - đánh tay, đầu gối và khuỷu tay của họ vào làn bên trong và (4) để lộ lưng - không bao giờ lộ lưng. Người cấu trúc đầu tiên buộc đối thủ phải phản ứng và giành được lợi thế về vị trí.",
+  "whyItWorks": [
+    "Vị trí đầu xác định hướng của cuộc tranh giành - vận động viên vật lộn với khả năng điều khiển từ trán đến hàm sẽ quyết định hướng đầu của đối thủ đi và do đó cơ thể của họ sẽ di chuyển theo",
+    "Vị trí hông thấp hơn mang lại cho bạn lợi thế về mặt cơ học - bạn có thể nâng, đẩy và đặt chân từ bên dưới hiệu quả hơn từ bên trên",
+    "Vị trí bên trong (đầu gối của bạn bên trong đường đầu gối của họ, khuỷu tay của bạn bên trong đường khuỷu tay của họ) giúp bạn kiểm soát trục trung tâm của cơ thể họ",
+    "Không bao giờ quay lưng lại sẽ ngăn đối thủ ghi được tiến bộ về vị trí có giá trị cao nhất (quay lại)"
+  ],
+  "commonMistakes": [
+    "Theo đuổi sự phục tùng trong một cuộc tranh giành thay vì thiết lập quyền kiểm soát vị trí trước",
+    "Quay lưng lại trong khi cố gắng thoát khỏi một vị trí xấu - điều này mang lại cho đối thủ cơ hội quay lại ngay lập tức",
+    "Đấu vật nằm sấp - điều này loại bỏ tất cả các tùy chọn di chuyển và cơ sở của bạn",
+    "Nín thở khi tranh giành – điều này dẫn đến mệt mỏi và mắc sai lầm sớm"
+  ],
+  "coachingCues": [
+    "Đầu trước, hông sau",
+    "Bên trong đánh bại bên ngoài, luôn luôn",
+    "Đừng bao giờ quay lưng lại",
+    "Cấu trúc chiến thắng cuộc tranh giành"
+  ],
+  "safetySummary": [
+    "Tranh giành là nguyên nhân phổ biến nhất của chấn thương khi luyện tập - chuyển động không kiểm soát có thể gây tổn thương ngón tay, đầu gối và cổ",
+    "Không đứng với cánh tay thẳng để bắt mình - điều này có nguy cơ bị duỗi quá mức khuỷu tay hoặc trật khớp vai",
+    "Nếu bạn cảm thấy khớp của mình bị kẹt ở một góc khó xử trong khi tranh giành, hãy nhượng bộ vị trí và đặt lại thay vì chiến đấu sai hướng",
+    "Việc tranh giành gần mép thảm làm tăng nguy cơ chấn thương - được kiểm soát chặt chẽ hơn khi ở gần ranh giới"
+  ],
+  "systemLogic": {
+    "corePrinciple": "Hệ thống ưu tiên tranh giành có bốn cuộc đua theo thứ tự quan trọng nghiêm ngặt: Đầu: Hông → Vị trí bên trong → Tiếp xúc phía sau",
+    "decisionTree": [
+      {
+        "condition": "Ở Cuộc đua 1 (Đầu)",
+        "action": "vận động viên vật lộn đầu tiên thiết lập được khả năng kiểm soát từ trán đến hàm (hoặc từ má đến ngực) sẽ giành chiến thắng trong cuộc tranh giành. Vị trí đầu quyết định hướng của cơ thể. Nếu bạn thua cuộc đua đối đầu, mọi cuộc đua sau sẽ khó khăn hơn"
+      },
+      {
+        "condition": "Ở Cuộc đua 2 (Hông)",
+        "action": "vận động viên vật lộn với vị trí hông thấp hơn có lợi thế về mặt cơ học. Nếu hông của bạn cao hơn hông của họ, họ có thể nâng cao và định hướng lại bạn. Nếu hông của bạn thấp hơn, bạn có thể đứng, lái và nâng hiệu quả hơn"
+      },
+      {
+        "condition": "Ở Cuộc đua 3 (Vị trí bên trong)",
+        "action": "Khi đầu và hông đã ổn định, hãy tranh giành vị trí bên trong. Đầu gối của bạn phải nằm trong đường đầu gối của họ, khuỷu tay của bạn phải nằm trong đường khuỷu tay của họ. Vị trí bên trong cho phép bạn điều khiển trục trung tâm"
+      },
+      {
+        "condition": "Trong cuộc đua 4 (Phơi sáng phía sau)",
+        "action": "không bao giờ, trong bất kỳ trường hợp nào, quay lưng lại khi tranh giành. Nếu bạn cảm thấy lưng mình bị lộ, hãy nhượng bộ vị trí và xác lập lại vị trí đầu trước khi tiếp tục"
+      },
+      {
+        "condition": "cả bốn cuộc đua đều thắng",
+        "action": "bạn có ưu thế về vị trí - chuyển trực tiếp sang ghim hoặc gửi. Nếu bạn thua bất kỳ cuộc đua nào, hãy rút lui về cuộc đua trước đó và thiết lập lại trước khi tiến lên"
+      }
+    ],
+    "exitStrategies": []
+  },
+  "moneyDetails": [
+    "Kiểm soát cuộc tranh giành là kỹ năng quan trọng nhất để thành công trong cuộc thi - các trận đấu thường thắng hoặc thua trong cuộc tranh giành",
+    "Chiến thắng trong các cuộc tranh giành sẽ tiết kiệm năng lượng vì bạn quyết định tốc độ thay vì phản ứng với hành động của đối thủ",
+    "Khả năng giữ bình tĩnh và có tổ chức trong các cuộc trao đổi hỗn loạn là đặc điểm nổi bật của một vận động viên vật lộn kỳ cựu",
+    "Việc nắm vững khả năng kiểm soát tranh giành sẽ ngăn ngừa tình trạng mất điểm thi đấu phổ biến nhất: giành lại và guard vượt qua từ các cuộc tranh giành"
+  ],
+  "fixItFast": [
+    "Nếu bạn đang trong tình trạng tranh giành và thua cuộc: hãy đứng yên. Kiểm soát vị trí đầu, hạ hông xuống và thiết lập lại cuộc đua ưu tiên từ đầu",
+    "Nếu bạn nằm sấp: ngay lập tức quay sang một bên, đứng dựa vào hông họ và xác lập lại tư thế đầu trước khi cố gắng đứng lên",
+    "Nếu đối thủ cản trở bạn trong lúc tranh giành: đừng quay đi — hãy lao vào họ, bẫy chân gần của họ và hồi phục guard"
+  ]
+}

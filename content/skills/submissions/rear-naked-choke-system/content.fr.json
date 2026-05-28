@@ -1,0 +1,87 @@
+{
+  "id": "rear-naked-choke-system",
+  "locale": "fr",
+  "name": "Starter nu arrière",
+  "shortName": "RNC",
+  "description": "Le pourcentage de soumission le plus élevé en BJJ. Un étranglement sanguin de back control qui coupe les deux artères carotides en positionnant l'avant-bras sur un côté du cou et en fermant l'autre côté avec une pression sur la poitrine et les épaules.",
+  "shortInstruction": "Coude sous menton, poitrine collée au dos, retirer le mou, puis presser.",
+  "summary": "L'étranglement sanguin No-Gi le plus fondamental de back control : maîtrisez le combat à la main, la ligne de coude et la connexion poitrine-dos.",
+  "whyItWorks": [
+    "Coupe les deux artères carotides lorsque l'avant-bras étouffant et l'épaule de l'adversaire ferment les deux lignes du cou.",
+    "Nécessite une force minimale lorsque la structure est correcte : l'effet de levier remplace la force.",
+    "Crée un dilemme entre protéger le cou et échapper à back control."
+  ],
+  "commonMistakes": [
+    "Presser les bras avant que le coude ne soit sous le menton.",
+    "Perdre le contact avec la poitrine pour poursuivre l'arrivée.",
+    "Utiliser les biceps pour faire une manivelle au lieu de l’avant-bras pour couper.",
+    "Ajouter de la force avant de supprimer tout le jeu."
+  ],
+  "coachingCues": [
+    "Coude d’abord, serrez en dernier.",
+    "Poitrine collée, pas de lumière du jour.",
+    "Gagnez les mains, puis terminez.",
+    "Détendez-vous, serrez-vous."
+  ],
+  "oneMinuteMode": {
+    "goal": "Terminez le RNC à partir du back control avec une structure propre.",
+    "steps": [
+      "Verrouillez seatbelt et collez le coffre sur leur dos.",
+      "Gagnez le combat à main levée – retirez leur main défensive du cou.",
+      "Faites glisser le coude d'étouffement sous la ligne du menton.",
+      "Retirez tout le jeu avant de presser.",
+      "Fermez la poitrine et les épaules pour terminer l’étranglement."
+    ]
+  },
+  "safetySummary": [
+    "Tapez tôt sur les manivelles du cou – faites la distinction entre un étranglement sanguin et une manivelle du cou.",
+    "Ne pas tordre ou tourner le col pour forcer la finition.",
+    "Entraînez-vous avec des partenaires contrôlés et relâchez la pression immédiatement."
+  ],
+  "keyCorrections": [
+    "S'il devient une manivelle, le coude est trop haut – laissez-le tomber sous le menton.",
+    "S’ils se tournent vers vous, le contact avec la poitrine est perdu – recollez le sternum à la colonne vertébrale.",
+    "Si votre main se décolle, passez à un combat à main levée près de la tête."
+  ],
+  "systemLogic": {
+    "corePrinciple": "back control est la plate-forme, pas l'arrivée. Chaque étape – seatbelt, combat à main, ligne de coude, suppression du mou – doit être effectuée dans l'ordre avant de serrer.",
+    "decisionTree": [
+      {
+        "condition": "Une main défend la ligne du cou",
+        "action": "Isolez la main défensive avec votre bras supérieur (contrôle du poignet haut) tout en gardant la poitrine collée à son dos."
+      },
+      {
+        "condition": "Les deux mains défendent le cou",
+        "action": "Passez au corps triangle ou au piège à bras pour briser leur coque défensive avant de réattaquer le cou."
+      },
+      {
+        "condition": "Ils se transforment en toi (face vers le haut)",
+        "action": "Reculez vos hanches, rétablissez la connexion poitrine-dos et attaquez du côté opposé."
+      },
+      {
+        "condition": "Votre bras d'étouffement est sous la mâchoire (position manivelle)",
+        "action": "Relâchez et réinsérez le bas du bras – l’avant-bras doit se croiser au niveau de la ligne médiane du cou, et non sous la mâchoire."
+      },
+      {
+        "condition": "Ils enlèvent les deux mains du cou",
+        "action": "Revenez au contrôle seatbelt, combattez à nouveau à la main – ne poursuivez jamais le starter sans structure."
+      }
+    ],
+    "exitStrategies": [
+      "Si le starter est constamment bloqué, passez aux pièges à bras et attaquez le armbar ou l'arc et les flèches.",
+      "S'ils s'échappent vers le bas mount, passez au contrôle mount et attaquez à partir de là.",
+      "S'ils se précipitent, réattaquez avec un front headlock ou un guillotine alors qu'ils vous font face."
+    ]
+  },
+  "moneyDetails": [
+    "Le détail du coude sous le menton est tout – sans lui, vous avez une manivelle, pas un starter.",
+    "Le contact poitrine-dos gèle leur fuite avant même que vous ne les pressiez.",
+    "Supprimer le jeu est plus important que serrer fort."
+  ],
+  "nextStep": "Après avoir terminé le RNC ou en cas d'échec, enchaînez-vous dans les pièges à bras, la transition mount ou revenez en arrière.",
+  "fixItFast": [
+    "Vous ne trouvez pas la ligne du cou ? Passez à l'autre bras ou créez plus d'angle en marchant sur vos hanches.",
+    "Se faire peler ? Rentrez votre menton et passez au contrôle élevé du poignet.",
+    "Contact thoracique perdu ? Reconnectez-vous avant de serrer – sans cela, ils s’échapperont."
+  ]
+}

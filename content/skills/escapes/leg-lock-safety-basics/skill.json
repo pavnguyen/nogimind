@@ -1,0 +1,49 @@
+{
+  "id": "leg-lock-safety-basics",
+  "domain": "survival_defense",
+  "level": "beginner",
+  "name": "Leg Lock Safety Basics",
+  "aliases": [],
+  "tags": [
+    "leg-lock",
+    "knee-safety"
+  ],
+  "keywords": [
+    "knee line",
+    "ashi garami",
+    "outside ashi",
+    "safety tap"
+  ],
+  "relatedSkills": [
+    {
+      "id": "straight-ankle-lock-safety",
+      "type": "recommended"
+    },
+    {
+      "id": "heel-hook-safety",
+      "type": "recommended"
+    },
+    {
+      "id": "single-leg-x-basics",
+      "type": "recommended"
+    }
+  ],
+  "prerequisiteSkillIds": [
+    "positional-hierarchy"
+  ],
+  "relatedPositions": [],
+  "relatedConcepts": [],
+  "archetypeIds": [],
+  "trainingMethodIds": [],
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": true,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "contentRefs": {
+    "videos": "videos.json",
+    "qualityChecklist": "qualityChecklist"
+  },
+  "updatedAt": "2026-05-21T00:24:30.753Z"
+}

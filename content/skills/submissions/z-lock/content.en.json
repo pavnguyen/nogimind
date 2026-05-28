@@ -1,0 +1,65 @@
+{
+  "id": "z-lock",
+  "locale": "en",
+  "name": "Z-Lock",
+  "description": "A modern leg lock submission from single-leg X (SLX) or 50/50 that combines ankle lock pressure with heel hook rotation mechanics — attacking the opponent's knee and ankle simultaneously.",
+  "shortInstruction": "From SLX, underhook the near leg, bring your outside leg over their thigh, trap their foot at your hip, rotate your hips to the mat — combined ankle and heel hook finish.",
+  "summary": "The Z-lock is a hybrid leg lock submission that combines elements of the ankle lock and heel hook into a single devastating attack. Originating from positions like single-leg X (SLX) and 50/50 guard, it uses a unique leg configuration to trap and torque the opponent's leg. The position offers excellent control and can be used both as a finishing submission and as a transitional position to other leg attacks like the saddle or cross ashi garami. It is particularly effective in no-gi and modern leg lock systems.",
+  "whyItWorks": [
+    "Combines two attack vectors (ankle + knee) simultaneously, creating a dilemma for the opponent — defending one exposes the other.",
+    "Uses hip rotation and body weight rather than just arm strength, making it mechanically efficient.",
+    "The foot trap at the hip prevents the opponent from rolling out or turning to escape.",
+    "Can be entered directly from common guard positions (SLX, 50/50) without complex re-positioning.",
+    "Creates extreme isolation of the knee joint by fixing the foot at the hip while rotating the torso."
+  ],
+  "commonMistakes": [
+    "Losing the underhook on the near leg, allowing the opponent to free their leg and escape.",
+    "Failing to trap the foot securely at the hip before initiating rotation.",
+    "Using only upper body strength instead of engaging hip rotation for the finish.",
+    "Applying the submission too slowly, giving the opponent time to stack or roll.",
+    "Over-rotating and losing control of the trapped leg after the finish."
+  ],
+  "coachingCues": [
+    "Trap the foot like you're pinning it to your hip bone — don't let it slide.",
+    "Rotate your hips to the mat, not your shoulders — power comes from the core.",
+    "Keep their heel tight against your body to maximize leverage.",
+    "Enter from SLX when they posture: underhook + leg over = Z-lock.",
+    "If they roll, follow their hip and re-attack — don't reset."
+  ],
+  "safetySummary": [
+    "Z-lock applies rotational torque to the knee — tap early and respect the submission.",
+    "Not appropriate for beginners — requires solid leg lock understanding before attempting.",
+    "The combined ankle + knee pressure can cause injury to both joints if applied explosively.",
+    "Partners rolling should establish clear tapping protocols for leg attacks."
+  ],
+  "keyCorrections": [
+    "If you can't finish, your foot trap is too loose — pull their foot tighter against your hip.",
+    "If they roll, follow their hip rotation — release the lock and re-attack from saddle.",
+    "If you feel resistance in their knee, release pressure — do not force the rotation."
+  ],
+  "systemLogic": {
+    "corePrinciple": "SLX or 50/50: underhook the near leg → bring outside leg over their thigh → trap their foot at your hip → rotate your hips toward the mat → finish.",
+    "decisionTree": [
+      {
+        "condition": "General application",
+        "action": "The Z-lock chains with the saddle: if they roll to escape the Z-lock, enter the saddle."
+      },
+      {
+        "condition": "they defend by stacking",
+        "action": "release and re-enter from SLX."
+      }
+    ]
+  },
+  "moneyDetails": [
+    "The underhook on their near leg must be deep — your arm should wrap around their thigh, not just the knee.",
+    "Your outside leg goes over their thigh and pins their leg against your body.",
+    "Trap their foot against your hip by keeping your knee tight to their body.",
+    "The finish comes from rotating your hips toward the mat while keeping their foot pinned — this combines ankle and knee pressure."
+  ],
+  "nextStep": "After the Z-lock, learn the saddle/inside sankaku control and the inside heel hook.",
+  "fixItFast": [
+    "Leg keeps slipping? Your underhook is too shallow — dig deeper on the thigh.",
+    "Can't finish? Your foot trap is loose — pull it tighter against your hip.",
+    "They roll? Follow their hips and enter the saddle — don't fight it."
+  ]
+}

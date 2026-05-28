@@ -1,0 +1,122 @@
+{
+  "id": "z-guard-sweeps",
+  "domain": "guard_offense",
+  "level": "intermediate",
+  "status": "draft",
+  "name": "Z-guard Balayages et moitié profonde",
+  "aliases": [],
+  "tags": [
+    "z-guard",
+    "deep-half",
+    "sweep",
+    "half-guard"
+  ],
+  "keywords": [
+    "z-guard",
+    "deep half",
+    "waiter sweep",
+    "wrestle-up",
+    "knee shield"
+  ],
+  "relatedSkills": [
+    {
+      "id": "half-guard-wrestle-up",
+      "type": "recommended"
+    },
+    {
+      "id": "dogfight-knee-tap",
+      "type": "recommended"
+    },
+    {
+      "id": "side-control-escape",
+      "type": "recommended"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "half-guard-knee-shield",
+    "half-guard-wrestle-up"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [
+    "Si vous ne pouvez pas glisser dans la moitié profonde, votre underhook n'est pas assez profond – enfoncez votre épaule plus loin sous l'aisselle.",
+    "Si le balayage du serveur ne fonctionne pas, leur poids est trop en arrière – passez à la lutte.",
+    "S'ils vous aplatissent, vous perdez le underhook – revenez dessus avant d'essayer de balayer."
+  ],
+  "version": 1,
+  "updatedAt": "2026-05-21T00:24:30.748Z",
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "fr",
+  "description": "Utilisez le knee shield (Z-guard) et le underhook pour créer des demi-entrées profondes, des balayages de serveur ou des opportunités de lutte depuis le bas half guard.",
+  "shortInstruction": "knee shield, underhook, sentez leur poids – glissez dans la moitié profonde ou balayez depuis Z-guard.",
+  "summary": "Z-guard (knee shield) est le poste de contrôle ; sweeps sont la récompense. À partir de Z-guard, votre knee shield crée de la distance pendant que vous vous battez pour le underhook. Une fois que vous avez remporté le underhook, vous disposez de trois options principales sweep : glisser dans la moitié profonde (quand ils avancent), frapper le serveur sweep (quand ils se lèvent) ou wrestle up (quand ils reculent). La transition Z-guard vers la moitié profonde est l'une des chaînes sweep avec le pourcentage le plus élevé dans No-Gi.",
+  "whyItWorks": [
+    "Le knee shield évite la pression thoracique, vous donnant le temps de trouver le underhook.",
+    "Gagner le underhook vous donne le point de contrôle pour entrer dans la moitié profonde – sans cela, la moitié profonde est impossible.",
+    "Vos balayages half guard inférieurs exploitent leur élan vers l'avant : plus ils conduisent fort, plus le balayage est facile.",
+    "Principe de Danaher : les balayages half guard ne concernent pas la force, mais plutôt le timing du poids et l'angle."
+  ],
+  "commonMistakes": [
+    "Essayer de balayer sans gagner le underhook en premier — le underhook est la clé de tous les balayages half guard.",
+    "Aller à la moitié profonde lorsqu'ils sont postured - la moitié profonde fonctionne lorsqu'ils avancent, pas lorsqu'ils se lèvent.",
+    "En utilisant uniquement vos bras pour balayer, la puissance vient du mouvement de vos hanches et de la poussée de vos jambes.",
+    "Rester trop longtemps dans Z-guard — Z-guard est le contrôle ; les balayages sont la sortie."
+  ],
+  "coachingCues": [
+    "Gagnez le underhook, puis balayez – jamais auparavant.",
+    "Ressentez leur poids : l'avant est à moitié profond, l'arrière est en lutte.",
+    "Glissez vos hanches sous les leurs, pas à côté d'elles.",
+    "Z-guard est la salle d'attente – les balayages sont la porte de sortie."
+  ],
+  "safetySummary": [
+    "Ne tournez pas le cou de votre partenaire pendant les combats de underhook : gardez votre tête dans sa poitrine, pas dans son cou.",
+    "Lorsque vous entrez dans la moitié profonde, protégez votre visage de leur bras croisé.",
+    "S'ils vous empilent pendant le balayage, renflouez et réinitialisez - ne les laissez pas vous enfoncer la tête dans le tapis."
+  ],
+  "systemLogic": {
+    "corePrinciple": "Z-guard (knee shield) → gagner underhook → lire leur poids → choisir le balayage.",
+    "decisionTree": [
+      {
+        "condition": "Réaction 1 : Ils avancent",
+        "action": "glisser dans la moitié profonde → balayage du serveur ou prise arrière."
+      },
+      {
+        "condition": "Réaction 2 : Ils se tiennent debout",
+        "action": "stand-up technique → wrestle up."
+      },
+      {
+        "condition": "Réaction 3 : Ils traversent",
+        "action": "kimura piège → balayage ou soumission."
+      }
+    ],
+    "exitStrategies": []
+  },
+  "moneyDetails": [
+    "Le underhook doit être profond : votre épaule doit être sous l'aisselle, pas seulement votre bras enroulé autour de son dos.",
+    "Pour entrer dans la moitié profonde, faites glisser votre tête vers l’autre côté de leur corps tout en gardant le underhook.",
+    "Le balayage du serveur fonctionne en poussant son genou le plus éloigné avec votre pied tout en tirant sa jambe la plus proche – mouvement de ciseaux.",
+    "S'ils résistent au sweep en reculant, suivez-les et entrez single-leg X."
+  ],
+  "nextStep": "Après les balayages Z-guard, apprenez en détail le balayage profond half guard et le serveur.",
+  "fixItFast": [
+    "Vous ne pouvez pas glisser dans la moitié profonde ? Votre underhook est trop superficiel : creusez plus profondément sous son aisselle.",
+    "Ils continuent de reculer ? Arrêtez de courir après – wrestle up à la place.",
+    "Le balayage du serveur ne fonctionne pas ? Poussez leur genou le plus éloigné, pas leur hanche – le genou est le point de bascule."
+  ]
+}

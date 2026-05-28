@@ -1,0 +1,128 @@
+{
+  "id": "dogfight-knee-tap",
+  "domain": "wrestle_up_wrestling",
+  "level": "intermediate",
+  "status": "draft",
+  "name": "Cú chạm đầu gối không chiến",
+  "aliases": [],
+  "tags": [
+    "dogfight",
+    "wrestle-up",
+    "knee-tap",
+    "tier:modern-expansion",
+    "meta:modern-common",
+    "risk:medium",
+    "family:wrestling",
+    "group:wrestle-up",
+    "modern-no-gi"
+  ],
+  "keywords": [
+    "dogfight",
+    "underhook",
+    "knee tap"
+  ],
+  "modernSystemGroup": "wrestle_up",
+  "relatedSkills": [
+    {
+      "id": "octopus-guard-control",
+      "type": "recommended"
+    },
+    {
+      "id": "single-leg-bjj",
+      "type": "recommended"
+    },
+    {
+      "id": "sprawl-go-behind",
+      "type": "recommended"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "half-guard-wrestle-up",
+    "single-leg-bjj"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [
+    "Nếu chúng không rơi: bạn chưa kéo chúng về phía trước đủ — hãy tăng lực kéo về phía trước bằng underhook",
+    "Nếu họ bước qua đầu bạn: vị trí đầu của bạn quá thấp - hãy giữ đầu bạn ở ngang vai họ",
+    "Nếu họ sprawl tấn công bạn: chuyển sang chặng đơn — underhook của bạn sẽ cho bạn quyền vào chặng một"
+  ],
+  "version": 1,
+  "updatedAt": "2026-05-21T00:24:30.779Z",
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "vi",
+  "description": "Trong trận không chiến, cú chạm đầu gối sử dụng underhook và vị trí đầu để hạ gục đối thủ. Không chiến là tư thế đấu vật phổ biến nhất từ ​​half guard dưới lên.",
+  "shortInstruction": "Từ trận không chiến, vòng đầu gối bên ngoài của bạn qua lưng họ, sử dụng underhook để kéo họ về phía trước và dùng tay còn lại chạm vào đầu gối phía xa của họ để hạ gục họ.",
+  "summary": "Cú chạm đầu gối khi không chiến là đòn quét có tỷ lệ quét cao nhất từ ​​vị trí không chiến (underhook half guard). Từ trận không chiến, bạn sử dụng underhook của mình để kéo đối thủ về phía trước trong khi dùng tay còn lại chạm vào đầu gối phía xa của họ. Động lượng về phía trước của họ kết hợp với cú chạm đầu gối sẽ loại bỏ phần đế của họ và đưa họ xuống thảm. Nhấn đầu gối chuyển trực tiếp sang side control hoặc front headlock.",
+  "whyItWorks": [
+    "underhook trong trận không chiến cho phép bạn kiểm soát phần thân trên của chúng — bạn có thể kéo chúng về phía trước, khiến chúng mất thăng bằng",
+    "Chạm vào đầu gối phía xa sẽ làm mất điểm tựa phía sau của họ - họ không thể lùi lại để lấy lại thăng bằng",
+    "Sự kết hợp giữa kéo về phía trước (underhook) và tháo chân đế phía sau (chạm đầu gối) tạo ra vấn đề cân bằng không thể giải quyết được",
+    "Việc chạm đầu gối sẽ an toàn trong guillotine giây vì đầu của bạn hướng ra ngoài (má áp vào vai họ)"
+  ],
+  "commonMistakes": [
+    "Không kéo chúng đủ về phía trước trước khi chạm vào đầu gối - chỉ chạm vào đầu gối không gây ra đòn hạ gục",
+    "Chạm vào đầu gối gần thay vì đầu gối xa - chạm đầu gối gần không làm mất phần đế của chúng",
+    "Ở quá thấp trong trận không chiến - đứng lên để tạo góc cho cú chạm đầu gối",
+    "Thả underhook trong khi chạm vào đầu gối — duy trì khả năng kiểm soát underhook trong suốt quá trình"
+  ],
+  "coachingCues": [
+    "Kéo về phía trước, sau đó chạm vào đầu gối",
+    "underhook luôn ở lại",
+    "Chạm vào đầu gối xa, không phải gần",
+    "Đứng thẳng rồi gõ nhẹ"
+  ],
+  "safetySummary": [
+    "Cú chạm đầu gối là một đòn quét có tác động thấp - đối thủ tiếp đất bằng hông chứ không phải đầu hoặc cổ",
+    "Đừng duỗi quá mức đầu gối của bạn bằng cách đặt nó quá xa trên lưng họ",
+    "Nếu đối phương chống lại cú chạm đầu gối bằng cách lùi lại, thay vào đó hãy sẵn sàng vòng sang một chân"
+  ],
+  "systemLogic": {
+    "corePrinciple": "Đòn chạm đầu gối khi không chiến là một phần của hệ thống không chiến lớn hơn: Chạm đầu gối → Một chân → Re-guard",
+    "decisionTree": [
+      {
+        "condition": "Sử dụng Tùy chọn 1 (Chạm vào đầu gối)",
+        "action": "đẩy đầu gối bên trong của bạn lên thảm và chạm vào mắt cá chân xa của họ. Đòn chạm đầu gối là đòn hạ gục chính của bạn từ vị trí không chiến"
+      },
+      {
+        "condition": "Sử dụng Phương án 2 (Một chân)",
+        "action": "nếu họ đưa chân xa ra sau để bảo vệ cú chạm đầu gối, hãy chuyển sang chân đơn trên chân trụ. Trọng lượng của họ đã được cam kết với bài viết"
+      },
+      {
+        "condition": "Sử dụng Tùy chọn 3 (Quay lại)",
+        "action": "nếu họ lao vào bạn để phòng thủ, hãy theo đà của họ và lùi lại. Việc quay về phía bạn để lộ tấm lưng của họ"
+      },
+      {
+        "condition": "Ứng dụng chung",
+        "action": "Vị trí không chiến vốn đã không ổn định — hãy nhanh chóng thực hiện một lựa chọn thay vì tạm dừng"
+      }
+    ],
+    "exitStrategies": []
+  },
+  "moneyDetails": [
+    "Cú chạm đầu gối trong trận không chiến là đòn quét phổ biến nhất từ ​​half guard đáy trong No-Gi — nó hoạt động ở mọi cấp độ",
+    "Việc thành thạo động tác chạm đầu gối trong không chiến mang lại cho bạn con đường đáng tin cậy từ half guard đến vị trí hàng đầu",
+    "Chạm đầu gối vào side control ghi được 2 điểm (quét) trong IBJJF"
+  ],
+  "fixItFast": [
+    "Nếu chúng không rơi: kéo mạnh hơn và gõ nhẹ vào đầu gối phía xa một lần nữa",
+    "Nếu họ bước qua: sprawl quay lại và thiết lập lại underhook từ một góc thấp hơn",
+    "Nếu họ ngồi lại: thả underhook và khôi phục về trạng thái trung tính"
+  ]
+}

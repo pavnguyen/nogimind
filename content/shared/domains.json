@@ -1,0 +1,12 @@
+[
+  { "id": "positional_awareness", "name": { "en": "Positional Awareness", "vi": "Nhận thức vị trí", "fr": "Conscience positionnelle" }, "order": 1, "color": "slate" },
+  { "id": "survival_defense", "name": { "en": "Survival & Defense", "vi": "Sống sót & Phòng thủ", "fr": "Survie & Défense" }, "order": 2, "color": "red" },
+  { "id": "escapes", "name": { "en": "Escapes", "vi": "Thoát hiểm", "fr": "Sorties" }, "order": 3, "color": "orange" },
+  { "id": "guard_retention", "name": { "en": "Guard Retention", "vi": "Giữ guard", "fr": "Rétention de garde" }, "order": 4, "color": "yellow" },
+  { "id": "guard_offense", "name": { "en": "Guard Offense", "vi": "Tấn công từ guard", "fr": "Attaque en garde" }, "order": 5, "color": "lime" },
+  { "id": "wrestle_up_wrestling", "name": { "en": "Wrestle Up & Wrestling", "vi": "Wrestle Up & Wrestling", "fr": "Wrestle Up & Lutte" }, "order": 6, "color": "green" },
+  { "id": "passing", "name": { "en": "Passing", "vi": "Vượt guard", "fr": "Passage de garde" }, "order": 7, "color": "emerald" },
+  { "id": "pins_rides", "name": { "en": "Pins & Rides", "vi": "Ghim & Khống chế", "fr": "Pins & Rides" }, "order": 8, "color": "teal" },
+  { "id": "back_control", "name": { "en": "Back Control", "vi": "Kiểm soát lưng", "fr": "Contrôle du dos" }, "order": 9, "color": "cyan" },
+  { "id": "submission_systems", "name": { "en": "Submission Systems", "vi": "Hệ thống submission", "fr": "Systèmes de soumission" }, "order": 10, "color": "violet" }
+]

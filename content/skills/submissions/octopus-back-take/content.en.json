@@ -1,0 +1,61 @@
+{
+  "id": "octopus-back-take",
+  "locale": "en",
+  "name": "Octopus Back Take",
+  "description": "Use the octopus guard hip angle to expose the back when the opponent posts against the sweep — transitioning from a failed sweep into back control.",
+  "shortInstruction": "They post against the sweep? Spin under and take the back — their defense becomes your entry.",
+  "summary": "The octopus back take is the highest percentage follow-up to the octopus guard sweep. When you attempt the octopus sweep (pulling their far hip across your body), many opponents will respond by posting a hand or stepping to defend. This reaction creates the exact angle you need to spin under their arm, circle behind them, and take the back. The octopus back take transforms a defended sweep into the most dominant position in BJJ.",
+  "whyItWorks": [
+    "When they post a hand to defend the sweep, that arm is committed and cannot block your spin entry.",
+    "The octopus guard already has you at the perfect angle for the back take — you are already sitting to their side.",
+    "The far hip wrap gives you the pivot point for the spin — you rotate around their center of gravity.",
+    "Danaher principle: the sweep and back take form a dilemma — defend the sweep, lose the back; defend the back, lose the sweep."
+  ],
+  "commonMistakes": [
+    "Spinning before they post — you need their post to clear your path to the back.",
+    "Losing the far hip wrap during the spin — the wrap is your steering wheel for the back take.",
+    "Spinning the wrong direction — you spin under their posted arm, not around their body.",
+    "Not securing the seatbelt quickly enough after the spin — they will turn to face you."
+  ],
+  "coachingCues": [
+    "Sweep bait, post reaction, spin under, back taken.",
+    "Their post is your entry — if they don't post, you sweep.",
+    "Spin under the arm, not around the body.",
+    "Seatbelt first, hooks second — don't rush the sequence."
+  ],
+  "safetySummary": [
+    "Keep your head protected during the spin — your head goes under their armpit, not into their elbow.",
+    "Do not spin if they have a grip on your collar or neck — strip the grip first.",
+    "When landing on the back, protect your own knees from landing awkwardly."
+  ],
+  "keyCorrections": [
+    "If you can't take the back, your far hip wrap is too loose — tighten the wrap before spinning.",
+    "If they face you during the spin, you spun too wide — keep the spin tight to their body.",
+    "If they sprawl on the spin, you spun too early — wait for them to fully commit the post."
+  ],
+  "systemLogic": {
+    "corePrinciple": "Octopus guard: sweep attempt → opponent posts → spin under their arm → take the back → seatbelt → hooks → attack.",
+    "decisionTree": [
+      {
+        "condition": "The octopus back take works in one movement: sweep post",
+        "action": "spin → back."
+      },
+      {
+        "condition": "they don't post (defend the sweep by sitting back)",
+        "action": "continue with the sweep — the back take is only when they post."
+      }
+    ]
+  },
+  "moneyDetails": [
+    "The far hip wrap must be maintained throughout the spin — it is your control point.",
+    "Spin under their posted arm — your head should pass under their armpit, not around their body.",
+    "As you spin, release the leg control and re-establish with your hooks behind their thighs.",
+    "Once behind, lock the seatbelt immediately — seatbelt before hooks."
+  ],
+  "nextStep": "After the octopus back take, learn back control and the back attack system.",
+  "fixItFast": [
+    "Can't spin under? Your far hip wrap is too loose — tighten it.",
+    "They face you? Spin tighter to their body — your path is too wide.",
+    "They sprawl? You spun too early — wait for the full post commitment."
+  ]
+}

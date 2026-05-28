@@ -1,0 +1,49 @@
+{
+  "id": "back-escape",
+  "domain": "escapes",
+  "level": "intermediate",
+  "name": "Back Escape",
+  "aliases": [],
+  "tags": [
+    "escape",
+    "back"
+  ],
+  "keywords": [
+    "back control",
+    "hand fighting",
+    "shoulder line",
+    "inside position"
+  ],
+  "relatedSkills": [
+    {
+      "id": "back-control",
+      "type": "recommended"
+    },
+    {
+      "id": "rear-naked-choke-system",
+      "type": "recommended"
+    },
+    {
+      "id": "scramble-control",
+      "type": "recommended"
+    }
+  ],
+  "prerequisiteSkillIds": [
+    "back-survival"
+  ],
+  "relatedPositions": [],
+  "relatedConcepts": [],
+  "archetypeIds": [],
+  "trainingMethodIds": [],
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": true,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "contentRefs": {
+    "videos": "videos.json",
+    "qualityChecklist": "qualityChecklist"
+  },
+  "updatedAt": "2026-05-21T00:24:30.751Z"
+}

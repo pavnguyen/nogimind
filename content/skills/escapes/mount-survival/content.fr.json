@@ -1,0 +1,72 @@
+{
+  "id": "mount-survival",
+  "locale": "fr",
+  "name": "mount Survie",
+  "description": "Protégez le cou, les coudes et les hanches lorsque l'adversaire mounts et commence à séparer vos bras. La survie dans mount est une course contre la montre : plus ils s'installent longtemps, plus la fuite est difficile.",
+  "shortInstruction": "Gardez les coudes serrés contre les côtes, le cadre sur les hanches, le pont pour déséquilibrer avant qu'ils ne s'installent et ne les laissez jamais isoler vos bras au-dessus de votre tête.",
+  "summary": "La survie de mount nécessite d'empêcher l'adversaire d'établir un mount élevé en gérant trois voies d'attaque : la voie d'isolement des bras (coudes évasés = armbar ou attaques d'épaule), la voie du cou (coudes hauts = étranglement du col ou crossface) et la voie des hanches (genoux hauts = progression élevée de mount). La survie est active et non passive : de petits ajustements et des bosses au bon moment empêchent l'adversaire de régler son poids.",
+  "whyItWorks": [
+    "Garder les coudes serrés contre les côtes empêche l'adversaire de traîner vos bras au-dessus de votre tête pendant armbar entrées.",
+    "De petits ponts (bosses) bien synchronisés empêchent l'adversaire de déposer tout son poids, l'obligeant constamment à réajuster sa base.",
+    "Un cadre d'avant-bras sur les hanches empêche l'adversaire de glisser ses genoux vers vos aisselles (progression élevée de mount)",
+    "Protéger le cou avec une défense croisée des bras (avant-bras croisés sur le visage/le cou) permet de gagner du temps contre les étranglements de collier et les crossfaces"
+  ],
+  "commonMistakes": [
+    "Laisser l'adversaire épingler vos bras sur le tapis au-dessus de votre tête - c'est le pré-requis pour chaque mount armbar",
+    "Permettre aux genoux de l'adversaire de glisser au-delà de la ligne de vos hanches (haut mount) - à partir de là, leur poids coince vos épaules",
+    "Cadre sur la poitrine plutôt que sur les hanches : un cadre de poitrine s'effondre facilement et n'empêche pas une progression élevée de mount",
+    "Pontage explosif sans recadrage : vous gaspillez de l'énergie et restez dans la même position"
+  ],
+  "coachingCues": [
+    "Des coudes aux côtes, toujours",
+    "Monture sur les hanches, pas sur la poitrine",
+    "Bump avant qu'ils ne s'installent",
+    "Genoux sous la ligne des hanches"
+  ],
+  "safetySummary": [
+    "Les mount armbar peuvent provoquer une hyperextension ou une luxation du coude : appuyez au moment où le bras est complètement étendu.",
+    "Si vous sentez que votre bras est isolé au-dessus de votre tête, tapotez avant qu'il ne puisse étendre le coude.",
+    "Ne faites pas de pont de manière explosive si vous sentez que l'adversaire a déjà isolé votre bras - cela peut provoquer des blessures à l'épaule ou au coude.",
+    "La pression de crossface de mount peut fatiguer le cou ; tournez toujours la tête vers le tapis lorsque la pression apparaît."
+  ],
+  "systemLogic": {
+    "corePrinciple": "La survie de mount suit un système de défense à trois voies d'attaque : protégez la voie des bras (coudes aux côtes), la voie des hanches (genoux sous les aisselles) et la voie du cou (cadre de l'avant-bras). La survie active avec de petites bosses les empêche de régler leur poids.",
+    "decisionTree": [
+      {
+        "condition": "L'adversaire saisit votre manche et tire pour isoler votre bras",
+        "action": "Faites pivoter votre bras en tirant (ne résistez pas) et frappez à nouveau vers votre poitrine. Si le bras reste coincé au-dessus de votre tête, l'entrée armbar est définie."
+      },
+      {
+        "condition": "Les genoux de l'adversaire glissent au-delà de la ligne de vos hanches",
+        "action": "Placez les deux avant-bras sur les os de la hanche et soulevez vos hanches chaque fois qu'ils essaient de glisser vers l'avant. Un mount élevé (genoux aux aisselles) rend la fuite exponentiellement plus difficile."
+      },
+      {
+        "condition": "L'adversaire se redresse pour attaquer le cou",
+        "action": "Croisez vos avant-bras sur votre visage/cou dans une coque défensive. Gardez les bras connectés à votre torse – les bras évasés exposent le armbar."
+      },
+      {
+        "condition": "L'adversaire met vos jambes en vigne",
+        "action": "Pontez d'un côté, emprisonnez leur jambe la plus proche avec votre pied et faites-les rouler. Ne les laissez pas coincer vos deux jambes – cela verrouille vos hanches et empêche la fuite."
+      },
+      {
+        "condition": "L’adversaire pèse tout son poids",
+        "action": "De petites bosses toutes les 2-3 secondes les empêchent de se déposer. Au moment où ils s’installent complètement, la fuite devient exponentiellement plus difficile. Bump avant qu’ils ne publient large."
+      }
+    ],
+    "exitStrategies": [
+      "S'ils atteignent un mount élevé (genoux aux aisselles), faites un pont fort d'un côté, emprisonnez leur pied le plus éloigné avec votre main et faites-les rouler en récupération guard.",
+      "Si le bras est déjà isolé au-dessus de votre tête, tapotez avant qu’il puisse hyperétendre le coude – ne faites pas de pont avec un bras isolé.",
+      "Si la survie de mount échoue, donnez la priorité à la défense de la voie des bras : garder les coudes serrés empêche l'attaque la plus dangereuse (armbar)."
+    ]
+  },
+  "moneyDetails": [
+    "La survie à mount est une compétence à fort effet de levier : survivre 10 secondes dans mount oblige souvent l'adversaire à s'engager trop et à perdre sa position.",
+    "Une approche de survie calme dans mount est plus intimidante pour les adversaires que des évasions explosives, car elle montre son sang-froid sous la pression.",
+    "Compétition Les évasions mount valent un point – survivre à mount et s'échapper vers half guard ou guard est un changement psychologique massif"
+  ],
+  "fixItFast": [
+    "S'ils ont déjà un mount haut (genoux aux aisselles) : faites un pont fort d'un côté, emprisonnez leur pied le plus éloigné avec votre main et faites-les rouler en récupération guard.",
+    "S'ils vous harcèlent : heurtez-vous immédiatement du côté le plus fort, coincez une jambe entre la vôtre et franchissez l'autre direction pour vous échapper.",
+    "S'ils se redressent pour attaquer un étranglement par le collier : amenez vos avant-bras vers votre visage/cou, gardez les coudes baissés et frappez-les pour les déséquilibrer pendant qu'ils soulèvent leur poids."
+  ]
+}

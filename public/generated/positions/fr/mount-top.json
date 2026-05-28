@@ -1,0 +1,56 @@
+{
+  "id": "mount-top",
+  "locale": "fr",
+  "title": "Mount dessus",
+  "category": "pin",
+  "status": "dominant",
+  "description": "Le joueur du dessus est assis sur les hanches ou la poitrine adverse, sépare les coudes et ouvre la high mount ou les soumissions.",
+  "topPlayerGoals": [
+    "Le joueur du dessus veut contrôler Mount dessus avec la position de tête, la position intérieure et une pression orientée.",
+    "Stabiliser les hanches, séparer les coudes et créer un étranglement ou une isolation du bras.",
+    "Garder une base stable pour éviter d’être déséquilibré ou contré."
+  ],
+  "bottomPlayerGoals": [
+    "Le joueur du dessous veut survivre en Mount dessus avec des cadres, du pummeling ou le bon angle.",
+    "Garder la connexion coude-genou, protéger le cou et faire un bridge ou une sortie knee-elbow.",
+    "Reconnaître les signaux de danger tôt au lieu d’attendre que la position se stabilise."
+  ],
+  "controlPoints": [
+    "Point de contrôle principal : Serrage des genoux, poids des hanches et hand fighting..",
+    "La tête, les mains, les hanches et les genoux doivent suivre la même direction de force.",
+    "La connexion coude-genou ou la ligne hanches-épaules détermine si la position reste vivante ou verrouillée."
+  ],
+  "escapePriorities": [
+    "Priorité de sortie : Protéger le cou avant de bridger fort..",
+    "Protéger le cou, le dos, la ligne du genou ou la ligne du bras avant de contrer.",
+    "Si la position intérieure est perdue, rétablir d’abord une couche défensive."
+  ],
+  "advancementOptions": [
+    {
+      "action": "Isoler un arm triangle ou monter en high mount",
+      "nextPositionId": "arm-triangle-threat",
+      "relatedSkillIds": [
+        "mount-control",
+        "mount-escape",
+        "arm-triangle-mount"
+      ],
+      "why": "C’est la branche naturelle lorsque vous gagnez le point de contrôle principal et que l’adversaire est forcé de défendre."
+    }
+  ],
+  "dangerSignals": [
+    "Le menton ou le cou sort de la ligne sûre.",
+    "Le coude se sépare des côtes ou du genou.",
+    "La ligne des hanches est verrouillée pendant que la ligne des épaules est encore tirée.",
+    "Vous devez poser une main loin pour éviter de tomber."
+  ],
+  "relatedSkillIds": [
+    "mount-control",
+    "mount-escape",
+    "arm-triangle-mount"
+  ],
+  "relatedConceptIds": [
+    "control-before-submission",
+    "elbow-knee-connection",
+    "pressure-direction"
+  ]
+}

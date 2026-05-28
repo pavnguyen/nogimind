@@ -1,0 +1,68 @@
+{
+  "id": "back-survival",
+  "locale": "en",
+  "name": "Back Survival",
+  "description": "Prioritize neck protection and hand fighting when the opponent has seatbelt or hooks. The goal is to survive long enough to create space for a full back escape.",
+  "shortInstruction": "Chin tucked, both hands on the choking arm, protect the neck before clearing hooks, and never turn away from the opponent.",
+  "summary": "Back survival is a holding action: protect the neck, prevent the choke from sinking, and manage your breathing while setting up the escape sequence. The priority is always the choking hand, then the body triangle, then the hooks.",
+  "whyItWorks": [
+    "The rear-naked choke is the highest percentage submission from back control — preventing it from locking is your first survival priority",
+    "Keeping your chin tucked closes the space between your jaw and shoulder, making it harder for the choking arm to reach the carotid arteries",
+    "Both hands on the choking arm buys you time — even if they have the seatbelt, you can prevent the finish by controlling the grip",
+    "The body triangle is uncomfortable but survivable — do not waste energy fighting it until the choke threat is neutralized"
+  ],
+  "commonMistakes": [
+    "Turning your head away from the choking arm (exposing the other side of the neck) instead of keeping your chin to the chest",
+    "Fighting the body triangle while the choke is setting up — you can survive the triangle but not the choke",
+    "Wasting both arms trying to pry the seatbelt off instead of keeping one hand on the choking arm at all times",
+    "Panicking and exploding wildly — this burns energy and often sinks the choke deeper"
+  ],
+  "coachingCues": [
+    "Chin down, hands up",
+    "Choking arm first, hooks second",
+    "Breathe slow, move deliberate"
+  ],
+  "safetySummary": [
+    "The rear-naked choke can cause unconsciousness in 4-8 seconds if fully locked — tap early and reset",
+    "Do not let pride prevent you from tapping — multiple RNC losses in training build better escapes than fighting every one to the brink",
+    "If you feel the jaw line opening (the choking arm sliding under the chin), it is time to allocate 100% of your defense to the hand fight",
+    "Communicate with your training partner — a tap is a learning signal, not a failure"
+  ],
+  
+  "systemLogic": {
+    "corePrinciple": "Back survival follows a strict hierarchy: protect the neck first, then control the choking arm, manage breathing, and only then set up the escape. Each layer prepares the next — skipping layers exposes you to immediate finishing.",
+    "decisionTree": [
+      {
+        "condition": "Opponent has seatbelt grip but no choke locked",
+        "action": "Keep chin tucked, both hands on their choking forearm, and bridge to prevent them from settling the choke."
+      },
+      {
+        "condition": "Opponent has body triangle locked but no choke",
+        "action": "Focus on breathing and hand position — the body triangle is survivable. Do not waste energy fighting the legs until the choke threat is neutralized."
+      },
+      {
+        "condition": "Opponent switches to an armbar attempt",
+        "action": "Keep elbows pinned to your ribs and do not let them straighten your arm. Pummel your elbow back to your body if they isolate it."
+      },
+      {
+        "condition": "Opponent rolls you belly-down from the back",
+        "action": "Protect your neck immediately with both hands, spread your base, and prepare for the wrestling stand-up."
+      }
+    ],
+    "exitStrategies": [
+      "If you feel the jaw line opening (choking arm sliding under the chin), allocate 100% of defense to the hand fight — grip their forearm with both hands and pull it toward your chest.",
+      "If the choke is already locked on one side, tap immediately — do not wait for a better defensive position.",
+      "Once the choke threat is neutralized, begin the back escape sequence: hand fight → clear hooks → turn in → recover guard."
+    ]
+  },
+  "moneyDetails": [
+    "Back survival is the most important defensive skill in BJJ — every grappler will spend time on the back, and knowing how to survive is the first step to escaping",
+    "Surviving on the back for 30 seconds is a win in competition — it denies the opponent the opportunity to work for the finish",
+    "A calm, systematic survival approach preserves the energy needed for the escape sequence that follows"
+  ],
+  "fixItFast": [
+    "If they already have the choke locked on one side: tap immediately — do not wait for a better defensive position",
+    "If they are working to seatbelt but have not locked the choke yet: keep your chin tucked and pummel your near arm across your chest to block their grip",
+    "If they roll you belly-down from the back: protect your neck immediately with both hands, spread your base, and prepare for the wrestling stand-up"
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "id": "tarikoplata",
+  "domain": "submission_systems",
+  "level": "advanced",
+  "status": "draft",
+  "name": "Tarikoplata",
+  "aliases": [],
+  "tags": [
+    "tarikoplata",
+    "shoulder-lock",
+    "kimura",
+    "tier:modern-expansion",
+    "meta:modern-common",
+    "risk:high",
+    "family:submission",
+    "group:clamp-guard",
+    "modern-no-gi"
+  ],
+  "keywords": [
+    "tarikoplata",
+    "shoulder lock",
+    "kimura line"
+  ],
+  "modernSystemGroup": "clamp_guard",
+  "relatedSkills": [
+    {
+      "id": "choi-bar",
+      "type": "recommended"
+    },
+    {
+      "id": "kimura-system",
+      "type": "recommended"
+    },
+    {
+      "id": "clamp-guard-control",
+      "type": "recommended"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "kimura-system",
+    "clamp-guard-control"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [
+    "S'ils libèrent leur bras, le contrôle de votre poignet était trop faible – saisissez-le à nouveau avec une prise plus forte.",
+    "Si vous ne parvenez pas à terminer, c'est que votre jambe ne contrôle pas son épaule : ajustez votre jambe pour coincer la ligne de l'épaule.",
+    "S'ils vous empilent, relâchez et réinitialisez – ne combattez pas la pile."
+  ],
+  "version": 1,
+  "updatedAt": "2026-05-21T00:24:30.777Z",
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "fr",
+  "description": "Un verrou d'épaule qui transforme le omoplata standard et la pince en un verrou d'épaule de finition lorsque la ligne du poignet et du coude est contrôlée – en utilisant la jambe pour appliquer une pression de rotation sur l'épaule.",
+  "shortInstruction": "Emprisonnez le bras, amenez votre jambe par-dessus l'épaule, contrôlez le poignet, faites pivoter — le tarikoplata est un verrou d'épaule assisté par la jambe avec une mécanique de type kimura.",
+  "summary": "Le tarikoplata (du nom de Tarsis Humphreys) est un verrou d'épaule hybride qui combine des éléments du omoplata et du kimura. Contrairement au omoplata (qui fait pivoter l'épaule en soulevant le bras de l'adversaire), le tarikoplata épingle son bras sur son propre corps et utilise votre jambe pour créer la rotation. Le résultat est un verrouillage d'épaule plus serré que le omoplata et provenant d'un angle que le kimura ne peut pas atteindre. Il est le plus souvent saisi à partir des positions de serrage ou de resserrement des épaules.",
+  "whyItWorks": [
+    "Épingler leur bras contre leur propre corps les empêche de se redresser et de s'échapper – un avantage clé par rapport au omoplata.",
+    "La rotation assistée par les jambes génère plus de couple qu'une poignée kimura standard.",
+    "Il attaque l’épaule sous un angle auquel la plupart des adversaires ne s’attendent pas.",
+    "Principe de Danaher : le tarikoplata résout le problème de l'adversaire qui retire son bras du omoplata."
+  ],
+  "commonMistakes": [
+    "Ne pas contrôler le poignet avant de ramener la jambe - ils libéreront le bras.",
+    "Amener la jambe trop tôt – établissez d’abord le piège du bras.",
+    "Laisser leur coude s'échapper derrière leur corps – le coude doit rester devant pour que la rotation fonctionne.",
+    "En utilisant uniquement la force des jambes pour terminer, combinez la rotation des jambes avec la traction du haut du corps."
+  ],
+  "coachingCues": [
+    "Le poignet en premier, la jambe en second, tournez ensemble.",
+    "Épinglez le bras, possédez l’épaule.",
+    "S'ils défendent le omoplata, frappez le tarikoplata.",
+    "La jambe tourne, le bras tire, l’épaule se soumet."
+  ],
+  "safetySummary": [
+    "Le tarikoplata applique une pression de rotation sur l'épaule – appliquez progressivement et respectez le robinet.",
+    "Ne tournez pas l’épaule si l’adversaire a des problèmes d’épaule préexistants.",
+    "Gardez le contrôle de leur posture tout au long pour éviter qu’ils ne tombent sur votre jambe."
+  ],
+  "systemLogic": {
+    "corePrinciple": "Position Clamp ou omoplata : contrôlez son poignet → amenez votre jambe sur son bras → épinglez le bras sur son corps → faites pivoter vos hanches → terminez.",
+    "decisionTree": [
+      {
+        "condition": "Les chaînes tarikoplata avec le omoplata : omoplata",
+        "action": "tarikoplata → kimura — une chaîne complète d'attaque d'épaule."
+      },
+      {
+        "condition": "ils défendent la tarikoplata en roulant",
+        "action": "transition vers la prise en arrière."
+      }
+    ],
+    "exitStrategies": []
+  },
+  "moneyDetails": [
+    "Contrôlez son poignet avec une forte prise : quatre doigts sur son poignet, le pouce du côté de la paume.",
+    "Amenez votre jambe supérieure sur son bras et coincez-la contre son propre corps – le bras doit être épinglé et non libre.",
+    "Éloignez vos hanches d'eux pendant que vous tirez leur poignet vers vous - la combinaison crée le verrouillage de l'épaule.",
+    "Gardez votre jambe libre sur sa hanche pour contrôler sa posture et l'empêcher de s'asseoir."
+  ],
+  "nextStep": "Après le tarikoplata, apprenez le système omoplata et le système kimura.",
+  "fixItFast": [
+    "Le bras continue de s'échapper ? Votre contrôle du poignet est trop lâche – saisissez-le à nouveau avec plus de pression.",
+    "Vous ne pouvez pas tourner ? La position de vos jambes est incorrecte : ajustez-la pour que votre jambe contrôle son épaule et non son bras.",
+    "Ils vous empilent ? Relâchez et réinitialisez à guard."
+  ]
+}

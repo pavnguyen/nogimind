@@ -1,0 +1,51 @@
+{
+  "id": "de-la-riva-sweeps",
+  "domain": "guard_offense",
+  "level": "intermediate",
+  "name": "De La Riva Sweeps",
+  "aliases": [],
+  "tags": [
+    "de-la-riva",
+    "guard",
+    "sweep"
+  ],
+  "keywords": [
+    "de la riva",
+    "sweep",
+    "off-balance",
+    "X-guard",
+    "single leg X"
+  ],
+  "relatedSkills": [
+    {
+      "id": "x-guard-control",
+      "type": "recommended"
+    },
+    {
+      "id": "single-leg-x-control",
+      "type": "recommended"
+    },
+    {
+      "id": "de-la-riva-back-take",
+      "type": "recommended"
+    }
+  ],
+  "prerequisiteSkillIds": [
+    "guard-pulling-strategy",
+    "seated-guard-retention"
+  ],
+  "relatedPositions": [],
+  "relatedConcepts": [],
+  "archetypeIds": [],
+  "trainingMethodIds": [],
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "updatedAt": "2026-05-21T00:24:30.747Z"
+}

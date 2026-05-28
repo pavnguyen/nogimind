@@ -1,0 +1,124 @@
+{
+  "id": "technical-stand-up",
+  "domain": "wrestle_up_wrestling",
+  "level": "beginner",
+  "status": "draft",
+  "name": "Stand-up technique",
+  "aliases": [],
+  "tags": [
+    "wrestling",
+    "base"
+  ],
+  "keywords": [
+    "technical stand-up",
+    "base",
+    "head position",
+    "hand fighting"
+  ],
+  "relatedSkills": [
+    {
+      "id": "hand-fighting",
+      "type": "recommended"
+    },
+    {
+      "id": "seated-guard-retention",
+      "type": "recommended"
+    },
+    {
+      "id": "guard-pulling-strategy",
+      "type": "recommended"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "inside-position"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [],
+  "version": 1,
+  "updatedAt": "2026-05-21T00:24:30.759Z",
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "fr",
+  "description": "Levez-vous en toute sécurité depuis une position assise ou couchée sur le dos guard sans nourrir un front headlock. Le stand-up technique est le mouvement fondamental pour s’échapper vers la position debout depuis n’importe quelle position basse.",
+  "shortInstruction": "Posez une main sur le tapis, amenez le pied du même côté vers cette main, passez le pied et la main pour vous lever et gardez l'autre main levée dans un cadre défensif. Faites face à l'adversaire en position debout.",
+  "summary": "Le stand-up technique est un mouvement séquentiel de la position assise ou couchée à la position debout : (1) posez votre main sur le tapis à côté de votre hanche, (2) amenez votre pied du même côté à la rencontre de votre main, (3) passez à travers la main et le pied affichés pour soulever vos hanches, (4) amenez votre autre pied sous vous lorsque vous vous levez, (5) établissez une position défensive face à l'adversaire. Le stand-up technique est essentiel pour la récupération de guard, la fuite de la tortue et la position debout pour passer.",
+  "whyItWorks": [
+    "La base du trépied (une main, un genou, un pied) assure la stabilité tout au long de la séquence de stand-up",
+    "Faire face à l'adversaire lorsque vous êtes debout l'empêche de vous soutenir ou d'attaquer avec un front headlock",
+    "Le stand-up technique utilise les groupes musculaires les plus forts (fessiers, quadriceps, ischio-jambiers) pour soulever le poids de votre corps",
+    "La main levée fournit un cadre défensif contre les mises au sol et les frappes."
+  ],
+  "commonMistakes": [
+    "Afficher les deux mains à plat et essayer de se tenir debout - cela ne laisse aucun bras pour défendre la prise arrière ou front headlock",
+    "Debout, dos à l'adversaire - cela expose le dos pour la prise en arrière la plus simple de sa vie",
+    "Se tenir droit au lieu de rester dans une position de lutte – une posture haute est facile à éliminer",
+    "Amener le pied au genou au lieu de la main – le pied doit rencontrer la main pour un effet de levier approprié"
+  ],
+  "coachingCues": [
+    "Main sur le tapis, pied à la main",
+    "Faites-leur face pendant que vous êtes debout",
+    "Une main en l'air, une main en bas",
+    "Tenez-vous debout, pas grand"
+  ],
+  "safetySummary": [
+    "Ne postez pas avec un bras droit verrouillé – gardez le coude légèrement plié pour éviter l’hyperextension",
+    "Si l'adversaire tire alors que vous êtes debout, soyez prêt à sprawl immédiatement",
+    "Pratiquez le stand-up technique lentement avant de l’utiliser sous pression – se précipiter entraîne une perte d’équilibre"
+  ],
+  "systemLogic": {
+    "corePrinciple": "Le stand-up technique est un mouvement séquentiel de la position assise/couchée à la position debout : Post → Pied → Lift → Base → Stand → Stance. Faire face à l’adversaire tout au long empêche l’exposition arrière et les entrées front headlock.",
+    "decisionTree": [
+      {
+        "condition": "L'adversaire se tient au-dessus de vous lorsque vous êtes assis ou couché",
+        "action": "Exécutez le stand-up technique : placez votre main sur le tapis à côté de votre hanche, amenez le pied du même côté à la rencontre de votre main, traversez les deux pour soulever vos hanches, amenez l'autre pied sous vous et tenez-vous face à eux."
+      },
+      {
+        "condition": "L'adversaire vous repousse lorsque vous commencez à vous lever",
+        "action": "Conduisez plus fort à travers le pied affiché – ne retombez pas sur le tapis. La puissance vient de vos fessiers et de vos quadriceps, pas de vos bras."
+      },
+      {
+        "condition": "L'adversaire essaie de passer pendant que vous êtes debout",
+        "action": "Gardez la main défensive levée et éloignez-vous de leur attaque. La main levée fournit un cadre contre les mises au sol."
+      },
+      {
+        "condition": "L'adversaire effectue un retrait alors que vous êtes debout",
+        "action": "sprawl immédiatement – ​​votre main défensive est déjà prête à être postée sur son dos. Le stand-up technique vous met dans une position de sprawl forte."
+      },
+      {
+        "condition": "Vous continuez à tomber en arrière pendant le stand-up",
+        "action": "Votre pied est trop éloigné de votre main – rapprochez-le (à moins de 2 pouces de la main affichée). La base du trépied nécessite que le pied et la main soient proches."
+      }
+    ],
+    "exitStrategies": [
+      "Si vous ne pouvez pas vous lever, c'est que votre main est trop éloignée de votre corps : rapprochez-la de votre hanche.",
+      "S'ils vous soutiennent lorsque vous vous levez, vous vous êtes détourné d'eux – faites-leur face tout au long de la séquence de stand-up.",
+      "Si le stand-up technique n'est pas possible (l'adversaire vous a coincé les jambes), utilisez plutôt la base de combat ou le granby roll."
+    ]
+  },
+  "moneyDetails": [
+    "Le stand-up technique est l'habileté de mouvement la plus importante dans BJJ - il est utilisé dans chaque guard récupération, évasion de tortue et stand-up marquant.",
+    "Maîtriser le stand-up technique évite la perte de position la plus courante : l'exposition du dos suite à de mauvais stand-ups",
+    "Le stand-up technique est le fondement de tous les systèmes de catch"
+  ],
+  "fixItFast": [
+    "Si vous tombez en arrière : rapprochez le pied de la main avant de soulever",
+    "S'ils vous poussent vers le bas : conduisez plus fort avec le pied, ne retombez pas sur le tapis.",
+    "S'ils essaient de passer alors que vous êtes debout : gardez la main défensive levée et éloignez-vous de leur attaque."
+  ]
+}

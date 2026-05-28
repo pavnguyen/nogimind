@@ -1,0 +1,65 @@
+{
+  "id": "positional-rolling",
+  "locale": "en",
+  "title": "Positional Rolling",
+  "category": "training",
+  "level": "fundamental",
+  "tags": [
+    "positional rolling",
+    "training",
+    "constraints"
+  ],
+  "shortDefinition": "Positional rolling starts in a specific situation with clear win and reset conditions.",
+  "whyItMatters": "It turns knowledge into timing through repetitions that open rolling rarely gives enough of.",
+  "deepExplanation": "You can spar side-control escape, back retention, bodylock pass, or front-headlock defense. The key is limiting goals so feedback is clear: pass or recover, finish or escape.",
+  "beginnerView": "Start in the position you need to fix instead of waiting for it in live rolling.",
+  "advancedView": "Use small constraints to test one technical cue instead of winning the whole round.",
+  "ifThenExamples": [
+    {
+      "if": "If you lose Positional Rolling during the exchange.",
+      "then": "Stop accelerating, recover the nearest body structure, then continue the technique.",
+      "why": "Modern no-gi punishes forceful continuation after structure is lost.",
+      "relatedSkillIds": [
+        "side-control-escape",
+        "back-control"
+      ]
+    },
+    {
+      "if": "If the opponent correctly answers your first line.",
+      "then": "Use Positional Rolling to switch to a safer branch instead of forcing the same line.",
+      "why": "A good concept turns the opponent’s reaction into information for the next decision.",
+      "relatedSkillIds": [
+        "back-control",
+        "bodylock-passing",
+        "front-headlock-defense"
+      ]
+    }
+  ],
+  "commonMisunderstandings": [
+    {
+      "misunderstanding": "Positional Rolling is a single technical trick.",
+      "correction": "Treat it as a decision rule that appears across many positions."
+    },
+    {
+      "misunderstanding": "Understanding the concept automatically makes it work live.",
+      "correction": "The concept needs body signals, short cues, and positional rolling."
+    }
+  ],
+  "trainingCues": [
+    "Name Positional Rolling before adding force.",
+    "Find the body signal instead of guessing generally.",
+    "If structure is lost, reset one layer first.",
+    "Drill slowly, then test with progressive resistance."
+  ],
+  "relatedSkillIds": [
+    "side-control-escape",
+    "back-control",
+    "bodylock-passing",
+    "front-headlock-defense"
+  ],
+  "relatedConceptIds": [
+    "deliberate-practice",
+    "failure-response",
+    "positional-hierarchy"
+  ]
+}

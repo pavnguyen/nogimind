@@ -1,0 +1,123 @@
+{
+  "id": "false-reap-entry",
+  "domain": "guard_offense",
+  "level": "advanced",
+  "status": "draft",
+  "name": "Fausse entrée de récolte",
+  "aliases": [],
+  "tags": [
+    "false-reap",
+    "leg-lock",
+    "knee-safety",
+    "tier:safety-critical",
+    "meta:modern-common",
+    "risk:safety-critical",
+    "family:leg-lock",
+    "group:false-reap",
+    "modern-no-gi"
+  ],
+  "keywords": [
+    "false reap",
+    "knee line",
+    "backside entry"
+  ],
+  "modernSystemGroup": "false_reap",
+  "relatedSkills": [
+    {
+      "id": "k-guard-matrix",
+      "type": "recommended"
+    },
+    {
+      "id": "saddle-inside-sankaku-control",
+      "type": "recommended"
+    },
+    {
+      "id": "heel-hook-safety",
+      "type": "recommended"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "k-guard-entry",
+    "leg-lock-safety-basics",
+    "heel-hook-safety"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [
+    "S'ils partent en tête-à-queue, vous avez perdu le contrôle de la hanche la plus éloignée – remettez votre main sur leur hanche avant de continuer.",
+    "S’ils enjambent votre crochet, votre angle était trop faible – faites pivoter vos hanches plus haut et réaccrochez.",
+    "S’ils vous aplatissent, vous avez perdu le combat à la hanche – frappez votre genou à l’intérieur et revenez à vos côtés."
+  ],
+  "version": 1,
+  "updatedAt": "2026-05-21T00:24:30.778Z",
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "fr",
+  "description": "Utilisez la fausse récolte (récolte de la jambe extérieure) pour créer un angle arrière sur la jambe de l'adversaire tout en maintenant la sécurité de la ligne du genou et la connaissance des règles relatives aux restrictions de récolte.",
+  "shortInstruction": "Crochet de jambe extérieur, sécurité de la ligne du genou, rotation vers l'angle arrière – la fausse récolte est la porte d'entrée vers saddle et les attaques de jambe.",
+  "summary": "La fausse récolte est une entrée No-Gi guard où vous accrochez la jambe proche de l'adversaire de l'extérieur avec votre jambe, plutôt que de l'intérieur. Cela crée un angle arrière sur la ligne de leurs jambes, ouvrant les entrées vers le saddle (inside sankaku), le cross ashi et les prises arrière. Contrairement à la récolte traditionnelle, la fausse récolte ne traverse pas la ligne des genoux de l'adversaire de manière dangereuse, ce qui la rend légale dans la plupart des règles IBJJF tout en vous donnant accès à l'enchevêtrement des jambes.",
+  "whyItWorks": [
+    "Le crochet extérieur sur sa jambe contrôle la rotation de sa hanche et l'empêche de sortir de votre guard.",
+    "L’angle arrière coupe leur base de ce côté – ils ne peuvent pas simplement reculer pour s’échapper.",
+    "La fausse récolte est IBJJF-légale car le pied ne traverse pas la ligne médiane de l'adversaire au niveau du genou.",
+    "Principe de Danaher : contrôlez la hanche pour contrôler la jambe – la fausse récolte vous donne les deux."
+  ],
+  "commonMistakes": [
+    "Laisser votre jambe accrochée glisser vers l’intérieur de sa jambe – cela en fait une récolte et peut être illégal en compétition.",
+    "Si vous ne contrôlez pas leur hanche éloignée avec votre main, ils sortiront de la fausse récolte.",
+    "Aller à une fausse récolte sans tenir leur manche ou leur poignet – ils peuvent poster et se baser.",
+    "Rester à plat sur le dos – la fausse récolte vous oblige à rouler sur le côté pour un bon alignement des hanches."
+  ],
+  "coachingCues": [
+    "Restez de votre côté, gardez le crochet profond.",
+    "Contrôlez la hanche, récoltez l'angle.",
+    "Sûr au niveau des genoux, fier des règles.",
+    "Faites pivoter vos hanches vers le plafond – l’angle crée l’entrée."
+  ],
+  "safetySummary": [
+    "Gardez votre pied accrocheur à l’extérieur de sa jambe à tout moment – ​​si votre pied traverse sa ligne médiane, vous récoltez.",
+    "N'appliquez pas de pression de rotation sur le genou de l'adversaire en cas de fausse récolte - terminez uniquement lorsque vous maîtrisez parfaitement l'enchevêtrement des jambes.",
+    "Soyez conscient des règles IBJJF sur la récolte : la fausse récolte est légale, mais il est facile de passer accidentellement à une récolte."
+  ],
+  "systemLogic": {
+    "corePrinciple": "Faux crochet de récolte à l'extérieur de la jambe : contrôlez la hanche éloignée → faites pivoter vers l'angle arrière → entrez saddle, croisez l'ashi ou prenez en arrière.",
+    "decisionTree": [
+      {
+        "condition": "Utilisation de l'option 1",
+        "action": "Ils s'avancent → entrez saddle (inside sankaku). Option 2 : Ils reculent → prennent du recul."
+      },
+      {
+        "condition": "Utilisation de l'option 3",
+        "action": "Ils postent une main → attaquent le kimura ou entrent en traînée de jambe."
+      }
+    ],
+    "exitStrategies": []
+  },
+  "moneyDetails": [
+    "Votre jambe d'accrochage doit s'enrouler autour de sa cuisse, pas de son mollet – le contrôle de la cuisse vous donne un effet de levier sur sa hanche.",
+    "Contrôlez leur hanche éloignée avec votre main – cela les empêche de s’éloigner de la fausse récolte.",
+    "Faites pivoter vos hanches vers le plafond pendant que vous vous accrochez – cela aligne votre colonne vertébrale pour un effet de levier maximal.",
+    "Lorsqu'ils publient leur jambe libre, c'est le moment d'entrer dans saddle – leur base est divisée et vulnérable."
+  ],
+  "nextStep": "Après avoir maîtrisé l'entrée de la fausse récolte, apprenez la fausse récolte jusqu'au pont saddle pour compléter la chaîne d'enchevêtrement des jambes.",
+  "fixItFast": [
+    "Ils s'écartent ? Rétablissez le contrôle de la hanche éloignée avec votre main.",
+    "Le crochet continue de glisser ? Enroulez-le plus haut sur la cuisse, pas sur le mollet.",
+    "Ils vous aplatissent ? Frappez votre genou à l’intérieur et revenez immédiatement à vos côtés."
+  ]
+}

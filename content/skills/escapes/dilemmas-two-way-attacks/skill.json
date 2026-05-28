@@ -1,0 +1,49 @@
+{
+  "id": "dilemmas-two-way-attacks",
+  "domain": "positional_awareness",
+  "level": "intermediate",
+  "name": "Dilemmas and Two-Way Attacks",
+  "aliases": [],
+  "tags": [
+    "decision-making",
+    "offense"
+  ],
+  "keywords": [
+    "dilemma",
+    "two-way attack",
+    "reaction trap",
+    "transition chain"
+  ],
+  "relatedSkills": [
+    {
+      "id": "guillotine-system",
+      "type": "recommended"
+    },
+    {
+      "id": "kimura-system",
+      "type": "recommended"
+    },
+    {
+      "id": "rear-naked-choke-system",
+      "type": "recommended"
+    }
+  ],
+  "prerequisiteSkillIds": [
+    "positional-hierarchy",
+    "inside-position"
+  ],
+  "relatedPositions": [],
+  "relatedConcepts": [],
+  "archetypeIds": [],
+  "trainingMethodIds": [],
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "updatedAt": "2026-05-21T00:24:30.756Z"
+}

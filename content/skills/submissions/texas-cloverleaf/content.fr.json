@@ -1,0 +1,63 @@
+{
+  "id": "texas-cloverleaf",
+  "locale": "fr",
+  "name": "Feuille de trèfle du Texas",
+  "description": "Un heel hook depuis une position de récolte avec une configuration de jambe unique qui crée une pression de rotation directe sur le genou — popularisé dans No-Gi par des spécialistes du verrouillage des jambes.",
+  "shortInstruction": "Récoltez la jambe, contrôlez la jambe éloignée, faites pivoter le talon – le Texas Cloverleaf est un heel hook avec un angle unique par rapport à la position de récolte.",
+  "summary": "Le Texas Cloverleaf est une variante heel hook qui utilise une position de jambe moissonneuse pour attaquer le genou avec une pression de rotation directe. Le nom « feuille de trèfle » vient de la façon dont les pattes s'enroulent les unes autour des autres comme un trèfle à quatre feuilles. Il s'agit d'une soumission spécialisée qui est plus efficace dans des configurations spécifiques d'enchevêtrement de jambes et est souvent utilisée comme attaque surprise depuis des positions où le heel hook standard n'est pas disponible.",
+  "whyItWorks": [
+    "La position de récolte crée un angle unique que la norme heel hook ne couvre pas.",
+    "La configuration des jambes emprisonne la jambe éloignée de l'adversaire, l'empêchant de rouler pour s'échapper.",
+    "Il peut être saisi à partir de positions où le saddle n'est pas disponible.",
+    "Principe de Danaher : chaque attaque de jambe doit avoir une chaîne – le Texas Cloverleaf est la chaîne de la récolte."
+  ],
+  "commonMistakes": [
+    "Appliquer le heel hook avant d'établir complètement l'enchevêtrement des jambes - la position de récolte doit être sécurisée.",
+    "Ne contrôlant pas leur jambe secondaire, ils vont sortir en tête-à-queue.",
+    "Utiliser trop de rotation et trop rapidement – ​​les heel hook depuis les positions de récolte sont particulièrement dangereux.",
+    "Tenter le Texas Cloverleaf sans fondamentaux heel hook solides."
+  ],
+  "coachingCues": [
+    "Récoltez profondément, contrôlez la jambe éloignée, tournez en toute sécurité.",
+    "Le Texas Cloverleaf est une finition spécialisée – maîtrisez d'abord la norme heel hook.",
+    "Si vous ne trouvez pas le talon, ajustez l'angle de récolte.",
+    "Rotation lente, finition maîtrisée."
+  ],
+  "safetySummary": [
+    "Le Texas Cloverleaf applique une force de rotation au genou – c'est une soumission dangereuse.",
+    "N’appliquez JAMAIS cette soumission de manière explosive.",
+    "N'essayez cette soumission qu'avec des partenaires d'entraînement de confiance qui comprennent la mécanique du verrouillage des jambes.",
+    "Appuyez sur TOUT inconfort de rotation du genou – n’attendez pas la douleur.",
+    "Ne convient pas aux débutants – nécessite une compréhension avancée du verrouillage des jambes."
+  ],
+  "keyCorrections": [
+    "Si vous ne trouvez pas le talon, votre angle de récolte est trop faible – ajustez la position de vos jambes.",
+    "S'ils partent en vrille, vous avez perdu le contrôle de la jambe éloignée – rétablissez le contrôle de la jambe secondaire.",
+    "S'ils vous empilent, relâchez et réinitialisez – ne combattez pas la pile depuis cette position."
+  ],
+  "systemLogic": {
+    "corePrinciple": "Enchevêtrement des jambes : position de récolte → contrôler la jambe éloignée → trouver le talon → aligner la rotation → appliquer une pression lente de heel hook.",
+    "decisionTree": [
+      {
+        "condition": "Application générale",
+        "action": "Le Texas Cloverleaf est une variante avancée – elle ne doit être tentée qu'après avoir maîtrisé la norme contenue dans heel hook."
+      },
+      {
+        "condition": "ils défendent le heel hook",
+        "action": "passage à la norme saddle heel hook."
+      }
+    ]
+  },
+  "moneyDetails": [
+    "La jambe moissonneuse doit être dans une position de récolte profonde – votre jambe accroche sa jambe de l'intérieur, en traversant la ligne du genou.",
+    "Contrôlez sa jambe éloignée en la coinçant entre vos jambes ou en saisissant sa cheville.",
+    "Le grip heel hook est standard : une main sur le talon, une main sur les orteils.",
+    "Tournez lentement – ​​la finition concerne une pression contrôlée, pas une vitesse."
+  ],
+  "nextStep": "Après le Texas Cloverleaf, maîtrisez le standard à l'intérieur du heel hook à partir du saddle.",
+  "fixItFast": [
+    "Vous ne trouvez pas le talon ? Ajustez votre angle de récolte.",
+    "Ils s'écartent ? Contrôlez leur jambe éloignée de manière plus agressive.",
+    "Vous ressentez de la résistance ? Relâchez et rentrez – ne forcez pas."
+  ]
+}

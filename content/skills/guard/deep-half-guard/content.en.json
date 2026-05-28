@@ -1,0 +1,61 @@
+{
+  "id": "deep-half-guard",
+  "locale": "en",
+  "name": "Deep Half Guard",
+  "description": "Get your hips under the opponent's center of mass, control the near leg, and create sweeps (waiter, back take, or sweep to top) when the passer overcommits forward.",
+  "shortInstruction": "Hips under hips, head on the far side, control the near leg — deep half is the ultimate bottom position for sweeping.",
+  "summary": "Deep half guard is one of the most powerful sweeping positions in no-gi. By sliding your hips under the opponent's hips and controlling their near leg, you make it nearly impossible for them to apply pressure without giving up their balance. The key difference from regular half guard is that your head goes to the far side (past their hip), giving you access to back takes and sweeps that regular half guard cannot offer.",
+  "whyItWorks": [
+    "Your hips under their hips means they cannot put weight on you without falling over your frame.",
+    "Controlling their near leg (by wrapping it or holding the ankle) removes their ability to base on that side.",
+    "Your head on the far side blocks their crossface and gives you access to their far hip.",
+    "Danaher principle: being underneath is not a disadvantage if you control their base — you sweep from below."
+  ],
+  "commonMistakes": [
+    "Staying with your head on the near side — this gives them the crossface and prevents back takes.",
+    "Fighting for deep half without controlling the near leg — they will simply step out.",
+    "Going to deep half too early (before they commit weight forward) — you need their forward pressure to create the sweep.",
+    "Giving up the underhook — the underhook is critical for coming up on top."
+  ],
+  "coachingCues": [
+    "Head to the far side, hips under hips.",
+    "Control the near leg, own the sweep.",
+    "Feel their weight — if they're light, deep half won't work.",
+    "Underhook or die — without it, you cannot come up."
+  ],
+  "safetySummary": [
+    "Keep your neck protected — head to the far side means your neck is exposed to guillotines if they posture up.",
+    "Do not let them flatten your back — stay on your side to protect your spine.",
+    "If they stack you hard, bail out to a safer position (half guard or turtle) rather than fighting the stack."
+  ],
+  "keyCorrections": [
+    "If they flatten you, you lost the underhook — pummel back to the underhook before trying to sweep.",
+    "If you can't sweep them, their weight is too far back — wait for them to commit forward again.",
+    "If they back out of deep half, follow them with your hips and transition to single-leg X or X-guard."
+  ],
+  "systemLogic": {
+    "corePrinciple": "Half guard → win the underhook → slide head to far side → control near leg → hips under hips → sweep or take the back.",
+    "decisionTree": [
+      {
+        "condition": "Option 1: They resist forward",
+        "action": "waiter sweep. Option 2: They turn away → back take. Option 3: They step over → single-leg X."
+      },
+      {
+        "condition": "Deep half is a transitional position",
+        "action": "you either sweep, take the back, or enter leg entanglements."
+      }
+    ]
+  },
+  "moneyDetails": [
+    "Your head MUST go to the far side — if your head stays on the near side, you're playing regular half guard, not deep half.",
+    "Control their near ankle with your far hand — this prevents them from stepping out and basing.",
+    "Drive your shoulder into their hip to create the space for your sweep — the hip drive creates momentum.",
+    "When they post a hand to prevent the sweep, that arm is vulnerable to a kimura or back take entry."
+  ],
+  "nextStep": "After deep half sweeps, learn the waiter sweep and back take from deep half to complete your bottom half guard system.",
+  "fixItFast": [
+    "You're getting flattened? Pummel your underhook and get to your side immediately.",
+    "Can't sweep? Your hips aren't deep enough — scoot your hips further under theirs.",
+    "They back out? Follow them and transition to single-leg X — don't let them reset the passing distance."
+  ]
+}

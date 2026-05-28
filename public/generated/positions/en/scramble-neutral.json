@@ -1,0 +1,56 @@
+{
+  "id": "scramble-neutral",
+  "locale": "en",
+  "title": "Scramble Neutral",
+  "category": "scramble",
+  "status": "neutral",
+  "description": "A transitional moment where neither player has clear control yet; the priorities are head position, hip control, inside position, and safety.",
+  "topPlayerGoals": [
+    "The top player wants to control Scramble Neutral through head position, inside position, and directed pressure.",
+    "Win the head-and-hip race and move to a ride, pass, or back control.",
+    "Keep a stable base so you are not off-balanced or countered."
+  ],
+  "bottomPlayerGoals": [
+    "The bottom player wants to survive Scramble Neutral with frames, pummeling, or the right angle.",
+    "Avoid exposing the neck, back, or knee line while recovering base.",
+    "Recognize danger signals early instead of waiting for the position to settle."
+  ],
+  "controlPoints": [
+    "Main control point: Head position, hip connection, and inside hands..",
+    "Head, hands, hips, and knees should share the same force direction.",
+    "The elbow-knee connection or hip-shoulder line determines whether the position is still alive or already locked."
+  ],
+  "escapePriorities": [
+    "Escape priority: If unsure, protect the neck, back, and legs, then reset your base..",
+    "Protect the neck, back, knee line, or arm line before countering.",
+    "If inside position is lost, reset one defensive layer first."
+  ],
+  "advancementOptions": [
+    {
+      "action": "Win the head-hip race and settle the position",
+      "nextPositionId": "neutral-standing",
+      "relatedSkillIds": [
+        "scramble-control",
+        "sprawl-go-behind",
+        "mat-return-basics"
+      ],
+      "why": "This is the natural branch when you win the main control point and the opponent is forced to defend."
+    }
+  ],
+  "dangerSignals": [
+    "The chin or neck is pulled out of a safe line.",
+    "The elbow separates from the ribs or knee.",
+    "The hip line is locked while the shoulder line is still being pulled.",
+    "You need a long hand post to avoid falling."
+  ],
+  "relatedSkillIds": [
+    "scramble-control",
+    "sprawl-go-behind",
+    "mat-return-basics"
+  ],
+  "relatedConceptIds": [
+    "positional-hierarchy",
+    "failure-response",
+    "base-balance"
+  ]
+}

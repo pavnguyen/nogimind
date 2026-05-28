@@ -1,0 +1,49 @@
+{
+  "id": "mount-survival",
+  "domain": "survival_defense",
+  "level": "beginner",
+  "name": "Mount Survival",
+  "aliases": [],
+  "tags": [
+    "survival",
+    "mount"
+  ],
+  "keywords": [
+    "mount",
+    "elbow knee connection",
+    "bridge",
+    "inside position"
+  ],
+  "relatedSkills": [
+    {
+      "id": "mount-escape",
+      "type": "recommended"
+    },
+    {
+      "id": "arm-triangle-mount",
+      "type": "recommended"
+    },
+    {
+      "id": "mount-control",
+      "type": "recommended"
+    }
+  ],
+  "prerequisiteSkillIds": [
+    "frames-pummeling"
+  ],
+  "relatedPositions": [],
+  "relatedConcepts": [],
+  "archetypeIds": [],
+  "trainingMethodIds": [],
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": true,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "contentRefs": {
+    "videos": "videos.json",
+    "qualityChecklist": "qualityChecklist"
+  },
+  "updatedAt": "2026-05-21T00:24:30.749Z"
+}

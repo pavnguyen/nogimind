@@ -1,0 +1,57 @@
+{
+  "id": "octopus-guard-control",
+  "domain": "guard_retention",
+  "level": "intermediate",
+  "name": "Octopus Guard Control",
+  "aliases": [],
+  "tags": [
+    "octopus",
+    "guard",
+    "hip-angle",
+    "wrestle-up",
+    "tier:modern-expansion",
+    "meta:modern-common",
+    "risk:medium",
+    "family:guard",
+    "group:octopus",
+    "modern-no-gi"
+  ],
+  "keywords": [
+    "octopus guard",
+    "far hip",
+    "crossface defense"
+  ],
+  "modernSystemGroup": "octopus",
+  "relatedSkills": [
+    {
+      "id": "octopus-guard-sweep",
+      "type": "recommended"
+    },
+    {
+      "id": "octopus-back-take",
+      "type": "recommended"
+    },
+    {
+      "id": "dogfight-knee-tap",
+      "type": "recommended"
+    }
+  ],
+  "prerequisiteSkillIds": [
+    "side-control-escape",
+    "half-guard-wrestle-up"
+  ],
+  "relatedPositions": [],
+  "relatedConcepts": [],
+  "archetypeIds": [],
+  "trainingMethodIds": [],
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "updatedAt": "2026-05-21T00:24:30.774Z"
+}

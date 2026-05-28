@@ -1,0 +1,138 @@
+{
+  "id": "power-half-ride",
+  "domain": "pins_rides",
+  "level": "intermediate",
+  "status": "draft",
+  "name": "Demi-tour de puissance",
+  "aliases": [
+    "power half",
+    "power half nelson ride"
+  ],
+  "tags": [
+    "ride",
+    "power-half",
+    "shoulder-control",
+    "tier:modern-expansion",
+    "meta:modern-common",
+    "risk:medium",
+    "family:ride",
+    "group:power-half",
+    "modern-no-gi"
+  ],
+  "keywords": [
+    "power half",
+    "far arm control",
+    "shoulder pressure",
+    "flatten opponent"
+  ],
+  "modernSystemGroup": "power_half_ride",
+  "relatedSkills": [
+    {
+      "id": "turtle-ride",
+      "type": "recommended"
+    },
+    {
+      "id": "spiral-ride",
+      "type": "recommended"
+    },
+    {
+      "id": "cross-wrist-ride",
+      "type": "recommended"
+    },
+    {
+      "id": "back-control",
+      "type": "recommended"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [
+    "pressure-passer"
+  ],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "turtle-ride",
+    "positional-hierarchy"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [
+    "S'ils continuent de s'asseoir : votre pression thoracique est trop légère – enfoncez votre sternum dans le haut de leur dos.",
+    "S'ils roulent vers vous : relâchez la poignée et prenez le dos",
+    "S’il roule : suivez-le, maintenez la prise et rétablissez la pression thoracique"
+  ],
+  "version": 1,
+  "updatedAt": "2026-06-12T00:00:00.000Z",
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "fr",
+  "description": "Le power half ride utilise une profonde prise croisée sur le bras éloigné combinée à une pression poitrine à poitrine pour aplatir l'adversaire depuis une tortue ou quatre points et exposer le dos.",
+  "shortInstruction": "Passez la main sous le bras le plus proche, saisissez le triceps ou l'épaule éloigné. Enfoncez l'épaule dans le tapis tout en marchant vos hanches vers la tête pour l'aplatir. Passez à back control au fur et à mesure qu'ils s'effondrent.",
+  "summary": "Le demi-tour de puissance aplatit l'adversaire de la tortue en contrôlant le bras éloigné et en exerçant la pression sur l'épaule, créant ainsi une exposition du dos. Les mécanismes clés sont : la prise transversale profonde (atteint sous le bras le plus proche pour contrôler le bras/l'épaule éloigné), la pression de poitrine à poitrine (votre poids traverse votre poitrine jusqu'au haut du dos) et la marche sur les hanches (vos hanches avancent vers leur tête lorsqu'elles s'effondrent). La moitié de puissance est l’un des systèmes de destruction de tortues avec le pourcentage le plus élevé de lutte.",
+  "whyItWorks": [
+    "La poignée croisée sur le bras éloigné vous permet de contrôler le haut de leur corps : ils ne peuvent pas se tenir debout ou s'asseoir.",
+    "La pression de poitrine à poitrine les pousse vers l'avant, leur supprimant la capacité de s'appuyer sur leurs mains.",
+    "Marcher vos hanches vers leur tête les aplatit progressivement – ​​à mesure que vos hanches avancent, leur base s’effondre",
+    "Une fois aplati, le dos est exposé pour une prise de vue nette avec le contrôle seatbelt"
+  ],
+  "commonMistakes": [
+    "Atteindre trop peu profondément le bras éloigné - la prise doit être profonde sur le triceps ou l'épaule, pas sur le coude",
+    "Rester trop haut sur le corps - vos hanches doivent avancer vers leur tête pour créer l'effet d'aplatissement",
+    "Perte de pression thoracique – si votre poitrine se sépare, ils peuvent s'asseoir et s'échapper",
+    "Ne pas passer à back control assez rapidement : une fois à plat, prenez immédiatement le dos"
+  ],
+  "coachingCues": [
+    "Bras éloigné, prise profonde",
+    "Poitrine sur poitrine, marche les hanches",
+    "Épaule au tapis",
+    "Aplatir en premier, revenir en second"
+  ],
+  "safetySummary": [
+    "N'appliquez pas de pression de rotation agressive sur l'épaule - la poignée transversale contrôle, elle n'attaque pas",
+    "Si l'adversaire résiste en adoptant une posture dure, relâchez la prise plutôt que de vous battre dans le cou.",
+    "Faites attention à vos doigts lorsque vous passez la main sous le bras le plus proche : protégez-les."
+  ],
+  "systemLogic": {
+    "corePrinciple": "Le power half ride comporte trois phases : Grip → Aplatir → Back Take",
+    "decisionTree": [
+      {
+        "condition": "En phase 1 (Grip)",
+        "action": "placez-vous à côté de la tortue (perpendiculairement). Passez la main sous le bras le plus proche et saisissez le triceps ou l'épaule éloigné. Votre poitrine doit être reliée au haut du dos"
+      },
+      {
+        "condition": "En phase 2 (aplatir)",
+        "action": "éloignez vos genoux de leur corps (vers leur tête) tout en maintenant la pression thoracique. Au fur et à mesure que vos genoux avancent, leur épaule est enfoncée dans le tapis. Continuez à conduire jusqu'à ce qu'ils soient à plat sur la hanche ou le ventre"
+      },
+      {
+        "condition": "En phase 3 (retour en arrière)",
+        "action": "une fois à plat, relâchez la poignée transversale et remplacez-la par un seatbelt (bras sur l'épaule la plus éloignée, main près de la hanche). Faites glisser votre genou le plus proche dans la ligne de hanche et fixez back control avec des crochets."
+      },
+      {
+        "condition": "la moitié de la puissance tombe en panne (ils sont trop forts)",
+        "action": "passez au tour sur griffes ou au tour en spirale - chaque système attaque la tortue sous un angle différent"
+      }
+    ],
+    "exitStrategies": []
+  },
+  "moneyDetails": [
+    "Le power half ride est l’une des techniques de lutte contre les tortues les plus efficaces : il est simple, fiable et fonctionne à tous les niveaux.",
+    "Maîtriser la moitié de la puissance vous donne une pause tortue incontournable qui ne nécessite pas de force ou de flexibilité exceptionnelle.",
+    "La moitié de puissance vers la prise arrière est une transition de grande valeur qui rapporte 4 points (prise arrière) en IBJJF"
+  ],
+  "fixItFast": [
+    "S'il s'assoit : enfoncez votre poitrine plus fort dans son dos et avancez vos genoux plus loin vers sa tête.",
+    "S'ils roulent vers vous : relâchez la poignée et prenez le dos - ne combattez pas la poignée.",
+    "S'ils roulent : suivez et maintenez l'adhérence - la moitié de puissance fonctionne des deux côtés"
+  ]
+}

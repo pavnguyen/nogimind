@@ -1,0 +1,65 @@
+{
+  "id": "head-position",
+  "locale": "vi",
+  "title": "Vị trí đầu",
+  "category": "mechanical",
+  "level": "fundamental",
+  "tags": [
+    "head position",
+    "neck safety",
+    "wedge"
+  ],
+  "shortDefinition": "Đầu là post, wedge, pressure source và sensor định hướng cho cả spine.",
+  "whyItMatters": "Head position sai làm bạn ăn guillotine, mất underhook, bị shoulder crunch hoặc mất pass angle.",
+  "deepExplanation": "Head position quyết định vai và hông có thể đi đâu. Tai vào ribs có thể hỗ trợ wrestle-up; đầu lệch hip hỗ trợ bodylock pass; đầu cạnh đầu đối thủ giữ back control.",
+  "beginnerView": "Đừng để đầu nổi hoặc nằm giữa hai tay đối thủ.",
+  "advancedView": "Dùng đầu để cắt shoulder line hoặc hip line trước khi dùng tay.",
+  "ifThenExamples": [
+    {
+      "if": "Nếu bạn mất Vị trí đầu trong trao đổi.",
+      "then": "Dừng tăng tốc, lấy lại cấu trúc cơ thể gần nhất rồi mới tiếp tục kỹ thuật.",
+      "why": "No-gi hiện đại phạt rất nhanh khi bạn cố thắng bằng sức sau khi mất cấu trúc.",
+      "relatedSkillIds": [
+        "front-headlock-defense",
+        "bodylock-passing"
+      ]
+    },
+    {
+      "if": "Nếu đối thủ phản ứng đúng với hướng đầu tiên.",
+      "then": "Dùng Vị trí đầu để đổi sang nhánh an toàn hơn thay vì ép cùng một hướng.",
+      "why": "Concept tốt biến phản ứng của đối thủ thành thông tin cho quyết định tiếp theo.",
+      "relatedSkillIds": [
+        "bodylock-passing",
+        "half-guard-wrestle-up",
+        "back-control"
+      ]
+    }
+  ],
+  "commonMisunderstandings": [
+    {
+      "misunderstanding": "Vị trí đầu là một mẹo kỹ thuật riêng lẻ.",
+      "correction": "Hãy xem nó như quy tắc quyết định xuất hiện trong nhiều vị trí khác nhau."
+    },
+    {
+      "misunderstanding": "Bạn chỉ cần hiểu khái niệm là tự động dùng được trong live roll.",
+      "correction": "Khái niệm phải được gắn với body signal, cue ngắn và positional rolling."
+    }
+  ],
+  "trainingCues": [
+    "Gọi tên Vị trí đầu trước khi tăng lực.",
+    "Tìm body signal, không đoán bằng cảm giác chung.",
+    "Nếu mất cấu trúc, reset một layer trước.",
+    "Drill chậm, test bằng resistance tăng dần."
+  ],
+  "relatedSkillIds": [
+    "front-headlock-defense",
+    "bodylock-passing",
+    "half-guard-wrestle-up",
+    "back-control"
+  ],
+  "relatedConceptIds": [
+    "inside-position",
+    "base-balance",
+    "pressure-direction"
+  ]
+}

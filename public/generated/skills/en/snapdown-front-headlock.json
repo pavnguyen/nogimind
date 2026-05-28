@@ -1,0 +1,120 @@
+{
+  "id": "snapdown-front-headlock",
+  "domain": "wrestle_up_wrestling",
+  "level": "intermediate",
+  "status": "draft",
+  "name": "Snapdown to Front Headlock",
+  "aliases": [],
+  "tags": [
+    "front-headlock",
+    "wrestling"
+  ],
+  "keywords": [
+    "snapdown",
+    "front headlock",
+    "chin strap",
+    "go-behind"
+  ],
+  "relatedSkills": [
+    {
+      "id": "guillotine-system",
+      "type": "recommended"
+    },
+    {
+      "id": "sprawl-go-behind",
+      "type": "recommended"
+    },
+    {
+      "id": "back-control",
+      "type": "recommended"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "hand-fighting"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [
+    "If they resist the snapdown: they are too tall — set your stance wider and drop your weight harder",
+    "If they pull out of the front headlock: your arm was not deep enough — reach deeper around their head",
+    "If they take you down during the snap: your stance was too narrow — widen your base before snapping"
+  ],
+  "version": 1,
+  "updatedAt": "2026-05-21T00:24:30.760Z",
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "en",
+  "description": "Break the opponent's posture into a front headlock to threaten go-behind, guillotine, or back take. The snapdown is the primary takedown entry for no-gi grapplers who prefer upper-body attacks over shooting.",
+  "shortInstruction": "From collar tie or overhook, snap the opponent's head down and toward their lead knee. As their head drops, secure the front headlock position (arm around the head, control the far arm or hip). Chain to go-behind, guillotine, or back take.",
+  "summary": "The snapdown converts upper-body control into a takedown by forcing the opponent's head to the mat, then securing the front headlock position. The snapdown works because the head controls the body — a sharp downward force on the neck forces the opponent to catch their weight on their hands, breaking their posture and creating the entry for the front headlock. From the front headlock, you have three branches: go-behind, guillotine, or back take.",
+  "whyItWorks": [
+    "The collar tie or overhook gives you control of the opponent's head — the most important control point in standing grappling",
+    "A sharp snapdown forces the opponent to post their hands on the mat to catch their weight, breaking their stance",
+    "The front headlock position (arm around the head, far arm or hip controlled) is the most dominant upper-body position in no-gi",
+    "The snapdown is safe from all takedown counters — you do not shoot or drop to your knees"
+  ],
+  "commonMistakes": [
+    "Pulling instead of snapping — a snap is sharp and uses body weight drop, a pull is slow and uses arm strength",
+    "Not following the snapdown — after the snap, you must step in and secure the front headlock immediately",
+    "Letting the opponent re-establish posture — maintain pressure on the head throughout",
+    "Snapping from too far away — you must be within arm's reach for the snap to be effective"
+  ],
+  "coachingCues": [
+    "Snap with the body, not the arm",
+    "Follow the snap, secure the headlock",
+    "Never let them posture back up",
+    "Snap → front headlock → chain"
+  ],
+  "safetySummary": [
+    "The snapdown applies force to the neck — snap downward, not sideways, to avoid neck strain",
+    "Do not snap the opponent's head with excessive force — a controlled snap is safer and more effective",
+    "If the opponent drops level suddenly during the snap, protect your own head position to avoid accidental head clashes"
+  ],
+  "systemLogic": {
+    "corePrinciple": "The snapdown system has three phases: Collar Tie → Snap → Front Headlock",
+    "decisionTree": [
+      {
+        "condition": "In Phase 1 (Collar Tie)",
+        "action": "establish the collar tie or overhook. Your forearm should be on the back of their neck. Control their far arm or elbow to prevent them from posting"
+      },
+      {
+        "condition": "In Phase 2 (Snap)",
+        "action": "drop your weight sharply and pull their head down toward their lead knee. The snap should come from your body (dropping your hips), not your arm. Their hands must touch the mat"
+      },
+      {
+        "condition": "In Phase 3 (Front Headlock)",
+        "action": "as their head drops, circle your arm around their head (hand behind their neck) and secure the front headlock position. Your other hand controls their far arm or hip"
+      },
+      {
+        "condition": "General application",
+        "action": "From the front headlock, chain to: guillotine (arm under chin), go-behind (circle behind), or back take (follow their movement)"
+      }
+    ],
+    "exitStrategies": []
+  },
+  "moneyDetails": [
+    "The snapdown is the safest takedown entry in BJJ — no shooting, no head-inside, no risk of guillotine",
+    "Mastering the snapdown gives you a reliable takedown without learning complex shooting mechanics",
+    "The snapdown to front headlock chain is the primary scoring system for wrestlers and grapplers who prefer upper-body attacks"
+  ],
+  "fixItFast": [
+    "If they posture up: snap again with more weight drop — consistency breaks posture",
+    "If they circle out: re-establish the collar tie and snap in the direction they are circling",
+    "If they shoot under your snap: sprawl and go to the front headlock — their shot becomes your front headlock entry"
+  ]
+}

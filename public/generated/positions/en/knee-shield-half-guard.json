@@ -1,0 +1,56 @@
+{
+  "id": "knee-shield-half-guard",
+  "locale": "en",
+  "title": "Knee Shield Half Guard",
+  "category": "bottom_guard",
+  "status": "neutral",
+  "description": "The knee shield creates a wedge between the top player’s chest or hip and the bottom player’s body.",
+  "topPlayerGoals": [
+    "The top player wants to control Knee Shield Half Guard through head position, inside position, and directed pressure.",
+    "Smash the shield or pummel into a knee cut or headquarters position.",
+    "Keep a stable base so you are not off-balanced or countered."
+  ],
+  "bottomPlayerGoals": [
+    "The bottom player wants to survive Knee Shield Half Guard with frames, pummeling, or the right angle.",
+    "Keep the shield active, win the underhook, and enter a wrestle-up.",
+    "Recognize danger signals early instead of waiting for the position to settle."
+  ],
+  "controlPoints": [
+    "Main control point: Shin angle, elbow-knee connection, and head position..",
+    "Head, hands, hips, and knees should share the same force direction.",
+    "The elbow-knee connection or hip-shoulder line determines whether the position is still alive or already locked."
+  ],
+  "escapePriorities": [
+    "Escape priority: If the shield is smashed, switch immediately to a survival frame..",
+    "Protect the neck, back, knee line, or arm line before countering.",
+    "If inside position is lost, reset one defensive layer first."
+  ],
+  "advancementOptions": [
+    {
+      "action": "Pummel for the underhook to reach dogfight",
+      "nextPositionId": "dogfight",
+      "relatedSkillIds": [
+        "half-guard-knee-shield",
+        "half-guard-wrestle-up",
+        "knee-cut-passing"
+      ],
+      "why": "This is the natural branch when you win the main control point and the opponent is forced to defend."
+    }
+  ],
+  "dangerSignals": [
+    "The chin or neck is pulled out of a safe line.",
+    "The elbow separates from the ribs or knee.",
+    "The hip line is locked while the shoulder line is still being pulled.",
+    "You need a long hand post to avoid falling."
+  ],
+  "relatedSkillIds": [
+    "half-guard-knee-shield",
+    "half-guard-wrestle-up",
+    "knee-cut-passing"
+  ],
+  "relatedConceptIds": [
+    "wedges",
+    "inside-position",
+    "wrestle-up-philosophy"
+  ]
+}

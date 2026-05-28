@@ -1,0 +1,126 @@
+{
+  "id": "supine-guard-retention",
+  "domain": "guard_retention",
+  "level": "beginner",
+  "status": "draft",
+  "name": "Nằm ngửa guard Giữ nguyên",
+  "aliases": [],
+  "tags": [
+    "guard",
+    "retention"
+  ],
+  "keywords": [
+    "guard retention",
+    "knee line",
+    "hip escape",
+    "inside position"
+  ],
+  "relatedSkills": [
+    {
+      "id": "half-guard-knee-shield",
+      "type": "recommended"
+    },
+    {
+      "id": "k-guard-entry",
+      "type": "recommended"
+    },
+    {
+      "id": "outside-passing",
+      "type": "recommended"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "frames-pummeling"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [],
+  "version": 1,
+  "updatedAt": "2026-05-21T00:24:30.745Z",
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "vi",
+  "description": "Sử dụng khả năng di chuyển của hông, knee shields và khung chân để giữ chân bạn giữa bạn và người qua đường khi lưng bạn chạm thảm.",
+  "shortInstruction": "Hông rời khỏi thảm, đầu gối ở giữa bạn và họ, chân đặt trên hông - giữ tư thế nằm ngửa là kiểm soát thiệt hại có mục đích.",
+  "summary": "Khả năng giữ ngửa guard là phương pháp bạn sử dụng khi nằm ngửa. Không giống như tư thế nằm ngửa guard (nơi bạn hoạt động và di động), tư thế nằm ngửa có nghĩa là phục hồi cấu trúc từ một vị trí bị tổn hại. Công cụ của bạn là: nâng hông (shrimping), knee shields (chèn đầu gối của bạn vào giữa bạn và họ) và khung chân (đặt chân bạn lên hông hoặc bắp tay của họ). Mục tiêu luôn là quay lại phía bạn và thiết lập lại guard đang hoạt động.",
+  "whyItWorks": [
+    "Giữ hông của bạn khỏi thảm sẽ giúp chúng không làm bạn bị bẹp hoàn toàn — lưng phẳng là một guard đã vượt qua.",
+    "knee shield tạo khoảng cách ngay cả khi bạn nằm ngửa - đầu gối là tuyến phòng thủ đầu tiên của bạn.",
+    "Khung chân ở hông hoặc bắp tay của họ sử dụng đòn bẩy dài nhất của bạn để đẩy chúng ra xa.",
+    "Nguyên tắc của Danaher: Việc lưu giữ guard là một chuỗi các lần khôi phục — mỗi lần khôi phục sẽ giúp bạn có thêm thời gian cho lần khôi phục tiếp theo."
+  ],
+  "commonMistakes": [
+    "Nằm ngửa - tư thế nằm ngửa chỉ là tạm thời, không phải là tư thế nghỉ ngơi.",
+    "Đẩy bằng cánh tay thẳng khi họ lái xe về phía trước - điều này khiến khuỷu tay của bạn dễ bị khóa cánh tay.",
+    "Thả đầu gối của bạn xuống thảm sau shrimping - luôn giữ đầu gối của bạn ở giữa bạn và chúng.",
+    "Để chúng nắm lấy mắt cá chân của bạn và tách guard của bạn — giữ cho chân bạn di chuyển và không chạm vào thảm."
+  ],
+  "coachingCues": [
+    "Hông lên, đầu gối vào trong, bàn chân đặt trên hông.",
+    "shrimp đầu tiên, khung hình thứ hai — chuyển động của hông tạo ra không gian.",
+    "Đầu gối của bạn là guard của bạn — đừng để chúng chạm vào thảm.",
+    "Phục hồi về phía bạn - căn hộ đã chết."
+  ],
+  "safetySummary": [
+    "Đừng để họ ấn đầu bạn vào thảm khi họ ép về phía trước - dùng cánh tay của bạn đặt trên hông họ.",
+    "Bảo vệ xương sườn của bạn khỏi áp lực đầu gối bằng cách giữ khuỷu tay của bạn gần với cơ thể.",
+    "Khi shrimping, không vặn mạnh lưng dưới của bạn - chuyển động hông có kiểm soát sẽ ngăn ngừa chấn thương."
+  ],
+  "systemLogic": {
+    "corePrinciple": "Việc duy trì nằm ngửa guard là nhằm mục đích kiểm soát thiệt hại — khi nằm ngửa, hãy sử dụng độ cao hông (shrimp), knee shields và khung chân để phục hồi cấu trúc. Mỗi lớp giữ chân giúp bạn có thời gian để phục hồi lớp tiếp theo: Đặt chân lên hông → Giữa đầu gối → Khung cẳng tay.",
+    "decisionTree": [
+      {
+        "condition": "Bạn nằm ngửa với áp lực của đối thủ về phía trước",
+        "action": "shrimp để tạo khoảng trống — quay sang một bên và đẩy hông ra xa họ. Mặt sau phẳng là guard đã được thông qua. Chuyển động của hông phải đến trước."
+      },
+      {
+        "condition": "Đối thủ xuyên qua shrimp của bạn và làm phẳng lại bạn",
+        "action": "Bạn chưa tạo đủ khoảng cách — shrimp ngày càng khó hơn. Một cú thoát hông lớn sẽ tốt hơn ba cú thoát hông nhỏ. Đưa đầu gối gần vào của bạn khi bạn shrimp."
+      },
+      {
+        "condition": "Đối thủ nắm lấy mắt cá chân của bạn và cố gắng tách guard của bạn",
+        "action": "Đá chân của bạn ra và đưa nó trở lại hông của họ ngay lập tức. Giữ chân bạn di động và không chạm vào thảm - bàn chân đã đặt có thể bị ghim và tách ra."
+      },
+      {
+        "condition": "knee shield của bạn đã vào vị trí nhưng đối thủ vẫn vượt qua",
+        "action": "Góc hông của bạn không đúng - hãy xoay nhiều hơn về phía bạn khi bạn đưa đầu gối vào. knee shield phải có đường chéo, không phẳng."
+      },
+      {
+        "condition": "Đối thủ vượt qua knee shield",
+        "action": "Phục hồi rùa như tuyến phòng thủ cuối cùng. Từ rùa, hãy sử dụng kỹ thuật chờ hoặc phục hồi guard để bắt đầu lại chu trình lưu giữ."
+      }
+    ],
+    "exitStrategies": [
+      "Khi bạn đã có khoảng cách và knee shield, hãy quay về phía bạn (knee shield/Z-guard) hoặc ngồi guard — không bao giờ nằm ​​ngửa.",
+      "Nếu bạn không thể quay lại ngồi guard, thay vào đó hãy sử dụng tư thế đứng kỹ thuật để wrestle up.",
+      "Khả năng duy trì nằm ngửa là lớp thứ hai (sau khi guard ngồi không thành công) — nó giúp bạn có thời gian để khôi phục lớp đầu tiên."
+    ]
+  },
+  "moneyDetails": [
+    "Động tác đầu tiên của bạn phải luôn là shrimp — quay sang một bên và đẩy hông ra xa chúng.",
+    "Khi bạn shrimp, hãy chèn đầu gối gần vào giữa cơ thể bạn — đây là knee shield của bạn.",
+    "Đặt bàn chân trên của bạn lên hông họ và bàn chân dưới của bạn lên đầu gối của họ - hai điểm kiểm soát khoảng cách.",
+    "Khi bạn đã giữ được khoảng cách, hãy ngả người về phía mình (knee shield) hoặc ngồi guard — không bao giờ nằm ​​ngửa."
+  ],
+  "nextStep": "Sau khi lưu giữ nằm ngửa, hãy tìm hiểu hệ thống knee shield và lưu giữ guard ngồi để xây dựng chuỗi lưu giữ guard hoàn chỉnh.",
+  "fixItFast": [
+    "Họ tiếp tục lái xe qua? shrimp khó hơn và xa hơn — một cú thoát hông lớn sẽ tốt hơn ba cú thoát hông nhỏ.",
+    "knee shield sẽ không ở lại? Xoay nhiều hơn về phía bạn và kẹp đầu gối của bạn vào khuỷu tay.",
+    "Không thể quay lại chỗ ngồi? Thay vào đó, hãy sử dụng giải pháp kỹ thuật cho wrestle up."
+  ]
+}

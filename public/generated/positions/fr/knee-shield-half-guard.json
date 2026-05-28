@@ -1,0 +1,56 @@
+{
+  "id": "knee-shield-half-guard",
+  "locale": "fr",
+  "title": "Half guard avec knee shield",
+  "category": "bottom_guard",
+  "status": "neutral",
+  "description": "Le knee shield crée un wedge entre la poitrine ou la hanche du joueur du dessus et le corps du joueur du dessous.",
+  "topPlayerGoals": [
+    "Le joueur du dessus veut contrôler Half guard avec knee shield avec la position de tête, la position intérieure et une pression orientée.",
+    "Écraser le shield ou pummeler vers un knee cut ou une position headquarters.",
+    "Garder une base stable pour éviter d’être déséquilibré ou contré."
+  ],
+  "bottomPlayerGoals": [
+    "Le joueur du dessous veut survivre en Half guard avec knee shield avec des cadres, du pummeling ou le bon angle.",
+    "Garder le shield actif, gagner l’underhook et entrer en wrestle-up.",
+    "Reconnaître les signaux de danger tôt au lieu d’attendre que la position se stabilise."
+  ],
+  "controlPoints": [
+    "Point de contrôle principal : Angle du tibia, connexion coude-genou et position de tête..",
+    "La tête, les mains, les hanches et les genoux doivent suivre la même direction de force.",
+    "La connexion coude-genou ou la ligne hanches-épaules détermine si la position reste vivante ou verrouillée."
+  ],
+  "escapePriorities": [
+    "Priorité de sortie : Si le shield est écrasé, passer immédiatement à un cadre de survie..",
+    "Protéger le cou, le dos, la ligne du genou ou la ligne du bras avant de contrer.",
+    "Si la position intérieure est perdue, rétablir d’abord une couche défensive."
+  ],
+  "advancementOptions": [
+    {
+      "action": "Pummeler pour l’underhook afin d’arriver en dogfight",
+      "nextPositionId": "dogfight",
+      "relatedSkillIds": [
+        "half-guard-knee-shield",
+        "half-guard-wrestle-up",
+        "knee-cut-passing"
+      ],
+      "why": "C’est la branche naturelle lorsque vous gagnez le point de contrôle principal et que l’adversaire est forcé de défendre."
+    }
+  ],
+  "dangerSignals": [
+    "Le menton ou le cou sort de la ligne sûre.",
+    "Le coude se sépare des côtes ou du genou.",
+    "La ligne des hanches est verrouillée pendant que la ligne des épaules est encore tirée.",
+    "Vous devez poser une main loin pour éviter de tomber."
+  ],
+  "relatedSkillIds": [
+    "half-guard-knee-shield",
+    "half-guard-wrestle-up",
+    "knee-cut-passing"
+  ],
+  "relatedConceptIds": [
+    "wedges",
+    "inside-position",
+    "wrestle-up-philosophy"
+  ]
+}

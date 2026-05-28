@@ -1,0 +1,56 @@
+{
+  "id": "arm-triangle-threat",
+  "locale": "fr",
+  "title": "Menace d’arm triangle",
+  "category": "submission_threat",
+  "status": "critical",
+  "description": "L’attaquant a amené le bras adverse à travers la ligne du cou et cherche la pression d’épaule et l’angle pour finir.",
+  "topPlayerGoals": [
+    "Le joueur du dessus veut contrôler Menace d’arm triangle avec la position de tête, la position intérieure et une pression orientée.",
+    "Isoler le bras, empêcher la récupération du coude et finir avec contrôle.",
+    "Garder une base stable pour éviter d’être déséquilibré ou contré."
+  ],
+  "bottomPlayerGoals": [
+    "Le joueur du dessous veut survivre en Menace d’arm triangle avec des cadres, du pummeling ou le bon angle.",
+    "Ramener le coude vers les côtes, créer un cadre sur la hanche et récupérer la posture.",
+    "Reconnaître les signaux de danger tôt au lieu d’attendre que la position se stabilise."
+  ],
+  "controlPoints": [
+    "Point de contrôle principal : Bras à travers le cou, blocage de la tête et pression d’épaule..",
+    "La tête, les mains, les hanches et les genoux doivent suivre la même direction de force.",
+    "La connexion coude-genou ou la ligne hanches-épaules détermine si la position reste vivante ou verrouillée."
+  ],
+  "escapePriorities": [
+    "Priorité de sortie : Ramener le coude vers les côtes avant de faire un grand bridge..",
+    "Protéger le cou, le dos, la ligne du genou ou la ligne du bras avant de contrer.",
+    "Si la position intérieure est perdue, rétablir d’abord une couche défensive."
+  ],
+  "advancementOptions": [
+    {
+      "action": "Changer l’angle vers la ligne de finition depuis le side control",
+      "nextPositionId": "side-control-top",
+      "relatedSkillIds": [
+        "arm-triangle-mount",
+        "mount-control",
+        "side-control-pin"
+      ],
+      "why": "C’est la branche naturelle lorsque vous gagnez le point de contrôle principal et que l’adversaire est forcé de défendre."
+    }
+  ],
+  "dangerSignals": [
+    "Le menton ou le cou sort de la ligne sûre.",
+    "Le coude se sépare des côtes ou du genou.",
+    "La ligne des hanches est verrouillée pendant que la ligne des épaules est encore tirée.",
+    "Vous devez poser une main loin pour éviter de tomber."
+  ],
+  "relatedSkillIds": [
+    "arm-triangle-mount",
+    "mount-control",
+    "side-control-pin"
+  ],
+  "relatedConceptIds": [
+    "control-before-submission",
+    "angle-creation",
+    "pressure-direction"
+  ]
+}

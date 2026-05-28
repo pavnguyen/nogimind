@@ -1,0 +1,71 @@
+{
+  "id": "hip-heist-wrestle-up",
+  "locale": "vi",
+  "name": "Cuộc đấu vật cướp giật thời thượng",
+  "description": "Hip Heist là một cuộc đấu vật bùng nổ từ dưới lên guard để đứng lên hoặc lùi lại. Đó là cách nhanh nhất để đi từ guard đến vị trí đứng đầu.",
+  "shortInstruction": "Từ open guard, thắng underhook, vung chân ngoài ra sau, chống tay và khuỵu gối hoặc đứng. Nếu họ đi theo, hãy vòng ra phía sau để quay lại.",
+  "summary": "Vụ cướp hông sử dụng động tác xoay hông và vung chân để chuyển đổi đột ngột từ tư thế nằm dưới guard sang tư thế quỳ hoặc đứng. Đây là bài đấu vật có tốc độ cao nhất vì nó chuyển trực tiếp động lượng thoát hông của bạn thành tư thế đứng. Vụ cướp hông đặc biệt hiệu quả đối với những đối thủ nghiêng về phía trước với áp lực nặng nề - động lượng về phía trước của họ trở thành năng lượng mà bạn sử dụng để đứng vững.",
+  "whyItWorks": [
+    "Động tác xoay hông tạo ra động lượng đưa bạn đến đầu gối mà không có sức mạnh của phần thân trên",
+    "Áp lực về phía trước của đối phương (thường gặp trong open guard chuyền bóng) cung cấp lực phản công mà bạn cần để nâng cao",
+    "Cú cướp hông chuyển sang đòn lùi nếu đối thủ làm theo chuyển động của bạn",
+    "Nó nhanh hơn so với việc chuẩn bị kỹ thuật và cần ít không gian hơn"
+  ],
+  "commonMistakes": [
+    "Không giành được underhook trước vụ cướp hông — nếu không có underhook, họ sẽ san phẳng bạn khi bạn vươn lên",
+    "Xoay chân quá rộng - phải kiểm soát việc xoay chân để giữ thăng bằng",
+    "Dừng lại ở đầu gối thay vì lái xe đến đứng - vụ cướp hông sẽ đưa bạn lên cao",
+    "Thông báo chuyển động - vụ cướp hông hoạt động tốt nhất khi nó bùng nổ và bất ngờ"
+  ],
+  "coachingCues": [
+    "underhook đầu tiên, vụ cướp hông thứ hai",
+    "Xoay chân, lái xe để đứng",
+    "Theo dõi họ để quay lại",
+    "Bùng nổ hoặc đừng bận tâm"
+  ],
+  "safetySummary": [
+    "Vụ cướp hông đòi hỏi sự linh hoạt của hông - đừng cố vung chân nếu bạn cảm thấy căng cơ hông",
+    "Nếu bạn thất bại trong vụ cướp hông và hạ cánh bằng phẳng, hãy bảo vệ đầu của bạn ngay lập tức và thiết lập lại guard",
+    "Cẩn thận bị căng đầu gối khi lái xe từ vụ cướp hông đến đầu gối - khởi động đúng cách trước khi đấu vật bùng nổ"
+  ],
+  "keyCorrections": [
+    "Nếu bạn không thể quỳ xuống: cú xoay chân quá ngắn - vung chân rộng hơn và đánh mạnh hơn",
+    "Nếu họ đè bẹp bạn trong vụ cướp hông: underhook không đủ sâu — hãy đập lại và thử lại",
+    "Nếu bạn hạ cánh ở side control: bạn đã dừng xe ở đầu gối thay vì lái xe đến chỗ đứng"
+  ],
+  "systemLogic": {
+    "corePrinciple": "Cuộc vật lộn cướp hông có bốn giai đoạn: underhook → Xoay hông → Xoay chân → Đứng",
+    "decisionTree": [
+      {
+        "condition": "Trong Giai đoạn 1 (underhook)",
+        "action": "từ open guard, thắng underhook ở bên bạn sẽ cướp. Đầu của bạn phải tựa vào ngực họ"
+      },
+      {
+        "condition": "Ở Giai đoạn 2 (Xoay hông)",
+        "action": "hông thoát ra một chút để tạo khoảng trống, sau đó xoay hông về phía thảm (cách xa chúng)"
+      },
+      {
+        "condition": "Ở Giai đoạn 3 (Đu chân)",
+        "action": "vung chân ngoài của bạn qua lại, đặt chân lên tấm thảm. Động lượng của bạn sẽ giúp thân bạn đứng thẳng"
+      },
+      {
+        "condition": "Ở Giai đoạn 4 (Đứng)",
+        "action": "lái xe qua chân đã đặt của bạn và underhook để đứng. Nếu họ theo chuyển động, hãy vòng ra phía sau để quay lại"
+      },
+      {
+        "condition": "vụ cướp hông không thể đứng vững",
+        "action": "hồi phục về trạng thái ngồi guard hoặc chuyển sang tư thế đứng kỹ thuật"
+      }
+    ]
+  },
+  "moneyDetails": [
+    "Vụ cướp hông là cuộc đấu vật nhanh nhất trong BJJ — nó chuyển trực tiếp guard sang thế hạ gục",
+    "Việc thành thạo các vụ cướp hông mang lại cho bạn khả năng đứng vững đáng tin cậy từ bất kỳ vị trí open guard nào",
+    "Vụ cướp hông để quay lại là một chuyển đổi có giá trị cao ghi được 4 điểm (quay lại) trong IBJJF"
+  ],
+  "fixItFast": [
+    "Nếu họ dồn sức về phía trước: hãy dùng đà - cướp hông theo hướng họ đang đẩy",
+    "Nếu họ lùi bước: hãy đứng lên hoàn toàn và tham gia lại từ trạng thái trung lập",
+    "Nếu họ cố gắng vượt qua trong vụ cướp: chuyển sang trạng thái chờ kỹ thuật - sẽ an toàn hơn trước những người đi đường hung hãn"
+  ]
+}

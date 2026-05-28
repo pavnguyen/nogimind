@@ -1,0 +1,67 @@
+{
+  "id": "exposure-before-finish",
+  "locale": "en",
+  "title": "Exposure Before Finish",
+  "category": "offensive",
+  "level": "intermediate",
+  "tags": [
+    "exposure",
+    "finish line",
+    "submission",
+    "timing"
+  ],
+  "shortDefinition": "Exposure means opening the finish line before applying finishing force — if the path is not clear, it is not time to squeeze.",
+  "whyItMatters": "Many people squeeze early and lose position or expose their back; exposure before finish keeps you in the right hierarchy.",
+  "deepExplanation": "Exposure appears in every submission: RNC needs the path under the chin, arm triangle needs shoulder-line trap, leg locks need heel exposure. Finish should come only after confirming the finish line is open.",
+  "beginnerView": "Ask: can you see the finish path clearly, or are you just hoping?",
+  "advancedView": "Design the whole chain so each opponent reaction opens a different exposure line.",
+  "ifThenExamples": [
+    {
+      "if": "If you lose Exposure Before Finish during the exchange.",
+      "then": "Stop accelerating, recover the nearest body structure, then continue the technique.",
+      "why": "Modern no-gi punishes forceful continuation after structure is lost.",
+      "relatedSkillIds": [
+        "rear-naked-choke-system",
+        "arm-triangle-mount"
+      ]
+    },
+    {
+      "if": "If the opponent correctly answers your first line.",
+      "then": "Use Exposure Before Finish to switch to a safer branch instead of forcing the same line.",
+      "why": "A good concept turns the opponent’s reaction into information for the next decision.",
+      "relatedSkillIds": [
+        "arm-triangle-mount",
+        "guillotine-system",
+        "heel-hook-safety"
+      ]
+    }
+  ],
+  "commonMisunderstandings": [
+    {
+      "misunderstanding": "Exposure Before Finish is a single technical trick.",
+      "correction": "Treat it as a decision rule that appears across many positions."
+    },
+    {
+      "misunderstanding": "Understanding the concept automatically makes it work live.",
+      "correction": "The concept needs body signals, short cues, and positional rolling."
+    }
+  ],
+  "trainingCues": [
+    "Name Exposure Before Finish before adding force.",
+    "Find the body signal instead of guessing generally.",
+    "If structure is lost, reset one layer first.",
+    "Drill slowly, then test with progressive resistance."
+  ],
+  "relatedSkillIds": [
+    "rear-naked-choke-system",
+    "arm-triangle-mount",
+    "guillotine-system",
+    "heel-hook-safety",
+    "kimura-system"
+  ],
+  "relatedConceptIds": [
+    "control-before-submission",
+    "dilemma-attacks",
+    "failure-response"
+  ]
+}

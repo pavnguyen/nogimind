@@ -1,0 +1,132 @@
+{
+  "id": "seated-hand-fighting",
+  "domain": "guard_retention",
+  "level": "beginner",
+  "status": "draft",
+  "name": "Assis guard Combat à mains nues",
+  "aliases": [],
+  "tags": [
+    "seated-guard",
+    "hand-fighting",
+    "collar-tie",
+    "pummel",
+    "guard-retention"
+  ],
+  "keywords": [
+    "seated guard",
+    "hand fighting",
+    "collar tie",
+    "inside position",
+    "pummel",
+    "grip breaking"
+  ],
+  "relatedSkills": [
+    {
+      "id": "seated-guard-retention",
+      "type": "recommended"
+    },
+    {
+      "id": "butterfly-guard-off-balance",
+      "type": "recommended"
+    },
+    {
+      "id": "wrestling-up-from-guard",
+      "type": "recommended"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "supine-guard-retention",
+    "hand-fighting"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [],
+  "version": 1,
+  "updatedAt": "2026-05-21T00:24:30.769Z",
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "fr",
+  "description": "Gagnez l'échange de combat de mains depuis guard assis en utilisant des attaches de col, en frappant pour la position intérieure, en bloquant la prise et en créant un angle avant que le passeur n'entre poitrine contre poitrine.",
+  "shortInstruction": "La position intérieure remporte le guard — frappez pour les underhooks, bloquez les poignées, créez l'angle.",
+  "summary": "Le combat à la main assis guard est la première ligne de défense dans open guard. Avant qu’une rétention ou un balayage guard puisse avoir lieu, vous devez gagner le combat à main levée. Cela signifie contrôler les mains et les poignets de l'adversaire afin qu'il ne puisse pas saisir vos jambes, votre col ou votre ceinture. Les principes clés sont les suivants : restez dans leurs bras (coudes près du corps, mains entre les bras), retirez toute prise qui atterrit et utilisez la position de votre tête pour bloquer les attaches de leur col.",
+  "whyItWorks": [
+    "Gagner le combat à main les empêche d'établir les prises dont ils ont besoin pour passer (prises de pantalon, attaches de col, prises de ceinture).",
+    "La position intérieure (vos mains entre les bras) vous donne un avantage mécanique dans chaque combat de préhension.",
+    "Chaque prise que vous supprimez est une seconde de leur attention que vous contrôlez – le temps que vous utilisez pour configurer votre guard.",
+    "Principe de Danaher : le guard commence par les mains — si vous perdez le combat à la main, vous perdez le guard."
+  ],
+  "commonMistakes": [
+    "Laisser vos coudes s'écarter largement - cela ouvre la position intérieure pour leurs mains.",
+    "Poursuivre leurs mains au lieu de contrôler le centre – contrôlez la ligne médiane et les mains suivent.",
+    "Laisser tomber vos mains sur le tapis – les mains sur le tapis signifient qu'elles contrôlent votre tête.",
+    "Combattre avec les bras tendus – les bras pliés sont plus forts et plus réactifs."
+  ],
+  "coachingCues": [
+    "Coudes rentrés, mains entre les bras.",
+    "Tuez chaque prise avant qu'elle ne s'installe.",
+    "La tête dans la poitrine, pas dans les mains.",
+    "La position intérieure gagne à chaque fois."
+  ],
+  "safetySummary": [
+    "Gardez le menton rentré et la tête haute pour éviter les entrées guillotine pendant le combat à main.",
+    "N'étendez pas complètement vos bras lorsque vous combattez les poignées - cela expose vos coudes aux kimuras.",
+    "Lorsqu'ils attrapent votre collier, retirez la poignée en tournant votre poignet et en poussant leur pouce vers l'extérieur."
+  ],
+  "systemLogic": {
+    "corePrinciple": "Le guard commence par les mains – gagner le combat à la main depuis le guard assis est la première ligne de défense avant toute rétention du guard. La position intérieure (mains entre les bras) donne un avantage mécanique ; chaque prise que vous supprimez est une seconde de leur attention que vous contrôlez.",
+    "decisionTree": [
+      {
+        "condition": "L'adversaire établit une prise de pantalon",
+        "action": "Vous avez perdu le combat de main de ce côté – nagez immédiatement votre main à l’intérieur et enlevez la poignée avec une pause en C avant de sécuriser le contrôle de la jambe."
+      },
+      {
+        "condition": "Le col de l'adversaire vous attache",
+        "action": "Votre tête était trop haute ou trop basse – gardez votre tête collée à sa poitrine. Coincez sa main entre votre tête et votre épaule, puis retirez-la avec les deux mains."
+      },
+      {
+        "condition": "L'adversaire obtient un underhook",
+        "action": "Votre coude était évasé – rapprochez les deux coudes de vos côtes. Laissez tomber votre coude sur le tapis, tournez-vous de ce côté et frappez votre genou à l'intérieur."
+      },
+      {
+        "condition": "L'adversaire attrape votre jambe",
+        "action": "Passez votre main sur la leur et épinglez son poignet au tapis. Gardez vos coudes serrés pour éviter que leur bras ne glisse."
+      },
+      {
+        "condition": "L'adversaire domine le combat à main levée et assure plusieurs prises",
+        "action": "Mettez-vous en position couchée guard ou tortue pour réinitialiser l'engagement. Ne restez pas assis guard si vous avez perdu le combat à main - changez la position pour réinitialiser."
+      }
+    ],
+    "exitStrategies": [
+      "S'ils établissent une prise de pantalon, vous avez perdu le combat de main de ce côté – nagez immédiatement votre main à l'intérieur et enlevez-la avant qu'ils n'assurent le contrôle de la jambe.",
+      "S'ils dominent le combat à main levée, passez en position couchée guard ou tortue pour réinitialiser l'engagement.",
+      "Utilisez des poignées en C sur leurs poignets pour contrôler la position de la main et empêcher l'établissement de la prise."
+    ]
+  },
+  "moneyDetails": [
+    "Gardez vos coudes serrés contre vos côtes à tout moment – ​​les coudes évasés leur donnent un accès à l’intérieur.",
+    "Utilisez des poignées en C sur leurs poignets pour contrôler la position de leurs mains et empêcher l'établissement de la prise.",
+    "Lorsqu'ils attrapent votre jambe, passez votre main sur la leur et épinglez leur poignet au tapis.",
+    "Votre tête doit être dans leur poitrine, pas dans leurs mains – la position de la tête contrôle leurs options de cravate au col."
+  ],
+  "nextStep": "Après le combat à la main assis, apprenez la rétention guard assise pour combiner le combat de préhension avec les cadres des pieds et la mobilité des jambes.",
+  "fixItFast": [
+    "Ils continuent de vous attraper les jambes ? Nagez vos mains à l’intérieur de leurs coudes et poussez leurs bras vers l’extérieur.",
+    "Ils t'attachent au col ? Coincez sa main entre votre tête et votre épaule, puis retirez-la avec les deux mains.",
+    "Vos bras sont fatigués ? Vous poussez trop – utilisez des cadres et des angles, pas de la force."
+  ]
+}

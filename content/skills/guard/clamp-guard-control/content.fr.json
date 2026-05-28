@@ -1,0 +1,61 @@
+{
+  "id": "clamp-guard-control",
+  "locale": "fr",
+  "name": "Pince guard Contrôle",
+  "description": "Serrez la ligne d'épaule de l'adversaire entre votre genou et overhook, avec le contrôle du poignet, pour créer un dilemme armbar, triangle ou omoplata auquel il ne peut pas échapper sans abandonner une entrée de soumission.",
+  "shortInstruction": "Genou sur l'épaule, overhook le bras, contrôlez le poignet de l'autre côté - la pince est une soumission qui attend de se produire.",
+  "summary": "La pince guard (également appelée « pince » ou « pince à bras ») épingle le bras de l'adversaire sur votre corps pendant que votre genou bloque son épaule. Cela crée un deux contre un sur le bras coincé. À partir de là, chaque réaction qu'ils font ouvre une soumission : ils se positionnent dans le triangle, ils se retirent dans le armbar, ils roulent dans le omoplata.",
+  "whyItWorks": [
+    "En épinglant leur bras avec votre genou et overhook, vous isolez entièrement un bras – ils ne peuvent se défendre qu'avec le bras libre.",
+    "La pince supprime leur capacité de posture, puisque leur tête et leurs épaules sont épinglées contre votre poitrine.",
+    "Chaque tentative d’évasion nourrit une soumission différente – c’est le principe de « position avant soumission » de Danaher en action.",
+    "Le overhook contrôle leur coude tandis que le genou bloque le roulement de leurs épaules – ils ne peuvent pas simplement se libérer."
+  ],
+  "commonMistakes": [
+    "Serrage trop bas sur le bras (au niveau du poignet) plutôt qu'au niveau de l'épaule - c'est la goupille d'épaule qui fait fonctionner la pince.",
+    "Laisser l'adversaire libérer son coude coincé en tournant son bras vers l'intérieur.",
+    "Si vous perdez le overhook parce que vous avez relâché votre prise, le overhook doit être actif et serré.",
+    "Ne contrôle pas la main libre, ce qui leur permet de poster et de baser hors de la pince."
+  ],
+  "coachingCues": [
+    "Genou contre épaule, pas genou contre côtes.",
+    "overhook comme vous le pensez – les overhook mous perdent la pince.",
+    "Deux bras, un bras : leur bras libre ne peut pas sauver celui qui est piégé.",
+    "Ressentez la pression : s'ils sont confortables, votre pince est fausse."
+  ],
+  "safetySummary": [
+    "Ne lancez pas les soumissions à partir de la pince - contrôlez d'abord la position, puis appliquez la finition en douceur.",
+    "Protégez votre propre cou : gardez votre tête serrée contre sa poitrine, sans la laisser pendre dans une ligne guillotine.",
+    "S'ils vous empilent, relâchez la pince et réinitialisez-vous - ne combattez pas la pile avec une pince verrouillée."
+  ],
+  "keyCorrections": [
+    "S'ils libèrent leur bras, votre genou était trop bas – ramenez-le jusqu'à la ligne des épaules.",
+    "S'ils se tiennent dehors, vous avez perdu le overhook : réattaquez le bras avant qu'ils ne se redressent.",
+    "S'il roule sur le omoplata, contrôlez sa hanche et suivez sa rotation."
+  ],
+  "systemLogic": {
+    "corePrinciple": "Fixez la pince (genou sur l'épaule + overhook + contrôle du poignet de la main libre) → ressentez leur réaction → attaquez la soumission ouverte.",
+    "decisionTree": [
+      {
+        "condition": "Option 1 : Ils se mettent en position",
+        "action": "triangle starter. Option 2 : Ils retirent le bras → armbar. Option 3 : Ils roulent → omoplata."
+      },
+      {
+        "condition": "Application générale",
+        "action": "Le système est basé sur la réaction : vous n'avez pas besoin de forcer une quelconque soumission, il suffit de maintenir la pince et d'attendre son mouvement."
+      }
+    ]
+  },
+  "moneyDetails": [
+    "Le genou doit être sur l'épaule et non flottant. Si le genou est sur les côtes, ils peuvent vous positionner et vous empiler.",
+    "Votre overhook devrait capturer ses triceps contre votre sternum ; un overhook lâche au poignet leur donne la mobilité pour s'échapper.",
+    "Contrôlez leur poignet libre avec votre main libre – cela les empêche de poster et de se baser.",
+    "Gardez vos hanches mobiles ; la pince est une position dynamique et non un verrouillage statique."
+  ],
+  "nextStep": "Maîtrisez le pont clamp-to-triangle et la transition clamp-to-armbar pour enchaîner vos attaques.",
+  "fixItFast": [
+    "Le genou continue de glisser ? Creusez-le plus profondément dans l'aisselle, pas dans les côtes.",
+    "overhook se sent faible ? Verrouillez vos mains autour de son bras pour plus de sécurité.",
+    "Ils vous empilent ? Relâchez la pince, placez-la sur ses hanches et réinitialisez-la à open guard."
+  ]
+}

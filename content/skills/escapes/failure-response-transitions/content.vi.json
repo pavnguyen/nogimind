@@ -1,0 +1,71 @@
+{
+  "id": "failure-response-transitions",
+  "locale": "vi",
+  "name": "Phản hồi và chuyển đổi thất bại",
+  "description": "Kế hoạch khi một kỹ thuật thất bại: thay đổi góc, thay đổi cách cầm, thay đổi vị trí hoặc rút lui an toàn. Mọi kỹ thuật cuối cùng đều thất bại - người vật lộn với phản ứng thất bại được lên kế hoạch trước sẽ thắng nhiều trận hơn người bị đóng băng.",
+  "shortInstruction": "Khi một kỹ thuật thất bại, hãy làm theo trình tự: thay đổi góc đầu tiên, thay đổi cách cầm thứ hai, thay đổi vị trí thứ ba và chỉ rút lui an toàn như là phương sách cuối cùng.",
+  "summary": "Phản hồi lỗi là một cây quyết định có cấu trúc khi Kỹ thuật A không hoạt động. Hệ thống có bốn phản ứng leo thang: (1) điều chỉnh góc — dịch chuyển cơ thể của bạn 10-30 độ mà không thay đổi kỹ thuật, (2) điều chỉnh cách cầm — thay đổi vị trí hoặc cách bạn giữ đối thủ, (3) thay đổi vị trí — di chuyển đến một vị trí khác trong khi vẫn duy trì cùng một chủ đề tấn công, (4) rút lui an toàn — thảnh thơi và đặt lại về trạng thái trung lập. Nguyên tắc chính là loại bỏ hết các phương án 1-3 trước khi chấp nhận phương án 4.",
+  "whyItWorks": [
+    "Hầu hết các lỗi kỹ thuật đều do sai lệch nhỏ về góc hoặc tay cầm - việc điều chỉnh 10-30 độ thường khiến kỹ thuật tương tự hoạt động mà không cần thay đổi nó",
+    "Việc thay đổi báng cầm (ví dụ: báng cầm túi thành tay nắm kimura, dây buộc cổ thành overhook) sẽ thay đổi đòn bẩy cơ học mà không yêu cầu nhập vị trí mới",
+    "Việc có một phản ứng thất bại được lên kế hoạch trước sẽ loại bỏ sự do dự - người biết phải làm gì khi kỹ thuật A thất bại luôn đi trước một bước",
+    "Rút lui an toàn nên là biện pháp cuối cùng vì việc rút lui giúp đối thủ có thời gian để thiết lập lại khả năng phòng thủ và tấn công của mình."
+  ],
+  "commonMistakes": [
+    "Đóng băng khi kỹ thuật thất bại - do dự giúp đối thủ có thời gian phản công hoặc chạy trốn hoàn toàn",
+    "Lặp lại cùng một kỹ thuật đã thất bại với nhiều lực hơn - nếu nó không có tác dụng với kỹ thuật tốt thì nhiều lực hơn sẽ không làm cho nó thành công",
+    "Bỏ qua trực tiếp để thay đổi vị trí hoặc rút lui mà không cần thử điều chỉnh góc và độ bám trước",
+    "Rút lui không an toàn (lộ lưng hoặc để chân tay dễ bị phản công)"
+  ],
+  "coachingCues": [
+    "Góc đầu tiên, độ bám thứ hai",
+    "Thay đổi vị trí trước khi rút lui",
+    "Đừng bao giờ lặp lại thất bại theo cùng một cách",
+    "Rút lui có cấu trúc, không hoảng loạn"
+  ],
+  "safetySummary": [
+    "Đừng ép buộc một kỹ thuật thất bại - lặp lại nỗ lực phục tùng được bảo vệ tốt sẽ làm tăng nguy cơ chấn thương cho cả hai đối tác",
+    "Khi rút lui sau một đòn tấn công thất bại, hãy bảo vệ cổ và tay chân của bạn - đối thủ sẽ phản công khi bạn rút lui",
+    "Nếu bạn cảm thấy áp lực ở khớp khi thực hiện thất bại, hãy thả ra ngay lập tức và đặt lại thay vì chiến đấu sai góc độ"
+  ],
+  "keyCorrections": [
+    "Nếu bạn tiếp tục thử cùng một cuộc tấn công và thất bại: phản hồi thất bại của bạn bị thiếu. Dừng lại và chuyển sang đòn tấn công tiếp theo",
+    "Nếu bạn mất vị trí mỗi khi kỹ thuật thất bại: bạn đang rút lui mà không có cấu trúc. Luyện tập rút lui với khung và vị trí đầu",
+    "Nếu bạn không thể tìm thấy mức điều chỉnh phù hợp ở giữa video: hãy chọn một mức điều chỉnh (góc hoặc độ bám) và khoan 50 lần cho đến khi nó tự động"
+  ],
+  "systemLogic": {
+    "corePrinciple": "Hệ thống ứng phó sự cố có bốn cấp độ: Góc → Tay nắm → Vị trí → Rút lui. Mỗi cấp độ phải được sử dụng hết trước khi chuyển sang cấp độ tiếp theo",
+    "decisionTree": [
+      {
+        "condition": "Ở cấp độ 1 (Góc)",
+        "action": "dịch chuyển cơ thể của bạn 10-30 độ so với đối thủ. Hầu hết các lần phục tùng và quét đều thất bại vì lệch 5 độ chứ không phải do đối thủ “quá mạnh”. Điều chỉnh góc độ phổ biến: di chuyển hông sang trái/phải, nâng/hạ vị trí đầu, xoay vai"
+      },
+      {
+        "condition": "Ở cấp độ 2 (Grip)",
+        "action": "thay đổi kiểu hoặc vị trí cầm vợt của bạn mà không thay đổi kỹ thuật. Ví dụ: cách cầm nông đến cách cầm sâu, điều khiển từ trên tay đến dưới tay, kiểm soát cổ tay đến kiểm soát khuỷu tay. Thay đổi độ bám làm thay đổi vectơ đòn bẩy"
+      },
+      {
+        "condition": "Ở cấp độ 3 (Chức vụ)",
+        "action": "di chuyển đến một vị trí khác trong khi vẫn giữ nguyên chủ đề tấn công. Ví dụ: nếu triangle không thành công từ closed guard, hãy chuyển đến armbar từ cùng mục nhập guard. Nếu một chân không thành công thì chuyển sang khóa thân. Thay đổi vị trí duy trì công việc bạn đã làm để phá vỡ cấu trúc của chúng"
+      },
+      {
+        "condition": "Ở cấp độ 4 (Rút lui)",
+        "action": "rút lui bằng một cuộc rút lui có kiểm soát. Áp sát đối thủ, bảo vệ đầu và tay chân của bạn, đồng thời phục hồi về vị trí trung lập hoặc phòng thủ. Không bao giờ rút lui mà không có khung hoặc guard"
+      },
+      {
+        "condition": "Sau khi rút lui",
+        "action": "chu kỳ bắt đầu lại: quan sát tư thế của đối thủ, tìm điểm vào mới và bắt đầu chuỗi tấn công lại từ đầu"
+      }
+    ]
+  },
+  "moneyDetails": [
+    "Một hệ thống phản ứng thất bại có cấu trúc tách biệt những người chơi grappler tiên tiến khỏi những người trung gian - những người giỏi nhất trên thế giới không bao giờ 'thất bại', họ chỉ chuyển sang cuộc tấn công tiếp theo",
+    "Khả năng xâu chuỗi các thất bại thành các cuộc tấn công mới có giá trị hơn bất kỳ kỹ thuật đơn lẻ nào vì nó đảm bảo bạn luôn đe dọa điều gì đó",
+    "Phẩm chất nguy hiểm nhất của Gordon Ryan không phải là tỷ lệ dứt điểm - mà là anh ấy không bao giờ ngừng tấn công ngay cả khi kỹ thuật đầu tiên thất bại"
+  ],
+  "fixItFast": [
+    "Nếu bạn gặp khó khăn khi lặp lại cùng một đòn tấn công thất bại: dừng lại, vào khung, đặt lại tay cầm và thử một góc độ khác. Nếu vẫn thất bại, hãy thay đổi hoàn toàn kỹ thuật",
+    "Nếu đối thủ tiếp tục chống lại sự chuyển đổi của bạn: bạn là người có thể đoán trước được. Phối hợp trong một cuộc rút lui giả - lùi lại một chút và bắt họ theo dõi bạn",
+    "Nếu bạn đang mất vị trí sau một cuộc tấn công thất bại: bạn đã cam kết quá đầy đủ. Giữ căn cứ của bạn 70% cam kết tấn công, 30% cam kết chuyển đổi"
+  ]
+}

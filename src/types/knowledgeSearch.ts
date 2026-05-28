@@ -21,4 +21,6 @@ export type KnowledgeSearchResult = {
   url: string
   score: number
   matchedFields: string[]
+  /** Highlighted snippet from contentText that matches the query */
+  snippet?: string
 }

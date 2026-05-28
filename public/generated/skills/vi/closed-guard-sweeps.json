@@ -1,0 +1,116 @@
+{
+  "id": "closed-guard-sweeps",
+  "domain": "guard_offense",
+  "level": "intermediate",
+  "status": "draft",
+  "name": "closed guard Quét",
+  "aliases": [],
+  "tags": [
+    "closed-guard",
+    "sweep",
+    "hip-bump",
+    "scissor"
+  ],
+  "keywords": [
+    "hip bump sweep",
+    "scissor sweep",
+    "flower sweep",
+    "pendulum sweep"
+  ],
+  "relatedSkills": [
+    {
+      "id": "clamp-guard-control",
+      "type": "recommended"
+    },
+    {
+      "id": "kimura-system",
+      "type": "recommended"
+    },
+    {
+      "id": "shoulder-crunch-control",
+      "type": "recommended"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "closed-guard-posture-control"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [
+    "Cú va chạm hông thất bại? Họ đưa cánh tay của mình lên - chuyển sang kiểu quét cắt kéo ở cùng phía đó.",
+    "Quét cắt kéo thất bại? Họ bước qua chân bạn — chuyển sang triangle hoặc quét con lắc.",
+    "Tất cả các lần quét đều thất bại? Việc phá vỡ tư thế của bạn yếu - hãy quay lại kiểm soát tư thế trước."
+  ],
+  "version": 1,
+  "updatedAt": "2026-05-21T00:24:30.747Z",
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "vi",
+  "description": "Phá vỡ tư thế của đối thủ, tạo đà và quét họ khỏi closed guard bằng cách sử dụng cơ chế va đập hông, cắt kéo, hoa hoặc con lắc.",
+  "shortInstruction": "Phá vỡ tư thế, mất thăng bằng, kéo góc và quét - mỗi cú quét đều bắt đầu với một đối thủ bị gãy.",
+  "summary": "closed guard quét biến guard của bạn từ vị trí trung lập thành vị trí ghi điểm. Nguyên tắc quan trọng là bạn không thể quét sạch một đối thủ có nền tảng tốt - trước tiên bạn phải phá vỡ tư thế của họ, làm họ mất thăng bằng và tấn công khi họ đang phản ứng. Bốn lần quét lớn là phần hông (về phía trước), hình cắt kéo (ngang), bông hoa (đường chéo) và con lắc (hình tròn). Mỗi người khai thác một phản ứng khác nhau đối với việc kiểm soát tư thế của bạn.",
+  "whyItWorks": [
+    "Đối thủ có tư thế sai sẽ bị dồn trọng lượng về phía trước - điều này khiến họ dễ bị chuyển hướng.",
+    "Các cuộc quét hoạt động như một vấn đề nan giải: bảo vệ vết va chạm ở hông, bị cắt kéo; bảo vệ cái kéo, bị va đập vào hông.",
+    "Chân khỏe hơn cánh tay - việc sử dụng chân để quét sẽ thúc đẩy các cơ mạnh nhất của bạn chống lại chân của chúng.",
+    "Nguyên tắc Danaher: cú quét là sản phẩm cuối cùng của việc phá vỡ tư thế + góc + động lượng."
+  ],
+  "commonMistakes": [
+    "Quét mà không phá vỡ tư thế trước - đối thủ đã giữ tư thế có thể chỉ cần bước ra khỏi đòn quét.",
+    "Để đối thủ đặt lên đầu bạn trong quá trình quét - đóng khung ngay lập tức để ngăn chặn điều này.",
+    "Từ bỏ closed guard sau lần quét thất bại — luôn có kế hoạch lạiguard.",
+    "Chỉ dùng tay để quét thay vì dùng hông và chân."
+  ],
+  "coachingCues": [
+    "Phá vỡ tư thế trước mỗi lần quét - không có ngoại lệ.",
+    "Quét chân, hướng dẫn cánh tay - cánh tay của bạn điều khiển hướng, chân của bạn cung cấp sức mạnh.",
+    "Cam kết hoàn toàn hoặc không quét - quét nửa chừng sẽ cho họ vượt qua.",
+    "Quét đến điểm ghim, không chỉ để thoát - kết thúc ở trên cùng trong tầm kiểm soát."
+  ],
+  "safetySummary": [
+    "Đừng quay cổ đối tác của bạn khi kéo họ vào cuộc quét - hãy kiểm soát cơ thể chứ không phải đầu.",
+    "Khi tiếp đất sau một cú quét, hãy bảo vệ đầu của bạn khỏi chạm vào thảm.",
+    "Nếu chúng tiếp đất vào chân bạn trong một lần quét không thành công, hãy phục hồi ngay lập tức guard để tránh áp lực lên đầu gối."
+  ],
+  "systemLogic": {
+    "corePrinciple": "Tư thế bẻ gãy → mất thăng bằng → chọn quét dựa trên phản ứng của họ → tiếp đất vào chốt thuận.",
+    "decisionTree": [
+      {
+        "condition": "Vấn đề nan giải: về phía trước (gập hông) và sang một bên (cắt kéo)",
+        "action": "họ không thể bảo vệ cả hai cùng một lúc."
+      },
+      {
+        "condition": "họ bảo vệ cuộc càn quét bằng tư thế, thay vào đó hãy tấn công triangle hoặc armbar",
+        "action": "guard là một hệ thống, không phải các bước đi riêng lẻ."
+      }
+    ],
+    "exitStrategies": []
+  },
+  "moneyDetails": [
+    "Đối với va chạm ở hông, hãy kéo đầu họ về phía ngực của bạn và va chạm bằng hông - đừng chỉ đẩy bằng tay.",
+    "Đối với cái kéo, hãy cắt chân dưới của bạn ngang qua bụng của họ trong khi chân trên của bạn chặn vai họ - đó là đường cắt đầu gối, không phải là một cú đẩy chân.",
+    "Để quét bông hoa, hãy đá chân bạn từ hông qua đường giữa của chúng - động lượng đến từ hông chứ không phải từ bàn chân.",
+    "Luôn kết thúc quá trình quét bằng chốt chiếm ưu thế (mount, side control hoặc knee-on-belly) — đừng chỉ bỏ chúng và đặt lại."
+  ],
+  "nextStep": "Sau khi thành thạo closed guard lần quét, hãy tìm hiểu nội dung gửi từ closed guard (triangle, armbar) để kết nối với các lần quét của bạn.",
+  "fixItFast": [
+    "Vết sưng ở hông không hoạt động? Bạn đang đẩy chứ không phải va chạm hông - đẩy hông lên chứ không phải cánh tay.",
+    "Quét cắt kéo có vẻ yếu? Chân dưới của bạn chưa cắt đủ sâu - hãy đưa nó cao hơn bụng của họ.",
+    "Họ tiếp tục đăng bài? Sử dụng bài đăng của họ làm mục nhập cho armbar hoặc kimura."
+  ]
+}

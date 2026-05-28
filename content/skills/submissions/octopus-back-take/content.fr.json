@@ -1,0 +1,61 @@
+{
+  "id": "octopus-back-take",
+  "locale": "fr",
+  "name": "Prise de retour de poulpe",
+  "description": "Utilisez l'angle de hanche de la pieuvre guard pour exposer le dos lorsque l'adversaire poste contre le balayage - en passant d'un balayage raté à back control.",
+  "shortInstruction": "Ils postent contre le balayage ? Tournez-vous et prenez le dos – leur défense devient votre entrée.",
+  "summary": "La prise en retour de la pieuvre est le pourcentage de suivi le plus élevé du balayage de la pieuvre guard. Lorsque vous tentez le balayage de la pieuvre (en tirant leur hanche la plus éloignée sur votre corps), de nombreux adversaires répondront en postant une main ou en avançant pour se défendre. Cette réaction crée l’angle exact dont vous avez besoin pour tourner sous son bras, tourner derrière lui et prendre le dos. La prise en arrière de la pieuvre transforme un balayage défendu en position la plus dominante dans BJJ.",
+  "whyItWorks": [
+    "Lorsqu'ils placent une main pour défendre le balayage, ce bras est engagé et ne peut pas bloquer votre entrée dans le spin.",
+    "La pieuvre guard vous place déjà dans l'angle parfait pour la prise arrière : vous êtes déjà assis à ses côtés.",
+    "L'enveloppement de la hanche la plus éloignée vous donne le point de pivotement pour la rotation : vous tournez autour de leur centre de gravité.",
+    "Principe de Danaher : le balayage et le retour prennent la forme d'un dilemme : défendre le balayage, perdre le dos ; défendre l'arrière, perdre le balayage."
+  ],
+  "commonMistakes": [
+    "Tournez avant qu’ils ne publient – ​​vous avez besoin de leur message pour vous frayer un chemin vers l’arrière.",
+    "Perdre l'enveloppe de la hanche la plus éloignée pendant la rotation - l'enveloppe est votre volant pour la prise arrière.",
+    "Tournez dans la mauvaise direction – vous tournez sous leur bras posté, pas autour de leur corps.",
+    "Si vous ne sécurisez pas le seatbelt assez rapidement après la rotation, ils se tourneront vers vous."
+  ],
+  "coachingCues": [
+    "Balayer l'appât, post-réaction, tourner sous, reprendre.",
+    "Leur message est votre entrée – s’ils ne publient pas, vous balayez.",
+    "Tournez sous le bras, pas autour du corps.",
+    "seatbelt d'abord, les crochets ensuite - ne précipitez pas la séquence."
+  ],
+  "safetySummary": [
+    "Gardez votre tête protégée pendant la rotation – votre tête passe sous l’aisselle et non dans le coude.",
+    "Ne faites pas tourner s’ils ont une prise sur votre col ou votre cou – enlevez d’abord la poignée.",
+    "Lorsque vous atterrissez sur le dos, protégez vos propres genoux contre un atterrissage maladroit."
+  ],
+  "keyCorrections": [
+    "Si vous ne pouvez pas reprendre le dos, c'est que l'écharpe de votre hanche la plus éloignée est trop lâche – serrez-la avant de tourner.",
+    "S’ils vous font face pendant la pirouette, c’est que vous avez tourné trop large – gardez la pirouette serrée contre leur corps.",
+    "S'ils sprawl lors de la rotation, vous avez tourné trop tôt - attendez qu'ils valident complètement le message."
+  ],
+  "systemLogic": {
+    "corePrinciple": "Poulpe guard : tentative de balayage → poteaux adverses → rotation sous le bras → prendre le dos → seatbelt → crochets → attaque.",
+    "decisionTree": [
+      {
+        "condition": "La reprise de poulpe fonctionne en un seul mouvement : poteau de balayage",
+        "action": "tourner → revenir en arrière."
+      },
+      {
+        "condition": "ils ne publient pas (défendent le balayage en s'asseyant)",
+        "action": "continuez le balayage - la prise en arrière n'a lieu que lorsqu'ils publient."
+      }
+    ]
+  },
+  "moneyDetails": [
+    "L’enveloppement de la hanche éloignée doit être maintenue tout au long de la pirouette – c’est votre point de contrôle.",
+    "Tournez sous son bras posté – votre tête doit passer sous son aisselle, pas autour de son corps.",
+    "Pendant que vous tournez, relâchez le contrôle des jambes et rétablissez-vous avec vos crochets derrière les cuisses.",
+    "Une fois derrière, verrouillez immédiatement le seatbelt — seatbelt avant les crochets."
+  ],
+  "nextStep": "Après la reprise de la pieuvre, apprenez back control et le système d'attaque arrière.",
+  "fixItFast": [
+    "Vous ne pouvez pas tourner en dessous ? Votre écharpe de hanche éloignée est trop lâche – serrez-la.",
+    "Ils vous font face ? Tournez-vous plus près de leur corps – votre chemin est trop large.",
+    "Ils sprawl ? Vous avez tourné trop tôt – attendez l’engagement complet du message."
+  ]
+}

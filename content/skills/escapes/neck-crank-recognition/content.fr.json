@@ -1,0 +1,74 @@
+{
+  "id": "neck-crank-recognition",
+  "locale": "fr",
+  "name": "Reconnaissance de la manivelle du cou",
+  "description": "Apprenez à faire la distinction entre un étranglement sûr et une manivelle dangereuse. Une manivelle attaque la colonne cervicale en appuyant sur le menton ou l'arrière de la tête plutôt que sur les artères carotides, et doit être reconnue immédiatement pour pouvoir la tapoter ou l'ajuster.",
+  "shortInstruction": "Si vous ressentez une pression sur le menton ou sur l'arrière de la tête (et non sur les côtés du cou), vous êtes courbé et non étouffé. Tapez tôt et protégez votre colonne cervicale.",
+  "summary": "La reconnaissance du cou est la capacité de distinguer instantanément un étranglement sanguin qui cible les artères carotides et un cou qui cible la colonne cervicale. Un étranglement sanguin peut s'entraîner en toute sécurité avec un partenaire d'entraînement : il coupe le flux sanguin vers le cerveau et provoque une perte de conscience sans dommages structurels. Une manivelle attaque les vertèbres, les disques et les ligaments de la colonne cervicale et peut causer des dommages cumulatifs au fil des années d'entraînement. La principale différence : les starters appliquent une pression sur les côtés du cou (carotide), les manivelles appliquent une pression sur le menton, l'arrière de la tête ou le haut de la colonne vertébrale.",
+  "whyItWorks": [
+    "Les étranglements sanguins sont sans danger car ils interrompent le flux sanguin sans endommager les structures du cou – la perte de conscience est réversible et sans effets durables",
+    "Les manivelles du cou sont dangereuses car elles compriment, font tourner ou hyperfléchissent la colonne cervicale – les dommages sont cumulatifs et peuvent entraîner des problèmes chroniques.",
+    "Le menton est l'indicateur le plus fiable : si la pression est exercée sur votre menton et pousse votre tête vers votre poitrine ou votre épaule, il s'agit d'une manivelle.",
+    "La pression carotidienne (côtés du cou) sans pression sur le menton/la colonne vertébrale est toujours un étranglement et peut être défendue en toute sécurité."
+  ],
+  "commonMistakes": [
+    "En supposant que chaque attaque main sur le cou est un étranglement – ​​beaucoup sont des manivelles déguisées",
+    "Essayer de « endurcir » une manivelle en pensant qu'elle « viendra » comme un étranglement ; les manivelles ne se résolvent pas, elles ne font qu'empirer",
+    "Ne pas taper assez tôt sur les manivelles pendant l'entraînement - les dégâts s'accumulent au fil des mois et des années",
+    "Confondre un ouvre-boîte (manivelle) avec un starter à collier (coffre-fort) — les deux peuvent être appliqués à partir de guard mais ont des mécanismes complètement différents"
+  ],
+  "coachingCues": [
+    "Pression du menton = manivelle, appuyez maintenant",
+    "Pression latérale sur le cou = étouffer, défendre en toute sécurité",
+    "Compression de la colonne vertébrale = tapotement immédiat",
+    "En cas de doute, appuyez sur — protégez le cou"
+  ],
+  "safetySummary": [
+    "Les manivelles du cou peuvent provoquer une hernie discale, des entorses ligamentaires, un conflit nerveux et des douleurs chroniques au cou.",
+    "L'ouvre-boîte (en poussant l'arrière de la tête vers la poitrine à partir de guard) est la manivelle dangereuse la plus courante dans BJJ.",
+    "Le twister (verrouillage de la colonne vertébrale de back control) fait tourner de manière agressive la colonne cervicale et peut provoquer des blessures graves s'il est appliqué soudainement.",
+    "Certaines variations guillotine et d'arce peuvent devenir des manivelles si l'angle est désactivé. Si vous ressentez une pression au niveau du menton, appuyez et réinitialisez.",
+    "Même les manivelles légères provoquent des dommages cumulatifs – n'acceptez pas 10 manivelles « légères » par semaine comme entraînement normal."
+  ],
+  "keyCorrections": [
+    "Si vous ressentez une pression au niveau du menton lors d'une tentative de soumission : appuyez immédiatement - n'attendez pas de voir si cela se transforme en étranglement.",
+    "Si votre partenaire d'entraînement utilise systématiquement des manivelles au lieu d'étranglements : discutez avec lui de la technique et de la sécurité.",
+    "Si vous êtes l'attaquant et que votre partenaire tape dans une position que vous pensiez être un étranglement : réexaminez votre angle : vous pourriez démarrer sans vous en rendre compte."
+  ],
+  "systemLogic": {
+    "corePrinciple": "La reconnaissance du cou et de la manivelle nécessite de comprendre les trois types d'attaques du cou : l'étranglement sanguin, l'étranglement aérien et la manivelle.",
+    "decisionTree": [
+      {
+        "condition": "Application générale",
+        "action": "Étranglement sanguin (étranglement) : une pression est appliquée sur les artères carotides des deux côtés du cou. Provoquer une perte de conscience en empêchant le sang oxygéné d’atteindre le cerveau. Structure : col croisé, arrière nu, triangle, guillotine (lorsqu'il est correctement appliqué), batte de baseball. S'entraîner en toute sécurité avec une application contrôlée"
+      },
+      {
+        "condition": "Application générale",
+        "action": "Starter à air : une pression est appliquée à la trachée/trachée. Provoque des difficultés respiratoires mais ne coupe pas la circulation sanguine. Structure : starter avant, quelques variations de col croisé, quelques variations de batte de baseball. Risque de blessure plus élevé que l'étranglement sanguin"
+      },
+      {
+        "condition": "Manivelle cervicale : une pression est appliquée sur la colonne cervicale via le menton, l'arrière de la tête ou la base du crâne. Structure : ouvre-boîte, twister, quelques variantes guillotine (une fois roulé), quelques variantes d'arce, quelques variantes triangle. PAS sûr de s’entraîner de manière agressive",
+        "action": "dommages cumulés"
+      },
+      {
+        "condition": "Application générale",
+        "action": "Règle de reconnaissance : si vous ressentez une pression sur les côtés de votre cou (près de l'os de la mâchoire) = probablement un étranglement sanguin. Si vous ressentez une pression sur le menton, l'arrière de la tête ou le haut de la colonne vertébrale = c'est définitivement une manivelle"
+      },
+      {
+        "condition": "Application générale",
+        "action": "Règle de réponse : étouffement de sang = défendre ou s'échapper. Manivelle = taper immédiatement si une pression importante est appliquée"
+      }
+    ]
+  },
+  "moneyDetails": [
+    "La reconnaissance du cou et de la manivelle prévient la source la plus courante de blessures chroniques liées à l'entraînement en BJJ : les dommages cumulatifs au cou",
+    "Connaître la différence entre une manivelle et un starter vous permet d'entraîner les soumissions en toute sécurité à pleine intensité",
+    "Protéger votre cou pendant plus de 10 ans d'entraînement nécessite de tapoter discipliné les manivelles à chaque séance d'entraînement.",
+    "Un cou en bonne santé à 50 ans vaut plus que n'importe quel robinet que vous avez évité à 25 ans"
+  ],
+  "fixItFast": [
+    "Si vous ressentez une pression au niveau du menton ou de la colonne vertébrale : appuyez immédiatement : vous ne perdez absolument rien en appuyant tôt sur une manivelle.",
+    "Si vous ressentez une pression ambiguë (vous ne savez pas s'il s'agit d'une manivelle ou d'un starter) : appuyez sur — l'incertitude signifie qu'il ne s'agit probablement pas d'un starter propre.",
+    "Si votre cou est raide ou douloureux après l'entraînement : vous ne tapez pas assez tôt pour faire des manivelles. Privilégier la protection du cou"
+  ]
+}

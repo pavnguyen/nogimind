@@ -1,0 +1,59 @@
+{
+  "id": "half-butterfly-to-leg-entanglements",
+  "domain": "guard_offense",
+  "level": "advanced",
+  "name": "Half Butterfly to Leg Entanglements",
+  "aliases": [],
+  "tags": [
+    "half-butterfly",
+    "leg-lock",
+    "bear-trap",
+    "k-guard",
+    "leg-entry"
+  ],
+  "keywords": [
+    "half butterfly",
+    "butterfly hook",
+    "K-guard entry",
+    "bear trap",
+    "elevation",
+    "leg entry"
+  ],
+  "relatedSkills": [
+    {
+      "id": "k-guard-matrix",
+      "type": "recommended"
+    },
+    {
+      "id": "bear-trap-ham-sandwich",
+      "type": "recommended"
+    },
+    {
+      "id": "deep-half-guard",
+      "type": "recommended"
+    },
+    {
+      "id": "false-reap-entry",
+      "type": "recommended"
+    }
+  ],
+  "prerequisiteSkillIds": [
+    "butterfly-guard-off-balance",
+    "half-guard-knee-shield",
+    "k-guard-entry"
+  ],
+  "relatedPositions": [],
+  "relatedConcepts": [],
+  "archetypeIds": [],
+  "trainingMethodIds": [],
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "updatedAt": "2026-05-21T00:24:30.764Z"
+}

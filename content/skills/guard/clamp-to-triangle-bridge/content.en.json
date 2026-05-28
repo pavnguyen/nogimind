@@ -1,0 +1,61 @@
+{
+  "id": "clamp-to-triangle-bridge",
+  "locale": "en",
+  "name": "Clamp Guard to Triangle Bridge",
+  "description": "Bridge from clamp guard into the triangle choke: when the opponent defends by standing or separating their hips, use their movement to rotate your leg over their shoulder and lock the triangle.",
+  "shortInstruction": "Opponent stands or separates hips? Swing your top leg over their shoulder, lock the triangle, and break their posture.",
+  "summary": "The clamp-to-triangle bridge is the primary attack chain from the clamp guard. When the opponent feels the clamp and tries to escape by standing or posturing, they create exactly the space you need to throw your leg over their shoulder. Their escape becomes your setup. The bridge is not a strength move — it's a timing and angle transition.",
+  "whyItWorks": [
+    "The clamp forces the opponent to react. Their natural response (posturing/standing) opens the angle for the triangle.",
+    "When they separate their hips, your top leg swings freely over their shoulder without resistance.",
+    "The overhook from the clamp becomes the arm-in position for the triangle — no grip change needed.",
+    "Danaher principle: use the opponent's escape energy to power your attack — their movement is your opportunity."
+  ],
+  "commonMistakes": [
+    "Trying to bridge to triangle before the opponent reacts — you need their movement to create space.",
+    "Swinging the leg over without controlling their posture — they will posture out of the triangle.",
+    "Letting the overhook go during the bridge — the overhook becomes the arm-in, so keep it tight.",
+    "Failing to lock the legs behind their back after the bridge — the triangle is only secure if your legs are locked."
+  ],
+  "coachingCues": [
+    "Wait for their reaction — the bridge is a counter, not an initiation.",
+    "Leg over the shoulder, not over the head.",
+    "Keep the overhook — it's your arm-in for the triangle.",
+    "Lock the triangle before you squeeze — position first."
+  ],
+  "safetySummary": [
+    "Do not bridge explosively if their weight is on your hips — you can hyperextend your own back.",
+    "When locking the triangle, keep the opponent's arm across your body to prevent elbow hyperextension.",
+    "If they stack you during the triangle entry, release and reset — do not let them drive your head into the mat."
+  ],
+  "keyCorrections": [
+    "If you can't get your leg over, they haven't reacted yet — wait or create the reaction by tightening the clamp.",
+    "If they posture out of the triangle, you didn't break their posture before locking — pull their head down with your overhook.",
+    "If they stack you, your angle is wrong — cut the angle more before locking the legs."
+  ],
+  "systemLogic": {
+    "corePrinciple": "Clamp established: opponent stands or separates hips → swing top leg over their shoulder → lock triangle → break posture → finish.",
+    "decisionTree": [
+      {
+        "condition": "they don't stand",
+        "action": "threaten the armbar from clamp instead — they must react to one attack, creating the other."
+      },
+      {
+        "condition": "General application",
+        "action": "The bridge works because it follows the path of least resistance: their posture creates the space."
+      }
+    ]
+  },
+  "moneyDetails": [
+    "Keep the overhook tight throughout the bridge — it becomes the arm that's trapped inside the triangle.",
+    "As you swing your leg over, guide their head down with your free hand to prevent posture recovery.",
+    "Lock your shin behind their back, not just your foot — a foot-locked triangle can be popped open.",
+    "Cut the angle by walking your hips away from them after locking — this makes the choke tight without squeezing."
+  ],
+  "nextStep": "After mastering the triangle from clamp, learn the armbar and omoplata transitions from the same position to complete the clamp system.",
+  "fixItFast": [
+    "Leg won't swing over? They haven't committed to standing yet — tighten the clamp to force the reaction.",
+    "Triangle feels loose? Cut the angle by walking your hips sideways before squeezing.",
+    "Overhook lost? Re-secure the arm before attempting the bridge — the triangle needs that arm inside."
+  ]
+}

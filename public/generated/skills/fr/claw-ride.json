@@ -1,0 +1,125 @@
+{
+  "id": "claw-ride",
+  "domain": "pins_rides",
+  "level": "advanced",
+  "status": "draft",
+  "name": "Tour de griffe",
+  "aliases": [],
+  "tags": [
+    "claw-ride",
+    "ride",
+    "turtle",
+    "back-exposure",
+    "body-lock"
+  ],
+  "keywords": [
+    "claw ride",
+    "turtle",
+    "body lock",
+    "hip switch",
+    "back exposure"
+  ],
+  "relatedSkills": [
+    {
+      "id": "cross-wrist-ride",
+      "type": "recommended"
+    },
+    {
+      "id": "crucifix-control",
+      "type": "recommended"
+    },
+    {
+      "id": "back-attack-system",
+      "type": "recommended"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "turtle-ride",
+    "crab-ride"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [
+    "S’il continue à s’asseoir : votre pression thoracique n’est pas suffisante – enfoncez votre poitrine plus profondément dans le haut de son dos.",
+    "S’ils se tournent vers vous : passez immédiatement à la prise arrière – ne restez pas dans la griffe",
+    "Si vous perdez la prise en griffe : rétablissez-la en allant plus profondément autour de la hanche."
+  ],
+  "version": 1,
+  "updatedAt": "2026-05-21T00:24:30.768Z",
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "fr",
+  "description": "Utilisez des pinces pour les bras et la poitrine autour de la ligne des hanches ou du torse de la tortue, construisez une base et sécurisez l'exposition du dos grâce aux commutateurs de hanche et aux combats à la main. Le tour en griffes est un système de contrôle de transition qui utilise des pinces pour les jambes et les bras pour briser la position de la tortue.",
+  "shortInstruction": "Depuis la tortue, serrez votre bras le plus proche autour de sa hanche (prise en griffe), enfoncez votre poitrine dans ses côtes et déplacez vos hanches sur le côté pour effondrer leur base. Basculez entre la prise en griffe et la prise arrière au fur et à mesure qu'ils réagissent.",
+  "summary": "Le tour de griffe utilise une pince de bras profonde autour de la hanche ou du bas du torse de l'adversaire pour briser la position de la tortue et exposer le dos. La prise en griffe (bras enroulé autour de la hanche, main saisissant la hanche éloignée ou la ligne de ceinture) crée un levier structurel qui vous permet de tirer l'adversaire à plat tandis que votre pression thoracique l'empêche de se redresser. Le système alterne entre la pression des griffes et les tentatives de prise en arrière, obligeant l'adversaire à défendre l'un et à exposer l'autre.",
+  "whyItWorks": [
+    "La prise en griffe sur la hanche la plus éloignée crée un levier qui tire la base de l'adversaire hors de lui - il ne peut pas se redresser lorsque sa hanche est tirée vers vous.",
+    "La pression thoracique sur leurs côtes les empêche de s'asseoir ou de se transformer en vous - les deux principales tortues s'échappent",
+    "L'alternance entre la pression des griffes et les tentatives de prise en arrière crée un dilemme : s'ils défendent la griffe, ils exposent le dos.",
+    "Le tour de griffe fonctionne des deux côtés : vous pouvez passer votre griffe sur la hanche opposée sans perdre de pression."
+  ],
+  "commonMistakes": [
+    "Serrage trop haut sur le torse au lieu de la hanche - une pince de torse peut être échappée en s'asseyant",
+    "Laisser votre poitrine se séparer de leur dos – la connexion thoracique est ce qui les empêche de se redresser",
+    "Rester trop longtemps dans le trajet en griffes sans transition - le trajet en griffes est un contrôle de transition, pas une épingle",
+    "Ne pas protéger votre propre tête - l'adversaire peut s'asseoir et vous soutenir si votre tête est de l'autre côté sans contrôle"
+  ],
+  "coachingCues": [
+    "Griffe sur la hanche, pas sur les côtes",
+    "Poitrine sur le dos, toujours",
+    "Alternance de griffe et de prise arrière",
+    "Protégez la position de votre tête"
+  ],
+  "safetySummary": [
+    "N'appliquez pas de pression de rotation soudaine sur la colonne vertébrale de l'adversaire lorsque la tortue s'effondre - utilisez une pression lente et contrôlée.",
+    "Si l'adversaire sort soudainement du système de griffes, protégez votre tête et votre cou.",
+    "Faites attention à vos doigts lorsque vous griffez : les doigts coincés entre le tapis et le corps de l'adversaire peuvent être blessés."
+  ],
+  "systemLogic": {
+    "corePrinciple": "Le tour de griffe est un système en trois phases : Établir la griffe : Réduire la tortue → Revenir en arrière",
+    "decisionTree": [
+      {
+        "condition": "Dans la phase 1 (établir la griffe)",
+        "action": "depuis derrière la tortue, passez votre bras le plus proche autour de sa hanche et saisissez le pli ou la ceinture de sa hanche la plus éloignée. Votre poitrine doit être reliée au haut du dos ou à l'omoplate"
+      },
+      {
+        "condition": "En phase 2 (Effondrement de la tortue)",
+        "action": "enfoncez votre poitrine dans son dos tout en tirant sa hanche vers vous avec la poignée en griffe. Avancez vos genoux vers leur tête pour les aplatir. Ils doivent rouler sur la hanche ou sur le côté"
+      },
+      {
+        "condition": "En phase 3 (retour en arrière)",
+        "action": "à mesure qu'ils s'effondrent, relâchez la poignée et remplacez-la par un seatbelt (bras sur l'épaule la plus éloignée, main sur la hanche la plus proche). Faites glisser votre genou le plus proche dans la ligne de ses hanches et fixez back control"
+      },
+      {
+        "condition": "ils résistent à l'effondrement en prenant des positions dures",
+        "action": "placez votre prise sur le poignet le plus proche et utilisez plutôt le tour en spirale pour les réduire. Le tour à griffes et le tour en spirale sont des systèmes complémentaires"
+      }
+    ],
+    "exitStrategies": []
+  },
+  "moneyDetails": [
+    "Le tour de griffes est le principal système pour briser les tortues dans la lutte moderne et BJJ — chaque grappler qui s'entraîne pour briser la tortue utilise ce système.",
+    "Maîtriser le tour en griffes vous donne un chemin fiable de la tortue à back control - la position la plus dominante du grappling",
+    "Le tour de griffe fonctionne contre des adversaires plus grands car il utilise un effet de levier (tirant sur la hanche) plutôt que la force."
+  ],
+  "fixItFast": [
+    "S'il se redresse malgré votre griffe : passez à une cravate et dirigez sa tête vers le tapis - le contrôle de la tête l'emporte à chaque fois sur la posture.",
+    "S'ils roulent vers vous : relâchez la griffe et prenez le dos",
+    "S'ils roulent loin de vous : suivez-les, maintenez la griffe et enfoncez votre torse dans leur dos."
+  ]
+}

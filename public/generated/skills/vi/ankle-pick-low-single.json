@@ -1,0 +1,130 @@
+{
+  "id": "ankle-pick-low-single",
+  "domain": "wrestle_up_wrestling",
+  "level": "intermediate",
+  "status": "draft",
+  "name": "Chọn mắt cá chân / Đơn thấp",
+  "aliases": [],
+  "tags": [
+    "ankle-pick",
+    "low-single",
+    "takedown",
+    "wrestling",
+    "shot"
+  ],
+  "keywords": [
+    "ankle pick",
+    "low single",
+    "head movement",
+    "hand fighting",
+    "lead leg",
+    "takedown"
+  ],
+  "relatedSkills": [
+    {
+      "id": "single-leg-bjj",
+      "type": "recommended"
+    },
+    {
+      "id": "arm-drag-system",
+      "type": "recommended"
+    },
+    {
+      "id": "body-lock-takedown",
+      "type": "recommended"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "hand-fighting",
+    "technical-stand-up"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [
+    "Nếu đối phương không phản ứng với cú búng đầu: búng mạnh hơn và thấp hơn - đầu của họ phải di chuyển về phía đầu gối của họ",
+    "Nếu bạn không thể chạm tới mắt cá chân: hãy bước lại gần hơn trước khi với tới - khoảng cách là lý do phổ biến nhất khiến việc nhấc mắt cá chân không thành công",
+    "Nếu bạn hạ cánh tại guard của họ: hướng kéo của bạn sai — kéo ngang cơ thể bạn chứ không kéo về phía bạn"
+  ],
+  "version": 1,
+  "updatedAt": "2026-05-21T00:24:30.770Z",
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "vi",
+  "description": "Tấn công chân trước bằng động tác đánh tay và chuyển động đầu, kết thúc bằng cách nâng mắt cá chân lên và đánh lái sang bên. Đòn tấn công mắt cá chân là đòn hạ gục có rủi ro thấp nhất trong No-Gi — nó không yêu cầu bước thâm nhập và khiến bạn gặp phải các mối đe dọa phản công tối thiểu.",
+  "shortInstruction": "Cúi đầu xuống để dồn trọng lượng lên chân trước, sau đó tấn công mắt cá chân bằng bàn tay gần của bạn. Kéo mắt cá chân qua cơ thể đồng thời đẩy vai bạn vào ngực họ để kết thúc.",
+  "summary": "Cú chọn mắt cá chân sử dụng thao tác bằng đầu để dồn trọng lượng lên chân trước của đối phương, sau đó tấn công vào mắt cá chân đó để loại bỏ phần đế của họ. Điều quan trọng là phần đầu bị gãy - nếu không có nó, mắt cá chân sẽ không chịu đủ trọng lượng để dễ bị tổn thương. Kết thúc sử dụng chuyển động kéo ngang (không nâng) để đẩy đối thủ xuống thảm. Miếng đệm mắt cá chân lý tưởng cho BJJ vì nó giữ cho đầu của bạn an toàn trước guillotine giây và không cần phải bắn vào đầu gối của bạn.",
+  "whyItWorks": [
+    "Cú búng đầu buộc đối phương dồn trọng lượng lên chân trước của họ để giữ thăng bằng - mắt cá chân có tải sẽ dễ dàng hơn nhiều để chọn",
+    "Việc nhấc mắt cá chân không yêu cầu bước thâm nhập — bạn luôn đứng thẳng trong suốt thời gian đó, tránh guillotines và sprawls",
+    "Kéo mắt cá chân sang một bên (không nâng) sử dụng trọng lượng của chính đối phương chống lại họ - họ ngã sang một bên chứ không phải về phía trước",
+    "Phần chọn mắt cá chân chuyển trực tiếp sang side control hoặc mount khi hoàn thành sạch sẽ"
+  ],
+  "commonMistakes": [
+    "Cố gắng nhấc mắt cá chân mà không búng vào đầu trước - mắt cá chân phải chịu tải nặng",
+    "Tiếp cận mắt cá chân từ quá xa - bạn phải bước trong tầm sải tay trước khi tấn công",
+    "Nâng mắt cá chân thay vì kéo sang bên - nâng khó hơn và dễ bị hỏng hơn",
+    "Giữ đầu ở trung tâm — đầu của bạn phải hướng ra bên ngoài để tránh guillotine"
+  ],
+  "coachingCues": [
+    "Chụp đầu trước, sau đó chọn",
+    "Bước gần, vươn ngắn",
+    "Kéo sang bên, không nhấc lên",
+    "Đi ra bên ngoài, giữ an toàn"
+  ],
+  "safetySummary": [
+    "Đòn móc mắt cá chân là một trong những đòn hạ gục an toàn nhất đối với kẻ tấn công — đầu của bạn luôn thẳng và tránh xa guillotines",
+    "Không nắm lấy bàn chân/ngón chân của đối phương - tay cầm phải ở mắt cá chân (vùng Achilles/bắp chân), không phải bàn chân",
+    "Khi kết thúc, đẩy đối thủ ra xa cơ thể bạn để tránh tiếp đất trong guard của họ"
+  ],
+  "systemLogic": {
+    "corePrinciple": "Việc chọn mắt cá chân tuân theo trình tự bốn bước: Chụp đầu → Bước vào → Nhấc mắt cá chân → Lái xe bên",
+    "decisionTree": [
+      {
+        "condition": "Ứng dụng chung",
+        "action": "Nếu Bước 1, Cú búng đầu: từ cà vạt cổ áo hoặc overhook, hất đầu đối phương xuống và về phía chân dẫn đầu của họ. Điều này tải trọng lượng lên chân dẫn. Ảnh chụp phải sắc nét, không kéo dài"
+      },
+      {
+        "condition": "Bước 2, Bước vào: bước chân chì của bạn ra bên ngoài chân chì của họ. Cơ thể của bạn phải nghiêng một góc 45 độ so với cơ thể của họ. Điều này đặt",
+        "action": "bạn ở trong phạm vi để lựa chọn"
+      },
+      {
+        "condition": "Ứng dụng chung",
+        "action": "Nếu Bước 3, Nhấc mắt cá chân: thả bàn tay gần của bạn vào mắt cá chân trước của họ và nắm chặt. Hãy quay đầu ra ngoài (cách xa ngực họ) để tránh guillotine"
+      },
+      {
+        "condition": "Ứng dụng chung",
+        "action": "Nếu Bước 4, Dẫn động bên: kéo mắt cá chân ngang cơ thể về phía hông xa của bạn đồng thời đẩy vai bạn vào ngực họ. Các lực tổng hợp làm chúng nghiêng sang một bên tấm thảm"
+      },
+      {
+        "condition": "Ứng dụng chung",
+        "action": "Hạ cánh: đưa họ đến thảm và ổn định ở side control hoặc knee-on-belly. Nếu họ tiếp đất bằng lưng, hãy vượt qua side control trước khi họ có thể phục hồi guard"
+      }
+    ],
+    "exitStrategies": []
+  },
+  "moneyDetails": [
+    "Đòn móc mắt cá chân là cách gỡ xuống an toàn nhất cho BJJ — không có bước thâm nhập nghĩa là không có rủi ro guillotine",
+    "Đó là một đòn hạ gục có tỷ lệ phần trăm cao chống lại những đối thủ nghiêng về phía trước hoặc đứng nặng ở chân dẫn trước của họ",
+    "Đòn bắt mắt cá chân có tác dụng ở mọi cấp độ vật lộn và đặc biệt hiệu quả trước những đối thủ cao hơn"
+  ],
+  "fixItFast": [
+    "Nếu chúng sprawl đập vào đầu bạn: chuyển sang đòn tấn công front headlock — cú búng đầu trở thành mục snapdown",
+    "Nếu họ rút chân ra: vòng sang phía bên kia và tấn công vào mắt cá chân kia",
+    "Nếu họ túm lấy đầu bạn để guillotine: đầu của bạn quá chính giữa — hãy giữ nó ở bên ngoài trong lần thử tiếp theo"
+  ]
+}

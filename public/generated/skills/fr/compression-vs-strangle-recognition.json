@@ -1,0 +1,128 @@
+{
+  "id": "compression-vs-strangle-recognition",
+  "domain": "positional_awareness",
+  "level": "intermediate",
+  "status": "draft",
+  "name": "Compression ou étranglement",
+  "aliases": [],
+  "tags": [
+    "compression",
+    "strangle",
+    "neck-safety",
+    "leg-lock",
+    "decision-making"
+  ],
+  "keywords": [
+    "compression lock",
+    "strangle",
+    "joint safety",
+    "neck safety",
+    "tap timing",
+    "submission recognition"
+  ],
+  "relatedSkills": [
+    {
+      "id": "knee-line-escape",
+      "type": "recommended"
+    },
+    {
+      "id": "bear-trap-ham-sandwich",
+      "type": "recommended"
+    },
+    {
+      "id": "guillotine-system",
+      "type": "recommended"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "heel-hook-safety",
+    "leg-lock-safety-basics"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [
+    "Si vous ressentez une douleur aiguë dans un muscle du ventre (mollet, biceps) : vous êtes dans un verrouillage par compression — appuyez sur si la douleur dépasse votre niveau de confort",
+    "Si vous ressentez une pression sur les côtés de votre cou (carotides) : vous êtes dans un état d'étranglement sanguin – défendez-vous, échappez-vous ou réinitialisez",
+    "Si vous ressentez une pression sur votre menton, votre gorge ou l'arrière de votre tête : appuyez immédiatement : vous êtes dans une manivelle ou un starter pneumatique."
+  ],
+  "version": 1,
+  "updatedAt": "2026-05-21T00:24:30.767Z",
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "fr",
+  "description": "Reconnaissez les blocages de compression (trancheur de mollet, trancheur de biceps) par rapport aux étranglements et réagissez correctement : tapotez lorsque la compression cible l'articulation, combattez lorsque vous ciblez le cou. Connaître la différence évite de recourir à des techniques sûres en cas de panique et de retarder dangereusement les techniques dangereuses.",
+  "shortInstruction": "La compression attaque le muscle contre l'os (tapoter lorsque la douleur est vive), les étranglements attaquent le cou (combattre si le sang étouffe, tapoter si l'air étouffe ou manivelle). En cas de doute, appuyez sur : les lésions musculaires mettent des semaines à guérir.",
+  "summary": "Les attaques de compression (slicers) appliquent une pression qui emprisonne un muscle du ventre contre un os, créant une vive douleur localisée. Les étranglements (étranglements sanguins) appliquent une pression sur les artères carotides. La réponse est inverse : pour les locks par compression, tapotez lorsque la douleur devient vive (ils ne vous feront pas perdre connaissance). En cas d'étouffement sanguin, vous pouvez vous défendre plus longtemps car l'inconscience est réversible. Le danger est de confondre un étranglement sanguin profond qui ressemble à une pression dans le cou avec une manivelle – appuyez tôt si la pression ne semble pas bonne.",
+  "whyItWorks": [
+    "Les verrous de compression ne provoquent pas d'inconscience - ils provoquent des douleurs de compression musculaires et nerveuses qui augmentent progressivement",
+    "Les étranglements de sang provoquent une perte de conscience en 4 à 10 secondes : vous avez le temps de vous défendre mais vous devez reconnaître le niveau de menace.",
+    "Les starters à air (pression de la trachée) et les manivelles du cou (pression de la colonne vertébrale) nécessitent une écoute immédiate en raison du risque de blessure structurelle",
+    "Savoir dans quel type d'attaque vous vous trouvez détermine si vous devez vous battre, vous échapper ou appuyer immédiatement"
+  ],
+  "commonMistakes": [
+    "Tapotements de panique sur les verrous de compression qui ne sont pas complètement appliqués – la douleur de compression est aiguë mais provoque rarement des dommages durables si vous tapotez tôt",
+    "Ne pas tapoter assez tôt pour aérer les étranglements ou les manivelles du cou - « tendre » un étranglement de la trachée peut endommager les cordes vocales",
+    "Confondre un étranglement sanguin serré avec une manivelle - un étranglement sanguin applique une pression sur les côtés du cou, pas sur l'avant ou l'arrière",
+    "Combattre un blocage de compression trop longtemps : les lésions musculaires causées par les trancheuses peuvent prendre des semaines à guérir"
+  ],
+  "coachingCues": [
+    "Compression = tapoter sur une douleur aiguë",
+    "Étouffement de sang = se battre ou s'échapper",
+    "Starter à air / manivelle = appuyer immédiatement",
+    "En cas de doute, appuyez sur"
+  ],
+  "safetySummary": [
+    "Les coupe-mollets compriment le gastrocnémien contre le tibia – douloureux mais provoque rarement des dommages structurels si vous tapotez lorsque la douleur devient aiguë",
+    "Les coupe-biceps compriment le biceps brachial contre l'humérus – peuvent causer des lésions nerveuses s'ils sont tenus trop longtemps",
+    "Les coupe-poignets (à partir de certaines positions de revers ou de préhension) peuvent comprimer les nerfs médian et cubital – tapotez tôt",
+    "Les étranglements sanguins qui persistent après l'inconscience peuvent provoquer des convulsions ou, dans de rares cas, un accident vasculaire cérébral - relâchez-les toujours immédiatement au robinet ou sur le corps mou.",
+    "Les étranglements d'air (pression sur la trachée) peuvent provoquer des lésions des cordes vocales, une fracture du cartilage thyroïde ou des difficultés respiratoires – appuyez immédiatement"
+  ],
+  "systemLogic": {
+    "corePrinciple": "Les trois types d'attaques sur le cou/les membres nécessitent des réponses différentes : Compression Lock → tapoter sur une douleur aiguë. Blood Choke → défendre/échapper avec le temps. Starter à air / manivelle → appuyez immédiatement.",
+    "decisionTree": [
+      {
+        "condition": "Verrous de compression (slicers) : le membre attaquant (tibia, avant-bras) pousse le muscle du ventre contre l'os, créant une ischémie (manque de flux sanguin) et une compression nerveuse. La douleur augmente progressivement",
+        "action": "vous avez le temps de taper. Ne durcissez pas les verrous de compression, car ils peuvent provoquer une rhabdomyolyse (dégradation des tissus musculaires) dans les cas extrêmes."
+      },
+      {
+        "condition": "Application générale",
+        "action": "Le sang étouffe (étrangle) : le ou les bras attaquants compriment les artères carotides, empêchant le sang oxygéné d'atteindre le cerveau. Vous avez 4 à 10 secondes de conscience après le verrouillage du starter. Les étranglements sanguins peuvent être entraînés en toute sécurité car l'inconscience est réversible"
+      },
+      {
+        "condition": "Application générale",
+        "action": "L'air étouffe : la pression exercée sur la trachée/la trachée restreint la respiration. Ceux-ci peuvent endommager l’os hyoïde, le cartilage thyroïde et les cordes vocales. Tapez immédiatement sur la pression de la trachée"
+      },
+      {
+        "condition": "Application générale",
+        "action": "Manivelles du cou : faites levier sur la colonne cervicale à travers le menton, l'arrière de la tête ou la base du crâne. Peut provoquer une hernie discale, des lésions ligamentaires et des douleurs chroniques au cou. Appuyez immédiatement"
+      }
+    ],
+    "exitStrategies": []
+  },
+  "moneyDetails": [
+    "Connaître la différence entre la compression, l'étranglement sanguin et la manivelle du cou est essentiel pour un entraînement en toute sécurité : des réponses incorrectes entraînent des blessures ou des tapotements inutiles.",
+    "La capacité de distinguer les types d'attaques en temps réel différencie les grapplers expérimentés des débutants.",
+    "Comprendre quand se battre (étouffement sanguin) et quand taper (manivelle/étranglement aérien/douleur de compression) optimise vos décisions défensives en compétition"
+  ],
+  "fixItFast": [
+    "Si vous n'êtes pas sûr du type d'attaque dans lequel vous vous trouvez : vérifiez où se situe la pression : côtés du cou = étranglement par le sang, devant du cou = étranglement par air, menton/colonne vertébrale = manivelle, muscle du ventre = compression.",
+    "Si l'adversaire a un verrou de compression mais que vous êtes à l'aise : tapez lorsque la douleur devient vive — n'attendez pas des dommages structurels",
+    "Si vous ressentez une pression dans le cou qui vous semble « mauvaise » : tapotez. Votre instinct est généralement correct"
+  ]
+}

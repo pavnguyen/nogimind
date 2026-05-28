@@ -24,7 +24,7 @@ const DB_VERSION = 1
 const CACHE_VERSION = 3
 
 /** Bump when MiniSearch options, document building, or underlying data changes */
-const INDEX_VERSION = 4
+const INDEX_VERSION = 5
 
 const STORE_DATA = 'data-bundle'
 const STORE_META = 'meta'

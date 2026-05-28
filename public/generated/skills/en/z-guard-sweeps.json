@@ -1,0 +1,122 @@
+{
+  "id": "z-guard-sweeps",
+  "domain": "guard_offense",
+  "level": "intermediate",
+  "status": "draft",
+  "name": "Z-Guard Sweeps & Deep Half",
+  "aliases": [],
+  "tags": [
+    "z-guard",
+    "deep-half",
+    "sweep",
+    "half-guard"
+  ],
+  "keywords": [
+    "z-guard",
+    "deep half",
+    "waiter sweep",
+    "wrestle-up",
+    "knee shield"
+  ],
+  "relatedSkills": [
+    {
+      "id": "half-guard-wrestle-up",
+      "type": "recommended"
+    },
+    {
+      "id": "dogfight-knee-tap",
+      "type": "recommended"
+    },
+    {
+      "id": "side-control-escape",
+      "type": "recommended"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "half-guard-knee-shield",
+    "half-guard-wrestle-up"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [
+    "If you can't slide into deep half, your underhook is not deep enough — drive your shoulder further under their armpit.",
+    "If the waiter sweep doesn't work, their weight is too far back — switch to wrestle-up.",
+    "If they flatten you, you lost the underhook — pummel back to it before trying to sweep."
+  ],
+  "version": 1,
+  "updatedAt": "2026-05-21T00:24:30.748Z",
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "en",
+  "description": "Use the knee shield (Z-guard) and underhook to create deep half entries, waiter sweeps, or wrestle-up opportunities from the bottom half guard.",
+  "shortInstruction": "Knee shield, underhook, feel their weight — slide into deep half or sweep from Z-guard.",
+  "summary": "Z-guard (knee shield) is the control position; sweeps are the payoff. From Z-guard, your knee shield creates distance while you fight for the underhook. Once you win the underhook, you have three main sweep options: slide into deep half (when they drive forward), hit the waiter sweep (when they stand), or wrestle up (when they back away). The Z-guard to deep half transition is one of the highest percentage sweep chains in no-gi.",
+  "whyItWorks": [
+    "The knee shield prevents chest pressure, giving you time to find the underhook.",
+    "Winning the underhook gives you the control point to enter deep half — without it, deep half is impossible.",
+    "Your bottom half guard sweeps exploit their forward momentum — the harder they drive, the easier the sweep.",
+    "Danaher principle: half guard sweeps are not about strength — they are about weight timing and angle."
+  ],
+  "commonMistakes": [
+    "Trying to sweep without winning the underhook first — the underhook is the key to all half guard sweeps.",
+    "Going to deep half when they are postured up — deep half works when they drive forward, not when they stand.",
+    "Using only your arms to sweep — the power comes from your hip movement and leg drive.",
+    "Staying in Z-guard too long — Z-guard is control; sweeps are the exit."
+  ],
+  "coachingCues": [
+    "Win the underhook, then sweep — never before.",
+    "Feel their weight — forward is deep half, back is wrestle-up.",
+    "Slide your hips under theirs, not next to them.",
+    "Z-guard is the waiting room — sweeps are the exit door."
+  ],
+  "safetySummary": [
+    "Do not crank your partner's neck during underhook battles — keep your head in their chest, not their neck.",
+    "When entering deep half, protect your face from their crossfacing arm.",
+    "If they stack you during the sweep, bail out and reset — do not let them drive your head into the mat."
+  ],
+  "systemLogic": {
+    "corePrinciple": "Z-guard (knee shield) → win underhook → read their weight → choose sweep.",
+    "decisionTree": [
+      {
+        "condition": "Reaction 1: They drive forward",
+        "action": "slide into deep half → waiter sweep or back take."
+      },
+      {
+        "condition": "Reaction 2: They posture up",
+        "action": "technical stand-up → wrestle up."
+      },
+      {
+        "condition": "Reaction 3: They reach across",
+        "action": "kimura trap → sweep or submission."
+      }
+    ],
+    "exitStrategies": []
+  },
+  "moneyDetails": [
+    "The underhook must be deep — your shoulder should be under their armpit, not just your arm wrapped around their back.",
+    "To enter deep half, slide your head to the far side of their body while keeping the underhook.",
+    "The waiter sweep works by pushing their far knee with your foot while pulling their near leg — scissor motion.",
+    "If they resist the sweep by stepping back, follow them and enter single-leg X."
+  ],
+  "nextStep": "After Z-guard sweeps, learn the deep half guard and waiter sweep in detail.",
+  "fixItFast": [
+    "Can't slide into deep half? Your underhook is too shallow — dig deeper under their armpit.",
+    "They keep backing out? Stop chasing — wrestle up instead.",
+    "Waiter sweep not working? Push their far knee, not their hip — the knee is the tipping point."
+  ]
+}

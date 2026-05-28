@@ -1,0 +1,57 @@
+{
+  "id": "claw-ride-position",
+  "locale": "vi",
+  "title": "Claw Ride",
+  "category": "back",
+  "status": "advantage",
+  "description": "Ride dùng kết hợp underhook sâu + head control + hip pressure từ turtle để lộ lưng hoặc mat return.",
+  "topPlayerGoals": [
+    "Người ở trên muốn kiểm soát Claw Ride bằng vị trí đầu, vị trí trong và áp lực có hướng.",
+    "Giữ underhook sâu, head post và hip pressure offset để ngăn stand-up.",
+    "Giữ nền vững để không bị mất thăng bằng hoặc bị phản đòn."
+  ],
+  "bottomPlayerGoals": [
+    "Người ở dưới muốn sống sót trong Claw Ride bằng khung chặn, pummel hoặc góc phù hợp.",
+    "Pummel underhook ra, đưa đầu vào hip line và giữ gối dưới hông.",
+    "Nhận diện tín hiệu nguy hiểm sớm thay vì chờ vị trí ổn định."
+  ],
+  "controlPoints": [
+    "Điểm kiểm soát chính: Underhook depth, head post và hip pressure vector..",
+    "Đầu, tay, hông và gối nên cùng hướng lực.",
+    "Kết nối khuỷu-gối hoặc đường hông-vai quyết định vị trí còn sống hay đã bị khóa."
+  ],
+  "escapePriorities": [
+    "Ưu tiên thoát: Chống underhook trước — nếu underhook mất thì head post và hip pressure cũng vô hiệu..",
+    "Bảo vệ cổ, lưng, đường gối hoặc đường tay trước khi phản công.",
+    "Nếu mất vị trí trong, hãy lùi lại một lớp phòng thủ trước."
+  ],
+  "advancementOptions": [
+    {
+      "action": "Chuyển hook hoặc back take",
+      "nextPositionId": "back-control-position",
+      "relatedSkillIds": [
+        "claw-ride",
+        "turtle-ride",
+        "back-control"
+      ],
+      "why": "Đây là nhánh tự nhiên khi bạn thắng điểm kiểm soát chính và đối thủ buộc phải phòng thủ."
+    }
+  ],
+  "dangerSignals": [
+    "Cằm hoặc cổ bị kéo ra khỏi đường an toàn.",
+    "Khuỷu tay tách khỏi sườn hoặc đầu gối.",
+    "Đường hông bị khóa trong khi đường vai vẫn đang bị kéo.",
+    "Bạn phải chống tay dài để không ngã."
+  ],
+  "relatedSkillIds": [
+    "claw-ride",
+    "turtle-ride",
+    "back-control",
+    "cross-wrist-ride"
+  ],
+  "relatedConceptIds": [
+    "ride-vs-pin-vs-submission",
+    "hooks",
+    "connection-before-control"
+  ]
+}

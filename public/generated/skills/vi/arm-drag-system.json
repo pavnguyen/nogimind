@@ -1,0 +1,126 @@
+{
+  "id": "arm-drag-system",
+  "domain": "wrestle_up_wrestling",
+  "level": "intermediate",
+  "status": "draft",
+  "name": "Hệ thống kéo cánh tay",
+  "aliases": [],
+  "tags": [
+    "arm-drag",
+    "back-take",
+    "single-leg",
+    "front-headlock",
+    "wrestling"
+  ],
+  "keywords": [
+    "arm drag",
+    "back take",
+    "single leg",
+    "front headlock",
+    "angle",
+    "footwork"
+  ],
+  "relatedSkills": [
+    {
+      "id": "single-leg-bjj",
+      "type": "recommended"
+    },
+    {
+      "id": "snapdown-front-headlock",
+      "type": "recommended"
+    },
+    {
+      "id": "back-attack-system",
+      "type": "recommended"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "hand-fighting",
+    "technical-stand-up"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [
+    "Nếu đối thủ chống lại lực cản: chuyển sang snapdown - lực cản của họ trở thành động lượng về phía trước",
+    "Nếu bạn không thể theo sau họ: bước đi của bạn quá ngắn - bàn chân bên ngoài phải vượt qua gót chân của họ",
+    "Nếu họ phản công bằng guillotine: đầu bạn quá cao — hãy giữ đầu bạn ở dưới đường vai của họ"
+  ],
+  "version": 1,
+  "updatedAt": "2026-05-21T00:24:30.769Z",
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "vi",
+  "description": "Kéo cánh tay của đối phương qua đường giữa, kết hợp chuyển động đầu và động tác chân để ra đòn sau, một chân hoặc front headlock. Kéo tay là mục có tỷ lệ hạ gục cao nhất trong No-Gi vì nó tấn công sự cân bằng của đối thủ trước căn cứ của họ.",
+  "shortInstruction": "Kéo cánh tay xa của họ qua đường giữa của bạn, bước ra sau chân trước của họ bằng bàn chân ngoài của bạn và nắm lấy chân sau hoặc chân đơn. Giữ đầu của bạn thấp và hướng ra bên ngoài.",
+  "summary": "Động tác kéo cánh tay kéo cánh tay của đối phương ngang qua cơ thể bạn, làm gián đoạn cơ sở của họ và làm lộ lưng hoặc chân xa của họ. Từ động tác kéo bằng tay, bạn có ba nhánh chính: (1) lùi lại — vòng ra phía sau khi họ theo lực kéo, (2) một chân — thả xuống chân xa khi họ đứng lên, (3) front headlock — bẻ xuống khi họ chống lại lực kéo. Kéo tay là nền tảng của tất cả các đòn hạ gục theo kiểu chớp nhoáng trong No-Gi.",
+  "whyItWorks": [
+    "Kéo cánh tay qua đường giữa sẽ làm xoay phần thân trên của đối phương, phá vỡ thế đứng và sự thăng bằng của họ",
+    "Kéo tay để lộ lưng hoặc chân xa của đối phương - cả hai đều là mục tiêu có giá trị cao",
+    "Lực kéo tạo ra động lượng về phía trước mà đối thủ phải chống lại - bạn có thể sử dụng động lượng này để chống lại họ",
+    "Việc kéo cánh tay được an toàn trước các quầy guillotine vì đầu của bạn luôn ở vị trí thấp và hướng ra bên ngoài"
+  ],
+  "commonMistakes": [
+    "Kéo cánh tay về phía ngực thay vì kéo ngang cơ thể - hướng kéo phải ngang chứ không hướng về phía",
+    "Đứng quá cao trong khi kéo - tư thế của bạn phải ở mức thấp để ngăn đối thủ phản công",
+    "Không bước theo lực kéo - động tác bằng chân phải đi kèm với lực kéo của cánh tay để tạo góc",
+    "Để đối thủ thiết lập lại thế bám - sau khi bạn kéo, hãy cam kết gỡ xuống ngay lập tức"
+  ],
+  "coachingCues": [
+    "Kéo qua, không hướng tới",
+    "Bước với lực kéo, tạo góc",
+    "Tư thế thấp, đầu ở ngoài",
+    "Kéo → quay lại, đơn lẻ hoặc snapdown"
+  ],
+  "safetySummary": [
+    "Kéo tay là một động tác hạ gục có rủi ro thấp — đầu của bạn tránh xa guillotine giây và đầu gối của bạn không chạm thảm",
+    "Không giật mạnh cánh tay - kéo có kiểm soát với động tác bằng chân phù hợp sẽ an toàn và hiệu quả hơn",
+    "Khi rút lưng khỏi lực kéo của cánh tay, hãy bảo vệ vị trí đầu của bạn để tránh bị vẹo cổ"
+  ],
+  "systemLogic": {
+    "corePrinciple": "Hệ thống kéo tay có ba nhánh: Lùi lại → Chân đơn → front headlock, đọc từ phản ứng của đối thủ",
+    "decisionTree": [
+      {
+        "condition": "Sử dụng Nhánh 1 (Quay lại)",
+        "action": "khi bạn kéo cánh tay qua, bước chân ngoài của bạn ra sau chân trước của họ. Vòng ra phía sau họ. Nếu họ đi theo lực kéo, hãy lùi lại. Nếu họ sprawl, hãy chuyển sang một chặng"
+      },
+      {
+        "condition": "Sử dụng nhánh 2 (Chân đơn)",
+        "action": "nếu đối thủ đặt chân xa của họ để chống lại lực cản, hãy thả tay trong của bạn xuống mắt cá chân xa của họ và kết thúc chân đơn. Việc kéo cánh tay đã phá vỡ căn cứ của họ"
+      },
+      {
+        "condition": "Sử dụng Nhánh 3 (front headlock)",
+        "action": "nếu đối thủ giảm cấp độ để chống lại lực cản, hãy hạ gục họ vào front headlock. Động lượng tiến về phía trước đưa họ vào snapdown"
+      },
+      {
+        "condition": "Đọc phản ứng của đối thủ",
+        "action": "họ đi theo lực kéo → lùi lại. Họ đăng chân xa → chân đơn. Họ giảm cấp độ → snapdown xuống front headlock"
+      }
+    ],
+    "exitStrategies": []
+  },
+  "moneyDetails": [
+    "Kéo tay là mục có tỷ lệ hạ gục cao nhất trong No-Gi vì nó tấn công sự cân bằng trước căn cứ",
+    "Việc thành thạo hệ thống kéo tay mang lại cho bạn ba lần hạ gục từ một mục nhập — bạn luôn có các lựa chọn",
+    "Động tác kéo tay đặc biệt hiệu quả trước những đối thủ hung hãn lao về phía trước"
+  ],
+  "fixItFast": [
+    "Nếu họ sprawl khi đang kéo: chuyển sang front headlock — sprawl của họ để hở cổ",
+    "Nếu họ kéo lại: đổi hướng và kéo lại cánh tay kia",
+    "Nếu chúng túm lấy đầu bạn: hãy đập mạnh vào bên trong và thiết lập lại tay cầm kéo"
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "id": "buggy-choke",
+  "domain": "submission_systems",
+  "level": "advanced",
+  "name": "Buggy Choke",
+  "aliases": [],
+  "tags": [
+    "buggy-choke",
+    "side-control-bottom",
+    "neck-safety",
+    "tier:advanced-niche",
+    "meta:specialized",
+    "risk:safety-critical",
+    "family:submission",
+    "group:smother",
+    "modern-no-gi"
+  ],
+  "keywords": [
+    "buggy choke",
+    "side control bottom",
+    "neck safety"
+  ],
+  "modernSystemGroup": "smother",
+  "relatedSkills": [
+    {
+      "id": "smother-safety",
+      "type": "recommended"
+    },
+    {
+      "id": "gogoplata",
+      "type": "recommended"
+    },
+    {
+      "id": "side-control-escape",
+      "type": "recommended"
+    }
+  ],
+  "prerequisiteSkillIds": [
+    "side-control-survival",
+    "side-control-escape"
+  ],
+  "relatedPositions": [],
+  "relatedConcepts": [],
+  "archetypeIds": [],
+  "trainingMethodIds": [],
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "updatedAt": "2026-05-21T00:24:30.776Z"
+}

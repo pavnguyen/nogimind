@@ -1,0 +1,65 @@
+{
+  "id": "pummeling",
+  "locale": "fr",
+  "title": "Pummeling",
+  "category": "mechanical",
+  "level": "fundamental",
+  "tags": [
+    "pummel",
+    "inside position",
+    "underhook"
+  ],
+  "shortDefinition": "Pummeling est la bataille répétée pour reprendre les lignes inside avec mains, tête, genoux ou hanches.",
+  "whyItMatters": "En no-gi sans grips kimono, pummeling reconstruit contrôle après chaque réaction.",
+  "deepExplanation": "Pummeling n’est pas seulement underhook. Guard retention a knee pummel; leg locks knee line; front headlock elbow/chin.",
+  "beginnerView": "Si inside perdu, récupérer avant attaquer.",
+  "advancedView": "Pummel selon réaction: là où il frame, une autre ligne inside s’ouvre.",
+  "ifThenExamples": [
+    {
+      "if": "Si vous perdez Pummeling pendant l’échange.",
+      "then": "Arrêtez d’accélérer, récupérez la structure corporelle proche, puis continuez.",
+      "why": "Le no-gi moderne punit vite la force après perte de structure.",
+      "relatedSkillIds": [
+        "frames-pummeling",
+        "hand-fighting"
+      ]
+    },
+    {
+      "if": "Si l’adversaire répond correctement à votre première ligne.",
+      "then": "Utilisez Pummeling pour passer à une branche plus sûre au lieu de forcer.",
+      "why": "Un bon concept transforme la réaction adverse en information pour la décision suivante.",
+      "relatedSkillIds": [
+        "hand-fighting",
+        "half-guard-wrestle-up",
+        "bodylock-passing"
+      ]
+    }
+  ],
+  "commonMisunderstandings": [
+    {
+      "misunderstanding": "Pummeling est une astuce technique isolée.",
+      "correction": "Voyez-le comme une règle de décision présente dans plusieurs positions."
+    },
+    {
+      "misunderstanding": "Comprendre le concept suffit pour l’utiliser en live.",
+      "correction": "Le concept doit être lié à signaux corporels, cues courts et rolling positionnel."
+    }
+  ],
+  "trainingCues": [
+    "Nommez Pummeling avant d’ajouter force.",
+    "Cherchez le signal corporel, pas une impression vague.",
+    "Si la structure est perdue, reset une couche d’abord.",
+    "Driller lentement, puis tester avec résistance progressive."
+  ],
+  "relatedSkillIds": [
+    "frames-pummeling",
+    "hand-fighting",
+    "half-guard-wrestle-up",
+    "bodylock-passing"
+  ],
+  "relatedConceptIds": [
+    "inside-position",
+    "frames",
+    "failure-response"
+  ]
+}

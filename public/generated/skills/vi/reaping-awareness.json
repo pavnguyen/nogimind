@@ -1,0 +1,142 @@
+{
+  "id": "reaping-awareness",
+  "domain": "positional_awareness",
+  "level": "beginner",
+  "status": "draft",
+  "name": "Gặt hái nhận thức",
+  "aliases": [
+    "reaping the knee",
+    "knee reaping safety",
+    "leg reap rules"
+  ],
+  "tags": [
+    "safety",
+    "knee-safety",
+    "leg-lock",
+    "tier:safety-critical",
+    "risk:safety-critical",
+    "family:safety",
+    "group:leg-safety",
+    "ibjjf-rules",
+    "modern-no-gi"
+  ],
+  "keywords": [
+    "reaping",
+    "knee line",
+    "medial rotation",
+    "outside ashi",
+    "ibjjf",
+    "heel exposure"
+  ],
+  "modernSystemGroup": "leg_locking_safety",
+  "relatedSkills": [
+    {
+      "id": "leg-lock-safety-basics",
+      "type": "prerequisite"
+    },
+    {
+      "id": "heel-hook-safety",
+      "type": "recommended"
+    },
+    {
+      "id": "single-leg-x-basics",
+      "type": "recommended"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "positional-hierarchy",
+    "leg-lock-safety-basics"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [],
+  "version": 1,
+  "updatedAt": "2026-06-12T00:00:00.000Z",
+  "contentRefs": {
+    "videos": "videos.json",
+    "qualityChecklist": "qualityChecklist"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": true,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "vi",
+  "description": "Nhận biết và tránh việc giật đầu gối trái phép trong các vướng mắc khóa chân. Cú đánh xảy ra khi bàn chân tấn công vượt qua đường giữa của đối phương và gót chân hướng về phía hông, tạo ra mômen quay nguy hiểm trên đầu gối.",
+  "shortInstruction": "Nếu chân tấn công của bạn vượt qua đường rốn của đối phương và gót chân của bạn hướng về phía hông của họ, bạn đang gặt hái. Ngay lập tức thả ra hoặc điều chỉnh sang vị trí ashi bên ngoài để luyện tập an toàn.",
+  "summary": "Nhận thức về việc thu lại sẽ dạy bạn cách xác định khi nào một tư thế vướng chân trở thành một tư thế bất hợp pháp (quy tắc IBJJF) hoặc một tư thế đầu gối nguy hiểm và cách điều chỉnh sang các tư thế luyện tập an toàn. Biện pháp quan trọng là đường giữa - nếu chân tấn công của bạn ở phía đối diện với cơ thể đối phương so với nơi bạn bắt đầu, bạn có khả năng sẽ gặt hái được. Điều nguy hiểm là việc gặt sẽ áp dụng mô-men quay tương tự lên đầu gối như heel hook và việc luyện tập ở các tư thế gặt sẽ bình thường hóa các góc đầu gối không an toàn.",
+  "whyItWorks": [
+    "Hiểu được đường giữa và bên của đầu gối sẽ ngăn ngừa chấn thương khi tập luyện - việc gặt áp dụng lực xoay bên ngoài cho đầu gối có thể làm hỏng MCL và sụn chêm",
+    "Biết các quy định của cuộc thi sẽ tránh bị loại — IBJJF cấm gặt hái ở mọi cấp độ đai",
+    "Nhận biết việc gặt sớm cho phép điều chỉnh an toàn trước khi áp dụng mô-men xoắn — bạn có thể chuyển sang ashi bên ngoài hoặc 50/50",
+    "Rèn luyện ý thức gặt giúp ngăn ngừa chấn thương do tai nạn khi tập luyện ở cường độ cao hơn"
+  ],
+  "commonMistakes": [
+    "Nhầm lẫn giữa động tác (bàn chân bắt chéo đường giữa, gót chân hướng tới hông) với động tác bên ngoài (bàn chân vẫn ở cùng một phía) - chúng trông giống nhau nhưng nguy cơ đầu gối lại hoàn toàn khác nhau",
+    "Tiếp tục tạo áp lực khóa chân sau khi đối tác có dấu hiệu đau - luôn kiểm tra xem bạn đang ở tư thế nào",
+    "Không biết sự khác biệt giữa việc tiếp xúc với gót chân và việc tiếp xúc với gót chân hợp pháp - chỉ riêng việc tiếp xúc với gót chân sẽ không được thực hiện nếu bàn chân không vượt qua đường giữa",
+    "Giả sử việc gặt 'nhẹ' là an toàn - mô-men xoắn tác dụng dần dần vẫn gây căng thẳng cho cấu trúc đầu gối"
+  ],
+  "coachingCues": [
+    "Chân bắt chéo đường giữa = gặt",
+    "Gót chân vào hông = xoay nguy hiểm",
+    "Bên ngoài ashi an toàn, inside sankaku đang gặt",
+    "Khi nghi ngờ, hãy chuyển sang khóa chân thẳng"
+  ],
+  "safetySummary": [
+    "Việc gặt tác dụng mô-men quay nguy hiểm lên đầu gối - MCL dễ bị tổn thương nhất, tiếp theo là ACL và sụn chêm",
+    "Luôn thả ra ngay lập tức nếu bạn cảm thấy chân vượt qua đường giữa của đối phương trong lúc vướng chân",
+    "Khi nghi ngờ, hãy chuyển sang tư thế ashi bên ngoài (chân cùng một phía) hoặc tư thế khóa chân thẳng (không bắt chéo)",
+    "Quy tắc IBJJF: gặt hái kết quả là bị loại ngay lập tức ở mọi cấp độ đai",
+    "Trong các quy tắc chỉ phụ của ADCC và No-Gi, việc gặt là hợp pháp nhưng vẫn tiềm ẩn nguy cơ chấn thương đầu gối cố hữu"
+  ],
+  "systemLogic": {
+    "corePrinciple": "Cú đánh xảy ra khi bàn chân tấn công vượt qua đường giữa của đối phương và gót chân hướng về phía hông, tạo ra mômen quay nguy hiểm trên đầu gối. Điểm đánh dấu an toàn quan trọng là đường giữa - nếu chân tấn công của bạn ở phía đối diện với cơ thể của họ, bạn đang gặt hái.",
+    "decisionTree": [
+      {
+        "condition": "Bàn chân của bạn vượt qua đường giữa của đối phương trong một lần vướng chân",
+        "action": "Bạn đang gặt - ngay lập tức trượt chân tấn công của bạn về cùng phía với cơ thể của họ và chuyển sang vị trí ashi bên ngoài. Đừng tạo áp lực cho đến khi bạn đã điều chỉnh."
+      },
+      {
+        "condition": "Bạn là inside sankaku (saddle) và muốn tập luyện an toàn",
+        "action": "Xoay hông ra sau để đưa chân về cùng một phía, đi ra ngoài ashi. Điều này loại bỏ điều kiện gặt trong khi vẫn duy trì khả năng kiểm soát chân."
+      },
+      {
+        "condition": "Bạn cảm thấy đầu gối của mình bị tác động (chân ở sai bên, gót chân hướng về phía hông)",
+        "action": "Nhấn ngay lập tức và yêu cầu đối tác của bạn kiểm tra vị trí chân của họ trước khi tiếp tục. Mômen quay có thể làm hỏng MCL trước khi bạn cảm thấy đau."
+      },
+      {
+        "condition": "Bạn không chắc liệu mình có đang thu hoạch hay không",
+        "action": "Dừng lại, duỗi thẳng chân và vào lại từ vị trí an toàn bên ngoài ashi. Khi nghi ngờ, hãy chuyển sang khóa chân thẳng - không liên quan đến việc vượt qua."
+      },
+      {
+        "condition": "Đối tác của bạn phải chịu áp lực trong quá trình tập luyện",
+        "action": "Kiểm tra vị trí chân của bạn - bạn có thể ở xa đường giữa hơn bạn nghĩ. Thả ra ngay lập tức và điều chỉnh theo ashi bên ngoài trước khi tiếp tục."
+      }
+    ],
+    "exitStrategies": [
+      "Theo quy tắc IBJJF, việc gặt hái sẽ bị loại ngay lập tức ở tất cả các cấp độ đai - thay vào đó hãy tập luyện bên ngoài ashi hoặc thẳng ankle lock.",
+      "Theo quy tắc ADCC hoặc No-Gi, việc tập luyện là hợp pháp nhưng vẫn có nguy cơ chấn thương đầu gối - tập luyện với cường độ được kiểm soát và giải phóng khi có bất kỳ dấu hiệu khó chịu nào.",
+      "Nếu bạn muốn tập khóa chân một cách an toàn, hãy tìm hiểu sự khác biệt giữa ashi bên ngoài (an toàn) và inside sankaku (gặt) trước khi thực hiện bất kỳ động tác vướng chân nào."
+    ]
+  },
+  "moneyDetails": [
+    "Nhận thức về việc thu hồi sẽ ngăn chặn việc bị loại phổ biến nhất trong các cuộc thi IBJJF — một DQ thu được sẽ tiêu tốn toàn bộ giải đấu",
+    "Hiểu về động tác gặt giúp bảo vệ đối tác tập luyện của bạn khỏi chấn thương đầu gối do tai nạn trong quá trình tập luyện khóa chân",
+    "Học cách điều chỉnh từ khi thu hoạch đến vị trí an toàn (ngoài ashi, 50/50) giúp bạn trở thành đối tác luyện tập linh hoạt hơn và an toàn hơn"
+  ],
+  "fixItFast": [
+    "Nếu bạn là inside sankaku (saddle) và muốn điều chỉnh: dịch hông ra sau để đưa chân về cùng một phía, hãy đi vào bên ngoài ashi",
+    "Nếu bạn cảm thấy đầu gối của mình bị giật: hãy chạm ngay và yêu cầu đối tác kiểm tra vị trí bàn chân của họ trước khi tiếp tục",
+    "Nếu bạn là người tấn công và không chắc chắn: duỗi thẳng cả hai chân, giải phóng sự vướng víu và vào lại từ vị trí chân trung lập"
+  ]
+}

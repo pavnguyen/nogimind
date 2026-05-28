@@ -1,0 +1,48 @@
+{
+  "id": "half-guard-knee-shield",
+  "domain": "guard_retention",
+  "level": "beginner",
+  "name": "Half Guard Knee Shield",
+  "aliases": [],
+  "tags": [
+    "half-guard",
+    "guard"
+  ],
+  "keywords": [
+    "knee shield",
+    "underhook",
+    "crossface",
+    "wrestle-up"
+  ],
+  "relatedSkills": [
+    {
+      "id": "half-guard-wrestle-up",
+      "type": "recommended"
+    },
+    {
+      "id": "side-control-escape",
+      "type": "recommended"
+    },
+    {
+      "id": "knee-cut-passing",
+      "type": "recommended"
+    }
+  ],
+  "prerequisiteSkillIds": [
+    "supine-guard-retention"
+  ],
+  "relatedPositions": [],
+  "relatedConcepts": [],
+  "archetypeIds": [],
+  "trainingMethodIds": [],
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "updatedAt": "2026-05-21T00:24:30.745Z"
+}

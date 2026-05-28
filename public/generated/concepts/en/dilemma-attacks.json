@@ -1,0 +1,65 @@
+{
+  "id": "dilemma-attacks",
+  "locale": "en",
+  "title": "Dilemma Attacks",
+  "category": "offensive",
+  "level": "advanced",
+  "tags": [
+    "dilemma",
+    "chain",
+    "submission"
+  ],
+  "shortDefinition": "A dilemma is two or more threats where defending one line exposes another.",
+  "whyItMatters": "At higher levels, opponents do not give single finishes; you need chains based on reactions.",
+  "deepExplanation": "Good dilemmas start from control. In back control, defending the neck exposes arm trap; clearing hooks exposes mount. Attacking becomes designed bad choices, not luck.",
+  "beginnerView": "Prepare the second attack when the first is blocked.",
+  "advancedView": "Build branches where every defense keeps you in a better hierarchy.",
+  "ifThenExamples": [
+    {
+      "if": "If you lose Dilemma Attacks during the exchange.",
+      "then": "Stop accelerating, recover the nearest body structure, then continue the technique.",
+      "why": "Modern no-gi punishes forceful continuation after structure is lost.",
+      "relatedSkillIds": [
+        "dilemmas-two-way-attacks",
+        "rear-naked-choke-system"
+      ]
+    },
+    {
+      "if": "If the opponent correctly answers your first line.",
+      "then": "Use Dilemma Attacks to switch to a safer branch instead of forcing the same line.",
+      "why": "A good concept turns the opponent’s reaction into information for the next decision.",
+      "relatedSkillIds": [
+        "rear-naked-choke-system",
+        "guillotine-system",
+        "kimura-system"
+      ]
+    }
+  ],
+  "commonMisunderstandings": [
+    {
+      "misunderstanding": "Dilemma Attacks is a single technical trick.",
+      "correction": "Treat it as a decision rule that appears across many positions."
+    },
+    {
+      "misunderstanding": "Understanding the concept automatically makes it work live.",
+      "correction": "The concept needs body signals, short cues, and positional rolling."
+    }
+  ],
+  "trainingCues": [
+    "Name Dilemma Attacks before adding force.",
+    "Find the body signal instead of guessing generally.",
+    "If structure is lost, reset one layer first.",
+    "Drill slowly, then test with progressive resistance."
+  ],
+  "relatedSkillIds": [
+    "dilemmas-two-way-attacks",
+    "rear-naked-choke-system",
+    "guillotine-system",
+    "kimura-system"
+  ],
+  "relatedConceptIds": [
+    "control-before-submission",
+    "failure-response",
+    "angle-creation"
+  ]
+}

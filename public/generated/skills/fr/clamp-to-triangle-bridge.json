@@ -1,0 +1,119 @@
+{
+  "id": "clamp-to-triangle-bridge",
+  "domain": "guard_offense",
+  "level": "advanced",
+  "status": "draft",
+  "name": "Fixez guard au pont triangle",
+  "aliases": [],
+  "tags": [
+    "clamp-guard",
+    "triangle",
+    "transition",
+    "guard-offense",
+    "submission-chain"
+  ],
+  "keywords": [
+    "clamp guard",
+    "triangle choke",
+    "transition",
+    "guard offense",
+    "submission chain"
+  ],
+  "relatedSkills": [
+    {
+      "id": "omoplata-system",
+      "type": "recommended"
+    },
+    {
+      "id": "false-reap-entry",
+      "type": "recommended"
+    },
+    {
+      "id": "k-guard-entry",
+      "type": "recommended"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "clamp-guard-system",
+    "triangle-armbar-dilemma"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [
+    "Si vous ne parvenez pas à passer votre jambe, c'est qu'ils n'ont pas encore réagi – attendez ou créez la réaction en serrant la pince.",
+    "S'ils sortent du triangle, vous n'avez pas rompu leur posture avant de verrouiller : abaissez leur tête avec votre overhook.",
+    "S’ils vous empilent, votre angle est mauvais – coupez davantage l’angle avant de verrouiller les jambes."
+  ],
+  "version": 1,
+  "updatedAt": "2026-05-21T00:24:30.770Z",
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "fr",
+  "description": "Pont de la pince guard dans le starter triangle : lorsque l'adversaire se défend en se tenant debout ou en écartant ses hanches, utilisez son mouvement pour faire pivoter votre jambe par-dessus son épaule et verrouiller le triangle.",
+  "shortInstruction": "L'adversaire se lève ou écarte les hanches ? Faites passer votre jambe supérieure par-dessus son épaule, verrouillez le triangle et brisez sa posture.",
+  "summary": "Le pont de serrage à triangle est la chaîne d'attaque principale de la pince guard. Lorsque l'adversaire sent la pince et tente de s'échapper en se tenant debout ou en prenant une posture, il crée exactement l'espace dont vous avez besoin pour jeter votre jambe par-dessus son épaule. Leur fuite devient votre configuration. Le pont n'est pas un mouvement de force, c'est une transition de timing et d'angle.",
+  "whyItWorks": [
+    "La pince oblige l'adversaire à réagir. Leur réponse naturelle (posture/debout) ouvre l'angle pour le triangle.",
+    "Lorsqu'ils séparent leurs hanches, votre jambe supérieure oscille librement sur leur épaule sans résistance.",
+    "Le overhook de la pince devient la position bras en place pour le triangle — aucun changement de poignée n'est nécessaire.",
+    "Principe de Danaher : utilisez l'énergie de fuite de l'adversaire pour alimenter votre attaque – son mouvement est votre opportunité."
+  ],
+  "commonMistakes": [
+    "En essayant de passer à triangle avant que l'adversaire ne réagisse, vous avez besoin de son mouvement pour créer de l'espace.",
+    "En balançant la jambe sans contrôler leur posture, ils sortiront du triangle.",
+    "Laisser passer le overhook pendant le pont - le overhook devient le bras, alors gardez-le serré.",
+    "À défaut de verrouiller les jambes derrière le dos après le pont, le triangle n'est sécurisé que si vos jambes sont verrouillées."
+  ],
+  "coachingCues": [
+    "Attendez leur réaction : le pont est un contre-attaque, pas une initiation.",
+    "Jambe au-dessus de l’épaule, pas au-dessus de la tête.",
+    "Gardez le overhook - c'est votre bras pour le triangle.",
+    "Verrouillez le triangle avant de presser – positionnez-le en premier."
+  ],
+  "safetySummary": [
+    "Ne faites pas de pont de manière explosive si leur poids repose sur vos hanches – vous pouvez hyperétendre votre propre dos.",
+    "Lorsque vous verrouillez le triangle, gardez le bras de l'adversaire sur votre corps pour éviter une hyperextension du coude.",
+    "S'ils vous empilent pendant l'entrée triangle, relâchez et réinitialisez - ne les laissez pas vous enfoncer la tête dans le tapis."
+  ],
+  "systemLogic": {
+    "corePrinciple": "Clamp établi : l'adversaire se lève ou sépare les hanches → balancer la jambe supérieure par-dessus son épaule → verrouiller triangle → rompre la posture → terminer.",
+    "decisionTree": [
+      {
+        "condition": "ils ne supportent pas",
+        "action": "menacez plutôt le armbar de la pince – ils doivent réagir à une attaque, créant l'autre."
+      },
+      {
+        "condition": "Application générale",
+        "action": "Le pont fonctionne parce qu'il suit le chemin de moindre résistance : leur posture crée l'espace."
+      }
+    ],
+    "exitStrategies": []
+  },
+  "moneyDetails": [
+    "Gardez le overhook serré tout au long du pont - il devient le bras qui est coincé à l'intérieur du triangle.",
+    "Pendant que vous balancez votre jambe, guidez sa tête vers le bas avec votre main libre pour empêcher la récupération de la posture.",
+    "Verrouillez votre tibia derrière le dos, pas seulement votre pied : un triangle verrouillé au pied peut être ouvert.",
+    "Coupez l'angle en éloignant vos hanches après le verrouillage - cela rend le starter serré sans serrer."
+  ],
+  "nextStep": "Après avoir maîtrisé le triangle de la pince, apprenez les transitions armbar et omoplata à partir de la même position pour compléter le système de pince.",
+  "fixItFast": [
+    "La jambe ne veut pas se retourner ? Ils ne se sont pas encore engagés à se lever – serrez la bride pour forcer la réaction.",
+    "triangle vous semble lâche ? Coupez l'angle en marchant vos hanches sur le côté avant de serrer.",
+    "overhook perdu ? Fixez à nouveau le bras avant de tenter le pont – le triangle a besoin de ce bras à l'intérieur."
+  ]
+}

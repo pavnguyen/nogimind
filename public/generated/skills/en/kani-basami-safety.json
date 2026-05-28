@@ -1,0 +1,139 @@
+{
+  "id": "kani-basami-safety",
+  "domain": "positional_awareness",
+  "level": "beginner",
+  "status": "draft",
+  "name": "Kani Basami Safety",
+  "aliases": [
+    "scissor takedown safety",
+    "scissor reap awareness",
+    "banned takedown"
+  ],
+  "tags": [
+    "safety",
+    "knee-safety",
+    "takedown",
+    "tier:safety-critical",
+    "risk:safety-critical",
+    "family:safety",
+    "group:takedown-safety",
+    "ibjjf-rules",
+    "modern-no-gi"
+  ],
+  "keywords": [
+    "kani basami",
+    "scissor takedown",
+    "ACL",
+    "banned technique",
+    "IBJJF"
+  ],
+  "modernSystemGroup": "takedown_safety",
+  "relatedSkills": [
+    {
+      "id": "single-leg-bjj",
+      "type": "recommended"
+    },
+    {
+      "id": "leg-lock-safety-basics",
+      "type": "recommended"
+    },
+    {
+      "id": "reaping-awareness",
+      "type": "recommended"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "positional-hierarchy"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [],
+  "version": 1,
+  "updatedAt": "2026-06-12T00:00:00.000Z",
+  "contentRefs": {
+    "videos": "videos.json",
+    "qualityChecklist": "qualityChecklist"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": true,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "en",
+  "description": "Kani basami (scissor takedown) is a high-risk move banned in most BJJ and grappling competitions. One leg goes behind the opponent's knee while the other drives forward into their hip, creating dangerous rotational and compressive forces on the knee joint.",
+  "shortInstruction": "Do not attempt kani basami in training unless under expert supervision. The leg driving behind the opponent's knee can destroy the ACL, MCL, and meniscus. Use safer takedown alternatives like single leg or ankle pick.",
+  "summary": "Kani basami awareness teaches the dangers of this banned technique and provides safer alternatives for takedown entries. The technique is banned because the scissoring motion traps the knee with no safe rotation path, and the opponent's weight coming down on a fixed knee creates catastrophic forces that reconstruction surgery cannot fully repair.",
+  "whyItWorks": [
+    "The scissoring motion traps the knee joint between the attacker's legs with nowhere to rotate safely",
+    "Opponent's body weight coming down on a trapped knee creates forces that exceed ligament tensile strength — ACL tears are the most common injury",
+    "Even with a cooperative partner, the speed and leverage of the move make it impossible to control safely in a live setting",
+    "Every major governing body (IBJJF, ADCC, UAEJJF) has banned kani basami due to the consistent injury rate"
+  ],
+  "commonMistakes": [
+    "Attempting kani basami in training thinking it is 'safe' with a cooperative partner — injuries still occur at high rates in controlled settings",
+    "Confusing kani basami (scissor takedown) with legal reaps (outside reap, inside trip, ko-soto-gari) — they are mechanically different",
+    "Not knowing the competition rules: kani basami is banned at ALL belt levels in IBJJF and most major tournaments",
+    "Believing that practicing kani basami 'carefully' removes the risk — the injury mechanism is inherent to the technique, not the intensity"
+  ],
+  "coachingCues": [
+    "Scissor takedown = banned",
+    "ACL risk is real and permanent",
+    "Use single leg, double leg, or ankle pick instead",
+    "No competition permits it for a reason"
+  ],
+  "safetySummary": [
+    "Kani basami is banned by IBJJF, ADCC, UAEJJF, and most BJJ competitions worldwide",
+    "The risk of catastrophic knee injury (ACL, MCL, meniscus tear) requiring surgery and 9-12 months recovery far outweighs any benefit",
+    "Multiple safe alternatives exist: single leg takedown, double leg takedown, ankle pick, arm drag to back take, inside trip (ko-soto-gari), outside reap (o-soto-gari)",
+    "If you see a training partner attempting kani basami, verbally stop the roll and explain the danger"
+  ],
+  "systemLogic": {
+    "corePrinciple": "Kani basami (scissor takedown) is banned by every major grappling governing body because the scissoring motion traps the knee with no safe rotation path, and the opponent's body weight coming down creates catastrophic ligament forces that surgery cannot fully repair.",
+    "decisionTree": [
+      {
+        "condition": "You want a scissor-like takedown entry",
+        "action": "Use the ankle pick instead — it uses the same concept (taking one leg away) without the dangerous knee compression."
+      },
+      {
+        "condition": "You want to attack the legs from standing",
+        "action": "Use a single leg takedown with a sweep or lift. This is safer, scores points, and has no risk of knee injury to your training partner."
+      },
+      {
+        "condition": "A training partner attempts kani basami on you",
+        "action": "Immediately post your free hand on the mat to take weight off the trapped leg and verbally tap. Do not resist the rotation — relaxing minimizes ligament damage."
+      },
+      {
+        "condition": "A training partner wants to practice kani basami",
+        "action": "Redirect them to single leg entries — they will get the same takedown result without the knee risk. Explain that the injury mechanism is inherent to the technique, not the intensity."
+      },
+      {
+        "condition": "You feel your knee being scissored in training",
+        "action": "Relax and tap immediately. Do not try to fight out of it — the ACL can tear at forces as low as 500 Newtons. A tap in practice is not a loss."
+      }
+    ],
+    "exitStrategies": [
+      "If someone attempts kani basami, post on the mat and tap before the scissor closes.",
+      "If you want high-amplitude takedowns, use the double leg or body lock throw — safer and scores higher in competition.",
+      "Know the competition rules: kani basami is banned at ALL belt levels in IBJJF and most major tournaments."
+    ]
+  },
+  "moneyDetails": [
+    "Kani basami is the most banned technique in grappling for a reason — the injury rate is catastrophic and the recovery is long",
+    "Knowing the dangers of kani basami prevents you from attempting it and protects you from training partners who may not know it is banned",
+    "The safest choice is simple: do not do kani basami. Ever. There are dozens of safe takedowns that score the same points"
+  ],
+  "fixItFast": [
+    "If someone attempts kani basami on you: immediately post your free hand on the mat to take weight off the trapped leg and verbally tap",
+    "If a training partner tries to learn kani basami: redirect them to single leg entries — they will get the same takedown without the knee risk",
+    "If you feel your knee being scissored: do not resist the rotation — relax and tap immediately to minimize ligament damage"
+  ]
+}

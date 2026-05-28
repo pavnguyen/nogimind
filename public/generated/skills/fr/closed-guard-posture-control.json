@@ -1,0 +1,132 @@
+{
+  "id": "closed-guard-posture-control",
+  "domain": "guard_offense",
+  "level": "beginner",
+  "status": "draft",
+  "name": "closed guard Contrôle de la posture",
+  "aliases": [],
+  "tags": [
+    "closed-guard",
+    "posture",
+    "control"
+  ],
+  "keywords": [
+    "closed guard",
+    "posture control",
+    "elbow line",
+    "hip control"
+  ],
+  "relatedSkills": [
+    {
+      "id": "closed-guard-sweeps",
+      "type": "recommended"
+    },
+    {
+      "id": "armbar-system",
+      "type": "recommended"
+    },
+    {
+      "id": "triangle-system",
+      "type": "recommended"
+    },
+    {
+      "id": "kimura-system",
+      "type": "recommended"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "supine-guard-retention"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [],
+  "version": 1,
+  "updatedAt": "2026-05-21T00:24:30.746Z",
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "fr",
+  "description": "Brisez et contrôlez la posture de l'adversaire dans closed guard en utilisant la tension des jambes, les combats avec les mains et l'inclinaison des hanches pour créer des entrées de balayage ou de soumission.",
+  "shortInstruction": "Les jambes tirent, les mains brisent la prise, les hanches coupent l'angle – la posture est la clé de toutes les attaques closed guard.",
+  "summary": "closed guard n'est efficace que lorsque la posture de l'adversaire est brisée. Un adversaire en posture peut se lever, passer ou frapper (en MMA). Votre objectif principal est de les empêcher de s'asseoir droit en utilisant la tension des jambes pour attirer leur poids sur vous, en vous battant avec les mains pour briser leur cadre défensif et en utilisant l'angle des hanches pour les déséquilibrer. Sans contrôle de la posture, vous n'êtes pas offensé par closed guard.",
+  "whyItWorks": [
+    "Un adversaire en posture a une mobilité et une base complètes de ses bras – briser sa posture neutralise les deux.",
+    "La tension des jambes autour du dos les empêche de s'asseoir ; ils doivent lutter contre la force de vos jambes pour se repositionner.",
+    "Les combats à la main enlèvent leurs prises défensives (attaches de col, poignées de manches, poignées de ceinture) qui les maintiennent en position.",
+    "Couper un angle (hanche d'un côté) déplace leur base hors ligne, les rendant vulnérables aux balayages et aux soumissions.",
+    "Principe de Danaher : le guard est une position offensive et non défensive — le contrôle de la posture est la première étape de chaque attaque."
+  ],
+  "commonMistakes": [
+    "Tirer avec les jambes mais sans engager les mains - sans se battre avec les mains, ils peuvent s'appuyer sur vos hanches et changer de posture.",
+    "En gardant la tête baissée avec les bras tendus, cela crée de l'espace au lieu du contrôle.",
+    "Laissez-les saisir votre ceinture ou votre pantalon – cela leur donne la base pour se redresser.",
+    "Assis centré devant eux sans couper un angle – un adversaire centré est bien basé et difficile à balayer."
+  ],
+  "coachingCues": [
+    "Les jambes tirent, les bras guident, les hanches créent l’angle.",
+    "Tuez d'abord la poignée de la ceinture – c'est leur base la plus solide.",
+    "S'ils se tiennent en position, vous ne tirez pas : serrez les genoux l'un contre l'autre !",
+    "Décentrez-vous – 45 degrés est l’angle d’attaque."
+  ],
+  "safetySummary": [
+    "Gardez votre menton éloigné de votre poitrine lorsque vous les tirez vers le bas pour éviter les guillotine risques.",
+    "Protégez vos côtes de la pression des genoux lorsqu'elles tentent de se mettre en position – encadrez-les immédiatement.",
+    "Ne maintenez pas une posture cassée trop longtemps sans attaquer, vous fatigueriez vos jambes."
+  ],
+  "systemLogic": {
+    "corePrinciple": "closed guard n'est efficace que lorsque la posture de l'adversaire est brisée. Un adversaire en posture a une mobilité et une base complètes de ses bras. Votre objectif est d'utiliser la tension des jambes, les combats avec les mains et les angles des hanches pour les empêcher de s'asseoir droit. Sans contrôle de la posture, vous n'êtes pas offensé par closed guard.",
+    "decisionTree": [
+      {
+        "condition": "L'adversaire brise votre closed guard et commence à se lever",
+        "action": "Serrez vos genoux ensemble et abaissez-les avant qu’ils ne s’étendent complètement. Une fois debout, le guard est ouvert et vous perdez l'avantage de la posture."
+      },
+      {
+        "condition": "L'adversaire attrape votre ceinture ou votre pantalon",
+        "action": "Retirez immédiatement la poignée avec les deux mains. Une poignée de ceinture leur donne la base pour se redresser et passer. Montez vos jambes plus haut pour affaiblir leur emprise."
+      },
+      {
+        "condition": "Cadres adverses sur vos hanches pour vous repositionner",
+        "action": "Nagez vos mains dans leurs coudes et frappez-les vers leur col. Vos mains doivent briser leurs cadres pour rétablir le contrôle."
+      },
+      {
+        "condition": "L'adversaire est centré et positionné dans votre closed guard",
+        "action": "Coupez un angle en déplaçant vos hanches de 45 degrés d'un côté. Un adversaire centré a une position bien basée et est difficile à balayer – l’angle crée l’ouverture."
+      },
+      {
+        "condition": "Vous avez maintenu la pause de posture pendant plus de 10 secondes",
+        "action": "Attaquez maintenant – balayages ou soumissions. Maintenir une posture cassée sans attaquer gaspille de l'énergie et permet à l'adversaire de réinitialiser sa base."
+      }
+    ],
+    "exitStrategies": [
+      "Si l'adversaire re-poste, réinitialisez la séquence : cassez à nouveau la posture, combat à la main pour supprimer les cadres, coupez l'angle, attaquez.",
+      "Si vous ne parvenez pas à briser leur posture avec les méthodes standard, passez à un guard élevé (pieds sur leurs hanches) pour les briser plus facilement.",
+      "Utilisez 80 % de travail des jambes et 20 % du travail des bras : la fatigue dans les bras est un signe que vous tirez trop et que vous cadrez pas assez."
+    ]
+  },
+  "moneyDetails": [
+    "Tirez leur tête vers votre sternum – et non vers votre ventre – pour que leurs bras soient coincés entre vos corps.",
+    "Serrez vos genoux ensemble, pas seulement vos pieds – cela verrouille leurs hanches en place.",
+    "Lorsqu'ils essaient de s'appuyer sur vos hanches, nagez vos mains à l'intérieur de leurs coudes et frappez-les jusqu'à leur col.",
+    "Le moment le plus dangereux pour attaquer est celui où ils essaient activement de se positionner – utilisez leur énergie contre eux."
+  ],
+  "nextStep": "Après avoir maîtrisé le contrôle de la posture, apprenez les closed guard balayages (hanche bump, ciseaux, fleur) et les soumissions (triangle, armbar).",
+  "fixItFast": [
+    "Ils continuent à faire des postures ? Passez à un guard haut (pieds sur les hanches) pour les décomposer plus facilement.",
+    "Ils ont une poignée de ceinture ? Montez vos jambes plus haut et serrez – leur emprise s'affaiblira.",
+    "Vos bras sont fatigués ? Utilisez davantage vos jambes – 80 % de travail des jambes, 20 % de travail des bras."
+  ]
+}

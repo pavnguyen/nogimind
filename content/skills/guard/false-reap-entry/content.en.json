@@ -1,0 +1,61 @@
+{
+  "id": "false-reap-entry",
+  "locale": "en",
+  "name": "False Reap Entry",
+  "description": "Use the false reap (outside leg reap) to create a backside angle on the opponent's leg while maintaining knee-line safety and ruleset awareness for reaping restrictions.",
+  "shortInstruction": "Outside leg hook, knee-line safe, rotate to backside angle — false reap is the gateway to saddle and leg attacks.",
+  "summary": "The false reap is a no-gi guard entry where you hook the opponent's near leg from the outside with your leg, rather than the inside. This creates a backside angle on their leg line, opening entries to the saddle (inside sankaku), cross ashi, and back takes. Unlike traditional reaping, the false reap does not cross the opponent's knee line in a dangerous way — making it legal in most IBJJF rulesets while still giving you leg entanglement access.",
+  "whyItWorks": [
+    "The outside hook on their leg controls their hip rotation and prevents them from stepping out of your guard.",
+    "The backside angle cuts off their base on that side — they cannot simply step backward to escape.",
+    "False reap is IBJJF-legal because the foot does not cross the opponent's center line at the knee.",
+    "Danaher principle: control the hip to control the leg — the false reap gives you both."
+  ],
+  "commonMistakes": [
+    "Letting your hooking leg slide to the inside of their leg — this turns it into a reap and may be illegal in competition.",
+    "Not controlling their far hip with your hand — they will spin out of the false reap.",
+    "Going to false reap without a grip on their sleeve or wrist — they can post and base out.",
+    "Staying flat on your back — false reap requires you to roll to your side for proper hip alignment."
+  ],
+  "coachingCues": [
+    "Stay on your side, keep the hook deep.",
+    "Control the hip, reap the angle.",
+    "Knee-line safe, ruleset proud.",
+    "Rotate your hips to the ceiling — the angle creates the entry."
+  ],
+  "safetySummary": [
+    "Keep your hooking foot on the outside of their leg at all times — if your foot crosses their center line, you are reaping.",
+    "Do not apply rotational pressure on the opponent's knee from false reap — finish only when you have full leg entanglement control.",
+    "Be aware of the IBJJF rules on reaping — false reap is legal, but it is easy to accidentally transition into a reap."
+  ],
+  "keyCorrections": [
+    "If they spin out, you lost the far hip control — re-establish your hand on their hip before continuing.",
+    "If they step over your hook, your angle was too shallow — rotate your hips higher and re-hook.",
+    "If they flatten you, you lost the hip fight — pummel your knee inside and get back to your side."
+  ],
+  "systemLogic": {
+    "corePrinciple": "False reap hook on outside of their leg: control far hip → rotate to backside angle → enter saddle, cross ashi, or back take.",
+    "decisionTree": [
+      {
+        "condition": "Using Option 1",
+        "action": "They step forward → enter saddle (inside sankaku). Option 2: They step backward → take the back."
+      },
+      {
+        "condition": "Using Option 3",
+        "action": "They post a hand → attack the kimura or enter leg drag."
+      }
+    ]
+  },
+  "moneyDetails": [
+    "Your hooking leg should wrap around their thigh, not their calf — thigh control gives you leverage over their hip.",
+    "Control their far hip with your hand — this prevents them from spinning away from the false reap.",
+    "Rotate your hips toward the ceiling as you hook — this aligns your spine for maximum leverage.",
+    "When they post their free leg, that's the moment to enter saddle — their base is split and vulnerable."
+  ],
+  "nextStep": "After mastering false reap entry, learn the false reap to saddle bridge to complete the leg entanglement chain.",
+  "fixItFast": [
+    "They spin out? Re-establish far hip control with your hand.",
+    "Hook keeps slipping? Wrap higher up on the thigh, not the calf.",
+    "They flatten you? Pummel your knee inside and get back to your side immediately."
+  ]
+}

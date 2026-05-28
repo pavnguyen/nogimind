@@ -1,0 +1,131 @@
+{
+  "id": "knee-line-escape",
+  "domain": "survival_defense",
+  "level": "intermediate",
+  "status": "draft",
+  "name": "Knee Line Escape / Heel Hide",
+  "aliases": [],
+  "tags": [
+    "knee-line",
+    "leg-lock",
+    "heel-hide",
+    "defense",
+    "escape"
+  ],
+  "keywords": [
+    "heel hide",
+    "knee line",
+    "boot defense",
+    "rotation direction",
+    "tap timing",
+    "secondary leg"
+  ],
+  "relatedSkills": [
+    {
+      "id": "single-leg-x-basics",
+      "type": "recommended"
+    },
+    {
+      "id": "saddle-inside-sankaku-control",
+      "type": "recommended"
+    },
+    {
+      "id": "backside-50-50-control",
+      "type": "recommended"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "leg-lock-safety-basics",
+    "heel-hook-safety"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [
+    "If you feel rotational pressure despite hiding the heel: your hips are too close — separate your hips immediately before the torque reaches the knee",
+    "If you cannot clear the secondary hook: change your angle — rotate your hips slightly toward the mat and pummel your free leg through the gap",
+    "If they switch from heel hook to kneebar: keep your heel hidden and extend your leg slightly to relieve the hyperextension pressure while maintaining heel hide"
+  ],
+  "version": 1,
+  "updatedAt": "2026-05-21T00:24:30.766Z",
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "en",
+  "description": "Escape the knee line from leg entanglements: hide the heel, separate the hips, clear the secondary leg, and rotate correctly before rotational force reaches the knee. Knee line defense is the most critical safety skill in modern leg lock grappling.",
+  "shortInstruction": "Hide the heel behind your thigh, separate your hips from theirs, clear the secondary leg hook, and rotate TOWARD the free leg — never away from the trapped leg.",
+  "summary": "Knee line escape is the systematic process of removing your knee from the opponent's control in leg entanglements. The four-step sequence is: (1) heel hide — bring your heel toward your glute to prevent them from controlling the foot, (2) hip separation — create distance between your hips and theirs to reduce rotational leverage, (3) clear secondary leg — remove their outside leg hook that is trapping your leg, (4) correct rotation — rotate toward your free leg (never away from the trapped leg). This system is based on Danaher's leg lock escape philosophy and is the foundation of all leg lock defense.",
+  "whyItWorks": [
+    "Hiding the heel behind your thigh removes their primary control point — without heel control, they cannot generate the rotational torque needed to finish",
+    "Separating your hips from theirs removes the fulcrum of the leg lock — all leg locks require hip proximity to generate breaking force",
+    "Clearing the secondary leg hook prevents them from maintaining the entanglement when you try to escape",
+    "Rotating toward the free leg creates prying pressure against their grip — rotating away (the instinctive motion) tightens the entanglement"
+  ],
+  "commonMistakes": [
+    "Panicking and rotating away from the trapped leg — this tightens the heel hook or kneebar",
+    "Trying to yank the leg straight out instead of hiding the heel and clearing the secondary leg first",
+    "Letting your hips stay close to theirs — this gives them full rotational leverage against your knee",
+    "Ignoring the secondary leg hook — even if you clear the primary entanglement, the secondary hook keeps you trapped"
+  ],
+  "coachingCues": [
+    "Heel to glute, always",
+    "Hips away, not toward",
+    "Clear the outside hook first",
+    "Rotate toward the free leg"
+  ],
+  "safetySummary": [
+    "Leg locks are dangerous — heel hooks can damage the knee in milliseconds before you feel pain. Tap to position, not pressure",
+    "If you feel any rotational pressure on your knee, tap immediately — knee reconstruction is months of recovery, a tap is seconds of reset",
+    "Never train leg locks without understanding the escape sequence — training defense is equally important as training offense",
+    "Communicate with training partners about leg lock experience level before rolling"
+  ],
+  "systemLogic": {
+    "corePrinciple": "The knee line escape follows a four-step sequence: Heel Hide → Hip Separation → Clear Secondary Leg → Correct Rotation",
+    "decisionTree": [
+      {
+        "condition": "Step 1, Heel Hide: the moment",
+        "action": "you feel your leg being isolated, bring your heel as close to your glute as possible. This removes the 'handle' they need to rotate your foot. If they cannot control the heel, they cannot finish the heel hook"
+      },
+      {
+        "condition": "Step 2, Hip Separation: walk or scoot your hips away from theirs. Hip proximity is the prerequisite for all leg lock finishing mechanics. By separating hips",
+        "action": "you remove their leverage point. A gap of 6-8 inches between your hips is enough to neutralize most leg locks"
+      },
+      {
+        "condition": "General application",
+        "action": "If Step 3, Clear Secondary Leg: the opponent's outside leg (the one not attacking) is hooking or trapping your free leg. Pummel your free leg out from under their hook by circling it away from the entanglement"
+      },
+      {
+        "condition": "General application",
+        "action": "If Step 4, Correct Rotation: once the first three steps are complete, rotate your body toward your free leg (the leg that is not trapped). This creates prying pressure against their grip and allows your trapped knee to slide out of the entanglement"
+      },
+      {
+        "condition": "all four steps are executed successfully",
+        "action": "you will either escape completely or arrive in a 50/50 position where neither grappler has control of the knee line"
+      }
+    ],
+    "exitStrategies": []
+  },
+  "moneyDetails": [
+    "Knee line escape is the most important safety skill in modern BJJ — the rise of leg locking means every grappler must know this sequence",
+    "A reliable knee line escape removes the fear of entering leg entanglements — you can engage without the constant risk of injury",
+    "Mastering knee line defense makes you a more dangerous leg lock attacker — you understand exactly what the opponent needs to escape and can counter it"
+  ],
+  "fixItFast": [
+    "If the heel hook is already deep and you feel rotation on the knee: tap immediately — the defense must happen before the torque is applied",
+    "If you are in an inside sankaku (saddle/glue) and cannot hide the heel: use both hands to grab your heel and pull it toward your glute",
+    "If they switch to a straight ankle lock: extend your leg against the pressure, grip their sleeve to prevent them from pulling your foot, and circle your foot toward their far hip"
+  ]
+}

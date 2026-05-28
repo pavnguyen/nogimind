@@ -1,0 +1,58 @@
+{
+  "id": "backside-50-50",
+  "locale": "en",
+  "title": "Backside 50/50",
+  "category": "leg_entanglement",
+  "status": "dangerous",
+  "description": "A leg entanglement from behind where the attacker controls both the hip line and knee line, creating dangerous heel exposure from the rear.",
+  "topPlayerGoals": [
+    "The top player wants to control Backside 50/50 through head position, inside position, and directed pressure.",
+    "Maintain both knee lines, the secondary leg, and safe rotation direction.",
+    "Keep a stable base so you are not off-balanced or countered."
+  ],
+  "bottomPlayerGoals": [
+    "The bottom player wants to survive Backside 50/50 with frames, pummeling, or the right angle.",
+    "Bring the heel to the hip line, free the secondary leg, and clear the knee line before rotating.",
+    "Recognize danger signals early instead of waiting for the position to settle."
+  ],
+  "controlPoints": [
+    "Main control point: Double trapped knee line, heel past hip line, and locked secondary leg..",
+    "Head, hands, hips, and knees should share the same force direction.",
+    "The elbow-knee connection or hip-shoulder line determines whether the position is still alive or already locked."
+  ],
+  "escapePriorities": [
+    "Escape priority: Do not rotate blind — assess knee line entrapment and heel exposure first, then act..",
+    "Protect the neck, back, knee line, or arm line before countering.",
+    "If inside position is lost, reset one defensive layer first."
+  ],
+  "advancementOptions": [
+    {
+      "action": "Transition to saddle or heel hook finish",
+      "nextPositionId": "saddle-inside-sankaku",
+      "relatedSkillIds": [
+        "backside-50-50-control",
+        "heel-hook-safety",
+        "leg-lock-safety-basics"
+      ],
+      "why": "This is the natural branch when you win the main control point and the opponent is forced to defend."
+    }
+  ],
+  "dangerSignals": [
+    "The chin or neck is pulled out of a safe line.",
+    "The elbow separates from the ribs or knee.",
+    "The hip line is locked while the shoulder line is still being pulled.",
+    "You need a long hand post to avoid falling."
+  ],
+  "relatedSkillIds": [
+    "backside-50-50-control",
+    "heel-hook-safety",
+    "leg-lock-safety-basics",
+    "k-guard-matrix",
+    "false-reap-entry"
+  ],
+  "relatedConceptIds": [
+    "knee-line",
+    "leg-lock-safety-hierarchy",
+    "safe-unsafe-rotation"
+  ]
+}

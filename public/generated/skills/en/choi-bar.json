@@ -1,0 +1,122 @@
+{
+  "id": "choi-bar",
+  "domain": "submission_systems",
+  "level": "advanced",
+  "status": "draft",
+  "name": "Choi Bar",
+  "aliases": [],
+  "tags": [
+    "choi-bar",
+    "shoulder-lock",
+    "clamp-guard",
+    "tier:modern-expansion",
+    "meta:modern-common",
+    "risk:high",
+    "family:submission",
+    "group:clamp-guard",
+    "modern-no-gi"
+  ],
+  "keywords": [
+    "choi bar",
+    "shoulder clamp",
+    "armbar line"
+  ],
+  "modernSystemGroup": "clamp_guard",
+  "relatedSkills": [
+    {
+      "id": "clamp-guard-control",
+      "type": "recommended"
+    },
+    {
+      "id": "tarikoplata",
+      "type": "recommended"
+    },
+    {
+      "id": "s-mount-armbar",
+      "type": "recommended"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "clamp-guard-control",
+    "kimura-system"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [
+    "If they pull their arm free, your shoulder clamp was loose — tighten the clamp before re-attacking.",
+    "If you can't find the armbar angle, your hip rotation is insufficient — turn your hips further away.",
+    "If they stack you, release the Choi bar and reset — don't fight the stack."
+  ],
+  "version": 1,
+  "updatedAt": "2026-05-21T00:24:30.777Z",
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "en",
+  "description": "Use a shoulder clamp and wrist control from guard to move into an armbar line — a hybrid armbar that attacks from a 45-degree angle rather than the traditional perpendicular finish.",
+  "shortInstruction": "Clamp the shoulder, control the wrist, rotate to the armbar line — the Choi bar finishes from an angle, not straight on.",
+  "summary": "The Choi bar is a no-gi armbar variation that attacks from a 45-degree angle rather than the traditional perpendicular finish. You use a shoulder clamp (similar to the clamp guard) to trap their arm and shoulder, then rotate your hips to expose their elbow. The name comes from a combination of 'choke' and 'armbar' — it can be entered from choke setups and chains directly into the armbar. It is especially effective from the Kimura trap and clamp guard positions.",
+  "whyItWorks": [
+    "The 45-degree angle of attack catches opponents who are used to defending the traditional 90-degree armbar.",
+    "The shoulder clamp prevents them from pulling their arm free — their elbow is exposed by your hip rotation.",
+    "It can be entered from common positions (guard, half guard, Kimura trap) without complex setup.",
+    "Danaher principle: attack the elbow from the angle they are not defending."
+  ],
+  "commonMistakes": [
+    "Not controlling the shoulder before attacking the arm — the shoulder clamp must be tight.",
+    "Letting the opponent turn their elbow down — keep their palm facing up throughout.",
+    "Falling backward to finish instead of rotating the hips — the Choi bar uses hip rotation, not back fall.",
+    "Losing wrist control during the rotation — maintain the wrist grip as you rotate."
+  ],
+  "coachingCues": [
+    "Clamp the shoulder, own the arm.",
+    "Rotate your hips, don't fall backward.",
+    "If they defend the Kimura, hit the Choi bar.",
+    "Palm up, elbow exposed, finish clean."
+  ],
+  "safetySummary": [
+    "The Choi bar hyperextends the elbow — apply with control and release on tap.",
+    "Do not rotate explosively if you feel resistance at the elbow — a controlled finish prevents injury.",
+    "Never apply the armbar with sudden force — hyperextension injuries happen fast."
+  ],
+  "systemLogic": {
+    "corePrinciple": "Kimura trap or clamp guard: shoulder clamp → wrist control → rotate hips → expose elbow → extend for armbar.",
+    "decisionTree": [
+      {
+        "condition": "General application",
+        "action": "The Choi bar works as a chain from the Kimura: if they defend the Kimura by hiding their arm, the Choi bar is the answer."
+      },
+      {
+        "condition": "General application",
+        "action": "After the Choi bar, chain to Kimura or omoplata if they defend."
+      }
+    ],
+    "exitStrategies": []
+  },
+  "moneyDetails": [
+    "The shoulder clamp is your foundation: one arm over their shoulder, the other controlling their wrist.",
+    "Rotate your hips away from them while pulling their wrist toward you — this exposes the elbow.",
+    "Keep their palm facing upward (supinated) throughout — a turned palm means the elbow is protected.",
+    "The finish is a short-range extension — you don't need to fully extend; just lift your hips and pull their wrist."
+  ],
+  "nextStep": "After the Choi bar, learn the Kimura system and clamp guard control.",
+  "fixItFast": [
+    "Can't rotate? Your hips are stuck — lift and turn, don't just pull the arm.",
+    "Arm keeps straightening? Palm must be up — rotate their wrist to supinate the arm.",
+    "They stack you? Release, frame on their hips, and reset to guard."
+  ]
+}

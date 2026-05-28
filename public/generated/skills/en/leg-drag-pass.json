@@ -1,0 +1,119 @@
+{
+  "id": "leg-drag-pass",
+  "domain": "guard_offense",
+  "level": "intermediate",
+  "status": "draft",
+  "name": "Leg Drag Pass",
+  "aliases": [],
+  "tags": [
+    "leg-drag",
+    "passing",
+    "loose-passing",
+    "side-control-entry",
+    "tier:modern-expansion",
+    "meta:modern-common",
+    "risk:low",
+    "family:passing",
+    "group:modern-passing",
+    "modern-no-gi"
+  ],
+  "keywords": [
+    "hip twist",
+    "shoulder pinning",
+    "angle creation"
+  ],
+  "modernSystemGroup": "modern_passing",
+  "relatedSkills": [
+    {
+      "id": "bodylock-pass",
+      "type": "recommended"
+    },
+    {
+      "id": "outside-passing",
+      "type": "recommended"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "inside-position",
+    "outside-passing"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [
+    "If they spin out of the drag, you didn't control their upper body — maintain crossface or shoulder pressure.",
+    "If they re-guard after the drag, your angle wasn't sharp enough — cut a deeper angle before pinning.",
+    "If they guillotine you, your head was too low — keep your head up and to the outside."
+  ],
+  "version": 1,
+  "updatedAt": "2026-05-21T00:24:30.781Z",
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "en",
+  "description": "Drag the opponent's near leg across your hips to cut the angle and secure side control, back mount, or a leg entanglement.",
+  "shortInstruction": "Grab the ankle, drag across your hips, cut the angle, secure the pin.",
+  "summary": "The leg drag pass is one of the most effective guard passes in modern no-gi. By controlling the opponent's near ankle and dragging it across your own hips, you cut a sharp angle that removes their guard and exposes their back or side. The leg drag works against almost every open guard (DLR, RDLR, spider, sitting guard) and gives you immediate access to dominant top positions.",
+  "whyItWorks": [
+    "Dragging their leg across your hips changes the angle of their guard — their legs can no longer frame on your hips.",
+    "Your hips become the fulcrum: once their leg is across your hips, they cannot re-guard without clearing their own leg.",
+    "The leg drag removes one of their primary guard tools (legs) and replaces it with a control point for you.",
+    "Danaher principle: control the legs, control the guard pass — the leg drag is the most direct application of this."
+  ],
+  "commonMistakes": [
+    "Dropping your head down during the drag — this exposes your neck to guillotines.",
+    "Dragging the leg without controlling their upper body — they will spin and take your back.",
+    "Stopping after the drag instead of pinning — the drag is not the finish; the pin is.",
+    "Gripping the pant leg instead of the ankle — ankle control gives you better leverage."
+  ],
+  "coachingCues": [
+    "Ankle to the hip, head to the chest.",
+    "Control the leg, kill their guard.",
+    "Drag across the hips, not across the floor.",
+    "The pass doesn't end at the drag — it ends at the pin."
+  ],
+  "safetySummary": [
+    "Keep your head up and to the outside of their body during the drag — a dropped head invites the guillotine.",
+    "Do not hyperextend your own back by leaning too far forward during the drag — engage your core.",
+    "When pinning after the drag, protect your knee from their free leg."
+  ],
+  "systemLogic": {
+    "corePrinciple": "Identify the open guard (DLR, RDLR, sitting) → control the near ankle → drag their leg across your hips → cut the angle → pin in side control or take the back.",
+    "decisionTree": [
+      {
+        "condition": "General application",
+        "action": "The leg drag can chain into: pass to side control, back take, or leg entanglement."
+      },
+      {
+        "condition": "resist, the drag by pulling their leg back",
+        "action": "use their resistance to enter a kneecut or pass."
+      }
+    ],
+    "exitStrategies": []
+  },
+  "moneyDetails": [
+    "Grip the sock-line or ankle, not the pant leg — a clean ankle grip gives you better rotation control.",
+    "Drag the leg across your hips at hip height — dragging too low (knee height) loses the angle advantage.",
+    "Keep your head glued to their chest or shoulder as you pass — this prevents them from sitting up.",
+    "After the drag, immediately establish chest-to-chest pin — don't give them time to recover guard."
+  ],
+  "nextStep": "After mastering the leg drag pass, learn the back take from leg drag and the kneecut-passing combinations.",
+  "fixItFast": [
+    "They keep spinning? Maintain crossface pressure with your shoulder — don't let them turn their back to you.",
+    "Can't hold the ankle? Switch to a two-on-one grip (both hands on the ankle) for more control.",
+    "They re-guard immediately? Your angle was too shallow — drag the leg further across your centerline."
+  ]
+}

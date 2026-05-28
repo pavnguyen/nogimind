@@ -1,0 +1,65 @@
+{
+  "id": "base-balance",
+  "locale": "vi",
+  "title": "Nền và thăng bằng",
+  "category": "mechanical",
+  "level": "fundamental",
+  "tags": [
+    "base",
+    "balance",
+    "weight"
+  ],
+  "shortDefinition": "Base là khả năng giữ trọng tâm trong khi vẫn có thể di chuyển và phản ứng.",
+  "whyItMatters": "Không có base, bạn bị sweep, snapdown, off-balance hoặc mất pressure khi đổi hướng.",
+  "deepExplanation": "Base tốt không phải đứng cứng. Nó là phân bổ weight, active toes, knee width và head/hip alignment phù hợp với phase.",
+  "beginnerView": "Đừng để hai tay phải chống lâu để giữ thăng bằng.",
+  "advancedView": "Cho đối thủ cảm giác họ có thể off-balance rồi đổi direction vào counter.",
+  "ifThenExamples": [
+    {
+      "if": "Nếu bạn mất Nền và thăng bằng trong trao đổi.",
+      "then": "Dừng tăng tốc, lấy lại cấu trúc cơ thể gần nhất rồi mới tiếp tục kỹ thuật.",
+      "why": "No-gi hiện đại phạt rất nhanh khi bạn cố thắng bằng sức sau khi mất cấu trúc.",
+      "relatedSkillIds": [
+        "hand-fighting",
+        "technical-stand-up"
+      ]
+    },
+    {
+      "if": "Nếu đối thủ phản ứng đúng với hướng đầu tiên.",
+      "then": "Dùng Nền và thăng bằng để đổi sang nhánh an toàn hơn thay vì ép cùng một hướng.",
+      "why": "Concept tốt biến phản ứng của đối thủ thành thông tin cho quyết định tiếp theo.",
+      "relatedSkillIds": [
+        "technical-stand-up",
+        "sprawl-go-behind",
+        "bodylock-passing"
+      ]
+    }
+  ],
+  "commonMisunderstandings": [
+    {
+      "misunderstanding": "Nền và thăng bằng là một mẹo kỹ thuật riêng lẻ.",
+      "correction": "Hãy xem nó như quy tắc quyết định xuất hiện trong nhiều vị trí khác nhau."
+    },
+    {
+      "misunderstanding": "Bạn chỉ cần hiểu khái niệm là tự động dùng được trong live roll.",
+      "correction": "Khái niệm phải được gắn với body signal, cue ngắn và positional rolling."
+    }
+  ],
+  "trainingCues": [
+    "Gọi tên Nền và thăng bằng trước khi tăng lực.",
+    "Tìm body signal, không đoán bằng cảm giác chung.",
+    "Nếu mất cấu trúc, reset một layer trước.",
+    "Drill chậm, test bằng resistance tăng dần."
+  ],
+  "relatedSkillIds": [
+    "hand-fighting",
+    "technical-stand-up",
+    "sprawl-go-behind",
+    "bodylock-passing"
+  ],
+  "relatedConceptIds": [
+    "posts",
+    "hooks",
+    "pressure-direction"
+  ]
+}

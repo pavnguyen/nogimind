@@ -1,0 +1,71 @@
+{
+  "id": "front-headlock-system",
+  "locale": "vi",
+  "name": "front headlock Hệ thống",
+  "description": "Hệ thống front headlock xâu chuỗi snapdown thành guillotine, d'arce, anaconda hoặc đi sau dưới dạng chuỗi tấn công liên tục. Đây là hệ thống kiểm soát phần thân trên mạnh mẽ nhất trong môn vật lộn No-Gi.",
+  "shortInstruction": "Từ điều khiển bằng đầu, tấn công dây chuyền theo thứ tự sau: snapdown → guillotine → d'arce → anaconda → đi phía sau. Hãy hướng đầu ra ngoài và không bao giờ từ bỏ vị trí front headlock.",
+  "summary": "Hệ thống front headlock là chuỗi tấn công liên tục từ vị trí front headlock (một tay ôm đầu, tay còn lại điều khiển cánh tay xa hoặc hông). Từ vị trí này, bạn chuyển qua các lần gửi và tiến bộ về vị trí: snapdown phá vỡ tư thế của họ, guillotine đe dọa cổ, d'arce tấn công cổ từ bên cạnh, anaconda tấn công từ phía trước và kẻ đi sau chiếm lấy phía sau. Điều quan trọng là không bao giờ từ bỏ front headlock — nếu một cuộc tấn công thất bại, ngay lập tức chuyển sang cuộc tấn công tiếp theo.",
+  "whyItWorks": [
+    "Vị trí front headlock điều khiển đầu và một cánh tay của đối phương — hai công cụ chính để giữ thăng bằng và phòng thủ",
+    "Xâu chuỗi năm đòn tấn công từ một vị trí tạo ra một tình thế tiến thoái lưỡng nan không thể giải quyết được - họ không thể phòng thủ được cả năm đòn tấn công.",
+    "front headlock có sẵn từ sprawls, snapdowns và các lần gỡ xuống không thành công — đây là vị trí tranh giành phổ biến nhất",
+    "Mỗi cuộc tấn công trong chuỗi sẽ thiết lập cuộc tấn công tiếp theo: mối đe dọa guillotine mở ra d'arce, d'arce mở ra phía sau"
+  ],
+  "commonMistakes": [
+    "Bỏ front headlock để đặt lại — khi bạn đã có vị trí, hãy tấn công theo chuỗi thay vì đặt lại",
+    "Cam kết quá đầy đủ cho một lần gửi - chuỗi yêu cầu 70% cam kết, 30% nhận thức để chuyển đổi",
+    "Để đối thủ ngồi dậy hoặc thiết lập lại căn cứ - duy trì áp lực đầu trong suốt trận đấu",
+    "Không bảo vệ vị trí của mình - giữ đầu hướng ra ngoài và hông thấp"
+  ],
+  "coachingCues": [
+    "Đầu hướng ra ngoài, hông thấp",
+    "Xâu chuỗi các cuộc tấn công, không thiết lập lại",
+    "Chụp nhanh → guillotine → d'arce → anaconda → đi phía sau",
+    "Đừng bao giờ từ bỏ front headlock"
+  ],
+  "safetySummary": [
+    "Cuộn cảm d'arce và anaconda có thể hoạt động nhanh — tạo áp lực có kiểm soát và thả ra khi nhấn",
+    "Không xoay cổ trong snapdown — tư thế snapdown điều khiển, nó không tấn công cổ",
+    "Nếu đối thủ lăn ra khỏi front headlock, hãy bảo vệ đầu của bạn và thiết lập lại quyền kiểm soát trước khi tiếp tục chuỗi"
+  ],
+  "keyCorrections": [
+    "Nếu đối thủ tiếp tục thoát khỏi chuỗi: bạn đang từ bỏ vị trí đầu - duy trì áp lực đầu giữa các lần tấn công",
+    "Nếu bạn không thể khóa d'arce: cánh tay không đủ sâu - hãy đưa tay bạn sâu hơn vào nách của họ trước khi khóa",
+    "Nếu họ quay lưng lại với bạn: bạn để đầu mình trôi vào trong - hãy giữ đầu bạn ở bên ngoài trong suốt"
+  ],
+  "systemLogic": {
+    "corePrinciple": "Hệ thống front headlock có năm cuộc tấn công theo trình tự cụ thể: snapdown → guillotine → d'arce → anaconda → Đi phía sau",
+    "decisionTree": [
+      {
+        "condition": "Sử dụng đòn tấn công 1 (snapdown)",
+        "action": "đập đầu đối phương xuống thảm, làm họ mất tư thế. Đây là lối vào cho tất cả các cuộc tấn công tiếp theo"
+      },
+      {
+        "condition": "Sử dụng đòn tấn công 2 (guillotine)",
+        "action": "khi đầu họ gục xuống, hãy trượt cánh tay đang nghẹt thở của bạn dưới cằm họ và khóa guillotine. Nếu họ phòng thủ, hãy chuyển sang d'arce"
+      },
+      {
+        "condition": "Sử dụng đòn tấn công 3 (d'arce)",
+        "action": "khi họ bảo vệ guillotine bằng cách kéo đầu ra sau, hãy đưa cánh tay đang nghẹt thở của bạn sâu hơn vào nách xa của họ và khóa d'arce bằng cách nối hai bàn tay của bạn lại. d'arce tấn công vào cổ từ bên cạnh"
+      },
+      {
+        "condition": "Sử dụng đòn tấn công 4 (anaconda)",
+        "action": "nếu d'arce không thành công (chúng biến thành bạn), hãy chuyển khóa sang phía bên kia và áp dụng anaconda. anaconda tấn công vào cổ từ phía trước"
+      },
+      {
+        "condition": "Sử dụng đòn tấn công 5 (Đi phía sau)",
+        "action": "nếu tất cả các cuộn cảm đều không thành công, hãy thả đầu ra và vòng ra phía sau chúng để lấy lại. Vị trí front headlock tự nhiên chuyển sang lùi"
+      }
+    ]
+  },
+  "moneyDetails": [
+    "Hệ thống front headlock là hệ thống tấn công phần trên cơ thể quan trọng nhất trong No-Gi — hệ thống này được sử dụng ở mọi cấp độ vật lộn",
+    "Việc thành thạo chuỗi front headlock mang lại cho bạn năm đòn tấn công từ một vị trí — bạn hầu như luôn kết thúc",
+    "front headlock là vị trí ghi điểm chính từ sprawls và snapdowns — đây là cuộc trao đổi đấu vật phổ biến nhất"
+  ],
+  "fixItFast": [
+    "Nếu bạn không thể khóa bất kỳ cuộn cảm nào: hãy đi thẳng về phía sau — front headlock luôn có tùy chọn quay lại",
+    "Nếu đối phương thả tay ra: đặt lại front headlock bằng cách kẹp đầu chặt hơn",
+    "Nếu họ ngồi dậy: đẩy họ xuống bằng snapdown trước khi bắt đầu chuỗi"
+  ]
+}

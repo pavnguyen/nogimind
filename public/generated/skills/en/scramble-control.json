@@ -1,0 +1,127 @@
+{
+  "id": "scramble-control",
+  "domain": "positional_awareness",
+  "level": "advanced",
+  "status": "draft",
+  "name": "Scramble Control",
+  "aliases": [],
+  "tags": [
+    "scramble",
+    "transitions"
+  ],
+  "keywords": [
+    "scramble",
+    "inside position",
+    "go-behind",
+    "failure response"
+  ],
+  "relatedSkills": [
+    {
+      "id": "sprawl-go-behind",
+      "type": "recommended"
+    },
+    {
+      "id": "back-control",
+      "type": "recommended"
+    },
+    {
+      "id": "mat-return-basics",
+      "type": "recommended"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "failure-response-transitions",
+    "hand-fighting"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [
+    "If you keep losing scrambles: you are prioritizing the wrong race. Always start with head position — if you lose the head race, you lose the scramble",
+    "If the opponent keeps taking your back in scrambles: you are showing your back. Drill turning into them (not away) when the scramble begins",
+    "If you fatigue quickly in scrambles: you are holding your breath and using full muscle tension. Practice controlled breathing and selective tension"
+  ],
+  "version": 1,
+  "updatedAt": "2026-05-21T00:24:30.758Z",
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "en",
+  "description": "Turn scrambles from chaos into priority races: head, hips, inside position, and back exposure. A scramble is a race for positional control where the first person to establish structure wins.",
+  "shortInstruction": "Win the head race (forehead to their jaw), beat them to inside position, keep your hips below theirs, and never show your back. First to structure wins the scramble.",
+  "summary": "Scramble control transforms chaotic exchanges into a systematic priority race. The four priorities in order are: (1) head position — get your forehead to their jaw line, (2) hip height — keep your hips below or level with theirs, (3) inside position — beat their hands, knees, and elbows to the inside lane, and (4) back exposure — never show your back. The grappler who structures first forces the opponent to react and gains positional advantage.",
+  "whyItWorks": [
+    "Head position determines the direction of the scramble — the grappler with forehead-to-jaw control dictates where the opponent's head goes and therefore their body follows",
+    "Lower hip position gives you mechanical advantage — you can lift, drive, and base from below more effectively than from above",
+    "Inside position (your knee inside their knee line, your elbow inside their elbow line) gives you control of the center axis of their body",
+    "Never showing your back prevents the opponent from scoring the highest-value positional advancement (back take)"
+  ],
+  "commonMistakes": [
+    "Chasing submissions during a scramble instead of establishing positional control first",
+    "Showing your back while trying to escape a bad position — this gives the opponent an immediate back take opportunity",
+    "Wrestling flat on your stomach — this removes all your mobility and base options",
+    "Holding your breath during scrambles — this leads to premature fatigue and mistakes"
+  ],
+  "coachingCues": [
+    "Head first, hips second",
+    "Inside beats outside, always",
+    "Never show your back",
+    "Structure wins the scramble"
+  ],
+  "safetySummary": [
+    "Scrambles are the most common source of training injuries — uncontrolled movement can cause finger, knee, and neck damage",
+    "Do not post with straight arms to catch yourself — this risks elbow hyperextension or shoulder dislocation",
+    "If you feel your joint being trapped in an awkward angle during a scramble, concede the position and reset rather than fighting the wrong direction",
+    "Scrambles near the edge of the mat increase injury risk — be extra controlled near boundaries"
+  ],
+  "systemLogic": {
+    "corePrinciple": "The scramble priority system has four races in strict order of importance: Head: Hips → Inside Position → Back Exposure",
+    "decisionTree": [
+      {
+        "condition": "In Race 1 (Head)",
+        "action": "the first grappler to establish forehead-to-jaw (or cheek-to-chest) control wins the scramble. Head position determines body direction. If you lose the head race, every following race gets harder"
+      },
+      {
+        "condition": "In Race 2 (Hips)",
+        "action": "the grappler with lower hip position has mechanical advantage. If your hips are higher than theirs, they can elevate and re-direct you. If your hips are lower, you can base, drive, and lift more effectively"
+      },
+      {
+        "condition": "In Race 3 (Inside Position)",
+        "action": "once head and hips are established, fight for inside position. Your knees must be inside their knee line, your elbows inside their elbow line. Inside position gives you center-axis control"
+      },
+      {
+        "condition": "In Race 4 (Back Exposure)",
+        "action": "never, under any circumstances, show your back during a scramble. If you feel your back being exposed, concede the position and re-establish head position first before continuing"
+      },
+      {
+        "condition": "all four races are won",
+        "action": "you have positional dominance — transition directly to pin or submission. If you lose any race, retreat to the previous race and re-establish before advancing"
+      }
+    ],
+    "exitStrategies": []
+  },
+  "moneyDetails": [
+    "Scramble control is the single most important skill for competition success — matches are often won or lost in the scramble",
+    "Winning scrambles saves energy because you dictate the pace rather than reacting to the opponent's actions",
+    "The ability to stay calm and structured in chaotic exchanges is the hallmark of a veteran grappler",
+    "Mastering scramble control prevents the most common competition point losses: back takes and guard passes from scrambles"
+  ],
+  "fixItFast": [
+    "If you are in a scramble and losing: freeze. Control head position, get your hips down, and reset the priority race from the beginning",
+    "If you get flattened on your stomach: immediately turn to your side, frame on their hip, and re-establish head position before trying to stand",
+    "If the opponent has your back in a scramble: do not turn away — turn into them, trap their near leg, and recover guard"
+  ]
+}

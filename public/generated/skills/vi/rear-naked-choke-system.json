@@ -1,0 +1,150 @@
+{
+  "id": "rear-naked-choke-system",
+  "slug": "rear-naked-choke-system",
+  "domain": "submission_systems",
+  "level": "intermediate",
+  "status": "published",
+  "aliases": [],
+  "tags": [
+    "choke",
+    "back-control",
+    "submission",
+    "no-gi",
+    "strangle"
+  ],
+  "keywords": [
+    "rear naked choke",
+    "RNC",
+    "back choke",
+    "blood choke",
+    "strangle"
+  ],
+  "techniqueFamily": "submissions",
+  "relatedSkills": [],
+  "relatedSkillIds": [
+    "back-control",
+    "seatbelt-control",
+    "hand-fighting"
+  ],
+  "relatedPositions": [],
+  "relatedPositionIds": [
+    "back-mount",
+    "rear-side-control",
+    "turtle"
+  ],
+  "relatedConcepts": [],
+  "relatedConceptIds": [
+    "connection-before-control",
+    "inside-position",
+    "hierarchy-of-finishes"
+  ],
+  "archetypeIds": [],
+  "relatedArchetypeIds": [
+    "back-attack-specialist",
+    "pressure-top-player"
+  ],
+  "prerequisiteSkillIds": [
+    "back-control"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [
+    "arm-triangle-mount"
+  ],
+  "sortOrder": 100,
+  "searchBoost": 1.2,
+  "keyCorrections": [
+    "Nếu nó trở thành một cú quay mặt, khuỷu tay quá cao - hãy thả nó xuống dưới cằm.",
+    "Nếu họ biến thành bạn, sự tiếp xúc giữa ngực sẽ bị mất - hãy dán lại xương ức vào cột sống.",
+    "Nếu bị bong tay, hãy chuyển sang đánh tay cao gần đầu."
+  ],
+  "version": 1,
+  "updatedAt": "2026-05-21",
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "featureFlags": {
+    "hasMicroDetails": true,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "vi",
+  "name": "Choke trần trụi phía sau",
+  "shortName": "RNC",
+  "description": "Tỷ lệ gửi phần trăm cao nhất trong BJJ. Một cơn sặc máu từ back control cắt đứt cả hai động mạch cảnh bằng cách đặt cẳng tay qua một bên cổ và đóng bên kia bằng áp lực của ngực và vai.",
+  "shortInstruction": "Khuỷu tay dưới cằm, ngực dán vào lưng, tháo chùng rồi siết chặt.",
+  "summary": "Cơ bản nhất No-Gi sặc máu từ back control — làm chủ thế đánh tay, đường khuỷu tay và kết nối ngực với lưng.",
+  "whyItWorks": [
+    "Cắt đứt cả hai động mạch cảnh khi cẳng tay và vai của đối phương bịt chặt cả hai đường cổ.",
+    "Yêu cầu lực tối thiểu khi cấu trúc chính xác - đòn bẩy thay thế sức mạnh.",
+    "Tạo ra tình thế tiến thoái lưỡng nan giữa việc bảo vệ cổ và việc trốn thoát back control."
+  ],
+  "commonMistakes": [
+    "Siết chặt cánh tay trước khi khuỷu tay ở dưới cằm.",
+    "Mất liên lạc ngực để đuổi theo kết thúc.",
+    "Dùng bắp tay để quay thay cho cẳng tay để cắt.",
+    "Thêm lực trước khi loại bỏ tất cả sự chùng xuống."
+  ],
+  "coachingCues": [
+    "Khuỷu tay trước, siết chặt sau cùng.",
+    "Ngực dán, không có ánh sáng ban ngày.",
+    "Thắng tay thì kết thúc.",
+    "Thở ra, nhét vào."
+  ],
+  "oneMinuteMode": {
+    "goal": "Hoàn thành RNC từ back control với cấu trúc rõ ràng.",
+    "steps": [
+      "Khóa seatbelt và dán rương vào lưng họ.",
+      "Giành chiến thắng trong cuộc chiến tay đôi - bóc bàn tay phòng thủ của họ ra khỏi cổ.",
+      "Trượt khuỷu tay nghẹt thở dưới đường cằm.",
+      "Loại bỏ tất cả sự chùng xuống trước khi ép.",
+      "Đóng ngực và vai để hoàn thành việc sặc."
+    ]
+  },
+  "safetySummary": [
+    "Chạm sớm vào cổ - phân biệt giữa sặc máu và cổ.",
+    "Không vặn hoặc quay cổ để ép hoàn thiện.",
+    "Huấn luyện với các đối tác được kiểm soát và giải phóng áp lực ngay lập tức."
+  ],
+  "systemLogic": {
+    "corePrinciple": "back control là nền tảng chứ không phải là điểm kết thúc. Mỗi bước — seatbelt, đánh tay, dây khuỷu tay, tháo dây chùng — phải được hoàn thành theo trình tự trước khi siết chặt.",
+    "decisionTree": [
+      {
+        "condition": "Một tay bảo vệ đường viền cổ",
+        "action": "Cô lập tay phòng thủ bằng cánh tay trên của bạn (điều khiển cổ tay cao) trong khi vẫn giữ ngực dán vào lưng họ."
+      },
+      {
+        "condition": "Hai tay bảo vệ cổ",
+        "action": "Chuyển sang cơ thể triangle hoặc bẫy tay để phá vỡ lớp vỏ phòng thủ của chúng trước khi tấn công lại vào cổ."
+      },
+      {
+        "condition": "Họ biến thành bạn (ngửa mặt)",
+        "action": "Đưa hông ra sau, thiết lập lại kết nối ngực với lưng và tấn công từ phía đối diện."
+      },
+      {
+        "condition": "Cánh tay bị nghẹn của bạn ở dưới hàm (tư thế quay tay)",
+        "action": "Thả và lắp lại cánh tay phía dưới - cẳng tay phải bắt chéo ở đường giữa cổ, không phải dưới hàm."
+      },
+      {
+        "condition": "Họ lột cả hai tay ra khỏi cổ",
+        "action": "Quay lại điều khiển seatbelt, đánh tay lần nữa — không bao giờ đuổi theo cuộn cảm mà không có cấu trúc."
+      }
+    ],
+    "exitStrategies": [
+      "Nếu cuộn cảm liên tục bị chặn, hãy chuyển sang bẫy tay và tấn công armbar hoặc cung tên.",
+      "Nếu chúng trốn thoát đến mount dưới cùng, hãy chuyển sang điều khiển mount và tấn công từ đó.",
+      "Nếu chúng lao ra ngoài, hãy tấn công lại bằng front headlock hoặc guillotine khi chúng đối mặt với bạn."
+    ]
+  },
+  "moneyDetails": [
+    "Chi tiết khuỷu tay dưới cằm là tất cả mọi thứ - nếu không có nó, bạn sẽ có một tay quay chứ không phải một cuộn cảm.",
+    "Tiếp xúc ngực đối lưng sẽ đóng băng lối thoát của chúng trước khi bạn kịp siết chặt.",
+    "Loại bỏ sự lỏng lẻo quan trọng hơn việc ép mạnh."
+  ],
+  "nextStep": "Sau khi kết thúc RNC hoặc nếu thất bại, hãy xâu chuỗi vào bẫy cánh tay, chuyển đổi mount hoặc quay lại để vào lại.",
+  "fixItFast": [
+    "Không thể tìm thấy đường viền cổ? Chuyển sang cánh tay kia hoặc tạo thêm góc bằng cách di chuyển hông.",
+    "Bị bóc vỏ? Gập cằm và chuyển sang điều khiển bằng cổ tay cao.",
+    "Mất liên lạc với ngực? Kết nối lại trước khi siết chặt - nếu không có nó, chúng sẽ trốn thoát."
+  ]
+}

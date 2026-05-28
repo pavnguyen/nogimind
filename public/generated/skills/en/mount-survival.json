@@ -1,0 +1,126 @@
+{
+  "id": "mount-survival",
+  "domain": "survival_defense",
+  "level": "beginner",
+  "status": "draft",
+  "name": "Mount Survival",
+  "aliases": [],
+  "tags": [
+    "survival",
+    "mount"
+  ],
+  "keywords": [
+    "mount",
+    "elbow knee connection",
+    "bridge",
+    "inside position"
+  ],
+  "relatedSkills": [
+    {
+      "id": "mount-escape",
+      "type": "recommended"
+    },
+    {
+      "id": "arm-triangle-mount",
+      "type": "recommended"
+    },
+    {
+      "id": "mount-control",
+      "type": "recommended"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "frames-pummeling"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [],
+  "version": 1,
+  "updatedAt": "2026-05-21T00:24:30.749Z",
+  "contentRefs": {
+    "videos": "videos.json",
+    "qualityChecklist": "qualityChecklist"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": true,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "en",
+  "description": "Protect neck, elbows, and hips when the opponent mounts and starts separating your arms. Survival in mount is a race against time — the longer they settle, the harder the escape.",
+  "shortInstruction": "Keep elbows tight to ribs, frame on the hips, bridge to off-balance before they settle, and never let them isolate your arms above your head.",
+  "summary": "Mount survival requires preventing the opponent from establishing high mount by managing three attack lanes: the arm isolation lane (elbows flared = armbar or shoulder attacks), the neck lane (elbows high = collar choke or crossface), and the hip lane (knees high = high mount progression). Survival is active, not passive — small adjustments and well-timed bumps prevent the opponent from settling their weight.",
+  "whyItWorks": [
+    "Keeping elbows tight to the ribs prevents the opponent from dragging your arms above your head for armbar entries",
+    "Small, well-timed bridges (bumps) prevent the opponent from settling their full weight, constantly forcing them to re-adjust their base",
+    "A forearm frame on the hips prevents the opponent from sliding their knees up toward your armpits (high mount progression)",
+    "Protecting the neck with a cross-arm defense (forearms crossed over the face/neck) buys time against collar chokes and crossfaces"
+  ],
+  "commonMistakes": [
+    "Letting the opponent pin your arms to the mat above your head — this is the pre-requisite for every mount armbar",
+    "Allowing the opponent's knees to slide up past your hip line (high mount) — from here, their weight pins your shoulders",
+    "Framing on the chest instead of the hips — a chest frame is easily collapsed and does not prevent high mount progression",
+    "Explosive bridging without re-framing — you waste energy and stay in the same position"
+  ],
+  "coachingCues": [
+    "Elbows to ribs, always",
+    "Frame on the hips, not the chest",
+    "Bump before they settle",
+    "Knees below the hip line"
+  ],
+  "safetySummary": [
+    "Mount armbars can cause elbow hyperextension or dislocation — tap the moment the arm is fully extended",
+    "If you feel your arm being isolated above your head, tap before they can hyperextend the elbow",
+    "Do not bridge explosively if you feel the opponent has already isolated your arm — this can cause shoulder or elbow injury",
+    "Crossface pressure from mount can strain the neck — always turn your head toward the mat when pressure comes"
+  ],
+  "systemLogic": {
+    "corePrinciple": "Mount survival follows a three-attack-lane defense system: protect the arm lane (elbows to ribs), the hip lane (knees below your armpits), and the neck lane (forearm frame). Active survival with small bumps prevents them from settling their weight.",
+    "decisionTree": [
+      {
+        "condition": "Opponent grips your sleeve and pulls to isolate your arm",
+        "action": "Rotate your arm with the pull (do not resist) and re-pummel back to your chest. If the arm gets pinned above your head, the armbar entry is set."
+      },
+      {
+        "condition": "Opponent's knees slide up past your hip line",
+        "action": "Frame both forearms on their hip bones and bump your hips up whenever they try to slide forward. High mount (knees at armpits) makes escape exponentially harder."
+      },
+      {
+        "condition": "Opponent postures up to attack the neck",
+        "action": "Cross your forearms over your face/neck in a defensive shell. Keep the arms connected to your torso — flared arms expose the armbar."
+      },
+      {
+        "condition": "Opponent grapevines your legs",
+        "action": "Bridge to one side, trap their near leg with your foot, and roll them over. Do not let them pin both your legs — this locks your hips and prevents the escape."
+      },
+      {
+        "condition": "Opponent settles their full weight",
+        "action": "Small bumps every 2-3 seconds prevent them from settling. The moment they settle fully, the escape becomes exponentially harder. Bump before they post wide."
+      }
+    ],
+    "exitStrategies": [
+      "If they achieve high mount (knees at armpits), bridge hard to one side, trap their far foot with your hand, and roll them into guard recovery.",
+      "If the arm is already isolated above your head, tap before they can hyperextend the elbow — do not bridge with an isolated arm.",
+      "If mount survival is failing, prioritize the arm lane defense: keeping elbows tight prevents the most dangerous attack (armbar)."
+    ]
+  },
+  "moneyDetails": [
+    "Mount survival is a high-leverage skill — surviving 10 seconds in mount often forces the opponent to over-commit and lose position",
+    "A calm survival approach in mount is more intimidating to opponents than explosive escapes because it shows composure under pressure",
+    "Competition mount escapes are worth one point — surviving mount and escaping to half guard or guard is a massive psychological shift"
+  ],
+  "fixItFast": [
+    "If they already have high mount (knees at armpits): bridge hard to one side, trap their far foot with your hand, and roll them into guard recovery",
+    "If they are grapevining you: immediately bump to your stronger side, trap one leg between yours, and bridge the other direction to escape",
+    "If they posture up to attack a collar choke: bring your forearms to your face/neck, keep elbows down, and bump to off-balance them as they lift their weight"
+  ]
+}

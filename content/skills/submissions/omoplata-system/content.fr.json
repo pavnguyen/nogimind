@@ -1,0 +1,65 @@
+{
+  "id": "omoplata-system",
+  "locale": "fr",
+  "name": "omoplata Système",
+  "description": "Transformez la pince d'épaule en un verrou d'épaule en utilisant l'angle de la hanche, le freinage de la posture et le contrôle du poignet — le omoplata applique une pression de rotation sur l'épaule.",
+  "shortInstruction": "Emprisonnez le bras, serrez avec votre jambe, faites pivoter vos hanches, le verrouillage de l'épaule suit - le omoplata est un verrouillage de l'épaule assisté par la jambe.",
+  "summary": "L'omoplata est l'un des plus puissants verrouillages d'épaule depuis la garde. Il utilise vos jambes pour piéger leur bras et la rotation de vos hanches pour appliquer la pression de soumission. Contrairement au kimura (qui utilise les deux mains), l'omoplata emploie une jambe comme levier et vos hanches comme moteur. Le système omoplata inclut le sweep (quand ils se redressent pour défendre) et la prise de dos (quand ils roulent pour s'échapper). C'est un système d'attaque complet depuis la garde.",
+  "whyItWorks": [
+    "Utiliser votre jambe comme levier vous donne un avantage mécanique que la force pure du bras ne peut égaler.",
+    "Le omoplata crée un dilemme : appuyez sur le verrou de l'épaule, faites-vous balayer ou abandonnez le dos.",
+    "Cela fonctionne à partir de positions où le kimura est difficile (closed guard, half guard).",
+    "Principe de Danaher : le omoplata est une soumission de « position » — si la position est correcte, la soumission nécessite une force minimale."
+  ],
+  "commonMistakes": [
+    "Ne contrôlant pas la posture de l'adversaire avant d'attaquer, il peut vous positionner et vous empiler.",
+    "Laisser le bras coincé glisser sous votre jambe – la jambe doit serrer le bras contre votre corps.",
+    "Rotation dans la mauvaise direction : la rotation omoplata s'éloigne d'eux, pas vers eux.",
+    "Tomber latéralement pour finir au lieu de tourner – la finition est une rotation des hanches, pas une chute latérale."
+  ],
+  "coachingCues": [
+    "Emprisonnez le bras, serrez la jambe, éloignez-vous.",
+    "S'ils se tiennent en position, balayez. S'ils roulent, prenez le dos.",
+    "La jambe est le levier, les hanches sont le moteur, l’épaule est la cible.",
+    "Faites une rotation loin, pas latéralement."
+  ],
+  "safetySummary": [
+    "Le omoplata applique une pression de rotation sur l'épaule — appliquez-la progressivement et respectez le tapotement.",
+    "Ne tournez pas l’épaule si l’adversaire a des problèmes d’épaule préexistants.",
+    "Soyez prudent lorsque vos adversaires lancent un jet pour échapper au omoplata : ils peuvent atterrir sur votre visage ou votre cou."
+  ],
+  "keyCorrections": [
+    "Si vous ne pouvez pas terminer, vos hanches ne sont pas assez proches de leur épaule – rapprochez vos hanches.",
+    "S'ils se tiennent dehors, le contrôle de votre jambe est trop lâche – serrez votre jambe plus fort autour de son bras.",
+    "S'ils vous empilent, relâchez le omoplata et repoussez leurs hanches – ne combattez pas la pile."
+  ],
+  "systemLogic": {
+    "corePrinciple": "guard : coincez son bras avec votre jambe (par-dessus son épaule) → serrez le bras contre votre corps → éloignez vos hanches → termine le verrouillage de l'épaule.",
+    "decisionTree": [
+      {
+        "condition": "Utiliser la réaction 1",
+        "action": "Ils se positionnent pour se défendre → s'assoient et effectuent un balayage → atterrissent en mount ou side control."
+      },
+      {
+        "condition": "Utiliser la réaction 2",
+        "action": "Ils roulent pour s'échapper → suivent leur jet → reprennent le chemin inverse."
+      },
+      {
+        "condition": "Les chaînes système omoplata : soumission",
+        "action": "balayage → prise en arrière."
+      }
+    ]
+  },
+  "moneyDetails": [
+    "Attrapez son bras en balançant votre jambe du même côté par-dessus son épaule – votre genou doit être sous son aisselle.",
+    "Serrez votre jambe contre votre propre poitrine pour épingler son bras – une jambe lâche lui permet de s'échapper.",
+    "Contrôlez leur bras libre avec votre main pour éviter qu'ils ne postent pendant la rotation.",
+    "Éloignez vos hanches d’elles – la rotation applique le verrouillage des épaules sans force des bras."
+  ],
+  "nextStep": "Après le système omoplata, apprenez le système kimura et le baratoplata pour compléter l'arsenal d'attaque à l'épaule.",
+  "fixItFast": [
+    "Le bras continue de glisser ? Serrez votre jambe plus fort contre votre poitrine.",
+    "Vous ne pouvez pas tourner ? Vos hanches sont trop éloignées – rapprochez vos hanches de leur épaule.",
+    "Ils se tiennent debout ? Relâchez le omoplata et tirez-les dans un balayage."
+  ]
+}

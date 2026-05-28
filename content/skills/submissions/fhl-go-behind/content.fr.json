@@ -1,0 +1,61 @@
+{
+  "id": "fhl-go-behind",
+  "locale": "fr",
+  "name": "prise de dos depuis front headlock",
+  "description": "La prise en arrière la plus fondamentale de front headlock : faire un cercle vers l'arrière lorsque l'adversaire résiste à l'étranglement ou tente de se mettre à plat ventre.",
+  "shortInstruction": "Contrôlez la tête, faites un cercle vers l'arrière, prenez les crochets — le passage en arrière est le chemin le plus simple de front headlock à back control.",
+  "summary": "Le retour à partir de front headlock est le pourcentage de transition le plus élevé dans le système front headlock. Lorsque vous avez le front headlock et que l'adversaire résiste à votre tentative d'étranglement (guillotine, d'arce, anaconda), il essaiera souvent de s'aplatir ou de s'éloigner. Leur résistance crée l’espace dont vous avez besoin pour relâcher l’étranglement, tourner derrière eux et prendre le dos. Le go-behind transforme une soumission échouée en position la plus dominante dans BJJ.",
+  "whyItWorks": [
+    "Lorsqu’ils résistent à l’étranglement, ils se concentrent sur la défense de leur cou – leur dos est exposé.",
+    "Le front headlock contrôle déjà sa tête et un bras – vous avez déjà parcouru 50 % du chemin vers back control.",
+    "Faire des cercles derrière est un mouvement naturel de front headlock : leur pression vers l'avant crée l'espace.",
+    "Principe de Danaher : chaque tentative de front headlock doit avoir une option de mise en marche arrière – ne vous engagez jamais complètement dans le starter."
+  ],
+  "commonMistakes": [
+    "S’engager pleinement dans l’étranglement et oublier le go-derrière – le go-derrière devrait toujours être une option.",
+    "Encerclant dans la mauvaise direction – tournez vers l’arrière, pas vers leur visage.",
+    "Abandonnez le contrôle de votre tête trop tôt – maintenez un certain contrôle de votre tête jusqu'à ce que vous ayez le seatbelt.",
+    "Si vous ne sécurisez pas le seatbelt assez rapidement après le passage en arrière, ils se tourneront vers vous."
+  ],
+  "coachingCues": [
+    "Étouffer → résister → relâcher → cercle → retour — le go-derrière est toujours là.",
+    "Faites un cercle vers l’arrière et non vers le visage.",
+    "Contrôle de la tête en premier, seatbelt en second, crochets en troisième.",
+    "S'ils combattent l'étranglement, prenez le dessus."
+  ],
+  "safetySummary": [
+    "Ne tournez pas la tête lorsque vous tournez derrière vous - relâchez le starter avant de tourner, pas pendant.",
+    "Gardez votre tête protégée pendant la transition – leurs coudes sont dangereux lorsqu'ils tournent.",
+    "Lorsque vous prenez le dos, glissez doucement vos crochets pour éviter de heurter leurs genoux."
+  ],
+  "keyCorrections": [
+    "S'ils se tournent vers vous pendant le passage en arrière, vous avez tourné trop large – cerclez plus près de leur corps.",
+    "Si vous ne parvenez pas à obtenir le seatbelt, vous avez perdu le contrôle de votre tête trop tôt : maintenez le contact avec votre tête jusqu'à ce que le seatbelt soit sécurisé.",
+    "S'ils sprawl sur votre derrière, ils l'ont senti venir - utilisez une feinte (faux étranglement) avant de vous engager."
+  ],
+  "systemLogic": {
+    "corePrinciple": "front headlock établi → l'adversaire résiste à l'étranglement → relâchez l'étranglement → cercle derrière lui → sécurisez seatbelt → insérez les crochets → back control.",
+    "decisionTree": [
+      {
+        "condition": "Le go-behind fonctionne dans le cadre du système FHL : menace d'étranglement",
+        "action": "aller derrière → back control → RNC."
+      },
+      {
+        "condition": "Application générale",
+        "action": "Si le go-behind échoue, revenez à front headlock ou passez à side control."
+      }
+    ]
+  },
+  "moneyDetails": [
+    "Relâchez la poignée d'étranglement pendant que vous tournez - maintenir la poignée pendant le cercle vous ralentit.",
+    "Maintenez la pression de la tête pendant que vous tournez – utilisez votre épaule pour garder la tête baissée pendant que vous bougez.",
+    "Le chemin circulaire doit être serré contre leur corps – un cercle large leur donne le temps de réagir.",
+    "Une fois derrière, glissez vos mains dans la poignée seatbelt avant d'insérer les crochets - seatbelt en premier, les crochets en second."
+  ],
+  "nextStep": "Après le go-behind FHL, apprenez back control et le système d'attaque arrière.",
+  "fixItFast": [
+    "Ils continuent de vous faire face ? Cercle plus serré – votre chemin est trop large.",
+    "Vous ne parvenez pas à obtenir le seatbelt ? Ne lâchez pas leur tête – gardez le contrôle de votre tête et reculez vos mains.",
+    "Ils sprawl ? Faites semblant de prendre le starter, attendez qu'ils réagissent, puis passez derrière."
+  ]
+}

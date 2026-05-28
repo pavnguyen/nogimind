@@ -1,0 +1,2055 @@
+[
+  {
+    "id": "back-escape",
+    "domain": "escapes",
+    "level": "intermediate",
+    "name": "Trở lại Thoát",
+    "tags": [
+      "escape",
+      "back"
+    ],
+    "summary": "Thoát lùi đòi hỏi phải thắng trong giao tranh tay trước, sau đó tạo khoảng trống bằng cách thả vai bị mắc kẹt xuống dưới đường hông của đối phương. Một nhánh có hệ thống: đánh tay → trượt vai → tháo móc đơn → xoay người hoặc đứng lên.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": true
+  },
+  {
+    "id": "back-survival",
+    "domain": "survival_defense",
+    "level": "beginner",
+    "name": "Trở lại Sinh tồn",
+    "tags": [
+      "survival",
+      "back"
+    ],
+    "summary": "Sống sót ở phía sau là một hành động giữ: bảo vệ cổ, ngăn chặn chiếc nghẹt thở chìm xuống và kiểm soát hơi thở của bạn trong khi thiết lập trình tự thoát hiểm. Ưu tiên luôn là tay bóp cổ, sau đó là thân triangle, sau đó là móc.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": true
+  },
+  {
+    "id": "compression-vs-strangle-recognition",
+    "domain": "positional_awareness",
+    "level": "intermediate",
+    "name": "Nén vs bóp cổ",
+    "tags": [
+      "compression",
+      "strangle",
+      "neck-safety",
+      "leg-lock",
+      "decision-making"
+    ],
+    "summary": "Các đòn tấn công nén (máy cắt) tạo áp lực khiến bụng cơ bám vào xương, tạo ra cơn đau cục bộ rõ rệt. Siết cổ (nghẹt máu) gây áp lực lên động mạch cảnh. Phản hồi thì ngược lại: đối với khóa nén, hãy chạm vào khi cơn đau trở nên gay gắt (chúng sẽ không khiến bạn bất tỉnh). Đối với tình trạng sặc máu, bạn có thể phòng thủ lâu hơn vì tình trạng bất tỉnh có thể hồi phục. Điều nguy hiểm là nhầm lẫn giữa chứng sặc máu sâu có cảm giác như bị đè ở cổ với tay quay - hãy chạm sớm nếu cảm thấy áp lực không đúng.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "dilemmas-two-way-attacks",
+    "domain": "positional_awareness",
+    "level": "intermediate",
+    "name": "Vấn đề nan giải và tấn công hai chiều",
+    "tags": [
+      "decision-making",
+      "offense"
+    ],
+    "summary": "Một thế tiến thoái lưỡng nan là bất kỳ vị trí nào mà phản ứng phòng thủ của đối phương trước một đòn tấn công sẽ mở ra một đòn tấn công thứ hai, nguy hiểm không kém. Các tình huống khó xử mạnh mẽ nhất liên kết một cú quét và một cú khuất phục (ví dụ: quét cắt kéo → kimura từ closed guard) hoặc một đường chuyền và một cú lùi (ví dụ: chuyền sang một bên để lộ mặt sau). Hệ thống dạy bạn cách tấn công theo chuỗi thay vì bắn các kỹ thuật đơn lẻ và khởi động lại khi thất bại.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "failure-response-transitions",
+    "domain": "positional_awareness",
+    "level": "intermediate",
+    "name": "Phản hồi và chuyển đổi thất bại",
+    "tags": [
+      "transitions",
+      "systems"
+    ],
+    "summary": "Phản hồi lỗi là một cây quyết định có cấu trúc khi Kỹ thuật A không hoạt động. Hệ thống có bốn phản ứng leo thang: (1) điều chỉnh góc — dịch chuyển cơ thể của bạn 10-30 độ mà không thay đổi kỹ thuật, (2) điều chỉnh cách cầm — thay đổi vị trí hoặc cách bạn giữ đối thủ, (3) thay đổi vị trí — di chuyển đến một vị trí khác trong khi vẫn duy trì cùng một chủ đề tấn công, (4) rút lui an toàn — thảnh thơi và đặt lại về trạng thái trung lập. Nguyên tắc chính là loại bỏ hết các phương án 1-3 trước khi chấp nhận phương án 4.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "frames-pummeling",
+    "domain": "positional_awareness",
+    "level": "beginner",
+    "name": "Khung và đập",
+    "tags": [
+      "frames",
+      "pummeling"
+    ],
+    "summary": "Khung sử dụng cấu trúc xương chống lại cơ để duy trì khoảng cách và chịu được áp lực. Đập phá là quá trình tích cực nhằm giành lại vị trí bên trong sau khi bị mất. Chúng cùng nhau tạo thành nền tảng cơ học của việc trốn thoát, guard giữ chân và vật lộn phòng thủ.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "front-headlock-defense",
+    "domain": "survival_defense",
+    "level": "intermediate",
+    "name": "front headlock Phòng thủ",
+    "tags": [
+      "front-headlock",
+      "neck-safety"
+    ],
+    "summary": "Phòng thủ front headlock là phản ứng có hệ thống đối với một trong những vị trí nguy hiểm nhất trong môn vật lộn No-Gi. Ưu tiên trước tiên là bảo vệ cổ, sau đó là kiểm soát cổ tay, sau đó là phục hồi căn cứ và cuối cùng là trốn thoát. Hệ thống khen thưởng việc đưa ra quyết định đúng lúc và bình tĩnh trước chuyển động bùng nổ.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": true
+  },
+  {
+    "id": "guard-pulling-strategy",
+    "domain": "positional_awareness",
+    "level": "intermediate",
+    "name": "guard Chiến lược kéo",
+    "tags": [
+      "strategy",
+      "guard"
+    ],
+    "summary": "guard kéo phải là một bước chuyển tiếp tấn công chứ không phải là một cuộc rút lui phòng thủ. Trình tự như sau: thiết lập tay cầm thuận → tạo góc bằng cách xoay tròn hoặc đập mạnh → kiểm soát khoảng cách bằng cách duy trì tay cầm → ngồi lại và kiểm soát → nhập thẳng vào hệ thống guard tốt nhất của bạn. Một cú kéo guard được thực hiện tốt sẽ mang lại điểm guard (không nằm ngửa) với tay cầm đã được thiết lập sẵn và đối thủ mất thăng bằng.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "guillotine-defense-escape",
+    "domain": "escapes",
+    "level": "intermediate",
+    "name": "guillotine Phòng thủ và trốn thoát",
+    "tags": [
+      "defense",
+      "guillotine",
+      "choke-defense",
+      "headlock",
+      "neck-safety",
+      "takedown-defense"
+    ],
+    "summary": "guillotine phòng thủ sử dụng động tác gập cằm, đánh tay và tư thế cơ thể để giảm áp lực ở cổ, sau đó thực hiện một trình tự có hệ thống để loại bỏ cánh tay bị nghẹn và phục hồi guard hoặc vị trí trên cùng. Hệ thống ưu tiên kiểm soát tư thế và cánh tay hơn là giật mạnh.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "half-guard-bottom-escape",
+    "domain": "escapes",
+    "level": "intermediate",
+    "name": "half guard Thoát đáy",
+    "tags": [
+      "escape",
+      "half-guard",
+      "underhook",
+      "dogfight",
+      "wrestle-up"
+    ],
+    "summary": "half guard lối thoát phía dưới sử dụng underhook và vị trí đầu gối bên ngoài để tạo một mục nhập không chiến, từ đó bạn có thể wrestle up, quét hoặc phục hồi toàn bộ guard. Hệ thống khen thưởng khả năng di chuyển của hông và vị trí đầu hơn sức mạnh của phần trên cơ thể.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "inside-position",
+    "domain": "positional_awareness",
+    "level": "beginner",
+    "name": "Vị trí bên trong",
+    "tags": [
+      "mechanics",
+      "pummeling"
+    ],
+    "summary": "Vị trí bên trong là việc kiểm soát khoảng trống giữa cơ thể bạn và đường giữa của đối phương. Từ đây, tất cả các lần gửi, quét, vượt qua và ghim đều được tạo. Vị trí bên trong tồn tại ở bốn cấp độ: tay bên trong (đập để kiểm soát cổ tay/khuỷu tay), bên trong đầu gối (đập trong guard/half guard), hông bên trong (vị trí bên trong để vượt qua/quét) và đầu bên trong (điều khiển đầu để hạ gục/bắn rùa). Mất vị trí bên trong ở bất kỳ cấp độ nào đều hướng lên trên - mất đầu gối bên trong dẫn đến mất hông bên trong.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "kani-basami-safety",
+    "domain": "positional_awareness",
+    "level": "beginner",
+    "name": "An toàn Kani Basami",
+    "tags": [
+      "safety",
+      "knee-safety",
+      "takedown",
+      "tier:safety-critical",
+      "risk:safety-critical",
+      "family:safety",
+      "group:takedown-safety",
+      "ibjjf-rules",
+      "modern-no-gi"
+    ],
+    "summary": "Nhận thức về Kani basami dạy về sự nguy hiểm của kỹ thuật bị cấm này và cung cấp các lựa chọn thay thế an toàn hơn cho các mục gỡ xuống. Kỹ thuật này bị cấm vì chuyển động cắt kéo khiến đầu gối không có đường xoay an toàn và trọng lượng của đối phương đè lên đầu gối cố định sẽ tạo ra lực thảm khốc mà phẫu thuật tái tạo không thể sửa chữa hoàn toàn.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": true
+  },
+  {
+    "id": "knee-line-escape",
+    "domain": "survival_defense",
+    "level": "intermediate",
+    "name": "Thoát khỏi đường đầu gối / Ẩn gót chân",
+    "tags": [
+      "knee-line",
+      "leg-lock",
+      "heel-hide",
+      "defense",
+      "escape"
+    ],
+    "summary": "Thoát khỏi đường đầu gối là một quá trình có hệ thống để loại bỏ đầu gối của bạn khỏi sự kiểm soát của đối phương trong tình huống vướng chân. Trình tự bốn bước là: (1) ẩn gót chân — đưa gót chân về phía cơ mông để ngăn chúng kiểm soát bàn chân, (2) tách hông — tạo khoảng cách giữa hông của bạn và hông của họ để giảm lực xoay, (3) bỏ chân phụ — tháo móc chân bên ngoài đang bẫy chân bạn, (4) xoay đúng — xoay về phía chân tự do của bạn (không bao giờ rời khỏi chân bị mắc kẹt). Hệ thống này dựa trên triết lý thoát khóa chân của Danaher và là nền tảng của mọi biện pháp phòng thủ khóa chân.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "leg-lock-defense",
+    "domain": "survival_defense",
+    "level": "intermediate",
+    "name": "Bảo vệ khóa chân",
+    "tags": [
+      "leg-lock",
+      "defense",
+      "heel-hook",
+      "knee-safety",
+      "escape"
+    ],
+    "summary": "Phòng thủ khóa chân bao gồm đầy đủ các phản ứng phòng thủ chống lại tất cả các cuộc tấn công chính bằng chân: heel hooks (bên trong và bên ngoài), ankle locks thẳng, đòn đầu gối, giữ ngón chân và máy cắt bắp chân. Hệ thống tích hợp cơ chế thoát khỏi đường đầu gối với các bộ đếm cụ thể. Nguyên tắc chung: nếu đầu gối của bạn bị cô lập và gót chân của bạn bị kiểm soát, hãy ưu tiên thoát thân. Nếu đầu gối của bạn bị cô lập và gót chân đã lộ ra ngoài, hãy ưu tiên chạm vào.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "leg-lock-safety-basics",
+    "domain": "survival_defense",
+    "level": "beginner",
+    "name": "Khái niệm cơ bản về an toàn khóa chân",
+    "tags": [
+      "leg-lock",
+      "knee-safety"
+    ],
+    "summary": "Khái niệm cơ bản về an toàn khóa chân bao gồm bốn khái niệm an toàn cơ bản mà mọi vận động viên vật lộn phải nắm vững trước khi cố gắng hoặc bảo vệ khóa chân: (1) đường đầu gối — đường vô hình ở phía sau đầu gối, khi bắt chéo, sẽ báo hiệu cần chạm hoặc thoát, (2) tiếp xúc với gót chân — khi gót chân bị cô lập và tách khỏi đùi, đầu gối đang gặp nguy hiểm, (3) xoay an toàn — quay về phía chân tự do luôn an toàn, xoay ra xa luôn nguy hiểm, (4) kỷ luật chạm — chạm vào vị trí thay vì đau là nguyên tắc vàng của khóa luyện tập khóa chân.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": true
+  },
+  {
+    "id": "mount-escape",
+    "domain": "escapes",
+    "level": "beginner",
+    "name": "mount Thoát",
+    "tags": [
+      "escape",
+      "mount"
+    ],
+    "summary": "Lối thoát mount sử dụng cầu nối theo trình tự để tạo khoảng trống, đặt khuỷu tay để chặn crossface và lối thoát hông để khôi phục guard hoặc vị trí tấm chắn đầu gối. Hệ thống thưởng cho thời gian hơn là sự bùng nổ.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": true
+  },
+  {
+    "id": "mount-survival",
+    "domain": "survival_defense",
+    "level": "beginner",
+    "name": "mount Sống sót",
+    "tags": [
+      "survival",
+      "mount"
+    ],
+    "summary": "Sự sống còn của mount đòi hỏi phải ngăn chặn đối thủ thiết lập cao mount bằng cách quản lý ba làn tấn công: làn cách ly cánh tay (khuỷu tay xòe = armbar hoặc tấn công bằng vai), làn cổ (khuỷu tay cao = nghẹt cổ hoặc crossface) và làn hông (cao đầu gối = cao mount tiến triển). Sinh tồn là chủ động chứ không phải thụ động - những điều chỉnh nhỏ và va chạm đúng lúc sẽ ngăn cản đối thủ ổn định sức nặng của chúng.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": true
+  },
+  {
+    "id": "neck-crank-recognition",
+    "domain": "positional_awareness",
+    "level": "intermediate",
+    "name": "Nhận dạng tay quay cổ",
+    "tags": [
+      "safety",
+      "neck-safety",
+      "cervical-spine",
+      "tier:safety-critical",
+      "risk:safety-critical",
+      "family:safety",
+      "group:neck-safety",
+      "modern-no-gi"
+    ],
+    "summary": "Nhận dạng tay quay cổ là khả năng phân biệt ngay lập tức giữa một cơn sặc máu (bóp cổ) nhắm vào động mạch cảnh và một cú quay cổ nhắm vào cột sống cổ. Nghẹt máu là an toàn khi tập luyện cùng bạn tập - nó cắt đứt lưu lượng máu đến não và gây bất tỉnh mà không gây tổn thương cấu trúc. Cổ quay tấn công các đốt sống, đĩa đệm và dây chằng của cột sống cổ và có thể gây ra tổn thương tích lũy qua nhiều năm tập luyện. Điểm khác biệt chính: cuộn cảm tạo áp lực lên hai bên cổ (động mạch cảnh), tay quay tạo áp lực lên cằm, phía sau đầu hoặc đỉnh cột sống.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": true
+  },
+  {
+    "id": "north-south-escape",
+    "domain": "escapes",
+    "level": "intermediate",
+    "name": "Bắc Nam thoát hiểm",
+    "tags": [
+      "escape",
+      "pin",
+      "north-south",
+      "frame",
+      "knee-shield"
+    ],
+    "summary": "north-south lối thoát sử dụng khung cẳng tay ở hông để tạo sự tách biệt, sau đó knee shield để biến thành đối thủ và hồi phục guard. Hệ thống này khác với side control trốn thoát vì trọng lượng của đối thủ được căn dọc theo đường tâm của bạn thay vì vuông góc với nó.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "positional-hierarchy",
+    "domain": "positional_awareness",
+    "level": "beginner",
+    "name": "Hệ thống phân cấp vị trí",
+    "tags": [
+      "map",
+      "decision-making"
+    ],
+    "summary": "Hệ thống phân cấp vị trí xếp hạng các vị trí vật lộn từ dễ bị tổn thương nhất đến chiếm ưu thế nhất. Hệ thống đưa ra mục tiêu chiến thuật của bạn ở mọi vị trí: nếu bạn ở vị trí cuối bảng (tệ hơn), mục tiêu của bạn là trốn thoát. Nếu bạn đang ở vị trí hàng đầu (tốt hơn), mục tiêu của bạn là tiến lên hoặc khuất phục. Mọi quyết định bạn đưa ra phải được lọc qua hệ thống phân cấp này - đừng cố gắng đệ trình từ vị trí mà trước tiên bạn không có ưu thế về vị trí.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "reaping-awareness",
+    "domain": "positional_awareness",
+    "level": "beginner",
+    "name": "Gặt hái nhận thức",
+    "tags": [
+      "safety",
+      "knee-safety",
+      "leg-lock",
+      "tier:safety-critical",
+      "risk:safety-critical",
+      "family:safety",
+      "group:leg-safety",
+      "ibjjf-rules",
+      "modern-no-gi"
+    ],
+    "summary": "Nhận thức về việc thu lại sẽ dạy bạn cách xác định khi nào một tư thế vướng chân trở thành một tư thế bất hợp pháp (quy tắc IBJJF) hoặc một tư thế đầu gối nguy hiểm và cách điều chỉnh sang các tư thế luyện tập an toàn. Biện pháp quan trọng là đường giữa - nếu chân tấn công của bạn ở phía đối diện với cơ thể đối phương so với nơi bạn bắt đầu, bạn có khả năng sẽ gặt hái được. Điều nguy hiểm là việc gặt sẽ áp dụng mô-men quay tương tự lên đầu gối như heel hook và việc luyện tập ở các tư thế gặt sẽ bình thường hóa các góc đầu gối không an toàn.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": true
+  },
+  {
+    "id": "scramble-control",
+    "domain": "positional_awareness",
+    "level": "advanced",
+    "name": "Kiểm soát tranh giành",
+    "tags": [
+      "scramble",
+      "transitions"
+    ],
+    "summary": "Kiểm soát tranh giành biến các sàn giao dịch hỗn loạn thành một cuộc đua ưu tiên có hệ thống. Bốn mức độ ưu tiên theo thứ tự là: (1) vị trí đầu - đưa trán của bạn chạm vào quai hàm của họ, (2) chiều cao của hông - giữ hông của bạn ở dưới hoặc ngang bằng với họ, (3) vị trí bên trong - đánh tay, đầu gối và khuỷu tay của họ vào làn bên trong và (4) để lộ lưng - không bao giờ lộ lưng. Người cấu trúc đầu tiên buộc đối thủ phải phản ứng và giành được lợi thế về vị trí.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "side-control-escape",
+    "domain": "escapes",
+    "level": "beginner",
+    "name": "side control Thoát",
+    "tags": [
+      "escape",
+      "pin"
+    ],
+    "summary": "side control lối thoát sử dụng khung cứng ở hông để tạo thành hình nêm, sau đó thoát hông để phục hồi vị trí bên trong. Hệ thống có hai nhánh chính: phục hồi underhook (đưa lưng hoặc guard) và phục hồi khuỷu tay đầu gối (guard).",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": true
+  },
+  {
+    "id": "side-control-survival",
+    "domain": "survival_defense",
+    "level": "beginner",
+    "name": "side control Sống sót",
+    "tags": [
+      "survival",
+      "pin"
+    ],
+    "summary": "side control Sinh tồn là nghệ thuật hấp thụ áp lực mà không hoảng sợ trong khi vẫn duy trì tính toàn vẹn về cấu trúc cần thiết để trốn thoát. Thứ tự ưu tiên là: bảo vệ cánh tay gần (khuỷu tay đến xương sườn), bảo vệ cổ (cằm thu gọn, đầu quay về phía thảm dưới crossface) và kiểm soát nhịp thở. Người chơi ở cuối cuộc sống sót bình tĩnh, lập khung hình chính xác và chờ đợi thời điểm thích hợp để bắt đầu chuỗi trốn thoát.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": true
+  },
+  {
+    "id": "smother-safety",
+    "domain": "positional_awareness",
+    "level": "advanced",
+    "name": "An toàn hơn",
+    "tags": [
+      "smother",
+      "compression",
+      "safety",
+      "tier:safety-critical",
+      "meta:specialized",
+      "risk:safety-critical",
+      "family:safety",
+      "group:smother",
+      "modern-no-gi"
+    ],
+    "summary": "Các kỹ thuật bóp nghẹt (ép ngực, ấn vai lên mặt, định vị cơ thể để hạn chế thở) là một phần của quá trình truyền và ghim áp lực ở mức độ cao. Sự khác biệt chính về an toàn là giữa 'áp lực tư thế' (an toàn, được kiểm soát) và 'nghẹt thở với mục đích gây khó thở' (cần thận trọng). Kỹ thuật bóp nghẹt an toàn được áp dụng dần dần với chân đế vững chắc để đối thủ có thể tấn công bất cứ lúc nào. Các kỹ thuật bóp ngạt không an toàn bao gồm giảm cân đột ngột, trượt vai lên cổ họng hoặc giữ áp lực sau một cú chạm.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "turtle-escape-standup",
+    "domain": "escapes",
+    "level": "intermediate",
+    "name": "Rùa trốn thoát để đứng lên",
+    "tags": [
+      "escape",
+      "turtle",
+      "stand-up",
+      "wrestling",
+      "back-defense"
+    ],
+    "summary": "Rùa thoát hiểm để đứng lên sử dụng trình tự đứng lên kỹ thuật để chuyển từ rùa phòng thủ sang tư thế đứng trung lập hoặc giao tranh mà không cần lùi lại. Hệ thống ưu tiên vị trí đặt tay và thời gian đầu gối hơn là lăn nổ.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "butterfly-guard-off-balance",
+    "domain": "guard_offense",
+    "level": "intermediate",
+    "name": "Bướm guard Mất cân bằng",
+    "tags": [
+      "butterfly",
+      "guard"
+    ],
+    "summary": "Mất cân bằng bướm guard là động cơ của toàn bộ hệ thống bướm. Nếu không phá vỡ căn cứ của đối thủ, bạn không thể quét hoặc tấn công. Mục tiêu là khiến họ đăng một bàn tay hoặc một bước - sau đó bạn di chuyển.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "clamp-guard-control",
+    "domain": "guard_offense",
+    "level": "intermediate",
+    "name": "Kẹp guard Điều khiển",
+    "tags": [
+      "clamp-guard",
+      "shoulder-line",
+      "overhook",
+      "tier:modern-expansion",
+      "meta:modern-common",
+      "risk:medium",
+      "family:guard",
+      "group:clamp-guard",
+      "modern-no-gi"
+    ],
+    "summary": "Kẹp guard (còn gọi là 'kẹp' hoặc 'kẹp tay') ghim cánh tay của đối phương qua cơ thể bạn trong khi đầu gối của bạn chặn vai họ. Điều này tạo ra thế đối đầu hai chọi một trên cánh tay bị mắc kẹt. Từ đây, mọi phản ứng mà họ thực hiện đều mở ra một sự phục tùng: họ bước vào triangle, họ kéo ra armbar, họ bước vào omoplata.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "clamp-to-triangle-bridge",
+    "domain": "guard_offense",
+    "level": "advanced",
+    "name": "Kẹp cầu guard vào cầu triangle",
+    "tags": [
+      "clamp-guard",
+      "triangle",
+      "transition",
+      "guard-offense",
+      "submission-chain"
+    ],
+    "summary": "Cầu kẹp tớitriangle là chuỗi tấn công chính từ kẹp guard. Khi đối thủ cảm thấy bị kẹp và cố gắng trốn thoát bằng cách đứng hoặc tạo tư thế, họ sẽ tạo ra chính xác khoảng trống mà bạn cần để ném chân qua vai họ. Cuộc trốn thoát của họ trở thành sự sắp đặt của bạn. Cây cầu không phải là một động tác sức mạnh - đó là sự chuyển đổi thời gian và góc.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "closed-guard-posture-control",
+    "domain": "guard_offense",
+    "level": "beginner",
+    "name": "closed guard Kiểm soát tư thế",
+    "tags": [
+      "closed-guard",
+      "posture",
+      "control"
+    ],
+    "summary": "closed guard chỉ có tác dụng khi thế trận của đối phương bị phá vỡ. Đối thủ trong tư thế có thể đứng, chuyền hoặc tấn công (trong MMA). Mục tiêu chính của bạn là ngăn chúng ngồi thẳng bằng cách dùng sức căng của chân để kéo trọng lượng của chúng lên bạn, đánh tay để phá vỡ khung phòng thủ của chúng và góc hông để làm chúng mất thăng bằng. Nếu không kiểm soát tư thế, bạn sẽ không phạm tội từ closed guard.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "closed-guard-sweeps",
+    "domain": "guard_offense",
+    "level": "intermediate",
+    "name": "closed guard Quét",
+    "tags": [
+      "closed-guard",
+      "sweep",
+      "hip-bump",
+      "scissor"
+    ],
+    "summary": "closed guard quét biến guard của bạn từ vị trí trung lập thành vị trí ghi điểm. Nguyên tắc quan trọng là bạn không thể quét sạch một đối thủ có nền tảng tốt - trước tiên bạn phải phá vỡ tư thế của họ, làm họ mất thăng bằng và tấn công khi họ đang phản ứng. Bốn lần quét lớn là phần hông (về phía trước), hình cắt kéo (ngang), bông hoa (đường chéo) và con lắc (hình tròn). Mỗi người khai thác một phản ứng khác nhau đối với việc kiểm soát tư thế của bạn.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "de-la-riva-sweeps",
+    "domain": "guard_offense",
+    "level": "intermediate",
+    "name": "De La Riva Quét",
+    "tags": [
+      "de-la-riva",
+      "guard",
+      "sweep"
+    ],
+    "summary": "De La Riva (DLR) guard là open guard phổ biến nhất trong No-Gi hiện đại. Móc bên trong ở chân gần của đối phương, kết hợp với tay áo hoặc tay nắm mắt cá chân, giúp bạn kiểm soát phần đế của họ. Bằng cách kéo tay áo của họ ngang qua cơ thể bạn và đồng thời móc chân họ, bạn sẽ tạo ra một góc khiến họ mất thăng bằng về phía trước và sang một bên. Thao tác này sẽ mở các mục nhập vào X-guard, single-leg X hoặc trực tiếp sweeps.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "deep-half-guard",
+    "domain": "guard_offense",
+    "level": "intermediate",
+    "name": "Sâu half guard",
+    "tags": [
+      "deep-half",
+      "half-guard",
+      "sweep",
+      "underhook"
+    ],
+    "summary": "Deep half guard là một trong những vị trí càn quét mạnh mẽ nhất trong No-Gi. Bằng cách trượt hông của bạn dưới hông của đối phương và kiểm soát chân gần của họ, bạn khiến họ gần như không thể tạo áp lực mà không mất thăng bằng. Điểm khác biệt chính so với half guard thông thường là đầu của bạn hướng về phía xa (qua hông của họ), cho phép bạn thực hiện các động tác lùi và quét mà half guard thông thường không thể cung cấp.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "false-reap-entry",
+    "domain": "guard_offense",
+    "level": "advanced",
+    "name": "Nhập sai",
+    "tags": [
+      "false-reap",
+      "leg-lock",
+      "knee-safety",
+      "tier:safety-critical",
+      "meta:modern-common",
+      "risk:safety-critical",
+      "family:leg-lock",
+      "group:false-reap",
+      "modern-no-gi"
+    ],
+    "summary": "Cú gặt sai là mục nhập No-Gi guard trong đó bạn móc chân gần của đối phương từ bên ngoài bằng chân của mình, thay vì bên trong. Điều này tạo ra một góc phía sau trên đường chân của họ, mở các mục vào saddle (inside sankaku), chéo ashi và lùi lại. Không giống như động tác gặt truyền thống, động tác gặt sai không vượt qua đường đầu gối của đối phương một cách nguy hiểm — khiến nó hợp pháp trong hầu hết các bộ quy tắc IBJJF trong khi vẫn cho phép bạn tiếp cận vướng chân.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "false-reap-to-saddle-bridge",
+    "domain": "guard_offense",
+    "level": "advanced",
+    "name": "Sai Reap tới cầu saddle",
+    "tags": [
+      "false-reap",
+      "saddle",
+      "transition",
+      "inside-sankaku",
+      "leg-lock-entry"
+    ],
+    "summary": "Cầu gặt sai đến cầu saddle là chuỗi tấn công chính từ vị trí gặt sai. Khi đối phương cảm thấy chân của mình bị kiểm soát và cố gắng giải phóng bằng cách lùi lại hoặc tách hông ra, họ sẽ tạo ra góc xoay chính xác mà bạn cần để vung chân trên qua cơ thể của họ và khóa saddle (inside sankaku). Lối thoát của họ tạo sức mạnh cho mục nhập của bạn - đây là nguyên tắc Danaher sử dụng phản ứng của đối thủ làm thiết lập của bạn.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "half-butterfly-to-leg-entanglements",
+    "domain": "guard_offense",
+    "level": "advanced",
+    "name": "Sự vướng víu của nửa con bướm đến chân",
+    "tags": [
+      "half-butterfly",
+      "leg-lock",
+      "bear-trap",
+      "k-guard",
+      "leg-entry"
+    ],
+    "summary": "Nửa con bướm là sự chuyển tiếp mạnh mẽ nhất guard trong No-Gi hiện đại. Với một móc ở chân gần và chân còn lại đặt trên hông, bạn có thể làm chúng mất thăng bằng về phía trước hoặc sang một bên. Phản ứng của họ quyết định mục nhập của bạn: nếu họ đứng vững, hãy đi tới K-guard; nếu họ lùi lại thì vào bẫy gấu; nếu họ đăng bài, hãy nhập saddle. Nửa con bướm là động cơ cung cấp năng lượng cho toàn bộ hệ thống tấn công phần thân dưới.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "half-guard-knee-shield",
+    "domain": "guard_retention",
+    "level": "beginner",
+    "name": "half guard knee shield",
+    "tags": [
+      "half-guard",
+      "guard"
+    ],
+    "summary": "knee shield (còn được gọi là Z-guard) là vị trí ổn định nhất ở dưới cùng half guard. Đầu gối gần bên của bạn được chèn vào giữa ngực của bạn và hông của họ, tạo ra một khung ngăn họ tạo áp lực lên ngực. Từ đây, bạn có thể chiến đấu để giành underhook, tạo khoảng cách và tấn công bằng các đòn quét (nửa sâu, bồi bàn), khuất phục (kimura) hoặc đấu vật. Nếu bạn đánh mất knee shield, bạn sẽ bị san bằng — vì vậy việc bảo vệ nó là ưu tiên số một của bạn.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "inverted-guard-control",
+    "domain": "guard_offense",
+    "level": "advanced",
+    "name": "Đảo ngược guard & Chuyển tiếp",
+    "tags": [
+      "inverted-guard",
+      "k-guard",
+      "matrix"
+    ],
+    "summary": "Đảo ngược guard không phải là tư thế bạn giữ nguyên - nó là một công cụ chuyển tiếp để đưa phần thân dưới của bạn vượt qua phần thân trên của họ. Bằng cách đảo ngược (đặt vai lên thảm và nâng cao hông), bạn có thể đặt chân lên hông, vai hoặc xương sườn của họ. Từ đó, bạn có thể tạo các góc cho K-guard (chân trên hông), ma trận (chân trên vai) hoặc các mục nhập chân. Việc đảo ngược phải nhanh chóng và có chủ đích - việc đảo ngược quá lâu sẽ khiến lưng bạn dễ bị tấn công.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "k-guard-entry",
+    "domain": "guard_offense",
+    "level": "advanced",
+    "name": "K-guard Mục nhập",
+    "tags": [
+      "guard",
+      "leg-lock"
+    ],
+    "summary": "K-guard là điểm vào linh hoạt nhất trong khóa chân No-Gi hiện đại. Bằng cách đặt một chân lên hông xa của đối phương và móc chân gần của họ bằng chân kia, bạn tạo ra một góc mạnh mẽ dưới trọng tâm của họ. Từ đây, bạn có thể tấn công chân xa (heel hook), lùi hoặc quét lên vị trí trên cùng. K-guard là chất keo kết nối đáy open guard với hệ thống vướng chân.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "k-guard-matrix",
+    "domain": "guard_offense",
+    "level": "advanced",
+    "name": "K-guard tới Ma trận",
+    "tags": [
+      "k-guard",
+      "matrix",
+      "backside-entry",
+      "tier:modern-expansion",
+      "meta:modern-common",
+      "risk:high",
+      "family:leg-lock",
+      "group:k-guard",
+      "modern-no-gi"
+    ],
+    "summary": "Quá trình chuyển đổi K-guard sang ma trận là mục nhập mặt sau mạnh mẽ nhất trong No-Gi hiện đại. Khi bạn ở tư thế K-guard và họ bảo vệ tình trạng vướng chân bằng cách lùi lại hoặc đăng, bạn xoay hông qua vai của chính mình và 'ma trận' dưới hông họ — đảo ngược góc của bạn từ dưới họ về phía sau họ. Từ ma trận, bạn có thể lùi lại, thực hiện động tác kéo chân ngược hoặc hoàn thành heel hook từ phía sau.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "leg-drag-pass",
+    "domain": "guard_offense",
+    "level": "intermediate",
+    "name": "Đèo kéo chân",
+    "tags": [
+      "leg-drag",
+      "passing",
+      "loose-passing",
+      "side-control-entry",
+      "tier:modern-expansion",
+      "meta:modern-common",
+      "risk:low",
+      "family:passing",
+      "group:modern-passing",
+      "modern-no-gi"
+    ],
+    "summary": "Đường chuyền kéo chân là một trong những đường chuyền guard hiệu quả nhất trong No-Gi hiện đại. Bằng cách kiểm soát mắt cá chân gần của đối phương và kéo nó qua hông của chính mình, bạn cắt một góc nhọn để loại bỏ guard của họ và để lộ lưng hoặc hông của họ. Lực kéo bằng chân có tác dụng với hầu hết mọi open guard (DLR, RDLR, nhện, ngồi guard) và cho phép bạn truy cập ngay vào các vị trí hàng đầu thống trị.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "octopus-guard-control",
+    "domain": "guard_retention",
+    "level": "intermediate",
+    "name": "Bạch tuộc guard Kiểm soát",
+    "tags": [
+      "octopus",
+      "guard",
+      "hip-angle",
+      "wrestle-up",
+      "tier:modern-expansion",
+      "meta:modern-common",
+      "risk:medium",
+      "family:guard",
+      "group:octopus",
+      "modern-no-gi"
+    ],
+    "summary": "Bạch tuộc guard là một guard dành riêng cho No-Gi trong đó bạn ngồi sang một bên của đối thủ, vòng tay quanh hông xa của họ (hoặc vươn tay xuống dưới cơ thể họ) và dùng chân của bạn để bám vào chân gần của họ. Vị trí này ngăn chúng đè bẹp bạn hoặc tạo áp lực crossface. Từ đây, bạn có thể quét (bằng cách kéo hông xa của họ), ra sau hoặc vướng vào chân.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "octopus-guard-sweep",
+    "domain": "guard_offense",
+    "level": "intermediate",
+    "name": "Bạch tuộc guard Quét",
+    "tags": [
+      "octopus",
+      "sweep",
+      "hip-heist",
+      "tier:modern-expansion",
+      "meta:modern-common",
+      "risk:medium",
+      "family:guard",
+      "group:octopus",
+      "modern-no-gi"
+    ],
+    "summary": "Cú quét bạch tuộc guard khai thác áp lực về phía trước của đối thủ khi họ cố gắng vượt qua. Khi họ dồn trọng lượng về phía trước, bạn kéo hông xa của họ ngang qua cơ thể của bạn đồng thời chặn chân gần của họ bằng khung của bạn. Sự kết hợp giữa việc kéo trọng lượng của chúng về phía trước và chặn chân đế của chúng tạo ra một lực xoay mạnh mẽ khiến chúng nằm ngửa. Cú quét này đặc biệt hiệu quả khi chống lại những đối thủ cố gắng đập nát con bạch tuộc guard của bạn bằng áp lực.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "reverse-de-la-riva-transitions",
+    "domain": "guard_offense",
+    "level": "intermediate",
+    "name": "Đảo ngược De La Riva Chuyển tiếp",
+    "tags": [
+      "reverse-de-la-riva",
+      "guard",
+      "sweep"
+    ],
+    "summary": "Reverse De La Riva (RDLR) là bản sao của DLR thông thường. Trong đó DLR móc vào bên trong của chân gần, RDLR móc bên ngoài. Điều này cho phép bạn kiểm soát chân của họ từ một góc độ khác, mở các chuyển đổi sang X-guard, DLR, X một chân và bẫy kimura. RDLR đặc biệt hiệu quả đối với những đối thủ đã xóa được cú móc DLR của bạn hoặc những người đang chuyền với áp lực mạnh về phía trước.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "seated-guard-retention",
+    "domain": "guard_retention",
+    "level": "beginner",
+    "name": "Ngồi guard Giữ chân",
+    "tags": [],
+    "summary": "Hoạt động guard giữ nguyên tư thế ngồi bằng cách sử dụng khung, trụ chân và vị trí bên trong.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "seated-hand-fighting",
+    "domain": "guard_retention",
+    "level": "beginner",
+    "name": "Ngồi guard Đấu tay đôi",
+    "tags": [
+      "seated-guard",
+      "hand-fighting",
+      "collar-tie",
+      "pummel",
+      "guard-retention"
+    ],
+    "summary": "Ngồi đánh nhau guard là tuyến phòng thủ đầu tiên trong open guard. Trước khi bất kỳ việc giữ hoặc quét guard nào có thể xảy ra, bạn phải thắng trận đấu tay đôi. Điều này có nghĩa là kiểm soát bàn tay và cổ tay của đối phương để họ không thể nắm chặt chân, cổ áo hoặc thắt lưng của bạn. Các nguyên tắc chính là: ở trong cánh tay của họ (khuỷu tay sát cơ thể bạn, bàn tay ở giữa hai cánh tay của họ), loại bỏ bất kỳ lực bám nào tiếp đất và sử dụng vị trí đầu của bạn để chặn dây buộc cổ áo của họ.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "shin-to-shin-entry",
+    "domain": "guard_offense",
+    "level": "intermediate",
+    "name": "Lối vào Shin-to-Shin",
+    "tags": [
+      "guard",
+      "entry"
+    ],
+    "summary": "Shin-to-shin là mục open guard gần nhất trong No-Gi. Bằng cách đặt ống chân của bạn áp vào ống chân của họ và kiểm soát tay áo hoặc mắt cá chân của họ, bạn tạo ra một kết nối trực tiếp cho phép bạn cảm nhận được mọi sự thay đổi trọng lượng. Khi họ tiến về phía trước, bạn mất thăng bằng và trượt hông xuống dưới — bước vào một chân chữ X. Khi họ lùi lại, bạn đứng và wrestle up. Shin-to-shin là cầu nối giữa guard đang ngồi và hệ thống vướng chân.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "shoulder-crunch-control",
+    "domain": "guard_offense",
+    "level": "intermediate",
+    "name": "Kiểm soát độ cứng vai",
+    "tags": [
+      "shoulder-crunch",
+      "butterfly",
+      "sweep",
+      "tier:modern-expansion",
+      "meta:modern-common",
+      "risk:medium",
+      "family:guard",
+      "group:shoulder-crunch",
+      "modern-no-gi"
+    ],
+    "summary": "Gập vai là một trong những tư thế có khả năng kiểm soát cao nhất trong công việc No-Gi guard. Bằng cách kéo đầu đối phương xuống về phía vai cùng bên của họ (tạo ra tiếng 'bóp' trên cổ và vai của họ), bạn hạn chế chuyển động của họ ở bên đó và để lộ cánh tay xa, lưng và chân của họ. Bản thân động tác gập vai không phải là một động tác phục tùng - nó là một tư thế kiểm soát giúp mọi đòn tấn công từ guard trở nên dễ dàng hơn.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "single-leg-x-basics",
+    "domain": "guard_offense",
+    "level": "intermediate",
+    "name": "single leg x Thông tin cơ bản",
+    "tags": [
+      "guard",
+      "leg-lock"
+    ],
+    "summary": "Một chân X (SLX) là vị trí điều khiển một chân cơ bản của No-Gi hiện đại. Bạn bẫy một trong hai chân của họ bằng chân của chính bạn (giữa đùi và bắp chân của bạn), trong khi bàn chân còn lại của bạn đặt trên hông đối diện của họ. Điều này cho phép bạn kiểm soát toàn bộ phần đế của chúng chỉ bằng một chân - khi bạn kéo chân đó, toàn bộ cơ thể của chúng sẽ theo sau. SLX là điểm bắt đầu cho các pha quét (quét SLX cổ điển), vướng chân (enter ashi garami) và đứng lên (wrestle up).",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "single-leg-x-control",
+    "domain": "guard_offense",
+    "level": "intermediate",
+    "name": "single leg x Kiểm soát",
+    "tags": [
+      "single-leg-x",
+      "ashi-garami",
+      "guard",
+      "sweep",
+      "leg-entry",
+      "tier:modern-expansion",
+      "meta:modern-common",
+      "risk:medium",
+      "family:guard",
+      "group:single-leg_x",
+      "modern-no-gi"
+    ],
+    "summary": "Điều khiển X bằng một chân vượt xa những điều cơ bản - nó có nghĩa là bạn sở hữu hoàn toàn chân bị mắc kẹt của đối thủ. Họ không thể giải phóng nó, không thể bước ra và không thể dựa vào nó. Từ mức độ kiểm soát này, mọi tùy chọn đều có sẵn: bạn có thể quét họ ra sau, lấy lưng họ khi họ đăng bài hoặc thả vào vướng chân. Sự khác biệt giữa điều khiển SLX cơ bản và SLX là độ sâu của khóa cũng như khả năng đọc và phản ứng với sự thay đổi trọng lượng của chúng.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "supine-guard-retention",
+    "domain": "guard_retention",
+    "level": "beginner",
+    "name": "Nằm ngửa guard Giữ nguyên",
+    "tags": [
+      "guard",
+      "retention"
+    ],
+    "summary": "Khả năng giữ ngửa guard là phương pháp bạn sử dụng khi nằm ngửa. Không giống như tư thế nằm ngửa guard (nơi bạn hoạt động và di động), tư thế nằm ngửa có nghĩa là phục hồi cấu trúc từ một vị trí bị tổn hại. Công cụ của bạn là: nâng hông (shrimping), knee shields (chèn đầu gối của bạn vào giữa bạn và họ) và khung chân (đặt chân bạn lên hông hoặc bắp tay của họ). Mục tiêu luôn là quay lại phía bạn và thiết lập lại guard đang hoạt động.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "x-guard-control",
+    "domain": "guard_offense",
+    "level": "intermediate",
+    "name": "X-guard Kiểm soát",
+    "tags": [
+      "x-guard",
+      "guard",
+      "sweep",
+      "off-balance",
+      "tier:modern-expansion",
+      "meta:modern-common",
+      "risk:medium",
+      "family:guard",
+      "group:x-guard",
+      "modern-no-gi"
+    ],
+    "summary": "X-guard là vị trí càn quét mạnh mẽ nhất trong No-Gi. Cả hai chân của bạn đều điều khiển chân gần của chúng (một chân móc sau đầu gối, một chân trên hông), trong khi bạn ngồi dưới trọng tâm của chúng. Từ đây, bạn có thế 2 chọi 1 trên chân họ và kiểm soát căn cứ của họ. Bất kỳ sự thay đổi trọng lượng nào họ thực hiện đều có thể bị lợi dụng để quét. X-guard là đích của quá trình chuyển đổi DLR-to-X và SLX-to-X.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "z-guard-sweeps",
+    "domain": "guard_offense",
+    "level": "intermediate",
+    "name": "Z-guard Quét & sâu một nửa",
+    "tags": [
+      "z-guard",
+      "deep-half",
+      "sweep",
+      "half-guard"
+    ],
+    "summary": "Z-guard (knee shield) là vị trí điều khiển; quét là phần thưởng. Từ Z-guard, knee shield của bạn tạo ra khoảng cách trong khi bạn chiến đấu vì underhook. Sau khi thắng underhook, bạn có ba tùy chọn quét chính: trượt vào nửa sâu (khi họ lái xe về phía trước), đánh quét bồi bàn (khi họ đứng) hoặc wrestle up (khi họ lùi lại). Quá trình chuyển đổi Z-guard sang nửa sâu là một trong những chuỗi quét có tỷ lệ phần trăm cao nhất trong No-Gi.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "bodylock-pass",
+    "domain": "passing",
+    "level": "intermediate",
+    "name": "Thẻ khóa cơ thể",
+    "tags": [],
+    "summary": "Một hệ thống truyền áp lực cốt lõi No-Gi giúp trung hòa hông trước khi làm sạch chân.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "headquarters-passing",
+    "domain": "passing",
+    "level": "intermediate",
+    "name": "Trụ sở đi qua",
+    "tags": [
+      "passing",
+      "headquarters"
+    ],
+    "summary": "Trụ sở chính passing là khái niệm passing quan trọng nhất trong BJJ hiện đại. Từ vị trí trụ sở (một đầu gối nâng lên guard dựa vào khung ống chân, một đầu gối hạ xuống làm đế), bạn điều khiển chuyển động hông của đối phương và buộc họ phản ứng. Cây quyết định của bạn có ba nhánh chính: (1) cắt đầu gối nếu họ ấn ống chân vào đầu gối của bạn, (2) lùi lại nếu họ tạo khoảng cách bằng cách hông thoát ra, (3) kéo chân nếu họ đứng đối mặt với bạn. Hệ thống này dựa trên việc đọc góc hông và vị trí khung ống chân của đối thủ.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": true
+  },
+  {
+    "id": "hq-split-squat-passing",
+    "domain": "passing",
+    "level": "intermediate",
+    "name": "HQ / Chuyển động ngồi xổm",
+    "tags": [
+      "hq",
+      "split-squat",
+      "headquarters",
+      "passing",
+      "knee-cut",
+      "bodylock"
+    ],
+    "summary": "Tư thế ngồi xổm (còn gọi là trụ sở) là vị trí pass nền tảng cho BJJ hiện đại. Nó tạo ra một đế hình tam giác chặn khung ống chân của đối phương trong khi vẫn giữ cho hông của bạn di động. Từ động tác squat-squat, bạn đọc góc hông và khoảng cách của đối phương để chọn pass thích hợp: cắt đầu gối (khoảng cách ngắn), khóa thân (khoảng cách trung bình) hoặc toreando (khoảng cách dài).",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "knee-cut-passing",
+    "domain": "passing",
+    "level": "intermediate",
+    "name": "Cắt đầu gối",
+    "tags": [
+      "passing",
+      "knee-cut"
+    ],
+    "summary": "Cú cắt đầu gối pass tấn công vào khoảng trống giữa hông và chân gần của đối phương khi họ phòng thủ bằng knee shield hoặc half guard. pass hoạt động bằng cách: (1) ghim đầu họ bằng crossface để ngăn họ biến thành bạn, (2) đẩy đầu gối gần của bạn vượt qua knee shield của họ vào khoảng trống ở hông họ, (3) duỗi chân của bạn để ghim gần hông họ và (4) cố định vào side control. Kiểu cắt đầu gối là lựa chọn phù hợp pass trong hầu hết các tình huống No-Gi vì nó duy trì áp lực tối đa xuyên suốt và yêu cầu không gian tối thiểu.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": true
+  },
+  {
+    "id": "leg-drag-basics",
+    "domain": "passing",
+    "level": "intermediate",
+    "name": "Khái niệm cơ bản về kéo chân",
+    "tags": [
+      "passing",
+      "leg-drag"
+    ],
+    "summary": "Kéo chân tấn công căn cứ của đối thủ bằng cách điều khiển một chân và kéo nó ngang qua cơ thể bạn, xoay hông của họ ra khỏi bạn. Sau khi xoay hông, họ không thể tái-guard một cách hiệu quả. Kéo chân là vị trí pass chiếm ưu thế nhất vì nó vô hiệu hóa hoàn toàn guard của đối thủ — họ không thể sweep, phục tùng hoặc phục hồi guard từ vị trí kéo chân.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": true
+  },
+  {
+    "id": "outside-passing",
+    "domain": "passing",
+    "level": "intermediate",
+    "name": "Đi qua bên ngoài",
+    "tags": [
+      "passing",
+      "mobility"
+    ],
+    "summary": "Bên ngoài passing sử dụng động tác bằng chân và khoảng cách để buộc đối thủ phải xoay hông, tạo ra pass đường mà áp lực passing không thể tiếp cận. Hệ thống hoạt động bằng cách đứng trên đôi chân của bạn (không khuỵu gối) và đi vòng ra bên ngoài chân dẫn đầu của đối phương. Khi họ quay mặt về phía bạn, bạn tấn công phần hông lộ ra bằng cách kéo chân, lùi lại hoặc x-pass. Bên ngoài passing đặc biệt hiệu quả đối với những người chơi guard linh hoạt, những người khó pass với áp lực.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": true
+  },
+  {
+    "id": "claw-ride",
+    "domain": "pins_rides",
+    "level": "advanced",
+    "name": "Đi xe vuốt",
+    "tags": [
+      "claw-ride",
+      "ride",
+      "turtle",
+      "back-exposure",
+      "body-lock"
+    ],
+    "summary": "Động tác cưỡi vuốt sử dụng một đòn kẹp tay sâu quanh hông hoặc phần thân dưới của đối phương để phá vỡ tư thế rùa và để lộ phần lưng. Kiểu nắm móng vuốt (cánh tay quấn quanh hông, tay nắm lấy phần hông xa hoặc đường thắt lưng) tạo ra một đòn bẩy cấu trúc cho phép bạn kéo đối thủ xuống trong khi áp lực ngực của bạn ngăn cản họ đứng lên. Hệ thống xen kẽ giữa áp lực bằng móng vuốt và các nỗ lực lùi lại, buộc đối thủ phải phòng thủ một bên và vạch trần bên kia.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "crab-ride",
+    "domain": "pins_rides",
+    "level": "advanced",
+    "name": "Đua Cua",
+    "tags": [
+      "crab-ride",
+      "back-take",
+      "ride",
+      "tier:modern-expansion",
+      "meta:modern-common",
+      "risk:medium",
+      "family:ride",
+      "group:crab-ride",
+      "modern-no-gi"
+    ],
+    "summary": "Đu cua dùng móc sau đầu gối đối phương để khống chế hông từ xa, sau đó bước tay qua tay lên lưng để thu gọn tư thế, lộ lưng. Nó được sử dụng phổ biến nhất từ ​​vị trí xe tải, từ con rùa hoặc từ back control khi đối thủ đứng dậy. Hệ thống này dựa trên nguyên tắc kiểm soát hông từ phía sau bằng móc đầu gối giúp bạn có đòn bẩy để dồn đối thủ về phía trước.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "cross-wrist-ride",
+    "domain": "pins_rides",
+    "level": "advanced",
+    "name": "Đi xe chéo cổ tay",
+    "tags": [
+      "cross-wrist",
+      "ride",
+      "turtle",
+      "back-exposure",
+      "wrist-control"
+    ],
+    "summary": "Đu chéo cổ tay là một hệ thống bẻ rùa cấp cao giúp cố định tay của đối phương bằng cách bắt chéo cổ tay của họ ở lưng dưới và ghim chúng bằng trọng lượng ngực của bạn. Khi được điều khiển bằng cả hai tay, đối thủ không thể trụ, trụ hoặc đứng lên - họ hoàn toàn phụ thuộc vào chuyển động của hông để trốn thoát, điều này gần như không thể xảy ra khi áp lực của ngực lên cột sống của họ.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "crucifix-control",
+    "domain": "pins_rides",
+    "level": "intermediate",
+    "name": "crucifix Kiểm soát",
+    "tags": [
+      "crucifix",
+      "pin",
+      "back-attack",
+      "arm-trap"
+    ],
+    "summary": "crucifix làm bất động một trong các cánh tay của đối thủ bằng cách kẹp nó vào giữa hai đùi của bạn, khiến họ chỉ còn một cánh tay để chống lại mọi đòn tấn công của bạn. Với cánh tay bị mắc kẹt, bạn có thể tấn công rear-naked choke (họ chỉ có một tay để phòng thủ), armbar cánh tay bị mắc kẹt hoặc chuyển sang back control hoàn toàn. crucifix an toàn hơn back control đầy đủ vì không thể sử dụng cánh tay bị mắc kẹt để trốn thoát hoặc phản công.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "dagestani-handcuff",
+    "domain": "pins_rides",
+    "level": "advanced",
+    "name": "Còng tay Dagestani",
+    "tags": [
+      "ride",
+      "wrist-control",
+      "handcuff",
+      "tier:modern-expansion",
+      "meta:modern-common",
+      "risk:medium",
+      "family:ride",
+      "group:handcuff",
+      "modern-no-gi",
+      "wrestling"
+    ],
+    "summary": "Còng tay Dagestani bẫy cả hai cổ tay để làm đối thủ bất động và buộc phải lộ ra sau, được phổ biến bởi Khabib Nurmagomedov và phong cách đấu vật Dagestani. Bằng cách kiểm soát cả hai cổ tay với nhau, bạn ngăn chặn đối thủ đăng, trụ hoặc đóng khung - lối thoát duy nhất là lăn, bạn có thể phản công bằng cách lăn theo và lấy lại.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "knee-on-belly-control",
+    "domain": "pins_rides",
+    "level": "intermediate",
+    "name": "Kiểm soát đầu gối trên bụng",
+    "tags": [
+      "knee-on-belly",
+      "pin",
+      "control"
+    ],
+    "summary": "knee-on-belly sử dụng đầu gối của bạn làm điểm áp lực chính, tạo ra sự khó chịu buộc đối phương phải phản ứng, để lộ sơ hở để phục tùng hoặc chuyển đổi. Điều quan trọng là khả năng di chuyển — chân tự do của bạn và tay cầm xa bằng hông cho phép bạn vòng quanh đối thủ nhanh hơn so với từ side control hoặc mount. knee-on-belly là chốt chuyển tiếp, không phải là vị trí nghỉ.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "mat-return-basics",
+    "domain": "pins_rides",
+    "level": "intermediate",
+    "name": "mat return Khái niệm cơ bản",
+    "tags": [
+      "wrestling",
+      "ride"
+    ],
+    "summary": "mat return là quá trình đưa đối thủ đang đứng trở lại thảm sau khi bạn đã giữ chặt một chân, hai chân hoặc khóa cơ thể. Nó đòi hỏi ba yếu tố: một tay nắm an toàn để ngăn chúng trốn thoát, nâng cao chân bị mắc kẹt để tháo đế của chúng và chuyển động lái khiến chúng nằm trên hông hoặc lưng. mat return là thiết bị cần thiết để ngăn chặn việc rùa đứng lên và half guard thoát thân bằng tư thế đứng.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": true
+  },
+  {
+    "id": "mount-control",
+    "domain": "pins_rides",
+    "level": "intermediate",
+    "name": "mount Kiểm soát",
+    "tags": [
+      "mount",
+      "pin"
+    ],
+    "summary": "mount khả năng kiểm soát được duy trì thông qua các lớp tăng dần: thấp mount (hông nặng trên hông, áp lực từ ngực đến ngực) → cao mount (đầu gối trượt lên nách, giữ vai) → khuất phục hoặc lùi lại. Điều quan trọng là ngăn chặn việc thoát khỏi cầu và lăn bằng cách kiểm soát hông của họ bằng đầu gối của bạn và theo dõi chuyển động của họ bằng trọng lượng của bạn.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": true
+  },
+  {
+    "id": "north-south-control",
+    "domain": "pins_rides",
+    "level": "intermediate",
+    "name": "Kiểm soát Bắc Nam",
+    "tags": [
+      "north-south",
+      "pin",
+      "control",
+      "choke"
+    ],
+    "summary": "Điều khiển north-south sử dụng sự căn chỉnh của cơ thể dọc theo đường giữa của đối phương để nén đường vai của họ và hạn chế chuyển động. Các điểm áp lực chính là: đầu của bạn ấn vào xương ức của họ (ngăn họ nhìn đi chỗ khác), cánh tay của bạn giữ vai họ (ngăn cản chuyển động của cánh tay) và trọng lượng ngực của bạn đè lên thân của họ (hạn chế thở và chuyển động hông). north-south là một chân chuyển tiếp dẫn đến các chuyển đổi north-south, kimura hoặc side control.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "power-half-ride",
+    "domain": "pins_rides",
+    "level": "intermediate",
+    "name": "Đi xe nửa sức mạnh",
+    "tags": [
+      "ride",
+      "power-half",
+      "shoulder-control",
+      "tier:modern-expansion",
+      "meta:modern-common",
+      "risk:medium",
+      "family:ride",
+      "group:power-half",
+      "modern-no-gi"
+    ],
+    "summary": "Cú cưỡi nửa sức mạnh đè bẹp đối thủ khỏi rùa bằng cách điều khiển cánh tay xa và tác động áp lực lên vai, tạo ra sự lộ ra phía sau. Các cơ chế chính là: nắm sâu theo mặt chéo (với tay dưới cánh tay gần để điều khiển cánh tay/vai xa), áp lực từ ngực đến ngực (trọng lượng của bạn truyền qua ngực vào lưng trên của họ) và đi bộ bằng hông (hông của bạn tiến về phía đầu của họ khi họ gục xuống). Nửa sức mạnh là một trong những hệ thống có tỷ lệ phá rùa cao nhất trong đấu vật.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "s-mount-control",
+    "domain": "pins_rides",
+    "level": "advanced",
+    "name": "s-mount Kiểm soát",
+    "tags": [
+      "s-mount",
+      "mount",
+      "arm-isolation",
+      "tier:modern-expansion",
+      "meta:modern-common",
+      "risk:medium",
+      "family:pin",
+      "group:s-mount",
+      "modern-no-gi"
+    ],
+    "summary": "s-mount được tạo ra bằng cách trượt một đầu gối vào nách đối phương đồng thời xoay nhẹ ngực của bạn về phía đầu họ. Điều này đặt hông của bạn ngang qua đường vai của họ, cô lập một cánh tay và tạo ra tình huống khó xử giữa armbar, triangle và lùi lại. s-mount là mã pin có giá trị cao nhất vì nó đe dọa trực tiếp đến việc gửi mà không yêu cầu chuyển đổi bổ sung.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "side-control-pin",
+    "domain": "pins_rides",
+    "level": "beginner",
+    "name": "side control Ghim",
+    "tags": [
+      "pin",
+      "pressure"
+    ],
+    "summary": "Chốt side control được duy trì thông qua ba điểm áp lực liên kết với nhau: crossface (điều khiển hướng đầu và ngăn chúng nhìn đi chỗ khác), điều khiển underhook (ngăn chúng biến thành bạn và phục hồi guard) và khối hông (trọng lượng hông của bạn đặt lên hông gần của chúng sẽ ngăn hông thoát ra ngoài). Hệ thống ưu tiên việc ghim cấu trúc thay vì trọng lượng nặng nề — việc căn chỉnh chính xác sẽ tạo ra áp lực mà không làm bạn kiệt sức.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": true
+  },
+  {
+    "id": "spiral-ride",
+    "domain": "pins_rides",
+    "level": "intermediate",
+    "name": "Đi xe xoắn ốc",
+    "tags": [
+      "spiral-ride",
+      "turtle-ride",
+      "back-exposure",
+      "control",
+      "tier:modern-expansion",
+      "meta:modern-common",
+      "risk:low",
+      "family:ride",
+      "group:turtle-ride",
+      "modern-no-gi"
+    ],
+    "summary": "Động tác xoắn ốc làm gián đoạn con rùa bằng cách tác dụng các lực quay ngược chiều nhau: một tay đẩy đùi xa ra trong khi tay kia kéo vai gần về phía bạn. Vòng quay này sẽ loại bỏ phần đế của đối thủ và buộc họ nằm ngửa hoặc nằm nghiêng. Đi xe xoắn ốc đặc biệt hiệu quả trước những đối thủ quá mạnh hoặc quá linh hoạt để thực hiện động tác cưỡi một nửa sức mạnh.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "turtle-ride",
+    "domain": "pins_rides",
+    "level": "intermediate",
+    "name": "cưỡi rùa",
+    "tags": [
+      "turtle",
+      "ride"
+    ],
+    "summary": "Cưỡi rùa là một hệ thống hoàn chỉnh để kiểm soát, phá vỡ và đưa lưng ra khỏi vị trí rùa. Nó tích hợp bốn hệ thống bổ sung: (1) áp lực hông và kiểm soát gần cổ tay để kiểm soát đường cơ sở, (2) chuyển động xoắn ốc để thu gọn khi xoay, (3) chuyển động nửa lực để thu gọn bằng phẳng và (4) mat return khi đối thủ đứng. Điều quan trọng là đọc phản ứng của đối thủ và lựa chọn hệ thống thích hợp.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": true
+  },
+  {
+    "id": "wrist-ride-back-exposure",
+    "domain": "pins_rides",
+    "level": "advanced",
+    "name": "Đi xe cổ tay để tiếp xúc với lưng",
+    "tags": [
+      "wrist-ride",
+      "back-exposure",
+      "turtle",
+      "tier:modern-expansion",
+      "meta:modern-common",
+      "risk:medium",
+      "family:ride",
+      "group:wrist-ride",
+      "modern-no-gi"
+    ],
+    "summary": "Đòn đánh bằng cổ tay sử dụng một tay nắm đơn (cổ tay ở xa) để làm sập đường vai của đối phương bằng cách kéo cổ tay qua lưng dưới của họ. Khi cổ tay vượt qua đường hông, vai bị đẩy về phía trước và phần đế của đối phương sụp xuống. Việc di chuyển bằng cổ tay đặc biệt hiệu quả vì nó khó phòng thủ - đối thủ không thể dễ dàng ngăn cản bạn kiểm soát cổ tay của họ.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "anaconda-choke",
+    "domain": "submission_systems",
+    "level": "intermediate",
+    "name": "anaconda Nghẹt thở",
+    "tags": [
+      "anaconda",
+      "choke",
+      "front-headlock",
+      "arm-triangle"
+    ],
+    "summary": "Cuộn cảm anaconda là một trong ba lớp hoàn thiện front headlock chính (với d'arce và guillotine). Điểm khác biệt chính so với d'arce là cánh tay bị nghẹn của bạn luồn từ phía đối diện (cánh tay gần đi dưới cổ và vòng qua cánh tay xa của họ). Kết thúc là xoay ngực của bạn về phía tấm thảm trong khi kéo khuỷu tay của cánh tay bị mắc kẹt của họ về phía đầu gối của bạn - điều này tạo ra một cánh tay chặt triangle trên cổ và vai của họ.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "aoki-lock",
+    "domain": "submission_systems",
+    "level": "advanced",
+    "name": "Khóa Aoki",
+    "tags": [
+      "aoki-lock",
+      "knee-bar",
+      "leg-lock",
+      "heel-hook",
+      "submission"
+    ],
+    "summary": "Khóa Aoki (được đặt theo tên của Shinya Aoki) là một biến thể thanh đầu gối từ 50/50 guard sử dụng một tay cầm độc đáo: thay vì điều khiển chân bằng cả hai tay theo kiểu thanh đầu gối tiêu chuẩn, bạn khóa một tay nắm hình số bốn quanh đùi của họ. Cách cầm này giúp bạn kiểm soát đặc biệt khả năng xoay hông của họ trong khi chuyển động hông của bạn tác dụng lực siêu giãn lên đầu gối của họ. Khóa Aoki hiệu quả vì nó kết thúc nhanh chóng và không yêu cầu vị trí saddle hoặc ashi garami đầy đủ.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "arm-triangle-mount",
+    "domain": "submission_systems",
+    "level": "advanced",
+    "name": "Nhóm triangle từ mount",
+    "tags": [
+      "choke",
+      "mount"
+    ],
+    "summary": "Nhóm triangle từ mount là một trong những tỷ lệ phần trăm cao nhất submissions từ vị trí ưu thế mount. Không giống như cánh tay thông thường triangle từ side control, phiên bản mount cho phép bạn sử dụng toàn bộ trọng lượng cơ thể của mình. Điều quan trọng là tách cánh tay của họ ra khỏi cơ thể (thường bằng cách ấn cẳng tay của bạn vào bắp tay của họ), bước qua đầu họ và thả trọng lượng ngực của bạn lên vai bị mắc kẹt của họ.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": true
+  },
+  {
+    "id": "armbar-system",
+    "domain": "submission_systems",
+    "level": "advanced",
+    "name": "armbar Hệ thống",
+    "tags": [
+      "submission",
+      "armbar",
+      "elbow-safety"
+    ],
+    "summary": "armbar là khóa khớp cơ bản nhất trong BJJ. Hệ thống xoay quanh ba nguyên tắc: cô lập vai (ngăn họ kéo cánh tay ra), kiểm soát cổ tay (ngón tay cái hướng lên, lòng bàn tay hướng về phía bạn) và đặt khuỷu tay phía trên đường hông trước khi duỗi ra. Nếu không có chi tiết đường hông, armbar sẽ trở thành một cuộc tranh giành sức mạnh. Với nó, lợi thế cơ học là áp đảo. Hệ thống armbar áp dụng từ guard, mount và các chuyển đổi.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": true
+  },
+  {
+    "id": "back-attack-system",
+    "domain": "back_control",
+    "level": "intermediate",
+    "name": "Hệ thống tấn công ngược",
+    "tags": [
+      "back-control",
+      "rnc",
+      "arm-triangle",
+      "body-triangle"
+    ],
+    "summary": "Hệ thống tấn công ngược có tỷ lệ chuỗi submission cao nhất trong BJJ. Quá trình này là: cố định seatbelt (một tay qua vai, một tay dưới nách), khóa móc hoặc cơ thể của bạn triangle, giành chiến thắng trong cuộc đấu tay đôi để lộ cổ của họ và kết thúc bằng đòn khóa trần phía sau. Nếu họ bảo vệ RNC bằng cách quay lại, hãy chuyển sang nhánh triangle hoặc mount. Hệ thống dựa trên phản ứng - bạn không ép buộc phải hoàn thành một lần; bạn xâu chuỗi cho đến khi một cái hoạt động.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "back-control",
+    "domain": "back_control",
+    "level": "intermediate",
+    "name": "back control",
+    "tags": [
+      "back",
+      "control"
+    ],
+    "summary": "back control là vị trí thống trị nhất trong BJJ. Từ đây, bạn gần như kiểm soát được chuyển động của chúng. seatbelt (một tay đặt trên vai, một tay đặt dưới nách, hai tay chắp lại) điều khiển phần thân trên của họ. Móc (bàn chân bên trong đùi) hoặc cơ thể triangle (chân quấn quanh thân) kiểm soát phần thân dưới của họ. Từ sự kiểm soát hoàn toàn này, bạn có thể tấn công vào cổ, cánh tay hoặc chuyển sang mount.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": true
+  },
+  {
+    "id": "backside-50-50-control",
+    "domain": "submission_systems",
+    "level": "advanced",
+    "name": "Kiểm soát 50/50 mặt sau",
+    "tags": [
+      "backside-50-50",
+      "leg-lock",
+      "heel-hook",
+      "entanglement",
+      "leg-entanglement"
+    ],
+    "summary": "Mặt sau 50/50 là tư thế vướng chân trong đó bạn ở vị trí phía sau đường hông của đối phương bằng cả hai chân của bạn điều khiển một trong hai chân của họ theo cấu hình 50/50. Ưu điểm chính so với saddle là bạn ở phía sau chúng - chúng không thể nhìn thấy các cuộc tấn công của bạn và có các lựa chọn trốn thoát hạn chế. Từ đây, bạn có thể tấn công heel hook, chuyển sang saddle hoặc lùi lại.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "baratoplata",
+    "domain": "submission_systems",
+    "level": "advanced",
+    "name": "Baratoplata",
+    "tags": [
+      "baratoplata",
+      "shoulder-lock",
+      "kimura",
+      "omoplata",
+      "submission"
+    ],
+    "summary": "Baratoplata là một khóa vai mạnh mẽ kết hợp các yếu tố của omoplata và kimura. Không giống như kimura (sử dụng cả hai tay trên cánh tay), baratoplata sử dụng một trong hai chân của bạn để ghim cánh tay của họ vào cơ thể bạn trong khi bạn xoay hông để áp dụng khóa vai. Điều này tạo ra những góc độc đáo mà kimura không thể tiếp cận và có thể bắt được những đối thủ đang tập trung bảo vệ các mục kimura tiêu chuẩn.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "bear-trap-ham-sandwich",
+    "domain": "submission_systems",
+    "level": "advanced",
+    "name": "Bẫy gấu/Bánh kẹp giăm bông",
+    "tags": [
+      "bear-trap",
+      "ham-sandwich",
+      "calf-slicer",
+      "compression",
+      "leg-lock",
+      "half-butterfly"
+    ],
+    "summary": "Bẫy gấu (bánh sandwich giăm bông) là một dụng cụ nén submission (máy thái bắp chân) sử dụng xương ống chân của bạn để chống vào cơ bắp chân của chúng, với chân của chúng bị mắc kẹt trong khúc cua đầu gối của bạn. Nó thường được thực hiện từ tư thế nửa bướm hoặc half guard khi đối thủ tiến về phía trước. Áp lực đè lên bắp chân buộc chúng phải chạm, lăn ngửa (cho bạn sweep) hoặc để lộ lưng trong back take.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "buggy-choke",
+    "domain": "submission_systems",
+    "level": "advanced",
+    "name": "lỗi sặc",
+    "tags": [
+      "buggy-choke",
+      "side-control-bottom",
+      "neck-safety",
+      "tier:advanced-niche",
+      "meta:specialized",
+      "risk:safety-critical",
+      "family:submission",
+      "group:smother",
+      "modern-no-gi"
+    ],
+    "summary": "Cuộn cảm lỗi là một cuộn cảm đặc trưng No-Gi từ phía dưới side control. Bạn quấn chân quanh cổ và một cánh tay của đối phương, tạo ra tình trạng sặc máu bằng cách ép cổ họ vào đùi bạn. Đó là submission hợp pháp nhưng được coi là 'tỷ lệ phần trăm thấp' vì nó yêu cầu thời gian và loại nội dung cụ thể. Quan trọng hơn, việc cố gắng siết cổ lỗi thường dẫn đến việc thoát khỏi underhook và hông, vốn là nền tảng của việc thoát side control. Nó phải là một vũ khí bất ngờ chứ không phải là một chiến lược trốn thoát chủ yếu.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "choi-bar",
+    "domain": "submission_systems",
+    "level": "advanced",
+    "name": "Choi Bar",
+    "tags": [
+      "choi-bar",
+      "shoulder-lock",
+      "clamp-guard",
+      "tier:modern-expansion",
+      "meta:modern-common",
+      "risk:high",
+      "family:submission",
+      "group:clamp-guard",
+      "modern-no-gi"
+    ],
+    "summary": "Thanh Choi là một biến thể No-Gi armbar tấn công từ góc 45 độ thay vì hoàn thiện vuông góc truyền thống. Bạn dùng kẹp vai (tương tự như kẹp guard) để kẹp cánh tay và vai của họ, sau đó xoay hông để lộ khuỷu tay của họ. Tên này là sự kết hợp của 'cuộn cảm' và 'armbar' — nó có thể được nhập trực tiếp từ thiết lập cuộn cảm và chuỗi vào armbar. Nó đặc biệt hiệu quả từ các vị trí kimura bẫy và kẹp guard.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "darce-choke",
+    "domain": "submission_systems",
+    "level": "intermediate",
+    "name": "d'arce Nghẹt thở",
+    "tags": [
+      "darce",
+      "choke",
+      "front-headlock",
+      "arm-triangle",
+      "shoulder-crunch"
+    ],
+    "summary": "Cuộn cảm d'arce là một trong ba lớp hoàn thiện front headlock chính (với anaconda và guillotine). Điểm khác biệt chính so với anaconda là cánh tay bị nghẹn của bạn luồn từ phía xa (cánh tay xa đi dưới cổ và vòng qua cánh tay gần của họ). d'arce đặc biệt hiệu quả đối với những đối thủ quay lưng với bạn (ngược lại với anaconda, có tác dụng khi họ quay đi). Kết quả đến từ việc thả trọng lượng của bạn lên vai và cổ bị mắc kẹt của họ.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "de-la-riva-back-take",
+    "domain": "back_control",
+    "level": "advanced",
+    "name": "De La Riva Quay lại",
+    "tags": [
+      "de-la-riva",
+      "berimbolo",
+      "back-take"
+    ],
+    "summary": "Việc lấy lại DLR là phần thưởng có tỷ lệ phần trăm cao nhất từ ​​De La Riva guard. Khi bạn cố gắng quét DLR (làm mất thăng bằng về phía trước), nhiều đối thủ sẽ phản ứng bằng cách đưa tay hoặc lùi lại để tránh đòn quét. Phản ứng này tạo ra chính xác không gian và góc mà bạn cần để quay theo chúng và lấy lại phần lưng. DLR quay lại biến một cú quét thất bại thành một vị trí thống trị.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "fhl-go-behind",
+    "domain": "submission_systems",
+    "level": "intermediate",
+    "name": "front headlock Đi phía sau",
+    "tags": [
+      "go-behind",
+      "front-headlock",
+      "back-take",
+      "transition",
+      "tier:modern-expansion",
+      "meta:modern-common",
+      "risk:low",
+      "family:front-headlock",
+      "group:front-headlock",
+      "modern-no-gi"
+    ],
+    "summary": "Phần tiếp theo của front headlock là phần chuyển đổi có tỷ lệ phần trăm cao nhất trong hệ thống front headlock. Khi bạn có front headlock và đối thủ chống lại nỗ lực bóp cổ của bạn (guillotine, d'arce, anaconda), họ thường sẽ cố gắng dàn xếp hoặc vòng ra xa. Lực cản của họ tạo ra khoảng trống mà bạn cần để giải phóng cuộn cảm, vòng ra phía sau họ và lùi lại. Người đi sau biến bài gửi không thành công thành vị trí thống trị nhất trong BJJ.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "fifty-fifty-to-heel-exposure",
+    "domain": "submission_systems",
+    "level": "advanced",
+    "name": "Tiếp xúc 50/50 với gót chân",
+    "tags": [
+      "50-50",
+      "heel-hook",
+      "heel-exposure",
+      "leg-lock",
+      "entanglement"
+    ],
+    "summary": "Tư thế 50/50 là một trong những tư thế vướng chân phổ biến nhất. Tuy nhiên, việc hoàn thành heel hook từ 50/50 đòi hỏi cơ chế cụ thể: bạn phải phá vỡ tính đối xứng của vị trí bằng cách xoay hông và điều khiển chân phụ của chúng (chân không bị tấn công). Nếu không kiểm soát được chân phụ, đối thủ chỉ cần xoay hông để giảm áp lực ở gót chân. Chìa khóa của 50/50 heel hook là làm cho nó không đối xứng - bạn điều khiển chân còn lại của chúng để chúng không thể quay ngược chiều.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "gogoplata",
+    "domain": "submission_systems",
+    "level": "advanced",
+    "name": "gogoplata",
+    "tags": [
+      "gogoplata",
+      "neck-safety",
+      "guard-submission",
+      "tier:advanced-niche",
+      "meta:specialized",
+      "risk:safety-critical",
+      "family:submission",
+      "group:clamp-guard",
+      "modern-no-gi"
+    ],
+    "summary": "gogoplata là một đòn bóp cổ No-Gi nâng cao, trong đó bạn sử dụng xương ống chân của chính mình để nén cổ họng đối phương trong khi dùng tay kéo đầu họ xuống. Nó thường được thiết lập từ cao su guard hoặc cao guard. Sự khác biệt quan trọng về an toàn là giữa nghẹt máu (ống chân ngang cổ họng, nén khí quản và động mạch cảnh) và cổ vẹo (ống ngang cằm hoặc cột sống cổ). gogoplata là một cuộn cảm hợp pháp khi được áp dụng đúng cách, nhưng rất dễ vô tình áp dụng như một tay quay.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "guillotine-system",
+    "domain": "submission_systems",
+    "level": "advanced",
+    "name": "guillotine Hệ thống",
+    "tags": [
+      "choke",
+      "front-headlock"
+    ],
+    "summary": "guillotine là cuộn cảm front headlock dễ tiếp cận nhất và là cuộn cảm đầu tiên mà hầu hết các học viên BJJ đều học. Hệ thống này bao gồm nhiều biến thể: động tác giơ tay tiêu chuẩn guillotine (từ guard), động tác giơ tay ra guillotine (từ front headlock), động tác đưa tay cao guillotine (để thâm nhập cổ sâu hơn) và động tác Marcelotine (biến thể No-Gi của Marcelo Garcia). Nguyên tắc chính trong tất cả các biến thể là guillotine là một vị trí — bạn phải kiểm soát tư thế của chúng và tạo góc trước khi siết chặt.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": true
+  },
+  {
+    "id": "heel-hook-safety",
+    "domain": "submission_systems",
+    "level": "advanced",
+    "name": "heel hook An toàn",
+    "tags": [
+      "leg-lock",
+      "heel-hook",
+      "knee-safety"
+    ],
+    "summary": "heel hook an toàn là chủ đề quan trọng nhất trong khóa chân No-Gi hiện đại. Không giống như hầu hết các bài tập, heel hook có thể gây chấn thương đầu gối nghiêm trọng (ACL, PCL, MCL, tổn thương sụn khớp) với rất ít lực và hầu như không gây đau đớn. Quy trình an toàn là: nhận biết khi gót chân lộ ra, thiết lập toàn quyền kiểm soát hông và chân phụ, căn chỉnh vectơ lực quay và chỉ sau đó áp dụng áp lực chậm, có kiểm soát. Đừng bao giờ 'xé' heel hook.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": true
+  },
+  {
+    "id": "high-wrist-guillotine",
+    "domain": "submission_systems",
+    "level": "advanced",
+    "name": "Cổ tay cao guillotine",
+    "tags": [
+      "guillotine",
+      "front-headlock",
+      "neck-safety",
+      "tier:modern-expansion",
+      "meta:modern-common",
+      "risk:high",
+      "family:front-headlock",
+      "group:front-headlock",
+      "modern-no-gi"
+    ],
+    "summary": "Cổ tay cao guillotine (còn được gọi là Marcelotine hoặc guillotine của Nhật Bản) sử dụng lưỡi dao của cổ tay bạn áp vào động mạch cảnh thay vì cách cầm bóp bắp tay tiêu chuẩn. Điều quan trọng là cổ tay của bạn phải nằm sâu hơn trên cổ họ - lưỡi cẳng tay của bạn (phía ngón tay cái) ấn trực tiếp vào động mạch cảnh của họ. Biến thể này hiệu quả hơn trong No-Gi vì nó không yêu cầu kẹp cổ gi và tạo ra tình trạng nghẹt máu chặt hơn mà tốn ít công sức hơn.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "kimura-system",
+    "domain": "submission_systems",
+    "level": "advanced",
+    "name": "kimura Hệ thống",
+    "tags": [
+      "submission",
+      "control"
+    ],
+    "summary": "kimura là bài gửi linh hoạt nhất trong No-Gi BJJ. Cách cầm kimura (một tay giữ cổ tay cùng bên, tay kia luồn qua để nắm lấy cổ tay của chính bạn) thường được sử dụng làm tư thế kiểm soát hơn là phục tùng. Từ tay cầm kimura, bạn có thể: quét, vượt qua guard, lùi hoặc hoàn thành khóa vai. Hệ thống này dựa trên việc cô lập một trong các cánh tay của họ và sử dụng nó làm tay cầm để điều khiển toàn bộ cơ thể của họ.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": true
+  },
+  {
+    "id": "octopus-back-take",
+    "domain": "back_control",
+    "level": "advanced",
+    "name": "Bạch tuộc trở lại",
+    "tags": [
+      "octopus",
+      "back-take",
+      "hip-angle",
+      "tier:modern-expansion",
+      "meta:modern-common",
+      "risk:medium",
+      "family:back-take",
+      "group:octopus",
+      "modern-no-gi"
+    ],
+    "summary": "Lượt quay lại của bạch tuộc là tỷ lệ phần trăm theo dõi cao nhất sau đợt quét guard của bạch tuộc. Khi bạn cố gắng quét bạch tuộc (kéo hông xa của chúng ngang qua cơ thể bạn), nhiều đối thủ sẽ phản ứng bằng cách đưa tay hoặc bước tới để phòng thủ. Phản ứng này tạo ra góc chính xác mà bạn cần để xoay dưới cánh tay của họ, vòng ra phía sau họ và lấy lưng. Cú đánh lùi của bạch tuộc biến một pha quét phòng thủ thành vị trí chiếm ưu thế nhất trong BJJ.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "omoplata-system",
+    "domain": "submission_systems",
+    "level": "advanced",
+    "name": "omoplata Hệ thống",
+    "tags": [
+      "submission",
+      "shoulder-lock-safety",
+      "guard"
+    ],
+    "summary": "omoplata là một trong những khóa vai mạnh mẽ nhất từ ​​guard. Nó sử dụng chân của bạn để giữ cánh tay của họ và xoay hông của bạn để tạo áp lực phục tùng. Không giống như kimura (sử dụng cả hai tay), omoplata sử dụng một chân làm cần gạt và hông của bạn làm động cơ. Hệ thống omoplata bao gồm quét (khi họ vào tư thế phòng thủ) và lùi (khi họ lăn người để trốn thoát). Nó là một hệ thống tấn công hoàn chỉnh từ guard.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": true
+  },
+  {
+    "id": "rear-naked-choke-system",
+    "domain": "submission_systems",
+    "level": "intermediate",
+    "name": "Choke trần trụi phía sau",
+    "tags": [
+      "choke",
+      "back-control",
+      "submission",
+      "no-gi",
+      "strangle"
+    ],
+    "summary": "Cơ bản nhất No-Gi sặc máu từ back control — làm chủ thế đánh tay, đường khuỷu tay và kết nối ngực với lưng.",
+    "hasVideos": true,
+    "hasMicroDetails": true,
+    "hasChecklist": false,
+    "sortOrder": 100
+  },
+  {
+    "id": "rear-triangle-control",
+    "domain": "back_control",
+    "level": "advanced",
+    "name": "Kiểm soát triangle phía sau",
+    "tags": [
+      "rear-triangle",
+      "back-triangle",
+      "arm-isolation",
+      "tier:modern-expansion",
+      "meta:modern-common",
+      "risk:high",
+      "family:submission",
+      "group:back-triangle",
+      "modern-no-gi"
+    ],
+    "summary": "triangle phía sau (còn được gọi là cuộn cảm triangle phía sau hoặc phần thân triangle sặc) là một đòn phục tùng mạnh mẽ từ back control trong đó bạn dùng chân để bóp cổ chứ không phải dùng tay. Bằng cách đưa một chân qua vai và khóa sau cổ trong khi chân còn lại vòng quanh cơ thể họ, bạn tạo ra một chân triangle nén cổ và vai của họ. Cuộc tấn công này hoạt động khi chúng bảo vệ cổ bằng cả hai tay - cánh tay của bạn được tự do trong khi chân bạn bị nghẹn.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "reverse-buggy-choke",
+    "domain": "submission_systems",
+    "level": "advanced",
+    "name": "Ngược lại Buggy Choke",
+    "tags": [
+      "reverse-buggy",
+      "choke",
+      "leg",
+      "shoulder-crunch",
+      "submission"
+    ],
+    "summary": "Cuộn cảm lỗi ngược là một biến thể của cuộn cảm lỗi từ phía dưới side control. Điểm khác biệt chính là vị trí đặt chân - ở xe buggy lùi, chân bạn quấn quanh cổ họ và một tay ở phía đối diện. Giống như đòn buggy choke tiêu chuẩn, đây là một cuộc tấn công bất ngờ hơn là một chiến lược chính. Nó hoạt động hiệu quả nhất khi chống lại những đối thủ gây áp lực mạnh bằng crossface, để cổ của họ lộ ra ở phía bên kia.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "s-mount-armbar",
+    "domain": "submission_systems",
+    "level": "advanced",
+    "name": "s-mount armbar",
+    "tags": [
+      "s-mount",
+      "armbar",
+      "shoulder-lock-safety",
+      "tier:modern-expansion",
+      "meta:modern-common",
+      "risk:high",
+      "family:submission",
+      "group:s-mount",
+      "modern-no-gi"
+    ],
+    "summary": "s-mount armbar là tiêu chuẩn vàng của armbar từ vị trí mount. Trong s-mount (một chân ở hông, một đầu gối ở nách, trọng lượng của bạn dồn lên ngực họ), bạn có quyền kiểm soát đặc biệt đối với phần thân trên của họ. Từ đây, việc cô lập một cánh tay và hoàn thành armbar là về việc duy trì sự thống trị về vị trí thay vì lùi lại phía sau. Điểm khác biệt chính so với mount armbar thông thường là bạn kết thúc ở tư thế ngồi bằng cách nâng hông lên thay vì ngã về phía sau.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "saddle-inside-sankaku-control",
+    "domain": "submission_systems",
+    "level": "advanced",
+    "name": "saddle / inside sankaku Kiểm soát",
+    "tags": [
+      "saddle",
+      "inside-sankaku",
+      "heel-hook",
+      "knee-safety",
+      "tier:safety-critical",
+      "meta:modern-common",
+      "risk:safety-critical",
+      "family:leg-lock",
+      "group:leg-lock",
+      "modern-no-gi"
+    ],
+    "summary": "saddle (inside sankaku) là vị trí vướng chân chiếm ưu thế nhất trong No-Gi. Hai chân của bạn bắt chéo qua cơ thể đối phương (một chân đặt trên bụng họ, chân còn lại móc vào chân xa của họ), với bàn chân của bạn đặt trên hông họ. Từ saddle, bạn điều khiển cả chuyển động xoay hông và đường đầu gối của họ, khiến họ cực kỳ khó thoát ra. Cuộc tấn công chính diễn ra bên trong heel hook, nhưng saddle cũng cho phép bạn truy cập vào các đòn tấn công lùi và quét.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "shotgun-ankle-lock",
+    "domain": "submission_systems",
+    "level": "advanced",
+    "name": "Súng săn ankle lock",
+    "tags": [
+      "shotgun-ankle-lock",
+      "leg-lock",
+      "ankle-lock",
+      "straight-ankle",
+      "saddle"
+    ],
+    "summary": "Súng săn ankle lock là một biến thể mạnh mẽ hơn của súng ngắn ankle lock. Bằng cách bắt chéo chân đối phương và ghim chân họ vào ngực bạn, bạn tăng trọng lượng cơ thể và xoay hông vào kết thúc ankle lock tiêu chuẩn. Tên 'súng ngắn' xuất phát từ cách bạn sử dụng ngực và hông của mình như một cơ chế bắn - kết hợp áp lực về phía trước với chuyển động xoay. Nó thường được nhập từ vị trí saddle hoặc 50/50.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "straight-ankle-lock-safety",
+    "domain": "submission_systems",
+    "level": "intermediate",
+    "name": "Thẳng ankle lock An toàn",
+    "tags": [
+      "leg-lock",
+      "ankle-lock"
+    ],
+    "summary": "ankle lock đòn thẳng là đòn khóa chân đầu tiên được hầu hết các học viên BJJ học và đòn tấn công bằng chân phổ biến nhất trong No-Gi. Mặc dù được coi là khóa chân 'an toàn nhất' nhưng nó vẫn đòi hỏi cơ chế phù hợp và sự tôn trọng. Các nguyên tắc an toàn chính là: kiểm soát đường đầu gối (ngăn họ quay đầu gối về phía bạn), đặt chân họ đúng vào hông của bạn và sử dụng động tác duỗi chậm, có kiểm soát. ankle lock thẳng tấn công mắt cá chân và cũng có thể gây áp lực lên đầu gối nếu áp dụng không đúng cách.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": true
+  },
+  {
+    "id": "tarikoplata",
+    "domain": "submission_systems",
+    "level": "advanced",
+    "name": "Tarikplata",
+    "tags": [
+      "tarikoplata",
+      "shoulder-lock",
+      "kimura",
+      "tier:modern-expansion",
+      "meta:modern-common",
+      "risk:high",
+      "family:submission",
+      "group:clamp-guard",
+      "modern-no-gi"
+    ],
+    "summary": "Tarikoplata (được đặt theo tên của Tarsis Humphreys) là một loại khóa vai kết hợp các yếu tố của omoplata và kimura. Không giống như omoplata (xoay vai bằng cách nâng cánh tay của đối phương), tarikplata ghim cánh tay của họ vào cơ thể của chính họ và sử dụng chân của bạn để thực hiện động tác xoay. Kết quả là khóa vai chặt hơn omoplata và đến từ một góc mà kimura không thể với tới. Nó thường được thực hiện từ vị trí kẹp hoặc gập vai.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "texas-cloverleaf",
+    "domain": "submission_systems",
+    "level": "advanced",
+    "name": "Lá cỏ ba lá Texas",
+    "tags": [
+      "texas-cloverleaf",
+      "heel-hook",
+      "leg-lock",
+      "entanglement",
+      "submission"
+    ],
+    "summary": "Texas Cloverleaf là một biến thể heel hook sử dụng tư thế thu chân để tấn công đầu gối bằng áp lực xoay trực tiếp. Cái tên 'cỏ ba lá' xuất phát từ cách hai chân quấn vào nhau giống như cỏ bốn lá. Đây là một đòn đệ trình chuyên biệt có hiệu quả nhất từ ​​các cấu hình vướng chân cụ thể và thường được sử dụng như một đòn tấn công bất ngờ từ các vị trí không có heel hook tiêu chuẩn.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "triangle-system",
+    "domain": "submission_systems",
+    "level": "advanced",
+    "name": "triangle Hệ thống",
+    "tags": [
+      "choke",
+      "triangle",
+      "neck-safety"
+    ],
+    "summary": "Cuộn cảm triangle là tỷ lệ phần trăm gửi cao nhất từ ​​closed guard. Nó hoạt động bằng cách nhốt một trong hai cánh tay của họ vào trong chân bạn trong khi cánh tay còn lại ở bên ngoài, tạo ra 'triangle' chân của bạn quanh cổ và cánh tay của họ. Khi bạn cắt một góc (đưa hông của bạn ra xa họ), vai của họ sẽ ấn vào một bên động mạch cảnh của họ trong khi chân của bạn sẽ ép vào bên kia. Vai của đối phương trở thành một phần của nghẹt thở - đây là lý do tại sao triangle lại hiệu quả đến vậy.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": true
+  },
+  {
+    "id": "truck-twister",
+    "domain": "submission_systems",
+    "level": "advanced",
+    "name": "Xe tải / Twister",
+    "tags": [
+      "truck",
+      "twister",
+      "back-attack",
+      "body-lock",
+      "spine-lock"
+    ],
+    "summary": "Xe tải là một vị trí chuyên biệt trong đó bạn điều khiển đối thủ từ một bên bằng cơ thể triangle (tương tự như vị trí xe tải trong đấu vật). Từ truck, bạn có thể chuyển sang twister - một đòn khóa cột sống xoắn cột sống của đối thủ bằng cách kéo đầu họ về phía hông của chính họ. Twister không phải là nghẹt thở hay khóa khớp; nó là một khóa cột sống tạo ra áp lực mạnh lên đốt sống. Đòn này đặc biệt phù hợp với no-gi (vì việc duy trì body triangle khó hơn) và rất hiệu quả, nhưng đòi hỏi vị trí phải cực kỳ chính xác.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "von-flue-choke",
+    "domain": "submission_systems",
+    "level": "intermediate",
+    "name": "Von Flue Choke",
+    "tags": [
+      "von-flue",
+      "choke",
+      "guillotine",
+      "defense",
+      "shoulder-pressure"
+    ],
+    "summary": "Cuộn cảm Von Flue (được đặt theo tên của Jason Von Flue) là một sự phản đối lại cuộn cảm guillotine từ vị trí trên cùng. Khi đối thủ bắt được bạn trong guillotine và bạn không thể trốn thoát, bạn có thể đảo ngược sự khuất phục bằng cách thúc vai vào cổ họ trong khi vẫn duy trì áp lực từ ngực đến ngực. Cơ chế này là một hiện tượng nghẹt thở do áp lực ở vai — vai của bạn nén một bên cổ của họ trong khi hình số 4 của cánh tay guillotine của chính họ sẽ nén vào bên kia. Tay cầm guillotine của chính họ trở thành một phần khiến bạn bị sặc.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "z-lock",
+    "domain": "submission_systems",
+    "level": "advanced",
+    "name": "Khóa Z",
+    "tags": [
+      "z-lock",
+      "leg-lock",
+      "submission",
+      "leg-entanglement",
+      "heel-hook",
+      "ankle-lock",
+      "junny-ocasio"
+    ],
+    "summary": "Khóa Z là một phương thức khóa chân kết hợp các yếu tố của ankle lock và heel hook thành một đòn tấn công tàn khốc duy nhất. Bắt nguồn từ các vị trí như một chân X (SLX) và 50/50 guard, nó sử dụng cấu hình chân độc đáo để bẫy và vặn chân đối phương. Vị trí này mang lại khả năng kiểm soát tuyệt vời và có thể được sử dụng như một động tác dứt điểm cũng như một vị trí chuyển tiếp cho các đòn tấn công bằng chân khác như saddle hoặc chéo ashi garami. Nó đặc biệt hiệu quả trong No-Gi và các hệ thống khóa chân hiện đại.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "ankle-pick-low-single",
+    "domain": "wrestle_up_wrestling",
+    "level": "intermediate",
+    "name": "Chọn mắt cá chân / Đơn thấp",
+    "tags": [
+      "ankle-pick",
+      "low-single",
+      "takedown",
+      "wrestling",
+      "shot"
+    ],
+    "summary": "Cú chọn mắt cá chân sử dụng thao tác bằng đầu để dồn trọng lượng lên chân trước của đối phương, sau đó tấn công vào mắt cá chân đó để loại bỏ phần đế của họ. Điều quan trọng là phần đầu bị gãy - nếu không có nó, mắt cá chân sẽ không chịu đủ trọng lượng để dễ bị tổn thương. Kết thúc sử dụng chuyển động kéo ngang (không nâng) để đẩy đối thủ xuống thảm. Miếng đệm mắt cá chân lý tưởng cho BJJ vì nó giữ cho đầu của bạn an toàn trước guillotine giây và không cần phải bắn vào đầu gối của bạn.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "arm-drag-system",
+    "domain": "wrestle_up_wrestling",
+    "level": "intermediate",
+    "name": "Hệ thống kéo cánh tay",
+    "tags": [
+      "arm-drag",
+      "back-take",
+      "single-leg",
+      "front-headlock",
+      "wrestling"
+    ],
+    "summary": "Động tác kéo cánh tay kéo cánh tay của đối phương ngang qua cơ thể bạn, làm gián đoạn cơ sở của họ và làm lộ lưng hoặc chân xa của họ. Từ động tác kéo bằng tay, bạn có ba nhánh chính: (1) lùi lại — vòng ra phía sau khi họ theo lực kéo, (2) một chân — thả xuống chân xa khi họ đứng lên, (3) front headlock — bẻ xuống khi họ chống lại lực kéo. Kéo tay là nền tảng của tất cả các đòn hạ gục theo kiểu chớp nhoáng trong No-Gi.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "body-lock-takedown",
+    "domain": "wrestle_up_wrestling",
+    "level": "intermediate",
+    "name": "Gỡ bỏ khóa cơ thể / mat returns",
+    "tags": [
+      "body-lock",
+      "takedown",
+      "mat-return",
+      "double-leg",
+      "wrestling"
+    ],
+    "summary": "Khóa cơ thể là vị trí hạ gục chiếm ưu thế nhất trong No-Gi vì nó loại bỏ khả năng trụ hoặc trụ của đối phương — cả hai cánh tay đều bị kẹt giữa cơ thể bạn và cơ thể của họ. Từ khóa cơ thể, bạn có thể nhấc, vấp hoặc đẩy đối thủ xuống thảm trong khi vẫn duy trì toàn quyền kiểm soát phần thân trên. Khóa cơ thể cũng là công cụ mat return chính khi đối thủ đứng từ rùa hoặc half guard.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "dogfight-knee-tap",
+    "domain": "wrestle_up_wrestling",
+    "level": "intermediate",
+    "name": "Cú chạm đầu gối không chiến",
+    "tags": [
+      "dogfight",
+      "wrestle-up",
+      "knee-tap",
+      "tier:modern-expansion",
+      "meta:modern-common",
+      "risk:medium",
+      "family:wrestling",
+      "group:wrestle-up",
+      "modern-no-gi"
+    ],
+    "summary": "Cú chạm đầu gối khi không chiến là đòn quét có tỷ lệ quét cao nhất từ ​​vị trí không chiến (underhook half guard). Từ trận không chiến, bạn sử dụng underhook của mình để kéo đối thủ về phía trước trong khi dùng tay còn lại chạm vào đầu gối phía xa của họ. Động lượng về phía trước của họ kết hợp với cú chạm đầu gối sẽ loại bỏ phần đế của họ và đưa họ xuống thảm. Nhấn đầu gối chuyển trực tiếp sang side control hoặc front headlock.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "front-headlock-system",
+    "domain": "wrestle_up_wrestling",
+    "level": "intermediate",
+    "name": "front headlock Hệ thống",
+    "tags": [
+      "front-headlock",
+      "guillotine",
+      "darce",
+      "anaconda",
+      "go-behind"
+    ],
+    "summary": "Hệ thống front headlock là chuỗi tấn công liên tục từ vị trí front headlock (một tay ôm đầu, tay còn lại điều khiển cánh tay xa hoặc hông). Từ vị trí này, bạn chuyển qua các lần gửi và tiến bộ về vị trí: snapdown phá vỡ tư thế của họ, guillotine đe dọa cổ, d'arce tấn công cổ từ bên cạnh, anaconda tấn công từ phía trước và kẻ đi sau chiếm lấy phía sau. Điều quan trọng là không bao giờ từ bỏ front headlock — nếu một cuộc tấn công thất bại, ngay lập tức chuyển sang cuộc tấn công tiếp theo.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "half-guard-wrestle-up",
+    "domain": "wrestle_up_wrestling",
+    "level": "intermediate",
+    "name": "half guard Đấu vật",
+    "tags": [
+      "wrestle-up",
+      "half-guard"
+    ],
+    "summary": "Cuộc vật lộn half guard biến half guard từ chốt phòng thủ thành một đòn tấn công hạ gục. Trình tự như sau: thắng underhook → quay mặt về phía họ → đặt chân ngoài → đánh một chặng. Cuộc vật lộn có hiệu quả vì nó bắt được đối thủ trong quá trình chuyển đổi giữa chuyền và ghim - họ không hoàn toàn cam kết với cả hai điều đó, khiến họ dễ bị tổn thương khi đứng lên đột ngột.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": true
+  },
+  {
+    "id": "hand-fighting",
+    "domain": "wrestle_up_wrestling",
+    "level": "beginner",
+    "name": "Đấu tay đôi",
+    "tags": [
+      "wrestling",
+      "grips"
+    ],
+    "summary": "Đấu tay đôi là trận chiến vô hình của việc kiểm soát độ bám, cổ tay và cánh tay nhằm xác định ai là người bắt đầu hạ gục, guard chuyền hoặc guard kéo. Các nguyên tắc chính là: (1) inside control đánh bạiside control — bàn tay của bạn ở giữa cánh tay và cơ thể của họ kiểm soát trung tâm của họ, (2) hai chọi một đánh một đối một — sử dụng cả hai tay trên một cánh tay của họ để tạo lợi thế, (3) đánh lùi ngay lập tức khi bạn mất vị trí bên trong — không nắm lấy từ bên ngoài, (4) vị trí đầu kiểm soát vị trí cơ thể — underhook yêu cầu kiểm soát đầu để có hiệu quả.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "hip-heist-wrestle-up",
+    "domain": "wrestle_up_wrestling",
+    "level": "intermediate",
+    "name": "Cuộc đấu vật cướp giật thời thượng",
+    "tags": [
+      "hip-heist",
+      "wrestle-up",
+      "bottom-offense",
+      "stand-up",
+      "tier:modern-expansion",
+      "meta:modern-common",
+      "risk:low",
+      "family:wrestling",
+      "group:wrestle-up",
+      "modern-no-gi"
+    ],
+    "summary": "Vụ cướp hông sử dụng động tác xoay hông và vung chân để chuyển đổi đột ngột từ tư thế nằm dưới guard sang tư thế quỳ hoặc đứng. Đây là bài đấu vật có tốc độ cao nhất vì nó chuyển trực tiếp động lượng thoát hông của bạn thành tư thế đứng. Vụ cướp hông đặc biệt hiệu quả đối với những đối thủ nghiêng về phía trước với áp lực nặng nề - động lượng về phía trước của họ trở thành năng lượng mà bạn sử dụng để đứng vững.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "single-leg-bjj",
+    "domain": "wrestle_up_wrestling",
+    "level": "intermediate",
+    "name": "Chân đơn cho BJJ",
+    "tags": [
+      "wrestling",
+      "takedown"
+    ],
+    "summary": "Trận đấu đơn BJJ là phiên bản sửa đổi của trận đấu đơn trận đấu ưu tiên sự an toàn trước các quầy phục tùng. Những điều chỉnh chính là: vị trí đầu phải luôn ở bên ngoài (má tới hông/lưng của họ) chứ không phải bên trong (ngực đối với ngực của họ), kết thúc ưu tiên chạy đường ống (đưa họ sang một bên) hơn là nâng (để lộ guillotine) và động tác quay về phía sau luôn có sẵn như một giải pháp thay thế có tỷ lệ phần trăm cao cho kết thúc gỡ xuống.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "snapdown-front-headlock",
+    "domain": "wrestle_up_wrestling",
+    "level": "intermediate",
+    "name": "snapdown đến front headlock",
+    "tags": [
+      "front-headlock",
+      "wrestling"
+    ],
+    "summary": "snapdown chuyển khả năng kiểm soát phần thân trên thành đòn hạ gục bằng cách ép đầu đối phương xuống thảm, sau đó giữ nguyên vị trí front headlock. snapdown hoạt động vì đầu điều khiển cơ thể — một lực hướng xuống mạnh trên cổ buộc đối phương phải đỡ trọng lượng của họ lên tay, phá vỡ tư thế của họ và tạo đường vào cho front headlock. Từ front headlock, bạn có ba nhánh: đi phía sau, guillotine hoặc quay lại.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "sprawl-go-behind",
+    "domain": "wrestle_up_wrestling",
+    "level": "intermediate",
+    "name": "sprawl và Đi về phía sau",
+    "tags": [
+      "wrestling",
+      "defense"
+    ],
+    "summary": "Trình tự sprawl và đi phía sau là: (1) sprawl — đẩy hông của bạn lên lưng dưới của họ khi họ bắn, (2) điều khiển — đặt tay lên vai hoặc đầu của họ để ngăn họ đứng, (3) vòng tròn — bước sang một bên và vòng ra phía sau họ, (4) cố định — đưa lưng ra sau bằng móc hoặc seatbelt. Thời điểm phải ngay lập tức - nếu bạn đợi họ thiết lập lại căn cứ của mình, cửa sổ lấy lại sẽ đóng lại.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "technical-stand-up",
+    "domain": "wrestle_up_wrestling",
+    "level": "beginner",
+    "name": "Hỗ trợ kỹ thuật",
+    "tags": [
+      "wrestling",
+      "base"
+    ],
+    "summary": "Kỹ thuật đứng lên là một động tác tuần tự từ ngồi hoặc nằm đến đứng: (1) đặt tay lên tấm thảm cạnh hông, (2) đưa chân cùng bên chạm vào tay bạn, (3) đưa tay và chân chống lên để nâng hông lên, (4) đặt chân kia xuống dưới khi bạn đứng lên, (5) thiết lập tư thế phòng thủ đối mặt với đối thủ. Việc đứng lên về mặt kỹ thuật là cần thiết để phục hồi guard, rùa thoát ra ngoài và đứng để vượt qua.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "wrestling-up-from-guard",
+    "domain": "wrestle_up_wrestling",
+    "level": "intermediate",
+    "name": "Đấu tranh từ guard",
+    "tags": [
+      "wrestle-up",
+      "guard",
+      "standing",
+      "single-leg"
+    ],
+    "summary": "Đấu vật từ guard biến guard từ thế phòng thủ thành một đòn tấn công hạ gục. Trình tự này sử dụng underhook, shin-to-shin hoặc 2 chọi 1 để kiểm soát phần thân trên của đối thủ khi bạn đứng. Từ tư thế đứng, bạn kết thúc bằng một chân, khóa cơ thể hoặc front headlock. Đấu vật là cốt lõi của hệ thống No-Gi guard hiện đại — mỗi người chơi guard đang ngồi phải có một kỹ thuật vật đáng tin cậy để ngăn đối thủ đứng và vượt qua.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  }
+]

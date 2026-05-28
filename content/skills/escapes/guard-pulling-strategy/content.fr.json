@@ -1,0 +1,71 @@
+{
+  "id": "guard-pulling-strategy",
+  "locale": "fr",
+  "name": "guard Stratégie de traction",
+  "description": "Tirez la garde avec intention: prise et angle d'abord, puis une entrée assise, tibia contre tibia, K-guard ou wrestle-up. Un guard pull est une entrée offensive qui doit mener directement vers l'un de vos systèmes de garde les plus solides.",
+  "shortInstruction": "Établissez une prise (attache de col ou contrôle du poignet), créez un angle par rapport à la ligne médiane, asseyez-vous sur une hanche et entrez immédiatement le guard de votre choix (assis, tibia à tibia, K-guard). Tirer guard sans plan, c'est concéder une position.",
+  "summary": "guard tirer devrait être une transition offensive et non une retraite défensive. La séquence est la suivante : établir une prise dominante → créer un angle en effectuant des cercles ou des coups → contrôler la distance en maintenant la prise → s'asseoir avec contrôle → entrer directement dans votre meilleur système guard. Un pull guard bien exécuté arrive dans un guard marquant (pas à plat sur le dos) avec des prises déjà établies et l'adversaire déséquilibré.",
+  "whyItWorks": [
+    "Établir une prise avant de tirer garantit que vous contrôlez la distance : l'adversaire ne peut pas reculer ou tourner jusqu'à side control.",
+    "Créer un angle (s'écarter de la ligne médiane) force l'adversaire à se réaligner, vous donnant ainsi l'opportunité de tirer sans être dépassé.",
+    "Tirer vers un système guard spécifique (assis, tibia contre tibia, K-guard) plutôt que vers un closed guard générique vous donne un plan offensif immédiat",
+    "Une traction contrôlée empêche l'adversaire de marquer immédiatement une passe ou un retrait lors de votre atterrissage."
+  ],
+  "commonMistakes": [
+    "Tirer guard sans aucune prise : l'adversaire peut immédiatement se désengager ou faire un cercle jusqu'à side control",
+    "Assis droit (les deux hanches vers le bas) au lieu de vous asseoir sur une hanche - cela vous fait atterrir à plat, leur donnant une opportunité de passe immédiate",
+    "Tirer guard trop loin — s'il y a un écart de 3 pieds lorsque vous êtes assis, l'adversaire peut se désengager et se réinitialiser",
+    "Oublier de maintenir la poignée après avoir tiré - la poignée est ce qui les maintient dans votre guard et les empêche de se lever et de passer"
+  ],
+  "coachingCues": [
+    "Saisissez d'abord, tirez ensuite",
+    "Inclinez-vous avant de vous asseoir",
+    "Atterrir sur une hanche, pas à plat",
+    "Tirez vers un guard, pas vers le sol"
+  ],
+  "safetySummary": [
+    "Ne vous asseyez pas de manière explosive si votre pied est coincé entre les jambes de l'adversaire – cela peut provoquer des blessures à la cheville ou au genou.",
+    "Lorsque vous tirez guard en compétition, soyez conscient des règles de slam : dans certains ensembles de règles, l'adversaire peut vous soulever et vous claquer si vous tirez guard sans poignées.",
+    "Entraînez-vous à tirer guard avec un partenaire résistant à une vitesse contrôlée avant de l'utiliser en direct : un mauvais tirage guard peut vous faire atterrir immédiatement dans side control."
+  ],
+  "keyCorrections": [
+    "Si vous continuez à atterrir à plat sur le dos : vous n'êtes pas assis sur une seule hanche. Concentrez-vous sur votre hanche extérieure tout en gardant la jambe intérieure active.",
+    "Si l'adversaire passe immédiatement après que vous ayez tiré : votre distance était mauvaise ou vous avez perdu l'adhérence. Rapprochez-vous et maintenez la prise jusqu'à ce que vous établissiez guard",
+    "Si l'adversaire fait un cercle avant que vous ne tiriez : vous n'avez pas créé suffisamment d'angle. Faites un cercle plus loin de la ligne médiane avant de vous asseoir"
+  ],
+  "systemLogic": {
+    "corePrinciple": "La traction guard suit une séquence en quatre étapes : Prise → Angle → Assis → Entrée du système guard",
+    "decisionTree": [
+      {
+        "condition": "À l'étape 1 (Grip)",
+        "action": "établissez votre guard prise la plus forte avant de tirer. Si tirage tibia à tibia : collier cravate + commande poignet. Si vous tirez jusqu'à K-guard : cravate de col + poignée de manche. Si vous tirez vers une position assise guard : commande au poignet ou collier à deux contre un"
+      },
+      {
+        "condition": "À l'étape 2 (angle)",
+        "action": "sortez de la ligne médiane à un angle de 30 à 45 degrés. Si vous tirez droit sur eux, ils peuvent avancer jusqu'à side control. Un angle les oblige à réaligner leurs hanches, créant ainsi la fenêtre d'entrée"
+      },
+      {
+        "condition": "À l'étape 3 (assis)",
+        "action": "abaissez vos hanches sur le tapis en vous asseyant sur votre hanche extérieure (pas les deux hanches à la fois). Gardez votre jambe intérieure active (pied posté ou connexion tibia à tibia) pour l'empêcher d'entrer dans la passe guard"
+      },
+      {
+        "condition": "À l'étape 4 (entrez le système guard)",
+        "action": "passez immédiatement à votre meilleur guard depuis la position d'atterrissage. Si vous avez tiré tibia à tibia : entrez single leg x ou X-guard. Si vous êtes assis : entrez K-guard, DLR ou col-manche. Si vous avez tiré jusqu'à closed guard : rompez immédiatement leur posture."
+      },
+      {
+        "condition": "guard guide de sélection des tirages",
+        "action": "contre un passeur debout → assis guard. Contre un passeur agenouillé → tibia à tibia. Contre passeur de pression → K-guard ou papillon"
+      }
+    ]
+  },
+  "moneyDetails": [
+    "Un bon tirage guard est la base de tout votre jeu guard : il détermine si vous démarrez la séquence guard dans une position forte ou faible.",
+    "Compétition guard tirer est une décision stratégique – tirer guard pour entrer dans votre meilleur système d'attaque est souvent mieux que de lutter pour un retrait",
+    "Maîtriser le tirage guard vous permet de dicter où commence le match : vous choisissez le système guard, pas l'adversaire."
+  ],
+  "fixItFast": [
+    "Si l'adversaire vous précipite pendant que vous essayez de tirer : utilisez une cravate pour le poster sur sa tête et faites un cercle derrière lui avant de tirer.",
+    "Si vous continuez à vous faire dépasser pendant le pull : vous ne contrôlez pas leur jambe éloignée. Gardez votre pied sur la hanche la plus éloignée lorsque vous êtes assis pour éviter de vous couper le genou.",
+    "Si l'adversaire se désengage après que vous ayez tiré : utilisez une lutte pour vous relever et vous réengager plutôt que de vous asseoir et d'attendre."
+  ]
+}

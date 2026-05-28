@@ -1,0 +1,77 @@
+{
+  "id": "leg-lock-defense",
+  "locale": "fr",
+  "name": "Défense de verrouillage des jambes",
+  "description": "Reconnaître et échapper aux blocages de jambes : cachez le talon, dégagez la ligne du genou, tournez dans la bonne direction et tapez tôt en cas de besoin. La défense par verrouillage des jambes est l'intégration de tous les principes d'évasion de la ligne du genou dans un système défensif complet contre toutes les attaques courantes des jambes.",
+  "shortInstruction": "Talon au fessier, créez une distance entre les hanches, dégagez le crochet secondaire, tournez vers la jambe libre et appuyez dès que vous ressentez un couple de rotation sur le genou.",
+  "summary": "La défense de verrouillage des jambes couvre tout le spectre des réponses défensives contre toutes les attaques majeures des jambes : heel hooks (intérieur et extérieur), ankle lock droits, barres de genoux, prises d'orteils et trancheurs de mollets. Le système intègre une mécanique d'évasion de la ligne du genou avec des compteurs spécifiques à la soumission. La règle universelle : si votre genou est isolé et votre talon contrôlé, privilégiez la fuite. Si votre genou est isolé et que le talon est déjà exposé, privilégiez le tapotement.",
+  "whyItWorks": [
+    "Le cache-talon supprime la poignée nécessaire à la finition heel hook — sans rotation du talon, le heel hook ne peut pas générer le couple nécessaire",
+    "La séparation des hanches s'applique à toutes les attaques de jambes, car chaque verrouillage de jambe nécessite une proximité de hanche pour générer un effet de levier final.",
+    "Une rotation correcte (vers la jambe libre) est la direction d'évacuation universelle pour tous les enchevêtrements de jambes - la rotation vers l'extérieur resserre chaque type de verrouillage de jambe",
+    "Une pression précoce sur la pression du talon prévient les blessures d'entraînement les plus catastrophiques (reconstruction du ligament du genou)"
+  ],
+  "commonMistakes": [
+    "S'éloigner de la jambe coincée (mouvement de panique instinctif) - cela resserre chaque variation de verrouillage de la jambe",
+    "Essayer de retirer la jambe d'un verrou de jambe en utilisant l'extension de la hanche au lieu de la flexion de la hanche et du masquage du talon",
+    "Se figer et espérer que l'adversaire n'appliquera pas la soumission - les verrous de jambe s'accélèrent soudainement",
+    "Se concentrer uniquement sur la défense heel hook tout en ignorant les entrées droites ankle lock, la genouillère et la prise des orteils"
+  ],
+  "coachingCues": [
+    "Talon caché, hanches écartées",
+    "Appuyez pour positionner, pas de douleur",
+    "Rotation vers la jambe libre",
+    "En cas de pression sur le genou, tapotez immédiatement"
+  ],
+  "safetySummary": [
+    "Les heel hooks peuvent endommager le genou avant qu'une douleur ne soit ressentie : vous devez taper pour positionner, pas pour ressentir de la douleur.",
+    "Les genouillères attaquent le ligament croisé postérieur – étendez légèrement votre jambe si vous ressentez une hyperextension, mais appuyez si elles contrôlent la jambe",
+    "Les ankle lock droits appliquent une pression de rotation et d'hyperextension sur la cheville et le genou – appuyez si vous ressentez une douleur aiguë, pas seulement une pression.",
+    "Les coupe-mollets compriment le gastrocnémien contre le tibia – ils sont douloureux mais provoquent rarement des dommages structurels. Tapotez avant que la douleur ne devienne insupportable",
+    "Les prises d'orteils attaquent la syndesmose de la cheville - tapotez tôt car cette blessure nécessite des mois de récupération"
+  ],
+  "keyCorrections": [
+    "Si vous sentez le talon tourner mais que vous ne parvenez pas à l'atteindre pour le cacher : saisissez votre propre pied avec les deux mains et tirez-le vers votre fessier : c'est une \"auto-dissimulation\".",
+    "Si l'adversaire passe de la cheville droite à heel hook : ne changez pas votre défense - la dissimulation du talon et la séparation des hanches fonctionnent pour les deux.",
+    "Si vous êtes dans un guard 50/50 et que vous ne parvenez pas à identifier la menace de soumission : supposez heel hook et défendez-vous en conséquence jusqu'à ce que vous identifiiez l'attaque réelle."
+  ],
+  "systemLogic": {
+    "corePrinciple": "La défense contre le blocage des jambes est organisée par type d'attaque, avec les mêmes principes de base adaptés à chacun.",
+    "decisionTree": [
+      {
+        "condition": "Défense heel hook : dissimulation du talon",
+        "action": "séparation des hanches → crochet secondaire dégagé → rotation vers la jambe libre. Cette séquence fonctionne à la fois pour les heel hook intérieurs et extérieurs avec des ajustements de position mineurs"
+      },
+      {
+        "condition": "Défense droite ankle lock : pointez votre pied (flexion plantaire) pour protéger la cheville, saisissez sa manche pour l'empêcher de tirer votre pied, entourez votre pied vers sa hanche la plus éloignée tout en étendant votre jambe. Ne cachez pas le talon",
+        "action": "vous voulez que votre pied soit visible pour contrôler l'angle"
+      },
+      {
+        "condition": "Application générale",
+        "action": "Défense de la genouillère : gardez votre genou légèrement plié (ne le laissez pas s'hyperétendre), cachez le talon contre votre fessier, frappez votre jambe libre au-dessus de sa tête pour échapper à l'enchevêtrement. La défense de la genouillère donne la priorité à la flexion du genou plutôt qu'à la dissimulation du talon."
+      },
+      {
+        "condition": "Application générale",
+        "action": "Défense de maintien des orteils : faites pivoter votre pied dans le sens de la prise (suivez la rotation plutôt que de lui résister), placez votre pied libre sur sa hanche et poussez pour créer de l'espace, puis cachez le pied et échappez-vous"
+      },
+      {
+        "condition": "Application générale",
+        "action": "Défense du coupe-mollet : pointez vos orteils, étendez complètement votre jambe pour faire glisser le mollet hors de la compression, frappez votre jambe libre entre vous et eux pour créer de l'espace."
+      },
+      {
+        "condition": "Application générale",
+        "action": "Si un verrouillage de jambe est appliqué avec un contrôle total et que vous ne pouvez pas exécuter la première étape de défense en 1 seconde, appuyez immédiatement sur"
+      }
+    ]
+  },
+  "moneyDetails": [
+    "La défense contre le blocage des jambes est une compétence obligatoire pour tous les grapplers modernes. La prévalence des attaques aux jambes en compétition signifie que vous les affronterez dans toutes les divisions.",
+    "Une défense fiable contre le verrouillage des jambes élimine la peur de l'engagement et vous permet de vous entraîner à pleine intensité sans hésitation.",
+    "Comprendre la défense par verrouillage des jambes du côté défensif fait de vous un meilleur attaquant par verrouillage des jambes – vous savez exactement ce que l'adversaire doit faire pour s'échapper."
+  ],
+  "fixItFast": [
+    "Si vous sentez une rotation du talon sans que le talon ne puisse se cacher : appuyez immédiatement : vous avez déjà perdu la course.",
+    "Si vous êtes en ligne droite ankle lock et que votre pied est déjà isolé : ne tirez pas – pointez votre pied, saisissez leur manche et entourez votre pied vers leur hanche la plus éloignée.",
+    "Si vous échappez à un blocage de jambe mais qu'il rentre immédiatement : votre distance de hanche n'a pas été maintenue. Gardez vos hanches éloignées pendant que vous revenez à une position neutre"
+  ]
+}

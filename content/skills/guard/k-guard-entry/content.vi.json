@@ -1,0 +1,65 @@
+{
+  "id": "k-guard-entry",
+  "locale": "vi",
+  "name": "K-guard Mục nhập",
+  "description": "Sử dụng K-guard để tạo một góc dưới hông đối phương và thực hiện các đòn tấn công từ phía sau hoặc vướng chân với toàn quyền kiểm soát chân xa của họ.",
+  "shortInstruction": "Đặt chân lên hông xa, móc chân gần, xoay người bên dưới — K-guard là vua của hệ thống tấn công bằng chân hiện đại.",
+  "summary": "K-guard là điểm vào linh hoạt nhất trong khóa chân No-Gi hiện đại. Bằng cách đặt một chân lên hông xa của đối phương và móc chân gần của họ bằng chân kia, bạn tạo ra một góc mạnh mẽ dưới trọng tâm của họ. Từ đây, bạn có thể tấn công chân xa (heel hook), lùi hoặc quét lên vị trí trên cùng. K-guard là chất keo kết nối đáy open guard với hệ thống vướng chân.",
+  "whyItWorks": [
+    "Bàn chân ở hông xa điều khiển chuyển động quay của chúng và ngăn chúng bước đi.",
+    "Cái móc ở chân gần của chúng giúp bạn mất thăng bằng và vướng vào chân.",
+    "Cơ thể của bạn nằm dưới trọng tâm của chúng có nghĩa là bạn luôn có một chuyển động để có thể quét hoặc tấn công.",
+    "Nguyên tắc Danaher: K-guard giải quyết vấn đề 'làm thế nào để vào chân mà không phải nhường vị trí'."
+  ],
+  "commonMistakes": [
+    "Để bàn chân ở hông xa trượt xuống bụng - bàn chân phải đặt trên xương hông.",
+    "Không móc chân gần của chúng đủ sâu - một cú móc nông sẽ giúp chúng trốn thoát.",
+    "Giữ cả hai chân trên thảm — K-guard luôn yêu cầu một chân đặt trên người.",
+    "Đi tới K-guard mà không kiểm soát cánh tay gần của mình — họ sẽ phản công bằng guillotine hoặc kimura."
+  ],
+  "coachingCues": [
+    "Chân trên hông, không bao giờ trên bụng.",
+    "Móc sâu, kiểm soát cánh tay, đi xuống.",
+    "K-guard là đường hầm — phía bên kia là điểm kết thúc.",
+    "Cảm nhận sức nặng của họ, di chuyển khi họ cam kết."
+  ],
+  "safetySummary": [
+    "Giữ đầu của bạn khỏi thảm khi ở K-guard — bảo vệ cổ của bạn khỏi các tác động guillotine.",
+    "Luôn kiểm soát cánh tay ở gần — nếu chúng nắm lấy đầu bạn, bạn có nguy cơ bị guillotine.",
+    "Không duỗi chân ra mà không kiểm soát hông xa của họ - họ có thể đá tự do và phản đòn bằng thanh đầu gối."
+  ],
+  "keyCorrections": [
+    "Nếu họ bước ra khỏi K-guard, chân ở hông của bạn bị mất kết nối — hãy thiết lập lại trụ đỡ ngay lập tức.",
+    "Nếu họ túm lấy đầu bạn để guillotine, khả năng điều khiển cánh tay của bạn yếu — hãy đưa tay bạn vào trong và đánh liên tục.",
+    "Nếu bạn không thể vào được phần vướng víu của chân thì góc dưới chân của bạn quá nông - hãy đưa hông của bạn lại gần hơn."
+  ],
+  "systemLogic": {
+    "corePrinciple": "Ngồi guard: thắng trận đấu tay → đặt chân lên hông xa → móc chân gần bằng chân kia → xoay dưới tâm của họ → vào saddle, chéo ashi hoặc lùi lại.",
+    "decisionTree": [
+      {
+        "condition": "Sử dụng tùy chọn 1",
+        "action": "Họ đứng thẳng → bước chéo ashi → heel hook."
+      },
+      {
+        "condition": "Sử dụng tùy chọn 2",
+        "action": "Họ ngồi lại → nhập saddle → heel hook hoặc quay lại."
+      },
+      {
+        "condition": "Sử dụng tùy chọn 3",
+        "action": "Họ đăng bài → quét lên vị trí trên cùng."
+      }
+    ]
+  },
+  "moneyDetails": [
+    "Bàn chân của bạn phải đặt chính xác trên xương hông (ASIS) - nếu nó trượt xuống bụng hoặc xương sườn, bạn sẽ mất kiểm soát.",
+    "Cú móc chân gần phải ở phía sau đùi của họ, không phải phía sau đầu gối - cú móc sâu sẽ mang lại cho bạn góc nhìn.",
+    "Kiểm soát cánh tay gần của họ bằng cách nắm lấy tay áo, cổ tay hoặc cơ tam đầu của họ - điều này ngăn họ phản công.",
+    "Xoay hông của bạn về phía trần nhà khi bạn bước vào K-guard — thao tác này sẽ mở ra góc để chân vào."
+  ],
+  "nextStep": "Sau mục nhập K-guard, hãy tìm hiểu ma trận K-guard và hệ thống ashi chéo heel hook.",
+  "fixItFast": [
+    "Chân trượt khỏi hông? Nhấn gót chân của bạn vào xương hông - không phải vòm mà là gót chân.",
+    "Họ tóm lấy đầu bạn à? Đập tay bạn vào trong cánh tay của họ và thiết lập lại khoảng cách.",
+    "Không thể xoay theo chúng? Lưỡi câu của bạn quá nông — hãy tiến lại gần và móc lại sâu hơn."
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "id": "clamp-guard-control",
+  "domain": "guard_offense",
+  "level": "intermediate",
+  "status": "draft",
+  "name": "Clamp Guard Control",
+  "aliases": [],
+  "tags": [
+    "clamp-guard",
+    "shoulder-line",
+    "overhook",
+    "tier:modern-expansion",
+    "meta:modern-common",
+    "risk:medium",
+    "family:guard",
+    "group:clamp-guard",
+    "modern-no-gi"
+  ],
+  "keywords": [
+    "shoulder line",
+    "overhook",
+    "posture break"
+  ],
+  "modernSystemGroup": "clamp_guard",
+  "relatedSkills": [
+    {
+      "id": "shoulder-crunch-control",
+      "type": "recommended"
+    },
+    {
+      "id": "choi-bar",
+      "type": "recommended"
+    },
+    {
+      "id": "tarikoplata",
+      "type": "recommended"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "supine-guard-retention",
+    "kimura-system"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [
+    "If they pull their arm free, your knee was too low — bring it up to the shoulder line.",
+    "If they posture out, you lost the overhook — re-attack the arm before they sit up.",
+    "If they roll through the omoplata, control their hip and follow their rotation."
+  ],
+  "version": 1,
+  "updatedAt": "2026-05-21T00:24:30.775Z",
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "en",
+  "description": "Clamp the opponent's shoulder line between your knee and overhook, with wrist control, to create an armbar, triangle, or omoplata dilemma that they cannot escape without giving up a submission entry.",
+  "shortInstruction": "Knee on shoulder, overhook the arm, control the wrist on the other side — the clamp is a submission waiting to happen.",
+  "summary": "Clamp guard (also called 'clamp' or 'arm clamp') pins the opponent's arm across your body while your knee blocks their shoulder. This creates a two-on-one on the trapped arm. From here, every reaction they make opens a submission: they posture into the triangle, they pull out into the armbar, they roll into the omoplata.",
+  "whyItWorks": [
+    "By pinning their arm with your knee and overhook, you isolate one arm entirely — they can only defend with the free arm.",
+    "The clamp removes their ability to posture, since their head and shoulder are pinned to your chest.",
+    "Every escape attempt feeds a different submission — this is the Danaher 'position before submission' principle in action.",
+    "The overhook controls their elbow while the knee blocks their shoulder roll — they cannot simply pull free."
+  ],
+  "commonMistakes": [
+    "Clamping too low on the arm (at the wrist) instead of at the shoulder — the shoulder pin is what makes the clamp work.",
+    "Letting the opponent free their trapped elbow by rotating their arm inward.",
+    "Losing the overhook because you relaxed your grip — the overhook must be active and tight.",
+    "Not controlling the free hand, allowing them to post and base out of the clamp."
+  ],
+  "coachingCues": [
+    "Knee to shoulder, not knee to ribs.",
+    "Overhook like you mean it — limp overhooks lose the clamp.",
+    "Two arms, one arm — their free arm can't save the trapped one.",
+    "Feel the pressure: if they're comfortable, your clamp is wrong."
+  ],
+  "safetySummary": [
+    "Do not crank submissions from the clamp — control the position first, then apply the finish smoothly.",
+    "Protect your own neck: keep your head tight to their chest, not dangling in a guillotine line.",
+    "If they stack you, release the clamp and reset — do not fight the stack with a locked clamp."
+  ],
+  "systemLogic": {
+    "corePrinciple": "Secure the clamp (knee on shoulder + overhook + wrist control of free hand) → feel their reaction → attack the open submission.",
+    "decisionTree": [
+      {
+        "condition": "Option 1: They posture up",
+        "action": "triangle choke. Option 2: They pull the arm out → armbar. Option 3: They roll away → omoplata."
+      },
+      {
+        "condition": "General application",
+        "action": "The system is reaction-based: you don't need to force any submission, just maintain the clamp and wait for their movement."
+      }
+    ],
+    "exitStrategies": []
+  },
+  "moneyDetails": [
+    "The knee must be on the shoulder, not floating — if the knee is on their ribs, they can posture and stack you.",
+    "Your overhook should capture their triceps against your sternum; a loose overhook at the wrist gives them mobility to escape.",
+    "Control their free wrist with your free hand — this prevents them from posting and basing out.",
+    "Keep your hips mobile; the clamp is a dynamic position, not a static lock."
+  ],
+  "nextStep": "Master the clamp-to-triangle bridge and the clamp-to-armbar transition to chain your attacks.",
+  "fixItFast": [
+    "Knee keeps slipping? Dig it deeper into the armpit, not the ribs.",
+    "Overhook feels weak? Lock your hands around their arm for extra security.",
+    "They're stacking you? Release the clamp, frame on their hips, and reset to open guard."
+  ]
+}

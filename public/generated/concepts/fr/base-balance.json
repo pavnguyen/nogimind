@@ -1,0 +1,65 @@
+{
+  "id": "base-balance",
+  "locale": "fr",
+  "title": "Base et équilibre",
+  "category": "mechanical",
+  "level": "fundamental",
+  "tags": [
+    "base",
+    "balance",
+    "weight"
+  ],
+  "shortDefinition": "La base est garder centre de gravité tout en restant mobile et réactif.",
+  "whyItMatters": "Sans base, sweep, snapdown, déséquilibre ou perte pression au changement direction.",
+  "deepExplanation": "Bonne base n’est pas rigidité. C’est distribution poids, orteils actifs, largeur genoux et alignement tête-hanches.",
+  "beginnerView": "Ne pas dépendre longtemps de deux mains postées.",
+  "advancedView": "Laisser croire au déséquilibre puis rediriger vers counter.",
+  "ifThenExamples": [
+    {
+      "if": "Si vous perdez Base et équilibre pendant l’échange.",
+      "then": "Arrêtez d’accélérer, récupérez la structure corporelle proche, puis continuez.",
+      "why": "Le no-gi moderne punit vite la force après perte de structure.",
+      "relatedSkillIds": [
+        "hand-fighting",
+        "technical-stand-up"
+      ]
+    },
+    {
+      "if": "Si l’adversaire répond correctement à votre première ligne.",
+      "then": "Utilisez Base et équilibre pour passer à une branche plus sûre au lieu de forcer.",
+      "why": "Un bon concept transforme la réaction adverse en information pour la décision suivante.",
+      "relatedSkillIds": [
+        "technical-stand-up",
+        "sprawl-go-behind",
+        "bodylock-passing"
+      ]
+    }
+  ],
+  "commonMisunderstandings": [
+    {
+      "misunderstanding": "Base et équilibre est une astuce technique isolée.",
+      "correction": "Voyez-le comme une règle de décision présente dans plusieurs positions."
+    },
+    {
+      "misunderstanding": "Comprendre le concept suffit pour l’utiliser en live.",
+      "correction": "Le concept doit être lié à signaux corporels, cues courts et rolling positionnel."
+    }
+  ],
+  "trainingCues": [
+    "Nommez Base et équilibre avant d’ajouter force.",
+    "Cherchez le signal corporel, pas une impression vague.",
+    "Si la structure est perdue, reset une couche d’abord.",
+    "Driller lentement, puis tester avec résistance progressive."
+  ],
+  "relatedSkillIds": [
+    "hand-fighting",
+    "technical-stand-up",
+    "sprawl-go-behind",
+    "bodylock-passing"
+  ],
+  "relatedConceptIds": [
+    "posts",
+    "hooks",
+    "pressure-direction"
+  ]
+}

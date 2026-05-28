@@ -1,0 +1,73 @@
+{
+  "id": "frames",
+  "locale": "en",
+  "title": "Frames",
+  "category": "mechanical",
+  "level": "fundamental",
+  "tags": [
+    "frame",
+    "escape",
+    "structure",
+    "forearm",
+    "knee shield",
+    "connection",
+    "space management"
+  ],
+  "shortDefinition": "A frame is a bone structure (forearm, shin, knee, bicep) connected to the torso to maintain space, not arm strength to push.",
+  "whyItMatters": "Good frames let you breathe, rotate your hips, and pummel back inside. Bad frames make you defend with straight arms, easy to smash or submit.",
+  "deepExplanation": "There are 4 main frame types, each for different situations:\n\n1. Forearm frame (bicep-to-chest) — strongest, maintains distance from shoulder. Use in side control, mount escape, guard retention.\n2. Elbow frame (elbow-to-hip) — shorter, allows hip rotation. Use when you need to shrimp or bridge.\n3. Shin frame — use in knee shield, half guard, blocking bodylock or chest-to-chest.\n4. Bicep frame (bent arm across chest) — short and strong, use when flattened or under direct pressure.\n\nA frame is not a static barrier. It needs active connection — if the elbow slips from shoulder or hip, the opponent inserts chest and the frame dies. A live frame knows when to push, when to rotate, and when to convert to pummeling.",
+  "beginnerView": "Three frame rules:\n1. Elbow touches hip or sternum, not floating in the air.\n2. Do not round your back — straight spine transmits force through bone.\n3. When framing, rotate your hips at the same time — a frame does not push, it redirects.\n\nIf your arms burn after 10 seconds of framing, you are using muscle instead of bone.",
+  "advancedView": "Frame is the first phase of a 3-step defensive chain: frame → pummel → attack. A good frame does not last long — it creates enough space to pummel back inside. When they push into your frame, use that force to shrimp out or rotate. Read frames: if their elbow is away from the hip, they are weak; if their elbow is glued to the ribs, they are strong. Transition from frame to wedge (knee) when they commit weight — if they drive in, your knee enters; if they back off, you pummel.",
+  "ifThenExamples": [
+    {
+      "if": "If you lose Frames during the exchange.",
+      "then": "Stop accelerating, recover the nearest body structure, then continue the technique.",
+      "why": "Modern no-gi punishes forceful continuation after structure is lost.",
+      "relatedSkillIds": [
+        "frames-pummeling",
+        "side-control-escape"
+      ]
+    },
+    {
+      "if": "If the opponent correctly answers your first line.",
+      "then": "Use Frames to switch to a safer branch instead of forcing the same line.",
+      "why": "A good concept turns the opponent’s reaction into information for the next decision.",
+      "relatedSkillIds": [
+        "side-control-escape",
+        "mount-escape",
+        "seated-guard-retention"
+      ]
+    }
+  ],
+  "commonMisunderstandings": [
+    {
+      "misunderstanding": "Frames is a single technical trick.",
+      "correction": "Treat it as a decision rule that appears across many positions."
+    },
+    {
+      "misunderstanding": "Understanding the concept automatically makes it work live.",
+      "correction": "The concept needs body signals, short cues, and positional rolling."
+    }
+  ],
+  "trainingCues": [
+    "Name Frames before adding force.",
+    "Find the body signal instead of guessing generally.",
+    "If structure is lost, reset one layer first.",
+    "Drill slowly, then test with progressive resistance."
+  ],
+  "relatedSkillIds": [
+    "frames-pummeling",
+    "side-control-escape",
+    "mount-escape",
+    "seated-guard-retention",
+    "half-guard-knee-shield",
+    "supine-guard-retention"
+  ],
+  "relatedConceptIds": [
+    "wedges",
+    "posts",
+    "elbow-knee-connection",
+    "inside-position",
+    "guard-retention-layers"
+  ]
+}

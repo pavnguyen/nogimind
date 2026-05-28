@@ -1,0 +1,139 @@
+{
+  "id": "kani-basami-safety",
+  "domain": "positional_awareness",
+  "level": "beginner",
+  "status": "draft",
+  "name": "Kani Basami Sécurité",
+  "aliases": [
+    "scissor takedown safety",
+    "scissor reap awareness",
+    "banned takedown"
+  ],
+  "tags": [
+    "safety",
+    "knee-safety",
+    "takedown",
+    "tier:safety-critical",
+    "risk:safety-critical",
+    "family:safety",
+    "group:takedown-safety",
+    "ibjjf-rules",
+    "modern-no-gi"
+  ],
+  "keywords": [
+    "kani basami",
+    "scissor takedown",
+    "ACL",
+    "banned technique",
+    "IBJJF"
+  ],
+  "modernSystemGroup": "takedown_safety",
+  "relatedSkills": [
+    {
+      "id": "single-leg-bjj",
+      "type": "recommended"
+    },
+    {
+      "id": "leg-lock-safety-basics",
+      "type": "recommended"
+    },
+    {
+      "id": "reaping-awareness",
+      "type": "recommended"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "positional-hierarchy"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [],
+  "version": 1,
+  "updatedAt": "2026-06-12T00:00:00.000Z",
+  "contentRefs": {
+    "videos": "videos.json",
+    "qualityChecklist": "qualityChecklist"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": true,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "fr",
+  "description": "Le Kani basami (retrait aux ciseaux) est un mouvement à haut risque interdit dans la plupart des compétitions de BJJ et de grappling. Une jambe passe derrière le genou de l'adversaire tandis que l'autre avance dans sa hanche, créant des forces de rotation et de compression dangereuses sur l'articulation du genou.",
+  "shortInstruction": "N'essayez pas le kani basami à l'entraînement, sauf sous la supervision d'un expert. La jambe passant derrière le genou de l'adversaire peut détruire le LCA, le MCL et le ménisque. Utilisez des alternatives de retrait plus sûres, comme une seule jambe ou un choix de cheville.",
+  "summary": "La sensibilisation Kani basami enseigne les dangers de cette technique interdite et propose des alternatives plus sûres pour les entrées de retrait. La technique est interdite car le mouvement de ciseaux emprisonne le genou sans trajectoire de rotation sûre, et le poids de l'adversaire tombant sur un genou fixe crée des forces catastrophiques que la chirurgie de reconstruction ne peut pas complètement réparer.",
+  "whyItWorks": [
+    "Le mouvement de ciseaux emprisonne l'articulation du genou entre les jambes de l'attaquant, sans aucun endroit où pivoter en toute sécurité.",
+    "Le poids corporel de l'adversaire tombant sur un genou coincé crée des forces qui dépassent la résistance à la traction des ligaments - les déchirures du LCA sont la blessure la plus courante.",
+    "Même avec un partenaire coopératif, la vitesse et l'effet de levier du mouvement rendent impossible un contrôle en toute sécurité dans un environnement réel.",
+    "Tous les principaux organes directeurs (IBJJF, ADCC, UAEJJF) ont interdit le kani basami en raison du taux de blessures constant."
+  ],
+  "commonMistakes": [
+    "Tentative de Kani Basami lors d'un entraînement en pensant que c'est « sûr » avec un partenaire coopératif – les blessures surviennent encore à un taux élevé dans des environnements contrôlés",
+    "Confondre le kani basami (retrait aux ciseaux) avec les récoltes légales (récolte extérieure, voyage intérieur, ko-soto-gari) - ils sont mécaniquement différents",
+    "Ne connaissant pas les règles de la compétition : le kani basami est interdit à TOUS les niveaux de ceinture en IBJJF et dans la plupart des tournois majeurs",
+    "Croire que pratiquer le kani basami « avec précaution » élimine le risque : le mécanisme de la blessure est inhérent à la technique, pas à l'intensité."
+  ],
+  "coachingCues": [
+    "Retrait aux ciseaux = interdit",
+    "Le risque ACL est réel et permanent",
+    "Utilisez plutôt une jambe simple, une jambe double ou un médiator à la cheville.",
+    "Aucune concurrence ne le permet pour une raison"
+  ],
+  "safetySummary": [
+    "Kani basami est interdit par IBJJF, ADCC, UAEJJF et la plupart des compétitions BJJ dans le monde",
+    "Le risque de blessure catastrophique au genou (LCA, MCL, déchirure du ménisque) nécessitant une intervention chirurgicale et 9 à 12 mois de récupération dépasse de loin tout bénéfice.",
+    "Plusieurs alternatives sûres existent : retrait d'une jambe, retrait d'une double jambe, retrait de la cheville, traînée du bras vers la prise arrière, voyage intérieur (ko-soto-gari), récolte extérieure (o-soto-gari).",
+    "Si vous voyez un partenaire d'entraînement tenter le kani basami, arrêtez verbalement le lancer et expliquez le danger."
+  ],
+  "systemLogic": {
+    "corePrinciple": "Le Kani basami (retrait aux ciseaux) est interdit par toutes les principales instances dirigeantes du grappling, car le mouvement des ciseaux emprisonne le genou sans voie de rotation sûre, et la chute du poids corporel de l'adversaire crée des forces ligamentaires catastrophiques que la chirurgie ne peut pas complètement réparer.",
+    "decisionTree": [
+      {
+        "condition": "Vous voulez une entrée de retrait en forme de ciseaux",
+        "action": "Utilisez plutôt le cure-cheville – il utilise le même concept (enlever une jambe) sans la dangereuse compression du genou."
+      },
+      {
+        "condition": "Vous voulez attaquer les jambes en position debout",
+        "action": "Utilisez un retrait sur une seule jambe avec un balayage ou un levage. C'est plus sûr, cela rapporte des points et ne présente aucun risque de blessure au genou pour votre partenaire d'entraînement."
+      },
+      {
+        "condition": "Un partenaire d'entraînement essaie le kani basami sur vous",
+        "action": "Placez immédiatement votre main libre sur le tapis pour soulager la jambe coincée et tapotez verbalement. Ne résistez pas à la rotation – la relaxation minimise les dommages ligamentaires."
+      },
+      {
+        "condition": "Un partenaire d'entraînement veut pratiquer le kani basami",
+        "action": "Redirigez-les vers des entrées sur une seule jambe – ils obtiendront le même résultat de retrait sans risque de genou. Expliquez que le mécanisme de la blessure est inhérent à la technique et non à son intensité."
+      },
+      {
+        "condition": "Vous sentez votre genou être coupé en ciseaux à l'entraînement",
+        "action": "Détendez-vous et appuyez immédiatement. N'essayez pas de vous en sortir : l'ACL peut se déchirer avec des forces aussi faibles que 500 Newtons. En pratique, un robinet n'est pas une perte."
+      }
+    ],
+    "exitStrategies": [
+      "Si quelqu'un tente le kani basami, postez-le sur le tapis et appuyez avant que les ciseaux ne se ferment.",
+      "Si vous souhaitez des mises au sol de grande amplitude, utilisez le lancer à double jambe ou le lancer de verrouillage du corps – plus sûr et plus performant en compétition.",
+      "Connaître les règles de la compétition : le kani basami est interdit à TOUS les niveaux de ceinture en IBJJF et dans la plupart des tournois majeurs."
+    ]
+  },
+  "moneyDetails": [
+    "Le Kani basami est la technique de grappling la plus interdite pour une raison : le taux de blessures est catastrophique et la récupération est longue.",
+    "Connaître les dangers du kani basami vous empêche de le tenter et vous protège des partenaires d'entraînement qui ne savent peut-être pas qu'il est interdit.",
+    "Le choix le plus sûr est simple : ne faites pas de kani basami. Jamais. Il existe des dizaines de retraits sécurisés qui rapportent les mêmes points"
+  ],
+  "fixItFast": [
+    "Si quelqu'un tente de faire du kani basami sur vous : placez immédiatement votre main libre sur le tapis pour soulager la jambe coincée et tapotez verbalement.",
+    "Si un partenaire d'entraînement essaie d'apprendre le kani basami : redirigez-le vers des entrées sur une seule jambe : il obtiendra le même retrait sans risque de genou.",
+    "Si vous sentez que votre genou est coupé en ciseaux : ne résistez pas à la rotation – détendez-vous et tapotez immédiatement pour minimiser les dommages ligamentaires."
+  ]
+}

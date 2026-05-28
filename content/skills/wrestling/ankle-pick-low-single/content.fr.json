@@ -1,0 +1,71 @@
+{
+  "id": "ankle-pick-low-single",
+  "locale": "fr",
+  "name": "Choix de cheville / simple bas",
+  "description": "Attaquez la jambe de tête avec des combats de mains et des mouvements de tête, terminez en soulevant la cheville et en conduisant latéralement. Le choix de la cheville est le retrait le moins risqué de No-Gi : il ne nécessite aucune étape de pénétration et vous expose à des contre-menaces minimes.",
+  "shortInstruction": "Baissez la tête pour déplacer le poids sur la jambe principale, puis attaquez la cheville principale avec votre main proche. Tirez la cheville sur votre corps tout en enfonçant votre épaule dans la poitrine pour terminer.",
+  "summary": "Le choix de la cheville utilise la manipulation de la tête pour forcer le poids sur la jambe avant de l'adversaire, puis attaque cette cheville pour retirer sa base. La clé est le claquement de tête – sans lui, la cheville n’est pas suffisamment chargée pour être vulnérable. La finition utilise un mouvement de traction latérale (et non de levage) pour conduire l'adversaire vers le tapis. Le choix de cheville est idéal pour BJJ car il protège votre tête des guillotine et ne nécessite pas de tirer sur vos genoux.",
+  "whyItWorks": [
+    "Le claquement de tête oblige l'adversaire à mettre du poids sur sa jambe avant pour maintenir l'équilibre – une cheville chargée est beaucoup plus facile à choisir.",
+    "Le cure-cheville ne nécessite pas d'étape de pénétration : vous restez debout tout au long, en évitant les guillotine et sprawl.",
+    "Tirer la cheville latéralement (et non la soulever) utilise le propre poids de l'adversaire contre lui : il tombe sur le côté, pas vers l'avant.",
+    "Le choix de la cheville passe directement à side control ou mount une fois terminé proprement."
+  ],
+  "commonMistakes": [
+    "Essayer de cueillir la cheville sans casser la tête en premier – la cheville doit être chargée de poids",
+    "Atteindre la cheville de trop loin - vous devez vous mettre à bout de bras avant d'attaquer",
+    "Soulever la cheville au lieu de la tirer latéralement : soulever la cheville est plus difficile et plus susceptible d'échouer",
+    "Gardez la tête au centre - votre tête doit être dégagée vers l'extérieur pour éviter le guillotine"
+  ],
+  "coachingCues": [
+    "Cassez d'abord la tête, puis choisissez",
+    "Approchez-vous, atteignez court",
+    "Tirez latéralement, ne soulevez pas",
+    "Dirigez-vous vers l'extérieur, restez en sécurité"
+  ],
+  "safetySummary": [
+    "Le choix de la cheville est l'un des retraits les plus sûrs pour l'attaquant : votre tête reste droite et à l'écart des guillotine.",
+    "Ne saisissez pas le pied/les orteils de l'adversaire — la prise doit être sur la cheville (zone d'Achille/mollet), pas sur le pied.",
+    "Lorsque vous avez terminé, éloignez l'adversaire de votre corps pour éviter d'atterrir dans son guard."
+  ],
+  "keyCorrections": [
+    "Si l’adversaire ne réagit pas au claquement de tête : claquez plus fort et plus bas – sa tête doit se déplacer vers son genou",
+    "Si vous ne pouvez pas atteindre la cheville : rapprochez-vous avant de l'atteindre - la distance est la raison la plus courante d'échec du crochetage de la cheville.",
+    "Si vous atterrissez dans leur guard : votre direction de traction était incorrecte : tirez sur votre corps, pas vers vous."
+  ],
+  "systemLogic": {
+    "corePrinciple": "Le choix de la cheville suit une séquence en quatre étapes : Head Snap → Step In → Pick Ankle → Drive Lateral",
+    "decisionTree": [
+      {
+        "condition": "Application générale",
+        "action": "Si l'étape 1, Head Snap : à partir du collier ou du overhook, enfoncez la tête de l'adversaire vers le bas et vers son pied de tête. Cela charge du poids sur la jambe de tête. Le claquement doit être vif et non soutenu"
+      },
+      {
+        "condition": "Étape 2, entrez : placez votre pied principal vers l'extérieur de son pied principal. Votre corps doit être à un angle de 45 degrés par rapport au leur. Cela met",
+        "action": "tu es à portée de main pour le choix"
+      },
+      {
+        "condition": "Application générale",
+        "action": "Si l'étape 3, choisissez la cheville : déposez votre main la plus proche sur la cheville principale et saisissez fermement. Gardez la tête vers l'extérieur (loin de la poitrine) pour éviter le guillotine"
+      },
+      {
+        "condition": "Application générale",
+        "action": "Si l'étape 4, conduite latérale : tirez la cheville sur votre corps vers votre hanche la plus éloignée tout en enfonçant votre épaule vers la poitrine. Les forces combinées les font basculer latéralement vers le tapis"
+      },
+      {
+        "condition": "Application générale",
+        "action": "Atterrissage : conduisez-les jusqu'au tapis et installez-vous à side control ou knee-on-belly. S'ils atterrissent sur le dos, passez à side control avant qu'ils puissent récupérer guard."
+      }
+    ]
+  },
+  "moneyDetails": [
+    "Le choix de la cheville est le retrait le plus sûr pour BJJ — aucune étape de pénétration signifie aucun risque guillotine",
+    "Il s'agit d'un retrait à pourcentage élevé contre des adversaires qui se penchent en avant ou postent lourdement sur leur jambe de tête.",
+    "Le médiator à la cheville fonctionne à tous les niveaux de lutte et est particulièrement efficace contre les adversaires de grande taille."
+  ],
+  "fixItFast": [
+    "S'ils sprawl sur votre claquement de tête : passez à une attaque front headlock — le claquement de tête devient une entrée snapdown",
+    "S’il retire son pied : tournez de l’autre côté et attaquez l’autre cheville",
+    "S'ils vous saisissent la tête pour un guillotine : votre tête était trop centrée – gardez-la vers l'extérieur lors de la prochaine tentative."
+  ]
+}

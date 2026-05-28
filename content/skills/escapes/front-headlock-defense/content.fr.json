@@ -1,0 +1,92 @@
+{
+  "id": "front-headlock-defense",
+  "locale": "fr",
+  "name": "front headlock Défense",
+  "description": "Protégez le cou, la posture et l'angle des hanches lorsque vous êtes pris dans une menace snapdown ou guillotine. Le front headlock est la position défensive la plus courante en cas d'échec des retraits, des sprawl et des échanges brouillés.",
+  "shortInstruction": "Menton contre poitrine, contrôlez le poignet qui s'étouffe avec les deux mains, gardez les genoux sous les hanches et tournez vers le côté qui ne s'étouffe pas pour vous échapper.",
+  "summary": "La défense front headlock est une réponse systématique à l’une des positions les plus dangereuses du grappling No-Gi. La priorité est d'abord la protection du cou, puis le contrôle du poignet, puis la récupération de la base et enfin la fuite. Le système récompense le timing et la prise de décision calme en cas de mouvement explosif.",
+  "whyItWorks": [
+    "Rentrer le menton ferme l'accès à l'artère carotide et empêche le guillotine ou le anaconda de s'enfoncer profondément",
+    "Contrôler le poignet qui s'étouffe avec les deux mains permet d'acheter des secondes critiques et d'éviter le verrouillage de la poignée de finition.",
+    "Garder vos genoux sous vos hanches crée une base stable qui empêche l'adversaire de vous pousser vers le tapis ou de vous reprendre le dos.",
+    "Circuler vers le côté qui ne s'étouffe pas attaque la partie la plus faible du front headlock - le bras qui n'a pas la prise",
+    "La position front headlock est intrinsèquement instable : l'adversaire doit choisir entre l'étranglement et le retrait, créant un dilemme que vous pouvez exploiter."
+  ],
+  "commonMistakes": [
+    "Regarder vers le haut ou étendre le cou pendant que l'étrangleur est réglé - cela ouvre les artères carotides et approfondit le guillotine",
+    "Essayer d'éloigner l'adversaire sur le banc - cela étend votre posture et resserre l'étranglement",
+    "Faire le tour du bras qui s'étouffe au lieu de s'en éloigner - cela leur donne votre cou sur un plateau d'argent",
+    "Rester à plat sur le ventre – cela supprime toutes les issues de secours et leur donne un effet de levier complet",
+    "Attendre trop longtemps pour régler la poignée : plus le guillotine est réglé longtemps, plus il s'enfonce profondément"
+  ],
+  "coachingCues": [
+    "Du menton à la poitrine, toujours",
+    "Deux mains sur le poignet, pas sur le bras",
+    "Genoux sous les hanches avant de bouger",
+    "Éloignez-vous de la main qui s'étouffe"
+  ],
+  "oneMinuteMode": {
+    "goal": "Survivez et échappez-vous à la position front headlock en toute sécurité.",
+    "steps": [
+      "Gelez et rentrez immédiatement votre menton contre votre poitrine.",
+      "Les deux mains saisissent le poignet qui s’étouffe – ne les laissez pas verrouiller la finition.",
+      "Amenez vos genoux sous vos hanches pour établir une base de trépied.",
+      "Faites tourner votre tête du côté opposé à son bras qui s'étouffe.",
+      "Décollez le bras d'étouffement sur votre corps et revenez en position neutre ou supérieure."
+    ]
+  },
+  "safetySummary": [
+    "Le guillotine peut provoquer une perte de conscience en quelques secondes : si l'étranglement est profond, appuyez et réinitialisez plutôt que de risquer des lésions cérébrales.",
+    "Certaines variantes de front headlock attaquent la trachée au lieu de la carotide ; cela est plus dangereux et nécessite une tape immédiate.",
+    "N'essayez pas de « endurcir » un guillotine : les dommages au cou et à la gorge peuvent persister pendant des semaines.",
+    "Les manivelles déguisées en étrangleurs nécessitent un tapotement immédiat pour protéger la colonne cervicale",
+    "Entraînez la défense front headlock avec une résistance progressive, et non avec une intensité réelle"
+  ],
+  "keyCorrections": [
+    "Si vous sentez l'étranglement se resserrer malgré le repli du menton : votre menton n'est pas assez bas – appuyez-le activement contre votre poitrine.",
+    "S'ils passent à un d'arce ou anaconda : placez-vous sur leur tête avec votre bras libre et enfoncez votre épaule dans leur poitrine avant de pouvoir verrouiller le chiffre quatre.",
+    "S'ils descendent à guard avec le guillotine : gardez votre posture haute, placez une main sur leur hanche et enfoncez votre épaule coincée dans leur cuisse."
+  ],
+  "systemLogic": {
+    "corePrinciple": "La défense front headlock suit une hiérarchie stricte : (1) protéger le cou → (2) contrôler la prise → (3) établir la base → (4) choisir la branche d'évasion",
+    "decisionTree": [
+      {
+        "condition": "Application générale",
+        "action": "Chaque couche renforce la précédente : la protection du cou empêche la finition, le contrôle de la préhension fait gagner du temps, la base établit la mobilité et la sélection de l'évasion détermine le résultat."
+      },
+      {
+        "condition": "En Phase 1 (Gel immédiat)",
+        "action": "au moment où vous ressentez le front headlock, n’explosez pas. Gelez-vous, rentrez votre menton et respirez. Un mouvement explosif approfondit l’étranglement."
+      },
+      {
+        "condition": "En phase 2 (contrôle du poignet)",
+        "action": "les deux mains vont à leur poignet étouffant. Si vous pouvez contrôler le poignet, ils ne peuvent pas terminer l'étranglement, quelle que soit la profondeur du bras."
+      },
+      {
+        "condition": "En phase 3 (récupération de base)",
+        "action": "plantez votre pied éloigné et ramenez vos genoux sous vos hanches. Ne faites pas de cercle avant d’avoir une base stable."
+      },
+      {
+        "condition": "En phase 4 (sélection d'évasion)",
+        "action": "cercle vers le côté non étouffant. S’ils suivent, changez de direction. S’ils postent une main pour bloquer, lancez-vous dans une seule jambe de ce côté."
+      },
+      {
+        "condition": "Application générale",
+        "action": "Si l'évasion réussit, revenez à une position debout neutre ou à une position supérieure avec le contrôle underhook."
+      }
+    ]
+  },
+  "moneyDetails": [
+    "Le front headlock est le contre le plus courant aux takedowns et aux guard pulls — une défense fiable est essentielle pour chaque grappler",
+    "Une évasion réussie de front headlock mène souvent directement à une opportunité de retrait (une seule jambe ou un verrouillage corporel)",
+    "Maîtriser cette défense élimine la peur des tirs au sol – la compétence offensive la plus importante du grappling.",
+    "La séquence de défense front headlock est le même système utilisé par les champions ADCC — elle est testée au plus haut niveau"
+  ],
+  "nextStep": "Après avoir échappé au front headlock, cherchez à établir votre propre front headlock, faites un cercle vers l'arrière ou entrez une séquence de passes.",
+  "fixItFast": [
+    "Si l'étranglement est profond et que votre mentonnière ne vous aide pas : appuyez immédiatement et réinitialisez - la défense doit avoir lieu plus tôt",
+    "S'ils vous sprawl à plat : ne restez pas sur le ventre : tournez-vous sur le côté, encadrez-vous sur leur hanche et créez de l'espace.",
+    "S'ils passent à un front headlock guillotine après un retrait : gardez votre menton rentré pendant que vous atterrissez, ne laissez pas votre tête ressortir.",
+    "S'ils ont un poignet haut guillotine (mentonnière profonde) : n'essayez pas de le décoller - placez votre main sur sa hanche et entourez votre tête vers l'extérieur."
+  ]
+}

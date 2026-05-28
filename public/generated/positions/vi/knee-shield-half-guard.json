@@ -1,0 +1,56 @@
+{
+  "id": "knee-shield-half-guard",
+  "locale": "vi",
+  "title": "Knee Shield Half Guard",
+  "category": "bottom_guard",
+  "status": "neutral",
+  "description": "Knee shield tạo một wedge giữa ngực hoặc hông của người ở trên và thân của người ở dưới.",
+  "topPlayerGoals": [
+    "Người ở trên muốn kiểm soát Knee Shield Half Guard bằng vị trí đầu, vị trí trong và áp lực có hướng.",
+    "Smash shield hoặc pummel vào knee cut hay headquarters.",
+    "Giữ nền vững để không bị mất thăng bằng hoặc bị phản đòn."
+  ],
+  "bottomPlayerGoals": [
+    "Người ở dưới muốn sống sót trong Knee Shield Half Guard bằng khung chặn, pummel hoặc góc phù hợp.",
+    "Giữ shield còn hoạt động, thắng underhook và vào wrestle-up.",
+    "Nhận diện tín hiệu nguy hiểm sớm thay vì chờ vị trí ổn định."
+  ],
+  "controlPoints": [
+    "Điểm kiểm soát chính: Góc ống chân, kết nối khuỷu-gối và vị trí đầu..",
+    "Đầu, tay, hông và gối nên cùng hướng lực.",
+    "Kết nối khuỷu-gối hoặc đường hông-vai quyết định vị trí còn sống hay đã bị khóa."
+  ],
+  "escapePriorities": [
+    "Ưu tiên thoát: Nếu shield bị smash, chuyển ngay sang survival frame..",
+    "Bảo vệ cổ, lưng, đường gối hoặc đường tay trước khi phản công.",
+    "Nếu mất vị trí trong, hãy lùi lại một lớp phòng thủ trước."
+  ],
+  "advancementOptions": [
+    {
+      "action": "Pummel underhook để lên dogfight",
+      "nextPositionId": "dogfight",
+      "relatedSkillIds": [
+        "half-guard-knee-shield",
+        "half-guard-wrestle-up",
+        "knee-cut-passing"
+      ],
+      "why": "Đây là nhánh tự nhiên khi bạn thắng điểm kiểm soát chính và đối thủ buộc phải phòng thủ."
+    }
+  ],
+  "dangerSignals": [
+    "Cằm hoặc cổ bị kéo ra khỏi đường an toàn.",
+    "Khuỷu tay tách khỏi sườn hoặc đầu gối.",
+    "Đường hông bị khóa trong khi đường vai vẫn đang bị kéo.",
+    "Bạn phải chống tay dài để không ngã."
+  ],
+  "relatedSkillIds": [
+    "half-guard-knee-shield",
+    "half-guard-wrestle-up",
+    "knee-cut-passing"
+  ],
+  "relatedConceptIds": [
+    "wedges",
+    "inside-position",
+    "wrestle-up-philosophy"
+  ]
+}

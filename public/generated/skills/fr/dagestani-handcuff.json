@@ -1,0 +1,145 @@
+{
+  "id": "dagestani-handcuff",
+  "domain": "pins_rides",
+  "level": "advanced",
+  "status": "draft",
+  "name": "Menottes du Daghestan",
+  "aliases": [
+    "handcuff ride",
+    "handcuff back take",
+    "Khabib handcuff"
+  ],
+  "tags": [
+    "ride",
+    "wrist-control",
+    "handcuff",
+    "tier:modern-expansion",
+    "meta:modern-common",
+    "risk:medium",
+    "family:ride",
+    "group:handcuff",
+    "modern-no-gi",
+    "wrestling"
+  ],
+  "keywords": [
+    "wrist ride",
+    "handcuff grip",
+    "far wrist",
+    "back take ride"
+  ],
+  "modernSystemGroup": "dagestani_handcuff",
+  "relatedSkills": [
+    {
+      "id": "cross-wrist-ride",
+      "type": "recommended"
+    },
+    {
+      "id": "spiral-ride",
+      "type": "recommended"
+    },
+    {
+      "id": "back-control",
+      "type": "recommended"
+    },
+    {
+      "id": "wrist-ride-back-exposure",
+      "type": "recommended"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [
+    "pressure-passer",
+    "top-game-specialist"
+  ],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "turtle-ride",
+    "positional-hierarchy"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [
+    "Si vous n'avez qu'un seul poignet : contrôlez ce poignet et utilisez plutôt votre autre main pour sécuriser le tour de poignet croisé ou le tour de griffe.",
+    "S'ils roulent : relâchez les menottes et prenez le dos pendant qu'ils roulent.",
+    "S'ils séparent leurs mains : vous avez perdu la position du coude pincé - pincez à nouveau et avancez plus fort"
+  ],
+  "version": 1,
+  "updatedAt": "2026-06-12T00:00:00.000Z",
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "fr",
+  "description": "Contrôlez les deux poignets depuis le dos ou la tortue en tirant le poignet le plus proche vers votre hanche tout en emprisonnant le poignet le plus éloigné, créant ainsi une position semblable à une menotte qui expose le dos pour une prise arrière nette.",
+  "shortInstruction": "Depuis la tortue ou back control, fixez le poignet le plus proche et tirez-le vers votre hanche. Passez la main en dessous et saisissez le poignet le plus éloigné. Serrez les coudes ensemble et avancez pour réduire leur posture et exposer le dos.",
+  "summary": "Les menottes du Daghestan emprisonnent les deux poignets pour immobiliser l'adversaire et forcer l'exposition, popularisées par Khabib Nurmagomedov et le style de lutte du Daghestan. En contrôlant les deux poignets ensemble, vous empêchez l'adversaire de poster, de baser ou de cadrer - la seule évasion est le roulement, que vous pouvez contrer en suivant le roulement et en prenant le dos.",
+  "whyItWorks": [
+    "Piéger les deux poignets supprime la capacité de l'adversaire à poster ou à baser - sans mains, il ne peut pas se relever",
+    "Avancer avec les coudes pincés effondre leur posture et force leur poids sur leur tête",
+    "La position des menottes est extrêmement difficile à échapper car les deux mains sont immobilisées dans la même prise",
+    "Le système passe directement à back control lorsque l'adversaire s'effondre"
+  ],
+  "commonMistakes": [
+    "Saisir trop haut sur l'avant-bras au lieu de l'articulation du poignet - une prise de l'avant-bras peut être glissée",
+    "Laisser les coudes s'écarter – les coudes pincés sont la clé pour contrôler les deux poignets",
+    "Ne pas avancer – les menottes seules ne s’aplatissent pas ; une pression vers l’avant est nécessaire pour effondrer la posture",
+    "Relâcher trop tôt – maintenir les menottes jusqu'à ce que le dos soit complètement sécurisé"
+  ],
+  "coachingCues": [
+    "Les deux poignets, pincez les coudes",
+    "Avancez, réduisez la posture",
+    "Menottes à prendre dans le dos",
+    "Tenez jusqu'à ce que le dos soit sécurisé"
+  ],
+  "safetySummary": [
+    "Le contrôle du poignet doit être appliqué à l'articulation du poignet et non à la main : saisir la main peut provoquer des blessures aux doigts.",
+    "N'appliquez pas de pression soudaine vers le bas – cela pourrait forcer les poignets ou les épaules de l'adversaire.",
+    "Si l'adversaire roule de manière agressive, relâchez les menottes et suivez le roulement plutôt que de vous battre."
+  ],
+  "systemLogic": {
+    "corePrinciple": "Les menottes du Daghestan suivent une séquence en quatre étapes : Sécuriser le poignet près : Pièger le poignet éloigné → Pincer les coudes → Avancer",
+    "decisionTree": [
+      {
+        "condition": "À l'étape 1 (sécurisation près du poignet)",
+        "action": "depuis derrière la tortue ou back control, saisissez le poignet le plus proche de l'adversaire et tirez-le vers votre hanche"
+      },
+      {
+        "condition": "À l'étape 2 (Piège au poignet éloigné)",
+        "action": "Passez votre autre main sous sa poitrine/aisselle et saisissez le poignet le plus éloigné. Les deux poignets doivent être tenus en position superposée entre vos mains"
+      },
+      {
+        "condition": "À l'étape 3 (pincer les coudes)",
+        "action": "serrez vos coudes contre leur dos. Cela verrouille les deux poignets en place et les empêche de se séparer"
+      },
+      {
+        "condition": "À l'étape 4 (avancer)",
+        "action": "avancez vos genoux et exercez une pression thoracique dans leur dos. La pression vers l'avant effondre leur posture et les force soit à plat (exposant le dos), soit à rouler (ce que vous contrez en back control)."
+      },
+      {
+        "condition": "ils résistent en prenant des postures",
+        "action": "lever légèrement les poignets (comme pour les menotter) pour briser leur posture"
+      }
+    ],
+    "exitStrategies": []
+  },
+  "moneyDetails": [
+    "Les menottes du Daghestan sont l'un des systèmes pour briser les tortues les plus efficaces en lutte et BJJ",
+    "C'est le système signature de Khabib Nurmagomedov et de l'école de lutte du Daghestan — testé au plus haut niveau",
+    "Maîtriser les menottes vous donne un chemin fiable de la tortue à back control qui ne nécessite pas de force"
+  ],
+  "fixItFast": [
+    "Si vous n’avez qu’un seul poignet : passez plutôt au tour de poignet croisé ou au tour de griffes",
+    "S'ils se déroulent : relâchez et reprenez-les — ne vous battez pas pour maintenir les menottes",
+    "S’ils séparent les mains : pincez à nouveau les coudes et roulez plus fort"
+  ]
+}

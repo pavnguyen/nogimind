@@ -1,0 +1,71 @@
+{
+  "id": "inside-position",
+  "locale": "en",
+  "title": "Inside Position",
+  "category": "positional",
+  "level": "fundamental",
+  "tags": [
+    "inside position",
+    "pummel",
+    "centerline",
+    "elbow position",
+    "knee pummel",
+    "hand fighting"
+  ],
+  "shortDefinition": "Inside position means your hand, head, knee, or hip occupies the space between your structure and the opponent’s center — whoever wins this lane controls the direction of movement.",
+  "whyItMatters": "Winning the inside lane lets you dictate frames, pummeling, underhooks, guard retention, back control, and hand fighting.",
+  "deepExplanation": "Inside position is not a fixed spot — it is a constant race across 4 levels:\n\n1. Hands (hand fighting, grip battle)\n2. Elbow/forearm (frame, elbow control)\n3. Knee/shin (knee shield, shin frame)\n4. Hip/back (hip line, bodylock, back control)\n\nEach higher level beats the one below: elbow beats hand, knee beats elbow, hip dominates knee. This race appears in every phase: guard retention (knee pummel vs knee cut), passing (underhook vs whizzer), front headlock (chin vs elbow), leg locks (knee line pummel). Lose inside position = lose directional control = forced defense.",
+  "beginnerView": "Elbow-bone-knee rule: do not let the opponent place their elbow inside your elbow. In guard, keep your knee between you and them before reaching with hands. When inside is lost, do not add force — retract and pummel from a safe distance.",
+  "advancedView": "Attack multiple lanes at once: pull the head down with your hand while sliding the knee inside for guard retention and preparing hips for wrestle-up. When they defend the hand, your knee already won. When they clear the knee, your hand switches to underhook. Inside position is not about winning one point — it is about creating multiple races they cannot win all at once.",
+  "ifThenExamples": [
+    {
+      "if": "If you lose Inside Position during the exchange.",
+      "then": "Stop accelerating, recover the nearest body structure, then continue the technique.",
+      "why": "Modern no-gi punishes forceful continuation after structure is lost.",
+      "relatedSkillIds": [
+        "frames-pummeling",
+        "seated-guard-retention"
+      ]
+    },
+    {
+      "if": "If the opponent correctly answers your first line.",
+      "then": "Use Inside Position to switch to a safer branch instead of forcing the same line.",
+      "why": "A good concept turns the opponent’s reaction into information for the next decision.",
+      "relatedSkillIds": [
+        "seated-guard-retention",
+        "bodylock-passing",
+        "front-headlock-defense"
+      ]
+    }
+  ],
+  "commonMisunderstandings": [
+    {
+      "misunderstanding": "Inside Position is a single technical trick.",
+      "correction": "Treat it as a decision rule that appears across many positions."
+    },
+    {
+      "misunderstanding": "Understanding the concept automatically makes it work live.",
+      "correction": "The concept needs body signals, short cues, and positional rolling."
+    }
+  ],
+  "trainingCues": [
+    "Name Inside Position before adding force.",
+    "Find the body signal instead of guessing generally.",
+    "If structure is lost, reset one layer first.",
+    "Drill slowly, then test with progressive resistance."
+  ],
+  "relatedSkillIds": [
+    "frames-pummeling",
+    "seated-guard-retention",
+    "bodylock-passing",
+    "front-headlock-defense",
+    "hand-fighting"
+  ],
+  "relatedConceptIds": [
+    "pummeling",
+    "elbow-knee-connection",
+    "head-position",
+    "angle-creation",
+    "pressure-direction"
+  ]
+}

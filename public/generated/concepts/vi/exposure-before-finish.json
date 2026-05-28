@@ -1,0 +1,67 @@
+{
+  "id": "exposure-before-finish",
+  "locale": "vi",
+  "title": "Exposure trước Finish",
+  "category": "offensive",
+  "level": "intermediate",
+  "tags": [
+    "exposure",
+    "finish line",
+    "submission",
+    "timing"
+  ],
+  "shortDefinition": "Exposure là mở finish line trước khi đặt lực finish — nếu không thấy đường clear thì chưa đến lúc squeeze.",
+  "whyItMatters": "Nhiều người squeeze sớm làm mất vị trí hoặc lộ back; exposure trước finish giữ bạn đúng hierarchy.",
+  "deepExplanation": "Exposure xuất hiện ở mọi submission: RNC cần mở đường dưới cằm, arm triangle cần shoulder line trap, leg lock cần heel exposure. Finish chỉ nên đến sau khi đã xác nhận finish line mở.",
+  "beginnerView": "Hỏi: có thấy đường finish rõ chưa, hay chỉ đang hy vọng?",
+  "advancedView": "Thiết kế toàn bộ chain để mỗi phản ứng của đối thủ mở một đường exposure khác.",
+  "ifThenExamples": [
+    {
+      "if": "Nếu bạn mất Exposure trước Finish trong trao đổi.",
+      "then": "Dừng tăng tốc, lấy lại cấu trúc cơ thể gần nhất rồi mới tiếp tục kỹ thuật.",
+      "why": "No-gi hiện đại phạt rất nhanh khi bạn cố thắng bằng sức sau khi mất cấu trúc.",
+      "relatedSkillIds": [
+        "rear-naked-choke-system",
+        "arm-triangle-mount"
+      ]
+    },
+    {
+      "if": "Nếu đối thủ phản ứng đúng với hướng đầu tiên.",
+      "then": "Dùng Exposure trước Finish để đổi sang nhánh an toàn hơn thay vì ép cùng một hướng.",
+      "why": "Concept tốt biến phản ứng của đối thủ thành thông tin cho quyết định tiếp theo.",
+      "relatedSkillIds": [
+        "arm-triangle-mount",
+        "guillotine-system",
+        "heel-hook-safety"
+      ]
+    }
+  ],
+  "commonMisunderstandings": [
+    {
+      "misunderstanding": "Exposure trước Finish là một mẹo kỹ thuật riêng lẻ.",
+      "correction": "Hãy xem nó như quy tắc quyết định xuất hiện trong nhiều vị trí khác nhau."
+    },
+    {
+      "misunderstanding": "Bạn chỉ cần hiểu khái niệm là tự động dùng được trong live roll.",
+      "correction": "Khái niệm phải được gắn với body signal, cue ngắn và positional rolling."
+    }
+  ],
+  "trainingCues": [
+    "Gọi tên Exposure trước Finish trước khi tăng lực.",
+    "Tìm body signal, không đoán bằng cảm giác chung.",
+    "Nếu mất cấu trúc, reset một layer trước.",
+    "Drill chậm, test bằng resistance tăng dần."
+  ],
+  "relatedSkillIds": [
+    "rear-naked-choke-system",
+    "arm-triangle-mount",
+    "guillotine-system",
+    "heel-hook-safety",
+    "kimura-system"
+  ],
+  "relatedConceptIds": [
+    "control-before-submission",
+    "dilemma-attacks",
+    "failure-response"
+  ]
+}

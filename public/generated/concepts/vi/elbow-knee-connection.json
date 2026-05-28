@@ -1,0 +1,65 @@
+{
+  "id": "elbow-knee-connection",
+  "locale": "vi",
+  "title": "Kết nối khuỷu-gối",
+  "category": "defensive",
+  "level": "fundamental",
+  "tags": [
+    "elbow knee",
+    "escape",
+    "guard retention"
+  ],
+  "shortDefinition": "Kết nối khuỷu-gối đóng khoảng trống giữa upper body và hip line để ngăn pin/pass.",
+  "whyItMatters": "Khi elbow tách khỏi knee, đối thủ chèn chest, knee, hook hoặc arm isolation.",
+  "deepExplanation": "Đây là nguyên tắc sống còn trong side control, mount, guard retention và back escape. Nó tạo lại layer phòng thủ trước khi bạn shrimp, bridge hoặc wrestle-up.",
+  "beginnerView": "Đưa khuỷu vào trong rồi mới kéo gối về.",
+  "advancedView": "Dùng elbow-knee để bait pressure rồi chuyển underhook, turtle hoặc guard recover.",
+  "ifThenExamples": [
+    {
+      "if": "Nếu bạn mất Kết nối khuỷu-gối trong trao đổi.",
+      "then": "Dừng tăng tốc, lấy lại cấu trúc cơ thể gần nhất rồi mới tiếp tục kỹ thuật.",
+      "why": "No-gi hiện đại phạt rất nhanh khi bạn cố thắng bằng sức sau khi mất cấu trúc.",
+      "relatedSkillIds": [
+        "side-control-escape",
+        "mount-escape"
+      ]
+    },
+    {
+      "if": "Nếu đối thủ phản ứng đúng với hướng đầu tiên.",
+      "then": "Dùng Kết nối khuỷu-gối để đổi sang nhánh an toàn hơn thay vì ép cùng một hướng.",
+      "why": "Concept tốt biến phản ứng của đối thủ thành thông tin cho quyết định tiếp theo.",
+      "relatedSkillIds": [
+        "mount-escape",
+        "seated-guard-retention",
+        "back-escape"
+      ]
+    }
+  ],
+  "commonMisunderstandings": [
+    {
+      "misunderstanding": "Kết nối khuỷu-gối là một mẹo kỹ thuật riêng lẻ.",
+      "correction": "Hãy xem nó như quy tắc quyết định xuất hiện trong nhiều vị trí khác nhau."
+    },
+    {
+      "misunderstanding": "Bạn chỉ cần hiểu khái niệm là tự động dùng được trong live roll.",
+      "correction": "Khái niệm phải được gắn với body signal, cue ngắn và positional rolling."
+    }
+  ],
+  "trainingCues": [
+    "Gọi tên Kết nối khuỷu-gối trước khi tăng lực.",
+    "Tìm body signal, không đoán bằng cảm giác chung.",
+    "Nếu mất cấu trúc, reset một layer trước.",
+    "Drill chậm, test bằng resistance tăng dần."
+  ],
+  "relatedSkillIds": [
+    "side-control-escape",
+    "mount-escape",
+    "seated-guard-retention",
+    "back-escape"
+  ],
+  "relatedConceptIds": [
+    "frames",
+    "guard-retention-layers",
+    "early-vs-late-defense"
+  ]
+}

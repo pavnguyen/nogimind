@@ -1,0 +1,61 @@
+{
+  "id": "kimura-system",
+  "locale": "vi",
+  "name": "kimura Hệ thống",
+  "description": "Sử dụng tay cầm kimura làm trung tâm điều khiển cho các pha quét, chuyền, lùi hoặc dứt điểm — kimura là một vị trí chứ không chỉ là một lần gửi.",
+  "shortInstruction": "Nắm chặt cổ tay, hình bốn cánh tay, xoay vai - kimura là kiểm soát trước, phục tùng sau.",
+  "summary": "kimura là bài gửi linh hoạt nhất trong No-Gi BJJ. Cách cầm kimura (một tay giữ cổ tay cùng bên, tay kia luồn qua để nắm lấy cổ tay của chính bạn) thường được sử dụng làm tư thế kiểm soát hơn là phục tùng. Từ tay cầm kimura, bạn có thể: quét, vượt qua guard, lùi hoặc hoàn thành khóa vai. Hệ thống này dựa trên việc cô lập một trong các cánh tay của họ và sử dụng nó làm tay cầm để điều khiển toàn bộ cơ thể của họ.",
+  "whyItWorks": [
+    "Tay cầm kimura tạo ra một chiếc khóa hình số bốn trên cánh tay của họ mà họ không thể dễ dàng phá vỡ — một khi đã khóa, bạn sẽ điều khiển vai của họ.",
+    "Sử dụng cánh tay của họ làm 'tay cầm' cho phép bạn kiểm soát toàn bộ cơ thể của họ - khi bạn di chuyển cánh tay của họ, cơ thể của họ cũng sẽ di chuyển theo.",
+    "Hệ thống kimura hoạt động ở hầu hết mọi vị trí: guard, side control, half guard, mount và các chuyển tiếp.",
+    "Nguyên tắc Danaher: kimura là vị trí gửi linh hoạt nhất trong BJJ vì đây cũng là vị trí kiểm soát tốt nhất."
+  ],
+  "commonMistakes": [
+    "Theo đuổi việc phục tùng trước khi thiết lập quyền kiểm soát - kimura là vị trí kiểm soát trước tiên.",
+    "Để đối phương duỗi thẳng cánh tay — một cánh tay thẳng thoát khỏi đòn khóa kimura.",
+    "Chỉ sử dụng sức mạnh của cánh tay thay vì xoay cơ thể — kết thúc kimura đến từ việc xoay hông của bạn.",
+    "Mất khả năng bám cổ tay - khả năng bám cổ tay là điểm neo của toàn bộ hệ thống."
+  ],
+  "coachingCues": [
+    "kimura là quyền kiểm soát — việc gửi chỉ là một tùy chọn.",
+    "Kiểm soát cổ tay, khóa hình bốn, làm chủ cơ thể của họ.",
+    "Nếu bạn có thế cầm kimura, bạn có vị trí — bây giờ hãy chọn đòn tấn công của bạn.",
+    "Xoay vai chứ không phải cánh tay - xoay vai là kết thúc."
+  ],
+  "safetySummary": [
+    "kimura tác dụng áp lực xoay lên vai và khuỷu tay — tác dụng dần dần.",
+    "Không vặn khóa vai - vết thương ở vai có thể mất nhiều tháng để hồi phục.",
+    "Nhả ngay khi nhấn — kimura có thể gây tổn thương vai nghiêm trọng chỉ với một lực tối thiểu."
+  ],
+  "keyCorrections": [
+    "Nếu họ duỗi thẳng cánh tay, bạn sẽ mất góc - hãy kéo khuỷu tay của họ về phía bạn để uốn cong lại cánh tay.",
+    "Nếu bạn không thể hoàn thành, động tác xoay của bạn chưa đủ - hãy đưa khuỷu tay của họ về phía hông bạn trong khi xoay.",
+    "Nếu họ nắm lấy chân của mình để phòng thủ, hãy chuyển sang armbar hoặc lùi lại."
+  ],
+  "systemLogic": {
+    "corePrinciple": "Nắm chặt kimura (điều khiển cổ tay + hình số bốn): sử dụng cánh tay của họ làm tay cầm → chọn đòn tấn công của bạn dựa trên phản ứng của họ.",
+    "decisionTree": [
+      {
+        "condition": "Sử dụng tùy chọn 1",
+        "action": "Họ chống lại → kimura phục tùng. Cách 2: Họ đăng → quét lên đầu."
+      },
+      {
+        "condition": "Sử dụng tùy chọn 3",
+        "action": "Họ quay đi → lùi lại. Phương án 4: Họ giả chết → vượt qua guard."
+      }
+    ]
+  },
+  "moneyDetails": [
+    "Tay nắm cổ tay của bạn phải chắc chắn - bốn ngón tay trên cổ tay, ngón cái ở phía lòng bàn tay để kiểm soát.",
+    "Ổ khóa hình số bốn phải ở trên cổ tay của bạn chứ không phải của họ - điều này mang lại cho bạn đòn bẩy tối đa.",
+    "Giữ khuỷu tay của họ cong suốt — một cánh tay thẳng có thể kéo ra khỏi kimura.",
+    "Kết thúc là một động tác xoay: đưa khuỷu tay của họ về phía rốn của bạn trong khi xoay vai của bạn ra xa họ."
+  ],
+  "nextStep": "Sau hệ thống kimura, hãy tìm hiểu hệ thống armbar và baratoplata để kết nối với kimura.",
+  "fixItFast": [
+    "Cánh tay tiếp tục duỗi thẳng? Kéo khuỷu tay của họ về phía bạn để uốn cong lại.",
+    "Không thể hoàn thành? Xoay vai nhiều hơn - kết thúc là xoay vai chứ không phải kéo tay.",
+    "Họ phòng thủ bằng cách nắm lấy thắt lưng của họ? Chuyển sang armbar hoặc omoplata."
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "id": "ankle-pick-low-single",
+  "domain": "wrestle_up_wrestling",
+  "level": "intermediate",
+  "status": "draft",
+  "name": "Ankle Pick / Low Single",
+  "aliases": [],
+  "tags": [
+    "ankle-pick",
+    "low-single",
+    "takedown",
+    "wrestling",
+    "shot"
+  ],
+  "keywords": [
+    "ankle pick",
+    "low single",
+    "head movement",
+    "hand fighting",
+    "lead leg",
+    "takedown"
+  ],
+  "relatedSkills": [
+    {
+      "id": "single-leg-bjj",
+      "type": "recommended"
+    },
+    {
+      "id": "arm-drag-system",
+      "type": "recommended"
+    },
+    {
+      "id": "body-lock-takedown",
+      "type": "recommended"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "hand-fighting",
+    "technical-stand-up"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [
+    "If the opponent does not react to the head snap: snap harder and lower — their head must move toward their knee",
+    "If you cannot reach the ankle: step closer before reaching — distance is the most common reason for ankle pick failure",
+    "If you land in their guard: your pull direction was wrong — pull across your body, not toward you"
+  ],
+  "version": 1,
+  "updatedAt": "2026-05-21T00:24:30.770Z",
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "en",
+  "description": "Attack the lead leg with hand fighting and head movement, finish by lifting the ankle and driving laterally. The ankle pick is the lowest-risk takedown in no-gi — it requires no penetration step and exposes you to minimal counter threats.",
+  "shortInstruction": "Snap the head down to shift weight onto the lead leg, then attack the lead ankle with your near hand. Pull the ankle across your body while driving your shoulder into their chest to finish.",
+  "summary": "The ankle pick uses head manipulation to force weight onto the opponent's lead leg, then attacks that ankle to remove their base. The key is the head snap — without it, the ankle is not loaded with enough weight to be vulnerable. The finish uses a lateral pulling motion (not lifting) to drive the opponent to the mat. The ankle pick is ideal for BJJ because it keeps your head safe from guillotines and does not require shooting to your knees.",
+  "whyItWorks": [
+    "The head snap forces the opponent to post weight on their lead leg to maintain balance — a loaded ankle is much easier to pick",
+    "The ankle pick does not require a penetration step — you stay upright throughout, avoiding guillotines and sprawls",
+    "Pulling the ankle laterally (not lifting) uses the opponent's own weight against them — they fall sideways, not forward",
+    "The ankle pick transitions directly to side control or mount when finished cleanly"
+  ],
+  "commonMistakes": [
+    "Trying to pick the ankle without snapping the head first — the ankle must be loaded with weight",
+    "Reaching for the ankle from too far away — you must step to within arm's length before attacking",
+    "Lifting the ankle instead of pulling it laterally — lifting is harder and more likely to fail",
+    "Keeping your head in the center — your head must clear to the outside to avoid the guillotine"
+  ],
+  "coachingCues": [
+    "Snap the head first, then pick",
+    "Step close, reach short",
+    "Pull laterally, don't lift",
+    "Head to the outside, stay safe"
+  ],
+  "safetySummary": [
+    "The ankle pick is one of the safest takedowns for the attacker — your head stays upright and clear of guillotines",
+    "Do not grab the opponent's foot/toes — the grip should be on the ankle (Achilles/calf area), not the foot",
+    "When finishing, drive the opponent away from your body to avoid landing in their guard"
+  ],
+  "systemLogic": {
+    "corePrinciple": "The ankle pick follows a four-step sequence: Head Snap → Step In → Pick Ankle → Drive Lateral",
+    "decisionTree": [
+      {
+        "condition": "General application",
+        "action": "If Step 1, Head Snap: from collar tie or overhook, snap the opponent's head down and toward their lead foot. This loads weight onto the lead leg. The snap should be sharp, not sustained"
+      },
+      {
+        "condition": "Step 2, Step In: step your lead foot to the outside of their lead foot. Your body should be at a 45-degree angle to theirs. This puts",
+        "action": "you in range for the pick"
+      },
+      {
+        "condition": "General application",
+        "action": "If Step 3, Pick Ankle: drop your near hand to their lead ankle and grip firmly. Keep your head to the outside (away from their chest) to avoid the guillotine"
+      },
+      {
+        "condition": "General application",
+        "action": "If Step 4, Drive Lateral: pull the ankle across your body toward your far hip while driving your shoulder into their chest. The combined forces tip them sideways to the mat"
+      },
+      {
+        "condition": "General application",
+        "action": "Landing: drive them to the mat and settle in side control or knee-on-belly. If they land on their back, pass to side control before they can recover guard"
+      }
+    ],
+    "exitStrategies": []
+  },
+  "moneyDetails": [
+    "The ankle pick is the safest takedown for BJJ — no penetration step means no guillotine risk",
+    "It is a high-percentage takedown against opponents who lean forward or post heavily on their lead leg",
+    "The ankle pick works at every level of grappling and is particularly effective against taller opponents"
+  ],
+  "fixItFast": [
+    "If they sprawl on your head snap: switch to a front headlock attack — the head snap becomes a snapdown entry",
+    "If they pull their foot away: circle to the other side and attack the other ankle",
+    "If they grab your head for a guillotine: your head was too centered — keep it to the outside on the next attempt"
+  ]
+}

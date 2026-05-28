@@ -1,0 +1,65 @@
+{
+  "id": "connection-before-control",
+  "locale": "fr",
+  "title": "Connexion avant contrôle",
+  "category": "mechanical",
+  "level": "fundamental",
+  "tags": [
+    "connection",
+    "pressure",
+    "control"
+  ],
+  "shortDefinition": "Il faut connecter les bons points du corps avant de tenir ou diriger.",
+  "whyItMatters": "Sans connexion, la pression est juste force; l’adversaire tourne, frame ou sort angle.",
+  "deepExplanation": "La connexion est chest-to-back, chest-to-hip, coude-genou, tête-côtes ou grip-hanche. Elle transmet force par structure et poids, pas biceps.",
+  "beginnerView": "Toucher le bon point avant serrer ou tirer.",
+  "advancedView": "Changer connexion selon phase: pass, pin, soumission et rétention ont des ancres différentes.",
+  "ifThenExamples": [
+    {
+      "if": "Si vous perdez Connexion avant contrôle pendant l’échange.",
+      "then": "Arrêtez d’accélérer, récupérez la structure corporelle proche, puis continuez.",
+      "why": "Le no-gi moderne punit vite la force après perte de structure.",
+      "relatedSkillIds": [
+        "bodylock-passing",
+        "back-control"
+      ]
+    },
+    {
+      "if": "Si l’adversaire répond correctement à votre première ligne.",
+      "then": "Utilisez Connexion avant contrôle pour passer à une branche plus sûre au lieu de forcer.",
+      "why": "Un bon concept transforme la réaction adverse en information pour la décision suivante.",
+      "relatedSkillIds": [
+        "back-control",
+        "side-control-pin",
+        "arm-triangle-mount"
+      ]
+    }
+  ],
+  "commonMisunderstandings": [
+    {
+      "misunderstanding": "Connexion avant contrôle est une astuce technique isolée.",
+      "correction": "Voyez-le comme une règle de décision présente dans plusieurs positions."
+    },
+    {
+      "misunderstanding": "Comprendre le concept suffit pour l’utiliser en live.",
+      "correction": "Le concept doit être lié à signaux corporels, cues courts et rolling positionnel."
+    }
+  ],
+  "trainingCues": [
+    "Nommez Connexion avant contrôle avant d’ajouter force.",
+    "Cherchez le signal corporel, pas une impression vague.",
+    "Si la structure est perdue, reset une couche d’abord.",
+    "Driller lentement, puis tester avec résistance progressive."
+  ],
+  "relatedSkillIds": [
+    "bodylock-passing",
+    "back-control",
+    "side-control-pin",
+    "arm-triangle-mount"
+  ],
+  "relatedConceptIds": [
+    "pressure-direction",
+    "control-before-submission",
+    "hooks"
+  ]
+}

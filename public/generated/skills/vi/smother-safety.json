@@ -1,0 +1,129 @@
+{
+  "id": "smother-safety",
+  "domain": "positional_awareness",
+  "level": "advanced",
+  "status": "draft",
+  "name": "An toàn hơn",
+  "aliases": [],
+  "tags": [
+    "smother",
+    "compression",
+    "safety",
+    "tier:safety-critical",
+    "meta:specialized",
+    "risk:safety-critical",
+    "family:safety",
+    "group:smother",
+    "modern-no-gi"
+  ],
+  "keywords": [
+    "smother",
+    "compression",
+    "safety"
+  ],
+  "modernSystemGroup": "smother",
+  "relatedSkills": [
+    {
+      "id": "mount-control",
+      "type": "recommended"
+    },
+    {
+      "id": "side-control-pin",
+      "type": "recommended"
+    },
+    {
+      "id": "buggy-choke",
+      "type": "recommended"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "mount-control",
+    "side-control-pin"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [
+    "Nếu đối tác của bạn chạm vào để giảm bớt áp lực mà bạn cho là bình thường: có thể bạn đang dồn quá nhiều trọng lượng lên mặt - hãy kiểm tra vị trí vai của bạn",
+    "Nếu bạn cảm thấy lớp nền của mình bị trượt khi bị ngạt khói: hãy giải phóng áp lực ngay lập tức, thiết lập lại lớp nền của bạn và thoa lại với cấu trúc tốt hơn",
+    "Nếu bạn thấy mình đang bị áp lực sau một cú chạm: đây là thói quen luyện tập cần phải được sửa chữa ngay lập tức - thả lỏng sau mỗi lần chạm, không có ngoại lệ"
+  ],
+  "version": 1,
+  "updatedAt": "2026-05-21T00:24:30.780Z",
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "vi",
+  "description": "Nhận biết độ nén và nén an toàn: áp suất chậm, đế tốt, nhả ngay khi chạm hoặc gặp sự cố. Các kỹ thuật xoa bóp tạo áp lực lên mặt hoặc thân để tạo cảm giác khó chịu - chúng hợp pháp trong một số trường hợp nhưng yêu cầu các quy trình an toàn nghiêm ngặt.",
+  "shortInstruction": "Áp dụng áp lực nhẹ nhàng từ từ, duy trì một đế ổn định để tránh trượt và thả ra ngay lập tức khi chạm vào, giọng nói khó chịu hoặc có dấu hiệu hoảng sợ. Không bao giờ sử dụng các kỹ thuật đè bẹp để chống lại những kẻ vật lộn mới hơn.",
+  "summary": "Các kỹ thuật bóp nghẹt (ép ngực, ấn vai lên mặt, định vị cơ thể để hạn chế thở) là một phần của quá trình truyền và ghim áp lực ở mức độ cao. Sự khác biệt chính về an toàn là giữa 'áp lực tư thế' (an toàn, được kiểm soát) và 'nghẹt thở với mục đích gây khó thở' (cần thận trọng). Kỹ thuật bóp nghẹt an toàn được áp dụng dần dần với chân đế vững chắc để đối thủ có thể tấn công bất cứ lúc nào. Các kỹ thuật bóp ngạt không an toàn bao gồm giảm cân đột ngột, trượt vai lên cổ họng hoặc giữ áp lực sau một cú chạm.",
+  "whyItWorks": [
+    "Nén ngực từ side control hoặc mount hạn chế chuyển động cơ hoành của đối phương, khiến hơi thở nông và khó chịu — điều này tạo ra cảm giác cấp bách phải trốn thoát",
+    "Áp lực của vai lên mặt tạo ra sự mất tập trung khiến đối phương không thể tập trung vào chuỗi chạy trốn của mình",
+    "Áp lực đè nén khi được áp dụng một cách an toàn là công cụ tâm lý khiến đối thủ hoảng sợ và mắc lỗi kỹ thuật",
+    "Đế tốt trong quá trình nén đảm bảo bạn có thể kiểm soát mức áp suất và giải phóng ngay lập tức"
+  ],
+  "commonMistakes": [
+    "Đột ngột thả toàn bộ trọng lượng cơ thể của bạn xuống mặt hoặc ngực của đối phương - điều này rất nguy hiểm và nên tránh",
+    "Tiếp tục gây sức ép sau khi đối thủ đã chạm hoặc có dấu hiệu kiệt sức (đập vào thảm, thở hổn hển, cử động hoảng loạn)",
+    "Sử dụng các kỹ thuật ép sát đối với đai trắng hoặc những vận động viên vật lộn thiếu kinh nghiệm có thể không biết cách chạm an toàn",
+    "Để chân đế sụp xuống trong khi tạo áp lực - điều này có thể khiến bạn rơi vào tư thế cổ hoặc cột sống không an toàn"
+  ],
+  "coachingCues": [
+    "Áp lực chậm, không bao giờ đột ngột",
+    "Đế ổn định trước áp lực",
+    "Phát hành trên bất kỳ vòi hoặc đau khổ",
+    "Tiết kiệm sms cho các đối tác có kinh nghiệm"
+  ],
+  "safetySummary": [
+    "Không bao giờ thả toàn bộ trọng lượng của bạn lên mặt hoặc cổ họng của đối thủ - điều này có thể gây thương tích ngay cả khi chạm nhẹ",
+    "Nếu đối thủ không thể thở, họ không thể chạm - hãy quan sát các tín hiệu chạm không lời (tay đặt trên thảm, chân nhịp, cơ thể mềm nhũn)",
+    "Không bao giờ nên sử dụng các kỹ thuật ngăn cản để 'trừng phạt' đối tác tập luyện - chúng là công cụ định vị, không phải công cụ cái tôi",
+    "Một số vận động viên vật lộn mắc các bệnh về hô hấp (hen suyễn, v.v.) - hãy lưu ý rằng áp lực đè nén có thể gây hoảng loạn hoặc khó thở nhanh hơn dự kiến"
+  ],
+  "systemLogic": {
+    "corePrinciple": "Áp suất nén an toàn tuân theo ba quy tắc: Áp dụng dần dần: Cơ sở ổn định → Giải phóng ngay lập tức",
+    "decisionTree": [
+      {
+        "condition": "Quy tắc 1 (Áp dụng dần dần)",
+        "action": "tăng áp lực từ từ trong 2-3 giây. Trọng lượng rơi đột ngột vào mặt hoặc ngực có thể gây thương tích trước khi đối thủ kịp chạm"
+      },
+      {
+        "condition": "Quy tắc 2 (Cơ sở ổn định)",
+        "action": "duy trì một cơ sở cho phép bạn luôn kiểm soát được mức áp suất. Nếu chân đế của bạn sụp đổ, bạn sẽ mất khả năng kiểm soát áp lực và có nguy cơ bị thương"
+      },
+      {
+        "condition": "Quy tắc 3 (Phát hành ngay lập tức)",
+        "action": "ngay khi bạn cảm thấy có tiếng gõ, nghe thấy tiếng gõ bằng giọng nói hoặc nhìn thấy tín hiệu đau khổ không lời nói, hãy giải phóng mọi áp lực. Không có 'thêm một giây' trong đào tạo"
+      },
+      {
+        "condition": "Nguyên tắc rèn luyện đạo đức",
+        "action": "Nên sử dụng các kỹ thuật bóp nghẹt để dạy kiểm soát vị trí, không để áp đảo các đối tác đào tạo. Nếu bạn có thể giữ side control mà không bị nhòe, hãy làm như vậy"
+      }
+    ],
+    "exitStrategies": []
+  },
+  "moneyDetails": [
+    "Áp lực nén là một thành phần hợp pháp của việc truyền áp lực ở mức độ cao - được sử dụng đúng cách, nó tạo ra khả năng thoát hiểm khẩn cấp mà không có nguy cơ chấn thương",
+    "Học các kỹ thuật giảm nhẹ một cách an toàn sẽ tạo dựng niềm tin với các đối tác tập luyện — họ biết bạn sẽ không làm tổn thương họ và có thể tập luyện ở cường độ cao hơn",
+    "Khả năng áp dụng và nhận áp lực nhẹ nhàng mà không hoảng sợ giúp phân biệt những người vật lộn cạnh tranh với những người giải trí"
+  ],
+  "fixItFast": [
+    "Nếu đối tác của bạn khó thở dưới áp lực của bạn: ngay lập tức chuyển trọng lượng của bạn ra khỏi ngực họ và kiểm tra xem họ có ổn không",
+    "Nếu bạn cảm thấy một cú chạm nhưng không chắc đó có phải là thật hay không: thả ra ngay lập tức và kiểm tra - tốt hơn là nên dừng lại khi chạm nhầm hơn là tiếp tục chạm thật.",
+    "Nếu bạn là người tiếp nhận áp lực ngột ngạt và không thể chạm bằng tay: hãy chạm bằng chân, chạm vào thảm hoặc phát âm 'chạm' thật to"
+  ]
+}

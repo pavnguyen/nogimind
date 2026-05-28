@@ -1,0 +1,125 @@
+{
+  "id": "side-control-pin",
+  "domain": "pins_rides",
+  "level": "beginner",
+  "status": "draft",
+  "name": "side control Épingle",
+  "aliases": [],
+  "tags": [
+    "pin",
+    "pressure"
+  ],
+  "keywords": [
+    "crossface",
+    "underhook",
+    "hip block",
+    "pressure"
+  ],
+  "relatedSkills": [
+    {
+      "id": "mount-control",
+      "type": "recommended"
+    },
+    {
+      "id": "arm-triangle-mount",
+      "type": "recommended"
+    },
+    {
+      "id": "side-control-survival",
+      "type": "recommended"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "bodylock-passing"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [],
+  "version": 1,
+  "updatedAt": "2026-05-21T00:24:30.751Z",
+  "contentRefs": {
+    "videos": "videos.json",
+    "qualityChecklist": "qualityChecklist"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": true,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "fr",
+  "description": "Tenez side control avec crossface, underhook et le blocage de la hanche au lieu de simplement vous allonger lourdement. La broche side control est la position supérieure fondamentale qui contrôle l’adversaire grâce à une pression poitrine contre poitrine et un blocage structurel.",
+  "shortInstruction": "crossface pour épingler la tête, underhook pour bloquer la hanche éloignée et garder votre ligne de hanche lourde sur la hanche proche. Ne les laissez jamais retrouver le underhook ou insérer un knee shield.",
+  "summary": "La broche side control est maintenue par trois points de pression interconnectés : le crossface (contrôle la direction de la tête et l'empêche de détourner le regard), le contrôle underhook (l'empêche de se transformer en vous et de récupérer guard) et le bloc de hanche (le poids de votre hanche sur la hanche proche empêche la hanche de s'échapper). Le système donne la priorité au blocage structurel plutôt qu'au poids brut : un alignement correct crée une pression sans vous épuiser.",
+  "whyItWorks": [
+    "Le crossface contrôle la direction de la tête de l'adversaire : là où va la tête, le corps suit et une tête coincée au tapis ne peut pas initier une fuite.",
+    "Le underhook bloque le principal mécanisme d'évasion de l'adversaire : il se transforme en vous pour récupérer guard. Sans le underhook, ils doivent s'échapper de l'autre côté (pourcentage inférieur)",
+    "Le poids de votre hanche sur la hanche proche empêche la fuite de la hanche (shrimp) - la fuite side control la plus courante et la plus efficace",
+    "La pression de poitrine à poitrine transfère votre poids à travers le sternum et non les épaules, vous permettant de maintenir la pression sans fatiguer vos bras."
+  ],
+  "commonMistakes": [
+    "Allongé lourdement sans crossface ou underhook actifs — l'adversaire peut shrimp sortir si vous êtes simplement « assis » sur lui",
+    "Laisser l'adversaire obtenir le underhook — une fois qu'il a le underhook, votre side control est compromis et il peut s'échapper ou balayer",
+    "Encadrement avec les bras tendus au lieu d'utiliser la pression thoracique - les bras tendus se fatiguent rapidement et peuvent s'effondrer",
+    "Élever vos hanches trop haut – cela enlève le poids de la ligne de vos hanches et permet à la hanche de s'échapper"
+  ],
+  "coachingCues": [
+    "crossface pour verrouiller la tête",
+    "Bloquez le underhook, toujours",
+    "Poids de la hanche près de la hanche",
+    "Poitrine contre poitrine, pas bras contre poitrine"
+  ],
+  "safetySummary": [
+    "La pression crossface doit être appliquée sur la zone de la mâchoire/de la joue, et non sur la gorge. La pression dans la gorge peut provoquer des difficultés respiratoires ou des lésions de la trachée.",
+    "N'utilisez pas le crossface pour tourner le cou de manière agressive - c'est un point de contrôle, pas une soumission",
+    "Si l'adversaire appuie sur la pression, relâchez-la immédiatement. La pression de side control peut provoquer une gêne aux côtes ou une panique respiratoire chez certains partenaires d'entraînement."
+  ],
+  "systemLogic": {
+    "corePrinciple": "La broche side control est maintenue via trois points de contrôle interconnectés : crossface (contrôle la direction de la tête), le poids de la hanche (empêche la fuite de la hanche) et la voie underhook (bloque le underhook). Les trois points fonctionnent comme un système triangulé : si l’adversaire attaque l’un, les deux autres doivent se resserrer.",
+    "decisionTree": [
+      {
+        "condition": "L'adversaire shrimps pour créer de l'espace",
+        "action": "Déposez le poids de votre hanche sur leur hanche proche et enfoncez votre crossface plus profondément – ​​ils ne peuvent pas shrimp si la tête est coincée et la hanche est bloquée. Suivez le pont avec vos hanches."
+      },
+      {
+        "condition": "L'adversaire frappe pour le underhook",
+        "action": "Bloquez la voie underhook en gardant votre bras proche serré contre son bras/épaule éloigné. S'ils obtiennent le underhook, passez à un underhook du côté éloigné et enfoncez votre épaule dans leur poitrine."
+      },
+      {
+        "condition": "L'adversaire se détourne de vous (exposant son dos)",
+        "action": "Suivez-les immédiatement – ​​ne les laissez pas créer une séparation. Restez poitrine contre poitrine et prenez le dos s'ils s'engagent à se détourner. Il s’agit de la transition la plus récompensante."
+      },
+      {
+        "condition": "L'adversaire récupère half guard sous votre pression",
+        "action": "Vous laissez le poids de votre hanche se soulever – réengagez le bloc de hanche avant de pouvoir insérer le genou. Laissez tomber vos hanches plus bas sur leur ligne proche des hanches."
+      },
+      {
+        "condition": "Vous souhaitez évoluer",
+        "action": "Dégagez le bras proche et placez votre genou proche sur la hanche jusqu'à mount, ou glissez jusqu'à north-south pour comprimer la ligne d'épaule, ou postez sur la hanche éloignée pendant knee-on-belly."
+      }
+    ],
+    "exitStrategies": [
+      "Si l’adversaire continue de shrimp s’écarter, le poids de vos hanches est trop élevé – baissez vos hanches plus bas sur leur ligne proche des hanches.",
+      "S'ils continuent à recevoir le underhook, votre bras crossface est trop superficiel : enfoncez-le plus profondément sur leur visage.",
+      "S'ils récupèrent half guard, vous laissez le poids de votre hanche se soulever – réengagez le bloc de hanche avant qu'ils puissent insérer le genou."
+    ]
+  },
+  "moneyDetails": [
+    "side control est la première position la plus courante dans BJJ — maîtriser l'épingle ici vous fera gagner plus de points que presque n'importe quelle autre compétence.",
+    "Un pin dominant side control mène directement aux soumissions (armbar, kimura, attaques d'épaule) tout en épuisant l'adversaire",
+    "side control est la première position où les grapplers plus petits peuvent neutraliser un avantage de taille grâce à la technique plutôt qu'à la force."
+  ],
+  "fixItFast": [
+    "S'ils continuent à shrimp : déposez le poids de votre hanche sur leur hanche proche et enfoncez votre crossface plus profondément - ils ne peuvent pas shrimp si la tête est coincée et la hanche est bloquée.",
+    "S'ils obtiennent le underhook : passez immédiatement à un underhook du côté éloigné (passez sous leur bras le plus éloigné) et enfoncez votre épaule dans leur poitrine pour les réaplatir.",
+    "S’ils se détournent de vous : suivez-les – ne les laissez pas créer une séparation. Restez poitrine contre poitrine et prenez le dos s'ils s'engagent à se détourner"
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "id": "false-reap-to-saddle-bridge",
+  "domain": "guard_offense",
+  "level": "advanced",
+  "status": "draft",
+  "name": "Fausse récolte jusqu'au pont saddle",
+  "aliases": [],
+  "tags": [
+    "false-reap",
+    "saddle",
+    "transition",
+    "inside-sankaku",
+    "leg-lock-entry"
+  ],
+  "keywords": [
+    "false reap",
+    "saddle",
+    "inside sankaku",
+    "leg entry",
+    "transition chain"
+  ],
+  "relatedSkills": [
+    {
+      "id": "saddle-inside-sankaku-control",
+      "type": "recommended"
+    },
+    {
+      "id": "clamp-to-triangle-bridge",
+      "type": "recommended"
+    },
+    {
+      "id": "k-guard-matrix",
+      "type": "recommended"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "false-reap-entry",
+    "k-guard-entry"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [
+    "Si vous ne parvenez pas à verrouiller le saddle, leurs hanches sont encore trop proches – créez une séparation en donnant un coup de pied plus profond avec votre jambe en crochet.",
+    "S'ils tournent, vous avez perdu le contrôle de la hanche - rétablissez la prise de la hanche avant votre prochaine tentative.",
+    "S'ils vous aplatissent dans le saddle, votre angle est mauvais : remontez vos hanches vers la ligne de leurs épaules."
+  ],
+  "version": 1,
+  "updatedAt": "2026-05-21T00:24:30.771Z",
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "fr",
+  "description": "Passez de la fausse récolte à saddle (inside sankaku) lorsque l'adversaire sépare ses hanches ou recule - en utilisant son mouvement pour pivoter dans l'enchevêtrement des jambes.",
+  "shortInstruction": "Ils séparent les hanches ou reculent ? Reliez vos hanches et verrouillez le saddle - leur évasion devient votre entrée.",
+  "summary": "La fausse récolte vers le pont saddle est la chaîne d'attaque principale depuis la position de fausse récolte. Lorsque l'adversaire sent sa jambe contrôlée et essaie de la libérer en reculant ou en écartant ses hanches, il crée l'angle de rotation exact dont vous avez besoin pour balancer votre jambe supérieure sur son corps et verrouiller le saddle (inside sankaku). Leur évasion alimente votre entrée – c'est le principe de Danaher qui consiste à utiliser la réaction de l'adversaire comme configuration.",
+  "whyItWorks": [
+    "Lorsqu'ils écartent leurs hanches pour échapper à la fausse récolte, votre jambe bascule naturellement sur leur corps dans la position saddle.",
+    "Leur mouvement pas à pas charge leur poids sur votre jambe en crochet, vous donnant un avantage mécanique pour le pont.",
+    "La transition ne nécessite aucune création d’espace : leur mouvement crée tout l’espace dont vous avez besoin.",
+    "Depuis le saddle, vous avez un accès direct au heel hook, à la prise en pointe et à la prise arrière."
+  ],
+  "commonMistakes": [
+    "En essayant de passer à saddle avant que l'adversaire ne réagisse, vous avez besoin de son mouvement pour créer l'angle.",
+    "En perdant le contrôle de la hanche éloignée pendant le pont, ils sortiront par la porte arrière.",
+    "Ne maintenez pas votre crochet pendant que vous faites le pont - votre jambe de crochet doit s'enrouler plus profondément et non se relâcher.",
+    "À défaut de verrouiller vos pieds dans le saddle - un saddle lâche leur donne la possibilité de s'échapper."
+  ],
+  "coachingCues": [
+    "Attendez leur pas – le pont est une réaction.",
+    "Accrochez profondément, pontez dur, verrouillez bien.",
+    "Ressentez la séparation de la hanche – c'est votre déclencheur.",
+    "saddle ou retour en arrière : deux options à partir d'un seul pont."
+  ],
+  "safetySummary": [
+    "Ne faites pas de pont de manière explosive si vous n'avez pas contrôlé leur jambe éloignée - ils peuvent se libérer et hyperétendre votre propre genou.",
+    "Lorsque vous verrouillez le saddle, gardez leur jambe coincée en position sûre – ne lancez pas le heel hook tant que le saddle n'est pas complètement verrouillé.",
+    "S'ils vous empilent pendant le pont, relâchez et rentrez – ne les laissez pas vous enfoncer la tête dans le tapis."
+  ],
+  "systemLogic": {
+    "corePrinciple": "Fausse récolte établie : l'adversaire sépare les hanches ou recule → pontez vos hanches → verrouillez saddle → attaquez heel hook ou prenez en arrière.",
+    "decisionTree": [
+      {
+        "condition": "ils ne séparent pas leurs hanches",
+        "action": "attaquez plutôt les kimura à partir d'une fausse récolte – ils doivent réagir à une menace, créant l'autre."
+      },
+      {
+        "condition": "Du saddle",
+        "action": "à l'intérieur de heel hook, tenez les orteils ou prenez l'arrière lorsqu'ils roulent."
+      }
+    ],
+    "exitStrategies": []
+  },
+  "moneyDetails": [
+    "Gardez votre crochet profondément sur la cuisse tout au long du pont – un crochet peu profond perdra sa connexion pendant la rotation.",
+    "Pendant que vous faites le pont, contrôlez leur hanche éloignée avec votre main pour les empêcher de tourner.",
+    "Verrouillez le saddle en croisant vos pieds derrière le dos – votre pied supérieur s'accroche sous votre cheville inférieure.",
+    "Après avoir verrouillé le saddle, avancez vos hanches vers leur épaule pour resserrer l'enchevêtrement avant d'attaquer."
+  ],
+  "nextStep": "Après avoir maîtrisé l'entrée saddle, apprenez la finition intérieure heel hook et la prise arrière de saddle pour compléter le système d'attaque des jambes.",
+  "fixItFast": [
+    "saddle ne se verrouille pas ? Votre crochet est trop peu profond – rentrez plus profondément sur la cuisse.",
+    "Ils continuent de tourner ? Votre contrôle de la hanche éloignée est faible – saisissez sa hanche ou sa ceinture avec une prise ferme.",
+    "Ils vous aplatissent ? Relâchez le saddle et réinitialisez-le en position assise guard — ne vous battez pas en position aplatie."
+  ]
+}

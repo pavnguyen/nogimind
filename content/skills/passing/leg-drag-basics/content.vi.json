@@ -1,0 +1,71 @@
+{
+  "id": "leg-drag-basics",
+  "locale": "vi",
+  "name": "Khái niệm cơ bản về kéo chân",
+  "description": "Kéo chân của đối phương qua đường giữa để xoay hông và tiếp xúc với chốt hoặc lưng. Lực kéo của chân là vị trí guard pass chiếm ưu thế nhất - nó cho phép bạn kiểm soát hoàn toàn phần thân dưới của họ.",
+  "shortInstruction": "Từ trụ sở chính, bước ra bên ngoài, với lấy chân gần của họ, kéo ngang cơ thể bạn và ghim nó vào tấm thảm. Vòng sang phía đối diện và lấy side control hoặc mặt sau.",
+  "summary": "Kéo chân tấn công căn cứ của đối thủ bằng cách điều khiển một chân và kéo nó ngang qua cơ thể bạn, xoay hông của họ ra khỏi bạn. Sau khi xoay hông, họ không thể tái-guard một cách hiệu quả. Kéo chân là vị trí pass chiếm ưu thế nhất vì nó vô hiệu hóa hoàn toàn guard của đối thủ — họ không thể sweep, phục tùng hoặc phục hồi guard từ vị trí kéo chân.",
+  "whyItWorks": [
+    "Kéo chân qua đường giữa sẽ xoay hông đối phương ra xa bạn — điều kiện tiên quyết cho tất cả các lần giữ guard",
+    "Động tác kéo chân yêu cầu đối thủ phải đứng bằng cả hai tay để giữ thăng bằng - họ không thể đóng khung hoặc bám chặt từ vị trí này",
+    "Xoay hông và đặt tay, đối thủ không có công cụ nào để bảo vệ đường chuyền",
+    "Lực kéo chân chuyển sang cả side control và back control — hai vị trí chiếm ưu thế nhất"
+  ],
+  "commonMistakes": [
+    "Kéo chân mà không bước ra ngoài trước — bạn phải tạo góc trước khi kéo",
+    "Nâng chân lên thay vì kéo - lực kéo là lực kéo ngang chứ không phải lực nâng",
+    "Nhả chân quá sớm — duy trì khả năng kiểm soát chân cho đến khi thiết lập được side control",
+    "Không bảo vệ chân khỏi heel hook giây — giữ chân sát cơ thể bạn để ngăn chặn các cuộc tấn công vào chân"
+  ],
+  "coachingCues": [
+    "Bước ra ngoài rồi kéo",
+    "Kéo sang bên, không nhấc lên",
+    "Xoay hông, guard chết",
+    "Kéo chân sang bên hoặc phía sau"
+  ],
+  "safetySummary": [
+    "Cẩn thận heel hooks khi khống chế chân đối phương — giữ chân sát người để tránh bị giật",
+    "Không kéo chân ở một góc bất tiện khiến hông hoặc đầu gối bị duỗi quá mức",
+    "Nếu đối thủ lăn để thoát chân thì thả chân ra và lăn theo để lấy lại"
+  ],
+  "keyCorrections": [
+    "Nếu họ tiếp tục guard kéo chân: lực kéo của bạn không xoay hông họ đủ — hãy kéo chân xa hơn trên cơ thể bạn",
+    "Nếu họ đá phạt: tay cầm của bạn quá nông - tay cầm ở đầu gối hoặc giữa đùi, không phải mắt cá chân",
+    "Nếu họ lùi lại: đầu bạn ở bên trong - hãy giữ đầu bạn ở bên ngoài chân họ"
+  ],
+  "systemLogic": {
+    "corePrinciple": "Kéo chân có bốn giai đoạn: Bước ngoài → Nắm chân → Kéo → Ghim",
+    "decisionTree": [
+      {
+        "condition": "Trong Giai đoạn 1 (Bước ngoài)",
+        "action": "từ trụ sở chính, bước chân dẫn đầu của bạn ra bên ngoài chân gần của họ. Điều này tạo ra góc cho lực kéo"
+      },
+      {
+        "condition": "Ở Giai đoạn 2 (Gắp chân)",
+        "action": "vươn tay qua và nắm lấy chân gần của họ ở đầu gối hoặc giữa đùi. Tay còn lại của bạn trụ trên thảm để giữ thăng bằng"
+      },
+      {
+        "condition": "Ở Giai đoạn 3 (Kéo)",
+        "action": "kéo chân của họ qua cơ thể bạn về phía hông xa của bạn. Điều này khiến hông của họ rời xa bạn. Khi hông xoay, họ phải đặt cả hai tay để giữ thăng bằng"
+      },
+      {
+        "condition": "Ở Giai đoạn 4 (Pin)",
+        "action": "Khi hông của họ đã xoay và tay đã đặt lên, hãy ghim chân của họ vào thảm và vòng sang phía đối diện. Nhập side control hoặc quay lại"
+      },
+      {
+        "condition": "việc kéo chân không thành công (họ lại-guard)",
+        "action": "đặt lại về trụ sở chính và thử một đường chuyền khác (cắt đầu gối hoặc lùi lại)"
+      }
+    ]
+  },
+  "moneyDetails": [
+    "Kéo chân là vị trí chuyền bóng chiếm ưu thế nhất guard trong BJJ — không có đường chuyền nào khác mang lại cho bạn khả năng kiểm soát hoàn toàn như vậy",
+    "Thành thạo cách kéo chân cho phép bạn vô hiệu hóa guard của ngay cả những đối thủ linh hoạt nhất",
+    "Kéo chân là thành phần cốt lõi của hệ thống passing của Gordon Ryan"
+  ],
+  "fixItFast": [
+    "Nếu họ tiếp tục lặp lạiguarding: hãy kéo chân xa hơn trên cơ thể để xoay hông nhiều hơn",
+    "Nếu họ đá tự do: nắm chân cao hơn (trên đầu gối, không phải bên dưới)",
+    "Nếu họ cố gắng heel hook: giữ chân sát ngực và vòng ra phía sau"
+  ]
+}

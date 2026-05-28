@@ -1,0 +1,56 @@
+{
+  "id": "front-headlock-top",
+  "locale": "en",
+  "title": "Front Headlock Top",
+  "category": "front_headlock",
+  "status": "advantage",
+  "description": "The top player controls the head and neck from the front, threatening a go-behind, guillotine, or back take.",
+  "topPlayerGoals": [
+    "The top player wants to control Front Headlock Top through head position, inside position, and directed pressure.",
+    "Keep the opponent’s head below the shoulder line and control the elbow or chin strap.",
+    "Keep a stable base so you are not off-balanced or countered."
+  ],
+  "bottomPlayerGoals": [
+    "The bottom player wants to survive Front Headlock Top with frames, pummeling, or the right angle.",
+    "Protect the airway and chin, and keep the knees under the hips.",
+    "Recognize danger signals early instead of waiting for the position to settle."
+  ],
+  "controlPoints": [
+    "Main control point: Chin strap, elbow line, and hip angle..",
+    "Head, hands, hips, and knees should share the same force direction.",
+    "The elbow-knee connection or hip-shoulder line determines whether the position is still alive or already locked."
+  ],
+  "escapePriorities": [
+    "Escape priority: Put both hands on the choking wrist before circling out..",
+    "Protect the neck, back, knee line, or arm line before countering.",
+    "If inside position is lost, reset one defensive layer first."
+  ],
+  "advancementOptions": [
+    {
+      "action": "Go behind to turtle ride",
+      "nextPositionId": "turtle-top",
+      "relatedSkillIds": [
+        "snapdown-front-headlock",
+        "guillotine-system",
+        "sprawl-go-behind"
+      ],
+      "why": "This is the natural branch when you win the main control point and the opponent is forced to defend."
+    }
+  ],
+  "dangerSignals": [
+    "The chin or neck is pulled out of a safe line.",
+    "The elbow separates from the ribs or knee.",
+    "The hip line is locked while the shoulder line is still being pulled.",
+    "You need a long hand post to avoid falling."
+  ],
+  "relatedSkillIds": [
+    "snapdown-front-headlock",
+    "guillotine-system",
+    "sprawl-go-behind"
+  ],
+  "relatedConceptIds": [
+    "head-position",
+    "control-before-submission",
+    "early-vs-late-defense"
+  ]
+}

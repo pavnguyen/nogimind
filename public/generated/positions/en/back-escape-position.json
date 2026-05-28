@@ -1,0 +1,56 @@
+{
+  "id": "back-escape-position",
+  "locale": "en",
+  "title": "Back Escape Position",
+  "category": "back",
+  "status": "dangerous",
+  "description": "The defender is escaping back control through hand fighting, shoulder-to-mat positioning, and hook clearing.",
+  "topPlayerGoals": [
+    "The top player wants to control Back Escape Position through head position, inside position, and directed pressure.",
+    "The attacker wants to recover the hook or switch to mount.",
+    "Keep a stable base so you are not off-balanced or countered."
+  ],
+  "bottomPlayerGoals": [
+    "The bottom player wants to survive Back Escape Position with frames, pummeling, or the right angle.",
+    "Put the shoulder on the mat and keep the choking hand away from the neck.",
+    "Recognize danger signals early instead of waiting for the position to settle."
+  ],
+  "controlPoints": [
+    "Main control point: Choking hand, top hook, and shoulder angle..",
+    "Head, hands, hips, and knees should share the same force direction.",
+    "The elbow-knee connection or hip-shoulder line determines whether the position is still alive or already locked."
+  ],
+  "escapePriorities": [
+    "Escape priority: Do not turn into the choking arm when losing the hand fight..",
+    "Protect the neck, back, knee line, or arm line before countering.",
+    "If inside position is lost, reset one defensive layer first."
+  ],
+  "advancementOptions": [
+    {
+      "action": "The attacker switches to mount if the back is lost",
+      "nextPositionId": "mount-top",
+      "relatedSkillIds": [
+        "back-escape",
+        "back-control",
+        "mount-control"
+      ],
+      "why": "This is the natural branch when you win the main control point and the opponent is forced to defend."
+    }
+  ],
+  "dangerSignals": [
+    "The chin or neck is pulled out of a safe line.",
+    "The elbow separates from the ribs or knee.",
+    "The hip line is locked while the shoulder line is still being pulled.",
+    "You need a long hand post to avoid falling."
+  ],
+  "relatedSkillIds": [
+    "back-escape",
+    "back-control",
+    "mount-control"
+  ],
+  "relatedConceptIds": [
+    "early-vs-late-defense",
+    "hooks",
+    "hip-line-shoulder-line"
+  ]
+}

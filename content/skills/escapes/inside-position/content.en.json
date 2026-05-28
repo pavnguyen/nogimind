@@ -1,0 +1,72 @@
+{
+  "id": "inside-position",
+  "locale": "en",
+  "name": "Inside Position",
+  "description": "The ability to place hands, head, knees, or hips on the inside lane to win control races. Inside position is the foundation of all grappling control — whoever controls the inside controls the engagement.",
+  "shortInstruction": "Beat their hands, knees, and elbows to the inside line. Your inside limb controls their center axis. Never concede inside position without re-pummeling.",
+  "summary": "Inside position is the control of the space between your body and the opponent's center line. From here, all submissions, sweeps, passes, and pins are generated. The inside position exists at four levels: hand inside (pummeling for wrist/elbow control), knee inside (pummeling for guard/half guard), hip inside (inside position for passing/sweeping), and head inside (head control for takedowns/turtle breaks). Loss of inside position at any level cascades upward — losing the knee inside leads to losing the hip inside.",
+  "whyItWorks": [
+    "Inside position gives you mechanical leverage — your limb is between their limb and their center, allowing you to control their movement direction",
+    "The inside hand/arm can attack submissions, control posture, and block their attempts from a shorter, stronger mechanical path",
+    "Inside knee position (knee between their legs) is the prerequisite for every guard entry, sweep, and leg lock attack",
+    "The opponent cannot attack effectively from outside position — they must first pummel back inside, which gives you time to read and counter"
+  ],
+  "commonMistakes": [
+    "Fighting from outside position (reaching around, grabbing at limbs) rather than pummeling back inside",
+    "Conceding inside position to chase a submission — finishing from outside position is much lower percentage",
+    "Pummeling only the upper body while neglecting the lower body (knee inside position)",
+    "Letting the opponent establish inside position first and then trying to fight out of it with strength instead of technique"
+  ],
+  "coachingCues": [
+    "Inside beats outside, always",
+    "Pummel back, don't reach around",
+    "Knee inside, elbow inside, head inside",
+    "Win the inside lane first"
+  ],
+  "safetySummary": [
+    "Do not try to force your arm inside if the opponent is actively crushing it against their body — this can cause elbow or shoulder strain",
+    "Pummeling drills should be done at controlled speed — sudden pummeling motions in sparring can cause accidental finger or eye contact",
+    "If you feel your joint being hyper-extended while pummeling for inside position, concede and re-pummel at a better angle"
+  ],
+  
+  "systemLogic": {
+    "corePrinciple": "Inside position operates at four connected levels — Hand Inside → Knee Inside → Hip Inside → Head Inside — and winning at any level gives you mechanical control of the opponent's center line. If you lose a level, pummel back rather than fighting from outside.",
+    "decisionTree": [
+      {
+        "condition": "Opponent has inside hand position (their hand between your arm and body)",
+        "action": "Circle your elbow around theirs to pummel back inside. Do not reach around or grab from outside — the inside hand always wins the grip fight."
+      },
+      {
+        "condition": "Opponent closes their guard (denying knee inside)",
+        "action": "Stand up, disengage the knee, and re-engage with inside knee first. Do not force your knee through a closed guard."
+      },
+      {
+        "condition": "You have inside position but lose it immediately",
+        "action": "You did not anchor the inside limb — once inside, flare the limb outward (elbow or knee) to prevent them from pummeling back."
+      },
+      {
+        "condition": "Opponent has head inside (forehead to your jaw)",
+        "action": "Turn your head away, frame on their biceps, and re-establish head position before continuing the engagement."
+      },
+      {
+        "condition": "You cannot get inside position directly",
+        "action": "Create an angle by moving your hips 10-30 degrees before pummeling in. Straight-on pummeling is blocked more easily."
+      }
+    ],
+    "exitStrategies": [
+      "If you lose the inside hand fight, switch to two-on-one control (both hands on one of their arms) to neutralize their inside hand advantage.",
+      "If the opponent dominates inside position at all levels, create chaos through scrambling and transitions to find an opening.",
+      "If inside position cannot be regained, accept outside position temporarily and use frames to reset the engagement."
+    ]
+  },
+  "moneyDetails": [
+    "Inside position is the single most important concept in grappling — it underpins every technique in BJJ",
+    "Winning the inside position battle is the primary goal of the first 30 seconds of every roll",
+    "Advanced grapplers do not 'let' you get inside position — they control the inside so tightly that you must create chaos (scramble, transition) to find an opening"
+  ],
+  "fixItFast": [
+    "If you keep losing the inside hand fight: switch to two-on-one control (both hands on one of their arms) to neutralize their inside hand advantage",
+    "If they have inside knee and you cannot get guard: stand up, disengage the knee, and re-engage with inside knee first",
+    "If they have head inside (forehead to your jaw): turn your head away, frame on their biceps, and re-establish head position before continuing"
+  ]
+}

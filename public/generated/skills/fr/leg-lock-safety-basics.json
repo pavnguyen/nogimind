@@ -1,0 +1,127 @@
+{
+  "id": "leg-lock-safety-basics",
+  "domain": "survival_defense",
+  "level": "beginner",
+  "status": "draft",
+  "name": "Bases de sécurité du verrouillage des jambes",
+  "aliases": [],
+  "tags": [
+    "leg-lock",
+    "knee-safety"
+  ],
+  "keywords": [
+    "knee line",
+    "ashi garami",
+    "outside ashi",
+    "safety tap"
+  ],
+  "relatedSkills": [
+    {
+      "id": "straight-ankle-lock-safety",
+      "type": "recommended"
+    },
+    {
+      "id": "heel-hook-safety",
+      "type": "recommended"
+    },
+    {
+      "id": "single-leg-x-basics",
+      "type": "recommended"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "positional-hierarchy"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [],
+  "version": 1,
+  "updatedAt": "2026-05-21T00:24:30.753Z",
+  "contentRefs": {
+    "videos": "videos.json",
+    "qualityChecklist": "qualityChecklist"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": true,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "fr",
+  "description": "Reconnaissez la ligne du genou, l’exposition du talon et la rotation sûre avant d’apprendre les attaques des jambes. La sécurité des verrous de jambes n’est pas facultative – c’est la condition préalable à tout entraînement au verrouillage des jambes.",
+  "shortInstruction": "Apprenez les quatre concepts de sécurité avant de tenter un verrouillage des jambes : (1) conscience de la ligne du genou, (2) reconnaissance de l'exposition du talon, (3) sens de rotation sûr, (4) discipline des claquettes. Si vous ne pouvez pas nommer les quatre, vous n’êtes pas prêt à entraîner les verrous des jambes.",
+  "summary": "Les principes de base de la sécurité du verrouillage des jambes couvrent les quatre concepts de sécurité fondamentaux que chaque grappler doit maîtriser avant de tenter ou de défendre les verrouillages des jambes : (1) la ligne du genou - la ligne invisible à l'arrière du genou qui, lorsqu'elle est croisée, signale la nécessité de taper ou de s'échapper, (2) l'exposition du talon - lorsque le talon est isolé et séparé de la cuisse, le genou est en danger, (3) rotation sûre - la rotation vers la jambe libre est toujours sûre, la rotation en arrière est toujours dangereuse, (4) la discipline des claquettes - tapoter vers la position plutôt que la douleur est la règle d'or. de l'entraînement de verrouillage des jambes.",
+  "whyItWorks": [
+    "Comprendre la ligne du genou vous donne un marqueur de sécurité objectif : vous savez exactement quand vous êtes en danger et quand vous êtes en sécurité",
+    "La reconnaissance de l'exposition du talon vous permet d'évaluer le niveau de menace en temps réel : talon exposé = danger imminent, talon caché = sécurité",
+    "La connaissance d'une rotation sûre évite l'erreur défensive la plus courante (rotation vers l'extérieur) qui cause la majorité des blessures liées au blocage des jambes.",
+    "La discipline des claquettes est le mécanisme de sécurité ultime : savoir quand taper empêche les 5 % d'entrées de verrouillage des jambes qui entraînent des blessures."
+  ],
+  "commonMistakes": [
+    "Ne pas savoir quelle est la ligne du genou – entraîner les verrous des jambes sans comprendre ce concept est dangereux",
+    "Confondre « pression » et « danger » : les blocages de jambe peuvent appliquer une pression sans compromettre le genou, et des blessures catastrophiques peuvent survenir sans pression.",
+    "S'éloigner instinctivement de la jambe coincée lorsqu'il est pris dans un enchevêtrement de jambe",
+    "Attendre la douleur avant de tapoter : au moment où un heel hook devient douloureux, le genou est souvent déjà endommagé"
+  ],
+  "coachingCues": [
+    "Connaître la ligne du genou",
+    "Talon exposé = danger",
+    "Rotation vers la jambe libre",
+    "Appuyez pour positionner, pas de douleur"
+  ],
+  "safetySummary": [
+    "La ligne du genou est la ligne invisible à l'arrière du genou : lorsque l'adversaire contrôle votre jambe au-dessus de la ligne du genou, votre genou est en danger.",
+    "Les heel hooks peuvent endommager l'ACL, le MCL, le PCL et le ménisque en moins de 100 millisecondes de couple de rotation.",
+    "Il n'y a pas d'« endurcissement » a heel hook : les lésions ligamentaires se produisent avant que le signal de douleur n'atteigne votre cerveau.",
+    "Tapez avec votre main (pas avec votre pied) et tapez clairement : les partenaires d'entraînement peuvent manquer des tapotements ambigus",
+    "Si vous êtes l'attaquant, appliquez lentement une pression de heel hook et relâchez-la dès que votre partenaire tape ou vocalise un inconfort."
+  ],
+  "systemLogic": {
+    "corePrinciple": "La sécurité du verrouillage des jambes repose sur quatre piliers : Connaissance (anatomie du genou) → Reconnaissance (contrôle de la ligne du genou, exposition du talon, distance des hanches) → Réponse (continuer, s'échapper ou taper) → Discipline (tapoter tôt et souvent). La sécurité est la condition préalable à tout entraînement au verrouillage des jambes.",
+    "decisionTree": [
+      {
+        "condition": "Vous ne savez pas ce qu'est une ligne de genou",
+        "action": "Arrêtez d'entraîner les verrous de jambe jusqu'à ce que vous compreniez ce concept. La ligne du genou est la ligne invisible à l'arrière du genou : lorsque l'adversaire contrôle votre jambe au-dessus de cette ligne, votre genou est en danger."
+      },
+      {
+        "condition": "Votre talon est isolé et séparé de votre cuisse",
+        "action": "Votre genou est en danger – appuyez immédiatement ou lancez une évasion de la ligne du genou avant le début de la rotation. Un talon exposé + pas de distance entre les hanches = soumission imminente."
+      },
+      {
+        "condition": "Vous sentez une rotation commencer sur votre jambe coincée",
+        "action": "Tournez vers votre jambe libre – c’est toujours sûr. S'éloigner de la jambe coincée est l'erreur défensive la plus courante et provoque la majorité des blessures liées au blocage de la jambe."
+      },
+      {
+        "condition": "Vous ressentez une pression mais aucune douleur lors d'un enchevêtrement de jambe",
+        "action": "La pression n’est pas synonyme de sécurité : une blessure catastrophique au genou peut survenir sans douleur. Si la ligne de vos genoux est contrôlée et que votre talon est exposé, tapotez avant le début de la rotation."
+      },
+      {
+        "condition": "Votre partenaire d'entraînement ne connaît pas les bases de la sécurité du verrouillage des jambes",
+        "action": "N'entraînez pas les verrous de jambe avec eux avant d'avoir parcouru ensemble les quatre concepts de sécurité. La sécurité est une responsabilité partagée."
+      }
+    ],
+    "exitStrategies": [
+      "Si vous ne savez pas si vous êtes en danger, appuyez sur, demandez à votre partenaire de maintenir la position et évaluez visuellement la ligne de vos genoux et la position de vos talons avant de continuer.",
+      "Tapez avec votre main (pas avec votre pied) et tapez clairement : les partenaires d'entraînement peuvent manquer des tapotements ambigus.",
+      "Si vous êtes l'attaquant, appliquez lentement une pression de heel hook et relâchez-la dès que votre partenaire tape ou vocalise un inconfort."
+    ]
+  },
+  "moneyDetails": [
+    "Les bases de la sécurité du verrouillage des jambes sont la leçon la plus importante du grappling moderne : comprendre ces concepts évite les blessures catastrophiques au genou qui mettent fin à une carrière.",
+    "Chaque grappler, quel que soit son niveau de compétence ou ses objectifs de compétition, doit connaître la sécurité du verrouillage des jambes avant de rouler dans l'environnement moderne BJJ.",
+    "Les cinq minutes passées à apprendre les bases de la sécurité du verrouillage des jambes protégeront des années d'entraînement futur."
+  ],
+  "fixItFast": [
+    "Si vous ne savez pas ce qu'est une ligne de genou : arrêtez d'entraîner les verrouillages des jambes jusqu'à ce que vous ayez recherché et compris ce concept.",
+    "Si votre partenaire ne connaît pas la sécurité du verrouillage des jambes : ne vous engagez pas dans des enchevêtrements de jambes avec lui - aidez-le d'abord à apprendre",
+    "Si vous n'êtes pas sûr d'être en danger en cas d'enchevêtrement des jambes : tapotez, demandez à votre partenaire de maintenir la position et évaluez visuellement la ligne de vos genoux et la position de vos talons avant de continuer."
+  ]
+}

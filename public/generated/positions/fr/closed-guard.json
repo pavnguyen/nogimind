@@ -1,0 +1,59 @@
+{
+  "id": "closed-guard",
+  "locale": "fr",
+  "title": "Garde fermée",
+  "category": "bottom_guard",
+  "status": "neutral",
+  "description": "Le joueur en garde verrouille ses jambes autour des hanches du passeur pour contrôler la posture et préparer soumissions ou sweeps.",
+  "topPlayerGoals": [
+    "Le joueur du dessus veut contrôler Garde fermée avec la position de tête, la position intérieure et une pression orientée.",
+    "Casser la posture, rester lourd et refuser les angles d’attaque.",
+    "Garder une base stable pour éviter d’être déséquilibré ou contré."
+  ],
+  "bottomPlayerGoals": [
+    "Le joueur du dessous veut survivre en Garde fermée avec des cadres, du pummeling ou le bon angle.",
+    "Gagner l’angle de posture, séparer le coude des côtes et ouvrir attaques ou sweeps.",
+    "Reconnaître les signaux de danger tôt au lieu d’attendre que la position se stabilise."
+  ],
+  "controlPoints": [
+    "Point de contrôle principal : Posture, connexion hanches et shoulder line..",
+    "La tête, les mains, les hanches et les genoux doivent suivre la même direction de force.",
+    "La connexion coude-genou ou la ligne hanches-épaules détermine si la position reste vivante ou verrouillée."
+  ],
+  "escapePriorities": [
+    "Priorité de sortie : Protéger le cou et la posture avant d’ouvrir la garde..",
+    "Protéger le cou, le dos, la ligne du genou ou la ligne du bras avant de contrer.",
+    "Si la position intérieure est perdue, rétablir d’abord une couche défensive."
+  ],
+  "advancementOptions": [
+    {
+      "action": "Ouvrir la garde et passer en pass",
+      "nextPositionId": "knee-cut-position",
+      "relatedSkillIds": [
+        "closed-guard-posture-control",
+        "closed-guard-sweeps",
+        "clamp-guard-control"
+      ],
+      "why": "C’est la branche naturelle lorsque vous gagnez le point de contrôle principal et que l’adversaire est forcé de défendre."
+    }
+  ],
+  "dangerSignals": [
+    "Le menton ou le cou sort de la ligne sûre.",
+    "Le coude se sépare des côtes ou du genou.",
+    "La ligne des hanches est verrouillée pendant que la ligne des épaules est encore tirée.",
+    "Vous devez poser une main loin pour éviter de tomber."
+  ],
+  "relatedSkillIds": [
+    "closed-guard-posture-control",
+    "closed-guard-sweeps",
+    "clamp-guard-control",
+    "armbar-system",
+    "triangle-system",
+    "kimura-system"
+  ],
+  "relatedConceptIds": [
+    "control-before-submission",
+    "levers",
+    "angle-creation"
+  ]
+}

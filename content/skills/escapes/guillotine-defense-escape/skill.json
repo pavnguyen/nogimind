@@ -1,0 +1,63 @@
+{
+  "id": "guillotine-defense-escape",
+  "domain": "escapes",
+  "level": "intermediate",
+  "name": "Guillotine Defense and Escape",
+  "aliases": [
+    "front headlock defense",
+    "guillotine escape",
+    "guillotine counter"
+  ],
+  "tags": [
+    "defense",
+    "guillotine",
+    "choke-defense",
+    "headlock",
+    "neck-safety",
+    "takedown-defense"
+  ],
+  "keywords": [
+    "guillotine choke",
+    "front headlock",
+    "chin tuck",
+    "elbow control",
+    "stack escape",
+    "arm peel"
+  ],
+  "relatedSkills": [
+    {
+      "id": "front-headlock-defense",
+      "type": "recommended"
+    },
+    {
+      "id": "single-leg-bjj",
+      "type": "recommended"
+    },
+    {
+      "id": "high-wrist-guillotine",
+      "type": "recommended"
+    },
+    {
+      "id": "neck-crank-recognition",
+      "type": "recommended"
+    }
+  ],
+  "prerequisiteSkillIds": [
+    "neck-crank-recognition",
+    "front-headlock-defense"
+  ],
+  "relatedPositions": [],
+  "relatedConcepts": [],
+  "archetypeIds": [],
+  "trainingMethodIds": [],
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "updatedAt": "2026-06-12T00:00:00.000Z"
+}

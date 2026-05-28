@@ -1,0 +1,62 @@
+{
+  "id": "half-guard-bottom-escape",
+  "locale": "vi",
+  "name": "half guard Thoát đáy",
+  "description": "Thoát khỏi đáy half guard bằng cách thắng underhook, tạo khung và giành lại guard hoặc đứng lên.",
+  "shortInstruction": "Giành chiến thắng underhook, đưa đầu gối bên ngoài qua lưng đối phương và lao vào trận không chiến hoặc thu hồi bướm guard.",
+  "summary": "half guard lối thoát phía dưới sử dụng underhook và vị trí đầu gối bên ngoài để tạo một mục nhập không chiến, từ đó bạn có thể wrestle up, quét hoặc phục hồi toàn bộ guard. Hệ thống khen thưởng khả năng di chuyển của hông và vị trí đầu hơn sức mạnh của phần trên cơ thể.",
+  "whyItWorks": [
+    "underhook loại bỏ mối đe dọa crossface của đối thủ và cho phép bạn kiểm soát tư thế phần thân trên của họ",
+    "Đầu gối bên ngoài ngang qua lưng tạo ra một cái nêm có cấu trúc ngăn không cho chúng đè bẹp bạn xuống",
+    "Tư thế không chiến mang lại cho bạn ba nhánh: một chân (wrestle up), chạm đầu gối (quét) hoặc re-guard (hồi phục bướm)",
+    "Việc giành được vị trí đầu (trán đến hàm của họ) sẽ ngăn họ đè bẹp bạn bằng áp lực từ vai"
+  ],
+  "commonMistakes": [
+    "Chiến đấu giành underhook từ tư thế nằm ngửa thay vì quay sang một bên trước",
+    "Để đối thủ crossface trong khi với lấy underhook — điều này làm lộ cổ",
+    "Kéo cánh tay underhook ra thay vì đẩy khuỷu tay lên trên nách",
+    "Ở trong trận không chiến quá lâu mà không phân nhánh - đối thủ cuối cùng sẽ hạ gục bạn"
+  ],
+  "coachingCues": [
+    "underhook hoặc chết",
+    "Đầu gối bên ngoài qua lưng",
+    "Trán đến hàm của họ"
+  ],
+  "safetySummary": [
+    "half guard là nơi thường xuyên bị thương ở ngón tay và ngón chân — giữ các ngón tay an toàn khi kẹp quần hoặc nhét móc vào",
+    "Nếu đối thủ có crossface mạnh, hãy bảo vệ cổ của bạn bằng cách quay đầu về phía thảm trước khi với tới underhook",
+    "Đừng ép không chiến nếu đầu gối của bạn bị kẹt - điều này có thể gây căng thẳng cho MCL"
+  ],
+  "keyCorrections": [],
+  "systemLogic": {
+    "corePrinciple": "Lối thoát phía dưới half guard có ba bước tuần tự: quay sang bên → thắng underhook → đưa đầu gối bên ngoài qua lưng",
+    "decisionTree": [
+      {
+        "condition": "Ứng dụng chung",
+        "action": "Nếu Bước 1, Quay sang một bên: trước khi với lấy bất cứ thứ gì, hãy quay nghiêng về phía đối thủ. Điều này căn chỉnh bộ xương của bạn cho phù hợp với khung và ngăn chúng làm phẳng bạn"
+      },
+      {
+        "condition": "Ứng dụng chung",
+        "action": "Nếu Bước 2, Thắng underhook: đập cánh tay gần của bạn sâu vào nách họ với khuỷu tay hướng lên trên. Đầu của bạn phải ở bên trong (trán đến hàm) hoặc bên ngoài (má đến vai)"
+      },
+      {
+        "condition": "Bước 3, Đầu gối bên ngoài: đưa đầu gối bên ngoài của bạn ngang qua lưng dưới của họ và đặt bàn chân của bạn lên. Điều này tạo ra con chó",
+        "action": "tư thế chiến đấu"
+      },
+      {
+        "condition": "Ứng dụng chung",
+        "action": "Từ trận không chiến, bạn có ba nhánh: một chân (họ đưa tay xa), chạm đầu gối (họ đăng gần) hoặc re-guard (họ lao vào bạn)"
+      }
+    ]
+  },
+  "moneyDetails": [
+    "half guard phía dưới là một trong những vị trí phổ biến nhất trong BJJ — một lối thoát đáng tin cậy ở đây cải thiện đáng kể trò chơi tổng thể của bạn",
+    "Việc thoát half guard thành công sẽ dẫn trực tiếp đến vị trí hàng đầu thống trị (side control hoặc mount thông qua đường chuyền)",
+    "Thoát khỏi half guard để vật lộn sẽ ghi điểm trong cuộc thi (2 điểm) và thiết lập quyền kiểm soát hàng đầu"
+  ],
+  "fixItFast": [
+    "Nếu họ đè bẹp bạn trước khi bạn nhận được underhook: hãy đi sâu half guard và quét chúng qua chân bị mắc kẹt",
+    "Nếu họ crossface bạn cứng: giấu đầu đi, đi về phía bạn và dùng cánh tay trên của bạn để ôm vào bắp tay của họ thay vì với tới underhook",
+    "Nếu đầu gối của họ trượt qua half guard của bạn: ngay lập tức lao vào họ, kẹp chân đang chuyền của họ vào giữa chân của bạn và đánh lại underhook"
+  ]
+}

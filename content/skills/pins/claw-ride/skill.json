@@ -1,0 +1,53 @@
+{
+  "id": "claw-ride",
+  "domain": "pins_rides",
+  "level": "advanced",
+  "name": "Claw Ride",
+  "aliases": [],
+  "tags": [
+    "claw-ride",
+    "ride",
+    "turtle",
+    "back-exposure",
+    "body-lock"
+  ],
+  "keywords": [
+    "claw ride",
+    "turtle",
+    "body lock",
+    "hip switch",
+    "back exposure"
+  ],
+  "relatedSkills": [
+    {
+      "id": "cross-wrist-ride",
+      "type": "recommended"
+    },
+    {
+      "id": "crucifix-control",
+      "type": "recommended"
+    },
+    {
+      "id": "back-attack-system",
+      "type": "recommended"
+    }
+  ],
+  "prerequisiteSkillIds": [
+    "turtle-ride",
+    "crab-ride"
+  ],
+  "relatedPositions": [],
+  "relatedConcepts": [],
+  "archetypeIds": [],
+  "trainingMethodIds": [],
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "updatedAt": "2026-05-21T00:24:30.768Z"
+}

@@ -1,0 +1,61 @@
+{
+  "id": "octopus-guard-control",
+  "locale": "vi",
+  "name": "Bạch tuộc guard Kiểm soát",
+  "description": "Giữ tư thế bạch tuộc guard với tư thế quấn xa hông, góc ngồi và crossface từ chối để kiểm soát phần thân trên của đối phương và ngăn họ vượt qua.",
+  "shortInstruction": "Quấn hông xa, ngồi nghiêng, từ chối crossface — con bạch tuộc guard đang điều khiển từ bên dưới.",
+  "summary": "Bạch tuộc guard là một guard dành riêng cho No-Gi trong đó bạn ngồi sang một bên của đối thủ, vòng tay quanh hông xa của họ (hoặc vươn tay xuống dưới cơ thể họ) và dùng chân của bạn để bám vào chân gần của họ. Vị trí này ngăn chúng đè bẹp bạn hoặc tạo áp lực crossface. Từ đây, bạn có thể quét (bằng cách kéo hông xa của họ), ra sau hoặc vướng vào chân.",
+  "whyItWorks": [
+    "Ngồi sang một bên sẽ loại bỏ khả năng đè bẹp bạn bằng áp lực của ngực - chúng không có góc vuông để vượt qua.",
+    "Lớp quấn xa hông kiểm soát trọng tâm của chúng - bạn có thể cảm nhận được mọi sự thay đổi trọng lượng mà chúng thực hiện.",
+    "Chân của bạn đặt trên chân gần của họ khiến họ không thể bước vào đường chuyền.",
+    "Nguyên tắc Danaher: nếu bạn không thể bị san phẳng, bạn không thể bị vượt qua - bạch tuộc guard là vị trí chống phẳng."
+  ],
+  "commonMistakes": [
+    "Mất phần quấn ở hông xa - đây là điểm kiểm soát chính của bạn; không có nó, họ quay đi.",
+    "Ngồi vuông góc thay vì ngồi một góc — vị trí vuông góc mang lại cho họ crossface.",
+    "Để họ bước qua chân khung của bạn - một khi họ đã dọn sạch chân, đường chuyền đã hoàn thành một nửa.",
+    "Ở trong bạch tuộc guard quá lâu - đó là vị trí kiểm soát chuyển tiếp, không phải là nhà."
+  ],
+  "coachingCues": [
+    "Ngồi sang một bên, không ngồi phía trước.",
+    "Quấn xa hông, sở hữu vòng xoay.",
+    "Khung chân là bức tường của bạn - đừng để chúng bước qua.",
+    "Nếu họ từ chối việc quấn hông, hãy đấm vào underhook."
+  ],
+  "safetySummary": [
+    "Đừng để họ tóm lấy đầu bạn và crossface — giữ chặt đầu bạn vào cơ thể họ hoặc ở phía đối diện.",
+    "Bảo vệ đầu gối gần bên của bạn khỏi bị duỗi quá mức khi chúng cố gắng đá xuyên qua khung của bạn.",
+    "Khi họ lao vào bạn, đừng thẳng tay - giữ khuỷu tay của bạn cong."
+  ],
+  "keyCorrections": [
+    "Nếu chúng quay đi thì phần quấn ở xa hông của bạn đã bị lỏng — hãy thắt chặt phần quấn hoặc chuyển sang underhook.",
+    "Nếu họ crossface bạn, bạn đang ngồi quá vuông góc — hãy tránh xa áp lực của họ một góc sắc nét hơn.",
+    "Nếu họ vượt qua khung chân của bạn, bạn đã đợi quá lâu để tấn công - quét hoặc chuyển đổi ngay lập tức."
+  ],
+  "systemLogic": {
+    "corePrinciple": "Ngồi sang một bên → quấn xa hông hoặc đưa tay xuống dưới cơ thể → dùng hai chân ôm gần chân → cảm nhận sức nặng của chúng → quét hoặc thu về phía sau.",
+    "decisionTree": [
+      {
+        "condition": "Ứng dụng chung",
+        "action": "Tùy chọn Octopus guard: quét chúng về phía trước (kéo hông), quét chúng về phía sau (thang máy) hoặc lùi lại khi chúng quay đi."
+      },
+      {
+        "condition": "Ứng dụng chung",
+        "action": "Nếu họ từ chối mục nhập của bạch tuộc, hãy chuyển sang guard ngồi hoặc nửa sâu."
+      }
+    ]
+  },
+  "moneyDetails": [
+    "Quấn cánh tay của bạn quanh hông xa nhất của họ càng sâu càng tốt - quấn càng sâu, bạn càng có nhiều quyền kiểm soát.",
+    "Chân gần của bạn đặt trên đùi họ, chân xa của bạn đặt trên hông họ - hai điểm kiểm soát chân.",
+    "Giữ đầu của bạn ở phía xa cơ thể của họ để tránh crossfaces.",
+    "Khi bạn cảm thấy họ dồn trọng lượng về phía trước, hãy kéo hông xa ngang cơ thể để quét."
+  ],
+  "nextStep": "Sau khi điều khiển bạch tuộc guard, hãy tìm hiểu thao tác quét và lùi của bạch tuộc guard.",
+  "fixItFast": [
+    "Họ quay ra? Thiết lập lại vòng quấn xa hông trước khi chúng vuông vức.",
+    "Họ crossface bạn? Ngồi sâu hơn sang một bên - đưa đầu bạn ra khỏi đường giữa.",
+    "Họ vượt qua khung chân của bạn? Chuyển sang half guard sâu ngay lập tức."
+  ]
+}

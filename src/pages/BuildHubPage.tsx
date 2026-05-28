@@ -1,69 +1,179 @@
-import { Link } from 'react-router-dom'
+import { useMemo } from 'react'
+import { Link, useSearchParams } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import { ArrowRight, Layers3, Palette, Route } from 'lucide-react'
 import { Badge } from '../components/common/Badge'
+import { EmptyState } from '../components/common/EmptyState'
+import { HubTabBar } from '../components/layout/HubTabBar'
 import { PageShell } from '../components/common/PageShell'
-
-const buildLinks = [
-  { key: 'archetypes', to: '/archetypes', icon: Palette },
-  { key: 'mastery', to: '/mastery', icon: Route },
-]
+import { SectionCard } from '../components/common/SectionCard'
+import { useArchetypesQuery } from '../queries/archetypeQueries'
+import { useSettingsStore } from '../stores/useSettingsStore'
+import { masteryStages } from '../data/masteryStages'
+import { getLocalizedArray, getLocalizedText } from '../utils/localization'
 
 export default function BuildHubPage() {
   const { t } = useTranslation()
+  const lang = useSettingsStore((state) => state.language)
+  const [searchParams, setSearchParams] = useSearchParams()
+  const activeTab = searchParams.get('tab') || 'archetypes'
+
+  // Archetypes data — computed at top level (hooks must be unconditional)
+  const archetypesQuery = useArchetypesQuery()
+  const archetypes = useMemo(() => archetypesQuery.data ?? [], [archetypesQuery.data])
+
+  const archetypeQuery = searchParams.get('q') ?? ''
+  const filteredArchetypes = useMemo(() => {
+    if (!archetypeQuery.trim()) return archetypes
+    const normalized = archetypeQuery.trim().toLowerCase()
+    return archetypes.filter((a) => {
+      const haystack = [
+        getLocalizedText(a.title, lang),
+        a.title.en,
+        getLocalizedText(a.shortDescription, lang),
+        ...getLocalizedArray(a.bestFor, lang),
+        ...a.coreSkillIds,
+      ].join(' ').toLowerCase()
+      return haystack.includes(normalized)
+    })
+  }, [archetypes, archetypeQuery, lang])
+
+  const setQuery = (value: string) => {
+    const next = new URLSearchParams(searchParams)
+    if (value) next.set('q', value)
+    else next.delete('q')
+    setSearchParams(next)
+  }
+
+  const renderTabContent = () => {
+    switch (activeTab) {
+      case 'archetypes':
+        return (
+          <div className="space-y-4">
+            <div className="flex items-center justify-between">
+              <p className="text-sm text-slate-400">{t('archetypes.whenToUse')}</p>
+              <Link
+                to="/archetypes"
+                className="text-xs font-medium text-violet-400 hover:text-violet-300 transition-colors"
+              >
+                {t('common.open')} →
+              </Link>
+            </div>
+
+            <input
+              value={archetypeQuery}
+              onChange={(event) => setQuery(event.target.value)}
+              placeholder={t('archetypes.search')}
+              className="w-full rounded-md border border-white/10 bg-slate-900 px-3 py-2 text-sm text-white outline-none focus:border-violet-300"
+            />
+
+            {!filteredArchetypes.length ? (
+              <EmptyState title={t('archetypes.empty')} />
+            ) : (
+              <div className="grid gap-3 sm:grid-cols-2">
+                {filteredArchetypes.slice(0, 10).map((archetype) => (
+                  <Link
+                    key={archetype.id}
+                    to={`/archetypes/${archetype.id}`}
+                    className="group rounded-xl border border-white/[0.06] bg-slate-900/40 p-4 transition-all hover:border-violet-400/20 hover:bg-slate-900/70"
+                  >
+                    <div className="flex items-start justify-between gap-3">
+                      <div className="min-w-0">
+                        <div className="flex flex-wrap gap-1.5">
+                          <Badge tone="violet">{archetype.coreSkillIds.length} {t('archetypes.coreSkillsCount', { count: archetype.coreSkillIds.length }).replace(/^\d+\s/, '')}</Badge>
+                        </div>
+                        <h3 className="mt-2 text-sm font-semibold text-white group-hover:text-violet-200 transition-colors">
+                          {getLocalizedText(archetype.title, lang)}
+                        </h3>
+                        <p className="mt-1 line-clamp-2 text-xs leading-5 text-slate-400">
+                          {getLocalizedText(archetype.shortDescription, lang)}
+                        </p>
+                      </div>
+                      <ArrowRight className="mt-1 h-4 w-4 shrink-0 text-violet-300/50 transition-all group-hover:translate-x-0.5 group-hover:text-violet-300" />
+                    </div>
+                  </Link>
+                ))}
+              </div>
+            )}
+
+            {archetypes.length > 10 && (
+              <div className="text-center">
+                <Link
+                  to="/archetypes"
+                  className="inline-flex items-center gap-1.5 text-sm font-medium text-violet-400 hover:text-violet-300 transition-colors"
+                >
+                  {t('common.open')} → <span className="text-slate-500">({archetypes.length} {t('archetypes.coreSkillsCount', { count: archetypes.length }).replace(/^\d+\s/, '')})</span>
+                </Link>
+              </div>
+            )}
+          </div>
+        )
+
+      case 'mastery':
+        return (
+          <div className="space-y-4">
+            <div className="flex items-center justify-between">
+              <p className="text-sm text-slate-400">{t('mastery.whenToUse')}</p>
+              <Link
+                to="/mastery"
+                className="text-xs font-medium text-violet-400 hover:text-violet-300 transition-colors"
+              >
+                {t('common.open')} →
+              </Link>
+            </div>
+
+            {masteryStages.map((stage) => (
+              <SectionCard
+                key={stage.id}
+                title={`${stage.order}. ${getLocalizedText(stage.title, lang)}`}
+                description={getLocalizedText(stage.shortDescription, lang)}
+              >
+                <p className="text-sm leading-6 text-slate-300 line-clamp-3">
+                  {getLocalizedText(stage.philosophy, lang)}
+                </p>
+              </SectionCard>
+            ))}
+          </div>
+        )
+
+      default:
+        return null
+    }
+  }
 
   return (
     <PageShell
       header={
-        <div className="space-y-4">
-          <div className="flex items-center gap-4">
-            <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-gradient-to-br from-violet-400 to-purple-500 shadow-lg shadow-violet-500/20">
-              <Layers3 className="h-6 w-6 text-slate-950" aria-hidden="true" />
-            </div>
-            <div>
-              <div className="flex items-center gap-2">
-                <Badge tone="violet">System Builder</Badge>
+        <div className="relative overflow-hidden rounded-3xl border border-white/[0.06] bg-slate-900/30 p-8 hero-blob-build">
+          <div className="pointer-events-none absolute -right-16 -top-16 h-48 w-48 rounded-full bg-violet-400/5 blur-[80px]" />
+          <div className="relative z-10 space-y-4">
+            <div className="flex items-center gap-4">
+              <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-gradient-to-br from-violet-400 to-purple-500 shadow-lg shadow-violet-500/25">
+                <Layers3 className="h-7 w-7 text-slate-950" aria-hidden="true" />
               </div>
-              <h1 className="mt-2 display-heading text-3xl font-extrabold text-white lg:text-4xl">{t('nav.build')}</h1>
-              <p className="mt-2 max-w-2xl text-base leading-relaxed text-slate-400">
-                Connect your core skills into a coherent no-gi system.
-              </p>
+              <div>
+                <Badge tone="violet" className="text-[10px] uppercase tracking-widest">System Builder</Badge>
+                <h1 className="mt-1 display-heading text-3xl font-extrabold text-white lg:text-4xl">{t('nav.build')}</h1>
+                <p className="mt-1 max-w-2xl text-base leading-relaxed text-slate-400">
+                  {t('modeUx.map.subtitle')}
+                </p>
+              </div>
             </div>
           </div>
         </div>
       }
     >
-      <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
-        {buildLinks.map((item) => {
-          const Icon = item.icon
-          return (
-            <Link
-              key={item.key}
-              to={item.to}
-              className="card-hover group relative overflow-hidden rounded-xl border border-white/10 bg-slate-950/60 p-6 transition-all duration-200 hover:border-violet-400/30 hover:bg-violet-400/[0.04]"
-            >
-              {/* Subtle corner gradient */}
-              <div className="absolute -right-12 -top-12 h-24 w-24 rounded-full bg-violet-400/5 blur-2xl transition-all duration-300 group-hover:bg-violet-400/10" />
-              <div className="relative z-10 flex items-start justify-between gap-4">
-                <div className="flex-1">
-                  <div className="mb-3 flex h-9 w-9 items-center justify-center rounded-lg bg-violet-400/10 text-violet-300">
-                    <Icon className="h-4 w-4" aria-hidden="true" />
-                  </div>
-                  <h2 className="text-lg font-semibold text-white transition-colors group-hover:text-violet-100">
-                    {t(`modeUx.reference.items.${item.key}.title`)}
-                  </h2>
-                  <p className="mt-2 text-sm leading-6 text-slate-400">
-                    {t(`modeUx.reference.items.${item.key}.body`)}
-                  </p>
-                </div>
-                <ArrowRight
-                  className="mt-2 h-5 w-5 shrink-0 text-violet-300/50 transition-all group-hover:translate-x-0.5 group-hover:text-violet-300"
-                  aria-hidden="true"
-                />
-              </div>
-            </Link>
-          )
-        })}
+      <HubTabBar
+        tabs={[
+          { id: 'archetypes', labelKey: 'nav.archetypes', icon: Palette },
+          { id: 'mastery', labelKey: 'nav.mastery', icon: Route },
+        ]}
+        accent="violet"
+        className="mb-6"
+      />
+
+      <div className="animate-slideUp" key={activeTab}>
+        {renderTabContent()}
       </div>
     </PageShell>
   )

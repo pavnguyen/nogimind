@@ -1,0 +1,71 @@
+{
+  "id": "knee-cut-passing",
+  "locale": "vi",
+  "name": "Cắt đầu gối",
+  "description": "Sử dụng động tác cắt đầu gối với crossface và underhook hoặc bước dài để đánh knee shield. Phần cắt đầu gối là tỷ lệ đậu guard cao nhất trong No-Gi BJJ.",
+  "shortInstruction": "Từ trụ sở chính, thả đầu gối đã đăng ký của bạn xuống tấm thảm, vòng qua knee shield của họ, ghim vào đầu họ bằng crossface và lái xe đến side control.",
+  "summary": "Cú cắt đầu gối pass tấn công vào khoảng trống giữa hông và chân gần của đối phương khi họ phòng thủ bằng knee shield hoặc half guard. pass hoạt động bằng cách: (1) ghim đầu họ bằng crossface để ngăn họ biến thành bạn, (2) đẩy đầu gối gần của bạn vượt qua knee shield của họ vào khoảng trống ở hông họ, (3) duỗi chân của bạn để ghim gần hông họ và (4) cố định vào side control. Kiểu cắt đầu gối là lựa chọn phù hợp pass trong hầu hết các tình huống No-Gi vì nó duy trì áp lực tối đa xuyên suốt và yêu cầu không gian tối thiểu.",
+  "whyItWorks": [
+    "crossface khiến đối thủ không thể nhìn đi chỗ khác — đầu đi đâu, cơ thể theo đó",
+    "Đưa đầu gối qua knee shield tấn công điểm cấu trúc yếu nhất của guard — hông",
+    "Việc cắt đầu gối duy trì áp lực từ ngực đến ngực trong suốt đường chuyền, ngăn họ tái guarding",
+    "Kiểu cắt đầu gối phù hợp với tất cả các loại guard (half guard, nửa sâu, Z-guard, knee shield)"
+  ],
+  "commonMistakes": [
+    "Cắt đầu gối mà không có crossface - crossface là thứ ngăn cản họ trốn thoát chứ không phải vị trí đầu gối",
+    "Để vết cắt đầu gối dừng lại ở hông - lái xe qua đèo không do dự",
+    "Mất underhook trong khi vượt qua — underhook sẽ ngăn họ biến thành bạn",
+    "Cắt quá cao (trên hông) thay vì dưới đường hông"
+  ],
+  "coachingCues": [
+    "crossface đầu tiên, cắt đầu gối thứ hai",
+    "Đầu gối qua hông, không ở trên nó",
+    "Lái xe qua, đừng dừng lại",
+    "underhook ngăn cuộn"
+  ],
+  "safetySummary": [
+    "crossface nên nhắm mục tiêu vào vùng hàm/má chứ không phải cổ họng — áp lực vào cổ họng có thể gây thương tích",
+    "Đừng cắt mạnh đầu gối nếu đầu gối của bạn ở một góc khó xử - điều này có thể làm căng MCL",
+    "Nếu đối thủ lăn bất ngờ trong khi cắt đầu gối, hãy bảo vệ đầu của bạn và thực hiện động tác lăn"
+  ],
+  "keyCorrections": [
+    "Nếu vết cắt ở đầu gối bị cản trở: crossface của bạn không đủ sâu — hãy lái crossface mạnh hơn để chúng quay đầu đi",
+    "Nếu chúng lao vào bạn: bạn đã mất underhook — hãy đập lại underhook trước khi cắt",
+    "Nếu họ tái guard sau khi cắt: bạn đã giải phóng crossface quá sớm — duy trì crossface đến side control"
+  ],
+  "systemLogic": {
+    "corePrinciple": "Việc cắt đầu gối có bốn giai đoạn: crossface → Nhập đầu gối → Mở rộng → side control",
+    "decisionTree": [
+      {
+        "condition": "Trong Giai đoạn 1 (crossface)",
+        "action": "từ trụ sở chính, đưa cánh tay gần của bạn ngang qua mặt họ (hàm/má) và ghim đầu họ xuống thảm. Điều này ngăn họ quay sang bạn hoặc nhìn đi chỗ khác"
+      },
+      {
+        "condition": "Trong Giai đoạn 2 (Đầu gối vào)",
+        "action": "thả đầu gối đã đăng của bạn ra khỏi hông họ và đưa nó vượt qua knee shield của họ. Đầu gối phải trượt ngang hông, không cao hơn nó"
+      },
+      {
+        "condition": "Trong Giai đoạn 3 (Mở rộng)",
+        "action": "Khi đầu gối đã qua hông của họ, hãy duỗi chân của bạn để ghim hông gần của họ vào thảm. Điều này ngăn họ khôi phục guard"
+      },
+      {
+        "condition": "Ở Giai đoạn 4 (side control)",
+        "action": "ổn định vào side control với áp lực từ ngực đến ngực, underhook và crossface"
+      },
+      {
+        "condition": "Chọn một biến thể",
+        "action": "cắt đầu gối tiêu chuẩn (crossface + underhook), cắt đầu gối bước dài (bước chân xa qua đầu để tránh bị lăn)"
+      }
+    ]
+  },
+  "moneyDetails": [
+    "Việc cắt đầu gối là tỷ lệ phần trăm cao nhất guard pass trong No-Gi — đây phải là pass chính của bạn từ trụ sở chính",
+    "Việc nắm vững cách cắt đầu gối sẽ mang lại cho bạn một con đường đáng tin cậy đến side control từ bất kỳ open guard nào",
+    "Cú cắt đầu gối tới side control ghi được 3 điểm trong IBJJF (guard vượt qua)"
+  ],
+  "fixItFast": [
+    "Nếu họ tiếp tục lăn vào vết cắt: hãy thêm bước dài - bước chân xa của bạn qua đầu họ để chặn cú lăn",
+    "Nếu họ tiếp tục đóng khung ống chân: thả trọng lượng của bạn lên ống chân để làm nó xẹp xuống trước khi cắt",
+    "Nếu họ tiếp tục tái guarding: hãy duy trì crossface trong toàn bộ quá trình chuyển đổi sang side control"
+  ]
+}

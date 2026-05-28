@@ -1,0 +1,65 @@
+{
+  "id": "deliberate-practice",
+  "locale": "fr",
+  "title": "Pratique délibérée",
+  "category": "training",
+  "level": "fundamental",
+  "tags": [
+    "training",
+    "feedback loop",
+    "practice"
+  ],
+  "shortDefinition": "La pratique délibérée choisit un cue précis, mesure résultat et augmente résistance progressivement.",
+  "whyItMatters": "Connaître beaucoup de techniques ne devient pas skill sans feedback loop.",
+  "deepExplanation": "Un bon bloc a répétitions, résistance progressive, rolling positionnel, live test et journal. Chaque boucle demande: quel cue marche, lequel échoue, quel problème revient ?",
+  "beginnerView": "Travailler un petit objectif sur plusieurs rounds.",
+  "advancedView": "Concevoir contraintes qui font apparaître skill sous pression réelle.",
+  "ifThenExamples": [
+    {
+      "if": "Si vous perdez Pratique délibérée pendant l’échange.",
+      "then": "Arrêtez d’accélérer, récupérez la structure corporelle proche, puis continuez.",
+      "why": "Le no-gi moderne punit vite la force après perte de structure.",
+      "relatedSkillIds": [
+        "positional-hierarchy",
+        "failure-response-transitions"
+      ]
+    },
+    {
+      "if": "Si l’adversaire répond correctement à votre première ligne.",
+      "then": "Utilisez Pratique délibérée pour passer à une branche plus sûre au lieu de forcer.",
+      "why": "Un bon concept transforme la réaction adverse en information pour la décision suivante.",
+      "relatedSkillIds": [
+        "failure-response-transitions",
+        "scramble-control",
+        "bodylock-passing"
+      ]
+    }
+  ],
+  "commonMisunderstandings": [
+    {
+      "misunderstanding": "Pratique délibérée est une astuce technique isolée.",
+      "correction": "Voyez-le comme une règle de décision présente dans plusieurs positions."
+    },
+    {
+      "misunderstanding": "Comprendre le concept suffit pour l’utiliser en live.",
+      "correction": "Le concept doit être lié à signaux corporels, cues courts et rolling positionnel."
+    }
+  ],
+  "trainingCues": [
+    "Nommez Pratique délibérée avant d’ajouter force.",
+    "Cherchez le signal corporel, pas une impression vague.",
+    "Si la structure est perdue, reset une couche d’abord.",
+    "Driller lentement, puis tester avec résistance progressive."
+  ],
+  "relatedSkillIds": [
+    "positional-hierarchy",
+    "failure-response-transitions",
+    "scramble-control",
+    "bodylock-passing"
+  ],
+  "relatedConceptIds": [
+    "positional-rolling",
+    "failure-response",
+    "early-vs-late-defense"
+  ]
+}

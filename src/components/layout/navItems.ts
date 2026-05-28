@@ -46,7 +46,7 @@ export const hubNavItems: HubNavItem[] = [
     hub: 'fix',
     labelKey: 'nav.fix',
     icon: Wrench,
-    to: '/troubleshooters',
+    to: '/fix',
     items: [
       { key: 'nav.troubleshooters', to: '/troubleshooters' },
       { key: 'nav.escapeMaps', to: '/escape-maps' },

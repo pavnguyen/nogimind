@@ -1,0 +1,130 @@
+{
+  "id": "front-headlock-system",
+  "domain": "wrestle_up_wrestling",
+  "level": "intermediate",
+  "status": "draft",
+  "name": "front headlock Système",
+  "aliases": [],
+  "tags": [
+    "front-headlock",
+    "guillotine",
+    "darce",
+    "anaconda",
+    "go-behind"
+  ],
+  "keywords": [
+    "front headlock",
+    "guillotine",
+    "darce",
+    "anaconda",
+    "go-behind",
+    "snap down"
+  ],
+  "relatedSkills": [
+    {
+      "id": "guillotine-system",
+      "type": "recommended"
+    },
+    {
+      "id": "sprawl-go-behind",
+      "type": "recommended"
+    },
+    {
+      "id": "back-control",
+      "type": "recommended"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "snapdown-front-headlock",
+    "hand-fighting"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [
+    "Si l'adversaire continue d'échapper à la chaîne : vous abandonnez la position de la tête — maintenez la pression de la tête entre les attaques",
+    "Si vous ne parvenez pas à verrouiller le d'arce : le bras n'est pas assez profond – enfoncez votre main plus profondément dans l'aisselle avant de verrouiller.",
+    "S'ils vous prennent le dos : vous laissez votre tête dériver à l'intérieur - gardez la tête vers l'extérieur tout au long"
+  ],
+  "version": 1,
+  "updatedAt": "2026-05-21T00:24:30.765Z",
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "fr",
+  "description": "Le système front headlock enchaîne snapdown en guillotine, d'arce, anaconda ou passe en arrière comme une séquence d'attaque continue. Il s’agit du système de contrôle du haut du corps le plus puissant du grappling No-Gi.",
+  "shortInstruction": "Depuis le contrôle de la tête, enchaînez les attaques dans cet ordre : snapdown → guillotine → d'arce → anaconda → go-derrière. Gardez la tête tournée vers l’extérieur et n’abandonnez jamais la position front headlock.",
+  "summary": "Le système front headlock est une séquence d'attaque continue à partir de la position front headlock (un bras autour de la tête, l'autre contrôlant le bras ou la hanche éloigné). A partir de cette position, vous enchaînez les soumissions et les avancées de position : le snapdown casse sa posture, le guillotine menace le cou, le d'arce attaque le cou par le côté, le anaconda attaque par l'avant et le go-derrière prend le dos. La clé est de ne jamais abandonner le front headlock : si une attaque échoue, passez immédiatement à la suivante.",
+  "whyItWorks": [
+    "La position front headlock contrôle la tête et un bras de l'adversaire - les deux principaux outils d'équilibre et de défense",
+    "Enchaîner cinq attaques depuis une même position crée un dilemme insoluble : ils ne peuvent pas défendre les cinq",
+    "Le front headlock est disponible à partir des sprawl, snapdown et des échecs de retrait - c'est la position de brouillage la plus courante.",
+    "Chaque attaque de la chaîne déclenche la suivante : la menace guillotine ouvre le d'arce, le d'arce ouvre le go-behind."
+  ],
+  "commonMistakes": [
+    "Abandonner le front headlock pour réinitialiser - une fois que vous avez la position, enchaînez les attaques plutôt que de réinitialiser",
+    "S'engager trop pleinement dans une seule soumission - la chaîne nécessite 70 % d'engagement, 30 % de sensibilisation à la transition",
+    "Laisser l'adversaire s'asseoir ou rétablir la base - maintenir la pression de la tête tout au long",
+    "Ne pas protéger votre propre position : gardez la tête vers l'extérieur et les hanches basses"
+  ],
+  "coachingCues": [
+    "Tête dehors, hanches basses",
+    "Enchaînez les attaques, ne réinitialisez pas",
+    "Snap → guillotine → d'arce → anaconda → aller derrière",
+    "N'abandonnez jamais le front headlock"
+  ],
+  "safetySummary": [
+    "Les starters d'arce et anaconda peuvent s'activer rapidement : appliquez une pression contrôlée et relâchez au robinet.",
+    "Ne tournez pas le cou pendant le snapdown - le snapdown contrôle la posture, il n'attaque pas le cou",
+    "Si l'adversaire sort du front headlock, protégez votre tête et reprenez le contrôle avant de continuer l'enchaînement."
+  ],
+  "systemLogic": {
+    "corePrinciple": "Le système front headlock comporte cinq attaques dans une séquence spécifique : snapdown → guillotine → d'arce → anaconda → Go-Behind",
+    "decisionTree": [
+      {
+        "condition": "Utilisation de l'attaque 1 (snapdown)",
+        "action": "enfoncez la tête de l'adversaire contre le tapis, brisant sa posture. C'est l'entrée de toutes les attaques ultérieures"
+      },
+      {
+        "condition": "Utilisation de l'attaque 2 (guillotine)",
+        "action": "lorsque sa tête baisse, glissez votre bras d'étouffement sous son menton et verrouillez le guillotine. S'ils défendent, passez à d'arce"
+      },
+      {
+        "condition": "Utilisation de l'attaque 3 (d'arce)",
+        "action": "lorsqu'ils défendent le guillotine en tirant la tête en arrière, enfoncez votre bras étouffant plus profondément dans leur aisselle éloignée et verrouillez le d'arce en connectant vos mains. Le d'arce attaque le cou par le côté"
+      },
+      {
+        "condition": "Utilisation de l'attaque 4 (anaconda)",
+        "action": "si le d'arce échoue (ils se transforment en vous), basculez le verrou de l'autre côté et appliquez le anaconda. Le anaconda attaque le cou de face"
+      },
+      {
+        "condition": "Utilisation de l'attaque 5 (Go-Behind)",
+        "action": "si tous les starters échouent, relâchez la tête et tournez derrière eux pour prendre le dos. La position front headlock passe naturellement à une prise en arrière"
+      }
+    ],
+    "exitStrategies": []
+  },
+  "moneyDetails": [
+    "Le système front headlock est le système d'attaque du haut du corps le plus important dans No-Gi — il est utilisé à tous les niveaux de lutte.",
+    "Maîtriser la chaîne front headlock vous donne cinq attaques depuis une position – vous terminez presque toujours",
+    "Le front headlock est la position de notation principale parmi les sprawl et snapdowns - c'est l'échange de lutte le plus courant."
+  ],
+  "fixItFast": [
+    "Si vous ne parvenez à verrouiller aucun starter : allez directement au conducteur - le front headlock a toujours l'option de prise arrière",
+    "Si l'adversaire libère ses bras : réinitialisez le front headlock avec une prise de tête plus serrée.",
+    "S'ils s'assoient : faites-les redescendre avec le snapdown avant de démarrer la chaîne"
+  ]
+}

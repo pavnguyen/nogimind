@@ -1,0 +1,48 @@
+{
+  "id": "failure-response-transitions",
+  "domain": "positional_awareness",
+  "level": "intermediate",
+  "name": "Failure Response and Transitions",
+  "aliases": [],
+  "tags": [
+    "transitions",
+    "systems"
+  ],
+  "keywords": [
+    "failure response",
+    "transition chain",
+    "base recovery",
+    "decision tree"
+  ],
+  "relatedSkills": [
+    {
+      "id": "scramble-control",
+      "type": "recommended"
+    },
+    {
+      "id": "dilemmas-two-way-attacks",
+      "type": "recommended"
+    },
+    {
+      "id": "seated-guard-retention",
+      "type": "recommended"
+    }
+  ],
+  "prerequisiteSkillIds": [
+    "positional-hierarchy"
+  ],
+  "relatedPositions": [],
+  "relatedConcepts": [],
+  "archetypeIds": [],
+  "trainingMethodIds": [],
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "updatedAt": "2026-05-21T00:24:30.757Z"
+}

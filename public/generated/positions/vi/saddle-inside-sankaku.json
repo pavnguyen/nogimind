@@ -1,0 +1,56 @@
+{
+  "id": "saddle-inside-sankaku",
+  "locale": "vi",
+  "title": "Saddle / Inside Sankaku",
+  "category": "leg_entanglement",
+  "status": "critical",
+  "description": "Leg entanglement mạnh quanh hip line và knee line, thường có nguy cơ heel hook nếu gót bị lộ.",
+  "topPlayerGoals": [
+    "Người ở trên muốn kiểm soát Saddle / Inside Sankaku bằng vị trí đầu, vị trí trong và áp lực có hướng.",
+    "Attacker muốn isolate knee line, chân phụ và tạo heel exposure.",
+    "Giữ nền vững để không bị mất thăng bằng hoặc bị phản đòn."
+  ],
+  "bottomPlayerGoals": [
+    "Người ở dưới muốn sống sót trong Saddle / Inside Sankaku bằng khung chặn, pummel hoặc góc phù hợp.",
+    "Defender muốn giấu gót, giải phóng chân phụ và thoát knee line.",
+    "Nhận diện tín hiệu nguy hiểm sớm thay vì chờ vị trí ổn định."
+  ],
+  "controlPoints": [
+    "Điểm kiểm soát chính: Knee line bị kẹt, gót bị lộ và hướng xoay hông..",
+    "Đầu, tay, hông và gối nên cùng hướng lực.",
+    "Kết nối khuỷu-gối hoặc đường hông-vai quyết định vị trí còn sống hay đã bị khóa."
+  ],
+  "escapePriorities": [
+    "Ưu tiên thoát: Không spin mù vào áp lực xoắn..",
+    "Bảo vệ cổ, lưng, đường gối hoặc đường tay trước khi phản công.",
+    "Nếu mất vị trí trong, hãy lùi lại một lớp phòng thủ trước."
+  ],
+  "advancementOptions": [
+    {
+      "action": "Giải phóng knee line trước khi xoay",
+      "nextPositionId": "scramble-neutral",
+      "relatedSkillIds": [
+        "heel-hook-safety",
+        "leg-lock-safety-basics",
+        "k-guard-entry"
+      ],
+      "why": "Đây là nhánh tự nhiên khi bạn thắng điểm kiểm soát chính và đối thủ buộc phải phòng thủ."
+    }
+  ],
+  "dangerSignals": [
+    "Cằm hoặc cổ bị kéo ra khỏi đường an toàn.",
+    "Khuỷu tay tách khỏi sườn hoặc đầu gối.",
+    "Đường hông bị khóa trong khi đường vai vẫn đang bị kéo.",
+    "Bạn phải chống tay dài để không ngã."
+  ],
+  "relatedSkillIds": [
+    "heel-hook-safety",
+    "leg-lock-safety-basics",
+    "k-guard-entry"
+  ],
+  "relatedConceptIds": [
+    "leg-lock-safety-hierarchy",
+    "knee-line",
+    "early-vs-late-defense"
+  ]
+}

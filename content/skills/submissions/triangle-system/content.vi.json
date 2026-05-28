@@ -1,0 +1,61 @@
+{
+  "id": "triangle-system",
+  "locale": "vi",
+  "name": "triangle Hệ thống",
+  "description": "Khóa một vai vào và một vai ra ngoài, bẻ tư thế của đối phương, cắt góc và siết chặt - triangle là đòn bóp chân dùng chính vai của đối phương để đóng đòn sặc.",
+  "shortInstruction": "Một tay vào, một tay đưa ra, tư thế bẻ cong, cắt góc, siết chặt — triangle là lực điều khiển cuối cùng của guard.",
+  "summary": "Cuộn cảm triangle là tỷ lệ phần trăm gửi cao nhất từ ​​closed guard. Nó hoạt động bằng cách nhốt một trong hai cánh tay của họ vào trong chân bạn trong khi cánh tay còn lại ở bên ngoài, tạo ra 'triangle' chân của bạn quanh cổ và cánh tay của họ. Khi bạn cắt một góc (đưa hông của bạn ra xa họ), vai của họ sẽ ấn vào một bên động mạch cảnh của họ trong khi chân của bạn sẽ ép vào bên kia. Vai của đối phương trở thành một phần của nghẹt thở - đây là lý do tại sao triangle lại hiệu quả đến vậy.",
+  "whyItWorks": [
+    "Vai của đối phương thực hiện đòn siết cổ - cơ thể của họ được sử dụng để chống lại họ.",
+    "Cắt góc (đưa hông ra xa) sẽ siết chặt cuộn cảm mà không cần phải bóp mạnh hơn.",
+    "triangle bẫy một cánh tay, ngăn không cho chúng đăng hoặc căn cứ để trốn thoát.",
+    "Nguyên tắc Danaher: triangle là cuộn cảm hiệu quả nhất về mặt cơ học trong BJJ — khi góc đúng, cuộn cảm hầu như không cần đến lực ép."
+  ],
+  "commonMistakes": [
+    "Khóa triangle quá sớm - chỉ khóa sau khi phá vỡ tư thế và cắt góc.",
+    "Không cắt góc trước khi ép — một hình vuông triangle có thể thoát ra bằng tư thế.",
+    "Để cánh tay bị mắc kẹt của họ trượt ra ngoài - cánh tay phải được ghim chặt vào cơ thể bạn.",
+    "Siết chặt bằng hai chân trước khi khóa triangle — khóa phải được cố định chắc chắn trước khi thực hiện bất kỳ thao tác bóp nào."
+  ],
+  "coachingCues": [
+    "Một tay vào, một tay ra — đó là triangle.",
+    "Phá tư thế, cắt góc, khóa, bóp.",
+    "Đưa hông của bạn ra xa - góc tạo ra cảm giác nghẹt thở.",
+    "Vai của họ là đối tác của bạn - hãy để nó giúp bạn."
+  ],
+  "safetySummary": [
+    "triangle nén động mạch cổ và động mạch cảnh — áp dụng dần dần và thả ra khi nhấn.",
+    "Đừng kéo đầu đối phương xuống một cách mạnh mẽ - điều này có thể khiến cổ bị cong.",
+    "Thả ngay khi chạm vào — triangle cuộn cảm có thể khiến bạn bất tỉnh nhanh chóng."
+  ],
+  "keyCorrections": [
+    "Nếu cảm thấy cuộn cảm bị lỏng, góc của bạn chưa đủ sắc nét - hãy đưa hông của bạn ra xa chúng hơn.",
+    "Nếu họ xếp chồng bạn, hãy thả triangle và thoát hông — đừng chống lại chồng.",
+    "Nếu họ kéo cánh tay bị mắc kẹt ra thì vị trí chân của bạn đã sai - hãy giữ lại cánh tay bằng chân của bạn."
+  ],
+  "systemLogic": {
+    "corePrinciple": "guard: kẹp cánh tay của họ qua cơ thể bạn → một tay vào, một tay ra → phá vỡ tư thế của họ → khóa triangle (ống chân ngang phía sau đầu gối của bạn) → cắt góc → siết chặt.",
+    "decisionTree": [
+      {
+        "condition": "Chuỗi triangle với armbar",
+        "action": "nếu họ bảo vệ triangle bằng cách làm bộ, hãy tấn công armbar."
+      },
+      {
+        "condition": "họ xếp chồng lên nhau để trốn thoát",
+        "action": "hông thoát ra và tấn công lại hoặc chuyển sang quét."
+      }
+    ]
+  },
+  "moneyDetails": [
+    "Cánh tay bị mắc kẹt của họ phải nằm ngang qua đường giữa của bạn - hãy ghim cánh tay của họ vào ngực bạn bằng bàn tay cùng phía của bạn.",
+    "Khóa triangle của bạn bằng cách đặt ống chân của chân trên qua phía sau đầu gối của chân dưới.",
+    "Cắt góc bằng cách đưa hông của bạn ra xa chúng - bạn càng đi xa thì vòng cổ càng chặt.",
+    "Cảm giác thắt chặt khi bạn ép đầu gối vào nhau đồng thời kéo đầu chúng xuống."
+  ],
+  "nextStep": "Sau hệ thống triangle, hãy tìm hiểu armbar từ triangle và triangle để quét các chuyển tiếp.",
+  "fixItFast": [
+    "Choke cảm thấy lỏng lẻo? Đưa hông của bạn ra xa hơn - góc là chìa khóa.",
+    "Họ xếp chồng bạn? Thoát khỏi hông và tấn công lại - đừng chống lại ngăn xếp.",
+    "Họ tạo dáng? Tấn công armbar trên cánh tay còn lại."
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "id": "saddle-inside-sankaku",
+  "locale": "fr",
+  "title": "Saddle / inside sankaku",
+  "category": "leg_entanglement",
+  "status": "critical",
+  "description": "Un entanglement de jambe puissant autour de la ligne des hanches et de la ligne du genou, souvent dangereux pour le heel hook si le talon est exposé.",
+  "topPlayerGoals": [
+    "Le joueur du dessus veut contrôler Saddle / inside sankaku avec la position de tête, la position intérieure et une pression orientée.",
+    "L’attaquant veut isoler la ligne du genou, la jambe secondaire et exposer le talon.",
+    "Garder une base stable pour éviter d’être déséquilibré ou contré."
+  ],
+  "bottomPlayerGoals": [
+    "Le joueur du dessous veut survivre en Saddle / inside sankaku avec des cadres, du pummeling ou le bon angle.",
+    "Le défenseur veut cacher le talon, dégager la jambe secondaire et libérer la ligne du genou.",
+    "Reconnaître les signaux de danger tôt au lieu d’attendre que la position se stabilise."
+  ],
+  "controlPoints": [
+    "Point de contrôle principal : Ligne du genou piégée, exposition du talon et rotation des hanches..",
+    "La tête, les mains, les hanches et les genoux doivent suivre la même direction de force.",
+    "La connexion coude-genou ou la ligne hanches-épaules détermine si la position reste vivante ou verrouillée."
+  ],
+  "escapePriorities": [
+    "Priorité de sortie : Ne pas tourner à l’aveugle dans une pression rotationnelle..",
+    "Protéger le cou, le dos, la ligne du genou ou la ligne du bras avant de contrer.",
+    "Si la position intérieure est perdue, rétablir d’abord une couche défensive."
+  ],
+  "advancementOptions": [
+    {
+      "action": "Libérer la ligne du genou avant de tourner",
+      "nextPositionId": "scramble-neutral",
+      "relatedSkillIds": [
+        "heel-hook-safety",
+        "leg-lock-safety-basics",
+        "k-guard-entry"
+      ],
+      "why": "C’est la branche naturelle lorsque vous gagnez le point de contrôle principal et que l’adversaire est forcé de défendre."
+    }
+  ],
+  "dangerSignals": [
+    "Le menton ou le cou sort de la ligne sûre.",
+    "Le coude se sépare des côtes ou du genou.",
+    "La ligne des hanches est verrouillée pendant que la ligne des épaules est encore tirée.",
+    "Vous devez poser une main loin pour éviter de tomber."
+  ],
+  "relatedSkillIds": [
+    "heel-hook-safety",
+    "leg-lock-safety-basics",
+    "k-guard-entry"
+  ],
+  "relatedConceptIds": [
+    "leg-lock-safety-hierarchy",
+    "knee-line",
+    "early-vs-late-defense"
+  ]
+}

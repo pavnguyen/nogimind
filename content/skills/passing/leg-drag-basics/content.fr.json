@@ -1,0 +1,71 @@
+{
+  "id": "leg-drag-basics",
+  "locale": "fr",
+  "name": "Bases de la traînée de jambe",
+  "description": "Faites glisser la jambe de l'adversaire sur la ligne médiane pour tourner ses hanches et entrer dans une exposition de broche ou de dos. La traînée des jambes est la position guard pass la plus dominante - elle vous donne un contrôle total sur le bas de leur corps.",
+  "shortInstruction": "Depuis le quartier général, sortez vers l'extérieur, attrapez leur jambe la plus proche, faites-la glisser sur votre corps et épinglez-la au tapis. Faites un tour du côté opposé et prenez side control ou l'arrière.",
+  "summary": "La traînée de jambe attaque la base de l'adversaire en contrôlant une jambe et en la faisant glisser sur votre corps, détournant ainsi ses hanches de vous. Une fois leurs hanches tournées, ils ne peuvent pas re-guard efficacement. La traînée de jambe est la position de pass la plus dominante car elle neutralise complètement le guard de l'adversaire — il ne peut pas sweep, se soumettre ou récupérer guard de la position de traînée de jambe.",
+  "whyItWorks": [
+    "Faire glisser la jambe sur la ligne médiane éloigne les hanches de l'adversaire de vous - la condition préalable à toute rétention guard",
+    "La traînée de jambe oblige l'adversaire à se placer sur les deux mains pour maintenir l'équilibre - il ne peut pas cadrer ou saisir à partir de cette position.",
+    "Avec les hanches tournées et les mains postées, l'adversaire n'a aucun outil pour défendre la passe.",
+    "La traînée de jambe passe à la fois à side control et back control - les deux positions les plus dominantes"
+  ],
+  "commonMistakes": [
+    "Faire glisser la jambe sans faire un pas vers l'extérieur au préalable - vous devez créer l'angle avant le glissement",
+    "Soulever la jambe au lieu de la traîner – la traînée est une traction latérale, pas un soulèvement",
+    "Relâcher la jambe trop tôt : maintenir le contrôle de la jambe jusqu'à ce que side control soit établi",
+    "Ne protège pas la jambe des heel hook – gardez la jambe près de votre corps pour éviter les attaques de jambe."
+  ],
+  "coachingCues": [
+    "Sortez, puis faites glisser",
+    "Tirez latéralement, ne soulevez pas",
+    "Les hanches tournent, guard meurt",
+    "Glissement de la jambe sur le côté ou vers l'arrière"
+  ],
+  "safetySummary": [
+    "Faites attention aux heel hook lorsque vous contrôlez la jambe de l'adversaire – gardez la jambe près de votre corps pour éviter de récolter.",
+    "Ne faites pas glisser la jambe selon un angle inconfortable qui entraînerait une hyperextension de la hanche ou du genou.",
+    "Si l'adversaire roule pour échapper à la traînée de jambe, relâchez la jambe et suivez le roulement pour reprendre le dos."
+  ],
+  "keyCorrections": [
+    "S'ils continuent de guarding après avoir traîné la jambe : votre traînée n'a pas suffisamment tourné leurs hanches - tirez la jambe plus loin sur votre corps.",
+    "S'ils donnent un coup de pied libre : votre prise était trop superficielle – prise au niveau du genou ou de la mi-cuisse, pas de la cheville.",
+    "S’ils vous prennent par le dos : votre tête était à l’intérieur – gardez votre tête à l’extérieur de leur jambe"
+  ],
+  "systemLogic": {
+    "corePrinciple": "Le glissement de jambe comporte quatre phases : Outside Step → Leg Grip → Drag → Pin",
+    "decisionTree": [
+      {
+        "condition": "En phase 1 (étape extérieure)",
+        "action": "depuis le quartier général, placez votre pied principal vers l’extérieur de leur jambe proche. Cela crée l'angle pour la traînée"
+      },
+      {
+        "condition": "En phase 2 (prise de jambe)",
+        "action": "tendez la main et saisissez leur jambe la plus proche au niveau du genou ou à mi-cuisse. Votre autre main est posée sur le tapis pour garder l'équilibre"
+      },
+      {
+        "condition": "En phase 3 (glisser)",
+        "action": "tirez leur jambe sur votre corps vers votre hanche la plus éloignée. Cela détourne leurs hanches de vous. Lorsque les hanches tournent, elles doivent déployer les deux mains pour maintenir l'équilibre."
+      },
+      {
+        "condition": "En phase 4 (broche)",
+        "action": "Une fois que leurs hanches sont tournées et leurs mains postées, épinglez leur jambe au tapis et faites un cercle du côté opposé. Entrez side control ou reprenez le retour"
+      },
+      {
+        "condition": "le glissement de jambe échoue (ils re-guard)",
+        "action": "réinitialiser au quartier général et essayer une passe différente (coupe au genou ou recul)"
+      }
+    ]
+  },
+  "moneyDetails": [
+    "La traînée des jambes est la position guard pass la plus dominante dans BJJ - aucun autre pass ne vous donne un contrôle aussi complet",
+    "Maîtriser la traînée de jambe permet de neutraliser le guard des adversaires les plus flexibles",
+    "La traînée de jambe est un élément essentiel du système de passe de Gordon Ryan"
+  ],
+  "fixItFast": [
+    "S'ils continuent à ré-guarding : tirez la jambe plus loin sur votre corps pour tourner davantage les hanches.",
+    "S'ils donnent un coup de pied libre : saisissez plus haut sur la jambe (au-dessus du genou, pas en dessous)",
+    "S'ils essaient de heel hook : gardez la jambe près de votre poitrine et faites un cercle vers l'arrière."
+  ]
+}

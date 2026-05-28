@@ -1,0 +1,67 @@
+{
+  "id": "safe-unsafe-rotation",
+  "locale": "fr",
+  "title": "Rotation sûre vs risquée",
+  "category": "safety",
+  "level": "fundamental",
+  "tags": [
+    "rotation",
+    "safety",
+    "leg lock",
+    "knee line",
+    "heel"
+  ],
+  "shortDefinition": "Rotation sûre quand knee line libre et talon caché; rotation risquée quand knee line piégée et talon exposé.",
+  "whyItMatters": "Les blessures leg lock viennent souvent d’une mauvaise rotation dans entanglement — savoir quand tourner et quand arrêter est sécurité technique.",
+  "deepExplanation": "Évaluation sécurité: (1) Talon exposé? (2) Knee line piégée? (3) Jambe secondaire contrôlée? Si 3 signaux présents, ne tournez pas — tapez ou libérez d’abord. Talon caché + knee libre = rotation sûre.",
+  "beginnerView": "Ne tournez pas fort quand talon exposé et genou piégé.",
+  "advancedView": "Utiliser sensing de rotation pour bait: faire sentir knee line piégée puis changer direction.",
+  "ifThenExamples": [
+    {
+      "if": "Si vous perdez Rotation sûre vs risquée pendant l’échange.",
+      "then": "Arrêtez d’accélérer, récupérez la structure corporelle proche, puis continuez.",
+      "why": "Le no-gi moderne punit vite la force après perte de structure.",
+      "relatedSkillIds": [
+        "leg-lock-defense",
+        "knee-line-escape"
+      ]
+    },
+    {
+      "if": "Si l’adversaire répond correctement à votre première ligne.",
+      "then": "Utilisez Rotation sûre vs risquée pour passer à une branche plus sûre au lieu de forcer.",
+      "why": "Un bon concept transforme la réaction adverse en information pour la décision suivante.",
+      "relatedSkillIds": [
+        "knee-line-escape",
+        "heel-hook-safety",
+        "straight-ankle-lock-safety"
+      ]
+    }
+  ],
+  "commonMisunderstandings": [
+    {
+      "misunderstanding": "Rotation sûre vs risquée est une astuce technique isolée.",
+      "correction": "Voyez-le comme une règle de décision présente dans plusieurs positions."
+    },
+    {
+      "misunderstanding": "Comprendre le concept suffit pour l’utiliser en live.",
+      "correction": "Le concept doit être lié à signaux corporels, cues courts et rolling positionnel."
+    }
+  ],
+  "trainingCues": [
+    "Nommez Rotation sûre vs risquée avant d’ajouter force.",
+    "Cherchez le signal corporel, pas une impression vague.",
+    "Si la structure est perdue, reset une couche d’abord.",
+    "Driller lentement, puis tester avec résistance progressive."
+  ],
+  "relatedSkillIds": [
+    "leg-lock-defense",
+    "knee-line-escape",
+    "heel-hook-safety",
+    "straight-ankle-lock-safety"
+  ],
+  "relatedConceptIds": [
+    "knee-line",
+    "leg-lock-safety-hierarchy",
+    "early-vs-late-defense"
+  ]
+}

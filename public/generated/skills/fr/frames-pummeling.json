@@ -1,0 +1,123 @@
+{
+  "id": "frames-pummeling",
+  "domain": "positional_awareness",
+  "level": "beginner",
+  "status": "draft",
+  "name": "Cadres et coups",
+  "aliases": [],
+  "tags": [
+    "frames",
+    "pummeling"
+  ],
+  "keywords": [
+    "frame",
+    "pummel",
+    "inside position",
+    "elbow knee connection"
+  ],
+  "relatedSkills": [
+    {
+      "id": "side-control-survival",
+      "type": "recommended"
+    },
+    {
+      "id": "mount-survival",
+      "type": "recommended"
+    },
+    {
+      "id": "seated-guard-retention",
+      "type": "recommended"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "inside-position"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [],
+  "version": 1,
+  "updatedAt": "2026-05-21T00:24:30.756Z",
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "fr",
+  "description": "Utilisez des cadres squelettiques pour créer de l’espace et revenez en position intérieure au lieu de faire du développé couché avec la force des bras. Le fondement de toutes les rétentions et évasions de guard.",
+  "shortInstruction": "Gardez les coudes serrés, utilisez les avant-bras comme cales osseuses (et non comme leviers musculaires) et frappez vers l'intérieur lorsque vous êtes poussé vers l'extérieur. Monture sur la hanche, pas sur la poitrine.",
+  "summary": "Les cadres utilisent la structure osseuse contre les muscles pour maintenir la distance et survivre à la pression. Le martèlement est le processus actif de récupération de la position intérieure après sa perte. Ensemble, ils forment la base mécanique des évasions, de la rétention guard et du grappin défensif.",
+  "whyItWorks": [
+    "Les cadres os sur os transfèrent la force à travers votre squelette plutôt que vos muscles, préservant ainsi l'énergie et prévenant la fatigue.",
+    "Un cadre bien placé sur la ligne des hanches empêche l'adversaire d'aplatir votre torse et contrôle sa capacité à générer crossface pression",
+    "Pummeling reprend la position intérieure en attaquant le levier (coude ou genou) plutôt que le muscle (biceps ou quadriceps)",
+    "La connexion coude-genou est la structure défensive la plus solide : les cadres qui relient les coudes aux genoux créent une coque incassable"
+  ],
+  "commonMistakes": [
+    "Pressage sur banc avec les bras tendus – cela utilise les muscles au lieu de la structure osseuse et se fatigue rapidement",
+    "Cadre sur la poitrine au lieu des hanches - un cadre de poitrine s'effondre facilement lorsque l'adversaire avance",
+    "Laisser le coude s'éloigner des côtes - cela ouvre l'espace intérieur pour les underhook et crossface",
+    "Frapper uniquement avec les bras tout en négligeant le coup de genou – la position intérieure nécessite à la fois le haut et le bas du corps"
+  ],
+  "coachingCues": [
+    "Des os, pas des muscles",
+    "Cadre sur la ligne des hanches",
+    "Coude au genou, toujours"
+  ],
+  "safetySummary": [
+    "Ne postez pas avec les bras complètement tendus pour vous préparer au poids – cela risque d’entraîner une hyperextension et des blessures au coude.",
+    "Gardez vos coudes légèrement pliés lors de l'encadrement pour absorber l'impact plutôt que de verrouiller l'articulation",
+    "Protégez votre cou en gardant votre menton rentré pendant les frames : un crossface peut conduire votre tête dans une position dangereuse."
+  ],
+  "systemLogic": {
+    "corePrinciple": "Les cadres et les coups fonctionnent selon un cycle continu : établir un cadre pour absorber la pression → attaques de l'adversaire → le cadre détourne la force → frapper pour récupérer la position intérieure → rétablir le cadre. Chaque cycle permet de gagner du temps pour lire la prochaine attaque de l'adversaire.",
+    "decisionTree": [
+      {
+        "condition": "L'adversaire avance avec une pression sur la poitrine",
+        "action": "Établissez un cadre d’avant-bras sur la ligne de vos hanches – et non sur votre poitrine. Le cadre des hanches détourne leur poids de votre torse en utilisant la structure osseuse."
+      },
+      {
+        "condition": "L'adversaire frappe son bras à l'intérieur de votre cadre",
+        "action": "Entourez votre coude sous le leur pour rétablir la position intérieure. Frappez avec le coude, pas avec la main – le coude est le levier le plus puissant."
+      },
+      {
+        "condition": "Votre cadre s'effondre sous la pression",
+        "action": "Ne le musclez pas. Passez à la couche défensive suivante : tortue, évasion de la hanche ou stand-up technique. Votre coude est trop éloigné de votre hanche – rapprochez-le."
+      },
+      {
+        "condition": "L'adversaire crossfaces vous",
+        "action": "Placez votre avant-bras supérieur sur son biceps et tournez la tête vers le tapis pour protéger le cou. Puis évadez-vous pour créer de l'espace."
+      },
+      {
+        "condition": "Vous perdez le coup de poing underhook",
+        "action": "Passez à un overhook pour contrôler temporairement leur posture, puis frappez à nouveau avec l'autre bras."
+      }
+    ],
+    "exitStrategies": [
+      "Si le cadre échoue complètement, passez en position tortue et utilisez la séquence d'échappement de la tortue.",
+      "Si vous ne pouvez pas revenir à l'intérieur, changez l'angle en déplaçant vos hanches de 10 à 30 degrés avant de réessayer.",
+      "Si les coups ne fonctionnent pas, créez une distance via l'évasion de la hanche pour réinitialiser complètement l'engagement."
+    ]
+  },
+  "moneyDetails": [
+    "Les cadres et les coups sont la base mécanique de chaque évasion dans BJJ – sans eux, aucun système défensif ne fonctionne.",
+    "La maîtrise des cadres permet aux plus petits grapplers de survivre et d'échapper à des adversaires plus grands en utilisant l'effet de levier des os au lieu de la force.",
+    "La vitesse de frappe et le timing séparent les ceintures blanches des grapplers avancés - c'est la compétence la plus maîtrisée en compétition BJJ"
+  ],
+  "fixItFast": [
+    "Si vous êtes écrasé poitrine contre poitrine : encadrez votre avant-bras sur la hanche et la hanche s'éloigne pour créer de l'espace.",
+    "S'ils vous font face : encadrez votre avant-bras supérieur sur leurs biceps et tournez la tête vers le tapis.",
+    "Si vous perdez le coup de poing underhook : passez à un overhook et utilisez-le pour contrôler sa posture pendant que vous frappez à nouveau avec l'autre bras."
+  ]
+}

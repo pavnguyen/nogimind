@@ -1,0 +1,65 @@
+{
+  "id": "hip-line-shoulder-line",
+  "locale": "en",
+  "title": "Hip Line vs Shoulder Line",
+  "category": "positional",
+  "level": "intermediate",
+  "tags": [
+    "hip line",
+    "shoulder line",
+    "pin"
+  ],
+  "shortDefinition": "Hip line and shoulder line are the two rotation axes that decide passes, pins, escapes, and back exposure.",
+  "whyItMatters": "You can clear the legs but still fail to pin if shoulder line remains free.",
+  "deepExplanation": "Passing often begins with hip-line control, but pinning requires separating or locking shoulder line. Escapes reverse it: recover shoulder angle, then bring hip line back to guard.",
+  "beginnerView": "Ask: can they still rotate shoulders or hips?",
+  "advancedView": "Separate the two lines to create dilemmas: saving hips exposes shoulders, saving shoulders loses hips.",
+  "ifThenExamples": [
+    {
+      "if": "If you lose Hip Line vs Shoulder Line during the exchange.",
+      "then": "Stop accelerating, recover the nearest body structure, then continue the technique.",
+      "why": "Modern no-gi punishes forceful continuation after structure is lost.",
+      "relatedSkillIds": [
+        "bodylock-passing",
+        "side-control-pin"
+      ]
+    },
+    {
+      "if": "If the opponent correctly answers your first line.",
+      "then": "Use Hip Line vs Shoulder Line to switch to a safer branch instead of forcing the same line.",
+      "why": "A good concept turns the opponent’s reaction into information for the next decision.",
+      "relatedSkillIds": [
+        "side-control-pin",
+        "back-control",
+        "leg-drag-basics"
+      ]
+    }
+  ],
+  "commonMisunderstandings": [
+    {
+      "misunderstanding": "Hip Line vs Shoulder Line is a single technical trick.",
+      "correction": "Treat it as a decision rule that appears across many positions."
+    },
+    {
+      "misunderstanding": "Understanding the concept automatically makes it work live.",
+      "correction": "The concept needs body signals, short cues, and positional rolling."
+    }
+  ],
+  "trainingCues": [
+    "Name Hip Line vs Shoulder Line before adding force.",
+    "Find the body signal instead of guessing generally.",
+    "If structure is lost, reset one layer first.",
+    "Drill slowly, then test with progressive resistance."
+  ],
+  "relatedSkillIds": [
+    "bodylock-passing",
+    "side-control-pin",
+    "back-control",
+    "leg-drag-basics"
+  ],
+  "relatedConceptIds": [
+    "positional-hierarchy",
+    "angle-creation",
+    "pressure-direction"
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "id": "exposure-before-finish",
+  "locale": "fr",
+  "title": "Exposition avant finition",
+  "category": "offensive",
+  "level": "intermediate",
+  "tags": [
+    "exposure",
+    "finish line",
+    "submission",
+    "timing"
+  ],
+  "shortDefinition": "Exposition signifie ouvrir la ligne de finition avant la force — si la voie n’est pas claire, ce n’est pas le moment de serrer.",
+  "whyItMatters": "Beaucoup serrent tôt et perdent position ou exposent leur dos; exposition avant finition garde la bonne hiérarchie.",
+  "deepExplanation": "L’exposition apparaît dans chaque soumission: RNC a besoin du chemin sous le menton, arm triangle du piège shoulder line, leg locks de l’exposition du talon. Finir seulement après confirmation.",
+  "beginnerView": "Demandez: voyez-vous la ligne de finition clairement, ou espérez-vous juste?",
+  "advancedView": "Concevoir toute la chaîne pour que chaque réaction adverse ouvre une ligne d’exposition différente.",
+  "ifThenExamples": [
+    {
+      "if": "Si vous perdez Exposition avant finition pendant l’échange.",
+      "then": "Arrêtez d’accélérer, récupérez la structure corporelle proche, puis continuez.",
+      "why": "Le no-gi moderne punit vite la force après perte de structure.",
+      "relatedSkillIds": [
+        "rear-naked-choke-system",
+        "arm-triangle-mount"
+      ]
+    },
+    {
+      "if": "Si l’adversaire répond correctement à votre première ligne.",
+      "then": "Utilisez Exposition avant finition pour passer à une branche plus sûre au lieu de forcer.",
+      "why": "Un bon concept transforme la réaction adverse en information pour la décision suivante.",
+      "relatedSkillIds": [
+        "arm-triangle-mount",
+        "guillotine-system",
+        "heel-hook-safety"
+      ]
+    }
+  ],
+  "commonMisunderstandings": [
+    {
+      "misunderstanding": "Exposition avant finition est une astuce technique isolée.",
+      "correction": "Voyez-le comme une règle de décision présente dans plusieurs positions."
+    },
+    {
+      "misunderstanding": "Comprendre le concept suffit pour l’utiliser en live.",
+      "correction": "Le concept doit être lié à signaux corporels, cues courts et rolling positionnel."
+    }
+  ],
+  "trainingCues": [
+    "Nommez Exposition avant finition avant d’ajouter force.",
+    "Cherchez le signal corporel, pas une impression vague.",
+    "Si la structure est perdue, reset une couche d’abord.",
+    "Driller lentement, puis tester avec résistance progressive."
+  ],
+  "relatedSkillIds": [
+    "rear-naked-choke-system",
+    "arm-triangle-mount",
+    "guillotine-system",
+    "heel-hook-safety",
+    "kimura-system"
+  ],
+  "relatedConceptIds": [
+    "control-before-submission",
+    "dilemma-attacks",
+    "failure-response"
+  ]
+}

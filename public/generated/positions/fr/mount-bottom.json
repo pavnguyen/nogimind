@@ -1,0 +1,56 @@
+{
+  "id": "mount-bottom",
+  "locale": "fr",
+  "title": "Mount dessous",
+  "category": "pin",
+  "status": "critical",
+  "description": "Le joueur du dessous est monté et doit protéger le cou et les bras tout en récupérant la connexion coude-genou avant que la high mount ne s’installe.",
+  "topPlayerGoals": [
+    "Le joueur du dessus veut contrôler Mount dessous avec la position de tête, la position intérieure et une pression orientée.",
+    "Le joueur du dessus veut isoler le coude et monter en high mount.",
+    "Garder une base stable pour éviter d’être déséquilibré ou contré."
+  ],
+  "bottomPlayerGoals": [
+    "Le joueur du dessous veut survivre en Mount dessous avec des cadres, du pummeling ou le bon angle.",
+    "Faire un bridge ou une sortie knee-elbow sans exposer le dos ou le cou.",
+    "Reconnaître les signaux de danger tôt au lieu d’attendre que la position se stabilise."
+  ],
+  "controlPoints": [
+    "Point de contrôle principal : Coudes serrés, genoux actifs et menton protégé..",
+    "La tête, les mains, les hanches et les genoux doivent suivre la même direction de force.",
+    "La connexion coude-genou ou la ligne hanches-épaules détermine si la position reste vivante ou verrouillée."
+  ],
+  "escapePriorities": [
+    "Priorité de sortie : Ne pas pousser la poitrine adverse avec les bras tendus..",
+    "Protéger le cou, le dos, la ligne du genou ou la ligne du bras avant de contrer.",
+    "Si la position intérieure est perdue, rétablir d’abord une couche défensive."
+  ],
+  "advancementOptions": [
+    {
+      "action": "Récupérer la half guard ou la quarter guard",
+      "nextPositionId": "half-guard-bottom",
+      "relatedSkillIds": [
+        "mount-survival",
+        "mount-escape",
+        "half-guard-knee-shield"
+      ],
+      "why": "C’est la branche naturelle lorsque vous gagnez le point de contrôle principal et que l’adversaire est forcé de défendre."
+    }
+  ],
+  "dangerSignals": [
+    "Le menton ou le cou sort de la ligne sûre.",
+    "Le coude se sépare des côtes ou du genou.",
+    "La ligne des hanches est verrouillée pendant que la ligne des épaules est encore tirée.",
+    "Vous devez poser une main loin pour éviter de tomber."
+  ],
+  "relatedSkillIds": [
+    "mount-survival",
+    "mount-escape",
+    "half-guard-knee-shield"
+  ],
+  "relatedConceptIds": [
+    "early-vs-late-defense",
+    "elbow-knee-connection",
+    "frames"
+  ]
+}

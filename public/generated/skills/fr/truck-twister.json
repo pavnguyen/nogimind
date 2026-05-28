@@ -1,0 +1,121 @@
+{
+  "id": "truck-twister",
+  "domain": "submission_systems",
+  "level": "advanced",
+  "status": "draft",
+  "name": "Camion / Twister",
+  "aliases": [],
+  "tags": [
+    "truck",
+    "twister",
+    "back-attack",
+    "body-lock",
+    "spine-lock"
+  ],
+  "keywords": [
+    "truck",
+    "twister",
+    "spinal lock",
+    "body triangle",
+    "back attack"
+  ],
+  "relatedSkills": [
+    {
+      "id": "crucifix-control",
+      "type": "recommended"
+    },
+    {
+      "id": "back-attack-system",
+      "type": "recommended"
+    },
+    {
+      "id": "claw-ride",
+      "type": "recommended"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "back-control",
+    "crab-ride"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [
+    "Si vous ne sentez pas la rotation, votre corps triangle est trop lâche : serrez-le plus fort.",
+    "S'ils défendent le twister en saisissant leur propre jambe, passez au armbar ou à la prise arrière.",
+    "S’ils passent, suivez leur rotation et réattaquez de l’autre côté."
+  ],
+  "version": 1,
+  "updatedAt": "2026-05-21T00:24:30.773Z",
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "fr",
+  "description": "La position du camion et la soumission du twister : depuis l'arrière ou side control, verrouillez un corps triangle autour du torse de l'adversaire et tirez sa tête vers sa propre hanche pour créer un verrou spinal.",
+  "shortInstruction": "Corps triangle autour du torse, tirez la tête vers la hanche, cambrez le dos – le twister est un verrou spinal, pas un étranglement.",
+  "summary": "Le camion est une position spécialisée où vous contrôlez l'adversaire de côté avec un corps triangle (similaire à la position du camion en lutte). Depuis le camion, vous pouvez attaquer le twister – un verrou spinal qui tord la colonne vertébrale de l'adversaire en tirant sa tête vers sa propre hanche. Le twister n’est pas un étranglement ou un verrou articulaire – c’est un verrou vertébral qui crée une pression intense sur les vertèbres. Il est spécifique à No-Gi (le gi rend plus difficile le maintien du corps triangle) et est connu pour être extrêmement efficace mais nécessitant un positionnement précis.",
+  "whyItWorks": [
+    "Le corps triangle les empêche de rouler ou de sortir de leur position.",
+    "Le mécanisme de verrouillage de la colonne vertébrale n'est pas familier à la plupart des adversaires : ils ne savent souvent pas comment se défendre ou s'échapper.",
+    "Le twister peut être enchaîné à d'autres soumissions (prise en arrière, armbar) lorsqu'il se défend.",
+    "Eddie Bravo / Principe de la 10e Planète : le camion/twister est l'épine dorsale du « Train of Pain » — une chaîne d'attaque complète."
+  ],
+  "commonMistakes": [
+    "Ne pas sécuriser le corps triangle avant de partir pour le twister - le corps triangle est la position de contrôle.",
+    "Tirer la tête de manière trop agressive – le twister est une torsion progressive, pas une secousse soudaine.",
+    "Laisser leurs jambes libres du corps triangle — le contrôle des jambes est essentiel.",
+    "En tentant le twister sans contrôler leur bras éloigné, ils posteront et empêcheront la rotation."
+  ],
+  "coachingCues": [
+    "Corps triangle en premier, twister en second.",
+    "Dirigez-vous vers la hanche, cambrez le dos, tournez lentement.",
+    "Contrôlez le bras éloigné, possédez la rotation.",
+    "Le twister est une torsion progressive, pas une secousse."
+  ],
+  "safetySummary": [
+    "Le twister applique une pression de rotation sur la colonne vertébrale – c'est l'une des soumissions les plus dangereuses de BJJ.",
+    "Appliquez le twister TRÈS lentement et relâchez sur TOUT signe d'inconfort.",
+    "N'essayez pas le twister sur des partenaires ayant des problèmes de dos ou de cou préexistants.",
+    "Tapotez tôt sur les serrures de la colonne vertébrale – les blessures à la colonne vertébrale peuvent être permanentes.",
+    "Ne convient pas aux débutants – nécessite une conscience corporelle avancée."
+  ],
+  "systemLogic": {
+    "corePrinciple": "side control ou half guard : sécuriser le corps triangle (position du camion) → contrôler le bras éloigné → tirer la tête vers la hanche → cambrer le dos → terminer.",
+    "decisionTree": [
+      {
+        "condition": "Application générale",
+        "action": "Le camion/twister enchaîne avec : reprise (s'il roule), armbar (s'il défend) ou soumission standard."
+      },
+      {
+        "condition": "Application générale",
+        "action": "Système 10ème Planète : le camion est la position ; le twister est l'une des nombreuses attaques qui en découlent."
+      }
+    ],
+    "exitStrategies": []
+  },
+  "moneyDetails": [
+    "Le corps triangle doit être autour de son torse, au niveau de la taille, et non au niveau de ses jambes.",
+    "Vos jambes se verrouillent en forme de quatre (corps triangle) – serrez pour comprimer leurs côtes et limiter les mouvements.",
+    "Contrôlez leur bras éloigné en poussant leur coude vers leur tête – cela les empêche de poster.",
+    "La finition twister : tirez leur tête vers leur propre hanche tout en cambrant votre dos - la rotation tord leur colonne vertébrale."
+  ],
+  "nextStep": "Après le camion/twister, apprenez la prise arrière du camion et de la trancheuse à veaux depuis la même position.",
+  "fixItFast": [
+    "Corps triangle trop lâche ? Serrez plus fort et verrouillez le chiffre quatre plus profondément.",
+    "Can't twist? Contrôlez d’abord son bras éloigné – un bras libre bloque la rotation.",
+    "Ils se déploient ? Suivez leur roulis et prenez le dos."
+  ]
+}

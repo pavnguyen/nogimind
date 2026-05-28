@@ -1,0 +1,65 @@
+{
+  "id": "base-balance",
+  "locale": "en",
+  "title": "Base and Balance",
+  "category": "mechanical",
+  "level": "fundamental",
+  "tags": [
+    "base",
+    "balance",
+    "weight"
+  ],
+  "shortDefinition": "Base is the ability to keep center of gravity while staying mobile and reactive.",
+  "whyItMatters": "Without base, you get swept, snapped down, off-balanced, or lose pressure when changing direction.",
+  "deepExplanation": "Good base is not stiffness. It is weight distribution, active toes, knee width, and head-hip alignment suited to the phase.",
+  "beginnerView": "Do not need both hands posted for long to stay balanced.",
+  "advancedView": "Let the opponent feel they can off-balance, then redirect into a counter.",
+  "ifThenExamples": [
+    {
+      "if": "If you lose Base and Balance during the exchange.",
+      "then": "Stop accelerating, recover the nearest body structure, then continue the technique.",
+      "why": "Modern no-gi punishes forceful continuation after structure is lost.",
+      "relatedSkillIds": [
+        "hand-fighting",
+        "technical-stand-up"
+      ]
+    },
+    {
+      "if": "If the opponent correctly answers your first line.",
+      "then": "Use Base and Balance to switch to a safer branch instead of forcing the same line.",
+      "why": "A good concept turns the opponent’s reaction into information for the next decision.",
+      "relatedSkillIds": [
+        "technical-stand-up",
+        "sprawl-go-behind",
+        "bodylock-passing"
+      ]
+    }
+  ],
+  "commonMisunderstandings": [
+    {
+      "misunderstanding": "Base and Balance is a single technical trick.",
+      "correction": "Treat it as a decision rule that appears across many positions."
+    },
+    {
+      "misunderstanding": "Understanding the concept automatically makes it work live.",
+      "correction": "The concept needs body signals, short cues, and positional rolling."
+    }
+  ],
+  "trainingCues": [
+    "Name Base and Balance before adding force.",
+    "Find the body signal instead of guessing generally.",
+    "If structure is lost, reset one layer first.",
+    "Drill slowly, then test with progressive resistance."
+  ],
+  "relatedSkillIds": [
+    "hand-fighting",
+    "technical-stand-up",
+    "sprawl-go-behind",
+    "bodylock-passing"
+  ],
+  "relatedConceptIds": [
+    "posts",
+    "hooks",
+    "pressure-direction"
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "id": "single-leg-x",
+  "locale": "fr",
+  "title": "Single Leg X",
+  "category": "leg_entanglement",
+  "status": "neutral",
+  "description": "Le joueur en garde contrôle une jambe et la ligne des hanches pour sweeper, se relever ou entrer en ashi.",
+  "topPlayerGoals": [
+    "Le joueur du dessus veut contrôler Single Leg X avec la position de tête, la position intérieure et une pression orientée.",
+    "Libérer la ligne du pied et la ligne du genou tout en gardant la base.",
+    "Garder une base stable pour éviter d’être déséquilibré ou contré."
+  ],
+  "bottomPlayerGoals": [
+    "Le joueur du dessous veut survivre en Single Leg X avec des cadres, du pummeling ou le bon angle.",
+    "Créer un déséquilibre, protéger la ligne du genou et sweeper avant de chercher une soumission.",
+    "Reconnaître les signaux de danger tôt au lieu d’attendre que la position se stabilise."
+  ],
+  "controlPoints": [
+    "Point de contrôle principal : Ligne du genou, placement du pied et élévation des hanches..",
+    "La tête, les mains, les hanches et les genoux doivent suivre la même direction de force.",
+    "La connexion coude-genou ou la ligne hanches-épaules détermine si la position reste vivante ou verrouillée."
+  ],
+  "escapePriorities": [
+    "Priorité de sortie : Ne pas exposer le talon pendant les transitions d’entanglement de jambes..",
+    "Protéger le cou, le dos, la ligne du genou ou la ligne du bras avant de contrer.",
+    "Si la position intérieure est perdue, rétablir d’abord une couche défensive."
+  ],
+  "advancementOptions": [
+    {
+      "action": "Transitionner vers outside ashi ou technical stand-up",
+      "nextPositionId": "outside-ashi",
+      "relatedSkillIds": [
+        "single-leg-x-basics",
+        "straight-ankle-lock-safety",
+        "technical-stand-up"
+      ],
+      "why": "C’est la branche naturelle lorsque vous gagnez le point de contrôle principal et que l’adversaire est forcé de défendre."
+    }
+  ],
+  "dangerSignals": [
+    "Le menton ou le cou sort de la ligne sûre.",
+    "Le coude se sépare des côtes ou du genou.",
+    "La ligne des hanches est verrouillée pendant que la ligne des épaules est encore tirée.",
+    "Vous devez poser une main loin pour éviter de tomber."
+  ],
+  "relatedSkillIds": [
+    "single-leg-x-basics",
+    "straight-ankle-lock-safety",
+    "technical-stand-up"
+  ],
+  "relatedConceptIds": [
+    "knee-line",
+    "hooks",
+    "leg-lock-safety-hierarchy"
+  ]
+}

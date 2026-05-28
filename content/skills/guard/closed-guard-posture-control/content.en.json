@@ -1,0 +1,74 @@
+{
+  "id": "closed-guard-posture-control",
+  "locale": "en",
+  "name": "Closed Guard Posture Control",
+  "description": "Break and control the opponent's posture in closed guard using leg tension, hand fighting, and hip angling to create sweep or submission entries.",
+  "shortInstruction": "Legs pull, hands break the grip, hips cut the angle — posture is the key to all closed guard attacks.",
+  "summary": "Closed guard is only effective when the opponent's posture is broken. A postured opponent can stand, pass, or strike (in MMA). Your primary goal is to prevent them from sitting upright by using leg tension to pull their weight onto you, hand fighting to break their defensive frames, and hip angles to off-balance them. Without posture control, you have no offense from closed guard.",
+  "whyItWorks": [
+    "A postured opponent has full arm mobility and base — breaking their posture neutralizes both.",
+    "Leg tension around their back prevents them from sitting up; they must fight against your leg strength to re-posture.",
+    "Hand fighting strips their defensive grips (collar ties, sleeve grips, belt grips) that keep them postured.",
+    "Cutting an angle (hip to one side) moves their base offline, making them vulnerable to sweeps and submissions.",
+    "Danaher principle: the guard is an attacking position, not a defensive one — posture control is the first step of every attack."
+  ],
+  "commonMistakes": [
+    "Pulling with legs but not engaging hands — without hand fighting, they can frame on your hips and re-posture.",
+    "Holding their head down with straight arms — this creates space instead of control.",
+    "Letting them grab your belt or pants — this gives them the base to posture up.",
+    "Sitting centered in front of them without cutting an angle — a centered opponent is well-based and hard to sweep."
+  ],
+  "coachingCues": [
+    "Legs pull, arms guide, hips create the angle.",
+    "Kill the belt grip first — it's their strongest base.",
+    "If they posture, you're not pulling — squeeze the knees together!",
+    "Get off center — 45 degrees is the attack angle."
+  ],
+  "safetySummary": [
+    "Keep your chin off your chest when pulling them down to avoid guillotine risks.",
+    "Protect your ribs from knee pressure when they try to posture — frame immediately.",
+    "Do not hold a broken posture for too long without attacking — you will fatigue your legs."
+  ],
+  "systemLogic": {
+    "corePrinciple": "Closed guard is only effective when the opponent's posture is broken. A postured opponent has full arm mobility and base. Your goal is to use leg tension, hand fighting, and hip angles to prevent them from sitting upright — without posture control, you have no offense from closed guard.",
+    "decisionTree": [
+      {
+        "condition": "Opponent breaks your closed guard and starts to stand",
+        "action": "Squeeze your knees together and pull them back down before they fully extend. Once they stand, the guard is open and you lose the posture advantage."
+      },
+      {
+        "condition": "Opponent grabs your belt or pants",
+        "action": "Strip the grip immediately with both hands. A belt grip gives them the base to posture up and pass. Climb your legs higher to weaken their grip."
+      },
+      {
+        "condition": "Opponent frames on your hips to re-posture",
+        "action": "Swim your hands inside their elbows and pummel back to their collar. Your hands must break their frames to re-establish control."
+      },
+      {
+        "condition": "Opponent is centered and postured in your closed guard",
+        "action": "Cut an angle by moving your hips 45 degrees to one side. A centered opponent has a well-based stance and is hard to sweep — angle creates the opening."
+      },
+      {
+        "condition": "You have held the posture break for more than 10 seconds",
+        "action": "Attack now — sweeps or submissions. Holding a broken posture without attacking wastes energy and lets the opponent reset their base."
+      }
+    ],
+    "exitStrategies": [
+      "If the opponent re-postures, reset the sequence: break posture again, hand fight to remove frames, cut the angle, attack.",
+      "If you cannot break their posture with standard methods, switch to a high guard (feet on their hips) to break them down more easily.",
+      "Use 80% leg work and 20% arm work — fatigue in the arms is a sign you are pulling too much and framing too little."
+    ]
+  },
+  "moneyDetails": [
+    "Pull their head down to your sternum — not to your stomach — so their arms are trapped between your bodies.",
+    "Squeeze your knees together, not just your feet — this locks their hips in place.",
+    "When they try to frame on your hips, swim your hands inside their elbows and pummel back to their collar.",
+    "The most dangerous time to attack is when they are actively trying to posture — use their energy against them."
+  ],
+  "nextStep": "After mastering posture control, learn closed guard sweeps (hip bump, scissor, flower) and submissions (triangle, armbar).",
+  "fixItFast": [
+    "They keep posturing? Switch to a high guard (feet on their hips) to break them down more easily.",
+    "They have a belt grip? Climb your legs higher and squeeze — their grip will weaken.",
+    "Your arms are tired? Use your legs more — 80% leg work, 20% arm work."
+  ]
+}

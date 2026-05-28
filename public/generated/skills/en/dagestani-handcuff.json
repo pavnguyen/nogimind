@@ -1,0 +1,145 @@
+{
+  "id": "dagestani-handcuff",
+  "domain": "pins_rides",
+  "level": "advanced",
+  "status": "draft",
+  "name": "Dagestani Handcuff",
+  "aliases": [
+    "handcuff ride",
+    "handcuff back take",
+    "Khabib handcuff"
+  ],
+  "tags": [
+    "ride",
+    "wrist-control",
+    "handcuff",
+    "tier:modern-expansion",
+    "meta:modern-common",
+    "risk:medium",
+    "family:ride",
+    "group:handcuff",
+    "modern-no-gi",
+    "wrestling"
+  ],
+  "keywords": [
+    "wrist ride",
+    "handcuff grip",
+    "far wrist",
+    "back take ride"
+  ],
+  "modernSystemGroup": "dagestani_handcuff",
+  "relatedSkills": [
+    {
+      "id": "cross-wrist-ride",
+      "type": "recommended"
+    },
+    {
+      "id": "spiral-ride",
+      "type": "recommended"
+    },
+    {
+      "id": "back-control",
+      "type": "recommended"
+    },
+    {
+      "id": "wrist-ride-back-exposure",
+      "type": "recommended"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [
+    "pressure-passer",
+    "top-game-specialist"
+  ],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "turtle-ride",
+    "positional-hierarchy"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [
+    "If you only get one wrist: control that wrist and use your other hand to secure the cross-wrist ride or claw ride instead",
+    "If they roll out: release the handcuff and take the back as they roll",
+    "If they separate their hands: you lost the pinched elbow position — re-pinch and drive forward harder"
+  ],
+  "version": 1,
+  "updatedAt": "2026-06-12T00:00:00.000Z",
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "en",
+  "description": "Control both wrists from the back or turtle by pulling the near wrist toward your hip while trapping the far wrist, creating a handcuff-like position that exposes the back for a clean back take.",
+  "shortInstruction": "From turtle or back control, secure the near wrist and pull it toward your hip. Reach under and grab the far wrist. Squeeze elbows together and drive forward to collapse their posture and expose the back.",
+  "summary": "The Dagestani handcuff traps both wrists to immobilize the opponent and force back exposure, popularized by Khabib Nurmagomedov and the Dagestani wrestling style. By controlling both wrists together, you prevent the opponent from posting, basing, or framing — the only escape is rolling, which you can counter by following the roll and taking the back.",
+  "whyItWorks": [
+    "Trapping both wrists removes the opponent's ability to post or base — without hands, they cannot push themselves up",
+    "Driving forward with elbows pinched collapses their posture and forces their weight onto their head",
+    "The handcuff position is extremely difficult to escape because both hands are immobilized in the same grip",
+    "The system transitions directly to back control as the opponent collapses"
+  ],
+  "commonMistakes": [
+    "Grabbing too high on the forearm instead of the wrist joint — a forearm grip can be slipped",
+    "Letting the elbows flare apart — pinched elbows are the key to controlling both wrists",
+    "Not driving forward — the handcuff alone does not flatten; forward pressure is required to collapse the posture",
+    "Releasing too early — maintain the handcuff until the back is fully secured"
+  ],
+  "coachingCues": [
+    "Both wrists, pinch the elbows",
+    "Drive forward, collapse the posture",
+    "Handcuff to back take",
+    "Hold until the back is secure"
+  ],
+  "safetySummary": [
+    "Wrist control should be applied to the wrist joint, not the hand — gripping the hand can cause finger injuries",
+    "Do not apply sudden downward pressure — this can strain the opponent's wrists or shoulders",
+    "If the opponent rolls aggressively, release the handcuff and follow the roll rather than fighting"
+  ],
+  "systemLogic": {
+    "corePrinciple": "The Dagestani handcuff follows a four-step sequence: Secure Near Wrist: Trap Far Wrist → Pinch Elbows → Drive Forward",
+    "decisionTree": [
+      {
+        "condition": "In Step 1 (Secure Near Wrist)",
+        "action": "from behind the turtle or back control, grab the opponent's near wrist and pull it toward your hip"
+      },
+      {
+        "condition": "In Step 2 (Trap Far Wrist)",
+        "action": "reach your other hand under their chest/armpit and grab the far wrist. Both wrists should be held in a stacked position between your hands"
+      },
+      {
+        "condition": "In Step 3 (Pinch Elbows)",
+        "action": "squeeze your elbows together against their back. This locks both wrists in place and prevents them from separating"
+      },
+      {
+        "condition": "In Step 4 (Drive Forward)",
+        "action": "walk your knees forward and drive chest pressure into their back. The forward pressure collapses their posture and forces them either flat (exposing the back) or to roll (which you counter into back control)"
+      },
+      {
+        "condition": "they resist by posturing",
+        "action": "lift their wrists slightly (as if handcuffing them) to break their posture"
+      }
+    ],
+    "exitStrategies": []
+  },
+  "moneyDetails": [
+    "The Dagestani handcuff is one of the most effective turtle-breaking systems in wrestling and BJJ",
+    "It is the signature system of Khabib Nurmagomedov and the Dagestani wrestling school — tested at the highest level",
+    "Mastering the handcuff gives you a reliable path from turtle to back control that does not require strength"
+  ],
+  "fixItFast": [
+    "If you only get one wrist: switch to the cross-wrist ride or claw ride instead",
+    "If they roll out: release and take the back — do not fight to maintain the handcuff",
+    "If they separate their hands: re-pinch the elbows and drive harder"
+  ]
+}

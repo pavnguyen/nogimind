@@ -1,0 +1,71 @@
+{
+  "id": "half-guard-wrestle-up",
+  "locale": "vi",
+  "name": "half guard Đấu vật",
+  "description": "Biến half guard từ phòng thủ thành một chân khi bạn thắng underhook hoặc góc hông. Cuộc đấu vật là bước chuyển tiếp tấn công có giá trị cao nhất từ ​​half guard — nó chuyển một thế phòng thủ thành một cơ hội hạ gục.",
+  "shortInstruction": "Giành chiến thắng underhook, tạo một góc hông, đặt chân bên ngoài của bạn và lái về một chặng. Nếu họ chống lại chặng đơn, hãy tiến tới front headlock.",
+  "summary": "Cuộc vật lộn half guard biến half guard từ chốt phòng thủ thành một đòn tấn công hạ gục. Trình tự như sau: thắng underhook → quay mặt về phía họ → đặt chân ngoài → đánh một chặng. Cuộc vật lộn có hiệu quả vì nó bắt được đối thủ trong quá trình chuyển đổi giữa chuyền và ghim - họ không hoàn toàn cam kết với cả hai điều đó, khiến họ dễ bị tổn thương khi đứng lên đột ngột.",
+  "whyItWorks": [
+    "underhook giúp bạn kiểm soát phần thân trên — chúng không thể crossface hoặc làm phẳng bạn khi bạn đứng",
+    "Tạo một góc hông (quay mặt về phía họ) giúp căn chỉnh cơ thể của bạn để đứng lên - bạn lái xe về phía trước chứ không phải sang ngang",
+    "Mục tiêu một lượt của half guard thật bất ngờ - hầu hết các đối thủ đều mong đợi một cú quét chứ không phải một cú hạ gục",
+    "Một cuộc đấu vật thất bại thường đặt lại trạng thái trung lập thay vì khiến bạn rơi vào tình thế tồi tệ hơn"
+  ],
+  "commonMistakes": [
+    "Cố gắng wrestle up mà không có underhook — họ sẽ crossface bạn và san bằng bạn",
+    "Đứng thẳng thay vì cúi thấp — tư thế cao để lộ bộ đếm chân đơn và nhường underhook",
+    "Không tạo đủ khoảng cách trước khi đứng - bạn cần khoảng trống 6-8 inch để đặt chân",
+    "Từ bỏ cuộc đấu vật quá sớm - hãy cam kết đứng lên nếu không bạn sẽ bị mắc kẹt ở giữa"
+  ],
+  "coachingCues": [
+    "underhook đầu tiên, vật lộn thứ hai",
+    "Tạo góc, đăng chân",
+    "Ở thấp, lái xe đến chân",
+    "Cam kết hoặc không bắt đầu"
+  ],
+  "safetySummary": [
+    "Không đứng thẳng lưng — điều này khiến cổ của bạn phải chịu guillotine giây và lưng của bạn sẽ bị hạ xuống",
+    "Nếu đối thủ đang đấu vật sprawl, hãy lùi về guard thay vì đấu với sprawl",
+    "Cẩn thận bị căng đầu gối khi đăng bài từ half guard — bàn chân bên ngoài phải được đặt chắc chắn"
+  ],
+  "keyCorrections": [
+    "Nếu họ đè bẹp bạn trong cuộc vật lộn: bạn thua underhook — hãy đánh lại trước khi thử lại",
+    "Nếu bạn không thể tìm thấy nhánh đơn: họ đã đăng lại nhánh — chuyển sang front headlock bằng cách sử dụng underhook",
+    "Nếu họ guillotine bạn: đầu bạn quá cao — hãy giữ trán bạn sát hàm họ khi bạn đứng"
+  ],
+  "systemLogic": {
+    "corePrinciple": "Cuộc đấu vật half guard có bốn giai đoạn: underhook → Góc hông → Đứng → Một chân",
+    "decisionTree": [
+      {
+        "condition": "Trong Giai đoạn 1 (underhook)",
+        "action": "giành chiến thắng underhook và kiểm soát tư thế của họ. Đầu của bạn phải tựa vào ngực họ (trán đến xương ức)"
+      },
+      {
+        "condition": "Ở Giai đoạn 2 (Góc hông)",
+        "action": "lối thoát hông để tạo khoảng trống 6-8 inch. Xoay hông của bạn để đối mặt với chúng một góc 45 độ"
+      },
+      {
+        "condition": "Ở Giai đoạn 3 (Đứng)",
+        "action": "đặt chân bên ngoài của bạn và lái xe đến vị trí đứng. Cúi thấp - đầu của bạn không được cao hơn vai họ"
+      },
+      {
+        "condition": "Ở Giai đoạn 4 (Một chặng)",
+        "action": "khi bạn đứng, tấn công vào chân xa của họ bằng một chân. Nếu họ chặn, hãy lái vào hông họ để khóa cơ thể"
+      },
+      {
+        "condition": "một chân thất bại",
+        "action": "chuyển sang front headlock bằng tay cầm underhook của bạn để kéo chúng xuống"
+      }
+    ]
+  },
+  "moneyDetails": [
+    "Trận đấu vật half guard là chuyển đổi có giá trị cao nhất từ ​​half guard — nó ghi được 2 điểm hạ gục và đưa bạn lên vị trí dẫn đầu",
+    "Việc thành thạo môn đấu vật mang lại cho bạn tùy chọn thứ ba từ half guard (quét, khuất phục hoặc đấu vật)",
+    "Cuộc vật lộn đặc biệt hiệu quả đối với những người vượt qua áp lực dồn trọng lượng về phía trước"
+  ],
+  "fixItFast": [
+    "Nếu họ dồn sức về phía trước: hãy sử dụng đà của họ - vật lộn theo hướng họ đang đẩy",
+    "Nếu họ lùi lại: hãy đứng lên hoàn toàn và tham gia lại từ vị trí trung lập",
+    "Nếu họ chuyển sang đường chuyền cắt đầu gối: đánh lại underhook và thoát hông để tạo khoảng trống"
+  ]
+}

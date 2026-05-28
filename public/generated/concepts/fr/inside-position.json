@@ -1,0 +1,71 @@
+{
+  "id": "inside-position",
+  "locale": "fr",
+  "title": "Inside position",
+  "category": "positional",
+  "level": "fundamental",
+  "tags": [
+    "inside position",
+    "pummel",
+    "centerline",
+    "elbow position",
+    "knee pummel",
+    "hand fighting"
+  ],
+  "shortDefinition": "Inside position signifie main, tête, genou ou hanche entre votre structure et le centre adverse — qui gagne cette ligne contrôle la direction.",
+  "whyItMatters": "Gagner la ligne intérieure permet de dicter frames, pummel, underhooks, rétention, back control et hand fight.",
+  "deepExplanation": "Inside position n'est pas un point fixe — c'est une course constante à 4 niveaux:\n\n1. Mains (hand fighting)\n2. Coude/forearm (frame, contrôle coude)\n3. Genou/tibia (knee shield, shin frame)\n4. Hanche/dos (hip line, bodylock, back control)\n\nChaque niveau bat le précédent: coude bat main, genou bat coude, hanche domine genou. Cette course apparaît dans chaque phase: rétention (knee pummel vs knee cut), pass (underhook vs whizzer), front headlock (menton vs coude), leg locks (knee line pummel). Perdre inside = perdre contrôle direction = défense forcée.",
+  "beginnerView": "Règle coude-os-genou: ne laissez pas le coude adverse entrer dans votre coude. En garde, gardez le genou entre vous avant d'atteindre. Inside perdu, n'ajoutez pas force — retirez et pummel à distance sûre.",
+  "advancedView": "Attaquer plusieurs lanes à la fois: tirer la tête avec la main tout en glissant le genou inside pour rétention et hanches pour wrestle-up. S'ils défendent la main, votre genou a déjà gagné. S'ils clear le genou, la main passe en underhook. Inside position n'est pas gagner un point — c'est créer plusieurs courses qu'ils ne peuvent pas gagner toutes.",
+  "ifThenExamples": [
+    {
+      "if": "Si vous perdez Inside position pendant l’échange.",
+      "then": "Arrêtez d’accélérer, récupérez la structure corporelle proche, puis continuez.",
+      "why": "Le no-gi moderne punit vite la force après perte de structure.",
+      "relatedSkillIds": [
+        "frames-pummeling",
+        "seated-guard-retention"
+      ]
+    },
+    {
+      "if": "Si l’adversaire répond correctement à votre première ligne.",
+      "then": "Utilisez Inside position pour passer à une branche plus sûre au lieu de forcer.",
+      "why": "Un bon concept transforme la réaction adverse en information pour la décision suivante.",
+      "relatedSkillIds": [
+        "seated-guard-retention",
+        "bodylock-passing",
+        "front-headlock-defense"
+      ]
+    }
+  ],
+  "commonMisunderstandings": [
+    {
+      "misunderstanding": "Inside position est une astuce technique isolée.",
+      "correction": "Voyez-le comme une règle de décision présente dans plusieurs positions."
+    },
+    {
+      "misunderstanding": "Comprendre le concept suffit pour l’utiliser en live.",
+      "correction": "Le concept doit être lié à signaux corporels, cues courts et rolling positionnel."
+    }
+  ],
+  "trainingCues": [
+    "Nommez Inside position avant d’ajouter force.",
+    "Cherchez le signal corporel, pas une impression vague.",
+    "Si la structure est perdue, reset une couche d’abord.",
+    "Driller lentement, puis tester avec résistance progressive."
+  ],
+  "relatedSkillIds": [
+    "frames-pummeling",
+    "seated-guard-retention",
+    "bodylock-passing",
+    "front-headlock-defense",
+    "hand-fighting"
+  ],
+  "relatedConceptIds": [
+    "pummeling",
+    "elbow-knee-connection",
+    "head-position",
+    "angle-creation",
+    "pressure-direction"
+  ]
+}

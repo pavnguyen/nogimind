@@ -1,0 +1,56 @@
+{
+  "id": "side-control-top",
+  "locale": "vi",
+  "title": "Side Control Trên",
+  "category": "pin",
+  "status": "dominant",
+  "description": "Người ở trên giữ side control bằng crossface, underhook, hip block và shoulder pressure.",
+  "topPlayerGoals": [
+    "Người ở trên muốn kiểm soát Side Control Trên bằng vị trí đầu, vị trí trong và áp lực có hướng.",
+    "Tách khuỷu-gối và buộc người ở dưới chọn escape kém.",
+    "Giữ nền vững để không bị mất thăng bằng hoặc bị phản đòn."
+  ],
+  "bottomPlayerGoals": [
+    "Người ở dưới muốn sống sót trong Side Control Trên bằng khung chặn, pummel hoặc góc phù hợp.",
+    "Recover frame, kết nối khuỷu-gối hoặc underhook trước khi bị mount.",
+    "Nhận diện tín hiệu nguy hiểm sớm thay vì chờ vị trí ổn định."
+  ],
+  "controlPoints": [
+    "Điểm kiểm soát chính: Crossface, underhook và hip block..",
+    "Đầu, tay, hông và gối nên cùng hướng lực.",
+    "Kết nối khuỷu-gối hoặc đường hông-vai quyết định vị trí còn sống hay đã bị khóa."
+  ],
+  "escapePriorities": [
+    "Ưu tiên thoát: Bảo vệ near elbow và không để chest-to-chest ổn định..",
+    "Bảo vệ cổ, lưng, đường gối hoặc đường tay trước khi phản công.",
+    "Nếu mất vị trí trong, hãy lùi lại một lớp phòng thủ trước."
+  ],
+  "advancementOptions": [
+    {
+      "action": "Tiến lên mount hoặc submission threat",
+      "nextPositionId": "mount-top",
+      "relatedSkillIds": [
+        "side-control-pin",
+        "side-control-escape",
+        "arm-triangle-mount"
+      ],
+      "why": "Đây là nhánh tự nhiên khi bạn thắng điểm kiểm soát chính và đối thủ buộc phải phòng thủ."
+    }
+  ],
+  "dangerSignals": [
+    "Cằm hoặc cổ bị kéo ra khỏi đường an toàn.",
+    "Khuỷu tay tách khỏi sườn hoặc đầu gối.",
+    "Đường hông bị khóa trong khi đường vai vẫn đang bị kéo.",
+    "Bạn phải chống tay dài để không ngã."
+  ],
+  "relatedSkillIds": [
+    "side-control-pin",
+    "side-control-escape",
+    "arm-triangle-mount"
+  ],
+  "relatedConceptIds": [
+    "pressure-direction",
+    "elbow-knee-connection",
+    "control-before-submission"
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "id": "neck-crank-recognition",
+  "domain": "positional_awareness",
+  "level": "intermediate",
+  "name": "Neck Crank Recognition",
+  "aliases": [
+    "crank vs choke",
+    "cervical spine safety",
+    "choke recognition"
+  ],
+  "tags": [
+    "safety",
+    "neck-safety",
+    "cervical-spine",
+    "tier:safety-critical",
+    "risk:safety-critical",
+    "family:safety",
+    "group:neck-safety",
+    "modern-no-gi"
+  ],
+  "keywords": [
+    "neck crank",
+    "cervical spine",
+    "choke vs crank",
+    "can opener",
+    "twister",
+    "spine safety"
+  ],
+  "modernSystemGroup": "neck_safety",
+  "relatedSkills": [
+    {
+      "id": "compression-vs-strangle-recognition",
+      "type": "recommended"
+    },
+    {
+      "id": "smother-safety",
+      "type": "recommended"
+    },
+    {
+      "id": "front-headlock-defense",
+      "type": "recommended"
+    }
+  ],
+  "prerequisiteSkillIds": [
+    "positional-hierarchy"
+  ],
+  "relatedPositions": [],
+  "relatedConcepts": [],
+  "archetypeIds": [],
+  "trainingMethodIds": [],
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": true,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "contentRefs": {
+    "qualityChecklist": "qualityChecklist",
+    "videos": "videos.json"
+  },
+  "updatedAt": "2026-06-12T00:00:00.000Z"
+}

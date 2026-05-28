@@ -1,0 +1,119 @@
+{
+  "id": "k-guard-entry",
+  "domain": "guard_offense",
+  "level": "advanced",
+  "status": "draft",
+  "name": "K-guard Entrée",
+  "aliases": [],
+  "tags": [
+    "guard",
+    "leg-lock"
+  ],
+  "keywords": [
+    "K-guard",
+    "knee line",
+    "ashi garami",
+    "heel exposure"
+  ],
+  "relatedSkills": [
+    {
+      "id": "heel-hook-safety",
+      "type": "recommended"
+    },
+    {
+      "id": "single-leg-x-basics",
+      "type": "recommended"
+    },
+    {
+      "id": "guard-pulling-strategy",
+      "type": "recommended"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "supine-guard-retention",
+    "leg-lock-safety-basics"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [
+    "S'ils sortent de K-guard, votre pied sur la hanche a perdu la connexion – rétablissez immédiatement le repose-pied.",
+    "S'ils vous saisissent la tête pendant un guillotine, le contrôle de votre bras est faible : nagez votre main à l'intérieur et frappez.",
+    "Si vous ne pouvez pas entrer dans l'enchevêtrement des jambes, l'angle sous celles-ci est trop peu profond – rapprochez vos hanches."
+  ],
+  "version": 1,
+  "updatedAt": "2026-05-21T00:24:30.754Z",
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "fr",
+  "description": "Utilisez K-guard pour créer un angle sous les hanches de l'adversaire et lancez des attaques d'enchevêtrement du dos ou des jambes avec un contrôle total de sa jambe opposée.",
+  "shortInstruction": "Pied sur leur hanche la plus éloignée, accrochez leur jambe la plus proche, tournez sous eux - K-guard est le roi du système d'attaque par jambe moderne.",
+  "summary": "K-guard est le point d'entrée le plus polyvalent du verrouillage moderne des jambes No-Gi. En plaçant un pied sur la hanche éloignée de l'adversaire et en accrochant sa jambe la plus proche avec votre autre jambe, vous créez un angle puissant sous son centre de masse. À partir de là, vous pouvez attaquer la jambe éloignée (heel hook), prendre l'arrière ou balayer vers la première position. K-guard est la colle qui relie le open guard inférieur au système d'enchevêtrement des jambes.",
+  "whyItWorks": [
+    "Le pied sur leur hanche la plus éloignée contrôle leur rotation et les empêche de s'éloigner.",
+    "Le crochet sur leur jambe la plus proche vous donne un levier pour déséquilibrer et entrer dans les enchevêtrements de jambes.",
+    "Votre corps sous leur centre de masse signifie que vous êtes toujours à un mouvement du balayage ou de l'attaque.",
+    "Principe de Danaher : K-guard résout le problème de « comment entrer les jambes sans abandonner la position »."
+  ],
+  "commonMistakes": [
+    "Laisser le pied de la hanche la plus éloignée glisser jusqu'au ventre – le pied doit rester sur l'os de la hanche.",
+    "N’accrochant pas suffisamment leur jambe proche – un crochet peu profond leur permet de s’échapper.",
+    "Garder les deux pieds sur le tapis – K-guard nécessite un pied surélevé sur le corps à tout moment.",
+    "En allant à K-guard sans contrôler leur bras proche, ils riposteront avec un guillotine ou un kimura."
+  ],
+  "coachingCues": [
+    "Le pied sur la hanche, jamais sur le ventre.",
+    "Accrochez profondément, contrôlez le bras, descendez.",
+    "K-guard est le tunnel – l'autre côté est l'arrivée.",
+    "Sentez leur poids, bougez quand ils s'engagent."
+  ],
+  "safetySummary": [
+    "Gardez votre tête hors du tapis lorsque vous êtes en K-guard — protégez votre cou des compteurs guillotine.",
+    "Contrôlez le bras proche à tout moment : s'il vous saisit la tête, vous risquez un guillotine.",
+    "Ne vous étendez pas pour entrer les jambes sans contrôler leur hanche éloignée – ils peuvent donner un coup de pied libre et contrer avec une genouillère."
+  ],
+  "systemLogic": {
+    "corePrinciple": "Assis guard : gagnez le combat à la main → placez le pied sur la hanche la plus éloignée → accrochez la jambe près de l'autre jambe → faites pivoter sous leur centre → entrez saddle, croisez ashi ou prenez en arrière.",
+    "decisionTree": [
+      {
+        "condition": "Utilisation de l'option 1",
+        "action": "Ils se tiennent debout → entrez cross ashi → heel hook."
+      },
+      {
+        "condition": "Utilisation de l'option 2",
+        "action": "Ils s'assoient → entrez saddle → heel hook ou revenez en arrière."
+      },
+      {
+        "condition": "Utilisation de l'option 3",
+        "action": "Ils affichent une main → balayent en première position."
+      }
+    ],
+    "exitStrategies": []
+  },
+  "moneyDetails": [
+    "Votre pied doit être exactement sur l'os de la hanche (ASIS) : s'il glisse vers le ventre ou les côtes, vous perdez le contrôle.",
+    "Le crochet de la jambe la plus proche doit être derrière la cuisse et non derrière le genou – un crochet profond vous donne l'angle.",
+    "Contrôlez son bras proche en saisissant sa manche, son poignet ou son triceps – cela l'empêche de contre-attaquer.",
+    "Faites pivoter vos hanches vers le plafond lorsque vous entrez dans K-guard - cela ouvre l'angle pour les entrées de jambes."
+  ],
+  "nextStep": "Après l'entrée K-guard, apprenez la matrice K-guard et le système cross ashi heel hook.",
+  "fixItFast": [
+    "Le pied glisse de la hanche ? Enfoncez votre talon dans l’os de la hanche – pas dans la voûte plantaire, mais dans le talon.",
+    "Ils vous prennent la tête ? Frappez votre main dans son bras et réinitialisez la distance.",
+    "Vous ne pouvez pas tourner sous eux ? Votre hameçon est trop peu profond – rapprochez-vous et réaccrochez plus profondément."
+  ]
+}

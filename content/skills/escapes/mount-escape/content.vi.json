@@ -1,0 +1,70 @@
+{
+  "id": "mount-escape",
+  "locale": "vi",
+  "name": "mount Thoát",
+  "description": "Kết hợp cầu, thoát khuỷu và phục hồi đầu gối-khuỷu tay để thoát mount có cấu trúc.",
+  "shortInstruction": "Cầu để mất thăng bằng, quay sang một bên, đập khuỷu tay vào trong và phục hồi guard bằng cách sử dụng kết nối đầu gối-khuỷu tay.",
+  "summary": "Lối thoát mount sử dụng cầu nối theo trình tự để tạo khoảng trống, đặt khuỷu tay để chặn crossface và lối thoát hông để khôi phục guard hoặc vị trí tấm chắn đầu gối. Hệ thống thưởng cho thời gian hơn là sự bùng nổ.",
+  "whyItWorks": [
+    "Một cây cầu đúng lúc sẽ dồn trọng lượng của đối phương lên tay họ, tạo cơ hội để đưa cùi chỏ vào",
+    "Sự kết nối khuỷu tay với đầu gối tạo ra một khung cấu trúc ngăn chặn đối thủ đè bẹp bạn lần nữa",
+    "Hip thoát ra sau khi cây cầu duy trì khoảng cách và từ chối khả năng thiết lập lại mức cao của họ mount",
+    "Xoay người về phía bạn trước khi trốn thoát sẽ sử dụng sự liên kết mạnh mẽ nhất của bộ xương để chống lại áp lực tối đa của chúng"
+  ],
+  "commonMistakes": [
+    "Kết nối mà không có khung hình đầu tiên — bạn lãng phí năng lượng và luôn ở trạng thái phẳng",
+    "Kéo đầu gối về phía ngực thay vì nhét khớp nối đầu gối-khuỷu tay",
+    "Quay mặt trái và bỏ cuộc phía sau",
+    "Đuổi theo lối thoát bằng nhiều cây cầu yếu thay vì một cây cầu đúng lúc bằng khuỷu tay"
+  ],
+  "coachingCues": [
+    "Khung trước cầu",
+    "Đầu gối đến khuỷu tay, không phải ngực",
+    "Xoay, đừng ép ghế"
+  ],
+  "safetySummary": [
+    "Việc trốn thoát mount bằng cầu nối nổ trong không gian hạn chế có thể vô tình gây ra va chạm vào đầu",
+    "Đừng bắt cầu nếu bạn cảm thấy đối phương đã cô lập cánh tay của bạn trong armbar",
+    "Thư giãn và thở khi bị đè bẹp - việc bắc cầu hoảng loạn sẽ tiêu tốn oxy và khiến tư thế trở nên tồi tệ hơn"
+  ],
+  "systemLogic": {
+    "corePrinciple": "mount thoát theo trình tự ba bước: khung + cầu → khuỷu tay → thoát hông về phía kết nối đầu gối-khuỷu tay. Mỗi bước sẽ thiết lập bước tiếp theo — bắc cầu tải trọng về phía trước, đòn đánh ở khuỷu tay chặn crossface và khuỷu tay đầu gối tạo khung cho guard.",
+    "decisionTree": [
+      {
+        "condition": "Đối thủ bị mount đập bằng cả hai đầu gối trên thảm",
+        "action": "Đặt cả hai cẳng tay lên hông, cầu để mất thăng bằng về phía trước, sau đó ngay lập tức quay sang một bên và đập khuỷu tay gần của bạn vào trong."
+      },
+      {
+        "condition": "Đối thủ bài rộng để chống lại cây cầu của bạn",
+        "action": "Định khung lại và bắc cầu theo hướng ngược lại trước khi tiếp xúc với khuỷu tay. Không ép khuỷu tay vào quầy - hãy đặt lại và bắc cầu lại."
+      },
+      {
+        "condition": "Cú đập khuỷu tay thành công (khuỷu tay ở bên trong)",
+        "action": "Hông thoát ra khỏi đối thủ trong khi vẫn giữ chặt kết nối khuỷu tay-đầu gối. Khôi phục về half guard bằng knee shield."
+      },
+      {
+        "condition": "Đối thủ chuyển sang kỹ thuật mount khi bạn trốn thoát",
+        "action": "Bảo vệ lưng của bạn ngay lập tức bằng cách nằm nghiêng và giữ cánh tay gần ngang bụng. Đừng quay lưng lại với họ."
+      },
+      {
+        "condition": "Đối thủ lại đè bẹp bạn sau cây cầu",
+        "action": "Cú đánh khuỷu tay của bạn quá nông - hãy tập trung vào việc đưa khuỷu tay vượt qua đường hông của họ trước khi thực hiện động tác thoát hông."
+      }
+    ],
+    "exitStrategies": [
+      "Nếu bạn khôi phục được khuỷu tay đầu gối, hãy nhập half guard và thiết lập knee shield ngay lập tức.",
+      "Nếu họ quay sang side control trong khi trốn thoát, hãy sử dụng khung để giữ khoảng cách và tiếp tục thoát hông.",
+      "Nếu cây cầu đầu tiên không tạo được không gian, đừng nối nhiều cây cầu yếu - một cây cầu đúng lúc với cú va chạm bằng khuỷu tay có giá trị bằng mười cây cầu nổ không có cấu trúc."
+    ]
+  },
+  "moneyDetails": [
+    "Việc thành thạo lối thoát mount sẽ loại bỏ nỗi sợ bị mounted — bạn có thể luyện tập chăm chỉ hơn và thi đấu tự tin hơn",
+    "Đây là kỹ năng sinh tồn quan trọng nhất trong BJJ: mọi người đều bị mounted, không phải ai cũng trốn thoát",
+    "Thi đấu mount thoát khỏi trận thắng với một điểm hoặc bằng cách đặt lại về vị trí trung lập nơi bạn có thể tấn công"
+  ],
+  "fixItFast": [
+    "Nếu bạn không thể đưa khuỷu tay vào: kéo mạnh hơn về một bên, sau đó đổi hướng đột ngột để tạo khoảng trống cho phía cánh tay bị kẹt",
+    "Nếu họ lại đè bẹp bạn sau cây cầu: cú đánh khuỷu tay của bạn quá nông. Tập trung vào việc đưa khuỷu tay qua đường hông của họ",
+    "Nếu họ chuyển sang kỹ thuật mount: hãy bảo vệ lưng ngay lập tức bằng cách nằm nghiêng và giữ cánh tay gần ngang bụng"
+  ]
+}

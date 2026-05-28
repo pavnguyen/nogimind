@@ -1,0 +1,65 @@
+{
+  "id": "z-lock",
+  "locale": "vi",
+  "name": "Khóa Z",
+  "description": "Một đòn khóa chân hiện đại từ một chân X (SLX) hoặc 50/50 kết hợp áp lực ankle lock với cơ chế xoay heel hook — tấn công đồng thời vào đầu gối và mắt cá chân của đối phương.",
+  "shortInstruction": "Từ SLX, underhook chân gần, đưa chân ngoài của bạn qua đùi họ, giữ chân họ ở hông bạn, xoay hông đến thảm — mắt cá chân kết hợp và kết thúc heel hook.",
+  "summary": "Khóa Z là một phương thức khóa chân kết hợp các yếu tố của ankle lock và heel hook thành một đòn tấn công tàn khốc duy nhất. Bắt nguồn từ các vị trí như một chân X (SLX) và 50/50 guard, nó sử dụng cấu hình chân độc đáo để bẫy và vặn chân đối phương. Vị trí này mang lại khả năng kiểm soát tuyệt vời và có thể được sử dụng như một động tác dứt điểm cũng như một vị trí chuyển tiếp cho các đòn tấn công bằng chân khác như saddle hoặc chéo ashi garami. Nó đặc biệt hiệu quả trong No-Gi và các hệ thống khóa chân hiện đại.",
+  "whyItWorks": [
+    "Kết hợp đồng thời hai vectơ tấn công (mắt cá chân + đầu gối), tạo ra tình thế khó xử cho đối thủ - phòng thủ cái này sẽ làm lộ cái kia.",
+    "Sử dụng khả năng xoay hông và trọng lượng cơ thể thay vì chỉ sức mạnh của cánh tay, giúp nó hoạt động hiệu quả về mặt cơ học.",
+    "Bẫy chân ở hông ngăn cản đối phương lăn ra hoặc quay người bỏ chạy.",
+    "Có thể được nhập trực tiếp từ các vị trí guard chung (SLX, 50/50) mà không cần định vị lại phức tạp.",
+    "Tạo sự cô lập cao độ cho khớp gối bằng cách cố định bàn chân ở hông trong khi xoay thân."
+  ],
+  "commonMistakes": [
+    "Mất underhook ở chân gần, khiến đối phương thả chân và chạy thoát.",
+    "Không giữ chân chắc chắn ở hông trước khi bắt đầu xoay.",
+    "Chỉ sử dụng sức mạnh phần thân trên thay vì thực hiện động tác xoay hông để kết thúc.",
+    "Áp dụng sự khuất phục quá chậm, khiến đối thủ có thời gian xếp chồng hoặc lăn lộn.",
+    "Xoay quá mức và mất kiểm soát chân bị mắc kẹt sau khi dứt điểm."
+  ],
+  "coachingCues": [
+    "Bẫy bàn chân giống như bạn đang ghim nó vào xương hông - đừng để nó trượt.",
+    "Xoay hông của bạn vào thảm chứ không phải vai - sức mạnh đến từ cốt lõi.",
+    "Giữ gót chân của họ sát vào cơ thể bạn để tối đa hóa đòn bẩy.",
+    "Nhập từ SLX khi họ tạo tư thế: underhook + gác chân = khóa Z.",
+    "Nếu họ lăn, hãy đi theo hông họ và tấn công lại - đừng đặt lại."
+  ],
+  "safetySummary": [
+    "Khóa Z tác dụng mô-men quay lên đầu gối - chạm sớm và tôn trọng sự phục tùng.",
+    "Không thích hợp cho người mới bắt đầu - đòi hỏi phải hiểu rõ về khóa chân trước khi thử.",
+    "Áp lực kết hợp từ mắt cá chân + đầu gối có thể gây thương tích cho cả hai khớp nếu tác động mạnh.",
+    "Đối tác lăn nên thiết lập các giao thức chạm rõ ràng cho các cuộc tấn công bằng chân."
+  ],
+  "keyCorrections": [
+    "Nếu bạn không thể hoàn thành, bẫy chân của bạn quá lỏng - hãy kéo chân họ chặt hơn vào hông bạn.",
+    "Nếu chúng lăn, hãy làm theo chuyển động xoay hông của chúng — nhả khóa và tấn công lại từ saddle.",
+    "Nếu bạn cảm thấy lực cản ở đầu gối của họ, hãy giải phóng áp lực - đừng ép họ xoay."
+  ],
+  "systemLogic": {
+    "corePrinciple": "SLX hoặc 50/50: underhook chân gần → đưa chân ngoài qua đùi họ → giữ chân họ ở hông bạn → xoay hông về phía thảm → kết thúc.",
+    "decisionTree": [
+      {
+        "condition": "Ứng dụng chung",
+        "action": "Chuỗi khóa Z có saddle: nếu chúng lăn để thoát khỏi khóa Z, hãy nhập saddle."
+      },
+      {
+        "condition": "họ phòng thủ bằng cách xếp chồng",
+        "action": "thả ra và nhập lại từ SLX."
+      }
+    ]
+  },
+  "moneyDetails": [
+    "underhook trên chân gần của họ phải sâu — cánh tay của bạn phải quấn quanh đùi họ chứ không chỉ đầu gối.",
+    "Chân bên ngoài của bạn vượt qua đùi họ và ghim chân họ vào cơ thể bạn.",
+    "Đặt chân họ vào hông bạn bằng cách giữ chặt đầu gối của bạn vào cơ thể họ.",
+    "Kết thúc là xoay hông của bạn về phía thảm trong khi vẫn giữ chân họ cố định - điều này kết hợp áp lực ở mắt cá chân và đầu gối."
+  ],
+  "nextStep": "Sau khóa Z, hãy tìm hiểu điều khiển saddle/inside sankaku và bên trong heel hook.",
+  "fixItFast": [
+    "Chân cứ trượt à? underhook của bạn quá nông — hãy đào sâu hơn vào đùi.",
+    "Không thể hoàn thành? Bẫy chân của bạn bị lỏng - hãy kéo nó chặt hơn vào hông của bạn.",
+    "Họ lăn? Đi theo hông họ và bước vào saddle — đừng chống cự."
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "id": "aoki-lock",
+  "locale": "vi",
+  "name": "Khóa Aoki",
+  "description": "Thanh đầu gối từ 50/50 hoặc vướng chân sử dụng tay nắm hình số 4 đặc biệt và xoay hông để kết thúc nhanh chóng mà không cần kiểm soát hoàn toàn saddle.",
+  "shortInstruction": "Hình số 4 nắm chặt vào chân, xoay hông về phía hông của họ, duỗi chân - khóa Aoki là một thanh đòn nhanh từ 50/50.",
+  "summary": "Khóa Aoki (được đặt theo tên của Shinya Aoki) là một biến thể thanh đầu gối từ 50/50 guard sử dụng một tay cầm độc đáo: thay vì điều khiển chân bằng cả hai tay theo kiểu thanh đầu gối tiêu chuẩn, bạn khóa một tay nắm hình số bốn quanh đùi của họ. Cách cầm này giúp bạn kiểm soát đặc biệt khả năng xoay hông của họ trong khi chuyển động hông của bạn tác dụng lực siêu giãn lên đầu gối của họ. Khóa Aoki hiệu quả vì nó kết thúc nhanh chóng và không yêu cầu vị trí saddle hoặc ashi garami đầy đủ.",
+  "whyItWorks": [
+    "Tay nắm hình số 4 quanh đùi giúp họ không thể xoay hông ra khỏi thanh đầu gối.",
+    "Nó kết thúc với tỷ số 50/50, một vị trí mà heel hook là mối đe dọa chính — khóa Aoki bắt đối thủ tập trung vào phòng thủ gót chân.",
+    "Kết thúc đến từ việc xoay hông thay vì kéo chân - làm cho nó hiệu quả về mặt cơ học.",
+    "Nguyên tắc Danaher: kiểm soát hông để kiểm soát đầu gối - cách cầm hình số 4 là kiểm soát hông."
+  ],
+  "commonMistakes": [
+    "Không khóa tay nắm hình số 4 đủ sâu trên đùi - tay cầm nông sẽ khiến chúng tuột ra ngoài.",
+    "Kéo chân thẳng về phía sau thay vì xoay hông - khóa Aoki là một thanh đầu gối xoay.",
+    "Để đối thủ ngồi lại và rút gót chân ra - duy trì áp lực về phía trước.",
+    "Thả tay cầm khi họ bắt đầu trốn thoát - hình số bốn phải giữ chặt trong suốt."
+  ],
+  "coachingCues": [
+    "Hình bốn sâu ở đùi chứ không phải bắp chân.",
+    "Xoay hông, không kéo chân.",
+    "50/50 cho khóa Aoki - một chuyển động, không dừng lại.",
+    "Cảm nhận chuyển động xoay hông - đó là cơ chế hoàn thiện."
+  ],
+  "safetySummary": [
+    "Khóa Aoki giúp mở rộng đầu gối - tạo áp lực từ từ và tôn trọng cú chạm.",
+    "Cần lưu ý rằng cách cầm hình số 4 cũng có thể gây áp lực lên đầu gối của bạn nếu bạn vặn người quá mạnh.",
+    "Không khuyến khích cho người mới bắt đầu - yêu cầu hiểu biết về cơ học thanh đầu gối."
+  ],
+  "keyCorrections": [
+    "Nếu họ rút chân ra, thì hình số 4 của bạn quá nông - hãy khóa lại ở đùi cao hơn.",
+    "Nếu bạn không thể hoàn thành thì góc hông của bạn đã sai - hãy xoay hông về phía họ chứ không phải xoay ra xa.",
+    "Nếu chúng xếp chồng lên nhau, hãy thả tay cầm ra và đặt lại - đừng chống lại chồng."
+  ],
+  "systemLogic": {
+    "corePrinciple": "50/50 hoặc vướng chân: nắm chặt đùi theo hình số 4 → xoay hông về phía hông → duỗi chân → kết thúc.",
+    "decisionTree": [
+      {
+        "condition": "Ứng dụng chung",
+        "action": "Khóa Aoki hoạt động như một sợi dây xích khỏi mối đe dọa heel hook: dụ người phòng thủ gót chân, chuyển sang Aoki."
+      },
+      {
+        "condition": "họ bảo vệ Aoki bằng cách xoay hông",
+        "action": "chuyển sang heel hook."
+      }
+    ]
+  },
+  "moneyDetails": [
+    "Khóa hình số 4 cao trên đùi - càng gần hông càng tốt để kiểm soát tối đa.",
+    "Cách cầm của bạn phải như sau: một tay nắm lấy cổ tay của chính bạn, tay kia nắm lấy mắt cá chân của họ - điều này tạo ra hình số bốn.",
+    "Xoay hông của bạn về phía hông của họ chứ không phải về phía chân của họ - việc xoay hông sẽ tạo ra độ giãn quá mức.",
+    "Giữ chân của chúng ghim vào hông bạn khi bạn xoay - điều này ngăn chúng đá tự do."
+  ],
+  "nextStep": "Sau khóa Aoki, hãy tìm hiểu thanh đầu gối tiêu chuẩn và heel hook từ 50/50.",
+  "fixItFast": [
+    "Hình 4 cứ trượt mãi à? Khóa nó cao hơn trên đùi, gần hông hơn.",
+    "Không thể hoàn thành? Hông của bạn chưa xoay đủ - hãy tập trung đưa hông của bạn về phía hông của họ.",
+    "Họ ngồi lại? Hãy lao thẳng vào họ - đừng để họ tạo khoảng cách."
+  ]
+}

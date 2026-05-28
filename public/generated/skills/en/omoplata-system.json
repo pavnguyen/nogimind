@@ -1,0 +1,121 @@
+{
+  "id": "omoplata-system",
+  "domain": "submission_systems",
+  "level": "advanced",
+  "status": "draft",
+  "name": "Omoplata System",
+  "aliases": [],
+  "tags": [
+    "submission",
+    "shoulder-lock-safety",
+    "guard"
+  ],
+  "keywords": [
+    "omoplata",
+    "shoulder isolation",
+    "hip angle",
+    "submission safety"
+  ],
+  "relatedSkills": [
+    {
+      "id": "triangle-system",
+      "type": "recommended"
+    },
+    {
+      "id": "choi-bar",
+      "type": "recommended"
+    },
+    {
+      "id": "tarikoplata",
+      "type": "recommended"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "clamp-guard-control",
+    "triangle-system"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [
+    "If you can't finish, your hips are not close enough to their shoulder — scoot your hips closer.",
+    "If they posture out, your leg control is too loose — clamp your leg tighter around their arm.",
+    "If they stack you, release the omoplata and push their hips away — don't fight the stack."
+  ],
+  "version": 1,
+  "updatedAt": "2026-05-21T00:24:30.744Z",
+  "contentRefs": {
+    "videos": "videos.json",
+    "qualityChecklist": "qualityChecklist"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": true,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "en",
+  "description": "Turn the shoulder clamp into a shoulder lock by using hip angle, posture break, and wrist control — the omoplata applies rotational pressure to the shoulder.",
+  "shortInstruction": "Trap the arm, clamp with your leg, rotate your hips, shoulder lock follows — the omoplata is a leg-assisted shoulder lock.",
+  "summary": "The omoplata is one of the most powerful shoulder locks from guard. It uses your legs to trap their arm and your hip rotation to apply the submission pressure. Unlike the kimura (which uses both hands), the omoplata uses one leg as the lever and your hips as the engine. The omoplata system includes the sweep (when they posture to defend) and the back take (when they roll to escape). It is a complete attack system from the guard.",
+  "whyItWorks": [
+    "Using your leg as the lever gives you a mechanical advantage that pure arm strength cannot match.",
+    "The omoplata creates a dilemma: tap to the shoulder lock, get swept, or give up the back.",
+    "It works from positions where the kimura is difficult (closed guard, half guard).",
+    "Danaher principle: the omoplata is a 'position' submission — if the position is correct, the submission requires minimal force."
+  ],
+  "commonMistakes": [
+    "Not controlling the opponent's posture before attacking — they can posture and stack you.",
+    "Letting the trapped arm slide out from under your leg — the leg must clamp the arm against your body.",
+    "Rotating the wrong direction — the omoplata rotation is away from them, not toward them.",
+    "Falling sideways to finish instead of rotating — the finish is a rotation of the hips, not a lateral fall."
+  ],
+  "coachingCues": [
+    "Trap the arm, clamp the leg, rotate away.",
+    "If they posture, sweep. If they roll, take the back.",
+    "Leg is the lever, hips are the engine, shoulder is the target.",
+    "Rotate away, not sideways."
+  ],
+  "safetySummary": [
+    "The omoplata applies rotational pressure to the shoulder — apply gradually and respect the tap.",
+    "Do not crank the shoulder if the opponent has pre-existing shoulder issues.",
+    "Be careful when opponents roll to escape the omoplata — they can land on your face or neck."
+  ],
+  "systemLogic": {
+    "corePrinciple": "Guard: trap their arm with your leg (over their shoulder) → clamp the arm against your body → rotate your hips away → shoulder lock finishes.",
+    "decisionTree": [
+      {
+        "condition": "Using Reaction 1",
+        "action": "They posture to defend → sit up into a sweep → land in mount or side control."
+      },
+      {
+        "condition": "Using Reaction 2",
+        "action": "They roll to escape → follow their roll → take the back."
+      },
+      {
+        "condition": "The omoplata system chains: submission",
+        "action": "sweep → back take."
+      }
+    ],
+    "exitStrategies": []
+  },
+  "moneyDetails": [
+    "Trap their arm by swinging your same-side leg over their shoulder — your knee should be in their armpit.",
+    "Clamp your leg against your own chest to pin their arm — a loose leg gives them the escape.",
+    "Control their free arm with your hand to prevent them from posting during the rotation.",
+    "Rotate your hips away from them — the rotation applies the shoulder lock without arm strength."
+  ],
+  "nextStep": "After the omoplata system, learn the kimura system and baratoplata to complete the shoulder attack arsenal.",
+  "fixItFast": [
+    "Arm keeps slipping? Clamp your leg tighter against your chest.",
+    "Can't rotate? Your hips are too far — pull your hips closer to their shoulder.",
+    "They posture up? Release the omoplata and pull them into a sweep."
+  ]
+}

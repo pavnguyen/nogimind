@@ -1,0 +1,48 @@
+{
+  "id": "hand-fighting",
+  "domain": "wrestle_up_wrestling",
+  "level": "beginner",
+  "name": "Hand Fighting",
+  "aliases": [],
+  "tags": [
+    "wrestling",
+    "grips"
+  ],
+  "keywords": [
+    "hand fighting",
+    "inside position",
+    "underhook",
+    "collar tie"
+  ],
+  "relatedSkills": [
+    {
+      "id": "snapdown-front-headlock",
+      "type": "recommended"
+    },
+    {
+      "id": "single-leg-bjj",
+      "type": "recommended"
+    },
+    {
+      "id": "front-headlock-defense",
+      "type": "recommended"
+    }
+  ],
+  "prerequisiteSkillIds": [
+    "inside-position"
+  ],
+  "relatedPositions": [],
+  "relatedConcepts": [],
+  "archetypeIds": [],
+  "trainingMethodIds": [],
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "updatedAt": "2026-05-21T00:24:30.760Z"
+}

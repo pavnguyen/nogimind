@@ -1,0 +1,126 @@
+{
+  "id": "dilemmas-two-way-attacks",
+  "domain": "positional_awareness",
+  "level": "intermediate",
+  "status": "draft",
+  "name": "Dilemmas and Two-Way Attacks",
+  "aliases": [],
+  "tags": [
+    "decision-making",
+    "offense"
+  ],
+  "keywords": [
+    "dilemma",
+    "two-way attack",
+    "reaction trap",
+    "transition chain"
+  ],
+  "relatedSkills": [
+    {
+      "id": "guillotine-system",
+      "type": "recommended"
+    },
+    {
+      "id": "kimura-system",
+      "type": "recommended"
+    },
+    {
+      "id": "rear-naked-choke-system",
+      "type": "recommended"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "positional-hierarchy",
+    "inside-position"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [
+    "If the opponent defends both attacks easily: your dilemma is not connected — the two threats must share a structural link (e.g., both attack the same arm, or both exploit the same weight distribution)",
+    "If you transition from attack A to attack B but lose position: you are committing too fully to A — keep 20% awareness on the positional outcome even while attacking",
+    "If you freeze when the opponent defends A: drill the transition from A to B until it is automatic — hesitation kills the dilemma"
+  ],
+  "version": 1,
+  "updatedAt": "2026-05-21T00:24:30.756Z",
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "en",
+  "description": "Create two threats so the opponent must defend one line and expose the other. A dilemma forces the opponent to choose between two bad options — your job is to present the choice and capitalize on either response.",
+  "shortInstruction": "Link two complementary attacks so that defending one opens the other. If they block the sweep, take the submission. If they block the submission, complete the sweep.",
+  "summary": "A dilemma is any position where the opponent's defensive response to one attack opens a second, equally dangerous attack. The most powerful dilemmas link a sweep and a submission (e.g., scissor sweep → kimura from closed guard) or a pass and a back take (e.g., passing to one side exposes the back). The system teaches you to chain attacks rather than firing single techniques and restarting on failure.",
+  "whyItWorks": [
+    "The human brain is limited to processing one major threat at a time — a true dilemma splits their attention and guarantees a reaction lag",
+    "Linking attacks creates compounding pressure — even if they defend the first attack perfectly, they arrive in a worse position than where they started",
+    "Two-way attacks exploit the opponent's defensive instincts — their trained reaction to one threat becomes the opening for the second",
+    "The highest-level grapplers (Danaher, Gordon Ryan) build their entire game around dilemmas rather than individual techniques"
+  ],
+  "commonMistakes": [
+    "Committing 100% to one attack and having no plan B when it fails",
+    "Chaining attacks that are unrelated — the second attack must be a natural consequence of defending the first",
+    "Moving too fast through the sequence — each attack must be a genuine threat, not just a transition motion",
+    "Not recognizing when the opponent has neutralized both threats — this is the time to reset, not force a third low-probability attack"
+  ],
+  "coachingCues": [
+    "Two threats, one choice for them",
+    "Sweep → submission, submission → sweep",
+    "If they stop A, give them B",
+    "Every attack sets up the next"
+  ],
+  "safetySummary": [
+    "Do not force a dilemma at high speed — chain attacks at controlled pace to prevent accidental joint trauma",
+    "When attacking with a two-way submission chain (e.g., armbar to triangle), apply submissions progressively, not explosively",
+    "Be aware that training partners may tap to the threat of a submission rather than the actual pressure — respect the early tap"
+  ],
+  "systemLogic": {
+    "corePrinciple": "A dilemma requires three components: (1) a connected pair of attacks, (2) shared structural mechanics, and (3) a recognition trigger to switch between them",
+    "decisionTree": [
+      {
+        "condition": "General application",
+        "action": "A dilemma requires three components: (1) a connected pair of attacks, (2) shared structural mechanics, and (3) a recognition trigger to switch between them"
+      },
+      {
+        "condition": "Component 1: Connected pair",
+        "action": "the two attacks must target different parts of the opponent's body or different defensive responses. Examples: sweep + submission, choke + armbar, pass + back take"
+      },
+      {
+        "condition": "Component 2: Shared mechanics",
+        "action": "both attacks must flow from the same structural position. If you have to change your entire body position to switch attacks, it is not a dilemma — it is two separate techniques"
+      },
+      {
+        "condition": "Component 3: Recognition trigger",
+        "action": "you must know exactly when to switch. The trigger is almost always the same: the moment they commit their weight or hands to defend A, you transition to B"
+      },
+      {
+        "condition": "Common dilemma examples",
+        "action": "Closed guard: scissor sweep (they post hand → kimura) or armbar (they posture → triangle). Mount: armbar (they defend arm → cross choke) or cross choke (they defend neck → armbar). Back: rear-naked choke (they defend neck → bow-and-arrow) or bow-and-arrow (they defend hip → RNC). Leg locks: heel hook (they defend inside → outside ashi) or straight ankle lock (they defend heel hook → ankle lock)"
+      }
+    ],
+    "exitStrategies": []
+  },
+  "moneyDetails": [
+    "Dilemmas are the primary scoring mechanism in high-level BJJ — the majority of points and submissions come from two-way attacks, not single techniques",
+    "A single well-constructed dilemma can finish a match in seconds by creating an unsolvable problem for the opponent",
+    "Building a game around dilemmas rather than individual techniques is the fastest path to advanced level BJJ",
+    "The best grapplers in the world (Gordon Ryan, Mica Galvao, Tainan Dalpra) base their entire game on 3-4 high-percentage dilemmas"
+  ],
+  "fixItFast": [
+    "If your dilemma is not working: check that the two attacks share the same structural position. If you have to move significantly between them, it is not a dilemma",
+    "If the opponent is defending both attacks: add a third layer. A three-attack chain from one position is almost impossible to defend",
+    "If you keep losing position during the transition: slow down. The dilemma requires each attack to be a genuine threat — rushing makes neither attack dangerous"
+  ]
+}

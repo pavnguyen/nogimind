@@ -1,0 +1,57 @@
+{
+  "id": "reverse-de-la-riva-guard",
+  "locale": "vi",
+  "title": "Reverse De La Riva Guard",
+  "category": "bottom_guard",
+  "status": "defensive",
+  "description": "RDLR dùng hook chân ngoài đùi và xoay hông để tạo angle, sweep hoặc chuyển sang other guards.",
+  "topPlayerGoals": [
+    "Người ở trên muốn kiểm soát Reverse De La Riva Guard bằng vị trí đầu, vị trí trong và áp lực có hướng.",
+    "Kill hook, staple leg và ép shoulder line xuống.",
+    "Giữ nền vững để không bị mất thăng bằng hoặc bị phản đòn."
+  ],
+  "bottomPlayerGoals": [
+    "Người ở dưới muốn sống sót trong Reverse De La Riva Guard bằng khung chặn, pummel hoặc góc phù hợp.",
+    "Giữ hook sống, xoay hông ra ngoài và chọn sweep/kimura/back take.",
+    "Nhận diện tín hiệu nguy hiểm sớm thay vì chờ vị trí ổn định."
+  ],
+  "controlPoints": [
+    "Điểm kiểm soát chính: Outside hook, hip angle và far wrist..",
+    "Đầu, tay, hông và gối nên cùng hướng lực.",
+    "Kết nối khuỷu-gối hoặc đường hông-vai quyết định vị trí còn sống hay đã bị khóa."
+  ],
+  "escapePriorities": [
+    "Ưu tiên thoát: Không để họ kéo far wrist qua hip line..",
+    "Bảo vệ cổ, lưng, đường gối hoặc đường tay trước khi phản công.",
+    "Nếu mất vị trí trong, hãy lùi lại một lớp phòng thủ trước."
+  ],
+  "advancementOptions": [
+    {
+      "action": "Chuyển DLR hoặc vào berimbolo line",
+      "nextPositionId": "de-la-riva-guard",
+      "relatedSkillIds": [
+        "reverse-de-la-riva-transitions",
+        "single-leg-x-control",
+        "kimura-system"
+      ],
+      "why": "Đây là nhánh tự nhiên khi bạn thắng điểm kiểm soát chính và đối thủ buộc phải phòng thủ."
+    }
+  ],
+  "dangerSignals": [
+    "Cằm hoặc cổ bị kéo ra khỏi đường an toàn.",
+    "Khuỷu tay tách khỏi sườn hoặc đầu gối.",
+    "Đường hông bị khóa trong khi đường vai vẫn đang bị kéo.",
+    "Bạn phải chống tay dài để không ngã."
+  ],
+  "relatedSkillIds": [
+    "reverse-de-la-riva-transitions",
+    "single-leg-x-control",
+    "kimura-system",
+    "guard-pulling-strategy"
+  ],
+  "relatedConceptIds": [
+    "hooks",
+    "angle-creation",
+    "hip-line-shoulder-line"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "id": "hooks",
+  "locale": "fr",
+  "title": "Hooks",
+  "category": "mechanical",
+  "level": "fundamental",
+  "tags": [
+    "hook",
+    "butterfly",
+    "back control"
+  ],
+  "shortDefinition": "Un hook est une connexion jambe/pied pour lever, tirer, tenir hip line ou déséquilibrer.",
+  "whyItMatters": "Les hooks actifs font fonctionner guard retention, butterfly, back control et single leg X.",
+  "deepExplanation": "Un hook n’est pas poser pied. Il demande angle genou, tension cou-de-pied/talon et connexion hanches. Hook mort se fait écraser; hook vivant force post/base.",
+  "beginnerView": "Orteils actifs et savoir si hook tire ou lève.",
+  "advancedView": "Utiliser hooks comme capteurs: changement poids ouvre sweep, wrestle-up ou rétention.",
+  "ifThenExamples": [
+    {
+      "if": "Si vous perdez Hooks pendant l’échange.",
+      "then": "Arrêtez d’accélérer, récupérez la structure corporelle proche, puis continuez.",
+      "why": "Le no-gi moderne punit vite la force après perte de structure.",
+      "relatedSkillIds": [
+        "butterfly-guard-off-balance",
+        "seated-guard-retention"
+      ]
+    },
+    {
+      "if": "Si l’adversaire répond correctement à votre première ligne.",
+      "then": "Utilisez Hooks pour passer à une branche plus sûre au lieu de forcer.",
+      "why": "Un bon concept transforme la réaction adverse en information pour la décision suivante.",
+      "relatedSkillIds": [
+        "seated-guard-retention",
+        "back-control",
+        "single-leg-x-control"
+      ]
+    }
+  ],
+  "commonMisunderstandings": [
+    {
+      "misunderstanding": "Hooks est une astuce technique isolée.",
+      "correction": "Voyez-le comme une règle de décision présente dans plusieurs positions."
+    },
+    {
+      "misunderstanding": "Comprendre le concept suffit pour l’utiliser en live.",
+      "correction": "Le concept doit être lié à signaux corporels, cues courts et rolling positionnel."
+    }
+  ],
+  "trainingCues": [
+    "Nommez Hooks avant d’ajouter force.",
+    "Cherchez le signal corporel, pas une impression vague.",
+    "Si la structure est perdue, reset une couche d’abord.",
+    "Driller lentement, puis tester avec résistance progressive."
+  ],
+  "relatedSkillIds": [
+    "butterfly-guard-off-balance",
+    "seated-guard-retention",
+    "back-control",
+    "single-leg-x-control"
+  ],
+  "relatedConceptIds": [
+    "base-balance",
+    "connection-before-control",
+    "guard-retention-layers"
+  ]
+}

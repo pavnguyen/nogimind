@@ -1,0 +1,65 @@
+{
+  "id": "head-position",
+  "locale": "fr",
+  "title": "Position de tête",
+  "category": "mechanical",
+  "level": "fundamental",
+  "tags": [
+    "head position",
+    "neck safety",
+    "wedge"
+  ],
+  "shortDefinition": "La tête est post, wedge, source de pression et capteur qui organise la colonne.",
+  "whyItMatters": "Mauvaise position de tête expose guillotine, tue underhook, invite shoulder crunch ou perd angle pass.",
+  "deepExplanation": "La tête décide mouvement épaules/hanches. Oreille aux côtes pour wrestle-up; tête décalée hip pour bodylock; tête près tête adverse pour back control.",
+  "beginnerView": "Ne laissez pas tête flotter ou entre deux mains adverses.",
+  "advancedView": "Utiliser tête pour couper shoulder line ou hip line avant les mains.",
+  "ifThenExamples": [
+    {
+      "if": "Si vous perdez Position de tête pendant l’échange.",
+      "then": "Arrêtez d’accélérer, récupérez la structure corporelle proche, puis continuez.",
+      "why": "Le no-gi moderne punit vite la force après perte de structure.",
+      "relatedSkillIds": [
+        "front-headlock-defense",
+        "bodylock-passing"
+      ]
+    },
+    {
+      "if": "Si l’adversaire répond correctement à votre première ligne.",
+      "then": "Utilisez Position de tête pour passer à une branche plus sûre au lieu de forcer.",
+      "why": "Un bon concept transforme la réaction adverse en information pour la décision suivante.",
+      "relatedSkillIds": [
+        "bodylock-passing",
+        "half-guard-wrestle-up",
+        "back-control"
+      ]
+    }
+  ],
+  "commonMisunderstandings": [
+    {
+      "misunderstanding": "Position de tête est une astuce technique isolée.",
+      "correction": "Voyez-le comme une règle de décision présente dans plusieurs positions."
+    },
+    {
+      "misunderstanding": "Comprendre le concept suffit pour l’utiliser en live.",
+      "correction": "Le concept doit être lié à signaux corporels, cues courts et rolling positionnel."
+    }
+  ],
+  "trainingCues": [
+    "Nommez Position de tête avant d’ajouter force.",
+    "Cherchez le signal corporel, pas une impression vague.",
+    "Si la structure est perdue, reset une couche d’abord.",
+    "Driller lentement, puis tester avec résistance progressive."
+  ],
+  "relatedSkillIds": [
+    "front-headlock-defense",
+    "bodylock-passing",
+    "half-guard-wrestle-up",
+    "back-control"
+  ],
+  "relatedConceptIds": [
+    "inside-position",
+    "base-balance",
+    "pressure-direction"
+  ]
+}

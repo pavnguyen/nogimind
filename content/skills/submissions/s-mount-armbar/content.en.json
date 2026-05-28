@@ -1,0 +1,61 @@
+{
+  "id": "s-mount-armbar",
+  "locale": "en",
+  "name": "S-Mount Armbar",
+  "description": "Finish the armbar from S-mount using shoulder clamp and hip line elevation — not by falling backward, but by maintaining control and lifting the hips.",
+  "shortInstruction": "High mount, isolate the arm, keep your weight heavy, lift your hips to finish — S-mount armbar is control, not desperation.",
+  "summary": "The S-mount armbar is the gold standard of armbars from the mount position. In S-mount (one foot in their hip, one knee in their armpit, your weight high on their chest), you have exceptional control over their upper body. From here, isolating an arm and finishing the armbar is about maintaining positional dominance rather than falling backward. The key difference from a regular mount armbar is that you finish from a seated position by lifting your hips rather than falling backward.",
+  "whyItWorks": [
+    "S-mount places your weight high on their chest — they cannot bridge or roll you off.",
+    "The foot in their hip gives you a post that prevents them from turning into you.",
+    "Finishing by lifting your hips (rather than falling backward) maintains control and prevents escapes.",
+    "Danaher principle: S-mount is the strongest pinning position for armbars because it isolates the upper body completely."
+  ],
+  "commonMistakes": [
+    "Falling backward to finish instead of lifting the hips — falling backward gives them the escape.",
+    "Not controlling their far arm — they will post and prevent the fall.",
+    "Losing the S-mount position during the armbar transition — maintain pressure until you have the finish.",
+    "Letting their elbow drop below your hip — the elbow must be above your hip for the finish."
+  ],
+  "coachingCues": [
+    "S-mount high, weight heavy, control the arm.",
+    "Lift the hips, don't fall backward.",
+    "If you fall, you lose control — lift to finish.",
+    "Elbow to the hip, thumb up, hips up."
+  ],
+  "safetySummary": [
+    "Apply armbar extension slowly and controlled — hyperextension injuries happen fast.",
+    "Do not continue extension after the tap.",
+    "Be aware that S-mount pressure can be intense on the ribs and chest."
+  ],
+  "keyCorrections": [
+    "If you fall backward during the finish, you lost S-mount control — practice keeping your weight heavy.",
+    "If they pull their arm free, your shoulder control was weak — pin their arm against your chest first.",
+    "If they bridge you off, your S-mount was not high enough — climb higher on their chest."
+  ],
+  "systemLogic": {
+    "corePrinciple": "Mount: transition to S-mount (one foot in hip, one knee in armpit) → isolate their arm → bring elbow above your hip → lift hips → extend.",
+    "decisionTree": [
+      {
+        "condition": "General application",
+        "action": "S-mount armbar chains with the arm triangle: if they defend the armbar, switch to arm triangle from mount."
+      },
+      {
+        "condition": "they roll to escape",
+        "action": "take the back instead."
+      }
+    ]
+  },
+  "moneyDetails": [
+    "Your S-mount position should be high on their chest — your hips should be at their sternum level.",
+    "The foot in their hip must be active — you push on their hip to control their bridge.",
+    "Isolate the arm by pinning it against your chest with your same-side hand.",
+    "The finish: lift your hips as you pull their arm toward you — this creates the hyperextension without falling backward."
+  ],
+  "nextStep": "After the S-mount armbar, learn the mounted triangle and arm triangle from mount.",
+  "fixItFast": [
+    "You keep falling back? Stay seated and lift your hips instead.",
+    "Can't isolate the arm? Swim your hand under their arm and pin it against your chest.",
+    "They bridge? Push on their hip with your S-mount foot and stay heavy."
+  ]
+}

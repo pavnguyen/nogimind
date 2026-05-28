@@ -1,0 +1,71 @@
+{
+  "id": "knee-cut-passing",
+  "locale": "fr",
+  "name": "Passage coupé au genou",
+  "description": "Utilisez la coupe du genou avec crossface et underhook ou un pas long pour battre le knee shield. La coupe du genou est le pourcentage de réussite de guard le plus élevé en No-Gi BJJ.",
+  "shortInstruction": "Depuis le quartier général, déposez votre genou posté sur le tapis, entourez-le devant leur knee shield, épinglez-leur la tête avec un crossface et conduisez jusqu'à side control.",
+  "summary": "La passe coupée au genou attaque l'espace entre la hanche de l'adversaire et sa jambe proche alors qu'il se défend avec un knee shield ou half guard. La passe fonctionne en : (1) épinglant leur tête avec un crossface pour les empêcher de se transformer en vous, (2) en poussant votre genou le plus proche au-delà de leur knee shield dans l'espace au niveau de leur hanche, (3) en étendant votre jambe pour épingler leur hanche la plus proche et (4) en vous installant dans side control. La coupe du genou est la solution idéale pour la plupart des situations No-Gi, car elle maintient une pression maximale tout au long et nécessite un minimum d'espace.",
+  "whyItWorks": [
+    "Le crossface empêche l'adversaire de détourner le regard - là où va la tête, le corps suit",
+    "Faire passer le genou au-delà du knee shield attaque le point structurel le plus faible de leur guard : la hanche",
+    "La coupe du genou maintient la pression de poitrine à poitrine tout au long de la passe, les empêchant de re-guarding",
+    "La coupe du genou fonctionne contre tous les types guard (half guard, moitié profonde, Z-guard, knee shield)"
+  ],
+  "commonMistakes": [
+    "Couper le genou sans le crossface — le crossface est ce qui empêche leur fuite, pas la position du genou",
+    "Laisser la coupure du genou décrocher au niveau de la hanche – franchir la passe sans hésitation",
+    "Perdre le underhook pendant la passe - le underhook les empêche de se transformer en vous",
+    "Couper trop haut (au-dessus de la hanche) plutôt qu'en dessous de la ligne des hanches"
+  ],
+  "coachingCues": [
+    "crossface en premier, genou coupé en second",
+    "Genou au-delà de la hanche, pas au-dessus",
+    "Traversez, ne calez pas",
+    "underhook empêche le roulis"
+  ],
+  "safetySummary": [
+    "Le crossface doit cibler la zone de la mâchoire/joue, pas la gorge : la pression de la gorge peut provoquer des blessures.",
+    "Ne coupez pas le genou de manière agressive si votre genou est dans un angle inconfortable – cela peut mettre à rude épreuve le MCL.",
+    "Si l'adversaire roule brusquement lors de la coupure du genou, protégez-vous la tête et suivez le roulement"
+  ],
+  "keyCorrections": [
+    "Si la coupure du genou cale : votre crossface n'est pas assez profond – conduisez le crossface plus fort pour détourner la tête.",
+    "S'ils roulent sur vous : vous avez perdu le underhook — frappez à nouveau le underhook avant de couper",
+    "S'ils re-guard après la coupure : vous avez libéré le crossface trop tôt - maintenez le crossface jusqu'au side control"
+  ],
+  "systemLogic": {
+    "corePrinciple": "La coupe du genou comporte quatre phases : crossface → Entrée du genou → Extension → side control",
+    "decisionTree": [
+      {
+        "condition": "En phase 1 (crossface)",
+        "action": "depuis le quartier général, passez votre bras le plus proche sur son visage (mâchoire/joue) et épinglez sa tête contre le tapis. Cela les empêche de se transformer en vous ou de détourner le regard"
+      },
+      {
+        "condition": "En phase 2 (entrée au genou)",
+        "action": "déposez votre genou posté de sa hanche et dépassez son knee shield. Le genou doit glisser au niveau de la hanche et non au-dessus."
+      },
+      {
+        "condition": "En phase 3 (prolongation)",
+        "action": "Une fois que le genou a dépassé la hanche, étendez votre jambe pour épingler la hanche la plus proche au tapis. Cela les empêche de récupérer guard"
+      },
+      {
+        "condition": "En phase 4 (side control)",
+        "action": "s'installer dans side control avec une pression thoracique, underhook et crossface"
+      },
+      {
+        "condition": "Choisir une variante",
+        "action": "coupe de genou standard (crossface + underhook), coupe de genou longue (passer la jambe éloignée par-dessus la tête pour éviter le roulis)"
+      }
+    ]
+  },
+  "moneyDetails": [
+    "La coupure au genou représente le pourcentage de réussite guard le plus élevé en No-Gi – ce devrait être votre principale passe depuis le siège.",
+    "Maîtriser la coupe du genou vous donne un chemin fiable vers side control à partir de n'importe quel open guard",
+    "Le genou coupé à side control marque 3 points en IBJJF (guard passe)"
+  ],
+  "fixItFast": [
+    "S'ils continuent de rouler dans la coupe : ajoutez le pas long : passez votre jambe éloignée au-dessus de leur tête pour bloquer le roulis.",
+    "S'ils continuent à encadrer le tibia : déposez votre poids sur le tibia pour l'effondrer avant de le couper.",
+    "S'ils continuent à re-guarding : maintenez le crossface pendant toute la transition vers side control."
+  ]
+}

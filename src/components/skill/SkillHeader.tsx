@@ -1,11 +1,12 @@
 import { Link } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
+import { Printer } from 'lucide-react'
 import type { SkillNode } from '../../types/skill'
 
 type Props = {
   skill: SkillNode
   lang: 'en' | 'vi' | 'fr'
-  onOneMinute: () => void
+  onPrintCard: () => void
 }
 
 const domainColor: Record<string, string> = {
@@ -32,7 +33,7 @@ const riskBadge: Record<string, { label: string; cls: string }> = {
   high: { label: '⚠ High Risk', cls: 'border-rose-400/30 bg-rose-400/8 text-rose-300' },
 }
 
-export const SkillHeader = ({ skill, lang, onOneMinute }: Props) => {
+export const SkillHeader = ({ skill, lang, onPrintCard }: Props) => {
   const { t } = useTranslation()
   const title = skill.title[lang]
   const risk = riskBadge[skill.riskLevel ?? '']
@@ -107,16 +108,15 @@ export const SkillHeader = ({ skill, lang, onOneMinute }: Props) => {
           )}
         </div>
 
-        {/* One-Minute Mode button */}
+        {/* Print card button */}
         <button
           type="button"
-          onClick={onOneMinute}
+          onClick={onPrintCard}
           className="flex shrink-0 items-center gap-2 rounded-xl border border-cyan-400/30 bg-cyan-400/8 px-4 py-2.5 text-sm font-semibold text-cyan-200 transition-all hover:border-cyan-400/50 hover:bg-cyan-400/15 hover:text-white active:scale-95"
+          title={t('cardOS.printCard', 'Print Card')}
         >
-          <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-            <path strokeLinecap="round" strokeLinejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z" />
-          </svg>
-          {t('cardOS.oneMinuteMode')}
+          <Printer className="h-4 w-4" />
+          {t('cardOS.printCard', 'Print Card')}
         </button>
       </div>
 

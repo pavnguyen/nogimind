@@ -1,0 +1,126 @@
+{
+  "id": "inverted-guard-control",
+  "domain": "guard_offense",
+  "level": "advanced",
+  "status": "draft",
+  "name": "Đảo ngược guard & Chuyển tiếp",
+  "aliases": [],
+  "tags": [
+    "inverted-guard",
+    "k-guard",
+    "matrix"
+  ],
+  "keywords": [
+    "inverted guard",
+    "inversion",
+    "K-guard",
+    "matrix",
+    "leg entry"
+  ],
+  "relatedSkills": [
+    {
+      "id": "k-guard-matrix",
+      "type": "recommended"
+    },
+    {
+      "id": "false-reap-entry",
+      "type": "recommended"
+    },
+    {
+      "id": "saddle-inside-sankaku-control",
+      "type": "recommended"
+    },
+    {
+      "id": "crab-ride",
+      "type": "recommended"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "k-guard-matrix",
+    "leg-lock-safety-basics"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [
+    "Nếu họ lùi lại trong khi đảo ngược, bạn đã không kiểm soát được cánh tay gần của họ - luôn giữ một tay trên tay áo hoặc cổ tay của họ.",
+    "Nếu bạn không thể đặt chân lên hông họ thì góc của bạn đã sai - hãy xoay hông nhiều hơn trước khi duỗi ra.",
+    "Nếu họ sprawl và san bằng bạn, hãy bảo lãnh cho guard đang ngồi ngay lập tức."
+  ],
+  "version": 1,
+  "updatedAt": "2026-05-21T00:24:30.748Z",
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "vi",
+  "description": "Sử dụng các góc đảo ngược để đặt chân của bạn lên đường hông hoặc đường vai của đối phương, sau đó chuyển sang các mục K-guard, ma trận hoặc vướng chân.",
+  "shortInstruction": "Đảo ngược, đặt chân lên hông hoặc vai, tạo góc - đảo ngược là mục tiêu của toàn bộ hệ thống tấn công phần thân dưới.",
+  "summary": "Đảo ngược guard không phải là tư thế bạn giữ nguyên - nó là một công cụ chuyển tiếp để đưa phần thân dưới của bạn vượt qua phần thân trên của họ. Bằng cách đảo ngược (đặt vai lên thảm và nâng cao hông), bạn có thể đặt chân lên hông, vai hoặc xương sườn của họ. Từ đó, bạn có thể tạo các góc cho K-guard (chân trên hông), ma trận (chân trên vai) hoặc các mục nhập chân. Việc đảo ngược phải nhanh chóng và có chủ đích - việc đảo ngược quá lâu sẽ khiến lưng bạn dễ bị tấn công.",
+  "whyItWorks": [
+    "Đảo ngược đặt đòn bẩy (chân) mạnh nhất của bạn lên trên trọng tâm của chúng - bạn điều khiển phần thân trên của chúng bằng phần thân dưới của mình.",
+    "Nó giải quyết vấn đề về khoảng cách: khi họ đứng để vượt qua, động tác đảo ngược sẽ thu hẹp khoảng cách và đặt chân bạn lên người họ.",
+    "Góc đảo ngược tạo ra các mục không khả dụng khi ngồi hoặc nằm ngửa guard.",
+    "Nguyên tắc Danaher: khi chúng đứng trên cao, hãy đảo ngược để thiết lập lại sự kết nối."
+  ],
+  "commonMistakes": [
+    "Nằm ngửa quá lâu — lộn ngược guard là tư thế chuyển tiếp, không phải là tư thế nghỉ ngơi.",
+    "Đảo ngược mà không kiểm soát cánh tay gần của họ - họ sẽ quay hoặc giật lưng bạn.",
+    "Không bảo vệ cổ của bạn trong quá trình lộn ngược - hãy giữ chặt cằm.",
+    "Đảo ngược bằng chân thẳng - đầu gối cong giúp bạn có sức mạnh và khả năng di chuyển để điều chỉnh."
+  ],
+  "coachingCues": [
+    "Đảo ngược nhanh, thoát nhanh hơn - đảo ngược không phải là nhà.",
+    "Chân trên hông, không phải trên không - kết nối trước khi bạn lộn ngược.",
+    "Kiểm soát cánh tay, bảo vệ lưng.",
+    "K-guard hoặc ma trận — hãy quyết định trước khi đảo ngược."
+  ],
+  "safetySummary": [
+    "Gập cằm vào ngực trong quá trình lộn ngược để bảo vệ cổ của bạn.",
+    "Không lộn ngược với tư thế quay lưng trực tiếp vào đối thủ - hãy quay sang một bên trong khi đảo ngược.",
+    "Nếu họ sprawl khi bạn đảo ngược, hãy thoát ra ngay lập tức - đừng để họ gây áp lực lên lưng dưới của bạn.",
+    "Hãy chú ý đến cột sống của chính bạn - nếu tư thế lộn ngược gây đau, đừng ép buộc."
+  ],
+  "systemLogic": {
+    "corePrinciple": "Đảo ngược: đặt chân lên hông hoặc đường vai → điều khiển gần cánh tay → chuyển sang K-guard, ma trận hoặc vướng chân.",
+    "decisionTree": [
+      {
+        "condition": "Chân chống hông = K-guard mục nhập",
+        "action": "tấn công từ phía sau hoặc bằng chân."
+      },
+      {
+        "condition": "Chân trên vai = nhập ma trận",
+        "action": "lùi lại hoặc kéo chân."
+      },
+      {
+        "condition": "Ứng dụng chung",
+        "action": "Sự đảo ngược là điểm đi qua - bạn không bao giờ ở lại; bạn luôn luôn đi đâu đó."
+      }
+    ],
+    "exitStrategies": []
+  },
+  "moneyDetails": [
+    "Đảo ngược bằng cách xoay hông và vai sang một bên - tư thế lộn ngược thẳng để lộ cột sống và lưng của bạn.",
+    "Đặt bàn chân trước của bạn lên hông họ và bàn chân thứ hai của bạn lên bắp tay hoặc vai của họ - hai điểm tiếp xúc.",
+    "Luôn giữ một tay trên tay áo hoặc cổ tay của họ - điều này giúp họ không quay về phía sau bạn.",
+    "Thoát khỏi nghịch đảo là phần quan trọng nhất: mở rộng thành K-guard hoặc thu gọn thành ma trận."
+  ],
+  "nextStep": "Sau khi nắm vững các mục nhập đảo ngược, hãy tìm hiểu K-guard và hệ thống ma trận để xây dựng open guard hoàn chỉnh của bạn.",
+  "fixItFast": [
+    "Họ có ủng hộ bạn không? Bạn đã không điều khiển cánh tay của họ - hãy nắm lại trước khi đảo ngược vào lần tiếp theo.",
+    "Không thể nối chân? Bạn đã lộn ngược quá xa - hãy nhích lại gần hơn trước khi vượt qua.",
+    "Đau cột sống? Xoay người sang một bên trong khi lộn ngược - không nằm ngửa."
+  ]
+}

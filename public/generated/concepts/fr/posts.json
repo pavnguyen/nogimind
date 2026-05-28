@@ -1,0 +1,65 @@
+{
+  "id": "posts",
+  "locale": "fr",
+  "title": "Posts",
+  "category": "mechanical",
+  "level": "fundamental",
+  "tags": [
+    "post",
+    "base",
+    "scramble"
+  ],
+  "shortDefinition": "Un post est un appui temporaire pour base, changer hanches ou bloquer rotation.",
+  "whyItMatters": "Bon post sauve scramble; mauvais post expose kimura, arm drag ou risque avec bras tendu.",
+  "deepExplanation": "Un post efficace est court, proche épaule/hanche et prêt à rentrer. Ce n’est pas refuge; c’est un temps de transition.",
+  "beginnerView": "Post court puis rentrer; ne pas laisser bras long.",
+  "advancedView": "Piéger les posts adverses pour dilemmes ou mat returns.",
+  "ifThenExamples": [
+    {
+      "if": "Si vous perdez Posts pendant l’échange.",
+      "then": "Arrêtez d’accélérer, récupérez la structure corporelle proche, puis continuez.",
+      "why": "Le no-gi moderne punit vite la force après perte de structure.",
+      "relatedSkillIds": [
+        "technical-stand-up",
+        "front-headlock-defense"
+      ]
+    },
+    {
+      "if": "Si l’adversaire répond correctement à votre première ligne.",
+      "then": "Utilisez Posts pour passer à une branche plus sûre au lieu de forcer.",
+      "why": "Un bon concept transforme la réaction adverse en information pour la décision suivante.",
+      "relatedSkillIds": [
+        "front-headlock-defense",
+        "scramble-control",
+        "mat-return-basics"
+      ]
+    }
+  ],
+  "commonMisunderstandings": [
+    {
+      "misunderstanding": "Posts est une astuce technique isolée.",
+      "correction": "Voyez-le comme une règle de décision présente dans plusieurs positions."
+    },
+    {
+      "misunderstanding": "Comprendre le concept suffit pour l’utiliser en live.",
+      "correction": "Le concept doit être lié à signaux corporels, cues courts et rolling positionnel."
+    }
+  ],
+  "trainingCues": [
+    "Nommez Posts avant d’ajouter force.",
+    "Cherchez le signal corporel, pas une impression vague.",
+    "Si la structure est perdue, reset une couche d’abord.",
+    "Driller lentement, puis tester avec résistance progressive."
+  ],
+  "relatedSkillIds": [
+    "technical-stand-up",
+    "front-headlock-defense",
+    "scramble-control",
+    "mat-return-basics"
+  ],
+  "relatedConceptIds": [
+    "base-balance",
+    "levers",
+    "early-vs-late-defense"
+  ]
+}

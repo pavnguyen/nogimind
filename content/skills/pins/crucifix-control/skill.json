@@ -1,0 +1,53 @@
+{
+  "id": "crucifix-control",
+  "domain": "pins_rides",
+  "level": "intermediate",
+  "name": "Crucifix Control",
+  "aliases": [],
+  "tags": [
+    "crucifix",
+    "pin",
+    "back-attack",
+    "arm-trap"
+  ],
+  "keywords": [
+    "crucifix",
+    "arm trap",
+    "one-arm choke",
+    "shoulder control",
+    "turtle attack",
+    "high ground"
+  ],
+  "relatedSkills": [
+    {
+      "id": "crab-ride",
+      "type": "recommended"
+    },
+    {
+      "id": "rear-naked-choke-system",
+      "type": "recommended"
+    },
+    {
+      "id": "turtle-ride",
+      "type": "recommended"
+    }
+  ],
+  "prerequisiteSkillIds": [
+    "sprawl-go-behind",
+    "back-control"
+  ],
+  "relatedPositions": [],
+  "relatedConcepts": [],
+  "archetypeIds": [],
+  "trainingMethodIds": [],
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "updatedAt": "2026-05-21T00:24:30.762Z"
+}

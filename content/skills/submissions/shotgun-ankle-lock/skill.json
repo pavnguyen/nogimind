@@ -1,0 +1,53 @@
+{
+  "id": "shotgun-ankle-lock",
+  "domain": "submission_systems",
+  "level": "advanced",
+  "name": "Shotgun Ankle Lock",
+  "aliases": [],
+  "tags": [
+    "shotgun-ankle-lock",
+    "leg-lock",
+    "ankle-lock",
+    "straight-ankle",
+    "saddle"
+  ],
+  "keywords": [
+    "shotgun ankle lock",
+    "straight ankle",
+    "leg entanglement",
+    "saddle",
+    "finishing mechanics"
+  ],
+  "relatedSkills": [
+    {
+      "id": "heel-hook-safety",
+      "type": "recommended"
+    },
+    {
+      "id": "backside-50-50-control",
+      "type": "recommended"
+    },
+    {
+      "id": "fifty-fifty-to-heel-exposure",
+      "type": "recommended"
+    }
+  ],
+  "prerequisiteSkillIds": [
+    "saddle-inside-sankaku-control",
+    "leg-lock-safety-basics"
+  ],
+  "relatedPositions": [],
+  "relatedConcepts": [],
+  "archetypeIds": [],
+  "trainingMethodIds": [],
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "updatedAt": "2026-05-21T00:24:30.770Z"
+}

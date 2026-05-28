@@ -1,0 +1,65 @@
+{
+  "id": "k-guard-entry",
+  "locale": "en",
+  "name": "K-Guard Entry",
+  "description": "Use K-guard to create an angle under the opponent's hips and enter backside or leg entanglement attacks with full control of their far leg.",
+  "shortInstruction": "Foot on their far hip, hook their near leg, rotate under them — K-guard is the king of the modern leg attack system.",
+  "summary": "K-guard is the most versatile entry point in modern no-gi leg locking. By placing one foot on the opponent's far hip and hooking their near leg with your other leg, you create a powerful angle under their center of mass. From here, you can attack the far leg (heel hook), take the back, or sweep to top position. K-guard is the glue that connects the bottom open guard to the leg entanglement system.",
+  "whyItWorks": [
+    "The foot on their far hip controls their rotation and prevents them from stepping away.",
+    "The hook on their near leg gives you a lever to off-balance and enter leg entanglements.",
+    "Your body under their center of mass means you are always one movement away from sweeping or attacking.",
+    "Danaher principle: K-guard solves the problem of 'how to enter the legs without giving up position.'"
+  ],
+  "commonMistakes": [
+    "Letting the foot on their far hip slip down to their stomach — the foot must stay on the hip bone.",
+    "Not hooking their near leg deep enough — a shallow hook gives them the escape.",
+    "Keeping both feet on the mat — K-guard requires one foot elevated on their body at all times.",
+    "Going to K-guard without controlling their near arm — they will counter with a guillotine or kimura."
+  ],
+  "coachingCues": [
+    "Foot on the hip, never the stomach.",
+    "Hook deep, control the arm, go under.",
+    "K-guard is the tunnel — the other side is the finish.",
+    "Feel their weight, move when they commit."
+  ],
+  "safetySummary": [
+    "Keep your head off the mat when in K-guard — protect your neck from guillotine counters.",
+    "Control the near arm at all times — if they grab your head, you are in danger of a guillotine.",
+    "Do not extend for leg entries without controlling their far hip — they can kick free and counter with a kneebar."
+  ],
+  "keyCorrections": [
+    "If they step out of K-guard, your foot on the hip lost connection — re-establish the foot post immediately.",
+    "If they grab your head for a guillotine, your arm control is weak — swim your hand inside and pummel.",
+    "If you can't enter the leg entanglement, your angle under them is too shallow — scoot your hips closer."
+  ],
+  "systemLogic": {
+    "corePrinciple": "Seated guard: win the hand fight → place foot on far hip → hook near leg with other leg → rotate under their center → enter saddle, cross ashi, or back take.",
+    "decisionTree": [
+      {
+        "condition": "Using Option 1",
+        "action": "They stand tall → enter cross ashi → heel hook."
+      },
+      {
+        "condition": "Using Option 2",
+        "action": "They sit back → enter saddle → heel hook or back take."
+      },
+      {
+        "condition": "Using Option 3",
+        "action": "They post a hand → sweep to top position."
+      }
+    ]
+  },
+  "moneyDetails": [
+    "Your foot must be exactly on the hip bone (ASIS) — if it slides to the stomach or ribs, you lose control.",
+    "The near leg hook should be behind their thigh, not behind the knee — a deep hook gives you the angle.",
+    "Control their near arm by grabbing their sleeve, wrist, or triceps — this prevents them from counter-attacking.",
+    "Rotate your hips toward the ceiling as you enter K-guard — this opens the angle for leg entries."
+  ],
+  "nextStep": "After K-guard entry, learn the K-guard matrix and the cross ashi heel hook system.",
+  "fixItFast": [
+    "Foot slipping off the hip? Dig your heel into the hip bone — not the arch, the heel.",
+    "They grab your head? Pummel your hand inside their arm and reset the distance.",
+    "Can't rotate under them? Your hook is too shallow — scoot closer and re-hook deeper."
+  ]
+}

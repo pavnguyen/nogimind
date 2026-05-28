@@ -1,0 +1,57 @@
+{
+  "id": "claw-ride-position",
+  "locale": "fr",
+  "title": "Claw ride",
+  "category": "back",
+  "status": "advantage",
+  "description": "Un ride combinant underhook profond, contrôle de tête et pression hanche depuis turtle pour exposer le dos ou retour au sol.",
+  "topPlayerGoals": [
+    "Le joueur du dessus veut contrôler Claw ride avec la position de tête, la position intérieure et une pression orientée.",
+    "Garder underhook profond, appui de tête et pression hanche décalée pour empêcher le stand-up.",
+    "Garder une base stable pour éviter d’être déséquilibré ou contré."
+  ],
+  "bottomPlayerGoals": [
+    "Le joueur du dessous veut survivre en Claw ride avec des cadres, du pummeling ou le bon angle.",
+    "Pummeler l’underhook dehors, amener tête à la hip line et garder genoux sous hanches.",
+    "Reconnaître les signaux de danger tôt au lieu d’attendre que la position se stabilise."
+  ],
+  "controlPoints": [
+    "Point de contrôle principal : Profondeur underhook, appui tête et vecteur pression hanche..",
+    "La tête, les mains, les hanches et les genoux doivent suivre la même direction de force.",
+    "La connexion coude-genou ou la ligne hanches-épaules détermine si la position reste vivante ou verrouillée."
+  ],
+  "escapePriorities": [
+    "Priorité de sortie : Combattre l’underhook d’abord — sans underhook, appui tête et pression hanche sont neutralisés..",
+    "Protéger le cou, le dos, la ligne du genou ou la ligne du bras avant de contrer.",
+    "Si la position intérieure est perdue, rétablir d’abord une couche défensive."
+  ],
+  "advancementOptions": [
+    {
+      "action": "Passer en hook ou prise de dos",
+      "nextPositionId": "back-control-position",
+      "relatedSkillIds": [
+        "claw-ride",
+        "turtle-ride",
+        "back-control"
+      ],
+      "why": "C’est la branche naturelle lorsque vous gagnez le point de contrôle principal et que l’adversaire est forcé de défendre."
+    }
+  ],
+  "dangerSignals": [
+    "Le menton ou le cou sort de la ligne sûre.",
+    "Le coude se sépare des côtes ou du genou.",
+    "La ligne des hanches est verrouillée pendant que la ligne des épaules est encore tirée.",
+    "Vous devez poser une main loin pour éviter de tomber."
+  ],
+  "relatedSkillIds": [
+    "claw-ride",
+    "turtle-ride",
+    "back-control",
+    "cross-wrist-ride"
+  ],
+  "relatedConceptIds": [
+    "ride-vs-pin-vs-submission",
+    "hooks",
+    "connection-before-control"
+  ]
+}

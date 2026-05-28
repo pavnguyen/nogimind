@@ -1,0 +1,128 @@
+{
+  "id": "x-guard-control",
+  "domain": "guard_offense",
+  "level": "intermediate",
+  "status": "draft",
+  "name": "X-guard Contrôle",
+  "aliases": [],
+  "tags": [
+    "x-guard",
+    "guard",
+    "sweep",
+    "off-balance",
+    "tier:modern-expansion",
+    "meta:modern-common",
+    "risk:medium",
+    "family:guard",
+    "group:x-guard",
+    "modern-no-gi"
+  ],
+  "keywords": [
+    "x-guard",
+    "foot on hip",
+    "off-balance",
+    "leg wrap"
+  ],
+  "modernSystemGroup": "x_guard",
+  "relatedSkills": [
+    {
+      "id": "single-leg-x-control",
+      "type": "recommended"
+    },
+    {
+      "id": "k-guard-matrix",
+      "type": "recommended"
+    },
+    {
+      "id": "guard-pulling-strategy",
+      "type": "recommended"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "supine-guard-retention",
+    "seated-guard-retention"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [
+    "Si vous ne pouvez pas les balayer, vos hanches ne sont pas assez profondes – rapprochez-vous pour que vos hanches soient sous les leurs.",
+    "S'ils sortent, votre pied sur la hanche la plus éloignée a perdu la connexion – rétablissez immédiatement le poteau de la hanche.",
+    "S’ils vous attrapent la tête, vous avez perdu le combat – nagez votre main à l’intérieur et frappez."
+  ],
+  "version": 1,
+  "updatedAt": "2026-05-21T00:24:30.782Z",
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "fr",
+  "description": "Utilisez X-guard (les deux jambes contrôlant l'une de leurs jambes par le bas) pour déséquilibrer et balayer l'adversaire vers la première position.",
+  "shortInstruction": "Les deux jambes sur une jambe, le pied sur la hanche, déséquilibré et balayé – X-guard est le roi des balayages.",
+  "summary": "X-guard est la position de balayage la plus puissante de No-Gi. Vos deux jambes contrôlent leur jambe proche (une accrochée derrière le genou, une sur la hanche), tandis que vous êtes assis sous leur centre de masse. À partir de là, vous avez un 2 contre 1 sur leur jambe et le contrôle de leur base. Tout transfert de poids qu’ils effectuent peut être exploité en un balayage. X-guard est la destination des transitions DLR-vers-X et SLX-to-X.",
+  "whyItWorks": [
+    "Deux jambes sur une jambe vous offrent un avantage mécanique considérable : elles ne peuvent pas simplement se libérer.",
+    "Votre position sous leur centre de masse signifie qu’ils n’ont pas de base directement au-dessus de vous – ils sont toujours déséquilibrés.",
+    "Le pied sur leur hanche la plus éloignée contrôle leur rotation et les empêche de s'éloigner.",
+    "Principe de Danaher : X-guard est un « balayage avec certitude » — la position est si dominante que le balayage est presque inévitable."
+  ],
+  "commonMistakes": [
+    "Laisser les deux jambes tomber du même côté de leur jambe – une jambe doit s’accrocher derrière, un pied sur la hanche.",
+    "Assis trop loin de leur base, vos hanches doivent être directement sous leurs hanches.",
+    "En tirant le balayage sans contrôler leur bras éloigné, ils posteront et récupéreront.",
+    "Rester trop longtemps dans X-guard — c'est une position de transition ; balayage ou transition immédiatement."
+  ],
+  "coachingCues": [
+    "Un derrière, un sur le dessus : c'est X-guard.",
+    "Hanches sous hanches, balayez avec certitude.",
+    "S'ils publient, vous balayez ; s'ils ne le font pas, ils tombent.",
+    "X-guard est un moment, pas un foyer."
+  ],
+  "safetySummary": [
+    "Gardez la tête hors du tapis pour éviter les compteurs guillotine lorsque vous balayez.",
+    "Ne les laissez pas vous empiler en avançant – s’ils s’empilent, relâchez le X-guard et réinitialisez.",
+    "Lorsque vous balayez et arrivez au sommet, protégez votre propre tête pour éviter de heurter le tapis."
+  ],
+  "systemLogic": {
+    "corePrinciple": "Entrez X-guard (une jambe derrière le genou, un pied sur la hanche la plus éloignée) → hanches sous les hanches → déséquilibre → balayage ou transition.",
+    "decisionTree": [
+      {
+        "condition": "Option 1 : Ils résistent au balayage",
+        "action": "continuez à tirer jusqu'à ce qu'ils postent → balayez dans la direction opposée."
+      },
+      {
+        "condition": "Option 2 : Ils prennent du recul",
+        "action": "s'étendre jusqu'à SLX ou un enchevêtrement des jambes."
+      },
+      {
+        "condition": "Option 3 : Ils s'assoient",
+        "action": "entrez 50/50 ou saddle."
+      }
+    ],
+    "exitStrategies": []
+  },
+  "moneyDetails": [
+    "Votre crochet derrière le genou doit être profond – le pied doit accrocher l’intérieur de la cuisse, pas seulement derrière le genou.",
+    "Le pied sur la hanche la plus éloignée doit être sur l'os de la hanche, en appuyant activement pour contrôler la distance.",
+    "Saisissez leur cheville ou leur manche éloignée avec votre main du même côté pour les empêcher de reculer.",
+    "Le balayage X-guard fonctionne en tirant leur jambe crochue vers votre poitrine tout en poussant avec le pied de la hanche – un mouvement de ciseaux."
+  ],
+  "nextStep": "Après le contrôle X-guard, apprenez la transition X-guard à SLX et les variations de balayage X-guard.",
+  "fixItFast": [
+    "Vous ne pouvez pas balayer ? Vos hanches ne sont pas sous les leurs – rapprochez-vous.",
+    "Ils sortent ? Votre pied de hanche a besoin d’une pression plus active – enfoncez-le dans l’os de la hanche.",
+    "Ils vous empilent ? Relâchez le X-guard et tombez sur le dos – ne combattez pas la pile."
+  ]
+}

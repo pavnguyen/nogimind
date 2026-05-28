@@ -1,0 +1,70 @@
+{
+  "id": "mount-escape",
+  "locale": "fr",
+  "name": "mount Évasion",
+  "description": "Combinez le pont, l'évasion du coude et la récupération genou-coude pour échapper à mount avec la structure.",
+  "shortInstruction": "Pont pour déséquilibrer, tournez-vous sur le côté, frappez le coude à l'intérieur et récupérez guard à l'aide de la connexion genou-coude.",
+  "summary": "L'évasion mount utilise un pont séquencé pour créer de l'espace, le placement du coude pour bloquer le crossface et l'évasion de la hanche pour récupérer guard ou une position de protection du genou. Le système récompense le timing plutôt que l’explosivité.",
+  "whyItWorks": [
+    "Un pont au bon moment charge le poids de l'adversaire sur ses mains, créant ainsi une fenêtre pour insérer le coude.",
+    "La connexion coude-genou crée un cadre structurel qui empêche l'adversaire de vous aplatir à nouveau.",
+    "L'évasion de la hanche après le pont maintient la distance et leur refuse la capacité de rétablir un mount élevé.",
+    "Se tourner sur le côté avant de s'échapper utilise votre meilleur alignement squelettique contre leur pression du dessus"
+  ],
+  "commonMistakes": [
+    "Faire un pont sans cadrage préalable : vous gaspillez de l'énergie et restez à plat",
+    "Tirer le genou vers la poitrine au lieu d'insérer la connexion genou-coude",
+    "Se tourner du mauvais côté et abandonner le dos",
+    "À la poursuite de l'évasion avec plusieurs ponts faibles au lieu d'un pont au bon moment avec un coup de coude"
+  ],
+  "coachingCues": [
+    "Cadre avant pont",
+    "Du genou au coude, pas à la poitrine",
+    "Tournez-vous, ne faites pas de développé couché"
+  ],
+  "safetySummary": [
+    "S'échapper de mount avec un pont explosif dans un espace confiné peut provoquer des heurts accidentels à la tête.",
+    "Ne faites pas de bridge si vous sentez que l'adversaire a déjà isolé votre bras pendant un armbar",
+    "Détendez-vous et respirez une fois aplati : le pontage de panique consomme de l'oxygène et aggrave la position."
+  ],
+  "systemLogic": {
+    "corePrinciple": "L'évasion mount suit une séquence en trois étapes : cadre + pont → coup de coude → évasion de la hanche vers la connexion genou-coude. Chaque étape prépare la suivante : ponter le poids des charges vers l'avant, le coup de coude bloque le crossface et le genou-coude encadre le guard.",
+    "decisionTree": [
+      {
+        "condition": "L'adversaire est mounted avec les deux genoux sur le tapis",
+        "action": "Placez les deux avant-bras sur leurs hanches, faites un pont pour les déséquilibrer vers l'avant, puis tournez-vous immédiatement sur le côté et frappez votre coude le plus proche vers l'intérieur."
+      },
+      {
+        "condition": "L'adversaire poste large pour contrer votre pont",
+        "action": "Recadrez et pontez dans la direction opposée avant de vous engager dans le coup de coude. Ne forcez pas le coup de coude contre un compteur - réinitialisez et pontez à nouveau."
+      },
+      {
+        "condition": "Le coup de coude réussit (le coude est à l'intérieur)",
+        "action": "La hanche s'éloigne de l'adversaire tout en gardant la connexion coude-genou serrée. Revenez à half guard avec un knee shield."
+      },
+      {
+        "condition": "L'adversaire passe au mount technique pendant que vous vous échappez",
+        "action": "Protégez immédiatement votre dos en restant sur le côté et en gardant le bras le plus proche sur votre ventre. Ne vous détournez pas d'eux."
+      },
+      {
+        "condition": "L'adversaire vous aplatit à nouveau après le pont",
+        "action": "Votre coup de coude était trop superficiel – concentrez-vous sur le passage du coude au-delà de la ligne de la hanche avant de vous engager dans l’évasion de la hanche."
+      }
+    ],
+    "exitStrategies": [
+      "Si vous récupérez le genou et le coude, entrez half guard et établissez immédiatement le knee shield.",
+      "S'ils se tournent vers side control pendant la fuite, utilisez le cadre pour garder la distance et continuez à vous échapper de la hanche.",
+      "Si le premier pont ne parvient pas à créer de l'espace, n'enchaînez pas plusieurs ponts faibles : un pont bien synchronisé avec un coup de coude vaut dix ponts explosifs sans structure."
+    ]
+  },
+  "moneyDetails": [
+    "Maîtriser l'évasion mount élimine la peur d'être mounted - vous pouvez vous entraîner plus dur et concourir avec plus de confiance.",
+    "Il s'agit de la compétence de survie la plus importante de BJJ : tout le monde est mounted, tout le monde n'y échappe pas.",
+    "La compétition mount échappe à la victoire des matchs d'un point ou en se réinitialisant à une position neutre où vous pouvez attaquer"
+  ],
+  "fixItFast": [
+    "Si vous ne parvenez pas à insérer le coude : rapprochez-vous plus fort d'un côté, puis changez brusquement de direction pour créer un espace du côté du bras coincé.",
+    "S'ils vous aplatissent à nouveau après le pont : votre coup de coude était trop superficiel. Concentrez-vous sur le fait de faire passer le coude au-delà de la ligne des hanches",
+    "S'ils passent au mount technique : protégez immédiatement le dos en restant sur le côté et en gardant le bras le plus proche sur votre ventre."
+  ]
+}

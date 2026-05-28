@@ -1,0 +1,116 @@
+{
+  "id": "de-la-riva-back-take",
+  "domain": "back_control",
+  "level": "advanced",
+  "status": "draft",
+  "name": "De La Riva Retour en arrière",
+  "aliases": [],
+  "tags": [
+    "de-la-riva",
+    "berimbolo",
+    "back-take"
+  ],
+  "keywords": [
+    "back take",
+    "berimbolo",
+    "far hip",
+    "hip spin"
+  ],
+  "relatedSkills": [
+    {
+      "id": "reverse-de-la-riva-transitions",
+      "type": "recommended"
+    },
+    {
+      "id": "back-control",
+      "type": "recommended"
+    },
+    {
+      "id": "rear-naked-choke-system",
+      "type": "recommended"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "de-la-riva-sweeps",
+    "guard-pulling-strategy"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [
+    "Si vous ne pouvez pas reprendre l'arrière, votre crochet DLR est sorti - gardez le crochet verrouillé pendant la rotation.",
+    "S'ils vous font face pendant la pirouette, votre contrôle de la hanche opposée était faible – saisissez fermement leur hanche opposée.",
+    "S'ils sprawl lors de la rotation, vous avez tourné trop tôt - attendez qu'ils s'engagent pleinement dans la publication."
+  ],
+  "version": 1,
+  "updatedAt": "2026-05-21T00:24:30.747Z",
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "fr",
+  "description": "Utilisez le crochet DLR et le contrôle de la hanche éloignée pour effectuer une prise arrière lorsque l'adversaire défend le balayage en postant ou en reculant.",
+  "shortInstruction": "Crochet DLR profond, contrôle de la hanche éloigné, rotation sous eux – la prise arrière DLR est le prix ultime du open guard.",
+  "summary": "Le retour du DLR est le pourcentage de récompense le plus élevé du De La Riva guard. Lorsque vous tentez le balayage DLR (en les déséquilibrant vers l'avant), de nombreux adversaires répondront en postant une main ou en reculant pour éviter le balayage. Cette réaction crée exactement l’espace et l’angle dont vous avez besoin pour tourner sous eux et prendre le dos. La prise en arrière du DLR transforme un balayage raté en position dominante.",
+  "whyItWorks": [
+    "Lorsqu'ils postent pour défendre le balayage, leur bras est engagé et ne peut pas être utilisé pour bloquer votre rotation.",
+    "Le crochet DLR maintient leur jambe sous contrôle pendant que vous tournez – ils ne peuvent pas s'éloigner de la prise arrière.",
+    "Le contrôle de la hanche éloignée vous donne le point de pivotement pour la rotation – vous tournez autour de leur centre.",
+    "Principe de Danaher : le balayage et le retour prennent la forme d'un dilemme : défendre le balayage, perdre le dos ; défendre l'arrière, perdre le balayage."
+  ],
+  "commonMistakes": [
+    "Tourner avant qu’ils ne s’engagent dans la publication – vous avez besoin de leur réaction pour créer l’espace.",
+    "Perdre le crochet DLR pendant la rotation – le crochet les maintient proches pendant que vous tournez.",
+    "Ne contrôlant pas leur hanche éloignée, ils se retourneront et vous feront face.",
+    "Tourner dans la mauvaise direction – la rotation arrière est sous eux, pas autour d’eux."
+  ],
+  "coachingCues": [
+    "Balayez d'abord, revenez ensuite - l'appât de balayage crée le dos.",
+    "Tournez en dessous, pas autour – votre tête passe sous son aisselle.",
+    "Le crochet DLR reste verrouillé – sans lui, la prise arrière disparaît.",
+    "S'ils publient, ce bras est sorti – allez vers l'arrière."
+  ],
+  "safetySummary": [
+    "Gardez votre tête protégée pendant la rotation – votre tête doit être sous l’aisselle et non dans la hanche.",
+    "Ne faites pas tourner s’ils ont une prise sur votre col ou votre tête – enlevez d’abord la poignée.",
+    "Lorsque vous atterrissez sur le dos, protégez votre propre dos contre un atterrissage maladroit sur vos jambes."
+  ],
+  "systemLogic": {
+    "corePrinciple": "DLR guard établi : déséquilibre pour le balayage → l'adversaire poste la main → tourne sous son bras affiché → prend le dos → fixe seatbelt et les crochets.",
+    "decisionTree": [
+      {
+        "condition": "La prise arrière du DLR fonctionne en un seul mouvement continu : déséquilibré",
+        "action": "sentir le message → tourner."
+      },
+      {
+        "condition": "ils ne publient pas (défendent le balayage en prenant du recul)",
+        "action": "étendre plutôt dans X-guard."
+      }
+    ],
+    "exitStrategies": []
+  },
+  "moneyDetails": [
+    "Gardez votre crochet DLR profond et actif tout au long de la rotation – c'est votre point d'ancrage.",
+    "Saisissez leur hanche éloignée (ou la zone de la ceinture) avec votre main libre – c'est votre volant pour la rotation.",
+    "La rotation doit être sous l’aisselle – votre tête passe sous le bras, pas autour du corps.",
+    "Après la rotation, établissez immédiatement la prise seatbelt avant qu'ils puissent se tourner vers vous."
+  ],
+  "nextStep": "Après la reprise du DLR, apprenez back control et le système d'attaque arrière.",
+  "fixItFast": [
+    "Vous ne pouvez pas tourner en dessous ? Votre hameçon DLR est trop lâche – raccrochez-le plus profondément.",
+    "Ils arrêtent la rotation ? Votre emprise sur la hanche éloignée est faible – serrez sa hanche plus fort.",
+    "Ils sprawl ? Vous avez tourné trop tôt – attendez le message la prochaine fois et tournez plus vite."
+  ]
+}

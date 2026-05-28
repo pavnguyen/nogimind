@@ -1,0 +1,71 @@
+{
+  "id": "turtle-ride",
+  "locale": "vi",
+  "name": "cưỡi rùa",
+  "description": "Cưỡi rùa với áp lực ở hông, gần cổ tay, cưỡi theo hình xoắn ốc và mối đe dọa mat return. Hệ thống cưỡi rùa tích hợp tất cả các hệ thống phá rùa vào một hệ thống điều khiển vị trí mạch lạc.",
+  "shortInstruction": "Từ rùa, thiết lập áp lực hông và kiểm soát gần cổ tay. Đọc phản ứng của họ: nếu họ posture, hãy sử dụng chuyến đi xoắn ốc. Nếu chúng vẫn phẳng, hãy sử dụng một nửa năng lượng. Nếu chúng đứng vững, hãy sử dụng mat return.",
+  "summary": "Cưỡi rùa là một hệ thống hoàn chỉnh để kiểm soát, phá vỡ và đưa lưng ra khỏi vị trí rùa. Nó tích hợp bốn hệ thống bổ sung: (1) áp lực hông và kiểm soát gần cổ tay để kiểm soát đường cơ sở, (2) chuyển động xoắn ốc để thu gọn khi xoay, (3) chuyển động nửa lực để thu gọn bằng phẳng và (4) mat return khi đối thủ đứng. Điều quan trọng là đọc phản ứng của đối thủ và lựa chọn hệ thống thích hợp.",
+  "whyItWorks": [
+    "Áp lực ở hông và khả năng kiểm soát gần cổ tay giúp đối phương không thể lao ra khỏi rùa hoặc ngồi qua",
+    "Chuyến đi xoắn ốc và chuyến đi nửa sức mạnh tấn công con rùa từ các góc độ khác nhau - nếu một cái thất bại, cái còn lại sẽ hoạt động",
+    "Lời đe dọa mat return khiến đối thủ không thể trốn thoát bằng cách đứng dậy",
+    "Hệ thống tích hợp cho phép bạn thực hiện các đòn tấn công theo chuỗi: xoắn ốc → nửa sức mạnh → mat return khi đối thủ điều chỉnh"
+  ],
+  "commonMistakes": [
+    "Cam kết với một hệ thống quá sớm - đọc phản ứng của đối thủ trước khi chọn đường xoắn ốc, nửa sức mạnh hoặc mat return",
+    "Mất áp lực hông - việc kiểm soát cơ bản phải được duy trì trong suốt",
+    "Để đối phương ngồi tới guard — giữ trọng lượng ở hông và kiểm soát cổ tay gần",
+    "Không chuyển sang mat return khi họ đứng - đối thủ đang đứng phải được trả lại ngay lập tức"
+  ],
+  "coachingCues": [
+    "Áp lực hông, gần cổ tay trước",
+    "Đọc phản ứng của họ, chọn hệ thống",
+    "Xoắn ốc, nửa công suất hoặc mat return",
+    "Luôn kết nối, không bao giờ để họ ngồi dậy"
+  ],
+  "safetySummary": [
+    "Không tạo áp lực quá mức lên cột sống của đối phương khi cưỡi rùa - hãy dùng lực của ngực lên lưng chứ không phải đốt sống",
+    "Nếu đối thủ bất ngờ lăn ra khỏi rùa, hãy bảo vệ đầu và cổ của bạn",
+    "Hãy chú ý đến vị trí cổ của đối phương - nếu đầu của họ quay ở một góc khó xử, hãy tránh các kỹ thuật bẻ rùa hung hãn"
+  ],
+  "keyCorrections": [
+    "Nếu họ tiếp tục ngồi đến guard: áp lực hông của bạn quá nhẹ - hãy ấn ngực bạn vào lưng họ và kiểm soát cổ tay gần đó",
+    "Nếu họ đứng lên: chuyển sang mat return ngay lập tức — đừng cố cưỡi đối thủ đang đứng theo hình xoắn ốc",
+    "Nếu họ lăn ra: đi theo và lùi lại - duy trì liên lạc trong suốt lượt lăn"
+  ],
+  "systemLogic": {
+    "corePrinciple": "Việc cưỡi rùa là một hệ thống cây quyết định: Kiểm soát cơ bản → Đọc phản ứng → Áp dụng hệ thống",
+    "decisionTree": [
+      {
+        "condition": "Ứng dụng chung",
+        "action": "Kiểm soát đường cơ sở: từ phía sau rùa, thiết lập áp lực hông (ngực ở lưng trên) và kiểm soát cổ tay gần. Đầu gối của bạn phải nằm trên thảm, hông nặng trên hông"
+      },
+      {
+        "condition": "Phản ứng 1",
+        "action": "Họ ở tư thế thấp và phòng thủ: sử dụng động tác chuyển động xoắn ốc (đẩy đùi, kéo vai) hoặc chuyển động nửa lực (tay nắm chéo mặt, bước đi bằng hông). Hoặc là hệ thống sẽ đánh sập chúng"
+      },
+      {
+        "condition": "Phản ứng 2",
+        "action": "Họ đứng dậy hoặc ngồi dậy: tăng áp lực ở hông và dùng móng vuốt (cánh tay quanh hông) để kéo họ xuống"
+      },
+      {
+        "condition": "Phản ứng 3",
+        "action": "Họ đứng dậy: ngay lập tức chuyển sang mat return — giữ chặt đai thắt lưng hoặc một chân và đẩy họ trở lại thảm"
+      },
+      {
+        "condition": "Ứng dụng chung",
+        "action": "Nếu tất cả các phản ứng đều thất bại, quay trở lại mức kiểm soát cơ bản và khởi động lại. Vị trí con rùa khen thưởng sự kiên nhẫn - đối thủ cuối cùng sẽ mắc sai lầm"
+      }
+    ]
+  },
+  "moneyDetails": [
+    "Cưỡi rùa là một hệ thống phá rùa hoàn chỉnh - thành thạo nó có nghĩa là bạn có thể rút lui từ bất kỳ tư thế rùa nào",
+    "Chuỗi cưỡi rùa đáng tin cậy (xoắn ốc → nửa sức mạnh → mat return) loại bỏ vị trí phòng thủ an toàn nhất của đối thủ",
+    "Trở lại sau màn cưỡi rùa ghi được 4 điểm trong IBJJF và dẫn thẳng đến vị trí thống trị nhất trong môn vật lộn"
+  ],
+  "fixItFast": [
+    "Nếu họ ngồi đến guard: thả rùa cưỡi ra, chống hông và đứng dậy đến pass",
+    "Nếu họ đứng lên: chuyển sang mat return — cố định thắt lưng và đẩy họ xuống thảm",
+    "Nếu chúng lăn về phía bạn: hãy lùi lại - duy trì kết nối hông khi chúng lăn"
+  ]
+}

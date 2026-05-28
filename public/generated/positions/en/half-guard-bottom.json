@@ -1,0 +1,56 @@
+{
+  "id": "half-guard-bottom",
+  "locale": "en",
+  "title": "Half Guard Bottom",
+  "category": "bottom_guard",
+  "status": "defensive",
+  "description": "The bottom player controls one of the top player’s legs but needs frames or an underhook to avoid being flattened.",
+  "topPlayerGoals": [
+    "The top player wants to control Half Guard Bottom through head position, inside position, and directed pressure.",
+    "Use the crossface, whizzer, and pressure to flatten the hips.",
+    "Keep a stable base so you are not off-balanced or countered."
+  ],
+  "bottomPlayerGoals": [
+    "The bottom player wants to survive Half Guard Bottom with frames, pummeling, or the right angle.",
+    "Use a knee shield, underhook, or hip angle to recover or wrestle up.",
+    "Recognize danger signals early instead of waiting for the position to settle."
+  ],
+  "controlPoints": [
+    "Main control point: Crossface line, underhook, and knee shield..",
+    "Head, hands, hips, and knees should share the same force direction.",
+    "The elbow-knee connection or hip-shoulder line determines whether the position is still alive or already locked."
+  ],
+  "escapePriorities": [
+    "Escape priority: Block the crossface before coming up on a single leg..",
+    "Protect the neck, back, knee line, or arm line before countering.",
+    "If inside position is lost, reset one defensive layer first."
+  ],
+  "advancementOptions": [
+    {
+      "action": "Win the underhook and come up to dogfight",
+      "nextPositionId": "dogfight",
+      "relatedSkillIds": [
+        "half-guard-knee-shield",
+        "half-guard-wrestle-up",
+        "side-control-escape"
+      ],
+      "why": "This is the natural branch when you win the main control point and the opponent is forced to defend."
+    }
+  ],
+  "dangerSignals": [
+    "The chin or neck is pulled out of a safe line.",
+    "The elbow separates from the ribs or knee.",
+    "The hip line is locked while the shoulder line is still being pulled.",
+    "You need a long hand post to avoid falling."
+  ],
+  "relatedSkillIds": [
+    "half-guard-knee-shield",
+    "half-guard-wrestle-up",
+    "side-control-escape"
+  ],
+  "relatedConceptIds": [
+    "head-position",
+    "elbow-knee-connection",
+    "wrestle-up-philosophy"
+  ]
+}

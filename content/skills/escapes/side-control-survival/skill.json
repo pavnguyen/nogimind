@@ -1,0 +1,49 @@
+{
+  "id": "side-control-survival",
+  "domain": "survival_defense",
+  "level": "beginner",
+  "name": "Side Control Survival",
+  "aliases": [],
+  "tags": [
+    "survival",
+    "pin"
+  ],
+  "keywords": [
+    "crossface",
+    "frame",
+    "underhook",
+    "inside position"
+  ],
+  "relatedSkills": [
+    {
+      "id": "side-control-escape",
+      "type": "recommended"
+    },
+    {
+      "id": "side-control-pin",
+      "type": "recommended"
+    },
+    {
+      "id": "mount-survival",
+      "type": "recommended"
+    }
+  ],
+  "prerequisiteSkillIds": [
+    "frames-pummeling"
+  ],
+  "relatedPositions": [],
+  "relatedConcepts": [],
+  "archetypeIds": [],
+  "trainingMethodIds": [],
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": true,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "contentRefs": {
+    "videos": "videos.json",
+    "qualityChecklist": "qualityChecklist"
+  },
+  "updatedAt": "2026-05-21T00:24:30.749Z"
+}

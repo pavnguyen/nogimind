@@ -1,0 +1,65 @@
+{
+  "id": "pressure-direction",
+  "locale": "fr",
+  "title": "Direction de pression",
+  "category": "mechanical",
+  "level": "intermediate",
+  "tags": [
+    "pressure",
+    "direction",
+    "pin"
+  ],
+  "shortDefinition": "La pression efficace a direction: diagonale, far hip, shoulder line ou hip line.",
+  "whyItMatters": "Pression droite aide frame/hip escape; diagonale fait perdre direction.",
+  "deepExplanation": "Direction pression relie tête, sternum, pelvis, genoux et orteils. Sans alignement, vous êtes lourd sans contrôler.",
+  "beginnerView": "Demander où va votre force.",
+  "advancedView": "Changer direction pression pour rendre frames mauvais, puis passer/pin.",
+  "ifThenExamples": [
+    {
+      "if": "Si vous perdez Direction de pression pendant l’échange.",
+      "then": "Arrêtez d’accélérer, récupérez la structure corporelle proche, puis continuez.",
+      "why": "Le no-gi moderne punit vite la force après perte de structure.",
+      "relatedSkillIds": [
+        "bodylock-passing",
+        "side-control-pin"
+      ]
+    },
+    {
+      "if": "Si l’adversaire répond correctement à votre première ligne.",
+      "then": "Utilisez Direction de pression pour passer à une branche plus sûre au lieu de forcer.",
+      "why": "Un bon concept transforme la réaction adverse en information pour la décision suivante.",
+      "relatedSkillIds": [
+        "side-control-pin",
+        "mount-control",
+        "arm-triangle-mount"
+      ]
+    }
+  ],
+  "commonMisunderstandings": [
+    {
+      "misunderstanding": "Direction de pression est une astuce technique isolée.",
+      "correction": "Voyez-le comme une règle de décision présente dans plusieurs positions."
+    },
+    {
+      "misunderstanding": "Comprendre le concept suffit pour l’utiliser en live.",
+      "correction": "Le concept doit être lié à signaux corporels, cues courts et rolling positionnel."
+    }
+  ],
+  "trainingCues": [
+    "Nommez Direction de pression avant d’ajouter force.",
+    "Cherchez le signal corporel, pas une impression vague.",
+    "Si la structure est perdue, reset une couche d’abord.",
+    "Driller lentement, puis tester avec résistance progressive."
+  ],
+  "relatedSkillIds": [
+    "bodylock-passing",
+    "side-control-pin",
+    "mount-control",
+    "arm-triangle-mount"
+  ],
+  "relatedConceptIds": [
+    "connection-before-control",
+    "wedges",
+    "hip-line-shoulder-line"
+  ]
+}

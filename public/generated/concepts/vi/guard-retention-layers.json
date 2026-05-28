@@ -1,0 +1,75 @@
+{
+  "id": "guard-retention-layers",
+  "locale": "vi",
+  "title": "Lớp giữ guard",
+  "category": "defensive",
+  "level": "intermediate",
+  "tags": [
+    "guard retention",
+    "layers",
+    "recovery",
+    "knee shield",
+    "hip escape",
+    "re-attack",
+    "defensive system"
+  ],
+  "shortDefinition": "Guard retention có 7 layer: distance → feet → knees → frames → hips → shoulders → re-attack. Mỗi layer mất dần, bạn rơi xuống layer tiếp theo.",
+  "whyItMatters": "Nếu chỉ dùng một layer, passer giết nó và bạn bị flatten. Retention layer giúp bạn biết chính xác nên làm gì khi bị pass từng bước.",
+  "deepExplanation": "7 lớp retention, từ ngoài vào trong:\n\n1. Distance — chân đưa ra đe dọa, tay hand fight. Khi passer đến gần, bạn đã mất layer này.\n2. Feet — sole-to-hip, sole-to-bicep. Đẩy hông họ ra xa, phá rhythm pass.\n3. Knees — knee pummel, shin-to-shin, knee shield. Chặn chest-to-chest, tạo wedge.\n4. Frames — forearm frame, elbow frame. Giữ khoảng khi gối bị clear.\n5. Hips — hip escape, shrimp, whizzer. Xoay hông khỏi đường pass khi cấu trúc trên bị gãy.\n6. Shoulders — granby roll, shoulder-in, back exposure escape. Khi không còn xoay hông được.\n7. Re-attack — wrestle-up, leg pummel, turtle with underhook. Layer cuối — đổi từ phòng thủ sang tấn công.\n\nKhông di chuyển tuyến tính 1→7. Retention tốt nhảy layer khi đọc được ý đồ passer: nếu họ commit bodylock, bạn bỏ distance/feet nhảy thẳng vào knees + frames. Nếu họ back step, bạn mở lại distance bằng technical stand-up.",
+  "beginnerView": "7 lớp với 3 câu hỏi liên tục:\n1. Chân còn đe dọa được không? → Feet/knees\n2. Còn giữ được wedge (gối) không? → Knees/frames\n3. Hông còn xoay được không? → Hips/shoulders\n\nKhi bị đè flatten, đừng cố giữ guard — chuyển sang re-attack (wrestle-up hoặc turtle). Nguyên tắc vàng: không để chest họ chạm chest bạn ở bất kỳ layer nào.",
+  "advancedView": "Retention cấp cao không chỉ giữ guard — nó bait passer vào bẫy. Để lộ khoảng trống ở distance để họ commit vào pass line, rồi đánh sweep hoặc wrestle-up. Dùng non-linear layering: nếu họ quen xử lý knee shield bằng bodylock, bạn bỏ knee shield sớm, chuyển sang shin-to-shin + off-balance. Mỗi layer là cơ hội counter: feet layer đe dọa sweep, knees layer đe dọa wrestle-up hoặc triangle, frames layer đe dọa back take nếu họ overcommit. Retention hay play ở layer cao (distance/knees) nhưng sẵn sàng drop xuống re-attack khi bị thấp hơn.",
+  "ifThenExamples": [
+    {
+      "if": "Nếu bạn mất Lớp giữ guard trong trao đổi.",
+      "then": "Dừng tăng tốc, lấy lại cấu trúc cơ thể gần nhất rồi mới tiếp tục kỹ thuật.",
+      "why": "No-gi hiện đại phạt rất nhanh khi bạn cố thắng bằng sức sau khi mất cấu trúc.",
+      "relatedSkillIds": [
+        "seated-guard-retention",
+        "supine-guard-retention"
+      ]
+    },
+    {
+      "if": "Nếu đối thủ phản ứng đúng với hướng đầu tiên.",
+      "then": "Dùng Lớp giữ guard để đổi sang nhánh an toàn hơn thay vì ép cùng một hướng.",
+      "why": "Concept tốt biến phản ứng của đối thủ thành thông tin cho quyết định tiếp theo.",
+      "relatedSkillIds": [
+        "supine-guard-retention",
+        "half-guard-knee-shield",
+        "technical-stand-up"
+      ]
+    }
+  ],
+  "commonMisunderstandings": [
+    {
+      "misunderstanding": "Lớp giữ guard là một mẹo kỹ thuật riêng lẻ.",
+      "correction": "Hãy xem nó như quy tắc quyết định xuất hiện trong nhiều vị trí khác nhau."
+    },
+    {
+      "misunderstanding": "Bạn chỉ cần hiểu khái niệm là tự động dùng được trong live roll.",
+      "correction": "Khái niệm phải được gắn với body signal, cue ngắn và positional rolling."
+    }
+  ],
+  "trainingCues": [
+    "Gọi tên Lớp giữ guard trước khi tăng lực.",
+    "Tìm body signal, không đoán bằng cảm giác chung.",
+    "Nếu mất cấu trúc, reset một layer trước.",
+    "Drill chậm, test bằng resistance tăng dần."
+  ],
+  "relatedSkillIds": [
+    "seated-guard-retention",
+    "supine-guard-retention",
+    "half-guard-knee-shield",
+    "technical-stand-up",
+    "closed-guard-sweeps",
+    "butterfly-guard-off-balance",
+    "scramble-control"
+  ],
+  "relatedConceptIds": [
+    "hooks",
+    "frames",
+    "elbow-knee-connection",
+    "inside-position",
+    "failure-response",
+    "wedges"
+  ]
+}

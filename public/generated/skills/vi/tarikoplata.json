@@ -1,0 +1,122 @@
+{
+  "id": "tarikoplata",
+  "domain": "submission_systems",
+  "level": "advanced",
+  "status": "draft",
+  "name": "Tarikplata",
+  "aliases": [],
+  "tags": [
+    "tarikoplata",
+    "shoulder-lock",
+    "kimura",
+    "tier:modern-expansion",
+    "meta:modern-common",
+    "risk:high",
+    "family:submission",
+    "group:clamp-guard",
+    "modern-no-gi"
+  ],
+  "keywords": [
+    "tarikoplata",
+    "shoulder lock",
+    "kimura line"
+  ],
+  "modernSystemGroup": "clamp_guard",
+  "relatedSkills": [
+    {
+      "id": "choi-bar",
+      "type": "recommended"
+    },
+    {
+      "id": "kimura-system",
+      "type": "recommended"
+    },
+    {
+      "id": "clamp-guard-control",
+      "type": "recommended"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "kimura-system",
+    "clamp-guard-control"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [
+    "Nếu họ rút tay ra, khả năng kiểm soát cổ tay của bạn quá yếu - hãy giữ chặt lại bằng lực giữ mạnh hơn.",
+    "Nếu bạn không thể hoàn thành, chân của bạn không kiểm soát được vai của họ - hãy điều chỉnh chân của bạn để giữ đường vai.",
+    "Nếu chúng xếp chồng lên nhau, hãy thả ra và đặt lại - đừng chống lại ngăn xếp."
+  ],
+  "version": 1,
+  "updatedAt": "2026-05-21T00:24:30.777Z",
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "vi",
+  "description": "Khóa vai biến omoplata tiêu chuẩn và kẹp thành khóa vai hoàn thiện khi đường cổ tay và khuỷu tay được kiểm soát — sử dụng chân để tạo áp lực xoay lên vai.",
+  "shortInstruction": "Giữ cánh tay, đưa chân qua vai, điều khiển cổ tay, xoay - tarikplata là một khóa vai được hỗ trợ bằng chân với cơ chế giống kimura.",
+  "summary": "Tarikoplata (được đặt theo tên của Tarsis Humphreys) là một loại khóa vai kết hợp các yếu tố của omoplata và kimura. Không giống như omoplata (xoay vai bằng cách nâng cánh tay của đối phương), tarikplata ghim cánh tay của họ vào cơ thể của chính họ và sử dụng chân của bạn để thực hiện động tác xoay. Kết quả là khóa vai chặt hơn omoplata và đến từ một góc mà kimura không thể với tới. Nó thường được thực hiện từ vị trí kẹp hoặc gập vai.",
+  "whyItWorks": [
+    "Việc ghim cánh tay của họ vào cơ thể của chính họ sẽ ngăn họ đứng thẳng và trốn thoát — một lợi thế chính so với omoplata.",
+    "Vòng quay được hỗ trợ bằng chân tạo ra nhiều mô-men xoắn hơn tay cầm kimura tiêu chuẩn.",
+    "Nó tấn công vào vai từ một góc độ mà hầu hết đối thủ không ngờ tới.",
+    "Nguyên tắc Danaher: tarikplata giải quyết vấn đề đối phương rút tay ra khỏi omoplata."
+  ],
+  "commonMistakes": [
+    "Không kiểm soát cổ tay trước khi đưa chân qua - họ sẽ kéo cánh tay ra tự do.",
+    "Đưa chân qua quá sớm - trước tiên hãy thiết lập bẫy cánh tay.",
+    "Để khuỷu tay của họ thoát ra phía sau cơ thể - khuỷu tay phải ở phía trước để động tác xoay có hiệu quả.",
+    "Chỉ sử dụng sức mạnh của chân để kết thúc - kết hợp xoay chân với kéo phần thân trên."
+  ],
+  "coachingCues": [
+    "Cổ tay trước, chân sau, xoay cùng nhau.",
+    "Ghim cánh tay, sở hữu bờ vai.",
+    "Nếu họ bảo vệ omoplata, hãy đánh tarikplata.",
+    "Xoay chân, kéo tay, chống vai."
+  ],
+  "safetySummary": [
+    "Tarikoplata tác dụng áp lực xoay lên vai - tác dụng dần dần và tôn trọng vòi.",
+    "Không xoay vai nếu đối thủ đã có vấn đề về vai từ trước.",
+    "Duy trì việc kiểm soát tư thế của chúng trong suốt quá trình để ngăn chúng rơi vào chân bạn."
+  ],
+  "systemLogic": {
+    "corePrinciple": "Vị trí kẹp hoặc omoplata: kiểm soát cổ tay của họ → đưa chân của bạn qua cánh tay của họ → ghim cánh tay vào cơ thể họ → xoay hông của bạn → kết thúc.",
+    "decisionTree": [
+      {
+        "condition": "Chuỗi tarikoplata có omoplata: omoplata",
+        "action": "tarikplata → kimura — một chuỗi tấn công vai hoàn chỉnh."
+      },
+      {
+        "condition": "họ bảo vệ tarikplata bằng cách lăn",
+        "action": "chuyển sang quay lại."
+      }
+    ],
+    "exitStrategies": []
+  },
+  "moneyDetails": [
+    "Kiểm soát cổ tay của họ bằng cách nắm chặt - bốn ngón tay trên cổ tay, ngón cái ở phía lòng bàn tay.",
+    "Đưa chân trên của bạn qua cánh tay của họ và giữ nó vào cơ thể của chính họ - cánh tay phải được ghim chứ không được tự do.",
+    "Xoay hông ra xa họ khi bạn kéo cổ tay họ về phía mình - sự kết hợp này sẽ tạo ra khóa vai.",
+    "Giữ chân còn lại của bạn trên hông của họ để kiểm soát tư thế của họ và ngăn họ ngồi dậy."
+  ],
+  "nextStep": "Sau tarikoplata, hãy tìm hiểu hệ thống omoplata và hệ thống kimura.",
+  "fixItFast": [
+    "Cánh tay tiếp tục trốn thoát? Việc điều khiển cổ tay của bạn quá lỏng lẻo — hãy cầm lại với áp lực lớn hơn.",
+    "Không thể xoay? Vị trí chân của bạn không đúng - hãy điều chỉnh để chân bạn điều khiển vai của họ chứ không phải cánh tay của họ.",
+    "Họ xếp chồng bạn? Thả ra và đặt lại về guard."
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "id": "turtle-escape-standup",
+  "domain": "escapes",
+  "level": "intermediate",
+  "status": "draft",
+  "name": "La tortue s'échappe pour se relever",
+  "aliases": [
+    "turtle stand-up",
+    "turtle technical stand-up",
+    "tripod stand-up"
+  ],
+  "tags": [
+    "escape",
+    "turtle",
+    "stand-up",
+    "wrestling",
+    "back-defense"
+  ],
+  "keywords": [
+    "turtle position",
+    "technical stand-up",
+    "granby roll",
+    "back exposure",
+    "tripod base"
+  ],
+  "relatedSkills": [
+    {
+      "id": "back-escape",
+      "type": "recommended"
+    },
+    {
+      "id": "technical-stand-up",
+      "type": "recommended"
+    },
+    {
+      "id": "sprawl-go-behind",
+      "type": "recommended"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "back-escape",
+    "side-control-escape"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [],
+  "version": 1,
+  "updatedAt": "2026-06-12T00:00:00.000Z",
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "fr",
+  "description": "Échappez à la position de la tortue en empêchant l'exposition arrière, en créant une base et en vous tenant au neutre.",
+  "shortInstruction": "Protégez votre cou, postez sur une main, insérez un genou en dessous et faites une posture technique pour faire face à l'adversaire.",
+  "summary": "L'évasion de la tortue pour se lever utilise une séquence technique de mise debout pour passer d'une tortue défensive à une position neutre ou engagée sans abandonner le dos. Le système donne la priorité au placement des mains et au timing des genoux plutôt qu’au roulement explosif.",
+  "whyItWorks": [
+    "La tortue protège le dos mais vous piège également dans une position défensive : une évasion debout récupère le neutre sans exposer le dos.",
+    "Le fait de poster sur une main crée une base de trépied qui empêche l'adversaire de vous faire rouler par-dessus votre ligne d'épaule.",
+    "La séquence technique de stand-up est biomécaniquement efficace : elle utilise vos groupes musculaires les plus forts (fessiers, quadriceps) pour soulever votre poids.",
+    "Faire face à l'adversaire pendant le stand-up l'empêche de vous prendre le dos lorsque vous vous levez"
+  ],
+  "commonMistakes": [
+    "S'asseoir à guard au lieu de se lever - cela concède la première position et revient à une position plus faible",
+    "Afficher les deux mains à plat lorsque vous essayez de vous tenir debout - cela ne laisse aucun bras pour défendre la prise arrière",
+    "Se détourner de l'adversaire pendant le stand-up (exposer le dos) au lieu de se mettre face à face",
+    "Essayer d'exploser plutôt que d'utiliser un stand-up technique contrôlé et séquentiel"
+  ],
+  "coachingCues": [
+    "Une main poste, une main se bat",
+    "Genou sous la hanche, pas sous la poitrine",
+    "Faites-leur face, ne montrez pas le dos"
+  ],
+  "safetySummary": [
+    "Ne résistez pas si fort à la prise arrière que vous permettez une manivelle ou un étranglement - il vaut mieux concéder le dos et s'échapper que de s'étouffer.",
+    "Si l'adversaire a un seatbelt serré, donnez la priorité aux combats à mains nues avant de tenter le stand-up.",
+    "Granby rouler pour échapper à la tortue peut blesser le cou s'il est effectué sans contrôle de la tête - utilisez le stand-up comme alternative plus sûre"
+  ],
+  "systemLogic": {
+    "corePrinciple": "La fuite de la tortue vers le stand-up suit une séquence en cinq étapes : protection du cou → poteau à une main → insertion du genou → stand-up technique → engagement",
+    "decisionTree": [
+      {
+        "condition": "À l'étape 1 (sensibilisation)",
+        "action": "reconnaissez que vous êtes en position tortue et que l’adversaire est au dessus. Il s'agit d'une position défensive : votre objectif est de vous échapper, pas de rester"
+      },
+      {
+        "condition": "À l'étape 2 (cadres)",
+        "action": "établissez des cadres sur le tapis avec vos avant-bras pour créer un espace sous votre poitrine. Les frames empêchent l'adversaire de vous aplatir ou de prendre le dos"
+      },
+      {
+        "condition": "À l'étape 3 (base)",
+        "action": "placez un genou sous votre corps pour créer une base. Un seul genou sous vous vous donne la possibilité de vous lever ou de vous asseoir"
+      },
+      {
+        "condition": "À l'étape 4 (décision d'évasion)",
+        "action": "choisissez votre évasion : asseyez-vous jusqu'à guard, levez-vous jusqu'à la base ou lancez un lancer de Granby pour récupérer guard. Chaque évasion comporte différents niveaux de risque"
+      },
+      {
+        "condition": "À l'étape 5 (fiançailles)",
+        "action": "pendant que vous exécutez l’évasion, restez connecté à l’adversaire. S’ils vous suivent, utilisez leur élan ; s'ils se désengagent, relevez-vous complètement"
+      }
+    ],
+    "exitStrategies": []
+  },
+  "moneyDetails": [
+    "Le stand-up de tortue est une compétence issue de la lutte qui se traduit directement par BJJ : c'est l'évasion de tortue la plus sûre et la plus économe en énergie.",
+    "Utiliser le stand-up au lieu de rouler depuis la tortue vous évite d'être aplati par des back-takers expérimentés.",
+    "Une transition rapide de la tortue vers une opportunité de retrait (simple jambe, double jambe) plutôt que de concéder la position inférieure"
+  ],
+  "fixItFast": [
+    "S'ils verrouillent un corps triangle pendant que vous êtes en tortue : ne paniquez pas : protégez votre cou, mettez-vous à genoux et retirez la jambe supérieure en vous asseyant légèrement en arrière.",
+    "S'ils continuent de vous traîner à plat à chaque fois que vous postez : changez le poteau de votre main pour une base plus verticale (le bout des doigts, pas la paume à plat) et soulevez vos hanches plus haut avant de vous lever.",
+    "S'ils poursuivent votre dos pendant que vous êtes debout : laissez tomber votre hanche la plus proche, faites-lui face directement et éloignez-vous de son bras qui s'étouffe."
+  ]
+}

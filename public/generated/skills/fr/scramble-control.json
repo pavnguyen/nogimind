@@ -1,0 +1,127 @@
+{
+  "id": "scramble-control",
+  "domain": "positional_awareness",
+  "level": "advanced",
+  "status": "draft",
+  "name": "Contrôle de brouillage",
+  "aliases": [],
+  "tags": [
+    "scramble",
+    "transitions"
+  ],
+  "keywords": [
+    "scramble",
+    "inside position",
+    "go-behind",
+    "failure response"
+  ],
+  "relatedSkills": [
+    {
+      "id": "sprawl-go-behind",
+      "type": "recommended"
+    },
+    {
+      "id": "back-control",
+      "type": "recommended"
+    },
+    {
+      "id": "mat-return-basics",
+      "type": "recommended"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "failure-response-transitions",
+    "hand-fighting"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [
+    "Si vous continuez à perdre des courses : vous donnez la priorité à la mauvaise course. Commencez toujours par la position de la tête : si vous perdez la course à la tête, vous perdez la course.",
+    "Si l’adversaire continue de vous soutenir dans la bousculade : vous montrez votre dos. Foret se tournant vers eux (pas loin) lorsque la bousculade commence",
+    "Si vous vous fatiguez rapidement dans les bousculades : vous retenez votre souffle et utilisez toute la tension musculaire. Pratiquez une respiration contrôlée et une tension sélective"
+  ],
+  "version": 1,
+  "updatedAt": "2026-05-21T00:24:30.758Z",
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "fr",
+  "description": "Transformez les sorties du chaos en courses prioritaires : tête, hanches, position intérieure et exposition du dos. Une bousculade est une course au contrôle de position où la première personne à établir une structure gagne.",
+  "shortInstruction": "Gagnez la course à la tête (du front à la mâchoire), battez-les en position intérieure, gardez vos hanches en dessous des leurs et ne montrez jamais votre dos. Le premier à structurer remporte la bataille.",
+  "summary": "Le contrôle Scramble transforme les échanges chaotiques en une course aux priorités systématique. Les quatre priorités dans l'ordre sont : (1) la position de la tête – placez votre front jusqu'à la ligne de la mâchoire, (2) la hauteur des hanches – gardez vos hanches en dessous ou au niveau des leurs, (3) la position intérieure – frappez leurs mains, leurs genoux et leurs coudes vers l'intérieur, et (4) l'exposition du dos – ne montrez jamais votre dos. Le grappler qui structure en premier force l'adversaire à réagir et obtient un avantage positionnel.",
+  "whyItWorks": [
+    "La position de la tête détermine la direction de la course – le grappler avec contrôle du front à la mâchoire dicte où va la tête de l'adversaire et donc son corps suit",
+    "La position basse des hanches vous donne un avantage mécanique : vous pouvez soulever, conduire et baser par le bas plus efficacement que par le haut.",
+    "La position intérieure (votre genou à l'intérieur de leur ligne de genou, votre coude à l'intérieur de leur ligne de coude) vous permet de contrôler l'axe central de leur corps.",
+    "Ne jamais montrer votre dos empêche l'adversaire d'obtenir l'avancement de position le plus important (prise en arrière)"
+  ],
+  "commonMistakes": [
+    "Chasser les soumissions pendant une mêlée au lieu d'établir d'abord le contrôle de position",
+    "Montrer votre dos tout en essayant d'échapper à une mauvaise position - cela donne à l'adversaire une opportunité immédiate de prise en arrière",
+    "Lutte à plat sur le ventre – cela supprime toutes vos options de mobilité et de base",
+    "Retenir son souffle pendant les courses – cela entraîne une fatigue prématurée et des erreurs"
+  ],
+  "coachingCues": [
+    "La tête en premier, les hanches en second",
+    "L'intérieur bat l'extérieur, toujours",
+    "Ne montre jamais ton dos",
+    "La structure gagne la bataille"
+  ],
+  "safetySummary": [
+    "Les courses sont la source la plus courante de blessures liées à l'entraînement : un mouvement incontrôlé peut causer des lésions aux doigts, aux genoux et au cou.",
+    "Ne postez pas avec les bras tendus pour vous rattraper – cela risque d’hyperextension du coude ou de luxation de l’épaule.",
+    "Si vous sentez que votre articulation est coincée dans un angle inconfortable lors d'une course, concédez la position et réinitialisez-la plutôt que de vous battre dans la mauvaise direction.",
+    "Les bousculades près du bord du tapis augmentent le risque de blessure – soyez très contrôlé près des limites"
+  ],
+  "systemLogic": {
+    "corePrinciple": "Le système de priorité Scramble comporte quatre courses classées par ordre strict d'importance : Tête : Hanches → Position intérieure → Exposition arrière",
+    "decisionTree": [
+      {
+        "condition": "Dans la course 1 (tête)",
+        "action": "le premier grappin à établir un contrôle du front à la mâchoire (ou de la joue à la poitrine) remporte la course. La position de la tête détermine la direction du corps. Si vous perdez la course de tête, chaque course suivante devient plus difficile"
+      },
+      {
+        "condition": "Dans la course 2 (hanches)",
+        "action": "le grappler avec une position de hanche inférieure présente un avantage mécanique. Si vos hanches sont plus hautes que les leurs, elles peuvent vous élever et vous rediriger. Si vos hanches sont plus basses, vous pouvez vous asseoir, conduire et soulever plus efficacement"
+      },
+      {
+        "condition": "Dans la Course 3 (Position Intérieure)",
+        "action": "une fois la tête et les hanches établies, luttez pour la position intérieure. Vos genoux doivent être à l’intérieur de leur ligne de genou, vos coudes à l’intérieur de leur ligne de coude. La position intérieure vous donne le contrôle de l'axe central"
+      },
+      {
+        "condition": "Dans la course 4 (exposition arrière)",
+        "action": "ne montrez jamais, sous aucun prétexte, votre dos pendant une course. Si vous sentez que votre dos est exposé, concédez la position et rétablissez d'abord la position de la tête avant de continuer."
+      },
+      {
+        "condition": "les quatre courses sont gagnées",
+        "action": "vous avez une domination positionnelle – passez directement à l’épinglage ou à la soumission. Si vous perdez une course, revenez à la course précédente et rétablissez-vous avant d'avancer."
+      }
+    ],
+    "exitStrategies": []
+  },
+  "moneyDetails": [
+    "Le contrôle de la mêlée est la compétence la plus importante pour réussir en compétition : les matchs sont souvent gagnés ou perdus dans la mêlée.",
+    "Gagner des mêlées permet d'économiser de l'énergie car vous dictez le rythme plutôt que de réagir aux actions de l'adversaire.",
+    "La capacité à rester calme et structuré dans des échanges chaotiques est la marque d’un grappler vétéran.",
+    "La maîtrise du contrôle des scrambles évite les pertes de points les plus courantes en compétition : les reprises et les guard passes des msrambles."
+  ],
+  "fixItFast": [
+    "Si vous êtes dans une situation difficile et que vous perdez : gelez-vous. Contrôlez la position de la tête, baissez les hanches et réinitialisez la course prioritaire depuis le début",
+    "Si vous êtes aplati sur le ventre : tournez-vous immédiatement sur le côté, placez-vous sur la hanche et rétablissez la position de la tête avant d'essayer de vous lever.",
+    "Si l'adversaire vous soutient : ne vous détournez pas – tournez-vous vers lui, piègez sa jambe la plus proche et récupérez guard."
+  ]
+}

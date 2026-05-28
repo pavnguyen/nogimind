@@ -1,0 +1,56 @@
+{
+  "id": "turtle-top",
+  "locale": "fr",
+  "title": "Turtle dessus",
+  "category": "turtle",
+  "status": "advantage",
+  "description": "Le joueur du dessus ride la turtle en cherchant le contrôle du poignet, la pression de hanche, le retour au sol ou l’exposition du dos.",
+  "topPlayerGoals": [
+    "Le joueur du dessus veut contrôler Turtle dessus avec la position de tête, la position intérieure et une pression orientée.",
+    "Empêcher le stand-up ou la reprise de garde et passer au contrôle du dos.",
+    "Garder une base stable pour éviter d’être déséquilibré ou contré."
+  ],
+  "bottomPlayerGoals": [
+    "Le joueur du dessous veut survivre en Turtle dessus avec des cadres, du pummeling ou le bon angle.",
+    "Ne pas laisser le poignet proche être tiré ; reconstruire une base ou récupérer la garde.",
+    "Reconnaître les signaux de danger tôt au lieu d’attendre que la position se stabilise."
+  ],
+  "controlPoints": [
+    "Point de contrôle principal : Poignet proche, pression des hanches et spiral sur l’épaule..",
+    "La tête, les mains, les hanches et les genoux doivent suivre la même direction de force.",
+    "La connexion coude-genou ou la ligne hanches-épaules détermine si la position reste vivante ou verrouillée."
+  ],
+  "escapePriorities": [
+    "Priorité de sortie : Garder les coudes à l’intérieur et les genoux sous les hanches..",
+    "Protéger le cou, le dos, la ligne du genou ou la ligne du bras avant de contrer.",
+    "Si la position intérieure est perdue, rétablir d’abord une couche défensive."
+  ],
+  "advancementOptions": [
+    {
+      "action": "Insérer un hook et prendre le dos",
+      "nextPositionId": "back-control-position",
+      "relatedSkillIds": [
+        "turtle-ride",
+        "mat-return-basics",
+        "back-control"
+      ],
+      "why": "C’est la branche naturelle lorsque vous gagnez le point de contrôle principal et que l’adversaire est forcé de défendre."
+    }
+  ],
+  "dangerSignals": [
+    "Le menton ou le cou sort de la ligne sûre.",
+    "Le coude se sépare des côtes ou du genou.",
+    "La ligne des hanches est verrouillée pendant que la ligne des épaules est encore tirée.",
+    "Vous devez poser une main loin pour éviter de tomber."
+  ],
+  "relatedSkillIds": [
+    "turtle-ride",
+    "mat-return-basics",
+    "back-control"
+  ],
+  "relatedConceptIds": [
+    "hooks",
+    "posts",
+    "positional-hierarchy"
+  ]
+}

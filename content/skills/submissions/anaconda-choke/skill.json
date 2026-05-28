@@ -1,0 +1,52 @@
+{
+  "id": "anaconda-choke",
+  "domain": "submission_systems",
+  "level": "intermediate",
+  "name": "Anaconda Choke",
+  "aliases": [],
+  "tags": [
+    "anaconda",
+    "choke",
+    "front-headlock",
+    "arm-triangle"
+  ],
+  "keywords": [
+    "anaconda",
+    "arm triangle",
+    "front headlock",
+    "hip rotation",
+    "shoulder crunch"
+  ],
+  "relatedSkills": [
+    {
+      "id": "darce-choke",
+      "type": "recommended"
+    },
+    {
+      "id": "guillotine-system",
+      "type": "recommended"
+    },
+    {
+      "id": "sprawl-go-behind",
+      "type": "recommended"
+    }
+  ],
+  "prerequisiteSkillIds": [
+    "front-headlock-system",
+    "snapdown-front-headlock"
+  ],
+  "relatedPositions": [],
+  "relatedConcepts": [],
+  "archetypeIds": [],
+  "trainingMethodIds": [],
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "updatedAt": "2026-05-21T00:24:30.767Z"
+}

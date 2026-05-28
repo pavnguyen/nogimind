@@ -1,0 +1,65 @@
+{
+  "id": "elbow-knee-connection",
+  "locale": "fr",
+  "title": "Connexion coude-genou",
+  "category": "defensive",
+  "level": "fundamental",
+  "tags": [
+    "elbow knee",
+    "escape",
+    "guard retention"
+  ],
+  "shortDefinition": "La connexion coude-genou ferme l’espace entre haut du corps et hip line pour prévenir pin/pass.",
+  "whyItMatters": "Quand coude quitte genou, adversaire insère poitrine, genou, hook ou isolation bras.",
+  "deepExplanation": "Principe vital en side control, mount, retention et back escape. Il reconstruit une couche avant shrimp, bridge ou wrestle-up.",
+  "beginnerView": "Coude inside, puis genou revient.",
+  "advancedView": "Utiliser coude-genou pour attirer pression puis underhook, turtle ou recover guard.",
+  "ifThenExamples": [
+    {
+      "if": "Si vous perdez Connexion coude-genou pendant l’échange.",
+      "then": "Arrêtez d’accélérer, récupérez la structure corporelle proche, puis continuez.",
+      "why": "Le no-gi moderne punit vite la force après perte de structure.",
+      "relatedSkillIds": [
+        "side-control-escape",
+        "mount-escape"
+      ]
+    },
+    {
+      "if": "Si l’adversaire répond correctement à votre première ligne.",
+      "then": "Utilisez Connexion coude-genou pour passer à une branche plus sûre au lieu de forcer.",
+      "why": "Un bon concept transforme la réaction adverse en information pour la décision suivante.",
+      "relatedSkillIds": [
+        "mount-escape",
+        "seated-guard-retention",
+        "back-escape"
+      ]
+    }
+  ],
+  "commonMisunderstandings": [
+    {
+      "misunderstanding": "Connexion coude-genou est une astuce technique isolée.",
+      "correction": "Voyez-le comme une règle de décision présente dans plusieurs positions."
+    },
+    {
+      "misunderstanding": "Comprendre le concept suffit pour l’utiliser en live.",
+      "correction": "Le concept doit être lié à signaux corporels, cues courts et rolling positionnel."
+    }
+  ],
+  "trainingCues": [
+    "Nommez Connexion coude-genou avant d’ajouter force.",
+    "Cherchez le signal corporel, pas une impression vague.",
+    "Si la structure est perdue, reset une couche d’abord.",
+    "Driller lentement, puis tester avec résistance progressive."
+  ],
+  "relatedSkillIds": [
+    "side-control-escape",
+    "mount-escape",
+    "seated-guard-retention",
+    "back-escape"
+  ],
+  "relatedConceptIds": [
+    "frames",
+    "guard-retention-layers",
+    "early-vs-late-defense"
+  ]
+}

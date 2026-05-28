@@ -1,0 +1,65 @@
+{
+  "id": "leg-lock-safety-hierarchy",
+  "locale": "vi",
+  "title": "Leg Lock Safety Hierarchy",
+  "category": "safety",
+  "level": "fundamental",
+  "tags": [
+    "leg lock",
+    "heel hook",
+    "safety"
+  ],
+  "shortDefinition": "Thứ tự an toàn: nhận diện entanglement, giấu heel, bảo vệ knee line, clear leg phụ, rồi thoát có kiểm soát.",
+  "whyItMatters": "Leg locks có thể chuyển từ an toàn sang nguy hiểm rất nhanh nếu bạn xoay sai khi knee line kẹt.",
+  "deepExplanation": "Safety hierarchy giúp bạn không hoảng. Heel exposure là tín hiệu, knee line là ranh giới, secondary leg là khóa phụ. Tap sớm và giao tiếp rõ là một phần kỹ thuật.",
+  "beginnerView": "Đừng xoay khi heel lộ và knee line kẹt.",
+  "advancedView": "Đọc leg entanglement như vị trí kiểm soát, không như cuộc đua vặn chân.",
+  "ifThenExamples": [
+    {
+      "if": "Nếu bạn mất Leg Lock Safety Hierarchy trong trao đổi.",
+      "then": "Dừng tăng tốc, lấy lại cấu trúc cơ thể gần nhất rồi mới tiếp tục kỹ thuật.",
+      "why": "No-gi hiện đại phạt rất nhanh khi bạn cố thắng bằng sức sau khi mất cấu trúc.",
+      "relatedSkillIds": [
+        "leg-lock-safety-basics",
+        "heel-hook-safety"
+      ]
+    },
+    {
+      "if": "Nếu đối thủ phản ứng đúng với hướng đầu tiên.",
+      "then": "Dùng Leg Lock Safety Hierarchy để đổi sang nhánh an toàn hơn thay vì ép cùng một hướng.",
+      "why": "Concept tốt biến phản ứng của đối thủ thành thông tin cho quyết định tiếp theo.",
+      "relatedSkillIds": [
+        "heel-hook-safety",
+        "straight-ankle-lock-safety",
+        "k-guard-entry"
+      ]
+    }
+  ],
+  "commonMisunderstandings": [
+    {
+      "misunderstanding": "Leg Lock Safety Hierarchy là một mẹo kỹ thuật riêng lẻ.",
+      "correction": "Hãy xem nó như quy tắc quyết định xuất hiện trong nhiều vị trí khác nhau."
+    },
+    {
+      "misunderstanding": "Bạn chỉ cần hiểu khái niệm là tự động dùng được trong live roll.",
+      "correction": "Khái niệm phải được gắn với body signal, cue ngắn và positional rolling."
+    }
+  ],
+  "trainingCues": [
+    "Gọi tên Leg Lock Safety Hierarchy trước khi tăng lực.",
+    "Tìm body signal, không đoán bằng cảm giác chung.",
+    "Nếu mất cấu trúc, reset một layer trước.",
+    "Drill chậm, test bằng resistance tăng dần."
+  ],
+  "relatedSkillIds": [
+    "leg-lock-safety-basics",
+    "heel-hook-safety",
+    "straight-ankle-lock-safety",
+    "k-guard-entry"
+  ],
+  "relatedConceptIds": [
+    "knee-line",
+    "early-vs-late-defense",
+    "positional-hierarchy"
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "id": "technical-stand-up",
+  "domain": "wrestle_up_wrestling",
+  "level": "beginner",
+  "status": "draft",
+  "name": "Technical Stand-Up",
+  "aliases": [],
+  "tags": [
+    "wrestling",
+    "base"
+  ],
+  "keywords": [
+    "technical stand-up",
+    "base",
+    "head position",
+    "hand fighting"
+  ],
+  "relatedSkills": [
+    {
+      "id": "hand-fighting",
+      "type": "recommended"
+    },
+    {
+      "id": "seated-guard-retention",
+      "type": "recommended"
+    },
+    {
+      "id": "guard-pulling-strategy",
+      "type": "recommended"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "inside-position"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [],
+  "version": 1,
+  "updatedAt": "2026-05-21T00:24:30.759Z",
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "en",
+  "description": "Stand up safely from seated or supine guard without feeding a front headlock. The technical stand-up is the foundational movement for escaping to standing from any bottom position.",
+  "shortInstruction": "Post one hand on the mat, bring the same-side foot to that hand, drive through the foot and hand to stand, and keep the other hand up in a defensive frame. Face the opponent as you stand.",
+  "summary": "The technical stand-up is a sequential movement from seated or lying to standing: (1) post your hand on the mat beside your hip, (2) bring your same-side foot to meet your hand, (3) drive through the posted hand and foot to lift your hips, (4) bring your other foot under you as you rise, (5) establish a defensive stance facing the opponent. The technical stand-up is essential for guard recovery, turtle escape, and standing to pass.",
+  "whyItWorks": [
+    "The tripod base (one hand, one knee, one foot) provides stability throughout the stand-up sequence",
+    "Facing the opponent as you stand prevents them from taking your back or attacking with a front headlock",
+    "The technical stand-up uses the strongest muscle groups (glutes, quads, hamstrings) to lift your body weight",
+    "The raised hand provides a defensive frame against takedowns and strikes"
+  ],
+  "commonMistakes": [
+    "Posting both hands flat and trying to stand — this leaves no arm to defend the back take or front headlock",
+    "Standing up with your back to the opponent — this exposes the back for the easiest back take of their life",
+    "Standing up tall instead of staying in a grappling stance — a tall posture is easy to takedown",
+    "Bringing the foot to the knee instead of the hand — the foot must meet the hand for proper leverage"
+  ],
+  "coachingCues": [
+    "Hand on the mat, foot to the hand",
+    "Face them as you stand",
+    "One hand up, one hand down",
+    "Stand in a stance, not tall"
+  ],
+  "safetySummary": [
+    "Do not post with a straight locked arm — keep the elbow slightly bent to prevent hyperextension",
+    "If the opponent shoots as you stand, be ready to sprawl immediately",
+    "Practice the technical stand-up slowly before using it under pressure — rushing leads to loss of balance"
+  ],
+  "systemLogic": {
+    "corePrinciple": "The technical stand-up is a sequential movement from seated/lying to standing: Post → Foot → Lift → Base → Stand → Stance. Facing the opponent throughout prevents back exposure and front headlock entries.",
+    "decisionTree": [
+      {
+        "condition": "Opponent is standing over you while you are seated or supine",
+        "action": "Execute the technical stand-up: post your hand on the mat beside your hip, bring the same-side foot to meet your hand, drive through both to lift your hips, bring the other foot under you, and stand facing them."
+      },
+      {
+        "condition": "Opponent pushes you back down as you start to stand",
+        "action": "Drive harder through the posted foot — do not drop back to the mat. The power comes from your glutes and quads, not your arms."
+      },
+      {
+        "condition": "Opponent tries to pass as you stand",
+        "action": "Keep the defensive hand up and circle away from their attack. The raised hand provides a frame against takedowns."
+      },
+      {
+        "condition": "Opponent shoots a takedown as you stand",
+        "action": "Sprawl immediately — your defensive hand is already up to post on their back. The technical stand-up puts you in a strong sprawling position."
+      },
+      {
+        "condition": "You keep falling backward during the stand-up",
+        "action": "Your foot is too far from your hand — bring it closer (within 2 inches of the posted hand). The tripod base requires the foot and hand to be close."
+      }
+    ],
+    "exitStrategies": [
+      "If you cannot get up, your hand post is too far from your body — bring it closer to your hip.",
+      "If they take your back as you stand, you turned away from them — face them throughout the entire stand-up sequence.",
+      "If the technical stand-up is not possible (opponent has pinned your legs), use the combat base or granby roll instead."
+    ]
+  },
+  "moneyDetails": [
+    "The technical stand-up is the most important movement skill in BJJ — it is used in every guard recovery, turtle escape, and scorable stand-up",
+    "Mastering the technical stand-up prevents the most common positional loss: back exposure from bad stand-ups",
+    "The technical stand-up is the foundation of all wrestle-up systems"
+  ],
+  "fixItFast": [
+    "If you fall backward: bring the foot closer to the hand before lifting",
+    "If they push you back down: drive harder through the foot, do not drop back to the mat",
+    "If they try to pass as you stand: keep the defensive hand up and circle away from their attack"
+  ]
+}

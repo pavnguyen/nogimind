@@ -1,0 +1,71 @@
+{
+  "id": "turtle-ride",
+  "locale": "en",
+  "name": "Turtle Ride",
+  "description": "Ride turtle with hip pressure, near wrist, spiral ride, and mat return threat. The turtle ride integrates all turtle-breaking systems into a coherent positional control system.",
+  "shortInstruction": "From turtle, establish hip pressure and near wrist control. Read their reaction: if they posture, use the spiral ride. If they stay flat, use the power half. If they stand, use the mat return.",
+  "summary": "The turtle ride is the complete system for controlling, breaking down, and taking the back from the turtle position. It integrates four complementary systems: (1) hip pressure and near wrist control for baseline control, (2) the spiral ride for rotational collapse, (3) the power half ride for flat collapse, and (4) the mat return for when the opponent stands. The key is reading the opponent's reaction and selecting the appropriate system.",
+  "whyItWorks": [
+    "Hip pressure and near wrist control prevent the opponent from exploding out of turtle or sitting through",
+    "The spiral ride and power half ride attack the turtle from different angles — if one fails, the other works",
+    "The mat return threat prevents the opponent from escaping by standing up",
+    "The integrated system allows you to chain attacks: spiral → power half → mat return as the opponent adjusts"
+  ],
+  "commonMistakes": [
+    "Committing to one system too early — read the opponent's reaction before choosing spiral, power half, or mat return",
+    "Losing hip pressure — the baseline control must be maintained throughout",
+    "Letting the opponent sit through to guard — stay heavy on the hips and control the near wrist",
+    "Not transitioning to mat return when they stand — standing opponents must be returned immediately"
+  ],
+  "coachingCues": [
+    "Hip pressure, near wrist first",
+    "Read their reaction, choose the system",
+    "Spiral, power half, or mat return",
+    "Stay connected, never let them sit up"
+  ],
+  "safetySummary": [
+    "Do not apply excessive pressure to the opponent's spine when riding the turtle — use chest pressure on the back, not the vertebrae",
+    "If the opponent rolls out of the turtle suddenly, protect your head and neck",
+    "Be aware of the opponent's neck position — if their head is turned at an awkward angle, avoid aggressive turtle-breaking techniques"
+  ],
+  "keyCorrections": [
+    "If they keep sitting up to guard: your hip pressure is too light — drive your chest into their back and control the near wrist",
+    "If they stand up: switch to the mat return immediately — do not try to spiral ride a standing opponent",
+    "If they roll out: follow and take the back — maintain contact through the roll"
+  ],
+  "systemLogic": {
+    "corePrinciple": "The turtle ride is a decision tree system: Baseline Control → Read Reaction → Apply System",
+    "decisionTree": [
+      {
+        "condition": "General application",
+        "action": "Baseline Control: from behind the turtle, establish hip pressure (chest on upper back) and control the near wrist. Your knees should be on the mat, hips heavy on their hips"
+      },
+      {
+        "condition": "Reaction 1",
+        "action": "They stay low and defensive: use the spiral ride (push thigh, pull shoulder) or power half ride (cross-face grip, walk hips). Either system will collapse them"
+      },
+      {
+        "condition": "Reaction 2",
+        "action": "They posture up or sit through: increase hip pressure and use the claw ride (arm around the hip) to pull them back down"
+      },
+      {
+        "condition": "Reaction 3",
+        "action": "They stand up: immediately transition to the mat return — secure the waist grip or single leg and drive them back to the mat"
+      },
+      {
+        "condition": "General application",
+        "action": "If all reactions fail, cycle back to baseline control and restart. The turtle position rewards patience — the opponent will eventually make a mistake"
+      }
+    ]
+  },
+  "moneyDetails": [
+    "The turtle ride is the complete turtle-breaking system — mastering it means you can take the back from any turtle position",
+    "A reliable turtle ride chain (spiral → power half → mat return) eliminates the opponent's safest defensive position",
+    "Back takes from the turtle ride score 4 points in IBJJF and lead directly to the most dominant position in grappling"
+  ],
+  "fixItFast": [
+    "If they sit through to guard: release the turtle ride, frame on their hips, and stand up to pass",
+    "If they stand up: switch to the mat return — secure the waist and drive them to the mat",
+    "If they roll toward you: take the back — maintain the hip connection as they roll"
+  ]
+}

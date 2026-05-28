@@ -1,0 +1,61 @@
+{
+  "id": "anaconda-choke",
+  "locale": "fr",
+  "name": "anaconda Étrangleur",
+  "description": "Un bras triangle s'étrangle à partir de la position front headlock, en utilisant votre bras pour verrouiller autour du cou tout en tirant le coude vers le genou et en tournant pour terminer avec une pression sur l'épaule.",
+  "shortInstruction": "Verrouillez le bras autour du cou, tirez son coude vers votre genou, faites pivoter votre poitrine vers le tapis – le anaconda se termine par une pression sur l'épaule, pas une pression sur le bras.",
+  "summary": "Le starter anaconda est l'une des trois finitions principales front headlock (avec le d'arce et guillotine). La principale différence avec le d'arce est que votre bras d'étouffement s'enfile du côté opposé (le bras proche passe sous le cou et par-dessus le bras éloigné). La finition vient de la rotation de votre poitrine vers le tapis tout en tirant le coude de leur bras coincé vers votre genou – cela crée un bras serré triangle sur leur cou et leur épaule.",
+  "whyItWorks": [
+    "Le anaconda emprisonne à la fois leur bras et leur cou dans le même verrou – deux structures comprimées par un seul mouvement.",
+    "La pression rotationnelle de votre poitrine sur le tapis est plus forte que la pression avec vos bras.",
+    "Cela fonctionne à partir de front headlock lorsqu'ils sont torturés ou tentent de se mettre à plat ventre pour s'échapper.",
+    "Principe de Danaher : les triangle des bras sont entraînés par la pression de l'épaule et non par la force du bras - le anaconda est un starter entraîné par l'épaule."
+  ],
+  "commonMistakes": [
+    "Verrouiller les mains sans contrôler la position du coude – le coude doit être tiré vers votre genou.",
+    "Essayer de finir à plat sur le ventre plutôt que sur le côté – la finition nécessite un angle de rotation.",
+    "Presser avec les bras au lieu de conduire avec la poitrine – fatigue de compression des bras ; la pression thoracique se termine.",
+    "Laissez l’adversaire vous empiler en gardant la tête basse – gardez la tête haute et sur le côté."
+  ],
+  "coachingCues": [
+    "Du coude au genou, c'est la ligne d'arrivée.",
+    "Poitrine contre le tapis, pas bras vers le cou.",
+    "Verrouillez d'abord, tournez ensuite, pressez en dernier.",
+    "Tête haute, angle aigu, pression profonde."
+  ],
+  "safetySummary": [
+    "Appliquez une pression progressivement : le anaconda comprime simultanément le cou et l'épaule.",
+    "Ne faites pas tourner le cou de l'adversaire en lui tirant la tête de manière trop agressive.",
+    "Tapez tôt si vous ressentez une pression sur votre colonne cervicale pendant la rotation."
+  ],
+  "keyCorrections": [
+    "Si l'étrangleur ne se verrouille pas, votre coude n'est pas assez près de son corps – avancez votre coude vers sa cage thoracique.",
+    "S’ils vous empilent, votre tête est trop basse – amenez votre tête du côté de leurs hanches.",
+    "S'ils roulent, suivez leur rotation et réattaquez depuis la tortue."
+  ],
+  "systemLogic": {
+    "corePrinciple": "front headlock établi → enfiler près du bras sous le cou et sur le bras éloigné → verrouiller les mains → tirer le coude du bras coincé vers votre genou → faire pivoter la poitrine vers le tapis → terminer.",
+    "decisionTree": [
+      {
+        "condition": "ils résistent à la rotation, passez au d'arce ou au guillotine",
+        "action": "les trois forment une chaîne."
+      },
+      {
+        "condition": "Application générale",
+        "action": "Le anaconda fonctionne mieux contre les adversaires qui tentent de se retourner vers vous depuis front headlock."
+      }
+    ]
+  },
+  "moneyDetails": [
+    "Votre bras qui s'étouffe doit s'enfoncer profondément sous le cou – votre épaule doit être proche de son oreille.",
+    "Tirez le coude de leur bras coincé vers votre genou proche – c'est ce qui crée la compression de l'épaule.",
+    "Faites pivoter votre poitrine vers le tapis en tournant vos hanches – la rotation resserre le starter sans le serrer.",
+    "Gardez votre tête du même côté que le bras coincé – cela l’empêche de vous renverser."
+  ],
+  "nextStep": "Après le anaconda, apprenez le starter d'arce et le guillotine à enchaîner à partir du front headlock.",
+  "fixItFast": [
+    "Le starter semble lâche ? Rapprochez leur coude de votre genou et faites pivoter davantage.",
+    "Ils vous empilent ? Amenez votre tête du côté de la hanche et réengagez-vous.",
+    "Ils passent ? Suivez la rotation et réattaquez depuis le haut de la tortue."
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "id": "inverted-guard",
+  "locale": "en",
+  "title": "Inverted Guard",
+  "category": "bottom_guard",
+  "status": "defensive",
+  "description": "The guard player inverts to place feet on the hip line or shoulder line, creating sweep angles and leg entries.",
+  "topPlayerGoals": [
+    "The top player wants to control Inverted Guard through head position, inside position, and directed pressure.",
+    "Block the invert angle, apply weight, and prevent foot placement.",
+    "Keep a stable base so you are not off-balanced or countered."
+  ],
+  "bottomPlayerGoals": [
+    "The bottom player wants to survive Inverted Guard with frames, pummeling, or the right angle.",
+    "Keep the invert controlled, feet inside the hip line, and connect to K-guard or matrix.",
+    "Recognize danger signals early instead of waiting for the position to settle."
+  ],
+  "controlPoints": [
+    "Main control point: Feet on hip line, hip connection, and angle..",
+    "Head, hands, hips, and knees should share the same force direction.",
+    "The elbow-knee connection or hip-shoulder line determines whether the position is still alive or already locked."
+  ],
+  "escapePriorities": [
+    "Escape priority: Do not let them connect leg entries from the invert..",
+    "Protect the neck, back, knee line, or arm line before countering.",
+    "If inside position is lost, reset one defensive layer first."
+  ],
+  "advancementOptions": [
+    {
+      "action": "Transition to K-guard or matrix entry",
+      "nextPositionId": "k-guard-position",
+      "relatedSkillIds": [
+        "inverted-guard-control",
+        "k-guard-matrix",
+        "false-reap-entry"
+      ],
+      "why": "This is the natural branch when you win the main control point and the opponent is forced to defend."
+    }
+  ],
+  "dangerSignals": [
+    "The chin or neck is pulled out of a safe line.",
+    "The elbow separates from the ribs or knee.",
+    "The hip line is locked while the shoulder line is still being pulled.",
+    "You need a long hand post to avoid falling."
+  ],
+  "relatedSkillIds": [
+    "inverted-guard-control",
+    "k-guard-matrix",
+    "false-reap-entry",
+    "leg-lock-safety-basics"
+  ],
+  "relatedConceptIds": [
+    "knee-line",
+    "leg-lock-safety-hierarchy",
+    "angle-creation"
+  ]
+}

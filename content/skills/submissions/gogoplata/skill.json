@@ -1,0 +1,56 @@
+{
+  "id": "gogoplata",
+  "domain": "submission_systems",
+  "level": "advanced",
+  "name": "Gogoplata",
+  "aliases": [],
+  "tags": [
+    "gogoplata",
+    "neck-safety",
+    "guard-submission",
+    "tier:advanced-niche",
+    "meta:specialized",
+    "risk:safety-critical",
+    "family:submission",
+    "group:clamp-guard",
+    "modern-no-gi"
+  ],
+  "keywords": [
+    "gogoplata",
+    "neck safety",
+    "shin pressure"
+  ],
+  "modernSystemGroup": "clamp_guard",
+  "relatedSkills": [
+    {
+      "id": "clamp-guard-control",
+      "type": "recommended"
+    },
+    {
+      "id": "buggy-choke",
+      "type": "recommended"
+    },
+    {
+      "id": "smother-safety",
+      "type": "recommended"
+    }
+  ],
+  "prerequisiteSkillIds": [
+    "clamp-guard-control",
+    "front-headlock-defense"
+  ],
+  "relatedPositions": [],
+  "relatedConcepts": [],
+  "archetypeIds": [],
+  "trainingMethodIds": [],
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "updatedAt": "2026-05-21T00:24:30.776Z"
+}

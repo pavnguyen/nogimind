@@ -1,0 +1,51 @@
+{
+  "id": "omoplata-system",
+  "domain": "submission_systems",
+  "level": "advanced",
+  "name": "Omoplata System",
+  "aliases": [],
+  "tags": [
+    "submission",
+    "shoulder-lock-safety",
+    "guard"
+  ],
+  "keywords": [
+    "omoplata",
+    "shoulder isolation",
+    "hip angle",
+    "submission safety"
+  ],
+  "relatedSkills": [
+    {
+      "id": "triangle-system",
+      "type": "recommended"
+    },
+    {
+      "id": "choi-bar",
+      "type": "recommended"
+    },
+    {
+      "id": "tarikoplata",
+      "type": "recommended"
+    }
+  ],
+  "prerequisiteSkillIds": [
+    "clamp-guard-control",
+    "triangle-system"
+  ],
+  "relatedPositions": [],
+  "relatedConcepts": [],
+  "archetypeIds": [],
+  "trainingMethodIds": [],
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": true,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "contentRefs": {
+    "videos": "videos.json",
+    "qualityChecklist": "qualityChecklist"
+  },
+  "updatedAt": "2026-05-21T00:24:30.744Z"
+}

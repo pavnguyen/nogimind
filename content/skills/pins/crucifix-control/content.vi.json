@@ -1,0 +1,67 @@
+{
+  "id": "crucifix-control",
+  "locale": "vi",
+  "name": "crucifix Kiểm soát",
+  "description": "Sử dụng crucifix để bẫy cánh tay của đối phương bằng chân của bạn, tạo ra tình thế tiến thoái lưỡng nan giữa nghẹt thở và khóa tay mà không yêu cầu toàn bộ back control. crucifix là một chốt chuyên dụng điều khiển hoàn toàn một cánh tay, giúp bạn có thời gian và sự an toàn để tấn công.",
+  "shortInstruction": "Từ bên cạnh hoặc phía sau, kẹp một trong hai cánh tay của họ vào giữa hai chân của bạn (cánh tay giữa hai đùi của bạn), khóa chân và đẩy ngực của bạn vào lưng họ. Tấn công cuộn cảm hoặc cánh tay bị mắc kẹt armbar.",
+  "summary": "crucifix làm bất động một trong các cánh tay của đối thủ bằng cách kẹp nó vào giữa hai đùi của bạn, khiến họ chỉ còn một cánh tay để chống lại mọi đòn tấn công của bạn. Với cánh tay bị mắc kẹt, bạn có thể tấn công rear-naked choke (họ chỉ có một tay để phòng thủ), armbar cánh tay bị mắc kẹt hoặc chuyển sang back control hoàn toàn. crucifix an toàn hơn back control đầy đủ vì không thể sử dụng cánh tay bị mắc kẹt để trốn thoát hoặc phản công.",
+  "whyItWorks": [
+    "Việc kẹp cánh tay vào giữa hai đùi của bạn sẽ loại bỏ nó khỏi phương trình phòng thủ - đối thủ phải phòng thủ tất cả các đòn tấn công bằng một cánh tay",
+    "crucifix có cấu trúc chắc chắn — chân của bạn khỏe hơn cánh tay của chúng nên chúng không thể kéo cánh tay ra khỏi cơ thể khi đùi bạn bị siết chặt",
+    "Tình thế tiến thoái lưỡng nan về một cánh tay: nghẹt thở (RNC) so với armbar trên cánh tay bị mắc kẹt. Họ không thể bảo vệ cả hai bằng một tay tự do",
+    "crucifix có thể được nhập từ những lần quay lại không thành công, từ bên cạnh hoặc từ mount - đó là một vị trí bắt linh hoạt"
+  ],
+  "commonMistakes": [
+    "Giữ cánh tay bị kẹt quá thấp giữa hai đùi - cánh tay phải ở ngang hông chứ không phải ngang đầu gối",
+    "Để đối phương giải phóng cánh tay bằng cách xoay khuỷu tay của họ - giữ cho đùi của bạn siết chặt ở hông",
+    "Không kiểm soát được cánh tay còn lại - họ vẫn có thể bảo vệ cuộn cảm bằng tay còn lại",
+    "Ở trong crucifix quá lâu — đó là vị trí chuyển tiếp, không phải vị trí ghim"
+  ],
+  "coachingCues": [
+    "Cánh tay ngang hông, siết chặt đùi",
+    "Choke hoặc armbar, hãy chọn đòn tấn công của bạn",
+    "Kiểm soát cánh tay tự do nữa",
+    "Chuyển sang lùi khi họ phòng thủ"
+  ],
+  "safetySummary": [
+    "armbar từ crucifix tác dụng lực duỗi quá mức lên khuỷu tay — áp dụng từ từ và thả ra khi nhấn",
+    "Không quay cánh tay bị kẹt ở một góc không tự nhiên - cánh tay phải thẳng, không bị xoắn",
+    "Khi bước vào crucifix, hãy cẩn thận để không duỗi đầu gối của bạn quá mức so với cánh tay của họ"
+  ],
+  "keyCorrections": [
+    "Nếu họ thả lỏng cánh tay: lực siết đùi của bạn quá lỏng - hãy giữ lại ở ngang hông và siết chặt hơn",
+    "Nếu họ dễ dàng bảo vệ cuộn cảm: chuyển sang armbar — họ không thể bảo vệ cả hai",
+    "Nếu bạn không thể khóa crucifix: bạn ở quá xa — hãy tiến lại gần hông họ trước khi tóm lấy cánh tay"
+  ],
+  "systemLogic": {
+    "corePrinciple": "crucifix có ba nhánh tấn công: rear-naked choke → Cánh tay bị mắc kẹt armbar → Đầy đủ back control",
+    "decisionTree": [
+      {
+        "condition": "Sử dụng Nhánh 1 (Tấn công bằng cánh tay)",
+        "action": "từ crucifix, cô lập một cánh tay bằng chân của bạn và tấn công thẳng armbar hoặc kimura. Vị trí chân khiến họ không thể thoát khỏi đòn khóa tay"
+      },
+      {
+        "condition": "Sử dụng nhánh 2 (Tấn công cổ)",
+        "action": "nếu cánh tay bị chặn hoặc họ đang đối mặt với bạn, hãy tấn công vào cổ. Vị trí crucifix cho phép bạn truy cập dễ dàng vào RNC từ bên cạnh"
+      },
+      {
+        "condition": "Sử dụng Nhánh 3 (back control)",
+        "action": "nếu họ quay về phía bạn để phòng thủ, hãy thả crucifix và trượt một cú móc vào để lấy toàn bộ back control. crucifix là vị trí chuyển tiếp về phía sau"
+      },
+      {
+        "condition": "Ứng dụng chung",
+        "action": "crucifix là vị trí kiểm soát — mục tiêu của bạn là về đích từ crucifix hoặc chuyển về phía sau. Đừng ở lại crucifix nếu đối thủ đang tích cực chạy trốn"
+      }
+    ]
+  },
+  "moneyDetails": [
+    "crucifix là một trong những mục có tỷ lệ phần trăm gửi cao nhất trong No-Gi — vấn đề nan giải một bên gần như không thể giải quyết được",
+    "Việc thành thạo crucifix giúp bạn có một cú dứt điểm đáng tin cậy khi các đòn tấn công lùi tiêu chuẩn không thành công",
+    "crucifix đặc biệt hiệu quả trước những đối thủ mạnh hơn vì chân khỏe hơn tay"
+  ],
+  "fixItFast": [
+    "Nếu họ bảo vệ RNC: hãy chuyển sang armbar ngay lập tức — đừng cố gắng vì bị sặc",
+    "Nếu họ giải phóng cánh tay bị mắc kẹt: quay lại back control hoặc mount — không ép buộc mục nhập crucifix",
+    "Nếu bạn đang ở crucifix và bị mất vị trí: thả chân ra và trở về vị trí trung lập"
+  ]
+}

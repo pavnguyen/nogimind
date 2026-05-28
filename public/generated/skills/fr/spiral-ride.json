@@ -1,0 +1,125 @@
+{
+  "id": "spiral-ride",
+  "domain": "pins_rides",
+  "level": "intermediate",
+  "status": "draft",
+  "name": "Tour en spirale",
+  "aliases": [],
+  "tags": [
+    "spiral-ride",
+    "turtle-ride",
+    "back-exposure",
+    "control",
+    "tier:modern-expansion",
+    "meta:modern-common",
+    "risk:low",
+    "family:ride",
+    "group:turtle-ride",
+    "modern-no-gi"
+  ],
+  "keywords": [
+    "rotational pressure",
+    "base collapse",
+    "back exposure"
+  ],
+  "modernSystemGroup": "turtle_ride",
+  "relatedSkills": [
+    {
+      "id": "wrist-ride-back-exposure",
+      "type": "recommended"
+    },
+    {
+      "id": "sprawl-go-behind",
+      "type": "recommended"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "inside-position",
+    "turtle-ride"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [
+    "S’ils ne s’effondrent pas : augmentez la force de rotation – poussez la cuisse plus fort et tirez plus fort l’épaule.",
+    "S'ils sortent de la spirale : suivez-les et reprenez-les",
+    "Si vous perdez le contact : rétablissez la connexion thoracique avant de relancer la spirale"
+  ],
+  "version": 1,
+  "updatedAt": "2026-05-21T00:24:30.781Z",
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "fr",
+  "description": "Spiral Ride utilise une pression de rotation sur la cuisse et l'épaule pour effondrer la base de la tortue. Le tour en spirale est un système de destruction de tortues originaire de la lutte qui utilise la rotation en spirale pour déstabiliser la base de l'adversaire.",
+  "shortInstruction": "Du côté de la tortue, placez votre main la plus proche sur sa cuisse la plus éloignée et votre main la plus éloignée sur son épaule la plus proche. Faites pivoter vos mains dans des directions opposées (poussez la cuisse, tirez l'épaule) pour les mettre en spirale à plat.",
+  "summary": "Le tour en spirale décompose la tortue en appliquant des forces de rotation opposées : une main repousse la cuisse la plus éloignée tandis que l'autre tire l'épaule la plus proche vers vous. Cette rotation supprime la base de l'adversaire et le force à plat sur sa hanche ou sur son côté. Le tour en spirale est particulièrement efficace contre les adversaires trop forts ou trop flexibles pour le demi-tour en puissance.",
+  "whyItWorks": [
+    "Les forces de rotation opposées (pousser la cuisse, tirer l’épaule) créent une spirale contre laquelle l’adversaire ne peut pas s’appuyer.",
+    "La spirale enlève la base triangulaire de l'adversaire — le trépied des deux mains et des genoux devient instable",
+    "La spirale fonctionne même contre des adversaires plus forts car elle utilise un effet de levier rotationnel plutôt que la force directe.",
+    "La transition en spirale vers back control est douce car la rotation expose naturellement le dos"
+  ],
+  "commonMistakes": [
+    "Pousser la cuisse dans la même direction que tirer l’épaule – ils doivent être dans des directions opposées",
+    "Relâcher la pression après le début de la spirale - maintenir les deux points de contact pendant l'effondrement",
+    "Rester trop haut - votre poitrine doit être reliée à son dos tout au long",
+    "Ne pas avancer assez rapidement vers back control après l'effondrement"
+  ],
+  "coachingCues": [
+    "Poussez la cuisse, tirez l'épaule",
+    "Directions opposées, créez la spirale",
+    "Restez connecté malgré l’effondrement",
+    "Spirale puis retour en arrière"
+  ],
+  "safetySummary": [
+    "N'appliquez pas de couple de rotation agressif sur l'articulation de la hanche : la poussée sur la cuisse est un contrôle, pas une soumission.",
+    "Si l'adversaire tombe maladroitement, relâchez immédiatement la pression et vérifiez sa position.",
+    "Le trajet en spirale doit être appliqué avec une pression contrôlée et constante, sans torsion explosive."
+  ],
+  "systemLogic": {
+    "corePrinciple": "Le trajet en spirale comporte trois phases : Établir le contact → Appliquer la rotation → Revenir en arrière",
+    "decisionTree": [
+      {
+        "condition": "En phase 1 (établir le contact)",
+        "action": "placez-vous à côté de la tortue (perpendiculairement). Placez votre main la plus proche sur la cuisse opposée (paume à plat, doigts pointés vers la hanche). Placez votre main éloignée sur son épaule proche (paume sur son omoplate)"
+      },
+      {
+        "condition": "En phase 2 (appliquer la rotation)",
+        "action": "éloignez la cuisse la plus éloignée de vous tout en tirant l’épaule la plus proche vers vous. Ces forces opposées créent une spirale qui effondre leur base. Maintenir un contact thoracique sur le dos tout au long"
+      },
+      {
+        "condition": "En phase 3 (retour en arrière)",
+        "action": "lorsqu'ils s'effondrent sur le côté ou sur la hanche, relâchez la prise en spirale et remplacez-la par un seatbelt. Faites glisser votre genou le plus proche dans la ligne de ses hanches et fixez back control"
+      },
+      {
+        "condition": "la spirale échoue (ils restent en équilibre)",
+        "action": "passer au mode demi-puissance - le mode demi-puissance fonctionne lorsque la spirale ne fonctionne pas"
+      }
+    ],
+    "exitStrategies": []
+  },
+  "moneyDetails": [
+    "Le tour en spirale est le deuxième composant du système de lutte contre la tortue (associé à la moitié de puissance) – avoir les deux vous donne une boîte à outils complète.",
+    "La spirale est particulièrement efficace contre des adversaires flexibles qui peuvent résister au power half ride",
+    "Maîtriser le tour en spirale vous offre une pause tortue fiable qui fonctionne à tous les niveaux de lutte"
+  ],
+  "fixItFast": [
+    "S’ils ne s’effondrent pas : passez au power half ride – il utilise un système de levier différent",
+    "S'ils roulent vers vous : prenez immédiatement le dos - la spirale expose le dos des deux côtés",
+    "S’il s’assoit : enfoncez votre buste dans son dos et recommencez la spirale depuis le début"
+  ]
+}

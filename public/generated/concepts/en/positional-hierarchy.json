@@ -1,0 +1,65 @@
+{
+  "id": "positional-hierarchy",
+  "locale": "en",
+  "title": "Positional Hierarchy",
+  "category": "positional",
+  "level": "fundamental",
+  "tags": [
+    "map",
+    "risk",
+    "decision-making"
+  ],
+  "shortDefinition": "A priority map showing which positions increase control, reduce risk, and open submissions.",
+  "whyItMatters": "Without hierarchy, practitioners attack at the wrong time and skip survival, escape, or pinning.",
+  "deepExplanation": "Hierarchy is not just a scoring list; it is a way to read risk. In bad positions, the goal is survival and structure. From top or pins, the goal is stabilization before finishing.",
+  "beginnerView": "Learn which positions are dangerous and which are safer.",
+  "advancedView": "Use hierarchy to decide when to reset, chain, or accept risk for score or submission.",
+  "ifThenExamples": [
+    {
+      "if": "If you lose Positional Hierarchy during the exchange.",
+      "then": "Stop accelerating, recover the nearest body structure, then continue the technique.",
+      "why": "Modern no-gi punishes forceful continuation after structure is lost.",
+      "relatedSkillIds": [
+        "side-control-survival",
+        "mount-control"
+      ]
+    },
+    {
+      "if": "If the opponent correctly answers your first line.",
+      "then": "Use Positional Hierarchy to switch to a safer branch instead of forcing the same line.",
+      "why": "A good concept turns the opponent’s reaction into information for the next decision.",
+      "relatedSkillIds": [
+        "mount-control",
+        "back-control",
+        "mount-escape"
+      ]
+    }
+  ],
+  "commonMisunderstandings": [
+    {
+      "misunderstanding": "Positional Hierarchy is a single technical trick.",
+      "correction": "Treat it as a decision rule that appears across many positions."
+    },
+    {
+      "misunderstanding": "Understanding the concept automatically makes it work live.",
+      "correction": "The concept needs body signals, short cues, and positional rolling."
+    }
+  ],
+  "trainingCues": [
+    "Name Positional Hierarchy before adding force.",
+    "Find the body signal instead of guessing generally.",
+    "If structure is lost, reset one layer first.",
+    "Drill slowly, then test with progressive resistance."
+  ],
+  "relatedSkillIds": [
+    "side-control-survival",
+    "mount-control",
+    "back-control",
+    "mount-escape"
+  ],
+  "relatedConceptIds": [
+    "control-before-submission",
+    "failure-response",
+    "base-balance"
+  ]
+}

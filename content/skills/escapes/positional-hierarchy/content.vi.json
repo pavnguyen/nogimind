@@ -1,0 +1,72 @@
+{
+  "id": "positional-hierarchy",
+  "locale": "vi",
+  "name": "Hệ thống phân cấp vị trí",
+  "description": "Bản đồ ưu tiên để biết khi nào nên sống sót, trốn thoát, quét, vượt qua, ghim hoặc về đích. Hệ thống phân cấp vị trí là khung ra quyết định giúp tách biệt sự vật lộn hỗn loạn khỏi BJJ có hệ thống.",
+  "shortInstruction": "Xếp hạng từ tệ nhất đến tốt nhất: chụp lưng → mounted → side control → đầu gối lên bụng → guard dưới → half guard trên cùng → side control trên cùng → mount → quay lại (bạn ở trên cùng). Luôn biết bạn đang ở đâu trên hệ thống phân cấp và mục tiêu của bạn là gì.",
+  "summary": "Hệ thống phân cấp vị trí xếp hạng các vị trí vật lộn từ dễ bị tổn thương nhất đến chiếm ưu thế nhất. Hệ thống đưa ra mục tiêu chiến thuật của bạn ở mọi vị trí: nếu bạn ở vị trí cuối bảng (tệ hơn), mục tiêu của bạn là trốn thoát. Nếu bạn đang ở vị trí hàng đầu (tốt hơn), mục tiêu của bạn là tiến lên hoặc khuất phục. Mọi quyết định bạn đưa ra phải được lọc qua hệ thống phân cấp này - đừng cố gắng đệ trình từ vị trí mà trước tiên bạn không có ưu thế về vị trí.",
+  "whyItWorks": [
+    "Hệ thống phân cấp cung cấp cho bạn mục tiêu rõ ràng tại mọi thời điểm - không có sự nhầm lẫn về việc cần làm tiếp theo",
+    "Việc cố gắng đệ trình từ các vị trí kém hơn trước các đối thủ có kỹ năng sẽ thất bại với tỷ lệ cao - hệ thống phân cấp cho bạn biết khi nào việc đệ trình là khả thi và khi nào nên ưu tiên trốn thoát",
+    "Hiểu được hệ thống phân cấp sẽ giúp bạn không lãng phí năng lượng vào các kỹ thuật có tỷ lệ phần trăm thấp từ các vị trí xấu",
+    "Hệ thống phân cấp phổ biến trong tất cả các môn thể thao vật lộn (BJJ, đấu vật, judo, MMA) — đó là ngôn ngữ chung của kiểm soát vị trí"
+  ],
+  "commonMistakes": [
+    "Cố gắng gửi từ guard dưới cùng khi bạn nên quét hoặc thoát trước",
+    "Cố gắng vượt qua guard khi bạn ở vị trí cuối cùng half guard — mục tiêu của bạn ở vị trí cuối cùng half guard là thoát về vị trí trung lập hoặc guard chứ không phải để vượt qua",
+    "Chấp nhận vị trí kém hơn vì bạn đang thử gửi tỷ lệ phần trăm thấp (ví dụ: từ bỏ mount để thử kimura từ dưới lên)",
+    "Không nhận ra khi nào hệ thống phân cấp thay đổi - một quá trình chuyển đổi đưa bạn lên một cấp có giá trị hơn một nỗ lực gửi có thể sẽ thất bại"
+  ],
+  "coachingCues": [
+    "Biết vị trí của bạn, biết mục tiêu của bạn",
+    "Dưới = thoát, Trên = tiến",
+    "Đừng đuổi theo những bài nộp từ những vị trí xấu",
+    "Tăng một cấp luôn là một chiến thắng"
+  ],
+  "safetySummary": [
+    "Đừng hy sinh vị trí để có tỷ lệ phục tùng thấp - việc đảo ngược vị trí có thể gây thương tích khi cả hai người vật lộn để giành quyền kiểm soát",
+    "Chấp nhận một vị trí tồi tệ hơn (ví dụ: từ bỏ side control) để cố gắng phục tùng sẽ có nguy cơ bị thương cao hơn so với giá trị trong quá trình luyện tập",
+    "Khi bạn đang ở một vị trí yếu kém rõ ràng, hãy ưu tiên thở và sống sót trước khi cố gắng trốn thoát - những cử động hoảng loạn sẽ làm tăng nguy cơ chấn thương"
+  ],
+  "systemLogic": {
+    "corePrinciple": "Hệ thống phân cấp vị trí xếp hạng các vị trí vật lộn từ dễ bị tổn thương nhất (bị lấy lại) đến chiếm ưu thế nhất (phục tùng). Mục tiêu chiến thuật của bạn ở mọi vị trí được xác định bởi vị trí của bạn trong hệ thống phân cấp: dưới đối thủ = thoát lên, trên đối thủ = tiến về phía trước.",
+    "decisionTree": [
+      {
+        "condition": "Bạn đang ở dưới cùng side control, mount hoặc bị quay lại",
+        "action": "Mục tiêu của bạn là THOÁT lên hệ thống phân cấp. Đừng cố gắng gửi từ các vị trí này — hãy tập trung vào việc lấy lại guard hoặc đảo ngược vị trí."
+      },
+      {
+        "condition": "Bạn đang ở cuối guard hoặc half guard",
+        "action": "Mục tiêu chính của bạn là quét hoặc thoát đến vị trí trung lập/trên cùng. Tỷ lệ gửi bài thấp hơn từ đây - ưu tiên thăng tiến vị trí trước."
+      },
+      {
+        "condition": "Bạn có vị trí hàng đầu (side control, mount, trở lại)",
+        "action": "Mục tiêu của bạn là TIẾN LÊN lên vị trí thống trị hơn hoặc phục tùng. Ổn định vị trí trước khi tấn công - đừng vội khuất phục."
+      },
+      {
+        "condition": "Bạn tiếp tục mất vị trí trong khi cố gắng gửi",
+        "action": "Bạn đang bỏ qua các cấp độ trên hệ thống phân cấp. Quay trở lại việc đảm bảo vị trí thống trị trước khi tấn công. Lên một cấp luôn là một chiến thắng."
+      },
+      {
+        "condition": "Bạn tiếp tục bị mắc kẹt ở một cấp độ phân cấp",
+        "action": "Bạn đang thiếu các kỹ thuật thoát hoặc chuyển tiếp cho cấp độ cụ thể đó. Thực hiện 1-2 lần chuyển đổi có tỷ lệ phần trăm cao từ vị trí bị mắc kẹt phổ biến nhất của bạn."
+      }
+    ],
+    "exitStrategies": [
+      "Thăng tiến một cấp độ (ví dụ: side control Dưới cùng → half guard Dưới cùng) là một chiến thắng về mặt chiến thuật ngay cả khi không ghi được điểm — nhiều tiến bộ nhỏ sẽ gộp lại thành các vị trí ghi điểm.",
+      "Nếu đối thủ hoạt động bên ngoài hệ thống phân cấp truyền thống (chuyên gia khóa chân, người kéo guard), hãy nhận ra họ đang chơi một trò chơi khác và điều chỉnh chiến lược của bạn cho phù hợp.",
+      "Sau khi thăng cấp, hãy dành 2-3 giây để ổn định trước khi chuyển sang cấp độ tiếp theo để tránh bị đảo ngược."
+    ]
+  },
+  "moneyDetails": [
+    "Hệ thống phân cấp vị trí là khung khái niệm quan trọng nhất trong BJJ — nó cho bạn biết phải làm gì vào mọi thời điểm của trận đấu",
+    "Cuộc thi BJJ giành chiến thắng bằng cách thăng cấp nhanh hơn và nhất quán hơn đối thủ",
+    "Việc hiểu hệ thống phân cấp sẽ tránh được lỗi phổ biến nhất trong BJJ: cố gắng gửi trước khi thiết lập quyền kiểm soát vị trí",
+    "Hệ thống phân cấp là lý do tại sao Gracie jiu-jitsu nhấn mạnh đến ưu thế về vị trí trước khi phục tùng - nó đã được thử nghiệm trong một thế kỷ"
+  ],
+  "fixItFast": [
+    "Nếu bạn đang ở tình thế tồi tệ và không biết phải làm gì: hãy kiểm tra thứ bậc. Bạn đang ở vị trí cuối cùng side control — mục tiêu của bạn là side control trốn thoát chứ không phải khuất phục",
+    "Nếu bạn có vị trí cao nhất và không thể gửi: hãy thăng cấp theo cấp bậc. side control → mount → quay lại mount tạo ra xác suất gửi cao hơn theo cấp số nhân",
+    "Nếu bạn tiếp tục bị đảo ngược: bạn đang bỏ qua bước 'vị trí an toàn'. Sau khi thăng cấp, hãy dành 2-3 giây để ổn định trước khi chuyển sang cấp độ tiếp theo"
+  ]
+}

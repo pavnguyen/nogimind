@@ -1,0 +1,126 @@
+{
+  "id": "wrestling-up-from-guard",
+  "domain": "wrestle_up_wrestling",
+  "level": "intermediate",
+  "status": "draft",
+  "name": "Đấu tranh từ guard",
+  "aliases": [],
+  "tags": [
+    "wrestle-up",
+    "guard",
+    "standing",
+    "single-leg"
+  ],
+  "keywords": [
+    "wrestle up",
+    "shin-to-shin",
+    "2-on-1",
+    "underhook",
+    "head position",
+    "single leg"
+  ],
+  "relatedSkills": [
+    {
+      "id": "single-leg-bjj",
+      "type": "recommended"
+    },
+    {
+      "id": "snapdown-front-headlock",
+      "type": "recommended"
+    },
+    {
+      "id": "half-guard-wrestle-up",
+      "type": "recommended"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "seated-guard-retention",
+    "hand-fighting",
+    "technical-stand-up"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [
+    "Nếu họ sprawl trong cuộc đấu vật: hãy quay lại guard và thử một mục khác (shin-to-shin hoặc 2 đấu 1)",
+    "Nếu họ guillotine bạn: đầu bạn quá cao — hãy giữ trán bạn sát vào ngực hoặc hàm của họ khi bạn đứng",
+    "Nếu bạn không thể tìm thấy chân: họ đã đăng lại — hãy chuyển sang front headlock bằng cách sử dụng tay cầm underhook của bạn"
+  ],
+  "version": 1,
+  "updatedAt": "2026-05-21T00:24:30.764Z",
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "vi",
+  "description": "wrestle up từ tư thế ngồi hoặc bướm guard sử dụng ống chân tới ống chân, 2 chọi 1 hoặc underhook để chuyển sang một chân hoặc front headlock. Đấu vật là bước chuyển tiếp tấn công chính từ guard — nó chuyển vị trí cuối bảng thành cơ hội hạ gục.",
+  "shortInstruction": "Từ chỗ ngồi guard, giành chiến thắng underhook hoặc 2 đấu 1, tạo góc hông, đặt chân ngoài của bạn và lái sang một chặng. Nếu một chặng bị chặn, hãy chuyển sang front headlock hoặc quay lại.",
+  "summary": "Đấu vật từ guard biến guard từ thế phòng thủ thành một đòn tấn công hạ gục. Trình tự này sử dụng underhook, shin-to-shin hoặc 2 chọi 1 để kiểm soát phần thân trên của đối thủ khi bạn đứng. Từ tư thế đứng, bạn kết thúc bằng một chân, khóa cơ thể hoặc front headlock. Đấu vật là cốt lõi của hệ thống No-Gi guard hiện đại — mỗi người chơi guard đang ngồi phải có một kỹ thuật vật đáng tin cậy để ngăn đối thủ đứng và vượt qua.",
+  "whyItWorks": [
+    "Đấu vật trừng phạt đối thủ vì đã đứng trong guard của bạn - nếu họ đứng, bạn sẽ theo kịp họ",
+    "underhook và 2 trên 1 giúp bạn kiểm soát phần thân trên để ngăn chúng sprawl lao vào hoặc giao nhau",
+    "Mục tiêu Shin-to-shin ngăn đối thủ lùi lại khi bạn đứng - ống chân của bạn chặn chân họ",
+    "Cuộc vật lộn tạo ra một tình thế tiến thoái lưỡng nan cho người vượt qua: họ phải giao tranh (và có nguy cơ bị quét) hoặc rút lui (và từ bỏ nỗ lực vượt qua)"
+  ],
+  "commonMistakes": [
+    "Cố gắng wrestle up mà không kiểm soát phần thân trên — họ sẽ sprawl và đè bẹp bạn",
+    "Đứng thẳng thay vì cúi thấp — một giá đỡ cao để lộ một chân và guillotine",
+    "Không tạo góc hông trước khi đứng — đứng thẳng về phía họ sẽ giúp họ có một góc sprawl dễ dàng",
+    "Từ bỏ cuộc đấu vật quá sớm - hãy giữ vững lập trường nếu không bạn sẽ bị mắc kẹt ở thế bị tổn hại"
+  ],
+  "coachingCues": [
+    "Nắm trước, đứng sau",
+    "Tạo góc trước khi đứng",
+    "Ở thấp, lái xe đến chân",
+    "Cam kết hoặc không bắt đầu"
+  ],
+  "safetySummary": [
+    "Không đứng thẳng lưng — điều này làm lộ guillotine và làm lộ underhook",
+    "Nếu đối thủ sprawl khi bạn đứng, hãy lùi lại guard thay vì chiến đấu với sprawl",
+    "Cẩn thận bị căng đầu gối khi đăng bài từ chỗ ngồi guard — khởi động đúng cách"
+  ],
+  "systemLogic": {
+    "corePrinciple": "Cuộc đấu tranh từ guard có ba hệ thống nhập cảnh: underhook Mục nhập → Mục nhập Shin-to-Shin → Mục nhập 2 chọi 1",
+    "decisionTree": [
+      {
+        "condition": "Sử dụng Mục 1 (underhook)",
+        "action": "từ chỗ ngồi guard, đập mạnh vào underhook ở một bên. Mặt khác của bạn trụ trên tấm thảm. Khi bạn đứng, underhook ngăn họ sprawl rơi xuống. Kết thúc bằng đòn khóa một chân hoặc khóa thân"
+      },
+      {
+        "condition": "Sử dụng Mục 2 (Shin-to-Shin)",
+        "action": "nhập shin-to-shin guard bằng cách đặt ống chân của bạn ngang qua ống chân gần của họ. Khi bạn đứng, ống chân sẽ chặn chân họ lùi lại. Đứng lên bằng một chân ở cùng một phía"
+      },
+      {
+        "condition": "Sử dụng Mục 3 (2 trên 1)",
+        "action": "đặt cả hai tay lên một cánh tay (cổ tay và khuỷu tay). Kéo cánh tay ngang cơ thể khi bạn đứng. Chế độ 2 chọi 1 vô hiệu hóa khả năng đăng bài của họ hoặc sprawl. Kết thúc bằng cách vòng ra phía sau hoặc tấn công bằng một chân"
+      },
+      {
+        "condition": "Ứng dụng chung",
+        "action": "mỗi lần vào đều dẫn đến kết quả giống nhau: một chân, khóa thân, front headlock hoặc lùi"
+      }
+    ],
+    "exitStrategies": []
+  },
+  "moneyDetails": [
+    "Đấu vật là kỹ năng tấn công quan trọng nhất trong No-Gi guard hiện đại — nếu không có nó, guard của bạn chỉ mang tính phòng thủ",
+    "Việc thành thạo các kỹ thuật đấu vật mang lại cho bạn khả năng ghi điểm hạ gục từ guard, biến đổi toàn bộ trò chơi cuối cùng của bạn",
+    "Đấu vật là thành phần cốt lõi của tất cả các hệ thống No-Gi guard cấp cao (Dewey, Meregali, Ruotolos)"
+  ],
+  "fixItFast": [
+    "Nếu họ đứng và thả lỏng: hãy đứng lên hoàn toàn và bắt đầu lại từ vị trí trung lập - đừng ngồi yên",
+    "Nếu họ dồn sức về phía trước: hãy sử dụng đà của họ - cố gắng để họ tiến về phía trước",
+    "Nếu họ vòng tròn để vượt qua: vòng tròn với họ và duy trì underhook hoặc 2 đấu 1"
+  ]
+}

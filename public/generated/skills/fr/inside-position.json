@@ -1,0 +1,124 @@
+{
+  "id": "inside-position",
+  "domain": "positional_awareness",
+  "level": "beginner",
+  "status": "draft",
+  "name": "Position intérieure",
+  "aliases": [],
+  "tags": [
+    "mechanics",
+    "pummeling"
+  ],
+  "keywords": [
+    "inside position",
+    "pummel",
+    "underhook",
+    "knee elbow connection"
+  ],
+  "relatedSkills": [
+    {
+      "id": "frames-pummeling",
+      "type": "recommended"
+    },
+    {
+      "id": "seated-guard-retention",
+      "type": "recommended"
+    },
+    {
+      "id": "hand-fighting",
+      "type": "recommended"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "positional-hierarchy"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [],
+  "version": 1,
+  "updatedAt": "2026-05-21T00:24:30.756Z",
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "fr",
+  "description": "La capacité de placer les mains, la tête, les genoux ou les hanches sur la voie intérieure pour gagner des courses de contrôle. La position intérieure est le fondement de tout contrôle de lutte – celui qui contrôle l’inside controls l’engagement.",
+  "shortInstruction": "Frappez leurs mains, leurs genoux et leurs coudes jusqu'à la ligne intérieure. Votre membre intérieur contrôle son axe central. Ne concédez jamais une position intérieure sans frapper à nouveau.",
+  "summary": "La position intérieure est le contrôle de l’espace entre votre corps et la ligne médiane de l’adversaire. À partir de là, toutes les soumissions, balayages, passes et épingles sont générés. La position intérieure existe à quatre niveaux : main à l'intérieur (frappe pour le contrôle du poignet/coude), genou à l'intérieur (frappe pour guard/half guard), hanche à l'intérieur (position intérieure pour passer/balayer) et tête à l'intérieur (contrôle de la tête pour les retraits/pauses de tortue). La perte de position intérieure à n’importe quel niveau se répercute vers le haut – perdre le genou à l’intérieur entraîne la perte de la hanche à l’intérieur.",
+  "whyItWorks": [
+    "La position intérieure vous donne un effet de levier mécanique : votre membre est entre son membre et son centre, vous permettant de contrôler la direction de son mouvement.",
+    "La main/bras intérieur peut attaquer les soumissions, contrôler la posture et bloquer leurs tentatives à partir d'un chemin mécanique plus court et plus fort.",
+    "La position intérieure du genou (genou entre les jambes) est la condition préalable à chaque entrée guard, balayage et attaque de verrouillage des jambes.",
+    "L'adversaire ne peut pas attaquer efficacement depuis l'extérieur - il doit d'abord revenir à l'intérieur, ce qui vous laisse le temps de lire et de contrer."
+  ],
+  "commonMistakes": [
+    "Se battre depuis l'extérieur (tendre la main, saisir les membres) plutôt que de frapper à l'intérieur",
+    "Concéder une position intérieure pour poursuivre une soumission – terminer depuis une position extérieure est un pourcentage beaucoup plus faible",
+    "Frapper uniquement le haut du corps en négligeant le bas du corps (position du genou à l'intérieur)",
+    "Laisser l'adversaire établir d'abord sa position intérieure, puis essayer de s'en sortir avec la force plutôt que la technique."
+  ],
+  "coachingCues": [
+    "L'intérieur bat l'extérieur, toujours",
+    "Frappez en arrière, ne tendez pas la main",
+    "Genou à l'intérieur, coude à l'intérieur, tête à l'intérieur",
+    "Gagnez d'abord la voie intérieure"
+  ],
+  "safetySummary": [
+    "N'essayez pas de forcer votre bras à l'intérieur si l'adversaire l'écrase activement contre son corps – cela peut provoquer une tension au niveau du coude ou de l'épaule.",
+    "Les exercices de frappe doivent être effectués à vitesse contrôlée – des mouvements de frappe soudains pendant le combat peuvent provoquer un contact accidentel avec les doigts ou les yeux.",
+    "Si vous sentez que votre articulation est hyper-étendue lorsque vous frappez pour obtenir une position intérieure, concédez et frappez à nouveau sous un meilleur angle."
+  ],
+  "systemLogic": {
+    "corePrinciple": "La position intérieure fonctionne à quatre niveaux connectés – Main à l'intérieur → Genou à l'intérieur → Hip à l'intérieur → Tête à l'intérieur – et gagner à n'importe quel niveau vous donne un contrôle mécanique de la ligne médiane de l'adversaire. Si vous perdez un niveau, ripostez plutôt que de vous battre de l'extérieur.",
+    "decisionTree": [
+      {
+        "condition": "L'adversaire a la position de la main intérieure (sa main entre votre bras et votre corps)",
+        "action": "Entourez votre coude autour du leur pour revenir à l’intérieur. Ne tendez pas la main et ne saisissez pas de l’extérieur – la main intérieure gagne toujours le combat de préhension."
+      },
+      {
+        "condition": "L'adversaire ferme son guard (refusant le genou à l'intérieur)",
+        "action": "Levez-vous, dégagez le genou et réengagez d’abord le genou intérieur. Ne forcez pas votre genou à passer un closed guard."
+      },
+      {
+        "condition": "Vous avez une position intérieure mais vous la perdez immédiatement",
+        "action": "Vous n’avez pas ancré le membre intérieur – une fois à l’intérieur, évasez le membre vers l’extérieur (coude ou genou) pour l’empêcher de frapper en arrière."
+      },
+      {
+        "condition": "L'adversaire a la tête à l'intérieur (du front jusqu'à la mâchoire)",
+        "action": "Tournez la tête, cadrez-vous sur leurs biceps et rétablissez la position de la tête avant de poursuivre l'engagement."
+      },
+      {
+        "condition": "Vous ne pouvez pas accéder directement à la position intérieure",
+        "action": "Créez un angle en déplaçant vos hanches de 10 à 30 degrés avant de frapper. Les coups directs sont bloqués plus facilement."
+      }
+    ],
+    "exitStrategies": [
+      "Si vous perdez le combat de main intérieure, passez au contrôle à deux contre un (les deux mains sur l'un de leurs bras) pour neutraliser leur avantage de main intérieure.",
+      "Si l'adversaire domine la position intérieure à tous les niveaux, créez le chaos par des brouillages et des transitions pour trouver une ouverture.",
+      "Si la position intérieure ne peut pas être retrouvée, acceptez temporairement la position extérieure et utilisez les cadres pour réinitialiser l'engagement."
+    ]
+  },
+  "moneyDetails": [
+    "La position intérieure est le concept le plus important du grappling : elle sous-tend chaque technique de BJJ.",
+    "Gagner la bataille en position intérieure est l'objectif principal des 30 premières secondes de chaque lancer",
+    "Les grapplers avancés ne vous « laissent » pas entrer en position intérieure – ils contrôlent si étroitement l’intérieur que vous devez créer le chaos (brouillage, transition) pour trouver une ouverture."
+  ],
+  "fixItFast": [
+    "Si vous continuez à perdre le combat de main intérieure : passez au contrôle à deux contre un (les deux mains sur l'un de leurs bras) pour neutraliser leur avantage de main intérieure.",
+    "S'il a le genou intérieur et que vous ne parvenez pas à obtenir guard : levez-vous, dégagez le genou et réengagez d'abord le genou intérieur.",
+    "S'il a la tête à l'intérieur (du front jusqu'à la mâchoire) : détournez la tête, reposez-vous sur ses biceps et rétablissez la position de la tête avant de continuer."
+  ]
+}

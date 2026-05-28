@@ -1,0 +1,65 @@
+{
+  "id": "single-leg-x-basics",
+  "locale": "vi",
+  "name": "single leg x Thông tin cơ bản",
+  "description": "Kiểm soát đường hông và đầu gối của đối phương từ một chân X (SLX) để quét, đứng lên hoặc vào ashi garami (vướng chân một cách an toàn).",
+  "shortInstruction": "Một chân đặt giữa các chân của họ, một chân đặt trên hông — SLX cho phép bạn kiểm soát một chân và toàn bộ phần đế của họ.",
+  "summary": "Một chân X (SLX) là vị trí điều khiển một chân cơ bản của No-Gi hiện đại. Bạn bẫy một trong hai chân của họ bằng chân của chính bạn (giữa đùi và bắp chân của bạn), trong khi bàn chân còn lại của bạn đặt trên hông đối diện của họ. Điều này cho phép bạn kiểm soát toàn bộ phần đế của chúng chỉ bằng một chân - khi bạn kéo chân đó, toàn bộ cơ thể của chúng sẽ theo sau. SLX là điểm bắt đầu cho các pha quét (quét SLX cổ điển), vướng chân (enter ashi garami) và đứng lên (wrestle up).",
+  "whyItWorks": [
+    "Việc điều khiển một chân bằng cả hai chân mang lại cho bạn lợi thế cơ học 2 chọi 1 trên chi đó.",
+    "Bàn chân đặt trên hông kiểm soát khoảng cách của họ và ngăn họ lùi lại.",
+    "Bất kỳ chuyển động nào chúng thực hiện bằng chân còn lại đều thay đổi cơ sở của chúng - bạn có thể đọc và phản ứng.",
+    "Nguyên tắc Danaher: kiểm soát một chân, kiểm soát nửa cơ thể — SLX là tư thế kiểm soát chân hiệu quả nhất."
+  ],
+  "commonMistakes": [
+    "Để chân bị kẹt trượt ra khỏi khóa SLX của bạn - giữ đầu gối của bạn ép vào ngực của chính bạn.",
+    "Để chân hông của bạn trượt khỏi hông của họ - trụ hông giúp bạn kiểm soát khoảng cách.",
+    "Ngồi quá xa chân họ - hông của bạn càng gần chân họ thì bạn càng có nhiều quyền kiểm soát.",
+    "Hãy bỏ cuộc khi họ bước qua SLX của bạn — hãy bình tĩnh và chuyển sang guard khác."
+  ],
+  "coachingCues": [
+    "Một chân ở giữa, một chân đặt trên hông — SLX là hai chân cùng hoạt động.",
+    "Kéo chân về phía ngực chứ không phải chạm sàn.",
+    "Đặt chân lên hông - không bao giờ để nó rơi xuống.",
+    "Thu hẹp khoảng cách - bạn càng ở gần, họ càng ít di chuyển."
+  ],
+  "safetySummary": [
+    "Giữ đầu gối của chân bị mắc kẹt được bảo vệ - đừng để họ vặn đầu gối của bạn bằng cách xoay chân bị mắc kẹt của họ.",
+    "Khi bước vào SLX, hãy giữ chân bạn ở bên ngoài chân của họ để tránh bị phạt.",
+    "Nếu họ xếp chồng lên nhau, hãy giải phóng SLX và đặt lại — đừng đấu tranh với ngăn xếp bằng SLX bị khóa."
+  ],
+  "keyCorrections": [
+    "Nếu họ bước ra khỏi SLX, chân hông của bạn sẽ mất vị trí — đặt lại chân lên hông họ.",
+    "Nếu bạn không thể quét chúng, góc của bạn đã sai - hãy xoay hông về phía chân bị mắc kẹt nhiều hơn.",
+    "Nếu họ đè bẹp bạn thì hông của bạn ở quá xa họ - hãy kéo hông của bạn lại gần chân họ."
+  ],
+  "systemLogic": {
+    "corePrinciple": "Vào SLX (một chân kẹt, một chân đặt trên hông) → kéo chân bị kẹt về phía ngực → mất thăng bằng → quét, đứng lên hoặc vướng vào chân.",
+    "decisionTree": [
+      {
+        "condition": "Lựa chọn 1: Họ đứng cao",
+        "action": "kéo chân và quét chúng về phía sau."
+      },
+      {
+        "condition": "Lựa chọn 2: Họ ngồi lại",
+        "action": "nhập vướng chân (ashi garami)."
+      },
+      {
+        "condition": "Lựa chọn 3: Họ đăng bài",
+        "action": "hỗ trợ kỹ thuật → wrestle up."
+      }
+    ]
+  },
+  "moneyDetails": [
+    "Chân bị mắc kẹt của bạn phải được khóa bằng đầu gối ép về phía ngực - mắt cá chân phải ở gần hông của bạn.",
+    "Bàn chân đặt trên hông của họ phải đặt trên xương hông (ASIS), không phải trên bụng hoặc đùi - kiểm soát xương hông = kiểm soát khoảng cách.",
+    "Giữ trọng lượng của bạn ở vai xa chứ không phải ở giữa - điều này giúp bạn có góc để kéo và quét.",
+    "Động tác quét SLX là: kéo chân bị mắc kẹt vào ngực trong khi đẩy bằng chân hông - các lực tổng hợp sẽ phá vỡ đế của chúng."
+  ],
+  "nextStep": "Sau điều khiển SLX cơ bản, hãy tìm hiểu thao tác quét SLX nâng cao và quá trình chuyển đổi SLX-to-ashi-garami.",
+  "fixItFast": [
+    "Họ bước ra ngoài? Đăng lại chân của bạn trên hông của họ ngay lập tức.",
+    "Quét không hoạt động? Kéo chân mạnh hơn về phía ngực - không phải xuống mà về phía bạn.",
+    "Họ san phẳng bạn? Ngồi trên khuỷu tay xa của bạn và đưa hông của bạn đến gần họ hơn."
+  ]
+}

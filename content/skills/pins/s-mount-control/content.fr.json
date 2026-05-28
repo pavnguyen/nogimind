@@ -1,0 +1,71 @@
+{
+  "id": "s-mount-control",
+  "locale": "fr",
+  "name": "s-mount Contrôle",
+  "description": "s-mount isole la ligne d'épaule pour les menaces armbar, back take ou triangle. Il s'agit de la position mount la plus offensive : à partir de là, l'adversaire doit défendre simultanément plusieurs menaces de soumission.",
+  "shortInstruction": "À partir de mount, faites glisser un genou jusqu'à son aisselle et faites pivoter vos hanches vers sa tête. Coincez le bras le plus proche entre votre cuisse et sa tête. Attaquez armbar, triangle ou reprenez-le.",
+  "summary": "s-mount est créé en faisant glisser un genou vers l'aisselle de l'adversaire tout en tournant légèrement votre poitrine vers sa tête. Cela positionne vos hanches sur la ligne des épaules, isolant un bras et créant un dilemme entre armbar, triangle et la prise arrière. s-mount est l'épingle de valeur la plus élevée car elle menace directement les soumissions sans nécessiter de transitions supplémentaires.",
+  "whyItWorks": [
+    "La position du genou s-mount (un genou à l'aisselle, un genou à la hanche) crée un coin structurel qui isole l'épaule proche.",
+    "La rotation de vos hanches vers leur tête emprisonne leur bras le plus proche entre votre cuisse et leur tête – c'est la position d'entrée armbar",
+    "À partir de s-mount, vous menacez armbar, triangle (en utilisant votre jambe libre au-dessus de leur tête) et vous revenez en arrière, créant ainsi un dilemme à trois.",
+    "L'adversaire ne peut pas efficacement combler ou s'échapper car votre poids est réparti sur sa ligne d'épaules et non sur ses hanches."
+  ],
+  "commonMistakes": [
+    "Ne pas faire pivoter suffisamment les hanches : une rotation partielle laisse de la place à l'adversaire pour échapper au armbar",
+    "Permettre à l'adversaire de libérer son bras coincé – cela tue le s-mount et revient au mount standard",
+    "Assis trop haut : le genou s-mount doit être au niveau de l'aisselle et non du cou.",
+    "Perdre complètement la position mount en essayant d'entrer s-mount — la transition doit être contrôlée"
+  ],
+  "coachingCues": [
+    "Du genou à l'aisselle, pas au cou",
+    "Faites pivoter les hanches vers la tête",
+    "Piège le bras, menace le armbar",
+    "armbar, triangle ou retour – choisissez-en deux"
+  ],
+  "safetySummary": [
+    "Le armbar de s-mount peut rapidement hyperétendre le coude s'il est appliqué avec un élan - appliquez une pression lente et contrôlée",
+    "Lorsque vous utilisez le triangle à partir du s-mount, ne tirez pas la tête de manière agressive, car cela pourrait fatiguer le cou.",
+    "Si l'adversaire se détourne pour échapper à s-mount, il expose son dos - prenez-le, mais ne poursuivez pas les soumissions sous un mauvais angle."
+  ],
+  "keyCorrections": [
+    "Si l'adversaire libère le bras coincé : faites pivoter vos hanches vers le centre et entrez à nouveau s-mount avec une position de genou plus profonde.",
+    "Si vous ne parvenez pas à placer le genou s-mount suffisamment haut : vous êtes assis trop loin – rapprochez-vous de sa tête avant de faire glisser le genou vers le haut.",
+    "Si l'adversaire vous fait un pont pendant l'entrée de s-mount : affichez votre pied libre large et rétablissez le bas mount avant de réessayer."
+  ],
+  "systemLogic": {
+    "corePrinciple": "s-mount est structuré comme un système de dilemme : armbar : triangle → Back Take, chaque menace menant à la suivante",
+    "decisionTree": [
+      {
+        "condition": "Utilisation de la menace 1 (armbar)",
+        "action": "à partir du s-mount, votre cuisse emprisonne son bras proche. Pour attaquer le armbar, soulevez légèrement vos hanches et laissez-vous tomber vers l'arrière, en passant leur bras sur votre corps. Gardez leur pouce pointé vers le haut"
+      },
+      {
+        "condition": "Utilisation de la menace 2 (triangle)",
+        "action": "s'il défend le armbar en tirant le bras vers l'arrière, amenez votre jambe libre au-dessus de sa tête et verrouillez le triangle. Votre genou s-mount reste en place comme base du triangle"
+      },
+      {
+        "condition": "Utilisation de la menace 3 (prise en arrière)",
+        "action": "s'ils se détournent pour échapper au armbar ou au triangle, maintenez le contact avec la hanche et prenez le dos. La rotation s-mount passe naturellement à back control lorsqu'ils tournent"
+      },
+      {
+        "condition": "Technique d'entrée",
+        "action": "à partir du bas mount, glissez votre main dominante sous sa tête. Soulevez votre genou proche et faites-le glisser jusqu'à son aisselle. Faites pivoter vos hanches de 45 degrés vers leur tête. Votre tibia devrait être sur leur poitrine"
+      },
+      {
+        "condition": "s-mount échoue (ils s'échappent)",
+        "action": "revenir immédiatement au niveau bas mount plutôt que de lutter pour rétablir s-mount à partir d'une position compromise"
+      }
+    ]
+  },
+  "moneyDetails": [
+    "s-mount est le pin le plus offensif de BJJ — à partir de là, vous terminez les matchs, vous ne décrochez pas",
+    "Le s-mount armbar est le pourcentage le plus élevé d'entrée armbar dans No-Gi grappling",
+    "La maîtrise des transitions s-mount sépare les grapplers de soumission des grapplers de position"
+  ],
+  "fixItFast": [
+    "Si l'adversaire défend le armbar en libérant le bras : passez au triangle - ne poursuivez pas le bras.",
+    "Si l'adversaire lance un jet pour échapper au s-mount : prenez le dos et sécurisez le seatbelt avant de pouvoir récupérer",
+    "Si vous tombez pendant la tentative de armbar : atterrissez à guard, et non à side control — gardez le bras coincé pendant que vous tombez."
+  ]
+}

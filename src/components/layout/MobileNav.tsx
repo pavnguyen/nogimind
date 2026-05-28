@@ -34,6 +34,7 @@ export const MobileNav = () => {
               type="button"
               onClick={() => setOpen(false)}
               className="flex h-10 w-10 items-center justify-center rounded-full border border-white/[0.06] text-slate-300 transition-all hover:bg-white/[0.06]"
+              aria-label={t('common.close', 'Close navigation')}
             >
               <X className="h-5 w-5" aria-hidden="true" />
             </button>

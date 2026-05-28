@@ -1,0 +1,56 @@
+{
+  "id": "rear-triangle-control",
+  "domain": "back_control",
+  "level": "advanced",
+  "name": "Rear Triangle Control",
+  "aliases": [],
+  "tags": [
+    "rear-triangle",
+    "back-triangle",
+    "arm-isolation",
+    "tier:modern-expansion",
+    "meta:modern-common",
+    "risk:high",
+    "family:submission",
+    "group:back-triangle",
+    "modern-no-gi"
+  ],
+  "keywords": [
+    "rear triangle",
+    "shoulder line",
+    "arm isolation"
+  ],
+  "modernSystemGroup": "back_triangle",
+  "relatedSkills": [
+    {
+      "id": "s-mount-control",
+      "type": "recommended"
+    },
+    {
+      "id": "s-mount-armbar",
+      "type": "recommended"
+    },
+    {
+      "id": "rear-naked-choke-system",
+      "type": "recommended"
+    }
+  ],
+  "prerequisiteSkillIds": [
+    "back-control",
+    "s-mount-control"
+  ],
+  "relatedPositions": [],
+  "relatedConcepts": [],
+  "archetypeIds": [],
+  "trainingMethodIds": [],
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "updatedAt": "2026-05-21T00:24:30.780Z"
+}

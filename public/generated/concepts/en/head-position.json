@@ -1,0 +1,65 @@
+{
+  "id": "head-position",
+  "locale": "en",
+  "title": "Head Position",
+  "category": "mechanical",
+  "level": "fundamental",
+  "tags": [
+    "head position",
+    "neck safety",
+    "wedge"
+  ],
+  "shortDefinition": "The head is a post, wedge, pressure source, and sensor that organizes the spine.",
+  "whyItMatters": "Bad head position exposes guillotines, kills underhooks, invites shoulder crunch, or loses passing angle.",
+  "deepExplanation": "Head position decides where shoulders and hips can move. Ear to ribs supports wrestle-up; offset head near hip supports bodylock pass; head beside opponent’s head retains back control.",
+  "beginnerView": "Do not let the head float or sit between both opponent hands.",
+  "advancedView": "Use the head to cut shoulder line or hip line before using hands.",
+  "ifThenExamples": [
+    {
+      "if": "If you lose Head Position during the exchange.",
+      "then": "Stop accelerating, recover the nearest body structure, then continue the technique.",
+      "why": "Modern no-gi punishes forceful continuation after structure is lost.",
+      "relatedSkillIds": [
+        "front-headlock-defense",
+        "bodylock-passing"
+      ]
+    },
+    {
+      "if": "If the opponent correctly answers your first line.",
+      "then": "Use Head Position to switch to a safer branch instead of forcing the same line.",
+      "why": "A good concept turns the opponent’s reaction into information for the next decision.",
+      "relatedSkillIds": [
+        "bodylock-passing",
+        "half-guard-wrestle-up",
+        "back-control"
+      ]
+    }
+  ],
+  "commonMisunderstandings": [
+    {
+      "misunderstanding": "Head Position is a single technical trick.",
+      "correction": "Treat it as a decision rule that appears across many positions."
+    },
+    {
+      "misunderstanding": "Understanding the concept automatically makes it work live.",
+      "correction": "The concept needs body signals, short cues, and positional rolling."
+    }
+  ],
+  "trainingCues": [
+    "Name Head Position before adding force.",
+    "Find the body signal instead of guessing generally.",
+    "If structure is lost, reset one layer first.",
+    "Drill slowly, then test with progressive resistance."
+  ],
+  "relatedSkillIds": [
+    "front-headlock-defense",
+    "bodylock-passing",
+    "half-guard-wrestle-up",
+    "back-control"
+  ],
+  "relatedConceptIds": [
+    "inside-position",
+    "base-balance",
+    "pressure-direction"
+  ]
+}

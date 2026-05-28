@@ -1,0 +1,119 @@
+{
+  "id": "leg-drag-pass",
+  "domain": "guard_offense",
+  "level": "intermediate",
+  "status": "draft",
+  "name": "Đèo kéo chân",
+  "aliases": [],
+  "tags": [
+    "leg-drag",
+    "passing",
+    "loose-passing",
+    "side-control-entry",
+    "tier:modern-expansion",
+    "meta:modern-common",
+    "risk:low",
+    "family:passing",
+    "group:modern-passing",
+    "modern-no-gi"
+  ],
+  "keywords": [
+    "hip twist",
+    "shoulder pinning",
+    "angle creation"
+  ],
+  "modernSystemGroup": "modern_passing",
+  "relatedSkills": [
+    {
+      "id": "bodylock-pass",
+      "type": "recommended"
+    },
+    {
+      "id": "outside-passing",
+      "type": "recommended"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "inside-position",
+    "outside-passing"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [
+    "Nếu họ thoát khỏi lực cản, bạn đã không kiểm soát phần thân trên của họ — duy trì crossface hoặc áp lực lên vai.",
+    "Nếu chúng lạiguard sau khi kéo thì góc của bạn chưa đủ sắc nét — hãy cắt một góc sâu hơn trước khi ghim.",
+    "Nếu họ guillotine bạn, đầu bạn quá thấp — hãy ngẩng cao đầu và hướng ra bên ngoài."
+  ],
+  "version": 1,
+  "updatedAt": "2026-05-21T00:24:30.781Z",
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "vi",
+  "description": "Kéo chân gần của đối phương qua hông của bạn để cắt góc và cố định side control, lưng mount hoặc vướng vào chân.",
+  "shortInstruction": "Nắm lấy mắt cá chân, kéo ngang hông, cắt góc, cố định ghim.",
+  "summary": "Đường chuyền kéo chân là một trong những đường chuyền guard hiệu quả nhất trong No-Gi hiện đại. Bằng cách kiểm soát mắt cá chân gần của đối phương và kéo nó qua hông của chính mình, bạn cắt một góc nhọn để loại bỏ guard của họ và để lộ lưng hoặc hông của họ. Lực kéo bằng chân có tác dụng với hầu hết mọi open guard (DLR, RDLR, nhện, ngồi guard) và cho phép bạn truy cập ngay vào các vị trí hàng đầu thống trị.",
+  "whyItWorks": [
+    "Kéo chân của họ qua hông bạn sẽ làm thay đổi góc guard của họ — chân của họ không còn có thể bám vào hông bạn nữa.",
+    "Hông của bạn trở thành điểm tựa: khi chân của họ đặt ngang hông bạn, họ không thể tái-guard nếu không nhấc chân của mình lên.",
+    "Thao tác kéo chân sẽ loại bỏ một trong các công cụ guard chính (chân) của chúng và thay thế nó bằng một điểm kiểm soát cho bạn.",
+    "Nguyên tắc Danaher: kiểm soát chân, kiểm soát đường chuyền guard - kéo chân là ứng dụng trực tiếp nhất của điều này."
+  ],
+  "commonMistakes": [
+    "Cúi đầu xuống trong khi kéo — thao tác này làm lộ cổ của bạn guillotine giây.",
+    "Kéo chân mà không kiểm soát được phần thân trên của chúng - chúng sẽ quay và giật lưng bạn.",
+    "Dừng lại sau khi kéo thay vì ghim - kéo không phải là kết thúc; cái chốt là",
+    "Nắm chặt ống quần thay vì mắt cá chân - việc kiểm soát mắt cá chân giúp bạn có đòn bẩy tốt hơn."
+  ],
+  "coachingCues": [
+    "Mắt cá chân chạm hông, đầu chạm ngực.",
+    "Kiểm soát chân, giết guard của họ.",
+    "Kéo qua hông, không qua sàn.",
+    "Đường chuyền không kết thúc ở điểm kéo - nó kết thúc ở điểm ghim."
+  ],
+  "safetySummary": [
+    "Ngẩng đầu lên và hướng ra bên ngoài cơ thể họ trong khi kéo — đầu rơi xuống sẽ mời guillotine.",
+    "Đừng duỗi lưng quá mức bằng cách nghiêng quá xa về phía trước trong quá trình kéo - hãy tập trung vào cơ thể của bạn.",
+    "Khi ghim sau khi kéo, hãy bảo vệ đầu gối của bạn khỏi chân còn lại của chúng."
+  ],
+  "systemLogic": {
+    "corePrinciple": "Xác định open guard (DLR, RDLR, ngồi) → kiểm soát mắt cá chân gần → kéo chân của họ qua hông bạn → cắt góc → ghim vào side control hoặc thu về phía sau.",
+    "decisionTree": [
+      {
+        "condition": "Ứng dụng chung",
+        "action": "Lực kéo chân có thể tạo thành: chuyền tới side control, lùi hoặc vướng chân."
+      },
+      {
+        "condition": "chống cự, kéo chân lại bằng cách kéo lại",
+        "action": "sử dụng lực cản của họ để thực hiện một cú cắt đầu gối hoặc chuyền bóng."
+      }
+    ],
+    "exitStrategies": []
+  },
+  "moneyDetails": [
+    "Nắm chặt dây tất hoặc mắt cá chân, không phải ống quần - tay nắm mắt cá chân sạch sẽ giúp bạn kiểm soát xoay tốt hơn.",
+    "Kéo chân qua hông ở độ cao ngang hông - kéo quá thấp (cao đến đầu gối) sẽ làm mất lợi thế về góc.",
+    "Giữ đầu của bạn dán vào ngực hoặc vai của họ khi bạn đi qua - điều này khiến họ không thể ngồi dậy.",
+    "Sau khi kéo, ngay lập tức thiết lập chốt ngang ngực — không cho họ thời gian để phục hồi guard."
+  ],
+  "nextStep": "Sau khi thành thạo đường chuyền kéo chân, hãy học động tác lùi từ kéo chân và kết hợp chuyền bằng đầu gối.",
+  "fixItFast": [
+    "Họ cứ quay hoài à? Duy trì crossface áp lực bằng vai của bạn - đừng để họ quay lưng lại với bạn.",
+    "Không thể giữ được mắt cá chân? Chuyển sang kiểu cầm vợt hai chọi một (cả hai tay đặt trên mắt cá chân) để kiểm soát tốt hơn.",
+    "Họ lạiguard ngay lập tức? Góc của bạn quá nông - hãy kéo chân xa hơn qua đường tâm của bạn."
+  ]
+}

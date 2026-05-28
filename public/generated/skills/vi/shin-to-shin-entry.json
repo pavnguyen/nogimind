@@ -1,0 +1,114 @@
+{
+  "id": "shin-to-shin-entry",
+  "domain": "guard_offense",
+  "level": "intermediate",
+  "status": "draft",
+  "name": "Lối vào Shin-to-Shin",
+  "aliases": [],
+  "tags": [
+    "guard",
+    "entry"
+  ],
+  "keywords": [
+    "shin-to-shin",
+    "off-balancing",
+    "single leg X",
+    "wrestle-up"
+  ],
+  "relatedSkills": [
+    {
+      "id": "single-leg-x-basics",
+      "type": "recommended"
+    },
+    {
+      "id": "single-leg-bjj",
+      "type": "recommended"
+    },
+    {
+      "id": "leg-lock-safety-basics",
+      "type": "recommended"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "seated-guard-retention"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [
+    "Nếu chúng làm phẳng ống chân của bạn, góc của bạn quá vuông - hãy xoay hông sang một bên.",
+    "Nếu bạn không thể nhập SLX thì trọng số của chúng đã lùi quá xa — hãy đợi chúng chuyển tiếp.",
+    "Nếu họ tóm lấy đầu bạn, hãy bơi tay bạn vào trong và đập mạnh vào vị trí bên trong."
+  ],
+  "version": 1,
+  "updatedAt": "2026-05-21T00:24:30.745Z",
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "vi",
+  "description": "Sử dụng kết nối ống chân với ống chân để làm mất thăng bằng đối thủ, vào một chân X (SLX) hoặc wrestle up khi họ phản ứng với áp lực.",
+  "shortInstruction": "Shin trên ống chân của họ, mất thăng bằng, nhập SLX hoặc wrestle up - con đường ngắn nhất đến X một chân.",
+  "summary": "Shin-to-shin là mục open guard gần nhất trong No-Gi. Bằng cách đặt ống chân của bạn áp vào ống chân của họ và kiểm soát tay áo hoặc mắt cá chân của họ, bạn tạo ra một kết nối trực tiếp cho phép bạn cảm nhận được mọi sự thay đổi trọng lượng. Khi họ tiến về phía trước, bạn mất thăng bằng và trượt hông xuống dưới — bước vào một chân chữ X. Khi họ lùi lại, bạn đứng và wrestle up. Shin-to-shin là cầu nối giữa guard đang ngồi và hệ thống vướng chân.",
+  "whyItWorks": [
+    "Kết nối ống chân với ống chân là khoảng cách ngắn nhất giữa bạn và đế của chúng - bạn cảm nhận được sức nặng của chúng ngay lập tức.",
+    "Nó không yêu cầu tay cầm nào khác ngoài một ống tay áo hoặc mắt cá chân - thiết lập tối thiểu, lợi nhuận tối đa.",
+    "Góc từ ống chân đến ống chân cho phép bạn vào SLX chỉ bằng một chuyển động hông.",
+    "Nguyên tắc Danaher: tỷ lệ phần trăm cao guard rất đơn giản - shin-to-shin là mục nhập đơn giản nhất vào SLX."
+  ],
+  "commonMistakes": [
+    "Đẩy bằng ống chân thay vì nhận trọng lượng của chúng - ống chân là một cảm biến, không phải là vật đẩy.",
+    "Để chúng tóm lấy đầu bạn và đè bẹp bạn - hãy ngẩng cao đầu và hoạt động.",
+    "Ở trong trạng thái shin-to-shin quá lâu mà không chuyển đổi - đó là lối vào, không phải đích đến.",
+    "Quên kiểm soát tay áo trước khi vào SLX — nếu không kiểm soát tay áo, họ có thể đăng bài và tránh bị quét."
+  ],
+  "coachingCues": [
+    "Shin to Shin, cảm nhận sức nặng, chảy đến SLX.",
+    "Đừng đẩy - nhận và chuyển hướng.",
+    "Nếu họ gây áp lực, hãy đi SLX. Nếu họ lùi lại, hãy đứng lên.",
+    "Tay áo là mỏ neo của bạn - đừng đánh mất nó."
+  ],
+  "safetySummary": [
+    "Hãy ngẩng cao đầu để tránh quầy guillotine khi họ lái xe về phía trước.",
+    "Không duỗi chân hoàn toàn khi bước vào SLX nếu chân vẫn đang đứng — an toàn đầu gối là trên hết.",
+    "Khi họ lùi lại và bạn wrestle up, hãy ngẩng cao đầu để tránh bị húc đầu."
+  ],
+  "systemLogic": {
+    "corePrinciple": "Kết nối ống chân với ống chân + tay nắm tay áo → cảm nhận trọng lượng của chúng → mất cân bằng → nhập SLX hoặc wrestle up.",
+    "decisionTree": [
+      {
+        "condition": "Ứng dụng chung",
+        "action": "Nếu họ lùi lại: mở rộng ống chân của bạn và nhập single leg x hoặc X-guard. Nếu họ ở gần: giữ kết nối ống chân và quét hoặc nhập K-guard"
+      },
+      {
+        "condition": "Ứng dụng chung",
+        "action": "Các mục Shin-to-shin hoạt động tốt nhất khi chống lại các đối thủ đang đứng. Nếu đối thủ đang quỳ, thay vào đó hãy xem xét các mục guard ngồi"
+      }
+    ],
+    "exitStrategies": []
+  },
+  "moneyDetails": [
+    "Đặt ống chân của bạn trực tiếp vào ống chân của họ với bàn chân đặt phẳng trên thảm - đầu gối của bạn phải ngang với hông của họ.",
+    "Kiểm soát một tay áo hoặc mắt cá chân bằng tay cùng bên của bạn - đây là điểm neo cho sự mất thăng bằng của bạn.",
+    "Khi họ tiến về phía trước, hãy kéo tay áo của họ ngang qua cơ thể bạn đồng thời trượt hông của bạn dưới chân họ.",
+    "Quá trình chuyển đổi sang SLX là: mất thăng bằng về phía trước → thả ống chân → trượt hông xuống dưới → khóa SLX."
+  ],
+  "nextStep": "Sau khi vào shin-to-shin, hãy tìm hiểu những điều cơ bản về X một chân và điều khiển X một chân để hoàn thành chuỗi.",
+  "fixItFast": [
+    "Shin trượt đi? Xoay đầu gối của bạn sang một bên để tạo thành hình nêm.",
+    "Họ sẽ không cam kết trọng lượng? Xoay ống chân của bạn để tạo chuyển động và thu hút phản ứng của chúng.",
+    "Họ tóm lấy đầu bạn à? Bơi tay vào trong, nắm chặt cơ tam đầu của họ và đặt lại khoảng cách."
+  ]
+}

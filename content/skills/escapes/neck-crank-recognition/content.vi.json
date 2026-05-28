@@ -1,0 +1,74 @@
+{
+  "id": "neck-crank-recognition",
+  "locale": "vi",
+  "name": "Nhận dạng tay quay cổ",
+  "description": "Học cách phân biệt giữa cuộn cảm an toàn (bóp cổ) và quây cổ nguy hiểm. Một tay quay tấn công cột sống cổ thông qua áp lực lên cằm hoặc phía sau đầu chứ không phải vào động mạch cảnh và phải được nhận biết ngay lập tức để chạm hoặc điều chỉnh.",
+  "shortInstruction": "Nếu bạn cảm thấy áp lực ở cằm hoặc phía sau đầu (không phải ở hai bên cổ), bạn đang bị quay chứ không phải bị nghẹn. Khai thác sớm và bảo vệ cột sống cổ của bạn.",
+  "summary": "Nhận dạng tay quay cổ là khả năng phân biệt ngay lập tức giữa một cơn sặc máu (bóp cổ) nhắm vào động mạch cảnh và một cú quay cổ nhắm vào cột sống cổ. Nghẹt máu là an toàn khi tập luyện cùng bạn tập - nó cắt đứt lưu lượng máu đến não và gây bất tỉnh mà không gây tổn thương cấu trúc. Cổ quay tấn công các đốt sống, đĩa đệm và dây chằng của cột sống cổ và có thể gây ra tổn thương tích lũy qua nhiều năm tập luyện. Điểm khác biệt chính: cuộn cảm tạo áp lực lên hai bên cổ (động mạch cảnh), tay quay tạo áp lực lên cằm, phía sau đầu hoặc đỉnh cột sống.",
+  "whyItWorks": [
+    "Sặc máu an toàn vì chúng làm gián đoạn lưu lượng máu mà không làm tổn thương cấu trúc cổ - tình trạng bất tỉnh có thể hồi phục mà không để lại hậu quả lâu dài",
+    "Tay quay cổ rất nguy hiểm vì chúng nén, xoay hoặc uốn cong cột sống cổ - tổn thương sẽ tích lũy và có thể dẫn đến các vấn đề mãn tính",
+    "Cằm là chỉ báo đáng tin cậy nhất - nếu áp lực đè lên cằm đẩy đầu bạn về phía ngực hoặc vai thì đó là một cú quay",
+    "Áp lực động mạch cảnh (hai bên cổ) không có áp lực ở cằm/cột sống luôn là một hiện tượng nghẹt thở và an toàn để phòng vệ"
+  ],
+  "commonMistakes": [
+    "Giả sử mọi cuộc tấn công bằng tay vào cổ đều là một đòn nghẹt thở - nhiều kẻ là kẻ lập dị trá hình",
+    "Cố gắng 'làm cứng' một cái quây cổ vì nghĩ rằng nó sẽ 'xuất hiện' giống như một cơn nghẹt thở - những cái quây không giải quyết được mà chúng chỉ trở nên tồi tệ hơn",
+    "Không chạm vào cổ tay đủ sớm trong quá trình tập luyện - tổn thương tích lũy qua nhiều tháng và nhiều năm",
+    "Nhầm lẫn giữa dụng cụ mở hộp (tay quay) với cuộn cảm cổ (an toàn) - cả hai đều có thể được áp dụng từ guard nhưng có cơ chế hoàn toàn khác nhau"
+  ],
+  "coachingCues": [
+    "Áp cằm = tay quay, gõ ngay",
+    "Áp cổ bên = nghẹt thở, phòng thủ an toàn",
+    "Nén cột sống = chạm ngay lập tức",
+    "Nếu không chắc chắn, hãy chạm vào - bảo vệ cổ"
+  ],
+  "safetySummary": [
+    "Tay quay cổ có thể gây thoát vị đĩa đệm, bong gân dây chằng, chèn ép dây thần kinh và đau cổ mãn tính",
+    "Dụng cụ mở hộp (đẩy phần sau đầu về phía ngực từ guard) là tay quay nguy hiểm nhất trong BJJ",
+    "Dụng cụ vặn xoắn (khóa cột sống từ back control) làm xoay mạnh cột sống cổ và có thể gây thương tích nghiêm trọng nếu tác dụng đột ngột",
+    "Một số biến thể guillotine và d'arce có thể bị cong cổ nếu góc bị lệch — nếu bạn cảm thấy áp lực ở cằm, hãy nhấn và đặt lại",
+    "Ngay cả các tay quay cổ nhẹ cũng gây ra tổn thương tích lũy - không chấp nhận 10 tay quay 'nhẹ' mỗi tuần như cách tập luyện bình thường"
+  ],
+  "keyCorrections": [
+    "Nếu bạn cảm thấy áp lực ở cằm khi đang cố gắng gửi bài: hãy chạm ngay lập tức - đừng đợi xem liệu nó có 'biến thành' bị sặc hay không",
+    "Nếu đối tác tập luyện của bạn thường xuyên sử dụng tay quay cổ thay vì cuộn cảm: hãy trò chuyện với họ về kỹ thuật và sự an toàn",
+    "Nếu bạn là người tấn công và đối tác của bạn chạm vào vị trí mà bạn cho là bị nghẹt thở: hãy kiểm tra lại góc độ của bạn - bạn có thể đang quay cuồng mà không nhận ra điều đó"
+  ],
+  "systemLogic": {
+    "corePrinciple": "Nhận dạng tay quay cổ đòi hỏi phải hiểu ba loại tấn công ở cổ: sặc máu, sặc khí và tắc cổ",
+    "decisionTree": [
+      {
+        "condition": "Ứng dụng chung",
+        "action": "Nghẹt máu (bóp cổ): áp lực tác động lên động mạch cảnh ở hai bên cổ. Gây bất tỉnh bằng cách ngăn chặn máu giàu oxy đến não. Cấu trúc: cổ chéo, trần sau, triangle, guillotine (khi đeo đúng cách), gậy bóng chày. An toàn khi tập luyện với ứng dụng được kiểm soát"
+      },
+      {
+        "condition": "Ứng dụng chung",
+        "action": "Sặc khí: áp lực tác dụng lên khí quản/khí quản. Gây khó thở nhưng không làm giảm lưu lượng máu. Cấu trúc: cuộn cảm phía trước, một số biến thể cổ chéo, một số biến thể gậy bóng chày. Nguy cơ chấn thương cao hơn sặc máu"
+      },
+      {
+        "condition": "Tay quay cổ: áp lực được tác động lên cột sống cổ thông qua cằm, phía sau đầu hoặc nền sọ. Cấu trúc: dụng cụ mở hộp, dụng cụ xoắn, một số biến thể guillotine (khi cuộn), một số biến thể d'arce, một số biến thể triangle. KHÔNG an toàn khi tập luyện tích cực",
+        "action": "thiệt hại tích lũy"
+      },
+      {
+        "condition": "Ứng dụng chung",
+        "action": "Quy tắc nhận biết: nếu bạn cảm thấy áp lực ở hai bên cổ (gần xương hàm) = có thể bị sặc máu. Nếu bạn cảm thấy áp lực ở cằm, sau đầu hoặc đỉnh cột sống = chắc chắn là bị quây"
+      },
+      {
+        "condition": "Ứng dụng chung",
+        "action": "Quy tắc ứng phó: sặc máu = phòng thủ hoặc trốn thoát. Tay quay cổ = chạm ngay lập tức nếu có áp lực đáng kể"
+      }
+    ]
+  },
+  "moneyDetails": [
+    "Nhận dạng tay quay cổ giúp ngăn ngừa nguồn chấn thương mãn tính phổ biến nhất khi tập luyện trong BJJ — tổn thương cổ tích lũy",
+    "Biết được sự khác biệt giữa quây và cuộn cảm cho phép bạn huấn luyện các bài tập một cách an toàn ở cường độ tối đa",
+    "Để bảo vệ cổ của bạn trong hơn 10 năm luyện tập đòi hỏi phải chạm vào tay quay một cách có kỷ luật trong mỗi buổi tập",
+    "Một chiếc cổ khỏe mạnh ở tuổi 50 có giá trị hơn bất kỳ cú chạm nào bạn tránh được ở tuổi 25"
+  ],
+  "fixItFast": [
+    "Nếu bạn cảm thấy áp lực ở cằm hoặc cột sống: hãy chạm ngay lập tức - bạn hoàn toàn không mất gì khi chạm sớm vào cổ",
+    "Nếu bạn cảm thấy áp lực không rõ ràng (không chắc chắn là do quây hay cuộn cảm): gõ - sự không chắc chắn có nghĩa là đó có thể không phải là cuộn cảm sạch",
+    "Nếu cổ của bạn cảm thấy cứng hoặc đau sau khi tập luyện: bạn chưa gõ đủ sớm để quay. Ưu tiên bảo vệ cổ"
+  ]
+}

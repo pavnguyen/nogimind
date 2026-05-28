@@ -1,0 +1,67 @@
+{
+  "id": "wrist-ride-back-exposure",
+  "locale": "vi",
+  "name": "Đi xe cổ tay để tiếp xúc với lưng",
+  "description": "Đạp cổ tay kéo cổ tay xa qua đường hông để thu gọn vai và để lộ phần lưng. Cưỡi cổ tay là một công cụ chính xác để bẻ gãy con rùa bằng cách tấn công xuyên qua cổ tay.",
+  "shortInstruction": "Từ bên cạnh con rùa, nắm lấy cổ tay ở phía xa và kéo nó qua lưng dưới của chúng về phía bạn. Ấn ngực của bạn vào vai gần của họ để khiến họ xẹp xuống. Lấy mặt sau khi chúng cuộn hoặc làm phẳng.",
+  "summary": "Đòn đánh bằng cổ tay sử dụng một tay nắm đơn (cổ tay ở xa) để làm sập đường vai của đối phương bằng cách kéo cổ tay qua lưng dưới của họ. Khi cổ tay vượt qua đường hông, vai bị đẩy về phía trước và phần đế của đối phương sụp xuống. Việc di chuyển bằng cổ tay đặc biệt hiệu quả vì nó khó phòng thủ - đối thủ không thể dễ dàng ngăn cản bạn kiểm soát cổ tay của họ.",
+  "whyItWorks": [
+    "Kéo cổ tay xa qua đường hông sẽ buộc vai xa về phía trước, làm xẹp phần đế của chúng",
+    "Tay cầm ở cổ tay dễ cố định hơn so với tay cầm bắt chéo vì nó tấn công phần chi bị lộ ra ngoài",
+    "Động tác di chuyển bằng cổ tay để lộ phần lưng một cách tự nhiên khi vai của đối phương hướng về phía trước và hông của họ hạ xuống",
+    "Thao tác đeo cổ tay chuyển trực tiếp sang thao tác đeo chéo cổ tay hoặc còng tay Dagestani khi bạn giành được quyền kiểm soát cổ tay"
+  ],
+  "commonMistakes": [
+    "Kéo cổ tay về phía ngực của bạn thay vì ngang qua đường hông của họ - cổ tay phải vượt qua cơ thể của họ, không hướng về phía bạn",
+    "Không đẩy áp lực ngực vào vai gần - áp lực ngực là nguyên nhân khiến họ gục ngã",
+    "Thả cổ tay quá sớm - duy trì khả năng kiểm soát cổ tay cho đến khi phần lưng được cố định chắc chắn",
+    "Kéo quá chậm – kéo mạnh và có kiểm soát sẽ hiệu quả hơn kéo chậm"
+  ],
+  "coachingCues": [
+    "Cổ tay xa, kéo ngang hông",
+    "Ngực trên vai gần, lái xe",
+    "Cổ tay ngang = vai về phía trước",
+    "Điều khiển cổ tay để quay lại"
+  ],
+  "safetySummary": [
+    "Không kéo cổ tay ở một góc bất tiện - kéo ngang hông, không kéo sang một bên",
+    "Nếu đối phương lăn để thoát thân thì thả cổ tay và lăn theo",
+    "Cẩn thận với vết thương ở ngón tay khi nắm cổ tay trong No-Gi — sử dụng tay nắm sâu"
+  ],
+  "keyCorrections": [
+    "Nếu chúng không xẹp xuống: tăng áp lực lên ngực ở vai gần và kéo cổ tay mạnh hơn",
+    "Nếu họ thả lỏng cổ tay: hãy nắm lại ngay lập tức hoặc chuyển sang điều khiển gần cổ tay",
+    "Nếu chúng lăn về phía bạn: thả cổ tay ra và thu về phía sau"
+  ],
+  "systemLogic": {
+    "corePrinciple": "Việc di chuyển cổ tay có ba giai đoạn: Cổ tay an toàn: Thu gọn vai → Quay lại",
+    "decisionTree": [
+      {
+        "condition": "Trong Giai đoạn 1 (Cổ tay an toàn)",
+        "action": "từ bên cạnh con rùa, vươn tay qua và nắm lấy cổ tay ở phía xa. Sử dụng cách cầm chắc chắn (tay cầm hoặc tay cầm khỉ tùy thuộc vào gi/No-Gi)"
+      },
+      {
+        "condition": "Ở Giai đoạn 2 (Thu gọn vai)",
+        "action": "kéo cổ tay qua lưng dưới của họ (về phía hông đối diện của họ) đồng thời đẩy ngực của bạn vào vai gần của họ. Các lực tổng hợp làm sập đường vai của họ và thả hông xuống"
+      },
+      {
+        "condition": "Ở Giai đoạn 3 (Quay lại)",
+        "action": "khi họ ngã sang một bên hoặc hông, hãy thả tay cầm ở cổ tay ra và thay thế bằng seatbelt. Trượt đầu gối gần của bạn vào đường hông của họ và cố định back control"
+      },
+      {
+        "condition": "đi xe bằng cổ tay không thành công",
+        "action": "chuyển sang cưỡi chéo cổ tay (điều khiển cả hai cổ tay) để tăng khả năng kiểm soát"
+      }
+    ]
+  },
+  "moneyDetails": [
+    "Đuổi bằng cổ tay là kỹ thuật bẻ rùa ít bị cản trở nhất vì cổ tay thường xuyên bị lộ ra ngoài",
+    "Việc thành thạo cách di chuyển bằng cổ tay sẽ giúp bạn có được con đường nhanh chóng, ít tốn sức để đến back control từ rùa",
+    "Việc di chuyển bằng cổ tay đặc biệt hiệu quả trước những đối thủ mệt mỏi không thể cưỡng lại lực kéo"
+  ],
+  "fixItFast": [
+    "Nếu họ chống lại lực kéo của cổ tay: chuyển sang kiểu đạp nửa lực - kiểu cầm chéo mặt sẽ khó cưỡng lại hơn",
+    "Nếu chúng lăn đi: hãy làm theo và duy trì khả năng kiểm soát cổ tay - không thả ra",
+    "Nếu họ ngồi dậy: thả cổ tay ra và chuyển sang kiểu vuốt ve - cách bám móng vuốt sẽ tốt hơn khi tạo tư thế cho đối thủ"
+  ]
+}

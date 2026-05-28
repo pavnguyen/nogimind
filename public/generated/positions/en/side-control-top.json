@@ -1,0 +1,56 @@
+{
+  "id": "side-control-top",
+  "locale": "en",
+  "title": "Side Control Top",
+  "category": "pin",
+  "status": "dominant",
+  "description": "The top player holds side control with a crossface, underhook, hip block, and shoulder pressure.",
+  "topPlayerGoals": [
+    "The top player wants to control Side Control Top through head position, inside position, and directed pressure.",
+    "Separate the elbow from the knee and force the bottom player into poor escape choices.",
+    "Keep a stable base so you are not off-balanced or countered."
+  ],
+  "bottomPlayerGoals": [
+    "The bottom player wants to survive Side Control Top with frames, pummeling, or the right angle.",
+    "Recover frames, the elbow-knee connection, or an underhook before being mounted.",
+    "Recognize danger signals early instead of waiting for the position to settle."
+  ],
+  "controlPoints": [
+    "Main control point: Crossface, underhook, and hip block..",
+    "Head, hands, hips, and knees should share the same force direction.",
+    "The elbow-knee connection or hip-shoulder line determines whether the position is still alive or already locked."
+  ],
+  "escapePriorities": [
+    "Escape priority: Protect the near elbow and prevent stable chest-to-chest control..",
+    "Protect the neck, back, knee line, or arm line before countering.",
+    "If inside position is lost, reset one defensive layer first."
+  ],
+  "advancementOptions": [
+    {
+      "action": "Advance to mount or a submission threat",
+      "nextPositionId": "mount-top",
+      "relatedSkillIds": [
+        "side-control-pin",
+        "side-control-escape",
+        "arm-triangle-mount"
+      ],
+      "why": "This is the natural branch when you win the main control point and the opponent is forced to defend."
+    }
+  ],
+  "dangerSignals": [
+    "The chin or neck is pulled out of a safe line.",
+    "The elbow separates from the ribs or knee.",
+    "The hip line is locked while the shoulder line is still being pulled.",
+    "You need a long hand post to avoid falling."
+  ],
+  "relatedSkillIds": [
+    "side-control-pin",
+    "side-control-escape",
+    "arm-triangle-mount"
+  ],
+  "relatedConceptIds": [
+    "pressure-direction",
+    "elbow-knee-connection",
+    "control-before-submission"
+  ]
+}

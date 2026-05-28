@@ -1,0 +1,114 @@
+{
+  "id": "shin-to-shin-entry",
+  "domain": "guard_offense",
+  "level": "intermediate",
+  "status": "draft",
+  "name": "Entrée tibia à tibia",
+  "aliases": [],
+  "tags": [
+    "guard",
+    "entry"
+  ],
+  "keywords": [
+    "shin-to-shin",
+    "off-balancing",
+    "single leg X",
+    "wrestle-up"
+  ],
+  "relatedSkills": [
+    {
+      "id": "single-leg-x-basics",
+      "type": "recommended"
+    },
+    {
+      "id": "single-leg-bjj",
+      "type": "recommended"
+    },
+    {
+      "id": "leg-lock-safety-basics",
+      "type": "recommended"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "seated-guard-retention"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [
+    "S'ils aplatissent votre tibia, votre angle est trop carré : tournez vos hanches sur le côté.",
+    "Si vous ne pouvez pas saisir SLX, leur poids est trop en arrière : attendez qu'ils s'engagent en avant.",
+    "S'ils vous attrapent la tête, nagez votre main à l'intérieur et frappez vers l'intérieur."
+  ],
+  "version": 1,
+  "updatedAt": "2026-05-21T00:24:30.745Z",
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "fr",
+  "description": "Utilisez la connexion tibia à tibia pour déséquilibrer l'adversaire, entrez X sur une seule jambe (SLX) ou wrestle up lorsqu'il réagit à la pression.",
+  "shortInstruction": "Tibia sur son tibia, déséquilibré, entrez SLX ou wrestle up — le chemin le plus court vers X sur une seule jambe.",
+  "summary": "Shin-to-shin est l'entrée open guard la plus proche dans No-Gi. En plaçant votre tibia contre son tibia et en contrôlant sa manche ou sa cheville, vous créez une connexion directe qui vous permet de ressentir chaque transfert de poids. Lorsqu'ils s'engagent en avant, vous déséquilibrez et faites glisser vos hanches vers le bas, entrant en X sur une seule jambe. Lorsqu'ils reculent, vous vous levez et wrestle up. Shin-to-shin est le pont entre le guard assis et le système d'enchevêtrement des jambes.",
+  "whyItWorks": [
+    "La connexion tibia à tibia est la distance la plus courte entre vous et leur base : vous ressentez leur poids instantanément.",
+    "Il ne nécessite aucune prise autre qu’une manche ou une cheville – un minimum de mise en place, un retour maximum.",
+    "L'angle tibia à tibia vous permet d'entrer SLX avec un seul mouvement de hanche.",
+    "Principe de Danaher : les guard à pourcentage élevé sont simples – shin-to-shin est l'entrée la plus simple à SLX."
+  ],
+  "commonMistakes": [
+    "Pousser avec le tibia au lieu de recevoir son poids – le tibia est un capteur, pas un pousseur.",
+    "Laissez-les vous saisir la tête et vous aplatir – gardez la tête haute et active.",
+    "Rester trop longtemps en tibia sans transition - c'est l'entrée, pas la destination.",
+    "Oublier de contrôler la manche avant d'entrer dans SLX — sans contrôle de la manche, ils peuvent poster et éviter le balayage."
+  ],
+  "coachingCues": [
+    "Tibia contre tibia, ressentez le poids, coulez vers SLX.",
+    "Ne poussez pas – recevez et redirigez.",
+    "S'ils font pression, allez SLX. S’ils reculent, levez-vous.",
+    "La poignée des manches est votre ancre – ne la perdez pas."
+  ],
+  "safetySummary": [
+    "Gardez la tête haute pour éviter les compteurs guillotine lorsqu'ils avancent.",
+    "N'étendez pas complètement vos jambes lorsque vous entrez dans SLX si elles sont toujours debout – la sécurité des genoux avant tout.",
+    "Lorsqu'ils reculent et que vous wrestle up, gardez la tête haute pour éviter les coups de tête."
+  ],
+  "systemLogic": {
+    "corePrinciple": "Connexion tibia à tibia + poignée de manche → sentir leur poids → déséquilibre → saisir SLX ou wrestle up.",
+    "decisionTree": [
+      {
+        "condition": "Application générale",
+        "action": "S'ils reculent : étendez votre tibia et entrez single leg x ou X-guard. S'ils restent proches : gardez la connexion du tibia et balayez ou entrez K-guard"
+      },
+      {
+        "condition": "Application générale",
+        "action": "Les entrées tibia à tibia fonctionnent mieux contre des adversaires debout. Si l'adversaire est à genoux, envisagez plutôt les entrées assises guard"
+      }
+    ],
+    "exitStrategies": []
+  },
+  "moneyDetails": [
+    "Placez votre tibia directement contre son tibia avec votre pied à plat sur le tapis – votre genou doit être au niveau de sa hanche.",
+    "Contrôlez une manche ou une cheville avec votre main du même côté - c'est votre point d'ancrage pour le déséquilibre.",
+    "Lorsqu'ils s'engagent, tirez leur manche sur votre corps tout en faisant glisser vos hanches sous leur jambe.",
+    "La transition vers SLX est la suivante : déséquilibrez-les vers l'avant → relâchez le tibia → faites glisser les hanches vers le bas → verrouillez le SLX."
+  ],
+  "nextStep": "Après l'entrée tibia à tibia, apprenez les bases du X sur une jambe et le contrôle X sur une jambe pour compléter la chaîne.",
+  "fixItFast": [
+    "Le tibia glisse ? Tournez votre genou sur le côté pour créer un coin.",
+    "Ils ne prendront pas de poids ? Entourez votre tibia pour créer du mouvement et appâter sa réaction.",
+    "Ils vous prennent la tête ? Nagez votre main à l'intérieur, saisissez leurs triceps et réinitialisez la distance."
+  ]
+}

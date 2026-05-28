@@ -1,0 +1,65 @@
+{
+  "id": "control-before-submission",
+  "locale": "en",
+  "title": "Control Before Submission",
+  "category": "offensive",
+  "level": "fundamental",
+  "tags": [
+    "submission",
+    "control",
+    "safety"
+  ],
+  "shortDefinition": "Submissions become reliable only when the opponent is held where the main escape structure is denied.",
+  "whyItMatters": "Attacking too early loses mount, back, side control, or creates dangerous scrambles.",
+  "deepExplanation": "Control before submission means isolating shoulder, neck, or hip line, blocking the first escape, then adding finishing pressure. It protects both effectiveness and safety.",
+  "beginnerView": "Do not squeeze while the opponent can still rotate freely.",
+  "advancedView": "Create a dilemma: they must choose between staying controlled or exposing the finish.",
+  "ifThenExamples": [
+    {
+      "if": "If you lose Control Before Submission during the exchange.",
+      "then": "Stop accelerating, recover the nearest body structure, then continue the technique.",
+      "why": "Modern no-gi punishes forceful continuation after structure is lost.",
+      "relatedSkillIds": [
+        "rear-naked-choke-system",
+        "arm-triangle-mount"
+      ]
+    },
+    {
+      "if": "If the opponent correctly answers your first line.",
+      "then": "Use Control Before Submission to switch to a safer branch instead of forcing the same line.",
+      "why": "A good concept turns the opponent’s reaction into information for the next decision.",
+      "relatedSkillIds": [
+        "arm-triangle-mount",
+        "guillotine-system",
+        "kimura-system"
+      ]
+    }
+  ],
+  "commonMisunderstandings": [
+    {
+      "misunderstanding": "Control Before Submission is a single technical trick.",
+      "correction": "Treat it as a decision rule that appears across many positions."
+    },
+    {
+      "misunderstanding": "Understanding the concept automatically makes it work live.",
+      "correction": "The concept needs body signals, short cues, and positional rolling."
+    }
+  ],
+  "trainingCues": [
+    "Name Control Before Submission before adding force.",
+    "Find the body signal instead of guessing generally.",
+    "If structure is lost, reset one layer first.",
+    "Drill slowly, then test with progressive resistance."
+  ],
+  "relatedSkillIds": [
+    "rear-naked-choke-system",
+    "arm-triangle-mount",
+    "guillotine-system",
+    "kimura-system"
+  ],
+  "relatedConceptIds": [
+    "dilemma-attacks",
+    "connection-before-control",
+    "positional-hierarchy"
+  ]
+}

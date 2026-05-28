@@ -1,0 +1,57 @@
+{
+  "id": "north-south",
+  "locale": "fr",
+  "title": "North South",
+  "category": "pin",
+  "status": "dominant",
+  "description": "Le joueur du dessus s’allonge du côté tête, contrôlant chest-to-chest ou chest-to-back avec pression épaule.",
+  "topPlayerGoals": [
+    "Le joueur du dessus veut contrôler North South avec la position de tête, la position intérieure et une pression orientée.",
+    "Utiliser pression épaule pour étrangler, isoler un bras ou passer side/mount.",
+    "Garder une base stable pour éviter d’être déséquilibré ou contré."
+  ],
+  "bottomPlayerGoals": [
+    "Le joueur du dessous veut survivre en North South avec des cadres, du pummeling ou le bon angle.",
+    "Ramener les coudes aux côtes, créer des cadres et re-guard avant d’être étranglé.",
+    "Reconnaître les signaux de danger tôt au lieu d’attendre que la position se stabilise."
+  ],
+  "controlPoints": [
+    "Point de contrôle principal : Pression épaule, connexion poitrine et arm line..",
+    "La tête, les mains, les hanches et les genoux doivent suivre la même direction de force.",
+    "La connexion coude-genou ou la ligne hanches-épaules détermine si la position reste vivante ou verrouillée."
+  ],
+  "escapePriorities": [
+    "Priorité de sortie : Ne pas laisser la pression épaule fermer les voies respiratoires..",
+    "Protéger le cou, le dos, la ligne du genou ou la ligne du bras avant de contrer.",
+    "Si la position intérieure est perdue, rétablir d’abord une couche défensive."
+  ],
+  "advancementOptions": [
+    {
+      "action": "Passer side control ou prise de dos",
+      "nextPositionId": "side-control-top",
+      "relatedSkillIds": [
+        "north-south-control",
+        "side-control-pin",
+        "rear-naked-choke-system"
+      ],
+      "why": "C’est la branche naturelle lorsque vous gagnez le point de contrôle principal et que l’adversaire est forcé de défendre."
+    }
+  ],
+  "dangerSignals": [
+    "Le menton ou le cou sort de la ligne sûre.",
+    "Le coude se sépare des côtes ou du genou.",
+    "La ligne des hanches est verrouillée pendant que la ligne des épaules est encore tirée.",
+    "Vous devez poser une main loin pour éviter de tomber."
+  ],
+  "relatedSkillIds": [
+    "north-south-control",
+    "side-control-pin",
+    "rear-naked-choke-system",
+    "kimura-system"
+  ],
+  "relatedConceptIds": [
+    "pressure-direction",
+    "connection-before-control",
+    "control-before-submission"
+  ]
+}

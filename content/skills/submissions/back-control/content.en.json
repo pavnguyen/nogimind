@@ -1,0 +1,78 @@
+{
+  "id": "back-control",
+  "locale": "en",
+  "name": "Back Control",
+  "description": "Dominate the back with a locked seatbelt, active hooks or body triangle, and systematic hand fighting to maintain control and set up submissions.",
+  "shortInstruction": "Chest to spine, seatbelt locked, hooks in, hand fight — back control is the king of positions for a reason.",
+  "summary": "Back control is the most dominant position in BJJ. From here, you control their movement almost entirely. The seatbelt (one arm over their shoulder, one under their armpit, hands clasped) controls their upper body. Hooks (feet inside their thighs) or body triangle (legs wrapped around their torso) control their lower body. From this complete control, you can attack the neck, arms, or transition to mount.",
+  "whyItWorks": [
+    "From the back, you see everything they do while they cannot see you — reaction advantage is enormous.",
+    "The seatbelt and hooks create a cage around their body — they cannot escape without breaking multiple controls.",
+    "Chest-to-back connection means your weight is on their spine — they carry you while you attack.",
+    "Danaher principle: the back is the highest percentage attacking position because it removes their primary defense — their hands."
+  ],
+  "commonMistakes": [
+    "Losing chest-to-back contact — this gives them space to turn in or escape.",
+    "Crossing your feet when using hooks — crossed feet can be broken by ankle pressure.",
+    "Letting the seatbelt slip up to their neck — the seatbelt should be locked at their chest, not their neck.",
+    "Resting instead of attacking — back control is a transitional attacking position, not a rest position."
+  ],
+  "coachingCues": [
+    "Chest to spine — no daylight between you.",
+    "Hooks in the thighs, not the hamstrings.",
+    "Seatbelt at the chest, grip like your life depends on it.",
+    "If they move, follow — stay glued."
+  ],
+  "safetySummary": [
+    "Keep your hooks active but not digging into their inner thighs — this can cause groin strain.",
+    "Do not squeeze the body triangle too tight on their ribs — rib injuries are common from excessive body triangle pressure.",
+    "Be aware of your partner's breathing when using body triangle — they may not be able to tap verbally."
+  ],
+  "keyCorrections": [
+    "If they peel one hook, switch to a body triangle or cross your feet.",
+    "If they turn in, release the seatbelt and take mount — don't chase the back.",
+    "If they grab your seatbelt hand, pummel your hand back to the inside."
+  ],
+  "systemLogic": {
+    "corePrinciple": "Back control is the platform for all back attacks. The sequence is: take the back → lock seatbelt → secure hooks or body triangle → hand fight → attack RNC or arm triangle.",
+    "decisionTree": [
+      {
+        "condition": "Starting from back control",
+        "action": "Lock the seatbelt immediately (one arm over their shoulder, one under their armpit, hands clasped). Secure hooks (feet inside their thighs) or a body triangle before attempting any submission"
+      },
+      {
+        "condition": "They escape your hooks",
+        "action": "Switch to a body triangle to maintain lower body control"
+      },
+      {
+        "condition": "They escape the body triangle",
+        "action": "Switch back to hooks to re-establish lower body control"
+      },
+      {
+        "condition": "They grab your seatbelt hand",
+        "action": "Pummel your hand back to the inside — do not let them break the seatbelt entirely"
+      },
+      {
+        "condition": "They turn in to face you",
+        "action": "Release the seatbelt and take mount — do not chase the back position"
+      }
+    ],
+    "exitStrategies": [
+      "If you lose the seatbelt, re-grip before they can create space",
+      "If they peel both hooks and flatten you, return to a front headlock or stand-up to reset the engagement",
+      "Back control is a transitional attacking position — do not rest in it; attack or advance"
+    ]
+  },
+  "moneyDetails": [
+    "Your hooks should be active — feet curled, pressing into their inner thighs, not dangling.",
+    "The seatbelt grip should be palms-to-palms, not fingers-laced — a stronger grip prevents breakage.",
+    "Keep your head to one side of their spine — this protects your face from elbows and prevents them from turning into you.",
+    "When they try to turn into you, follow their hips and take mount — the transition from back to mount is a critical chain."
+  ],
+  "nextStep": "After back control, learn the back attack system (RNC, arm triangle, back transitions).",
+  "fixItFast": [
+    "Hooks keep getting peeled? Switch to body triangle immediately.",
+    "Seatbelt grip broken? Re-grip before they turn — don't let them create space.",
+    "They're turning in? Release the hooks and follow their hips to mount."
+  ]
+}

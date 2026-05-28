@@ -1,0 +1,69 @@
+{
+  "id": "dagestani-handcuff",
+  "domain": "pins_rides",
+  "level": "advanced",
+  "name": "Dagestani Handcuff",
+  "aliases": [
+    "handcuff ride",
+    "handcuff back take",
+    "Khabib handcuff"
+  ],
+  "tags": [
+    "ride",
+    "wrist-control",
+    "handcuff",
+    "tier:modern-expansion",
+    "meta:modern-common",
+    "risk:medium",
+    "family:ride",
+    "group:handcuff",
+    "modern-no-gi",
+    "wrestling"
+  ],
+  "keywords": [
+    "wrist ride",
+    "handcuff grip",
+    "far wrist",
+    "back take ride"
+  ],
+  "modernSystemGroup": "dagestani_handcuff",
+  "relatedSkills": [
+    {
+      "id": "cross-wrist-ride",
+      "type": "recommended"
+    },
+    {
+      "id": "spiral-ride",
+      "type": "recommended"
+    },
+    {
+      "id": "back-control",
+      "type": "recommended"
+    },
+    {
+      "id": "wrist-ride-back-exposure",
+      "type": "recommended"
+    }
+  ],
+  "prerequisiteSkillIds": [
+    "turtle-ride",
+    "positional-hierarchy"
+  ],
+  "relatedPositions": [],
+  "relatedConcepts": [],
+  "archetypeIds": [
+    "pressure-passer",
+    "top-game-specialist"
+  ],
+  "trainingMethodIds": [],
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "updatedAt": "2026-06-12T00:00:00.000Z"
+}

@@ -1,0 +1,125 @@
+{
+  "id": "saddle-inside-sankaku-control",
+  "domain": "submission_systems",
+  "level": "advanced",
+  "status": "draft",
+  "name": "saddle / inside sankaku Kiểm soát",
+  "aliases": [],
+  "tags": [
+    "saddle",
+    "inside-sankaku",
+    "heel-hook",
+    "knee-safety",
+    "tier:safety-critical",
+    "meta:modern-common",
+    "risk:safety-critical",
+    "family:leg-lock",
+    "group:leg-lock",
+    "modern-no-gi"
+  ],
+  "keywords": [
+    "saddle",
+    "inside sankaku",
+    "knee line"
+  ],
+  "modernSystemGroup": "leg_lock",
+  "relatedSkills": [
+    {
+      "id": "false-reap-entry",
+      "type": "recommended"
+    },
+    {
+      "id": "k-guard-matrix",
+      "type": "recommended"
+    },
+    {
+      "id": "heel-hook-safety",
+      "type": "recommended"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "leg-lock-safety-basics",
+    "heel-hook-safety",
+    "k-guard-entry"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [
+    "Nếu chúng quay ra khỏi saddle thì chân của bạn quá lỏng — hãy siết chặt lồng chân.",
+    "Nếu bạn không thể tìm thấy heel hook thì nghĩa là bạn ở quá thấp so với chân họ — hãy nhích cao hơn về phía hông họ.",
+    "Nếu họ nắm lấy tay bạn, hãy đập mạnh trở lại vị trí bên trong - đừng để họ điều khiển tay bạn."
+  ],
+  "version": 1,
+  "updatedAt": "2026-05-21T00:24:30.779Z",
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "vi",
+  "description": "saddle (inside sankaku) là một trong những tư thế vướng chân mạnh nhất — nó kiểm soát đường hông và đầu gối của đối phương nhưng đòi hỏi phải chiến đấu bằng tay rõ ràng và nhận thức an toàn để duy trì và kết thúc.",
+  "shortInstruction": "Bắt chéo chân, đặt chân lên hông, đánh tay rõ ràng — saddle là vua của những pha vướng chân.",
+  "summary": "saddle (inside sankaku) là vị trí vướng chân chiếm ưu thế nhất trong No-Gi. Hai chân của bạn bắt chéo qua cơ thể đối phương (một chân đặt trên bụng họ, chân còn lại móc vào chân xa của họ), với bàn chân của bạn đặt trên hông họ. Từ saddle, bạn điều khiển cả chuyển động xoay hông và đường đầu gối của họ, khiến họ cực kỳ khó thoát ra. Cuộc tấn công chính diễn ra bên trong heel hook, nhưng saddle cũng cho phép bạn truy cập vào các đòn tấn công lùi và quét.",
+  "whyItWorks": [
+    "Vị trí của chân tạo ra một cái lồng xung quanh cơ thể chúng - chúng không thể lăn hoặc quay mà không mang theo trọng lượng của bạn.",
+    "Bàn chân đặt trên hông kiểm soát khoảng cách của họ và ngăn cản họ thực hiện tư thế.",
+    "Từ saddle, heel hook đã lộ ra một phần — bạn chỉ cần tìm góc.",
+    "Nguyên tắc Danaher: saddle là đích đến của hầu hết các mục khóa chân hiện đại — nếu bạn có thể đến được saddle, bạn sẽ thắng."
+  ],
+  "commonMistakes": [
+    "Để saddle thả lỏng — chân của bạn phải hoạt động và siết chặt trong suốt.",
+    "Mất khả năng kiểm soát chân ở hông - trụ hông là khả năng kiểm soát khoảng cách của bạn.",
+    "Không đánh tay trước khi tấn công heel hook — tay của họ có thể bảo vệ cú dứt điểm.",
+    "Ngồi quá thấp trên cơ thể họ - bạn nên ngồi cao trên đùi họ chứ không phải trên đầu gối của họ."
+  ],
+  "coachingCues": [
+    "Bắt chéo chân, đặt chân lên hông, đánh tay trước.",
+    "Nếu chân bạn rơi khỏi hông, saddle sẽ bị tổn hại.",
+    "heel hook là giải thưởng — đấu tay đôi là cái giá phải trả.",
+    "Đứng cao trên chân — thấp saddle yếu saddle."
+  ],
+  "safetySummary": [
+    "saddle là sự vướng víu ở chân — heel hook từ saddle có thể gây chấn thương đầu gối nghiêm trọng.",
+    "Không bao giờ áp dụng heel hook từ saddle mà không kiểm soát hông xa của họ.",
+    "Thiết lập các giao thức chạm rõ ràng cho các đòn tấn công bằng chân trước khi tập luyện.",
+    "Giải phóng ngay lập tức bất kỳ dấu hiệu khó chịu nào ở đầu gối từ đối tác tập luyện của bạn."
+  ],
+  "systemLogic": {
+    "corePrinciple": "Nhập saddle (chân bắt chéo người, chân đặt trên hông): đấu tay để kiểm soát tay → xác định độ hở của gót chân → căn chỉnh xoay → kết thúc heel hook.",
+    "decisionTree": [
+      {
+        "condition": "họ quay đầu để thoát khỏi heel hook",
+        "action": "chuyển sang quay lại."
+      },
+      {
+        "condition": "họ xếp chồng lên nhau",
+        "action": "giải phóng và nhập lại — không đấu tranh với ngăn xếp từ saddle."
+      }
+    ],
+    "exitStrategies": []
+  },
+  "moneyDetails": [
+    "Chân trên của bạn bắt chéo qua cơ thể của họ và móc vào hông xa của họ - bàn chân của bạn phải đặt trên xương hông của họ.",
+    "Chân dưới của bạn móc vào chân bên cạnh của chúng - điều này tạo ra lồng chân.",
+    "Đánh nhau bằng tay để kiểm soát bàn tay của họ - hãy nắm chặt tay áo hoặc cổ tay ở xa của họ bằng tay trên của bạn.",
+    "Kết thúc heel hook: xoay hông về phía thảm trong khi kéo gót chân của họ về phía bạn — xoay hông ra ngoài là kết thúc."
+  ],
+  "nextStep": "Sau khi điều khiển saddle, hãy tìm hiểu phần hoàn thiện bên trong heel hook và saddle để quay lại quá trình chuyển đổi.",
+  "fixItFast": [
+    "Họ cứ quay hoài à? Siết chặt lồng chân của bạn và kiểm soát hông xa của họ.",
+    "Không thể tìm thấy gót chân? Leo cao hơn trên chân của họ.",
+    "Họ nắm lấy tay bạn? Pummel trở lại kiểm soát cổ tay bên trong."
+  ]
+}

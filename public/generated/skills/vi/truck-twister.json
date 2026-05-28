@@ -1,0 +1,121 @@
+{
+  "id": "truck-twister",
+  "domain": "submission_systems",
+  "level": "advanced",
+  "status": "draft",
+  "name": "Xe tải / Twister",
+  "aliases": [],
+  "tags": [
+    "truck",
+    "twister",
+    "back-attack",
+    "body-lock",
+    "spine-lock"
+  ],
+  "keywords": [
+    "truck",
+    "twister",
+    "spinal lock",
+    "body triangle",
+    "back attack"
+  ],
+  "relatedSkills": [
+    {
+      "id": "crucifix-control",
+      "type": "recommended"
+    },
+    {
+      "id": "back-attack-system",
+      "type": "recommended"
+    },
+    {
+      "id": "claw-ride",
+      "type": "recommended"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "back-control",
+    "crab-ride"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [
+    "Nếu bạn không cảm nhận được chuyển động quay thì có nghĩa là cơ thể bạn triangle quá lỏng — hãy siết chặt hơn.",
+    "Nếu họ bảo vệ vòng xoắn bằng cách nắm chặt chân của mình, hãy chuyển sang động tác armbar hoặc lùi lại.",
+    "Nếu chúng lăn qua, hãy đi theo vòng quay của chúng và tấn công lại từ phía bên kia."
+  ],
+  "version": 1,
+  "updatedAt": "2026-05-21T00:24:30.773Z",
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "vi",
+  "description": "Vị trí xe tải và chuyển động xoắn: từ phía sau hoặc side control, khóa cơ thể triangle quanh thân của đối phương và kéo đầu họ về phía hông của chính họ để tạo khóa cột sống.",
+  "shortInstruction": "Cơ thể triangle quanh thân, kéo đầu về phía hông, cong lưng - động tác vặn xoắn là khóa cột sống chứ không phải bị sặc.",
+  "summary": "Xe tải là một vị trí chuyên biệt trong đó bạn điều khiển đối thủ từ một bên bằng cơ thể triangle (tương tự như vị trí xe tải trong đấu vật). Từ truck, bạn có thể chuyển sang twister - một đòn khóa cột sống xoắn cột sống của đối thủ bằng cách kéo đầu họ về phía hông của chính họ. Twister không phải là nghẹt thở hay khóa khớp; nó là một khóa cột sống tạo ra áp lực mạnh lên đốt sống. Đòn này đặc biệt phù hợp với no-gi (vì việc duy trì body triangle khó hơn) và rất hiệu quả, nhưng đòi hỏi vị trí phải cực kỳ chính xác.",
+  "whyItWorks": [
+    "Cơ thể triangle ngăn không cho chúng lăn hoặc lệch khỏi vị trí.",
+    "Cơ chế khóa cột sống không quen thuộc với hầu hết đối thủ - họ thường không biết cách phòng thủ hoặc trốn thoát.",
+    "Twister có thể được nối vào các bài nộp khác (rút lại, armbar) khi họ phòng thủ.",
+    "Eddie Bravo / Nguyên tắc của Hành tinh thứ 10: xe tải/xe xoắn là xương sống của 'Train of Pain' — một chuỗi tấn công hoàn chỉnh."
+  ],
+  "commonMistakes": [
+    "Không cố định cơ thể triangle trước khi đi vào vòng xoắn — cơ thể triangle là vị trí điều khiển.",
+    "Kéo đầu quá mạnh - vòng xoắn là một vòng xoắn từ từ chứ không phải giật đột ngột.",
+    "Để đôi chân của trẻ thoát khỏi cơ thể triangle — việc kiểm soát chân là điều cần thiết.",
+    "Cố gắng vặn xoắn mà không kiểm soát cánh tay xa của họ - họ sẽ đăng bài và ngăn cản chuyển động quay."
+  ],
+  "coachingCues": [
+    "Nội dung triangle đầu tiên, phần thứ hai xoắn.",
+    "Đầu hướng về phía hông, cong lưng, vặn từ từ.",
+    "Kiểm soát cánh tay xa, sở hữu vòng quay.",
+    "Twister là một twist từ từ chứ không phải giật."
+  ],
+  "safetySummary": [
+    "Động tác xoắn tạo áp lực quay lên cột sống — đây là một trong những động tác nguy hiểm nhất trong BJJ.",
+    "Áp dụng twister RẤT chậm và thả ra khi có bất kỳ dấu hiệu khó chịu nào.",
+    "Đừng thử vặn mình đối với những đối tác đã có vấn đề về lưng hoặc cổ.",
+    "Hãy sớm khắc phục tình trạng khóa cột sống - chấn thương cột sống có thể là vĩnh viễn.",
+    "Không thích hợp cho người mới bắt đầu - đòi hỏi nhận thức cơ thể nâng cao."
+  ],
+  "systemLogic": {
+    "corePrinciple": "side control hoặc half guard: cố định cơ thể triangle (vị trí xe tải) → điều khiển cánh tay xa → kéo đầu họ về phía hông → cong lưng → kết thúc.",
+    "decisionTree": [
+      {
+        "condition": "Ứng dụng chung",
+        "action": "Xe tải/xoắn dây xích có: lùi lại (nếu họ lăn), armbar (nếu họ phòng thủ) hoặc nộp tiêu chuẩn."
+      },
+      {
+        "condition": "Ứng dụng chung",
+        "action": "Hệ hành tinh thứ 10: xe tải là vị trí; twister là một trong nhiều cuộc tấn công từ nó."
+      }
+    ],
+    "exitStrategies": []
+  },
+  "moneyDetails": [
+    "Cơ thể triangle phải ôm quanh thân mình ở ngang eo — không phải ở chân họ.",
+    "Chân của bạn khóa thành hình số 4 (cơ thể triangle) — siết chặt để nén xương sườn và hạn chế cử động.",
+    "Kiểm soát cánh tay xa của họ bằng cách đẩy khuỷu tay về phía đầu - điều này ngăn họ đăng bài.",
+    "Kết thúc động tác xoắn: kéo đầu họ về phía hông của họ trong khi cong lưng của bạn - động tác xoay sẽ xoắn cột sống của họ."
+  ],
+  "nextStep": "Sau xe tải/xe xoắn, hãy học cách di chuyển phía sau của xe tải và máy thái thịt bê từ cùng một vị trí.",
+  "fixItFast": [
+    "Cơ thể triangle quá lỏng lẻo? Bóp chặt hơn và khóa hình số bốn sâu hơn.",
+    "Không thể xoắn? Trước tiên hãy kiểm soát cánh tay xa của họ - một cánh tay tự do sẽ chặn chuyển động quay.",
+    "Họ tung ra? Đi theo cuộn của họ và lấy lại."
+  ]
+}

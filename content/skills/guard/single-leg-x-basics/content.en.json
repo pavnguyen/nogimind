@@ -1,0 +1,65 @@
+{
+  "id": "single-leg-x-basics",
+  "locale": "en",
+  "name": "Single Leg X Basics",
+  "description": "Control the opponent's hip and knee line from single-leg X (SLX) to sweep, stand up, or safely enter ashi garami (leg entanglement).",
+  "shortInstruction": "One leg between theirs, one leg on the hip — SLX gives you control of one leg and their entire base.",
+  "summary": "Single-leg X (SLX) is the fundamental one-leg control position of modern no-gi. You trap one of their legs with your own leg (between your thigh and calf), while your other foot posts on their opposite hip. This gives you control of their entire base through a single leg — when you pull that leg, their whole body follows. SLX is the entry point for sweeps (classic SLX sweep), leg entanglements (enter ashi garami), and stand-ups (wrestle up).",
+  "whyItWorks": [
+    "Controlling one leg with both of your legs gives you a 2-on-1 mechanical advantage on that limb.",
+    "The foot on their hip controls their distance and prevents them from stepping back.",
+    "Any movement they make with their free leg changes their base — you can read and react.",
+    "Danaher principle: control one leg, control half their body — SLX is the most efficient leg control position."
+  ],
+  "commonMistakes": [
+    "Letting the trapped leg slide out of your SLX lock — keep your knee pinched against your own chest.",
+    "Letting your hip foot slide off their hip — the hip post is your distance control.",
+    "Sitting too far from their base — the closer your hips are to their leg, the more control you have.",
+    "Giving up when they step over your SLX — stay calm and transition to a different guard."
+  ],
+  "coachingCues": [
+    "One leg between, one leg on the hip — SLX is two legs working together.",
+    "Pull the leg to your chest, not to the floor.",
+    "Hip foot on the hip — never let it drop.",
+    "Close the distance — the closer you are, the less they can move."
+  ],
+  "safetySummary": [
+    "Keep your trapped leg's knee protected — do not let them twist your knee by turning their trapped leg.",
+    "When entering SLX, keep your foot on the outside of their leg to avoid reaping penalties.",
+    "If they stack you, release the SLX and reset — do not fight the stack with a locked SLX."
+  ],
+  "keyCorrections": [
+    "If they step out of SLX, your hip foot lost its post — re-establish the foot on their hip.",
+    "If you can't sweep them, your angle is wrong — turn your hips toward the trapped leg more.",
+    "If they flatten you, your hips are too far from them — pull your hips closer to their leg."
+  ],
+  "systemLogic": {
+    "corePrinciple": "Enter SLX (one leg trapped, one foot on hip) → pull the trapped leg to your chest → off-balance → sweep, stand up, or enter leg entanglement.",
+    "decisionTree": [
+      {
+        "condition": "Option 1: They stand tall",
+        "action": "pull the leg and sweep them backward."
+      },
+      {
+        "condition": "Option 2: They sit back",
+        "action": "enter leg entanglement (ashi garami)."
+      },
+      {
+        "condition": "Option 3: They post a hand",
+        "action": "technical stand-up → wrestle up."
+      }
+    ]
+  },
+  "moneyDetails": [
+    "Your trapped leg should be locked with your knee pinched toward your own chest — the ankle should be near your hip.",
+    "The foot on their hip must be on the hip bone (ASIS), not the stomach or thigh — hip bone control = distance control.",
+    "Keep your weight on your far shoulder, not centered — this gives you the angle to pull and sweep.",
+    "The SLX sweep is: pull the trapped leg to your chest while pushing with the hip foot — the combined forces break their base."
+  ],
+  "nextStep": "After basic SLX control, learn the advanced SLX sweep and the SLX-to-ashi-garami transition.",
+  "fixItFast": [
+    "They step out? Re-post your foot on their hip immediately.",
+    "Sweep not working? Pull the leg harder to your chest — not down, but toward you.",
+    "They flatten you? Sit up on your far elbow and scoot your hips closer to them."
+  ]
+}

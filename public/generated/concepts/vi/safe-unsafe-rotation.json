@@ -1,0 +1,67 @@
+{
+  "id": "safe-unsafe-rotation",
+  "locale": "vi",
+  "title": "Xoay An Toàn vs Không An Toàn",
+  "category": "safety",
+  "level": "fundamental",
+  "tags": [
+    "rotation",
+    "safety",
+    "leg lock",
+    "knee line",
+    "heel"
+  ],
+  "shortDefinition": "Xoay an toàn khi knee line free và heel hidden; xoay nguy hiểm khi knee line trapped và heel exposed.",
+  "whyItMatters": "Leg lock injuries thường đến từ xoay sai hướng trong entanglement — biết khi nào xoay và khi nào dừng là safety kỹ thuật.",
+  "deepExplanation": "Safety assessment theo thứ tự: (1) heel có bị exposed không? (2) knee line có bị trapped không? (3) chân phụ có bị kiểm soát không? Nếu cả 3 dấu hiệu có, đừng xoay — tap hoặc giải phóng trước. Nếu heel hidden và knee free, bạn có thể xoay an toàn.",
+  "beginnerView": "Không xoay mạnh khi gót lộ và gối kẹt.",
+  "advancedView": "Dùng rotation sensing để bait: cho họ cảm giác knee line bị trap rồi đổi hướng.",
+  "ifThenExamples": [
+    {
+      "if": "Nếu bạn mất Xoay An Toàn vs Không An Toàn trong trao đổi.",
+      "then": "Dừng tăng tốc, lấy lại cấu trúc cơ thể gần nhất rồi mới tiếp tục kỹ thuật.",
+      "why": "No-gi hiện đại phạt rất nhanh khi bạn cố thắng bằng sức sau khi mất cấu trúc.",
+      "relatedSkillIds": [
+        "leg-lock-defense",
+        "knee-line-escape"
+      ]
+    },
+    {
+      "if": "Nếu đối thủ phản ứng đúng với hướng đầu tiên.",
+      "then": "Dùng Xoay An Toàn vs Không An Toàn để đổi sang nhánh an toàn hơn thay vì ép cùng một hướng.",
+      "why": "Concept tốt biến phản ứng của đối thủ thành thông tin cho quyết định tiếp theo.",
+      "relatedSkillIds": [
+        "knee-line-escape",
+        "heel-hook-safety",
+        "straight-ankle-lock-safety"
+      ]
+    }
+  ],
+  "commonMisunderstandings": [
+    {
+      "misunderstanding": "Xoay An Toàn vs Không An Toàn là một mẹo kỹ thuật riêng lẻ.",
+      "correction": "Hãy xem nó như quy tắc quyết định xuất hiện trong nhiều vị trí khác nhau."
+    },
+    {
+      "misunderstanding": "Bạn chỉ cần hiểu khái niệm là tự động dùng được trong live roll.",
+      "correction": "Khái niệm phải được gắn với body signal, cue ngắn và positional rolling."
+    }
+  ],
+  "trainingCues": [
+    "Gọi tên Xoay An Toàn vs Không An Toàn trước khi tăng lực.",
+    "Tìm body signal, không đoán bằng cảm giác chung.",
+    "Nếu mất cấu trúc, reset một layer trước.",
+    "Drill chậm, test bằng resistance tăng dần."
+  ],
+  "relatedSkillIds": [
+    "leg-lock-defense",
+    "knee-line-escape",
+    "heel-hook-safety",
+    "straight-ankle-lock-safety"
+  ],
+  "relatedConceptIds": [
+    "knee-line",
+    "leg-lock-safety-hierarchy",
+    "early-vs-late-defense"
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "id": "single-leg-x-control",
+  "domain": "guard_offense",
+  "level": "intermediate",
+  "status": "draft",
+  "name": "single leg x Contrôle",
+  "aliases": [],
+  "tags": [
+    "single-leg-x",
+    "ashi-garami",
+    "guard",
+    "sweep",
+    "leg-entry",
+    "tier:modern-expansion",
+    "meta:modern-common",
+    "risk:medium",
+    "family:guard",
+    "group:single-leg_x",
+    "modern-no-gi"
+  ],
+  "keywords": [
+    "single leg x",
+    "ashi garami",
+    "foot on hip",
+    "ankle control"
+  ],
+  "modernSystemGroup": "single_leg_x",
+  "relatedSkills": [
+    {
+      "id": "x-guard-control",
+      "type": "recommended"
+    },
+    {
+      "id": "k-guard-matrix",
+      "type": "recommended"
+    },
+    {
+      "id": "butterfly-guard-off-balance",
+      "type": "recommended"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "seated-guard-retention",
+    "leg-lock-safety-basics"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [
+    "S'ils libèrent leur jambe, c'est que votre mèche était trop superficielle – rentrez avec une mèche plus profonde derrière son genou.",
+    "S’ils aplatissent votre pied-hanche, vous perdez le contrôle de la distance – republiez immédiatement avant qu’ils ne ferment l’espace.",
+    "S'ils vous attrapent la tête, nagez votre main dans leur bras et frappez-les jusqu'à leur col."
+  ],
+  "version": 1,
+  "updatedAt": "2026-05-21T00:24:30.782Z",
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "fr",
+  "description": "Contrôle total de la jambe piégée de l'adversaire avec les deux jambes en SLX, permettant des balayages vers la position supérieure, des prises en arrière ou des entrées de verrouillage de jambe.",
+  "shortInstruction": "Verrouillez la jambe, contrôlez la hanche, possédez la base – SLX est le contrôle, pas la survie.",
+  "summary": "Le contrôle X sur une seule jambe va au-delà des bases : cela signifie que vous possédez entièrement la jambe piégée de l'adversaire. Ils ne peuvent pas le libérer, ne peuvent pas en sortir et ne peuvent pas s’appuyer sur lui. À partir de ce niveau de contrôle, toutes les options sont disponibles : vous pouvez les balayer sur le dos, les reprendre lorsqu'ils postent ou les laisser tomber dans un enchevêtrement de jambes. La différence entre les contrôles de base SLX et SLX réside dans la profondeur de votre serrure et dans votre capacité à lire et à réagir à leurs changements de poids.",
+  "whyItWorks": [
+    "Un SLX correctement verrouillé vous donne l'avantage mécanique de deux jambes contre une : elles ne peuvent pas simplement se libérer.",
+    "Contrôler la hanche avec votre pied les empêche de tourner ou de contourner votre guard.",
+    "Votre proximité avec leur centre de masse signifie que chaque transfert de poids qu'ils effectuent est télégraphié à travers la jambe piégée.",
+    "Principe de Danaher : la transition de SLX à l'arrivée doit être continue – contrôle par le mouvement."
+  ],
+  "commonMistakes": [
+    "Verrouiller le SLX trop lâchement – ​​un SLX lâche leur donne la liberté de sortir ou de se positionner.",
+    "En vous concentrant uniquement sur la jambe coincée et en oubliant de vous battre au corps à corps, leurs mains peuvent toujours attaquer votre tête.",
+    "Rester trop longtemps dans SLX sans attaquer - vos jambes se fatigueront et elles s'échapperont.",
+    "Laissez-les saisir votre pied de hanche et retirer le poteau."
+  ],
+  "coachingCues": [
+    "Verrouillez bien, haut des hanches, restez actif.",
+    "Leur jambe est votre volant : ressentez chaque mouvement.",
+    "Si vous êtes à l'aise dans SLX, vous n'attaquez pas assez.",
+    "Traversez SLX – n'y campez pas."
+  ],
+  "safetySummary": [
+    "Protégez votre propre genou lorsqu'il essaie de sortir du SLX - relâchez et rentrez si vous sentez une torsion.",
+    "Gardez votre pied de hanche actif pour l'empêcher de saisir et de contrôler votre cheville.",
+    "Lorsque vous balayez depuis SLX, contrôlez votre propre chute pour éviter de mal atterrir sur le dos."
+  ],
+  "systemLogic": {
+    "corePrinciple": "Verrouillage profond de SLX → pied de hanche posté → sensation de transfert de poids → balayage d'attaque, prise en arrière ou enchevêtrement des jambes.",
+    "decisionTree": [
+      {
+        "condition": "Réaction 1 : Ils postent une main",
+        "action": "balayez-les vers l’arrière sur la jambe postée."
+      },
+      {
+        "condition": "Réaction 2 : ils restent assis",
+        "action": "entrez 50/50 ou saddle → attaque de jambe."
+      },
+      {
+        "condition": "Réaction 3 : Ils se détournent",
+        "action": "suivez la prise en arrière."
+      }
+    ],
+    "exitStrategies": []
+  },
+  "moneyDetails": [
+    "Votre verrou SLX doit être derrière son genou, et non au niveau de la cheville : le verrouillage au niveau du genou vous offre un effet de levier maximal.",
+    "Le pied de la hanche doit s'enfoncer dans l'os de la hanche, pas seulement au repos – la pression active modifie sa base.",
+    "Maintenez une poignée ou une poignée de poignet sur leur bras éloigné pour les empêcher de poster ou de vous attraper la tête.",
+    "Lorsqu'ils affichent une main pour défendre le balayage, ce bras est maintenant engagé – attaquez le armbar ou passez à l'arrière."
+  ],
+  "nextStep": "Après avoir maîtrisé le contrôle SLX, apprenez les balayages avancés et la transition continue vers X-guard.",
+  "fixItFast": [
+    "Ils continuent à libérer leur jambe ? Verrouillez plus haut – derrière le genou, pas le mollet.",
+    "Vous ne pouvez pas balayer ? Votre pied de hanche est trop passif – enfoncez-le dans sa hanche pendant que vous tirez sur la jambe coincée.",
+    "Ils vous attrapent le pied ? Frappez votre pied sous un angle différent – ​​ne les laissez pas régler leur prise."
+  ]
+}

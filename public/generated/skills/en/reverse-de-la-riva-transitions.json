@@ -1,0 +1,124 @@
+{
+  "id": "reverse-de-la-riva-transitions",
+  "domain": "guard_offense",
+  "level": "intermediate",
+  "status": "draft",
+  "name": "Reverse De La Riva Transitions",
+  "aliases": [],
+  "tags": [
+    "reverse-de-la-riva",
+    "guard",
+    "sweep"
+  ],
+  "keywords": [
+    "reverse de la riva",
+    "berimbolo",
+    "kimura trap",
+    "X-guard"
+  ],
+  "relatedSkills": [
+    {
+      "id": "de-la-riva-sweeps",
+      "type": "recommended"
+    },
+    {
+      "id": "x-guard-control",
+      "type": "recommended"
+    },
+    {
+      "id": "kimura-system",
+      "type": "recommended"
+    },
+    {
+      "id": "single-leg-x-control",
+      "type": "recommended"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "de-la-riva-sweeps",
+    "seated-guard-retention"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [
+    "If they step over your RDLR hook, your angle is wrong — rotate your hips more toward them.",
+    "If you can't enter X-guard, your hook is too shallow — re-hook deeper behind their knee.",
+    "If they flatten you, you lost the hip angle — get back to your side immediately."
+  ],
+  "version": 1,
+  "updatedAt": "2026-05-21T00:24:30.747Z",
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "en",
+  "description": "Use the outside hook and hip rotation from reverse De La Riva (RDLR) to transition to regular DLR, X-guard, single-leg X, kimura trap, or sweep.",
+  "shortInstruction": "Outside hook, hip rotation, transition to X-guard or sweep — RDLR is the entry to the entire lower-body game.",
+  "summary": "Reverse De La Riva (RDLR) is the counterpart to regular DLR. Where DLR hooks the inside of the near leg, RDLR hooks the outside. This gives you control over their leg from a different angle, opening transitions to X-guard, DLR, single-leg X, and the kimura trap. RDLR is especially effective against opponents who have already cleared your DLR hook or who are passing with a strong forward pressure.",
+  "whyItWorks": [
+    "The outside hook on their near leg prevents them from stepping forward into the pass — it blocks their forward movement.",
+    "Hip rotation from RDLR creates the angle to enter X-guard — one rotation, two guard positions.",
+    "RDLR sets up the kimura trap series, one of the highest-percentage no-gi attack chains.",
+    "Danaher principle: if DLR fails, switch to RDLR — two hooks are better than one."
+  ],
+  "commonMistakes": [
+    "Letting the RDLR hook get shallow — it must be deep behind their knee to control their leg.",
+    "Staying flat on your back — RDLR requires you to be on your side with active hip rotation.",
+    "Holding RDLR too long without transitioning — it is an entry, not a resting position.",
+    "Forgetting to control their far arm — without arm control, they can crossface or spin."
+  ],
+  "coachingCues": [
+    "Hook deep, turn the hip, find the entry.",
+    "RDLR is the door — X-guard is the room.",
+    "If they stand tall, go X-guard. If they kneel, go kimura trap.",
+    "Stay on your side, stay mobile."
+  ],
+  "safetySummary": [
+    "Keep your head off the mat and protect your neck from guillotines during the transition.",
+    "When rotating to X-guard, keep your hook active to avoid knee strain.",
+    "Do not fully extend your legs during the transition if your foot is not positioned on their hip."
+  ],
+  "systemLogic": {
+    "corePrinciple": "RDLR hook on outside of near leg → control their far arm → rotate hips → transition to X-guard, DLR, SLX, or kimura trap.",
+    "decisionTree": [
+      {
+        "condition": "Option 1: They stand tall",
+        "action": "rotate into X-guard → sweep."
+      },
+      {
+        "condition": "Option 2: They kneel or lean forward",
+        "action": "kimura trap → sweep or submission."
+      },
+      {
+        "condition": "Option 3: They step back",
+        "action": "switch to regular DLR → off-balance and enter."
+      }
+    ],
+    "exitStrategies": []
+  },
+  "moneyDetails": [
+    "Your RDLR hook should be deep behind their knee, with your foot hooking their outer thigh.",
+    "Control their far sleeve or wrist with your opposite hand — this prevents them from posting and basing.",
+    "To enter X-guard: rotate your hips toward them while keeping the RDLR hook — your other leg goes to their hip.",
+    "The kimura trap from RDLR is one of the most powerful no-gi attacks — if they resist the rotation, attack the kimura."
+  ],
+  "nextStep": "After RDLR transitions, learn the X-guard sweep and kimura trap system.",
+  "fixItFast": [
+    "Hook keeps slipping? Make it deeper — foot should hook behind their knee, not at the calf.",
+    "Can't rotate to X-guard? Your hip angle is too shallow — turn your hips more toward them.",
+    "They keep flattening you? You're staying in RDLR too long — flow through to X-guard faster."
+  ]
+}

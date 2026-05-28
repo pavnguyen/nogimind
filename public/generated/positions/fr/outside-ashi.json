@@ -1,0 +1,56 @@
+{
+  "id": "outside-ashi",
+  "locale": "fr",
+  "title": "Outside ashi",
+  "category": "leg_entanglement",
+  "status": "dangerous",
+  "description": "Un entanglement de jambe avec la jambe à l’extérieur de la ligne des hanches, lié au straight ankle lock et à l’exposition du talon.",
+  "topPlayerGoals": [
+    "Le joueur du dessus veut contrôler Outside ashi avec la position de tête, la position intérieure et une pression orientée.",
+    "L’attaquant veut garder la ligne du genou et contrôler le pied.",
+    "Garder une base stable pour éviter d’être déséquilibré ou contré."
+  ],
+  "bottomPlayerGoals": [
+    "Le joueur du dessous veut survivre en Outside ashi avec des cadres, du pummeling ou le bon angle.",
+    "Le défenseur veut cacher le talon, libérer la ligne du genou et dégager la jambe secondaire.",
+    "Reconnaître les signaux de danger tôt au lieu d’attendre que la position se stabilise."
+  ],
+  "controlPoints": [
+    "Point de contrôle principal : Ligne du genou, ligne du talon et jambe secondaire..",
+    "La tête, les mains, les hanches et les genoux doivent suivre la même direction de force.",
+    "La connexion coude-genou ou la ligne hanches-épaules détermine si la position reste vivante ou verrouillée."
+  ],
+  "escapePriorities": [
+    "Priorité de sortie : Cacher le talon avant de tourner..",
+    "Protéger le cou, le dos, la ligne du genou ou la ligne du bras avant de contrer.",
+    "Si la position intérieure est perdue, rétablir d’abord une couche défensive."
+  ],
+  "advancementOptions": [
+    {
+      "action": "Libérer la ligne du genou et réinitialiser en sécurité",
+      "nextPositionId": "scramble-neutral",
+      "relatedSkillIds": [
+        "straight-ankle-lock-safety",
+        "heel-hook-safety",
+        "leg-lock-safety-basics"
+      ],
+      "why": "C’est la branche naturelle lorsque vous gagnez le point de contrôle principal et que l’adversaire est forcé de défendre."
+    }
+  ],
+  "dangerSignals": [
+    "Le menton ou le cou sort de la ligne sûre.",
+    "Le coude se sépare des côtes ou du genou.",
+    "La ligne des hanches est verrouillée pendant que la ligne des épaules est encore tirée.",
+    "Vous devez poser une main loin pour éviter de tomber."
+  ],
+  "relatedSkillIds": [
+    "straight-ankle-lock-safety",
+    "heel-hook-safety",
+    "leg-lock-safety-basics"
+  ],
+  "relatedConceptIds": [
+    "knee-line",
+    "leg-lock-safety-hierarchy",
+    "early-vs-late-defense"
+  ]
+}

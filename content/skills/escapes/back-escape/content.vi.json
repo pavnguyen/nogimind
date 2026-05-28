@@ -1,0 +1,62 @@
+{
+  "id": "back-escape",
+  "locale": "vi",
+  "name": "Trở lại Thoát",
+  "description": "Thoát khỏi phía sau bằng cách giành chiến thắng trong cuộc giao tranh bằng tay, trượt đường vai và chuyển sang guard hoặc trên cùng.",
+  "shortInstruction": "Kiểm soát bàn tay đang bị nghẹn, thả vai qua đường hông, tạo một móc ra và biến thành guard hoặc đứng lên.",
+  "summary": "Thoát lùi đòi hỏi phải thắng trong giao tranh tay trước, sau đó tạo khoảng trống bằng cách thả vai bị mắc kẹt xuống dưới đường hông của đối phương. Một nhánh có hệ thống: đánh tay → trượt vai → tháo móc đơn → xoay người hoặc đứng lên.",
+  "whyItWorks": [
+    "Kiểm soát bàn tay nghẹt thở sẽ ngăn chặn mối đe dọa kết liễu chính trước khi bạn thực hiện cuộc trốn thoát",
+    "Việc thả vai xuống dưới đường hông sẽ loại bỏ khả năng kiểm soát cấu trúc chính của chúng - kết nối xương sườn với lưng",
+    "Loại bỏ từng móc một sẽ dễ dàng hơn là cố gắng loại bỏ cả hai cùng một lúc",
+    "Xoay vào chúng thay vì tránh đi giúp giảm nguy cơ bị lộ lưng lần nữa trong nỗ lực trốn thoát"
+  ],
+  "commonMistakes": [
+    "Chiến đấu với cơ thể triangle thay vì dùng tay bóp cổ — bạn có thể sống sót bằng cơ thể triangle nhưng không thể sống sót khi bị bóp cổ",
+    "Quay mặt khỏi đối phương (đưa cổ bên kia) thay vì quay vào ngực họ",
+    "Dùng cả hai tay vào tay bị nghẹn và để móc gần hoàn toàn không kiểm soát được",
+    "Chờ đợi quá lâu — lưng họ càng dài, seatbelt của họ càng chặt và việc trốn thoát càng khó"
+  ],
+  "coachingCues": [
+    "Đánh tay trước luôn",
+    "Vai dưới đường hông",
+    "Mỗi lần một cái móc"
+  ],
+  "safetySummary": [
+    "rear-naked choke xuất hiện nhanh — nếu bạn cảm thấy đường quai hàm mở ra, hãy nhấn và đặt lại trước khi bất tỉnh",
+    "Không sử dụng các động tác nổ có thể vô tình gây ra áp lực cột sống khi lăn từ phía sau",
+    "Nếu đối thủ có cơ thể triangle, hãy ưu tiên thở và đấu tay hơn là chuyển động hoảng loạn"
+  ],
+  "keyCorrections": [],
+  "systemLogic": {
+    "corePrinciple": "Động tác thoát ra phía sau tuân theo trình tự bốn bước: đánh tay (điều khiển tay bị nghẹn) → trượt vai (thả vai bị mắc kẹt xuống dưới đường hông) → tháo móc (tháo từng móc một) → xoay người hoặc đứng lên",
+    "decisionTree": [
+      {
+        "condition": "Trong giai đoạn Đấu tay đôi",
+        "action": "Dùng cả hai tay giữ chặt cẳng tay đang bị nghẹn của trẻ, tách cánh tay ra khỏi cổ, giữ chặt vào ngực."
+      },
+      {
+        "condition": "Trong giai đoạn trượt vai",
+        "action": "Sau khi điều khiển cánh tay, hãy ngồi hông ra xa và thả vai bị mắc kẹt qua đường hông của họ - điều này sẽ làm mất khả năng kiểm soát seatbelt của họ"
+      },
+      {
+        "condition": "Họ chuyển sang nỗ lực armbar trong quá trình trốn thoát",
+        "action": "Giữ khuỷu tay của bạn chặt vào xương sườn và tiếp tục quay về phía chúng"
+      }
+    ],
+    "exitStrategies": [
+      "Nếu việc trốn thoát không thành công và họ thiết lập lại back control, hãy đặt lại giai đoạn đấu tay đôi và bắt đầu lại",
+      "Nếu họ đè bạn xuống bụng, hãy bảo vệ cổ của bạn và sử dụng tư thế đứng trên tường/đấu vật thay vì lăn lộn"
+    ]
+  },
+  "moneyDetails": [
+    "Trở lại thoát khỏi chiến thắng trong các trận đấu bằng cách từ chối 4 điểm cho đối thủ và trở về vị trí trung lập hoặc có lợi",
+    "Lối thoát lùi đáng tin cậy giúp loại bỏ nỗi sợ back control — bạn có thể gặp nhiều rủi ro hơn khi tham gia các cuộc tranh giành",
+    "Các đối thủ có khả năng thoát lưng mạnh sẽ khó về đích hơn đáng kể trong các giải đấu"
+  ],
+  "fixItFast": [
+    "Nếu bạn không thể với tới bàn tay đang bị nghẹn: hãy kẹp tay áo của họ vào ngực bạn bằng cách giấu cằm và lột da bằng tay đối diện",
+    "Nếu bạn tháo một móc nhưng chúng thay thế nó ngay lập tức: hãy giữ chân đã được thông rộng và không để nó móc lại",
+    "Nếu chúng đè bẹp bạn từ phía sau: hãy bảo vệ cổ, quỳ xuống và sử dụng tư thế đứng trên tường/đấu vật thay vì lăn"
+  ]
+}

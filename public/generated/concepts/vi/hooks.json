@@ -1,0 +1,65 @@
+{
+  "id": "hooks",
+  "locale": "vi",
+  "title": "Hooks",
+  "category": "mechanical",
+  "level": "fundamental",
+  "tags": [
+    "hook",
+    "butterfly",
+    "back control"
+  ],
+  "shortDefinition": "Hook là chân hoặc bàn chân gắn vào đối thủ để nâng, kéo, giữ hip line hoặc tạo off-balance.",
+  "whyItMatters": "Hooks sống làm guard retention, butterfly, back control và single leg X hoạt động.",
+  "deepExplanation": "Hook không phải chỉ đặt chân. Nó cần knee angle, instep/heel tension và hip connection. Hook chết bị smash; hook sống buộc đối thủ post hoặc adjust base.",
+  "beginnerView": "Giữ toes active và biết hook đang kéo hay nâng.",
+  "advancedView": "Dùng hook như sensor: khi họ shift weight, bạn đổi sweep, wrestle-up hoặc retention.",
+  "ifThenExamples": [
+    {
+      "if": "Nếu bạn mất Hooks trong trao đổi.",
+      "then": "Dừng tăng tốc, lấy lại cấu trúc cơ thể gần nhất rồi mới tiếp tục kỹ thuật.",
+      "why": "No-gi hiện đại phạt rất nhanh khi bạn cố thắng bằng sức sau khi mất cấu trúc.",
+      "relatedSkillIds": [
+        "butterfly-guard-off-balance",
+        "seated-guard-retention"
+      ]
+    },
+    {
+      "if": "Nếu đối thủ phản ứng đúng với hướng đầu tiên.",
+      "then": "Dùng Hooks để đổi sang nhánh an toàn hơn thay vì ép cùng một hướng.",
+      "why": "Concept tốt biến phản ứng của đối thủ thành thông tin cho quyết định tiếp theo.",
+      "relatedSkillIds": [
+        "seated-guard-retention",
+        "back-control",
+        "single-leg-x-control"
+      ]
+    }
+  ],
+  "commonMisunderstandings": [
+    {
+      "misunderstanding": "Hooks là một mẹo kỹ thuật riêng lẻ.",
+      "correction": "Hãy xem nó như quy tắc quyết định xuất hiện trong nhiều vị trí khác nhau."
+    },
+    {
+      "misunderstanding": "Bạn chỉ cần hiểu khái niệm là tự động dùng được trong live roll.",
+      "correction": "Khái niệm phải được gắn với body signal, cue ngắn và positional rolling."
+    }
+  ],
+  "trainingCues": [
+    "Gọi tên Hooks trước khi tăng lực.",
+    "Tìm body signal, không đoán bằng cảm giác chung.",
+    "Nếu mất cấu trúc, reset một layer trước.",
+    "Drill chậm, test bằng resistance tăng dần."
+  ],
+  "relatedSkillIds": [
+    "butterfly-guard-off-balance",
+    "seated-guard-retention",
+    "back-control",
+    "single-leg-x-control"
+  ],
+  "relatedConceptIds": [
+    "base-balance",
+    "connection-before-control",
+    "guard-retention-layers"
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "id": "cross-wrist-ride-position",
+  "locale": "fr",
+  "title": "Cross-wrist ride",
+  "category": "back",
+  "status": "advantage",
+  "description": "Un ride depuis turtle/side où l’attaquant contrôle les deux poignets, étirant les bras de l’adversaire pour exposer le dos.",
+  "topPlayerGoals": [
+    "Le joueur du dessus veut contrôler Cross-wrist ride avec la position de tête, la position intérieure et une pression orientée.",
+    "Tenir les deux poignets, maintenir pression poitrine et ouvrir entrée hook.",
+    "Garder une base stable pour éviter d’être déséquilibré ou contré."
+  ],
+  "bottomPlayerGoals": [
+    "Le joueur du dessous veut survivre en Cross-wrist ride avec des cadres, du pummeling ou le bon angle.",
+    "Ramener les deux bras au corps, reconstruire base et empêcher séparation shoulder line.",
+    "Reconnaître les signaux de danger tôt au lieu d’attendre que la position se stabilise."
+  ],
+  "controlPoints": [
+    "Point de contrôle principal : Deux poignets contrôlés, connexion poitrine-dos et angle knee ride..",
+    "La tête, les mains, les hanches et les genoux doivent suivre la même direction de force.",
+    "La connexion coude-genou ou la ligne hanches-épaules détermine si la position reste vivante ou verrouillée."
+  ],
+  "escapePriorities": [
+    "Priorité de sortie : Ramener coudes aux côtes avant tirer bras — ne pas tirer droit à la poitrine..",
+    "Protéger le cou, le dos, la ligne du genou ou la ligne du bras avant de contrer.",
+    "Si la position intérieure est perdue, rétablir d’abord une couche défensive."
+  ],
+  "advancementOptions": [
+    {
+      "action": "Passer en hook seatbelt ou body triangle",
+      "nextPositionId": "back-control-position",
+      "relatedSkillIds": [
+        "cross-wrist-ride",
+        "turtle-ride",
+        "back-control"
+      ],
+      "why": "C’est la branche naturelle lorsque vous gagnez le point de contrôle principal et que l’adversaire est forcé de défendre."
+    }
+  ],
+  "dangerSignals": [
+    "Le menton ou le cou sort de la ligne sûre.",
+    "Le coude se sépare des côtes ou du genou.",
+    "La ligne des hanches est verrouillée pendant que la ligne des épaules est encore tirée.",
+    "Vous devez poser une main loin pour éviter de tomber."
+  ],
+  "relatedSkillIds": [
+    "cross-wrist-ride",
+    "turtle-ride",
+    "back-control",
+    "crab-ride"
+  ],
+  "relatedConceptIds": [
+    "ride-vs-pin-vs-submission",
+    "hooks",
+    "connection-before-control"
+  ]
+}

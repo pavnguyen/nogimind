@@ -1,0 +1,61 @@
+{
+  "id": "reverse-buggy-choke",
+  "locale": "en",
+  "name": "Reverse Buggy Choke",
+  "description": "A choke from bottom side control where you wrap your legs around the opponent's neck and arm — a lower-percentage attack that should not replace fundamental frames and hip escapes.",
+  "shortInstruction": "Wrap legs around their neck and arm, squeeze — the reverse buggy is a desperation attack from bottom side control.",
+  "summary": "The reverse buggy choke is a variation of the buggy choke from bottom side control. The key difference is the leg positioning — in the reverse buggy, your legs wrap around their neck and one arm from the opposite side. Like the standard buggy choke, it is a surprise attack rather than a primary strategy. It works best against opponents who pressure heavily with a crossface, leaving their neck exposed on the other side.",
+  "whyItWorks": [
+    "The element of surprise — opponents do not expect a choke from bottom side control.",
+    "Can catch opponents who are heavy on the crossface side, exposing their neck.",
+    "Creates a momentary dilemma — defend the choke or maintain side control.",
+    "Useful as a last-resort attack when conventional escapes are failing."
+  ],
+  "commonMistakes": [
+    "Using it as a primary escape instead of frames and hip escapes.",
+    "Leaving the underhook available — the underhook is more important than the choke.",
+    "Letting the opponent stack you — this neutralizes the choke and puts you in danger.",
+    "Wasting energy on the choke when you could be escaping to a better position."
+  ],
+  "coachingCues": [
+    "Surprise weapon, not primary strategy.",
+    "If they stack you, release immediately.",
+    "Underhook first, then attack — never the other way.",
+    "One attempt — if it fails, return to fundamentals."
+  ],
+  "safetySummary": [
+    "The reverse buggy choke compresses the neck — apply gradually and release on tap.",
+    "Do not use against larger opponents who can stack you — the stack can injure your lower back.",
+    "Tap early if you feel the choke is being applied to your own neck."
+  ],
+  "keyCorrections": [
+    "If they stack you, you committed too early or at the wrong angle — release and reset to frames.",
+    "If they pull their arm free, your leg wrap was too loose — wrap tighter or abandon the choke.",
+    "If you can't finish, return to conventional side control escapes (hip escape, underhook)."
+  ],
+  "systemLogic": {
+    "corePrinciple": "Bottom side control: opponent is heavy on crossface side → wrap legs around their neck and arm → squeeze → choke.",
+    "decisionTree": [
+      {
+        "condition": "General application",
+        "action": "The reverse buggy is a tertiary option — frames and hip escapes are primary."
+      },
+      {
+        "condition": "the choke fails",
+        "action": "go to hip escape and underhook recovery."
+      }
+    ]
+  },
+  "moneyDetails": [
+    "The leg wrap must include their neck AND one arm — wrapping only the neck will not secure the choke.",
+    "Keep your top leg over their back to prevent them from pulling out of the wrap.",
+    "The choke comes from squeezing your thighs together — not from pulling with your legs.",
+    "If they posture up, the choke is lost — immediately return to frames and hip escape."
+  ],
+  "nextStep": "After understanding the reverse buggy choke, focus on primary side control escapes: frames, hip escape, and underhook recovery.",
+  "fixItFast": [
+    "They stack you? Release and frame on their hips.",
+    "Legs slipping off? Wrap tighter around their arm.",
+    "Can't get the choke? Return to frames and hip escape."
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "x-guard-control",
+  "domain": "guard_offense",
+  "level": "intermediate",
+  "name": "X-Guard Control",
+  "aliases": [],
+  "tags": [
+    "x-guard",
+    "guard",
+    "sweep",
+    "off-balance",
+    "tier:modern-expansion",
+    "meta:modern-common",
+    "risk:medium",
+    "family:guard",
+    "group:x-guard",
+    "modern-no-gi"
+  ],
+  "keywords": [
+    "x-guard",
+    "foot on hip",
+    "off-balance",
+    "leg wrap"
+  ],
+  "modernSystemGroup": "x_guard",
+  "relatedSkills": [
+    {
+      "id": "single-leg-x-control",
+      "type": "recommended"
+    },
+    {
+      "id": "k-guard-matrix",
+      "type": "recommended"
+    },
+    {
+      "id": "guard-pulling-strategy",
+      "type": "recommended"
+    }
+  ],
+  "prerequisiteSkillIds": [
+    "supine-guard-retention",
+    "seated-guard-retention"
+  ],
+  "relatedPositions": [],
+  "relatedConcepts": [],
+  "archetypeIds": [],
+  "trainingMethodIds": [],
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "updatedAt": "2026-05-21T00:24:30.782Z"
+}

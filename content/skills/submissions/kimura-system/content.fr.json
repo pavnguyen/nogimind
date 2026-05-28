@@ -1,0 +1,61 @@
+{
+  "id": "kimura-system",
+  "locale": "fr",
+  "name": "kimura Système",
+  "description": "Utilisez la poignée kimura comme centre de contrôle pour les balayages, les passes, les prises en arrière ou les finitions – le kimura est une position, pas seulement une soumission.",
+  "shortInstruction": "Saisissez le poignet, le bras en quatre, faites pivoter l'épaule - le kimura est le contrôle en premier, la soumission en second.",
+  "summary": "Le kimura est la soumission la plus polyvalente de No-Gi BJJ. La poignée kimura (une main tenant son poignet du même côté, l'autre bras s'enfilant pour saisir votre propre poignet) est plus couramment utilisée comme position de contrôle que comme soumission. Depuis la prise kimura, vous pouvez : balayer, passer le guard, prendre le dos, ou terminer le lock d'épaule. Le système est basé sur l’isolation d’un de leurs bras et son utilisation comme poignée pour contrôler tout leur corps.",
+  "whyItWorks": [
+    "La poignée kimura crée un verrou en forme de quatre sur son bras qu'il ne peut pas facilement briser : une fois verrouillé, vous contrôlez son épaule.",
+    "Utiliser son bras comme « poignée » vous donne le contrôle sur tout son corps : lorsque vous bougez son bras, son corps suit.",
+    "Le système kimura fonctionne à partir de presque toutes les positions : guard, side control, half guard, mount et transitions.",
+    "Principe Danaher : le kimura est la soumission la plus polyvalente du BJJ car c'est aussi la meilleure position de contrôle."
+  ],
+  "commonMistakes": [
+    "Rechercher la soumission avant d'établir le contrôle - le kimura est d'abord une position de contrôle.",
+    "Laisser l'adversaire tendre son bras - un bras tendu échappe au verrou kimura.",
+    "En utilisant uniquement la force des bras au lieu de la rotation du corps, la finition kimura vient de la rotation de vos hanches.",
+    "Perdre la poignée du poignet – la poignée du poignet est le point d’ancrage de tout le système."
+  ],
+  "coachingCues": [
+    "kimura est le contrôle — la soumission n'est qu'une option.",
+    "Contrôlez le poignet, verrouillez le chiffre quatre, possédez leur corps.",
+    "Si vous avez la poignée kimura, vous avez la position – choisissez maintenant votre attaque.",
+    "Faites pivoter l’épaule, pas le bras – la rotation de l’épaule est la fin."
+  ],
+  "safetySummary": [
+    "Le kimura applique une pression de rotation sur l’épaule et le coude – appliquez-la progressivement.",
+    "Ne actionnez pas le verrou d’épaule – les blessures à l’épaule peuvent mettre des mois à se rétablir.",
+    "Relâchez immédiatement en appuyant – le kimura peut causer de graves blessures à l'épaule avec une force minimale."
+  ],
+  "keyCorrections": [
+    "S’il redresse son bras, vous perdez l’angle – tirez son coude vers vous pour replier le bras.",
+    "Si vous ne parvenez pas à terminer, votre rotation est insuffisante : ramenez le coude vers vos hanches pendant la rotation.",
+    "S'ils saisissent leur propre jambe pour se défendre, passez au armbar ou à la prise arrière."
+  ],
+  "systemLogic": {
+    "corePrinciple": "Prise sécurisée kimura (contrôle du poignet + chiffre quatre) : utilisez son bras comme poignée → choisissez votre attaque en fonction de sa réaction.",
+    "decisionTree": [
+      {
+        "condition": "Utilisation de l'option 1",
+        "action": "Ils résistent à la → kimura soumission. Option 2 : Ils publient → balayent vers le haut."
+      },
+      {
+        "condition": "Utilisation de l'option 3",
+        "action": "Ils se détournent → prennent le dos. Option 4 : Ils font le mort → passez le guard."
+      }
+    ]
+  },
+  "moneyDetails": [
+    "La prise de votre poignet doit être forte : quatre doigts sur son poignet, le pouce sur sa paume pour le contrôle.",
+    "Le verrou en forme de quatre doit être à votre propre poignet, pas au leur – cela vous donne un effet de levier maximal.",
+    "Gardez le coude plié partout – un bras droit peut se libérer du kimura.",
+    "La finition est une rotation : ramenez son coude vers votre nombril tout en détournant vos épaules."
+  ],
+  "nextStep": "Après le système kimura, apprenez le système armbar et baratoplata à enchaîner avec le kimura.",
+  "fixItFast": [
+    "Le bras continue de se redresser ? Tirez son coude vers vous pour le replier.",
+    "Vous ne pouvez pas terminer ? Faites pivoter davantage vos épaules – la finition est une rotation des épaules, pas une traction des bras.",
+    "Ils défendent en saisissant leur ceinture ? Passez au armbar ou au omoplata."
+  ]
+}

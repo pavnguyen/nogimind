@@ -1,0 +1,71 @@
+{
+  "id": "single-leg-bjj",
+  "locale": "en",
+  "name": "Single Leg for BJJ",
+  "description": "Finish the single leg while respecting guillotine, kimura, and guard pull threats in BJJ. The single leg in BJJ must be adapted from wrestling to account for the unique counters that exist in submission grappling.",
+  "shortInstruction": "Secure the leg, keep your head to the outside (not the center), and finish by running the pipe, lifting, or circling to the back. Never let your head drift to the inside where they can guillotine you.",
+  "summary": "The BJJ single leg is a modified version of the wrestling single leg that prioritizes safety from submission counters. The key adaptations are: head position must always be to the outside (cheek to their hip/back) rather than the inside (chest to their chest), the finish prioritizes running the pipe (driving them laterally) over lifting (which exposes the guillotine), and the back take is always available as a high-percentage alternative to the takedown finish.",
+  "whyItWorks": [
+    "Outside head position prevents the guillotine — the most common counter to single legs in BJJ",
+    "Running the pipe (lateral drive) keeps your head safe and uses their weight against them",
+    "The back take from the single leg is a BJJ-specific adaptation that scores 4 points instead of 2",
+    "The single leg transitions to both top position and back control — it is the most versatile takedown in BJJ"
+  ],
+  "commonMistakes": [
+    "Letting your head drift inside (chest to chest) — this exposes you to the guillotine, kimura, and front headlock",
+    "Trying to lift the leg straight up — this delays the finish and exposes the guillotine",
+    "Staying too long on the leg — the single leg must be finished quickly or abandoned",
+    "Not transitioning to the back when the finish is blocked"
+  ],
+  "coachingCues": [
+    "Head to the outside, always",
+    "Run the pipe, don't lift",
+    "Finish or transition — don't stall",
+    "Back take is always available"
+  ],
+  "safetySummary": [
+    "The guillotine from a failed single leg is the most common choke in BJJ — keep your head to the outside at all times",
+    "If you feel the guillotine setting up, immediately circle to the back rather than trying to finish the takedown",
+    "Do not hold the single leg and stand straight — this exposes the knee to reaps and the neck to guillotines"
+  ],
+  "keyCorrections": [
+    "If they guillotine you: your head was inside — circle to the back immediately to relieve the choke pressure",
+    "If they kimura your trapped arm: do not fight the kimura — release the leg and re-engage from standing",
+    "If they hop away on one leg: switch to a high crotch or dump them laterally with the running pipe"
+  ],
+  "systemLogic": {
+    "corePrinciple": "The BJJ single leg has four finishes: Running Pipe → Lift → Back Take → High Crotch Dump",
+    "decisionTree": [
+      {
+        "condition": "Using Finish 1 (Running Pipe (highest priority))",
+        "action": "with the leg trapped and head outside, drive them laterally across the mat. Their far leg cannot keep up with the lateral movement and they fall. Safest finish in BJJ"
+      },
+      {
+        "condition": "Using Finish 2 (Lift)",
+        "action": "if they are off-balance (weight on one leg), lift the trapped leg and drive them backward. Only use this if head position is confirmed outside"
+      },
+      {
+        "condition": "Using Finish 3 (Back Take)",
+        "action": "if they sprawl on the single leg, release the leg and circle behind them. The back take scores 4 points and avoids the sprawl counter"
+      },
+      {
+        "condition": "Using Finish 4 (High Crotch Dump)",
+        "action": "if they post the far leg back, switch to a high crotch grip and dump them to the opposite side"
+      },
+      {
+        "condition": "Defensive reactions",
+        "action": "if they guillotine → back take. If they kimura → release and re-engage. If they sprawl → back take"
+      }
+    ]
+  },
+  "moneyDetails": [
+    "The single leg is the most common takedown in BJJ — a reliable finish is essential for competitive success",
+    "Mastering the BJJ-adapted single leg removes the fear of takedown counters and allows you to shoot with confidence",
+    "The single leg to back take is the highest-value sequence in no-gi takedowns (4 points instead of 2)"
+  ],
+  "fixItFast": [
+    "If they sprawl on the single leg: go to the back take — do not fight the sprawl",
+    "If they guillotine: circle to the back immediately — the back take defeats the guillotine",
+    "If they hop on one leg: drive them laterally with the running pipe — they cannot hop sideways"
+  ]
+}

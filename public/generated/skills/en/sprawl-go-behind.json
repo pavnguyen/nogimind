@@ -1,0 +1,124 @@
+{
+  "id": "sprawl-go-behind",
+  "domain": "wrestle_up_wrestling",
+  "level": "intermediate",
+  "status": "draft",
+  "name": "Sprawl and Go-Behind",
+  "aliases": [],
+  "tags": [
+    "wrestling",
+    "defense"
+  ],
+  "keywords": [
+    "sprawl",
+    "go-behind",
+    "front headlock",
+    "turtle"
+  ],
+  "relatedSkills": [
+    {
+      "id": "turtle-ride",
+      "type": "recommended"
+    },
+    {
+      "id": "back-control",
+      "type": "recommended"
+    },
+    {
+      "id": "snapdown-front-headlock",
+      "type": "recommended"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "hand-fighting"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [
+    "If they complete the takedown despite your sprawl: your hips were too high — drive them lower onto their back",
+    "If they stand up before you circle: you waited too long — circle the moment the sprawl lands",
+    "If they turn into you: switch to a front headlock — do not force the back take"
+  ],
+  "version": 1,
+  "updatedAt": "2026-05-21T00:24:30.761Z",
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "en",
+  "description": "Use the sprawl to break the opponent's shot, then circle behind before they rebuild their base. The sprawl and go-behind is the highest-percentage takedown defense in no-gi — it converts defensive sprawl directly into offensive back control.",
+  "shortInstruction": "Sprawl by driving your hips down on their back, post your hands on their shoulders, then circle to one side and take the back. Do not let them rebuild their base.",
+  "summary": "The sprawl and go-behind sequence is: (1) sprawl — drive your hips onto their lower back as they shoot, (2) control — post your hands on their shoulders or head to prevent them from standing, (3) circle — step to one side and circle behind them, (4) secure — take the back with hooks or a seatbelt. The timing must be immediate — if you wait for them to re-establish their base, the back take window closes.",
+  "whyItWorks": [
+    "The sprawl transfers your weight onto their lower back, removing their ability to lift or drive forward",
+    "The opponent's forward momentum from the shot carries them past their base — they cannot reverse direction quickly",
+    "Circling behind attacks the blind spot created by the sprawl — they cannot see you or post to stop you",
+    "The sprawl and go-behind scores 3 points (takedown defense + back take) in most grappling rule sets"
+  ],
+  "commonMistakes": [
+    "Sprawling with straight arms — this lets them drive through and complete the takedown",
+    "Staying directly on top after the sprawl — you must circle off, not stay centered",
+    "Letting them rebuild their base before circling — the back take window is immediate",
+    "Not posting on their shoulders — without the shoulder post, they can stand up and re-shoot"
+  ],
+  "coachingCues": [
+    "Hips down, hands on shoulders",
+    "Circle off immediately, don't stay",
+    "Take the back before they base",
+    "Sprawl → circle → back take"
+  ],
+  "safetySummary": [
+    "The sprawl can cause hyperextension of the lower back if you drop your hips too aggressively — control the descent",
+    "When circling behind, keep your weight on their back to prevent them from sitting up into you",
+    "If the opponent rolls to escape the back take, protect your head and maintain the back position"
+  ],
+  "systemLogic": {
+    "corePrinciple": "The sprawl and go-behind has four phases: Sprawl → Control → Circle → Back Take",
+    "decisionTree": [
+      {
+        "condition": "In Phase 1 (Sprawl)",
+        "action": "as the opponent shoots, drive both feet back, drop your hips onto their lower back, and post your hands on their shoulders. Your chest should be on their upper back"
+      },
+      {
+        "condition": "In Phase 2 (Control)",
+        "action": "maintain hand pressure on their shoulders to prevent them from standing. Your weight should keep them pinned to the mat on their stomach"
+      },
+      {
+        "condition": "In Phase 3 (Circle)",
+        "action": "step to one side (usually the side of their near leg) and circle your body behind them. Keep your weight on their back as you circle"
+      },
+      {
+        "condition": "In Phase 4 (Back Take)",
+        "action": "once behind, secure the seatbelt (one arm over the far shoulder, hand on the near hip) and slide your hooks in. If they resist, switch to the body triangle"
+      },
+      {
+        "condition": "the go-behind fails",
+        "action": "they turned into you → use the front headlock. They sat up → re-sprawl. They rolled away → follow and take the back"
+      }
+    ],
+    "exitStrategies": []
+  },
+  "moneyDetails": [
+    "The sprawl and go-behind is the most important takedown defense in grappling — every grappler faces shots and must know how to counter them",
+    "Mastering the sprawl and go-behind neutralizes the opponent's entire takedown game — they will hesitate to shoot",
+    "The sprawl to back take is the highest-value defensive transition (points and position)"
+  ],
+  "fixItFast": [
+    "If they re-shoot during the sprawl: sprawl again, deeper — their second shot is weaker",
+    "If they turn into you: switch to the front headlock and chain attacks from there",
+    "If they sit up and face you: re-establish the collar tie and reset to neutral"
+  ]
+}

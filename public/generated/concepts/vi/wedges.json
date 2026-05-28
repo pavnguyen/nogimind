@@ -1,0 +1,65 @@
+{
+  "id": "wedges",
+  "locale": "vi",
+  "title": "Wedges",
+  "category": "mechanical",
+  "level": "intermediate",
+  "tags": [
+    "wedge",
+    "knee shield",
+    "shin frame"
+  ],
+  "shortDefinition": "Wedge là phần cơ thể chèn vào khoảng trống để chặn rotation hoặc connection của đối thủ.",
+  "whyItMatters": "Wedge tốt làm đối thủ không thể nối chest-to-chest, chest-to-hip hoặc shoulder line.",
+  "deepExplanation": "Knee shield, shin frame, head post, elbow wedge và hip block đều là wedge. Chúng không chỉ tạo khoảng cách; chúng làm hướng lực của đối thủ bị lệch.",
+  "beginnerView": "Chèn gối/khuỷu/shin vào nơi đối thủ muốn dính chest.",
+  "advancedView": "Dùng wedge để buộc đối thủ đổi pass line, rồi attack reaction đó.",
+  "ifThenExamples": [
+    {
+      "if": "Nếu bạn mất Wedges trong trao đổi.",
+      "then": "Dừng tăng tốc, lấy lại cấu trúc cơ thể gần nhất rồi mới tiếp tục kỹ thuật.",
+      "why": "No-gi hiện đại phạt rất nhanh khi bạn cố thắng bằng sức sau khi mất cấu trúc.",
+      "relatedSkillIds": [
+        "half-guard-knee-shield",
+        "seated-guard-retention"
+      ]
+    },
+    {
+      "if": "Nếu đối thủ phản ứng đúng với hướng đầu tiên.",
+      "then": "Dùng Wedges để đổi sang nhánh an toàn hơn thay vì ép cùng một hướng.",
+      "why": "Concept tốt biến phản ứng của đối thủ thành thông tin cho quyết định tiếp theo.",
+      "relatedSkillIds": [
+        "seated-guard-retention",
+        "bodylock-passing",
+        "side-control-escape"
+      ]
+    }
+  ],
+  "commonMisunderstandings": [
+    {
+      "misunderstanding": "Wedges là một mẹo kỹ thuật riêng lẻ.",
+      "correction": "Hãy xem nó như quy tắc quyết định xuất hiện trong nhiều vị trí khác nhau."
+    },
+    {
+      "misunderstanding": "Bạn chỉ cần hiểu khái niệm là tự động dùng được trong live roll.",
+      "correction": "Khái niệm phải được gắn với body signal, cue ngắn và positional rolling."
+    }
+  ],
+  "trainingCues": [
+    "Gọi tên Wedges trước khi tăng lực.",
+    "Tìm body signal, không đoán bằng cảm giác chung.",
+    "Nếu mất cấu trúc, reset một layer trước.",
+    "Drill chậm, test bằng resistance tăng dần."
+  ],
+  "relatedSkillIds": [
+    "half-guard-knee-shield",
+    "seated-guard-retention",
+    "bodylock-passing",
+    "side-control-escape"
+  ],
+  "relatedConceptIds": [
+    "frames",
+    "inside-position",
+    "pressure-direction"
+  ]
+}

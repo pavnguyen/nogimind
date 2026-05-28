@@ -1,0 +1,201 @@
+{
+  "id": "seated-guard-retention",
+  "domain": "guard_retention",
+  "level": "beginner",
+  "status": "draft",
+  "name": "Ngồi guard Giữ chân",
+  "aliases": [
+    "seated guard",
+    "sitting guard retention",
+    "open guard retention seated"
+  ],
+  "tags": [],
+  "keywords": [
+    "guard retention",
+    "open guard",
+    "frames",
+    "seated guard",
+    "no gi guard",
+    "inside position"
+  ],
+  "relatedSkills": [
+    {
+      "id": "supine-guard-retention",
+      "type": "alternative"
+    },
+    {
+      "id": "frames-pummeling",
+      "type": "prerequisite"
+    },
+    {
+      "id": "technical-stand-up",
+      "type": "supporting"
+    },
+    {
+      "id": "shin-to-shin-entry",
+      "type": "chain"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [
+    "seated-guard",
+    "open-guard-bottom"
+  ],
+  "relatedPositionIds": [],
+  "relatedConcepts": [
+    "inside-position",
+    "knee-line",
+    "frames-pummeling",
+    "hip-control"
+  ],
+  "relatedConceptIds": [],
+  "archetypeIds": [
+    "guard-player",
+    "passing-specialist"
+  ],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [],
+  "trainingMethodIds": [
+    "static-repetition",
+    "progressive-resistance"
+  ],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "bodyToBodyDetails": {
+    "phases": [
+      {
+        "order": 1,
+        "name": "Establish Inside Position",
+        "description": "Keep knees between you and opponent. Fight for inside position on both sides."
+      },
+      {
+        "order": 2,
+        "name": "Frame on Contact",
+        "description": "When opponent closes distance, establish frames on biceps/shoulders to create space."
+      },
+      {
+        "order": 3,
+        "name": "Pummel for Inside Control",
+        "description": "Pummel arms and legs back to inside position whenever they are pushed outside."
+      },
+      {
+        "order": 4,
+        "name": "Manage Distance",
+        "description": "Use feet on hips or biceps frames to maintain distance; don't let them collapse your guard."
+      }
+    ],
+    "contactPoints": [
+      {
+        "bodyPart": "feet",
+        "target": "hips",
+        "role": "distance management"
+      },
+      {
+        "bodyPart": "hands",
+        "target": "biceps/shoulders",
+        "role": "frame"
+      },
+      {
+        "bodyPart": "knees",
+        "target": "center",
+        "role": "inside position"
+      }
+    ]
+  },
+  "systemLogic": {
+    "corePrinciple": "guard giữ chân là một trò chơi quản lý khoảng cách — bàn chân và khung của bạn là tuyến phòng thủ đầu tiên. Phản ứng với hướng vượt qua trước khi thực hiện một cuộc chạy trốn hoặc phản công.",
+    "decisionTree": [
+      {
+        "condition": "Người qua đường đang đứng và đi vòng quanh",
+        "action": "Giữ cả hai chân đặt trên hông, xoay người trên ghế để đối mặt với chúng và duy trì kết nối đầu gối với khuỷu tay."
+      },
+      {
+        "condition": "Người qua đường khuỵu cả hai gối và cố áp ngực vào ngực",
+        "action": "Mở rộng chân của bạn để tạo khoảng cách, tạo khung trên bắp tay và shrimp đưa hông về phía sau để thiết lập lại."
+      },
+      {
+        "condition": "Người qua đường túm lấy quần hoặc mắt cá chân của bạn",
+        "action": "Tước tay cầm ngay lập tức bằng cả hai tay (ngắt tay cầm C) trước khi chúng có thể điều khiển được chân của bạn."
+      },
+      {
+        "condition": "Người vượt qua buộc underhook",
+        "action": "Thả khuỷu tay xuống thảm, quay sang bên đó và ấn đầu gối vào trong để lấy lại vị trí bên trong."
+      },
+      {
+        "condition": "Người vượt qua tiến về phía trước với động lực",
+        "action": "Sử dụng động lực của họ — thả lỏng cơ bắp tay, nâng cao hông của bạn và wrestle up thực hiện động tác đứng lên kỹ thuật."
+      }
+    ],
+    "exitStrategies": [
+      "Nếu họ vượt qua một chặng, hãy khôi phục half guard và bắt đầu lại chu trình lưu giữ.",
+      "Nếu chúng đè bẹp bạn hoàn toàn, hãy quay sang một bên, đánh vào đầu gối gần đó và đặt lại guard ngồi.",
+      "Nếu quá trình lưu giữ không thành công nhiều lần, hãy chuyển sang chế độ nằm ngửa guard với nửa sâu làm lớp dự phòng."
+    ]
+  },
+  "keyCorrections": [
+    "Nếu chúng ở khoảng cách gần, bàn chân của bạn không được đặt lên - hãy đưa chúng về ngang hông.",
+    "Nếu họ nhận được underhook, khe hở đầu gối-khuỷu tay của bạn đang mở — hãy đóng nó lại.",
+    "Nếu chúng san phẳng bạn, bạn đã đợi quá lâu để đóng khung hoặc xoay trục."
+  ],
+  "moneyDetails": [
+    "Luôn giữ một chân trên hông để duy trì khoảng cách; chân lủng lẳng là chân chết.",
+    "Tay nắm chữ C trên cổ tay là người bạn tốt nhất của bạn - nó giết chết tay cầm quần của họ trước khi bắt đầu.",
+    "Xoay người trên ghế chứ không phải trên lưng; ngồi yên giữ cho hông của bạn di động."
+  ],
+  "safetyNotes": "Avoid posting with straight arms — keep elbows bent. Protect your knees from lateral pressure.",
+  "fixItFast": [
+    "Họ ở quá xa chân bạn à? Tạo dáng bằng cẳng tay và shrimp hông hướng ra ngoài.",
+    "Họ có một cái kẹp quần? Lột nó bằng cả hai tay trước khi chúng ổn định.",
+    "Bạn đang bị san phẳng? Xoay sang một bên và đập đầu gối của bạn vào trong."
+  ],
+  "version": 1,
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "vi",
+  "shortName": "Giữ chỗ ngồi",
+  "description": "Một hệ thống phòng thủ chủ động khi ngồi, sử dụng khung xương, trụ chân và khả năng di chuyển của chân để chặn đường chuyền của đối phương và duy trì các lớp guard.",
+  "shortInstruction": "Giữ chân trên hông, duy trì kết nối đầu gối-khuỷu tay, sử dụng tay nắm chữ C trên cổ tay và khung để phục hồi hoặc wrestle up.",
+  "summary": "Hoạt động guard giữ nguyên tư thế ngồi bằng cách sử dụng khung, trụ chân và vị trí bên trong.",
+  "whyItWorks": [
+    "Giữ khoảng cách bằng cách sử dụng đòn bẩy dài nhất (bàn chân, ống chân) trước khi người qua đường có thể áp ngực vào ngực.",
+    "Giữ nguyên vị trí bên trong thông qua kết nối đầu gối-khuỷu tay và chủ động chiến đấu bằng tay.",
+    "Biến khung thành chuyển động của hông thay vì đẩy bằng tay.",
+    "Tạo cơ hội wrestle up hoặc tấn công lại khi người qua đường vượt quá giới hạn."
+  ],
+  "commonMistakes": [
+    "Để chân lơ lửng mà không có trụ trên hông hoặc bắp tay.",
+    "Mở rộng khoảng cách giữa đầu gối và khuỷu tay, cho phép underhooks.",
+    "Để đối thủ thoải mái nắm lấy quần hoặc chân của bạn.",
+    "Đẩy bằng cánh tay thẳng thay vì vào khung bằng cẳng tay.",
+    "Chiến đấu nằm ngửa thay vì ngồi hoặc nằm nghiêng."
+  ],
+  "coachingCues": [
+    "Chân chống hông, khuỷu tay chạm đầu gối.",
+    "Tiêu diệt những kẻ nắm bắt trước khi chúng ổn định.",
+    "Khung sau đó di chuyển hông, không phải cánh tay.",
+    "Hãy ngồi yên, duy trì hoạt động."
+  ],
+  "oneMinuteMode": {
+    "goal": "Duy trì khoảng cách và vị trí bên trong với chỗ ngồi guard.",
+    "steps": [
+      "Giữ cả hai chân đặt trên hông hoặc bắp tay.",
+      "Duy trì kết nối đầu gối-khuỷu tay ở cả hai bên.",
+      "Giành chiến thắng trong cuộc đấu tay đôi với tay nắm chữ C trên cổ tay.",
+      "Phản ứng với hướng đi và xoay người trên ghế của bạn.",
+      "Khi họ cam kết quá mức, wrestle up hoặc lạiguard."
+    ]
+  },
+  "safetySummary": [
+    "Đừng để đầu của bạn bị ép xuống thảm.",
+    "Bảo vệ cổ của bạn bằng cách giữ cằm gọn gàng khi đeo kính.",
+    "Tránh đăng bài với cánh tay thẳng để tránh hiện tượng khóa khớp."
+  ],
+  "nextStep": "Sau khi giữ lại guard, hãy chuyển sang wrestle up (đứng lên về mặt kỹ thuật), chuyển sang tư thế nằm ngửa guard hoặc tấn công bằng các mục nhập từ ống chân tới ống chân."
+}

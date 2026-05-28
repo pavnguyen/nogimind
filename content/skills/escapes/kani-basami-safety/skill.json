@@ -1,0 +1,62 @@
+{
+  "id": "kani-basami-safety",
+  "domain": "positional_awareness",
+  "level": "beginner",
+  "name": "Kani Basami Safety",
+  "aliases": [
+    "scissor takedown safety",
+    "scissor reap awareness",
+    "banned takedown"
+  ],
+  "tags": [
+    "safety",
+    "knee-safety",
+    "takedown",
+    "tier:safety-critical",
+    "risk:safety-critical",
+    "family:safety",
+    "group:takedown-safety",
+    "ibjjf-rules",
+    "modern-no-gi"
+  ],
+  "keywords": [
+    "kani basami",
+    "scissor takedown",
+    "ACL",
+    "banned technique",
+    "IBJJF"
+  ],
+  "modernSystemGroup": "takedown_safety",
+  "relatedSkills": [
+    {
+      "id": "single-leg-bjj",
+      "type": "recommended"
+    },
+    {
+      "id": "leg-lock-safety-basics",
+      "type": "recommended"
+    },
+    {
+      "id": "reaping-awareness",
+      "type": "recommended"
+    }
+  ],
+  "prerequisiteSkillIds": [
+    "positional-hierarchy"
+  ],
+  "relatedPositions": [],
+  "relatedConcepts": [],
+  "archetypeIds": [],
+  "trainingMethodIds": [],
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": true,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "contentRefs": {
+    "qualityChecklist": "qualityChecklist",
+    "videos": "videos.json"
+  },
+  "updatedAt": "2026-06-12T00:00:00.000Z"
+}

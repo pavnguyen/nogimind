@@ -1,0 +1,149 @@
+{
+  "id": "z-lock",
+  "slug": "z-lock",
+  "domain": "submission_systems",
+  "level": "advanced",
+  "status": "draft",
+  "name": "Verrouillage en Z",
+  "aliases": [
+    "zlock",
+    "z lock"
+  ],
+  "tags": [
+    "z-lock",
+    "leg-lock",
+    "submission",
+    "leg-entanglement",
+    "heel-hook",
+    "ankle-lock",
+    "junny-ocasio"
+  ],
+  "keywords": [
+    "z lock bjj",
+    "z lock leg lock",
+    "junny ocasio z lock",
+    "z lock single leg x",
+    "z lock 50/50",
+    "z lock double trouble",
+    "z lock entries",
+    "leg entanglement control",
+    "inside position leg lock",
+    "z lock finishing mechanics"
+  ],
+  "relatedSkills": [],
+  "relatedSkillIds": [
+    "heel-hook",
+    "ankle-lock",
+    "knee-bar",
+    "saddle-system",
+    "single-leg-x-guard",
+    "aoki-lock"
+  ],
+  "relatedPositions": [],
+  "relatedPositionIds": [
+    "single-leg-x",
+    "50-50-guard",
+    "saddle",
+    "ashi-garami"
+  ],
+  "relatedConcepts": [],
+  "relatedConceptIds": [
+    "leg-entanglement",
+    "inside-position",
+    "hip-rotation",
+    "finishing-mechanics"
+  ],
+  "archetypeIds": [
+    "leg-lock-specialist",
+    "guard-player",
+    "modern-no-gi"
+  ],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "single-leg-x-guard",
+    "saddle-system",
+    "heel-hook"
+  ],
+  "trainingMethodIds": [
+    "positional-sparring-leg-locks",
+    "slow-rolls",
+    "a-game-repetition-block"
+  ],
+  "nextSkillIds": [
+    "cross-ashi-garami",
+    "outside-ashi-garami"
+  ],
+  "searchBoost": 0.85,
+  "keyCorrections": [
+    "Si vous ne pouvez pas terminer, votre piège à pied est trop lâche – resserrez son pied contre votre hanche.",
+    "S'ils roulent, suivez leur rotation de hanche – relâchez le verrou et réattaquez à partir de saddle.",
+    "Si vous sentez une résistance au niveau du genou, relâchez la pression – ne forcez pas la rotation."
+  ],
+  "version": 1,
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "fr",
+  "description": "Une soumission moderne de verrouillage de jambe à partir d'une seule jambe X (SLX) ou 50/50 qui combine la pression ankle lock avec la mécanique de rotation heel hook - attaquant simultanément le genou et la cheville de l'adversaire.",
+  "shortInstruction": "À partir de SLX, underhook la jambe la plus proche, amenez votre jambe extérieure sur leur cuisse, coincez leur pied au niveau de votre hanche, faites pivoter vos hanches vers le tapis – combinez la cheville et heel hook pour terminer.",
+  "summary": "Le Z-lock est une soumission hybride de verrouillage de jambe qui combine des éléments du ankle lock et du heel hook en une seule attaque dévastatrice. Provenant de positions telles que X à une jambe (SLX) et 50/50 guard, il utilise une configuration de jambe unique pour piéger et serrer la jambe de l'adversaire. La position offre un excellent contrôle et peut être utilisée à la fois comme soumission finale et comme position de transition vers d'autres attaques de jambes comme le saddle ou le cross ashi garami. Il est particulièrement efficace dans les systèmes No-Gi et les systèmes modernes de verrouillage des jambes.",
+  "whyItWorks": [
+    "Combine deux vecteurs d'attaque (cheville + genou) simultanément, créant un dilemme pour l'adversaire : défendre l'un expose l'autre.",
+    "Utilise la rotation des hanches et le poids du corps plutôt que la simple force des bras, ce qui le rend mécaniquement efficace.",
+    "Le piège à pied au niveau de la hanche empêche l'adversaire de rouler ou de se retourner pour s'échapper.",
+    "Peut être saisi directement à partir des positions guard communes (SLX, 50/50) sans repositionnement complexe.",
+    "Crée une isolation extrême de l'articulation du genou en fixant le pied au niveau de la hanche tout en faisant pivoter le torse."
+  ],
+  "commonMistakes": [
+    "Perdre le underhook sur la jambe proche, permettant à l'adversaire de libérer sa jambe et de s'échapper.",
+    "Ne pas coincer solidement le pied au niveau de la hanche avant de commencer la rotation.",
+    "Utiliser uniquement la force du haut du corps au lieu d’engager la rotation des hanches pour la finition.",
+    "Appliquer la soumission trop lentement, donnant à l'adversaire le temps d'empiler ou de rouler.",
+    "Rotation excessive et perte de contrôle de la jambe coincée après l'arrivée."
+  ],
+  "coachingCues": [
+    "Emprisonnez le pied comme si vous le fixiez à l'os de la hanche – ne le laissez pas glisser.",
+    "Faites pivoter vos hanches vers le tapis, pas vos épaules : la puissance vient du cœur.",
+    "Gardez leur talon serré contre votre corps pour maximiser l'effet de levier.",
+    "Entrez à partir de SLX lorsqu'ils posent : underhook + jambe au-dessus = Z-lock.",
+    "S'ils roulent, suivez leur hanche et réattaquez – ne réinitialisez pas."
+  ],
+  "safetySummary": [
+    "Z-lock applique un couple de rotation au genou – appuyez tôt et respectez la soumission.",
+    "Ne convient pas aux débutants – nécessite une solide compréhension du verrouillage des jambes avant de tenter.",
+    "La pression combinée cheville + genou peut provoquer des blessures aux deux articulations si elle est appliquée de manière explosive.",
+    "Les partenaires qui roulent doivent établir des protocoles de tapotements clairs pour les attaques aux jambes."
+  ],
+  "systemLogic": {
+    "corePrinciple": "SLX ou 50/50 : underhook la jambe proche → amener la jambe extérieure sur la cuisse → coincer le pied au niveau de votre hanche → faire pivoter vos hanches vers le tapis → terminer.",
+    "decisionTree": [
+      {
+        "condition": "Application générale",
+        "action": "Les chaînes Z-lock avec le saddle : si elles roulent pour échapper au Z-lock, entrez le saddle."
+      },
+      {
+        "condition": "ils défendent en empilant",
+        "action": "relâchez et entrez à nouveau à partir de SLX."
+      }
+    ],
+    "exitStrategies": []
+  },
+  "moneyDetails": [
+    "Le underhook sur la jambe la plus proche doit être profond : votre bras doit s'enrouler autour de la cuisse, pas seulement du genou.",
+    "Votre jambe extérieure passe par-dessus sa cuisse et plaque sa jambe contre votre corps.",
+    "Coincez son pied contre votre hanche en gardant votre genou serré contre son corps.",
+    "La finition vient de la rotation de vos hanches vers le tapis tout en gardant le pied coincé – cela combine la pression de la cheville et du genou."
+  ],
+  "nextStep": "Après le Z-lock, apprenez la commande saddle/inside sankaku et l'intérieur heel hook.",
+  "fixItFast": [
+    "La jambe continue de glisser ? Votre underhook est trop superficiel : creusez plus profondément sur la cuisse.",
+    "Vous ne pouvez pas terminer ? Votre piège à pied est lâche – tirez-le plus fort contre votre hanche.",
+    "Ils roulent ? Suivez leurs hanches et entrez dans le saddle – ne vous battez pas."
+  ]
+}

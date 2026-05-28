@@ -1,0 +1,132 @@
+{
+  "id": "closed-guard-posture-control",
+  "domain": "guard_offense",
+  "level": "beginner",
+  "status": "draft",
+  "name": "closed guard Kiểm soát tư thế",
+  "aliases": [],
+  "tags": [
+    "closed-guard",
+    "posture",
+    "control"
+  ],
+  "keywords": [
+    "closed guard",
+    "posture control",
+    "elbow line",
+    "hip control"
+  ],
+  "relatedSkills": [
+    {
+      "id": "closed-guard-sweeps",
+      "type": "recommended"
+    },
+    {
+      "id": "armbar-system",
+      "type": "recommended"
+    },
+    {
+      "id": "triangle-system",
+      "type": "recommended"
+    },
+    {
+      "id": "kimura-system",
+      "type": "recommended"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "supine-guard-retention"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [],
+  "version": 1,
+  "updatedAt": "2026-05-21T00:24:30.746Z",
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "vi",
+  "description": "Phá vỡ và kiểm soát tư thế của đối thủ trong closed guard bằng cách sử dụng lực căng chân, đánh tay và câu hông để thực hiện các mục quét hoặc khuất phục.",
+  "shortInstruction": "Kéo chân, tay bẻ tay, hông cắt góc — tư thế là chìa khóa cho tất cả các đòn tấn công closed guard.",
+  "summary": "closed guard chỉ có tác dụng khi thế trận của đối phương bị phá vỡ. Đối thủ trong tư thế có thể đứng, chuyền hoặc tấn công (trong MMA). Mục tiêu chính của bạn là ngăn chúng ngồi thẳng bằng cách dùng sức căng của chân để kéo trọng lượng của chúng lên bạn, đánh tay để phá vỡ khung phòng thủ của chúng và góc hông để làm chúng mất thăng bằng. Nếu không kiểm soát tư thế, bạn sẽ không phạm tội từ closed guard.",
+  "whyItWorks": [
+    "Đối thủ trong tư thế có toàn bộ khả năng di chuyển của cánh tay và cơ sở - phá vỡ tư thế của họ sẽ vô hiệu hóa cả hai.",
+    "Chân bị căng quanh lưng khiến họ không thể ngồi dậy; họ phải chiến đấu chống lại sức mạnh của chân bạn để lấy lại tư thế.",
+    "Chiến đấu bằng tay tước bỏ các chốt phòng thủ của họ (cà vạt cổ áo, kẹp tay áo, kẹp thắt lưng) giúp giữ cho họ ở tư thế.",
+    "Cắt một góc (hông sang một bên) sẽ di chuyển căn cứ của họ ngoại tuyến, khiến chúng dễ bị quét và khuất phục.",
+    "Nguyên tắc Danaher: guard là một vị trí tấn công, không phải vị trí phòng thủ — kiểm soát tư thế là bước đầu tiên của mọi cuộc tấn công."
+  ],
+  "commonMistakes": [
+    "Kéo bằng chân nhưng không dùng tay - nếu không chiến đấu bằng tay, chúng có thể bám vào hông bạn và điều chỉnh lại tư thế.",
+    "Giữ đầu họ bằng cánh tay thẳng - điều này tạo ra không gian thay vì kiểm soát.",
+    "Để họ nắm lấy thắt lưng hoặc quần của bạn - điều này giúp họ có cơ sở để đứng dậy.",
+    "Ngồi tập trung trước mặt họ mà không cắt góc - một đối thủ ở giữa có căn cứ tốt và khó quét."
+  ],
+  "coachingCues": [
+    "Kéo chân, hướng tay, hông tạo góc.",
+    "Trước tiên hãy tiêu diệt phần kẹp đai - đó là phần đế chắc chắn nhất của chúng.",
+    "Nếu họ tạo tư thế, bạn sẽ không kéo - hãy ép hai đầu gối lại với nhau!",
+    "Ra khỏi trung tâm - 45 độ là góc tấn công."
+  ],
+  "safetySummary": [
+    "Giữ cằm chạm vào ngực khi kéo chúng xuống để tránh rủi ro guillotine.",
+    "Bảo vệ xương sườn của bạn khỏi áp lực đầu gối khi chúng cố gắng tạo tư thế - tập trung ngay lập tức.",
+    "Đừng giữ tư thế gãy quá lâu mà không tấn công - bạn sẽ mỏi chân."
+  ],
+  "systemLogic": {
+    "corePrinciple": "closed guard chỉ có tác dụng khi thế trận của đối phương bị phá vỡ. Đối thủ có tư thế có toàn bộ khả năng di chuyển của cánh tay và cơ sở. Mục tiêu của bạn là sử dụng sức căng của chân, chiến đấu bằng tay và góc hông để ngăn họ ngồi thẳng — nếu không kiểm soát tư thế, bạn không phạm tội closed guard.",
+    "decisionTree": [
+      {
+        "condition": "Đối thủ phá vỡ closed guard của bạn và bắt đầu đứng dậy",
+        "action": "Siết chặt đầu gối của bạn lại với nhau và kéo chúng xuống trước khi chúng mở rộng hoàn toàn. Khi họ đứng vững, guard sẽ mở và bạn sẽ mất lợi thế về tư thế."
+      },
+      {
+        "condition": "Đối thủ nắm lấy thắt lưng hoặc quần của bạn",
+        "action": "Hãy tháo tay cầm ngay lập tức bằng cả hai tay. Tay cầm thắt lưng giúp họ có cơ sở để đứng lên và vượt qua. Leo chân lên cao hơn để làm yếu độ bám của chúng."
+      },
+      {
+        "condition": "Đối thủ đặt trên hông của bạn để điều chỉnh lại tư thế",
+        "action": "Bơi tay của bạn vào bên trong khuỷu tay của họ và đập mạnh trở lại cổ áo của họ. Bàn tay của bạn phải phá vỡ khung của chúng để thiết lập lại quyền kiểm soát."
+      },
+      {
+        "condition": "Đối thủ được đặt ở giữa và ở tư thế trong closed guard của bạn",
+        "action": "Cắt một góc bằng cách di chuyển hông 45 độ sang một bên. Đối thủ ở giữa có thế đứng chắc chắn và khó bị quét - góc tạo ra sơ hở."
+      },
+      {
+        "condition": "Bạn đã giữ tư thế nghỉ trong hơn 10 giây",
+        "action": "Tấn công ngay bây giờ - quét hoặc gửi. Giữ một tư thế bị hỏng mà không tấn công sẽ gây lãng phí năng lượng và khiến đối thủ phải thiết lập lại căn cứ của mình."
+      }
+    ],
+    "exitStrategies": [
+      "Nếu đối thủ tái tạo tư thế, hãy đặt lại trình tự: phá tư thế lần nữa, đánh tay để gỡ khung, cắt góc, tấn công.",
+      "Nếu bạn không thể phá vỡ tư thế của họ bằng các phương pháp tiêu chuẩn, hãy chuyển sang tư thế guard cao (đặt chân lên hông họ) để phá vỡ tư thế đó dễ dàng hơn.",
+      "Sử dụng 80% hoạt động của chân và 20% hoạt động của tay - sự mỏi ở cánh tay là dấu hiệu cho thấy bạn đang kéo quá nhiều và đóng khung quá ít."
+    ]
+  },
+  "moneyDetails": [
+    "Kéo đầu họ xuống xương ức - không kéo xuống bụng bạn - để cánh tay của họ bị kẹt giữa cơ thể bạn.",
+    "Siết chặt đầu gối của bạn lại với nhau, không chỉ bàn chân - điều này sẽ khóa hông của chúng vào đúng vị trí.",
+    "Khi họ cố gắng bám vào hông bạn, hãy bơi tay bạn vào trong khuỷu tay của họ và đập mạnh trở lại cổ áo của họ.",
+    "Thời điểm nguy hiểm nhất để tấn công là khi chúng đang tích cực cố gắng tạo tư thế - dùng sức lực để chống lại chúng."
+  ],
+  "nextStep": "Sau khi thành thạo việc kiểm soát tư thế, hãy học closed guard động tác quét (đập hông, cắt kéo, hoa) và khuất phục (triangle, armbar).",
+  "fixItFast": [
+    "Họ cứ làm ra vẻ thế à? Chuyển sang tư thế guard cao (đặt chân lên hông) để hạ gục họ dễ dàng hơn.",
+    "Họ có đai cầm à? Leo chân lên cao hơn và siết chặt - lực bám của chúng sẽ yếu đi.",
+    "Cánh tay của bạn có mỏi không? Sử dụng chân nhiều hơn - 80% hoạt động ở chân, 20% hoạt động ở tay."
+  ]
+}

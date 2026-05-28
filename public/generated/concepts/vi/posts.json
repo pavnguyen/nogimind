@@ -1,0 +1,65 @@
+{
+  "id": "posts",
+  "locale": "vi",
+  "title": "Posts",
+  "category": "mechanical",
+  "level": "fundamental",
+  "tags": [
+    "post",
+    "base",
+    "scramble"
+  ],
+  "shortDefinition": "Post là điểm chống tạm thời để giữ base, đổi hông hoặc ngăn bị xoay.",
+  "whyItMatters": "Post đúng cứu scramble; post sai mở kimura, arm drag hoặc chấn thương khi tay duỗi dài.",
+  "deepExplanation": "Post hiệu quả ngắn, gần shoulder/hip và có kế hoạch rút về. Post không phải nơi trú ẩn lâu dài; nó là nhịp chuyển hướng.",
+  "beginnerView": "Post ngắn rồi rút, đừng để tay dài.",
+  "advancedView": "Bẫy post của đối thủ để tạo dilemma hoặc mat return.",
+  "ifThenExamples": [
+    {
+      "if": "Nếu bạn mất Posts trong trao đổi.",
+      "then": "Dừng tăng tốc, lấy lại cấu trúc cơ thể gần nhất rồi mới tiếp tục kỹ thuật.",
+      "why": "No-gi hiện đại phạt rất nhanh khi bạn cố thắng bằng sức sau khi mất cấu trúc.",
+      "relatedSkillIds": [
+        "technical-stand-up",
+        "front-headlock-defense"
+      ]
+    },
+    {
+      "if": "Nếu đối thủ phản ứng đúng với hướng đầu tiên.",
+      "then": "Dùng Posts để đổi sang nhánh an toàn hơn thay vì ép cùng một hướng.",
+      "why": "Concept tốt biến phản ứng của đối thủ thành thông tin cho quyết định tiếp theo.",
+      "relatedSkillIds": [
+        "front-headlock-defense",
+        "scramble-control",
+        "mat-return-basics"
+      ]
+    }
+  ],
+  "commonMisunderstandings": [
+    {
+      "misunderstanding": "Posts là một mẹo kỹ thuật riêng lẻ.",
+      "correction": "Hãy xem nó như quy tắc quyết định xuất hiện trong nhiều vị trí khác nhau."
+    },
+    {
+      "misunderstanding": "Bạn chỉ cần hiểu khái niệm là tự động dùng được trong live roll.",
+      "correction": "Khái niệm phải được gắn với body signal, cue ngắn và positional rolling."
+    }
+  ],
+  "trainingCues": [
+    "Gọi tên Posts trước khi tăng lực.",
+    "Tìm body signal, không đoán bằng cảm giác chung.",
+    "Nếu mất cấu trúc, reset một layer trước.",
+    "Drill chậm, test bằng resistance tăng dần."
+  ],
+  "relatedSkillIds": [
+    "technical-stand-up",
+    "front-headlock-defense",
+    "scramble-control",
+    "mat-return-basics"
+  ],
+  "relatedConceptIds": [
+    "base-balance",
+    "levers",
+    "early-vs-late-defense"
+  ]
+}

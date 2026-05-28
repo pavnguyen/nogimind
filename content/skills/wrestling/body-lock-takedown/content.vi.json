@@ -1,0 +1,67 @@
+{
+  "id": "body-lock-takedown",
+  "locale": "vi",
+  "name": "Gỡ bỏ khóa cơ thể / mat returns",
+  "description": "Khóa cánh tay quanh thân bằng móc hoặc rùa, lái qua hông và đưa đối thủ trở lại thảm. Khóa cơ thể là đòn hạ gục có khả năng kiểm soát cao nhất trong vật lộn - nó ngăn cản đối thủ trốn thoát và đưa bạn vào thế thống trị.",
+  "shortInstruction": "Khóa hai tay ra sau lưng ngang hông, bước vào giữa hai chân của họ, ép khuỷu tay của bạn vào nhau và đưa họ lùi về phía thảm. Hạ cánh ở side control hoặc mount.",
+  "summary": "Khóa cơ thể là vị trí hạ gục chiếm ưu thế nhất trong No-Gi vì nó loại bỏ khả năng trụ hoặc trụ của đối phương — cả hai cánh tay đều bị kẹt giữa cơ thể bạn và cơ thể của họ. Từ khóa cơ thể, bạn có thể nhấc, vấp hoặc đẩy đối thủ xuống thảm trong khi vẫn duy trì toàn quyền kiểm soát phần thân trên. Khóa cơ thể cũng là công cụ mat return chính khi đối thủ đứng từ rùa hoặc half guard.",
+  "whyItWorks": [
+    "Khóa tay bạn sau lưng sẽ khiến cả hai cánh tay của họ bị mắc kẹt - họ không thể trụ, đóng khung hoặc đế để đỡ cú ngã",
+    "Khóa cơ thể chuyển toàn bộ trọng lượng cơ thể của bạn vào cú hạ gục - bạn đang lái xe bằng chân và hông chứ không phải bằng tay",
+    "Lớp hoàn thiện khóa thân đưa bạn vào vị trí thống trị (side control hoặc mount) — không phải trong guard của họ",
+    "Khóa cơ thể được an toàn trước guillotines — đầu bạn tựa vào ngực họ chứ không phải hông họ"
+  ],
+  "commonMistakes": [
+    "Khóa tay quá cao (ở xương bả vai) - khóa phải ngang hông để có lợi thế cơ học",
+    "Giữ khuỷu tay rộng - khuỷu tay bị chèn ép sẽ bẫy cánh tay của đối phương và ngăn họ đăng bài",
+    "Uốn cong ở thắt lưng thay vì lái qua chân - động tác hạ gục đến từ phần mở rộng hông chứ không phải phần thân trên",
+    "Nhả khóa trong khi hạ gục - duy trì độ bám cho đến khi đối thủ nằm hoàn toàn trên thảm"
+  ],
+  "coachingCues": [
+    "Khóa ở hông, không phải vai",
+    "Bóp khuỷu tay, giữ chặt cánh tay",
+    "Lái xe bằng chân chứ không phải phía sau",
+    "Giữ khóa cho đến khi họ hạ cánh"
+  ],
+  "safetySummary": [
+    "Việc hạ gục khóa cơ thể có biên độ cao - kiểm soát việc hạ xuống để ngăn đối thủ tiếp đất bằng đầu hoặc cổ của họ",
+    "Không nâng đối thủ nếu bạn thiếu sức mạnh ở hông - hãy di chuyển hoặc lái xe thay vì nâng",
+    "Lưu ý đến sự khác biệt về trọng lượng - việc khóa cơ thể đối thủ nặng hơn đáng kể có thể khiến bạn rơi vào tình thế dễ bị tổn thương"
+  ],
+  "keyCorrections": [
+    "Nếu chúng tiếp tục thoát khỏi ổ khóa: khuỷu tay của bạn quá rộng - hãy kẹp chúng lại với nhau để bẫy cánh tay",
+    "Nếu bạn không thể nhấc lên: thay vào đó hãy sử dụng một chuyến đi - dùng chân móc chân trước của chúng và đẩy chúng lùi lại",
+    "Nếu bạn đáp xuống guard của họ: đầu bạn quá cao — hãy giữ đầu bạn tựa vào ngực họ chứ không phải bụng họ"
+  ],
+  "systemLogic": {
+    "corePrinciple": "Khóa thân có ba phương án hoàn thiện: Nâng → Trip → Lái, tùy theo trọng lượng và chân đế của đối thủ",
+    "decisionTree": [
+      {
+        "condition": "Sử dụng Kết thúc 1 (Nâng)",
+        "action": "ngồi xổm dưới hông họ, duỗi chân và nhấc chúng ra khỏi thảm. Điều này hiệu quả nhất khi đối đầu với những đối thủ nhẹ cân hơn hoặc khi họ mất thăng bằng"
+      },
+      {
+        "condition": "Sử dụng Kết thúc 2 (Chuyến đi)",
+        "action": "móc chân bạn ra sau mắt cá chân chì của chúng và đẩy chúng lùi lại. Chuyến đi có tác dụng với những đối thủ nặng ký hơn hoặc khi bạn không thể xuống đủ sâu để nâng"
+      },
+      {
+        "condition": "Sử dụng Kết thúc 3 (Ổ đĩa)",
+        "action": "chỉ cần lái xe về phía trước bằng chân, sử dụng khóa thân xe để điều khiển chúng về phía thảm. Điều này có hiệu quả khi họ đang di chuyển lùi"
+      },
+      {
+        "condition": "Ứng dụng chung",
+        "action": "Vị trí hạ cánh: nhằm mục đích hạ cánh ở side control (ngực đối ngực, đầu quay về phía xa). Nếu họ tiếp đất bằng lưng, hãy trượt ngay tới side control"
+      }
+    ]
+  },
+  "moneyDetails": [
+    "Việc gỡ bỏ bằng khóa nội dung là thao tác gỡ bỏ mạnh mẽ nhất trong No-Gi — nó đưa bạn vào side control chứ không phải guard của họ",
+    "Việc thành thạo khóa cơ thể mang lại cho bạn mat return đáng tin cậy từ các tư thế rùa, half guard và đứng",
+    "Khóa cơ thể là yếu tố chính của tất cả các môn vật lộn No-Gi cấp cao (Gordon Ryan, Nicky Rod, v.v.)"
+  ],
+  "fixItFast": [
+    "Nếu bạn không thể khóa tay: chúng đang ở tư thế quá cao - trước tiên hãy hạ chúng xuống rồi khóa lại",
+    "Nếu họ sprawl trên khóa: chuyển sang một chân — vị trí khóa cơ thể dễ dàng chuyển sang chân",
+    "Nếu họ tách tay ra: hãy nhéo lại khuỷu tay và siết chặt khóa hơn"
+  ]
+}

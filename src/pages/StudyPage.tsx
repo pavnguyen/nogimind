@@ -291,11 +291,10 @@ export default function StudyPage() {
             {visibleSkills.map((skill, idx) => {
               const isExpanded = expandedSkills.has(skill.id)
               const isRecent = recentlyViewedTimestamps[skill.id]
-              const hasMicroDetails = (skill.microDetailSystem?.topFiveDetails?.length ?? 0) > 0
               const hasQualityCheck = !!skill.qualityChecklist
               const hasBodyDetails = !!skill.bodyToBodyDetails
               const hasBlackbelt = !!skill.blackbeltDetails
-              const richnessCount = [hasMicroDetails, hasQualityCheck, hasBodyDetails, hasBlackbelt].filter(Boolean).length
+              const richnessCount = [hasQualityCheck, hasBodyDetails, hasBlackbelt].filter(Boolean).length
 
               // Quick study mode content
               const quickCues = getLocalizedArray(skill.quickCard?.threeCues, lang)
@@ -318,12 +317,11 @@ export default function StudyPage() {
                           </h2>
                           {/* Richness indicator dots */}
                           <div className="flex items-center gap-1 shrink-0">
-                            {richnessCount < 4 && (
+                            {richnessCount < 3 && (
                               <span className="text-[10px] text-slate-500 font-medium hidden sm:inline">
-                                {richnessCount}/4
+                                {richnessCount}/3
                               </span>
                             )}
-                            {hasMicroDetails && <div className="h-1.5 w-1.5 rounded-full bg-cyan-400" title={t('studyPage.hasMicroDetails')} />}
                             {hasQualityCheck && <div className="h-1.5 w-1.5 rounded-full bg-emerald-400" title={t('studyPage.hasQualityCheck')} />}
                             {hasBodyDetails && <div className="h-1.5 w-1.5 rounded-full bg-amber-400" title={t('studyPage.hasBodyDetails')} />}
                             {hasBlackbelt && <div className="h-1.5 w-1.5 rounded-full bg-violet-400" title={t('studyPage.hasBlackbelt')} />}
@@ -398,7 +396,6 @@ export default function StudyPage() {
                                   {richnessCount}/4
                                 </span>
                               )}
-                              {hasMicroDetails && <div className="h-1.5 w-1.5 rounded-full bg-cyan-400" title={t('studyPage.hasMicroDetails')} />}
                               {hasQualityCheck && <div className="h-1.5 w-1.5 rounded-full bg-emerald-400" title={t('studyPage.hasQualityCheck')} />}
                               {hasBodyDetails && <div className="h-1.5 w-1.5 rounded-full bg-amber-400" title={t('studyPage.hasBodyDetails')} />}
                               {hasBlackbelt && <div className="h-1.5 w-1.5 rounded-full bg-violet-400" title={t('studyPage.hasBlackbelt')} />}
@@ -523,10 +520,6 @@ export default function StudyPage() {
         <div className="rounded-3xl border border-white/[0.06] bg-slate-900/20 p-6">
           <h3 className="mb-3 text-[10px] font-bold uppercase tracking-widest text-slate-500">{t('studyPage.contentDepth')}</h3>
           <div className="space-y-2">
-            <div className="flex items-center gap-2 text-xs text-slate-400">
-              <div className="h-2 w-2 rounded-full bg-cyan-400" />
-              <span>{t('studyPage.hasMicroDetails')}</span>
-            </div>
             <div className="flex items-center gap-2 text-xs text-slate-400">
               <div className="h-2 w-2 rounded-full bg-emerald-400" />
               <span>{t('studyPage.hasQualityCheck')}</span>

@@ -1,0 +1,57 @@
+{
+  "id": "north-south",
+  "locale": "en",
+  "title": "North South",
+  "category": "pin",
+  "status": "dominant",
+  "description": "The top player lies reverse from the head side, controlling chest-to-chest or chest-to-back with shoulder pressure.",
+  "topPlayerGoals": [
+    "The top player wants to control North South through head position, inside position, and directed pressure.",
+    "Use shoulder pressure to choke, isolate an arm, or transition to side or mount.",
+    "Keep a stable base so you are not off-balanced or countered."
+  ],
+  "bottomPlayerGoals": [
+    "The bottom player wants to survive North South with frames, pummeling, or the right angle.",
+    "Bring elbows to ribs, create frames, and re-guard before being choked.",
+    "Recognize danger signals early instead of waiting for the position to settle."
+  ],
+  "controlPoints": [
+    "Main control point: Shoulder pressure, chest-to-chest connection, and arm line..",
+    "Head, hands, hips, and knees should share the same force direction.",
+    "The elbow-knee connection or hip-shoulder line determines whether the position is still alive or already locked."
+  ],
+  "escapePriorities": [
+    "Escape priority: Do not let shoulder pressure close the airway..",
+    "Protect the neck, back, knee line, or arm line before countering.",
+    "If inside position is lost, reset one defensive layer first."
+  ],
+  "advancementOptions": [
+    {
+      "action": "Transition to side control or back take",
+      "nextPositionId": "side-control-top",
+      "relatedSkillIds": [
+        "north-south-control",
+        "side-control-pin",
+        "rear-naked-choke-system"
+      ],
+      "why": "This is the natural branch when you win the main control point and the opponent is forced to defend."
+    }
+  ],
+  "dangerSignals": [
+    "The chin or neck is pulled out of a safe line.",
+    "The elbow separates from the ribs or knee.",
+    "The hip line is locked while the shoulder line is still being pulled.",
+    "You need a long hand post to avoid falling."
+  ],
+  "relatedSkillIds": [
+    "north-south-control",
+    "side-control-pin",
+    "rear-naked-choke-system",
+    "kimura-system"
+  ],
+  "relatedConceptIds": [
+    "pressure-direction",
+    "connection-before-control",
+    "control-before-submission"
+  ]
+}

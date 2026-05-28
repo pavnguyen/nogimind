@@ -1,6 +1,6 @@
 import type { ReactNode } from 'react'
 
-export type TabId = 'learn' | 'fix' | 'watch'
+export type TabId = 'learn' | 'fix' | 'watch' | 'chain'
 
 type TabDef = {
   id: TabId
@@ -17,21 +17,23 @@ type Props = {
 }
 
 const tabAccents: Record<TabId, string> = {
-  learn: 'border-cyan-400 text-cyan-200 shadow-[inset_0_0_0_1px_rgba(34,211,238,0.2),0_0_18px_rgba(34,211,238,0.16)]',
-  fix: 'border-violet-400 text-violet-200 shadow-[inset_0_0_0_1px_rgba(167,139,250,0.2),0_0_18px_rgba(167,139,250,0.16)]',
-  watch: 'border-sky-400 text-sky-100 shadow-[inset_0_0_0_1px_rgba(56,189,248,0.22),0_0_20px_rgba(56,189,248,0.2)]',
+  learn: 'border-cyan-300/35 bg-cyan-300/[0.08] text-cyan-100',
+  fix: 'border-violet-300/35 bg-violet-300/[0.08] text-violet-100',
+  watch: 'border-sky-300/35 bg-sky-300/[0.08] text-sky-100',
+  chain: 'border-emerald-300/35 bg-emerald-300/[0.08] text-emerald-100',
 }
 
 const tabInactiveAccents: Record<TabId, string> = {
   learn: 'hover:text-cyan-300 border-transparent',
   fix: 'hover:text-violet-300 border-transparent',
   watch: 'hover:text-sky-200 border-transparent',
+  chain: 'hover:text-emerald-200 border-transparent',
 }
 
 export const SkillDetailTabs = ({ tabs, activeTab, onTabChange }: Props) => {
   return (
-    <div className="sticky top-16 z-30 -mx-4 bg-slate-950/90 px-4 backdrop-blur-md sm:-mx-6 sm:px-6 lg:-mx-8 lg:px-8">
-      <nav className="flex gap-1 overflow-x-auto border-b border-white/8 pb-1 scrollbar-none" role="tablist">
+    <div className="sticky top-16 z-30 -mx-4 border-y border-white/[0.06] bg-slate-950/88 px-4 py-2 backdrop-blur-xl sm:-mx-6 sm:px-6 lg:-mx-8 lg:px-8">
+      <nav className="flex gap-2 overflow-x-auto scrollbar-none" role="tablist">
         {tabs.map((tab) => {
           const isActive = activeTab === tab.id
           return (
@@ -39,18 +41,20 @@ export const SkillDetailTabs = ({ tabs, activeTab, onTabChange }: Props) => {
               key={tab.id}
               type="button"
               role="tab"
+              id={`tab-${tab.id}`}
               aria-selected={isActive}
+              aria-controls={`tabpanel-${tab.id}`}
               onClick={() => onTabChange(tab.id)}
               className={`
-                relative flex shrink-0 items-center gap-2 rounded-t-xl px-4 py-3 text-xs font-semibold
+                relative flex shrink-0 items-center gap-2 rounded-xl border px-3.5 py-2.5 text-[13px] font-semibold
                 transition-all duration-200
                 ${isActive
-                  ? `${tabAccents[tab.id]} border-b-2 bg-gradient-to-b from-white/[0.08] to-white/[0.03]`
-                  : `text-slate-500 ${tabInactiveAccents[tab.id]} border-b-2 hover:bg-white/[0.02]`
+                  ? tabAccents[tab.id]
+                  : `border-white/[0.06] bg-white/[0.02] text-slate-500 ${tabInactiveAccents[tab.id]} hover:bg-white/[0.04]`
                 }
               `}
             >
-              <span className="h-4 w-4">{tab.icon}</span>
+              <span className="h-4 w-4 shrink-0">{tab.icon}</span>
               <span className="whitespace-nowrap">{tab.label}</span>
               {tab.id === 'watch' && (
                 <span
@@ -82,7 +86,16 @@ export const SkillDetailTabs = ({ tabs, activeTab, onTabChange }: Props) => {
 // Tab panel wrapper
 export const TabPanel = ({ id, activeTab, children }: { id: TabId; activeTab: TabId; children: ReactNode }) => {
   if (id !== activeTab) return null
-  return <div className="animate-fadeIn">{children}</div>
+  return (
+    <div
+      role="tabpanel"
+      id={`tabpanel-${id}`}
+      aria-labelledby={`tab-${id}`}
+      className="animate-fadeIn"
+    >
+      {children}
+    </div>
+  )
 }
 
 // eslint-disable-next-line react-refresh/only-export-components
@@ -120,6 +133,11 @@ export const TabIcons = {
   videos: (
     <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
       <path strokeLinecap="round" strokeLinejoin="round" d="m15.75 10.5 4.72-4.72a.75.75 0 0 1 1.28.53v11.38a.75.75 0 0 1-1.28.53l-4.72-4.72M4.5 18.75h9a2.25 2.25 0 0 0 2.25-2.25v-9a2.25 2.25 0 0 0-2.25-2.25h-9A2.25 2.25 0 0 0 2.25 7.5v9a2.25 2.25 0 0 0 2.25 2.25Z" />
+    </svg>
+  ),
+  chain: (
+    <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+      <path strokeLinecap="round" strokeLinejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
     </svg>
   ),
   watch: (

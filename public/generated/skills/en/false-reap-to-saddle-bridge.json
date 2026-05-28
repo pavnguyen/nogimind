@@ -1,0 +1,119 @@
+{
+  "id": "false-reap-to-saddle-bridge",
+  "domain": "guard_offense",
+  "level": "advanced",
+  "status": "draft",
+  "name": "False Reap to Saddle Bridge",
+  "aliases": [],
+  "tags": [
+    "false-reap",
+    "saddle",
+    "transition",
+    "inside-sankaku",
+    "leg-lock-entry"
+  ],
+  "keywords": [
+    "false reap",
+    "saddle",
+    "inside sankaku",
+    "leg entry",
+    "transition chain"
+  ],
+  "relatedSkills": [
+    {
+      "id": "saddle-inside-sankaku-control",
+      "type": "recommended"
+    },
+    {
+      "id": "clamp-to-triangle-bridge",
+      "type": "recommended"
+    },
+    {
+      "id": "k-guard-matrix",
+      "type": "recommended"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "false-reap-entry",
+    "k-guard-entry"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [
+    "If you can't lock the saddle, their hips are still too close — create separation by kicking your hook leg deeper.",
+    "If they spin out, you lost far hip control — re-establish the hip grip before your next attempt.",
+    "If they flatten you in the saddle, your angle is wrong — walk your hips up toward their shoulder line."
+  ],
+  "version": 1,
+  "updatedAt": "2026-05-21T00:24:30.771Z",
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "en",
+  "description": "Bridge from false reap into saddle (inside sankaku) when the opponent separates their hips or steps back — using their movement to rotate into the leg entanglement.",
+  "shortInstruction": "They separate hips or step back? Bridge your hips over and lock the saddle — their escape becomes your entry.",
+  "summary": "The false reap to saddle bridge is the primary attack chain from the false reap position. When the opponent feels their leg controlled and tries to free it by stepping back or separating their hips, they create the exact rotation angle you need to swing your top leg over their body and lock the saddle (inside sankaku). Their escape powers your entry — this is the Danaher principle of using opponent reaction as your setup.",
+  "whyItWorks": [
+    "When they separate their hips to escape the false reap, your leg naturally swings over their body into the saddle position.",
+    "Their stepping motion loads their weight onto your hook leg, giving you a mechanical advantage for the bridge.",
+    "The transition requires no space creation — their movement creates all the space you need.",
+    "From the saddle, you have direct access to the heel hook, toe hold, and back take."
+  ],
+  "commonMistakes": [
+    "Trying to bridge to saddle before the opponent reacts — you need their movement to create the angle.",
+    "Losing the far hip control during the bridge — they will spin out the back door.",
+    "Not maintaining your hook as you bridge — your hook leg should wrap deeper, not release.",
+    "Failing to lock your feet in the saddle — a loose saddle gives them the escape."
+  ],
+  "coachingCues": [
+    "Wait for their step — the bridge is a reaction.",
+    "Hook deep, bridge hard, lock tight.",
+    "Feel the hip separation — that's your trigger.",
+    "Saddle or back take — two options from one bridge."
+  ],
+  "safetySummary": [
+    "Do not bridge explosively if you have not controlled their far leg — they can kick free and hyperextend your own knee.",
+    "When locking the saddle, keep their trapped leg positioned safely — do not crank the heel hook until the saddle is fully locked.",
+    "If they stack you during the bridge, release and re-enter — do not let them drive your head into the mat."
+  ],
+  "systemLogic": {
+    "corePrinciple": "False reap established: opponent separates hips or steps back → bridge your hips over → lock saddle → attack heel hook or back take.",
+    "decisionTree": [
+      {
+        "condition": "they don't separate their hips",
+        "action": "attack the kimura from false reap instead — they must react to one threat, creating the other."
+      },
+      {
+        "condition": "From the saddle",
+        "action": "inside heel hook, toe hold, or take the back when they roll."
+      }
+    ],
+    "exitStrategies": []
+  },
+  "moneyDetails": [
+    "Keep your hook deep on their thigh throughout the bridge — a shallow hook will lose connection during rotation.",
+    "As you bridge, control their far hip with your hand to prevent them spinning away.",
+    "Lock the saddle by crossing your feet behind their back — your top foot hooks under your bottom ankle.",
+    "After locking the saddle, walk your hips toward their shoulder to tighten the entanglement before attacking."
+  ],
+  "nextStep": "After mastering the saddle entry, learn the inside heel hook finish and the back take from saddle to complete the leg attack system.",
+  "fixItFast": [
+    "Saddle won't lock? Your hook is too shallow — re-enter deeper on the thigh.",
+    "They keep spinning out? Your far hip control is weak — grab their hip or belt with a firm grip.",
+    "They flatten you? Release the saddle and reset to seated guard — don't fight from a flattened position."
+  ]
+}

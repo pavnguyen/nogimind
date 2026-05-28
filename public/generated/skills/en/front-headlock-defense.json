@@ -1,0 +1,146 @@
+{
+  "id": "front-headlock-defense",
+  "domain": "survival_defense",
+  "level": "intermediate",
+  "status": "draft",
+  "name": "Front Headlock Defense",
+  "aliases": [],
+  "tags": [
+    "front-headlock",
+    "neck-safety"
+  ],
+  "keywords": [
+    "front headlock",
+    "chin strap",
+    "sprawl",
+    "neck safety"
+  ],
+  "relatedSkills": [
+    {
+      "id": "guillotine-system",
+      "type": "recommended"
+    },
+    {
+      "id": "snapdown-front-headlock",
+      "type": "recommended"
+    },
+    {
+      "id": "sprawl-go-behind",
+      "type": "recommended"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "hand-fighting"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [
+    "If you feel the choke tightening despite chin tuck: your chin is not low enough — actively press it into your chest",
+    "If they switch to a d'arce or anaconda: frame on their head with your free arm and drive your shoulder into their chest before they can lock the figure-four",
+    "If they drop to guard with the guillotine: keep your posture tall, post a hand on their hip, and drive your trapped shoulder into their thigh"
+  ],
+  "version": 1,
+  "updatedAt": "2026-05-21T00:24:30.751Z",
+  "contentRefs": {
+    "videos": "videos.json",
+    "qualityChecklist": "qualityChecklist"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": true,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "en",
+  "description": "Protect neck, posture, and hip angle when caught in a snapdown or guillotine threat. The front headlock is the most common defensive position from failed takedowns, sprawls, and scramble exchanges.",
+  "shortInstruction": "Chin to chest, control the choking wrist with both hands, keep knees under hips, and circle to the non-choking side to escape.",
+  "summary": "Front headlock defense is a systematic response to one of the most dangerous positions in no-gi grappling. The priority is neck protection first, then wrist control, then base recovery, and finally escape. The system rewards timing and calm decision-making over explosive movement.",
+  "whyItWorks": [
+    "Tucking the chin closes the carotid artery access and prevents the guillotine or anaconda from sinking deep",
+    "Controlling the choking wrist with both hands buys critical seconds and prevents the finishing grip from being locked",
+    "Keeping your knees under your hips creates a stable base that prevents the opponent from driving you to the mat or taking your back",
+    "Circling to the non-choking side attacks the weakest part of the front headlock — the arm that does not have the grip",
+    "The front headlock position is inherently unstable — the opponent must choose between the choke and the takedown, creating a dilemma you can exploit"
+  ],
+  "commonMistakes": [
+    "Looking up or extending the neck as the choke is set — this opens the carotid arteries and deepens the guillotine",
+    "Trying to bench press the opponent away — this extends your posture and makes the choke tighter",
+    "Circling into the choking arm instead of away from it — this gives them your neck on a silver platter",
+    "Staying flat on your stomach — this removes all escape routes and gives them full leverage",
+    "Waiting too long to address the grip — the longer the guillotine is set, the deeper it sinks"
+  ],
+  "coachingCues": [
+    "Chin to chest, always",
+    "Two hands on the wrist, not the arm",
+    "Knees under hips before you move",
+    "Circle away from the choking hand"
+  ],
+  "oneMinuteMode": {
+    "goal": "Survive and escape the front headlock position safely.",
+    "steps": [
+      "Freeze and tuck your chin to your chest immediately.",
+      "Both hands grip the choking wrist — do not let them lock the finish.",
+      "Bring your knees underneath your hips to establish a tripod base.",
+      "Circle your head to the side opposite their choking arm.",
+      "Peel the choking arm across your body and recover to neutral or top position."
+    ]
+  },
+  "safetySummary": [
+    "The guillotine can cause unconsciousness in seconds — if the choke is deep, tap and reset rather than risking brain injury",
+    "Some front headlock variations attack the trachea instead of the carotid — this is more dangerous and requires immediate tapping",
+    "Do not try to 'tough out' a guillotine — the damage to the neck and throat can linger for weeks",
+    "Neck cranks disguised as chokes require immediate tapping to protect the cervical spine",
+    "Train front headlock defense with progressive resistance, not live intensity"
+  ],
+  "systemLogic": {
+    "corePrinciple": "Front headlock defense follows a strict hierarchy: (1) protect neck → (2) control grip → (3) establish base → (4) choose escape branch",
+    "decisionTree": [
+      {
+        "condition": "General application",
+        "action": "Each layer reinforces the one before: neck protection prevents the finish, grip control buys time, base establishes mobility, and escape selection determines the outcome"
+      },
+      {
+        "condition": "In Phase 1 (Immediate freeze)",
+        "action": "the moment you feel the front headlock, do not explode. Freeze, tuck your chin, and breathe. Explosive movement deepens the choke."
+      },
+      {
+        "condition": "In Phase 2 (Wrist control)",
+        "action": "both hands go to their choking wrist. If you can control the wrist, they cannot finish the choke regardless of how deep the arm is."
+      },
+      {
+        "condition": "In Phase 3 (Base recovery)",
+        "action": "plant your far foot and bring your knees under your hips. Do not circle out until you have a stable base."
+      },
+      {
+        "condition": "In Phase 4 (Escape selection)",
+        "action": "circle to the non-choking side. If they follow, switch direction. If they post a hand to block, drive into a single leg on that side."
+      },
+      {
+        "condition": "General application",
+        "action": "If the escape succeeds, recover to a neutral standing position or top position with underhook control."
+      }
+    ],
+    "exitStrategies": []
+  },
+  "moneyDetails": [
+    "The front headlock is the most common counter to takedowns and guard pulls — a reliable defense is essential for every grappler",
+    "A successful front headlock escape often leads directly to a takedown opportunity (single leg or body lock)",
+    "Mastering this defense removes the fear of shooting takedowns — the single most important offensive skill in grappling",
+    "The front headlock defense sequence is the same system used by ADCC champions — it is tested at the highest level"
+  ],
+  "nextStep": "After escaping the front headlock, look to establish your own front headlock, circle to the back, or enter a passing sequence.",
+  "fixItFast": [
+    "If the choke is deep and your chin tuck is not helping: tap immediately and reset — the defense must happen earlier",
+    "If they keep sprawling you flat: do not stay on your stomach — turn to your side, frame on their hip, and create space",
+    "If they transition to a front headlock guillotine from a takedown: keep your chin tucked as you land, do not let your head pop up",
+    "If they have a high-wrist guillotine (deep chin strap): do not try to peel — post your hand on their hip and circle your head to the outside"
+  ]
+}

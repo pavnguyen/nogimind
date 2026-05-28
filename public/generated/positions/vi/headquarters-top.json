@@ -1,0 +1,56 @@
+{
+  "id": "headquarters-top",
+  "locale": "vi",
+  "title": "Headquarters Trên",
+  "category": "top_control",
+  "status": "advantage",
+  "description": "Người ở trên đứng trong headquarters với một chân của guard player bị staple và có nhiều đường pass.",
+  "topPlayerGoals": [
+    "Người ở trên muốn kiểm soát Headquarters Trên bằng vị trí đầu, vị trí trong và áp lực có hướng.",
+    "Ép đối thủ vào dilemma giữa knee cut, backstep, leg drag hoặc smash.",
+    "Giữ nền vững để không bị mất thăng bằng hoặc bị phản đòn."
+  ],
+  "bottomPlayerGoals": [
+    "Người ở dưới muốn sống sót trong Headquarters Trên bằng khung chặn, pummel hoặc góc phù hợp.",
+    "Giữ knee shield hoặc inside knee và không để hip line bị staple.",
+    "Nhận diện tín hiệu nguy hiểm sớm thay vì chờ vị trí ổn định."
+  ],
+  "controlPoints": [
+    "Điểm kiểm soát chính: Chân bị staple, góc hông và vị trí đầu..",
+    "Đầu, tay, hông và gối nên cùng hướng lực.",
+    "Kết nối khuỷu-gối hoặc đường hông-vai quyết định vị trí còn sống hay đã bị khóa."
+  ],
+  "escapePriorities": [
+    "Ưu tiên thoát: Recover inside knee trước khi tấn công..",
+    "Bảo vệ cổ, lưng, đường gối hoặc đường tay trước khi phản công.",
+    "Nếu mất vị trí trong, hãy lùi lại một lớp phòng thủ trước."
+  ],
+  "advancementOptions": [
+    {
+      "action": "Vào đường knee cut",
+      "nextPositionId": "knee-cut-position",
+      "relatedSkillIds": [
+        "headquarters-passing",
+        "knee-cut-passing",
+        "leg-drag-basics"
+      ],
+      "why": "Đây là nhánh tự nhiên khi bạn thắng điểm kiểm soát chính và đối thủ buộc phải phòng thủ."
+    }
+  ],
+  "dangerSignals": [
+    "Cằm hoặc cổ bị kéo ra khỏi đường an toàn.",
+    "Khuỷu tay tách khỏi sườn hoặc đầu gối.",
+    "Đường hông bị khóa trong khi đường vai vẫn đang bị kéo.",
+    "Bạn phải chống tay dài để không ngã."
+  ],
+  "relatedSkillIds": [
+    "headquarters-passing",
+    "knee-cut-passing",
+    "leg-drag-basics"
+  ],
+  "relatedConceptIds": [
+    "dilemma-attacks",
+    "hip-line-shoulder-line",
+    "inside-position"
+  ]
+}

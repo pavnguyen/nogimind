@@ -1,0 +1,48 @@
+{
+  "id": "guard-pulling-strategy",
+  "domain": "positional_awareness",
+  "level": "intermediate",
+  "name": "Guard Pulling Strategy",
+  "aliases": [],
+  "tags": [
+    "strategy",
+    "guard"
+  ],
+  "keywords": [
+    "guard pulling",
+    "shin-to-shin",
+    "K-guard",
+    "wrestle-up"
+  ],
+  "relatedSkills": [
+    {
+      "id": "seated-guard-retention",
+      "type": "recommended"
+    },
+    {
+      "id": "shin-to-shin-entry",
+      "type": "recommended"
+    },
+    {
+      "id": "k-guard-entry",
+      "type": "recommended"
+    }
+  ],
+  "prerequisiteSkillIds": [
+    "technical-stand-up"
+  ],
+  "relatedPositions": [],
+  "relatedConcepts": [],
+  "archetypeIds": [],
+  "trainingMethodIds": [],
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "updatedAt": "2026-05-21T00:24:30.757Z"
+}

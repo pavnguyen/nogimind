@@ -1,0 +1,56 @@
+{
+  "id": "mount-top",
+  "locale": "en",
+  "title": "Mount Top",
+  "category": "pin",
+  "status": "dominant",
+  "description": "The top player sits over the opponent’s hips or chest, separates the elbows, and opens high mount or submissions.",
+  "topPlayerGoals": [
+    "The top player wants to control Mount Top through head position, inside position, and directed pressure.",
+    "Stabilize the hips, separate the elbows, and create a choke or arm isolation.",
+    "Keep a stable base so you are not off-balanced or countered."
+  ],
+  "bottomPlayerGoals": [
+    "The bottom player wants to survive Mount Top with frames, pummeling, or the right angle.",
+    "Keep the elbow-knee connection, protect the neck, and bridge or use a knee-elbow escape.",
+    "Recognize danger signals early instead of waiting for the position to settle."
+  ],
+  "controlPoints": [
+    "Main control point: Knee pinch, hip weight, and hand fighting..",
+    "Head, hands, hips, and knees should share the same force direction.",
+    "The elbow-knee connection or hip-shoulder line determines whether the position is still alive or already locked."
+  ],
+  "escapePriorities": [
+    "Escape priority: Protect the neck before bridging hard..",
+    "Protect the neck, back, knee line, or arm line before countering.",
+    "If inside position is lost, reset one defensive layer first."
+  ],
+  "advancementOptions": [
+    {
+      "action": "Isolate an arm triangle or climb to high mount",
+      "nextPositionId": "arm-triangle-threat",
+      "relatedSkillIds": [
+        "mount-control",
+        "mount-escape",
+        "arm-triangle-mount"
+      ],
+      "why": "This is the natural branch when you win the main control point and the opponent is forced to defend."
+    }
+  ],
+  "dangerSignals": [
+    "The chin or neck is pulled out of a safe line.",
+    "The elbow separates from the ribs or knee.",
+    "The hip line is locked while the shoulder line is still being pulled.",
+    "You need a long hand post to avoid falling."
+  ],
+  "relatedSkillIds": [
+    "mount-control",
+    "mount-escape",
+    "arm-triangle-mount"
+  ],
+  "relatedConceptIds": [
+    "control-before-submission",
+    "elbow-knee-connection",
+    "pressure-direction"
+  ]
+}

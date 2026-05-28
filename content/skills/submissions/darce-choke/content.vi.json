@@ -1,0 +1,61 @@
+{
+  "id": "darce-choke",
+  "locale": "vi",
+  "name": "d'arce Nghẹt thở",
+  "description": "Một cánh tay triangle bị nghẹn từ front headlock hoặc khi đối thủ quay lại - khóa vai và cổ lại với nhau và kết thúc bằng áp lực lên vai thay vì siết chặt cánh tay.",
+  "shortInstruction": "Luồn sâu cánh tay xa, khóa hình số 4, thả trọng lượng của bạn — d'arce kết thúc bằng trọng lực chứ không phải cơ bắp.",
+  "summary": "Cuộn cảm d'arce là một trong ba lớp hoàn thiện front headlock chính (với anaconda và guillotine). Điểm khác biệt chính so với anaconda là cánh tay bị nghẹn của bạn luồn từ phía xa (cánh tay xa đi dưới cổ và vòng qua cánh tay gần của họ). d'arce đặc biệt hiệu quả đối với những đối thủ quay lưng với bạn (ngược lại với anaconda, có tác dụng khi họ quay đi). Kết quả đến từ việc thả trọng lượng của bạn lên vai và cổ bị mắc kẹt của họ.",
+  "whyItWorks": [
+    "d'arce giữ cả cánh tay và cổ của họ — cùng cơ chế triangle như anaconda, nhưng ở phía đối diện.",
+    "Đó là đòn phản đòn hoàn hảo khi đối thủ biến thành bạn từ front headlock.",
+    "Trọng lực phát huy tác dụng - việc giảm trọng lượng của bạn sẽ tạo ra nhiều áp lực hơn là dùng tay siết chặt.",
+    "Nguyên tắc Danaher: d'arce là một sự tắc nghẽn 'vị trí trước khi khuất phục' — nếu vị trí đúng thì việc tắc nghẽn là không thể tránh khỏi."
+  ],
+  "commonMistakes": [
+    "Không luồn cánh tay nghẹt thở đủ sâu — d'arce nông sẽ dễ dàng được bảo vệ.",
+    "Khóa hình số 4 ở cổ tay thay vì ở khuỷu tay - khóa cổ tay giúp họ có chỗ để thực hiện tư thế.",
+    "Siết theo chiều ngang thay vì thả vật nặng theo chiều dọc — d'arce là một cuộn cảm áp suất thẳng đứng.",
+    "Để họ đè bạn nằm ngửa - giữ trọng lượng của bạn ở bên hông hoặc ngực."
+  ],
+  "coachingCues": [
+    "Chỉ sâu, khóa ở khuỷu tay, thả búa.",
+    "Giảm cân chứ không phải siết tay - trọng lực mạnh hơn bắp tay.",
+    "Nếu họ nộp đơn, d'arce họ. Nếu họ thành công, anaconda.",
+    "Áp sát tai họ - đó là điểm áp lực."
+  ],
+  "safetySummary": [
+    "Tạo áp lực lên vai dần dần — d'arce nén cả cổ và vai.",
+    "Không quay đầu đối phương để ép nghẹt thở.",
+    "Chạm sớm vào lực nén cổ — d'arce có thể làm tổn thương cột sống cổ nếu tác động mạnh."
+  ],
+  "keyCorrections": [
+    "Nếu cảm thấy cuộn cảm bị lỏng, nghĩa là cánh tay của bạn chưa đủ sâu - hãy luồn sâu hơn vào dưới cổ họ.",
+    "Nếu họ xếp bạn lên, đầu bạn quá thấp - hãy đưa đầu bạn ngang tầm hông họ.",
+    "Nếu chúng lăn qua, hãy đi theo vòng quay của chúng và tấn công lại từ phía bên kia."
+  ],
+  "systemLogic": {
+    "corePrinciple": "front headlock được thiết lập → đối thủ quay vào → luồn cánh tay xa dưới cổ → khóa tay cầm hình số bốn → thả tạ xuống ngực → kết thúc.",
+    "decisionTree": [
+      {
+        "condition": "Ứng dụng chung",
+        "action": "Chuỗi d'arce có anaconda: nếu họ nộp đơn, d'arce; nếu họ thành công, anaconda."
+      },
+      {
+        "condition": "Ứng dụng chung",
+        "action": "Từ d'arce, nếu họ trốn thoát, hãy chuyển sang side control hoặc quay lại."
+      }
+    ]
+  },
+  "moneyDetails": [
+    "Luồn cánh tay đang bị nghẹn của bạn càng sâu càng tốt - vai của bạn phải áp vào tai họ.",
+    "Khóa hình số bốn phải ở khuỷu tay của bạn chứ không phải cổ tay của bạn - điều này tối đa hóa đòn bẩy.",
+    "Giảm trọng lượng của bạn bằng cách hạ ngực xuống thảm - điều này sẽ đẩy vai bạn vào cổ họ.",
+    "Giữ đầu của bạn ở phía đối diện với cuộn cảm để ngăn chúng lăn bạn."
+  ],
+  "nextStep": "Sau d'arce, hãy tìm hiểu anaconda cuộn cảm và guillotine để xâu chuỗi từ front headlock.",
+  "fixItFast": [
+    "Choke cảm thấy lỏng lẻo? Luồn cánh tay của bạn sâu hơn dưới cổ họ.",
+    "Họ xếp chồng bạn? Đưa đầu của bạn đến gần hông họ và tương tác lại.",
+    "Họ lăn qua? Thực hiện theo vòng quay - bạn có thể hoàn thành từ phía bên kia."
+  ]
+}

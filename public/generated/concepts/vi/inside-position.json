@@ -1,0 +1,71 @@
+{
+  "id": "inside-position",
+  "locale": "vi",
+  "title": "Vị trí trong",
+  "category": "positional",
+  "level": "fundamental",
+  "tags": [
+    "inside position",
+    "pummel",
+    "centerline",
+    "elbow position",
+    "knee pummel",
+    "hand fighting"
+  ],
+  "shortDefinition": "Đường trong là vị trí tay, đầu, gối hoặc hông nằm giữa cấu trúc của bạn và trọng tâm đối thủ — ai thắng line này kiểm soát hướng di chuyển.",
+  "whyItMatters": "Thắng đường trong giúp bạn quyết định frame, pummel, underhook, guard retention, back control và hand fight.",
+  "deepExplanation": "Inside position không phải một điểm cố định — nó là cuộc đua liên tục qua 4 cấp độ:\n\n1. Tay (hand fighting, grip battle)\n2. Khuỷu/forearm (frame, elbow control)\n3. Gối/shin (knee shield, shin frame)\n4. Hông/lưng (hip line, bodylock, back control)\n\nMỗi cấp độ bên trên thắng bên dưới: khuỷu đẩy được tay, gối xoá được khuỷu, hông áp đảo gối. Cuộc đua này xuất hiện ở mọi phase: guard retention (knee pummel vs knee cut), passing (underhook vs whizzer), front headlock (chin vs elbow), leg lock (knee line pummel). Mất đường trong = mất khả năng quyết định hướng = bị ép vào thế phòng thủ.",
+  "beginnerView": "Nguyên tắc tay-xương-gối: không để đối thủ đặt khuỷu bên trong khuỷu của bạn. Trong guard, giữ gối giữa bạn và họ trước khi đưa tay vào. Khi mất inside, đừng tăng sức — hãy rút ra và pummel lại từ khoảng cách an toàn.",
+  "advancedView": "Attaque nhiều lane cùng lúc: dùng tay kéo đầu xuống, đồng thời đưa gối vào đường trong guard retention, chuẩn bị hông cho wrestle-up. Khi họ phòng tay, gối của bạn đã thắng. Khi họ clear gối, tay bạn chuyển sang underhook. Đường trong không chỉ là thắng một điểm — nó là tạo ra nhiều cuộc đua để họ không thể thắng tất cả.",
+  "ifThenExamples": [
+    {
+      "if": "Nếu bạn mất Vị trí trong trong trao đổi.",
+      "then": "Dừng tăng tốc, lấy lại cấu trúc cơ thể gần nhất rồi mới tiếp tục kỹ thuật.",
+      "why": "No-gi hiện đại phạt rất nhanh khi bạn cố thắng bằng sức sau khi mất cấu trúc.",
+      "relatedSkillIds": [
+        "frames-pummeling",
+        "seated-guard-retention"
+      ]
+    },
+    {
+      "if": "Nếu đối thủ phản ứng đúng với hướng đầu tiên.",
+      "then": "Dùng Vị trí trong để đổi sang nhánh an toàn hơn thay vì ép cùng một hướng.",
+      "why": "Concept tốt biến phản ứng của đối thủ thành thông tin cho quyết định tiếp theo.",
+      "relatedSkillIds": [
+        "seated-guard-retention",
+        "bodylock-passing",
+        "front-headlock-defense"
+      ]
+    }
+  ],
+  "commonMisunderstandings": [
+    {
+      "misunderstanding": "Vị trí trong là một mẹo kỹ thuật riêng lẻ.",
+      "correction": "Hãy xem nó như quy tắc quyết định xuất hiện trong nhiều vị trí khác nhau."
+    },
+    {
+      "misunderstanding": "Bạn chỉ cần hiểu khái niệm là tự động dùng được trong live roll.",
+      "correction": "Khái niệm phải được gắn với body signal, cue ngắn và positional rolling."
+    }
+  ],
+  "trainingCues": [
+    "Gọi tên Vị trí trong trước khi tăng lực.",
+    "Tìm body signal, không đoán bằng cảm giác chung.",
+    "Nếu mất cấu trúc, reset một layer trước.",
+    "Drill chậm, test bằng resistance tăng dần."
+  ],
+  "relatedSkillIds": [
+    "frames-pummeling",
+    "seated-guard-retention",
+    "bodylock-passing",
+    "front-headlock-defense",
+    "hand-fighting"
+  ],
+  "relatedConceptIds": [
+    "pummeling",
+    "elbow-knee-connection",
+    "head-position",
+    "angle-creation",
+    "pressure-direction"
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "leg-drag-basics",
+  "domain": "passing",
+  "level": "intermediate",
+  "name": "Leg Drag Basics",
+  "aliases": [],
+  "tags": [
+    "passing",
+    "leg-drag"
+  ],
+  "keywords": [
+    "leg drag",
+    "hip control",
+    "crossface",
+    "back exposure"
+  ],
+  "relatedSkills": [
+    {
+      "id": "side-control-pin",
+      "type": "recommended"
+    },
+    {
+      "id": "back-control",
+      "type": "recommended"
+    },
+    {
+      "id": "mount-control",
+      "type": "recommended"
+    }
+  ],
+  "prerequisiteSkillIds": [
+    "outside-passing",
+    "headquarters-passing"
+  ],
+  "relatedPositions": [],
+  "relatedConcepts": [],
+  "archetypeIds": [],
+  "trainingMethodIds": [],
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": true,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "contentRefs": {
+    "videos": "videos.json",
+    "qualityChecklist": "qualityChecklist"
+  },
+  "updatedAt": "2026-05-21T00:24:30.749Z"
+}

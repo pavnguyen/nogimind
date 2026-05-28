@@ -1,0 +1,53 @@
+{
+  "id": "truck-twister",
+  "domain": "submission_systems",
+  "level": "advanced",
+  "name": "Truck / Twister",
+  "aliases": [],
+  "tags": [
+    "truck",
+    "twister",
+    "back-attack",
+    "body-lock",
+    "spine-lock"
+  ],
+  "keywords": [
+    "truck",
+    "twister",
+    "spinal lock",
+    "body triangle",
+    "back attack"
+  ],
+  "relatedSkills": [
+    {
+      "id": "crucifix-control",
+      "type": "recommended"
+    },
+    {
+      "id": "back-attack-system",
+      "type": "recommended"
+    },
+    {
+      "id": "claw-ride",
+      "type": "recommended"
+    }
+  ],
+  "prerequisiteSkillIds": [
+    "back-control",
+    "crab-ride"
+  ],
+  "relatedPositions": [],
+  "relatedConcepts": [],
+  "archetypeIds": [],
+  "trainingMethodIds": [],
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "updatedAt": "2026-05-21T00:24:30.773Z"
+}

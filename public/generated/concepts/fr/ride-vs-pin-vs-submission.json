@@ -1,0 +1,70 @@
+{
+  "id": "ride-vs-pin-vs-submission",
+  "locale": "fr",
+  "title": "Ride vs Pin vs Soumission",
+  "category": "strategic",
+  "level": "advanced",
+  "tags": [
+    "ride",
+    "pin",
+    "submission",
+    "phase",
+    "decision"
+  ],
+  "shortDefinition": "Trois phases: ride pour exposer le dos, pin pour stabiliser, soumission pour finir.",
+  "whyItMatters": "Confondre ride et pin fait perdre le dos ou la soumission avec bon contrôle.",
+  "deepExplanation": "Ride suit les réactions pour trouver le dos (turtle, crab, wrist ride). Pin stabilise hip/shoulder lines (side, mount). Soumission isole une ligne. Mauvaise phase casse le système.",
+  "beginnerView": "Êtes-vous en mouvement (ride) ou stabilisé (pin)?",
+  "advancedView": "Transitionner phases: ride → exposition dos → pin → soumission. Ne pas sauter de phase.",
+  "ifThenExamples": [
+    {
+      "if": "Si vous perdez Ride vs Pin vs Soumission pendant l’échange.",
+      "then": "Arrêtez d’accélérer, récupérez la structure corporelle proche, puis continuez.",
+      "why": "Le no-gi moderne punit vite la force après perte de structure.",
+      "relatedSkillIds": [
+        "turtle-ride",
+        "cross-wrist-ride"
+      ]
+    },
+    {
+      "if": "Si l’adversaire répond correctement à votre première ligne.",
+      "then": "Utilisez Ride vs Pin vs Soumission pour passer à une branche plus sûre au lieu de forcer.",
+      "why": "Un bon concept transforme la réaction adverse en information pour la décision suivante.",
+      "relatedSkillIds": [
+        "cross-wrist-ride",
+        "claw-ride",
+        "side-control-pin"
+      ]
+    }
+  ],
+  "commonMisunderstandings": [
+    {
+      "misunderstanding": "Ride vs Pin vs Soumission est une astuce technique isolée.",
+      "correction": "Voyez-le comme une règle de décision présente dans plusieurs positions."
+    },
+    {
+      "misunderstanding": "Comprendre le concept suffit pour l’utiliser en live.",
+      "correction": "Le concept doit être lié à signaux corporels, cues courts et rolling positionnel."
+    }
+  ],
+  "trainingCues": [
+    "Nommez Ride vs Pin vs Soumission avant d’ajouter force.",
+    "Cherchez le signal corporel, pas une impression vague.",
+    "Si la structure est perdue, reset une couche d’abord.",
+    "Driller lentement, puis tester avec résistance progressive."
+  ],
+  "relatedSkillIds": [
+    "turtle-ride",
+    "cross-wrist-ride",
+    "claw-ride",
+    "side-control-pin",
+    "mount-control",
+    "rear-naked-choke-system",
+    "back-control"
+  ],
+  "relatedConceptIds": [
+    "positional-hierarchy",
+    "control-before-submission",
+    "exposure-before-finish"
+  ]
+}

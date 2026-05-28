@@ -1,0 +1,56 @@
+{
+  "id": "rear-naked-choke-threat",
+  "locale": "en",
+  "title": "Rear Naked Choke Threat",
+  "category": "submission_threat",
+  "status": "critical",
+  "description": "The attacker from back control is opening a path under the chin through hand fighting and chest-to-back connection.",
+  "topPlayerGoals": [
+    "The top player wants to control Rear Naked Choke Threat through head position, inside position, and directed pressure.",
+    "Align the choking elbow, remove slack, and finish cleanly without neck cranking.",
+    "Keep a stable base so you are not off-balanced or countered."
+  ],
+  "bottomPlayerGoals": [
+    "The bottom player wants to survive Rear Naked Choke Threat with frames, pummeling, or the right angle.",
+    "Win the two-on-one, keep the chin safe, and put the shoulder on the mat.",
+    "Recognize danger signals early instead of waiting for the position to settle."
+  ],
+  "controlPoints": [
+    "Main control point: Choking wrist, elbow line, and chest-to-back connection..",
+    "Head, hands, hips, and knees should share the same force direction.",
+    "The elbow-knee connection or hip-shoulder line determines whether the position is still alive or already locked."
+  ],
+  "escapePriorities": [
+    "Escape priority: Hand fight before clearing the hook..",
+    "Protect the neck, back, knee line, or arm line before countering.",
+    "If inside position is lost, reset one defensive layer first."
+  ],
+  "advancementOptions": [
+    {
+      "action": "The defender clears the choke line to enter an escape route",
+      "nextPositionId": "back-escape-position",
+      "relatedSkillIds": [
+        "rear-naked-choke-system",
+        "back-control",
+        "back-escape"
+      ],
+      "why": "This is the natural branch when you win the main control point and the opponent is forced to defend."
+    }
+  ],
+  "dangerSignals": [
+    "The chin or neck is pulled out of a safe line.",
+    "The elbow separates from the ribs or knee.",
+    "The hip line is locked while the shoulder line is still being pulled.",
+    "You need a long hand post to avoid falling."
+  ],
+  "relatedSkillIds": [
+    "rear-naked-choke-system",
+    "back-control",
+    "back-escape"
+  ],
+  "relatedConceptIds": [
+    "control-before-submission",
+    "dilemma-attacks",
+    "early-vs-late-defense"
+  ]
+}

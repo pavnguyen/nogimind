@@ -1,0 +1,61 @@
+{
+  "id": "octopus-guard-sweep",
+  "locale": "en",
+  "name": "Octopus Guard Sweep",
+  "description": "Sweep from octopus guard by pulling the opponent's far hip across your sitting angle when they post poorly or commit weight forward.",
+  "shortInstruction": "Pull the far hip, block the near leg, drive through the angle — sweep them over your frame.",
+  "summary": "The octopus guard sweep exploits the opponent's forward pressure when they try to pass. As they commit weight forward, you pull their far hip across your body while blocking their near leg with your frame. The combination of pulling their weight forward and blocking their base creates a powerful rotational sweep that dumps them onto their back. This sweep works especially well against opponents who try to smash through your octopus guard with pressure.",
+  "whyItWorks": [
+    "When they commit forward to pass, their weight is already moving — you just redirect it with the hip pull.",
+    "Blocking their near leg with your frame removes their ability to post out of the sweep.",
+    "The far-hip pull creates rotational momentum that they cannot resist without giving up the pass.",
+    "Danaher principle: use their forward pressure against them — pull them where they are already going."
+  ],
+  "commonMistakes": [
+    "Pulling the hip without blocking the near leg — they will simply step and post out of the sweep.",
+    "Pulling with the arm only instead of using your full body rotation — the sweep comes from the hips, not the arm.",
+    "Trying to sweep when they have good base (weight back) — octopus sweep requires forward pressure.",
+    "Letting go of the far-hip wrap during the sweep — you need the wrap to control their rotation."
+  ],
+  "coachingCues": [
+    "Pull the hip, block the leg, drive through.",
+    "Feel their weight commit — that's your trigger.",
+    "The sweep is a rotation, not a lift.",
+    "If they're light on you, octopus sweep won't work — switch to a different attack."
+  ],
+  "safetySummary": [
+    "Do not crank their hip or lower back when pulling the sweep — use controlled rotation, not torque.",
+    "Keep your head clear of their falling body to avoid head contact.",
+    "When they land, protect your own legs from being trapped under their weight."
+  ],
+  "keyCorrections": [
+    "If they don't fall, you didn't block their near leg — re-frame the leg before pulling.",
+    "If they post out, your angle was too slow — accelerate the pull and rotation.",
+    "If they spin out backward, switch to a back take instead of forcing the sweep."
+  ],
+  "systemLogic": {
+    "corePrinciple": "Octopus guard control established → opponent commits forward → pull far hip across body → block near leg with frame → rotate them over your frame → land in side control or mount.",
+    "decisionTree": [
+      {
+        "condition": "General application",
+        "action": "If resist, the sweep by pulling back, release the far-hip wrap and wrestle up instead."
+      },
+      {
+        "condition": "The octopus sweep works best when",
+        "action": "they think they are passing, their forward momentum is the engine."
+      }
+    ]
+  },
+  "moneyDetails": [
+    "The far-hip pull should be a rotational pull across your chest, not a straight pull toward you.",
+    "Block their near knee with your top leg as you pull — this is the pivot point of the sweep.",
+    "Drive your shoulder into their hip as you pull — this adds rotational force to the sweep.",
+    "After the sweep, immediately establish side control or knee-on-belly — don't let them scramble back."
+  ],
+  "nextStep": "After the octopus sweep, learn the back take from octopus guard to attack opponents who defend the sweep.",
+  "fixItFast": [
+    "Can't pull them over? Your leg block is wrong — make sure your leg frames on their near knee, not their thigh.",
+    "They post out? The sweep was too slow — pull faster and with more rotation.",
+    "They back out? Release the guard and wrestle up — don't chase a retreating opponent."
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "id": "safe-unsafe-rotation",
+  "locale": "en",
+  "title": "Safe vs Unsafe Rotation",
+  "category": "safety",
+  "level": "fundamental",
+  "tags": [
+    "rotation",
+    "safety",
+    "leg lock",
+    "knee line",
+    "heel"
+  ],
+  "shortDefinition": "Safe rotation occurs when knee line is free and heel is hidden; unsafe rotation occurs when knee line is trapped and heel is exposed.",
+  "whyItMatters": "Leg lock injuries usually come from turning the wrong direction in an entanglement — knowing when to turn and when to stop is technical safety.",
+  "deepExplanation": "Safety assessment in order: (1) Is the heel exposed? (2) Is the knee line trapped? (3) Is the secondary leg controlled? If all 3 signals are present, do not rotate — tap or free yourself first. If heel hidden and knee free, you can rotate safely.",
+  "beginnerView": "Do not rotate hard when the heel is exposed and the knee is trapped.",
+  "advancedView": "Use rotation sensing to bait: let them feel knee line is trapped then change direction.",
+  "ifThenExamples": [
+    {
+      "if": "If you lose Safe vs Unsafe Rotation during the exchange.",
+      "then": "Stop accelerating, recover the nearest body structure, then continue the technique.",
+      "why": "Modern no-gi punishes forceful continuation after structure is lost.",
+      "relatedSkillIds": [
+        "leg-lock-defense",
+        "knee-line-escape"
+      ]
+    },
+    {
+      "if": "If the opponent correctly answers your first line.",
+      "then": "Use Safe vs Unsafe Rotation to switch to a safer branch instead of forcing the same line.",
+      "why": "A good concept turns the opponent’s reaction into information for the next decision.",
+      "relatedSkillIds": [
+        "knee-line-escape",
+        "heel-hook-safety",
+        "straight-ankle-lock-safety"
+      ]
+    }
+  ],
+  "commonMisunderstandings": [
+    {
+      "misunderstanding": "Safe vs Unsafe Rotation is a single technical trick.",
+      "correction": "Treat it as a decision rule that appears across many positions."
+    },
+    {
+      "misunderstanding": "Understanding the concept automatically makes it work live.",
+      "correction": "The concept needs body signals, short cues, and positional rolling."
+    }
+  ],
+  "trainingCues": [
+    "Name Safe vs Unsafe Rotation before adding force.",
+    "Find the body signal instead of guessing generally.",
+    "If structure is lost, reset one layer first.",
+    "Drill slowly, then test with progressive resistance."
+  ],
+  "relatedSkillIds": [
+    "leg-lock-defense",
+    "knee-line-escape",
+    "heel-hook-safety",
+    "straight-ankle-lock-safety"
+  ],
+  "relatedConceptIds": [
+    "knee-line",
+    "leg-lock-safety-hierarchy",
+    "early-vs-late-defense"
+  ]
+}

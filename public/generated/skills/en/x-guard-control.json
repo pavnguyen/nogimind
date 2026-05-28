@@ -1,0 +1,128 @@
+{
+  "id": "x-guard-control",
+  "domain": "guard_offense",
+  "level": "intermediate",
+  "status": "draft",
+  "name": "X-Guard Control",
+  "aliases": [],
+  "tags": [
+    "x-guard",
+    "guard",
+    "sweep",
+    "off-balance",
+    "tier:modern-expansion",
+    "meta:modern-common",
+    "risk:medium",
+    "family:guard",
+    "group:x-guard",
+    "modern-no-gi"
+  ],
+  "keywords": [
+    "x-guard",
+    "foot on hip",
+    "off-balance",
+    "leg wrap"
+  ],
+  "modernSystemGroup": "x_guard",
+  "relatedSkills": [
+    {
+      "id": "single-leg-x-control",
+      "type": "recommended"
+    },
+    {
+      "id": "k-guard-matrix",
+      "type": "recommended"
+    },
+    {
+      "id": "guard-pulling-strategy",
+      "type": "recommended"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "supine-guard-retention",
+    "seated-guard-retention"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [
+    "If you can't sweep them, your hips are not deep enough — scoot closer so your hips are under theirs.",
+    "If they step out, your foot on the far hip lost connection — re-establish the hip post immediately.",
+    "If they grab your head, you lost the arm fight — swim your hand inside and pummel."
+  ],
+  "version": 1,
+  "updatedAt": "2026-05-21T00:24:30.782Z",
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "en",
+  "description": "Use X-guard (both legs controlling one of their legs from underneath) to off-balance and sweep the opponent to top position.",
+  "shortInstruction": "Both legs on one leg, foot on their hip, off-balance and sweep — X-guard is the king of sweeps.",
+  "summary": "X-guard is the most powerful sweeping position in no-gi. Both of your legs control their near leg (one hooked behind the knee, one on the hip), while you sit under their center of mass. From here, you have a 2-on-1 on their leg and control of their base. Any weight shift they make can be exploited into a sweep. X-guard is the destination of the DLR-to-X and SLX-to-X transitions.",
+  "whyItWorks": [
+    "Two legs on one leg gives you an overwhelming mechanical advantage — they cannot simply pull free.",
+    "Your position under their center of mass means they have no base directly over you — they are always off-balance.",
+    "The foot on their far hip controls their rotation and prevents them from stepping away.",
+    "Danaher principle: X-guard is a 'sweep with certainty' — the position is so dominant that the sweep is almost inevitable."
+  ],
+  "commonMistakes": [
+    "Letting both legs drop to the same side of their leg — one leg must hook behind, one foot on the hip.",
+    "Sitting too far from their base — your hips should be directly under their hips.",
+    "Pulling the sweep without controlling their far arm — they will post and recover.",
+    "Staying in X-guard too long — it is a transitional position; sweep or transition immediately."
+  ],
+  "coachingCues": [
+    "One behind, one on top — that's X-guard.",
+    "Hips under hips, sweep with certainty.",
+    "If they post, you sweep — if they don't, they fall.",
+    "X-guard is a moment, not a home."
+  ],
+  "safetySummary": [
+    "Keep your head off the mat to avoid guillotine counters when you sweep.",
+    "Do not let them stack you by driving forward — if they stack, release the X-guard and reset.",
+    "When you sweep and come on top, protect your own head from hitting the mat."
+  ],
+  "systemLogic": {
+    "corePrinciple": "Enter X-guard (one leg behind their knee, one foot on far hip) → hips under their hips → off-balance → sweep or transition.",
+    "decisionTree": [
+      {
+        "condition": "Option 1: They resist the sweep",
+        "action": "keep pulling until they post → sweep the opposite direction."
+      },
+      {
+        "condition": "Option 2: They step back",
+        "action": "extend into SLX or leg entanglement."
+      },
+      {
+        "condition": "Option 3: They sit back",
+        "action": "enter 50/50 or saddle."
+      }
+    ],
+    "exitStrategies": []
+  },
+  "moneyDetails": [
+    "Your behind-the-knee hook must be deep — foot should hook their inner thigh, not just behind the knee.",
+    "The foot on their far hip should be on the hip bone, actively pressing to control their distance.",
+    "Grab their far ankle or sleeve with your same-side hand to prevent them from stepping back.",
+    "The X-guard sweep works by pulling their hooked leg toward your chest while pushing with the hip foot — a scissoring motion."
+  ],
+  "nextStep": "After X-guard control, learn the X-guard to SLX transition and the X-guard sweep variations.",
+  "fixItFast": [
+    "Can't sweep? Your hips aren't under theirs — scoot closer.",
+    "They step out? Your hip foot needs more active pressure — dig it into the hip bone.",
+    "They stack you? Release the X-guard and fall to your back — don't fight the stack."
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "id": "single-leg-x-control",
+  "domain": "guard_offense",
+  "level": "intermediate",
+  "status": "draft",
+  "name": "single leg x Kiểm soát",
+  "aliases": [],
+  "tags": [
+    "single-leg-x",
+    "ashi-garami",
+    "guard",
+    "sweep",
+    "leg-entry",
+    "tier:modern-expansion",
+    "meta:modern-common",
+    "risk:medium",
+    "family:guard",
+    "group:single-leg_x",
+    "modern-no-gi"
+  ],
+  "keywords": [
+    "single leg x",
+    "ashi garami",
+    "foot on hip",
+    "ankle control"
+  ],
+  "modernSystemGroup": "single_leg_x",
+  "relatedSkills": [
+    {
+      "id": "x-guard-control",
+      "type": "recommended"
+    },
+    {
+      "id": "k-guard-matrix",
+      "type": "recommended"
+    },
+    {
+      "id": "butterfly-guard-off-balance",
+      "type": "recommended"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "seated-guard-retention",
+    "leg-lock-safety-basics"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [
+    "Nếu họ thả lỏng chân, khóa của bạn quá nông - hãy vào lại bằng khóa sâu hơn sau đầu gối của họ.",
+    "Nếu họ làm phẳng bàn chân hông của bạn, bạn sẽ mất kiểm soát khoảng cách - đăng lại ngay trước khi họ thu hẹp khoảng cách.",
+    "Nếu họ tóm lấy đầu bạn, hãy đưa tay bạn vào trong cánh tay của họ và đập mạnh trở lại cổ áo của họ."
+  ],
+  "version": 1,
+  "updatedAt": "2026-05-21T00:24:30.782Z",
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "vi",
+  "description": "Kiểm soát hoàn toàn chân bị mắc kẹt duy nhất của đối thủ bằng cả hai chân trong SLX, cho phép quét lên vị trí trên cùng, lùi lại hoặc khóa chân.",
+  "shortInstruction": "Khóa chân, khống chế hông, sở hữu chân đế — SLX là khống chế chứ không phải sinh tồn.",
+  "summary": "Điều khiển X bằng một chân vượt xa những điều cơ bản - nó có nghĩa là bạn sở hữu hoàn toàn chân bị mắc kẹt của đối thủ. Họ không thể giải phóng nó, không thể bước ra và không thể dựa vào nó. Từ mức độ kiểm soát này, mọi tùy chọn đều có sẵn: bạn có thể quét họ ra sau, lấy lưng họ khi họ đăng bài hoặc thả vào vướng chân. Sự khác biệt giữa điều khiển SLX cơ bản và SLX là độ sâu của khóa cũng như khả năng đọc và phản ứng với sự thay đổi trọng lượng của chúng.",
+  "whyItWorks": [
+    "SLX được khóa đúng cách mang lại cho bạn lợi thế cơ học khi hai chân chống lại một chân — chúng không thể đơn giản kéo ra được.",
+    "Kiểm soát hông bằng chân sẽ ngăn không cho chúng đi vòng ra ngoài hoặc giẫm xung quanh guard của bạn.",
+    "Khoảng cách của bạn với trọng tâm của chúng có nghĩa là mọi sự thay đổi trọng lượng mà chúng thực hiện đều được truyền qua chân bị mắc kẹt.",
+    "Nguyên tắc Danaher: quá trình chuyển đổi từ SLX sang đích phải diễn ra liên tục — điều khiển thông qua chuyển động."
+  ],
+  "commonMistakes": [
+    "Khóa SLX quá lỏng lẻo — SLX lỏng lẻo giúp họ có thể tự do bước ra ngoài hoặc tạo tư thế.",
+    "Chỉ tập trung vào cái chân bị mắc kẹt mà quên đánh tay - tay của họ vẫn có thể tấn công vào đầu bạn.",
+    "Ở trong SLX quá lâu mà không tấn công — chân bạn sẽ mỏi và chúng sẽ trốn thoát.",
+    "Để họ nắm lấy chân hông của bạn và gỡ bài đăng."
+  ],
+  "coachingCues": [
+    "Khóa chặt, cao ngang hông, luôn năng động.",
+    "Chân của họ là tay lái của bạn - hãy cảm nhận mọi chuyển động.",
+    "Nếu bạn cảm thấy thoải mái với SLX thì bạn tấn công chưa đủ.",
+    "Đi qua SLX — đừng cắm trại ở đó."
+  ],
+  "safetySummary": [
+    "Hãy bảo vệ đầu gối của bạn khi chúng cố gắng xoay người ra khỏi SLX — thả ra và vào lại nếu bạn cảm thấy bị trẹo.",
+    "Giữ cho bàn chân hông của bạn hoạt động để ngăn chúng nắm lấy và kiểm soát mắt cá chân của bạn.",
+    "Khi quét từ SLX, hãy kiểm soát cú ngã của chính bạn để tránh tiếp đất bằng lưng không tốt."
+  ],
+  "systemLogic": {
+    "corePrinciple": "Khóa sâu SLX → hông đặt lên chân → cảm nhận sự dịch chuyển trọng lượng → quét đòn tấn công, lùi lại hoặc vướng chân.",
+    "decisionTree": [
+      {
+        "condition": "Phản ứng 1: Họ giơ tay",
+        "action": "quét chúng về phía sau trên chân đã đăng."
+      },
+      {
+        "condition": "Phản ứng 2: Họ ngồi lại",
+        "action": "nhập 50/50 hoặc saddle → tấn công bằng chân."
+      },
+      {
+        "condition": "Phản ứng 3: Họ quay đi",
+        "action": "theo vào phía sau lấy."
+      }
+    ],
+    "exitStrategies": []
+  },
+  "moneyDetails": [
+    "Khóa SLX của bạn phải ở phía sau đầu gối của họ chứ không phải ở mắt cá chân — khóa ngang đầu gối giúp bạn có đòn bẩy tối đa.",
+    "Bàn chân hông phải tác động vào xương hông của họ chứ không chỉ nghỉ ngơi - áp lực chủ động sẽ thay đổi cơ sở của họ.",
+    "Giữ tay áo hoặc cổ tay ở cánh tay xa của họ để ngăn họ đưa lên hoặc nắm lấy đầu bạn.",
+    "Khi họ đăng một tay để bảo vệ cú quét, cánh tay đó hiện đã được thực hiện - tấn công armbar hoặc chuyển về phía sau."
+  ],
+  "nextStep": "Sau khi thành thạo điều khiển SLX, hãy tìm hiểu các thao tác quét nâng cao và chuyển đổi liên tục sang X-guard.",
+  "fixItFast": [
+    "Họ cứ kéo chân mình ra à? Khóa cao hơn - phía sau đầu gối, không phải bắp chân.",
+    "Không thể quét? Bàn chân hông của bạn quá thụ động - hãy đẩy nó vào hông họ khi bạn kéo chân bị mắc kẹt.",
+    "Họ nắm lấy chân của bạn? Đập chân của bạn sang một góc khác - đừng để chúng ổn định độ bám."
+  ]
+}

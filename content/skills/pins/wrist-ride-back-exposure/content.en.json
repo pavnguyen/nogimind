@@ -1,0 +1,67 @@
+{
+  "id": "wrist-ride-back-exposure",
+  "locale": "en",
+  "name": "Wrist Ride to Back Exposure",
+  "description": "Wrist ride pulls the far wrist across the hip line to collapse the shoulder and expose the back. The wrist ride is a precision tool for breaking the turtle by attacking through the wrist.",
+  "shortInstruction": "From beside the turtle, grab the far wrist and pull it across their lower back toward you. Drive your chest into their near shoulder to collapse them flat. Take the back as they roll or flatten.",
+  "summary": "The wrist ride uses a single wrist grip (the far wrist) to collapse the opponent's shoulder line by pulling the wrist across their lower back. As the wrist crosses the hip line, the shoulder is driven forward and the opponent's base collapses. The wrist ride is particularly effective because it is hard to defend — the opponent cannot easily prevent you from controlling their wrist.",
+  "whyItWorks": [
+    "Pulling the far wrist across the hip line forces the far shoulder forward, collapsing their base",
+    "The wrist grip is easier to secure than a cross-face grip because it attacks the exposed limb",
+    "The wrist ride naturally exposes the back as the opponent's shoulder drives forward and their hips drop",
+    "The wrist ride transitions directly to the cross-wrist ride or Dagestani handcuff as you gain wrist control"
+  ],
+  "commonMistakes": [
+    "Pulling the wrist to your chest instead of across their hip line — the wrist must cross their body, not come toward you",
+    "Not driving chest pressure into the near shoulder — chest pressure is what collapses them",
+    "Releasing the wrist too early — maintain wrist control until the back is secured",
+    "Pulling too slowly — a sharp, controlled pull is more effective than a slow tug"
+  ],
+  "coachingCues": [
+    "Far wrist, pull across the hip",
+    "Chest on the near shoulder, drive",
+    "Wrist across = shoulder forward",
+    "Wrist control to back take"
+  ],
+  "safetySummary": [
+    "Do not pull the wrist at an awkward angle — pull across the hip line, not sideways",
+    "If the opponent rolls to escape, release the wrist and follow the roll",
+    "Be careful of finger injuries when gripping the wrist in no-gi — use a deep grip"
+  ],
+  "keyCorrections": [
+    "If they do not collapse: increase chest pressure on the near shoulder and pull the wrist harder",
+    "If they free the wrist: re-grip immediately or switch to the near wrist control",
+    "If they roll toward you: release the wrist and take the back"
+  ],
+  "systemLogic": {
+    "corePrinciple": "The wrist ride has three phases: Secure Wrist: Collapse Shoulder → Back Take",
+    "decisionTree": [
+      {
+        "condition": "In Phase 1 (Secure Wrist)",
+        "action": "from beside the turtle, reach across and grab the far wrist. Use a strong grip (palm-to-palm or monkey grip depending on gi/no-gi)"
+      },
+      {
+        "condition": "In Phase 2 (Collapse Shoulder)",
+        "action": "pull the wrist across their lower back (toward their opposite hip) while driving your chest into their near shoulder. The combined forces collapse their shoulder line and drop their hips"
+      },
+      {
+        "condition": "In Phase 3 (Back Take)",
+        "action": "as they collapse to their side or hip, release the wrist grip and replace with a seatbelt. Slide your near knee into their hip line and secure back control"
+      },
+      {
+        "condition": "the wrist ride fails",
+        "action": "switch to the cross-wrist ride (controlling both wrists) for increased control"
+      }
+    ]
+  },
+  "moneyDetails": [
+    "The wrist ride is the least resisted turtle-breaking technique because the wrist is often exposed",
+    "Mastering the wrist ride gives you a quick, low-effort path to back control from turtle",
+    "The wrist ride is particularly effective against fatigued opponents who cannot resist the pull"
+  ],
+  "fixItFast": [
+    "If they resist the wrist pull: switch to the power half ride — the cross-face grip is harder to resist",
+    "If they roll away: follow and maintain wrist control — do not release",
+    "If they sit up: release the wrist and switch to the claw ride — the claw grip is better against posturing opponents"
+  ]
+}

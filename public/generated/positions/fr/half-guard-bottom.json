@@ -1,0 +1,56 @@
+{
+  "id": "half-guard-bottom",
+  "locale": "fr",
+  "title": "Half guard dessous",
+  "category": "bottom_guard",
+  "status": "defensive",
+  "description": "Le joueur du dessous contrôle une jambe du joueur du dessus, mais il lui faut des cadres ou un underhook pour éviter d’être aplati.",
+  "topPlayerGoals": [
+    "Le joueur du dessus veut contrôler Half guard dessous avec la position de tête, la position intérieure et une pression orientée.",
+    "Utiliser le crossface, le whizzer et la pression pour aplatir les hanches.",
+    "Garder une base stable pour éviter d’être déséquilibré ou contré."
+  ],
+  "bottomPlayerGoals": [
+    "Le joueur du dessous veut survivre en Half guard dessous avec des cadres, du pummeling ou le bon angle.",
+    "Utiliser un knee shield, un underhook ou l’angle des hanches pour récupérer ou faire un wrestle-up.",
+    "Reconnaître les signaux de danger tôt au lieu d’attendre que la position se stabilise."
+  ],
+  "controlPoints": [
+    "Point de contrôle principal : Ligne de crossface, underhook et knee shield..",
+    "La tête, les mains, les hanches et les genoux doivent suivre la même direction de force.",
+    "La connexion coude-genou ou la ligne hanches-épaules détermine si la position reste vivante ou verrouillée."
+  ],
+  "escapePriorities": [
+    "Priorité de sortie : Bloquer le crossface avant de monter sur un single leg..",
+    "Protéger le cou, le dos, la ligne du genou ou la ligne du bras avant de contrer.",
+    "Si la position intérieure est perdue, rétablir d’abord une couche défensive."
+  ],
+  "advancementOptions": [
+    {
+      "action": "Gagner l’underhook et monter en dogfight",
+      "nextPositionId": "dogfight",
+      "relatedSkillIds": [
+        "half-guard-knee-shield",
+        "half-guard-wrestle-up",
+        "side-control-escape"
+      ],
+      "why": "C’est la branche naturelle lorsque vous gagnez le point de contrôle principal et que l’adversaire est forcé de défendre."
+    }
+  ],
+  "dangerSignals": [
+    "Le menton ou le cou sort de la ligne sûre.",
+    "Le coude se sépare des côtes ou du genou.",
+    "La ligne des hanches est verrouillée pendant que la ligne des épaules est encore tirée.",
+    "Vous devez poser une main loin pour éviter de tomber."
+  ],
+  "relatedSkillIds": [
+    "half-guard-knee-shield",
+    "half-guard-wrestle-up",
+    "side-control-escape"
+  ],
+  "relatedConceptIds": [
+    "head-position",
+    "elbow-knee-connection",
+    "wrestle-up-philosophy"
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "id": "ride-vs-pin-vs-submission",
+  "locale": "en",
+  "title": "Ride vs Pin vs Submission",
+  "category": "strategic",
+  "level": "advanced",
+  "tags": [
+    "ride",
+    "pin",
+    "submission",
+    "phase",
+    "decision"
+  ],
+  "shortDefinition": "Three different phases: ride to expose the back, pin to stabilize the position, submission to finish.",
+  "whyItMatters": "Confusing ride with pin makes you lose the back or submission when you have good control.",
+  "deepExplanation": "Ride is moving with reactions to find the back (turtle, crab, wrist ride). Pin is stabilizing hip and shoulder lines (side, mount). Submission is isolating a specific line. Wrong phase breaks the system.",
+  "beginnerView": "Are you moving (ride) or stabilized (pin)?",
+  "advancedView": "Transition phases smoothly: ride → back exposure → pin → submission. Do not skip phases.",
+  "ifThenExamples": [
+    {
+      "if": "If you lose Ride vs Pin vs Submission during the exchange.",
+      "then": "Stop accelerating, recover the nearest body structure, then continue the technique.",
+      "why": "Modern no-gi punishes forceful continuation after structure is lost.",
+      "relatedSkillIds": [
+        "turtle-ride",
+        "cross-wrist-ride"
+      ]
+    },
+    {
+      "if": "If the opponent correctly answers your first line.",
+      "then": "Use Ride vs Pin vs Submission to switch to a safer branch instead of forcing the same line.",
+      "why": "A good concept turns the opponent’s reaction into information for the next decision.",
+      "relatedSkillIds": [
+        "cross-wrist-ride",
+        "claw-ride",
+        "side-control-pin"
+      ]
+    }
+  ],
+  "commonMisunderstandings": [
+    {
+      "misunderstanding": "Ride vs Pin vs Submission is a single technical trick.",
+      "correction": "Treat it as a decision rule that appears across many positions."
+    },
+    {
+      "misunderstanding": "Understanding the concept automatically makes it work live.",
+      "correction": "The concept needs body signals, short cues, and positional rolling."
+    }
+  ],
+  "trainingCues": [
+    "Name Ride vs Pin vs Submission before adding force.",
+    "Find the body signal instead of guessing generally.",
+    "If structure is lost, reset one layer first.",
+    "Drill slowly, then test with progressive resistance."
+  ],
+  "relatedSkillIds": [
+    "turtle-ride",
+    "cross-wrist-ride",
+    "claw-ride",
+    "side-control-pin",
+    "mount-control",
+    "rear-naked-choke-system",
+    "back-control"
+  ],
+  "relatedConceptIds": [
+    "positional-hierarchy",
+    "control-before-submission",
+    "exposure-before-finish"
+  ]
+}

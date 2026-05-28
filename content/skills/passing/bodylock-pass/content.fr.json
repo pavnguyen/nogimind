@@ -1,0 +1,89 @@
+{
+  "id": "bodylock-pass",
+  "locale": "fr",
+  "name": "Passe de verrouillage corporel",
+  "shortName": "Verrouillage du corps",
+  "description": "Utilisez une pression de la poitrine à la hanche, un décalage de la tête et un verrouillage des hanches pour agrafer les hanches de l'adversaire avant de dégager la ligne du genou. Un système de passage de pression central No-Gi.",
+  "shortInstruction": "Verrouillez bas sur les hanches, décalez la tête, tuez les crochets, dégagez la ligne des genoux, stabilisez le pin.",
+  "summary": "Un système de passage de pression de base No-Gi qui neutralise les hanches avant de dégager les jambes.",
+  "whyItWorks": [
+    "Verrouille les deux hanches avant que l'adversaire puisse re-guard ou créer des frames.",
+    "Transforme la pression du haut du corps en immobilité du bas du corps.",
+    "Nie les crochets papillon, le craquement des épaules et les coups à l'intérieur du genou.",
+    "Crée un dilemme entre se faire aplatir ou abandonner la passe."
+  ],
+  "commonMistakes": [
+    "Verrouillage trop haut sur les côtes au lieu des hanches.",
+    "Relâcher le verrou corporel avant que la ligne du genou ne soit dégagée.",
+    "Laissez la tête reposer au centre entre les deux mains.",
+    "Ignorer le crochet papillon et précipiter la ligne du genou.",
+    "Se tenir trop haut, perdre la connexion entre la poitrine et les hanches."
+  ],
+  "coachingCues": [
+    "Verrouillage bas, tête décalée, tue le crochet.",
+    "Poitrine contre hanches, pas poitrine contre poitrine.",
+    "Les crochets sont morts avant que le genou ne bouge.",
+    "Stabiliser avant de relâcher."
+  ],
+  "oneMinuteMode": {
+    "goal": "Épinglez les hanches et dégagez la ligne du genou avec une pression de la poitrine à la hanche.",
+    "steps": [
+      "Connectez la poitrine aux hanches avec les mains verrouillées autour de la taille.",
+      "Gardez la tête décalée sur le côté (oreille près de la hanche).",
+      "Tuez le crochet papillon avec une pression sur le genou et la poitrine.",
+      "Pare-brise le genou le plus proche au-delà du cadre du tibia.",
+      "Dégagez la ligne du genou et stabilisez side control."
+    ]
+  },
+  "safetySummary": [
+    "Évitez de mettre du poids sur le cou ou la colonne vertébrale de l'adversaire.",
+    "Relâchez immédiatement la pression si votre partenaire tape ou montre de la détresse.",
+    "Ne tournez pas le cou pour forcer la passe."
+  ],
+  "keyCorrections": [
+    "Si vous êtes coincé, votre tête est centrée – décalez-la d’un côté.",
+    "S'ils re-guard, vous avez libéré le verrou trop tôt.",
+    "S'ils craquent, votre poitrine est trop haute."
+  ],
+  "systemLogic": {
+    "corePrinciple": "Le body lock pass est un système centré sur les hanches : contrôlez les hanches et les jambes suivent. La position de verrouillage détermine le succès de pass plus que la pression sur le haut du corps.",
+    "decisionTree": [
+      {
+        "condition": "L'adversaire a des crochets papillon actifs",
+        "action": "Faites passer le poids de la poitrine à travers les crochets tout en gardant la tête décalée – ne relâchez pas le verrouillage tant que les crochets ne sont pas épinglés au tapis."
+      },
+      {
+        "condition": "L'adversaire est à plat sur le dos, sans crochets",
+        "action": "Écartez les genoux, placez les deux genoux au-delà de la ligne des hanches, puis relâchez le verrou et la goupille side control."
+      },
+      {
+        "condition": "L'adversaire se cadre contre votre poitrine",
+        "action": "Abaissez le niveau de la poitrine, dirigez l’oreille vers le nombril et avancez les genoux pour briser le cadre."
+      },
+      {
+        "condition": "L'adversaire se tourne de son côté (knee shield)",
+        "action": "Passez au passage par-dessus en relâchant un côté du verrou et en épinglant le genou le plus proche avec votre épaule."
+      },
+      {
+        "condition": "L'adversaire obtient underhooks et vous soulève",
+        "action": "posture vers le haut, reconnectez la poitrine aux hanches et réinitialisez le verrouillage – ne vous battez pas depuis une position levée."
+      }
+    ],
+    "exitStrategies": [
+      "Si le dépassement échoue, passez au dépassement half guard ou au contrôle du quartier général.",
+      "Si l'adversaire crée trop d'espace, levez-vous et réengagez-vous à partir d'une position basse.",
+      "Si le blocage du corps est systématiquement contré, passez aux passes par-dessus ou par traînée de jambe."
+    ]
+  },
+  "moneyDetails": [
+    "Le décalage de la tête est le détail le plus sous-estimé : il bloque le resserrement des épaules et la rotation des hanches.",
+    "Tuer l'hameçon papillon n'est pas facultatif ; sans cela, vos hanches se soulèvent.",
+    "Relâchez le verrou corporel seulement une fois que la ligne du genou est passée et que side control est épinglé."
+  ],
+  "nextStep": "Après avoir stabilisé side control, passez à mount, back control ou à des systèmes de soumission comme arm triangle.",
+  "fixItFast": [
+    "Vous ne parvenez pas à verrouiller les hanches ? Abaissez le niveau de votre poitrine et élargissez vos genoux.",
+    "Se faire lever ? Votre poitrine est trop haute et le crochet est toujours vivant.",
+    "La ligne du genou est coincée ? Protégez votre genou près du pare-brise tout en maintenant une pression thoracique forte."
+  ]
+}

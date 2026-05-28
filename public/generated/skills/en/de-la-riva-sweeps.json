@@ -1,0 +1,122 @@
+{
+  "id": "de-la-riva-sweeps",
+  "domain": "guard_offense",
+  "level": "intermediate",
+  "status": "draft",
+  "name": "De La Riva Sweeps",
+  "aliases": [],
+  "tags": [
+    "de-la-riva",
+    "guard",
+    "sweep"
+  ],
+  "keywords": [
+    "de la riva",
+    "sweep",
+    "off-balance",
+    "X-guard",
+    "single leg X"
+  ],
+  "relatedSkills": [
+    {
+      "id": "x-guard-control",
+      "type": "recommended"
+    },
+    {
+      "id": "single-leg-x-control",
+      "type": "recommended"
+    },
+    {
+      "id": "de-la-riva-back-take",
+      "type": "recommended"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "guard-pulling-strategy",
+    "seated-guard-retention"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [
+    "If they strip your hook, your angle was wrong — re-insert the hook from a sharper angle.",
+    "If you can't off-balance them, your sleeve grip is too far from your hip — pull it closer.",
+    "If they step back and avoid the sweep, extend your hook and transition to a heel hook or leg entanglement entry."
+  ],
+  "version": 1,
+  "updatedAt": "2026-05-21T00:24:30.747Z",
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "en",
+  "description": "Use the inside De La Riva hook and sleeve grip to off-balance the passer, enter X-guard or single-leg X, or sweep directly to top position.",
+  "shortInstruction": "Inside hook, sleeve grip, angle off the hip — DLR is the gateway to the entire open guard system.",
+  "summary": "De La Riva (DLR) guard is the most common open guard in modern no-gi. The inside hook on the opponent's near leg, combined with a sleeve or ankle grip, gives you control over their base. By pulling their sleeve across your body and simultaneously hooking their leg, you create an angle that off-balances them forward and to one side. This opens entries into X-guard, single-leg X, or direct sweeps.",
+  "whyItWorks": [
+    "The DLR hook on the inside of their leg blocks their forward pass while giving you a lever to off-balance.",
+    "The sleeve grip connected to your far hip creates a diagonal tension that breaks their base.",
+    "DLR entries lead to the strongest sweeping positions in no-gi: X-guard and single-leg X.",
+    "Danaher principle: DLR removes one of their passing legs, reducing their passing options by 50%.",
+    "It works excellently against a standing passer — when they stand to pass, DLR is your counter."
+  ],
+  "commonMistakes": [
+    "Letting the DLR hook get shallow or stripped — a deep hook is essential for control.",
+    "Holding the sleeve grip at your hip instead of pulling it across your body — the cross-body tension creates the off-balance.",
+    "Fighting for DLR when the passer is already on their knees — DLR is for standing passers.",
+    "Staying flat on your back — DLR requires you to be on your side to generate power."
+  ],
+  "coachingCues": [
+    "Deep hook, cross-body sleeve, on your side.",
+    "Pull the sleeve, hook the leg — the angle creates the sweep.",
+    "DLR to X-guard is one movement, not two.",
+    "If they're on their knees, DLR is the wrong guard — switch to half guard or knee shield."
+  ],
+  "safetySummary": [
+    "Do not let them grab your DLR hook foot and twist — protect your knee by keeping the hook active and mobile.",
+    "When off-balancing, keep your head off the mat to prevent guillotine entries.",
+    "If they step over your DLR hook, immediately switch to reverse DLR or recover guard."
+  ],
+  "systemLogic": {
+    "corePrinciple": "DLR hook + sleeve grip → off-balance them forward → opponent posts → enter X-guard or SLX → sweep or attack legs.",
+    "decisionTree": [
+      {
+        "condition": "General application",
+        "action": "If they step forward (over the hook), go to deep DLR or waiter sweep."
+      },
+      {
+        "condition": "General application",
+        "action": "If they step back, extend into X-guard and sweep forward."
+      },
+      {
+        "condition": "General application",
+        "action": "DLR is the entry; X-guard and SLX are the destination."
+      }
+    ],
+    "exitStrategies": []
+  },
+  "moneyDetails": [
+    "Your DLR hook must be deep — the ball of your foot hooks inside their thigh, not their calf.",
+    "Pull their sleeve to your far hip, not straight down — diagonal tension breaks their base more effectively.",
+    "Stay on your side, not your back — being on your side gives your hook more range and power.",
+    "When they resist the off-balance by stepping back, that's your X-guard entry — extend the hook and slide your other leg to their hip."
+  ],
+  "nextStep": "After DLR sweeps, learn X-guard and single-leg X transitions to complete the open guard system.",
+  "fixItFast": [
+    "Hook keeps slipping? Dig it deeper — foot should hook inside the thigh, not behind the knee.",
+    "Can't off-balance? Pull the sleeve across your body, not toward you — cross-body tension is key.",
+    "They keep passing? Your DLR hook is too shallow or you're too flat on your back — sit up to your side."
+  ]
+}

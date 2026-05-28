@@ -1,0 +1,59 @@
+{
+  "id": "single-leg-x-control",
+  "domain": "guard_offense",
+  "level": "intermediate",
+  "name": "Single Leg X Control",
+  "aliases": [],
+  "tags": [
+    "single-leg-x",
+    "ashi-garami",
+    "guard",
+    "sweep",
+    "leg-entry",
+    "tier:modern-expansion",
+    "meta:modern-common",
+    "risk:medium",
+    "family:guard",
+    "group:single-leg_x",
+    "modern-no-gi"
+  ],
+  "keywords": [
+    "single leg x",
+    "ashi garami",
+    "foot on hip",
+    "ankle control"
+  ],
+  "modernSystemGroup": "single_leg_x",
+  "relatedSkills": [
+    {
+      "id": "x-guard-control",
+      "type": "recommended"
+    },
+    {
+      "id": "k-guard-matrix",
+      "type": "recommended"
+    },
+    {
+      "id": "butterfly-guard-off-balance",
+      "type": "recommended"
+    }
+  ],
+  "prerequisiteSkillIds": [
+    "seated-guard-retention",
+    "leg-lock-safety-basics"
+  ],
+  "relatedPositions": [],
+  "relatedConcepts": [],
+  "archetypeIds": [],
+  "trainingMethodIds": [],
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "updatedAt": "2026-05-21T00:24:30.782Z"
+}

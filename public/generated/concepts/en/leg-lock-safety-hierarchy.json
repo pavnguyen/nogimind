@@ -1,0 +1,65 @@
+{
+  "id": "leg-lock-safety-hierarchy",
+  "locale": "en",
+  "title": "Leg Lock Safety Hierarchy",
+  "category": "safety",
+  "level": "fundamental",
+  "tags": [
+    "leg lock",
+    "heel hook",
+    "safety"
+  ],
+  "shortDefinition": "The safety order: recognize entanglement, hide heel, protect knee line, clear secondary leg, then exit with control.",
+  "whyItMatters": "Leg locks can become dangerous quickly if you rotate wrong while knee line is trapped.",
+  "deepExplanation": "The safety hierarchy prevents panic. Heel exposure is the signal, knee line is the boundary, secondary leg is the extra lock. Early tapping and clear communication are technical skills.",
+  "beginnerView": "Do not rotate when heel is exposed and knee line is trapped.",
+  "advancedView": "Read leg entanglements as control positions, not twisting races.",
+  "ifThenExamples": [
+    {
+      "if": "If you lose Leg Lock Safety Hierarchy during the exchange.",
+      "then": "Stop accelerating, recover the nearest body structure, then continue the technique.",
+      "why": "Modern no-gi punishes forceful continuation after structure is lost.",
+      "relatedSkillIds": [
+        "leg-lock-safety-basics",
+        "heel-hook-safety"
+      ]
+    },
+    {
+      "if": "If the opponent correctly answers your first line.",
+      "then": "Use Leg Lock Safety Hierarchy to switch to a safer branch instead of forcing the same line.",
+      "why": "A good concept turns the opponent’s reaction into information for the next decision.",
+      "relatedSkillIds": [
+        "heel-hook-safety",
+        "straight-ankle-lock-safety",
+        "k-guard-entry"
+      ]
+    }
+  ],
+  "commonMisunderstandings": [
+    {
+      "misunderstanding": "Leg Lock Safety Hierarchy is a single technical trick.",
+      "correction": "Treat it as a decision rule that appears across many positions."
+    },
+    {
+      "misunderstanding": "Understanding the concept automatically makes it work live.",
+      "correction": "The concept needs body signals, short cues, and positional rolling."
+    }
+  ],
+  "trainingCues": [
+    "Name Leg Lock Safety Hierarchy before adding force.",
+    "Find the body signal instead of guessing generally.",
+    "If structure is lost, reset one layer first.",
+    "Drill slowly, then test with progressive resistance."
+  ],
+  "relatedSkillIds": [
+    "leg-lock-safety-basics",
+    "heel-hook-safety",
+    "straight-ankle-lock-safety",
+    "k-guard-entry"
+  ],
+  "relatedConceptIds": [
+    "knee-line",
+    "early-vs-late-defense",
+    "positional-hierarchy"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "side-control-pin",
+  "domain": "pins_rides",
+  "level": "beginner",
+  "name": "Side Control Pin",
+  "aliases": [],
+  "tags": [
+    "pin",
+    "pressure"
+  ],
+  "keywords": [
+    "crossface",
+    "underhook",
+    "hip block",
+    "pressure"
+  ],
+  "relatedSkills": [
+    {
+      "id": "mount-control",
+      "type": "recommended"
+    },
+    {
+      "id": "arm-triangle-mount",
+      "type": "recommended"
+    },
+    {
+      "id": "side-control-survival",
+      "type": "recommended"
+    }
+  ],
+  "prerequisiteSkillIds": [
+    "bodylock-passing"
+  ],
+  "relatedPositions": [],
+  "relatedConcepts": [],
+  "archetypeIds": [],
+  "trainingMethodIds": [],
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": true,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "contentRefs": {
+    "videos": "videos.json",
+    "qualityChecklist": "qualityChecklist"
+  },
+  "updatedAt": "2026-05-21T00:24:30.751Z"
+}

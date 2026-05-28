@@ -1,0 +1,55 @@
+{
+  "id": "north-south-escape",
+  "domain": "escapes",
+  "level": "intermediate",
+  "name": "North South Escape",
+  "aliases": [
+    "north-south pin escape",
+    "north-south guard recovery"
+  ],
+  "tags": [
+    "escape",
+    "pin",
+    "north-south",
+    "frame",
+    "knee-shield"
+  ],
+  "keywords": [
+    "north south",
+    "hip frame",
+    "knee shield",
+    "technical stand-up",
+    "shrimp escape"
+  ],
+  "relatedSkills": [
+    {
+      "id": "side-control-escape",
+      "type": "recommended"
+    },
+    {
+      "id": "mount-escape",
+      "type": "recommended"
+    },
+    {
+      "id": "turtle-escape-standup",
+      "type": "recommended"
+    }
+  ],
+  "prerequisiteSkillIds": [
+    "side-control-escape"
+  ],
+  "relatedPositions": [],
+  "relatedConcepts": [],
+  "archetypeIds": [],
+  "trainingMethodIds": [],
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "updatedAt": "2026-06-12T00:00:00.000Z"
+}

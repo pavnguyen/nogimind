@@ -1,0 +1,56 @@
+{
+  "id": "seated-guard",
+  "locale": "en",
+  "title": "Seated Guard",
+  "category": "bottom_guard",
+  "status": "defensive",
+  "description": "The guard player sits with shin frames, hand fighting, and wrestle-up or guard-entry threats.",
+  "topPlayerGoals": [
+    "The top player wants to control Seated Guard through head position, inside position, and directed pressure.",
+    "Kill the shin frame, pull the head line down, or lock the hips.",
+    "Keep a stable base so you are not off-balanced or countered."
+  ],
+  "bottomPlayerGoals": [
+    "The bottom player wants to survive Seated Guard with frames, pummeling, or the right angle.",
+    "Keep the head high with one foot post, one hook, or one active shin frame.",
+    "Recognize danger signals early instead of waiting for the position to settle."
+  ],
+  "controlPoints": [
+    "Main control point: Head height, shin frame, and wrist control..",
+    "Head, hands, hips, and knees should share the same force direction.",
+    "The elbow-knee connection or hip-shoulder line determines whether the position is still alive or already locked."
+  ],
+  "escapePriorities": [
+    "Escape priority: If your head is snapped down, protect the neck before standing up..",
+    "Protect the neck, back, knee line, or arm line before countering.",
+    "If inside position is lost, reset one defensive layer first."
+  ],
+  "advancementOptions": [
+    {
+      "action": "Enter shin-to-shin or wrestle up",
+      "nextPositionId": "single-leg-x",
+      "relatedSkillIds": [
+        "seated-guard-retention",
+        "shin-to-shin-entry",
+        "technical-stand-up"
+      ],
+      "why": "This is the natural branch when you win the main control point and the opponent is forced to defend."
+    }
+  ],
+  "dangerSignals": [
+    "The chin or neck is pulled out of a safe line.",
+    "The elbow separates from the ribs or knee.",
+    "The hip line is locked while the shoulder line is still being pulled.",
+    "You need a long hand post to avoid falling."
+  ],
+  "relatedSkillIds": [
+    "seated-guard-retention",
+    "shin-to-shin-entry",
+    "technical-stand-up"
+  ],
+  "relatedConceptIds": [
+    "guard-retention-layers",
+    "hooks",
+    "posts"
+  ]
+}

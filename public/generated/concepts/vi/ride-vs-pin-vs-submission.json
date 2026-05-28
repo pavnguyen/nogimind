@@ -1,0 +1,70 @@
+{
+  "id": "ride-vs-pin-vs-submission",
+  "locale": "vi",
+  "title": "Ride vs Pin vs Submission",
+  "category": "strategic",
+  "level": "advanced",
+  "tags": [
+    "ride",
+    "pin",
+    "submission",
+    "phase",
+    "decision"
+  ],
+  "shortDefinition": "Ba phase khác nhau: ride để lộ lưng, pin để ổn định vị trí, submission để kết thúc.",
+  "whyItMatters": "Nhầm lẫn giữa ride và pin làm bạn mất back hoặc submission khi đang control tốt.",
+  "deepExplanation": "Ride là di chuyển theo reaction để tìm back (turtle/crab/wrist ride). Pin là ổn định hip + shoulder line (side/mount). Submission là isolate line cụ thể. Phase sai làm hệ thống không chạy.",
+  "beginnerView": "Đang di chuyển (ride) hay đã ổn định (pin)?",
+  "advancedView": "Chuyển phase mượt: ride → back exposure → pin → submission. Không nhảy phase.",
+  "ifThenExamples": [
+    {
+      "if": "Nếu bạn mất Ride vs Pin vs Submission trong trao đổi.",
+      "then": "Dừng tăng tốc, lấy lại cấu trúc cơ thể gần nhất rồi mới tiếp tục kỹ thuật.",
+      "why": "No-gi hiện đại phạt rất nhanh khi bạn cố thắng bằng sức sau khi mất cấu trúc.",
+      "relatedSkillIds": [
+        "turtle-ride",
+        "cross-wrist-ride"
+      ]
+    },
+    {
+      "if": "Nếu đối thủ phản ứng đúng với hướng đầu tiên.",
+      "then": "Dùng Ride vs Pin vs Submission để đổi sang nhánh an toàn hơn thay vì ép cùng một hướng.",
+      "why": "Concept tốt biến phản ứng của đối thủ thành thông tin cho quyết định tiếp theo.",
+      "relatedSkillIds": [
+        "cross-wrist-ride",
+        "claw-ride",
+        "side-control-pin"
+      ]
+    }
+  ],
+  "commonMisunderstandings": [
+    {
+      "misunderstanding": "Ride vs Pin vs Submission là một mẹo kỹ thuật riêng lẻ.",
+      "correction": "Hãy xem nó như quy tắc quyết định xuất hiện trong nhiều vị trí khác nhau."
+    },
+    {
+      "misunderstanding": "Bạn chỉ cần hiểu khái niệm là tự động dùng được trong live roll.",
+      "correction": "Khái niệm phải được gắn với body signal, cue ngắn và positional rolling."
+    }
+  ],
+  "trainingCues": [
+    "Gọi tên Ride vs Pin vs Submission trước khi tăng lực.",
+    "Tìm body signal, không đoán bằng cảm giác chung.",
+    "Nếu mất cấu trúc, reset một layer trước.",
+    "Drill chậm, test bằng resistance tăng dần."
+  ],
+  "relatedSkillIds": [
+    "turtle-ride",
+    "cross-wrist-ride",
+    "claw-ride",
+    "side-control-pin",
+    "mount-control",
+    "rear-naked-choke-system",
+    "back-control"
+  ],
+  "relatedConceptIds": [
+    "positional-hierarchy",
+    "control-before-submission",
+    "exposure-before-finish"
+  ]
+}

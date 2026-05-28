@@ -1,0 +1,67 @@
+{
+  "id": "crab-ride",
+  "locale": "fr",
+  "name": "Balade en crabe",
+  "description": "Le tour en crabe contrôle les hanches par le bas ou par derrière avec des crochets derrière les genoux pour créer une exposition du dos. Le tour en crabe est une entrée dynamique de contrôle arrière utilisée lorsque l'adversaire est debout, à genoux ou en tortue.",
+  "shortInstruction": "Par derrière ou par le bas, accrochez les deux pieds derrière les genoux de l'adversaire, serrez vos talons vers ses fessiers et tirez ses hanches vers votre poitrine. Passez vos mains dans leur dos pour exposer le dos.",
+  "summary": "Le tour en crabe utilise des crochets derrière les genoux de l'adversaire pour contrôler ses hanches à distance, puis marche main sur main sur son dos pour effondrer sa posture et exposer son dos. Il est le plus souvent utilisé depuis la position du camion, depuis la tortue ou depuis back control lorsque l'adversaire se lève. Le système repose sur le principe selon lequel le contrôle des hanches par derrière avec des crochets de genou vous donne un levier pour plier l'adversaire vers l'avant.",
+  "whyItWorks": [
+    "Les crochets de genou (pieds derrière les genoux) vous permettent de contrôler le bas de leur corps à une distance sûre – ils ne peuvent pas donner de coups de pied ni s'éloigner.",
+    "Tirer leurs hanches vers votre poitrine tout en serrant les crochets des genoux plie leur corps vers l'avant, effondrant leur posture.",
+    "Marcher les mains dans le dos (main sur main) brise progressivement leur posture jusqu'à ce qu'elles soient repliées",
+    "Le tour en crabe fonctionne debout, à genoux ou en tortue - il s'agit d'un système d'entrée arrière universel"
+  ],
+  "commonMistakes": [
+    "Laisser les hanches se séparer de votre poitrine – le tour en crabe nécessite une connexion hanche-poitrine pour contrôler la posture",
+    "Perdre les crochets du genou – une fois les crochets perdus, l'adversaire peut se relever ou se transformer en vous",
+    "Marcher les mains trop vite dans le dos – chaque placement de main doit être sécurisé avant d’avancer",
+    "Ne pas garder les talons serrés vers les fessiers - les crochets lâches peuvent être retirés"
+  ],
+  "coachingCues": [
+    "Talons aux fessiers, serrez",
+    "Hanches vers la poitrine, tirez",
+    "Marchez les mains, une à la fois",
+    "Pliez-les vers l'avant pour exposer le dos"
+  ],
+  "safetySummary": [
+    "Les crochets pour genoux doivent être placés derrière les genoux et non à l’arrière de l’articulation du genou – une pression directe sur l’articulation du genou peut provoquer une hyperextension.",
+    "Ne tirez pas agressivement vers l'arrière avec les crochets du genou - cela peut mettre à rude épreuve les ischio-jambiers ou les ligaments du genou de l'adversaire.",
+    "Lorsque vous marchez les mains dans le dos, veillez à ne pas exercer de pression sur la colonne vertébrale."
+  ],
+  "keyCorrections": [
+    "Si l'adversaire se relève et casse les crochets : raccrochez-le immédiatement en entrant dans sa position et en plaçant à nouveau les crochets.",
+    "S'ils sont trop forts pour être pliés : alternez entre tirer les hanches et pousser la tête avec les mains.",
+    "Si vous perdez un hameçon : conservez l'autre hameçon et rétablissez le second avant d'avancer"
+  ],
+  "systemLogic": {
+    "corePrinciple": "Le tour en crabe comporte trois phases : Établir des crochets : Posture d'effondrement → Dos sécurisé",
+    "decisionTree": [
+      {
+        "condition": "Dans la phase 1 (établir des crochets)",
+        "action": "depuis derrière l'adversaire (debout, à genoux ou tortue), placez les deux pieds à l'intérieur de ses jambes et accrochez-vous derrière les deux genoux. Pressez vos talons vers leurs fessiers"
+      },
+      {
+        "condition": "En phase 2 (posture d'effondrement)",
+        "action": "tirez leurs hanches vers votre poitrine avec les crochets pour genoux tout en faisant marcher vos mains main sur main le long de leur colonne vertébrale. Chaque placement de main doit avancer vers la nuque. Au fur et à mesure que vos mains montent, leur posture s'effondre vers l'avant"
+      },
+      {
+        "condition": "En phase 3 (dos sécurisé)",
+        "action": "une fois qu'ils sont repliés vers l'avant, relâchez un crochet et remplacez-le par une poignée traditionnelle triangle ou seatbelt. Faites glisser votre genou dans la ligne de ses hanches et fixez-le complètement back control."
+      },
+      {
+        "condition": "ils résistent en se penchant en arrière",
+        "action": "relâchez un crochet, placez votre pied sur son fessier et poussez-le vers l'avant. Cela crée le pli vers l'avant dont vous avez besoin"
+      }
+    ]
+  },
+  "moneyDetails": [
+    "Le tour en crabe est le moyen le plus efficace de prendre le dessus sur le camion ou la tortue – c'est une transition de grande valeur à la fois en lutte et en BJJ.",
+    "Maîtriser le tour en crabe vous offre une entrée arrière fiable à partir de positions où les prises arrière traditionnelles échouent.",
+    "Le tour en crabe est particulièrement efficace contre des adversaires plus grands car il utilise un effet de levier (crochets aux genoux) plutôt que la force du haut du corps."
+  ],
+  "fixItFast": [
+    "S'ils se lèvent et s'enfuient : relâchez les crochets, poursuivez et réaccrochez-les.",
+    "S'ils se tournent vers vous : relâchez les crochets et passez à un front headlock ou à un verrou corporel.",
+    "S'ils se calent contre vous : gardez les crochets, serrez-les et tirez-les sur leur dos."
+  ]
+}

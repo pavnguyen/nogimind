@@ -1,0 +1,602 @@
+[
+  {
+    "id": "neutral-standing",
+    "title": {
+      "en": "Neutral Standing",
+      "vi": "Đứng trung lập",
+      "fr": "Debout neutre"
+    },
+    "category": "standing",
+    "status": "neutral",
+    "description": {
+      "en": "Both players are standing, and neither has clearly won the grip, head position, or attacking angle.",
+      "vi": "Hai người đang đứng và chưa ai thắng rõ ràng về grip, vị trí đầu hoặc góc tấn công.",
+      "fr": "Les deux joueurs sont debout, sans avantage clair sur les prises, la position de tête ou l’angle d’attaque."
+    }
+  },
+  {
+    "id": "hand-fighting-position",
+    "title": {
+      "en": "Hand Fighting",
+      "vi": "Hand Fighting",
+      "fr": "Hand fighting"
+    },
+    "category": "standing",
+    "status": "neutral",
+    "description": {
+      "en": "A hand-and-head-position battle to enter an underhook, collar tie, snapdown, single leg, or guard pull.",
+      "vi": "Cuộc đua tay và đầu để vào underhook, collar tie, snapdown, single leg hoặc guard pull.",
+      "fr": "Une bataille de mains et de position de tête pour entrer en underhook, collar tie, snapdown, single leg ou guard pull."
+    }
+  },
+  {
+    "id": "seated-guard",
+    "title": {
+      "en": "Seated Guard",
+      "vi": "Seated Guard",
+      "fr": "Garde assise"
+    },
+    "category": "bottom_guard",
+    "status": "defensive",
+    "description": {
+      "en": "The guard player sits with shin frames, hand fighting, and wrestle-up or guard-entry threats.",
+      "vi": "Người guard ngồi dùng shin frames, hand fighting và đe dọa wrestle-up hoặc guard entry.",
+      "fr": "Le joueur en garde est assis avec des cadres tibiaux, du hand fighting et des menaces de wrestle-up ou d’entrée en garde."
+    }
+  },
+  {
+    "id": "supine-guard",
+    "title": {
+      "en": "Supine Guard",
+      "vi": "Guard nằm ngửa",
+      "fr": "Garde sur le dos"
+    },
+    "category": "bottom_guard",
+    "status": "defensive",
+    "description": {
+      "en": "The guard player lies supine and uses feet, knees, frames, and hip angle to deny chest-to-chest passing.",
+      "vi": "Người guard nằm ngửa dùng bàn chân, đầu gối, frame và góc hông để ngăn passer vào chest-to-chest.",
+      "fr": "Le joueur en garde est sur le dos et utilise les pieds, les genoux, les cadres et l’angle des hanches pour empêcher le passage chest-to-chest."
+    }
+  },
+  {
+    "id": "butterfly-guard",
+    "title": {
+      "en": "Butterfly Guard",
+      "vi": "Butterfly Guard",
+      "fr": "Garde papillon"
+    },
+    "category": "bottom_guard",
+    "status": "neutral",
+    "description": {
+      "en": "A guard that uses butterfly hooks to elevate the opponent’s hips, force posts, and switch to sweeps or wrestle-ups.",
+      "vi": "Guard dùng butterfly hooks để nâng hông đối thủ, buộc họ post tay và chuyển sang sweep hoặc wrestle-up.",
+      "fr": "Une garde qui utilise les hooks papillon pour soulever les hanches adverses, forcer les appuis et passer aux sweeps ou wrestle-ups."
+    }
+  },
+  {
+    "id": "half-guard-bottom",
+    "title": {
+      "en": "Half Guard Bottom",
+      "vi": "Half Guard Dưới",
+      "fr": "Half guard dessous"
+    },
+    "category": "bottom_guard",
+    "status": "defensive",
+    "description": {
+      "en": "The bottom player controls one of the top player’s legs but needs frames or an underhook to avoid being flattened.",
+      "vi": "Người ở dưới giữ một chân của người ở trên, nhưng cần frame hoặc underhook để không bị ép phẳng.",
+      "fr": "Le joueur du dessous contrôle une jambe du joueur du dessus, mais il lui faut des cadres ou un underhook pour éviter d’être aplati."
+    }
+  },
+  {
+    "id": "knee-shield-half-guard",
+    "title": {
+      "en": "Knee Shield Half Guard",
+      "vi": "Knee Shield Half Guard",
+      "fr": "Half guard avec knee shield"
+    },
+    "category": "bottom_guard",
+    "status": "neutral",
+    "description": {
+      "en": "The knee shield creates a wedge between the top player’s chest or hip and the bottom player’s body.",
+      "vi": "Knee shield tạo một wedge giữa ngực hoặc hông của người ở trên và thân của người ở dưới.",
+      "fr": "Le knee shield crée un wedge entre la poitrine ou la hanche du joueur du dessus et le corps du joueur du dessous."
+    }
+  },
+  {
+    "id": "dogfight",
+    "title": {
+      "en": "Dogfight",
+      "vi": "Dogfight",
+      "fr": "Dogfight"
+    },
+    "category": "scramble",
+    "status": "neutral",
+    "description": {
+      "en": "Both players are on a knee or hip in an underhook-versus-whizzer battle from half guard or a wrestle-up.",
+      "vi": "Hai người ở trên một gối hoặc hông trong cuộc đấu underhook với whizzer từ half guard hoặc wrestle-up.",
+      "fr": "Les deux joueurs sont sur un genou ou une hanche dans une bataille underhook contre whizzer depuis la half guard ou un wrestle-up."
+    }
+  },
+  {
+    "id": "front-headlock-top",
+    "title": {
+      "en": "Front Headlock Top",
+      "vi": "Front Headlock Trên",
+      "fr": "Front headlock dessus"
+    },
+    "category": "front_headlock",
+    "status": "advantage",
+    "description": {
+      "en": "The top player controls the head and neck from the front, threatening a go-behind, guillotine, or back take.",
+      "vi": "Người ở trên kiểm soát đầu và cổ từ phía trước, đe dọa go-behind, guillotine hoặc back take.",
+      "fr": "Le joueur du dessus contrôle la tête et le cou par l’avant, menaçant le go-behind, la guillotine ou la prise du dos."
+    }
+  },
+  {
+    "id": "front-headlock-bottom",
+    "title": {
+      "en": "Front Headlock Bottom",
+      "vi": "Front Headlock Dưới",
+      "fr": "Front headlock dessous"
+    },
+    "category": "front_headlock",
+    "status": "dangerous",
+    "description": {
+      "en": "The bottom player’s head and neck are pulled down, so they must protect the airway and rebuild their base.",
+      "vi": "Người ở dưới bị kéo đầu và cổ xuống, cần bảo vệ đường thở và xây lại base.",
+      "fr": "La tête et le cou du joueur du dessous sont tirés vers le bas ; il doit protéger sa respiration et reconstruire sa base."
+    }
+  },
+  {
+    "id": "turtle-top",
+    "title": {
+      "en": "Turtle Top",
+      "vi": "Turtle Trên",
+      "fr": "Turtle dessus"
+    },
+    "category": "turtle",
+    "status": "advantage",
+    "description": {
+      "en": "The top player rides turtle, hunting wrist control, hip pressure, mat returns, or back exposure.",
+      "vi": "Người ở trên ride turtle, tìm kiểm soát cổ tay, áp lực hông, mat return hoặc mở lưng.",
+      "fr": "Le joueur du dessus ride la turtle en cherchant le contrôle du poignet, la pression de hanche, le retour au sol ou l’exposition du dos."
+    }
+  },
+  {
+    "id": "turtle-bottom",
+    "title": {
+      "en": "Turtle Bottom",
+      "vi": "Turtle Dưới",
+      "fr": "Turtle dessous"
+    },
+    "category": "turtle",
+    "status": "defensive",
+    "description": {
+      "en": "The bottom player in turtle must protect the neck, wrists, and back exposure while rebuilding a base.",
+      "vi": "Người ở dưới trong turtle cần bảo vệ cổ, cổ tay và lưng trong khi xây lại base.",
+      "fr": "Le joueur du dessous en turtle doit protéger le cou, les poignets et l’exposition du dos tout en reconstruisant sa base."
+    }
+  },
+  {
+    "id": "bodylock-passing-position",
+    "title": {
+      "en": "Body Lock Passing Position",
+      "vi": "Vị trí Body Lock Passing",
+      "fr": "Position de body lock passing"
+    },
+    "category": "top_control",
+    "status": "advantage",
+    "description": {
+      "en": "The top player locks low around the guard player’s hips with chest-to-hip connection to clear the knee line.",
+      "vi": "Người ở trên khóa thấp quanh hông của guard player bằng kết nối chest-to-hip để vượt qua knee line.",
+      "fr": "Le joueur du dessus verrouille bas autour des hanches du joueur en garde avec une connexion poitrine-hanche pour passer la ligne du genou."
+    }
+  },
+  {
+    "id": "headquarters-top",
+    "title": {
+      "en": "Headquarters Top",
+      "vi": "Headquarters Trên",
+      "fr": "Headquarters dessus"
+    },
+    "category": "top_control",
+    "status": "advantage",
+    "description": {
+      "en": "The top player stands in headquarters with one of the guard player’s legs stapled and multiple passing lanes available.",
+      "vi": "Người ở trên đứng trong headquarters với một chân của guard player bị staple và có nhiều đường pass.",
+      "fr": "Le joueur du dessus est en headquarters avec une jambe du joueur en garde fixée et plusieurs lignes de passage disponibles."
+    }
+  },
+  {
+    "id": "knee-cut-position",
+    "title": {
+      "en": "Knee Cut Position",
+      "vi": "Vị trí Knee Cut",
+      "fr": "Position de knee cut"
+    },
+    "category": "top_control",
+    "status": "advantage",
+    "description": {
+      "en": "The top player cuts the knee across the thigh line while working to win the underhook or crossface and control the hip line.",
+      "vi": "Người ở trên cắt gối qua đường đùi trong khi cố thắng underhook hoặc crossface và kiểm soát hip line.",
+      "fr": "Le joueur du dessus coupe le genou à travers la ligne de la cuisse tout en cherchant l’underhook ou le crossface et le contrôle de la ligne des hanches."
+    }
+  },
+  {
+    "id": "side-control-top",
+    "title": {
+      "en": "Side Control Top",
+      "vi": "Side Control Trên",
+      "fr": "Side control dessus"
+    },
+    "category": "pin",
+    "status": "dominant",
+    "description": {
+      "en": "The top player holds side control with a crossface, underhook, hip block, and shoulder pressure.",
+      "vi": "Người ở trên giữ side control bằng crossface, underhook, hip block và shoulder pressure.",
+      "fr": "Le joueur du dessus tient le side control avec un crossface, un underhook, un blocage des hanches et une pression d’épaule."
+    }
+  },
+  {
+    "id": "side-control-bottom",
+    "title": {
+      "en": "Side Control Bottom",
+      "vi": "Side Control Dưới",
+      "fr": "Side control dessous"
+    },
+    "category": "pin",
+    "status": "dangerous",
+    "description": {
+      "en": "The bottom player is pinned chest-to-chest or controlled by a crossface and underhook, and must survive before escaping.",
+      "vi": "Người ở dưới bị pin chest-to-chest hoặc bị kiểm soát bởi crossface và underhook, cần sống sót trước khi escape.",
+      "fr": "Le joueur du dessous est immobilisé chest-to-chest ou contrôlé par un crossface et un underhook, et doit d’abord survivre avant de sortir."
+    }
+  },
+  {
+    "id": "mount-top",
+    "title": {
+      "en": "Mount Top",
+      "vi": "Mount Trên",
+      "fr": "Mount dessus"
+    },
+    "category": "pin",
+    "status": "dominant",
+    "description": {
+      "en": "The top player sits over the opponent’s hips or chest, separates the elbows, and opens high mount or submissions.",
+      "vi": "Người ở trên ngồi trên hông hoặc ngực đối thủ, tách khuỷu tay và mở high mount hoặc submission.",
+      "fr": "Le joueur du dessus est assis sur les hanches ou la poitrine adverse, sépare les coudes et ouvre la high mount ou les soumissions."
+    }
+  },
+  {
+    "id": "mount-bottom",
+    "title": {
+      "en": "Mount Bottom",
+      "vi": "Mount Dưới",
+      "fr": "Mount dessous"
+    },
+    "category": "pin",
+    "status": "critical",
+    "description": {
+      "en": "The bottom player is mounted and must protect the neck and arms while recovering the elbow-knee connection before high mount develops.",
+      "vi": "Người ở dưới bị mount và phải bảo vệ cổ, tay trong khi recover khuỷu-gối trước khi đối thủ lên high mount.",
+      "fr": "Le joueur du dessous est monté et doit protéger le cou et les bras tout en récupérant la connexion coude-genou avant que la high mount ne s’installe."
+    }
+  },
+  {
+    "id": "back-control-position",
+    "title": {
+      "en": "Back Control",
+      "vi": "Back Control",
+      "fr": "Contrôle du dos"
+    },
+    "category": "back",
+    "status": "dominant",
+    "description": {
+      "en": "The attacker keeps chest-to-back connection, a seatbelt, and hooks or a body triangle to create strangle dilemmas.",
+      "vi": "Attacker giữ chest-to-back, seatbelt và hooks hoặc body triangle để tạo dilemma về siết cổ.",
+      "fr": "L’attaquant garde la connexion poitrine-dos, le seatbelt et les hooks ou le body triangle pour créer des dilemmes d’étranglement."
+    }
+  },
+  {
+    "id": "back-escape-position",
+    "title": {
+      "en": "Back Escape Position",
+      "vi": "Vị trí Thoát Back",
+      "fr": "Position de sortie du dos"
+    },
+    "category": "back",
+    "status": "dangerous",
+    "description": {
+      "en": "The defender is escaping back control through hand fighting, shoulder-to-mat positioning, and hook clearing.",
+      "vi": "Defender đang thoát back bằng hand fighting, đưa vai xuống thảm và clear hook.",
+      "fr": "Le défenseur sort du contrôle du dos par le hand fighting, l’épaule au tapis et le retrait du hook."
+    }
+  },
+  {
+    "id": "single-leg-x",
+    "title": {
+      "en": "Single Leg X",
+      "vi": "Single Leg X",
+      "fr": "Single Leg X"
+    },
+    "category": "leg_entanglement",
+    "status": "neutral",
+    "description": {
+      "en": "The guard player controls one leg and the hip line to sweep, stand up, or enter ashi.",
+      "vi": "Guard player kiểm soát một chân và đường hông để sweep, đứng dậy hoặc vào ashi.",
+      "fr": "Le joueur en garde contrôle une jambe et la ligne des hanches pour sweeper, se relever ou entrer en ashi."
+    }
+  },
+  {
+    "id": "outside-ashi",
+    "title": {
+      "en": "Outside Ashi",
+      "vi": "Outside Ashi",
+      "fr": "Outside ashi"
+    },
+    "category": "leg_entanglement",
+    "status": "dangerous",
+    "description": {
+      "en": "A leg entanglement with the leg outside the hip line, connected to straight ankle locks and heel exposure.",
+      "vi": "Leg entanglement với chân nằm ngoài hip line, liên quan straight ankle lock và nguy cơ lộ gót.",
+      "fr": "Un entanglement de jambe avec la jambe à l’extérieur de la ligne des hanches, lié au straight ankle lock et à l’exposition du talon."
+    }
+  },
+  {
+    "id": "saddle-inside-sankaku",
+    "title": {
+      "en": "Saddle / Inside Sankaku",
+      "vi": "Saddle / Inside Sankaku",
+      "fr": "Saddle / inside sankaku"
+    },
+    "category": "leg_entanglement",
+    "status": "critical",
+    "description": {
+      "en": "A strong leg entanglement around the hip line and knee line, often carrying heel-hook danger when the heel is exposed.",
+      "vi": "Leg entanglement mạnh quanh hip line và knee line, thường có nguy cơ heel hook nếu gót bị lộ.",
+      "fr": "Un entanglement de jambe puissant autour de la ligne des hanches et de la ligne du genou, souvent dangereux pour le heel hook si le talon est exposé."
+    }
+  },
+  {
+    "id": "scramble-neutral",
+    "title": {
+      "en": "Scramble Neutral",
+      "vi": "Scramble Trung lập",
+      "fr": "Scramble neutre"
+    },
+    "category": "scramble",
+    "status": "neutral",
+    "description": {
+      "en": "A transitional moment where neither player has clear control yet; the priorities are head position, hip control, inside position, and safety.",
+      "vi": "Khoảnh khắc chuyển tiếp khi chưa ai kiểm soát rõ; ưu tiên là đầu, hông, vị trí trong và an toàn.",
+      "fr": "Un moment de transition où aucun joueur n’a encore un contrôle clair ; les priorités sont la position de tête, le contrôle des hanches, la position intérieure et la sécurité."
+    }
+  },
+  {
+    "id": "arm-triangle-threat",
+    "title": {
+      "en": "Arm Triangle Threat",
+      "vi": "Đe dọa Arm Triangle",
+      "fr": "Menace d’arm triangle"
+    },
+    "category": "submission_threat",
+    "status": "critical",
+    "description": {
+      "en": "The attacker has moved the opponent’s arm across the neck line and is looking for shoulder pressure and angle to finish.",
+      "vi": "Attacker đã đưa tay đối thủ qua đường cổ và đang tìm shoulder pressure cùng góc để finish.",
+      "fr": "L’attaquant a amené le bras adverse à travers la ligne du cou et cherche la pression d’épaule et l’angle pour finir."
+    }
+  },
+  {
+    "id": "rear-naked-choke-threat",
+    "title": {
+      "en": "Rear Naked Choke Threat",
+      "vi": "Đe dọa Rear Naked Choke",
+      "fr": "Menace de rear naked choke"
+    },
+    "category": "submission_threat",
+    "status": "critical",
+    "description": {
+      "en": "The attacker from back control is opening a path under the chin through hand fighting and chest-to-back connection.",
+      "vi": "Attacker từ back control đang mở đường dưới cằm bằng hand fighting và kết nối chest-to-back.",
+      "fr": "L’attaquant depuis le contrôle du dos ouvre un chemin sous le menton avec le hand fighting et la connexion poitrine-dos."
+    }
+  },
+  {
+    "id": "closed-guard",
+    "title": {
+      "en": "Closed Guard",
+      "vi": "Closed Guard",
+      "fr": "Garde fermée"
+    },
+    "category": "bottom_guard",
+    "status": "neutral",
+    "description": {
+      "en": "The guard player locks legs around the passer hips to control posture and set up submissions or sweeps.",
+      "vi": "Người guard khóa chân quanh hông passer để kiểm soát posture, tạo angle cho submission hoặc sweep.",
+      "fr": "Le joueur en garde verrouille ses jambes autour des hanches du passeur pour contrôler la posture et préparer soumissions ou sweeps."
+    }
+  },
+  {
+    "id": "de-la-riva-guard",
+    "title": {
+      "en": "De La Riva Guard",
+      "vi": "De La Riva Guard",
+      "fr": "Garde De La Riva"
+    },
+    "category": "bottom_guard",
+    "status": "neutral",
+    "description": {
+      "en": "The guard player uses a leg hook on the inside thigh and hand on the outside ankle to off-balance and sweep a standing passer.",
+      "vi": "Guard player dùng hook chân trên đùi trong và tay kéo cổ chân ngoài để off-balance và sweep passer đứng.",
+      "fr": "Le gardiste utilise un hook de jambe sur la cuisse intérieure et une main sur la cheville extérieure pour déséquilibrer et balayer le passeur debout."
+    }
+  },
+  {
+    "id": "reverse-de-la-riva-guard",
+    "title": {
+      "en": "Reverse De La Riva Guard",
+      "vi": "Reverse De La Riva Guard",
+      "fr": "Garde De La Riva inversée"
+    },
+    "category": "bottom_guard",
+    "status": "defensive",
+    "description": {
+      "en": "RDLR uses an outside thigh hook and hip rotation to create angle, sweep, or transition to other guards.",
+      "vi": "RDLR dùng hook chân ngoài đùi và xoay hông để tạo angle, sweep hoặc chuyển sang other guards.",
+      "fr": "RDLR utilise un hook extérieur de cuisse et une rotation de hanche pour créer angle, balayer ou transiter."
+    }
+  },
+  {
+    "id": "x-guard-position",
+    "title": {
+      "en": "X-Guard",
+      "vi": "X-Guard",
+      "fr": "X-Guard"
+    },
+    "category": "bottom_guard",
+    "status": "neutral",
+    "description": {
+      "en": "X-guard uses foot on hip and leg wrap to off-balance and sweep from bottom, controlling the passer hip line.",
+      "vi": "X-guard dùng chân trên hông và wrap leg để off-balance và sweep từ bottom, kiểm soát hip line của passer.",
+      "fr": "X-guard utilise le pied sur la hanche et le wrap de jambe pour déséquilibrer et balayer, contrôlant la hip line du passeur."
+    }
+  },
+  {
+    "id": "z-guard",
+    "title": {
+      "en": "Z-Guard (93 Guard)",
+      "vi": "Z-Guard (93 Guard)",
+      "fr": "Z-Guard (93 Guard)"
+    },
+    "category": "bottom_guard",
+    "status": "defensive",
+    "description": {
+      "en": "Z-guard is a deep knee-shield half guard using the shin and underhook to block crossface and set up wrestle-ups.",
+      "vi": "Z-guard là knee shield deep half guard, dùng shin và underhook để chặn crossface và tạo wrestle-up.",
+      "fr": "Z-guard est un half guard profond avec knee shield, utilisant le tibia et l’underhook pour bloquer le crossface et préparer le wrestle-up."
+    }
+  },
+  {
+    "id": "knee-on-belly",
+    "title": {
+      "en": "Knee On Belly",
+      "vi": "Knee On Belly",
+      "fr": "Genou sur le ventre"
+    },
+    "category": "top_control",
+    "status": "advantage",
+    "description": {
+      "en": "The top player places a knee on the opponent belly or hip, creating pressure and quick transitions to pass, mount, or submissions.",
+      "vi": "Người ở trên đặt gối lên bụng/hông người ở dưới, tạo pressure và di chuyển nhanh để pass, mount hoặc submission.",
+      "fr": "Le joueur du dessus pose un genou sur le ventre ou la hanche adverse, créant pression et transitions rapides vers pass, mount ou soumissions."
+    }
+  },
+  {
+    "id": "north-south",
+    "title": {
+      "en": "North South",
+      "vi": "North South",
+      "fr": "North South"
+    },
+    "category": "pin",
+    "status": "dominant",
+    "description": {
+      "en": "The top player lies reverse from the head side, controlling chest-to-chest or chest-to-back with shoulder pressure.",
+      "vi": "Người ở trên nằm ngược từ phía đầu, kiểm soát chest-to-chest hoặc chest-to-back với shoulder pressure.",
+      "fr": "Le joueur du dessus s’allonge du côté tête, contrôlant chest-to-chest ou chest-to-back avec pression épaule."
+    }
+  },
+  {
+    "id": "inverted-guard",
+    "title": {
+      "en": "Inverted Guard",
+      "vi": "Inverted Guard",
+      "fr": "Garde inversée"
+    },
+    "category": "bottom_guard",
+    "status": "defensive",
+    "description": {
+      "en": "The guard player inverts to place feet on the hip line or shoulder line, creating sweep angles and leg entries.",
+      "vi": "Guard player xoay người invert để đặt chân vào hip line hoặc shoulder line, tạo angle sweep và leg entries.",
+      "fr": "Le gardiste s’inverse pour placer les pieds sur la hip line ou shoulder line, créant angles de sweep et entrées jambes."
+    }
+  },
+  {
+    "id": "k-guard-position",
+    "title": {
+      "en": "K-Guard",
+      "vi": "K-Guard",
+      "fr": "K-Guard"
+    },
+    "category": "bottom_guard",
+    "status": "neutral",
+    "description": {
+      "en": "K-guard controls one of the opponent legs with a shin frame and foot hook, creating angles into matrix, leg locks, or back takes.",
+      "vi": "K-guard kiểm soát một chân đối thủ bằng shin frame và foot hook, tạo angle vào matrix, leg locks hoặc back take.",
+      "fr": "K-guard contrôle une jambe adverse avec shin frame et foot hook, créant des angles vers matrix, leg locks ou prise de dos."
+    }
+  },
+  {
+    "id": "crab-ride-position",
+    "title": {
+      "en": "Crab Ride",
+      "vi": "Crab Ride",
+      "fr": "Crab Ride"
+    },
+    "category": "back",
+    "status": "advantage",
+    "description": {
+      "en": "The top player rides from below or behind with hooks behind the knees, pulling the opponent hips over to expose the back.",
+      "vi": "Người ở trên ride từ phía dưới/sau bằng hooks sau gối, kéo hông đối thủ qua người để lộ lưng.",
+      "fr": "Le joueur du dessus ride par dessous/derrière avec des hooks derrière genoux, tirant les hanches adverses pour exposer le dos."
+    }
+  },
+  {
+    "id": "backside-50-50",
+    "title": {
+      "en": "Backside 50/50",
+      "vi": "Backside 50/50",
+      "fr": "Backside 50/50"
+    },
+    "category": "leg_entanglement",
+    "status": "dangerous",
+    "description": {
+      "en": "A leg entanglement from behind where the attacker controls both the hip line and knee line, creating dangerous heel exposure from the rear.",
+      "vi": "Leg entanglement từ phía sau nơi attacker kiểm soát cả hip line và knee line, tạo heel exposure nguy hiểm từ phía sau.",
+      "fr": "Un entanglement de jambe par derrière où l’attaquant contrôle la hip line et la knee line, créant une exposition du talon dangereuse par l’arrière."
+    }
+  },
+  {
+    "id": "cross-wrist-ride-position",
+    "title": {
+      "en": "Cross-Wrist Ride",
+      "vi": "Cross-Wrist Ride",
+      "fr": "Cross-wrist ride"
+    },
+    "category": "back",
+    "status": "advantage",
+    "description": {
+      "en": "A ride from turtle/side where the attacker controls both wrists, stretching the opponent arms to expose the back.",
+      "vi": "Ride từ turtle/side nơi attacker kiểm soát cả hai cổ tay, duỗi tay đối thủ ra xa để lộ lưng.",
+      "fr": "Un ride depuis turtle/side où l’attaquant contrôle les deux poignets, étirant les bras de l’adversaire pour exposer le dos."
+    }
+  },
+  {
+    "id": "claw-ride-position",
+    "title": {
+      "en": "Claw Ride",
+      "vi": "Claw Ride",
+      "fr": "Claw ride"
+    },
+    "category": "back",
+    "status": "advantage",
+    "description": {
+      "en": "A ride combining deep underhook, head control, and hip pressure from turtle to expose the back or mat return.",
+      "vi": "Ride dùng kết hợp underhook sâu + head control + hip pressure từ turtle để lộ lưng hoặc mat return.",
+      "fr": "Un ride combinant underhook profond, contrôle de tête et pression hanche depuis turtle pour exposer le dos ou retour au sol."
+    }
+  }
+]

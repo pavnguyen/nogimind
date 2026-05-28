@@ -1,0 +1,121 @@
+{
+  "id": "headquarters-passing",
+  "domain": "passing",
+  "level": "intermediate",
+  "status": "draft",
+  "name": "Trụ sở đi qua",
+  "aliases": [],
+  "tags": [
+    "passing",
+    "headquarters"
+  ],
+  "keywords": [
+    "headquarters",
+    "knee cut",
+    "leg drag",
+    "dilemma"
+  ],
+  "relatedSkills": [
+    {
+      "id": "knee-cut-passing",
+      "type": "recommended"
+    },
+    {
+      "id": "leg-drag-basics",
+      "type": "recommended"
+    },
+    {
+      "id": "outside-passing",
+      "type": "recommended"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "hand-fighting"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [
+    "Nếu họ tiếp tục lặp lạiguarding: bạn chưa hoàn toàn xóa khung ống chân - hãy tập trung vào việc chặn ống chân trước khi chuyền",
+    "Nếu họ tiếp tục sweep theo đuổi bạn: cơ sở của bạn quá hẹp ở trụ sở chính — hãy mở rộng lập trường của bạn",
+    "Nếu chúng tiếp tục tấn công vào chân bạn: hông của bạn quá cao - hãy hạ thấp hông xuống để vô hiệu hóa mối đe dọa tấn công vào chân"
+  ],
+  "version": 1,
+  "updatedAt": "2026-05-21T00:24:30.748Z",
+  "contentRefs": {
+    "videos": "videos.json",
+    "qualityChecklist": "qualityChecklist"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": true,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "vi",
+  "description": "Đứng ở trụ sở để kiểm soát hông của đối phương và buộc các lựa chọn cắt đầu gối, lùi lại hoặc kéo chân. Trụ sở chính là vị trí passing trung tâm mà từ đó tất cả các hệ thống guard passing đều bắt nguồn.",
+  "shortInstruction": "Từ trụ sở (một đầu gối nâng lên, một đầu gối hạ xuống), kiểm soát hông xa của họ bằng tay gần của bạn và chặn ống chân gần của họ bằng đầu gối trụ của bạn. Đọc phản ứng của họ và chọn pass thích hợp.",
+  "summary": "Trụ sở chính passing là khái niệm passing quan trọng nhất trong BJJ hiện đại. Từ vị trí trụ sở (một đầu gối nâng lên guard dựa vào khung ống chân, một đầu gối hạ xuống làm đế), bạn điều khiển chuyển động hông của đối phương và buộc họ phản ứng. Cây quyết định của bạn có ba nhánh chính: (1) cắt đầu gối nếu họ ấn ống chân vào đầu gối của bạn, (2) lùi lại nếu họ tạo khoảng cách bằng cách hông thoát ra, (3) kéo chân nếu họ đứng đối mặt với bạn. Hệ thống này dựa trên việc đọc góc hông và vị trí khung ống chân của đối thủ.",
+  "whyItWorks": [
+    "Vị trí trụ sở kiểm soát cả hông gần (đầu gối được đặt của bạn) và hông xa (điều khiển bằng tay của bạn)",
+    "Đứng ở trụ sở buộc đối thủ phải giao tranh (khung ống chân) hoặc rút lui (thoát hông) - cả hai phản ứng đều làm lộ làn đường đi qua",
+    "Cây quyết định của trụ sở chính bao gồm 90% phản ứng của người chơi guard từ open guard",
+    "Trụ sở chính là một vị trí vượt qua phổ quát hoạt động trong gi và No-Gi, chống lại tất cả các loại guard"
+  ],
+  "commonMistakes": [
+    "Ở lại trụ sở quá lâu mà không đạt được yêu cầu - đó là một vị trí chuyển tiếp, không phải là một vị trí nghỉ ngơi",
+    "Để đối thủ thiết lập khung ống chân chắc chắn - khung ống chân phải được vô hiệu hóa trước khi chuyền",
+    "Mất kết nối hông - đầu gối đã đăng của bạn phải duy trì tiếp xúc với hông gần của chúng",
+    "Không đọc được phản ứng của đối thủ — lựa chọn pass phải mang tính phản ứng, không được xác định trước"
+  ],
+  "coachingCues": [
+    "Kiểm soát hông xa, chặn ống chân",
+    "Đọc phản ứng của họ, chọn pass",
+    "Cắt đầu gối, bước lùi hoặc kéo chân",
+    "Cam kết hoặc đặt lại - không trì hoãn"
+  ],
+  "safetySummary": [
+    "Không tạo áp lực quá mức lên đầu gối đã đặt - đầu gối phải tựa vào hông, không lún vào khớp",
+    "Hãy cẩn thận với heel hook khi lùi lại — bảo vệ chân trước của bạn khi vòng ra phía sau",
+    "Nếu đối thủ lăn lộn mạnh mẽ trong pass, hãy bảo vệ đầu của bạn và thiết lập lại vị trí"
+  ],
+  "systemLogic": {
+    "corePrinciple": "Trụ sở chính passing có ba nhánh dựa trên phản ứng của đối thủ: Cắt đầu gối → Bước lùi → Kéo chân",
+    "decisionTree": [
+      {
+        "condition": "Sử dụng Nhánh 1 (Cắt đầu gối)",
+        "action": "đối thủ tiếp tục phòng thủ bằng knee shield hoặc half guard. Thả đầu gối đã đăng của bạn xuống và lái xe qua knee shield của họ. Bảo mật crossface và underhook"
+      },
+      {
+        "condition": "Sử dụng Nhánh 2 (Bước dài)",
+        "action": "đối thủ đang hoạt động và biến thành bạn. Bước chân xa của bạn qua đầu họ khi họ xoay người, vô hiệu hóa cú lăn của họ và hạ cánh ở side control"
+      },
+      {
+        "condition": "Sử dụng Nhánh 3 (Bước quay lại)",
+        "action": "đối thủ duy trì khoảng cách hoặc đe dọa quét. Bước lùi về phía đối diện và tấn công vào lưng hoặc kéo chân. Bước lùi thay đổi góc đi qua"
+      },
+      {
+        "condition": "Lựa chọn giữa các chi nhánh",
+        "action": "đọc vị trí hông của đối thủ. knee shields → bị cắt đầu gối. Biến thành bạn → bước dài. Giữ khoảng cách hoặc đe dọa sweeps → lùi lại"
+      }
+    ],
+    "exitStrategies": []
+  },
+  "moneyDetails": [
+    "Trụ sở chính là vị trí đậu quan trọng nhất trong BJJ — việc thành thạo nó sẽ mang lại cho bạn một hệ thống đậu guard hoàn chỉnh",
+    "Học cây quyết định trụ sở chính nhanh hơn học từng passes cho mỗi loại guard",
+    "Việc vượt qua trụ sở được sử dụng bởi mọi vận động viên grappler cấp cao No-Gi (Gordon Ryan, JT Torres, Lepri)"
+  ],
+  "fixItFast": [
+    "Nếu khung ống chân của họ quá khỏe: thả trọng lượng của bạn lên ống chân để làm nó xẹp xuống trước khi thực hiện pass",
+    "Nếu họ tiếp tục vòng ra ngoài: đuổi theo vòng tròn bằng bước lùi - bạn sẽ tiếp đất bằng lực kéo bằng chân",
+    "Nếu họ kéo guard: hãy đứng lên và tái lập trụ sở từ chỗ đứng"
+  ]
+}

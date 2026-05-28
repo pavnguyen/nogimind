@@ -1,0 +1,64 @@
+{
+  "id": "reaping-awareness",
+  "domain": "positional_awareness",
+  "level": "beginner",
+  "name": "Reaping Awareness",
+  "aliases": [
+    "reaping the knee",
+    "knee reaping safety",
+    "leg reap rules"
+  ],
+  "tags": [
+    "safety",
+    "knee-safety",
+    "leg-lock",
+    "tier:safety-critical",
+    "risk:safety-critical",
+    "family:safety",
+    "group:leg-safety",
+    "ibjjf-rules",
+    "modern-no-gi"
+  ],
+  "keywords": [
+    "reaping",
+    "knee line",
+    "medial rotation",
+    "outside ashi",
+    "ibjjf",
+    "heel exposure"
+  ],
+  "modernSystemGroup": "leg_locking_safety",
+  "relatedSkills": [
+    {
+      "id": "leg-lock-safety-basics",
+      "type": "prerequisite"
+    },
+    {
+      "id": "heel-hook-safety",
+      "type": "recommended"
+    },
+    {
+      "id": "single-leg-x-basics",
+      "type": "recommended"
+    }
+  ],
+  "prerequisiteSkillIds": [
+    "positional-hierarchy",
+    "leg-lock-safety-basics"
+  ],
+  "relatedPositions": [],
+  "relatedConcepts": [],
+  "archetypeIds": [],
+  "trainingMethodIds": [],
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": true,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "contentRefs": {
+    "qualityChecklist": "qualityChecklist",
+    "videos": "videos.json"
+  },
+  "updatedAt": "2026-06-12T00:00:00.000Z"
+}

@@ -1,0 +1,124 @@
+{
+  "id": "inside-position",
+  "domain": "positional_awareness",
+  "level": "beginner",
+  "status": "draft",
+  "name": "Vị trí bên trong",
+  "aliases": [],
+  "tags": [
+    "mechanics",
+    "pummeling"
+  ],
+  "keywords": [
+    "inside position",
+    "pummel",
+    "underhook",
+    "knee elbow connection"
+  ],
+  "relatedSkills": [
+    {
+      "id": "frames-pummeling",
+      "type": "recommended"
+    },
+    {
+      "id": "seated-guard-retention",
+      "type": "recommended"
+    },
+    {
+      "id": "hand-fighting",
+      "type": "recommended"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "positional-hierarchy"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [],
+  "version": 1,
+  "updatedAt": "2026-05-21T00:24:30.756Z",
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "vi",
+  "description": "Khả năng đặt tay, đầu, đầu gối hoặc hông ở làn bên trong để giành chiến thắng trong cuộc đua kiểm soát. Vị trí bên trong là nền tảng của mọi quyền kiểm soát vật lộn — bất kỳ ai kiểm soát cuộc giao tranh trongside control.",
+  "shortInstruction": "Đánh tay, đầu gối và khuỷu tay của họ vào đường trong. Chi bên trong của bạn điều khiển trục trung tâm của chúng. Không bao giờ thừa nhận vị trí bên trong mà không đánh lại.",
+  "summary": "Vị trí bên trong là việc kiểm soát khoảng trống giữa cơ thể bạn và đường giữa của đối phương. Từ đây, tất cả các lần gửi, quét, vượt qua và ghim đều được tạo. Vị trí bên trong tồn tại ở bốn cấp độ: tay bên trong (đập để kiểm soát cổ tay/khuỷu tay), bên trong đầu gối (đập trong guard/half guard), hông bên trong (vị trí bên trong để vượt qua/quét) và đầu bên trong (điều khiển đầu để hạ gục/bắn rùa). Mất vị trí bên trong ở bất kỳ cấp độ nào đều hướng lên trên - mất đầu gối bên trong dẫn đến mất hông bên trong.",
+  "whyItWorks": [
+    "Vị trí bên trong mang lại cho bạn đòn bẩy cơ học - chi của bạn nằm giữa chi và tâm của họ, cho phép bạn kiểm soát hướng chuyển động của họ",
+    "Bàn tay/cánh tay bên trong có thể tấn công các đệ trình, kiểm soát tư thế và chặn các nỗ lực của họ từ một con đường cơ học ngắn hơn, mạnh hơn",
+    "Vị trí đầu gối bên trong (đầu gối ở giữa hai chân) là điều kiện tiên quyết cho mọi guard tấn công, quét và khóa chân",
+    "Đối thủ không thể tấn công hiệu quả từ vị trí bên ngoài - trước tiên họ phải tấn công vào bên trong, điều này giúp bạn có thời gian đọc và phản đòn"
+  ],
+  "commonMistakes": [
+    "Đánh từ vị trí bên ngoài (vươn ra xung quanh, nắm lấy tay chân) thay vì đánh trả vào bên trong",
+    "Chiếm vị trí bên trong để đuổi theo sự khuất phục - dứt điểm từ vị trí bên ngoài có tỷ lệ thấp hơn nhiều",
+    "Chỉ đánh vào phần thân trên mà bỏ qua phần thân dưới (vị trí đầu gối bên trong)",
+    "Để đối thủ thiết lập vị trí bên trong trước rồi cố gắng thoát ra bằng sức mạnh thay vì kỹ thuật"
+  ],
+  "coachingCues": [
+    "Bên trong đánh bại bên ngoài, luôn luôn",
+    "Đập lại, đừng với tới xung quanh",
+    "Đầu gối bên trong, khuỷu tay bên trong, đầu bên trong",
+    "Giành chiến thắng ở làn trong trước"
+  ],
+  "safetySummary": [
+    "Đừng cố ép cánh tay của bạn vào trong nếu đối thủ chủ động ép cánh tay vào cơ thể họ - điều này có thể gây căng cơ khuỷu tay hoặc vai",
+    "Các bài tập đấm nên được thực hiện ở tốc độ được kiểm soát - chuyển động đập đột ngột trong đấu tập có thể vô tình khiến ngón tay hoặc mắt tiếp xúc",
+    "Nếu bạn cảm thấy khớp của mình bị giãn quá mức khi đánh để giành vị trí bên trong, hãy nhượng bộ và đánh lại ở một góc độ tốt hơn"
+  ],
+  "systemLogic": {
+    "corePrinciple": "Vị trí bên trong hoạt động ở bốn cấp độ được kết nối - Tay vào trong → Đầu gối vào trong → Hông vào trong → Đầu vào trong — và chiến thắng ở bất kỳ cấp độ nào sẽ giúp bạn kiểm soát cơ học đường trung tâm của đối thủ. Nếu bạn bị mất một cấp độ, hãy đánh trả thay vì đánh từ bên ngoài.",
+    "decisionTree": [
+      {
+        "condition": "Đối thủ có vị trí tay trong (tay họ ở giữa cánh tay và cơ thể bạn)",
+        "action": "Vòng khuỷu tay của bạn quanh khuỷu tay của họ để đập vào trong. Không với tay xung quanh hoặc nắm lấy từ bên ngoài - tay bên trong luôn thắng trong cuộc chiến cầm nắm."
+      },
+      {
+        "condition": "Đối thủ khép guard (từ chối đầu gối vào bên trong)",
+        "action": "Đứng lên, thả lỏng đầu gối và gắn lại bằng đầu gối bên trong trước. Đừng ép đầu gối của bạn qua closed guard."
+      },
+      {
+        "condition": "Bạn có vị trí bên trong nhưng mất nó ngay lập tức",
+        "action": "Bạn đã không cố định chi bên trong - khi đã vào trong, hãy xòe chi ra bên ngoài (khuỷu tay hoặc đầu gối) để ngăn chúng đập mạnh trở lại."
+      },
+      {
+        "condition": "Đối thủ có đầu hướng vào trong (trán tới hàm của bạn)",
+        "action": "Quay đầu đi, đặt trên bắp tay của họ và thiết lập lại vị trí đầu trước khi tiếp tục giao chiến."
+      },
+      {
+        "condition": "Bạn không thể trực tiếp vào được vị trí bên trong",
+        "action": "Tạo một góc bằng cách di chuyển hông của bạn 10-30 độ trước khi đâm vào. Đòn đánh thẳng sẽ dễ dàng bị chặn hơn."
+      }
+    ],
+    "exitStrategies": [
+      "Nếu bạn thua trong cuộc chiến tay trong, hãy chuyển sang điều khiển hai chọi một (cả hai tay đặt trên một cánh tay của họ) để vô hiệu hóa lợi thế tay trong của họ.",
+      "Nếu đối thủ chiếm ưu thế ở vị trí bên trong ở mọi cấp độ, hãy tạo ra sự hỗn loạn thông qua việc tranh giành và chuyển đổi để tìm sơ hở.",
+      "Nếu không thể lấy lại được vị trí bên trong, hãy tạm thời chấp nhận vị trí bên ngoài và sử dụng các khung để thiết lập lại sự tương tác."
+    ]
+  },
+  "moneyDetails": [
+    "Vị trí bên trong là khái niệm quan trọng nhất trong môn vật lộn — nó củng cố mọi kỹ thuật trong BJJ",
+    "Chiến thắng trong trận chiến ở vị trí bên trong là mục tiêu chính trong 30 giây đầu tiên của mỗi lượt quay",
+    "Những người vật lộn nâng cao không 'cho phép' bạn vào được vị trí bên trong - chúng kiểm soát bên trong chặt chẽ đến mức bạn phải tạo ra sự hỗn loạn (tranh giành, chuyển tiếp) để tìm sơ hở"
+  ],
+  "fixItFast": [
+    "Nếu bạn tiếp tục thua trong cuộc chiến tay trong: chuyển sang điều khiển hai chọi một (cả hai tay đặt trên một cánh tay của họ) để vô hiệu hóa lợi thế tay trong của họ",
+    "Nếu họ có đầu gối bên trong và bạn không thể nhận được guard: hãy đứng dậy, thả lỏng đầu gối và tiếp xúc lại bằng đầu gối bên trong trước",
+    "Nếu họ có đầu bên trong (trán đến hàm của bạn): quay đầu đi, đặt trên bắp tay của họ và thiết lập lại vị trí đầu trước khi tiếp tục"
+  ]
+}

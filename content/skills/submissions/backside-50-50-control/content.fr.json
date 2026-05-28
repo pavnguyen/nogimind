@@ -1,0 +1,65 @@
+{
+  "id": "backside-50-50-control",
+  "locale": "fr",
+  "name": "Contrôle 50/50 à l'arrière",
+  "description": "Contrôlez le backside 50/50 – une position d'enchevêtrement des jambes derrière la ligne des hanches de l'adversaire qui génère des menaces heel hook sans nécessiter la position complète saddle.",
+  "shortInstruction": "Derrière la hanche, contrôle de la jambe intérieure, gérez la jambe éloignée – le backside 50/50 est la prise arrière du monde du verrouillage des jambes.",
+  "summary": "Backside 50/50 est une position d'enchevêtrement des jambes dans laquelle vous êtes positionné derrière la ligne des hanches de l'adversaire, vos deux jambes contrôlant l'une de leurs jambes dans une configuration 50/50. Le principal avantage par rapport au saddle est que vous êtes derrière eux : ils ne peuvent pas voir vos attaques et ont des options de fuite limitées. À partir de là, vous pouvez attaquer le heel hook, passer au saddle ou reprendre le dessus.",
+  "whyItWorks": [
+    "Être derrière la ligne de leurs hanches vous donne un avantage de position : ils ne peuvent pas voir la position de vos mains ou de vos jambes.",
+    "La configuration des jambes 50/50 vous donne un contrôle fort sur la jambe éloignée tandis que vos mains attaquent la jambe proche.",
+    "Il passe facilement à saddle ou à la prise arrière en fonction de leur réaction.",
+    "Principe de Danaher : position avant soumission — backside 50/50 est la position ; le heel hook est la soumission."
+  ],
+  "commonMistakes": [
+    "Perdre le contrôle de leur jambe éloignée – la jambe éloignée est leur voie de fuite.",
+    "Laissez-les se tourner et vous faire face – une fois qu’ils vous font face, le backside 50/50 devient le standard 50/50.",
+    "Se concentrer uniquement sur le heel hook et ignorer le retour en arrière – les deux doivent être des menaces.",
+    "Assis trop bas sur sa jambe, vous devez être haut sur sa cuisse pour avoir le contrôle."
+  ],
+  "coachingCues": [
+    "Derrière la hanche, vous contrôlez le jeu.",
+    "La jambe éloignée est la clé – contrôlez-la ou perdez la position.",
+    "S'ils se retournent, prenez le recul. S'ils restent, heel hook.",
+    "Restez haut sur la jambe – le contrôle de la cheville ne vous donne rien."
+  ],
+  "safetySummary": [
+    "La position arrière 50/50 peut appliquer une pression de rotation sur le genou – appliquez les heel hook lentement et soigneusement.",
+    "Ne lancez pas le heel hook depuis l'arrière 50/50 sans établir un contrôle clair de sa hanche.",
+    "Établissez des protocoles de claquettes pour toutes les attaques de jambes avant l’entraînement."
+  ],
+  "keyCorrections": [
+    "S’ils se tournent vers vous, vous avez perdu le contrôle de votre hanche – rétablissez votre emprise sur leur hanche opposée.",
+    "Si vous ne trouvez pas le talon, vous êtes trop bas sur sa jambe – remontez vers sa hanche.",
+    "S'ils se libèrent, l'enchevêtrement de vos jambes était trop lâche – resserrez votre contrôle 50/50."
+  ],
+  "systemLogic": {
+    "corePrinciple": "Entrez backside 50/50 (derrière leur hanche, position de jambe 50/50) : contrôlez leur jambe éloignée → attaque heel hook ou transition.",
+    "decisionTree": [
+      {
+        "condition": "Utilisation de l'option 1",
+        "action": "Ils restent face à face → heel hook termine."
+      },
+      {
+        "condition": "Utilisation de l'option 2",
+        "action": "Ils se tournent vers vous → transition vers saddle ou retour en arrière."
+      },
+      {
+        "condition": "Application générale",
+        "action": "Backside 50/50 est l’entrée ; saddle et retour sont les destinations."
+      }
+    ]
+  },
+  "moneyDetails": [
+    "Votre position doit être haute sur la cuisse et non basse sur le mollet – une position haute vous donne le contrôle des hanches.",
+    "Contrôlez sa jambe éloignée en la coinçant entre vos jambes ou en saisissant sa cheville avec votre main libre.",
+    "Gardez votre poitrine près de sa hanche : plus vous êtes près, moins il peut bouger.",
+    "Lorsqu'ils se tournent vers vous, suivez leurs hanches et entrez saddle ou prenez le dos – ne restez pas en 50/50."
+  ],
+  "nextStep": "Après le backside 50/50, apprenez le contrôle saddle et les finitions heel hook.",
+  "fixItFast": [
+    "Ils continuent de tourner ? Suivez leur hanche et prenez le dos.",
+    "Vous ne trouvez pas le talon ? Montez plus haut sur leur jambe.",
+    "Ils se libèrent ? Rétablissez l’enchevêtrement 50/50 plus étroitement."
+  ]
+}

@@ -1,0 +1,31 @@
+name: Content Validation
+
+on:
+  pull_request:
+    paths:
+      - 'content/**'
+  push:
+    branches: [main]
+    paths:
+      - 'content/**'
+
+jobs:
+  validate:
+    name: Validate content JSON
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Validate content against Zod schemas
+        run: npm run validate:content

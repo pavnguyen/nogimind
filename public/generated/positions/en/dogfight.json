@@ -1,0 +1,56 @@
+{
+  "id": "dogfight",
+  "locale": "en",
+  "title": "Dogfight",
+  "category": "scramble",
+  "status": "neutral",
+  "description": "Both players are on a knee or hip in an underhook-versus-whizzer battle from half guard or a wrestle-up.",
+  "topPlayerGoals": [
+    "The top player wants to control Dogfight through head position, inside position, and directed pressure.",
+    "Use a whizzer, sprawl, or mat return.",
+    "Keep a stable base so you are not off-balanced or countered."
+  ],
+  "bottomPlayerGoals": [
+    "The bottom player wants to survive Dogfight with frames, pummeling, or the right angle.",
+    "Win head position, keep the single leg, and come up safely.",
+    "Recognize danger signals early instead of waiting for the position to settle."
+  ],
+  "controlPoints": [
+    "Main control point: Underhook depth, head-to-ribs connection, and knee base..",
+    "Head, hands, hips, and knees should share the same force direction.",
+    "The elbow-knee connection or hip-shoulder line determines whether the position is still alive or already locked."
+  ],
+  "escapePriorities": [
+    "Escape priority: Protect the neck if your head is pulled down..",
+    "Protect the neck, back, knee line, or arm line before countering.",
+    "If inside position is lost, reset one defensive layer first."
+  ],
+  "advancementOptions": [
+    {
+      "action": "Finish the single leg or mat return",
+      "nextPositionId": "neutral-standing",
+      "relatedSkillIds": [
+        "half-guard-wrestle-up",
+        "single-leg-bjj",
+        "mat-return-basics"
+      ],
+      "why": "This is the natural branch when you win the main control point and the opponent is forced to defend."
+    }
+  ],
+  "dangerSignals": [
+    "The chin or neck is pulled out of a safe line.",
+    "The elbow separates from the ribs or knee.",
+    "The hip line is locked while the shoulder line is still being pulled.",
+    "You need a long hand post to avoid falling."
+  ],
+  "relatedSkillIds": [
+    "half-guard-wrestle-up",
+    "single-leg-bjj",
+    "mat-return-basics"
+  ],
+  "relatedConceptIds": [
+    "wrestle-up-philosophy",
+    "head-position",
+    "base-balance"
+  ]
+}

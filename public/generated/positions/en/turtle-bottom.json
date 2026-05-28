@@ -1,0 +1,56 @@
+{
+  "id": "turtle-bottom",
+  "locale": "en",
+  "title": "Turtle Bottom",
+  "category": "turtle",
+  "status": "defensive",
+  "description": "The bottom player in turtle must protect the neck, wrists, and back exposure while rebuilding a base.",
+  "topPlayerGoals": [
+    "The top player wants to control Turtle Bottom through head position, inside position, and directed pressure.",
+    "The top player wants a hook, seatbelt, or mat return.",
+    "Keep a stable base so you are not off-balanced or countered."
+  ],
+  "bottomPlayerGoals": [
+    "The bottom player wants to survive Turtle Bottom with frames, pummeling, or the right angle.",
+    "Hand fight, keep the elbow-knee connection tight, and stand up or re-guard in sequence.",
+    "Recognize danger signals early instead of waiting for the position to settle."
+  ],
+  "controlPoints": [
+    "Main control point: Wrist safety, neck line, and hip height..",
+    "Head, hands, hips, and knees should share the same force direction.",
+    "The elbow-knee connection or hip-shoulder line determines whether the position is still alive or already locked."
+  ],
+  "escapePriorities": [
+    "Escape priority: Do not reach the hand far away and create a lever for the spiral ride..",
+    "Protect the neck, back, knee line, or arm line before countering.",
+    "If inside position is lost, reset one defensive layer first."
+  ],
+  "advancementOptions": [
+    {
+      "action": "Build a base to stand up or recover guard",
+      "nextPositionId": "neutral-standing",
+      "relatedSkillIds": [
+        "turtle-ride",
+        "back-escape",
+        "scramble-control"
+      ],
+      "why": "This is the natural branch when you win the main control point and the opponent is forced to defend."
+    }
+  ],
+  "dangerSignals": [
+    "The chin or neck is pulled out of a safe line.",
+    "The elbow separates from the ribs or knee.",
+    "The hip line is locked while the shoulder line is still being pulled.",
+    "You need a long hand post to avoid falling."
+  ],
+  "relatedSkillIds": [
+    "turtle-ride",
+    "back-escape",
+    "scramble-control"
+  ],
+  "relatedConceptIds": [
+    "early-vs-late-defense",
+    "posts",
+    "positional-hierarchy"
+  ]
+}

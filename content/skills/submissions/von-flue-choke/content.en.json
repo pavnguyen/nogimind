@@ -1,0 +1,61 @@
+{
+  "id": "von-flue-choke",
+  "locale": "en",
+  "name": "Von Flue Choke",
+  "description": "When caught in a guillotine from top position, use shoulder pressure on the opponent's neck combined with chest-to-chest control to reverse the choke and submit them from top position.",
+  "shortInstruction": "They have a guillotine? Drive your shoulder into their neck, chest-to-chest, and let your body weight do the work.",
+  "summary": "The Von Flue choke (named after Jason Von Flue) is a counter-submission to the guillotine choke from top position. When your opponent catches you in a guillotine and you cannot escape, you can reverse the submission by driving your shoulder into their neck while maintaining chest-to-chest pressure. The mechanism is a shoulder pressure choke — your shoulder compresses one side of their neck while the figure-four of their own guillotine arm compresses the other side. Their own guillotine grip becomes part of your choke.",
+  "whyItWorks": [
+    "Uses the opponent's own guillotine grip to complete the choke — their arm closes one side, your shoulder closes the other.",
+    "Gravity and body weight replace arm strength — you do not need to squeeze, just stay heavy.",
+    "It is a perfect counter to the guillotine from top positions (side control, mount, half guard top).",
+    "Danaher principle: the Von Flue is the ultimate example of 'use the opponent's attack against them.'"
+  ],
+  "commonMistakes": [
+    "Panicking and trying to rip your head out — this opens your neck to more pressure.",
+    "Not squaring your chest against theirs — chest-to-chest pressure is essential.",
+    "Letting them get on top by rolling — maintain top position throughout.",
+    "Applying too much shoulder pressure suddenly — apply gradually as their guillotine hand fatigues."
+  ],
+  "coachingCues": [
+    "Shoulder in their neck, chest on their chest, stay heavy.",
+    "Their grip becomes your choke — let it work for you.",
+    "Don't fight the guillotine — use it against them.",
+    "Breathe, stay calm, apply slow pressure."
+  ],
+  "safetySummary": [
+    "The Von Flue choke compresses the neck — apply gradually and release on tap.",
+    "Do not drive your shoulder into their neck explosively.",
+    "If you feel your own neck in danger, tap out — the Von Flue is not always the answer."
+  ],
+  "keyCorrections": [
+    "If you can't feel the choke, your shoulder is not deep enough in their neck — adjust your shoulder position.",
+    "If they bridge you off, your base is too narrow — widen your knees and lower your hips.",
+    "If they roll you during the Von Flue, they have escaped — return to side control or guard."
+  ],
+  "systemLogic": {
+    "corePrinciple": "Guillotine caught from top → don't panic → square chest to their chest → drive your shoulder into their neck → maintain top pressure → wait for the choke.",
+    "decisionTree": [
+      {
+        "condition": "The Von Flue works best against arm-in guillotines",
+        "action": "the arm-in creates the closing mechanism."
+      },
+      {
+        "condition": "General application",
+        "action": "If the Von Flue fails, switch to breaking their guillotine grip conventionally."
+      }
+    ]
+  },
+  "moneyDetails": [
+    "Position your shoulder directly into the same side of their neck as their choking arm — this creates the closing pressure.",
+    "Square your chest against their chest so they cannot bridge or roll you.",
+    "Do not try to pull your head out — pushing INTO the guillotine actually relieves neck pressure.",
+    "The choke comes from gravity: just stay heavy and breathe — their arm will fatigue and the choke will deepen."
+  ],
+  "nextStep": "After the Von Flue choke, learn to escape the guillotine from top position and the guillotine system.",
+  "fixItFast": [
+    "Not working? Your shoulder may be too low — drive it higher into their neck.",
+    "They bridge? Widen your base and stay heavy.",
+    "Your neck hurts? Tap and reset — the Von Flue is a counter, not a guaranteed escape."
+  ]
+}

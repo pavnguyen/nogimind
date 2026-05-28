@@ -1,0 +1,121 @@
+{
+  "id": "outside-passing",
+  "domain": "passing",
+  "level": "intermediate",
+  "status": "draft",
+  "name": "Outside Passing",
+  "aliases": [],
+  "tags": [
+    "passing",
+    "mobility"
+  ],
+  "keywords": [
+    "outside passing",
+    "leg drag",
+    "knee line",
+    "guard retention"
+  ],
+  "relatedSkills": [
+    {
+      "id": "leg-drag-basics",
+      "type": "recommended"
+    },
+    {
+      "id": "side-control-pin",
+      "type": "recommended"
+    },
+    {
+      "id": "scramble-control",
+      "type": "recommended"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "supine-guard-retention"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [
+    "If they keep facing you: you are not circling far enough — circle until you are at a 90-degree angle to their hips",
+    "If they keep sweeping you: your base is too narrow — widen your stance as you circle",
+    "If they keep attacking your legs: your hands are too low — keep your hands ready to pummel their legs"
+  ],
+  "version": 1,
+  "updatedAt": "2026-05-21T00:24:30.749Z",
+  "contentRefs": {
+    "videos": "videos.json",
+    "qualityChecklist": "qualityChecklist"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": true,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "en",
+  "description": "Use outside footwork to force hip turns and expose leg drag or pinning lanes. Outside passing is an alternative to pressure passing that uses speed and angles instead of weight.",
+  "shortInstruction": "Stay on your feet, circle to the outside of their lead leg, force them to turn their hips, and attack the exposed space with a leg drag or backstep.",
+  "summary": "Outside passing uses footwork and distance to force the opponent to turn their hips, creating passing lanes that pressure passing cannot access. The system works by staying on your feet (not dropping to your knees) and circling to the outside of the opponent's lead leg. As they turn to face you, you attack the exposed hip with a leg drag, backstep, or x-pass. Outside passing is particularly effective against flexible guard players who are difficult to pass with pressure.",
+  "whyItWorks": [
+    "Staying on your feet keeps you mobile and prevents the opponent from trapping you in half guard or deep half",
+    "Circling to the outside forces the opponent to constantly re-adjust their hip angle — creating momentary openings",
+    "Outside passing attacks the guard from angles that pressure passing does not access",
+    "Outside passing is safer from sweeps because your weight is not committed forward"
+  ],
+  "commonMistakes": [
+    "Staying directly in front of the opponent — this gives them the easiest guard retention angle",
+    "Circling without changing levels — you must alternate between standing and crouching",
+    "Committing to a pass without creating the hip turn first — the hip turn is the prerequisite for all outside passes",
+    "Staying too far away — there is a point where you are out of range and they can stand up or attack"
+  ],
+  "coachingCues": [
+    "Circle to the outside, force the turn",
+    "Stay on your feet, stay mobile",
+    "Leg drag or backstep — attack the open hip",
+    "If they square up, circle the other way"
+  ],
+  "safetySummary": [
+    "Outside passing keeps you on your feet — this reduces the risk of heel hooks and ankle locks",
+    "Be careful of the opponent's legs when circling — they may attempt reap entries as you circle",
+    "If the opponent stands up to match your stance, be ready to engage in takedown exchanges"
+  ],
+  "systemLogic": {
+    "corePrinciple": "Outside passing has three branches: Leg Drag → Backstep → X-Pass",
+    "decisionTree": [
+      {
+        "condition": "Using Branch 1 (Leg Drag)",
+        "action": "as they turn their hips to face your circle, attack their far leg with a leg drag. The hip turn is the entry signal for the drag"
+      },
+      {
+        "condition": "Using Branch 2 (Backstep)",
+        "action": "if they maintain distance and keep their legs between you, backstep to their opposite side. The backstep changes the angle and forces them to re-adjust"
+      },
+      {
+        "condition": "Using Branch 3 (X-Pass)",
+        "action": "if they open their legs as you circle (butterfly or shin guard), pass through the middle using the x-pass — clear both legs to one side and drive to side control"
+      },
+      {
+        "condition": "When to combine passing styles",
+        "action": "outside passing is most effective when combined with pressure passing — switching between the two prevents the opponent from settling into a defense"
+      }
+    ],
+    "exitStrategies": []
+  },
+  "moneyDetails": [
+    "Outside passing is essential for passing flexible guard players who are impossible to pass with pressure alone",
+    "Mastering outside passing gives you a complete passing game — you can pass with pressure or speed",
+    "Outside passing is the foundation of the modern 'float passing' style popularized by the Ruotolos and Nicky Ryan"
+  ],
+  "fixItFast": [
+    "If they keep facing you: circle wider — you need their hips to turn before you can pass",
+    "If they keep pulling half guard: switch to pressure passing — the knee cut or bodylock works better against half guard",
+    "If they keep standing up: engage in takedown — the outside pass position transitions naturally to a single leg"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "id": "early-vs-late-defense",
+  "locale": "en",
+  "title": "Early Defense vs Late Defense",
+  "category": "defensive",
+  "level": "fundamental",
+  "tags": [
+    "defense",
+    "safety",
+    "recognition"
+  ],
+  "shortDefinition": "Early defense addresses body signals before the position locks; late defense deals with force already applied.",
+  "whyItMatters": "Modern no-gi is fast: early defense saves energy and is much safer.",
+  "deepExplanation": "Early defense is chin tuck before chin strap, knee-line escape before heel exposure, elbow-knee before chest-to-chest. Late defense is not forbidden, but dangerous force requires early tap or reset.",
+  "beginnerView": "Recognize early signals instead of waiting for pain or choke.",
+  "advancedView": "Build cue systems for each danger line: neck, knee line, shoulder line, back exposure.",
+  "ifThenExamples": [
+    {
+      "if": "If you lose Early Defense vs Late Defense during the exchange.",
+      "then": "Stop accelerating, recover the nearest body structure, then continue the technique.",
+      "why": "Modern no-gi punishes forceful continuation after structure is lost.",
+      "relatedSkillIds": [
+        "leg-lock-safety-basics",
+        "front-headlock-defense"
+      ]
+    },
+    {
+      "if": "If the opponent correctly answers your first line.",
+      "then": "Use Early Defense vs Late Defense to switch to a safer branch instead of forcing the same line.",
+      "why": "A good concept turns the opponent’s reaction into information for the next decision.",
+      "relatedSkillIds": [
+        "front-headlock-defense",
+        "back-survival",
+        "mount-survival"
+      ]
+    }
+  ],
+  "commonMisunderstandings": [
+    {
+      "misunderstanding": "Early Defense vs Late Defense is a single technical trick.",
+      "correction": "Treat it as a decision rule that appears across many positions."
+    },
+    {
+      "misunderstanding": "Understanding the concept automatically makes it work live.",
+      "correction": "The concept needs body signals, short cues, and positional rolling."
+    }
+  ],
+  "trainingCues": [
+    "Name Early Defense vs Late Defense before adding force.",
+    "Find the body signal instead of guessing generally.",
+    "If structure is lost, reset one layer first.",
+    "Drill slowly, then test with progressive resistance."
+  ],
+  "relatedSkillIds": [
+    "leg-lock-safety-basics",
+    "front-headlock-defense",
+    "back-survival",
+    "mount-survival"
+  ],
+  "relatedConceptIds": [
+    "knee-line",
+    "elbow-knee-connection",
+    "positional-hierarchy"
+  ]
+}

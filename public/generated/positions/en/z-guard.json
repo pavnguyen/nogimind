@@ -1,0 +1,57 @@
+{
+  "id": "z-guard",
+  "locale": "en",
+  "title": "Z-Guard (93 Guard)",
+  "category": "bottom_guard",
+  "status": "defensive",
+  "description": "Z-guard is a deep knee-shield half guard using the shin and underhook to block crossface and set up wrestle-ups.",
+  "topPlayerGoals": [
+    "The top player wants to control Z-Guard (93 Guard) through head position, inside position, and directed pressure.",
+    "Smash the knee shield, drive crossface, and flatten the hip line.",
+    "Keep a stable base so you are not off-balanced or countered."
+  ],
+  "bottomPlayerGoals": [
+    "The bottom player wants to survive Z-Guard (93 Guard) with frames, pummeling, or the right angle.",
+    "Keep the knee shield active, win the underhook, and enter wrestle-up or deep half.",
+    "Recognize danger signals early instead of waiting for the position to settle."
+  ],
+  "controlPoints": [
+    "Main control point: Knee shield angle, underhook, and head position..",
+    "Head, hands, hips, and knees should share the same force direction.",
+    "The elbow-knee connection or hip-shoulder line determines whether the position is still alive or already locked."
+  ],
+  "escapePriorities": [
+    "Escape priority: Do not lose the underhook before transitioning to attack..",
+    "Protect the neck, back, knee line, or arm line before countering.",
+    "If inside position is lost, reset one defensive layer first."
+  ],
+  "advancementOptions": [
+    {
+      "action": "Win the underhook to reach dogfight",
+      "nextPositionId": "dogfight",
+      "relatedSkillIds": [
+        "z-guard-sweeps",
+        "half-guard-knee-shield",
+        "half-guard-wrestle-up"
+      ],
+      "why": "This is the natural branch when you win the main control point and the opponent is forced to defend."
+    }
+  ],
+  "dangerSignals": [
+    "The chin or neck is pulled out of a safe line.",
+    "The elbow separates from the ribs or knee.",
+    "The hip line is locked while the shoulder line is still being pulled.",
+    "You need a long hand post to avoid falling."
+  ],
+  "relatedSkillIds": [
+    "z-guard-sweeps",
+    "half-guard-knee-shield",
+    "half-guard-wrestle-up",
+    "side-control-escape"
+  ],
+  "relatedConceptIds": [
+    "wedges",
+    "inside-position",
+    "elbow-knee-connection"
+  ]
+}

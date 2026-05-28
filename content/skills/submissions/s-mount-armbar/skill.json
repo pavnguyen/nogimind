@@ -1,0 +1,56 @@
+{
+  "id": "s-mount-armbar",
+  "domain": "submission_systems",
+  "level": "advanced",
+  "name": "S-Mount Armbar",
+  "aliases": [],
+  "tags": [
+    "s-mount",
+    "armbar",
+    "shoulder-lock-safety",
+    "tier:modern-expansion",
+    "meta:modern-common",
+    "risk:high",
+    "family:submission",
+    "group:s-mount",
+    "modern-no-gi"
+  ],
+  "keywords": [
+    "armbar",
+    "shoulder isolation",
+    "hip extension"
+  ],
+  "modernSystemGroup": "s_mount",
+  "relatedSkills": [
+    {
+      "id": "s-mount-control",
+      "type": "recommended"
+    },
+    {
+      "id": "rear-triangle-control",
+      "type": "recommended"
+    },
+    {
+      "id": "kimura-system",
+      "type": "recommended"
+    }
+  ],
+  "prerequisiteSkillIds": [
+    "s-mount-control",
+    "mount-control"
+  ],
+  "relatedPositions": [],
+  "relatedConcepts": [],
+  "archetypeIds": [],
+  "trainingMethodIds": [],
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "updatedAt": "2026-05-21T00:24:30.776Z"
+}

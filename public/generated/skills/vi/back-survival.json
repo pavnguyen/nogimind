@@ -1,0 +1,121 @@
+{
+  "id": "back-survival",
+  "domain": "survival_defense",
+  "level": "beginner",
+  "status": "draft",
+  "name": "Trở lại Sinh tồn",
+  "aliases": [],
+  "tags": [
+    "survival",
+    "back"
+  ],
+  "keywords": [
+    "back control",
+    "hand fighting",
+    "seatbelt",
+    "shoulder line"
+  ],
+  "relatedSkills": [
+    {
+      "id": "back-escape",
+      "type": "recommended"
+    },
+    {
+      "id": "back-control",
+      "type": "recommended"
+    },
+    {
+      "id": "rear-naked-choke-system",
+      "type": "recommended"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "positional-hierarchy"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [],
+  "version": 1,
+  "updatedAt": "2026-05-21T00:24:30.750Z",
+  "contentRefs": {
+    "videos": "videos.json",
+    "qualityChecklist": "qualityChecklist"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": true,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "vi",
+  "description": "Ưu tiên bảo vệ cổ và đánh tay khi đối thủ có seatbelt hoặc móc. Mục tiêu là sống sót đủ lâu để tạo khoảng trống cho một cuộc chạy trốn hoàn toàn.",
+  "shortInstruction": "Cằm thu gọn, hai tay đặt trên cánh tay nghẹn ngào, bảo vệ cổ trước khi dọn lưỡi câu và không bao giờ quay lưng lại với đối thủ.",
+  "summary": "Sống sót ở phía sau là một hành động giữ: bảo vệ cổ, ngăn chặn chiếc nghẹt thở chìm xuống và kiểm soát hơi thở của bạn trong khi thiết lập trình tự thoát hiểm. Ưu tiên luôn là tay bóp cổ, sau đó là thân triangle, sau đó là móc.",
+  "whyItWorks": [
+    "rear-naked choke là tỷ lệ phần trăm gửi cao nhất từ ​​back control — ngăn không cho nó bị khóa là ưu tiên sinh tồn đầu tiên của bạn",
+    "Giữ cằm thu gọn sẽ thu hẹp khoảng trống giữa hàm và vai, khiến cánh tay bị nghẹn khó tiếp cận động mạch cảnh hơn",
+    "Cả hai tay đặt trên cánh tay nghẹt thở sẽ giúp bạn có thêm thời gian — ngay cả khi họ có seatbelt, bạn vẫn có thể ngăn chặn cú dứt điểm bằng cách kiểm soát cách cầm vợt",
+    "Cơ thể triangle khó chịu nhưng vẫn có thể sống sót - đừng lãng phí năng lượng để chiến đấu với nó cho đến khi mối đe dọa nghẹt thở được vô hiệu hóa"
+  ],
+  "commonMistakes": [
+    "Quay đầu ra khỏi cánh tay bị nghẹn (để lộ phần cổ bên kia) thay vì giữ cằm sát ngực",
+    "Chống lại cơ thể triangle trong khi cuộn cảm đang được thiết lập — bạn có thể sống sót sau triangle nhưng không thể sống sót sau cuộn cảm",
+    "Lãng phí cả hai cánh tay khi cố gắng cạy seatbelt ra thay vì luôn giữ một tay trên cánh tay đang bị nghẹn",
+    "Hoảng loạn và bùng nổ dữ dội - điều này đốt cháy năng lượng và thường khiến nút thắt chìm sâu hơn"
+  ],
+  "coachingCues": [
+    "Cằm cúi xuống, giơ tay lên",
+    "Nghẹt tay trước, móc sau",
+    "Hít thở chậm, di chuyển có chủ ý"
+  ],
+  "safetySummary": [
+    "rear-naked choke có thể gây bất tỉnh sau 4-8 giây nếu bị khóa hoàn toàn — nhấn sớm và đặt lại",
+    "Đừng để niềm tự hào ngăn cản bạn khai thác - nhiều RNC thua lỗ trong luyện tập giúp bạn có lối thoát tốt hơn là chiến đấu với mọi người đến bờ vực",
+    "Nếu bạn cảm thấy đường quai hàm mở ra (cánh tay nghẹn ngào trượt dưới cằm), đã đến lúc phân bổ 100% khả năng phòng thủ của bạn cho trận đánh tay",
+    "Giao tiếp với đối tác đào tạo của bạn - một cú chạm là tín hiệu học tập, không phải là thất bại"
+  ],
+  "systemLogic": {
+    "corePrinciple": "Sự sống sót ở phía sau tuân theo một hệ thống phân cấp nghiêm ngặt: bảo vệ cổ trước, sau đó kiểm soát cánh tay bị nghẹn, kiểm soát hơi thở và chỉ sau đó mới thiết lập lối thoát. Mỗi lớp chuẩn bị cho lớp tiếp theo - việc bỏ qua các lớp sẽ giúp bạn hoàn thiện ngay lập tức.",
+    "decisionTree": [
+      {
+        "condition": "Đối thủ có tay cầm seatbelt nhưng không bị khóa sặc",
+        "action": "Giữ cằm, cả hai tay đặt trên cẳng tay đang bị nghẹn và sống cầu để ngăn họ giải quyết cơn nghẹn."
+      },
+      {
+        "condition": "Đối thủ đã khóa cơ thể triangle nhưng không bị sặc",
+        "action": "Tập trung vào hơi thở và vị trí tay — cơ thể triangle có thể sống sót được. Đừng lãng phí năng lượng để chiến đấu bằng chân cho đến khi mối đe dọa nghẹt thở được vô hiệu hóa."
+      },
+      {
+        "condition": "Đối thủ chuyển sang thử armbar",
+        "action": "Giữ khuỷu tay cố định vào xương sườn và không để chúng duỗi thẳng cánh tay. Đẩy khuỷu tay của bạn trở lại cơ thể nếu họ cô lập nó."
+      },
+      {
+        "condition": "Đối thủ lăn bạn úp bụng từ phía sau",
+        "action": "Bảo vệ cổ của bạn ngay lập tức bằng cả hai tay, dang rộng phần đế và chuẩn bị cho tư thế đấu vật."
+      }
+    ],
+    "exitStrategies": [
+      "Nếu bạn cảm thấy đường quai hàm mở ra (cánh tay nghẹn ngào trượt dưới cằm), hãy phân bổ 100% khả năng phòng thủ cho trận đấu tay - nắm lấy cẳng tay của họ bằng cả hai tay và kéo nó về phía ngực của bạn.",
+      "Nếu cuộn cảm đã bị khóa ở một bên, hãy chạm ngay lập tức - đừng chờ đợi vị trí phòng thủ tốt hơn.",
+      "Sau khi vô hiệu hóa mối đe dọa nghẹt thở, hãy bắt đầu trình tự thoát ra phía sau: đánh tay → móc câu → quay vào → phục hồi guard."
+    ]
+  },
+  "moneyDetails": [
+    "Sống sót ở phía sau là kỹ năng phòng thủ quan trọng nhất trong BJJ — mọi vận động viên vật lộn sẽ dành thời gian ở phía sau và biết cách sống sót là bước đầu tiên để trốn thoát",
+    "Sống sót sau 30 giây là một chiến thắng trong cạnh tranh - nó tước đi cơ hội của đối thủ để về đích",
+    "Một phương pháp sinh tồn bình tĩnh, có hệ thống sẽ bảo toàn năng lượng cần thiết cho quá trình trốn thoát sau đó."
+  ],
+  "fixItFast": [
+    "Nếu họ đã khóa cuộn cảm ở một bên: chạm ngay lập tức - đừng chờ đợi vị trí phòng thủ tốt hơn",
+    "Nếu họ đang làm việc đến seatbelt nhưng vẫn chưa khóa cuộn cảm: hãy giữ cằm của bạn và đập cánh tay gần của bạn qua ngực để chặn lực nắm của họ",
+    "Nếu họ lật bạn từ phía sau xuống: hãy bảo vệ cổ bạn ngay lập tức bằng cả hai tay, dang rộng chân và chuẩn bị cho tư thế đấu vật đứng lên"
+  ]
+}

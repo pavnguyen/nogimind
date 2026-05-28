@@ -1,0 +1,73 @@
+{
+  "id": "frames",
+  "locale": "vi",
+  "title": "Frames",
+  "category": "mechanical",
+  "level": "fundamental",
+  "tags": [
+    "frame",
+    "escape",
+    "structure",
+    "forearm",
+    "knee shield",
+    "connection",
+    "space management"
+  ],
+  "shortDefinition": "Frame là cấu trúc xương (forearm, shin, knee, bicep) nối vào thân để giữ khoảng cách, không dùng cơ tay đẩy.",
+  "whyItMatters": "Frame đúng cho bạn thở, xoay hông và pummel lại inside. Frame sai làm bạn phòng thủ bằng tay thẳng, dễ bị smash hoặc submission.",
+  "deepExplanation": "Có 4 loại frame chính, mỗi loại dùng ở tình huống khác nhau:\n\n1. Forearm frame (bicep-to-chest) — mạnh nhất, giữ khoảng cách từ shoulder. Dùng trong side control, mount escape, guard retention.\n2. Elbow frame (elbow-to-hip) — ngắn hơn, xoay được hông. Dùng khi cần shrimp hoặc bridge.\n3. Shin frame — dùng trong knee shield, half guard, chặn bodylock hoặc chest-to-chest.\n4. Bicep frame (bent arm across chest) — frame ngắn mạnh, dùng khi bị flatten hoặc đè trực tiếp.\n\nFrame không phải barrier tĩnh. Nó cần active connection — nếu khuỷu trượt khỏi vai/hông, đối thủ chèn chest vào và frame chết. Frame sống là frame biết khi nào push, khi nào xoay và khi nào chuyển sang pummel.",
+  "beginnerView": "Ba nguyên tắc frame:\n1. Khuỷu chạm hông hoặc xương ức, không nổi lơ lửng.\n2. Lưng không cong — spine thẳng để frame truyền lực qua xương.\n3. Khi frame, đồng thời xoay hông — frame không push, nó redirect.\n\nNếu tay bạn mỏi sau 10 giây giữ frame, bạn đang dùng cơ thay vì xương.",
+  "advancedView": "Frame là phase đầu của chuỗi phòng thủ 3 bước: frame → pummel → attack. Frame tốt không kéo dài, nó tạo đủ space để pummel lại inside position. Khi họ đẩy vào frame của bạn, dùng lực đó để shrimp ra hoặc xoay hông. Đọc frame: nếu khuỷu họ xa hông, họ yếu; nếu khuỷu họ dính sườn, họ mạnh. Chuyển từ frame sang wedge (gối) khi họ commit weight — họ đổ thì gối của bạn vào, họ lùi thì bạn pummel.",
+  "ifThenExamples": [
+    {
+      "if": "Nếu bạn mất Frames trong trao đổi.",
+      "then": "Dừng tăng tốc, lấy lại cấu trúc cơ thể gần nhất rồi mới tiếp tục kỹ thuật.",
+      "why": "No-gi hiện đại phạt rất nhanh khi bạn cố thắng bằng sức sau khi mất cấu trúc.",
+      "relatedSkillIds": [
+        "frames-pummeling",
+        "side-control-escape"
+      ]
+    },
+    {
+      "if": "Nếu đối thủ phản ứng đúng với hướng đầu tiên.",
+      "then": "Dùng Frames để đổi sang nhánh an toàn hơn thay vì ép cùng một hướng.",
+      "why": "Concept tốt biến phản ứng của đối thủ thành thông tin cho quyết định tiếp theo.",
+      "relatedSkillIds": [
+        "side-control-escape",
+        "mount-escape",
+        "seated-guard-retention"
+      ]
+    }
+  ],
+  "commonMisunderstandings": [
+    {
+      "misunderstanding": "Frames là một mẹo kỹ thuật riêng lẻ.",
+      "correction": "Hãy xem nó như quy tắc quyết định xuất hiện trong nhiều vị trí khác nhau."
+    },
+    {
+      "misunderstanding": "Bạn chỉ cần hiểu khái niệm là tự động dùng được trong live roll.",
+      "correction": "Khái niệm phải được gắn với body signal, cue ngắn và positional rolling."
+    }
+  ],
+  "trainingCues": [
+    "Gọi tên Frames trước khi tăng lực.",
+    "Tìm body signal, không đoán bằng cảm giác chung.",
+    "Nếu mất cấu trúc, reset một layer trước.",
+    "Drill chậm, test bằng resistance tăng dần."
+  ],
+  "relatedSkillIds": [
+    "frames-pummeling",
+    "side-control-escape",
+    "mount-escape",
+    "seated-guard-retention",
+    "half-guard-knee-shield",
+    "supine-guard-retention"
+  ],
+  "relatedConceptIds": [
+    "wedges",
+    "posts",
+    "elbow-knee-connection",
+    "inside-position",
+    "guard-retention-layers"
+  ]
+}

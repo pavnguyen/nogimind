@@ -51,23 +51,26 @@ export default function DefensePage() {
   return (
     <PageShell
       header={
-        <div className="space-y-4">
-          <div className="flex items-center gap-3">
-            <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-gradient-to-br from-amber-500 to-orange-500 shadow-lg">
-              <Shield className="h-5 w-5 text-slate-950" aria-hidden="true" />
+        <div className="relative overflow-hidden rounded-3xl border border-white/[0.06] bg-slate-900/30 p-6 hero-blob-fix">
+          <div className="pointer-events-none absolute -right-16 -top-16 h-48 w-48 rounded-full bg-amber-400/5 blur-[80px]" />
+          <div className="relative z-10 space-y-4">
+            <div className="flex items-center gap-4">
+              <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-gradient-to-br from-amber-500 to-orange-500 shadow-lg shadow-amber-500/20">
+                <Shield className="h-6 w-6 text-slate-950" aria-hidden="true" />
+              </div>
+              <div>
+                <Badge tone="amber" className="text-[10px] uppercase tracking-widest">{t('nav.fix')}</Badge>
+                <h1 className="mt-1 display-heading text-2xl font-extrabold text-white lg:text-3xl">{t('defense.heading')}</h1>
+                <p className="mt-1 text-sm text-slate-400">{t('defense.subtitle')}</p>
+              </div>
             </div>
-            <div>
-              <h1 className="text-2xl font-semibold tracking-tight text-white">{t('defense.heading')}</h1>
-              <p className="text-sm text-slate-400">{t('defense.subtitle')}</p>
-            </div>
-          </div>
 
           <div className="grid gap-3 lg:grid-cols-[1fr_260px]">
         <input
           value={query}
           onChange={(event) => setParam('q', event.target.value)}
           placeholder={t('defense.search')}
-          className="w-full rounded-md border border-white/10 bg-slate-900 px-3 py-2 text-sm text-white outline-none focus:border-cyan-300"
+          className="w-full rounded-md border border-white/10 bg-slate-900 px-3 py-2 text-sm text-white outline-none search-focus-ring"
         />
         <select
           value={category}
@@ -77,6 +80,7 @@ export default function DefensePage() {
           <option value="">{t('common.all')}</option>
           {safetyCategories.map((item) => <option key={item} value={item}>{t(`safetyCategories.${item}`)}</option>)}
         </select>
+        </div>
       </div>
     </div>
   }

@@ -1,0 +1,121 @@
+{
+  "id": "fifty-fifty-to-heel-exposure",
+  "domain": "submission_systems",
+  "level": "advanced",
+  "status": "draft",
+  "name": "Exposition 50/50 au talon",
+  "aliases": [],
+  "tags": [
+    "50-50",
+    "heel-hook",
+    "heel-exposure",
+    "leg-lock",
+    "entanglement"
+  ],
+  "keywords": [
+    "heel exposure",
+    "50/50",
+    "hip rotation",
+    "secondary leg",
+    "finishing mechanics"
+  ],
+  "relatedSkills": [
+    {
+      "id": "saddle-inside-sankaku-control",
+      "type": "recommended"
+    },
+    {
+      "id": "knee-line-escape",
+      "type": "recommended"
+    },
+    {
+      "id": "k-guard-entry",
+      "type": "recommended"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "backside-50-50-control",
+    "heel-hook-safety",
+    "leg-lock-safety-basics"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [
+    "S'ils sortent du heel hook, vous avez perdu le contrôle de leur jambe secondaire – rétablissez l'adhérence.",
+    "Si vous ne trouvez pas le talon, votre angle est trop carré : faites pivoter davantage vos hanches.",
+    "S'ils vous empilent, relâchez et réinitialisez – ne combattez pas la pile en 50/50."
+  ],
+  "version": 1,
+  "updatedAt": "2026-05-21T00:24:30.766Z",
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "fr",
+  "description": "À partir de la position 50/50, faites pivoter l'angle de votre hanche et contrôlez la jambe secondaire de l'adversaire pour exposer son talon pour une finition heel hook sûre et efficace.",
+  "shortInstruction": "Verrouillé 50/50, faites pivoter la hanche, contrôlez la jambe éloignée, attaquez le talon exposé.",
+  "summary": "La position 50/50 est l’une des positions d’enchevêtrement des jambes les plus courantes. Cependant, terminer un heel hook à partir de 50/50 nécessite une mécanique spécifique : il faut briser la symétrie de la position en faisant pivoter ses hanches et en contrôlant leur jambe secondaire (la jambe n'étant pas attaquée). Sans contrôler la jambe secondaire, l’adversaire peut simplement faire pivoter sa hanche pour soulager la pression du talon. La clé du heel hook 50/50 est de le rendre asymétrique : vous contrôlez leur jambe libre afin qu'ils ne puissent pas contre-tourner.",
+  "whyItWorks": [
+    "Contrôler leur jambe secondaire les empêche de faire pivoter leurs hanches pour échapper à la pression du talon.",
+    "La rotation de la hanche modifie l'angle du heel hook — en tournant son talon vers vous pour une finition plus nette.",
+    "La position 50/50 vous donne un contrôle fort sur leur jambe principale – la jambe secondaire est la voie de sortie.",
+    "Principe de Danaher : le heel hook 50/50 se gagne en contrôlant la hanche vers laquelle ils peuvent se tourner – en contrôlant leur hanche éloignée pour briser la symétrie."
+  ],
+  "commonMistakes": [
+    "Si vous essayez de terminer le heel hook sans contrôler l'étape secondaire, ils vont sortir en tête-à-queue.",
+    "Assis trop carré par rapport à eux – le 50/50 nécessite un angle, pas une symétrie.",
+    "Appliquer le heel hook avant d'avoir l'angle - l'exposition du talon vient après le contrôle de la hanche.",
+    "Relâcher la branche secondaire trop tôt lors de l'arrivée — contrôlez-la jusqu'au robinet."
+  ],
+  "coachingCues": [
+    "Contrôlez la jambe opposée, possédez l'arrivée.",
+    "Brisez la symétrie – un 50/50 asymétrique est gagnable.",
+    "Faites pivoter vos hanches, puis attaquez le talon.",
+    "S'ils détournent le talon, vous perdez le combat de la hanche."
+  ],
+  "safetySummary": [
+    "heel hooks appliquent une force de rotation sur le genou – appliquez lentement et respectez le robinet.",
+    "N'explosez jamais dans un heel hook : des blessures au genou peuvent survenir avant que l'adversaire ne ressente de la douleur.",
+    "Établissez des protocoles clairs pour toutes les attaques de jambes avant l’entraînement.",
+    "Ne convient pas aux débutants – nécessite une solide compréhension du verrouillage des jambes."
+  ],
+  "systemLogic": {
+    "corePrinciple": "Verrouillé 50/50 : contrôlez la jambe secondaire → faites pivoter vos hanches → exposez le talon → appliquez la rotation heel hook → terminez.",
+    "decisionTree": [
+      {
+        "condition": "Application générale",
+        "action": "Le 50/50 est une position de transition : traversez-le jusqu'à l'arrivée, ne restez pas coincé là-bas."
+      },
+      {
+        "condition": "ils défendent le heel hook en se tournant",
+        "action": "prenez plutôt le dos."
+      }
+    ],
+    "exitStrategies": []
+  },
+  "moneyDetails": [
+    "Contrôlez sa jambe secondaire en la coinçant entre vos jambes ou en saisissant sa cheville avec votre main libre.",
+    "Éloignez vos hanches du talon que vous attaquez – cela tourne leur talon vers vous.",
+    "La prise heel hook doit être : la main du même côté sur le talon, l'autre main sur la pointe des pieds (poignée pistolet).",
+    "Finition rotationnelle : tournez le talon vers sa propre hanche – la rotation externe est la finition."
+  ],
+  "nextStep": "Après une exposition du talon 50/50, apprenez le saddle et le backside 50/50 pour plus d'options d'enchevêtrement des jambes.",
+  "fixItFast": [
+    "Vous ne trouvez pas le talon ? Faites pivoter davantage vos hanches pour l'exposer.",
+    "Ils s'écartent ? Contrôlez plus étroitement leur jambe secondaire.",
+    "heel hook se sent faible ? Votre prise est trop superficielle – enfoncez votre main plus profondément dans son talon."
+  ]
+}

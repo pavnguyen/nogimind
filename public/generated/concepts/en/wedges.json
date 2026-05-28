@@ -1,0 +1,65 @@
+{
+  "id": "wedges",
+  "locale": "en",
+  "title": "Wedges",
+  "category": "mechanical",
+  "level": "intermediate",
+  "tags": [
+    "wedge",
+    "knee shield",
+    "shin frame"
+  ],
+  "shortDefinition": "A wedge is a body part inserted into space to block the opponent’s rotation or connection.",
+  "whyItMatters": "Good wedges deny chest-to-chest, chest-to-hip, or shoulder-line connection.",
+  "deepExplanation": "Knee shield, shin frame, head post, elbow wedge, and hip block are all wedges. They do not only create space; they redirect force.",
+  "beginnerView": "Insert knee, elbow, or shin where the opponent wants chest connection.",
+  "advancedView": "Use wedges to force pass-line changes, then attack that reaction.",
+  "ifThenExamples": [
+    {
+      "if": "If you lose Wedges during the exchange.",
+      "then": "Stop accelerating, recover the nearest body structure, then continue the technique.",
+      "why": "Modern no-gi punishes forceful continuation after structure is lost.",
+      "relatedSkillIds": [
+        "half-guard-knee-shield",
+        "seated-guard-retention"
+      ]
+    },
+    {
+      "if": "If the opponent correctly answers your first line.",
+      "then": "Use Wedges to switch to a safer branch instead of forcing the same line.",
+      "why": "A good concept turns the opponent’s reaction into information for the next decision.",
+      "relatedSkillIds": [
+        "seated-guard-retention",
+        "bodylock-passing",
+        "side-control-escape"
+      ]
+    }
+  ],
+  "commonMisunderstandings": [
+    {
+      "misunderstanding": "Wedges is a single technical trick.",
+      "correction": "Treat it as a decision rule that appears across many positions."
+    },
+    {
+      "misunderstanding": "Understanding the concept automatically makes it work live.",
+      "correction": "The concept needs body signals, short cues, and positional rolling."
+    }
+  ],
+  "trainingCues": [
+    "Name Wedges before adding force.",
+    "Find the body signal instead of guessing generally.",
+    "If structure is lost, reset one layer first.",
+    "Drill slowly, then test with progressive resistance."
+  ],
+  "relatedSkillIds": [
+    "half-guard-knee-shield",
+    "seated-guard-retention",
+    "bodylock-passing",
+    "side-control-escape"
+  ],
+  "relatedConceptIds": [
+    "frames",
+    "inside-position",
+    "pressure-direction"
+  ]
+}

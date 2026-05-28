@@ -1,0 +1,61 @@
+{
+  "id": "clamp-guard-control",
+  "locale": "vi",
+  "name": "Kẹp guard Điều khiển",
+  "description": "Kẹp đường vai của đối phương giữa đầu gối của bạn và overhook bằng điều khiển cổ tay để tạo ra một tình huống khó xử armbar, triangle hoặc omoplata khiến họ không thể thoát ra nếu không từ bỏ bài dự thi.",
+  "shortInstruction": "Đầu gối lên vai, overhook cánh tay, kiểm soát cổ tay ở phía bên kia — cái kẹp là một sự khuất phục đang chờ xảy ra.",
+  "summary": "Kẹp guard (còn gọi là 'kẹp' hoặc 'kẹp tay') ghim cánh tay của đối phương qua cơ thể bạn trong khi đầu gối của bạn chặn vai họ. Điều này tạo ra thế đối đầu hai chọi một trên cánh tay bị mắc kẹt. Từ đây, mọi phản ứng mà họ thực hiện đều mở ra một sự phục tùng: họ bước vào triangle, họ kéo ra armbar, họ bước vào omoplata.",
+  "whyItWorks": [
+    "Bằng cách ghim cánh tay của họ bằng đầu gối của bạn và overhook, bạn cô lập hoàn toàn một cánh tay — họ chỉ có thể phòng thủ bằng cánh tay còn lại.",
+    "Chiếc kẹp sẽ loại bỏ khả năng giữ tư thế của chúng vì đầu và vai của chúng bị ghim vào ngực của bạn.",
+    "Mỗi nỗ lực trốn thoát đều dẫn đến một sự phục tùng khác nhau - đây là nguyên tắc 'vị trí trước khi phục tùng' của Danaher đang hoạt động.",
+    "overhook điều khiển khuỷu tay của họ trong khi đầu gối chặn vai của họ — họ không thể đơn giản kéo ra được."
+  ],
+  "commonMistakes": [
+    "Kẹp quá thấp trên cánh tay (ở cổ tay) thay vì ở vai - chốt vai là yếu tố giúp chiếc kẹp hoạt động.",
+    "Để đối phương giải phóng khuỷu tay bị mắc kẹt bằng cách xoay cánh tay của họ vào trong.",
+    "Mất overhook vì bạn đã thả lỏng tay cầm — overhook phải hoạt động và chặt chẽ.",
+    "Không điều khiển được tay còn lại, khiến chúng bị đẩy và đế ra khỏi kẹp."
+  ],
+  "coachingCues": [
+    "Đầu gối kề vai chứ không phải đầu gối sát xương sườn.",
+    "overhook như ý bạn muốn nói — khập khiễng overhook bị mất kẹp.",
+    "Hai cánh tay, một cánh tay - cánh tay còn lại của họ không thể cứu được người bị mắc kẹt.",
+    "Cảm nhận áp lực: nếu chúng thoải mái thì kẹp của bạn đã sai."
+  ],
+  "safetySummary": [
+    "Không quay vòng từ kẹp - trước tiên hãy kiểm soát vị trí, sau đó áp dụng lớp hoàn thiện một cách trơn tru.",
+    "Bảo vệ cổ của chính bạn: giữ chặt đầu bạn vào ngực họ, không treo lủng lẳng theo đường guillotine.",
+    "Nếu chúng xếp chồng lên nhau, hãy nhả kẹp và đặt lại - không dùng kẹp bị khóa để chống lại chồng."
+  ],
+  "keyCorrections": [
+    "Nếu họ thả tay ra, đầu gối của bạn quá thấp - hãy đưa nó lên ngang vai.",
+    "Nếu họ đứng ra ngoài, bạn sẽ mất overhook — hãy tấn công lại cánh tay trước khi họ ngồi dậy.",
+    "Nếu họ lăn qua omoplata, hãy điều khiển hông của họ và theo chuyển động xoay của họ."
+  ],
+  "systemLogic": {
+    "corePrinciple": "Cố định chiếc kẹp (đầu gối trên vai + overhook + điều khiển cổ tay của bàn tay tự do) → cảm nhận phản ứng của họ → tấn công kẻ đang mở.",
+    "decisionTree": [
+      {
+        "condition": "Tùy chọn 1: Họ đứng dậy",
+        "action": "triangle nghẹt thở. Cách 2: Kéo tay ra → armbar. Tùy chọn 3: Chúng lăn đi → omoplata."
+      },
+      {
+        "condition": "Ứng dụng chung",
+        "action": "Hệ thống dựa trên phản ứng: bạn không cần phải ép buộc bất kỳ sự phục tùng nào, chỉ cần duy trì cái kẹp và chờ đợi chuyển động của chúng."
+      }
+    ]
+  },
+  "moneyDetails": [
+    "Đầu gối phải đặt trên vai, không nổi - nếu đầu gối nằm trên xương sườn của họ, họ có thể tạo tư thế và xếp chồng lên bạn.",
+    "overhook của bạn phải giữ cơ tam đầu của chúng áp vào xương ức của bạn; một overhook lỏng lẻo ở cổ tay giúp họ có khả năng di chuyển để trốn thoát.",
+    "Kiểm soát cổ tay tự do của họ bằng bàn tay còn lại của bạn - điều này ngăn họ đăng và căn cứ.",
+    "Giữ hông của bạn di động; kẹp là vị trí động chứ không phải khóa tĩnh."
+  ],
+  "nextStep": "Làm chủ cầu nối kẹp-to-triangle và quá trình chuyển đổi kẹp-to-armbar để xâu chuỗi các cuộc tấn công của bạn.",
+  "fixItFast": [
+    "Đầu gối cứ trượt? Đào sâu hơn vào nách chứ không phải xương sườn.",
+    "overhook cảm thấy yếu đuối? Khóa tay bạn quanh cánh tay của họ để tăng thêm sự an toàn.",
+    "Họ đang xếp chồng bạn à? Nhả kẹp, khung ở hông và đặt lại về open guard."
+  ]
+}

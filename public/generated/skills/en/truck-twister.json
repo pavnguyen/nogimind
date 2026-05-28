@@ -1,0 +1,121 @@
+{
+  "id": "truck-twister",
+  "domain": "submission_systems",
+  "level": "advanced",
+  "status": "draft",
+  "name": "Truck / Twister",
+  "aliases": [],
+  "tags": [
+    "truck",
+    "twister",
+    "back-attack",
+    "body-lock",
+    "spine-lock"
+  ],
+  "keywords": [
+    "truck",
+    "twister",
+    "spinal lock",
+    "body triangle",
+    "back attack"
+  ],
+  "relatedSkills": [
+    {
+      "id": "crucifix-control",
+      "type": "recommended"
+    },
+    {
+      "id": "back-attack-system",
+      "type": "recommended"
+    },
+    {
+      "id": "claw-ride",
+      "type": "recommended"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "back-control",
+    "crab-ride"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [
+    "If you can't feel the rotation, your body triangle is too loose — squeeze tighter.",
+    "If they defend the twister by gripping their own leg, switch to the armbar or back take.",
+    "If they roll through, follow their rotation and re-attack from the other side."
+  ],
+  "version": 1,
+  "updatedAt": "2026-05-21T00:24:30.773Z",
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "en",
+  "description": "The truck position and twister submission: from back or side control, lock a body triangle around the opponent's torso and pull their head toward their own hip to create a spinal lock.",
+  "shortInstruction": "Body triangle around the torso, pull the head to the hip, arch the back — the twister is a spinal lock, not a choke.",
+  "summary": "The truck is a specialized position where you control the opponent from the side with a body triangle (similar to the truck position in wrestling). From the truck, you can attack the twister — a spinal lock that twists the opponent's spine by pulling their head toward their own hip. The twister is not a choke or joint lock — it is a spinal lock that creates intense pressure on the vertebrae. It is no-gi specific (the gi makes it harder to maintain the body triangle) and is known for being extremely effective but requiring precise positioning.",
+  "whyItWorks": [
+    "The body triangle prevents them from rolling or turning out of the position.",
+    "The spinal lock mechanism is unfamiliar to most opponents — they often do not know how to defend or escape.",
+    "The twister can be chained into other submissions (back take, armbar) when they defend.",
+    "Eddie Bravo / 10th Planet principle: the truck/twister is the backbone of the 'Train of Pain' — a complete attack chain."
+  ],
+  "commonMistakes": [
+    "Not securing the body triangle before going for the twister — the body triangle is the control position.",
+    "Pulling the head too aggressively — the twister is a gradual twist, not a sudden jerk.",
+    "Letting their legs free from the body triangle — leg control is essential.",
+    "Attempting the twister without controlling their far arm — they will post and prevent the rotation."
+  ],
+  "coachingCues": [
+    "Body triangle first, twister second.",
+    "Head to the hip, arch the back, twist slowly.",
+    "Control the far arm, own the rotation.",
+    "The twister is a gradual twist, not a jerk."
+  ],
+  "safetySummary": [
+    "The twister applies rotational pressure to the spine — this is one of the most dangerous submissions in BJJ.",
+    "Apply the twister VERY slowly and release on ANY sign of discomfort.",
+    "Do not attempt the twister on partners with pre-existing back or neck issues.",
+    "Tap early on spinal locks — spinal injuries can be permanent.",
+    "Not appropriate for beginners — requires advanced body awareness."
+  ],
+  "systemLogic": {
+    "corePrinciple": "Side control or half guard: secure body triangle (truck position) → control far arm → pull their head toward their hip → arch your back → finish.",
+    "decisionTree": [
+      {
+        "condition": "General application",
+        "action": "The truck/twister chains with: back take (if they roll), armbar (if they defend), or standard submission."
+      },
+      {
+        "condition": "General application",
+        "action": "10th Planet system: the truck is the position; the twister is one of many attacks from it."
+      }
+    ],
+    "exitStrategies": []
+  },
+  "moneyDetails": [
+    "The body triangle should be around their torso at the waist level — not at their legs.",
+    "Your legs lock in a figure-four (body triangle) — squeeze to compress their ribs and limit movement.",
+    "Control their far arm by pushing their elbow toward their head — this prevents them from posting.",
+    "The twister finish: pull their head toward their own hip while arching your back — the rotation twists their spine."
+  ],
+  "nextStep": "After the truck/twister, learn the back take from the truck and the calf slicer from the same position.",
+  "fixItFast": [
+    "Body triangle too loose? Squeeze tighter and lock the figure-four deeper.",
+    "Can't twist? Control their far arm first — a free arm blocks the rotation.",
+    "They roll out? Follow their roll and take the back."
+  ]
+}

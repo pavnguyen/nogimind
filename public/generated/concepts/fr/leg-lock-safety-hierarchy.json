@@ -1,0 +1,65 @@
+{
+  "id": "leg-lock-safety-hierarchy",
+  "locale": "fr",
+  "title": "Hiérarchie sécurité leg lock",
+  "category": "safety",
+  "level": "fundamental",
+  "tags": [
+    "leg lock",
+    "heel hook",
+    "safety"
+  ],
+  "shortDefinition": "Ordre sécurité: reconnaître entanglement, cacher talon, protéger knee line, clear jambe secondaire, sortir contrôlé.",
+  "whyItMatters": "Les leg locks deviennent dangereux vite si vous tournez mal avec knee line piégée.",
+  "deepExplanation": "La hiérarchie évite panique. Talon exposé signal, knee line frontière, jambe secondaire verrou. Taper tôt et communiquer font partie technique.",
+  "beginnerView": "Ne tournez pas avec talon exposé et knee line piégée.",
+  "advancedView": "Lire entanglements comme positions de contrôle, pas course de torsion.",
+  "ifThenExamples": [
+    {
+      "if": "Si vous perdez Hiérarchie sécurité leg lock pendant l’échange.",
+      "then": "Arrêtez d’accélérer, récupérez la structure corporelle proche, puis continuez.",
+      "why": "Le no-gi moderne punit vite la force après perte de structure.",
+      "relatedSkillIds": [
+        "leg-lock-safety-basics",
+        "heel-hook-safety"
+      ]
+    },
+    {
+      "if": "Si l’adversaire répond correctement à votre première ligne.",
+      "then": "Utilisez Hiérarchie sécurité leg lock pour passer à une branche plus sûre au lieu de forcer.",
+      "why": "Un bon concept transforme la réaction adverse en information pour la décision suivante.",
+      "relatedSkillIds": [
+        "heel-hook-safety",
+        "straight-ankle-lock-safety",
+        "k-guard-entry"
+      ]
+    }
+  ],
+  "commonMisunderstandings": [
+    {
+      "misunderstanding": "Hiérarchie sécurité leg lock est une astuce technique isolée.",
+      "correction": "Voyez-le comme une règle de décision présente dans plusieurs positions."
+    },
+    {
+      "misunderstanding": "Comprendre le concept suffit pour l’utiliser en live.",
+      "correction": "Le concept doit être lié à signaux corporels, cues courts et rolling positionnel."
+    }
+  ],
+  "trainingCues": [
+    "Nommez Hiérarchie sécurité leg lock avant d’ajouter force.",
+    "Cherchez le signal corporel, pas une impression vague.",
+    "Si la structure est perdue, reset une couche d’abord.",
+    "Driller lentement, puis tester avec résistance progressive."
+  ],
+  "relatedSkillIds": [
+    "leg-lock-safety-basics",
+    "heel-hook-safety",
+    "straight-ankle-lock-safety",
+    "k-guard-entry"
+  ],
+  "relatedConceptIds": [
+    "knee-line",
+    "early-vs-late-defense",
+    "positional-hierarchy"
+  ]
+}

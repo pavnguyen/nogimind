@@ -1,0 +1,114 @@
+{
+  "id": "butterfly-guard-off-balance",
+  "domain": "guard_offense",
+  "level": "intermediate",
+  "status": "draft",
+  "name": "Bướm guard Mất cân bằng",
+  "aliases": [],
+  "tags": [
+    "butterfly",
+    "guard"
+  ],
+  "keywords": [
+    "butterfly hook",
+    "underhook",
+    "off-balancing",
+    "wrestle-up"
+  ],
+  "relatedSkills": [
+    {
+      "id": "shin-to-shin-entry",
+      "type": "recommended"
+    },
+    {
+      "id": "half-guard-wrestle-up",
+      "type": "recommended"
+    },
+    {
+      "id": "guillotine-system",
+      "type": "recommended"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "seated-guard-retention"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [
+    "Nếu quá trình quét không thành công, móc câu của bạn bị mất kết nối hoặc bạn không mất cân bằng đủ — hãy đặt lại móc câu và thử lại.",
+    "Nếu họ làm phẳng lưỡi câu của bạn, nghĩa là bạn đang nằm ngửa quá - hãy ngồi thẳng lên bằng vai xa.",
+    "Nếu họ không có tư thế buộc cổ áo, hãy chuyển sang kiểu kẹp underhook hoặc tay áo."
+  ],
+  "version": 1,
+  "updatedAt": "2026-05-21T00:24:30.746Z",
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "vi",
+  "description": "Sử dụng móc bướm, cà vạt cổ hoặc underhook và định vị đầu để phá vỡ căn cứ của đối thủ và tạo cơ hội quét, tiến hoặc tấn công.",
+  "shortInstruction": "Móc chân, bẻ tư thế, mất thăng bằng về phía trước hoặc sang bên, sau đó quét hoặc vướng vào chân.",
+  "summary": "Mất cân bằng bướm guard là động cơ của toàn bộ hệ thống bướm. Nếu không phá vỡ căn cứ của đối thủ, bạn không thể quét hoặc tấn công. Mục tiêu là khiến họ đăng một bàn tay hoặc một bước - sau đó bạn di chuyển.",
+  "whyItWorks": [
+    "Móc bướm tạo ra một đòn bẩy tác động lên trọng tâm của đối thủ - kéo chúng về phía trước hoặc nhấc chúng sang một bên sẽ phá hủy căn cứ của chúng.",
+    "Cà vạt cổ áo hoặc underhook kiểm soát phần thân trên của chúng để móc của bạn có thể hoạt động độc lập.",
+    "Phản ứng của các lực mất cân bằng: họ đăng bài (cho bạn một mục nhập) hoặc rơi xuống (cho bạn một cú quét).",
+    "Nguyên tắc Danaher: bạn không thể quét sạch một đối thủ có nền tảng tốt. Đầu tiên phá căn cứ, sau đó tấn công."
+  ],
+  "commonMistakes": [
+    "Kéo cà vạt cổ áo mà không gắn móc - lực quét xuất phát từ móc chứ không phải cánh tay.",
+    "Để lưỡi câu của bạn bị xẹp hoặc bị bong ra trước khi bạn mất thăng bằng.",
+    "Mất thăng bằng sang một bên mà không kiểm soát cánh tay xa, cho phép họ đăng bài và phục hồi.",
+    "Nằm ngửa thay vì ngồi trên vai để duy trì áp lực móc."
+  ],
+  "coachingCues": [
+    "Móc trước, sau đó kéo - móc tạo ra sự mất cân bằng, các cánh tay sẽ dẫn hướng nó.",
+    "Làm cho họ đăng bài, sau đó di chuyển.",
+    "Ngồi dậy để kích hoạt móc - móc phẳng là móc chết.",
+    "Mối đe dọa hai chiều: về phía trước hoặc sang một bên - họ không thể phòng thủ cả hai."
+  ],
+  "safetySummary": [
+    "Giữ đầu ngẩng cao và cằm chạm vào ngực để bảo vệ cổ khi đeo cà vạt.",
+    "Đừng cam kết quá mức khi xảy ra tình trạng mất cân bằng không thành công — bạn có thể khiến lưng mình bị front headlock.",
+    "Bảo vệ xương sườn của bạn khi đối thủ lao mạnh về phía trước - đóng khung trước khi họ đập phá."
+  ],
+  "systemLogic": {
+    "corePrinciple": "Giành chiến thắng trong cuộc đấu tay đôi → thiết lập dây buộc cổ hoặc underhook → chèn móc bướm → mất thăng bằng → trụ của đối thủ → quét hoặc vướng vào chân.",
+    "decisionTree": [
+      {
+        "condition": "chống lại, áp lực về phía trước",
+        "action": "đi ngang. Nếu họ kháng cự ngang, hãy tiến về phía trước. Vấn đề nan giải là hệ thống."
+      },
+      {
+        "condition": "Ứng dụng chung",
+        "action": "Các tùy chọn mất cân bằng: tiến (quét thang máy), sang một bên (quét con lắc) hoặc lùi (kéo tay để lùi)."
+      }
+    ],
+    "exitStrategies": []
+  },
+  "moneyDetails": [
+    "Móc bướm của bạn phải sâu - mắt cá chân phía sau vùng nách - không nông trên đùi.",
+    "Cà vạt kéo đầu họ xuống ngang ngực bạn; điều này sẽ tải trọng lượng của chúng lên móc.",
+    "Khi họ đăng một bàn tay, hãy tấn công bên đó ngay lập tức - cánh tay đó hiện không còn hoạt động.",
+    "Nếu họ lùi lại để tránh bị quét, hãy kéo móc và chuyển sang chân đơn X hoặc X-guard."
+  ],
+  "nextStep": "Sau khi mất thăng bằng, chuyển sang quét bướm, X một chân hoặc X-guard tùy thuộc vào phản ứng của chúng.",
+  "fixItFast": [
+    "Móc bị xẹp? Hãy ngồi dậy bằng khuỷu tay xa của bạn ngay lập tức.",
+    "Họ có tư thế ra ngoài? Chuyển sang tay cầm đôi và đá lưỡi câu của bạn vào sâu hơn.",
+    "Họ lùi lại? Mở rộng móc và nhập chân đơn X."
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "id": "arm-drag-system",
+  "domain": "wrestle_up_wrestling",
+  "level": "intermediate",
+  "status": "draft",
+  "name": "Arm Drag System",
+  "aliases": [],
+  "tags": [
+    "arm-drag",
+    "back-take",
+    "single-leg",
+    "front-headlock",
+    "wrestling"
+  ],
+  "keywords": [
+    "arm drag",
+    "back take",
+    "single leg",
+    "front headlock",
+    "angle",
+    "footwork"
+  ],
+  "relatedSkills": [
+    {
+      "id": "single-leg-bjj",
+      "type": "recommended"
+    },
+    {
+      "id": "snapdown-front-headlock",
+      "type": "recommended"
+    },
+    {
+      "id": "back-attack-system",
+      "type": "recommended"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "hand-fighting",
+    "technical-stand-up"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [
+    "If the opponent resists the drag: switch to a snapdown — their resistance becomes forward momentum",
+    "If you cannot get behind them: your step was too short — the outside foot must clear their lead heel",
+    "If they counter with a guillotine: your head was too high — keep your head below their shoulder line"
+  ],
+  "version": 1,
+  "updatedAt": "2026-05-21T00:24:30.769Z",
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "en",
+  "description": "Pull the opponent's arm across the center line, combine head movement and footwork to take the back, single leg, or front headlock. The arm drag is the highest-percentage takedown entry in no-gi because it attacks the opponent's balance before their base.",
+  "shortInstruction": "Pull their far arm across your center line, step behind their lead leg with your outside foot, and take the back or single leg. Keep your head low and to the outside.",
+  "summary": "The arm drag pulls the opponent's arm across your body, disrupting their base and exposing their back or far leg. From the arm drag, you have three primary branches: (1) back take — circle behind as they follow the drag, (2) single leg — drop to the far leg as they post, (3) front headlock — snap down as they resist the drag. The arm drag is the foundation of all blitz-style takedowns in no-gi.",
+  "whyItWorks": [
+    "Pulling the arm across the center line rotates the opponent's upper body, disrupting their base and balance",
+    "The arm drag exposes the opponent's back or far leg — both are high-value targets",
+    "The drag creates forward momentum that the opponent must resist — you can use this momentum against them",
+    "The arm drag is safe from guillotine counters because your head stays low and to the outside"
+  ],
+  "commonMistakes": [
+    "Pulling the arm to your chest instead of across your body — the drag direction must be across, not toward",
+    "Standing too tall during the drag — your posture must stay low to prevent the opponent from countering",
+    "Not stepping with the drag — footwork must accompany the arm pull to create the angle",
+    "Letting the opponent re-establish the grip — once you drag, commit to the takedown immediately"
+  ],
+  "coachingCues": [
+    "Pull across, not toward",
+    "Step with the pull, create the angle",
+    "Low posture, outside head position",
+    "Drag → back, single, or snapdown"
+  ],
+  "safetySummary": [
+    "The arm drag is a low-risk takedown entry — your head stays clear of guillotines and your knees do not hit the mat",
+    "Do not yank the arm violently — a controlled pull with proper footwork is safer and more effective",
+    "When taking the back from the arm drag, protect your head position to avoid neck cranks"
+  ],
+  "systemLogic": {
+    "corePrinciple": "The arm drag system has three branches: Back Take → Single Leg → Front Headlock, read from the opponent's reaction",
+    "decisionTree": [
+      {
+        "condition": "Using Branch 1 (Back Take)",
+        "action": "as you pull the arm across, step your outside foot behind their lead leg. Circle behind them. If they follow the drag, take the back. If they sprawl, switch to single leg"
+      },
+      {
+        "condition": "Using Branch 2 (Single Leg)",
+        "action": "if the opponent posts their far leg to resist the drag, drop your inside hand to their far ankle and finish the single leg. The arm drag has already disrupted their base"
+      },
+      {
+        "condition": "Using Branch 3 (Front Headlock)",
+        "action": "if the opponent drops their level to resist the drag, snap them down into a front headlock. Their forward momentum carries them into the snapdown"
+      },
+      {
+        "condition": "Reading the opponent's reaction",
+        "action": "they follow the drag → back take. They post the far leg → single leg. They drop level → snapdown to front headlock"
+      }
+    ],
+    "exitStrategies": []
+  },
+  "moneyDetails": [
+    "The arm drag is the highest-percentage takedown entry in no-gi because it attacks balance before base",
+    "Mastering the arm drag system gives you three takedowns from one entry — you always have options",
+    "The arm drag is particularly effective against aggressive opponents who lunge forward"
+  ],
+  "fixItFast": [
+    "If they sprawl on the drag: switch to the front headlock — their sprawl leaves their neck exposed",
+    "If they pull back: change direction and re-drag the other arm",
+    "If they grab your head: pummel inside and re-establish the drag grip"
+  ]
+}

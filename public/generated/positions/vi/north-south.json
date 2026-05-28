@@ -1,0 +1,57 @@
+{
+  "id": "north-south",
+  "locale": "vi",
+  "title": "North South",
+  "category": "pin",
+  "status": "dominant",
+  "description": "Người ở trên nằm ngược từ phía đầu, kiểm soát chest-to-chest hoặc chest-to-back với shoulder pressure.",
+  "topPlayerGoals": [
+    "Người ở trên muốn kiểm soát North South bằng vị trí đầu, vị trí trong và áp lực có hướng.",
+    "Dùng shoulder pressure để choke, isolate arm hoặc chuyển sang side/mount.",
+    "Giữ nền vững để không bị mất thăng bằng hoặc bị phản đòn."
+  ],
+  "bottomPlayerGoals": [
+    "Người ở dưới muốn sống sót trong North South bằng khung chặn, pummel hoặc góc phù hợp.",
+    "Đưa khuỷu tay về ribs, tạo frame và re-guard trước khi bị choke.",
+    "Nhận diện tín hiệu nguy hiểm sớm thay vì chờ vị trí ổn định."
+  ],
+  "controlPoints": [
+    "Điểm kiểm soát chính: Shoulder pressure, kết nối đầu ngực và arm line..",
+    "Đầu, tay, hông và gối nên cùng hướng lực.",
+    "Kết nối khuỷu-gối hoặc đường hông-vai quyết định vị trí còn sống hay đã bị khóa."
+  ],
+  "escapePriorities": [
+    "Ưu tiên thoát: Không để shoulder pressure đóng đường thở..",
+    "Bảo vệ cổ, lưng, đường gối hoặc đường tay trước khi phản công.",
+    "Nếu mất vị trí trong, hãy lùi lại một lớp phòng thủ trước."
+  ],
+  "advancementOptions": [
+    {
+      "action": "Chuyển side control hoặc back take",
+      "nextPositionId": "side-control-top",
+      "relatedSkillIds": [
+        "north-south-control",
+        "side-control-pin",
+        "rear-naked-choke-system"
+      ],
+      "why": "Đây là nhánh tự nhiên khi bạn thắng điểm kiểm soát chính và đối thủ buộc phải phòng thủ."
+    }
+  ],
+  "dangerSignals": [
+    "Cằm hoặc cổ bị kéo ra khỏi đường an toàn.",
+    "Khuỷu tay tách khỏi sườn hoặc đầu gối.",
+    "Đường hông bị khóa trong khi đường vai vẫn đang bị kéo.",
+    "Bạn phải chống tay dài để không ngã."
+  ],
+  "relatedSkillIds": [
+    "north-south-control",
+    "side-control-pin",
+    "rear-naked-choke-system",
+    "kimura-system"
+  ],
+  "relatedConceptIds": [
+    "pressure-direction",
+    "connection-before-control",
+    "control-before-submission"
+  ]
+}

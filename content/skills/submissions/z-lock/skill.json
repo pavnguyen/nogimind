@@ -1,0 +1,83 @@
+{
+  "id": "z-lock",
+  "slug": "z-lock",
+  "version": 1,
+  "domain": "submission_systems",
+  "level": "advanced",
+  "status": "draft",
+  "locale": "en",
+  "name": "Z-Lock",
+  "aliases": ["zlock", "z lock"],
+  "tags": [
+    "z-lock",
+    "leg-lock",
+    "submission",
+    "leg-entanglement",
+    "heel-hook",
+    "ankle-lock",
+    "junny-ocasio"
+  ],
+  "keywords": [
+    "z lock bjj",
+    "z lock leg lock",
+    "junny ocasio z lock",
+    "z lock single leg x",
+    "z lock 50/50",
+    "z lock double trouble",
+    "z lock entries",
+    "leg entanglement control",
+    "inside position leg lock",
+    "z lock finishing mechanics"
+  ],
+  "relatedSkills": [],
+  "relatedSkillIds": [
+    "heel-hook",
+    "ankle-lock",
+    "knee-bar",
+    "saddle-system",
+    "single-leg-x-guard",
+    "aoki-lock"
+  ],
+  "relatedPositions": [],
+  "relatedPositionIds": [
+    "single-leg-x",
+    "50-50-guard",
+    "saddle",
+    "ashi-garami"
+  ],
+  "relatedConcepts": [],
+  "relatedConceptIds": [
+    "leg-entanglement",
+    "inside-position",
+    "hip-rotation",
+    "finishing-mechanics"
+  ],
+  "archetypeIds": [
+    "leg-lock-specialist",
+    "guard-player",
+    "modern-no-gi"
+  ],
+  "prerequisiteSkillIds": [
+    "single-leg-x-guard",
+    "saddle-system",
+    "heel-hook"
+  ],
+  "trainingMethodIds": [
+    "positional-sparring-leg-locks",
+    "slow-rolls",
+    "a-game-repetition-block"
+  ],
+  "nextSkillIds": [
+    "cross-ashi-garami",
+    "outside-ashi-garami"
+  ],
+  "searchBoost": 0.85,    "featureFlags": {
+    "hasVideos": true,
+    "hasChecklist": false,
+    "hasMicroDetails": false,
+    "hasPrint": false
+  },
+  "contentRefs": {
+    "videos": "videos.json"
+  }
+}

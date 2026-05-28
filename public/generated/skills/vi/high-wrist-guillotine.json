@@ -1,0 +1,122 @@
+{
+  "id": "high-wrist-guillotine",
+  "domain": "submission_systems",
+  "level": "advanced",
+  "status": "draft",
+  "name": "Cổ tay cao guillotine",
+  "aliases": [],
+  "tags": [
+    "guillotine",
+    "front-headlock",
+    "neck-safety",
+    "tier:modern-expansion",
+    "meta:modern-common",
+    "risk:high",
+    "family:front-headlock",
+    "group:front-headlock",
+    "modern-no-gi"
+  ],
+  "keywords": [
+    "guillotine",
+    "chin strap",
+    "neck safety"
+  ],
+  "modernSystemGroup": "front_headlock",
+  "relatedSkills": [
+    {
+      "id": "guillotine-system",
+      "type": "recommended"
+    },
+    {
+      "id": "snapdown-front-headlock",
+      "type": "recommended"
+    },
+    {
+      "id": "front-headlock-defense",
+      "type": "recommended"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "guillotine-system",
+    "front-headlock-defense"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [
+    "Nếu cảm giác cuộn cảm không sạch, nghĩa là cổ tay của bạn chưa đủ sâu - hãy trượt lưỡi cổ tay sâu hơn trên cổ họ.",
+    "Nếu họ tư thế hướng ra ngoài, khuỷu tay của bạn chưa đủ chặt - hãy kẹp khuỷu tay vào cơ thể.",
+    "Nếu bạn không thể hoàn thành, góc của bạn quá vuông - hãy bước xa hơn về phía họ."
+  ],
+  "version": 1,
+  "updatedAt": "2026-05-21T00:24:30.780Z",
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "vi",
+  "description": "Một biến thể guillotine sử dụng vị trí lưỡi sâu ở cổ tay và khả năng kiểm soát khuỷu tay chính xác để có cú dứt điểm gọn gàng hơn, chặt chẽ hơn trước những đối thủ bảo vệ tiêu chuẩn guillotine.",
+  "shortInstruction": "Lưỡi dao cổ tay sâu trên cổ, khuỷu tay siết chặt vào xương sườn, đầu nghiêng sang một bên — cổ tay cao guillotine cắt sâu hơn so với kiểu cầm vợt tiêu chuẩn.",
+  "summary": "Cổ tay cao guillotine (còn được gọi là Marcelotine hoặc guillotine của Nhật Bản) sử dụng lưỡi dao của cổ tay bạn áp vào động mạch cảnh thay vì cách cầm bóp bắp tay tiêu chuẩn. Điều quan trọng là cổ tay của bạn phải nằm sâu hơn trên cổ họ - lưỡi cẳng tay của bạn (phía ngón tay cái) ấn trực tiếp vào động mạch cảnh của họ. Biến thể này hiệu quả hơn trong No-Gi vì nó không yêu cầu kẹp cổ gi và tạo ra tình trạng nghẹt máu chặt hơn mà tốn ít công sức hơn.",
+  "whyItWorks": [
+    "Lưỡi cổ tay tạo ra nhiều áp lực trực tiếp lên động mạch cảnh hơn so với lực bóp cẳng tay tiêu chuẩn.",
+    "Vị trí cổ tay cao cho phép bạn dứt điểm từ những góc mà guillotine tiêu chuẩn không hoạt động.",
+    "Nó hiệu quả hơn trong No-Gi vì nó không phụ thuộc vào kẹp vải.",
+    "Nguyên tắc của Danaher/Marcelo Garcia: cổ tay cao là sự tiến hóa No-Gi của guillotine — nó sử dụng áp lực của xương chứ không phải ma sát với vải."
+  ],
+  "commonMistakes": [
+    "Sử dụng mặt phẳng của cổ tay thay vì lưỡi dao (phía ngón tay cái) - lưỡi dao tạo ra cuộn cảm, mặt phẳng tạo ra tay quay.",
+    "Không giữ chặt khuỷu tay vào cơ thể - khuỷu tay loe ra giúp họ có không gian để thực hiện tư thế.",
+    "Kéo theo chiều ngang thay vì cắt góc - cổ tay cao hoạt động tốt nhất với đường cắt góc nhọn.",
+    "Siết quá sớm trước khi cổ tay sâu - cổ tay sâu trước, sau đó là góc, sau đó siết."
+  ],
+  "coachingCues": [
+    "Lưỡi cổ tay, không phẳng - phía ngón tay cái tạo ra tiếng sặc.",
+    "Khuỷu tay siết chặt, góc nhọn, cổ tay sâu.",
+    "Nếu bạn có thể cảm nhận được cổ tay của mình trên cột sống của họ thì bạn đã đủ sâu.",
+    "Cổ tay cao là một con dao mổ — tiêu chuẩn guillotine là một cái búa."
+  ],
+  "safetySummary": [
+    "Cổ tay cao có thể tạo áp lực tập trung hơn lên cổ - hãy thoa từ từ và tôn trọng lực chạm.",
+    "Đừng quay cổ để siết cổ - đó là nghẹt thở chứ không phải siết cổ.",
+    "Nếu đối phương chạm vào cổ thay vì cảm giác nghẹt thở, hãy thả ra ngay lập tức."
+  ],
+  "systemLogic": {
+    "corePrinciple": "front headlock hoặc guard: nắm sâu cổ tay (lưỡi ngón cái) → siết chặt khuỷu tay → góc cắt → siết chặt bằng ngực.",
+    "decisionTree": [
+      {
+        "condition": "Ứng dụng chung",
+        "action": "Cổ tay cao guillotine hoạt động tốt nhất ở vị trí front headlock khi chúng ngửa cổ hoặc hóp bụng."
+      },
+      {
+        "condition": "họ phòng thủ bằng cách giấu cổ",
+        "action": "chuyển sang d'arce hoặc anaconda."
+      }
+    ],
+    "exitStrategies": []
+  },
+  "moneyDetails": [
+    "Nắm lấy cổ họ với lòng bàn tay hướng lên - lưỡi của cẳng tay (phía ngón tay cái) phải áp vào động mạch cảnh của họ.",
+    "Khuỷu tay của bạn phải chạm vào xương sườn của chính bạn - khuỷu tay quá chặt sẽ ngăn cản chúng tạo tư thế.",
+    "Cắt góc bằng cách bước sang một bên đầu của họ - góc càng sắc thì vòng cổ càng chặt.",
+    "Kết thúc bằng cách đưa khuỷu tay của bạn về phía hông trong khi giữ lưỡi cổ tay sâu - thao tác này sẽ xoay lưỡi dao vào cổ họ."
+  ],
+  "nextStep": "Sau guillotine cổ tay cao, hãy tìm hiểu hệ thống guillotine tiêu chuẩn và các chi tiết về Marcelotine.",
+  "fixItFast": [
+    "Sặc không sạch? Xoay cổ tay của bạn để lưỡi dao (phía ngón tay cái) ấn vào cổ họ.",
+    "Họ cứ làm ra vẻ thế à? Bước xa hơn về phía họ và siết chặt khuỷu tay của bạn vào xương sườn của bạn.",
+    "Cổ tay cứ trượt? Nắm lại sâu hơn - cổ tay phải chạm tới gáy của họ, không chỉ bên cạnh."
+  ]
+}

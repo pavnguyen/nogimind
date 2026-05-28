@@ -1,0 +1,61 @@
+{
+  "id": "buggy-choke",
+  "locale": "fr",
+  "name": "Étrangleur de buggy",
+  "description": "Un starter à contrôle latéral inférieur qui utilise vos jambes enroulées autour du cou et du bras de l'adversaire – une attaque désespérée à haut risque et à haute récompense qui ne devrait pas remplacer les principes fondamentaux de survie et d'évasion.",
+  "shortInstruction": "Enroulez vos jambes autour de leur cou et de leur bras, serrez – le starter du buggy est une attaque surprise depuis le bas side control.",
+  "summary": "Le starter du buggy est un starter spécifique à No-Gi à partir du bas side control. Vous enroulez vos jambes autour du cou et d'un bras de l'adversaire, créant un étranglement de sang en comprimant son cou contre vos cuisses. Il s'agit d'une soumission légitime mais elle est considérée comme un « faible pourcentage » car elle nécessite un timing et un type de corps spécifiques. Plus important encore, tenter le starter du buggy abandonne souvent le underhook et l'évasion de la hanche, qui sont les fondements de l'évasion du side control. Il devrait s’agir d’une arme de surprise et non d’une stratégie d’évasion principale.",
+  "whyItWorks": [
+    "Crée un étranglement sanguin à partir d'une position (en bas side control) où le joueur du bas n'a généralement aucune menace de soumission.",
+    "L'élément de surprise est important : la plupart des meilleurs joueurs ne s'attendent pas à un étranglement de la part du bas side control.",
+    "Il peut attraper des adversaires lourds d'un côté avec un crossface.",
+    "Utile comme attaque de dernier recours lorsque les évasions conventionnelles échouent."
+  ],
+  "commonMistakes": [
+    "Utilisez-le comme une évasion principale au lieu de vous concentrer sur les cadres et les évasions de la hanche.",
+    "Laisser le underhook disponible - le underhook est plus important que le starter du buggy.",
+    "Laisser l’adversaire vous empiler – cela neutralise l’étranglement et vous met en danger.",
+    "Gaspiller de l'énergie sur le starter du buggy alors que vous pourriez vous échapper."
+  ],
+  "coachingCues": [
+    "Arme surprise, pas stratégie principale.",
+    "Si vous êtes empilé, relâchez – le starter est perdu.",
+    "underhook d'abord, puis buggy – jamais l'inverse.",
+    "Une tentative – si elle échoue, recommencez à vous échapper."
+  ],
+  "safetySummary": [
+    "Le starter buggy comprime le cou – appliquez progressivement et relâchez au robinet.",
+    "N'utilisez pas le starter du buggy contre des adversaires plus gros qui peuvent vous empiler – la pile peut vous blesser le bas du dos.",
+    "Tapez tôt si vous sentez que l'étranglement est appliqué sur votre propre cou."
+  ],
+  "keyCorrections": [
+    "S’ils vous empilent, c’est que vous vous êtes engagé trop tôt ou sous le mauvais angle – relâchez et réinitialisez les images.",
+    "S'ils libèrent leur bras, c'est que l'enveloppe de votre jambe était trop lâche – serrez-la plus fort ou abandonnez l'étranglement.",
+    "Si vous ne parvenez pas à terminer, revenez aux évasions side control conventionnelles (évasion de la hanche, underhook)."
+  ],
+  "systemLogic": {
+    "corePrinciple": "Bas side control : l'adversaire est lourd d'un côté (côté crossface) → enroulez les jambes autour de son cou et de son bras → serrez → étranglez.",
+    "decisionTree": [
+      {
+        "condition": "ils publient de leur main libre",
+        "action": "le starter du buggy est disponible - s'ils postent à deux mains, le starter est difficile."
+      },
+      {
+        "condition": "Application générale",
+        "action": "Le starter du buggy est une option tertiaire – les cadres et les évasions de hanche sont primaires, kimura et les autres attaques sont secondaires."
+      }
+    ]
+  },
+  "moneyDetails": [
+    "L’enveloppement des jambes doit inclure leur cou ET un bras – envelopper uniquement leur cou ne sécurisera pas l’étranglement.",
+    "Gardez votre jambe supérieure sur le dos pour éviter qu'il ne se retire de l'écharpe.",
+    "L'étranglement vient du fait de serrer vos cuisses l'une contre l'autre, et non de tirer avec vos jambes.",
+    "S'ils se redressent, le starter du buggy est perdu – revenez immédiatement aux cadres et échappez-vous à la hanche."
+  ],
+  "nextStep": "Après avoir compris le starter du buggy, concentrez-vous sur les principales évasions side control : cadres, évasion de la hanche et récupération underhook.",
+  "fixItFast": [
+    "Ils vous empilent ? Relâchez et encadrez sur leurs hanches.",
+    "Les jambes glissent ? Enroulez-le plus étroitement autour de son bras – le contrôle du bras est essentiel.",
+    "Vous n'arrivez pas à obtenir le starter ? Retour aux cadres et à l'évasion branchée - l'évasion est plus importante que la soumission."
+  ]
+}

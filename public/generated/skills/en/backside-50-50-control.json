@@ -1,0 +1,125 @@
+{
+  "id": "backside-50-50-control",
+  "domain": "submission_systems",
+  "level": "advanced",
+  "status": "draft",
+  "name": "Backside 50/50 Control",
+  "aliases": [],
+  "tags": [
+    "backside-50-50",
+    "leg-lock",
+    "heel-hook",
+    "entanglement",
+    "leg-entanglement"
+  ],
+  "keywords": [
+    "backside 50/50",
+    "heel hook",
+    "hip line",
+    "entanglement",
+    "leg control",
+    "secondary leg"
+  ],
+  "relatedSkills": [
+    {
+      "id": "fifty-fifty-to-heel-exposure",
+      "type": "recommended"
+    },
+    {
+      "id": "knee-line-escape",
+      "type": "recommended"
+    },
+    {
+      "id": "heel-hook-safety",
+      "type": "recommended"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "saddle-inside-sankaku-control",
+    "false-reap-entry",
+    "k-guard-entry"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [
+    "If they turn to face you, you lost hip control — re-establish your grip on their far hip.",
+    "If you can't find the heel, you're too low on their leg — scoot up toward their hip.",
+    "If they kick free, your leg entanglement was too loose — tighten your 50/50 control."
+  ],
+  "version": 1,
+  "updatedAt": "2026-05-21T00:24:30.766Z",
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "en",
+  "description": "Control the backside 50/50 — a leg entanglement position behind the opponent's hip line that generates heel hook threats without requiring the full saddle position.",
+  "shortInstruction": "Behind the hip, inside leg control, manage their far leg — backside 50/50 is the back take of the leg lock world.",
+  "summary": "Backside 50/50 is a leg entanglement position where you are positioned behind the opponent's hip line with both of your legs controlling one of their legs in a 50/50 configuration. The key advantage over the saddle is that you are behind them — they cannot see your attacks and have limited escape options. From here, you can attack the heel hook, transition to the saddle, or take the back.",
+  "whyItWorks": [
+    "Being behind their hip line gives you a positional advantage — they cannot see your hands or leg positioning.",
+    "The 50/50 leg configuration gives you strong control of their far leg while your hands attack the near leg.",
+    "It transitions easily to saddle or back take depending on their reaction.",
+    "Danaher principle: position before submission — backside 50/50 is the position; the heel hook is the submission."
+  ],
+  "commonMistakes": [
+    "Losing control of their far leg — the far leg is their escape route.",
+    "Letting them turn and face you — once they face you, backside 50/50 becomes standard 50/50.",
+    "Focusing only on the heel hook and ignoring the back take — both must be threats.",
+    "Sitting too low on their leg — you need to be high on their thigh for control."
+  ],
+  "coachingCues": [
+    "Behind the hip, you control the game.",
+    "Far leg is the key — control it or lose the position.",
+    "If they turn, take the back. If they stay, heel hook.",
+    "Stay high on the leg — ankle control gives you nothing."
+  ],
+  "safetySummary": [
+    "The backside 50/50 position can apply rotational pressure to the knee — apply heel hooks slowly and carefully.",
+    "Do not cranking the heel hook from backside 50/50 without establishing clear control of their hip.",
+    "Establish tap protocols for all leg attacks before training."
+  ],
+  "systemLogic": {
+    "corePrinciple": "Enter backside 50/50 (behind their hip, 50/50 leg position): control their far leg → attack heel hook or transition.",
+    "decisionTree": [
+      {
+        "condition": "Using Option 1",
+        "action": "They stay facing away → heel hook finish."
+      },
+      {
+        "condition": "Using Option 2",
+        "action": "They turn toward you → transition to saddle or back take."
+      },
+      {
+        "condition": "General application",
+        "action": "Backside 50/50 is the entry; saddle and back take are the destinations."
+      }
+    ],
+    "exitStrategies": []
+  },
+  "moneyDetails": [
+    "Your position should be high on their thigh, not low on their calf — high position gives you hip control.",
+    "Control their far leg by trapping it between your legs or grabbing their ankle with your free hand.",
+    "Keep your chest close to their hip — the closer you are, the less they can move.",
+    "When they turn toward you, follow their hips and enter saddle or take the back — don't stay in 50/50."
+  ],
+  "nextStep": "After backside 50/50, learn the saddle control and heel hook finishes.",
+  "fixItFast": [
+    "They keep turning? Follow their hip and take the back.",
+    "Can't find the heel? Scoot higher on their leg.",
+    "They kick free? Re-establish the 50/50 entanglement tighter."
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "id": "sprawl-go-behind",
+  "domain": "wrestle_up_wrestling",
+  "level": "intermediate",
+  "status": "draft",
+  "name": "sprawl et Go-Behind",
+  "aliases": [],
+  "tags": [
+    "wrestling",
+    "defense"
+  ],
+  "keywords": [
+    "sprawl",
+    "go-behind",
+    "front headlock",
+    "turtle"
+  ],
+  "relatedSkills": [
+    {
+      "id": "turtle-ride",
+      "type": "recommended"
+    },
+    {
+      "id": "back-control",
+      "type": "recommended"
+    },
+    {
+      "id": "snapdown-front-headlock",
+      "type": "recommended"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "hand-fighting"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [
+    "S'ils terminent le retrait malgré votre sprawl : vos hanches étaient trop hautes – abaissez-les sur le dos.",
+    "S'ils se lèvent avant que vous entouriez : vous avez attendu trop longtemps — encerclez au moment où le sprawl atterrit",
+    "S'ils se tournent vers vous : passez à un front headlock – ne forcez pas la prise arrière"
+  ],
+  "version": 1,
+  "updatedAt": "2026-05-21T00:24:30.761Z",
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "fr",
+  "description": "Utilisez le sprawl pour briser le tir de l'adversaire, puis tournez derrière lui avant de reconstruire sa base. Le sprawl et le go-behind constituent la défense au pourcentage de retrait le plus élevé dans No-Gi : ils convertissent le sprawl défensif directement en back control offensif.",
+  "shortInstruction": "sprawl en abaissant vos hanches sur leur dos, placez vos mains sur leurs épaules, puis faites un cercle d'un côté et prenez le dos. Ne les laissez pas reconstruire leur base.",
+  "summary": "La séquence sprawl et Go-derrière est la suivante : (1) sprawl – enfoncez vos hanches sur le bas de leur dos pendant qu'ils tirent, (2) contrôle – placez vos mains sur leurs épaules ou leur tête pour les empêcher de se tenir debout, (3) cercle – faites un pas d'un côté et faites un cercle derrière eux, (4) sécurisez – prenez le dos avec des crochets ou un seatbelt. Le timing doit être immédiat : si vous attendez qu’ils rétablissent leur base, la fenêtre de reprise se ferme.",
+  "whyItWorks": [
+    "Le sprawl transfère votre poids sur le bas du dos, supprimant ainsi leur capacité à soulever ou à avancer.",
+    "L'élan de l'adversaire suite au tir le transporte au-delà de sa base - il ne peut pas inverser rapidement la direction.",
+    "Les cercles derrière attaquent l'angle mort créé par le sprawl – ils ne peuvent pas vous voir ni poster pour vous arrêter.",
+    "Le sprawl et le go-behind marquent 3 points (défense contre le retrait + prise arrière) dans la plupart des règles de grappling."
+  ],
+  "commonMistakes": [
+    "sprawling avec les bras tendus - cela leur permet de traverser et de terminer le retrait",
+    "Rester directement au sommet après le sprawl — vous devez faire un cercle et non rester centré",
+    "Les laisser reconstruire leur base avant de faire le tour – la fenêtre de reprise est immédiate",
+    "Ne pas poster sur leurs épaules – sans le poteau d'épaule, ils peuvent se lever et tirer à nouveau"
+  ],
+  "coachingCues": [
+    "Hanches baissées, mains sur les épaules",
+    "Détournez-vous immédiatement, ne restez pas",
+    "Prenez le dos avant qu'ils ne se basent",
+    "sprawl → cercle → retour en arrière"
+  ],
+  "safetySummary": [
+    "Le sprawl peut provoquer une hyperextension du bas du dos si vous baissez les hanches de manière trop agressive – contrôlez la descente",
+    "Lorsque vous tournez derrière vous, gardez votre poids sur son dos pour l'empêcher de s'asseoir sur vous.",
+    "Si l'adversaire roule pour échapper à la prise arrière, protégez votre tête et maintenez la position arrière."
+  ],
+  "systemLogic": {
+    "corePrinciple": "Le sprawl et le go-behind comportent quatre phases : sprawl → Contrôle → Cercle → Prise en arrière",
+    "decisionTree": [
+      {
+        "condition": "En phase 1 (sprawl)",
+        "action": "Pendant que l'adversaire tire, repoussez les deux pieds, laissez tomber vos hanches sur le bas de son dos et placez vos mains sur ses épaules. Votre poitrine doit être sur le haut du dos"
+      },
+      {
+        "condition": "En Phase 2 (Contrôle)",
+        "action": "maintenir la pression des mains sur leurs épaules pour les empêcher de se tenir debout. Votre poids devrait les maintenir plaqués au tapis sur le ventre."
+      },
+      {
+        "condition": "En phase 3 (cercle)",
+        "action": "faites un pas d’un côté (généralement du côté de leur jambe la plus proche) et entourez votre corps derrière eux. Gardez votre poids sur le dos pendant que vous faites le tour"
+      },
+      {
+        "condition": "En phase 4 (retour en arrière)",
+        "action": "une fois derrière, fixez le seatbelt (un bras sur l'épaule la plus éloignée, main sur la hanche la plus proche) et faites glisser vos crochets. S'ils résistent, passez au corps triangle"
+      },
+      {
+        "condition": "le go-derrière échoue",
+        "action": "ils se sont transformés en vous → utilisez le front headlock. Ils se sont assis → re-sprawl. Ils ont roulé → suivez et prenez le dos"
+      }
+    ],
+    "exitStrategies": []
+  },
+  "moneyDetails": [
+    "Le sprawl et le go-behind constituent la défense contre le retrait la plus importante en grappling : chaque grappler fait face à des tirs et doit savoir comment les contrer.",
+    "Maîtriser le sprawl et le go-behind neutralise tout le jeu de retrait de l'adversaire - il hésitera à tirer",
+    "Le sprawl vers la prise arrière est la transition défensive de la plus haute valeur (points et position)"
+  ],
+  "fixItFast": [
+    "S'ils tirent à nouveau pendant le sprawl : sprawl encore une fois, plus profondément – leur deuxième tir est plus faible",
+    "S'ils se transforment en vous : passez au front headlock et enchaînez les attaques à partir de là.",
+    "S'il s'assoit et vous fait face : rétablissez le lien du col et remettez-le au neutre."
+  ]
+}

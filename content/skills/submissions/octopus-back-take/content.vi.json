@@ -1,0 +1,61 @@
+{
+  "id": "octopus-back-take",
+  "locale": "vi",
+  "name": "Bạch tuộc trở lại",
+  "description": "Sử dụng góc hông con bạch tuộc guard để lộ lưng khi đối thủ chống lại cú quét — chuyển từ một cú quét thất bại sang back control.",
+  "shortInstruction": "Họ đăng bài chống lại cuộc càn quét? Xoay phía dưới và lùi lại - phòng thủ của họ trở thành mục tiêu của bạn.",
+  "summary": "Lượt quay lại của bạch tuộc là tỷ lệ phần trăm theo dõi cao nhất sau đợt quét guard của bạch tuộc. Khi bạn cố gắng quét bạch tuộc (kéo hông xa của chúng ngang qua cơ thể bạn), nhiều đối thủ sẽ phản ứng bằng cách đưa tay hoặc bước tới để phòng thủ. Phản ứng này tạo ra góc chính xác mà bạn cần để xoay dưới cánh tay của họ, vòng ra phía sau họ và lấy lưng. Cú đánh lùi của bạch tuộc biến một pha quét phòng thủ thành vị trí chiếm ưu thế nhất trong BJJ.",
+  "whyItWorks": [
+    "Khi họ đăng một ván bài để bảo vệ cú quét, cánh tay đó sẽ được cam kết và không thể chặn mục nhập quay của bạn.",
+    "Con bạch tuộc guard đã cho bạn một góc hoàn hảo để quay lại — bạn đã ngồi về phía chúng.",
+    "Vòng quấn hông xa mang lại cho bạn điểm xoay để quay - bạn xoay quanh trọng tâm của chúng.",
+    "Nguyên tắc Danaher: quét và lùi tạo thành một tình thế tiến thoái lưỡng nan - phòng thủ quét, thua sau; phòng thủ phía sau, mất khả năng quét."
+  ],
+  "commonMistakes": [
+    "Quay vòng trước khi họ đăng - bạn cần bài đăng của họ để dọn đường cho bạn quay lại.",
+    "Mất phần quấn hông ở xa trong khi quay - phần bọc là tay lái của bạn khi quay lại.",
+    "Quay sai hướng - bạn quay dưới cánh tay được đặt của họ chứ không phải quanh cơ thể họ.",
+    "Không cố định seatbelt đủ nhanh sau khi quay - chúng sẽ quay mặt về phía bạn."
+  ],
+  "coachingCues": [
+    "Quét mồi, đăng phản ứng, quay xuống, lấy lại.",
+    "Bài đăng của họ là bài đăng của bạn - nếu họ không đăng, bạn sẽ quét sạch.",
+    "Xoay dưới cánh tay, không xoay quanh cơ thể.",
+    "seatbelt đầu tiên, thứ hai hấp dẫn — đừng vội thực hiện trình tự."
+  ],
+  "safetySummary": [
+    "Giữ đầu của bạn được bảo vệ trong khi quay - đầu của bạn nằm dưới nách của họ chứ không phải vào khuỷu tay của họ.",
+    "Không quay nếu chúng có kẹp trên cổ áo hoặc cổ của bạn - trước tiên hãy tháo tay cầm.",
+    "Khi tiếp đất bằng lưng, hãy bảo vệ đầu gối của bạn khỏi tiếp đất một cách vụng về."
+  ],
+  "keyCorrections": [
+    "Nếu bạn không thể rút lưng ra sau thì phần quấn hông ở xa của bạn quá lỏng - hãy thắt chặt phần quấn lại trước khi quay.",
+    "Nếu họ đối mặt với bạn trong khi quay, nghĩa là bạn đã xoay quá rộng - hãy giữ vòng xoáy chặt vào cơ thể họ.",
+    "Nếu họ sprawl trong vòng quay, bạn đã quay quá sớm - hãy đợi họ cam kết hoàn toàn bài đăng."
+  ],
+  "systemLogic": {
+    "corePrinciple": "Bạch tuộc guard: nỗ lực quét → trụ của đối thủ → xoay dưới cánh tay của họ → lùi lại → seatbelt → móc → tấn công.",
+    "decisionTree": [
+      {
+        "condition": "Con bạch tuộc quay lại thực hiện công việc theo một động tác: quét bài",
+        "action": "quay → quay lại."
+      },
+      {
+        "condition": "họ không đăng bài (bảo vệ việc quét bằng cách ngồi lại)",
+        "action": "tiếp tục quét - chỉ lấy lại khi họ đăng."
+      }
+    ]
+  },
+  "moneyDetails": [
+    "Vòng quấn hông ở xa phải được duy trì trong suốt quá trình quay - đó là điểm kiểm soát của bạn.",
+    "Xoay dưới cánh tay đã đăng của họ - đầu của bạn phải vượt qua nách của họ chứ không phải xung quanh cơ thể họ.",
+    "Khi bạn quay, hãy nhả điều khiển chân và thiết lập lại bằng móc của bạn phía sau đùi họ.",
+    "Khi đã ở phía sau, hãy khóa seatbelt ngay lập tức — seatbelt trước khi móc."
+  ],
+  "nextStep": "Sau khi bạch tuộc quay trở lại, hãy tìm hiểu back control và hệ thống tấn công sau.",
+  "fixItFast": [
+    "Không thể quay dưới? Vòng quấn hông ở xa của bạn quá lỏng - hãy thắt chặt lại.",
+    "Họ đối mặt với bạn? Xoay chặt hơn vào cơ thể họ - đường đi của bạn quá rộng.",
+    "Họ sprawl? Bạn quay quá sớm - hãy đợi cam kết đăng bài đầy đủ."
+  ]
+}

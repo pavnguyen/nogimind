@@ -1,0 +1,123 @@
+{
+  "id": "frames-pummeling",
+  "domain": "positional_awareness",
+  "level": "beginner",
+  "status": "draft",
+  "name": "Frames and Pummeling",
+  "aliases": [],
+  "tags": [
+    "frames",
+    "pummeling"
+  ],
+  "keywords": [
+    "frame",
+    "pummel",
+    "inside position",
+    "elbow knee connection"
+  ],
+  "relatedSkills": [
+    {
+      "id": "side-control-survival",
+      "type": "recommended"
+    },
+    {
+      "id": "mount-survival",
+      "type": "recommended"
+    },
+    {
+      "id": "seated-guard-retention",
+      "type": "recommended"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "inside-position"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [],
+  "version": 1,
+  "updatedAt": "2026-05-21T00:24:30.756Z",
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "en",
+  "description": "Use skeletal frames to create space and pummel back to inside position instead of bench-pressing with arm strength. The foundation of all guard retention and escapes.",
+  "shortInstruction": "Keep elbows tight, use forearms as bone wedges (not muscle levers), and pummel back inside when pushed out. Frame on the hip, not the chest.",
+  "summary": "Frames use bone structure against muscle to maintain distance and survive pressure. Pummeling is the active process of reclaiming inside position after it is lost. Together they form the mechanical foundation of escapes, guard retention, and defensive grappling.",
+  "whyItWorks": [
+    "Bone-on-bone frames transfer force through your skeleton rather than your muscles, preserving energy and preventing fatigue",
+    "A well-placed frame on the hip line prevents the opponent from flattening your torso and controls their ability to generate crossface pressure",
+    "Pummeling retakes inside position by attacking the lever (elbow or knee) rather than the muscle (biceps or quadriceps)",
+    "The elbow-knee connection is the strongest defensive structure — frames that connect elbows to knees create an unbreakable shell"
+  ],
+  "commonMistakes": [
+    "Bench-pressing with straight arms — this uses muscle instead of bone structure and fatigues quickly",
+    "Framing on the chest instead of the hips — a chest frame is easily collapsed by the opponent driving forward",
+    "Letting the elbow flare away from the ribs — this opens the inside space for underhooks and crossfaces",
+    "Pummeling only with arms while neglecting the knee pummel — inside position requires both upper and lower body"
+  ],
+  "coachingCues": [
+    "Bone not muscle",
+    "Frame on the hip line",
+    "Elbow to knee, always"
+  ],
+  "safetySummary": [
+    "Do not post with fully straight arms to brace against weight — this risks hyperextension and elbow injuries",
+    "Keep your elbows slightly bent when framing to absorb impact rather than locking the joint",
+    "Protect your neck by keeping your chin tucked during frames — a crossface can drive your head into an unsafe position"
+  ],
+  "systemLogic": {
+    "corePrinciple": "Frames and pummeling operate on a continuous cycle: establish a frame to absorb pressure → opponent attacks → frame diverts force → pummel to reclaim inside position → re-establish the frame. Each cycle buys time to read the opponent's next attack.",
+    "decisionTree": [
+      {
+        "condition": "Opponent drives forward with chest pressure",
+        "action": "Establish a forearm frame across their hip line — not their chest. The hip frame diverts their weight away from your torso using bone structure."
+      },
+      {
+        "condition": "Opponent pummels their arm inside your frame",
+        "action": "Circle your elbow under theirs to re-establish inside position. Pummel from the elbow, not the hand — the elbow is the stronger lever."
+      },
+      {
+        "condition": "Your frame collapses under pressure",
+        "action": "Do not muscle it. Drop to the next defensive layer: turtle, hip escape, or technical stand-up. Your elbow is too far from your hip — bring it closer."
+      },
+      {
+        "condition": "Opponent crossfaces you",
+        "action": "Frame your top forearm on their biceps and turn your head toward the mat to protect the neck. Then hip escape to create space."
+      },
+      {
+        "condition": "You lose the underhook pummel",
+        "action": "Switch to an overhook to control their posture temporarily, then re-pummel with the other arm."
+      }
+    ],
+    "exitStrategies": [
+      "If the frame fails entirely, drop to turtle position and use the turtle escape sequence.",
+      "If you cannot pummel back inside, change the angle by moving your hips 10-30 degrees before re-attempting.",
+      "If pummeling is not working, create distance via hip escape to reset the engagement entirely."
+    ]
+  },
+  "moneyDetails": [
+    "Frames and pummeling are the mechanical foundation of every escape in BJJ — without them, no defensive system functions",
+    "Mastering frames allows smaller grapplers to survive and escape larger opponents by using bone leverage instead of strength",
+    "Pummeling speed and timing separate white belts from advanced grapplers — it is the most drilled skill in competitive BJJ"
+  ],
+  "fixItFast": [
+    "If you are getting crushed chest-to-chest: frame your forearm across their hip and hip escape away to create space",
+    "If they are crossfacing you: frame your top forearm on their biceps and turn your head toward the mat",
+    "If you lose the underhook pummel: switch to an overhook and use it to control their posture while you re-pummel with the other arm"
+  ]
+}

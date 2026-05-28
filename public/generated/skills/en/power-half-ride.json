@@ -1,0 +1,138 @@
+{
+  "id": "power-half-ride",
+  "domain": "pins_rides",
+  "level": "intermediate",
+  "status": "draft",
+  "name": "Power Half Ride",
+  "aliases": [
+    "power half",
+    "power half nelson ride"
+  ],
+  "tags": [
+    "ride",
+    "power-half",
+    "shoulder-control",
+    "tier:modern-expansion",
+    "meta:modern-common",
+    "risk:medium",
+    "family:ride",
+    "group:power-half",
+    "modern-no-gi"
+  ],
+  "keywords": [
+    "power half",
+    "far arm control",
+    "shoulder pressure",
+    "flatten opponent"
+  ],
+  "modernSystemGroup": "power_half_ride",
+  "relatedSkills": [
+    {
+      "id": "turtle-ride",
+      "type": "recommended"
+    },
+    {
+      "id": "spiral-ride",
+      "type": "recommended"
+    },
+    {
+      "id": "cross-wrist-ride",
+      "type": "recommended"
+    },
+    {
+      "id": "back-control",
+      "type": "recommended"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [
+    "pressure-passer"
+  ],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "turtle-ride",
+    "positional-hierarchy"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [
+    "If they keep sitting up: your chest pressure is too light — drive your sternum into their upper back",
+    "If they roll toward you: release the grip and take the back",
+    "If they roll away: follow them, maintain the grip, and re-establish chest pressure"
+  ],
+  "version": 1,
+  "updatedAt": "2026-06-12T00:00:00.000Z",
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "en",
+  "description": "The power half ride uses a deep cross-face grip on the far arm combined with chest-to-chest pressure to flatten the opponent from turtle or four-points and expose the back.",
+  "shortInstruction": "Reach under the near arm, grip the far tricep or shoulder. Drive the shoulder into the mat while walking your hips toward the head to flatten. Transition to back control as they collapse.",
+  "summary": "The power half ride flattens the opponent from turtle by controlling the far arm and driving shoulder pressure, creating back exposure. The key mechanics are: the deep cross-face grip (reaching under the near arm to control the far arm/shoulder), chest-to-chest pressure (your weight drives through your chest into their upper back), and hip walking (your hips advance toward their head as they collapse). The power half is one of the highest-percentage turtle-breaking systems in wrestling.",
+  "whyItWorks": [
+    "The cross-face grip on the far arm gives you control of their upper body — they cannot posture or sit through",
+    "Chest-to-chest pressure drives them forward, removing their ability to base on their hands",
+    "Walking your hips toward their head progressively flattens them — as your hips advance, their base collapses",
+    "Once flattened, the back is exposed for a clean back take with seatbelt control"
+  ],
+  "commonMistakes": [
+    "Reaching too shallow on the far arm — the grip must be deep on the tricep or shoulder, not the elbow",
+    "Staying too high on the body — your hips must advance toward their head to create the flattening effect",
+    "Losing chest pressure — if your chest separates, they can sit up and escape",
+    "Not transitioning to back control quickly enough — once flat, take the back immediately"
+  ],
+  "coachingCues": [
+    "Far arm, deep grip",
+    "Chest on chest, walk the hips",
+    "Shoulder to the mat",
+    "Flatten first, back take second"
+  ],
+  "safetySummary": [
+    "Do not apply aggressive rotational pressure to the shoulder — the cross-face grip controls, it does not attack",
+    "If the opponent resists by posturing hard, release the grip rather than fighting through their neck",
+    "Be careful of your fingers when reaching under the near arm — keep them protected"
+  ],
+  "systemLogic": {
+    "corePrinciple": "The power half ride has three phases: Grip → Flatten → Back Take",
+    "decisionTree": [
+      {
+        "condition": "In Phase 1 (Grip)",
+        "action": "position yourself beside the turtle (perpendicular). Reach under the near arm and grip the far tricep or shoulder. Your chest should be connected to their upper back"
+      },
+      {
+        "condition": "In Phase 2 (Flatten)",
+        "action": "walk your knees away from their body (toward their head) while maintaining chest pressure. As your knees advance, their shoulder is driven into the mat. Keep driving until they are flat on their hip or belly"
+      },
+      {
+        "condition": "In Phase 3 (Back Take)",
+        "action": "once flat, release the cross-face grip and replace with a seatbelt (arm over far shoulder, hand on near hip). Slide your near knee into their hip line and secure back control with hooks"
+      },
+      {
+        "condition": "the power half fails (they are too strong)",
+        "action": "switch to the claw ride or spiral ride — each system attacks the turtle from a different angle"
+      }
+    ],
+    "exitStrategies": []
+  },
+  "moneyDetails": [
+    "The power half ride is one of the most effective turtle-breaking techniques in wrestling — it is simple, reliable, and works at every level",
+    "Mastering the power half gives you a go-to turtle break that does not require exceptional strength or flexibility",
+    "The power half to back take is a high-value transition that scores 4 points (back take) in IBJJF"
+  ],
+  "fixItFast": [
+    "If they sit up: drive your chest harder into their back and walk your knees further toward their head",
+    "If they roll toward you: release the grip and take the back — do not fight the grip",
+    "If they roll away: follow and maintain the grip — the power half works on both sides"
+  ]
+}

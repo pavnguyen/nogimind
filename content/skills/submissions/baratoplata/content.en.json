@@ -1,0 +1,61 @@
+{
+  "id": "baratoplata",
+  "locale": "en",
+  "name": "Baratoplata",
+  "description": "A shoulder lock from guard using the legs and hip angle to isolate the opponent's shoulder — similar to a kimura in result, but attacking from a different angle with leg involvement.",
+  "shortInstruction": "Control the wrist, trap the arm with your leg, rotate your hips — the baratoplata is a leg-assisted kimura from a different angle.",
+  "summary": "The baratoplata is a powerful shoulder lock that combines elements of the omoplata and kimura. Unlike the kimura (which uses both hands on the arm), the baratoplata uses one of your legs to pin their arm against your body while you rotate your hips to apply the shoulder lock. This creates unique angles that the kimura cannot reach and can catch opponents who are focused on defending standard kimura entries.",
+  "whyItWorks": [
+    "Using your leg to trap their arm frees up one of your hands for balance or grip fighting.",
+    "The baratoplata attacks the shoulder from an angle that the standard kimura does not cover.",
+    "It can be entered from positions where the kimura is difficult (guard, half guard).",
+    "Danaher principle: every joint should be attacked from multiple angles — the baratoplata covers the angle the kimura misses."
+  ],
+  "commonMistakes": [
+    "Not controlling the wrist before engaging the leg trap — they will pull their arm free.",
+    "Letting the trapped arm slide out from under your leg — the leg must pin the arm to your body.",
+    "Relying on arm strength to finish instead of hip rotation — the finish comes from rotating your hips.",
+    "Forgetting to control their posture — if they posture, the baratoplata loses its angle."
+  ],
+  "coachingCues": [
+    "Wrist first, leg second, hip third.",
+    "Trap the arm, rotate the hips, finish the shoulder.",
+    "If they defend the kimura, attack the baratoplata.",
+    "Legs do the work — arms just guide."
+  ],
+  "safetySummary": [
+    "The baratoplata applies rotational pressure to the shoulder — apply slowly and respect the tap.",
+    "Do not crank the shoulder if the opponent has pre-existing shoulder issues.",
+    "Maintain control of their posture throughout to prevent them from falling on your leg."
+  ],
+  "keyCorrections": [
+    "If they free the arm, your wrist control was weak — re-grip with a stronger two-on-one hold.",
+    "If you can't finish, your hip rotation is insufficient — turn your hips further away from them.",
+    "If they stack you, release the baratoplata and reset — don't fight the stack."
+  ],
+  "systemLogic": {
+    "corePrinciple": "Kimura grip attempt: opponent defends the kimura → switch to baratoplata: bring your leg over their arm → rotate hips → finish.",
+    "decisionTree": [
+      {
+        "condition": "The baratoplata can also be entered directly from guard: control their wrist",
+        "action": "trap the arm with your leg → rotate."
+      },
+      {
+        "condition": "they defend the baratoplata by pulling their arm",
+        "action": "switch back to the kimura."
+      }
+    ]
+  },
+  "moneyDetails": [
+    "Grip their wrist with a strong four-finger grip (thumb on their palm side) to control rotation.",
+    "Bring your top leg over their trapped arm and pin it against your chest — this is your leg trap.",
+    "Rotate your hips away from them as you pull their wrist toward you — the rotation creates the shoulder lock.",
+    "Keep your free leg on their hip to control their distance — this prevents them from posturing."
+  ],
+  "nextStep": "After the baratoplata, learn the kimura system and omoplata to build a complete shoulder attack system.",
+  "fixItFast": [
+    "Arm keeps slipping? Pin it harder with your leg against your chest.",
+    "Can't rotate? Your hips are stuck — lift your hips and turn your body away from them.",
+    "They posture up? Push on their hip with your free leg to break them back down."
+  ]
+}

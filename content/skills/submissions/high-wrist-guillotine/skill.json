@@ -1,0 +1,56 @@
+{
+  "id": "high-wrist-guillotine",
+  "domain": "submission_systems",
+  "level": "advanced",
+  "name": "High-Wrist Guillotine",
+  "aliases": [],
+  "tags": [
+    "guillotine",
+    "front-headlock",
+    "neck-safety",
+    "tier:modern-expansion",
+    "meta:modern-common",
+    "risk:high",
+    "family:front-headlock",
+    "group:front-headlock",
+    "modern-no-gi"
+  ],
+  "keywords": [
+    "guillotine",
+    "chin strap",
+    "neck safety"
+  ],
+  "modernSystemGroup": "front_headlock",
+  "relatedSkills": [
+    {
+      "id": "guillotine-system",
+      "type": "recommended"
+    },
+    {
+      "id": "snapdown-front-headlock",
+      "type": "recommended"
+    },
+    {
+      "id": "front-headlock-defense",
+      "type": "recommended"
+    }
+  ],
+  "prerequisiteSkillIds": [
+    "guillotine-system",
+    "front-headlock-defense"
+  ],
+  "relatedPositions": [],
+  "relatedConcepts": [],
+  "archetypeIds": [],
+  "trainingMethodIds": [],
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "updatedAt": "2026-05-21T00:24:30.780Z"
+}

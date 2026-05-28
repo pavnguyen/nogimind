@@ -1,0 +1,67 @@
+{
+  "id": "crab-ride",
+  "locale": "vi",
+  "name": "Đua Cua",
+  "description": "Cưỡi cua kiểm soát hông từ bên dưới hoặc phía sau bằng các móc phía sau đầu gối để tạo độ hở cho lưng. Cưỡi cua là một mục kiểm soát động bằng lưng được sử dụng khi đối thủ đang đứng, quỳ hoặc ở trên lưng rùa.",
+  "shortInstruction": "Từ phía sau hoặc bên dưới, móc cả hai chân ra sau đầu gối của đối phương, ép gót chân về phía mông của họ và kéo hông của họ về phía ngực của bạn. Đưa tay lên lưng họ để lộ phần lưng.",
+  "summary": "Đu cua dùng móc sau đầu gối đối phương để khống chế hông từ xa, sau đó bước tay qua tay lên lưng để thu gọn tư thế, lộ lưng. Nó được sử dụng phổ biến nhất từ ​​vị trí xe tải, từ con rùa hoặc từ back control khi đối thủ đứng dậy. Hệ thống này dựa trên nguyên tắc kiểm soát hông từ phía sau bằng móc đầu gối giúp bạn có đòn bẩy để dồn đối thủ về phía trước.",
+  "whyItWorks": [
+    "Móc đầu gối (bàn chân phía sau đầu gối của họ) giúp bạn kiểm soát phần thân dưới của họ từ một khoảng cách an toàn - họ không thể đá hoặc đứng ra",
+    "Kéo hông của họ về phía ngực của bạn trong khi siết chặt móc đầu gối sẽ gập cơ thể họ về phía trước, khiến họ sụp xuống tư thế",
+    "Đưa tay lên phía sau (tay qua tay) dần dần phá vỡ tư thế của họ cho đến khi họ gập người lại",
+    "Việc cưỡi cua hoạt động từ tư thế đứng, quỳ hoặc rùa - đó là một hệ thống quay trở lại phổ biến"
+  ],
+  "commonMistakes": [
+    "Để hông tách khỏi ngực - cưỡi cua yêu cầu kết nối hông với ngực để kiểm soát tư thế",
+    "Mất móc đầu gối - một khi mất móc, đối thủ có thể đứng dậy hoặc biến thành bạn",
+    "Đưa tay ra phía sau quá nhanh - mỗi vị trí đặt tay phải chắc chắn trước khi tiến lên",
+    "Không ép gót chân về phía mông – móc lỏng lẻo có thể bị đập ra ngoài"
+  ],
+  "coachingCues": [
+    "Gót chân để mông, bóp",
+    "Hông chạm vào ngực, kéo",
+    "Đưa tay đi từng bước một",
+    "Gấp chúng về phía trước để lộ mặt sau"
+  ],
+  "safetySummary": [
+    "Móc đầu gối nên được đặt phía sau đầu gối, không phải ở phía sau khớp gối - áp lực trực tiếp lên khớp gối có thể gây ra tình trạng hạ huyết áp",
+    "Không kéo mạnh về phía sau bằng móc đầu gối - điều này có thể làm căng gân kheo hoặc dây chằng đầu gối của đối phương",
+    "Khi đưa tay lên phía sau, cẩn thận không tạo áp lực lên cột sống"
+  ],
+  "keyCorrections": [
+    "Nếu đối phương đứng dậy và làm gãy móc: lập tức móc lại bằng cách bước vào trong thế đứng của họ và đặt móc câu trở lại",
+    "Nếu chúng quá khỏe để gập lại: xen kẽ giữa kéo hông và dùng tay đẩy đầu chúng",
+    "Nếu mất một móc: giữ lại móc còn lại và gắn lại móc thứ hai trước khi tiến lên"
+  ],
+  "systemLogic": {
+    "corePrinciple": "Quá trình cưỡi cua có ba giai đoạn: Thiết lập móc câu: Tư thế thu gọn → Trở lại an toàn",
+    "decisionTree": [
+      {
+        "condition": "Trong Giai đoạn 1 (Thiết lập móc nối)",
+        "action": "từ phía sau đối phương (đứng, quỳ hoặc rùa), đặt cả hai chân vào trong chân họ và móc ra sau cả hai đầu gối. Bóp gót chân của bạn về phía mông của họ"
+      },
+      {
+        "condition": "Ở Giai đoạn 2 (Tư thế thu gọn)",
+        "action": "kéo hông của họ về phía ngực của bạn bằng móc đầu gối trong khi đưa tay bạn đưa tay lên cột sống của họ. Mỗi vị trí đặt tay nên tiến về phía sau cổ của họ. Khi tay bạn leo lên, tư thế của chúng sẽ gập về phía trước"
+      },
+      {
+        "condition": "Trong Giai đoạn 3 (Quay lại an toàn)",
+        "action": "sau khi chúng được gập về phía trước, hãy nhả một móc và thay thế bằng thân kẹp triangle hoặc seatbelt truyền thống. Trượt đầu gối của bạn vào đường hông của họ và cố định đầy đủ back control"
+      },
+      {
+        "condition": "họ chống cự bằng cách ngả người ra sau",
+        "action": "thả một móc câu ra, đặt chân lên cơ mông của chúng và đẩy chúng về phía trước. Điều này tạo ra nếp gấp về phía trước mà bạn cần"
+      }
+    ]
+  },
+  "moneyDetails": [
+    "Cưỡi cua là cách hiệu quả nhất để lùi xe tải hoặc rùa - đó là một bước chuyển đổi có giá trị cao trong cả đấu vật và BJJ",
+    "Việc thành thạo việc cưỡi cua mang lại cho bạn khả năng quay trở lại đáng tin cậy từ các vị trí mà đường lùi truyền thống không thành công",
+    "Đòn bắt cua đặc biệt hiệu quả trước những đối thủ to lớn hơn vì nó sử dụng đòn bẩy (móc đầu gối) thay vì sức mạnh phần thân trên"
+  ],
+  "fixItFast": [
+    "Nếu chúng đứng dậy bỏ chạy: thả lưỡi câu, đuổi theo và đứng câu lại.",
+    "Nếu họ biến thành bạn: thả móc và chuyển sang front headlock hoặc khóa cơ thể",
+    "Nếu chúng ngồi sát vào bạn: hãy giữ móc, siết chặt và kéo chúng nằm ngửa"
+  ]
+}

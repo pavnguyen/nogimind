@@ -1,0 +1,61 @@
+{
+  "id": "arm-triangle-mount",
+  "locale": "vi",
+  "name": "Nhóm triangle từ mount",
+  "description": "Từ mount, tách cánh tay của đối phương ra, cắt góc và kết thúc cánh tay triangle bằng áp lực lên vai thay vì siết chặt cánh tay.",
+  "shortInstruction": "Tách cánh tay ra, bước qua đầu, thả tạ xuống — cánh tay triangle khỏi mount là áp lực của vai chứ không phải sức mạnh của bắp tay.",
+  "summary": "Nhóm triangle từ mount là một trong những tỷ lệ phần trăm cao nhất submissions từ vị trí ưu thế mount. Không giống như cánh tay thông thường triangle từ side control, phiên bản mount cho phép bạn sử dụng toàn bộ trọng lượng cơ thể của mình. Điều quan trọng là tách cánh tay của họ ra khỏi cơ thể (thường bằng cách ấn cẳng tay của bạn vào bắp tay của họ), bước qua đầu họ và thả trọng lượng ngực của bạn lên vai bị mắc kẹt của họ.",
+  "whyItWorks": [
+    "mount mang lại cho bạn lợi thế về trọng lực — toàn bộ trọng lượng cơ thể của bạn đè lên cổ và cánh tay của họ.",
+    "Cánh tay triangle giữ cả động mạch cảnh và vai của họ — hai điểm áp lực từ một chuyển động.",
+    "Một khi góc bị cắt và vai của bạn ở trên cổ họ, họ không thể bắc cầu hoặc lăn bạn ra.",
+    "Nguyên tắc Danaher: mount nhánh triangle có tỷ lệ hoàn thành mount cao nhất vì chúng kết hợp vị trí và sự phục tùng."
+  ],
+  "commonMistakes": [
+    "Cố gắng hoàn thành mà không tách cánh tay ra khỏi cơ thể trước - cánh tay phải được cách ly.",
+    "Bước qua đầu quá sớm - chỉ bước qua sau khi cánh tay đã bị kẹp vào cổ họ.",
+    "Siết chặt bằng cánh tay thay vì điều khiển vai - siết chặt cánh tay sẽ bị bỏng; áp lực vai kết thúc.",
+    "Mất vị trí mount để đuổi theo đích - duy trì áp lực nặng ở ngực trong suốt trận đấu."
+  ],
+  "coachingCues": [
+    "Tách cánh tay ra rồi bước qua - không bao giờ bước trước khi tách ra.",
+    "Vai sát cổ chứ không phải bắp tay sát cổ.",
+    "Giảm trọng lượng của bạn như một động tác nâng tạ - nặng và có kiểm soát.",
+    "Nếu chúng lăn, hãy làm theo vòng quay của chúng và gắn lại."
+  ],
+  "safetySummary": [
+    "Tạo áp lực lên vai dần dần — cánh tay triangle đồng thời nén cổ và vai.",
+    "Không quay đầu đối phương để buộc phải tách cánh tay ra.",
+    "Chạm sớm vào lực nén cổ - phân biệt giữa áp lực cuộn cảm và tay quay cổ."
+  ],
+  "keyCorrections": [
+    "Nếu bạn không thể tách cánh tay ra, hãy chuyển sang điều khiển crossface hoặc cổ tay để phá vỡ khung của chúng.",
+    "Nếu chúng cản trở bạn, phần đế của bạn quá hẹp - hãy mở rộng đầu gối và hạ thấp hông.",
+    "Nếu chúng lăn để trốn thoát, hãy đi theo vòng quay của chúng và lùi lại."
+  ],
+  "systemLogic": {
+    "corePrinciple": "Tư thế mount: tách cánh tay của họ bằng điều khiển cẳng tay hoặc cổ tay → hướng cánh tay lên cổ → bước qua đầu → thả tạ xuống ngực → kết thúc.",
+    "decisionTree": [
+      {
+        "condition": "họ bảo vệ cánh tay triangle bằng cách giấu cánh tay",
+        "action": "chuyển sang các cuộc tấn công mounted armbar hoặc s-mount."
+      },
+      {
+        "condition": "Ứng dụng chung",
+        "action": "Cánh tay triangle từ mount xích thẳng ra phía sau nếu chúng lăn để trốn thoát."
+      }
+    ]
+  },
+  "moneyDetails": [
+    "Tách cánh tay của họ bằng cách đưa cẳng tay của bạn vào cơ tam đầu của họ, đẩy nó về phía đầu - không ra xa cơ thể họ.",
+    "Khi cánh tay áp vào cổ họ, hãy bước chân bên cạnh của bạn qua đầu họ - thao tác này sẽ khóa vị trí.",
+    "Thả trọng lượng ngực của bạn lên vai của chính bạn - áp lực truyền qua vai bạn đến cổ của họ.",
+    "Nếu chúng cong lại, hãy hạ thấp hông và dang rộng trọng lượng của bạn - bạn muốn 'nặng' chứ không phải cao."
+  ],
+  "nextStep": "Sau nhánh triangle từ mount, hãy tìm hiểu mounted triangle và s-mount armbar.",
+  "fixItFast": [
+    "Cánh tay cứ trượt? Ghim nó vào ngực của bạn trước khi bước qua.",
+    "Họ bắc cầu cho bạn à? Mở rộng đầu gối của bạn và thả hông của bạn gần hơn với tấm thảm.",
+    "Không thể hoàn thành? Góc của bạn quá vuông - hãy cắt một góc sắc nét hơn về phía đầu của họ."
+  ]
+}

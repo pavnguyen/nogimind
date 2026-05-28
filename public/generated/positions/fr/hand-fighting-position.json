@@ -1,0 +1,56 @@
+{
+  "id": "hand-fighting-position",
+  "locale": "fr",
+  "title": "Hand fighting",
+  "category": "standing",
+  "status": "neutral",
+  "description": "Une bataille de mains et de position de tête pour entrer en underhook, collar tie, snapdown, single leg ou guard pull.",
+  "topPlayerGoals": [
+    "Le joueur du dessus veut contrôler Hand fighting avec la position de tête, la position intérieure et une pression orientée.",
+    "Gagner le contrôle des poignets, les inside ties et la position de tête.",
+    "Garder une base stable pour éviter d’être déséquilibré ou contré."
+  ],
+  "bottomPlayerGoals": [
+    "Le joueur du dessous veut survivre en Hand fighting avec des cadres, du pummeling ou le bon angle.",
+    "Empêcher l’adversaire de connecter ses prises ou de tirer votre posture vers le bas.",
+    "Reconnaître les signaux de danger tôt au lieu d’attendre que la position se stabilise."
+  ],
+  "controlPoints": [
+    "Point de contrôle principal : Poignets, coudes à l’intérieur et ligne du front..",
+    "La tête, les mains, les hanches et les genoux doivent suivre la même direction de force.",
+    "La connexion coude-genou ou la ligne hanches-épaules détermine si la position reste vivante ou verrouillée."
+  ],
+  "escapePriorities": [
+    "Priorité de sortie : Retirer la prise avant que la tête ne descende sous la ligne des épaules..",
+    "Protéger le cou, le dos, la ligne du genou ou la ligne du bras avant de contrer.",
+    "Si la position intérieure est perdue, rétablir d’abord une couche défensive."
+  ],
+  "advancementOptions": [
+    {
+      "action": "Faire un snapdown vers le front headlock",
+      "nextPositionId": "front-headlock-top",
+      "relatedSkillIds": [
+        "hand-fighting",
+        "snapdown-front-headlock",
+        "front-headlock-defense"
+      ],
+      "why": "C’est la branche naturelle lorsque vous gagnez le point de contrôle principal et que l’adversaire est forcé de défendre."
+    }
+  ],
+  "dangerSignals": [
+    "Le menton ou le cou sort de la ligne sûre.",
+    "Le coude se sépare des côtes ou du genou.",
+    "La ligne des hanches est verrouillée pendant que la ligne des épaules est encore tirée.",
+    "Vous devez poser une main loin pour éviter de tomber."
+  ],
+  "relatedSkillIds": [
+    "hand-fighting",
+    "snapdown-front-headlock",
+    "front-headlock-defense"
+  ],
+  "relatedConceptIds": [
+    "inside-position",
+    "pummeling",
+    "head-position"
+  ]
+}

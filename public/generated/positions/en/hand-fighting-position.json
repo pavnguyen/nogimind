@@ -1,0 +1,56 @@
+{
+  "id": "hand-fighting-position",
+  "locale": "en",
+  "title": "Hand Fighting",
+  "category": "standing",
+  "status": "neutral",
+  "description": "A hand-and-head-position battle to enter an underhook, collar tie, snapdown, single leg, or guard pull.",
+  "topPlayerGoals": [
+    "The top player wants to control Hand Fighting through head position, inside position, and directed pressure.",
+    "Win wrist control, inside ties, and head position.",
+    "Keep a stable base so you are not off-balanced or countered."
+  ],
+  "bottomPlayerGoals": [
+    "The bottom player wants to survive Hand Fighting with frames, pummeling, or the right angle.",
+    "Prevent the opponent from connecting grips or pulling your posture down.",
+    "Recognize danger signals early instead of waiting for the position to settle."
+  ],
+  "controlPoints": [
+    "Main control point: Wrists, inside elbows, and forehead line..",
+    "Head, hands, hips, and knees should share the same force direction.",
+    "The elbow-knee connection or hip-shoulder line determines whether the position is still alive or already locked."
+  ],
+  "escapePriorities": [
+    "Escape priority: Peel the grip before your head drops below the shoulder line..",
+    "Protect the neck, back, knee line, or arm line before countering.",
+    "If inside position is lost, reset one defensive layer first."
+  ],
+  "advancementOptions": [
+    {
+      "action": "Snap down to front headlock",
+      "nextPositionId": "front-headlock-top",
+      "relatedSkillIds": [
+        "hand-fighting",
+        "snapdown-front-headlock",
+        "front-headlock-defense"
+      ],
+      "why": "This is the natural branch when you win the main control point and the opponent is forced to defend."
+    }
+  ],
+  "dangerSignals": [
+    "The chin or neck is pulled out of a safe line.",
+    "The elbow separates from the ribs or knee.",
+    "The hip line is locked while the shoulder line is still being pulled.",
+    "You need a long hand post to avoid falling."
+  ],
+  "relatedSkillIds": [
+    "hand-fighting",
+    "snapdown-front-headlock",
+    "front-headlock-defense"
+  ],
+  "relatedConceptIds": [
+    "inside-position",
+    "pummeling",
+    "head-position"
+  ]
+}

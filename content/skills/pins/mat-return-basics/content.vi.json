@@ -1,0 +1,68 @@
+{
+  "id": "mat-return-basics",
+  "locale": "vi",
+  "name": "mat return Khái niệm cơ bản",
+  "description": "Đưa đối thủ trở lại thảm một cách an toàn khi họ đứng bằng một chân, khóa thân hoặc rùa. mat return là một kỹ năng đấu vật quan trọng giúp ngăn chặn đối thủ trốn thoát bằng cách đứng dậy.",
+  "shortInstruction": "Giữ chặt chân (đơn hoặc khóa thân), đẩy vai của bạn vào hông của họ, nâng chân bị mắc kẹt lên và đẩy họ lên tấm thảm ở hông hoặc lưng của họ. Bảo vệ vị trí đầu của bạn trong suốt.",
+  "summary": "mat return là quá trình đưa đối thủ đang đứng trở lại thảm sau khi bạn đã giữ chặt một chân, hai chân hoặc khóa cơ thể. Nó đòi hỏi ba yếu tố: một tay nắm an toàn để ngăn chúng trốn thoát, nâng cao chân bị mắc kẹt để tháo đế của chúng và chuyển động lái khiến chúng nằm trên hông hoặc lưng. mat return là thiết bị cần thiết để ngăn chặn việc rùa đứng lên và half guard thoát thân bằng tư thế đứng.",
+  "whyItWorks": [
+    "Việc nâng chân bị mắc kẹt lên sẽ loại bỏ một điểm trên đế của chúng, khiến chúng không thể duy trì tư thế đứng",
+    "Đẩy vai của bạn vào hông họ sẽ tạo ra một đòn bẩy đẩy trọng tâm của họ về phía sau",
+    "Đặt họ trên hông (không phải lưng) giúp bạn kiểm soát vị trí ngay lập tức cho giai đoạn tiếp theo (ghim hoặc chuyền)",
+    "mat return được thực hiện tốt sẽ đưa bạn đến vị trí thống trị hàng đầu chứ không chỉ là trung lập"
+  ],
+  "commonMistakes": [
+    "Buông chân trong quá trình quay trở lại - phải duy trì độ bám cho đến khi chúng nằm hoàn toàn trên thảm",
+    "Lái xe sang một bên thay vì lùi lại — việc quay đầu sang một bên có thể đưa bạn vào guard của họ",
+    "Mất vị trí đầu - đầu của bạn phải ở bên trong (ngực đến hông) chứ không phải bên ngoài",
+    "Đánh rơi căn cứ của chính mình trong quá trình quay trở lại - bạn phải giữ thăng bằng để hạ cánh trên đỉnh"
+  ],
+  "coachingCues": [
+    "Nâng chân, tháo chân đế",
+    "Vai sát hông, lái xe qua",
+    "Tiếp đất ở hông chứ không phải ở lưng",
+    "Luôn kết nối thông qua sự trở lại"
+  ],
+  "safetySummary": [
+    "Không nâng đối thủ lên quá cao trước khi tung cú đánh - những cú trả bóng có kiểm soát sẽ an toàn hơn những cú đánh có biên độ cao",
+    "Lưu ý các quy tắc cạnh tranh - một số tổ chức hạn chế việc đánh đập (IBJJF, ADCC có các quy tắc cụ thể)",
+    "Nếu đối thủ nặng hơn đáng kể, hãy điều chỉnh cú đánh trả của bạn thành đòn quét có tác động thấp hơn thay vì nâng hoàn toàn",
+    "Bảo vệ cổ của bạn - giữ đầu của bạn ở bên trong cơ thể họ khi quay về"
+  ],
+  "keyCorrections": [
+    "Nếu họ tiếp tục nhảy bằng một chân: bạn chưa nâng đủ cao - hãy nhấc chân bị mắc kẹt lên cao hơn",
+    "Nếu bạn hạ cánh tại guard của họ: hướng lái xe của bạn sai - hãy lái xe lùi chứ không phải đi ngang",
+    "Nếu chúng thoát khỏi chân: tay cầm của bạn quá nông - hãy bắn lại và cố định chân cao hơn (ở đầu gối hoặc đùi)"
+  ],
+  "systemLogic": {
+    "corePrinciple": "mat return có ba giai đoạn: Nắm chặt → Nâng cao → Lái xe đến thảm",
+    "decisionTree": [
+      {
+        "condition": "Trong Giai đoạn 1 (Secure Grip)",
+        "action": "nếu một chân, hãy nắm lấy đầu gối và đưa chân vào giữa hai chân. Nếu khóa cơ thể, hãy khóa tay bạn ra sau lưng ở ngang hông. Nếu rùa, hãy cố định phần thắt lưng"
+      },
+      {
+        "condition": "Trong Giai đoạn 2 (Tăng cao)",
+        "action": "nâng chân bị kẹt bằng cách duỗi hông và đứng thẳng. Chân càng cao thì chân đế càng ít. Sự thăng bằng của họ phải hoàn toàn đứng trên một chân"
+      },
+      {
+        "condition": "Trong Giai đoạn 3 (Lái xe tới Mat)",
+        "action": "đẩy vai của bạn vào hông họ và lùi một bước lớn bằng chân ngoài của bạn. Điều này kéo phần đế của chúng ra và đặt chúng trên hông. Duy trì độ bám khi họ hạ cánh"
+      },
+      {
+        "condition": "Vị trí hạ cánh: nhắm tới side control hoặc north-south. Nếu họ đáp xuống bằng lưng, bạn đang ở trong guard của họ",
+        "action": "điều này không lý tưởng nhưng có thể chấp nhận được. Nếu họ tiếp đất ngang hông, hãy lái xe ngay vào side control"
+      }
+    ]
+  },
+  "moneyDetails": [
+    "mat return rất cần thiết để ngăn chặn việc đứng lên thoát khỏi half guard, rùa và một chân — nếu không có nó, đối thủ có thể đứng và đặt lại theo ý muốn",
+    "Việc thành thạo mat return mang lại cho bạn sự tự tin kiểm soát cao nhất — bạn biết rằng bạn có thể giữ chúng trên thảm",
+    "mat return giỏi ghi được 2 điểm gỡ xuống trong IBJJF"
+  ],
+  "fixItFast": [
+    "Nếu họ nhảy đi bằng một chân: chuyển sang thao tác bắt mắt cá chân bằng cách nắm lấy mắt cá chân đang đứng",
+    "Nếu họ sprawl đối với bạn: vòng ra phía sau và lùi lại trước khi họ có thể hoàn thành sprawl",
+    "Nếu bạn không thể nhấc chân lên: hãy chuyển sang động tác nhấc đơn hoặc mắt cá chân thấp thay vì buộc phải nâng"
+  ]
+}

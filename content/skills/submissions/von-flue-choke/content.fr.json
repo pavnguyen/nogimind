@@ -1,0 +1,61 @@
+{
+  "id": "von-flue-choke",
+  "locale": "fr",
+  "name": "Choke Von Flue",
+  "description": "Lorsque vous êtes pris dans un guillotine depuis la position supérieure, utilisez la pression de l'épaule sur le cou de l'adversaire combinée à un contrôle poitrine contre poitrine pour inverser l'étranglement et le soumettre depuis la position supérieure.",
+  "shortInstruction": "Ils ont un guillotine ? Enfoncez votre épaule dans son cou, poitrine contre poitrine, et laissez le poids de votre corps faire le travail.",
+  "summary": "Le starter Von Flue (du nom de Jason Von Flue) est une contre-soumission au starter guillotine depuis la position supérieure. Lorsque votre adversaire vous attrape dans un guillotine et que vous ne pouvez pas vous échapper, vous pouvez inverser la soumission en enfonçant votre épaule dans son cou tout en maintenant une pression poitrine contre poitrine. Le mécanisme est un étranglement par pression d'épaule : votre épaule comprime un côté de son cou tandis que le chiffre quatre de son propre bras guillotine comprime l'autre côté. Leur propre poignée guillotine devient une partie de votre starter.",
+  "whyItWorks": [
+    "Utilise la prise guillotine de l'adversaire pour terminer l'étranglement : son bras se ferme d'un côté, votre épaule ferme l'autre.",
+    "La gravité et le poids corporel remplacent la force des bras – vous n’avez pas besoin de serrer, restez simplement lourd.",
+    "C'est un contre parfait au guillotine des premières positions (side control, mount, half guard en haut).",
+    "Principe de Danaher : le Von Flue est l'exemple ultime de « utiliser l'attaque de l'adversaire contre lui »."
+  ],
+  "commonMistakes": [
+    "Paniquer et essayer de vous arracher la tête – cela ouvre votre cou à plus de pression.",
+    "Ne placez pas votre poitrine contre la leur – une pression de poitrine à poitrine est essentielle.",
+    "Laissez-les prendre le dessus en roulant – conservez la première position tout au long.",
+    "Appliquer soudainement trop de pression sur l'épaule – appliquez-la progressivement à mesure que sa main guillotine se fatigue."
+  ],
+  "coachingCues": [
+    "Épaule dans le cou, poitrine sur la poitrine, restez lourd.",
+    "Leur emprise devient votre étranglement – ​​laissez-la travailler pour vous.",
+    "Ne combattez pas le guillotine – utilisez-le contre eux.",
+    "Respirez, restez calme, appliquez une pression lente."
+  ],
+  "safetySummary": [
+    "Le starter Von Flue comprime le cou – appliquez progressivement et relâchez au robinet.",
+    "N'enfoncez pas votre épaule dans son cou de manière explosive.",
+    "Si vous sentez que votre propre cou est en danger, appuyez dessus – le Von Flue n'est pas toujours la solution."
+  ],
+  "keyCorrections": [
+    "Si vous ne sentez pas l'étranglement, votre épaule n'est pas assez enfoncée dans son cou – ajustez la position de votre épaule.",
+    "S'ils vous relient, votre base est trop étroite – élargissez vos genoux et abaissez vos hanches.",
+    "S'ils vous lancent pendant le Von Flue, ils se sont échappés – retournez à side control ou guard."
+  ],
+  "systemLogic": {
+    "corePrinciple": "guillotine attrapé par le haut → ne paniquez pas → placez la poitrine contre sa poitrine → enfoncez votre épaule dans son cou → maintenez la pression supérieure → attendez l'étranglement.",
+    "decisionTree": [
+      {
+        "condition": "Le Von Flue fonctionne mieux contre les guillotine armés",
+        "action": "le bras d'entrée crée le mécanisme de fermeture."
+      },
+      {
+        "condition": "Application générale",
+        "action": "Si le Von Flue tombe en panne, passez à la rupture conventionnelle de leur prise guillotine."
+      }
+    ]
+  },
+  "moneyDetails": [
+    "Placez votre épaule directement du même côté de son cou que son bras qui s'étouffe – cela crée la pression de fermeture.",
+    "Placez votre poitrine contre la leur pour qu'ils ne puissent pas vous ponter ou vous faire rouler.",
+    "N'essayez pas de sortir la tête - pousser DANS le guillotine soulage en fait la pression sur le cou.",
+    "L'étranglement vient de la gravité : restez simplement lourd et respirez – leur bras se fatiguera et l'étranglement s'aggravera."
+  ],
+  "nextStep": "Après le starter Von Flue, apprenez à échapper au guillotine de la position supérieure et au système guillotine.",
+  "fixItFast": [
+    "Vous ne travaillez pas ? Votre épaule est peut-être trop basse – enfoncez-la plus haut dans son cou.",
+    "Ils font le pont ? Élargissez votre base et restez lourd.",
+    "Vous avez mal au cou ? Appuyez et réinitialisez – le Von Flue est un compteur, pas une évasion garantie."
+  ]
+}

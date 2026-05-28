@@ -1,0 +1,63 @@
+{
+  "id": "guillotine-defense-escape",
+  "locale": "en",
+  "name": "Guillotine Defense and Escape",
+  "description": "Defend and escape a guillotine choke by protecting the neck, clearing the choking arm, and recovering to a neutral or dominant position.",
+  "shortInstruction": "Tuck your chin, hand fight the choking arm, stack your weight onto them, and peel the arm across your body to escape.",
+  "summary": "Guillotine defense uses chin tuck, hand fighting, and body position to relieve neck pressure, then a systematic sequence to clear the choking arm and recover guard or top position. The system prioritizes posture and arm control over explosive yanking.",
+  "whyItWorks": [
+    "Tucking the chin closes the space between your neck and shoulder, making it harder for the choking arm to sink deep",
+    "Controlling the choking arm at the elbow (not the hand) gives you mechanical advantage — the elbow is the fulcrum of the choke",
+    "Stacking your weight forward onto the opponent loads their upper back and forces them to carry your body weight, making them drop the choke attempt",
+    "Peeling the arm across your body uses your entire torso rotation, not just arm strength, to break the grip"
+  ],
+  "commonMistakes": [
+    "Looking up (extending the neck) as you feel the choke — this opens the throat and deepens the guillotine",
+    "Grabbing the hand instead of the arm — a hand grip can be peeled but the arm control prevents them from re-sinking",
+    "Trying to bench press or extend the arms away from the body — this raises your posture and deepens the choke",
+    "Staying flat on your stomach when the guillotine is locked — this gives them all the leverage and no escape route"
+  ],
+  "coachingCues": [
+    "Chin to chest, always",
+    "Control the elbow, not the hand",
+    "Stack and peel, don't yank"
+  ],
+  "safetySummary": [
+    "The guillotine can cause unconsciousness in seconds if the carotid arteries are compressed — tap early if the choke is deep",
+    "Some guillotine variations target the trachea rather than the carotid — this is more dangerous and should be tapped to immediately",
+    "Do not fight a deep guillotine — it is better to tap, reset, and try the defense earlier in the next engagement",
+    "Neck cranks disguised as guillotines (pressure on the chin instead of the throat) require immediate tapping to protect the cervical spine"
+  ],
+  "keyCorrections": [],
+  "systemLogic": {
+    "corePrinciple": "The guillotine defense follows a three-phase sequence: prevention → defense → escape",
+    "decisionTree": [
+      {
+        "condition": "In Phase 1 (Prevention)",
+        "action": "as you enter the takedown or front headlock, keep your chin tucked and your head slightly to one side. Do not lead with your forehead straight into their chest"
+      },
+      {
+        "condition": "In Phase 2 (Defense)",
+        "action": "if they lock the guillotine, immediately freeze and chin tuck. Both hands go to their choking arm at the elbow. Do not bridge or spaz — posture first"
+      },
+      {
+        "condition": "In Phase 3 (Escape)",
+        "action": "stack your weight forward by walking your knees toward their head. As their back touches the mat, peel the choking arm across your body using your forearm rotation"
+      },
+      {
+        "condition": "General application",
+        "action": "Escape branch: if they roll to guard during the escape, keep their sleeve controlled and post up into their guard. If they stand up, release the grip and circle to neutral"
+      }
+    ]
+  },
+  "moneyDetails": [
+    "The guillotine is the most common submission from failed takedowns and front headlocks — a reliable defense is essential for every grappler",
+    "Mastering the guillotine defense allows you to shoot takedowns without fear of being caught in the most common counter",
+    "A smooth guillotine escape often leads directly to a dominant top position (passing their open guard as they post up)"
+  ],
+  "fixItFast": [
+    "If they have a high-wrist guillotine (deep chin strap): do not try to peel the grip — instead, post your hand on their hip, drive your head to the outside, and circle out",
+    "If they drop to guard with the guillotine: keep your posture tall, hands on their hip (not their choking arm), and drive your trapped shoulder into their thigh",
+    "If they switch to an anaconda or D'Arce: frame on their head with your free arm and drive your shoulder into their chest before they can lock the figure-four"
+  ]
+}
