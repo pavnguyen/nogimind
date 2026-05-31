@@ -59,7 +59,6 @@ export const hubNavItems: HubNavItem[] = [
     to: '/build',
     items: [
       { key: 'nav.archetypes', to: '/archetypes' },
-      { key: 'nav.mastery', to: '/mastery' },
     ],
   },
   {

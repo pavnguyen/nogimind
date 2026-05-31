@@ -99,7 +99,7 @@ export const getSkills = async (): Promise<SkillNode[]> => {
       },
 
       // Optional fields — derived from tag prefixes where available
-      libraryTier: extractTag(entry.tags, 'tier:') as LibraryTier | undefined,
+      libraryTier: extractTag(entry.tags, 'tier:')?.replace(/-/g, '_') as LibraryTier | undefined,
       riskLevel: extractTag(entry.tags, 'risk:') as SkillNode['riskLevel'] | undefined,
       techniqueFamily: extractTag(entry.tags, 'family:') as SkillNode['techniqueFamily'] | undefined,
       modernSystemGroup: extractTag(entry.tags, 'system:') as SkillNode['modernSystemGroup'] | undefined,

@@ -9,7 +9,6 @@ export type KnowledgeItemType =
   | 'micro_detail'
   | 'troubleshooter'
   | 'archetype'
-  | 'mastery'
 
 export type KnowledgeSearchResult = {
   id: string

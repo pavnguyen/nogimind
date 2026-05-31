@@ -6,7 +6,6 @@ import type { GlossaryTerm } from '../types/glossary'
 import type { KnowledgeItemType, KnowledgeSearchResult } from '../types/knowledgeSearch'
 import type { PositionNode } from '../types/position'
 import type { LanguageCode, LocalizedStringArray, LocalizedText, SkillNode } from '../types/skill'
-import type { MasteryStage } from '../data/masteryStages'
 import type { TechniqueStateMachine } from '../types/stateMachine'
 import type { MicroDetailItem, TroubleshooterItem } from './knowledgeModules'
 import { getLocalizedArray, getLocalizedText } from './localization'
@@ -24,7 +23,6 @@ export interface SearchDataBundle {
   glossaryTerms: GlossaryTerm[]
   defensiveLayers: DefensiveLayer[]
   archetypes: GrapplingArchetype[]
-  masteryStages: MasteryStage[]
   techniqueStateMachines: TechniqueStateMachine[]
   techniqueStateMachineBySkillId: Map<string, TechniqueStateMachine>
   microDetails: MicroDetailItem[]
@@ -497,27 +495,6 @@ const troubleshooterDocuments = (lang: LanguageCode): SearchDocument[] =>
     ],
   }))
 
-const masteryDocuments = (lang: LanguageCode, mode: SearchMode): SearchDocument[] =>
-  getData().masteryStages.map((stage) => ({
-    id: stage.id,
-    type: 'mastery',
-    title: stage.title,
-    description: stage.shortDescription,
-    tags: ['mastery', stage.id],
-    url: '/mastery',
-    fields: mode === 'quick' ? [
-      field('title', stage.title, lang, 8),
-      field('philosophy', stage.shortDescription, lang, 4),
-    ] : [
-      field('title', stage.title, lang, 8),
-      field('philosophy', [stage.shortDescription, stage.philosophy, stage.highLevelExecution], lang, 4),
-      field('what to learn', stage.whatToLearn, lang, 3),
-      field('technical focus', stage.technicalFocus, lang, 3),
-      field('common mistakes', stage.commonMistakes, lang, 3),
-      field('linked ids', [stage.keySkillIds, stage.keyConceptIds], lang, 1),
-    ],
-  }))
-
 const stateMachineDocuments = (lang: LanguageCode): SearchDocument[] =>
   getData().techniqueStateMachines.map((stateMachine) => ({
     id: `state-machine:${stateMachine.skillId}`,
@@ -545,7 +522,6 @@ const documentBuilders: Record<KnowledgeItemType, (lang: LanguageCode, mode: Sea
   micro_detail: (lang, mode) => mode === 'deep' ? microDetailDocuments(lang) : [],
   troubleshooter: (lang, mode) => mode === 'deep' ? troubleshooterDocuments(lang) : [],
   archetype: (lang, mode) => getData().archetypes.map((archetypeValue) => archetypeDocument(archetypeValue, lang, mode)),
-  mastery: (lang, mode) => masteryDocuments(lang, mode),
 }
 
 const buildDocuments = (lang: LanguageCode, type: KnowledgeItemType | '' = '', mode: SearchMode = 'deep'): SearchDocument[] => {

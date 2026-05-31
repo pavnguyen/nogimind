@@ -19,13 +19,13 @@ export default function AboutPage() {
         <div className="space-y-5 text-base leading-8 text-slate-300">
           <p>{t('about.philosophy')}</p>
           <p>{t('about.system')}</p>
-          <p className="text-amber-100">{t('about.safety')}</p>
+          <p className="hallmark-text-caution">{t('about.safety')}</p>
         </div>
       </SectionCard>
       <SectionCard title={t('detail.concepts')}>
         <div className="flex flex-wrap gap-2">
           {themes.map((theme) => (
-            <Badge key={theme} tone="emerald">{theme}</Badge>
+            <Badge key={theme}>{theme}</Badge>
           ))}
         </div>
       </SectionCard>

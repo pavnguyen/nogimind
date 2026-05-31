@@ -2,9 +2,7 @@ import type { ReactNode } from 'react'
 import { Link } from 'react-router-dom'
 import { ArrowLeft } from 'lucide-react'
 import { cn } from '../../utils/cn'
-import { Badge } from './Badge'
-
-type BadgeTone = 'emerald' | 'cyan' | 'amber' | 'rose' | 'slate'
+import { Badge, type BadgeTone } from './Badge'
 
 type PageShellProps = {
   children: ReactNode
@@ -55,7 +53,7 @@ export const PageShell = ({
               {backTo ? (
                 <Link
                   to={backTo}
-                  className="mb-3 inline-flex items-center gap-1.5 text-xs font-medium text-slate-400 transition-colors hover:text-slate-200"
+                  className="mb-3 inline-flex items-center gap-1.5 text-xs font-medium hallmark-link-muted"
                 >
                   <ArrowLeft className="h-3.5 w-3.5" aria-hidden="true" />
                   {backLabel ?? 'Back'}
@@ -67,12 +65,12 @@ export const PageShell = ({
                 ) : null}
                 <div>
                   {title ? (
-                    <h1 className="text-2xl font-semibold tracking-tight text-white">
+                    <h1 className="text-2xl font-semibold tracking-tight hallmark-text-primary">
                       {title}
                     </h1>
                   ) : null}
                   {subtitle ? (
-                    <p className="mt-1 text-sm text-slate-400">{subtitle}</p>
+                    <p className="mt-1 text-sm hallmark-text-secondary">{subtitle}</p>
                   ) : null}
                 </div>
               </div>

@@ -3,7 +3,13 @@ import '@testing-library/jest-dom'
 // ── Mock react-i18next ─────────────────────────────────────────────────────
 vi.mock('react-i18next', () => ({
   useTranslation: () => ({
-    t: (key: string, fallback?: string) => fallback ?? key,
+    t: (key: string, options?: string | Record<string, unknown>) => {
+      if (typeof options === 'string') return options
+      if (options && typeof options === 'object' && 'defaultValue' in options) {
+        return (options as Record<string, unknown>).defaultValue as string
+      }
+      return key
+    },
     i18n: { language: 'en', changeLanguage: vi.fn() },
   }),
 }))

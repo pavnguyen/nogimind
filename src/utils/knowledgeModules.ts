@@ -1,5 +1,3 @@
-import { masteryStages } from '../data/masteryStages'
-import type { MasteryStage } from '../data/masteryStages'
 import type {
   LanguageCode,
   LocalizedText,
@@ -216,8 +214,6 @@ export const getTroubleshooters = (skills: SkillNode[], lang: LanguageCode = 'en
         safetyNotes: finish ? getLocalizedArray(finish.safetyNotes, lang) : skill.microDetailSystem?.safetyNotes ? getLocalizedArray(skill.microDetailSystem.safetyNotes, lang) : [],
       }
     })
-
-export const getMasteryStages = (): MasteryStage[] => masteryStages
 
 export const skillHasTroubleshooter = (skill: SkillNode) =>
   Boolean(skill.technicalDetails?.finishingMechanics?.length || skill.domain === 'submission_systems')

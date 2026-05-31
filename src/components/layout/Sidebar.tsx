@@ -1,5 +1,6 @@
 import { useMemo, useRef, useState, useEffect } from 'react'
 import { NavLink, Link, useLocation } from 'react-router-dom'
+import { motion } from 'framer-motion'
 import { useTranslation } from 'react-i18next'
 import { ChevronDown, PanelLeftClose, PanelLeftOpen } from 'lucide-react'
 import { useSettingsStore } from '../../stores/useSettingsStore'
@@ -65,44 +66,6 @@ export const Sidebar = () => {
     return () => observer.disconnect()
   }, [activeHubId, collapsed])
 
-  const hubAccent: Record<string, { active: string; icon: string; rail: string; sub: string; chevron: string }> = {
-    learn: {
-      active: 'bg-gradient-to-r from-cyan-400/18 via-cyan-400/10 to-transparent text-cyan-100 shadow-[inset_0_0_0_1px_rgba(34,211,238,0.18)]',
-      icon: 'border-cyan-300/25 bg-cyan-300/12 text-cyan-100',
-      rail: 'via-cyan-300/45',
-      sub: 'bg-gradient-to-r from-cyan-400/16 to-cyan-400/6 text-cyan-100 shadow-[inset_0_0_0_1px_rgba(34,211,238,0.18)]',
-      chevron: 'text-cyan-300',
-    },
-    study: {
-      active: 'bg-gradient-to-r from-emerald-400/18 via-emerald-400/10 to-transparent text-emerald-100 shadow-[inset_0_0_0_1px_rgba(74,222,128,0.18)]',
-      icon: 'border-emerald-300/25 bg-emerald-300/12 text-emerald-100',
-      rail: 'via-emerald-300/45',
-      sub: 'bg-gradient-to-r from-emerald-400/16 to-emerald-400/6 text-emerald-100 shadow-[inset_0_0_0_1px_rgba(52,211,153,0.18)]',
-      chevron: 'text-emerald-300',
-    },
-    fix: {
-      active: 'bg-gradient-to-r from-amber-400/18 via-amber-400/10 to-transparent text-amber-100 shadow-[inset_0_0_0_1px_rgba(251,191,36,0.18)]',
-      icon: 'border-amber-300/25 bg-amber-300/12 text-amber-100',
-      rail: 'via-amber-300/45',
-      sub: 'bg-gradient-to-r from-amber-400/16 to-amber-400/6 text-amber-100 shadow-[inset_0_0_0_1px_rgba(251,191,36,0.18)]',
-      chevron: 'text-amber-300',
-    },
-    build: {
-      active: 'bg-gradient-to-r from-violet-400/18 via-violet-400/10 to-transparent text-violet-100 shadow-[inset_0_0_0_1px_rgba(167,139,250,0.18)]',
-      icon: 'border-violet-300/25 bg-violet-300/12 text-violet-100',
-      rail: 'via-violet-300/45',
-      sub: 'bg-gradient-to-r from-violet-400/16 to-violet-400/6 text-violet-100 shadow-[inset_0_0_0_1px_rgba(167,139,250,0.18)]',
-      chevron: 'text-violet-300',
-    },
-    reference: {
-      active: 'bg-gradient-to-r from-sky-400/18 via-sky-400/10 to-transparent text-sky-100 shadow-[inset_0_0_0_1px_rgba(56,189,248,0.18)]',
-      icon: 'border-sky-300/25 bg-sky-300/12 text-sky-100',
-      rail: 'via-sky-300/45',
-      sub: 'bg-gradient-to-r from-sky-400/16 to-sky-400/6 text-sky-100 shadow-[inset_0_0_0_1px_rgba(56,189,248,0.18)]',
-      chevron: 'text-sky-300',
-    },
-  }
-
   return (
     <aside
       className={cn(
@@ -125,36 +88,16 @@ export const Sidebar = () => {
 
       {/* Hub Navigation */}
       <nav ref={navRef} className="relative flex-1 space-y-0.5 overflow-y-auto px-2 py-3">
-        {/* Sliding pill indicator */}
-        <div
+        {/* Sliding pill indicator — framer-motion spring */}
+        <motion.div
           className={cn(
-            'pointer-events-none absolute z-0 transition-all duration-300 ease-[cubic-bezier(0.34,1.56,0.64,1)]',
+            'pointer-events-none absolute z-0',
             collapsed ? 'left-1.5 right-1.5' : 'left-2 right-2',
+            activeHubId && 'hallmark-sidebar-pill',
           )}
-          style={{
-            top: pillStyle.top,
-            height: pillStyle.height,
-            opacity: pillStyle.opacity,
-            borderRadius: collapsed ? '0.5rem' : '0.75rem',
-            background: activeHubId
-              ? ({
-                  learn: 'linear-gradient(135deg, rgba(34,211,238,0.08), rgba(34,211,238,0.02))',
-                  study: 'linear-gradient(135deg, rgba(52,211,153,0.08), rgba(52,211,153,0.02))',
-                  fix: 'linear-gradient(135deg, rgba(251,191,36,0.08), rgba(251,191,36,0.02))',
-                  build: 'linear-gradient(135deg, rgba(167,139,250,0.08), rgba(167,139,250,0.02))',
-                  reference: 'linear-gradient(135deg, rgba(56,189,248,0.08), rgba(56,189,248,0.02))',
-                } as Record<string, string>)[activeHubId] ?? 'transparent'
-              : 'transparent',
-            boxShadow: activeHubId
-              ? ({
-                  learn: 'inset 0 0 0 1px rgba(34,211,238,0.10), 0 0 12px rgba(34,211,238,0.04)',
-                  study: 'inset 0 0 0 1px rgba(52,211,153,0.10), 0 0 12px rgba(52,211,153,0.04)',
-                  fix: 'inset 0 0 0 1px rgba(251,191,36,0.10), 0 0 12px rgba(251,191,36,0.04)',
-                  build: 'inset 0 0 0 1px rgba(167,139,250,0.10), 0 0 12px rgba(167,139,250,0.04)',
-                  reference: 'inset 0 0 0 1px rgba(56,189,248,0.10), 0 0 12px rgba(56,189,248,0.04)',
-                } as Record<string, string>)[activeHubId]
-              : undefined,
-          }}
+          animate={{ top: pillStyle.top, height: pillStyle.height, opacity: pillStyle.opacity }}
+          transition={{ type: 'spring', stiffness: 400, damping: 28, mass: 0.5 }}
+          style={{ borderRadius: collapsed ? '0.5rem' : '0.75rem' }}
         />
 
         <div className="relative mb-1.5 space-y-0.5 z-[1]">
@@ -162,7 +105,6 @@ export const Sidebar = () => {
             const Icon = hub.icon
             const active = isHubActive(hub)
             const expanded = expandedHubs.includes(hub.hub)
-            const accent = hubAccent[hub.hub] ?? hubAccent.study
 
             if (collapsed) {
               return (
@@ -175,7 +117,7 @@ export const Sidebar = () => {
                     cn(
                       'flex items-center justify-center rounded-lg px-2 py-2 text-sm font-medium transition-all duration-150',
                       isActive || active
-                        ? 'bg-emerald-400/12 text-emerald-100'
+                        ? 'hallmark-sidebar-collapsed-active'
                         : 'text-slate-400 hover:bg-white/[0.04] hover:text-slate-200',
                     )
                   }
@@ -196,7 +138,7 @@ export const Sidebar = () => {
                     className={cn(
                       'flex flex-1 items-center gap-2.5 rounded-xl px-3 py-2 text-sm font-medium transition-all duration-200',
                       active
-                        ? accent.active
+                        ? 'hallmark-sidebar-active'
                         : 'text-slate-300 hover:bg-white/[0.04] hover:text-slate-100',
                     )}
                   >
@@ -204,7 +146,7 @@ export const Sidebar = () => {
                       className={cn(
                         'inline-flex h-7 w-7 shrink-0 items-center justify-center rounded-lg border transition-colors',
                         active
-                          ? accent.icon
+                          ? 'hallmark-sidebar-icon'
                           : 'border-white/[0.08] bg-white/[0.02] text-slate-400 group-hover:text-slate-200',
                       )}
                     >
@@ -221,7 +163,7 @@ export const Sidebar = () => {
                     }}
                     className={cn(
                       'ml-1 flex items-center justify-center rounded-lg p-2 transition-all duration-200 hover:bg-white/[0.06]',
-                      active ? accent.chevron : 'text-slate-500',
+                      active ? 'hallmark-sidebar-chevron' : 'text-slate-500',
                     )}
                     aria-label={expanded ? t('accessibility.collapseSection') : t('accessibility.expandSection')}
                   >
@@ -238,7 +180,7 @@ export const Sidebar = () => {
                 {/* Sub-items */}
                 {expanded && (
                   <div className="relative ml-1 mt-0.5 space-y-0.5 rounded-xl bg-white/[0.015] px-2 py-1.5">
-                    <div className={cn('pointer-events-none absolute bottom-2 left-0 top-2 w-px bg-gradient-to-b from-transparent to-transparent', accent.rail)} />
+                    <div className="pointer-events-none absolute bottom-2 left-0 top-2 w-px hallmark-sidebar-rail" />
                     {hub.items.map((item) => {
                       const isItemActive =
                         location.pathname === item.to ||
@@ -251,7 +193,7 @@ export const Sidebar = () => {
                           className={cn(
                             'flex items-center gap-3 rounded-lg px-3 py-1.5 text-[13px] font-medium tracking-[0.01em] transition-all duration-200',
                             isItemActive
-                              ? accent.sub
+                              ? 'hallmark-sidebar-sub'
                               : 'text-slate-300 hover:bg-white/[0.04] hover:text-slate-100',
                           )}
                         >
@@ -300,7 +242,7 @@ export const Sidebar = () => {
           ) : (
             <>
               <PanelLeftClose className="h-4 w-4" aria-hidden="true" />
-              <span>Collapse</span>
+              <span>{t('sidebar.collapse')}</span>
             </>
           )}
         </button>

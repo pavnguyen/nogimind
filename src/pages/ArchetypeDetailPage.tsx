@@ -38,10 +38,9 @@ export default function ArchetypeDetailPage() {
       title={getLocalizedText(archetype.title, language)}
       subtitle={getLocalizedText(archetype.shortDescription, language)}
       badge={t('archetypes.coreSkillsCount', { count: archetype.coreSkillIds.length })}
-      badgeTone="emerald"
     >
       <div className="mt-2 flex flex-wrap gap-2">
-        <Badge tone="cyan">{t('archetypes.conceptsCount', { count: archetype.coreConceptIds.length })}</Badge>
+        <Badge className="hallmark-badge">{t('archetypes.conceptsCount', { count: archetype.coreConceptIds.length })}</Badge>
       </div>
 
       <SectionCard title={t('archetypes.philosophy')}>
@@ -77,9 +76,9 @@ export default function ArchetypeDetailPage() {
         <div className="grid gap-3 xl:grid-cols-3">
           {archetype.ifThenStrategy.map((strategy, index) => (
             <article key={`${archetype.id}-strategy-${index}`} className="rounded-lg border border-white/10 bg-slate-900/60 p-4">
-              <p className="text-xs font-semibold uppercase tracking-wide text-amber-200">{t('ifThen.if')}</p>
+              <p className="text-xs font-semibold uppercase tracking-wide hallmark-text-caution">{t('ifThen.if')}</p>
               <p className="mt-1 text-sm leading-6 text-slate-200">{getLocalizedText(strategy.if, language)}</p>
-              <p className="mt-3 text-xs font-semibold uppercase tracking-wide text-emerald-200">{t('ifThen.then')}</p>
+              <p className="mt-3 text-xs font-semibold uppercase tracking-wide hallmark-text-positive">{t('ifThen.then')}</p>
               <p className="mt-1 text-sm leading-6 text-slate-200">{getLocalizedText(strategy.then, language)}</p>
               <p className="mt-3 text-xs font-semibold uppercase tracking-wide text-slate-500">{t('ifThen.why')}</p>
               <p className="mt-1 text-sm leading-6 text-slate-400">{getLocalizedText(strategy.why, language)}</p>
@@ -95,7 +94,7 @@ export default function ArchetypeDetailPage() {
 
 const ListCard = ({ title, items, tone = 'default' }: { title: string; items: string[]; tone?: 'default' | 'danger' }) => (
   <SectionCard title={title}>
-    <ul className={`space-y-2 text-sm leading-6 ${tone === 'danger' ? 'text-amber-100' : 'text-slate-300'}`}>
+    <ul className={`space-y-2 text-sm leading-6 ${tone === 'danger' ? 'hallmark-text-caution' : 'text-slate-300'}`}>
       {items.map((item) => <li key={item}>{item}</li>)}
     </ul>
   </SectionCard>
@@ -115,7 +114,7 @@ const SkillLinks = ({
   return (
     <div className={`flex flex-wrap gap-2 ${className}`}>
       {skills.map((skill) => (
-        <Link key={skill?.id} to={`/skills/${skill?.id}`} className="rounded-md border border-cyan-300/20 px-2 py-1 text-xs text-cyan-100 hover:bg-white/10">
+        <Link key={skill?.id} to={`/skills/${skill?.id}`} className="hallmark-detail-link rounded-md border px-2 py-1 text-xs">
           {skill?.name}
         </Link>
       ))}
@@ -130,7 +129,7 @@ const ConceptLinks = ({ ids, conceptsById, lang }: { ids: string[]; conceptsById
   return (
     <div className="flex flex-wrap gap-2">
       {concepts.map((concept) => (
-        <Link key={concept?.id} to={`/concepts/${concept?.id}`} className="rounded-md border border-emerald-300/20 px-2 py-1 text-xs text-emerald-100 hover:bg-white/10">
+        <Link key={concept?.id} to={`/concepts/${concept?.id}`} className="hallmark-detail-link rounded-md border px-2 py-1 text-xs">
           {getLocalizedText(concept?.title, lang)}
         </Link>
       ))}

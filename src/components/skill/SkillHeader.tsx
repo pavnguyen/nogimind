@@ -28,9 +28,9 @@ const levelBadge: Record<string, string> = {
   advanced: 'border-rose-400/30 bg-rose-400/8 text-rose-300',
 }
 
-const riskBadge: Record<string, { label: string; cls: string }> = {
-  safety_critical: { label: '⚠ Safety Critical', cls: 'border-red-500/40 bg-red-500/10 text-red-300' },
-  high: { label: '⚠ High Risk', cls: 'border-rose-400/30 bg-rose-400/8 text-rose-300' },
+const riskBadge: Record<string, { key: string; cls: string }> = {
+  safety_critical: { key: 'modern.risk.safety_critical', cls: 'border-red-500/40 bg-red-500/10 text-red-300' },
+  high: { key: 'modern.risk.high', cls: 'border-rose-400/30 bg-rose-400/8 text-rose-300' },
 }
 
 export const SkillHeader = ({ skill, lang, onPrintCard }: Props) => {
@@ -73,7 +73,7 @@ export const SkillHeader = ({ skill, lang, onPrintCard }: Props) => {
             {/* Risk */}
             {risk && (
               <span className={`rounded-md border px-2.5 py-1 text-xs font-bold ${risk.cls}`}>
-                {risk.label}
+                ⚠ {t(risk.key)}
               </span>
             )}
 
@@ -86,10 +86,10 @@ export const SkillHeader = ({ skill, lang, onPrintCard }: Props) => {
 
             {/* Ruleset chips */}
             {skill.rulesetRelevance?.adcc && (
-              <span className="rounded-md border border-white/10 bg-white/5 px-2 py-0.5 text-xs text-slate-400">ADCC</span>
+              <span className="rounded-md border border-white/10 bg-white/5 px-2 py-0.5 text-xs text-slate-400">{t('skill.ruleset.adcc')}</span>
             )}
             {skill.rulesetRelevance?.subOnly && (
-              <span className="rounded-md border border-white/10 bg-white/5 px-2 py-0.5 text-xs text-slate-400">Sub Only</span>
+              <span className="rounded-md border border-white/10 bg-white/5 px-2 py-0.5 text-xs text-slate-400">{t('skill.ruleset.subOnly')}</span>
             )}
           </div>
 

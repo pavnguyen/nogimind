@@ -22,7 +22,6 @@ export const fr = {
     troubleshooters: 'Diagnostic',
 
     archetypes: 'Archétypes',
-    mastery: 'Maîtrise',
     modernSystems: 'Systèmes modernes',
     defense: 'Sécurité',
     glossary: 'Glossaire',
@@ -30,6 +29,8 @@ export const fr = {
     reference: 'Référence',
     about: 'Philosophie',
     philosophy: 'Philosophie',
+    build: 'Construire',
+    learningPath: 'Parcours d\'apprentissage',
     settings: 'Réglages',
     openMenu: 'Ouvrir le menu de navigation',
   },
@@ -91,10 +92,10 @@ export const fr = {
         skills: { title: 'Techniques', body: 'Choisissez l’action qui résout la position.' },
 
         archetypes: { title: 'Archétypes', body: 'Utilisez un style comme modèle.' },
-        mastery: { title: 'Maîtrise', body: 'Voyez l’ordre d’apprentissage long terme.' },
       },
     },
     reference: {
+      badge: 'Référence',
       heading: 'Référence',
       subtitle: 'Pour retrouver rapidement terme, cue, micro-détail, concept ou sécurité.',
       items: {
@@ -104,7 +105,6 @@ export const fr = {
         troubleshooters: { title: 'Dépannage', body: 'Diagnostiquer pourquoi une soumission ou un contrôle ne marche pas.' },
 
         archetypes: { title: 'Archétypes', body: 'Utiliser un style de jeu comme modèle.' },
-        mastery: { title: 'Maîtrise', body: 'Voir l’ordre d’apprentissage long terme.' },
         defense: { title: 'Sécurité', body: 'Couches défensives et alertes techniques risquées.' },
         search: { title: 'Recherche', body: 'Trouvez skills, contacts, termes et cues.' },
         philosophy: { title: 'Philosophie', body: 'Comment NoGi Mind organise le no-gi moderne.' },
@@ -487,6 +487,7 @@ export const fr = {
     liveCue: 'Indication en live',
     finishingMechanics: 'Mécaniques de finish',
     finishChecklist: 'Checklist de finish',
+    coachingCues: 'Indications d\'entraînement',
     falseFinishSignals: 'Faux signaux de finish',
     requiredIsolation: 'Isolation requise',
     microAdjustments: 'Micro-ajustements',
@@ -562,6 +563,8 @@ export const fr = {
     hasQualityCheck: 'A une checklist qualité',
     hasBodyDetails: 'A une carte de contacts',
     hasBlackbelt: 'A des détails avancés',
+    collapseDetails: 'Réduire les détails',
+    expandDetails: 'Développer les détails',
   },
   dashboard: {
     ...en.dashboard,
@@ -644,6 +647,7 @@ export const fr = {
       skillInsight: 'Aperçu du skill',
       glossary: 'Terme du glossaire du jour',
       principle: 'Principe du jour',
+      refresh: 'Actualiser',
     },
     weakestDomain: 'Domaine le plus faible',
     strongestDomain: 'Domaine le plus fort',
@@ -677,7 +681,7 @@ export const fr = {
       detail: 'Je veux des détails d’exécution',
       detailBody: 'Étudiez mains, coudes, hanches, genoux, tête, angle et pression.',
       game: 'Je veux construire un game',
-      gameBody: 'Utilisez archétypes, carte de maîtrise et chaînes pour relier les skills en système.',
+      gameBody: 'Utilisez archétypes et chaînes pour relier les skills en système.',
     },
     steps: {
       title: 'Comment utiliser l’app en 5 étapes',
@@ -735,6 +739,11 @@ export const fr = {
   },
   cardOS: {
     systemLogic: 'Logique du système',
+    corePrinciple: 'Principe fondamental',
+    decisionTree: 'Arbre de décision',
+    exitStrategies: 'Stratégies de sortie',
+    whyItWorks: 'Pourquoi ça marche',
+    printCard: 'Imprimer la fiche',
     bodyPosition: 'Position du corps',
     moneyDetails: 'Détails clés',
     outcomesBranches: 'Résultats & Branches',
@@ -795,7 +804,7 @@ export const fr = {
     },
   },
   video: {
-    videoReferences: 'Références vidéo',
+    videoReferences: 'Vidéos',
     watch: 'Regarder',
     whatToWatchFor: 'Ce qu’il faut observer',
     timestamps: 'Horodatage',
@@ -814,6 +823,7 @@ export const fr = {
     unavailableHint: 'La vidéo a peut-être été supprimée ou rendue privée par l\'auteur.',
     retry: 'Réessayer',
     reportBroken: 'Signaler la vidéo',
+    startAt: 'Commencer à {{time}}',
     reportSuccess: 'Merci ! Nous allons examiner cette vidéo.',
     level: {
       beginner: 'Débutant',
@@ -918,6 +928,7 @@ export const fr = {
       skills: 'Étudier les skills liés',
       details: 'Étudier les micro-details',
       escapes: 'Étudier les évasions adverses',
+      chains: 'Étudier les chaînes',
     },
     search: 'Chercher positions, points de contrôle ou signaux',
     empty: 'Aucune position ne correspond aux filtres.',
@@ -1106,7 +1117,6 @@ export const fr = {
 
     problem: 'Problème',
     archetype: 'Archétype',
-    mastery: 'Carte de maîtrise',
     quality_check: 'Checklist qualité technique',
     quick_card: 'Mode rapide',
   },
@@ -1138,17 +1148,6 @@ export const fr = {
     back: 'Retour',
     notFoundTitle: 'Connaissance partagée introuvable',
     notFoundBody: 'Ce principe ou ce cue n’est pas dans la carte actuelle.',
-  },
-  mastery: {
-    ...en.mastery,
-    heading: 'Carte de maîtrise',
-    subtitle: 'Roadmap conceptuelle de la survie vers une pensée no-gi avancée. C’est une maturité technique, pas une promesse de ceinture.',
-    whatFor: 'Utilisez cette page lorsque vous voulez une roadmap d’apprentissage à long terme.',
-    whenToUse: 'Ouvrez-la quand vous voulez savoir quelle étape compte le plus à votre stade actuel.',
-    nextStep: 'Retournez au parcours d’apprentissage ou à la carte des skills.',
-    whatToLearn: 'À apprendre',
-    commonMistakes: 'Erreurs fréquentes',
-    highLevelExecution: 'Exécution haut niveau',
   },
   glossary: {
     ...en.glossary,

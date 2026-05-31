@@ -82,7 +82,7 @@ export default defineConfig({
 
             // Legacy data (active files still in src/data/)
             { name: 'defensive-data', test: /src\/data\/(defensiveLayers|archetypes|techniqueStateMachines)/ },
-            { name: 'mastery-data', test: /src\/data\/(masteryStages|trainingMethods|sharedKnowledge)/ },
+            { name: 'misc-data', test: /src\/data\/(trainingMethods|sharedKnowledge)/ },
             { name: 'reference-data', test: /src\/data\/(glossaryTerms|concepts|positions)/ },
 
             // Search

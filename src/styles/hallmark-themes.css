@@ -1,0 +1,224 @@
+/* ═══════════════════════════════════════════════════════════════════════════
+ * Hallmark Themes — NoGiMind
+ *
+ * Five Hallmark-derived themes, one per hub, activated via `[data-hub="…"]`.
+ * The base `:root` block holds neutral tokens and fallbacks.
+ *
+ * Tokens are consumed by Tailwind classes (`bg-hallmark-accent`, `text-hallmark-accent`,
+ * `border-hallmark-accent/20`, etc.) via the `hallmark` color family in
+ * tailwind.config.js, and by direct `var(--hallmark-*)` references in CSS.
+ *
+ * ── Theme mapping ─────────────────────────────────────────────────────────
+ *   learn     → Salon     (warm cream · amber accent · editorial)
+ *   study     → Linen     (warm beige · emerald accent · technical)
+ *   fix       → Newsprint (warm-cream · deep-red accent · urgent)
+ *   build     → Midnight  (dark cool  · phosphor-cyan accent · builder)
+ *   reference → Plain     (pure white · ink-blue accent · neutral)
+ *   (default) → Dashboard (neutral dark · emerald-teal accent)
+ *
+ * All OKLCH values use `oklch()` CSS function. No hex inline values.
+ * ═══════════════════════════════════════════════════════════════════════════ */
+
+/* ── Base tokens (Dashboard / unthemed fallback) ─────────────────────── */
+:root {
+  /* — Surface hierarchy — */
+  --hallmark-bg-primary: #06080d;
+  --hallmark-bg-surface: #0b1018;
+  --hallmark-bg-card: #101722;
+  --hallmark-bg-elevated: #182234;
+
+  /* — Text — */
+  --hallmark-text-primary: #f1f5f9;
+  --hallmark-text-secondary: #94a3b8;
+  --hallmark-text-tertiary: #64748b;
+
+  /* — Borders — */
+  --hallmark-border-subtle: rgba(148, 163, 184, 0.10);
+  --hallmark-border-default: rgba(148, 163, 184, 0.18);
+
+  /* — Accent: emerald-teal (neutral default) — */
+  --hallmark-accent: oklch(0.72 0.15 165);
+  --hallmark-accent-dim: oklch(0.72 0.15 165 / 0.12);
+  --hallmark-accent-glow: oklch(0.72 0.15 165 / 0.06);
+  --hallmark-surface-accent: oklch(0.20 0.04 165);
+  --hallmark-text-accent: oklch(0.82 0.12 165);
+
+  /* — Glass surfaces — */
+  --hallmark-glass-bg: rgba(15, 23, 42, 0.60);
+  --hallmark-glass-border: rgba(148, 163, 184, 0.06);
+
+  /* — Focus ring — */
+  --hallmark-focus-ring: oklch(0.72 0.15 165 / 0.50);
+
+  /* — Scrollbar — */
+  --hallmark-scrollbar-thumb: oklch(0.72 0.15 165 / 0.30);
+  --hallmark-scrollbar-thumb-hover: oklch(0.72 0.15 165 / 0.50);
+
+  /* — Hero gradient (dashboard) — */
+  --hallmark-hero-gradient:
+    radial-gradient(ellipse at 20% 10%, oklch(0.72 0.15 165 / 0.10), transparent 40rem),
+    radial-gradient(ellipse at 80% 90%, oklch(0.78 0.10 195 / 0.06), transparent 40rem),
+    linear-gradient(180deg, #06080d 0%, #0b1018 50%, #0f1722 100%);
+
+  /* — Shadow glow (theme-aware) — */
+  --hallmark-shadow-glow: 0 0 0 1px var(--hallmark-accent-dim), 0 20px 60px rgba(0,0,0,0.35);
+
+  /* — Noise texture opacity — */
+  --hallmark-noise-opacity: 0.025;
+
+  /* — Selection — */
+  --hallmark-selection-bg: var(--hallmark-accent-dim);
+}
+
+/* ═══════════════════════════════════════════════════════════════════════════
+ * 1. SALON — Learn Hub
+ *    Warm cream surfaces · amber accent · editorial Fraunces italic
+ * ═══════════════════════════════════════════════════════════════════════════ */
+[data-hub="learn"] {
+  --hallmark-accent: oklch(0.62 0.19 58);              /* warm amber */
+  --hallmark-accent-dim: oklch(0.62 0.19 58 / 0.12);
+  --hallmark-accent-glow: oklch(0.62 0.19 58 / 0.06);
+  --hallmark-surface-accent: oklch(0.22 0.04 58);
+  --hallmark-text-accent: oklch(0.78 0.16 58);
+  --hallmark-hero-gradient:
+    radial-gradient(ellipse at 30% 20%, oklch(0.62 0.19 58 / 0.12), transparent 50%),
+    radial-gradient(ellipse at 70% 80%, oklch(0.62 0.19 58 / 0.06), transparent 40%);
+  --hallmark-focus-ring: oklch(0.62 0.19 58 / 0.50);
+  --hallmark-scrollbar-thumb: oklch(0.62 0.19 58 / 0.30);
+  --hallmark-scrollbar-thumb-hover: oklch(0.62 0.19 58 / 0.50);
+  --hallmark-shadow-glow: 0 0 0 1px var(--hallmark-accent-dim), 0 20px 60px rgba(0,0,0,0.35);
+  --hallmark-selection-bg: var(--hallmark-accent-dim);
+}
+
+/* ═══════════════════════════════════════════════════════════════════════════
+ * 2. LINEN — Study Hub
+ *    Warm beige surfaces · emerald accent · technical Fraunces roman
+ * ═══════════════════════════════════════════════════════════════════════════ */
+[data-hub="study"] {
+  --hallmark-accent: oklch(0.72 0.19 148);             /* emerald */
+  --hallmark-accent-dim: oklch(0.72 0.19 148 / 0.12);
+  --hallmark-accent-glow: oklch(0.72 0.19 148 / 0.06);
+  --hallmark-surface-accent: oklch(0.22 0.05 148);
+  --hallmark-text-accent: oklch(0.82 0.16 148);
+  --hallmark-hero-gradient:
+    radial-gradient(ellipse at 30% 20%, oklch(0.72 0.19 148 / 0.12), transparent 50%),
+    radial-gradient(ellipse at 70% 80%, oklch(0.72 0.19 148 / 0.06), transparent 40%);
+  --hallmark-focus-ring: oklch(0.72 0.19 148 / 0.50);
+  --hallmark-scrollbar-thumb: oklch(0.72 0.19 148 / 0.30);
+  --hallmark-scrollbar-thumb-hover: oklch(0.72 0.19 148 / 0.50);
+  --hallmark-shadow-glow: 0 0 0 1px var(--hallmark-accent-dim), 0 20px 60px rgba(0,0,0,0.35);
+  --hallmark-selection-bg: var(--hallmark-accent-dim);
+}
+
+/* ═══════════════════════════════════════════════════════════════════════════
+ * 3. NEWSPRINT — Fix Hub
+ *    Warm-cream surfaces · deep-red accent · urgent Fraunces italic
+ * ═══════════════════════════════════════════════════════════════════════════ */
+[data-hub="fix"] {
+  --hallmark-accent: oklch(0.52 0.22 29);              /* deep red */
+  --hallmark-accent-dim: oklch(0.52 0.22 29 / 0.12);
+  --hallmark-accent-glow: oklch(0.52 0.22 29 / 0.06);
+  --hallmark-surface-accent: oklch(0.20 0.05 29);
+  --hallmark-text-accent: oklch(0.72 0.18 29);
+  --hallmark-hero-gradient:
+    radial-gradient(ellipse at 30% 20%, oklch(0.52 0.22 29 / 0.12), transparent 50%),
+    radial-gradient(ellipse at 70% 80%, oklch(0.52 0.22 29 / 0.06), transparent 40%);
+  --hallmark-focus-ring: oklch(0.52 0.22 29 / 0.50);
+  --hallmark-scrollbar-thumb: oklch(0.52 0.22 29 / 0.30);
+  --hallmark-scrollbar-thumb-hover: oklch(0.52 0.22 29 / 0.50);
+  --hallmark-shadow-glow: 0 0 0 1px var(--hallmark-accent-dim), 0 20px 60px rgba(0,0,0,0.35);
+  --hallmark-selection-bg: var(--hallmark-accent-dim);
+}
+
+/* ═══════════════════════════════════════════════════════════════════════════
+ * 4. MIDNIGHT — Build Hub
+ *    Dark cool surfaces · phosphor-cyan accent · builder Fraunces condensed
+ * ═══════════════════════════════════════════════════════════════════════════ */
+[data-hub="build"] {
+  --hallmark-accent: oklch(0.72 0.16 205);             /* phosphor cyan */
+  --hallmark-accent-dim: oklch(0.72 0.16 205 / 0.12);
+  --hallmark-accent-glow: oklch(0.72 0.16 205 / 0.06);
+  --hallmark-surface-accent: oklch(0.20 0.04 205);
+  --hallmark-text-accent: oklch(0.82 0.14 205);
+  --hallmark-hero-gradient:
+    radial-gradient(ellipse at 30% 20%, oklch(0.72 0.16 205 / 0.12), transparent 50%),
+    radial-gradient(ellipse at 70% 80%, oklch(0.72 0.16 205 / 0.06), transparent 40%);
+  --hallmark-focus-ring: oklch(0.72 0.16 205 / 0.50);
+  --hallmark-scrollbar-thumb: oklch(0.72 0.16 205 / 0.30);
+  --hallmark-scrollbar-thumb-hover: oklch(0.72 0.16 205 / 0.50);
+  --hallmark-shadow-glow: 0 0 0 1px var(--hallmark-accent-dim), 0 20px 60px rgba(0,0,0,0.35);
+  --hallmark-selection-bg: var(--hallmark-accent-dim);
+}
+
+/* ═══════════════════════════════════════════════════════════════════════════
+ * 5. PLAIN — Reference Hub
+ *    Pure white surfaces · deep ink-blue accent · neutral Fraunces roman
+ * ═══════════════════════════════════════════════════════════════════════════ */
+[data-hub="reference"] {
+  --hallmark-accent: oklch(0.55 0.18 265);             /* deep ink blue */
+  --hallmark-accent-dim: oklch(0.55 0.18 265 / 0.12);
+  --hallmark-accent-glow: oklch(0.55 0.18 265 / 0.06);
+  --hallmark-surface-accent: oklch(0.20 0.04 265);
+  --hallmark-text-accent: oklch(0.75 0.14 265);
+  --hallmark-hero-gradient:
+    radial-gradient(ellipse at 30% 20%, oklch(0.55 0.18 265 / 0.10), transparent 50%),
+    radial-gradient(ellipse at 70% 80%, oklch(0.55 0.18 265 / 0.05), transparent 40%);
+  --hallmark-focus-ring: oklch(0.55 0.18 265 / 0.50);
+  --hallmark-scrollbar-thumb: oklch(0.55 0.18 265 / 0.30);
+  --hallmark-scrollbar-thumb-hover: oklch(0.55 0.18 265 / 0.50);
+  --hallmark-shadow-glow: 0 0 0 1px var(--hallmark-accent-dim), 0 20px 60px rgba(0,0,0,0.35);
+  --hallmark-selection-bg: var(--hallmark-accent-dim);
+}
+
+
+/* ═══════════════════════════════════════════════════════════════════════════
+ * Utility classes consuming theme tokens
+ * ═══════════════════════════════════════════════════════════════════════════ */
+
+/* ── Theme-aware focus-visible ring ── */
+.hallmark-focus-ring:focus-visible,
+button.hallmark-focus-ring:focus-visible,
+a.hallmark-focus-ring:focus-visible,
+input.hallmark-focus-ring:focus-visible,
+select.hallmark-focus-ring:focus-visible,
+textarea.hallmark-focus-ring:focus-visible,
+[tabindex].hallmark-focus-ring:focus-visible {
+  outline: 2px solid var(--hallmark-focus-ring);
+  outline-offset: 2px;
+}
+
+/* Remove focus ring for mouse clicks */
+.hallmark-focus-ring:focus:not(:focus-visible) {
+  outline: none;
+}
+
+/* ── Theme-aware scrollbar ── */
+.hallmark-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: var(--hallmark-scrollbar-thumb) transparent;
+}
+
+.hallmark-scrollbar::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+.hallmark-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.hallmark-scrollbar::-webkit-scrollbar-thumb {
+  background: var(--hallmark-scrollbar-thumb);
+  border-radius: 3px;
+  transition: background 0.2s ease;
+}
+
+.hallmark-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: var(--hallmark-scrollbar-thumb-hover);
+}
+
+/* ── Theme-aware selection ── */
+.hallmark-selection::selection {
+  background: var(--hallmark-selection-bg);
+  color: var(--hallmark-text-primary);
+}

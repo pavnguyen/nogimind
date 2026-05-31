@@ -3,6 +3,7 @@ import { BrowserRouter, Route, Routes, useLocation } from 'react-router-dom'
 import { useEffect } from 'react'
 import { useTranslation } from 'react-i18next'
 import { Layout } from '../components/layout/Layout'
+import { HubThemeProvider } from '../contexts/HubThemeContext'
 import {
   AboutPage,
   ArchetypeDetailPage,
@@ -15,7 +16,6 @@ import {
   DefensePage,
   FixHubPage,
   GlossaryPage,
-  MasteryMapPage,
   LearnPage,
   NotFoundPage,
   PositionDetailPage,
@@ -46,7 +46,8 @@ const ScrollToTop = () => {
 export const AppRouter = () => (
   <BrowserRouter>
     <ScrollToTop />
-    <Suspense fallback={<Fallback />}>
+    <HubThemeProvider>
+      <Suspense fallback={<Fallback />}>
       <Routes>
         <Route element={<Layout />}>
           <Route index element={<DashboardPage />} />
@@ -67,7 +68,6 @@ export const AppRouter = () => (
           <Route path="/defense/:layerId" element={<DefenseDetailPage />} />
           <Route path="/archetypes" element={<ArchetypesPage />} />
           <Route path="/archetypes/:archetypeId" element={<ArchetypeDetailPage />} />
-          <Route path="/mastery" element={<MasteryMapPage />} />
           <Route path="/glossary" element={<GlossaryPage />} />
           <Route path="/search" element={<SearchPage />} />
           <Route path="/philosophy" element={<AboutPage />} />
@@ -76,6 +76,7 @@ export const AppRouter = () => (
           <Route path="*" element={<NotFoundPage />} />
         </Route>
       </Routes>
-    </Suspense>
+      </Suspense>
+    </HubThemeProvider>
   </BrowserRouter>
 )

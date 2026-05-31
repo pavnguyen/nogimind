@@ -3,7 +3,6 @@ import { useParams } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import { NotFound } from '../components/common/NotFound'
 import { PageShell } from '../components/common/PageShell'
-import { ContentSourceBadge } from '../components/common/ContentSourceBadge'
 import { Skeleton, SkeletonCard } from '../components/common/Skeleton'
 import { SkillDetailTabs, TabPanel, TabIcons, type TabId } from '../components/skill/SkillDetailTabs'
 import { SkillHeader } from '../components/skill/SkillHeader'
@@ -82,7 +81,7 @@ export default function SkillDetailPage() {
   const skillQuery = useSkillQuery(skillId)
   const skill = skillQuery.data
   const recordView = useRecentlyViewedStore((state) => state.recordView)
-  const [activeTab, setActiveTab] = useState<TabId>('learn')
+  const [activeTab, setActiveTab] = useState<TabId>('watch')
 
   // ── Content pipeline (Phase 2) ─────────────────────────────────────────
   const contentQuery = useContentSkillDetailQuery(skillId, language)
@@ -145,8 +144,8 @@ export default function SkillDetailPage() {
       items.push({ id: 'fix', label: t('cardOS.fixItFast'), icon: TabIcons.fix, accent: 'violet' })
     }
 
-    // Watch tab — always show
-    items.push({ id: 'watch', label: t('video.videoReferences'), icon: TabIcons.watch, accent: 'sky' })
+    // Watch tab — always first
+    items.unshift({ id: 'watch', label: t('video.videoReferences'), icon: TabIcons.watch, accent: 'sky' })
     return items
   }, [hasPipelineLearnContent, hasPipelineFixContent, t])
 
@@ -198,20 +197,14 @@ export default function SkillDetailPage() {
     <>
 
       <PageShell>
-        <div className="flex items-start justify-between gap-4">
-          <div className="flex-1 min-w-0">
-            <SkillHeader
-              skill={displaySkill}
-              lang={language}
-              onPrintCard={async () => {
-                await new Promise((r) => setTimeout(r, 50))
-                window.print()
-              }}
-            />
-          </div>
-          <ContentSourceBadge
-            source={contentSource}
-            className="mt-2 shrink-0"
+        <div className="flex-1 min-w-0">
+          <SkillHeader
+            skill={displaySkill}
+            lang={language}
+            onPrintCard={async () => {
+              await new Promise((r) => setTimeout(r, 50))
+              window.print()
+            }}
           />
         </div>
 

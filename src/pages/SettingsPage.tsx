@@ -52,7 +52,7 @@ function InstallAppButton() {
     return (
       <button
         disabled
-        className="flex items-center gap-2 rounded-lg border border-emerald-500/30 bg-emerald-500/10 px-4 py-2.5 text-sm font-medium text-emerald-300"
+        className="flex items-center gap-2 rounded-lg hallmark-badge px-4 py-2.5 text-sm font-medium"
       >
         <CheckCircle2 className="h-4 w-4" />
         {t('pwa.installed')}
@@ -75,7 +75,7 @@ function InstallAppButton() {
   return (
     <button
       onClick={handleInstall}
-      className="flex items-center gap-2 rounded-lg border border-cyan-500/40 bg-cyan-500/10 px-4 py-2.5 text-sm font-medium text-cyan-300 transition hover:bg-cyan-500/20 hover:text-cyan-200"
+      className="flex items-center gap-2 rounded-lg hallmark-btn-ghost border-hallmark-accent-dim px-4 py-2.5 text-sm font-medium"
     >
       <Download className="h-4 w-4" />
       {t('pwa.install')}
@@ -108,7 +108,7 @@ export default function SettingsPage() {
         <ExportImportPanel />
       </SectionCard>
       <SectionCard title={t('app.name')}>
-        <p className="text-sm text-slate-400">{t('app.version')} · cập nhật {getBuildDate()}</p>
+        <p className="text-sm text-slate-400">{t('app.version')} · {t('settings.updated', { date: getBuildDate() })}</p>
       </SectionCard>
     </PageShell>
   )

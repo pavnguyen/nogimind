@@ -1,5 +1,6 @@
 import { useEffect } from 'react'
-import { Outlet, useNavigate } from 'react-router-dom'
+import { Outlet, useLocation, useNavigate } from 'react-router-dom'
+import { AnimatePresence, motion } from 'framer-motion'
 import { Header } from './Header'
 import { MobileNav } from './MobileNav'
 import { Sidebar } from './Sidebar'
@@ -29,6 +30,7 @@ const chordRoutes: Record<string, string> = {
 export const Layout = () => {
   const { t } = useTranslation()
   const navigate = useNavigate()
+  const location = useLocation()
   const toggleShortcuts = useUiStore((state) => state.toggleKeyboardShortcuts)
   const setShortcuts = useUiStore((state) => state.setShowKeyboardShortcuts)
 
@@ -94,7 +96,17 @@ export const Layout = () => {
         <div className="flex min-w-0 flex-1 flex-col">
           <Header />
           <main id="main-content" className="mx-auto w-full max-w-[1500px] flex-1 px-4 py-6 lg:px-8 lg:py-8" tabIndex={-1}>
-            <Outlet />
+            <AnimatePresence mode="wait">
+              <motion.div
+                key={location.pathname}
+                initial={{ opacity: 0, y: 16 }}
+                animate={{ opacity: 1, y: 0 }}
+                exit={{ opacity: 0, y: -12 }}
+                transition={{ duration: 0.25, ease: [0.25, 0.1, 0.25, 1] }}
+              >
+                <Outlet />
+              </motion.div>
+            </AnimatePresence>
           </main>
           <footer className="mx-auto w-full max-w-[1500px] px-4 pb-6 text-xs text-slate-500 lg:px-8">
             <div className="flex items-center justify-between gap-4">

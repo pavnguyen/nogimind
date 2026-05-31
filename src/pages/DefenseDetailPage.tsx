@@ -35,8 +35,8 @@ export default function DefenseDetailPage() {
       title={getLocalizedText(layer.title, language)}
       subtitle={getLocalizedText(layer.threat, language)}
       badge={t(`safetyCategories.${layer.category}`)}
-      badgeTone="amber"
     >
+
 
       <div className="grid gap-6 xl:grid-cols-2">
         <ListCard title={t('defense.earlyDangerSignals')} items={getLocalizedArray(layer.earlyDangerSignals, language)} />
@@ -58,7 +58,7 @@ export default function DefenseDetailPage() {
         <SectionCard title={t('concepts.relatedConcepts')}>
           <div className="flex flex-wrap gap-2">
             {layer.relatedConceptIds.map((id) => conceptsById.get(id)).filter(Boolean).map((concept) => (
-              <Link key={concept?.id} to={`/concepts/${concept?.id}`} className="rounded-md border border-white/10 px-3 py-2 text-sm text-cyan-200 hover:bg-white/10">
+              <Link key={concept?.id} to={`/concepts/${concept?.id}`} className="hallmark-detail-link rounded-md border px-3 py-2 text-sm">
                 {getLocalizedText(concept?.title, language)}
               </Link>
             ))}
@@ -72,7 +72,7 @@ export default function DefenseDetailPage() {
 
 const ListCard = ({ title, items, tone = 'default' }: { title: string; items: string[]; tone?: 'default' | 'danger' }) => (
   <SectionCard title={title}>
-    <ul className={`space-y-2 text-sm leading-6 ${tone === 'danger' ? 'text-amber-100' : 'text-slate-300'}`}>
+    <ul className={`space-y-2 text-sm leading-6 ${tone === 'danger' ? 'hallmark-text-caution' : 'text-slate-300'}`}>
       {items.map((item) => <li key={item}>{item}</li>)}
     </ul>
   </SectionCard>
@@ -84,7 +84,7 @@ const SkillLinks = ({ ids, skillsById }: { ids: string[]; skillsById: Map<string
   return (
     <div className="flex flex-wrap gap-2">
       {skills.map((skill) => (
-        <Link key={skill?.id} to={`/skills/${skill?.id}`} className="rounded-md border border-cyan-300/20 px-2 py-1 text-xs text-cyan-100 hover:bg-white/10">
+        <Link key={skill?.id} to={`/skills/${skill?.id}`} className="hallmark-detail-link rounded-md border px-2 py-1 text-xs">
           {skill?.name}
         </Link>
       ))}

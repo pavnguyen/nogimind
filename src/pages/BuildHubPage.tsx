@@ -1,15 +1,14 @@
 import { useMemo } from 'react'
 import { Link, useSearchParams } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
-import { ArrowRight, Layers3, Palette, Route } from 'lucide-react'
+import { ArrowRight, Layers3, Palette } from 'lucide-react'
+import { StaggerContainer, StaggerItem } from '../components/common/StaggerContainer'
 import { Badge } from '../components/common/Badge'
 import { EmptyState } from '../components/common/EmptyState'
 import { HubTabBar } from '../components/layout/HubTabBar'
 import { PageShell } from '../components/common/PageShell'
-import { SectionCard } from '../components/common/SectionCard'
 import { useArchetypesQuery } from '../queries/archetypeQueries'
 import { useSettingsStore } from '../stores/useSettingsStore'
-import { masteryStages } from '../data/masteryStages'
 import { getLocalizedArray, getLocalizedText } from '../utils/localization'
 
 export default function BuildHubPage() {
@@ -70,8 +69,9 @@ export default function BuildHubPage() {
             {!filteredArchetypes.length ? (
               <EmptyState title={t('archetypes.empty')} />
             ) : (
-              <div className="grid gap-3 sm:grid-cols-2">
+              <StaggerContainer className="grid gap-3 sm:grid-cols-2">
                 {filteredArchetypes.slice(0, 10).map((archetype) => (
+                  <StaggerItem key={archetype.id}>
                   <Link
                     key={archetype.id}
                     to={`/archetypes/${archetype.id}`}
@@ -92,8 +92,9 @@ export default function BuildHubPage() {
                       <ArrowRight className="mt-1 h-4 w-4 shrink-0 text-violet-300/50 transition-all group-hover:translate-x-0.5 group-hover:text-violet-300" />
                     </div>
                   </Link>
+                </StaggerItem>
                 ))}
-              </div>
+              </StaggerContainer>
             )}
 
             {archetypes.length > 10 && (
@@ -109,33 +110,6 @@ export default function BuildHubPage() {
           </div>
         )
 
-      case 'mastery':
-        return (
-          <div className="space-y-4">
-            <div className="flex items-center justify-between">
-              <p className="text-sm text-slate-400">{t('mastery.whenToUse')}</p>
-              <Link
-                to="/mastery"
-                className="text-xs font-medium text-violet-400 hover:text-violet-300 transition-colors"
-              >
-                {t('common.open')} →
-              </Link>
-            </div>
-
-            {masteryStages.map((stage) => (
-              <SectionCard
-                key={stage.id}
-                title={`${stage.order}. ${getLocalizedText(stage.title, lang)}`}
-                description={getLocalizedText(stage.shortDescription, lang)}
-              >
-                <p className="text-sm leading-6 text-slate-300 line-clamp-3">
-                  {getLocalizedText(stage.philosophy, lang)}
-                </p>
-              </SectionCard>
-            ))}
-          </div>
-        )
-
       default:
         return null
     }
@@ -144,15 +118,15 @@ export default function BuildHubPage() {
   return (
     <PageShell
       header={
-        <div className="relative overflow-hidden rounded-3xl border border-white/[0.06] bg-slate-900/30 p-8 hero-blob-build">
-          <div className="pointer-events-none absolute -right-16 -top-16 h-48 w-48 rounded-full bg-violet-400/5 blur-[80px]" />
+        <div className="relative overflow-hidden rounded-3xl border border-white/[0.06] bg-slate-900/30 p-8 hallmark-hero">
+          <div className="pointer-events-none absolute -right-16 -top-16 h-48 w-48 rounded-full hallmark-blur-blob blur-[80px]" />
           <div className="relative z-10 space-y-4">
             <div className="flex items-center gap-4">
-              <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-gradient-to-br from-violet-400 to-purple-500 shadow-lg shadow-violet-500/25">
+              <div className="flex h-14 w-14 items-center justify-center rounded-2xl hallmark-icon-box">
                 <Layers3 className="h-7 w-7 text-slate-950" aria-hidden="true" />
               </div>
               <div>
-                <Badge tone="violet" className="text-[10px] uppercase tracking-widest">System Builder</Badge>
+                <Badge className="hallmark-badge text-[10px] uppercase tracking-widest">{t('buildHub.badge')}</Badge>
                 <h1 className="mt-1 display-heading text-3xl font-extrabold text-white lg:text-4xl">{t('nav.build')}</h1>
                 <p className="mt-1 max-w-2xl text-base leading-relaxed text-slate-400">
                   {t('modeUx.map.subtitle')}
@@ -166,7 +140,6 @@ export default function BuildHubPage() {
       <HubTabBar
         tabs={[
           { id: 'archetypes', labelKey: 'nav.archetypes', icon: Palette },
-          { id: 'mastery', labelKey: 'nav.mastery', icon: Route },
         ]}
         accent="violet"
         className="mb-6"

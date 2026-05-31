@@ -1,3 +1,5 @@
+import tailwindColors from 'tailwindcss/colors'
+
 /** @type {import('tailwindcss').Config} */
 export default {
   content: ['./index.html', './src/**/*.{ts,tsx}'],
@@ -5,7 +7,7 @@ export default {
     extend: {
       fontFamily: {
         sans: ['Inter', 'ui-sans-serif', 'system-ui', 'sans-serif'],
-        display: ['Inter', 'ui-sans-serif', 'system-ui', 'sans-serif'],
+        display: ['Fraunces', 'ui-serif', 'serif'],
         mono: ['JetBrains Mono', 'Fira Code', 'monospace'],
       },
       fontWeight: {
@@ -38,17 +40,31 @@ export default {
           reference: '#94a3b8',
           'reference-bg': 'rgba(148, 163, 184, 0.10)',
         },
+        /* ── Hallmark theme-aware accent color family ── */
+        hallmark: {
+          accent: 'var(--hallmark-accent)',
+          'accent-dim': 'var(--hallmark-accent-dim)',
+          'accent-glow': 'var(--hallmark-accent-glow)',
+          'surface-accent': 'var(--hallmark-surface-accent)',
+          'text-accent': 'var(--hallmark-text-accent)',
+          /* Hallmark accent colors as static values for static classes */
+          amber: 'oklch(0.62 0.19 58)',
+          emerald: 'oklch(0.72 0.19 148)',
+          rose: 'oklch(0.52 0.22 29)',
+          cyan: 'oklch(0.72 0.16 205)',
+          blue: 'oklch(0.55 0.18 265)',
+        },
         emerald: {
-          ...require('tailwindcss/colors').emerald,
+          ...tailwindColors.emerald,
           150: '#d1fae5',
         },
         cyan: {
-          ...require('tailwindcss/colors').cyan,
+          ...tailwindColors.cyan,
           150: '#cffafe',
         },
       },
       boxShadow: {
-        glow: '0 0 0 1px rgba(45, 212, 191, 0.10), 0 20px 60px rgba(0,0,0,0.35)',
+        glow: 'var(--hallmark-shadow-glow, 0 0 0 1px rgba(45, 212, 191, 0.10)), 0 20px 60px rgba(0,0,0,0.35)',
         'glow-sm': '0 0 0 1px rgba(45, 212, 191, 0.08), 0 4px 20px rgba(0,0,0,0.25)',
         'glow-lg': '0 0 0 1px rgba(45, 212, 191, 0.12), 0 30px 80px rgba(0,0,0,0.40)',
         'glow-amber': '0 0 0 1px rgba(251, 191, 36, 0.10), 0 20px 60px rgba(0,0,0,0.35)',

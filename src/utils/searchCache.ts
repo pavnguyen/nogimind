@@ -25,7 +25,6 @@ import type { PositionNode } from '../types/position'
 import type { GlossaryTerm } from '../types/glossary'
 import type { DefensiveLayer } from '../types/defense'
 import type { GrapplingArchetype } from '../types/archetype'
-import type { MasteryStage } from '../data/masteryStages'
 import type { TechniqueStateMachine } from '../types/stateMachine'
 
 // ── Cache keys & versioning ──────────────────────────────────────────
@@ -50,7 +49,6 @@ export type StaticSearchData = {
   glossaryTerms: GlossaryTerm[]
   defensiveLayers: DefensiveLayer[]
   archetypes: GrapplingArchetype[]
-  masteryStages: MasteryStage[]
   techniqueStateMachineBySkillId: Map<string, TechniqueStateMachine>
   techniqueStateMachines: TechniqueStateMachine[]
 }

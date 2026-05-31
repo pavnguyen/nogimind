@@ -146,13 +146,18 @@ export const LazyYouTubeEmbed = ({ youtubeId, embedUrl, title, onReport }: Props
             alt=""
             loading="lazy"
             onError={handleThumbnailError}
-            className="h-full w-full object-cover opacity-75 transition duration-200 group-hover:scale-[1.02] group-hover:opacity-90"
+            className="h-full w-full object-cover opacity-75 transition duration-300 group-hover:scale-105 group-hover:opacity-95"
           />
-          <span className="absolute inset-0 bg-slate-950/35" />
-          <span className="absolute left-1/2 top-1/2 grid h-14 w-14 -translate-x-1/2 -translate-y-1/2 place-items-center rounded-full bg-cyan-300 text-slate-950 shadow-lg shadow-cyan-950/40 transition group-hover:bg-white">
-            ▶
+          {/* Gradient overlay from bottom for cinematic depth */}
+          <span className="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-slate-950/20 to-transparent" />
+          {/* Play button with glow effect */}
+          <span className="absolute left-1/2 top-1/2 grid h-16 w-16 -translate-x-1/2 -translate-y-1/2 place-items-center rounded-full bg-cyan-300 text-slate-950 shadow-lg shadow-cyan-400/30 ring-2 ring-white/10 backdrop-blur-sm transition duration-200 group-hover:scale-110 group-hover:bg-white group-hover:shadow-cyan-300/50">
+            <svg className="ml-0.5 h-6 w-6" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M8 5v14l11-7z" />
+            </svg>
           </span>
-          <span className="absolute bottom-3 left-3 rounded-md bg-slate-950/80 px-2.5 py-1 text-xs font-semibold text-cyan-100">
+          {/* Duration-like watch badge */}
+          <span className="absolute bottom-3 left-3 rounded-md bg-slate-950/80 px-2.5 py-1 text-xs font-semibold tracking-wide text-cyan-100 backdrop-blur-sm shadow-glow-sm">
             {t('video.watch')}
           </span>
         </button>

@@ -21,7 +21,7 @@ import { searchKnowledge } from '../utils/knowledgeSearch'
 import { getLocalizedText } from '../utils/localization'
 
 const coreResultTypes: KnowledgeItemType[] = ['skill', 'concept', 'position']
-const advancedResultTypes: KnowledgeItemType[] = ['micro_detail', 'troubleshooter', 'glossary', 'defense', 'archetype', 'mastery']
+const advancedResultTypes: KnowledgeItemType[] = ['micro_detail', 'troubleshooter', 'glossary', 'defense', 'archetype']
 const filterTypes = [...coreResultTypes, ...advancedResultTypes]
 
 const SEARCH_ANALYTICS_KEY = 'nogi_search_analytics'
@@ -276,7 +276,7 @@ export default function SearchPage() {
   const renderSnippet = (result: KnowledgeSearchResult) => {
     if (!result.snippet) return null
     return (
-      <p className="mt-2 text-xs leading-5 text-slate-500 italic line-clamp-1 border-l-2 border-emerald-400/20 pl-2">
+      <p className="mt-2 text-xs leading-5 hallmark-text-tertiary italic line-clamp-1 hallmark-accent-border pl-2">
         {result.snippet}
       </p>
     )
@@ -287,8 +287,8 @@ export default function SearchPage() {
       {/* Popular searches */}
       <div>
         <div className="flex items-center gap-2 mb-3">
-          <TrendingUp className="h-4 w-4 text-emerald-400" aria-hidden="true" />
-          <p className="text-xs font-semibold uppercase tracking-wider text-slate-400">
+          <TrendingUp className="h-4 w-4 hallmark-accent-text" aria-hidden="true" />
+          <p className="text-xs font-semibold uppercase tracking-wider hallmark-text-secondary">
             {t('search.popularSearches', 'Popular searches')}
           </p>
         </div>
@@ -297,7 +297,7 @@ export default function SearchPage() {
             <button
               key={term}
               onClick={() => handlePopularClick(term)}
-              className="inline-flex items-center gap-1.5 rounded-full border border-white/[0.08] bg-slate-900/60 px-3.5 py-1.5 text-sm text-slate-300 transition-all hover:border-emerald-400/30 hover:bg-slate-900/80 hover:text-emerald-200 hover:shadow-[0_0_12px_rgba(52,211,153,0.08)]"
+              className="inline-flex items-center gap-1.5 rounded-full border border-white/[0.08] bg-slate-900/60 px-3.5 py-1.5 text-sm text-slate-300 hallmark-btn-ghost"
             >
               <Hash className="h-3 w-3 text-slate-600" aria-hidden="true" />
               {term}
@@ -307,10 +307,9 @@ export default function SearchPage() {
       </div>
 
       {/* Tips */}
-      <div className="grid gap-4 sm:grid-cols-2">
-        <div className="rounded-xl border border-white/[0.06] bg-slate-900/40 p-4">
+      <div className="grid gap-4 sm:grid-cols-2">            <div className="rounded-xl border border-white/[0.06] bg-slate-900/40 p-4">
           <div className="flex items-center gap-2 mb-2">
-            <Star className="h-4 w-4 text-amber-400" />
+            <Star className="h-4 w-4 hallmark-text-caution" />
             <p className="text-xs font-semibold uppercase tracking-wider text-slate-400">
               {t('search.tipExact', 'Try exact terms')}
             </p>
@@ -321,7 +320,7 @@ export default function SearchPage() {
         </div>
         <div className="rounded-xl border border-white/[0.06] bg-slate-900/40 p-4">
           <div className="flex items-center gap-2 mb-2">
-            <Clock className="h-4 w-4 text-cyan-400" />
+            <Clock className="h-4 w-4 hallmark-accent-text" />
             <p className="text-xs font-semibold uppercase tracking-wider text-slate-400">
               {t('search.tipDeep', 'Deep Search')}
             </p>
@@ -341,21 +340,21 @@ export default function SearchPage() {
       data-selected={flatIdx === selectedIndex || undefined}
       className={`group rounded-xl border p-5 transition-all ${
         flatIdx === selectedIndex
-          ? 'border-emerald-400/40 bg-slate-900/80 shadow-[0_0_16px_rgba(52,211,153,0.08)]'
-          : 'border-white/[0.06] bg-slate-900/40 hover:border-emerald-400/20 hover:bg-slate-900/70'
+          ? 'hallmark-tab-accent'
+          : 'border-white/[0.06] bg-slate-900/40 hallmark-card-hover'
       }`}
       onMouseEnter={() => setSelectedIndex(flatIdx)}
     >
       <div className="flex flex-wrap gap-2">
         <Badge tone="cyan">{t(`knowledgeTypes.${result.type}`)}</Badge>
         {flatIdx === selectedIndex && (
-          <span className="text-[10px] font-medium uppercase tracking-wider text-emerald-400/60 self-center ml-1">
-            ↵ open
+          <span className="text-[10px] font-medium uppercase tracking-wider hallmark-accent-text/60 self-center ml-1">
+            {t('search.openResult')}
           </span>
         )}
       </div>
       <Link to={result.url} className="mt-3 block" tabIndex={-1}>
-        <h2 className="text-base font-semibold text-white transition-colors group-hover:text-emerald-100">
+        <h2 className="text-base font-semibold hallmark-text-primary transition-colors hallmark-search-result-hover">
           {getLocalizedText(result.title, language)}
         </h2>
         <p className="mt-1.5 line-clamp-2 text-sm leading-6 text-slate-400">
@@ -371,7 +370,7 @@ export default function SearchPage() {
         </div>
         <Link
           to={result.url}
-          className="inline-flex items-center gap-1 text-sm font-medium text-emerald-200 opacity-0 transition-opacity group-hover:opacity-100"
+          className="inline-flex items-center gap-1 text-sm font-medium hallmark-link opacity-0 transition-opacity group-hover:opacity-100"
           tabIndex={-1}
         >
           {t('common.open')}
@@ -386,8 +385,8 @@ export default function SearchPage() {
       header={
         <div className="space-y-4">
           <div>
-            <h1 className="text-2xl font-semibold text-white">{t('search.heading')}</h1>
-            <p className="mt-1 text-sm text-slate-400">{t('search.whatFor')}</p>
+            <h1 className="text-2xl font-semibold hallmark-text-primary">{t('search.heading')}</h1>
+            <p className="mt-1 text-sm hallmark-text-secondary">{t('search.whatFor')}</p>
           </div>
           <div className="flex gap-3">
             <div className="relative flex-1">
@@ -405,7 +404,7 @@ export default function SearchPage() {
                   }
                 }}
                 placeholder={t('search.placeholder')}
-                className="w-full rounded-xl border border-white/[0.08] bg-slate-900/80 py-2.5 pl-10 pr-3 text-sm text-white outline-none transition-all focus:border-emerald-400/30 focus:shadow-[0_0_0_1px_rgba(52,211,153,0.15)]"
+                className="w-full rounded-xl border border-white/[0.08] bg-slate-900/80 py-2.5 pl-10 pr-3 text-sm text-white outline-none search-focus-ring"
                 aria-label={t('search.placeholder')}
                 autoComplete="off"
                 spellCheck={false}
@@ -417,7 +416,7 @@ export default function SearchPage() {
               setType(event.target.value as KnowledgeItemType | '')
               setSelectedIndex(-1)
             }}
-              className="rounded-xl border border-white/[0.08] bg-slate-900/80 px-3 py-2.5 text-sm text-white outline-none transition-all focus:border-emerald-400/30"
+              className="rounded-xl border border-white/[0.08] bg-slate-900/80 px-3 py-2.5 text-sm text-white outline-none search-focus-ring"
             >
               <option value="">{t('common.all')}</option>
               {coreResultTypes.map((itemType) => <option key={itemType} value={itemType}>{t(`knowledgeTypes.${itemType}`)}</option>)}
@@ -435,7 +434,7 @@ export default function SearchPage() {
                   setMode(e.target.checked ? 'deep' : 'quick')
                   setSelectedIndex(-1)
                 }}
-                className="rounded border-slate-700 bg-slate-800 text-emerald-500 focus:ring-emerald-500 focus:ring-offset-slate-900"
+                className="rounded border-slate-700 bg-slate-800 hallmark-accent-text focus:ring-2 focus:ring-hallmark-accent-dim focus:ring-offset-slate-900"
               />
               {t('search.searchInDetails', 'Search in details (Deep Search)')}
             </label>

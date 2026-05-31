@@ -2,6 +2,7 @@ import { useMemo } from 'react'
 import { Link, useSearchParams } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import { HelpCircle, Shield, Wrench } from 'lucide-react'
+import { StaggerContainer, StaggerItem } from '../components/common/StaggerContainer'
 import { Badge } from '../components/common/Badge'
 import { EmptyState } from '../components/common/EmptyState'
 import { FormattedText } from '../components/common/FormattedText'
@@ -112,8 +113,9 @@ export default function FixHubPage() {
             {!troubleshooters.length ? (
               <EmptyState title={t('troubleshooters.empty')} description={t('troubleshooters.emptyBody')} />
             ) : (
-              <div className="grid gap-3 sm:grid-cols-2">
+              <StaggerContainer className="grid gap-3 sm:grid-cols-2">
                 {troubleshooters.slice(0, 10).map((item) => (
+                  <StaggerItem key={item.id}>
                   <Link
                     key={item.id}
                     to={`/troubleshooters/${item.skillId}`}
@@ -132,8 +134,9 @@ export default function FixHubPage() {
                       <FormattedText text={getLocalizedText(item.overview, lang)} className="text-xs leading-5 text-slate-400" />
                     </div>
                   </Link>
+                </StaggerItem>
                 ))}
-              </div>
+              </StaggerContainer>
             )}
           </div>
         )
@@ -173,8 +176,9 @@ export default function FixHubPage() {
             {!filteredLayers.length ? (
               <EmptyState title={t('defense.empty')} />
             ) : (
-              <div className="grid gap-3 sm:grid-cols-2">
+              <StaggerContainer className="grid gap-3 sm:grid-cols-2">
                 {filteredLayers.slice(0, 10).map((layer) => (
+                  <StaggerItem key={layer.id}>
                   <Link
                     key={layer.id}
                     to={`/defense/${layer.id}`}
@@ -188,8 +192,9 @@ export default function FixHubPage() {
                       <FormattedText text={getLocalizedText(layer.threat, lang)} className="text-xs leading-5 text-slate-400" />
                     </div>
                   </Link>
+                </StaggerItem>
                 ))}
-              </div>
+              </StaggerContainer>
             )}
           </div>
         )
@@ -202,15 +207,15 @@ export default function FixHubPage() {
   return (
     <PageShell
       header={
-        <div className="relative overflow-hidden rounded-3xl border border-white/[0.06] bg-slate-900/30 p-8 hero-blob-fix">
-          <div className="pointer-events-none absolute -right-16 -top-16 h-48 w-48 rounded-full bg-amber-400/5 blur-[80px]" />
+        <div className="relative overflow-hidden rounded-3xl border border-white/[0.06] bg-slate-900/30 p-8 hallmark-hero">
+          <div className="pointer-events-none absolute -right-16 -top-16 h-48 w-48 rounded-full hallmark-blur-blob blur-[80px]" />
           <div className="relative z-10 space-y-4">
             <div className="flex items-center gap-4">
-              <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-gradient-to-br from-amber-500 to-orange-500 shadow-lg shadow-amber-500/20">
+              <div className="flex h-14 w-14 items-center justify-center rounded-2xl hallmark-icon-box">
                 <Wrench className="h-7 w-7 text-slate-950" aria-hidden="true" />
               </div>
               <div>
-                <Badge tone="amber" className="text-[10px] uppercase tracking-widest">{t('nav.fix')}</Badge>
+                <Badge className="hallmark-badge text-[10px] uppercase tracking-widest">{t('nav.fix')}</Badge>
                 <h1 className="mt-1 display-heading text-3xl font-extrabold text-white lg:text-4xl">{t('modeUx.fix.heading')}</h1>
                 <p className="mt-1 max-w-2xl text-base leading-relaxed text-slate-400">{t('modeUx.fix.subtitle')}</p>
               </div>
@@ -224,7 +229,6 @@ export default function FixHubPage() {
           { id: 'troubleshooters', labelKey: 'nav.troubleshooters', icon: HelpCircle },
           { id: 'defense', labelKey: 'nav.defense', icon: Shield },
         ]}
-        accent="amber"
         className="mb-6"
       />
 

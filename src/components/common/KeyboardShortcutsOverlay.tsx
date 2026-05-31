@@ -1,4 +1,5 @@
 import { useEffect, useRef } from 'react'
+import { AnimatePresence, motion } from 'framer-motion'
 import { useTranslation } from 'react-i18next'
 import { useUiStore } from '../../stores/useUiStore'
 import { cn } from '../../utils/cn'
@@ -89,24 +90,33 @@ export const KeyboardShortcutsOverlay = () => {
     return () => window.removeEventListener('keydown', handleTab)
   }, [show])
 
-  if (!show) return null
-
   return (
-    <div
-      className="fixed inset-0 z-50 flex items-center justify-center bg-slate-950/70 backdrop-blur-sm animate-fade-in"
-      onClick={() => setShow(false)}
-      onKeyDown={(event) => {
-        if (event.key === 'Escape') setShow(false)
-      }}
-      role="dialog"
-      aria-modal="true"
-      aria-label={t('shortcuts.heading')}
-    >
-      <div
-        ref={dialogRef}
-        className="relative mx-4 w-full max-w-lg animate-scale-in rounded-2xl border border-white/[0.08] bg-slate-900/95 p-6 shadow-2xl backdrop-blur-2xl"
-        onClick={(event) => event.stopPropagation()}
-      >
+    <AnimatePresence>
+      {show && (
+        <motion.div
+          key="shortcuts-overlay"
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          exit={{ opacity: 0 }}
+          transition={{ duration: 0.15 }}
+          className="fixed inset-0 z-50 flex items-center justify-center bg-slate-950/70 backdrop-blur-sm"
+          onClick={() => setShow(false)}
+          onKeyDown={(event) => {
+            if (event.key === 'Escape') setShow(false)
+          }}
+          role="dialog"
+          aria-modal="true"
+          aria-label={t('shortcuts.heading')}
+        >
+          <motion.div
+            ref={dialogRef}
+            initial={{ opacity: 0, scale: 0.95, y: 10 }}
+            animate={{ opacity: 1, scale: 1, y: 0 }}
+            exit={{ opacity: 0, scale: 0.95, y: 10 }}
+            transition={{ duration: 0.2, ease: 'easeOut' }}
+            className="relative mx-4 w-full max-w-lg rounded-2xl border border-white/[0.08] bg-slate-900/95 p-6 shadow-2xl backdrop-blur-2xl"
+            onClick={(event) => event.stopPropagation()}
+          >
         {/* Header */}
         <div className="mb-6 flex items-center justify-between">
           <div className="flex items-center gap-3">
@@ -173,7 +183,9 @@ export const KeyboardShortcutsOverlay = () => {
             {t('shortcuts.tip')}
           </p>
         </div>
-      </div>
-    </div>
+      </motion.div>
+    </motion.div>
+  )}
+    </AnimatePresence>
   )
 }

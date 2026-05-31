@@ -1,6 +1,7 @@
 import { useMemo, useState, useCallback } from 'react'
 import { Link, useNavigate, useSearchParams } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
+import { StaggerContainer, StaggerItem } from '../components/common/StaggerContainer'
 import {
   ArrowRight,
   ChevronDown,
@@ -173,7 +174,7 @@ export default function StudyPage() {
 
         {/* Info card only on Desktop Sidebar */}
         <div className="hidden mt-6 lg:block space-y-4">
-          <div className="rounded-2xl border border-white/[0.06] bg-gradient-to-br from-slate-900/40 to-slate-950/40 p-5">
+          <div className="rounded-2xl border border-white/[0.06] bg-slate-900/20 p-5 hallmark-hero">
             <h3 className="text-xs font-bold uppercase tracking-widest text-slate-500">{t('modeUx.study.heading')}</h3>
             <p className="mt-3 text-xs leading-5 text-slate-400">{t('modeUx.study.subtitle')}</p>
           </div>
@@ -287,7 +288,7 @@ export default function StudyPage() {
             title={recentOnly ? t('studyPage.noRecentInDomain') : t('common.empty')}
           />
         ) : (
-          <div className="grid gap-3">
+          <StaggerContainer className="grid gap-3">
             {visibleSkills.map((skill, idx) => {
               const isExpanded = expandedSkills.has(skill.id)
               const isRecent = recentlyViewedTimestamps[skill.id]
@@ -302,6 +303,7 @@ export default function StudyPage() {
               const keyConcepts = getLocalizedArray(skill.keyConcepts, lang)
 
               return (
+                <StaggerItem key={skill.id}>
                 <div
                   key={skill.id}
                   className="group relative overflow-hidden rounded-2xl border border-white/[0.06] bg-slate-900/40 transition-all duration-300 hover:border-white/10 hover:bg-slate-900/60 hover:shadow-[0_8px_30px_rgb(0,0,0,0.12)]"
@@ -455,7 +457,7 @@ export default function StudyPage() {
                                 e.stopPropagation()
                                 toggleExpanded(skill.id)
                               }}
-                              aria-label={isExpanded ? 'Collapse details' : 'Expand details'}
+                              aria-label={isExpanded ? t('studyPage.collapseDetails') : t('studyPage.expandDetails')}
                             >
                               <ChevronDown
                                 className={cn(
@@ -480,23 +482,22 @@ export default function StudyPage() {
                     </>
                   )}
                 </div>
-              )
-            })}
-          </div>
+              </StaggerItem>
+            )
+          })}
+          </StaggerContainer>
         )}
-      </main>
-
-      {/* Right Sidebar: Contextual Hints */}
+      </main>        {/* Right Sidebar: Contextual Hints */}
       <aside className="space-y-4 xl:sticky xl:top-6 xl:self-start">
         <div className="rounded-3xl border border-white/[0.06] bg-slate-900/20 p-6">
           <div className="flex items-center gap-2 mb-4">
-            <div className="h-1.5 w-1.5 rounded-full bg-emerald-400" />
+            <div className="h-1.5 w-1.5 rounded-full bg-hallmark-accent" />
             <h3 className="text-xs font-bold uppercase tracking-widest text-white">{t('modeUx.rail.next')}</h3>
           </div>
           <p className="text-xs leading-5 text-slate-400">{t('modeUx.study.rail')}</p>
         </div>
 
-        <div className="rounded-3xl border border-white/[0.06] bg-slate-900/20 p-6">
+        <div className="rounded-3xl border border-white/[0.06] bg-slate-900/20 p-6 hallmark-hero">
           <h3 className="mb-4 text-xs font-bold uppercase tracking-widest text-white">{t('modeUx.rail.related')}</h3>
           <div className="grid grid-cols-1 gap-2">
             {[
@@ -507,9 +508,9 @@ export default function StudyPage() {
               <Link
                 key={link.to}
                 to={link.to}
-                className="flex items-center gap-3 rounded-xl border border-white/[0.04] bg-white/[0.02] px-4 py-3 text-sm font-medium text-slate-300 transition-all hover:border-emerald-400/20 hover:bg-emerald-400/5 hover:text-emerald-100"
+                className="flex items-center gap-3 rounded-xl border border-white/[0.04] bg-white/[0.02] px-4 py-3 text-sm font-medium text-slate-300 hallmark-card-hover"
               >
-                <link.icon className="h-4 w-4 text-emerald-400/60" />
+                <link.icon className="h-4 w-4 text-hallmark-text-accent opacity-60" />
                 {t(link.key)}
               </Link>
             ))}

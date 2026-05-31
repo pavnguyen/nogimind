@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState, type FormEvent } from 'react'
 import { Menu, Search, Command } from 'lucide-react'
+import { AnimatePresence, motion } from 'framer-motion'
 import { useNavigate } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import { LanguageSwitcher } from '../i18n/LanguageSwitcher'
@@ -108,8 +109,8 @@ export const Header = () => {
 
         {/* Search */}
         <div ref={rootRef} className="relative w-full max-w-md">
-          <form onSubmit={submitSearch} className="group flex items-center gap-2 rounded-lg border border-white/[0.08] bg-slate-900/80 px-3 py-1.5 transition-all focus-within:border-emerald-400/30 focus-within:bg-slate-900/60 focus-within:shadow-[0_0_0_1px_rgba(52,211,153,0.15)]">
-            <Search className="h-4 w-4 shrink-0 text-slate-500 transition-colors group-focus-within:text-emerald-400" aria-hidden="true" />
+          <form onSubmit={submitSearch} className="search-focus-ring group flex items-center gap-2 rounded-lg border border-white/[0.08] bg-slate-900/80 px-3 py-1.5 transition-all">
+            <Search className="h-4 w-4 shrink-0 text-slate-500 transition-colors group-focus-within:text-hallmark-text-accent" aria-hidden="true" />
             <input
               ref={inputRef}
               value={query}
@@ -131,8 +132,17 @@ export const Header = () => {
               <span>K</span>
             </kbd>
           </form>
+          <AnimatePresence>
           {canSuggest && (
-            <div id="search-suggestions" role="listbox" className="absolute left-0 right-0 top-[calc(100%+6px)] z-30 animate-scale-in rounded-xl border border-white/[0.08] bg-slate-950/95 p-2 shadow-glow-lg backdrop-blur-2xl">
+            <motion.div
+              id="search-suggestions"
+              role="listbox"
+              initial={{ opacity: 0, scale: 0.95, y: -4 }}
+              animate={{ opacity: 1, scale: 1, y: 0 }}
+              exit={{ opacity: 0, scale: 0.95, y: -4 }}
+              transition={{ duration: 0.15, ease: 'easeOut' }}
+              className="absolute left-0 right-0 top-[calc(100%+6px)] z-30 rounded-xl border border-white/[0.08] bg-slate-950/95 p-2 shadow-glow-lg backdrop-blur-2xl"
+            >
               {isSearching ? (
                 <p className="px-3 py-3 text-center text-sm text-slate-500">{t('common.loading')}</p>
               ) : visibleSuggestions.length ? (
@@ -148,9 +158,9 @@ export const Header = () => {
                       }}
                       className="group flex items-start gap-3 rounded-lg border border-transparent px-3 py-2.5 text-left transition-all hover:border-white/[0.06] hover:bg-white/[0.04]"
                     >
-                      <Badge tone="cyan" className="mt-0.5 shrink-0 text-[10px]">{t(`knowledgeTypes.${result.type}`)}</Badge>
+                      <Badge className="hallmark-badge mt-0.5 shrink-0 text-[10px]">{t(`knowledgeTypes.${result.type}`)}</Badge>
                       <div className="min-w-0 flex-1">
-                        <p className="truncate text-sm font-medium text-white group-hover:text-emerald-100">
+                        <p className="truncate text-sm font-medium text-white hallmark-search-result-hover">
                           {getLocalizedText(result.title, language)}
                         </p>
                         <p className="mt-0.5 line-clamp-1 text-xs text-slate-500">
@@ -165,7 +175,7 @@ export const Header = () => {
                       navigate('/search')
                       setOpen(false)
                     }}
-                    className="mt-1 rounded-lg border border-emerald-400/15 px-3 py-2 text-center text-sm font-medium text-emerald-100 transition-all hover:bg-emerald-400/10"
+                    className="hallmark-search-open-btn mt-1 rounded-lg border px-3 py-2 text-center text-sm font-medium"
                   >
                     {t('search.openFullResults')}
                   </button>
@@ -173,8 +183,9 @@ export const Header = () => {
               ) : (
                 <p className="px-3 py-3 text-center text-sm text-slate-500">{t('search.noResults')}</p>
               )}
-            </div>
+            </motion.div>
           )}
+          </AnimatePresence>
         </div>
 
         <LanguageSwitcher />

@@ -1,8 +1,9 @@
 import { useMemo } from 'react'
 import { Link, useSearchParams } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
-import { ArrowRight, BadgeInfo, BookOpen, Layers3, Map, ShieldCheck, Sparkles, Target, Compass } from 'lucide-react'
-import { Badge } from '../components/common/Badge'
+import { ArrowRight, BookOpen, Layers3, Map, ShieldCheck, Sparkles, Target, Compass } from 'lucide-react'
+import { StaggerContainer, StaggerItem } from '../components/common/StaggerContainer'
+import { Badge, type BadgeTone } from '../components/common/Badge'
 import { EmptyState } from '../components/common/EmptyState'
 import { HubTabBar } from '../components/layout/HubTabBar'
 import { PageShell } from '../components/common/PageShell'
@@ -20,10 +21,10 @@ type LearnStep = {
 
 type LearnTrack = {
   id: string
-  badgeTone: 'emerald' | 'cyan' | 'amber'
+  badgeTone: BadgeTone
   title: string
   description: string
-  icon: typeof BadgeInfo
+  icon: typeof Target
   steps: LearnStep[]
 }
 
@@ -104,32 +105,34 @@ export default function LearnPage() {
     switch (activeTab) {
       case 'path':
         return (
-          <div className="grid gap-4 xl:grid-cols-2">
+          <StaggerContainer className="grid gap-4 xl:grid-cols-2">
             {tracks.map((item) => (
-              <SectionCard key={item.id} className="h-full" title={item.title} description={item.description}>
-                <div className="space-y-4">
-                  <Badge tone={item.badgeTone}>
-                    {item.id === 'beginner' ? t('learn.badges.startHere') : item.id === 'fix' ? t('learn.badges.mostPractical') : item.id === 'build' ? t('learn.badges.advanced') : t('learn.badges.deepTechnique')}
-                  </Badge>
-                  <item.icon className="h-5 w-5 text-cyan-300" aria-hidden="true" />
-                  <div className="grid gap-3">
-                    {item.steps.map((step, index) => (
-                      <Link key={step.to + step.title} to={step.to} id={index === 0 ? item.id : undefined} className="rounded-lg border border-white/10 bg-slate-900/65 p-4 transition hover:border-cyan-300/35 hover:bg-white/[0.06]">
-                        <div className="flex items-start gap-3">
-                          <Badge tone="cyan">{index + 1}</Badge>
-                          <div className="min-w-0">
-                            <p className="text-sm font-semibold text-white">{step.title}</p>
-                            <p className="mt-2 text-sm leading-6 text-slate-400">{step.body}</p>
+              <StaggerItem key={item.id}>
+                <SectionCard key={item.id} className="h-full" title={item.title} description={item.description}>
+                  <div className="space-y-4">
+                    <Badge tone={item.badgeTone}>
+                      {item.id === 'beginner' ? t('learn.badges.startHere') : item.id === 'fix' ? t('learn.badges.mostPractical') : item.id === 'build' ? t('learn.badges.advanced') : t('learn.badges.deepTechnique')}
+                    </Badge>
+                    <item.icon className="h-5 w-5 text-cyan-300" aria-hidden="true" />
+                    <div className="grid gap-3">
+                      {item.steps.map((step, index) => (
+                        <Link key={step.to + step.title} to={step.to} id={index === 0 ? item.id : undefined} className="rounded-lg border border-white/10 bg-slate-900/65 p-4 transition hover:border-cyan-300/35 hover:bg-white/[0.06]">
+                          <div className="flex items-start gap-3">
+                            <Badge tone="cyan">{index + 1}</Badge>
+                            <div className="min-w-0">
+                              <p className="text-sm font-semibold text-white">{step.title}</p>
+                              <p className="mt-2 text-sm leading-6 text-slate-400">{step.body}</p>
+                            </div>
+                            <ArrowRight className="mt-0.5 h-4 w-4 shrink-0 text-cyan-300" aria-hidden="true" />
                           </div>
-                          <ArrowRight className="mt-0.5 h-4 w-4 shrink-0 text-cyan-300" aria-hidden="true" />
-                        </div>
-                      </Link>
-                    ))}
+                        </Link>
+                      ))}
+                    </div>
                   </div>
-                </div>
-              </SectionCard>
+                </SectionCard>
+              </StaggerItem>
             ))}
-          </div>
+          </StaggerContainer>
         )
 
       case 'positions':
@@ -147,23 +150,24 @@ export default function LearnPage() {
             {positions.length === 0 ? (
               <EmptyState title={t('positions.empty')} />
             ) : (
-              <div className="grid gap-3 sm:grid-cols-2 xl:grid-cols-3">
+              <StaggerContainer className="grid gap-3 sm:grid-cols-2 xl:grid-cols-3">
                 {positions.slice(0, 12).map((position) => (
-                  <Link
-                    key={position.id}
-                    to={`/positions/${position.id}`}
-                    className="group rounded-xl border border-white/[0.06] bg-slate-900/40 p-4 transition-all hover:border-cyan-400/20 hover:bg-slate-900/70"
-                  >
-                    <Badge tone="cyan" className="text-[10px]">{t(`positionCategories.${position.category}`)}</Badge>
-                    <h3 className="mt-2 text-sm font-semibold text-white group-hover:text-cyan-300 transition-colors">
-                      {getLocalizedText(position.title, lang)}
-                    </h3>
-                    <p className="mt-1 line-clamp-2 text-xs leading-5 text-slate-400">
-                      {getLocalizedText(position.description, lang)}
-                    </p>
-                  </Link>
+                  <StaggerItem key={position.id}>
+                    <Link
+                      to={`/positions/${position.id}`}
+                      className="group rounded-xl border border-white/[0.06] bg-slate-900/40 p-4 transition-all hover:border-cyan-400/20 hover:bg-slate-900/70"
+                    >
+                      <Badge tone="cyan" className="text-[10px]">{t(`positionCategories.${position.category}`)}</Badge>
+                      <h3 className="mt-2 text-sm font-semibold text-white group-hover:text-cyan-300 transition-colors">
+                        {getLocalizedText(position.title, lang)}
+                      </h3>
+                      <p className="mt-1 line-clamp-2 text-xs leading-5 text-slate-400">
+                        {getLocalizedText(position.description, lang)}
+                      </p>
+                    </Link>
+                  </StaggerItem>
                 ))}
-              </div>
+              </StaggerContainer>
             )}
           </div>
         )
@@ -183,26 +187,27 @@ export default function LearnPage() {
             {concepts.length === 0 ? (
               <EmptyState title={t('concepts.empty')} />
             ) : (
-              <div className="grid gap-3 sm:grid-cols-2 xl:grid-cols-3">
+              <StaggerContainer className="grid gap-3 sm:grid-cols-2 xl:grid-cols-3">
                 {concepts.slice(0, 12).map((concept) => (
-                  <Link
-                    key={concept.id}
-                    to={`/concepts/${concept.id}`}
-                    className="group rounded-xl border border-white/[0.06] bg-slate-900/40 p-4 transition-all hover:border-cyan-400/20 hover:bg-slate-900/70"
-                  >
-                    <div className="flex flex-wrap gap-1.5">
-                      <Badge tone="cyan" className="text-[10px]">{t(`conceptCategories.${concept.category}`)}</Badge>
-                      <Badge tone="emerald" className="text-[10px]">{t(`conceptLevels.${concept.level}`)}</Badge>
-                    </div>
-                    <h3 className="mt-2 text-sm font-semibold text-white group-hover:text-cyan-300 transition-colors">
-                      {getLocalizedText(concept.title, lang)}
-                    </h3>
-                    <p className="mt-1 line-clamp-2 text-xs leading-5 text-slate-400">
-                      {getLocalizedText(concept.shortDefinition, lang)}
-                    </p>
-                  </Link>
+                  <StaggerItem key={concept.id}>
+                    <Link
+                      to={`/concepts/${concept.id}`}
+                      className="group rounded-xl border border-white/[0.06] bg-slate-900/40 p-4 transition-all hover:border-cyan-400/20 hover:bg-slate-900/70"
+                    >
+                      <div className="flex flex-wrap gap-1.5">
+                        <Badge tone="cyan" className="text-[10px]">{t(`conceptCategories.${concept.category}`)}</Badge>
+                        <Badge tone="emerald" className="text-[10px]">{t(`conceptLevels.${concept.level}`)}</Badge>
+                      </div>
+                      <h3 className="mt-2 text-sm font-semibold text-white group-hover:text-cyan-300 transition-colors">
+                        {getLocalizedText(concept.title, lang)}
+                      </h3>
+                      <p className="mt-1 line-clamp-2 text-xs leading-5 text-slate-400">
+                        {getLocalizedText(concept.shortDefinition, lang)}
+                      </p>
+                    </Link>
+                  </StaggerItem>
                 ))}
-              </div>
+              </StaggerContainer>
             )}
           </div>
         )
@@ -215,22 +220,22 @@ export default function LearnPage() {
   return (
     <PageShell
       header={
-        <div className="relative overflow-hidden rounded-3xl border border-white/[0.06] bg-slate-900/30 p-8 hero-blob-learn">
-          <div className="pointer-events-none absolute -right-16 -top-16 h-48 w-48 rounded-full bg-cyan-400/5 blur-[80px]" />
+        <div className="relative overflow-hidden rounded-3xl border border-white/[0.06] bg-slate-900/30 p-8 hallmark-hero">
+          <div className="pointer-events-none absolute -right-16 -top-16 h-48 w-48 rounded-full hallmark-blur-blob blur-[80px]" />
           <div className="relative z-10 space-y-4">
             <div className="flex items-center gap-4">
-              <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-gradient-to-br from-cyan-400 to-blue-400 shadow-lg shadow-cyan-500/20">
+              <div className="flex h-14 w-14 items-center justify-center rounded-2xl hallmark-icon-box">
                 <Compass className="h-7 w-7 text-slate-950" aria-hidden="true" />
               </div>
               <div>
-                <Badge tone="cyan" className="text-[10px] uppercase tracking-widest">{t('nav.learn')}</Badge>
+                <Badge className="hallmark-badge text-[10px] uppercase tracking-widest">{t('nav.learn')}</Badge>
                 <h1 className="mt-1 display-heading text-3xl font-extrabold text-white lg:text-4xl">{t('learn.heading')}</h1>
                 <p className="mt-1 text-sm text-slate-400">{t('learn.subtitle')}</p>
               </div>
             </div>
             <Link
               to="/skills"
-              className="inline-flex items-center gap-2 rounded-xl border border-cyan-400/20 bg-cyan-400/10 px-4 py-2.5 text-sm font-medium text-cyan-200 transition-all hover:border-cyan-400/30 hover:bg-cyan-400/20"
+              className="inline-flex items-center gap-2 rounded-xl hallmark-btn-ghost border border-hallmark-accent-dim bg-hallmark-accent-dim px-4 py-2.5 text-sm font-medium text-hallmark-text-accent"
             >
               <ArrowRight className="h-4 w-4" aria-hidden="true" />
               {t('learn.primaryAction')}
@@ -245,7 +250,6 @@ export default function LearnPage() {
           { id: 'positions', labelKey: 'nav.positions', icon: Map },
           { id: 'concepts', labelKey: 'nav.concepts', icon: BookOpen },
         ]}
-        accent="cyan"
         className="mb-6"
       />
 

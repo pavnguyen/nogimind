@@ -21,7 +21,6 @@ export const vi = {
     positions: 'Vị trí',
     troubleshooters: 'Xử lý lỗi',
     archetypes: 'Kiểu game',
-    mastery: 'Trưởng thành',
     modernSystems: 'Hệ hiện đại',
     defense: 'An toàn',
     glossary: 'Thuật ngữ',
@@ -92,10 +91,10 @@ export const vi = {
         skills: { title: 'Bản đồ kỹ năng', body: 'Chọn hành động giải quyết vị trí.' },
 
         archetypes: { title: 'Kiểu game', body: 'Dùng phong cách như một khung tham khảo.' },
-        mastery: { title: 'Trưởng thành', body: 'Xem thứ tự học dài hạn.' },
       },
     },
     reference: {
+      badge: 'Tra cứu',
       heading: 'Tra cứu',
       subtitle: 'Dùng khi cần thuật ngữ, cue, chi tiết nhỏ, concept hoặc luật an toàn thật nhanh.',
       items: {
@@ -105,7 +104,6 @@ export const vi = {
         troubleshooters: { title: 'Sửa lỗi', body: 'Chẩn đoán vì sao submission hoặc control chưa chạy.' },
 
         archetypes: { title: 'Archetype', body: 'Dùng một kiểu game làm template tập luyện.' },
-        mastery: { title: 'Trưởng thành', body: 'Xem thứ tự học dài hạn.' },
         defense: { title: 'An toàn', body: 'Layer phòng thủ và cảnh báo kỹ thuật nguy hiểm.' },
         search: { title: 'Tìm kiếm', body: 'Tìm skill, contact, thuật ngữ và cue sửa lỗi.' },
         philosophy: { title: 'Triết lý', body: 'Cách NoGi Mind tổ chức no-gi hiện đại.' },
@@ -489,6 +487,7 @@ export const vi = {
     liveCue: 'Chỉ dẫn khi roll',
     finishingMechanics: 'Cơ chế finish',
     finishChecklist: 'Checklist finish',
+    coachingCues: 'Chỉ dẫn huấn luyện',
     falseFinishSignals: 'Tín hiệu finish giả',
     requiredIsolation: 'Isolation cần có',
     microAdjustments: 'Micro-adjustment',
@@ -647,6 +646,7 @@ export const vi = {
       skillInsight: 'Góc nhìn kỹ năng',
       glossary: 'Thuật ngữ trong ngày',
       principle: 'Nguyên lý trong ngày',
+      refresh: 'Đổi kỹ năng',
     },
     weakestDomain: 'Mảng yếu nhất',
     strongestDomain: 'Mảng mạnh nhất',
@@ -713,6 +713,7 @@ export const vi = {
     goal: 'Mục tiêu chính',
     useThisSkillWhen: 'Dùng kỹ năng này khi',
     quickStart: 'Bắt đầu nhanh',
+    coachingCues: 'Chỉ dẫn huấn luyện',
     moneyDetails: 'Chi tiết then chốt',
     qualityCheck: 'Kiểm tra chất lượng',
     keyTerms: 'Thuật ngữ chính',
@@ -736,6 +737,11 @@ export const vi = {
   },
   cardOS: {
     systemLogic: 'Logic hệ thống',
+    corePrinciple: 'Nguyên lý cốt lõi',
+    decisionTree: 'Cây quyết định',
+    exitStrategies: 'Chiến lược thoát',
+    whyItWorks: 'Vì sao hiệu quả',
+    printCard: 'In thẻ',
     bodyPosition: 'Vị trí cơ thể',
     moneyDetails: 'Phân tích chi tiết',
     outcomesBranches: 'Kết quả & Nhánh tiếp',
@@ -796,7 +802,7 @@ export const vi = {
     },
   },
   video: {
-    videoReferences: 'Video tham khảo',
+    videoReferences: 'Video',
     watch: 'Xem',
     whatToWatchFor: 'Cần chú ý điều gì',
     timestamps: 'Mốc thời gian',
@@ -815,6 +821,7 @@ export const vi = {
     unavailableHint: 'Video có thể đã bị xóa hoặc chuyển chế độ riêng tư bởi người đăng.',
     retry: 'Thử lại',
     reportBroken: 'Báo video hỏng',
+    startAt: 'Bắt đầu lúc {{time}}',
     reportSuccess: 'Cảm ơn! Chúng tôi sẽ xem xét video này.',
     level: {
       beginner: 'Cơ bản',
@@ -917,6 +924,7 @@ export const vi = {
       skills: 'Học skill liên quan',
       details: 'Học chi tiết kỹ thuật',
       escapes: 'Học đường thoát của đối thủ',
+      chains: 'Học chuỗi đòn',
     },
     search: 'Tìm vị trí, control point hoặc tín hiệu nguy hiểm',
     empty: 'Không có vị trí nào khớp bộ lọc.',
@@ -1116,7 +1124,6 @@ export const vi = {
 
     problem: 'Vấn đề',
     archetype: 'Kiểu game',
-    mastery: 'Bản đồ phát triển kỹ năng',
     quality_check: 'Kiểm tra chất lượng kỹ thuật',
     quick_card: 'Chế độ nhanh',
   },
@@ -1148,17 +1155,6 @@ export const vi = {
     back: 'Quay lại',
     notFoundTitle: 'Không tìm thấy tri thức dùng chung',
     notFoundBody: 'Nguyên lý hoặc chỉ dẫn này chưa có trong bản đồ hiện tại.',
-  },
-  mastery: {
-    ...en.mastery,
-    heading: 'Bản đồ phát triển kỹ năng',
-    subtitle: 'Roadmap khái niệm từ survival tới tư duy no-gi cấp cao. Đây là độ chín kỹ năng, không phải lời hứa lên đai.',
-    whatFor: 'Dùng trang này khi bạn muốn một roadmap học dài hạn.',
-    whenToUse: 'Mở khi bạn muốn biết bước nào quan trọng tiếp theo ở giai đoạn hiện tại.',
-    nextStep: 'Quay lại lộ trình học hoặc bản đồ kỹ năng.',
-    whatToLearn: 'Cần học',
-    commonMistakes: 'Lỗi thường gặp',
-    highLevelExecution: 'Cách thực thi cấp cao',
   },
   glossary: {
     heading: 'Thuật ngữ',
@@ -1202,6 +1198,7 @@ export const vi = {
   settings: {
     heading: 'Cài đặt',
     subtitle: 'Ngôn ngữ, giao diện và dữ liệu knowledge-system local.',
+    installApp: 'App',
     language: 'Ngôn ngữ',
     viewMode: 'Độ sâu học',
     simple: 'Đơn giản',
@@ -1217,6 +1214,7 @@ export const vi = {
     resetData: 'Xóa dữ liệu local',
     resetWarning: 'Thao tác này xóa dữ liệu local khỏi localStorage.',
     imported: 'Đã nhập dữ liệu local.',
+    updated: 'Cập nhật {{date}}',
     importError: 'Không nhập được JSON này.',
   },
 }

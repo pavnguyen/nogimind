@@ -127,7 +127,7 @@ export default function ReferencePage() {
               className="group block rounded-2xl border border-white/[0.06] bg-slate-900/40 p-6 transition-all hover:border-slate-400/20 hover:bg-slate-900/70"
             >
               <div className="flex items-center gap-4">
-                <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-slate-400/10 text-slate-300">
+                <div className="flex h-12 w-12 items-center justify-center rounded-xl hallmark-accent-bg hallmark-accent-text">
                   <SearchIcon className="h-6 w-6" aria-hidden="true" />
                 </div>
                 <div>
@@ -157,13 +157,13 @@ export default function ReferencePage() {
               <div className="space-y-4 text-sm leading-6 text-slate-300">
                 <p>{t('about.philosophy')}</p>
                 <p>{t('about.system')}</p>
-                <p className="text-amber-100">{t('about.safety')}</p>
+                <p className="hallmark-text-caution">{t('about.safety')}</p>
               </div>
             </SectionCard>
             <SectionCard title={t('detail.concepts')}>
               <div className="flex flex-wrap gap-2">
                 {(t('about.themes', { returnObjects: true }) as string[]).map((theme: string) => (
-                  <Badge key={theme} tone="emerald">{theme}</Badge>
+                  <Badge className="hallmark-badge" key={theme}>{theme}</Badge>
                 ))}
               </div>
             </SectionCard>
@@ -178,15 +178,15 @@ export default function ReferencePage() {
   return (
     <PageShell
       header={
-        <div className="relative overflow-hidden rounded-3xl border border-white/[0.06] bg-slate-900/30 p-8 hero-blob-reference">
-          <div className="pointer-events-none absolute -right-16 -top-16 h-48 w-48 rounded-full bg-slate-400/5 blur-[80px]" />
+        <div className="relative overflow-hidden rounded-3xl border border-white/[0.06] bg-slate-900/30 p-8 hallmark-hero">
+          <div className="pointer-events-none absolute -right-16 -top-16 h-48 w-48 rounded-full hallmark-blur-blob blur-[80px]" />
           <div className="relative z-10 space-y-4">
             <div className="flex items-center gap-4">
-              <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-gradient-to-br from-slate-400 to-slate-600 shadow-lg shadow-slate-500/20">
-                <BookOpen className="h-7 w-7 text-white" aria-hidden="true" />
+              <div className="flex h-14 w-14 items-center justify-center rounded-2xl hallmark-icon-box">
+                <BookOpen className="h-7 w-7 text-slate-950" aria-hidden="true" />
               </div>
               <div>
-                <Badge tone="slate" className="text-[10px] uppercase tracking-widest">Reference</Badge>
+                <Badge className="hallmark-badge text-[10px] uppercase tracking-widest">{t('modeUx.reference.badge')}</Badge>
                 <h1 className="mt-1 display-heading text-3xl font-extrabold text-white lg:text-4xl">{t('modeUx.reference.heading')}</h1>
                 <p className="mt-1 max-w-2xl text-base leading-relaxed text-slate-400">{t('modeUx.reference.subtitle')}</p>
               </div>
@@ -201,7 +201,7 @@ export default function ReferencePage() {
           { id: 'search', labelKey: 'nav.search', icon: SearchIcon },
           { id: 'about', labelKey: 'nav.philosophy', icon: Info },
         ]}
-        accent="slate"
+
         className="mb-6"
       />
 

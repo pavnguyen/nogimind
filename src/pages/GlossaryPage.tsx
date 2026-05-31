@@ -55,19 +55,19 @@ export default function GlossaryPage() {
       header={
         <div className="space-y-4">
           <div className="flex items-center gap-3">
-            <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-gradient-to-br from-slate-400 to-slate-600 shadow-lg">
+            <div className="flex h-10 w-10 items-center justify-center rounded-xl hallmark-icon-box">
               <BookOpen className="h-5 w-5 text-slate-950" aria-hidden="true" />
             </div>
             <div>
-              <h1 className="text-2xl font-semibold tracking-tight text-white">{t('glossary.heading')}</h1>
-              <p className="text-sm text-slate-400">{t('glossary.subtitle')}</p>
+              <h1 className="text-2xl font-semibold tracking-tight hallmark-text-primary">{t('glossary.heading')}</h1>
+              <p className="text-sm hallmark-text-secondary">{t('glossary.subtitle')}</p>
             </div>
           </div>
           <input
         value={query}
         onChange={(event) => setQuery(event.target.value)}
         placeholder={t('glossary.q')}
-        className="w-full rounded-md border border-white/10 bg-slate-900 px-3 py-2 text-sm text-white outline-none focus:border-cyan-300"
+        className="w-full rounded-md border border-white/10 bg-slate-900 px-3 py-2 text-sm text-white outline-none search-focus-ring"
       />
     </div>
   }
@@ -93,7 +93,7 @@ export default function GlossaryPage() {
                   {term.relatedSkillIds?.length ? (
                     <div className="mt-3 flex flex-wrap gap-2">
                       {term.relatedSkillIds.map((id) => byId.get(id)).filter(Boolean).map((skill) => (
-                        <Link key={skill?.id} to={`/skills/${skill?.id}`} className="rounded-md border border-cyan-300/20 px-2 py-1 text-xs text-cyan-100">
+                        <Link key={skill?.id} to={`/skills/${skill?.id}`} className="rounded-md hallmark-detail-link px-2 py-1 text-xs">
                           {getLocalizedText(skill?.title, language)}
                         </Link>
                       ))}

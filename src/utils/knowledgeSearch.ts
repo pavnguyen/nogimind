@@ -201,18 +201,17 @@ const buildSearchPayload = async (): Promise<SearchDataBundle> => {
   }
 
   // ── 4. Cache miss — import static modules from source ──
-  const [{ concepts }, { positions }, { glossaryTerms }, { defensiveLayers }, { archetypes }, { masteryStages }, { techniqueStateMachineBySkillId, techniqueStateMachines }] =
+  const [{ concepts }, { positions }, { glossaryTerms }, { defensiveLayers }, { archetypes }, { techniqueStateMachineBySkillId, techniqueStateMachines }] =
     await Promise.all([
       import('../data/concepts'),
       import('../data/positions'),
       import('../data/glossaryTerms'),
       import('../data/defensiveLayers'),
       import('../data/archetypes'),
-      import('../data/masteryStages'),
       import('../data/techniqueStateMachines'),
     ] as const)
 
-  const staticData = { concepts, positions, glossaryTerms, defensiveLayers, archetypes, masteryStages, techniqueStateMachineBySkillId, techniqueStateMachines }
+  const staticData = { concepts, positions, glossaryTerms, defensiveLayers, archetypes, techniqueStateMachineBySkillId, techniqueStateMachines }
 
   logPerf(`[perf] init:imported static modules`)
 

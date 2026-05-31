@@ -38,10 +38,9 @@ export default function ConceptDetailPage() {
       title={getLocalizedText(concept.title, language)}
       subtitle={getLocalizedText(concept.shortDefinition, language)}
       badge={t(`conceptCategories.${concept.category}`)}
-      badgeTone="cyan"
     >
       <div className="mt-2 flex flex-wrap gap-2">
-        <Badge tone="emerald">{t(`conceptLevels.${concept.level}`)}</Badge>
+        <Badge className="hallmark-badge">{t(`conceptLevels.${concept.level}`)}</Badge>
         {concept.tags.slice(0, 6).map((tag) => <Badge key={tag}>{tag}</Badge>)}
       </div>
 
@@ -73,9 +72,9 @@ export default function ConceptDetailPage() {
         <div className="grid gap-3 xl:grid-cols-2">
           {concept.ifThenExamples.map((example, index) => (
             <article key={`${getLocalizedText(example.if, 'en')}-${index}`} className="rounded-lg border border-white/10 bg-slate-900/60 p-4">
-              <p className="text-xs font-semibold uppercase tracking-wide text-amber-200">{t('ifThen.if')}</p>
+              <p className="text-xs font-semibold uppercase tracking-wide hallmark-text-caution">{t('ifThen.if')}</p>
               <p className="mt-1 text-sm leading-6 text-slate-200">{getLocalizedText(example.if, language)}</p>
-              <p className="mt-3 text-xs font-semibold uppercase tracking-wide text-emerald-200">{t('ifThen.then')}</p>
+              <p className="mt-3 text-xs font-semibold uppercase tracking-wide hallmark-text-positive">{t('ifThen.then')}</p>
               <p className="mt-1 text-sm leading-6 text-slate-200">{getLocalizedText(example.then, language)}</p>
               <p className="mt-3 text-xs font-semibold uppercase tracking-wide text-slate-500">{t('ifThen.why')}</p>
               <p className="mt-1 text-sm leading-6 text-slate-400">{getLocalizedText(example.why, language)}</p>
@@ -89,7 +88,7 @@ export default function ConceptDetailPage() {
         <div className="grid gap-3 xl:grid-cols-2">
           {concept.commonMisunderstandings.map((item, index) => (
             <article key={`${getLocalizedText(item.misunderstanding, 'en')}-${index}`} className="rounded-lg border border-white/10 bg-slate-900/60 p-4">
-              <p className="text-sm font-semibold text-rose-200">{getLocalizedText(item.misunderstanding, language)}</p>
+              <p className="text-sm font-semibold hallmark-text-danger">{getLocalizedText(item.misunderstanding, language)}</p>
               <p className="mt-2 text-sm leading-6 text-slate-300">{getLocalizedText(item.correction, language)}</p>
             </article>
           ))}
@@ -103,7 +102,7 @@ export default function ConceptDetailPage() {
         <SectionCard title={t('concepts.relatedConcepts')}>
           <div className="flex flex-wrap gap-2">
             {concept.relatedConceptIds.map((id) => conceptsById.get(id)).filter(Boolean).map((related) => (
-              <Link key={related?.id} to={`/concepts/${related?.id}`} className="rounded-md border border-white/10 px-3 py-2 text-sm text-cyan-200 hover:bg-white/10">
+              <Link key={related?.id} to={`/concepts/${related?.id}`} className="hallmark-detail-link rounded-md border px-3 py-2 text-sm">
                 {getLocalizedText(related?.title, language)}
               </Link>
             ))}
@@ -142,7 +141,7 @@ const SkillLinks = ({
   return (
     <div className="mt-3 flex flex-wrap gap-2">
       {skills.map((skill) => (
-        <Link key={skill?.id} to={`/skills/${skill?.id}`} className="rounded-md border border-cyan-300/20 px-2 py-1 text-xs text-cyan-100 hover:bg-white/10">
+        <Link key={skill?.id} to={`/skills/${skill?.id}`} className="hallmark-detail-link rounded-md border px-2 py-1 text-xs">
           {skill?.name}
         </Link>
       ))}

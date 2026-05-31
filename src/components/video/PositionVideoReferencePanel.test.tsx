@@ -181,7 +181,7 @@ describe('PositionVideoReferencePanel', () => {
 
     render(<PositionVideoReferencePanel skillIds={['skill-1']} />)
 
-    const link = screen.getByText('Start at {time}')
+    const link = screen.getByText('video.startAt')
     expect(link).toBeInTheDocument()
     expect(link.closest('a')).toHaveAttribute(
       'href',

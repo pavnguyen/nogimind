@@ -44,10 +44,10 @@ export default function PositionDetailPage() {
       title={getLocalizedText(position.title, language)}
       subtitle={getLocalizedText(position.description, language)}
       badge={t(`positionCategories.${position.category}`)}
-      badgeTone="cyan"
     >
+
       <div className="mt-2 flex flex-wrap gap-2">
-        <Badge tone={position.status === 'critical' || position.status === 'dangerous' ? 'rose' : 'emerald'}>{t(`positionStatuses.${position.status}`)}</Badge>
+        <Badge tone={position.status === 'critical' || position.status === 'dangerous' ? 'rose' : undefined} className={position.status !== 'critical' && position.status !== 'dangerous' ? 'hallmark-badge' : ''}>{t(`positionStatuses.${position.status}`)}</Badge>
       </div>
 
       <SectionCard title={t('positions.learnStepByStep')}>
@@ -60,7 +60,7 @@ export default function PositionDetailPage() {
             { title: t('positions.stepTitles.chains'), body: t('positions.whatToLearnNext') },
           ].map((step, index) => (
             <article key={step.title} className="rounded-lg border border-white/10 bg-slate-900/60 p-4">
-              <Badge tone="cyan">{index + 1}</Badge>
+              <Badge className="hallmark-badge">{index + 1}</Badge>
               <p className="mt-2 text-sm font-semibold text-white">{step.title}</p>
               <p className="mt-2 text-sm leading-6 text-slate-400">{step.body}</p>
             </article>
@@ -75,7 +75,7 @@ export default function PositionDetailPage() {
           </ul>
         </SectionCard>
         <SectionCard title={t('positions.dangerToRecognize')}>
-          <ul className="space-y-2 text-sm leading-6 text-amber-100">
+          <ul className="space-y-2 text-sm leading-6 hallmark-text-caution">
             {getLocalizedArray(position.dangerSignals, language).slice(0, 4).map((item) => <li key={item}>{item}</li>)}
           </ul>
         </SectionCard>
@@ -111,7 +111,7 @@ export default function PositionDetailPage() {
                 <p className="font-semibold text-white">{getLocalizedText(option.action, language)}</p>
                 <p className="mt-2 text-sm leading-6 text-slate-400">{getLocalizedText(option.why, language)}</p>
                 {next ? (
-                  <Link to={`/positions/${next.id}`} className="mt-3 inline-flex rounded-md border border-emerald-300/20 px-2 py-1 text-xs text-emerald-100 hover:bg-white/10">
+                  <Link to={`/positions/${next.id}`} className="hallmark-detail-link mt-3 inline-flex rounded-md border px-2 py-1 text-xs">
                     {getLocalizedText(next.title, language)}
                   </Link>
                 ) : null}
@@ -135,7 +135,7 @@ export default function PositionDetailPage() {
         <SectionCard title={t('concepts.relatedConcepts')}>
           <div className="flex flex-wrap gap-2">
             {position.relatedConceptIds.map((id) => conceptsById.get(id)).filter(Boolean).map((concept) => (
-              <Link key={concept?.id} to={`/concepts/${concept?.id}`} className="rounded-md border border-white/10 px-3 py-2 text-sm text-cyan-200 hover:bg-white/10">
+              <Link key={concept?.id} to={`/concepts/${concept?.id}`} className="hallmark-detail-link rounded-md border px-3 py-2 text-sm">
                 {getLocalizedText(concept?.title, language)}
               </Link>
             ))}
@@ -159,7 +159,7 @@ export default function PositionDetailPage() {
 
 const ListCard = ({ title, items, tone = 'default' }: { title: string; items: string[]; tone?: 'default' | 'danger' }) => (
   <SectionCard title={title}>
-    <ul className={`space-y-2 text-sm leading-6 ${tone === 'danger' ? 'text-amber-100' : 'text-slate-300'}`}>
+    <ul className={`space-y-2 text-sm leading-6 ${tone === 'danger' ? 'hallmark-text-caution' : 'text-slate-300'}`}>
       {items.map((item) => <li key={item}>{item}</li>)}
     </ul>
   </SectionCard>
@@ -171,7 +171,7 @@ const SkillLinks = ({ ids, skillsById, lang }: { ids: string[]; skillsById: Map<
   return (
     <div className="mt-3 flex flex-wrap gap-2">
       {skills.map((skill) => (
-        <Link key={skill?.id} to={`/skills/${skill?.id}`} className="rounded-md border border-cyan-300/20 px-2 py-1 text-xs text-cyan-100 hover:bg-white/10">
+        <Link key={skill?.id} to={`/skills/${skill?.id}`} className="hallmark-detail-link rounded-md border px-2 py-1 text-xs">
           {getLocalizedText(skill?.title, lang)}
         </Link>
       ))}

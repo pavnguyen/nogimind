@@ -28,7 +28,6 @@ export const en = {
     troubleshooters: 'Troubleshooter',
 
     archetypes: 'Archetypes',
-    mastery: 'Mastery Map',
     modernSystems: 'Modern Systems',
     defense: 'Defense / Safety',
     glossary: 'Glossary',
@@ -99,10 +98,10 @@ export const en = {
         skills: { title: 'Skills', body: 'Choose the action that solves the position.' },
     
         archetypes: { title: 'Archetypes', body: 'Use a game style as a template.' },
-        mastery: { title: 'Mastery', body: 'See the long-term learning order.' },
       },
     },
     reference: {
+      badge: 'Reference',
       heading: 'Reference',
       subtitle: 'Use this when you need a term, cue, micro-detail, concept, or safety rule quickly.',
       items: {
@@ -112,7 +111,6 @@ export const en = {
         troubleshooters: { title: 'Troubleshooters', body: 'Diagnose why a submission or control is not working.' },
 
         archetypes: { title: 'Archetypes', body: 'Use a game style as a template.' },
-        mastery: { title: 'Mastery', body: 'See the long-term learning order.' },
         defense: { title: 'Safety', body: 'Defensive layers and safety-critical warnings.' },
         search: { title: 'Search', body: 'Find skills, contacts, terms, and repair cues.' },
         philosophy: { title: 'Philosophy', body: 'How NoGi Mind organizes modern no-gi.' },
@@ -421,6 +419,7 @@ export const en = {
     liveCue: 'Live cue',
     finishingMechanics: 'Finishing mechanics',
     finishChecklist: 'Finish checklist',
+    coachingCues: 'Coaching Cues',
     falseFinishSignals: 'False finish signals',
     requiredIsolation: 'Required isolation',
     microAdjustments: 'Micro-adjustments',
@@ -494,6 +493,8 @@ export const en = {
     hasQualityCheck: 'Has quality checklist',
     hasBodyDetails: 'Has contact map',
     hasBlackbelt: 'Has high-level details',
+    collapseDetails: 'Collapse details',
+    expandDetails: 'Expand details',
   },
   dashboard: {
     heading: 'Modern No-Gi Knowledge OS',
@@ -573,6 +574,7 @@ export const en = {
       safety: 'Safety Reminder',
       skillInsight: 'Skill Insight',
       principle: 'Principle of the Day',
+      refresh: 'Refresh skill',
     },
     weakestDomain: 'Weakest domain',
     strongestDomain: 'Strongest domain',
@@ -606,7 +608,7 @@ export const en = {
       detail: 'I want exact execution details',
       detailBody: 'Study hands, elbows, hips, knees, head, angle, and pressure.',
       game: 'I want to build a game',
-      gameBody: 'Use archetypes and the mastery roadmap to connect skills into a system.',
+      gameBody: 'Use archetypes and skill chains to connect skills into a system.',
     },
     steps: {
       title: 'How to use the app in 5 steps',
@@ -639,6 +641,7 @@ export const en = {
     goal: 'Primary goal',
     useThisSkillWhen: 'Use this skill when',
     quickStart: 'Quick Start',
+    coachingCues: 'Coaching Cues',
     moneyDetails: 'Detail Breakdown',
     qualityCheck: 'Quality Check',
     keyTerms: 'Key Terms',
@@ -662,6 +665,11 @@ export const en = {
   },
   cardOS: {
     systemLogic: 'System Logic',
+    corePrinciple: 'Core Principle',
+    decisionTree: 'Decision Tree',
+    exitStrategies: 'Exit Strategies',
+    whyItWorks: 'Why It Works',
+    printCard: 'Print Card',
     bodyPosition: 'Body Position',
     moneyDetails: 'Key Details',
     outcomesBranches: 'Outcomes & Branches',
@@ -722,7 +730,7 @@ export const en = {
     },
   },
   video: {
-    videoReferences: 'Video References',
+    videoReferences: 'Videos',
     watch: 'Watch',
     whatToWatchFor: 'What to watch for',
     timestamps: 'Timestamps',
@@ -741,6 +749,7 @@ export const en = {
     unavailableHint: 'The video may have been removed or made private by the uploader.',
     retry: 'Retry',
     reportBroken: 'Report broken video',
+    startAt: 'Start at {{time}}',
     reportSuccess: 'Thanks! We\'ll review this video.',
     level: {
       beginner: 'Beginner',
@@ -902,6 +911,7 @@ export const en = {
       skills: 'Study related skills',
       details: 'Study micro-details',
       escapes: 'Study opponent escapes',
+      chains: 'Study the Chains',
     },
     search: 'Search positions, control points, or danger signals',
     empty: 'No positions match the current filters.',
@@ -1086,6 +1096,7 @@ export const en = {
     tipExactBody: 'Search body parts, positions, submission names, or concepts for the best results.',
     tipDeep: 'Deep Search',
     tipDeepBody: 'Toggle "Search in details" above to find mentions inside micro-details and troubleshooters.',
+    openResult: '\u21B5 open',
     openFullResults: 'Open full results',
   },
   knowledgeTypes: {
@@ -1099,7 +1110,6 @@ export const en = {
 
     problem: 'Problems',
     archetype: 'Archetypes',
-    mastery: 'Mastery Map',
     quality_check: 'Technique Quality Checklist',
     quick_card: 'Quick Mode',
   },
@@ -1133,16 +1143,7 @@ export const en = {
     notFoundBody: 'That principle or cue is not in the current knowledge map.',
   },
 
-  mastery: {
-    heading: 'Mastery Map',
-    subtitle: 'A conceptual roadmap from survival to high-level no-gi thinking. It is skill maturity, not a belt promise.',
-    whatFor: 'Use this page when you want a long-term learning roadmap.',
-    whenToUse: 'Open it when you want to know what matters next at your current stage.',
-    nextStep: 'Return to the learning path or the skill map.',
-    whatToLearn: 'What to learn',
-    commonMistakes: 'Common mistakes',
-    highLevelExecution: 'High-level execution',
-  },
+
   glossary: {
     heading: 'Glossary',
     subtitle: 'Shared vocabulary for no-gi mechanics, positions, and decision-making.',
@@ -1158,6 +1159,18 @@ export const en = {
     system: 'System beats random technique collection because each skill is connected to prerequisites, danger signals, failure responses, and measurable tests.',
     safety: 'Safety first: leg locks, heel hooks, chokes, and neck attacks must be trained slowly with qualified supervision.',
     themes: ['inside position', 'positional hierarchy', 'dilemmas', 'failure response', 'transitions', 'feedback loop', 'safety'],
+  },
+  sidebar: {
+    collapse: 'Collapse',
+  },
+  skill: {
+    ruleset: {
+      adcc: 'ADCC',
+      subOnly: 'Sub Only',
+    },
+  },
+  skillMap: {
+    checklist: 'checklist',
   },
   accessibility: {
     skipToContent: 'Skip to content',
@@ -1188,6 +1201,9 @@ export const en = {
     notAvailable: 'Install not available',
     description: 'Install NoGi Mind on your device for quick access and offline support.',
   },
+  buildHub: {
+    badge: 'System Builder',
+  },
   settings: {
     heading: 'Settings',
     subtitle: 'Language, UI preferences, and local knowledge-system data.',
@@ -1200,6 +1216,7 @@ export const en = {
     advanced: 'Advanced',
     learningDepth: 'Learning depth',
     learningDepthBody: 'Simple keeps the page light, Standard shows the core learning flow, and Advanced opens everything.',
+    updated: 'Updated {{date}}',
     exportImport: 'Export / Import user data',
     exportData: 'Export JSON',
     importData: 'Import JSON',

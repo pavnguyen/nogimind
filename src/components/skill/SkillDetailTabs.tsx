@@ -16,18 +16,20 @@ type Props = {
   onTabChange: (tab: TabId) => void
 }
 
-const tabAccents: Record<TabId, string> = {
-  learn: 'border-cyan-300/35 bg-cyan-300/[0.08] text-cyan-100',
-  fix: 'border-violet-300/35 bg-violet-300/[0.08] text-violet-100',
-  watch: 'border-sky-300/35 bg-sky-300/[0.08] text-sky-100',
-  chain: 'border-emerald-300/35 bg-emerald-300/[0.08] text-emerald-100',
+// Theme-aware active tab — only differentiates semantics (learn/fix/watch/chain)
+// Colors sourced from the current hub's --hallmark-accent via CSS variables.
+const tabAccentClasses: Record<TabId, string> = {
+  learn: 'hallmark-tab-accent',
+  fix: 'hallmark-tab-accent',
+  watch: 'hallmark-tab-active',
+  chain: 'hallmark-tab-accent',
 }
 
 const tabInactiveAccents: Record<TabId, string> = {
-  learn: 'hover:text-cyan-300 border-transparent',
-  fix: 'hover:text-violet-300 border-transparent',
-  watch: 'hover:text-sky-200 border-transparent',
-  chain: 'hover:text-emerald-200 border-transparent',
+  learn: 'hallmark-tab-inactive',
+  fix: 'hallmark-tab-inactive',
+  watch: 'hallmark-tab-inactive',
+  chain: 'hallmark-tab-inactive',
 }
 
 export const SkillDetailTabs = ({ tabs, activeTab, onTabChange }: Props) => {
@@ -44,12 +46,11 @@ export const SkillDetailTabs = ({ tabs, activeTab, onTabChange }: Props) => {
               id={`tab-${tab.id}`}
               aria-selected={isActive}
               aria-controls={`tabpanel-${tab.id}`}
-              onClick={() => onTabChange(tab.id)}
-              className={`
+              onClick={() => onTabChange(tab.id)}                  className={`
                 relative flex shrink-0 items-center gap-2 rounded-xl border px-3.5 py-2.5 text-[13px] font-semibold
                 transition-all duration-200
                 ${isActive
-                  ? tabAccents[tab.id]
+                  ? tabAccentClasses[tab.id]
                   : `border-white/[0.06] bg-white/[0.02] text-slate-500 ${tabInactiveAccents[tab.id]} hover:bg-white/[0.04]`
                 }
               `}
@@ -61,7 +62,7 @@ export const SkillDetailTabs = ({ tabs, activeTab, onTabChange }: Props) => {
                   aria-hidden="true"
                   className={`ml-0.5 inline-flex h-5 w-5 items-center justify-center rounded-full border transition-colors ${
                     isActive
-                      ? 'border-sky-300/40 bg-sky-300/15 text-sky-100'
+                      ? 'hallmark-tab-active border'
                       : 'border-white/10 bg-white/[0.03] text-slate-500'
                   }`}
                 >

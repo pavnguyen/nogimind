@@ -167,7 +167,7 @@ describe('ConceptVideoReferencePanel', () => {
 
     render(<ConceptVideoReferencePanel skillIds={['skill-1']} />)
 
-    const link = screen.getByText('Start at {time}')
+    const link = screen.getByText('video.startAt')
     expect(link.closest('a')).toHaveAttribute(
       'href',
       'https://youtu.be/ts-vid?t=90',
