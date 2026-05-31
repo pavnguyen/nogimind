@@ -159,6 +159,16 @@ function initWebVitals(): void {
   }
 }
 
+// ── PWA: clear old content cache on service worker update ────────────────
+// When the SW updates (new deploy), the old `nogimind-content` cache is stale.
+// The new cache `nogimind-content-v2` uses NetworkFirst strategy so fresh
+// content loads automatically. Clean up the old cache to free storage.
+if (typeof navigator !== 'undefined' && 'serviceWorker' in navigator) {
+  navigator.serviceWorker.addEventListener('controllerchange', () => {
+    caches.delete('nogimind-content').catch(() => {})
+  }, { once: true })
+}
+
 // Init Web Vitals after render
 initWebVitals()
 

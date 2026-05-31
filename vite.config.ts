@@ -37,11 +37,14 @@ export default defineConfig({
         runtimeCaching: [
           {
             // Cache generated content JSON files, including video mappings.
+            // Use NetworkFirst so fresh data always loads from network when online.
+            // Falls back to cache when offline.
             urlPattern: /^https?:\/\/.*\/generated\/(skills|concepts|positions|manifest|videos)\/.*\.json$/,
-            handler: 'StaleWhileRevalidate',
+            handler: 'NetworkFirst',
             options: {
-              cacheName: 'nogimind-content',
-              expiration: { maxEntries: 500, maxAgeSeconds: 60 * 60 * 24 * 30 },
+              cacheName: 'nogimind-content-v2',
+              networkTimeoutSeconds: 4,
+              expiration: { maxEntries: 500, maxAgeSeconds: 60 * 60 * 24 * 7 },
               cacheableResponse: { statuses: [0, 200] },
             },
           },
