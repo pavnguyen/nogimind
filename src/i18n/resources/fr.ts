@@ -5,7 +5,7 @@ export const fr = {
   app: {
     name: 'NoGi Mind',
     thesis: 'NoGi Mind aide à comprendre le no-gi moderne comme un système.',
-    version: 'Modern No-Gi Knowledge OS',
+    version: 'Modern No-Gi Knowledge',
     poweredBy: 'Propulsé par LinDiGi',
   },
   nav: {
@@ -568,7 +568,7 @@ export const fr = {
   },
   dashboard: {
     ...en.dashboard,
-    heading: 'Modern No-Gi Knowledge OS',
+    heading: 'Modern No-Gi Knowledge',
     knowledgeThesis: 'Un cockpit technique pour diagnostiquer positions, contacts, finishes, réactions et systèmes no-gi modernes.',
     heroWhatFor: 'Utilisez cette page si vous avez déjà des bases et voulez accéder vite à la couche technique à corriger.',
     heroAction: 'Rechercher dans la base',
