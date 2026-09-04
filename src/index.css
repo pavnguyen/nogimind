@@ -1,6 +1,121 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+
+/* ── Design tokens (Tailwind v4 CSS-first config) ───────────────────── */
+@theme {
+  /* Font families */
+  --font-sans: 'Inter', ui-sans-serif, system-ui, sans-serif;
+  --font-display: 'Fraunces', ui-serif, serif;
+  --font-mono: 'JetBrains Mono', 'Fira Code', monospace;
+
+  /* Ink palette */
+  --color-ink-950: #06080d;
+  --color-ink-900: #0b1018;
+  --color-ink-850: #101722;
+  --color-ink-800: #182234;
+  --color-ink-750: #1c2a42;
+
+  /* Dojo surfaces */
+  --color-dojo-bg: #06080d;
+  --color-dojo-surface: #0b1018;
+  --color-dojo-card: #101722;
+  --color-dojo-border: rgba(148, 163, 184, 0.12);
+  --color-dojo-border-hover: rgba(148, 163, 184, 0.25);
+
+  /* Hub accent colors */
+  --color-hub-learn: #22d3ee;
+  --color-hub-learn-bg: rgba(34, 211, 238, 0.10);
+  --color-hub-study: #34d399;
+  --color-hub-study-bg: rgba(52, 211, 153, 0.10);
+  --color-hub-fix: #fb923c;
+  --color-hub-fix-bg: rgba(251, 146, 60, 0.10);
+  --color-hub-build: #a78bfa;
+  --color-hub-build-bg: rgba(167, 139, 250, 0.10);
+  --color-hub-reference: #94a3b8;
+  --color-hub-reference-bg: rgba(148, 163, 184, 0.10);
+
+  /* Hallmark theme-accent colors (resolved from theme runtime tokens) */
+  --color-hallmark-accent: var(--hallmark-accent);
+  --color-hallmark-accent-dim: var(--hallmark-accent-dim);
+  --color-hallmark-accent-glow: var(--hallmark-accent-glow);
+  --color-hallmark-surface-accent: var(--hallmark-surface-accent);
+  --color-hallmark-text-accent: var(--hallmark-text-accent);
+  --color-hallmark-amber: oklch(0.62 0.19 58);
+  --color-hallmark-emerald: oklch(0.72 0.19 148);
+  --color-hallmark-rose: oklch(0.52 0.22 29);
+  --color-hallmark-cyan: oklch(0.72 0.16 205);
+  --color-hallmark-blue: oklch(0.55 0.18 265);
+
+  --color-emerald-150: #d1fae5;
+  --color-cyan-150: #cffafe;
+
+  /* Shadow utilities */
+  --shadow-glow: var(--hallmark-shadow-glow, 0 0 0 1px rgba(45, 212, 191, 0.10)), 0 20px 60px rgba(0, 0, 0, 0.35);
+  --shadow-glow-sm: 0 0 0 1px rgba(45, 212, 191, 0.08), 0 4px 20px rgba(0, 0, 0, 0.25);
+  --shadow-glow-lg: 0 0 0 1px rgba(45, 212, 191, 0.12), 0 30px 80px rgba(0, 0, 0, 0.40);
+  --shadow-glow-amber: 0 0 0 1px rgba(251, 191, 36, 0.10), 0 20px 60px rgba(0, 0, 0, 0.35);
+  --shadow-glow-cyan: 0 0 0 1px rgba(34, 211, 238, 0.10), 0 20px 60px rgba(0, 0, 0, 0.35);
+  --shadow-glow-violet: 0 0 0 1px rgba(167, 139, 250, 0.10), 0 20px 60px rgba(0, 0, 0, 0.35);
+  --shadow-lift: 0 4px 12px rgba(0, 0, 0, 0.30), 0 1px 3px rgba(0, 0, 0, 0.15);
+  --shadow-lift-lg: 0 8px 30px rgba(0, 0, 0, 0.35), 0 2px 6px rgba(0, 0, 0, 0.15);
+  --shadow-card: 0 1px 3px 0 rgba(0, 0, 0, 0.3), 0 1px 2px -1px rgba(0, 0, 0, 0.2);
+
+  /* Animations */
+  --animate-fade-in: fadeIn 0.3s ease-out;
+  --animate-slide-up: slideUp 0.3s ease-out;
+  --animate-slide-down: slideDown 0.2s ease-out;
+  --animate-scale-in: scaleIn 0.2s ease-out;
+  --animate-shimmer: shimmer 2s infinite linear;
+  --animate-float: float 3s ease-in-out infinite;
+  --animate-glow-pulse: glowPulse 2s ease-in-out infinite;
+  --animate-pulse: pulseSlow 3s infinite ease-in-out;
+
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  @keyframes slideUp {
+    0% { opacity: 0; transform: translateY(12px); }
+    100% { opacity: 1; transform: translateY(0); }
+  }
+  @keyframes slideDown {
+    0% { opacity: 0; transform: translateY(-8px); }
+    100% { opacity: 1; transform: translateY(0); }
+  }
+  @keyframes scaleIn {
+    0% { opacity: 0; transform: scale(0.95); }
+    100% { opacity: 1; transform: scale(1); }
+  }
+  @keyframes shimmer {
+    0% { background-position: -200% 0; }
+    100% { background-position: 200% 0; }
+  }
+  @keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-4px); }
+  }
+  @keyframes glowPulse {
+    0%, 100% { box-shadow: 0 0 8px rgba(52, 211, 153, 0.15); }
+    50% { box-shadow: 0 0 20px rgba(52, 211, 153, 0.30); }
+  }
+  @keyframes pulseSlow {
+    0%, 100% { opacity: 1; transform: scale(1); }
+    50% { opacity: 0.7; transform: scale(0.95); }
+  }
+
+  /* Easing curves */
+  --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-out-quart: cubic-bezier(0.25, 1, 0.5, 1);
+  --ease-out-back: cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+/* Default border color for bare `border` utilities (matches v3 behaviour). */
+@layer base {
+  *,
+  ::before,
+  ::after {
+    border-color: rgb(148 163 184 / 0.12);
+  }
+}
 
 /* ── Base reset ─────────────────────────────────────────────────────── */
 html,

@@ -55,7 +55,7 @@ export default function DefensePage() {
           <div className="pointer-events-none absolute -right-16 -top-16 h-48 w-48 rounded-full bg-amber-400/5 blur-[80px]" />
           <div className="relative z-10 space-y-4">
             <div className="flex items-center gap-4">
-              <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-gradient-to-br from-amber-500 to-orange-500 shadow-lg shadow-amber-500/20">
+              <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-linear-to-br from-amber-500 to-orange-500 shadow-lg shadow-amber-500/20">
                 <Shield className="h-6 w-6 text-slate-950" aria-hidden="true" />
               </div>
               <div>

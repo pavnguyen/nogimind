@@ -54,7 +54,7 @@ export default function ConceptsPage() {
       header={
         <div className="space-y-4">
           <div className="flex items-center gap-3">
-            <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-gradient-to-br from-cyan-400 to-blue-500 shadow-lg">
+            <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-linear-to-br from-cyan-400 to-blue-500 shadow-lg">
               <BookOpen className="h-5 w-5 text-slate-950" aria-hidden="true" />
             </div>
             <div>

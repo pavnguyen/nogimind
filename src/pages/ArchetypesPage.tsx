@@ -50,7 +50,7 @@ export default function ArchetypesPage() {
     <PageShell
       header={
         <div className="flex items-center gap-3">
-          <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-gradient-to-br from-emerald-400 to-emerald-600 shadow-lg">
+          <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-linear-to-br from-emerald-400 to-emerald-600 shadow-lg">
             <Sword className="h-5 w-5 text-slate-950" aria-hidden="true" />
           </div>
           <div>

@@ -6,7 +6,7 @@ import { ChevronDown, PanelLeftClose, PanelLeftOpen } from 'lucide-react'
 import { useSettingsStore } from '../../stores/useSettingsStore'
 import { cn } from '../../utils/cn'
 import { getBuildDate } from '../../utils/version'
-import { hubNavItems, settingsNavItem, brandIcon as BrandIcon, pathInHub } from './navItems'
+import { hubNavItems, settingsNavItem, pathInHub } from './navItems'
 
 export const Sidebar = () => {
   const { t } = useTranslation()
@@ -75,9 +75,11 @@ export const Sidebar = () => {
     >
       {/* Brand */}
       <Link to="/" className="flex items-center gap-3 border-b border-white/[0.06] px-5 py-4 transition-colors hover:bg-white/[0.02]">
-        <div className="flex h-9 w-9 shrink-0 items-center justify-center rounded-lg bg-gradient-to-br from-emerald-400 to-cyan-400 shadow-sm">
-          <BrandIcon className="h-5 w-5 text-slate-950" aria-hidden="true" />
-        </div>
+        <img
+          src="/logo.png"
+          alt={t('app.name')}
+          className="h-9 w-9 shrink-0 rounded-lg object-cover ring-1 ring-white/10"
+        />
         {!collapsed && (
           <div className="min-w-0">
             <p className="truncate text-sm font-semibold text-white">{t('app.name')}</p>

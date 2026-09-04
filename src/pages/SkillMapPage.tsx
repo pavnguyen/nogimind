@@ -67,7 +67,7 @@ export default function SkillMapPage() {
     <PageShell
       header={
         <div className="relative overflow-hidden rounded-2xl border border-white/[0.06] hallmark-hero px-5 py-5 sm:px-6">
-          <div className="pointer-events-none absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-hallmark-accent/30 to-transparent" />
+          <div className="pointer-events-none absolute inset-x-0 top-0 h-px bg-linear-to-r from-transparent via-hallmark-accent/30 to-transparent" />
           <div className="flex flex-col gap-5 sm:flex-row sm:items-center sm:justify-between">
             <div className="min-w-0">
               <div className="mb-3 flex flex-wrap items-center gap-2">

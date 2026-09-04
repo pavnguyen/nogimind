@@ -1,6 +1,5 @@
 import { useMemo, useState, useCallback } from 'react'
 import { useTranslation } from 'react-i18next'
-import { Sparkles } from 'lucide-react'
 import { PageShell } from '../components/common/PageShell'
 import { DailyFocusCard } from '../components/dashboard/DailyFocusCard'
 import { DashboardHubExplorer } from '../components/dashboard/DashboardHubExplorer'
@@ -64,9 +63,11 @@ export default function DashboardPage() {
         <section className="space-y-6">
           {/* ── Simplified hero ── */}
           <div className="flex items-center gap-3">
-            <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl hallmark-icon-box">
-              <Sparkles className="h-5 w-5 text-slate-950" aria-hidden="true" />
-            </div>
+            <img
+              src="/logo.png"
+              alt={t('app.name')}
+              className="h-12 w-12 shrink-0 rounded-xl object-cover shadow-md ring-1 ring-white/10"
+            />
             <div className="min-w-0 flex-1">
               <h1 className="text-xl font-bold tracking-tight text-white sm:text-2xl lg:text-3xl">
                 {t('app.name')}
