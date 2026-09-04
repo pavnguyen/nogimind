@@ -1217,13 +1217,5 @@ export const en = {
     learningDepth: 'Learning depth',
     learningDepthBody: 'Simple keeps the page light, Standard shows the core learning flow, and Advanced opens everything.',
     updated: 'Updated {{date}}',
-    exportImport: 'Export / Import user data',
-    exportData: 'Export JSON',
-    importData: 'Import JSON',
-    pasteJson: 'Paste exported JSON',
-    resetData: 'Reset local data',
-    resetWarning: 'This clears game tree and local preferences from localStorage.',
-    imported: 'Imported local data.',
-    importError: 'Could not import that JSON.',
   },
 }

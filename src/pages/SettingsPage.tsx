@@ -7,7 +7,6 @@ import { Download, CheckCircle2 } from 'lucide-react'
 import { getBuildDate } from '../utils/version'
 
 import { LanguageSwitcher } from '../components/i18n/LanguageSwitcher'
-import { ExportImportPanel } from '../components/settings/ExportImportPanel'
 
 function useIsStandalone() {
   return typeof window !== 'undefined' && window.matchMedia('(display-mode: standalone)').matches
@@ -104,9 +103,6 @@ export default function SettingsPage() {
         <InstallAppButton />
       </SectionCard>
 
-      <SectionCard title={t('settings.exportImport')}>
-        <ExportImportPanel />
-      </SectionCard>
       <SectionCard title={t('app.name')}>
         <p className="text-sm text-slate-400">{t('app.version')} · {t('settings.updated', { date: getBuildDate() })}</p>
       </SectionCard>

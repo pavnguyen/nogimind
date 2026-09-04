@@ -1202,13 +1202,5 @@ export const fr = {
     advanced: 'Avancé',
     learningDepth: 'Profondeur d’apprentissage',
     learningDepthBody: 'Simple garde la page légère, Standard montre le flux d’apprentissage principal, et Avancé ouvre tout.',
-    exportImport: 'Exporter / importer les données',
-    exportData: 'Exporter JSON',
-    importData: 'Importer JSON',
-    pasteJson: 'Coller JSON exporté',
-    resetData: 'Réinitialiser données locales',
-    resetWarning: 'Efface les préférences locales du localStorage.',
-    imported: 'Données locales importées.',
-    importError: 'Impossible d’importer ce JSON.',
   },
 }
