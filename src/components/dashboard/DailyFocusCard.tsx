@@ -39,7 +39,7 @@ export const DailyFocusCard = ({ isLoading, todayItem, onRefresh, spinKey }: Dai
     <section className="lg:col-span-12">
       {isLoading ? (
         /* ═══ Loading state ═══ */
-        <div className="relative block overflow-hidden rounded-[2.5rem] border bg-gradient-to-br p-8 border-sky-400/20 bg-slate-900/50">
+        <div className="relative block overflow-hidden rounded-[2.5rem] border bg-linear-to-br p-8 border-sky-400/20 bg-slate-900/50">
           <div className="absolute -right-24 -top-24 h-80 w-80 rounded-full bg-sky-400/5 blur-[100px]" />
 
           <div className="relative z-10">
@@ -79,7 +79,7 @@ export const DailyFocusCard = ({ isLoading, todayItem, onRefresh, spinKey }: Dai
           transition={{ duration: 0.3, ease: 'easeOut' }}
           whileHover={{ scale: 1.01 }}
           className={cn(
-            'group relative block overflow-hidden rounded-[2.5rem] border bg-gradient-to-br p-8 transition-shadow duration-300 hover:shadow-2xl',
+            'group relative block overflow-hidden rounded-[2.5rem] border bg-linear-to-br p-8 transition-shadow duration-300 hover:shadow-2xl',
             cardGradient,
           )}
         >

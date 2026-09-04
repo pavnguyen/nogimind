@@ -6,7 +6,7 @@ export const DashboardWhatsNew = () => {
 
   return (
     <section className="lg:col-span-12 animate-fadeIn md:[animation-delay:100ms]">
-      <div className="rounded-xl border border-sky-400/15 bg-gradient-to-r from-sky-400/[0.03] to-slate-900/20 px-5 py-4">
+      <div className="rounded-xl border border-sky-400/15 bg-linear-to-r from-sky-400/[0.03] to-slate-900/20 px-5 py-4">
         <div className="mb-3 flex items-center gap-2">
           <Sparkles className="h-3.5 w-3.5 text-sky-400" />
           <h2 className="text-[10px] font-bold uppercase tracking-widest text-sky-400">{t('dashboard.newUpdates.heading')}</h2>

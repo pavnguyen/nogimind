@@ -23,7 +23,7 @@ export const PipelineLearnTab = ({ detail }: Props) => {
     <div className="animate-slideUp space-y-4 pt-4">
       {/* Short instruction — hero cue */}
       {shortInstruction && (
-        <div className="rounded-2xl border border-cyan-300/18 bg-gradient-to-br from-cyan-300/[0.08] via-slate-950/45 to-slate-950/20 px-5 py-4 shadow-[0_18px_45px_rgba(8,145,178,0.08)] sm:px-6 sm:py-5">
+        <div className="rounded-2xl border border-cyan-300/18 bg-linear-to-br from-cyan-300/[0.08] via-slate-950/45 to-slate-950/20 px-5 py-4 shadow-[0_18px_45px_rgba(8,145,178,0.08)] sm:px-6 sm:py-5">
           <p className="text-[11px] font-semibold uppercase tracking-[0.18em] text-cyan-300">
             {t('cardOS.threeCues')}
           </p>

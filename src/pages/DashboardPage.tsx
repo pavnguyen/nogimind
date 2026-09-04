@@ -61,18 +61,20 @@ export default function DashboardPage() {
     <PageShell
       header={
         <section className="space-y-6">
-          {/* ── Simplified hero ── */}
-          <div className="flex items-center gap-3">
+          {/* ── Compact brand hero ── */}
+          <div className="flex items-center gap-4 rounded-2xl border border-white/[0.06] bg-slate-900/40 px-5 py-4">
             <img
               src="/logo.png"
               alt={t('app.name')}
-              className="h-12 w-12 shrink-0 rounded-xl object-cover shadow-md ring-1 ring-white/10"
+              className="h-14 w-14 shrink-0 rounded-xl object-cover shadow-md ring-1 ring-white/10"
             />
             <div className="min-w-0 flex-1">
-              <h1 className="text-xl font-bold tracking-tight text-white sm:text-2xl lg:text-3xl">
+              <h1 className="text-xl font-bold tracking-tight text-white sm:text-2xl">
                 {t('app.name')}
               </h1>
-              <p className="mt-px text-xs hallmark-text-tertiary truncate">{t('app.thesis')}</p>
+              <p className="mt-0.5 truncate text-xs hallmark-text-tertiary sm:text-sm">
+                {t('app.thesis')}
+              </p>
             </div>
           </div>
         </section>

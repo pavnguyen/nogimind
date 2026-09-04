@@ -1,73 +1,103 @@
-# React + TypeScript + Vite
+# NoGi Mind
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern no-gi grappling knowledge system. Study skills, positions, concepts, micro-details, safety, and live problem solving in one focused, PWA-ready app.
 
-Currently, two official plugins are available:
+## Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **Build**: [Vite 8](https://vite.dev) + [Rolldown](https://rolldown.rs) + [Tailwind CSS v4](https://tailwindcss.com)
+- **UI**: [React 19](https://react.dev) + [React Router 7](https://reactrouter.com) + [Framer Motion](https://motion.dev)
+- **Data**: [TanStack Query](https://tanstack.com/query) + [Zustand](https://zustand-docs.pmnd.rs) + [Zod](https://zod.dev)
+- **Search**: [MiniSearch](https://github.com/lucaong/minisearch) with an IndexedDB cache and a Web Worker index
+- **i18n**: [i18next](https://www.i18next.com) — English, Vietnamese, French
+- **PWA**: [vite-plugin-pwa](https://vite-pwa-org.netlify.app) (offline support, auto-updating service worker)
+- **Quality**: TypeScript (strict), ESLint (flat config), Vitest + Testing Library
 
-## React Compiler
+## Getting Started
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Prerequisites: Node.js **^20.19 or >=22.12** (Vite 8 requirement), npm 10+.
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```bash
+npm install       # install dependencies
+npm run dev       # start the Vite dev server
+npm run build     # typecheck + production build (outputs to dist/)
+npm run preview   # preview the production build
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## Scripts
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+| Script | Description |
+| --- | --- |
+| `npm run dev` | Start the dev server with HMR |
+| `npm run typecheck` | TypeScript project references check (`tsc -b`) |
+| `npm run lint` | ESLint (flat config) over the whole repo |
+| `npm test` | Run Vitest once |
+| `npm run build` | Typecheck + production build |
+| `npm run preview` | Preview the production build locally |
+| `npm run build:content` | Regenerate content payloads from `content/` |
+| `npm run validate:content` | Validate content JSON against Zod schemas |
+| `npm run validate:videos` | Validate YouTube video references |
+| `npm run create-skill` | Scaffold a new skill |
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+## Architecture
+
 ```
+src/
+  pages/            Route-level pages (lazy-loaded via router/routes.tsx)
+  components/       Layout, dashboard, content, learning, skills, video, common
+  contexts/         Global context (HubThemeProvider) — hooks live in hooks/
+  hooks/            Shared hooks (useHubTheme, useVideoReport, …)
+  stores/           Zustand stores (settings, UI, search)
+  queries/          TanStack Query client + content queries
+  content-runtime/  Manifest loading + content payload runtime
+  i18n/             i18next setup + locale resources
+  utils/            Domain utilities (search, cache, localization, version)
+  workers/          Search worker
+  styles/           index.css (Tailwind v4 @theme tokens) + hallmark-themes.css
+```
+
+### Key design decisions
+
+- **Hub-and-spoke navigation**: `src/components/layout/navItems.ts` defines the hub map (learn, study, fix, build, reference). Each hub has a landing page and sub-items.
+- **Theme system**: the app uses runtime "Hallmark" theme tokens (`--hallmark-accent`, etc.) so each hub can restyle the accent color without recompiling. Tokens are declared in `src/styles/hallmark-themes.css`; Tailwind maps them via `@theme` in `index.css`.
+- **Content pipeline**: raw content lives in `content/`, is built into typed JSON manifests by `scripts/content/build-content.ts`, validated with Zod, and consumed through `Queries`/`content-runtime`.
+- **Search performance**: manifests are prefetched on load; the search cache is pre-warmed in IndexedDB and indexes are built in a Web Worker during idle time.
+
+## Branding & Assets
+
+All brand assets are generated from `public/logo.jpg` (the painted "No-Gi Mind" square):
+
+| Asset | Purpose |
+| --- | --- |
+| `public/logo.png` | In-app brand logo (sidebar, homepage hero) |
+| `public/favicon.png` | Browser favicon (32×32, PNG) |
+| `public/apple-touch-icon.png` | iOS home-screen icon (180×180) |
+| `public/pwa-192x192.png` / `pwa-512x512.png` | PWA install icons (also maskable) |
+| `public/og-image.png` / `twitter-image.png` | Social share cards (1200×630, logo on paper background) |
+
+## Quality Gates
+
+The repo ships with a GitHub Actions pipeline (`.github/workflows/ci.yml`):
+
+1. **Lint** — ESLint flat config
+2. **Test** — Vitest suite
+3. **Build & typecheck** — `tsc -b` + production build + content validation
+
+`.github/workflows/content-validation.yml` additionally validates content on content-only changes. All jobs run on Node 22.
+
+## Deployment
+
+Deployed to Vercel (`vercel.json`). The app is a static SPA:
+
+- All routes rewrite to `index.html`
+- Security headers set globally (nosniff, deny framing, strict referrer, permissions policy)
+- Icon/image assets are cached with a 24h CDN cache; `/assets/*` is immutable
+
+To deploy:
+
+```bash
+vercel --prod
+```
+
+## License
+
+See [LICENSE](LICENSE).

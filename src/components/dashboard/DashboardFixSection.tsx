@@ -14,7 +14,7 @@ export const DashboardFixSection = () => {
 
   return (
     <section className="lg:col-span-12 animate-fadeIn md:[animation-delay:300ms]">
-      <div className="rounded-[2.5rem] border border-amber-400/10 bg-gradient-to-br from-amber-400/[0.03] to-slate-900/20 p-6 lg:p-8">
+      <div className="rounded-[2.5rem] border border-amber-400/10 bg-linear-to-br from-amber-400/[0.03] to-slate-900/20 p-6 lg:p-8">
         <div className="mb-6 flex items-center gap-2">
           <Wrench className="h-4 w-4 text-amber-400/70" />
           <h2 className="text-xs font-bold uppercase tracking-widest text-amber-400/70">{t('modeUx.fix.heading')}</h2>
