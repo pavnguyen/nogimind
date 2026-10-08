@@ -56,7 +56,7 @@ export default function GlossaryPage() {
         <div className="space-y-4">
           <div className="flex items-center gap-3">
             <div className="flex h-10 w-10 items-center justify-center rounded-xl hallmark-icon-box">
-              <BookOpen className="h-5 w-5 text-slate-950" aria-hidden="true" />
+              <BookOpen className="h-5 w-5 text-on-accent" aria-hidden="true" />
             </div>
             <div>
               <h1 className="text-2xl font-semibold tracking-tight hallmark-text-primary">{t('glossary.heading')}</h1>
@@ -67,7 +67,7 @@ export default function GlossaryPage() {
         value={query}
         onChange={(event) => setQuery(event.target.value)}
         placeholder={t('glossary.q')}
-        className="w-full rounded-md border border-white/10 bg-slate-900 px-3 py-2 text-sm text-white outline-none search-focus-ring"
+        className="w-full rounded-md border border-warm-50/10 bg-warm-900 px-3 py-2 text-sm text-warm-50 outline-none search-focus-ring"
       />
     </div>
   }
@@ -80,12 +80,12 @@ export default function GlossaryPage() {
               return (
                 <article
                   key={term.id}
-                  className="absolute left-0 right-0 rounded-lg border border-white/10 bg-slate-900/70 p-4"
+                  className="absolute left-0 right-0 rounded-lg border border-warm-50/10 bg-warm-900/70 p-4"
                   style={{ transform: `translateY(${virtualItem.start}px)` }}
                 >
-                  <h2 className="text-lg font-semibold text-white">{term.term}</h2>
-                  <p className="mt-2 text-sm leading-6 text-slate-300">{getLocalizedTechnicalText(term.definition, language)}</p>
-                  <ul className="mt-3 space-y-1 text-sm text-slate-400">
+                  <h2 className="text-lg font-semibold text-warm-50">{term.term}</h2>
+                  <p className="mt-2 text-sm leading-6 text-warm-300">{getLocalizedTechnicalText(term.definition, language)}</p>
+                  <ul className="mt-3 space-y-1 text-sm text-warm-400">
                     {getLocalizedArray(term.examples, language).map((example) => (
                       <li key={example}>{example}</li>
                     ))}

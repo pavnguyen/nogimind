@@ -66,15 +66,15 @@ export default function SkillMapPage() {
   return (
     <PageShell
       header={
-        <div className="relative overflow-hidden rounded-2xl border border-white/[0.06] hallmark-hero px-5 py-5 sm:px-6">
+        <div className="relative overflow-hidden rounded-2xl border border-warm-50/[0.06] hallmark-hero px-5 py-5 sm:px-6">
           <div className="pointer-events-none absolute inset-x-0 top-0 h-px bg-linear-to-r from-transparent via-hallmark-accent/30 to-transparent" />
           <div className="flex flex-col gap-5 sm:flex-row sm:items-center sm:justify-between">
             <div className="min-w-0">
               <div className="mb-3 flex flex-wrap items-center gap-2">
                 <span className="inline-flex h-8 w-8 items-center justify-center rounded-lg hallmark-icon-box">
-                  <BookOpen className="h-4 w-4 text-slate-950" aria-hidden="true" />
+                  <BookOpen className="h-4 w-4 text-on-accent" aria-hidden="true" />
                 </span>
-                <span className="rounded-md border border-white/[0.06] bg-white/[0.03] px-2 py-1 text-[11px] font-medium hallmark-text-secondary">
+                <span className="rounded-md border border-warm-50/[0.06] bg-warm-50/[0.03] px-2 py-1 text-[11px] font-medium hallmark-text-secondary">
                   {visibleCount}/{totalCount}
                 </span>
               </div>
@@ -103,7 +103,7 @@ export default function SkillMapPage() {
         {grouped.map((group) => (
           <section
             key={group.domain}
-            className="rounded-2xl border border-white/[0.06] bg-slate-950/35 p-4 shadow-[0_18px_45px_rgba(2,6,23,0.22)] sm:p-5"
+            className="rounded-2xl border border-warm-50/[0.06] bg-warm-950/35 p-4 shadow-[0_18px_45px_rgba(13,12,10,0.22)] sm:p-5"
           >
             <div className="mb-4 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
               <div className="min-w-0">

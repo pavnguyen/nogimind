@@ -4,5 +4,5 @@ import { Badge } from '../common/Badge'
 
 export const DomainBadge = ({ domain }: { domain: SkillDomain }) => {
   const { t } = useTranslation()
-  return <Badge tone="cyan">{t(`domains.${domain}`)}</Badge>
+  return <Badge tone="gold">{t(`domains.${domain}`)}</Badge>
 }

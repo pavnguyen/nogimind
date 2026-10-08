@@ -11,27 +11,27 @@ type Props = {
 }
 
 const domainColor: Record<string, string> = {
-  positional_awareness: 'bg-slate-700/60 text-slate-300',
-  survival_defense: 'bg-rose-900/50 text-rose-300',
-  escapes: 'bg-amber-900/50 text-amber-300',
-  guard_retention: 'bg-cyan-900/50 text-cyan-300',
-  guard_offense: 'bg-sky-900/50 text-sky-300',
-  wrestle_up_wrestling: 'bg-indigo-900/50 text-indigo-300',
-  passing: 'bg-violet-900/50 text-violet-300',
-  pins_rides: 'bg-purple-900/50 text-purple-300',
-  back_control: 'bg-pink-900/50 text-pink-300',
-  submission_systems: 'bg-red-900/50 text-red-300',
+  positional_awareness: 'bg-warm-700/60 text-warm-300',
+  survival_defense: 'bg-copper-900/50 text-copper',
+  escapes: 'bg-gold-900/50 text-gold',
+  guard_retention: 'bg-jade-900/50 text-jade',
+  guard_offense: 'bg-sea-900/50 text-sea',
+  wrestle_up_wrestling: 'bg-steel-900/50 text-steel',
+  passing: 'bg-steel-800/60 text-steel-200',
+  pins_rides: 'bg-moss-900/50 text-moss',
+  back_control: 'bg-sand-900/60 text-sand-200',
+  submission_systems: 'bg-copper-800/60 text-copper-200',
 }
 
 const levelBadge: Record<string, string> = {
-  beginner: 'border-emerald-400/30 bg-emerald-400/8 text-emerald-300',
-  intermediate: 'border-amber-400/30 bg-amber-400/8 text-amber-300',
-  advanced: 'border-rose-400/30 bg-rose-400/8 text-rose-300',
+  beginner: 'border-jade-400/30 bg-jade-400/8 text-jade',
+  intermediate: 'border-gold-400/30 bg-gold-400/8 text-gold',
+  advanced: 'border-copper-400/30 bg-copper-400/8 text-copper',
 }
 
 const riskBadge: Record<string, { key: string; cls: string }> = {
-  safety_critical: { key: 'modern.risk.safety_critical', cls: 'border-red-500/40 bg-red-500/10 text-red-300' },
-  high: { key: 'modern.risk.high', cls: 'border-rose-400/30 bg-rose-400/8 text-rose-300' },
+  safety_critical: { key: 'modern.risk.safety_critical', cls: 'border-copper-500/40 bg-copper-500/10 text-copper' },
+  high: { key: 'modern.risk.high', cls: 'border-copper-400/30 bg-copper-400/8 text-copper' },
 }
 
 export const SkillHeader = ({ skill, lang, onPrintCard }: Props) => {
@@ -44,7 +44,7 @@ export const SkillHeader = ({ skill, lang, onPrintCard }: Props) => {
       {/* Back link */}
       <Link
         to="/skills"
-        className="inline-flex items-center gap-1.5 text-xs text-slate-500 transition-colors hover:text-slate-300"
+        className="inline-flex items-center gap-1.5 text-xs text-warm-500 transition-colors hover:text-warm-300"
       >
         <svg className="h-3.5 w-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
           <path strokeLinecap="round" strokeLinejoin="round" d="M10.5 19.5L3 12m0 0l7.5-7.5M3 12h18" />
@@ -55,14 +55,14 @@ export const SkillHeader = ({ skill, lang, onPrintCard }: Props) => {
       {/* Title row */}
       <div className="flex flex-wrap items-start gap-4">
         <div className="flex-1">
-          <h1 className="text-2xl font-black leading-tight tracking-tight text-white lg:text-3xl">
+          <h1 className="text-2xl font-black leading-tight tracking-tight text-warm-50 lg:text-3xl">
             {title}
           </h1>
 
           {/* Badge row */}
           <div className="mt-2.5 flex flex-wrap items-center gap-2">
             {/* Domain */}
-            <span className={`rounded-md px-2.5 py-1 text-xs font-semibold ${domainColor[skill.domain] ?? 'bg-slate-700/60 text-slate-300'}`}>
+            <span className={`rounded-md px-2.5 py-1 text-xs font-semibold ${domainColor[skill.domain] ?? 'bg-warm-700/60 text-warm-300'}`}>
               {t(`domains.${skill.domain}`)}
             </span>
 
@@ -80,17 +80,17 @@ export const SkillHeader = ({ skill, lang, onPrintCard }: Props) => {
 
             {/* Library tier (modern) */}
             {skill.libraryTier && skill.libraryTier !== 'core' && (
-              <span className="rounded-md border border-violet-400/25 bg-violet-400/8 px-2.5 py-1 text-xs font-semibold text-violet-300">
+              <span className="rounded-md border border-steel-400/25 bg-steel-400/8 px-2.5 py-1 text-xs font-semibold text-steel">
                 {t(`modern.library.${skill.libraryTier}`)}
               </span>
             )}
 
             {/* Ruleset chips */}
             {skill.rulesetRelevance?.adcc && (
-              <span className="rounded-md border border-white/10 bg-white/5 px-2 py-0.5 text-xs text-slate-400">{t('skill.ruleset.adcc')}</span>
+              <span className="rounded-md border border-warm-50/10 bg-warm-50/5 px-2 py-0.5 text-xs text-warm-400">{t('skill.ruleset.adcc')}</span>
             )}
             {skill.rulesetRelevance?.subOnly && (
-              <span className="rounded-md border border-white/10 bg-white/5 px-2 py-0.5 text-xs text-slate-400">{t('skill.ruleset.subOnly')}</span>
+              <span className="rounded-md border border-warm-50/10 bg-warm-50/5 px-2 py-0.5 text-xs text-warm-400">{t('skill.ruleset.subOnly')}</span>
             )}
           </div>
 
@@ -100,7 +100,7 @@ export const SkillHeader = ({ skill, lang, onPrintCard }: Props) => {
               {skill.tags.slice(0, 8).map((tag) => (
                 <span
                   key={tag}
-                  className="rounded bg-white/4 px-2 py-0.5 text-xs text-slate-500"
+                  className="rounded bg-warm-50/4 px-2 py-0.5 text-xs text-warm-500"
                 >
                   #{formatTagLabel(tag)}
                 </span>
@@ -113,7 +113,7 @@ export const SkillHeader = ({ skill, lang, onPrintCard }: Props) => {
         <button
           type="button"
           onClick={onPrintCard}
-          className="flex shrink-0 items-center gap-2 rounded-xl border border-cyan-400/30 bg-cyan-400/8 px-4 py-2.5 text-sm font-semibold text-cyan-200 transition-all hover:border-cyan-400/50 hover:bg-cyan-400/15 hover:text-white active:scale-95"
+          className="flex shrink-0 items-center gap-2 rounded-xl border border-gold-400/30 bg-gold-400/8 px-4 py-2.5 text-sm font-semibold text-gold transition-all hover:border-gold-400/50 hover:bg-gold-400/15 hover:text-warm-50 active:scale-95"
           title={t('cardOS.printCard', 'Print Card')}
         >
           <Printer className="h-4 w-4" />
@@ -122,12 +122,12 @@ export const SkillHeader = ({ skill, lang, onPrintCard }: Props) => {
       </div>
 
       {/* Short description */}
-      <p className="max-w-prose text-sm leading-6 text-slate-400">
+      <p className="max-w-prose text-sm leading-6 text-warm-400">
         {skill.shortDescription[lang]}
       </p>
 
       {/* Horizontal rule */}
-      <div className="h-px bg-white/8" />
+      <div className="h-px bg-warm-50/8" />
     </header>
   )
 }

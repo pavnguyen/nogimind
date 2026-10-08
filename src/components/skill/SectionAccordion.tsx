@@ -7,26 +7,28 @@ type Props = {
   badge?: string
   defaultOpen?: boolean
   children: ReactNode
-  accentColor?: 'cyan' | 'emerald' | 'amber' | 'rose' | 'violet' | 'slate'
+  accentColor?: 'gold' | 'jade' | 'sea' | 'steel' | 'moss' | 'copper' | 'warm'
   titleRight?: ReactNode
 }
 
 const accentMap = {
-  cyan: 'border-cyan-400/18 hover:border-cyan-300/32',
-  emerald: 'border-emerald-400/18 hover:border-emerald-300/32',
-  amber: 'border-amber-400/18 hover:border-amber-300/32',
-  rose: 'border-rose-400/18 hover:border-rose-300/32',
-  violet: 'border-violet-400/18 hover:border-violet-300/32',
-  slate: 'border-white/[0.08] hover:border-white/16',
+  gold: 'border-gold-400/18 hover:border-gold-300/32',
+  jade: 'border-jade-400/18 hover:border-jade-300/32',
+  sea: 'border-sea-400/18 hover:border-sea-300/32',
+  steel: 'border-steel-400/18 hover:border-steel-300/32',
+  moss: 'border-moss-400/18 hover:border-moss-300/32',
+  copper: 'border-copper-400/18 hover:border-copper-300/32',
+  warm: 'border-warm-50/[0.08] hover:border-warm-50/16',
 }
 
 const dotMap = {
-  cyan: 'bg-cyan-400',
-  emerald: 'bg-emerald-400',
-  amber: 'bg-amber-400',
-  rose: 'bg-rose-400',
-  violet: 'bg-violet-400',
-  slate: 'bg-slate-400',
+  gold: 'bg-gold-400',
+  jade: 'bg-jade-400',
+  sea: 'bg-sea-400',
+  steel: 'bg-steel-400',
+  moss: 'bg-moss-400',
+  copper: 'bg-copper-400',
+  warm: 'bg-warm-400',
 }
 
 export const SectionAccordion = ({
@@ -35,7 +37,7 @@ export const SectionAccordion = ({
   badge,
   defaultOpen = false,
   children,
-  accentColor = 'slate',
+  accentColor = 'warm',
   titleRight,
 }: Props) => {
   const [open, setOpen] = useState(defaultOpen)
@@ -46,7 +48,7 @@ export const SectionAccordion = ({
       className={cn(
         // scroll-mt keeps the sticky skill tabs bar from covering the section
         // when a search deep link scrolls to this anchor.
-        'scroll-mt-32 overflow-hidden rounded-2xl border bg-slate-950/35 shadow-[0_18px_45px_rgba(2,6,23,0.18)] transition-colors duration-200',
+        'scroll-mt-32 overflow-hidden rounded-2xl border bg-warm-950/35 shadow-[0_18px_45px_rgba(13,12,10,0.18)] transition-colors duration-200',
         accentMap[accentColor],
       )}
     >
@@ -58,13 +60,13 @@ export const SectionAccordion = ({
         aria-controls={`accordion-content-${id}`}
       >
         <span className={`h-2 w-2 shrink-0 rounded-full ${dotMap[accentColor]} shadow-[0_0_16px_currentColor]`} />
-        <span className="flex-1 text-[15px] font-semibold tracking-tight text-slate-100">{title}</span>
+        <span className="flex-1 text-[15px] font-semibold tracking-tight text-warm-100">{title}</span>
         {badge && (
-          <span className="rounded-md bg-white/[0.04] px-2 py-0.5 text-[11px] font-medium text-slate-400">{badge}</span>
+          <span className="rounded-md bg-warm-50/[0.04] px-2 py-0.5 text-[11px] font-medium text-warm-400">{badge}</span>
         )}
         {titleRight}
         <svg
-          className={`ml-auto h-4 w-4 shrink-0 text-slate-500 transition-transform duration-200 ${open ? 'rotate-180' : ''}`}
+          className={`ml-auto h-4 w-4 shrink-0 text-warm-500 transition-transform duration-200 ${open ? 'rotate-180' : ''}`}
           fill="none"
           viewBox="0 0 24 24"
           stroke="currentColor"
@@ -75,7 +77,7 @@ export const SectionAccordion = ({
       </button>
 
       {open && (
-        <div id={`accordion-content-${id}`} className="border-t border-white/[0.06] px-4 pb-4 pt-4 sm:px-5 sm:pb-5">
+        <div id={`accordion-content-${id}`} className="border-t border-warm-50/[0.06] px-4 pb-4 pt-4 sm:px-5 sm:pb-5">
           {children}
         </div>
       )}

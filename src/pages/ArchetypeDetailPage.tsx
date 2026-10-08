@@ -29,7 +29,7 @@ export default function ArchetypeDetailPage() {
   if (!archetypeQuery.isLoading && !archetype) {
     return <NotFound title={t('archetypes.notFoundTitle')} body={t('archetypes.notFoundBody')} to="/archetypes" label={t('archetypes.backToArchetypes')} />
   }
-  if (!archetype) return <p className="text-slate-400">{t('common.loading')}</p>
+  if (!archetype) return <p className="text-warm-400">{t('common.loading')}</p>
 
   return (
     <PageShell
@@ -44,7 +44,7 @@ export default function ArchetypeDetailPage() {
       </div>
 
       <SectionCard title={t('archetypes.philosophy')}>
-        <p className="text-sm leading-6 text-slate-300">{getLocalizedText(archetype.philosophy, language)}</p>
+        <p className="text-sm leading-6 text-warm-300">{getLocalizedText(archetype.philosophy, language)}</p>
       </SectionCard>
 
       <div className="grid gap-6 xl:grid-cols-2">
@@ -78,7 +78,7 @@ export default function ArchetypeDetailPage() {
 
 const ListCard = ({ title, items, tone = 'default' }: { title: string; items: string[]; tone?: 'default' | 'danger' }) => (
   <SectionCard title={title}>
-    <ul className={`space-y-2 text-sm leading-6 ${tone === 'danger' ? 'hallmark-text-caution' : 'text-slate-300'}`}>
+    <ul className={`space-y-2 text-sm leading-6 ${tone === 'danger' ? 'hallmark-text-caution' : 'text-warm-300'}`}>
       {items.map((item) => <li key={item}>{item}</li>)}
     </ul>
   </SectionCard>
@@ -102,7 +102,7 @@ const SkillLinks = ({
           {skill?.name}
         </Link>
       ))}
-      {!skills.length ? <span className="text-xs text-slate-500">{t('common.none')}</span> : null}
+      {!skills.length ? <span className="text-xs text-warm-500">{t('common.none')}</span> : null}
     </div>
   )
 }
@@ -117,7 +117,7 @@ const ConceptLinks = ({ ids, conceptsById, lang }: { ids: string[]; conceptsById
           {getLocalizedText(concept?.title, lang)}
         </Link>
       ))}
-      {!concepts.length ? <span className="text-xs text-slate-500">{t('common.none')}</span> : null}
+      {!concepts.length ? <span className="text-xs text-warm-500">{t('common.none')}</span> : null}
     </div>
   )
 }

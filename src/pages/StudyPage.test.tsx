@@ -105,6 +105,6 @@ describe('StudyPage', () => {
     // rear-naked-choke → checklist only = 1/3
     expect(screen.getByText('2/3')).toBeInTheDocument()
     expect(screen.getByText('1/3')).toBeInTheDocument()
-    expect(container.querySelectorAll('.bg-violet-400').length).toBeGreaterThan(0)
+    expect(container.querySelectorAll('.bg-steel-400').length).toBeGreaterThan(0)
   })
 })

@@ -1,17 +1,11 @@
-import {
-  BookOpen,
-  BrainCircuit,
-  Compass,
-  Layers3,
-  Settings,
-  Wrench,
-  Zap,
-} from 'lucide-react'
+import { Settings } from 'lucide-react'
+import type { HubId } from '../../contexts/HubThemeContext'
+import { BjjBrandMark, BjjChain, BjjEscape, BjjGrip, BjjGuard, BjjMount } from '../icons/bjj'
 
 export type HubNavItem = {
-  hub: string
+  hub: HubId
   labelKey: string
-  icon: typeof Compass
+  icon: typeof BjjGuard
   to: string
   items: { key: string; to: string }[]
 }
@@ -24,7 +18,7 @@ export const hubNavItems: HubNavItem[] = [
   {
     hub: 'learn',
     labelKey: 'nav.learn',
-    icon: Compass,
+    icon: BjjGuard,
     to: '/learn',
     items: [
       { key: 'nav.learningPath', to: '/learn' },
@@ -35,7 +29,7 @@ export const hubNavItems: HubNavItem[] = [
   {
     hub: 'study',
     labelKey: 'nav.study',
-    icon: Zap,
+    icon: BjjChain,
     to: '/study',
     items: [
       { key: 'nav.study', to: '/study' },
@@ -45,14 +39,14 @@ export const hubNavItems: HubNavItem[] = [
   {
     hub: 'defense',
     labelKey: 'nav.defense',
-    icon: Wrench,
+    icon: BjjEscape,
     to: '/defense',
     items: [{ key: 'nav.defense', to: '/defense' }],
   },
   {
     hub: 'build',
     labelKey: 'nav.build',
-    icon: Layers3,
+    icon: BjjMount,
     to: '/build',
     items: [
       { key: 'nav.archetypes', to: '/archetypes' },
@@ -61,7 +55,7 @@ export const hubNavItems: HubNavItem[] = [
   {
     hub: 'reference',
     labelKey: 'nav.reference',
-    icon: BookOpen,
+    icon: BjjGrip,
     to: '/reference',
     items: [
       { key: 'nav.glossary', to: '/glossary' },
@@ -82,7 +76,7 @@ export const primaryNavItems = hubNavItems.flatMap((hub) => [
 
 export const settingsNavItem = { to: '/settings', key: 'nav.settings', icon: Settings }
 
-export const brandIcon = BrainCircuit
+export const brandIcon = BjjBrandMark
 
 /**
  * Check if a pathname belongs to a given hub.

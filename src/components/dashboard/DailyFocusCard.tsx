@@ -11,8 +11,8 @@ import { cn } from '../../utils/cn'
 const dayOfWeek = new Date().getDay()
 const dayKeys = ['sunday', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday']
 
-const cardGradient = 'from-sky-500/10 via-blue-500/5 to-slate-900 border-sky-400/20'
-const todayConfig = { key: 'skill', label: 'dashboard.rotation.skill', tone: 'sky' as const, icon: BookOpen }
+const cardGradient = 'from-sea-500/10 via-steel-500/5 to-warm-900 border-sea-400/20'
+const todayConfig = { key: 'skill', label: 'dashboard.rotation.skill', tone: 'sea' as const, icon: BookOpen }
 
 // ── Types ──────────────────────────────────────────────────────────────────
 
@@ -39,8 +39,8 @@ export const DailyFocusCard = ({ isLoading, todayItem, onRefresh, spinKey }: Dai
     <section className="lg:col-span-12">
       {isLoading ? (
         /* ═══ Loading state ═══ */
-        <div className="relative block overflow-hidden rounded-2xl border bg-linear-to-br p-5 border-sky-400/20 bg-slate-900/50 sm:p-6">
-          <div className="absolute -right-24 -top-24 h-80 w-80 rounded-full bg-sky-400/5 blur-[100px]" />
+        <div className="relative block overflow-hidden rounded-2xl border bg-linear-to-br p-5 border-sea-400/20 bg-warm-900/50 sm:p-6">
+          <div className="absolute -right-24 -top-24 h-80 w-80 rounded-full bg-sea-400/5 blur-[100px]" />
 
           <div className="relative z-10">
             <div className="mb-4 flex items-center gap-3">
@@ -49,7 +49,7 @@ export const DailyFocusCard = ({ isLoading, todayItem, onRefresh, spinKey }: Dai
               <button
                 type="button"
                 onClick={onRefresh}
-                className="flex h-8 w-8 shrink-0 items-center justify-center rounded-lg border border-white/[0.08] bg-white/[0.03] text-sky-400/60 transition-all active:scale-90"
+                className="flex h-8 w-8 shrink-0 items-center justify-center rounded-lg border border-warm-50/[0.08] bg-warm-50/[0.03] text-sea/60 transition-all active:scale-90"
                 aria-label={t('dashboard.rotation.refresh')}
               >
                 <RefreshCw className="h-3.5 w-3.5 animate-spin" />
@@ -89,27 +89,27 @@ export const DailyFocusCard = ({ isLoading, todayItem, onRefresh, spinKey }: Dai
           >
             <div className={cn(
               'absolute -right-24 -top-24 h-80 w-80 rounded-full opacity-20 blur-[100px] transition-opacity group-hover:opacity-30',
-              'bg-sky-400',
+              'bg-sea-400',
             )} />
 
             <div className="relative z-10">
               <div className="mb-4 flex items-center gap-3">
                 <motion.div
-                  className="flex h-10 w-10 items-center justify-center rounded-xl bg-sky-400/10 text-sky-400"
+                  className="flex h-10 w-10 items-center justify-center rounded-xl bg-sea-400/10 text-sea"
                   whileHover={{ rotate: [0, -8, 8, 0], scale: 1.1 }}
                   transition={{ duration: 0.3 }}
                 >
                   <TodayIcon className="h-5 w-5" />
                 </motion.div>
                 <div className="flex-1">
-                  <Badge tone="sky" className="px-2 py-0.5 text-[10px] uppercase tracking-widest">
+                  <Badge tone="sea" className="px-2 py-0.5 text-[10px] uppercase tracking-widest">
                     {t('days.' + dayKeys[dayOfWeek])} · {t(todayConfig.label)}
                   </Badge>
                 </div>
                 <button
                   type="button"
                   onClick={onRefresh}
-                  className="flex h-8 w-8 shrink-0 items-center justify-center rounded-lg border border-white/[0.08] bg-white/[0.03] text-slate-500 transition-all hover:border-sky-400/30 hover:bg-sky-400/10 hover:text-sky-400 active:scale-90"
+                  className="flex h-8 w-8 shrink-0 items-center justify-center rounded-lg border border-warm-50/[0.08] bg-warm-50/[0.03] text-warm-500 transition-all hover:border-sea-400/30 hover:bg-sea-400/10 hover:text-sea active:scale-90"
                   aria-label={t('dashboard.rotation.refresh')}
                 >
                   <RefreshCw key={spinKey} className={cn('h-3.5 w-3.5', spinKey > 0 && 'animate-spin-once')} />
@@ -120,7 +120,7 @@ export const DailyFocusCard = ({ isLoading, todayItem, onRefresh, spinKey }: Dai
                 initial={{ opacity: 0, y: 8 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.1 }}
-                className="text-xl font-bold tracking-tight text-white sm:text-2xl"
+                className="text-xl font-bold tracking-tight text-warm-50 sm:text-2xl"
               >
                 {todayItem.title}
               </motion.h2>
@@ -128,7 +128,7 @@ export const DailyFocusCard = ({ isLoading, todayItem, onRefresh, spinKey }: Dai
                 initial={{ opacity: 0, y: 8 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.15 }}
-                className="mt-3 text-sm leading-relaxed text-slate-400 line-clamp-2"
+                className="mt-3 text-sm leading-relaxed text-warm-400 line-clamp-2"
               >
                 {todayItem.description}
               </motion.p>
@@ -137,7 +137,7 @@ export const DailyFocusCard = ({ isLoading, todayItem, onRefresh, spinKey }: Dai
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ delay: 0.2 }}
-                className="mt-4 flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-slate-500 transition-colors group-hover:text-white"
+                className="mt-4 flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-warm-500 transition-colors group-hover:text-warm-50"
               >
                 <span>{t('common.open')}</span>
                 <ArrowRight className="h-3.5 w-3.5 transition-transform group-hover:translate-x-1" />
@@ -147,10 +147,10 @@ export const DailyFocusCard = ({ isLoading, todayItem, onRefresh, spinKey }: Dai
         </motion.div>
       ) : (
         /* ═══ Empty state ═══ */
-        <div className="flex h-full min-h-[200px] items-center justify-center rounded-2xl border border-white/[0.06] bg-slate-900/30">
+        <div className="flex h-full min-h-[200px] items-center justify-center rounded-2xl border border-warm-50/[0.06] bg-warm-900/30">
           <div className="text-center">
-            <Zap className="mx-auto h-8 w-8 text-slate-600" />
-            <p className="mt-3 text-sm text-slate-500">{t('common.empty')}</p>
+            <Zap className="mx-auto h-8 w-8 text-warm-600" />
+            <p className="mt-3 text-sm text-warm-500">{t('common.empty')}</p>
           </div>
         </div>
       )}

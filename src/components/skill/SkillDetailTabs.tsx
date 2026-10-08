@@ -34,7 +34,7 @@ const tabInactiveAccents: Record<TabId, string> = {
 
 export const SkillDetailTabs = ({ tabs, activeTab, onTabChange }: Props) => {
   return (
-    <div className="sticky top-16 z-30 -mx-4 border-y border-white/[0.06] bg-slate-950/88 px-4 py-2 backdrop-blur-xl sm:-mx-6 sm:px-6 lg:-mx-8 lg:px-8">
+    <div className="sticky top-16 z-30 -mx-4 border-y border-warm-50/[0.06] bg-warm-950/88 px-4 py-2 backdrop-blur-xl sm:-mx-6 sm:px-6 lg:-mx-8 lg:px-8">
       <nav className="flex gap-2 overflow-x-auto scrollbar-none" role="tablist">
         {tabs.map((tab) => {
           const isActive = activeTab === tab.id
@@ -51,7 +51,7 @@ export const SkillDetailTabs = ({ tabs, activeTab, onTabChange }: Props) => {
                 transition-all duration-200
                 ${isActive
                   ? tabAccentClasses[tab.id]
-                  : `border-white/[0.06] bg-white/[0.02] text-slate-500 ${tabInactiveAccents[tab.id]} hover:bg-white/[0.04]`
+                  : `border-warm-50/[0.06] bg-warm-50/[0.02] text-warm-500 ${tabInactiveAccents[tab.id]} hover:bg-warm-50/[0.04]`
                 }
               `}
             >
@@ -63,7 +63,7 @@ export const SkillDetailTabs = ({ tabs, activeTab, onTabChange }: Props) => {
                   className={`ml-0.5 inline-flex h-5 w-5 items-center justify-center rounded-full border transition-colors ${
                     isActive
                       ? 'hallmark-tab-active border'
-                      : 'border-white/10 bg-white/[0.03] text-slate-500'
+                      : 'border-warm-50/10 bg-warm-50/[0.03] text-warm-500'
                   }`}
                 >
                   <svg viewBox="0 0 20 20" fill="none" className="h-3.5 w-3.5" stroke="currentColor" strokeWidth={1.8}>
@@ -72,7 +72,7 @@ export const SkillDetailTabs = ({ tabs, activeTab, onTabChange }: Props) => {
                 </span>
               )}
               {tab.count !== undefined && tab.count > 0 && (
-                <span className="ml-0.5 rounded-full bg-white/8 px-1.5 py-0.5 text-[10px] tabular-nums">
+                <span className="ml-0.5 rounded-full bg-warm-50/8 px-1.5 py-0.5 text-[10px] tabular-nums">
                   {tab.count}
                 </span>
               )}

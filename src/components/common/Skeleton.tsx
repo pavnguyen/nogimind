@@ -68,7 +68,7 @@ export const SkeletonCard = ({
   switch (variant) {
     case 'row':
       return (
-        <div className={cn('rounded-2xl border border-white/[0.04] bg-white/[0.02] px-5 py-4', className)}>
+        <div className={cn('rounded-2xl border border-warm-50/[0.04] bg-warm-50/[0.02] px-5 py-4', className)}>
           <div className="mb-3 flex items-center gap-3">
             {withIcon && <Skeleton variant="card" className="!h-9 !w-9 !rounded-xl shrink-0" />}
             <Skeleton variant="card" className="!h-3 max-w-[120px] flex-1" />
@@ -81,7 +81,7 @@ export const SkeletonCard = ({
       )
     default:
       return (
-        <div className={cn('rounded-lg border border-white/10 bg-slate-950/55 p-5 shadow-glow', className)}>
+        <div className={cn('rounded-lg border border-warm-50/10 bg-warm-950/55 p-5 shadow-glow', className)}>
           <Skeleton lines={1} className="mb-4 w-2/3" />
           <Skeleton lines={lines} lastLineWidth={lastLineWidth} />
         </div>

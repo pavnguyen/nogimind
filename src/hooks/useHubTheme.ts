@@ -21,38 +21,38 @@ export interface HallmarkThemeInfo {
 
 const themeRegistry: Record<HubId, Omit<HallmarkThemeInfo, 'hubId'>> = {
   learn: {
-    themeName: 'Salon',
-    accent: 'oklch(0.62 0.19 58)',
-    accentName: 'amber',
-    displayFont: 'Fraunces',
-    displayItalic: true,
-  },
-  study: {
-    themeName: 'Linen',
-    accent: 'oklch(0.72 0.19 148)',
-    accentName: 'emerald',
-    displayFont: 'Fraunces',
+    themeName: 'Gold',
+    accent: '#e8b05c',
+    accentName: 'gold',
+    displayFont: 'Archivo',
     displayItalic: false,
   },
-  fix: {
-    themeName: 'Newsprint',
-    accent: 'oklch(0.52 0.22 29)',
-    accentName: 'rose',
-    displayFont: 'Fraunces',
-    displayItalic: true,
+  study: {
+    themeName: 'Jade',
+    accent: '#3ec9b6',
+    accentName: 'jade',
+    displayFont: 'Archivo',
+    displayItalic: false,
+  },
+  defense: {
+    themeName: 'Copper',
+    accent: '#e07a4e',
+    accentName: 'copper',
+    displayFont: 'Archivo',
+    displayItalic: false,
   },
   build: {
-    themeName: 'Midnight',
-    accent: 'oklch(0.72 0.16 205)',
-    accentName: 'cyan',
-    displayFont: 'Fraunces',
+    themeName: 'Steel',
+    accent: '#7fa9e0',
+    accentName: 'steel',
+    displayFont: 'Archivo',
     displayItalic: false,
   },
   reference: {
-    themeName: 'Plain',
-    accent: 'oklch(0.55 0.18 265)',
-    accentName: 'blue',
-    displayFont: 'Fraunces',
+    themeName: 'Sand',
+    accent: '#b0a99b',
+    accentName: 'sand',
+    displayFont: 'Archivo',
     displayItalic: false,
   },
 }
@@ -74,9 +74,9 @@ export const useHubTheme = (): HallmarkThemeInfo => {
       return {
         hubId: null,
         themeName: 'Base',
-        accent: 'oklch(0.72 0.15 165)',
-        accentName: 'emerald',
-        displayFont: 'Fraunces',
+        accent: '#b0a99b',
+        accentName: 'sand',
+        displayFont: 'Archivo',
         displayItalic: false,
       }
     }
@@ -99,7 +99,7 @@ export const getThemeVar = (token: `--hallmark-${string}`): string => `var(${tok
  * Returns a Tailwind class-safe accent prefix for constructing dynamic classes.
  *
  * @example
- * const prefix = getAccentPrefix() // 'amber' when on Learn hub
+ * const prefix = getAccentPrefix() // 'gold' when on Learn hub
  * // → `border-${prefix}-400/20 bg-${prefix}-400/10`
  */
 export const useAccentPrefix = (): string => {

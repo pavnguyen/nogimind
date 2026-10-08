@@ -49,12 +49,12 @@ export default function ArchetypesPage() {
     <PageShell
       header={
         <div className="flex items-center gap-3">
-          <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-linear-to-br from-emerald-400 to-emerald-600 shadow-lg">
-            <Sword className="h-5 w-5 text-slate-950" aria-hidden="true" />
+          <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-linear-to-br from-jade-400 to-jade-600 shadow-lg">
+            <Sword className="h-5 w-5 text-on-accent" aria-hidden="true" />
           </div>
           <div>
-            <h1 className="text-2xl font-semibold tracking-tight text-white">{t('archetypes.heading')}</h1>
-            <p className="text-sm text-slate-400">{t('archetypes.whatFor')}</p>
+            <h1 className="text-2xl font-semibold tracking-tight text-warm-50">{t('archetypes.heading')}</h1>
+            <p className="text-sm text-warm-400">{t('archetypes.whatFor')}</p>
           </div>
         </div>
       }
@@ -63,7 +63,7 @@ export default function ArchetypesPage() {
         value={query}
         onChange={(event) => setQuery(event.target.value)}
         placeholder={t('archetypes.search')}
-        className="w-full rounded-md border border-white/10 bg-slate-900 px-3 py-2 text-sm text-white outline-none focus:border-cyan-300"
+        className="w-full rounded-md border border-warm-50/10 bg-warm-900 px-3 py-2 text-sm text-warm-50 outline-none focus:border-gold-300"
       />
 
       <SectionCard>
@@ -73,22 +73,22 @@ export default function ArchetypesPage() {
             <Link
               key={archetype.id}
               to={`/archetypes/${archetype.id}`}
-              className="group block rounded-lg border border-white/10 bg-slate-950/65 p-4 transition-all hover:border-cyan-300/35 hover:bg-white/[0.06]"
+              className="group block rounded-lg border border-warm-50/10 bg-warm-950/65 p-4 transition-all hover:border-gold-300/35 hover:bg-warm-50/[0.06]"
             >
               <div className="flex flex-wrap gap-2">
-                <Badge tone="emerald">{t('archetypes.coreSkillsCount', { count: archetype.coreSkillIds.length })}</Badge>
-                <Badge tone="cyan">{t('archetypes.conceptsCount', { count: archetype.coreConceptIds.length })}</Badge>
+                <Badge tone="jade">{t('archetypes.coreSkillsCount', { count: archetype.coreSkillIds.length })}</Badge>
+                <Badge tone="gold">{t('archetypes.conceptsCount', { count: archetype.coreConceptIds.length })}</Badge>
               </div>
-              <h2 className="mt-3 text-lg font-semibold text-white group-hover:text-cyan-300 transition-colors">
+              <h2 className="mt-3 text-lg font-semibold text-warm-50 group-hover:text-gold transition-colors">
                 {getLocalizedText(archetype.title, language)}
               </h2>
-              <p className="mt-2 text-sm leading-6 text-slate-400 line-clamp-2">{getLocalizedText(archetype.shortDescription, language)}</p>
-              <p className="mt-3 text-sm leading-6 text-slate-300 line-clamp-2">{getLocalizedText(archetype.philosophy, language)}</p>
-              <div className="mt-4 flex flex-wrap items-center justify-between gap-3 border-t border-white/10 pt-4">
+              <p className="mt-2 text-sm leading-6 text-warm-400 line-clamp-2">{getLocalizedText(archetype.shortDescription, language)}</p>
+              <p className="mt-3 text-sm leading-6 text-warm-300 line-clamp-2">{getLocalizedText(archetype.philosophy, language)}</p>
+              <div className="mt-4 flex flex-wrap items-center justify-between gap-3 border-t border-warm-50/10 pt-4">
                 <div className="flex flex-wrap gap-2">
                   {archetype.coreSkillIds.slice(0, 3).map((id) => <Badge key={id}>{id}</Badge>)}
                 </div>
-                <div className="inline-flex items-center gap-1.5 text-sm font-medium text-cyan-200 opacity-0 transition-all transform translate-x-2 group-hover:opacity-100 group-hover:translate-x-0">
+                <div className="inline-flex items-center gap-1.5 text-sm font-medium text-gold opacity-0 transition-all transform translate-x-2 group-hover:opacity-100 group-hover:translate-x-0">
                   {t('common.open')}
                   <ArrowRight className="h-4 w-4" aria-hidden="true" />
                 </div>

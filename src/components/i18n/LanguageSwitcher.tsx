@@ -12,14 +12,14 @@ export const LanguageSwitcher = () => {
   const setLanguage = useSettingsStore((state) => state.setLanguage)
 
   return (
-    <div className="inline-flex shrink-0 rounded-lg border border-white/10 bg-slate-950/70 p-0.5">
+    <div className="inline-flex shrink-0 rounded-lg border border-warm-50/10 bg-warm-950/70 p-0.5">
       {languages.map((item) => (
         <button
           key={item.code}
           type="button"
           onClick={() => setLanguage(item.code)}
           className={`rounded-md px-1.5 py-1 text-[11px] font-semibold tracking-wider transition ${
-            language === item.code ? 'bg-emerald-400 text-slate-950' : 'text-slate-400 hover:bg-white/10 hover:text-slate-200'
+            language === item.code ? 'bg-jade-400 text-on-accent' : 'text-warm-400 hover:bg-warm-50/10 hover:text-warm-200'
           }`}
         >
           {item.label}

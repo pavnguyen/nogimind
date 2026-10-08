@@ -41,7 +41,7 @@ export const HubTabBar = ({ tabs, className }: Props) => {
   )
 
   return (
-    <div className={cn('flex gap-1 overflow-x-auto rounded-2xl border border-white/[0.06] bg-slate-900/40 p-1.5 scrollbar-none', className)}>
+    <div className={cn('flex gap-1 overflow-x-auto rounded-2xl border border-warm-50/[0.06] bg-warm-900/40 p-1.5 scrollbar-none', className)}>
       {tabs.map((tab) => {
         const isActive = activeTab === tab.id
         const Icon = tab.icon
@@ -58,7 +58,7 @@ export const HubTabBar = ({ tabs, className }: Props) => {
               'flex items-center gap-2 rounded-xl px-4 py-2 text-sm font-medium transition-all duration-200 whitespace-nowrap',
               isActive
                 ? 'hallmark-tab-active'
-                : 'text-slate-400 hallmark-btn-ghost',
+                : 'text-warm-400 hallmark-btn-ghost',
             )}
           >
             {Icon && <Icon className="h-4 w-4 shrink-0" aria-hidden="true" />}
@@ -72,7 +72,7 @@ export const HubTabBar = ({ tabs, className }: Props) => {
             <Link
               key={tab.id}
               to={tab.route}
-              className="flex items-center gap-2 rounded-xl px-4 py-2 text-sm font-medium text-slate-400 hallmark-btn-ghost transition-all duration-200 whitespace-nowrap"
+              className="flex items-center gap-2 rounded-xl px-4 py-2 text-sm font-medium text-warm-400 hallmark-btn-ghost transition-all duration-200 whitespace-nowrap"
             >
               {Icon && <Icon className="h-4 w-4 shrink-0" aria-hidden="true" />}
               {t(tab.labelKey)}

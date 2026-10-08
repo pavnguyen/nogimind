@@ -61,7 +61,7 @@ export const PageShell = ({
               ) : null}
               <div className="flex items-center gap-3">
                 {badge ? (
-                  <Badge tone={badgeTone ?? 'slate'}>{badge}</Badge>
+                  <Badge tone={badgeTone ?? 'warm'}>{badge}</Badge>
                 ) : null}
                 <div>
                   {title ? (

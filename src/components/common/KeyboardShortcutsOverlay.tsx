@@ -99,7 +99,7 @@ export const KeyboardShortcutsOverlay = () => {
           animate={{ opacity: 1 }}
           exit={{ opacity: 0 }}
           transition={{ duration: 0.15 }}
-          className="fixed inset-0 z-50 flex items-center justify-center bg-slate-950/70 backdrop-blur-sm"
+          className="fixed inset-0 z-50 flex items-center justify-center bg-warm-950/70 backdrop-blur-sm"
           onClick={() => setShow(false)}
           onKeyDown={(event) => {
             if (event.key === 'Escape') setShow(false)
@@ -114,24 +114,24 @@ export const KeyboardShortcutsOverlay = () => {
             animate={{ opacity: 1, scale: 1, y: 0 }}
             exit={{ opacity: 0, scale: 0.95, y: 10 }}
             transition={{ duration: 0.2, ease: 'easeOut' }}
-            className="relative mx-4 w-full max-w-lg rounded-2xl border border-white/[0.08] bg-slate-900/95 p-6 shadow-2xl backdrop-blur-2xl"
+            className="relative mx-4 w-full max-w-lg rounded-2xl border border-warm-50/[0.08] bg-warm-900/95 p-6 shadow-2xl backdrop-blur-2xl"
             onClick={(event) => event.stopPropagation()}
           >
         {/* Header */}
         <div className="mb-6 flex items-center justify-between">
           <div className="flex items-center gap-3">
-            <div className="flex h-8 w-8 items-center justify-center rounded-lg border border-white/[0.08] bg-white/[0.03] text-slate-400">
+            <div className="flex h-8 w-8 items-center justify-center rounded-lg border border-warm-50/[0.08] bg-warm-50/[0.03] text-warm-400">
               <Command className="h-4 w-4" />
             </div>
             <div>
-              <h2 className="text-base font-bold text-white">{t('shortcuts.heading')}</h2>
-              <p className="text-xs text-slate-500">{t('shortcuts.subtitle')}</p>
+              <h2 className="text-base font-bold text-warm-50">{t('shortcuts.heading')}</h2>
+              <p className="text-xs text-warm-500">{t('shortcuts.subtitle')}</p>
             </div>
           </div>
           <button
             type="button"
             onClick={() => setShow(false)}
-            className="flex h-7 w-7 items-center justify-center rounded-lg border border-white/[0.06] text-slate-500 transition-colors hover:bg-white/[0.06] hover:text-white"
+            className="flex h-7 w-7 items-center justify-center rounded-lg border border-warm-50/[0.06] text-warm-500 transition-colors hover:bg-warm-50/[0.06] hover:text-warm-50"
             aria-label={t('shortcuts.close')}
           >
             <X className="h-3.5 w-3.5" />
@@ -142,7 +142,7 @@ export const KeyboardShortcutsOverlay = () => {
         <div className="space-y-5">
           {shortcutGroups.map((group) => (
             <div key={group.labelKey}>
-              <div className="mb-2 flex items-center gap-2 text-[10px] font-bold uppercase tracking-widest text-slate-500">
+              <div className="mb-2 flex items-center gap-2 text-[10px] font-bold uppercase tracking-widest text-warm-500">
                 {groupIcons[group.labelKey]}
                 {t(group.labelKey)}
               </div>
@@ -150,9 +150,9 @@ export const KeyboardShortcutsOverlay = () => {
                 {group.keys.map((item) => (
                   <div
                     key={item.label}
-                    className="flex items-center justify-between rounded-lg px-3 py-2 transition-colors hover:bg-white/[0.03]"
+                    className="flex items-center justify-between rounded-lg px-3 py-2 transition-colors hover:bg-warm-50/[0.03]"
                   >
-                    <span className="text-sm text-slate-300">{item.label}</span>
+                    <span className="text-sm text-warm-300">{item.label}</span>
                     <span className="flex items-center gap-1">
                       {item.keys.map((key, idx) => (
                         <span key={idx} className="flex items-center gap-0.5">
@@ -160,13 +160,13 @@ export const KeyboardShortcutsOverlay = () => {
                             className={cn(
                               'inline-flex items-center justify-center rounded-md border px-1.5 py-0.5 text-[10px] font-semibold leading-none',
                               key === '?' || key === 'Esc'
-                                ? 'border-cyan-400/20 bg-cyan-400/10 text-cyan-300'
-                                : 'border-white/[0.08] bg-slate-800 text-slate-300',
+                                ? 'border-gold-400/20 bg-gold-400/10 text-gold'
+                                : 'border-warm-50/[0.08] bg-warm-800 text-warm-300',
                             )}
                           >
                             {key}
                           </kbd>
-                          {idx < item.keys.length - 1 && <span className="text-[9px] text-slate-600">+</span>}
+                          {idx < item.keys.length - 1 && <span className="text-[9px] text-warm-600">+</span>}
                         </span>
                       ))}
                     </span>
@@ -178,8 +178,8 @@ export const KeyboardShortcutsOverlay = () => {
         </div>
 
         {/* Footer note */}
-        <div className="mt-6 rounded-lg border border-cyan-400/10 bg-cyan-400/[0.03] px-4 py-2.5">
-          <p className="text-xs text-slate-400">
+        <div className="mt-6 rounded-lg border border-gold-400/10 bg-gold-400/[0.03] px-4 py-2.5">
+          <p className="text-xs text-warm-400">
             {t('shortcuts.tip')}
           </p>
         </div>

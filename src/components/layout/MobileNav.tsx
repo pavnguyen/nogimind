@@ -32,7 +32,7 @@ export const MobileNav = () => {
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
             transition={{ duration: 0.15 }}
-            className="fixed inset-0 z-40 bg-slate-950/90 backdrop-blur-2xl lg:hidden"
+            className="fixed inset-0 z-40 bg-warm-950/90 backdrop-blur-2xl lg:hidden"
           >
             <motion.div
               initial={{ opacity: 0, y: 20 }}
@@ -43,13 +43,13 @@ export const MobileNav = () => {
             >
               <div className="flex items-center justify-between">
                 <Link to="/" onClick={() => setOpen(false)}>
-                  <p className="text-lg font-semibold text-white">{t('app.name')}</p>
-                  <p className="text-xs text-slate-500">{t('app.version')} · {getBuildDate()}</p>
+                  <p className="text-lg font-semibold text-warm-50">{t('app.name')}</p>
+                  <p className="text-xs text-warm-500">{t('app.version')} · {getBuildDate()}</p>
                 </Link>
                 <button
                   type="button"
                   onClick={() => setOpen(false)}
-                  className="flex h-10 w-10 items-center justify-center rounded-full border border-white/[0.06] text-slate-300 transition-all hover:bg-white/[0.06]"
+                  className="flex h-10 w-10 items-center justify-center rounded-full border border-warm-50/[0.06] text-warm-300 transition-all hover:bg-warm-50/[0.06]"
                   aria-label={t('common.close', 'Close navigation')}
                 >
                   <X className="h-5 w-5" aria-hidden="true" />
@@ -76,7 +76,7 @@ export const MobileNav = () => {
                           'flex items-center gap-3 rounded-xl px-4 py-3.5 text-base font-medium transition-all duration-200',
                           active
                             ? 'hallmark-mobile-hub-active'
-                            : 'text-slate-300 hover:bg-white/[0.04] hover:text-white',
+                            : 'text-warm-300 hover:bg-warm-50/[0.04] hover:text-warm-50',
                         )}
                       >
                         <span
@@ -84,7 +84,7 @@ export const MobileNav = () => {
                             'inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg border transition-colors',
                             active
                               ? 'hallmark-mobile-icon-active'
-                              : 'border-white/[0.08] bg-white/[0.02] text-slate-400',
+                              : 'border-warm-50/[0.08] bg-warm-50/[0.02] text-warm-400',
                           )}
                         >
                           <Icon className="h-5 w-5 shrink-0" aria-hidden="true" />
@@ -92,7 +92,7 @@ export const MobileNav = () => {
                         <span>{t(hub.labelKey)}</span>
                       </NavLink>
 
-                      <div className="relative ml-9 mt-1 space-y-1 rounded-lg bg-white/[0.015] px-2 py-2">
+                      <div className="relative ml-9 mt-1 space-y-1 rounded-lg bg-warm-50/[0.015] px-2 py-2">
                         <div className="pointer-events-none absolute bottom-2 left-0 top-2 w-px hallmark-mobile-rail" />
                         {hub.items.map((item) => {
                           const isItemActive =
@@ -109,14 +109,14 @@ export const MobileNav = () => {
                                   'flex items-center gap-3 rounded-lg px-3 py-2.5 text-sm font-medium transition-all duration-200',
                                   isItemActive
                                     ? 'hallmark-mobile-sub-active'
-                                    : 'text-slate-400 hover:bg-white/[0.04] hover:text-slate-200',
+                                    : 'text-warm-400 hover:bg-warm-50/[0.04] hover:text-warm-200',
                                 )
                               }
                             >
                               <span
                                 className={cn(
                                   'h-1.5 w-1.5 rounded-full',
-                                  isItemActive ? 'hallmark-accent-dot' : 'bg-slate-600',
+                                  isItemActive ? 'hallmark-accent-dot' : 'bg-warm-600',
                                 )}
                               />
                               <span>{t(item.key)}</span>
@@ -129,11 +129,11 @@ export const MobileNav = () => {
                 })}
               </nav>
 
-              <div className="space-y-2 border-t border-white/[0.06] pt-6 text-sm text-slate-500">
+              <div className="space-y-2 border-t border-warm-50/[0.06] pt-6 text-sm text-warm-500">
                 <NavLink
                   to="/settings"
                   onClick={() => setOpen(false)}
-                  className="block rounded-lg px-4 py-2 hover:text-slate-300"
+                  className="block rounded-lg px-4 py-2 hover:text-warm-300"
                 >
                   {t('nav.settings')}
                 </NavLink>
@@ -143,7 +143,7 @@ export const MobileNav = () => {
         )}
       </AnimatePresence>
 
-      <nav className="fixed bottom-0 left-0 right-0 z-30 border-t border-white/[0.06] bg-slate-950/90 backdrop-blur-xl lg:hidden">
+      <nav className="fixed bottom-0 left-0 right-0 z-30 border-t border-warm-50/[0.06] bg-warm-950/90 backdrop-blur-xl lg:hidden">
         <div className="mx-auto flex max-w-lg items-center justify-around px-2 py-1">
           {bottomTabItems.map((tab) => {
             const hub = hubNavItems.find((h) => h.hub === tab.hub)!
@@ -160,7 +160,7 @@ export const MobileNav = () => {
                     'flex min-w-[62px] flex-col items-center gap-0.5 rounded-lg px-3 py-1.5 text-[10px] font-medium transition-all duration-200',
                     isActive || active
                       ? 'hallmark-bottom-tab-active'
-                      : 'text-slate-500 hover:bg-white/[0.03] hover:text-slate-300',
+                      : 'text-warm-500 hover:bg-warm-50/[0.03] hover:text-warm-300',
                   )
                 }
               >

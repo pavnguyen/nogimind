@@ -1,60 +1,180 @@
 @import "tailwindcss";
 
+/* Only app source defines classes. Without this, Tailwind's automatic source
+ * detection also scans the Markdown notes at the repo root, where the old
+ * palette is quoted verbatim — which would ship dead `slate-*`/`emerald-*`
+ * utilities alongside the new palette. */
+@source not "../*.md";
+
 /* ── Design tokens (Tailwind v4 CSS-first config) ───────────────────── */
 @theme {
   /* Font families */
   --font-sans: 'Inter', ui-sans-serif, system-ui, sans-serif;
-  --font-display: 'Fraunces', ui-serif, serif;
+  --font-display: 'Archivo Variable', 'Archivo', ui-sans-serif, system-ui, sans-serif;
   --font-mono: 'JetBrains Mono', 'Fira Code', monospace;
 
-  /* Ink palette */
-  --color-ink-950: #06080d;
-  --color-ink-900: #0b1018;
-  --color-ink-850: #101722;
-  --color-ink-800: #182234;
-  --color-ink-750: #1c2a42;
+  /* ══ NoGiMind palette — warm charcoal + grappling tones ═══════════════════
+   * Single source of truth for colour. `npm run validate:contrast`
+   * (scripts/validate-contrast.ts) re-checks every pair below against WCAG AA.
+   *
+   *   Role by shade   50–200 lightest text/tints · 300 accent text · 400 accent
+   *                   500–600 text tones · 700 elevated · 800 card
+   *                   900 surface · 950 page background
+   *
+   * Light mode (`@media (prefers-color-scheme: light)` in
+   * src/styles/hallmark-themes.css) re-points these same variables, so
+   * components never need a mode-specific class.
+   * ════════════════════════════════════════════════════════════════════════ */
+  /* neutral charcoal — replaces the cold `slate` scale */
+  --color-warm-50: #f7f5f1;
+  --color-warm-100: #f2efe9;
+  --color-warm-200: #e9e4da;
+  --color-warm-300: #ddd6c8;
+  --color-warm-400: #cfc9bd;
+  --color-warm-500: #a9a191;
+  --color-warm-600: #9a9284;
+  --color-warm-700: #4c463d;
+  --color-warm-800: #26231d;
+  --color-warm-900: #14120f;
+  --color-warm-950: #0d0c0a;
 
-  /* Dojo surfaces */
-  --color-dojo-bg: #06080d;
-  --color-dojo-surface: #0b1018;
-  --color-dojo-card: #101722;
-  --color-dojo-border: rgba(148, 163, 184, 0.12);
-  --color-dojo-border-hover: rgba(148, 163, 184, 0.25);
+  /* grappling tone · gold */
+  --color-gold-50: #fff4d9;
+  --color-gold-100: #ffe8bd;
+  --color-gold-200: #ffd899;
+  --color-gold-300: #f6c175;
+  --color-gold-400: #e8b05c;
+  --color-gold-500: #ca943e;
+  --color-gold-600: #a9751b;
+  --color-gold-700: #845906;
+  --color-gold-800: #5d3f0d;
+  --color-gold-900: #3d2b0e;
+  --color-gold-950: #2b1e0c;
 
-  /* Hub accent colors */
-  --color-hub-learn: #22d3ee;
-  --color-hub-learn-bg: rgba(34, 211, 238, 0.10);
-  --color-hub-study: #34d399;
-  --color-hub-study-bg: rgba(52, 211, 153, 0.10);
-  --color-hub-fix: #fb923c;
-  --color-hub-fix-bg: rgba(251, 146, 60, 0.10);
-  --color-hub-build: #a78bfa;
-  --color-hub-build-bg: rgba(167, 139, 250, 0.10);
-  --color-hub-reference: #94a3b8;
-  --color-hub-reference-bg: rgba(148, 163, 184, 0.10);
+  /* grappling tone · copper */
+  --color-copper-50: #f1cbbb;
+  --color-copper-100: #f7bba3;
+  --color-copper-200: #f9a784;
+  --color-copper-300: #ed8c64;
+  --color-copper-400: #e07a4e;
+  --color-copper-500: #c15e32;
+  --color-copper-600: #9f4110;
+  --color-copper-700: #762900;
+  --color-copper-800: #4b1700;
+  --color-copper-900: #290900;
+  --color-copper-950: #170300;
 
-  /* Hallmark theme-accent colors (resolved from theme runtime tokens) */
+  /* grappling tone · moss */
+  --color-moss-50: #e6ebce;
+  --color-moss-100: #dbe3b5;
+  --color-moss-200: #ced896;
+  --color-moss-300: #b9c475;
+  --color-moss-400: #a9b45f;
+  --color-moss-500: #8e9843;
+  --color-moss-600: #707924;
+  --color-moss-700: #535a10;
+  --color-moss-800: #373c0c;
+  --color-moss-900: #212508;
+  --color-moss-950: #151705;
+
+  /* grappling tone · jade */
+  --color-jade-50: #cff6ee;
+  --color-jade-100: #b2f1e5;
+  --color-jade-200: #8beada;
+  --color-jade-300: #5fd8c5;
+  --color-jade-400: #3ec9b6;
+  --color-jade-500: #00ac9a;
+  --color-jade-600: #008c7c;
+  --color-jade-700: #006b5d;
+  --color-jade-800: #00493f;
+  --color-jade-900: #002e28;
+  --color-jade-950: #021e1a;
+
+  /* grappling tone · sea */
+  --color-sea-50: #c5e1e8;
+  --color-sea-100: #aedae6;
+  --color-sea-200: #90d0e2;
+  --color-sea-300: #6fbdd2;
+  --color-sea-400: #58aec4;
+  --color-sea-500: #3a92a7;
+  --color-sea-600: #147488;
+  --color-sea-700: #005465;
+  --color-sea-800: #003641;
+  --color-sea-900: #011e25;
+  --color-sea-950: #011015;
+
+  /* grappling tone · steel */
+  --color-steel-50: #d4e3f7;
+  --color-steel-100: #c2dafa;
+  --color-steel-200: #accefa;
+  --color-steel-300: #91b9ed;
+  --color-steel-400: #7fa9e0;
+  --color-steel-500: #648dc2;
+  --color-steel-600: #486fa1;
+  --color-steel-700: #31517a;
+  --color-steel-800: #1f3551;
+  --color-steel-900: #111f30;
+  --color-steel-950: #09121e;
+
+  /* grappling tone · sand */
+  --color-sand-50: #e7e5e0;
+  --color-sand-100: #dfdbd3;
+  --color-sand-200: #d3cec2;
+  --color-sand-300: #bfb9ac;
+  --color-sand-400: #b0a99b;
+  --color-sand-500: #948d80;
+  --color-sand-600: #767063;
+  --color-sand-700: #585248;
+  --color-sand-800: #3a372f;
+  --color-sand-900: #23211c;
+  --color-sand-950: #151411;
+
+  /* Mode-aware role tokens */
+  --color-on-accent: #0d0c0a;        /* ink on a bright tone fill */
+  --color-scrim: rgba(13, 12, 10, 0.62); /* modal / sheet backdrop */
+
+  /* Semantic accent text (mode-aware; readable on page & card) */
+  --color-gold: #f6c175;
+  --color-copper: #ed8c64;
+  --color-moss: #b9c475;
+  --color-jade: #5fd8c5;
+  --color-sea: #6fbdd2;
+  --color-steel: #91b9ed;
+  --color-sand: #bfb9ac;
+
+  /* Surface roles (mirrors of the --hallmark-* surfaces) */
+  --color-page: var(--hallmark-bg-primary);
+  --color-surface: var(--hallmark-bg-surface);
+  --color-card: var(--hallmark-bg-card);
+  --color-elevated: var(--hallmark-bg-elevated);
+
+  /* Hub accents */
+  --color-hub-learn: #e8b05c;  --color-hub-learn-bg: rgba(232, 176, 92, 0.1);
+  --color-hub-study: #3ec9b6;  --color-hub-study-bg: rgba(62, 201, 182, 0.1);
+  --color-hub-defense: #e07a4e;  --color-hub-defense-bg: rgba(224, 122, 78, 0.1);
+  --color-hub-build: #7fa9e0;  --color-hub-build-bg: rgba(127, 169, 224, 0.1);
+  --color-hub-reference: #b0a99b;  --color-hub-reference-bg: rgba(176, 169, 155, 0.1);
+
+  /* Theme-accent aliases (values live in hallmark-themes.css) */
   --color-hallmark-accent: var(--hallmark-accent);
   --color-hallmark-accent-dim: var(--hallmark-accent-dim);
   --color-hallmark-accent-glow: var(--hallmark-accent-glow);
   --color-hallmark-surface-accent: var(--hallmark-surface-accent);
   --color-hallmark-text-accent: var(--hallmark-text-accent);
-  --color-hallmark-amber: oklch(0.62 0.19 58);
-  --color-hallmark-emerald: oklch(0.72 0.19 148);
-  --color-hallmark-rose: oklch(0.52 0.22 29);
-  --color-hallmark-cyan: oklch(0.72 0.16 205);
-  --color-hallmark-blue: oklch(0.55 0.18 265);
+  --color-hallmark-gold: #e8b05c;
+  --color-hallmark-jade: #3ec9b6;
+  --color-hallmark-copper: #e07a4e;
+  --color-hallmark-steel: #7fa9e0;
+  --color-hallmark-sand: #b0a99b;
 
-  --color-emerald-150: #d1fae5;
-  --color-cyan-150: #cffafe;
 
   /* Shadow utilities */
-  --shadow-glow: var(--hallmark-shadow-glow, 0 0 0 1px rgba(45, 212, 191, 0.10)), 0 20px 60px rgba(0, 0, 0, 0.35);
-  --shadow-glow-sm: 0 0 0 1px rgba(45, 212, 191, 0.08), 0 4px 20px rgba(0, 0, 0, 0.25);
-  --shadow-glow-lg: 0 0 0 1px rgba(45, 212, 191, 0.12), 0 30px 80px rgba(0, 0, 0, 0.40);
-  --shadow-glow-amber: 0 0 0 1px rgba(251, 191, 36, 0.10), 0 20px 60px rgba(0, 0, 0, 0.35);
-  --shadow-glow-cyan: 0 0 0 1px rgba(34, 211, 238, 0.10), 0 20px 60px rgba(0, 0, 0, 0.35);
-  --shadow-glow-violet: 0 0 0 1px rgba(167, 139, 250, 0.10), 0 20px 60px rgba(0, 0, 0, 0.35);
+  --shadow-glow: var(--hallmark-shadow-glow, 0 0 0 1px rgba(207, 201, 189, 0.10)), 0 20px 60px rgba(0, 0, 0, 0.35);
+  --shadow-glow-sm: 0 0 0 1px rgba(207, 201, 189, 0.08), 0 4px 20px rgba(0, 0, 0, 0.25);
+  --shadow-glow-lg: 0 0 0 1px rgba(207, 201, 189, 0.12), 0 30px 80px rgba(0, 0, 0, 0.40);
+  --shadow-glow-gold: 0 0 0 1px rgba(232, 176, 92, 0.10), 0 20px 60px rgba(0, 0, 0, 0.35);
+  --shadow-glow-steel: 0 0 0 1px rgba(232, 176, 92, 0.10), 0 20px 60px rgba(0, 0, 0, 0.35);
+  --shadow-glow-copper: 0 0 0 1px rgba(127, 169, 224, 0.10), 0 20px 60px rgba(0, 0, 0, 0.35);
   --shadow-lift: 0 4px 12px rgba(0, 0, 0, 0.30), 0 1px 3px rgba(0, 0, 0, 0.15);
   --shadow-lift-lg: 0 8px 30px rgba(0, 0, 0, 0.35), 0 2px 6px rgba(0, 0, 0, 0.15);
   --shadow-card: 0 1px 3px 0 rgba(0, 0, 0, 0.3), 0 1px 2px -1px rgba(0, 0, 0, 0.2);
@@ -94,8 +214,8 @@
     50% { transform: translateY(-4px); }
   }
   @keyframes glowPulse {
-    0%, 100% { box-shadow: 0 0 8px rgba(52, 211, 153, 0.15); }
-    50% { box-shadow: 0 0 20px rgba(52, 211, 153, 0.30); }
+    0%, 100% { box-shadow: 0 0 8px rgba(232, 176, 92, 0.15); }
+    50% { box-shadow: 0 0 20px rgba(232, 176, 92, 0.30); }
   }
   @keyframes pulseSlow {
     0%, 100% { opacity: 1; transform: scale(1); }
@@ -113,7 +233,7 @@
   *,
   ::before,
   ::after {
-    border-color: rgb(148 163 184 / 0.12);
+    border-color: rgba(207, 201, 189, 0.12);
   }
 }
 
@@ -128,7 +248,7 @@ body {
   margin: 0;
   min-width: 320px;
   position: relative;
-  color-scheme: dark;
+  color-scheme: light dark;
   background: var(--hallmark-bg-primary);
   color: var(--hallmark-text-primary);
   font-family: 'Inter', ui-sans-serif, system-ui, sans-serif;
@@ -161,10 +281,13 @@ body::before {
 
 /* ── Typography ─────────────────────────────────────────────────────── */
 
-/* Headings use Fraunces display face */
+/* Headings use the Archivo display face, set slightly expanded.
+ * The width axis (font-stretch) is what gives the "Archivo Expanded" look;
+ * see main.tsx, which loads @fontsource-variable/archivo/wdth.css. */
 h1, h2, h3 {
-  font-family: 'Fraunces', ui-serif, serif;
-  font-variation-settings: 'opsz' 48, 'SOFT' 50;
+  font-family: var(--font-display);
+  font-stretch: 112%;
+  font-weight: 700;
   letter-spacing: -0.02em;
 }
 
@@ -175,8 +298,8 @@ h4, h5, h6 {
 
 /* Display headings for hero sections */
 .display-heading {
-  font-family: 'Fraunces', ui-serif, serif;
-  font-variation-settings: 'opsz' 72, 'SOFT' 60;
+  font-family: var(--font-display);
+  font-stretch: 118%;
   font-weight: 800;
   letter-spacing: -0.03em;
   line-height: 1.05;
@@ -211,7 +334,7 @@ a {
 
 /* ── Focus-visible ring (delegates to Hallmark theme tokens) ── */
 :focus-visible {
-  outline: 2px solid var(--hallmark-focus-ring, rgba(52, 211, 153, 0.6));
+  outline: 2px solid var(--hallmark-focus-ring, rgba(232, 176, 92, 0.6));
   outline-offset: 2px;
   border-radius: 4px;
 }
@@ -222,7 +345,7 @@ input:focus-visible,
 select:focus-visible,
 textarea:focus-visible,
 [tabindex]:focus-visible {
-  outline: 2px solid var(--hallmark-focus-ring, rgba(52, 211, 153, 0.6));
+  outline: 2px solid var(--hallmark-focus-ring, rgba(232, 176, 92, 0.6));
   outline-offset: 2px;
 }
 
@@ -234,7 +357,7 @@ textarea:focus-visible,
 /* ── Scrollbar (theme-aware via tokens) ── */
 * {
   scrollbar-width: thin;
-  scrollbar-color: var(--hallmark-scrollbar-thumb, rgba(20, 184, 166, 0.40)) rgba(15, 23, 42, 0.4);
+  scrollbar-color: var(--hallmark-scrollbar-thumb, rgba(62, 201, 182, 0.40)) rgba(13, 12, 10, 0.4);
 }
 
 *::-webkit-scrollbar {
@@ -247,28 +370,28 @@ textarea:focus-visible,
 }
 
 *::-webkit-scrollbar-thumb {
-  background: var(--hallmark-scrollbar-thumb, rgba(20, 184, 166, 0.30));
+  background: var(--hallmark-scrollbar-thumb, rgba(62, 201, 182, 0.30));
   border-radius: 3px;
   transition: background 0.2s ease;
 }
 
 *::-webkit-scrollbar-thumb:hover {
-  background: var(--hallmark-scrollbar-thumb-hover, rgba(20, 184, 166, 0.50));
+  background: var(--hallmark-scrollbar-thumb-hover, rgba(62, 201, 182, 0.50));
 }
 
 /* ── Selection (theme-aware) ── */
 ::selection {
-  background: var(--hallmark-selection-bg, rgba(20, 184, 166, 0.25));
-  color: var(--hallmark-text-primary, #e2e8f0);
+  background: var(--hallmark-selection-bg, rgba(62, 201, 182, 0.25));
+  color: var(--hallmark-text-primary, #ddd6c8);
 }
 
 /* ── Skeleton shimmer ── */
 .skeleton-shimmer {
   background: linear-gradient(
     90deg,
-    rgba(148, 163, 184, 0.06) 25%,
-    rgba(148, 163, 184, 0.12) 37%,
-    rgba(148, 163, 184, 0.06) 63%
+    rgba(207, 201, 189, 0.06) 25%,
+    rgba(207, 201, 189, 0.12) 37%,
+    rgba(207, 201, 189, 0.06) 63%
   );
   background-size: 200% 100%;
   animation: shimmer 2s infinite linear;
@@ -475,17 +598,17 @@ textarea:focus-visible,
 
 /* ── Detail page: caution text (was text-amber-*) ── */
 .hallmark-text-caution {
-  color: #fbbf24; /* amber-300, semantic, not theme-bound */
+  color: var(--color-gold);
 }
 
 /* ── Detail page: positive text (was text-emerald-*) ── */
 .hallmark-text-positive {
-  color: #6ee7b7; /* emerald-300, semantic, not theme-bound */
+  color: var(--color-jade);
 }
 
 /* ── Detail page: danger text (was text-rose-*) ── */
 .hallmark-text-danger {
-  color: #fda4af; /* rose-300, semantic, not theme-bound */
+  color: var(--color-copper);
 }
 
 /* ── Detail page: progress bar ── */
@@ -542,8 +665,8 @@ textarea:focus-visible,
 }
 
 .search-focus-ring:focus-within {
-  border-color: var(--hallmark-accent-dim, rgba(52, 211, 153, 0.3));
-  box-shadow: 0 0 0 1px var(--hallmark-accent-glow, rgba(52, 211, 153, 0.15)), 0 0 20px var(--hallmark-accent-glow, rgba(52, 211, 153, 0.05));
+  border-color: var(--hallmark-accent-dim, rgba(232, 176, 92, 0.3));
+  box-shadow: 0 0 0 1px var(--hallmark-accent-glow, rgba(232, 176, 92, 0.15)), 0 0 20px var(--hallmark-accent-glow, rgba(232, 176, 92, 0.05));
 }
 
 /* ── Animations ── */
@@ -609,7 +732,7 @@ textarea:focus-visible,
 
   body {
     background: white !important;
-    color: #1e293b !important;
+    color: #1b1917 !important;
     -webkit-print-color-adjust: exact !important;
     print-color-adjust: exact !important;
   }
@@ -633,7 +756,7 @@ textarea:focus-visible,
     display: block !important;
     page-break-inside: avoid;
     break-inside: avoid;
-    border: 1px solid #e2e8f0;
+    border: 1px solid #ddd6c8;
     border-radius: 8px;
     padding: 20px;
     margin-bottom: 16px;
@@ -645,10 +768,10 @@ textarea:focus-visible,
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.05em;
-    color: #64748b;
+    color: #6b6459;
     margin: 0 0 8px 0;
     padding-bottom: 6px;
-    border-bottom: 1px solid #e2e8f0;
+    border-bottom: 1px solid #ddd6c8;
   }
 
   .print-card p, .print-card li {
@@ -670,13 +793,13 @@ textarea:focus-visible,
   .print-title {
     font-size: 22px;
     font-weight: 800;
-    color: #0f172a;
+    color: #1b1917;
     margin-bottom: 4px;
   }
 
   .print-subtitle {
     font-size: 12px;
-    color: #64748b;
+    color: #6b6459;
     margin-bottom: 16px;
   }
 
@@ -689,16 +812,16 @@ textarea:focus-visible,
     letter-spacing: 0.08em;
     padding: 2px 8px;
     border-radius: 4px;
-    background: #f1f5f9;
+    background: #f2efe9;
     color: #475569;
     margin-right: 4px;
     margin-bottom: 4px;
   }
 
-  .print-badge--goal { background: #d1fae5; color: #065f46; }
-  .print-badge--cue { background: #cffafe; color: #155e75; }
-  .print-badge--finish { background: #d1fae5; color: #065f46; }
-  .print-badge--abort { background: #ffe4e6; color: #9f1239; }
+  .print-badge--goal { background: #dcf3ee; color: #0b5c52; }
+  .print-badge--cue { background: #e3eff4; color: #1d5a70; }
+  .print-badge--finish { background: #dcf3ee; color: #0b5c52; }
+  .print-badge--abort { background: #f9e2d6; color: #7c3413; }
   .print-badge--safety { background: #fed7aa; color: #9a3412; }
 
   /* Grid layout */

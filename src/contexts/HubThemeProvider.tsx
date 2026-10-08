@@ -1,7 +1,7 @@
 import { useMemo, type ReactNode } from 'react'
 import { useLocation } from 'react-router-dom'
 import { hubNavItems, pathInHub } from '../components/layout/navItems'
-import { HubThemeContext, type HubId, type HubTheme } from './HubThemeContext'
+import { HubThemeContext, type HubTheme } from './HubThemeContext'
 
 // ── Provider ──────────────────────────────────────────────────────────────
 
@@ -15,7 +15,7 @@ export const HubThemeProvider = ({ children }: HubThemeProviderProps) => {
   const value = useMemo<HubTheme>(() => {
     const matchedHub = hubNavItems.find((hub) => pathInHub(location.pathname, hub))
     return {
-      hubId: (matchedHub?.hub as HubId) ?? null,
+      hubId: matchedHub?.hub ?? null,
       dataAttr: matchedHub?.hub ?? '',
     }
   }, [location.pathname])

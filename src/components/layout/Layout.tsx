@@ -83,11 +83,11 @@ export const Layout = () => {
   }, [navigate, toggleShortcuts, setShortcuts])
 
   return (
-    <div className="min-h-screen text-slate-100">
+    <div className="min-h-screen text-warm-100">
       {/* Skip-to-content link for keyboard users */}
       <a
         href="#main-content"
-        className="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-[100] focus:rounded-lg focus:bg-emerald-500 focus:px-4 focus:py-2 focus:text-sm focus:font-bold focus:text-slate-950"
+        className="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-[100] focus:rounded-lg focus:bg-jade-500 focus:px-4 focus:py-2 focus:text-sm focus:font-bold focus:text-on-accent"
       >
         {t('accessibility.skipToContent')}
       </a>
@@ -108,14 +108,14 @@ export const Layout = () => {
               </motion.div>
             </AnimatePresence>
           </main>
-          <footer className="mx-auto w-full max-w-[1500px] px-4 pb-6 text-xs text-slate-500 lg:px-8">
+          <footer className="mx-auto w-full max-w-[1500px] px-4 pb-6 text-xs text-warm-500 lg:px-8">
             <div className="flex items-center justify-between gap-4">
               <div className="flex items-center gap-3">
                 <a
                   href="https://www.lindigi.com"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex rounded-md border border-white/[0.06] px-3 py-2 transition-colors hover:border-emerald-300/25 hover:text-emerald-100"
+                  className="inline-flex rounded-md border border-warm-50/[0.06] px-3 py-2 transition-colors hover:border-jade-300/25 hover:text-jade"
                 >
                   {t('app.poweredBy')}
                 </a>
@@ -125,7 +125,7 @@ export const Layout = () => {
                 onClick={() => setShortcuts(true)}
                 className={cn(
                   'inline-flex items-center gap-1.5 rounded-md border px-3 py-2 text-[11px] font-medium transition-all',
-                  'border-white/[0.06] text-slate-500 hover:border-cyan-400/20 hover:bg-cyan-400/[0.04] hover:text-cyan-300',
+                  'border-warm-50/[0.06] text-warm-500 hover:border-gold-400/20 hover:bg-gold-400/[0.04] hover:text-gold',
                 )}
                 aria-label={t('shortcuts.heading')}
               >

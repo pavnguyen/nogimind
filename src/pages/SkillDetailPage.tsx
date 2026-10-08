@@ -140,16 +140,16 @@ export default function SkillDetailPage() {
 
     // Show Learn tab if either pipeline or legacy has content
     if (hasPipelineLearnContent) {
-      items.push({ id: 'learn', label: t('common.learn'), icon: TabIcons.learn, accent: 'cyan' })
+      items.push({ id: 'learn', label: t('common.learn'), icon: TabIcons.learn, accent: 'gold' })
     }
 
     // Show Fix tab if either pipeline or legacy has content
     if (hasPipelineFixContent) {
-      items.push({ id: 'fix', label: t('cardOS.fixItFast'), icon: TabIcons.fix, accent: 'violet' })
+      items.push({ id: 'fix', label: t('cardOS.fixItFast'), icon: TabIcons.fix, accent: 'steel' })
     }
 
     // Watch tab, always first
-    items.unshift({ id: 'watch', label: t('video.videoReferences'), icon: TabIcons.watch, accent: 'sky' })
+    items.unshift({ id: 'watch', label: t('video.videoReferences'), icon: TabIcons.watch, accent: 'sea' })
     return items
   }, [hasPipelineLearnContent, hasPipelineFixContent, t])
 
@@ -259,7 +259,7 @@ export default function SkillDetailPage() {
             {hasPipelineLearnContent && pipelineDetail ? (
               <PipelineLearnTab detail={pipelineDetail} />
             ) : (
-              <p className="text-sm text-slate-500">{t('common.none')}</p>
+              <p className="text-sm text-warm-500">{t('common.none')}</p>
             )}
           </TabPanel>
 
@@ -267,18 +267,18 @@ export default function SkillDetailPage() {
             {hasPipelineFixContent && pipelineDetail ? (
               <PipelineFixTab detail={pipelineDetail} />
             ) : (
-              <p className="text-sm text-slate-500">{t('common.none')}</p>
+              <p className="text-sm text-warm-500">{t('common.none')}</p>
             )}
           </TabPanel>
 
           <TabPanel id="watch" activeTab={activeTab}>
             <div className="animate-slideUp">
               {hasPipelineVideos ? (
-                <Suspense fallback={<div className="text-sm text-slate-400">{t('common.loading')}</div>}>
+                <Suspense fallback={<div className="text-sm text-warm-400">{t('common.loading')}</div>}>
                   <PipelineVideoPanel skillId={displaySkill.id} />
                 </Suspense>
               ) : (
-                <p className="text-sm text-slate-500">{t('common.none')}</p>
+                <p className="text-sm text-warm-500">{t('common.none')}</p>
               )}
             </div>
           </TabPanel>

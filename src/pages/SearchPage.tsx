@@ -297,9 +297,9 @@ export default function SearchPage() {
             <button
               key={term}
               onClick={() => handlePopularClick(term)}
-              className="inline-flex items-center gap-1.5 rounded-full border border-white/[0.08] bg-slate-900/60 px-3.5 py-1.5 text-sm text-slate-300 hallmark-btn-ghost"
+              className="inline-flex items-center gap-1.5 rounded-full border border-warm-50/[0.08] bg-warm-900/60 px-3.5 py-1.5 text-sm text-warm-300 hallmark-btn-ghost"
             >
-              <Hash className="h-3 w-3 text-slate-600" aria-hidden="true" />
+              <Hash className="h-3 w-3 text-warm-600" aria-hidden="true" />
               {term}
             </button>
           ))}
@@ -307,25 +307,25 @@ export default function SearchPage() {
       </div>
 
       {/* Tips */}
-      <div className="grid gap-4 sm:grid-cols-2">            <div className="rounded-xl border border-white/[0.06] bg-slate-900/40 p-4">
+      <div className="grid gap-4 sm:grid-cols-2">            <div className="rounded-xl border border-warm-50/[0.06] bg-warm-900/40 p-4">
           <div className="flex items-center gap-2 mb-2">
             <Star className="h-4 w-4 hallmark-text-caution" />
-            <p className="text-xs font-semibold uppercase tracking-wider text-slate-400">
+            <p className="text-xs font-semibold uppercase tracking-wider text-warm-400">
               {t('search.tipExact', 'Try exact terms')}
             </p>
           </div>
-          <p className="text-sm text-slate-500">
+          <p className="text-sm text-warm-500">
             {t('search.tipExactBody', 'Search body parts, positions, submission names, or concepts for the best results.')}
           </p>
         </div>
-        <div className="rounded-xl border border-white/[0.06] bg-slate-900/40 p-4">
+        <div className="rounded-xl border border-warm-50/[0.06] bg-warm-900/40 p-4">
           <div className="flex items-center gap-2 mb-2">
             <Clock className="h-4 w-4 hallmark-accent-text" />
-            <p className="text-xs font-semibold uppercase tracking-wider text-slate-400">
+            <p className="text-xs font-semibold uppercase tracking-wider text-warm-400">
               {t('search.tipDeep', 'Deep Search')}
             </p>
           </div>
-          <p className="text-sm text-slate-500">
+          <p className="text-sm text-warm-500">
             {t('search.tipDeepBody', 'Toggle "Search in details" above to find mentions inside micro-details and escape maps.')}
           </p>
         </div>
@@ -341,12 +341,12 @@ export default function SearchPage() {
       className={`group rounded-xl border p-5 transition-all ${
         flatIdx === selectedIndex
           ? 'hallmark-tab-accent'
-          : 'border-white/[0.06] bg-slate-900/40 hallmark-card-hover'
+          : 'border-warm-50/[0.06] bg-warm-900/40 hallmark-card-hover'
       }`}
       onMouseEnter={() => setSelectedIndex(flatIdx)}
     >
       <div className="flex flex-wrap gap-2">
-        <Badge tone="cyan">{t(`knowledgeTypes.${result.type}`)}</Badge>
+        <Badge tone="gold">{t(`knowledgeTypes.${result.type}`)}</Badge>
         {flatIdx === selectedIndex && (
           <span className="text-[10px] font-medium uppercase tracking-wider hallmark-accent-text/60 self-center ml-1">
             {t('search.openResult')}
@@ -357,15 +357,15 @@ export default function SearchPage() {
         <h2 className="text-base font-semibold hallmark-text-primary transition-colors hallmark-search-result-hover">
           {getLocalizedText(result.title, language)}
         </h2>
-        <p className="mt-1.5 line-clamp-2 text-sm leading-6 text-slate-400">
+        <p className="mt-1.5 line-clamp-2 text-sm leading-6 text-warm-400">
           {getLocalizedText(result.description, language)}
         </p>
         {renderSnippet(result)}
       </Link>
-      <div className="mt-4 flex flex-wrap items-center justify-between gap-3 border-t border-white/[0.06] pt-4">
+      <div className="mt-4 flex flex-wrap items-center justify-between gap-3 border-t border-warm-50/[0.06] pt-4">
         <div className="flex flex-wrap gap-1.5">
           {result.matchedFields.slice(0, 3).map((field) => (
-            <Badge key={field} tone="slate">{field}</Badge>
+            <Badge key={field} tone="warm">{field}</Badge>
           ))}
         </div>
         <Link
@@ -390,7 +390,7 @@ export default function SearchPage() {
           </div>
           <div className="flex gap-3">
             <div className="relative flex-1">
-              <SearchIcon className="absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-slate-500" aria-hidden="true" />
+              <SearchIcon className="absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-warm-500" aria-hidden="true" />
               <input
                 ref={inputRef}
                 value={query}
@@ -404,7 +404,7 @@ export default function SearchPage() {
                   }
                 }}
                 placeholder={t('search.placeholder')}
-                className="w-full rounded-xl border border-white/[0.08] bg-slate-900/80 py-2.5 pl-10 pr-3 text-sm text-white outline-none search-focus-ring"
+                className="w-full rounded-xl border border-warm-50/[0.08] bg-warm-900/80 py-2.5 pl-10 pr-3 text-sm text-warm-50 outline-none search-focus-ring"
                 aria-label={t('search.placeholder')}
                 autoComplete="off"
                 spellCheck={false}
@@ -416,7 +416,7 @@ export default function SearchPage() {
               setType(event.target.value as KnowledgeItemType | '')
               setSelectedIndex(-1)
             }}
-              className="rounded-xl border border-white/[0.08] bg-slate-900/80 px-3 py-2.5 text-sm text-white outline-none search-focus-ring"
+              className="rounded-xl border border-warm-50/[0.08] bg-warm-900/80 px-3 py-2.5 text-sm text-warm-50 outline-none search-focus-ring"
             >
               <option value="">{t('common.all')}</option>
               {coreResultTypes.map((itemType) => <option key={itemType} value={itemType}>{t(`knowledgeTypes.${itemType}`)}</option>)}
@@ -426,7 +426,7 @@ export default function SearchPage() {
             </select>
           </div>
           <div className="flex items-center gap-2">
-            <label className="flex items-center gap-2 text-sm text-slate-300 cursor-pointer">
+            <label className="flex items-center gap-2 text-sm text-warm-300 cursor-pointer">
               <input
                 type="checkbox"
                 checked={mode === 'deep'}
@@ -434,18 +434,18 @@ export default function SearchPage() {
                   setMode(e.target.checked ? 'deep' : 'quick')
                   setSelectedIndex(-1)
                 }}
-                className="rounded border-slate-700 bg-slate-800 hallmark-accent-text focus:ring-2 focus:ring-hallmark-accent-dim focus:ring-offset-slate-900"
+                className="rounded border-warm-700 bg-warm-800 hallmark-accent-text focus:ring-2 focus:ring-hallmark-accent-dim focus:ring-offset-warm-900"
               />
               {t('search.searchInDetails', 'Search in details (Deep Search)')}
             </label>
           </div>
           {query.trim() && flatResults.length > 0 && (
-            <div className="flex items-center gap-2 text-[11px] text-slate-600">
-              <kbd className="rounded border border-white/[0.08] bg-slate-800 px-1.5 py-0.5 font-mono text-[10px]">↑↓</kbd>
+            <div className="flex items-center gap-2 text-[11px] text-warm-600">
+              <kbd className="rounded border border-warm-50/[0.08] bg-warm-800 px-1.5 py-0.5 font-mono text-[10px]">↑↓</kbd>
               <span>{t('search.navigate', 'Navigate')}</span>
-              <kbd className="rounded border border-white/[0.08] bg-slate-800 px-1.5 py-0.5 font-mono text-[10px]">↵</kbd>
+              <kbd className="rounded border border-warm-50/[0.08] bg-warm-800 px-1.5 py-0.5 font-mono text-[10px]">↵</kbd>
               <span>{t('common.open')}</span>
-              <kbd className="rounded border border-white/[0.08] bg-slate-800 px-1.5 py-0.5 font-mono text-[10px]">esc</kbd>
+              <kbd className="rounded border border-warm-50/[0.08] bg-warm-800 px-1.5 py-0.5 font-mono text-[10px]">esc</kbd>
               <span>{t('search.clear', 'Clear')}</span>
             </div>
           )}
@@ -462,8 +462,8 @@ export default function SearchPage() {
         {trimmedDebouncedQuery && isSearching ? (
           <div className="animate-fadeIn space-y-3">
             <div className="flex items-center gap-2 mb-2">
-              <Clock className="h-4 w-4 text-slate-500 animate-pulse" />
-              <p className="text-xs font-medium uppercase tracking-wider text-slate-500">{t('common.loading')}</p>
+              <Clock className="h-4 w-4 text-warm-500 animate-pulse" />
+              <p className="text-xs font-medium uppercase tracking-wider text-warm-500">{t('common.loading')}</p>
             </div>
             <SkeletonCard />
             <SkeletonCard />

@@ -40,8 +40,8 @@ const playbackUrl = (embedUrl: string): string => {
 }
 
 const OfflinePlaceholder = ({ t: translate }: { t: (key: string) => string }) => (
-  <div className="flex aspect-video flex-col items-center justify-center gap-3 rounded-lg border border-white/10 bg-slate-900/80 text-slate-500">
-    <Film className="h-10 w-10 text-slate-600" />
+  <div className="flex aspect-video flex-col items-center justify-center gap-3 rounded-lg border border-warm-50/10 bg-warm-900/80 text-warm-500">
+    <Film className="h-10 w-10 text-warm-600" />
     <p className="max-w-xs px-4 text-center text-sm">
       {translate('video.offline')}
     </p>
@@ -57,19 +57,19 @@ const UnavailablePlaceholder = ({
   onRetry: () => void
   onReport?: () => void
 }) => (
-  <div className="flex aspect-video flex-col items-center justify-center gap-3 rounded-lg border border-amber-400/20 bg-slate-900/90 text-slate-400">
-    <AlertTriangle className="h-10 w-10 text-amber-400/70" />
-    <p className="max-w-xs px-4 text-center text-sm font-medium text-amber-200">
+  <div className="flex aspect-video flex-col items-center justify-center gap-3 rounded-lg border border-gold-400/20 bg-warm-900/90 text-warm-400">
+    <AlertTriangle className="h-10 w-10 text-gold/70" />
+    <p className="max-w-xs px-4 text-center text-sm font-medium text-gold">
       {translate('video.unavailable')}
     </p>
-    <p className="max-w-xs px-4 text-center text-xs text-slate-500">
+    <p className="max-w-xs px-4 text-center text-xs text-warm-500">
       {translate('video.unavailableHint')}
     </p>
     <div className="flex gap-2">
       <button
         type="button"
         onClick={onRetry}
-        className="inline-flex items-center gap-1.5 rounded-md bg-slate-800 px-3 py-1.5 text-xs font-medium text-slate-300 transition hover:bg-slate-700 hover:text-white"
+        className="inline-flex items-center gap-1.5 rounded-md bg-warm-800 px-3 py-1.5 text-xs font-medium text-warm-300 transition hover:bg-warm-700 hover:text-warm-50"
       >
         <RefreshCw className="h-3.5 w-3.5" />
         {translate('video.retry')}
@@ -78,7 +78,7 @@ const UnavailablePlaceholder = ({
         <button
           type="button"
           onClick={onReport}
-          className="inline-flex items-center gap-1.5 rounded-md bg-amber-400/10 px-3 py-1.5 text-xs font-medium text-amber-300 transition hover:bg-amber-400/20"
+          className="inline-flex items-center gap-1.5 rounded-md bg-gold-400/10 px-3 py-1.5 text-xs font-medium text-gold transition hover:bg-gold-400/20"
         >
           <Flag className="h-3.5 w-3.5" />
           {translate('video.reportBroken')}
@@ -168,7 +168,7 @@ export const LazyYouTubeEmbed = ({ youtubeId, embedUrl, title, onReport }: Props
   return (
     <div
       ref={containerRef}
-      className="aspect-video overflow-hidden rounded-lg border border-white/10 bg-slate-950"
+      className="aspect-video overflow-hidden rounded-lg border border-warm-50/10 bg-warm-950"
     >
       {mounted ? (
         <iframe

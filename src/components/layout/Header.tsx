@@ -87,23 +87,23 @@ export const Header = () => {
   }
 
   return (
-    <header className="sticky top-0 z-30 border-b border-white/[0.06] bg-slate-950/60 px-4 py-2.5 backdrop-blur-xl lg:px-6">
+    <header className="sticky top-0 z-30 border-b border-warm-50/[0.06] bg-warm-950/60 px-4 py-2.5 backdrop-blur-xl lg:px-6">
       <div className="flex items-center justify-between gap-2 sm:gap-4">
         {/* Mobile menu trigger */}
         <button
           type="button"
           onClick={() => setMobileNavOpen(true)}
-          className="flex shrink-0 items-center gap-2 rounded-lg border border-white/[0.06] px-3 py-2 text-sm font-medium text-slate-300 transition-all hover:bg-white/[0.04] hover:text-white lg:hidden"
+          className="flex shrink-0 items-center gap-2 rounded-lg border border-warm-50/[0.06] px-3 py-2 text-sm font-medium text-warm-300 transition-all hover:bg-warm-50/[0.04] hover:text-warm-50 lg:hidden"
           aria-label={t('nav.openMenu', 'Open navigation menu')}
         >
           <Menu className="h-4 w-4" aria-hidden="true" />
-          <span className="hidden sm:inline text-xs text-slate-500">{t('app.name')}</span>
+          <span className="hidden sm:inline text-xs text-warm-500">{t('app.name')}</span>
         </button>
 
         {/* Search */}
         <div ref={rootRef} className="relative w-full max-w-md">
-          <form onSubmit={submitSearch} className="search-focus-ring group flex items-center gap-2 rounded-lg border border-white/[0.08] bg-slate-900/80 px-3 py-1.5 transition-all">
-            <Search className="h-4 w-4 shrink-0 text-slate-500 transition-colors group-focus-within:text-hallmark-text-accent" aria-hidden="true" />
+          <form onSubmit={submitSearch} className="search-focus-ring group flex items-center gap-2 rounded-lg border border-warm-50/[0.08] bg-warm-900/80 px-3 py-1.5 transition-all">
+            <Search className="h-4 w-4 shrink-0 text-warm-500 transition-colors group-focus-within:text-hallmark-text-accent" aria-hidden="true" />
             <input
               ref={inputRef}
               value={query}
@@ -113,14 +113,14 @@ export const Header = () => {
               }}
               onFocus={() => setOpen(Boolean(query.trim()))}
               placeholder={t('search.headerPlaceholder')}
-              className="min-w-0 flex-1 bg-transparent text-sm text-white outline-none placeholder:text-slate-500"
+              className="min-w-0 flex-1 bg-transparent text-sm text-warm-50 outline-none placeholder:text-warm-500"
               role="combobox"
               aria-expanded={canSuggest}
               aria-controls="search-suggestions"
               aria-label={t('search.placeholder')}
               aria-autocomplete="list"
             />
-            <kbd className="hidden shrink-0 items-center gap-0.5 rounded border border-white/[0.08] bg-slate-800 px-1.5 py-0.5 text-[10px] font-medium text-slate-500 md:flex">
+            <kbd className="hidden shrink-0 items-center gap-0.5 rounded border border-warm-50/[0.08] bg-warm-800 px-1.5 py-0.5 text-[10px] font-medium text-warm-500 md:flex">
               <Command className="h-2.5 w-2.5" />
               <span>K</span>
             </kbd>
@@ -134,10 +134,10 @@ export const Header = () => {
               animate={{ opacity: 1, scale: 1, y: 0 }}
               exit={{ opacity: 0, scale: 0.95, y: -4 }}
               transition={{ duration: 0.15, ease: 'easeOut' }}
-              className="absolute left-0 right-0 top-[calc(100%+6px)] z-30 rounded-xl border border-white/[0.08] bg-slate-950/95 p-2 shadow-glow-lg backdrop-blur-2xl"
+              className="absolute left-0 right-0 top-[calc(100%+6px)] z-30 rounded-xl border border-warm-50/[0.08] bg-warm-950/95 p-2 shadow-glow-lg backdrop-blur-2xl"
             >
               {isSearching ? (
-                <p className="px-3 py-3 text-center text-sm text-slate-500">{t('common.loading')}</p>
+                <p className="px-3 py-3 text-center text-sm text-warm-500">{t('common.loading')}</p>
               ) : visibleSuggestions.length ? (
                 <div className="grid gap-1">
                   {visibleSuggestions.map((result) => (
@@ -149,14 +149,14 @@ export const Header = () => {
                         navigate(result.url)
                         setOpen(false)
                       }}
-                      className="group flex items-start gap-3 rounded-lg border border-transparent px-3 py-2.5 text-left transition-all hover:border-white/[0.06] hover:bg-white/[0.04]"
+                      className="group flex items-start gap-3 rounded-lg border border-transparent px-3 py-2.5 text-left transition-all hover:border-warm-50/[0.06] hover:bg-warm-50/[0.04]"
                     >
                       <Badge className="hallmark-badge mt-0.5 shrink-0 text-[10px]">{t(`knowledgeTypes.${result.type}`)}</Badge>
                       <div className="min-w-0 flex-1">
-                        <p className="truncate text-sm font-medium text-white hallmark-search-result-hover">
+                        <p className="truncate text-sm font-medium text-warm-50 hallmark-search-result-hover">
                           {getLocalizedText(result.title, language)}
                         </p>
-                        <p className="mt-0.5 line-clamp-1 text-xs text-slate-500">
+                        <p className="mt-0.5 line-clamp-1 text-xs text-warm-500">
                           {getLocalizedText(result.description, language)}
                         </p>
                       </div>
@@ -174,7 +174,7 @@ export const Header = () => {
                   </button>
                 </div>
               ) : (
-                <p className="px-3 py-3 text-center text-sm text-slate-500">{t('search.noResults')}</p>
+                <p className="px-3 py-3 text-center text-sm text-warm-500">{t('search.noResults')}</p>
               )}
             </motion.div>
           )}

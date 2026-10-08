@@ -15,10 +15,12 @@
     "validate:videos": "tsx scripts/validate-videos.ts",
     "audit:vi": "tsx scripts/auditViKeys.ts",
     "test": "vitest run",
-    "test:watch": "vitest"
+    "test:watch": "vitest",
+    "gen:bjj-sprite": "tsx scripts/gen-bjj-sprite.ts",
+    "validate:contrast": "tsx scripts/validate-contrast.ts"
   },
   "dependencies": {
-    "@fontsource/fraunces": "^5.3.0",
+    "@fontsource-variable/archivo": "^5.3.0",
     "@tanstack/react-query": "^5.102.8",
     "@tanstack/react-query-devtools": "^5.102.8",
     "@tanstack/react-virtual": "^3.14.10",

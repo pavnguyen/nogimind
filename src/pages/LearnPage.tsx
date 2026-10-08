@@ -58,7 +58,7 @@ export default function LearnPage() {
         { title: t('learn.tracks.beginner.steps.2.title'), body: t('learn.tracks.beginner.steps.2.body'), to: '/skills?domain=guard_retention' },
         { title: t('learn.tracks.beginner.steps.5.title'), body: t('learn.tracks.beginner.steps.5.body'), to: '/defense' },
       ],
-      'emerald',
+      'jade',
       Target,
     ),
     track(
@@ -70,7 +70,7 @@ export default function LearnPage() {
         { title: t('learn.tracks.deep.steps.1.title'), body: t('learn.tracks.deep.steps.1.body'), to: '/concepts' },
         { title: t('learn.tracks.deep.steps.3.title'), body: t('learn.tracks.deep.steps.3.body'), to: '/skills' },
       ],
-      'cyan',
+      'gold',
       Sparkles,
     ),
     track(
@@ -81,7 +81,7 @@ export default function LearnPage() {
         { title: t('learn.tracks.defense.steps.1.title'), body: t('learn.tracks.defense.steps.1.body'), to: '/defense' },
         { title: t('learn.tracks.defense.steps.2.title'), body: t('learn.tracks.defense.steps.2.body'), to: '/study' },
       ],
-      'amber',
+      'copper',
       ShieldCheck,
     ),
     track(
@@ -93,7 +93,7 @@ export default function LearnPage() {
         { title: t('learn.tracks.build.steps.2.title'), body: t('learn.tracks.build.steps.2.body'), to: '/skills' },
         { title: t('learn.tracks.build.steps.5.title'), body: t('learn.tracks.build.steps.5.body'), to: '/concepts' },
       ],
-      'emerald',
+      'steel',
       Layers3,
     ),
   ]
@@ -113,17 +113,17 @@ export default function LearnPage() {
                     <Badge tone={item.badgeTone}>
                       {item.id === 'beginner' ? t('learn.badges.startHere') : item.id === 'fix' ? t('learn.badges.mostPractical') : item.id === 'build' ? t('learn.badges.advanced') : t('learn.badges.deepTechnique')}
                     </Badge>
-                    <item.icon className="h-5 w-5 text-cyan-300" aria-hidden="true" />
+                    <item.icon className="h-5 w-5 text-gold" aria-hidden="true" />
                     <div className="grid gap-3">
                       {item.steps.map((step, index) => (
-                        <Link key={step.to + step.title} to={step.to} id={index === 0 ? item.id : undefined} className="rounded-lg border border-white/10 bg-slate-900/65 p-4 transition hover:border-cyan-300/35 hover:bg-white/[0.06]">
+                        <Link key={step.to + step.title} to={step.to} id={index === 0 ? item.id : undefined} className="rounded-lg border border-warm-50/10 bg-warm-900/65 p-4 transition hover:border-gold-300/35 hover:bg-warm-50/[0.06]">
                           <div className="flex items-start gap-3">
-                            <Badge tone="cyan">{index + 1}</Badge>
+                            <Badge tone="gold">{index + 1}</Badge>
                             <div className="min-w-0">
-                              <p className="text-sm font-semibold text-white">{step.title}</p>
-                              <p className="mt-2 text-sm leading-6 text-slate-400">{step.body}</p>
+                              <p className="text-sm font-semibold text-warm-50">{step.title}</p>
+                              <p className="mt-2 text-sm leading-6 text-warm-400">{step.body}</p>
                             </div>
-                            <ArrowRight className="mt-0.5 h-4 w-4 shrink-0 text-cyan-300" aria-hidden="true" />
+                            <ArrowRight className="mt-0.5 h-4 w-4 shrink-0 text-gold" aria-hidden="true" />
                           </div>
                         </Link>
                       ))}
@@ -139,10 +139,10 @@ export default function LearnPage() {
         return (
           <div className="space-y-4">
             <div className="flex items-center justify-between">
-              <p className="text-sm text-slate-400">{t('positions.whatFor')}</p>
+              <p className="text-sm text-warm-400">{t('positions.whatFor')}</p>
               <Link
                 to="/positions"
-                className="text-xs font-medium text-cyan-400 hover:text-cyan-300 transition-colors"
+                className="text-xs font-medium text-gold hover:text-gold transition-colors"
               >
                 {t('common.open')} →
               </Link>
@@ -155,13 +155,13 @@ export default function LearnPage() {
                   <StaggerItem key={position.id}>
                     <Link
                       to={`/positions/${position.id}`}
-                      className="group rounded-xl border border-white/[0.06] bg-slate-900/40 p-4 transition-all hover:border-cyan-400/20 hover:bg-slate-900/70"
+                      className="group rounded-xl border border-warm-50/[0.06] bg-warm-900/40 p-4 transition-all hover:border-gold-400/20 hover:bg-warm-900/70"
                     >
-                      <Badge tone="cyan" className="text-[10px]">{t(`positionCategories.${position.category}`)}</Badge>
-                      <h3 className="mt-2 text-sm font-semibold text-white group-hover:text-cyan-300 transition-colors">
+                      <Badge tone="gold" className="text-[10px]">{t(`positionCategories.${position.category}`)}</Badge>
+                      <h3 className="mt-2 text-sm font-semibold text-warm-50 group-hover:text-gold transition-colors">
                         {getLocalizedText(position.title, lang)}
                       </h3>
-                      <p className="mt-1 line-clamp-2 text-xs leading-5 text-slate-400">
+                      <p className="mt-1 line-clamp-2 text-xs leading-5 text-warm-400">
                         {getLocalizedText(position.description, lang)}
                       </p>
                     </Link>
@@ -176,10 +176,10 @@ export default function LearnPage() {
         return (
           <div className="space-y-4">
             <div className="flex items-center justify-between">
-              <p className="text-sm text-slate-400">{t('concepts.whatFor')}</p>
+              <p className="text-sm text-warm-400">{t('concepts.whatFor')}</p>
               <Link
                 to="/concepts"
-                className="text-xs font-medium text-cyan-400 hover:text-cyan-300 transition-colors"
+                className="text-xs font-medium text-gold hover:text-gold transition-colors"
               >
                 {t('common.open')} →
               </Link>
@@ -192,16 +192,16 @@ export default function LearnPage() {
                   <StaggerItem key={concept.id}>
                     <Link
                       to={`/concepts/${concept.id}`}
-                      className="group rounded-xl border border-white/[0.06] bg-slate-900/40 p-4 transition-all hover:border-cyan-400/20 hover:bg-slate-900/70"
+                      className="group rounded-xl border border-warm-50/[0.06] bg-warm-900/40 p-4 transition-all hover:border-gold-400/20 hover:bg-warm-900/70"
                     >
                       <div className="flex flex-wrap gap-1.5">
-                        <Badge tone="cyan" className="text-[10px]">{t(`conceptCategories.${concept.category}`)}</Badge>
-                        <Badge tone="emerald" className="text-[10px]">{t(`conceptLevels.${concept.level}`)}</Badge>
+                        <Badge tone="gold" className="text-[10px]">{t(`conceptCategories.${concept.category}`)}</Badge>
+                        <Badge tone="jade" className="text-[10px]">{t(`conceptLevels.${concept.level}`)}</Badge>
                       </div>
-                      <h3 className="mt-2 text-sm font-semibold text-white group-hover:text-cyan-300 transition-colors">
+                      <h3 className="mt-2 text-sm font-semibold text-warm-50 group-hover:text-gold transition-colors">
                         {getLocalizedText(concept.title, lang)}
                       </h3>
-                      <p className="mt-1 line-clamp-2 text-xs leading-5 text-slate-400">
+                      <p className="mt-1 line-clamp-2 text-xs leading-5 text-warm-400">
                         {getLocalizedText(concept.shortDefinition, lang)}
                       </p>
                     </Link>
@@ -220,17 +220,17 @@ export default function LearnPage() {
   return (
     <PageShell
       header={
-        <div className="relative overflow-hidden rounded-3xl border border-white/[0.06] bg-slate-900/30 p-8 hallmark-hero">
+        <div className="relative overflow-hidden rounded-3xl border border-warm-50/[0.06] bg-warm-900/30 p-8 hallmark-hero">
           <div className="pointer-events-none absolute -right-16 -top-16 h-48 w-48 rounded-full hallmark-blur-blob blur-[80px]" />
           <div className="relative z-10 space-y-4">
             <div className="flex items-center gap-4">
               <div className="flex h-14 w-14 items-center justify-center rounded-2xl hallmark-icon-box">
-                <Compass className="h-7 w-7 text-slate-950" aria-hidden="true" />
+                <Compass className="h-7 w-7 text-on-accent" aria-hidden="true" />
               </div>
               <div>
                 <Badge className="hallmark-badge text-[10px] uppercase tracking-widest">{t('nav.learn')}</Badge>
-                <h1 className="mt-1 display-heading text-3xl font-extrabold text-white lg:text-4xl">{t('learn.heading')}</h1>
-                <p className="mt-1 text-sm text-slate-400">{t('learn.subtitle')}</p>
+                <h1 className="mt-1 display-heading text-3xl font-extrabold text-warm-50 lg:text-4xl">{t('learn.heading')}</h1>
+                <p className="mt-1 text-sm text-warm-400">{t('learn.subtitle')}</p>
               </div>
             </div>
             <Link

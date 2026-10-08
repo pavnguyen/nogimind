@@ -39,14 +39,14 @@ export const PositionVideoReferencePanel = ({ skillIds }: Props) => {
   if (isLoading) {
     return (
       <div className="flex items-center justify-center py-12">
-        <div className="h-8 w-8 animate-spin rounded-full border-2 border-cyan-400/30 border-t-cyan-400" />
+        <div className="h-8 w-8 animate-spin rounded-full border-2 border-gold-400/30 border-t-gold-400" />
       </div>
     )
   }
 
   if (!allVideos.length) {
     return (
-      <p className="py-8 text-center text-sm text-slate-500">
+      <p className="py-8 text-center text-sm text-warm-500">
         {t('common.none')}
       </p>
     )

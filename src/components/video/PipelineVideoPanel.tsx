@@ -18,14 +18,14 @@ export const PipelineVideoPanel = ({ skillId }: Props) => {
   if (videosQuery.isLoading) {
     return (
       <div className="flex items-center justify-center py-12">
-        <div className="h-8 w-8 animate-spin rounded-full border-2 border-cyan-400/30 border-t-cyan-400" />
+        <div className="h-8 w-8 animate-spin rounded-full border-2 border-gold-400/30 border-t-gold-400" />
       </div>
     )
   }
 
   if (!videos.length) {
     return (
-      <p className="py-8 text-center text-sm text-slate-500">
+      <p className="py-8 text-center text-sm text-warm-500">
         {t('common.none', 'No video references available yet.')}
       </p>
     )
@@ -36,11 +36,11 @@ export const PipelineVideoPanel = ({ skillId }: Props) => {
       id={SKILL_SECTIONS.videoReferences}
       title={t('video.videoReferences')}
       badge={`${videos.length} ${t('video.publicYouTubeReference')}`}
-      accentColor="cyan"
+      accentColor="gold"
       defaultOpen
     >
       <div className="space-y-4">
-        <p className="rounded-lg border border-cyan-300/15 bg-cyan-300/8 px-3 py-2 text-xs leading-5 text-cyan-100">
+        <p className="rounded-lg border border-gold-300/15 bg-gold-300/8 px-3 py-2 text-xs leading-5 text-gold">
           {t('video.externalNote')}
         </p>
         {videos.map((video, i) => (
@@ -59,7 +59,7 @@ export const PipelineVideoPanel = ({ skillId }: Props) => {
             />
             {/* Separator line between videos */}
             {i < videos.length - 1 && (
-              <div className="mt-4 border-t border-white/[0.04]" />
+              <div className="mt-4 border-t border-warm-50/[0.04]" />
             )}
           </div>
         ))}

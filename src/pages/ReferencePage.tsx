@@ -63,10 +63,10 @@ export default function ReferencePage() {
         return (
           <div className="space-y-4">
             <div className="flex items-center justify-between">
-              <p className="text-sm text-slate-400">{t('glossary.subtitle')}</p>
+              <p className="text-sm text-warm-400">{t('glossary.subtitle')}</p>
               <Link
                 to="/glossary"
-                className="text-xs font-medium text-slate-400 hover:text-slate-200 transition-colors"
+                className="text-xs font-medium text-warm-400 hover:text-warm-200 transition-colors"
               >
                 {t('common.open')} →
               </Link>
@@ -75,7 +75,7 @@ export default function ReferencePage() {
               value={glossaryQuery}
               onChange={(event) => setGlossaryQuery(event.target.value)}
               placeholder={t('glossary.q')}
-              className="w-full rounded-md border border-white/10 bg-slate-900 px-3 py-2 text-sm text-white outline-none focus:border-slate-400"
+              className="w-full rounded-md border border-warm-50/10 bg-warm-900 px-3 py-2 text-sm text-warm-50 outline-none focus:border-warm-400"
             />
             <SectionCard>
               <div ref={parentRef} className="h-[480px] overflow-auto pr-2">
@@ -85,17 +85,17 @@ export default function ReferencePage() {
                     return (
                       <article
                         key={term.id}
-                        className="absolute left-0 right-0 rounded-lg border border-white/10 bg-slate-900/70 p-4"
+                        className="absolute left-0 right-0 rounded-lg border border-warm-50/10 bg-warm-900/70 p-4"
                         style={{ transform: `translateY(${virtualItem.start}px)` }}
                       >
-                        <h2 className="text-sm font-semibold text-white">{term.term}</h2>
-                        <p className="mt-1 text-xs leading-5 text-slate-300 line-clamp-2">
+                        <h2 className="text-sm font-semibold text-warm-50">{term.term}</h2>
+                        <p className="mt-1 text-xs leading-5 text-warm-300 line-clamp-2">
                           {getLocalizedTechnicalText(term.definition, lang)}
                         </p>
                         {term.relatedSkillIds?.length ? (
                           <div className="mt-2 flex flex-wrap gap-1.5">
                             {term.relatedSkillIds.map((id) => byId.get(id)).filter(Boolean).slice(0, 3).map((skill) => (
-                              <Link key={skill?.id} to={`/skills/${skill?.id}`} className="rounded-md border border-white/10 px-2 py-0.5 text-[10px] text-slate-300 hover:bg-white/10">
+                              <Link key={skill?.id} to={`/skills/${skill?.id}`} className="rounded-md border border-warm-50/10 px-2 py-0.5 text-[10px] text-warm-300 hover:bg-warm-50/10">
                                 {skill?.name ?? ''}
                               </Link>
                             ))}
@@ -114,27 +114,27 @@ export default function ReferencePage() {
         return (
           <div className="space-y-4">
             <div className="flex items-center justify-between">
-              <p className="text-sm text-slate-400">{t('search.whatFor')}</p>
+              <p className="text-sm text-warm-400">{t('search.whatFor')}</p>
               <Link
                 to="/search"
-                className="text-xs font-medium text-slate-400 hover:text-slate-200 transition-colors"
+                className="text-xs font-medium text-warm-400 hover:text-warm-200 transition-colors"
               >
                 {t('common.open')} →
               </Link>
             </div>
             <Link
               to="/search"
-              className="group block rounded-2xl border border-white/[0.06] bg-slate-900/40 p-6 transition-all hover:border-slate-400/20 hover:bg-slate-900/70"
+              className="group block rounded-2xl border border-warm-50/[0.06] bg-warm-900/40 p-6 transition-all hover:border-warm-400/20 hover:bg-warm-900/70"
             >
               <div className="flex items-center gap-4">
                 <div className="flex h-12 w-12 items-center justify-center rounded-xl hallmark-accent-bg hallmark-accent-text">
                   <SearchIcon className="h-6 w-6" aria-hidden="true" />
                 </div>
                 <div>
-                  <h2 className="text-base font-semibold text-white group-hover:text-slate-200 transition-colors">
+                  <h2 className="text-base font-semibold text-warm-50 group-hover:text-warm-200 transition-colors">
                     {t('search.heading')}
                   </h2>
-                  <p className="mt-1 text-sm text-slate-400">{t('search.subtitle')}</p>
+                  <p className="mt-1 text-sm text-warm-400">{t('search.subtitle')}</p>
                 </div>
               </div>
             </Link>
@@ -151,17 +151,17 @@ export default function ReferencePage() {
   return (
     <PageShell
       header={
-        <div className="relative overflow-hidden rounded-3xl border border-white/[0.06] bg-slate-900/30 p-8 hallmark-hero">
+        <div className="relative overflow-hidden rounded-3xl border border-warm-50/[0.06] bg-warm-900/30 p-8 hallmark-hero">
           <div className="pointer-events-none absolute -right-16 -top-16 h-48 w-48 rounded-full hallmark-blur-blob blur-[80px]" />
           <div className="relative z-10 space-y-4">
             <div className="flex items-center gap-4">
               <div className="flex h-14 w-14 items-center justify-center rounded-2xl hallmark-icon-box">
-                <BookOpen className="h-7 w-7 text-slate-950" aria-hidden="true" />
+                <BookOpen className="h-7 w-7 text-on-accent" aria-hidden="true" />
               </div>
               <div>
                 <Badge className="hallmark-badge text-[10px] uppercase tracking-widest">{t('modeUx.reference.badge')}</Badge>
-                <h1 className="mt-1 display-heading text-3xl font-extrabold text-white lg:text-4xl">{t('modeUx.reference.heading')}</h1>
-                <p className="mt-1 max-w-2xl text-base leading-relaxed text-slate-400">{t('modeUx.reference.subtitle')}</p>
+                <h1 className="mt-1 display-heading text-3xl font-extrabold text-warm-50 lg:text-4xl">{t('modeUx.reference.heading')}</h1>
+                <p className="mt-1 max-w-2xl text-base leading-relaxed text-warm-400">{t('modeUx.reference.subtitle')}</p>
               </div>
             </div>
           </div>

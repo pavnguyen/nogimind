@@ -15,7 +15,7 @@ export const SkillSearchFilters = ({ skills }: { skills: SkillNode[] }) => {
   const families = [...new Set(skills.map((skill) => skill.techniqueFamily).filter(isString))].sort()
   const systems = [...new Set(skills.map((skill) => skill.modernSystemGroup).filter(isString))].sort()
   const risks = [...new Set(skills.map((skill) => skill.riskLevel).filter(isString))].sort()
-  const fieldClass = 'h-10 rounded-lg border border-white/[0.07] bg-slate-950/70 px-3 text-[13px] text-slate-200 outline-none transition-colors placeholder:text-slate-600 hover:border-white/15 focus:border-cyan-300/40 focus:bg-slate-950'
+  const fieldClass = 'h-10 rounded-lg border border-warm-50/[0.07] bg-warm-950/70 px-3 text-[13px] text-warm-200 outline-none transition-colors placeholder:text-warm-600 hover:border-warm-50/15 focus:border-gold-300/40 focus:bg-warm-950'
 
   const setParam = (key: string, value: string) => {
     const next = new URLSearchParams(searchParams)
@@ -25,10 +25,10 @@ export const SkillSearchFilters = ({ skills }: { skills: SkillNode[] }) => {
   }
 
   return (
-    <div className="rounded-2xl border border-white/[0.06] bg-slate-950/35 p-3 shadow-[0_18px_45px_rgba(2,6,23,0.18)] sm:p-4">
+    <div className="rounded-2xl border border-warm-50/[0.06] bg-warm-950/35 p-3 shadow-[0_18px_45px_rgba(13,12,10,0.18)] sm:p-4">
       <div className="grid gap-2.5 md:grid-cols-2 xl:grid-cols-5">
         <div className="relative md:col-span-2">
-          <Search className="pointer-events-none absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-slate-600" aria-hidden="true" />
+          <Search className="pointer-events-none absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-warm-600" aria-hidden="true" />
           <input
             value={searchParams.get('q') ?? ''}
             onChange={(event) => setParam('q', event.target.value)}

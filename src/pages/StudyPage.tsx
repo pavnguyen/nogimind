@@ -25,42 +25,48 @@ import type { SkillDomain } from '../types/skill'
 import { getLocalizedText } from '../utils/localization'
 import { cn } from '../utils/cn'
 
-type DomainTone = 'emerald' | 'cyan' | 'amber' | 'rose' | 'slate'
+type DomainTone = 'gold' | 'jade' | 'sea' | 'steel' | 'moss' | 'copper' | 'warm'
 
 /** Domains in learning order: where you are → where you attack → where you finish → how you recover. */
 const studyDomains: Array<{ id: SkillDomain; key: string; tone: DomainTone }> = [
-  { id: 'guard_retention', key: 'guardRetention', tone: 'cyan' },
-  { id: 'guard_offense', key: 'guardOffense', tone: 'cyan' },
-  { id: 'passing', key: 'passing', tone: 'emerald' },
-  { id: 'pins_rides', key: 'pins', tone: 'slate' },
-  { id: 'back_control', key: 'back', tone: 'amber' },
-  { id: 'submission_systems', key: 'submissions', tone: 'rose' },
-  { id: 'wrestle_up_wrestling', key: 'wrestling', tone: 'emerald' },
-  { id: 'escapes', key: 'escapes', tone: 'cyan' },
+  { id: 'guard_retention', key: 'guardRetention', tone: 'gold' },
+  { id: 'guard_offense', key: 'guardOffense', tone: 'sea' },
+  { id: 'passing', key: 'passing', tone: 'steel' },
+  { id: 'pins_rides', key: 'pins', tone: 'moss' },
+  { id: 'back_control', key: 'back', tone: 'copper' },
+  { id: 'submission_systems', key: 'submissions', tone: 'copper' },
+  { id: 'wrestle_up_wrestling', key: 'wrestling', tone: 'steel' },
+  { id: 'escapes', key: 'escapes', tone: 'jade' },
 ]
 
 const toneActive: Record<DomainTone, string> = {
-  cyan: 'border-cyan-400/30 bg-cyan-400/10 text-cyan-50 shadow-[0_0_15px_rgba(34,211,238,0.05)]',
-  emerald: 'border-emerald-400/30 bg-emerald-400/10 text-emerald-50 shadow-[0_0_15px_rgba(52,211,153,0.05)]',
-  amber: 'border-amber-400/30 bg-amber-400/10 text-amber-50 shadow-[0_0_15px_rgba(251,191,36,0.05)]',
-  rose: 'border-rose-400/30 bg-rose-400/10 text-rose-50 shadow-[0_0_15px_rgba(244,63,94,0.05)]',
-  slate: 'border-slate-400/30 bg-slate-400/10 text-slate-50 shadow-[0_0_15px_rgba(148,163,184,0.05)]',
+  gold: 'border-gold-400/30 bg-gold-400/10 text-gold shadow-[0_0_15px_rgba(232,176,92,0.05)]',
+  jade: 'border-jade-400/30 bg-jade-400/10 text-jade shadow-[0_0_15px_rgba(62,201,182,0.05)]',
+  sea: 'border-sea-400/30 bg-sea-400/10 text-sea shadow-[0_0_15px_rgba(88,174,196,0.05)]',
+  steel: 'border-steel-400/30 bg-steel-400/10 text-steel shadow-[0_0_15px_rgba(127,169,224,0.05)]',
+  moss: 'border-moss-400/30 bg-moss-400/10 text-moss shadow-[0_0_15px_rgba(169,180,95,0.05)]',
+  copper: 'border-copper-400/30 bg-copper-400/10 text-copper shadow-[0_0_15px_rgba(224,122,78,0.05)]',
+  warm: 'border-warm-400/30 bg-warm-400/10 text-warm-50 shadow-[0_0_15px_rgba(207,201,189,0.05)]',
 }
 
 const toneCount: Record<DomainTone, string> = {
-  cyan: 'bg-cyan-400/20 text-cyan-300',
-  emerald: 'bg-emerald-400/20 text-emerald-300',
-  amber: 'bg-amber-400/20 text-amber-300',
-  rose: 'bg-rose-400/20 text-rose-300',
-  slate: 'bg-slate-400/20 text-slate-300',
+  gold: 'bg-gold-400/20 text-gold',
+  jade: 'bg-jade-400/20 text-jade',
+  sea: 'bg-sea-400/20 text-sea',
+  steel: 'bg-steel-400/20 text-steel',
+  moss: 'bg-moss-400/20 text-moss',
+  copper: 'bg-copper-400/20 text-copper',
+  warm: 'bg-warm-400/20 text-warm-300',
 }
 
 const toneDot: Record<DomainTone, string> = {
-  cyan: 'bg-cyan-400',
-  emerald: 'bg-emerald-400',
-  amber: 'bg-amber-400',
-  rose: 'bg-rose-400',
-  slate: 'bg-slate-400',
+  gold: 'bg-gold-400',
+  jade: 'bg-jade-400',
+  sea: 'bg-sea-400',
+  steel: 'bg-steel-400',
+  moss: 'bg-moss-400',
+  copper: 'bg-copper-400',
+  warm: 'bg-warm-400',
 }
 
 type ContentFlags = { hasChecklist: boolean; hasMicroDetails: boolean; hasVideos: boolean }
@@ -168,9 +174,9 @@ export default function StudyPage() {
   return (
     <PageShell className="flex flex-col gap-6 xl:grid xl:grid-cols-[280px_1fr_300px]" fullWidth>
       {/* Mobile Sticky Domain Selector / Desktop Sidebar */}
-      <aside className="sticky top-0 z-20 -mx-4 bg-slate-950/80 px-4 py-3 backdrop-blur-xl lg:static lg:mx-0 lg:bg-transparent lg:p-0 lg:backdrop-blur-none xl:sticky xl:top-6 xl:self-start">
+      <aside className="sticky top-0 z-20 -mx-4 bg-warm-950/80 px-4 py-3 backdrop-blur-xl lg:static lg:mx-0 lg:bg-transparent lg:p-0 lg:backdrop-blur-none xl:sticky xl:top-6 xl:self-start">
         <div className="mb-4 flex items-center justify-between lg:hidden">
-          <h2 className="text-sm font-bold uppercase tracking-wider text-slate-500">{t('modeUx.study.heading')}</h2>
+          <h2 className="text-sm font-bold uppercase tracking-wider text-warm-500">{t('modeUx.study.heading')}</h2>
         </div>
 
         {/* Horizontal scroll on mobile, vertical list on desktop */}
@@ -187,13 +193,13 @@ export default function StudyPage() {
                   'flex shrink-0 items-center gap-2.5 rounded-xl border px-3.5 py-2.5 text-left text-sm font-medium transition-all duration-200 lg:w-full',
                   isActive
                     ? toneActive[domain.tone]
-                    : 'border-white/[0.06] bg-slate-900/40 text-slate-400 hover:border-white/10 hover:bg-white/[0.04] hover:text-slate-200',
+                    : 'border-warm-50/[0.06] bg-warm-900/40 text-warm-400 hover:border-warm-50/10 hover:bg-warm-50/[0.04] hover:text-warm-200',
                 )}
               >
                 <span
                   className={cn(
                     'h-2 w-2 shrink-0 rounded-full transition-colors',
-                    isActive ? toneDot[domain.tone] : 'bg-slate-600',
+                    isActive ? toneDot[domain.tone] : 'bg-warm-600',
                   )}
                   aria-hidden="true"
                 />
@@ -201,7 +207,7 @@ export default function StudyPage() {
                 <span
                   className={cn(
                     'flex h-5 min-w-[20px] items-center justify-center rounded-md px-1.5 text-[10px] font-bold',
-                    isActive ? toneCount[domain.tone] : 'bg-white/5 text-slate-500',
+                    isActive ? toneCount[domain.tone] : 'bg-warm-50/5 text-warm-500',
                   )}
                 >
                   {skillsByDomain[domain.id]?.length ?? 0}
@@ -213,9 +219,9 @@ export default function StudyPage() {
 
         {/* Info card only on Desktop Sidebar */}
         <div className="mt-6 hidden space-y-4 lg:block">
-          <div className="rounded-2xl border border-white/[0.06] bg-slate-900/20 p-5 hallmark-hero">
-            <h3 className="text-xs font-bold uppercase tracking-widest text-slate-500">{t('modeUx.study.heading')}</h3>
-            <p className="mt-3 text-xs leading-5 text-slate-400">{t('modeUx.study.subtitle')}</p>
+          <div className="rounded-2xl border border-warm-50/[0.06] bg-warm-900/20 p-5 hallmark-hero">
+            <h3 className="text-xs font-bold uppercase tracking-widest text-warm-500">{t('modeUx.study.heading')}</h3>
+            <p className="mt-3 text-xs leading-5 text-warm-400">{t('modeUx.study.subtitle')}</p>
           </div>
 
           {/* Recently Viewed Toggle (desktop) */}
@@ -227,7 +233,7 @@ export default function StudyPage() {
                 'flex w-full items-center gap-3 rounded-xl border px-4 py-3 text-left text-sm font-medium transition-all duration-200',
                 recentOnly
                   ? domainColor
-                  : 'border-white/[0.06] bg-slate-900/40 text-slate-400 hover:border-white/10 hover:bg-white/[0.04] hover:text-slate-200',
+                  : 'border-warm-50/[0.06] bg-warm-900/40 text-warm-400 hover:border-warm-50/10 hover:bg-warm-50/[0.04] hover:text-warm-200',
               )}
             >
               {recentOnly ? (
@@ -236,7 +242,7 @@ export default function StudyPage() {
                 <Eye className="h-4 w-4 shrink-0" />
               )}
               <span className="flex-1">{t('studyPage.recentlyViewed')}</span>
-              <span className="flex h-5 min-w-[20px] items-center justify-center rounded-md bg-white/5 px-1 text-[10px] font-bold text-slate-500">
+              <span className="flex h-5 min-w-[20px] items-center justify-center rounded-md bg-warm-50/5 px-1 text-[10px] font-bold text-warm-500">
                 {visibleSkills.length}
               </span>
             </button>
@@ -247,15 +253,16 @@ export default function StudyPage() {
       {/* Main Content Area */}
       <main className="min-w-0 space-y-6">
         {/* Header */}
-        <header className="relative overflow-hidden rounded-3xl border border-white/[0.06] bg-slate-900/20 p-6 lg:p-8">
+        <header className="relative overflow-hidden rounded-3xl border border-warm-50/[0.06] bg-warm-900/20 p-6 lg:p-8">
           <div
             className={cn(
               'absolute -right-8 -top-8 h-32 w-32 rounded-full blur-3xl',
-              domainTone === 'cyan' && 'bg-cyan-400/5',
-              domainTone === 'emerald' && 'bg-emerald-400/5',
-              domainTone === 'amber' && 'bg-amber-400/5',
-              domainTone === 'rose' && 'bg-rose-400/5',
-              domainTone === 'slate' && 'bg-slate-400/5',
+              domainTone === 'gold' && 'bg-gold-400/5',
+              domainTone === 'jade' && 'bg-jade-400/5',
+              domainTone === 'sea' && 'bg-sea-400/5',
+              domainTone === 'steel' && 'bg-steel-400/5',
+              domainTone === 'moss' && 'bg-moss-400/5',
+              domainTone === 'copper' && 'bg-copper-400/5',
             )}
           />
           <div className="relative z-10 flex flex-col gap-5 lg:flex-row lg:items-start lg:justify-between">
@@ -264,14 +271,14 @@ export default function StudyPage() {
                 <Badge tone={domainTone} className="shrink-0 whitespace-nowrap px-2 py-0.5 text-[10px] uppercase tracking-widest">
                   {t('nav.study')}
                 </Badge>
-                <span className="text-[11px] font-medium text-slate-500">
+                <span className="text-[11px] font-medium text-warm-500">
                   {t('studyPage.skillCount', { n: skillsByDomain[active]?.length ?? 0 })}
                 </span>
               </div>
-              <h1 className="mt-3 text-2xl font-bold tracking-tight text-white sm:text-3xl lg:text-4xl">
+              <h1 className="mt-3 text-2xl font-bold tracking-tight text-warm-50 sm:text-3xl lg:text-4xl">
                 {t(`modeUx.study.domains.${activeDomain.key}`)}
               </h1>
-              <p className="mt-2 max-w-2xl text-sm leading-relaxed text-slate-400 lg:text-base">
+              <p className="mt-2 max-w-2xl text-sm leading-relaxed text-warm-400 lg:text-base">
                 {t(`modeUx.study.domainBlurbs.${activeDomain.key}`)}
               </p>
             </div>
@@ -286,7 +293,7 @@ export default function StudyPage() {
                   'flex items-center gap-2 rounded-xl border px-3.5 py-2 text-xs font-semibold uppercase tracking-wider transition-all duration-200',
                   quickStudyMode
                     ? domainColor
-                    : 'border-white/[0.06] bg-slate-900/60 text-slate-400 hover:border-white/10 hover:text-slate-200',
+                    : 'border-warm-50/[0.06] bg-warm-900/60 text-warm-400 hover:border-warm-50/10 hover:text-warm-200',
                 )}
                 title={quickStudyMode ? t('studyPage.exitQuickMode') : t('studyPage.quickMode')}
               >
@@ -298,7 +305,7 @@ export default function StudyPage() {
               <button
                 type="button"
                 onClick={handleRandomSkill}
-                className="flex items-center gap-2 rounded-xl border border-white/[0.06] bg-slate-900/60 px-3.5 py-2 text-xs font-semibold uppercase tracking-wider text-slate-400 transition-all duration-200 hover:border-white/10 hover:text-slate-200"
+                className="flex items-center gap-2 rounded-xl border border-warm-50/[0.06] bg-warm-900/60 px-3.5 py-2 text-xs font-semibold uppercase tracking-wider text-warm-400 transition-all duration-200 hover:border-warm-50/10 hover:text-warm-200"
                 title={t('studyPage.randomSkill')}
               >
                 <Dice5 className="h-3.5 w-3.5" />
@@ -314,7 +321,7 @@ export default function StudyPage() {
                     'flex items-center gap-2 rounded-xl border px-3.5 py-2 text-xs font-semibold uppercase tracking-wider transition-all duration-200 sm:hidden',
                     recentOnly
                       ? domainColor
-                      : 'border-white/[0.06] bg-slate-900/60 text-slate-400 hover:border-white/10 hover:text-slate-200',
+                      : 'border-warm-50/[0.06] bg-warm-900/60 text-warm-400 hover:border-warm-50/10 hover:text-warm-200',
                   )}
                 >
                   {recentOnly ? (
@@ -348,7 +355,7 @@ export default function StudyPage() {
               return (
                 <StaggerItem key={skill.id}>
                   <div
-                    className="group relative overflow-hidden rounded-2xl border border-white/[0.06] bg-slate-900/40 transition-all duration-300 hover:border-white/10 hover:bg-slate-900/60 hover:shadow-[0_8px_30px_rgb(0,0,0,0.12)]"
+                    className="group relative overflow-hidden rounded-2xl border border-warm-50/[0.06] bg-warm-900/40 transition-all duration-300 hover:border-warm-50/10 hover:bg-warm-900/60 hover:shadow-[0_8px_30px_rgb(0,0,0,0.12)]"
                     style={{ animationDelay: `${idx * 50}ms` }}
                   >
                     {/* Quick Study Mode */}
@@ -356,27 +363,27 @@ export default function StudyPage() {
                       <div className="p-5">
                         <div className="mb-3 flex items-center justify-between gap-3">
                           <div className="flex min-w-0 flex-1 items-center gap-2">
-                            <h2 className="truncate text-base font-bold text-white">
+                            <h2 className="truncate text-base font-bold text-warm-50">
                               {getLocalizedText(skill.title, lang)}
                             </h2>
                             {/* Content depth indicator */}
-                            <span className="inline-flex shrink-0 items-center gap-1.5 rounded-full border border-white/[0.06] bg-white/[0.02] px-2 py-0.5 text-[10px] font-medium text-slate-500">
+                            <span className="inline-flex shrink-0 items-center gap-1.5 rounded-full border border-warm-50/[0.06] bg-warm-50/[0.02] px-2 py-0.5 text-[10px] font-medium text-warm-500">
                               <span className="tabular-nums">{richnessCount}/3</span>
-                              {hasChecklist && <span className="h-1.5 w-1.5 rounded-full bg-emerald-400" title={t('studyPage.hasQualityCheck')} />}
-                              {hasMicroDetails && <span className="h-1.5 w-1.5 rounded-full bg-amber-400" title={t('studyPage.hasMicroDetails')} />}
-                              {hasVideos && <span className="h-1.5 w-1.5 rounded-full bg-violet-400" title={t('studyPage.hasVideos')} />}
+                              {hasChecklist && <span className="h-1.5 w-1.5 rounded-full bg-jade-400" title={t('studyPage.hasQualityCheck')} />}
+                              {hasMicroDetails && <span className="h-1.5 w-1.5 rounded-full bg-gold-400" title={t('studyPage.hasMicroDetails')} />}
+                              {hasVideos && <span className="h-1.5 w-1.5 rounded-full bg-steel-400" title={t('studyPage.hasVideos')} />}
                             </span>
                           </div>
                           <div className="flex shrink-0 items-center gap-2">
                             {isRecent && (
-                              <span className="flex items-center gap-1 text-[10px] text-slate-500">
+                              <span className="flex items-center gap-1 text-[10px] text-warm-500">
                                 <Clock className="h-3 w-3" />
                                 {formatTimeAgo(isRecent)}
                               </span>
                             )}
                             <Link
                               to={`/skills/${skill.id}`}
-                              className="flex h-8 w-8 items-center justify-center rounded-lg bg-white/[0.03] text-slate-500 transition-all hover:bg-emerald-400/10 hover:text-emerald-300"
+                              className="flex h-8 w-8 items-center justify-center rounded-lg bg-warm-50/[0.03] text-warm-500 transition-all hover:bg-jade-400/10 hover:text-jade"
                               onClick={() => recordView(skill.id)}
                               aria-label={getLocalizedText(skill.title, lang)}
                             >
@@ -386,8 +393,8 @@ export default function StudyPage() {
                         </div>
 
                         {summary && (
-                          <div className="flex items-start gap-2 text-sm text-slate-400">
-                            <CircleDot className="mt-0.5 h-3.5 w-3.5 shrink-0 text-emerald-400/60" />
+                          <div className="flex items-start gap-2 text-sm text-warm-400">
+                            <CircleDot className="mt-0.5 h-3.5 w-3.5 shrink-0 text-jade/60" />
                             <span className="line-clamp-3">{summary}</span>
                           </div>
                         )}
@@ -404,35 +411,35 @@ export default function StudyPage() {
                           {/* Badges + Richness */}
                           <div className="mb-2 flex flex-wrap items-center gap-2">
                             {skill.riskLevel && (
-                              <Badge tone={skill.riskLevel === 'safety_critical' ? 'amber' : 'slate'} className="text-[10px]">
+                              <Badge tone={skill.riskLevel === 'safety_critical' ? 'copper' : 'warm'} className="text-[10px]">
                                 {t(`modern.risk.${skill.riskLevel}`)}
                               </Badge>
                             )}
                             {skill.techniqueFamily && (
-                              <Badge tone="cyan" className="text-[10px]">
+                              <Badge tone="gold" className="text-[10px]">
                                 {t(`modern.family.${skill.techniqueFamily}`)}
                               </Badge>
                             )}
                             {skill.libraryTier && (
-                              <span className="text-[10px] font-semibold uppercase tracking-tighter text-slate-500">
+                              <span className="text-[10px] font-semibold uppercase tracking-tighter text-warm-500">
                                 Tier {skill.libraryTier.slice(-1)}
                               </span>
                             )}
                             {/* Content depth indicator */}
-                            <span className="ml-auto inline-flex shrink-0 items-center gap-1.5 rounded-full border border-white/[0.06] bg-white/[0.02] px-2 py-0.5 text-[10px] font-medium text-slate-500 sm:ml-2">
+                            <span className="ml-auto inline-flex shrink-0 items-center gap-1.5 rounded-full border border-warm-50/[0.06] bg-warm-50/[0.02] px-2 py-0.5 text-[10px] font-medium text-warm-500 sm:ml-2">
                               <span className="tabular-nums">{richnessCount}/3</span>
-                              {hasChecklist && <span className="h-1.5 w-1.5 rounded-full bg-emerald-400" title={t('studyPage.hasQualityCheck')} />}
-                              {hasMicroDetails && <span className="h-1.5 w-1.5 rounded-full bg-amber-400" title={t('studyPage.hasMicroDetails')} />}
-                              {hasVideos && <span className="h-1.5 w-1.5 rounded-full bg-violet-400" title={t('studyPage.hasVideos')} />}
+                              {hasChecklist && <span className="h-1.5 w-1.5 rounded-full bg-jade-400" title={t('studyPage.hasQualityCheck')} />}
+                              {hasMicroDetails && <span className="h-1.5 w-1.5 rounded-full bg-gold-400" title={t('studyPage.hasMicroDetails')} />}
+                              {hasVideos && <span className="h-1.5 w-1.5 rounded-full bg-steel-400" title={t('studyPage.hasVideos')} />}
                             </span>
                           </div>
 
                           <div className="flex items-center gap-3">
-                            <h2 className="text-lg font-bold text-white transition-colors group-hover:text-emerald-100">
+                            <h2 className="text-lg font-bold text-warm-50 transition-colors group-hover:text-jade">
                               {getLocalizedText(skill.title, lang)}
                             </h2>
                             {isRecent && (
-                              <span className="flex shrink-0 items-center gap-1 text-[10px] text-slate-500">
+                              <span className="flex shrink-0 items-center gap-1 text-[10px] text-warm-500">
                                 <Clock className="h-3 w-3" />
                                 {formatTimeAgo(isRecent)}
                               </span>
@@ -440,20 +447,20 @@ export default function StudyPage() {
                           </div>
 
                           {summary && (
-                            <p className="mt-1.5 line-clamp-2 text-sm leading-6 text-slate-400">{summary}</p>
+                            <p className="mt-1.5 line-clamp-2 text-sm leading-6 text-warm-400">{summary}</p>
                           )}
 
                           {/* Expanded content */}
                           {isExpanded && (
-                            <div className="mt-4 animate-slideUp space-y-3 border-t border-white/[0.04] pt-4">
+                            <div className="mt-4 animate-slideUp space-y-3 border-t border-warm-50/[0.04] pt-4">
                               {summary && (
-                                <p className="text-sm leading-relaxed text-slate-400">{summary}</p>
+                                <p className="text-sm leading-relaxed text-warm-400">{summary}</p>
                               )}
                               <div className="flex flex-wrap gap-1.5">
-                                <span className="rounded-lg border border-white/[0.04] bg-white/[0.02] px-2.5 py-1 text-[11px] font-medium text-slate-300">
+                                <span className="rounded-lg border border-warm-50/[0.04] bg-warm-50/[0.02] px-2.5 py-1 text-[11px] font-medium text-warm-300">
                                   {t(`domains.${skill.domain}`)}
                                 </span>
-                                <span className="rounded-lg border border-white/[0.04] bg-white/[0.02] px-2.5 py-1 text-[11px] font-medium text-slate-300">
+                                <span className="rounded-lg border border-warm-50/[0.04] bg-warm-50/[0.02] px-2.5 py-1 text-[11px] font-medium text-warm-300">
                                   {t(`levels.${skill.level}`)}
                                 </span>
                               </div>
@@ -464,16 +471,16 @@ export default function StudyPage() {
                         {/* Chevron + Link */}
                         <div className="flex items-center gap-2 md:gap-3">
                           {/* Progress bar hint */}
-                          <div className="hidden h-1.5 w-12 rounded-full bg-slate-800 sm:block">
+                          <div className="hidden h-1.5 w-12 rounded-full bg-warm-800 sm:block">
                             <div
-                              className="h-full rounded-full bg-emerald-400/40"
+                              className="h-full rounded-full bg-jade-400/40"
                               style={{ width: skill.level === 'advanced' ? '100%' : skill.level === 'intermediate' ? '65%' : '35%' }}
                             />
                           </div>
                           <div className="flex items-center gap-1">
                             <button
                               type="button"
-                              className="rounded-md p-1 text-slate-500 transition-colors hover:text-slate-300"
+                              className="rounded-md p-1 text-warm-500 transition-colors hover:text-warm-300"
                               onClick={(e) => {
                                 e.stopPropagation()
                                 toggleExpanded(skill.id)
@@ -489,7 +496,7 @@ export default function StudyPage() {
                             </button>
                             <Link
                               to={`/skills/${skill.id}`}
-                              className="flex h-10 w-10 items-center justify-center rounded-xl bg-white/[0.03] text-slate-500 transition-all hover:bg-emerald-400/10 hover:text-emerald-300"
+                              className="flex h-10 w-10 items-center justify-center rounded-xl bg-warm-50/[0.03] text-warm-500 transition-all hover:bg-jade-400/10 hover:text-jade"
                               onClick={(e) => {
                                 e.stopPropagation()
                                 recordView(skill.id)
@@ -512,16 +519,16 @@ export default function StudyPage() {
 
       {/* Right Sidebar: Contextual Hints */}
       <aside className="space-y-4 xl:sticky xl:top-6 xl:self-start">
-        <div className="rounded-3xl border border-white/[0.06] bg-slate-900/20 p-6">
+        <div className="rounded-3xl border border-warm-50/[0.06] bg-warm-900/20 p-6">
           <div className="mb-4 flex items-center gap-2">
             <div className="h-1.5 w-1.5 rounded-full bg-hallmark-accent" />
-            <h3 className="text-xs font-bold uppercase tracking-widest text-white">{t('modeUx.rail.next')}</h3>
+            <h3 className="text-xs font-bold uppercase tracking-widest text-warm-50">{t('modeUx.rail.next')}</h3>
           </div>
-          <p className="text-xs leading-5 text-slate-400">{t('modeUx.study.rail')}</p>
+          <p className="text-xs leading-5 text-warm-400">{t('modeUx.study.rail')}</p>
         </div>
 
-        <div className="rounded-3xl border border-white/[0.06] bg-slate-900/20 p-6 hallmark-hero">
-          <h3 className="mb-4 text-xs font-bold uppercase tracking-widest text-white">{t('modeUx.rail.related')}</h3>
+        <div className="rounded-3xl border border-warm-50/[0.06] bg-warm-900/20 p-6 hallmark-hero">
+          <h3 className="mb-4 text-xs font-bold uppercase tracking-widest text-warm-50">{t('modeUx.rail.related')}</h3>
           <div className="grid grid-cols-1 gap-2">
             {[
               { to: '/skills', key: 'nav.skills', icon: Zap },
@@ -531,7 +538,7 @@ export default function StudyPage() {
               <Link
                 key={link.to}
                 to={link.to}
-                className="flex items-center gap-3 rounded-xl border border-white/[0.04] bg-white/[0.02] px-4 py-3 text-sm font-medium text-slate-300 hallmark-card-hover"
+                className="flex items-center gap-3 rounded-xl border border-warm-50/[0.04] bg-warm-50/[0.02] px-4 py-3 text-sm font-medium text-warm-300 hallmark-card-hover"
               >
                 <link.icon className="h-4 w-4 text-hallmark-text-accent opacity-60" />
                 {t(link.key)}
@@ -541,15 +548,15 @@ export default function StudyPage() {
         </div>
 
         {/* Legend: content depth indicators */}
-        <div className="rounded-3xl border border-white/[0.06] bg-slate-900/20 p-6">
-          <h3 className="mb-3 text-[10px] font-bold uppercase tracking-widest text-slate-500">{t('studyPage.contentDepth')}</h3>
+        <div className="rounded-3xl border border-warm-50/[0.06] bg-warm-900/20 p-6">
+          <h3 className="mb-3 text-[10px] font-bold uppercase tracking-widest text-warm-500">{t('studyPage.contentDepth')}</h3>
           <div className="space-y-2">
             {[
-              { tone: 'bg-emerald-400', key: 'studyPage.hasQualityCheck' },
-              { tone: 'bg-amber-400', key: 'studyPage.hasMicroDetails' },
-              { tone: 'bg-violet-400', key: 'studyPage.hasVideos' },
+              { tone: 'bg-jade-400', key: 'studyPage.hasQualityCheck' },
+              { tone: 'bg-gold-400', key: 'studyPage.hasMicroDetails' },
+              { tone: 'bg-steel-400', key: 'studyPage.hasVideos' },
             ].map((item) => (
-              <div key={item.key} className="flex items-center gap-2 text-xs text-slate-400">
+              <div key={item.key} className="flex items-center gap-2 text-xs text-warm-400">
                 <div className={cn('h-2 w-2 rounded-full', item.tone)} />
                 <span>{t(item.key)}</span>
               </div>

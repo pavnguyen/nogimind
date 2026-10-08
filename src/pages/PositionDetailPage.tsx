@@ -29,7 +29,7 @@ export default function PositionDetailPage() {
   if (!positionQuery.isLoading && !position) {
     return <NotFound title={t('positions.notFoundTitle')} body={t('positions.notFoundBody')} to="/positions" label={t('positions.backToPositions')} />
   }
-  if (!position) return <p className="text-slate-400">{t('common.loading')}</p>
+  if (!position) return <p className="text-warm-400">{t('common.loading')}</p>
 
   const leadingSkills = positions
     .filter((item) => item.advancementOptions.some((option) => option.nextPositionId === position.id))
@@ -47,7 +47,7 @@ export default function PositionDetailPage() {
     >
 
       <div className="mt-2 flex flex-wrap gap-2">
-        <Badge tone={position.status === 'critical' || position.status === 'dangerous' ? 'rose' : undefined} className={position.status !== 'critical' && position.status !== 'dangerous' ? 'hallmark-badge' : ''}>{t(`positionStatuses.${position.status}`)}</Badge>
+        <Badge tone={position.status === 'critical' || position.status === 'dangerous' ? 'copper' : undefined} className={position.status !== 'critical' && position.status !== 'dangerous' ? 'hallmark-badge' : ''}>{t(`positionStatuses.${position.status}`)}</Badge>
       </div>
 
       <div className="grid gap-6 xl:grid-cols-2">
@@ -70,9 +70,9 @@ export default function PositionDetailPage() {
           {position.advancementOptions.map((option, index) => {
             const next = option.nextPositionId ? positionsById.get(option.nextPositionId) : undefined
             return (
-              <article key={`${getLocalizedText(option.action, 'en')}-${index}`} className="rounded-lg border border-white/10 bg-slate-900/60 p-4">
-                <p className="font-semibold text-white">{getLocalizedText(option.action, language)}</p>
-                <p className="mt-2 text-sm leading-6 text-slate-400">{getLocalizedText(option.why, language)}</p>
+              <article key={`${getLocalizedText(option.action, 'en')}-${index}`} className="rounded-lg border border-warm-50/10 bg-warm-900/60 p-4">
+                <p className="font-semibold text-warm-50">{getLocalizedText(option.action, language)}</p>
+                <p className="mt-2 text-sm leading-6 text-warm-400">{getLocalizedText(option.why, language)}</p>
                 {next ? (
                   <Link to={`/positions/${next.id}`} className="hallmark-detail-link mt-3 inline-flex rounded-md border px-2 py-1 text-xs">
                     {getLocalizedText(next.title, language)}
@@ -118,7 +118,7 @@ export default function PositionDetailPage() {
 
 const ListCard = ({ title, items, tone = 'default' }: { title: string; items: string[]; tone?: 'default' | 'danger' }) => (
   <SectionCard title={title}>
-    <ul className={`space-y-2 text-sm leading-6 ${tone === 'danger' ? 'hallmark-text-caution' : 'text-slate-300'}`}>
+    <ul className={`space-y-2 text-sm leading-6 ${tone === 'danger' ? 'hallmark-text-caution' : 'text-warm-300'}`}>
       {items.map((item) => <li key={item}>{item}</li>)}
     </ul>
   </SectionCard>
@@ -134,7 +134,7 @@ const SkillLinks = ({ ids, skillsById, lang }: { ids: string[]; skillsById: Map<
           {getLocalizedText(skill?.title, lang)}
         </Link>
       ))}
-      {!skills.length ? <span className="text-xs text-slate-500">{t('common.none')}</span> : null}
+      {!skills.length ? <span className="text-xs text-warm-500">{t('common.none')}</span> : null}
     </div>
   )
 }

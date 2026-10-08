@@ -90,7 +90,7 @@ function renderInlineContent(text: string) {
   const parts = text.split(/(\*\*[^*]+\*\*)/g)
   return parts.map((part, i) => {
     if (part.startsWith('**') && part.endsWith('**')) {
-      return <strong key={i} className="font-semibold text-white">{part.slice(2, -2)}</strong>
+      return <strong key={i} className="font-semibold text-warm-50">{part.slice(2, -2)}</strong>
     }
     return part
   })
@@ -108,7 +108,7 @@ export const FormattedText = ({ text, className }: FormattedTextProps) => {
   }, [text])
 
   return (
-    <div className={cn('space-y-3 leading-7 text-slate-300', className)}>
+    <div className={cn('space-y-3 leading-7 text-warm-300', className)}>
       {groups.map((group, gi) => {
         switch (group.type) {
           case 'spacer':
@@ -116,7 +116,7 @@ export const FormattedText = ({ text, className }: FormattedTextProps) => {
 
           case 'header':
             return (
-              <h3 key={gi} className="text-sm font-semibold uppercase tracking-wide text-cyan-200">
+              <h3 key={gi} className="text-sm font-semibold uppercase tracking-wide text-gold">
                 {group.items[0]?.content}
               </h3>
             )
@@ -138,7 +138,7 @@ export const FormattedText = ({ text, className }: FormattedTextProps) => {
               <ol key={gi} className="space-y-1.5">
                 {group.items.map((item, li) => (
                   <li key={li} className="flex gap-2">
-                    <span className="mt-0.5 shrink-0 font-mono text-xs font-semibold text-cyan-400">
+                    <span className="mt-0.5 shrink-0 font-mono text-xs font-semibold text-gold">
                       {item.number ?? li + 1}.
                     </span>
                     <span>{renderInlineContent(item.content)}</span>

@@ -62,36 +62,36 @@ export default function DashboardPage() {
   return (
     <PageShell
       header={
-        <section className="rounded-2xl border border-white/[0.06] bg-slate-900/40 px-4 py-3.5 sm:px-5">
+        <section className="rounded-2xl border border-warm-50/[0.06] bg-warm-900/40 px-4 py-3.5 sm:px-5">
           {/* ── Brand + thesis, the single place the slogan appears ── */}
           <div className="flex items-center gap-3 sm:gap-4">
             <img
               src="/logo.png"
               alt={t('app.name')}
-              className="h-10 w-10 shrink-0 rounded-lg object-cover shadow-md ring-1 ring-white/10 sm:h-12 sm:w-12"
+              className="h-10 w-10 shrink-0 rounded-lg object-cover shadow-md ring-1 ring-warm-50/10 sm:h-12 sm:w-12"
             />
             <div className="min-w-0 flex-1">
-              <h1 className="text-base font-bold tracking-tight text-white sm:text-lg">
+              <h1 className="text-base font-bold tracking-tight text-warm-50 sm:text-lg">
                 {t('app.name')}
               </h1>
-              <p className="mt-0.5 text-xs leading-5 text-slate-400 sm:text-sm sm:leading-6">
+              <p className="mt-0.5 text-xs leading-5 text-warm-400 sm:text-sm sm:leading-6">
                 {t('app.thesis')}
               </p>
             </div>
           </div>
 
           {/* ── Inline stats, one row instead of a separate strip ── */}
-          <div className="mt-3 flex flex-wrap items-center gap-x-5 gap-y-2 border-t border-white/[0.06] pt-3">
+          <div className="mt-3 flex flex-wrap items-center gap-x-5 gap-y-2 border-t border-warm-50/[0.06] pt-3">
             <div className="flex items-baseline gap-1.5">
               <span className="text-[10px] font-semibold uppercase tracking-widest hallmark-text-tertiary">{t('dashboard.totalSkills')}</span>
               <span className="text-sm font-bold hallmark-accent-text">{pipelineSkillCount}</span>
             </div>
-            <div className="h-4 w-px bg-white/[0.08]" aria-hidden="true" />
+            <div className="h-4 w-px bg-warm-50/[0.08]" aria-hidden="true" />
             <div className="flex items-baseline gap-1.5">
               <span className="text-[10px] font-semibold uppercase tracking-widest hallmark-text-tertiary">{t('dashboard.safetyCritical')}</span>
-              <span className="text-sm font-bold text-rose-400">{pipelineSafetyCount}</span>
+              <span className="text-sm font-bold text-copper">{pipelineSafetyCount}</span>
             </div>
-            <div className="h-4 w-px bg-white/[0.08]" aria-hidden="true" />
+            <div className="h-4 w-px bg-warm-50/[0.08]" aria-hidden="true" />
             <div className="flex items-baseline gap-1.5">
               <span className="text-[10px] font-semibold uppercase tracking-widest hallmark-text-tertiary">{t('dashboard.lastUpdate')}</span>
               <span className="text-sm font-semibold hallmark-text-secondary">{getBuildDate()}</span>
@@ -99,10 +99,10 @@ export default function DashboardPage() {
           </div>
 
           {/* ── With gratitude, one compact line with a warm accent ── */}
-          <div className="mt-3 flex flex-wrap items-center gap-x-2.5 gap-y-1.5 rounded-lg border border-amber-400/25 bg-linear-to-r from-amber-400/[0.14] via-rose-400/[0.07] to-transparent px-3 py-2 text-[11px] font-medium leading-5 text-amber-100">
-            <Heart className="h-3.5 w-3.5 shrink-0 fill-current text-amber-300" aria-hidden="true" />
+          <div className="mt-3 flex flex-wrap items-center gap-x-2.5 gap-y-1.5 rounded-lg border border-gold-400/25 bg-linear-to-r from-gold-400/[0.14] via-copper-400/[0.07] to-transparent px-3 py-2 text-[11px] font-medium leading-5 text-gold">
+            <Heart className="h-3.5 w-3.5 shrink-0 fill-current text-gold" aria-hidden="true" />
             <span className="min-w-0">{t('about.thanks.dashboard')}</span>
-            <span aria-hidden="true" className="text-amber-300/40">
+            <span aria-hidden="true" className="text-gold/40">
               ·
             </span>
             <a
@@ -110,7 +110,7 @@ export default function DashboardPage() {
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Guardian HCMC on Facebook"
-              className="inline-flex h-5 w-5 items-center justify-center rounded-md bg-amber-400/20 text-amber-200 transition-colors hover:bg-amber-400/35 hover:text-white"
+              className="inline-flex h-5 w-5 items-center justify-center rounded-md bg-gold-400/20 text-gold transition-colors hover:bg-gold-400/35 hover:text-warm-50"
             >
               <FacebookIcon className="h-3.5 w-3.5 shrink-0" />
             </a>
@@ -119,13 +119,13 @@ export default function DashboardPage() {
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Guardian HCMC on Instagram"
-              className="inline-flex h-5 w-5 items-center justify-center rounded-md bg-rose-400/20 text-rose-200 transition-colors hover:bg-rose-400/35 hover:text-white"
+              className="inline-flex h-5 w-5 items-center justify-center rounded-md bg-copper-400/20 text-copper transition-colors hover:bg-copper-400/35 hover:text-warm-50"
             >
               <InstagramIcon className="h-3.5 w-3.5 shrink-0" />
             </a>
             <Link
               to="/about"
-              className="font-semibold text-amber-200 underline-offset-2 transition-colors hover:text-white hover:underline"
+              className="font-semibold text-gold underline-offset-2 transition-colors hover:text-warm-50 hover:underline"
             >
               {t('about.thanks.more')}
             </Link>

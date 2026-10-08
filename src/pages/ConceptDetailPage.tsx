@@ -29,7 +29,7 @@ export default function ConceptDetailPage() {
   if (!conceptQuery.isLoading && !concept) {
     return <NotFound title={t('concepts.notFoundTitle')} body={t('concepts.notFoundBody')} to="/concepts" label={t('concepts.backToConcepts')} />
   }
-  if (!concept) return <p className="text-slate-400">{t('common.loading')}</p>
+  if (!concept) return <p className="text-warm-400">{t('common.loading')}</p>
 
   return (
     <PageShell
@@ -46,11 +46,11 @@ export default function ConceptDetailPage() {
 
       <div className="mt-6 grid gap-6 xl:grid-cols-2">
         <SectionCard title={t('concepts.whyItMatters')}>
-          <p className="leading-7 text-slate-300">{getLocalizedText(concept.whyItMatters, language)}</p>
+          <p className="leading-7 text-warm-300">{getLocalizedText(concept.whyItMatters, language)}</p>
         </SectionCard>
         {getLocalizedArray(concept.trainingCues, language).length > 0 ? (
           <SectionCard title={t('concepts.trainingCues')}>
-            <ul className="space-y-2 text-sm leading-6 text-slate-300">
+            <ul className="space-y-2 text-sm leading-6 text-warm-300">
               {getLocalizedArray(concept.trainingCues, language).map((cue) => <li key={cue}>{cue}</li>)}
             </ul>
           </SectionCard>
@@ -74,13 +74,13 @@ export default function ConceptDetailPage() {
         <SectionCard title={t('concepts.ifThenExamples')}>
           <div className="grid gap-3 xl:grid-cols-2">
             {concept.ifThenExamples.map((example, index) => (
-              <article key={`${getLocalizedText(example.if, 'en')}-${index}`} className="rounded-lg border border-white/10 bg-slate-900/60 p-4">
+              <article key={`${getLocalizedText(example.if, 'en')}-${index}`} className="rounded-lg border border-warm-50/10 bg-warm-900/60 p-4">
                 <p className="text-xs font-semibold uppercase tracking-wide hallmark-text-caution">{t('ifThen.if')}</p>
-                <p className="mt-1 text-sm leading-6 text-slate-200">{getLocalizedText(example.if, language)}</p>
+                <p className="mt-1 text-sm leading-6 text-warm-200">{getLocalizedText(example.if, language)}</p>
                 <p className="mt-3 text-xs font-semibold uppercase tracking-wide hallmark-text-positive">{t('ifThen.then')}</p>
-                <p className="mt-1 text-sm leading-6 text-slate-200">{getLocalizedText(example.then, language)}</p>
-                <p className="mt-3 text-xs font-semibold uppercase tracking-wide text-slate-500">{t('ifThen.why')}</p>
-                <p className="mt-1 text-sm leading-6 text-slate-400">{getLocalizedText(example.why, language)}</p>
+                <p className="mt-1 text-sm leading-6 text-warm-200">{getLocalizedText(example.then, language)}</p>
+                <p className="mt-3 text-xs font-semibold uppercase tracking-wide text-warm-500">{t('ifThen.why')}</p>
+                <p className="mt-1 text-sm leading-6 text-warm-400">{getLocalizedText(example.why, language)}</p>
                 <SkillLinks ids={example.relatedSkillIds} skillsById={skillsById} />
               </article>
             ))}
@@ -92,9 +92,9 @@ export default function ConceptDetailPage() {
         <SectionCard title={t('concepts.misunderstandings')}>
           <div className="grid gap-3 xl:grid-cols-2">
             {concept.commonMisunderstandings.map((item, index) => (
-              <article key={`${getLocalizedText(item.misunderstanding, 'en')}-${index}`} className="rounded-lg border border-white/10 bg-slate-900/60 p-4">
+              <article key={`${getLocalizedText(item.misunderstanding, 'en')}-${index}`} className="rounded-lg border border-warm-50/10 bg-warm-900/60 p-4">
                 <p className="text-sm font-semibold hallmark-text-danger">{getLocalizedText(item.misunderstanding, language)}</p>
-                <p className="mt-2 text-sm leading-6 text-slate-300">{getLocalizedText(item.correction, language)}</p>
+                <p className="mt-2 text-sm leading-6 text-warm-300">{getLocalizedText(item.correction, language)}</p>
               </article>
             ))}
           </div>
@@ -112,7 +112,7 @@ export default function ConceptDetailPage() {
                 {getLocalizedText(related?.title, language)}
               </Link>
             ))}
-            {!concept.relatedConceptIds.length ? <span className="text-sm text-slate-400">{t('common.none')}</span> : null}
+            {!concept.relatedConceptIds.length ? <span className="text-sm text-warm-400">{t('common.none')}</span> : null}
           </div>
         </SectionCard>
       </div>
@@ -140,7 +140,7 @@ const SkillLinks = ({
           {skill?.name}
         </Link>
       ))}
-      {!skills.length ? <span className="text-xs text-slate-500">{t('common.none')}</span> : null}
+      {!skills.length ? <span className="text-xs text-warm-500">{t('common.none')}</span> : null}
     </div>
   )
 }

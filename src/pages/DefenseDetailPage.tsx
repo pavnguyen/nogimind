@@ -26,7 +26,7 @@ export default function DefenseDetailPage() {
   if (!layerQuery.isLoading && !layer) {
     return <NotFound title={t('defense.notFoundTitle')} body={t('defense.notFoundBody')} to="/defense" label={t('defense.backToDefense')} />
   }
-  if (!layer) return <p className="text-slate-400">{t('common.loading')}</p>
+  if (!layer) return <p className="text-warm-400">{t('common.loading')}</p>
 
   return (
     <PageShell
@@ -48,7 +48,7 @@ export default function DefenseDetailPage() {
       <ListCard title={t('defense.unsafeResponses')} items={getLocalizedArray(layer.unsafeResponses, language)} tone="danger" />
 
       <SectionCard title={t('defense.trainingAdvice')}>
-        <p className="text-sm leading-6 text-slate-300">{getLocalizedText(layer.trainingAdvice, language)}</p>
+        <p className="text-sm leading-6 text-warm-300">{getLocalizedText(layer.trainingAdvice, language)}</p>
       </SectionCard>
 
       <div className="grid gap-6 xl:grid-cols-2">
@@ -72,7 +72,7 @@ export default function DefenseDetailPage() {
 
 const ListCard = ({ title, items, tone = 'default' }: { title: string; items: string[]; tone?: 'default' | 'danger' }) => (
   <SectionCard title={title}>
-    <ul className={`space-y-2 text-sm leading-6 ${tone === 'danger' ? 'hallmark-text-caution' : 'text-slate-300'}`}>
+    <ul className={`space-y-2 text-sm leading-6 ${tone === 'danger' ? 'hallmark-text-caution' : 'text-warm-300'}`}>
       {items.map((item) => <li key={item}>{item}</li>)}
     </ul>
   </SectionCard>
@@ -88,7 +88,7 @@ const SkillLinks = ({ ids, skillsById }: { ids: string[]; skillsById: Map<string
           {skill?.name}
         </Link>
       ))}
-      {!skills.length ? <span className="text-xs text-slate-500">{t('common.none')}</span> : null}
+      {!skills.length ? <span className="text-xs text-warm-500">{t('common.none')}</span> : null}
     </div>
   )
 }

@@ -8,41 +8,41 @@ import { StaggerContainer, StaggerItem } from '../common/StaggerContainer'
 // ── Tone style map ────────────────────────────────────────────────────────
 
 const hubToneStyles: Record<string, { card: string; glow: string; icon: string }> = {
-  cyan: {
-    card: 'border-cyan-400/15 bg-cyan-400/[0.03] hover:border-cyan-400/30 hover:bg-cyan-400/[0.06] hover:shadow-[0_0_25px_rgba(34,211,238,0.08)]',
-    glow: 'bg-cyan-400',
-    icon: 'bg-cyan-400/10 text-cyan-300 group-hover:bg-cyan-400/20',
+  gold: {
+    card: 'border-gold-400/15 bg-gold-400/[0.03] hover:border-gold-400/30 hover:bg-gold-400/[0.06] hover:shadow-[0_0_25px_rgba(232,176,92,0.08)]',
+    glow: 'bg-gold-400',
+    icon: 'bg-gold-400/10 text-gold group-hover:bg-gold-400/20',
   },
-  emerald: {
-    card: 'border-emerald-400/15 bg-emerald-400/[0.03] hover:border-emerald-400/30 hover:bg-emerald-400/[0.06] hover:shadow-[0_0_25px_rgba(52,211,153,0.08)]',
-    glow: 'bg-emerald-400',
-    icon: 'bg-emerald-400/10 text-emerald-300 group-hover:bg-emerald-400/20',
+  jade: {
+    card: 'border-jade-400/15 bg-jade-400/[0.03] hover:border-jade-400/30 hover:bg-jade-400/[0.06] hover:shadow-[0_0_25px_rgba(62,201,182,0.08)]',
+    glow: 'bg-jade-400',
+    icon: 'bg-jade-400/10 text-jade group-hover:bg-jade-400/20',
   },
-  amber: {
-    card: 'border-amber-400/15 bg-amber-400/[0.03] hover:border-amber-400/30 hover:bg-amber-400/[0.06] hover:shadow-[0_0_25px_rgba(251,191,36,0.08)]',
-    glow: 'bg-amber-400',
-    icon: 'bg-amber-400/10 text-amber-300 group-hover:bg-amber-400/20',
+  copper: {
+    card: 'border-copper-400/15 bg-copper-400/[0.03] hover:border-copper-400/30 hover:bg-copper-400/[0.06] hover:shadow-[0_0_25px_rgba(224,122,78,0.08)]',
+    glow: 'bg-copper-400',
+    icon: 'bg-copper-400/10 text-copper group-hover:bg-copper-400/20',
   },
-  violet: {
-    card: 'border-violet-400/15 bg-violet-400/[0.03] hover:border-violet-400/30 hover:bg-violet-400/[0.06] hover:shadow-[0_0_25px_rgba(167,139,250,0.08)]',
-    glow: 'bg-violet-400',
-    icon: 'bg-violet-400/10 text-violet-300 group-hover:bg-violet-400/20',
+  steel: {
+    card: 'border-steel-400/15 bg-steel-400/[0.03] hover:border-steel-400/30 hover:bg-steel-400/[0.06] hover:shadow-[0_0_25px_rgba(127,169,224,0.08)]',
+    glow: 'bg-steel-400',
+    icon: 'bg-steel-400/10 text-steel group-hover:bg-steel-400/20',
   },
-  slate: {
-    card: 'border-slate-400/15 bg-slate-400/[0.03] hover:border-slate-400/30 hover:bg-slate-400/[0.06]',
-    glow: 'bg-slate-400',
-    icon: 'bg-slate-400/10 text-slate-300 group-hover:bg-slate-400/20',
+  sand: {
+    card: 'border-sand-400/15 bg-sand-400/[0.03] hover:border-sand-400/30 hover:bg-sand-400/[0.06] hover:shadow-[0_0_25px_rgba(176,169,155,0.08)]',
+    glow: 'bg-sand-400',
+    icon: 'bg-sand-400/10 text-sand group-hover:bg-sand-400/20',
   },
 }
 
 // ── Hub link data ─────────────────────────────────────────────────────────
 
 const hubLinks = [
-  { to: '/learn', icon: Compass, label: 'nav.learn', tone: 'cyan' },
-  { to: '/study', icon: Zap, label: 'nav.study', tone: 'emerald', highlight: true },
-  { to: '/defense', icon: Shield, label: 'nav.defense', tone: 'amber' },
-  { to: '/build', icon: Layers3, label: 'nav.build', tone: 'violet' },
-  { to: '/reference', icon: BookOpen, label: 'nav.reference', tone: 'slate' },
+  { to: '/learn', icon: Compass, label: 'nav.learn', tone: 'gold' },
+  { to: '/study', icon: Zap, label: 'nav.study', tone: 'jade', highlight: true },
+  { to: '/defense', icon: Shield, label: 'nav.defense', tone: 'copper' },
+  { to: '/build', icon: Layers3, label: 'nav.build', tone: 'steel' },
+  { to: '/reference', icon: BookOpen, label: 'nav.reference', tone: 'sand' },
 ]
 
 // ── Component ─────────────────────────────────────────────────────────────
@@ -52,10 +52,10 @@ export const DashboardHubExplorer = () => {
 
   return (
     <section className="lg:col-span-12 animate-fadeIn md:[animation-delay:200ms]">
-      <div className="rounded-2xl border border-white/[0.06] bg-slate-900/20 p-4 sm:p-5">
+      <div className="rounded-2xl border border-warm-50/[0.06] bg-warm-900/20 p-4 sm:p-5">
         <div className="mb-4 flex items-center gap-2">
-          <Sparkles className="h-4 w-4 text-slate-500" />
-          <h2 className="text-xs font-bold uppercase tracking-widest text-slate-500">{t('dashboard.hubExplorer')}</h2>
+          <Sparkles className="h-4 w-4 text-warm-500" />
+          <h2 className="text-xs font-bold uppercase tracking-widest text-warm-500">{t('dashboard.hubExplorer')}</h2>
         </div>
         <StaggerContainer className="grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-5">
           {hubLinks.map((hub) => {
@@ -71,7 +71,7 @@ export const DashboardHubExplorer = () => {
                     className={cn(
                       'group relative block overflow-hidden rounded-xl border p-4',
                       hubToneStyles[hub.tone].card,
-                      hub.highlight && 'ring-1 ring-emerald-400/20',
+                      hub.highlight && 'ring-1 ring-jade-400/20',
                     )}
                   >
                     <motion.div
@@ -95,7 +95,7 @@ export const DashboardHubExplorer = () => {
                       >
                         <HubIcon className="h-4 w-4" />
                       </motion.div>
-                      <p className="text-xs font-bold text-white sm:text-sm">
+                      <p className="text-xs font-bold text-warm-50 sm:text-sm">
                         {t(hub.label)}
                       </p>
                     </div>

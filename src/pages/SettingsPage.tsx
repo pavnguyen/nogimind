@@ -63,7 +63,7 @@ function InstallAppButton() {
     return (
       <button
         disabled
-        className="flex items-center gap-2 rounded-lg border border-slate-600 bg-slate-800/50 px-4 py-2.5 text-sm font-medium text-slate-500"
+        className="flex items-center gap-2 rounded-lg border border-warm-600 bg-warm-800/50 px-4 py-2.5 text-sm font-medium text-warm-500"
       >
         <Download className="h-4 w-4" />
         {t('pwa.notAvailable')}
@@ -89,8 +89,8 @@ export default function SettingsPage() {
     <PageShell
       header={
         <div>
-          <h1 className="text-2xl font-semibold tracking-tight text-white">{t('settings.heading')}</h1>
-          <p className="mt-1 text-sm text-slate-400">{t('settings.subtitle')}</p>
+          <h1 className="text-2xl font-semibold tracking-tight text-warm-50">{t('settings.heading')}</h1>
+          <p className="mt-1 text-sm text-warm-400">{t('settings.subtitle')}</p>
         </div>
       }
     >
@@ -99,12 +99,12 @@ export default function SettingsPage() {
       </SectionCard>
 
       <SectionCard title={t('settings.installApp')}>
-        <p className="mb-3 text-sm text-slate-400">{t('pwa.description')}</p>
+        <p className="mb-3 text-sm text-warm-400">{t('pwa.description')}</p>
         <InstallAppButton />
       </SectionCard>
 
       <SectionCard title={t('app.name')}>
-        <p className="text-sm text-slate-400">{t('app.version')} · {t('settings.updated', { date: getBuildDate() })}</p>
+        <p className="text-sm text-warm-400">{t('app.version')} · {t('settings.updated', { date: getBuildDate() })}</p>
       </SectionCard>
     </PageShell>
   )

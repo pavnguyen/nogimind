@@ -37,12 +37,12 @@ describe('DashboardHubExplorer', () => {
     expect(screen.getByRole('link', { name: /nav\.reference/i })).toHaveAttribute('href', '/reference')
   })
 
-  it('highlights the study card with an emerald ring', () => {
+  it('highlights the study card with a jade ring', () => {
     renderComponent()
 
     const studyLink = screen.getByRole('link', { name: /nav\.study/i })
     expect(studyLink.className).toContain('ring-1')
-    expect(studyLink.className).toContain('ring-emerald-400/20')
+    expect(studyLink.className).toContain('ring-jade-400/20')
   })
 
   it('does not add highlight ring to non-study cards', () => {
@@ -62,25 +62,25 @@ describe('DashboardHubExplorer', () => {
   it('applies correct tone-specific border styles per link', () => {
     renderComponent()
 
-    // Cyan tone → learn card
+    // gold tone → learn card
     const learnLink = screen.getByRole('link', { name: /nav\.learn/i })
-    expect(learnLink.className).toContain('border-cyan-400/15')
+    expect(learnLink.className).toContain('border-gold-400/15')
 
-    // Emerald tone → study card
+    // jade tone → study card
     const studyLink = screen.getByRole('link', { name: /nav\.study/i })
-    expect(studyLink.className).toContain('border-emerald-400/15')
+    expect(studyLink.className).toContain('border-jade-400/15')
 
-    // Amber tone → defense card
+    // copper tone → defense card
     const defenseLink = screen.getByRole('link', { name: /nav\.defense/i })
-    expect(defenseLink.className).toContain('border-amber-400/15')
+    expect(defenseLink.className).toContain('border-copper-400/15')
 
-    // Violet tone → build card
+    // steel tone → build card
     const buildLink = screen.getByRole('link', { name: /nav\.build/i })
-    expect(buildLink.className).toContain('border-violet-400/15')
+    expect(buildLink.className).toContain('border-steel-400/15')
 
-    // Slate tone → reference card
+    // sand tone → reference card
     const referenceLink = screen.getByRole('link', { name: /nav\.reference/i })
-    expect(referenceLink.className).toContain('border-slate-400/15')
+    expect(referenceLink.className).toContain('border-sand-400/15')
   })
 
   it('renders exactly 5 link elements', () => {

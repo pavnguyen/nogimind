@@ -29,7 +29,7 @@ import {
 
 const Fallback = () => {
   const { t } = useTranslation()
-  return <div className="p-6 text-sm text-slate-400">{t('common.loading')}</div>
+  return <div className="p-6 text-sm text-warm-400">{t('common.loading')}</div>
 }
 
 const ScrollToTop = () => {

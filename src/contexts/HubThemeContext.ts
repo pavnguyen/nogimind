@@ -2,7 +2,7 @@ import { createContext, useContext } from 'react'
 
 // ── Types ─────────────────────────────────────────────────────────────────
 
-export type HubId = 'learn' | 'study' | 'fix' | 'build' | 'reference'
+export type HubId = 'learn' | 'study' | 'defense' | 'build' | 'reference'
 
 export interface HubTheme {
   /** The active hub ID, or null for Dashboard/unmatched routes */

@@ -49,19 +49,19 @@ export class ErrorBoundary extends Component<ErrorBoundaryProps, ErrorBoundarySt
     if (this.state.hasError) {
       return (
         <div className="flex min-h-[60vh] flex-col items-center justify-center gap-4 px-6 text-center">
-          <div className="flex h-14 w-14 items-center justify-center rounded-2xl border border-rose-400/20 bg-rose-400/10">
-            <AlertTriangle className="h-7 w-7 text-rose-300" aria-hidden="true" />
+          <div className="flex h-14 w-14 items-center justify-center rounded-2xl border border-copper-400/20 bg-copper-400/10">
+            <AlertTriangle className="h-7 w-7 text-copper" aria-hidden="true" />
           </div>
           <div className="max-w-md space-y-1.5">
-            <h1 className="text-lg font-semibold text-white">
+            <h1 className="text-lg font-semibold text-warm-50">
               {this.props.fallbackTitle ?? 'Something went wrong'}
             </h1>
-            <p className="text-sm leading-relaxed text-slate-400">
+            <p className="text-sm leading-relaxed text-warm-400">
               {this.props.fallbackBody ??
                 'An unexpected error occurred while rendering this page. Your data is safe, try reloading the page.'}
             </p>
             {this.state.error && import.meta.env.DEV && (
-              <pre className="mt-3 max-h-40 overflow-auto rounded-lg border border-white/[0.06] bg-slate-950/80 p-3 text-left text-xs text-rose-300">
+              <pre className="mt-3 max-h-40 overflow-auto rounded-lg border border-warm-50/[0.06] bg-warm-950/80 p-3 text-left text-xs text-copper">
                 {this.state.error.stack ?? this.state.error.message}
               </pre>
             )}
@@ -69,7 +69,7 @@ export class ErrorBoundary extends Component<ErrorBoundaryProps, ErrorBoundarySt
           <button
             type="button"
             onClick={this.handleRetry}
-            className="inline-flex items-center gap-2 rounded-lg border border-white/[0.08] bg-slate-900 px-4 py-2.5 text-sm font-medium text-white transition-all hover:bg-white/[0.04]"
+            className="inline-flex items-center gap-2 rounded-lg border border-warm-50/[0.08] bg-warm-900 px-4 py-2.5 text-sm font-medium text-warm-50 transition-all hover:bg-warm-50/[0.04]"
           >
             <RotateCcw className="h-4 w-4" aria-hidden="true" />
             {this.props.retryLabel ?? 'Try again'}
