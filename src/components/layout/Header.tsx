@@ -100,13 +100,6 @@ export const Header = () => {
           <span className="hidden sm:inline text-xs text-slate-500">{t('app.name')}</span>
         </button>
 
-        {/* Brand (desktop) */}
-        <div className="hidden min-w-0 lg:block">
-          <p className="max-w-xl truncate text-sm text-slate-400">
-            {t('app.thesis')}
-          </p>
-        </div>
-
         {/* Search */}
         <div ref={rootRef} className="relative w-full max-w-md">
           <form onSubmit={submitSearch} className="search-focus-ring group flex items-center gap-2 rounded-lg border border-white/[0.08] bg-slate-900/80 px-3 py-1.5 transition-all">

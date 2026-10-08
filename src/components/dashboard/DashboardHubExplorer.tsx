@@ -52,8 +52,8 @@ export const DashboardHubExplorer = () => {
 
   return (
     <section className="lg:col-span-12 animate-fadeIn md:[animation-delay:200ms]">
-      <div className="rounded-[2.5rem] border border-white/[0.06] bg-slate-900/20 p-6 lg:p-8">
-        <div className="mb-6 flex items-center gap-2">
+      <div className="rounded-2xl border border-white/[0.06] bg-slate-900/20 p-4 sm:p-5">
+        <div className="mb-4 flex items-center gap-2">
           <Sparkles className="h-4 w-4 text-slate-500" />
           <h2 className="text-xs font-bold uppercase tracking-widest text-slate-500">{t('dashboard.hubExplorer')}</h2>
         </div>
@@ -69,7 +69,7 @@ export const DashboardHubExplorer = () => {
                   <Link
                     to={hub.to}
                     className={cn(
-                      'group relative block overflow-hidden rounded-2xl border p-5',
+                      'group relative block overflow-hidden rounded-xl border p-4',
                       hubToneStyles[hub.tone].card,
                       hub.highlight && 'ring-1 ring-emerald-400/20',
                     )}
@@ -87,15 +87,15 @@ export const DashboardHubExplorer = () => {
                     <div className="relative z-10">
                       <motion.div
                         className={cn(
-                          'mb-3 inline-flex rounded-xl p-2.5 transition-colors',
+                          'mb-2.5 inline-flex rounded-lg p-2 transition-colors',
                           hubToneStyles[hub.tone].icon,
                         )}
                         whileHover={{ rotate: [0, -10, 10, 0], scale: 1.1 }}
                         transition={{ duration: 0.4 }}
                       >
-                        <HubIcon className="h-5 w-5" />
+                        <HubIcon className="h-4 w-4" />
                       </motion.div>
-                      <p className="text-sm font-bold text-white">
+                      <p className="text-xs font-bold text-white sm:text-sm">
                         {t(hub.label)}
                       </p>
                     </div>

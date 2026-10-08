@@ -62,28 +62,46 @@ export default function DashboardPage() {
   return (
     <PageShell
       header={
-        <section className="space-y-6">
-          {/* ── Compact brand hero ── */}
-          <div className="flex items-center gap-4 rounded-2xl border border-white/[0.06] bg-slate-900/40 px-5 py-4">
+        <section className="rounded-2xl border border-white/[0.06] bg-slate-900/40 px-4 py-3.5 sm:px-5">
+          {/* ── Brand + thesis, the single place the slogan appears ── */}
+          <div className="flex items-center gap-3 sm:gap-4">
             <img
               src="/logo.png"
               alt={t('app.name')}
-              className="h-14 w-14 shrink-0 rounded-xl object-cover shadow-md ring-1 ring-white/10"
+              className="h-10 w-10 shrink-0 rounded-lg object-cover shadow-md ring-1 ring-white/10 sm:h-12 sm:w-12"
             />
             <div className="min-w-0 flex-1">
-              <h1 className="text-xl font-bold tracking-tight text-white sm:text-2xl">
+              <h1 className="text-base font-bold tracking-tight text-white sm:text-lg">
                 {t('app.name')}
               </h1>
-              <p className="mt-0.5 truncate text-xs hallmark-text-tertiary sm:text-sm">
+              <p className="mt-0.5 text-xs leading-5 text-slate-400 sm:text-sm sm:leading-6">
                 {t('app.thesis')}
               </p>
             </div>
           </div>
 
-          {/* ── With gratitude, one compact line under the hero ── */}
-          <div className="flex flex-wrap items-center gap-x-2 gap-y-1 px-1 text-[11px] leading-5 text-slate-500">
+          {/* ── Inline stats, one row instead of a separate strip ── */}
+          <div className="mt-3 flex flex-wrap items-center gap-x-5 gap-y-2 border-t border-white/[0.06] pt-3">
+            <div className="flex items-baseline gap-1.5">
+              <span className="text-[10px] font-semibold uppercase tracking-widest hallmark-text-tertiary">{t('dashboard.totalSkills')}</span>
+              <span className="text-sm font-bold hallmark-accent-text">{pipelineSkillCount}</span>
+            </div>
+            <div className="h-4 w-px bg-white/[0.08]" aria-hidden="true" />
+            <div className="flex items-baseline gap-1.5">
+              <span className="text-[10px] font-semibold uppercase tracking-widest hallmark-text-tertiary">{t('dashboard.safetyCritical')}</span>
+              <span className="text-sm font-bold text-rose-400">{pipelineSafetyCount}</span>
+            </div>
+            <div className="h-4 w-px bg-white/[0.08]" aria-hidden="true" />
+            <div className="flex items-baseline gap-1.5">
+              <span className="text-[10px] font-semibold uppercase tracking-widest hallmark-text-tertiary">{t('dashboard.lastUpdate')}</span>
+              <span className="text-sm font-semibold hallmark-text-secondary">{getBuildDate()}</span>
+            </div>
+          </div>
+
+          {/* ── With gratitude, one compact line ── */}
+          <div className="mt-3 flex flex-wrap items-center gap-x-2 gap-y-1 border-t border-white/[0.06] pt-2.5 text-[11px] leading-5 text-slate-500">
             <Heart className="h-3 w-3 shrink-0 text-amber-300/70" aria-hidden="true" />
-            <span className="min-w-0 truncate">{t('about.thanks.dashboard')}</span>
+            <span className="min-w-0">{t('about.thanks.dashboard')}</span>
             <span aria-hidden="true" className="text-slate-700">
               ·
             </span>
@@ -115,7 +133,7 @@ export default function DashboardPage() {
         </section>
       }
     >
-      <div className="grid gap-6 lg:grid-cols-12">
+      <div className="grid gap-5 lg:grid-cols-12">
         {/* ─── Daily Focus, main card ─── */}
         <DailyFocusCard
           isLoading={manifestQuery.isLoading}
@@ -124,32 +142,11 @@ export default function DashboardPage() {
           spinKey={spinKey}
         />
 
-        {/* ─── Compact Stats Strip, single horizontal bar ─── */}
-        <section className="lg:col-span-12 animate-fadeIn">
-          <div className="flex flex-wrap items-center gap-x-6 gap-y-1.5 rounded-xl border border-white/[0.06] bg-slate-900/40 px-5 py-3">
-            <div>
-              <p className="text-[10px] font-semibold uppercase tracking-widest hallmark-text-tertiary">{t('dashboard.totalSkills')}</p>
-              <p className="mt-0.5 text-base font-bold hallmark-accent-text">{pipelineSkillCount}</p>
-            </div>
-            <div className="h-6 w-px bg-white/[0.06]" />
-            <div>
-              <p className="text-[10px] font-semibold uppercase tracking-widest hallmark-text-tertiary">{t('dashboard.safetyCritical')}</p>
-              <p className="mt-0.5 text-base font-bold text-rose-400">{pipelineSafetyCount}</p>
-            </div>
-            <div className="h-6 w-px bg-white/[0.06]" />
-            <div>
-              <p className="text-[10px] font-semibold uppercase tracking-widest hallmark-text-tertiary">{t('dashboard.lastUpdate')}</p>
-              <p className="mt-0.5 text-base font-semibold hallmark-text-secondary">{getBuildDate()}</p>
-            </div>
-          </div>
-        </section>
-
         {/* ─── What's New, compact update strip ─── */}
         <DashboardWhatsNew />
 
         {/* ─── Hub Explorer, full width ─── */}
         <DashboardHubExplorer />
-
       </div>
     </PageShell>
   )

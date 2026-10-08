@@ -39,11 +39,11 @@ export const DailyFocusCard = ({ isLoading, todayItem, onRefresh, spinKey }: Dai
     <section className="lg:col-span-12">
       {isLoading ? (
         /* ═══ Loading state ═══ */
-        <div className="relative block overflow-hidden rounded-[2.5rem] border bg-linear-to-br p-8 border-sky-400/20 bg-slate-900/50">
+        <div className="relative block overflow-hidden rounded-2xl border bg-linear-to-br p-5 border-sky-400/20 bg-slate-900/50 sm:p-6">
           <div className="absolute -right-24 -top-24 h-80 w-80 rounded-full bg-sky-400/5 blur-[100px]" />
 
           <div className="relative z-10">
-            <div className="mb-6 flex items-center gap-3">
+            <div className="mb-4 flex items-center gap-3">
               <Skeleton variant="card" className="!h-10 !w-10 !rounded-xl" />
               <Skeleton variant="card" className="!h-5 max-w-[180px] flex-1" />
               <button
@@ -79,7 +79,7 @@ export const DailyFocusCard = ({ isLoading, todayItem, onRefresh, spinKey }: Dai
           transition={{ duration: 0.3, ease: 'easeOut' }}
           whileHover={{ scale: 1.01 }}
           className={cn(
-            'group relative block overflow-hidden rounded-[2.5rem] border bg-linear-to-br p-8 transition-shadow duration-300 hover:shadow-2xl',
+            'group relative block overflow-hidden rounded-2xl border bg-linear-to-br p-5 transition-shadow duration-300 hover:shadow-2xl sm:p-6',
             cardGradient,
           )}
         >
@@ -93,7 +93,7 @@ export const DailyFocusCard = ({ isLoading, todayItem, onRefresh, spinKey }: Dai
             )} />
 
             <div className="relative z-10">
-              <div className="mb-6 flex items-center gap-3">
+              <div className="mb-4 flex items-center gap-3">
                 <motion.div
                   className="flex h-10 w-10 items-center justify-center rounded-xl bg-sky-400/10 text-sky-400"
                   whileHover={{ rotate: [0, -8, 8, 0], scale: 1.1 }}
@@ -120,7 +120,7 @@ export const DailyFocusCard = ({ isLoading, todayItem, onRefresh, spinKey }: Dai
                 initial={{ opacity: 0, y: 8 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.1 }}
-                className="text-2xl font-bold tracking-tight text-white lg:text-3xl"
+                className="text-xl font-bold tracking-tight text-white sm:text-2xl"
               >
                 {todayItem.title}
               </motion.h2>
@@ -128,7 +128,7 @@ export const DailyFocusCard = ({ isLoading, todayItem, onRefresh, spinKey }: Dai
                 initial={{ opacity: 0, y: 8 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.15 }}
-                className="mt-4 text-sm leading-relaxed text-slate-400 line-clamp-3"
+                className="mt-3 text-sm leading-relaxed text-slate-400 line-clamp-2"
               >
                 {todayItem.description}
               </motion.p>
@@ -137,7 +137,7 @@ export const DailyFocusCard = ({ isLoading, todayItem, onRefresh, spinKey }: Dai
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ delay: 0.2 }}
-                className="mt-6 flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-slate-500 transition-colors group-hover:text-white"
+                className="mt-4 flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-slate-500 transition-colors group-hover:text-white"
               >
                 <span>{t('common.open')}</span>
                 <ArrowRight className="h-3.5 w-3.5 transition-transform group-hover:translate-x-1" />
@@ -147,7 +147,7 @@ export const DailyFocusCard = ({ isLoading, todayItem, onRefresh, spinKey }: Dai
         </motion.div>
       ) : (
         /* ═══ Empty state ═══ */
-        <div className="flex h-full min-h-[280px] items-center justify-center rounded-[2.5rem] border border-white/[0.06] bg-slate-900/30">
+        <div className="flex h-full min-h-[200px] items-center justify-center rounded-2xl border border-white/[0.06] bg-slate-900/30">
           <div className="text-center">
             <Zap className="mx-auto h-8 w-8 text-slate-600" />
             <p className="mt-3 text-sm text-slate-500">{t('common.empty')}</p>
