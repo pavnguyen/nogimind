@@ -1149,8 +1149,8 @@ export const vi = {
     themes: ['inside position', 'positional hierarchy', 'dilemma', 'failure response', 'transition', 'feedback loop', 'safety'],
     thanks: {
       heading: 'Lời cảm ơn',
-      body: 'NoGi Mind được xây dựng với sự tôn trọng dành cho những người dạy và tập grappling hiện đại. Xin chân thành cảm ơn Guardian HCM và coach Jon TRAN vì sự hướng dẫn và đồng hành.',
-      dashboard: 'Xin chân thành cảm ơn Guardian HCM và coach Jon TRAN vì sự hướng dẫn và đồng hành.',
+      body: 'NoGi Mind được xây dựng với sự tôn trọng dành cho những người dạy và tập grappling hiện đại. Xin chân thành cảm ơn Guardian HCMC và coach Jon TRAN vì sự hướng dẫn và đồng hành.',
+      dashboard: 'Xin chân thành cảm ơn Guardian HCMC và coach Jon TRAN vì sự hướng dẫn và đồng hành.',
       more: 'Xem thêm',
     },
   },

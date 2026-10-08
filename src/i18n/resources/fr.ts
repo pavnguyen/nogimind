@@ -1142,7 +1142,7 @@ export const fr = {
     themes: ['inside position', 'hiérarchie positionnelle', 'dilemmes', 'failure response', 'transitions', 'feedback loop', 'sécurité'],
     thanks: {
       heading: 'Remerciements',
-      body: 'NoGi Mind est construit avec respect pour celles et ceux qui enseignent et pratiquent le grappling moderne. Nos sincères remerciements à Guardian HCM et au coach Jon TRAN pour leur accompagnement.',
+      body: 'NoGi Mind est construit avec respect pour celles et ceux qui enseignent et pratiquent le grappling moderne. Nos sincères remerciements à Guardian HCMC et au coach Jon TRAN pour leur accompagnement.',
       dashboard: 'Nos sincères remerciements à Guardian HCM et au coach Jon TRAN pour leur accompagnement.',
       more: 'En savoir plus',
     },

@@ -258,26 +258,26 @@ export default function StudyPage() {
               domainTone === 'slate' && 'bg-slate-400/5',
             )}
           />
-          <div className="relative z-10 flex flex-col gap-4 sm:flex-row sm:items-start sm:justify-between">
-            <div>
-              <div className="flex items-center gap-2">
-                <Badge tone={domainTone} className="px-2 py-0.5 text-[10px] uppercase tracking-widest">
+          <div className="relative z-10 flex flex-col gap-5 lg:flex-row lg:items-start lg:justify-between">
+            <div className="min-w-0 flex-1">
+              <div className="flex flex-wrap items-center gap-2">
+                <Badge tone={domainTone} className="shrink-0 whitespace-nowrap px-2 py-0.5 text-[10px] uppercase tracking-widest">
                   {t('nav.study')}
                 </Badge>
                 <span className="text-[11px] font-medium text-slate-500">
                   {t('studyPage.skillCount', { n: skillsByDomain[active]?.length ?? 0 })}
                 </span>
               </div>
-              <h1 className="mt-4 text-3xl font-bold tracking-tight text-white lg:text-4xl">
+              <h1 className="mt-3 text-2xl font-bold tracking-tight text-white sm:text-3xl lg:text-4xl">
                 {t(`modeUx.study.domains.${activeDomain.key}`)}
               </h1>
-              <p className="mt-3 max-w-2xl text-sm leading-relaxed text-slate-400 lg:text-base">
+              <p className="mt-2 max-w-2xl text-sm leading-relaxed text-slate-400 lg:text-base">
                 {t(`modeUx.study.domainBlurbs.${activeDomain.key}`)}
               </p>
             </div>
 
             {/* Toolbar */}
-            <div className="flex shrink-0 flex-wrap items-center gap-3">
+            <div className="flex flex-wrap items-center gap-2 lg:shrink-0 lg:justify-end">
               {/* Quick Study Toggle */}
               <button
                 type="button"
@@ -359,15 +359,13 @@ export default function StudyPage() {
                             <h2 className="truncate text-base font-bold text-white">
                               {getLocalizedText(skill.title, lang)}
                             </h2>
-                            {/* Richness indicator dots */}
-                            <div className="flex shrink-0 items-center gap-1">
-                              <span className="hidden text-[10px] font-medium text-slate-500 sm:inline">
-                                {richnessCount}/3
-                              </span>
-                              {hasChecklist && <div className="h-1.5 w-1.5 rounded-full bg-emerald-400" title={t('studyPage.hasQualityCheck')} />}
-                              {hasMicroDetails && <div className="h-1.5 w-1.5 rounded-full bg-amber-400" title={t('studyPage.hasMicroDetails')} />}
-                              {hasVideos && <div className="h-1.5 w-1.5 rounded-full bg-violet-400" title={t('studyPage.hasVideos')} />}
-                            </div>
+                            {/* Content depth indicator */}
+                            <span className="inline-flex shrink-0 items-center gap-1.5 rounded-full border border-white/[0.06] bg-white/[0.02] px-2 py-0.5 text-[10px] font-medium text-slate-500">
+                              <span className="tabular-nums">{richnessCount}/3</span>
+                              {hasChecklist && <span className="h-1.5 w-1.5 rounded-full bg-emerald-400" title={t('studyPage.hasQualityCheck')} />}
+                              {hasMicroDetails && <span className="h-1.5 w-1.5 rounded-full bg-amber-400" title={t('studyPage.hasMicroDetails')} />}
+                              {hasVideos && <span className="h-1.5 w-1.5 rounded-full bg-violet-400" title={t('studyPage.hasVideos')} />}
+                            </span>
                           </div>
                           <div className="flex shrink-0 items-center gap-2">
                             {isRecent && (
@@ -420,15 +418,13 @@ export default function StudyPage() {
                                 Tier {skill.libraryTier.slice(-1)}
                               </span>
                             )}
-                            {/* Richness indicator dots */}
-                            <div className="ml-auto flex items-center gap-1 sm:ml-2">
-                              <span className="mr-0.5 text-[10px] font-medium text-slate-600">
-                                {richnessCount}/3
-                              </span>
-                              {hasChecklist && <div className="h-1.5 w-1.5 rounded-full bg-emerald-400" title={t('studyPage.hasQualityCheck')} />}
-                              {hasMicroDetails && <div className="h-1.5 w-1.5 rounded-full bg-amber-400" title={t('studyPage.hasMicroDetails')} />}
-                              {hasVideos && <div className="h-1.5 w-1.5 rounded-full bg-violet-400" title={t('studyPage.hasVideos')} />}
-                            </div>
+                            {/* Content depth indicator */}
+                            <span className="ml-auto inline-flex shrink-0 items-center gap-1.5 rounded-full border border-white/[0.06] bg-white/[0.02] px-2 py-0.5 text-[10px] font-medium text-slate-500 sm:ml-2">
+                              <span className="tabular-nums">{richnessCount}/3</span>
+                              {hasChecklist && <span className="h-1.5 w-1.5 rounded-full bg-emerald-400" title={t('studyPage.hasQualityCheck')} />}
+                              {hasMicroDetails && <span className="h-1.5 w-1.5 rounded-full bg-amber-400" title={t('studyPage.hasMicroDetails')} />}
+                              {hasVideos && <span className="h-1.5 w-1.5 rounded-full bg-violet-400" title={t('studyPage.hasVideos')} />}
+                            </span>
                           </div>
 
                           <div className="flex items-center gap-3">

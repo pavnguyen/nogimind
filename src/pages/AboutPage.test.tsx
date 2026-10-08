@@ -31,13 +31,13 @@ describe('AboutPage', () => {
     expect(screen.getByText('about.safety')).toBeInTheDocument()
   })
 
-  it('links to Guardian HCM on Facebook and Instagram', () => {
+  it('links to Guardian HCMC on Facebook and Instagram', () => {
     renderPage()
-    expect(screen.getByRole('link', { name: /Guardian HCM · Facebook/ })).toHaveAttribute(
+    expect(screen.getByRole('link', { name: /Guardian HCMC · Facebook/ })).toHaveAttribute(
       'href',
       'https://www.facebook.com/profile.php?id=100087911966054',
     )
-    expect(screen.getByRole('link', { name: /Guardian HCM · Instagram/ })).toHaveAttribute(
+    expect(screen.getByRole('link', { name: /Guardian HCMC · Instagram/ })).toHaveAttribute(
       'href',
       'https://www.instagram.com/guardianhcmc/',
     )
