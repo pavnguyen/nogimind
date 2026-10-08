@@ -3,34 +3,34 @@
   "locale": "en",
   "name": "Hip Heist Wrestle-Up",
   "description": "The Hip Heist is an explosive wrestle-up from bottom Guard to stand up or take the back. It is the fastest way to go from Guard to a dominant standing position.",
-  "shortInstruction": "From open Guard, win the underhook, swing your outside leg back, post on your hand, and drive to your knees or standing. If they follow, circle behind for the back take.",
-  "summary": "The hip heist uses a hip rotation and leg swing to explosively transition from bottom Guard to a kneeling or standing position. It is the highest-speed wrestle-up because it converts your hip escape momentum directly into a stand-up. The hip heist is particularly effective against opponents who lean forward with heavy pressure — their forward momentum becomes the energy you use to stand.",
+  "shortInstruction": "From open Guard, win the underhook, swing your outside leg back, post on your hand, and drive to your knees or standing. If they follow, circle behind for the Back Take.",
+  "summary": "The hip heist uses a hip rotation and leg swing to explosively transition from bottom Guard to a kneeling or standing position. It is the highest-speed wrestle-up because it converts your hip escape momentum directly into a stand-up. The hip heist is particularly effective against opponents who lean forward with heavy pressure, their forward momentum becomes the energy you use to stand.",
   "whyItWorks": [
     "The hip rotation creates momentum that carries you to your knees without upper body strength",
     "The opponent's forward pressure (common in open Guard passing) provides the counter-force you need to elevate",
-    "The hip heist transitions to a back take if the opponent follows your movement",
+    "The hip heist transitions to a Back Take if the opponent follows your movement",
     "It is faster than a technical stand-up and requires less space"
   ],
   "commonMistakes": [
-    "Not winning the underhook before the hip heist — without the underhook, they flatten you as you rise",
-    "Swinging the leg too wide — the leg swing must be controlled to maintain balance",
-    "Stopping at the knees instead of driving to standing — the hip heist should bring you all the way up",
-    "Telegraphing the movement — the hip heist works best when it is explosive and unexpected"
+    "Not winning the underhook before the hip heist, without the underhook, they flatten you as you rise",
+    "Swinging the leg too wide, the leg swing must be controlled to maintain balance",
+    "Stopping at the knees instead of driving to standing, the hip heist should bring you all the way up",
+    "Telegraphing the movement, the hip heist works best when it is explosive and unexpected"
   ],
   "coachingCues": [
     "Underhook first, hip heist second",
     "Swing the leg, drive to standing",
-    "Follow them for the back take",
+    "Follow them for the Back Take",
     "Explosive or don't bother"
   ],
   "safetySummary": [
-    "The hip heist requires hip flexibility — do not force the leg swing if you feel hip strain",
+    "The hip heist requires hip flexibility, do not force the leg swing if you feel hip strain",
     "If you fail the hip heist and land flat, protect your head immediately and re-establish Guard",
-    "Be careful of knee strain when driving from the hip heist to the knees — warm up properly before explosive wrestle-ups"
+    "Be careful of knee strain when driving from the hip heist to the knees, warm up properly before explosive wrestle-ups"
   ],
   "keyCorrections": [
-    "If you cannot get to your knees: the leg swing was too short — swing the leg wider and drive harder",
-    "If they flatten you during the hip heist: the underhook was not deep enough — re-pummel and try again",
+    "If you cannot get to your knees: the leg swing was too short, swing the leg wider and drive harder",
+    "If they flatten you during the hip heist: the underhook was not deep enough, re-pummel and try again",
     "If you land in Side Control: you stopped at the knees instead of driving to standing"
   ],
   "systemLogic": {
@@ -50,7 +50,7 @@
       },
       {
         "condition": "In Phase 4 (Stand)",
-        "action": "drive through your posted foot and the underhook to standing. If they follow the movement, circle behind for the back take"
+        "action": "drive through your posted foot and the underhook to standing. If they follow the movement, circle behind for the Back Take"
       },
       {
         "condition": "the hip heist fails to standing",
@@ -59,13 +59,13 @@
     ]
   },
   "moneyDetails": [
-    "The hip heist is the fastest wrestle-up in BJJ — it converts Guard directly to a takedown position",
+    "The hip heist is the fastest wrestle-up in BJJ, it converts Guard directly to a takedown position",
     "Mastering the hip heist gives you a reliable stand-up from any open Guard position",
-    "The hip heist to back take is a high-value transition that scores 4 points (back take) in IBJJF"
+    "The hip heist to Back Take is a high-value transition that scores 4 points (Back Take) in IBJJF"
   ],
   "fixItFast": [
-    "If they pressure forward: use their momentum — hip heist in the direction they are pushing",
+    "If they pressure forward: use their momentum, hip heist in the direction they are pushing",
     "If they back away: stand up fully and re-engage from neutral",
-    "If they try to pass during the heist: switch to a technical stand-up — it is safer against aggressive passers"
+    "If they try to pass during the heist: switch to a technical stand-up, it is safer against aggressive passers"
   ]
 }

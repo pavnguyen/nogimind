@@ -12,6 +12,7 @@ import { useDefensiveLayersQuery } from '../queries/defenseQueries'
 import { useSettingsStore } from '../stores/useSettingsStore'
 import type { SafetyCategory } from '../types/defense'
 import { getLocalizedArray, getLocalizedText } from '../utils/localization'
+import { haystackIncludesQuery, normalizeSearchQuery } from '../utils/searchText'
 
 export default function DefensePage() {
   const { t } = useTranslation()
@@ -23,10 +24,9 @@ export default function DefensePage() {
   const category = safetyCategories.includes(searchParams.get('category') as SafetyCategory) ? (searchParams.get('category') as SafetyCategory) : ''
 
   const filtered = useMemo(() => {
-    const normalized = query.trim().toLowerCase()
+    const normalized = normalizeSearchQuery(query)
     return layers.filter((layer) => {
       if (category && layer.category !== category) return false
-      if (!normalized) return true
       const haystack = [
         getLocalizedText(layer.title, language),
         layer.title.en,
@@ -34,10 +34,8 @@ export default function DefensePage() {
         ...getLocalizedArray(layer.earlyDangerSignals, language),
         ...getLocalizedArray(layer.immediatePriorities, language),
         ...getLocalizedArray(layer.safeResponses, language),
-      ]
-        .join(' ')
-        .toLowerCase()
-      return haystack.includes(normalized)
+      ].join(' ')
+      return haystackIncludesQuery(haystack, normalized)
     })
   }, [category, language, layers, query])
 

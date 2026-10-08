@@ -90,7 +90,7 @@ export const Sidebar = () => {
 
       {/* Hub Navigation */}
       <nav ref={navRef} className="relative flex-1 space-y-0.5 overflow-y-auto px-2 py-3">
-        {/* Sliding pill indicator — framer-motion spring */}
+        {/* Sliding pill indicator, framer-motion spring */}
         <motion.div
           className={cn(
             'pointer-events-none absolute z-0',
@@ -131,7 +131,7 @@ export const Sidebar = () => {
 
             return (
               <div key={hub.hub}>
-                {/* Hub header — click to navigate, chevron to toggle */}
+                {/* Hub header, click to navigate, chevron to toggle */}
                 <div className="group flex items-center">
                   <NavLink
                     to={hub.to}

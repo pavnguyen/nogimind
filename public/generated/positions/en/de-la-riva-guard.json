@@ -1,5 +1,5 @@
 {
-  "id": "de-la-riva-Guard",
+  "id": "de-la-riva-guard",
   "locale": "en",
   "title": "De La Riva Guard",
   "category": "bottom_guard",
@@ -16,23 +16,23 @@
     "Recognize danger signals early instead of waiting for the position to settle."
   ],
   "controlPoints": [
-    "Main control point: Inside thigh hook, sleeve grip, and far hip..",
+    "Main control point: Inside thigh hook, sleeve grip, and far hip.",
     "Head, hands, hips, and knees should share the same force direction.",
     "The elbow-knee connection or hip-shoulder line determines whether the position is still alive or already locked."
   ],
   "escapePriorities": [
-    "Escape priority: Do not let the inside thigh hook lock the knee line..",
+    "Escape priority: Do not let the inside thigh hook lock the knee line.",
     "Protect the neck, back, knee line, or arm line before countering.",
     "If inside position is lost, reset one defensive layer first."
   ],
   "advancementOptions": [
     {
       "action": "Transition to X-Guard or single leg X",
-      "nextPositionId": "x-Guard-position",
+      "nextPositionId": "x-guard-position",
       "relatedSkillIds": [
         "de-la-riva-sweeps",
         "de-la-riva-back-take",
-        "x-Guard-control"
+        "x-guard-control"
       ],
       "why": "This is the natural branch when you win the main control point and the opponent is forced to defend."
     }
@@ -46,13 +46,13 @@
   "relatedSkillIds": [
     "de-la-riva-sweeps",
     "de-la-riva-back-take",
-    "x-Guard-control",
+    "x-guard-control",
     "single-leg-x-control",
-    "Guard-pulling-strategy"
+    "guard-pulling-strategy"
   ],
   "relatedConceptIds": [
     "hooks",
-    "Guard-retention-layers",
+    "guard-retention-layers",
     "angle-creation"
   ]
 }

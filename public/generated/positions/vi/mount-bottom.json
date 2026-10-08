@@ -1,5 +1,5 @@
 {
-  "id": "Mount-bottom",
+  "id": "mount-bottom",
   "locale": "vi",
   "title": "Mount Dưới",
   "category": "pin",
@@ -16,23 +16,23 @@
     "Nhận diện tín hiệu nguy hiểm sớm thay vì chờ vị trí ổn định."
   ],
   "controlPoints": [
-    "Điểm kiểm soát chính: Khuỷu tay sát, gối hoạt động và cằm an toàn..",
+    "Điểm kiểm soát chính: Khuỷu tay sát, gối hoạt động và cằm an toàn.",
     "Đầu, tay, hông và gối nên cùng hướng lực.",
     "Kết nối khuỷu-gối hoặc đường hông-vai quyết định vị trí còn sống hay đã bị khóa."
   ],
   "escapePriorities": [
-    "Ưu tiên thoát: Không đẩy ngực đối thủ bằng tay thẳng..",
+    "Ưu tiên thoát: Không đẩy ngực đối thủ bằng tay thẳng.",
     "Bảo vệ cổ, lưng, đường gối hoặc đường tay trước khi phản công.",
     "Nếu mất vị trí trong, hãy lùi lại một lớp phòng thủ trước."
   ],
   "advancementOptions": [
     {
       "action": "Recover Half Guard hoặc quarter Guard",
-      "nextPositionId": "half-Guard-bottom",
+      "nextPositionId": "half-guard-bottom",
       "relatedSkillIds": [
-        "Mount-survival",
-        "Mount-escape",
-        "half-Guard-knee-shield"
+        "mount-survival",
+        "mount-escape",
+        "half-guard-knee-shield"
       ],
       "why": "Đây là nhánh tự nhiên khi bạn thắng điểm kiểm soát chính và đối thủ buộc phải phòng thủ."
     }
@@ -44,9 +44,9 @@
     "Bạn phải chống tay dài để không ngã."
   ],
   "relatedSkillIds": [
-    "Mount-survival",
-    "Mount-escape",
-    "half-Guard-knee-shield"
+    "mount-survival",
+    "mount-escape",
+    "half-guard-knee-shield"
   ],
   "relatedConceptIds": [
     "early-vs-late-defense",

@@ -40,14 +40,14 @@ export const Layout = () => {
       const tag = (event.target as HTMLElement)?.tagName
       const isEditable = tag === 'INPUT' || tag === 'TEXTAREA' || tag === 'SELECT'
 
-      // ? — Toggle shortcuts overlay (even when editing)
+      // ? - Toggle shortcuts overlay (even when editing)
       if (event.key === '?' && !event.metaKey && !event.ctrlKey) {
         event.preventDefault()
         toggleShortcuts()
         return
       }
 
-      // Esc — Close overlay
+      // Esc - Close overlay
       if (event.key === 'Escape') {
         setShortcuts(false)
         return
@@ -74,7 +74,7 @@ export const Layout = () => {
         return
       }
 
-      // Not a chord key — reset buffer
+      // Not a chord key, reset buffer
       chordBuffer = []
     }
 

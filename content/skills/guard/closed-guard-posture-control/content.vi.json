@@ -3,14 +3,14 @@
   "locale": "vi",
   "name": "Closed Guard Kiểm soát tư thế",
   "description": "Phá vỡ và kiểm soát tư thế của đối thủ trong Closed Guard bằng cách sử dụng lực căng chân, đánh tay và câu hông để thực hiện các mục quét hoặc khuất phục.",
-  "shortInstruction": "Kéo chân, tay bẻ tay, hông cắt góc — tư thế là chìa khóa cho tất cả các đòn tấn công Closed Guard.",
+  "shortInstruction": "Kéo chân, tay bẻ tay, hông cắt góc, tư thế là chìa khóa cho tất cả các đòn tấn công Closed Guard.",
   "summary": "Closed Guard chỉ có tác dụng khi thế trận của đối phương bị phá vỡ. Đối thủ trong tư thế có thể đứng, chuyền hoặc tấn công (trong MMA). Mục tiêu chính của bạn là ngăn chúng ngồi thẳng bằng cách dùng sức căng của chân để kéo trọng lượng của chúng lên bạn, đánh tay để phá vỡ khung phòng thủ của chúng và góc hông để làm chúng mất thăng bằng. Nếu không kiểm soát tư thế, bạn sẽ không phạm tội từ Closed Guard.",
   "whyItWorks": [
     "Đối thủ trong tư thế có toàn bộ khả năng di chuyển của cánh tay và cơ sở - phá vỡ tư thế của họ sẽ vô hiệu hóa cả hai.",
     "Chân bị căng quanh lưng khiến họ không thể ngồi dậy; họ phải chiến đấu chống lại sức mạnh của chân bạn để lấy lại tư thế.",
     "Chiến đấu bằng tay tước bỏ các chốt phòng thủ của họ (cà vạt cổ áo, kẹp tay áo, kẹp thắt lưng) giúp giữ cho họ ở tư thế.",
     "Cắt một góc (hông sang một bên) sẽ di chuyển căn cứ của họ ngoại tuyến, khiến chúng dễ bị quét và khuất phục.",
-    "Nguyên tắc Danaher: Guard là một vị trí tấn công, không phải vị trí phòng thủ — kiểm soát tư thế là bước đầu tiên của mọi cuộc tấn công."
+    "Nguyên tắc Danaher: Guard là một vị trí tấn công, không phải vị trí phòng thủ, kiểm soát tư thế là bước đầu tiên của mọi cuộc tấn công."
   ],
   "commonMistakes": [
     "Kéo bằng chân nhưng không dùng tay - nếu không chiến đấu bằng tay, chúng có thể bám vào hông bạn và điều chỉnh lại tư thế.",
@@ -30,7 +30,7 @@
     "Đừng giữ tư thế gãy quá lâu mà không tấn công - bạn sẽ mỏi chân."
   ],
   "systemLogic": {
-    "corePrinciple": "Closed Guard chỉ có tác dụng khi thế trận của đối phương bị phá vỡ. Đối thủ có tư thế có toàn bộ khả năng di chuyển của cánh tay và cơ sở. Mục tiêu của bạn là sử dụng sức căng của chân, chiến đấu bằng tay và góc hông để ngăn họ ngồi thẳng — nếu không kiểm soát tư thế, bạn không phạm tội Closed Guard.",
+    "corePrinciple": "Closed Guard chỉ có tác dụng khi thế trận của đối phương bị phá vỡ. Đối thủ có tư thế có toàn bộ khả năng di chuyển của cánh tay và cơ sở. Mục tiêu của bạn là sử dụng sức căng của chân, chiến đấu bằng tay và góc hông để ngăn họ ngồi thẳng, nếu không kiểm soát tư thế, bạn không phạm tội Closed Guard.",
     "decisionTree": [
       {
         "condition": "Đối thủ phá vỡ Closed Guard của bạn và bắt đầu đứng dậy",
@@ -65,7 +65,7 @@
     "Khi họ cố gắng bám vào hông bạn, hãy bơi tay bạn vào trong khuỷu tay của họ và đập mạnh trở lại cổ áo của họ.",
     "Thời điểm nguy hiểm nhất để tấn công là khi chúng đang tích cực cố gắng tạo tư thế - dùng sức lực để chống lại chúng."
   ],
-  "nextStep": "Sau khi thành thạo việc kiểm soát tư thế, hãy học Closed Guard động tác quét (đập hông, cắt kéo, hoa) và khuất phục (triangle, armbar).",
+  "nextStep": "Sau khi thành thạo việc kiểm soát tư thế, hãy học Closed Guard động tác quét (đập hông, cắt kéo, hoa) và khuất phục (Triangle, Armbar).",
   "fixItFast": [
     "Họ cứ làm ra vẻ thế à? Chuyển sang tư thế Guard cao (đặt chân lên hông) để hạ gục họ dễ dàng hơn.",
     "Họ có đai cầm à? Leo chân lên cao hơn và siết chặt - lực bám của chúng sẽ yếu đi.",

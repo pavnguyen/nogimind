@@ -16,12 +16,12 @@
     "Recognize danger signals early instead of waiting for the position to settle."
   ],
   "controlPoints": [
-    "Main control point: Underhook depth, head-to-ribs connection, and knee base..",
+    "Main control point: Underhook depth, head-to-ribs connection, and knee base.",
     "Head, hands, hips, and knees should share the same force direction.",
     "The elbow-knee connection or hip-shoulder line determines whether the position is still alive or already locked."
   ],
   "escapePriorities": [
-    "Escape priority: Protect the neck if your head is pulled down..",
+    "Escape priority: Protect the neck if your head is pulled down.",
     "Protect the neck, back, knee line, or arm line before countering.",
     "If inside position is lost, reset one defensive layer first."
   ],
@@ -30,7 +30,7 @@
       "action": "Finish the single leg or mat return",
       "nextPositionId": "neutral-standing",
       "relatedSkillIds": [
-        "half-Guard-wrestle-up",
+        "half-guard-wrestle-up",
         "single-leg-bjj",
         "mat-return-basics"
       ],
@@ -44,7 +44,7 @@
     "You need a long hand post to avoid falling."
   ],
   "relatedSkillIds": [
-    "half-Guard-wrestle-up",
+    "half-guard-wrestle-up",
     "single-leg-bjj",
     "mat-return-basics"
   ],

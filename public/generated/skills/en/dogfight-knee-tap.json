@@ -51,9 +51,9 @@
   "nextSkillIds": [],
   "searchBoost": 1,
   "keyCorrections": [
-    "If they do not fall: you did not pull them forward enough — increase the forward pull with the underhook",
-    "If they step over your head: your head position was too low — keep your head at their shoulder level",
-    "If they sprawl on you: switch to the single leg — your underhook gives you the single leg entry"
+    "If they do not fall: you did not pull them forward enough, increase the forward pull with the underhook",
+    "If they step over your head: your head position was too low, keep your head at their shoulder level",
+    "If they sprawl on you: switch to the single leg, your underhook gives you the single leg entry"
   ],
   "version": 1,
   "updatedAt": "2026-05-21T00:24:30.779Z",
@@ -67,20 +67,20 @@
     "hasStateMachine": false
   },
   "locale": "en",
-  "description": "From dogfight, the knee tap uses underhook and head position to take the opponent down. The dogfight is the most common wrestling-up position from Half Guard bottom.",
-  "shortInstruction": "From dogfight, circle your outside knee across their back, use the underhook to pull them forward, and tap their far knee with your free hand to take them down.",
-  "summary": "The dogfight knee tap is the highest-percentage sweep from the dogfight position (underhook Half Guard). From dogfight, you use your underhook to pull the opponent forward while tapping their far knee with your free hand. Their forward momentum combined with the knee tap removes their base and tips them to the mat. The knee tap transitions directly to Side Control or Front Headlock.",
+  "description": "From Dogfight, the knee tap uses underhook and head position to take the opponent down. The Dogfight is the most common wrestling-up position from Half Guard bottom.",
+  "shortInstruction": "From Dogfight, circle your outside knee across their back, use the underhook to pull them forward, and tap their far knee with your free hand to take them down.",
+  "summary": "The Dogfight knee tap is the highest-percentage sweep from the Dogfight position (underhook Half Guard). From Dogfight, you use your underhook to pull the opponent forward while tapping their far knee with your free hand. Their forward momentum combined with the knee tap removes their base and tips them to the mat. The knee tap transitions directly to Side Control or Front Headlock.",
   "whyItWorks": [
-    "The underhook in dogfight gives you control of their upper body — you can pull them forward, off-balancing them",
-    "Tapping the far knee removes their rear base point — they cannot step back to recover balance",
+    "The underhook in Dogfight gives you control of their upper body, you can pull them forward, off-balancing them",
+    "Tapping the far knee removes their rear base point, they cannot step back to recover balance",
     "The combination of forward pull (underhook) and rear base removal (knee tap) creates an unsolvable balance problem",
-    "The knee tap is safe from guillotines because your head is on the outside (cheek to their shoulder)"
+    "The knee tap is safe from Guillotines because your head is on the outside (cheek to their shoulder)"
   ],
   "commonMistakes": [
-    "Not pulling them forward enough before tapping the knee — the knee tap alone does not cause the takedown",
-    "Tapping the near knee instead of the far knee — the near knee tap does not remove their base",
-    "Staying too low in the dogfight — stand up to create the angle for the knee tap",
-    "Releasing the underhook during the knee tap — maintain underhook control throughout"
+    "Not pulling them forward enough before tapping the knee, the knee tap alone does not cause the takedown",
+    "Tapping the near knee instead of the far knee, the near knee tap does not remove their base",
+    "Staying too low in the Dogfight, stand up to create the angle for the knee tap",
+    "Releasing the underhook during the knee tap, maintain underhook control throughout"
   ],
   "coachingCues": [
     "Pull forward, then tap the knee",
@@ -89,16 +89,16 @@
     "Stand tall, then tap"
   ],
   "safetySummary": [
-    "The knee tap is a low-impact sweep — the opponent lands on their hip, not their head or neck",
+    "The knee tap is a low-impact sweep, the opponent lands on their hip, not their head or neck",
     "Do not hyperextend your knee by posting it too far across their back",
     "If the opponent resists the knee tap by stepping back, be ready to circle to the single leg instead"
   ],
   "systemLogic": {
-    "corePrinciple": "The dogfight knee tap is part of a larger dogfight system: Knee Tap → Single Leg → Re-Guard",
+    "corePrinciple": "The Dogfight knee tap is part of a larger Dogfight system: Knee Tap → Single Leg → Re-Guard",
     "decisionTree": [
       {
         "condition": "Using Option 1 (Knee Tap)",
-        "action": "drive your inside knee to the mat and reach for their far ankle. The knee tap is your primary takedown from the dogfight position"
+        "action": "drive your inside knee to the mat and reach for their far ankle. The knee tap is your primary takedown from the Dogfight position"
       },
       {
         "condition": "Using Option 2 (Single Leg)",
@@ -110,14 +110,14 @@
       },
       {
         "condition": "General application",
-        "action": "The dogfight position is inherently unstable — commit to one option quickly rather than pausing"
+        "action": "The Dogfight position is inherently unstable, commit to one option quickly rather than pausing"
       }
     ],
     "exitStrategies": []
   },
   "moneyDetails": [
-    "The dogfight knee tap is the most common sweep from Half Guard bottom in no-gi — it works at every level",
-    "Mastering the dogfight knee tap gives you a reliable path from Half Guard to top position",
+    "The Dogfight knee tap is the most common sweep from Half Guard bottom in no-gi, it works at every level",
+    "Mastering the Dogfight knee tap gives you a reliable path from Half Guard to top position",
     "Knee tap to Side Control scores 2 points (sweep) in IBJJF"
   ],
   "fixItFast": [

@@ -59,18 +59,18 @@
     "hasStateMachine": false
   },
   "locale": "en",
-  "description": "The plan for when a technique fails: change angle, change grip, change position, or retreat safely. Every technique fails eventually — the grappler with a pre-planned failure response wins more matches than the one who freezes.",
+  "description": "The plan for when a technique fails: change angle, change grip, change position, or retreat safely. Every technique fails eventually, the grappler with a pre-planned failure response wins more matches than the one who freezes.",
   "shortInstruction": "When a technique fails, follow the sequence: change the angle first, change the grip second, change the position third, and retreat safely only as a last resort.",
-  "summary": "Failure response is a structured decision tree for when Technique A does not work. The system has four escalating responses: (1) angle adjustment — shift your body 10-30 degrees without changing the technique, (2) grip adjustment — change where or how you hold the opponent, (3) position change — move to a different position while maintaining the same attack theme, (4) safe retreat — disengage and reset to neutral. The key principle is to exhaust options 1-3 before accepting option 4.",
+  "summary": "Failure response is a structured decision tree for when Technique A does not work. The system has four escalating responses: (1) angle adjustment, shift your body 10-30 degrees without changing the technique, (2) grip adjustment, change where or how you hold the opponent, (3) position change, move to a different position while maintaining the same attack theme, (4) safe retreat, disengage and reset to neutral. The key principle is to exhaust options 1-3 before accepting option 4.",
   "whyItWorks": [
-    "Most technique failures are caused by a minor misalignment of angles or grips — adjusting 10-30 degrees often makes the same technique work without changing it",
-    "Changing the grip (e.g., pocket grip to kimura grip, collar tie to overhook) alters the mechanical leverage without requiring a new position entry",
-    "Having a pre-planned failure response eliminates hesitation — the grappler who knows what to do when technique A fails is always one step ahead",
+    "Most technique failures are caused by a minor misalignment of angles or grips, adjusting 10-30 degrees often makes the same technique work without changing it",
+    "Changing the grip (e.g., pocket grip to Kimura grip, collar tie to overhook) alters the mechanical leverage without requiring a new position entry",
+    "Having a pre-planned failure response eliminates hesitation, the grappler who knows what to do when technique A fails is always one step ahead",
     "Retreat safely should be the last resort because retreating gives the opponent time to reset their own defense and attack"
   ],
   "commonMistakes": [
-    "Freezing when a technique fails — hesitation gives the opponent time to counter-attack or escape entirely",
-    "Repeating the same failed technique with more force — if it did not work with good technique, more force will not make it work",
+    "Freezing when a technique fails, hesitation gives the opponent time to counter-attack or escape entirely",
+    "Repeating the same failed technique with more force, if it did not work with good technique, more force will not make it work",
     "Skipping directly to position change or retreat without trying angle and grip adjustments first",
     "Retreating without safety (exposing the back or leaving a limb vulnerable to counters)"
   ],
@@ -81,8 +81,8 @@
     "Retreat with structure, not panic"
   ],
   "safetySummary": [
-    "Do not force a failed technique — repeating a submission attempt that is well-defended increases injury risk for both partners",
-    "When retreating from a failed attack, protect your neck and limbs — the opponent will counter-attack as you disengage",
+    "Do not force a failed technique, repeating a submission attempt that is well-defended increases injury risk for both partners",
+    "When retreating from a failed attack, protect your neck and limbs, the opponent will counter-attack as you disengage",
     "If you feel joint pressure during a failed submission attempt, release immediately and reset rather than fighting the wrong angle"
   ],
   "systemLogic": {
@@ -98,7 +98,7 @@
       },
       {
         "condition": "At Level 3 (Position)",
-        "action": "move to a different position while keeping the same attack theme. Examples: if triangle fails from Closed Guard, move to armbar from the same Guard entry. If single leg fails, move to body lock. Position changes preserve the work you already did to break their structure"
+        "action": "move to a different position while keeping the same attack theme. Examples: if Triangle fails from Closed Guard, move to Armbar from the same Guard entry. If single leg fails, move to Body Lock. Position changes preserve the work you already did to break their structure"
       },
       {
         "condition": "At Level 4 (Retreat)",
@@ -112,13 +112,13 @@
     "exitStrategies": []
   },
   "moneyDetails": [
-    "A structured failure response system separates advanced grapplers from intermediates — the best in the world never 'fail', they just transition to the next attack",
+    "A structured failure response system separates advanced grapplers from intermediates, the best in the world never 'fail', they just transition to the next attack",
     "The ability to chain failures into new attacks is more valuable than any single technique because it guarantees you are always threatening something",
-    "Gordon Ryan's most dangerous quality is not his finishing percentage — it is that he never stops attacking even when the first technique fails"
+    "Gordon Ryan's most dangerous quality is not his finishing percentage, it is that he never stops attacking even when the first technique fails"
   ],
   "fixItFast": [
     "If you are stuck repeating the same failed attack: stop, frame, reset your grip, and try a different angle. If it still fails, change the technique entirely",
-    "If the opponent keeps countering your transitions: you are being predictable. Mix in a fake retreat — back off slightly and catch them following you",
+    "If the opponent keeps countering your transitions: you are being predictable. Mix in a fake retreat, back off slightly and catch them following you",
     "If you are losing position after a failed attack: you committed too fully. Keep your base 70% committed to the attack, 30% committed to the transition"
   ]
 }

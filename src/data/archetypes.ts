@@ -64,9 +64,9 @@ export const archetypes: GrapplingArchetype[] = [
     id: 'pressure-passer',
     title: lt('Pressure passer', 'Pressure Passer', 'Passeur pression'),
     shortDescription: lt(
-      'Ưu tiên bodylock, headquarters và knee cut để khóa hip line trước khi vượt chân.',
-      'Prioritizes bodylock, headquarters, and knee cut passing to lock the hip line before clearing legs.',
-      'Priorise bodylock, headquarters et knee cut pour verrouiller la hip line avant de passer les jambes.',
+      'Ưu tiên Bodylock, headquarters và Knee Cut để khóa hip line trước khi vượt chân.',
+      'Prioritizes Bodylock, headquarters, and Knee Cut passing to lock the hip line before clearing legs.',
+      'Priorise Bodylock, headquarters et Knee Cut pour verrouiller la hip line avant de passer les jambes.',
     ),
     philosophy: lt(
       'Passing không phải chạy quanh chân; đó là lấy đi khả năng xoay hông, frame và đưa gối vào lại. Pressure đi chéo qua chest, shoulder và head position.',
@@ -79,23 +79,23 @@ export const archetypes: GrapplingArchetype[] = [
       ['Ceux qui aiment top control et tempo solide.', 'Ceux qui veulent connecter pass et pin.', 'Ceux qui peuvent presser sans trop s’engager.'],
     ),
     notIdealFor: la(
-      ['Người chưa hiểu leg lock safety khi vào close range.', 'Người hay để đầu giữa hai tay đối thủ.', 'Người chỉ muốn outside movement nhanh.'],
-      ['Players without leg lock safety in close range.', 'Players who center their head between the opponent’s arms.', 'Players who only want fast outside movement.'],
-      ['Ceux sans sécurité leg lock en close range.', 'Ceux qui centrent la tête entre les bras adverses.', 'Ceux qui veulent seulement mouvement outside rapide.'],
+      ['Người chưa hiểu Leg Lock safety khi vào close range.', 'Người hay để đầu giữa hai tay đối thủ.', 'Người chỉ muốn outside movement nhanh.'],
+      ['Players without Leg Lock safety in close range.', 'Players who center their head between the opponent’s arms.', 'Players who only want fast outside movement.'],
+      ['Ceux sans sécurité Leg Lock en close range.', 'Ceux qui centrent la tête entre les bras adverses.', 'Ceux qui veulent seulement mouvement outside rapide.'],
     ),
     coreConceptIds: ['connection-before-control', 'pressure-direction', 'inside-position', 'wedges', 'positional-hierarchy'],
     coreSkillIds: ['bodylock-passing', 'headquarters-passing', 'knee-cut-passing', 'side-control-pin', 'Mount-control', 'arm-triangle-Mount'],
     supportSkillIds: ['hand-fighting', 'leg-drag-basics', 'outside-passing', 'mat-return-basics', 'back-control', 'toreando-passing', 'tripod-folding-pass', 'over-under-pass'],
     requiredDefensiveSkillIds: ['leg-lock-safety-basics', 'heel-hook-safety', 'front-headlock-defense', 'scramble-control'],
     commonWeaknesses: la(
-      ['Bị butterfly lift vì weight quá cao.', 'Bị shoulder crunch vì đầu nằm giữa.', 'Clear knee line rồi thả control quá sớm.', 'Đè thẳng xuống thay vì pressure chéo.'],
+      ['Bị butterfly lift vì weight quá cao.', 'Bị Shoulder Crunch vì đầu nằm giữa.', 'Clear knee line rồi thả control quá sớm.', 'Đè thẳng xuống thay vì pressure chéo.'],
       ['Getting butterfly lifted because weight is too high.', 'Getting shoulder-crunched because the head is centered.', 'Releasing control too early after clearing the knee line.', 'Driving straight down instead of diagonal pressure.'],
-      ['Se faire lever par butterfly car poids trop haut.', 'Subir shoulder crunch car tête centrée.', 'Relâcher trop tôt après avoir passé knee line.', 'Presser droit vers le bas au lieu de diagonale.'],
+      ['Se faire lever par butterfly car poids trop haut.', 'Subir Shoulder Crunch car tête centrée.', 'Relâcher trop tôt après avoir passé knee line.', 'Presser droit vers le bas au lieu de diagonale.'],
     ),
     trainingPriorities: la(
-      ['Tập bodylock với mục tiêu giết hook trước khi pass.', 'Headquarters rounds: passer chỉ được qua khi kiểm soát hip line.', 'Sau mỗi pass phải giữ Side Control 10 giây.', 'Review lại bị recover Guard bằng knee shield hay underhook.'],
-      ['Train bodylock with the goal of killing hooks before passing.', 'Headquarters rounds where the passer can score only after hip-line control.', 'After every pass, hold Side Control for ten seconds.', 'Review whether Guard recovery came from knee shield or underhook.'],
-      ['Travailler bodylock en tuant hooks avant passer.', 'Rounds headquarters avec score seulement après contrôle hip line.', 'Après chaque pass, tenir Side Control dix secondes.', 'Voir si la récupération vient knee shield ou underhook.'],
+      ['Tập Bodylock với mục tiêu giết hook trước khi pass.', 'Headquarters rounds: passer chỉ được qua khi kiểm soát hip line.', 'Sau mỗi pass phải giữ Side Control 10 giây.', 'Review lại bị recover Guard bằng knee shield hay underhook.'],
+      ['Train Bodylock with the goal of killing hooks before passing.', 'Headquarters rounds where the passer can score only after hip-line control.', 'After every pass, hold Side Control for ten seconds.', 'Review whether Guard recovery came from knee shield or underhook.'],
+      ['Travailler Bodylock en tuant hooks avant passer.', 'Rounds headquarters avec score seulement après contrôle hip line.', 'Après chaque pass, tenir Side Control dix secondes.', 'Voir si la récupération vient knee shield ou underhook.'],
     ),
   }),
   archetype({
@@ -112,13 +112,13 @@ export const archetypes: GrapplingArchetype[] = [
       'Un bon Front Headlock n’est pas juste serrer le cou. Il contrôle tête, elbow line et angle de hanches pour forcer défense du cou, go-behind ou posture.',
     ),
     bestFor: la(
-      ['Người thích wrestling ties và snapdown.', 'Người muốn submission threat nối với back take.', 'Người phản ứng tốt trong scramble đầu-cổ.'],
-      ['Players who like wrestling ties and snapdowns.', 'Players who want submission threats connected to back takes.', 'Players who react well in head-and-neck scrambles.'],
-      ['Ceux qui aiment ties de lutte et snapdowns.', 'Ceux qui veulent connecter soumission et back take.', 'Ceux qui réagissent bien dans scrambles tête-cou.'],
+      ['Người thích wrestling ties và snapdown.', 'Người muốn submission threat nối với Back Take.', 'Người phản ứng tốt trong scramble đầu-cổ.'],
+      ['Players who like wrestling ties and snapdowns.', 'Players who want submission threats connected to Back Takes.', 'Players who react well in head-and-neck scrambles.'],
+      ['Ceux qui aiment ties de lutte et snapdowns.', 'Ceux qui veulent connecter soumission et Back Take.', 'Ceux qui réagissent bien dans scrambles tête-cou.'],
     ),
     notIdealFor: la(
       ['Người không kiểm soát lực cổ an toàn.', 'Người giữ Guillotine quá lâu sau khi mất angle.', 'Người chưa có back control follow-up.'],
-      ['Players who cannot control neck pressure safely.', 'Players who hold guillotines too long after losing angle.', 'Players without back-control follow-up.'],
+      ['Players who cannot control neck pressure safely.', 'Players who hold Guillotines too long after losing angle.', 'Players without back-control follow-up.'],
       ['Ceux qui contrôlent mal la pression du cou.', 'Ceux qui gardent Guillotine trop longtemps après perte angle.', 'Ceux sans follow-up back control.'],
     ),
     coreConceptIds: ['head-position', 'dilemma-attacks', 'control-before-submission', 'early-vs-late-defense', 'failure-response'],
@@ -150,9 +150,9 @@ export const archetypes: GrapplingArchetype[] = [
       'Back control relie hiérarchie et soumission. Ce joueur ne chasse pas le cou d’abord; il verrouille shoulder line, hooks et hand fight avant le strangle.',
     ),
     bestFor: la(
-      ['Người kiên nhẫn trong control.', 'Người thích submission có xác suất cao.', 'Người muốn chuyển turtle, Mount và scramble thành back takes.'],
-      ['Patient control players.', 'Players who prefer high-percentage submissions.', 'Players who want turtle, Mount, and scrambles to become back takes.'],
-      ['Joueurs patients en contrôle.', 'Ceux qui aiment soumissions haute probabilité.', 'Ceux qui transforment turtle, Mount et scrambles en back takes.'],
+      ['Người kiên nhẫn trong control.', 'Người thích submission có xác suất cao.', 'Người muốn chuyển Turtle, Mount và scramble thành Back Takes.'],
+      ['Patient control players.', 'Players who prefer high-percentage submissions.', 'Players who want Turtle, Mount, and scrambles to become Back Takes.'],
+      ['Joueurs patients en contrôle.', 'Ceux qui aiment soumissions haute probabilité.', 'Ceux qui transforment Turtle, Mount et scrambles en Back Takes.'],
     ),
     notIdealFor: la(
       ['Người squeeze RNC trước khi thắng hand fight.', 'Người dễ mất hook khi đối thủ xoay vai.', 'Người thiếu Mount transition khi mất lưng.'],
@@ -165,8 +165,8 @@ export const archetypes: GrapplingArchetype[] = [
     requiredDefensiveSkillIds: ['back-survival', 'back-escape', 'Mount-survival'],
     commonWeaknesses: la(
       ['Đuổi choke khi chest-to-back mất.', 'Không recover top hook trước khi đối thủ đặt vai xuống thảm.', 'Hand fight sai thứ tự.', 'Body triangle/hook quá cứng làm mất transition.'],
-      ['Chasing the choke after chest-to-back is lost.', 'Not recovering the top hook before the opponent gets shoulders to the mat.', 'Hand fighting in the wrong order.', 'Using hooks or body triangle so rigidly that transitions disappear.'],
-      ['Chasser choke après perte chest-to-back.', 'Ne pas récupérer top hook avant épaules au sol.', 'Mauvais ordre de hand fight.', 'Hooks/body triangle trop rigides qui bloquent transitions.'],
+      ['Chasing the choke after chest-to-back is lost.', 'Not recovering the top hook before the opponent gets shoulders to the mat.', 'Hand fighting in the wrong order.', 'Using hooks or Body Triangle so rigidly that transitions disappear.'],
+      ['Chasser choke après perte chest-to-back.', 'Ne pas récupérer top hook avant épaules au sol.', 'Mauvais ordre de hand fight.', 'Hooks/Body Triangle trop rigides qui bloquent transitions.'],
     ),
     trainingPriorities: la(
       ['Back retention round: chỉ tính điểm nếu giữ lưng sau escape attempt.', 'Hand fight sequence trước mọi RNC drill.', 'Tập mất lưng chuyển Mount thay vì squeeze muộn.', 'Ghi lại cách đối thủ thoát: clear hook, shoulder mat hay peel hand.'],
@@ -176,7 +176,7 @@ export const archetypes: GrapplingArchetype[] = [
   }),
   archetype({
     id: 'leg-lock-safety-first',
-    title: lt('An toàn leg lock trước tiên', 'Leg Lock Safety First', 'Sécurité leg lock d’abord'),
+    title: lt('An toàn Leg Lock trước tiên', 'Leg Lock Safety First', 'Sécurité Leg Lock d’abord'),
     shortDescription: lt(
       'Ưu tiên nhận diện knee line, heel exposure và tap timing trước khi tấn công chân.',
       'Prioritizes knee-line recognition, heel exposure, and tap timing before leg attacks.',
@@ -188,9 +188,9 @@ export const archetypes: GrapplingArchetype[] = [
       'Les entanglements sont techniques et sécurité. Ordre: reconnaître, cacher talon, libérer knee line, puis seulement counter ou attaque.',
     ),
     bestFor: la(
-      ['Người mới vào leg lock game.', 'Người tập ở gym có nhiều ashi/saddle.', 'Người muốn thi đấu ruleset có heel hook.'],
-      ['Players entering the leg lock game.', 'Practitioners in rooms with lots of ashi or saddle.', 'Competitors in rulesets with heel hooks.'],
-      ['Ceux qui entrent dans le leg lock game.', 'Salles avec beaucoup ashi/saddle.', 'Compétiteurs ruleset avec heel hooks.'],
+      ['Người mới vào Leg Lock game.', 'Người tập ở gym có nhiều ashi/saddle.', 'Người muốn thi đấu ruleset có Heel Hook.'],
+      ['Players entering the Leg Lock game.', 'Practitioners in rooms with lots of ashi or Saddle.', 'Competitors in rulesets with Heel Hooks.'],
+      ['Ceux qui entrent dans le Leg Lock game.', 'Salles avec beaucoup ashi/saddle.', 'Compétiteurs ruleset avec Heel Hooks.'],
     ),
     notIdealFor: la(
       ['Người muốn học finish nguy hiểm trước safety.', 'Người không tap sớm khi bị lực xoắn.', 'Người tập submission chân không có giám sát.'],
@@ -207,9 +207,9 @@ export const archetypes: GrapplingArchetype[] = [
       ['Tourner talon exposé et knee line piégée.', 'Ne pas libérer jambe secondaire.', 'Attaquer jambes sans ruleset.', 'Attendre douleur au lieu lire position tôt.'],
     ),
     trainingPriorities: la(
-      ['Luôn bắt đầu bằng round thoát knee line chậm.', 'Nói rõ intensity trước khi drill heel hook.', 'Tap sớm khi không chắc hướng lực.', 'Không crank submission chân trong training.'],
-      ['Always begin with slow knee-line escape rounds.', 'State intensity clearly before heel hook drilling.', 'Tap early when force direction is unclear.', 'Never crank leg submissions in training.'],
-      ['Toujours commencer par sorties knee line lentes.', 'Clarifier intensité avant heel hook drill.', 'Taper tôt si direction de force floue.', 'Ne jamais forcer leg submissions à l’entraînement.'],
+      ['Luôn bắt đầu bằng round thoát knee line chậm.', 'Nói rõ intensity trước khi drill Heel Hook.', 'Tap sớm khi không chắc hướng lực.', 'Không crank submission chân trong training.'],
+      ['Always begin with slow knee-line escape rounds.', 'State intensity clearly before Heel Hook drilling.', 'Tap early when force direction is unclear.', 'Never crank leg submissions in training.'],
+      ['Toujours commencer par sorties knee line lentes.', 'Clarifier intensité avant Heel Hook drill.', 'Taper tôt si direction de force floue.', 'Ne jamais forcer leg submissions à l’entraînement.'],
     ),
   }),
   archetype({
@@ -254,24 +254,24 @@ export const archetypes: GrapplingArchetype[] = [
     id: 'half-Guard-wrestler',
     title: lt('Vật sĩ Half Guard', 'Half Guard Wrestler', 'Lutteur Half Guard'),
     shortDescription: lt(
-      'Dùng knee shield, underhook và dogfight logic để chuyển Half Guard thành sweep, single leg hoặc back exposure.',
-      'Uses knee shield, underhook, and dogfight logic to turn Half Guard into sweeps, single legs, or back exposure.',
-      'Utilise knee shield, underhook et logique dogfight pour transformer Half Guard en sweep, single leg ou back exposure.',
+      'Dùng knee shield, underhook và Dogfight logic để chuyển Half Guard thành sweep, single leg hoặc back exposure.',
+      'Uses knee shield, underhook, and Dogfight logic to turn Half Guard into sweeps, single legs, or back exposure.',
+      'Utilise knee shield, underhook et logique Dogfight pour transformer Half Guard en sweep, single leg ou back exposure.',
     ),
     philosophy: lt(
-      'Half Guard không phải vị trí chịu đè. Bạn dùng knee shield để ngăn flatten, underhook để thắng shoulder line, rồi vào dogfight hoặc single leg trước khi crossface ổn định.',
-      'Half Guard is not a place to accept being flattened. You use knee shield to prevent flattening, underhook to win shoulder line, then enter dogfight or single leg before the crossface settles.',
+      'Half Guard không phải vị trí chịu đè. Bạn dùng knee shield để ngăn flatten, underhook để thắng shoulder line, rồi vào Dogfight hoặc single leg trước khi crossface ổn định.',
+      'Half Guard is not a place to accept being flattened. You use knee shield to prevent flattening, underhook to win shoulder line, then enter Dogfight or single leg before the crossface settles.',
       'Half Guard n’est pas accepter d’être aplati. Knee shield contre flatten, underhook gagne shoulder line, puis dogfight/single leg avant crossface stable.',
     ),
     bestFor: la(
       ['Người thích bottom wrestling từ Half Guard.', 'Người bị bodylock/knee cut nhiều.', 'Người muốn sweep nối với passing.'],
-      ['Players who like bottom wrestling from Half Guard.', 'Players often hit by bodylock or knee cut.', 'Players who want sweeps connected to passing.'],
+      ['Players who like bottom wrestling from Half Guard.', 'Players often hit by Bodylock or Knee Cut.', 'Players who want sweeps connected to passing.'],
       ['Ceux qui aiment lutter depuis Half Guard.', 'Ceux qui subissent bodylock/knee cut.', 'Ceux qui veulent connecter sweep et passing.'],
     ),
     notIdealFor: la(
-      ['Người hay để crossface sâu.', 'Người không pummel underhook sớm.', 'Người lên dogfight nhưng bỏ hip control.'],
-      ['Players who allow deep crossface.', 'Players who do not pummel underhook early.', 'Players who rise to dogfight without hip control.'],
-      ['Ceux qui laissent crossface profond.', 'Ceux qui ne pummel pas underhook tôt.', 'Ceux qui montent dogfight sans hip control.'],
+      ['Người hay để crossface sâu.', 'Người không pummel underhook sớm.', 'Người lên Dogfight nhưng bỏ hip control.'],
+      ['Players who allow deep crossface.', 'Players who do not pummel underhook early.', 'Players who rise to Dogfight without hip control.'],
+      ['Ceux qui laissent crossface profond.', 'Ceux qui ne pummel pas underhook tôt.', 'Ceux qui montent Dogfight sans hip control.'],
     ),
     coreConceptIds: ['wedges', 'pummeling', 'wrestle-up-philosophy', 'hip-line-shoulder-line', 'failure-response'],
     coreSkillIds: ['half-Guard-knee-shield', 'half-Guard-wrestle-up', 'single-leg-bjj', 'bodylock-passing', 'scramble-control'],
@@ -285,7 +285,7 @@ export const archetypes: GrapplingArchetype[] = [
     trainingPriorities: la(
       ['Drill crossface prevention bằng knee shield + inside hand.', 'Dogfight rounds bắt đầu từ underhook 50%.', 'Nếu mất underhook, chuyển retention trước khi wrestle-up.', 'Kết thúc sweep bằng pass hoặc pin.'],
       ['Drill crossface prevention with knee shield and inside hand.', 'Dogfight rounds starting from a 50% underhook.', 'If underhook is lost, retain before wrestling up.', 'Finish every sweep with pass or pin.'],
-      ['Driller prevention crossface avec knee shield et main inside.', 'Rounds dogfight depuis underhook 50%.', 'Si underhook perdu, retenir avant wrestle-up.', 'Finir chaque sweep par pass ou pin.'],
+      ['Driller prevention crossface avec knee shield et main inside.', 'Rounds Dogfight depuis underhook 50%.', 'Si underhook perdu, retenir avant wrestle-up.', 'Finir chaque sweep par pass ou pin.'],
     ),
   }),
   archetype({
@@ -316,9 +316,9 @@ export const archetypes: GrapplingArchetype[] = [
     supportSkillIds: ['technical-stand-up', 'hand-fighting', 'turtle-ride', 'front-headlock-defense'],
     requiredDefensiveSkillIds: ['front-headlock-defense', 'leg-lock-safety-basics', 'back-survival'],
     commonWeaknesses: la(
-      ['Chasing top khi cổ bị expose.', 'Post tay xa và bị kimura/arm drag.', 'Không reset sau khi thắng exchange.', 'Để scramble kéo vào leg lock không nhận diện knee line.'],
-      ['Chasing top while the neck is exposed.', 'Posting far and getting kimura or arm-dragged.', 'Not resetting after winning the exchange.', 'Letting scrambles drift into leg locks without reading knee line.'],
-      ['Chasser top avec cou exposé.', 'Poster loin et subir kimura/arm drag.', 'Ne pas reset après échange gagné.', 'Laisser scramble aller vers leg lock sans lire knee line.'],
+      ['Chasing top khi cổ bị expose.', 'Post tay xa và bị kimura/arm drag.', 'Không reset sau khi thắng exchange.', 'Để scramble kéo vào Leg Lock không nhận diện knee line.'],
+      ['Chasing top while the neck is exposed.', 'Posting far and getting Kimura or arm-dragged.', 'Not resetting after winning the exchange.', 'Letting scrambles drift into Leg Locks without reading knee line.'],
+      ['Chasser top avec cou exposé.', 'Poster loin et subir kimura/arm drag.', 'Ne pas reset après échange gagné.', 'Laisser scramble aller vers Leg Lock sans lire knee line.'],
     ),
     trainingPriorities: la(
       ['Scramble rounds có rule: thắng position rồi ổn định 5 giây.', 'Drill short posts và safe head position.', 'Luôn nối scramble với pin/back hoặc disengage.', 'Review lại scramble thua vì cổ, lưng hay knee line.'],
@@ -330,9 +330,9 @@ export const archetypes: GrapplingArchetype[] = [
     id: 'submission-chain-hunter',
     title: lt('Thợ săn submission chain', 'Submission Chain Hunter', 'Chasseur de chaînes de soumission'),
     shortDescription: lt(
-      'Xây submission bằng dilemma: Guillotine, kimura, back take, arm triangle và RNC nối theo phản ứng.',
-      'Builds submissions through dilemmas: Guillotine, kimura, back take, arm triangle, and RNC chained by reaction.',
-      'Construit les soumissions par dilemmes: Guillotine, kimura, back take, arm triangle et RNC selon réactions.',
+      'Xây submission bằng dilemma: Guillotine, Kimura, Back Take, Arm Triangle và RNC nối theo phản ứng.',
+      'Builds submissions through dilemmas: Guillotine, Kimura, Back Take, Arm Triangle, and RNC chained by reaction.',
+      'Construit les soumissions par dilemmes: Guillotine, Kimura, Back Take, Arm Triangle et RNC selon réactions.',
     ),
     philosophy: lt(
       'Bạn không săn một finish duy nhất. Bạn isolate một line, chờ đối thủ phòng thủ đúng, rồi dùng phản ứng đó để chuyển sang submission hoặc control tốt hơn.',

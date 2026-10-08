@@ -45,8 +45,8 @@
   "nextSkillIds": [],
   "searchBoost": 1,
   "keyCorrections": [
-    "If they try to peel the triangle: squeeze tighter and continue hand-fighting",
-    "If they flatten belly-down: release and switch to hooks or crab ride",
+    "If they try to peel the Triangle: squeeze tighter and continue hand-fighting",
+    "If they flatten belly-down: release and switch to hooks or Crab Ride",
     "If they create space: unlock, adjust, and re-lock tighter"
   ],
   "version": 1,
@@ -61,61 +61,61 @@
     "hasStateMachine": false
   },
   "locale": "en",
-  "description": "The body triangle uses your legs locked around their waist to control their hips and prevent them from moving. Unlike traditional hooks, the body triangle immobilizes the lower body completely — if the body triangle is tight, they cannot escape the back.",
+  "description": "The Body Triangle uses your legs locked around their waist to control their hips and prevent them from moving. Unlike traditional hooks, the Body Triangle immobilizes the lower body completely, if the Body Triangle is tight, they cannot escape the back.",
   "shortInstruction": "From back control, slide top leg over their hip, lock legs around their waist (shin behind knee), squeeze to compress the diaphragm, and hand-fight for the choke.",
-  "summary": "The body triangle immobilizes the opponent hips by locking your legs around their waist. It compresses the diaphragm, prevents hip escape, and cannot be peeled off easily. It is primarily a control hold that sets up the rear-naked choke.",
+  "summary": "The Body Triangle immobilizes the opponent hips by locking your legs around their waist. It compresses the diaphragm, prevents hip escape, and cannot be peeled off easily. It is primarily a control hold that sets up the rear-naked choke.",
   "whyItWorks": [
-    "Locking your legs around their waist compresses their diaphragm — they fatigue faster and cannot generate explosive movement",
-    "The body triangle prevents hip escape — to escape the back, the opponent must first create hip space",
-    "Unlike hooks, the body triangle cannot be peeled off easily — it is a locked structure",
-    "The body triangle also functions as a body compression submission — prolonged compression can force a tap"
+    "Locking your legs around their waist compresses their diaphragm, they fatigue faster and cannot generate explosive movement",
+    "The Body Triangle prevents hip escape, to escape the back, the opponent must first create hip space",
+    "Unlike hooks, the Body Triangle cannot be peeled off easily, it is a locked structure",
+    "The Body Triangle also functions as a body compression submission, prolonged compression can force a tap"
   ],
   "commonMistakes": [
-    "Locking the body triangle too high (at their ribs instead of hips) — they can still move their hips",
-    "Allowing the body triangle to loosen — a loose triangle gives them space to escape",
-    "Using only the body triangle without attacking the choke — you must still work for the RNC",
-    "Locking the triangle and relaxing — you still need to hand-fight for the finish"
+    "Locking the Body Triangle too high (at their ribs instead of hips), they can still move their hips",
+    "Allowing the Body Triangle to loosen, a loose Triangle gives them space to escape",
+    "Using only the Body Triangle without attacking the choke, you must still work for the RNC",
+    "Locking the Triangle and relaxing, you still need to hand-fight for the finish"
   ],
   "coachingCues": [
-    "Hips, not ribs — lock low on the waist",
-    "Tight triangle = tight control; loose triangle = escape",
-    "Body triangle controls the hips; hands control the choke",
+    "Hips, not ribs, lock low on the waist",
+    "Tight Triangle = tight control; loose Triangle = escape",
+    "Body Triangle controls the hips; hands control the choke",
     "Keep it but do not stop working"
   ],
   "safetySummary": [
-    "The body triangle compresses the diaphragm — if training partner has respiratory issues, use traditional hooks instead",
-    "Do not lock the body triangle too tight during positional sparring — release periodically to allow breathing",
-    "The body triangle can cause rib discomfort — release if the training partner signals discomfort"
+    "The Body Triangle compresses the diaphragm, if training partner has respiratory issues, use traditional hooks instead",
+    "Do not lock the Body Triangle too tight during positional sparring, release periodically to allow breathing",
+    "The Body Triangle can cause rib discomfort, release if the training partner signals discomfort"
   ],
   "systemLogic": {
-    "corePrinciple": "Body triangle control: from back control → slide top leg over their hip → lock legs around their waist (shin behind knee) → squeeze to compress their diaphragm → maintain while hand-fighting for the RNC.",
+    "corePrinciple": "Body Triangle control: from back control → slide top leg over their hip → lock legs around their waist (shin behind knee) → squeeze to compress their diaphragm → maintain while hand-fighting for the RNC.",
     "decisionTree": [
       {
-        "condition": "They try to peel the triangle",
+        "condition": "They try to peel the Triangle",
         "action": "squeeze tighter and continue hand-fighting"
       },
       {
         "condition": "They flatten belly-down",
-        "action": "release the triangle and switch to hooks or crab ride"
+        "action": "release the Triangle and switch to hooks or Crab Ride"
       },
       {
         "condition": "They create space",
-        "action": "unlock, adjust, and re-lock tighter — never accept a loose triangle"
+        "action": "unlock, adjust, and re-lock tighter, never accept a loose Triangle"
       }
     ],
     "exitStrategies": [
-      "If you need to adjust position, unlock the triangle, make the adjustment, then re-lock",
-      "If the body triangle fails, switch to traditional hooks for mobility"
+      "If you need to adjust position, unlock the Triangle, make the adjustment, then re-lock",
+      "If the Body Triangle fails, switch to traditional hooks for mobility"
     ]
   },
   "moneyDetails": [
-    "The body triangle is the highest-percentage back control system in modern no-gi competition",
-    "Mastering the body triangle prevents hip escape — the most common back escape method",
-    "The body triangle + RNC combination is the most dominant finishing position in no-gi"
+    "The Body Triangle is the highest-percentage back control system in modern no-gi competition",
+    "Mastering the Body Triangle prevents hip escape, the most common back escape method",
+    "The Body Triangle + RNC combination is the most dominant finishing position in no-gi"
   ],
   "fixItFast": [
-    "If the triangle is loose: walk your hips closer and re-lock",
-    "If they flatten belly-down: release the triangle immediately and switch to hooks",
-    "If you cannot finish the RNC: maintain the body triangle and wait for them to fatigue"
+    "If the Triangle is loose: walk your hips closer and re-lock",
+    "If they flatten belly-down: release the Triangle immediately and switch to hooks",
+    "If you cannot finish the RNC: maintain the Body Triangle and wait for them to fatigue"
   ]
 }

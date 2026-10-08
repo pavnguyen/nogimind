@@ -61,9 +61,9 @@
   "nextSkillIds": [],
   "searchBoost": 1,
   "keyCorrections": [
-    "If they keep flattening you: your underhook is too shallow — reach deeper to the far hip",
-    "If they keep passing: your coyote hook is not active — squeeze and elevate their far leg",
-    "If the sweep doesn't work: you haven't controlled their posture — break them down first"
+    "If they keep flattening you: your underhook is too shallow, reach deeper to the far hip",
+    "If they keep passing: your coyote hook is not active, squeeze and elevate their far leg",
+    "If the sweep doesn't work: you haven't controlled their posture, break them down first"
   ],
   "version": 1,
   "updatedAt": "2026-05-28T00:00:00.000Z",
@@ -84,25 +84,25 @@
     "The deep underhook prevents the opponent from flattening you",
     "Turning to your side creates space and angles that sweep from",
     "The coyote hook on their far leg gives direct control of their base",
-    "Uses the opponent's forward pressure against them — redirects their momentum"
+    "Uses the opponent's forward pressure against them, redirects their momentum"
   ],
   "commonMistakes": [
-    "Allowing the opponent to flatten your chest — must stay on your side",
-    "Underhook too shallow — must reach deep to the far hip, not just the near armpit",
-    "Losing the coyote hook — the hook on their far leg must be active and controlling",
-    "Trying to sweep before controlling their posture — break them down first",
-    "Keeping your bottom leg straight — bottom leg must shrimp to create space"
+    "Allowing the opponent to flatten your chest, must stay on your side",
+    "Underhook too shallow, must reach deep to the far hip, not just the near armpit",
+    "Losing the coyote hook, the hook on their far leg must be active and controlling",
+    "Trying to sweep before controlling their posture, break them down first",
+    "Keeping your bottom leg straight, bottom leg must shrimp to create space"
   ],
   "coachingCues": [
-    "Stay on your side — never flat on your back",
-    "Deep underhook to the far hip — wrap around the body",
-    "Coyote hook controls their far leg — active, not passive",
-    "Head to chest — glue your ear to their sternum",
-    "Elevate the hooked leg and pull the upper body — see-saw sweep"
+    "Stay on your side, never flat on your back",
+    "Deep underhook to the far hip, wrap around the body",
+    "Coyote hook controls their far leg, active, not passive",
+    "Head to chest, glue your ear to their sternum",
+    "Elevate the hooked leg and pull the upper body, see-saw sweep"
   ],
   "safetySummary": [
     "Keep your bottom arm protecting your side to prevent the opponent from stepping over into Mount",
-    "Be aware of the opponent dropping weight to smash you flat — stay on your side",
+    "Be aware of the opponent dropping weight to smash you flat, stay on your side",
     "If the opponent clears your underhook, transition to deep half or recover knee shield immediately"
   ],
   "systemLogic": {
@@ -110,7 +110,7 @@
     "decisionTree": [
       {
         "condition": "Opponent drives forward with pressure",
-        "action": "Use their momentum for the waiter sweep — elevate the hooked leg and pull the upper body"
+        "action": "Use their momentum for the waiter sweep, elevate the hooked leg and pull the upper body"
       },
       {
         "condition": "Opponent posts a leg to defend the sweep",
@@ -118,7 +118,7 @@
       },
       {
         "condition": "Opponent backs out to avoid the sweep",
-        "action": "Follow them up — wrestle up to a single leg or take the back"
+        "action": "Follow them up, wrestle up to a single leg or take the back"
       }
     ],
     "exitStrategies": []
@@ -129,8 +129,8 @@
     "Mastering the coyote Half Guard gives you a complete bottom Half Guard game"
   ],
   "fixItFast": [
-    "If flattened: your underhook is too shallow — reach deeper",
-    "If passed: activate your coyote hook — squeeze and elevate",
+    "If flattened: your underhook is too shallow, reach deeper",
+    "If passed: activate your coyote hook, squeeze and elevate",
     "If sweep fails: break their posture down before sweeping"
   ]
 }

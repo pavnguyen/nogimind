@@ -60,19 +60,19 @@
     "hasStateMachine": false
   },
   "locale": "fr",
-  "description": "Stabilisez Mount avec de la vigne, un pincement du genou, un Mount élevé et des combats de mains pour ouvrir les soumissions. Mount est le pin avec le pourcentage le plus élevé dans BJJ — à partir de là, les soumissions sont abondantes et les options d'évasion de l'adversaire sont limitées.",
+  "description": "Stabilisez Mount avec de la vigne, un pincement du genou, un Mount élevé et des combats de mains pour ouvrir les soumissions. Mount est le pin avec le pourcentage le plus élevé dans BJJ, à partir de là, les soumissions sont abondantes et les options d'évasion de l'adversaire sont limitées.",
   "shortInstruction": "Gardez la poitrine contre la poitrine, pincez les genoux pour contrôler les hanches et luttez pour isoler les bras au-dessus de la tête. Transition vers le Mount haut (genoux aux aisselles) pour terminer.",
   "summary": "Le contrôle de Mount est maintenu grâce à des couches progressives : Mount faible (hanches lourdes sur les hanches, pression poitrine contre poitrine) → Mount élevé (les genoux glissent jusqu'aux aisselles, emprisonnant leurs épaules) → soumission ou prise en arrière. La clé est d'empêcher la fuite du pont et du roulis en contrôlant leurs hanches avec votre pincement du genou et en suivant leurs mouvements avec votre poids.",
   "whyItWorks": [
     "La faible pression Mount poitrine contre poitrine empêche l'adversaire de s'asseoir ou de créer un espace pour s'échapper.",
     "Le pincement du genou (en serrant vos genoux contre leurs hanches) empêche la fuite du pont et du roulis en reliant vos hanches aux leurs.",
     "Un Mount élevé (genoux aux aisselles) emprisonne les épaules de l'adversaire sur le tapis, lui ôtant ainsi sa capacité à établir un pont efficacement.",
-    "L'isolement des bras (faire glisser les bras au-dessus de la tête) est la condition préalable à toutes les soumissions Mount - sans cela, les candidatures armbar échouent."
+    "L'isolement des bras (faire glisser les bras au-dessus de la tête) est la condition préalable à toutes les soumissions Mount - sans cela, les candidatures Armbar échouent."
   ],
   "commonMistakes": [
-    "S'asseoir trop haut en Mount — cela supprime la pression sur la poitrine et permet à l'adversaire de shrimp ou de faire un pont",
+    "S'asseoir trop haut en Mount, cela supprime la pression sur la poitrine et permet à l'adversaire de shrimp ou de faire un pont",
     "Laisser vos genoux trop écartés : cela ouvre l'espace à l'adversaire pour s'échapper vers Half Guard ou Side Control.",
-    "Chasser les soumissions avant de stabiliser le Mount — un Mount lâche donne à l'adversaire la possibilité de s'échapper avant que vous puissiez terminer",
+    "Chasser les soumissions avant de stabiliser le Mount, un Mount lâche donne à l'adversaire la possibilité de s'échapper avant que vous puissiez terminer",
     "Ignorer la fuite de la vigne - l'adversaire peut vous accrocher les jambes et vous faire rouler si vous ne contrôlez pas ses pieds"
   ],
   "coachingCues": [
@@ -99,7 +99,7 @@
       },
       {
         "condition": "En phase 3 (saisie de soumission)",
-        "action": "une fois le Mount élevé établi, commencez à isoler les bras. Faites glisser un bras au-dessus de leur tête (entrée armbar), ou crossface pour configurer le bras triangle, ou positionnez-vous pour l'Ézéchiel ou l'étranglement croisé."
+        "action": "une fois le Mount élevé établi, commencez à isoler les bras. Faites glisser un bras au-dessus de leur tête (entrée Armbar), ou crossface pour configurer le bras Triangle, ou positionnez-vous pour l'Ézéchiel ou l'étranglement croisé."
       },
       {
         "condition": "Prévention des fuites",
@@ -113,8 +113,8 @@
     "exitStrategies": []
   },
   "moneyDetails": [
-    "Mount est la deuxième position la plus dominante dans BJJ (derrière back control) — à partir de Mount, vous avez accès à plus de soumissions que toute autre position",
-    "Mount marque 4 points dans la compétition IBJJF — établir Mount est souvent le facteur décisif dans les matchs serrés",
+    "Mount est la deuxième position la plus dominante dans BJJ (derrière back control), à partir de Mount, vous avez accès à plus de soumissions que toute autre position",
+    "Mount marque 4 points dans la compétition IBJJF, établir Mount est souvent le facteur décisif dans les matchs serrés",
     "La capacité de tenir Mount contre un adversaire expérimenté est la marque d'un grappler avancé : la plupart des ceintures blanches et bleues perdent Mount en quelques secondes."
   ],
   "fixItFast": [

@@ -16,23 +16,23 @@
     "Recognize danger signals early instead of waiting for the position to settle."
   ],
   "controlPoints": [
-    "Main control point: Knee on belly, far hip grip, and head position..",
+    "Main control point: Knee on belly, far hip grip, and head position.",
     "Head, hands, hips, and knees should share the same force direction.",
     "The elbow-knee connection or hip-shoulder line determines whether the position is still alive or already locked."
   ],
   "escapePriorities": [
-    "Escape priority: Protect the neck and reconnect elbow-knee before pushing the knee..",
+    "Escape priority: Protect the neck and reconnect elbow-knee before pushing the knee.",
     "Protect the neck, back, knee line, or arm line before countering.",
     "If inside position is lost, reset one defensive layer first."
   ],
   "advancementOptions": [
     {
       "action": "Advance to Mount or back take",
-      "nextPositionId": "Mount-top",
+      "nextPositionId": "mount-top",
       "relatedSkillIds": [
         "knee-on-belly-control",
         "side-control-pin",
-        "Mount-control"
+        "mount-control"
       ],
       "why": "This is the natural branch when you win the main control point and the opponent is forced to defend."
     }
@@ -46,7 +46,7 @@
   "relatedSkillIds": [
     "knee-on-belly-control",
     "side-control-pin",
-    "Mount-control",
+    "mount-control",
     "kimura-system"
   ],
   "relatedConceptIds": [

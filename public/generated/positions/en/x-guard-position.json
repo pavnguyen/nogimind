@@ -1,5 +1,5 @@
 {
-  "id": "x-Guard-position",
+  "id": "x-guard-position",
   "locale": "en",
   "title": "X-Guard",
   "category": "bottom_guard",
@@ -16,12 +16,12 @@
     "Recognize danger signals early instead of waiting for the position to settle."
   ],
   "controlPoints": [
-    "Main control point: Foot on hip, ankle control, and hip lift..",
+    "Main control point: Foot on hip, ankle control, and hip lift.",
     "Head, hands, hips, and knees should share the same force direction.",
     "The elbow-knee connection or hip-shoulder line determines whether the position is still alive or already locked."
   ],
   "escapePriorities": [
-    "Escape priority: Bring the knee to centerline before they sweep..",
+    "Escape priority: Bring the knee to centerline before they sweep.",
     "Protect the neck, back, knee line, or arm line before countering.",
     "If inside position is lost, reset one defensive layer first."
   ],
@@ -30,9 +30,9 @@
       "action": "Transition to SLX or sweep to top",
       "nextPositionId": "single-leg-x",
       "relatedSkillIds": [
-        "x-Guard-control",
+        "x-guard-control",
         "single-leg-x-control",
-        "k-Guard-matrix"
+        "k-guard-matrix"
       ],
       "why": "This is the natural branch when you win the main control point and the opponent is forced to defend."
     }
@@ -44,9 +44,9 @@
     "You need a long hand post to avoid falling."
   ],
   "relatedSkillIds": [
-    "x-Guard-control",
+    "x-guard-control",
     "single-leg-x-control",
-    "k-Guard-matrix"
+    "k-guard-matrix"
   ],
   "relatedConceptIds": [
     "hooks",

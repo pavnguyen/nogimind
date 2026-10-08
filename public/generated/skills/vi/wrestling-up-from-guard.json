@@ -50,8 +50,8 @@
   "searchBoost": 1,
   "keyCorrections": [
     "Nếu họ sprawl trong cuộc đấu vật: hãy quay lại Guard và thử một mục khác (shin-to-shin hoặc 2 đấu 1)",
-    "Nếu họ Guillotine bạn: đầu bạn quá cao — hãy giữ trán bạn sát vào ngực hoặc hàm của họ khi bạn đứng",
-    "Nếu bạn không thể tìm thấy chân: họ đã đăng lại — hãy chuyển sang Front Headlock bằng cách sử dụng tay cầm underhook của bạn"
+    "Nếu họ Guillotine bạn: đầu bạn quá cao, hãy giữ trán bạn sát vào ngực hoặc hàm của họ khi bạn đứng",
+    "Nếu bạn không thể tìm thấy chân: họ đã đăng lại, hãy chuyển sang Front Headlock bằng cách sử dụng tay cầm underhook của bạn"
   ],
   "version": 1,
   "updatedAt": "2026-05-21T00:24:30.764Z",
@@ -65,9 +65,9 @@
     "hasStateMachine": false
   },
   "locale": "vi",
-  "description": "wrestle up từ tư thế ngồi hoặc Butterfly Guard sử dụng ống chân tới ống chân, 2 chọi 1 hoặc underhook để chuyển sang một chân hoặc Front Headlock. Đấu vật là bước chuyển tiếp tấn công chính từ Guard — nó chuyển vị trí cuối bảng thành cơ hội hạ gục.",
+  "description": "wrestle up từ tư thế ngồi hoặc Butterfly Guard sử dụng ống chân tới ống chân, 2 chọi 1 hoặc underhook để chuyển sang một chân hoặc Front Headlock. Đấu vật là bước chuyển tiếp tấn công chính từ Guard, nó chuyển vị trí cuối bảng thành cơ hội hạ gục.",
   "shortInstruction": "Từ chỗ Seated Guard, giành chiến thắng underhook hoặc 2 đấu 1, tạo góc hông, đặt chân ngoài của bạn và lái sang một chặng. Nếu một chặng bị chặn, hãy chuyển sang Front Headlock hoặc quay lại.",
-  "summary": "Đấu vật từ Guard biến Guard từ thế phòng thủ thành một đòn tấn công hạ gục. Trình tự này sử dụng underhook, shin-to-shin hoặc 2 chọi 1 để kiểm soát phần thân trên của đối thủ khi bạn đứng. Từ tư thế đứng, bạn kết thúc bằng một chân, khóa cơ thể hoặc Front Headlock. Đấu vật là cốt lõi của hệ thống No-Gi Guard hiện đại — mỗi người chơi Guard đang ngồi phải có một kỹ thuật vật đáng tin cậy để ngăn đối thủ đứng và vượt qua.",
+  "summary": "Đấu vật từ Guard biến Guard từ thế phòng thủ thành một đòn tấn công hạ gục. Trình tự này sử dụng underhook, shin-to-shin hoặc 2 chọi 1 để kiểm soát phần thân trên của đối thủ khi bạn đứng. Từ tư thế đứng, bạn kết thúc bằng một chân, khóa cơ thể hoặc Front Headlock. Đấu vật là cốt lõi của hệ thống No-Gi Guard hiện đại, mỗi người chơi Guard đang ngồi phải có một kỹ thuật vật đáng tin cậy để ngăn đối thủ đứng và vượt qua.",
   "whyItWorks": [
     "Đấu vật trừng phạt đối thủ vì đã đứng trong Guard của bạn - nếu họ đứng, bạn sẽ theo kịp họ",
     "underhook và 2 trên 1 giúp bạn kiểm soát phần thân trên để ngăn chúng sprawl lao vào hoặc giao nhau",
@@ -75,9 +75,9 @@
     "Cuộc vật lộn tạo ra một tình thế tiến thoái lưỡng nan cho người vượt qua: họ phải giao tranh (và có nguy cơ bị quét) hoặc rút lui (và từ bỏ nỗ lực vượt qua)"
   ],
   "commonMistakes": [
-    "Cố gắng wrestle up mà không kiểm soát phần thân trên — họ sẽ sprawl và đè bẹp bạn",
-    "Đứng thẳng thay vì cúi thấp — một giá đỡ cao để lộ một chân và Guillotine",
-    "Không tạo góc hông trước khi đứng — đứng thẳng về phía họ sẽ giúp họ có một góc sprawl dễ dàng",
+    "Cố gắng wrestle up mà không kiểm soát phần thân trên, họ sẽ sprawl và đè bẹp bạn",
+    "Đứng thẳng thay vì cúi thấp, một giá đỡ cao để lộ một chân và Guillotine",
+    "Không tạo góc hông trước khi đứng, đứng thẳng về phía họ sẽ giúp họ có một góc sprawl dễ dàng",
     "Từ bỏ cuộc đấu vật quá sớm - hãy giữ vững lập trường nếu không bạn sẽ bị mắc kẹt ở thế bị tổn hại"
   ],
   "coachingCues": [
@@ -87,9 +87,9 @@
     "Cam kết hoặc không bắt đầu"
   ],
   "safetySummary": [
-    "Không đứng thẳng lưng — điều này làm lộ Guillotine và làm lộ underhook",
+    "Không đứng thẳng lưng, điều này làm lộ Guillotine và làm lộ underhook",
     "Nếu đối thủ sprawl khi bạn đứng, hãy lùi lại Guard thay vì chiến đấu với sprawl",
-    "Cẩn thận bị căng đầu gối khi đăng bài từ chỗ Seated Guard — khởi động đúng cách"
+    "Cẩn thận bị căng đầu gối khi đăng bài từ chỗ Seated Guard, khởi động đúng cách"
   ],
   "systemLogic": {
     "corePrinciple": "Cuộc đấu tranh từ Guard có ba hệ thống nhập cảnh: underhook Mục nhập → Mục nhập Shin-to-Shin → Mục nhập 2 chọi 1",
@@ -114,7 +114,7 @@
     "exitStrategies": []
   },
   "moneyDetails": [
-    "Đấu vật là kỹ năng tấn công quan trọng nhất trong No-Gi Guard hiện đại — nếu không có nó, Guard của bạn chỉ mang tính phòng thủ",
+    "Đấu vật là kỹ năng tấn công quan trọng nhất trong No-Gi Guard hiện đại, nếu không có nó, Guard của bạn chỉ mang tính phòng thủ",
     "Việc thành thạo các kỹ thuật đấu vật mang lại cho bạn khả năng ghi điểm hạ gục từ Guard, biến đổi toàn bộ trò chơi cuối cùng của bạn",
     "Đấu vật là thành phần cốt lõi của tất cả các hệ thống No-Gi Guard cấp cao (Dewey, Meregali, Ruotolos)"
   ],

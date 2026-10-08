@@ -1,4 +1,4 @@
-import { useState, useEffect, useCallback } from 'react'
+import { useState, useEffect, useCallback, useRef } from 'react'
 import { useTranslation } from 'react-i18next'
 import { Film, AlertTriangle, RefreshCw, Flag } from 'lucide-react'
 
@@ -8,6 +8,13 @@ type Props = {
   title: string
   onReport?: (youtubeId: string) => void
 }
+
+/**
+ * How far outside the viewport a player starts to mount.
+ * Players are only created once a card gets close to the screen, so a long list
+ * of references does not load a dozen YouTube players at once.
+ */
+const PRELOAD_MARGIN = '240px'
 
 function useOnlineStatus() {
   const [online, setOnline] = useState(
@@ -24,6 +31,12 @@ function useOnlineStatus() {
     }
   }, [])
   return online
+}
+
+/** Keep the URL free of a stale autoplay request, the viewer presses play. */
+const playbackUrl = (embedUrl: string): string => {
+  const separator = embedUrl.includes('?') ? '&' : '?'
+  return `${embedUrl}${separator}playsinline=1&rel=0`
 }
 
 const OfflinePlaceholder = ({ t: translate }: { t: (key: string) => string }) => (
@@ -77,15 +90,48 @@ const UnavailablePlaceholder = ({
 
 export const LazyYouTubeEmbed = ({ youtubeId, embedUrl, title, onReport }: Props) => {
   const { t } = useTranslation()
-  const [loaded, setLoaded] = useState(false)
+  const containerRef = useRef<HTMLDivElement>(null)
+  const [mounted, setMounted] = useState(false)
   const [thumbnailError, setThumbnailError] = useState(false)
   const [iframeError, setIframeError] = useState(false)
   const [retryCount, setRetryCount] = useState(0)
   const isOnline = useOnlineStatus()
   const thumbnailUrl = `https://i.ytimg.com/vi/${youtubeId}/hqdefault.jpg`
 
+  // Mount the real player as soon as the card approaches the viewport.
+  useEffect(() => {
+    if (mounted) return
+
+    const node = containerRef.current
+    if (!node) {
+      setMounted(true)
+      return
+    }
+
+    // Cards that are already on screen (or in a browser without
+    // IntersectionObserver) skip the poster and mount right away.
+    const rect = node.getBoundingClientRect()
+    const alreadyVisible = rect.bottom >= 0 && rect.top <= (window.innerHeight || 0)
+    if (alreadyVisible || typeof IntersectionObserver === 'undefined') {
+      setMounted(true)
+      return
+    }
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        if (entries.some((entry) => entry.isIntersecting)) {
+          setMounted(true)
+          observer.disconnect()
+        }
+      },
+      { rootMargin: PRELOAD_MARGIN },
+    )
+    observer.observe(node)
+    return () => observer.disconnect()
+  }, [mounted])
+
   const handleThumbnailError = useCallback(() => {
-    // Don't mark as unavailable on first load — retry once
+    // Don't mark as unavailable on first load, retry once
     if (retryCount < 1) {
       setRetryCount(prev => prev + 1)
       return
@@ -96,8 +142,8 @@ export const LazyYouTubeEmbed = ({ youtubeId, embedUrl, title, onReport }: Props
   const handleRetry = useCallback(() => {
     setThumbnailError(false)
     setIframeError(false)
-    setLoaded(false)
     setRetryCount(0)
+    setMounted(false)
   }, [])
 
   const handleReport = useCallback(() => {
@@ -120,49 +166,35 @@ export const LazyYouTubeEmbed = ({ youtubeId, embedUrl, title, onReport }: Props
   }
 
   return (
-    <div className="aspect-video overflow-hidden rounded-lg border border-white/10 bg-slate-950">
-      {loaded ? (
+    <div
+      ref={containerRef}
+      className="aspect-video overflow-hidden rounded-lg border border-white/10 bg-slate-950"
+    >
+      {mounted ? (
         <iframe
           className="h-full w-full"
-          src={embedUrl}
+          src={playbackUrl(embedUrl)}
           title={title}
           loading="lazy"
-          allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           allowFullScreen
           referrerPolicy="strict-origin-when-cross-origin"
           sandbox="allow-scripts allow-same-origin allow-presentation allow-popups"
           onError={() => setIframeError(true)}
         />
       ) : (
-        <button
-          type="button"
-          onClick={() => setLoaded(true)}
-          className="group relative h-full w-full overflow-hidden text-left"
-          aria-label={`${t('video.watch')}: ${title}`}
-        >
-          <img
-            key={retryCount}
-            src={thumbnailUrl}
-            alt=""
-            loading="lazy"
-            onError={handleThumbnailError}
-            className="h-full w-full object-cover opacity-75 transition duration-300 group-hover:scale-105 group-hover:opacity-95"
-          />
-          {/* Gradient overlay from bottom for cinematic depth */}
-          <span className="absolute inset-0 bg-linear-to-t from-slate-950/80 via-slate-950/20 to-transparent" />
-          {/* Play button with glow effect */}
-          <span className="absolute left-1/2 top-1/2 grid h-16 w-16 -translate-x-1/2 -translate-y-1/2 place-items-center rounded-full bg-cyan-300 text-slate-950 shadow-lg shadow-cyan-400/30 ring-2 ring-white/10 backdrop-blur-sm transition duration-200 group-hover:scale-110 group-hover:bg-white group-hover:shadow-cyan-300/50">
-            <svg className="ml-0.5 h-6 w-6" viewBox="0 0 24 24" fill="currentColor">
-              <path d="M8 5v14l11-7z" />
-            </svg>
-          </span>
-          {/* Duration-like watch badge */}
-          <span className="absolute bottom-3 left-3 rounded-md bg-slate-950/80 px-2.5 py-1 text-xs font-semibold tracking-wide text-cyan-100 backdrop-blur-sm shadow-glow-sm">
-            {t('video.watch')}
-          </span>
-        </button>
+        // Poster while the player is still off screen. There is no play button
+        // here on purpose: YouTube's own control is the single way to start the
+        // video, so the viewer never has to click twice.
+        <img
+          key={retryCount}
+          src={thumbnailUrl}
+          alt=""
+          loading="lazy"
+          onError={handleThumbnailError}
+          className="h-full w-full object-cover opacity-75"
+        />
       )}
     </div>
   )
 }
-

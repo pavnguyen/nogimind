@@ -15,7 +15,7 @@ export type HubTab = {
 type Props = {
   tabs: HubTab[]
   /**
-   * @deprecated No longer needed — accent is now sourced from the active Hallmark theme
+   * @deprecated No longer needed, accent is now sourced from the active Hallmark theme
    * via `data-hub` CSS variables. Kept for backward compatibility.
    */
   accent?: string

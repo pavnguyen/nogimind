@@ -1,5 +1,5 @@
 {
-  "id": "supine-Guard",
+  "id": "supine-guard",
   "locale": "en",
   "title": "Supine Guard",
   "category": "bottom_guard",
@@ -16,23 +16,23 @@
     "Recognize danger signals early instead of waiting for the position to settle."
   ],
   "controlPoints": [
-    "Main control point: Feet on hips or biceps, knees inside, and shoulder angle..",
+    "Main control point: Feet on hips or biceps, knees inside, and shoulder angle.",
     "Head, hands, hips, and knees should share the same force direction.",
     "The elbow-knee connection or hip-shoulder line determines whether the position is still alive or already locked."
   ],
   "escapePriorities": [
-    "Escape priority: Do not let both knees be forced to the same side..",
+    "Escape priority: Do not let both knees be forced to the same side.",
     "Protect the neck, back, knee line, or arm line before countering.",
     "If inside position is lost, reset one defensive layer first."
   ],
   "advancementOptions": [
     {
       "action": "Recover knee shield or a seated layer",
-      "nextPositionId": "knee-shield-half-Guard",
+      "nextPositionId": "knee-shield-half-guard",
       "relatedSkillIds": [
-        "supine-Guard-retention",
-        "seated-Guard-retention",
-        "k-Guard-entry"
+        "supine-guard-retention",
+        "seated-guard-retention",
+        "k-guard-entry"
       ],
       "why": "This is the natural branch when you win the main control point and the opponent is forced to defend."
     }
@@ -44,12 +44,12 @@
     "You need a long hand post to avoid falling."
   ],
   "relatedSkillIds": [
-    "supine-Guard-retention",
-    "seated-Guard-retention",
-    "k-Guard-entry"
+    "supine-guard-retention",
+    "seated-guard-retention",
+    "k-guard-entry"
   ],
   "relatedConceptIds": [
-    "Guard-retention-layers",
+    "guard-retention-layers",
     "inside-position",
     "wedges"
   ]

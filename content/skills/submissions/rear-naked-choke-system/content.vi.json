@@ -5,7 +5,7 @@
   "shortName": "RNC",
   "description": "Tỷ lệ gửi phần trăm cao nhất trong BJJ. Một cơn sặc máu từ back control cắt đứt cả hai động mạch cảnh bằng cách đặt cẳng tay qua một bên cổ và đóng bên kia bằng áp lực của ngực và vai.",
   "shortInstruction": "Khuỷu tay dưới cằm, ngực dán vào lưng, tháo chùng rồi siết chặt.",
-  "summary": "Cơ bản nhất No-Gi sặc máu từ back control — làm chủ thế đánh tay, đường khuỷu tay và kết nối ngực với lưng.",
+  "summary": "Cơ bản nhất No-Gi sặc máu từ back control, làm chủ thế đánh tay, đường khuỷu tay và kết nối ngực với lưng.",
   "whyItWorks": [
     "Cắt đứt cả hai động mạch cảnh khi cẳng tay và vai của đối phương bịt chặt cả hai đường cổ.",
     "Yêu cầu lực tối thiểu khi cấu trúc chính xác - đòn bẩy thay thế sức mạnh.",
@@ -44,7 +44,7 @@
     "Nếu bị bong tay, hãy chuyển sang đánh tay cao gần đầu."
   ],
   "systemLogic": {
-    "corePrinciple": "back control là nền tảng chứ không phải là điểm kết thúc. Mỗi bước — seatbelt, đánh tay, dây khuỷu tay, tháo dây chùng — phải được hoàn thành theo trình tự trước khi siết chặt.",
+    "corePrinciple": "back control là nền tảng chứ không phải là điểm kết thúc. Mỗi bước, seatbelt, đánh tay, dây khuỷu tay, tháo dây chùng, phải được hoàn thành theo trình tự trước khi siết chặt.",
     "decisionTree": [
       {
         "condition": "Một tay bảo vệ đường viền cổ",
@@ -52,7 +52,7 @@
       },
       {
         "condition": "Hai tay bảo vệ cổ",
-        "action": "Chuyển sang cơ thể triangle hoặc bẫy tay để phá vỡ lớp vỏ phòng thủ của chúng trước khi tấn công lại vào cổ."
+        "action": "Chuyển sang cơ thể Triangle hoặc bẫy tay để phá vỡ lớp vỏ phòng thủ của chúng trước khi tấn công lại vào cổ."
       },
       {
         "condition": "Họ biến thành bạn (ngửa mặt)",
@@ -64,11 +64,11 @@
       },
       {
         "condition": "Họ lột cả hai tay ra khỏi cổ",
-        "action": "Quay lại điều khiển seatbelt, đánh tay lần nữa — không bao giờ đuổi theo cuộn cảm mà không có cấu trúc."
+        "action": "Quay lại điều khiển seatbelt, đánh tay lần nữa, không bao giờ đuổi theo cuộn cảm mà không có cấu trúc."
       }
     ],
     "exitStrategies": [
-      "Nếu cuộn cảm liên tục bị chặn, hãy chuyển sang bẫy tay và tấn công armbar hoặc cung tên.",
+      "Nếu cuộn cảm liên tục bị chặn, hãy chuyển sang bẫy tay và tấn công Armbar hoặc cung tên.",
       "Nếu chúng trốn thoát đến Mount dưới cùng, hãy chuyển sang điều khiển Mount và tấn công từ đó.",
       "Nếu chúng lao ra ngoài, hãy tấn công lại bằng Front Headlock hoặc Guillotine khi chúng đối mặt với bạn."
     ]

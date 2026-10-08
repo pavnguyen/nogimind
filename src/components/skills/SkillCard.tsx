@@ -5,6 +5,7 @@ import { useTranslation } from 'react-i18next'
 import type { SkillNode } from '../../types/skill'
 import { useSettingsStore } from '../../stores/useSettingsStore'
 import { getLocalizedText } from '../../utils/localization'
+import { formatTagLabel } from '../../utils/tagLabel'
 import { Badge } from '../common/Badge'
 import { DomainBadge } from './DomainBadge'
 import { LevelBadge } from './LevelBadge'
@@ -42,7 +43,7 @@ export const SkillCard = memo(({ skill }: SkillCardProps) => {
       <div className="mt-4 flex flex-wrap gap-x-2 gap-y-1.5">
         {skill.tags.slice(0, 4).map((tag) => (
           <span key={tag} className="rounded-md bg-white/[0.03] px-1.5 py-0.5 text-[10px] font-medium text-slate-500">
-            #{tag}
+            #{formatTagLabel(tag)}
           </span>
         ))}
         {skill.modernSystemGroup ? <Badge tone="cyan">{t(`modern.system.${skill.modernSystemGroup}`)}</Badge> : null}

@@ -9,11 +9,13 @@ import type { LanguageCode, LocalizedStringArray, LocalizedText, SkillNode } fro
 import type { TechniqueStateMachine } from '../types/stateMachine'
 import type { MicroDetailItem } from './knowledgeModules'
 import { getLocalizedArray, getLocalizedText } from './localization'
+import { normalizeSearchText } from './searchText'
+import { skillAnchorForFields } from './skillAnchors'
 
 export type SearchMode = 'quick' | 'deep'
 
 // ──────────────────────────────────────────
-// Data bundle — injected from main thread
+// Data bundle, injected from main thread
 // ──────────────────────────────────────────
 
 export interface SearchDataBundle {
@@ -135,7 +137,7 @@ const grapplingTermAliases: Record<string, string[]> = {
   triangle: ['triangle', 'triangle choke', 'one shoulder in one shoulder out', 'foot hidden behind knee', 'tam giac', 'tam giác', 'mot vai trong mot vai ngoai', 'triangle étranglement', 'triangle etranglement'],
   omoplata: ['omoplata', 'shoulder clamp', 'hip angle shoulder lock', 'khoa vai', 'khóa vai', 'kep vai', 'épaule clamp', 'cle epaule', 'clé épaule'],
   'arm triangle': ['arm triangle', 'tam giac tay', 'triangle de bras'],
-  'straight ankle lock': ['straight ankle lock', 'ankle lock', 'khoa co chan', 'bẻ cổ chân', 'cle de cheville'],
+  'Straight Ankle Lock': ['Straight Ankle Lock', 'ankle lock', 'khoa co chan', 'bẻ cổ chân', 'cle de cheville'],
   'heel hook': ['heel hook', 'be got', 'crochet de talon'],
   'single leg x': ['single leg x', 'slx', 'single-leg-x', 'singlelegx'],
   'k Guard': ['k Guard', 'k-Guard', 'kguard'],
@@ -179,10 +181,30 @@ const grapplingTermAliases: Record<string, string[]> = {
   'compression safety': ['compression safety', 'compression vs strangle', 'smother distress', 'an toan nen ep', 'sécurité compression'],
 }
 
+/**
+ * The alias table above is written for humans, so its keys keep their casing
+ * ("Guillotine", "Front Headlock"). Lookups must not depend on that: index both
+ * sides in the same folded form so "guillotine" finds the "Guillotine" row.
+ */
+const normalizedAliases: Record<string, string[]> = Object.fromEntries(
+  Object.entries(grapplingTermAliases).map(([key, values]) => [
+    normalizeSearchTerm(key),
+    [...new Set(values.map((value) => normalizeSearchTerm(value)))].filter(Boolean),
+  ]),
+)
+
+/**
+ * Aliases for a single search term, looked up in folded form so the row is
+ * found no matter how the term or the table entry is cased. Returns `undefined`
+ * when the term is not an alias key.
+ */
+export const resolveSearchAliases = (term: string): string[] | undefined =>
+  normalizedAliases[normalizeSearchTerm(term)]
+
 const processSearchTerm = (term: string) => {
   const normalized = normalizeSearchTerm(term)
   if (!normalized) return false
-  return grapplingTermAliases[normalized] ?? normalized
+  return resolveSearchAliases(normalized) ?? normalized
 }
 
 const tokenizeSearchText = (text: string) => text.split(/[^\p{Letter}\p{Number}]+/u).filter(Boolean)
@@ -197,15 +219,15 @@ const buildQueryVariants = (query: string) => {
   const tokens = tokenizeSearchText(normalized).filter((token) => token.length >= 2)
   tokens.forEach((token) => variants.add(token))
 
-  Object.entries(grapplingTermAliases).forEach(([key, values]) => {
-    const keyNormalized = normalizeSearchTerm(key)
-    if (normalized.includes(keyNormalized)) values.forEach((value) => variants.add(normalizeSearchTerm(value)))
+  Object.entries(normalizedAliases).forEach(([keyNormalized, values]) => {
+    if (!keyNormalized) return
+    if (normalized.includes(keyNormalized)) values.forEach((value) => variants.add(value))
     if (keyNormalized.includes(normalized)) {
       variants.add(keyNormalized)
-      values.forEach((value) => variants.add(normalizeSearchTerm(value)))
+      values.forEach((value) => variants.add(value))
     }
-    values.forEach((value) => {
-      const valueNormalized = normalizeSearchTerm(value)
+    values.forEach((valueNormalized) => {
+      if (!valueNormalized) return
       if (normalized.includes(valueNormalized)) variants.add(keyNormalized)
       if (valueNormalized.includes(normalized)) {
         variants.add(keyNormalized)
@@ -343,23 +365,10 @@ const skillDocument = (skill: SkillNode, lang: LanguageCode, mode: SearchMode): 
   }
 }
 
-const anchorByFieldName: Record<string, string> = {
-  'quick card': 'system-logic',
-  'system logic': 'system-logic',
-  'micro details': 'details',
-  'micro detail system': 'details',
-  'blackbelt details': 'details',
-  'details': 'details',
-  'quality checklist': 'etails',
-  'fix it fast': 'fix-it-fast',
-  safety: 'safety',
-  'next step': 'next-step',
-}
-
 const withSectionAnchor = (url: string, matchedFields: string[]) => {
   if (!url.startsWith('/skills/')) return url
   const cleanUrl = url.replace(/\?(layer|section)=[^#]+/, '')
-  const anchor = matchedFields.map((fieldName) => anchorByFieldName[fieldName]).find(Boolean)
+  const anchor = skillAnchorForFields(matchedFields)
   return anchor ? `${cleanUrl}#${anchor}` : cleanUrl
 }
 
@@ -595,30 +604,44 @@ export const syncSearchKnowledge = (
   const queryTokens = tokenizeSearchText(queryNorm).filter((token) => token.length >= 2)
 
   // ── Snippet extraction helper ───────────────────────────────────────
+  // Content keeps its diacritics, but Vietnamese is commonly typed without
+  // them ("khoa tay" for "khóa tay"), so match against a folded copy and slice
+  // the original with those offsets. `normalizeSearchText` is length-preserving
+  // for NFC text, which is what keeps the offsets valid.
   const extractSnippet = (contentText: string, queryNorm: string): string | undefined => {
     const rawContent = contentText || ''
     if (!rawContent) return undefined
 
-    // Try exact query match first
-    const exactIdx = rawContent.indexOf(queryNorm)
-    if (exactIdx !== -1) {
-      const start = Math.max(0, exactIdx - 50)
-      const end = Math.min(rawContent.length, exactIdx + queryNorm.length + 50)
+    const foldedContent = normalizeSearchText(rawContent)
+    const offsetsAlign = foldedContent.length === rawContent.length
+
+    const locate = (needle: string): number => {
+      if (offsetsAlign) {
+        const foldedIdx = foldedContent.indexOf(needle)
+        if (foldedIdx !== -1) return foldedIdx
+      }
+      // Content that folding changes the length of (non-NFC input) would make
+      // the folded offsets point at the wrong characters, so fall back to a
+      // direct match instead of slicing at a misaligned offset.
+      return rawContent.indexOf(needle)
+    }
+
+    const sliceAround = (index: number, length: number): string => {
+      const start = Math.max(0, index - 50)
+      const end = Math.min(rawContent.length, index + length + 50)
       const prefix = start > 0 ? '…' : ''
       const suffix = end < rawContent.length ? '…' : ''
       return `${prefix}${rawContent.slice(start, end)}${suffix}`
     }
 
-    // Try token matches
+    // Try exact query match first (query terms are already folded).
+    const exactIdx = locate(queryNorm)
+    if (exactIdx !== -1) return sliceAround(exactIdx, queryNorm.length)
+
+    // Then fall back to any matching token.
     for (const token of queryTokens) {
-      const idx = rawContent.indexOf(token)
-      if (idx !== -1) {
-        const start = Math.max(0, idx - 50)
-        const end = Math.min(rawContent.length, idx + token.length + 50)
-        const prefix = start > 0 ? '…' : ''
-        const suffix = end < rawContent.length ? '…' : ''
-        return `${prefix}${rawContent.slice(start, end)}${suffix}`
-      }
+      const idx = locate(token)
+      if (idx !== -1) return sliceAround(idx, token.length)
     }
 
     return undefined

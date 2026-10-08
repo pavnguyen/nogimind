@@ -3,7 +3,7 @@
   "domain": "submission_systems",
   "level": "advanced",
   "status": "draft",
-  "name": "gogoplata",
+  "name": "Gogoplata",
   "aliases": [],
   "tags": [
     "gogoplata",
@@ -68,42 +68,42 @@
   },
   "locale": "fr",
   "description": "Un étranglement qui utilise le tibia sur la gorge de l'adversaire doit être différencié d'une manivelle en s'assurant que le tibia est en travers de la gorge, et non de la mâchoire ou de la colonne cervicale.",
-  "shortInstruction": "Tibia en travers de la gorge, abaissez la tête, serrez – le gogoplata est un étranglement du tibia, pas une manivelle.",
-  "summary": "Le gogoplata est un starter No-Gi avancé dans lequel vous utilisez votre propre tibia pour comprimer la gorge de l'adversaire tout en tirant sa tête vers le bas avec vos mains. Il est généralement configuré à partir de caoutchouc Guard ou de haut Guard. La distinction essentielle en matière de sécurité se situe entre un étranglement sanguin (tibia sur la gorge, comprimant la trachée et les carotides) et une manivelle cervicale (tibia sur le menton ou la colonne cervicale). Le gogoplata est un starter légitime lorsqu'il est appliqué correctement, mais il est facile de l'appliquer accidentellement comme une manivelle.",
+  "shortInstruction": "Tibia en travers de la gorge, abaissez la tête, serrez – le Gogoplata est un étranglement du tibia, pas une manivelle.",
+  "summary": "Le Gogoplata est un starter No-Gi avancé dans lequel vous utilisez votre propre tibia pour comprimer la gorge de l'adversaire tout en tirant sa tête vers le bas avec vos mains. Il est généralement configuré à partir de caoutchouc Guard ou de haut Guard. La distinction essentielle en matière de sécurité se situe entre un étranglement sanguin (tibia sur la gorge, comprimant la trachée et les carotides) et une manivelle cervicale (tibia sur le menton ou la colonne cervicale). Le Gogoplata est un starter légitime lorsqu'il est appliqué correctement, mais il est facile de l'appliquer accidentellement comme une manivelle.",
   "whyItWorks": [
     "Le tibia est un levier solide et rigide – il crée une pression plus directe qu’un étranglement de l’avant-bras.",
-    "Il s'agit d'une attaque inattendue de Guard — la plupart des adversaires ne s'attendent pas à avoir un tibia sur la gorge.",
-    "Le gogoplata crée un dilemme : défendez le tibia sur votre gorge ou défendez le armbar sur votre bras posté.",
+    "Il s'agit d'une attaque inattendue de Guard, la plupart des adversaires ne s'attendent pas à avoir un tibia sur la gorge.",
+    "Le Gogoplata crée un dilemme : défendez le tibia sur votre gorge ou défendez le Armbar sur votre bras posté.",
     "Principe Danaher : les étranglements de jambe sont puissants car ils utilisent les os les plus solides du corps (tibias) contre la zone la plus vulnérable (cou)."
   ],
   "commonMistakes": [
     "Laisser le tibia glisser jusqu'au visage ou au menton - cela transforme un étranglement en une manivelle.",
     "Ne pas tirer la tête de l'adversaire vers le bas - le fait de tirer la tête crée une connexion entre le tibia et la gorge.",
-    "En utilisant le caoutchouc Guard de manière excessive, le gogoplata peut être configuré à partir d'un Guard élevé régulier.",
-    "Forcer le starter lorsque l'angle n'est pas là - gogoplata nécessite un positionnement spécifique."
+    "En utilisant le caoutchouc Guard de manière excessive, le Gogoplata peut être configuré à partir d'un Guard élevé régulier.",
+    "Forcer le starter lorsque l'angle n'est pas là - Gogoplata nécessite un positionnement spécifique."
   ],
   "coachingCues": [
     "Tibia sur la gorge, pas sur le menton.",
     "Tirez la tête vers le bas, ne poussez pas le tibia vers le haut.",
     "Si leur menton est sur votre tibia, vous démarrez – ajustez.",
-    "gogoplata est un étranglement - si cela n'en a pas l'air, c'est faux."
+    "Gogoplata est un étranglement - si cela n'en a pas l'air, c'est faux."
   ],
   "safetySummary": [
     "Assurez-vous absolument que votre tibia se trouve en face de la GORGE, et non du visage ou de la colonne cervicale.",
     "Un tibia au menton ou à la mâchoire peut causer de graves blessures au cou – il s’agit d’une manivelle, pas d’un étranglement.",
-    "Relâchez immédiatement au robinet - le gogoplata peut être extrêmement inconfortable même à basse pression.",
-    "À utiliser avec prudence : le gogoplata est interdit dans certaines règles de compétition."
+    "Relâchez immédiatement au robinet - le Gogoplata peut être extrêmement inconfortable même à basse pression.",
+    "À utiliser avec prudence : le Gogoplata est interdit dans certaines règles de compétition."
   ],
   "systemLogic": {
     "corePrinciple": "Caoutchouc Guard ou haut Guard : amenez votre pied sur votre épaule opposée → tibia sur sa gorge → abaissez sa tête → serrez.",
     "decisionTree": [
       {
         "condition": "Application générale",
-        "action": "Le gogoplata fonctionne comme une chaîne à partir du caoutchouc Guard : s'ils défendent le balayage, attaquez le gogoplata."
+        "action": "Le Gogoplata fonctionne comme une chaîne à partir du caoutchouc Guard : s'ils défendent le balayage, attaquez le Gogoplata."
       },
       {
         "condition": "ils défendent en prenant des postures",
-        "action": "passez à un triangle ou armbar."
+        "action": "passez à un Triangle ou Armbar."
       }
     ],
     "exitStrategies": []
@@ -114,7 +114,7 @@
     "Votre pied libre doit s'accrocher à votre propre cheville pour verrouiller la position de la jambe.",
     "Gardez vos hanches mobiles – ajustez l’angle jusqu’à ce que le starter soit propre."
   ],
-  "nextStep": "Après le gogoplata, apprenez le système en caoutchouc Guard et le starter triangle.",
+  "nextStep": "Après le Gogoplata, apprenez le système en caoutchouc Guard et le starter Triangle.",
   "fixItFast": [
     "Shin continue de glisser jusqu'à son menton ? Tirez la tête plus fort vers le bas – le changement d’angle fait descendre le tibia vers la gorge.",
     "Ils vous attrapent le pied ? Nagez votre pied de l’autre côté de son cou.",

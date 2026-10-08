@@ -46,7 +46,7 @@
   "keyCorrections": [
     "Nếu họ thả lỏng cánh tay, khả năng kiểm soát cổ tay của bạn yếu - hãy giữ chặt lại bằng cách giữ hai chọi một mạnh hơn.",
     "Nếu bạn không thể hoàn thành thì khả năng xoay hông của bạn là chưa đủ - hãy xoay hông ra xa chúng hơn.",
-    "Nếu họ xếp chồng lên nhau, hãy thả baratoplata ra và đặt lại - đừng chống lại ngăn xếp."
+    "Nếu họ xếp chồng lên nhau, hãy thả Baratoplata ra và đặt lại - đừng chống lại ngăn xếp."
   ],
   "version": 1,
   "updatedAt": "2026-05-21T00:24:30.771Z",
@@ -60,25 +60,25 @@
     "hasStateMachine": false
   },
   "locale": "vi",
-  "description": "Một đòn khóa vai của Guard sử dụng chân và góc hông để cô lập vai của đối phương — về kết quả tương tự như kimura nhưng tấn công từ một góc khác với sự tham gia của chân.",
-  "shortInstruction": "Kiểm soát cổ tay, giữ cánh tay bằng chân, xoay hông - baratoplata là một kimura được hỗ trợ bằng chân từ một góc độ khác.",
-  "summary": "Baratoplata là một khóa vai mạnh mẽ kết hợp các yếu tố của omoplata và kimura. Không giống như kimura (sử dụng cả hai tay trên cánh tay), baratoplata sử dụng một trong hai chân của bạn để ghim cánh tay của họ vào cơ thể bạn trong khi bạn xoay hông để áp dụng khóa vai. Điều này tạo ra những góc độc đáo mà kimura không thể tiếp cận và có thể bắt được những đối thủ đang tập trung bảo vệ các mục kimura tiêu chuẩn.",
+  "description": "Một đòn khóa vai của Guard sử dụng chân và góc hông để cô lập vai của đối phương, về kết quả tương tự như Kimura nhưng tấn công từ một góc khác với sự tham gia của chân.",
+  "shortInstruction": "Kiểm soát cổ tay, giữ cánh tay bằng chân, xoay hông - Baratoplata là một Kimura được hỗ trợ bằng chân từ một góc độ khác.",
+  "summary": "Baratoplata là một khóa vai mạnh mẽ kết hợp các yếu tố của Omoplata và Kimura. Không giống như Kimura (sử dụng cả hai tay trên cánh tay), Baratoplata sử dụng một trong hai chân của bạn để ghim cánh tay của họ vào cơ thể bạn trong khi bạn xoay hông để áp dụng khóa vai. Điều này tạo ra những góc độc đáo mà Kimura không thể tiếp cận và có thể bắt được những đối thủ đang tập trung bảo vệ các mục Kimura tiêu chuẩn.",
   "whyItWorks": [
     "Sử dụng chân của bạn để bẫy cánh tay của họ sẽ giải phóng một tay của bạn để giữ thăng bằng hoặc chiến đấu cầm nắm.",
-    "Baratoplata tấn công vai từ một góc mà tiêu chuẩn kimura không che được.",
-    "Có thể nhập nó từ các vị trí mà kimura khó (Guard, Half Guard).",
-    "Nguyên tắc Danaher: mọi khớp phải bị tấn công từ nhiều góc độ — baratoplata bao phủ góc mà kimura trượt."
+    "Baratoplata tấn công vai từ một góc mà tiêu chuẩn Kimura không che được.",
+    "Có thể nhập nó từ các vị trí mà Kimura khó (Guard, Half Guard).",
+    "Nguyên tắc Danaher: mọi khớp phải bị tấn công từ nhiều góc độ - Baratoplata bao phủ góc mà Kimura trượt."
   ],
   "commonMistakes": [
     "Không kiểm soát cổ tay trước khi thực hiện bẫy chân - họ sẽ rút cánh tay của mình ra.",
     "Để cánh tay bị mắc kẹt trượt ra khỏi dưới chân bạn - chân phải ghim cánh tay vào cơ thể bạn.",
     "Dựa vào sức mạnh của cánh tay để kết thúc thay vì xoay hông - kết thúc đến từ việc xoay hông của bạn.",
-    "Quên kiểm soát posture của họ — nếu họ posture, baratoplata sẽ mất góc."
+    "Quên kiểm soát posture của họ, nếu họ posture, Baratoplata sẽ mất góc."
   ],
   "coachingCues": [
     "Đầu tiên là cổ tay, chân thứ hai, hông thứ ba.",
     "Bẫy cánh tay, xoay hông, kết thúc vai.",
-    "Nếu họ bảo vệ kimura, hãy tấn công baratoplata.",
+    "Nếu họ bảo vệ Kimura, hãy tấn công Baratoplata.",
     "Chân làm việc - cánh tay chỉ hướng dẫn."
   ],
   "safetySummary": [
@@ -87,15 +87,15 @@
     "Luôn kiểm soát posture của chúng để ngăn chúng rơi vào chân bạn."
   ],
   "systemLogic": {
-    "corePrinciple": "kimura nỗ lực cầm vợt: đối thủ bảo vệ kimura → chuyển sang tư thế baratoplata: đưa chân của bạn qua cánh tay của họ → xoay hông → kết thúc.",
+    "corePrinciple": "Kimura nỗ lực cầm vợt: đối thủ bảo vệ Kimura → chuyển sang tư thế Baratoplata: đưa chân của bạn qua cánh tay của họ → xoay hông → kết thúc.",
     "decisionTree": [
       {
         "condition": "Baratoplata cũng có thể được nhập trực tiếp từ Guard: kiểm soát cổ tay của họ",
         "action": "giữ cánh tay bằng chân → xoay."
       },
       {
-        "condition": "họ bảo vệ baratoplata bằng cách kéo cánh tay của họ",
-        "action": "chuyển về kimura."
+        "condition": "họ bảo vệ Baratoplata bằng cách kéo cánh tay của họ",
+        "action": "chuyển về Kimura."
       }
     ],
     "exitStrategies": []
@@ -106,7 +106,7 @@
     "Xoay hông ra xa họ khi bạn kéo cổ tay họ về phía mình - chuyển động xoay sẽ tạo ra khóa vai.",
     "Giữ chân còn lại của bạn trên hông của họ để kiểm soát khoảng cách của họ - điều này ngăn cản họ tạo tư thế."
   ],
-  "nextStep": "Sau baratoplata, hãy tìm hiểu hệ thống kimura và omoplata để xây dựng hệ thống tấn công vai hoàn chỉnh.",
+  "nextStep": "Sau Baratoplata, hãy tìm hiểu hệ thống Kimura và Omoplata để xây dựng hệ thống tấn công vai hoàn chỉnh.",
   "fixItFast": [
     "Cánh tay cứ trượt? Ghim nó mạnh hơn bằng chân của bạn vào ngực.",
     "Không thể xoay? Hông của bạn bị kẹt - hãy nâng hông lên và xoay cơ thể ra khỏi chúng.",

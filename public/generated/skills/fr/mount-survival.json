@@ -58,15 +58,15 @@
   "locale": "fr",
   "description": "Protégez le cou, les coudes et les hanches lorsque l'adversaire mounts et commence à séparer vos bras. La survie dans Mount est une course contre la montre : plus ils s'installent longtemps, plus la fuite est difficile.",
   "shortInstruction": "Gardez les coudes serrés contre les côtes, le cadre sur les hanches, le pont pour déséquilibrer avant qu'ils ne s'installent et ne les laissez jamais isoler vos bras au-dessus de votre tête.",
-  "summary": "La survie de Mount nécessite d'empêcher l'adversaire d'établir un Mount élevé en gérant trois voies d'attaque : la voie d'isolement des bras (coudes évasés = armbar ou attaques d'épaule), la voie du cou (coudes hauts = étranglement du col ou crossface) et la voie des hanches (genoux hauts = progression élevée de Mount). La survie est active et non passive : de petits ajustements et des bosses au bon moment empêchent l'adversaire de régler son poids.",
+  "summary": "La survie de Mount nécessite d'empêcher l'adversaire d'établir un Mount élevé en gérant trois voies d'attaque : la voie d'isolement des bras (coudes évasés = Armbar ou attaques d'épaule), la voie du cou (coudes hauts = étranglement du col ou crossface) et la voie des hanches (genoux hauts = progression élevée de Mount). La survie est active et non passive : de petits ajustements et des bosses au bon moment empêchent l'adversaire de régler son poids.",
   "whyItWorks": [
-    "Garder les coudes serrés contre les côtes empêche l'adversaire de traîner vos bras au-dessus de votre tête pendant armbar entrées.",
+    "Garder les coudes serrés contre les côtes empêche l'adversaire de traîner vos bras au-dessus de votre tête pendant Armbar entrées.",
     "De petits ponts (bosses) bien synchronisés empêchent l'adversaire de déposer tout son poids, l'obligeant constamment à réajuster sa base.",
     "Un cadre d'avant-bras sur les hanches empêche l'adversaire de glisser ses genoux vers vos aisselles (progression élevée de Mount)",
     "Protéger le cou avec une défense croisée des bras (avant-bras croisés sur le visage/le cou) permet de gagner du temps contre les étranglements de collier et les crossfaces"
   ],
   "commonMistakes": [
-    "Laisser l'adversaire épingler vos bras sur le tapis au-dessus de votre tête - c'est le pré-requis pour chaque Mount armbar",
+    "Laisser l'adversaire épingler vos bras sur le tapis au-dessus de votre tête - c'est le pré-requis pour chaque Mount Armbar",
     "Permettre aux genoux de l'adversaire de glisser au-delà de la ligne de vos hanches (haut Mount) - à partir de là, leur poids coince vos épaules",
     "Cadre sur la poitrine plutôt que sur les hanches : un cadre de poitrine s'effondre facilement et n'empêche pas une progression élevée de Mount",
     "Pontage explosif sans recadrage : vous gaspillez de l'énergie et restez dans la même position"
@@ -78,7 +78,7 @@
     "Genoux sous la ligne des hanches"
   ],
   "safetySummary": [
-    "Les Mount armbar peuvent provoquer une hyperextension ou une luxation du coude : appuyez au moment où le bras est complètement étendu.",
+    "Les Mount Armbar peuvent provoquer une hyperextension ou une luxation du coude : appuyez au moment où le bras est complètement étendu.",
     "Si vous sentez que votre bras est isolé au-dessus de votre tête, tapotez avant qu'il ne puisse étendre le coude.",
     "Ne faites pas de pont de manière explosive si vous sentez que l'adversaire a déjà isolé votre bras - cela peut provoquer des blessures à l'épaule ou au coude.",
     "La pression de crossface de Mount peut fatiguer le cou ; tournez toujours la tête vers le tapis lorsque la pression apparaît."
@@ -88,7 +88,7 @@
     "decisionTree": [
       {
         "condition": "L'adversaire saisit votre manche et tire pour isoler votre bras",
-        "action": "Faites pivoter votre bras en tirant (ne résistez pas) et frappez à nouveau vers votre poitrine. Si le bras reste coincé au-dessus de votre tête, l'entrée armbar est définie."
+        "action": "Faites pivoter votre bras en tirant (ne résistez pas) et frappez à nouveau vers votre poitrine. Si le bras reste coincé au-dessus de votre tête, l'entrée Armbar est définie."
       },
       {
         "condition": "Les genoux de l'adversaire glissent au-delà de la ligne de vos hanches",
@@ -96,7 +96,7 @@
       },
       {
         "condition": "L'adversaire se redresse pour attaquer le cou",
-        "action": "Croisez vos avant-bras sur votre visage/cou dans une coque défensive. Gardez les bras connectés à votre torse – les bras évasés exposent le armbar."
+        "action": "Croisez vos avant-bras sur votre visage/cou dans une coque défensive. Gardez les bras connectés à votre torse – les bras évasés exposent le Armbar."
       },
       {
         "condition": "L'adversaire met vos jambes en vigne",
@@ -110,7 +110,7 @@
     "exitStrategies": [
       "S'ils atteignent un Mount élevé (genoux aux aisselles), faites un pont fort d'un côté, emprisonnez leur pied le plus éloigné avec votre main et faites-les rouler en récupération Guard.",
       "Si le bras est déjà isolé au-dessus de votre tête, tapotez avant qu’il puisse hyperétendre le coude – ne faites pas de pont avec un bras isolé.",
-      "Si la survie de Mount échoue, donnez la priorité à la défense de la voie des bras : garder les coudes serrés empêche l'attaque la plus dangereuse (armbar)."
+      "Si la survie de Mount échoue, donnez la priorité à la défense de la voie des bras : garder les coudes serrés empêche l'attaque la plus dangereuse (Armbar)."
     ]
   },
   "moneyDetails": [

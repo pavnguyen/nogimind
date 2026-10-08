@@ -76,7 +76,7 @@
   "searchBoost": 0.85,
   "keyCorrections": [
     "Si vous ne pouvez pas terminer, votre piège à pied est trop lâche – resserrez son pied contre votre hanche.",
-    "S'ils roulent, suivez leur rotation de hanche – relâchez le verrou et réattaquez à partir de saddle.",
+    "S'ils roulent, suivez leur rotation de hanche – relâchez le verrou et réattaquez à partir de Saddle.",
     "Si vous sentez une résistance au niveau du genou, relâchez la pression – ne forcez pas la rotation."
   ],
   "version": 1,
@@ -90,9 +90,9 @@
     "hasStateMachine": false
   },
   "locale": "fr",
-  "description": "Une soumission moderne de verrouillage de jambe à partir d'une seule jambe X (SLX) ou 50/50 qui combine la pression ankle lock avec la mécanique de rotation heel hook - attaquant simultanément le genou et la cheville de l'adversaire.",
-  "shortInstruction": "À partir de SLX, underhook la jambe la plus proche, amenez votre jambe extérieure sur leur cuisse, coincez leur pied au niveau de votre hanche, faites pivoter vos hanches vers le tapis – combinez la cheville et heel hook pour terminer.",
-  "summary": "Le Z-lock est une soumission hybride de verrouillage de jambe qui combine des éléments du ankle lock et du heel hook en une seule attaque dévastatrice. Provenant de positions telles que X à une jambe (SLX) et 50/50 Guard, il utilise une configuration de jambe unique pour piéger et serrer la jambe de l'adversaire. La position offre un excellent contrôle et peut être utilisée à la fois comme soumission finale et comme position de transition vers d'autres attaques de jambes comme le saddle ou le cross ashi garami. Il est particulièrement efficace dans les systèmes No-Gi et les systèmes modernes de verrouillage des jambes.",
+  "description": "Une soumission moderne de verrouillage de jambe à partir d'une seule jambe X (SLX) ou 50/50 qui combine la pression ankle lock avec la mécanique de rotation Heel Hook - attaquant simultanément le genou et la cheville de l'adversaire.",
+  "shortInstruction": "À partir de SLX, underhook la jambe la plus proche, amenez votre jambe extérieure sur leur cuisse, coincez leur pied au niveau de votre hanche, faites pivoter vos hanches vers le tapis – combinez la cheville et Heel Hook pour terminer.",
+  "summary": "Le Z-lock est une soumission hybride de verrouillage de jambe qui combine des éléments du ankle lock et du Heel Hook en une seule attaque dévastatrice. Provenant de positions telles que X à une jambe (SLX) et 50/50 Guard, il utilise une configuration de jambe unique pour piéger et serrer la jambe de l'adversaire. La position offre un excellent contrôle et peut être utilisée à la fois comme soumission finale et comme position de transition vers d'autres attaques de jambes comme le Saddle ou le cross ashi garami. Il est particulièrement efficace dans les systèmes No-Gi et les systèmes modernes de verrouillage des jambes.",
   "whyItWorks": [
     "Combine deux vecteurs d'attaque (cheville + genou) simultanément, créant un dilemme pour l'adversaire : défendre l'un expose l'autre.",
     "Utilise la rotation des hanches et le poids du corps plutôt que la simple force des bras, ce qui le rend mécaniquement efficace.",
@@ -125,7 +125,7 @@
     "decisionTree": [
       {
         "condition": "Application générale",
-        "action": "Les chaînes Z-lock avec le saddle : si elles roulent pour échapper au Z-lock, entrez le saddle."
+        "action": "Les chaînes Z-lock avec le Saddle : si elles roulent pour échapper au Z-lock, entrez le Saddle."
       },
       {
         "condition": "ils défendent en empilant",
@@ -140,10 +140,10 @@
     "Coincez son pied contre votre hanche en gardant votre genou serré contre son corps.",
     "La finition vient de la rotation de vos hanches vers le tapis tout en gardant le pied coincé – cela combine la pression de la cheville et du genou."
   ],
-  "nextStep": "Après le Z-lock, apprenez la commande saddle/inside sankaku et l'intérieur heel hook.",
+  "nextStep": "Après le Z-lock, apprenez la commande Saddle/Inside Sankaku et l'intérieur Heel Hook.",
   "fixItFast": [
     "La jambe continue de glisser ? Votre underhook est trop superficiel : creusez plus profondément sur la cuisse.",
     "Vous ne pouvez pas terminer ? Votre piège à pied est lâche – tirez-le plus fort contre votre hanche.",
-    "Ils roulent ? Suivez leurs hanches et entrez dans le saddle – ne vous battez pas."
+    "Ils roulent ? Suivez leurs hanches et entrez dans le Saddle – ne vous battez pas."
   ]
 }

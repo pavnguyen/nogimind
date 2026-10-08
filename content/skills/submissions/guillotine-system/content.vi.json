@@ -2,9 +2,9 @@
   "id": "guillotine-system",
   "locale": "vi",
   "name": "Guillotine Hệ thống",
-  "description": "Xây dựng Guillotine các mối đe dọa nghẹt thở từ Front Headlock, Guard và các cuộc tranh giành — ưu tiên góc, độ sâu cổ tay và sự an toàn của cổ hơn là vũ lực.",
+  "description": "Xây dựng Guillotine các mối đe dọa nghẹt thở từ Front Headlock, Guard và các cuộc tranh giành, ưu tiên góc, độ sâu cổ tay và sự an toàn của cổ hơn là vũ lực.",
   "shortInstruction": "Cổ tay sâu, khuỷu tay siết chặt, cắt góc, siết chặt - Guillotine là một tư thế, không chỉ là một cái nắm.",
-  "summary": "Guillotine là cuộn cảm Front Headlock dễ tiếp cận nhất và là cuộn cảm đầu tiên mà hầu hết các học viên BJJ đều học. Hệ thống này bao gồm nhiều biến thể: động tác giơ tay tiêu chuẩn Guillotine (từ Guard), động tác giơ tay ra Guillotine (từ Front Headlock), động tác đưa tay cao Guillotine (để thâm nhập cổ sâu hơn) và động tác Marcelotine (biến thể No-Gi của Marcelo Garcia). Nguyên tắc chính trong tất cả các biến thể là Guillotine là một vị trí — bạn phải kiểm soát tư thế của chúng và tạo góc trước khi siết chặt.",
+  "summary": "Guillotine là cuộn cảm Front Headlock dễ tiếp cận nhất và là cuộn cảm đầu tiên mà hầu hết các học viên BJJ đều học. Hệ thống này bao gồm nhiều biến thể: động tác giơ tay tiêu chuẩn Guillotine (từ Guard), động tác giơ tay ra Guillotine (từ Front Headlock), động tác đưa tay cao Guillotine (để thâm nhập cổ sâu hơn) và động tác Marcelotine (biến thể No-Gi của Marcelo Garcia). Nguyên tắc chính trong tất cả các biến thể là Guillotine là một vị trí, bạn phải kiểm soát tư thế của chúng và tạo góc trước khi siết chặt.",
   "whyItWorks": [
     "Guillotine tấn công vào cổ từ phía trước, nơi đầu và tư thế của hầu hết đối thủ tạo ra đường vào tự nhiên cho đòn siết cổ.",
     "Nó có sẵn ở hầu hết mọi vị trí: Front Headlock, Guard, tranh giành và hạ gục không thành công.",
@@ -21,10 +21,10 @@
     "Cổ tay sâu, khuỷu tay khép chặt, góc nhọn, siết chặt.",
     "Nếu bạn có thể nhìn thấy lưng họ thì góc của bạn đã sai - hãy cắt góc nhiều hơn.",
     "Tay vào là kiểm soát, tay ra là tốc độ - hãy chọn một cách khôn ngoan.",
-    "Guillotine là một cuộc đấu tranh giành tư thế — thắng thế, thắng nghẹt thở."
+    "Guillotine là một cuộc đấu tranh giành tư thế, thắng thế, thắng nghẹt thở."
   ],
   "safetySummary": [
-    "Guillotine nén cổ — áp dụng dần dần và thả ra khi nhấn.",
+    "Guillotine nén cổ, áp dụng dần dần và thả ra khi nhấn.",
     "Không quay đầu đối phương về phía trước - Guillotine sạch sẽ là nghẹt thở chứ không phải gập cổ.",
     "Chạm sớm nếu bạn cảm thấy áp lực lên cột sống cổ - một số biến thể Guillotine có thể gây chấn thương cổ."
   ],
@@ -46,7 +46,7 @@
       },
       {
         "condition": "họ bảo vệ Guillotine",
-        "action": "chuyển sang d'arce hoặc anaconda — cả ba tạo thành một chuỗi Front Headlock."
+        "action": "chuyển sang D'arce hoặc Anaconda, cả ba tạo thành một chuỗi Front Headlock."
       }
     ]
   },
@@ -60,6 +60,6 @@
   "fixItFast": [
     "Cổ tay quá nông? Trượt sâu hơn - cổ tay phải ở cột sống của họ chứ không phải da.",
     "Họ cứ làm ra vẻ thế à? Bước xa hơn sang một bên - góc này phá vỡ tư thế của họ.",
-    "Cánh tay bị đốt cháy? Dùng ngực để siết chặt — Guillotine chỉ dùng tay sẽ kiệt sức nhanh chóng."
+    "Cánh tay bị đốt cháy? Dùng ngực để siết chặt - Guillotine chỉ dùng tay sẽ kiệt sức nhanh chóng."
   ]
 }

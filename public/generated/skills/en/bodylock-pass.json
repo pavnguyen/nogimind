@@ -70,7 +70,7 @@
       {
         "order": 2,
         "name": "Head Offset",
-        "description": "Position head to one side to block shoulder crunch and frames."
+        "description": "Position head to one side to block Shoulder Crunch and frames."
       },
       {
         "order": 3,
@@ -107,11 +107,11 @@
     ]
   },
   "systemLogic": {
-    "corePrinciple": "The body lock pass is a hip-centric system — control the hips, and the legs follow. Lock position determines pass success more than upper-body pressure.",
+    "corePrinciple": "The Body Lock pass is a hip-centric system, control the hips, and the legs follow. Lock position determines pass success more than upper-body pressure.",
     "decisionTree": [
       {
         "condition": "Opponent has butterfly hooks active",
-        "action": "Drive chest weight through the hooks while keeping head offset — do not release lock until hooks are pinned to the mat."
+        "action": "Drive chest weight through the hooks while keeping head offset, do not release lock until hooks are pinned to the mat."
       },
       {
         "condition": "Opponent is flat on back with no hooks",
@@ -123,30 +123,30 @@
       },
       {
         "condition": "Opponent turns to their side (knee shield)",
-        "action": "Switch to over-under pass by releasing one side of the lock and pinning the near knee with your shoulder."
+        "action": "Switch to Over-Under pass by releasing one side of the lock and pinning the near knee with your shoulder."
       },
       {
         "condition": "Opponent gets underhooks and lifts you",
-        "action": "Posture up, re-connect chest to hips, and reset the lock — do not fight from a lifted position."
+        "action": "Posture up, re-connect chest to hips, and reset the lock, do not fight from a lifted position."
       }
     ],
     "exitStrategies": [
       "If passing fails, transition to Half Guard passing or headquarters control.",
       "If opponent creates too much space, stand and re-engage from a low passing stance.",
-      "If body lock is consistently countered, switch to over-under or leg drag passing."
+      "If Body Lock is consistently countered, switch to Over-Under or Leg Drag passing."
     ]
   },
   "keyCorrections": [
-    "If stuck, your head is centered — offset it to one side.",
+    "If stuck, your head is centered, offset it to one side.",
     "If they re-Guard, you released the lock too early.",
-    "If they shoulder crunch, your chest is too high."
+    "If they Shoulder Crunch, your chest is too high."
   ],
   "moneyDetails": [
-    "The head offset is the most underrated detail — it blocks shoulder crunch and hip rotation.",
+    "The head offset is the most underrated detail, it blocks Shoulder Crunch and hip rotation.",
     "Killing the butterfly hook is not optional; without it, your hips get lifted.",
-    "Release the body lock only after the knee line is past and Side Control is pinned."
+    "Release the Body Lock only after the knee line is past and Side Control is pinned."
   ],
-  "safetyNotes": "Watch your lower back — do not round it under pressure. Keep hips low to avoid being lifted.",
+  "safetyNotes": "Watch your lower back, do not round it under pressure. Keep hips low to avoid being lifted.",
   "fixItFast": [
     "Can't lock the hips? Drop your chest level and walk your knees wider.",
     "Getting lifted? Your chest is too high and the hook is still alive.",
@@ -170,12 +170,12 @@
   "whyItWorks": [
     "Locks both hips before the opponent can re-Guard or create frames.",
     "Turns upper-body pressure into lower-body immobility.",
-    "Denies butterfly hooks, shoulder crunch, and inside knee pummeling.",
+    "Denies butterfly hooks, Shoulder Crunch, and inside knee pummeling.",
     "Creates a dilemma between getting flattened or giving up the pass."
   ],
   "commonMistakes": [
     "Locking too high on the ribs instead of the hips.",
-    "Releasing the body lock before the knee line is cleared.",
+    "Releasing the Body Lock before the knee line is cleared.",
     "Letting the head sit centered between both hands.",
     "Ignoring the butterfly hook and rushing the knee line.",
     "Standing up too tall, losing chest-to-hip connection."
@@ -201,5 +201,5 @@
     "Release pressure immediately if your partner taps or shows distress.",
     "Do not crank the neck to force the pass."
   ],
-  "nextStep": "After stabilizing Side Control, transition to Mount, back control, or submission systems like arm triangle."
+  "nextStep": "After stabilizing Side Control, transition to Mount, back control, or submission systems like Arm Triangle."
 }

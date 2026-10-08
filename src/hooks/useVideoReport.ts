@@ -26,7 +26,7 @@ function saveReport(entry: ReportEntry) {
       localStorage.setItem(STORAGE_KEY, JSON.stringify(existing))
     }
   } catch {
-    // localStorage full or unavailable — silently ignore
+    // localStorage full or unavailable, silently ignore
   }
 }
 

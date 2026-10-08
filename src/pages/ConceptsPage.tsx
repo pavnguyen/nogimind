@@ -12,6 +12,8 @@ import { useConceptsQuery } from '../queries/conceptQueries'
 import { useSettingsStore } from '../stores/useSettingsStore'
 import type { ConceptCategory } from '../types/concept'
 import { getLocalizedArray, getLocalizedText } from '../utils/localization'
+import { haystackIncludesQuery, normalizeSearchQuery } from '../utils/searchText'
+import { formatTagLabel } from '../utils/tagLabel'
 
 export default function ConceptsPage() {
   const { t } = useTranslation()
@@ -23,10 +25,9 @@ export default function ConceptsPage() {
   const category = conceptCategories.includes(searchParams.get('category') as ConceptCategory) ? (searchParams.get('category') as ConceptCategory) : ''
 
   const filtered = useMemo(() => {
-    const normalized = query.trim().toLowerCase()
+    const normalizedQuery = normalizeSearchQuery(query)
     return concepts.filter((concept) => {
       if (category && concept.category !== category) return false
-      if (!normalized) return true
       const haystack = [
         getLocalizedText(concept.title, language),
         concept.title.en,
@@ -35,10 +36,8 @@ export default function ConceptsPage() {
         getLocalizedText(concept.deepExplanation, language),
         ...getLocalizedArray(concept.trainingCues, language),
         ...concept.tags,
-      ]
-        .join(' ')
-        .toLowerCase()
-      return haystack.includes(normalized)
+      ].join(' ')
+      return haystackIncludesQuery(haystack, normalizedQuery)
     })
   }, [category, concepts, language, query])
 
@@ -121,7 +120,7 @@ export default function ConceptsPage() {
               <p className="mt-2 line-clamp-2 text-sm leading-6 text-slate-400">{getLocalizedText(concept.shortDefinition, language)}</p>
               <div className="mt-4 flex flex-wrap items-center justify-between gap-3 border-t border-white/[0.06] pt-4">
                 <div className="flex flex-wrap gap-2">
-                  {concept.tags.slice(0, 3).map((tag) => <Badge key={tag}>{tag}</Badge>)}
+                  {concept.tags.slice(0, 3).map((tag) => <Badge key={tag}>{formatTagLabel(tag)}</Badge>)}
                 </div>
                 <div className="inline-flex items-center gap-1 text-sm font-medium text-emerald-200 opacity-0 transition-all transform translate-x-2 group-hover:opacity-100 group-hover:translate-x-0">
                   {t('common.open')}

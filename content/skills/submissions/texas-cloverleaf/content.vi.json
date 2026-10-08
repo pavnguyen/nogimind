@@ -2,24 +2,24 @@
   "id": "texas-cloverleaf",
   "locale": "vi",
   "name": "Lá cỏ ba lá Texas",
-  "description": "heel hook từ vị trí gặt với cấu hình chân độc đáo tạo ra áp lực quay trực tiếp lên đầu gối — được các chuyên gia khóa chân phổ biến trong No-Gi.",
-  "shortInstruction": "Thu gọn chân, điều khiển chân xa, xoay gót chân — Texas Cloverleaf là heel hook với một góc độc đáo so với vị trí thu.",
-  "summary": "Texas Cloverleaf là một biến thể heel hook sử dụng tư thế thu chân để tấn công đầu gối bằng áp lực xoay trực tiếp. Cái tên 'cỏ ba lá' xuất phát từ cách hai chân quấn vào nhau giống như cỏ bốn lá. Đây là một đòn đệ trình chuyên biệt có hiệu quả nhất từ ​​các cấu hình vướng chân cụ thể và thường được sử dụng như một đòn tấn công bất ngờ từ các vị trí không có heel hook tiêu chuẩn.",
+  "description": "Heel Hook từ vị trí gặt với cấu hình chân độc đáo tạo ra áp lực quay trực tiếp lên đầu gối, được các chuyên gia khóa chân phổ biến trong No-Gi.",
+  "shortInstruction": "Thu gọn chân, điều khiển chân xa, xoay gót chân - Texas Cloverleaf là Heel Hook với một góc độc đáo so với vị trí thu.",
+  "summary": "Texas Cloverleaf là một biến thể Heel Hook sử dụng tư thế thu chân để tấn công đầu gối bằng áp lực xoay trực tiếp. Cái tên 'cỏ ba lá' xuất phát từ cách hai chân quấn vào nhau giống như cỏ bốn lá. Đây là một đòn đệ trình chuyên biệt có hiệu quả nhất từ ​​các cấu hình vướng chân cụ thể và thường được sử dụng như một đòn tấn công bất ngờ từ các vị trí không có Heel Hook tiêu chuẩn.",
   "whyItWorks": [
-    "Vị trí gặt tạo ra một góc độc đáo mà tiêu chuẩn heel hook không bao gồm được.",
+    "Vị trí gặt tạo ra một góc độc đáo mà tiêu chuẩn Heel Hook không bao gồm được.",
     "Cấu hình chân bẫy chân xa của đối phương, khiến họ không thể lăn để trốn thoát.",
-    "Nó có thể được nhập từ các vị trí không có saddle.",
+    "Nó có thể được nhập từ các vị trí không có Saddle.",
     "Nguyên tắc của Danaher: mỗi đòn tấn công bằng chân phải có một sợi dây xích - Texas Cloverleaf là sợi dây xích từ gặt hái."
   ],
   "commonMistakes": [
-    "Áp dụng heel hook trước khi thiết lập hoàn toàn sự vướng chân — vị trí thu phải chắc chắn.",
+    "Áp dụng Heel Hook trước khi thiết lập hoàn toàn sự vướng chân, vị trí thu phải chắc chắn.",
     "Không kiểm soát được chân phụ - họ sẽ lao ra ngoài.",
-    "Sử dụng quá nhiều vòng quay quá nhanh — heel hook giây từ các vị trí thu hoạch đặc biệt nguy hiểm.",
-    "Thử chơi Texas Cloverleaf mà không có nền tảng cơ bản heel hook vững chắc."
+    "Sử dụng quá nhiều vòng quay quá nhanh - Heel Hook giây từ các vị trí thu hoạch đặc biệt nguy hiểm.",
+    "Thử chơi Texas Cloverleaf mà không có nền tảng cơ bản Heel Hook vững chắc."
   ],
   "coachingCues": [
     "Gạt sâu, khống chế chân xa, xoay người an toàn.",
-    "Texas Cloverleaf là một lớp hoàn thiện chuyên dụng — trước tiên hãy nắm vững tiêu chuẩn heel hook.",
+    "Texas Cloverleaf là một lớp hoàn thiện chuyên dụng, trước tiên hãy nắm vững tiêu chuẩn Heel Hook.",
     "Nếu bạn không thể tìm thấy gót chân, hãy điều chỉnh góc tiếp đất.",
     "Xoay chậm, hoàn thiện có kiểm soát."
   ],
@@ -36,25 +36,25 @@
     "Nếu chúng xếp chồng lên bạn, hãy thả ra và đặt lại - đừng chống lại chồng từ vị trí này."
   ],
   "systemLogic": {
-    "corePrinciple": "Quấn chân: vị trí thu gọn → điều khiển chân xa → tìm gót chân → căn chỉnh xoay → tạo áp lực heel hook chậm.",
+    "corePrinciple": "Quấn chân: vị trí thu gọn → điều khiển chân xa → tìm gót chân → căn chỉnh xoay → tạo áp lực Heel Hook chậm.",
     "decisionTree": [
       {
         "condition": "Ứng dụng chung",
-        "action": "Texas Cloverleaf là một biến thể nâng cao — chỉ nên thử sau khi nắm vững tiêu chuẩn bên trong heel hook."
+        "action": "Texas Cloverleaf là một biến thể nâng cao, chỉ nên thử sau khi nắm vững tiêu chuẩn bên trong Heel Hook."
       },
       {
-        "condition": "họ bảo vệ heel hook",
-        "action": "chuyển sang tiêu chuẩn saddle heel hook."
+        "condition": "họ bảo vệ Heel Hook",
+        "action": "chuyển sang tiêu chuẩn Saddle Heel Hook."
       }
     ]
   },
   "moneyDetails": [
     "Chân gặt phải ở tư thế gặt sâu - chân của bạn móc chân của họ từ bên trong, vượt qua đường đầu gối.",
     "Kiểm soát chân xa của họ bằng cách kẹp nó vào giữa hai chân của bạn hoặc tóm lấy mắt cá chân của họ.",
-    "Cách cầm heel hook là tiêu chuẩn: một tay đặt trên gót chân, một tay đặt trên ngón chân.",
+    "Cách cầm Heel Hook là tiêu chuẩn: một tay đặt trên gót chân, một tay đặt trên ngón chân.",
     "Xoay chậm - kết thúc là áp lực được kiểm soát chứ không phải tốc độ."
   ],
-  "nextStep": "Sau Texas Cloverleaf, hãy nắm vững tiêu chuẩn bên trong heel hook từ saddle.",
+  "nextStep": "Sau Texas Cloverleaf, hãy nắm vững tiêu chuẩn bên trong Heel Hook từ Saddle.",
   "fixItFast": [
     "Không thể tìm thấy gót chân? Điều chỉnh góc thu hoạch của bạn.",
     "Họ quay ra? Kiểm soát chân xa của họ mạnh mẽ hơn.",

@@ -1,5 +1,5 @@
 {
-  "id": "inverted-Guard",
+  "id": "inverted-guard",
   "locale": "vi",
   "title": "Inverted Guard",
   "category": "bottom_guard",
@@ -16,22 +16,22 @@
     "Nhận diện tín hiệu nguy hiểm sớm thay vì chờ vị trí ổn định."
   ],
   "controlPoints": [
-    "Điểm kiểm soát chính: Chân trên hip line, kết nối hông và angle..",
+    "Điểm kiểm soát chính: Chân trên hip line, kết nối hông và angle.",
     "Đầu, tay, hông và gối nên cùng hướng lực.",
     "Kết nối khuỷu-gối hoặc đường hông-vai quyết định vị trí còn sống hay đã bị khóa."
   ],
   "escapePriorities": [
-    "Ưu tiên thoát: Không để họ nối leg entry từ invert..",
+    "Ưu tiên thoát: Không để họ nối leg entry từ invert.",
     "Bảo vệ cổ, lưng, đường gối hoặc đường tay trước khi phản công.",
     "Nếu mất vị trí trong, hãy lùi lại một lớp phòng thủ trước."
   ],
   "advancementOptions": [
     {
       "action": "Chuyển K-Guard hoặc matrix entry",
-      "nextPositionId": "k-Guard-position",
+      "nextPositionId": "k-guard-position",
       "relatedSkillIds": [
-        "inverted-Guard-control",
-        "k-Guard-matrix",
+        "inverted-guard-control",
+        "k-guard-matrix",
         "false-reap-entry"
       ],
       "why": "Đây là nhánh tự nhiên khi bạn thắng điểm kiểm soát chính và đối thủ buộc phải phòng thủ."
@@ -44,8 +44,8 @@
     "Bạn phải chống tay dài để không ngã."
   ],
   "relatedSkillIds": [
-    "inverted-Guard-control",
-    "k-Guard-matrix",
+    "inverted-guard-control",
+    "k-guard-matrix",
     "false-reap-entry",
     "leg-lock-safety-basics"
   ],

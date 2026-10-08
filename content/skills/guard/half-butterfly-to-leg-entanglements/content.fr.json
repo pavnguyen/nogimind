@@ -2,31 +2,31 @@
   "id": "half-butterfly-to-leg-entanglements",
   "locale": "fr",
   "name": "Enchevêtrements du demi-papillon aux jambes",
-  "description": "Utilisez le demi-crochet papillon pour déséquilibrer l'adversaire, puis passez à K-Guard, piège à ours ou saddle lorsqu'il réagit à la pression du crochet.",
+  "description": "Utilisez le demi-crochet papillon pour déséquilibrer l'adversaire, puis passez à K-Guard, piège à ours ou Saddle lorsqu'il réagit à la pression du crochet.",
   "shortInstruction": "Demi-crochet papillon, déséquilibré, suit leur réaction jusqu'à l'enchevêtrement des jambes ou le balayage.",
-  "summary": "Le demi-papillon est le Guard de transition le plus fort du No-Gi moderne. Avec un crochet sur la jambe la plus proche et l'autre jambe encadrant la hanche, vous pouvez les déséquilibrer vers l'avant ou sur le côté. Leur réaction détermine votre entrée : s'ils se lèvent, rendez-vous à K-Guard ; s'ils reculent, entrez dans le piège à ours ; s'ils publient, entrez le saddle. Le demi-papillon est le moteur qui alimente l’ensemble du système d’attaque du bas du corps.",
+  "summary": "Le demi-papillon est le Guard de transition le plus fort du No-Gi moderne. Avec un crochet sur la jambe la plus proche et l'autre jambe encadrant la hanche, vous pouvez les déséquilibrer vers l'avant ou sur le côté. Leur réaction détermine votre entrée : s'ils se lèvent, rendez-vous à K-Guard ; s'ils reculent, entrez dans le piège à ours ; s'ils publient, entrez le Saddle. Le demi-papillon est le moteur qui alimente l’ensemble du système d’attaque du bas du corps.",
   "whyItWorks": [
     "Le demi-crochet papillon sur une jambe vous permet de contrôler leur base tout en gardant votre autre jambe libre de cadrer ou d'attaquer.",
     "Il fonctionne contre les passants debout et à genoux, ce qui en fait l'une des entrées Guard les plus polyvalentes.",
     "Le demi-papillon crée un dilemme : s’il avance, il alimente le balayage ; s'ils se tiennent dehors, ils alimentent l'enchevêtrement des jambes.",
-    "Philosophie Danaher/heel hook : le demi-papillon est l'entrée qui résout le problème de « comment accéder aux jambes à partir de Guard »."
+    "Philosophie Danaher/Heel Hook : le demi-papillon est l'entrée qui résout le problème de « comment accéder aux jambes à partir de Guard »."
   ],
   "commonMistakes": [
     "Laisser le demi-hameçon papillon s’aplatir ou se dénuder – le crochet doit rester actif à tout moment.",
     "Encadrer avec la jambe libre sur la hanche au lieu du biceps – le cadre de la hanche donne de l'espace, le cadre du biceps donne le contrôle.",
     "S'arrêter au demi-papillon au lieu de passer à la position suivante - le demi-papillon est une transition et non une finale.",
-    "Utiliser le crochet pour soulever au lieu de déséquilibrer — soulevez-les = ils postent ; les déséquilibrer = ils tombent."
+    "Utiliser le crochet pour soulever au lieu de déséquilibrer, soulevez-les = ils postent ; les déséquilibrer = ils tombent."
   ],
   "coachingCues": [
     "Accrochez-vous activement, cadrez les jambes libres, ressentez la réaction.",
     "Déséquilibrez d’abord, puis entrez – ne sautez jamais la configuration.",
-    "Le demi-papillon est la porte – K-Guard et saddle sont les chambres.",
+    "Le demi-papillon est la porte – K-Guard et Saddle sont les chambres.",
     "S'ils se lèvent, allez K-Guard. S'ils s'agenouillent, allez au piège à ours."
   ],
   "safetySummary": [
     "Gardez votre tête hors du tapis lorsque vous êtes en déséquilibre - protégez votre cou des compteurs Guillotine.",
     "N'étendez pas complètement vos jambes dans des enchevêtrements de jambes sans contrôler leur hanche - elles peuvent se libérer et contrer.",
-    "Lors de la transition vers saddle, gardez votre pied à l'extérieur de sa jambe pour éviter de récolter des pénalités."
+    "Lors de la transition vers Saddle, gardez votre pied à l'extérieur de sa jambe pour éviter de récolter des pénalités."
   ],
   "keyCorrections": [
     "S'ils aplatissent votre crochet, vous êtes trop à plat sur le dos – asseyez-vous sur votre coude le plus éloigné.",
@@ -34,7 +34,7 @@
     "S’ils avancent vers vous, utilisez leur élan pour entrer dans le piège à ours."
   ],
   "systemLogic": {
-    "corePrinciple": "Demi-crochet papillon sur la jambe proche : cadres de jambe libres sur la hanche/le biceps → déséquilibre vers l'avant ou sur le côté → lire leur réaction → saisir K-Guard, piège à ours ou saddle.",
+    "corePrinciple": "Demi-crochet papillon sur la jambe proche : cadres de jambe libres sur la hanche/le biceps → déséquilibre vers l'avant ou sur le côté → lire leur réaction → saisir K-Guard, piège à ours ou Saddle.",
     "decisionTree": [
       {
         "condition": "Utiliser la réaction 1",
@@ -46,7 +46,7 @@
       },
       {
         "condition": "Utiliser la réaction 3",
-        "action": "Ils reculent → entrée saddle → heel hook."
+        "action": "Ils reculent → entrée Saddle → Heel Hook."
       }
     ]
   },

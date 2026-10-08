@@ -62,9 +62,9 @@
   "nextSkillIds": [],
   "searchBoost": 1,
   "keyCorrections": [
-    "If the foot won't move: you didn't off-balance first — pull them onto the foot, then sweep",
-    "If you keep getting guillotined: your head is dropping — keep your head up and spine tall",
-    "If the sweep doesn't disrupt their base: your timing is off — sweep as the foot lands, not before"
+    "If the foot won't move: you didn't off-balance first, pull them onto the foot, then sweep",
+    "If you keep getting guillotined: your head is dropping, keep your head up and spine tall",
+    "If the sweep doesn't disrupt their base: your timing is off, sweep as the foot lands, not before"
   ],
   "version": 1,
   "updatedAt": "2026-05-28T00:00:00.000Z",
@@ -88,23 +88,23 @@
     "Constantly threatens even when you can't shoot for a double leg"
   ],
   "commonMistakes": [
-    "Sweeping without off-balancing first — the foot will be planted and cannot move",
+    "Sweeping without off-balancing first, the foot will be planted and cannot move",
     "Dropping your head forward during the sweep, exposing the Guillotine",
     "Using only leg strength instead of coordinating upper body pull",
-    "Sweeping too early or too late — timing is everything",
-    "Not chaining — a foot sweep should lead into a double leg if partially blocked"
+    "Sweeping too early or too late, timing is everything",
+    "Not chaining, a foot sweep should lead into a double leg if partially blocked"
   ],
   "coachingCues": [
     "Pull first, sweep second",
-    "The hands set up the sweep — create the reaction, then take it",
-    "Stay tall — head up, chest up throughout",
+    "The hands set up the sweep, create the reaction, then take it",
+    "Stay tall, head up, chest up throughout",
     "Sweep the foot as it touches, not before",
     "Chain sweeps: miss Kouchi → go Sasae → go double leg"
   ],
   "safetySummary": [
     "Keep your head up to avoid Guillotine counters when sweeping",
     "Be aware of the opponent snapping you down as you close distance",
-    "Foot sweeps are low-risk — you stay on your feet and maintain distance"
+    "Foot sweeps are low-risk, you stay on your feet and maintain distance"
   ],
   "systemLogic": {
     "corePrinciple": "Foot sweeps have 3 branches: Kouchi Gari → Sasae → De Ashi Harai",
@@ -115,22 +115,22 @@
       },
       {
         "condition": "Opponent posts weight forward",
-        "action": "Sasae — block their advancing foot and pull them over it"
+        "action": "Sasae, block their advancing foot and pull them over it"
       },
       {
         "condition": "Opponent circles away",
-        "action": "De Ashi Harai — catch their circling foot and sweep laterally"
+        "action": "De Ashi Harai, catch their circling foot and sweep laterally"
       }
     ],
     "exitStrategies": []
   },
   "moneyDetails": [
-    "Foot sweeps are the lowest-energy takedowns in no-gi — use them to tire opponents",
+    "Foot sweeps are the lowest-energy takedowns in no-gi, use them to tire opponents",
     "Garry Tonon and Gordon Ryan use foot sweeps to set up their entire standup game",
     "Mastering foot sweeps eliminates the need to 'muscle' takedowns against larger opponents"
   ],
   "fixItFast": [
-    "If foot won't move: off-balance first — pull and then sweep",
+    "If foot won't move: off-balance first, pull and then sweep",
     "If guillotined: keep your head up, stay tall",
     "If sweep fails: chain into a double leg immediately"
   ]

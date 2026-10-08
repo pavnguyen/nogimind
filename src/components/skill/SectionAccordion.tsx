@@ -44,7 +44,9 @@ export const SectionAccordion = ({
     <section
       id={id}
       className={cn(
-        'overflow-hidden rounded-2xl border bg-slate-950/35 shadow-[0_18px_45px_rgba(2,6,23,0.18)] transition-colors duration-200',
+        // scroll-mt keeps the sticky skill tabs bar from covering the section
+        // when a search deep link scrolls to this anchor.
+        'scroll-mt-32 overflow-hidden rounded-2xl border bg-slate-950/35 shadow-[0_18px_45px_rgba(2,6,23,0.18)] transition-colors duration-200',
         accentMap[accentColor],
       )}
     >

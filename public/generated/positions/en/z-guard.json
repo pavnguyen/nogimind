@@ -1,5 +1,5 @@
 {
-  "id": "z-Guard",
+  "id": "z-guard",
   "locale": "en",
   "title": "Z-Guard (93 Guard)",
   "category": "bottom_guard",
@@ -16,12 +16,12 @@
     "Recognize danger signals early instead of waiting for the position to settle."
   ],
   "controlPoints": [
-    "Main control point: Knee shield angle, underhook, and head position..",
+    "Main control point: Knee shield angle, underhook, and head position.",
     "Head, hands, hips, and knees should share the same force direction.",
     "The elbow-knee connection or hip-shoulder line determines whether the position is still alive or already locked."
   ],
   "escapePriorities": [
-    "Escape priority: Do not lose the underhook before transitioning to attack..",
+    "Escape priority: Do not lose the underhook before transitioning to attack.",
     "Protect the neck, back, knee line, or arm line before countering.",
     "If inside position is lost, reset one defensive layer first."
   ],
@@ -30,9 +30,9 @@
       "action": "Win the underhook to reach dogfight",
       "nextPositionId": "dogfight",
       "relatedSkillIds": [
-        "z-Guard-sweeps",
-        "half-Guard-knee-shield",
-        "half-Guard-wrestle-up"
+        "z-guard-sweeps",
+        "half-guard-knee-shield",
+        "half-guard-wrestle-up"
       ],
       "why": "This is the natural branch when you win the main control point and the opponent is forced to defend."
     }
@@ -44,9 +44,9 @@
     "You need a long hand post to avoid falling."
   ],
   "relatedSkillIds": [
-    "z-Guard-sweeps",
-    "half-Guard-knee-shield",
-    "half-Guard-wrestle-up",
+    "z-guard-sweeps",
+    "half-guard-knee-shield",
+    "half-guard-wrestle-up",
     "side-control-escape"
   ],
   "relatedConceptIds": [

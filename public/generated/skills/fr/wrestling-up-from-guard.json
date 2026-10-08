@@ -67,7 +67,7 @@
   "locale": "fr",
   "description": "wrestle up en position assise ou papillon Guard en utilisant tibia à tibia, 2 contre 1 ou underhook pour convertir en une seule jambe ou Front Headlock. La lutte vers le haut est la principale transition offensive à partir de Guard : elle convertit la position inférieure en une opportunité de retrait.",
   "shortInstruction": "À partir du Guard assis, remportez le underhook ou 2 contre 1, créez un angle de hanche, placez votre pied extérieur et conduisez vers une seule jambe. Si la jambe unique est bloquée, passez à un Front Headlock ou à une prise arrière.",
-  "summary": "La lutte depuis Guard transforme Guard d'une position défensive en une entrée de retrait offensif. La séquence utilise soit un underhook, un tibia à tibia ou un 2 contre 1 pour contrôler le haut du corps de l'adversaire pendant que vous êtes debout. En position debout, vous terminez avec une seule jambe, un body lock ou Front Headlock. La lutte est au cœur du système No-Gi Guard moderne : chaque joueur Guard assis doit disposer d'une lutte fiable pour empêcher l'adversaire de se lever et de passer.",
+  "summary": "La lutte depuis Guard transforme Guard d'une position défensive en une entrée de retrait offensif. La séquence utilise soit un underhook, un tibia à tibia ou un 2 contre 1 pour contrôler le haut du corps de l'adversaire pendant que vous êtes debout. En position debout, vous terminez avec une seule jambe, un Body Lock ou Front Headlock. La lutte est au cœur du système No-Gi Guard moderne : chaque joueur Guard assis doit disposer d'une lutte fiable pour empêcher l'adversaire de se lever et de passer.",
   "whyItWorks": [
     "La lutte punit l'adversaire pour s'être tenu dans votre Guard - s'il se tient debout, vous le rejoignez",
     "Le underhook et le 2-on-1 vous donnent un contrôle du haut du corps qui les empêche de sprawling ou de faire face en travers.",
@@ -89,14 +89,14 @@
   "safetySummary": [
     "Ne vous tenez pas le dos droit - cela expose le Guillotine et abandonne le underhook",
     "Si l'adversaire sprawl est alors que vous êtes debout, revenez à Guard plutôt que de combattre le sprawl.",
-    "Faites attention à la tension du genou lorsque vous postez en position assise Guard — échauffez-vous correctement"
+    "Faites attention à la tension du genou lorsque vous postez en position assise Guard, échauffez-vous correctement"
   ],
   "systemLogic": {
     "corePrinciple": "La lutte de Guard comporte trois systèmes d'entrée : underhook Entrée → Entrée Shin-to-Shin → Entrée 2 contre 1",
     "decisionTree": [
       {
         "condition": "Utilisation de l'entrée 1 (underhook)",
-        "action": "depuis la position assise Guard, frappez pour obtenir un underhook d'un côté. Votre autre main est posée sur le tapis. Lorsque vous êtes debout, le underhook les empêche de sprawling. Terminez avec une seule jambe ou un body lock"
+        "action": "depuis la position assise Guard, frappez pour obtenir un underhook d'un côté. Votre autre main est posée sur le tapis. Lorsque vous êtes debout, le underhook les empêche de sprawling. Terminez avec une seule jambe ou un Body Lock"
       },
       {
         "condition": "Utilisation de l'entrée 2 (Shin-to-Shin)",
@@ -108,13 +108,13 @@
       },
       {
         "condition": "Application générale",
-        "action": "chaque entrée mène aux mêmes arrivées : single leg, body lock, Front Headlock ou back take"
+        "action": "chaque entrée mène aux mêmes arrivées : single leg, Body Lock, Front Headlock ou Back Take"
       }
     ],
     "exitStrategies": []
   },
   "moneyDetails": [
-    "La lutte est la compétence offensive la plus importante dans le No-Gi Guard moderne — sans elle, votre Guard est purement défensif.",
+    "La lutte est la compétence offensive la plus importante dans le No-Gi Guard moderne, sans elle, votre Guard est purement défensif.",
     "Maîtriser la lutte vous donne la possibilité de marquer des retraits à partir de Guard, transformant ainsi l'ensemble de votre jeu de fond.",
     "La lutte est un élément essentiel de tous les systèmes No-Gi Guard de haut niveau (Dewey, Meregali, Ruotolos)."
   ],

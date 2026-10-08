@@ -56,7 +56,7 @@
   "keyCorrections": [
     "S'ils gardent le tibia : déposez plus de poids sur le genou posté - le tibia s'effondre sous le poids",
     "S'ils continuent de s'échapper de la hanche : passez au recul ou à la traînée de jambe : la coupe du genou ne fonctionnera pas sur de longues distances.",
-    "S'ils continuent d'attaquer votre jambe postée : laissez tomber le genou posté sur le tapis et passez à une passe bodylock."
+    "S'ils continuent d'attaquer votre jambe postée : laissez tomber le genou posté sur le tapis et passez à une passe Bodylock."
   ],
   "version": 1,
   "updatedAt": "2026-05-21T00:24:30.768Z",
@@ -70,9 +70,9 @@
     "hasStateMachine": false
   },
   "locale": "fr",
-  "description": "Quartier général (QG) et passes split-squat : gérez la distance avec un genou en haut et un genou en bas, bloquez le cadre du tibia et choisissez la coupe du genou, le bodylock ou le toreando en fonction de la réaction du joueur Guard.",
-  "shortInstruction": "Depuis le split-squat (un genou vers le haut, un genou vers le bas), bloquez leur tibia avec votre genou posté, contrôlez leur hanche éloignée et lisez leur réaction pour sélectionner la coupe du genou, le bodylock ou le toreando.",
-  "summary": "Le split-squat (également appelé quartier général) est la position fondamentale du passing pour le BJJ moderne. Il crée une base triangulaire qui bloque le tibia de l'adversaire tout en gardant vos hanches mobiles. À partir du split-squat, vous lisez l'angle et la distance de la hanche de l'adversaire pour sélectionner le pass approprié : coupe du genou (courte distance), bodylock (distance moyenne) ou toreando (longue distance).",
+  "description": "Quartier général (QG) et passes split-squat : gérez la distance avec un genou en haut et un genou en bas, bloquez le cadre du tibia et choisissez la coupe du genou, le Bodylock ou le Toreando en fonction de la réaction du joueur Guard.",
+  "shortInstruction": "Depuis le split-squat (un genou vers le haut, un genou vers le bas), bloquez leur tibia avec votre genou posté, contrôlez leur hanche éloignée et lisez leur réaction pour sélectionner la coupe du genou, le Bodylock ou le Toreando.",
+  "summary": "Le split-squat (également appelé quartier général) est la position fondamentale du passing pour le BJJ moderne. Il crée une base triangulaire qui bloque le tibia de l'adversaire tout en gardant vos hanches mobiles. À partir du split-squat, vous lisez l'angle et la distance de la hanche de l'adversaire pour sélectionner le pass approprié : coupe du genou (courte distance), Bodylock (distance moyenne) ou Toreando (longue distance).",
   "whyItWorks": [
     "La position split-squat (un genou en haut, un genou en bas) crée une base stable qui peut s'adapter à n'importe quelle réaction du joueur Guard",
     "Le genou posté bloque l'outil de rétention Guard le plus courant : le cadre du tibia",
@@ -89,7 +89,7 @@
     "Genou vers le haut, genou vers le bas, base stable",
     "Bloquer le tibia, contrôler la hanche",
     "Lisez d'abord, passez ensuite",
-    "Coupe au genou, bodylock ou toreando"
+    "Coupe au genou, Bodylock ou Toreando"
   ],
   "safetySummary": [
     "Ne laissez pas votre genou levé glisser trop loin vers l’avant – cela peut entraîner une hyperextension de la hanche.",

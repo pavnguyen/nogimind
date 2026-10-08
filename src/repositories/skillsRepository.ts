@@ -74,7 +74,7 @@ export const getSkills = async (): Promise<SkillNode[]> => {
       tags: entry.tags ?? [],
       shortDescription: localizedSummary(entry, viMap, frMap),
 
-      // Required fields — populated with fresh empty defaults per entry
+      // Required fields, populated with fresh empty defaults per entry
       whyItMatters: emptyText(),
       situation: emptyText(),
       primaryGoal: emptyText(),
@@ -98,7 +98,7 @@ export const getSkills = async (): Promise<SkillNode[]> => {
         safetyNotes: emptyStrArr(),
       },
 
-      // Optional fields — derived from tag prefixes where available
+      // Optional fields, derived from tag prefixes where available
       libraryTier: extractTag(entry.tags, 'tier:')?.replace(/-/g, '_') as LibraryTier | undefined,
       riskLevel: extractTag(entry.tags, 'risk:') as SkillNode['riskLevel'] | undefined,
       techniqueFamily: extractTag(entry.tags, 'family:') as SkillNode['techniqueFamily'] | undefined,

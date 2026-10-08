@@ -3,11 +3,11 @@
  *
  * The search pipeline separates two kinds of data:
  *
- * 1. **Manifests** (skills list) — always fetched fresh on every page load
+ * 1. **Manifests** (skills list), always fetched fresh on every page load
  *    because they reflect content changes (new skills added via build:content).
  *    They are small (~15KB per locale) and fast to fetch.
  *
- * 2. **Static data** (concepts, positions, glossary, etc.) — cached in IndexedDB
+ * 2. **Static data** (concepts, positions, glossary, etc.), cached in IndexedDB
  *    because they rarely change (they are part of the source code) and are
  *    expensive to import dynamically.
  *
@@ -225,14 +225,14 @@ export const clearSearchCache = async (): Promise<void> => {
 
 // ── Deprecated: remove after migration ───────────────────────────────
 
-/** @deprecated Replaced by getCachedStaticData() — search now always fetches fresh manifests */
+/** @deprecated Replaced by getCachedStaticData(), search now always fetches fresh manifests */
 export const getCachedSearchData = async (): Promise<SearchDataBundle | null> => {
   return null
 }
 
 /** @deprecated Replaced by setCachedStaticData() */
 export const setCachedSearchData = async (): Promise<void> => {
-  // No-op — manifests are always fetched fresh
+  // No-op, manifests are always fetched fresh
 }
 
 /** @deprecated Replaced by hasValidStaticCache() */

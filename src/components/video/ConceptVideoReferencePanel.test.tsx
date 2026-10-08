@@ -214,4 +214,31 @@ describe('ConceptVideoReferencePanel', () => {
     expect(screen.getByText('From Skill 1')).toBeInTheDocument()
     expect(screen.getByText('From Skill 2')).toBeInTheDocument()
   })
+
+  it('renders a video shared by two skills only once, keeping the most relevant reference', () => {
+    const shared = {
+      youtubeId: 'shared-vid',
+      title: 'Shared Video',
+      channel: 'Ch Shared',
+      whyUseful: 'Secondary angle',
+      relevance: 'supplemental',
+      level: 'intermediate',
+    }
+
+    vi.mocked(useQueries).mockReturnValue([
+      { data: makeSkillVideoMapping('skill-1', { videos: [shared] }), isLoading: false },
+      {
+        data: makeSkillVideoMapping('skill-2', {
+          videos: [{ ...shared, whyUseful: 'Main reference', relevance: 'primary' }],
+        }),
+        isLoading: false,
+      },
+    ])
+
+    render(<ConceptVideoReferencePanel skillIds={['skill-1', 'skill-2']} />)
+
+    expect(screen.getAllByText('Shared Video')).toHaveLength(1)
+    expect(screen.getByText('Main reference')).toBeInTheDocument()
+    expect(screen.queryByText('Secondary angle')).not.toBeInTheDocument()
+  })
 })

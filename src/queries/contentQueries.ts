@@ -29,7 +29,7 @@ export function useManifestQuery(locale: LanguageCode) {
   return useQuery({
     queryKey: contentKeys.manifest(locale),
     queryFn: () => getManifest(locale),
-    staleTime: 5 * 60 * 1000,   // 5 min — manifests rarely change in a session
+    staleTime: 5 * 60 * 1000,   // 5 min, manifests rarely change in a session
     gcTime: 30 * 60 * 1000,
   })
 }
@@ -66,7 +66,7 @@ export function useContentSkillDetailQuery(
         return { detail, source: 'generated' }
       }
 
-      // Legacy fallback — return null detail but signal legacy source
+      // Legacy fallback, return null detail but signal legacy source
       // The caller can use useSkillQuery() separately for full SkillNode data
       return { detail: null, source: 'legacy' }
     },

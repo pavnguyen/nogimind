@@ -1,5 +1,5 @@
 {
-  "id": "reverse-de-la-riva-Guard",
+  "id": "reverse-de-la-riva-guard",
   "locale": "en",
   "title": "Reverse De La Riva Guard",
   "category": "bottom_guard",
@@ -16,19 +16,19 @@
     "Recognize danger signals early instead of waiting for the position to settle."
   ],
   "controlPoints": [
-    "Main control point: Outside hook, hip angle, and far wrist..",
+    "Main control point: Outside hook, hip angle, and far wrist.",
     "Head, hands, hips, and knees should share the same force direction.",
     "The elbow-knee connection or hip-shoulder line determines whether the position is still alive or already locked."
   ],
   "escapePriorities": [
-    "Escape priority: Do not let them pull the far wrist across the hip line..",
+    "Escape priority: Do not let them pull the far wrist across the hip line.",
     "Protect the neck, back, knee line, or arm line before countering.",
     "If inside position is lost, reset one defensive layer first."
   ],
   "advancementOptions": [
     {
       "action": "Transition to DLR or enter berimbolo lines",
-      "nextPositionId": "de-la-riva-Guard",
+      "nextPositionId": "de-la-riva-guard",
       "relatedSkillIds": [
         "reverse-de-la-riva-transitions",
         "single-leg-x-control",
@@ -47,7 +47,7 @@
     "reverse-de-la-riva-transitions",
     "single-leg-x-control",
     "kimura-system",
-    "Guard-pulling-strategy"
+    "guard-pulling-strategy"
   ],
   "relatedConceptIds": [
     "hooks",

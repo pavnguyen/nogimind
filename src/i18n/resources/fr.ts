@@ -198,7 +198,7 @@ export const fr = {
           0: { title: 'Comprendre les positions de base', body: 'Savoir où vous êtes avant d’apprendre les attaques.' },
           1: { title: 'Étudier survie et sorties', body: 'Avant d’attaquer, apprenez à ne pas perdre immédiatement.' },
           2: { title: 'Apprendre la rétention de garde', body: 'Gardez l’inside position pour éviter les passes faciles.' },
-          5: { title: 'Respecter la sécurité des leg locks', body: 'Reconnaître le danger tôt et s’entraîner en sécurité.' },
+          5: { title: 'Respecter la sécurité des Leg Locks', body: 'Reconnaître le danger tôt et s’entraîner en sécurité.' },
         },
       },
       deep: {
@@ -534,7 +534,7 @@ export const fr = {
     pinning: 'Pinning',
     submissions: 'Soumissions',
     escapes: 'Escapes',
-    legLocks: 'Sécurité leg lock',
+    legLocks: 'Sécurité Leg Lock',
   },
   studyPage: {
     quickStudy: 'Quick Study',
@@ -592,7 +592,7 @@ export const fr = {
     debugShortcuts: 'Raccourcis diagnostic',
     shortcuts: {
       safety: 'Techniques critiques',
-      safetyBody: 'Revoyez heel hooks, false reap, smothers, attaques du cou et défenses tardives.',
+      safetyBody: 'Revoyez Heel Hooks, false reap, smothers, attaques du cou et défenses tardives.',
       submissions: 'Finishes de soumission',
       submissionsBody: 'Vérifiez isolation, alignement, slack, finish trigger et prévention de sortie.',
       passing: 'Systèmes de passing',
@@ -626,7 +626,7 @@ export const fr = {
     newUpdates: {
       heading: 'Nouveautés',
       item1: 'Deux nouvelles soumissions : Thunder Lock / Further Nelson et Mussolini Lock / Cross-Achilles Shin Lock',
-      item2: 'Thunder Lock : clé d’épaule depuis le contrôle dorsal, enchaînable avec le rear naked choke, le rear triangle et l’armbar',
+      item2: 'Thunder Lock : clé d’épaule depuis le contrôle dorsal, enchaînable avec le Rear Naked Choke, le Rear Triangle et l’Armbar',
       item3: 'Mussolini Lock : clé de tibia cross-Achilles depuis le 50/50, qui attaque le tibia et la cheville sans exposer le talon',
       viewSkill: 'Voir la technique',
     },
@@ -811,7 +811,7 @@ export const fr = {
       conceptual: 'Conceptuel',
       safety_reference: 'Référence sécurité',
     },
-    offline: 'Vidéo indisponible hors ligne — connectez-vous à Internet pour regarder.',
+    offline: 'Vidéo indisponible hors ligne, connectez-vous à Internet pour regarder.',
     unavailable: 'Cette vidéo n\'est plus disponible.',
     unavailableHint: 'La vidéo a peut-être été supprimée ou rendue privée par l\'auteur.',
     retry: 'Réessayer',
@@ -892,7 +892,6 @@ export const fr = {
     offensive: 'Offensif',
     training: 'Entraînement',
     safety: 'Sécurité',
-    mindset: 'Mindset',
   },
   conceptLevels: {
     ...en.conceptLevels,
@@ -961,7 +960,7 @@ export const fr = {
   defense: {
     ...en.defense,
     heading: 'Défense & sécurité',
-    subtitle: 'Reconnaissance précoce des dangers: leg locks, attaques du cou, pins, scrambles et étiquette.',
+    subtitle: 'Reconnaissance précoce des dangers: Leg Locks, attaques du cou, pins, scrambles et étiquette.',
     search: 'Chercher menaces, signaux ou réponses sûres',
     empty: 'Aucune couche défensive ne correspond aux filtres.',
     notFoundTitle: 'Couche défensive introuvable',
@@ -1138,7 +1137,7 @@ export const fr = {
     safetyTitle: 'Sécurité d’abord',
     philosophy: 'L’app traite le no-gi comme un knowledge operating system : positions, contraintes, décisions et chaînes techniques.',
     system: 'Le système bat la collection aléatoire car chaque skill a prérequis, signaux de danger, réponses à l’échec et micro-details.',
-    safety: 'Sécurité d’abord : leg locks, heel hooks, chokes et attaques du cou doivent être travaillés lentement sous supervision qualifiée.',
+    safety: 'Sécurité d’abord : Leg Locks, Heel Hooks, chokes et attaques du cou doivent être travaillés lentement sous supervision qualifiée.',
     themes: ['inside position', 'hiérarchie positionnelle', 'dilemmes', 'failure response', 'transitions', 'feedback loop', 'sécurité'],
     thanks: {
       heading: 'Remerciements',

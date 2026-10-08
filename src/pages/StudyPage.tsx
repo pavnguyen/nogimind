@@ -94,7 +94,7 @@ export default function StudyPage() {
     [skills],
   )
 
-  // Real content flags come from the generated manifest — SkillNode only carries
+  // Real content flags come from the generated manifest - SkillNode only carries
   // lightweight summary data, so use hasChecklist/hasMicroDetails/hasVideos.
   const contentFlags = useMemo(() => {
     const map = new Map<string, ContentFlags>()

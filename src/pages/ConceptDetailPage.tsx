@@ -11,6 +11,7 @@ import { useManifestQuery } from '../queries/contentQueries'
 import { useSettingsStore } from '../stores/useSettingsStore'
 import type { ManifestEntry } from '../content-runtime/manifests'
 import { getLocalizedArray, getLocalizedText } from '../utils/localization'
+import { formatTagLabel } from '../utils/tagLabel'
 import { ConceptVideoReferencePanel } from '../components/video/ConceptVideoReferencePanel'
 
 export default function ConceptDetailPage() {
@@ -40,7 +41,7 @@ export default function ConceptDetailPage() {
     >
       <div className="mt-2 flex flex-wrap gap-2">
         <Badge className="hallmark-badge">{t(`conceptLevels.${concept.level}`)}</Badge>
-        {concept.tags.slice(0, 6).map((tag) => <Badge key={tag}>{tag}</Badge>)}
+        {concept.tags.slice(0, 6).map((tag) => <Badge key={tag}>{formatTagLabel(tag)}</Badge>)}
       </div>
 
       <div className="mt-6 grid gap-6 xl:grid-cols-2">

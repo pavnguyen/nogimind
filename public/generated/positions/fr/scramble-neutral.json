@@ -16,12 +16,12 @@
     "Reconnaître les signaux de danger tôt au lieu d’attendre que la position se stabilise."
   ],
   "controlPoints": [
-    "Point de contrôle principal : Position de tête, connexion des hanches et mains à l’intérieur..",
+    "Point de contrôle principal : Position de tête, connexion des hanches et mains à l’intérieur.",
     "La tête, les mains, les hanches et les genoux doivent suivre la même direction de force.",
     "La connexion coude-genou ou la ligne hanches-épaules détermine si la position reste vivante ou verrouillée."
   ],
   "escapePriorities": [
-    "Priorité de sortie : En cas de doute, protéger le cou, le dos et les jambes, puis réinitialiser la base..",
+    "Priorité de sortie : En cas de doute, protéger le cou, le dos et les jambes, puis réinitialiser la base.",
     "Protéger le cou, le dos, la ligne du genou ou la ligne du bras avant de contrer.",
     "Si la position intérieure est perdue, rétablir d’abord une couche défensive."
   ],

@@ -95,7 +95,7 @@ export async function getSkillDetail(
     if (!response.ok) throw new Error(`HTTP ${response.status}`)
     const detail: SkillDetail = await response.json()
 
-    // Only cache in production — in dev we want HMR to work
+    // Only cache in production, in dev we want HMR to work
     if (import.meta.env.PROD) {
       skillDetailCache.set(cacheKey, detail)
     }

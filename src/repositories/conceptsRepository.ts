@@ -22,7 +22,7 @@ async function isPipelineAvailable(): Promise<boolean> {
 
 /**
  * Get all concepts as ConceptNode (legacy format).
- * For backward compatibility — returns full ConceptNode objects.
+ * For backward compatibility, returns full ConceptNode objects.
  */
 export const getConcepts = async (): Promise<ConceptNode[]> => {
   const locale = useSettingsStore.getState().language ?? 'en'

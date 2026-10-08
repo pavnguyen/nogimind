@@ -58,16 +58,16 @@
   "locale": "vi",
   "description": "Ưu tiên bảo vệ cổ và đánh tay khi đối thủ có seatbelt hoặc móc. Mục tiêu là sống sót đủ lâu để tạo khoảng trống cho một cuộc chạy trốn hoàn toàn.",
   "shortInstruction": "Cằm thu gọn, hai tay đặt trên cánh tay nghẹn ngào, bảo vệ cổ trước khi dọn lưỡi câu và không bao giờ quay lưng lại với đối thủ.",
-  "summary": "Sống sót ở phía sau là một hành động giữ: bảo vệ cổ, ngăn chặn chiếc nghẹt thở chìm xuống và kiểm soát hơi thở của bạn trong khi thiết lập trình tự thoát hiểm. Ưu tiên luôn là tay bóp cổ, sau đó là thân triangle, sau đó là móc.",
+  "summary": "Sống sót ở phía sau là một hành động giữ: bảo vệ cổ, ngăn chặn chiếc nghẹt thở chìm xuống và kiểm soát hơi thở của bạn trong khi thiết lập trình tự thoát hiểm. Ưu tiên luôn là tay bóp cổ, sau đó là thân Triangle, sau đó là móc.",
   "whyItWorks": [
-    "rear-naked choke là tỷ lệ phần trăm gửi cao nhất từ ​​back control — ngăn không cho nó bị khóa là ưu tiên sinh tồn đầu tiên của bạn",
+    "rear-naked choke là tỷ lệ phần trăm gửi cao nhất từ ​​back control, ngăn không cho nó bị khóa là ưu tiên sinh tồn đầu tiên của bạn",
     "Giữ cằm thu gọn sẽ thu hẹp khoảng trống giữa hàm và vai, khiến cánh tay bị nghẹn khó tiếp cận động mạch cảnh hơn",
-    "Cả hai tay đặt trên cánh tay nghẹt thở sẽ giúp bạn có thêm thời gian — ngay cả khi họ có seatbelt, bạn vẫn có thể ngăn chặn cú dứt điểm bằng cách kiểm soát cách cầm vợt",
-    "Cơ thể triangle khó chịu nhưng vẫn có thể sống sót - đừng lãng phí năng lượng để chiến đấu với nó cho đến khi mối đe dọa nghẹt thở được vô hiệu hóa"
+    "Cả hai tay đặt trên cánh tay nghẹt thở sẽ giúp bạn có thêm thời gian, ngay cả khi họ có seatbelt, bạn vẫn có thể ngăn chặn cú dứt điểm bằng cách kiểm soát cách cầm vợt",
+    "Cơ thể Triangle khó chịu nhưng vẫn có thể sống sót - đừng lãng phí năng lượng để chiến đấu với nó cho đến khi mối đe dọa nghẹt thở được vô hiệu hóa"
   ],
   "commonMistakes": [
     "Quay đầu ra khỏi cánh tay bị nghẹn (để lộ phần cổ bên kia) thay vì giữ cằm sát ngực",
-    "Chống lại cơ thể triangle trong khi cuộn cảm đang được thiết lập — bạn có thể sống sót sau triangle nhưng không thể sống sót sau cuộn cảm",
+    "Chống lại cơ thể Triangle trong khi cuộn cảm đang được thiết lập, bạn có thể sống sót sau Triangle nhưng không thể sống sót sau cuộn cảm",
     "Lãng phí cả hai cánh tay khi cố gắng cạy seatbelt ra thay vì luôn giữ một tay trên cánh tay đang bị nghẹn",
     "Hoảng loạn và bùng nổ dữ dội - điều này đốt cháy năng lượng và thường khiến nút thắt chìm sâu hơn"
   ],
@@ -77,7 +77,7 @@
     "Hít thở chậm, di chuyển có chủ ý"
   ],
   "safetySummary": [
-    "rear-naked choke có thể gây bất tỉnh sau 4-8 giây nếu bị khóa hoàn toàn — nhấn sớm và đặt lại",
+    "rear-naked choke có thể gây bất tỉnh sau 4-8 giây nếu bị khóa hoàn toàn, nhấn sớm và đặt lại",
     "Đừng để niềm tự hào ngăn cản bạn khai thác - nhiều RNC thua lỗ trong luyện tập giúp bạn có lối thoát tốt hơn là chiến đấu với mọi người đến bờ vực",
     "Nếu bạn cảm thấy đường quai hàm mở ra (cánh tay nghẹn ngào trượt dưới cằm), đã đến lúc phân bổ 100% khả năng phòng thủ của bạn cho trận đánh tay",
     "Giao tiếp với đối tác đào tạo của bạn - một cú chạm là tín hiệu học tập, không phải là thất bại"
@@ -90,11 +90,11 @@
         "action": "Giữ cằm, cả hai tay đặt trên cẳng tay đang bị nghẹn và sống cầu để ngăn họ giải quyết cơn nghẹn."
       },
       {
-        "condition": "Đối thủ đã khóa cơ thể triangle nhưng không bị sặc",
-        "action": "Tập trung vào hơi thở và vị trí tay — cơ thể triangle có thể sống sót được. Đừng lãng phí năng lượng để chiến đấu bằng chân cho đến khi mối đe dọa nghẹt thở được vô hiệu hóa."
+        "condition": "Đối thủ đã khóa cơ thể Triangle nhưng không bị sặc",
+        "action": "Tập trung vào hơi thở và vị trí tay, cơ thể Triangle có thể sống sót được. Đừng lãng phí năng lượng để chiến đấu bằng chân cho đến khi mối đe dọa nghẹt thở được vô hiệu hóa."
       },
       {
-        "condition": "Đối thủ chuyển sang thử armbar",
+        "condition": "Đối thủ chuyển sang thử Armbar",
         "action": "Giữ khuỷu tay cố định vào xương sườn và không để chúng duỗi thẳng cánh tay. Đẩy khuỷu tay của bạn trở lại cơ thể nếu họ cô lập nó."
       },
       {
@@ -109,7 +109,7 @@
     ]
   },
   "moneyDetails": [
-    "Sống sót ở phía sau là kỹ năng phòng thủ quan trọng nhất trong BJJ — mọi vận động viên vật lộn sẽ dành thời gian ở phía sau và biết cách sống sót là bước đầu tiên để trốn thoát",
+    "Sống sót ở phía sau là kỹ năng phòng thủ quan trọng nhất trong BJJ, mọi vận động viên vật lộn sẽ dành thời gian ở phía sau và biết cách sống sót là bước đầu tiên để trốn thoát",
     "Sống sót sau 30 giây là một chiến thắng trong cạnh tranh - nó tước đi cơ hội của đối thủ để về đích",
     "Một phương pháp sinh tồn bình tĩnh, có hệ thống sẽ bảo toàn năng lượng cần thiết cho quá trình trốn thoát sau đó."
   ],

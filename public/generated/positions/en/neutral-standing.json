@@ -16,12 +16,12 @@
     "Recognize danger signals early instead of waiting for the position to settle."
   ],
   "controlPoints": [
-    "Main control point: Head position, wrist control, and stance width..",
+    "Main control point: Head position, wrist control, and stance width.",
     "Head, hands, hips, and knees should share the same force direction.",
     "The elbow-knee connection or hip-shoulder line determines whether the position is still alive or already locked."
   ],
   "escapePriorities": [
-    "Escape priority: Reset the grips if your posture breaks or your head is pulled down..",
+    "Escape priority: Reset the grips if your posture breaks or your head is pulled down.",
     "Protect the neck, back, knee line, or arm line before countering.",
     "If inside position is lost, reset one defensive layer first."
   ],
@@ -32,7 +32,7 @@
       "relatedSkillIds": [
         "hand-fighting",
         "single-leg-bjj",
-        "Guard-pulling-strategy"
+        "guard-pulling-strategy"
       ],
       "why": "This is the natural branch when you win the main control point and the opponent is forced to defend."
     }
@@ -46,7 +46,7 @@
   "relatedSkillIds": [
     "hand-fighting",
     "single-leg-bjj",
-    "Guard-pulling-strategy"
+    "guard-pulling-strategy"
   ],
   "relatedConceptIds": [
     "base-balance",

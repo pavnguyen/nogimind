@@ -1,5 +1,5 @@
 {
-  "id": "k-Guard-position",
+  "id": "k-guard-position",
   "locale": "fr",
   "title": "K-Guard",
   "category": "bottom_guard",
@@ -16,21 +16,21 @@
     "Reconnaître les signaux de danger tôt au lieu d’attendre que la position se stabilise."
   ],
   "controlPoints": [
-    "Point de contrôle principal : Shin frame, knee line et contrôle cheville..",
+    "Point de contrôle principal : Shin frame, knee line et contrôle cheville.",
     "La tête, les mains, les hanches et les genoux doivent suivre la même direction de force.",
     "La connexion coude-genou ou la ligne hanches-épaules détermine si la position reste vivante ou verrouillée."
   ],
   "escapePriorities": [
-    "Priorité de sortie : Protéger la knee line avant de libérer le shin..",
+    "Priorité de sortie : Protéger la knee line avant de libérer le shin.",
     "Protéger le cou, le dos, la ligne du genou ou la ligne du bras avant de contrer.",
     "Si la position intérieure est perdue, rétablir d’abord une couche défensive."
   ],
   "advancementOptions": [
     {
       "action": "Entrer en matrix ou false reap",
-      "nextPositionId": "inverted-Guard",
+      "nextPositionId": "inverted-guard",
       "relatedSkillIds": [
-        "k-Guard-matrix",
+        "k-guard-matrix",
         "false-reap-entry",
         "saddle-inside-sankaku-control"
       ],
@@ -44,7 +44,7 @@
     "Vous devez poser une main loin pour éviter de tomber."
   ],
   "relatedSkillIds": [
-    "k-Guard-matrix",
+    "k-guard-matrix",
     "false-reap-entry",
     "saddle-inside-sankaku-control"
   ],

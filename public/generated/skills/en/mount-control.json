@@ -43,9 +43,9 @@
   "nextSkillIds": [],
   "searchBoost": 1,
   "keyCorrections": [
-    "If they keep bridging you off: your knees are too loose — pinch your knees against their hips and drive your weight forward into their chest",
-    "If they keep shrimping to Half Guard: you are sitting too high — lower your hips to their hip line and widen your base",
-    "If they trap your leg for the escape: pummel your foot back to the inside immediately — do not let them lock your leg between theirs"
+    "If they keep bridging you off: your knees are too loose, pinch your knees against their hips and drive your weight forward into their chest",
+    "If they keep shrimping to Half Guard: you are sitting too high, lower your hips to their hip line and widen your base",
+    "If they trap your leg for the escape: pummel your foot back to the inside immediately, do not let them lock your leg between theirs"
   ],
   "version": 1,
   "updatedAt": "2026-05-21T00:24:30.751Z",
@@ -60,20 +60,20 @@
     "hasStateMachine": false
   },
   "locale": "en",
-  "description": "Stabilize Mount with grapevine, knee pinch, high Mount, and hand fighting to open submissions. Mount is the highest-percentage pin in BJJ — from here, submissions are abundant and the opponent's escape options are limited.",
+  "description": "Stabilize Mount with grapevine, knee pinch, high Mount, and hand fighting to open submissions. Mount is the highest-percentage pin in BJJ, from here, submissions are abundant and the opponent's escape options are limited.",
   "shortInstruction": "Keep low chest-to-chest, pinch the knees to control the hips, and fight to isolate their arms above their head. Transition to high Mount (knees at armpits) to finish.",
-  "summary": "Mount control is maintained through progressive layers: low Mount (hips heavy on their hips, chest-to-chest pressure) → high Mount (knees slide up to their armpits, trapping their shoulders) → submission or back take. The key is preventing the bridge-and-roll escape by controlling their hips with your knee pinch and following their movements with your weight.",
+  "summary": "Mount control is maintained through progressive layers: low Mount (hips heavy on their hips, chest-to-chest pressure) → high Mount (knees slide up to their armpits, trapping their shoulders) → submission or Back Take. The key is preventing the bridge-and-roll escape by controlling their hips with your knee pinch and following their movements with your weight.",
   "whyItWorks": [
     "Low Mount chest-to-chest pressure prevents the opponent from sitting up or creating space for escapes",
     "Knee pinch (squeezing your knees against their hips) prevents the bridge-and-roll escape by connecting your hips to theirs",
     "High Mount (knees at armpits) traps the opponent's shoulders to the mat, removing their ability to bridge effectively",
-    "Arm isolation (dragging their arms above their head) is the prerequisite for all Mount submissions — without this, armbar entries fail"
+    "Arm isolation (dragging their arms above their head) is the prerequisite for all Mount submissions, without this, Armbar entries fail"
   ],
   "commonMistakes": [
-    "Sitting up too tall in Mount — this removes chest pressure and allows the opponent to shrimp or bridge",
-    "Letting your knees slide too far apart — this opens the space for the opponent to escape to Half Guard or Side Control",
-    "Chasing submissions before stabilizing the Mount — a loose Mount gives the opponent the escape before you can finish",
-    "Ignoring the grapevine escape — the opponent can hook your legs and roll you if you do not control their feet"
+    "Sitting up too tall in Mount, this removes chest pressure and allows the opponent to shrimp or bridge",
+    "Letting your knees slide too far apart, this opens the space for the opponent to escape to Half Guard or Side Control",
+    "Chasing submissions before stabilizing the Mount, a loose Mount gives the opponent the escape before you can finish",
+    "Ignoring the grapevine escape, the opponent can hook your legs and roll you if you do not control their feet"
   ],
   "coachingCues": [
     "Chest to chest, stay low",
@@ -82,8 +82,8 @@
     "Stabilize before you attack"
   ],
   "safetySummary": [
-    "Do not apply full body weight suddenly on the opponent's chest or ribs — chest compression can cause rib injury or breathing panic",
-    "When grapevining, apply controlled pressure — sudden hip flexion can strain the opponent's lower back",
+    "Do not apply full body weight suddenly on the opponent's chest or ribs, chest compression can cause rib injury or breathing panic",
+    "When grapevining, apply controlled pressure, sudden hip flexion can strain the opponent's lower back",
     "If the opponent bridges explosively while you are in high Mount, your weight falling forward can cause accidental head clashes"
   ],
   "systemLogic": {
@@ -99,7 +99,7 @@
       },
       {
         "condition": "In Phase 3 (Submission Entry)",
-        "action": "once high Mount is established, begin isolating arms. Drag one arm above their head (armbar entry), or crossface to set up the arm triangle, or posture up for the Ezekiel or cross choke"
+        "action": "once high Mount is established, begin isolating arms. Drag one arm above their head (Armbar entry), or crossface to set up the Arm Triangle, or posture up for the Ezekiel or cross choke"
       },
       {
         "condition": "Escape prevention",
@@ -113,13 +113,13 @@
     "exitStrategies": []
   },
   "moneyDetails": [
-    "Mount is the second most dominant position in BJJ (behind back control) — from Mount, you have access to more submissions than any other position",
-    "Mount scores 4 points in IBJJF competition — establishing Mount is often the deciding factor in close matches",
-    "The ability to hold Mount against a skilled opponent is the mark of an advanced grappler — most white and blue belts lose Mount within seconds"
+    "Mount is the second most dominant position in BJJ (behind back control), from Mount, you have access to more submissions than any other position",
+    "Mount scores 4 points in IBJJF competition, establishing Mount is often the deciding factor in close matches",
+    "The ability to hold Mount against a skilled opponent is the mark of an advanced grappler, most white and blue belts lose Mount within seconds"
   ],
   "fixItFast": [
-    "If they bridge hard and nearly roll you: grapevine your feet inside their legs and drive your chest into theirs — this kills their bridge",
+    "If they bridge hard and nearly roll you: grapevine your feet inside their legs and drive your chest into theirs, this kills their bridge",
     "If they get the elbow escape started: pummel your knee back to their hip line and return to low Mount immediately",
-    "If they turn to their side: take the back — do not fight to re-Mount. Back control is more dominant and scores more points"
+    "If they turn to their side: take the back, do not fight to re-Mount. Back control is more dominant and scores more points"
   ]
 }

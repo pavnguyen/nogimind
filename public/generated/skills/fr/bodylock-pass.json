@@ -70,7 +70,7 @@
       {
         "order": 2,
         "name": "Head Offset",
-        "description": "Position head to one side to block shoulder crunch and frames."
+        "description": "Position head to one side to block Shoulder Crunch and frames."
       },
       {
         "order": 3,
@@ -107,7 +107,7 @@
     ]
   },
   "systemLogic": {
-    "corePrinciple": "Le body lock pass est un système centré sur les hanches : contrôlez les hanches et les jambes suivent. La position de verrouillage détermine le succès de pass plus que la pression sur le haut du corps.",
+    "corePrinciple": "Le Body Lock pass est un système centré sur les hanches : contrôlez les hanches et les jambes suivent. La position de verrouillage détermine le succès de pass plus que la pression sur le haut du corps.",
     "decisionTree": [
       {
         "condition": "L'adversaire a des crochets papillon actifs",
@@ -146,7 +146,7 @@
     "Tuer l'hameçon papillon n'est pas facultatif ; sans cela, vos hanches se soulèvent.",
     "Relâchez le verrou corporel seulement une fois que la ligne du genou est passée et que Side Control est épinglé."
   ],
-  "safetyNotes": "Watch your lower back — do not round it under pressure. Keep hips low to avoid being lifted.",
+  "safetyNotes": "Watch your lower back, do not round it under pressure. Keep hips low to avoid being lifted.",
   "fixItFast": [
     "Vous ne parvenez pas à verrouiller les hanches ? Abaissez le niveau de votre poitrine et élargissez vos genoux.",
     "Se faire lever ? Votre poitrine est trop haute et le crochet est toujours vivant.",
@@ -201,5 +201,5 @@
     "Relâchez immédiatement la pression si votre partenaire tape ou montre de la détresse.",
     "Ne tournez pas le cou pour forcer la passe."
   ],
-  "nextStep": "Après avoir stabilisé Side Control, passez à Mount, back control ou à des systèmes de soumission comme arm triangle."
+  "nextStep": "Après avoir stabilisé Side Control, passez à Mount, back control ou à des systèmes de soumission comme Arm Triangle."
 }

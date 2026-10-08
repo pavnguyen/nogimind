@@ -16,12 +16,12 @@
     "Reconnaître les signaux de danger tôt au lieu d’attendre que la position se stabilise."
   ],
   "controlPoints": [
-    "Point de contrôle principal : Profondeur de l’underhook, connexion tête-côtes et base sur le genou..",
+    "Point de contrôle principal : Profondeur de l’underhook, connexion tête-côtes et base sur le genou.",
     "La tête, les mains, les hanches et les genoux doivent suivre la même direction de force.",
     "La connexion coude-genou ou la ligne hanches-épaules détermine si la position reste vivante ou verrouillée."
   ],
   "escapePriorities": [
-    "Priorité de sortie : Protéger le cou si la tête est tirée vers le bas..",
+    "Priorité de sortie : Protéger le cou si la tête est tirée vers le bas.",
     "Protéger le cou, le dos, la ligne du genou ou la ligne du bras avant de contrer.",
     "Si la position intérieure est perdue, rétablir d’abord une couche défensive."
   ],
@@ -30,7 +30,7 @@
       "action": "Finir le single leg ou le retour au sol",
       "nextPositionId": "neutral-standing",
       "relatedSkillIds": [
-        "half-Guard-wrestle-up",
+        "half-guard-wrestle-up",
         "single-leg-bjj",
         "mat-return-basics"
       ],
@@ -44,7 +44,7 @@
     "Vous devez poser une main loin pour éviter de tomber."
   ],
   "relatedSkillIds": [
-    "half-Guard-wrestle-up",
+    "half-guard-wrestle-up",
     "single-leg-bjj",
     "mat-return-basics"
   ],

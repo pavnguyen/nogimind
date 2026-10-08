@@ -58,7 +58,7 @@ export class ErrorBoundary extends Component<ErrorBoundaryProps, ErrorBoundarySt
             </h1>
             <p className="text-sm leading-relaxed text-slate-400">
               {this.props.fallbackBody ??
-                'An unexpected error occurred while rendering this page. Your data is safe — try reloading the page.'}
+                'An unexpected error occurred while rendering this page. Your data is safe, try reloading the page.'}
             </p>
             {this.state.error && import.meta.env.DEV && (
               <pre className="mt-3 max-h-40 overflow-auto rounded-lg border border-white/[0.06] bg-slate-950/80 p-3 text-left text-xs text-rose-300">

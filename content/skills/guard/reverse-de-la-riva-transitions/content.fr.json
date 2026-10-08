@@ -2,14 +2,14 @@
   "id": "reverse-de-la-riva-transitions",
   "locale": "fr",
   "name": "Inverser les transitions De La Riva",
-  "description": "Utilisez le crochet extérieur et la rotation de la hanche depuis le De La Riva inversé (RDLR) pour passer au DLR régulier, X-Guard, au piège X à une jambe, au piège kimura ou au balayage.",
+  "description": "Utilisez le crochet extérieur et la rotation de la hanche depuis le De La Riva inversé (RDLR) pour passer au DLR régulier, X-Guard, au piège X à une jambe, au piège Kimura ou au balayage.",
   "shortInstruction": "Crochet extérieur, rotation de la hanche, transition vers X-Guard ou balayage – RDLR est l'entrée dans tout le jeu du bas du corps.",
-  "summary": "L'inverse De La Riva (RDLR) est l'équivalent du DLR ordinaire. Là où le DLR accroche l’intérieur de la jambe proche, le RDLR accroche l’extérieur. Cela vous donne le contrôle de leur jambe sous un angle différent, ouvrant des transitions vers X-Guard, DLR, X à une jambe et le piège kimura. Le RDLR est particulièrement efficace contre les adversaires qui ont déjà dégagé votre crochet DLR ou qui passent avec une forte pression vers l'avant.",
+  "summary": "L'inverse De La Riva (RDLR) est l'équivalent du DLR ordinaire. Là où le DLR accroche l’intérieur de la jambe proche, le RDLR accroche l’extérieur. Cela vous donne le contrôle de leur jambe sous un angle différent, ouvrant des transitions vers X-Guard, DLR, X à une jambe et le piège Kimura. Le RDLR est particulièrement efficace contre les adversaires qui ont déjà dégagé votre crochet DLR ou qui passent avec une forte pression vers l'avant.",
   "whyItWorks": [
     "Le crochet extérieur sur leur jambe la plus proche les empêche d’avancer dans la passe – il bloque leur mouvement vers l’avant.",
     "La rotation de la hanche à partir du RDLR crée l'angle pour entrer dans X-Guard - une rotation, deux positions Guard.",
-    "RDLR met en place la série de pièges kimura, l'une des chaînes d'attaque No-Gi au pourcentage le plus élevé.",
-    "Principe de Danaher : si le DLR échoue, passez au RDLR — deux hooks valent mieux qu'un."
+    "RDLR met en place la série de pièges Kimura, l'une des chaînes d'attaque No-Gi au pourcentage le plus élevé.",
+    "Principe de Danaher : si le DLR échoue, passez au RDLR, deux hooks valent mieux qu'un."
   ],
   "commonMistakes": [
     "Laisser le crochet RDLR devenir peu profond – il doit être profond derrière son genou pour contrôler sa jambe.",
@@ -19,8 +19,8 @@
   ],
   "coachingCues": [
     "Accrochez profondément, tournez la hanche, trouvez l’entrée.",
-    "RDLR est la porte — X-Guard est la pièce.",
-    "S'ils sont grands, allez X-Guard. S'ils s'agenouillent, allez au piège kimura.",
+    "RDLR est la porte - X-Guard est la pièce.",
+    "S'ils sont grands, allez X-Guard. S'ils s'agenouillent, allez au piège Kimura.",
     "Restez à vos côtés, restez mobile."
   ],
   "safetySummary": [
@@ -34,7 +34,7 @@
     "S’ils vous aplatissent, vous avez perdu l’angle de vos hanches – revenez immédiatement à vos côtés."
   ],
   "systemLogic": {
-    "corePrinciple": "Crochet RDLR à l'extérieur de la jambe proche → contrôle son bras éloigné → rotation des hanches → transition vers le piège X-Guard, DLR, SLX ou kimura.",
+    "corePrinciple": "Crochet RDLR à l'extérieur de la jambe proche → contrôle son bras éloigné → rotation des hanches → transition vers le piège X-Guard, DLR, SLX ou Kimura.",
     "decisionTree": [
       {
         "condition": "Option 1 : Ils se tiennent debout",
@@ -42,7 +42,7 @@
       },
       {
         "condition": "Option 2 : Ils s'agenouillent ou se penchent en avant",
-        "action": "kimura piège → balayage ou soumission."
+        "action": "Kimura piège → balayage ou soumission."
       },
       {
         "condition": "Option 3 : Ils prennent du recul",
@@ -54,9 +54,9 @@
     "Votre crochet RDLR doit être profondément derrière son genou, avec votre pied accroché à l'extérieur de sa cuisse.",
     "Contrôlez leur manche ou leur poignet éloigné avec votre main opposée – cela les empêche de poster et de se baser.",
     "Pour saisir X-Guard : faites pivoter vos hanches vers elles tout en gardant le crochet RDLR – votre autre jambe va jusqu'à leur hanche.",
-    "Le piège kimura de RDLR est l'une des attaques No-Gi les plus puissantes — s'ils résistent à la rotation, attaquez le kimura."
+    "Le piège Kimura de RDLR est l'une des attaques No-Gi les plus puissantes, s'ils résistent à la rotation, attaquez le Kimura."
   ],
-  "nextStep": "Après les transitions RDLR, apprenez le système de balayage X-Guard et de piège kimura.",
+  "nextStep": "Après les transitions RDLR, apprenez le système de balayage X-Guard et de piège Kimura.",
   "fixItFast": [
     "Le crochet continue de glisser ? Rendez-le plus profond : le pied doit s'accrocher derrière le genou, pas au niveau du mollet.",
     "Vous ne pouvez pas effectuer une rotation jusqu'au X-Guard ? L’angle de vos hanches est trop faible – tournez davantage vos hanches vers elles.",

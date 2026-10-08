@@ -44,9 +44,9 @@
   "nextSkillIds": [],
   "searchBoost": 1,
   "keyCorrections": [
-    "If they flatten you during the wrestle-up: you lost the underhook — re-pummel before trying again",
-    "If you cannot find the single leg: they posted the leg back — switch to the Front Headlock using the underhook",
-    "If they Guillotine you: your head was too high — keep your forehead to their jaw as you stand"
+    "If they flatten you during the wrestle-up: you lost the underhook, re-pummel before trying again",
+    "If you cannot find the single leg: they posted the leg back, switch to the Front Headlock using the underhook",
+    "If they Guillotine you: your head was too high, keep your forehead to their jaw as you stand"
   ],
   "version": 1,
   "updatedAt": "2026-05-21T00:24:30.758Z",
@@ -61,20 +61,20 @@
     "hasStateMachine": false
   },
   "locale": "en",
-  "description": "Turn Half Guard from defense into a single leg when you win the underhook or hip angle. The wrestle-up is the highest-value offensive transition from Half Guard — it converts a defensive position into a takedown opportunity.",
+  "description": "Turn Half Guard from defense into a single leg when you win the underhook or hip angle. The wrestle-up is the highest-value offensive transition from Half Guard, it converts a defensive position into a takedown opportunity.",
   "shortInstruction": "Win the underhook, create a hip angle, post on your outside foot, and drive to a single leg. If they resist the single leg, come up to a Front Headlock.",
-  "summary": "The Half Guard wrestle-up transforms Half Guard from a defensive pin into an offensive takedown entry. The sequence is: win the underhook → turn to face them → post your outside foot → drive to a single leg. The wrestle-up works because it catches the opponent in the transition between passing and pinning — they are not fully committed to either, making them vulnerable to the sudden stand-up.",
+  "summary": "The Half Guard wrestle-up transforms Half Guard from a defensive pin into an offensive takedown entry. The sequence is: win the underhook → turn to face them → post your outside foot → drive to a single leg. The wrestle-up works because it catches the opponent in the transition between passing and pinning, they are not fully committed to either, making them vulnerable to the sudden stand-up.",
   "whyItWorks": [
-    "The underhook gives you upper body control — they cannot crossface or flatten you as you stand",
-    "Creating a hip angle (turning to face them) aligns your body for the stand-up — you drive forward, not sideways",
-    "The single leg entry from Half Guard is unexpected — most opponents expect a sweep, not a takedown",
+    "The underhook gives you upper body control, they cannot crossface or flatten you as you stand",
+    "Creating a hip angle (turning to face them) aligns your body for the stand-up, you drive forward, not sideways",
+    "The single leg entry from Half Guard is unexpected, most opponents expect a sweep, not a takedown",
     "A failed wrestle-up often resets to neutral rather than leaving you in a worse position"
   ],
   "commonMistakes": [
-    "Trying to wrestle up without the underhook — they will crossface you and flatten you back down",
-    "Standing up straight instead of staying low — a tall posture exposes the single leg counter and gives up the underhook",
-    "Not creating enough separation before standing — you need 6-8 inches of space to post the foot",
-    "Giving up on the wrestle-up too early — commit to the stand-up or you will be stuck in between"
+    "Trying to wrestle up without the underhook, they will crossface you and flatten you back down",
+    "Standing up straight instead of staying low, a tall posture exposes the single leg counter and gives up the underhook",
+    "Not creating enough separation before standing, you need 6-8 inches of space to post the foot",
+    "Giving up on the wrestle-up too early, commit to the stand-up or you will be stuck in between"
   ],
   "coachingCues": [
     "Underhook first, wrestle-up second",
@@ -83,9 +83,9 @@
     "Commit or don't start"
   ],
   "safetySummary": [
-    "Do not stand up with a straight back — this exposes your neck to guillotines and your back to takedowns",
+    "Do not stand up with a straight back, this exposes your neck to Guillotines and your back to takedowns",
     "If the opponent sprawls on the wrestle-up, drop back to Guard rather than fighting the sprawl",
-    "Be careful of knee strain when posting from Half Guard — the outside foot must be planted firmly"
+    "Be careful of knee strain when posting from Half Guard, the outside foot must be planted firmly"
   ],
   "systemLogic": {
     "corePrinciple": "The Half Guard wrestle-up has four phases: Underhook → Hip Angle → Stand → Single Leg",
@@ -100,11 +100,11 @@
       },
       {
         "condition": "In Phase 3 (Stand)",
-        "action": "post your outside foot and drive to a standing position. Stay low — your head should not rise above their shoulder"
+        "action": "post your outside foot and drive to a standing position. Stay low, your head should not rise above their shoulder"
       },
       {
         "condition": "In Phase 4 (Single Leg)",
-        "action": "as you stand, attack their far leg for a single leg. If they block, drive into their hips for a body lock"
+        "action": "as you stand, attack their far leg for a single leg. If they block, drive into their hips for a Body Lock"
       },
       {
         "condition": "the single leg fails",
@@ -114,13 +114,13 @@
     "exitStrategies": []
   },
   "moneyDetails": [
-    "The Half Guard wrestle-up is the highest-value transition from Half Guard — it scores 2 takedown points and lands you on top",
+    "The Half Guard wrestle-up is the highest-value transition from Half Guard, it scores 2 takedown points and lands you on top",
     "Mastering the wrestle-up gives you a third option from Half Guard (sweep, submission, or wrestle-up)",
     "The wrestle-up is particularly effective against pressure passers who commit weight forward"
   ],
   "fixItFast": [
-    "If they pressure forward: use their momentum — wrestle-up into the direction they are pushing",
+    "If they pressure forward: use their momentum, wrestle-up into the direction they are pushing",
     "If they back away: stand up fully and re-engage from a neutral position",
-    "If they switch to a knee cut pass: re-pummel the underhook and hip escape to create space"
+    "If they switch to a Knee Cut pass: re-pummel the underhook and hip escape to create space"
   ]
 }

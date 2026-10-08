@@ -45,8 +45,8 @@
   "nextSkillIds": [],
   "searchBoost": 1,
   "keyCorrections": [
-    "S'ils essaient de décoller le triangle : serrez plus fort et continuez à combattre des mains",
-    "S'ils s'aplatissent à plat ventre : relâchez et passez aux crochets ou au crab ride",
+    "S'ils essaient de décoller le Triangle : serrez plus fort et continuez à combattre des mains",
+    "S'ils s'aplatissent à plat ventre : relâchez et passez aux crochets ou au Crab Ride",
     "S'ils créent de l'espace : déverrouillez, ajustez et reverrouillez plus serré"
   ],
   "version": 1,
@@ -61,61 +61,61 @@
     "hasStateMachine": false
   },
   "locale": "fr",
-  "description": "Le body triangle utilise vos jambes verrouillées autour de leur taille pour contrôler leurs hanches et les empêcher de bouger. Il comprime le diaphragme et empêche la fuite des hanches.",
+  "description": "Le Body Triangle utilise vos jambes verrouillées autour de leur taille pour contrôler leurs hanches et les empêcher de bouger. Il comprime le diaphragme et empêche la fuite des hanches.",
   "shortInstruction": "Depuis le back control, glissez la jambe du dessus par-dessus leur hanche, verrouillez les jambes autour de leur taille (tibia derrière le genou), serrez pour comprimer le diaphragme et combattez des mains pour l'étranglement.",
-  "summary": "Le body triangle immobilise les hanches de l'adversaire en verrouillant vos jambes autour de leur taille. Il comprime le diaphragme, empêche l'échappée de hanche et ne peut pas être décollé facilement. C'est principalement un contrôle qui prépare le rear-naked choke.",
+  "summary": "Le Body Triangle immobilise les hanches de l'adversaire en verrouillant vos jambes autour de leur taille. Il comprime le diaphragme, empêche l'échappée de hanche et ne peut pas être décollé facilement. C'est principalement un contrôle qui prépare le rear-naked choke.",
   "whyItWorks": [
-    "Verrouiller vos jambes autour de leur taille comprime leur diaphragme — ils se fatiguent plus vite et ne peuvent pas générer de mouvement explosif",
-    "Le body triangle empêche l'échappée de hanche — pour s'échapper du dos, l'adversaire doit d'abord créer de l'espace au niveau des hanches",
-    "Contrairement aux crochets, le body triangle ne peut pas être décollé facilement — c'est une structure verrouillée",
-    "Le body triangle fonctionne aussi comme une soumission par compression du corps — une compression prolongée peut forcer le tap"
+    "Verrouiller vos jambes autour de leur taille comprime leur diaphragme, ils se fatiguent plus vite et ne peuvent pas générer de mouvement explosif",
+    "Le Body Triangle empêche l'échappée de hanche, pour s'échapper du dos, l'adversaire doit d'abord créer de l'espace au niveau des hanches",
+    "Contrairement aux crochets, le Body Triangle ne peut pas être décollé facilement, c'est une structure verrouillée",
+    "Le Body Triangle fonctionne aussi comme une soumission par compression du corps, une compression prolongée peut forcer le tap"
   ],
   "commonMistakes": [
-    "Verrouiller le body triangle trop haut (au niveau des côtes au lieu des hanches) — ils peuvent encore bouger les hanches",
-    "Laisser le body triangle se desserrer — un triangle lâche leur donne de l'espace pour s'échapper",
-    "Utiliser seulement le body triangle sans attaquer l'étranglement — vous devez toujours travailler pour le RNC",
-    "Verrouiller le triangle et se détendre — vous devez toujours combattre des mains pour la finition"
+    "Verrouiller le Body Triangle trop haut (au niveau des côtes au lieu des hanches), ils peuvent encore bouger les hanches",
+    "Laisser le Body Triangle se desserrer, un Triangle lâche leur donne de l'espace pour s'échapper",
+    "Utiliser seulement le Body Triangle sans attaquer l'étranglement, vous devez toujours travailler pour le RNC",
+    "Verrouiller le Triangle et se détendre, vous devez toujours combattre des mains pour la finition"
   ],
   "coachingCues": [
-    "Hanches, pas côtes — verrouillez bas sur la taille",
-    "Triangle serré = contrôle serré ; triangle lâche = échappée",
-    "Le body triangle contrôle les hanches ; les mains contrôlent l'étranglement",
+    "Hanches, pas côtes, verrouillez bas sur la taille",
+    "Triangle serré = contrôle serré ; Triangle lâche = échappée",
+    "Le Body Triangle contrôle les hanches ; les mains contrôlent l'étranglement",
     "Gardez-le mais ne cessez pas de travailler"
   ],
   "safetySummary": [
-    "Le body triangle comprime le diaphragme — si le partenaire a des problèmes respiratoires, utilisez des crochets traditionnels à la place",
-    "Ne verrouillez pas le body triangle trop fort pendant le combat positionnel — relâchez périodiquement pour permettre la respiration",
-    "Le body triangle peut causer une gêne au niveau des côtes — relâchez si le partenaire signale une gêne"
+    "Le Body Triangle comprime le diaphragme, si le partenaire a des problèmes respiratoires, utilisez des crochets traditionnels à la place",
+    "Ne verrouillez pas le Body Triangle trop fort pendant le combat positionnel, relâchez périodiquement pour permettre la respiration",
+    "Le Body Triangle peut causer une gêne au niveau des côtes, relâchez si le partenaire signale une gêne"
   ],
   "systemLogic": {
-    "corePrinciple": "Body triangle : depuis le back control → glissez la jambe du dessus par-dessus leur hanche → verrouillez les jambes autour de leur taille (tibia derrière le genou) → serrez pour comprimer leur diaphragme → maintenez en combattant des mains pour le RNC.",
+    "corePrinciple": "Body Triangle : depuis le back control → glissez la jambe du dessus par-dessus leur hanche → verrouillez les jambes autour de leur taille (tibia derrière le genou) → serrez pour comprimer leur diaphragme → maintenez en combattant des mains pour le RNC.",
     "decisionTree": [
       {
-        "condition": "Ils essaient de décoller le triangle",
+        "condition": "Ils essaient de décoller le Triangle",
         "action": "serrez plus fort et continuez à combattre des mains"
       },
       {
         "condition": "Ils s'aplatissent à plat ventre",
-        "action": "relâchez le triangle et passez aux crochets ou au crab ride"
+        "action": "relâchez le Triangle et passez aux crochets ou au Crab Ride"
       },
       {
         "condition": "Ils créent de l'espace",
-        "action": "déverrouillez, ajustez et reverrouillez plus serré — n'acceptez jamais un triangle lâche"
+        "action": "déverrouillez, ajustez et reverrouillez plus serré, n'acceptez jamais un Triangle lâche"
       }
     ],
     "exitStrategies": [
-      "Si vous devez ajuster la position, déverrouillez le triangle, faites l'ajustement, puis reverrouillez",
-      "Si le body triangle échoue, passez aux crochets traditionnels pour la mobilité"
+      "Si vous devez ajuster la position, déverrouillez le Triangle, faites l'ajustement, puis reverrouillez",
+      "Si le Body Triangle échoue, passez aux crochets traditionnels pour la mobilité"
     ]
   },
   "moneyDetails": [
-    "Le body triangle est le système de contrôle du dos le plus efficace dans la compétition no-gi moderne",
-    "Maîtriser le body triangle empêche l'échappée de hanche — la méthode d'évasion du dos la plus courante",
-    "La combinaison body triangle + RNC est la position de finition la plus dominante en no-gi"
+    "Le Body Triangle est le système de contrôle du dos le plus efficace dans la compétition no-gi moderne",
+    "Maîtriser le Body Triangle empêche l'échappée de hanche, la méthode d'évasion du dos la plus courante",
+    "La combinaison Body Triangle + RNC est la position de finition la plus dominante en no-gi"
   ],
   "fixItFast": [
-    "Si le triangle est lâche : rapprochez vos hanches et reverrouillez",
-    "S'ils s'aplatissent à plat ventre : relâchez immédiatement le triangle et passez aux crochets",
-    "Si vous ne pouvez pas finir le RNC : maintenez le body triangle et attendez qu'ils se fatiguent"
+    "Si le Triangle est lâche : rapprochez vos hanches et reverrouillez",
+    "S'ils s'aplatissent à plat ventre : relâchez immédiatement le Triangle et passez aux crochets",
+    "Si vous ne pouvez pas finir le RNC : maintenez le Body Triangle et attendez qu'ils se fatiguent"
   ]
 }

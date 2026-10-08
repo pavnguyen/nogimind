@@ -3,6 +3,7 @@ import { useSearchParams } from 'react-router-dom'
 import { Search } from 'lucide-react'
 import { skillDomains, skillLevels } from '../../data/domains'
 import type { SkillNode } from '../../types/skill'
+import { formatTagLabel } from '../../utils/tagLabel'
 
 const isString = (value: unknown): value is string => typeof value === 'string' && value.length > 0
 
@@ -62,7 +63,7 @@ export const SkillSearchFilters = ({ skills }: { skills: SkillNode[] }) => {
       >
         <option value="">{t('skills.tagFilter')}: {t('common.all')}</option>
         {tags.map((tag) => (
-          <option key={tag} value={tag}>{tag}</option>
+          <option key={tag} value={tag}>{formatTagLabel(tag)}</option>
         ))}
       </select>
       <select

@@ -140,7 +140,7 @@ export const en = {
           0: { title: 'Understand basic positions', body: 'Know where you are before trying to learn attacks.', },
           1: { title: 'Study survival and escapes', body: 'Before attacking, learn how not to lose immediately.' },
           2: { title: 'Learn Guard retention', body: 'Keep inside position and stop easy passes.' },
-          5: { title: 'Respect leg lock safety', body: 'Recognize danger early and train safely.' },
+          5: { title: 'Respect Leg Lock safety', body: 'Recognize danger early and train safely.' },
         },
       },
       deep: {
@@ -519,7 +519,7 @@ export const en = {
     debugShortcuts: 'Debug shortcuts',
     shortcuts: {
       safety: 'Safety-critical skills',
-      safetyBody: 'Review heel hooks, false reap, smothers, neck attacks, and late-defense danger.',
+      safetyBody: 'Review Heel Hooks, false reap, smothers, neck attacks, and late-defense danger.',
       submissions: 'Submission finishes',
       submissionsBody: 'Check isolation, alignment, slack removal, finish trigger, and escape prevention.',
       passing: 'Passing systems',
@@ -553,7 +553,7 @@ export const en = {
     newUpdates: {
       heading: "What's New",
       item1: 'Two new submissions: Thunder Lock / Further Nelson and Mussolini Lock / Cross-Achilles Shin Lock',
-      item2: 'Thunder Lock: a back-control shoulder lock that chains with the rear naked choke, rear triangle, and armbar',
+      item2: 'Thunder Lock: a back-control shoulder lock that chains with the Rear Naked Choke, Rear Triangle, and Armbar',
       item3: 'Mussolini Lock: a cross-Achilles shin lock from 50/50 that attacks the shin and ankle without requiring heel exposure',
       viewSkill: 'View skill',
     },
@@ -737,7 +737,7 @@ export const en = {
       conceptual: 'Conceptual',
       safety_reference: 'Safety reference',
     },
-    offline: 'Video unavailable offline — connect to the internet to watch.',
+    offline: 'Video unavailable offline, connect to the internet to watch.',
     unavailable: 'This video is no longer available.',
     unavailableHint: 'The video may have been removed or made private by the uploader.',
     retry: 'Retry',
@@ -877,7 +877,6 @@ export const en = {
     offensive: 'Offensive',
     training: 'Training',
     safety: 'Safety',
-    mindset: 'Mindset',
   },
   conceptLevels: {
     fundamental: 'Fundamental',
@@ -941,7 +940,7 @@ export const en = {
   },
   defense: {
     heading: 'Defense & Safety',
-    subtitle: 'Early danger recognition for leg locks, neck attacks, pins, scrambles, and training etiquette.',
+    subtitle: 'Early danger recognition for Leg Locks, neck attacks, pins, scrambles, and training etiquette.',
     search: 'Search threats, danger signals, or safe responses',
     empty: 'No defensive layers match the current filters.',
     notFoundTitle: 'Defensive layer not found',
@@ -1122,7 +1121,7 @@ export const en = {
     safetyTitle: 'Safety first',
     philosophy: 'The app treats no-gi as an operating system: positions create constraints, constraints create decisions, and decisions create repeatable training loops.',
     system: 'System beats random technique collection because each skill is connected to prerequisites, danger signals, failure responses, and measurable tests.',
-    safety: 'Safety first: leg locks, heel hooks, chokes, and neck attacks must be trained slowly with qualified supervision.',
+    safety: 'Safety first: Leg Locks, Heel Hooks, chokes, and neck attacks must be trained slowly with qualified supervision.',
     themes: ['inside position', 'positional hierarchy', 'dilemmas', 'failure response', 'transitions', 'feedback loop', 'safety'],
     thanks: {
       heading: 'With gratitude',

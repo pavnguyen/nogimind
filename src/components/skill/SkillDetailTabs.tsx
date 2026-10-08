@@ -16,7 +16,7 @@ type Props = {
   onTabChange: (tab: TabId) => void
 }
 
-// Theme-aware active tab — only differentiates semantics (learn/fix/watch/chain)
+// Theme-aware active tab, only differentiates semantics (learn/fix/watch/chain)
 // Colors sourced from the current hub's --hallmark-accent via CSS variables.
 const tabAccentClasses: Record<TabId, string> = {
   learn: 'hallmark-tab-accent',

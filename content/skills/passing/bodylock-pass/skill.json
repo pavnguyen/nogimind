@@ -27,7 +27,7 @@
   "bodyToBodyDetails": {
     "phases": [
       { "order": 1, "name": "Chest-to-Hip Connection", "description": "Drive chest into hip, lock hands low around the waist to prevent hip escape." },
-      { "order": 2, "name": "Head Offset", "description": "Position head to one side to block shoulder crunch and frames." },
+      { "order": 2, "name": "Head Offset", "description": "Position head to one side to block Shoulder Crunch and frames." },
       { "order": 3, "name": "Kill the Hooks", "description": "Smash butterfly hooks flat with chest pressure before clearing the knee line." },
       { "order": 4, "name": "Clear Knee Line", "description": "Step the trapped leg back while maintaining chest-to-hip pressure." },
       { "order": 5, "name": "Stabilize Side Control", "description": "Once past, transition to Side Control pin immediately." }
@@ -47,7 +47,7 @@
     ],
     "exitStrategies": [
       "Take the back if opponent turns away",
-      "Switch to knee-cut pass if bodylock is stuck",
+      "Switch to knee-cut pass if Bodylock is stuck",
       "Reset to headquarters if leg is trapped too long"
     ]
   },
@@ -60,6 +60,6 @@
     "oneLiner": "Chest down, hands low, head off, knee clear.",
     "mnemonic": "CHHK: Chest → Hands → Head → Knee"
   },
-  "safetyNotes": "Watch your lower back — do not round it under pressure. Keep hips low to avoid being lifted.",
+  "safetyNotes": "Watch your lower back, do not round it under pressure. Keep hips low to avoid being lifted.",
   "fixItFast": "Chest-to-hips → head offset → kill hooks → clear knee → pin"
 }

@@ -42,11 +42,11 @@
   ],
   "keyCorrections": [
     "Nếu chúng ở khoảng cách gần, bàn chân của bạn không được đặt lên - hãy đưa chúng về ngang hông.",
-    "Nếu họ nhận được underhook, khe hở đầu gối-khuỷu tay của bạn đang mở — hãy đóng nó lại.",
+    "Nếu họ nhận được underhook, khe hở đầu gối-khuỷu tay của bạn đang mở, hãy đóng nó lại.",
     "Nếu chúng san phẳng bạn, bạn đã đợi quá lâu để đóng khung hoặc xoay trục."
   ],
   "systemLogic": {
-    "corePrinciple": "Guard giữ chân là một trò chơi quản lý khoảng cách — bàn chân và khung của bạn là tuyến phòng thủ đầu tiên. Phản ứng với hướng vượt qua trước khi thực hiện một cuộc chạy trốn hoặc phản công.",
+    "corePrinciple": "Guard giữ chân là một trò chơi quản lý khoảng cách, bàn chân và khung của bạn là tuyến phòng thủ đầu tiên. Phản ứng với hướng vượt qua trước khi thực hiện một cuộc chạy trốn hoặc phản công.",
     "decisionTree": [
       {
         "condition": "Người qua đường đang đứng và đi vòng quanh",
@@ -66,7 +66,7 @@
       },
       {
         "condition": "Người vượt qua tiến về phía trước với động lực",
-        "action": "Sử dụng động lực của họ — thả lỏng cơ bắp tay, nâng cao hông của bạn và wrestle up thực hiện động tác đứng lên kỹ thuật."
+        "action": "Sử dụng động lực của họ, thả lỏng cơ bắp tay, nâng cao hông của bạn và wrestle up thực hiện động tác đứng lên kỹ thuật."
       }
     ],
     "exitStrategies": [

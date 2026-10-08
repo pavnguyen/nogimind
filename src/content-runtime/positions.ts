@@ -1,5 +1,5 @@
 /**
- * Content Pipeline — Position Runtime Loader
+ * Content Pipeline - Position Runtime Loader
  *
  * Loads position data from generated JSON artifacts.
  * Falls back to legacy TypeScript data when the generated file is not found.

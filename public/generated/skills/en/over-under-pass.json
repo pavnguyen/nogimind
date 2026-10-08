@@ -63,9 +63,9 @@
   "nextSkillIds": [],
   "searchBoost": 1,
   "keyCorrections": [
-    "If they keep recovering Guard: your underhook is too shallow — reach deeper for the far leg",
-    "If they keep framing: your chest pressure is too light — flatten your chest to theirs",
-    "If they keep sweeping: your base is too narrow — widen your stance as you drive"
+    "If they keep recovering Guard: your underhook is too shallow, reach deeper for the far leg",
+    "If they keep framing: your chest pressure is too light, flatten your chest to theirs",
+    "If they keep sweeping: your base is too narrow, widen your stance as you drive"
   ],
   "version": 1,
   "updatedAt": "2026-05-28T00:00:00.000Z",
@@ -79,9 +79,9 @@
     "hasStateMachine": false
   },
   "locale": "en",
-  "description": "The over-under (smash) pass is a pressure passing system that uses chest-to-chest connection and hip pressure to flatten and pass the Half Guard. One arm goes over the opponent's back (overhook) while the other goes under their leg (underhook), creating a dominant chest-to-chest pin that eliminates their frames and knee shield. Popularized by Bernardo Faria and perfected in no-gi by Gordon Ryan, the over-under pass is a foundational pressure passing skill.",
+  "description": "The Over-Under (smash) pass is a pressure passing system that uses chest-to-chest connection and hip pressure to flatten and pass the Half Guard. One arm goes over the opponent's back (overhook) while the other goes under their leg (underhook), creating a dominant chest-to-chest pin that eliminates their frames and knee shield. Popularized by Bernardo Faria and perfected in no-gi by Gordon Ryan, the Over-Under pass is a foundational pressure passing skill.",
   "shortInstruction": "From Half Guard, get an overhook on one arm and an underhook on the far leg, flatten your chest to theirs, drive your hip pressure, and circle to Side Control.",
-  "summary": "The over-under pass works by creating a chest-to-chest connection that removes the opponent's ability to frame or knee shield. One arm locks over their back (controlling their upper body) while the other hooks under their far leg (clearing the knee line). From this position, the passer drives their hip into the opponent's near hip while circling toward their head, flattening them and clearing the leg to pass. The key is keeping your head on the correct side and maintaining continuous forward pressure.",
+  "summary": "The Over-Under pass works by creating a chest-to-chest connection that removes the opponent's ability to frame or knee shield. One arm locks over their back (controlling their upper body) while the other hooks under their far leg (clearing the knee line). From this position, the passer drives their hip into the opponent's near hip while circling toward their head, flattening them and clearing the leg to pass. The key is keeping your head on the correct side and maintaining continuous forward pressure.",
   "whyItWorks": [
     "Chest-to-chest connection eliminates the opponent's frames and knee shield",
     "Overhook controls their upper body and prevents underhook escapes",
@@ -89,26 +89,26 @@
     "Continuous hip pressure prevents them from re-inserting Guard"
   ],
   "commonMistakes": [
-    "Losing the underhook on the far leg — without it, they can recover full Guard",
-    "Putting your head on the wrong side — head must be on the same side as your overhook",
-    "Driving forward instead of circling toward their head — creates scrambling opportunities",
-    "Releasing the overhook too early — they will pummel for an underhook and recover Guard",
-    "Keeping your hips too high — low hips are essential for effective pressure"
+    "Losing the underhook on the far leg, without it, they can recover full Guard",
+    "Putting your head on the wrong side, head must be on the same side as your overhook",
+    "Driving forward instead of circling toward their head, creates scrambling opportunities",
+    "Releasing the overhook too early, they will pummel for an underhook and recover Guard",
+    "Keeping your hips too high, low hips are essential for effective pressure"
   ],
   "coachingCues": [
-    "Over one, under one — lock the body lock",
-    "Chest to chest — no daylight",
+    "Over one, under one, lock the Body Lock",
+    "Chest to chest, no daylight",
     "Head on the same side as your overhook",
     "Circle toward their head, don't just drive forward",
-    "Low hips, heavy pressure — crush the Half Guard"
+    "Low hips, heavy pressure, crush the Half Guard"
   ],
   "safetySummary": [
-    "Guard your neck when entering — the over-under position can expose you to guillotines",
+    "Guard your neck when entering, the Over-Under position can expose you to Guillotines",
     "Keep your head positioned to the outside to avoid Front Headlock counters",
-    "Be careful of kimura attempts on your overhook arm"
+    "Be careful of Kimura attempts on your overhook arm"
   ],
   "systemLogic": {
-    "corePrinciple": "Over-under pass has 3 branches: Smash to Side Control → Over-Under to Mount → Over-Under to Back Take",
+    "corePrinciple": "Over-Under pass has 3 branches: Smash to Side Control → Over-Under to Mount → Over-Under to Back Take",
     "decisionTree": [
       {
         "condition": "Opponent frames on your head",
@@ -116,23 +116,23 @@
       },
       {
         "condition": "Opponent pummels for underhook",
-        "action": "Switch to bodylock pass or knee cut"
+        "action": "Switch to Bodylock pass or Knee Cut"
       },
       {
         "condition": "Opponent turns to all fours",
-        "action": "Follow them to the back — take the back or go crucifix"
+        "action": "Follow them to the back, take the back or go crucifix"
       }
     ],
     "exitStrategies": []
   },
   "moneyDetails": [
-    "The over-under pass is the highest-percentage pass against Half Guard in no-gi",
-    "Bernardo Faria won five world championships using variations of the over-under pass",
-    "Gordon Ryan uses the over-under pass as his primary Half Guard break"
+    "The Over-Under pass is the highest-percentage pass against Half Guard in no-gi",
+    "Bernardo Faria won five world championships using variations of the Over-Under pass",
+    "Gordon Ryan uses the Over-Under pass as his primary Half Guard break"
   ],
   "fixItFast": [
     "If they keep recovering: deeper underhook on the far leg",
-    "If they keep framing: more chest pressure — flatten them out",
+    "If they keep framing: more chest pressure, flatten them out",
     "If they keep sweeping: widen your base and lower your hips"
   ]
 }

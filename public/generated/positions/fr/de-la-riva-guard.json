@@ -1,5 +1,5 @@
 {
-  "id": "de-la-riva-Guard",
+  "id": "de-la-riva-guard",
   "locale": "fr",
   "title": "Garde De La Riva",
   "category": "bottom_guard",
@@ -16,23 +16,23 @@
     "Reconnaître les signaux de danger tôt au lieu d’attendre que la position se stabilise."
   ],
   "controlPoints": [
-    "Point de contrôle principal : Hook cuisse intérieure, sleeve grip et far hip..",
+    "Point de contrôle principal : Hook cuisse intérieure, sleeve grip et far hip.",
     "La tête, les mains, les hanches et les genoux doivent suivre la même direction de force.",
     "La connexion coude-genou ou la ligne hanches-épaules détermine si la position reste vivante ou verrouillée."
   ],
   "escapePriorities": [
-    "Priorité de sortie : Ne pas laisser le hook cuisse verrouiller la knee line..",
+    "Priorité de sortie : Ne pas laisser le hook cuisse verrouiller la knee line.",
     "Protéger le cou, le dos, la ligne du genou ou la ligne du bras avant de contrer.",
     "Si la position intérieure est perdue, rétablir d’abord une couche défensive."
   ],
   "advancementOptions": [
     {
       "action": "Passer en X-Guard ou single leg X",
-      "nextPositionId": "x-Guard-position",
+      "nextPositionId": "x-guard-position",
       "relatedSkillIds": [
         "de-la-riva-sweeps",
         "de-la-riva-back-take",
-        "x-Guard-control"
+        "x-guard-control"
       ],
       "why": "C’est la branche naturelle lorsque vous gagnez le point de contrôle principal et que l’adversaire est forcé de défendre."
     }
@@ -46,13 +46,13 @@
   "relatedSkillIds": [
     "de-la-riva-sweeps",
     "de-la-riva-back-take",
-    "x-Guard-control",
+    "x-guard-control",
     "single-leg-x-control",
-    "Guard-pulling-strategy"
+    "guard-pulling-strategy"
   ],
   "relatedConceptIds": [
     "hooks",
-    "Guard-retention-layers",
+    "guard-retention-layers",
     "angle-creation"
   ]
 }

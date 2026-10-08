@@ -1,5 +1,5 @@
 {
-  "id": "Mount-bottom",
+  "id": "mount-bottom",
   "locale": "en",
   "title": "Mount Bottom",
   "category": "pin",
@@ -16,23 +16,23 @@
     "Recognize danger signals early instead of waiting for the position to settle."
   ],
   "controlPoints": [
-    "Main control point: Tight elbows, active knees, and a safe chin..",
+    "Main control point: Tight elbows, active knees, and a safe chin.",
     "Head, hands, hips, and knees should share the same force direction.",
     "The elbow-knee connection or hip-shoulder line determines whether the position is still alive or already locked."
   ],
   "escapePriorities": [
-    "Escape priority: Do not push the opponent’s chest with straight arms..",
+    "Escape priority: Do not push the opponent’s chest with straight arms.",
     "Protect the neck, back, knee line, or arm line before countering.",
     "If inside position is lost, reset one defensive layer first."
   ],
   "advancementOptions": [
     {
       "action": "Recover Half Guard or quarter Guard",
-      "nextPositionId": "half-Guard-bottom",
+      "nextPositionId": "half-guard-bottom",
       "relatedSkillIds": [
-        "Mount-survival",
-        "Mount-escape",
-        "half-Guard-knee-shield"
+        "mount-survival",
+        "mount-escape",
+        "half-guard-knee-shield"
       ],
       "why": "This is the natural branch when you win the main control point and the opponent is forced to defend."
     }
@@ -44,9 +44,9 @@
     "You need a long hand post to avoid falling."
   ],
   "relatedSkillIds": [
-    "Mount-survival",
-    "Mount-escape",
-    "half-Guard-knee-shield"
+    "mount-survival",
+    "mount-escape",
+    "half-guard-knee-shield"
   ],
   "relatedConceptIds": [
     "early-vs-late-defense",

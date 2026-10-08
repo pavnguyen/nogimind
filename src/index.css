@@ -475,17 +475,17 @@ textarea:focus-visible,
 
 /* ── Detail page: caution text (was text-amber-*) ── */
 .hallmark-text-caution {
-  color: #fbbf24; /* amber-300 — semantic, not theme-bound */
+  color: #fbbf24; /* amber-300, semantic, not theme-bound */
 }
 
 /* ── Detail page: positive text (was text-emerald-*) ── */
 .hallmark-text-positive {
-  color: #6ee7b7; /* emerald-300 — semantic, not theme-bound */
+  color: #6ee7b7; /* emerald-300, semantic, not theme-bound */
 }
 
 /* ── Detail page: danger text (was text-rose-*) ── */
 .hallmark-text-danger {
-  color: #fda4af; /* rose-300 — semantic, not theme-bound */
+  color: #fda4af; /* rose-300, semantic, not theme-bound */
 }
 
 /* ── Detail page: progress bar ── */

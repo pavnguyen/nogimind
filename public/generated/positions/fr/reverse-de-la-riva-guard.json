@@ -1,5 +1,5 @@
 {
-  "id": "reverse-de-la-riva-Guard",
+  "id": "reverse-de-la-riva-guard",
   "locale": "fr",
   "title": "Garde De La Riva inversée",
   "category": "bottom_guard",
@@ -16,19 +16,19 @@
     "Reconnaître les signaux de danger tôt au lieu d’attendre que la position se stabilise."
   ],
   "controlPoints": [
-    "Point de contrôle principal : Hook extérieur, angle hanche et far wrist..",
+    "Point de contrôle principal : Hook extérieur, angle hanche et far wrist.",
     "La tête, les mains, les hanches et les genoux doivent suivre la même direction de force.",
     "La connexion coude-genou ou la ligne hanches-épaules détermine si la position reste vivante ou verrouillée."
   ],
   "escapePriorities": [
-    "Priorité de sortie : Ne pas les laisser tirer le far wrist à travers la hip line..",
+    "Priorité de sortie : Ne pas les laisser tirer le far wrist à travers la hip line.",
     "Protéger le cou, le dos, la ligne du genou ou la ligne du bras avant de contrer.",
     "Si la position intérieure est perdue, rétablir d’abord une couche défensive."
   ],
   "advancementOptions": [
     {
       "action": "Passer en DLR ou entrer berimbolo",
-      "nextPositionId": "de-la-riva-Guard",
+      "nextPositionId": "de-la-riva-guard",
       "relatedSkillIds": [
         "reverse-de-la-riva-transitions",
         "single-leg-x-control",
@@ -47,7 +47,7 @@
     "reverse-de-la-riva-transitions",
     "single-leg-x-control",
     "kimura-system",
-    "Guard-pulling-strategy"
+    "guard-pulling-strategy"
   ],
   "relatedConceptIds": [
     "hooks",

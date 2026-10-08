@@ -14,7 +14,7 @@
   "commonMistakes": [
     "Quét mà không phá vỡ tư thế trước - đối thủ đã giữ tư thế có thể chỉ cần bước ra khỏi đòn quét.",
     "Để đối thủ đặt lên đầu bạn trong quá trình quét - đóng khung ngay lập tức để ngăn chặn điều này.",
-    "Từ bỏ Closed Guard sau lần quét thất bại — luôn có kế hoạch lạiguard.",
+    "Từ bỏ Closed Guard sau lần quét thất bại, luôn có kế hoạch lạiguard.",
     "Chỉ dùng tay để quét thay vì dùng hông và chân."
   ],
   "coachingCues": [
@@ -30,7 +30,7 @@
   ],
   "keyCorrections": [
     "Cú va chạm hông thất bại? Họ đưa cánh tay của mình lên - chuyển sang kiểu quét cắt kéo ở cùng phía đó.",
-    "Quét cắt kéo thất bại? Họ bước qua chân bạn — chuyển sang triangle hoặc quét con lắc.",
+    "Quét cắt kéo thất bại? Họ bước qua chân bạn, chuyển sang Triangle hoặc quét con lắc.",
     "Tất cả các lần quét đều thất bại? Việc phá vỡ tư thế của bạn yếu - hãy quay lại kiểm soát tư thế trước."
   ],
   "systemLogic": {
@@ -41,7 +41,7 @@
         "action": "họ không thể bảo vệ cả hai cùng một lúc."
       },
       {
-        "condition": "họ bảo vệ cuộc càn quét bằng tư thế, thay vào đó hãy tấn công triangle hoặc armbar",
+        "condition": "họ bảo vệ cuộc càn quét bằng tư thế, thay vào đó hãy tấn công Triangle hoặc Armbar",
         "action": "Guard là một hệ thống, không phải các bước đi riêng lẻ."
       }
     ]
@@ -50,12 +50,12 @@
     "Đối với va chạm ở hông, hãy kéo đầu họ về phía ngực của bạn và va chạm bằng hông - đừng chỉ đẩy bằng tay.",
     "Đối với cái kéo, hãy cắt chân dưới của bạn ngang qua bụng của họ trong khi chân trên của bạn chặn vai họ - đó là đường cắt đầu gối, không phải là một cú đẩy chân.",
     "Để quét bông hoa, hãy đá chân bạn từ hông qua đường giữa của chúng - động lượng đến từ hông chứ không phải từ bàn chân.",
-    "Luôn kết thúc quá trình quét bằng chốt chiếm ưu thế (Mount, Side Control hoặc knee-on-belly) — đừng chỉ bỏ chúng và đặt lại."
+    "Luôn kết thúc quá trình quét bằng chốt chiếm ưu thế (Mount, Side Control hoặc knee-on-belly), đừng chỉ bỏ chúng và đặt lại."
   ],
-  "nextStep": "Sau khi thành thạo Closed Guard lần quét, hãy tìm hiểu nội dung gửi từ Closed Guard (triangle, armbar) để kết nối với các lần quét của bạn.",
+  "nextStep": "Sau khi thành thạo Closed Guard lần quét, hãy tìm hiểu nội dung gửi từ Closed Guard (Triangle, Armbar) để kết nối với các lần quét của bạn.",
   "fixItFast": [
     "Vết sưng ở hông không hoạt động? Bạn đang đẩy chứ không phải va chạm hông - đẩy hông lên chứ không phải cánh tay.",
     "Quét cắt kéo có vẻ yếu? Chân dưới của bạn chưa cắt đủ sâu - hãy đưa nó cao hơn bụng của họ.",
-    "Họ tiếp tục đăng bài? Sử dụng bài đăng của họ làm mục nhập cho armbar hoặc kimura."
+    "Họ tiếp tục đăng bài? Sử dụng bài đăng của họ làm mục nhập cho Armbar hoặc Kimura."
   ]
 }

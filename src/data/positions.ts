@@ -299,9 +299,9 @@ const seeds: PositionSeed[] = [
       'Hook avec le cou-de-pied, ouverture du genou et position de tête.',
     ),
     escapePriority: lt(
-      'Không để body lock khóa hông trước khi hook có tác dụng.',
-      'Do not let the body lock trap the hips before your hook can work.',
-      'Ne pas laisser le body lock piéger les hanches avant que le hook puisse agir.',
+      'Không để Body Lock khóa hông trước khi hook có tác dụng.',
+      'Do not let the Body Lock trap the hips before your hook can work.',
+      'Ne pas laisser le Body Lock piéger les hanches avant que le hook puisse agir.',
     ),
     nextPositionId: 'seated-Guard',
     action: lt('Quay lại seated Guard hoặc tạo off-balance', 'Return to seated Guard or create an off-balance', 'Revenir en garde assise ou créer un déséquilibre'),
@@ -339,7 +339,7 @@ const seeds: PositionSeed[] = [
       'Bloquer le crossface avant de monter sur un single leg.',
     ),
     nextPositionId: 'dogfight',
-    action: lt('Thắng underhook và lên dogfight', 'Win the underhook and come up to dogfight', 'Gagner l’underhook et monter en dogfight'),
+    action: lt('Thắng underhook và lên Dogfight', 'Win the underhook and come up to Dogfight', 'Gagner l’underhook et monter en Dogfight'),
     relatedSkillIds: ['half-Guard-knee-shield', 'half-Guard-wrestle-up', 'side-control-escape'],
     relatedConceptIds: ['head-position', 'elbow-knee-connection', 'wrestle-up-philosophy'],
   },
@@ -354,9 +354,9 @@ const seeds: PositionSeed[] = [
       'Le knee shield crée un wedge entre la poitrine ou la hanche du joueur du dessus et le corps du joueur du dessous.',
     ),
     topGoal: lt(
-      'Smash shield hoặc pummel vào knee cut hay headquarters.',
-      'Smash the shield or pummel into a knee cut or headquarters position.',
-      'Écraser le shield ou pummeler vers un knee cut ou une position headquarters.',
+      'Smash shield hoặc pummel vào Knee Cut hay headquarters.',
+      'Smash the shield or pummel into a Knee Cut or headquarters position.',
+      'Écraser le shield ou pummeler vers un Knee Cut ou une position headquarters.',
     ),
     bottomGoal: lt(
       'Giữ shield còn hoạt động, thắng underhook và vào wrestle-up.',
@@ -374,7 +374,7 @@ const seeds: PositionSeed[] = [
       'Si le shield est écrasé, passer immédiatement à un cadre de survie.',
     ),
     nextPositionId: 'dogfight',
-    action: lt('Pummel underhook để lên dogfight', 'Pummel for the underhook to reach dogfight', 'Pummeler pour l’underhook afin d’arriver en dogfight'),
+    action: lt('Pummel underhook để lên Dogfight', 'Pummel for the underhook to reach Dogfight', 'Pummeler pour l’underhook afin d’arriver en Dogfight'),
     relatedSkillIds: ['half-Guard-knee-shield', 'half-Guard-wrestle-up', 'knee-cut-passing'],
     relatedConceptIds: ['wedges', 'inside-position', 'wrestle-up-philosophy'],
   },
@@ -419,8 +419,8 @@ const seeds: PositionSeed[] = [
     category: 'front_headlock',
     status: 'advantage',
     description: lt(
-      'Người ở trên kiểm soát đầu và cổ từ phía trước, đe dọa go-behind, Guillotine hoặc back take.',
-      'The top player controls the head and neck from the front, threatening a go-behind, Guillotine, or back take.',
+      'Người ở trên kiểm soát đầu và cổ từ phía trước, đe dọa go-behind, Guillotine hoặc Back Take.',
+      'The top player controls the head and neck from the front, threatening a go-behind, Guillotine, or Back Take.',
       'Le joueur du dessus contrôle la tête et le cou par l’avant, menaçant le go-behind, la Guillotine ou la prise du dos.',
     ),
     topGoal: lt(
@@ -444,7 +444,7 @@ const seeds: PositionSeed[] = [
       'Mettre les deux mains sur le poignet qui étrangle avant de tourner pour sortir.',
     ),
     nextPositionId: 'turtle-top',
-    action: lt('Go-behind vào turtle ride', 'Go behind to turtle ride', 'Passer derrière vers un turtle ride'),
+    action: lt('Go-behind vào Turtle ride', 'Go behind to Turtle ride', 'Passer derrière vers un Turtle ride'),
     relatedSkillIds: ['snapdown-front-headlock', 'Guillotine-system', 'sprawl-go-behind'],
     relatedConceptIds: ['head-position', 'control-before-submission', 'early-vs-late-defense'],
   },
@@ -489,9 +489,9 @@ const seeds: PositionSeed[] = [
     category: 'turtle',
     status: 'advantage',
     description: lt(
-      'Người ở trên ride turtle, tìm kiểm soát cổ tay, áp lực hông, mat return hoặc mở lưng.',
-      'The top player rides turtle, hunting wrist control, hip pressure, mat returns, or back exposure.',
-      'Le joueur du dessus ride la turtle en cherchant le contrôle du poignet, la pression de hanche, le retour au sol ou l’exposition du dos.',
+      'Người ở trên ride Turtle, tìm kiểm soát cổ tay, áp lực hông, mat return hoặc mở lưng.',
+      'The top player rides Turtle, hunting wrist control, hip pressure, mat returns, or back exposure.',
+      'Le joueur du dessus ride la Turtle en cherchant le contrôle du poignet, la pression de hanche, le retour au sol ou l’exposition du dos.',
     ),
     topGoal: lt(
       'Ngăn stand-up hoặc re-Guard và chuyển sang back control.',
@@ -524,9 +524,9 @@ const seeds: PositionSeed[] = [
     category: 'turtle',
     status: 'defensive',
     description: lt(
-      'Người ở dưới trong turtle cần bảo vệ cổ, cổ tay và lưng trong khi xây lại base.',
-      'The bottom player in turtle must protect the neck, wrists, and back exposure while rebuilding a base.',
-      'Le joueur du dessous en turtle doit protéger le cou, les poignets et l’exposition du dos tout en reconstruisant sa base.',
+      'Người ở dưới trong Turtle cần bảo vệ cổ, cổ tay và lưng trong khi xây lại base.',
+      'The bottom player in Turtle must protect the neck, wrists, and back exposure while rebuilding a base.',
+      'Le joueur du dessous en Turtle doit protéger le cou, les poignets et l’exposition du dos tout en reconstruisant sa base.',
     ),
     topGoal: lt(
       'Người ở trên muốn cài hook, seatbelt hoặc mat return.',
@@ -555,7 +555,7 @@ const seeds: PositionSeed[] = [
   },
   {
     id: 'bodylock-passing-position',
-    title: lt('Vị trí Body Lock Passing', 'Body Lock Passing Position', 'Position de body lock passing'),
+    title: lt('Vị trí Body Lock Passing', 'Body Lock Passing Position', 'Position de Body Lock passing'),
     category: 'top_control',
     status: 'advantage',
     description: lt(
@@ -569,9 +569,9 @@ const seeds: PositionSeed[] = [
       'Verrouiller les hanches, neutraliser le hook et passer la ligne du genou couche par couche.',
     ),
     bottomGoal: lt(
-      'Pummel gối vào trong, tạo shin frame hoặc shoulder crunch.',
-      'Pummel the inside knee, create a shin frame, or use a shoulder crunch.',
-      'Pummeler le genou à l’intérieur, créer un cadre tibial ou utiliser un shoulder crunch.',
+      'Pummel gối vào trong, tạo shin frame hoặc Shoulder Crunch.',
+      'Pummel the inside knee, create a shin frame, or use a Shoulder Crunch.',
+      'Pummeler le genou à l’intérieur, créer un cadre tibial ou utiliser un Shoulder Crunch.',
     ),
     controlPoint: lt(
       'Grip thấp, đầu lệch góc và kết nối chest-to-hip.',
@@ -599,9 +599,9 @@ const seeds: PositionSeed[] = [
       'Le joueur du dessus est en headquarters avec une jambe du joueur en garde fixée et plusieurs lignes de passage disponibles.',
     ),
     topGoal: lt(
-      'Ép đối thủ vào dilemma giữa knee cut, backstep, leg drag hoặc smash.',
-      'Force a dilemma between knee cut, backstep, leg drag, or smash passing.',
-      'Forcer un dilemme entre knee cut, backstep, leg drag ou smash pass.',
+      'Ép đối thủ vào dilemma giữa Knee Cut, backstep, Leg Drag hoặc smash.',
+      'Force a dilemma between Knee Cut, backstep, Leg Drag, or smash passing.',
+      'Forcer un dilemme entre Knee Cut, backstep, Leg Drag ou smash pass.',
     ),
     bottomGoal: lt(
       'Giữ knee shield hoặc inside knee và không để hip line bị staple.',
@@ -619,13 +619,13 @@ const seeds: PositionSeed[] = [
       'Récupérer le genou intérieur avant d’attaquer.',
     ),
     nextPositionId: 'knee-cut-position',
-    action: lt('Vào đường knee cut', 'Enter the knee-cut lane', 'Entrer dans la ligne du knee cut'),
+    action: lt('Vào đường Knee Cut', 'Enter the knee-cut lane', 'Entrer dans la ligne du Knee Cut'),
     relatedSkillIds: ['headquarters-passing', 'knee-cut-passing', 'leg-drag-basics'],
     relatedConceptIds: ['dilemma-attacks', 'hip-line-shoulder-line', 'inside-position'],
   },
   {
     id: 'knee-cut-position',
-    title: lt('Vị trí Knee Cut', 'Knee Cut Position', 'Position de knee cut'),
+    title: lt('Vị trí Knee Cut', 'Knee Cut Position', 'Position de Knee Cut'),
     category: 'top_control',
     status: 'advantage',
     description: lt(
@@ -759,7 +759,7 @@ const seeds: PositionSeed[] = [
       'Protéger le cou avant de bridger fort.',
     ),
     nextPositionId: 'arm-triangle-threat',
-    action: lt('Isolate arm triangle hoặc leo high Mount', 'Isolate an arm triangle or climb to high Mount', 'Isoler un arm triangle ou monter en high Mount'),
+    action: lt('Isolate Arm Triangle hoặc leo high Mount', 'Isolate an Arm Triangle or climb to high Mount', 'Isoler un Arm Triangle ou monter en high Mount'),
     relatedSkillIds: ['Mount-control', 'Mount-escape', 'arm-triangle-Mount'],
     relatedConceptIds: ['control-before-submission', 'elbow-knee-connection', 'pressure-direction'],
   },
@@ -804,9 +804,9 @@ const seeds: PositionSeed[] = [
     category: 'back',
     status: 'dominant',
     description: lt(
-      'Attacker giữ chest-to-back, seatbelt và hooks hoặc body triangle để tạo dilemma về siết cổ.',
-      'The attacker keeps chest-to-back connection, a seatbelt, and hooks or a body triangle to create strangle dilemmas.',
-      'L’attaquant garde la connexion poitrine-dos, le seatbelt et les hooks ou le body triangle pour créer des dilemmes d’étranglement.',
+      'Attacker giữ chest-to-back, seatbelt và hooks hoặc Body Triangle để tạo dilemma về siết cổ.',
+      'The attacker keeps chest-to-back connection, a seatbelt, and hooks or a Body Triangle to create strangle dilemmas.',
+      'L’attaquant garde la connexion poitrine-dos, le seatbelt et les hooks ou le Body Triangle pour créer des dilemmes d’étranglement.',
     ),
     topGoal: lt(
       'Giữ chest-to-back, thắng hand fight và tạo arm trap hoặc choke.',
@@ -909,9 +909,9 @@ const seeds: PositionSeed[] = [
     category: 'leg_entanglement',
     status: 'dangerous',
     description: lt(
-      'Leg entanglement với chân nằm ngoài hip line, liên quan straight ankle lock và nguy cơ lộ gót.',
-      'A leg entanglement with the leg outside the hip line, connected to straight ankle locks and heel exposure.',
-      'Un entanglement de jambe avec la jambe à l’extérieur de la ligne des hanches, lié au straight ankle lock et à l’exposition du talon.',
+      'Leg entanglement với chân nằm ngoài hip line, liên quan Straight Ankle Lock và nguy cơ lộ gót.',
+      'A leg entanglement with the leg outside the hip line, connected to Straight Ankle Locks and heel exposure.',
+      'Un entanglement de jambe avec la jambe à l’extérieur de la ligne des hanches, lié au Straight Ankle Lock et à l’exposition du talon.',
     ),
     topGoal: lt(
       'Attacker muốn giữ knee line và kiểm soát bàn chân.',
@@ -940,13 +940,13 @@ const seeds: PositionSeed[] = [
   },
   {
     id: 'saddle-inside-sankaku',
-    title: lt('Saddle / Inside Sankaku', 'Saddle / Inside Sankaku', 'Saddle / inside sankaku'),
+    title: lt('Saddle / Inside Sankaku', 'Saddle / Inside Sankaku', 'Saddle / Inside Sankaku'),
     category: 'leg_entanglement',
     status: 'critical',
     description: lt(
-      'Leg entanglement mạnh quanh hip line và knee line, thường có nguy cơ heel hook nếu gót bị lộ.',
+      'Leg entanglement mạnh quanh hip line và knee line, thường có nguy cơ Heel Hook nếu gót bị lộ.',
       'A strong leg entanglement around the hip line and knee line, often carrying heel-hook danger when the heel is exposed.',
-      'Un entanglement de jambe puissant autour de la ligne des hanches et de la ligne du genou, souvent dangereux pour le heel hook si le talon est exposé.',
+      'Un entanglement de jambe puissant autour de la ligne des hanches et de la ligne du genou, souvent dangereux pour le Heel Hook si le talon est exposé.',
     ),
     topGoal: lt(
       'Attacker muốn isolate knee line, chân phụ và tạo heel exposure.',
@@ -1010,7 +1010,7 @@ const seeds: PositionSeed[] = [
   },
   {
     id: 'arm-triangle-threat',
-    title: lt('Đe dọa Arm Triangle', 'Arm Triangle Threat', 'Menace d’arm triangle'),
+    title: lt('Đe dọa Arm Triangle', 'Arm Triangle Threat', 'Menace d’Arm Triangle'),
     category: 'submission_threat',
     status: 'critical',
     description: lt(
@@ -1045,7 +1045,7 @@ const seeds: PositionSeed[] = [
   },
   {
     id: 'rear-naked-choke-threat',
-    title: lt('Đe dọa Rear Naked Choke', 'Rear Naked Choke Threat', 'Menace de rear naked choke'),
+    title: lt('Đe dọa Rear Naked Choke', 'Rear Naked Choke Threat', 'Menace de Rear Naked Choke'),
     category: 'submission_threat',
     status: 'critical',
     description: lt(
@@ -1130,7 +1130,7 @@ const seeds: PositionSeed[] = [
     ),
     bottomGoal: lt(
       'Kết hợp hook với sleeve grip và far hip control để tạo sweep/back take.',
-      'Combine the hook with sleeve grip and far hip control to create sweeps or back takes.',
+      'Combine the hook with sleeve grip and far hip control to create sweeps or Back Takes.',
       'Combiner le hook avec sleeve grip et contrôle de hanche éloignée pour sweeps ou prise de dos.',
     ),
     controlPoint: lt(
@@ -1165,8 +1165,8 @@ const seeds: PositionSeed[] = [
     ),
     bottomGoal: lt(
       'Giữ hook sống, xoay hông ra ngoài và chọn sweep/kimura/back take.',
-      'Keep the hook alive, turn hips outward, and choose sweep, kimura, or back take.',
-      'Garder hook actif, tourner hanches dehors et choisir sweep, kimura ou prise de dos.',
+      'Keep the hook alive, turn hips outward, and choose sweep, Kimura, or Back Take.',
+      'Garder hook actif, tourner hanches dehors et choisir sweep, Kimura ou prise de dos.',
     ),
     controlPoint: lt(
       'Outside hook, hip angle và far wrist.',
@@ -1249,7 +1249,7 @@ const seeds: PositionSeed[] = [
       'Ne pas perdre l’underhook avant de passer à l’attaque.',
     ),
     nextPositionId: 'dogfight',
-    action: lt('Thắng underhook để lên dogfight', 'Win the underhook to reach dogfight', 'Gagner l’underhook pour entrer dogfight'),
+    action: lt('Thắng underhook để lên Dogfight', 'Win the underhook to reach Dogfight', 'Gagner l’underhook pour entrer Dogfight'),
     relatedSkillIds: ['z-Guard-sweeps', 'half-Guard-knee-shield', 'half-Guard-wrestle-up', 'side-control-escape'],
     relatedConceptIds: ['wedges', 'inside-position', 'elbow-knee-connection'],
   },
@@ -1284,7 +1284,7 @@ const seeds: PositionSeed[] = [
       'Protéger le cou et reconnecter coude-genou avant de pousser le genou.',
     ),
     nextPositionId: 'Mount-top',
-    action: lt('Tiến lên Mount hoặc back take', 'Advance to Mount or back take', 'Avancer vers Mount ou prise de dos'),
+    action: lt('Tiến lên Mount hoặc Back Take', 'Advance to Mount or Back Take', 'Avancer vers Mount ou prise de dos'),
     relatedSkillIds: ['knee-on-belly-control', 'side-control-pin', 'Mount-control', 'kimura-system'],
     relatedConceptIds: ['pressure-direction', 'control-before-submission', 'hip-line-shoulder-line'],
   },
@@ -1319,7 +1319,7 @@ const seeds: PositionSeed[] = [
       'Ne pas laisser la pression épaule fermer les voies respiratoires.',
     ),
     nextPositionId: 'side-control-top',
-    action: lt('Chuyển Side Control hoặc back take', 'Transition to Side Control or back take', 'Passer Side Control ou prise de dos'),
+    action: lt('Chuyển Side Control hoặc Back Take', 'Transition to Side Control or Back Take', 'Passer Side Control ou prise de dos'),
     relatedSkillIds: ['north-south-control', 'side-control-pin', 'rear-naked-choke-system', 'kimura-system'],
     relatedConceptIds: ['pressure-direction', 'connection-before-control', 'control-before-submission'],
   },
@@ -1364,9 +1364,9 @@ const seeds: PositionSeed[] = [
     category: 'bottom_guard',
     status: 'neutral',
     description: lt(
-      'K-Guard kiểm soát một chân đối thủ bằng shin frame và foot hook, tạo angle vào matrix, leg locks hoặc back take.',
-      'K-Guard controls one of the opponent legs with a shin frame and foot hook, creating angles into matrix, leg locks, or back takes.',
-      'K-Guard contrôle une jambe adverse avec shin frame et foot hook, créant des angles vers matrix, leg locks ou prise de dos.',
+      'K-Guard kiểm soát một chân đối thủ bằng shin frame và foot hook, tạo angle vào matrix, Leg Locks hoặc Back Take.',
+      'K-Guard controls one of the opponent legs with a shin frame and foot hook, creating angles into matrix, Leg Locks, or Back Takes.',
+      'K-Guard contrôle une jambe adverse avec shin frame et foot hook, créant des angles vers matrix, Leg Locks ou prise de dos.',
     ),
     topGoal: lt(
       'Kill shin frame, clear knee line và ép trọng lượng.',
@@ -1454,12 +1454,12 @@ const seeds: PositionSeed[] = [
       'Knee line doublement piégée, talon passé hip line et jambe secondaire verrouillée.',
     ),
     escapePriority: lt(
-      'Không xoay mù — nhận diện trước knee line có kẹt không, heel có lộ không rồi mới hành động.',
-      'Do not rotate blind — assess knee line entrapment and heel exposure first, then act.',
-      'Ne pas tourner à l’aveugle — évaluer piégeage knee line et exposition talon d’abord, puis agir.',
+      'Không xoay mù, nhận diện trước knee line có kẹt không, heel có lộ không rồi mới hành động.',
+      'Do not rotate blind, assess knee line entrapment and heel exposure first, then act.',
+      'Ne pas tourner à l’aveugle, évaluer piégeage knee line et exposition talon d’abord, puis agir.',
     ),
     nextPositionId: 'saddle-inside-sankaku',
-    action: lt('Chuyển saddle hoặc heel hook finish', 'Transition to saddle or heel hook finish', 'Passer en saddle ou finition heel hook'),
+    action: lt('Chuyển Saddle hoặc Heel Hook finish', 'Transition to Saddle or Heel Hook finish', 'Passer en Saddle ou finition Heel Hook'),
     relatedSkillIds: ['backside-50-50-control', 'heel-hook-safety', 'leg-lock-safety-basics', 'k-Guard-matrix', 'false-reap-entry'],
     relatedConceptIds: ['knee-line', 'leg-lock-safety-hierarchy', 'safe-unsafe-rotation'],
   },
@@ -1489,12 +1489,12 @@ const seeds: PositionSeed[] = [
       'Deux poignets contrôlés, connexion poitrine-dos et angle knee ride.',
     ),
     escapePriority: lt(
-      'Đưa khuỷu tay về sườn trước khi kéo tay về — không rút thẳng vào ngực.',
-      'Bring elbows to ribs before pulling arms in — do not pull straight to the chest.',
-      'Ramener coudes aux côtes avant tirer bras — ne pas tirer droit à la poitrine.',
+      'Đưa khuỷu tay về sườn trước khi kéo tay về, không rút thẳng vào ngực.',
+      'Bring elbows to ribs before pulling arms in, do not pull straight to the chest.',
+      'Ramener coudes aux côtes avant tirer bras, ne pas tirer droit à la poitrine.',
     ),
     nextPositionId: 'back-control-position',
-    action: lt('Chuyển hook seatbelt hoặc body triangle', 'Transition to hook seatbelt or body triangle', 'Passer en hook seatbelt ou body triangle'),
+    action: lt('Chuyển hook seatbelt hoặc Body Triangle', 'Transition to hook seatbelt or Body Triangle', 'Passer en hook seatbelt ou Body Triangle'),
     relatedSkillIds: ['cross-wrist-ride', 'turtle-ride', 'back-control', 'crab-ride'],
     relatedConceptIds: ['ride-vs-pin-vs-submission', 'hooks', 'connection-before-control'],
   },
@@ -1504,9 +1504,9 @@ const seeds: PositionSeed[] = [
     category: 'back',
     status: 'advantage',
     description: lt(
-      'Ride dùng kết hợp underhook sâu + head control + hip pressure từ turtle để lộ lưng hoặc mat return.',
-      'A ride combining deep underhook, head control, and hip pressure from turtle to expose the back or mat return.',
-      'Un ride combinant underhook profond, contrôle de tête et pression hanche depuis turtle pour exposer le dos ou retour au sol.',
+      'Ride dùng kết hợp underhook sâu + head control + hip pressure từ Turtle để lộ lưng hoặc mat return.',
+      'A ride combining deep underhook, head control, and hip pressure from Turtle to expose the back or mat return.',
+      'Un ride combinant underhook profond, contrôle de tête et pression hanche depuis Turtle pour exposer le dos ou retour au sol.',
     ),
     topGoal: lt(
       'Giữ underhook sâu, head post và hip pressure offset để ngăn stand-up.',
@@ -1524,12 +1524,12 @@ const seeds: PositionSeed[] = [
       'Profondeur underhook, appui tête et vecteur pression hanche.',
     ),
     escapePriority: lt(
-      'Chống underhook trước — nếu underhook mất thì head post và hip pressure cũng vô hiệu.',
-      'Fight the underhook first — if the underhook is lost, head post and hip pressure are also neutralized.',
-      'Combattre l’underhook d’abord — sans underhook, appui tête et pression hanche sont neutralisés.',
+      'Chống underhook trước, nếu underhook mất thì head post và hip pressure cũng vô hiệu.',
+      'Fight the underhook first, if the underhook is lost, head post and hip pressure are also neutralized.',
+      'Combattre l’underhook d’abord, sans underhook, appui tête et pression hanche sont neutralisés.',
     ),
     nextPositionId: 'back-control-position',
-    action: lt('Chuyển hook hoặc back take', 'Transition to hook or back take', 'Passer en hook ou prise de dos'),
+    action: lt('Chuyển hook hoặc Back Take', 'Transition to hook or Back Take', 'Passer en hook ou prise de dos'),
     relatedSkillIds: ['claw-ride', 'turtle-ride', 'back-control', 'cross-wrist-ride'],
     relatedConceptIds: ['ride-vs-pin-vs-submission', 'hooks', 'connection-before-control'],
   },

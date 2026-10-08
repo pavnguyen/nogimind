@@ -46,7 +46,7 @@
   "keyCorrections": [
     "Si l'adversaire défend facilement les deux attaques : votre dilemme n'est pas lié : les deux menaces doivent partager un lien structurel (par exemple, les deux attaquent le même bras, ou les deux exploitent la même répartition du poids)",
     "Si vous passez de l'attaque A à l'attaque B mais perdez votre position : vous vous engagez trop pleinement dans A – gardez 20 % de conscience du résultat de la position même pendant l'attaque.",
-    "Si vous vous figez lorsque l'adversaire défend A : percez la transition de A à B jusqu'à ce qu'elle soit automatique — l'hésitation tue le dilemme"
+    "Si vous vous figez lorsque l'adversaire défend A : percez la transition de A à B jusqu'à ce qu'elle soit automatique, l'hésitation tue le dilemme"
   ],
   "version": 1,
   "updatedAt": "2026-05-21T00:24:30.756Z",
@@ -62,7 +62,7 @@
   "locale": "fr",
   "description": "Créez deux menaces pour que l'adversaire doive défendre une ligne et exposer l'autre. Un dilemme oblige l’adversaire à choisir entre deux mauvaises options : votre travail consiste à présenter le choix et à capitaliser sur l’une ou l’autre réponse.",
   "shortInstruction": "Reliez deux attaques complémentaires pour que défendre l’une ouvre l’autre. S'ils bloquent le balayage, acceptez la soumission. S'ils bloquent la soumission, terminez le balayage.",
-  "summary": "Un dilemme est une position dans laquelle la réponse défensive de l'adversaire à une attaque ouvre une seconde attaque tout aussi dangereuse. Les dilemmes les plus puissants lient un balayage et une soumission (par exemple, un balayage en ciseaux → kimura à partir de Closed Guard) ou une passe et une reprise (par exemple, passer sur le côté expose le dos). Le système vous apprend à enchaîner les attaques plutôt que de lancer des techniques uniques et de redémarrer en cas d'échec.",
+  "summary": "Un dilemme est une position dans laquelle la réponse défensive de l'adversaire à une attaque ouvre une seconde attaque tout aussi dangereuse. Les dilemmes les plus puissants lient un balayage et une soumission (par exemple, un balayage en ciseaux → Kimura à partir de Closed Guard) ou une passe et une reprise (par exemple, passer sur le côté expose le dos). Le système vous apprend à enchaîner les attaques plutôt que de lancer des techniques uniques et de redémarrer en cas d'échec.",
   "whyItWorks": [
     "Le cerveau humain est limité à traiter une menace majeure à la fois : un véritable dilemme divise son attention et garantit un délai de réaction.",
     "Enchaîner les attaques crée une pression croissante : même s’ils défendent parfaitement la première attaque, ils arrivent dans une pire position que là où ils ont commencé.",
@@ -83,7 +83,7 @@
   ],
   "safetySummary": [
     "Ne forcez pas un dilemme à grande vitesse : attaquez en chaîne à un rythme contrôlé pour éviter un traumatisme articulaire accidentel.",
-    "Lorsque vous attaquez avec une chaîne de soumission bidirectionnelle (par exemple, armbar à triangle), appliquez les soumissions progressivement et non de manière explosive.",
+    "Lorsque vous attaquez avec une chaîne de soumission bidirectionnelle (par exemple, Armbar à Triangle), appliquez les soumissions progressivement et non de manière explosive.",
     "Soyez conscient que les partenaires de formation peuvent exploiter la menace d'une soumission plutôt que la pression réelle - respectez la première pression."
   ],
   "systemLogic": {
@@ -95,7 +95,7 @@
       },
       {
         "condition": "Composant 1 : Paire connectée",
-        "action": "les deux attaques doivent cibler des parties différentes du corps de l'adversaire ou des réponses défensives différentes. Exemples : balayage + soumission, starter + armbar, passe + reprise"
+        "action": "les deux attaques doivent cibler des parties différentes du corps de l'adversaire ou des réponses défensives différentes. Exemples : balayage + soumission, starter + Armbar, passe + reprise"
       },
       {
         "condition": "Composante 2 : Mécanique partagée",
@@ -107,7 +107,7 @@
       },
       {
         "condition": "Exemples de dilemmes courants",
-        "action": "Closed Guard : balayage en ciseaux (ils affichent la main → kimura) ou armbar (ils postent → triangle). Mount : armbar (ils défendent le bras → étranglement croisé) ou étranglement croisé (ils défendent le cou → armbar). Dos : rear-naked choke (ils défendent le cou → arc et flèches) ou arc et flèches (ils défendent la hanche → RNC). Blocages de jambes : heel hook (ils défendent à l'intérieur → à l'extérieur de l'ashi) ou directement ankle lock (ils défendent heel hook → ankle lock)"
+        "action": "Closed Guard : balayage en ciseaux (ils affichent la main → Kimura) ou Armbar (ils postent → Triangle). Mount : Armbar (ils défendent le bras → étranglement croisé) ou étranglement croisé (ils défendent le cou → Armbar). Dos : rear-naked choke (ils défendent le cou → arc et flèches) ou arc et flèches (ils défendent la hanche → RNC). Blocages de jambes : Heel Hook (ils défendent à l'intérieur → à l'extérieur de l'ashi) ou directement ankle lock (ils défendent Heel Hook → ankle lock)"
       }
     ],
     "exitStrategies": []

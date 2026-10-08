@@ -1,5 +1,5 @@
 {
-  "id": "supine-Guard",
+  "id": "supine-guard",
   "locale": "fr",
   "title": "Garde sur le dos",
   "category": "bottom_guard",
@@ -16,23 +16,23 @@
     "Reconnaître les signaux de danger tôt au lieu d’attendre que la position se stabilise."
   ],
   "controlPoints": [
-    "Point de contrôle principal : Pieds sur les hanches ou les biceps, genoux à l’intérieur et angle des épaules..",
+    "Point de contrôle principal : Pieds sur les hanches ou les biceps, genoux à l’intérieur et angle des épaules.",
     "La tête, les mains, les hanches et les genoux doivent suivre la même direction de force.",
     "La connexion coude-genou ou la ligne hanches-épaules détermine si la position reste vivante ou verrouillée."
   ],
   "escapePriorities": [
-    "Priorité de sortie : Ne pas laisser les deux genoux être forcés du même côté..",
+    "Priorité de sortie : Ne pas laisser les deux genoux être forcés du même côté.",
     "Protéger le cou, le dos, la ligne du genou ou la ligne du bras avant de contrer.",
     "Si la position intérieure est perdue, rétablir d’abord une couche défensive."
   ],
   "advancementOptions": [
     {
       "action": "Récupérer le knee shield ou une couche assise",
-      "nextPositionId": "knee-shield-half-Guard",
+      "nextPositionId": "knee-shield-half-guard",
       "relatedSkillIds": [
-        "supine-Guard-retention",
-        "seated-Guard-retention",
-        "k-Guard-entry"
+        "supine-guard-retention",
+        "seated-guard-retention",
+        "k-guard-entry"
       ],
       "why": "C’est la branche naturelle lorsque vous gagnez le point de contrôle principal et que l’adversaire est forcé de défendre."
     }
@@ -44,12 +44,12 @@
     "Vous devez poser une main loin pour éviter de tomber."
   ],
   "relatedSkillIds": [
-    "supine-Guard-retention",
-    "seated-Guard-retention",
-    "k-Guard-entry"
+    "supine-guard-retention",
+    "seated-guard-retention",
+    "k-guard-entry"
   ],
   "relatedConceptIds": [
-    "Guard-retention-layers",
+    "guard-retention-layers",
     "inside-position",
     "wedges"
   ]

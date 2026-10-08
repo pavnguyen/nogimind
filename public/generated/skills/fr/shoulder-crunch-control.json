@@ -67,13 +67,13 @@
     "hasStateMachine": false
   },
   "locale": "fr",
-  "description": "Verrouillez l'épaule et la tête de l'adversaire ensemble en utilisant la position de resserrement des épaules pour configurer les balayages, les triangle, les armbar et les entrées de verrouillage des jambes.",
+  "description": "Verrouillez l'épaule et la tête de l'adversaire ensemble en utilisant la position de resserrement des épaules pour configurer les balayages, les Triangle, les Armbar et les entrées de verrouillage des jambes.",
   "shortInstruction": "Tirez leur tête vers leur épaule, verrouillez le crunch, attaquez le côté exposé.",
   "summary": "Le resserrement des épaules est l'une des positions de contrôle les plus élevées dans le travail No-Gi Guard. En tirant la tête de l'adversaire vers son épaule du même côté (créant un « resserrement » sur son cou et son épaule), vous limitez son mouvement de ce côté et exposez son bras éloigné, son dos et ses jambes. Le resserrement des épaules n'est pas une soumission en soi - c'est une position de contrôle qui facilite chaque attaque de Guard.",
   "whyItWorks": [
     "Tirer la tête vers l'épaule coince le bras et le cou du même côté, limitant ainsi leurs options défensives.",
     "La crise crée une faiblesse structurelle : ils ne peuvent pas se positionner, encadrer ou se baser sur le côté craquelé.",
-    "Il ouvre plusieurs lignes d'attaque : triangle (sur le bras plié), balayage (vers le côté ouvert) ou entrée de verrouillage de la jambe.",
+    "Il ouvre plusieurs lignes d'attaque : Triangle (sur le bras plié), balayage (vers le côté ouvert) ou entrée de verrouillage de la jambe.",
     "Principe Danaher/John Danaher : un haut du corps compromis rend le bas du corps vulnérable."
   ],
   "commonMistakes": [
@@ -86,7 +86,7 @@
     "Tête à épaule, verrouillez l’angle.",
     "Le crunch est la cage – la soumission est la récompense.",
     "Contrôlez le bras libre, possédez la position.",
-    "S'ils combattent la crise, ils ouvrent le triangle."
+    "S'ils combattent la crise, ils ouvrent le Triangle."
   ],
   "safetySummary": [
     "Ne faites pas tourner le cou de l'adversaire : le resserrement des épaules exerce une pression sur la ceinture scapulaire et non sur la colonne cervicale.",
@@ -98,11 +98,11 @@
     "decisionTree": [
       {
         "condition": "Option 1 : Ils se posent",
-        "action": "triangle starter. Option 2 : Ils se détournent → balayage ou prise arrière."
+        "action": "Triangle starter. Option 2 : Ils se détournent → balayage ou prise arrière."
       },
       {
         "condition": "Option 3 : Ils reviennent",
-        "action": "armbar sur le bras libre. Option 4 : Ils se tiennent debout → entrée du verrouillage des jambes."
+        "action": "Armbar sur le bras libre. Option 4 : Ils se tiennent debout → entrée du verrouillage des jambes."
       }
     ],
     "exitStrategies": []
@@ -110,10 +110,10 @@
   "moneyDetails": [
     "Tirez leur tête vers leur épaule, pas vers votre poitrine – l'angle du resserrement est ce qui les immobilise.",
     "Utilisez votre main du même côté pour saisir son triceps ou sa manche sur le bras libre – cela l’empêche de poster.",
-    "Gardez vos jambes actives : une jambe sur la hanche, l'autre prête à attaquer le triangle ou à balayer.",
+    "Gardez vos jambes actives : une jambe sur la hanche, l'autre prête à attaquer le Triangle ou à balayer.",
     "Le resserrement des épaules est plus efficace à partir du papillon Guard ou Half Guard – des positions où vous êtes déjà proche du haut du corps."
   ],
-  "nextStep": "Après le contrôle du resserrement des épaules, apprenez le triangle du resserrement des épaules et des combinaisons de balayage.",
+  "nextStep": "Après le contrôle du resserrement des épaules, apprenez le Triangle du resserrement des épaules et des combinaisons de balayage.",
   "fixItFast": [
     "Ils continuent de faire des postures ? Tirez plus fort sur le côté, pas vers le bas – il est plus difficile de résister à la traction latérale.",
     "Ils vous coincent la jambe ? Vos jambes sont trop larges – gardez vos genoux serrés près de leur corps.",

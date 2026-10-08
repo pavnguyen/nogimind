@@ -3,8 +3,8 @@
   "locale": "fr",
   "name": "Fausse entrée de récolte",
   "description": "Utilisez la fausse récolte (récolte de la jambe extérieure) pour créer un angle arrière sur la jambe de l'adversaire tout en maintenant la sécurité de la ligne du genou et la connaissance des règles relatives aux restrictions de récolte.",
-  "shortInstruction": "Crochet de jambe extérieur, sécurité de la ligne du genou, rotation vers l'angle arrière – la fausse récolte est la porte d'entrée vers saddle et les attaques de jambe.",
-  "summary": "La fausse récolte est une entrée No-Gi Guard où vous accrochez la jambe proche de l'adversaire de l'extérieur avec votre jambe, plutôt que de l'intérieur. Cela crée un angle arrière sur la ligne de leurs jambes, ouvrant les entrées vers le saddle (inside sankaku), le cross ashi et les prises arrière. Contrairement à la récolte traditionnelle, la fausse récolte ne traverse pas la ligne des genoux de l'adversaire de manière dangereuse, ce qui la rend légale dans la plupart des règles IBJJF tout en vous donnant accès à l'enchevêtrement des jambes.",
+  "shortInstruction": "Crochet de jambe extérieur, sécurité de la ligne du genou, rotation vers l'angle arrière – la fausse récolte est la porte d'entrée vers Saddle et les attaques de jambe.",
+  "summary": "La fausse récolte est une entrée No-Gi Guard où vous accrochez la jambe proche de l'adversaire de l'extérieur avec votre jambe, plutôt que de l'intérieur. Cela crée un angle arrière sur la ligne de leurs jambes, ouvrant les entrées vers le Saddle (Inside Sankaku), le cross ashi et les prises arrière. Contrairement à la récolte traditionnelle, la fausse récolte ne traverse pas la ligne des genoux de l'adversaire de manière dangereuse, ce qui la rend légale dans la plupart des règles IBJJF tout en vous donnant accès à l'enchevêtrement des jambes.",
   "whyItWorks": [
     "Le crochet extérieur sur sa jambe contrôle la rotation de sa hanche et l'empêche de sortir de votre Guard.",
     "L’angle arrière coupe leur base de ce côté – ils ne peuvent pas simplement reculer pour s’échapper.",
@@ -34,15 +34,15 @@
     "S’ils vous aplatissent, vous avez perdu le combat à la hanche – frappez votre genou à l’intérieur et revenez à vos côtés."
   ],
   "systemLogic": {
-    "corePrinciple": "Faux crochet de récolte à l'extérieur de la jambe : contrôlez la hanche éloignée → faites pivoter vers l'angle arrière → entrez saddle, croisez l'ashi ou prenez en arrière.",
+    "corePrinciple": "Faux crochet de récolte à l'extérieur de la jambe : contrôlez la hanche éloignée → faites pivoter vers l'angle arrière → entrez Saddle, croisez l'ashi ou prenez en arrière.",
     "decisionTree": [
       {
         "condition": "Utilisation de l'option 1",
-        "action": "Ils s'avancent → entrez saddle (inside sankaku). Option 2 : Ils reculent → prennent du recul."
+        "action": "Ils s'avancent → entrez Saddle (Inside Sankaku). Option 2 : Ils reculent → prennent du recul."
       },
       {
         "condition": "Utilisation de l'option 3",
-        "action": "Ils postent une main → attaquent le kimura ou entrent en traînée de jambe."
+        "action": "Ils postent une main → attaquent le Kimura ou entrent en traînée de jambe."
       }
     ]
   },
@@ -50,9 +50,9 @@
     "Votre jambe d'accrochage doit s'enrouler autour de sa cuisse, pas de son mollet – le contrôle de la cuisse vous donne un effet de levier sur sa hanche.",
     "Contrôlez leur hanche éloignée avec votre main – cela les empêche de s’éloigner de la fausse récolte.",
     "Faites pivoter vos hanches vers le plafond pendant que vous vous accrochez – cela aligne votre colonne vertébrale pour un effet de levier maximal.",
-    "Lorsqu'ils publient leur jambe libre, c'est le moment d'entrer dans saddle – leur base est divisée et vulnérable."
+    "Lorsqu'ils publient leur jambe libre, c'est le moment d'entrer dans Saddle – leur base est divisée et vulnérable."
   ],
-  "nextStep": "Après avoir maîtrisé l'entrée de la fausse récolte, apprenez la fausse récolte jusqu'au pont saddle pour compléter la chaîne d'enchevêtrement des jambes.",
+  "nextStep": "Après avoir maîtrisé l'entrée de la fausse récolte, apprenez la fausse récolte jusqu'au pont Saddle pour compléter la chaîne d'enchevêtrement des jambes.",
   "fixItFast": [
     "Ils s'écartent ? Rétablissez le contrôle de la hanche éloignée avec votre main.",
     "Le crochet continue de glisser ? Enroulez-le plus haut sur la cuisse, pas sur le mollet.",

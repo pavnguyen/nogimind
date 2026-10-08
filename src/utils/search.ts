@@ -1,5 +1,6 @@
 import type { LanguageCode, LibraryTier, MetaStatus, ModernSystemGroup, RiskLevel, SkillLevel, SkillNode, SkillDomain, TechniqueFamily } from '../types/skill'
 import { getLocalizedArray, getLocalizedText } from './localization'
+import { haystackIncludesQuery, normalizeSearchQuery } from './searchText'
 
 export type SkillSearchFilters = {
   q?: string
@@ -19,7 +20,7 @@ export const searchSkills = (
   lang: LanguageCode,
   filters: SkillSearchFilters = {},
 ) => {
-  const normalized = query.trim().toLowerCase()
+  const normalizedQuery = normalizeSearchQuery(query)
   return skills.filter((skill) => {
     if (filters.domain && skill.domain !== filters.domain) return false
     if (filters.level && skill.level !== filters.level) return false
@@ -29,7 +30,7 @@ export const searchSkills = (
     if (filters.modernSystemGroup && skill.modernSystemGroup !== filters.modernSystemGroup) return false
     if (filters.metaStatus && skill.metaStatus !== filters.metaStatus) return false
     if (filters.riskLevel && skill.riskLevel !== filters.riskLevel) return false
-    if (!normalized) return true
+    if (!normalizedQuery) return true
 
     const mechanics = skill.bodyMechanicsSystem
     const mechanicsText = mechanics
@@ -279,10 +280,8 @@ export const searchSkills = (
       JSON.stringify(skill.bodyToBodyDetails ?? {}),
       JSON.stringify(skill.blackbeltDetails ?? {}),
       ...skill.tags,
-    ]
-      .join(' ')
-      .toLowerCase()
+    ].join(' ')
 
-    return haystack.includes(normalized)
+    return haystackIncludesQuery(haystack, normalizedQuery)
   })
 }

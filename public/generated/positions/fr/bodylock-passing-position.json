@@ -16,12 +16,12 @@
     "Reconnaître les signaux de danger tôt au lieu d’attendre que la position se stabilise."
   ],
   "controlPoints": [
-    "Point de contrôle principal : Prise basse, tête décalée et connexion poitrine-hanche..",
+    "Point de contrôle principal : Prise basse, tête décalée et connexion poitrine-hanche.",
     "La tête, les mains, les hanches et les genoux doivent suivre la même direction de force.",
     "La connexion coude-genou ou la ligne hanches-épaules détermine si la position reste vivante ou verrouillée."
   ],
   "escapePriorities": [
-    "Priorité de sortie : Créer un wedge avec le tibia ou le genou entre la poitrine et les hanches..",
+    "Priorité de sortie : Créer un wedge avec le tibia ou le genou entre la poitrine et les hanches.",
     "Protéger le cou, le dos, la ligne du genou ou la ligne du bras avant de contrer.",
     "Si la position intérieure est perdue, rétablir d’abord une couche défensive."
   ],
@@ -31,8 +31,8 @@
       "nextPositionId": "side-control-top",
       "relatedSkillIds": [
         "bodylock-passing",
-        "seated-Guard-retention",
-        "half-Guard-wrestle-up"
+        "seated-guard-retention",
+        "half-guard-wrestle-up"
       ],
       "why": "C’est la branche naturelle lorsque vous gagnez le point de contrôle principal et que l’adversaire est forcé de défendre."
     }
@@ -45,8 +45,8 @@
   ],
   "relatedSkillIds": [
     "bodylock-passing",
-    "seated-Guard-retention",
-    "half-Guard-wrestle-up"
+    "seated-guard-retention",
+    "half-guard-wrestle-up"
   ],
   "relatedConceptIds": [
     "connection-before-control",

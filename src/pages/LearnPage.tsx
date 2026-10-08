@@ -151,7 +151,7 @@ export default function LearnPage() {
               <EmptyState title={t('positions.empty')} />
             ) : (
               <StaggerContainer className="grid gap-3 sm:grid-cols-2 xl:grid-cols-3">
-                {positions.slice(0, 12).map((position) => (
+                {positions.slice(0, 18).map((position) => (
                   <StaggerItem key={position.id}>
                     <Link
                       to={`/positions/${position.id}`}

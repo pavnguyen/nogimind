@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import { FormattedText } from '../../components/common/FormattedText'
 import { SectionAccordion } from '../skill/SectionAccordion'
+import { SKILL_SECTIONS } from '../../utils/skillAnchors'
 import type { SkillDetail } from '../../content-runtime/skills'
 
 type Props = {
@@ -27,7 +28,7 @@ export const PipelineLearnTab = ({ detail }: Props) => {
 
   return (
     <div className="animate-slideUp space-y-4 pt-4">
-      {/* Short instruction — hero cue */}
+      {/* Short instruction, hero cue */}
       {shortInstruction && (
         <div className="rounded-2xl border border-cyan-300/18 bg-linear-to-br from-cyan-300/[0.08] via-slate-950/45 to-slate-950/20 px-5 py-4 shadow-[0_18px_45px_rgba(8,145,178,0.08)] sm:px-6 sm:py-5">
           <p className="text-[11px] font-semibold uppercase tracking-[0.18em] text-cyan-300">
@@ -39,10 +40,10 @@ export const PipelineLearnTab = ({ detail }: Props) => {
         </div>
       )}
 
-      {/* System Logic — supports both object format (migrated) and array format (legacy) */}
+      {/* System Logic, supports both object format (migrated) and array format (legacy) */}
       {systemLogic && (
         <SectionAccordion
-          id="pipeline-system-logic"
+          id={SKILL_SECTIONS.systemLogic}
           title={t('cardOS.systemLogic')}
           accentColor="cyan"
           defaultOpen
@@ -123,7 +124,7 @@ export const PipelineLearnTab = ({ detail }: Props) => {
 
       {microDetailSystem && (
         <SectionAccordion
-          id="pipeline-micro-details"
+          id={SKILL_SECTIONS.microDetails}
           title={t('microDetailSystem.heading')}
           accentColor="violet"
           defaultOpen
@@ -166,7 +167,7 @@ export const PipelineLearnTab = ({ detail }: Props) => {
 
       {qualityChecklist && (
         <SectionAccordion
-          id="pipeline-ready-check"
+          id={SKILL_SECTIONS.readyCheck}
           title={t('qualityChecklist.heading')}
           accentColor="amber"
           defaultOpen
@@ -206,7 +207,7 @@ export const PipelineLearnTab = ({ detail }: Props) => {
       {/* Why It Works */}
       {whyItWorks.length > 0 && (
         <SectionAccordion
-          id="pipeline-why-it-works"
+          id={SKILL_SECTIONS.whyItWorks}
           title={t('cardOS.whyItWorks', 'Why It Works')}
           accentColor="emerald"
           defaultOpen
@@ -225,7 +226,7 @@ export const PipelineLearnTab = ({ detail }: Props) => {
       {/* Key Corrections */}
       {keyCorrections.length > 0 && (
         <SectionAccordion
-          id="pipeline-key-corrections"
+          id={SKILL_SECTIONS.keyCorrections}
           title={t('cardOS.topDetails')}
           accentColor="violet"
           defaultOpen
@@ -267,7 +268,7 @@ export const PipelineLearnTab = ({ detail }: Props) => {
       {/* Money Details */}
       {moneyDetails.length > 0 && (
         <SectionAccordion
-          id="pipeline-money-details"
+          id={SKILL_SECTIONS.moneyDetails}
           title={t('cardOS.moneyDetails')}
           accentColor="emerald"
           defaultOpen
@@ -291,7 +292,7 @@ export const PipelineLearnTab = ({ detail }: Props) => {
       {/* Coaching Cues */}
       {coachingCues.length > 0 && (
         <SectionAccordion
-          id="pipeline-coaching-cues"
+          id={SKILL_SECTIONS.coachingCues}
           title={t('detail.coachingCues', 'Coaching Cues')}
           accentColor="cyan"
         >
@@ -312,7 +313,7 @@ export const PipelineLearnTab = ({ detail }: Props) => {
       {/* Common Mistakes */}
       {commonMistakes.length > 0 && (
         <SectionAccordion
-          id="pipeline-common-mistakes"
+          id={SKILL_SECTIONS.commonMistakes}
           title={t('detail.commonMistakes')}
           accentColor="rose"
         >
@@ -333,7 +334,7 @@ export const PipelineLearnTab = ({ detail }: Props) => {
       {/* Next Step */}
       {nextStep && (
         <SectionAccordion
-          id="pipeline-next-step"
+          id={SKILL_SECTIONS.nextStep}
           title={t('cardOS.nextStep')}
           accentColor="slate"
           defaultOpen

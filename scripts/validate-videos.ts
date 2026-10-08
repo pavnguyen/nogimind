@@ -1,5 +1,5 @@
 /**
- * validate-videos.ts — Check all YouTube video references for availability
+ * validate-videos.ts - Check all YouTube video references for availability
  *
  * Uses the YouTube oEmbed API (no API key needed) to check if each video
  * is still accessible. Reports which videos are potentially unavailable.
@@ -64,11 +64,11 @@ async function fetchWithRetry(url: string, options: RequestInit, retries = 2): P
     if (attempt > 0) await new Promise(r => setTimeout(r, 1000 * attempt)) // backoff 1s, 2s
     try {
       const response = await fetch(url, options)
-      // Non-network errors (4xx, 5xx) are valid — return immediately
+      // Non-network errors (4xx, 5xx) are valid, return immediately
       if (!response.ok) return response
       return response
     } catch {
-      // Network/timeout errors — retry unless last attempt
+      // Network/timeout errors, retry unless last attempt
       if (attempt === retries) throw new Error(`All ${retries + 1} attempts failed for ${url}`)
     }
   }

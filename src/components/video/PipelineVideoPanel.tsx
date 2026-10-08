@@ -2,6 +2,7 @@ import { useTranslation } from 'react-i18next'
 import { useSkillVideosQuery } from '../../queries/contentQueries'
 import { VideoReferenceCard } from './VideoReferenceCard'
 import { SectionAccordion } from '../skill/SectionAccordion'
+import { SKILL_SECTIONS } from '../../utils/skillAnchors'
 import { useVideoReport } from '../../hooks/useVideoReport'
 
 type Props = {
@@ -32,7 +33,7 @@ export const PipelineVideoPanel = ({ skillId }: Props) => {
 
   return (
     <SectionAccordion
-      id="pipeline-video-references"
+      id={SKILL_SECTIONS.videoReferences}
       title={t('video.videoReferences')}
       badge={`${videos.length} ${t('video.publicYouTubeReference')}`}
       accentColor="cyan"

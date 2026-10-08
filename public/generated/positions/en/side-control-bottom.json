@@ -16,19 +16,19 @@
     "Recognize danger signals early instead of waiting for the position to settle."
   ],
   "controlPoints": [
-    "Main control point: Near elbow, far-hip frame, and neck line..",
+    "Main control point: Near elbow, far-hip frame, and neck line.",
     "Head, hands, hips, and knees should share the same force direction.",
     "The elbow-knee connection or hip-shoulder line determines whether the position is still alive or already locked."
   ],
   "escapePriorities": [
-    "Escape priority: Do not bench press; build skeletal frames first..",
+    "Escape priority: Do not bench press; build skeletal frames first.",
     "Protect the neck, back, knee line, or arm line before countering.",
     "If inside position is lost, reset one defensive layer first."
   ],
   "advancementOptions": [
     {
       "action": "Recover knee-elbow connection to Guard",
-      "nextPositionId": "knee-shield-half-Guard",
+      "nextPositionId": "knee-shield-half-guard",
       "relatedSkillIds": [
         "side-control-survival",
         "side-control-escape",

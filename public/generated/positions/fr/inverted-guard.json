@@ -1,5 +1,5 @@
 {
-  "id": "inverted-Guard",
+  "id": "inverted-guard",
   "locale": "fr",
   "title": "Garde inversée",
   "category": "bottom_guard",
@@ -16,22 +16,22 @@
     "Reconnaître les signaux de danger tôt au lieu d’attendre que la position se stabilise."
   ],
   "controlPoints": [
-    "Point de contrôle principal : Pieds sur hip line, connexion hanches et angle..",
+    "Point de contrôle principal : Pieds sur hip line, connexion hanches et angle.",
     "La tête, les mains, les hanches et les genoux doivent suivre la même direction de force.",
     "La connexion coude-genou ou la ligne hanches-épaules détermine si la position reste vivante ou verrouillée."
   ],
   "escapePriorities": [
-    "Priorité de sortie : Ne pas les laisser connecter d’entrées jambes depuis l’inverse..",
+    "Priorité de sortie : Ne pas les laisser connecter d’entrées jambes depuis l’inverse.",
     "Protéger le cou, le dos, la ligne du genou ou la ligne du bras avant de contrer.",
     "Si la position intérieure est perdue, rétablir d’abord une couche défensive."
   ],
   "advancementOptions": [
     {
       "action": "Passer en K-Guard ou entrée matrix",
-      "nextPositionId": "k-Guard-position",
+      "nextPositionId": "k-guard-position",
       "relatedSkillIds": [
-        "inverted-Guard-control",
-        "k-Guard-matrix",
+        "inverted-guard-control",
+        "k-guard-matrix",
         "false-reap-entry"
       ],
       "why": "C’est la branche naturelle lorsque vous gagnez le point de contrôle principal et que l’adversaire est forcé de défendre."
@@ -44,8 +44,8 @@
     "Vous devez poser une main loin pour éviter de tomber."
   ],
   "relatedSkillIds": [
-    "inverted-Guard-control",
-    "k-Guard-matrix",
+    "inverted-guard-control",
+    "k-guard-matrix",
     "false-reap-entry",
     "leg-lock-safety-basics"
   ],

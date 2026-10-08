@@ -10,6 +10,7 @@ import { Sword } from 'lucide-react'
 import { useArchetypesQuery } from '../queries/archetypeQueries'
 import { useSettingsStore } from '../stores/useSettingsStore'
 import { getLocalizedArray, getLocalizedText } from '../utils/localization'
+import { haystackIncludesQuery, normalizeSearchQuery } from '../utils/searchText'
 
 export default function ArchetypesPage() {
   const { t } = useTranslation()
@@ -20,7 +21,7 @@ export default function ArchetypesPage() {
   const query = searchParams.get('q') ?? ''
 
   const filtered = useMemo(() => {
-    const normalized = query.trim().toLowerCase()
+    const normalized = normalizeSearchQuery(query)
     if (!normalized) return archetypes
     return archetypes.filter((archetype) => {
       const haystack = [
@@ -32,10 +33,8 @@ export default function ArchetypesPage() {
         ...getLocalizedArray(archetype.trainingPriorities, language),
         ...archetype.coreSkillIds,
         ...archetype.coreConceptIds,
-      ]
-        .join(' ')
-        .toLowerCase()
-      return haystack.includes(normalized)
+      ].join(' ')
+      return haystackIncludesQuery(haystack, normalized)
     })
   }, [archetypes, language, query])
 

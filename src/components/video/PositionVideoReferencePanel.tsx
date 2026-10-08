@@ -1,7 +1,7 @@
 import { useTranslation } from 'react-i18next'
 import { useQueries } from '@tanstack/react-query'
 import { VideoReferenceCard } from './VideoReferenceCard'
-import { getSkillVideos } from '../../content-runtime/videos'
+import { dedupeVideosByYoutubeId, getSkillVideos } from '../../content-runtime/videos'
 import { contentKeys } from '../../queries/contentQueries'
 import { useVideoReport } from '../../hooks/useVideoReport'
 import type { SkillVideoReference } from '../../content-runtime/videos'
@@ -25,7 +25,7 @@ export const PositionVideoReferencePanel = ({ skillIds }: Props) => {
 
   const isLoading = videoQueries.some((q) => q.isLoading)
 
-  // Combine all videos from all related skills
+  // Combine all videos from all related skills, keeping one card per video
   const allVideos: { video: SkillVideoReference; skillId: string }[] = []
   for (const query of videoQueries) {
     if (query.data?.videos) {
@@ -34,6 +34,7 @@ export const PositionVideoReferencePanel = ({ skillIds }: Props) => {
       }
     }
   }
+  const visibleVideos = dedupeVideosByYoutubeId(allVideos)
 
   if (isLoading) {
     return (
@@ -53,7 +54,7 @@ export const PositionVideoReferencePanel = ({ skillIds }: Props) => {
 
   return (
     <div className="space-y-4">
-      {allVideos.map(({ video, skillId }) => (
+      {visibleVideos.map(({ video, skillId }) => (
         <VideoReferenceCard
           key={`${skillId}-${video.youtubeId}`}
           youtubeId={video.youtubeId}

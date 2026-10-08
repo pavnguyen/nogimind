@@ -11,6 +11,7 @@ import { useGlossaryQuery } from '../queries/glossaryQueries'
 import { useManifestQuery } from '../queries/contentQueries'
 import { useSettingsStore } from '../stores/useSettingsStore'
 import { getLocalizedArray, getLocalizedTechnicalText } from '../utils/localization'
+import { haystackIncludesQuery, normalizeSearchQuery } from '../utils/searchText'
 
 export default function ReferencePage() {
   const { t } = useTranslation()
@@ -18,7 +19,7 @@ export default function ReferencePage() {
   const [searchParams, setSearchParams] = useSearchParams()
   const activeTab = searchParams.get('tab') || 'glossary'
 
-  // Glossary data — computed at top level (hooks must be unconditional)
+  // Glossary data, computed at top level (hooks must be unconditional)
   const termsQuery = useGlossaryQuery()
   const terms = useMemo(() => termsQuery.data ?? [], [termsQuery.data])
   const manifestQuery = useManifestQuery(lang)
@@ -28,19 +29,18 @@ export default function ReferencePage() {
 
   const glossaryQuery = searchParams.get('q') ?? ''
   const filteredTerms = useMemo(() => {
-    if (!glossaryQuery.trim()) return terms
-    const normalized = glossaryQuery.trim().toLowerCase()
+    const normalizedQuery = normalizeSearchQuery(glossaryQuery)
     return terms.filter((term) => {
       const haystack = [
         term.term,
         getLocalizedTechnicalText(term.definition, lang),
         ...getLocalizedArray(term.examples, lang),
-      ].join(' ').toLowerCase()
-      return haystack.includes(normalized)
+      ].join(' ')
+      return haystackIncludesQuery(haystack, normalizedQuery)
     })
   }, [glossaryQuery, lang, terms])
 
-  // Virtualizer for glossary — top level
+  // Virtualizer for glossary, top level
   // virtualizer API is safe but the incompatible-library rule flags it
   // eslint-disable-next-line react-hooks/incompatible-library
   const virtualizer = useVirtualizer({

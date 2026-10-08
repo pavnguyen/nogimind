@@ -9,6 +9,7 @@ import { useGlossaryQuery } from '../queries/glossaryQueries'
 import { useSkillsQuery } from '../queries/skillQueries'
 import { useSettingsStore } from '../stores/useSettingsStore'
 import { getLocalizedArray, getLocalizedTechnicalText, getLocalizedText } from '../utils/localization'
+import { haystackIncludesQuery, normalizeSearchQuery } from '../utils/searchText'
 
 export default function GlossaryPage() {
   const { t } = useTranslation()
@@ -23,15 +24,14 @@ export default function GlossaryPage() {
   const parentRef = useRef<HTMLDivElement>(null)
 
   const filtered = useMemo(() => {
-    const normalized = query.trim().toLowerCase()
-    if (!normalized) return terms
+    const normalizedQuery = normalizeSearchQuery(query)
     return terms.filter((term) => {
       const haystack = [
         term.term,
         getLocalizedTechnicalText(term.definition, language),
         ...getLocalizedArray(term.examples, language),
-      ].join(' ').toLowerCase()
-      return haystack.includes(normalized)
+      ].join(' ')
+      return haystackIncludesQuery(haystack, normalizedQuery)
     })
   }, [language, query, terms])
 

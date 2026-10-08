@@ -12,6 +12,7 @@ import { usePositionsQuery } from '../queries/positionQueries'
 import { useSettingsStore } from '../stores/useSettingsStore'
 import type { PositionCategory } from '../types/position'
 import { getLocalizedArray, getLocalizedText } from '../utils/localization'
+import { haystackIncludesQuery, normalizeSearchQuery } from '../utils/searchText'
 
 export default function PositionsPage() {
   const { t } = useTranslation()
@@ -23,20 +24,17 @@ export default function PositionsPage() {
   const category = positionCategories.includes(searchParams.get('category') as PositionCategory) ? (searchParams.get('category') as PositionCategory) : ''
 
   const filtered = useMemo(() => {
-    const normalized = query.trim().toLowerCase()
+    const normalized = normalizeSearchQuery(query)
     return positions.filter((position) => {
       if (category && position.category !== category) return false
-      if (!normalized) return true
       const haystack = [
         getLocalizedText(position.title, language),
         position.title.en,
         getLocalizedText(position.description, language),
         ...getLocalizedArray(position.controlPoints, language),
         ...getLocalizedArray(position.dangerSignals, language),
-      ]
-        .join(' ')
-        .toLowerCase()
-      return haystack.includes(normalized)
+      ].join(' ')
+      return haystackIncludesQuery(haystack, normalized)
     })
   }, [category, language, positions, query])
 

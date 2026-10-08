@@ -16,12 +16,12 @@
     "Nhận diện tín hiệu nguy hiểm sớm thay vì chờ vị trí ổn định."
   ],
   "controlPoints": [
-    "Điểm kiểm soát chính: Tay qua cổ, head block và shoulder pressure..",
+    "Điểm kiểm soát chính: Tay qua cổ, head block và shoulder pressure.",
     "Đầu, tay, hông và gối nên cùng hướng lực.",
     "Kết nối khuỷu-gối hoặc đường hông-vai quyết định vị trí còn sống hay đã bị khóa."
   ],
   "escapePriorities": [
-    "Ưu tiên thoát: Đưa khuỷu tay về sườn trước khi bridge lớn..",
+    "Ưu tiên thoát: Đưa khuỷu tay về sườn trước khi bridge lớn.",
     "Bảo vệ cổ, lưng, đường gối hoặc đường tay trước khi phản công.",
     "Nếu mất vị trí trong, hãy lùi lại một lớp phòng thủ trước."
   ],
@@ -30,8 +30,8 @@
       "action": "Đi góc tới finish line từ Side Control",
       "nextPositionId": "side-control-top",
       "relatedSkillIds": [
-        "arm-triangle-Mount",
-        "Mount-control",
+        "arm-triangle-mount",
+        "mount-control",
         "side-control-pin"
       ],
       "why": "Đây là nhánh tự nhiên khi bạn thắng điểm kiểm soát chính và đối thủ buộc phải phòng thủ."
@@ -44,8 +44,8 @@
     "Bạn phải chống tay dài để không ngã."
   ],
   "relatedSkillIds": [
-    "arm-triangle-Mount",
-    "Mount-control",
+    "arm-triangle-mount",
+    "mount-control",
     "side-control-pin"
   ],
   "relatedConceptIds": [

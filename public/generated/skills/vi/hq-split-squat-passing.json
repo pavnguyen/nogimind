@@ -70,9 +70,9 @@
     "hasStateMachine": false
   },
   "locale": "vi",
-  "description": "Trụ sở chính (HQ) và động tác squat tách đôi passing: quản lý khoảng cách bằng một đầu gối nâng lên và một đầu gối hạ xuống, chặn khung ống chân và chọn cắt đầu gối, khóa thân hoặc toreando dựa trên phản ứng của người chơi Guard.",
-  "shortInstruction": "Từ tư thế ngồi xổm (một đầu gối nâng lên, một đầu gối hạ xuống), chặn khung ống chân của họ bằng đầu gối đã đăng của bạn, kiểm soát hông xa của họ và đọc phản ứng của họ để chọn cắt đầu gối, khóa cơ thể hoặc toreando.",
-  "summary": "Tư thế ngồi xổm (còn gọi là trụ sở) là vị trí pass nền tảng cho BJJ hiện đại. Nó tạo ra một đế hình tam giác chặn khung ống chân của đối phương trong khi vẫn giữ cho hông của bạn di động. Từ động tác squat-squat, bạn đọc góc hông và khoảng cách của đối phương để chọn pass thích hợp: cắt đầu gối (khoảng cách ngắn), khóa thân (khoảng cách trung bình) hoặc toreando (khoảng cách dài).",
+  "description": "Trụ sở chính (HQ) và động tác squat tách đôi passing: quản lý khoảng cách bằng một đầu gối nâng lên và một đầu gối hạ xuống, chặn khung ống chân và chọn cắt đầu gối, khóa thân hoặc Toreando dựa trên phản ứng của người chơi Guard.",
+  "shortInstruction": "Từ tư thế ngồi xổm (một đầu gối nâng lên, một đầu gối hạ xuống), chặn khung ống chân của họ bằng đầu gối đã đăng của bạn, kiểm soát hông xa của họ và đọc phản ứng của họ để chọn cắt đầu gối, khóa cơ thể hoặc Toreando.",
+  "summary": "Tư thế ngồi xổm (còn gọi là trụ sở) là vị trí pass nền tảng cho BJJ hiện đại. Nó tạo ra một đế hình tam giác chặn khung ống chân của đối phương trong khi vẫn giữ cho hông của bạn di động. Từ động tác squat-squat, bạn đọc góc hông và khoảng cách của đối phương để chọn pass thích hợp: cắt đầu gối (khoảng cách ngắn), khóa thân (khoảng cách trung bình) hoặc Toreando (khoảng cách dài).",
   "whyItWorks": [
     "Tư thế ngồi xổm (một đầu gối nâng lên, một đầu gối hạ xuống) tạo ra một bệ đỡ ổn định có thể điều chỉnh theo bất kỳ phản ứng nào của người chơi Guard",
     "Đầu gối được gắn chặn công cụ giữ Guard phổ biến nhất - khung ống chân",
@@ -83,17 +83,17 @@
     "Để bàn chân hướng lên trên đầu gối bằng phẳng - bàn chân phải ở trên quả bóng, không bằng phẳng, để di chuyển",
     "Mất kết nối hông xa - tay của bạn phải duy trì tiếp xúc với hông xa của họ",
     "Cam kết pass trước khi đọc phản hồi của họ - việc đọc phải đến trước lựa chọn pass",
-    "Nâng hông lên quá cao — điều này tạo cho đối thủ không gian để thực hiện lại Guard hoặc tấn công"
+    "Nâng hông lên quá cao, điều này tạo cho đối thủ không gian để thực hiện lại Guard hoặc tấn công"
   ],
   "coachingCues": [
     "Đầu gối lên, đầu gối xuống, chân đế ổn định",
     "Chặn ống chân, kiểm soát hông",
     "Đọc đầu tiên, vượt qua thứ hai",
-    "Cắt đầu gối, khóa thân hoặc toreando"
+    "Cắt đầu gối, khóa thân hoặc Toreando"
   ],
   "safetySummary": [
     "Đừng để bàn chân chống lên đầu gối của bạn trượt quá xa về phía trước - điều này có thể khiến hông bị duỗi quá mức",
-    "Hãy cẩn thận với ankle lock khi thực hiện động tác squat gập người — hãy luôn chủ động và chú ý đến đôi chân của bạn",
+    "Hãy cẩn thận với ankle lock khi thực hiện động tác squat gập người, hãy luôn chủ động và chú ý đến đôi chân của bạn",
     "Nếu đối thủ lăn dưới pass của bạn, hãy bảo vệ đầu gối của bạn khỏi bị va đập hoặc để lộ gót chân"
   ],
   "systemLogic": {
@@ -119,7 +119,7 @@
     "exitStrategies": []
   },
   "moneyDetails": [
-    "Squat-squat là tư thế chuyền phổ biến — nó có tác dụng với tất cả các kiểu cơ thể và kiểu Guard",
+    "Squat-squat là tư thế chuyền phổ biến, nó có tác dụng với tất cả các kiểu cơ thể và kiểu Guard",
     "Học cách chuyền bóng theo tư thế ngồi xổm là con đường nhanh nhất để có được một trò chơi chuyền bóng hoàn chỉnh",
     "Hệ thống này là nền tảng của chương trình giảng dạy Guard passing của Danaher"
   ],

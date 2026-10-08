@@ -4,11 +4,11 @@
   "name": "Gặt hái nhận thức",
   "description": "Nhận biết và tránh việc giật đầu gối trái phép trong các vướng mắc khóa chân. Cú đánh xảy ra khi bàn chân tấn công vượt qua đường giữa của đối phương và gót chân hướng về phía hông, tạo ra mômen quay nguy hiểm trên đầu gối.",
   "shortInstruction": "Nếu chân tấn công của bạn vượt qua đường rốn của đối phương và gót chân của bạn hướng về phía hông của họ, bạn đang gặt hái. Ngay lập tức thả ra hoặc điều chỉnh sang vị trí ashi bên ngoài để luyện tập an toàn.",
-  "summary": "Nhận thức về việc thu lại sẽ dạy bạn cách xác định khi nào một tư thế vướng chân trở thành một tư thế bất hợp pháp (quy tắc IBJJF) hoặc một tư thế đầu gối nguy hiểm và cách điều chỉnh sang các tư thế luyện tập an toàn. Biện pháp quan trọng là đường giữa - nếu chân tấn công của bạn ở phía đối diện với cơ thể đối phương so với nơi bạn bắt đầu, bạn có khả năng sẽ gặt hái được. Điều nguy hiểm là việc gặt sẽ áp dụng mô-men quay tương tự lên đầu gối như heel hook và việc luyện tập ở các tư thế gặt sẽ bình thường hóa các góc đầu gối không an toàn.",
+  "summary": "Nhận thức về việc thu lại sẽ dạy bạn cách xác định khi nào một tư thế vướng chân trở thành một tư thế bất hợp pháp (quy tắc IBJJF) hoặc một tư thế đầu gối nguy hiểm và cách điều chỉnh sang các tư thế luyện tập an toàn. Biện pháp quan trọng là đường giữa - nếu chân tấn công của bạn ở phía đối diện với cơ thể đối phương so với nơi bạn bắt đầu, bạn có khả năng sẽ gặt hái được. Điều nguy hiểm là việc gặt sẽ áp dụng mô-men quay tương tự lên đầu gối như Heel Hook và việc luyện tập ở các tư thế gặt sẽ bình thường hóa các góc đầu gối không an toàn.",
   "whyItWorks": [
     "Hiểu được đường giữa và bên của đầu gối sẽ ngăn ngừa chấn thương khi tập luyện - việc gặt áp dụng lực xoay bên ngoài cho đầu gối có thể làm hỏng MCL và sụn chêm",
-    "Biết các quy định của cuộc thi sẽ tránh bị loại — IBJJF cấm gặt hái ở mọi cấp độ đai",
-    "Nhận biết việc gặt sớm cho phép điều chỉnh an toàn trước khi áp dụng mô-men xoắn — bạn có thể chuyển sang ashi bên ngoài hoặc 50/50",
+    "Biết các quy định của cuộc thi sẽ tránh bị loại - IBJJF cấm gặt hái ở mọi cấp độ đai",
+    "Nhận biết việc gặt sớm cho phép điều chỉnh an toàn trước khi áp dụng mô-men xoắn, bạn có thể chuyển sang ashi bên ngoài hoặc 50/50",
     "Rèn luyện ý thức gặt giúp ngăn ngừa chấn thương do tai nạn khi tập luyện ở cường độ cao hơn"
   ],
   "commonMistakes": [
@@ -20,13 +20,13 @@
   "coachingCues": [
     "Chân bắt chéo đường giữa = gặt",
     "Gót chân vào hông = xoay nguy hiểm",
-    "Bên ngoài ashi an toàn, inside sankaku đang gặt",
-    "Khi nghi ngờ, hãy chuyển sang khóa chân thẳng"
+    "Bên ngoài ashi an toàn, Inside Sankaku đang gặt",
+    "Khi nghi ngờ, hãy chuyển sang Straight Ankle Lock"
   ],
   "safetySummary": [
     "Việc gặt tác dụng mô-men quay nguy hiểm lên đầu gối - MCL dễ bị tổn thương nhất, tiếp theo là ACL và sụn chêm",
     "Luôn thả ra ngay lập tức nếu bạn cảm thấy chân vượt qua đường giữa của đối phương trong lúc vướng chân",
-    "Khi nghi ngờ, hãy chuyển sang tư thế ashi bên ngoài (chân cùng một phía) hoặc tư thế khóa chân thẳng (không bắt chéo)",
+    "Khi nghi ngờ, hãy chuyển sang tư thế ashi bên ngoài (chân cùng một phía) hoặc tư thế Straight Ankle Lock (không bắt chéo)",
     "Quy tắc IBJJF: gặt hái kết quả là bị loại ngay lập tức ở mọi cấp độ đai",
     "Trong các quy tắc chỉ phụ của ADCC và No-Gi, việc gặt là hợp pháp nhưng vẫn tiềm ẩn nguy cơ chấn thương đầu gối cố hữu"
   ],
@@ -38,7 +38,7 @@
         "action": "Bạn đang gặt - ngay lập tức trượt chân tấn công của bạn về cùng phía với cơ thể của họ và chuyển sang vị trí ashi bên ngoài. Đừng tạo áp lực cho đến khi bạn đã điều chỉnh."
       },
       {
-        "condition": "Bạn là inside sankaku (saddle) và muốn tập luyện an toàn",
+        "condition": "Bạn là Inside Sankaku (Saddle) và muốn tập luyện an toàn",
         "action": "Xoay hông ra sau để đưa chân về cùng một phía, đi ra ngoài ashi. Điều này loại bỏ điều kiện gặt trong khi vẫn duy trì khả năng kiểm soát chân."
       },
       {
@@ -47,7 +47,7 @@
       },
       {
         "condition": "Bạn không chắc liệu mình có đang thu hoạch hay không",
-        "action": "Dừng lại, duỗi thẳng chân và vào lại từ vị trí an toàn bên ngoài ashi. Khi nghi ngờ, hãy chuyển sang khóa chân thẳng - không liên quan đến việc vượt qua."
+        "action": "Dừng lại, duỗi thẳng chân và vào lại từ vị trí an toàn bên ngoài ashi. Khi nghi ngờ, hãy chuyển sang Straight Ankle Lock - không liên quan đến việc vượt qua."
       },
       {
         "condition": "Đối tác của bạn phải chịu áp lực trong quá trình tập luyện",
@@ -55,18 +55,18 @@
       }
     ],
     "exitStrategies": [
-      "Theo quy tắc IBJJF, việc gặt hái sẽ bị loại ngay lập tức ở tất cả các cấp độ đai - thay vào đó hãy tập luyện bên ngoài ashi hoặc thẳng ankle lock.",
+      "Theo quy tắc IBJJF, việc gặt hái sẽ bị loại ngay lập tức ở tất cả các cấp độ đai - thay vào đó hãy tập luyện bên ngoài ashi hoặc Straight Ankle Lock.",
       "Theo quy tắc ADCC hoặc No-Gi, việc tập luyện là hợp pháp nhưng vẫn có nguy cơ chấn thương đầu gối - tập luyện với cường độ được kiểm soát và giải phóng khi có bất kỳ dấu hiệu khó chịu nào.",
-      "Nếu bạn muốn tập khóa chân một cách an toàn, hãy tìm hiểu sự khác biệt giữa ashi bên ngoài (an toàn) và inside sankaku (gặt) trước khi thực hiện bất kỳ động tác vướng chân nào."
+      "Nếu bạn muốn tập khóa chân một cách an toàn, hãy tìm hiểu sự khác biệt giữa ashi bên ngoài (an toàn) và Inside Sankaku (gặt) trước khi thực hiện bất kỳ động tác vướng chân nào."
     ]
   },
   "moneyDetails": [
-    "Nhận thức về việc thu hồi sẽ ngăn chặn việc bị loại phổ biến nhất trong các cuộc thi IBJJF — một DQ thu được sẽ tiêu tốn toàn bộ giải đấu",
+    "Nhận thức về việc thu hồi sẽ ngăn chặn việc bị loại phổ biến nhất trong các cuộc thi IBJJF, một DQ thu được sẽ tiêu tốn toàn bộ giải đấu",
     "Hiểu về động tác gặt giúp bảo vệ đối tác tập luyện của bạn khỏi chấn thương đầu gối do tai nạn trong quá trình tập luyện khóa chân",
     "Học cách điều chỉnh từ khi thu hoạch đến vị trí an toàn (ngoài ashi, 50/50) giúp bạn trở thành đối tác luyện tập linh hoạt hơn và an toàn hơn"
   ],
   "fixItFast": [
-    "Nếu bạn là inside sankaku (saddle) và muốn điều chỉnh: dịch hông ra sau để đưa chân về cùng một phía, hãy đi vào bên ngoài ashi",
+    "Nếu bạn là Inside Sankaku (Saddle) và muốn điều chỉnh: dịch hông ra sau để đưa chân về cùng một phía, hãy đi vào bên ngoài ashi",
     "Nếu bạn cảm thấy đầu gối của mình bị giật: hãy chạm ngay và yêu cầu đối tác kiểm tra vị trí bàn chân của họ trước khi tiếp tục",
     "Nếu bạn là người tấn công và không chắc chắn: duỗi thẳng cả hai chân, giải phóng sự vướng víu và vào lại từ vị trí chân trung lập"
   ]

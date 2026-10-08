@@ -37,7 +37,7 @@ export const VideoReferenceCard = ({
 
   return (
     <article className="group relative grid gap-4 overflow-hidden rounded-xl border border-white/[0.06] bg-slate-950/50 p-3 shadow-glow-sm transition-all duration-200 hover:border-hallmark-accent-dim hover:shadow-glow sm:gap-5 sm:p-5 lg:grid-cols-[minmax(260px,0.9fr)_1fr]">
-      {/* Left accent border — theme-aware */}
+      {/* Left accent border, theme-aware */}
       <span className="absolute left-0 top-0 h-full w-0.5 bg-hallmark-accent opacity-0 transition-opacity duration-200 group-hover:opacity-100" aria-hidden="true" />
 
       <LazyYouTubeEmbed
@@ -80,7 +80,7 @@ export const VideoReferenceCard = ({
           </p>
         </div>
 
-        {/* Why useful — with subtle quote accent */}
+        {/* Why useful, with subtle quote accent */}
         {whyUseful && (
           <div className="relative rounded-lg border border-white/[0.04] bg-white/[0.02] px-3 py-2.5 sm:px-4">
             <svg

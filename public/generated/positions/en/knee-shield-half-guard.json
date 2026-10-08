@@ -1,5 +1,5 @@
 {
-  "id": "knee-shield-half-Guard",
+  "id": "knee-shield-half-guard",
   "locale": "en",
   "title": "Knee Shield Half Guard",
   "category": "bottom_guard",
@@ -16,12 +16,12 @@
     "Recognize danger signals early instead of waiting for the position to settle."
   ],
   "controlPoints": [
-    "Main control point: Shin angle, elbow-knee connection, and head position..",
+    "Main control point: Shin angle, elbow-knee connection, and head position.",
     "Head, hands, hips, and knees should share the same force direction.",
     "The elbow-knee connection or hip-shoulder line determines whether the position is still alive or already locked."
   ],
   "escapePriorities": [
-    "Escape priority: If the shield is smashed, switch immediately to a survival frame..",
+    "Escape priority: If the shield is smashed, switch immediately to a survival frame.",
     "Protect the neck, back, knee line, or arm line before countering.",
     "If inside position is lost, reset one defensive layer first."
   ],
@@ -30,8 +30,8 @@
       "action": "Pummel for the underhook to reach dogfight",
       "nextPositionId": "dogfight",
       "relatedSkillIds": [
-        "half-Guard-knee-shield",
-        "half-Guard-wrestle-up",
+        "half-guard-knee-shield",
+        "half-guard-wrestle-up",
         "knee-cut-passing"
       ],
       "why": "This is the natural branch when you win the main control point and the opponent is forced to defend."
@@ -44,8 +44,8 @@
     "You need a long hand post to avoid falling."
   ],
   "relatedSkillIds": [
-    "half-Guard-knee-shield",
-    "half-Guard-wrestle-up",
+    "half-guard-knee-shield",
+    "half-guard-wrestle-up",
     "knee-cut-passing"
   ],
   "relatedConceptIds": [

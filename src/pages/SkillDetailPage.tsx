@@ -1,5 +1,5 @@
 import { lazy, Suspense, useState, useEffect, useMemo, type ReactNode } from 'react'
-import { useParams } from 'react-router-dom'
+import { useParams, useLocation } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import { NotFound } from '../components/common/NotFound'
 import { PageShell } from '../components/common/PageShell'
@@ -12,6 +12,7 @@ import { useSettingsStore } from '../stores/useSettingsStore'
 import { PipelineLearnTab } from '../components/content/PipelineLearnTab'
 import { PipelineFixTab } from '../components/content/PipelineFixTab'
 import { useRecentlyViewedStore } from '../stores/useRecentlyViewedStore'
+import { skillTabForAnchor } from '../utils/skillAnchors'
 import { cn } from '../utils/cn'
 import type { SkillNode, SkillDomain, SkillLevel, LanguageCode } from '../types/skill'
 
@@ -42,7 +43,7 @@ function buildPipelineSkillNode(
     tags: detail.tags,
     shortDescription: localized(detail.description || detail.summary || ''),
 
-    // Required SkillNode fields — filled with sensible defaults
+    // Required SkillNode fields, filled with sensible defaults
     libraryTier: undefined,
     metaStatus: undefined,
     riskLevel: undefined,
@@ -76,12 +77,15 @@ function buildPipelineSkillNode(
 
 export default function SkillDetailPage() {
   const { skillId } = useParams()
+  const { hash } = useLocation()
   const { t } = useTranslation()
   const language = useSettingsStore((state) => state.language)
   const skillQuery = useSkillQuery(skillId)
   const skill = skillQuery.data
   const recordView = useRecentlyViewedStore((state) => state.recordView)
-  const [activeTab, setActiveTab] = useState<TabId>('watch')
+  // Explicit tab choice by the user; a deep link can override the default until
+  // the user picks a tab themselves.
+  const [userTab, setUserTab] = useState<TabId | null>(null)
 
   // ── Content pipeline (Phase 2) ─────────────────────────────────────────
   const contentQuery = useContentSkillDetailQuery(skillId, language)
@@ -95,7 +99,7 @@ export default function SkillDetailPage() {
     pipelineDetail.featureFlags.hasVideos &&
     (videosQuery.data?.videos?.length ?? 0) > 0
 
-  // Decide which sections to show from pipeline vs legacy — direct typed access
+  // Decide which sections to show from pipeline vs legacy, direct typed access
   const pipelineSystemLogic = isPipelineAvailable ? (pipelineDetail.systemLogic ?? undefined) : undefined
   const pipelineKeyCorrections = isPipelineAvailable ? (pipelineDetail.keyCorrections ?? undefined) : undefined
   const pipelineMoneyDetails = isPipelineAvailable ? (pipelineDetail.moneyDetails ?? undefined) : undefined
@@ -144,10 +148,44 @@ export default function SkillDetailPage() {
       items.push({ id: 'fix', label: t('cardOS.fixItFast'), icon: TabIcons.fix, accent: 'violet' })
     }
 
-    // Watch tab — always first
+    // Watch tab, always first
     items.unshift({ id: 'watch', label: t('video.videoReferences'), icon: TabIcons.watch, accent: 'sky' })
     return items
   }, [hasPipelineLearnContent, hasPipelineFixContent, t])
+
+  // ── Deep links from search results ─────────────────────────────────────
+  // A result such as `/skills/armbar#pipeline-system-logic` must open the tab
+  // that renders the section and scroll to it once the content is mounted.
+  // Deriving the tab (instead of syncing it in an effect) means the section is
+  // already rendered when the scroll effect below runs.
+  const anchorId = hash.startsWith('#') ? hash.slice(1) : ''
+  const anchorTab = anchorId ? skillTabForAnchor(anchorId) : undefined
+  const activeTab: TabId =
+    userTab ?? (anchorTab && tabs.some((tab) => tab.id === anchorTab) ? anchorTab : 'watch')
+
+  useEffect(() => {
+    if (!anchorId) return
+    let cancelled = false
+    let attempts = 0
+    let rafId = 0
+    let timerId = 0
+    const reveal = () => {
+      if (cancelled) return
+      const el = document.getElementById(anchorId)
+      if (el) {
+        el.scrollIntoView({ block: 'start', behavior: 'smooth' })
+        return
+      }
+      // Pipeline detail and the lazy video panel mount asynchronously.
+      if (attempts++ < 40) timerId = window.setTimeout(reveal, 100)
+    }
+    rafId = window.requestAnimationFrame(reveal)
+    return () => {
+      cancelled = true
+      window.cancelAnimationFrame(rafId)
+      window.clearTimeout(timerId)
+    }
+  }, [anchorId, activeTab, isPipelineAvailable, hasPipelineVideos])
 
   // ── Loading state (also keep skeleton while pipeline content loads) ──
   if (skillQuery.isLoading || (contentQuery.isLoading && !skill)) {
@@ -212,7 +250,7 @@ export default function SkillDetailPage() {
           <SkillDetailTabs
             tabs={tabs}
             activeTab={activeTab}
-            onTabChange={setActiveTab}
+            onTabChange={setUserTab}
           />
         </div>
 

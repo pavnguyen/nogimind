@@ -8,7 +8,7 @@ A modern no-gi grappling knowledge system. Study skills, positions, concepts, mi
 - **UI**: [React 19](https://react.dev) + [React Router 7](https://reactrouter.com) + [Framer Motion](https://motion.dev)
 - **Data**: [TanStack Query](https://tanstack.com/query) + [Zustand](https://zustand-docs.pmnd.rs) + [Zod](https://zod.dev)
 - **Search**: [MiniSearch](https://github.com/lucaong/minisearch) with an IndexedDB cache and a Web Worker index
-- **i18n**: [i18next](https://www.i18next.com) — English, Vietnamese, French
+- **i18n**: [i18next](https://www.i18next.com) - English, Vietnamese, French
 - **PWA**: [vite-plugin-pwa](https://vite-pwa-org.netlify.app) (offline support, auto-updating service worker)
 - **Quality**: TypeScript (strict), ESLint (flat config), Vitest + Testing Library
 
@@ -44,7 +44,7 @@ npm run preview   # preview the production build
 src/
   pages/            Route-level pages (lazy-loaded via router/routes.tsx)
   components/       Layout, dashboard, content, learning, skills, video, common
-  contexts/         Global context (HubThemeProvider) — hooks live in hooks/
+  contexts/         Global context (HubThemeProvider), hooks live in hooks/
   hooks/            Shared hooks (useHubTheme, useVideoReport, …)
   stores/           Zustand stores (settings, UI, search)
   queries/          TanStack Query client + content queries
@@ -78,9 +78,9 @@ All brand assets are generated from `public/logo.jpg` (the painted "No-Gi Mind" 
 
 The repo ships with a GitHub Actions pipeline (`.github/workflows/ci.yml`):
 
-1. **Lint** — ESLint flat config
-2. **Test** — Vitest suite
-3. **Build & typecheck** — `tsc -b` + production build + content validation
+1. **Lint** - ESLint flat config
+2. **Test** - Vitest suite
+3. **Build & typecheck** - `tsc -b` + production build + content validation
 
 `.github/workflows/content-validation.yml` additionally validates content on content-only changes. All jobs run on Node 22.
 
@@ -97,6 +97,20 @@ To deploy:
 ```bash
 vercel --prod
 ```
+
+## Contributing with AI agents
+
+[`AGENTS.md`](AGENTS.md) is the single source of conventions for both humans and
+AI agents: repository map, how to add a skill, how to source and verify videos
+(no-gi and modern BJJ only), i18n and Vietnamese style rules, search rules,
+verification gates and known traps.
+
+Two rules to remember before any copy or content change:
+
+- Never use the em dash character (U+2014). Replace it with `-`, `,` or `.`
+  depending on context.
+- Keep technique names in English in every locale (`Straight Ankle Lock`, never a
+  translated variant).
 
 ## License
 

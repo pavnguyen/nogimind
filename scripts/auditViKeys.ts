@@ -92,7 +92,7 @@ const missing = entries.filter(e => e.status === 'missing').length
 const coveragePct = ((translated + hasGloss) / totalKeys * 100).toFixed(1)
 
 console.log('╔══════════════════════════════════════════════════════════════════════════╗')
-console.log('║            VIETNAMESE i18n AUDIT —  en.ts  vs  vi.ts                    ║')
+console.log('║            VIETNAMESE i18n AUDIT,  en.ts  vs  vi.ts                    ║')
 console.log('╚══════════════════════════════════════════════════════════════════════════╝')
 console.log()
 
@@ -216,7 +216,7 @@ console.log()
 
 const identicalEntries = entries.filter(e => e.status === 'identical')
 if (identicalEntries.length > 0) {
-  console.log(bold(`UNTRANSLATED KEYS (VI === EN) — ${identicalEntries.length} total`))
+  console.log(bold(`UNTRANSLATED KEYS (VI === EN) - ${identicalEntries.length} total`))
   console.log(dim('─'.repeat(80)))
   for (const entry of identicalEntries.slice(0, 50)) {
     console.log(`  ${yellow(entry.keyPath)}`)
@@ -233,7 +233,7 @@ if (identicalEntries.length > 0) {
 
 const glossEntries = entries.filter(e => e.status === 'has_english_gloss')
 if (glossEntries.length > 0) {
-  console.log(bold(`KEYS WITH ENGLISH GLOSS (VI has (English)) — ${glossEntries.length} total`))
+  console.log(bold(`KEYS WITH ENGLISH GLOSS (VI has (English)) - ${glossEntries.length} total`))
   console.log(dim('─'.repeat(80)))
   for (const entry of glossEntries.slice(0, 40)) {
     console.log(`  ${yellow(entry.keyPath)}`)
@@ -251,7 +251,7 @@ if (glossEntries.length > 0) {
 
 const missingEntries = entries.filter(e => e.status === 'missing')
 if (missingEntries.length > 0) {
-  console.log(bold(`MISSING KEYS (in en but not in vi) — ${missingEntries.length} total`))
+  console.log(bold(`MISSING KEYS (in en but not in vi) - ${missingEntries.length} total`))
   console.log(dim('─'.repeat(80)))
   for (const entry of missingEntries.slice(0, 50)) {
     console.log(`  ${red(entry.keyPath)}`)
@@ -267,7 +267,7 @@ if (missingEntries.length > 0) {
 // ─── Extra keys ───
 
 if (extraKeys.length > 0) {
-  console.log(bold(`EXTRA KEYS (in vi but NOT in en) — ${extraKeys.length} total`))
+  console.log(bold(`EXTRA KEYS (in vi but NOT in en) - ${extraKeys.length} total`))
   console.log(dim('─'.repeat(80)))
   for (const key of extraKeys) {
     console.log(`  ${cyan(key)}`)

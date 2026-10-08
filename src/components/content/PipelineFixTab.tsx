@@ -1,6 +1,7 @@
 import { useTranslation } from 'react-i18next'
 import { FormattedText } from '../../components/common/FormattedText'
 import { SectionAccordion } from '../skill/SectionAccordion'
+import { SKILL_SECTIONS } from '../../utils/skillAnchors'
 import type { SkillDetail } from '../../content-runtime/skills'
 
 type Props = {
@@ -24,7 +25,7 @@ export const PipelineFixTab = ({ detail }: Props) => {
       {/* Fix It Fast */}
       {fixItFast.length > 0 && (
         <SectionAccordion
-          id="pipeline-fix-it-fast"
+          id={SKILL_SECTIONS.fixItFast}
           title={t('cardOS.fixItFast')}
           accentColor="rose"
           defaultOpen
@@ -60,7 +61,7 @@ export const PipelineFixTab = ({ detail }: Props) => {
       {/* Safety */}
       {safetySummary.length > 0 && (
         <SectionAccordion
-          id="pipeline-safety"
+          id={SKILL_SECTIONS.safety}
           title={t('cardOS.safety')}
           accentColor="amber"
           defaultOpen

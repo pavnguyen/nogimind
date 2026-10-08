@@ -17,7 +17,7 @@ const logPerf = (...args: Parameters<typeof console.log>) => {
 }
 
 const handleWorkerCrash = () => {
-  console.warn('Search worker crashed — recreating on next request')
+  console.warn('Search worker crashed, recreating on next request')
 
   // Reject all pending requests
   for (const [id, pending] of pendingRequests) {
@@ -90,7 +90,7 @@ const getOrCreateWorker = (): Worker => {
 
 /**
  * Create a minimal SkillNode from pipeline manifest entries.
- * Most fields are empty — the key searchable data is name, summary, and tags.
+ * Most fields are empty, the key searchable data is name, summary, and tags.
  */
 const buildPipelineSkillNode = (
   id: string,
@@ -199,7 +199,7 @@ const buildSearchPayload = async (): Promise<SearchDataBundle> => {
     }
   }
 
-  // ── 4. Cache miss — import static modules from source ──
+  // ── 4. Cache miss, import static modules from source ──
   const [{ concepts }, { positions }, { glossaryTerms }, { defensiveLayers }, { archetypes }, { techniqueStateMachineBySkillId, techniqueStateMachines }] =
     await Promise.all([
       import('../data/concepts'),

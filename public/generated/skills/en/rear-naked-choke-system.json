@@ -53,8 +53,8 @@
   "sortOrder": 100,
   "searchBoost": 1.2,
   "keyCorrections": [
-    "If it becomes a face crank, the elbow is too high — drop it under the chin.",
-    "If they turn into you, chest contact is lost — re-glue sternum to spine.",
+    "If it becomes a face crank, the elbow is too high, drop it under the chin.",
+    "If they turn into you, chest contact is lost, re-glue sternum to spine.",
     "If your hand gets peeled, switch to a high hand fight near the head."
   ],
   "version": 1,
@@ -73,10 +73,10 @@
   "shortName": "RNC",
   "description": "The highest percentage submission in BJJ. A blood choke from back control that cuts off both carotid arteries by positioning the forearm across one side of the neck and closing the other side with chest and shoulder pressure.",
   "shortInstruction": "Elbow under chin, chest glued to back, remove slack, then squeeze.",
-  "summary": "The most fundamental No-Gi blood choke from back control — master the hand fight, elbow line, and chest-to-back connection.",
+  "summary": "The most fundamental No-Gi blood choke from back control, master the hand fight, elbow line, and chest-to-back connection.",
   "whyItWorks": [
     "Cuts off both carotid arteries when the choking forearm and the opponent's shoulder close both neck lines.",
-    "Requires minimal force when the structure is correct — leverage replaces strength.",
+    "Requires minimal force when the structure is correct, leverage replaces strength.",
     "Creates a dilemma between protecting the neck and escaping back control."
   ],
   "commonMistakes": [
@@ -95,19 +95,19 @@
     "goal": "Finish the RNC from back control with clean structure.",
     "steps": [
       "Lock seatbelt and glue chest to their back.",
-      "Win the hand fight — peel their defensive hand from the neck.",
+      "Win the hand fight, peel their defensive hand from the neck.",
       "Slide the choking elbow under the chin line.",
       "Remove all slack before squeezing.",
       "Close chest and shoulders to complete the choke."
     ]
   },
   "safetySummary": [
-    "Tap early on neck cranks — distinguish between a blood choke and a neck crank.",
+    "Tap early on neck cranks, distinguish between a blood choke and a neck crank.",
     "Do not twist or crank the neck to force the finish.",
     "Train with controlled partners and release pressure immediately on tap."
   ],
   "systemLogic": {
-    "corePrinciple": "Back control is the platform, not the finish. Each step — seatbelt, hand fight, elbow line, slack removal — must be completed in sequence before squeezing.",
+    "corePrinciple": "Back control is the platform, not the finish. Each step, seatbelt, hand fight, elbow line, slack removal, must be completed in sequence before squeezing.",
     "decisionTree": [
       {
         "condition": "One hand is defending the neck line",
@@ -115,7 +115,7 @@
       },
       {
         "condition": "Both hands are defending the neck",
-        "action": "Switch to body triangle or arm trap to break their defensive shell before re-attacking the neck."
+        "action": "Switch to Body Triangle or arm trap to break their defensive shell before re-attacking the neck."
       },
       {
         "condition": "They turn into you (face-up)",
@@ -123,28 +123,28 @@
       },
       {
         "condition": "Your choking arm is under the jaw (crank position)",
-        "action": "Release and re-insert the arm lower — the forearm must cross at the neck midline, not under the jaw."
+        "action": "Release and re-insert the arm lower, the forearm must cross at the neck midline, not under the jaw."
       },
       {
         "condition": "They peel both hands off the neck",
-        "action": "Return to seatbelt control, hand fight again — never chase the choke without structure."
+        "action": "Return to seatbelt control, hand fight again, never chase the choke without structure."
       }
     ],
     "exitStrategies": [
-      "If the choke is consistently blocked, transition to arm traps and attack the armbar or bow-and-arrow.",
+      "If the choke is consistently blocked, transition to arm traps and attack the Armbar or bow-and-arrow.",
       "If they escape to Mount bottom, transition to Mount control and attack from there.",
       "If they scramble out, re-attack with a Front Headlock or Guillotine as they face you."
     ]
   },
   "moneyDetails": [
-    "The elbow-under-chin detail is everything — without it, you have a crank, not a choke.",
+    "The elbow-under-chin detail is everything, without it, you have a crank, not a choke.",
     "Chest-to-back contact freezes their escape before you even squeeze.",
     "Removing slack is more important than squeezing hard."
   ],
-  "nextStep": "After finishing the RNC or if it fails, chain into arm traps, Mount transition, or back take re-entry.",
+  "nextStep": "After finishing the RNC or if it fails, chain into arm traps, Mount transition, or Back Take re-entry.",
   "fixItFast": [
     "Can't find the neck line? Switch to the other arm or create more angle by walking your hips.",
     "Getting peeled? Tuck your chin and switch to high wrist control.",
-    "Lost chest contact? Reconnect before squeezing — without it, they will escape."
+    "Lost chest contact? Reconnect before squeezing, without it, they will escape."
   ]
 }

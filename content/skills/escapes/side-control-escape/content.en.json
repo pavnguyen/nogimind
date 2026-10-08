@@ -2,19 +2,19 @@
   "id": "side-control-escape",
   "locale": "en",
   "name": "Side Control Escape",
-  "description": "Turn frames into hip escape, underhook, or turtle instead of exposing your back randomly.",
+  "description": "Turn frames into hip escape, underhook, or Turtle instead of exposing your back randomly.",
   "shortInstruction": "Frame across the hips, insert the near knee, hip escape to create space, and recover Guard or take the back via underhook.",
-  "summary": "Side Control escape uses a rigid frame at the hips to create a wedge, then a hip escape to recover inside position. The system has two primary branches: the underhook recovery (back take or Guard) and the knee-elbow recovery (Guard).",
+  "summary": "Side Control escape uses a rigid frame at the hips to create a wedge, then a hip escape to recover inside position. The system has two primary branches: the underhook recovery (Back Take or Guard) and the knee-elbow recovery (Guard).",
   "whyItWorks": [
     "A forearm frame across the hip line uses bone structure against muscle, preventing the opponent from crushing your torso",
     "Hip escaping before the underhook creates the necessary angle to enter the inside space",
     "Turning to your side re-aligns your skeleton so you are crushed across your hip girdle, not your ribs",
-    "The underhook branch gives you the highest reward (back take potential) but requires more space than the knee-elbow branch"
+    "The underhook branch gives you the highest reward (Back Take potential) but requires more space than the knee-elbow branch"
   ],
   "commonMistakes": [
-    "Framing on the chest instead of the hips — this lets the opponent flatten you because the frame is too high",
+    "Framing on the chest instead of the hips, this lets the opponent flatten you because the frame is too high",
     "Turning away from the opponent (exposing the back) instead of turning into them with the underhook",
-    "Trying to shrimp without first framing — you just slide without creating space",
+    "Trying to shrimp without first framing, you just slide without creating space",
     "Giving up the underhook fight too early and accepting a flattened position"
   ],
   "coachingCues": [
@@ -23,16 +23,16 @@
     "Hip escape first, then think"
   ],
   "safetySummary": [
-    "Side Control is one of the most claustrophobic positions in BJJ — panic is normal but must be managed with breath control",
+    "Side Control is one of the most claustrophobic positions in BJJ, panic is normal but must be managed with breath control",
     "Exposing your back in a scramble can lead to rear-naked choke entries; keep the near arm across your belly",
     "If you feel rib pain from pressure, frame immediately and hip escape rather than trying to bench press the opponent off"
   ],
   "systemLogic": {
-    "corePrinciple": "Side Control escape has two entry branches based on what the opponent gives you: the underhook branch (back take or granby) for higher reward, or the knee-elbow branch (Half Guard recovery) for higher safety.",
+    "corePrinciple": "Side Control escape has two entry branches based on what the opponent gives you: the underhook branch (Back Take or granby) for higher reward, or the knee-elbow branch (Half Guard recovery) for higher safety.",
     "decisionTree": [
       {
         "condition": "Opponent gives you space to insert the underhook",
-        "action": "Hip escape away → insert the underhook → bring your outside knee in → drive to dogfight position or single leg. This branch gives back take potential."
+        "action": "Hip escape away → insert the underhook → bring your outside knee in → drive to Dogfight position or single leg. This branch gives Back Take potential."
       },
       {
         "condition": "Opponent blocks the underhook and pressures forward",
@@ -40,26 +40,26 @@
       },
       {
         "condition": "Opponent crossfaces you hard during the escape",
-        "action": "Frame both forearms on their biceps, turn your head toward the mat, and hip escape immediately. Do not fight the crossface — escape away from it."
+        "action": "Frame both forearms on their biceps, turn your head toward the mat, and hip escape immediately. Do not fight the crossface, escape away from it."
       },
       {
         "condition": "Opponent stacks you by driving your shoulders into the mat",
-        "action": "Pummel the near arm under their leg and take the back. Their forward momentum gives you the entry to the back take."
+        "action": "Pummel the near arm under their leg and take the back. Their forward momentum gives you the entry to the Back Take."
       },
       {
         "condition": "Neither underhook nor knee-elbow is available",
-        "action": "Accept the turtle position and use the turtle escape sequence rather than staying flat and absorbing damage. Turtle is a transition, not a resting position."
+        "action": "Accept the Turtle position and use the Turtle escape sequence rather than staying flat and absorbing damage. Turtle is a transition, not a resting position."
       }
     ],
     "exitStrategies": [
       "If the opponent blocks the underhook, frame on the hip, insert your near knee across their hip line, and granby roll to recover Guard.",
       "If you recover Half Guard, immediately establish a knee shield to prevent them from re-flattening you.",
-      "If the escape fails, re-establish survival layers and wait for the next opening — do not force a second attempt from a compromised position."
+      "If the escape fails, re-establish survival layers and wait for the next opening, do not force a second attempt from a compromised position."
     ]
   },
   "moneyDetails": [
-    "The Side Control escape is the highest-frequency escape in BJJ — you will use it in every roll",
-    "Mastering the underhook branch opens back takes that score 4 points in competition",
+    "The Side Control escape is the highest-frequency escape in BJJ, you will use it in every roll",
+    "Mastering the underhook branch opens Back Takes that score 4 points in competition",
     "A good Side Control escape sequence saves your energy so you can attack instead of surviving the whole round"
   ],
   "fixItFast": [

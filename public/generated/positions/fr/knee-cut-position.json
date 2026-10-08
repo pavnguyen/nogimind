@@ -16,12 +16,12 @@
     "Reconnaître les signaux de danger tôt au lieu d’attendre que la position se stabilise."
   ],
   "controlPoints": [
-    "Point de contrôle principal : Angle du genou proche, far underhook ou crossface..",
+    "Point de contrôle principal : Angle du genou proche, far underhook ou crossface.",
     "La tête, les mains, les hanches et les genoux doivent suivre la même direction de force.",
     "La connexion coude-genou ou la ligne hanches-épaules détermine si la position reste vivante ou verrouillée."
   ],
   "escapePriorities": [
-    "Priorité de sortie : Ne pas laisser la ligne des épaules être aplatie avant de récupérer le genou..",
+    "Priorité de sortie : Ne pas laisser la ligne des épaules être aplatie avant de récupérer le genou.",
     "Protéger le cou, le dos, la ligne du genou ou la ligne du bras avant de contrer.",
     "Si la position intérieure est perdue, rétablir d’abord une couche défensive."
   ],
@@ -32,7 +32,7 @@
       "relatedSkillIds": [
         "knee-cut-passing",
         "headquarters-passing",
-        "half-Guard-knee-shield"
+        "half-guard-knee-shield"
       ],
       "why": "C’est la branche naturelle lorsque vous gagnez le point de contrôle principal et que l’adversaire est forcé de défendre."
     }
@@ -46,7 +46,7 @@
   "relatedSkillIds": [
     "knee-cut-passing",
     "headquarters-passing",
-    "half-Guard-knee-shield"
+    "half-guard-knee-shield"
   ],
   "relatedConceptIds": [
     "angle-creation",

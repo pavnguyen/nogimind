@@ -27,7 +27,7 @@
     "Tay quay cổ có thể gây thoát vị đĩa đệm, bong gân dây chằng, chèn ép dây thần kinh và đau cổ mãn tính",
     "Dụng cụ mở hộp (đẩy phần sau đầu về phía ngực từ Guard) là tay quay nguy hiểm nhất trong BJJ",
     "Dụng cụ vặn xoắn (khóa cột sống từ back control) làm xoay mạnh cột sống cổ và có thể gây thương tích nghiêm trọng nếu tác dụng đột ngột",
-    "Một số biến thể Guillotine và d'arce có thể bị cong cổ nếu góc bị lệch — nếu bạn cảm thấy áp lực ở cằm, hãy nhấn và đặt lại",
+    "Một số biến thể Guillotine và D'arce có thể bị cong cổ nếu góc bị lệch, nếu bạn cảm thấy áp lực ở cằm, hãy nhấn và đặt lại",
     "Ngay cả các tay quay cổ nhẹ cũng gây ra tổn thương tích lũy - không chấp nhận 10 tay quay 'nhẹ' mỗi tuần như cách tập luyện bình thường"
   ],
   "keyCorrections": [
@@ -40,14 +40,14 @@
     "decisionTree": [
       {
         "condition": "Ứng dụng chung",
-        "action": "Nghẹt máu (bóp cổ): áp lực tác động lên động mạch cảnh ở hai bên cổ. Gây bất tỉnh bằng cách ngăn chặn máu giàu oxy đến não. Cấu trúc: cổ chéo, trần sau, triangle, Guillotine (khi đeo đúng cách), gậy bóng chày. An toàn khi tập luyện với ứng dụng được kiểm soát"
+        "action": "Nghẹt máu (bóp cổ): áp lực tác động lên động mạch cảnh ở hai bên cổ. Gây bất tỉnh bằng cách ngăn chặn máu giàu oxy đến não. Cấu trúc: cổ chéo, trần sau, Triangle, Guillotine (khi đeo đúng cách), gậy bóng chày. An toàn khi tập luyện với ứng dụng được kiểm soát"
       },
       {
         "condition": "Ứng dụng chung",
         "action": "Sặc khí: áp lực tác dụng lên khí quản/khí quản. Gây khó thở nhưng không làm giảm lưu lượng máu. Cấu trúc: cuộn cảm phía trước, một số biến thể cổ chéo, một số biến thể gậy bóng chày. Nguy cơ chấn thương cao hơn sặc máu"
       },
       {
-        "condition": "Tay quay cổ: áp lực được tác động lên cột sống cổ thông qua cằm, phía sau đầu hoặc nền sọ. Cấu trúc: dụng cụ mở hộp, dụng cụ xoắn, một số biến thể Guillotine (khi cuộn), một số biến thể d'arce, một số biến thể triangle. KHÔNG an toàn khi tập luyện tích cực",
+        "condition": "Tay quay cổ: áp lực được tác động lên cột sống cổ thông qua cằm, phía sau đầu hoặc nền sọ. Cấu trúc: dụng cụ mở hộp, dụng cụ xoắn, một số biến thể Guillotine (khi cuộn), một số biến thể D'arce, một số biến thể Triangle. KHÔNG an toàn khi tập luyện tích cực",
         "action": "thiệt hại tích lũy"
       },
       {
@@ -61,7 +61,7 @@
     ]
   },
   "moneyDetails": [
-    "Nhận dạng tay quay cổ giúp ngăn ngừa nguồn chấn thương mãn tính phổ biến nhất khi tập luyện trong BJJ — tổn thương cổ tích lũy",
+    "Nhận dạng tay quay cổ giúp ngăn ngừa nguồn chấn thương mãn tính phổ biến nhất khi tập luyện trong BJJ, tổn thương cổ tích lũy",
     "Biết được sự khác biệt giữa quây và cuộn cảm cho phép bạn huấn luyện các bài tập một cách an toàn ở cường độ tối đa",
     "Để bảo vệ cổ của bạn trong hơn 10 năm luyện tập đòi hỏi phải chạm vào tay quay một cách có kỷ luật trong mỗi buổi tập",
     "Một chiếc cổ khỏe mạnh ở tuổi 50 có giá trị hơn bất kỳ cú chạm nào bạn tránh được ở tuổi 25"

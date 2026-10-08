@@ -16,12 +16,12 @@
     "Recognize danger signals early instead of waiting for the position to settle."
   ],
   "controlPoints": [
-    "Main control point: Near-knee angle, far underhook, or crossface..",
+    "Main control point: Near-knee angle, far underhook, or crossface.",
     "Head, hands, hips, and knees should share the same force direction.",
     "The elbow-knee connection or hip-shoulder line determines whether the position is still alive or already locked."
   ],
   "escapePriorities": [
-    "Escape priority: Do not let the shoulder line get flattened before recovering the knee..",
+    "Escape priority: Do not let the shoulder line get flattened before recovering the knee.",
     "Protect the neck, back, knee line, or arm line before countering.",
     "If inside position is lost, reset one defensive layer first."
   ],
@@ -32,7 +32,7 @@
       "relatedSkillIds": [
         "knee-cut-passing",
         "headquarters-passing",
-        "half-Guard-knee-shield"
+        "half-guard-knee-shield"
       ],
       "why": "This is the natural branch when you win the main control point and the opponent is forced to defend."
     }
@@ -46,7 +46,7 @@
   "relatedSkillIds": [
     "knee-cut-passing",
     "headquarters-passing",
-    "half-Guard-knee-shield"
+    "half-guard-knee-shield"
   ],
   "relatedConceptIds": [
     "angle-creation",

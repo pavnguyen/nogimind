@@ -1,5 +1,5 @@
 /**
- * Content Pipeline — Concept Runtime Loader
+ * Content Pipeline - Concept Runtime Loader
  *
  * Loads concept data from generated JSON artifacts.
  * Falls back to legacy TypeScript data when the generated file is not found.

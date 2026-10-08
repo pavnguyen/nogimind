@@ -16,23 +16,23 @@
     "Recognize danger signals early instead of waiting for the position to settle."
   ],
   "controlPoints": [
-    "Main control point: Choking hand, top hook, and shoulder angle..",
+    "Main control point: Choking hand, top hook, and shoulder angle.",
     "Head, hands, hips, and knees should share the same force direction.",
     "The elbow-knee connection or hip-shoulder line determines whether the position is still alive or already locked."
   ],
   "escapePriorities": [
-    "Escape priority: Do not turn into the choking arm when losing the hand fight..",
+    "Escape priority: Do not turn into the choking arm when losing the hand fight.",
     "Protect the neck, back, knee line, or arm line before countering.",
     "If inside position is lost, reset one defensive layer first."
   ],
   "advancementOptions": [
     {
       "action": "The attacker switches to Mount if the back is lost",
-      "nextPositionId": "Mount-top",
+      "nextPositionId": "mount-top",
       "relatedSkillIds": [
         "back-escape",
         "back-control",
-        "Mount-control"
+        "mount-control"
       ],
       "why": "This is the natural branch when you win the main control point and the opponent is forced to defend."
     }
@@ -46,7 +46,7 @@
   "relatedSkillIds": [
     "back-escape",
     "back-control",
-    "Mount-control"
+    "mount-control"
   ],
   "relatedConceptIds": [
     "early-vs-late-defense",

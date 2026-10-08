@@ -45,7 +45,7 @@
   "searchBoost": 1,
   "keyCorrections": [
     "Nếu họ Guillotine bạn: đầu của bạn ở bên trong - vòng ra phía sau ngay lập tức để giảm bớt áp lực nghẹt thở",
-    "Nếu họ kimura cánh tay bị mắc kẹt của bạn: đừng chống lại kimura — thả chân ra và tiếp tục đứng lên",
+    "Nếu họ Kimura cánh tay bị mắc kẹt của bạn: đừng chống lại Kimura, thả chân ra và tiếp tục đứng lên",
     "Nếu chúng nhảy bằng một chân: chuyển sang tư thế đũng quần cao hoặc đổ chúng sang một bên bằng ống chạy"
   ],
   "version": 1,
@@ -60,18 +60,18 @@
     "hasStateMachine": false
   },
   "locale": "vi",
-  "description": "Kết thúc chặng đơn trong khi tôn trọng Guillotine, kimura và Guard kéo các mối đe dọa trong BJJ. Trận đấu đơn trong BJJ phải được điều chỉnh từ đấu vật để tính đến số điểm duy nhất tồn tại trong môn đấu vật quy phục.",
+  "description": "Kết thúc chặng đơn trong khi tôn trọng Guillotine, Kimura và Guard kéo các mối đe dọa trong BJJ. Trận đấu đơn trong BJJ phải được điều chỉnh từ đấu vật để tính đến số điểm duy nhất tồn tại trong môn đấu vật quy phục.",
   "shortInstruction": "Cố định chân, giữ đầu hướng ra bên ngoài (không phải chính giữa) và kết thúc bằng cách chạy ống, nâng hoặc vòng về phía sau. Đừng bao giờ để đầu bạn trôi vào bên trong nơi họ có thể Guillotine bạn.",
   "summary": "Trận đấu đơn BJJ là phiên bản sửa đổi của trận đấu đơn trận đấu ưu tiên sự an toàn trước các quầy phục tùng. Những điều chỉnh chính là: vị trí đầu phải luôn ở bên ngoài (má tới hông/lưng của họ) chứ không phải bên trong (ngực đối với ngực của họ), kết thúc ưu tiên chạy đường ống (đưa họ sang một bên) hơn là nâng (để lộ Guillotine) và động tác quay về phía sau luôn có sẵn như một giải pháp thay thế có tỷ lệ phần trăm cao cho kết thúc gỡ xuống.",
   "whyItWorks": [
-    "Vị trí đầu bên ngoài ngăn cản Guillotine — đòn phản công phổ biến nhất đối với các chân đơn trong BJJ",
+    "Vị trí đầu bên ngoài ngăn cản Guillotine, đòn phản công phổ biến nhất đối với các chân đơn trong BJJ",
     "Chạy đường ống (truyền động bên) giữ cho đầu của bạn an toàn và sử dụng trọng lượng của chúng để chống lại chúng",
     "Cú lội ngược dòng từ trận lượt đi là một sự thích ứng dành riêng cho BJJ ghi được 4 điểm thay vì 2",
-    "Một chặng chuyển tiếp lên cả vị trí trên cùng và back control — đây là đòn hạ gục linh hoạt nhất trong BJJ"
+    "Một chặng chuyển tiếp lên cả vị trí trên cùng và back control, đây là đòn hạ gục linh hoạt nhất trong BJJ"
   ],
   "commonMistakes": [
-    "Để đầu bạn hướng vào trong (ngực kề ngực) — điều này khiến bạn tiếp xúc với Guillotine, kimura và Front Headlock",
-    "Cố gắng nhấc chân thẳng lên — điều này làm trì hoãn việc về đích và làm lộ Guillotine",
+    "Để đầu bạn hướng vào trong (ngực kề ngực), điều này khiến bạn tiếp xúc với Guillotine, Kimura và Front Headlock",
+    "Cố gắng nhấc chân thẳng lên, điều này làm trì hoãn việc về đích và làm lộ Guillotine",
     "Đứng quá lâu trên một chân - chân đơn phải được hoàn thành nhanh chóng hoặc bị bỏ rơi",
     "Không chuyển về phía sau khi kết thúc bị chặn"
   ],
@@ -82,9 +82,9 @@
     "Quay lại luôn có sẵn"
   ],
   "safetySummary": [
-    "Guillotine do một chân bị hỏng là hiện tượng nghẹt thở phổ biến nhất trong BJJ — luôn hướng đầu ra bên ngoài",
+    "Guillotine do một chân bị hỏng là hiện tượng nghẹt thở phổ biến nhất trong BJJ, luôn hướng đầu ra bên ngoài",
     "Nếu bạn cảm thấy Guillotine đang được thiết lập, hãy vòng ra phía sau ngay lập tức thay vì cố gắng hoàn tất việc gỡ xuống",
-    "Không giữ một chân và đứng thẳng - điều này làm cho đầu gối bị dồn lại và cổ bị guillotines"
+    "Không giữ một chân và đứng thẳng - điều này làm cho đầu gối bị dồn lại và cổ bị Guillotines"
   ],
   "systemLogic": {
     "corePrinciple": "Chân đơn BJJ có bốn đầu: Ống chạy → Nâng → Quay lại → Đổ đáy quần cao",
@@ -107,19 +107,19 @@
       },
       {
         "condition": "Phản ứng phòng thủ",
-        "action": "nếu họ Guillotine → quay lại. Nếu họ kimura → nhả ra và tương tác lại. Nếu họ sprawl → quay lại"
+        "action": "nếu họ Guillotine → quay lại. Nếu họ Kimura → nhả ra và tương tác lại. Nếu họ sprawl → quay lại"
       }
     ],
     "exitStrategies": []
   },
   "moneyDetails": [
-    "Trận một lượt là đòn hạ gục phổ biến nhất trong BJJ — một cú dứt điểm đáng tin cậy là điều cần thiết để thành công trong cạnh tranh",
+    "Trận một lượt là đòn hạ gục phổ biến nhất trong BJJ, một cú dứt điểm đáng tin cậy là điều cần thiết để thành công trong cạnh tranh",
     "Việc thành thạo môn đơn chân thích ứng với BJJ sẽ loại bỏ nỗi sợ bị đếm hạ gục và cho phép bạn bắn một cách tự tin",
     "Lượt lùi một lượt là chuỗi có giá trị cao nhất trong No-Gi lần hạ gục (4 điểm thay vì 2)"
   ],
   "fixItFast": [
-    "Nếu họ sprawl ở một chặng: đi về phía sau — đừng đấu với sprawl",
-    "Nếu họ Guillotine: vòng về phía sau ngay lập tức — phía sau sẽ đánh bại Guillotine",
+    "Nếu họ sprawl ở một chặng: đi về phía sau, đừng đấu với sprawl",
+    "Nếu họ Guillotine: vòng về phía sau ngay lập tức, phía sau sẽ đánh bại Guillotine",
     "Nếu chúng nhảy bằng một chân: dùng ống chạy đẩy chúng sang một bên - chúng không thể nhảy sang một bên"
   ]
 }

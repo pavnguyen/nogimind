@@ -72,7 +72,7 @@ export const hubNavItems: HubNavItem[] = [
 ]
 
 /**
- * Legacy flat nav items — preserved for backward compatibility.
+ * Legacy flat nav items, preserved for backward compatibility.
  * Prefer hubNavItems for new code.
  */
 export const primaryNavItems = hubNavItems.flatMap((hub) => [

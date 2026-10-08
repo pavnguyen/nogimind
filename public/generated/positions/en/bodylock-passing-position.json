@@ -16,12 +16,12 @@
     "Recognize danger signals early instead of waiting for the position to settle."
   ],
   "controlPoints": [
-    "Main control point: Low grip, head offset, and chest-to-hip connection..",
+    "Main control point: Low grip, head offset, and chest-to-hip connection.",
     "Head, hands, hips, and knees should share the same force direction.",
     "The elbow-knee connection or hip-shoulder line determines whether the position is still alive or already locked."
   ],
   "escapePriorities": [
-    "Escape priority: Create a shin or knee wedge between the chest and hips..",
+    "Escape priority: Create a shin or knee wedge between the chest and hips.",
     "Protect the neck, back, knee line, or arm line before countering.",
     "If inside position is lost, reset one defensive layer first."
   ],
@@ -31,8 +31,8 @@
       "nextPositionId": "side-control-top",
       "relatedSkillIds": [
         "bodylock-passing",
-        "seated-Guard-retention",
-        "half-Guard-wrestle-up"
+        "seated-guard-retention",
+        "half-guard-wrestle-up"
       ],
       "why": "This is the natural branch when you win the main control point and the opponent is forced to defend."
     }
@@ -45,8 +45,8 @@
   ],
   "relatedSkillIds": [
     "bodylock-passing",
-    "seated-Guard-retention",
-    "half-Guard-wrestle-up"
+    "seated-guard-retention",
+    "half-guard-wrestle-up"
   ],
   "relatedConceptIds": [
     "connection-before-control",

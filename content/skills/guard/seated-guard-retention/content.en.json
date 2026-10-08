@@ -41,12 +41,12 @@
     "Avoid posting with straight arms to prevent joint locks."
   ],
   "keyCorrections": [
-    "If they close the distance, your feet are not posting — bring them back to hips.",
-    "If they get an underhook, your knee-elbow gap is open — close it.",
+    "If they close the distance, your feet are not posting, bring them back to hips.",
+    "If they get an underhook, your knee-elbow gap is open, close it.",
     "If they flatten you, you waited too long to frame or pivot."
   ],
   "systemLogic": {
-    "corePrinciple": "Guard retention is a distance management game — your feet and frames are the first line of defense. React to the pass direction before committing to an escape or counter.",
+    "corePrinciple": "Guard retention is a distance management game, your feet and frames are the first line of defense. React to the pass direction before committing to an escape or counter.",
     "decisionTree": [
       {
         "condition": "Passer is standing and circling",
@@ -66,7 +66,7 @@
       },
       {
         "condition": "Passer overcommits forward with momentum",
-        "action": "Use their momentum — frame off the biceps, elevate your hips, and wrestle up to a technical stand-up."
+        "action": "Use their momentum, frame off the biceps, elevate your hips, and wrestle up to a technical stand-up."
       }
     ],
     "exitStrategies": [
@@ -77,7 +77,7 @@
   },
   "moneyDetails": [
     "Always keep one foot on the hip to maintain distance; a dangling foot is a dead foot.",
-    "The C-grip on the wrist is your best friend — it kills their pant grip before it starts.",
+    "The C-grip on the wrist is your best friend, it kills their pant grip before it starts.",
     "Pivot on your seat, not on your back; staying seated keeps your hips mobile."
   ],
   "nextStep": "After retaining Guard, look to wrestle up (technical stand-up), transition to supine Guard, or attack with shin-to-shin entries.",

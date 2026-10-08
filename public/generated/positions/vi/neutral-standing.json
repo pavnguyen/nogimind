@@ -16,12 +16,12 @@
     "Nhận diện tín hiệu nguy hiểm sớm thay vì chờ vị trí ổn định."
   ],
   "controlPoints": [
-    "Điểm kiểm soát chính: Vị trí đầu, kiểm soát cổ tay và độ rộng stance..",
+    "Điểm kiểm soát chính: Vị trí đầu, kiểm soát cổ tay và độ rộng stance.",
     "Đầu, tay, hông và gối nên cùng hướng lực.",
     "Kết nối khuỷu-gối hoặc đường hông-vai quyết định vị trí còn sống hay đã bị khóa."
   ],
   "escapePriorities": [
-    "Ưu tiên thoát: Reset grip nếu mất posture hoặc bị kéo đầu..",
+    "Ưu tiên thoát: Reset grip nếu mất posture hoặc bị kéo đầu.",
     "Bảo vệ cổ, lưng, đường gối hoặc đường tay trước khi phản công.",
     "Nếu mất vị trí trong, hãy lùi lại một lớp phòng thủ trước."
   ],
@@ -32,7 +32,7 @@
       "relatedSkillIds": [
         "hand-fighting",
         "single-leg-bjj",
-        "Guard-pulling-strategy"
+        "guard-pulling-strategy"
       ],
       "why": "Đây là nhánh tự nhiên khi bạn thắng điểm kiểm soát chính và đối thủ buộc phải phòng thủ."
     }
@@ -46,7 +46,7 @@
   "relatedSkillIds": [
     "hand-fighting",
     "single-leg-bjj",
-    "Guard-pulling-strategy"
+    "guard-pulling-strategy"
   ],
   "relatedConceptIds": [
     "base-balance",

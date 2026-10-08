@@ -1,5 +1,5 @@
 /**
- * scaffold-skill.ts — Create a new skill content folder with template files.
+ * scaffold-skill.ts - Create a new skill content folder with template files.
  *
  * Usage:  npx tsx scripts/content/scaffold-skill.ts <domain> <skill-id>
  * Example: npx tsx scripts/content/scaffold-skill.ts passing knee-cut-passing

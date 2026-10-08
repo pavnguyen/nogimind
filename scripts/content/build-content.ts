@@ -1,5 +1,5 @@
 /**
- * build-content.ts — Content Pipeline Build Script
+ * build-content.ts - Content Pipeline Build Script
  *
  * Reads all skill content from content/skills/ and generates:
  *   1. public/generated/manifest/skills.en.json       (lightweight manifest per locale)
@@ -211,7 +211,7 @@ let validationErrors = 0
 /**
  * Validate a value against a Zod schema.
  * On failure, prints the error and increments the global error count.
- * Does NOT abort — the caller decides whether to continue or stop.
+ * Does NOT abort, the caller decides whether to continue or stop.
  */
 function zodValidate<T>(
   label: string,
@@ -506,7 +506,7 @@ interface ConceptMetaJson {
 function buildConceptManifest(): number {
   const concepts = discoverConcepts()
   if (concepts.length === 0) {
-    console.log('  (no concept source files found — run migration first)')
+    console.log('  (no concept source files found, run migration first)')
     return 0
   }
 
@@ -607,7 +607,7 @@ interface PositionMetaJson {
 function buildPositionManifest(): number {
   const positions = discoverPositions()
   if (positions.length === 0) {
-    console.log('  (no position source files found — run migration first)')
+    console.log('  (no position source files found, run migration first)')
     return 0
   }
 
@@ -674,7 +674,7 @@ function buildPositionDetails(): number {
 // ── Main ────────────────────────────────────────────────────────────────────
 
 async function main() {
-  console.log('\n🧪 Content Pipeline — Build Script\n')
+  console.log('\n🧪 Content Pipeline - Build Script\n')
 
   // ── Skills ──
   console.log('Discovering skills...')
@@ -734,11 +734,11 @@ async function main() {
   // Summary
   const hasErrors = validationErrors > 0
   if (hasErrors) {
-    console.log(`\n❌ Build FAILED — ${validationErrors} Zod validation error(s) found.`)
+    console.log(`\n❌ Build FAILED - ${validationErrors} Zod validation error(s) found.`)
     console.log('  Fix the issues above and re-run.\n')
     process.exit(1)
   } else {
-    console.log('\n✅ Build complete — all Zod validations passed!')
+    console.log('\n✅ Build complete, all Zod validations passed!')
     console.log(`  Skills:     ${skills.length}`)
     console.log(`  Concepts:   ${conceptCount}`)
     console.log(`  Positions:  ${positionCount}`)

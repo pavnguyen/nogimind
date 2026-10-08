@@ -1,5 +1,5 @@
 /**
- * validate-content.ts — Validate all content JSON files against Zod schemas
+ * validate-content.ts - Validate all content JSON files against Zod schemas
  *
  * Usage:  npx tsx scripts/content/validate-content.ts
  */
@@ -73,29 +73,59 @@ function checkIdMismatch(
   }
 }
 
-/** Check for duplicate youtubeId across skill boundaries. */
+interface VideoMapping {
+  skillId: string
+  youtubeId: string
+  title: string
+  channel: string
+}
+
+/**
+ * Check youtubeId reuse across skills.
+ *
+ * Reuse itself is legitimate: a single video often teaches a setup and the
+ * finish it leads to, and the concept/position video panels deliberately merge
+ * the videos of related skills. What is *not* legitimate is the same youtubeId
+ * carrying different titles or channels, one video then renders twice with
+ * contradictory metadata in the same merged list. Only those conflicts are
+ * warnings; plain reuse is counted and reported as information.
+ */
 function checkDuplicateVideoIds(
-  allVideoMappings: { skillId: string; youtubeId: string }[]
-): ValidationIssue[] {
-  const videoMap = new Map<string, string[]>()
-  for (const { skillId, youtubeId } of allVideoMappings) {
-    const existing = videoMap.get(youtubeId) ?? []
-    existing.push(skillId)
-    videoMap.set(youtubeId, existing)
+  allVideoMappings: VideoMapping[],
+): { issues: ValidationIssue[]; reusedIds: number } {
+  const videoMap = new Map<string, VideoMapping[]>()
+  for (const mapping of allVideoMappings) {
+    const existing = videoMap.get(mapping.youtubeId) ?? []
+    existing.push(mapping)
+    videoMap.set(mapping.youtubeId, existing)
   }
 
   const issues: ValidationIssue[] = []
-  for (const [youtubeId, skills] of videoMap) {
-    if (skills.length > 1) {
-      issues.push({
-        type: 'warning',
-        skill: skills.join(', '),
-        field: 'videos.youtubeId',
-        message: `Duplicate youtubeId "${youtubeId}" shared across skills: ${skills.join(', ')}`,
-      })
-    }
+  let reusedIds = 0
+
+  for (const [youtubeId, mappings] of videoMap) {
+    if (mappings.length < 2) continue
+    reusedIds++
+
+    const skills = mappings.map(m => m.skillId)
+    const titles = [...new Set(mappings.map(m => m.title.trim()))]
+    const channels = [...new Set(mappings.map(m => m.channel.trim()))]
+    if (titles.length === 1 && channels.length === 1) continue
+
+    const conflicts = [
+      titles.length > 1 ? `titles: ${titles.map(t => `"${t}"`).join(' vs ')}` : null,
+      channels.length > 1 ? `channels: ${channels.map(c => `"${c}"`).join(' vs ')}` : null,
+    ].filter(Boolean)
+
+    issues.push({
+      type: 'warning',
+      skill: skills.join(', '),
+      field: 'videos.youtubeId',
+      message: `youtubeId "${youtubeId}" is referenced by ${skills.length} skills (${skills.join(', ')}) with conflicting metadata - ${conflicts.join('; ')}`,
+    })
   }
-  return issues
+
+  return { issues, reusedIds }
 }// ── Content quality thresholds ──────────────────────────────────────────────
 
 const MIN_CONTENT_THRESHOLDS: Record<string, { min: number; severity: 'error' | 'warning'; label: string }> = {
@@ -156,18 +186,18 @@ function checkContentQuality(
 // ── Main ─────────────────────────────────────────────────────────────────────
 
 async function main() {
-  console.log('\n🔍 Content Validation (Zod) — schema version 1\n')
+  console.log('\n🔍 Content Validation (Zod), schema version 1\n')
   const skills = discoverSkills()
   console.log(`Checking ${skills.length} skills...\n`)
 
   const allIssues: ValidationIssue[] = []
   let missingEnContent = 0
-  const allVideoIds: { skillId: string; youtubeId: string }[] = []
+  const allVideoIds: VideoMapping[] = []
 
   for (const { domain, id } of skills) {
     const skillPath = getSkillContentPath(domain, id)
 
-    // ── skill.json — validate with Zod SkillMetaSchema ────────────────
+    // ── skill.json, validate with Zod SkillMetaSchema ────────────────
     const metaPath = join(skillPath, 'skill.json')
     if (!existsSync(metaPath)) {
       allIssues.push({ type: 'error', skill: id, field: 'skill.json', message: 'skill.json not found' })
@@ -182,7 +212,7 @@ async function main() {
       checkIdMismatch(id, meta as Record<string, unknown>, allIssues)
     }
 
-    // ── content.*.json — validate with Zod SkillContentSchema ─────────
+    // ── content.*.json, validate with Zod SkillContentSchema ─────────
     for (const locale of ['en', 'vi', 'fr']) {
       const contentPath = join(skillPath, `content.${locale}.json`)
       if (!existsSync(contentPath)) {
@@ -205,7 +235,7 @@ async function main() {
       }
     }
 
-    // ── videos.json — validate with Zod SkillVideoRefSchema array ─────
+    // ── videos.json, validate with Zod SkillVideoRefSchema array ─────
     const videosPath = join(skillPath, 'videos.json')
     if (existsSync(videosPath)) {
       const videosRaw = readFileSync(videosPath, 'utf-8')
@@ -215,10 +245,15 @@ async function main() {
         // Validate each entry with SkillVideoRefSchema
         for (const [i, v] of videos.entries()) {
           validateWithZod(id, `videos.json[${i}]`, SkillVideoRefSchema, v, allIssues)
-          if (v && typeof v === 'object' && 'youtubeId' in (v as Record<string, unknown>)) {
-            const ytid = (v as Record<string, unknown>).youtubeId
-            if (typeof ytid === 'string') {
-              allVideoIds.push({ skillId: id, youtubeId: ytid })
+          if (v && typeof v === 'object') {
+            const entry = v as Record<string, unknown>
+            if (typeof entry.youtubeId === 'string') {
+              allVideoIds.push({
+                skillId: id,
+                youtubeId: entry.youtubeId,
+                title: typeof entry.title === 'string' ? entry.title : '',
+                channel: typeof entry.channel === 'string' ? entry.channel : '',
+              })
             }
           }
         }
@@ -233,7 +268,8 @@ async function main() {
     }
   }
 
-  allIssues.push(...checkDuplicateVideoIds(allVideoIds))
+  const duplicateVideoResult = checkDuplicateVideoIds(allVideoIds)
+  allIssues.push(...duplicateVideoResult.issues)
 
   const errors = allIssues.filter(i => i.type === 'error')
   const warnings = allIssues.filter(i => i.type === 'warning')
@@ -243,6 +279,7 @@ async function main() {
   console.log(`  Errors:         ${errors.length}`)
   console.log(`  Warnings:       ${warnings.length}`)
   if (missingEnContent > 0) console.log(`  Missing EN:     ${missingEnContent}`)
+  console.log(`  Reused videos:  ${duplicateVideoResult.reusedIds} (same video on several skills, informational)`)
 
   if (errors.length > 0) {
     console.log('\n❌ Errors:')

@@ -16,19 +16,19 @@
     "Reconnaître les signaux de danger tôt au lieu d’attendre que la position se stabilise."
   ],
   "controlPoints": [
-    "Point de contrôle principal : Coude proche, cadre sur la hanche éloignée et ligne du cou..",
+    "Point de contrôle principal : Coude proche, cadre sur la hanche éloignée et ligne du cou.",
     "La tête, les mains, les hanches et les genoux doivent suivre la même direction de force.",
     "La connexion coude-genou ou la ligne hanches-épaules détermine si la position reste vivante ou verrouillée."
   ],
   "escapePriorities": [
-    "Priorité de sortie : Ne pas pousser en bench press ; construire d’abord des cadres osseux..",
+    "Priorité de sortie : Ne pas pousser en bench press ; construire d’abord des cadres osseux.",
     "Protéger le cou, le dos, la ligne du genou ou la ligne du bras avant de contrer.",
     "Si la position intérieure est perdue, rétablir d’abord une couche défensive."
   ],
   "advancementOptions": [
     {
       "action": "Récupérer la connexion genou-coude vers la garde",
-      "nextPositionId": "knee-shield-half-Guard",
+      "nextPositionId": "knee-shield-half-guard",
       "relatedSkillIds": [
         "side-control-survival",
         "side-control-escape",

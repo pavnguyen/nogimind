@@ -1,5 +1,5 @@
 {
-  "id": "k-Guard-position",
+  "id": "k-guard-position",
   "locale": "vi",
   "title": "K-Guard",
   "category": "bottom_guard",
@@ -16,21 +16,21 @@
     "Nhận diện tín hiệu nguy hiểm sớm thay vì chờ vị trí ổn định."
   ],
   "controlPoints": [
-    "Điểm kiểm soát chính: Shin frame, knee line và ankle control..",
+    "Điểm kiểm soát chính: Shin frame, knee line và ankle control.",
     "Đầu, tay, hông và gối nên cùng hướng lực.",
     "Kết nối khuỷu-gối hoặc đường hông-vai quyết định vị trí còn sống hay đã bị khóa."
   ],
   "escapePriorities": [
-    "Ưu tiên thoát: Bảo vệ knee line trước khi clear shin..",
+    "Ưu tiên thoát: Bảo vệ knee line trước khi clear shin.",
     "Bảo vệ cổ, lưng, đường gối hoặc đường tay trước khi phản công.",
     "Nếu mất vị trí trong, hãy lùi lại một lớp phòng thủ trước."
   ],
   "advancementOptions": [
     {
       "action": "Vào matrix hoặc false reap entry",
-      "nextPositionId": "inverted-Guard",
+      "nextPositionId": "inverted-guard",
       "relatedSkillIds": [
-        "k-Guard-matrix",
+        "k-guard-matrix",
         "false-reap-entry",
         "saddle-inside-sankaku-control"
       ],
@@ -44,7 +44,7 @@
     "Bạn phải chống tay dài để không ngã."
   ],
   "relatedSkillIds": [
-    "k-Guard-matrix",
+    "k-guard-matrix",
     "false-reap-entry",
     "saddle-inside-sankaku-control"
   ],

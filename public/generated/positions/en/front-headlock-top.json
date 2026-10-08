@@ -16,12 +16,12 @@
     "Recognize danger signals early instead of waiting for the position to settle."
   ],
   "controlPoints": [
-    "Main control point: Chin strap, elbow line, and hip angle..",
+    "Main control point: Chin strap, elbow line, and hip angle.",
     "Head, hands, hips, and knees should share the same force direction.",
     "The elbow-knee connection or hip-shoulder line determines whether the position is still alive or already locked."
   ],
   "escapePriorities": [
-    "Escape priority: Put both hands on the choking wrist before circling out..",
+    "Escape priority: Put both hands on the choking wrist before circling out.",
     "Protect the neck, back, knee line, or arm line before countering.",
     "If inside position is lost, reset one defensive layer first."
   ],
@@ -31,7 +31,7 @@
       "nextPositionId": "turtle-top",
       "relatedSkillIds": [
         "snapdown-front-headlock",
-        "Guillotine-system",
+        "guillotine-system",
         "sprawl-go-behind"
       ],
       "why": "This is the natural branch when you win the main control point and the opponent is forced to defend."
@@ -45,7 +45,7 @@
   ],
   "relatedSkillIds": [
     "snapdown-front-headlock",
-    "Guillotine-system",
+    "guillotine-system",
     "sprawl-go-behind"
   ],
   "relatedConceptIds": [

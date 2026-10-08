@@ -41,7 +41,7 @@
     "corePrinciple": "Win inside position = keep Guard. Lose inside position = get passed.",
     "decisionTree": [
       { "condition": "Opponent grips your pants / sleeve", "action": "Strip grips immediately, re-establish frames" },
-      { "condition": "Opponent bullies through with chest pressure", "action": "Shin frame or stand up — do not stay seated and let them collapse" },
+      { "condition": "Opponent bullies through with chest pressure", "action": "Shin frame or stand up, do not stay seated and let them collapse" },
       { "condition": "Opponent circles to your back", "action": "Pivot on your butt, keep facing them, re-insert inside knee" }
     ],
     "exitStrategies": [
@@ -53,12 +53,12 @@
   "keyCorrections": [
     { "issue": "Both knees open to one side", "fix": "Keep one knee pointing at each of their hips" },
     { "issue": "Arms behind your center line", "fix": "Keep elbows in front of knees; arms are for framing, not posting" },
-    { "issue": "Sitting flat on both hips", "fix": "Stay on one hip, weight on one hand — dynamic base" }
+    { "issue": "Sitting flat on both hips", "fix": "Stay on one hip, weight on one hand, dynamic base" }
   ],
   "moneyDetails": {
     "oneLiner": "Inside position = Guard. Lose it, get passed.",
     "mnemonic": "Inside first, frame second, pummel always"
   },
-  "safetyNotes": "Avoid posting with straight arms — keep elbows bent. Protect your knees from lateral pressure.",
+  "safetyNotes": "Avoid posting with straight arms, keep elbows bent. Protect your knees from lateral pressure.",
   "fixItFast": "Inside knees → frames on contact → pummel → reset distance"
 }

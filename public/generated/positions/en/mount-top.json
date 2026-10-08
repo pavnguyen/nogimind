@@ -1,5 +1,5 @@
 {
-  "id": "Mount-top",
+  "id": "mount-top",
   "locale": "en",
   "title": "Mount Top",
   "category": "pin",
@@ -16,12 +16,12 @@
     "Recognize danger signals early instead of waiting for the position to settle."
   ],
   "controlPoints": [
-    "Main control point: Knee pinch, hip weight, and hand fighting..",
+    "Main control point: Knee pinch, hip weight, and hand fighting.",
     "Head, hands, hips, and knees should share the same force direction.",
     "The elbow-knee connection or hip-shoulder line determines whether the position is still alive or already locked."
   ],
   "escapePriorities": [
-    "Escape priority: Protect the neck before bridging hard..",
+    "Escape priority: Protect the neck before bridging hard.",
     "Protect the neck, back, knee line, or arm line before countering.",
     "If inside position is lost, reset one defensive layer first."
   ],
@@ -30,9 +30,9 @@
       "action": "Isolate an arm triangle or climb to high Mount",
       "nextPositionId": "arm-triangle-threat",
       "relatedSkillIds": [
-        "Mount-control",
-        "Mount-escape",
-        "arm-triangle-Mount"
+        "mount-control",
+        "mount-escape",
+        "arm-triangle-mount"
       ],
       "why": "This is the natural branch when you win the main control point and the opponent is forced to defend."
     }
@@ -44,9 +44,9 @@
     "You need a long hand post to avoid falling."
   ],
   "relatedSkillIds": [
-    "Mount-control",
-    "Mount-escape",
-    "arm-triangle-Mount"
+    "mount-control",
+    "mount-escape",
+    "arm-triangle-mount"
   ],
   "relatedConceptIds": [
     "control-before-submission",

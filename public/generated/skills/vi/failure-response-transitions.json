@@ -61,10 +61,10 @@
   "locale": "vi",
   "description": "Kế hoạch khi một kỹ thuật thất bại: thay đổi góc, thay đổi cách cầm, thay đổi vị trí hoặc rút lui an toàn. Mọi kỹ thuật cuối cùng đều thất bại - người vật lộn với phản ứng thất bại được lên kế hoạch trước sẽ thắng nhiều trận hơn người bị đóng băng.",
   "shortInstruction": "Khi một kỹ thuật thất bại, hãy làm theo trình tự: thay đổi góc đầu tiên, thay đổi cách cầm thứ hai, thay đổi vị trí thứ ba và chỉ rút lui an toàn như là phương sách cuối cùng.",
-  "summary": "Phản hồi lỗi là một cây quyết định có cấu trúc khi Kỹ thuật A không hoạt động. Hệ thống có bốn phản ứng leo thang: (1) điều chỉnh góc — dịch chuyển cơ thể của bạn 10-30 độ mà không thay đổi kỹ thuật, (2) điều chỉnh cách cầm — thay đổi vị trí hoặc cách bạn giữ đối thủ, (3) thay đổi vị trí — di chuyển đến một vị trí khác trong khi vẫn duy trì cùng một chủ đề tấn công, (4) rút lui an toàn — thảnh thơi và đặt lại về trạng thái trung lập. Nguyên tắc chính là loại bỏ hết các phương án 1-3 trước khi chấp nhận phương án 4.",
+  "summary": "Phản hồi lỗi là một cây quyết định có cấu trúc khi Kỹ thuật A không hoạt động. Hệ thống có bốn phản ứng leo thang: (1) điều chỉnh góc, dịch chuyển cơ thể của bạn 10-30 độ mà không thay đổi kỹ thuật, (2) điều chỉnh cách cầm, thay đổi vị trí hoặc cách bạn giữ đối thủ, (3) thay đổi vị trí, di chuyển đến một vị trí khác trong khi vẫn duy trì cùng một chủ đề tấn công, (4) rút lui an toàn, thảnh thơi và đặt lại về trạng thái trung lập. Nguyên tắc chính là loại bỏ hết các phương án 1-3 trước khi chấp nhận phương án 4.",
   "whyItWorks": [
     "Hầu hết các lỗi kỹ thuật đều do sai lệch nhỏ về góc hoặc tay cầm - việc điều chỉnh 10-30 độ thường khiến kỹ thuật tương tự hoạt động mà không cần thay đổi nó",
-    "Việc thay đổi báng cầm (ví dụ: báng cầm túi thành tay nắm kimura, dây buộc cổ thành overhook) sẽ thay đổi đòn bẩy cơ học mà không yêu cầu nhập vị trí mới",
+    "Việc thay đổi báng cầm (ví dụ: báng cầm túi thành tay nắm Kimura, dây buộc cổ thành overhook) sẽ thay đổi đòn bẩy cơ học mà không yêu cầu nhập vị trí mới",
     "Việc có một phản ứng thất bại được lên kế hoạch trước sẽ loại bỏ sự do dự - người biết phải làm gì khi kỹ thuật A thất bại luôn đi trước một bước",
     "Rút lui an toàn nên là biện pháp cuối cùng vì việc rút lui giúp đối thủ có thời gian để thiết lập lại khả năng phòng thủ và tấn công của mình."
   ],
@@ -98,7 +98,7 @@
       },
       {
         "condition": "Ở cấp độ 3 (Chức vụ)",
-        "action": "di chuyển đến một vị trí khác trong khi vẫn giữ nguyên chủ đề tấn công. Ví dụ: nếu triangle không thành công từ Closed Guard, hãy chuyển đến armbar từ cùng mục nhập Guard. Nếu một chân không thành công thì chuyển sang khóa thân. Thay đổi vị trí duy trì công việc bạn đã làm để phá vỡ cấu trúc của chúng"
+        "action": "di chuyển đến một vị trí khác trong khi vẫn giữ nguyên chủ đề tấn công. Ví dụ: nếu Triangle không thành công từ Closed Guard, hãy chuyển đến Armbar từ cùng mục nhập Guard. Nếu một chân không thành công thì chuyển sang khóa thân. Thay đổi vị trí duy trì công việc bạn đã làm để phá vỡ cấu trúc của chúng"
       },
       {
         "condition": "Ở cấp độ 4 (Rút lui)",

@@ -2,9 +2,9 @@
   "id": "z-lock",
   "locale": "vi",
   "name": "Khóa Z",
-  "description": "Một đòn khóa chân hiện đại từ một chân X (SLX) hoặc 50/50 kết hợp áp lực ankle lock với cơ chế xoay heel hook — tấn công đồng thời vào đầu gối và mắt cá chân của đối phương.",
-  "shortInstruction": "Từ SLX, underhook chân gần, đưa chân ngoài của bạn qua đùi họ, giữ chân họ ở hông bạn, xoay hông đến thảm — mắt cá chân kết hợp và kết thúc heel hook.",
-  "summary": "Khóa Z là một phương thức khóa chân kết hợp các yếu tố của ankle lock và heel hook thành một đòn tấn công tàn khốc duy nhất. Bắt nguồn từ các vị trí như một chân X (SLX) và 50/50 Guard, nó sử dụng cấu hình chân độc đáo để bẫy và vặn chân đối phương. Vị trí này mang lại khả năng kiểm soát tuyệt vời và có thể được sử dụng như một động tác dứt điểm cũng như một vị trí chuyển tiếp cho các đòn tấn công bằng chân khác như saddle hoặc chéo ashi garami. Nó đặc biệt hiệu quả trong No-Gi và các hệ thống khóa chân hiện đại.",
+  "description": "Một đòn khóa chân hiện đại từ một chân X (SLX) hoặc 50/50 kết hợp áp lực ankle lock với cơ chế xoay Heel Hook, tấn công đồng thời vào đầu gối và mắt cá chân của đối phương.",
+  "shortInstruction": "Từ SLX, underhook chân gần, đưa chân ngoài của bạn qua đùi họ, giữ chân họ ở hông bạn, xoay hông đến thảm, mắt cá chân kết hợp và kết thúc Heel Hook.",
+  "summary": "Khóa Z là một phương thức khóa chân kết hợp các yếu tố của ankle lock và Heel Hook thành một đòn tấn công tàn khốc duy nhất. Bắt nguồn từ các vị trí như một chân X (SLX) và 50/50 Guard, nó sử dụng cấu hình chân độc đáo để bẫy và vặn chân đối phương. Vị trí này mang lại khả năng kiểm soát tuyệt vời và có thể được sử dụng như một động tác dứt điểm cũng như một vị trí chuyển tiếp cho các đòn tấn công bằng chân khác như Saddle hoặc chéo ashi garami. Nó đặc biệt hiệu quả trong No-Gi và các hệ thống khóa chân hiện đại.",
   "whyItWorks": [
     "Kết hợp đồng thời hai vectơ tấn công (mắt cá chân + đầu gối), tạo ra tình thế khó xử cho đối thủ - phòng thủ cái này sẽ làm lộ cái kia.",
     "Sử dụng khả năng xoay hông và trọng lượng cơ thể thay vì chỉ sức mạnh của cánh tay, giúp nó hoạt động hiệu quả về mặt cơ học.",
@@ -34,7 +34,7 @@
   ],
   "keyCorrections": [
     "Nếu bạn không thể hoàn thành, bẫy chân của bạn quá lỏng - hãy kéo chân họ chặt hơn vào hông bạn.",
-    "Nếu chúng lăn, hãy làm theo chuyển động xoay hông của chúng — nhả khóa và tấn công lại từ saddle.",
+    "Nếu chúng lăn, hãy làm theo chuyển động xoay hông của chúng, nhả khóa và tấn công lại từ Saddle.",
     "Nếu bạn cảm thấy lực cản ở đầu gối của họ, hãy giải phóng áp lực - đừng ép họ xoay."
   ],
   "systemLogic": {
@@ -42,7 +42,7 @@
     "decisionTree": [
       {
         "condition": "Ứng dụng chung",
-        "action": "Chuỗi khóa Z có saddle: nếu chúng lăn để thoát khỏi khóa Z, hãy nhập saddle."
+        "action": "Chuỗi khóa Z có Saddle: nếu chúng lăn để thoát khỏi khóa Z, hãy nhập Saddle."
       },
       {
         "condition": "họ phòng thủ bằng cách xếp chồng",
@@ -51,15 +51,15 @@
     ]
   },
   "moneyDetails": [
-    "underhook trên chân gần của họ phải sâu — cánh tay của bạn phải quấn quanh đùi họ chứ không chỉ đầu gối.",
+    "underhook trên chân gần của họ phải sâu, cánh tay của bạn phải quấn quanh đùi họ chứ không chỉ đầu gối.",
     "Chân bên ngoài của bạn vượt qua đùi họ và ghim chân họ vào cơ thể bạn.",
     "Đặt chân họ vào hông bạn bằng cách giữ chặt đầu gối của bạn vào cơ thể họ.",
     "Kết thúc là xoay hông của bạn về phía thảm trong khi vẫn giữ chân họ cố định - điều này kết hợp áp lực ở mắt cá chân và đầu gối."
   ],
-  "nextStep": "Sau khóa Z, hãy tìm hiểu điều khiển saddle/inside sankaku và bên trong heel hook.",
+  "nextStep": "Sau khóa Z, hãy tìm hiểu điều khiển Saddle/Inside Sankaku và bên trong Heel Hook.",
   "fixItFast": [
-    "Chân cứ trượt à? underhook của bạn quá nông — hãy đào sâu hơn vào đùi.",
+    "Chân cứ trượt à? underhook của bạn quá nông, hãy đào sâu hơn vào đùi.",
     "Không thể hoàn thành? Bẫy chân của bạn bị lỏng - hãy kéo nó chặt hơn vào hông của bạn.",
-    "Họ lăn? Đi theo hông họ và bước vào saddle — đừng chống cự."
+    "Họ lăn? Đi theo hông họ và bước vào Saddle, đừng chống cự."
   ]
 }

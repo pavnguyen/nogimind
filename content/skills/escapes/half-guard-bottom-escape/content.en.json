@@ -3,19 +3,19 @@
   "locale": "en",
   "name": "Half Guard Bottom Escape",
   "description": "Escape from bottom Half Guard by winning the underhook, creating a frame, and regaining Guard or standing up.",
-  "shortInstruction": "Win the underhook, bring the outside knee across the opponent's back, and drive to dogfight or recover butterfly Guard.",
-  "summary": "Half Guard bottom escape uses the underhook and outside knee position to create a dogfight entry, from which you can wrestle up, sweep, or recover full Guard. The system rewards hip mobility and head position over upper-body strength.",
+  "shortInstruction": "Win the underhook, bring the outside knee across the opponent's back, and drive to Dogfight or recover butterfly Guard.",
+  "summary": "Half Guard bottom escape uses the underhook and outside knee position to create a Dogfight entry, from which you can wrestle up, sweep, or recover full Guard. The system rewards hip mobility and head position over upper-body strength.",
   "whyItWorks": [
     "The underhook removes the opponent's crossface threat and gives you control of their upper body posture",
     "The outside knee across the back creates a structural wedge that prevents them from flattening you back down",
-    "The dogfight position gives you three branches: single leg (wrestle up), knee tap (sweep), or re-Guard (recover butterfly)",
+    "The Dogfight position gives you three branches: single leg (wrestle up), knee tap (sweep), or re-Guard (recover butterfly)",
     "Winning the head position (forehead to their jaw) prevents them from crushing you with shoulder pressure"
   ],
   "commonMistakes": [
     "Fighting for the underhook from a flat back instead of turning to the side first",
-    "Letting the opponent crossface while reaching for the underhook — this exposes the neck",
+    "Letting the opponent crossface while reaching for the underhook, this exposes the neck",
     "Pulling the underhook arm out instead of driving the elbow upward into their armpit",
-    "Staying in dogfight too long without committing to a branch — the opponent will eventually flatten you"
+    "Staying in Dogfight too long without committing to a branch, the opponent will eventually flatten you"
   ],
   "coachingCues": [
     "Underhook or die",
@@ -23,9 +23,9 @@
     "Forehead to their jaw"
   ],
   "safetySummary": [
-    "Half Guard is the most common place to injure fingers and toes — keep digits safe when gripping pants or inserting hooks",
+    "Half Guard is the most common place to injure fingers and toes, keep digits safe when gripping pants or inserting hooks",
     "If the opponent has a strong crossface, protect your neck by turning your head toward the mat before reaching for the underhook",
-    "Do not force the dogfight if your knee is trapped — this can stress the MCL"
+    "Do not force the Dogfight if your knee is trapped, this can stress the MCL"
   ],
   "keyCorrections": [],
   "systemLogic": {
@@ -45,12 +45,12 @@
       },
       {
         "condition": "General application",
-        "action": "From dogfight, you have three branches: single leg (they post far hand), knee tap (they post close), or re-Guard (they drive into you)"
+        "action": "From Dogfight, you have three branches: single leg (they post far hand), knee tap (they post close), or re-Guard (they drive into you)"
       }
     ]
   },
   "moneyDetails": [
-    "Half Guard bottom is one of the most common positions in BJJ — a reliable escape here dramatically improves your overall game",
+    "Half Guard bottom is one of the most common positions in BJJ, a reliable escape here dramatically improves your overall game",
     "A successful Half Guard escape leads directly to a dominant top position (Side Control or Mount via the pass)",
     "Escaping Half Guard to wrestle-up scores a takedown in competition (2 points) and establishes top control"
   ],

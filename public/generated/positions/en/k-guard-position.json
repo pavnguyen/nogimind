@@ -1,5 +1,5 @@
 {
-  "id": "k-Guard-position",
+  "id": "k-guard-position",
   "locale": "en",
   "title": "K-Guard",
   "category": "bottom_guard",
@@ -16,21 +16,21 @@
     "Recognize danger signals early instead of waiting for the position to settle."
   ],
   "controlPoints": [
-    "Main control point: Shin frame, knee line, and ankle control..",
+    "Main control point: Shin frame, knee line, and ankle control.",
     "Head, hands, hips, and knees should share the same force direction.",
     "The elbow-knee connection or hip-shoulder line determines whether the position is still alive or already locked."
   ],
   "escapePriorities": [
-    "Escape priority: Protect the knee line before clearing the shin..",
+    "Escape priority: Protect the knee line before clearing the shin.",
     "Protect the neck, back, knee line, or arm line before countering.",
     "If inside position is lost, reset one defensive layer first."
   ],
   "advancementOptions": [
     {
       "action": "Enter matrix or false reap entry",
-      "nextPositionId": "inverted-Guard",
+      "nextPositionId": "inverted-guard",
       "relatedSkillIds": [
-        "k-Guard-matrix",
+        "k-guard-matrix",
         "false-reap-entry",
         "saddle-inside-sankaku-control"
       ],
@@ -44,7 +44,7 @@
     "You need a long hand post to avoid falling."
   ],
   "relatedSkillIds": [
-    "k-Guard-matrix",
+    "k-guard-matrix",
     "false-reap-entry",
     "saddle-inside-sankaku-control"
   ],

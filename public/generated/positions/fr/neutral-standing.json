@@ -16,12 +16,12 @@
     "Reconnaître les signaux de danger tôt au lieu d’attendre que la position se stabilise."
   ],
   "controlPoints": [
-    "Point de contrôle principal : Position de tête, contrôle des poignets et largeur de posture..",
+    "Point de contrôle principal : Position de tête, contrôle des poignets et largeur de posture.",
     "La tête, les mains, les hanches et les genoux doivent suivre la même direction de force.",
     "La connexion coude-genou ou la ligne hanches-épaules détermine si la position reste vivante ou verrouillée."
   ],
   "escapePriorities": [
-    "Priorité de sortie : Réinitialiser les prises si la posture se casse ou si la tête est tirée vers le bas..",
+    "Priorité de sortie : Réinitialiser les prises si la posture se casse ou si la tête est tirée vers le bas.",
     "Protéger le cou, le dos, la ligne du genou ou la ligne du bras avant de contrer.",
     "Si la position intérieure est perdue, rétablir d’abord une couche défensive."
   ],
@@ -32,7 +32,7 @@
       "relatedSkillIds": [
         "hand-fighting",
         "single-leg-bjj",
-        "Guard-pulling-strategy"
+        "guard-pulling-strategy"
       ],
       "why": "C’est la branche naturelle lorsque vous gagnez le point de contrôle principal et que l’adversaire est forcé de défendre."
     }
@@ -46,7 +46,7 @@
   "relatedSkillIds": [
     "hand-fighting",
     "single-leg-bjj",
-    "Guard-pulling-strategy"
+    "guard-pulling-strategy"
   ],
   "relatedConceptIds": [
     "base-balance",

@@ -1,5 +1,5 @@
 {
-  "id": "seated-Guard",
+  "id": "seated-guard",
   "locale": "en",
   "title": "Seated Guard",
   "category": "bottom_guard",
@@ -16,12 +16,12 @@
     "Recognize danger signals early instead of waiting for the position to settle."
   ],
   "controlPoints": [
-    "Main control point: Head height, shin frame, and wrist control..",
+    "Main control point: Head height, shin frame, and wrist control.",
     "Head, hands, hips, and knees should share the same force direction.",
     "The elbow-knee connection or hip-shoulder line determines whether the position is still alive or already locked."
   ],
   "escapePriorities": [
-    "Escape priority: If your head is snapped down, protect the neck before standing up..",
+    "Escape priority: If your head is snapped down, protect the neck before standing up.",
     "Protect the neck, back, knee line, or arm line before countering.",
     "If inside position is lost, reset one defensive layer first."
   ],
@@ -30,7 +30,7 @@
       "action": "Enter shin-to-shin or wrestle up",
       "nextPositionId": "single-leg-x",
       "relatedSkillIds": [
-        "seated-Guard-retention",
+        "seated-guard-retention",
         "shin-to-shin-entry",
         "technical-stand-up"
       ],
@@ -44,12 +44,12 @@
     "You need a long hand post to avoid falling."
   ],
   "relatedSkillIds": [
-    "seated-Guard-retention",
+    "seated-guard-retention",
     "shin-to-shin-entry",
     "technical-stand-up"
   ],
   "relatedConceptIds": [
-    "Guard-retention-layers",
+    "guard-retention-layers",
     "hooks",
     "posts"
   ]

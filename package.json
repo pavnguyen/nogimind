@@ -14,8 +14,6 @@
     "validate:content": "tsx scripts/content/validate-content.ts",
     "validate:videos": "tsx scripts/validate-videos.ts",
     "audit:vi": "tsx scripts/auditViKeys.ts",
-    "collect-videos": "tsx scripts/collectVideoCandidates.ts",
-    "generate-video-refs": "tsx scripts/generateVideoReferences.ts",
     "test": "vitest run",
     "test:watch": "vitest"
   },

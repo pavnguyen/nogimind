@@ -53,7 +53,7 @@
   "keyCorrections": [
     "S'ils libèrent leur bras, votre genou était trop bas – ramenez-le jusqu'à la ligne des épaules.",
     "S'ils se tiennent dehors, vous avez perdu le overhook : réattaquez le bras avant qu'ils ne se redressent.",
-    "S'il roule sur le omoplata, contrôlez sa hanche et suivez sa rotation."
+    "S'il roule sur le Omoplata, contrôlez sa hanche et suivez sa rotation."
   ],
   "version": 1,
   "updatedAt": "2026-05-21T00:24:30.775Z",
@@ -67,9 +67,9 @@
     "hasStateMachine": false
   },
   "locale": "fr",
-  "description": "Serrez la ligne d'épaule de l'adversaire entre votre genou et overhook, avec le contrôle du poignet, pour créer un dilemme armbar, triangle ou omoplata auquel il ne peut pas échapper sans abandonner une entrée de soumission.",
+  "description": "Serrez la ligne d'épaule de l'adversaire entre votre genou et overhook, avec le contrôle du poignet, pour créer un dilemme Armbar, Triangle ou Omoplata auquel il ne peut pas échapper sans abandonner une entrée de soumission.",
   "shortInstruction": "Genou sur l'épaule, overhook le bras, contrôlez le poignet de l'autre côté - la pince est une soumission qui attend de se produire.",
-  "summary": "La pince Guard (également appelée « pince » ou « pince à bras ») épingle le bras de l'adversaire sur votre corps pendant que votre genou bloque son épaule. Cela crée un deux contre un sur le bras coincé. À partir de là, chaque réaction qu'ils font ouvre une soumission : ils se positionnent dans le triangle, ils se retirent dans le armbar, ils roulent dans le omoplata.",
+  "summary": "La pince Guard (également appelée « pince » ou « pince à bras ») épingle le bras de l'adversaire sur votre corps pendant que votre genou bloque son épaule. Cela crée un deux contre un sur le bras coincé. À partir de là, chaque réaction qu'ils font ouvre une soumission : ils se positionnent dans le Triangle, ils se retirent dans le Armbar, ils roulent dans le Omoplata.",
   "whyItWorks": [
     "En épinglant leur bras avec votre genou et overhook, vous isolez entièrement un bras – ils ne peuvent se défendre qu'avec le bras libre.",
     "La pince supprime leur capacité de posture, puisque leur tête et leurs épaules sont épinglées contre votre poitrine.",
@@ -98,7 +98,7 @@
     "decisionTree": [
       {
         "condition": "Option 1 : Ils se mettent en position",
-        "action": "triangle starter. Option 2 : Ils retirent le bras → armbar. Option 3 : Ils roulent → omoplata."
+        "action": "Triangle starter. Option 2 : Ils retirent le bras → Armbar. Option 3 : Ils roulent → Omoplata."
       },
       {
         "condition": "Application générale",

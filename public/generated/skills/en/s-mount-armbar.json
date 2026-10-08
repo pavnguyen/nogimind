@@ -51,9 +51,9 @@
   "nextSkillIds": [],
   "searchBoost": 1,
   "keyCorrections": [
-    "If you fall backward during the finish, you lost S-Mount control — practice keeping your weight heavy.",
-    "If they pull their arm free, your shoulder control was weak — pin their arm against your chest first.",
-    "If they bridge you off, your S-Mount was not high enough — climb higher on their chest."
+    "If you fall backward during the finish, you lost S-Mount control, practice keeping your weight heavy.",
+    "If they pull their arm free, your shoulder control was weak, pin their arm against your chest first.",
+    "If they bridge you off, your S-Mount was not high enough, climb higher on their chest."
   ],
   "version": 1,
   "updatedAt": "2026-05-21T00:24:30.776Z",
@@ -67,29 +67,29 @@
     "hasStateMachine": false
   },
   "locale": "en",
-  "description": "Finish the armbar from S-Mount using shoulder clamp and hip line elevation — not by falling backward, but by maintaining control and lifting the hips.",
-  "shortInstruction": "High Mount, isolate the arm, keep your weight heavy, lift your hips to finish — S-Mount armbar is control, not desperation.",
-  "summary": "The S-Mount armbar is the gold standard of armbars from the Mount position. In S-Mount (one foot in their hip, one knee in their armpit, your weight high on their chest), you have exceptional control over their upper body. From here, isolating an arm and finishing the armbar is about maintaining positional dominance rather than falling backward. The key difference from a regular Mount armbar is that you finish from a seated position by lifting your hips rather than falling backward.",
+  "description": "Finish the Armbar from S-Mount using shoulder clamp and hip line elevation, not by falling backward, but by maintaining control and lifting the hips.",
+  "shortInstruction": "High Mount, isolate the arm, keep your weight heavy, lift your hips to finish - S-Mount Armbar is control, not desperation.",
+  "summary": "The S-Mount Armbar is the gold standard of Armbars from the Mount position. In S-Mount (one foot in their hip, one knee in their armpit, your weight high on their chest), you have exceptional control over their upper body. From here, isolating an arm and finishing the Armbar is about maintaining positional dominance rather than falling backward. The key difference from a regular Mount Armbar is that you finish from a seated position by lifting your hips rather than falling backward.",
   "whyItWorks": [
-    "S-Mount places your weight high on their chest — they cannot bridge or roll you off.",
+    "S-Mount places your weight high on their chest, they cannot bridge or roll you off.",
     "The foot in their hip gives you a post that prevents them from turning into you.",
     "Finishing by lifting your hips (rather than falling backward) maintains control and prevents escapes.",
-    "Danaher principle: S-Mount is the strongest pinning position for armbars because it isolates the upper body completely."
+    "Danaher principle: S-Mount is the strongest pinning position for Armbars because it isolates the upper body completely."
   ],
   "commonMistakes": [
-    "Falling backward to finish instead of lifting the hips — falling backward gives them the escape.",
-    "Not controlling their far arm — they will post and prevent the fall.",
-    "Losing the S-Mount position during the armbar transition — maintain pressure until you have the finish.",
-    "Letting their elbow drop below your hip — the elbow must be above your hip for the finish."
+    "Falling backward to finish instead of lifting the hips, falling backward gives them the escape.",
+    "Not controlling their far arm, they will post and prevent the fall.",
+    "Losing the S-Mount position during the Armbar transition, maintain pressure until you have the finish.",
+    "Letting their elbow drop below your hip, the elbow must be above your hip for the finish."
   ],
   "coachingCues": [
     "S-Mount high, weight heavy, control the arm.",
     "Lift the hips, don't fall backward.",
-    "If you fall, you lose control — lift to finish.",
+    "If you fall, you lose control, lift to finish.",
     "Elbow to the hip, thumb up, hips up."
   ],
   "safetySummary": [
-    "Apply armbar extension slowly and controlled — hyperextension injuries happen fast.",
+    "Apply Armbar extension slowly and controlled, hyperextension injuries happen fast.",
     "Do not continue extension after the tap.",
     "Be aware that S-Mount pressure can be intense on the ribs and chest."
   ],
@@ -98,7 +98,7 @@
     "decisionTree": [
       {
         "condition": "General application",
-        "action": "S-Mount armbar chains with the arm triangle: if they defend the armbar, switch to arm triangle from Mount."
+        "action": "S-Mount Armbar chains with the Arm Triangle: if they defend the Armbar, switch to Arm Triangle from Mount."
       },
       {
         "condition": "they roll to escape",
@@ -108,12 +108,12 @@
     "exitStrategies": []
   },
   "moneyDetails": [
-    "Your S-Mount position should be high on their chest — your hips should be at their sternum level.",
-    "The foot in their hip must be active — you push on their hip to control their bridge.",
+    "Your S-Mount position should be high on their chest, your hips should be at their sternum level.",
+    "The foot in their hip must be active, you push on their hip to control their bridge.",
     "Isolate the arm by pinning it against your chest with your same-side hand.",
-    "The finish: lift your hips as you pull their arm toward you — this creates the hyperextension without falling backward."
+    "The finish: lift your hips as you pull their arm toward you, this creates the hyperextension without falling backward."
   ],
-  "nextStep": "After the S-Mount armbar, learn the mounted triangle and arm triangle from Mount.",
+  "nextStep": "After the S-Mount Armbar, learn the Mounted Triangle and Arm Triangle from Mount.",
   "fixItFast": [
     "You keep falling back? Stay seated and lift your hips instead.",
     "Can't isolate the arm? Swim your hand under their arm and pin it against your chest.",

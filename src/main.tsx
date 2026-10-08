@@ -155,7 +155,7 @@ function initWebVitals(): void {
       })
     }
   } catch {
-    // PerformanceObserver not supported — silently skip
+    // PerformanceObserver not supported, silently skip
   }
 }
 

@@ -1,5 +1,5 @@
 {
-  "id": "z-Guard",
+  "id": "z-guard",
   "locale": "fr",
   "title": "Z-Guard (93 Guard)",
   "category": "bottom_guard",
@@ -16,12 +16,12 @@
     "Reconnaître les signaux de danger tôt au lieu d’attendre que la position se stabilise."
   ],
   "controlPoints": [
-    "Point de contrôle principal : Angle knee shield, underhook et position de tête..",
+    "Point de contrôle principal : Angle knee shield, underhook et position de tête.",
     "La tête, les mains, les hanches et les genoux doivent suivre la même direction de force.",
     "La connexion coude-genou ou la ligne hanches-épaules détermine si la position reste vivante ou verrouillée."
   ],
   "escapePriorities": [
-    "Priorité de sortie : Ne pas perdre l’underhook avant de passer à l’attaque..",
+    "Priorité de sortie : Ne pas perdre l’underhook avant de passer à l’attaque.",
     "Protéger le cou, le dos, la ligne du genou ou la ligne du bras avant de contrer.",
     "Si la position intérieure est perdue, rétablir d’abord une couche défensive."
   ],
@@ -30,9 +30,9 @@
       "action": "Gagner l’underhook pour entrer dogfight",
       "nextPositionId": "dogfight",
       "relatedSkillIds": [
-        "z-Guard-sweeps",
-        "half-Guard-knee-shield",
-        "half-Guard-wrestle-up"
+        "z-guard-sweeps",
+        "half-guard-knee-shield",
+        "half-guard-wrestle-up"
       ],
       "why": "C’est la branche naturelle lorsque vous gagnez le point de contrôle principal et que l’adversaire est forcé de défendre."
     }
@@ -44,9 +44,9 @@
     "Vous devez poser une main loin pour éviter de tomber."
   ],
   "relatedSkillIds": [
-    "z-Guard-sweeps",
-    "half-Guard-knee-shield",
-    "half-Guard-wrestle-up",
+    "z-guard-sweeps",
+    "half-guard-knee-shield",
+    "half-guard-wrestle-up",
     "side-control-escape"
   ],
   "relatedConceptIds": [

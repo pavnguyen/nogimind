@@ -16,12 +16,12 @@
     "Nhận diện tín hiệu nguy hiểm sớm thay vì chờ vị trí ổn định."
   ],
   "controlPoints": [
-    "Điểm kiểm soát chính: Grip thấp, đầu lệch góc và kết nối chest-to-hip..",
+    "Điểm kiểm soát chính: Grip thấp, đầu lệch góc và kết nối chest-to-hip.",
     "Đầu, tay, hông và gối nên cùng hướng lực.",
     "Kết nối khuỷu-gối hoặc đường hông-vai quyết định vị trí còn sống hay đã bị khóa."
   ],
   "escapePriorities": [
-    "Ưu tiên thoát: Tạo shin hoặc knee wedge giữa ngực và hông..",
+    "Ưu tiên thoát: Tạo shin hoặc knee wedge giữa ngực và hông.",
     "Bảo vệ cổ, lưng, đường gối hoặc đường tay trước khi phản công.",
     "Nếu mất vị trí trong, hãy lùi lại một lớp phòng thủ trước."
   ],
@@ -31,8 +31,8 @@
       "nextPositionId": "side-control-top",
       "relatedSkillIds": [
         "bodylock-passing",
-        "seated-Guard-retention",
-        "half-Guard-wrestle-up"
+        "seated-guard-retention",
+        "half-guard-wrestle-up"
       ],
       "why": "Đây là nhánh tự nhiên khi bạn thắng điểm kiểm soát chính và đối thủ buộc phải phòng thủ."
     }
@@ -45,8 +45,8 @@
   ],
   "relatedSkillIds": [
     "bodylock-passing",
-    "seated-Guard-retention",
-    "half-Guard-wrestle-up"
+    "seated-guard-retention",
+    "half-guard-wrestle-up"
   ],
   "relatedConceptIds": [
     "connection-before-control",

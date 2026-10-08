@@ -8,7 +8,6 @@ export type ConceptCategory =
   | 'offensive'
   | 'training'
   | 'safety'
-  | 'mindset'
 
 export type ConceptLevel = 'fundamental' | 'intermediate' | 'advanced'
 

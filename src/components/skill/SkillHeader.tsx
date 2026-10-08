@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import { Printer } from 'lucide-react'
 import type { SkillNode } from '../../types/skill'
+import { formatTagLabel } from '../../utils/tagLabel'
 
 type Props = {
   skill: SkillNode
@@ -101,7 +102,7 @@ export const SkillHeader = ({ skill, lang, onPrintCard }: Props) => {
                   key={tag}
                   className="rounded bg-white/4 px-2 py-0.5 text-xs text-slate-500"
                 >
-                  #{tag}
+                  #{formatTagLabel(tag)}
                 </span>
               ))}
             </div>

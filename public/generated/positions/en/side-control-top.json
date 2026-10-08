@@ -16,23 +16,23 @@
     "Recognize danger signals early instead of waiting for the position to settle."
   ],
   "controlPoints": [
-    "Main control point: Crossface, underhook, and hip block..",
+    "Main control point: Crossface, underhook, and hip block.",
     "Head, hands, hips, and knees should share the same force direction.",
     "The elbow-knee connection or hip-shoulder line determines whether the position is still alive or already locked."
   ],
   "escapePriorities": [
-    "Escape priority: Protect the near elbow and prevent stable chest-to-chest control..",
+    "Escape priority: Protect the near elbow and prevent stable chest-to-chest control.",
     "Protect the neck, back, knee line, or arm line before countering.",
     "If inside position is lost, reset one defensive layer first."
   ],
   "advancementOptions": [
     {
       "action": "Advance to Mount or a submission threat",
-      "nextPositionId": "Mount-top",
+      "nextPositionId": "mount-top",
       "relatedSkillIds": [
         "side-control-pin",
         "side-control-escape",
-        "arm-triangle-Mount"
+        "arm-triangle-mount"
       ],
       "why": "This is the natural branch when you win the main control point and the opponent is forced to defend."
     }
@@ -46,7 +46,7 @@
   "relatedSkillIds": [
     "side-control-pin",
     "side-control-escape",
-    "arm-triangle-Mount"
+    "arm-triangle-mount"
   ],
   "relatedConceptIds": [
     "pressure-direction",

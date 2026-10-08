@@ -1,5 +1,5 @@
 {
-  "id": "seated-Guard",
+  "id": "seated-guard",
   "locale": "fr",
   "title": "Garde assise",
   "category": "bottom_guard",
@@ -16,12 +16,12 @@
     "Reconnaître les signaux de danger tôt au lieu d’attendre que la position se stabilise."
   ],
   "controlPoints": [
-    "Point de contrôle principal : Hauteur de tête, cadre tibial et contrôle du poignet..",
+    "Point de contrôle principal : Hauteur de tête, cadre tibial et contrôle du poignet.",
     "La tête, les mains, les hanches et les genoux doivent suivre la même direction de force.",
     "La connexion coude-genou ou la ligne hanches-épaules détermine si la position reste vivante ou verrouillée."
   ],
   "escapePriorities": [
-    "Priorité de sortie : Si la tête est tirée vers le bas, protéger le cou avant de se relever..",
+    "Priorité de sortie : Si la tête est tirée vers le bas, protéger le cou avant de se relever.",
     "Protéger le cou, le dos, la ligne du genou ou la ligne du bras avant de contrer.",
     "Si la position intérieure est perdue, rétablir d’abord une couche défensive."
   ],
@@ -30,7 +30,7 @@
       "action": "Entrer en shin-to-shin ou faire un wrestle-up",
       "nextPositionId": "single-leg-x",
       "relatedSkillIds": [
-        "seated-Guard-retention",
+        "seated-guard-retention",
         "shin-to-shin-entry",
         "technical-stand-up"
       ],
@@ -44,12 +44,12 @@
     "Vous devez poser une main loin pour éviter de tomber."
   ],
   "relatedSkillIds": [
-    "seated-Guard-retention",
+    "seated-guard-retention",
     "shin-to-shin-entry",
     "technical-stand-up"
   ],
   "relatedConceptIds": [
-    "Guard-retention-layers",
+    "guard-retention-layers",
     "hooks",
     "posts"
   ]

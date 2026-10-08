@@ -16,31 +16,15 @@
     }
   },
   {
-    "id": "seated-Guard",
+    "id": "closed-guard",
     "name": {
-      "en": "Seated Guard",
-      "vi": "Seated Guard",
-      "fr": "Garde assise"
+      "en": "Closed Guard",
+      "vi": "Closed Guard",
+      "fr": "Garde fermée"
     }
   },
   {
-    "id": "supine-Guard",
-    "name": {
-      "en": "Supine Guard",
-      "vi": "Guard nằm ngửa",
-      "fr": "Garde sur le dos"
-    }
-  },
-  {
-    "id": "butterfly-Guard",
-    "name": {
-      "en": "Butterfly Guard",
-      "vi": "Butterfly Guard",
-      "fr": "Garde papillon"
-    }
-  },
-  {
-    "id": "half-Guard-bottom",
+    "id": "half-guard-bottom",
     "name": {
       "en": "Half Guard Bottom",
       "vi": "Half Guard Dưới",
@@ -48,7 +32,7 @@
     }
   },
   {
-    "id": "knee-shield-half-Guard",
+    "id": "knee-shield-half-guard",
     "name": {
       "en": "Knee Shield Half Guard",
       "vi": "Knee Shield Half Guard",
@@ -56,67 +40,27 @@
     }
   },
   {
-    "id": "dogfight",
+    "id": "seated-guard",
     "name": {
-      "en": "Dogfight",
-      "vi": "Dogfight",
-      "fr": "Dogfight"
+      "en": "Seated Guard",
+      "vi": "Seated Guard",
+      "fr": "Garde assise"
     }
   },
   {
-    "id": "front-headlock-top",
+    "id": "supine-guard",
     "name": {
-      "en": "Front Headlock Top",
-      "vi": "Front Headlock Trên",
-      "fr": "Front Headlock dessus"
+      "en": "Supine Guard",
+      "vi": "Guard nằm ngửa",
+      "fr": "Garde sur le dos"
     }
   },
   {
-    "id": "front-headlock-bottom",
+    "id": "butterfly-guard",
     "name": {
-      "en": "Front Headlock Bottom",
-      "vi": "Front Headlock Dưới",
-      "fr": "Front Headlock dessous"
-    }
-  },
-  {
-    "id": "turtle-top",
-    "name": {
-      "en": "Turtle Top",
-      "vi": "Turtle Trên",
-      "fr": "Turtle dessus"
-    }
-  },
-  {
-    "id": "turtle-bottom",
-    "name": {
-      "en": "Turtle Bottom",
-      "vi": "Turtle Dưới",
-      "fr": "Turtle dessous"
-    }
-  },
-  {
-    "id": "bodylock-passing-position",
-    "name": {
-      "en": "Body Lock Passing Position",
-      "vi": "Vị trí Body Lock Passing",
-      "fr": "Position de body lock passing"
-    }
-  },
-  {
-    "id": "headquarters-top",
-    "name": {
-      "en": "Headquarters Top",
-      "vi": "Headquarters Trên",
-      "fr": "Headquarters dessus"
-    }
-  },
-  {
-    "id": "knee-cut-position",
-    "name": {
-      "en": "Knee Cut Position",
-      "vi": "Vị trí Knee Cut",
-      "fr": "Position de knee cut"
+      "en": "Butterfly Guard",
+      "vi": "Butterfly Guard",
+      "fr": "Garde papillon"
     }
   },
   {
@@ -136,7 +80,7 @@
     }
   },
   {
-    "id": "Mount-top",
+    "id": "mount-top",
     "name": {
       "en": "Mount Top",
       "vi": "Mount Trên",
@@ -144,7 +88,7 @@
     }
   },
   {
-    "id": "Mount-bottom",
+    "id": "mount-bottom",
     "name": {
       "en": "Mount Bottom",
       "vi": "Mount Dưới",
@@ -168,6 +112,126 @@
     }
   },
   {
+    "id": "headquarters-top",
+    "name": {
+      "en": "Headquarters Top",
+      "vi": "Headquarters Trên",
+      "fr": "Headquarters dessus"
+    }
+  },
+  {
+    "id": "knee-cut-position",
+    "name": {
+      "en": "Knee Cut Position",
+      "vi": "Vị trí Knee Cut",
+      "fr": "Position de Knee Cut"
+    }
+  },
+  {
+    "id": "bodylock-passing-position",
+    "name": {
+      "en": "Body Lock Passing Position",
+      "vi": "Vị trí Body Lock Passing",
+      "fr": "Position de Body Lock passing"
+    }
+  },
+  {
+    "id": "turtle-top",
+    "name": {
+      "en": "Turtle Top",
+      "vi": "Turtle Trên",
+      "fr": "Turtle dessus"
+    }
+  },
+  {
+    "id": "turtle-bottom",
+    "name": {
+      "en": "Turtle Bottom",
+      "vi": "Turtle Dưới",
+      "fr": "Turtle dessous"
+    }
+  },
+  {
+    "id": "front-headlock-top",
+    "name": {
+      "en": "Front Headlock Top",
+      "vi": "Front Headlock Trên",
+      "fr": "Front Headlock dessus"
+    }
+  },
+  {
+    "id": "front-headlock-bottom",
+    "name": {
+      "en": "Front Headlock Bottom",
+      "vi": "Front Headlock Dưới",
+      "fr": "Front Headlock dessous"
+    }
+  },
+  {
+    "id": "knee-on-belly",
+    "name": {
+      "en": "Knee On Belly",
+      "vi": "Knee On Belly",
+      "fr": "Genou sur le ventre"
+    }
+  },
+  {
+    "id": "north-south",
+    "name": {
+      "en": "North South",
+      "vi": "North South",
+      "fr": "North South"
+    }
+  },
+  {
+    "id": "de-la-riva-guard",
+    "name": {
+      "en": "De La Riva Guard",
+      "vi": "De La Riva Guard",
+      "fr": "Garde De La Riva"
+    }
+  },
+  {
+    "id": "reverse-de-la-riva-guard",
+    "name": {
+      "en": "Reverse De La Riva Guard",
+      "vi": "Reverse De La Riva Guard",
+      "fr": "Garde De La Riva inversée"
+    }
+  },
+  {
+    "id": "x-guard-position",
+    "name": {
+      "en": "X-Guard",
+      "vi": "X-Guard",
+      "fr": "X-Guard"
+    }
+  },
+  {
+    "id": "z-guard",
+    "name": {
+      "en": "Z-Guard (93 Guard)",
+      "vi": "Z-Guard (93 Guard)",
+      "fr": "Z-Guard (93 Guard)"
+    }
+  },
+  {
+    "id": "k-guard-position",
+    "name": {
+      "en": "K-Guard",
+      "vi": "K-Guard",
+      "fr": "K-Guard"
+    }
+  },
+  {
+    "id": "inverted-guard",
+    "name": {
+      "en": "Inverted Guard",
+      "vi": "Inverted Guard",
+      "fr": "Garde inversée"
+    }
+  },
+  {
     "id": "single-leg-x",
     "name": {
       "en": "Single Leg X",
@@ -188,7 +252,23 @@
     "name": {
       "en": "Saddle / Inside Sankaku",
       "vi": "Saddle / Inside Sankaku",
-      "fr": "Saddle / inside sankaku"
+      "fr": "Saddle / Inside Sankaku"
+    }
+  },
+  {
+    "id": "backside-50-50",
+    "name": {
+      "en": "Backside 50/50",
+      "vi": "Backside 50/50",
+      "fr": "Backside 50/50"
+    }
+  },
+  {
+    "id": "dogfight",
+    "name": {
+      "en": "Dogfight",
+      "vi": "Dogfight",
+      "fr": "Dogfight"
     }
   },
   {
@@ -200,107 +280,11 @@
     }
   },
   {
-    "id": "arm-triangle-threat",
-    "name": {
-      "en": "Arm Triangle Threat",
-      "vi": "Đe dọa Arm Triangle",
-      "fr": "Menace d’arm triangle"
-    }
-  },
-  {
-    "id": "rear-naked-choke-threat",
-    "name": {
-      "en": "Rear Naked Choke Threat",
-      "vi": "Đe dọa Rear Naked Choke",
-      "fr": "Menace de rear naked choke"
-    }
-  },
-  {
-    "id": "closed-Guard",
-    "name": {
-      "en": "Closed Guard",
-      "vi": "Closed Guard",
-      "fr": "Garde fermée"
-    }
-  },
-  {
-    "id": "de-la-riva-Guard",
-    "name": {
-      "en": "De La Riva Guard",
-      "vi": "De La Riva Guard",
-      "fr": "Garde De La Riva"
-    }
-  },
-  {
-    "id": "reverse-de-la-riva-Guard",
-    "name": {
-      "en": "Reverse De La Riva Guard",
-      "vi": "Reverse De La Riva Guard",
-      "fr": "Garde De La Riva inversée"
-    }
-  },
-  {
-    "id": "x-Guard-position",
-    "name": {
-      "en": "X-Guard",
-      "vi": "X-Guard",
-      "fr": "X-Guard"
-    }
-  },
-  {
-    "id": "z-Guard",
-    "name": {
-      "en": "Z-Guard (93 Guard)",
-      "vi": "Z-Guard (93 Guard)",
-      "fr": "Z-Guard (93 Guard)"
-    }
-  },
-  {
-    "id": "knee-on-belly",
-    "name": {
-      "en": "Knee On Belly",
-      "vi": "Knee On Belly",
-      "fr": "Genou sur le ventre"
-    }
-  },
-  {
-    "id": "north-south",
-    "name": {
-      "en": "North South",
-      "vi": "North South",
-      "fr": "North South"
-    }
-  },
-  {
-    "id": "inverted-Guard",
-    "name": {
-      "en": "Inverted Guard",
-      "vi": "Inverted Guard",
-      "fr": "Garde inversée"
-    }
-  },
-  {
-    "id": "k-Guard-position",
-    "name": {
-      "en": "K-Guard",
-      "vi": "K-Guard",
-      "fr": "K-Guard"
-    }
-  },
-  {
     "id": "crab-ride-position",
     "name": {
       "en": "Crab Ride",
       "vi": "Crab Ride",
       "fr": "Crab Ride"
-    }
-  },
-  {
-    "id": "backside-50-50",
-    "name": {
-      "en": "Backside 50/50",
-      "vi": "Backside 50/50",
-      "fr": "Backside 50/50"
     }
   },
   {
@@ -317,6 +301,22 @@
       "en": "Claw Ride",
       "vi": "Claw Ride",
       "fr": "Claw ride"
+    }
+  },
+  {
+    "id": "arm-triangle-threat",
+    "name": {
+      "en": "Arm Triangle Threat",
+      "vi": "Đe dọa Arm Triangle",
+      "fr": "Menace d’Arm Triangle"
+    }
+  },
+  {
+    "id": "rear-naked-choke-threat",
+    "name": {
+      "en": "Rear Naked Choke Threat",
+      "vi": "Đe dọa Rear Naked Choke",
+      "fr": "Menace de Rear Naked Choke"
     }
   }
 ]

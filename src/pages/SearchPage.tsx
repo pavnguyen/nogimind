@@ -73,9 +73,9 @@ const getPopularSearches = (): string[] => {
 
 /** Pre-defined popular BJJ search terms (fallback if no analytics yet) */
 const DEFAULT_POPULAR: string[] = [
-  'armbar', 'triangle', 'Guillotine', 'kimura', 'heel hook',
-  'rear naked choke', 'Side Control', 'Mount escape',
-  'Guard retention', 'knee cut pass',
+  'Armbar', 'Triangle', 'Guillotine', 'Kimura', 'Heel Hook',
+  'Rear Naked Choke', 'Side Control', 'Mount Escape',
+  'Guard Retention', 'Knee Cut Pass',
 ]
 
 export default function SearchPage() {

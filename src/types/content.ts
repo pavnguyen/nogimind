@@ -28,7 +28,7 @@ export type SkillStatus = z.infer<typeof SkillStatusSchema>
 // ── Concept ────────────────────────────────────────────────
 
 export const ConceptCategorySchema = z.enum([
-  'positional', 'mechanical', 'strategic', 'defensive', 'offensive', 'training', 'safety', 'mindset',
+  'positional', 'mechanical', 'strategic', 'defensive', 'offensive', 'training', 'safety',
 ])
 export type ConceptCategory = z.infer<typeof ConceptCategorySchema>
 
@@ -415,7 +415,7 @@ export const SkillDetailArtifactSchema = z.object({
   aliases: z.array(z.string()).default([]),
   keywords: z.array(z.string()).default([]),
 
-  // Relations (from meta — `{id, type}` from SkillRelationSchema, NOT `{id, name}`)
+  // Relations (from meta - `{id, type}` from SkillRelationSchema, NOT `{id, name}`)
   relatedSkills: z.array(SkillRelationSchema).default([]),
   relatedSkillIds: z.array(z.string()).default([]),
   relatedPositions: z.array(z.string()).default([]),

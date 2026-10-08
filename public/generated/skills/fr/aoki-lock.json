@@ -64,12 +64,12 @@
     "hasStateMachine": false
   },
   "locale": "fr",
-  "description": "Une genouillère à partir de 50/50 ou un enchevêtrement des jambes qui utilise une prise spéciale en forme de quatre et une rotation de la hanche pour terminer rapidement sans nécessiter un contrôle total de saddle.",
+  "description": "Une genouillère à partir de 50/50 ou un enchevêtrement des jambes qui utilise une prise spéciale en forme de quatre et une rotation de la hanche pour terminer rapidement sans nécessiter un contrôle total de Saddle.",
   "shortInstruction": "Saisissez la jambe en forme de quatre, faites pivoter vos hanches vers leur hanche, étendez la jambe – le verrou Aoki est une genouillère rapide de 50/50.",
-  "summary": "Le verrou Aoki (du nom de Shinya Aoki) est une variante de la genouillère 50/50 Guard qui utilise une prise unique : au lieu de contrôler la jambe avec les deux mains à la manière d'une genouillère standard, vous verrouillez une prise en forme de quatre autour de la cuisse. Cette poignée vous offre un contrôle exceptionnel sur la rotation de la hanche tandis que le mouvement de votre hanche applique l'hyper-extension sur son genou. Le verrou Aoki est efficace car il se termine rapidement et ne nécessite pas la position complète saddle ou ashi garami.",
+  "summary": "Le verrou Aoki (du nom de Shinya Aoki) est une variante de la genouillère 50/50 Guard qui utilise une prise unique : au lieu de contrôler la jambe avec les deux mains à la manière d'une genouillère standard, vous verrouillez une prise en forme de quatre autour de la cuisse. Cette poignée vous offre un contrôle exceptionnel sur la rotation de la hanche tandis que le mouvement de votre hanche applique l'hyper-extension sur son genou. Le verrou Aoki est efficace car il se termine rapidement et ne nécessite pas la position complète Saddle ou ashi garami.",
   "whyItWorks": [
     "La prise en forme de quatre autour de leur cuisse les empêche de faire pivoter leur hanche hors de la genouillère.",
-    "Il se termine à 50/50, une position où les heel hook sont la principale menace – le verrou Aoki attrape les adversaires concentrés sur la défense du talon.",
+    "Il se termine à 50/50, une position où les Heel Hook sont la principale menace – le verrou Aoki attrape les adversaires concentrés sur la défense du talon.",
     "La finition provient de la rotation de la hanche plutôt que de la traction de la jambe, ce qui la rend mécaniquement efficace.",
     "Principe de Danaher : contrôlez la hanche pour contrôler le genou – la prise en forme de quatre est le contrôle de la hanche."
   ],
@@ -95,11 +95,11 @@
     "decisionTree": [
       {
         "condition": "Application générale",
-        "action": "Le verrou Aoki fonctionne comme une chaîne contre la menace heel hook : appâtez la défense du talon, passez à Aoki."
+        "action": "Le verrou Aoki fonctionne comme une chaîne contre la menace Heel Hook : appâtez la défense du talon, passez à Aoki."
       },
       {
         "condition": "ils défendent l'Aoki en tournant la hanche",
-        "action": "passez au heel hook."
+        "action": "passez au Heel Hook."
       }
     ],
     "exitStrategies": []
@@ -110,7 +110,7 @@
     "Faites pivoter vos hanches vers leur hanche, pas vers leur pied – la rotation de la hanche crée l’hyper-extension.",
     "Gardez leur pied épinglé sur votre hanche pendant que vous tournez – cela les empêche de donner des coups de pied libres."
   ],
-  "nextStep": "Après le verrouillage Aoki, apprenez la genouillère standard et le heel hook à partir de 50/50.",
+  "nextStep": "Après le verrouillage Aoki, apprenez la genouillère standard et le Heel Hook à partir de 50/50.",
   "fixItFast": [
     "Le chiffre quatre continue de glisser ? Verrouillez-le plus haut sur la cuisse, plus près de la hanche.",
     "Vous ne pouvez pas terminer ? Vos hanches ne tournent pas suffisamment – ​​concentrez-vous sur le rapprochement de votre hanche vers la leur.",

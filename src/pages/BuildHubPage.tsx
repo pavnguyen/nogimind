@@ -10,6 +10,7 @@ import { PageShell } from '../components/common/PageShell'
 import { useArchetypesQuery } from '../queries/archetypeQueries'
 import { useSettingsStore } from '../stores/useSettingsStore'
 import { getLocalizedArray, getLocalizedText } from '../utils/localization'
+import { haystackIncludesQuery, normalizeSearchQuery } from '../utils/searchText'
 
 export default function BuildHubPage() {
   const { t } = useTranslation()
@@ -17,14 +18,13 @@ export default function BuildHubPage() {
   const [searchParams, setSearchParams] = useSearchParams()
   const activeTab = searchParams.get('tab') || 'archetypes'
 
-  // Archetypes data — computed at top level (hooks must be unconditional)
+  // Archetypes data, computed at top level (hooks must be unconditional)
   const archetypesQuery = useArchetypesQuery()
   const archetypes = useMemo(() => archetypesQuery.data ?? [], [archetypesQuery.data])
 
   const archetypeQuery = searchParams.get('q') ?? ''
   const filteredArchetypes = useMemo(() => {
-    if (!archetypeQuery.trim()) return archetypes
-    const normalized = archetypeQuery.trim().toLowerCase()
+    const normalizedQuery = normalizeSearchQuery(archetypeQuery)
     return archetypes.filter((a) => {
       const haystack = [
         getLocalizedText(a.title, lang),
@@ -32,8 +32,8 @@ export default function BuildHubPage() {
         getLocalizedText(a.shortDescription, lang),
         ...getLocalizedArray(a.bestFor, lang),
         ...a.coreSkillIds,
-      ].join(' ').toLowerCase()
-      return haystack.includes(normalized)
+      ].join(' ')
+      return haystackIncludesQuery(haystack, normalizedQuery)
     })
   }, [archetypes, archetypeQuery, lang])
 

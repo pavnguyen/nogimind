@@ -1,5 +1,5 @@
 {
-  "id": "inverted-Guard",
+  "id": "inverted-guard",
   "locale": "en",
   "title": "Inverted Guard",
   "category": "bottom_guard",
@@ -16,22 +16,22 @@
     "Recognize danger signals early instead of waiting for the position to settle."
   ],
   "controlPoints": [
-    "Main control point: Feet on hip line, hip connection, and angle..",
+    "Main control point: Feet on hip line, hip connection, and angle.",
     "Head, hands, hips, and knees should share the same force direction.",
     "The elbow-knee connection or hip-shoulder line determines whether the position is still alive or already locked."
   ],
   "escapePriorities": [
-    "Escape priority: Do not let them connect leg entries from the invert..",
+    "Escape priority: Do not let them connect leg entries from the invert.",
     "Protect the neck, back, knee line, or arm line before countering.",
     "If inside position is lost, reset one defensive layer first."
   ],
   "advancementOptions": [
     {
       "action": "Transition to K-Guard or matrix entry",
-      "nextPositionId": "k-Guard-position",
+      "nextPositionId": "k-guard-position",
       "relatedSkillIds": [
-        "inverted-Guard-control",
-        "k-Guard-matrix",
+        "inverted-guard-control",
+        "k-guard-matrix",
         "false-reap-entry"
       ],
       "why": "This is the natural branch when you win the main control point and the opponent is forced to defend."
@@ -44,8 +44,8 @@
     "You need a long hand post to avoid falling."
   ],
   "relatedSkillIds": [
-    "inverted-Guard-control",
-    "k-Guard-matrix",
+    "inverted-guard-control",
+    "k-guard-matrix",
     "false-reap-entry",
     "leg-lock-safety-basics"
   ],

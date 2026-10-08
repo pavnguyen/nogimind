@@ -47,12 +47,12 @@ function collectTsxFiles(dir: string): string[] {
 // ── Extract static t('key') calls from file content ───────────────────────
 function extractTCallKeys(content: string): string[] {
   const keys = new Set<string>()
-  // Match t('some.key') or t("some.key") — but NOT t(`template${...}`)
+  // Match t('some.key') or t("some.key"), but NOT t(`template${...}`)
   const regex = /\bt\(['"]([a-zA-Z][a-zA-Z0-9_.-]+)['"]/g
   let match: RegExpExecArray | null
   while ((match = regex.exec(content)) !== null) {
     const key = match[1]
-    // Skip keys ending with a dot — these are string concatenation patterns
+    // Skip keys ending with a dot, these are string concatenation patterns
     // e.g. t('days.' + dayKeys[...]) → regex captures 'days.'
     if (key.endsWith('.')) continue
     // Skip dynamic keys that reference variables (contain template syntax)

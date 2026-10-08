@@ -1,5 +1,5 @@
 {
-  "id": "half-Guard-bottom",
+  "id": "half-guard-bottom",
   "locale": "fr",
   "title": "Half Guard dessous",
   "category": "bottom_guard",
@@ -16,12 +16,12 @@
     "Reconnaître les signaux de danger tôt au lieu d’attendre que la position se stabilise."
   ],
   "controlPoints": [
-    "Point de contrôle principal : Ligne de crossface, underhook et knee shield..",
+    "Point de contrôle principal : Ligne de crossface, underhook et knee shield.",
     "La tête, les mains, les hanches et les genoux doivent suivre la même direction de force.",
     "La connexion coude-genou ou la ligne hanches-épaules détermine si la position reste vivante ou verrouillée."
   ],
   "escapePriorities": [
-    "Priorité de sortie : Bloquer le crossface avant de monter sur un single leg..",
+    "Priorité de sortie : Bloquer le crossface avant de monter sur un single leg.",
     "Protéger le cou, le dos, la ligne du genou ou la ligne du bras avant de contrer.",
     "Si la position intérieure est perdue, rétablir d’abord une couche défensive."
   ],
@@ -30,8 +30,8 @@
       "action": "Gagner l’underhook et monter en dogfight",
       "nextPositionId": "dogfight",
       "relatedSkillIds": [
-        "half-Guard-knee-shield",
-        "half-Guard-wrestle-up",
+        "half-guard-knee-shield",
+        "half-guard-wrestle-up",
         "side-control-escape"
       ],
       "why": "C’est la branche naturelle lorsque vous gagnez le point de contrôle principal et que l’adversaire est forcé de défendre."
@@ -44,8 +44,8 @@
     "Vous devez poser une main loin pour éviter de tomber."
   ],
   "relatedSkillIds": [
-    "half-Guard-knee-shield",
-    "half-Guard-wrestle-up",
+    "half-guard-knee-shield",
+    "half-guard-wrestle-up",
     "side-control-escape"
   ],
   "relatedConceptIds": [
