@@ -1,9 +1,20 @@
 {
   "id": "inverted-guard",
-  "locale": "vi",
-  "title": "Inverted Guard",
   "category": "bottom_guard",
   "status": "defensive",
+  "relatedSkillIds": [
+    "inverted-guard-control",
+    "k-guard-matrix",
+    "false-reap-entry",
+    "leg-lock-safety-basics"
+  ],
+  "relatedConceptIds": [
+    "knee-line",
+    "leg-lock-safety-hierarchy",
+    "angle-creation"
+  ],
+  "locale": "vi",
+  "title": "Inverted Guard",
   "description": "Guard player xoay người invert để đặt chân vào hip line hoặc shoulder line, tạo angle sweep và leg entries.",
   "topPlayerGoals": [
     "Người ở trên muốn kiểm soát Inverted Guard bằng vị trí đầu, vị trí trong và áp lực có hướng.",
@@ -42,16 +53,5 @@
     "Khuỷu tay tách khỏi sườn hoặc đầu gối.",
     "Đường hông bị khóa trong khi đường vai vẫn đang bị kéo.",
     "Bạn phải chống tay dài để không ngã."
-  ],
-  "relatedSkillIds": [
-    "inverted-guard-control",
-    "k-guard-matrix",
-    "false-reap-entry",
-    "leg-lock-safety-basics"
-  ],
-  "relatedConceptIds": [
-    "knee-line",
-    "leg-lock-safety-hierarchy",
-    "angle-creation"
   ]
 }

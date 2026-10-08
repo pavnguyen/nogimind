@@ -7,9 +7,9 @@
   "summary": "Đấu vật từ Guard biến Guard từ thế phòng thủ thành một đòn tấn công hạ gục. Trình tự này sử dụng underhook, shin-to-shin hoặc 2 chọi 1 để kiểm soát phần thân trên của đối thủ khi bạn đứng. Từ tư thế đứng, bạn kết thúc bằng một chân, khóa cơ thể hoặc Front Headlock. Đấu vật là cốt lõi của hệ thống No-Gi Guard hiện đại, mỗi người chơi Guard đang ngồi phải có một kỹ thuật vật đáng tin cậy để ngăn đối thủ đứng và vượt qua.",
   "whyItWorks": [
     "Đấu vật trừng phạt đối thủ vì đã đứng trong Guard của bạn - nếu họ đứng, bạn sẽ theo kịp họ",
-    "underhook và 2 trên 1 giúp bạn kiểm soát phần thân trên để ngăn chúng sprawl lao vào hoặc giao nhau",
+    "underhook và 2 trên 1 giúp bạn kiểm soát phần thân trên để ngăn họ sprawl lao vào hoặc giao nhau",
     "Mục tiêu Shin-to-shin ngăn đối thủ lùi lại khi bạn đứng - ống chân của bạn chặn chân họ",
-    "Cuộc vật lộn tạo ra một tình thế tiến thoái lưỡng nan cho người vượt qua: họ phải giao tranh (và có nguy cơ bị quét) hoặc rút lui (và từ bỏ nỗ lực vượt qua)"
+    "Cuộc vật tạo ra một tình thế tiến thoái lưỡng nan cho người vượt qua: họ phải giao tranh (và có nguy cơ bị quét) hoặc rút lui (và từ bỏ nỗ lực vượt qua)"
   ],
   "commonMistakes": [
     "Cố gắng wrestle up mà không kiểm soát phần thân trên, họ sẽ sprawl và đè bẹp bạn",
@@ -38,7 +38,7 @@
     "decisionTree": [
       {
         "condition": "Sử dụng Mục 1 (underhook)",
-        "action": "từ chỗ Seated Guard, đập mạnh vào underhook ở một bên. Mặt khác của bạn trụ trên tấm thảm. Khi bạn đứng, underhook ngăn họ sprawl rơi xuống. Kết thúc bằng đòn khóa một chân hoặc khóa thân"
+        "action": "từ chỗ Seated Guard, pummeling mạnh vào underhook ở một bên. Mặt khác của bạn trụ trên tấm thảm. Khi bạn đứng, underhook ngăn họ sprawl rơi xuống. Kết thúc bằng đòn khóa một chân hoặc khóa thân"
       },
       {
         "condition": "Sử dụng Mục 2 (Shin-to-Shin)",

@@ -1,9 +1,19 @@
 {
   "id": "hand-fighting-position",
-  "locale": "fr",
-  "title": "Hand fighting",
   "category": "standing",
   "status": "neutral",
+  "relatedSkillIds": [
+    "hand-fighting",
+    "snapdown-front-headlock",
+    "front-headlock-defense"
+  ],
+  "relatedConceptIds": [
+    "inside-position",
+    "pummeling",
+    "head-position"
+  ],
+  "locale": "fr",
+  "title": "Hand fighting",
   "description": "Une bataille de mains et de position de tête pour entrer en underhook, collar tie, snapdown, single leg ou Guard pull.",
   "topPlayerGoals": [
     "Le joueur du dessus veut contrôler Hand fighting avec la position de tête, la position intérieure et une pression orientée.",
@@ -42,15 +52,5 @@
     "Le coude se sépare des côtes ou du genou.",
     "La ligne des hanches est verrouillée pendant que la ligne des épaules est encore tirée.",
     "Vous devez poser une main loin pour éviter de tomber."
-  ],
-  "relatedSkillIds": [
-    "hand-fighting",
-    "snapdown-front-headlock",
-    "front-headlock-defense"
-  ],
-  "relatedConceptIds": [
-    "inside-position",
-    "pummeling",
-    "head-position"
   ]
 }

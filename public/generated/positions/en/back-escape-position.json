@@ -1,9 +1,19 @@
 {
   "id": "back-escape-position",
-  "locale": "en",
-  "title": "Back Escape Position",
   "category": "back",
   "status": "dangerous",
+  "relatedSkillIds": [
+    "back-escape",
+    "back-control",
+    "mount-control"
+  ],
+  "relatedConceptIds": [
+    "early-vs-late-defense",
+    "hooks",
+    "hip-line-shoulder-line"
+  ],
+  "locale": "en",
+  "title": "Back Escape Position",
   "description": "The defender is escaping back control through hand fighting, shoulder-to-mat positioning, and hook clearing.",
   "topPlayerGoals": [
     "The top player wants to control Back Escape Position through head position, inside position, and directed pressure.",
@@ -42,15 +52,5 @@
     "The elbow separates from the ribs or knee.",
     "The hip line is locked while the shoulder line is still being pulled.",
     "You need a long hand post to avoid falling."
-  ],
-  "relatedSkillIds": [
-    "back-escape",
-    "back-control",
-    "mount-control"
-  ],
-  "relatedConceptIds": [
-    "early-vs-late-defense",
-    "hooks",
-    "hip-line-shoulder-line"
   ]
 }

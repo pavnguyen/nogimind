@@ -1,0 +1,15 @@
+{
+  "id": "x-guard-position",
+  "category": "bottom_guard",
+  "status": "neutral",
+  "relatedSkillIds": [
+    "x-guard-control",
+    "single-leg-x-control",
+    "k-guard-matrix"
+  ],
+  "relatedConceptIds": [
+    "hooks",
+    "levers",
+    "base-balance"
+  ]
+}

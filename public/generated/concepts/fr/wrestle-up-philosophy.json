@@ -1,7 +1,5 @@
 {
   "id": "wrestle-up-philosophy",
-  "locale": "fr",
-  "title": "Philosophie wrestle-up",
   "category": "offensive",
   "level": "intermediate",
   "tags": [
@@ -9,17 +7,9 @@
     "single leg",
     "Guard offense"
   ],
-  "shortDefinition": "Le wrestle-up transforme la garde défensive en course contrôlée vers top.",
-  "whyItMatters": "En no-gi, se lever ou capter jambe force passer à respecter menace.",
-  "deepExplanation": "Wrestle-up n’est pas scramble aléatoire. Il demande head position, menton sûr, underhook/wrist control, hanches sous épaules et branches contre sprawl.",
-  "beginnerView": "Se lever quand tête haute et mains contrôlent.",
-  "advancedView": "Utiliser wrestle-up pour connecter garde, lutte, passing et mat returns.",
-  "ifThenExamples": [],
-  "commonMisunderstandings": [],
-  "trainingCues": [],
   "relatedSkillIds": [
-    "half-Guard-wrestle-up",
-    "seated-Guard-retention",
+    "half-guard-wrestle-up",
+    "seated-guard-retention",
     "single-leg-bjj",
     "technical-stand-up"
   ],
@@ -27,5 +17,15 @@
     "head-position",
     "base-balance",
     "failure-response"
-  ]
+  ],
+  "locale": "fr",
+  "title": "Philosophie wrestle-up",
+  "shortDefinition": "Le wrestle-up transforme la garde défensive en course contrôlée vers top.",
+  "whyItMatters": "En no-gi, se lever ou capter jambe force passer à respecter menace.",
+  "deepExplanation": "Wrestle-up n’est pas scramble aléatoire. Il demande head position, menton sûr, underhook/wrist control, hanches sous épaules et branches contre sprawl.",
+  "beginnerView": "Se lever quand tête haute et mains contrôlent.",
+  "advancedView": "Utiliser wrestle-up pour connecter garde, lutte, passing et mat returns.",
+  "ifThenExamples": [],
+  "commonMisunderstandings": [],
+  "trainingCues": []
 }

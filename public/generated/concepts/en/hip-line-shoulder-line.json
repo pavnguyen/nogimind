@@ -1,7 +1,5 @@
 {
   "id": "hip-line-shoulder-line",
-  "locale": "en",
-  "title": "Hip Line vs Shoulder Line",
   "category": "positional",
   "level": "intermediate",
   "tags": [
@@ -9,16 +7,8 @@
     "shoulder line",
     "pin"
   ],
-  "shortDefinition": "Hip line and shoulder line are the two rotation axes that decide passes, pins, escapes, and back exposure.",
-  "whyItMatters": "You can clear the legs but still fail to pin if shoulder line remains free.",
-  "deepExplanation": "Passing often begins with hip-line control, but pinning requires separating or locking shoulder line. Escapes reverse it: recover shoulder angle, then bring hip line back to Guard.",
-  "beginnerView": "Ask: can they still rotate shoulders or hips?",
-  "advancedView": "Separate the two lines to create dilemmas: saving hips exposes shoulders, saving shoulders loses hips.",
-  "ifThenExamples": [],
-  "commonMisunderstandings": [],
-  "trainingCues": [],
   "relatedSkillIds": [
-    "bodylock-passing",
+    "bodylock-pass",
     "side-control-pin",
     "back-control",
     "leg-drag-basics"
@@ -27,5 +17,15 @@
     "positional-hierarchy",
     "angle-creation",
     "pressure-direction"
-  ]
+  ],
+  "locale": "en",
+  "title": "Hip Line vs Shoulder Line",
+  "shortDefinition": "Hip line and shoulder line are the two rotation axes that decide passes, pins, escapes, and back exposure.",
+  "whyItMatters": "You can clear the legs but still fail to pin if shoulder line remains free.",
+  "deepExplanation": "Passing often begins with hip-line control, but pinning requires separating or locking shoulder line. Escapes reverse it: recover shoulder angle, then bring hip line back to Guard.",
+  "beginnerView": "Ask: can they still rotate shoulders or hips?",
+  "advancedView": "Separate the two lines to create dilemmas: saving hips exposes shoulders, saving shoulders loses hips.",
+  "ifThenExamples": [],
+  "commonMisunderstandings": [],
+  "trainingCues": []
 }

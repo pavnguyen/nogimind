@@ -1,9 +1,20 @@
 {
   "id": "claw-ride-position",
-  "locale": "en",
-  "title": "Claw Ride",
   "category": "back",
   "status": "advantage",
+  "relatedSkillIds": [
+    "claw-ride",
+    "turtle-ride",
+    "back-control",
+    "cross-wrist-ride"
+  ],
+  "relatedConceptIds": [
+    "ride-vs-pin-vs-submission",
+    "hooks",
+    "connection-before-control"
+  ],
+  "locale": "en",
+  "title": "Claw Ride",
   "description": "A ride combining deep underhook, head control, and hip pressure from turtle to expose the back or mat return.",
   "topPlayerGoals": [
     "The top player wants to control Claw Ride through head position, inside position, and directed pressure.",
@@ -42,16 +53,5 @@
     "The elbow separates from the ribs or knee.",
     "The hip line is locked while the shoulder line is still being pulled.",
     "You need a long hand post to avoid falling."
-  ],
-  "relatedSkillIds": [
-    "claw-ride",
-    "turtle-ride",
-    "back-control",
-    "cross-wrist-ride"
-  ],
-  "relatedConceptIds": [
-    "ride-vs-pin-vs-submission",
-    "hooks",
-    "connection-before-control"
   ]
 }

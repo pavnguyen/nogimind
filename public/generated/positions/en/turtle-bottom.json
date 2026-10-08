@@ -1,9 +1,19 @@
 {
   "id": "turtle-bottom",
-  "locale": "en",
-  "title": "Turtle Bottom",
   "category": "turtle",
   "status": "defensive",
+  "relatedSkillIds": [
+    "turtle-ride",
+    "back-escape",
+    "scramble-control"
+  ],
+  "relatedConceptIds": [
+    "early-vs-late-defense",
+    "posts",
+    "positional-hierarchy"
+  ],
+  "locale": "en",
+  "title": "Turtle Bottom",
   "description": "The bottom player in turtle must protect the neck, wrists, and back exposure while rebuilding a base.",
   "topPlayerGoals": [
     "The top player wants to control Turtle Bottom through head position, inside position, and directed pressure.",
@@ -42,15 +52,5 @@
     "The elbow separates from the ribs or knee.",
     "The hip line is locked while the shoulder line is still being pulled.",
     "You need a long hand post to avoid falling."
-  ],
-  "relatedSkillIds": [
-    "turtle-ride",
-    "back-escape",
-    "scramble-control"
-  ],
-  "relatedConceptIds": [
-    "early-vs-late-defense",
-    "posts",
-    "positional-hierarchy"
   ]
 }

@@ -1,9 +1,19 @@
 {
   "id": "mount-bottom",
-  "locale": "en",
-  "title": "Mount Bottom",
   "category": "pin",
   "status": "critical",
+  "relatedSkillIds": [
+    "mount-survival",
+    "mount-escape",
+    "half-guard-knee-shield"
+  ],
+  "relatedConceptIds": [
+    "early-vs-late-defense",
+    "elbow-knee-connection",
+    "frames"
+  ],
+  "locale": "en",
+  "title": "Mount Bottom",
   "description": "The bottom player is mounted and must protect the neck and arms while recovering the elbow-knee connection before high Mount develops.",
   "topPlayerGoals": [
     "The top player wants to control Mount Bottom through head position, inside position, and directed pressure.",
@@ -42,15 +52,5 @@
     "The elbow separates from the ribs or knee.",
     "The hip line is locked while the shoulder line is still being pulled.",
     "You need a long hand post to avoid falling."
-  ],
-  "relatedSkillIds": [
-    "mount-survival",
-    "mount-escape",
-    "half-guard-knee-shield"
-  ],
-  "relatedConceptIds": [
-    "early-vs-late-defense",
-    "elbow-knee-connection",
-    "frames"
   ]
 }

@@ -1,9 +1,19 @@
 {
   "id": "single-leg-x",
-  "locale": "fr",
-  "title": "Single Leg X",
   "category": "leg_entanglement",
   "status": "neutral",
+  "relatedSkillIds": [
+    "single-leg-x-basics",
+    "straight-ankle-lock-safety",
+    "technical-stand-up"
+  ],
+  "relatedConceptIds": [
+    "knee-line",
+    "hooks",
+    "leg-lock-safety-hierarchy"
+  ],
+  "locale": "fr",
+  "title": "Single Leg X",
   "description": "Le joueur en garde contrôle une jambe et la ligne des hanches pour sweeper, se relever ou entrer en ashi.",
   "topPlayerGoals": [
     "Le joueur du dessus veut contrôler Single Leg X avec la position de tête, la position intérieure et une pression orientée.",
@@ -42,15 +52,5 @@
     "Le coude se sépare des côtes ou du genou.",
     "La ligne des hanches est verrouillée pendant que la ligne des épaules est encore tirée.",
     "Vous devez poser une main loin pour éviter de tomber."
-  ],
-  "relatedSkillIds": [
-    "single-leg-x-basics",
-    "straight-ankle-lock-safety",
-    "technical-stand-up"
-  ],
-  "relatedConceptIds": [
-    "knee-line",
-    "hooks",
-    "leg-lock-safety-hierarchy"
   ]
 }

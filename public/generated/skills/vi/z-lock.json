@@ -76,7 +76,7 @@
   "searchBoost": 0.85,
   "keyCorrections": [
     "Nếu bạn không thể hoàn thành, bẫy chân của bạn quá lỏng - hãy kéo chân họ chặt hơn vào hông bạn.",
-    "Nếu chúng lăn, hãy làm theo chuyển động xoay hông của chúng, nhả khóa và tấn công lại từ Saddle.",
+    "Nếu họ lăn, hãy làm theo chuyển động xoay hông của họ, nhả khóa và tấn công lại từ Saddle.",
     "Nếu bạn cảm thấy lực cản ở đầu gối của họ, hãy giải phóng áp lực - đừng ép họ xoay."
   ],
   "version": 1,
@@ -125,7 +125,7 @@
     "decisionTree": [
       {
         "condition": "Ứng dụng chung",
-        "action": "Chuỗi khóa Z có Saddle: nếu chúng lăn để thoát khỏi khóa Z, hãy nhập Saddle."
+        "action": "Chuỗi khóa Z có Saddle: nếu họ lăn để thoát khỏi khóa Z, hãy nhập Saddle."
       },
       {
         "condition": "họ phòng thủ bằng cách xếp chồng",

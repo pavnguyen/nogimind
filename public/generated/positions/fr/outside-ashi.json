@@ -1,9 +1,19 @@
 {
   "id": "outside-ashi",
-  "locale": "fr",
-  "title": "Outside ashi",
   "category": "leg_entanglement",
   "status": "dangerous",
+  "relatedSkillIds": [
+    "straight-ankle-lock-safety",
+    "heel-hook-safety",
+    "leg-lock-safety-basics"
+  ],
+  "relatedConceptIds": [
+    "knee-line",
+    "leg-lock-safety-hierarchy",
+    "early-vs-late-defense"
+  ],
+  "locale": "fr",
+  "title": "Outside ashi",
   "description": "Un entanglement de jambe avec la jambe à l’extérieur de la ligne des hanches, lié au Straight Ankle Lock et à l’exposition du talon.",
   "topPlayerGoals": [
     "Le joueur du dessus veut contrôler Outside ashi avec la position de tête, la position intérieure et une pression orientée.",
@@ -42,15 +52,5 @@
     "Le coude se sépare des côtes ou du genou.",
     "La ligne des hanches est verrouillée pendant que la ligne des épaules est encore tirée.",
     "Vous devez poser une main loin pour éviter de tomber."
-  ],
-  "relatedSkillIds": [
-    "straight-ankle-lock-safety",
-    "heel-hook-safety",
-    "leg-lock-safety-basics"
-  ],
-  "relatedConceptIds": [
-    "knee-line",
-    "leg-lock-safety-hierarchy",
-    "early-vs-late-defense"
   ]
 }

@@ -1,9 +1,20 @@
 {
   "id": "reverse-de-la-riva-guard",
-  "locale": "en",
-  "title": "Reverse De La Riva Guard",
   "category": "bottom_guard",
   "status": "defensive",
+  "relatedSkillIds": [
+    "reverse-de-la-riva-transitions",
+    "single-leg-x-control",
+    "kimura-system",
+    "guard-pulling-strategy"
+  ],
+  "relatedConceptIds": [
+    "hooks",
+    "angle-creation",
+    "hip-line-shoulder-line"
+  ],
+  "locale": "en",
+  "title": "Reverse De La Riva Guard",
   "description": "RDLR uses an outside thigh hook and hip rotation to create angle, sweep, or transition to other guards.",
   "topPlayerGoals": [
     "The top player wants to control Reverse De La Riva Guard through head position, inside position, and directed pressure.",
@@ -42,16 +53,5 @@
     "The elbow separates from the ribs or knee.",
     "The hip line is locked while the shoulder line is still being pulled.",
     "You need a long hand post to avoid falling."
-  ],
-  "relatedSkillIds": [
-    "reverse-de-la-riva-transitions",
-    "single-leg-x-control",
-    "kimura-system",
-    "guard-pulling-strategy"
-  ],
-  "relatedConceptIds": [
-    "hooks",
-    "angle-creation",
-    "hip-line-shoulder-line"
   ]
 }

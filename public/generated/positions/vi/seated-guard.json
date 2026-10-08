@@ -1,9 +1,19 @@
 {
   "id": "seated-guard",
-  "locale": "vi",
-  "title": "Seated Guard",
   "category": "bottom_guard",
   "status": "defensive",
+  "relatedSkillIds": [
+    "seated-guard-retention",
+    "shin-to-shin-entry",
+    "technical-stand-up"
+  ],
+  "relatedConceptIds": [
+    "guard-retention-layers",
+    "hooks",
+    "posts"
+  ],
+  "locale": "vi",
+  "title": "Seated Guard",
   "description": "Người Guard ngồi dùng shin frames, hand fighting và đe dọa wrestle-up hoặc Guard entry.",
   "topPlayerGoals": [
     "Người ở trên muốn kiểm soát Seated Guard bằng vị trí đầu, vị trí trong và áp lực có hướng.",
@@ -42,15 +52,5 @@
     "Khuỷu tay tách khỏi sườn hoặc đầu gối.",
     "Đường hông bị khóa trong khi đường vai vẫn đang bị kéo.",
     "Bạn phải chống tay dài để không ngã."
-  ],
-  "relatedSkillIds": [
-    "seated-guard-retention",
-    "shin-to-shin-entry",
-    "technical-stand-up"
-  ],
-  "relatedConceptIds": [
-    "guard-retention-layers",
-    "hooks",
-    "posts"
   ]
 }

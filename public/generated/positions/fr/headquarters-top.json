@@ -1,9 +1,19 @@
 {
   "id": "headquarters-top",
-  "locale": "fr",
-  "title": "Headquarters dessus",
   "category": "top_control",
   "status": "advantage",
+  "relatedSkillIds": [
+    "headquarters-passing",
+    "knee-cut-passing",
+    "leg-drag-basics"
+  ],
+  "relatedConceptIds": [
+    "dilemma-attacks",
+    "hip-line-shoulder-line",
+    "inside-position"
+  ],
+  "locale": "fr",
+  "title": "Headquarters dessus",
   "description": "Le joueur du dessus est en headquarters avec une jambe du joueur en garde fixée et plusieurs lignes de passage disponibles.",
   "topPlayerGoals": [
     "Le joueur du dessus veut contrôler Headquarters dessus avec la position de tête, la position intérieure et une pression orientée.",
@@ -42,15 +52,5 @@
     "Le coude se sépare des côtes ou du genou.",
     "La ligne des hanches est verrouillée pendant que la ligne des épaules est encore tirée.",
     "Vous devez poser une main loin pour éviter de tomber."
-  ],
-  "relatedSkillIds": [
-    "headquarters-passing",
-    "knee-cut-passing",
-    "leg-drag-basics"
-  ],
-  "relatedConceptIds": [
-    "dilemma-attacks",
-    "hip-line-shoulder-line",
-    "inside-position"
   ]
 }

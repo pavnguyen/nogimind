@@ -1,9 +1,20 @@
 {
   "id": "north-south",
-  "locale": "en",
-  "title": "North South",
   "category": "pin",
   "status": "dominant",
+  "relatedSkillIds": [
+    "north-south-control",
+    "side-control-pin",
+    "rear-naked-choke-system",
+    "kimura-system"
+  ],
+  "relatedConceptIds": [
+    "pressure-direction",
+    "connection-before-control",
+    "control-before-submission"
+  ],
+  "locale": "en",
+  "title": "North South",
   "description": "The top player lies reverse from the head side, controlling chest-to-chest or chest-to-back with shoulder pressure.",
   "topPlayerGoals": [
     "The top player wants to control North South through head position, inside position, and directed pressure.",
@@ -42,16 +53,5 @@
     "The elbow separates from the ribs or knee.",
     "The hip line is locked while the shoulder line is still being pulled.",
     "You need a long hand post to avoid falling."
-  ],
-  "relatedSkillIds": [
-    "north-south-control",
-    "side-control-pin",
-    "rear-naked-choke-system",
-    "kimura-system"
-  ],
-  "relatedConceptIds": [
-    "pressure-direction",
-    "connection-before-control",
-    "control-before-submission"
   ]
 }

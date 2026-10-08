@@ -52,7 +52,7 @@
   "searchBoost": 1,
   "keyCorrections": [
     "Nếu đối phương đứng dậy và làm gãy móc: lập tức móc lại bằng cách bước vào trong thế đứng của họ và đặt móc câu trở lại",
-    "Nếu chúng quá khỏe để gập lại: xen kẽ giữa kéo hông và dùng tay đẩy đầu chúng",
+    "Nếu họ quá khỏe để gập lại: xen kẽ giữa kéo hông và dùng tay đẩy đầu họ",
     "Nếu mất một móc: giữ lại móc còn lại và gắn lại móc thứ hai trước khi tiến lên"
   ],
   "version": 1,
@@ -86,7 +86,7 @@
     "Gót chân để mông, bóp",
     "Hông chạm vào ngực, kéo",
     "Đưa tay đi từng bước một",
-    "Gấp chúng về phía trước để lộ mặt sau"
+    "Gấp họ về phía trước để lộ mặt sau"
   ],
   "safetySummary": [
     "Móc đầu gối nên được đặt phía sau đầu gối, không phải ở phía sau khớp gối - áp lực trực tiếp lên khớp gối có thể gây ra tình trạng hạ huyết áp",
@@ -102,15 +102,15 @@
       },
       {
         "condition": "Ở Giai đoạn 2 (Tư thế thu gọn)",
-        "action": "kéo hông của họ về phía ngực của bạn bằng móc đầu gối trong khi đưa tay bạn đưa tay lên cột sống của họ. Mỗi vị trí đặt tay nên tiến về phía sau cổ của họ. Khi tay bạn leo lên, tư thế của chúng sẽ gập về phía trước"
+        "action": "kéo hông của họ về phía ngực của bạn bằng móc đầu gối trong khi đưa tay bạn đưa tay lên cột sống của họ. Mỗi vị trí đặt tay nên tiến về phía sau cổ của họ. Khi tay bạn leo lên, tư thế của họ sẽ gập về phía trước"
       },
       {
         "condition": "Trong Giai đoạn 3 (Quay lại an toàn)",
-        "action": "sau khi chúng được gập về phía trước, hãy nhả một móc và thay thế bằng thân kẹp Triangle hoặc seatbelt truyền thống. Trượt đầu gối của bạn vào đường hông của họ và cố định đầy đủ back control"
+        "action": "sau khi họ được gập về phía trước, hãy nhả một móc và thay thế bằng thân kẹp Triangle hoặc seatbelt truyền thống. Trượt đầu gối của bạn vào đường hông của họ và cố định đầy đủ back control"
       },
       {
         "condition": "họ chống cự bằng cách ngả người ra sau",
-        "action": "thả một móc câu ra, đặt chân lên cơ mông của chúng và đẩy chúng về phía trước. Điều này tạo ra nếp gấp về phía trước mà bạn cần"
+        "action": "thả một móc câu ra, đặt chân lên cơ mông của họ và đẩy họ về phía trước. Điều này tạo ra nếp gấp về phía trước mà bạn cần"
       }
     ],
     "exitStrategies": []
@@ -121,8 +121,8 @@
     "Đòn bắt cua đặc biệt hiệu quả trước những đối thủ to lớn hơn vì nó sử dụng đòn bẩy (móc đầu gối) thay vì sức mạnh phần thân trên"
   ],
   "fixItFast": [
-    "Nếu chúng đứng dậy bỏ chạy: thả lưỡi câu, đuổi theo và đứng câu lại.",
+    "Nếu họ đứng dậy bỏ chạy: thả lưỡi câu, đuổi theo và đứng câu lại.",
     "Nếu họ biến thành bạn: thả móc và chuyển sang Front Headlock hoặc khóa cơ thể",
-    "Nếu chúng ngồi sát vào bạn: hãy giữ móc, siết chặt và kéo chúng nằm ngửa"
+    "Nếu họ ngồi sát vào bạn: hãy giữ móc, siết chặt và kéo họ nằm ngửa"
   ]
 }

@@ -1,7 +1,5 @@
 {
   "id": "connection-before-control",
-  "locale": "fr",
-  "title": "Connexion avant contrôle",
   "category": "mechanical",
   "level": "fundamental",
   "tags": [
@@ -9,6 +7,19 @@
     "pressure",
     "control"
   ],
+  "relatedSkillIds": [
+    "bodylock-pass",
+    "back-control",
+    "side-control-pin",
+    "arm-triangle-mount"
+  ],
+  "relatedConceptIds": [
+    "pressure-direction",
+    "control-before-submission",
+    "hooks"
+  ],
+  "locale": "fr",
+  "title": "Connexion avant contrôle",
   "shortDefinition": "Il faut connecter les bons points du corps avant de tenir ou diriger.",
   "whyItMatters": "Sans connexion, la pression est juste force; l’adversaire tourne, frame ou sort angle.",
   "deepExplanation": "La connexion est chest-to-back, chest-to-hip, coude-genou, tête-côtes ou grip-hanche. Elle transmet force par structure et poids, pas biceps.",
@@ -16,16 +27,5 @@
   "advancedView": "Changer connexion selon phase: pass, pin, soumission et rétention ont des ancres différentes.",
   "ifThenExamples": [],
   "commonMisunderstandings": [],
-  "trainingCues": [],
-  "relatedSkillIds": [
-    "bodylock-passing",
-    "back-control",
-    "side-control-pin",
-    "arm-triangle-Mount"
-  ],
-  "relatedConceptIds": [
-    "pressure-direction",
-    "control-before-submission",
-    "hooks"
-  ]
+  "trainingCues": []
 }

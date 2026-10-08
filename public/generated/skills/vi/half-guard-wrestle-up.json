@@ -44,7 +44,7 @@
   "nextSkillIds": [],
   "searchBoost": 1,
   "keyCorrections": [
-    "Nếu họ đè bẹp bạn trong cuộc vật lộn: bạn thua underhook, hãy đánh lại trước khi thử lại",
+    "Nếu họ đè bẹp bạn trong cuộc vật: bạn thua underhook, hãy đánh lại trước khi thử lại",
     "Nếu bạn không thể tìm thấy nhánh đơn: họ đã đăng lại nhánh, chuyển sang Front Headlock bằng cách sử dụng underhook",
     "Nếu họ Guillotine bạn: đầu bạn quá cao, hãy giữ trán bạn sát hàm họ khi bạn đứng"
   ],
@@ -63,9 +63,9 @@
   "locale": "vi",
   "description": "Biến Half Guard từ phòng thủ thành một chân khi bạn thắng underhook hoặc góc hông. Cuộc đấu vật là bước chuyển tiếp tấn công có giá trị cao nhất từ ​​Half Guard, nó chuyển một thế phòng thủ thành một cơ hội hạ gục.",
   "shortInstruction": "Giành chiến thắng underhook, tạo một góc hông, đặt chân bên ngoài của bạn và lái về một chặng. Nếu họ chống lại chặng đơn, hãy tiến tới Front Headlock.",
-  "summary": "Cuộc vật lộn Half Guard biến Half Guard từ chốt phòng thủ thành một đòn tấn công hạ gục. Trình tự như sau: thắng underhook → quay mặt về phía họ → đặt chân ngoài → đánh một chặng. Cuộc vật lộn có hiệu quả vì nó bắt được đối thủ trong quá trình chuyển đổi giữa chuyền và ghim - họ không hoàn toàn cam kết với cả hai điều đó, khiến họ dễ bị tổn thương khi đứng lên đột ngột.",
+  "summary": "Cuộc vật Half Guard biến Half Guard từ chốt phòng thủ thành một đòn tấn công hạ gục. Trình tự như sau: thắng underhook → quay mặt về phía họ → đặt chân ngoài → đánh một chặng. Cuộc vật có hiệu quả vì nó bắt được đối thủ trong quá trình chuyển đổi giữa chuyền và ghim - họ không hoàn toàn cam kết với cả hai điều đó, khiến họ dễ bị tổn thương khi đứng lên đột ngột.",
   "whyItWorks": [
-    "underhook giúp bạn kiểm soát phần thân trên, chúng không thể crossface hoặc làm phẳng bạn khi bạn đứng",
+    "underhook giúp bạn kiểm soát phần thân trên, họ không thể crossface hoặc làm phẳng bạn khi bạn đứng",
     "Tạo một góc hông (quay mặt về phía họ) giúp căn chỉnh cơ thể của bạn để đứng lên - bạn lái xe về phía trước chứ không phải sang ngang",
     "Mục tiêu một lượt của Half Guard thật bất ngờ - hầu hết các đối thủ đều mong đợi một cú quét chứ không phải một cú hạ gục",
     "Một cuộc đấu vật thất bại thường đặt lại trạng thái trung lập thay vì khiến bạn rơi vào tình thế tồi tệ hơn"
@@ -77,7 +77,7 @@
     "Từ bỏ cuộc đấu vật quá sớm - hãy cam kết đứng lên nếu không bạn sẽ bị mắc kẹt ở giữa"
   ],
   "coachingCues": [
-    "underhook đầu tiên, vật lộn thứ hai",
+    "underhook đầu tiên, vật thứ hai",
     "Tạo góc, đăng chân",
     "Ở thấp, lái xe đến chân",
     "Cam kết hoặc không bắt đầu"
@@ -96,7 +96,7 @@
       },
       {
         "condition": "Ở Giai đoạn 2 (Góc hông)",
-        "action": "lối thoát hông để tạo khoảng trống 6-8 inch. Xoay hông của bạn để đối mặt với chúng một góc 45 độ"
+        "action": "lối thoát hông để tạo khoảng trống 6-8 inch. Xoay hông của bạn để đối mặt với họ một góc 45 độ"
       },
       {
         "condition": "Ở Giai đoạn 3 (Đứng)",
@@ -108,7 +108,7 @@
       },
       {
         "condition": "một chân thất bại",
-        "action": "chuyển sang Front Headlock bằng tay cầm underhook của bạn để kéo chúng xuống"
+        "action": "chuyển sang Front Headlock bằng tay cầm underhook của bạn để kéo họ xuống"
       }
     ],
     "exitStrategies": []
@@ -116,10 +116,10 @@
   "moneyDetails": [
     "Trận đấu vật Half Guard là chuyển đổi có giá trị cao nhất từ ​​Half Guard, nó ghi được 2 điểm hạ gục và đưa bạn lên vị trí dẫn đầu",
     "Việc thành thạo môn đấu vật mang lại cho bạn tùy chọn thứ ba từ Half Guard (quét, khuất phục hoặc đấu vật)",
-    "Cuộc vật lộn đặc biệt hiệu quả đối với những người vượt qua áp lực dồn trọng lượng về phía trước"
+    "Cuộc vật đặc biệt hiệu quả đối với những người vượt qua áp lực dồn trọng lượng về phía trước"
   ],
   "fixItFast": [
-    "Nếu họ dồn sức về phía trước: hãy sử dụng đà của họ - vật lộn theo hướng họ đang đẩy",
+    "Nếu họ dồn sức về phía trước: hãy sử dụng đà của họ - vật theo hướng họ đang đẩy",
     "Nếu họ lùi lại: hãy đứng lên hoàn toàn và tham gia lại từ vị trí trung lập",
     "Nếu họ chuyển sang đường chuyền cắt đầu gối: đánh lại underhook và thoát hông để tạo khoảng trống"
   ]

@@ -1,0 +1,15 @@
+{
+  "id": "crab-ride-position",
+  "category": "back",
+  "status": "advantage",
+  "relatedSkillIds": [
+    "crab-ride",
+    "wrist-ride-back-exposure",
+    "back-control"
+  ],
+  "relatedConceptIds": [
+    "hooks",
+    "positional-hierarchy",
+    "connection-before-control"
+  ]
+}

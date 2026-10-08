@@ -1,9 +1,19 @@
 {
   "id": "side-control-top",
-  "locale": "vi",
-  "title": "Side Control Trên",
   "category": "pin",
   "status": "dominant",
+  "relatedSkillIds": [
+    "side-control-pin",
+    "side-control-escape",
+    "arm-triangle-mount"
+  ],
+  "relatedConceptIds": [
+    "pressure-direction",
+    "elbow-knee-connection",
+    "control-before-submission"
+  ],
+  "locale": "vi",
+  "title": "Side Control Trên",
   "description": "Người ở trên giữ Side Control bằng crossface, underhook, hip block và shoulder pressure.",
   "topPlayerGoals": [
     "Người ở trên muốn kiểm soát Side Control Trên bằng vị trí đầu, vị trí trong và áp lực có hướng.",
@@ -42,15 +52,5 @@
     "Khuỷu tay tách khỏi sườn hoặc đầu gối.",
     "Đường hông bị khóa trong khi đường vai vẫn đang bị kéo.",
     "Bạn phải chống tay dài để không ngã."
-  ],
-  "relatedSkillIds": [
-    "side-control-pin",
-    "side-control-escape",
-    "arm-triangle-mount"
-  ],
-  "relatedConceptIds": [
-    "pressure-direction",
-    "elbow-knee-connection",
-    "control-before-submission"
   ]
 }

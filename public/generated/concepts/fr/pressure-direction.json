@@ -1,7 +1,5 @@
 {
   "id": "pressure-direction",
-  "locale": "fr",
-  "title": "Direction de pression",
   "category": "mechanical",
   "level": "intermediate",
   "tags": [
@@ -9,6 +7,19 @@
     "direction",
     "pin"
   ],
+  "relatedSkillIds": [
+    "bodylock-pass",
+    "side-control-pin",
+    "mount-control",
+    "arm-triangle-mount"
+  ],
+  "relatedConceptIds": [
+    "connection-before-control",
+    "wedges",
+    "hip-line-shoulder-line"
+  ],
+  "locale": "fr",
+  "title": "Direction de pression",
   "shortDefinition": "La pression efficace a direction: diagonale, far hip, shoulder line ou hip line.",
   "whyItMatters": "Pression droite aide frame/hip escape; diagonale fait perdre direction.",
   "deepExplanation": "Direction pression relie tête, sternum, pelvis, genoux et orteils. Sans alignement, vous êtes lourd sans contrôler.",
@@ -16,16 +27,5 @@
   "advancedView": "Changer direction pression pour rendre frames mauvais, puis passer/pin.",
   "ifThenExamples": [],
   "commonMisunderstandings": [],
-  "trainingCues": [],
-  "relatedSkillIds": [
-    "bodylock-passing",
-    "side-control-pin",
-    "Mount-control",
-    "arm-triangle-Mount"
-  ],
-  "relatedConceptIds": [
-    "connection-before-control",
-    "wedges",
-    "hip-line-shoulder-line"
-  ]
+  "trainingCues": []
 }

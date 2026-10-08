@@ -1,9 +1,19 @@
 {
   "id": "scramble-neutral",
-  "locale": "vi",
-  "title": "Scramble Trung lập",
   "category": "scramble",
   "status": "neutral",
+  "relatedSkillIds": [
+    "scramble-control",
+    "sprawl-go-behind",
+    "mat-return-basics"
+  ],
+  "relatedConceptIds": [
+    "positional-hierarchy",
+    "failure-response",
+    "base-balance"
+  ],
+  "locale": "vi",
+  "title": "Scramble Trung lập",
   "description": "Khoảnh khắc chuyển tiếp khi chưa ai kiểm soát rõ; ưu tiên là đầu, hông, vị trí trong và an toàn.",
   "topPlayerGoals": [
     "Người ở trên muốn kiểm soát Scramble Trung lập bằng vị trí đầu, vị trí trong và áp lực có hướng.",
@@ -42,15 +52,5 @@
     "Khuỷu tay tách khỏi sườn hoặc đầu gối.",
     "Đường hông bị khóa trong khi đường vai vẫn đang bị kéo.",
     "Bạn phải chống tay dài để không ngã."
-  ],
-  "relatedSkillIds": [
-    "scramble-control",
-    "sprawl-go-behind",
-    "mat-return-basics"
-  ],
-  "relatedConceptIds": [
-    "positional-hierarchy",
-    "failure-response",
-    "base-balance"
   ]
 }

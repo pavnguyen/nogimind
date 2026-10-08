@@ -1,9 +1,19 @@
 {
   "id": "x-guard-position",
-  "locale": "en",
-  "title": "X-Guard",
   "category": "bottom_guard",
   "status": "neutral",
+  "relatedSkillIds": [
+    "x-guard-control",
+    "single-leg-x-control",
+    "k-guard-matrix"
+  ],
+  "relatedConceptIds": [
+    "hooks",
+    "levers",
+    "base-balance"
+  ],
+  "locale": "en",
+  "title": "X-Guard",
   "description": "X-Guard uses foot on hip and leg wrap to off-balance and sweep from bottom, controlling the passer hip line.",
   "topPlayerGoals": [
     "The top player wants to control X-Guard through head position, inside position, and directed pressure.",
@@ -42,15 +52,5 @@
     "The elbow separates from the ribs or knee.",
     "The hip line is locked while the shoulder line is still being pulled.",
     "You need a long hand post to avoid falling."
-  ],
-  "relatedSkillIds": [
-    "x-guard-control",
-    "single-leg-x-control",
-    "k-guard-matrix"
-  ],
-  "relatedConceptIds": [
-    "hooks",
-    "levers",
-    "base-balance"
   ]
 }

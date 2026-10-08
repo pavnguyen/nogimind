@@ -1,7 +1,5 @@
 {
   "id": "elbow-knee-connection",
-  "locale": "fr",
-  "title": "Connexion coude-genou",
   "category": "defensive",
   "level": "fundamental",
   "tags": [
@@ -9,6 +7,19 @@
     "escape",
     "Guard retention"
   ],
+  "relatedSkillIds": [
+    "side-control-escape",
+    "mount-escape",
+    "seated-guard-retention",
+    "back-escape"
+  ],
+  "relatedConceptIds": [
+    "frames",
+    "guard-retention-layers",
+    "early-vs-late-defense"
+  ],
+  "locale": "fr",
+  "title": "Connexion coude-genou",
   "shortDefinition": "La connexion coude-genou ferme l’espace entre haut du corps et hip line pour prévenir pin/pass.",
   "whyItMatters": "Quand coude quitte genou, adversaire insère poitrine, genou, hook ou isolation bras.",
   "deepExplanation": "Principe vital en Side Control, Mount, retention et back escape. Il reconstruit une couche avant shrimp, bridge ou wrestle-up.",
@@ -16,16 +27,5 @@
   "advancedView": "Utiliser coude-genou pour attirer pression puis underhook, turtle ou recover Guard.",
   "ifThenExamples": [],
   "commonMisunderstandings": [],
-  "trainingCues": [],
-  "relatedSkillIds": [
-    "side-control-escape",
-    "Mount-escape",
-    "seated-Guard-retention",
-    "back-escape"
-  ],
-  "relatedConceptIds": [
-    "frames",
-    "Guard-retention-layers",
-    "early-vs-late-defense"
-  ]
+  "trainingCues": []
 }

@@ -1,9 +1,19 @@
 {
   "id": "supine-guard",
-  "locale": "fr",
-  "title": "Garde sur le dos",
   "category": "bottom_guard",
   "status": "defensive",
+  "relatedSkillIds": [
+    "supine-guard-retention",
+    "seated-guard-retention",
+    "k-guard-entry"
+  ],
+  "relatedConceptIds": [
+    "guard-retention-layers",
+    "inside-position",
+    "wedges"
+  ],
+  "locale": "fr",
+  "title": "Garde sur le dos",
   "description": "Le joueur en garde est sur le dos et utilise les pieds, les genoux, les cadres et l’angle des hanches pour empêcher le passage chest-to-chest.",
   "topPlayerGoals": [
     "Le joueur du dessus veut contrôler Garde sur le dos avec la position de tête, la position intérieure et une pression orientée.",
@@ -42,15 +52,5 @@
     "Le coude se sépare des côtes ou du genou.",
     "La ligne des hanches est verrouillée pendant que la ligne des épaules est encore tirée.",
     "Vous devez poser une main loin pour éviter de tomber."
-  ],
-  "relatedSkillIds": [
-    "supine-guard-retention",
-    "seated-guard-retention",
-    "k-guard-entry"
-  ],
-  "relatedConceptIds": [
-    "guard-retention-layers",
-    "inside-position",
-    "wedges"
   ]
 }

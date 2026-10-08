@@ -1,9 +1,19 @@
 {
   "id": "neutral-standing",
-  "locale": "en",
-  "title": "Neutral Standing",
   "category": "standing",
   "status": "neutral",
+  "relatedSkillIds": [
+    "hand-fighting",
+    "single-leg-bjj",
+    "guard-pulling-strategy"
+  ],
+  "relatedConceptIds": [
+    "base-balance",
+    "head-position",
+    "inside-position"
+  ],
+  "locale": "en",
+  "title": "Neutral Standing",
   "description": "Both players are standing, and neither has clearly won the grip, head position, or attacking angle.",
   "topPlayerGoals": [
     "The top player wants to control Neutral Standing through head position, inside position, and directed pressure.",
@@ -42,15 +52,5 @@
     "The elbow separates from the ribs or knee.",
     "The hip line is locked while the shoulder line is still being pulled.",
     "You need a long hand post to avoid falling."
-  ],
-  "relatedSkillIds": [
-    "hand-fighting",
-    "single-leg-bjj",
-    "guard-pulling-strategy"
-  ],
-  "relatedConceptIds": [
-    "base-balance",
-    "head-position",
-    "inside-position"
   ]
 }

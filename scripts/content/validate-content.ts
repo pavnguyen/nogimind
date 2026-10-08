@@ -126,7 +126,37 @@ function checkDuplicateVideoIds(
   }
 
   return { issues, reusedIds }
-}// ── Content quality thresholds ──────────────────────────────────────────────
+}// ── No-gi source filter ─────────────────────────────────────────────────────
+
+/**
+ * The app is no-gi: a video whose title or channel only makes sense with the gi
+ * (kimono, lapel, gi grips, ...) does not belong in videos.json. This detector
+ * is deliberately conservative so it stays useful: a title that also says
+ * "no gi" is treated as mixed (informational) rather than a warning.
+ */
+const GI_MARKERS = [
+  'kimono', 'judogi', 'dogi', 'lapel', 'gi grip', 'gi-grip', 'gi choke',
+  'gi pants', 'gi top', 'with the gi', 'in the gi', 'gi bjj', 'ibjjf gi',
+  'sleeve grip', 'gi division',
+]
+
+const MIXED_RE = /(?:gi)\s*(?:&|and|\+|,)\s*(?:no[- ]?gi|nogi)|(?:no[- ]?gi|nogi)\s*(?:&|and|\+|,)\s*gi/
+const NOGI_RE = /no[- ]?gi|nogi/
+
+function detectGiSource(title: string, channel: string): { markers: string[]; mixed: boolean } {
+  const text = `${title} ${channel}`.toLowerCase()
+  const mixed = MIXED_RE.test(text)
+  // Remove no-gi and "gi and ..." phrases before looking for a bare "gi" token
+  const stripped = text.replace(/no[- ]?gi|nogi/g, ' ').replace(/gi\s*(?:&|and|\+|,)/g, ' ')
+  const markers: string[] = []
+  for (const marker of GI_MARKERS) {
+    if (stripped.includes(marker)) markers.push(marker)
+  }
+  if (/\bgi\b/.test(stripped)) markers.push('gi')
+  return { markers: [...new Set(markers)], mixed }
+}
+
+// ── Content quality thresholds ──────────────────────────────────────────────
 
 const MIN_CONTENT_THRESHOLDS: Record<string, { min: number; severity: 'error' | 'warning'; label: string }> = {
   description: { min: 20, severity: 'error', label: 'content.en.json.description' },
@@ -193,6 +223,7 @@ async function main() {
   const allIssues: ValidationIssue[] = []
   let missingEnContent = 0
   const allVideoIds: VideoMapping[] = []
+  let mixedGiVideos = 0
 
   for (const { domain, id } of skills) {
     const skillPath = getSkillContentPath(domain, id)
@@ -248,12 +279,24 @@ async function main() {
           if (v && typeof v === 'object') {
             const entry = v as Record<string, unknown>
             if (typeof entry.youtubeId === 'string') {
-              allVideoIds.push({
-                skillId: id,
-                youtubeId: entry.youtubeId,
-                title: typeof entry.title === 'string' ? entry.title : '',
-                channel: typeof entry.channel === 'string' ? entry.channel : '',
-              })
+              const title = typeof entry.title === 'string' ? entry.title : ''
+              const channel = typeof entry.channel === 'string' ? entry.channel : ''
+              allVideoIds.push({ skillId: id, youtubeId: entry.youtubeId, title, channel })
+
+              // No-gi source filter: flag gi/kimono-only videos.
+              const source = detectGiSource(title, channel)
+              if (source.markers.length > 0) {
+                if (source.mixed) {
+                  mixedGiVideos++
+                } else {
+                  allIssues.push({
+                    type: 'warning',
+                    skill: id,
+                    field: `videos.json[${i}]`,
+                    message: `Possible gi or kimono video (${source.markers.join(', ')}): "${title}" [${channel}]. Prefer a no-gi source.`,
+                  })
+                }
+              }
             }
           }
         }
@@ -280,6 +323,8 @@ async function main() {
   console.log(`  Warnings:       ${warnings.length}`)
   if (missingEnContent > 0) console.log(`  Missing EN:     ${missingEnContent}`)
   console.log(`  Reused videos:  ${duplicateVideoResult.reusedIds} (same video on several skills, informational)`)
+  if (mixedGiVideos > 0) console.log(`  Mixed gi/nogi:  ${mixedGiVideos} (titles covering both, informational)`)
+  console.log(`  No-gi check:    ${allVideoIds.length} videos scanned for gi/kimono sources`)
 
   if (errors.length > 0) {
     console.log('\n❌ Errors:')

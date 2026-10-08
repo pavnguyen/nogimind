@@ -1,9 +1,20 @@
 {
   "id": "cross-wrist-ride-position",
-  "locale": "fr",
-  "title": "Cross-wrist ride",
   "category": "back",
   "status": "advantage",
+  "relatedSkillIds": [
+    "cross-wrist-ride",
+    "turtle-ride",
+    "back-control",
+    "crab-ride"
+  ],
+  "relatedConceptIds": [
+    "ride-vs-pin-vs-submission",
+    "hooks",
+    "connection-before-control"
+  ],
+  "locale": "fr",
+  "title": "Cross-wrist ride",
   "description": "Un ride depuis turtle/side où l’attaquant contrôle les deux poignets, étirant les bras de l’adversaire pour exposer le dos.",
   "topPlayerGoals": [
     "Le joueur du dessus veut contrôler Cross-wrist ride avec la position de tête, la position intérieure et une pression orientée.",
@@ -42,16 +53,5 @@
     "Le coude se sépare des côtes ou du genou.",
     "La ligne des hanches est verrouillée pendant que la ligne des épaules est encore tirée.",
     "Vous devez poser une main loin pour éviter de tomber."
-  ],
-  "relatedSkillIds": [
-    "cross-wrist-ride",
-    "turtle-ride",
-    "back-control",
-    "crab-ride"
-  ],
-  "relatedConceptIds": [
-    "ride-vs-pin-vs-submission",
-    "hooks",
-    "connection-before-control"
   ]
 }

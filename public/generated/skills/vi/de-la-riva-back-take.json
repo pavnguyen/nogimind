@@ -62,17 +62,17 @@
   },
   "locale": "vi",
   "description": "Sử dụng móc DLR và điều khiển hông xa để quay về phía sau khi đối thủ bảo vệ cú quét bằng cách đăng bài hoặc lùi lại.",
-  "shortInstruction": "Móc DLR sâu, kiểm soát hông xa, xoay theo chúng - Đòn trả lại DLR là giải thưởng cao nhất từ ​​open Guard.",
-  "summary": "Việc lấy lại DLR là phần thưởng có tỷ lệ phần trăm cao nhất từ ​​De La Riva Guard. Khi bạn cố gắng quét DLR (làm mất thăng bằng về phía trước), nhiều đối thủ sẽ phản ứng bằng cách đưa tay hoặc lùi lại để tránh đòn quét. Phản ứng này tạo ra chính xác không gian và góc mà bạn cần để quay theo chúng và lấy lại phần lưng. DLR quay lại biến một cú quét thất bại thành một vị trí thống trị.",
+  "shortInstruction": "Móc DLR sâu, kiểm soát hông xa, xoay theo họ - Đòn trả lại DLR là giải thưởng cao nhất từ ​​open Guard.",
+  "summary": "Việc lấy lại DLR là phần thưởng có tỷ lệ phần trăm cao nhất từ ​​De La Riva Guard. Khi bạn cố gắng quét DLR (làm mất thăng bằng về phía trước), nhiều đối thủ sẽ phản ứng bằng cách đưa tay hoặc lùi lại để tránh đòn quét. Phản ứng này tạo ra chính xác không gian và góc mà bạn cần để quay theo họ và lấy lại phần lưng. DLR quay lại biến một cú quét thất bại thành một vị trí thống trị.",
   "whyItWorks": [
     "Khi họ đăng bài để bảo vệ sweep, cánh tay của họ đã bị ràng buộc và không thể sử dụng để chặn vòng quay của bạn.",
     "Móc DLR giữ cho chân của họ được kiểm soát trong khi bạn quay, họ không thể bước ra khỏi Back Take.",
-    "Kiểm soát hông xa cung cấp cho bạn điểm xoay để xoay - bạn xoay quanh tâm của chúng.",
+    "Kiểm soát hông xa cung cấp cho bạn điểm xoay để xoay - bạn xoay quanh tâm của họ.",
     "Nguyên tắc Danaher: quét và lùi tạo thành một tình thế tiến thoái lưỡng nan - phòng thủ quét, thua sau; phòng thủ phía sau, mất khả năng quét."
   ],
   "commonMistakes": [
     "Quay vòng trước khi họ đăng bài - bạn cần phản ứng của họ để tạo khoảng trống.",
-    "Mất móc DLR trong khi quay - móc giữ chúng gần nhau khi bạn xoay.",
+    "Mất móc DLR trong khi quay - móc giữ họ gần nhau khi bạn xoay.",
     "Không kiểm soát được phần hông xa của họ - họ sẽ lao ra và đối mặt với bạn.",
     "Xoay sai hướng - vòng quay phía sau nằm ở dưới họ chứ không phải xung quanh họ."
   ],
@@ -84,7 +84,7 @@
   ],
   "safetySummary": [
     "Giữ đầu của bạn được bảo vệ trong quá trình quay - đầu của bạn phải ở dưới nách họ chứ không phải ở hông họ.",
-    "Không quay nếu chúng có chuôi trên cổ hoặc đầu của bạn - trước tiên hãy tháo chuôi.",
+    "Không quay nếu họ có chuôi trên cổ hoặc đầu của bạn - trước tiên hãy tháo chuôi.",
     "Khi tiếp đất bằng lưng, hãy bảo vệ lưng của bạn không tiếp đất một cách vụng về trên chân họ."
   ],
   "systemLogic": {

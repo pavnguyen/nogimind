@@ -1,9 +1,19 @@
 {
   "id": "k-guard-position",
-  "locale": "en",
-  "title": "K-Guard",
   "category": "bottom_guard",
   "status": "neutral",
+  "relatedSkillIds": [
+    "k-guard-matrix",
+    "false-reap-entry",
+    "saddle-inside-sankaku-control"
+  ],
+  "relatedConceptIds": [
+    "knee-line",
+    "leg-lock-safety-hierarchy",
+    "hooks"
+  ],
+  "locale": "en",
+  "title": "K-Guard",
   "description": "K-Guard controls one of the opponent legs with a shin frame and foot hook, creating angles into matrix, leg locks, or back takes.",
   "topPlayerGoals": [
     "The top player wants to control K-Guard through head position, inside position, and directed pressure.",
@@ -42,15 +52,5 @@
     "The elbow separates from the ribs or knee.",
     "The hip line is locked while the shoulder line is still being pulled.",
     "You need a long hand post to avoid falling."
-  ],
-  "relatedSkillIds": [
-    "k-guard-matrix",
-    "false-reap-entry",
-    "saddle-inside-sankaku-control"
-  ],
-  "relatedConceptIds": [
-    "knee-line",
-    "leg-lock-safety-hierarchy",
-    "hooks"
   ]
 }

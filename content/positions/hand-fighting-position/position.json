@@ -1,0 +1,15 @@
+{
+  "id": "hand-fighting-position",
+  "category": "standing",
+  "status": "neutral",
+  "relatedSkillIds": [
+    "hand-fighting",
+    "snapdown-front-headlock",
+    "front-headlock-defense"
+  ],
+  "relatedConceptIds": [
+    "inside-position",
+    "pummeling",
+    "head-position"
+  ]
+}

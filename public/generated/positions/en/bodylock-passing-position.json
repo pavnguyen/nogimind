@@ -1,9 +1,19 @@
 {
   "id": "bodylock-passing-position",
-  "locale": "en",
-  "title": "Body Lock Passing Position",
   "category": "top_control",
   "status": "advantage",
+  "relatedSkillIds": [
+    "bodylock-pass",
+    "seated-guard-retention",
+    "half-guard-wrestle-up"
+  ],
+  "relatedConceptIds": [
+    "connection-before-control",
+    "pressure-direction",
+    "inside-position"
+  ],
+  "locale": "en",
+  "title": "Body Lock Passing Position",
   "description": "The top player locks low around the Guard player’s hips with chest-to-hip connection to clear the knee line.",
   "topPlayerGoals": [
     "The top player wants to control Body Lock Passing Position through head position, inside position, and directed pressure.",
@@ -30,7 +40,7 @@
       "action": "Clear the knee line and stabilize Side Control",
       "nextPositionId": "side-control-top",
       "relatedSkillIds": [
-        "bodylock-passing",
+        "bodylock-pass",
         "seated-guard-retention",
         "half-guard-wrestle-up"
       ],
@@ -42,15 +52,5 @@
     "The elbow separates from the ribs or knee.",
     "The hip line is locked while the shoulder line is still being pulled.",
     "You need a long hand post to avoid falling."
-  ],
-  "relatedSkillIds": [
-    "bodylock-passing",
-    "seated-guard-retention",
-    "half-guard-wrestle-up"
-  ],
-  "relatedConceptIds": [
-    "connection-before-control",
-    "pressure-direction",
-    "inside-position"
   ]
 }

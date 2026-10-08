@@ -168,6 +168,11 @@ title from the id.
   broken-video report flow intact.
 - Check availability with `npm run validate:videos` and replace dead references.
   Every skill keeps at least one playable video.
+- `npm run validate:content` also scans every `videos.json` for gi/kimono-only
+  sources (kimono, lapel, gi grips, a bare `gi` token, ...) and reports a warning
+  for each. Titles that cover both gi and no-gi are counted as informational, not
+  warnings. Keep the warning count at zero: if a real gi video slips in, replace
+  it with the no-gi version.
 
 ## 6. Positions and concepts
 
@@ -190,10 +195,15 @@ title from the id.
   a key. `npm run audit:vi` reports VI gaps.
 - Skill content: EN is authoritative, VI and FR must exist.
 - Vietnamese must read naturally, not word-for-word from English. Keep standard
-  BJJ loanwords (Heel Hook, Kimono-free terms, tap, sweep, guard, Mount, Side
-  Control), but write grammar and verbs in Vietnamese. Avoid strings like
-  `Hide heel`, `Clear secondary leg`, `Partner đã khóa heel` or
-  `Thẳng ankle lock`: they are machine translation, not Vietnamese.
+  BJJ loanwords (Heel Hook, tap, sweep, guard, Mount, Side Control), but write
+  grammar and verbs in Vietnamese. Avoid strings like `Hide heel`,
+  `Clear secondary leg`, `Partner đã khóa heel` or a translated technique name:
+  they are machine translation, not Vietnamese.
+- Known machine-translation corrections already applied across the content, so
+  do not reintroduce them: `trốn thoát` becomes `thoát`, `vật lộn` becomes `vật`,
+  `khung hình` becomes `khung`, `lưu giữ` becomes `giữ`, `đòn đánh` becomes
+  `pummeling`, `nêm` becomes `wedge`, `băng ghế` becomes `bench press`, and the
+  dehumanising `chúng` (for the opponent) becomes `họ`.
 - Never translate a technique name (section 2).
 
 ## 8. Search and filters
@@ -269,15 +279,18 @@ affected check: earlier green runs do not cover later edits.
   `Mount-top`, `closed-Guard`) silently breaks skill.json to folder matching,
   references, search URLs and video mappings. Keep ids lowercase and re-run
   `validate:content`.
-- **Generated concept/position artifacts have no `content/` source yet.**
-  `content/concepts/` and `content/positions/` do not exist in the repo, so
-  `build:content` skips them and the committed files under
-  `public/generated/concepts/` and `public/generated/positions/` are currently
-  the only source. When you must correct them (for example a lowercase id or a
-  reorder), edit the generated file directly, keep it Zod-valid, and note it in
-  the change. Do not create a partial `content/positions/` directory: it would
-  make `build:content` rebuild the manifest with only the new entries and drop
-  the rest.
+- **Position and concept order is data.** `content/positions/` and
+  `content/concepts/` each hold one folder per id (`position.json` or
+  `concept.json` plus `content.{en,vi,fr}.json`), and `build:content` regenerates
+  `public/generated/` from them. The manifest order comes from the id order in
+  `content/shared/positions.json` and `content/shared/concepts.json`, not from
+  the folder listing: add a new position or concept to its shared list as well,
+  or it lands alphabetically at the end (and the Learn tab only shows the first
+  18 positions).
+- **Dangling cross-references.** Nothing in the toolchain checks that
+  `relatedSkillIds`, `relatedConceptIds` and `nextPositionId` resolve. Verify by
+  searching for the id (case-sensitively) before trusting it; `bodylock-passing`
+  was a long-lived typo for `bodylock-pass`.
 - **Dead videos.** oEmbed 403 or 404 means private, removed or region-blocked.
   Replace the reference so the skill stays playable.
 - **Duplicate `youtubeId` noise.** Many ids are referenced by more than one skill

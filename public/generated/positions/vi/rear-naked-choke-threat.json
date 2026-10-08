@@ -1,9 +1,19 @@
 {
   "id": "rear-naked-choke-threat",
-  "locale": "vi",
-  "title": "Đe dọa Rear Naked Choke",
   "category": "submission_threat",
   "status": "critical",
+  "relatedSkillIds": [
+    "rear-naked-choke-system",
+    "back-control",
+    "back-escape"
+  ],
+  "relatedConceptIds": [
+    "control-before-submission",
+    "dilemma-attacks",
+    "early-vs-late-defense"
+  ],
+  "locale": "vi",
+  "title": "Đe dọa Rear Naked Choke",
   "description": "Attacker từ back control đang mở đường dưới cằm bằng hand fighting và kết nối chest-to-back.",
   "topPlayerGoals": [
     "Người ở trên muốn kiểm soát Đe dọa Rear Naked Choke bằng vị trí đầu, vị trí trong và áp lực có hướng.",
@@ -42,15 +52,5 @@
     "Khuỷu tay tách khỏi sườn hoặc đầu gối.",
     "Đường hông bị khóa trong khi đường vai vẫn đang bị kéo.",
     "Bạn phải chống tay dài để không ngã."
-  ],
-  "relatedSkillIds": [
-    "rear-naked-choke-system",
-    "back-control",
-    "back-escape"
-  ],
-  "relatedConceptIds": [
-    "control-before-submission",
-    "dilemma-attacks",
-    "early-vs-late-defense"
   ]
 }

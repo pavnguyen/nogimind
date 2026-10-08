@@ -1,9 +1,19 @@
 {
   "id": "turtle-top",
-  "locale": "vi",
-  "title": "Turtle Trên",
   "category": "turtle",
   "status": "advantage",
+  "relatedSkillIds": [
+    "turtle-ride",
+    "mat-return-basics",
+    "back-control"
+  ],
+  "relatedConceptIds": [
+    "hooks",
+    "posts",
+    "positional-hierarchy"
+  ],
+  "locale": "vi",
+  "title": "Turtle Trên",
   "description": "Người ở trên ride turtle, tìm kiểm soát cổ tay, áp lực hông, mat return hoặc mở lưng.",
   "topPlayerGoals": [
     "Người ở trên muốn kiểm soát Turtle Trên bằng vị trí đầu, vị trí trong và áp lực có hướng.",
@@ -42,15 +52,5 @@
     "Khuỷu tay tách khỏi sườn hoặc đầu gối.",
     "Đường hông bị khóa trong khi đường vai vẫn đang bị kéo.",
     "Bạn phải chống tay dài để không ngã."
-  ],
-  "relatedSkillIds": [
-    "turtle-ride",
-    "mat-return-basics",
-    "back-control"
-  ],
-  "relatedConceptIds": [
-    "hooks",
-    "posts",
-    "positional-hierarchy"
   ]
 }

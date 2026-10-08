@@ -1,0 +1,15 @@
+{
+  "id": "neutral-standing",
+  "category": "standing",
+  "status": "neutral",
+  "relatedSkillIds": [
+    "hand-fighting",
+    "single-leg-bjj",
+    "guard-pulling-strategy"
+  ],
+  "relatedConceptIds": [
+    "base-balance",
+    "head-position",
+    "inside-position"
+  ]
+}

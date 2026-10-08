@@ -1,7 +1,5 @@
 {
   "id": "failure-response",
-  "locale": "fr",
-  "title": "Réponse à l’échec",
   "category": "strategic",
   "level": "intermediate",
   "tags": [
@@ -9,6 +7,19 @@
     "transition",
     "branch"
   ],
+  "relatedSkillIds": [
+    "failure-response-transitions",
+    "scramble-control",
+    "bodylock-pass",
+    "front-headlock-defense"
+  ],
+  "relatedConceptIds": [
+    "dilemma-attacks",
+    "positional-hierarchy",
+    "early-vs-late-defense"
+  ],
+  "locale": "fr",
+  "title": "Réponse à l’échec",
   "shortDefinition": "Failure response est le plan quand la première technique est bloquée.",
   "whyItMatters": "Le moment d’échec fait freeze, overcommit ou expose cou/dos/jambes.",
   "deepExplanation": "Un bon système définit: inside perdu reset; turn away back; frame change angle. Échec n’est pas arrêt, c’est branche.",
@@ -16,16 +27,5 @@
   "advancedView": "Concevoir pour que le premier échec ouvre seconde option.",
   "ifThenExamples": [],
   "commonMisunderstandings": [],
-  "trainingCues": [],
-  "relatedSkillIds": [
-    "failure-response-transitions",
-    "scramble-control",
-    "bodylock-passing",
-    "front-headlock-defense"
-  ],
-  "relatedConceptIds": [
-    "dilemma-attacks",
-    "positional-hierarchy",
-    "early-vs-late-defense"
-  ]
+  "trainingCues": []
 }

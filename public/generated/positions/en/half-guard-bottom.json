@@ -1,9 +1,19 @@
 {
   "id": "half-guard-bottom",
-  "locale": "en",
-  "title": "Half Guard Bottom",
   "category": "bottom_guard",
   "status": "defensive",
+  "relatedSkillIds": [
+    "half-guard-knee-shield",
+    "half-guard-wrestle-up",
+    "side-control-escape"
+  ],
+  "relatedConceptIds": [
+    "head-position",
+    "elbow-knee-connection",
+    "wrestle-up-philosophy"
+  ],
+  "locale": "en",
+  "title": "Half Guard Bottom",
   "description": "The bottom player controls one of the top player’s legs but needs frames or an underhook to avoid being flattened.",
   "topPlayerGoals": [
     "The top player wants to control Half Guard Bottom through head position, inside position, and directed pressure.",
@@ -42,15 +52,5 @@
     "The elbow separates from the ribs or knee.",
     "The hip line is locked while the shoulder line is still being pulled.",
     "You need a long hand post to avoid falling."
-  ],
-  "relatedSkillIds": [
-    "half-guard-knee-shield",
-    "half-guard-wrestle-up",
-    "side-control-escape"
-  ],
-  "relatedConceptIds": [
-    "head-position",
-    "elbow-knee-connection",
-    "wrestle-up-philosophy"
   ]
 }

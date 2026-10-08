@@ -1,7 +1,5 @@
 {
   "id": "dilemma-attacks",
-  "locale": "fr",
-  "title": "Attaques en dilemme",
   "category": "offensive",
   "level": "advanced",
   "tags": [
@@ -9,6 +7,19 @@
     "chain",
     "submission"
   ],
+  "relatedSkillIds": [
+    "dilemmas-two-way-attacks",
+    "rear-naked-choke-system",
+    "guillotine-system",
+    "kimura-system"
+  ],
+  "relatedConceptIds": [
+    "control-before-submission",
+    "failure-response",
+    "angle-creation"
+  ],
+  "locale": "fr",
+  "title": "Attaques en dilemme",
   "shortDefinition": "Un dilemme combine plusieurs menaces: défendre une ligne expose l’autre.",
   "whyItMatters": "À haut niveau, pas de finish isolé; il faut chain selon réactions.",
   "deepExplanation": "Bon dilemme part du contrôle. En back, défendre cou expose arm trap; clear hook expose Mount. Attaque devient choix mauvais conçus.",
@@ -16,16 +27,5 @@
   "advancedView": "Créer branches où chaque défense vous garde dans meilleure hiérarchie.",
   "ifThenExamples": [],
   "commonMisunderstandings": [],
-  "trainingCues": [],
-  "relatedSkillIds": [
-    "dilemmas-two-way-attacks",
-    "rear-naked-choke-system",
-    "Guillotine-system",
-    "kimura-system"
-  ],
-  "relatedConceptIds": [
-    "control-before-submission",
-    "failure-response",
-    "angle-creation"
-  ]
+  "trainingCues": []
 }

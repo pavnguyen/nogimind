@@ -2,14 +2,14 @@
   "id": "positional-hierarchy",
   "locale": "vi",
   "name": "Hệ thống phân cấp vị trí",
-  "description": "Bản đồ ưu tiên để biết khi nào nên sống sót, trốn thoát, quét, vượt qua, ghim hoặc về đích. Hệ thống phân cấp vị trí là khung ra quyết định giúp tách biệt sự vật lộn hỗn loạn khỏi BJJ có hệ thống.",
+  "description": "Bản đồ ưu tiên để biết khi nào nên sống sót, thoát, quét, vượt qua, ghim hoặc về đích. Hệ thống phân cấp vị trí là khung ra quyết định giúp tách biệt sự vật hỗn loạn khỏi BJJ có hệ thống.",
   "shortInstruction": "Xếp hạng từ tệ nhất đến tốt nhất: chụp lưng → mounted → Side Control → đầu gối lên bụng → Guard dưới → Half Guard trên cùng → Side Control trên cùng → Mount → quay lại (bạn ở trên cùng). Luôn biết bạn đang ở đâu trên hệ thống phân cấp và mục tiêu của bạn là gì.",
-  "summary": "Hệ thống phân cấp vị trí xếp hạng các vị trí vật lộn từ dễ bị tổn thương nhất đến chiếm ưu thế nhất. Hệ thống đưa ra mục tiêu chiến thuật của bạn ở mọi vị trí: nếu bạn ở vị trí cuối bảng (tệ hơn), mục tiêu của bạn là trốn thoát. Nếu bạn đang ở vị trí hàng đầu (tốt hơn), mục tiêu của bạn là tiến lên hoặc khuất phục. Mọi quyết định bạn đưa ra phải được lọc qua hệ thống phân cấp này - đừng cố gắng đệ trình từ vị trí mà trước tiên bạn không có ưu thế về vị trí.",
+  "summary": "Hệ thống phân cấp vị trí xếp hạng các vị trí vật từ dễ bị tổn thương nhất đến chiếm ưu thế nhất. Hệ thống đưa ra mục tiêu chiến thuật của bạn ở mọi vị trí: nếu bạn ở vị trí cuối bảng (tệ hơn), mục tiêu của bạn là thoát. Nếu bạn đang ở vị trí hàng đầu (tốt hơn), mục tiêu của bạn là tiến lên hoặc khuất phục. Mọi quyết định bạn đưa ra phải được lọc qua hệ thống phân cấp này - đừng cố gắng đệ trình từ vị trí mà trước tiên bạn không có ưu thế về vị trí.",
   "whyItWorks": [
     "Hệ thống phân cấp cung cấp cho bạn mục tiêu rõ ràng tại mọi thời điểm - không có sự nhầm lẫn về việc cần làm tiếp theo",
-    "Việc cố gắng đệ trình từ các vị trí kém hơn trước các đối thủ có kỹ năng sẽ thất bại với tỷ lệ cao - hệ thống phân cấp cho bạn biết khi nào việc đệ trình là khả thi và khi nào nên ưu tiên trốn thoát",
+    "Việc cố gắng đệ trình từ các vị trí kém hơn trước các đối thủ có kỹ năng sẽ thất bại với tỷ lệ cao - hệ thống phân cấp cho bạn biết khi nào việc đệ trình là khả thi và khi nào nên ưu tiên thoát",
     "Hiểu được hệ thống phân cấp sẽ giúp bạn không lãng phí năng lượng vào các kỹ thuật có tỷ lệ phần trăm thấp từ các vị trí xấu",
-    "Hệ thống phân cấp phổ biến trong tất cả các môn thể thao vật lộn (BJJ, đấu vật, judo, MMA), đó là ngôn ngữ chung của kiểm soát vị trí"
+    "Hệ thống phân cấp phổ biến trong tất cả các môn thể thao vật (BJJ, đấu vật, judo, MMA), đó là ngôn ngữ chung của kiểm soát vị trí"
   ],
   "commonMistakes": [
     "Cố gắng gửi từ Guard dưới cùng khi bạn nên quét hoặc thoát trước",
@@ -24,12 +24,12 @@
     "Tăng một cấp luôn là một chiến thắng"
   ],
   "safetySummary": [
-    "Đừng hy sinh vị trí để có tỷ lệ phục tùng thấp - việc đảo ngược vị trí có thể gây thương tích khi cả hai người vật lộn để giành quyền kiểm soát",
+    "Đừng hy sinh vị trí để có tỷ lệ phục tùng thấp - việc đảo ngược vị trí có thể gây thương tích khi cả hai người vật để giành quyền kiểm soát",
     "Chấp nhận một vị trí tồi tệ hơn (ví dụ: từ bỏ Side Control) để cố gắng phục tùng sẽ có nguy cơ bị thương cao hơn so với giá trị trong quá trình luyện tập",
-    "Khi bạn đang ở một vị trí yếu kém rõ ràng, hãy ưu tiên thở và sống sót trước khi cố gắng trốn thoát - những cử động hoảng loạn sẽ làm tăng nguy cơ chấn thương"
+    "Khi bạn đang ở một vị trí yếu kém rõ ràng, hãy ưu tiên thở và sống sót trước khi cố gắng thoát - những cử động hoảng loạn sẽ làm tăng nguy cơ chấn thương"
   ],
   "systemLogic": {
-    "corePrinciple": "Hệ thống phân cấp vị trí xếp hạng các vị trí vật lộn từ dễ bị tổn thương nhất (bị lấy lại) đến chiếm ưu thế nhất (phục tùng). Mục tiêu chiến thuật của bạn ở mọi vị trí được xác định bởi vị trí của bạn trong hệ thống phân cấp: dưới đối thủ = thoát lên, trên đối thủ = tiến về phía trước.",
+    "corePrinciple": "Hệ thống phân cấp vị trí xếp hạng các vị trí vật từ dễ bị tổn thương nhất (bị lấy lại) đến chiếm ưu thế nhất (phục tùng). Mục tiêu chiến thuật của bạn ở mọi vị trí được xác định bởi vị trí của bạn trong hệ thống phân cấp: dưới đối thủ = thoát lên, trên đối thủ = tiến về phía trước.",
     "decisionTree": [
       {
         "condition": "Bạn đang ở dưới cùng Side Control, Mount hoặc bị quay lại",
@@ -65,7 +65,7 @@
     "Hệ thống phân cấp là lý do tại sao Gracie jiu-jitsu nhấn mạnh đến ưu thế về vị trí trước khi phục tùng - nó đã được thử nghiệm trong một thế kỷ"
   ],
   "fixItFast": [
-    "Nếu bạn đang ở tình thế tồi tệ và không biết phải làm gì: hãy kiểm tra thứ bậc. Bạn đang ở vị trí cuối cùng Side Control, mục tiêu của bạn là Side Control trốn thoát chứ không phải khuất phục",
+    "Nếu bạn đang ở tình thế tồi tệ và không biết phải làm gì: hãy kiểm tra thứ bậc. Bạn đang ở vị trí cuối cùng Side Control, mục tiêu của bạn là Side Control thoát chứ không phải khuất phục",
     "Nếu bạn có vị trí cao nhất và không thể gửi: hãy thăng cấp theo cấp bậc. Side Control → Mount → quay lại Mount tạo ra xác suất gửi cao hơn theo cấp số nhân",
     "Nếu bạn tiếp tục bị đảo ngược: bạn đang bỏ qua bước 'vị trí an toàn'. Sau khi thăng cấp, hãy dành 2-3 giây để ổn định trước khi chuyển sang cấp độ tiếp theo"
   ]

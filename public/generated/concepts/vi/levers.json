@@ -1,7 +1,5 @@
 {
   "id": "levers",
-  "locale": "vi",
-  "title": "Đòn bẩy (lever)",
   "category": "mechanical",
   "level": "intermediate",
   "tags": [
@@ -9,6 +7,19 @@
     "kimura",
     "off-balance"
   ],
+  "relatedSkillIds": [
+    "kimura-system",
+    "arm-triangle-mount",
+    "butterfly-guard-off-balance",
+    "seated-guard-retention"
+  ],
+  "relatedConceptIds": [
+    "dilemma-attacks",
+    "angle-creation",
+    "control-before-submission"
+  ],
+  "locale": "vi",
+  "title": "Đòn bẩy (lever)",
   "shortDefinition": "Đòn bẩy là cách dùng một bộ phận cơ thể của đối thủ làm điểm tựa để xoay hoặc phá vững cấu trúc của họ.",
   "whyItMatters": "Dùng đòn bẩy đúng cách giúp bạn làm đối thủ mất thăng bằng, kiểm soát tay hoặc kéo họ lệch hướng mà không cần dùng sức thô.",
   "deepExplanation": "Khuỷu tay bị tách khỏi sườn, cổ tay bị kéo qua đường giữa, đầu gối bị giữ hoặc vai bị xoay đều có thể trở thành điểm bẩy. Nhận ra những điểm này giúp bạn chọn đúng thời điểm để tấn công.",
@@ -16,16 +27,5 @@
   "advancedView": "Chủ động tạo thế lưỡng nan để buộc đối thủ để lộ điểm bẩy, thay vì chờ họ tự mắc lỗi.",
   "ifThenExamples": [],
   "commonMisunderstandings": [],
-  "trainingCues": [],
-  "relatedSkillIds": [
-    "kimura-system",
-    "arm-triangle-Mount",
-    "butterfly-Guard-off-balance",
-    "seated-Guard-retention"
-  ],
-  "relatedConceptIds": [
-    "dilemma-attacks",
-    "angle-creation",
-    "control-before-submission"
-  ]
+  "trainingCues": []
 }

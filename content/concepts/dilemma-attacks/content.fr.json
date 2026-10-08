@@ -1,0 +1,13 @@
+{
+  "id": "dilemma-attacks",
+  "locale": "fr",
+  "title": "Attaques en dilemme",
+  "shortDefinition": "Un dilemme combine plusieurs menaces: défendre une ligne expose l’autre.",
+  "whyItMatters": "À haut niveau, pas de finish isolé; il faut chain selon réactions.",
+  "deepExplanation": "Bon dilemme part du contrôle. En back, défendre cou expose arm trap; clear hook expose Mount. Attaque devient choix mauvais conçus.",
+  "beginnerView": "Préparer seconde attaque quand première bloquée.",
+  "advancedView": "Créer branches où chaque défense vous garde dans meilleure hiérarchie.",
+  "ifThenExamples": [],
+  "commonMisunderstandings": [],
+  "trainingCues": []
+}

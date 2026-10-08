@@ -1,9 +1,19 @@
 {
   "id": "crab-ride-position",
-  "locale": "en",
-  "title": "Crab Ride",
   "category": "back",
   "status": "advantage",
+  "relatedSkillIds": [
+    "crab-ride",
+    "wrist-ride-back-exposure",
+    "back-control"
+  ],
+  "relatedConceptIds": [
+    "hooks",
+    "positional-hierarchy",
+    "connection-before-control"
+  ],
+  "locale": "en",
+  "title": "Crab Ride",
   "description": "The top player rides from below or behind with hooks behind the knees, pulling the opponent hips over to expose the back.",
   "topPlayerGoals": [
     "The top player wants to control Crab Ride through head position, inside position, and directed pressure.",
@@ -42,15 +52,5 @@
     "The elbow separates from the ribs or knee.",
     "The hip line is locked while the shoulder line is still being pulled.",
     "You need a long hand post to avoid falling."
-  ],
-  "relatedSkillIds": [
-    "crab-ride",
-    "wrist-ride-back-exposure",
-    "back-control"
-  ],
-  "relatedConceptIds": [
-    "hooks",
-    "positional-hierarchy",
-    "connection-before-control"
   ]
 }

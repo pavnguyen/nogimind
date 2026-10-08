@@ -2,9 +2,9 @@
   "id": "side-control-escape",
   "locale": "vi",
   "name": "Side Control Thoát",
-  "description": "Biến khung hình thành lối thoát hông, underhook hoặc Tư thế rùa thay vì để lộ lưng một cách ngẫu nhiên.",
+  "description": "Biến khung thành lối thoát hông, underhook hoặc Tư thế rùa thay vì để lộ lưng một cách ngẫu nhiên.",
   "shortInstruction": "Khung ngang hông, đưa đầu gối gần vào, thoát hông để tạo khoảng trống và thu hồi Guard hoặc thu lưng qua underhook.",
-  "summary": "Side Control lối thoát sử dụng khung cứng ở hông để tạo thành hình nêm, sau đó thoát hông để phục hồi vị trí bên trong. Hệ thống có hai nhánh chính: phục hồi underhook (đưa lưng hoặc Guard) và phục hồi khuỷu tay đầu gối (Guard).",
+  "summary": "Side Control lối thoát sử dụng khung cứng ở hông để tạo thành hình wedge, sau đó thoát hông để phục hồi vị trí trong. Hệ thống có hai nhánh chính: phục hồi underhook (đưa lưng hoặc Guard) và phục hồi khuỷu tay đầu gối (Guard).",
   "whyItWorks": [
     "Khung cẳng tay ngang hông sử dụng cấu trúc xương chống lại cơ, ngăn đối thủ đè bẹp thân mình",
     "Hông thoát ra trước underhook tạo ra góc cần thiết để đi vào không gian bên trong",
@@ -14,7 +14,7 @@
   "commonMistakes": [
     "Đóng khung trên ngực thay vì hông - điều này khiến đối thủ đè bẹp bạn vì khung quá cao",
     "Quay lưng lại với đối thủ (để lộ lưng) thay vì lao vào họ bằng underhook",
-    "Đang cố gắng shrimp mà không tạo khung hình đầu tiên, bạn chỉ trượt mà không tạo khoảng trống",
+    "Đang cố gắng shrimp mà không tạo khung đầu tiên, bạn chỉ trượt mà không tạo khoảng trống",
     "Từ bỏ cuộc chiến underhook quá sớm và chấp nhận thế trận ngang bằng"
   ],
   "coachingCues": [
@@ -48,13 +48,13 @@
       },
       {
         "condition": "Không có underhook và khuỷu tay đầu gối",
-        "action": "Chấp nhận vị trí Tư thế rùa và sử dụng trình tự Tư thế rùa trốn thoát thay vì nằm im và hấp thụ sát thương. Tư thế rùa là một tư thế chuyển tiếp chứ không phải là một tư thế nghỉ ngơi."
+        "action": "Chấp nhận vị trí Tư thế rùa và sử dụng trình tự Tư thế rùa thoát thay vì nằm im và hấp thụ sát thương. Tư thế rùa là một tư thế chuyển tiếp chứ không phải là một tư thế nghỉ ngơi."
       }
     ],
     "exitStrategies": [
       "Nếu đối thủ chặn underhook, hãy đứng trên hông, chèn đầu gối gần của bạn ngang qua đường hông của họ và lăn tròn để phục hồi Guard.",
-      "Nếu bạn khôi phục Half Guard, hãy thiết lập ngay knee shield để ngăn chúng làm phẳng lại bạn.",
-      "Nếu cuộc trốn thoát thất bại, hãy thiết lập lại các lớp sinh tồn và đợi lần mở cửa tiếp theo - đừng ép thực hiện lần thứ hai từ vị trí bị xâm phạm."
+      "Nếu bạn khôi phục Half Guard, hãy thiết lập ngay knee shield để ngăn họ làm phẳng lại bạn.",
+      "Nếu việc thoát thất bại, hãy thiết lập lại các lớp sinh tồn và đợi lần mở cửa tiếp theo - đừng ép thực hiện lần thứ hai từ vị trí bị xâm phạm."
     ]
   },
   "moneyDetails": [

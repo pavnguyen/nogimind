@@ -1,7 +1,5 @@
 {
   "id": "hooks",
-  "locale": "vi",
-  "title": "Hooks",
   "category": "mechanical",
   "level": "fundamental",
   "tags": [
@@ -9,6 +7,19 @@
     "butterfly",
     "back control"
   ],
+  "relatedSkillIds": [
+    "butterfly-guard-off-balance",
+    "seated-guard-retention",
+    "back-control",
+    "single-leg-x-control"
+  ],
+  "relatedConceptIds": [
+    "base-balance",
+    "connection-before-control",
+    "guard-retention-layers"
+  ],
+  "locale": "vi",
+  "title": "Hooks",
   "shortDefinition": "Hook là chân hoặc bàn chân gắn vào đối thủ để nâng, kéo, giữ hip line hoặc tạo off-balance.",
   "whyItMatters": "Hooks sống làm Guard retention, butterfly, back control và single leg X hoạt động.",
   "deepExplanation": "Hook không phải chỉ đặt chân. Nó cần knee angle, instep/heel tension và hip connection. Hook chết bị smash; hook sống buộc đối thủ post hoặc adjust base.",
@@ -16,16 +27,5 @@
   "advancedView": "Dùng hook như sensor: khi họ shift weight, bạn đổi sweep, wrestle-up hoặc retention.",
   "ifThenExamples": [],
   "commonMisunderstandings": [],
-  "trainingCues": [],
-  "relatedSkillIds": [
-    "butterfly-Guard-off-balance",
-    "seated-Guard-retention",
-    "back-control",
-    "single-leg-x-control"
-  ],
-  "relatedConceptIds": [
-    "base-balance",
-    "connection-before-control",
-    "Guard-retention-layers"
-  ]
+  "trainingCues": []
 }

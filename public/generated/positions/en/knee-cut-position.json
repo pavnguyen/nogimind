@@ -1,9 +1,19 @@
 {
   "id": "knee-cut-position",
-  "locale": "en",
-  "title": "Knee Cut Position",
   "category": "top_control",
   "status": "advantage",
+  "relatedSkillIds": [
+    "knee-cut-passing",
+    "headquarters-passing",
+    "half-guard-knee-shield"
+  ],
+  "relatedConceptIds": [
+    "angle-creation",
+    "pressure-direction",
+    "hip-line-shoulder-line"
+  ],
+  "locale": "en",
+  "title": "Knee Cut Position",
   "description": "The top player cuts the knee across the thigh line while working to win the underhook or crossface and control the hip line.",
   "topPlayerGoals": [
     "The top player wants to control Knee Cut Position through head position, inside position, and directed pressure.",
@@ -42,15 +52,5 @@
     "The elbow separates from the ribs or knee.",
     "The hip line is locked while the shoulder line is still being pulled.",
     "You need a long hand post to avoid falling."
-  ],
-  "relatedSkillIds": [
-    "knee-cut-passing",
-    "headquarters-passing",
-    "half-guard-knee-shield"
-  ],
-  "relatedConceptIds": [
-    "angle-creation",
-    "pressure-direction",
-    "hip-line-shoulder-line"
   ]
 }

@@ -1,9 +1,19 @@
 {
   "id": "outside-ashi",
-  "locale": "en",
-  "title": "Outside Ashi",
   "category": "leg_entanglement",
   "status": "dangerous",
+  "relatedSkillIds": [
+    "straight-ankle-lock-safety",
+    "heel-hook-safety",
+    "leg-lock-safety-basics"
+  ],
+  "relatedConceptIds": [
+    "knee-line",
+    "leg-lock-safety-hierarchy",
+    "early-vs-late-defense"
+  ],
+  "locale": "en",
+  "title": "Outside Ashi",
   "description": "A leg entanglement with the leg outside the hip line, connected to Straight Ankle Locks and heel exposure.",
   "topPlayerGoals": [
     "The top player wants to control Outside Ashi through head position, inside position, and directed pressure.",
@@ -42,15 +52,5 @@
     "The elbow separates from the ribs or knee.",
     "The hip line is locked while the shoulder line is still being pulled.",
     "You need a long hand post to avoid falling."
-  ],
-  "relatedSkillIds": [
-    "straight-ankle-lock-safety",
-    "heel-hook-safety",
-    "leg-lock-safety-basics"
-  ],
-  "relatedConceptIds": [
-    "knee-line",
-    "leg-lock-safety-hierarchy",
-    "early-vs-late-defense"
   ]
 }

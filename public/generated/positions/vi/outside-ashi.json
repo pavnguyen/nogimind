@@ -1,9 +1,19 @@
 {
   "id": "outside-ashi",
-  "locale": "vi",
-  "title": "Outside Ashi",
   "category": "leg_entanglement",
   "status": "dangerous",
+  "relatedSkillIds": [
+    "straight-ankle-lock-safety",
+    "heel-hook-safety",
+    "leg-lock-safety-basics"
+  ],
+  "relatedConceptIds": [
+    "knee-line",
+    "leg-lock-safety-hierarchy",
+    "early-vs-late-defense"
+  ],
+  "locale": "vi",
+  "title": "Outside Ashi",
   "description": "Leg entanglement với chân nằm ngoài hip line, liên quan Straight Ankle Lock và nguy cơ lộ gót.",
   "topPlayerGoals": [
     "Người ở trên muốn kiểm soát Outside Ashi bằng vị trí đầu, vị trí trong và áp lực có hướng.",
@@ -42,15 +52,5 @@
     "Khuỷu tay tách khỏi sườn hoặc đầu gối.",
     "Đường hông bị khóa trong khi đường vai vẫn đang bị kéo.",
     "Bạn phải chống tay dài để không ngã."
-  ],
-  "relatedSkillIds": [
-    "straight-ankle-lock-safety",
-    "heel-hook-safety",
-    "leg-lock-safety-basics"
-  ],
-  "relatedConceptIds": [
-    "knee-line",
-    "leg-lock-safety-hierarchy",
-    "early-vs-late-defense"
   ]
 }

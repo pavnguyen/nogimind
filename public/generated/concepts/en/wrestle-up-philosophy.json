@@ -1,7 +1,5 @@
 {
   "id": "wrestle-up-philosophy",
-  "locale": "en",
-  "title": "Wrestle-Up Philosophy",
   "category": "offensive",
   "level": "intermediate",
   "tags": [
@@ -9,17 +7,9 @@
     "single leg",
     "Guard offense"
   ],
-  "shortDefinition": "Wrestle-up turns Guard from a defensive position into a controlled race to come on top.",
-  "whyItMatters": "In no-gi, standing up or collecting a leg forces passers to respect threats instead of only passing.",
-  "deepExplanation": "Wrestle-up is not random scrambling. It needs head position, safe chin, underhook or wrist control, hips under shoulders, and branches if sprawled on.",
-  "beginnerView": "Stand when the head is high and hands have control.",
-  "advancedView": "Use wrestle-up to connect Guard, wrestling, passing, and mat returns.",
-  "ifThenExamples": [],
-  "commonMisunderstandings": [],
-  "trainingCues": [],
   "relatedSkillIds": [
-    "half-Guard-wrestle-up",
-    "seated-Guard-retention",
+    "half-guard-wrestle-up",
+    "seated-guard-retention",
     "single-leg-bjj",
     "technical-stand-up"
   ],
@@ -27,5 +17,15 @@
     "head-position",
     "base-balance",
     "failure-response"
-  ]
+  ],
+  "locale": "en",
+  "title": "Wrestle-Up Philosophy",
+  "shortDefinition": "Wrestle-up turns Guard from a defensive position into a controlled race to come on top.",
+  "whyItMatters": "In no-gi, standing up or collecting a leg forces passers to respect threats instead of only passing.",
+  "deepExplanation": "Wrestle-up is not random scrambling. It needs head position, safe chin, underhook or wrist control, hips under shoulders, and branches if sprawled on.",
+  "beginnerView": "Stand when the head is high and hands have control.",
+  "advancedView": "Use wrestle-up to connect Guard, wrestling, passing, and mat returns.",
+  "ifThenExamples": [],
+  "commonMisunderstandings": [],
+  "trainingCues": []
 }

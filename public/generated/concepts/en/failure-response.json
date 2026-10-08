@@ -1,7 +1,5 @@
 {
   "id": "failure-response",
-  "locale": "en",
-  "title": "Failure Response",
   "category": "strategic",
   "level": "intermediate",
   "tags": [
@@ -9,6 +7,19 @@
     "transition",
     "branch"
   ],
+  "relatedSkillIds": [
+    "failure-response-transitions",
+    "scramble-control",
+    "bodylock-pass",
+    "front-headlock-defense"
+  ],
+  "relatedConceptIds": [
+    "dilemma-attacks",
+    "positional-hierarchy",
+    "early-vs-late-defense"
+  ],
+  "locale": "en",
+  "title": "Failure Response",
   "shortDefinition": "Failure response is the plan for the moment the first technique is blocked.",
   "whyItMatters": "The failure moment is where many people freeze, overcommit, or expose neck, back, or legs.",
   "deepExplanation": "A good system defines: if inside position is lost, reset; if they turn away, take back; if they frame, change angle. Failure is not stopping; it is branching.",
@@ -16,16 +27,5 @@
   "advancedView": "Design techniques so the first failure opens the second option.",
   "ifThenExamples": [],
   "commonMisunderstandings": [],
-  "trainingCues": [],
-  "relatedSkillIds": [
-    "failure-response-transitions",
-    "scramble-control",
-    "bodylock-passing",
-    "front-headlock-defense"
-  ],
-  "relatedConceptIds": [
-    "dilemma-attacks",
-    "positional-hierarchy",
-    "early-vs-late-defense"
-  ]
+  "trainingCues": []
 }

@@ -1,9 +1,21 @@
 {
   "id": "de-la-riva-guard",
-  "locale": "fr",
-  "title": "Garde De La Riva",
   "category": "bottom_guard",
   "status": "neutral",
+  "relatedSkillIds": [
+    "de-la-riva-sweeps",
+    "de-la-riva-back-take",
+    "x-guard-control",
+    "single-leg-x-control",
+    "guard-pulling-strategy"
+  ],
+  "relatedConceptIds": [
+    "hooks",
+    "guard-retention-layers",
+    "angle-creation"
+  ],
+  "locale": "fr",
+  "title": "Garde De La Riva",
   "description": "Le gardiste utilise un hook de jambe sur la cuisse intérieure et une main sur la cheville extérieure pour déséquilibrer et balayer le passeur debout.",
   "topPlayerGoals": [
     "Le joueur du dessus veut contrôler Garde De La Riva avec la position de tête, la position intérieure et une pression orientée.",
@@ -42,17 +54,5 @@
     "Le coude se sépare des côtes ou du genou.",
     "La ligne des hanches est verrouillée pendant que la ligne des épaules est encore tirée.",
     "Vous devez poser une main loin pour éviter de tomber."
-  ],
-  "relatedSkillIds": [
-    "de-la-riva-sweeps",
-    "de-la-riva-back-take",
-    "x-guard-control",
-    "single-leg-x-control",
-    "guard-pulling-strategy"
-  ],
-  "relatedConceptIds": [
-    "hooks",
-    "guard-retention-layers",
-    "angle-creation"
   ]
 }

@@ -1,9 +1,19 @@
 {
   "id": "side-control-top",
-  "locale": "fr",
-  "title": "Side Control dessus",
   "category": "pin",
   "status": "dominant",
+  "relatedSkillIds": [
+    "side-control-pin",
+    "side-control-escape",
+    "arm-triangle-mount"
+  ],
+  "relatedConceptIds": [
+    "pressure-direction",
+    "elbow-knee-connection",
+    "control-before-submission"
+  ],
+  "locale": "fr",
+  "title": "Side Control dessus",
   "description": "Le joueur du dessus tient le Side Control avec un crossface, un underhook, un blocage des hanches et une pression d’épaule.",
   "topPlayerGoals": [
     "Le joueur du dessus veut contrôler Side Control dessus avec la position de tête, la position intérieure et une pression orientée.",
@@ -42,15 +52,5 @@
     "Le coude se sépare des côtes ou du genou.",
     "La ligne des hanches est verrouillée pendant que la ligne des épaules est encore tirée.",
     "Vous devez poser une main loin pour éviter de tomber."
-  ],
-  "relatedSkillIds": [
-    "side-control-pin",
-    "side-control-escape",
-    "arm-triangle-mount"
-  ],
-  "relatedConceptIds": [
-    "pressure-direction",
-    "elbow-knee-connection",
-    "control-before-submission"
   ]
 }

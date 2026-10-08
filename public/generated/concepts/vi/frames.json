@@ -1,7 +1,5 @@
 {
   "id": "frames",
-  "locale": "vi",
-  "title": "Khung chặn (frame)",
   "category": "mechanical",
   "level": "fundamental",
   "tags": [
@@ -13,6 +11,23 @@
     "connection",
     "space management"
   ],
+  "relatedSkillIds": [
+    "frames-pummeling",
+    "side-control-escape",
+    "mount-escape",
+    "seated-guard-retention",
+    "half-guard-knee-shield",
+    "supine-guard-retention"
+  ],
+  "relatedConceptIds": [
+    "wedges",
+    "posts",
+    "elbow-knee-connection",
+    "inside-position",
+    "guard-retention-layers"
+  ],
+  "locale": "vi",
+  "title": "Khung chặn (frame)",
   "shortDefinition": "Frame là khung chặn tạo bằng cẳng tay, ống chân, đầu gối hoặc bắp tay, giúp giữ khoảng cách mà không phải gồng tay đẩy.",
   "whyItMatters": "Dựng khung chặn đúng cách giúp bạn có khoảng trống để thở, xoay hông và giành lại đường trong. Nếu chống bằng tay duỗi thẳng, bạn dễ bị ép bẹp hoặc lộ tay cho đối thủ khóa.",
   "deepExplanation": "Có bốn kiểu khung chặn thường gặp, mỗi kiểu phù hợp với một tình huống:\n\n1. Cẳng tay tì vào ngực hoặc vai: giữ khoảng cách, thường dùng khi bị kiểm soát từ bên hoặc khi giữ Guard.\n2. Khuỷu tay tì vào hông: khung ngắn, giúp tạo góc để xoay hông hoặc đẩy gối vào.\n3. Ống chân chắn ngang: dùng trong knee shield, Half Guard hoặc để ngăn đối thủ áp sát thân.\n4. Bắp tay tì ngang ngực: khung ngắn và chắc khi bạn bị ép sát xuống thảm.\n\nKhung chặn không phải bức tường đứng yên. Hãy giữ điểm tì nối với hông hoặc vai; nếu khuỷu trượt khỏi vị trí, đối thủ có thể áp sát ngực và vô hiệu hóa khung. Một khung chặn tốt giúp bạn biết lúc nào cần giữ khoảng cách, xoay hông hoặc luồn tay vào trong.",
@@ -20,20 +35,5 @@
   "advancedView": "Khung chặn là bước đầu trong chuỗi phòng thủ: dựng khung → luồn tay hoặc gối vào trong → chuyển sang tấn công. Khung chặn chỉ cần giữ đủ lâu để bạn tạo khoảng trống, xoay hông hoặc giành lại đường trong. Nếu đối thủ đẩy vào khung, tận dụng lực đó để xoay người thoát ra. Khi họ dồn trọng lượng, chèn gối vào làm điểm tựa; nếu họ lùi lại, luồn tay vào trong để lấy vị trí.",
   "ifThenExamples": [],
   "commonMisunderstandings": [],
-  "trainingCues": [],
-  "relatedSkillIds": [
-    "frames-pummeling",
-    "side-control-escape",
-    "Mount-escape",
-    "seated-Guard-retention",
-    "half-Guard-knee-shield",
-    "supine-Guard-retention"
-  ],
-  "relatedConceptIds": [
-    "wedges",
-    "posts",
-    "elbow-knee-connection",
-    "inside-position",
-    "Guard-retention-layers"
-  ]
+  "trainingCues": []
 }

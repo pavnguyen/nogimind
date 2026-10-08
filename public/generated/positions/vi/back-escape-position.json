@@ -1,9 +1,19 @@
 {
   "id": "back-escape-position",
-  "locale": "vi",
-  "title": "Vị trí Thoát Back",
   "category": "back",
   "status": "dangerous",
+  "relatedSkillIds": [
+    "back-escape",
+    "back-control",
+    "mount-control"
+  ],
+  "relatedConceptIds": [
+    "early-vs-late-defense",
+    "hooks",
+    "hip-line-shoulder-line"
+  ],
+  "locale": "vi",
+  "title": "Vị trí Thoát Back",
   "description": "Defender đang thoát back bằng hand fighting, đưa vai xuống thảm và clear hook.",
   "topPlayerGoals": [
     "Người ở trên muốn kiểm soát Vị trí Thoát Back bằng vị trí đầu, vị trí trong và áp lực có hướng.",
@@ -42,15 +52,5 @@
     "Khuỷu tay tách khỏi sườn hoặc đầu gối.",
     "Đường hông bị khóa trong khi đường vai vẫn đang bị kéo.",
     "Bạn phải chống tay dài để không ngã."
-  ],
-  "relatedSkillIds": [
-    "back-escape",
-    "back-control",
-    "mount-control"
-  ],
-  "relatedConceptIds": [
-    "early-vs-late-defense",
-    "hooks",
-    "hip-line-shoulder-line"
   ]
 }

@@ -1,9 +1,19 @@
 {
   "id": "mount-top",
-  "locale": "en",
-  "title": "Mount Top",
   "category": "pin",
   "status": "dominant",
+  "relatedSkillIds": [
+    "mount-control",
+    "mount-escape",
+    "arm-triangle-mount"
+  ],
+  "relatedConceptIds": [
+    "control-before-submission",
+    "elbow-knee-connection",
+    "pressure-direction"
+  ],
+  "locale": "en",
+  "title": "Mount Top",
   "description": "The top player sits over the opponent’s hips or chest, separates the elbows, and opens high Mount or submissions.",
   "topPlayerGoals": [
     "The top player wants to control Mount Top through head position, inside position, and directed pressure.",
@@ -42,15 +52,5 @@
     "The elbow separates from the ribs or knee.",
     "The hip line is locked while the shoulder line is still being pulled.",
     "You need a long hand post to avoid falling."
-  ],
-  "relatedSkillIds": [
-    "mount-control",
-    "mount-escape",
-    "arm-triangle-mount"
-  ],
-  "relatedConceptIds": [
-    "control-before-submission",
-    "elbow-knee-connection",
-    "pressure-direction"
   ]
 }

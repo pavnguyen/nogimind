@@ -1,0 +1,15 @@
+{
+  "id": "turtle-bottom",
+  "category": "turtle",
+  "status": "defensive",
+  "relatedSkillIds": [
+    "turtle-ride",
+    "back-escape",
+    "scramble-control"
+  ],
+  "relatedConceptIds": [
+    "early-vs-late-defense",
+    "posts",
+    "positional-hierarchy"
+  ]
+}

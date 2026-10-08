@@ -1,9 +1,19 @@
 {
   "id": "knee-cut-position",
-  "locale": "vi",
-  "title": "Vị trí Knee Cut",
   "category": "top_control",
   "status": "advantage",
+  "relatedSkillIds": [
+    "knee-cut-passing",
+    "headquarters-passing",
+    "half-guard-knee-shield"
+  ],
+  "relatedConceptIds": [
+    "angle-creation",
+    "pressure-direction",
+    "hip-line-shoulder-line"
+  ],
+  "locale": "vi",
+  "title": "Vị trí Knee Cut",
   "description": "Người ở trên cắt gối qua đường đùi trong khi cố thắng underhook hoặc crossface và kiểm soát hip line.",
   "topPlayerGoals": [
     "Người ở trên muốn kiểm soát Vị trí Knee Cut bằng vị trí đầu, vị trí trong và áp lực có hướng.",
@@ -42,15 +52,5 @@
     "Khuỷu tay tách khỏi sườn hoặc đầu gối.",
     "Đường hông bị khóa trong khi đường vai vẫn đang bị kéo.",
     "Bạn phải chống tay dài để không ngã."
-  ],
-  "relatedSkillIds": [
-    "knee-cut-passing",
-    "headquarters-passing",
-    "half-guard-knee-shield"
-  ],
-  "relatedConceptIds": [
-    "angle-creation",
-    "pressure-direction",
-    "hip-line-shoulder-line"
   ]
 }

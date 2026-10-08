@@ -1,7 +1,5 @@
 {
   "id": "head-position",
-  "locale": "vi",
-  "title": "Vị trí đầu",
   "category": "mechanical",
   "level": "fundamental",
   "tags": [
@@ -9,6 +7,19 @@
     "neck safety",
     "wedge"
   ],
+  "relatedSkillIds": [
+    "front-headlock-defense",
+    "bodylock-pass",
+    "half-guard-wrestle-up",
+    "back-control"
+  ],
+  "relatedConceptIds": [
+    "inside-position",
+    "base-balance",
+    "pressure-direction"
+  ],
+  "locale": "vi",
+  "title": "Vị trí đầu",
   "shortDefinition": "Đầu là post, wedge, pressure source và sensor định hướng cho cả spine.",
   "whyItMatters": "Head position sai làm bạn ăn Guillotine, mất underhook, bị shoulder crunch hoặc mất pass angle.",
   "deepExplanation": "Head position quyết định vai và hông có thể đi đâu. Tai vào ribs có thể hỗ trợ wrestle-up; đầu lệch hip hỗ trợ bodylock pass; đầu cạnh đầu đối thủ giữ back control.",
@@ -16,16 +27,5 @@
   "advancedView": "Dùng đầu để cắt shoulder line hoặc hip line trước khi dùng tay.",
   "ifThenExamples": [],
   "commonMisunderstandings": [],
-  "trainingCues": [],
-  "relatedSkillIds": [
-    "front-headlock-defense",
-    "bodylock-passing",
-    "half-Guard-wrestle-up",
-    "back-control"
-  ],
-  "relatedConceptIds": [
-    "inside-position",
-    "base-balance",
-    "pressure-direction"
-  ]
+  "trainingCues": []
 }

@@ -1,9 +1,19 @@
 {
   "id": "scramble-neutral",
-  "locale": "en",
-  "title": "Scramble Neutral",
   "category": "scramble",
   "status": "neutral",
+  "relatedSkillIds": [
+    "scramble-control",
+    "sprawl-go-behind",
+    "mat-return-basics"
+  ],
+  "relatedConceptIds": [
+    "positional-hierarchy",
+    "failure-response",
+    "base-balance"
+  ],
+  "locale": "en",
+  "title": "Scramble Neutral",
   "description": "A transitional moment where neither player has clear control yet; the priorities are head position, hip control, inside position, and safety.",
   "topPlayerGoals": [
     "The top player wants to control Scramble Neutral through head position, inside position, and directed pressure.",
@@ -42,15 +52,5 @@
     "The elbow separates from the ribs or knee.",
     "The hip line is locked while the shoulder line is still being pulled.",
     "You need a long hand post to avoid falling."
-  ],
-  "relatedSkillIds": [
-    "scramble-control",
-    "sprawl-go-behind",
-    "mat-return-basics"
-  ],
-  "relatedConceptIds": [
-    "positional-hierarchy",
-    "failure-response",
-    "base-balance"
   ]
 }

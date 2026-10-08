@@ -1,9 +1,19 @@
 {
   "id": "crab-ride-position",
-  "locale": "vi",
-  "title": "Crab Ride",
   "category": "back",
   "status": "advantage",
+  "relatedSkillIds": [
+    "crab-ride",
+    "wrist-ride-back-exposure",
+    "back-control"
+  ],
+  "relatedConceptIds": [
+    "hooks",
+    "positional-hierarchy",
+    "connection-before-control"
+  ],
+  "locale": "vi",
+  "title": "Crab Ride",
   "description": "Người ở trên ride từ phía dưới/sau bằng hooks sau gối, kéo hông đối thủ qua người để lộ lưng.",
   "topPlayerGoals": [
     "Người ở trên muốn kiểm soát Crab Ride bằng vị trí đầu, vị trí trong và áp lực có hướng.",
@@ -42,15 +52,5 @@
     "Khuỷu tay tách khỏi sườn hoặc đầu gối.",
     "Đường hông bị khóa trong khi đường vai vẫn đang bị kéo.",
     "Bạn phải chống tay dài để không ngã."
-  ],
-  "relatedSkillIds": [
-    "crab-ride",
-    "wrist-ride-back-exposure",
-    "back-control"
-  ],
-  "relatedConceptIds": [
-    "hooks",
-    "positional-hierarchy",
-    "connection-before-control"
   ]
 }

@@ -1,9 +1,20 @@
 {
   "id": "knee-on-belly",
-  "locale": "vi",
-  "title": "Knee On Belly",
   "category": "top_control",
   "status": "advantage",
+  "relatedSkillIds": [
+    "knee-on-belly-control",
+    "side-control-pin",
+    "mount-control",
+    "kimura-system"
+  ],
+  "relatedConceptIds": [
+    "pressure-direction",
+    "control-before-submission",
+    "hip-line-shoulder-line"
+  ],
+  "locale": "vi",
+  "title": "Knee On Belly",
   "description": "Người ở trên đặt gối lên bụng/hông người ở dưới, tạo pressure và di chuyển nhanh để pass, Mount hoặc submission.",
   "topPlayerGoals": [
     "Người ở trên muốn kiểm soát Knee On Belly bằng vị trí đầu, vị trí trong và áp lực có hướng.",
@@ -42,16 +53,5 @@
     "Khuỷu tay tách khỏi sườn hoặc đầu gối.",
     "Đường hông bị khóa trong khi đường vai vẫn đang bị kéo.",
     "Bạn phải chống tay dài để không ngã."
-  ],
-  "relatedSkillIds": [
-    "knee-on-belly-control",
-    "side-control-pin",
-    "mount-control",
-    "kimura-system"
-  ],
-  "relatedConceptIds": [
-    "pressure-direction",
-    "control-before-submission",
-    "hip-line-shoulder-line"
   ]
 }

@@ -1,9 +1,20 @@
 {
   "id": "knee-on-belly",
-  "locale": "en",
-  "title": "Knee On Belly",
   "category": "top_control",
   "status": "advantage",
+  "relatedSkillIds": [
+    "knee-on-belly-control",
+    "side-control-pin",
+    "mount-control",
+    "kimura-system"
+  ],
+  "relatedConceptIds": [
+    "pressure-direction",
+    "control-before-submission",
+    "hip-line-shoulder-line"
+  ],
+  "locale": "en",
+  "title": "Knee On Belly",
   "description": "The top player places a knee on the opponent belly or hip, creating pressure and quick transitions to pass, Mount, or submissions.",
   "topPlayerGoals": [
     "The top player wants to control Knee On Belly through head position, inside position, and directed pressure.",
@@ -42,16 +53,5 @@
     "The elbow separates from the ribs or knee.",
     "The hip line is locked while the shoulder line is still being pulled.",
     "You need a long hand post to avoid falling."
-  ],
-  "relatedSkillIds": [
-    "knee-on-belly-control",
-    "side-control-pin",
-    "mount-control",
-    "kimura-system"
-  ],
-  "relatedConceptIds": [
-    "pressure-direction",
-    "control-before-submission",
-    "hip-line-shoulder-line"
   ]
 }

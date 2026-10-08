@@ -1,7 +1,7 @@
 {
   "id": "turtle-escape-standup",
   "locale": "vi",
-  "name": "Tư thế rùa trốn thoát để đứng lên",
+  "name": "Tư thế rùa thoát để đứng lên",
   "description": "Thoát khỏi tư thế con Tư thế rùa bằng cách tránh để lộ lưng, tạo chân đế và đứng ở tư thế trung lập.",
   "shortInstruction": "Bảo vệ cổ của bạn, trụ bằng một tay, đặt đầu gối bên dưới và đứng dậy kỹ thuật để đối mặt với đối thủ.",
   "summary": "Tư thế rùa thoát hiểm để đứng lên sử dụng trình tự đứng lên kỹ thuật để chuyển từ Tư thế rùa phòng thủ sang tư thế đứng trung lập hoặc giao tranh mà không cần lùi lại. Hệ thống ưu tiên vị trí đặt tay và thời gian đầu gối hơn là lăn nổ.",
@@ -25,7 +25,7 @@
   "safetySummary": [
     "Đừng chống cự lại cú đánh mạnh đến mức bạn có thể bị vẹo cổ hoặc bị nghẹn - thà thủng lưới và thoát ra ngoài còn hơn là bị nghẹn",
     "Nếu đối thủ có seatbelt chặt chẽ, hãy ưu tiên đánh tay trước khi cố gắng đứng lên",
-    "Granby lăn để trốn thoát Tư thế rùa có thể bị thương ở cổ nếu thực hiện mà không có sự kiểm soát đầu - hãy sử dụng tư thế đứng như một giải pháp thay thế an toàn hơn"
+    "Granby lăn để thoát Tư thế rùa có thể bị thương ở cổ nếu thực hiện mà không có sự kiểm soát đầu - hãy sử dụng tư thế đứng như một giải pháp thay thế an toàn hơn"
   ],
   "keyCorrections": [],
   "systemLogic": {
@@ -33,7 +33,7 @@
     "decisionTree": [
       {
         "condition": "Ở Bước 1 (Nhận thức)",
-        "action": "nhận biết mình đang ở thế Tư thế rùa và đối thủ ở trên. Đây là một vị trí phòng thủ - mục tiêu của bạn là trốn thoát chứ không phải ở lại"
+        "action": "nhận biết mình đang ở thế Tư thế rùa và đối thủ ở trên. Đây là một vị trí phòng thủ - mục tiêu của bạn là thoát chứ không phải ở lại"
       },
       {
         "condition": "Ở Bước 2 (Khung)",
@@ -54,7 +54,7 @@
     ]
   },
   "moneyDetails": [
-    "Tư thế rùa đứng là một kỹ năng có nguồn gốc từ đấu vật được dịch trực tiếp sang BJJ, đây là cách trốn thoát an toàn nhất và tiết kiệm năng lượng nhất của Tư thế rùa",
+    "Tư thế rùa đứng là một kỹ năng có nguồn gốc từ đấu vật được dịch trực tiếp sang BJJ, đây là cách thoát an toàn nhất và tiết kiệm năng lượng nhất của Tư thế rùa",
     "Sử dụng giá đỡ thay vì lăn từ Tư thế rùa sẽ giúp bạn không bị đè bẹp bởi những người cản sau có kinh nghiệm",
     "Một con Tư thế rùa đứng lên nhanh chóng chuyển sang cơ hội hạ gục (chân đơn, chân đôi) thay vì để thủng lưới ở vị trí cuối bảng"
   ],

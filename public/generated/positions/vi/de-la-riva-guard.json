@@ -1,9 +1,21 @@
 {
   "id": "de-la-riva-guard",
-  "locale": "vi",
-  "title": "De La Riva Guard",
   "category": "bottom_guard",
   "status": "neutral",
+  "relatedSkillIds": [
+    "de-la-riva-sweeps",
+    "de-la-riva-back-take",
+    "x-guard-control",
+    "single-leg-x-control",
+    "guard-pulling-strategy"
+  ],
+  "relatedConceptIds": [
+    "hooks",
+    "guard-retention-layers",
+    "angle-creation"
+  ],
+  "locale": "vi",
+  "title": "De La Riva Guard",
   "description": "Guard player dùng hook chân trên đùi trong và tay kéo cổ chân ngoài để off-balance và sweep passer đứng.",
   "topPlayerGoals": [
     "Người ở trên muốn kiểm soát De La Riva Guard bằng vị trí đầu, vị trí trong và áp lực có hướng.",
@@ -42,17 +54,5 @@
     "Khuỷu tay tách khỏi sườn hoặc đầu gối.",
     "Đường hông bị khóa trong khi đường vai vẫn đang bị kéo.",
     "Bạn phải chống tay dài để không ngã."
-  ],
-  "relatedSkillIds": [
-    "de-la-riva-sweeps",
-    "de-la-riva-back-take",
-    "x-guard-control",
-    "single-leg-x-control",
-    "guard-pulling-strategy"
-  ],
-  "relatedConceptIds": [
-    "hooks",
-    "guard-retention-layers",
-    "angle-creation"
   ]
 }

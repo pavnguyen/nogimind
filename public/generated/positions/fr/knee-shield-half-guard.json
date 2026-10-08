@@ -1,9 +1,19 @@
 {
   "id": "knee-shield-half-guard",
-  "locale": "fr",
-  "title": "Half Guard avec knee shield",
   "category": "bottom_guard",
   "status": "neutral",
+  "relatedSkillIds": [
+    "half-guard-knee-shield",
+    "half-guard-wrestle-up",
+    "knee-cut-passing"
+  ],
+  "relatedConceptIds": [
+    "wedges",
+    "inside-position",
+    "wrestle-up-philosophy"
+  ],
+  "locale": "fr",
+  "title": "Half Guard avec knee shield",
   "description": "Le knee shield crée un wedge entre la poitrine ou la hanche du joueur du dessus et le corps du joueur du dessous.",
   "topPlayerGoals": [
     "Le joueur du dessus veut contrôler Half Guard avec knee shield avec la position de tête, la position intérieure et une pression orientée.",
@@ -42,15 +52,5 @@
     "Le coude se sépare des côtes ou du genou.",
     "La ligne des hanches est verrouillée pendant que la ligne des épaules est encore tirée.",
     "Vous devez poser une main loin pour éviter de tomber."
-  ],
-  "relatedSkillIds": [
-    "half-guard-knee-shield",
-    "half-guard-wrestle-up",
-    "knee-cut-passing"
-  ],
-  "relatedConceptIds": [
-    "wedges",
-    "inside-position",
-    "wrestle-up-philosophy"
   ]
 }

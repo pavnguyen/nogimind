@@ -1,9 +1,19 @@
 {
   "id": "scramble-neutral",
-  "locale": "fr",
-  "title": "Scramble neutre",
   "category": "scramble",
   "status": "neutral",
+  "relatedSkillIds": [
+    "scramble-control",
+    "sprawl-go-behind",
+    "mat-return-basics"
+  ],
+  "relatedConceptIds": [
+    "positional-hierarchy",
+    "failure-response",
+    "base-balance"
+  ],
+  "locale": "fr",
+  "title": "Scramble neutre",
   "description": "Un moment de transition où aucun joueur n’a encore un contrôle clair ; les priorités sont la position de tête, le contrôle des hanches, la position intérieure et la sécurité.",
   "topPlayerGoals": [
     "Le joueur du dessus veut contrôler Scramble neutre avec la position de tête, la position intérieure et une pression orientée.",
@@ -42,15 +52,5 @@
     "Le coude se sépare des côtes ou du genou.",
     "La ligne des hanches est verrouillée pendant que la ligne des épaules est encore tirée.",
     "Vous devez poser une main loin pour éviter de tomber."
-  ],
-  "relatedSkillIds": [
-    "scramble-control",
-    "sprawl-go-behind",
-    "mat-return-basics"
-  ],
-  "relatedConceptIds": [
-    "positional-hierarchy",
-    "failure-response",
-    "base-balance"
   ]
 }

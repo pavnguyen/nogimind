@@ -2,7 +2,7 @@
   "id": "mount-control",
   "locale": "vi",
   "name": "Mount Kiểm soát",
-  "description": "Ổn định Mount bằng dây leo, kẹp đầu gối, Mount cao và đấu tay đôi để mở bài nộp. Mount là chốt có tỷ lệ phần trăm cao nhất trong BJJ, từ đây, số lần gửi rất nhiều và các lựa chọn trốn thoát của đối thủ bị hạn chế.",
+  "description": "Ổn định Mount bằng dây leo, kẹp đầu gối, Mount cao và đấu tay đôi để mở bài nộp. Mount là chốt có tỷ lệ phần trăm cao nhất trong BJJ, từ đây, số lần gửi rất nhiều và các lựa chọn thoát của đối thủ bị hạn chế.",
   "shortInstruction": "Giữ ngực thấp, kẹp đầu gối để kiểm soát hông và cố gắng cô lập cánh tay của họ phía trên đầu. Chuyển lên cao Mount (đầu gối ở nách) để kết thúc.",
   "summary": "Mount khả năng kiểm soát được duy trì thông qua các lớp tăng dần: thấp Mount (hông nặng trên hông, áp lực từ ngực đến ngực) → cao Mount (đầu gối trượt lên nách, giữ vai) → khuất phục hoặc lùi lại. Điều quan trọng là ngăn chặn việc thoát khỏi cầu và lăn bằng cách kiểm soát hông của họ bằng đầu gối của bạn và theo dõi chuyển động của họ bằng trọng lượng của bạn.",
   "whyItWorks": [
@@ -14,7 +14,7 @@
   "commonMistakes": [
     "Ngồi quá cao trong Mount, thao tác này giúp loại bỏ áp lực ở ngực và cho phép đối thủ shrimp hoặc bắc cầu",
     "Để đầu gối của bạn trượt quá xa, điều này mở ra khoảng trống cho đối phương chạy trốn tới Half Guard hoặc Side Control",
-    "Theo đuổi các bài nộp trước khi ổn định Mount - Mount lỏng lẻo khiến đối thủ có cơ hội trốn thoát trước khi bạn có thể kết thúc",
+    "Theo đuổi các bài nộp trước khi ổn định Mount - Mount lỏng lẻo khiến đối thủ có cơ hội thoát trước khi bạn có thể kết thúc",
     "Bỏ qua lối thoát nho nhỏ - đối thủ có thể móc chân và lăn bạn nếu bạn không kiểm soát được chân họ"
   ],
   "coachingCues": [
@@ -31,7 +31,7 @@
   "keyCorrections": [
     "Nếu họ tiếp tục cản trở bạn: đầu gối của bạn quá lỏng lẻo - hãy kẹp đầu gối của bạn vào hông họ và đẩy trọng lượng của bạn về phía ngực họ",
     "Nếu họ giữ shrimp đến Half Guard: bạn đang ngồi quá cao - hạ hông của bạn xuống ngang hông của họ và mở rộng phần đế của bạn",
-    "Nếu họ bẫy chân bạn để trốn thoát: hãy đập chân bạn vào bên trong ngay lập tức - đừng để họ khóa chân bạn vào giữa chân họ"
+    "Nếu họ bẫy chân bạn để thoát: hãy đập chân bạn vào bên trong ngay lập tức - đừng để họ khóa chân bạn vào giữa chân họ"
   ],
   "systemLogic": {
     "corePrinciple": "Kiểm soát Mount tiến triển qua ba giai đoạn: Thấp Mount → Cao Mount → Mục gửi bài",
@@ -42,7 +42,7 @@
       },
       {
         "condition": "Ở Giai đoạn 2 (Cao Mount)",
-        "action": "trượt đầu gối của bạn lên về phía nách khi chúng bắt cầu hoặc tạo khoảng trống. Mục tiêu là ghim vai của họ vào tấm thảm. Từ trên cao Mount, đối thủ không thể bắt cầu hiệu quả vì vai của họ bị ghim"
+        "action": "trượt đầu gối của bạn lên về phía nách khi họ bắt cầu hoặc tạo khoảng trống. Mục tiêu là ghim vai của họ vào tấm thảm. Từ trên cao Mount, đối thủ không thể bắt cầu hiệu quả vì vai của họ bị ghim"
       },
       {
         "condition": "Trong Giai đoạn 3 (Bài nộp)",
@@ -61,7 +61,7 @@
   "moneyDetails": [
     "Mount là vị trí thống trị thứ hai trong BJJ (sau back control), từ Mount, bạn có quyền truy cập vào nhiều nội dung gửi hơn bất kỳ vị trí nào khác",
     "Mount ghi được 4 điểm trong cuộc thi IBJJF, thành lập Mount thường là yếu tố quyết định trong các trận đấu sát nút",
-    "Khả năng giữ Mount trước một đối thủ điêu luyện là dấu hiệu của một vận động viên vật lộn nâng cao, hầu hết các đai trắng và xanh đều thua Mount trong vòng vài giây"
+    "Khả năng giữ Mount trước một đối thủ điêu luyện là dấu hiệu của một võ sĩ nâng cao, hầu hết các đai trắng và xanh đều thua Mount trong vòng vài giây"
   ],
   "fixItFast": [
     "Nếu họ cứng cầu và gần như lăn bạn: hãy nho chân bạn vào trong chân họ và ấn ngực bạn vào ngực họ - điều này sẽ giết chết cây cầu của họ",

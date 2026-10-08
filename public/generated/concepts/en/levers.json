@@ -1,7 +1,5 @@
 {
   "id": "levers",
-  "locale": "en",
-  "title": "Levers",
   "category": "mechanical",
   "level": "intermediate",
   "tags": [
@@ -9,6 +7,19 @@
     "kimura",
     "off-balance"
   ],
+  "relatedSkillIds": [
+    "kimura-system",
+    "arm-triangle-mount",
+    "butterfly-guard-off-balance",
+    "seated-guard-retention"
+  ],
+  "relatedConceptIds": [
+    "dilemma-attacks",
+    "angle-creation",
+    "control-before-submission"
+  ],
+  "locale": "en",
+  "title": "Levers",
   "shortDefinition": "A lever uses one segment of the opponent’s body to rotate or disrupt a larger structure.",
   "whyItMatters": "Levers let a smaller player off-balance, kimura control, or arm drag without brute strength.",
   "deepExplanation": "An elbow separated from ribs, wrist across centerline, trapped knee line, or rotated shoulder line creates a lever. Reading levers lets you attack at the right moment.",
@@ -16,16 +27,5 @@
   "advancedView": "Create levers through dilemmas instead of waiting for mistakes.",
   "ifThenExamples": [],
   "commonMisunderstandings": [],
-  "trainingCues": [],
-  "relatedSkillIds": [
-    "kimura-system",
-    "arm-triangle-Mount",
-    "butterfly-Guard-off-balance",
-    "seated-Guard-retention"
-  ],
-  "relatedConceptIds": [
-    "dilemma-attacks",
-    "angle-creation",
-    "control-before-submission"
-  ]
+  "trainingCues": []
 }

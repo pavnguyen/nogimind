@@ -1,0 +1,16 @@
+{
+  "id": "north-south",
+  "category": "pin",
+  "status": "dominant",
+  "relatedSkillIds": [
+    "north-south-control",
+    "side-control-pin",
+    "rear-naked-choke-system",
+    "kimura-system"
+  ],
+  "relatedConceptIds": [
+    "pressure-direction",
+    "connection-before-control",
+    "control-before-submission"
+  ]
+}

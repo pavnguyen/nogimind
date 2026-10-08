@@ -58,16 +58,16 @@
   "locale": "vi",
   "description": "Giữ Side Control với crossface, underhook và chặn hông thay vì chỉ nằm nặng. Chốt Side Control là vị trí cơ bản trên cùng để điều khiển đối thủ thông qua áp lực từ ngực đến ngực và chặn cấu trúc.",
   "shortInstruction": "crossface để ghim đầu, underhook để chặn hông xa và giữ cho đường hông của bạn nặng trên hông gần của họ. Đừng bao giờ để họ lấy lại underhook hoặc chèn knee shield.",
-  "summary": "Chốt Side Control được duy trì thông qua ba điểm áp lực liên kết với nhau: crossface (điều khiển hướng đầu và ngăn chúng nhìn đi chỗ khác), điều khiển underhook (ngăn chúng biến thành bạn và phục hồi Guard) và khối hông (trọng lượng hông của bạn đặt lên hông gần của chúng sẽ ngăn hông thoát ra ngoài). Hệ thống ưu tiên việc ghim cấu trúc thay vì trọng lượng nặng nề, việc căn chỉnh chính xác sẽ tạo ra áp lực mà không làm bạn kiệt sức.",
+  "summary": "Chốt Side Control được duy trì thông qua ba điểm áp lực liên kết với nhau: crossface (điều khiển hướng đầu và ngăn họ nhìn đi chỗ khác), điều khiển underhook (ngăn họ biến thành bạn và phục hồi Guard) và khối hông (trọng lượng hông của bạn đặt lên hông gần của họ sẽ ngăn hông thoát ra ngoài). Hệ thống ưu tiên việc ghim cấu trúc thay vì trọng lượng nặng nề, việc căn chỉnh chính xác sẽ tạo ra áp lực mà không làm bạn kiệt sức.",
   "whyItWorks": [
     "crossface điều khiển hướng đầu của đối phương, đầu đi đâu, cơ thể đi theo và đầu ghim vào thảm không thể bắt đầu chạy trốn",
-    "underhook chặn cơ chế trốn thoát chính của đối thủ, biến thành bạn để phục hồi Guard. Nếu không có underhook, họ phải trốn sang phía bên kia (tỷ lệ phần trăm thấp hơn)",
+    "underhook chặn cơ chế thoát chính của đối thủ, biến thành bạn để phục hồi Guard. Nếu không có underhook, họ phải trốn sang phía bên kia (tỷ lệ phần trăm thấp hơn)",
     "Trọng lượng hông của bạn dồn lên hông gần của họ ngăn cản việc thoát hông (shrimp), cách thoát Side Control phổ biến và hiệu quả nhất",
     "Áp lực từ ngực đến ngực truyền trọng lượng của bạn qua xương ức chứ không phải vai, cho phép bạn duy trì áp lực mà không làm mỏi cánh tay"
   ],
   "commonMistakes": [
     "Nằm nặng mà không hoạt động crossface hoặc underhook, đối thủ có thể shrimp ra ngoài nếu bạn chỉ 'ngồi' lên họ",
-    "Để đối thủ lấy underhook, khi họ có underhook, Side Control của bạn bị xâm phạm và họ có thể trốn thoát hoặc sweep",
+    "Để đối thủ lấy underhook, khi họ có underhook, Side Control của bạn bị xâm phạm và họ có thể thoát hoặc sweep",
     "Định hình bằng cánh tay thẳng thay vì sử dụng áp lực ở ngực - cánh tay thẳng sẽ nhanh chóng mỏi và có thể bị gục xuống",
     "Nâng hông của bạn quá cao - điều này sẽ loại bỏ trọng lượng khỏi đường hông của họ và khiến hông thoát ra ngoài"
   ],
@@ -99,7 +99,7 @@
       },
       {
         "condition": "Đối thủ phục hồi Half Guard dưới áp lực của bạn",
-        "action": "Bạn để trọng lượng hông của mình nâng lên - tái tác động vào khối hông trước khi chúng có thể đưa đầu gối vào. Hạ hông của bạn xuống thấp hơn đường hông gần của họ."
+        "action": "Bạn để trọng lượng hông của mình nâng lên - tái tác động vào khối hông trước khi họ có thể đưa đầu gối vào. Hạ hông của bạn xuống thấp hơn đường hông gần của họ."
       },
       {
         "condition": "Bạn muốn thăng tiến vị trí",

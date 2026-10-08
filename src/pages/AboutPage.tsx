@@ -57,37 +57,6 @@ export default function AboutPage() {
         </div>
       }
     >
-      {/* ── Core principles ── */}
-      <StaggerContainer className="grid gap-4 lg:grid-cols-3">
-        {pillars.map((pillar) => {
-          const Icon = pillar.icon
-          const tone = pillarTones[pillar.tone]
-          return (
-            <StaggerItem key={pillar.key}>
-              <div
-                className={cn(
-                  'group relative h-full overflow-hidden rounded-2xl border bg-slate-900/40 p-5 transition-all duration-300',
-                  tone.card,
-                )}
-              >
-                <div className={cn('pointer-events-none absolute -right-10 -top-10 h-24 w-24 rounded-full blur-2xl', tone.glow)} />
-                <div className="relative z-10 space-y-3">
-                  <div className="flex items-center gap-3">
-                    <span className={cn('flex h-9 w-9 shrink-0 items-center justify-center rounded-xl', tone.icon)}>
-                      <Icon className="h-4 w-4" aria-hidden="true" />
-                    </span>
-                    <h2 className={cn('text-[11px] font-bold uppercase tracking-widest', tone.label)}>
-                      {t(pillar.titleKey)}
-                    </h2>
-                  </div>
-                  <p className="text-sm leading-7 text-slate-300">{t(pillar.bodyKey)}</p>
-                </div>
-              </div>
-            </StaggerItem>
-          )
-        })}
-      </StaggerContainer>
-
       {/* ── With gratitude ── */}
       <SectionCard className="p-0">
         <div className="relative overflow-hidden rounded-2xl border border-amber-400/20 bg-linear-to-br from-amber-400/[0.10] via-rose-400/[0.05] to-slate-950/10 p-6">
@@ -123,6 +92,37 @@ export default function AboutPage() {
           </div>
         </div>
       </SectionCard>
+
+      {/* ── Core principles ── */}
+      <StaggerContainer className="grid gap-4 lg:grid-cols-3">
+        {pillars.map((pillar) => {
+          const Icon = pillar.icon
+          const tone = pillarTones[pillar.tone]
+          return (
+            <StaggerItem key={pillar.key}>
+              <div
+                className={cn(
+                  'group relative h-full overflow-hidden rounded-2xl border bg-slate-900/40 p-5 transition-all duration-300',
+                  tone.card,
+                )}
+              >
+                <div className={cn('pointer-events-none absolute -right-10 -top-10 h-24 w-24 rounded-full blur-2xl', tone.glow)} />
+                <div className="relative z-10 space-y-3">
+                  <div className="flex items-center gap-3">
+                    <span className={cn('flex h-9 w-9 shrink-0 items-center justify-center rounded-xl', tone.icon)}>
+                      <Icon className="h-4 w-4" aria-hidden="true" />
+                    </span>
+                    <h2 className={cn('text-[11px] font-bold uppercase tracking-widest', tone.label)}>
+                      {t(pillar.titleKey)}
+                    </h2>
+                  </div>
+                  <p className="text-sm leading-7 text-slate-300">{t(pillar.bodyKey)}</p>
+                </div>
+              </div>
+            </StaggerItem>
+          )
+        })}
+      </StaggerContainer>
     </PageShell>
   )
 }

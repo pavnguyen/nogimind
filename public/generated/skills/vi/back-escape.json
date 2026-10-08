@@ -60,16 +60,16 @@
   "shortInstruction": "Kiểm soát bàn tay đang bị nghẹn, thả vai qua đường hông, tạo một móc ra và biến thành Guard hoặc đứng lên.",
   "summary": "Thoát lùi đòi hỏi phải thắng trong giao tranh tay trước, sau đó tạo khoảng trống bằng cách thả vai bị mắc kẹt xuống dưới đường hông của đối phương. Một nhánh có hệ thống: đánh tay → trượt vai → tháo móc đơn → xoay người hoặc đứng lên.",
   "whyItWorks": [
-    "Kiểm soát bàn tay nghẹt thở sẽ ngăn chặn mối đe dọa kết liễu chính trước khi bạn thực hiện cuộc trốn thoát",
-    "Việc thả vai xuống dưới đường hông sẽ loại bỏ khả năng kiểm soát cấu trúc chính của chúng - kết nối xương sườn với lưng",
+    "Kiểm soát bàn tay nghẹt thở sẽ ngăn chặn mối đe dọa kết liễu chính trước khi bạn thực hiện việc thoát",
+    "Việc thả vai xuống dưới đường hông sẽ loại bỏ khả năng kiểm soát cấu trúc chính của họ - kết nối xương sườn với lưng",
     "Loại bỏ từng móc một sẽ dễ dàng hơn là cố gắng loại bỏ cả hai cùng một lúc",
-    "Xoay vào chúng thay vì tránh đi giúp giảm nguy cơ bị lộ lưng lần nữa trong nỗ lực trốn thoát"
+    "Xoay vào họ thay vì tránh đi giúp giảm nguy cơ bị lộ lưng lần nữa trong nỗ lực thoát"
   ],
   "commonMistakes": [
     "Chiến đấu với cơ thể Triangle thay vì dùng tay bóp cổ, bạn có thể sống sót bằng cơ thể Triangle nhưng không thể sống sót khi bị bóp cổ",
     "Quay mặt khỏi đối phương (đưa cổ bên kia) thay vì quay vào ngực họ",
     "Dùng cả hai tay vào tay bị nghẹn và để móc gần hoàn toàn không kiểm soát được",
-    "Chờ đợi quá lâu, lưng họ càng dài, seatbelt của họ càng chặt và việc trốn thoát càng khó"
+    "Chờ đợi quá lâu, lưng họ càng dài, seatbelt của họ càng chặt và việc thoát càng khó"
   ],
   "coachingCues": [
     "Đánh tay trước luôn",
@@ -93,12 +93,12 @@
         "action": "Sau khi điều khiển cánh tay, hãy ngồi hông ra xa và thả vai bị mắc kẹt qua đường hông của họ - điều này sẽ làm mất khả năng kiểm soát seatbelt của họ"
       },
       {
-        "condition": "Họ chuyển sang nỗ lực Armbar trong quá trình trốn thoát",
-        "action": "Giữ khuỷu tay của bạn chặt vào xương sườn và tiếp tục quay về phía chúng"
+        "condition": "Họ chuyển sang nỗ lực Armbar trong quá trình thoát",
+        "action": "Giữ khuỷu tay của bạn chặt vào xương sườn và tiếp tục quay về phía họ"
       }
     ],
     "exitStrategies": [
-      "Nếu việc trốn thoát không thành công và họ thiết lập lại back control, hãy đặt lại giai đoạn đấu tay đôi và bắt đầu lại",
+      "Nếu việc thoát không thành công và họ thiết lập lại back control, hãy đặt lại giai đoạn đấu tay đôi và bắt đầu lại",
       "Nếu họ đè bạn xuống bụng, hãy bảo vệ cổ của bạn và sử dụng tư thế đứng trên tường/đấu vật thay vì lăn lộn"
     ]
   },
@@ -109,7 +109,7 @@
   ],
   "fixItFast": [
     "Nếu bạn không thể với tới bàn tay đang bị nghẹn: hãy kẹp tay áo của họ vào ngực bạn bằng cách giấu cằm và lột da bằng tay đối diện",
-    "Nếu bạn tháo một móc nhưng chúng thay thế nó ngay lập tức: hãy giữ chân đã được thông rộng và không để nó móc lại",
-    "Nếu chúng đè bẹp bạn từ phía sau: hãy bảo vệ cổ, quỳ xuống và sử dụng tư thế đứng trên tường/đấu vật thay vì lăn"
+    "Nếu bạn tháo một móc nhưng họ thay thế nó ngay lập tức: hãy giữ chân đã được thông rộng và không để nó móc lại",
+    "Nếu họ đè bẹp bạn từ phía sau: hãy bảo vệ cổ, quỳ xuống và sử dụng tư thế đứng trên tường/đấu vật thay vì lăn"
   ]
 }

@@ -1,9 +1,19 @@
 {
   "id": "supine-guard",
-  "locale": "vi",
-  "title": "Guard nằm ngửa",
   "category": "bottom_guard",
   "status": "defensive",
+  "relatedSkillIds": [
+    "supine-guard-retention",
+    "seated-guard-retention",
+    "k-guard-entry"
+  ],
+  "relatedConceptIds": [
+    "guard-retention-layers",
+    "inside-position",
+    "wedges"
+  ],
+  "locale": "vi",
+  "title": "Guard nằm ngửa",
   "description": "Người Guard nằm ngửa dùng bàn chân, đầu gối, frame và góc hông để ngăn passer vào chest-to-chest.",
   "topPlayerGoals": [
     "Người ở trên muốn kiểm soát Guard nằm ngửa bằng vị trí đầu, vị trí trong và áp lực có hướng.",
@@ -42,15 +52,5 @@
     "Khuỷu tay tách khỏi sườn hoặc đầu gối.",
     "Đường hông bị khóa trong khi đường vai vẫn đang bị kéo.",
     "Bạn phải chống tay dài để không ngã."
-  ],
-  "relatedSkillIds": [
-    "supine-guard-retention",
-    "seated-guard-retention",
-    "k-guard-entry"
-  ],
-  "relatedConceptIds": [
-    "guard-retention-layers",
-    "inside-position",
-    "wedges"
   ]
 }

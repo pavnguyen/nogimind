@@ -71,10 +71,10 @@
   "shortInstruction": "Từ Mount, trượt một đầu gối lên nách họ và xoay hông về phía đầu họ. Giữ cánh tay gần giữa đùi của bạn và đầu của họ. Tấn công Armbar, Triangle hoặc lùi lại.",
   "summary": "s-Mount được tạo ra bằng cách trượt một đầu gối vào nách đối phương đồng thời xoay nhẹ ngực của bạn về phía đầu họ. Điều này đặt hông của bạn ngang qua đường vai của họ, cô lập một cánh tay và tạo ra tình huống khó xử giữa Armbar, Triangle và lùi lại. s-Mount là mã pin có giá trị cao nhất vì nó đe dọa trực tiếp đến việc gửi mà không yêu cầu chuyển đổi bổ sung.",
   "whyItWorks": [
-    "Vị trí đầu gối s-Mount (một đầu gối ở nách, một đầu gối ở hông) tạo ra một cấu trúc nêm cô lập vai gần",
+    "Vị trí đầu gối s-Mount (một đầu gối ở nách, một đầu gối ở hông) tạo ra một cấu trúc wedge cô lập vai gần",
     "Xoay hông của bạn về phía đầu họ sẽ giữ cánh tay gần của họ ở giữa đùi bạn và đầu họ - đây là vị trí vào Armbar",
     "Từ s-Mount, bạn đe dọa Armbar, Triangle (dùng chân còn lại của bạn qua đầu họ) và quay lại, tạo ra tình huống khó xử ba bên",
-    "Đối thủ không thể vượt qua hoặc trốn thoát một cách hiệu quả vì trọng lượng của bạn được phân bổ qua đường vai của họ chứ không phải hông của họ"
+    "Đối thủ không thể vượt qua hoặc thoát một cách hiệu quả vì trọng lượng của bạn được phân bổ qua đường vai của họ chứ không phải hông của họ"
   ],
   "commonMistakes": [
     "Không xoay hông đủ, xoay một phần để lại khoảng trống cho đối phương thoát khỏi Armbar",
@@ -91,7 +91,7 @@
   "safetySummary": [
     "Armbar từ s-Mount có thể duỗi thẳng khuỷu tay một cách nhanh chóng nếu dùng đà, tạo áp lực chậm, có kiểm soát",
     "Khi sử dụng Triangle từ s-Mount, không kéo mạnh đầu, điều này có thể làm căng cổ",
-    "Nếu đối thủ quay đi để trốn thoát s-Mount, họ sẽ lộ lưng - nhận lấy nhưng không đuổi theo sự khuất phục từ góc độ xấu"
+    "Nếu đối thủ quay đi để thoát s-Mount, họ sẽ lộ lưng - nhận lấy nhưng không đuổi theo sự khuất phục từ góc độ xấu"
   ],
   "systemLogic": {
     "corePrinciple": "s-Mount được cấu trúc như một hệ thống tiến thoái lưỡng nan: Armbar: Triangle → Quay lại, với mỗi mối đe dọa sẽ dẫn đến mối đe dọa tiếp theo",
@@ -106,14 +106,14 @@
       },
       {
         "condition": "Sử dụng Đe dọa 3 (Quay lại)",
-        "action": "nếu họ quay đi để thoát khỏi Armbar hoặc Triangle, hãy tiếp xúc bằng hông và lùi lại. Vòng xoay s-Mount tự nhiên chuyển sang back control khi chúng quay"
+        "action": "nếu họ quay đi để thoát khỏi Armbar hoặc Triangle, hãy tiếp xúc bằng hông và lùi lại. Vòng xoay s-Mount tự nhiên chuyển sang back control khi họ quay"
       },
       {
         "condition": "Kỹ thuật vào lệnh",
         "action": "từ thấp Mount, trượt tay thuận của bạn xuống dưới đầu họ. Nâng đầu gối gần của bạn và trượt nó vào nách của họ. Xoay hông của bạn 45 độ về phía đầu của họ. Ống chân của bạn phải ngang ngực họ"
       },
       {
-        "condition": "s-Mount thất bại (họ trốn thoát)",
+        "condition": "s-Mount thất bại (họ thoát)",
         "action": "trở về mức thấp Mount ngay lập tức thay vì đấu tranh để thiết lập lại s-Mount từ vị trí bị xâm phạm"
       }
     ],
@@ -121,12 +121,12 @@
   },
   "moneyDetails": [
     "s-Mount là chốt tấn công mạnh nhất trong BJJ, từ đây, bạn kết thúc trận đấu chứ không phải dừng lại",
-    "s-Mount Armbar là mục nhập Armbar có tỷ lệ phần trăm cao nhất trong No-Gi vật lộn",
+    "s-Mount Armbar là mục nhập Armbar có tỷ lệ phần trăm cao nhất trong No-Gi vật",
     "Việc nắm vững các quá trình chuyển đổi s-Mount sẽ tách biệt các trình grappler gửi khỏi các trình grappler vị trí"
   ],
   "fixItFast": [
     "Nếu đối thủ bảo vệ Armbar bằng cách rút cánh tay ra: chuyển sang Triangle, không đuổi theo cánh tay",
-    "Nếu đối phương lăn để trốn thoát s-Mount: lùi lại và cố định seatbelt trước khi họ kịp phục hồi",
+    "Nếu đối phương lăn để thoát s-Mount: lùi lại và cố định seatbelt trước khi họ kịp phục hồi",
     "Nếu bạn ngã trong nỗ lực Armbar: tiếp đất ở Guard chứ không phải Side Control, giữ cánh tay bị kẹt khi bạn ngã"
   ]
 }

@@ -65,7 +65,7 @@
     "hasStateMachine": false
   },
   "locale": "vi",
-  "description": "Hệ thống Front Headlock xâu chuỗi snapdown thành Guillotine, D'arce, Anaconda hoặc đi sau dưới dạng chuỗi tấn công liên tục. Đây là hệ thống kiểm soát phần thân trên mạnh mẽ nhất trong môn vật lộn No-Gi.",
+  "description": "Hệ thống Front Headlock xâu chuỗi snapdown thành Guillotine, D'arce, Anaconda hoặc đi sau dưới dạng chuỗi tấn công liên tục. Đây là hệ thống kiểm soát phần thân trên mạnh mẽ nhất trong môn vật No-Gi.",
   "shortInstruction": "Từ điều khiển bằng đầu, tấn công dây chuyền theo thứ tự sau: snapdown → Guillotine → D'arce → Anaconda → đi phía sau. Hãy hướng đầu ra ngoài và không bao giờ từ bỏ vị trí Front Headlock.",
   "summary": "Hệ thống Front Headlock là chuỗi tấn công liên tục từ vị trí Front Headlock (một tay ôm đầu, tay còn lại điều khiển cánh tay xa hoặc hông). Từ vị trí này, bạn chuyển qua các lần gửi và tiến bộ về vị trí: snapdown phá vỡ tư thế của họ, Guillotine đe dọa cổ, D'arce tấn công cổ từ bên cạnh, Anaconda tấn công từ phía trước và kẻ đi sau chiếm lấy phía sau. Điều quan trọng là không bao giờ từ bỏ Front Headlock, nếu một cuộc tấn công thất bại, ngay lập tức chuyển sang cuộc tấn công tiếp theo.",
   "whyItWorks": [
@@ -108,17 +108,17 @@
       },
       {
         "condition": "Sử dụng đòn tấn công 4 (Anaconda)",
-        "action": "nếu D'arce không thành công (chúng biến thành bạn), hãy chuyển khóa sang phía bên kia và áp dụng Anaconda. Anaconda tấn công vào cổ từ phía trước"
+        "action": "nếu D'arce không thành công (họ biến thành bạn), hãy chuyển khóa sang phía bên kia và áp dụng Anaconda. Anaconda tấn công vào cổ từ phía trước"
       },
       {
         "condition": "Sử dụng đòn tấn công 5 (Đi phía sau)",
-        "action": "nếu tất cả các cuộn cảm đều không thành công, hãy thả đầu ra và vòng ra phía sau chúng để lấy lại. Vị trí Front Headlock tự nhiên chuyển sang lùi"
+        "action": "nếu tất cả các cuộn cảm đều không thành công, hãy thả đầu ra và vòng ra phía sau họ để lấy lại. Vị trí Front Headlock tự nhiên chuyển sang lùi"
       }
     ],
     "exitStrategies": []
   },
   "moneyDetails": [
-    "Hệ thống Front Headlock là hệ thống tấn công phần trên cơ thể quan trọng nhất trong No-Gi, hệ thống này được sử dụng ở mọi cấp độ vật lộn",
+    "Hệ thống Front Headlock là hệ thống tấn công phần trên cơ thể quan trọng nhất trong No-Gi, hệ thống này được sử dụng ở mọi cấp độ vật",
     "Việc thành thạo chuỗi Front Headlock mang lại cho bạn năm đòn tấn công từ một vị trí, bạn hầu như luôn kết thúc",
     "Front Headlock là vị trí ghi điểm chính từ sprawls và snapdowns, đây là cuộc trao đổi đấu vật phổ biến nhất"
   ],

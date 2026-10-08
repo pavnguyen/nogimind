@@ -1,9 +1,19 @@
 {
   "id": "butterfly-guard",
-  "locale": "en",
-  "title": "Butterfly Guard",
   "category": "bottom_guard",
   "status": "neutral",
+  "relatedSkillIds": [
+    "butterfly-guard-off-balance",
+    "seated-guard-retention",
+    "bodylock-pass"
+  ],
+  "relatedConceptIds": [
+    "hooks",
+    "base-balance",
+    "levers"
+  ],
+  "locale": "en",
+  "title": "Butterfly Guard",
   "description": "A Guard that uses butterfly hooks to elevate the opponent’s hips, force posts, and switch to sweeps or wrestle-ups.",
   "topPlayerGoals": [
     "The top player wants to control Butterfly Guard through head position, inside position, and directed pressure.",
@@ -32,7 +42,7 @@
       "relatedSkillIds": [
         "butterfly-guard-off-balance",
         "seated-guard-retention",
-        "bodylock-passing"
+        "bodylock-pass"
       ],
       "why": "This is the natural branch when you win the main control point and the opponent is forced to defend."
     }
@@ -42,15 +52,5 @@
     "The elbow separates from the ribs or knee.",
     "The hip line is locked while the shoulder line is still being pulled.",
     "You need a long hand post to avoid falling."
-  ],
-  "relatedSkillIds": [
-    "butterfly-guard-off-balance",
-    "seated-guard-retention",
-    "bodylock-passing"
-  ],
-  "relatedConceptIds": [
-    "hooks",
-    "base-balance",
-    "levers"
   ]
 }

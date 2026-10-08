@@ -1,7 +1,5 @@
 {
   "id": "levers",
-  "locale": "fr",
-  "title": "Leviers",
   "category": "mechanical",
   "level": "intermediate",
   "tags": [
@@ -9,6 +7,19 @@
     "kimura",
     "off-balance"
   ],
+  "relatedSkillIds": [
+    "kimura-system",
+    "arm-triangle-mount",
+    "butterfly-guard-off-balance",
+    "seated-guard-retention"
+  ],
+  "relatedConceptIds": [
+    "dilemma-attacks",
+    "angle-creation",
+    "control-before-submission"
+  ],
+  "locale": "fr",
+  "title": "Leviers",
   "shortDefinition": "Un levier utilise un segment du corps adverse pour tourner ou casser une structure plus grande.",
   "whyItMatters": "Les leviers permettent off-balance, kimura control ou arm drag sans force brute.",
   "deepExplanation": "Coude séparé, poignet centerline, knee line piégée ou shoulder line tournée créent levier. Lire levier donne timing.",
@@ -16,16 +27,5 @@
   "advancedView": "Créer leviers par dilemmes plutôt qu’attendre erreur.",
   "ifThenExamples": [],
   "commonMisunderstandings": [],
-  "trainingCues": [],
-  "relatedSkillIds": [
-    "kimura-system",
-    "arm-triangle-Mount",
-    "butterfly-Guard-off-balance",
-    "seated-Guard-retention"
-  ],
-  "relatedConceptIds": [
-    "dilemma-attacks",
-    "angle-creation",
-    "control-before-submission"
-  ]
+  "trainingCues": []
 }

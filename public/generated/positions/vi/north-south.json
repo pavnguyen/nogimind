@@ -1,9 +1,20 @@
 {
   "id": "north-south",
-  "locale": "vi",
-  "title": "North South",
   "category": "pin",
   "status": "dominant",
+  "relatedSkillIds": [
+    "north-south-control",
+    "side-control-pin",
+    "rear-naked-choke-system",
+    "kimura-system"
+  ],
+  "relatedConceptIds": [
+    "pressure-direction",
+    "connection-before-control",
+    "control-before-submission"
+  ],
+  "locale": "vi",
+  "title": "North South",
   "description": "Người ở trên nằm ngược từ phía đầu, kiểm soát chest-to-chest hoặc chest-to-back với shoulder pressure.",
   "topPlayerGoals": [
     "Người ở trên muốn kiểm soát North South bằng vị trí đầu, vị trí trong và áp lực có hướng.",
@@ -42,16 +53,5 @@
     "Khuỷu tay tách khỏi sườn hoặc đầu gối.",
     "Đường hông bị khóa trong khi đường vai vẫn đang bị kéo.",
     "Bạn phải chống tay dài để không ngã."
-  ],
-  "relatedSkillIds": [
-    "north-south-control",
-    "side-control-pin",
-    "rear-naked-choke-system",
-    "kimura-system"
-  ],
-  "relatedConceptIds": [
-    "pressure-direction",
-    "connection-before-control",
-    "control-before-submission"
   ]
 }

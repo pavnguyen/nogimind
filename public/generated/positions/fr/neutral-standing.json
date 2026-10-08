@@ -1,9 +1,19 @@
 {
   "id": "neutral-standing",
-  "locale": "fr",
-  "title": "Debout neutre",
   "category": "standing",
   "status": "neutral",
+  "relatedSkillIds": [
+    "hand-fighting",
+    "single-leg-bjj",
+    "guard-pulling-strategy"
+  ],
+  "relatedConceptIds": [
+    "base-balance",
+    "head-position",
+    "inside-position"
+  ],
+  "locale": "fr",
+  "title": "Debout neutre",
   "description": "Les deux joueurs sont debout, sans avantage clair sur les prises, la position de tête ou l’angle d’attaque.",
   "topPlayerGoals": [
     "Le joueur du dessus veut contrôler Debout neutre avec la position de tête, la position intérieure et une pression orientée.",
@@ -42,15 +52,5 @@
     "Le coude se sépare des côtes ou du genou.",
     "La ligne des hanches est verrouillée pendant que la ligne des épaules est encore tirée.",
     "Vous devez poser une main loin pour éviter de tomber."
-  ],
-  "relatedSkillIds": [
-    "hand-fighting",
-    "single-leg-bjj",
-    "guard-pulling-strategy"
-  ],
-  "relatedConceptIds": [
-    "base-balance",
-    "head-position",
-    "inside-position"
   ]
 }

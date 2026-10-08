@@ -1,7 +1,5 @@
 {
   "id": "knee-line",
-  "locale": "fr",
-  "title": "Knee line",
   "category": "safety",
   "level": "fundamental",
   "tags": [
@@ -9,14 +7,6 @@
     "leg lock",
     "safety"
   ],
-  "shortDefinition": "La knee line décide si la jambe est contrôlée dans entanglement ou libre.",
-  "whyItMatters": "En leg locks, knee line piégée plus talon exposé est signal majeur.",
-  "deepExplanation": "Knee line est sécurité avant attaque. Ne tournez pas fort si piégée. En attaque, son contrôle empêche retrait jambe.",
-  "beginnerView": "Savoir si genou piégé ou libre avant tourner.",
-  "advancedView": "Utiliser knee line pour évaluer sweep, pass, entrée jambe et sécurité.",
-  "ifThenExamples": [],
-  "commonMisunderstandings": [],
-  "trainingCues": [],
   "relatedSkillIds": [
     "leg-lock-safety-basics",
     "heel-hook-safety",
@@ -27,5 +17,15 @@
     "leg-lock-safety-hierarchy",
     "early-vs-late-defense",
     "inside-position"
-  ]
+  ],
+  "locale": "fr",
+  "title": "Knee line",
+  "shortDefinition": "La knee line décide si la jambe est contrôlée dans entanglement ou libre.",
+  "whyItMatters": "En leg locks, knee line piégée plus talon exposé est signal majeur.",
+  "deepExplanation": "Knee line est sécurité avant attaque. Ne tournez pas fort si piégée. En attaque, son contrôle empêche retrait jambe.",
+  "beginnerView": "Savoir si genou piégé ou libre avant tourner.",
+  "advancedView": "Utiliser knee line pour évaluer sweep, pass, entrée jambe et sécurité.",
+  "ifThenExamples": [],
+  "commonMisunderstandings": [],
+  "trainingCues": []
 }

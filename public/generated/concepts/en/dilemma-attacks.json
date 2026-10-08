@@ -1,7 +1,5 @@
 {
   "id": "dilemma-attacks",
-  "locale": "en",
-  "title": "Dilemma Attacks",
   "category": "offensive",
   "level": "advanced",
   "tags": [
@@ -9,6 +7,19 @@
     "chain",
     "submission"
   ],
+  "relatedSkillIds": [
+    "dilemmas-two-way-attacks",
+    "rear-naked-choke-system",
+    "guillotine-system",
+    "kimura-system"
+  ],
+  "relatedConceptIds": [
+    "control-before-submission",
+    "failure-response",
+    "angle-creation"
+  ],
+  "locale": "en",
+  "title": "Dilemma Attacks",
   "shortDefinition": "A dilemma is two or more threats where defending one line exposes another.",
   "whyItMatters": "At higher levels, opponents do not give single finishes; you need chains based on reactions.",
   "deepExplanation": "Good dilemmas start from control. In back control, defending the neck exposes arm trap; clearing hooks exposes Mount. Attacking becomes designed bad choices, not luck.",
@@ -16,16 +27,5 @@
   "advancedView": "Build branches where every defense keeps you in a better hierarchy.",
   "ifThenExamples": [],
   "commonMisunderstandings": [],
-  "trainingCues": [],
-  "relatedSkillIds": [
-    "dilemmas-two-way-attacks",
-    "rear-naked-choke-system",
-    "Guillotine-system",
-    "kimura-system"
-  ],
-  "relatedConceptIds": [
-    "control-before-submission",
-    "failure-response",
-    "angle-creation"
-  ]
+  "trainingCues": []
 }

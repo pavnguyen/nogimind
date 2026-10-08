@@ -49,8 +49,8 @@
   "nextSkillIds": [],
   "searchBoost": 1,
   "keyCorrections": [
-    "Nếu chúng tiếp tục thoát khỏi ổ khóa: khuỷu tay của bạn quá rộng - hãy kẹp chúng lại với nhau để bẫy cánh tay",
-    "Nếu bạn không thể nhấc lên: thay vào đó hãy sử dụng một chuyến đi - dùng chân móc chân trước của chúng và đẩy chúng lùi lại",
+    "Nếu họ tiếp tục thoát khỏi ổ khóa: khuỷu tay của bạn quá rộng - hãy kẹp họ lại với nhau để bẫy cánh tay",
+    "Nếu bạn không thể nhấc lên: thay vào đó hãy sử dụng một chuyến đi - dùng chân móc chân trước của họ và đẩy họ lùi lại",
     "Nếu bạn đáp xuống Guard của họ: đầu bạn quá cao, hãy giữ đầu bạn tựa vào ngực họ chứ không phải bụng họ"
   ],
   "version": 1,
@@ -65,7 +65,7 @@
     "hasStateMachine": false
   },
   "locale": "vi",
-  "description": "Khóa cánh tay quanh thân bằng móc hoặc Tư thế rùa, lái qua hông và đưa đối thủ trở lại thảm. Khóa cơ thể là đòn hạ gục có khả năng kiểm soát cao nhất trong vật lộn - nó ngăn cản đối thủ trốn thoát và đưa bạn vào thế thống trị.",
+  "description": "Khóa cánh tay quanh thân bằng móc hoặc Tư thế rùa, lái qua hông và đưa đối thủ trở lại thảm. Khóa cơ thể là đòn hạ gục có khả năng kiểm soát cao nhất trong vật - nó ngăn cản đối thủ thoát và đưa bạn vào thế thống trị.",
   "shortInstruction": "Khóa hai tay ra sau lưng ngang hông, bước vào giữa hai chân của họ, ép khuỷu tay của bạn vào nhau và đưa họ lùi về phía thảm. Hạ cánh ở Side Control hoặc Mount.",
   "summary": "Khóa cơ thể là vị trí hạ gục chiếm ưu thế nhất trong No-Gi vì nó loại bỏ khả năng trụ hoặc trụ của đối phương, cả hai cánh tay đều bị kẹt giữa cơ thể bạn và cơ thể của họ. Từ khóa cơ thể, bạn có thể nhấc, vấp hoặc đẩy đối thủ xuống thảm trong khi vẫn duy trì toàn quyền kiểm soát phần thân trên. Khóa cơ thể cũng là công cụ mat return chính khi đối thủ đứng từ Tư thế rùa hoặc Half Guard.",
   "whyItWorks": [
@@ -96,15 +96,15 @@
     "decisionTree": [
       {
         "condition": "Sử dụng Kết thúc 1 (Nâng)",
-        "action": "ngồi xổm dưới hông họ, duỗi chân và nhấc chúng ra khỏi thảm. Điều này hiệu quả nhất khi đối đầu với những đối thủ nhẹ cân hơn hoặc khi họ mất thăng bằng"
+        "action": "ngồi xổm dưới hông họ, duỗi chân và nhấc họ ra khỏi thảm. Điều này hiệu quả nhất khi đối đầu với những đối thủ nhẹ cân hơn hoặc khi họ mất thăng bằng"
       },
       {
         "condition": "Sử dụng Kết thúc 2 (Chuyến đi)",
-        "action": "móc chân bạn ra sau mắt cá chân chì của chúng và đẩy chúng lùi lại. Chuyến đi có tác dụng với những đối thủ nặng ký hơn hoặc khi bạn không thể xuống đủ sâu để nâng"
+        "action": "móc chân bạn ra sau mắt cá chân chì của họ và đẩy họ lùi lại. Chuyến đi có tác dụng với những đối thủ nặng ký hơn hoặc khi bạn không thể xuống đủ sâu để nâng"
       },
       {
         "condition": "Sử dụng Kết thúc 3 (Ổ đĩa)",
-        "action": "chỉ cần lái xe về phía trước bằng chân, sử dụng khóa thân xe để điều khiển chúng về phía thảm. Điều này có hiệu quả khi họ đang di chuyển lùi"
+        "action": "chỉ cần lái xe về phía trước bằng chân, sử dụng khóa thân xe để điều khiển họ về phía thảm. Điều này có hiệu quả khi họ đang di chuyển lùi"
       },
       {
         "condition": "Ứng dụng chung",
@@ -116,10 +116,10 @@
   "moneyDetails": [
     "Việc gỡ bỏ bằng khóa nội dung là thao tác gỡ bỏ mạnh mẽ nhất trong No-Gi, nó đưa bạn vào Side Control chứ không phải Guard của họ",
     "Việc thành thạo khóa cơ thể mang lại cho bạn mat return đáng tin cậy từ các tư thế Tư thế rùa, Half Guard và đứng",
-    "Khóa cơ thể là yếu tố chính của tất cả các môn vật lộn No-Gi cấp cao (Gordon Ryan, Nicky Rod, v.v.)"
+    "Khóa cơ thể là yếu tố chính của tất cả các môn vật No-Gi cấp cao (Gordon Ryan, Nicky Rod, v.v.)"
   ],
   "fixItFast": [
-    "Nếu bạn không thể khóa tay: chúng đang ở tư thế quá cao - trước tiên hãy hạ chúng xuống rồi khóa lại",
+    "Nếu bạn không thể khóa tay: họ đang ở tư thế quá cao - trước tiên hãy hạ họ xuống rồi khóa lại",
     "Nếu họ sprawl trên khóa: chuyển sang một chân, vị trí khóa cơ thể dễ dàng chuyển sang chân",
     "Nếu họ tách tay ra: hãy nhéo lại khuỷu tay và siết chặt khóa hơn"
   ]

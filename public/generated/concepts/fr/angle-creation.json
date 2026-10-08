@@ -1,7 +1,5 @@
 {
   "id": "angle-creation",
-  "locale": "fr",
-  "title": "Création d’angle",
   "category": "strategic",
   "level": "intermediate",
   "tags": [
@@ -9,6 +7,19 @@
     "pivot",
     "direction"
   ],
+  "relatedSkillIds": [
+    "knee-cut-passing",
+    "guillotine-system",
+    "arm-triangle-mount",
+    "half-guard-wrestle-up"
+  ],
+  "relatedConceptIds": [
+    "dilemma-attacks",
+    "pressure-direction",
+    "failure-response"
+  ],
+  "locale": "fr",
+  "title": "Création d’angle",
   "shortDefinition": "Créer angle change corps/hanches pour attaquer structure faible plutôt que pousser droit.",
   "whyItMatters": "Beaucoup de techniques échouent avec bon grip mais mauvais angle.",
   "deepExplanation": "Angle vient de hip heist, head position, cut shoulder line, knee cut, back step ou pivot. Bon angle force défense une direction pendant que vous bougez autre.",
@@ -16,16 +27,5 @@
   "advancedView": "Créer angle par réaction adverse, pas seulement footwork.",
   "ifThenExamples": [],
   "commonMisunderstandings": [],
-  "trainingCues": [],
-  "relatedSkillIds": [
-    "knee-cut-passing",
-    "Guillotine-system",
-    "arm-triangle-Mount",
-    "half-Guard-wrestle-up"
-  ],
-  "relatedConceptIds": [
-    "dilemma-attacks",
-    "pressure-direction",
-    "failure-response"
-  ]
+  "trainingCues": []
 }

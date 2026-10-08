@@ -1,0 +1,16 @@
+{
+  "id": "z-guard",
+  "category": "bottom_guard",
+  "status": "defensive",
+  "relatedSkillIds": [
+    "z-guard-sweeps",
+    "half-guard-knee-shield",
+    "half-guard-wrestle-up",
+    "side-control-escape"
+  ],
+  "relatedConceptIds": [
+    "wedges",
+    "inside-position",
+    "elbow-knee-connection"
+  ]
+}

@@ -1,7 +1,5 @@
 {
   "id": "leg-lock-safety-hierarchy",
-  "locale": "fr",
-  "title": "Hiérarchie sécurité leg lock",
   "category": "safety",
   "level": "fundamental",
   "tags": [
@@ -9,6 +7,19 @@
     "heel hook",
     "safety"
   ],
+  "relatedSkillIds": [
+    "leg-lock-safety-basics",
+    "heel-hook-safety",
+    "straight-ankle-lock-safety",
+    "k-guard-entry"
+  ],
+  "relatedConceptIds": [
+    "knee-line",
+    "early-vs-late-defense",
+    "positional-hierarchy"
+  ],
+  "locale": "fr",
+  "title": "Hiérarchie sécurité leg lock",
   "shortDefinition": "Ordre sécurité: reconnaître entanglement, cacher talon, protéger knee line, clear jambe secondaire, sortir contrôlé.",
   "whyItMatters": "Les leg locks deviennent dangereux vite si vous tournez mal avec knee line piégée.",
   "deepExplanation": "La hiérarchie évite panique. Talon exposé signal, knee line frontière, jambe secondaire verrou. Taper tôt et communiquer font partie technique.",
@@ -16,16 +27,5 @@
   "advancedView": "Lire entanglements comme positions de contrôle, pas course de torsion.",
   "ifThenExamples": [],
   "commonMisunderstandings": [],
-  "trainingCues": [],
-  "relatedSkillIds": [
-    "leg-lock-safety-basics",
-    "heel-hook-safety",
-    "straight-ankle-lock-safety",
-    "k-Guard-entry"
-  ],
-  "relatedConceptIds": [
-    "knee-line",
-    "early-vs-late-defense",
-    "positional-hierarchy"
-  ]
+  "trainingCues": []
 }

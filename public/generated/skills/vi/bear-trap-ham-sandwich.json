@@ -50,7 +50,7 @@
   "nextSkillIds": [],
   "searchBoost": 1,
   "keyCorrections": [
-    "Nếu chúng rút chân ra, bẫy của bạn quá nông - hãy đưa bẫy vào sâu hơn ở hố đầu gối của bạn.",
+    "Nếu họ rút chân ra, bẫy của bạn quá nông - hãy đưa bẫy vào sâu hơn ở hố đầu gối của bạn.",
     "Nếu bạn không thể hoàn thành, góc ống chân của bạn sai - hãy xoay ống chân của bạn để mép xương ép vào bắp chân của họ.",
     "Nếu họ quay ra, bạn sẽ mất kiểm soát phần thân trên - hãy thiết lập lại khả năng bám của bạn vào cổ áo hoặc cánh tay của họ."
   ],
@@ -67,13 +67,13 @@
   },
   "locale": "vi",
   "description": "Sử dụng bẫy gấu (còn gọi là bánh mì giăm bông) để tạo khóa nén - máy thái bắp chân - từ nửa con bướm hoặc Half Guard, buộc đối thủ phải chạm, lộ lưng hoặc từ bỏ đòn quét.",
-  "shortInstruction": "Nhốt chân chúng vào hố đầu gối của bạn, ấn ống chân của bạn vào bắp chân của chúng, nén, bẫy gấu là một máy thái bắp chân được giấu trong Half Guard.",
-  "summary": "Bẫy gấu (bánh sandwich giăm bông) là một dụng cụ nén submission (máy thái bắp chân) sử dụng xương ống chân của bạn để chống vào cơ bắp chân của chúng, với chân của chúng bị mắc kẹt trong khúc cua đầu gối của bạn. Nó thường được thực hiện từ tư thế nửa bướm hoặc Half Guard khi đối thủ tiến về phía trước. Áp lực đè lên bắp chân buộc chúng phải chạm, lăn ngửa (cho bạn sweep) hoặc để lộ lưng trong Back Take.",
+  "shortInstruction": "Nhốt chân họ vào hố đầu gối của bạn, ấn ống chân của bạn vào bắp chân của họ, nén, bẫy gấu là một máy thái bắp chân được giấu trong Half Guard.",
+  "summary": "Bẫy gấu (bánh sandwich giăm bông) là một dụng cụ nén submission (máy thái bắp chân) sử dụng xương ống chân của bạn để chống vào cơ bắp chân của họ, với chân của họ bị mắc kẹt trong khúc cua đầu gối của bạn. Nó thường được thực hiện từ tư thế nửa bướm hoặc Half Guard khi đối thủ tiến về phía trước. Áp lực đè lên bắp chân buộc họ phải chạm, lăn ngửa (cho bạn sweep) hoặc để lộ lưng trong Back Take.",
   "whyItWorks": [
     "Sự nén của xương ống chân vào cơ bắp chân tạo ra cơn đau dữ dội và áp lực ở khớp - hầu hết các đối thủ sẽ chạm hoặc lăn.",
     "Nó hoạt động như một vấn đề nan giải: chạm vào máy cắt bắp chân hoặc từ bỏ thao tác quét/quay lại.",
-    "Nó có thể được vào mà không cần thiết lập phức tạp - nếu bạn có một nửa con bướm và chúng lao về phía trước, bẫy gấu thường có sẵn.",
-    "Nguyên tắc Danaher: khóa nén có tỷ lệ phần trăm cao vì chúng hoạt động trên một khớp duy nhất (đầu gối) với giải phẫu có thể đoán trước được."
+    "Nó có thể được vào mà không cần thiết lập phức tạp - nếu bạn có một nửa con bướm và họ lao về phía trước, bẫy gấu thường có sẵn.",
+    "Nguyên tắc Danaher: khóa nén có tỷ lệ phần trăm cao vì họ hoạt động trên một khớp duy nhất (đầu gối) với giải phẫu có thể đoán trước được."
   ],
   "commonMistakes": [
     "Để chân của họ trượt ra khỏi hố đầu gối của bạn - một cái bẫy nông sẽ làm mất lực nén.",
@@ -84,7 +84,7 @@
   "coachingCues": [
     "Bẫy sâu trong hố đầu gối, lái bằng ống chân.",
     "Kiểm soát phần thân trên - bẫy gấu chỉ là cái móc.",
-    "Nếu chúng lăn, hãy làm theo sweep hoặc Back Take.",
+    "Nếu họ lăn, hãy làm theo sweep hoặc Back Take.",
     "Quá trình nén hoạt động - không quay, chỉ bóp."
   ],
   "safetySummary": [
@@ -101,7 +101,7 @@
       },
       {
         "condition": "Ứng dụng chung",
-        "action": "Dây xích bẫy gấu ở phía sau chịu lực khi chúng lăn để thoát khỏi áp lực ở bắp chân."
+        "action": "Dây xích bẫy gấu ở phía sau chịu lực khi họ lăn để thoát khỏi áp lực ở bắp chân."
       }
     ],
     "exitStrategies": []
@@ -109,7 +109,7 @@
   "moneyDetails": [
     "Bẫy chân họ càng sâu càng tốt trong hố đầu gối của bạn - hố đầu gối phải ở hoặc phía sau khớp gối của họ.",
     "Đưa xương ống chân của bạn (cạnh nhọn) vào cơ bắp chân của họ - việc nén xương lên cơ là kết thúc.",
-    "Kiểm soát phần thân trên của chúng bằng underhook hoặc collar tie để ngăn chúng quay đi.",
+    "Kiểm soát phần thân trên của họ bằng underhook hoặc collar tie để ngăn họ quay đi.",
     "Nếu họ cố gắng lăn ra khỏi máy thái bắp chân, hãy nhả lực nén và làm theo cuộn của họ, lấy phần sau hoặc sweep."
   ],
   "nextStep": "Sau bẫy gấu, hãy học chuyển động từ nửa bướm sang vướng chân.",

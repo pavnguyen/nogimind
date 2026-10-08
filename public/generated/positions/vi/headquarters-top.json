@@ -1,9 +1,19 @@
 {
   "id": "headquarters-top",
-  "locale": "vi",
-  "title": "Headquarters Trên",
   "category": "top_control",
   "status": "advantage",
+  "relatedSkillIds": [
+    "headquarters-passing",
+    "knee-cut-passing",
+    "leg-drag-basics"
+  ],
+  "relatedConceptIds": [
+    "dilemma-attacks",
+    "hip-line-shoulder-line",
+    "inside-position"
+  ],
+  "locale": "vi",
+  "title": "Headquarters Trên",
   "description": "Người ở trên đứng trong headquarters với một chân của Guard player bị staple và có nhiều đường pass.",
   "topPlayerGoals": [
     "Người ở trên muốn kiểm soát Headquarters Trên bằng vị trí đầu, vị trí trong và áp lực có hướng.",
@@ -42,15 +52,5 @@
     "Khuỷu tay tách khỏi sườn hoặc đầu gối.",
     "Đường hông bị khóa trong khi đường vai vẫn đang bị kéo.",
     "Bạn phải chống tay dài để không ngã."
-  ],
-  "relatedSkillIds": [
-    "headquarters-passing",
-    "knee-cut-passing",
-    "leg-drag-basics"
-  ],
-  "relatedConceptIds": [
-    "dilemma-attacks",
-    "hip-line-shoulder-line",
-    "inside-position"
   ]
 }

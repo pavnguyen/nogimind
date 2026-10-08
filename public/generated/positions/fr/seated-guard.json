@@ -1,9 +1,19 @@
 {
   "id": "seated-guard",
-  "locale": "fr",
-  "title": "Garde assise",
   "category": "bottom_guard",
   "status": "defensive",
+  "relatedSkillIds": [
+    "seated-guard-retention",
+    "shin-to-shin-entry",
+    "technical-stand-up"
+  ],
+  "relatedConceptIds": [
+    "guard-retention-layers",
+    "hooks",
+    "posts"
+  ],
+  "locale": "fr",
+  "title": "Garde assise",
   "description": "Le joueur en garde est assis avec des cadres tibiaux, du hand fighting et des menaces de wrestle-up ou d’entrée en garde.",
   "topPlayerGoals": [
     "Le joueur du dessus veut contrôler Garde assise avec la position de tête, la position intérieure et une pression orientée.",
@@ -42,15 +52,5 @@
     "Le coude se sépare des côtes ou du genou.",
     "La ligne des hanches est verrouillée pendant que la ligne des épaules est encore tirée.",
     "Vous devez poser une main loin pour éviter de tomber."
-  ],
-  "relatedSkillIds": [
-    "seated-guard-retention",
-    "shin-to-shin-entry",
-    "technical-stand-up"
-  ],
-  "relatedConceptIds": [
-    "guard-retention-layers",
-    "hooks",
-    "posts"
   ]
 }

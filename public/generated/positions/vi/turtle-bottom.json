@@ -1,9 +1,19 @@
 {
   "id": "turtle-bottom",
-  "locale": "vi",
-  "title": "Turtle Dưới",
   "category": "turtle",
   "status": "defensive",
+  "relatedSkillIds": [
+    "turtle-ride",
+    "back-escape",
+    "scramble-control"
+  ],
+  "relatedConceptIds": [
+    "early-vs-late-defense",
+    "posts",
+    "positional-hierarchy"
+  ],
+  "locale": "vi",
+  "title": "Turtle Dưới",
   "description": "Người ở dưới trong turtle cần bảo vệ cổ, cổ tay và lưng trong khi xây lại base.",
   "topPlayerGoals": [
     "Người ở trên muốn kiểm soát Turtle Dưới bằng vị trí đầu, vị trí trong và áp lực có hướng.",
@@ -42,15 +52,5 @@
     "Khuỷu tay tách khỏi sườn hoặc đầu gối.",
     "Đường hông bị khóa trong khi đường vai vẫn đang bị kéo.",
     "Bạn phải chống tay dài để không ngã."
-  ],
-  "relatedSkillIds": [
-    "turtle-ride",
-    "back-escape",
-    "scramble-control"
-  ],
-  "relatedConceptIds": [
-    "early-vs-late-defense",
-    "posts",
-    "positional-hierarchy"
   ]
 }

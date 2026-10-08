@@ -1,9 +1,19 @@
 {
   "id": "back-control-position",
-  "locale": "en",
-  "title": "Back Control",
   "category": "back",
   "status": "dominant",
+  "relatedSkillIds": [
+    "back-control",
+    "rear-naked-choke-system",
+    "back-escape"
+  ],
+  "relatedConceptIds": [
+    "hooks",
+    "control-before-submission",
+    "dilemma-attacks"
+  ],
+  "locale": "en",
+  "title": "Back Control",
   "description": "The attacker keeps chest-to-back connection, a seatbelt, and hooks or a body triangle to create strangle dilemmas.",
   "topPlayerGoals": [
     "The top player wants to control Back Control through head position, inside position, and directed pressure.",
@@ -42,15 +52,5 @@
     "The elbow separates from the ribs or knee.",
     "The hip line is locked while the shoulder line is still being pulled.",
     "You need a long hand post to avoid falling."
-  ],
-  "relatedSkillIds": [
-    "back-control",
-    "rear-naked-choke-system",
-    "back-escape"
-  ],
-  "relatedConceptIds": [
-    "hooks",
-    "control-before-submission",
-    "dilemma-attacks"
   ]
 }

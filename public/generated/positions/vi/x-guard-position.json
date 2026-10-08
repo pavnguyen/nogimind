@@ -1,9 +1,19 @@
 {
   "id": "x-guard-position",
-  "locale": "vi",
-  "title": "X-Guard",
   "category": "bottom_guard",
   "status": "neutral",
+  "relatedSkillIds": [
+    "x-guard-control",
+    "single-leg-x-control",
+    "k-guard-matrix"
+  ],
+  "relatedConceptIds": [
+    "hooks",
+    "levers",
+    "base-balance"
+  ],
+  "locale": "vi",
+  "title": "X-Guard",
   "description": "X-Guard dùng chân trên hông và wrap leg để off-balance và sweep từ bottom, kiểm soát hip line của passer.",
   "topPlayerGoals": [
     "Người ở trên muốn kiểm soát X-Guard bằng vị trí đầu, vị trí trong và áp lực có hướng.",
@@ -42,15 +52,5 @@
     "Khuỷu tay tách khỏi sườn hoặc đầu gối.",
     "Đường hông bị khóa trong khi đường vai vẫn đang bị kéo.",
     "Bạn phải chống tay dài để không ngã."
-  ],
-  "relatedSkillIds": [
-    "x-guard-control",
-    "single-leg-x-control",
-    "k-guard-matrix"
-  ],
-  "relatedConceptIds": [
-    "hooks",
-    "levers",
-    "base-balance"
   ]
 }

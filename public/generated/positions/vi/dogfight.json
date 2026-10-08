@@ -1,9 +1,19 @@
 {
   "id": "dogfight",
-  "locale": "vi",
-  "title": "Dogfight",
   "category": "scramble",
   "status": "neutral",
+  "relatedSkillIds": [
+    "half-guard-wrestle-up",
+    "single-leg-bjj",
+    "mat-return-basics"
+  ],
+  "relatedConceptIds": [
+    "wrestle-up-philosophy",
+    "head-position",
+    "base-balance"
+  ],
+  "locale": "vi",
+  "title": "Dogfight",
   "description": "Hai người ở trên một gối hoặc hông trong cuộc đấu underhook với whizzer từ Half Guard hoặc wrestle-up.",
   "topPlayerGoals": [
     "Người ở trên muốn kiểm soát Dogfight bằng vị trí đầu, vị trí trong và áp lực có hướng.",
@@ -42,15 +52,5 @@
     "Khuỷu tay tách khỏi sườn hoặc đầu gối.",
     "Đường hông bị khóa trong khi đường vai vẫn đang bị kéo.",
     "Bạn phải chống tay dài để không ngã."
-  ],
-  "relatedSkillIds": [
-    "half-guard-wrestle-up",
-    "single-leg-bjj",
-    "mat-return-basics"
-  ],
-  "relatedConceptIds": [
-    "wrestle-up-philosophy",
-    "head-position",
-    "base-balance"
   ]
 }

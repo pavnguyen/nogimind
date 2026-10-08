@@ -1,0 +1,17 @@
+{
+  "id": "de-la-riva-guard",
+  "category": "bottom_guard",
+  "status": "neutral",
+  "relatedSkillIds": [
+    "de-la-riva-sweeps",
+    "de-la-riva-back-take",
+    "x-guard-control",
+    "single-leg-x-control",
+    "guard-pulling-strategy"
+  ],
+  "relatedConceptIds": [
+    "hooks",
+    "guard-retention-layers",
+    "angle-creation"
+  ]
+}

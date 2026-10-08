@@ -3,10 +3,10 @@
   "locale": "vi",
   "name": "Đấu tay đôi",
   "description": "Giành chiến thắng trong cuộc đấu tay đôi để kiểm soát cổ tay, dây buộc bên trong, underhooks và vị trí đầu. Đấu tay đôi là cuộc chiến giành quyền kiểm soát diễn ra trước bất kỳ kỹ thuật nào - bên nào thắng trong trận đấu tay đôi sẽ quyết định giao chiến.",
-  "shortInstruction": "Giành chiến thắng ở thế hòa bên trong, kiểm soát cổ tay an toàn, tranh giành underhook và thiết lập vị trí đầu. Nếu bạn mất khả năng cầm vợt, hãy đập vào trong ngay lập tức - đừng đánh từ vị trí bên ngoài.",
-  "summary": "Đấu tay đôi là trận chiến vô hình của việc kiểm soát độ bám, cổ tay và cánh tay nhằm xác định ai là người bắt đầu hạ gục, Guard chuyền hoặc Guard kéo. Các nguyên tắc chính là: (1) inside control đánh bạiside control, bàn tay của bạn ở giữa cánh tay và cơ thể của họ kiểm soát trung tâm của họ, (2) hai chọi một đánh một đối một, sử dụng cả hai tay trên một cánh tay của họ để tạo lợi thế, (3) đánh lùi ngay lập tức khi bạn mất vị trí bên trong, không nắm lấy từ bên ngoài, (4) vị trí đầu kiểm soát vị trí cơ thể, underhook yêu cầu kiểm soát đầu để có hiệu quả.",
+  "shortInstruction": "Giành chiến thắng ở thế hòa bên trong, kiểm soát cổ tay an toàn, tranh giành underhook và thiết lập vị trí đầu. Nếu bạn mất khả năng cầm vợt, hãy pummeling vào trong ngay lập tức - đừng đánh từ vị trí bên ngoài.",
+  "summary": "Đấu tay đôi là trận chiến vô hình của việc kiểm soát độ bám, cổ tay và cánh tay nhằm xác định ai là người bắt đầu hạ gục, Guard chuyền hoặc Guard kéo. Các nguyên tắc chính là: (1) inside control đánh bạiside control, bàn tay của bạn ở giữa cánh tay và cơ thể của họ kiểm soát trung tâm của họ, (2) hai chọi một đánh một đối một, sử dụng cả hai tay trên một cánh tay của họ để tạo lợi thế, (3) đánh lùi ngay lập tức khi bạn mất vị trí trong, không nắm lấy từ bên ngoài, (4) vị trí đầu kiểm soát vị trí cơ thể, underhook yêu cầu kiểm soát đầu để có hiệu quả.",
   "whyItWorks": [
-    "Vị trí bên trong (tay của bạn ở giữa cánh tay và cơ thể của họ) mang lại cho bạn lợi thế về mặt cơ học - bạn kiểm soát đường trung tâm của họ",
+    "Vị trí trong (tay của bạn ở giữa cánh tay và cơ thể của họ) mang lại cho bạn lợi thế về mặt cơ học - bạn kiểm soát đường trung tâm của họ",
     "Hai chọi một (cả hai tay đặt trên một cánh tay của họ) tạo ra lợi thế về sức mạnh cục bộ giúp vô hiệu hóa cánh tay còn lại của họ",
     "underhook là trận thắng tay có giá trị nhất vì nó giúp bạn kiểm soát phần thân trên của họ",
     "Vị trí đầu (trán đến hàm của họ) khiến họ không thể tựa lên đầu bạn và phá vỡ tư thế của họ"
@@ -49,7 +49,7 @@
       },
       {
         "condition": "Đối thủ thiết lập underhook",
-        "action": "Chuyển sang underhook ở phía xa (với tay dưới cánh tay xa của họ) hoặc sử dụng máy rít (overhook) để chống lại underhook của họ. Đẩy vai của bạn vào ngực họ để làm phẳng lại chúng."
+        "action": "Chuyển sang underhook ở phía xa (với tay dưới cánh tay xa của họ) hoặc sử dụng máy rít (overhook) để chống lại underhook của họ. Đẩy vai của bạn vào ngực họ để làm phẳng lại họ."
       }
     ],
     "exitStrategies": [
@@ -64,8 +64,8 @@
     "Đánh tay đôi là kỹ năng ít được đào tạo nhất trong BJJ, việc thành thạo kỹ năng này mang lại cho bạn lợi thế ngay lập tức trước hầu hết các đối thủ"
   ],
   "fixItFast": [
-    "Nếu họ tiếp tục nắm lấy cổ tay bạn: hãy xoay cổ tay để giải phóng bàn tay của bạn và thiết lập lại vị trí bên trong",
-    "Nếu chúng chắc chắn hơn ở phần cổ áo: chuyển sang overhook hoặc hai chọi một",
+    "Nếu họ tiếp tục nắm lấy cổ tay bạn: hãy xoay cổ tay để giải phóng bàn tay của bạn và thiết lập lại vị trí trong",
+    "Nếu họ chắc chắn hơn ở phần cổ áo: chuyển sang overhook hoặc hai chọi một",
     "Nếu họ tiếp tục đánh vào đầu bạn: hãy đứng rộng hơn và giơ tay lên"
   ]
 }

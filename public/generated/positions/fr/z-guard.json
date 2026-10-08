@@ -1,9 +1,20 @@
 {
   "id": "z-guard",
-  "locale": "fr",
-  "title": "Z-Guard (93 Guard)",
   "category": "bottom_guard",
   "status": "defensive",
+  "relatedSkillIds": [
+    "z-guard-sweeps",
+    "half-guard-knee-shield",
+    "half-guard-wrestle-up",
+    "side-control-escape"
+  ],
+  "relatedConceptIds": [
+    "wedges",
+    "inside-position",
+    "elbow-knee-connection"
+  ],
+  "locale": "fr",
+  "title": "Z-Guard (93 Guard)",
   "description": "Z-Guard est un Half Guard profond avec knee shield, utilisant le tibia et l’underhook pour bloquer le crossface et préparer le wrestle-up.",
   "topPlayerGoals": [
     "Le joueur du dessus veut contrôler Z-Guard (93 Guard) avec la position de tête, la position intérieure et une pression orientée.",
@@ -42,16 +53,5 @@
     "Le coude se sépare des côtes ou du genou.",
     "La ligne des hanches est verrouillée pendant que la ligne des épaules est encore tirée.",
     "Vous devez poser une main loin pour éviter de tomber."
-  ],
-  "relatedSkillIds": [
-    "z-guard-sweeps",
-    "half-guard-knee-shield",
-    "half-guard-wrestle-up",
-    "side-control-escape"
-  ],
-  "relatedConceptIds": [
-    "wedges",
-    "inside-position",
-    "elbow-knee-connection"
   ]
 }

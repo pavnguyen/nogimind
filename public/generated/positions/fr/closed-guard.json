@@ -1,9 +1,22 @@
 {
   "id": "closed-guard",
-  "locale": "fr",
-  "title": "Garde fermée",
   "category": "bottom_guard",
   "status": "neutral",
+  "relatedSkillIds": [
+    "closed-guard-posture-control",
+    "closed-guard-sweeps",
+    "clamp-guard-control",
+    "armbar-system",
+    "triangle-system",
+    "kimura-system"
+  ],
+  "relatedConceptIds": [
+    "control-before-submission",
+    "levers",
+    "angle-creation"
+  ],
+  "locale": "fr",
+  "title": "Garde fermée",
   "description": "Le joueur en garde verrouille ses jambes autour des hanches du passeur pour contrôler la posture et préparer soumissions ou sweeps.",
   "topPlayerGoals": [
     "Le joueur du dessus veut contrôler Garde fermée avec la position de tête, la position intérieure et une pression orientée.",
@@ -42,18 +55,5 @@
     "Le coude se sépare des côtes ou du genou.",
     "La ligne des hanches est verrouillée pendant que la ligne des épaules est encore tirée.",
     "Vous devez poser une main loin pour éviter de tomber."
-  ],
-  "relatedSkillIds": [
-    "closed-guard-posture-control",
-    "closed-guard-sweeps",
-    "clamp-guard-control",
-    "armbar-system",
-    "triangle-system",
-    "kimura-system"
-  ],
-  "relatedConceptIds": [
-    "control-before-submission",
-    "levers",
-    "angle-creation"
   ]
 }

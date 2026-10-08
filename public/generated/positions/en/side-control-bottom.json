@@ -1,9 +1,19 @@
 {
   "id": "side-control-bottom",
-  "locale": "en",
-  "title": "Side Control Bottom",
   "category": "pin",
   "status": "dangerous",
+  "relatedSkillIds": [
+    "side-control-survival",
+    "side-control-escape",
+    "frames-pummeling"
+  ],
+  "relatedConceptIds": [
+    "frames",
+    "elbow-knee-connection",
+    "early-vs-late-defense"
+  ],
+  "locale": "en",
+  "title": "Side Control Bottom",
   "description": "The bottom player is pinned chest-to-chest or controlled by a crossface and underhook, and must survive before escaping.",
   "topPlayerGoals": [
     "The top player wants to control Side Control Bottom through head position, inside position, and directed pressure.",
@@ -42,15 +52,5 @@
     "The elbow separates from the ribs or knee.",
     "The hip line is locked while the shoulder line is still being pulled.",
     "You need a long hand post to avoid falling."
-  ],
-  "relatedSkillIds": [
-    "side-control-survival",
-    "side-control-escape",
-    "frames-pummeling"
-  ],
-  "relatedConceptIds": [
-    "frames",
-    "elbow-knee-connection",
-    "early-vs-late-defense"
   ]
 }

@@ -1,9 +1,20 @@
 {
   "id": "knee-on-belly",
-  "locale": "fr",
-  "title": "Genou sur le ventre",
   "category": "top_control",
   "status": "advantage",
+  "relatedSkillIds": [
+    "knee-on-belly-control",
+    "side-control-pin",
+    "mount-control",
+    "kimura-system"
+  ],
+  "relatedConceptIds": [
+    "pressure-direction",
+    "control-before-submission",
+    "hip-line-shoulder-line"
+  ],
+  "locale": "fr",
+  "title": "Genou sur le ventre",
   "description": "Le joueur du dessus pose un genou sur le ventre ou la hanche adverse, créant pression et transitions rapides vers pass, Mount ou soumissions.",
   "topPlayerGoals": [
     "Le joueur du dessus veut contrôler Genou sur le ventre avec la position de tête, la position intérieure et une pression orientée.",
@@ -42,16 +53,5 @@
     "Le coude se sépare des côtes ou du genou.",
     "La ligne des hanches est verrouillée pendant que la ligne des épaules est encore tirée.",
     "Vous devez poser une main loin pour éviter de tomber."
-  ],
-  "relatedSkillIds": [
-    "knee-on-belly-control",
-    "side-control-pin",
-    "mount-control",
-    "kimura-system"
-  ],
-  "relatedConceptIds": [
-    "pressure-direction",
-    "control-before-submission",
-    "hip-line-shoulder-line"
   ]
 }

@@ -55,7 +55,7 @@
   "keyCorrections": [
     "Nếu cảm thấy cuộn cảm bị lỏng, nghĩa là cánh tay của bạn chưa đủ sâu - hãy luồn sâu hơn vào dưới cổ họ.",
     "Nếu họ xếp bạn lên, đầu bạn quá thấp - hãy đưa đầu bạn ngang tầm hông họ.",
-    "Nếu chúng lăn qua, hãy đi theo vòng quay của chúng và tấn công lại từ phía bên kia."
+    "Nếu họ lăn qua, hãy đi theo vòng quay của họ và tấn công lại từ phía bên kia."
   ],
   "version": 1,
   "updatedAt": "2026-05-21T00:24:30.767Z",
@@ -104,7 +104,7 @@
       },
       {
         "condition": "Ứng dụng chung",
-        "action": "Từ D'arce, nếu họ trốn thoát, hãy chuyển sang Side Control hoặc quay lại."
+        "action": "Từ D'arce, nếu họ thoát, hãy chuyển sang Side Control hoặc quay lại."
       }
     ],
     "exitStrategies": []
@@ -113,7 +113,7 @@
     "Luồn cánh tay đang bị nghẹn của bạn càng sâu càng tốt - vai của bạn phải áp vào tai họ.",
     "Khóa hình số bốn phải ở khuỷu tay của bạn chứ không phải cổ tay của bạn - điều này tối đa hóa đòn bẩy.",
     "Giảm trọng lượng của bạn bằng cách hạ ngực xuống thảm - điều này sẽ đẩy vai bạn vào cổ họ.",
-    "Giữ đầu của bạn ở phía đối diện với cuộn cảm để ngăn chúng lăn bạn."
+    "Giữ đầu của bạn ở phía đối diện với cuộn cảm để ngăn họ lăn bạn."
   ],
   "nextStep": "Sau D'arce, hãy tìm hiểu Anaconda cuộn cảm và Guillotine để xâu chuỗi từ Front Headlock.",
   "fixItFast": [

@@ -1,9 +1,19 @@
 {
   "id": "butterfly-guard",
-  "locale": "fr",
-  "title": "Garde papillon",
   "category": "bottom_guard",
   "status": "neutral",
+  "relatedSkillIds": [
+    "butterfly-guard-off-balance",
+    "seated-guard-retention",
+    "bodylock-pass"
+  ],
+  "relatedConceptIds": [
+    "hooks",
+    "base-balance",
+    "levers"
+  ],
+  "locale": "fr",
+  "title": "Garde papillon",
   "description": "Une garde qui utilise les hooks papillon pour soulever les hanches adverses, forcer les appuis et passer aux sweeps ou wrestle-ups.",
   "topPlayerGoals": [
     "Le joueur du dessus veut contrôler Garde papillon avec la position de tête, la position intérieure et une pression orientée.",
@@ -32,7 +42,7 @@
       "relatedSkillIds": [
         "butterfly-guard-off-balance",
         "seated-guard-retention",
-        "bodylock-passing"
+        "bodylock-pass"
       ],
       "why": "C’est la branche naturelle lorsque vous gagnez le point de contrôle principal et que l’adversaire est forcé de défendre."
     }
@@ -42,15 +52,5 @@
     "Le coude se sépare des côtes ou du genou.",
     "La ligne des hanches est verrouillée pendant que la ligne des épaules est encore tirée.",
     "Vous devez poser une main loin pour éviter de tomber."
-  ],
-  "relatedSkillIds": [
-    "butterfly-guard-off-balance",
-    "seated-guard-retention",
-    "bodylock-passing"
-  ],
-  "relatedConceptIds": [
-    "hooks",
-    "base-balance",
-    "levers"
   ]
 }

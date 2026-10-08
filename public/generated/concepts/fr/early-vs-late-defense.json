@@ -1,7 +1,5 @@
 {
   "id": "early-vs-late-defense",
-  "locale": "fr",
-  "title": "Défense tôt vs tard",
   "category": "defensive",
   "level": "fundamental",
   "tags": [
@@ -9,6 +7,19 @@
     "safety",
     "recognition"
   ],
+  "relatedSkillIds": [
+    "leg-lock-safety-basics",
+    "front-headlock-defense",
+    "back-survival",
+    "mount-survival"
+  ],
+  "relatedConceptIds": [
+    "knee-line",
+    "elbow-knee-connection",
+    "positional-hierarchy"
+  ],
+  "locale": "fr",
+  "title": "Défense tôt vs tard",
   "shortDefinition": "Défense tôt traite signaux avant lock; défense tard traite force déjà appliquée.",
   "whyItMatters": "Le no-gi moderne est rapide: défense tôt économise énergie et sécurité.",
   "deepExplanation": "Défense tôt: menton avant chin strap, knee line avant talon, coude-genou avant chest-to-chest. Défense tard exige tap/reset si danger.",
@@ -16,16 +27,5 @@
   "advancedView": "Créer systèmes de cues pour cou, knee line, shoulder line, back exposure.",
   "ifThenExamples": [],
   "commonMisunderstandings": [],
-  "trainingCues": [],
-  "relatedSkillIds": [
-    "leg-lock-safety-basics",
-    "front-headlock-defense",
-    "back-survival",
-    "Mount-survival"
-  ],
-  "relatedConceptIds": [
-    "knee-line",
-    "elbow-knee-connection",
-    "positional-hierarchy"
-  ]
+  "trainingCues": []
 }

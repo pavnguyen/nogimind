@@ -73,7 +73,7 @@
   "summary": "Half Guard lối thoát phía dưới sử dụng underhook và vị trí đầu gối bên ngoài để tạo một mục nhập không chiến, từ đó bạn có thể wrestle up, quét hoặc phục hồi toàn bộ Guard. Hệ thống khen thưởng khả năng di chuyển của hông và vị trí đầu hơn sức mạnh của phần trên cơ thể.",
   "whyItWorks": [
     "underhook loại bỏ mối đe dọa crossface của đối thủ và cho phép bạn kiểm soát tư thế phần thân trên của họ",
-    "Đầu gối bên ngoài ngang qua lưng tạo ra một cái nêm có cấu trúc ngăn không cho chúng đè bẹp bạn xuống",
+    "Đầu gối bên ngoài ngang qua lưng tạo ra một wedge có cấu trúc ngăn không cho họ đè bẹp bạn xuống",
     "Tư thế không chiến mang lại cho bạn ba nhánh: một chân (wrestle up), chạm đầu gối (quét) hoặc re-Guard (hồi phục bướm)",
     "Việc giành được vị trí đầu (trán đến hàm của họ) sẽ ngăn họ đè bẹp bạn bằng áp lực từ vai"
   ],
@@ -98,7 +98,7 @@
     "decisionTree": [
       {
         "condition": "Ứng dụng chung",
-        "action": "Nếu Bước 1, Quay sang một bên: trước khi với lấy bất cứ thứ gì, hãy quay nghiêng về phía đối thủ. Điều này căn chỉnh bộ xương của bạn cho phù hợp với khung và ngăn chúng làm phẳng bạn"
+        "action": "Nếu Bước 1, Quay sang một bên: trước khi với lấy bất cứ thứ gì, hãy quay nghiêng về phía đối thủ. Điều này căn chỉnh bộ xương của bạn cho phù hợp với khung và ngăn họ làm phẳng bạn"
       },
       {
         "condition": "Ứng dụng chung",
@@ -118,10 +118,10 @@
   "moneyDetails": [
     "Half Guard phía dưới là một trong những vị trí phổ biến nhất trong BJJ, một lối thoát đáng tin cậy ở đây cải thiện đáng kể trò chơi tổng thể của bạn",
     "Việc thoát Half Guard thành công sẽ dẫn trực tiếp đến vị trí hàng đầu thống trị (Side Control hoặc Mount thông qua đường chuyền)",
-    "Thoát khỏi Half Guard để vật lộn sẽ ghi điểm trong cuộc thi (2 điểm) và thiết lập quyền kiểm soát hàng đầu"
+    "Thoát khỏi Half Guard để vật sẽ ghi điểm trong cuộc thi (2 điểm) và thiết lập quyền kiểm soát hàng đầu"
   ],
   "fixItFast": [
-    "Nếu họ đè bẹp bạn trước khi bạn nhận được underhook: hãy đi sâu Half Guard và quét chúng qua chân bị mắc kẹt",
+    "Nếu họ đè bẹp bạn trước khi bạn nhận được underhook: hãy đi sâu Half Guard và quét họ qua chân bị mắc kẹt",
     "Nếu họ crossface bạn cứng: giấu đầu đi, đi về phía bạn và dùng cánh tay trên của bạn để ôm vào bắp tay của họ thay vì với tới underhook",
     "Nếu đầu gối của họ trượt qua Half Guard của bạn: ngay lập tức lao vào họ, kẹp chân đang chuyền của họ vào giữa chân của bạn và đánh lại underhook"
   ]

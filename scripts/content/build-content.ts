@@ -450,11 +450,32 @@ interface ConceptLocation {
   id: string
 }
 
+/**
+ * Order discovered ids by the canonical list in content/shared/<kind>.json.
+ * Ids missing from the list keep a stable alphabetical position at the end, so
+ * a new folder is never silently dropped from the manifest.
+ */
+function orderByIds(ids: string[], orderList: string[]): string[] {
+  const rank = new Map(orderList.map((id, index) => [id, index]))
+  return [...ids].sort((a, b) => {
+    const ra = rank.get(a) ?? Number.MAX_SAFE_INTEGER
+    const rb = rank.get(b) ?? Number.MAX_SAFE_INTEGER
+    return ra === rb ? a.localeCompare(b) : ra - rb
+  })
+}
+
+function sharedOrder(kind: 'positions' | 'concepts'): string[] {
+  const path = resolve(__dirname, `../../content/shared/${kind}.json`)
+  const rows = readJsonSafe<Array<{ id: string }>>(path) ?? []
+  return Array.isArray(rows) ? rows.map((row) => row.id) : []
+}
+
 function discoverConcepts(): ConceptLocation[] {
   const root = resolve(__dirname, '../../content/concepts')
   if (!existsSync(root)) return []
   const dirs = readdirSync(root, { withFileTypes: true }).filter(d => d.isDirectory())
-  return dirs.map(d => ({ id: d.name }))
+  const ids = orderByIds(dirs.map(d => d.name), sharedOrder('concepts'))
+  return ids.map(id => ({ id }))
 }
 
 // ── Discover positions from content/positions/ ──────────────────────────────
@@ -467,7 +488,8 @@ function discoverPositions(): PositionLocation[] {
   const root = resolve(__dirname, '../../content/positions')
   if (!existsSync(root)) return []
   const dirs = readdirSync(root, { withFileTypes: true }).filter(d => d.isDirectory())
-  return dirs.map(d => ({ id: d.name }))
+  const ids = orderByIds(dirs.map(d => d.name), sharedOrder('positions'))
+  return ids.map(id => ({ id }))
 }
 
 // ── Build concept manifest & details ────────────────────────────────────────

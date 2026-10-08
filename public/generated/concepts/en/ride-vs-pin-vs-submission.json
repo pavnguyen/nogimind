@@ -1,7 +1,5 @@
 {
   "id": "ride-vs-pin-vs-submission",
-  "locale": "en",
-  "title": "Ride vs Pin vs Submission",
   "category": "strategic",
   "level": "advanced",
   "tags": [
@@ -11,20 +9,12 @@
     "phase",
     "decision"
   ],
-  "shortDefinition": "Three different phases: ride to expose the back, pin to stabilize the position, submission to finish.",
-  "whyItMatters": "Confusing ride with pin makes you lose the back or submission when you have good control.",
-  "deepExplanation": "Ride is moving with reactions to find the back (turtle, crab, wrist ride). Pin is stabilizing hip and shoulder lines (side, Mount). Submission is isolating a specific line. Wrong phase breaks the system.",
-  "beginnerView": "Are you moving (ride) or stabilized (pin)?",
-  "advancedView": "Transition phases smoothly: ride → back exposure → pin → submission. Do not skip phases.",
-  "ifThenExamples": [],
-  "commonMisunderstandings": [],
-  "trainingCues": [],
   "relatedSkillIds": [
     "turtle-ride",
     "cross-wrist-ride",
     "claw-ride",
     "side-control-pin",
-    "Mount-control",
+    "mount-control",
     "rear-naked-choke-system",
     "back-control"
   ],
@@ -32,5 +22,15 @@
     "positional-hierarchy",
     "control-before-submission",
     "exposure-before-finish"
-  ]
+  ],
+  "locale": "en",
+  "title": "Ride vs Pin vs Submission",
+  "shortDefinition": "Three different phases: ride to expose the back, pin to stabilize the position, submission to finish.",
+  "whyItMatters": "Confusing ride with pin makes you lose the back or submission when you have good control.",
+  "deepExplanation": "Ride is moving with reactions to find the back (turtle, crab, wrist ride). Pin is stabilizing hip and shoulder lines (side, Mount). Submission is isolating a specific line. Wrong phase breaks the system.",
+  "beginnerView": "Are you moving (ride) or stabilized (pin)?",
+  "advancedView": "Transition phases smoothly: ride → back exposure → pin → submission. Do not skip phases.",
+  "ifThenExamples": [],
+  "commonMisunderstandings": [],
+  "trainingCues": []
 }

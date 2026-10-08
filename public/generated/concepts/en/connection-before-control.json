@@ -1,7 +1,5 @@
 {
   "id": "connection-before-control",
-  "locale": "en",
-  "title": "Connection Before Control",
   "category": "mechanical",
   "level": "fundamental",
   "tags": [
@@ -9,6 +7,19 @@
     "pressure",
     "control"
   ],
+  "relatedSkillIds": [
+    "bodylock-pass",
+    "back-control",
+    "side-control-pin",
+    "arm-triangle-mount"
+  ],
+  "relatedConceptIds": [
+    "pressure-direction",
+    "control-before-submission",
+    "hooks"
+  ],
+  "locale": "en",
+  "title": "Connection Before Control",
   "shortDefinition": "You must attach the correct body points before trying to hold or steer the opponent.",
   "whyItMatters": "Without connection, pressure is just strength; the opponent rotates, frames, or exits angle.",
   "deepExplanation": "Connection is chest-to-back, chest-to-hip, elbow-knee, head-to-ribs, or grip-to-hip. It sends force through structure and weight instead of biceps.",
@@ -16,16 +27,5 @@
   "advancedView": "Change connection as phases change: passing, pinning, submissions, and retention use different anchors.",
   "ifThenExamples": [],
   "commonMisunderstandings": [],
-  "trainingCues": [],
-  "relatedSkillIds": [
-    "bodylock-passing",
-    "back-control",
-    "side-control-pin",
-    "arm-triangle-Mount"
-  ],
-  "relatedConceptIds": [
-    "pressure-direction",
-    "control-before-submission",
-    "hooks"
-  ]
+  "trainingCues": []
 }

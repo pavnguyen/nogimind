@@ -1,9 +1,19 @@
 {
   "id": "back-escape-position",
-  "locale": "fr",
-  "title": "Position de sortie du dos",
   "category": "back",
   "status": "dangerous",
+  "relatedSkillIds": [
+    "back-escape",
+    "back-control",
+    "mount-control"
+  ],
+  "relatedConceptIds": [
+    "early-vs-late-defense",
+    "hooks",
+    "hip-line-shoulder-line"
+  ],
+  "locale": "fr",
+  "title": "Position de sortie du dos",
   "description": "Le défenseur sort du contrôle du dos par le hand fighting, l’épaule au tapis et le retrait du hook.",
   "topPlayerGoals": [
     "Le joueur du dessus veut contrôler Position de sortie du dos avec la position de tête, la position intérieure et une pression orientée.",
@@ -42,15 +52,5 @@
     "Le coude se sépare des côtes ou du genou.",
     "La ligne des hanches est verrouillée pendant que la ligne des épaules est encore tirée.",
     "Vous devez poser une main loin pour éviter de tomber."
-  ],
-  "relatedSkillIds": [
-    "back-escape",
-    "back-control",
-    "mount-control"
-  ],
-  "relatedConceptIds": [
-    "early-vs-late-defense",
-    "hooks",
-    "hip-line-shoulder-line"
   ]
 }

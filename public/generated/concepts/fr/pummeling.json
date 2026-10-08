@@ -1,7 +1,5 @@
 {
   "id": "pummeling",
-  "locale": "fr",
-  "title": "Pummeling",
   "category": "mechanical",
   "level": "fundamental",
   "tags": [
@@ -9,6 +7,19 @@
     "inside position",
     "underhook"
   ],
+  "relatedSkillIds": [
+    "frames-pummeling",
+    "hand-fighting",
+    "half-guard-wrestle-up",
+    "bodylock-pass"
+  ],
+  "relatedConceptIds": [
+    "inside-position",
+    "frames",
+    "failure-response"
+  ],
+  "locale": "fr",
+  "title": "Pummeling",
   "shortDefinition": "Pummeling est la bataille répétée pour reprendre les lignes inside avec mains, tête, genoux ou hanches.",
   "whyItMatters": "En no-gi sans grips kimono, pummeling reconstruit contrôle après chaque réaction.",
   "deepExplanation": "Pummeling n’est pas seulement underhook. Guard retention a knee pummel; leg locks knee line; Front Headlock elbow/chin.",
@@ -16,16 +27,5 @@
   "advancedView": "Pummel selon réaction: là où il frame, une autre ligne inside s’ouvre.",
   "ifThenExamples": [],
   "commonMisunderstandings": [],
-  "trainingCues": [],
-  "relatedSkillIds": [
-    "frames-pummeling",
-    "hand-fighting",
-    "half-Guard-wrestle-up",
-    "bodylock-passing"
-  ],
-  "relatedConceptIds": [
-    "inside-position",
-    "frames",
-    "failure-response"
-  ]
+  "trainingCues": []
 }

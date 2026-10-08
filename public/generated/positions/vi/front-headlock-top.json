@@ -1,9 +1,19 @@
 {
   "id": "front-headlock-top",
-  "locale": "vi",
-  "title": "Front Headlock Trên",
   "category": "front_headlock",
   "status": "advantage",
+  "relatedSkillIds": [
+    "snapdown-front-headlock",
+    "guillotine-system",
+    "sprawl-go-behind"
+  ],
+  "relatedConceptIds": [
+    "head-position",
+    "control-before-submission",
+    "early-vs-late-defense"
+  ],
+  "locale": "vi",
+  "title": "Front Headlock Trên",
   "description": "Người ở trên kiểm soát đầu và cổ từ phía trước, đe dọa go-behind, Guillotine hoặc back take.",
   "topPlayerGoals": [
     "Người ở trên muốn kiểm soát Front Headlock Trên bằng vị trí đầu, vị trí trong và áp lực có hướng.",
@@ -42,15 +52,5 @@
     "Khuỷu tay tách khỏi sườn hoặc đầu gối.",
     "Đường hông bị khóa trong khi đường vai vẫn đang bị kéo.",
     "Bạn phải chống tay dài để không ngã."
-  ],
-  "relatedSkillIds": [
-    "snapdown-front-headlock",
-    "guillotine-system",
-    "sprawl-go-behind"
-  ],
-  "relatedConceptIds": [
-    "head-position",
-    "control-before-submission",
-    "early-vs-late-defense"
   ]
 }

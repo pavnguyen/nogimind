@@ -1,0 +1,15 @@
+{
+  "id": "arm-triangle-threat",
+  "category": "submission_threat",
+  "status": "critical",
+  "relatedSkillIds": [
+    "arm-triangle-mount",
+    "mount-control",
+    "side-control-pin"
+  ],
+  "relatedConceptIds": [
+    "control-before-submission",
+    "angle-creation",
+    "pressure-direction"
+  ]
+}

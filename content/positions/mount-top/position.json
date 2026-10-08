@@ -1,0 +1,15 @@
+{
+  "id": "mount-top",
+  "category": "pin",
+  "status": "dominant",
+  "relatedSkillIds": [
+    "mount-control",
+    "mount-escape",
+    "arm-triangle-mount"
+  ],
+  "relatedConceptIds": [
+    "control-before-submission",
+    "elbow-knee-connection",
+    "pressure-direction"
+  ]
+}

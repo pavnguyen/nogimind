@@ -1,9 +1,19 @@
 {
   "id": "arm-triangle-threat",
-  "locale": "vi",
-  "title": "Đe dọa Arm Triangle",
   "category": "submission_threat",
   "status": "critical",
+  "relatedSkillIds": [
+    "arm-triangle-mount",
+    "mount-control",
+    "side-control-pin"
+  ],
+  "relatedConceptIds": [
+    "control-before-submission",
+    "angle-creation",
+    "pressure-direction"
+  ],
+  "locale": "vi",
+  "title": "Đe dọa Arm Triangle",
   "description": "Attacker đã đưa tay đối thủ qua đường cổ và đang tìm shoulder pressure cùng góc để finish.",
   "topPlayerGoals": [
     "Người ở trên muốn kiểm soát Đe dọa Arm Triangle bằng vị trí đầu, vị trí trong và áp lực có hướng.",
@@ -42,15 +52,5 @@
     "Khuỷu tay tách khỏi sườn hoặc đầu gối.",
     "Đường hông bị khóa trong khi đường vai vẫn đang bị kéo.",
     "Bạn phải chống tay dài để không ngã."
-  ],
-  "relatedSkillIds": [
-    "arm-triangle-mount",
-    "mount-control",
-    "side-control-pin"
-  ],
-  "relatedConceptIds": [
-    "control-before-submission",
-    "angle-creation",
-    "pressure-direction"
   ]
 }

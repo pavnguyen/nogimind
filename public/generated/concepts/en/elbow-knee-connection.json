@@ -1,7 +1,5 @@
 {
   "id": "elbow-knee-connection",
-  "locale": "en",
-  "title": "Elbow-Knee Connection",
   "category": "defensive",
   "level": "fundamental",
   "tags": [
@@ -9,6 +7,19 @@
     "escape",
     "Guard retention"
   ],
+  "relatedSkillIds": [
+    "side-control-escape",
+    "mount-escape",
+    "seated-guard-retention",
+    "back-escape"
+  ],
+  "relatedConceptIds": [
+    "frames",
+    "guard-retention-layers",
+    "early-vs-late-defense"
+  ],
+  "locale": "en",
+  "title": "Elbow-Knee Connection",
   "shortDefinition": "Elbow-knee connection closes the space between upper body and hip line to prevent pins and passes.",
   "whyItMatters": "When elbow separates from knee, the opponent inserts chest, knee, hook, or arm isolation.",
   "deepExplanation": "This is a survival principle in Side Control, Mount, Guard retention, and back escape. It rebuilds a defensive layer before shrimping, bridging, or wrestling up.",
@@ -16,16 +27,5 @@
   "advancedView": "Use elbow-knee to bait pressure then switch to underhook, turtle, or Guard recovery.",
   "ifThenExamples": [],
   "commonMisunderstandings": [],
-  "trainingCues": [],
-  "relatedSkillIds": [
-    "side-control-escape",
-    "Mount-escape",
-    "seated-Guard-retention",
-    "back-escape"
-  ],
-  "relatedConceptIds": [
-    "frames",
-    "Guard-retention-layers",
-    "early-vs-late-defense"
-  ]
+  "trainingCues": []
 }

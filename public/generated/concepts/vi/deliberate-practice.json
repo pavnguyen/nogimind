@@ -1,7 +1,5 @@
 {
   "id": "deliberate-practice",
-  "locale": "vi",
-  "title": "Tập luyện có chủ đích",
   "category": "training",
   "level": "fundamental",
   "tags": [
@@ -9,6 +7,19 @@
     "feedback loop",
     "practice"
   ],
+  "relatedSkillIds": [
+    "positional-hierarchy",
+    "failure-response-transitions",
+    "scramble-control",
+    "bodylock-pass"
+  ],
+  "relatedConceptIds": [
+    "positional-rolling",
+    "failure-response",
+    "early-vs-late-defense"
+  ],
+  "locale": "vi",
+  "title": "Tập luyện có chủ đích",
   "shortDefinition": "Tập có chủ đích là chọn một cue nhỏ, đo kết quả và tăng resistance theo từng bước.",
   "whyItMatters": "Biết nhiều kỹ thuật không biến thành skill nếu không có feedback loop.",
   "deepExplanation": "Một block tốt có static reps, progressive resistance, positional rolling, live test và journal. Mỗi vòng trả lời: cue nào chạy, cue nào fail, problem nào lặp lại?",
@@ -16,16 +27,5 @@
   "advancedView": "Thiết kế constraints để ép kỹ năng xuất hiện dưới áp lực thật.",
   "ifThenExamples": [],
   "commonMisunderstandings": [],
-  "trainingCues": [],
-  "relatedSkillIds": [
-    "positional-hierarchy",
-    "failure-response-transitions",
-    "scramble-control",
-    "bodylock-passing"
-  ],
-  "relatedConceptIds": [
-    "positional-rolling",
-    "failure-response",
-    "early-vs-late-defense"
-  ]
+  "trainingCues": []
 }

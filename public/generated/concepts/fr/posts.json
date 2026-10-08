@@ -1,7 +1,5 @@
 {
   "id": "posts",
-  "locale": "fr",
-  "title": "Posts",
   "category": "mechanical",
   "level": "fundamental",
   "tags": [
@@ -9,14 +7,6 @@
     "base",
     "scramble"
   ],
-  "shortDefinition": "Un post est un appui temporaire pour base, changer hanches ou bloquer rotation.",
-  "whyItMatters": "Bon post sauve scramble; mauvais post expose kimura, arm drag ou risque avec bras tendu.",
-  "deepExplanation": "Un post efficace est court, proche épaule/hanche et prêt à rentrer. Ce n’est pas refuge; c’est un temps de transition.",
-  "beginnerView": "Post court puis rentrer; ne pas laisser bras long.",
-  "advancedView": "Piéger les posts adverses pour dilemmes ou mat returns.",
-  "ifThenExamples": [],
-  "commonMisunderstandings": [],
-  "trainingCues": [],
   "relatedSkillIds": [
     "technical-stand-up",
     "front-headlock-defense",
@@ -27,5 +17,15 @@
     "base-balance",
     "levers",
     "early-vs-late-defense"
-  ]
+  ],
+  "locale": "fr",
+  "title": "Posts",
+  "shortDefinition": "Un post est un appui temporaire pour base, changer hanches ou bloquer rotation.",
+  "whyItMatters": "Bon post sauve scramble; mauvais post expose kimura, arm drag ou risque avec bras tendu.",
+  "deepExplanation": "Un post efficace est court, proche épaule/hanche et prêt à rentrer. Ce n’est pas refuge; c’est un temps de transition.",
+  "beginnerView": "Post court puis rentrer; ne pas laisser bras long.",
+  "advancedView": "Piéger les posts adverses pour dilemmes ou mat returns.",
+  "ifThenExamples": [],
+  "commonMisunderstandings": [],
+  "trainingCues": []
 }

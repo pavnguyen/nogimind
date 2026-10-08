@@ -1,9 +1,19 @@
 {
   "id": "half-guard-bottom",
-  "locale": "vi",
-  "title": "Half Guard Dưới",
   "category": "bottom_guard",
   "status": "defensive",
+  "relatedSkillIds": [
+    "half-guard-knee-shield",
+    "half-guard-wrestle-up",
+    "side-control-escape"
+  ],
+  "relatedConceptIds": [
+    "head-position",
+    "elbow-knee-connection",
+    "wrestle-up-philosophy"
+  ],
+  "locale": "vi",
+  "title": "Half Guard Dưới",
   "description": "Người ở dưới giữ một chân của người ở trên, nhưng cần frame hoặc underhook để không bị ép phẳng.",
   "topPlayerGoals": [
     "Người ở trên muốn kiểm soát Half Guard Dưới bằng vị trí đầu, vị trí trong và áp lực có hướng.",
@@ -42,15 +52,5 @@
     "Khuỷu tay tách khỏi sườn hoặc đầu gối.",
     "Đường hông bị khóa trong khi đường vai vẫn đang bị kéo.",
     "Bạn phải chống tay dài để không ngã."
-  ],
-  "relatedSkillIds": [
-    "half-guard-knee-shield",
-    "half-guard-wrestle-up",
-    "side-control-escape"
-  ],
-  "relatedConceptIds": [
-    "head-position",
-    "elbow-knee-connection",
-    "wrestle-up-philosophy"
   ]
 }

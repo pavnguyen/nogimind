@@ -1,9 +1,20 @@
 {
   "id": "reverse-de-la-riva-guard",
-  "locale": "fr",
-  "title": "Garde De La Riva inversée",
   "category": "bottom_guard",
   "status": "defensive",
+  "relatedSkillIds": [
+    "reverse-de-la-riva-transitions",
+    "single-leg-x-control",
+    "kimura-system",
+    "guard-pulling-strategy"
+  ],
+  "relatedConceptIds": [
+    "hooks",
+    "angle-creation",
+    "hip-line-shoulder-line"
+  ],
+  "locale": "fr",
+  "title": "Garde De La Riva inversée",
   "description": "RDLR utilise un hook extérieur de cuisse et une rotation de hanche pour créer angle, balayer ou transiter.",
   "topPlayerGoals": [
     "Le joueur du dessus veut contrôler Garde De La Riva inversée avec la position de tête, la position intérieure et une pression orientée.",
@@ -42,16 +53,5 @@
     "Le coude se sépare des côtes ou du genou.",
     "La ligne des hanches est verrouillée pendant que la ligne des épaules est encore tirée.",
     "Vous devez poser une main loin pour éviter de tomber."
-  ],
-  "relatedSkillIds": [
-    "reverse-de-la-riva-transitions",
-    "single-leg-x-control",
-    "kimura-system",
-    "guard-pulling-strategy"
-  ],
-  "relatedConceptIds": [
-    "hooks",
-    "angle-creation",
-    "hip-line-shoulder-line"
   ]
 }

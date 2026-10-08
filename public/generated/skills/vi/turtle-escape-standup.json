@@ -3,7 +3,7 @@
   "domain": "escapes",
   "level": "intermediate",
   "status": "draft",
-  "name": "Tư thế rùa trốn thoát để đứng lên",
+  "name": "Tư thế rùa thoát để đứng lên",
   "aliases": [
     "turtle stand-up",
     "turtle technical stand-up",
@@ -87,14 +87,14 @@
   "safetySummary": [
     "Đừng chống cự lại cú đánh mạnh đến mức bạn có thể bị vẹo cổ hoặc bị nghẹn - thà thủng lưới và thoát ra ngoài còn hơn là bị nghẹn",
     "Nếu đối thủ có seatbelt chặt chẽ, hãy ưu tiên đánh tay trước khi cố gắng đứng lên",
-    "Granby lăn để trốn thoát Tư thế rùa có thể bị thương ở cổ nếu thực hiện mà không có sự kiểm soát đầu - hãy sử dụng tư thế đứng như một giải pháp thay thế an toàn hơn"
+    "Granby lăn để thoát Tư thế rùa có thể bị thương ở cổ nếu thực hiện mà không có sự kiểm soát đầu - hãy sử dụng tư thế đứng như một giải pháp thay thế an toàn hơn"
   ],
   "systemLogic": {
     "corePrinciple": "Quá trình thoát ra khỏi tư thế đứng của Tư thế rùa tuân theo trình tự năm bước: bảo vệ cổ → trụ một tay → chèn đầu gối → tư thế đứng kỹ thuật → giao chiến",
     "decisionTree": [
       {
         "condition": "Ở Bước 1 (Nhận thức)",
-        "action": "nhận biết mình đang ở thế Tư thế rùa và đối thủ ở trên. Đây là một vị trí phòng thủ - mục tiêu của bạn là trốn thoát chứ không phải ở lại"
+        "action": "nhận biết mình đang ở thế Tư thế rùa và đối thủ ở trên. Đây là một vị trí phòng thủ - mục tiêu của bạn là thoát chứ không phải ở lại"
       },
       {
         "condition": "Ở Bước 2 (Khung)",
@@ -116,7 +116,7 @@
     "exitStrategies": []
   },
   "moneyDetails": [
-    "Tư thế rùa đứng là một kỹ năng có nguồn gốc từ đấu vật được dịch trực tiếp sang BJJ, đây là cách trốn thoát an toàn nhất và tiết kiệm năng lượng nhất của Tư thế rùa",
+    "Tư thế rùa đứng là một kỹ năng có nguồn gốc từ đấu vật được dịch trực tiếp sang BJJ, đây là cách thoát an toàn nhất và tiết kiệm năng lượng nhất của Tư thế rùa",
     "Sử dụng giá đỡ thay vì lăn từ Tư thế rùa sẽ giúp bạn không bị đè bẹp bởi những người cản sau có kinh nghiệm",
     "Một con Tư thế rùa đứng lên nhanh chóng chuyển sang cơ hội hạ gục (chân đơn, chân đôi) thay vì để thủng lưới ở vị trí cuối bảng"
   ],

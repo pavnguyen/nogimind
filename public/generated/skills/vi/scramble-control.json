@@ -45,7 +45,7 @@
   "searchBoost": 1,
   "keyCorrections": [
     "Nếu bạn liên tục thua trong các cuộc tranh giành: bạn đang ưu tiên sai cuộc đua. Luôn xuất phát ở vị trí đứng đầu - nếu bạn thua cuộc đua đối đầu, bạn sẽ thua cuộc tranh giành",
-    "Nếu đối thủ liên tục lùi lại trong các pha tranh giành: bạn đang quay lưng lại. Khoan quay vào chúng (không phải đi) khi cuộc tranh giành bắt đầu",
+    "Nếu đối thủ liên tục lùi lại trong các pha tranh giành: bạn đang quay lưng lại. Khoan quay vào họ (không phải đi) khi cuộc tranh giành bắt đầu",
     "Nếu bạn nhanh chóng mệt mỏi khi tranh giành: bạn đang nín thở và căng cơ hoàn toàn. Thực hành kiểm soát hơi thở và căng thẳng có chọn lọc"
   ],
   "version": 1,
@@ -60,13 +60,13 @@
     "hasStateMachine": false
   },
   "locale": "vi",
-  "description": "Biến các cuộc tranh giành từ sự hỗn loạn thành các cuộc đua ưu tiên: đầu, hông, vị trí bên trong và tiếp xúc phía sau. Tranh giành là một cuộc đua giành quyền kiểm soát vị trí trong đó người đầu tiên thiết lập được cấu trúc sẽ giành chiến thắng.",
-  "shortInstruction": "Giành chiến thắng trong cuộc đua đối đầu (trán tới hàm của họ), đánh bại họ ở vị trí bên trong, giữ hông của bạn ở dưới hông họ và không bao giờ lộ lưng. Người đầu tiên về cấu trúc sẽ thắng cuộc tranh giành.",
-  "summary": "Kiểm soát tranh giành biến các sàn giao dịch hỗn loạn thành một cuộc đua ưu tiên có hệ thống. Bốn mức độ ưu tiên theo thứ tự là: (1) vị trí đầu - đưa trán của bạn chạm vào quai hàm của họ, (2) chiều cao của hông - giữ hông của bạn ở dưới hoặc ngang bằng với họ, (3) vị trí bên trong - đánh tay, đầu gối và khuỷu tay của họ vào làn bên trong và (4) để lộ lưng - không bao giờ lộ lưng. Người cấu trúc đầu tiên buộc đối thủ phải phản ứng và giành được lợi thế về vị trí.",
+  "description": "Biến các cuộc tranh giành từ sự hỗn loạn thành các cuộc đua ưu tiên: đầu, hông, vị trí trong và tiếp xúc phía sau. Tranh giành là một cuộc đua giành quyền kiểm soát vị trí trong đó người đầu tiên thiết lập được cấu trúc sẽ giành chiến thắng.",
+  "shortInstruction": "Giành chiến thắng trong cuộc đua đối đầu (trán tới hàm của họ), đánh bại họ ở vị trí trong, giữ hông của bạn ở dưới hông họ và không bao giờ lộ lưng. Người đầu tiên về cấu trúc sẽ thắng cuộc tranh giành.",
+  "summary": "Kiểm soát tranh giành biến các sàn giao dịch hỗn loạn thành một cuộc đua ưu tiên có hệ thống. Bốn mức độ ưu tiên theo thứ tự là: (1) vị trí đầu - đưa trán của bạn chạm vào quai hàm của họ, (2) chiều cao của hông - giữ hông của bạn ở dưới hoặc ngang bằng với họ, (3) vị trí trong - đánh tay, đầu gối và khuỷu tay của họ vào làn bên trong và (4) để lộ lưng - không bao giờ lộ lưng. Người cấu trúc đầu tiên buộc đối thủ phải phản ứng và giành được lợi thế về vị trí.",
   "whyItWorks": [
-    "Vị trí đầu xác định hướng của cuộc tranh giành - vận động viên vật lộn với khả năng điều khiển từ trán đến hàm sẽ quyết định hướng đầu của đối thủ đi và do đó cơ thể của họ sẽ di chuyển theo",
+    "Vị trí đầu xác định hướng của cuộc tranh giành - võ sĩ với khả năng điều khiển từ trán đến hàm sẽ quyết định hướng đầu của đối thủ đi và do đó cơ thể của họ sẽ di chuyển theo",
     "Vị trí hông thấp hơn mang lại cho bạn lợi thế về mặt cơ học - bạn có thể nâng, đẩy và đặt chân từ bên dưới hiệu quả hơn từ bên trên",
-    "Vị trí bên trong (đầu gối của bạn bên trong đường đầu gối của họ, khuỷu tay của bạn bên trong đường khuỷu tay của họ) giúp bạn kiểm soát trục trung tâm của cơ thể họ",
+    "Vị trí trong (đầu gối của bạn bên trong đường đầu gối của họ, khuỷu tay của bạn bên trong đường khuỷu tay của họ) giúp bạn kiểm soát trục trung tâm của cơ thể họ",
     "Không bao giờ quay lưng lại sẽ ngăn đối thủ ghi được tiến bộ về vị trí có giá trị cao nhất (quay lại)"
   ],
   "commonMistakes": [
@@ -88,19 +88,19 @@
     "Việc tranh giành gần mép thảm làm tăng nguy cơ chấn thương - được kiểm soát chặt chẽ hơn khi ở gần ranh giới"
   ],
   "systemLogic": {
-    "corePrinciple": "Hệ thống ưu tiên tranh giành có bốn cuộc đua theo thứ tự quan trọng nghiêm ngặt: Đầu: Hông → Vị trí bên trong → Tiếp xúc phía sau",
+    "corePrinciple": "Hệ thống ưu tiên tranh giành có bốn cuộc đua theo thứ tự quan trọng nghiêm ngặt: Đầu: Hông → Vị trí trong → Tiếp xúc phía sau",
     "decisionTree": [
       {
         "condition": "Ở Cuộc đua 1 (Đầu)",
-        "action": "vận động viên vật lộn đầu tiên thiết lập được khả năng kiểm soát từ trán đến hàm (hoặc từ má đến ngực) sẽ giành chiến thắng trong cuộc tranh giành. Vị trí đầu quyết định hướng của cơ thể. Nếu bạn thua cuộc đua đối đầu, mọi cuộc đua sau sẽ khó khăn hơn"
+        "action": "võ sĩ đầu tiên thiết lập được khả năng kiểm soát từ trán đến hàm (hoặc từ má đến ngực) sẽ giành chiến thắng trong cuộc tranh giành. Vị trí đầu quyết định hướng của cơ thể. Nếu bạn thua cuộc đua đối đầu, mọi cuộc đua sau sẽ khó khăn hơn"
       },
       {
         "condition": "Ở Cuộc đua 2 (Hông)",
-        "action": "vận động viên vật lộn với vị trí hông thấp hơn có lợi thế về mặt cơ học. Nếu hông của bạn cao hơn hông của họ, họ có thể nâng cao và định hướng lại bạn. Nếu hông của bạn thấp hơn, bạn có thể đứng, lái và nâng hiệu quả hơn"
+        "action": "võ sĩ với vị trí hông thấp hơn có lợi thế về mặt cơ học. Nếu hông của bạn cao hơn hông của họ, họ có thể nâng cao và định hướng lại bạn. Nếu hông của bạn thấp hơn, bạn có thể đứng, lái và nâng hiệu quả hơn"
       },
       {
-        "condition": "Ở Cuộc đua 3 (Vị trí bên trong)",
-        "action": "Khi đầu và hông đã ổn định, hãy tranh giành vị trí bên trong. Đầu gối của bạn phải nằm trong đường đầu gối của họ, khuỷu tay của bạn phải nằm trong đường khuỷu tay của họ. Vị trí bên trong cho phép bạn điều khiển trục trung tâm"
+        "condition": "Ở Cuộc đua 3 (Vị trí trong)",
+        "action": "Khi đầu và hông đã ổn định, hãy tranh giành vị trí trong. Đầu gối của bạn phải nằm trong đường đầu gối của họ, khuỷu tay của bạn phải nằm trong đường khuỷu tay của họ. Vị trí trong cho phép bạn điều khiển trục trung tâm"
       },
       {
         "condition": "Trong cuộc đua 4 (Phơi sáng phía sau)",
@@ -116,7 +116,7 @@
   "moneyDetails": [
     "Kiểm soát cuộc tranh giành là kỹ năng quan trọng nhất để thành công trong cuộc thi - các trận đấu thường thắng hoặc thua trong cuộc tranh giành",
     "Chiến thắng trong các cuộc tranh giành sẽ tiết kiệm năng lượng vì bạn quyết định tốc độ thay vì phản ứng với hành động của đối thủ",
-    "Khả năng giữ bình tĩnh và có tổ chức trong các cuộc trao đổi hỗn loạn là đặc điểm nổi bật của một vận động viên vật lộn kỳ cựu",
+    "Khả năng giữ bình tĩnh và có tổ chức trong các cuộc trao đổi hỗn loạn là đặc điểm nổi bật của một võ sĩ kỳ cựu",
     "Việc nắm vững khả năng kiểm soát tranh giành sẽ ngăn ngừa tình trạng mất điểm thi đấu phổ biến nhất: giành lại và Guard vượt qua từ các cuộc tranh giành"
   ],
   "fixItFast": [

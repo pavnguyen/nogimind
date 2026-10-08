@@ -1,9 +1,19 @@
 {
   "id": "side-control-bottom",
-  "locale": "vi",
-  "title": "Side Control Dưới",
   "category": "pin",
   "status": "dangerous",
+  "relatedSkillIds": [
+    "side-control-survival",
+    "side-control-escape",
+    "frames-pummeling"
+  ],
+  "relatedConceptIds": [
+    "frames",
+    "elbow-knee-connection",
+    "early-vs-late-defense"
+  ],
+  "locale": "vi",
+  "title": "Side Control Dưới",
   "description": "Người ở dưới bị pin chest-to-chest hoặc bị kiểm soát bởi crossface và underhook, cần sống sót trước khi escape.",
   "topPlayerGoals": [
     "Người ở trên muốn kiểm soát Side Control Dưới bằng vị trí đầu, vị trí trong và áp lực có hướng.",
@@ -42,15 +52,5 @@
     "Khuỷu tay tách khỏi sườn hoặc đầu gối.",
     "Đường hông bị khóa trong khi đường vai vẫn đang bị kéo.",
     "Bạn phải chống tay dài để không ngã."
-  ],
-  "relatedSkillIds": [
-    "side-control-survival",
-    "side-control-escape",
-    "frames-pummeling"
-  ],
-  "relatedConceptIds": [
-    "frames",
-    "elbow-knee-connection",
-    "early-vs-late-defense"
   ]
 }

@@ -7,7 +7,7 @@
   "summary": "Trận đấu đơn BJJ là phiên bản sửa đổi của trận đấu đơn trận đấu ưu tiên sự an toàn trước các quầy phục tùng. Những điều chỉnh chính là: vị trí đầu phải luôn ở bên ngoài (má tới hông/lưng của họ) chứ không phải bên trong (ngực đối với ngực của họ), kết thúc ưu tiên chạy đường ống (đưa họ sang một bên) hơn là nâng (để lộ Guillotine) và động tác quay về phía sau luôn có sẵn như một giải pháp thay thế có tỷ lệ phần trăm cao cho kết thúc gỡ xuống.",
   "whyItWorks": [
     "Vị trí đầu bên ngoài ngăn cản Guillotine, đòn phản công phổ biến nhất đối với các chân đơn trong BJJ",
-    "Chạy đường ống (truyền động bên) giữ cho đầu của bạn an toàn và sử dụng trọng lượng của chúng để chống lại chúng",
+    "Chạy đường ống (truyền động bên) giữ cho đầu của bạn an toàn và sử dụng trọng lượng của họ để chống lại họ",
     "Cú lội ngược dòng từ trận lượt đi là một sự thích ứng dành riêng cho BJJ ghi được 4 điểm thay vì 2",
     "Một chặng chuyển tiếp lên cả vị trí trên cùng và back control, đây là đòn hạ gục linh hoạt nhất trong BJJ"
   ],
@@ -31,18 +31,18 @@
   "keyCorrections": [
     "Nếu họ Guillotine bạn: đầu của bạn ở bên trong - vòng ra phía sau ngay lập tức để giảm bớt áp lực nghẹt thở",
     "Nếu họ Kimura cánh tay bị mắc kẹt của bạn: đừng chống lại Kimura, thả chân ra và tiếp tục đứng lên",
-    "Nếu chúng nhảy bằng một chân: chuyển sang tư thế đũng quần cao hoặc đổ chúng sang một bên bằng ống chạy"
+    "Nếu họ nhảy bằng một chân: chuyển sang tư thế đũng quần cao hoặc đổ họ sang một bên bằng ống chạy"
   ],
   "systemLogic": {
     "corePrinciple": "Chân đơn BJJ có bốn đầu: Ống chạy → Nâng → Quay lại → Đổ đáy quần cao",
     "decisionTree": [
       {
         "condition": "Sử dụng Finish 1 (Running Pipe (ưu tiên cao nhất))",
-        "action": "với chân bị mắc kẹt và hướng ra ngoài, đẩy chúng sang một bên trên tấm thảm. Chân xa của họ không thể theo kịp chuyển động ngang và họ bị ngã. Về đích an toàn nhất trong BJJ"
+        "action": "với chân bị mắc kẹt và hướng ra ngoài, đẩy họ sang một bên trên tấm thảm. Chân xa của họ không thể theo kịp chuyển động ngang và họ bị ngã. Về đích an toàn nhất trong BJJ"
       },
       {
         "condition": "Sử dụng Kết thúc 2 (Nâng)",
-        "action": "nếu chúng mất thăng bằng (trọng lượng dồn lên một chân), hãy nhấc chân bị kẹt lên và đẩy chúng về phía sau. Chỉ sử dụng điều này nếu vị trí đầu được xác nhận bên ngoài"
+        "action": "nếu họ mất thăng bằng (trọng lượng dồn lên một chân), hãy nhấc chân bị kẹt lên và đẩy họ về phía sau. Chỉ sử dụng điều này nếu vị trí đầu được xác nhận bên ngoài"
       },
       {
         "condition": "Sử dụng Kết thúc 3 (Quay lại)",
@@ -66,6 +66,6 @@
   "fixItFast": [
     "Nếu họ sprawl ở một chặng: đi về phía sau, đừng đấu với sprawl",
     "Nếu họ Guillotine: vòng về phía sau ngay lập tức, phía sau sẽ đánh bại Guillotine",
-    "Nếu chúng nhảy bằng một chân: dùng ống chạy đẩy chúng sang một bên - chúng không thể nhảy sang một bên"
+    "Nếu họ nhảy bằng một chân: dùng ống chạy đẩy họ sang một bên - họ không thể nhảy sang một bên"
   ]
 }

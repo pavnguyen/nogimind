@@ -1,7 +1,5 @@
 {
   "id": "leg-lock-safety-hierarchy",
-  "locale": "vi",
-  "title": "Leg Lock Safety Hierarchy",
   "category": "safety",
   "level": "fundamental",
   "tags": [
@@ -9,6 +7,19 @@
     "heel hook",
     "safety"
   ],
+  "relatedSkillIds": [
+    "leg-lock-safety-basics",
+    "heel-hook-safety",
+    "straight-ankle-lock-safety",
+    "k-guard-entry"
+  ],
+  "relatedConceptIds": [
+    "knee-line",
+    "early-vs-late-defense",
+    "positional-hierarchy"
+  ],
+  "locale": "vi",
+  "title": "Leg Lock Safety Hierarchy",
   "shortDefinition": "Thứ tự an toàn: nhận diện entanglement, giấu heel, bảo vệ knee line, clear leg phụ, rồi thoát có kiểm soát.",
   "whyItMatters": "Leg locks có thể chuyển từ an toàn sang nguy hiểm rất nhanh nếu bạn xoay sai khi knee line kẹt.",
   "deepExplanation": "Safety hierarchy giúp bạn không hoảng. Heel exposure là tín hiệu, knee line là ranh giới, secondary leg là khóa phụ. Tap sớm và giao tiếp rõ là một phần kỹ thuật.",
@@ -16,16 +27,5 @@
   "advancedView": "Đọc leg entanglement như vị trí kiểm soát, không như cuộc đua vặn chân.",
   "ifThenExamples": [],
   "commonMisunderstandings": [],
-  "trainingCues": [],
-  "relatedSkillIds": [
-    "leg-lock-safety-basics",
-    "heel-hook-safety",
-    "straight-ankle-lock-safety",
-    "k-Guard-entry"
-  ],
-  "relatedConceptIds": [
-    "knee-line",
-    "early-vs-late-defense",
-    "positional-hierarchy"
-  ]
+  "trainingCues": []
 }

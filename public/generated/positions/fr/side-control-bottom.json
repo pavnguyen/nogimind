@@ -1,9 +1,19 @@
 {
   "id": "side-control-bottom",
-  "locale": "fr",
-  "title": "Side Control dessous",
   "category": "pin",
   "status": "dangerous",
+  "relatedSkillIds": [
+    "side-control-survival",
+    "side-control-escape",
+    "frames-pummeling"
+  ],
+  "relatedConceptIds": [
+    "frames",
+    "elbow-knee-connection",
+    "early-vs-late-defense"
+  ],
+  "locale": "fr",
+  "title": "Side Control dessous",
   "description": "Le joueur du dessous est immobilisé chest-to-chest ou contrôlé par un crossface et un underhook, et doit d’abord survivre avant de sortir.",
   "topPlayerGoals": [
     "Le joueur du dessus veut contrôler Side Control dessous avec la position de tête, la position intérieure et une pression orientée.",
@@ -42,15 +52,5 @@
     "Le coude se sépare des côtes ou du genou.",
     "La ligne des hanches est verrouillée pendant que la ligne des épaules est encore tirée.",
     "Vous devez poser une main loin pour éviter de tomber."
-  ],
-  "relatedSkillIds": [
-    "side-control-survival",
-    "side-control-escape",
-    "frames-pummeling"
-  ],
-  "relatedConceptIds": [
-    "frames",
-    "elbow-knee-connection",
-    "early-vs-late-defense"
   ]
 }

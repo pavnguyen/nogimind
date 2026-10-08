@@ -1,7 +1,5 @@
 {
   "id": "pressure-direction",
-  "locale": "en",
-  "title": "Pressure Direction",
   "category": "mechanical",
   "level": "intermediate",
   "tags": [
@@ -9,6 +7,19 @@
     "direction",
     "pin"
   ],
+  "relatedSkillIds": [
+    "bodylock-pass",
+    "side-control-pin",
+    "mount-control",
+    "arm-triangle-mount"
+  ],
+  "relatedConceptIds": [
+    "connection-before-control",
+    "wedges",
+    "hip-line-shoulder-line"
+  ],
+  "locale": "en",
+  "title": "Pressure Direction",
   "shortDefinition": "Effective pressure has a specific direction: diagonal, to far hip, to shoulder line, or down through hip line.",
   "whyItMatters": "Straight-down pressure often lets opponents frame or hip escape; diagonal pressure makes them lose direction.",
   "deepExplanation": "Pressure direction links head, sternum, pelvis, knees, and toes. When they do not point together, you feel heavy but do not control.",
@@ -16,16 +27,5 @@
   "advancedView": "Change pressure direction to make frames point the wrong way, then pass or pin.",
   "ifThenExamples": [],
   "commonMisunderstandings": [],
-  "trainingCues": [],
-  "relatedSkillIds": [
-    "bodylock-passing",
-    "side-control-pin",
-    "Mount-control",
-    "arm-triangle-Mount"
-  ],
-  "relatedConceptIds": [
-    "connection-before-control",
-    "wedges",
-    "hip-line-shoulder-line"
-  ]
+  "trainingCues": []
 }

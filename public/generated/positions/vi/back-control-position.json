@@ -1,9 +1,19 @@
 {
   "id": "back-control-position",
-  "locale": "vi",
-  "title": "Back Control",
   "category": "back",
   "status": "dominant",
+  "relatedSkillIds": [
+    "back-control",
+    "rear-naked-choke-system",
+    "back-escape"
+  ],
+  "relatedConceptIds": [
+    "hooks",
+    "control-before-submission",
+    "dilemma-attacks"
+  ],
+  "locale": "vi",
+  "title": "Back Control",
   "description": "Attacker giữ chest-to-back, seatbelt và hooks hoặc body triangle để tạo dilemma về siết cổ.",
   "topPlayerGoals": [
     "Người ở trên muốn kiểm soát Back Control bằng vị trí đầu, vị trí trong và áp lực có hướng.",
@@ -42,15 +52,5 @@
     "Khuỷu tay tách khỏi sườn hoặc đầu gối.",
     "Đường hông bị khóa trong khi đường vai vẫn đang bị kéo.",
     "Bạn phải chống tay dài để không ngã."
-  ],
-  "relatedSkillIds": [
-    "back-control",
-    "rear-naked-choke-system",
-    "back-escape"
-  ],
-  "relatedConceptIds": [
-    "hooks",
-    "control-before-submission",
-    "dilemma-attacks"
   ]
 }

@@ -1,7 +1,5 @@
 {
   "id": "failure-response",
-  "locale": "vi",
-  "title": "Phản ứng khi thất bại",
   "category": "strategic",
   "level": "intermediate",
   "tags": [
@@ -9,6 +7,19 @@
     "transition",
     "branch"
   ],
+  "relatedSkillIds": [
+    "failure-response-transitions",
+    "scramble-control",
+    "bodylock-pass",
+    "front-headlock-defense"
+  ],
+  "relatedConceptIds": [
+    "dilemma-attacks",
+    "positional-hierarchy",
+    "early-vs-late-defense"
+  ],
+  "locale": "vi",
+  "title": "Phản ứng khi thất bại",
   "shortDefinition": "Failure response là kế hoạch ngay khi kỹ thuật đầu tiên bị chặn.",
   "whyItMatters": "Khoảnh khắc thất bại là nơi nhiều người freeze, overcommit hoặc lộ cổ/lưng/chân.",
   "deepExplanation": "Một system tốt định nghĩa trước: nếu mất inside position thì reset; nếu họ turn away thì lấy back; nếu họ frame thì đổi angle. Failure không phải dừng, mà là branch.",
@@ -16,16 +27,5 @@
   "advancedView": "Thiết kế kỹ thuật để failure đầu tiên mở kỹ thuật thứ hai.",
   "ifThenExamples": [],
   "commonMisunderstandings": [],
-  "trainingCues": [],
-  "relatedSkillIds": [
-    "failure-response-transitions",
-    "scramble-control",
-    "bodylock-passing",
-    "front-headlock-defense"
-  ],
-  "relatedConceptIds": [
-    "dilemma-attacks",
-    "positional-hierarchy",
-    "early-vs-late-defense"
-  ]
+  "trainingCues": []
 }

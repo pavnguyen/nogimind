@@ -1,9 +1,19 @@
 {
   "id": "mount-bottom",
-  "locale": "fr",
-  "title": "Mount dessous",
   "category": "pin",
   "status": "critical",
+  "relatedSkillIds": [
+    "mount-survival",
+    "mount-escape",
+    "half-guard-knee-shield"
+  ],
+  "relatedConceptIds": [
+    "early-vs-late-defense",
+    "elbow-knee-connection",
+    "frames"
+  ],
+  "locale": "fr",
+  "title": "Mount dessous",
   "description": "Le joueur du dessous est monté et doit protéger le cou et les bras tout en récupérant la connexion coude-genou avant que la high Mount ne s’installe.",
   "topPlayerGoals": [
     "Le joueur du dessus veut contrôler Mount dessous avec la position de tête, la position intérieure et une pression orientée.",
@@ -42,15 +52,5 @@
     "Le coude se sépare des côtes ou du genou.",
     "La ligne des hanches est verrouillée pendant que la ligne des épaules est encore tirée.",
     "Vous devez poser une main loin pour éviter de tomber."
-  ],
-  "relatedSkillIds": [
-    "mount-survival",
-    "mount-escape",
-    "half-guard-knee-shield"
-  ],
-  "relatedConceptIds": [
-    "early-vs-late-defense",
-    "elbow-knee-connection",
-    "frames"
   ]
 }

@@ -1,9 +1,20 @@
 {
   "id": "reverse-de-la-riva-guard",
-  "locale": "vi",
-  "title": "Reverse De La Riva Guard",
   "category": "bottom_guard",
   "status": "defensive",
+  "relatedSkillIds": [
+    "reverse-de-la-riva-transitions",
+    "single-leg-x-control",
+    "kimura-system",
+    "guard-pulling-strategy"
+  ],
+  "relatedConceptIds": [
+    "hooks",
+    "angle-creation",
+    "hip-line-shoulder-line"
+  ],
+  "locale": "vi",
+  "title": "Reverse De La Riva Guard",
   "description": "RDLR dùng hook chân ngoài đùi và xoay hông để tạo angle, sweep hoặc chuyển sang other guards.",
   "topPlayerGoals": [
     "Người ở trên muốn kiểm soát Reverse De La Riva Guard bằng vị trí đầu, vị trí trong và áp lực có hướng.",
@@ -42,16 +53,5 @@
     "Khuỷu tay tách khỏi sườn hoặc đầu gối.",
     "Đường hông bị khóa trong khi đường vai vẫn đang bị kéo.",
     "Bạn phải chống tay dài để không ngã."
-  ],
-  "relatedSkillIds": [
-    "reverse-de-la-riva-transitions",
-    "single-leg-x-control",
-    "kimura-system",
-    "guard-pulling-strategy"
-  ],
-  "relatedConceptIds": [
-    "hooks",
-    "angle-creation",
-    "hip-line-shoulder-line"
   ]
 }

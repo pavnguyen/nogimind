@@ -1,7 +1,5 @@
 {
   "id": "hip-line-shoulder-line",
-  "locale": "fr",
-  "title": "Hip line vs shoulder line",
   "category": "positional",
   "level": "intermediate",
   "tags": [
@@ -9,16 +7,8 @@
     "shoulder line",
     "pin"
   ],
-  "shortDefinition": "Hip line et shoulder line sont deux axes de rotation qui décident pass, pin, escape et back exposure.",
-  "whyItMatters": "Vous pouvez passer jambes sans pin si shoulder line reste libre.",
-  "deepExplanation": "Pass commence souvent hip line, mais pin demande shoulder line. Escape inverse: récupérer shoulder angle puis hip line vers garde.",
-  "beginnerView": "Demandez: peut-il encore tourner épaules ou hanches ?",
-  "advancedView": "Séparer les deux lignes crée dilemme: sauver hanches expose épaules, sauver épaules perd hanches.",
-  "ifThenExamples": [],
-  "commonMisunderstandings": [],
-  "trainingCues": [],
   "relatedSkillIds": [
-    "bodylock-passing",
+    "bodylock-pass",
     "side-control-pin",
     "back-control",
     "leg-drag-basics"
@@ -27,5 +17,15 @@
     "positional-hierarchy",
     "angle-creation",
     "pressure-direction"
-  ]
+  ],
+  "locale": "fr",
+  "title": "Hip line vs shoulder line",
+  "shortDefinition": "Hip line et shoulder line sont deux axes de rotation qui décident pass, pin, escape et back exposure.",
+  "whyItMatters": "Vous pouvez passer jambes sans pin si shoulder line reste libre.",
+  "deepExplanation": "Pass commence souvent hip line, mais pin demande shoulder line. Escape inverse: récupérer shoulder angle puis hip line vers garde.",
+  "beginnerView": "Demandez: peut-il encore tourner épaules ou hanches ?",
+  "advancedView": "Séparer les deux lignes crée dilemme: sauver hanches expose épaules, sauver épaules perd hanches.",
+  "ifThenExamples": [],
+  "commonMisunderstandings": [],
+  "trainingCues": []
 }

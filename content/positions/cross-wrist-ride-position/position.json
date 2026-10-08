@@ -1,0 +1,16 @@
+{
+  "id": "cross-wrist-ride-position",
+  "category": "back",
+  "status": "advantage",
+  "relatedSkillIds": [
+    "cross-wrist-ride",
+    "turtle-ride",
+    "back-control",
+    "crab-ride"
+  ],
+  "relatedConceptIds": [
+    "ride-vs-pin-vs-submission",
+    "hooks",
+    "connection-before-control"
+  ]
+}

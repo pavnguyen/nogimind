@@ -1,0 +1,16 @@
+{
+  "id": "claw-ride-position",
+  "category": "back",
+  "status": "advantage",
+  "relatedSkillIds": [
+    "claw-ride",
+    "turtle-ride",
+    "back-control",
+    "cross-wrist-ride"
+  ],
+  "relatedConceptIds": [
+    "ride-vs-pin-vs-submission",
+    "hooks",
+    "connection-before-control"
+  ]
+}

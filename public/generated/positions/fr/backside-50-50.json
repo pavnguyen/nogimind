@@ -1,9 +1,21 @@
 {
   "id": "backside-50-50",
-  "locale": "fr",
-  "title": "Backside 50/50",
   "category": "leg_entanglement",
   "status": "dangerous",
+  "relatedSkillIds": [
+    "backside-50-50-control",
+    "heel-hook-safety",
+    "leg-lock-safety-basics",
+    "k-guard-matrix",
+    "false-reap-entry"
+  ],
+  "relatedConceptIds": [
+    "knee-line",
+    "leg-lock-safety-hierarchy",
+    "safe-unsafe-rotation"
+  ],
+  "locale": "fr",
+  "title": "Backside 50/50",
   "description": "Un entanglement de jambe par derrière où l’attaquant contrôle la hip line et la knee line, créant une exposition du talon dangereuse par l’arrière.",
   "topPlayerGoals": [
     "Le joueur du dessus veut contrôler Backside 50/50 avec la position de tête, la position intérieure et une pression orientée.",
@@ -42,17 +54,5 @@
     "Le coude se sépare des côtes ou du genou.",
     "La ligne des hanches est verrouillée pendant que la ligne des épaules est encore tirée.",
     "Vous devez poser une main loin pour éviter de tomber."
-  ],
-  "relatedSkillIds": [
-    "backside-50-50-control",
-    "heel-hook-safety",
-    "leg-lock-safety-basics",
-    "k-guard-matrix",
-    "false-reap-entry"
-  ],
-  "relatedConceptIds": [
-    "knee-line",
-    "leg-lock-safety-hierarchy",
-    "safe-unsafe-rotation"
   ]
 }

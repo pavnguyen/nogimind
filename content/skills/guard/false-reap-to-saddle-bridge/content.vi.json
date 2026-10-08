@@ -7,8 +7,8 @@
   "summary": "Cầu gặt sai đến cầu Saddle là chuỗi tấn công chính từ vị trí gặt sai. Khi đối phương cảm thấy chân của mình bị kiểm soát và cố gắng giải phóng bằng cách lùi lại hoặc tách hông ra, họ sẽ tạo ra góc xoay chính xác mà bạn cần để vung chân trên qua cơ thể của họ và khóa Saddle (Inside Sankaku). Lối thoát của họ tạo sức mạnh cho mục nhập của bạn - đây là nguyên tắc Danaher sử dụng phản ứng của đối thủ làm thiết lập của bạn.",
   "whyItWorks": [
     "Khi họ tách hông ra để thoát khỏi cú gặt giả, chân của bạn sẽ tự nhiên vung qua cơ thể họ vào vị trí Saddle.",
-    "Chuyển động bước của chúng dồn trọng lượng của chúng lên chân móc của bạn, mang lại cho bạn lợi thế cơ học cho cây cầu.",
-    "Quá trình chuyển đổi không yêu cầu tạo không gian - chuyển động của chúng tạo ra tất cả không gian bạn cần.",
+    "Chuyển động bước của họ dồn trọng lượng của họ lên chân móc của bạn, mang lại cho bạn lợi thế cơ học cho cây cầu.",
+    "Quá trình chuyển đổi không yêu cầu tạo không gian - chuyển động của họ tạo ra tất cả không gian bạn cần.",
     "Từ Saddle, bạn có quyền truy cập trực tiếp vào Heel Hook, giữ ngón chân và lùi lại."
   ],
   "commonMistakes": [
@@ -30,7 +30,7 @@
   ],
   "keyCorrections": [
     "Nếu bạn không thể khóa Saddle thì hông của họ vẫn quá gần, hãy tạo sự tách biệt bằng cách đá chân móc của bạn sâu hơn.",
-    "Nếu chúng quay ra ngoài, bạn sẽ mất khả năng kiểm soát hông ở xa - hãy thiết lập lại cách cầm hông trước lần thử tiếp theo.",
+    "Nếu họ quay ra ngoài, bạn sẽ mất khả năng kiểm soát hông ở xa - hãy thiết lập lại cách cầm hông trước lần thử tiếp theo.",
     "Nếu họ làm phẳng bạn trong Saddle thì góc của bạn sai, đưa hông của bạn hướng lên về phía đường vai của họ."
   ],
   "systemLogic": {
@@ -38,7 +38,7 @@
     "decisionTree": [
       {
         "condition": "họ không tách hông ra",
-        "action": "Thay vào đó hãy tấn công Kimura từ việc gặt hái sai lầm, chúng phải phản ứng lại một mối đe dọa, tạo ra mối đe dọa khác."
+        "action": "Thay vào đó hãy tấn công Kimura từ việc gặt hái sai lầm, họ phải phản ứng lại một mối đe dọa, tạo ra mối đe dọa khác."
       },
       {
         "condition": "Từ Saddle",
@@ -48,7 +48,7 @@
   },
   "moneyDetails": [
     "Giữ móc của bạn sâu trên đùi họ trong suốt cây cầu - móc nông sẽ mất kết nối trong quá trình xoay.",
-    "Khi bạn bắc cầu, hãy dùng tay kiểm soát hông xa của chúng để ngăn chúng quay đi.",
+    "Khi bạn bắc cầu, hãy dùng tay kiểm soát hông xa của họ để ngăn họ quay đi.",
     "Khóa Saddle bằng cách bắt chéo chân của bạn ra sau lưng họ, bàn chân trên móc vào dưới mắt cá chân dưới của bạn.",
     "Sau khi khóa Saddle, hãy đưa hông về phía vai của họ để thắt chặt sự vướng víu trước khi tấn công."
   ],

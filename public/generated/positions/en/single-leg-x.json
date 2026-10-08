@@ -1,9 +1,19 @@
 {
   "id": "single-leg-x",
-  "locale": "en",
-  "title": "Single Leg X",
   "category": "leg_entanglement",
   "status": "neutral",
+  "relatedSkillIds": [
+    "single-leg-x-basics",
+    "straight-ankle-lock-safety",
+    "technical-stand-up"
+  ],
+  "relatedConceptIds": [
+    "knee-line",
+    "hooks",
+    "leg-lock-safety-hierarchy"
+  ],
+  "locale": "en",
+  "title": "Single Leg X",
   "description": "The Guard player controls one leg and the hip line to sweep, stand up, or enter ashi.",
   "topPlayerGoals": [
     "The top player wants to control Single Leg X through head position, inside position, and directed pressure.",
@@ -42,15 +52,5 @@
     "The elbow separates from the ribs or knee.",
     "The hip line is locked while the shoulder line is still being pulled.",
     "You need a long hand post to avoid falling."
-  ],
-  "relatedSkillIds": [
-    "single-leg-x-basics",
-    "straight-ankle-lock-safety",
-    "technical-stand-up"
-  ],
-  "relatedConceptIds": [
-    "knee-line",
-    "hooks",
-    "leg-lock-safety-hierarchy"
   ]
 }

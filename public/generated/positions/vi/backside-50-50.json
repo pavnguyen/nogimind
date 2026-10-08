@@ -1,9 +1,21 @@
 {
   "id": "backside-50-50",
-  "locale": "vi",
-  "title": "Backside 50/50",
   "category": "leg_entanglement",
   "status": "dangerous",
+  "relatedSkillIds": [
+    "backside-50-50-control",
+    "heel-hook-safety",
+    "leg-lock-safety-basics",
+    "k-guard-matrix",
+    "false-reap-entry"
+  ],
+  "relatedConceptIds": [
+    "knee-line",
+    "leg-lock-safety-hierarchy",
+    "safe-unsafe-rotation"
+  ],
+  "locale": "vi",
+  "title": "Backside 50/50",
   "description": "Leg entanglement từ phía sau nơi attacker kiểm soát cả hip line và knee line, tạo heel exposure nguy hiểm từ phía sau.",
   "topPlayerGoals": [
     "Người ở trên muốn kiểm soát Backside 50/50 bằng vị trí đầu, vị trí trong và áp lực có hướng.",
@@ -42,17 +54,5 @@
     "Khuỷu tay tách khỏi sườn hoặc đầu gối.",
     "Đường hông bị khóa trong khi đường vai vẫn đang bị kéo.",
     "Bạn phải chống tay dài để không ngã."
-  ],
-  "relatedSkillIds": [
-    "backside-50-50-control",
-    "heel-hook-safety",
-    "leg-lock-safety-basics",
-    "k-guard-matrix",
-    "false-reap-entry"
-  ],
-  "relatedConceptIds": [
-    "knee-line",
-    "leg-lock-safety-hierarchy",
-    "safe-unsafe-rotation"
   ]
 }

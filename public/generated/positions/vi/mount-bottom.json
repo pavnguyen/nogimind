@@ -1,9 +1,19 @@
 {
   "id": "mount-bottom",
-  "locale": "vi",
-  "title": "Mount Dưới",
   "category": "pin",
   "status": "critical",
+  "relatedSkillIds": [
+    "mount-survival",
+    "mount-escape",
+    "half-guard-knee-shield"
+  ],
+  "relatedConceptIds": [
+    "early-vs-late-defense",
+    "elbow-knee-connection",
+    "frames"
+  ],
+  "locale": "vi",
+  "title": "Mount Dưới",
   "description": "Người ở dưới bị Mount và phải bảo vệ cổ, tay trong khi recover khuỷu-gối trước khi đối thủ lên high Mount.",
   "topPlayerGoals": [
     "Người ở trên muốn kiểm soát Mount Dưới bằng vị trí đầu, vị trí trong và áp lực có hướng.",
@@ -42,15 +52,5 @@
     "Khuỷu tay tách khỏi sườn hoặc đầu gối.",
     "Đường hông bị khóa trong khi đường vai vẫn đang bị kéo.",
     "Bạn phải chống tay dài để không ngã."
-  ],
-  "relatedSkillIds": [
-    "mount-survival",
-    "mount-escape",
-    "half-guard-knee-shield"
-  ],
-  "relatedConceptIds": [
-    "early-vs-late-defense",
-    "elbow-knee-connection",
-    "frames"
   ]
 }

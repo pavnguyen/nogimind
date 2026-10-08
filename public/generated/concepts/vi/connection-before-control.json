@@ -1,7 +1,5 @@
 {
   "id": "connection-before-control",
-  "locale": "vi",
-  "title": "Kết nối trước kiểm soát",
   "category": "mechanical",
   "level": "fundamental",
   "tags": [
@@ -9,6 +7,19 @@
     "pressure",
     "control"
   ],
+  "relatedSkillIds": [
+    "bodylock-pass",
+    "back-control",
+    "side-control-pin",
+    "arm-triangle-mount"
+  ],
+  "relatedConceptIds": [
+    "pressure-direction",
+    "control-before-submission",
+    "hooks"
+  ],
+  "locale": "vi",
+  "title": "Kết nối trước kiểm soát",
   "shortDefinition": "Muốn ghìm hoặc điều hướng đối thủ, trước hết bạn cần tạo tiếp xúc chắc ở đúng điểm trên cơ thể họ.",
   "whyItMatters": "Nếu không bám được vào đúng điểm, sức ép của bạn khó truyền sang đối thủ; họ vẫn có thể xoay người, dựng khung chặn hoặc thoát ra.",
   "deepExplanation": "Các điểm tiếp xúc có thể là ngực áp lưng, ngực ghì hông, khuỷu nối với gối, đầu tựa vào sườn hoặc tay giữ hông. Khi tiếp xúc đúng, bạn truyền lực bằng cấu trúc cơ thể và trọng lượng thay vì chỉ kéo bằng tay.",
@@ -16,16 +27,5 @@
   "advancedView": "Thay đổi điểm tiếp xúc theo từng pha: vượt Guard, đè giữ, khóa siết và giữ Guard đều cần những điểm bám khác nhau.",
   "ifThenExamples": [],
   "commonMisunderstandings": [],
-  "trainingCues": [],
-  "relatedSkillIds": [
-    "bodylock-passing",
-    "back-control",
-    "side-control-pin",
-    "arm-triangle-Mount"
-  ],
-  "relatedConceptIds": [
-    "pressure-direction",
-    "control-before-submission",
-    "hooks"
-  ]
+  "trainingCues": []
 }

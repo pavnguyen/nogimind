@@ -45,7 +45,7 @@
   "searchBoost": 1,
   "keyCorrections": [
     "Nếu họ bước ra khỏi SLX, chân hông của bạn sẽ mất vị trí, đặt lại chân lên hông họ.",
-    "Nếu bạn không thể quét chúng, góc của bạn đã sai - hãy xoay hông về phía chân bị mắc kẹt nhiều hơn.",
+    "Nếu bạn không thể quét họ, góc của bạn đã sai - hãy xoay hông về phía chân bị mắc kẹt nhiều hơn.",
     "Nếu họ đè bẹp bạn thì hông của bạn ở quá xa họ - hãy kéo hông của bạn lại gần chân họ."
   ],
   "version": 1,
@@ -62,11 +62,11 @@
   "locale": "vi",
   "description": "Kiểm soát đường hông và đầu gối của đối phương từ một chân X (SLX) để quét, đứng lên hoặc vào ashi garami (vướng chân một cách an toàn).",
   "shortInstruction": "Một chân đặt giữa các chân của họ, một chân đặt trên hông - SLX cho phép bạn kiểm soát một chân và toàn bộ phần đế của họ.",
-  "summary": "Một chân X (SLX) là vị trí điều khiển một chân cơ bản của No-Gi hiện đại. Bạn bẫy một trong hai chân của họ bằng chân của chính bạn (giữa đùi và bắp chân của bạn), trong khi bàn chân còn lại của bạn đặt trên hông đối diện của họ. Điều này cho phép bạn kiểm soát toàn bộ phần đế của chúng chỉ bằng một chân - khi bạn kéo chân đó, toàn bộ cơ thể của chúng sẽ theo sau. SLX là điểm bắt đầu cho các pha quét (quét SLX cổ điển), vướng chân (enter ashi garami) và đứng lên (wrestle up).",
+  "summary": "Một chân X (SLX) là vị trí điều khiển một chân cơ bản của No-Gi hiện đại. Bạn bẫy một trong hai chân của họ bằng chân của chính bạn (giữa đùi và bắp chân của bạn), trong khi bàn chân còn lại của bạn đặt trên hông đối diện của họ. Điều này cho phép bạn kiểm soát toàn bộ phần đế của họ chỉ bằng một chân - khi bạn kéo chân đó, toàn bộ cơ thể của họ sẽ theo sau. SLX là điểm bắt đầu cho các pha quét (quét SLX cổ điển), vướng chân (enter ashi garami) và đứng lên (wrestle up).",
   "whyItWorks": [
     "Việc điều khiển một chân bằng cả hai chân mang lại cho bạn lợi thế cơ học 2 chọi 1 trên chi đó.",
     "Bàn chân đặt trên hông kiểm soát khoảng cách của họ và ngăn họ lùi lại.",
-    "Bất kỳ chuyển động nào chúng thực hiện bằng chân còn lại đều thay đổi cơ sở của chúng - bạn có thể đọc và phản ứng.",
+    "Bất kỳ chuyển động nào họ thực hiện bằng chân còn lại đều thay đổi cơ sở của họ - bạn có thể đọc và phản ứng.",
     "Nguyên tắc Danaher: kiểm soát một chân, kiểm soát nửa cơ thể - SLX là tư thế kiểm soát chân hiệu quả nhất."
   ],
   "commonMistakes": [
@@ -91,7 +91,7 @@
     "decisionTree": [
       {
         "condition": "Lựa chọn 1: Họ đứng cao",
-        "action": "kéo chân và quét chúng về phía sau."
+        "action": "kéo chân và quét họ về phía sau."
       },
       {
         "condition": "Lựa chọn 2: Họ ngồi lại",
@@ -108,7 +108,7 @@
     "Chân bị mắc kẹt của bạn phải được khóa bằng đầu gối ép về phía ngực - mắt cá chân phải ở gần hông của bạn.",
     "Bàn chân đặt trên hông của họ phải đặt trên xương hông (ASIS), không phải trên bụng hoặc đùi - kiểm soát xương hông = kiểm soát khoảng cách.",
     "Giữ trọng lượng của bạn ở vai xa chứ không phải ở giữa - điều này giúp bạn có góc để kéo và quét.",
-    "Động tác quét SLX là: kéo chân bị mắc kẹt vào ngực trong khi đẩy bằng chân hông - các lực tổng hợp sẽ phá vỡ đế của chúng."
+    "Động tác quét SLX là: kéo chân bị mắc kẹt vào ngực trong khi đẩy bằng chân hông - các lực tổng hợp sẽ phá vỡ đế của họ."
   ],
   "nextStep": "Sau điều khiển SLX cơ bản, hãy tìm hiểu thao tác quét SLX nâng cao và quá trình chuyển đổi SLX-to-ashi-garami.",
   "fixItFast": [

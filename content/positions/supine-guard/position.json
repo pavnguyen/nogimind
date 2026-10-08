@@ -1,0 +1,15 @@
+{
+  "id": "supine-guard",
+  "category": "bottom_guard",
+  "status": "defensive",
+  "relatedSkillIds": [
+    "supine-guard-retention",
+    "seated-guard-retention",
+    "k-guard-entry"
+  ],
+  "relatedConceptIds": [
+    "guard-retention-layers",
+    "inside-position",
+    "wedges"
+  ]
+}

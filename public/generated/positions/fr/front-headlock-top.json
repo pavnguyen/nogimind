@@ -1,9 +1,19 @@
 {
   "id": "front-headlock-top",
-  "locale": "fr",
-  "title": "Front Headlock dessus",
   "category": "front_headlock",
   "status": "advantage",
+  "relatedSkillIds": [
+    "snapdown-front-headlock",
+    "guillotine-system",
+    "sprawl-go-behind"
+  ],
+  "relatedConceptIds": [
+    "head-position",
+    "control-before-submission",
+    "early-vs-late-defense"
+  ],
+  "locale": "fr",
+  "title": "Front Headlock dessus",
   "description": "Le joueur du dessus contrôle la tête et le cou par l’avant, menaçant le go-behind, la Guillotine ou la prise du dos.",
   "topPlayerGoals": [
     "Le joueur du dessus veut contrôler Front Headlock dessus avec la position de tête, la position intérieure et une pression orientée.",
@@ -42,15 +52,5 @@
     "Le coude se sépare des côtes ou du genou.",
     "La ligne des hanches est verrouillée pendant que la ligne des épaules est encore tirée.",
     "Vous devez poser une main loin pour éviter de tomber."
-  ],
-  "relatedSkillIds": [
-    "snapdown-front-headlock",
-    "guillotine-system",
-    "sprawl-go-behind"
-  ],
-  "relatedConceptIds": [
-    "head-position",
-    "control-before-submission",
-    "early-vs-late-defense"
   ]
 }

@@ -1,7 +1,5 @@
 {
   "id": "ride-vs-pin-vs-submission",
-  "locale": "vi",
-  "title": "Ride vs Pin vs Submission",
   "category": "strategic",
   "level": "advanced",
   "tags": [
@@ -11,20 +9,12 @@
     "phase",
     "decision"
   ],
-  "shortDefinition": "Ba phase khác nhau: ride để lộ lưng, pin để ổn định vị trí, submission để kết thúc.",
-  "whyItMatters": "Nhầm lẫn giữa ride và pin làm bạn mất back hoặc submission khi đang control tốt.",
-  "deepExplanation": "Ride là di chuyển theo reaction để tìm back (turtle/crab/wrist ride). Pin là ổn định hip + shoulder line (side/Mount). Submission là isolate line cụ thể. Phase sai làm hệ thống không chạy.",
-  "beginnerView": "Đang di chuyển (ride) hay đã ổn định (pin)?",
-  "advancedView": "Chuyển phase mượt: ride → back exposure → pin → submission. Không nhảy phase.",
-  "ifThenExamples": [],
-  "commonMisunderstandings": [],
-  "trainingCues": [],
   "relatedSkillIds": [
     "turtle-ride",
     "cross-wrist-ride",
     "claw-ride",
     "side-control-pin",
-    "Mount-control",
+    "mount-control",
     "rear-naked-choke-system",
     "back-control"
   ],
@@ -32,5 +22,15 @@
     "positional-hierarchy",
     "control-before-submission",
     "exposure-before-finish"
-  ]
+  ],
+  "locale": "vi",
+  "title": "Ride vs Pin vs Submission",
+  "shortDefinition": "Ba phase khác nhau: ride để lộ lưng, pin để ổn định vị trí, submission để kết thúc.",
+  "whyItMatters": "Nhầm lẫn giữa ride và pin làm bạn mất back hoặc submission khi đang control tốt.",
+  "deepExplanation": "Ride là di chuyển theo reaction để tìm back (turtle/crab/wrist ride). Pin là ổn định hip + shoulder line (side/Mount). Submission là isolate line cụ thể. Phase sai làm hệ thống không chạy.",
+  "beginnerView": "Đang di chuyển (ride) hay đã ổn định (pin)?",
+  "advancedView": "Chuyển phase mượt: ride → back exposure → pin → submission. Không nhảy phase.",
+  "ifThenExamples": [],
+  "commonMisunderstandings": [],
+  "trainingCues": []
 }

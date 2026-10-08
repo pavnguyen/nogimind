@@ -1,7 +1,5 @@
 {
   "id": "knee-line",
-  "locale": "vi",
-  "title": "Đường gối",
   "category": "safety",
   "level": "fundamental",
   "tags": [
@@ -9,14 +7,6 @@
     "leg lock",
     "safety"
   ],
-  "shortDefinition": "Knee line là ranh giới quyết định chân bị kiểm soát trong leg entanglement hay đã thoát.",
-  "whyItMatters": "Trong leg locks, knee line bị kẹt cộng heel exposure là tín hiệu nguy hiểm lớn.",
-  "deepExplanation": "Knee line là concept an toàn trước khi là concept tấn công. Bạn không xoay mạnh khi knee line còn bị khóa. Khi tấn công, kiểm soát knee line giúp ngăn họ rút chân.",
-  "beginnerView": "Biết gối mình còn kẹt hay đã thoát trước khi xoay.",
-  "advancedView": "Dùng knee line để đánh giá sweep, pass, leg entry và safety cùng lúc.",
-  "ifThenExamples": [],
-  "commonMisunderstandings": [],
-  "trainingCues": [],
   "relatedSkillIds": [
     "leg-lock-safety-basics",
     "heel-hook-safety",
@@ -27,5 +17,15 @@
     "leg-lock-safety-hierarchy",
     "early-vs-late-defense",
     "inside-position"
-  ]
+  ],
+  "locale": "vi",
+  "title": "Đường gối",
+  "shortDefinition": "Knee line là ranh giới quyết định chân bị kiểm soát trong leg entanglement hay đã thoát.",
+  "whyItMatters": "Trong leg locks, knee line bị kẹt cộng heel exposure là tín hiệu nguy hiểm lớn.",
+  "deepExplanation": "Knee line là concept an toàn trước khi là concept tấn công. Bạn không xoay mạnh khi knee line còn bị khóa. Khi tấn công, kiểm soát knee line giúp ngăn họ rút chân.",
+  "beginnerView": "Biết gối mình còn kẹt hay đã thoát trước khi xoay.",
+  "advancedView": "Dùng knee line để đánh giá sweep, pass, leg entry và safety cùng lúc.",
+  "ifThenExamples": [],
+  "commonMisunderstandings": [],
+  "trainingCues": []
 }

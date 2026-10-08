@@ -1,9 +1,20 @@
 {
   "id": "z-guard",
-  "locale": "vi",
-  "title": "Z-Guard (93 Guard)",
   "category": "bottom_guard",
   "status": "defensive",
+  "relatedSkillIds": [
+    "z-guard-sweeps",
+    "half-guard-knee-shield",
+    "half-guard-wrestle-up",
+    "side-control-escape"
+  ],
+  "relatedConceptIds": [
+    "wedges",
+    "inside-position",
+    "elbow-knee-connection"
+  ],
+  "locale": "vi",
+  "title": "Z-Guard (93 Guard)",
   "description": "Z-Guard là knee shield deep Half Guard, dùng shin và underhook để chặn crossface và tạo wrestle-up.",
   "topPlayerGoals": [
     "Người ở trên muốn kiểm soát Z-Guard (93 Guard) bằng vị trí đầu, vị trí trong và áp lực có hướng.",
@@ -42,16 +53,5 @@
     "Khuỷu tay tách khỏi sườn hoặc đầu gối.",
     "Đường hông bị khóa trong khi đường vai vẫn đang bị kéo.",
     "Bạn phải chống tay dài để không ngã."
-  ],
-  "relatedSkillIds": [
-    "z-guard-sweeps",
-    "half-guard-knee-shield",
-    "half-guard-wrestle-up",
-    "side-control-escape"
-  ],
-  "relatedConceptIds": [
-    "wedges",
-    "inside-position",
-    "elbow-knee-connection"
   ]
 }

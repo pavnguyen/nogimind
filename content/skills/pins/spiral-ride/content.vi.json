@@ -3,7 +3,7 @@
   "locale": "vi",
   "name": "Đi xe xoắn ốc",
   "description": "Spiral Ride sử dụng áp lực quay lên đùi và vai để làm sập phần đế Tư thế rùa. Đu quay xoắn ốc là một hệ thống phá Tư thế rùa có nguồn gốc từ đấu vật, sử dụng chuyển động xoay xoắn ốc để làm mất ổn định căn cứ của đối thủ.",
-  "shortInstruction": "Từ phía bên của Tư thế rùa, đặt tay gần của bạn lên đùi xa và tay xa của bạn lên vai gần của Tư thế rùa. Xoay hai tay theo hướng ngược nhau (đẩy đùi, kéo vai) để xoắn chúng phẳng.",
+  "shortInstruction": "Từ phía bên của Tư thế rùa, đặt tay gần của bạn lên đùi xa và tay xa của bạn lên vai gần của Tư thế rùa. Xoay hai tay theo hướng ngược nhau (đẩy đùi, kéo vai) để xoắn họ phẳng.",
   "summary": "Động tác xoắn ốc làm gián đoạn con Tư thế rùa bằng cách tác dụng các lực quay ngược chiều nhau: một tay đẩy đùi xa ra trong khi tay kia kéo vai gần về phía bạn. Vòng quay này sẽ loại bỏ phần đế của đối thủ và buộc họ nằm ngửa hoặc nằm nghiêng. Đi xe xoắn ốc đặc biệt hiệu quả trước những đối thủ quá mạnh hoặc quá linh hoạt để thực hiện động tác cưỡi một nửa sức mạnh.",
   "whyItWorks": [
     "Lực quay đối phương (đẩy đùi, kéo vai) tạo thành hình xoắn ốc khiến đối phương không thể chống đỡ",
@@ -12,7 +12,7 @@
     "Quá trình chuyển đổi xoắn ốc sang back control diễn ra suôn sẻ vì thao tác xoay để lộ mặt sau một cách tự nhiên"
   ],
   "commonMistakes": [
-    "Đẩy đùi cùng hướng với kéo vai - chúng phải ngược chiều nhau",
+    "Đẩy đùi cùng hướng với kéo vai - họ phải ngược chiều nhau",
     "Giải phóng áp lực sau khi xoắn ốc bắt đầu - duy trì cả hai điểm tiếp xúc cho đến khi sụp đổ",
     "Ở quá cao - ngực của bạn phải được nối với lưng của họ trong suốt",
     "Không tiến tới back control đủ nhanh sau khi sụp đổ"
@@ -29,8 +29,8 @@
     "Việc di chuyển theo hình xoắn ốc phải được thực hiện với áp suất ổn định, có kiểm soát - không gây xoắn"
   ],
   "keyCorrections": [
-    "Nếu chúng không xẹp xuống: tăng lực quay - đẩy đùi mạnh hơn và kéo vai mạnh hơn",
-    "Nếu chúng lăn ra khỏi vòng xoáy: hãy đi theo và lùi lại",
+    "Nếu họ không xẹp xuống: tăng lực quay - đẩy đùi mạnh hơn và kéo vai mạnh hơn",
+    "Nếu họ lăn ra khỏi vòng xoáy: hãy đi theo và lùi lại",
     "Nếu bạn mất liên lạc: thiết lập lại kết nối rương trước khi khởi động lại vòng xoáy"
   ],
   "systemLogic": {
@@ -46,10 +46,10 @@
       },
       {
         "condition": "Ở Giai đoạn 3 (Quay lại)",
-        "action": "khi chúng ngã sang một bên hoặc hông, hãy thả tay nắm xoắn ốc ra và thay thế bằng seatbelt. Trượt đầu gối gần của bạn vào đường hông của họ và cố định back control"
+        "action": "khi họ ngã sang một bên hoặc hông, hãy thả tay nắm xoắn ốc ra và thay thế bằng seatbelt. Trượt đầu gối gần của bạn vào đường hông của họ và cố định back control"
       },
       {
-        "condition": "vòng xoắn ốc thất bại (chúng giữ thăng bằng)",
+        "condition": "vòng xoắn ốc thất bại (họ giữ thăng bằng)",
         "action": "chuyển sang chế độ nửa năng lượng - nửa năng lượng hoạt động khi vòng xoắn ốc không hoạt động"
       }
     ]
@@ -57,11 +57,11 @@
   "moneyDetails": [
     "Chuyến đi xoắn ốc là thành phần thứ hai của hệ thống đấu vật phá Tư thế rùa (kết hợp với một nửa sức mạnh) - cả hai đều cung cấp cho bạn một bộ công cụ hoàn chỉnh",
     "Vòng xoắn ốc đặc biệt hiệu quả trước những đối thủ linh hoạt, những người có thể ngồi trên một nửa sức mạnh",
-    "Việc thành thạo đường trượt xoắn ốc sẽ mang lại cho bạn khả năng bẻ Tư thế rùa đáng tin cậy, hoạt động ở mọi cấp độ vật lộn"
+    "Việc thành thạo đường trượt xoắn ốc sẽ mang lại cho bạn khả năng bẻ Tư thế rùa đáng tin cậy, hoạt động ở mọi cấp độ vật"
   ],
   "fixItFast": [
-    "Nếu chúng không sụp đổ: chuyển sang chế độ lái nửa lực - nó sử dụng hệ thống đòn bẩy khác",
-    "Nếu chúng lăn về phía bạn: hãy rút lui ngay lập tức - hình xoắn ốc để lộ phần lưng ở cả hai bên",
+    "Nếu họ không sụp đổ: chuyển sang chế độ lái nửa lực - nó sử dụng hệ thống đòn bẩy khác",
+    "Nếu họ lăn về phía bạn: hãy rút lui ngay lập tức - hình xoắn ốc để lộ phần lưng ở cả hai bên",
     "Nếu họ ngồi dậy: hãy ấn ngực bạn vào lưng họ và bắt đầu lại vòng xoáy từ đầu"
   ]
 }

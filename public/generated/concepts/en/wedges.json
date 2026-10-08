@@ -1,7 +1,5 @@
 {
   "id": "wedges",
-  "locale": "en",
-  "title": "Wedges",
   "category": "mechanical",
   "level": "intermediate",
   "tags": [
@@ -9,6 +7,19 @@
     "knee shield",
     "shin frame"
   ],
+  "relatedSkillIds": [
+    "half-guard-knee-shield",
+    "seated-guard-retention",
+    "bodylock-pass",
+    "side-control-escape"
+  ],
+  "relatedConceptIds": [
+    "frames",
+    "inside-position",
+    "pressure-direction"
+  ],
+  "locale": "en",
+  "title": "Wedges",
   "shortDefinition": "A wedge is a body part inserted into space to block the opponent’s rotation or connection.",
   "whyItMatters": "Good wedges deny chest-to-chest, chest-to-hip, or shoulder-line connection.",
   "deepExplanation": "Knee shield, shin frame, head post, elbow wedge, and hip block are all wedges. They do not only create space; they redirect force.",
@@ -16,16 +27,5 @@
   "advancedView": "Use wedges to force pass-line changes, then attack that reaction.",
   "ifThenExamples": [],
   "commonMisunderstandings": [],
-  "trainingCues": [],
-  "relatedSkillIds": [
-    "half-Guard-knee-shield",
-    "seated-Guard-retention",
-    "bodylock-passing",
-    "side-control-escape"
-  ],
-  "relatedConceptIds": [
-    "frames",
-    "inside-position",
-    "pressure-direction"
-  ]
+  "trainingCues": []
 }

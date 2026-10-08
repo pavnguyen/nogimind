@@ -1,7 +1,5 @@
 {
   "id": "pummeling",
-  "locale": "vi",
-  "title": "Pummeling",
   "category": "mechanical",
   "level": "fundamental",
   "tags": [
@@ -9,6 +7,19 @@
     "inside position",
     "underhook"
   ],
+  "relatedSkillIds": [
+    "frames-pummeling",
+    "hand-fighting",
+    "half-guard-wrestle-up",
+    "bodylock-pass"
+  ],
+  "relatedConceptIds": [
+    "inside-position",
+    "frames",
+    "failure-response"
+  ],
+  "locale": "vi",
+  "title": "Pummeling",
   "shortDefinition": "Pummeling là cuộc đổi đường trong liên tục bằng tay, đầu, gối hoặc hông.",
   "whyItMatters": "No-gi không có grip áo, nên pummeling là cách tái tạo kiểm soát sau mỗi phản ứng.",
   "deepExplanation": "Pummeling không chỉ là underhook battle. Guard retention có knee pummel; leg locks có knee line pummel; Front Headlock defense có elbow/chin pummel.",
@@ -16,16 +27,5 @@
   "advancedView": "Pummel theo reaction: đối thủ frame đâu thì đường trong mở ở chỗ khác.",
   "ifThenExamples": [],
   "commonMisunderstandings": [],
-  "trainingCues": [],
-  "relatedSkillIds": [
-    "frames-pummeling",
-    "hand-fighting",
-    "half-Guard-wrestle-up",
-    "bodylock-passing"
-  ],
-  "relatedConceptIds": [
-    "inside-position",
-    "frames",
-    "failure-response"
-  ]
+  "trainingCues": []
 }

@@ -30,11 +30,11 @@
   ],
   "keyCorrections": [
     "Nếu bạn không thể quỳ xuống: cú xoay chân quá ngắn - vung chân rộng hơn và đánh mạnh hơn",
-    "Nếu họ đè bẹp bạn trong vụ cướp hông: underhook không đủ sâu, hãy đập lại và thử lại",
+    "Nếu họ đè bẹp bạn trong vụ cướp hông: underhook không đủ sâu, hãy pummeling lại và thử lại",
     "Nếu bạn hạ cánh ở Side Control: bạn đã dừng xe ở đầu gối thay vì lái xe đến chỗ đứng"
   ],
   "systemLogic": {
-    "corePrinciple": "Cuộc vật lộn cướp hông có bốn giai đoạn: underhook → Xoay hông → Xoay chân → Đứng",
+    "corePrinciple": "Cuộc vật cướp hông có bốn giai đoạn: underhook → Xoay hông → Xoay chân → Đứng",
     "decisionTree": [
       {
         "condition": "Trong Giai đoạn 1 (underhook)",
@@ -42,7 +42,7 @@
       },
       {
         "condition": "Ở Giai đoạn 2 (Xoay hông)",
-        "action": "hông thoát ra một chút để tạo khoảng trống, sau đó xoay hông về phía thảm (cách xa chúng)"
+        "action": "hông thoát ra một chút để tạo khoảng trống, sau đó xoay hông về phía thảm (cách xa họ)"
       },
       {
         "condition": "Ở Giai đoạn 3 (Đu chân)",

@@ -1,9 +1,19 @@
 {
   "id": "bodylock-passing-position",
-  "locale": "fr",
-  "title": "Position de body lock passing",
   "category": "top_control",
   "status": "advantage",
+  "relatedSkillIds": [
+    "bodylock-pass",
+    "seated-guard-retention",
+    "half-guard-wrestle-up"
+  ],
+  "relatedConceptIds": [
+    "connection-before-control",
+    "pressure-direction",
+    "inside-position"
+  ],
+  "locale": "fr",
+  "title": "Position de body lock passing",
   "description": "Le joueur du dessus verrouille bas autour des hanches du joueur en garde avec une connexion poitrine-hanche pour passer la ligne du genou.",
   "topPlayerGoals": [
     "Le joueur du dessus veut contrôler Position de body lock passing avec la position de tête, la position intérieure et une pression orientée.",
@@ -30,7 +40,7 @@
       "action": "Passer la ligne du genou et stabiliser le Side Control",
       "nextPositionId": "side-control-top",
       "relatedSkillIds": [
-        "bodylock-passing",
+        "bodylock-pass",
         "seated-guard-retention",
         "half-guard-wrestle-up"
       ],
@@ -42,15 +52,5 @@
     "Le coude se sépare des côtes ou du genou.",
     "La ligne des hanches est verrouillée pendant que la ligne des épaules est encore tirée.",
     "Vous devez poser une main loin pour éviter de tomber."
-  ],
-  "relatedSkillIds": [
-    "bodylock-passing",
-    "seated-guard-retention",
-    "half-guard-wrestle-up"
-  ],
-  "relatedConceptIds": [
-    "connection-before-control",
-    "pressure-direction",
-    "inside-position"
   ]
 }

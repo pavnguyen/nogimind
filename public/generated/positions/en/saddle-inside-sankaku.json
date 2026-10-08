@@ -1,9 +1,19 @@
 {
   "id": "saddle-inside-sankaku",
-  "locale": "en",
-  "title": "Saddle / Inside Sankaku",
   "category": "leg_entanglement",
   "status": "critical",
+  "relatedSkillIds": [
+    "heel-hook-safety",
+    "leg-lock-safety-basics",
+    "k-guard-entry"
+  ],
+  "relatedConceptIds": [
+    "leg-lock-safety-hierarchy",
+    "knee-line",
+    "early-vs-late-defense"
+  ],
+  "locale": "en",
+  "title": "Saddle / Inside Sankaku",
   "description": "A strong leg entanglement around the hip line and knee line, often carrying heel-hook danger when the heel is exposed.",
   "topPlayerGoals": [
     "The top player wants to control Saddle / Inside Sankaku through head position, inside position, and directed pressure.",
@@ -42,15 +52,5 @@
     "The elbow separates from the ribs or knee.",
     "The hip line is locked while the shoulder line is still being pulled.",
     "You need a long hand post to avoid falling."
-  ],
-  "relatedSkillIds": [
-    "heel-hook-safety",
-    "leg-lock-safety-basics",
-    "k-guard-entry"
-  ],
-  "relatedConceptIds": [
-    "leg-lock-safety-hierarchy",
-    "knee-line",
-    "early-vs-late-defense"
   ]
 }

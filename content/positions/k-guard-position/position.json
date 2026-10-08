@@ -1,0 +1,15 @@
+{
+  "id": "k-guard-position",
+  "category": "bottom_guard",
+  "status": "neutral",
+  "relatedSkillIds": [
+    "k-guard-matrix",
+    "false-reap-entry",
+    "saddle-inside-sankaku-control"
+  ],
+  "relatedConceptIds": [
+    "knee-line",
+    "leg-lock-safety-hierarchy",
+    "hooks"
+  ]
+}

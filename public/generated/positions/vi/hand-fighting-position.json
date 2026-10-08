@@ -1,9 +1,19 @@
 {
   "id": "hand-fighting-position",
-  "locale": "vi",
-  "title": "Hand Fighting",
   "category": "standing",
   "status": "neutral",
+  "relatedSkillIds": [
+    "hand-fighting",
+    "snapdown-front-headlock",
+    "front-headlock-defense"
+  ],
+  "relatedConceptIds": [
+    "inside-position",
+    "pummeling",
+    "head-position"
+  ],
+  "locale": "vi",
+  "title": "Hand Fighting",
   "description": "Cuộc đua tay và đầu để vào underhook, collar tie, snapdown, single leg hoặc Guard pull.",
   "topPlayerGoals": [
     "Người ở trên muốn kiểm soát Hand Fighting bằng vị trí đầu, vị trí trong và áp lực có hướng.",
@@ -42,15 +52,5 @@
     "Khuỷu tay tách khỏi sườn hoặc đầu gối.",
     "Đường hông bị khóa trong khi đường vai vẫn đang bị kéo.",
     "Bạn phải chống tay dài để không ngã."
-  ],
-  "relatedSkillIds": [
-    "hand-fighting",
-    "snapdown-front-headlock",
-    "front-headlock-defense"
-  ],
-  "relatedConceptIds": [
-    "inside-position",
-    "pummeling",
-    "head-position"
   ]
 }

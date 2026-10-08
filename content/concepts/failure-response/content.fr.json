@@ -1,0 +1,13 @@
+{
+  "id": "failure-response",
+  "locale": "fr",
+  "title": "Réponse à l’échec",
+  "shortDefinition": "Failure response est le plan quand la première technique est bloquée.",
+  "whyItMatters": "Le moment d’échec fait freeze, overcommit ou expose cou/dos/jambes.",
+  "deepExplanation": "Un bon système définit: inside perdu reset; turn away back; frame change angle. Échec n’est pas arrêt, c’est branche.",
+  "beginnerView": "Savoir quoi faire quand le mouvement ne marche pas.",
+  "advancedView": "Concevoir pour que le premier échec ouvre seconde option.",
+  "ifThenExamples": [],
+  "commonMisunderstandings": [],
+  "trainingCues": []
+}

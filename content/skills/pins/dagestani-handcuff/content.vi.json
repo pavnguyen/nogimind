@@ -30,7 +30,7 @@
   ],
   "keyCorrections": [
     "Nếu bạn chỉ có một cổ tay: hãy kiểm soát cổ tay đó và thay vào đó hãy sử dụng tay còn lại để giữ chặt kiểu bắt chéo cổ tay hoặc kiểu vuốt",
-    "Nếu chúng lăn ra: thả còng tay ra và lấy phần còng sau khi chúng lăn ra",
+    "Nếu họ lăn ra: thả còng tay ra và lấy phần còng sau khi họ lăn ra",
     "Nếu họ tách tay ra: bạn đã mất vị trí khuỷu tay bị kẹp - hãy kẹp lại và lái mạnh hơn về phía trước"
   ],
   "systemLogic": {
@@ -46,7 +46,7 @@
       },
       {
         "condition": "Ở Bước 3 (Kéo khuỷu tay)",
-        "action": "ép khuỷu tay của bạn vào lưng họ. Điều này khóa cả hai cổ tay tại chỗ và ngăn chúng tách ra"
+        "action": "ép khuỷu tay của bạn vào lưng họ. Điều này khóa cả hai cổ tay tại chỗ và ngăn họ tách ra"
       },
       {
         "condition": "Ở Bước 4 (Lái xe về phía trước)",
@@ -65,7 +65,7 @@
   ],
   "fixItFast": [
     "Nếu bạn chỉ có một cổ tay: thay vào đó hãy chuyển sang đeo chéo cổ tay hoặc vuốt ve",
-    "Nếu chúng lăn ra: thả ra và rút lại - đừng đấu tranh để giữ còng tay",
+    "Nếu họ lăn ra: thả ra và rút lại - đừng đấu tranh để giữ còng tay",
     "Nếu họ tách tay ra: nhéo lại khuỷu tay và lái mạnh hơn"
   ]
 }

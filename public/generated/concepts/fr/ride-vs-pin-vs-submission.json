@@ -1,7 +1,5 @@
 {
   "id": "ride-vs-pin-vs-submission",
-  "locale": "fr",
-  "title": "Ride vs Pin vs Soumission",
   "category": "strategic",
   "level": "advanced",
   "tags": [
@@ -11,20 +9,12 @@
     "phase",
     "decision"
   ],
-  "shortDefinition": "Trois phases: ride pour exposer le dos, pin pour stabiliser, soumission pour finir.",
-  "whyItMatters": "Confondre ride et pin fait perdre le dos ou la soumission avec bon contrôle.",
-  "deepExplanation": "Ride suit les réactions pour trouver le dos (turtle, crab, wrist ride). Pin stabilise hip/shoulder lines (side, Mount). Soumission isole une ligne. Mauvaise phase casse le système.",
-  "beginnerView": "Êtes-vous en mouvement (ride) ou stabilisé (pin)?",
-  "advancedView": "Transitionner phases: ride → exposition dos → pin → soumission. Ne pas sauter de phase.",
-  "ifThenExamples": [],
-  "commonMisunderstandings": [],
-  "trainingCues": [],
   "relatedSkillIds": [
     "turtle-ride",
     "cross-wrist-ride",
     "claw-ride",
     "side-control-pin",
-    "Mount-control",
+    "mount-control",
     "rear-naked-choke-system",
     "back-control"
   ],
@@ -32,5 +22,15 @@
     "positional-hierarchy",
     "control-before-submission",
     "exposure-before-finish"
-  ]
+  ],
+  "locale": "fr",
+  "title": "Ride vs Pin vs Soumission",
+  "shortDefinition": "Trois phases: ride pour exposer le dos, pin pour stabiliser, soumission pour finir.",
+  "whyItMatters": "Confondre ride et pin fait perdre le dos ou la soumission avec bon contrôle.",
+  "deepExplanation": "Ride suit les réactions pour trouver le dos (turtle, crab, wrist ride). Pin stabilise hip/shoulder lines (side, Mount). Soumission isole une ligne. Mauvaise phase casse le système.",
+  "beginnerView": "Êtes-vous en mouvement (ride) ou stabilisé (pin)?",
+  "advancedView": "Transitionner phases: ride → exposition dos → pin → soumission. Ne pas sauter de phase.",
+  "ifThenExamples": [],
+  "commonMisunderstandings": [],
+  "trainingCues": []
 }

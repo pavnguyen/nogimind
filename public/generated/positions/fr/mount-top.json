@@ -1,9 +1,19 @@
 {
   "id": "mount-top",
-  "locale": "fr",
-  "title": "Mount dessus",
   "category": "pin",
   "status": "dominant",
+  "relatedSkillIds": [
+    "mount-control",
+    "mount-escape",
+    "arm-triangle-mount"
+  ],
+  "relatedConceptIds": [
+    "control-before-submission",
+    "elbow-knee-connection",
+    "pressure-direction"
+  ],
+  "locale": "fr",
+  "title": "Mount dessus",
   "description": "Le joueur du dessus est assis sur les hanches ou la poitrine adverse, sépare les coudes et ouvre la high Mount ou les soumissions.",
   "topPlayerGoals": [
     "Le joueur du dessus veut contrôler Mount dessus avec la position de tête, la position intérieure et une pression orientée.",
@@ -42,15 +52,5 @@
     "Le coude se sépare des côtes ou du genou.",
     "La ligne des hanches est verrouillée pendant que la ligne des épaules est encore tirée.",
     "Vous devez poser une main loin pour éviter de tomber."
-  ],
-  "relatedSkillIds": [
-    "mount-control",
-    "mount-escape",
-    "arm-triangle-mount"
-  ],
-  "relatedConceptIds": [
-    "control-before-submission",
-    "elbow-knee-connection",
-    "pressure-direction"
   ]
 }

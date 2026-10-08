@@ -1,9 +1,19 @@
 {
   "id": "saddle-inside-sankaku",
-  "locale": "vi",
-  "title": "Saddle / Inside Sankaku",
   "category": "leg_entanglement",
   "status": "critical",
+  "relatedSkillIds": [
+    "heel-hook-safety",
+    "leg-lock-safety-basics",
+    "k-guard-entry"
+  ],
+  "relatedConceptIds": [
+    "leg-lock-safety-hierarchy",
+    "knee-line",
+    "early-vs-late-defense"
+  ],
+  "locale": "vi",
+  "title": "Saddle / Inside Sankaku",
   "description": "Leg entanglement mạnh quanh hip line và knee line, thường có nguy cơ heel hook nếu gót bị lộ.",
   "topPlayerGoals": [
     "Người ở trên muốn kiểm soát Saddle / Inside Sankaku bằng vị trí đầu, vị trí trong và áp lực có hướng.",
@@ -42,15 +52,5 @@
     "Khuỷu tay tách khỏi sườn hoặc đầu gối.",
     "Đường hông bị khóa trong khi đường vai vẫn đang bị kéo.",
     "Bạn phải chống tay dài để không ngã."
-  ],
-  "relatedSkillIds": [
-    "heel-hook-safety",
-    "leg-lock-safety-basics",
-    "k-guard-entry"
-  ],
-  "relatedConceptIds": [
-    "leg-lock-safety-hierarchy",
-    "knee-line",
-    "early-vs-late-defense"
   ]
 }

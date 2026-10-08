@@ -1,0 +1,15 @@
+{
+  "id": "turtle-top",
+  "category": "turtle",
+  "status": "advantage",
+  "relatedSkillIds": [
+    "turtle-ride",
+    "mat-return-basics",
+    "back-control"
+  ],
+  "relatedConceptIds": [
+    "hooks",
+    "posts",
+    "positional-hierarchy"
+  ]
+}

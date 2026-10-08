@@ -1,9 +1,19 @@
 {
   "id": "front-headlock-bottom",
-  "locale": "fr",
-  "title": "Front Headlock dessous",
   "category": "front_headlock",
   "status": "dangerous",
+  "relatedSkillIds": [
+    "front-headlock-defense",
+    "hand-fighting",
+    "technical-stand-up"
+  ],
+  "relatedConceptIds": [
+    "early-vs-late-defense",
+    "head-position",
+    "posts"
+  ],
+  "locale": "fr",
+  "title": "Front Headlock dessous",
   "description": "La tête et le cou du joueur du dessous sont tirés vers le bas ; il doit protéger sa respiration et reconstruire sa base.",
   "topPlayerGoals": [
     "Le joueur du dessus veut contrôler Front Headlock dessous avec la position de tête, la position intérieure et une pression orientée.",
@@ -42,15 +52,5 @@
     "Le coude se sépare des côtes ou du genou.",
     "La ligne des hanches est verrouillée pendant que la ligne des épaules est encore tirée.",
     "Vous devez poser une main loin pour éviter de tomber."
-  ],
-  "relatedSkillIds": [
-    "front-headlock-defense",
-    "hand-fighting",
-    "technical-stand-up"
-  ],
-  "relatedConceptIds": [
-    "early-vs-late-defense",
-    "head-position",
-    "posts"
   ]
 }

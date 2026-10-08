@@ -1,9 +1,22 @@
 {
   "id": "closed-guard",
-  "locale": "en",
-  "title": "Closed Guard",
   "category": "bottom_guard",
   "status": "neutral",
+  "relatedSkillIds": [
+    "closed-guard-posture-control",
+    "closed-guard-sweeps",
+    "clamp-guard-control",
+    "armbar-system",
+    "triangle-system",
+    "kimura-system"
+  ],
+  "relatedConceptIds": [
+    "control-before-submission",
+    "levers",
+    "angle-creation"
+  ],
+  "locale": "en",
+  "title": "Closed Guard",
   "description": "The Guard player locks legs around the passer hips to control posture and set up submissions or sweeps.",
   "topPlayerGoals": [
     "The top player wants to control Closed Guard through head position, inside position, and directed pressure.",
@@ -42,18 +55,5 @@
     "The elbow separates from the ribs or knee.",
     "The hip line is locked while the shoulder line is still being pulled.",
     "You need a long hand post to avoid falling."
-  ],
-  "relatedSkillIds": [
-    "closed-guard-posture-control",
-    "closed-guard-sweeps",
-    "clamp-guard-control",
-    "armbar-system",
-    "triangle-system",
-    "kimura-system"
-  ],
-  "relatedConceptIds": [
-    "control-before-submission",
-    "levers",
-    "angle-creation"
   ]
 }

@@ -77,7 +77,7 @@
   "whyItWorks": [
     "Cắt đứt cả hai động mạch cảnh khi cẳng tay và vai của đối phương bịt chặt cả hai đường cổ.",
     "Yêu cầu lực tối thiểu khi cấu trúc chính xác - đòn bẩy thay thế sức mạnh.",
-    "Tạo ra tình thế tiến thoái lưỡng nan giữa việc bảo vệ cổ và việc trốn thoát back control."
+    "Tạo ra tình thế tiến thoái lưỡng nan giữa việc bảo vệ cổ và việc thoát back control."
   ],
   "commonMistakes": [
     "Siết chặt cánh tay trước khi khuỷu tay ở dưới cằm.",
@@ -115,7 +115,7 @@
       },
       {
         "condition": "Hai tay bảo vệ cổ",
-        "action": "Chuyển sang cơ thể Triangle hoặc bẫy tay để phá vỡ lớp vỏ phòng thủ của chúng trước khi tấn công lại vào cổ."
+        "action": "Chuyển sang cơ thể Triangle hoặc bẫy tay để phá vỡ lớp vỏ phòng thủ của họ trước khi tấn công lại vào cổ."
       },
       {
         "condition": "Họ biến thành bạn (ngửa mặt)",
@@ -132,19 +132,19 @@
     ],
     "exitStrategies": [
       "Nếu cuộn cảm liên tục bị chặn, hãy chuyển sang bẫy tay và tấn công Armbar hoặc cung tên.",
-      "Nếu chúng trốn thoát đến Mount dưới cùng, hãy chuyển sang điều khiển Mount và tấn công từ đó.",
-      "Nếu chúng lao ra ngoài, hãy tấn công lại bằng Front Headlock hoặc Guillotine khi chúng đối mặt với bạn."
+      "Nếu họ thoát đến Mount dưới cùng, hãy chuyển sang điều khiển Mount và tấn công từ đó.",
+      "Nếu họ lao ra ngoài, hãy tấn công lại bằng Front Headlock hoặc Guillotine khi họ đối mặt với bạn."
     ]
   },
   "moneyDetails": [
     "Chi tiết khuỷu tay dưới cằm là tất cả mọi thứ - nếu không có nó, bạn sẽ có một tay quay chứ không phải một cuộn cảm.",
-    "Tiếp xúc ngực đối lưng sẽ đóng băng lối thoát của chúng trước khi bạn kịp siết chặt.",
+    "Tiếp xúc ngực đối lưng sẽ đóng băng lối thoát của họ trước khi bạn kịp siết chặt.",
     "Loại bỏ sự lỏng lẻo quan trọng hơn việc ép mạnh."
   ],
   "nextStep": "Sau khi kết thúc RNC hoặc nếu thất bại, hãy xâu chuỗi vào bẫy cánh tay, chuyển đổi Mount hoặc quay lại để vào lại.",
   "fixItFast": [
     "Không thể tìm thấy đường viền cổ? Chuyển sang cánh tay kia hoặc tạo thêm góc bằng cách di chuyển hông.",
     "Bị bóc vỏ? Gập cằm và chuyển sang điều khiển bằng cổ tay cao.",
-    "Mất liên lạc với ngực? Kết nối lại trước khi siết chặt - nếu không có nó, chúng sẽ trốn thoát."
+    "Mất liên lạc với ngực? Kết nối lại trước khi siết chặt - nếu không có nó, họ sẽ thoát."
   ]
 }

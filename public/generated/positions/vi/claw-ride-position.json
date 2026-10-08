@@ -1,9 +1,20 @@
 {
   "id": "claw-ride-position",
-  "locale": "vi",
-  "title": "Claw Ride",
   "category": "back",
   "status": "advantage",
+  "relatedSkillIds": [
+    "claw-ride",
+    "turtle-ride",
+    "back-control",
+    "cross-wrist-ride"
+  ],
+  "relatedConceptIds": [
+    "ride-vs-pin-vs-submission",
+    "hooks",
+    "connection-before-control"
+  ],
+  "locale": "vi",
+  "title": "Claw Ride",
   "description": "Ride dùng kết hợp underhook sâu + head control + hip pressure từ turtle để lộ lưng hoặc mat return.",
   "topPlayerGoals": [
     "Người ở trên muốn kiểm soát Claw Ride bằng vị trí đầu, vị trí trong và áp lực có hướng.",
@@ -42,16 +53,5 @@
     "Khuỷu tay tách khỏi sườn hoặc đầu gối.",
     "Đường hông bị khóa trong khi đường vai vẫn đang bị kéo.",
     "Bạn phải chống tay dài để không ngã."
-  ],
-  "relatedSkillIds": [
-    "claw-ride",
-    "turtle-ride",
-    "back-control",
-    "cross-wrist-ride"
-  ],
-  "relatedConceptIds": [
-    "ride-vs-pin-vs-submission",
-    "hooks",
-    "connection-before-control"
   ]
 }

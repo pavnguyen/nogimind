@@ -1,9 +1,21 @@
 {
   "id": "de-la-riva-guard",
-  "locale": "en",
-  "title": "De La Riva Guard",
   "category": "bottom_guard",
   "status": "neutral",
+  "relatedSkillIds": [
+    "de-la-riva-sweeps",
+    "de-la-riva-back-take",
+    "x-guard-control",
+    "single-leg-x-control",
+    "guard-pulling-strategy"
+  ],
+  "relatedConceptIds": [
+    "hooks",
+    "guard-retention-layers",
+    "angle-creation"
+  ],
+  "locale": "en",
+  "title": "De La Riva Guard",
   "description": "The Guard player uses a leg hook on the inside thigh and hand on the outside ankle to off-balance and sweep a standing passer.",
   "topPlayerGoals": [
     "The top player wants to control De La Riva Guard through head position, inside position, and directed pressure.",
@@ -42,17 +54,5 @@
     "The elbow separates from the ribs or knee.",
     "The hip line is locked while the shoulder line is still being pulled.",
     "You need a long hand post to avoid falling."
-  ],
-  "relatedSkillIds": [
-    "de-la-riva-sweeps",
-    "de-la-riva-back-take",
-    "x-guard-control",
-    "single-leg-x-control",
-    "guard-pulling-strategy"
-  ],
-  "relatedConceptIds": [
-    "hooks",
-    "guard-retention-layers",
-    "angle-creation"
   ]
 }

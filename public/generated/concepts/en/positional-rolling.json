@@ -1,7 +1,5 @@
 {
   "id": "positional-rolling",
-  "locale": "en",
-  "title": "Positional Rolling",
   "category": "training",
   "level": "fundamental",
   "tags": [
@@ -9,6 +7,19 @@
     "training",
     "constraints"
   ],
+  "relatedSkillIds": [
+    "side-control-escape",
+    "back-control",
+    "bodylock-pass",
+    "front-headlock-defense"
+  ],
+  "relatedConceptIds": [
+    "deliberate-practice",
+    "failure-response",
+    "positional-hierarchy"
+  ],
+  "locale": "en",
+  "title": "Positional Rolling",
   "shortDefinition": "Positional rolling starts in a specific situation with clear win and reset conditions.",
   "whyItMatters": "It turns knowledge into timing through repetitions that open rolling rarely gives enough of.",
   "deepExplanation": "You can spar side-control escape, back retention, bodylock pass, or front-headlock defense. The key is limiting goals so feedback is clear: pass or recover, finish or escape.",
@@ -16,16 +27,5 @@
   "advancedView": "Use small constraints to test one technical cue instead of winning the whole round.",
   "ifThenExamples": [],
   "commonMisunderstandings": [],
-  "trainingCues": [],
-  "relatedSkillIds": [
-    "side-control-escape",
-    "back-control",
-    "bodylock-passing",
-    "front-headlock-defense"
-  ],
-  "relatedConceptIds": [
-    "deliberate-practice",
-    "failure-response",
-    "positional-hierarchy"
-  ]
+  "trainingCues": []
 }

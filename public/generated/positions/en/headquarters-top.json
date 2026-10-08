@@ -1,9 +1,19 @@
 {
   "id": "headquarters-top",
-  "locale": "en",
-  "title": "Headquarters Top",
   "category": "top_control",
   "status": "advantage",
+  "relatedSkillIds": [
+    "headquarters-passing",
+    "knee-cut-passing",
+    "leg-drag-basics"
+  ],
+  "relatedConceptIds": [
+    "dilemma-attacks",
+    "hip-line-shoulder-line",
+    "inside-position"
+  ],
+  "locale": "en",
+  "title": "Headquarters Top",
   "description": "The top player stands in headquarters with one of the Guard player’s legs stapled and multiple passing lanes available.",
   "topPlayerGoals": [
     "The top player wants to control Headquarters Top through head position, inside position, and directed pressure.",
@@ -42,15 +52,5 @@
     "The elbow separates from the ribs or knee.",
     "The hip line is locked while the shoulder line is still being pulled.",
     "You need a long hand post to avoid falling."
-  ],
-  "relatedSkillIds": [
-    "headquarters-passing",
-    "knee-cut-passing",
-    "leg-drag-basics"
-  ],
-  "relatedConceptIds": [
-    "dilemma-attacks",
-    "hip-line-shoulder-line",
-    "inside-position"
   ]
 }

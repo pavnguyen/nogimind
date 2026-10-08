@@ -1,9 +1,19 @@
 {
   "id": "rear-naked-choke-threat",
-  "locale": "en",
-  "title": "Rear Naked Choke Threat",
   "category": "submission_threat",
   "status": "critical",
+  "relatedSkillIds": [
+    "rear-naked-choke-system",
+    "back-control",
+    "back-escape"
+  ],
+  "relatedConceptIds": [
+    "control-before-submission",
+    "dilemma-attacks",
+    "early-vs-late-defense"
+  ],
+  "locale": "en",
+  "title": "Rear Naked Choke Threat",
   "description": "The attacker from back control is opening a path under the chin through hand fighting and chest-to-back connection.",
   "topPlayerGoals": [
     "The top player wants to control Rear Naked Choke Threat through head position, inside position, and directed pressure.",
@@ -42,15 +52,5 @@
     "The elbow separates from the ribs or knee.",
     "The hip line is locked while the shoulder line is still being pulled.",
     "You need a long hand post to avoid falling."
-  ],
-  "relatedSkillIds": [
-    "rear-naked-choke-system",
-    "back-control",
-    "back-escape"
-  ],
-  "relatedConceptIds": [
-    "control-before-submission",
-    "dilemma-attacks",
-    "early-vs-late-defense"
   ]
 }

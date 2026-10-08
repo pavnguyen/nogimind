@@ -1,9 +1,19 @@
 {
   "id": "knee-shield-half-guard",
-  "locale": "vi",
-  "title": "Knee Shield Half Guard",
   "category": "bottom_guard",
   "status": "neutral",
+  "relatedSkillIds": [
+    "half-guard-knee-shield",
+    "half-guard-wrestle-up",
+    "knee-cut-passing"
+  ],
+  "relatedConceptIds": [
+    "wedges",
+    "inside-position",
+    "wrestle-up-philosophy"
+  ],
+  "locale": "vi",
+  "title": "Knee Shield Half Guard",
   "description": "Knee shield tạo một wedge giữa ngực hoặc hông của người ở trên và thân của người ở dưới.",
   "topPlayerGoals": [
     "Người ở trên muốn kiểm soát Knee Shield Half Guard bằng vị trí đầu, vị trí trong và áp lực có hướng.",
@@ -42,15 +52,5 @@
     "Khuỷu tay tách khỏi sườn hoặc đầu gối.",
     "Đường hông bị khóa trong khi đường vai vẫn đang bị kéo.",
     "Bạn phải chống tay dài để không ngã."
-  ],
-  "relatedSkillIds": [
-    "half-guard-knee-shield",
-    "half-guard-wrestle-up",
-    "knee-cut-passing"
-  ],
-  "relatedConceptIds": [
-    "wedges",
-    "inside-position",
-    "wrestle-up-philosophy"
   ]
 }

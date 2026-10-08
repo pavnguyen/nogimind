@@ -1,9 +1,19 @@
 {
   "id": "front-headlock-bottom",
-  "locale": "en",
-  "title": "Front Headlock Bottom",
   "category": "front_headlock",
   "status": "dangerous",
+  "relatedSkillIds": [
+    "front-headlock-defense",
+    "hand-fighting",
+    "technical-stand-up"
+  ],
+  "relatedConceptIds": [
+    "early-vs-late-defense",
+    "head-position",
+    "posts"
+  ],
+  "locale": "en",
+  "title": "Front Headlock Bottom",
   "description": "The bottom player’s head and neck are pulled down, so they must protect the airway and rebuild their base.",
   "topPlayerGoals": [
     "The top player wants to control Front Headlock Bottom through head position, inside position, and directed pressure.",
@@ -42,15 +52,5 @@
     "The elbow separates from the ribs or knee.",
     "The hip line is locked while the shoulder line is still being pulled.",
     "You need a long hand post to avoid falling."
-  ],
-  "relatedSkillIds": [
-    "front-headlock-defense",
-    "hand-fighting",
-    "technical-stand-up"
-  ],
-  "relatedConceptIds": [
-    "early-vs-late-defense",
-    "head-position",
-    "posts"
   ]
 }

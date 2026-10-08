@@ -1,7 +1,5 @@
 {
   "id": "safe-unsafe-rotation",
-  "locale": "en",
-  "title": "Safe vs Unsafe Rotation",
   "category": "safety",
   "level": "fundamental",
   "tags": [
@@ -11,14 +9,6 @@
     "knee line",
     "heel"
   ],
-  "shortDefinition": "Safe rotation occurs when knee line is free and heel is hidden; unsafe rotation occurs when knee line is trapped and heel is exposed.",
-  "whyItMatters": "Leg lock injuries usually come from turning the wrong direction in an entanglement, knowing when to turn and when to stop is technical safety.",
-  "deepExplanation": "Safety assessment in order: (1) Is the heel exposed? (2) Is the knee line trapped? (3) Is the secondary leg controlled? If all 3 signals are present, do not rotate, tap or free yourself first. If heel hidden and knee free, you can rotate safely.",
-  "beginnerView": "Do not rotate hard when the heel is exposed and the knee is trapped.",
-  "advancedView": "Use rotation sensing to bait: let them feel knee line is trapped then change direction.",
-  "ifThenExamples": [],
-  "commonMisunderstandings": [],
-  "trainingCues": [],
   "relatedSkillIds": [
     "leg-lock-defense",
     "knee-line-escape",
@@ -29,5 +19,15 @@
     "knee-line",
     "leg-lock-safety-hierarchy",
     "early-vs-late-defense"
-  ]
+  ],
+  "locale": "en",
+  "title": "Safe vs Unsafe Rotation",
+  "shortDefinition": "Safe rotation occurs when knee line is free and heel is hidden; unsafe rotation occurs when knee line is trapped and heel is exposed.",
+  "whyItMatters": "Leg lock injuries usually come from turning the wrong direction in an entanglement, knowing when to turn and when to stop is technical safety.",
+  "deepExplanation": "Safety assessment in order: (1) Is the heel exposed? (2) Is the knee line trapped? (3) Is the secondary leg controlled? If all 3 signals are present, do not rotate, tap or free yourself first. If heel hidden and knee free, you can rotate safely.",
+  "beginnerView": "Do not rotate hard when the heel is exposed and the knee is trapped.",
+  "advancedView": "Use rotation sensing to bait: let them feel knee line is trapped then change direction.",
+  "ifThenExamples": [],
+  "commonMisunderstandings": [],
+  "trainingCues": []
 }

@@ -1,0 +1,13 @@
+{
+  "id": "failure-response",
+  "locale": "vi",
+  "title": "Phản ứng khi thất bại",
+  "shortDefinition": "Failure response là kế hoạch ngay khi kỹ thuật đầu tiên bị chặn.",
+  "whyItMatters": "Khoảnh khắc thất bại là nơi nhiều người freeze, overcommit hoặc lộ cổ/lưng/chân.",
+  "deepExplanation": "Một system tốt định nghĩa trước: nếu mất inside position thì reset; nếu họ turn away thì lấy back; nếu họ frame thì đổi angle. Failure không phải dừng, mà là branch.",
+  "beginnerView": "Biết làm gì khi đòn không chạy.",
+  "advancedView": "Thiết kế kỹ thuật để failure đầu tiên mở kỹ thuật thứ hai.",
+  "ifThenExamples": [],
+  "commonMisunderstandings": [],
+  "trainingCues": []
+}

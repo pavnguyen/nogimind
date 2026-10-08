@@ -1,9 +1,19 @@
 {
   "id": "dogfight",
-  "locale": "en",
-  "title": "Dogfight",
   "category": "scramble",
   "status": "neutral",
+  "relatedSkillIds": [
+    "half-guard-wrestle-up",
+    "single-leg-bjj",
+    "mat-return-basics"
+  ],
+  "relatedConceptIds": [
+    "wrestle-up-philosophy",
+    "head-position",
+    "base-balance"
+  ],
+  "locale": "en",
+  "title": "Dogfight",
   "description": "Both players are on a knee or hip in an underhook-versus-whizzer battle from Half Guard or a wrestle-up.",
   "topPlayerGoals": [
     "The top player wants to control Dogfight through head position, inside position, and directed pressure.",
@@ -42,15 +52,5 @@
     "The elbow separates from the ribs or knee.",
     "The hip line is locked while the shoulder line is still being pulled.",
     "You need a long hand post to avoid falling."
-  ],
-  "relatedSkillIds": [
-    "half-guard-wrestle-up",
-    "single-leg-bjj",
-    "mat-return-basics"
-  ],
-  "relatedConceptIds": [
-    "wrestle-up-philosophy",
-    "head-position",
-    "base-balance"
   ]
 }

@@ -1,0 +1,15 @@
+{
+  "id": "side-control-top",
+  "category": "pin",
+  "status": "dominant",
+  "relatedSkillIds": [
+    "side-control-pin",
+    "side-control-escape",
+    "arm-triangle-mount"
+  ],
+  "relatedConceptIds": [
+    "pressure-direction",
+    "elbow-knee-connection",
+    "control-before-submission"
+  ]
+}

@@ -1,7 +1,5 @@
 {
   "id": "early-vs-late-defense",
-  "locale": "vi",
-  "title": "Phòng thủ sớm vs phòng thủ muộn",
   "category": "defensive",
   "level": "fundamental",
   "tags": [
@@ -9,6 +7,19 @@
     "safety",
     "recognition"
   ],
+  "relatedSkillIds": [
+    "leg-lock-safety-basics",
+    "front-headlock-defense",
+    "back-survival",
+    "mount-survival"
+  ],
+  "relatedConceptIds": [
+    "knee-line",
+    "elbow-knee-connection",
+    "positional-hierarchy"
+  ],
+  "locale": "vi",
+  "title": "Phòng thủ sớm vs phòng thủ muộn",
   "shortDefinition": "Early defense xử lý body signal trước khi position khóa; late defense xử lý khi danger đã có lực.",
   "whyItMatters": "No-gi hiện đại nhanh: phòng sớm tiết kiệm năng lượng và an toàn hơn nhiều.",
   "deepExplanation": "Early defense là cằm thu trước chin strap, knee line thoát trước heel exposure, elbow-knee trước chest-to-chest. Late defense không bị cấm, nhưng cần tap/reset sớm nếu force nguy hiểm.",
@@ -16,16 +27,5 @@
   "advancedView": "Tạo hệ thống cue cho từng danger line: cổ, knee line, shoulder line, back exposure.",
   "ifThenExamples": [],
   "commonMisunderstandings": [],
-  "trainingCues": [],
-  "relatedSkillIds": [
-    "leg-lock-safety-basics",
-    "front-headlock-defense",
-    "back-survival",
-    "Mount-survival"
-  ],
-  "relatedConceptIds": [
-    "knee-line",
-    "elbow-knee-connection",
-    "positional-hierarchy"
-  ]
+  "trainingCues": []
 }

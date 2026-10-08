@@ -1,9 +1,19 @@
 {
   "id": "front-headlock-bottom",
-  "locale": "vi",
-  "title": "Front Headlock Dưới",
   "category": "front_headlock",
   "status": "dangerous",
+  "relatedSkillIds": [
+    "front-headlock-defense",
+    "hand-fighting",
+    "technical-stand-up"
+  ],
+  "relatedConceptIds": [
+    "early-vs-late-defense",
+    "head-position",
+    "posts"
+  ],
+  "locale": "vi",
+  "title": "Front Headlock Dưới",
   "description": "Người ở dưới bị kéo đầu và cổ xuống, cần bảo vệ đường thở và xây lại base.",
   "topPlayerGoals": [
     "Người ở trên muốn kiểm soát Front Headlock Dưới bằng vị trí đầu, vị trí trong và áp lực có hướng.",
@@ -42,15 +52,5 @@
     "Khuỷu tay tách khỏi sườn hoặc đầu gối.",
     "Đường hông bị khóa trong khi đường vai vẫn đang bị kéo.",
     "Bạn phải chống tay dài để không ngã."
-  ],
-  "relatedSkillIds": [
-    "front-headlock-defense",
-    "hand-fighting",
-    "technical-stand-up"
-  ],
-  "relatedConceptIds": [
-    "early-vs-late-defense",
-    "head-position",
-    "posts"
   ]
 }

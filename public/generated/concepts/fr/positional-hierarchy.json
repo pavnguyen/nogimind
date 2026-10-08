@@ -1,7 +1,5 @@
 {
   "id": "positional-hierarchy",
-  "locale": "fr",
-  "title": "Hiérarchie positionnelle",
   "category": "positional",
   "level": "fundamental",
   "tags": [
@@ -9,6 +7,19 @@
     "risk",
     "decision-making"
   ],
+  "relatedSkillIds": [
+    "side-control-survival",
+    "mount-control",
+    "back-control",
+    "mount-escape"
+  ],
+  "relatedConceptIds": [
+    "control-before-submission",
+    "failure-response",
+    "base-balance"
+  ],
+  "locale": "fr",
+  "title": "Hiérarchie positionnelle",
   "shortDefinition": "Une carte qui montre quelles positions augmentent contrôle, réduisent risque et ouvrent soumissions.",
   "whyItMatters": "Sans hiérarchie, on attaque au mauvais moment et on saute survie, sortie ou contrôle.",
   "deepExplanation": "La hiérarchie n’est pas seulement le score; c’est lire le risque. En mauvaise position, survivre et reconstruire. En top/pin, stabiliser avant finir.",
@@ -16,16 +27,5 @@
   "advancedView": "Utiliser la hiérarchie pour choisir reset, chain ou accepter le risque.",
   "ifThenExamples": [],
   "commonMisunderstandings": [],
-  "trainingCues": [],
-  "relatedSkillIds": [
-    "side-control-survival",
-    "Mount-control",
-    "back-control",
-    "Mount-escape"
-  ],
-  "relatedConceptIds": [
-    "control-before-submission",
-    "failure-response",
-    "base-balance"
-  ]
+  "trainingCues": []
 }

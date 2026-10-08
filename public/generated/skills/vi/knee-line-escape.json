@@ -65,14 +65,14 @@
     "hasStateMachine": false
   },
   "locale": "vi",
-  "description": "Thoát khỏi đường đầu gối khỏi vướng víu ở chân: giấu gót chân, tách hông, tách chân phụ và xoay chính xác trước khi lực quay chạm đến đầu gối. Phòng thủ đường đầu gối là kỹ năng an toàn quan trọng nhất trong môn vật lộn khóa chân hiện đại.",
+  "description": "Thoát khỏi đường đầu gối khỏi vướng víu ở chân: giấu gót chân, tách hông, tách chân phụ và xoay chính xác trước khi lực quay chạm đến đầu gối. Phòng thủ đường đầu gối là kỹ năng an toàn quan trọng nhất trong môn vật khóa chân hiện đại.",
   "shortInstruction": "Giấu gót chân sau đùi, tách hông của bạn ra khỏi hông của họ, bỏ móc chân thứ hai và xoay về phía chân tự do - không bao giờ rời xa chân bị mắc kẹt.",
-  "summary": "Thoát khỏi đường đầu gối là một quá trình có hệ thống để loại bỏ đầu gối của bạn khỏi sự kiểm soát của đối phương trong tình huống vướng chân. Trình tự bốn bước là: (1) ẩn gót chân, đưa gót chân về phía cơ mông để ngăn chúng kiểm soát bàn chân, (2) tách hông, tạo khoảng cách giữa hông của bạn và hông của họ để giảm lực xoay, (3) bỏ chân phụ, tháo móc chân bên ngoài đang bẫy chân bạn, (4) xoay đúng, xoay về phía chân tự do của bạn (không bao giờ rời khỏi chân bị mắc kẹt).",
+  "summary": "Thoát khỏi đường đầu gối là một quá trình có hệ thống để loại bỏ đầu gối của bạn khỏi sự kiểm soát của đối phương trong tình huống vướng chân. Trình tự bốn bước là: (1) ẩn gót chân, đưa gót chân về phía cơ mông để ngăn họ kiểm soát bàn chân, (2) tách hông, tạo khoảng cách giữa hông của bạn và hông của họ để giảm lực xoay, (3) bỏ chân phụ, tháo móc chân bên ngoài đang bẫy chân bạn, (4) xoay đúng, xoay về phía chân tự do của bạn (không bao giờ rời khỏi chân bị mắc kẹt).",
   "whyItWorks": [
-    "Việc giấu gót chân sau đùi của bạn sẽ loại bỏ điểm kiểm soát chính của chúng, nếu không có khả năng kiểm soát gót chân, chúng không thể tạo ra mô-men quay cần thiết để hoàn thành",
+    "Việc giấu gót chân sau đùi của bạn sẽ loại bỏ điểm kiểm soát chính của họ, nếu không có khả năng kiểm soát gót chân, họ không thể tạo ra mô-men quay cần thiết để hoàn thành",
     "Việc tách hông của bạn khỏi hông của họ sẽ loại bỏ điểm tựa của khóa chân - tất cả các khóa chân đều yêu cầu ở gần hông để tạo ra lực bẻ gãy",
-    "Việc tháo móc chân phụ giúp chúng không bị vướng khi bạn cố gắng trốn thoát",
-    "Xoay về phía chân tự do tạo ra áp lực tò mò chống lại sự bám chặt của chúng - quay ra xa (chuyển động bản năng) sẽ siết chặt sự vướng víu"
+    "Việc tháo móc chân phụ giúp họ không bị vướng khi bạn cố gắng thoát",
+    "Xoay về phía chân tự do tạo ra áp lực tò mò chống lại sự bám chặt của họ - quay ra xa (chuyển động bản năng) sẽ siết chặt sự vướng víu"
   ],
   "commonMistakes": [
     "Hoảng sợ và xoay người khỏi chân bị kẹt, thao tác này sẽ siết chặt Heel Hook hoặc thanh đầu gối",
@@ -97,7 +97,7 @@
     "decisionTree": [
       {
         "condition": "Bước 1, Giấu gót chân: thời điểm",
-        "action": "bạn cảm thấy chân mình bị cô lập, hãy đưa gót chân càng gần mông càng tốt. Việc này sẽ loại bỏ 'tay cầm' mà chúng cần để xoay bàn chân của bạn. Nếu không kiểm soát được gót chân, họ không thể hoàn thành Heel Hook"
+        "action": "bạn cảm thấy chân mình bị cô lập, hãy đưa gót chân càng gần mông càng tốt. Việc này sẽ loại bỏ 'tay cầm' mà họ cần để xoay bàn chân của bạn. Nếu không kiểm soát được gót chân, họ không thể hoàn thành Heel Hook"
       },
       {
         "condition": "Bước 2, Tách hông: bước đi hoặc đưa hông của bạn ra xa hông của họ. Khoảng cách gần hông là điều kiện tiên quyết cho tất cả các cơ chế hoàn thiện khóa chân. Bằng cách tách hông",
@@ -105,23 +105,23 @@
       },
       {
         "condition": "Ứng dụng chung",
-        "action": "Nếu Bước 3, Xóa chân phụ: chân ngoài của đối phương (chân không tấn công) đang móc hoặc bẫy chân còn lại của bạn. Đập chân còn lại của bạn ra khỏi dưới móc của chúng bằng cách vòng nó ra khỏi chỗ vướng víu"
+        "action": "Nếu Bước 3, Xóa chân phụ: chân ngoài của đối phương (chân không tấn công) đang móc hoặc bẫy chân còn lại của bạn. Đập chân còn lại của bạn ra khỏi dưới móc của họ bằng cách vòng nó ra khỏi chỗ vướng víu"
       },
       {
         "condition": "Ứng dụng chung",
-        "action": "Nếu Bước 4, Xoay đúng: sau khi hoàn thành ba bước đầu tiên, hãy xoay cơ thể về phía chân còn lại (chân không bị kẹt). Điều này tạo ra áp lực tò mò chống lại sự bám chặt của chúng và cho phép đầu gối bị mắc kẹt của bạn trượt ra khỏi chỗ vướng víu."
+        "action": "Nếu Bước 4, Xoay đúng: sau khi hoàn thành ba bước đầu tiên, hãy xoay cơ thể về phía chân còn lại (chân không bị kẹt). Điều này tạo ra áp lực tò mò chống lại sự bám chặt của họ và cho phép đầu gối bị mắc kẹt của bạn trượt ra khỏi chỗ vướng víu."
       },
       {
         "condition": "tất cả bốn bước đều được thực hiện thành công",
-        "action": "bạn sẽ thoát ra hoàn toàn hoặc đến vị trí 50/50 mà cả người vật lộn đều không kiểm soát được đường đầu gối"
+        "action": "bạn sẽ thoát ra hoàn toàn hoặc đến vị trí 50/50 mà cả người vật đều không kiểm soát được đường đầu gối"
       }
     ],
     "exitStrategies": []
   },
   "moneyDetails": [
-    "Thoát khỏi đường đầu gối là kỹ năng an toàn quan trọng nhất trong BJJ hiện đại, sự gia tăng của khóa chân có nghĩa là mọi vận động viên vật lộn đều phải biết trình tự này",
+    "Thoát khỏi đường đầu gối là kỹ năng an toàn quan trọng nhất trong BJJ hiện đại, sự gia tăng của khóa chân có nghĩa là mọi võ sĩ đều phải biết trình tự này",
     "Đường thoát hiểm bằng đầu gối đáng tin cậy giúp loại bỏ nỗi sợ bị vướng vào chân, bạn có thể tham gia mà không có nguy cơ chấn thương thường xuyên",
-    "Việc thành thạo phòng thủ đường đầu gối khiến bạn trở thành kẻ tấn công khóa chân nguy hiểm hơn - bạn hiểu chính xác đối thủ cần gì để trốn thoát và có thể chống lại nó"
+    "Việc thành thạo phòng thủ đường đầu gối khiến bạn trở thành kẻ tấn công khóa chân nguy hiểm hơn - bạn hiểu chính xác đối thủ cần gì để thoát và có thể chống lại nó"
   ],
   "fixItFast": [
     "Nếu Heel Hook đã sâu và bạn cảm thấy đầu gối đang xoay: chạm ngay lập tức, việc phòng thủ phải xảy ra trước khi áp dụng mô-men xoắn",

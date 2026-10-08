@@ -7,8 +7,8 @@
   "summary": "Điều khiển north-south sử dụng sự căn chỉnh của cơ thể dọc theo đường giữa của đối phương để nén đường vai của họ và hạn chế chuyển động. Các điểm áp lực chính là: đầu của bạn ấn vào xương ức của họ (ngăn họ nhìn đi chỗ khác), cánh tay của bạn giữ vai họ (ngăn cản chuyển động của cánh tay) và trọng lượng ngực của bạn đè lên thân của họ (hạn chế thở và chuyển động hông). north-south là một chân chuyển tiếp dẫn đến các chuyển đổi north-south, Kimura hoặc Side Control.",
   "whyItWorks": [
     "Áp lực đầu lên xương ức khiến đối phương không thể quay đầu hoặc nhìn đi chỗ khác, đây là bước đầu tiên của hầu hết các cuộc chạy trốn",
-    "Nén cánh tay (ép khuỷu tay của bạn để giữ cánh tay của họ) ngăn họ đóng khung hoặc đăng để trốn thoát",
-    "Sức ép từ ngực đến ngực hạn chế chuyển động của cơ hoành, tạo ra tình trạng hô hấp gấp buộc họ phải cố gắng trốn thoát",
+    "Nén cánh tay (ép khuỷu tay của bạn để giữ cánh tay của họ) ngăn họ đóng khung hoặc đăng để thoát",
+    "Sức ép từ ngực đến ngực hạn chế chuyển động của cơ hoành, tạo ra tình trạng hô hấp gấp buộc họ phải cố gắng thoát",
     "Vị trí north-south tấn công một mặt phẳng khác với Side Control, đối thủ không thể sử dụng cùng một cơ chế thoát hiểm"
   ],
   "commonMistakes": [
@@ -30,7 +30,7 @@
   ],
   "keyCorrections": [
     "Nếu họ tiếp tục shrimp ra ngoài: đầu bạn không tựa vào xương ức - hãy ấn đầu bạn sâu hơn vào ngực họ",
-    "Nếu họ tiếp tục đóng khung bằng cánh tay của mình: khuỷu tay của bạn quá rộng - hãy kẹp chúng lại với nhau để giữ cánh tay",
+    "Nếu họ tiếp tục đóng khung bằng cánh tay của mình: khuỷu tay của bạn quá rộng - hãy kẹp họ lại với nhau để giữ cánh tay",
     "Nếu họ lăn bạn: bạn ở quá xa về phía trước - hãy giữ trọng lượng của bạn tập trung vào ngực họ"
   ],
   "systemLogic": {
@@ -42,7 +42,7 @@
       },
       {
         "condition": "Ứng dụng chung",
-        "action": "Nếu Trụ 2, Bẫy cánh tay: cánh tay trên của bạn ép vào vai họ, ghim cánh tay của họ xuống thảm. Khuỷu tay của bạn phải gần nhau, không loe ra. Điều này ngăn cản chúng bám vào hông bạn hoặc lao lên để trốn thoát"
+        "action": "Nếu Trụ 2, Bẫy cánh tay: cánh tay trên của bạn ép vào vai họ, ghim cánh tay của họ xuống thảm. Khuỷu tay của bạn phải gần nhau, không loe ra. Điều này ngăn cản họ bám vào hông bạn hoặc lao lên để thoát"
       },
       {
         "condition": "Ứng dụng chung",
@@ -59,8 +59,8 @@
     ]
   },
   "moneyDetails": [
-    "north-south là một trong những chốt ít được bảo vệ nhất trong BJJ, hầu hết các vận động viên vật lộn đều luyện tập rộng rãi để Side Control trốn thoát nhưng lại bỏ bê north-south",
-    "Cú giật north-south là một cú trình diễn có tỷ lệ phần trăm cao có thể hạ gục ngay cả những vận động viên vật lộn có kinh nghiệm Guard",
+    "north-south là một trong những chốt ít được bảo vệ nhất trong BJJ, hầu hết các võ sĩ đều luyện tập rộng rãi để Side Control thoát nhưng lại bỏ bê north-south",
+    "Cú giật north-south là một cú trình diễn có tỷ lệ phần trăm cao có thể hạ gục ngay cả những võ sĩ có kinh nghiệm Guard",
     "Việc nắm vững khả năng điều khiển north-south mang đến cho bạn một trò chơi hàng đầu hoàn chỉnh tấn công cả hai mặt phẳng (đường bên và đường giữa)"
   ],
   "fixItFast": [

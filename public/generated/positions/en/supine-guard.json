@@ -1,9 +1,19 @@
 {
   "id": "supine-guard",
-  "locale": "en",
-  "title": "Supine Guard",
   "category": "bottom_guard",
   "status": "defensive",
+  "relatedSkillIds": [
+    "supine-guard-retention",
+    "seated-guard-retention",
+    "k-guard-entry"
+  ],
+  "relatedConceptIds": [
+    "guard-retention-layers",
+    "inside-position",
+    "wedges"
+  ],
+  "locale": "en",
+  "title": "Supine Guard",
   "description": "The Guard player lies supine and uses feet, knees, frames, and hip angle to deny chest-to-chest passing.",
   "topPlayerGoals": [
     "The top player wants to control Supine Guard through head position, inside position, and directed pressure.",
@@ -42,15 +52,5 @@
     "The elbow separates from the ribs or knee.",
     "The hip line is locked while the shoulder line is still being pulled.",
     "You need a long hand post to avoid falling."
-  ],
-  "relatedSkillIds": [
-    "supine-guard-retention",
-    "seated-guard-retention",
-    "k-guard-entry"
-  ],
-  "relatedConceptIds": [
-    "guard-retention-layers",
-    "inside-position",
-    "wedges"
   ]
 }

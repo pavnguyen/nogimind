@@ -1,9 +1,19 @@
 {
   "id": "arm-triangle-threat",
-  "locale": "fr",
-  "title": "Menace d’arm triangle",
   "category": "submission_threat",
   "status": "critical",
+  "relatedSkillIds": [
+    "arm-triangle-mount",
+    "mount-control",
+    "side-control-pin"
+  ],
+  "relatedConceptIds": [
+    "control-before-submission",
+    "angle-creation",
+    "pressure-direction"
+  ],
+  "locale": "fr",
+  "title": "Menace d’arm triangle",
   "description": "L’attaquant a amené le bras adverse à travers la ligne du cou et cherche la pression d’épaule et l’angle pour finir.",
   "topPlayerGoals": [
     "Le joueur du dessus veut contrôler Menace d’arm triangle avec la position de tête, la position intérieure et une pression orientée.",
@@ -42,15 +52,5 @@
     "Le coude se sépare des côtes ou du genou.",
     "La ligne des hanches est verrouillée pendant que la ligne des épaules est encore tirée.",
     "Vous devez poser une main loin pour éviter de tomber."
-  ],
-  "relatedSkillIds": [
-    "arm-triangle-mount",
-    "mount-control",
-    "side-control-pin"
-  ],
-  "relatedConceptIds": [
-    "control-before-submission",
-    "angle-creation",
-    "pressure-direction"
   ]
 }

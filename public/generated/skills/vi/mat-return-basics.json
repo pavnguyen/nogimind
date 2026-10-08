@@ -46,7 +46,7 @@
   "keyCorrections": [
     "Nếu họ tiếp tục nhảy bằng một chân: bạn chưa nâng đủ cao - hãy nhấc chân bị mắc kẹt lên cao hơn",
     "Nếu bạn hạ cánh tại Guard của họ: hướng lái xe của bạn sai - hãy lái xe lùi chứ không phải đi ngang",
-    "Nếu chúng thoát khỏi chân: tay cầm của bạn quá nông - hãy bắn lại và cố định chân cao hơn (ở đầu gối hoặc đùi)"
+    "Nếu họ thoát khỏi chân: tay cầm của bạn quá nông - hãy bắn lại và cố định chân cao hơn (ở đầu gối hoặc đùi)"
   ],
   "version": 1,
   "updatedAt": "2026-05-21T00:24:30.752Z",
@@ -61,17 +61,17 @@
     "hasStateMachine": false
   },
   "locale": "vi",
-  "description": "Đưa đối thủ trở lại thảm một cách an toàn khi họ đứng bằng một chân, khóa thân hoặc Tư thế rùa. mat return là một kỹ năng đấu vật quan trọng giúp ngăn chặn đối thủ trốn thoát bằng cách đứng dậy.",
+  "description": "Đưa đối thủ trở lại thảm một cách an toàn khi họ đứng bằng một chân, khóa thân hoặc Tư thế rùa. mat return là một kỹ năng đấu vật quan trọng giúp ngăn chặn đối thủ thoát bằng cách đứng dậy.",
   "shortInstruction": "Giữ chặt chân (đơn hoặc khóa thân), đẩy vai của bạn vào hông của họ, nâng chân bị mắc kẹt lên và đẩy họ lên tấm thảm ở hông hoặc lưng của họ. Bảo vệ vị trí đầu của bạn trong suốt.",
-  "summary": "mat return là quá trình đưa đối thủ đang đứng trở lại thảm sau khi bạn đã giữ chặt một chân, hai chân hoặc khóa cơ thể. Nó đòi hỏi ba yếu tố: một tay nắm an toàn để ngăn chúng trốn thoát, nâng cao chân bị mắc kẹt để tháo đế của chúng và chuyển động lái khiến chúng nằm trên hông hoặc lưng. mat return là thiết bị cần thiết để ngăn chặn việc Tư thế rùa đứng lên và Half Guard thoát thân bằng tư thế đứng.",
+  "summary": "mat return là quá trình đưa đối thủ đang đứng trở lại thảm sau khi bạn đã giữ chặt một chân, hai chân hoặc khóa cơ thể. Nó đòi hỏi ba yếu tố: một tay nắm an toàn để ngăn họ thoát, nâng cao chân bị mắc kẹt để tháo đế của họ và chuyển động lái khiến họ nằm trên hông hoặc lưng. mat return là thiết bị cần thiết để ngăn chặn việc Tư thế rùa đứng lên và Half Guard thoát thân bằng tư thế đứng.",
   "whyItWorks": [
-    "Việc nâng chân bị mắc kẹt lên sẽ loại bỏ một điểm trên đế của chúng, khiến chúng không thể duy trì tư thế đứng",
+    "Việc nâng chân bị mắc kẹt lên sẽ loại bỏ một điểm trên đế của họ, khiến họ không thể duy trì tư thế đứng",
     "Đẩy vai của bạn vào hông họ sẽ tạo ra một đòn bẩy đẩy trọng tâm của họ về phía sau",
     "Đặt họ trên hông (không phải lưng) giúp bạn kiểm soát vị trí ngay lập tức cho giai đoạn tiếp theo (ghim hoặc chuyền)",
     "mat return được thực hiện tốt sẽ đưa bạn đến vị trí thống trị hàng đầu chứ không chỉ là trung lập"
   ],
   "commonMistakes": [
-    "Buông chân trong quá trình quay trở lại - phải duy trì độ bám cho đến khi chúng nằm hoàn toàn trên thảm",
+    "Buông chân trong quá trình quay trở lại - phải duy trì độ bám cho đến khi họ nằm hoàn toàn trên thảm",
     "Lái xe sang một bên thay vì lùi lại, việc quay đầu sang một bên có thể đưa bạn vào Guard của họ",
     "Mất vị trí đầu - đầu của bạn phải ở bên trong (ngực đến hông) chứ không phải bên ngoài",
     "Đánh rơi căn cứ của chính mình trong quá trình quay trở lại - bạn phải giữ thăng bằng để hạ cánh trên đỉnh"
@@ -101,7 +101,7 @@
       },
       {
         "condition": "Trong Giai đoạn 3 (Lái xe tới Mat)",
-        "action": "đẩy vai của bạn vào hông họ và lùi một bước lớn bằng chân ngoài của bạn. Điều này kéo phần đế của chúng ra và đặt chúng trên hông. Duy trì độ bám khi họ hạ cánh"
+        "action": "đẩy vai của bạn vào hông họ và lùi một bước lớn bằng chân ngoài của bạn. Điều này kéo phần đế của họ ra và đặt họ trên hông. Duy trì độ bám khi họ hạ cánh"
       },
       {
         "condition": "Vị trí hạ cánh: nhắm tới Side Control hoặc north-south. Nếu họ đáp xuống bằng lưng, bạn đang ở trong Guard của họ",
@@ -112,7 +112,7 @@
   },
   "moneyDetails": [
     "mat return rất cần thiết để ngăn chặn việc đứng lên thoát khỏi Half Guard, Tư thế rùa và một chân, nếu không có nó, đối thủ có thể đứng và đặt lại theo ý muốn",
-    "Việc thành thạo mat return mang lại cho bạn sự tự tin kiểm soát cao nhất, bạn biết rằng bạn có thể giữ chúng trên thảm",
+    "Việc thành thạo mat return mang lại cho bạn sự tự tin kiểm soát cao nhất, bạn biết rằng bạn có thể giữ họ trên thảm",
     "mat return giỏi ghi được 2 điểm gỡ xuống trong IBJJF"
   ],
   "fixItFast": [

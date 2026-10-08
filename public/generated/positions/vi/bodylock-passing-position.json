@@ -1,9 +1,19 @@
 {
   "id": "bodylock-passing-position",
-  "locale": "vi",
-  "title": "Vị trí Body Lock Passing",
   "category": "top_control",
   "status": "advantage",
+  "relatedSkillIds": [
+    "bodylock-pass",
+    "seated-guard-retention",
+    "half-guard-wrestle-up"
+  ],
+  "relatedConceptIds": [
+    "connection-before-control",
+    "pressure-direction",
+    "inside-position"
+  ],
+  "locale": "vi",
+  "title": "Vị trí Body Lock Passing",
   "description": "Người ở trên khóa thấp quanh hông của Guard player bằng kết nối chest-to-hip để vượt qua knee line.",
   "topPlayerGoals": [
     "Người ở trên muốn kiểm soát Vị trí Body Lock Passing bằng vị trí đầu, vị trí trong và áp lực có hướng.",
@@ -30,7 +40,7 @@
       "action": "Clear knee line và ổn định Side Control",
       "nextPositionId": "side-control-top",
       "relatedSkillIds": [
-        "bodylock-passing",
+        "bodylock-pass",
         "seated-guard-retention",
         "half-guard-wrestle-up"
       ],
@@ -42,15 +52,5 @@
     "Khuỷu tay tách khỏi sườn hoặc đầu gối.",
     "Đường hông bị khóa trong khi đường vai vẫn đang bị kéo.",
     "Bạn phải chống tay dài để không ngã."
-  ],
-  "relatedSkillIds": [
-    "bodylock-passing",
-    "seated-guard-retention",
-    "half-guard-wrestle-up"
-  ],
-  "relatedConceptIds": [
-    "connection-before-control",
-    "pressure-direction",
-    "inside-position"
   ]
 }

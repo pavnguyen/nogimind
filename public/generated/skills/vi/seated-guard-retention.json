@@ -107,7 +107,7 @@
     "decisionTree": [
       {
         "condition": "Người qua đường đang đứng và đi vòng quanh",
-        "action": "Giữ cả hai chân đặt trên hông, xoay người trên ghế để đối mặt với chúng và duy trì kết nối đầu gối với khuỷu tay."
+        "action": "Giữ cả hai chân đặt trên hông, xoay người trên ghế để đối mặt với họ và duy trì kết nối đầu gối với khuỷu tay."
       },
       {
         "condition": "Người qua đường khuỵu cả hai gối và cố áp ngực vào ngực",
@@ -115,11 +115,11 @@
       },
       {
         "condition": "Người qua đường túm lấy quần hoặc mắt cá chân của bạn",
-        "action": "Tước tay cầm ngay lập tức bằng cả hai tay (ngắt tay cầm C) trước khi chúng có thể điều khiển được chân của bạn."
+        "action": "Tước tay cầm ngay lập tức bằng cả hai tay (ngắt tay cầm C) trước khi họ có thể điều khiển được chân của bạn."
       },
       {
         "condition": "Người vượt qua buộc underhook",
-        "action": "Thả khuỷu tay xuống thảm, quay sang bên đó và ấn đầu gối vào trong để lấy lại vị trí bên trong."
+        "action": "Thả khuỷu tay xuống thảm, quay sang bên đó và ấn đầu gối vào trong để lấy lại vị trí trong."
       },
       {
         "condition": "Người vượt qua tiến về phía trước với động lực",
@@ -127,15 +127,15 @@
       }
     ],
     "exitStrategies": [
-      "Nếu họ vượt qua một chặng, hãy khôi phục Half Guard và bắt đầu lại chu trình lưu giữ.",
-      "Nếu chúng đè bẹp bạn hoàn toàn, hãy quay sang một bên, đánh vào đầu gối gần đó và đặt lại Guard ngồi.",
-      "Nếu quá trình lưu giữ không thành công nhiều lần, hãy chuyển sang chế độ nằm ngửa Guard với nửa sâu làm lớp dự phòng."
+      "Nếu họ vượt qua một chặng, hãy khôi phục Half Guard và bắt đầu lại chu trình giữ.",
+      "Nếu họ đè bẹp bạn hoàn toàn, hãy quay sang một bên, đánh vào đầu gối gần đó và đặt lại Guard ngồi.",
+      "Nếu quá trình giữ không thành công nhiều lần, hãy chuyển sang chế độ nằm ngửa Guard với nửa sâu làm lớp dự phòng."
     ]
   },
   "keyCorrections": [
-    "Nếu chúng ở khoảng cách gần, bàn chân của bạn không được đặt lên - hãy đưa chúng về ngang hông.",
+    "Nếu họ ở khoảng cách gần, bàn chân của bạn không được đặt lên - hãy đưa họ về ngang hông.",
     "Nếu họ nhận được underhook, khe hở đầu gối-khuỷu tay của bạn đang mở, hãy đóng nó lại.",
-    "Nếu chúng san phẳng bạn, bạn đã đợi quá lâu để đóng khung hoặc xoay trục."
+    "Nếu họ san phẳng bạn, bạn đã đợi quá lâu để đóng khung hoặc xoay trục."
   ],
   "moneyDetails": [
     "Luôn giữ một chân trên hông để duy trì khoảng cách; chân lủng lẳng là chân chết.",
@@ -145,7 +145,7 @@
   "safetyNotes": "Avoid posting with straight arms, keep elbows bent. Protect your knees from lateral pressure.",
   "fixItFast": [
     "Họ ở quá xa chân bạn à? Tạo dáng bằng cẳng tay và shrimp hông hướng ra ngoài.",
-    "Họ có một cái kẹp quần? Lột nó bằng cả hai tay trước khi chúng ổn định.",
+    "Họ có một cái kẹp quần? Lột nó bằng cả hai tay trước khi họ ổn định.",
     "Bạn đang bị san phẳng? Xoay sang một bên và đập đầu gối của bạn vào trong."
   ],
   "version": 1,
@@ -162,10 +162,10 @@
   "shortName": "Giữ chỗ ngồi",
   "description": "Một hệ thống phòng thủ chủ động khi ngồi, sử dụng khung xương, trụ chân và khả năng di chuyển của chân để chặn đường chuyền của đối phương và duy trì các lớp Guard.",
   "shortInstruction": "Giữ chân trên hông, duy trì kết nối đầu gối-khuỷu tay, sử dụng tay nắm chữ C trên cổ tay và khung để phục hồi hoặc wrestle up.",
-  "summary": "Hoạt động Guard giữ nguyên tư thế ngồi bằng cách sử dụng khung, trụ chân và vị trí bên trong.",
+  "summary": "Hoạt động Guard giữ nguyên tư thế ngồi bằng cách sử dụng khung, trụ chân và vị trí trong.",
   "whyItWorks": [
     "Giữ khoảng cách bằng cách sử dụng đòn bẩy dài nhất (bàn chân, ống chân) trước khi người qua đường có thể áp ngực vào ngực.",
-    "Giữ nguyên vị trí bên trong thông qua kết nối đầu gối-khuỷu tay và chủ động chiến đấu bằng tay.",
+    "Giữ nguyên vị trí trong thông qua kết nối đầu gối-khuỷu tay và chủ động chiến đấu bằng tay.",
     "Biến khung thành chuyển động của hông thay vì đẩy bằng tay.",
     "Tạo cơ hội wrestle up hoặc tấn công lại khi người qua đường vượt quá giới hạn."
   ],
@@ -178,12 +178,12 @@
   ],
   "coachingCues": [
     "Chân chống hông, khuỷu tay chạm đầu gối.",
-    "Tiêu diệt những kẻ nắm bắt trước khi chúng ổn định.",
+    "Tiêu diệt những kẻ nắm bắt trước khi họ ổn định.",
     "Khung sau đó di chuyển hông, không phải cánh tay.",
     "Hãy ngồi yên, duy trì hoạt động."
   ],
   "oneMinuteMode": {
-    "goal": "Duy trì khoảng cách và vị trí bên trong với chỗ Seated Guard.",
+    "goal": "Duy trì khoảng cách và vị trí trong với chỗ Seated Guard.",
     "steps": [
       "Giữ cả hai chân đặt trên hông hoặc bắp tay.",
       "Duy trì kết nối đầu gối-khuỷu tay ở cả hai bên.",

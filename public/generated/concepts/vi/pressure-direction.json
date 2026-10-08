@@ -1,7 +1,5 @@
 {
   "id": "pressure-direction",
-  "locale": "vi",
-  "title": "Hướng áp lực",
   "category": "mechanical",
   "level": "intermediate",
   "tags": [
@@ -9,6 +7,19 @@
     "direction",
     "pin"
   ],
+  "relatedSkillIds": [
+    "bodylock-pass",
+    "side-control-pin",
+    "mount-control",
+    "arm-triangle-mount"
+  ],
+  "relatedConceptIds": [
+    "connection-before-control",
+    "wedges",
+    "hip-line-shoulder-line"
+  ],
+  "locale": "vi",
+  "title": "Hướng áp lực",
   "shortDefinition": "Pressure hiệu quả có hướng cụ thể: chéo, vào far hip, vào shoulder line hoặc xuống hip line.",
   "whyItMatters": "Pressure thẳng xuống thường giúp đối thủ frame hoặc hip escape; pressure chéo làm họ mất hướng.",
   "deepExplanation": "Pressure direction nối head, sternum, pelvis, knees và toes. Khi các điểm này không cùng hướng, bạn nặng nhưng không kiểm soát.",
@@ -16,16 +27,5 @@
   "advancedView": "Đổi pressure direction để buộc frame sai hướng rồi pass/pin.",
   "ifThenExamples": [],
   "commonMisunderstandings": [],
-  "trainingCues": [],
-  "relatedSkillIds": [
-    "bodylock-passing",
-    "side-control-pin",
-    "Mount-control",
-    "arm-triangle-Mount"
-  ],
-  "relatedConceptIds": [
-    "connection-before-control",
-    "wedges",
-    "hip-line-shoulder-line"
-  ]
+  "trainingCues": []
 }

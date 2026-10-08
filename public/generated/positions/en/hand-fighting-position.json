@@ -1,9 +1,19 @@
 {
   "id": "hand-fighting-position",
-  "locale": "en",
-  "title": "Hand Fighting",
   "category": "standing",
   "status": "neutral",
+  "relatedSkillIds": [
+    "hand-fighting",
+    "snapdown-front-headlock",
+    "front-headlock-defense"
+  ],
+  "relatedConceptIds": [
+    "inside-position",
+    "pummeling",
+    "head-position"
+  ],
+  "locale": "en",
+  "title": "Hand Fighting",
   "description": "A hand-and-head-position battle to enter an underhook, collar tie, snapdown, single leg, or Guard pull.",
   "topPlayerGoals": [
     "The top player wants to control Hand Fighting through head position, inside position, and directed pressure.",
@@ -42,15 +52,5 @@
     "The elbow separates from the ribs or knee.",
     "The hip line is locked while the shoulder line is still being pulled.",
     "You need a long hand post to avoid falling."
-  ],
-  "relatedSkillIds": [
-    "hand-fighting",
-    "snapdown-front-headlock",
-    "front-headlock-defense"
-  ],
-  "relatedConceptIds": [
-    "inside-position",
-    "pummeling",
-    "head-position"
   ]
 }

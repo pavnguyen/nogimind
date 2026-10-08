@@ -1,7 +1,5 @@
 {
   "id": "positional-hierarchy",
-  "locale": "en",
-  "title": "Positional Hierarchy",
   "category": "positional",
   "level": "fundamental",
   "tags": [
@@ -9,6 +7,19 @@
     "risk",
     "decision-making"
   ],
+  "relatedSkillIds": [
+    "side-control-survival",
+    "mount-control",
+    "back-control",
+    "mount-escape"
+  ],
+  "relatedConceptIds": [
+    "control-before-submission",
+    "failure-response",
+    "base-balance"
+  ],
+  "locale": "en",
+  "title": "Positional Hierarchy",
   "shortDefinition": "A priority map showing which positions increase control, reduce risk, and open submissions.",
   "whyItMatters": "Without hierarchy, practitioners attack at the wrong time and skip survival, escape, or pinning.",
   "deepExplanation": "Hierarchy is not just a scoring list; it is a way to read risk. In bad positions, the goal is survival and structure. From top or pins, the goal is stabilization before finishing.",
@@ -16,16 +27,5 @@
   "advancedView": "Use hierarchy to decide when to reset, chain, or accept risk for score or submission.",
   "ifThenExamples": [],
   "commonMisunderstandings": [],
-  "trainingCues": [],
-  "relatedSkillIds": [
-    "side-control-survival",
-    "Mount-control",
-    "back-control",
-    "Mount-escape"
-  ],
-  "relatedConceptIds": [
-    "control-before-submission",
-    "failure-response",
-    "base-balance"
-  ]
+  "trainingCues": []
 }

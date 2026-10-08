@@ -1,7 +1,5 @@
 {
   "id": "pummeling",
-  "locale": "en",
-  "title": "Pummeling",
   "category": "mechanical",
   "level": "fundamental",
   "tags": [
@@ -9,6 +7,19 @@
     "inside position",
     "underhook"
   ],
+  "relatedSkillIds": [
+    "frames-pummeling",
+    "hand-fighting",
+    "half-guard-wrestle-up",
+    "bodylock-pass"
+  ],
+  "relatedConceptIds": [
+    "inside-position",
+    "frames",
+    "failure-response"
+  ],
+  "locale": "en",
+  "title": "Pummeling",
   "shortDefinition": "Pummeling is the repeated battle to regain inside lanes with hands, head, knees, or hips.",
   "whyItMatters": "No-gi has no gi grips, so pummeling is how control is rebuilt after every reaction.",
   "deepExplanation": "Pummeling is not only underhook fighting. Guard retention has knee pummeling; leg locks have knee-line pummeling; Front Headlock defense has elbow and chin pummeling.",
@@ -16,16 +27,5 @@
   "advancedView": "Pummel by reaction: where the opponent frames, another inside lane opens.",
   "ifThenExamples": [],
   "commonMisunderstandings": [],
-  "trainingCues": [],
-  "relatedSkillIds": [
-    "frames-pummeling",
-    "hand-fighting",
-    "half-Guard-wrestle-up",
-    "bodylock-passing"
-  ],
-  "relatedConceptIds": [
-    "inside-position",
-    "frames",
-    "failure-response"
-  ]
+  "trainingCues": []
 }

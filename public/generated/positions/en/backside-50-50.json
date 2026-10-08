@@ -1,9 +1,21 @@
 {
   "id": "backside-50-50",
-  "locale": "en",
-  "title": "Backside 50/50",
   "category": "leg_entanglement",
   "status": "dangerous",
+  "relatedSkillIds": [
+    "backside-50-50-control",
+    "heel-hook-safety",
+    "leg-lock-safety-basics",
+    "k-guard-matrix",
+    "false-reap-entry"
+  ],
+  "relatedConceptIds": [
+    "knee-line",
+    "leg-lock-safety-hierarchy",
+    "safe-unsafe-rotation"
+  ],
+  "locale": "en",
+  "title": "Backside 50/50",
   "description": "A leg entanglement from behind where the attacker controls both the hip line and knee line, creating dangerous heel exposure from the rear.",
   "topPlayerGoals": [
     "The top player wants to control Backside 50/50 through head position, inside position, and directed pressure.",
@@ -42,17 +54,5 @@
     "The elbow separates from the ribs or knee.",
     "The hip line is locked while the shoulder line is still being pulled.",
     "You need a long hand post to avoid falling."
-  ],
-  "relatedSkillIds": [
-    "backside-50-50-control",
-    "heel-hook-safety",
-    "leg-lock-safety-basics",
-    "k-guard-matrix",
-    "false-reap-entry"
-  ],
-  "relatedConceptIds": [
-    "knee-line",
-    "leg-lock-safety-hierarchy",
-    "safe-unsafe-rotation"
   ]
 }

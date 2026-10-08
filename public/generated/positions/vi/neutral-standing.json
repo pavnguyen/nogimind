@@ -1,9 +1,19 @@
 {
   "id": "neutral-standing",
-  "locale": "vi",
-  "title": "Đứng trung lập",
   "category": "standing",
   "status": "neutral",
+  "relatedSkillIds": [
+    "hand-fighting",
+    "single-leg-bjj",
+    "guard-pulling-strategy"
+  ],
+  "relatedConceptIds": [
+    "base-balance",
+    "head-position",
+    "inside-position"
+  ],
+  "locale": "vi",
+  "title": "Đứng trung lập",
   "description": "Hai người đang đứng và chưa ai thắng rõ ràng về grip, vị trí đầu hoặc góc tấn công.",
   "topPlayerGoals": [
     "Người ở trên muốn kiểm soát Đứng trung lập bằng vị trí đầu, vị trí trong và áp lực có hướng.",
@@ -42,15 +52,5 @@
     "Khuỷu tay tách khỏi sườn hoặc đầu gối.",
     "Đường hông bị khóa trong khi đường vai vẫn đang bị kéo.",
     "Bạn phải chống tay dài để không ngã."
-  ],
-  "relatedSkillIds": [
-    "hand-fighting",
-    "single-leg-bjj",
-    "guard-pulling-strategy"
-  ],
-  "relatedConceptIds": [
-    "base-balance",
-    "head-position",
-    "inside-position"
   ]
 }

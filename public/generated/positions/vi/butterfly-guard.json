@@ -1,9 +1,19 @@
 {
   "id": "butterfly-guard",
-  "locale": "vi",
-  "title": "Butterfly Guard",
   "category": "bottom_guard",
   "status": "neutral",
+  "relatedSkillIds": [
+    "butterfly-guard-off-balance",
+    "seated-guard-retention",
+    "bodylock-pass"
+  ],
+  "relatedConceptIds": [
+    "hooks",
+    "base-balance",
+    "levers"
+  ],
+  "locale": "vi",
+  "title": "Butterfly Guard",
   "description": "Guard dùng butterfly hooks để nâng hông đối thủ, buộc họ post tay và chuyển sang sweep hoặc wrestle-up.",
   "topPlayerGoals": [
     "Người ở trên muốn kiểm soát Butterfly Guard bằng vị trí đầu, vị trí trong và áp lực có hướng.",
@@ -32,7 +42,7 @@
       "relatedSkillIds": [
         "butterfly-guard-off-balance",
         "seated-guard-retention",
-        "bodylock-passing"
+        "bodylock-pass"
       ],
       "why": "Đây là nhánh tự nhiên khi bạn thắng điểm kiểm soát chính và đối thủ buộc phải phòng thủ."
     }
@@ -42,15 +52,5 @@
     "Khuỷu tay tách khỏi sườn hoặc đầu gối.",
     "Đường hông bị khóa trong khi đường vai vẫn đang bị kéo.",
     "Bạn phải chống tay dài để không ngã."
-  ],
-  "relatedSkillIds": [
-    "butterfly-guard-off-balance",
-    "seated-guard-retention",
-    "bodylock-passing"
-  ],
-  "relatedConceptIds": [
-    "hooks",
-    "base-balance",
-    "levers"
   ]
 }

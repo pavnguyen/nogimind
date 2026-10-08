@@ -1,9 +1,22 @@
 {
   "id": "closed-guard",
-  "locale": "vi",
-  "title": "Closed Guard",
   "category": "bottom_guard",
   "status": "neutral",
+  "relatedSkillIds": [
+    "closed-guard-posture-control",
+    "closed-guard-sweeps",
+    "clamp-guard-control",
+    "armbar-system",
+    "triangle-system",
+    "kimura-system"
+  ],
+  "relatedConceptIds": [
+    "control-before-submission",
+    "levers",
+    "angle-creation"
+  ],
+  "locale": "vi",
+  "title": "Closed Guard",
   "description": "Người Guard khóa chân quanh hông passer để kiểm soát posture, tạo angle cho submission hoặc sweep.",
   "topPlayerGoals": [
     "Người ở trên muốn kiểm soát Closed Guard bằng vị trí đầu, vị trí trong và áp lực có hướng.",
@@ -42,18 +55,5 @@
     "Khuỷu tay tách khỏi sườn hoặc đầu gối.",
     "Đường hông bị khóa trong khi đường vai vẫn đang bị kéo.",
     "Bạn phải chống tay dài để không ngã."
-  ],
-  "relatedSkillIds": [
-    "closed-guard-posture-control",
-    "closed-guard-sweeps",
-    "clamp-guard-control",
-    "armbar-system",
-    "triangle-system",
-    "kimura-system"
-  ],
-  "relatedConceptIds": [
-    "control-before-submission",
-    "levers",
-    "angle-creation"
   ]
 }

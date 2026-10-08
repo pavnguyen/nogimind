@@ -1,7 +1,5 @@
 {
   "id": "head-position",
-  "locale": "fr",
-  "title": "Position de tête",
   "category": "mechanical",
   "level": "fundamental",
   "tags": [
@@ -9,6 +7,19 @@
     "neck safety",
     "wedge"
   ],
+  "relatedSkillIds": [
+    "front-headlock-defense",
+    "bodylock-pass",
+    "half-guard-wrestle-up",
+    "back-control"
+  ],
+  "relatedConceptIds": [
+    "inside-position",
+    "base-balance",
+    "pressure-direction"
+  ],
+  "locale": "fr",
+  "title": "Position de tête",
   "shortDefinition": "La tête est post, wedge, source de pression et capteur qui organise la colonne.",
   "whyItMatters": "Mauvaise position de tête expose Guillotine, tue underhook, invite shoulder crunch ou perd angle pass.",
   "deepExplanation": "La tête décide mouvement épaules/hanches. Oreille aux côtes pour wrestle-up; tête décalée hip pour bodylock; tête près tête adverse pour back control.",
@@ -16,16 +27,5 @@
   "advancedView": "Utiliser tête pour couper shoulder line ou hip line avant les mains.",
   "ifThenExamples": [],
   "commonMisunderstandings": [],
-  "trainingCues": [],
-  "relatedSkillIds": [
-    "front-headlock-defense",
-    "bodylock-passing",
-    "half-Guard-wrestle-up",
-    "back-control"
-  ],
-  "relatedConceptIds": [
-    "inside-position",
-    "base-balance",
-    "pressure-direction"
-  ]
+  "trainingCues": []
 }

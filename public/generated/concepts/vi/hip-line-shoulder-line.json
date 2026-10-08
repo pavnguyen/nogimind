@@ -1,7 +1,5 @@
 {
   "id": "hip-line-shoulder-line",
-  "locale": "vi",
-  "title": "Đường hông vs đường vai",
   "category": "positional",
   "level": "intermediate",
   "tags": [
@@ -9,16 +7,8 @@
     "shoulder line",
     "pin"
   ],
-  "shortDefinition": "Hip line và shoulder line là hai trục xoay quyết định pass, pin, escape và back exposure.",
-  "whyItMatters": "Bạn có thể qua chân nhưng vẫn chưa pin nếu shoulder line còn tự do.",
-  "deepExplanation": "Passing thường bắt đầu bằng kiểm soát hip line, nhưng pin cần tách hoặc khóa shoulder line. Escape thường làm ngược lại: lấy shoulder angle rồi đưa hip line về Guard.",
-  "beginnerView": "Hỏi: họ còn xoay vai hoặc hông được không?",
-  "advancedView": "Tách hai line để tạo dilemma: họ cứu hông thì lộ vai, cứu vai thì mất hông.",
-  "ifThenExamples": [],
-  "commonMisunderstandings": [],
-  "trainingCues": [],
   "relatedSkillIds": [
-    "bodylock-passing",
+    "bodylock-pass",
     "side-control-pin",
     "back-control",
     "leg-drag-basics"
@@ -27,5 +17,15 @@
     "positional-hierarchy",
     "angle-creation",
     "pressure-direction"
-  ]
+  ],
+  "locale": "vi",
+  "title": "Đường hông vs đường vai",
+  "shortDefinition": "Hip line và shoulder line là hai trục xoay quyết định pass, pin, escape và back exposure.",
+  "whyItMatters": "Bạn có thể qua chân nhưng vẫn chưa pin nếu shoulder line còn tự do.",
+  "deepExplanation": "Passing thường bắt đầu bằng kiểm soát hip line, nhưng pin cần tách hoặc khóa shoulder line. Escape thường làm ngược lại: lấy shoulder angle rồi đưa hip line về Guard.",
+  "beginnerView": "Hỏi: họ còn xoay vai hoặc hông được không?",
+  "advancedView": "Tách hai line để tạo dilemma: họ cứu hông thì lộ vai, cứu vai thì mất hông.",
+  "ifThenExamples": [],
+  "commonMisunderstandings": [],
+  "trainingCues": []
 }

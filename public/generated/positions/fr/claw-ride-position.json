@@ -1,9 +1,20 @@
 {
   "id": "claw-ride-position",
-  "locale": "fr",
-  "title": "Claw ride",
   "category": "back",
   "status": "advantage",
+  "relatedSkillIds": [
+    "claw-ride",
+    "turtle-ride",
+    "back-control",
+    "cross-wrist-ride"
+  ],
+  "relatedConceptIds": [
+    "ride-vs-pin-vs-submission",
+    "hooks",
+    "connection-before-control"
+  ],
+  "locale": "fr",
+  "title": "Claw ride",
   "description": "Un ride combinant underhook profond, contrôle de tête et pression hanche depuis turtle pour exposer le dos ou retour au sol.",
   "topPlayerGoals": [
     "Le joueur du dessus veut contrôler Claw ride avec la position de tête, la position intérieure et une pression orientée.",
@@ -42,16 +53,5 @@
     "Le coude se sépare des côtes ou du genou.",
     "La ligne des hanches est verrouillée pendant que la ligne des épaules est encore tirée.",
     "Vous devez poser une main loin pour éviter de tomber."
-  ],
-  "relatedSkillIds": [
-    "claw-ride",
-    "turtle-ride",
-    "back-control",
-    "cross-wrist-ride"
-  ],
-  "relatedConceptIds": [
-    "ride-vs-pin-vs-submission",
-    "hooks",
-    "connection-before-control"
   ]
 }
