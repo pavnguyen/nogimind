@@ -1,5 +1,5 @@
 {
-  "id": "high-wrist-Guillotine",
+  "id": "high-wrist-guillotine",
   "domain": "submission_systems",
   "level": "advanced",
   "name": "High-Wrist Guillotine",
@@ -23,7 +23,7 @@
   "modernSystemGroup": "front_headlock",
   "relatedSkills": [
     {
-      "id": "Guillotine-system",
+      "id": "guillotine-system",
       "type": "recommended"
     },
     {
@@ -36,7 +36,7 @@
     }
   ],
   "prerequisiteSkillIds": [
-    "Guillotine-system",
+    "guillotine-system",
     "front-headlock-defense"
   ],
   "relatedPositions": [],

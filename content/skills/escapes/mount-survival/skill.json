@@ -1,5 +1,5 @@
 {
-  "id": "Mount-survival",
+  "id": "mount-survival",
   "domain": "survival_defense",
   "level": "beginner",
   "name": "Mount Survival",
@@ -16,15 +16,15 @@
   ],
   "relatedSkills": [
     {
-      "id": "Mount-escape",
+      "id": "mount-escape",
       "type": "recommended"
     },
     {
-      "id": "arm-triangle-Mount",
+      "id": "arm-triangle-mount",
       "type": "recommended"
     },
     {
-      "id": "Mount-control",
+      "id": "mount-control",
       "type": "recommended"
     }
   ],

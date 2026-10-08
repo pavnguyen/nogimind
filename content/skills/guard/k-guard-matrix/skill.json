@@ -1,5 +1,5 @@
 {
-  "id": "k-Guard-matrix",
+  "id": "k-guard-matrix",
   "domain": "guard_offense",
   "level": "advanced",
   "name": "K-Guard to Matrix",
@@ -36,7 +36,7 @@
     }
   ],
   "prerequisiteSkillIds": [
-    "k-Guard-entry",
+    "k-guard-entry",
     "leg-lock-safety-basics"
   ],
   "relatedPositions": [],

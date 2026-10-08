@@ -17,7 +17,7 @@
   ],
   "relatedSkills": [
     {
-      "id": "s-Mount-armbar",
+      "id": "s-mount-armbar",
       "type": "recommended"
     },
     {
@@ -30,8 +30,8 @@
     }
   ],
   "prerequisiteSkillIds": [
-    "Mount-control",
-    "clamp-Guard-control"
+    "mount-control",
+    "clamp-guard-control"
   ],
   "relatedPositions": [],
   "relatedConcepts": [],

@@ -23,7 +23,7 @@
   "modernSystemGroup": "wrestle_up",
   "relatedSkills": [
     {
-      "id": "octopus-Guard-control",
+      "id": "octopus-guard-control",
       "type": "recommended"
     },
     {
@@ -36,7 +36,7 @@
     }
   ],
   "prerequisiteSkillIds": [
-    "half-Guard-wrestle-up",
+    "half-guard-wrestle-up",
     "single-leg-bjj"
   ],
   "relatedPositions": [],

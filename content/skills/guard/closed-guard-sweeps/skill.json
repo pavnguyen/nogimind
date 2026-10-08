@@ -1,5 +1,5 @@
 {
-  "id": "closed-Guard-sweeps",
+  "id": "closed-guard-sweeps",
   "domain": "guard_offense",
   "level": "intermediate",
   "name": "Closed Guard Sweeps",
@@ -18,7 +18,7 @@
   ],
   "relatedSkills": [
     {
-      "id": "clamp-Guard-control",
+      "id": "clamp-guard-control",
       "type": "recommended"
     },
     {
@@ -31,7 +31,7 @@
     }
   ],
   "prerequisiteSkillIds": [
-    "closed-Guard-posture-control"
+    "closed-guard-posture-control"
   ],
   "relatedPositions": [],
   "relatedConcepts": [],

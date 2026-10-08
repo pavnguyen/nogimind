@@ -23,7 +23,7 @@
   "modernSystemGroup": "clamp_guard",
   "relatedSkills": [
     {
-      "id": "clamp-Guard-control",
+      "id": "clamp-guard-control",
       "type": "recommended"
     },
     {
@@ -31,12 +31,12 @@
       "type": "recommended"
     },
     {
-      "id": "s-Mount-armbar",
+      "id": "s-mount-armbar",
       "type": "recommended"
     }
   ],
   "prerequisiteSkillIds": [
-    "clamp-Guard-control",
+    "clamp-guard-control",
     "kimura-system"
   ],
   "relatedPositions": [],

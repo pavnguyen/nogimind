@@ -1,5 +1,5 @@
 {
-  "id": "arm-triangle-Mount",
+  "id": "arm-triangle-mount",
   "domain": "submission_systems",
   "level": "advanced",
   "name": "Arm Triangle from Mount",
@@ -24,12 +24,12 @@
       "type": "recommended"
     },
     {
-      "id": "Mount-survival",
+      "id": "mount-survival",
       "type": "recommended"
     }
   ],
   "prerequisiteSkillIds": [
-    "Mount-control"
+    "mount-control"
   ],
   "relatedPositions": [],
   "relatedConcepts": [],

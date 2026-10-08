@@ -1,5 +1,5 @@
 {
-  "id": "inverted-Guard-control",
+  "id": "inverted-guard-control",
   "domain": "guard_offense",
   "level": "advanced",
   "name": "Inverted Guard & Transitions",
@@ -18,7 +18,7 @@
   ],
   "relatedSkills": [
     {
-      "id": "k-Guard-matrix",
+      "id": "k-guard-matrix",
       "type": "recommended"
     },
     {
@@ -35,7 +35,7 @@
     }
   ],
   "prerequisiteSkillIds": [
-    "k-Guard-matrix",
+    "k-guard-matrix",
     "leg-lock-safety-basics"
   ],
   "relatedPositions": [],

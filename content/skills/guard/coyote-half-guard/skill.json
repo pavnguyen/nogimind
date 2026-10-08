@@ -1,5 +1,5 @@
 {
-  "id": "coyote-half-Guard",
+  "id": "coyote-half-guard",
   "domain": "guard_offense",
   "level": "intermediate",
   "name": "Coyote Half Guard",
@@ -20,12 +20,12 @@
     "coyote hook"
   ],
   "relatedSkills": [
-    { "id": "deep-half-Guard", "type": "chain" },
+    { "id": "deep-half-guard", "type": "chain" },
     { "id": "half-butterfly-to-leg-entanglements", "type": "chain" },
     { "id": "single-leg-x-Guard", "type": "chain" },
     { "id": "leg-drag-pass", "type": "alternative" }
   ],
-  "prerequisiteSkillIds": ["half-Guard-knee-shield", "deep-half-Guard"],
+  "prerequisiteSkillIds": ["half-guard-knee-shield", "deep-half-guard"],
   "relatedPositions": [],
   "relatedConcepts": [],
   "archetypeIds": ["half-Guard-wrestler", "Guard-retention-specialist", "wrestle-up-player"],

@@ -24,7 +24,7 @@
     { "id": "knee-cut-passing", "type": "alternative" },
     { "id": "side-control-pin", "type": "recommended" }
   ],
-  "prerequisiteSkillIds": ["supine-Guard-retention", "headquarters-passing"],
+  "prerequisiteSkillIds": ["supine-guard-retention", "headquarters-passing"],
   "relatedPositions": [],
   "relatedConcepts": [],
   "archetypeIds": ["pressure-passer", "scramble-controller"],

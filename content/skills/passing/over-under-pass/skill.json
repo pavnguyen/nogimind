@@ -19,13 +19,13 @@
     "hip pressure"
   ],
   "relatedSkills": [
-    { "id": "half-Guard-knee-shield", "type": "prerequisite" },
+    { "id": "half-guard-knee-shield", "type": "prerequisite" },
     { "id": "bodylock-passing", "type": "chain" },
     { "id": "knee-cut-passing", "type": "alternative" },
     { "id": "side-control-pin", "type": "recommended" },
-    { "id": "coyote-half-Guard", "type": "alternative" }
+    { "id": "coyote-half-guard", "type": "alternative" }
   ],
-  "prerequisiteSkillIds": ["half-Guard-knee-shield", "bodylock-passing"],
+  "prerequisiteSkillIds": ["half-guard-knee-shield", "bodylock-passing"],
   "relatedPositions": [],
   "relatedConcepts": [],
   "archetypeIds": ["pressure-passer", "half-Guard-wrestler"],

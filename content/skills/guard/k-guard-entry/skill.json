@@ -1,5 +1,5 @@
 {
-  "id": "k-Guard-entry",
+  "id": "k-guard-entry",
   "domain": "guard_offense",
   "level": "advanced",
   "name": "K-Guard Entry",
@@ -24,12 +24,12 @@
       "type": "recommended"
     },
     {
-      "id": "Guard-pulling-strategy",
+      "id": "guard-pulling-strategy",
       "type": "recommended"
     }
   ],
   "prerequisiteSkillIds": [
-    "supine-Guard-retention",
+    "supine-guard-retention",
     "leg-lock-safety-basics"
   ],
   "relatedPositions": [],

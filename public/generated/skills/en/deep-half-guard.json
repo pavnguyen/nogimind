@@ -29,7 +29,7 @@
       "type": "recommended"
     },
     {
-      "id": "half-Guard-wrestle-up",
+      "id": "half-guard-wrestle-up",
       "type": "recommended"
     }
   ],
@@ -41,8 +41,8 @@
   "archetypeIds": [],
   "relatedArchetypeIds": [],
   "prerequisiteSkillIds": [
-    "half-Guard-knee-shield",
-    "supine-Guard-retention"
+    "half-guard-knee-shield",
+    "supine-guard-retention"
   ],
   "trainingMethodIds": [],
   "nextSkillIds": [],

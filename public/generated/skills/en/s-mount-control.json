@@ -24,7 +24,7 @@
   "modernSystemGroup": "s_mount",
   "relatedSkills": [
     {
-      "id": "s-Mount-armbar",
+      "id": "s-mount-armbar",
       "type": "recommended"
     },
     {
@@ -32,7 +32,7 @@
       "type": "recommended"
     },
     {
-      "id": "Mount-control",
+      "id": "mount-control",
       "type": "recommended"
     }
   ],
@@ -44,8 +44,8 @@
   "archetypeIds": [],
   "relatedArchetypeIds": [],
   "prerequisiteSkillIds": [
-    "Mount-control",
-    "arm-triangle-Mount"
+    "mount-control",
+    "arm-triangle-mount"
   ],
   "trainingMethodIds": [],
   "nextSkillIds": [],

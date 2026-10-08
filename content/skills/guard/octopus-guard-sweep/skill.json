@@ -1,5 +1,5 @@
 {
-  "id": "octopus-Guard-sweep",
+  "id": "octopus-guard-sweep",
   "domain": "guard_offense",
   "level": "intermediate",
   "name": "Octopus Guard Sweep",
@@ -23,7 +23,7 @@
   "modernSystemGroup": "octopus",
   "relatedSkills": [
     {
-      "id": "octopus-Guard-control",
+      "id": "octopus-guard-control",
       "type": "recommended"
     },
     {
@@ -36,8 +36,8 @@
     }
   ],
   "prerequisiteSkillIds": [
-    "octopus-Guard-control",
-    "half-Guard-wrestle-up"
+    "octopus-guard-control",
+    "half-guard-wrestle-up"
   ],
   "relatedPositions": [],
   "relatedConcepts": [],

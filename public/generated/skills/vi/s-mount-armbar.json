@@ -24,7 +24,7 @@
   "modernSystemGroup": "s_mount",
   "relatedSkills": [
     {
-      "id": "s-Mount-control",
+      "id": "s-mount-control",
       "type": "recommended"
     },
     {
@@ -44,8 +44,8 @@
   "archetypeIds": [],
   "relatedArchetypeIds": [],
   "prerequisiteSkillIds": [
-    "s-Mount-control",
-    "Mount-control"
+    "s-mount-control",
+    "mount-control"
   ],
   "trainingMethodIds": [],
   "nextSkillIds": [],

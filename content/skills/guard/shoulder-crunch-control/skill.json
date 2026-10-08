@@ -23,7 +23,7 @@
   "modernSystemGroup": "shoulder_crunch",
   "relatedSkills": [
     {
-      "id": "clamp-Guard-control",
+      "id": "clamp-guard-control",
       "type": "recommended"
     },
     {
@@ -36,8 +36,8 @@
     }
   ],
   "prerequisiteSkillIds": [
-    "butterfly-Guard-off-balance",
-    "seated-Guard-retention"
+    "butterfly-guard-off-balance",
+    "seated-guard-retention"
   ],
   "relatedPositions": [],
   "relatedConcepts": [],

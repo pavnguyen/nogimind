@@ -1,5 +1,5 @@
 {
-  "id": "x-Guard-control",
+  "id": "x-guard-control",
   "domain": "guard_offense",
   "level": "intermediate",
   "name": "X-Guard Control",
@@ -29,17 +29,17 @@
       "type": "recommended"
     },
     {
-      "id": "k-Guard-matrix",
+      "id": "k-guard-matrix",
       "type": "recommended"
     },
     {
-      "id": "Guard-pulling-strategy",
+      "id": "guard-pulling-strategy",
       "type": "recommended"
     }
   ],
   "prerequisiteSkillIds": [
-    "supine-Guard-retention",
-    "seated-Guard-retention"
+    "supine-guard-retention",
+    "seated-guard-retention"
   ],
   "relatedPositions": [],
   "relatedConcepts": [],

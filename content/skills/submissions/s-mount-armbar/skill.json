@@ -1,5 +1,5 @@
 {
-  "id": "s-Mount-armbar",
+  "id": "s-mount-armbar",
   "domain": "submission_systems",
   "level": "advanced",
   "name": "S-Mount Armbar",
@@ -23,7 +23,7 @@
   "modernSystemGroup": "s_mount",
   "relatedSkills": [
     {
-      "id": "s-Mount-control",
+      "id": "s-mount-control",
       "type": "recommended"
     },
     {
@@ -36,8 +36,8 @@
     }
   ],
   "prerequisiteSkillIds": [
-    "s-Mount-control",
-    "Mount-control"
+    "s-mount-control",
+    "mount-control"
   ],
   "relatedPositions": [],
   "relatedConcepts": [],

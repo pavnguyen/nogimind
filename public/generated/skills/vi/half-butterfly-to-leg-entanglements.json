@@ -22,7 +22,7 @@
   ],
   "relatedSkills": [
     {
-      "id": "k-Guard-matrix",
+      "id": "k-guard-matrix",
       "type": "recommended"
     },
     {
@@ -30,7 +30,7 @@
       "type": "recommended"
     },
     {
-      "id": "deep-half-Guard",
+      "id": "deep-half-guard",
       "type": "recommended"
     },
     {
@@ -46,9 +46,9 @@
   "archetypeIds": [],
   "relatedArchetypeIds": [],
   "prerequisiteSkillIds": [
-    "butterfly-Guard-off-balance",
-    "half-Guard-knee-shield",
-    "k-Guard-entry"
+    "butterfly-guard-off-balance",
+    "half-guard-knee-shield",
+    "k-guard-entry"
   ],
   "trainingMethodIds": [],
   "nextSkillIds": [],

@@ -1,5 +1,5 @@
 {
-  "id": "clamp-Guard-control",
+  "id": "clamp-guard-control",
   "domain": "guard_offense",
   "level": "intermediate",
   "name": "Clamp Guard Control",
@@ -36,7 +36,7 @@
     }
   ],
   "prerequisiteSkillIds": [
-    "supine-Guard-retention",
+    "supine-guard-retention",
     "kimura-system"
   ],
   "relatedPositions": [],

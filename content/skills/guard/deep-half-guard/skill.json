@@ -1,5 +1,5 @@
 {
-  "id": "deep-half-Guard",
+  "id": "deep-half-guard",
   "domain": "guard_offense",
   "level": "intermediate",
   "name": "Deep Half Guard",
@@ -28,13 +28,13 @@
       "type": "recommended"
     },
     {
-      "id": "half-Guard-wrestle-up",
+      "id": "half-guard-wrestle-up",
       "type": "recommended"
     }
   ],
   "prerequisiteSkillIds": [
-    "half-Guard-knee-shield",
-    "supine-Guard-retention"
+    "half-guard-knee-shield",
+    "supine-guard-retention"
   ],
   "relatedPositions": [],
   "relatedConcepts": [],

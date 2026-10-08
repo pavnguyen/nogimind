@@ -1,5 +1,5 @@
 {
-  "id": "Mount-escape",
+  "id": "mount-escape",
   "domain": "escapes",
   "level": "beginner",
   "name": "Mount Escape",
@@ -16,11 +16,11 @@
   ],
   "relatedSkills": [
     {
-      "id": "half-Guard-knee-shield",
+      "id": "half-guard-knee-shield",
       "type": "recommended"
     },
     {
-      "id": "Mount-control",
+      "id": "mount-control",
       "type": "recommended"
     },
     {
@@ -29,7 +29,7 @@
     }
   ],
   "prerequisiteSkillIds": [
-    "Mount-survival"
+    "mount-survival"
   ],
   "relatedPositions": [],
   "relatedConcepts": [],

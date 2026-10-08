@@ -31,13 +31,13 @@
       "type": "recommended"
     },
     {
-      "id": "clamp-Guard-control",
+      "id": "clamp-guard-control",
       "type": "recommended"
     }
   ],
   "prerequisiteSkillIds": [
     "kimura-system",
-    "clamp-Guard-control"
+    "clamp-guard-control"
   ],
   "relatedPositions": [],
   "relatedConcepts": [],

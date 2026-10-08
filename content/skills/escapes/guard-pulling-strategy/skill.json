@@ -1,5 +1,5 @@
 {
-  "id": "Guard-pulling-strategy",
+  "id": "guard-pulling-strategy",
   "domain": "positional_awareness",
   "level": "intermediate",
   "name": "Guard Pulling Strategy",
@@ -16,7 +16,7 @@
   ],
   "relatedSkills": [
     {
-      "id": "seated-Guard-retention",
+      "id": "seated-guard-retention",
       "type": "recommended"
     },
     {
@@ -24,7 +24,7 @@
       "type": "recommended"
     },
     {
-      "id": "k-Guard-entry",
+      "id": "k-guard-entry",
       "type": "recommended"
     }
   ],

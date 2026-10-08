@@ -30,11 +30,11 @@
       "type": "recommended"
     },
     {
-      "id": "k-Guard-matrix",
+      "id": "k-guard-matrix",
       "type": "recommended"
     },
     {
-      "id": "Guard-pulling-strategy",
+      "id": "guard-pulling-strategy",
       "type": "recommended"
     }
   ],
@@ -46,8 +46,8 @@
   "archetypeIds": [],
   "relatedArchetypeIds": [],
   "prerequisiteSkillIds": [
-    "supine-Guard-retention",
-    "seated-Guard-retention"
+    "supine-guard-retention",
+    "seated-guard-retention"
   ],
   "trainingMethodIds": [],
   "nextSkillIds": [],

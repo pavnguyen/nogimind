@@ -25,7 +25,7 @@
     { "id": "over-under-pass", "type": "alternative" },
     { "id": "side-control-pin", "type": "recommended" }
   ],
-  "prerequisiteSkillIds": ["headquarters-passing", "supine-Guard-retention"],
+  "prerequisiteSkillIds": ["headquarters-passing", "supine-guard-retention"],
   "relatedPositions": [],
   "relatedConcepts": [],
   "archetypeIds": ["pressure-passer", "half-Guard-wrestler"],

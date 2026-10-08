@@ -23,11 +23,11 @@
   "modernSystemGroup": "back_triangle",
   "relatedSkills": [
     {
-      "id": "s-Mount-control",
+      "id": "s-mount-control",
       "type": "recommended"
     },
     {
-      "id": "s-Mount-armbar",
+      "id": "s-mount-armbar",
       "type": "recommended"
     },
     {
@@ -37,7 +37,7 @@
   ],
   "prerequisiteSkillIds": [
     "back-control",
-    "s-Mount-control"
+    "s-mount-control"
   ],
   "relatedPositions": [],
   "relatedConcepts": [],

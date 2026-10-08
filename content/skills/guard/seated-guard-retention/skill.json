@@ -1,5 +1,5 @@
 {
-  "id": "seated-Guard-retention",
+  "id": "seated-guard-retention",
   "domain": "guard_retention",
   "level": "beginner",
   "name": "Seated Guard Retention",
@@ -15,7 +15,7 @@
     "videos": "videos.json"
   },
   "relatedSkills": [
-    { "id": "supine-Guard-retention", "type": "alternative" },
+    { "id": "supine-guard-retention", "type": "alternative" },
     { "id": "frames-pummeling", "type": "prerequisite" },
     { "id": "technical-stand-up", "type": "supporting" },
     { "id": "shin-to-shin-entry", "type": "chain" }

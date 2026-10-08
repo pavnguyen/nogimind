@@ -22,7 +22,7 @@
   ],
   "relatedSkills": [
     {
-      "id": "s-Mount-armbar",
+      "id": "s-mount-armbar",
       "type": "recommended"
     },
     {
@@ -34,12 +34,12 @@
       "type": "recommended"
     },
     {
-      "id": "arm-triangle-Mount",
+      "id": "arm-triangle-mount",
       "type": "recommended"
     }
   ],
   "prerequisiteSkillIds": [
-    "Mount-control",
+    "mount-control",
     "triangle-system",
     "armbar-system"
   ],

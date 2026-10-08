@@ -156,7 +156,7 @@
     "hasChecklist": true
   },
   {
-    "id": "Guard-pulling-strategy",
+    "id": "guard-pulling-strategy",
     "domain": "positional_awareness",
     "level": "intermediate",
     "name": "Guard Chiến lược kéo",
@@ -170,7 +170,7 @@
     "hasChecklist": false
   },
   {
-    "id": "Guillotine-defense-escape",
+    "id": "guillotine-defense-escape",
     "domain": "escapes",
     "level": "intermediate",
     "name": "Guillotine Phòng thủ và trốn thoát",
@@ -188,7 +188,7 @@
     "hasChecklist": false
   },
   {
-    "id": "half-Guard-bottom-escape",
+    "id": "half-guard-bottom-escape",
     "domain": "escapes",
     "level": "intermediate",
     "name": "Half Guard Thoát đáy",
@@ -288,7 +288,7 @@
     "hasChecklist": true
   },
   {
-    "id": "Mount-escape",
+    "id": "mount-escape",
     "domain": "escapes",
     "level": "beginner",
     "name": "Mount Thoát",
@@ -302,7 +302,7 @@
     "hasChecklist": true
   },
   {
-    "id": "Mount-survival",
+    "id": "mount-survival",
     "domain": "survival_defense",
     "level": "beginner",
     "name": "Mount Sống sót",
@@ -468,7 +468,7 @@
     "hasChecklist": false
   },
   {
-    "id": "turtle-to-Guard-recovery",
+    "id": "turtle-to-guard-recovery",
     "domain": "escapes",
     "level": "intermediate",
     "name": "Phục hồi Guard từ tư thế rùa",
@@ -485,7 +485,7 @@
     "hasChecklist": false
   },
   {
-    "id": "butterfly-Guard-off-balance",
+    "id": "butterfly-guard-off-balance",
     "domain": "guard_offense",
     "level": "intermediate",
     "name": "Butterfly Guard Mất cân bằng",
@@ -499,7 +499,7 @@
     "hasChecklist": false
   },
   {
-    "id": "clamp-Guard-control",
+    "id": "clamp-guard-control",
     "domain": "guard_offense",
     "level": "intermediate",
     "name": "Kẹp Guard Điều khiển",
@@ -537,7 +537,7 @@
     "hasChecklist": false
   },
   {
-    "id": "closed-Guard-posture-control",
+    "id": "closed-guard-posture-control",
     "domain": "guard_offense",
     "level": "beginner",
     "name": "Closed Guard Kiểm soát tư thế",
@@ -552,7 +552,7 @@
     "hasChecklist": false
   },
   {
-    "id": "closed-Guard-sweeps",
+    "id": "closed-guard-sweeps",
     "domain": "guard_offense",
     "level": "intermediate",
     "name": "Closed Guard Quét",
@@ -568,7 +568,7 @@
     "hasChecklist": false
   },
   {
-    "id": "coyote-half-Guard",
+    "id": "coyote-half-guard",
     "domain": "guard_offense",
     "level": "intermediate",
     "name": "Coyote Half Guard",
@@ -601,7 +601,7 @@
     "hasChecklist": false
   },
   {
-    "id": "deep-half-Guard",
+    "id": "deep-half-guard",
     "domain": "guard_offense",
     "level": "intermediate",
     "name": "Sâu Half Guard",
@@ -672,7 +672,7 @@
     "hasChecklist": false
   },
   {
-    "id": "half-Guard-knee-shield",
+    "id": "half-guard-knee-shield",
     "domain": "guard_retention",
     "level": "beginner",
     "name": "Half Guard knee shield",
@@ -686,7 +686,7 @@
     "hasChecklist": false
   },
   {
-    "id": "inverted-Guard-control",
+    "id": "inverted-guard-control",
     "domain": "guard_offense",
     "level": "advanced",
     "name": "Đảo ngược Guard & Chuyển tiếp",
@@ -701,7 +701,7 @@
     "hasChecklist": false
   },
   {
-    "id": "k-Guard-entry",
+    "id": "k-guard-entry",
     "domain": "guard_offense",
     "level": "advanced",
     "name": "K-Guard Mục nhập",
@@ -715,7 +715,7 @@
     "hasChecklist": false
   },
   {
-    "id": "k-Guard-matrix",
+    "id": "k-guard-matrix",
     "domain": "guard_offense",
     "level": "advanced",
     "name": "K-Guard tới Ma trận",
@@ -758,7 +758,7 @@
     "hasChecklist": false
   },
   {
-    "id": "octopus-Guard-control",
+    "id": "octopus-guard-control",
     "domain": "guard_retention",
     "level": "intermediate",
     "name": "Octopus Guard Kiểm soát",
@@ -780,7 +780,7 @@
     "hasChecklist": false
   },
   {
-    "id": "octopus-Guard-sweep",
+    "id": "octopus-guard-sweep",
     "domain": "guard_offense",
     "level": "intermediate",
     "name": "Octopus Guard Quét",
@@ -816,7 +816,7 @@
     "hasChecklist": false
   },
   {
-    "id": "seated-Guard-retention",
+    "id": "seated-guard-retention",
     "domain": "guard_retention",
     "level": "beginner",
     "name": "Seated Guard Giữ chân",
@@ -916,7 +916,7 @@
     "hasChecklist": false
   },
   {
-    "id": "supine-Guard-retention",
+    "id": "supine-guard-retention",
     "domain": "guard_retention",
     "level": "beginner",
     "name": "Nằm ngửa Guard Giữ nguyên",
@@ -930,7 +930,7 @@
     "hasChecklist": false
   },
   {
-    "id": "x-Guard-control",
+    "id": "x-guard-control",
     "domain": "guard_offense",
     "level": "intermediate",
     "name": "X-Guard Kiểm soát",
@@ -952,7 +952,7 @@
     "hasChecklist": false
   },
   {
-    "id": "z-Guard-sweeps",
+    "id": "z-guard-sweeps",
     "domain": "guard_offense",
     "level": "intermediate",
     "name": "Z-Guard Quét & sâu một nửa",
@@ -985,7 +985,7 @@
     "hasChecklist": false
   },
   {
-    "id": "k-Guard-to-outside-ashi",
+    "id": "k-guard-to-outside-ashi",
     "domain": "guard_offense",
     "level": "advanced",
     "name": "K-Guard sang Outside Ashi",
@@ -1279,7 +1279,7 @@
     "hasChecklist": true
   },
   {
-    "id": "Mount-control",
+    "id": "mount-control",
     "domain": "pins_rides",
     "level": "intermediate",
     "name": "Mount Kiểm soát",
@@ -1330,7 +1330,7 @@
     "hasChecklist": false
   },
   {
-    "id": "s-Mount-control",
+    "id": "s-mount-control",
     "domain": "pins_rides",
     "level": "advanced",
     "name": "s-Mount Kiểm soát",
@@ -1557,7 +1557,7 @@
     "hasChecklist": false
   },
   {
-    "id": "arm-triangle-Mount",
+    "id": "arm-triangle-mount",
     "domain": "submission_systems",
     "level": "advanced",
     "name": "Nhóm triangle từ Mount",
@@ -1821,7 +1821,7 @@
     "hasChecklist": false
   },
   {
-    "id": "Guillotine-system",
+    "id": "guillotine-system",
     "domain": "submission_systems",
     "level": "advanced",
     "name": "Guillotine Hệ thống",
@@ -1870,7 +1870,7 @@
     "hasChecklist": true
   },
   {
-    "id": "high-wrist-Guillotine",
+    "id": "high-wrist-guillotine",
     "domain": "submission_systems",
     "level": "advanced",
     "name": "Cổ tay cao Guillotine",
@@ -2037,7 +2037,7 @@
     "hasChecklist": false
   },
   {
-    "id": "s-Mount-armbar",
+    "id": "s-mount-armbar",
     "domain": "submission_systems",
     "level": "advanced",
     "name": "s-Mount armbar",
@@ -2379,7 +2379,7 @@
     "hasChecklist": false
   },
   {
-    "id": "half-Guard-wrestle-up",
+    "id": "half-guard-wrestle-up",
     "domain": "wrestle_up_wrestling",
     "level": "intermediate",
     "name": "Half Guard Đấu vật",
@@ -2485,7 +2485,7 @@
     "hasChecklist": false
   },
   {
-    "id": "wrestling-up-from-Guard",
+    "id": "wrestling-up-from-guard",
     "domain": "wrestle_up_wrestling",
     "level": "intermediate",
     "name": "Đấu tranh từ Guard",

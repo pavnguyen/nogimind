@@ -24,7 +24,7 @@
   "modernSystemGroup": "octopus",
   "relatedSkills": [
     {
-      "id": "octopus-Guard-control",
+      "id": "octopus-guard-control",
       "type": "recommended"
     },
     {
@@ -44,8 +44,8 @@
   "archetypeIds": [],
   "relatedArchetypeIds": [],
   "prerequisiteSkillIds": [
-    "octopus-Guard-control",
-    "half-Guard-wrestle-up"
+    "octopus-guard-control",
+    "half-guard-wrestle-up"
   ],
   "trainingMethodIds": [],
   "nextSkillIds": [],

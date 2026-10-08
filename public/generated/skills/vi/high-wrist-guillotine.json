@@ -24,7 +24,7 @@
   "modernSystemGroup": "front_headlock",
   "relatedSkills": [
     {
-      "id": "Guillotine-system",
+      "id": "guillotine-system",
       "type": "recommended"
     },
     {
@@ -44,7 +44,7 @@
   "archetypeIds": [],
   "relatedArchetypeIds": [],
   "prerequisiteSkillIds": [
-    "Guillotine-system",
+    "guillotine-system",
     "front-headlock-defense"
   ],
   "trainingMethodIds": [],

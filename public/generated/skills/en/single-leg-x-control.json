@@ -27,15 +27,15 @@
   "modernSystemGroup": "single_leg_x",
   "relatedSkills": [
     {
-      "id": "x-Guard-control",
+      "id": "x-guard-control",
       "type": "recommended"
     },
     {
-      "id": "k-Guard-matrix",
+      "id": "k-guard-matrix",
       "type": "recommended"
     },
     {
-      "id": "butterfly-Guard-off-balance",
+      "id": "butterfly-guard-off-balance",
       "type": "recommended"
     }
   ],
@@ -47,7 +47,7 @@
   "archetypeIds": [],
   "relatedArchetypeIds": [],
   "prerequisiteSkillIds": [
-    "seated-Guard-retention",
+    "seated-guard-retention",
     "leg-lock-safety-basics"
   ],
   "trainingMethodIds": [],

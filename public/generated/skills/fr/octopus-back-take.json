@@ -24,7 +24,7 @@
   "modernSystemGroup": "octopus",
   "relatedSkills": [
     {
-      "id": "octopus-Guard-sweep",
+      "id": "octopus-guard-sweep",
       "type": "recommended"
     },
     {
@@ -44,7 +44,7 @@
   "archetypeIds": [],
   "relatedArchetypeIds": [],
   "prerequisiteSkillIds": [
-    "octopus-Guard-control",
+    "octopus-guard-control",
     "back-control"
   ],
   "trainingMethodIds": [],

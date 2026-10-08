@@ -1,5 +1,5 @@
 {
-  "id": "closed-Guard-posture-control",
+  "id": "closed-guard-posture-control",
   "domain": "guard_offense",
   "level": "beginner",
   "name": "Closed Guard Posture Control",
@@ -17,7 +17,7 @@
   ],
   "relatedSkills": [
     {
-      "id": "closed-Guard-sweeps",
+      "id": "closed-guard-sweeps",
       "type": "recommended"
     },
     {
@@ -34,7 +34,7 @@
     }
   ],
   "prerequisiteSkillIds": [
-    "supine-Guard-retention"
+    "supine-guard-retention"
   ],
   "relatedPositions": [],
   "relatedConcepts": [],

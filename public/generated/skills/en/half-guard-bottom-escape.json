@@ -25,7 +25,7 @@
   ],
   "relatedSkills": [
     {
-      "id": "half-Guard-knee-shield",
+      "id": "half-guard-knee-shield",
       "type": "recommended"
     },
     {
@@ -37,7 +37,7 @@
       "type": "recommended"
     },
     {
-      "id": "half-Guard-wrestle-up",
+      "id": "half-guard-wrestle-up",
       "type": "recommended"
     }
   ],
@@ -50,7 +50,7 @@
   "relatedArchetypeIds": [],
   "prerequisiteSkillIds": [
     "side-control-escape",
-    "half-Guard-knee-shield"
+    "half-guard-knee-shield"
   ],
   "trainingMethodIds": [],
   "nextSkillIds": [],

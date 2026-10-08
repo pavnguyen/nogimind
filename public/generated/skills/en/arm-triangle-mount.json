@@ -25,7 +25,7 @@
       "type": "recommended"
     },
     {
-      "id": "Mount-survival",
+      "id": "mount-survival",
       "type": "recommended"
     }
   ],
@@ -37,7 +37,7 @@
   "archetypeIds": [],
   "relatedArchetypeIds": [],
   "prerequisiteSkillIds": [
-    "Mount-control"
+    "mount-control"
   ],
   "trainingMethodIds": [],
   "nextSkillIds": [],

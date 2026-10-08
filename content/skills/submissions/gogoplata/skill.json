@@ -23,7 +23,7 @@
   "modernSystemGroup": "clamp_guard",
   "relatedSkills": [
     {
-      "id": "clamp-Guard-control",
+      "id": "clamp-guard-control",
       "type": "recommended"
     },
     {
@@ -36,7 +36,7 @@
     }
   ],
   "prerequisiteSkillIds": [
-    "clamp-Guard-control",
+    "clamp-guard-control",
     "front-headlock-defense"
   ],
   "relatedPositions": [],

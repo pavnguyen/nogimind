@@ -1,5 +1,5 @@
 {
-  "id": "s-Mount-control",
+  "id": "s-mount-control",
   "domain": "pins_rides",
   "level": "advanced",
   "name": "S-Mount Control",
@@ -23,7 +23,7 @@
   "modernSystemGroup": "s_mount",
   "relatedSkills": [
     {
-      "id": "s-Mount-armbar",
+      "id": "s-mount-armbar",
       "type": "recommended"
     },
     {
@@ -31,13 +31,13 @@
       "type": "recommended"
     },
     {
-      "id": "Mount-control",
+      "id": "mount-control",
       "type": "recommended"
     }
   ],
   "prerequisiteSkillIds": [
-    "Mount-control",
-    "arm-triangle-Mount"
+    "mount-control",
+    "arm-triangle-mount"
   ],
   "relatedPositions": [],
   "relatedConcepts": [],

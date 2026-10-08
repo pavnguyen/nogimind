@@ -1,5 +1,5 @@
 {
-  "id": "half-Guard-wrestle-up",
+  "id": "half-guard-wrestle-up",
   "domain": "wrestle_up_wrestling",
   "level": "intermediate",
   "name": "Half Guard Wrestle-Up",
@@ -29,7 +29,7 @@
     }
   ],
   "prerequisiteSkillIds": [
-    "half-Guard-knee-shield",
+    "half-guard-knee-shield",
     "technical-stand-up"
   ],
   "relatedPositions": [],

@@ -32,7 +32,7 @@
       "type": "recommended"
     },
     {
-      "id": "clamp-Guard-control",
+      "id": "clamp-guard-control",
       "type": "recommended"
     }
   ],
@@ -45,7 +45,7 @@
   "relatedArchetypeIds": [],
   "prerequisiteSkillIds": [
     "kimura-system",
-    "clamp-Guard-control"
+    "clamp-guard-control"
   ],
   "trainingMethodIds": [],
   "nextSkillIds": [],

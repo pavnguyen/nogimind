@@ -1,5 +1,5 @@
 {
-  "id": "butterfly-Guard-off-balance",
+  "id": "butterfly-guard-off-balance",
   "domain": "guard_offense",
   "level": "intermediate",
   "name": "Butterfly Guard Off-Balance",
@@ -20,16 +20,16 @@
       "type": "recommended"
     },
     {
-      "id": "half-Guard-wrestle-up",
+      "id": "half-guard-wrestle-up",
       "type": "recommended"
     },
     {
-      "id": "Guillotine-system",
+      "id": "guillotine-system",
       "type": "recommended"
     }
   ],
   "prerequisiteSkillIds": [
-    "seated-Guard-retention"
+    "seated-guard-retention"
   ],
   "relatedPositions": [],
   "relatedConcepts": [],

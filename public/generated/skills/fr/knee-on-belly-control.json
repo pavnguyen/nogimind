@@ -18,7 +18,7 @@
   ],
   "relatedSkills": [
     {
-      "id": "Mount-control",
+      "id": "mount-control",
       "type": "recommended"
     },
     {
@@ -39,7 +39,7 @@
   "relatedArchetypeIds": [],
   "prerequisiteSkillIds": [
     "side-control-pin",
-    "Mount-control"
+    "mount-control"
   ],
   "trainingMethodIds": [],
   "nextSkillIds": [],

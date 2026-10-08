@@ -1,5 +1,5 @@
 {
-  "id": "wrestling-up-from-Guard",
+  "id": "wrestling-up-from-guard",
   "domain": "wrestle_up_wrestling",
   "level": "intermediate",
   "name": "Wrestling Up from Guard",
@@ -28,12 +28,12 @@
       "type": "recommended"
     },
     {
-      "id": "half-Guard-wrestle-up",
+      "id": "half-guard-wrestle-up",
       "type": "recommended"
     }
   ],
   "prerequisiteSkillIds": [
-    "seated-Guard-retention",
+    "seated-guard-retention",
     "hand-fighting",
     "technical-stand-up"
   ],

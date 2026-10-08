@@ -186,7 +186,7 @@
   },
   {
     "id": "Guard-pulling-strategy_fr",
-    "skill_id": "Guard-pulling-strategy",
+    "skill_id": "guard-pulling-strategy",
     "domain": "escapes",
     "locale": "fr",
     "file": "content/skills/escapes/Guard-pulling-strategy/content.fr.json",
@@ -217,7 +217,7 @@
   },
   {
     "id": "Guard-pulling-strategy_vi",
-    "skill_id": "Guard-pulling-strategy",
+    "skill_id": "guard-pulling-strategy",
     "domain": "escapes",
     "locale": "vi",
     "file": "content/skills/escapes/Guard-pulling-strategy/content.vi.json",
@@ -248,7 +248,7 @@
   },
   {
     "id": "half-Guard-bottom-escape_fr",
-    "skill_id": "half-Guard-bottom-escape",
+    "skill_id": "half-guard-bottom-escape",
     "domain": "escapes",
     "locale": "fr",
     "file": "content/skills/escapes/half-Guard-bottom-escape/content.fr.json",
@@ -275,7 +275,7 @@
   },
   {
     "id": "half-Guard-bottom-escape_vi",
-    "skill_id": "half-Guard-bottom-escape",
+    "skill_id": "half-guard-bottom-escape",
     "domain": "escapes",
     "locale": "vi",
     "file": "content/skills/escapes/half-Guard-bottom-escape/content.vi.json",
@@ -670,7 +670,7 @@
   },
   {
     "id": "butterfly-Guard-off-balance_fr",
-    "skill_id": "butterfly-Guard-off-balance",
+    "skill_id": "butterfly-guard-off-balance",
     "domain": "Guard",
     "locale": "fr",
     "file": "content/skills/Guard/butterfly-Guard-off-balance/content.fr.json",
@@ -689,7 +689,7 @@
   },
   {
     "id": "butterfly-Guard-off-balance_vi",
-    "skill_id": "butterfly-Guard-off-balance",
+    "skill_id": "butterfly-guard-off-balance",
     "domain": "Guard",
     "locale": "vi",
     "file": "content/skills/Guard/butterfly-Guard-off-balance/content.vi.json",
@@ -708,7 +708,7 @@
   },
   {
     "id": "clamp-Guard-control_fr",
-    "skill_id": "clamp-Guard-control",
+    "skill_id": "clamp-guard-control",
     "domain": "Guard",
     "locale": "fr",
     "file": "content/skills/Guard/clamp-Guard-control/content.fr.json",
@@ -727,7 +727,7 @@
   },
   {
     "id": "clamp-Guard-control_vi",
-    "skill_id": "clamp-Guard-control",
+    "skill_id": "clamp-guard-control",
     "domain": "Guard",
     "locale": "vi",
     "file": "content/skills/Guard/clamp-Guard-control/content.vi.json",
@@ -784,7 +784,7 @@
   },
   {
     "id": "closed-Guard-sweeps_fr",
-    "skill_id": "closed-Guard-sweeps",
+    "skill_id": "closed-guard-sweeps",
     "domain": "Guard",
     "locale": "fr",
     "file": "content/skills/Guard/closed-Guard-sweeps/content.fr.json",
@@ -803,7 +803,7 @@
   },
   {
     "id": "closed-Guard-sweeps_vi",
-    "skill_id": "closed-Guard-sweeps",
+    "skill_id": "closed-guard-sweeps",
     "domain": "Guard",
     "locale": "vi",
     "file": "content/skills/Guard/closed-Guard-sweeps/content.vi.json",
@@ -868,7 +868,7 @@
   },
   {
     "id": "deep-half-guard_fr",
-    "skill_id": "deep-half-Guard",
+    "skill_id": "deep-half-guard",
     "domain": "Guard",
     "locale": "fr",
     "file": "content/skills/Guard/deep-half-Guard/content.fr.json",
@@ -887,7 +887,7 @@
   },
   {
     "id": "deep-half-guard_vi",
-    "skill_id": "deep-half-Guard",
+    "skill_id": "deep-half-guard",
     "domain": "Guard",
     "locale": "vi",
     "file": "content/skills/Guard/deep-half-Guard/content.vi.json",
@@ -1028,7 +1028,7 @@
   },
   {
     "id": "inverted-Guard-control_fr",
-    "skill_id": "inverted-Guard-control",
+    "skill_id": "inverted-guard-control",
     "domain": "Guard",
     "locale": "fr",
     "file": "content/skills/Guard/inverted-Guard-control/content.fr.json",
@@ -1051,7 +1051,7 @@
   },
   {
     "id": "inverted-Guard-control_vi",
-    "skill_id": "inverted-Guard-control",
+    "skill_id": "inverted-guard-control",
     "domain": "Guard",
     "locale": "vi",
     "file": "content/skills/Guard/inverted-Guard-control/content.vi.json",
@@ -1074,7 +1074,7 @@
   },
   {
     "id": "k-Guard-entry_fr",
-    "skill_id": "k-Guard-entry",
+    "skill_id": "k-guard-entry",
     "domain": "Guard",
     "locale": "fr",
     "file": "content/skills/Guard/k-Guard-entry/content.fr.json",
@@ -1097,7 +1097,7 @@
   },
   {
     "id": "k-Guard-entry_vi",
-    "skill_id": "k-Guard-entry",
+    "skill_id": "k-guard-entry",
     "domain": "Guard",
     "locale": "vi",
     "file": "content/skills/Guard/k-Guard-entry/content.vi.json",
@@ -1120,7 +1120,7 @@
   },
   {
     "id": "k-Guard-matrix_fr",
-    "skill_id": "k-Guard-matrix",
+    "skill_id": "k-guard-matrix",
     "domain": "Guard",
     "locale": "fr",
     "file": "content/skills/Guard/k-Guard-matrix/content.fr.json",
@@ -1139,7 +1139,7 @@
   },
   {
     "id": "k-Guard-matrix_vi",
-    "skill_id": "k-Guard-matrix",
+    "skill_id": "k-guard-matrix",
     "domain": "Guard",
     "locale": "vi",
     "file": "content/skills/Guard/k-Guard-matrix/content.vi.json",
@@ -1196,7 +1196,7 @@
   },
   {
     "id": "octopus-Guard-control_fr",
-    "skill_id": "octopus-Guard-control",
+    "skill_id": "octopus-guard-control",
     "domain": "Guard",
     "locale": "fr",
     "file": "content/skills/Guard/octopus-Guard-control/content.fr.json",
@@ -1215,7 +1215,7 @@
   },
   {
     "id": "octopus-Guard-control_vi",
-    "skill_id": "octopus-Guard-control",
+    "skill_id": "octopus-guard-control",
     "domain": "Guard",
     "locale": "vi",
     "file": "content/skills/Guard/octopus-Guard-control/content.vi.json",
@@ -1234,7 +1234,7 @@
   },
   {
     "id": "octopus-Guard-sweep_fr",
-    "skill_id": "octopus-Guard-sweep",
+    "skill_id": "octopus-guard-sweep",
     "domain": "Guard",
     "locale": "fr",
     "file": "content/skills/Guard/octopus-Guard-sweep/content.fr.json",
@@ -1253,7 +1253,7 @@
   },
   {
     "id": "octopus-Guard-sweep_vi",
-    "skill_id": "octopus-Guard-sweep",
+    "skill_id": "octopus-guard-sweep",
     "domain": "Guard",
     "locale": "vi",
     "file": "content/skills/Guard/octopus-Guard-sweep/content.vi.json",
@@ -1486,7 +1486,7 @@
   },
   {
     "id": "x-Guard-control_fr",
-    "skill_id": "x-Guard-control",
+    "skill_id": "x-guard-control",
     "domain": "Guard",
     "locale": "fr",
     "file": "content/skills/Guard/x-Guard-control/content.fr.json",
@@ -1509,7 +1509,7 @@
   },
   {
     "id": "x-Guard-control_vi",
-    "skill_id": "x-Guard-control",
+    "skill_id": "x-guard-control",
     "domain": "Guard",
     "locale": "vi",
     "file": "content/skills/Guard/x-Guard-control/content.vi.json",
@@ -1532,7 +1532,7 @@
   },
   {
     "id": "z-Guard-sweeps_fr",
-    "skill_id": "z-Guard-sweeps",
+    "skill_id": "z-guard-sweeps",
     "domain": "Guard",
     "locale": "fr",
     "file": "content/skills/Guard/z-Guard-sweeps/content.fr.json",
@@ -1555,7 +1555,7 @@
   },
   {
     "id": "z-Guard-sweeps_vi",
-    "skill_id": "z-Guard-sweeps",
+    "skill_id": "z-guard-sweeps",
     "domain": "Guard",
     "locale": "vi",
     "file": "content/skills/Guard/z-Guard-sweeps/content.vi.json",
@@ -2258,7 +2258,7 @@
   },
   {
     "id": "Mount-control_fr",
-    "skill_id": "Mount-control",
+    "skill_id": "mount-control",
     "domain": "pins",
     "locale": "fr",
     "file": "content/skills/pins/Mount-control/content.fr.json",
@@ -2289,7 +2289,7 @@
   },
   {
     "id": "Mount-control_vi",
-    "skill_id": "Mount-control",
+    "skill_id": "mount-control",
     "domain": "pins",
     "locale": "vi",
     "file": "content/skills/pins/Mount-control/content.vi.json",
@@ -2436,7 +2436,7 @@
   },
   {
     "id": "s-Mount-control_fr",
-    "skill_id": "s-Mount-control",
+    "skill_id": "s-mount-control",
     "domain": "pins",
     "locale": "fr",
     "file": "content/skills/pins/s-Mount-control/content.fr.json",
@@ -2467,7 +2467,7 @@
   },
   {
     "id": "s-Mount-control_vi",
-    "skill_id": "s-Mount-control",
+    "skill_id": "s-mount-control",
     "domain": "pins",
     "locale": "vi",
     "file": "content/skills/pins/s-Mount-control/content.vi.json",
@@ -2744,7 +2744,7 @@
   },
   {
     "id": "arm-triangle-mount_fr",
-    "skill_id": "arm-triangle-Mount",
+    "skill_id": "arm-triangle-mount",
     "domain": "submissions",
     "locale": "fr",
     "file": "content/skills/submissions/arm-triangle-Mount/content.fr.json",
@@ -2763,7 +2763,7 @@
   },
   {
     "id": "arm-triangle-mount_vi",
-    "skill_id": "arm-triangle-Mount",
+    "skill_id": "arm-triangle-mount",
     "domain": "submissions",
     "locale": "vi",
     "file": "content/skills/submissions/arm-triangle-Mount/content.vi.json",
@@ -3289,7 +3289,7 @@
   },
   {
     "id": "Guillotine-system_fr",
-    "skill_id": "Guillotine-system",
+    "skill_id": "guillotine-system",
     "domain": "submissions",
     "locale": "fr",
     "file": "content/skills/submissions/Guillotine-system/content.fr.json",
@@ -3312,7 +3312,7 @@
   },
   {
     "id": "Guillotine-system_vi",
-    "skill_id": "Guillotine-system",
+    "skill_id": "guillotine-system",
     "domain": "submissions",
     "locale": "vi",
     "file": "content/skills/submissions/Guillotine-system/content.vi.json",
@@ -3373,7 +3373,7 @@
   },
   {
     "id": "high-wrist-guillotine_fr",
-    "skill_id": "high-wrist-Guillotine",
+    "skill_id": "high-wrist-guillotine",
     "domain": "submissions",
     "locale": "fr",
     "file": "content/skills/submissions/high-wrist-Guillotine/content.fr.json",
@@ -3392,7 +3392,7 @@
   },
   {
     "id": "high-wrist-guillotine_vi",
-    "skill_id": "high-wrist-Guillotine",
+    "skill_id": "high-wrist-guillotine",
     "domain": "submissions",
     "locale": "vi",
     "file": "content/skills/submissions/high-wrist-Guillotine/content.vi.json",
@@ -3609,7 +3609,7 @@
   },
   {
     "id": "s-Mount-armbar_fr",
-    "skill_id": "s-Mount-armbar",
+    "skill_id": "s-mount-armbar",
     "domain": "submissions",
     "locale": "fr",
     "file": "content/skills/submissions/s-Mount-armbar/content.fr.json",
@@ -3628,7 +3628,7 @@
   },
   {
     "id": "s-Mount-armbar_vi",
-    "skill_id": "s-Mount-armbar",
+    "skill_id": "s-mount-armbar",
     "domain": "submissions",
     "locale": "vi",
     "file": "content/skills/submissions/s-Mount-armbar/content.vi.json",
@@ -4275,7 +4275,7 @@
   },
   {
     "id": "half-Guard-wrestle-up_fr",
-    "skill_id": "half-Guard-wrestle-up",
+    "skill_id": "half-guard-wrestle-up",
     "domain": "wrestling",
     "locale": "fr",
     "file": "content/skills/wrestling/half-Guard-wrestle-up/content.fr.json",
@@ -4306,7 +4306,7 @@
   },
   {
     "id": "half-Guard-wrestle-up_vi",
-    "skill_id": "half-Guard-wrestle-up",
+    "skill_id": "half-guard-wrestle-up",
     "domain": "wrestling",
     "locale": "vi",
     "file": "content/skills/wrestling/half-Guard-wrestle-up/content.vi.json",
@@ -4577,7 +4577,7 @@
   },
   {
     "id": "wrestling-up-from-guard_fr",
-    "skill_id": "wrestling-up-from-Guard",
+    "skill_id": "wrestling-up-from-guard",
     "domain": "wrestling",
     "locale": "fr",
     "file": "content/skills/wrestling/wrestling-up-from-Guard/content.fr.json",
@@ -4604,7 +4604,7 @@
   },
   {
     "id": "wrestling-up-from-guard_vi",
-    "skill_id": "wrestling-up-from-Guard",
+    "skill_id": "wrestling-up-from-guard",
     "domain": "wrestling",
     "locale": "vi",
     "file": "content/skills/wrestling/wrestling-up-from-Guard/content.vi.json",
