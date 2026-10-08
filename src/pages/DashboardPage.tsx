@@ -98,11 +98,11 @@ export default function DashboardPage() {
             </div>
           </div>
 
-          {/* ── With gratitude, one compact line ── */}
-          <div className="mt-3 flex flex-wrap items-center gap-x-2 gap-y-1 border-t border-white/[0.06] pt-2.5 text-[11px] leading-5 text-slate-500">
-            <Heart className="h-3 w-3 shrink-0 text-amber-300/70" aria-hidden="true" />
+          {/* ── With gratitude, one compact line with a warm accent ── */}
+          <div className="mt-3 flex flex-wrap items-center gap-x-2.5 gap-y-1.5 rounded-lg border border-amber-400/25 bg-linear-to-r from-amber-400/[0.14] via-rose-400/[0.07] to-transparent px-3 py-2 text-[11px] font-medium leading-5 text-amber-100">
+            <Heart className="h-3.5 w-3.5 shrink-0 fill-current text-amber-300" aria-hidden="true" />
             <span className="min-w-0">{t('about.thanks.dashboard')}</span>
-            <span aria-hidden="true" className="text-slate-700">
+            <span aria-hidden="true" className="text-amber-300/40">
               ·
             </span>
             <a
@@ -110,7 +110,7 @@ export default function DashboardPage() {
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Guardian HCMC on Facebook"
-              className="inline-flex items-center text-slate-500 transition-colors hover:text-amber-100"
+              className="inline-flex h-5 w-5 items-center justify-center rounded-md bg-amber-400/20 text-amber-200 transition-colors hover:bg-amber-400/35 hover:text-white"
             >
               <FacebookIcon className="h-3.5 w-3.5 shrink-0" />
             </a>
@@ -119,13 +119,13 @@ export default function DashboardPage() {
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Guardian HCMC on Instagram"
-              className="inline-flex items-center text-slate-500 transition-colors hover:text-rose-100"
+              className="inline-flex h-5 w-5 items-center justify-center rounded-md bg-rose-400/20 text-rose-200 transition-colors hover:bg-rose-400/35 hover:text-white"
             >
               <InstagramIcon className="h-3.5 w-3.5 shrink-0" />
             </a>
             <Link
               to="/about"
-              className="font-medium text-slate-400 underline-offset-2 transition-colors hover:text-amber-100 hover:underline"
+              className="font-semibold text-amber-200 underline-offset-2 transition-colors hover:text-white hover:underline"
             >
               {t('about.thanks.more')}
             </Link>
