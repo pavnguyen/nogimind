@@ -1117,6 +1117,9 @@ export const en = {
   },
   about: {
     heading: 'About NoGi Mind',
+    philosophyTitle: 'Philosophy',
+    systemTitle: 'System, not technique collection',
+    safetyTitle: 'Safety first',
     philosophy: 'The app treats no-gi as an operating system: positions create constraints, constraints create decisions, and decisions create repeatable training loops.',
     system: 'System beats random technique collection because each skill is connected to prerequisites, danger signals, failure responses, and measurable tests.',
     safety: 'Safety first: leg locks, heel hooks, chokes, and neck attacks must be trained slowly with qualified supervision.',

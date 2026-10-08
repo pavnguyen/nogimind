@@ -1140,6 +1140,9 @@ export const vi = {
   },
   about: {
     heading: 'Về NoGi Mind',
+    philosophyTitle: 'Triết lý',
+    systemTitle: 'Hệ thống, không phải mẹo rời',
+    safetyTitle: 'An toàn là trên hết',
     philosophy: 'NoGi Mind xem no-gi như một hệ thống: vị trí tạo ra thế khó, thế khó buộc ta ra quyết định, còn quyết định dẫn tới chuỗi kỹ thuật có thể luyện tập.',
     system: 'Học theo hệ thống hiệu quả hơn ghi nhớ các đòn rời rạc: mỗi kỹ năng gắn với điều kiện cần, tín hiệu nguy hiểm, cách xử lý khi thất bại và những chi tiết quyết định.',
     safety: 'An toàn là trên hết. Hãy tập khóa chân, heel hook, đòn siết và kỹ thuật tấn công cổ chậm rãi, dưới sự hướng dẫn của người có chuyên môn.',

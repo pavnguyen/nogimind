@@ -1133,6 +1133,9 @@ export const fr = {
   about: {
     ...en.about,
     heading: 'À propos de NoGi Mind',
+    philosophyTitle: 'Philosophie',
+    systemTitle: 'Un système, pas un catalogue',
+    safetyTitle: 'Sécurité d’abord',
     philosophy: 'L’app traite le no-gi comme un knowledge operating system : positions, contraintes, décisions et chaînes techniques.',
     system: 'Le système bat la collection aléatoire car chaque skill a prérequis, signaux de danger, réponses à l’échec et micro-details.',
     safety: 'Sécurité d’abord : leg locks, heel hooks, chokes et attaques du cou doivent être travaillés lentement sous supervision qualifiée.',

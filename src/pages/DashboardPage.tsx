@@ -1,6 +1,7 @@
 import { useMemo, useState, useCallback } from 'react'
 import { Link } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
+import { ExternalLink, Heart } from 'lucide-react'
 import { PageShell } from '../components/common/PageShell'
 import { DailyFocusCard } from '../components/dashboard/DailyFocusCard'
 import { DashboardHubExplorer } from '../components/dashboard/DashboardHubExplorer'
@@ -117,17 +118,45 @@ export default function DashboardPage() {
 
         {/* ─── With gratitude — Guardian HCM & coach Jon TRAN ─── */}
         <section className="lg:col-span-12 animate-fadeIn md:[animation-delay:250ms]">
-          <div className="flex flex-col gap-3 rounded-xl border border-white/[0.06] bg-slate-900/40 px-5 py-4 sm:flex-row sm:items-center sm:justify-between">
-            <div className="min-w-0">
-              <p className="text-[10px] font-bold uppercase tracking-widest hallmark-text-tertiary">{t('about.thanks.heading')}</p>
-              <p className="mt-1 text-xs leading-5 text-slate-400">{t('about.thanks.dashboard')}</p>
+          <div className="relative overflow-hidden rounded-2xl border border-amber-400/20 bg-linear-to-r from-amber-400/[0.10] via-amber-300/[0.04] to-rose-400/[0.07] px-5 py-4">
+            <div className="pointer-events-none absolute -right-10 -top-12 h-32 w-32 rounded-full bg-amber-400/10 blur-3xl" />
+            <div className="relative z-10 flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
+              <div className="flex min-w-0 items-start gap-3">
+                <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-xl bg-linear-to-br from-amber-400 to-rose-400 text-slate-950 shadow-lg shadow-amber-500/20">
+                  <Heart className="h-4 w-4 fill-current" aria-hidden="true" />
+                </span>
+                <div className="min-w-0">
+                  <p className="text-[10px] font-bold uppercase tracking-widest text-amber-200/90">{t('about.thanks.heading')}</p>
+                  <p className="mt-1 text-xs leading-5 text-amber-50/75">{t('about.thanks.dashboard')}</p>
+                </div>
+              </div>
+              <div className="flex shrink-0 flex-wrap items-center gap-2">
+                <a
+                  href="https://www.facebook.com/profile.php?id=100087911966054"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-1.5 rounded-lg border border-amber-300/25 bg-amber-300/10 px-3 py-2 text-xs font-semibold text-amber-100 transition-colors hover:border-amber-200/50 hover:bg-amber-300/20 hover:text-white"
+                >
+                  Facebook
+                  <ExternalLink className="h-3 w-3 opacity-70" aria-hidden="true" />
+                </a>
+                <a
+                  href="https://www.instagram.com/guardianhcmc/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-1.5 rounded-lg border border-rose-300/25 bg-rose-300/10 px-3 py-2 text-xs font-semibold text-rose-100 transition-colors hover:border-rose-200/50 hover:bg-rose-300/20 hover:text-white"
+                >
+                  Instagram
+                  <ExternalLink className="h-3 w-3 opacity-70" aria-hidden="true" />
+                </a>
+                <Link
+                  to="/about"
+                  className="inline-flex items-center rounded-lg border border-white/[0.10] px-3.5 py-2 text-xs font-medium text-slate-300 transition-colors hover:border-amber-300/30 hover:text-amber-100"
+                >
+                  {t('about.thanks.more')}
+                </Link>
+              </div>
             </div>
-            <Link
-              to="/about"
-              className="inline-flex shrink-0 items-center rounded-lg border border-white/[0.08] px-3.5 py-2 text-xs font-medium text-slate-300 transition-colors hover:border-amber-300/30 hover:text-amber-100"
-            >
-              {t('about.thanks.more')}
-            </Link>
           </div>
         </section>
 
