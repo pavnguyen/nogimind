@@ -3,21 +3,21 @@
   "domain": "guard_offense",
   "level": "advanced",
   "status": "draft",
-  "name": "K-guard à la matrice",
+  "name": "K-Guard à la matrice",
   "aliases": [],
   "tags": [
-    "k-guard",
+    "k-Guard",
     "matrix",
     "backside-entry",
     "tier:modern-expansion",
     "meta:modern-common",
     "risk:high",
     "family:leg-lock",
-    "group:k-guard",
+    "group:k-Guard",
     "modern-no-gi"
   ],
   "keywords": [
-    "K-guard",
+    "K-Guard",
     "matrix",
     "backside"
   ],
@@ -44,7 +44,7 @@
   "archetypeIds": [],
   "relatedArchetypeIds": [],
   "prerequisiteSkillIds": [
-    "k-guard-entry",
+    "k-Guard-entry",
     "leg-lock-safety-basics"
   ],
   "trainingMethodIds": [],
@@ -67,14 +67,14 @@
     "hasStateMachine": false
   },
   "locale": "fr",
-  "description": "Transition de K-guard vers la matrice (inversion sous la hanche) pour créer un angle arrière pour les prises arrière, les traînées de jambes inversées ou les finitions d'enchevêtrement des jambes.",
-  "shortInstruction": "K-guard à la matrice : faites pivoter vos hanches, accrochez la hanche la plus éloignée et remontez sur l'arrière.",
-  "summary": "La transition K-guard vers la matrice est l'entrée arrière la plus puissante du No-Gi moderne. Lorsque vous êtes en K-guard et qu'ils défendent l'enchevêtrement des jambes en reculant ou en postant, vous faites pivoter vos hanches sur votre propre épaule et votre « matrice » sous leurs hanches – en inversant votre angle de dessous elles vers derrière elles. À partir de la matrice, vous pouvez prendre l'arrière, entrer une traînée de jambe inversée ou terminer un heel hook depuis l'arrière.",
+  "description": "Transition de K-Guard vers la matrice (inversion sous la hanche) pour créer un angle arrière pour les prises arrière, les traînées de jambes inversées ou les finitions d'enchevêtrement des jambes.",
+  "shortInstruction": "K-Guard à la matrice : faites pivoter vos hanches, accrochez la hanche la plus éloignée et remontez sur l'arrière.",
+  "summary": "La transition K-Guard vers la matrice est l'entrée arrière la plus puissante du No-Gi moderne. Lorsque vous êtes en K-Guard et qu'ils défendent l'enchevêtrement des jambes en reculant ou en postant, vous faites pivoter vos hanches sur votre propre épaule et votre « matrice » sous leurs hanches – en inversant votre angle de dessous elles vers derrière elles. À partir de la matrice, vous pouvez prendre l'arrière, entrer une traînée de jambe inversée ou terminer un heel hook depuis l'arrière.",
   "whyItWorks": [
     "La matrice inverse la relation intérieur/extérieur : vous passez d’être en dessous à être derrière eux.",
     "Cela transforme leur défense (recul) en votre attaque (reprise).",
     "La matrice ne nécessite pas de force : il s’agit d’une rotation de la hanche et d’un changement d’angle.",
-    "Principe de Danaher : la matrice résout le problème de la sortie de l'adversaire de K-guard."
+    "Principe de Danaher : la matrice résout le problème de la sortie de l'adversaire de K-Guard."
   ],
   "commonMistakes": [
     "En essayant de matricer sans contrôler leur bras éloigné, ils tourneront et vous feront face.",
@@ -94,15 +94,15 @@
     "Si vous ressentez une pression sur le bas du dos pendant la rotation, renflouez et réinitialisez."
   ],
   "systemLogic": {
-    "corePrinciple": "K-guard établi : l'adversaire recule ou poste → fait pivoter les hanches par-dessus l'épaule → accroche la hanche loin → reprend ou entre en traînée de jambe inversée.",
+    "corePrinciple": "K-Guard établi : l'adversaire recule ou poste → fait pivoter les hanches par-dessus l'épaule → accroche la hanche loin → reprend ou entre en traînée de jambe inversée.",
     "decisionTree": [
       {
         "condition": "Application générale",
-        "action": "La matrice fonctionne parce que le K-guard vous a déjà sous son centre – la rotation inverse simplement l'angle."
+        "action": "La matrice fonctionne parce que le K-Guard vous a déjà sous son centre – la rotation inverse simplement l'angle."
       },
       {
         "condition": "ils ne reculent pas",
-        "action": "attaquez plutôt l'enchevêtrement des jambes de K-guard."
+        "action": "attaquez plutôt l'enchevêtrement des jambes de K-Guard."
       }
     ],
     "exitStrategies": []
@@ -113,7 +113,7 @@
     "Contrôlez son bras proche tout au long de la rotation pour l'empêcher de vous décoller.",
     "Lorsque vous atterrissez dans la matrice, recherchez immédiatement le back take – ne faites pas de pause."
   ],
-  "nextStep": "Après la matrice, apprenez la prise arrière de K-guard et l'entrée de traînée de jambe inversée.",
+  "nextStep": "Après la matrice, apprenez la prise arrière de K-Guard et l'entrée de traînée de jambe inversée.",
   "fixItFast": [
     "Matrix semble maladroit ? Pratiquez la rotation de la hanche au sol sans partenaire – épaule au-dessus et non tête au-dessus.",
     "Vous ne pouvez pas prendre le dos ? Vous n'avez pas accroché la hanche éloignée – rétablissez le crochet de la hanche avant de remonter.",

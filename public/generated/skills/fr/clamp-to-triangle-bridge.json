@@ -3,20 +3,20 @@
   "domain": "guard_offense",
   "level": "advanced",
   "status": "draft",
-  "name": "Fixez guard au pont triangle",
+  "name": "Fixez Guard au pont triangle",
   "aliases": [],
   "tags": [
-    "clamp-guard",
+    "clamp-Guard",
     "triangle",
     "transition",
-    "guard-offense",
+    "Guard-offense",
     "submission-chain"
   ],
   "keywords": [
-    "clamp guard",
+    "clamp Guard",
     "triangle choke",
     "transition",
-    "guard offense",
+    "Guard offense",
     "submission chain"
   ],
   "relatedSkills": [
@@ -29,7 +29,7 @@
       "type": "recommended"
     },
     {
-      "id": "k-guard-entry",
+      "id": "k-Guard-entry",
       "type": "recommended"
     }
   ],
@@ -41,7 +41,7 @@
   "archetypeIds": [],
   "relatedArchetypeIds": [],
   "prerequisiteSkillIds": [
-    "clamp-guard-system",
+    "clamp-Guard-system",
     "triangle-armbar-dilemma"
   ],
   "trainingMethodIds": [],
@@ -64,9 +64,9 @@
     "hasStateMachine": false
   },
   "locale": "fr",
-  "description": "Pont de la pince guard dans le starter triangle : lorsque l'adversaire se défend en se tenant debout ou en écartant ses hanches, utilisez son mouvement pour faire pivoter votre jambe par-dessus son épaule et verrouiller le triangle.",
+  "description": "Pont de la pince Guard dans le starter triangle : lorsque l'adversaire se défend en se tenant debout ou en écartant ses hanches, utilisez son mouvement pour faire pivoter votre jambe par-dessus son épaule et verrouiller le triangle.",
   "shortInstruction": "L'adversaire se lève ou écarte les hanches ? Faites passer votre jambe supérieure par-dessus son épaule, verrouillez le triangle et brisez sa posture.",
-  "summary": "Le pont de serrage à triangle est la chaîne d'attaque principale de la pince guard. Lorsque l'adversaire sent la pince et tente de s'échapper en se tenant debout ou en prenant une posture, il crée exactement l'espace dont vous avez besoin pour jeter votre jambe par-dessus son épaule. Leur fuite devient votre configuration. Le pont n'est pas un mouvement de force, c'est une transition de timing et d'angle.",
+  "summary": "Le pont de serrage à triangle est la chaîne d'attaque principale de la pince Guard. Lorsque l'adversaire sent la pince et tente de s'échapper en se tenant debout ou en prenant une posture, il crée exactement l'espace dont vous avez besoin pour jeter votre jambe par-dessus son épaule. Leur fuite devient votre configuration. Le pont n'est pas un mouvement de force, c'est une transition de timing et d'angle.",
   "whyItWorks": [
     "La pince oblige l'adversaire à réagir. Leur réponse naturelle (posture/debout) ouvre l'angle pour le triangle.",
     "Lorsqu'ils séparent leurs hanches, votre jambe supérieure oscille librement sur leur épaule sans résistance.",

@@ -3,22 +3,22 @@
   "domain": "guard_offense",
   "level": "beginner",
   "status": "draft",
-  "name": "closed guard Contrôle de la posture",
+  "name": "Closed Guard Contrôle de la posture",
   "aliases": [],
   "tags": [
-    "closed-guard",
+    "closed-Guard",
     "posture",
     "control"
   ],
   "keywords": [
-    "closed guard",
+    "Closed Guard",
     "posture control",
     "elbow line",
     "hip control"
   ],
   "relatedSkills": [
     {
-      "id": "closed-guard-sweeps",
+      "id": "closed-Guard-sweeps",
       "type": "recommended"
     },
     {
@@ -42,7 +42,7 @@
   "archetypeIds": [],
   "relatedArchetypeIds": [],
   "prerequisiteSkillIds": [
-    "supine-guard-retention"
+    "supine-Guard-retention"
   ],
   "trainingMethodIds": [],
   "nextSkillIds": [],
@@ -60,15 +60,15 @@
     "hasStateMachine": false
   },
   "locale": "fr",
-  "description": "Brisez et contrôlez la posture de l'adversaire dans closed guard en utilisant la tension des jambes, les combats avec les mains et l'inclinaison des hanches pour créer des entrées de balayage ou de soumission.",
-  "shortInstruction": "Les jambes tirent, les mains brisent la prise, les hanches coupent l'angle – la posture est la clé de toutes les attaques closed guard.",
-  "summary": "closed guard n'est efficace que lorsque la posture de l'adversaire est brisée. Un adversaire en posture peut se lever, passer ou frapper (en MMA). Votre objectif principal est de les empêcher de s'asseoir droit en utilisant la tension des jambes pour attirer leur poids sur vous, en vous battant avec les mains pour briser leur cadre défensif et en utilisant l'angle des hanches pour les déséquilibrer. Sans contrôle de la posture, vous n'êtes pas offensé par closed guard.",
+  "description": "Brisez et contrôlez la posture de l'adversaire dans Closed Guard en utilisant la tension des jambes, les combats avec les mains et l'inclinaison des hanches pour créer des entrées de balayage ou de soumission.",
+  "shortInstruction": "Les jambes tirent, les mains brisent la prise, les hanches coupent l'angle – la posture est la clé de toutes les attaques Closed Guard.",
+  "summary": "Closed Guard n'est efficace que lorsque la posture de l'adversaire est brisée. Un adversaire en posture peut se lever, passer ou frapper (en MMA). Votre objectif principal est de les empêcher de s'asseoir droit en utilisant la tension des jambes pour attirer leur poids sur vous, en vous battant avec les mains pour briser leur cadre défensif et en utilisant l'angle des hanches pour les déséquilibrer. Sans contrôle de la posture, vous n'êtes pas offensé par Closed Guard.",
   "whyItWorks": [
     "Un adversaire en posture a une mobilité et une base complètes de ses bras – briser sa posture neutralise les deux.",
     "La tension des jambes autour du dos les empêche de s'asseoir ; ils doivent lutter contre la force de vos jambes pour se repositionner.",
     "Les combats à la main enlèvent leurs prises défensives (attaches de col, poignées de manches, poignées de ceinture) qui les maintiennent en position.",
     "Couper un angle (hanche d'un côté) déplace leur base hors ligne, les rendant vulnérables aux balayages et aux soumissions.",
-    "Principe de Danaher : le guard est une position offensive et non défensive — le contrôle de la posture est la première étape de chaque attaque."
+    "Principe de Danaher : le Guard est une position offensive et non défensive — le contrôle de la posture est la première étape de chaque attaque."
   ],
   "commonMistakes": [
     "Tirer avec les jambes mais sans engager les mains - sans se battre avec les mains, ils peuvent s'appuyer sur vos hanches et changer de posture.",
@@ -83,16 +83,16 @@
     "Décentrez-vous – 45 degrés est l’angle d’attaque."
   ],
   "safetySummary": [
-    "Gardez votre menton éloigné de votre poitrine lorsque vous les tirez vers le bas pour éviter les guillotine risques.",
+    "Gardez votre menton éloigné de votre poitrine lorsque vous les tirez vers le bas pour éviter les Guillotine risques.",
     "Protégez vos côtes de la pression des genoux lorsqu'elles tentent de se mettre en position – encadrez-les immédiatement.",
     "Ne maintenez pas une posture cassée trop longtemps sans attaquer, vous fatigueriez vos jambes."
   ],
   "systemLogic": {
-    "corePrinciple": "closed guard n'est efficace que lorsque la posture de l'adversaire est brisée. Un adversaire en posture a une mobilité et une base complètes de ses bras. Votre objectif est d'utiliser la tension des jambes, les combats avec les mains et les angles des hanches pour les empêcher de s'asseoir droit. Sans contrôle de la posture, vous n'êtes pas offensé par closed guard.",
+    "corePrinciple": "Closed Guard n'est efficace que lorsque la posture de l'adversaire est brisée. Un adversaire en posture a une mobilité et une base complètes de ses bras. Votre objectif est d'utiliser la tension des jambes, les combats avec les mains et les angles des hanches pour les empêcher de s'asseoir droit. Sans contrôle de la posture, vous n'êtes pas offensé par Closed Guard.",
     "decisionTree": [
       {
-        "condition": "L'adversaire brise votre closed guard et commence à se lever",
-        "action": "Serrez vos genoux ensemble et abaissez-les avant qu’ils ne s’étendent complètement. Une fois debout, le guard est ouvert et vous perdez l'avantage de la posture."
+        "condition": "L'adversaire brise votre Closed Guard et commence à se lever",
+        "action": "Serrez vos genoux ensemble et abaissez-les avant qu’ils ne s’étendent complètement. Une fois debout, le Guard est ouvert et vous perdez l'avantage de la posture."
       },
       {
         "condition": "L'adversaire attrape votre ceinture ou votre pantalon",
@@ -103,7 +103,7 @@
         "action": "Nagez vos mains dans leurs coudes et frappez-les vers leur col. Vos mains doivent briser leurs cadres pour rétablir le contrôle."
       },
       {
-        "condition": "L'adversaire est centré et positionné dans votre closed guard",
+        "condition": "L'adversaire est centré et positionné dans votre Closed Guard",
         "action": "Coupez un angle en déplaçant vos hanches de 45 degrés d'un côté. Un adversaire centré a une position bien basée et est difficile à balayer – l’angle crée l’ouverture."
       },
       {
@@ -113,7 +113,7 @@
     ],
     "exitStrategies": [
       "Si l'adversaire re-poste, réinitialisez la séquence : cassez à nouveau la posture, combat à la main pour supprimer les cadres, coupez l'angle, attaquez.",
-      "Si vous ne parvenez pas à briser leur posture avec les méthodes standard, passez à un guard élevé (pieds sur leurs hanches) pour les briser plus facilement.",
+      "Si vous ne parvenez pas à briser leur posture avec les méthodes standard, passez à un Guard élevé (pieds sur leurs hanches) pour les briser plus facilement.",
       "Utilisez 80 % de travail des jambes et 20 % du travail des bras : la fatigue dans les bras est un signe que vous tirez trop et que vous cadrez pas assez."
     ]
   },
@@ -123,9 +123,9 @@
     "Lorsqu'ils essaient de s'appuyer sur vos hanches, nagez vos mains à l'intérieur de leurs coudes et frappez-les jusqu'à leur col.",
     "Le moment le plus dangereux pour attaquer est celui où ils essaient activement de se positionner – utilisez leur énergie contre eux."
   ],
-  "nextStep": "Après avoir maîtrisé le contrôle de la posture, apprenez les closed guard balayages (hanche bump, ciseaux, fleur) et les soumissions (triangle, armbar).",
+  "nextStep": "Après avoir maîtrisé le contrôle de la posture, apprenez les Closed Guard balayages (hanche bump, ciseaux, fleur) et les soumissions (triangle, armbar).",
   "fixItFast": [
-    "Ils continuent à faire des postures ? Passez à un guard haut (pieds sur les hanches) pour les décomposer plus facilement.",
+    "Ils continuent à faire des postures ? Passez à un Guard haut (pieds sur les hanches) pour les décomposer plus facilement.",
     "Ils ont une poignée de ceinture ? Montez vos jambes plus haut et serrez – leur emprise s'affaiblira.",
     "Vos bras sont fatigués ? Utilisez davantage vos jambes – 80 % de travail des jambes, 20 % de travail des bras."
   ]

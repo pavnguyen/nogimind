@@ -6,19 +6,19 @@
   "aliases": [],
   "tags": [
     "de-la-riva",
-    "guard",
+    "Guard",
     "sweep"
   ],
   "keywords": [
     "de la riva",
     "sweep",
     "off-balance",
-    "X-guard",
+    "X-Guard",
     "single leg X"
   ],
   "relatedSkills": [
     {
-      "id": "x-guard-control",
+      "id": "x-Guard-control",
       "type": "recommended"
     },
     {
@@ -31,8 +31,8 @@
     }
   ],
   "prerequisiteSkillIds": [
-    "guard-pulling-strategy",
-    "seated-guard-retention"
+    "Guard-pulling-strategy",
+    "seated-Guard-retention"
   ],
   "relatedPositions": [],
   "relatedConcepts": [],

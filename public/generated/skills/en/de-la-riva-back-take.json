@@ -39,7 +39,7 @@
   "relatedArchetypeIds": [],
   "prerequisiteSkillIds": [
     "de-la-riva-sweeps",
-    "guard-pulling-strategy"
+    "Guard-pulling-strategy"
   ],
   "trainingMethodIds": [],
   "nextSkillIds": [],
@@ -62,8 +62,8 @@
   },
   "locale": "en",
   "description": "Use the DLR hook and far hip control to spin into a back take when the opponent defends the sweep by posting or stepping back.",
-  "shortInstruction": "Deep DLR hook, far hip control, spin under them — DLR back take is the ultimate prize from the open guard.",
-  "summary": "The DLR back take is the highest percentage reward from the De La Riva guard. When you attempt the DLR sweep (off-balancing them forward), many opponents will respond by posting a hand or stepping back to avoid the sweep. This reaction creates exactly the space and angle you need to spin under them and take the back. The DLR back take transforms a failed sweep into a dominant position.",
+  "shortInstruction": "Deep DLR hook, far hip control, spin under them — DLR back take is the ultimate prize from the open Guard.",
+  "summary": "The DLR back take is the highest percentage reward from the De La Riva Guard. When you attempt the DLR sweep (off-balancing them forward), many opponents will respond by posting a hand or stepping back to avoid the sweep. This reaction creates exactly the space and angle you need to spin under them and take the back. The DLR back take transforms a failed sweep into a dominant position.",
   "whyItWorks": [
     "When they post to defend the sweep, their arm is committed and cannot be used to block your spin.",
     "The DLR hook keeps their leg controlled while you spin — they cannot step away from the back take.",
@@ -88,7 +88,7 @@
     "When landing on the back, protect your own back from landing awkwardly on their legs."
   ],
   "systemLogic": {
-    "corePrinciple": "DLR guard established: off-balance for sweep → opponent posts hand → spin under their posted arm → take the back → secure seatbelt and hooks.",
+    "corePrinciple": "DLR Guard established: off-balance for sweep → opponent posts hand → spin under their posted arm → take the back → secure seatbelt and hooks.",
     "decisionTree": [
       {
         "condition": "The DLR back take works in one continuous motion: off-balance",
@@ -96,7 +96,7 @@
       },
       {
         "condition": "they don't post (defend the sweep by stepping back)",
-        "action": "extend into X-guard instead."
+        "action": "extend into X-Guard instead."
       }
     ],
     "exitStrategies": []

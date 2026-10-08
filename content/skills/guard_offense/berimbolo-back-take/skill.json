@@ -6,7 +6,7 @@
   "aliases": [
     "berimbolo",
     "inversion back take",
-    "berimbolo guard"
+    "berimbolo Guard"
   ],
   "tags": [
     "tier:modern-expansion",
@@ -25,11 +25,11 @@
   "modernSystemGroup": "x_guard",
   "relatedSkills": [
     {
-      "id": "coyote-half-guard",
+      "id": "coyote-half-Guard",
       "type": "chain"
     },
     {
-      "id": "k-guard-to-outside-ashi",
+      "id": "k-Guard-to-outside-ashi",
       "type": "alternative"
     }
   ],
@@ -37,7 +37,7 @@
   "relatedPositions": [],
   "relatedConcepts": [],
   "archetypeIds": [
-    "guard-retention-specialist"
+    "Guard-retention-specialist"
   ],
   "trainingMethodIds": [],
   "featureFlags": {

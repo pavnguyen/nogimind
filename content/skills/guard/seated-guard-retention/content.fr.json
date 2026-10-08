@@ -1,11 +1,11 @@
 {
-  "id": "seated-guard-retention",
+  "id": "seated-Guard-retention",
   "locale": "fr",
-  "name": "Assis guard Rétention",
+  "name": "Assis Guard Rétention",
   "shortName": "Rétention assise",
-  "description": "Un système défensif actif en position assise, utilisant des cadres squelettiques, des poteaux de pied et la mobilité des jambes pour bloquer la passe de l'adversaire et maintenir guard couches.",
+  "description": "Un système défensif actif en position assise, utilisant des cadres squelettiques, des poteaux de pied et la mobilité des jambes pour bloquer la passe de l'adversaire et maintenir Guard couches.",
   "shortInstruction": "Gardez les pieds sur les hanches, maintenez la connexion genou-coude, utilisez des poignées en C sur les poignets et le cadre pour récupérer ou wrestle up.",
-  "summary": "Rétention active guard depuis la position assise à l'aide des cadres, des repose-pieds et de la position intérieure.",
+  "summary": "Rétention active Guard depuis la position assise à l'aide des cadres, des repose-pieds et de la position intérieure.",
   "whyItWorks": [
     "Garde ses distances en utilisant les leviers les plus longs (pieds, tibias) avant que le passeur puisse se rapprocher poitrine contre poitrine.",
     "Préserve la position intérieure grâce à une connexion genou-coude et à un combat actif avec les mains.",
@@ -26,13 +26,13 @@
     "Restez assis, restez actif."
   ],
   "oneMinuteMode": {
-    "goal": "Maintenez la distance et la position intérieure par rapport à la position assise guard.",
+    "goal": "Maintenez la distance et la position intérieure par rapport à la position assise Guard.",
     "steps": [
       "Gardez les deux pieds posés sur les hanches ou les biceps.",
       "Maintenez la connexion genou-coude des deux côtés.",
       "Gagnez le combat à la main avec des poignées en C sur les poignets.",
       "Réagissez à la direction de passe et pivotez sur votre siège.",
-      "Lorsqu'ils s'engagent trop, wrestle up ou re-guard."
+      "Lorsqu'ils s'engagent trop, wrestle up ou re-Guard."
     ]
   },
   "safetySummary": [
@@ -46,7 +46,7 @@
     "S'ils vous aplatissent, vous avez attendu trop longtemps pour cadrer ou pivoter."
   ],
   "systemLogic": {
-    "corePrinciple": "La rétention guard est un jeu de gestion de distance : vos pieds et votre corps sont la première ligne de défense. Réagissez à la direction de la passe avant de vous engager dans une fuite ou un contre-attaque.",
+    "corePrinciple": "La rétention Guard est un jeu de gestion de distance : vos pieds et votre corps sont la première ligne de défense. Réagissez à la direction de la passe avant de vous engager dans une fuite ou un contre-attaque.",
     "decisionTree": [
       {
         "condition": "Le passant est debout et tourne en rond",
@@ -70,9 +70,9 @@
       }
     ],
     "exitStrategies": [
-      "S'ils dépassent une jambe, récupérez half guard et redémarrez le cycle de rétention.",
-      "S'ils vous aplatissent complètement, tournez-vous sur le côté, frappez le genou le plus proche et rétablissez votre position assise guard.",
-      "Si la rétention échoue à plusieurs reprises, passez à guard en décubitus dorsal avec la moitié profonde comme couche de sauvegarde."
+      "S'ils dépassent une jambe, récupérez Half Guard et redémarrez le cycle de rétention.",
+      "S'ils vous aplatissent complètement, tournez-vous sur le côté, frappez le genou le plus proche et rétablissez votre position assise Guard.",
+      "Si la rétention échoue à plusieurs reprises, passez à Guard en décubitus dorsal avec la moitié profonde comme couche de sauvegarde."
     ]
   },
   "moneyDetails": [
@@ -80,7 +80,7 @@
     "La poignée en C au poignet est votre meilleure amie : elle tue la prise de leur pantalon avant qu'elle ne commence.",
     "Pivotez sur votre siège, pas sur votre dos ; rester assis garde vos hanches mobiles."
   ],
-  "nextStep": "Après avoir conservé guard, regardez wrestle up (debout technique), passez à guard en décubitus dorsal ou attaquez avec des entrées tibia à tibia.",
+  "nextStep": "Après avoir conservé Guard, regardez wrestle up (debout technique), passez à Guard en décubitus dorsal ou attaquez avec des entrées tibia à tibia.",
   "fixItFast": [
     "Ils sont sous vos pieds ? Encadrez-vous avec les avant-bras et shrimp vos hanches vers l'extérieur.",
     "Ils ont une poignée de pantalon ? Dénudez-le avec les deux mains avant qu'ils ne se déposent.",

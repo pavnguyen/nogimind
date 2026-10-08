@@ -21,7 +21,7 @@ import { searchKnowledge } from '../utils/knowledgeSearch'
 import { getLocalizedText } from '../utils/localization'
 
 const coreResultTypes: KnowledgeItemType[] = ['skill', 'concept', 'position']
-const advancedResultTypes: KnowledgeItemType[] = ['micro_detail', 'troubleshooter', 'glossary', 'defense', 'archetype']
+const advancedResultTypes: KnowledgeItemType[] = ['micro_detail', 'glossary', 'defense', 'archetype']
 const filterTypes = [...coreResultTypes, ...advancedResultTypes]
 
 const SEARCH_ANALYTICS_KEY = 'nogi_search_analytics'
@@ -73,9 +73,9 @@ const getPopularSearches = (): string[] => {
 
 /** Pre-defined popular BJJ search terms (fallback if no analytics yet) */
 const DEFAULT_POPULAR: string[] = [
-  'armbar', 'triangle', 'guillotine', 'kimura', 'heel hook',
-  'rear naked choke', 'side control', 'mount escape',
-  'guard retention', 'knee cut pass',
+  'armbar', 'triangle', 'Guillotine', 'kimura', 'heel hook',
+  'rear naked choke', 'Side Control', 'Mount escape',
+  'Guard retention', 'knee cut pass',
 ]
 
 export default function SearchPage() {
@@ -326,7 +326,7 @@ export default function SearchPage() {
             </p>
           </div>
           <p className="text-sm text-slate-500">
-            {t('search.tipDeepBody', 'Toggle "Search in details" above to find mentions inside micro-details, troubleshooters, and escape maps.')}
+            {t('search.tipDeepBody', 'Toggle "Search in details" above to find mentions inside micro-details and escape maps.')}
           </p>
         </div>
       </div>

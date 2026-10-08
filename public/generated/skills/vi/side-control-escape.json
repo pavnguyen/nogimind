@@ -3,7 +3,7 @@
   "domain": "escapes",
   "level": "beginner",
   "status": "draft",
-  "name": "side control Thoát",
+  "name": "Side Control Thoát",
   "aliases": [],
   "tags": [
     "escape",
@@ -13,11 +13,11 @@
     "frame",
     "underhook",
     "hip escape",
-    "guard retention"
+    "Guard retention"
   ],
   "relatedSkills": [
     {
-      "id": "half-guard-knee-shield",
+      "id": "half-Guard-knee-shield",
       "type": "recommended"
     },
     {
@@ -56,9 +56,9 @@
     "hasStateMachine": false
   },
   "locale": "vi",
-  "description": "Biến khung hình thành lối thoát hông, underhook hoặc rùa thay vì để lộ lưng một cách ngẫu nhiên.",
-  "shortInstruction": "Khung ngang hông, đưa đầu gối gần vào, thoát hông để tạo khoảng trống và thu hồi guard hoặc thu lưng qua underhook.",
-  "summary": "side control lối thoát sử dụng khung cứng ở hông để tạo thành hình nêm, sau đó thoát hông để phục hồi vị trí bên trong. Hệ thống có hai nhánh chính: phục hồi underhook (đưa lưng hoặc guard) và phục hồi khuỷu tay đầu gối (guard).",
+  "description": "Biến khung hình thành lối thoát hông, underhook hoặc Tư thế rùa thay vì để lộ lưng một cách ngẫu nhiên.",
+  "shortInstruction": "Khung ngang hông, đưa đầu gối gần vào, thoát hông để tạo khoảng trống và thu hồi Guard hoặc thu lưng qua underhook.",
+  "summary": "Side Control lối thoát sử dụng khung cứng ở hông để tạo thành hình nêm, sau đó thoát hông để phục hồi vị trí bên trong. Hệ thống có hai nhánh chính: phục hồi underhook (đưa lưng hoặc Guard) và phục hồi khuỷu tay đầu gối (Guard).",
   "whyItWorks": [
     "Khung cẳng tay ngang hông sử dụng cấu trúc xương chống lại cơ, ngăn đối thủ đè bẹp thân mình",
     "Hông thoát ra trước underhook tạo ra góc cần thiết để đi vào không gian bên trong",
@@ -77,12 +77,12 @@
     "Hông thoát trước rồi hãy suy nghĩ"
   ],
   "safetySummary": [
-    "side control là một trong những tư thế ngột ngạt nhất trong BJJ — hoảng loạn là điều bình thường nhưng phải được kiểm soát bằng cách kiểm soát hơi thở",
+    "Side Control là một trong những tư thế ngột ngạt nhất trong BJJ — hoảng loạn là điều bình thường nhưng phải được kiểm soát bằng cách kiểm soát hơi thở",
     "Lộ lưng trong một cuộc tranh giành có thể dẫn đến rear-naked choke mục; giữ cánh tay gần ngang bụng của bạn",
     "Nếu bạn cảm thấy đau xương sườn do áp lực, hãy lập tức giữ khung và thoát hông thay vì cố gắng đè đối thủ xuống."
   ],
   "systemLogic": {
-    "corePrinciple": "side control lối thoát có hai nhánh vào dựa trên những gì đối thủ mang lại cho bạn: nhánh underhook (lấy lại hoặc granby) để có phần thưởng cao hơn hoặc nhánh khuỷu tay đầu gối (half guard hồi phục) để có độ an toàn cao hơn.",
+    "corePrinciple": "Side Control lối thoát có hai nhánh vào dựa trên những gì đối thủ mang lại cho bạn: nhánh underhook (lấy lại hoặc granby) để có phần thưởng cao hơn hoặc nhánh khuỷu tay đầu gối (Half Guard hồi phục) để có độ an toàn cao hơn.",
     "decisionTree": [
       {
         "condition": "Đối thủ cho bạn khoảng trống để chèn underhook",
@@ -90,7 +90,7 @@
       },
       {
         "condition": "Đối thủ chặn underhook và tiến về phía trước",
-        "action": "Chuyển sang nhánh đầu gối-khuỷu tay: khung trên hông → thoát hông → chèn gần đầu gối → nối đầu gối với khuỷu tay cùng một bên → phục hồi half guard."
+        "action": "Chuyển sang nhánh đầu gối-khuỷu tay: khung trên hông → thoát hông → chèn gần đầu gối → nối đầu gối với khuỷu tay cùng một bên → phục hồi Half Guard."
       },
       {
         "condition": "Đối thủ crossface tấn công bạn trong lúc chạy trốn",
@@ -102,23 +102,23 @@
       },
       {
         "condition": "Không có underhook và khuỷu tay đầu gối",
-        "action": "Chấp nhận vị trí rùa và sử dụng trình tự rùa trốn thoát thay vì nằm im và hấp thụ sát thương. Rùa là một tư thế chuyển tiếp chứ không phải là một tư thế nghỉ ngơi."
+        "action": "Chấp nhận vị trí Tư thế rùa và sử dụng trình tự Tư thế rùa trốn thoát thay vì nằm im và hấp thụ sát thương. Tư thế rùa là một tư thế chuyển tiếp chứ không phải là một tư thế nghỉ ngơi."
       }
     ],
     "exitStrategies": [
-      "Nếu đối thủ chặn underhook, hãy đứng trên hông, chèn đầu gối gần của bạn ngang qua đường hông của họ và lăn tròn để phục hồi guard.",
-      "Nếu bạn khôi phục half guard, hãy thiết lập ngay knee shield để ngăn chúng làm phẳng lại bạn.",
+      "Nếu đối thủ chặn underhook, hãy đứng trên hông, chèn đầu gối gần của bạn ngang qua đường hông của họ và lăn tròn để phục hồi Guard.",
+      "Nếu bạn khôi phục Half Guard, hãy thiết lập ngay knee shield để ngăn chúng làm phẳng lại bạn.",
       "Nếu cuộc trốn thoát thất bại, hãy thiết lập lại các lớp sinh tồn và đợi lần mở cửa tiếp theo - đừng ép thực hiện lần thứ hai từ vị trí bị xâm phạm."
     ]
   },
   "moneyDetails": [
-    "Lối thoát side control là lối thoát có tần suất cao nhất trong BJJ — bạn sẽ sử dụng nó trong mỗi lần cuộn",
+    "Lối thoát Side Control là lối thoát có tần suất cao nhất trong BJJ — bạn sẽ sử dụng nó trong mỗi lần cuộn",
     "Nắm vững nhánh underhook mở lại sẽ giành được 4 điểm trong cuộc thi",
-    "Một chuỗi thoát side control tốt sẽ tiết kiệm năng lượng của bạn để bạn có thể tấn công thay vì sống sót cả hiệp"
+    "Một chuỗi thoát Side Control tốt sẽ tiết kiệm năng lượng của bạn để bạn có thể tấn công thay vì sống sót cả hiệp"
   ],
   "fixItFast": [
     "Nếu họ crossface bạn cứng: đặt cả hai cẳng tay lên bắp tay của họ, quay đầu về phía thảm và hông thoát ra ngay lập tức",
     "Nếu họ dồn bạn bằng cách ấn vai bạn vào thảm: hãy đập cánh tay gần dưới chân họ và lấy lưng",
-    "Nếu bạn không thể có được khung underhook: ở hông, hãy chèn đầu gối gần của bạn ngang qua đường hông của họ và lăn tròn để phục hồi guard"
+    "Nếu bạn không thể có được khung underhook: ở hông, hãy chèn đầu gối gần của bạn ngang qua đường hông của họ và lăn tròn để phục hồi Guard"
   ]
 }

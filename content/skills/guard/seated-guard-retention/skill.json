@@ -1,10 +1,10 @@
 {
-  "id": "seated-guard-retention",
+  "id": "seated-Guard-retention",
   "domain": "guard_retention",
   "level": "beginner",
   "name": "Seated Guard Retention",
-  "aliases": ["seated guard", "sitting guard retention", "open guard retention seated"],
-  "keywords": ["guard retention", "open guard", "frames", "seated guard", "no gi guard", "inside position"],
+  "aliases": ["seated Guard", "sitting Guard retention", "open Guard retention seated"],
+  "keywords": ["Guard retention", "open Guard", "frames", "seated Guard", "no gi Guard", "inside position"],
   "featureFlags": {
     "hasMicroDetails": false,
     "hasChecklist": false,
@@ -15,21 +15,21 @@
     "videos": "videos.json"
   },
   "relatedSkills": [
-    { "id": "supine-guard-retention", "type": "alternative" },
+    { "id": "supine-Guard-retention", "type": "alternative" },
     { "id": "frames-pummeling", "type": "prerequisite" },
     { "id": "technical-stand-up", "type": "supporting" },
     { "id": "shin-to-shin-entry", "type": "chain" }
   ],
-  "relatedPositions": ["seated-guard", "open-guard-bottom"],
+  "relatedPositions": ["seated-Guard", "open-Guard-bottom"],
   "relatedConcepts": ["inside-position", "knee-line", "frames-pummeling", "hip-control"],
-  "archetypeIds": ["guard-player", "passing-specialist"],
+  "archetypeIds": ["Guard-player", "passing-specialist"],
   "trainingMethodIds": ["static-repetition", "progressive-resistance"],
   "bodyToBodyDetails": {
     "phases": [
       { "order": 1, "name": "Establish Inside Position", "description": "Keep knees between you and opponent. Fight for inside position on both sides." },
       { "order": 2, "name": "Frame on Contact", "description": "When opponent closes distance, establish frames on biceps/shoulders to create space." },
       { "order": 3, "name": "Pummel for Inside Control", "description": "Pummel arms and legs back to inside position whenever they are pushed outside." },
-      { "order": 4, "name": "Manage Distance", "description": "Use feet on hips or biceps frames to maintain distance; don't let them collapse your guard." }
+      { "order": 4, "name": "Manage Distance", "description": "Use feet on hips or biceps frames to maintain distance; don't let them collapse your Guard." }
     ],
     "contactPoints": [
       { "bodyPart": "feet", "target": "hips", "role": "distance management" },
@@ -38,7 +38,7 @@
     ]
   },
   "systemLogic": {
-    "corePrinciple": "Win inside position = keep guard. Lose inside position = get passed.",
+    "corePrinciple": "Win inside position = keep Guard. Lose inside position = get passed.",
     "decisionTree": [
       { "condition": "Opponent grips your pants / sleeve", "action": "Strip grips immediately, re-establish frames" },
       { "condition": "Opponent bullies through with chest pressure", "action": "Shin frame or stand up — do not stay seated and let them collapse" },
@@ -46,7 +46,7 @@
     ],
     "exitStrategies": [
       "Stand up to technical stand-up position",
-      "Transition to supine guard if seated position is compromised",
+      "Transition to supine Guard if seated position is compromised",
       "Enter shin-to-shin to create sweep opportunity"
     ]
   },
@@ -56,7 +56,7 @@
     { "issue": "Sitting flat on both hips", "fix": "Stay on one hip, weight on one hand — dynamic base" }
   ],
   "moneyDetails": {
-    "oneLiner": "Inside position = guard. Lose it, get passed.",
+    "oneLiner": "Inside position = Guard. Lose it, get passed.",
     "mnemonic": "Inside first, frame second, pummel always"
   },
   "safetyNotes": "Avoid posting with straight arms — keep elbows bent. Protect your knees from lateral pressure.",

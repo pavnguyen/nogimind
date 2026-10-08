@@ -45,7 +45,7 @@
   "keyCorrections": [
     "Nếu họ xếp chồng bạn, bạn đã cam kết quá sớm hoặc sai góc độ - thả ra và đặt lại khung.",
     "Nếu họ rút tay ra, nghĩa là quấn chân của bạn quá lỏng - quấn chặt hơn hoặc bỏ vòng quấn.",
-    "Nếu bạn không thể hoàn thành, hãy quay lại lối thoát side control thông thường (thoát hông, underhook)."
+    "Nếu bạn không thể hoàn thành, hãy quay lại lối thoát Side Control thông thường (thoát hông, underhook)."
   ],
   "version": 1,
   "updatedAt": "2026-05-21T00:24:30.771Z",
@@ -59,13 +59,13 @@
     "hasStateMachine": false
   },
   "locale": "vi",
-  "description": "Đòn tấn công từ dưới lên side control trong đó bạn quấn chân quanh cổ và cánh tay của đối phương — một đòn tấn công có tỷ lệ phần trăm thấp hơn và không nên thay thế các khung cơ bản và thoát hông.",
-  "shortInstruction": "Quấn chân quanh cổ và cánh tay của họ, siết chặt - xe đẩy ngược là một cuộc tấn công tuyệt vọng từ phía dưới side control.",
-  "summary": "Cuộn cảm lỗi ngược là một biến thể của cuộn cảm lỗi từ phía dưới side control. Điểm khác biệt chính là vị trí đặt chân - ở xe buggy lùi, chân bạn quấn quanh cổ họ và một tay ở phía đối diện. Giống như đòn buggy choke tiêu chuẩn, đây là một cuộc tấn công bất ngờ hơn là một chiến lược chính. Nó hoạt động hiệu quả nhất khi chống lại những đối thủ gây áp lực mạnh bằng crossface, để cổ của họ lộ ra ở phía bên kia.",
+  "description": "Đòn tấn công từ dưới lên Side Control trong đó bạn quấn chân quanh cổ và cánh tay của đối phương — một đòn tấn công có tỷ lệ phần trăm thấp hơn và không nên thay thế các khung cơ bản và thoát hông.",
+  "shortInstruction": "Quấn chân quanh cổ và cánh tay của họ, siết chặt - xe đẩy ngược là một cuộc tấn công tuyệt vọng từ phía dưới Side Control.",
+  "summary": "Cuộn cảm lỗi ngược là một biến thể của cuộn cảm lỗi từ phía dưới Side Control. Điểm khác biệt chính là vị trí đặt chân - ở xe buggy lùi, chân bạn quấn quanh cổ họ và một tay ở phía đối diện. Giống như đòn buggy choke tiêu chuẩn, đây là một cuộc tấn công bất ngờ hơn là một chiến lược chính. Nó hoạt động hiệu quả nhất khi chống lại những đối thủ gây áp lực mạnh bằng crossface, để cổ của họ lộ ra ở phía bên kia.",
   "whyItWorks": [
-    "Yếu tố bất ngờ — đối thủ không mong đợi một cú bóp cổ từ phía dưới side control.",
+    "Yếu tố bất ngờ — đối thủ không mong đợi một cú bóp cổ từ phía dưới Side Control.",
     "Có thể bắt được những đối thủ nặng về phía crossface, để lộ cổ của họ.",
-    "Tạo ra tình thế tiến thoái lưỡng nan nhất thời — bảo vệ sự tắc nghẽn hoặc duy trì side control.",
+    "Tạo ra tình thế tiến thoái lưỡng nan nhất thời — bảo vệ sự tắc nghẽn hoặc duy trì Side Control.",
     "Hữu ích như một cuộc tấn công cuối cùng khi các lối thoát thông thường không thành công."
   ],
   "commonMistakes": [
@@ -86,7 +86,7 @@
     "Hãy chạm sớm nếu bạn cảm thấy nút thắt đang đè lên cổ mình."
   ],
   "systemLogic": {
-    "corePrinciple": "Dưới side control: đối thủ nặng về phía crossface → quấn chân quanh cổ và cánh tay của họ → bóp → bóp cổ.",
+    "corePrinciple": "Dưới Side Control: đối thủ nặng về phía crossface → quấn chân quanh cổ và cánh tay của họ → bóp → bóp cổ.",
     "decisionTree": [
       {
         "condition": "Ứng dụng chung",
@@ -105,7 +105,7 @@
     "Cảm giác nghẹt thở xuất phát từ việc ép hai đùi của bạn vào nhau - không phải do kéo bằng chân.",
     "Nếu họ đứng dậy, lực cản sẽ bị mất - ngay lập tức quay trở lại khung và thoát ra khỏi hông."
   ],
-  "nextStep": "Sau khi hiểu rõ về hiện tượng tắc nghẽn lỗi ngược, hãy tập trung vào các cách thoát side control chính: khung, thoát hông và phục hồi underhook.",
+  "nextStep": "Sau khi hiểu rõ về hiện tượng tắc nghẽn lỗi ngược, hãy tập trung vào các cách thoát Side Control chính: khung, thoát hông và phục hồi underhook.",
   "fixItFast": [
     "Họ xếp chồng bạn? Thả ra và đóng khung trên hông của họ.",
     "Chân trượt ra? Quấn chặt hơn quanh cánh tay của họ.",

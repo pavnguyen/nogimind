@@ -30,8 +30,8 @@
       "action": "Walk the angle to the side-control finish line",
       "nextPositionId": "side-control-top",
       "relatedSkillIds": [
-        "arm-triangle-mount",
-        "mount-control",
+        "arm-triangle-Mount",
+        "Mount-control",
         "side-control-pin"
       ],
       "why": "This is the natural branch when you win the main control point and the opponent is forced to defend."
@@ -44,8 +44,8 @@
     "You need a long hand post to avoid falling."
   ],
   "relatedSkillIds": [
-    "arm-triangle-mount",
-    "mount-control",
+    "arm-triangle-Mount",
+    "Mount-control",
     "side-control-pin"
   ],
   "relatedConceptIds": [

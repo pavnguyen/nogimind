@@ -6,7 +6,7 @@
   "shortInstruction": "Hook DLR/RDLR, opponent steps forward, invert over your far shoulder, pull their far hip through the roll, and land behind them with back control.",
   "summary": "The berimbolo back take uses an inversion to trade being underneath the opponent for being behind them. Triggered by the opponent stepping forward, you roll over your shoulder, pull their far hip, and land in back control.",
   "whyItWorks": [
-    "Inverting under them as they step forward reverses the inside/outside relationship — you go from inside their guard to outside their back",
+    "Inverting under them as they step forward reverses the inside/outside relationship — you go from inside their Guard to outside their back",
     "The far-hip hook prevents them from following you through the inversion",
     "Their forward step is the trigger — if they step forward, the berimbolo is available",
     "The inversion uses their forward momentum against them — no strength required"
@@ -30,11 +30,11 @@
   ],
   "keyCorrections": [
     "If they do not step forward: berimbolo is not available — stay in DLR/RDLR and sweep instead",
-    "If they step back to avoid the inversion: release the DLR hook and enter K-guard",
-    "If they follow you through the inversion: they are defending correctly — re-enter guard and try again"
+    "If they step back to avoid the inversion: release the DLR hook and enter K-Guard",
+    "If they follow you through the inversion: they are defending correctly — re-enter Guard and try again"
   ],
   "systemLogic": {
-    "corePrinciple": "Berimbolo back take: DLR or RDLR guard → opponent steps forward (trigger) → invert over your far shoulder → pull their far hip through the roll → land behind them → replace hook with back control.",
+    "corePrinciple": "Berimbolo back take: DLR or RDLR Guard → opponent steps forward (trigger) → invert over your far shoulder → pull their far hip through the roll → land behind them → replace hook with back control.",
     "decisionTree": [
       {
         "condition": "They do not step forward",
@@ -42,26 +42,26 @@
       },
       {
         "condition": "They step back to avoid the inversion",
-        "action": "release the DLR hook and enter K-guard"
+        "action": "release the DLR hook and enter K-Guard"
       },
       {
         "condition": "They follow you through the inversion",
-        "action": "they are defending correctly — re-enter guard and try again"
+        "action": "they are defending correctly — re-enter Guard and try again"
       }
     ],
     "exitStrategies": [
-      "If you cannot finish the back take, re-enter guard and reset",
-      "If they flatten you during the roll, protect your neck and recover guard"
+      "If you cannot finish the back take, re-enter Guard and reset",
+      "If they flatten you during the roll, protect your neck and recover Guard"
     ]
   },
   "moneyDetails": [
-    "The berimbolo revolutionized modern BJJ guard play by introducing inversion-based back takes",
-    "Mastering the berimbolo gives you a reliable back take entry from guard that does not require strength",
+    "The berimbolo revolutionized modern BJJ Guard play by introducing inversion-based back takes",
+    "Mastering the berimbolo gives you a reliable back take entry from Guard that does not require strength",
     "The berimbolo is particularly effective against opponents who pressure forward with their weight"
   ],
   "fixItFast": [
     "If they post a hand to block the back take: attack the posted arm with kimura or armbar",
-    "If they step back: release and switch to K-guard entry",
+    "If they step back: release and switch to K-Guard entry",
     "If you stall mid-roll: pull their hip harder — the hand pull is the engine of the inversion"
   ]
 }

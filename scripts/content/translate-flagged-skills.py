@@ -17,14 +17,14 @@ ROOT = Path(__file__).resolve().parents[2]
 REPORT_PATH = ROOT / "scripts" / "sync-i18-report.json"
 
 TECH_TERMS = [
-    "BJJ", "No-Gi", "no-gi", "crossface", "underhook", "overhook", "guard",
-    "half guard", "closed guard", "open guard", "side control", "mount",
+    "BJJ", "No-Gi", "no-gi", "crossface", "underhook", "overhook", "Guard",
+    "Half Guard", "Closed Guard", "open Guard", "Side Control", "Mount",
     "back control", "north-south", "knee shield", "knee-on-belly", "armbar",
-    "kimura", "triangle", "rear-naked choke", "RNC", "guillotine", "d'arce",
+    "kimura", "triangle", "rear-naked choke", "RNC", "Guillotine", "d'arce",
     "anaconda", "omoplata", "gogoplata", "heel hook", "ankle lock",
-    "single-leg X", "single leg X", "SLX", "X-guard", "De La Riva", "DLR",
-    "K-guard", "seatbelt", "shrimp", "wrestle up", "front headlock",
-    "snapdown", "sprawl", "mat return", "crucifix", "S-mount", "s-mount",
+    "single-leg X", "single leg X", "SLX", "X-Guard", "De La Riva", "DLR",
+    "K-Guard", "seatbelt", "shrimp", "wrestle up", "Front Headlock",
+    "snapdown", "sprawl", "mat return", "crucifix", "S-Mount", "s-Mount",
     "saddle", "inside sankaku", "ashi garami", "cross ashi", "outside ashi",
     "50/50", "Z-Lock", "leg lock", "leg locks", "submission", "submissions",
     "sweep", "sweeps", "pass", "back take", "posture", "collar tie",

@@ -1,13 +1,13 @@
 {
-  "id": "mount-bottom",
+  "id": "Mount-bottom",
   "locale": "en",
   "title": "Mount Bottom",
   "category": "pin",
   "status": "critical",
-  "description": "The bottom player is mounted and must protect the neck and arms while recovering the elbow-knee connection before high mount develops.",
+  "description": "The bottom player is mounted and must protect the neck and arms while recovering the elbow-knee connection before high Mount develops.",
   "topPlayerGoals": [
     "The top player wants to control Mount Bottom through head position, inside position, and directed pressure.",
-    "The top player wants to isolate the elbow and climb to high mount.",
+    "The top player wants to isolate the elbow and climb to high Mount.",
     "Keep a stable base so you are not off-balanced or countered."
   ],
   "bottomPlayerGoals": [
@@ -27,12 +27,12 @@
   ],
   "advancementOptions": [
     {
-      "action": "Recover half guard or quarter guard",
-      "nextPositionId": "half-guard-bottom",
+      "action": "Recover Half Guard or quarter Guard",
+      "nextPositionId": "half-Guard-bottom",
       "relatedSkillIds": [
-        "mount-survival",
-        "mount-escape",
-        "half-guard-knee-shield"
+        "Mount-survival",
+        "Mount-escape",
+        "half-Guard-knee-shield"
       ],
       "why": "This is the natural branch when you win the main control point and the opponent is forced to defend."
     }
@@ -44,9 +44,9 @@
     "You need a long hand post to avoid falling."
   ],
   "relatedSkillIds": [
-    "mount-survival",
-    "mount-escape",
-    "half-guard-knee-shield"
+    "Mount-survival",
+    "Mount-escape",
+    "half-Guard-knee-shield"
   ],
   "relatedConceptIds": [
     "early-vs-late-defense",

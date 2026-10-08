@@ -4,7 +4,7 @@
   "title": "Genou sur le ventre",
   "category": "top_control",
   "status": "advantage",
-  "description": "Le joueur du dessus pose un genou sur le ventre ou la hanche adverse, créant pression et transitions rapides vers pass, mount ou soumissions.",
+  "description": "Le joueur du dessus pose un genou sur le ventre ou la hanche adverse, créant pression et transitions rapides vers pass, Mount ou soumissions.",
   "topPlayerGoals": [
     "Le joueur du dessus veut contrôler Genou sur le ventre avec la position de tête, la position intérieure et une pression orientée.",
     "Garder le genou lourd et suivre la hip line pour ouvrir les soumissions.",
@@ -27,12 +27,12 @@
   ],
   "advancementOptions": [
     {
-      "action": "Avancer vers mount ou prise de dos",
-      "nextPositionId": "mount-top",
+      "action": "Avancer vers Mount ou prise de dos",
+      "nextPositionId": "Mount-top",
       "relatedSkillIds": [
         "knee-on-belly-control",
         "side-control-pin",
-        "mount-control"
+        "Mount-control"
       ],
       "why": "C’est la branche naturelle lorsque vous gagnez le point de contrôle principal et que l’adversaire est forcé de défendre."
     }
@@ -46,7 +46,7 @@
   "relatedSkillIds": [
     "knee-on-belly-control",
     "side-control-pin",
-    "mount-control",
+    "Mount-control",
     "kimura-system"
   ],
   "relatedConceptIds": [

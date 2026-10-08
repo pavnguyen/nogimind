@@ -24,7 +24,7 @@
   "modernSystemGroup": "octopus",
   "relatedSkills": [
     {
-      "id": "octopus-guard-sweep",
+      "id": "octopus-Guard-sweep",
       "type": "recommended"
     },
     {
@@ -44,7 +44,7 @@
   "archetypeIds": [],
   "relatedArchetypeIds": [],
   "prerequisiteSkillIds": [
-    "octopus-guard-control",
+    "octopus-Guard-control",
     "back-control"
   ],
   "trainingMethodIds": [],
@@ -67,12 +67,12 @@
     "hasStateMachine": false
   },
   "locale": "fr",
-  "description": "Utilisez l'angle de hanche de la pieuvre guard pour exposer le dos lorsque l'adversaire poste contre le balayage - en passant d'un balayage raté à back control.",
+  "description": "Utilisez l'angle de hanche de la pieuvre Guard pour exposer le dos lorsque l'adversaire poste contre le balayage - en passant d'un balayage raté à back control.",
   "shortInstruction": "Ils postent contre le balayage ? Tournez-vous et prenez le dos – leur défense devient votre entrée.",
-  "summary": "La prise en retour de la pieuvre est le pourcentage de suivi le plus élevé du balayage de la pieuvre guard. Lorsque vous tentez le balayage de la pieuvre (en tirant leur hanche la plus éloignée sur votre corps), de nombreux adversaires répondront en postant une main ou en avançant pour se défendre. Cette réaction crée l’angle exact dont vous avez besoin pour tourner sous son bras, tourner derrière lui et prendre le dos. La prise en arrière de la pieuvre transforme un balayage défendu en position la plus dominante dans BJJ.",
+  "summary": "La prise en retour de la pieuvre est le pourcentage de suivi le plus élevé du balayage de la pieuvre Guard. Lorsque vous tentez le balayage de la pieuvre (en tirant leur hanche la plus éloignée sur votre corps), de nombreux adversaires répondront en postant une main ou en avançant pour se défendre. Cette réaction crée l’angle exact dont vous avez besoin pour tourner sous son bras, tourner derrière lui et prendre le dos. La prise en arrière de la pieuvre transforme un balayage défendu en position la plus dominante dans BJJ.",
   "whyItWorks": [
     "Lorsqu'ils placent une main pour défendre le balayage, ce bras est engagé et ne peut pas bloquer votre entrée dans le spin.",
-    "La pieuvre guard vous place déjà dans l'angle parfait pour la prise arrière : vous êtes déjà assis à ses côtés.",
+    "La pieuvre Guard vous place déjà dans l'angle parfait pour la prise arrière : vous êtes déjà assis à ses côtés.",
     "L'enveloppement de la hanche la plus éloignée vous donne le point de pivotement pour la rotation : vous tournez autour de leur centre de gravité.",
     "Principe de Danaher : le balayage et le retour prennent la forme d'un dilemme : défendre le balayage, perdre le dos ; défendre l'arrière, perdre le balayage."
   ],
@@ -94,7 +94,7 @@
     "Lorsque vous atterrissez sur le dos, protégez vos propres genoux contre un atterrissage maladroit."
   ],
   "systemLogic": {
-    "corePrinciple": "Poulpe guard : tentative de balayage → poteaux adverses → rotation sous le bras → prendre le dos → seatbelt → crochets → attaque.",
+    "corePrinciple": "Poulpe Guard : tentative de balayage → poteaux adverses → rotation sous le bras → prendre le dos → seatbelt → crochets → attaque.",
     "decisionTree": [
       {
         "condition": "La reprise de poulpe fonctionne en un seul mouvement : poteau de balayage",

@@ -7,7 +7,7 @@
   "aliases": [],
   "tags": [
     "deep-half",
-    "half-guard",
+    "half-Guard",
     "sweep",
     "underhook"
   ],
@@ -17,7 +17,7 @@
     "Homers sweep",
     "back door",
     "underhook",
-    "coyote half guard"
+    "coyote Half Guard"
   ],
   "relatedSkills": [
     {
@@ -29,7 +29,7 @@
       "type": "recommended"
     },
     {
-      "id": "half-guard-wrestle-up",
+      "id": "half-Guard-wrestle-up",
       "type": "recommended"
     }
   ],
@@ -41,8 +41,8 @@
   "archetypeIds": [],
   "relatedArchetypeIds": [],
   "prerequisiteSkillIds": [
-    "half-guard-knee-shield",
-    "supine-guard-retention"
+    "half-Guard-knee-shield",
+    "supine-Guard-retention"
   ],
   "trainingMethodIds": [],
   "nextSkillIds": [],
@@ -50,7 +50,7 @@
   "keyCorrections": [
     "If they flatten you, you lost the underhook — pummel back to the underhook before trying to sweep.",
     "If you can't sweep them, their weight is too far back — wait for them to commit forward again.",
-    "If they back out of deep half, follow them with your hips and transition to single-leg X or X-guard."
+    "If they back out of deep half, follow them with your hips and transition to single-leg X or X-Guard."
   ],
   "version": 1,
   "updatedAt": "2026-05-21T00:24:30.763Z",
@@ -66,7 +66,7 @@
   "locale": "en",
   "description": "Get your hips under the opponent's center of mass, control the near leg, and create sweeps (waiter, back take, or sweep to top) when the passer overcommits forward.",
   "shortInstruction": "Hips under hips, head on the far side, control the near leg — deep half is the ultimate bottom position for sweeping.",
-  "summary": "Deep half guard is one of the most powerful sweeping positions in no-gi. By sliding your hips under the opponent's hips and controlling their near leg, you make it nearly impossible for them to apply pressure without giving up their balance. The key difference from regular half guard is that your head goes to the far side (past their hip), giving you access to back takes and sweeps that regular half guard cannot offer.",
+  "summary": "Deep Half Guard is one of the most powerful sweeping positions in no-gi. By sliding your hips under the opponent's hips and controlling their near leg, you make it nearly impossible for them to apply pressure without giving up their balance. The key difference from regular Half Guard is that your head goes to the far side (past their hip), giving you access to back takes and sweeps that regular Half Guard cannot offer.",
   "whyItWorks": [
     "Your hips under their hips means they cannot put weight on you without falling over your frame.",
     "Controlling their near leg (by wrapping it or holding the ankle) removes their ability to base on that side.",
@@ -88,10 +88,10 @@
   "safetySummary": [
     "Keep your neck protected — head to the far side means your neck is exposed to guillotines if they posture up.",
     "Do not let them flatten your back — stay on your side to protect your spine.",
-    "If they stack you hard, bail out to a safer position (half guard or turtle) rather than fighting the stack."
+    "If they stack you hard, bail out to a safer position (Half Guard or turtle) rather than fighting the stack."
   ],
   "systemLogic": {
-    "corePrinciple": "Half guard → win the underhook → slide head to far side → control near leg → hips under hips → sweep or take the back.",
+    "corePrinciple": "Half Guard → win the underhook → slide head to far side → control near leg → hips under hips → sweep or take the back.",
     "decisionTree": [
       {
         "condition": "Option 1: They resist forward",
@@ -105,12 +105,12 @@
     "exitStrategies": []
   },
   "moneyDetails": [
-    "Your head MUST go to the far side — if your head stays on the near side, you're playing regular half guard, not deep half.",
+    "Your head MUST go to the far side — if your head stays on the near side, you're playing regular Half Guard, not deep half.",
     "Control their near ankle with your far hand — this prevents them from stepping out and basing.",
     "Drive your shoulder into their hip to create the space for your sweep — the hip drive creates momentum.",
     "When they post a hand to prevent the sweep, that arm is vulnerable to a kimura or back take entry."
   ],
-  "nextStep": "After deep half sweeps, learn the waiter sweep and back take from deep half to complete your bottom half guard system.",
+  "nextStep": "After deep half sweeps, learn the waiter sweep and back take from deep half to complete your bottom Half Guard system.",
   "fixItFast": [
     "You're getting flattened? Pummel your underhook and get to your side immediately.",
     "Can't sweep? Your hips aren't deep enough — scoot your hips further under theirs.",

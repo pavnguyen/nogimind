@@ -26,7 +26,7 @@
   "modernSystemGroup": "leg_lock",
   "relatedSkills": [
     {
-      "id": "k-guard-to-outside-ashi",
+      "id": "k-Guard-to-outside-ashi",
       "type": "chain"
     },
     {
@@ -110,7 +110,7 @@
       }
     ],
     "exitStrategies": [
-      "Nếu mất heel exposure, phục hồi guard và reset",
+      "Nếu mất heel exposure, phục hồi Guard và reset",
       "Nếu họ thoát entanglement, không đuổi theo — bảo vệ chân bạn và phục hồi"
     ]
   },
@@ -122,6 +122,6 @@
   "fixItFast": [
     "Nếu gót biến mất: kéo đầu gối họ vào ngực và tìm lại gót",
     "Nếu họ xoay cùng chiều: thả và chuyển sang straight ankle lock",
-    "Nếu bạn mất boot grip: bảo vệ chân bạn và phục hồi guard"
+    "Nếu bạn mất boot grip: bảo vệ chân bạn và phục hồi Guard"
   ]
 }

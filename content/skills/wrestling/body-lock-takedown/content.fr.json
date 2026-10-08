@@ -3,13 +3,13 @@
   "locale": "fr",
   "name": "Démontage du verrou corporel / mat returns",
   "description": "Verrouillez les bras autour du torse depuis le corps à corps ou la tortue, traversez les hanches et ramenez l'adversaire sur le tapis. Le verrouillage corporel est le retrait le plus contrôlé en grappling – il empêche l’adversaire de s’échapper et vous place dans une position dominante.",
-  "shortInstruction": "Verrouillez les mains derrière leur dos au niveau des hanches, placez-vous entre leurs jambes, serrez vos coudes l'un contre l'autre et poussez-les vers le tapis. Atterrissez à side control ou mount.",
-  "summary": "Le body lock est la position de retrait la plus dominante dans No-Gi car elle élimine la capacité de l'adversaire à poster ou à baser - les deux bras sont coincés entre votre corps et le sien. Depuis le verrouillage du corps, vous pouvez soulever, trébucher ou conduire l'adversaire vers le tapis tout en conservant un contrôle total du haut du corps. Le body lock est également le principal outil mat return lorsque l'adversaire se tient devant la tortue ou half guard.",
+  "shortInstruction": "Verrouillez les mains derrière leur dos au niveau des hanches, placez-vous entre leurs jambes, serrez vos coudes l'un contre l'autre et poussez-les vers le tapis. Atterrissez à Side Control ou Mount.",
+  "summary": "Le body lock est la position de retrait la plus dominante dans No-Gi car elle élimine la capacité de l'adversaire à poster ou à baser - les deux bras sont coincés entre votre corps et le sien. Depuis le verrouillage du corps, vous pouvez soulever, trébucher ou conduire l'adversaire vers le tapis tout en conservant un contrôle total du haut du corps. Le body lock est également le principal outil mat return lorsque l'adversaire se tient devant la tortue ou Half Guard.",
   "whyItWorks": [
     "Verrouiller vos mains derrière le dos piège leurs deux bras – ils ne peuvent pas poster, encadrer ou baser pour amortir la chute.",
     "Le système de verrouillage corporel transfère tout le poids de votre corps lors du retrait : vous conduisez avec vos jambes et vos hanches, pas avec vos bras.",
-    "La finition du body lock vous place dans une position dominante (side control ou mount) – pas dans leur guard",
-    "Le body lock est protégé contre les guillotine : votre tête est sur leur poitrine, pas sur leur hanche."
+    "La finition du body lock vous place dans une position dominante (Side Control ou Mount) – pas dans leur Guard",
+    "Le body lock est protégé contre les Guillotine : votre tête est sur leur poitrine, pas sur leur hanche."
   ],
   "commonMistakes": [
     "Verrouillage des mains trop haut (au niveau des omoplates) — le verrouillage doit être au niveau des hanches pour un avantage mécanique",
@@ -31,7 +31,7 @@
   "keyCorrections": [
     "S'ils continuent à échapper au verrou : vos coudes sont trop larges – pincez-les ensemble pour coincer les bras.",
     "Si vous ne pouvez pas soulever : utilisez plutôt un voyage : accrochez leur jambe de tête avec votre pied et faites-les reculer.",
-    "Si vous atterrissez dans leur guard : votre tête était trop haute – gardez votre tête sur leur poitrine, pas sur leur ventre."
+    "Si vous atterrissez dans leur Guard : votre tête était trop haute – gardez votre tête sur leur poitrine, pas sur leur ventre."
   ],
   "systemLogic": {
     "corePrinciple": "Le body lock a trois options de finition : Lift → Trip → Drive, en fonction du poids et de la base de l'adversaire.",
@@ -50,13 +50,13 @@
       },
       {
         "condition": "Application générale",
-        "action": "Position d'atterrissage : essayez d'atterrir en side control (poitrine contre poitrine, tête de l'autre côté). S'ils atterrissent sur le dos, glissez immédiatement vers side control."
+        "action": "Position d'atterrissage : essayez d'atterrir en Side Control (poitrine contre poitrine, tête de l'autre côté). S'ils atterrissent sur le dos, glissez immédiatement vers Side Control."
       }
     ]
   },
   "moneyDetails": [
-    "Le retrait du verrou corporel est le retrait le plus dominant de No-Gi : il vous amène à side control, pas à leur guard.",
-    "Maîtriser le verrouillage du corps vous donne un mat return fiable depuis la tortue, half guard et les positions debout",
+    "Le retrait du verrou corporel est le retrait le plus dominant de No-Gi : il vous amène à Side Control, pas à leur Guard.",
+    "Maîtriser le verrouillage du corps vous donne un mat return fiable depuis la tortue, Half Guard et les positions debout",
     "Le body lock est un élément essentiel de tous les grapplings No-Gi de haut niveau (Gordon Ryan, Nicky Rod, etc.)"
   ],
   "fixItFast": [

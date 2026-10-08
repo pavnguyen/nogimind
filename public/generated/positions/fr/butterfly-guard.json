@@ -1,5 +1,5 @@
 {
-  "id": "butterfly-guard",
+  "id": "butterfly-Guard",
   "locale": "fr",
   "title": "Garde papillon",
   "category": "bottom_guard",
@@ -28,10 +28,10 @@
   "advancementOptions": [
     {
       "action": "Revenir en garde assise ou créer un déséquilibre",
-      "nextPositionId": "seated-guard",
+      "nextPositionId": "seated-Guard",
       "relatedSkillIds": [
-        "butterfly-guard-off-balance",
-        "seated-guard-retention",
+        "butterfly-Guard-off-balance",
+        "seated-Guard-retention",
         "bodylock-passing"
       ],
       "why": "C’est la branche naturelle lorsque vous gagnez le point de contrôle principal et que l’adversaire est forcé de défendre."
@@ -44,8 +44,8 @@
     "Vous devez poser une main loin pour éviter de tomber."
   ],
   "relatedSkillIds": [
-    "butterfly-guard-off-balance",
-    "seated-guard-retention",
+    "butterfly-Guard-off-balance",
+    "seated-Guard-retention",
     "bodylock-passing"
   ],
   "relatedConceptIds": [

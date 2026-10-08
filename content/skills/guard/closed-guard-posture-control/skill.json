@@ -1,23 +1,23 @@
 {
-  "id": "closed-guard-posture-control",
+  "id": "closed-Guard-posture-control",
   "domain": "guard_offense",
   "level": "beginner",
   "name": "Closed Guard Posture Control",
   "aliases": [],
   "tags": [
-    "closed-guard",
+    "closed-Guard",
     "posture",
     "control"
   ],
   "keywords": [
-    "closed guard",
+    "Closed Guard",
     "posture control",
     "elbow line",
     "hip control"
   ],
   "relatedSkills": [
     {
-      "id": "closed-guard-sweeps",
+      "id": "closed-Guard-sweeps",
       "type": "recommended"
     },
     {
@@ -34,7 +34,7 @@
     }
   ],
   "prerequisiteSkillIds": [
-    "supine-guard-retention"
+    "supine-Guard-retention"
   ],
   "relatedPositions": [],
   "relatedConcepts": [],

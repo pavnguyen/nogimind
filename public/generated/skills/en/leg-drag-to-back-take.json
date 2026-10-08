@@ -42,7 +42,7 @@
   "nextSkillIds": [],
   "searchBoost": 1,
   "keyCorrections": [
-    "If they do not post the far arm: continue the leg drag to side control or mount",
+    "If they do not post the far arm: continue the leg drag to Side Control or Mount",
     "If they post and you swim through: back control established",
     "If they turn away during the drag: release the leg and take the back directly"
   ],
@@ -60,7 +60,7 @@
   "locale": "en",
   "description": "The leg drag to back take uses the leg drag to expose their back. When they post the far arm to defend the leg drag, you release the leg, swim under their arm, and spin behind.",
   "shortInstruction": "Control their near leg, drag it across your body, opponent posts far arm (trigger), release the leg, swim under their arm, and spin behind.",
-  "summary": "The leg drag to back take is a continuous movement from guard passing to back control. The leg drag forces the opponent to post with their far arm — and that post becomes the entry for the back take.",
+  "summary": "The leg drag to back take is a continuous movement from Guard passing to back control. The leg drag forces the opponent to post with their far arm — and that post becomes the entry for the back take.",
   "whyItWorks": [
     "The leg drag already has them on one side — they are already partially exposed for the back take",
     "Their defensive response (posting the far arm) creates the back take opening",
@@ -89,7 +89,7 @@
     "decisionTree": [
       {
         "condition": "They do not post the far arm",
-        "action": "continue the leg drag to side control or mount"
+        "action": "continue the leg drag to Side Control or Mount"
       },
       {
         "condition": "They post and you swim through",
@@ -101,17 +101,17 @@
       }
     ],
     "exitStrategies": [
-      "If the back take fails, you should still have side control",
+      "If the back take fails, you should still have Side Control",
       "If they turn into you, switch to the pass"
     ]
   },
   "moneyDetails": [
     "The leg drag to back take is a high-value chain that connects passing to back control seamlessly",
-    "Mastering this transition gives you a direct path from guard passing to 4-point back control",
+    "Mastering this transition gives you a direct path from Guard passing to 4-point back control",
     "The leg drag to back take is particularly effective against opponents who base wide to defend the pass"
   ],
   "fixItFast": [
-    "If they do not post: continue the drag to side control — the back take is not available",
+    "If they do not post: continue the drag to Side Control — the back take is not available",
     "If you swim over instead of under: reset and swim under the arm",
     "If they turn into you during the drag: switch to the pass — the back take is no longer available"
   ]

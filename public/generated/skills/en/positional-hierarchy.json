@@ -50,7 +50,7 @@
   },
   "locale": "en",
   "description": "A priority map for knowing when to survive, escape, sweep, pass, pin, or finish. The positional hierarchy is the decision-making framework that separates chaotic grappling from systematic BJJ.",
-  "shortInstruction": "Ranking from worst to best: back taken → mounted → side control → knee on belly → guard bottom → half guard top → side control top → mount → back taken (you on top). Always know where you are on the hierarchy and what your objective is.",
+  "shortInstruction": "Ranking from worst to best: back taken → mounted → Side Control → knee on belly → Guard bottom → Half Guard top → Side Control top → Mount → back taken (you on top). Always know where you are on the hierarchy and what your objective is.",
   "summary": "The positional hierarchy ranks grappling positions from most vulnerable to most dominant. The system dictates your tactical objective at every position: if you are in a bottom position (worse), your goal is to escape. If you are in a top position (better), your goal is to advance or submit. Every decision you make should be filtered through this hierarchy — do not attempt a submission from a position where you do not have positional dominance first.",
   "whyItWorks": [
     "The hierarchy gives you a clear objective at every moment — there is no confusion about what to do next",
@@ -59,9 +59,9 @@
     "The hierarchy is universal across all grappling sports (BJJ, wrestling, judo, MMA) — it is the shared language of positional control"
   ],
   "commonMistakes": [
-    "Attempting submissions from guard bottom when you should be sweeping or escaping first",
-    "Trying to pass guard when you are in half guard bottom — your objective at half guard bottom is to escape to neutral or guard, not to pass",
-    "Accepting a worse position because you are trying a low-percentage submission (e.g., giving up mount to try a kimura from bottom)",
+    "Attempting submissions from Guard bottom when you should be sweeping or escaping first",
+    "Trying to pass Guard when you are in Half Guard bottom — your objective at Half Guard bottom is to escape to neutral or Guard, not to pass",
+    "Accepting a worse position because you are trying a low-percentage submission (e.g., giving up Mount to try a kimura from bottom)",
     "Not recognizing when the hierarchy shifts — a transition that moves you up one level is more valuable than a submission attempt that will likely fail"
   ],
   "coachingCues": [
@@ -72,22 +72,22 @@
   ],
   "safetySummary": [
     "Do not sacrifice position for a low-percentage submission — positional reversals can cause injury when both grapplers are scrambling for control",
-    "Accepting a worse position (e.g., giving up side control) to attempt a submission is higher risk for injury than it is worth in training",
+    "Accepting a worse position (e.g., giving up Side Control) to attempt a submission is higher risk for injury than it is worth in training",
     "When you are in a clearly inferior position, prioritize breathing and survival before attempting the escape — panic movements increase injury risk"
   ],
   "systemLogic": {
     "corePrinciple": "The positional hierarchy ranks grappling positions from most vulnerable (back taken) to most dominant (submission). Your tactical objective at every position is determined by your place on the hierarchy: below opponent = escape up, above opponent = advance forward.",
     "decisionTree": [
       {
-        "condition": "You are in bottom side control, mount, or back taken",
-        "action": "Your objective is to ESCAPE up the hierarchy. Do not attempt submissions from these positions — focus on regaining guard or reversing position."
+        "condition": "You are in bottom Side Control, Mount, or back taken",
+        "action": "Your objective is to ESCAPE up the hierarchy. Do not attempt submissions from these positions — focus on regaining Guard or reversing position."
       },
       {
-        "condition": "You are in bottom guard or half guard",
+        "condition": "You are in bottom Guard or Half Guard",
         "action": "Your primary objective is to sweep or escape to a neutral/top position. Submissions are lower percentage from here — prioritize positional advancement first."
       },
       {
-        "condition": "You have top position (side control, mount, back)",
+        "condition": "You have top position (Side Control, Mount, back)",
         "action": "Your objective is to ADVANCE to a more dominant position or submit. Stabilize the position before attacking — do not rush the submission attempt."
       },
       {
@@ -101,7 +101,7 @@
     ],
     "exitStrategies": [
       "Advancing one level (e.g., Side Control Bottom → Half Guard Bottom) is a tactical win even without scoring points — multiple small advances compound into scoring positions.",
-      "If the opponent operates outside the traditional hierarchy (leg lock specialist, guard puller), recognize they are playing a different game and adjust your strategy accordingly.",
+      "If the opponent operates outside the traditional hierarchy (leg lock specialist, Guard puller), recognize they are playing a different game and adjust your strategy accordingly.",
       "After advancing a level, spend 2-3 seconds stabilizing before moving to the next level to prevent reversals."
     ]
   },
@@ -112,8 +112,8 @@
     "The hierarchy is why Gracie jiu-jitsu emphasizes positional dominance before submissions — it has been tested for a century"
   ],
   "fixItFast": [
-    "If you are in a bad position and not sure what to do: check the hierarchy. You are in bottom side control — your goal is side control escape, not a submission",
-    "If you have top position and cannot submit: advance up the hierarchy. Side control → mount → back mount creates exponentially higher submission probability",
+    "If you are in a bad position and not sure what to do: check the hierarchy. You are in bottom Side Control — your goal is Side Control escape, not a submission",
+    "If you have top position and cannot submit: advance up the hierarchy. Side Control → Mount → back Mount creates exponentially higher submission probability",
     "If you keep getting reversed: you are skipping the 'secure position' step. After advancing a level, spend 2-3 seconds stabilizing before moving to the next level"
   ]
 }

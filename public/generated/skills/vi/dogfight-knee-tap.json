@@ -24,7 +24,7 @@
   "modernSystemGroup": "wrestle_up",
   "relatedSkills": [
     {
-      "id": "octopus-guard-control",
+      "id": "octopus-Guard-control",
       "type": "recommended"
     },
     {
@@ -44,7 +44,7 @@
   "archetypeIds": [],
   "relatedArchetypeIds": [],
   "prerequisiteSkillIds": [
-    "half-guard-wrestle-up",
+    "half-Guard-wrestle-up",
     "single-leg-bjj"
   ],
   "trainingMethodIds": [],
@@ -67,14 +67,14 @@
     "hasStateMachine": false
   },
   "locale": "vi",
-  "description": "Trong trận không chiến, cú chạm đầu gối sử dụng underhook và vị trí đầu để hạ gục đối thủ. Không chiến là tư thế đấu vật phổ biến nhất từ ​​half guard dưới lên.",
+  "description": "Trong trận không chiến, cú chạm đầu gối sử dụng underhook và vị trí đầu để hạ gục đối thủ. Không chiến là tư thế đấu vật phổ biến nhất từ ​​Half Guard dưới lên.",
   "shortInstruction": "Từ trận không chiến, vòng đầu gối bên ngoài của bạn qua lưng họ, sử dụng underhook để kéo họ về phía trước và dùng tay còn lại chạm vào đầu gối phía xa của họ để hạ gục họ.",
-  "summary": "Cú chạm đầu gối khi không chiến là đòn quét có tỷ lệ quét cao nhất từ ​​vị trí không chiến (underhook half guard). Từ trận không chiến, bạn sử dụng underhook của mình để kéo đối thủ về phía trước trong khi dùng tay còn lại chạm vào đầu gối phía xa của họ. Động lượng về phía trước của họ kết hợp với cú chạm đầu gối sẽ loại bỏ phần đế của họ và đưa họ xuống thảm. Nhấn đầu gối chuyển trực tiếp sang side control hoặc front headlock.",
+  "summary": "Cú chạm đầu gối khi không chiến là đòn quét có tỷ lệ quét cao nhất từ ​​vị trí không chiến (underhook Half Guard). Từ trận không chiến, bạn sử dụng underhook của mình để kéo đối thủ về phía trước trong khi dùng tay còn lại chạm vào đầu gối phía xa của họ. Động lượng về phía trước của họ kết hợp với cú chạm đầu gối sẽ loại bỏ phần đế của họ và đưa họ xuống thảm. Nhấn đầu gối chuyển trực tiếp sang Side Control hoặc Front Headlock.",
   "whyItWorks": [
     "underhook trong trận không chiến cho phép bạn kiểm soát phần thân trên của chúng — bạn có thể kéo chúng về phía trước, khiến chúng mất thăng bằng",
     "Chạm vào đầu gối phía xa sẽ làm mất điểm tựa phía sau của họ - họ không thể lùi lại để lấy lại thăng bằng",
     "Sự kết hợp giữa kéo về phía trước (underhook) và tháo chân đế phía sau (chạm đầu gối) tạo ra vấn đề cân bằng không thể giải quyết được",
-    "Việc chạm đầu gối sẽ an toàn trong guillotine giây vì đầu của bạn hướng ra ngoài (má áp vào vai họ)"
+    "Việc chạm đầu gối sẽ an toàn trong Guillotine giây vì đầu của bạn hướng ra ngoài (má áp vào vai họ)"
   ],
   "commonMistakes": [
     "Không kéo chúng đủ về phía trước trước khi chạm vào đầu gối - chỉ chạm vào đầu gối không gây ra đòn hạ gục",
@@ -94,7 +94,7 @@
     "Nếu đối phương chống lại cú chạm đầu gối bằng cách lùi lại, thay vào đó hãy sẵn sàng vòng sang một chân"
   ],
   "systemLogic": {
-    "corePrinciple": "Đòn chạm đầu gối khi không chiến là một phần của hệ thống không chiến lớn hơn: Chạm đầu gối → Một chân → Re-guard",
+    "corePrinciple": "Đòn chạm đầu gối khi không chiến là một phần của hệ thống không chiến lớn hơn: Chạm đầu gối → Một chân → Re-Guard",
     "decisionTree": [
       {
         "condition": "Sử dụng Tùy chọn 1 (Chạm vào đầu gối)",
@@ -116,9 +116,9 @@
     "exitStrategies": []
   },
   "moneyDetails": [
-    "Cú chạm đầu gối trong trận không chiến là đòn quét phổ biến nhất từ ​​half guard đáy trong No-Gi — nó hoạt động ở mọi cấp độ",
-    "Việc thành thạo động tác chạm đầu gối trong không chiến mang lại cho bạn con đường đáng tin cậy từ half guard đến vị trí hàng đầu",
-    "Chạm đầu gối vào side control ghi được 2 điểm (quét) trong IBJJF"
+    "Cú chạm đầu gối trong trận không chiến là đòn quét phổ biến nhất từ ​​Half Guard đáy trong No-Gi — nó hoạt động ở mọi cấp độ",
+    "Việc thành thạo động tác chạm đầu gối trong không chiến mang lại cho bạn con đường đáng tin cậy từ Half Guard đến vị trí hàng đầu",
+    "Chạm đầu gối vào Side Control ghi được 2 điểm (quét) trong IBJJF"
   ],
   "fixItFast": [
     "Nếu chúng không rơi: kéo mạnh hơn và gõ nhẹ vào đầu gối phía xa một lần nữa",

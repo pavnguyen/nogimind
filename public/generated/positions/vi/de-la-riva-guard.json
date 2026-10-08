@@ -1,5 +1,5 @@
 {
-  "id": "de-la-riva-guard",
+  "id": "de-la-riva-Guard",
   "locale": "vi",
   "title": "De La Riva Guard",
   "category": "bottom_guard",
@@ -27,12 +27,12 @@
   ],
   "advancementOptions": [
     {
-      "action": "Chuyển X-guard hoặc single leg X",
-      "nextPositionId": "x-guard-position",
+      "action": "Chuyển X-Guard hoặc single leg X",
+      "nextPositionId": "x-Guard-position",
       "relatedSkillIds": [
         "de-la-riva-sweeps",
         "de-la-riva-back-take",
-        "x-guard-control"
+        "x-Guard-control"
       ],
       "why": "Đây là nhánh tự nhiên khi bạn thắng điểm kiểm soát chính và đối thủ buộc phải phòng thủ."
     }
@@ -46,13 +46,13 @@
   "relatedSkillIds": [
     "de-la-riva-sweeps",
     "de-la-riva-back-take",
-    "x-guard-control",
+    "x-Guard-control",
     "single-leg-x-control",
-    "guard-pulling-strategy"
+    "Guard-pulling-strategy"
   ],
   "relatedConceptIds": [
     "hooks",
-    "guard-retention-layers",
+    "Guard-retention-layers",
     "angle-creation"
   ]
 }

@@ -4,7 +4,7 @@
   "title": "Body Lock Passing Position",
   "category": "top_control",
   "status": "advantage",
-  "description": "The top player locks low around the guard player’s hips with chest-to-hip connection to clear the knee line.",
+  "description": "The top player locks low around the Guard player’s hips with chest-to-hip connection to clear the knee line.",
   "topPlayerGoals": [
     "The top player wants to control Body Lock Passing Position through head position, inside position, and directed pressure.",
     "Lock the hips, kill the hook, and clear the knee line layer by layer.",
@@ -27,12 +27,12 @@
   ],
   "advancementOptions": [
     {
-      "action": "Clear the knee line and stabilize side control",
+      "action": "Clear the knee line and stabilize Side Control",
       "nextPositionId": "side-control-top",
       "relatedSkillIds": [
         "bodylock-passing",
-        "seated-guard-retention",
-        "half-guard-wrestle-up"
+        "seated-Guard-retention",
+        "half-Guard-wrestle-up"
       ],
       "why": "This is the natural branch when you win the main control point and the opponent is forced to defend."
     }
@@ -45,8 +45,8 @@
   ],
   "relatedSkillIds": [
     "bodylock-passing",
-    "seated-guard-retention",
-    "half-guard-wrestle-up"
+    "seated-Guard-retention",
+    "half-Guard-wrestle-up"
   ],
   "relatedConceptIds": [
     "connection-before-control",

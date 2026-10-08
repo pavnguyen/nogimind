@@ -15,7 +15,7 @@
     "En supposant que chaque attaque main sur le cou est un étranglement – ​​beaucoup sont des manivelles déguisées",
     "Essayer de « endurcir » une manivelle en pensant qu'elle « viendra » comme un étranglement ; les manivelles ne se résolvent pas, elles ne font qu'empirer",
     "Ne pas taper assez tôt sur les manivelles pendant l'entraînement - les dégâts s'accumulent au fil des mois et des années",
-    "Confondre un ouvre-boîte (manivelle) avec un starter à collier (coffre-fort) — les deux peuvent être appliqués à partir de guard mais ont des mécanismes complètement différents"
+    "Confondre un ouvre-boîte (manivelle) avec un starter à collier (coffre-fort) — les deux peuvent être appliqués à partir de Guard mais ont des mécanismes complètement différents"
   ],
   "coachingCues": [
     "Pression du menton = manivelle, appuyez maintenant",
@@ -25,9 +25,9 @@
   ],
   "safetySummary": [
     "Les manivelles du cou peuvent provoquer une hernie discale, des entorses ligamentaires, un conflit nerveux et des douleurs chroniques au cou.",
-    "L'ouvre-boîte (en poussant l'arrière de la tête vers la poitrine à partir de guard) est la manivelle dangereuse la plus courante dans BJJ.",
+    "L'ouvre-boîte (en poussant l'arrière de la tête vers la poitrine à partir de Guard) est la manivelle dangereuse la plus courante dans BJJ.",
     "Le twister (verrouillage de la colonne vertébrale de back control) fait tourner de manière agressive la colonne cervicale et peut provoquer des blessures graves s'il est appliqué soudainement.",
-    "Certaines variations guillotine et d'arce peuvent devenir des manivelles si l'angle est désactivé. Si vous ressentez une pression au niveau du menton, appuyez et réinitialisez.",
+    "Certaines variations Guillotine et d'arce peuvent devenir des manivelles si l'angle est désactivé. Si vous ressentez une pression au niveau du menton, appuyez et réinitialisez.",
     "Même les manivelles légères provoquent des dommages cumulatifs – n'acceptez pas 10 manivelles « légères » par semaine comme entraînement normal."
   ],
   "keyCorrections": [
@@ -40,14 +40,14 @@
     "decisionTree": [
       {
         "condition": "Application générale",
-        "action": "Étranglement sanguin (étranglement) : une pression est appliquée sur les artères carotides des deux côtés du cou. Provoquer une perte de conscience en empêchant le sang oxygéné d’atteindre le cerveau. Structure : col croisé, arrière nu, triangle, guillotine (lorsqu'il est correctement appliqué), batte de baseball. S'entraîner en toute sécurité avec une application contrôlée"
+        "action": "Étranglement sanguin (étranglement) : une pression est appliquée sur les artères carotides des deux côtés du cou. Provoquer une perte de conscience en empêchant le sang oxygéné d’atteindre le cerveau. Structure : col croisé, arrière nu, triangle, Guillotine (lorsqu'il est correctement appliqué), batte de baseball. S'entraîner en toute sécurité avec une application contrôlée"
       },
       {
         "condition": "Application générale",
         "action": "Starter à air : une pression est appliquée à la trachée/trachée. Provoque des difficultés respiratoires mais ne coupe pas la circulation sanguine. Structure : starter avant, quelques variations de col croisé, quelques variations de batte de baseball. Risque de blessure plus élevé que l'étranglement sanguin"
       },
       {
-        "condition": "Manivelle cervicale : une pression est appliquée sur la colonne cervicale via le menton, l'arrière de la tête ou la base du crâne. Structure : ouvre-boîte, twister, quelques variantes guillotine (une fois roulé), quelques variantes d'arce, quelques variantes triangle. PAS sûr de s’entraîner de manière agressive",
+        "condition": "Manivelle cervicale : une pression est appliquée sur la colonne cervicale via le menton, l'arrière de la tête ou la base du crâne. Structure : ouvre-boîte, twister, quelques variantes Guillotine (une fois roulé), quelques variantes d'arce, quelques variantes triangle. PAS sûr de s’entraîner de manière agressive",
         "action": "dommages cumulés"
       },
       {

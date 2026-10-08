@@ -6,8 +6,8 @@
   "name": "Triangle Monté / Armbar depuis la Monture",
   "aliases": [
     "mounted triangle",
-    "S-mount triangle",
-    "triangle from mount"
+    "S-Mount triangle",
+    "triangle from Mount"
   ],
   "tags": [
     "tier:modern-expansion",
@@ -18,14 +18,14 @@
   ],
   "keywords": [
     "mounted triangle",
-    "S-mount",
-    "triangle from mount",
-    "armbar from mount"
+    "S-Mount",
+    "triangle from Mount",
+    "armbar from Mount"
   ],
   "modernSystemGroup": "s_mount",
   "relatedSkills": [
     {
-      "id": "guard-retention",
+      "id": "Guard-retention",
       "type": "supporting"
     }
   ],
@@ -39,13 +39,13 @@
   ],
   "relatedArchetypeIds": [],
   "prerequisiteSkillIds": [
-    "mount-control"
+    "Mount-control"
   ],
   "trainingMethodIds": [],
   "nextSkillIds": [],
   "searchBoost": 1,
   "keyCorrections": [
-    "S'ils essaient de stacker : impossible depuis le mount — finissez le triangle",
+    "S'ils essaient de stacker : impossible depuis le Mount — finissez le triangle",
     "S'ils se redressent : passez votre bras sous leur bras qui défend et faites un armbar",
     "S'ils tournent sur le côté : relâchez le triangle et prenez le dos"
   ],
@@ -61,23 +61,23 @@
     "hasStateMachine": false
   },
   "locale": "fr",
-  "description": "Le triangle monté utilise votre position supérieure pour piéger leur bras entre votre jambe et leur tête. La transition vers le S-mount est essentielle.",
-  "shortInstruction": "Montez en S-mount, piégez leur bras proche avec votre jambe du même côté, passez votre jambe du dessus par-dessus leur tête, rapprochez les talons, serrez les genoux.",
-  "summary": "Le triangle monté est une soumission à haut pourcentage depuis le mount qui utilise la gravité et la pression du dessus pour empêcher l'adversaire de se redresser ou de stacker. La montée en S-mount est le gardien — ne tentez jamais depuis un mount bas.",
+  "description": "Le triangle monté utilise votre position supérieure pour piéger leur bras entre votre jambe et leur tête. La transition vers le S-Mount est essentielle.",
+  "shortInstruction": "Montez en S-Mount, piégez leur bras proche avec votre jambe du même côté, passez votre jambe du dessus par-dessus leur tête, rapprochez les talons, serrez les genoux.",
+  "summary": "Le triangle monté est une soumission à haut pourcentage depuis le Mount qui utilise la gravité et la pression du dessus pour empêcher l'adversaire de se redresser ou de stacker. La montée en S-Mount est le gardien — ne tentez jamais depuis un Mount bas.",
   "whyItWorks": [
-    "Depuis le mount, leur bras est déjà comprimé par votre poids — vous n'avez pas besoin de casser leur posture comme depuis la guarde",
+    "Depuis le Mount, leur bras est déjà comprimé par votre poids — vous n'avez pas besoin de casser leur posture comme depuis la guarde",
     "La gravité travaille pour vous — votre poids appuie et serre le triangle sans avoir besoin de serrer plus fort",
     "S'ils défendent le triangle en se redressant, vous attaquez l'armbar — le dilemme triangle-armbar est plus fort depuis le dessus",
-    "Ils ne peuvent pas vous stacker depuis le mount comme ils le feraient depuis la guarde — cela supprime la contre-attaque principale du triangle"
+    "Ils ne peuvent pas vous stacker depuis le Mount comme ils le feraient depuis la guarde — cela supprime la contre-attaque principale du triangle"
   ],
   "commonMistakes": [
-    "Tenter le triangle monté depuis un mount bas — il faut monter en S-mount d'abord",
+    "Tenter le triangle monté depuis un Mount bas — il faut monter en S-Mount d'abord",
     "Ne pas piéger le bras avant d'enjamber — si le bras est libre, le triangle n'est pas disponible",
     "Passer la jambe en travers du tibia au lieu de derrière la tête",
     "Serrer les genoux avant de rapprocher les talons — talons d'abord, puis genoux"
   ],
   "coachingCues": [
-    "S-mount d'abord, triangle ensuite — jamais depuis un mount bas",
+    "S-Mount d'abord, triangle ensuite — jamais depuis un Mount bas",
     "Piégez le bras avant d'enjamber — bras libre = pas de triangle",
     "Talons rapprochés, genoux serrés — deux mouvements séparés",
     "Ils se redressent = votre entrée pour l'armbar"
@@ -88,11 +88,11 @@
     "Attention à ne pas hyperétendre leur coude quand vous passez à l'armbar"
   ],
   "systemLogic": {
-    "corePrinciple": "Triangle monté : depuis le mount → montez en S-mount → piégez leur bras proche → passez votre jambe du dessus par-dessus leur tête (pied derrière la tête) → rapprochez les talons → serrez les genoux → s'ils se redressent, passez à l'armbar.",
+    "corePrinciple": "Triangle monté : depuis le Mount → montez en S-Mount → piégez leur bras proche → passez votre jambe du dessus par-dessus leur tête (pied derrière la tête) → rapprochez les talons → serrez les genoux → s'ils se redressent, passez à l'armbar.",
     "decisionTree": [
       {
         "condition": "Ils essaient de stacker",
-        "action": "impossible depuis le mount — finissez le triangle"
+        "action": "impossible depuis le Mount — finissez le triangle"
       },
       {
         "condition": "Ils se redressent pour défendre",
@@ -104,18 +104,18 @@
       }
     ],
     "exitStrategies": [
-      "Si vous ne pouvez pas sécuriser le triangle, retournez en mount et reset",
+      "Si vous ne pouvez pas sécuriser le triangle, retournez en Mount et reset",
       "S'ils s'échappent en guarde, levez-vous et passez à nouveau"
     ]
   },
   "moneyDetails": [
-    "Le triangle monté est l'une des soumissions les plus efficaces depuis le mount en no-gi",
-    "Maîtriser la montée en S-mount est la clé — le triangle vient facilement une fois le S-mount établi",
-    "Le dilemme triangle-armbar depuis le mount est plus dangereux pour l'adversaire que depuis la guarde"
+    "Le triangle monté est l'une des soumissions les plus efficaces depuis le Mount en no-gi",
+    "Maîtriser la montée en S-Mount est la clé — le triangle vient facilement une fois le S-Mount établi",
+    "Le dilemme triangle-armbar depuis le Mount est plus dangereux pour l'adversaire que depuis la guarde"
   ],
   "fixItFast": [
     "S'ils verrouillent leurs mains : décollez-les en pivotant les hanches",
     "S'ils se redressent : passez immédiatement à l'armbar",
-    "Si le triangle est lâche : votre position S-mount n'était pas assez haute"
+    "Si le triangle est lâche : votre position S-Mount n'était pas assez haute"
   ]
 }

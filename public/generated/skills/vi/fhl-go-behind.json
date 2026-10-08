@@ -3,7 +3,7 @@
   "domain": "submission_systems",
   "level": "intermediate",
   "status": "draft",
-  "name": "front headlock Đi phía sau",
+  "name": "Front Headlock Đi phía sau",
   "aliases": [],
   "tags": [
     "go-behind",
@@ -25,11 +25,11 @@
   "modernSystemGroup": "front_headlock",
   "relatedSkills": [
     {
-      "id": "guillotine-system",
+      "id": "Guillotine-system",
       "type": "recommended"
     },
     {
-      "id": "high-wrist-guillotine",
+      "id": "high-wrist-Guillotine",
       "type": "recommended"
     }
   ],
@@ -63,14 +63,14 @@
     "hasStateMachine": false
   },
   "locale": "vi",
-  "description": "Cú lùi cơ bản nhất từ ​​front headlock — vòng ra phía sau khi đối thủ chống lại đòn siết cổ hoặc cố gắng cúi xuống.",
-  "shortInstruction": "Điều khiển đầu, vòng ra phía sau, móc câu — đi phía sau là con đường đơn giản nhất từ ​​front headlock đến back control.",
-  "summary": "Phần tiếp theo của front headlock là phần chuyển đổi có tỷ lệ phần trăm cao nhất trong hệ thống front headlock. Khi bạn có front headlock và đối thủ chống lại nỗ lực bóp cổ của bạn (guillotine, d'arce, anaconda), họ thường sẽ cố gắng dàn xếp hoặc vòng ra xa. Lực cản của họ tạo ra khoảng trống mà bạn cần để giải phóng cuộn cảm, vòng ra phía sau họ và lùi lại. Người đi sau biến bài gửi không thành công thành vị trí thống trị nhất trong BJJ.",
+  "description": "Cú lùi cơ bản nhất từ ​​Front Headlock — vòng ra phía sau khi đối thủ chống lại đòn siết cổ hoặc cố gắng cúi xuống.",
+  "shortInstruction": "Điều khiển đầu, vòng ra phía sau, móc câu — đi phía sau là con đường đơn giản nhất từ ​​Front Headlock đến back control.",
+  "summary": "Phần tiếp theo của Front Headlock là phần chuyển đổi có tỷ lệ phần trăm cao nhất trong hệ thống Front Headlock. Khi bạn có Front Headlock và đối thủ chống lại nỗ lực bóp cổ của bạn (Guillotine, d'arce, anaconda), họ thường sẽ cố gắng dàn xếp hoặc vòng ra xa. Lực cản của họ tạo ra khoảng trống mà bạn cần để giải phóng cuộn cảm, vòng ra phía sau họ và lùi lại. Người đi sau biến bài gửi không thành công thành vị trí thống trị nhất trong BJJ.",
   "whyItWorks": [
     "Khi chống lại cơn nghẹt thở, họ tập trung vào việc bảo vệ cổ - lưng của họ bị lộ ra ngoài.",
-    "front headlock đã điều khiển đầu và một cánh tay của họ — bạn đã đi được 50% chặng đường tới back control.",
-    "Vòng ra phía sau là một chuyển động tự nhiên từ front headlock — áp lực về phía trước của họ tạo ra khoảng trống.",
-    "Nguyên tắc của Danaher: mọi nỗ lực front headlock phải có tùy chọn đi sau — không bao giờ cam kết hoàn toàn với việc bị sặc."
+    "Front Headlock đã điều khiển đầu và một cánh tay của họ — bạn đã đi được 50% chặng đường tới back control.",
+    "Vòng ra phía sau là một chuyển động tự nhiên từ Front Headlock — áp lực về phía trước của họ tạo ra khoảng trống.",
+    "Nguyên tắc của Danaher: mọi nỗ lực Front Headlock phải có tùy chọn đi sau — không bao giờ cam kết hoàn toàn với việc bị sặc."
   ],
   "commonMistakes": [
     "Cam kết hoàn toàn với sự nghẹt thở và quên đi người đi sau - người đi sau luôn là một lựa chọn.",
@@ -90,7 +90,7 @@
     "Khi rút móc về phía sau, hãy trượt móc vào nhẹ nhàng để tránh va vào đầu gối của chúng."
   ],
   "systemLogic": {
-    "corePrinciple": "front headlock đã được thiết lập → đối thủ chống lại đòn sặc → thả nghẹt thở → vòng ra phía sau họ → cố định seatbelt → chèn móc → back control.",
+    "corePrinciple": "Front Headlock đã được thiết lập → đối thủ chống lại đòn sặc → thả nghẹt thở → vòng ra phía sau họ → cố định seatbelt → chèn móc → back control.",
     "decisionTree": [
       {
         "condition": "Kẻ đi sau hoạt động như một phần của hệ thống FHL: mối đe dọa nghẹt thở",
@@ -98,7 +98,7 @@
       },
       {
         "condition": "Ứng dụng chung",
-        "action": "Nếu quá trình phía sau không thành công, hãy quay lại front headlock hoặc chuyển sang side control."
+        "action": "Nếu quá trình phía sau không thành công, hãy quay lại Front Headlock hoặc chuyển sang Side Control."
       }
     ],
     "exitStrategies": []

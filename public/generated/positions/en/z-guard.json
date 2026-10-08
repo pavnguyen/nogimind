@@ -1,10 +1,10 @@
 {
-  "id": "z-guard",
+  "id": "z-Guard",
   "locale": "en",
   "title": "Z-Guard (93 Guard)",
   "category": "bottom_guard",
   "status": "defensive",
-  "description": "Z-guard is a deep knee-shield half guard using the shin and underhook to block crossface and set up wrestle-ups.",
+  "description": "Z-Guard is a deep knee-shield Half Guard using the shin and underhook to block crossface and set up wrestle-ups.",
   "topPlayerGoals": [
     "The top player wants to control Z-Guard (93 Guard) through head position, inside position, and directed pressure.",
     "Smash the knee shield, drive crossface, and flatten the hip line.",
@@ -30,9 +30,9 @@
       "action": "Win the underhook to reach dogfight",
       "nextPositionId": "dogfight",
       "relatedSkillIds": [
-        "z-guard-sweeps",
-        "half-guard-knee-shield",
-        "half-guard-wrestle-up"
+        "z-Guard-sweeps",
+        "half-Guard-knee-shield",
+        "half-Guard-wrestle-up"
       ],
       "why": "This is the natural branch when you win the main control point and the opponent is forced to defend."
     }
@@ -44,9 +44,9 @@
     "You need a long hand post to avoid falling."
   ],
   "relatedSkillIds": [
-    "z-guard-sweeps",
-    "half-guard-knee-shield",
-    "half-guard-wrestle-up",
+    "z-Guard-sweeps",
+    "half-Guard-knee-shield",
+    "half-Guard-wrestle-up",
     "side-control-escape"
   ],
   "relatedConceptIds": [

@@ -1,5 +1,5 @@
 {
-  "id": "closed-guard",
+  "id": "closed-Guard",
   "locale": "fr",
   "title": "Garde fermée",
   "category": "bottom_guard",
@@ -30,9 +30,9 @@
       "action": "Ouvrir la garde et passer en pass",
       "nextPositionId": "knee-cut-position",
       "relatedSkillIds": [
-        "closed-guard-posture-control",
-        "closed-guard-sweeps",
-        "clamp-guard-control"
+        "closed-Guard-posture-control",
+        "closed-Guard-sweeps",
+        "clamp-Guard-control"
       ],
       "why": "C’est la branche naturelle lorsque vous gagnez le point de contrôle principal et que l’adversaire est forcé de défendre."
     }
@@ -44,9 +44,9 @@
     "Vous devez poser une main loin pour éviter de tomber."
   ],
   "relatedSkillIds": [
-    "closed-guard-posture-control",
-    "closed-guard-sweeps",
-    "clamp-guard-control",
+    "closed-Guard-posture-control",
+    "closed-Guard-sweeps",
+    "clamp-Guard-control",
     "armbar-system",
     "triangle-system",
     "kimura-system"

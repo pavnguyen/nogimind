@@ -38,8 +38,8 @@
   "archetypeIds": [],
   "relatedArchetypeIds": [],
   "prerequisiteSkillIds": [
-    "clamp-guard-control",
-    "guard-pulling-strategy"
+    "clamp-Guard-control",
+    "Guard-pulling-strategy"
   ],
   "trainingMethodIds": [],
   "nextSkillIds": [],
@@ -63,8 +63,8 @@
   },
   "locale": "fr",
   "description": "Verrouillez une épaule vers l'intérieur et une épaule vers l'extérieur, brisez la posture de l'adversaire, coupez l'angle et serrez - le triangle est un étranglement de jambe qui utilise la propre épaule de l'adversaire pour fermer l'étranglement.",
-  "shortInstruction": "Un bras dedans, un bras dehors, rompez la posture, coupez l'angle, serrez — le triangle est le starter de contrôle ultime de guard.",
-  "summary": "Le starter triangle est le pourcentage de soumission le plus élevé de closed guard. Cela fonctionne en emprisonnant l'un de leurs bras à l'intérieur de vos jambes tandis que l'autre bras est à l'extérieur, créant ainsi un « triangle » de vos jambes autour de leur cou et de leur bras. Lorsque vous coupez un angle (en éloignant vos hanches), leur propre épaule appuie contre un côté de leur carotide tandis que votre jambe comprime l'autre. La propre épaule de l'adversaire devient une partie de l'étranglement – ​​c'est pourquoi le triangle est si efficace.",
+  "shortInstruction": "Un bras dedans, un bras dehors, rompez la posture, coupez l'angle, serrez — le triangle est le starter de contrôle ultime de Guard.",
+  "summary": "Le starter triangle est le pourcentage de soumission le plus élevé de Closed Guard. Cela fonctionne en emprisonnant l'un de leurs bras à l'intérieur de vos jambes tandis que l'autre bras est à l'extérieur, créant ainsi un « triangle » de vos jambes autour de leur cou et de leur bras. Lorsque vous coupez un angle (en éloignant vos hanches), leur propre épaule appuie contre un côté de leur carotide tandis que votre jambe comprime l'autre. La propre épaule de l'adversaire devient une partie de l'étranglement – ​​c'est pourquoi le triangle est si efficace.",
   "whyItWorks": [
     "La propre épaule de l'adversaire complète l'étranglement : son corps est utilisé contre lui.",
     "Couper l'angle (en éloignant vos hanches) resserre le starter sans avoir besoin de serrer plus fort.",
@@ -89,7 +89,7 @@
     "Relâchez immédiatement au robinet – les starters triangle peuvent rapidement provoquer une perte de conscience."
   ],
   "systemLogic": {
-    "corePrinciple": "guard : coincez leur bras autour de votre corps → un bras dedans, un bras dehors → rompez leur posture → verrouillez le triangle (tibia sur l'arrière de votre genou) → coupez l'angle → serrez.",
+    "corePrinciple": "Guard : coincez leur bras autour de votre corps → un bras dedans, un bras dehors → rompez leur posture → verrouillez le triangle (tibia sur l'arrière de votre genou) → coupez l'angle → serrez.",
     "decisionTree": [
       {
         "condition": "Le triangle s'enchaîne avec le armbar",

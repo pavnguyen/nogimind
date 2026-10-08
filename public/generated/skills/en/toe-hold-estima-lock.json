@@ -71,7 +71,7 @@
     "hasStateMachine": false
   },
   "locale": "en",
-  "description": "Attack the foot and ankle with the traditional toe hold (figure-four rotation) and the modern Estima lock (hip-driven foot pin) from leg entanglements and guard transitions.",
+  "description": "Attack the foot and ankle with the traditional toe hold (figure-four rotation) and the modern Estima lock (hip-driven foot pin) from leg entanglements and Guard transitions.",
   "shortInstruction": "Toe hold: figure-four grip, rotate their foot toward their hip. Estima lock: pin their foot to your body, drive your hips forward — squeeze, don't twist.",
   "summary": "The toe hold and Estima lock are powerful foot attacks that target the ankle and knee. The traditional toe hold uses a figure-four grip to rotate the foot, creating lateral torque on the ankle. The modern Estima lock (popularized by Victor and Braulio Estima) works differently — it traps the opponent's foot against your body and uses hip drive to create extreme plantarflexion, effectively functioning as an 'inverse' straight ankle lock. The Estima lock is particularly effective in no-gi because it requires no gi grip and can be set up quickly from leg entanglements like 50/50, backside 50/50, and saddle. Both attacks chain well with heel hooks and ankle locks.",
   "whyItWorks": [
@@ -103,10 +103,10 @@
     "Tap early on any foot or ankle lock — recovery from foot injuries is often slow."
   ],
   "systemLogic": {
-    "corePrinciple": "Leg entanglement or guard transition → identify foot exposure → choose attack: toe hold (figure-four grip + rotation) or Estima lock (foot pin + hip drive) → finish or chain.",
+    "corePrinciple": "Leg entanglement or Guard transition → identify foot exposure → choose attack: toe hold (figure-four grip + rotation) or Estima lock (foot pin + hip drive) → finish or chain.",
     "decisionTree": [
       {
-        "condition": "Toe hold entry from guard",
+        "condition": "Toe hold entry from Guard",
         "action": "Secure figure-four grip on their foot, rotate their toes toward their hip. Use your forearm to block their knee from following the rotation."
       },
       {

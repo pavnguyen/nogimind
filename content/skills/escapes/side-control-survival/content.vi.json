@@ -1,10 +1,10 @@
 {
   "id": "side-control-survival",
   "locale": "vi",
-  "name": "side control Sống sót",
-  "description": "Duy trì hơi thở, khung và làn đường bên trong dưới áp suất crossface và underhook trong side control. Sống sót là ưu tiên hàng đầu trước khi cố gắng trốn thoát.",
+  "name": "Side Control Sống sót",
+  "description": "Duy trì hơi thở, khung và làn đường bên trong dưới áp suất crossface và underhook trong Side Control. Sống sót là ưu tiên hàng đầu trước khi cố gắng trốn thoát.",
   "shortInstruction": "Giữ khuỷu tay dán vào xương sườn, đặt khung ở hông (không phải ngực), thở bằng mũi và không bao giờ quay lưng lại. Sống sót trước, trốn thoát sau.",
-  "summary": "side control Sinh tồn là nghệ thuật hấp thụ áp lực mà không hoảng sợ trong khi vẫn duy trì tính toàn vẹn về cấu trúc cần thiết để trốn thoát. Thứ tự ưu tiên là: bảo vệ cánh tay gần (khuỷu tay đến xương sườn), bảo vệ cổ (cằm thu gọn, đầu quay về phía thảm dưới crossface) và kiểm soát nhịp thở. Người chơi ở cuối cuộc sống sót bình tĩnh, lập khung hình chính xác và chờ đợi thời điểm thích hợp để bắt đầu chuỗi trốn thoát.",
+  "summary": "Side Control Sinh tồn là nghệ thuật hấp thụ áp lực mà không hoảng sợ trong khi vẫn duy trì tính toàn vẹn về cấu trúc cần thiết để trốn thoát. Thứ tự ưu tiên là: bảo vệ cánh tay gần (khuỷu tay đến xương sườn), bảo vệ cổ (cằm thu gọn, đầu quay về phía thảm dưới crossface) và kiểm soát nhịp thở. Người chơi ở cuối cuộc sống sót bình tĩnh, lập khung hình chính xác và chờ đợi thời điểm thích hợp để bắt đầu chuỗi trốn thoát.",
   "whyItWorks": [
     "Giữ cùi chỏ gần của bạn ghim vào xương sườn sẽ giúp đối phương không thể cô lập cánh tay của bạn để thực hiện đòn tấn công kiểu Mỹ hoặc kimura",
     "Khung cẳng tay ngang qua đường hông sử dụng cấu trúc xương (không phải cơ) để giữ trọng lượng của đối phương khỏi thân mình - xương không bị mỏi như cơ",
@@ -24,13 +24,13 @@
     "Sống sót trước, trốn thoát sau"
   ],
   "safetySummary": [
-    "side control là một trong những tư thế ngột ngạt nhất trong BJJ — cảm thấy hoảng sợ là điều bình thường nhưng hãy kiểm soát nó bằng hơi thở có kiểm soát thay vì chuyển động bùng nổ",
+    "Side Control là một trong những tư thế ngột ngạt nhất trong BJJ — cảm thấy hoảng sợ là điều bình thường nhưng hãy kiểm soát nó bằng hơi thở có kiểm soát thay vì chuyển động bùng nổ",
     "Nếu bạn cảm thấy đau xương sườn do áp lực, hãy lập tức lập khung và tạo khoảng trống thay vì cố gắng đè đối thủ xuống băng ghế dự bị.",
-    "Để lưng của bạn dưới áp lực side control có thể dẫn đến rear-naked choke mục nhập hoặc tấn công cột sống",
+    "Để lưng của bạn dưới áp lực Side Control có thể dẫn đến rear-naked choke mục nhập hoặc tấn công cột sống",
     "Nếu đối thủ cô lập cánh tay gần của bạn để lấy Americaana hoặc kimura, hãy chạm sớm thay vì mạo hiểm gây tổn thương vai hoặc khuỷu tay"
   ],
   "systemLogic": {
-    "corePrinciple": "side control Khả năng sống sót tuân theo hệ thống phân cấp năm lớp: bảo vệ cánh tay gần → thiết lập khung hông → bảo vệ cổ → kiểm soát hơi thở → chờ cơ hội trốn thoát. Đừng bao giờ cố gắng trốn thoát trước khi thiết lập tất cả các lớp sinh tồn.",
+    "corePrinciple": "Side Control Khả năng sống sót tuân theo hệ thống phân cấp năm lớp: bảo vệ cánh tay gần → thiết lập khung hông → bảo vệ cổ → kiểm soát hơi thở → chờ cơ hội trốn thoát. Đừng bao giờ cố gắng trốn thoát trước khi thiết lập tất cả các lớp sinh tồn.",
     "decisionTree": [
       {
         "condition": "Đối thủ kéo cánh tay gần của bạn ra khỏi xương sườn của bạn",
@@ -60,7 +60,7 @@
     ]
   },
   "moneyDetails": [
-    "side control sinh tồn là kỹ năng được sử dụng thường xuyên nhất trong BJJ — mọi vận động viên vật lộn đều dành thời gian dưới side control trong mỗi buổi huấn luyện",
+    "Side Control sinh tồn là kỹ năng được sử dụng thường xuyên nhất trong BJJ — mọi vận động viên vật lộn đều dành thời gian dưới Side Control trong mỗi buổi huấn luyện",
     "Làm chủ khả năng sống sót trước khi trốn thoát giúp ngăn ngừa chấn thương thường gặp nhất trong BJJ: tổn thương vai do buộc phải tấn công bằng cánh tay dưới áp lực",
     "Một cách tiếp cận sinh tồn bình tĩnh, có cấu trúc sẽ bảo tồn năng lượng và cho phép bạn trốn thoát nhiều lần trong mỗi hiệp mà không bị ngạt thở",
     "Khả năng sống sót dưới áp lực nặng nề giúp phân biệt những người trung cấp và cao cấp"

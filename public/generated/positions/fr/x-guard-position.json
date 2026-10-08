@@ -1,10 +1,10 @@
 {
-  "id": "x-guard-position",
+  "id": "x-Guard-position",
   "locale": "fr",
   "title": "X-Guard",
   "category": "bottom_guard",
   "status": "neutral",
-  "description": "X-guard utilise le pied sur la hanche et le wrap de jambe pour déséquilibrer et balayer, contrôlant la hip line du passeur.",
+  "description": "X-Guard utilise le pied sur la hanche et le wrap de jambe pour déséquilibrer et balayer, contrôlant la hip line du passeur.",
   "topPlayerGoals": [
     "Le joueur du dessus veut contrôler X-Guard avec la position de tête, la position intérieure et une pression orientée.",
     "Enlever le pied de la hanche, snapper la tête et casser la base.",
@@ -30,9 +30,9 @@
       "action": "Passer en SLX ou balayer vers top",
       "nextPositionId": "single-leg-x",
       "relatedSkillIds": [
-        "x-guard-control",
+        "x-Guard-control",
         "single-leg-x-control",
-        "k-guard-matrix"
+        "k-Guard-matrix"
       ],
       "why": "C’est la branche naturelle lorsque vous gagnez le point de contrôle principal et que l’adversaire est forcé de défendre."
     }
@@ -44,9 +44,9 @@
     "Vous devez poser une main loin pour éviter de tomber."
   ],
   "relatedSkillIds": [
-    "x-guard-control",
+    "x-Guard-control",
     "single-leg-x-control",
-    "k-guard-matrix"
+    "k-Guard-matrix"
   ],
   "relatedConceptIds": [
     "hooks",

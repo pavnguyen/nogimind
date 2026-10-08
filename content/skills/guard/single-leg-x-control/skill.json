@@ -7,13 +7,13 @@
   "tags": [
     "single-leg-x",
     "ashi-garami",
-    "guard",
+    "Guard",
     "sweep",
     "leg-entry",
     "tier:modern-expansion",
     "meta:modern-common",
     "risk:medium",
-    "family:guard",
+    "family:Guard",
     "group:single-leg_x",
     "modern-no-gi"
   ],
@@ -26,20 +26,20 @@
   "modernSystemGroup": "single_leg_x",
   "relatedSkills": [
     {
-      "id": "x-guard-control",
+      "id": "x-Guard-control",
       "type": "recommended"
     },
     {
-      "id": "k-guard-matrix",
+      "id": "k-Guard-matrix",
       "type": "recommended"
     },
     {
-      "id": "butterfly-guard-off-balance",
+      "id": "butterfly-Guard-off-balance",
       "type": "recommended"
     }
   ],
   "prerequisiteSkillIds": [
-    "seated-guard-retention",
+    "seated-Guard-retention",
     "leg-lock-safety-basics"
   ],
   "relatedPositions": [],

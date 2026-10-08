@@ -3,10 +3,10 @@
   "domain": "submission_systems",
   "level": "advanced",
   "status": "draft",
-  "name": "Poignet haut guillotine",
+  "name": "Poignet haut Guillotine",
   "aliases": [],
   "tags": [
-    "guillotine",
+    "Guillotine",
     "front-headlock",
     "neck-safety",
     "tier:modern-expansion",
@@ -17,14 +17,14 @@
     "modern-no-gi"
   ],
   "keywords": [
-    "guillotine",
+    "Guillotine",
     "chin strap",
     "neck safety"
   ],
   "modernSystemGroup": "front_headlock",
   "relatedSkills": [
     {
-      "id": "guillotine-system",
+      "id": "Guillotine-system",
       "type": "recommended"
     },
     {
@@ -44,7 +44,7 @@
   "archetypeIds": [],
   "relatedArchetypeIds": [],
   "prerequisiteSkillIds": [
-    "guillotine-system",
+    "Guillotine-system",
     "front-headlock-defense"
   ],
   "trainingMethodIds": [],
@@ -67,14 +67,14 @@
     "hasStateMachine": false
   },
   "locale": "fr",
-  "description": "Une variante du guillotine utilisant une position profonde de la lame du poignet et un contrôle précis du coude pour une finition plus nette et plus serrée contre des adversaires qui défendent le standard guillotine.",
-  "shortInstruction": "Lame de poignet profonde sur le cou, coude serré contre les côtes, tête sur le côté – le poignet haut guillotine coupe plus profondément que la poignée standard.",
-  "summary": "Le guillotine à poignet haut (également appelé Marcelotine ou guillotine japonais) utilise la lame de votre poignet contre l'artère carotide plutôt que la poignée standard de compression du biceps. La clé est que votre poignet soit positionné plus profondément sur son cou – la lame de votre avant-bras (côté pouce) appuie directement sur sa carotide. Cette variation est plus efficace dans No-Gi car elle ne nécessite pas de prise par collier GI et crée un étranglement sanguin plus serré avec moins d'effort.",
+  "description": "Une variante du Guillotine utilisant une position profonde de la lame du poignet et un contrôle précis du coude pour une finition plus nette et plus serrée contre des adversaires qui défendent le standard Guillotine.",
+  "shortInstruction": "Lame de poignet profonde sur le cou, coude serré contre les côtes, tête sur le côté – le poignet haut Guillotine coupe plus profondément que la poignée standard.",
+  "summary": "Le Guillotine à poignet haut (également appelé Marcelotine ou Guillotine japonais) utilise la lame de votre poignet contre l'artère carotide plutôt que la poignée standard de compression du biceps. La clé est que votre poignet soit positionné plus profondément sur son cou – la lame de votre avant-bras (côté pouce) appuie directement sur sa carotide. Cette variation est plus efficace dans No-Gi car elle ne nécessite pas de prise par collier GI et crée un étranglement sanguin plus serré avec moins d'effort.",
   "whyItWorks": [
     "La lame du poignet crée une pression plus directe sur l’artère carotide que la compression standard de l’avant-bras.",
-    "La position haute du poignet vous permet de terminer sous des angles où le guillotine standard ne fonctionnerait pas.",
+    "La position haute du poignet vous permet de terminer sous des angles où le Guillotine standard ne fonctionnerait pas.",
     "Il est plus efficace en No-Gi car il ne dépend pas des adhérences du tissu.",
-    "Principe Danaher/Marcelo Garcia : le poignet haut est l'évolution No-Gi du guillotine — il utilise la pression osseuse et non la friction du tissu."
+    "Principe Danaher/Marcelo Garcia : le poignet haut est l'évolution No-Gi du Guillotine — il utilise la pression osseuse et non la friction du tissu."
   ],
   "commonMistakes": [
     "En utilisant le plat du poignet au lieu de la lame (côté pouce) — la lame crée le starter, le plat crée une manivelle.",
@@ -86,7 +86,7 @@
     "Lame du poignet, non plate – le côté du pouce crée l’étranglement.",
     "Coude serré, angle vif, poignet profond.",
     "Si vous sentez votre poignet sur leur colonne vertébrale, vous êtes suffisamment profond.",
-    "Le poignet haut est un scalpel – le guillotine standard est un marteau."
+    "Le poignet haut est un scalpel – le Guillotine standard est un marteau."
   ],
   "safetySummary": [
     "Le poignet haut peut créer une pression plus ciblée sur le cou – appliquez progressivement et respectez le robinet.",
@@ -94,11 +94,11 @@
     "Si l'adversaire appuie sur la pression du cou plutôt que sur la sensation d'étouffement, relâchez immédiatement."
   ],
   "systemLogic": {
-    "corePrinciple": "front headlock ou guard : prise profonde du poignet (lame côté pouce) → coude serré → angle de coupe → compression avec la poitrine.",
+    "corePrinciple": "Front Headlock ou Guard : prise profonde du poignet (lame côté pouce) → coude serré → angle de coupe → compression avec la poitrine.",
     "decisionTree": [
       {
         "condition": "Application générale",
-        "action": "Le guillotine au poignet haut fonctionne mieux à partir de la position front headlock lorsqu'il est tortueux ou ventre vers le bas."
+        "action": "Le Guillotine au poignet haut fonctionne mieux à partir de la position Front Headlock lorsqu'il est tortueux ou ventre vers le bas."
       },
       {
         "condition": "ils se défendent en cachant leur cou",
@@ -113,7 +113,7 @@
     "Coupez l'angle en vous plaçant sur le côté de la tête : plus l'angle est aigu, plus l'étranglement est serré.",
     "Terminez en amenant votre coude vers votre hanche tout en gardant la lame du poignet profonde – cela fait tourner la lame dans leur cou."
   ],
-  "nextStep": "Après le guillotine au poignet haut, apprenez le système guillotine standard et les détails de Marcelotine.",
+  "nextStep": "Après le Guillotine au poignet haut, apprenez le système Guillotine standard et les détails de Marcelotine.",
   "fixItFast": [
     "Le starter n'est pas propre ? Faites pivoter votre poignet pour que la lame (côté pouce) s'appuie sur son cou.",
     "Ils continuent de faire des postures ? Approchez-vous davantage de leur côté et serrez votre coude contre vos côtes.",

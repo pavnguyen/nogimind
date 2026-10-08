@@ -1,13 +1,13 @@
 {
   "id": "buggy-choke",
   "locale": "vi",
-  "name": "lỗi sặc",
+  "name": "Buggy Choke",
   "description": "Một cuộn cảm điều khiển phía dưới sử dụng chân của bạn quấn quanh cổ và cánh tay của đối thủ - một cuộc tấn công tuyệt vọng có rủi ro cao, có phần thưởng cao và không nên thay thế các nguyên tắc cơ bản về sinh tồn và thoát khỏi.",
-  "shortInstruction": "Quấn chân bạn quanh cổ và cánh tay của họ, siết chặt — buggy sặc là một đòn tấn công bất ngờ từ phía dưới side control.",
-  "summary": "Cuộn cảm lỗi là một cuộn cảm đặc trưng No-Gi từ phía dưới side control. Bạn quấn chân quanh cổ và một cánh tay của đối phương, tạo ra tình trạng sặc máu bằng cách ép cổ họ vào đùi bạn. Đó là submission hợp pháp nhưng được coi là 'tỷ lệ phần trăm thấp' vì nó yêu cầu thời gian và loại nội dung cụ thể. Quan trọng hơn, việc cố gắng siết cổ lỗi thường dẫn đến việc thoát khỏi underhook và hông, vốn là nền tảng của việc thoát side control. Nó phải là một vũ khí bất ngờ chứ không phải là một chiến lược trốn thoát chủ yếu.",
+  "shortInstruction": "Quấn chân bạn quanh cổ và cánh tay của họ, siết chặt — buggy sặc là một đòn tấn công bất ngờ từ phía dưới Side Control.",
+  "summary": "Cuộn cảm lỗi là một cuộn cảm đặc trưng No-Gi từ phía dưới Side Control. Bạn quấn chân quanh cổ và một cánh tay của đối phương, tạo ra tình trạng sặc máu bằng cách ép cổ họ vào đùi bạn. Đó là submission hợp pháp nhưng được coi là 'tỷ lệ phần trăm thấp' vì nó yêu cầu thời gian và loại nội dung cụ thể. Quan trọng hơn, việc cố gắng siết cổ lỗi thường dẫn đến việc thoát khỏi underhook và hông, vốn là nền tảng của việc thoát Side Control. Nó phải là một vũ khí bất ngờ chứ không phải là một chiến lược trốn thoát chủ yếu.",
   "whyItWorks": [
-    "Tạo ra tình trạng sặc máu từ một vị trí (dưới side control) mà người chơi ở cuối thường không có mối đe dọa khuất phục.",
-    "Yếu tố bất ngờ rất quan trọng — hầu hết những người chơi hàng đầu đều không mong đợi một cú bóp cổ từ phía dưới side control.",
+    "Tạo ra tình trạng sặc máu từ một vị trí (dưới Side Control) mà người chơi ở cuối thường không có mối đe dọa khuất phục.",
+    "Yếu tố bất ngờ rất quan trọng — hầu hết những người chơi hàng đầu đều không mong đợi một cú bóp cổ từ phía dưới Side Control.",
     "Nó có thể bắt những đối thủ nặng về một bên bằng crossface.",
     "Hữu ích như một cuộc tấn công cuối cùng khi các lối thoát thông thường không thành công."
   ],
@@ -31,10 +31,10 @@
   "keyCorrections": [
     "Nếu họ xếp chồng bạn, bạn đã cam kết quá sớm hoặc sai góc độ - thả ra và đặt lại khung.",
     "Nếu họ rút tay ra, nghĩa là quấn chân của bạn quá lỏng - quấn chặt hơn hoặc bỏ vòng quấn.",
-    "Nếu bạn không thể hoàn thành, hãy chuyển về lối thoát side control thông thường (thoát hông, underhook)."
+    "Nếu bạn không thể hoàn thành, hãy chuyển về lối thoát Side Control thông thường (thoát hông, underhook)."
   ],
   "systemLogic": {
-    "corePrinciple": "Dưới side control: đối thủ nặng ở một bên (crossface bên) → quấn chân quanh cổ và cánh tay của họ → bóp → bóp cổ.",
+    "corePrinciple": "Dưới Side Control: đối thủ nặng ở một bên (crossface bên) → quấn chân quanh cổ và cánh tay của họ → bóp → bóp cổ.",
     "decisionTree": [
       {
         "condition": "họ đăng bài khi rảnh rỗi",
@@ -52,7 +52,7 @@
     "Cảm giác nghẹt thở xuất phát từ việc ép hai đùi của bạn vào nhau - không phải do kéo bằng chân.",
     "Nếu họ đứng dậy, lực cản lỗi sẽ bị mất - ngay lập tức quay trở lại khung và thoát ra khỏi hông."
   ],
-  "nextStep": "Sau khi hiểu rõ hiện tượng tắc nghẽn do lỗi, hãy tập trung vào các cách thoát side control chính: khung, thoát hông và phục hồi underhook.",
+  "nextStep": "Sau khi hiểu rõ hiện tượng tắc nghẽn do lỗi, hãy tập trung vào các cách thoát Side Control chính: khung, thoát hông và phục hồi underhook.",
   "fixItFast": [
     "Họ xếp chồng bạn? Thả ra và đóng khung trên hông của họ.",
     "Chân trượt ra? Quấn chặt hơn quanh cánh tay của họ - kiểm soát cánh tay là điều cần thiết.",

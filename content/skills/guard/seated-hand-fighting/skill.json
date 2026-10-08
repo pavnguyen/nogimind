@@ -5,14 +5,14 @@
   "name": "Seated Guard Hand-Fighting",
   "aliases": [],
   "tags": [
-    "seated-guard",
+    "seated-Guard",
     "hand-fighting",
     "collar-tie",
     "pummel",
-    "guard-retention"
+    "Guard-retention"
   ],
   "keywords": [
-    "seated guard",
+    "seated Guard",
     "hand fighting",
     "collar tie",
     "inside position",
@@ -21,20 +21,20 @@
   ],
   "relatedSkills": [
     {
-      "id": "seated-guard-retention",
+      "id": "seated-Guard-retention",
       "type": "recommended"
     },
     {
-      "id": "butterfly-guard-off-balance",
+      "id": "butterfly-Guard-off-balance",
       "type": "recommended"
     },
     {
-      "id": "wrestling-up-from-guard",
+      "id": "wrestling-up-from-Guard",
       "type": "recommended"
     }
   ],
   "prerequisiteSkillIds": [
-    "supine-guard-retention",
+    "supine-Guard-retention",
     "hand-fighting"
   ],
   "relatedPositions": [],

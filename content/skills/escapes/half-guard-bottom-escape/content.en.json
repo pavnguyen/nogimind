@@ -1,14 +1,14 @@
 {
-  "id": "half-guard-bottom-escape",
+  "id": "half-Guard-bottom-escape",
   "locale": "en",
   "name": "Half Guard Bottom Escape",
-  "description": "Escape from bottom half guard by winning the underhook, creating a frame, and regaining guard or standing up.",
-  "shortInstruction": "Win the underhook, bring the outside knee across the opponent's back, and drive to dogfight or recover butterfly guard.",
-  "summary": "Half guard bottom escape uses the underhook and outside knee position to create a dogfight entry, from which you can wrestle up, sweep, or recover full guard. The system rewards hip mobility and head position over upper-body strength.",
+  "description": "Escape from bottom Half Guard by winning the underhook, creating a frame, and regaining Guard or standing up.",
+  "shortInstruction": "Win the underhook, bring the outside knee across the opponent's back, and drive to dogfight or recover butterfly Guard.",
+  "summary": "Half Guard bottom escape uses the underhook and outside knee position to create a dogfight entry, from which you can wrestle up, sweep, or recover full Guard. The system rewards hip mobility and head position over upper-body strength.",
   "whyItWorks": [
     "The underhook removes the opponent's crossface threat and gives you control of their upper body posture",
     "The outside knee across the back creates a structural wedge that prevents them from flattening you back down",
-    "The dogfight position gives you three branches: single leg (wrestle up), knee tap (sweep), or re-guard (recover butterfly)",
+    "The dogfight position gives you three branches: single leg (wrestle up), knee tap (sweep), or re-Guard (recover butterfly)",
     "Winning the head position (forehead to their jaw) prevents them from crushing you with shoulder pressure"
   ],
   "commonMistakes": [
@@ -23,13 +23,13 @@
     "Forehead to their jaw"
   ],
   "safetySummary": [
-    "Half guard is the most common place to injure fingers and toes — keep digits safe when gripping pants or inserting hooks",
+    "Half Guard is the most common place to injure fingers and toes — keep digits safe when gripping pants or inserting hooks",
     "If the opponent has a strong crossface, protect your neck by turning your head toward the mat before reaching for the underhook",
     "Do not force the dogfight if your knee is trapped — this can stress the MCL"
   ],
   "keyCorrections": [],
   "systemLogic": {
-    "corePrinciple": "The half guard bottom escape has three sequential steps: turn to side → win underhook → insert outside knee across back",
+    "corePrinciple": "The Half Guard bottom escape has three sequential steps: turn to side → win underhook → insert outside knee across back",
     "decisionTree": [
       {
         "condition": "General application",
@@ -45,18 +45,18 @@
       },
       {
         "condition": "General application",
-        "action": "From dogfight, you have three branches: single leg (they post far hand), knee tap (they post close), or re-guard (they drive into you)"
+        "action": "From dogfight, you have three branches: single leg (they post far hand), knee tap (they post close), or re-Guard (they drive into you)"
       }
     ]
   },
   "moneyDetails": [
-    "Half guard bottom is one of the most common positions in BJJ — a reliable escape here dramatically improves your overall game",
-    "A successful half guard escape leads directly to a dominant top position (side control or mount via the pass)",
-    "Escaping half guard to wrestle-up scores a takedown in competition (2 points) and establishes top control"
+    "Half Guard bottom is one of the most common positions in BJJ — a reliable escape here dramatically improves your overall game",
+    "A successful Half Guard escape leads directly to a dominant top position (Side Control or Mount via the pass)",
+    "Escaping Half Guard to wrestle-up scores a takedown in competition (2 points) and establishes top control"
   ],
   "fixItFast": [
-    "If they smash you flat before you get the underhook: go to deep half guard and sweep them over the trapped leg",
+    "If they smash you flat before you get the underhook: go to deep Half Guard and sweep them over the trapped leg",
     "If they crossface you hard: hide your head, go to your side, and use your top arm to frame on their biceps instead of reaching for the underhook",
-    "If they knee slide through your half guard: immediately turn into them, trap their passing leg between yours, and re-pummel for the underhook"
+    "If they knee slide through your Half Guard: immediately turn into them, trap their passing leg between yours, and re-pummel for the underhook"
   ]
 }

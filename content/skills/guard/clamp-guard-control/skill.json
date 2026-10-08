@@ -1,18 +1,18 @@
 {
-  "id": "clamp-guard-control",
+  "id": "clamp-Guard-control",
   "domain": "guard_offense",
   "level": "intermediate",
   "name": "Clamp Guard Control",
   "aliases": [],
   "tags": [
-    "clamp-guard",
+    "clamp-Guard",
     "shoulder-line",
     "overhook",
     "tier:modern-expansion",
     "meta:modern-common",
     "risk:medium",
-    "family:guard",
-    "group:clamp-guard",
+    "family:Guard",
+    "group:clamp-Guard",
     "modern-no-gi"
   ],
   "keywords": [
@@ -36,7 +36,7 @@
     }
   ],
   "prerequisiteSkillIds": [
-    "supine-guard-retention",
+    "supine-Guard-retention",
     "kimura-system"
   ],
   "relatedPositions": [],

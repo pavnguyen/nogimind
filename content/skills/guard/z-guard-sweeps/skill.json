@@ -1,17 +1,17 @@
 {
-  "id": "z-guard-sweeps",
+  "id": "z-Guard-sweeps",
   "domain": "guard_offense",
   "level": "intermediate",
   "name": "Z-Guard Sweeps & Deep Half",
   "aliases": [],
   "tags": [
-    "z-guard",
+    "z-Guard",
     "deep-half",
     "sweep",
-    "half-guard"
+    "half-Guard"
   ],
   "keywords": [
-    "z-guard",
+    "z-Guard",
     "deep half",
     "waiter sweep",
     "wrestle-up",
@@ -19,7 +19,7 @@
   ],
   "relatedSkills": [
     {
-      "id": "half-guard-wrestle-up",
+      "id": "half-Guard-wrestle-up",
       "type": "recommended"
     },
     {
@@ -32,8 +32,8 @@
     }
   ],
   "prerequisiteSkillIds": [
-    "half-guard-knee-shield",
-    "half-guard-wrestle-up"
+    "half-Guard-knee-shield",
+    "half-Guard-wrestle-up"
   ],
   "relatedPositions": [],
   "relatedConcepts": [],

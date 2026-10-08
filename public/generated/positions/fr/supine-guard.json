@@ -1,5 +1,5 @@
 {
-  "id": "supine-guard",
+  "id": "supine-Guard",
   "locale": "fr",
   "title": "Garde sur le dos",
   "category": "bottom_guard",
@@ -28,11 +28,11 @@
   "advancementOptions": [
     {
       "action": "Récupérer le knee shield ou une couche assise",
-      "nextPositionId": "knee-shield-half-guard",
+      "nextPositionId": "knee-shield-half-Guard",
       "relatedSkillIds": [
-        "supine-guard-retention",
-        "seated-guard-retention",
-        "k-guard-entry"
+        "supine-Guard-retention",
+        "seated-Guard-retention",
+        "k-Guard-entry"
       ],
       "why": "C’est la branche naturelle lorsque vous gagnez le point de contrôle principal et que l’adversaire est forcé de défendre."
     }
@@ -44,12 +44,12 @@
     "Vous devez poser une main loin pour éviter de tomber."
   ],
   "relatedSkillIds": [
-    "supine-guard-retention",
-    "seated-guard-retention",
-    "k-guard-entry"
+    "supine-Guard-retention",
+    "seated-Guard-retention",
+    "k-Guard-entry"
   ],
   "relatedConceptIds": [
-    "guard-retention-layers",
+    "Guard-retention-layers",
     "inside-position",
     "wedges"
   ]

@@ -4,7 +4,7 @@
   "title": "Hand Fighting",
   "category": "standing",
   "status": "neutral",
-  "description": "A hand-and-head-position battle to enter an underhook, collar tie, snapdown, single leg, or guard pull.",
+  "description": "A hand-and-head-position battle to enter an underhook, collar tie, snapdown, single leg, or Guard pull.",
   "topPlayerGoals": [
     "The top player wants to control Hand Fighting through head position, inside position, and directed pressure.",
     "Win wrist control, inside ties, and head position.",
@@ -27,7 +27,7 @@
   ],
   "advancementOptions": [
     {
-      "action": "Snap down to front headlock",
+      "action": "Snap down to Front Headlock",
       "nextPositionId": "front-headlock-top",
       "relatedSkillIds": [
         "hand-fighting",

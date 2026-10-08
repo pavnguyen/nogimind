@@ -86,7 +86,7 @@
     "Assuming every hand-on-neck attack is a choke — many are disguised cranks",
     "Trying to 'tough out' a neck crank thinking it will 'come on' like a choke — cranks do not resolve, they only get worse",
     "Not tapping early enough to neck cranks in training — the damage accumulates over months and years",
-    "Confusing a can opener (crank) with a collar choke (safe) — both can be applied from guard but have completely different mechanisms"
+    "Confusing a can opener (crank) with a collar choke (safe) — both can be applied from Guard but have completely different mechanisms"
   ],
   "coachingCues": [
     "Chin pressure = crank, tap now",
@@ -96,9 +96,9 @@
   ],
   "safetySummary": [
     "Neck cranks can cause disc herniation, ligament sprains, nerve impingement, and chronic neck pain",
-    "The can opener (pushing the back of the head toward the chest from guard) is the most common dangerous crank in BJJ",
+    "The can opener (pushing the back of the head toward the chest from Guard) is the most common dangerous crank in BJJ",
     "The twister (spinal lock from back control) aggressively rotates the cervical spine and can cause serious injury if applied suddenly",
-    "Some guillotine and D'Arce variations can become neck cranks if the angle is off — if you feel chin pressure, tap and re-set",
+    "Some Guillotine and D'Arce variations can become neck cranks if the angle is off — if you feel chin pressure, tap and re-set",
     "Even mild neck cranks cause cumulative damage — do not accept 10 'light' cranks per week as normal training"
   ],
   "systemLogic": {
@@ -106,14 +106,14 @@
     "decisionTree": [
       {
         "condition": "General application",
-        "action": "Blood choke (strangle): pressure is applied to the carotid arteries on both sides of the neck. Cause unconsciousness by preventing oxygenated blood from reaching the brain. Structure: cross-collar, rear-naked, triangle, guillotine (when correctly applied), baseball bat. Safe to train with controlled application"
+        "action": "Blood choke (strangle): pressure is applied to the carotid arteries on both sides of the neck. Cause unconsciousness by preventing oxygenated blood from reaching the brain. Structure: cross-collar, rear-naked, triangle, Guillotine (when correctly applied), baseball bat. Safe to train with controlled application"
       },
       {
         "condition": "General application",
         "action": "Air choke: pressure is applied to the trachea/windpipe. Causes difficulty breathing but does not cut off blood flow. Structure: front choke, some cross-collar variations, some baseball bat variations. Higher injury risk than blood choke"
       },
       {
-        "condition": "Neck crank: pressure is applied to the cervical spine via the chin, back of the head, or base of the skull. Structure: can opener, twister, some guillotine variations (when rolled), some D'Arce variations, some triangle variations. NOT safe to train aggressively",
+        "condition": "Neck crank: pressure is applied to the cervical spine via the chin, back of the head, or base of the skull. Structure: can opener, twister, some Guillotine variations (when rolled), some D'Arce variations, some triangle variations. NOT safe to train aggressively",
         "action": "cumulative damage"
       },
       {

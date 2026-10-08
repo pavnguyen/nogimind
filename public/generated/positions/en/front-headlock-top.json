@@ -4,7 +4,7 @@
   "title": "Front Headlock Top",
   "category": "front_headlock",
   "status": "advantage",
-  "description": "The top player controls the head and neck from the front, threatening a go-behind, guillotine, or back take.",
+  "description": "The top player controls the head and neck from the front, threatening a go-behind, Guillotine, or back take.",
   "topPlayerGoals": [
     "The top player wants to control Front Headlock Top through head position, inside position, and directed pressure.",
     "Keep the opponent’s head below the shoulder line and control the elbow or chin strap.",
@@ -31,7 +31,7 @@
       "nextPositionId": "turtle-top",
       "relatedSkillIds": [
         "snapdown-front-headlock",
-        "guillotine-system",
+        "Guillotine-system",
         "sprawl-go-behind"
       ],
       "why": "This is the natural branch when you win the main control point and the opponent is forced to defend."
@@ -45,7 +45,7 @@
   ],
   "relatedSkillIds": [
     "snapdown-front-headlock",
-    "guillotine-system",
+    "Guillotine-system",
     "sprawl-go-behind"
   ],
   "relatedConceptIds": [

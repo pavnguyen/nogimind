@@ -1,15 +1,15 @@
 {
-  "id": "half-guard-knee-shield",
+  "id": "half-Guard-knee-shield",
   "locale": "en",
   "name": "Half Guard Knee Shield",
-  "description": "Use the knee shield (Z-guard) to create distance, win the underhook battle, and transition to sweeps, wrestle-ups, or submissions.",
-  "shortInstruction": "Knee in their hip, frame on their head, win the underhook — knee shield is the control position of bottom half guard.",
-  "summary": "The knee shield (also called Z-guard) is the most stable position in bottom half guard. Your nearside knee is inserted between your chest and their hip, creating a frame that prevents them from applying chest pressure. From here, you can fight for the underhook, create distance, and attack with sweeps (deep half, waiter), submissions (kimura), or wrestle-ups. If you lose the knee shield, you get flattened — so protecting it is your number one priority.",
+  "description": "Use the knee shield (Z-Guard) to create distance, win the underhook battle, and transition to sweeps, wrestle-ups, or submissions.",
+  "shortInstruction": "Knee in their hip, frame on their head, win the underhook — knee shield is the control position of bottom Half Guard.",
+  "summary": "The knee shield (also called Z-Guard) is the most stable position in bottom Half Guard. Your nearside knee is inserted between your chest and their hip, creating a frame that prevents them from applying chest pressure. From here, you can fight for the underhook, create distance, and attack with sweeps (deep half, waiter), submissions (kimura), or wrestle-ups. If you lose the knee shield, you get flattened — so protecting it is your number one priority.",
   "whyItWorks": [
     "The knee shield creates a structural frame that prevents chest-to-chest pressure — without pressure, they cannot pass.",
     "It allows you to fight for the underhook from a safe distance, rather than getting flattened and smashed.",
     "The knee shield can be extended to create space or retracted to close distance for sweeps.",
-    "Danaher principle: distance is safety in bottom half guard — the knee shield is your distance tool."
+    "Danaher principle: distance is safety in bottom Half Guard — the knee shield is your distance tool."
   ],
   "commonMistakes": [
     "Letting them push your knee shield to the side or flatten it against your chest.",
@@ -29,11 +29,11 @@
     "When they drive forward, do not brace with a straight arm — bend your elbow to protect the joint."
   ],
   "systemLogic": {
-    "corePrinciple": "The knee shield (Z-guard) is a structural frame that prevents chest-to-chest pressure in bottom half guard. It is a transitional control position — you must attack (sweep, wrestle-up, or submission) rather than holding it passively.",
+    "corePrinciple": "The knee shield (Z-Guard) is a structural frame that prevents chest-to-chest pressure in bottom Half Guard. It is a transitional control position — you must attack (sweep, wrestle-up, or submission) rather than holding it passively.",
     "decisionTree": [
       {
         "condition": "Opponent drives forward with chest pressure",
-        "action": "Accept the pressure and enter deep half guard → waiter sweep. Their forward momentum feeds directly into the sweep. Do not resist the pressure — redirect it."
+        "action": "Accept the pressure and enter deep Half Guard → waiter sweep. Their forward momentum feeds directly into the sweep. Do not resist the pressure — redirect it."
       },
       {
         "condition": "Opponent postures up and lifts their weight",
@@ -49,7 +49,7 @@
       },
       {
         "condition": "You lose the underhook battle",
-        "action": "You cannot stay in knee shield without the underhook. Transition to deep half guard or recover to full guard. Do not stay flattened in bottom half."
+        "action": "You cannot stay in knee shield without the underhook. Transition to deep Half Guard or recover to full Guard. Do not stay flattened in bottom half."
       }
     ],
     "exitStrategies": [
@@ -62,9 +62,9 @@
     "Your knee must be framed against their hip, not their stomach — hip control prevents them from stepping over the shield.",
     "The underhook fight is won with your head: drive your head into their chest to create the space for your underhook.",
     "When they try to flatten your shield, extend your leg to push them away — then attack before they recover.",
-    "The kimura from knee shield is one of the highest percentage submissions in no-gi half guard — bait the crossface to enter it."
+    "The kimura from knee shield is one of the highest percentage submissions in no-gi Half Guard — bait the crossface to enter it."
   ],
-  "nextStep": "After knee shield control, learn the deep half sweep and kimura from half guard to chain with your attacks.",
+  "nextStep": "After knee shield control, learn the deep half sweep and kimura from Half Guard to chain with your attacks.",
   "fixItFast": [
     "Knee shield getting flattened? Extend your leg to push them away and re-frame.",
     "Can't get the underhook? Use a collar tie or wrist grip instead to control their posture.",

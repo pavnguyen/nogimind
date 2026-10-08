@@ -16,7 +16,7 @@
     "arm drag",
     "back take",
     "single leg",
-    "front headlock",
+    "Front Headlock",
     "angle",
     "footwork"
   ],
@@ -51,7 +51,7 @@
   "keyCorrections": [
     "If the opponent resists the drag: switch to a snapdown — their resistance becomes forward momentum",
     "If you cannot get behind them: your step was too short — the outside foot must clear their lead heel",
-    "If they counter with a guillotine: your head was too high — keep your head below their shoulder line"
+    "If they counter with a Guillotine: your head was too high — keep your head below their shoulder line"
   ],
   "version": 1,
   "updatedAt": "2026-05-21T00:24:30.769Z",
@@ -65,14 +65,14 @@
     "hasStateMachine": false
   },
   "locale": "en",
-  "description": "Pull the opponent's arm across the center line, combine head movement and footwork to take the back, single leg, or front headlock. The arm drag is the highest-percentage takedown entry in no-gi because it attacks the opponent's balance before their base.",
+  "description": "Pull the opponent's arm across the center line, combine head movement and footwork to take the back, single leg, or Front Headlock. The arm drag is the highest-percentage takedown entry in no-gi because it attacks the opponent's balance before their base.",
   "shortInstruction": "Pull their far arm across your center line, step behind their lead leg with your outside foot, and take the back or single leg. Keep your head low and to the outside.",
-  "summary": "The arm drag pulls the opponent's arm across your body, disrupting their base and exposing their back or far leg. From the arm drag, you have three primary branches: (1) back take — circle behind as they follow the drag, (2) single leg — drop to the far leg as they post, (3) front headlock — snap down as they resist the drag. The arm drag is the foundation of all blitz-style takedowns in no-gi.",
+  "summary": "The arm drag pulls the opponent's arm across your body, disrupting their base and exposing their back or far leg. From the arm drag, you have three primary branches: (1) back take — circle behind as they follow the drag, (2) single leg — drop to the far leg as they post, (3) Front Headlock — snap down as they resist the drag. The arm drag is the foundation of all blitz-style takedowns in no-gi.",
   "whyItWorks": [
     "Pulling the arm across the center line rotates the opponent's upper body, disrupting their base and balance",
     "The arm drag exposes the opponent's back or far leg — both are high-value targets",
     "The drag creates forward momentum that the opponent must resist — you can use this momentum against them",
-    "The arm drag is safe from guillotine counters because your head stays low and to the outside"
+    "The arm drag is safe from Guillotine counters because your head stays low and to the outside"
   ],
   "commonMistakes": [
     "Pulling the arm to your chest instead of across your body — the drag direction must be across, not toward",
@@ -104,11 +104,11 @@
       },
       {
         "condition": "Using Branch 3 (Front Headlock)",
-        "action": "if the opponent drops their level to resist the drag, snap them down into a front headlock. Their forward momentum carries them into the snapdown"
+        "action": "if the opponent drops their level to resist the drag, snap them down into a Front Headlock. Their forward momentum carries them into the snapdown"
       },
       {
         "condition": "Reading the opponent's reaction",
-        "action": "they follow the drag → back take. They post the far leg → single leg. They drop level → snapdown to front headlock"
+        "action": "they follow the drag → back take. They post the far leg → single leg. They drop level → snapdown to Front Headlock"
       }
     ],
     "exitStrategies": []
@@ -119,7 +119,7 @@
     "The arm drag is particularly effective against aggressive opponents who lunge forward"
   ],
   "fixItFast": [
-    "If they sprawl on the drag: switch to the front headlock — their sprawl leaves their neck exposed",
+    "If they sprawl on the drag: switch to the Front Headlock — their sprawl leaves their neck exposed",
     "If they pull back: change direction and re-drag the other arm",
     "If they grab your head: pummel inside and re-establish the drag grip"
   ]

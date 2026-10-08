@@ -4,11 +4,11 @@
   "name": "Inside Position",
   "description": "The ability to place hands, head, knees, or hips on the inside lane to win control races. Inside position is the foundation of all grappling control — whoever controls the inside controls the engagement.",
   "shortInstruction": "Beat their hands, knees, and elbows to the inside line. Your inside limb controls their center axis. Never concede inside position without re-pummeling.",
-  "summary": "Inside position is the control of the space between your body and the opponent's center line. From here, all submissions, sweeps, passes, and pins are generated. The inside position exists at four levels: hand inside (pummeling for wrist/elbow control), knee inside (pummeling for guard/half guard), hip inside (inside position for passing/sweeping), and head inside (head control for takedowns/turtle breaks). Loss of inside position at any level cascades upward — losing the knee inside leads to losing the hip inside.",
+  "summary": "Inside position is the control of the space between your body and the opponent's center line. From here, all submissions, sweeps, passes, and pins are generated. The inside position exists at four levels: hand inside (pummeling for wrist/elbow control), knee inside (pummeling for Guard/Half Guard), hip inside (inside position for passing/sweeping), and head inside (head control for takedowns/turtle breaks). Loss of inside position at any level cascades upward — losing the knee inside leads to losing the hip inside.",
   "whyItWorks": [
     "Inside position gives you mechanical leverage — your limb is between their limb and their center, allowing you to control their movement direction",
     "The inside hand/arm can attack submissions, control posture, and block their attempts from a shorter, stronger mechanical path",
-    "Inside knee position (knee between their legs) is the prerequisite for every guard entry, sweep, and leg lock attack",
+    "Inside knee position (knee between their legs) is the prerequisite for every Guard entry, sweep, and leg lock attack",
     "The opponent cannot attack effectively from outside position — they must first pummel back inside, which gives you time to read and counter"
   ],
   "commonMistakes": [
@@ -37,8 +37,8 @@
         "action": "Circle your elbow around theirs to pummel back inside. Do not reach around or grab from outside — the inside hand always wins the grip fight."
       },
       {
-        "condition": "Opponent closes their guard (denying knee inside)",
-        "action": "Stand up, disengage the knee, and re-engage with inside knee first. Do not force your knee through a closed guard."
+        "condition": "Opponent closes their Guard (denying knee inside)",
+        "action": "Stand up, disengage the knee, and re-engage with inside knee first. Do not force your knee through a Closed Guard."
       },
       {
         "condition": "You have inside position but lose it immediately",
@@ -66,7 +66,7 @@
   ],
   "fixItFast": [
     "If you keep losing the inside hand fight: switch to two-on-one control (both hands on one of their arms) to neutralize their inside hand advantage",
-    "If they have inside knee and you cannot get guard: stand up, disengage the knee, and re-engage with inside knee first",
+    "If they have inside knee and you cannot get Guard: stand up, disengage the knee, and re-engage with inside knee first",
     "If they have head inside (forehead to your jaw): turn your head away, frame on their biceps, and re-establish head position before continuing"
   ]
 }

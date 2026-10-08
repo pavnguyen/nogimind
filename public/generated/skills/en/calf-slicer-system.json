@@ -101,12 +101,12 @@
       },
       {
         "condition": "They spin out",
-        "action": "you lost hip control — re-establish guard or leg entanglement"
+        "action": "you lost hip control — re-establish Guard or leg entanglement"
       }
     ],
     "exitStrategies": [
       "If the calf slicer fails, transition to a heel hook or ankle lock",
-      "If you lose the leg entanglement, recover guard immediately"
+      "If you lose the leg entanglement, recover Guard immediately"
     ]
   },
   "moneyDetails": [
@@ -116,7 +116,7 @@
   ],
   "fixItFast": [
     "If they straighten their leg: release immediately and re-enter the leg entanglement",
-    "If they spin out: re-establish guard and try a different entry",
+    "If they spin out: re-establish Guard and try a different entry",
     "If the compression is not tight enough: bring your heels closer together"
   ]
 }

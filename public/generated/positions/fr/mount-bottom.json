@@ -1,13 +1,13 @@
 {
-  "id": "mount-bottom",
+  "id": "Mount-bottom",
   "locale": "fr",
   "title": "Mount dessous",
   "category": "pin",
   "status": "critical",
-  "description": "Le joueur du dessous est monté et doit protéger le cou et les bras tout en récupérant la connexion coude-genou avant que la high mount ne s’installe.",
+  "description": "Le joueur du dessous est monté et doit protéger le cou et les bras tout en récupérant la connexion coude-genou avant que la high Mount ne s’installe.",
   "topPlayerGoals": [
     "Le joueur du dessus veut contrôler Mount dessous avec la position de tête, la position intérieure et une pression orientée.",
-    "Le joueur du dessus veut isoler le coude et monter en high mount.",
+    "Le joueur du dessus veut isoler le coude et monter en high Mount.",
     "Garder une base stable pour éviter d’être déséquilibré ou contré."
   ],
   "bottomPlayerGoals": [
@@ -27,12 +27,12 @@
   ],
   "advancementOptions": [
     {
-      "action": "Récupérer la half guard ou la quarter guard",
-      "nextPositionId": "half-guard-bottom",
+      "action": "Récupérer la Half Guard ou la quarter Guard",
+      "nextPositionId": "half-Guard-bottom",
       "relatedSkillIds": [
-        "mount-survival",
-        "mount-escape",
-        "half-guard-knee-shield"
+        "Mount-survival",
+        "Mount-escape",
+        "half-Guard-knee-shield"
       ],
       "why": "C’est la branche naturelle lorsque vous gagnez le point de contrôle principal et que l’adversaire est forcé de défendre."
     }
@@ -44,9 +44,9 @@
     "Vous devez poser une main loin pour éviter de tomber."
   ],
   "relatedSkillIds": [
-    "mount-survival",
-    "mount-escape",
-    "half-guard-knee-shield"
+    "Mount-survival",
+    "Mount-escape",
+    "half-Guard-knee-shield"
   ],
   "relatedConceptIds": [
     "early-vs-late-defense",

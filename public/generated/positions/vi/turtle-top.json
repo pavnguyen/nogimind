@@ -7,12 +7,12 @@
   "description": "Người ở trên ride turtle, tìm kiểm soát cổ tay, áp lực hông, mat return hoặc mở lưng.",
   "topPlayerGoals": [
     "Người ở trên muốn kiểm soát Turtle Trên bằng vị trí đầu, vị trí trong và áp lực có hướng.",
-    "Ngăn stand-up hoặc re-guard và chuyển sang back control.",
+    "Ngăn stand-up hoặc re-Guard và chuyển sang back control.",
     "Giữ nền vững để không bị mất thăng bằng hoặc bị phản đòn."
   ],
   "bottomPlayerGoals": [
     "Người ở dưới muốn sống sót trong Turtle Trên bằng khung chặn, pummel hoặc góc phù hợp.",
-    "Không để near wrist bị kéo, xây base hoặc recover guard.",
+    "Không để near wrist bị kéo, xây base hoặc recover Guard.",
     "Nhận diện tín hiệu nguy hiểm sớm thay vì chờ vị trí ổn định."
   ],
   "controlPoints": [

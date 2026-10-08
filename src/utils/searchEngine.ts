@@ -7,7 +7,7 @@ import type { KnowledgeItemType, KnowledgeSearchResult } from '../types/knowledg
 import type { PositionNode } from '../types/position'
 import type { LanguageCode, LocalizedStringArray, LocalizedText, SkillNode } from '../types/skill'
 import type { TechniqueStateMachine } from '../types/stateMachine'
-import type { MicroDetailItem, TroubleshooterItem } from './knowledgeModules'
+import type { MicroDetailItem } from './knowledgeModules'
 import { getLocalizedArray, getLocalizedText } from './localization'
 
 export type SearchMode = 'quick' | 'deep'
@@ -26,7 +26,6 @@ export interface SearchDataBundle {
   techniqueStateMachines: TechniqueStateMachine[]
   techniqueStateMachineBySkillId: Map<string, TechniqueStateMachine>
   microDetails: MicroDetailItem[]
-  troubleshooters: TroubleshooterItem[]
 }
 
 let data: SearchDataBundle | null = null
@@ -115,7 +114,7 @@ const normalizeSearchTerm = (text: string) =>
     .trim()
 
 const grapplingTermAliases: Record<string, string[]> = {
-  guillotine: ['guillotine', 'guillotin', 'guilotine', 'gilotine', 'gilotin'],
+  Guillotine: ['Guillotine', 'guillotin', 'guilotine', 'gilotine', 'gilotin'],
   bodylock: ['bodylock', 'bodylok', 'khoa hong', 'body lock'],
   heelhook: ['heelhook', 'heel hook', 'outside heel hook', 'inside heel hook'],
   wrestleup: ['wrestleup', 'wrestle'],
@@ -139,8 +138,8 @@ const grapplingTermAliases: Record<string, string[]> = {
   'straight ankle lock': ['straight ankle lock', 'ankle lock', 'khoa co chan', 'bẻ cổ chân', 'cle de cheville'],
   'heel hook': ['heel hook', 'be got', 'crochet de talon'],
   'single leg x': ['single leg x', 'slx', 'single-leg-x', 'singlelegx'],
-  'k guard': ['k guard', 'k-guard', 'kguard'],
-  'front headlock': ['front headlock', 'fhl'],
+  'k Guard': ['k Guard', 'k-Guard', 'kguard'],
+  'Front Headlock': ['Front Headlock', 'fhl'],
   clamp: ['clamp', 'kep', 'kẹp', 'serrage', 'body clamp'],
   centerline: ['centerline', 'duong giua', 'truc giua', 'ligne centrale'],
   slack: ['slack', 'xoa slack', 'remove slack', 'retirer slack'],
@@ -151,25 +150,25 @@ const grapplingTermAliases: Record<string, string[]> = {
   'shoulder pressure diagonal': ['shoulder pressure diagonal', 'vai ep cheo', 'pression epaule diagonale'],
   'right hand left wrist': ['right hand left wrist', 'tay phai co tay trai', 'main droite poignet gauche'],
   'left foot right hip': ['left foot right hip', 'chan trai hong phai', 'pied gauche hanche droite'],
-  octopus: ['octopus', 'octopus guard', 'octopus sweep', 'octopus back take'],
-  'clamp guard': ['clamp guard', 'kep vai guard', 'kẹp vai', 'shoulder clamp'],
+  octopus: ['octopus', 'octopus Guard', 'octopus sweep', 'octopus back take'],
+  'clamp Guard': ['clamp Guard', 'kep vai Guard', 'kẹp vai', 'shoulder clamp'],
   'shoulder crunch': ['shoulder crunch', 'kep vai', 'contrôle épaule', 'controle epaule'],
-  's mount': ['s mount', 's-mount', 'smount'],
+  's Mount': ['s Mount', 's-Mount', 'smount'],
   gogoplata: ['gogoplata', 'shin throat', 'ong chan qua co'],
-  'buggy choke': ['buggy choke', 'buggy', 'side control bottom choke'],
+  'buggy choke': ['buggy choke', 'buggy', 'Side Control bottom choke'],
   'choi bar': ['choi bar', 'choibar'],
   tarikoplata: ['tarikoplata', 'tariko'],
   'crab ride': ['crab ride', 'crabride'],
   'wrist ride': ['wrist ride', 'cross wrist ride', 'dagestani handcuff'],
   'false reap': ['false reap', 'false-reap'],
-  matrix: ['matrix', 'k guard matrix', 'k-guard matrix'],
+  matrix: ['matrix', 'k Guard matrix', 'k-Guard matrix'],
   saddle: ['saddle', 'inside sankaku'],
-  dogfight: ['dogfight', 'underhook half guard'],
+  dogfight: ['dogfight', 'underhook Half Guard'],
   smother: ['smother', 'mother milk', 'mothers milk', 'ep nguc', 'pression poitrine'],
   'rear triangle': ['rear triangle', 'back triangle', 'tam giac sau'],
-  'high wrist guillotine': ['high wrist guillotine', 'high-wrist guillotine'],
-  'low wrist guillotine': ['low wrist guillotine', 'low-wrist guillotine', 'low elbow guillotine'],
-  'high elbow guillotine': ['high elbow guillotine', 'marcelotine', 'guillotine coude haut'],
+  'high wrist Guillotine': ['high wrist Guillotine', 'high-wrist Guillotine'],
+  'low wrist Guillotine': ['low wrist Guillotine', 'low-wrist Guillotine', 'low elbow Guillotine'],
+  'high elbow Guillotine': ['high elbow Guillotine', 'marcelotine', 'Guillotine coude haut'],
   'japanese necktie': ['japanese necktie', 'necktie', 'darce necktie', 'cavat cổ', 'cravate japonaise'],
   'peruvian necktie': ['peruvian necktie', 'cravate péruvienne', 'cravate peruvienne'],
   anaconda: ['anaconda', 'anaconda choke', 'anaconda roll', 'anaconda giro'],
@@ -456,7 +455,6 @@ const archetypeDocument = (archetype: GrapplingArchetype, lang: LanguageCode, mo
     field('title', archetype.title, lang, 8),
     field('description', [archetype.shortDescription, archetype.philosophy], lang, 4),
     field('best for', [archetype.bestFor, archetype.notIdealFor], lang, 2),
-    field('strategy', archetype.ifThenStrategy, lang, 3),
     field('training priorities', [archetype.trainingPriorities, archetype.commonWeaknesses], lang, 3),
     field('linked ids', [archetype.coreSkillIds, archetype.coreConceptIds, archetype.supportSkillIds], lang, 1),
   ],
@@ -475,23 +473,6 @@ const microDetailDocuments = (lang: LanguageCode): SearchDocument[] =>
       field('instruction', [detail.instruction, detail.whyItWorks, detail.correctionCue], lang, 5),
       field('body parts', detail.bodyParts, lang, 3),
       field('category', [detail.category, detail.skillDomain], lang, 2),
-    ],
-  }))
-
-const troubleshooterDocuments = (lang: LanguageCode): SearchDocument[] =>
-  getData().troubleshooters.map((item) => ({
-    id: `troubleshooter:${item.skillId}:${item.id}`,
-    type: 'troubleshooter',
-    title: item.title,
-    description: item.overview,
-    tags: [item.category],
-    url: `/troubleshooters/${item.skillId}`,
-    fields: [
-      field('title', item.title, lang, 8),
-      field('overview', item.overview, lang, 4),
-      field('checklist', item.checklist, lang, 3),
-      field('diagnoses', item.diagnoses, lang, 4),
-      field('safety notes', item.safetyNotes, lang, 2),
     ],
   }))
 
@@ -520,7 +501,6 @@ const documentBuilders: Record<KnowledgeItemType, (lang: LanguageCode, mode: Sea
   glossary: (lang, mode) => getData().glossaryTerms.map((term) => glossaryDocument(term, lang, mode)),
   defense: (lang, mode) => getData().defensiveLayers.map((layer) => defenseDocument(layer, lang, mode)),
   micro_detail: (lang, mode) => mode === 'deep' ? microDetailDocuments(lang) : [],
-  troubleshooter: (lang, mode) => mode === 'deep' ? troubleshooterDocuments(lang) : [],
   archetype: (lang, mode) => getData().archetypes.map((archetypeValue) => archetypeDocument(archetypeValue, lang, mode)),
 }
 

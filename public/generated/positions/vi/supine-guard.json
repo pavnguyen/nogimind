@@ -1,10 +1,10 @@
 {
-  "id": "supine-guard",
+  "id": "supine-Guard",
   "locale": "vi",
   "title": "Guard nằm ngửa",
   "category": "bottom_guard",
   "status": "defensive",
-  "description": "Người guard nằm ngửa dùng bàn chân, đầu gối, frame và góc hông để ngăn passer vào chest-to-chest.",
+  "description": "Người Guard nằm ngửa dùng bàn chân, đầu gối, frame và góc hông để ngăn passer vào chest-to-chest.",
   "topPlayerGoals": [
     "Người ở trên muốn kiểm soát Guard nằm ngửa bằng vị trí đầu, vị trí trong và áp lực có hướng.",
     "Staple chân và thắng đường hông trước khi pass.",
@@ -12,7 +12,7 @@
   ],
   "bottomPlayerGoals": [
     "Người ở dưới muốn sống sót trong Guard nằm ngửa bằng khung chặn, pummel hoặc góc phù hợp.",
-    "Giữ bàn chân và đầu gối ở trong để recover seated guard hoặc vào leg entry.",
+    "Giữ bàn chân và đầu gối ở trong để recover seated Guard hoặc vào leg entry.",
     "Nhận diện tín hiệu nguy hiểm sớm thay vì chờ vị trí ổn định."
   ],
   "controlPoints": [
@@ -28,11 +28,11 @@
   "advancementOptions": [
     {
       "action": "Recover knee shield hoặc seated layer",
-      "nextPositionId": "knee-shield-half-guard",
+      "nextPositionId": "knee-shield-half-Guard",
       "relatedSkillIds": [
-        "supine-guard-retention",
-        "seated-guard-retention",
-        "k-guard-entry"
+        "supine-Guard-retention",
+        "seated-Guard-retention",
+        "k-Guard-entry"
       ],
       "why": "Đây là nhánh tự nhiên khi bạn thắng điểm kiểm soát chính và đối thủ buộc phải phòng thủ."
     }
@@ -44,12 +44,12 @@
     "Bạn phải chống tay dài để không ngã."
   ],
   "relatedSkillIds": [
-    "supine-guard-retention",
-    "seated-guard-retention",
-    "k-guard-entry"
+    "supine-Guard-retention",
+    "seated-Guard-retention",
+    "k-Guard-entry"
   ],
   "relatedConceptIds": [
-    "guard-retention-layers",
+    "Guard-retention-layers",
     "inside-position",
     "wedges"
   ]

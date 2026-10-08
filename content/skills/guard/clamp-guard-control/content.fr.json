@@ -1,10 +1,10 @@
 {
-  "id": "clamp-guard-control",
+  "id": "clamp-Guard-control",
   "locale": "fr",
-  "name": "Pince guard Contrôle",
+  "name": "Pince Guard Contrôle",
   "description": "Serrez la ligne d'épaule de l'adversaire entre votre genou et overhook, avec le contrôle du poignet, pour créer un dilemme armbar, triangle ou omoplata auquel il ne peut pas échapper sans abandonner une entrée de soumission.",
   "shortInstruction": "Genou sur l'épaule, overhook le bras, contrôlez le poignet de l'autre côté - la pince est une soumission qui attend de se produire.",
-  "summary": "La pince guard (également appelée « pince » ou « pince à bras ») épingle le bras de l'adversaire sur votre corps pendant que votre genou bloque son épaule. Cela crée un deux contre un sur le bras coincé. À partir de là, chaque réaction qu'ils font ouvre une soumission : ils se positionnent dans le triangle, ils se retirent dans le armbar, ils roulent dans le omoplata.",
+  "summary": "La pince Guard (également appelée « pince » ou « pince à bras ») épingle le bras de l'adversaire sur votre corps pendant que votre genou bloque son épaule. Cela crée un deux contre un sur le bras coincé. À partir de là, chaque réaction qu'ils font ouvre une soumission : ils se positionnent dans le triangle, ils se retirent dans le armbar, ils roulent dans le omoplata.",
   "whyItWorks": [
     "En épinglant leur bras avec votre genou et overhook, vous isolez entièrement un bras – ils ne peuvent se défendre qu'avec le bras libre.",
     "La pince supprime leur capacité de posture, puisque leur tête et leurs épaules sont épinglées contre votre poitrine.",
@@ -25,7 +25,7 @@
   ],
   "safetySummary": [
     "Ne lancez pas les soumissions à partir de la pince - contrôlez d'abord la position, puis appliquez la finition en douceur.",
-    "Protégez votre propre cou : gardez votre tête serrée contre sa poitrine, sans la laisser pendre dans une ligne guillotine.",
+    "Protégez votre propre cou : gardez votre tête serrée contre sa poitrine, sans la laisser pendre dans une ligne Guillotine.",
     "S'ils vous empilent, relâchez la pince et réinitialisez-vous - ne combattez pas la pile avec une pince verrouillée."
   ],
   "keyCorrections": [
@@ -56,6 +56,6 @@
   "fixItFast": [
     "Le genou continue de glisser ? Creusez-le plus profondément dans l'aisselle, pas dans les côtes.",
     "overhook se sent faible ? Verrouillez vos mains autour de son bras pour plus de sécurité.",
-    "Ils vous empilent ? Relâchez la pince, placez-la sur ses hanches et réinitialisez-la à open guard."
+    "Ils vous empilent ? Relâchez la pince, placez-la sur ses hanches et réinitialisez-la à open Guard."
   ]
 }

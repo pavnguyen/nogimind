@@ -17,7 +17,7 @@
   ],
   "relatedSkills": [
     {
-      "id": "guillotine-system",
+      "id": "Guillotine-system",
       "type": "recommended"
     },
     {
@@ -62,7 +62,7 @@
   "locale": "vi",
   "description": "Tạo ra hai mối đe dọa để đối thủ phải phòng thủ một tuyến và vạch trần tuyến kia. Một tình thế tiến thoái lưỡng nan buộc đối phương phải lựa chọn giữa hai phương án tồi - công việc của bạn là đưa ra lựa chọn đó và tận dụng một trong hai phương án phản ứng.",
   "shortInstruction": "Liên kết hai đòn tấn công bổ sung cho nhau để phòng thủ cái này mở ra cái kia. Nếu họ chặn việc quét, hãy gửi bài. Nếu họ chặn việc gửi, hãy hoàn tất quá trình quét.",
-  "summary": "Một thế tiến thoái lưỡng nan là bất kỳ vị trí nào mà phản ứng phòng thủ của đối phương trước một đòn tấn công sẽ mở ra một đòn tấn công thứ hai, nguy hiểm không kém. Các tình huống khó xử mạnh mẽ nhất liên kết một cú quét và một cú khuất phục (ví dụ: quét cắt kéo → kimura từ closed guard) hoặc một đường chuyền và một cú lùi (ví dụ: chuyền sang một bên để lộ mặt sau). Hệ thống dạy bạn cách tấn công theo chuỗi thay vì bắn các kỹ thuật đơn lẻ và khởi động lại khi thất bại.",
+  "summary": "Một thế tiến thoái lưỡng nan là bất kỳ vị trí nào mà phản ứng phòng thủ của đối phương trước một đòn tấn công sẽ mở ra một đòn tấn công thứ hai, nguy hiểm không kém. Các tình huống khó xử mạnh mẽ nhất liên kết một cú quét và một cú khuất phục (ví dụ: quét cắt kéo → kimura từ Closed Guard) hoặc một đường chuyền và một cú lùi (ví dụ: chuyền sang một bên để lộ mặt sau). Hệ thống dạy bạn cách tấn công theo chuỗi thay vì bắn các kỹ thuật đơn lẻ và khởi động lại khi thất bại.",
   "whyItWorks": [
     "Bộ não con người bị giới hạn trong việc xử lý một mối đe dọa lớn tại một thời điểm - một tình huống khó xử thực sự sẽ phân tán sự chú ý của họ và đảm bảo độ trễ phản ứng",
     "Các cuộc tấn công liên kết tạo ra áp lực gộp - ngay cả khi họ phòng thủ hoàn hảo đòn tấn công đầu tiên, họ vẫn đến một vị trí tồi tệ hơn so với nơi họ bắt đầu",
@@ -107,7 +107,7 @@
       },
       {
         "condition": "Các ví dụ về vấn đề nan giải thường gặp",
-        "action": "closed guard: quét cắt kéo (họ đăng tay → kimura) hoặc armbar (họ tạo tư thế → triangle). mount: armbar (họ bảo vệ cánh tay → khóa chéo) hoặc khóa chéo (họ bảo vệ cổ → armbar). Mặt sau: rear-naked choke (bảo vệ cổ → cung tên) hoặc cung tên (bảo vệ hông → RNC). Khóa chân: heel hook (họ phòng thủ bên trong → bên ngoài ashi) hoặc thẳng ankle lock (họ phòng thủ heel hook → ankle lock)"
+        "action": "Closed Guard: quét cắt kéo (họ đăng tay → kimura) hoặc armbar (họ tạo tư thế → triangle). Mount: armbar (họ bảo vệ cánh tay → khóa chéo) hoặc khóa chéo (họ bảo vệ cổ → armbar). Back: rear-naked choke (bảo vệ cổ → bow-and-arrow) hoặc bow-and-arrow (bảo vệ hông → RNC). Leg Lock: heel hook (họ phòng thủ bên trong → bên ngoài ashi) hoặc thẳng ankle lock (họ phòng thủ heel hook → ankle lock)"
       }
     ],
     "exitStrategies": []

@@ -1,10 +1,10 @@
 {
-  "id": "mount-top",
+  "id": "Mount-top",
   "locale": "en",
   "title": "Mount Top",
   "category": "pin",
   "status": "dominant",
-  "description": "The top player sits over the opponent’s hips or chest, separates the elbows, and opens high mount or submissions.",
+  "description": "The top player sits over the opponent’s hips or chest, separates the elbows, and opens high Mount or submissions.",
   "topPlayerGoals": [
     "The top player wants to control Mount Top through head position, inside position, and directed pressure.",
     "Stabilize the hips, separate the elbows, and create a choke or arm isolation.",
@@ -27,12 +27,12 @@
   ],
   "advancementOptions": [
     {
-      "action": "Isolate an arm triangle or climb to high mount",
+      "action": "Isolate an arm triangle or climb to high Mount",
       "nextPositionId": "arm-triangle-threat",
       "relatedSkillIds": [
-        "mount-control",
-        "mount-escape",
-        "arm-triangle-mount"
+        "Mount-control",
+        "Mount-escape",
+        "arm-triangle-Mount"
       ],
       "why": "This is the natural branch when you win the main control point and the opponent is forced to defend."
     }
@@ -44,9 +44,9 @@
     "You need a long hand post to avoid falling."
   ],
   "relatedSkillIds": [
-    "mount-control",
-    "mount-escape",
-    "arm-triangle-mount"
+    "Mount-control",
+    "Mount-escape",
+    "arm-triangle-Mount"
   ],
   "relatedConceptIds": [
     "control-before-submission",

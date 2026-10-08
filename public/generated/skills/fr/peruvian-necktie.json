@@ -7,7 +7,7 @@
   "aliases": [
     "Peruvian",
     "Peruvian choke",
-    "front headlock choke"
+    "Front Headlock choke"
   ],
   "tags": [
     "tier:advanced-niche",
@@ -18,7 +18,7 @@
   ],
   "keywords": [
     "Peruvian necktie",
-    "front headlock choke",
+    "Front Headlock choke",
     "Peruvian choke",
     "carotid choke"
   ],
@@ -49,7 +49,7 @@
   "nextSkillIds": [],
   "searchBoost": 1,
   "keyCorrections": [
-    "S'ils tournent vers vous : passez à la guillotine ou au D'Arce",
+    "S'ils tournent vers vous : passez à la Guillotine ou au D'Arce",
     "S'ils se redressent : la Peruvian est disponible — faites un pas et pliez",
     "S'ils deviennent mous : la Peruvian ne fonctionnera pas — passez au turtle ride ou à la prise de dos"
   ],
@@ -65,14 +65,14 @@
     "hasStateMachine": false
   },
   "locale": "fr",
-  "description": "Le Peruvian necktie est un étranglement en front headlock qui se termine en pliant le corps de l'adversaire vers l'avant tout en comprimant les deux côtés de son cou.",
-  "shortInstruction": "Depuis le front headlock, glissez le bras sous le cou, attrapez votre propre biceps, enroulez l'autre bras par-dessus la tête, faites un pas sur le côté et pliez leur corps vers l'avant.",
-  "summary": "La Peruvian necktie comprime les deux artères carotides simultanément en utilisant votre avant-bras et votre biceps. Ce n'est pas une compression — le poids du corps de l'adversaire crée l'étranglement quand vous les pliez vers l'avant. Disponible quand l'adversaire se détourne du front headlock.",
+  "description": "Le Peruvian necktie est un étranglement en Front Headlock qui se termine en pliant le corps de l'adversaire vers l'avant tout en comprimant les deux côtés de son cou.",
+  "shortInstruction": "Depuis le Front Headlock, glissez le bras sous le cou, attrapez votre propre biceps, enroulez l'autre bras par-dessus la tête, faites un pas sur le côté et pliez leur corps vers l'avant.",
+  "summary": "La Peruvian necktie comprime les deux artères carotides simultanément en utilisant votre avant-bras et votre biceps. Ce n'est pas une compression — le poids du corps de l'adversaire crée l'étranglement quand vous les pliez vers l'avant. Disponible quand l'adversaire se détourne du Front Headlock.",
   "whyItWorks": [
     "Votre avant-bras et votre biceps compriment les deux carotides simultanément — c'est un étranglement sanguin, pas une torsion du cou",
     "Plier leur corps vers l'avant les empêche de se redresser — leur propre poids serre l'étranglement",
     "La prise crée une structure verrouillée qui ne peut pas être décollée",
-    "La Peruvian necktie complète la guillotine (qui fonctionne quand ils tournent vers l'intérieur) — elle fonctionne quand ils tournent vers l'extérieur"
+    "La Peruvian necktie complète la Guillotine (qui fonctionne quand ils tournent vers l'intérieur) — elle fonctionne quand ils tournent vers l'extérieur"
   ],
   "commonMistakes": [
     "Serrer avec les bras au lieu d'utiliser le poids du corps — cela fatigue les bras et n'étrangle pas efficacement",
@@ -92,11 +92,11 @@
     "Assurez-vous que le bras étrangleur est positionné correctement pour éviter de comprimer la trachée"
   ],
   "systemLogic": {
-    "corePrinciple": "Peruvian necktie : front headlock → l'adversaire se détourne (déclencheur) → glissez le bras sous le cou et attrapez votre propre biceps → enroulez l'autre bras par-dessus la tête → verrouillez en figure-four → faites un pas sur le côté → pliez leur corps vers l'avant — leur poids serre l'étranglement.",
+    "corePrinciple": "Peruvian necktie : Front Headlock → l'adversaire se détourne (déclencheur) → glissez le bras sous le cou et attrapez votre propre biceps → enroulez l'autre bras par-dessus la tête → verrouillez en figure-four → faites un pas sur le côté → pliez leur corps vers l'avant — leur poids serre l'étranglement.",
     "decisionTree": [
       {
         "condition": "Ils tournent vers vous au lieu de se détourner",
-        "action": "passez à la guillotine ou au D'Arce"
+        "action": "passez à la Guillotine ou au D'Arce"
       },
       {
         "condition": "Ils se redressent",
@@ -104,18 +104,18 @@
       }
     ],
     "exitStrategies": [
-      "Si la Peruvian ne finit pas, passez au front headlock et réattaquez",
-      "S'ils s'échappent, utilisez le front headlock pour les rabattre au sol"
+      "Si la Peruvian ne finit pas, passez au Front Headlock et réattaquez",
+      "S'ils s'échappent, utilisez le Front Headlock pour les rabattre au sol"
     ]
   },
   "moneyDetails": [
-    "La Peruvian necktie est l'un des étranglements les plus efficaces depuis la position de front headlock",
-    "Maîtriser la Peruvian vous donne une finition quand l'adversaire se détourne — elle complète le système de front headlock",
-    "La Peruvian necktie est particulièrement efficace contre les adversaires qui essaient de se redresser hors du front headlock"
+    "La Peruvian necktie est l'un des étranglements les plus efficaces depuis la position de Front Headlock",
+    "Maîtriser la Peruvian vous donne une finition quand l'adversaire se détourne — elle complète le système de Front Headlock",
+    "La Peruvian necktie est particulièrement efficace contre les adversaires qui essaient de se redresser hors du Front Headlock"
   ],
   "fixItFast": [
-    "S'ils défendent en attrapant votre bras étrangleur : repompez vers le front headlock et réattaquez",
-    "S'ils tournent vers l'intérieur : passez immédiatement à la guillotine",
+    "S'ils défendent en attrapant votre bras étrangleur : repompez vers le Front Headlock et réattaquez",
+    "S'ils tournent vers l'intérieur : passez immédiatement à la Guillotine",
     "Si l'étranglement n'est pas serré : faites un pas plus profond sur le côté avant de plier"
   ]
 }

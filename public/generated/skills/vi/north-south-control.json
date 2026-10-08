@@ -3,7 +3,7 @@
   "domain": "pins_rides",
   "level": "intermediate",
   "status": "draft",
-  "name": "Kiểm soát Bắc Nam",
+  "name": "Kiểm soát North-South Control",
   "aliases": [],
   "tags": [
     "north-south",
@@ -40,7 +40,7 @@
   "relatedArchetypeIds": [],
   "prerequisiteSkillIds": [
     "side-control-pin",
-    "mount-control"
+    "Mount-control"
   ],
   "trainingMethodIds": [],
   "nextSkillIds": [],
@@ -62,14 +62,14 @@
     "hasStateMachine": false
   },
   "locale": "vi",
-  "description": "Sử dụng áp lực từ vai, ngực vào ngực và điều khiển cánh tay từ bắc nam để bóp nghẹt hoặc chuyển tiếp. north-south là một chốt được đánh giá thấp nhằm nén đường vai của đối thủ và thiết lập các mục gửi duy nhất.",
-  "shortInstruction": "Đặt đầu của bạn vào xương ức của họ, ép khuỷu tay của bạn vào vai họ và dồn trọng lượng của bạn vào ngực họ. Tìm kiếm hiện tượng ngắt quãng north-south hoặc chuyển sang side control.",
-  "summary": "Điều khiển north-south sử dụng sự căn chỉnh của cơ thể dọc theo đường giữa của đối phương để nén đường vai của họ và hạn chế chuyển động. Các điểm áp lực chính là: đầu của bạn ấn vào xương ức của họ (ngăn họ nhìn đi chỗ khác), cánh tay của bạn giữ vai họ (ngăn cản chuyển động của cánh tay) và trọng lượng ngực của bạn đè lên thân của họ (hạn chế thở và chuyển động hông). north-south là một chân chuyển tiếp dẫn đến các chuyển đổi north-south, kimura hoặc side control.",
+  "description": "Sử dụng áp lực từ vai, ngực vào ngực và điều khiển cánh tay từ North-South Control để bóp nghẹt hoặc chuyển tiếp. north-south là một chốt được đánh giá thấp nhằm nén đường vai của đối thủ và thiết lập các mục gửi duy nhất.",
+  "shortInstruction": "Đặt đầu của bạn vào xương ức của họ, ép khuỷu tay của bạn vào vai họ và dồn trọng lượng của bạn vào ngực họ. Tìm kiếm hiện tượng ngắt quãng north-south hoặc chuyển sang Side Control.",
+  "summary": "Điều khiển north-south sử dụng sự căn chỉnh của cơ thể dọc theo đường giữa của đối phương để nén đường vai của họ và hạn chế chuyển động. Các điểm áp lực chính là: đầu của bạn ấn vào xương ức của họ (ngăn họ nhìn đi chỗ khác), cánh tay của bạn giữ vai họ (ngăn cản chuyển động của cánh tay) và trọng lượng ngực của bạn đè lên thân của họ (hạn chế thở và chuyển động hông). north-south là một chân chuyển tiếp dẫn đến các chuyển đổi north-south, kimura hoặc Side Control.",
   "whyItWorks": [
     "Áp lực đầu lên xương ức khiến đối phương không thể quay đầu hoặc nhìn đi chỗ khác, đây là bước đầu tiên của hầu hết các cuộc chạy trốn",
     "Nén cánh tay (ép khuỷu tay của bạn để giữ cánh tay của họ) ngăn họ đóng khung hoặc đăng để trốn thoát",
     "Sức ép từ ngực đến ngực hạn chế chuyển động của cơ hoành, tạo ra tình trạng hô hấp gấp buộc họ phải cố gắng trốn thoát",
-    "Vị trí north-south tấn công một mặt phẳng khác với side control — đối thủ không thể sử dụng cùng một cơ chế thoát hiểm"
+    "Vị trí north-south tấn công một mặt phẳng khác với Side Control — đối thủ không thể sử dụng cùng một cơ chế thoát hiểm"
   ],
   "commonMistakes": [
     "Để đầu bạn lệch sang một bên - đầu phải ép vào xương ức để duy trì áp lực",
@@ -105,7 +105,7 @@
       },
       {
         "condition": "Từ north-south",
-        "action": "bạn có ba nhánh tấn công: (1) north-south bóp cổ, trượt cẳng tay của bạn dưới cổ họ trong khi vẫn giữ áp lực đầu, (2) kimura — cô lập cánh tay gần của họ và xoay vào tay cầm kimura, (3) Chuyển sang side control hoặc knee-on-belly"
+        "action": "bạn có ba nhánh tấn công: (1) north-south bóp cổ, trượt cẳng tay của bạn dưới cổ họ trong khi vẫn giữ áp lực đầu, (2) kimura — cô lập cánh tay gần của họ và xoay vào tay cầm kimura, (3) Chuyển sang Side Control hoặc knee-on-belly"
       },
       {
         "condition": "Ứng dụng chung",
@@ -115,8 +115,8 @@
     "exitStrategies": []
   },
   "moneyDetails": [
-    "north-south là một trong những chốt ít được bảo vệ nhất trong BJJ — hầu hết các vận động viên vật lộn đều luyện tập rộng rãi để side control trốn thoát nhưng lại bỏ bê north-south",
-    "Cú giật north-south là một cú trình diễn có tỷ lệ phần trăm cao có thể hạ gục ngay cả những vận động viên vật lộn có kinh nghiệm guard",
+    "north-south là một trong những chốt ít được bảo vệ nhất trong BJJ — hầu hết các vận động viên vật lộn đều luyện tập rộng rãi để Side Control trốn thoát nhưng lại bỏ bê north-south",
+    "Cú giật north-south là một cú trình diễn có tỷ lệ phần trăm cao có thể hạ gục ngay cả những vận động viên vật lộn có kinh nghiệm Guard",
     "Việc nắm vững khả năng điều khiển north-south mang đến cho bạn một trò chơi hàng đầu hoàn chỉnh tấn công cả hai mặt phẳng (đường bên và đường giữa)"
   ],
   "fixItFast": [

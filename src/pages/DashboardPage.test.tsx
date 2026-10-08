@@ -65,8 +65,8 @@ describe('DashboardPage', () => {
     // Refresh icon should spin while loading
     expect(container.querySelector('.animate-spin')).toBeInTheDocument()
 
-    // No skill card link yet
-    expect(screen.queryByRole('link', { name: /skill/i })).not.toBeInTheDocument()
+    // The daily skill card link is not available until manifest data loads
+    expect(container.querySelector('a[href="/skills/skill-01"]')).not.toBeInTheDocument()
 
     // No empty state
     expect(screen.queryByText('common.empty')).not.toBeInTheDocument()
@@ -78,7 +78,7 @@ describe('DashboardPage', () => {
     const mockManifest = [
       makeManifestEntry('skill-01', {
         name: 'Armbar from Guard',
-        summary: 'A fundamental submission from closed guard.',
+        summary: 'A fundamental submission from Closed Guard.',
       }),
     ]
 
@@ -90,12 +90,12 @@ describe('DashboardPage', () => {
     renderPage()
 
     // Card title renders as a link to the skill detail page
-    const cardLink = screen.getByRole('link', { name: /armbar from guard/i })
+    const cardLink = screen.getByRole('link', { name: /armbar from Guard/i })
     expect(cardLink).toBeInTheDocument()
     expect(cardLink).toHaveAttribute('href', '/skills/skill-01')
 
     // Description renders
-    expect(screen.getByText('A fundamental submission from closed guard.')).toBeInTheDocument()
+    expect(screen.getByText('A fundamental submission from Closed Guard.')).toBeInTheDocument()
 
     // Open link renders in the card footer
     expect(screen.getAllByText('common.open').length).toBeGreaterThanOrEqual(1)
@@ -136,7 +136,7 @@ describe('DashboardPage', () => {
 
     expect(screen.getByText('nav.learn')).toBeInTheDocument()
     expect(screen.getByText('nav.study')).toBeInTheDocument()
-    expect(screen.getByText('nav.fix')).toBeInTheDocument()
+    expect(screen.getByText('nav.defense')).toBeInTheDocument()
     expect(screen.getByText('nav.build')).toBeInTheDocument()
     expect(screen.getByText('nav.reference')).toBeInTheDocument()
   })
@@ -151,11 +151,14 @@ describe('DashboardPage', () => {
 
     expect(screen.getByText('dashboard.newUpdates.heading')).toBeInTheDocument()
     expect(screen.getByText('dashboard.newUpdates.item1')).toBeInTheDocument()
-    expect(screen.getByText('dashboard.newUpdates.item2')).toBeInTheDocument()
-    expect(screen.getByText('dashboard.newUpdates.item3')).toBeInTheDocument()
+
+    const skillLinks = screen.getAllByRole('link', { name: /dashboard\.newUpdates\.viewSkill/ })
+    expect(skillLinks).toHaveLength(2)
+    expect(skillLinks[0]).toHaveAttribute('href', '/skills/thunder-lock')
+    expect(skillLinks[1]).toHaveAttribute('href', '/skills/mussolini-lock')
   })
 
-  it('renders fix/problem section with troubleshooters and defense links', () => {
+  it('does not render the standalone fix/problem board', () => {
     vi.mocked(useQuery).mockReturnValue({
       data: [makeManifestEntry('skill-01')],
       isLoading: false,
@@ -163,9 +166,7 @@ describe('DashboardPage', () => {
 
     renderPage()
 
-    expect(screen.getByText('modeUx.fix.heading')).toBeInTheDocument()
-    expect(screen.getByText('modeUx.reference.items.troubleshooters.title')).toBeInTheDocument()
-    expect(screen.getByText('modeUx.reference.items.defense.title')).toBeInTheDocument()
+    expect(screen.queryByText('modeUx.fix.heading')).not.toBeInTheDocument()
   })
 
   it('uses daily refresh button that is accessible via aria-label', () => {

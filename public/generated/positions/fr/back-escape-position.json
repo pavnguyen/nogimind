@@ -7,7 +7,7 @@
   "description": "Le défenseur sort du contrôle du dos par le hand fighting, l’épaule au tapis et le retrait du hook.",
   "topPlayerGoals": [
     "Le joueur du dessus veut contrôler Position de sortie du dos avec la position de tête, la position intérieure et une pression orientée.",
-    "L’attaquant veut récupérer le hook ou passer en mount.",
+    "L’attaquant veut récupérer le hook ou passer en Mount.",
     "Garder une base stable pour éviter d’être déséquilibré ou contré."
   ],
   "bottomPlayerGoals": [
@@ -27,12 +27,12 @@
   ],
   "advancementOptions": [
     {
-      "action": "L’attaquant passe en mount si le dos est perdu",
-      "nextPositionId": "mount-top",
+      "action": "L’attaquant passe en Mount si le dos est perdu",
+      "nextPositionId": "Mount-top",
       "relatedSkillIds": [
         "back-escape",
         "back-control",
-        "mount-control"
+        "Mount-control"
       ],
       "why": "C’est la branche naturelle lorsque vous gagnez le point de contrôle principal et que l’adversaire est forcé de défendre."
     }
@@ -46,7 +46,7 @@
   "relatedSkillIds": [
     "back-escape",
     "back-control",
-    "mount-control"
+    "Mount-control"
   ],
   "relatedConceptIds": [
     "early-vs-late-defense",

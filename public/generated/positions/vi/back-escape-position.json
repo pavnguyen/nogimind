@@ -7,7 +7,7 @@
   "description": "Defender đang thoát back bằng hand fighting, đưa vai xuống thảm và clear hook.",
   "topPlayerGoals": [
     "Người ở trên muốn kiểm soát Vị trí Thoát Back bằng vị trí đầu, vị trí trong và áp lực có hướng.",
-    "Attacker muốn recover hook hoặc chuyển sang mount.",
+    "Attacker muốn recover hook hoặc chuyển sang Mount.",
     "Giữ nền vững để không bị mất thăng bằng hoặc bị phản đòn."
   ],
   "bottomPlayerGoals": [
@@ -27,12 +27,12 @@
   ],
   "advancementOptions": [
     {
-      "action": "Attacker chuyển sang mount nếu mất back",
-      "nextPositionId": "mount-top",
+      "action": "Attacker chuyển sang Mount nếu mất back",
+      "nextPositionId": "Mount-top",
       "relatedSkillIds": [
         "back-escape",
         "back-control",
-        "mount-control"
+        "Mount-control"
       ],
       "why": "Đây là nhánh tự nhiên khi bạn thắng điểm kiểm soát chính và đối thủ buộc phải phòng thủ."
     }
@@ -46,7 +46,7 @@
   "relatedSkillIds": [
     "back-escape",
     "back-control",
-    "mount-control"
+    "Mount-control"
   ],
   "relatedConceptIds": [
     "early-vs-late-defense",

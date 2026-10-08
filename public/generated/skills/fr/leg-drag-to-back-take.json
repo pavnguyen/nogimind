@@ -42,7 +42,7 @@
   "nextSkillIds": [],
   "searchBoost": 1,
   "keyCorrections": [
-    "S'ils ne s'appuient pas sur le bras éloigné : continuez la leg drag jusqu'au side control ou mount",
+    "S'ils ne s'appuient pas sur le bras éloigné : continuez la leg drag jusqu'au Side Control ou Mount",
     "S'ils s'appuient et vous passez dessous : back control établi",
     "S'ils se détournent pendant la traînée : relâchez la jambe et prenez le dos directement"
   ],
@@ -89,7 +89,7 @@
     "decisionTree": [
       {
         "condition": "Ils ne s'appuient pas sur le bras éloigné",
-        "action": "continuez la leg drag jusqu'au side control ou mount"
+        "action": "continuez la leg drag jusqu'au Side Control ou Mount"
       },
       {
         "condition": "Ils s'appuient et vous passez dessous",
@@ -101,7 +101,7 @@
       }
     ],
     "exitStrategies": [
-      "Si la prise de dos échoue, vous devriez toujours avoir le side control",
+      "Si la prise de dos échoue, vous devriez toujours avoir le Side Control",
       "S'ils tournent vers vous, passez à la passe"
     ]
   },
@@ -111,7 +111,7 @@
     "La leg drag vers la prise de dos est particulièrement efficace contre les adversaires qui s'appuient largement pour défendre la passe"
   ],
   "fixItFast": [
-    "S'ils ne s'appuient pas : continuez la traînée jusqu'au side control — la prise de dos n'est pas disponible",
+    "S'ils ne s'appuient pas : continuez la traînée jusqu'au Side Control — la prise de dos n'est pas disponible",
     "Si vous passez par-dessus au lieu de dessous : reset et passez sous le bras",
     "S'ils tournent vers vous pendant la traînée : passez à la passe — la prise de dos n'est plus disponible"
   ]

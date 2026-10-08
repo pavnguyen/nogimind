@@ -5,9 +5,7 @@ import type {
   SkillNode,
   TechnicalDetail,
 } from '../types/skill'
-import { getLocalizedArray, getLocalizedText } from './localization'
-
-const lt = (vi: string, en: string, fr: string): LocalizedText => ({ vi, en, fr })
+import { getLocalizedText } from './localization'
 
 export type MicroDetailItem = {
   id: string
@@ -23,23 +21,6 @@ export type MicroDetailItem = {
   category: string
   bodyParts: string[]
   tags: string[]
-}
-
-export type TroubleshooterItem = {
-  id: string
-  skillId: string
-  title: LocalizedText
-  overview: LocalizedText
-  category: 'choke' | 'joint_lock' | 'leg_lock' | 'back' | 'front_headlock' | 'submission'
-  checklist: string[]
-  diagnoses: {
-    id: string
-    title: LocalizedText
-    likelyCause: LocalizedText
-    microFix: LocalizedText
-    relatedDetailIds: string[]
-  }[]
-  safetyNotes: string[]
 }
 
 const textFromDetail = (detail: TechnicalDetail): LocalizedText => ({
@@ -138,85 +119,6 @@ export const getMicroDetails = (skills: SkillNode[]): MicroDetailItem[] =>
 
     return [...microDetails, ...keyDetails, ...adjustments]
   })
-
-const troubleshooterCategoryFor = (skill: SkillNode): TroubleshooterItem['category'] => {
-  if (skill.id.includes('heel') || skill.id.includes('ankle') || skill.tags.some((tag) => tag.includes('leg-lock'))) return 'leg_lock'
-  if (skill.id.includes('guillotine') || skill.tags.includes('front-headlock')) return 'front_headlock'
-  if (skill.id.includes('rear-naked') || skill.domain === 'back_control') return 'back'
-  if (skill.tags.includes('choke')) return 'choke'
-  if (skill.id.includes('kimura')) return 'joint_lock'
-  return 'submission'
-}
-
-export const getTroubleshooters = (skills: SkillNode[], lang: LanguageCode = 'en'): TroubleshooterItem[] =>
-  skills
-    .filter((skill) => skill.technicalDetails?.finishingMechanics?.length || skill.domain === 'submission_systems')
-    .map((skill) => {
-      const finish = skill.technicalDetails?.finishingMechanics?.[0]
-      const details = skill.technicalDetails?.keyDetails ?? []
-      const qualityChecks = skill.qualityChecklist?.checks ?? []
-      const microDetails = skill.microDetailSystem?.topFiveDetails ?? []
-      const checklist = finish
-        ? getLocalizedArray(finish.finishChecklist, lang)
-        : details.length
-          ? details.slice(0, 8).map((detail) => getLocalizedText(detail.correctionCue, lang))
-          : qualityChecks.length
-            ? qualityChecks.slice(0, 8).map((check) => getLocalizedText(check.quickFix, lang))
-            : microDetails.slice(0, 8).map((detail) => getLocalizedText(detail.correctionCue, lang))
-      const falseSignals = finish ? getLocalizedArray(finish.falseFinishSignals, lang) : []
-      const diagnoses = [
-        ...details.slice(0, 6).map((detail) => ({
-          id: `${skill.id}-${detail.id}`,
-          title: detail.title,
-          likelyCause: detail.commonFailure,
-          microFix: detail.correctionCue,
-          relatedDetailIds: [detail.id],
-        })),
-        ...(!details.length
-          ? qualityChecks.slice(0, 6).map((check) => ({
-              id: `${skill.id}-${check.id}`,
-              title: check.title,
-              likelyCause: check.failureSignal,
-              microFix: check.quickFix,
-              relatedDetailIds: check.relatedMicroDetailIds ?? [],
-            }))
-          : []),
-        ...(!details.length && !qualityChecks.length
-          ? microDetails.slice(0, 6).map((detail) => ({
-              id: `${skill.id}-${detail.id}`,
-              title: detail.title,
-              likelyCause: detail.commonMistake,
-              microFix: detail.correctionCue,
-              relatedDetailIds: [detail.id],
-            }))
-          : []),
-        ...falseSignals.slice(0, 4).map((signal, index) => ({
-          id: `${skill.id}-false-signal-${index}`,
-          title: lt(signal, signal, signal),
-          likelyCause: lt(signal, signal, signal),
-          microFix: lt(
-            'Quay lại isolation, angle và slack removal trước khi tăng lực.',
-            'Return to isolation, angle, and slack removal before increasing force.',
-            'Revenir à isolation, angle et retrait du slack avant force.',
-          ),
-          relatedDetailIds: [],
-        })),
-      ].slice(0, 10)
-
-      return {
-        id: `${skill.id}-troubleshooter`,
-        skillId: skill.id,
-        title: skill.title,
-        overview: skill.technicalDetails?.overview ?? skill.shortDescription,
-        category: troubleshooterCategoryFor(skill),
-        checklist,
-        diagnoses,
-        safetyNotes: finish ? getLocalizedArray(finish.safetyNotes, lang) : skill.microDetailSystem?.safetyNotes ? getLocalizedArray(skill.microDetailSystem.safetyNotes, lang) : [],
-      }
-    })
-
-export const skillHasTroubleshooter = (skill: SkillNode) =>
-  Boolean(skill.technicalDetails?.finishingMechanics?.length || skill.domain === 'submission_systems')
 
 export const summarizeTechniqueDetail = (skill: SkillNode, lang: LanguageCode) =>
   skill.technicalDetails?.keyDetails.slice(0, 3).map((detail) => textFromDetail(detail)).map((text) => getLocalizedText(text, lang)) ?? []

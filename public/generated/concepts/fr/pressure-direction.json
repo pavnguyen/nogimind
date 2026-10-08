@@ -14,48 +14,14 @@
   "deepExplanation": "Direction pression relie tête, sternum, pelvis, genoux et orteils. Sans alignement, vous êtes lourd sans contrôler.",
   "beginnerView": "Demander où va votre force.",
   "advancedView": "Changer direction pression pour rendre frames mauvais, puis passer/pin.",
-  "ifThenExamples": [
-    {
-      "if": "Si vous perdez Direction de pression pendant l’échange.",
-      "then": "Arrêtez d’accélérer, récupérez la structure corporelle proche, puis continuez.",
-      "why": "Le no-gi moderne punit vite la force après perte de structure.",
-      "relatedSkillIds": [
-        "bodylock-passing",
-        "side-control-pin"
-      ]
-    },
-    {
-      "if": "Si l’adversaire répond correctement à votre première ligne.",
-      "then": "Utilisez Direction de pression pour passer à une branche plus sûre au lieu de forcer.",
-      "why": "Un bon concept transforme la réaction adverse en information pour la décision suivante.",
-      "relatedSkillIds": [
-        "side-control-pin",
-        "mount-control",
-        "arm-triangle-mount"
-      ]
-    }
-  ],
-  "commonMisunderstandings": [
-    {
-      "misunderstanding": "Direction de pression est une astuce technique isolée.",
-      "correction": "Voyez-le comme une règle de décision présente dans plusieurs positions."
-    },
-    {
-      "misunderstanding": "Comprendre le concept suffit pour l’utiliser en live.",
-      "correction": "Le concept doit être lié à signaux corporels, cues courts et rolling positionnel."
-    }
-  ],
-  "trainingCues": [
-    "Nommez Direction de pression avant d’ajouter force.",
-    "Cherchez le signal corporel, pas une impression vague.",
-    "Si la structure est perdue, reset une couche d’abord.",
-    "Driller lentement, puis tester avec résistance progressive."
-  ],
+  "ifThenExamples": [],
+  "commonMisunderstandings": [],
+  "trainingCues": [],
   "relatedSkillIds": [
     "bodylock-passing",
     "side-control-pin",
-    "mount-control",
-    "arm-triangle-mount"
+    "Mount-control",
+    "arm-triangle-Mount"
   ],
   "relatedConceptIds": [
     "connection-before-control",

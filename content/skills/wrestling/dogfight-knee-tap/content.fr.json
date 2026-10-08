@@ -2,14 +2,14 @@
   "id": "dogfight-knee-tap",
   "locale": "fr",
   "name": "Genouillère Dogfight",
-  "description": "Lors d'un combat aérien, le coup de genou utilise underhook et la position de la tête pour abattre l'adversaire. Le combat aérien est la position de lutte la plus courante à partir du bas half guard.",
+  "description": "Lors d'un combat aérien, le coup de genou utilise underhook et la position de la tête pour abattre l'adversaire. Le combat aérien est la position de lutte la plus courante à partir du bas Half Guard.",
   "shortInstruction": "Lors d'un combat aérien, entourez votre genou extérieur sur leur dos, utilisez le underhook pour les tirer vers l'avant et tapotez leur genou éloigné avec votre main libre pour les faire tomber.",
-  "summary": "Le coup de genou en combat aérien est le balayage avec le pourcentage le plus élevé depuis la position de combat aérien (underhook half guard). Lors d'un combat aérien, vous utilisez votre underhook pour tirer l'adversaire vers l'avant tout en tapotant son genou le plus éloigné avec votre main libre. Leur élan vers l'avant combiné à la frappe du genou enlève leur base et les fait basculer vers le tapis. La tape du genou passe directement à side control ou front headlock.",
+  "summary": "Le coup de genou en combat aérien est le balayage avec le pourcentage le plus élevé depuis la position de combat aérien (underhook Half Guard). Lors d'un combat aérien, vous utilisez votre underhook pour tirer l'adversaire vers l'avant tout en tapotant son genou le plus éloigné avec votre main libre. Leur élan vers l'avant combiné à la frappe du genou enlève leur base et les fait basculer vers le tapis. La tape du genou passe directement à Side Control ou Front Headlock.",
   "whyItWorks": [
     "Le underhook en combat aérien vous donne le contrôle du haut de leur corps : vous pouvez les tirer vers l'avant et les déséquilibrer.",
     "Taper sur le genou le plus éloigné supprime leur point de base arrière – ils ne peuvent pas reculer pour retrouver l’équilibre",
     "La combinaison de la traction vers l'avant (underhook) et du retrait de la base arrière (coup de genou) crée un problème d'équilibre insoluble.",
-    "La tape sur le genou est à l'abri des guillotine car votre tête est à l'extérieur (joue contre son épaule)."
+    "La tape sur le genou est à l'abri des Guillotine car votre tête est à l'extérieur (joue contre son épaule)."
   ],
   "commonMistakes": [
     "Ne pas les tirer suffisamment vers l’avant avant de taper sur le genou – le coup de genou à lui seul ne provoque pas le retrait",
@@ -34,7 +34,7 @@
     "S'ils sprawl sur vous : passez à la jambe unique – votre underhook vous donne l'entrée à une jambe."
   ],
   "systemLogic": {
-    "corePrinciple": "Le genou de combat aérien fait partie d'un système de combat aérien plus vaste : Knee Tap → Single Leg → Re-guard",
+    "corePrinciple": "Le genou de combat aérien fait partie d'un système de combat aérien plus vaste : Knee Tap → Single Leg → Re-Guard",
     "decisionTree": [
       {
         "condition": "Utilisation de l'option 1 (Tap du genou)",
@@ -55,9 +55,9 @@
     ]
   },
   "moneyDetails": [
-    "Le coup de genou en combat aérien est le balayage le plus courant du bas de half guard à No-Gi - il fonctionne à tous les niveaux.",
-    "Maîtriser le coup de genou en combat aérien vous donne un chemin fiable de half guard à la première position.",
-    "La tape du genou sur side control rapporte 2 points (balayage) en IBJJF."
+    "Le coup de genou en combat aérien est le balayage le plus courant du bas de Half Guard à No-Gi - il fonctionne à tous les niveaux.",
+    "Maîtriser le coup de genou en combat aérien vous donne un chemin fiable de Half Guard à la première position.",
+    "La tape du genou sur Side Control rapporte 2 points (balayage) en IBJJF."
   ],
   "fixItFast": [
     "S'ils ne tombent pas : tirez plus fort et tapez à nouveau sur le genou le plus éloigné.",

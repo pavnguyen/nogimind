@@ -3,11 +3,11 @@
   "domain": "wrestle_up_wrestling",
   "level": "intermediate",
   "status": "draft",
-  "name": "Lutte à partir de guard",
+  "name": "Lutte à partir de Guard",
   "aliases": [],
   "tags": [
     "wrestle-up",
-    "guard",
+    "Guard",
     "standing",
     "single-leg"
   ],
@@ -29,7 +29,7 @@
       "type": "recommended"
     },
     {
-      "id": "half-guard-wrestle-up",
+      "id": "half-Guard-wrestle-up",
       "type": "recommended"
     }
   ],
@@ -41,7 +41,7 @@
   "archetypeIds": [],
   "relatedArchetypeIds": [],
   "prerequisiteSkillIds": [
-    "seated-guard-retention",
+    "seated-Guard-retention",
     "hand-fighting",
     "technical-stand-up"
   ],
@@ -49,9 +49,9 @@
   "nextSkillIds": [],
   "searchBoost": 1,
   "keyCorrections": [
-    "S'ils sprawl lors de la lutte : revenez à guard et essayez une entrée différente (tibia à tibia ou 2 contre 1)",
-    "S'ils vous guillotine : votre tête était trop haute – gardez votre front contre leur poitrine ou leur mâchoire lorsque vous vous levez",
-    "Si vous ne trouvez pas la jambe : ils ont posté en arrière – passez au front headlock à l'aide de votre poignée underhook."
+    "S'ils sprawl lors de la lutte : revenez à Guard et essayez une entrée différente (tibia à tibia ou 2 contre 1)",
+    "S'ils vous Guillotine : votre tête était trop haute – gardez votre front contre leur poitrine ou leur mâchoire lorsque vous vous levez",
+    "Si vous ne trouvez pas la jambe : ils ont posté en arrière – passez au Front Headlock à l'aide de votre poignée underhook."
   ],
   "version": 1,
   "updatedAt": "2026-05-21T00:24:30.764Z",
@@ -65,18 +65,18 @@
     "hasStateMachine": false
   },
   "locale": "fr",
-  "description": "wrestle up en position assise ou papillon guard en utilisant tibia à tibia, 2 contre 1 ou underhook pour convertir en une seule jambe ou front headlock. La lutte vers le haut est la principale transition offensive à partir de guard : elle convertit la position inférieure en une opportunité de retrait.",
-  "shortInstruction": "À partir du guard assis, remportez le underhook ou 2 contre 1, créez un angle de hanche, placez votre pied extérieur et conduisez vers une seule jambe. Si la jambe unique est bloquée, passez à un front headlock ou à une prise arrière.",
-  "summary": "La lutte depuis guard transforme guard d'une position défensive en une entrée de retrait offensif. La séquence utilise soit un underhook, un tibia à tibia ou un 2 contre 1 pour contrôler le haut du corps de l'adversaire pendant que vous êtes debout. En position debout, vous terminez avec une seule jambe, un body lock ou front headlock. La lutte est au cœur du système No-Gi guard moderne : chaque joueur guard assis doit disposer d'une lutte fiable pour empêcher l'adversaire de se lever et de passer.",
+  "description": "wrestle up en position assise ou papillon Guard en utilisant tibia à tibia, 2 contre 1 ou underhook pour convertir en une seule jambe ou Front Headlock. La lutte vers le haut est la principale transition offensive à partir de Guard : elle convertit la position inférieure en une opportunité de retrait.",
+  "shortInstruction": "À partir du Guard assis, remportez le underhook ou 2 contre 1, créez un angle de hanche, placez votre pied extérieur et conduisez vers une seule jambe. Si la jambe unique est bloquée, passez à un Front Headlock ou à une prise arrière.",
+  "summary": "La lutte depuis Guard transforme Guard d'une position défensive en une entrée de retrait offensif. La séquence utilise soit un underhook, un tibia à tibia ou un 2 contre 1 pour contrôler le haut du corps de l'adversaire pendant que vous êtes debout. En position debout, vous terminez avec une seule jambe, un body lock ou Front Headlock. La lutte est au cœur du système No-Gi Guard moderne : chaque joueur Guard assis doit disposer d'une lutte fiable pour empêcher l'adversaire de se lever et de passer.",
   "whyItWorks": [
-    "La lutte punit l'adversaire pour s'être tenu dans votre guard - s'il se tient debout, vous le rejoignez",
+    "La lutte punit l'adversaire pour s'être tenu dans votre Guard - s'il se tient debout, vous le rejoignez",
     "Le underhook et le 2-on-1 vous donnent un contrôle du haut du corps qui les empêche de sprawling ou de faire face en travers.",
     "L'entrée tibia à tibia empêche l'adversaire de reculer lorsque vous êtes debout - votre tibia bloque sa jambe",
     "La lutte crée un dilemme pour le passeur : il doit soit s'engager (et risquer le balayage), soit se désengager (et abandonner la tentative de passe)."
   ],
   "commonMistakes": [
     "Essayer de wrestle up sans contrôler le haut du corps - ils vont sprawl et vous aplatir",
-    "Se tenir droit au lieu de rester bas : un support haut expose la jambe unique et guillotine",
+    "Se tenir droit au lieu de rester bas : un support haut expose la jambe unique et Guillotine",
     "Ne pas créer d'angle de hanche avant de se tenir debout - se tenir droit vers eux leur donne un angle sprawl facile",
     "Abandonner la lutte trop tôt - engagez-vous à rester debout ou vous serez coincé dans une position compromise"
   ],
@@ -87,20 +87,20 @@
     "S'engager ou ne pas démarrer"
   ],
   "safetySummary": [
-    "Ne vous tenez pas le dos droit - cela expose le guillotine et abandonne le underhook",
-    "Si l'adversaire sprawl est alors que vous êtes debout, revenez à guard plutôt que de combattre le sprawl.",
-    "Faites attention à la tension du genou lorsque vous postez en position assise guard — échauffez-vous correctement"
+    "Ne vous tenez pas le dos droit - cela expose le Guillotine et abandonne le underhook",
+    "Si l'adversaire sprawl est alors que vous êtes debout, revenez à Guard plutôt que de combattre le sprawl.",
+    "Faites attention à la tension du genou lorsque vous postez en position assise Guard — échauffez-vous correctement"
   ],
   "systemLogic": {
-    "corePrinciple": "La lutte de guard comporte trois systèmes d'entrée : underhook Entrée → Entrée Shin-to-Shin → Entrée 2 contre 1",
+    "corePrinciple": "La lutte de Guard comporte trois systèmes d'entrée : underhook Entrée → Entrée Shin-to-Shin → Entrée 2 contre 1",
     "decisionTree": [
       {
         "condition": "Utilisation de l'entrée 1 (underhook)",
-        "action": "depuis la position assise guard, frappez pour obtenir un underhook d'un côté. Votre autre main est posée sur le tapis. Lorsque vous êtes debout, le underhook les empêche de sprawling. Terminez avec une seule jambe ou un body lock"
+        "action": "depuis la position assise Guard, frappez pour obtenir un underhook d'un côté. Votre autre main est posée sur le tapis. Lorsque vous êtes debout, le underhook les empêche de sprawling. Terminez avec une seule jambe ou un body lock"
       },
       {
         "condition": "Utilisation de l'entrée 2 (Shin-to-Shin)",
-        "action": "entrez tibia à tibia guard en plaçant votre tibia sur son tibia proche. Lorsque vous vous levez, le tibia empêche la jambe de reculer. Arriver à une seule jambe du même côté"
+        "action": "entrez tibia à tibia Guard en plaçant votre tibia sur son tibia proche. Lorsque vous vous levez, le tibia empêche la jambe de reculer. Arriver à une seule jambe du même côté"
       },
       {
         "condition": "Utilisation de l'entrée 3 (2 contre 1)",
@@ -108,15 +108,15 @@
       },
       {
         "condition": "Application générale",
-        "action": "chaque entrée mène aux mêmes arrivées : single leg, body lock, front headlock ou back take"
+        "action": "chaque entrée mène aux mêmes arrivées : single leg, body lock, Front Headlock ou back take"
       }
     ],
     "exitStrategies": []
   },
   "moneyDetails": [
-    "La lutte est la compétence offensive la plus importante dans le No-Gi guard moderne — sans elle, votre guard est purement défensif.",
-    "Maîtriser la lutte vous donne la possibilité de marquer des retraits à partir de guard, transformant ainsi l'ensemble de votre jeu de fond.",
-    "La lutte est un élément essentiel de tous les systèmes No-Gi guard de haut niveau (Dewey, Meregali, Ruotolos)."
+    "La lutte est la compétence offensive la plus importante dans le No-Gi Guard moderne — sans elle, votre Guard est purement défensif.",
+    "Maîtriser la lutte vous donne la possibilité de marquer des retraits à partir de Guard, transformant ainsi l'ensemble de votre jeu de fond.",
+    "La lutte est un élément essentiel de tous les systèmes No-Gi Guard de haut niveau (Dewey, Meregali, Ruotolos)."
   ],
   "fixItFast": [
     "S'ils se lèvent et se désengagent : levez-vous complètement et réengagez-vous à partir du point mort ; ne restez pas assis.",

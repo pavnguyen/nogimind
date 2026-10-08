@@ -15,7 +15,7 @@ const __dirname = dirname(__filename)
 const CONTENT_ROOT = resolve(__dirname, '../../content')
 
 const VALID_DOMAINS = [
-  'submissions', 'guard', 'passing', 'escapes', 'pins',
+  'submissions', 'Guard', 'passing', 'escapes', 'pins',
   'leg-locks', 'wrestling', 'foundation', 'modern', 'priority',
 ]
 

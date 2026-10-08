@@ -1,10 +1,10 @@
 {
-  "id": "k-guard-position",
+  "id": "k-Guard-position",
   "locale": "en",
   "title": "K-Guard",
   "category": "bottom_guard",
   "status": "neutral",
-  "description": "K-guard controls one of the opponent legs with a shin frame and foot hook, creating angles into matrix, leg locks, or back takes.",
+  "description": "K-Guard controls one of the opponent legs with a shin frame and foot hook, creating angles into matrix, leg locks, or back takes.",
   "topPlayerGoals": [
     "The top player wants to control K-Guard through head position, inside position, and directed pressure.",
     "Kill the shin frame, clear the knee line, and apply weight.",
@@ -28,9 +28,9 @@
   "advancementOptions": [
     {
       "action": "Enter matrix or false reap entry",
-      "nextPositionId": "inverted-guard",
+      "nextPositionId": "inverted-Guard",
       "relatedSkillIds": [
-        "k-guard-matrix",
+        "k-Guard-matrix",
         "false-reap-entry",
         "saddle-inside-sankaku-control"
       ],
@@ -44,7 +44,7 @@
     "You need a long hand post to avoid falling."
   ],
   "relatedSkillIds": [
-    "k-guard-matrix",
+    "k-Guard-matrix",
     "false-reap-entry",
     "saddle-inside-sankaku-control"
   ],

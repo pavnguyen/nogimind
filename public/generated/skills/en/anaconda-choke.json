@@ -14,7 +14,7 @@
   "keywords": [
     "anaconda",
     "arm triangle",
-    "front headlock",
+    "Front Headlock",
     "hip rotation",
     "shoulder crunch"
   ],
@@ -24,7 +24,7 @@
       "type": "recommended"
     },
     {
-      "id": "guillotine-system",
+      "id": "Guillotine-system",
       "type": "recommended"
     },
     {
@@ -63,13 +63,13 @@
     "hasStateMachine": false
   },
   "locale": "en",
-  "description": "An arm triangle choke from the front headlock position, using your arm to lock around the neck while pulling the elbow to the knee and rotating to finish with shoulder pressure.",
+  "description": "An arm triangle choke from the Front Headlock position, using your arm to lock around the neck while pulling the elbow to the knee and rotating to finish with shoulder pressure.",
   "shortInstruction": "Lock the arm around the neck, pull their elbow to your knee, rotate your chest to the mat — the anaconda finishes with shoulder pressure, not arm squeeze.",
-  "summary": "The anaconda choke is one of the three primary front headlock finishes (with the D'Arce and guillotine). The key difference from the D'Arce is that your choking arm threads from the opposite side (near arm goes under the neck and over their far arm). The finish comes from rotating your chest toward the mat while pulling their trapped arm's elbow toward your knee — this creates a tight arm triangle on their neck and shoulder.",
+  "summary": "The anaconda choke is one of the three primary Front Headlock finishes (with the D'Arce and Guillotine). The key difference from the D'Arce is that your choking arm threads from the opposite side (near arm goes under the neck and over their far arm). The finish comes from rotating your chest toward the mat while pulling their trapped arm's elbow toward your knee — this creates a tight arm triangle on their neck and shoulder.",
   "whyItWorks": [
     "The anaconda traps both their arm and neck in the same lock — two structures compressed by one movement.",
     "Rotational pressure from your chest to the mat is stronger than squeezing with your arms.",
-    "It works from front headlock when they are turtled or trying to belly down to escape.",
+    "It works from Front Headlock when they are turtled or trying to belly down to escape.",
     "Danaher principle: arm triangles are driven by shoulder pressure, not arm strength — the anaconda is a shoulder-driven choke."
   ],
   "commonMistakes": [
@@ -90,15 +90,15 @@
     "Tap early if you feel pressure on your cervical spine during the rotation."
   ],
   "systemLogic": {
-    "corePrinciple": "Front headlock established → thread near arm under neck and over far arm → lock hands → pull trapped arm's elbow to your knee → rotate chest to mat → finish.",
+    "corePrinciple": "Front Headlock established → thread near arm under neck and over far arm → lock hands → pull trapped arm's elbow to your knee → rotate chest to mat → finish.",
     "decisionTree": [
       {
-        "condition": "they resist the rotation, switch to the D'Arce or guillotine",
+        "condition": "they resist the rotation, switch to the D'Arce or Guillotine",
         "action": "the three form a chain."
       },
       {
         "condition": "General application",
-        "action": "The anaconda works best against opponents who try to turn in toward you from front headlock."
+        "action": "The anaconda works best against opponents who try to turn in toward you from Front Headlock."
       }
     ],
     "exitStrategies": []
@@ -109,7 +109,7 @@
     "Rotate your chest toward the mat by turning your hips — the rotation tightens the choke without squeezing.",
     "Keep your head on the same side as the trapped arm — this prevents them from rolling you over."
   ],
-  "nextStep": "After the anaconda, learn the D'Arce choke and guillotine to chain from front headlock.",
+  "nextStep": "After the anaconda, learn the D'Arce choke and Guillotine to chain from Front Headlock.",
   "fixItFast": [
     "Choke feels loose? Pull their elbow closer to your knee and rotate more.",
     "They stack you? Bring your head to their hip side and re-engage.",

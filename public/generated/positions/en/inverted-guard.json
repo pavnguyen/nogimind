@@ -1,10 +1,10 @@
 {
-  "id": "inverted-guard",
+  "id": "inverted-Guard",
   "locale": "en",
   "title": "Inverted Guard",
   "category": "bottom_guard",
   "status": "defensive",
-  "description": "The guard player inverts to place feet on the hip line or shoulder line, creating sweep angles and leg entries.",
+  "description": "The Guard player inverts to place feet on the hip line or shoulder line, creating sweep angles and leg entries.",
   "topPlayerGoals": [
     "The top player wants to control Inverted Guard through head position, inside position, and directed pressure.",
     "Block the invert angle, apply weight, and prevent foot placement.",
@@ -12,7 +12,7 @@
   ],
   "bottomPlayerGoals": [
     "The bottom player wants to survive Inverted Guard with frames, pummeling, or the right angle.",
-    "Keep the invert controlled, feet inside the hip line, and connect to K-guard or matrix.",
+    "Keep the invert controlled, feet inside the hip line, and connect to K-Guard or matrix.",
     "Recognize danger signals early instead of waiting for the position to settle."
   ],
   "controlPoints": [
@@ -27,11 +27,11 @@
   ],
   "advancementOptions": [
     {
-      "action": "Transition to K-guard or matrix entry",
-      "nextPositionId": "k-guard-position",
+      "action": "Transition to K-Guard or matrix entry",
+      "nextPositionId": "k-Guard-position",
       "relatedSkillIds": [
-        "inverted-guard-control",
-        "k-guard-matrix",
+        "inverted-Guard-control",
+        "k-Guard-matrix",
         "false-reap-entry"
       ],
       "why": "This is the natural branch when you win the main control point and the opponent is forced to defend."
@@ -44,8 +44,8 @@
     "You need a long hand post to avoid falling."
   ],
   "relatedSkillIds": [
-    "inverted-guard-control",
-    "k-guard-matrix",
+    "inverted-Guard-control",
+    "k-Guard-matrix",
     "false-reap-entry",
     "leg-lock-safety-basics"
   ],

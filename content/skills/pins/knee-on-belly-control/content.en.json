@@ -3,12 +3,12 @@
   "locale": "en",
   "name": "Knee On Belly Control",
   "description": "Use the knee on the belly and far hip grip to control, transition quickly, and open submissions. Knee-on-belly is the most mobile pin — it sacrifices some control for the ability to transition faster than any other position.",
-  "shortInstruction": "Drive your knee into their sternum or solar plexus, grip their far hip or collar, and stay ready to transition to mount, side control, or north-south. Do not let them trap your foot.",
-  "summary": "Knee-on-belly uses your knee as the primary pressure point, creating discomfort that forces the opponent to react, exposing openings for submissions or transitions. The key is mobility — your free foot and the far hip grip allow you to circle around the opponent faster than from side control or mount. Knee-on-belly is a transitional pin, not a resting position.",
+  "shortInstruction": "Drive your knee into their sternum or solar plexus, grip their far hip or collar, and stay ready to transition to Mount, Side Control, or north-south. Do not let them trap your foot.",
+  "summary": "Knee-on-belly uses your knee as the primary pressure point, creating discomfort that forces the opponent to react, exposing openings for submissions or transitions. The key is mobility — your free foot and the far hip grip allow you to circle around the opponent faster than from Side Control or Mount. Knee-on-belly is a transitional pin, not a resting position.",
   "whyItWorks": [
     "Knee pressure on the sternum/solar plexus creates discomfort and breathing restriction that forces the opponent to react",
     "The far hip grip (or collar grip) gives you structural control — you can pull them toward you while driving the knee",
-    "The free foot on the mat provides instant mobility — you can transition to mount, side control, north-south, or the back without repositioning",
+    "The free foot on the mat provides instant mobility — you can transition to Mount, Side Control, north-south, or the back without repositioning",
     "Knee-on-belly is the only pin that does not require full body contact — this makes it ideal for quick transitions"
   ],
   "commonMistakes": [
@@ -38,11 +38,11 @@
     "decisionTree": [
       {
         "condition": "Using Branch 1 (Mount)",
-        "action": "slide your knee off their belly and step over their near arm to mount. Keep the far hip grip to pull them toward you as you enter mount"
+        "action": "slide your knee off their belly and step over their near arm to Mount. Keep the far hip grip to pull them toward you as you enter Mount"
       },
       {
         "condition": "Using Branch 2 (Side Control)",
-        "action": "drop your knee to the mat beside their hip and slide into side control. Maintain chest-to-chest pressure"
+        "action": "drop your knee to the mat beside their hip and slide into Side Control. Maintain chest-to-chest pressure"
       },
       {
         "condition": "Using Branch 3 (North-South)",
@@ -54,12 +54,12 @@
       },
       {
         "condition": "Decision guide",
-        "action": "if they stay flat → attack or transition to mount. If they turn away → take the back. If they trap the foot → pummel free and re-establish"
+        "action": "if they stay flat → attack or transition to Mount. If they turn away → take the back. If they trap the foot → pummel free and re-establish"
       }
     ]
   },
   "moneyDetails": [
-    "Knee-on-belly scores 2 points in IBJJF — it is the fastest way to score from side control",
+    "Knee-on-belly scores 2 points in IBJJF — it is the fastest way to score from Side Control",
     "Knee-on-belly is the most threatening pin to opponents because the immediate discomfort forces them into predictable reactions",
     "Mastering knee-on-belly transitions gives you the most mobile top game in BJJ"
   ],

@@ -3,11 +3,11 @@
   "domain": "guard_retention",
   "level": "beginner",
   "status": "draft",
-  "name": "half guard knee shield",
+  "name": "Half Guard knee shield",
   "aliases": [],
   "tags": [
-    "half-guard",
-    "guard"
+    "half-Guard",
+    "Guard"
   ],
   "keywords": [
     "knee shield",
@@ -17,7 +17,7 @@
   ],
   "relatedSkills": [
     {
-      "id": "half-guard-wrestle-up",
+      "id": "half-Guard-wrestle-up",
       "type": "recommended"
     },
     {
@@ -37,7 +37,7 @@
   "archetypeIds": [],
   "relatedArchetypeIds": [],
   "prerequisiteSkillIds": [
-    "supine-guard-retention"
+    "supine-Guard-retention"
   ],
   "trainingMethodIds": [],
   "nextSkillIds": [],
@@ -55,14 +55,14 @@
     "hasStateMachine": false
   },
   "locale": "fr",
-  "description": "Utilisez le knee shield (Z-guard) pour créer de la distance, gagner la bataille underhook et passer aux balayages, aux luttes ou aux soumissions.",
-  "shortInstruction": "Genou dans la hanche, cadre sur la tête, gagnez le underhook — knee shield est la position de contrôle du bas half guard.",
-  "summary": "Le knee shield (également appelé Z-guard) est la position la plus stable dans le bas half guard. Votre genou latéral est inséré entre votre poitrine et sa hanche, créant un cadre qui l'empêche d'appliquer une pression thoracique. À partir de là, vous pouvez vous battre pour le underhook, créer de la distance et attaquer avec des balayages (moitié profonde, serveur), des soumissions (kimura) ou des luttes. Si vous perdez le knee shield, vous êtes aplati – le protéger est donc votre priorité numéro un.",
+  "description": "Utilisez le knee shield (Z-Guard) pour créer de la distance, gagner la bataille underhook et passer aux balayages, aux luttes ou aux soumissions.",
+  "shortInstruction": "Genou dans la hanche, cadre sur la tête, gagnez le underhook — knee shield est la position de contrôle du bas Half Guard.",
+  "summary": "Le knee shield (également appelé Z-Guard) est la position la plus stable dans le bas Half Guard. Votre genou latéral est inséré entre votre poitrine et sa hanche, créant un cadre qui l'empêche d'appliquer une pression thoracique. À partir de là, vous pouvez vous battre pour le underhook, créer de la distance et attaquer avec des balayages (moitié profonde, serveur), des soumissions (kimura) ou des luttes. Si vous perdez le knee shield, vous êtes aplati – le protéger est donc votre priorité numéro un.",
   "whyItWorks": [
     "Le knee shield crée un cadre structurel qui empêche la pression de poitrine à poitrine – sans pression, ils ne peuvent pas passer.",
     "Il vous permet de vous battre pour le underhook à distance de sécurité, plutôt que de vous faire aplatir et écraser.",
     "Le knee shield peut être étendu pour créer de l'espace ou rétracté à courte distance pour les balayages.",
-    "Principe Danaher : la distance est la sécurité en bas half guard — le knee shield est votre outil de distance."
+    "Principe Danaher : la distance est la sécurité en bas Half Guard — le knee shield est votre outil de distance."
   ],
   "commonMistakes": [
     "Laissez-les pousser votre knee shield sur le côté ou l’aplatir contre votre poitrine.",
@@ -82,11 +82,11 @@
     "Lorsqu’ils avancent, ne vous tenez pas avec un bras tendu – pliez votre coude pour protéger l’articulation."
   ],
   "systemLogic": {
-    "corePrinciple": "Le knee shield (Z-guard) est un cadre structurel qui empêche la pression de poitrine à poitrine dans le bas half guard. Il s'agit d'une position de contrôle de transition : vous devez attaquer (balayage, lutte ou soumission) plutôt que de la maintenir passivement.",
+    "corePrinciple": "Le knee shield (Z-Guard) est un cadre structurel qui empêche la pression de poitrine à poitrine dans le bas Half Guard. Il s'agit d'une position de contrôle de transition : vous devez attaquer (balayage, lutte ou soumission) plutôt que de la maintenir passivement.",
     "decisionTree": [
       {
         "condition": "L'adversaire avance avec une pression sur la poitrine",
-        "action": "Acceptez la pression et entrez en profondeur half guard → balayage du serveur. Leur élan vers l’avant alimente directement le balayage. Ne résistez pas à la pression – redirigez-la."
+        "action": "Acceptez la pression et entrez en profondeur Half Guard → balayage du serveur. Leur élan vers l’avant alimente directement le balayage. Ne résistez pas à la pression – redirigez-la."
       },
       {
         "condition": "L'adversaire se redresse et lève son poids",
@@ -102,7 +102,7 @@
       },
       {
         "condition": "Vous perdez la bataille underhook",
-        "action": "Vous ne pouvez pas séjourner à knee shield sans le underhook. Passez au half guard profond ou récupérez au guard complet. Ne restez pas aplati dans la moitié inférieure."
+        "action": "Vous ne pouvez pas séjourner à knee shield sans le underhook. Passez au Half Guard profond ou récupérez au Guard complet. Ne restez pas aplati dans la moitié inférieure."
       }
     ],
     "exitStrategies": [
@@ -115,9 +115,9 @@
     "Votre genou doit être encadré contre leur hanche, pas contre leur ventre – le contrôle de la hanche les empêche d’enjamber le bouclier.",
     "Le combat underhook se gagne avec votre tête : enfoncez votre tête dans leur poitrine pour créer de l'espace pour votre underhook.",
     "Lorsqu'ils tentent d'aplatir votre bouclier, étendez votre jambe pour les repousser, puis attaquez avant qu'ils ne récupèrent.",
-    "Le kimura de knee shield est l'un des pourcentages de soumissions les plus élevés dans No-Gi half guard - incitez le crossface à y entrer."
+    "Le kimura de knee shield est l'un des pourcentages de soumissions les plus élevés dans No-Gi Half Guard - incitez le crossface à y entrer."
   ],
-  "nextStep": "Après le contrôle de knee shield, apprenez le demi-balayage profond et kimura de half guard pour enchaîner vos attaques.",
+  "nextStep": "Après le contrôle de knee shield, apprenez le demi-balayage profond et kimura de Half Guard pour enchaîner vos attaques.",
   "fixItFast": [
     "knee shield s'aplatit ? Étendez votre jambe pour les repousser et recadrer.",
     "Vous ne parvenez pas à obtenir le underhook ? Utilisez plutôt une cravate ou une poignée de poignet pour contrôler leur posture.",

@@ -1,5 +1,5 @@
 {
-  "id": "reverse-de-la-riva-guard",
+  "id": "reverse-de-la-riva-Guard",
   "locale": "en",
   "title": "Reverse De La Riva Guard",
   "category": "bottom_guard",
@@ -28,7 +28,7 @@
   "advancementOptions": [
     {
       "action": "Transition to DLR or enter berimbolo lines",
-      "nextPositionId": "de-la-riva-guard",
+      "nextPositionId": "de-la-riva-Guard",
       "relatedSkillIds": [
         "reverse-de-la-riva-transitions",
         "single-leg-x-control",
@@ -47,7 +47,7 @@
     "reverse-de-la-riva-transitions",
     "single-leg-x-control",
     "kimura-system",
-    "guard-pulling-strategy"
+    "Guard-pulling-strategy"
   ],
   "relatedConceptIds": [
     "hooks",

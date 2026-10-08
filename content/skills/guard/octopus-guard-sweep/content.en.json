@@ -1,10 +1,10 @@
 {
-  "id": "octopus-guard-sweep",
+  "id": "octopus-Guard-sweep",
   "locale": "en",
   "name": "Octopus Guard Sweep",
-  "description": "Sweep from octopus guard by pulling the opponent's far hip across your sitting angle when they post poorly or commit weight forward.",
+  "description": "Sweep from octopus Guard by pulling the opponent's far hip across your sitting angle when they post poorly or commit weight forward.",
   "shortInstruction": "Pull the far hip, block the near leg, drive through the angle — sweep them over your frame.",
-  "summary": "The octopus guard sweep exploits the opponent's forward pressure when they try to pass. As they commit weight forward, you pull their far hip across your body while blocking their near leg with your frame. The combination of pulling their weight forward and blocking their base creates a powerful rotational sweep that dumps them onto their back. This sweep works especially well against opponents who try to smash through your octopus guard with pressure.",
+  "summary": "The octopus Guard sweep exploits the opponent's forward pressure when they try to pass. As they commit weight forward, you pull their far hip across your body while blocking their near leg with your frame. The combination of pulling their weight forward and blocking their base creates a powerful rotational sweep that dumps them onto their back. This sweep works especially well against opponents who try to smash through your octopus Guard with pressure.",
   "whyItWorks": [
     "When they commit forward to pass, their weight is already moving — you just redirect it with the hip pull.",
     "Blocking their near leg with your frame removes their ability to post out of the sweep.",
@@ -34,7 +34,7 @@
     "If they spin out backward, switch to a back take instead of forcing the sweep."
   ],
   "systemLogic": {
-    "corePrinciple": "Octopus guard control established → opponent commits forward → pull far hip across body → block near leg with frame → rotate them over your frame → land in side control or mount.",
+    "corePrinciple": "Octopus Guard control established → opponent commits forward → pull far hip across body → block near leg with frame → rotate them over your frame → land in Side Control or Mount.",
     "decisionTree": [
       {
         "condition": "General application",
@@ -50,12 +50,12 @@
     "The far-hip pull should be a rotational pull across your chest, not a straight pull toward you.",
     "Block their near knee with your top leg as you pull — this is the pivot point of the sweep.",
     "Drive your shoulder into their hip as you pull — this adds rotational force to the sweep.",
-    "After the sweep, immediately establish side control or knee-on-belly — don't let them scramble back."
+    "After the sweep, immediately establish Side Control or knee-on-belly — don't let them scramble back."
   ],
-  "nextStep": "After the octopus sweep, learn the back take from octopus guard to attack opponents who defend the sweep.",
+  "nextStep": "After the octopus sweep, learn the back take from octopus Guard to attack opponents who defend the sweep.",
   "fixItFast": [
     "Can't pull them over? Your leg block is wrong — make sure your leg frames on their near knee, not their thigh.",
     "They post out? The sweep was too slow — pull faster and with more rotation.",
-    "They back out? Release the guard and wrestle up — don't chase a retreating opponent."
+    "They back out? Release the Guard and wrestle up — don't chase a retreating opponent."
   ]
 }

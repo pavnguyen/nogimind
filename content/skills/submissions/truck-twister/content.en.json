@@ -2,7 +2,7 @@
   "id": "truck-twister",
   "locale": "en",
   "name": "Truck / Twister",
-  "description": "The truck position and twister submission: from back or side control, lock a body triangle around the opponent's torso and pull their head toward their own hip to create a spinal lock.",
+  "description": "The truck position and twister submission: from back or Side Control, lock a body triangle around the opponent's torso and pull their head toward their own hip to create a spinal lock.",
   "shortInstruction": "Body triangle around the torso, pull the head to the hip, arch the back — the twister is a spinal lock, not a choke.",
   "summary": "The truck is a specialized position where you control the opponent from the side with a body triangle (similar to the truck position in wrestling). From the truck, you can attack the twister — a spinal lock that twists the opponent's spine by pulling their head toward their own hip. The twister is not a choke or joint lock — it is a spinal lock that creates intense pressure on the vertebrae. It is no-gi specific (the gi makes it harder to maintain the body triangle) and is known for being extremely effective but requiring precise positioning.",
   "whyItWorks": [
@@ -36,7 +36,7 @@
     "If they roll through, follow their rotation and re-attack from the other side."
   ],
   "systemLogic": {
-    "corePrinciple": "Side control or half guard: secure body triangle (truck position) → control far arm → pull their head toward their hip → arch your back → finish.",
+    "corePrinciple": "Side Control or Half Guard: secure body triangle (truck position) → control far arm → pull their head toward their hip → arch your back → finish.",
     "decisionTree": [
       {
         "condition": "General application",

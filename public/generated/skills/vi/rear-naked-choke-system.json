@@ -28,7 +28,7 @@
   ],
   "relatedPositions": [],
   "relatedPositionIds": [
-    "back-mount",
+    "back-Mount",
     "rear-side-control",
     "turtle"
   ],
@@ -48,7 +48,7 @@
   ],
   "trainingMethodIds": [],
   "nextSkillIds": [
-    "arm-triangle-mount"
+    "arm-triangle-Mount"
   ],
   "sortOrder": 100,
   "searchBoost": 1.2,
@@ -132,8 +132,8 @@
     ],
     "exitStrategies": [
       "Nếu cuộn cảm liên tục bị chặn, hãy chuyển sang bẫy tay và tấn công armbar hoặc cung tên.",
-      "Nếu chúng trốn thoát đến mount dưới cùng, hãy chuyển sang điều khiển mount và tấn công từ đó.",
-      "Nếu chúng lao ra ngoài, hãy tấn công lại bằng front headlock hoặc guillotine khi chúng đối mặt với bạn."
+      "Nếu chúng trốn thoát đến Mount dưới cùng, hãy chuyển sang điều khiển Mount và tấn công từ đó.",
+      "Nếu chúng lao ra ngoài, hãy tấn công lại bằng Front Headlock hoặc Guillotine khi chúng đối mặt với bạn."
     ]
   },
   "moneyDetails": [
@@ -141,7 +141,7 @@
     "Tiếp xúc ngực đối lưng sẽ đóng băng lối thoát của chúng trước khi bạn kịp siết chặt.",
     "Loại bỏ sự lỏng lẻo quan trọng hơn việc ép mạnh."
   ],
-  "nextStep": "Sau khi kết thúc RNC hoặc nếu thất bại, hãy xâu chuỗi vào bẫy cánh tay, chuyển đổi mount hoặc quay lại để vào lại.",
+  "nextStep": "Sau khi kết thúc RNC hoặc nếu thất bại, hãy xâu chuỗi vào bẫy cánh tay, chuyển đổi Mount hoặc quay lại để vào lại.",
   "fixItFast": [
     "Không thể tìm thấy đường viền cổ? Chuyển sang cánh tay kia hoặc tạo thêm góc bằng cách di chuyển hông.",
     "Bị bóc vỏ? Gập cằm và chuyển sang điều khiển bằng cổ tay cao.",

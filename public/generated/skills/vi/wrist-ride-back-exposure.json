@@ -67,8 +67,8 @@
     "hasStateMachine": false
   },
   "locale": "vi",
-  "description": "Đạp cổ tay kéo cổ tay xa qua đường hông để thu gọn vai và để lộ phần lưng. Cưỡi cổ tay là một công cụ chính xác để bẻ gãy con rùa bằng cách tấn công xuyên qua cổ tay.",
-  "shortInstruction": "Từ bên cạnh con rùa, nắm lấy cổ tay ở phía xa và kéo nó qua lưng dưới của chúng về phía bạn. Ấn ngực của bạn vào vai gần của họ để khiến họ xẹp xuống. Lấy mặt sau khi chúng cuộn hoặc làm phẳng.",
+  "description": "Đạp cổ tay kéo cổ tay xa qua đường hông để thu gọn vai và để lộ phần lưng. Cưỡi cổ tay là một công cụ chính xác để bẻ gãy con Tư thế rùa bằng cách tấn công xuyên qua cổ tay.",
+  "shortInstruction": "Từ bên cạnh con Tư thế rùa, nắm lấy cổ tay ở phía xa và kéo nó qua lưng dưới của chúng về phía bạn. Ấn ngực của bạn vào vai gần của họ để khiến họ xẹp xuống. Lấy mặt sau khi chúng cuộn hoặc làm phẳng.",
   "summary": "Đòn đánh bằng cổ tay sử dụng một tay nắm đơn (cổ tay ở xa) để làm sập đường vai của đối phương bằng cách kéo cổ tay qua lưng dưới của họ. Khi cổ tay vượt qua đường hông, vai bị đẩy về phía trước và phần đế của đối phương sụp xuống. Việc di chuyển bằng cổ tay đặc biệt hiệu quả vì nó khó phòng thủ - đối thủ không thể dễ dàng ngăn cản bạn kiểm soát cổ tay của họ.",
   "whyItWorks": [
     "Kéo cổ tay xa qua đường hông sẽ buộc vai xa về phía trước, làm xẹp phần đế của chúng",
@@ -98,7 +98,7 @@
     "decisionTree": [
       {
         "condition": "Trong Giai đoạn 1 (Cổ tay an toàn)",
-        "action": "từ bên cạnh con rùa, vươn tay qua và nắm lấy cổ tay ở phía xa. Sử dụng cách cầm chắc chắn (tay cầm hoặc tay cầm khỉ tùy thuộc vào gi/No-Gi)"
+        "action": "từ bên cạnh con Tư thế rùa, vươn tay qua và nắm lấy cổ tay ở phía xa. Sử dụng cách cầm chắc chắn (tay cầm hoặc tay cầm khỉ tùy thuộc vào gi/No-Gi)"
       },
       {
         "condition": "Ở Giai đoạn 2 (Thu gọn vai)",
@@ -116,8 +116,8 @@
     "exitStrategies": []
   },
   "moneyDetails": [
-    "Đuổi bằng cổ tay là kỹ thuật bẻ rùa ít bị cản trở nhất vì cổ tay thường xuyên bị lộ ra ngoài",
-    "Việc thành thạo cách di chuyển bằng cổ tay sẽ giúp bạn có được con đường nhanh chóng, ít tốn sức để đến back control từ rùa",
+    "Đuổi bằng cổ tay là kỹ thuật bẻ Tư thế rùa ít bị cản trở nhất vì cổ tay thường xuyên bị lộ ra ngoài",
+    "Việc thành thạo cách di chuyển bằng cổ tay sẽ giúp bạn có được con đường nhanh chóng, ít tốn sức để đến back control từ Tư thế rùa",
     "Việc di chuyển bằng cổ tay đặc biệt hiệu quả trước những đối thủ mệt mỏi không thể cưỡng lại lực kéo"
   ],
   "fixItFast": [

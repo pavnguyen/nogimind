@@ -1,22 +1,22 @@
 {
-  "id": "half-guard-bottom-escape",
+  "id": "half-Guard-bottom-escape",
   "domain": "escapes",
   "level": "intermediate",
   "name": "Half Guard Bottom Escape",
   "aliases": [
     "bottom half escape",
-    "half guard recovery",
+    "Half Guard recovery",
     "dogfight escape"
   ],
   "tags": [
     "escape",
-    "half-guard",
+    "half-Guard",
     "underhook",
     "dogfight",
     "wrestle-up"
   ],
   "keywords": [
-    "half guard bottom",
+    "Half Guard bottom",
     "underhook",
     "dogfight",
     "knee shield",
@@ -24,7 +24,7 @@
   ],
   "relatedSkills": [
     {
-      "id": "half-guard-knee-shield",
+      "id": "half-Guard-knee-shield",
       "type": "recommended"
     },
     {
@@ -36,13 +36,13 @@
       "type": "recommended"
     },
     {
-      "id": "half-guard-wrestle-up",
+      "id": "half-Guard-wrestle-up",
       "type": "recommended"
     }
   ],
   "prerequisiteSkillIds": [
     "side-control-escape",
-    "half-guard-knee-shield"
+    "half-Guard-knee-shield"
   ],
   "relatedPositions": [],
   "relatedConcepts": [],

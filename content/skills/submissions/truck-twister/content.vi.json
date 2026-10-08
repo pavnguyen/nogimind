@@ -2,7 +2,7 @@
   "id": "truck-twister",
   "locale": "vi",
   "name": "Xe tải / Twister",
-  "description": "Vị trí xe tải và chuyển động xoắn: từ phía sau hoặc side control, khóa cơ thể triangle quanh thân của đối phương và kéo đầu họ về phía hông của chính họ để tạo khóa cột sống.",
+  "description": "Vị trí xe tải và chuyển động xoắn: từ phía sau hoặc Side Control, khóa cơ thể triangle quanh thân của đối phương và kéo đầu họ về phía hông của chính họ để tạo khóa cột sống.",
   "shortInstruction": "Cơ thể triangle quanh thân, kéo đầu về phía hông, cong lưng - động tác vặn xoắn là khóa cột sống chứ không phải bị sặc.",
   "summary": "Xe tải là một vị trí chuyên biệt trong đó bạn điều khiển đối thủ từ một bên bằng cơ thể triangle (tương tự như vị trí xe tải trong đấu vật). Từ truck, bạn có thể chuyển sang twister - một đòn khóa cột sống xoắn cột sống của đối thủ bằng cách kéo đầu họ về phía hông của chính họ. Twister không phải là nghẹt thở hay khóa khớp; nó là một khóa cột sống tạo ra áp lực mạnh lên đốt sống. Đòn này đặc biệt phù hợp với no-gi (vì việc duy trì body triangle khó hơn) và rất hiệu quả, nhưng đòi hỏi vị trí phải cực kỳ chính xác.",
   "whyItWorks": [
@@ -36,7 +36,7 @@
     "Nếu chúng lăn qua, hãy đi theo vòng quay của chúng và tấn công lại từ phía bên kia."
   ],
   "systemLogic": {
-    "corePrinciple": "side control hoặc half guard: cố định cơ thể triangle (vị trí xe tải) → điều khiển cánh tay xa → kéo đầu họ về phía hông → cong lưng → kết thúc.",
+    "corePrinciple": "Side Control hoặc Half Guard: cố định cơ thể triangle (vị trí xe tải) → điều khiển cánh tay xa → kéo đầu họ về phía hông → cong lưng → kết thúc.",
     "decisionTree": [
       {
         "condition": "Ứng dụng chung",

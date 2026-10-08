@@ -4,7 +4,7 @@
   "name": "armbar Hệ thống",
   "description": "Cô lập đường vai của đối phương, kiểm soát cổ tay của họ và giữ khuỷu tay của họ phía trên đường hông của bạn trước khi áp dụng động tác duỗi để kết thúc armbar.",
   "shortInstruction": "Kiểm soát cổ tay, ghim khuỷu tay vào hông, giữ ngón cái hướng lên - kết thúc phần mở rộng; nghỉ quá mức.",
-  "summary": "armbar là khóa khớp cơ bản nhất trong BJJ. Hệ thống xoay quanh ba nguyên tắc: cô lập vai (ngăn họ kéo cánh tay ra), kiểm soát cổ tay (ngón tay cái hướng lên, lòng bàn tay hướng về phía bạn) và đặt khuỷu tay phía trên đường hông trước khi duỗi ra. Nếu không có chi tiết đường hông, armbar sẽ trở thành một cuộc tranh giành sức mạnh. Với nó, lợi thế cơ học là áp đảo. Hệ thống armbar áp dụng từ guard, mount và các chuyển đổi.",
+  "summary": "armbar là khóa khớp cơ bản nhất trong BJJ. Hệ thống xoay quanh ba nguyên tắc: cô lập vai (ngăn họ kéo cánh tay ra), kiểm soát cổ tay (ngón tay cái hướng lên, lòng bàn tay hướng về phía bạn) và đặt khuỷu tay phía trên đường hông trước khi duỗi ra. Nếu không có chi tiết đường hông, armbar sẽ trở thành một cuộc tranh giành sức mạnh. Với nó, lợi thế cơ học là áp đảo. Hệ thống armbar áp dụng từ Guard, Mount và các chuyển đổi.",
   "whyItWorks": [
     "Việc kẹp khuỷu tay của họ phía trên đường hông của bạn sẽ tạo ra một đòn bẩy hạng nhất - hông của bạn là điểm tựa, cánh tay của họ là tải trọng.",
     "Vị trí giơ ngón tay cái buộc khuỷu tay của họ phải duỗi quá mức ở mặt phẳng yếu nhất của nó - tư thế ngửa là chi tiết quan trọng.",
@@ -38,12 +38,12 @@
     "corePrinciple": "Kiểm soát cánh tay: giữ chặt cổ tay (ngón cái hướng lên) → đưa khuỷu tay về phía hông → hình bốn chân qua đầu/ngực → nâng hông → duỗi thẳng.",
     "decisionTree": [
       {
-        "condition": "Từ guard",
+        "condition": "Từ Guard",
         "action": "nghỉ tư thế, bơi ngang tay, hông ra, kết thúc."
       },
       {
-        "condition": "Từ mount",
-        "action": "s-mount hoặc kỹ thuật mount, cô lập cánh tay, lùi lại có kiểm soát."
+        "condition": "Từ Mount",
+        "action": "s-Mount hoặc kỹ thuật Mount, cô lập cánh tay, lùi lại có kiểm soát."
       }
     ]
   },
@@ -53,7 +53,7 @@
     "Nâng hông của bạn lên, không kéo cánh tay của họ về phía bạn - nâng hông tạo ra một phần mở rộng rõ ràng mà không cần sức mạnh.",
     "Giữ cánh tay của họ thẳng vào ngực hoặc hông của bạn - khuỷu tay cong có thể tạo ra lực phản lực."
   ],
-  "nextStep": "Sau hệ thống armbar, hãy tìm hiểu s-mount armbar và armbar từ các biến thể guard.",
+  "nextStep": "Sau hệ thống armbar, hãy tìm hiểu s-Mount armbar và armbar từ các biến thể Guard.",
   "fixItFast": [
     "Không thể duỗi thẳng cánh tay của họ? Dùng chân kẹp khuỷu tay vào hông và sử dụng điều khiển cổ tay hai đối một.",
     "Họ xếp chồng bạn? Đưa chân còn lại của bạn đến hông xa của họ và đẩy họ ra.",

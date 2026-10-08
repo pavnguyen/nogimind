@@ -13,10 +13,4 @@ export type GrapplingArchetype = {
   requiredDefensiveSkillIds: string[]
   commonWeaknesses: LocalizedStringArray
   trainingPriorities: LocalizedStringArray
-  ifThenStrategy: {
-    if: LocalizedText
-    then: LocalizedText
-    why: LocalizedText
-    skillIds: string[]
-  }[]
 }

@@ -6,7 +6,6 @@ import { FormattedText } from '../components/common/FormattedText'
 import { NotFound } from '../components/common/NotFound'
 import { PageShell } from '../components/common/PageShell'
 import { SectionCard } from '../components/common/SectionCard'
-import { NextStepStrip } from '../components/learning/NextStepStrip'
 import { useConceptQuery, useConceptsQuery } from '../queries/conceptQueries'
 import { useManifestQuery } from '../queries/contentQueries'
 import { useSettingsStore } from '../stores/useSettingsStore'
@@ -48,11 +47,13 @@ export default function ConceptDetailPage() {
         <SectionCard title={t('concepts.whyItMatters')}>
           <p className="leading-7 text-slate-300">{getLocalizedText(concept.whyItMatters, language)}</p>
         </SectionCard>
-        <SectionCard title={t('concepts.trainingCues')}>
-          <ul className="space-y-2 text-sm leading-6 text-slate-300">
-            {getLocalizedArray(concept.trainingCues, language).map((cue) => <li key={cue}>{cue}</li>)}
-          </ul>
-        </SectionCard>
+        {getLocalizedArray(concept.trainingCues, language).length > 0 ? (
+          <SectionCard title={t('concepts.trainingCues')}>
+            <ul className="space-y-2 text-sm leading-6 text-slate-300">
+              {getLocalizedArray(concept.trainingCues, language).map((cue) => <li key={cue}>{cue}</li>)}
+            </ul>
+          </SectionCard>
+        ) : null}
       </div>
 
       <SectionCard title={t('concepts.deepExplanation')}>
@@ -68,32 +69,36 @@ export default function ConceptDetailPage() {
         </SectionCard>
       </div>
 
-      <SectionCard title={t('concepts.ifThenExamples')}>
-        <div className="grid gap-3 xl:grid-cols-2">
-          {concept.ifThenExamples.map((example, index) => (
-            <article key={`${getLocalizedText(example.if, 'en')}-${index}`} className="rounded-lg border border-white/10 bg-slate-900/60 p-4">
-              <p className="text-xs font-semibold uppercase tracking-wide hallmark-text-caution">{t('ifThen.if')}</p>
-              <p className="mt-1 text-sm leading-6 text-slate-200">{getLocalizedText(example.if, language)}</p>
-              <p className="mt-3 text-xs font-semibold uppercase tracking-wide hallmark-text-positive">{t('ifThen.then')}</p>
-              <p className="mt-1 text-sm leading-6 text-slate-200">{getLocalizedText(example.then, language)}</p>
-              <p className="mt-3 text-xs font-semibold uppercase tracking-wide text-slate-500">{t('ifThen.why')}</p>
-              <p className="mt-1 text-sm leading-6 text-slate-400">{getLocalizedText(example.why, language)}</p>
-              <SkillLinks ids={example.relatedSkillIds} skillsById={skillsById} />
-            </article>
-          ))}
-        </div>
-      </SectionCard>
+      {concept.ifThenExamples.length > 0 ? (
+        <SectionCard title={t('concepts.ifThenExamples')}>
+          <div className="grid gap-3 xl:grid-cols-2">
+            {concept.ifThenExamples.map((example, index) => (
+              <article key={`${getLocalizedText(example.if, 'en')}-${index}`} className="rounded-lg border border-white/10 bg-slate-900/60 p-4">
+                <p className="text-xs font-semibold uppercase tracking-wide hallmark-text-caution">{t('ifThen.if')}</p>
+                <p className="mt-1 text-sm leading-6 text-slate-200">{getLocalizedText(example.if, language)}</p>
+                <p className="mt-3 text-xs font-semibold uppercase tracking-wide hallmark-text-positive">{t('ifThen.then')}</p>
+                <p className="mt-1 text-sm leading-6 text-slate-200">{getLocalizedText(example.then, language)}</p>
+                <p className="mt-3 text-xs font-semibold uppercase tracking-wide text-slate-500">{t('ifThen.why')}</p>
+                <p className="mt-1 text-sm leading-6 text-slate-400">{getLocalizedText(example.why, language)}</p>
+                <SkillLinks ids={example.relatedSkillIds} skillsById={skillsById} />
+              </article>
+            ))}
+          </div>
+        </SectionCard>
+      ) : null}
 
-      <SectionCard title={t('concepts.misunderstandings')}>
-        <div className="grid gap-3 xl:grid-cols-2">
-          {concept.commonMisunderstandings.map((item, index) => (
-            <article key={`${getLocalizedText(item.misunderstanding, 'en')}-${index}`} className="rounded-lg border border-white/10 bg-slate-900/60 p-4">
-              <p className="text-sm font-semibold hallmark-text-danger">{getLocalizedText(item.misunderstanding, language)}</p>
-              <p className="mt-2 text-sm leading-6 text-slate-300">{getLocalizedText(item.correction, language)}</p>
-            </article>
-          ))}
-        </div>
-      </SectionCard>
+      {concept.commonMisunderstandings.length > 0 ? (
+        <SectionCard title={t('concepts.misunderstandings')}>
+          <div className="grid gap-3 xl:grid-cols-2">
+            {concept.commonMisunderstandings.map((item, index) => (
+              <article key={`${getLocalizedText(item.misunderstanding, 'en')}-${index}`} className="rounded-lg border border-white/10 bg-slate-900/60 p-4">
+                <p className="text-sm font-semibold hallmark-text-danger">{getLocalizedText(item.misunderstanding, language)}</p>
+                <p className="mt-2 text-sm leading-6 text-slate-300">{getLocalizedText(item.correction, language)}</p>
+              </article>
+            ))}
+          </div>
+        </SectionCard>
+      ) : null}
 
       <div className="grid gap-6 xl:grid-cols-2">
         <SectionCard title={t('common.relatedSkills')}>
@@ -114,17 +119,6 @@ export default function ConceptDetailPage() {
       <SectionCard title={t('video.videoReferences')}>
         <ConceptVideoReferencePanel skillIds={concept.relatedSkillIds} />
       </SectionCard>
-
-      <NextStepStrip
-        title={t('concepts.nextStep')}
-        items={[
-          concept.relatedSkillIds[0]
-            ? { title: t('common.relatedSkills'), body: t('concepts.appliedHere'), to: `/skills/${concept.relatedSkillIds[0]}` }
-            : { title: t('common.relatedSkills'), body: t('concepts.appliedHere'), to: '/skills' },
-          { title: t('cardOS.topDetails'), body: t('concepts.trainingCues'), to: '/skills' },
-          { title: t('positions.heading'), body: t('concepts.relatedConcepts'), to: '/positions' },
-        ]}
-      />
     </PageShell>
   )
 }

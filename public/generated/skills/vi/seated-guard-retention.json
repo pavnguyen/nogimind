@@ -3,24 +3,24 @@
   "domain": "guard_retention",
   "level": "beginner",
   "status": "draft",
-  "name": "Ngồi guard Giữ chân",
+  "name": "Seated Guard Giữ chân",
   "aliases": [
-    "seated guard",
-    "sitting guard retention",
-    "open guard retention seated"
+    "seated Guard",
+    "sitting Guard retention",
+    "open Guard retention seated"
   ],
   "tags": [],
   "keywords": [
-    "guard retention",
-    "open guard",
+    "Guard retention",
+    "open Guard",
     "frames",
-    "seated guard",
-    "no gi guard",
+    "seated Guard",
+    "no gi Guard",
     "inside position"
   ],
   "relatedSkills": [
     {
-      "id": "supine-guard-retention",
+      "id": "supine-Guard-retention",
       "type": "alternative"
     },
     {
@@ -38,8 +38,8 @@
   ],
   "relatedSkillIds": [],
   "relatedPositions": [
-    "seated-guard",
-    "open-guard-bottom"
+    "seated-Guard",
+    "open-Guard-bottom"
   ],
   "relatedPositionIds": [],
   "relatedConcepts": [
@@ -50,7 +50,7 @@
   ],
   "relatedConceptIds": [],
   "archetypeIds": [
-    "guard-player",
+    "Guard-player",
     "passing-specialist"
   ],
   "relatedArchetypeIds": [],
@@ -81,7 +81,7 @@
       {
         "order": 4,
         "name": "Manage Distance",
-        "description": "Use feet on hips or biceps frames to maintain distance; don't let them collapse your guard."
+        "description": "Use feet on hips or biceps frames to maintain distance; don't let them collapse your Guard."
       }
     ],
     "contactPoints": [
@@ -103,7 +103,7 @@
     ]
   },
   "systemLogic": {
-    "corePrinciple": "guard giữ chân là một trò chơi quản lý khoảng cách — bàn chân và khung của bạn là tuyến phòng thủ đầu tiên. Phản ứng với hướng vượt qua trước khi thực hiện một cuộc chạy trốn hoặc phản công.",
+    "corePrinciple": "Guard giữ chân là một trò chơi quản lý khoảng cách — bàn chân và khung của bạn là tuyến phòng thủ đầu tiên. Phản ứng với hướng vượt qua trước khi thực hiện một cuộc chạy trốn hoặc phản công.",
     "decisionTree": [
       {
         "condition": "Người qua đường đang đứng và đi vòng quanh",
@@ -127,9 +127,9 @@
       }
     ],
     "exitStrategies": [
-      "Nếu họ vượt qua một chặng, hãy khôi phục half guard và bắt đầu lại chu trình lưu giữ.",
-      "Nếu chúng đè bẹp bạn hoàn toàn, hãy quay sang một bên, đánh vào đầu gối gần đó và đặt lại guard ngồi.",
-      "Nếu quá trình lưu giữ không thành công nhiều lần, hãy chuyển sang chế độ nằm ngửa guard với nửa sâu làm lớp dự phòng."
+      "Nếu họ vượt qua một chặng, hãy khôi phục Half Guard và bắt đầu lại chu trình lưu giữ.",
+      "Nếu chúng đè bẹp bạn hoàn toàn, hãy quay sang một bên, đánh vào đầu gối gần đó và đặt lại Guard ngồi.",
+      "Nếu quá trình lưu giữ không thành công nhiều lần, hãy chuyển sang chế độ nằm ngửa Guard với nửa sâu làm lớp dự phòng."
     ]
   },
   "keyCorrections": [
@@ -160,9 +160,9 @@
   },
   "locale": "vi",
   "shortName": "Giữ chỗ ngồi",
-  "description": "Một hệ thống phòng thủ chủ động khi ngồi, sử dụng khung xương, trụ chân và khả năng di chuyển của chân để chặn đường chuyền của đối phương và duy trì các lớp guard.",
+  "description": "Một hệ thống phòng thủ chủ động khi ngồi, sử dụng khung xương, trụ chân và khả năng di chuyển của chân để chặn đường chuyền của đối phương và duy trì các lớp Guard.",
   "shortInstruction": "Giữ chân trên hông, duy trì kết nối đầu gối-khuỷu tay, sử dụng tay nắm chữ C trên cổ tay và khung để phục hồi hoặc wrestle up.",
-  "summary": "Hoạt động guard giữ nguyên tư thế ngồi bằng cách sử dụng khung, trụ chân và vị trí bên trong.",
+  "summary": "Hoạt động Guard giữ nguyên tư thế ngồi bằng cách sử dụng khung, trụ chân và vị trí bên trong.",
   "whyItWorks": [
     "Giữ khoảng cách bằng cách sử dụng đòn bẩy dài nhất (bàn chân, ống chân) trước khi người qua đường có thể áp ngực vào ngực.",
     "Giữ nguyên vị trí bên trong thông qua kết nối đầu gối-khuỷu tay và chủ động chiến đấu bằng tay.",
@@ -183,7 +183,7 @@
     "Hãy ngồi yên, duy trì hoạt động."
   ],
   "oneMinuteMode": {
-    "goal": "Duy trì khoảng cách và vị trí bên trong với chỗ ngồi guard.",
+    "goal": "Duy trì khoảng cách và vị trí bên trong với chỗ Seated Guard.",
     "steps": [
       "Giữ cả hai chân đặt trên hông hoặc bắp tay.",
       "Duy trì kết nối đầu gối-khuỷu tay ở cả hai bên.",
@@ -197,5 +197,5 @@
     "Bảo vệ cổ của bạn bằng cách giữ cằm gọn gàng khi đeo kính.",
     "Tránh đăng bài với cánh tay thẳng để tránh hiện tượng khóa khớp."
   ],
-  "nextStep": "Sau khi giữ lại guard, hãy chuyển sang wrestle up (đứng lên về mặt kỹ thuật), chuyển sang tư thế nằm ngửa guard hoặc tấn công bằng các mục nhập từ ống chân tới ống chân."
+  "nextStep": "Sau khi giữ lại Guard, hãy chuyển sang wrestle up (đứng lên về mặt kỹ thuật), chuyển sang tư thế nằm ngửa Guard hoặc tấn công bằng các mục nhập từ ống chân tới ống chân."
 }

@@ -1,30 +1,30 @@
 {
-  "id": "octopus-guard-control",
+  "id": "octopus-Guard-control",
   "domain": "guard_retention",
   "level": "intermediate",
   "name": "Octopus Guard Control",
   "aliases": [],
   "tags": [
     "octopus",
-    "guard",
+    "Guard",
     "hip-angle",
     "wrestle-up",
     "tier:modern-expansion",
     "meta:modern-common",
     "risk:medium",
-    "family:guard",
+    "family:Guard",
     "group:octopus",
     "modern-no-gi"
   ],
   "keywords": [
-    "octopus guard",
+    "octopus Guard",
     "far hip",
     "crossface defense"
   ],
   "modernSystemGroup": "octopus",
   "relatedSkills": [
     {
-      "id": "octopus-guard-sweep",
+      "id": "octopus-Guard-sweep",
       "type": "recommended"
     },
     {
@@ -38,7 +38,7 @@
   ],
   "prerequisiteSkillIds": [
     "side-control-escape",
-    "half-guard-wrestle-up"
+    "half-Guard-wrestle-up"
   ],
   "relatedPositions": [],
   "relatedConcepts": [],

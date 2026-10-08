@@ -27,11 +27,11 @@
   ],
   "advancementOptions": [
     {
-      "action": "Đi góc tới finish line từ side control",
+      "action": "Đi góc tới finish line từ Side Control",
       "nextPositionId": "side-control-top",
       "relatedSkillIds": [
-        "arm-triangle-mount",
-        "mount-control",
+        "arm-triangle-Mount",
+        "Mount-control",
         "side-control-pin"
       ],
       "why": "Đây là nhánh tự nhiên khi bạn thắng điểm kiểm soát chính và đối thủ buộc phải phòng thủ."
@@ -44,8 +44,8 @@
     "Bạn phải chống tay dài để không ngã."
   ],
   "relatedSkillIds": [
-    "arm-triangle-mount",
-    "mount-control",
+    "arm-triangle-Mount",
+    "Mount-control",
     "side-control-pin"
   ],
   "relatedConceptIds": [

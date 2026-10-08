@@ -3,10 +3,10 @@
   "domain": "escapes",
   "level": "intermediate",
   "status": "draft",
-  "name": "Phục hồi Guard từ Tư thế Rùa",
+  "name": "Phục hồi Guard từ tư thế rùa",
   "aliases": [
-    "guard recovery from turtle",
-    "turtle guard recovery"
+    "Guard recovery from turtle",
+    "turtle Guard recovery"
   ],
   "tags": [
     "tier:modern-expansion",
@@ -17,9 +17,9 @@
   ],
   "keywords": [
     "turtle escape",
-    "guard recovery",
+    "Guard recovery",
     "hip switch",
-    "turtle guard"
+    "turtle Guard"
   ],
   "modernSystemGroup": "safety",
   "relatedSkills": [
@@ -34,7 +34,7 @@
   "relatedConcepts": [],
   "relatedConceptIds": [],
   "archetypeIds": [
-    "guard-retention-specialist"
+    "Guard-retention-specialist"
   ],
   "relatedArchetypeIds": [],
   "prerequisiteSkillIds": [],
@@ -44,7 +44,7 @@
   "keyCorrections": [
     "Nếu họ giữ seatbelt: tay chiến đấu trước — kéo tay họ xuống, sau đó luồn tay trong",
     "Nếu họ đè nặng: chịu trọng lượng và chờ họ nhấc lên — đó là lúc bạn di chuyển",
-    "Nếu họ đuổi theo bạn: tiếp tục xoay và đá chân qua — hoàn thành guard recovery"
+    "Nếu họ đuổi theo bạn: tiếp tục xoay và đá chân qua — hoàn thành Guard recovery"
   ],
   "version": 1,
   "updatedAt": "2026-05-28T09:34:33.161Z",
@@ -58,17 +58,17 @@
     "hasStateMachine": false
   },
   "locale": "vi",
-  "description": "Phục hồi guard từ turtle sử dụng động tác chuyển hông bùng nổ để tạo khoảng trống, tái kết nối với đối thủ và thiết lập guard.",
-  "shortInstruction": "Từ turtle → bảo vệ cổ → đọc trọng lượng họ đè tới (tín hiệu) → thả hông gần xuống thảm → đá chân xa qua → luồn tay trong → thiết lập lại guard.",
-  "summary": "Phục hồi guard từ turtle sử dụng động tác hông bùng nổ để tạo khoảng trống, đưa chân vào giữa và thiết lập lại guard. An toàn hơn đứng lên vì bạn không lộ lưng cho đòn siết.",
+  "description": "Phục hồi Guard từ turtle sử dụng động tác chuyển hông bùng nổ để tạo khoảng trống, tái kết nối với đối thủ và thiết lập Guard.",
+  "shortInstruction": "Từ turtle → bảo vệ cổ → đọc trọng lượng họ đè tới (tín hiệu) → thả hông gần xuống thảm → đá chân xa qua → luồn tay trong → thiết lập lại Guard.",
+  "summary": "Phục hồi Guard từ turtle sử dụng động tác hông bùng nổ để tạo khoảng trống, đưa chân vào giữa và thiết lập lại Guard. An toàn hơn đứng lên vì bạn không lộ lưng cho đòn siết.",
   "whyItWorks": [
     "Từ turtle, bạn có thể bùng nổ thoát hông khi đối thủ đè trọng lượng về phía trước",
     "Chuyển hông tạo khoảng trống để đưa chân vào giữa bạn và họ",
     "Luồn tay trong ngăn họ thiết lập seatbelt hoặc body triangle",
-    "Phục hồi guard thay vì đứng dậy an toàn hơn khi đối thủ đã đè trọng lượng lên trên"
+    "Phục hồi Guard thay vì đứng dậy an toàn hơn khi đối thủ đã đè trọng lượng lên trên"
   ],
   "commonMistakes": [
-    "Cố phục hồi guard trước khi bảo vệ cổ — luôn che cổ trước",
+    "Cố phục hồi Guard trước khi bảo vệ cổ — luôn che cổ trước",
     "Thả cả hai tay xuống thảm để đứng dậy — lộ lưng cho đòn siết cổ",
     "Đá chân qua mà không luồn tay trong — họ giữ được seatbelt control",
     "Ở turtle quá lâu — turtle là vị trí phản ứng; bạn phải đọc và bùng nổ"
@@ -81,11 +81,11 @@
   ],
   "safetySummary": [
     "Luôn bảo vệ cổ trước khi làm bất cứ điều gì từ turtle — seatbelt có thể dẫn đến RNC ngay lập tức",
-    "Nếu họ đã có seatbelt, không cố phục hồi guard — tập trung vào bảo vệ cổ và tay chiến đấu",
+    "Nếu họ đã có seatbelt, không cố phục hồi Guard — tập trung vào bảo vệ cổ và tay chiến đấu",
     "Khi đá chân qua, đảm bảo không đá vào mặt họ"
   ],
   "systemLogic": {
-    "corePrinciple": "Turtle to guard recovery: turtle → bảo vệ cổ → đọc trọng lượng đè tới (tín hiệu) → thả hông gần xuống thảm → đá chân xa qua → luồn tay trong → thiết lập lại guard.",
+    "corePrinciple": "Turtle to Guard recovery: turtle → bảo vệ cổ → đọc trọng lượng đè tới (tín hiệu) → thả hông gần xuống thảm → đá chân xa qua → luồn tay trong → thiết lập lại Guard.",
     "decisionTree": [
       {
         "condition": "Họ giữ seatbelt",
@@ -97,18 +97,18 @@
       },
       {
         "condition": "Họ đuổi theo",
-        "action": "tiếp tục xoay và đá chân qua — hoàn thành guard recovery"
+        "action": "tiếp tục xoay và đá chân qua — hoàn thành Guard recovery"
       }
     ],
     "exitStrategies": [
-      "Nếu guard recovery thất bại, quay lại turtle và thử lại",
-      "Nếu họ lên mount trong lúc bạn phục hồi, bảo vệ và escape mount"
+      "Nếu Guard recovery thất bại, quay lại turtle và thử lại",
+      "Nếu họ lên Mount trong lúc bạn phục hồi, bảo vệ và escape Mount"
     ]
   },
   "moneyDetails": [
-    "Phục hồi guard từ turtle là kỹ năng sinh tồn quan trọng cho mọi võ sĩ BJJ",
-    "Phục hồi guard an toàn hơn đứng lên vì nó không lộ lưng cho RNC hoặc body triangle",
-    "Khả năng phục hồi guard từ turtle tách biệt võ sĩ phòng thủ tốt khỏi võ sĩ trung bình"
+    "Phục hồi Guard từ turtle là kỹ năng sinh tồn quan trọng cho mọi võ sĩ BJJ",
+    "Phục hồi Guard an toàn hơn đứng lên vì nó không lộ lưng cho RNC hoặc body triangle",
+    "Khả năng phục hồi Guard từ turtle tách biệt võ sĩ phòng thủ tốt khỏi võ sĩ trung bình"
   ],
   "fixItFast": [
     "Nếu họ có seatbelt: tay chiến đấu — kéo tay họ xuống ngay lập tức",

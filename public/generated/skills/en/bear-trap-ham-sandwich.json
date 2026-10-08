@@ -23,7 +23,7 @@
   ],
   "relatedSkills": [
     {
-      "id": "deep-half-guard",
+      "id": "deep-half-Guard",
       "type": "recommended"
     },
     {
@@ -43,7 +43,7 @@
   "archetypeIds": [],
   "relatedArchetypeIds": [],
   "prerequisiteSkillIds": [
-    "half-guard-knee-shield",
+    "half-Guard-knee-shield",
     "leg-lock-safety-basics"
   ],
   "trainingMethodIds": [],
@@ -66,9 +66,9 @@
     "hasStateMachine": false
   },
   "locale": "en",
-  "description": "Use the bear trap (also called ham sandwich) to create a compression lock — calf slicer — from half butterfly or half guard, forcing the opponent to tap, expose their back, or give up the sweep.",
-  "shortInstruction": "Trap their leg in your knee pit, drive your shin into their calf, compress — the bear trap is a calf slicer hidden in the half guard.",
-  "summary": "The bear trap (ham sandwich) is a compression submission (calf slicer) that uses your shin bone against their calf muscle, with their leg trapped in the crook of your knee. It is most commonly entered from half butterfly or half guard when the opponent drives forward. The crushing pressure on their calf forces them to either tap, roll onto their back (giving you the sweep), or expose their back for a back take.",
+  "description": "Use the bear trap (also called ham sandwich) to create a compression lock — calf slicer — from half butterfly or Half Guard, forcing the opponent to tap, expose their back, or give up the sweep.",
+  "shortInstruction": "Trap their leg in your knee pit, drive your shin into their calf, compress — the bear trap is a calf slicer hidden in the Half Guard.",
+  "summary": "The bear trap (ham sandwich) is a compression submission (calf slicer) that uses your shin bone against their calf muscle, with their leg trapped in the crook of your knee. It is most commonly entered from half butterfly or Half Guard when the opponent drives forward. The crushing pressure on their calf forces them to either tap, roll onto their back (giving you the sweep), or expose their back for a back take.",
   "whyItWorks": [
     "The compression of the shin bone against the calf muscle creates intense pain and joint pressure — most opponents will tap or roll.",
     "It works as a dilemma: tap from the calf slicer or give up the sweep/back take.",
@@ -93,7 +93,7 @@
     "Not recommended for beginners — compression locks require experience to apply safely."
   ],
   "systemLogic": {
-    "corePrinciple": "Half butterfly or half guard: opponent drives forward → trap their leg in your knee pit (bear trap) → compress with shin → finish or sweep.",
+    "corePrinciple": "Half butterfly or Half Guard: opponent drives forward → trap their leg in your knee pit (bear trap) → compress with shin → finish or sweep.",
     "decisionTree": [
       {
         "condition": "Using Reaction 1",

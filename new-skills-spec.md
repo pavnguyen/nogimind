@@ -36,22 +36,22 @@ NoGiMind is a no-gi BJJ knowledge app currently containing **~95+ skills** acros
 | # | Skill ID | Proposed Name | Rationale |
 |---|----------|---------------|-----------|
 | 1 | `toreando-passing` | Toreando / Float Passing | Modern athletic passing staying on feet — gap vs existing pressure-based passes |
-| 2 | `tripod-folding-pass` | Tripod / Folding Pass | Head-down tripod base to fold guard — very common modern meta |
-| 3 | `over-under-pass` | Over-Under / Smash Pass | Classic revived with modern refinements — half guard pressure passing |
+| 2 | `tripod-folding-pass` | Tripod / Folding Pass | Head-down tripod base to fold Guard — very common modern meta |
+| 3 | `over-under-pass` | Over-Under / Smash Pass | Classic revived with modern refinements — Half Guard pressure passing |
 
 ### Domain: wrestle_up_wrestling
 | # | Skill ID | Proposed Name | Rationale |
 |---|----------|---------------|-----------|
-| 4 | `double-leg-bjj` | Double Leg for BJJ | Double leg adapted with guillotine defense — big gap vs existing single leg |
+| 4 | `double-leg-bjj` | Double Leg for BJJ | Double leg adapted with Guillotine defense — big gap vs existing single leg |
 | 5 | `bjj-foot-sweeps` | BJJ Foot Sweeps | Foot sweep entries for BJJ — modern wrestling integration trend |
 | 6 | `lateral-drop-headlock-throw` | Lateral Drop / Headlock Throw | High percentage BJJ takedown — missing from existing wrestling skills |
 
 ### Domain: guard_offense
 | # | Skill ID | Proposed Name | Rationale |
 |---|----------|---------------|-----------|
-| 7 | `coyote-half-guard` | Coyote Half Guard | Deep hook system from half guard — extremely popular modern system |
+| 7 | `coyote-half-Guard` | Coyote Half Guard | Deep hook system from Half Guard — extremely popular modern system |
 | 8 | `berimbolo-back-take` | Berimbolo / Inversion Back Take | Specific DLR inversion mechanics — existing DLR back take is more general |
-| 9 | `k-guard-to-outside-ashi` | K-Guard to Outside Ashi | K-guard → outside ashi heel hook entry — important system connection |
+| 9 | `k-Guard-to-outside-ashi` | K-Guard to Outside Ashi | K-Guard → outside ashi heel hook entry — important system connection |
 
 ### Domain: submission_systems
 | # | Skill ID | Proposed Name | Rationale |
@@ -59,8 +59,8 @@ NoGiMind is a no-gi BJJ knowledge app currently containing **~95+ skills** acros
 | 10 | `inside-outside-heel-hook` | Inside & Outside Heel Hook Finishing | Detailed finishing mechanics — existing heel hook safety is safety-focused only |
 | 11 | `toe-hold-system` | Toe Hold / Estima Lock | Complete toe hold system with Estima lock variant |
 | 12 | `calf-slicer-system` | Calf Slicer / Compression Locks | Compression submission system — only bear trap exists |
-| 13 | `mounted-triangle` | Mounted Triangle | Triangle choke from mount — specific high-percentage finish |
-| 14 | `peruvian-necktie` | Peruvian Necktie | Front headlock finish — complements existing D'Arce/Anaconda/Guillotine |
+| 13 | `mounted-triangle` | Mounted Triangle | Triangle choke from Mount — specific high-percentage finish |
+| 14 | `peruvian-necktie` | Peruvian Necktie | Front Headlock finish — complements existing D'Arce/Anaconda/Guillotine |
 | 15 | `body-triangle-control` | Body Triangle Control | Body triangle as separate control/submission system |
 
 ### Domain: pins_rides
@@ -77,10 +77,10 @@ NoGiMind is a no-gi BJJ knowledge app currently containing **~95+ skills** acros
 ### Domain: escapes
 | # | Skill ID | Proposed Name | Rationale |
 |---|----------|---------------|-----------|
-| 19 | `turtle-to-guard-recovery` | Turtle to Guard Recovery | Escape from turtle back to guard — complements existing turtle-escape-standup |
+| 19 | `turtle-to-Guard-recovery` | Turtle to Guard Recovery | Escape from turtle back to Guard — complements existing turtle-escape-standup |
 
 ### Technical note: 80/20 Position
-The **80/20 leg control position** is a variation of the outside ashi position. Rather than a standalone skill, it should be integrated as a key positional detail within the `inside-outside-heel-hook` or `k-guard-to-outside-ashi` skill content (as a transition phase or specific control detail).
+The **80/20 leg control position** is a variation of the outside ashi position. Rather than a standalone skill, it should be integrated as a key positional detail within the `inside-outside-heel-hook` or `k-Guard-to-outside-ashi` skill content (as a transition phase or specific control detail).
 
 ---
 
@@ -200,7 +200,7 @@ content/skills/{domain}/{skill-id}/
 - `risk:safety-critical` — Can cause severe injury
 
 **Family tags:**
-- `family:passing`, `family:guard`, `family:submission`, `family:back-take`, `family:ride`, `family:wrestling`, `family:leg-lock`, `family:front-headlock`, `family:escape`, `family:pin`, `family:scramble`, `family:safety`, `family:compression`
+- `family:passing`, `family:Guard`, `family:submission`, `family:back-take`, `family:ride`, `family:wrestling`, `family:leg-lock`, `family:front-headlock`, `family:escape`, `family:pin`, `family:scramble`, `family:safety`, `family:compression`
 
 **Group tags:** Use the appropriate `ModernSystemGroup` value.
 
@@ -213,7 +213,7 @@ Use these trusted channels for video references:
 | Channel | Focus |
 |---------|-------|
 | B-Team | Modern no-gi systems, leg locks, wrestling |
-| Craig Jones | Heel hooks, K-guard, leg entanglements |
+| Craig Jones | Heel hooks, K-Guard, leg entanglements |
 | Lachlan Giles | Guard systems, leg locks, passing |
 | Jozef Chen | Modern no-gi, wrestling integration |
 | Submeta (Lachlan Giles) | Instructional content |
@@ -238,16 +238,16 @@ New skills must connect to the following existing infrastructure:
 
 ### Archetypes
 New skills should be added to relevant archetypes in `src/data/archetypes.ts`:
-- `wrestle-up-player` — gets: double-leg-bjj, bjj-foot-sweeps, coyote-half-guard
+- `wrestle-up-player` — gets: double-leg-bjj, bjj-foot-sweeps, coyote-half-Guard
 - `pressure-passer` — gets: tripod-folding-pass, over-under-pass, chin-strap-control
-- `guard-retention-specialist` — gets: coyote-half-guard, turtle-to-guard-recovery
-- `leg-lock-safety-first` — gets: inside-outside-heel-hook, toe-hold-system, k-guard-to-outside-ashi
+- `Guard-retention-specialist` — gets: coyote-half-Guard, turtle-to-Guard-recovery
+- `leg-lock-safety-first` — gets: inside-outside-heel-hook, toe-hold-system, k-Guard-to-outside-ashi
 - `back-control-finisher` — gets: gift-wrap-back-take, leg-drag-to-back-take, body-triangle-control
 - `front-headlock-player` — gets: peruvian-necktie, chin-strap-control
 - `submission-chain-hunter` — gets: mounted-triangle, calf-slicer-system, toe-hold-system
 
 ### Positions
-New positions may need to be added to `content/shared/positions.json` if new positions are introduced (e.g., turtle guard recovery position, gift-wrap position).
+New positions may need to be added to `content/shared/positions.json` if new positions are introduced (e.g., turtle Guard recovery position, gift-wrap position).
 
 ### Concepts
 New concepts may be needed if the skills introduce new mechanical principles not yet covered.
@@ -267,9 +267,9 @@ New training methods may be needed for positional games specific to these new sk
 | `double-leg-bjj` | intermediate | modern-expansion | modern-common | medium | wrestling | wrestle_up |
 | `bjj-foot-sweeps` | intermediate | modern-expansion | modern-common | low | wrestling | wrestle_up |
 | `lateral-drop-headlock-throw` | intermediate | modern-expansion | emerging | high | wrestling | front_headlock |
-| `coyote-half-guard` | intermediate | modern-expansion | modern-common | medium | guard | single_leg_x |
+| `coyote-half-Guard` | intermediate | modern-expansion | modern-common | medium | Guard | single_leg_x |
 | `berimbolo-back-take` | advanced | modern-expansion | modern-common | medium | back_take | x_guard |
-| `k-guard-to-outside-ashi` | advanced | modern-expansion | modern-common | high | leg_lock | k_guard |
+| `k-Guard-to-outside-ashi` | advanced | modern-expansion | modern-common | high | leg_lock | k_guard |
 | `inside-outside-heel-hook` | advanced | safety-critical | modern-common | safety-critical | leg_lock | leg_lock |
 | `toe-hold-system` | advanced | advanced-niche | specialized | high | leg_lock | leg_lock |
 | `calf-slicer-system` | advanced | advanced-niche | specialized | high | submission | leg_lock |
@@ -279,7 +279,7 @@ New training methods may be needed for positional games specific to these new sk
 | `chin-strap-control` | intermediate | modern-expansion | modern-common | low | front_headlock | counter_wrestling |
 | `gift-wrap-back-take` | intermediate | modern-expansion | modern-common | low | back_take | counter_wrestling |
 | `leg-drag-to-back-take` | advanced | modern-expansion | modern-common | medium | back_take | crab_ride |
-| `turtle-to-guard-recovery` | intermediate | modern-expansion | modern-common | low | escape | safety |
+| `turtle-to-Guard-recovery` | intermediate | modern-expansion | modern-common | low | escape | safety |
 
 ---
 
@@ -289,26 +289,26 @@ New training methods may be needed for positional games specific to these new sk
 Skills that build on existing systems with minimal prerequisite needs:
 1. `toreando-passing` — complements existing outside-passing
 2. `tripod-folding-pass` — complements existing pressure passing
-3. `over-under-pass` — fills half guard passing gap
+3. `over-under-pass` — fills Half Guard passing gap
 4. `double-leg-bjj` — fills major takedown gap
 5. `bjj-foot-sweeps` — light takedown additions
 6. `chin-strap-control` — fundamental head control
-7. `coyote-half-guard` — modern half guard system
+7. `coyote-half-Guard` — modern Half Guard system
 
 ### Phase 2 — Back Takes & Transitions (Skills 8–12)
 Skills that connect existing systems:
 8. `gift-wrap-back-take`
 9. `leg-drag-to-back-take`
 10. `berimbolo-back-take`
-11. `k-guard-to-outside-ashi`
-12. `turtle-to-guard-recovery`
+11. `k-Guard-to-outside-ashi`
+12. `turtle-to-Guard-recovery`
 
 ### Phase 3 — Submissions (Skills 13–19)
 Advanced submission skills with safety prerequisites:
 13. `inside-outside-heel-hook` — requires leg-lock-safety-basics
 14. `toe-hold-system` — requires leg-lock-safety-basics
 15. `calf-slicer-system` — requires leg-lock-safety-basics
-16. `mounted-triangle` — requires mount-control
+16. `mounted-triangle` — requires Mount-control
 17. `peruvian-necktie` — requires front-headlock-system
 18. `body-triangle-control` — requires back-control
 19. `lateral-drop-headlock-throw`
@@ -371,7 +371,7 @@ Each skill outline below defines what the **moneyDetails**, **whyItWorks**, **co
 **Body mechanics core:** The toreando pass works by creating a distance/angle problem for the opponent — you stay on your feet, control one sleeve or wrist, and circle past their legs while floating your weight. Unlike pressure passes, you never commit your chest to their hips until the pass is complete.
 
 **whyItWorks (mechanical reasons):**
-- Staying on your feet keeps your weight mobile — they cannot trap you in half guard or body lock
+- Staying on your feet keeps your weight mobile — they cannot trap you in Half Guard or body lock
 - Pulling one sleeve across their centerline forces them to turn, exposing the space for the pass
 - Circling to the side of the controlled arm means their near leg cannot frame — the leg follows the hip, the hip follows the shoulder
 - The float (lifting your weight over their legs) prevents them from catching you in a knee shield or butterfly hook
@@ -384,8 +384,8 @@ Each skill outline below defines what the **moneyDetails**, **whyItWorks**, **co
 - Key detail: the lead hand pull + the outside footwork happen *simultaneously* — if you step before pulling, they can follow you
 
 **commonMistakes:**
-- Stepping past before creating the shoulder rotation — they follow you and re-guard
-- Dropping your head below their hip line — they catch you in a guillotine or shoulder crunch
+- Stepping past before creating the shoulder rotation — they follow you and re-Guard
+- Dropping your head below their hip line — they catch you in a Guillotine or shoulder crunch
 - Staying square to them as you pass — must create the angle with the arm drag
 - Committing weight forward too early — they catch you in a knee shield
 
@@ -396,13 +396,13 @@ Each skill outline below defines what the **moneyDetails**, **whyItWorks**, **co
 - "Lead hand pull + outside step = one movement"
 
 **systemLogic corePrinciple:**
-"Toreando pass: control their near arm → pull across to rotate their shoulders → circle outside their knee line → float your weight over their legs → stabilize side control. The pass succeeds by creating an angle they cannot defend — a squared-up toreando is a failed toreando."
+"Toreando pass: control their near arm → pull across to rotate their shoulders → circle outside their knee line → float your weight over their legs → stabilize Side Control. The pass succeeds by creating an angle they cannot defend — a squared-up toreando is a failed toreando."
 
 **decisionTree:**
-- They sit up to follow you → switch to snapdown or front headlock
+- They sit up to follow you → switch to snapdown or Front Headlock
 - They throw butterfly hook → redirect the hook with your free hand and skip past
 - They turn away → take the back
-- They pull guard → circle to the other side and re-attack
+- They pull Guard → circle to the other side and re-attack
 
 ---
 
@@ -413,7 +413,7 @@ Each skill outline below defines what the **moneyDetails**, **whyItWorks**, **co
 **whyItWorks (mechanical reasons):**
 - Posting a wide base creates a tripod (two legs + one hand/head on the mat) — this gives you stability while folding
 - Driving your head to their far hip creates a fulcrum — their own body weight becomes the resistance that prevents them from recovering posture
-- Folding their torso toward their knees compresses their hip flexors — they cannot generate extension to frame or re-guard
+- Folding their torso toward their knees compresses their hip flexors — they cannot generate extension to frame or re-Guard
 - Once folded, their legs are trapped between their own chest and the mat — they have no space to reinsert knees
 
 **moneyDetails (body placement details):**
@@ -422,7 +422,7 @@ Each skill outline below defines what the **moneyDetails**, **whyItWorks**, **co
 - Drive your head (crown of the head, NOT forehead) into their far hip/side — your head is the wedge
 - As you drive, walk your tripod forward — the forward walk folds their torso progressively
 - Key detail: your head must go past their centerline to trap both of their legs on the same side
-- When their shoulder touches their knee, the pass is complete — you can now slide to side control
+- When their shoulder touches their knee, the pass is complete — you can now slide to Side Control
 
 **commonMistakes:**
 - Driving with the forehead instead of the crown — this strains the neck and reduces wedge efficacy
@@ -437,27 +437,27 @@ Each skill outline below defines what the **moneyDetails**, **whyItWorks**, **co
 - "Head is the wedge, legs are the engine"
 
 **systemLogic corePrinciple:**
-"Tripod pass: pin far arm → step wide tripod base → drive crown of head to far hip → walk forward until shoulder touches knee → slide to side control. The pass uses head pressure + forward walk to fold the opponent — it succeeds because they cannot extend their hips to recover posture."
+"Tripod pass: pin far arm → step wide tripod base → drive crown of head to far hip → walk forward until shoulder touches knee → slide to Side Control. The pass uses head pressure + forward walk to fold the opponent — it succeeds because they cannot extend their hips to recover posture."
 
 ---
 
 ### over-under-pass — Over-Under / Smash Pass
 
-**Body mechanics core:** The over-under pass controls one leg (underhook grip) and one arm (overhook grip) simultaneously, creating a chest-to-chest pin that eliminates their frames. From half guard, you pass by locking their near leg with your overhook arm and driving your weight through their chest.
+**Body mechanics core:** The over-under pass controls one leg (underhook grip) and one arm (overhook grip) simultaneously, creating a chest-to-chest pin that eliminates their frames. From Half Guard, you pass by locking their near leg with your overhook arm and driving your weight through their chest.
 
 **whyItWorks (mechanical reasons):**
 - The over-under grip (one arm over their arm, one arm under their leg) creates an asymmetrical control that prevents them from framing on either side
 - Your chest driving into their chest removes the space needed for knee shield or re-guarding
-- The underhook on their leg prevents them from shrimping or recovering half guard
+- The underhook on their leg prevents them from shrimping or recovering Half Guard
 - The overhook on the near arm disables their strongest defense (the crossface frame)
 
 **moneyDetails (body placement details):**
-- From half guard, your overhook arm pinches their near arm against your ribs — this controls their crossface hand
+- From Half Guard, your overhook arm pinches their near arm against your ribs — this controls their crossface hand
 - Your underhook arm reaches between their legs to grip their far hip (belt grip or hip bone) — this controls their hip line
 - Your head must be glued to their sternum, not their face — sternum contact prevents them from framing across your head
 - Drive forward and slightly to the side of the overhook — this direction collapses their structure
 - Key detail: do NOT let your overhook arm slide past their elbow — keep the pinch at their armpit
-- When their near shoulder touches the mat, the pass is complete — drive to side control
+- When their near shoulder touches the mat, the pass is complete — drive to Side Control
 
 **commonMistakes:**
 - Letting the overhook arm slide down to their forearm — they can pummel back to underhook
@@ -468,11 +468,11 @@ Each skill outline below defines what the **moneyDetails**, **whyItWorks**, **co
 **coachingCues:**
 - "Overhook pinches, underhook controls the hip, head on the sternum"
 - "Drive to the overhook side — always"
-- "If they recover guard, your underhook lost the hip — re-grip"
+- "If they recover Guard, your underhook lost the hip — re-grip"
 - "Chest to chest, no daylight"
 
 **systemLogic corePrinciple:**
-"Over-under pass: enter half guard → secure overhook (pinch arm to ribs) + underhook (grip far hip) → glue head to sternum → drive forward and to the overhook side → flatten their hip → clear the knee line → stabilize side control. The pass succeeds because the asymmetrical grip eliminates both their upper and lower body frames."
+"Over-under pass: enter Half Guard → secure overhook (pinch arm to ribs) + underhook (grip far hip) → glue head to sternum → drive forward and to the overhook side → flatten their hip → clear the knee line → stabilize Side Control. The pass succeeds because the asymmetrical grip eliminates both their upper and lower body frames."
 
 ---
 
@@ -481,34 +481,34 @@ Each skill outline below defines what the **moneyDetails**, **whyItWorks**, **co
 **Body mechanics core:** The BJJ double leg is fundamentally different from wrestling double legs — you must protect your neck from guillotines, keep your head to the outside, and finish without exposing your back. The entry is lower, the head position is wider, and the finish is a lateral drive rather than a straight lift.
 
 **whyItWorks (mechanical reasons):**
-- Keeping your head to the outside (ear pressed against their ribs) prevents the guillotine — if your head is centered, you are choking yourself
+- Keeping your head to the outside (ear pressed against their ribs) prevents the Guillotine — if your head is centered, you are choking yourself
 - Driving laterally (through them, not straight up) uses momentum and base disruption rather than raw strength
 - Both hands gripping behind their knees locks their legs together — they cannot sprawl or step back
 - The finish (running the pipe or lateral drive) brings them to the mat safely without exposing your back
 
 **moneyDetails (body placement details):**
 - Level change: drop your hips below theirs by bending your knees, NOT your waist — bending at the waist exposes your neck
-- Head position: your ear must press against their ribs/side, NOT in the center of their chest — centered head = guillotine
+- Head position: your ear must press against their ribs/side, NOT in the center of their chest — centered head = Guillotine
 - Hand placement: both hands reach behind their knees from outside-in, NOT between their legs — hands between legs exposes you to kimura
 - Drive direction: drive *through* them laterally (to one side), not straight up — straight up requires maximal strength
-- Finish: as they fall, follow them to side control — do NOT let them turn into you
-- Key detail: if they sprawl, do NOT fight the sprawl — circle to a single leg or front headlock
+- Finish: as they fall, follow them to Side Control — do NOT let them turn into you
+- Key detail: if they sprawl, do NOT fight the sprawl — circle to a single leg or Front Headlock
 
 **commonMistakes:**
-- Keeping the head centered on their chest — the #1 cause of guillotine catches
+- Keeping the head centered on their chest — the #1 cause of Guillotine catches
 - Bending at the waist to level change — this puts your head in front of your knees, a vulnerable position
-- Grabbing between their legs — they can kimura your arms or pull you into guard
+- Grabbing between their legs — they can kimura your arms or pull you into Guard
 - Trying to lift straight up instead of driving laterally — this fails against larger opponents
 - Stalling in the double leg position — if you don't finish immediately, they counter
 
 **coachingCues:**
-- "Ear to the ribs, not the chest — guillotine prevention"
+- "Ear to the ribs, not the chest — Guillotine prevention"
 - "Level change with the knees, not the waist"
 - "Drive through them, not straight up"
 - "Hands outside-in, never between"
 
 **systemLogic corePrinciple:**
-"Double leg takedown (BJJ): set up with head control or wrist grip → level change (bend knees) → step to the outside → drive ear to their ribs → wrap both knees (hands outside-in) → drive laterally through them → follow to side control. The takedown succeeds by protecting the neck first and using lateral momentum instead of vertical lift."
+"Double leg takedown (BJJ): set up with head control or wrist grip → level change (bend knees) → step to the outside → drive ear to their ribs → wrap both knees (hands outside-in) → drive laterally through them → follow to Side Control. The takedown succeeds by protecting the neck first and using lateral momentum instead of vertical lift."
 
 ---
 
@@ -555,7 +555,7 @@ Each skill outline below defines what the **moneyDetails**, **whyItWorks**, **co
 
 ### lateral-drop-headlock-throw — Lateral Drop / Headlock Throw
 
-**Body mechanics core:** The lateral drop is a hip-throw entry from a headlock or overhook. You use your hips as the fulcrum to rotate the opponent over your body and onto the mat. In BJJ, the key is landing in a dominant position (side control or mount) rather than following them to the mat.
+**Body mechanics core:** The lateral drop is a hip-throw entry from a headlock or overhook. You use your hips as the fulcrum to rotate the opponent over your body and onto the mat. In BJJ, the key is landing in a dominant position (Side Control or Mount) rather than following them to the mat.
 
 **whyItWorks (mechanical reasons):**
 - The headlock controls their posture and prevents them from posting or backing out
@@ -568,7 +568,7 @@ Each skill outline below defines what the **moneyDetails**, **whyItWorks**, **co
 - Hip position: step your feet between theirs (inside position) — your hips must be past their centerline
 - Drop: bend both knees deeply, drop your hips below theirs — do NOT bend at the waist
 - Rotation: rotate your shoulders away from them while keeping your hips engaged — the rotation + hip drop creates the throw
-- Landing: as they go over, do NOT follow them down — stay on your feet and settle into mount or side control
+- Landing: as they go over, do NOT follow them down — stay on your feet and settle into Mount or Side Control
 - Key detail: if they block by posting the far arm, release the headlock and switch to the double leg
 
 **commonMistakes:**
@@ -584,51 +584,51 @@ Each skill outline below defines what the **moneyDetails**, **whyItWorks**, **co
 - "If they post, switch to double leg"
 
 **systemLogic corePrinciple:**
-"Lateral drop: secure headlock/overhook → step inside their leg line → drop hips below theirs (bend knees, not waist) → rotate shoulders away → they rotate over your hips → land in mount or side control. The throw succeeds because your hips become the fulcrum for their rotation — a shallow hip position fails."
+"Lateral drop: secure headlock/overhook → step inside their leg line → drop hips below theirs (bend knees, not waist) → rotate shoulders away → they rotate over your hips → land in Mount or Side Control. The throw succeeds because your hips become the fulcrum for their rotation — a shallow hip position fails."
 
 **decisionTree:**
 - They post the far arm to block the throw → release headlock and switch to double leg
-- They back out of the headlock → circle to front headlock and snapdown
-- They drop level to counter → pull them into guard and attack from bottom
+- They back out of the headlock → circle to Front Headlock and snapdown
+- They drop level to counter → pull them into Guard and attack from bottom
 
 ---
 
-### coyote-half-guard — Coyote Half Guard
+### coyote-half-Guard — Coyote Half Guard
 
-**Body mechanics core:** Coyote half guard uses the deep underhook on the far hip combined with a hook on the near leg to create a sweeping platform. Unlike traditional half guard where you fight for the knee shield, coyote half guard attacks the passer's base directly by pulling their far leg and sweeping them forward.
+**Body mechanics core:** Coyote Half Guard uses the deep underhook on the far hip combined with a hook on the near leg to create a sweeping platform. Unlike traditional Half Guard where you fight for the knee shield, coyote Half Guard attacks the passer's base directly by pulling their far leg and sweeping them forward.
 
 **whyItWorks (mechanical reasons):**
 - The deep underhook on their far hip gives you control of their center of mass — you can pull them forward into the sweep
 - Your near-leg hook (foot inside their near thigh) prevents them from stepping back to base — they cannot recover the swept leg
 - Pulling their far hip toward you while kicking the near leg forward creates a seesaw — they cannot post on either side
-- The sweep lands you directly in mount or side control — not in their guard
+- The sweep lands you directly in Mount or Side Control — not in their Guard
 
 **moneyDetails (body placement details):**
-- From bottom half guard, your near arm shoots deep under their far hip/armpit — this is the control anchor
+- From bottom Half Guard, your near arm shoots deep under their far hip/armpit — this is the control anchor
 - Your far arm posts on the mat for base
 - Your near leg hooks the inside of their near thigh — your foot should be visible behind their knee
 - To sweep: pull their far hip toward your chest while kicking your near leg forward (extending their near leg)
-- As they tip forward, release the near leg hook, slide your knee out, and land in mount
+- As they tip forward, release the near leg hook, slide your knee out, and land in Mount
 - Key detail: if they counter by posting the far hand, switch to the waiter sweep instead
 
 **commonMistakes:**
 - The far arm underhook is not deep enough — must reach past their hip to the far side
 - Pulling without kicking — the sweep requires both forces simultaneously
-- Holding the hook too long — release the hook as they tip to avoid landing in their guard
+- Holding the hook too long — release the hook as they tip to avoid landing in their Guard
 - Starting the sweep without their weight committed forward — must wait for them to drive into you
 
 **coachingCues:**
 - "Deep underhook — hand past their far hip"
 - "Pull the hip, kick the leg, seesaw them over"
-- "Release the hook as they tip — land in mount"
+- "Release the hook as they tip — land in Mount"
 - "If they post, waiter sweep instead"
 
 **systemLogic corePrinciple:**
-"Coyote half guard (bottom): secure deep underhook on far hip → hook the inside of their near thigh with your near leg → wait for their weight to commit forward → pull the far hip toward you while kicking the near leg forward → seesaw them over → land in mount. The sweep succeeds because the two forces (pull + kick) create a lever they cannot post against."
+"Coyote Half Guard (bottom): secure deep underhook on far hip → hook the inside of their near thigh with your near leg → wait for their weight to commit forward → pull the far hip toward you while kicking the near leg forward → seesaw them over → land in Mount. The sweep succeeds because the two forces (pull + kick) create a lever they cannot post against."
 
 **decisionTree:**
 - They post the far hand to block the sweep → switch to waiter sweep (extend the leg and sweep them backward)
-- They back out of the half guard → follow with a wrestle-up (single leg)
+- They back out of the Half Guard → follow with a wrestle-up (single leg)
 - They flatten you with crossface → pummel back to the underhook before sweeping
 
 ---
@@ -638,7 +638,7 @@ Each skill outline below defines what the **moneyDetails**, **whyItWorks**, **co
 **Body mechanics core:** The berimbolo uses an inversion (rolling over your own shoulder) to reverse the angle from under the opponent to behind them. From De La Riva or RDLR, you roll under them as they step forward, hook their far hip, and come up behind them — the inversion trades being underneath for being behind.
 
 **whyItWorks (mechanical reasons):**
-- Inverting under them as they step forward reverses the inside/outside relationship — you go from inside their guard to outside their back
+- Inverting under them as they step forward reverses the inside/outside relationship — you go from inside their Guard to outside their back
 - The far-hip hook (collar drag grip or belt grip) prevents them from following you through the inversion
 - Their forward step is the trigger — if they do not step forward, the berimbolo is not available
 - The inversion does not require you to be stronger — it uses their forward momentum against them
@@ -665,54 +665,54 @@ Each skill outline below defines what the **moneyDetails**, **whyItWorks**, **co
 - "Don't stop at the truck — finish to back control"
 
 **systemLogic corePrinciple:**
-"Berimbolo back take: DLR or RDLR guard → opponent steps forward (trigger) → invert over your far shoulder → pull their far hip through the roll → land behind them → replace hook with back control. The back take succeeds because their forward momentum carries them past you as you invert — you trade being under them for being behind them."
+"Berimbolo back take: DLR or RDLR Guard → opponent steps forward (trigger) → invert over your far shoulder → pull their far hip through the roll → land behind them → replace hook with back control. The back take succeeds because their forward momentum carries them past you as you invert — you trade being under them for being behind them."
 
 **decisionTree:**
 - They do not step forward → berimbolo is not available — stay in DLR/RDLR and sweep instead
-- They step back to avoid the inversion → release the DLR hook and enter K-guard
-- They follow you through the inversion → they are defending correctly — re-enter guard and try again
+- They step back to avoid the inversion → release the DLR hook and enter K-Guard
+- They follow you through the inversion → they are defending correctly — re-enter Guard and try again
 - They post a hand to block the back take → attack the posted arm (kimura or armbar)
 
 ---
 
-### k-guard-to-outside-ashi — K-Guard to Outside Ashi
+### k-Guard-to-outside-ashi — K-Guard to Outside Ashi
 
-**Body mechanics core:** K-guard to outside ashi is the primary leg-lock entry chain from K-guard. When the opponent defends the K-guard (by stepping back or posting), you release the K-guard hook and re-enter directly into outside ashi — the leg entanglement that leads to the saddle or straight heel hook exposure.
+**Body mechanics core:** K-Guard to outside ashi is the primary leg-lock entry chain from K-Guard. When the opponent defends the K-Guard (by stepping back or posting), you release the K-Guard hook and re-enter directly into outside ashi — the leg entanglement that leads to the saddle or straight heel hook exposure.
 
 **whyItWorks (mechanical reasons):**
-- The K-guard already has your hips underneath theirs and your leg entangled with one of their legs — you are already 50% into the leg lock
-- Releasing the K-guard hook and re-entering as outside ashi is one movement — the opponent cannot defend both positions in sequence
+- The K-Guard already has your hips underneath theirs and your leg entangled with one of their legs — you are already 50% into the leg lock
+- Releasing the K-Guard hook and re-entering as outside ashi is one movement — the opponent cannot defend both positions in sequence
 - Outside ashi gives you heel exposure on the far leg while protecting your own knee line
 - The transition happens below their field of vision — many opponents do not recognize the leg lock threat until it is too late
 
 **moneyDetails (body placement details):**
-- From K-guard: your outside leg is hooking behind their near knee, your inside knee is in their armpit
-- Entry: as they step back to clear the K-guard, release your outside hook and pummel your leg to the inside of their far leg
+- From K-Guard: your outside leg is hooking behind their near knee, your inside knee is in their armpit
+- Entry: as they step back to clear the K-Guard, release your outside hook and pummel your leg to the inside of their far leg
 - Outside ashi: your near leg now goes over their far leg (crossing their thigh), your far leg hooks behind their near knee
 - Heel exposure: pull their far leg toward your chest while rotating your hips — the heel comes toward your sternum
-- Position hierarchy: K-guard → outside ashi → saddle/inside sankaku (if needed for finish)
-- Key detail: do NOT let them free their far leg — if they do, you lose outside ashi and must re-enter K-guard
+- Position hierarchy: K-Guard → outside ashi → saddle/inside sankaku (if needed for finish)
+- Key detail: do NOT let them free their far leg — if they do, you lose outside ashi and must re-enter K-Guard
 
 **commonMistakes:**
-- Losing the K-guard before establishing outside ashi — there is a gap between the two where you are vulnerable
+- Losing the K-Guard before establishing outside ashi — there is a gap between the two where you are vulnerable
 - Letting them clear their far knee during the transition — must keep the far leg trapped
 - Going to saddle too early — finish from outside ashi first; saddle is the backup option
 - Not controlling their near hand — they can frame against your head or peel the leg entanglement
 
 **coachingCues:**
-- "K-guard hook pulls, outside ashi leg pummels — two movements that feel like one"
+- "K-Guard hook pulls, outside ashi leg pummels — two movements that feel like one"
 - "Keep the far leg trapped through the transition — lose it, lose the entry"
 - "Finish from outside ashi before considering saddle"
 - "Control the near hand — if they frame your head, the entanglement fails"
 
 **systemLogic corePrinciple:**
-"K-guard to outside ashi: establish K-guard (outside leg hook behind their near knee, inside knee in armpit) → opponent steps back (trigger) → release K-guard hook → pummel your leg inside their far leg → re-enter as outside ashi → expose the heel. The transition succeeds because you are already underneath them with one leg entangled — releasing and re-entering is faster than they can defend."
+"K-Guard to outside ashi: establish K-Guard (outside leg hook behind their near knee, inside knee in armpit) → opponent steps back (trigger) → release K-Guard hook → pummel your leg inside their far leg → re-enter as outside ashi → expose the heel. The transition succeeds because you are already underneath them with one leg entangled — releasing and re-entering is faster than they can defend."
 
 **decisionTree:**
-- They step back to clear K-guard → pummel leg to outside ashi
-- They step forward to pressure → stay in K-guard and sweep instead
+- They step back to clear K-Guard → pummel leg to outside ashi
+- They step forward to pressure → stay in K-Guard and sweep instead
 - They post on your head to block → pummel their arm or switch to omoplata
-- They free their far leg → you lost the position — re-enter K-guard or recover guard
+- They free their far leg → you lost the position — re-enter K-Guard or recover Guard
 
 ---
 
@@ -754,7 +754,7 @@ Each skill outline below defines what the **moneyDetails**, **whyItWorks**, **co
 - Inside heel hook → rotate hips toward their foot (foot rotates outward) → targets LCL/MCL
 - Outside heel hook → rotate hips away from their foot (foot rotates inward) → targets ACL/PCL
 - They hide their heel → re-establish boot grip by prying with your forearm
-- They clear the knee line → release the entanglement and re-enter from guard
+- They clear the knee line → release the entanglement and re-enter from Guard
 
 ---
 
@@ -765,7 +765,7 @@ Each skill outline below defines what the **moneyDetails**, **whyItWorks**, **co
 **whyItWorks (mechanical reasons):**
 - The toe hold hyperextends the ankle ligaments and impinges the talus — the ankle has minimal resistance in this direction
 - The figure-four grip (Estima lock) creates rotational force from your arms AND your body rotation — more torque than two-on-one grip
-- Toe holds are available from positions where heel hooks are not (outside ashi, 50/50, and some guard passes)
+- Toe holds are available from positions where heel hooks are not (outside ashi, 50/50, and some Guard passes)
 - The toe hold is legal at most belt levels where heel hooks are prohibited
 
 **moneyDetails (body placement details):**
@@ -834,39 +834,39 @@ Each skill outline below defines what the **moneyDetails**, **whyItWorks**, **co
 - From saddle → control top leg, bring shin across calf, squeeze heels
 - From 50/50 → step over, trap foot under armpit, drive shin into calf
 - They straighten their leg → release and re-enter the leg entanglement — calf slicer requires a bent knee
-- They spin out → you lost hip control — re-establish guard or leg entanglement
+- They spin out → you lost hip control — re-establish Guard or leg entanglement
 
 ---
 
 ### mounted-triangle — Mounted Triangle / Armbar from Mount
 
-**Body mechanics core:** The mounted triangle uses your top position to trap their arm between your leg and their head, then step over to finish. The S-mount transition is critical — you must climb high on their chest before attacking. Once S-mount is established, the triangle is a single stepping motion away.
+**Body mechanics core:** The mounted triangle uses your top position to trap their arm between your leg and their head, then step over to finish. The S-Mount transition is critical — you must climb high on their chest before attacking. Once S-Mount is established, the triangle is a single stepping motion away.
 
 **whyItWorks (mechanical reasons):**
-- From mount, their arm is already compressed by your body weight — you do not need to break posture like from guard
+- From Mount, their arm is already compressed by your body weight — you do not need to break posture like from Guard
 - Gravity works for you — your weight pressing down tightens the triangle without needing to squeeze harder
-- If they defend the triangle by posturing, you attack the armbar — the triangle-armbar dilemma is stronger from top than from guard
-- They cannot stack you from mount like they can from guard — this removes the primary triangle counter
+- If they defend the triangle by posturing, you attack the armbar — the triangle-armbar dilemma is stronger from top than from Guard
+- They cannot stack you from Mount like they can from Guard — this removes the primary triangle counter
 
 **moneyDetails (body placement details):**
-- Must climb to S-mount (one foot in their hip, one knee in their armpit) before attacking
+- Must climb to S-Mount (one foot in their hip, one knee in their armpit) before attacking
 - Trap their near arm with your same-side leg — their arm is pinned between your leg and their own shoulder
-- Step your top leg over their head — foot goes behind their head, NOT across their shin like a guard triangle
+- Step your top leg over their head — foot goes behind their head, NOT across their shin like a Guard triangle
 - Lock the triangle: crunch your heels together first, then squeeze your knees
 - Armbar transition: when they posture, swim your arm under their defending arm, lift your hips, and fall back
-- Key detail: do NOT attempt the mounted triangle from low mount — you must climb to S-mount first
+- Key detail: do NOT attempt the mounted triangle from low Mount — you must climb to S-Mount first
 
 **coachingCues:**
-- "S-mount first, triangle second — never from low mount"
+- "S-Mount first, triangle second — never from low Mount"
 - "Trap the arm before stepping over — if the arm is free, the triangle is not"
 - "Heel crunch, knee squeeze — two separate movements, not one"
 - "They posture up = your armbar entry"
 
 **systemLogic corePrinciple:**
-"Mounted triangle: from mount → climb to S-mount → trap their near arm with your same-side leg → step the top leg over their head (foot behind head, not across shin) → crunch heels together → squeeze knees → if they posture, transition to armbar. The mounted triangle succeeds because gravity and mount pressure eliminate their ability to stack or posture out — the S-mount climb is the gatekeeper."
+"Mounted triangle: from Mount → climb to S-Mount → trap their near arm with your same-side leg → step the top leg over their head (foot behind head, not across shin) → crunch heels together → squeeze knees → if they posture, transition to armbar. The mounted triangle succeeds because gravity and Mount pressure eliminate their ability to stack or posture out — the S-Mount climb is the gatekeeper."
 
 **decisionTree:**
-- They try to stack → impossible from mount — finish the triangle
+- They try to stack → impossible from Mount — finish the triangle
 - They posture up to defend → swim your arm under their defending arm and armbar
 - They turn to their side → release the triangle and take the back
 - They interlock their hands to block → peel the hands by rotating your hips
@@ -875,16 +875,16 @@ Each skill outline below defines what the **moneyDetails**, **whyItWorks**, **co
 
 ### peruvian-necktie — Peruvian Necktie
 
-**Body mechanics core:** The Peruvian necktie is a front headlock choke that finishes by folding the opponent's body forward while compressing both sides of their neck with your biceps and forearm. Unlike the guillotine (which is a neck/crank choke), the Peruvian necktie is a true choke that compresses the carotids.
+**Body mechanics core:** The Peruvian necktie is a Front Headlock choke that finishes by folding the opponent's body forward while compressing both sides of their neck with your biceps and forearm. Unlike the Guillotine (which is a neck/crank choke), the Peruvian necktie is a true choke that compresses the carotids.
 
 **whyItWorks (mechanical reasons):**
 - Your forearm and biceps compress both carotid arteries simultaneously — it is a blood choke, not a neck crank
 - Folding their body forward prevents them from posturing out — their own body weight tightens the choke
 - The grip (grabbing your own biceps or thigh) creates a locked structure that cannot be peeled open
-- The Peruvian necktie is available when the opponent turns away from the front headlock — complements the guillotine (which works when they turn in)
+- The Peruvian necktie is available when the opponent turns away from the Front Headlock — complements the Guillotine (which works when they turn in)
 
 **moneyDetails (body placement details):**
-- From front headlock: your arm goes under their neck, hand grabs your own opposite biceps
+- From Front Headlock: your arm goes under their neck, hand grabs your own opposite biceps
 - Your other arm wraps over their head and locks the figure-four by grabbing your own forearm or thigh
 - Finish: step to the side and fold their body forward — their own weight tightens the choke
 - Pressure points: your forearm presses one carotid, your biceps/shoulder presses the other
@@ -903,13 +903,13 @@ Each skill outline below defines what the **moneyDetails**, **whyItWorks**, **co
 - "Carotids, not the windpipe"
 
 **systemLogic corePrinciple:**
-"Peruvian necktie: front headlock → opponent turns away (trigger) → slide your arm under their neck and grab your own biceps → wrap your other arm over their head → lock figure-four → step to the side → fold their body forward — their weight tightens the choke. The choke succeeds because your forearm and biceps compress both carotids simultaneously — it is a blood choke, not a neck crank."
+"Peruvian necktie: Front Headlock → opponent turns away (trigger) → slide your arm under their neck and grab your own biceps → wrap your other arm over their head → lock figure-four → step to the side → fold their body forward — their weight tightens the choke. The choke succeeds because your forearm and biceps compress both carotids simultaneously — it is a blood choke, not a neck crank."
 
 **decisionTree:**
-- They turn into you instead of away → switch to guillotine or D'Arce
-- They posture up out of the front headlock → Peruvian is available — step and fold
+- They turn into you instead of away → switch to Guillotine or D'Arce
+- They posture up out of the Front Headlock → Peruvian is available — step and fold
 - They go limp in turtle → Peruvian will not work — switch to turtle ride or back take
-- They defend by grabbing your choking arm → pummel back to front headlock and re-attack
+- They defend by grabbing your choking arm → pummel back to Front Headlock and re-attack
 
 ---
 
@@ -956,7 +956,7 @@ Each skill outline below defines what the **moneyDetails**, **whyItWorks**, **co
 
 ### chin-strap-control — Chin Strap / Head Control System
 
-**Body mechanics core:** The chin strap controls the opponent's head by hooking your fingers under their chin and pulling their head toward your chest. From this grip, you can fold them forward, expose their back, or set up front headlock chokes. The mechanical principle is simple: the chin strap turns the head into a handle — where the head goes, the body follows.
+**Body mechanics core:** The chin strap controls the opponent's head by hooking your fingers under their chin and pulling their head toward your chest. From this grip, you can fold them forward, expose their back, or set up Front Headlock chokes. The mechanical principle is simple: the chin strap turns the head into a handle — where the head goes, the body follows.
 
 **whyItWorks (mechanical reasons):**
 - The chin strap controls the head, which controls the spine — where the head goes, the body follows
@@ -967,44 +967,44 @@ Each skill outline below defines what the **moneyDetails**, **whyItWorks**, **co
 **moneyDetails (body placement details):**
 - **Grip:** four fingers hooked under their chin (inside the neck), thumb rests on their cheek/ear
 - **Control:** pull their chin toward your sternum while driving forward — this buckles their posture
-- **From front headlock:** chin strap + crossface control = complete head control. Pull their head down while circling to their side
+- **From Front Headlock:** chin strap + crossface control = complete head control. Pull their head down while circling to their side
 - **From turtle:** one arm chin strap (pull their head up), the other arm posts on their hip — the two forces create the back take
 - **Key detail:** the chin strap grip must be inside the chin (fingers on the jawbone, not the throat) — throat pressure is dangerous and less effective
 
 **commonMistakes:**
 - Hooking the fingers too deep (into the throat) instead of the chin bone — can injure the trachea
 - Using only the chin strap without body position — must also control the hip line
-- Holding the chin strap when the opponent has already turned into you — switch to guillotine or front headlock
+- Holding the chin strap when the opponent has already turned into you — switch to Guillotine or Front Headlock
 - Releasing the chin strap prematurely — once you have it, keep it until you secure the position
 
 **coachingCues:**
 - "Fingers on the chin bone, not the throat"
 - "Chin strap controls the head; hips control the body — use both"
-- "If they turn in, switch to guillotine"
+- "If they turn in, switch to Guillotine"
 - "Once you have the chin, own the position"
 
 **systemLogic corePrinciple:**
-"Chin strap system: secure grip under the chin (fingers on jawbone, thumb on cheek) → pull their head toward your chest → fold their posture forward → combine with hip pressure or front headlock. The system succeeds because controlling the head controls the spine — where the head goes, the body follows."
+"Chin strap system: secure grip under the chin (fingers on jawbone, thumb on cheek) → pull their head toward your chest → fold their posture forward → combine with hip pressure or Front Headlock. The system succeeds because controlling the head controls the spine — where the head goes, the body follows."
 
 **decisionTree:**
-- From front headlock → chin strap pulls the head down → opponent turns in → switch to guillotine
+- From Front Headlock → chin strap pulls the head down → opponent turns in → switch to Guillotine
 - From turtle → chin strap pulls up + hip pressure pushes down → back exposure → take the back
-- From side control top → chin strap turns their head away → prevents shoulder roll escape → maintain side control
+- From Side Control top → chin strap turns their head away → prevents shoulder roll escape → maintain Side Control
 
 ---
 
 ### gift-wrap-back-take — Gift Wrap / Arm Drag Back Take
 
-**Body mechanics core:** The gift wrap controls one of their arms by folding it behind their back, leaving the other arm free and exposing their back. From side control or half guard, you trap their far arm, walk your hand to their wrist, and pull their arm behind their back — this exposes their back as you spin behind them.
+**Body mechanics core:** The gift wrap controls one of their arms by folding it behind their back, leaving the other arm free and exposing their back. From Side Control or Half Guard, you trap their far arm, walk your hand to their wrist, and pull their arm behind their back — this exposes their back as you spin behind them.
 
 **whyItWorks (mechanical reasons):**
 - Folding their arm behind their back creates a 'handle' that controls their shoulder — they cannot turn into you or post
 - With one arm neutralized (trapped behind their back), their ability to defend the back take is halved
-- The gift wrap is available from any top position where you can isolate a far arm (side control, mount, half guard top)
+- The gift wrap is available from any top position where you can isolate a far arm (Side Control, Mount, Half Guard top)
 - Spinning behind them as you control the gift wrap creates the back take — the spin + arm control prevents them from following
 
 **moneyDetails (body placement details):**
-- From side control: isolate their far arm, walk your hand from their wrist up to their triceps/shoulder
+- From Side Control: isolate their far arm, walk your hand from their wrist up to their triceps/shoulder
 - Grip: grab their far wrist with your far hand, pull it toward you, then feed it to your near hand
 - Wrap: fold their arm behind their back — their palm should face outward (thumb pointing up)
 - Spin: step over their head with your near leg and spin behind them — the gift wrap grip pulls you into back control
@@ -1024,12 +1024,12 @@ Each skill outline below defines what the **moneyDetails**, **whyItWorks**, **co
 - "Gift wrap is the entry; back control is the destination"
 
 **systemLogic corePrinciple:**
-"Gift wrap back take: from side control/mount → isolate far arm → walk hand to their wrist → fold arm behind their back → step over their head → spin behind → release gift wrap → establish back control. The back take succeeds because the gift wrap neutralizes their far arm — with one arm trapped, their ability to defend the back take is halved."
+"Gift wrap back take: from Side Control/Mount → isolate far arm → walk hand to their wrist → fold arm behind their back → step over their head → spin behind → release gift wrap → establish back control. The back take succeeds because the gift wrap neutralizes their far arm — with one arm trapped, their ability to defend the back take is halved."
 
 **decisionTree:**
-- They resist the arm isolation → switch to arm drag or kimura from side control
+- They resist the arm isolation → switch to arm drag or kimura from Side Control
 - They roll away to escape the wrap → follow them — the roll becomes a back take opportunity
-- They flatten belly-down → maintain side control and advance to mount instead
+- They flatten belly-down → maintain Side Control and advance to Mount instead
 
 ---
 
@@ -1067,33 +1067,33 @@ Each skill outline below defines what the **moneyDetails**, **whyItWorks**, **co
 "Leg drag to back take: control their near leg → drag it across your body → opponent posts far arm (trigger) → release the leg → swim under their posted arm → spin behind → establish back control. The back take succeeds because the leg drag forces them to post — and that post becomes the entry for the back take."
 
 **decisionTree:**
-- They do not post the far arm → continue the leg drag to side control or mount
+- They do not post the far arm → continue the leg drag to Side Control or Mount
 - They post and you swim through → back control established
 - They turn away during the drag → release the leg and take the back directly
-- They turn into you during the drag → switch to the pass (the leg drag becomes a guard pass)
+- They turn into you during the drag → switch to the pass (the leg drag becomes a Guard pass)
 
 ---
 
-### turtle-to-guard-recovery — Turtle to Guard Recovery
+### turtle-to-Guard-recovery — Turtle to Guard Recovery
 
-**Body mechanics core:** The turtle to guard recovery is a specific escape from turtle (all-fours or belly-down) back to a neutral or offensive guard position. Unlike the turtle stand-up (which seeks to disengage entirely), guard recovery from turtle uses a hip switch and pummel to re-establish guard engagement.
+**Body mechanics core:** The turtle to Guard recovery is a specific escape from turtle (all-fours or belly-down) back to a neutral or offensive Guard position. Unlike the turtle stand-up (which seeks to disengage entirely), Guard recovery from turtle uses a hip switch and pummel to re-establish Guard engagement.
 
 **whyItWorks (mechanical reasons):**
 - From turtle, your weight is on your hands and knees — you can explosive hip escape when the opponent commits weight forward
 - The hip switch (dropping one hip to the mat while kicking the other leg through) creates space to bring your legs between you and them
 - Pummeling the inside arm (swimming your arm back inside) prevents them from establishing seatbelt or body triangle control
-- Recovering to guard (rather than standing) is safer when the opponent has already committed weight on top of you
+- Recovering to Guard (rather than standing) is safer when the opponent has already committed weight on top of you
 
 **moneyDetails (body placement details):**
 - From turtle (all-fours): protect your neck by hiding your face (chin to chest, hands protecting the neck)
 - Trigger: when the opponent commits weight forward to break turtle, drop one hip to the mat
 - Hip switch: drop your near hip, kick your far leg through the space — this creates the angle to face them
 - Inside arm pummel: as you kick through, pummel your inside arm (the one between you and them) to regain inside position
-- Recovery: once facing them, re-establish guard with knee shield or butterfly hooks
+- Recovery: once facing them, re-establish Guard with knee shield or butterfly hooks
 - Key detail: the hip switch must be explosive — a slow switch allows them to flatten you belly-down
 
 **commonMistakes:**
-- Trying to recover guard before protecting the neck — always cover the neck first
+- Trying to recover Guard before protecting the neck — always cover the neck first
 - Dropping both hands to the mat to stand up — this exposes the back for a choke
 - Kicking through without pummeling the inside arm — they maintain seatbelt control
 - Staying in turtle too long waiting for the right moment — turtle is a reactive position; you must read and explode
@@ -1105,11 +1105,11 @@ Each skill outline below defines what the **moneyDetails**, **whyItWorks**, **co
 - "Read their weight commitment — that's your trigger"
 
 **systemLogic corePrinciple:**
-"Turtle to guard recovery: from turtle → protect neck (chin to chest, hands guarding) → read opponent's weight commitment forward (trigger) → drop near hip to mat → kick far leg through the space → pummel inside arm to regain inside position → re-establish guard (knee shield or butterfly). The recovery succeeds because the hip switch creates space to bring your legs between you and them — but only if you protect the neck first."
+"Turtle to Guard recovery: from turtle → protect neck (chin to chest, hands guarding) → read opponent's weight commitment forward (trigger) → drop near hip to mat → kick far leg through the space → pummel inside arm to regain inside position → re-establish Guard (knee shield or butterfly). The recovery succeeds because the hip switch creates space to bring your legs between you and them — but only if you protect the neck first."
 
 **decisionTree:**
-- They commit weight forward to break turtle → your trigger — hip switch and recover guard
-- They circle to the side instead of driving forward → sit back to guard directly
+- They commit weight forward to break turtle → your trigger — hip switch and recover Guard
+- They circle to the side instead of driving forward → sit back to Guard directly
 - They flatten you belly-down → turtle is lost — protect neck and wait for them to create space
 - They grab a seatbelt → pummel the inside arm before attempting the hip switch
 

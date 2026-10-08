@@ -12,7 +12,7 @@
   ],
   "bottomPlayerGoals": [
     "The bottom player wants to survive Turtle Bottom with frames, pummeling, or the right angle.",
-    "Hand fight, keep the elbow-knee connection tight, and stand up or re-guard in sequence.",
+    "Hand fight, keep the elbow-knee connection tight, and stand up or re-Guard in sequence.",
     "Recognize danger signals early instead of waiting for the position to settle."
   ],
   "controlPoints": [
@@ -27,7 +27,7 @@
   ],
   "advancementOptions": [
     {
-      "action": "Build a base to stand up or recover guard",
+      "action": "Build a base to stand up or recover Guard",
       "nextPositionId": "neutral-standing",
       "relatedSkillIds": [
         "turtle-ride",

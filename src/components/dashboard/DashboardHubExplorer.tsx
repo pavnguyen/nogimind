@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom'
 import { motion } from 'framer-motion'
 import { useTranslation } from 'react-i18next'
-import { BookOpen, Compass, Layers3, Sparkles, Wrench, Zap } from 'lucide-react'
+import { BookOpen, Compass, Layers3, Shield, Sparkles, Zap } from 'lucide-react'
 import { cn } from '../../utils/cn'
 import { StaggerContainer, StaggerItem } from '../common/StaggerContainer'
 
@@ -40,7 +40,7 @@ const hubToneStyles: Record<string, { card: string; glow: string; icon: string }
 const hubLinks = [
   { to: '/learn', icon: Compass, label: 'nav.learn', tone: 'cyan' },
   { to: '/study', icon: Zap, label: 'nav.study', tone: 'emerald', highlight: true },
-  { to: '/troubleshooters', icon: Wrench, label: 'nav.fix', tone: 'amber' },
+  { to: '/defense', icon: Shield, label: 'nav.defense', tone: 'amber' },
   { to: '/build', icon: Layers3, label: 'nav.build', tone: 'violet' },
   { to: '/reference', icon: BookOpen, label: 'nav.reference', tone: 'slate' },
 ]

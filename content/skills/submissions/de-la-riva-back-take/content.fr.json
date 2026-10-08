@@ -3,8 +3,8 @@
   "locale": "fr",
   "name": "De La Riva Retour en arrière",
   "description": "Utilisez le crochet DLR et le contrôle de la hanche éloignée pour effectuer une prise arrière lorsque l'adversaire défend le balayage en postant ou en reculant.",
-  "shortInstruction": "Crochet DLR profond, contrôle de la hanche éloigné, rotation sous eux – la prise arrière DLR est le prix ultime du open guard.",
-  "summary": "Le retour du DLR est le pourcentage de récompense le plus élevé du De La Riva guard. Lorsque vous tentez le balayage DLR (en les déséquilibrant vers l'avant), de nombreux adversaires répondront en postant une main ou en reculant pour éviter le balayage. Cette réaction crée exactement l’espace et l’angle dont vous avez besoin pour tourner sous eux et prendre le dos. La prise en arrière du DLR transforme un balayage raté en position dominante.",
+  "shortInstruction": "Crochet DLR profond, contrôle de la hanche éloigné, rotation sous eux – la prise arrière DLR est le prix ultime du open Guard.",
+  "summary": "Le retour du DLR est le pourcentage de récompense le plus élevé du De La Riva Guard. Lorsque vous tentez le balayage DLR (en les déséquilibrant vers l'avant), de nombreux adversaires répondront en postant une main ou en reculant pour éviter le balayage. Cette réaction crée exactement l’espace et l’angle dont vous avez besoin pour tourner sous eux et prendre le dos. La prise en arrière du DLR transforme un balayage raté en position dominante.",
   "whyItWorks": [
     "Lorsqu'ils postent pour défendre le balayage, leur bras est engagé et ne peut pas être utilisé pour bloquer votre rotation.",
     "Le crochet DLR maintient leur jambe sous contrôle pendant que vous tournez – ils ne peuvent pas s'éloigner de la prise arrière.",
@@ -34,7 +34,7 @@
     "S'ils sprawl lors de la rotation, vous avez tourné trop tôt - attendez qu'ils s'engagent pleinement dans la publication."
   ],
   "systemLogic": {
-    "corePrinciple": "DLR guard établi : déséquilibre pour le balayage → l'adversaire poste la main → tourne sous son bras affiché → prend le dos → fixe seatbelt et les crochets.",
+    "corePrinciple": "DLR Guard établi : déséquilibre pour le balayage → l'adversaire poste la main → tourne sous son bras affiché → prend le dos → fixe seatbelt et les crochets.",
     "decisionTree": [
       {
         "condition": "La prise arrière du DLR fonctionne en un seul mouvement continu : déséquilibré",
@@ -42,7 +42,7 @@
       },
       {
         "condition": "ils ne publient pas (défendent le balayage en prenant du recul)",
-        "action": "étendre plutôt dans X-guard."
+        "action": "étendre plutôt dans X-Guard."
       }
     ]
   },

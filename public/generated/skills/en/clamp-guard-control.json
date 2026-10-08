@@ -6,14 +6,14 @@
   "name": "Clamp Guard Control",
   "aliases": [],
   "tags": [
-    "clamp-guard",
+    "clamp-Guard",
     "shoulder-line",
     "overhook",
     "tier:modern-expansion",
     "meta:modern-common",
     "risk:medium",
-    "family:guard",
-    "group:clamp-guard",
+    "family:Guard",
+    "group:clamp-Guard",
     "modern-no-gi"
   ],
   "keywords": [
@@ -44,7 +44,7 @@
   "archetypeIds": [],
   "relatedArchetypeIds": [],
   "prerequisiteSkillIds": [
-    "supine-guard-retention",
+    "supine-Guard-retention",
     "kimura-system"
   ],
   "trainingMethodIds": [],
@@ -69,7 +69,7 @@
   "locale": "en",
   "description": "Clamp the opponent's shoulder line between your knee and overhook, with wrist control, to create an armbar, triangle, or omoplata dilemma that they cannot escape without giving up a submission entry.",
   "shortInstruction": "Knee on shoulder, overhook the arm, control the wrist on the other side — the clamp is a submission waiting to happen.",
-  "summary": "Clamp guard (also called 'clamp' or 'arm clamp') pins the opponent's arm across your body while your knee blocks their shoulder. This creates a two-on-one on the trapped arm. From here, every reaction they make opens a submission: they posture into the triangle, they pull out into the armbar, they roll into the omoplata.",
+  "summary": "Clamp Guard (also called 'clamp' or 'arm clamp') pins the opponent's arm across your body while your knee blocks their shoulder. This creates a two-on-one on the trapped arm. From here, every reaction they make opens a submission: they posture into the triangle, they pull out into the armbar, they roll into the omoplata.",
   "whyItWorks": [
     "By pinning their arm with your knee and overhook, you isolate one arm entirely — they can only defend with the free arm.",
     "The clamp removes their ability to posture, since their head and shoulder are pinned to your chest.",
@@ -90,7 +90,7 @@
   ],
   "safetySummary": [
     "Do not crank submissions from the clamp — control the position first, then apply the finish smoothly.",
-    "Protect your own neck: keep your head tight to their chest, not dangling in a guillotine line.",
+    "Protect your own neck: keep your head tight to their chest, not dangling in a Guillotine line.",
     "If they stack you, release the clamp and reset — do not fight the stack with a locked clamp."
   ],
   "systemLogic": {
@@ -117,6 +117,6 @@
   "fixItFast": [
     "Knee keeps slipping? Dig it deeper into the armpit, not the ribs.",
     "Overhook feels weak? Lock your hands around their arm for extra security.",
-    "They're stacking you? Release the clamp, frame on their hips, and reset to open guard."
+    "They're stacking you? Release the clamp, frame on their hips, and reset to open Guard."
   ]
 }

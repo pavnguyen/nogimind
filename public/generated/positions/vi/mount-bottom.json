@@ -1,13 +1,13 @@
 {
-  "id": "mount-bottom",
+  "id": "Mount-bottom",
   "locale": "vi",
   "title": "Mount Dưới",
   "category": "pin",
   "status": "critical",
-  "description": "Người ở dưới bị mount và phải bảo vệ cổ, tay trong khi recover khuỷu-gối trước khi đối thủ lên high mount.",
+  "description": "Người ở dưới bị Mount và phải bảo vệ cổ, tay trong khi recover khuỷu-gối trước khi đối thủ lên high Mount.",
   "topPlayerGoals": [
     "Người ở trên muốn kiểm soát Mount Dưới bằng vị trí đầu, vị trí trong và áp lực có hướng.",
-    "Người ở trên muốn isolate khuỷu tay và leo high mount.",
+    "Người ở trên muốn isolate khuỷu tay và leo high Mount.",
     "Giữ nền vững để không bị mất thăng bằng hoặc bị phản đòn."
   ],
   "bottomPlayerGoals": [
@@ -27,12 +27,12 @@
   ],
   "advancementOptions": [
     {
-      "action": "Recover half guard hoặc quarter guard",
-      "nextPositionId": "half-guard-bottom",
+      "action": "Recover Half Guard hoặc quarter Guard",
+      "nextPositionId": "half-Guard-bottom",
       "relatedSkillIds": [
-        "mount-survival",
-        "mount-escape",
-        "half-guard-knee-shield"
+        "Mount-survival",
+        "Mount-escape",
+        "half-Guard-knee-shield"
       ],
       "why": "Đây là nhánh tự nhiên khi bạn thắng điểm kiểm soát chính và đối thủ buộc phải phòng thủ."
     }
@@ -44,9 +44,9 @@
     "Bạn phải chống tay dài để không ngã."
   ],
   "relatedSkillIds": [
-    "mount-survival",
-    "mount-escape",
-    "half-guard-knee-shield"
+    "Mount-survival",
+    "Mount-escape",
+    "half-Guard-knee-shield"
   ],
   "relatedConceptIds": [
     "early-vs-late-defense",

@@ -1,5 +1,5 @@
 {
-  "id": "butterfly-guard",
+  "id": "butterfly-Guard",
   "locale": "vi",
   "title": "Butterfly Guard",
   "category": "bottom_guard",
@@ -27,11 +27,11 @@
   ],
   "advancementOptions": [
     {
-      "action": "Quay lại seated guard hoặc tạo off-balance",
-      "nextPositionId": "seated-guard",
+      "action": "Quay lại seated Guard hoặc tạo off-balance",
+      "nextPositionId": "seated-Guard",
       "relatedSkillIds": [
-        "butterfly-guard-off-balance",
-        "seated-guard-retention",
+        "butterfly-Guard-off-balance",
+        "seated-Guard-retention",
         "bodylock-passing"
       ],
       "why": "Đây là nhánh tự nhiên khi bạn thắng điểm kiểm soát chính và đối thủ buộc phải phòng thủ."
@@ -44,8 +44,8 @@
     "Bạn phải chống tay dài để không ngã."
   ],
   "relatedSkillIds": [
-    "butterfly-guard-off-balance",
-    "seated-guard-retention",
+    "butterfly-Guard-off-balance",
+    "seated-Guard-retention",
     "bodylock-passing"
   ],
   "relatedConceptIds": [

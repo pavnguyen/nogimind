@@ -14,7 +14,7 @@
   "keywords": [
     "toreando passing",
     "float passing",
-    "open guard passing",
+    "open Guard passing",
     "hip mobility",
     "leg drag"
   ],
@@ -24,7 +24,7 @@
     { "id": "knee-cut-passing", "type": "alternative" },
     { "id": "side-control-pin", "type": "recommended" }
   ],
-  "prerequisiteSkillIds": ["supine-guard-retention", "headquarters-passing"],
+  "prerequisiteSkillIds": ["supine-Guard-retention", "headquarters-passing"],
   "relatedPositions": [],
   "relatedConcepts": [],
   "archetypeIds": ["pressure-passer", "scramble-controller"],

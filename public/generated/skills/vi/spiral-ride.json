@@ -64,9 +64,9 @@
     "hasStateMachine": false
   },
   "locale": "vi",
-  "description": "Spiral Ride sử dụng áp lực quay lên đùi và vai để làm sập phần đế rùa. Đu quay xoắn ốc là một hệ thống phá rùa có nguồn gốc từ đấu vật, sử dụng chuyển động xoay xoắn ốc để làm mất ổn định căn cứ của đối thủ.",
-  "shortInstruction": "Từ phía bên của rùa, đặt tay gần của bạn lên đùi xa và tay xa của bạn lên vai gần của rùa. Xoay hai tay theo hướng ngược nhau (đẩy đùi, kéo vai) để xoắn chúng phẳng.",
-  "summary": "Động tác xoắn ốc làm gián đoạn con rùa bằng cách tác dụng các lực quay ngược chiều nhau: một tay đẩy đùi xa ra trong khi tay kia kéo vai gần về phía bạn. Vòng quay này sẽ loại bỏ phần đế của đối thủ và buộc họ nằm ngửa hoặc nằm nghiêng. Đi xe xoắn ốc đặc biệt hiệu quả trước những đối thủ quá mạnh hoặc quá linh hoạt để thực hiện động tác cưỡi một nửa sức mạnh.",
+  "description": "Spiral Ride sử dụng áp lực quay lên đùi và vai để làm sập phần đế Tư thế rùa. Đu quay xoắn ốc là một hệ thống phá Tư thế rùa có nguồn gốc từ đấu vật, sử dụng chuyển động xoay xoắn ốc để làm mất ổn định căn cứ của đối thủ.",
+  "shortInstruction": "Từ phía bên của Tư thế rùa, đặt tay gần của bạn lên đùi xa và tay xa của bạn lên vai gần của Tư thế rùa. Xoay hai tay theo hướng ngược nhau (đẩy đùi, kéo vai) để xoắn chúng phẳng.",
+  "summary": "Động tác xoắn ốc làm gián đoạn con Tư thế rùa bằng cách tác dụng các lực quay ngược chiều nhau: một tay đẩy đùi xa ra trong khi tay kia kéo vai gần về phía bạn. Vòng quay này sẽ loại bỏ phần đế của đối thủ và buộc họ nằm ngửa hoặc nằm nghiêng. Đi xe xoắn ốc đặc biệt hiệu quả trước những đối thủ quá mạnh hoặc quá linh hoạt để thực hiện động tác cưỡi một nửa sức mạnh.",
   "whyItWorks": [
     "Lực quay đối phương (đẩy đùi, kéo vai) tạo thành hình xoắn ốc khiến đối phương không thể chống đỡ",
     "Vòng xoắn ốc loại bỏ đế hình tam giác của đối phương - chân máy của cả hai tay và đầu gối trở nên không ổn định",
@@ -95,7 +95,7 @@
     "decisionTree": [
       {
         "condition": "Trong Giai đoạn 1 (Thiết lập liên hệ)",
-        "action": "đặt mình bên cạnh con rùa (vuông góc). Đặt bàn tay gần của bạn lên đùi xa của họ (lòng bàn tay phẳng, các ngón tay hướng về phía hông của họ). Đặt bàn tay xa của bạn lên vai gần của họ (lòng bàn tay trên bả vai của họ)"
+        "action": "đặt mình bên cạnh con Tư thế rùa (vuông góc). Đặt bàn tay gần của bạn lên đùi xa của họ (lòng bàn tay phẳng, các ngón tay hướng về phía hông của họ). Đặt bàn tay xa của bạn lên vai gần của họ (lòng bàn tay trên bả vai của họ)"
       },
       {
         "condition": "Trong Giai đoạn 2 (Áp dụng Xoay vòng)",
@@ -113,9 +113,9 @@
     "exitStrategies": []
   },
   "moneyDetails": [
-    "Chuyến đi xoắn ốc là thành phần thứ hai của hệ thống đấu vật phá rùa (kết hợp với một nửa sức mạnh) - cả hai đều cung cấp cho bạn một bộ công cụ hoàn chỉnh",
+    "Chuyến đi xoắn ốc là thành phần thứ hai của hệ thống đấu vật phá Tư thế rùa (kết hợp với một nửa sức mạnh) - cả hai đều cung cấp cho bạn một bộ công cụ hoàn chỉnh",
     "Vòng xoắn ốc đặc biệt hiệu quả trước những đối thủ linh hoạt, những người có thể ngồi trên một nửa sức mạnh",
-    "Việc thành thạo đường trượt xoắn ốc sẽ mang lại cho bạn khả năng bẻ rùa đáng tin cậy, hoạt động ở mọi cấp độ vật lộn"
+    "Việc thành thạo đường trượt xoắn ốc sẽ mang lại cho bạn khả năng bẻ Tư thế rùa đáng tin cậy, hoạt động ở mọi cấp độ vật lộn"
   ],
   "fixItFast": [
     "Nếu chúng không sụp đổ: chuyển sang chế độ lái nửa lực - nó sử dụng hệ thống đòn bẩy khác",

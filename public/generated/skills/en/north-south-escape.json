@@ -6,7 +6,7 @@
   "name": "North South Escape",
   "aliases": [
     "north-south pin escape",
-    "north-south guard recovery"
+    "north-south Guard recovery"
   ],
   "tags": [
     "escape",
@@ -28,7 +28,7 @@
       "type": "recommended"
     },
     {
-      "id": "mount-escape",
+      "id": "Mount-escape",
       "type": "recommended"
     },
     {
@@ -62,14 +62,14 @@
     "hasStateMachine": false
   },
   "locale": "en",
-  "description": "Escape the north-south position by creating a frame, turning into the opponent, and recovering guard or standing up.",
-  "shortInstruction": "Frame on the hips, insert a knee shield, turn toward the opponent, and recover guard or wrestle up.",
-  "summary": "North-south escape uses a forearm frame on the hips to create separation, then a knee shield to turn into the opponent and recover guard. The system is distinct from side control escapes because the opponent's weight is aligned along your centerline rather than perpendicular to it.",
+  "description": "Escape the north-south position by creating a frame, turning into the opponent, and recovering Guard or standing up.",
+  "shortInstruction": "Frame on the hips, insert a knee shield, turn toward the opponent, and recover Guard or wrestle up.",
+  "summary": "North-south escape uses a forearm frame on the hips to create separation, then a knee shield to turn into the opponent and recover Guard. The system is distinct from Side Control escapes because the opponent's weight is aligned along your centerline rather than perpendicular to it.",
   "whyItWorks": [
     "The north-south pin compresses the torso along the centerline — a forearm frame on the hip redirects their weight away from your ribs",
     "Turning into the opponent (instead of away) uses your strongest skeletal structure against their chest pressure",
     "The knee shield creates a structural barrier that prevents them from re-establishing the pin after you create space",
-    "North-south is a transitional position — a well-timed escape prevents them from establishing it as a pin and forces them to recover to side control or stand up"
+    "North-south is a transitional position — a well-timed escape prevents them from establishing it as a pin and forces them to recover to Side Control or stand up"
   ],
   "commonMistakes": [
     "Trying to bench press the opponent off from a flat back — this wastes energy against their weight advantage",
@@ -88,7 +88,7 @@
     "North-south can cause claustrophobia — manage your breathing and execute the escape sequence calmly"
   ],
   "systemLogic": {
-    "corePrinciple": "The north-south escape follows a four-step sequence: frame → hip escape → knee shield → turn/recover guard",
+    "corePrinciple": "The north-south escape follows a four-step sequence: frame → hip escape → knee shield → turn/recover Guard",
     "decisionTree": [
       {
         "condition": "General application",
@@ -104,14 +104,14 @@
       },
       {
         "condition": "General application",
-        "action": "Turn/recover: use the knee shield as a pivot point to turn toward them, then either recover full guard (by overhooking their far arm) or stand up via technical stand-up"
+        "action": "Turn/recover: use the knee shield as a pivot point to turn toward them, then either recover full Guard (by overhooking their far arm) or stand up via technical stand-up"
       }
     ],
     "exitStrategies": []
   },
   "moneyDetails": [
-    "North-south escapes are less common than side control escapes — mastering this position makes you a more complete grappler",
-    "A smooth north-south escape often catches the opponent off guard and leads directly to a sweep or back take opportunity",
+    "North-south escapes are less common than Side Control escapes — mastering this position makes you a more complete grappler",
+    "A smooth north-south escape often catches the opponent off Guard and leads directly to a sweep or back take opportunity",
     "Escaping north-south without gassing yourself preserves energy for the rest of the match"
   ],
   "fixItFast": [

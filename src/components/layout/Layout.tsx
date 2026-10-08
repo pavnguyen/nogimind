@@ -20,7 +20,7 @@ const chordRoutes: Record<string, string> = {
   d: '/',
   l: '/learn',
   t: '/study',
-  f: '/troubleshooters',
+  f: '/defense',
   b: '/build',
   r: '/reference',
   s: '/search',

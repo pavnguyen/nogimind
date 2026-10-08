@@ -5,8 +5,8 @@
   "name": "Mounted Triangle / Armbar from Mount",
   "aliases": [
     "mounted triangle",
-    "S-mount triangle",
-    "triangle from mount"
+    "S-Mount triangle",
+    "triangle from Mount"
   ],
   "tags": [
     "tier:modern-expansion",
@@ -17,19 +17,19 @@
   ],
   "keywords": [
     "mounted triangle",
-    "S-mount",
-    "triangle from mount",
-    "armbar from mount"
+    "S-Mount",
+    "triangle from Mount",
+    "armbar from Mount"
   ],
   "modernSystemGroup": "s_mount",
   "relatedSkills": [
     {
-      "id": "guard-retention",
+      "id": "Guard-retention",
       "type": "supporting"
     }
   ],
   "prerequisiteSkillIds": [
-    "mount-control"
+    "Mount-control"
   ],
   "relatedPositions": [],
   "relatedConcepts": [],

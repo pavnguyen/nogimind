@@ -11,7 +11,7 @@
     "tier:modern-expansion",
     "meta:modern-common",
     "risk:medium",
-    "family:guard",
+    "family:Guard",
     "group:shoulder-crunch",
     "modern-no-gi"
   ],
@@ -23,7 +23,7 @@
   "modernSystemGroup": "shoulder_crunch",
   "relatedSkills": [
     {
-      "id": "clamp-guard-control",
+      "id": "clamp-Guard-control",
       "type": "recommended"
     },
     {
@@ -36,8 +36,8 @@
     }
   ],
   "prerequisiteSkillIds": [
-    "butterfly-guard-off-balance",
-    "seated-guard-retention"
+    "butterfly-Guard-off-balance",
+    "seated-Guard-retention"
   ],
   "relatedPositions": [],
   "relatedConcepts": [],

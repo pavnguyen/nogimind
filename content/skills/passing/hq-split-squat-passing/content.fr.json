@@ -2,12 +2,12 @@
   "id": "hq-split-squat-passing",
   "locale": "fr",
   "name": "QG / Passe Split-Squat",
-  "description": "Quartier général (QG) et passes split-squat : gérez la distance avec un genou en haut et un genou en bas, bloquez le cadre du tibia et choisissez la coupe du genou, le bodylock ou le toreando en fonction de la réaction du joueur guard.",
+  "description": "Quartier général (QG) et passes split-squat : gérez la distance avec un genou en haut et un genou en bas, bloquez le cadre du tibia et choisissez la coupe du genou, le bodylock ou le toreando en fonction de la réaction du joueur Guard.",
   "shortInstruction": "Depuis le split-squat (un genou vers le haut, un genou vers le bas), bloquez leur tibia avec votre genou posté, contrôlez leur hanche éloignée et lisez leur réaction pour sélectionner la coupe du genou, le bodylock ou le toreando.",
   "summary": "Le split-squat (également appelé quartier général) est la position fondamentale du passing pour le BJJ moderne. Il crée une base triangulaire qui bloque le tibia de l'adversaire tout en gardant vos hanches mobiles. À partir du split-squat, vous lisez l'angle et la distance de la hanche de l'adversaire pour sélectionner le pass approprié : coupe du genou (courte distance), bodylock (distance moyenne) ou toreando (longue distance).",
   "whyItWorks": [
-    "La position split-squat (un genou en haut, un genou en bas) crée une base stable qui peut s'adapter à n'importe quelle réaction du joueur guard",
-    "Le genou posté bloque l'outil de rétention guard le plus courant : le cadre du tibia",
+    "La position split-squat (un genou en haut, un genou en bas) crée une base stable qui peut s'adapter à n'importe quelle réaction du joueur Guard",
+    "Le genou posté bloque l'outil de rétention Guard le plus courant : le cadre du tibia",
     "Le split-squat maintient votre poids vers l'avant, empêchant l'adversaire de s'échapper de la hanche ou créant de la distance.",
     "Trois options passing à partir d'une seule position signifient que vous disposez toujours d'une réponse basée sur la lecture"
   ],
@@ -15,7 +15,7 @@
     "Laisser le pied genou à plat – le pied doit être sur le ballon et non à plat, pour la mobilité",
     "Perte de la connexion de la hanche opposée : votre main doit rester en contact avec la hanche opposée",
     "S'engager sur une passe avant de lire leur réaction - la lecture doit précéder la sélection de la passe",
-    "Élever les hanches trop haut - cela donne à l'adversaire de l'espace pour re-guard ou attaquer"
+    "Élever les hanches trop haut - cela donne à l'adversaire de l'espace pour re-Guard ou attaquer"
   ],
   "coachingCues": [
     "Genou vers le haut, genou vers le bas, base stable",
@@ -37,16 +37,16 @@
     "corePrinciple": "Le système de passes split-squat comporte trois branches : Knee Cut → Bodylock → Toreando",
     "decisionTree": [
       {
-        "condition": "Branche 1, Knee Cut : lorsque l'adversaire appuie son tibia contre votre genou posté. Déposez votre genou posté sur le tapis, faites-le glisser devant son tibia et passez à side control.",
+        "condition": "Branche 1, Knee Cut : lorsque l'adversaire appuie son tibia contre votre genou posté. Déposez votre genou posté sur le tapis, faites-le glisser devant son tibia et passez à Side Control.",
         "action": "Utilisez crossface pour épingler la tête"
       },
       {
         "condition": "Application générale",
-        "action": "Si Branche 2, Bodylock : lorsque l'adversaire est proche mais ne met pas de pression sur le tibia. Déposez votre genou posté sur le tapis, verrouillez vos mains autour de leurs hanches et conduisez jusqu'à side control en exerçant une pression de la poitrine aux hanches."
+        "action": "Si Branche 2, Bodylock : lorsque l'adversaire est proche mais ne met pas de pression sur le tibia. Déposez votre genou posté sur le tapis, verrouillez vos mains autour de leurs hanches et conduisez jusqu'à Side Control en exerçant une pression de la poitrine aux hanches."
       },
       {
         "condition": "Application générale",
-        "action": "Si branche 3, Toreando : lorsque l'adversaire crée une distance importante (évasion de la hanche ou coup de jambe). Poussez les deux jambes d’un côté et faites un cercle du côté opposé. Pas couramment utilisé dans No-Gi mais efficace contre les joueurs flexibles guard"
+        "action": "Si branche 3, Toreando : lorsque l'adversaire crée une distance importante (évasion de la hanche ou coup de jambe). Poussez les deux jambes d’un côté et faites un cercle du côté opposé. Pas couramment utilisé dans No-Gi mais efficace contre les joueurs flexibles Guard"
       },
       {
         "condition": "Application générale",
@@ -55,9 +55,9 @@
     ]
   },
   "moneyDetails": [
-    "Le split-squat est la position universelle de passing – il fonctionne contre tous les types guard et types de corps.",
+    "Le split-squat est la position universelle de passing – il fonctionne contre tous les types Guard et types de corps.",
     "Apprendre les passes divisées en squats est le chemin le plus rapide vers un jeu de passes complet",
-    "Ce système est le fondement du programme de réussite guard de Danaher."
+    "Ce système est le fondement du programme de réussite Guard de Danaher."
   ],
   "fixItFast": [
     "S'ils gardent le cadrage du tibia : passez au passage Bodylock – le verrouillage du corps neutralise le cadrage du tibia.",

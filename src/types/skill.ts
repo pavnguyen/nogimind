@@ -21,7 +21,7 @@ export type MetaStatus = 'fundamental' | 'modern_common' | 'emerging' | 'special
 export type RiskLevel = 'low' | 'medium' | 'high' | 'safety_critical'
 
 export type TechniqueFamily =
-  | 'guard'
+  | 'Guard'
   | 'passing'
   | 'submission'
   | 'back_take'
@@ -632,7 +632,7 @@ export type QualityChecklistType =
   | 'pass'
   | 'control'
   | 'escape'
-  | 'guard'
+  | 'Guard'
   | 'wrestling'
   | 'safety'
 

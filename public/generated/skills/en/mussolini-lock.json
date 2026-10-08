@@ -1,0 +1,367 @@
+{
+  "id": "mussolini-lock",
+  "domain": "submission_systems",
+  "level": "advanced",
+  "status": "draft",
+  "name": "Mussolini Lock / Cross-Achilles Shin Lock",
+  "aliases": [
+    "mussolini",
+    "mussolini lock",
+    "cross-achilles shin lock",
+    "50/50 shin lock",
+    "schuardt lock"
+  ],
+  "tags": [
+    "tier:advanced-niche",
+    "meta:emerging",
+    "risk:high",
+    "family:leg_lock",
+    "group:leg-lock",
+    "modern-no-gi",
+    "leg-lock",
+    "shin-lock",
+    "50-50"
+  ],
+  "keywords": [
+    "mussolini lock",
+    "cross achilles",
+    "shin lock",
+    "50/50 leg lock",
+    "90/10 leg lock",
+    "schuardt mussolini",
+    "shin buster",
+    "non heel hook leg lock",
+    "crossed feet 50/50",
+    "boot defense ankle lock"
+  ],
+  "modernSystemGroup": "leg_lock",
+  "relatedSkills": [
+    {
+      "id": "backside-50-50-control",
+      "type": "chain"
+    },
+    {
+      "id": "fifty-fifty-to-heel-exposure",
+      "type": "chain"
+    },
+    {
+      "id": "heel-hook-finishing-system",
+      "type": "alternative"
+    },
+    {
+      "id": "toe-hold-system",
+      "type": "recommended"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [
+    "leg-lock-specialist",
+    "leg-lock-safety-first"
+  ],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "fifty-fifty-to-heel-exposure",
+    "heel-hook-safety"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [
+    "If the boot defense holds: your anchor is too low on the foot — reseat the bony edge higher on the lower shin",
+    "If they pull the foot out: your cross-ashi is loose — re-close your knee line behind their thigh before re-anchoring",
+    "If they stand: follow them and take the back — do not chase the lock from a dead angle"
+  ],
+  "version": 1,
+  "updatedAt": "2026-10-08T00:00:00.000Z",
+  "contentRefs": {
+    "microDetails": "content.en.json#microDetailSystem",
+    "videos": "videos.json",
+    "qualityChecklist": "content.en.json#qualityChecklist"
+  },
+  "featureFlags": {
+    "hasMicroDetails": true,
+    "hasChecklist": true,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "en",
+  "description": "The Mussolini Lock is a cross-Achilles shin lock from the 50/50 leg entanglement. Instead of cranking the foot to expose the heel, you bring the opponent's foot across your centerline, cross your legs over their Achilles and seat the bony edge of your forearm on the lower shin, anchor their ankle against your body, and rotate your torso to shear the shin against the ankle. It is available any time the opponent's foot crosses your body — most often from 50/50 or 90/10 — and it still finishes when they defend a conventional ankle lock by stiffening the foot into a 'boot' shape.",
+  "shortInstruction": "From 50/50, bring their foot across your centerline, cross your legs over their Achilles and seat the bony edge of your forearm on the lower shin, anchor the ankle to your body, then rotate your torso to shear the shin against the ankle.",
+  "summary": "The Mussolini Lock is a cross-Achilles shin lock from the 50/50 leg entanglement. It attacks the shin and ankle instead of the heel, so it works in the crossed-feet stalemate and survives the boot defense. It chains directly into heel hooks, back takes and kneebars.",
+  "whyItWorks": [
+    "It shears the shin and ankle rather than rotating the heel — no clean heel exposure is required, so it is available inside the crossed-feet 50/50 stalemate where heel hooks stall",
+    "Concentrating the bony edge of the forearm across the lower shin and Achilles creates a shearing pressure the ankle cannot tolerate",
+    "It only needs the ankle to sit against the side of your body — unlike the Woj Lock you do not have to slide the heel up onto the ribs — so it is available earlier and from more entanglements",
+    "The standard ankle-lock defense of stiffening the foot into a 'boot' does not defeat it, because the pressure is on the shin, not on a levered foot",
+    "When they defend the lock their reaction exposes the heel or the back, so the shin lock feeds the rest of the leg-locking system"
+  ],
+  "commonMistakes": [
+    "Finishing it like an ankle lock — cranking the foot instead of shearing the shin; if you are reaching for the heel, you are trying the wrong technique",
+    "Seating the pressure too low on the foot instead of placing the bony edge high on the lower shin and Achilles",
+    "Letting them retract the crossed foot before your anchor is set — the lock only exists while their foot is across your body",
+    "Losing the cross-ashi (your knee line behind their thigh) so they can rotate their knee out and clear the entanglement",
+    "Turning it into a slow strength battle instead of using hip and torso rotation to close the angle"
+  ],
+  "coachingCues": [
+    "Bone on the shin, not the heel",
+    "Ankle sits on the body — no need to reach the ribs",
+    "Cross-Achilles first, then rotate the torso",
+    "If their foot leaves your centerline, the lock is gone",
+    "Slow shear, not a foot crank"
+  ],
+  "safetySummary": [
+    "The Mussolini Lock shears the shin and ankle and can injure the ankle joint, the tibia and fibula, and the Achilles tendon. Apply slowly and tap early.",
+    "Never apply rotational or shearing leg locks at speed; train with a qualified partner and controlled resistance",
+    "Release immediately on the tap — do not crank through a stiffened foot",
+    "If a training partner has an ankle or lower-leg injury, avoid this entanglement entirely"
+  ],
+  "systemLogic": {
+    "corePrinciple": "Mussolini Lock: enter 50/50 or 90/10 → bring their foot across your centerline → cross your legs over their Achilles and seat the bony edge of your forearm on the lower shin → anchor their ankle against your body → rotate your hips and torso across the line of the shin to shear it against the ankle. It finishes without heel exposure and survives the boot defense because it attacks the shin, not a levered foot.",
+    "decisionTree": [
+      {
+        "condition": "You are in 50/50 with crossed feet and no heel exposure",
+        "action": "attack the cross-Achilles shin lock instead of fighting for the heel"
+      },
+      {
+        "condition": "They stiffen the foot into a boot to defend",
+        "action": "continue — the lock attacks the shin, so the boot does not save them"
+      },
+      {
+        "condition": "They pull the foot back out of your centerline",
+        "action": "re-close your knee line and re-enter; the lock needs their foot across your body"
+      },
+      {
+        "condition": "They turn away or stand up to escape",
+        "action": "release the shin lock and take the back or attack the exposed heel"
+      },
+      {
+        "condition": "the grip fails or your hand cannot get in",
+        "action": "push their knee line further across, then re-anchor — do not force it from a shallow angle"
+      }
+    ],
+    "exitStrategies": [
+      "When the shin lock stalls, transition to the heel hook their defense exposes",
+      "When they stand or turn, follow to the back take or re-enter the saddle",
+      "When you lose the cross-ashi, reset to 50/50 control before attacking again"
+    ]
+  },
+  "moneyDetails": [
+    "The Mussolini Lock is a cross-Achilles shin lock: the bony edge of the forearm sits across the lower shin, and the finish is a shear, not a foot crank",
+    "It is the attack that makes the crossed-feet 50/50 stalemate dangerous — it does not need the heel",
+    "Coined by Daniel 'The Manchild' Schuardt, who finished multiple opponents with it on the way to bronze at ADCC 2026",
+    "The boot defense that saves a straight ankle lock does not stop it, because the pressure is on the shin",
+    "Pair it with heel hooks and back takes: the shin lock's job is to force a reaction you can attack"
+  ],
+  "fixItFast": [
+    "If the boot defense holds: reseat the bony edge higher on the shin — you are too close to the foot",
+    "If they pull the foot out: re-close your knee line behind their thigh and re-enter",
+    "If they stand: stop chasing the lock and take the back",
+    "If your hand cannot get in: push their knee line further across before anchoring"
+  ],
+  "microDetailSystem": {
+    "overview": "Five mechanical checkpoints for the cross-Achilles shin lock: preserve the crossed-foot entry, secure the knee line, place the forearm on the lower shin, anchor the ankle, and generate a slow torso-driven shear.",
+    "topFiveDetails": [
+      {
+        "id": "mussolini-foot-crosses-centerline",
+        "category": "foot",
+        "title": "Foot crosses your centerline",
+        "shortInstruction": "Keep their ankle across your torso before building the lock.",
+        "side": "center",
+        "direction": "expose",
+        "bodyParts": [
+          "ankle",
+          "hips",
+          "legs"
+        ],
+        "whenToUse": "As you enter from 50/50 or 90/10.",
+        "whyItWorks": "The crossed foot gives you the angle to wrap the Achilles and keeps the shin in front of your torso.",
+        "commonMistake": "Trying to form the lock while their foot remains on the outside of your hip.",
+        "correctionCue": "Bring the ankle across first; do not reach across a wide gap.",
+        "liveCue": "Foot across, then connect.",
+        "safetyNote": "Do not wrench the ankle while repositioning the foot."
+      },
+      {
+        "id": "mussolini-knee-line-retention",
+        "category": "knee",
+        "title": "Keep their knee line captured",
+        "shortInstruction": "Keep your entangling knee behind their thigh so their knee cannot withdraw freely.",
+        "side": "near",
+        "direction": "pin_in",
+        "bodyParts": [
+          "knees",
+          "thighs",
+          "hips"
+        ],
+        "whenToUse": "Before you settle the forearm and throughout the finish.",
+        "whyItWorks": "Knee-line control limits their ability to rotate or retract the leg out of the shin-lock angle.",
+        "commonMistake": "Focusing on the foot while your knee line opens.",
+        "correctionCue": "Re-close your knee behind their thigh before re-gripping.",
+        "liveCue": "Knee line stays shut.",
+        "safetyNote": "If the knee line clears, release the finish and reset rather than twisting against the escape."
+      },
+      {
+        "id": "mussolini-forearm-on-lower-shin",
+        "category": "pressure",
+        "title": "Bone across the lower shin",
+        "shortInstruction": "Place the firm bony edge of your forearm across the lower shin/Achilles region, not on the toes or heel.",
+        "side": "inside",
+        "direction": "wedge",
+        "bodyParts": [
+          "forearms",
+          "shins",
+          "ankles"
+        ],
+        "whenToUse": "Once the foot is across and the leg is contained.",
+        "whyItWorks": "A high shin contact creates the cross-Achilles shearing line; a low foot grip turns it into a weak ankle crank.",
+        "commonMistake": "Letting the contact slide down onto the foot.",
+        "correctionCue": "Re-seat the forearm on the lower shin before applying pressure.",
+        "liveCue": "Forearm bone on shin.",
+        "safetyNote": "Use gradual contact and stop immediately on a tap."
+      },
+      {
+        "id": "mussolini-ankle-body-anchor",
+        "category": "grip",
+        "title": "Anchor the ankle to your torso",
+        "shortInstruction": "Keep their ankle snug against the side of your body without needing to haul the heel onto your ribs.",
+        "side": "near",
+        "direction": "clamp",
+        "bodyParts": [
+          "ankles",
+          "hips",
+          "ribs"
+        ],
+        "whenToUse": "After establishing forearm-to-shin contact.",
+        "whyItWorks": "The body anchor removes slack and prevents the foot from drifting while the shin is sheared.",
+        "commonMistake": "Leaving daylight between ankle and torso or over-pulling the foot toward the ribs.",
+        "correctionCue": "Close the space with your hip and torso; keep the ankle supported.",
+        "liveCue": "Ankle to body, no slack.",
+        "safetyNote": "Avoid compressing or cranking the partner's ankle during setup."
+      },
+      {
+        "id": "mussolini-torso-shear-finish",
+        "category": "finish",
+        "title": "Rotate the torso to shear",
+        "shortInstruction": "With the leg captured, rotate your torso and hips as one unit across the shin line; increase pressure slowly.",
+        "side": "either",
+        "direction": "rotate_diagonal",
+        "bodyParts": [
+          "hips",
+          "spine",
+          "shins",
+          "ankles"
+        ],
+        "whenToUse": "Only after the foot, knee line, forearm contact, and ankle anchor are secure.",
+        "whyItWorks": "Whole-body rotation produces a controlled shear through the captured shin rather than relying on a sudden foot crank.",
+        "commonMistake": "Pulling hard with the arms or twisting explosively before control is set.",
+        "correctionCue": "Remove slack, check the knee line, then rotate in a small progressive arc.",
+        "liveCue": "Control first; slow torso turn.",
+        "safetyNote": "This is a high-risk lower-leg submission: drill slowly, tap early, and release immediately."
+      }
+    ],
+    "troubleshootingTips": [
+      {
+        "problem": "The boot defense stalls the finish.",
+        "quickFix": "Check that your forearm contact is on the lower shin rather than low on the foot.",
+        "cue": "Bone on shin."
+      },
+      {
+        "problem": "The opponent retracts the leg.",
+        "quickFix": "Re-close the knee line behind the thigh before rebuilding the ankle anchor.",
+        "cue": "Keep the knee line."
+      },
+      {
+        "problem": "You feel forced to use arm strength.",
+        "quickFix": "Rebuild the body anchor and use a small torso rotation instead of pulling the foot.",
+        "cue": "Anchor, then rotate."
+      }
+    ],
+    "doNotDo": [
+      "Do not yank, bounce, or explosively twist the ankle or shin.",
+      "Do not keep finishing after the knee line escapes or after your partner taps."
+    ],
+    "safetyNotes": [
+      "Practice with qualified supervision, controlled resistance, and a clear tap signal.",
+      "Release immediately on a tap or any sudden pain; do not test the lock at speed."
+    ]
+  },
+  "qualityChecklist": {
+    "type": "submission",
+    "overview": "Before applying the shin lock, confirm the entry, knee-line control, forearm contact, and safe finishing control. A 'yes' must be an observable position, not a guess.",
+    "checks": [
+      {
+        "id": "mussolini-ready-crossed-foot",
+        "title": "Foot is across",
+        "question": "Is the opponent's ankle clearly across your centerline and connected to your torso?",
+        "successSignal": "The ankle stays across your body without a reach or gap.",
+        "failureSignal": "The foot is outside your hip or can retract freely.",
+        "quickFix": "Re-establish the 50/50 angle and bring the foot across before gripping.",
+        "bodyParts": [
+          "ankles",
+          "hips"
+        ],
+        "relatedMicroDetailIds": [
+          "mussolini-foot-crosses-centerline"
+        ],
+        "severity": "major"
+      },
+      {
+        "id": "mussolini-ready-knee-line",
+        "title": "Knee line is contained",
+        "question": "Is your entangling knee still behind their thigh, preventing free rotation out?",
+        "successSignal": "Their knee cannot withdraw without first clearing your leg control.",
+        "failureSignal": "Their knee line is already past your control or opening away.",
+        "quickFix": "Release finishing pressure and re-close the knee line before re-entering.",
+        "bodyParts": [
+          "knees",
+          "thighs"
+        ],
+        "relatedMicroDetailIds": [
+          "mussolini-knee-line-retention"
+        ],
+        "severity": "critical"
+      },
+      {
+        "id": "mussolini-ready-shin-contact",
+        "title": "Shin contact is correct",
+        "question": "Is the forearm's bony edge on the lower shin/Achilles rather than cranking the foot?",
+        "successSignal": "Contact is visibly on the lower shin with the ankle supported.",
+        "failureSignal": "Your grip is low on the foot or dependent on bending the toes.",
+        "quickFix": "Re-seat the forearm on the shin and remove slack before applying force.",
+        "bodyParts": [
+          "forearms",
+          "shins",
+          "ankles"
+        ],
+        "relatedMicroDetailIds": [
+          "mussolini-forearm-on-lower-shin",
+          "mussolini-ankle-body-anchor"
+        ],
+        "severity": "critical"
+      },
+      {
+        "id": "mussolini-ready-controlled-finish",
+        "title": "Finish is controlled",
+        "question": "Can you apply a small torso-driven shear gradually and release instantly on a tap?",
+        "successSignal": "The position is stable and the motion is slow and controllable.",
+        "failureSignal": "You need an explosive twist, or partner communication/release is uncertain.",
+        "quickFix": "Stop the finish, reset to a safe position, and agree on the tap signal before drilling.",
+        "bodyParts": [
+          "hips",
+          "spine",
+          "ankles"
+        ],
+        "relatedMicroDetailIds": [
+          "mussolini-torso-shear-finish"
+        ],
+        "severity": "critical"
+      }
+    ],
+    "passThreshold": 3,
+    "ifPassed": "Ready for controlled positional drilling; continue to increase resistance gradually and keep the tap immediate.",
+    "ifFailed": "Do not finish yet. Reset the entry and control points; any critical safety failure means stop and correct before applying pressure."
+  }
+}

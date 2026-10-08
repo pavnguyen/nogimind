@@ -1,7 +1,7 @@
 import type { KnowledgeItemType, KnowledgeSearchResult } from '../types/knowledgeSearch'
 import type { LanguageCode, SkillDomain, SkillLevel, SkillNode } from '../types/skill'
 import type { SearchDataBundle } from '../utils/searchEngine'
-import { getMicroDetails, getTroubleshooters } from './knowledgeModules'
+import { getMicroDetails } from './knowledgeModules'
 import { getCachedStaticData, setCachedStaticData, hasValidStaticCache } from './searchCache'
 import { getManifest, type ManifestEntry } from '../content-runtime/manifests'
 
@@ -196,7 +196,6 @@ const buildSearchPayload = async (): Promise<SearchDataBundle> => {
       skillNodes,
       ...cachedStatic,
       microDetails: getMicroDetails(skillNodes),
-      troubleshooters: getTroubleshooters(skillNodes),
     }
   }
 
@@ -222,7 +221,6 @@ const buildSearchPayload = async (): Promise<SearchDataBundle> => {
     skillNodes,
     ...staticData,
     microDetails: getMicroDetails(skillNodes),
-    troubleshooters: getTroubleshooters(skillNodes),
   }
 
   const tDone = performance.now()

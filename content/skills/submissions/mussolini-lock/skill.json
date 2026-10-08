@@ -1,0 +1,79 @@
+{
+  "id": "mussolini-lock",
+  "domain": "submission_systems",
+  "level": "advanced",
+  "status": "draft",
+  "name": "Mussolini Lock / Cross-Achilles Shin Lock",
+  "aliases": [
+    "mussolini",
+    "mussolini lock",
+    "cross-achilles shin lock",
+    "50/50 shin lock",
+    "schuardt lock"
+  ],
+  "tags": [
+    "tier:advanced-niche",
+    "meta:emerging",
+    "risk:high",
+    "family:leg_lock",
+    "group:leg-lock",
+    "modern-no-gi",
+    "leg-lock",
+    "shin-lock",
+    "50-50"
+  ],
+  "keywords": [
+    "mussolini lock",
+    "cross achilles",
+    "shin lock",
+    "50/50 leg lock",
+    "90/10 leg lock",
+    "schuardt mussolini",
+    "shin buster",
+    "non heel hook leg lock",
+    "crossed feet 50/50",
+    "boot defense ankle lock"
+  ],
+  "modernSystemGroup": "leg_lock",
+  "relatedSkills": [
+    {
+      "id": "backside-50-50-control",
+      "type": "chain"
+    },
+    {
+      "id": "fifty-fifty-to-heel-exposure",
+      "type": "chain"
+    },
+    {
+      "id": "heel-hook-finishing-system",
+      "type": "alternative"
+    },
+    {
+      "id": "toe-hold-system",
+      "type": "recommended"
+    }
+  ],
+  "prerequisiteSkillIds": [
+    "fifty-fifty-to-heel-exposure",
+    "heel-hook-safety"
+  ],
+  "relatedPositions": [],
+  "relatedConcepts": [],
+  "archetypeIds": [
+    "leg-lock-specialist",
+    "leg-lock-safety-first"
+  ],
+  "trainingMethodIds": [],
+  "featureFlags": {
+    "hasMicroDetails": true,
+    "hasChecklist": true,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "contentRefs": {
+    "microDetails": "content.en.json#microDetailSystem",
+    "videos": "videos.json",
+    "qualityChecklist": "content.en.json#qualityChecklist"
+  },
+  "updatedAt": "2026-10-08T00:00:00.000Z"
+}

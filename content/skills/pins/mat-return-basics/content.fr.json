@@ -4,7 +4,7 @@
   "name": "mat return Notions de base",
   "description": "Ramenez l'adversaire en toute sécurité sur le tapis lorsqu'il se tient debout sur une seule jambe, un bodylock ou une tortue. Le mat return est une compétence de lutte critique qui empêche l'adversaire de s'échapper en se levant.",
   "shortInstruction": "Maintenez la prise de la jambe (simple ou bodylock), enfoncez votre épaule dans sa hanche, élevez la jambe coincée et conduisez-la vers le tapis sur sa hanche ou son dos. Protégez la position de votre tête partout.",
-  "summary": "Le mat return est le processus consistant à ramener un adversaire debout sur le tapis après avoir sécurisé une jambe simple, une jambe double ou un verrou corporel. Cela nécessite trois éléments : une prise sûre qui les empêche de s'échapper, une élévation de la jambe coincée pour retirer leur base et un mouvement de conduite qui les fait atterrir sur la hanche ou sur le dos. Le mat return est essentiel pour empêcher les tortues de s'échapper en position debout et le half guard.",
+  "summary": "Le mat return est le processus consistant à ramener un adversaire debout sur le tapis après avoir sécurisé une jambe simple, une jambe double ou un verrou corporel. Cela nécessite trois éléments : une prise sûre qui les empêche de s'échapper, une élévation de la jambe coincée pour retirer leur base et un mouvement de conduite qui les fait atterrir sur la hanche ou sur le dos. Le mat return est essentiel pour empêcher les tortues de s'échapper en position debout et le Half Guard.",
   "whyItWorks": [
     "L'élévation de la jambe coincée supprime un point de leur base, rendant impossible le maintien de la position debout",
     "Enfoncer votre épaule dans leur hanche crée un levier qui fait basculer leur centre de gravité vers l'arrière",
@@ -13,7 +13,7 @@
   ],
   "commonMistakes": [
     "Lâcher la jambe lors du retour — la prise doit être maintenue jusqu'à ce qu'ils soient complètement sur le tapis",
-    "Conduire latéralement plutôt qu'en arrière : un retour latéral peut vous amener dans leur guard",
+    "Conduire latéralement plutôt qu'en arrière : un retour latéral peut vous amener dans leur Guard",
     "Perdre la position de la tête – votre tête doit être à l’intérieur (de la poitrine à la hanche) et non à l’extérieur",
     "Abandonner votre propre base pendant le retour – vous devez rester en équilibre pour atterrir au sommet"
   ],
@@ -31,7 +31,7 @@
   ],
   "keyCorrections": [
     "S'ils continuent de sauter sur une jambe : vous ne vous êtes pas suffisamment élevé – soulevez la jambe coincée plus haut.",
-    "Si vous atterrissez dans leur guard : votre direction de conduite était erronée – conduisez en arrière, pas sur le côté",
+    "Si vous atterrissez dans leur Guard : votre direction de conduite était erronée – conduisez en arrière, pas sur le côté",
     "S'ils échappent à la jambe : votre prise était trop superficielle – tirez à nouveau et fixez la jambe plus haut (au niveau du genou ou de la cuisse)."
   ],
   "systemLogic": {
@@ -50,13 +50,13 @@
         "action": "enfoncez votre épaule dans sa hanche et faites un grand pas en arrière avec votre jambe extérieure. Cela retire leur base et les pose sur leur hanche. Maintenez l'adhérence pendant qu'ils atterrissent"
       },
       {
-        "condition": "Position d'atterrissage : visez side control ou north-south. S'ils atterrissent sur le dos, vous êtes dans leur guard",
-        "action": "ce n'est pas idéal mais acceptable. S'il atterrit sur la hanche, conduisez immédiatement vers side control."
+        "condition": "Position d'atterrissage : visez Side Control ou north-south. S'ils atterrissent sur le dos, vous êtes dans leur Guard",
+        "action": "ce n'est pas idéal mais acceptable. S'il atterrit sur la hanche, conduisez immédiatement vers Side Control."
       }
     ]
   },
   "moneyDetails": [
-    "Le mat return est essentiel pour empêcher les fuites en position debout du half guard, de la tortue et d'une seule jambe. Sans lui, les adversaires peuvent se lever et se réinitialiser à volonté.",
+    "Le mat return est essentiel pour empêcher les fuites en position debout du Half Guard, de la tortue et d'une seule jambe. Sans lui, les adversaires peuvent se lever et se réinitialiser à volonté.",
     "Maîtriser le mat return vous donne une confiance totale en matière de contrôle : vous savez que vous pouvez les garder sur le tapis.",
     "Un bon mat return marque 2 points de retrait en IBJJF"
   ],

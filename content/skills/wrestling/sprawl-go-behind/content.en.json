@@ -31,7 +31,7 @@
   "keyCorrections": [
     "If they complete the takedown despite your sprawl: your hips were too high — drive them lower onto their back",
     "If they stand up before you circle: you waited too long — circle the moment the sprawl lands",
-    "If they turn into you: switch to a front headlock — do not force the back take"
+    "If they turn into you: switch to a Front Headlock — do not force the back take"
   ],
   "systemLogic": {
     "corePrinciple": "The sprawl and go-behind has four phases: Sprawl → Control → Circle → Back Take",
@@ -54,7 +54,7 @@
       },
       {
         "condition": "the go-behind fails",
-        "action": "they turned into you → use the front headlock. They sat up → re-sprawl. They rolled away → follow and take the back"
+        "action": "they turned into you → use the Front Headlock. They sat up → re-sprawl. They rolled away → follow and take the back"
       }
     ]
   },
@@ -65,7 +65,7 @@
   ],
   "fixItFast": [
     "If they re-shoot during the sprawl: sprawl again, deeper — their second shot is weaker",
-    "If they turn into you: switch to the front headlock and chain attacks from there",
+    "If they turn into you: switch to the Front Headlock and chain attacks from there",
     "If they sit up and face you: re-establish the collar tie and reset to neutral"
   ]
 }

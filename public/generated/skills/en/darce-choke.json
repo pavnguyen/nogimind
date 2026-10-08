@@ -15,7 +15,7 @@
   "keywords": [
     "darce",
     "arm triangle",
-    "front headlock",
+    "Front Headlock",
     "shoulder crunch",
     "chest pressure",
     "go-behind"
@@ -26,7 +26,7 @@
       "type": "recommended"
     },
     {
-      "id": "guillotine-system",
+      "id": "Guillotine-system",
       "type": "recommended"
     },
     {
@@ -69,12 +69,12 @@
     "hasStateMachine": false
   },
   "locale": "en",
-  "description": "An arm triangle choke from front headlock or when the opponent turns in — lock the shoulder and neck together and finish with shoulder pressure rather than arm squeeze.",
+  "description": "An arm triangle choke from Front Headlock or when the opponent turns in — lock the shoulder and neck together and finish with shoulder pressure rather than arm squeeze.",
   "shortInstruction": "Thread the far arm deep, lock the figure-four, drop your weight — the D'Arce finishes with gravity, not muscle.",
-  "summary": "The D'Arce choke is one of the three primary front headlock finishes (with the anaconda and guillotine). The key difference from the anaconda is that your choking arm threads from the far side (far arm goes under the neck and over their near arm). The D'Arce is particularly effective against opponents who turn INTO you (as opposed to the anaconda, which works when they turn away). The finish comes from dropping your weight onto their trapped shoulder and neck.",
+  "summary": "The D'Arce choke is one of the three primary Front Headlock finishes (with the anaconda and Guillotine). The key difference from the anaconda is that your choking arm threads from the far side (far arm goes under the neck and over their near arm). The D'Arce is particularly effective against opponents who turn INTO you (as opposed to the anaconda, which works when they turn away). The finish comes from dropping your weight onto their trapped shoulder and neck.",
   "whyItWorks": [
     "The D'Arce traps both their arm and neck — the same arm triangle mechanics as the anaconda, but from the opposite side.",
-    "It is the perfect counter when the opponent turns into you from front headlock.",
+    "It is the perfect counter when the opponent turns into you from Front Headlock.",
     "Gravity does the work — dropping your weight creates more pressure than squeezing with your arms.",
     "Danaher principle: the D'Arce is a 'position before submission' choke — if the position is right, the choke is inevitable."
   ],
@@ -96,7 +96,7 @@
     "Tap early on neck compression — a D'Arce can injure the cervical spine if applied explosively."
   ],
   "systemLogic": {
-    "corePrinciple": "Front headlock established → opponent turns in → thread far arm under their neck → lock figure-four grip → drop chest weight → finish.",
+    "corePrinciple": "Front Headlock established → opponent turns in → thread far arm under their neck → lock figure-four grip → drop chest weight → finish.",
     "decisionTree": [
       {
         "condition": "General application",
@@ -104,7 +104,7 @@
       },
       {
         "condition": "General application",
-        "action": "From D'Arce, if they escape, transition to side control or back take."
+        "action": "From D'Arce, if they escape, transition to Side Control or back take."
       }
     ],
     "exitStrategies": []
@@ -115,7 +115,7 @@
     "Drop your weight by lowering your chest to the mat — this drives your shoulder into their neck.",
     "Keep your head on the opposite side of the choke to prevent them from rolling you."
   ],
-  "nextStep": "After the D'Arce, learn the anaconda choke and guillotine to chain from front headlock.",
+  "nextStep": "After the D'Arce, learn the anaconda choke and Guillotine to chain from Front Headlock.",
   "fixItFast": [
     "Choke feels loose? Thread your arm deeper under their neck.",
     "They stack you? Bring your head to their hip and re-engage.",

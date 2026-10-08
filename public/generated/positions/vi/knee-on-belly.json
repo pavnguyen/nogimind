@@ -4,7 +4,7 @@
   "title": "Knee On Belly",
   "category": "top_control",
   "status": "advantage",
-  "description": "Người ở trên đặt gối lên bụng/hông người ở dưới, tạo pressure và di chuyển nhanh để pass, mount hoặc submission.",
+  "description": "Người ở trên đặt gối lên bụng/hông người ở dưới, tạo pressure và di chuyển nhanh để pass, Mount hoặc submission.",
   "topPlayerGoals": [
     "Người ở trên muốn kiểm soát Knee On Belly bằng vị trí đầu, vị trí trong và áp lực có hướng.",
     "Giữ gối nặng và di chuyển theo hip line để mở submissions.",
@@ -12,7 +12,7 @@
   ],
   "bottomPlayerGoals": [
     "Người ở dưới muốn sống sót trong Knee On Belly bằng khung chặn, pummel hoặc góc phù hợp.",
-    "Tạo frame, kéo chân về guard hoặc tạo space để hip escape.",
+    "Tạo frame, kéo chân về Guard hoặc tạo space để hip escape.",
     "Nhận diện tín hiệu nguy hiểm sớm thay vì chờ vị trí ổn định."
   ],
   "controlPoints": [
@@ -27,12 +27,12 @@
   ],
   "advancementOptions": [
     {
-      "action": "Tiến lên mount hoặc back take",
-      "nextPositionId": "mount-top",
+      "action": "Tiến lên Mount hoặc back take",
+      "nextPositionId": "Mount-top",
       "relatedSkillIds": [
         "knee-on-belly-control",
         "side-control-pin",
-        "mount-control"
+        "Mount-control"
       ],
       "why": "Đây là nhánh tự nhiên khi bạn thắng điểm kiểm soát chính và đối thủ buộc phải phòng thủ."
     }
@@ -46,7 +46,7 @@
   "relatedSkillIds": [
     "knee-on-belly-control",
     "side-control-pin",
-    "mount-control",
+    "Mount-control",
     "kimura-system"
   ],
   "relatedConceptIds": [

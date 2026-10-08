@@ -1,16 +1,16 @@
 {
-  "id": "arm-triangle-mount",
+  "id": "arm-triangle-Mount",
   "domain": "submission_systems",
   "level": "advanced",
   "name": "Arm Triangle from Mount",
   "aliases": [],
   "tags": [
     "choke",
-    "mount"
+    "Mount"
   ],
   "keywords": [
     "arm triangle",
-    "mount",
+    "Mount",
     "crossface",
     "neck safety"
   ],
@@ -24,12 +24,12 @@
       "type": "recommended"
     },
     {
-      "id": "mount-survival",
+      "id": "Mount-survival",
       "type": "recommended"
     }
   ],
   "prerequisiteSkillIds": [
-    "mount-control"
+    "Mount-control"
   ],
   "relatedPositions": [],
   "relatedConcepts": [],

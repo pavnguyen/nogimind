@@ -50,8 +50,8 @@
   "searchBoost": 1,
   "keyCorrections": [
     "Nếu họ chặn bằng tay xa: thả headlock và chuyển sang double leg",
-    "Nếu họ lùi ra khỏi headlock: vòng ra front headlock và snapdown",
-    "Nếu họ hạ thấp người để chống đỡ: kéo họ vào guard và tấn công từ dưới"
+    "Nếu họ lùi ra khỏi headlock: vòng ra Front Headlock và snapdown",
+    "Nếu họ hạ thấp người để chống đỡ: kéo họ vào Guard và tấn công từ dưới"
   ],
   "version": 1,
   "updatedAt": "2026-05-28T09:34:33.156Z",
@@ -65,8 +65,8 @@
     "hasStateMachine": false
   },
   "locale": "vi",
-  "description": "Lateral drop là đòn quật hông từ tư thế headlock hoặc overhook. Bạn dùng hông làm điểm tựa để xoay đối thủ qua người và đổ xuống thảm. Trong BJJ, điểm mấu chốt là hạ cánh ở tư thế kiểm soát (side control hoặc mount) thay vì đổ theo họ.",
-  "shortInstruction": "Giữ headlock/overhook chặt, bước chân vào trong trụ họ, hạ hông thấp hơn hông họ, xoay vai ra xa, và hạ cánh ở tư thế mount hoặc side control.",
+  "description": "Lateral drop là đòn quật hông từ tư thế headlock hoặc overhook. Bạn dùng hông làm điểm tựa để xoay đối thủ qua người và đổ xuống thảm. Trong BJJ, điểm mấu chốt là hạ cánh ở tư thế kiểm soát (Side Control hoặc Mount) thay vì đổ theo họ.",
+  "shortInstruction": "Giữ headlock/overhook chặt, bước chân vào trong trụ họ, hạ hông thấp hơn hông họ, xoay vai ra xa, và hạ cánh ở tư thế Mount hoặc Side Control.",
   "summary": "Lateral drop sử dụng hông làm điểm tựa để xoay đối thủ qua người từ tư thế headlock. Điểm khác biệt của BJJ là đứng vững trên chân để hạ cánh ở tư thế kiểm soát thay vì đổ theo đối thủ xuống thảm.",
   "whyItWorks": [
     "Headlock kiểm soát tư thế đối thủ và ngăn họ chống đỡ hoặc lùi ra",
@@ -92,7 +92,7 @@
     "Không giữ headlock khi họ đang ngã — thả ra để tránh đập đầu hoặc vai"
   ],
   "systemLogic": {
-    "corePrinciple": "Lateral drop: giữ headlock/overhook chặt → bước vào trong trụ họ → hạ hông thấp hơn họ (gập gối, không gập eo) → xoay vai ra xa → họ xoay qua hông bạn → hạ cánh ở mount hoặc side control.",
+    "corePrinciple": "Lateral drop: giữ headlock/overhook chặt → bước vào trong trụ họ → hạ hông thấp hơn họ (gập gối, không gập eo) → xoay vai ra xa → họ xoay qua hông bạn → hạ cánh ở Mount hoặc Side Control.",
     "decisionTree": [
       {
         "condition": "Họ chống tay xa để chặn đòn quật",
@@ -100,16 +100,16 @@
       },
       {
         "condition": "Họ lùi ra khỏi headlock",
-        "action": "vòng ra front headlock và snapdown"
+        "action": "vòng ra Front Headlock và snapdown"
       },
       {
         "condition": "Họ hạ thấp người để chống đỡ",
-        "action": "kéo họ vào guard và tấn công từ dưới"
+        "action": "kéo họ vào Guard và tấn công từ dưới"
       }
     ],
     "exitStrategies": [
-      "Nếu đòn quật thất bại và bạn ở dưới, phục hồi guard",
-      "Nếu bạn rơi vào guard họ sau khi quật, đứng lên và pass"
+      "Nếu đòn quật thất bại và bạn ở dưới, phục hồi Guard",
+      "Nếu bạn rơi vào Guard họ sau khi quật, đứng lên và pass"
     ]
   },
   "moneyDetails": [
@@ -120,6 +120,6 @@
   "fixItFast": [
     "Nếu họ chống tay xa: thả và chuyển ngay sang single leg",
     "Nếu họ trải người (sprawl): bạn quá chậm — reset và thiết lập headlock với kiểm soát tốt hơn",
-    "Nếu họ kéo guard trong lúc quật: đứng vững và pass thay vì đổ theo"
+    "Nếu họ kéo Guard trong lúc quật: đứng vững và pass thay vì đổ theo"
   ]
 }

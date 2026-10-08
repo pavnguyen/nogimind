@@ -2,13 +2,13 @@
   "id": "baratoplata",
   "locale": "en",
   "name": "Baratoplata",
-  "description": "A shoulder lock from guard using the legs and hip angle to isolate the opponent's shoulder — similar to a kimura in result, but attacking from a different angle with leg involvement.",
+  "description": "A shoulder lock from Guard using the legs and hip angle to isolate the opponent's shoulder — similar to a kimura in result, but attacking from a different angle with leg involvement.",
   "shortInstruction": "Control the wrist, trap the arm with your leg, rotate your hips — the baratoplata is a leg-assisted kimura from a different angle.",
   "summary": "The baratoplata is a powerful shoulder lock that combines elements of the omoplata and kimura. Unlike the kimura (which uses both hands on the arm), the baratoplata uses one of your legs to pin their arm against your body while you rotate your hips to apply the shoulder lock. This creates unique angles that the kimura cannot reach and can catch opponents who are focused on defending standard kimura entries.",
   "whyItWorks": [
     "Using your leg to trap their arm frees up one of your hands for balance or grip fighting.",
     "The baratoplata attacks the shoulder from an angle that the standard kimura does not cover.",
-    "It can be entered from positions where the kimura is difficult (guard, half guard).",
+    "It can be entered from positions where the kimura is difficult (Guard, Half Guard).",
     "Danaher principle: every joint should be attacked from multiple angles — the baratoplata covers the angle the kimura misses."
   ],
   "commonMistakes": [
@@ -37,7 +37,7 @@
     "corePrinciple": "Kimura grip attempt: opponent defends the kimura → switch to baratoplata: bring your leg over their arm → rotate hips → finish.",
     "decisionTree": [
       {
-        "condition": "The baratoplata can also be entered directly from guard: control their wrist",
+        "condition": "The baratoplata can also be entered directly from Guard: control their wrist",
         "action": "trap the arm with your leg → rotate."
       },
       {

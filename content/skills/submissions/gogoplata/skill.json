@@ -7,12 +7,12 @@
   "tags": [
     "gogoplata",
     "neck-safety",
-    "guard-submission",
+    "Guard-submission",
     "tier:advanced-niche",
     "meta:specialized",
     "risk:safety-critical",
     "family:submission",
-    "group:clamp-guard",
+    "group:clamp-Guard",
     "modern-no-gi"
   ],
   "keywords": [
@@ -23,7 +23,7 @@
   "modernSystemGroup": "clamp_guard",
   "relatedSkills": [
     {
-      "id": "clamp-guard-control",
+      "id": "clamp-Guard-control",
       "type": "recommended"
     },
     {
@@ -36,7 +36,7 @@
     }
   ],
   "prerequisiteSkillIds": [
-    "clamp-guard-control",
+    "clamp-Guard-control",
     "front-headlock-defense"
   ],
   "relatedPositions": [],

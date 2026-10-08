@@ -7,12 +7,12 @@
   "description": "Người ở trên nằm ngược từ phía đầu, kiểm soát chest-to-chest hoặc chest-to-back với shoulder pressure.",
   "topPlayerGoals": [
     "Người ở trên muốn kiểm soát North South bằng vị trí đầu, vị trí trong và áp lực có hướng.",
-    "Dùng shoulder pressure để choke, isolate arm hoặc chuyển sang side/mount.",
+    "Dùng shoulder pressure để choke, isolate arm hoặc chuyển sang side/Mount.",
     "Giữ nền vững để không bị mất thăng bằng hoặc bị phản đòn."
   ],
   "bottomPlayerGoals": [
     "Người ở dưới muốn sống sót trong North South bằng khung chặn, pummel hoặc góc phù hợp.",
-    "Đưa khuỷu tay về ribs, tạo frame và re-guard trước khi bị choke.",
+    "Đưa khuỷu tay về ribs, tạo frame và re-Guard trước khi bị choke.",
     "Nhận diện tín hiệu nguy hiểm sớm thay vì chờ vị trí ổn định."
   ],
   "controlPoints": [
@@ -27,7 +27,7 @@
   ],
   "advancementOptions": [
     {
-      "action": "Chuyển side control hoặc back take",
+      "action": "Chuyển Side Control hoặc back take",
       "nextPositionId": "side-control-top",
       "relatedSkillIds": [
         "north-south-control",

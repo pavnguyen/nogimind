@@ -3,17 +3,17 @@
   "domain": "guard_offense",
   "level": "intermediate",
   "status": "draft",
-  "name": "Kẹp guard Điều khiển",
+  "name": "Kẹp Guard Điều khiển",
   "aliases": [],
   "tags": [
-    "clamp-guard",
+    "clamp-Guard",
     "shoulder-line",
     "overhook",
     "tier:modern-expansion",
     "meta:modern-common",
     "risk:medium",
-    "family:guard",
-    "group:clamp-guard",
+    "family:Guard",
+    "group:clamp-Guard",
     "modern-no-gi"
   ],
   "keywords": [
@@ -44,7 +44,7 @@
   "archetypeIds": [],
   "relatedArchetypeIds": [],
   "prerequisiteSkillIds": [
-    "supine-guard-retention",
+    "supine-Guard-retention",
     "kimura-system"
   ],
   "trainingMethodIds": [],
@@ -69,7 +69,7 @@
   "locale": "vi",
   "description": "Kẹp đường vai của đối phương giữa đầu gối của bạn và overhook bằng điều khiển cổ tay để tạo ra một tình huống khó xử armbar, triangle hoặc omoplata khiến họ không thể thoát ra nếu không từ bỏ bài dự thi.",
   "shortInstruction": "Đầu gối lên vai, overhook cánh tay, kiểm soát cổ tay ở phía bên kia — cái kẹp là một sự khuất phục đang chờ xảy ra.",
-  "summary": "Kẹp guard (còn gọi là 'kẹp' hoặc 'kẹp tay') ghim cánh tay của đối phương qua cơ thể bạn trong khi đầu gối của bạn chặn vai họ. Điều này tạo ra thế đối đầu hai chọi một trên cánh tay bị mắc kẹt. Từ đây, mọi phản ứng mà họ thực hiện đều mở ra một sự phục tùng: họ bước vào triangle, họ kéo ra armbar, họ bước vào omoplata.",
+  "summary": "Kẹp Guard (còn gọi là 'kẹp' hoặc 'kẹp tay') ghim cánh tay của đối phương qua cơ thể bạn trong khi đầu gối của bạn chặn vai họ. Điều này tạo ra thế đối đầu hai chọi một trên cánh tay bị mắc kẹt. Từ đây, mọi phản ứng mà họ thực hiện đều mở ra một sự phục tùng: họ bước vào triangle, họ kéo ra armbar, họ bước vào omoplata.",
   "whyItWorks": [
     "Bằng cách ghim cánh tay của họ bằng đầu gối của bạn và overhook, bạn cô lập hoàn toàn một cánh tay — họ chỉ có thể phòng thủ bằng cánh tay còn lại.",
     "Chiếc kẹp sẽ loại bỏ khả năng giữ tư thế của chúng vì đầu và vai của chúng bị ghim vào ngực của bạn.",
@@ -90,7 +90,7 @@
   ],
   "safetySummary": [
     "Không quay vòng từ kẹp - trước tiên hãy kiểm soát vị trí, sau đó áp dụng lớp hoàn thiện một cách trơn tru.",
-    "Bảo vệ cổ của chính bạn: giữ chặt đầu bạn vào ngực họ, không treo lủng lẳng theo đường guillotine.",
+    "Bảo vệ cổ của chính bạn: giữ chặt đầu bạn vào ngực họ, không treo lủng lẳng theo đường Guillotine.",
     "Nếu chúng xếp chồng lên nhau, hãy nhả kẹp và đặt lại - không dùng kẹp bị khóa để chống lại chồng."
   ],
   "systemLogic": {
@@ -117,6 +117,6 @@
   "fixItFast": [
     "Đầu gối cứ trượt? Đào sâu hơn vào nách chứ không phải xương sườn.",
     "overhook cảm thấy yếu đuối? Khóa tay bạn quanh cánh tay của họ để tăng thêm sự an toàn.",
-    "Họ đang xếp chồng bạn à? Nhả kẹp, khung ở hông và đặt lại về open guard."
+    "Họ đang xếp chồng bạn à? Nhả kẹp, khung ở hông và đặt lại về open Guard."
   ]
 }

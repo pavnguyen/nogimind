@@ -38,8 +38,8 @@
   "archetypeIds": [],
   "relatedArchetypeIds": [],
   "prerequisiteSkillIds": [
-    "clamp-guard-control",
-    "guard-pulling-strategy"
+    "clamp-Guard-control",
+    "Guard-pulling-strategy"
   ],
   "trainingMethodIds": [],
   "nextSkillIds": [],
@@ -63,8 +63,8 @@
   },
   "locale": "vi",
   "description": "Khóa một vai vào và một vai ra ngoài, bẻ tư thế của đối phương, cắt góc và siết chặt - triangle là đòn bóp chân dùng chính vai của đối phương để đóng đòn sặc.",
-  "shortInstruction": "Một tay vào, một tay đưa ra, tư thế bẻ cong, cắt góc, siết chặt — triangle là lực điều khiển cuối cùng của guard.",
-  "summary": "Cuộn cảm triangle là tỷ lệ phần trăm gửi cao nhất từ ​​closed guard. Nó hoạt động bằng cách nhốt một trong hai cánh tay của họ vào trong chân bạn trong khi cánh tay còn lại ở bên ngoài, tạo ra 'triangle' chân của bạn quanh cổ và cánh tay của họ. Khi bạn cắt một góc (đưa hông của bạn ra xa họ), vai của họ sẽ ấn vào một bên động mạch cảnh của họ trong khi chân của bạn sẽ ép vào bên kia. Vai của đối phương trở thành một phần của nghẹt thở - đây là lý do tại sao triangle lại hiệu quả đến vậy.",
+  "shortInstruction": "Một tay vào, một tay đưa ra, tư thế bẻ cong, cắt góc, siết chặt — triangle là lực điều khiển cuối cùng của Guard.",
+  "summary": "Cuộn cảm triangle là tỷ lệ phần trăm gửi cao nhất từ ​​Closed Guard. Nó hoạt động bằng cách nhốt một trong hai cánh tay của họ vào trong chân bạn trong khi cánh tay còn lại ở bên ngoài, tạo ra 'triangle' chân của bạn quanh cổ và cánh tay của họ. Khi bạn cắt một góc (đưa hông của bạn ra xa họ), vai của họ sẽ ấn vào một bên động mạch cảnh của họ trong khi chân của bạn sẽ ép vào bên kia. Vai của đối phương trở thành một phần của nghẹt thở - đây là lý do tại sao triangle lại hiệu quả đến vậy.",
   "whyItWorks": [
     "Vai của đối phương thực hiện đòn siết cổ - cơ thể của họ được sử dụng để chống lại họ.",
     "Cắt góc (đưa hông ra xa) sẽ siết chặt cuộn cảm mà không cần phải bóp mạnh hơn.",
@@ -89,7 +89,7 @@
     "Thả ngay khi chạm vào — triangle cuộn cảm có thể khiến bạn bất tỉnh nhanh chóng."
   ],
   "systemLogic": {
-    "corePrinciple": "guard: kẹp cánh tay của họ qua cơ thể bạn → một tay vào, một tay ra → phá vỡ tư thế của họ → khóa triangle (ống chân ngang phía sau đầu gối của bạn) → cắt góc → siết chặt.",
+    "corePrinciple": "Guard: kẹp cánh tay của họ qua cơ thể bạn → một tay vào, một tay ra → phá vỡ tư thế của họ → khóa triangle (ống chân ngang phía sau đầu gối của bạn) → cắt góc → siết chặt.",
     "decisionTree": [
       {
         "condition": "Chuỗi triangle với armbar",

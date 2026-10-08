@@ -3,12 +3,12 @@
   "locale": "fr",
   "name": "Contrôle du genou sur le ventre",
   "description": "Utilisez le genou sur le ventre et la hanche éloignée pour contrôler, effectuer une transition rapide et ouvrir les soumissions. knee-on-belly est la broche la plus mobile : elle sacrifie un certain contrôle au profit de la capacité de transition plus rapide que toute autre position.",
-  "shortInstruction": "Enfoncez votre genou dans son sternum ou son plexus solaire, saisissez sa hanche ou son col éloigné et restez prêt à passer à mount, side control ou north-south. Ne les laissez pas coincer votre pied.",
-  "summary": "knee-on-belly utilise votre genou comme principal point de pression, créant un inconfort qui oblige l'adversaire à réagir, exposant des ouvertures pour des soumissions ou des transitions. La clé est la mobilité : votre pied libre et la prise de hanche éloignée vous permettent de faire le tour de l'adversaire plus rapidement qu'à partir de side control ou mount. knee-on-belly est une broche de transition, pas une position de repos.",
+  "shortInstruction": "Enfoncez votre genou dans son sternum ou son plexus solaire, saisissez sa hanche ou son col éloigné et restez prêt à passer à Mount, Side Control ou north-south. Ne les laissez pas coincer votre pied.",
+  "summary": "knee-on-belly utilise votre genou comme principal point de pression, créant un inconfort qui oblige l'adversaire à réagir, exposant des ouvertures pour des soumissions ou des transitions. La clé est la mobilité : votre pied libre et la prise de hanche éloignée vous permettent de faire le tour de l'adversaire plus rapidement qu'à partir de Side Control ou Mount. knee-on-belly est une broche de transition, pas une position de repos.",
   "whyItWorks": [
     "La pression du genou sur le sternum/plexus solaire crée un inconfort et une restriction respiratoire qui oblige l'adversaire à réagir",
     "La poignée éloignée de la hanche (ou la poignée du col) vous donne un contrôle structurel – vous pouvez les tirer vers vous tout en conduisant le genou.",
-    "Le pied libre sur le tapis offre une mobilité instantanée : vous pouvez passer à mount, side control, north-south ou au dos sans repositionner.",
+    "Le pied libre sur le tapis offre une mobilité instantanée : vous pouvez passer à Mount, Side Control, north-south ou au dos sans repositionner.",
     "knee-on-belly est la seule broche qui ne nécessite pas de contact complet avec le corps, ce qui la rend idéale pour les transitions rapides"
   ],
   "commonMistakes": [
@@ -34,15 +34,15 @@
     "S'ils s'échappent avant que vous puissiez réagir : vous êtes resté trop longtemps – engagez-vous plus tôt dans une transition"
   ],
   "systemLogic": {
-    "corePrinciple": "knee-on-belly est organisé comme un pôle de transition avec quatre branches : mount → side control → north-south → Back Take",
+    "corePrinciple": "knee-on-belly est organisé comme un pôle de transition avec quatre branches : Mount → Side Control → north-south → Back Take",
     "decisionTree": [
       {
-        "condition": "Utilisation de la branche 1 (mount)",
-        "action": "faites glisser votre genou de son ventre et enjambez son bras le plus proche jusqu'à mount. Gardez la poignée la plus éloignée pour les tirer vers vous lorsque vous entrez dans mount."
+        "condition": "Utilisation de la branche 1 (Mount)",
+        "action": "faites glisser votre genou de son ventre et enjambez son bras le plus proche jusqu'à Mount. Gardez la poignée la plus éloignée pour les tirer vers vous lorsque vous entrez dans Mount."
       },
       {
-        "condition": "Utilisation de la branche 2 (side control)",
-        "action": "déposez votre genou sur le tapis à côté de sa hanche et glissez-vous dans side control. Maintenir la pression de poitrine à poitrine"
+        "condition": "Utilisation de la branche 2 (Side Control)",
+        "action": "déposez votre genou sur le tapis à côté de sa hanche et glissez-vous dans Side Control. Maintenir la pression de poitrine à poitrine"
       },
       {
         "condition": "Utilisation de la branche 3 (north-south)",
@@ -54,12 +54,12 @@
       },
       {
         "condition": "Guide de décision",
-        "action": "s'ils restent à plat → attaque ou transition vers mount. S'ils se détournent → prenez le dos. S'ils coincent le pied → frappez librement et rétablissez"
+        "action": "s'ils restent à plat → attaque ou transition vers Mount. S'ils se détournent → prenez le dos. S'ils coincent le pied → frappez librement et rétablissez"
       }
     ]
   },
   "moneyDetails": [
-    "knee-on-belly marque 2 points dans IBJJF — c'est le moyen le plus rapide de marquer à partir de side control",
+    "knee-on-belly marque 2 points dans IBJJF — c'est le moyen le plus rapide de marquer à partir de Side Control",
     "knee-on-belly est l'épingle la plus menaçante pour les adversaires car l'inconfort immédiat les oblige à réagir de manière prévisible.",
     "Maîtriser les transitions knee-on-belly vous offre le meilleur jeu le plus mobile de BJJ"
   ],

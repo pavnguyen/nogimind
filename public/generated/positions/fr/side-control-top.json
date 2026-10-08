@@ -1,17 +1,17 @@
 {
   "id": "side-control-top",
   "locale": "fr",
-  "title": "Side control dessus",
+  "title": "Side Control dessus",
   "category": "pin",
   "status": "dominant",
-  "description": "Le joueur du dessus tient le side control avec un crossface, un underhook, un blocage des hanches et une pression d’épaule.",
+  "description": "Le joueur du dessus tient le Side Control avec un crossface, un underhook, un blocage des hanches et une pression d’épaule.",
   "topPlayerGoals": [
-    "Le joueur du dessus veut contrôler Side control dessus avec la position de tête, la position intérieure et une pression orientée.",
+    "Le joueur du dessus veut contrôler Side Control dessus avec la position de tête, la position intérieure et une pression orientée.",
     "Séparer le coude du genou et forcer le joueur du dessous à choisir de mauvaises sorties.",
     "Garder une base stable pour éviter d’être déséquilibré ou contré."
   ],
   "bottomPlayerGoals": [
-    "Le joueur du dessous veut survivre en Side control dessus avec des cadres, du pummeling ou le bon angle.",
+    "Le joueur du dessous veut survivre en Side Control dessus avec des cadres, du pummeling ou le bon angle.",
     "Récupérer les cadres, la connexion coude-genou ou un underhook avant d’être monté.",
     "Reconnaître les signaux de danger tôt au lieu d’attendre que la position se stabilise."
   ],
@@ -27,12 +27,12 @@
   ],
   "advancementOptions": [
     {
-      "action": "Avancer vers la mount ou une menace de soumission",
-      "nextPositionId": "mount-top",
+      "action": "Avancer vers la Mount ou une menace de soumission",
+      "nextPositionId": "Mount-top",
       "relatedSkillIds": [
         "side-control-pin",
         "side-control-escape",
-        "arm-triangle-mount"
+        "arm-triangle-Mount"
       ],
       "why": "C’est la branche naturelle lorsque vous gagnez le point de contrôle principal et que l’adversaire est forcé de défendre."
     }
@@ -46,7 +46,7 @@
   "relatedSkillIds": [
     "side-control-pin",
     "side-control-escape",
-    "arm-triangle-mount"
+    "arm-triangle-Mount"
   ],
   "relatedConceptIds": [
     "pressure-direction",

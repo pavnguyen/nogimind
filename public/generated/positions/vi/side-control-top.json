@@ -4,7 +4,7 @@
   "title": "Side Control Trên",
   "category": "pin",
   "status": "dominant",
-  "description": "Người ở trên giữ side control bằng crossface, underhook, hip block và shoulder pressure.",
+  "description": "Người ở trên giữ Side Control bằng crossface, underhook, hip block và shoulder pressure.",
   "topPlayerGoals": [
     "Người ở trên muốn kiểm soát Side Control Trên bằng vị trí đầu, vị trí trong và áp lực có hướng.",
     "Tách khuỷu-gối và buộc người ở dưới chọn escape kém.",
@@ -12,7 +12,7 @@
   ],
   "bottomPlayerGoals": [
     "Người ở dưới muốn sống sót trong Side Control Trên bằng khung chặn, pummel hoặc góc phù hợp.",
-    "Recover frame, kết nối khuỷu-gối hoặc underhook trước khi bị mount.",
+    "Recover frame, kết nối khuỷu-gối hoặc underhook trước khi bị Mount.",
     "Nhận diện tín hiệu nguy hiểm sớm thay vì chờ vị trí ổn định."
   ],
   "controlPoints": [
@@ -27,12 +27,12 @@
   ],
   "advancementOptions": [
     {
-      "action": "Tiến lên mount hoặc submission threat",
-      "nextPositionId": "mount-top",
+      "action": "Tiến lên Mount hoặc submission threat",
+      "nextPositionId": "Mount-top",
       "relatedSkillIds": [
         "side-control-pin",
         "side-control-escape",
-        "arm-triangle-mount"
+        "arm-triangle-Mount"
       ],
       "why": "Đây là nhánh tự nhiên khi bạn thắng điểm kiểm soát chính và đối thủ buộc phải phòng thủ."
     }
@@ -46,7 +46,7 @@
   "relatedSkillIds": [
     "side-control-pin",
     "side-control-escape",
-    "arm-triangle-mount"
+    "arm-triangle-Mount"
   ],
   "relatedConceptIds": [
     "pressure-direction",

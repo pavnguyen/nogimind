@@ -1,11 +1,11 @@
 {
-  "id": "high-wrist-guillotine",
+  "id": "high-wrist-Guillotine",
   "domain": "submission_systems",
   "level": "advanced",
   "name": "High-Wrist Guillotine",
   "aliases": [],
   "tags": [
-    "guillotine",
+    "Guillotine",
     "front-headlock",
     "neck-safety",
     "tier:modern-expansion",
@@ -16,14 +16,14 @@
     "modern-no-gi"
   ],
   "keywords": [
-    "guillotine",
+    "Guillotine",
     "chin strap",
     "neck safety"
   ],
   "modernSystemGroup": "front_headlock",
   "relatedSkills": [
     {
-      "id": "guillotine-system",
+      "id": "Guillotine-system",
       "type": "recommended"
     },
     {
@@ -36,7 +36,7 @@
     }
   ],
   "prerequisiteSkillIds": [
-    "guillotine-system",
+    "Guillotine-system",
     "front-headlock-defense"
   ],
   "relatedPositions": [],

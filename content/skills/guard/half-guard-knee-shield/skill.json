@@ -1,12 +1,12 @@
 {
-  "id": "half-guard-knee-shield",
+  "id": "half-Guard-knee-shield",
   "domain": "guard_retention",
   "level": "beginner",
   "name": "Half Guard Knee Shield",
   "aliases": [],
   "tags": [
-    "half-guard",
-    "guard"
+    "half-Guard",
+    "Guard"
   ],
   "keywords": [
     "knee shield",
@@ -16,7 +16,7 @@
   ],
   "relatedSkills": [
     {
-      "id": "half-guard-wrestle-up",
+      "id": "half-Guard-wrestle-up",
       "type": "recommended"
     },
     {
@@ -29,7 +29,7 @@
     }
   ],
   "prerequisiteSkillIds": [
-    "supine-guard-retention"
+    "supine-Guard-retention"
   ],
   "relatedPositions": [],
   "relatedConcepts": [],

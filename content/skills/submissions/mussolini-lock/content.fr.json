@@ -1,0 +1,113 @@
+{
+  "id": "mussolini-lock",
+  "locale": "fr",
+  "name": "Mussolini Lock / Clé de tibia Cross-Achilles",
+  "description": "Le Mussolini Lock est une clé de tibia dite cross-Achilles, appliquée depuis l'enchevêtrement de jambes 50/50. Au lieu de vriller le pied pour exposer le talon, vous amenez le pied adverse par-dessus votre axe, croisez vos jambes sur son tendon d'Achille et posez le bord osseux de votre avant-bras sur le bas du tibia, ancrez sa cheville contre votre corps, puis faites tourner votre tronc pour cisailler le tibia contre la cheville. Elle est disponible dès que le pied adverse traverse votre corps — le plus souvent depuis le 50/50 ou le 90/10 — et elle fonctionne encore quand l'adversaire défend une clé de cheville classique en raidissant le pied en forme de 'botte'.",
+  "shortInstruction": "Depuis le 50/50, amenez son pied par-dessus votre axe, croisez vos jambes sur son tendon d'Achille et posez le bord osseux de votre avant-bras sur le bas du tibia, ancrez la cheville contre vous, puis faites tourner votre tronc pour cisailler le tibia contre la cheville.",
+  "summary": "Le Mussolini Lock est une clé de tibia cross-Achilles depuis l'enchevêtrement 50/50. Elle attaque le tibia et la cheville plutôt que le talon : elle fonctionne donc dans le blocage des pieds croisés et survit à la défense en 'botte'. Elle s'enchaîne directement vers les clés de talon, les prises de dos et les clés de genou.",
+  "whyItWorks": [
+    "Elle cisaillé le tibia et la cheville au lieu de faire tourner le talon — aucune exposition nette du talon n'est nécessaire, elle est donc disponible dans le blocage des pieds croisés en 50/50 où les clés de talon s'enlisent",
+    "Concentrer le bord osseux de l'avant-bras sur le bas du tibia et le tendon d'Achille crée une pression de cisaillement que la cheville ne peut pas tolérer",
+    "Elle exige seulement que la cheville repose contre le côté de votre corps — contrairement au Woj Lock, pas besoin de faire glisser le talon sur les côtes — elle est donc disponible plus tôt et depuis davantage d'enchevêtrements",
+    "La défense classique de la clé de cheville, raidir le pied en 'botte', ne la neutralise pas, car la pression porte sur le tibia et non sur un pied en levier",
+    "Quand l'adversaire défend la clé, sa réaction expose le talon ou le dos : la clé de tibia alimente donc le reste du système de clés de jambes"
+  ],
+  "commonMistakes": [
+    "La finir comme une clé de cheville — vriller le pied au lieu de cisailler le tibia ; si vous cherchez le talon, vous faites la mauvaise technique",
+    "Poser la pression trop bas sur le pied au lieu de placer le bord osseux haut sur le bas du tibia et le tendon d'Achille",
+    "Laisser l'adversaire retirer le pied croisé avant que votre ancrage soit posé — la clé n'existe que tant que son pied traverse votre corps",
+    "Perdre le cross-ashi (votre ligne de genou derrière sa cuisse), ce qui lui permet de faire tourner son genou et de dégager l'enchevêtrement",
+    "La transformer en lutte de force au lieu d'utiliser la rotation du bassin et du tronc pour fermer l'angle"
+  ],
+  "coachingCues": [
+    "De l'os sur le tibia, pas sur le talon",
+    "La cheville repose sur le corps — inutile d'aller chercher les côtes",
+    "Cross-Achilles d'abord, puis rotation du tronc",
+    "Si son pied quitte votre axe, la clé disparaît",
+    "Cisaillement lent, pas une vrille du pied"
+  ],
+  "safetySummary": [
+    "Le Mussolini Lock cisaillé le tibia et la cheville et peut blesser l'articulation de la cheville, le tibia, la fibula et le tendon d'Achille. Appliquez lentement et tapez tôt.",
+    "N'appliquez jamais de clés de jambe en rotation ou en cisaillement à vitesse réelle ; travaillez avec un partenaire qualifié et une résistance contrôlée",
+    "Relâchez immédiatement au signal — ne forcez pas à travers un pied raidit",
+    "Si un partenaire a une blessure à la cheville ou au bas de la jambe, évitez complètement cet enchevêtrement"
+  ],
+  "keyCorrections": [
+    "Si la défense en 'botte' tient : votre ancrage est trop bas — replacez le bord osseux plus haut sur le tibia",
+    "S'il retire le pied : votre cross-ashi est lâche — refermez votre ligne de genou derrière sa cuisse avant de réancrer",
+    "S'il se relève : suivez-le et prenez le dos — ne poursuivez pas la clé depuis un angle mort"
+  ],
+  "systemLogic": {
+    "corePrinciple": "Mussolini Lock : entrer en 50/50 ou 90/10 → amener son pied par-dessus votre axe → croiser vos jambes sur son tendon d'Achille et poser le bord osseux de votre avant-bras sur le bas du tibia → ancrer sa cheville contre votre corps → faire tourner bassin et tronc à travers la ligne du tibia pour le cisailler contre la cheville. Elle se termine sans exposition du talon et survit à la défense en 'botte' car elle attaque le tibia, pas un pied en levier.",
+    "decisionTree": [
+      {
+        "condition": "Vous êtes en 50/50, pieds croisés, sans exposition du talon",
+        "action": "attaquez la clé de tibia cross-Achilles au lieu de lutter pour le talon"
+      },
+      {
+        "condition": "Il raidit le pied en 'botte' pour défendre",
+        "action": "continuez — la clé attaque le tibia, la 'botte' ne le sauve pas"
+      },
+      {
+        "condition": "Il retire le pied de votre axe",
+        "action": "refermez votre ligne de genou et rentrez à nouveau ; la clé exige que son pied traverse votre corps"
+      },
+      {
+        "condition": "Il se détourne ou se relève pour échapper",
+        "action": "relâchez la clé de tibia et prenez le dos ou attaquez le talon exposé"
+      },
+      {
+        "condition": "la prise lâche ou votre main ne rentre pas",
+        "action": "poussez sa ligne de genou plus loin à travers, puis réancrez — ne forcez pas depuis un angle trop court"
+      }
+    ],
+    "exitStrategies": [
+      "Quand la clé de tibia s'enlise, passez à la clé de talon que sa défense expose",
+      "Quand il se relève ou se détourne, suivez vers la prise de dos ou rentrez dans la selle",
+      "Quand vous perdez le cross-ashi, réinitialisez le contrôle 50/50 avant de réattaquer"
+    ]
+  },
+  "moneyDetails": [
+    "Le Mussolini Lock est une clé de tibia cross-Achilles : le bord osseux de l'avant-bras repose sur le bas du tibia et la finition est un cisaillement, pas une vrille du pied",
+    "C'est l'attaque qui rend dangereux le blocage des pieds croisés en 50/50 — elle n'a pas besoin du talon",
+    "Nommée par Daniel « The Manchild » Schuardt, qui a terminé plusieurs adversaires avec elle sur la route du bronze à l'ADCC 2026",
+    "La défense en 'botte' qui sauve une clé de cheville classique ne l'arrête pas, car la pression porte sur le tibia",
+    "Associez-la aux clés de talon et aux prises de dos : le rôle de la clé de tibia est de provoquer une réaction à attaquer"
+  ],
+  "fixItFast": [
+    "Si la défense en 'botte' tient : replacez le bord osseux plus haut sur le tibia — vous êtes trop près du pied",
+    "S'il retire le pied : refermez votre ligne de genou derrière sa cuisse et rentrez à nouveau",
+    "S'il se relève : cessez de poursuivre la clé et prenez le dos",
+    "Si votre main ne rentre pas : poussez sa ligne de genou plus loin à travers avant d'ancrer"
+  ],
+  "microDetailSystem": {
+    "overview": "Cinq repères mécaniques pour la clé de tibia cross-Achilles : conserver l'entrée pied croisé, contrôler la ligne de genou, placer l'avant-bras sur le bas du tibia, ancrer la cheville et produire un cisaillement lent avec le tronc.",
+    "topFiveDetails": [
+      {"id":"mussolini-foot-crosses-centerline","category":"foot","title":"Le pied traverse votre axe","shortInstruction":"Gardez sa cheville de l'autre côté de votre torse avant de construire la clé.","side":"center","direction":"expose","bodyParts":["ankle","hips","legs"],"whenToUse":"À l'entrée depuis le 50/50 ou le 90/10.","whyItWorks":"Le pied croisé donne l'angle pour enrouler l'Achille et maintient le tibia devant votre torse.","commonMistake":"Former la clé alors que son pied reste à l'extérieur de votre hanche.","correctionCue":"Faites d'abord passer la cheville ; ne l'attrapez pas à travers un grand espace.","liveCue":"Pied en travers, puis connexion.","safetyNote":"Ne tordez pas la cheville en repositionnant le pied."},
+      {"id":"mussolini-knee-line-retention","category":"knee","title":"Gardez sa ligne de genou capturée","shortInstruction":"Gardez votre genou d'enchevêtrement derrière sa cuisse pour empêcher le retrait libre de la jambe.","side":"near","direction":"pin_in","bodyParts":["knees","thighs","hips"],"whenToUse":"Avant de poser l'avant-bras et pendant toute la finition.","whyItWorks":"Le contrôle de la ligne de genou limite sa capacité à tourner ou retirer la jambe hors de l'angle.","commonMistake":"Se concentrer sur le pied pendant que la ligne de genou s'ouvre.","correctionCue":"Refermez le genou derrière sa cuisse avant de reprendre la prise.","liveCue":"Ligne de genou fermée.","safetyNote":"S'il dégage la ligne de genou, relâchez la pression et réinitialisez au lieu de tordre contre sa sortie."},
+      {"id":"mussolini-forearm-on-lower-shin","category":"pressure","title":"L'os de l'avant-bras sur le bas du tibia","shortInstruction":"Placez le bord osseux de l'avant-bras en travers du bas du tibia/de l'Achille, pas sur les orteils ou le talon.","side":"inside","direction":"wedge","bodyParts":["forearms","shins","ankles"],"whenToUse":"Une fois le pied en travers et la jambe contenue.","whyItWorks":"Un contact haut sur le tibia crée la ligne de cisaillement cross-Achilles ; un contact bas sur le pied devient une faible torsion de cheville.","commonMistake":"Laisser le contact glisser sur le pied.","correctionCue":"Reposez l'avant-bras sur le bas du tibia avant d'appliquer la pression.","liveCue":"Os de l'avant-bras sur le tibia.","safetyNote":"Augmentez progressivement et arrêtez immédiatement au tap."},
+      {"id":"mussolini-ankle-body-anchor","category":"grip","title":"Ancrez la cheville contre le torse","shortInstruction":"Gardez sa cheville contre le côté du corps sans tirer le talon jusqu'aux côtes.","side":"near","direction":"clamp","bodyParts":["ankles","hips","ribs"],"whenToUse":"Après avoir établi le contact avant-bras-tibia.","whyItWorks":"L'ancrage au corps retire le jeu et empêche le pied de dériver pendant le cisaillement du tibia.","commonMistake":"Laisser un espace entre la cheville et le torse ou tirer excessivement le pied vers les côtes.","correctionCue":"Fermez l'espace avec la hanche et le torse ; soutenez la cheville.","liveCue":"Cheville contre le corps, sans jeu.","safetyNote":"Évitez de comprimer ou tordre la cheville pendant la mise en place."},
+      {"id":"mussolini-torso-shear-finish","category":"finish","title":"Tournez le torse pour cisailler","shortInstruction":"Une fois la jambe contrôlée, faites tourner le torse et les hanches ensemble à travers la ligne du tibia ; augmentez la pression lentement.","side":"either","direction":"rotate_diagonal","bodyParts":["hips","spine","shins","ankles"],"whenToUse":"Seulement après avoir sécurisé le pied, la ligne de genou, le contact d'avant-bras et l'ancrage de cheville.","whyItWorks":"La rotation de tout le corps produit un cisaillement contrôlé du tibia au lieu de compter sur une torsion brusque du pied.","commonMistake":"Tirer fort avec les bras ou tourner brutalement avant d'avoir le contrôle.","correctionCue":"Retirez le jeu, vérifiez la ligne de genou, puis tournez sur un petit arc progressif.","liveCue":"Contrôle d'abord ; rotation lente du torse.","safetyNote":"Clé de jambe à risque élevé : travaillez lentement, tapez tôt et relâchez immédiatement."}
+    ],
+    "troubleshootingTips": [
+      {"problem":"La défense en botte bloque la finition.","quickFix":"Vérifiez que l'avant-bras porte sur le bas du tibia et non trop bas sur le pied.","cue":"Os sur le tibia."},
+      {"problem":"L'adversaire retire la jambe.","quickFix":"Refermez la ligne de genou derrière sa cuisse avant de réancrer la cheville.","cue":"Gardez la ligne de genou."},
+      {"problem":"Vous devez utiliser la force des bras.","quickFix":"Rétablissez l'ancrage au corps et faites une petite rotation du torse au lieu de tirer le pied.","cue":"Ancrez, puis tournez."}
+    ],
+    "doNotDo": ["Ne tirez pas, ne rebondissez pas et ne tordez pas la cheville ou le tibia de façon explosive.","Ne poursuivez pas la finition après avoir perdu la ligne de genou ou après le tap du partenaire."],
+    "safetyNotes": ["Travaillez sous supervision qualifiée, avec résistance contrôlée et signal de tap clair.","Relâchez immédiatement au tap ou à toute douleur soudaine ; ne testez pas la clé à vitesse réelle."]
+  },
+  "qualityChecklist": {
+    "type":"submission",
+    "overview":"Avant d'appliquer la clé de tibia, confirmez l'entrée, le contrôle de la ligne de genou, le contact de l'avant-bras et une finition sûre. Un 'oui' doit correspondre à un repère observable, pas à une supposition.",
+    "checks":[
+      {"id":"mussolini-ready-crossed-foot","title":"Pied en travers","question":"La cheville adverse traverse-t-elle clairement votre axe et reste-t-elle connectée à votre torse ?","successSignal":"La cheville reste de l'autre côté du corps sans portée ni espace.","failureSignal":"Le pied est à l'extérieur de votre hanche ou peut se retirer librement.","quickFix":"Rétablissez l'angle 50/50 et faites passer le pied avant de saisir.","bodyParts":["ankles","hips"],"relatedMicroDetailIds":["mussolini-foot-crosses-centerline"],"severity":"major"},
+      {"id":"mussolini-ready-knee-line","title":"Ligne de genou contenue","question":"Votre genou d'enchevêtrement est-il encore derrière sa cuisse, empêchant une rotation libre ?","successSignal":"Il ne peut retirer le genou sans d'abord dégager votre contrôle de jambe.","failureSignal":"Sa ligne de genou est déjà dégagée ou s'ouvre pour tourner.","quickFix":"Relâchez la pression de finition et refermez la ligne de genou avant de réattaquer.","bodyParts":["knees","thighs"],"relatedMicroDetailIds":["mussolini-knee-line-retention"],"severity":"critical"},
+      {"id":"mussolini-ready-shin-contact","title":"Contact correct sur le tibia","question":"Le bord osseux de l'avant-bras porte-t-il sur le bas du tibia/de l'Achille au lieu de tordre le pied ?","successSignal":"Le contact est visiblement sur le bas du tibia et la cheville est soutenue.","failureSignal":"La prise est basse sur le pied ou dépend de la flexion des orteils.","quickFix":"Replacez l'avant-bras sur le tibia et retirez le jeu avant d'appliquer la force.","bodyParts":["forearms","shins","ankles"],"relatedMicroDetailIds":["mussolini-forearm-on-lower-shin","mussolini-ankle-body-anchor"],"severity":"critical"},
+      {"id":"mussolini-ready-controlled-finish","title":"Finition contrôlée","question":"Pouvez-vous produire lentement un petit cisaillement du torse et relâcher immédiatement au tap ?","successSignal":"La position est stable et le mouvement est lent et contrôlable.","failureSignal":"Il faut tourner brutalement ou la communication/le relâchement n'est pas clair.","quickFix":"Arrêtez la finition, revenez à une position sûre et convenez du signal de tap avant de reprendre.","bodyParts":["hips","spine","ankles"],"relatedMicroDetailIds":["mussolini-torso-shear-finish"],"severity":"critical"}
+    ],
+    "passThreshold":3,
+    "ifPassed":"Prêt pour un travail positionnel contrôlé ; augmentez progressivement la résistance et relâchez immédiatement au tap.",
+    "ifFailed":"Ne finissez pas encore. Réinitialisez l'entrée et les contrôles ; tout échec critique de sécurité impose un arrêt et une correction avant d'appliquer la pression."
+  }
+}

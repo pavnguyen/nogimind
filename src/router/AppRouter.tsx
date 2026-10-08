@@ -1,5 +1,5 @@
 import { Suspense } from 'react'
-import { BrowserRouter, Route, Routes, useLocation } from 'react-router-dom'
+import { BrowserRouter, Navigate, Route, Routes, useLocation } from 'react-router-dom'
 import { useEffect } from 'react'
 import { useTranslation } from 'react-i18next'
 import { Layout } from '../components/layout/Layout'
@@ -14,7 +14,6 @@ import {
   DashboardPage,
   DefenseDetailPage,
   DefensePage,
-  FixHubPage,
   GlossaryPage,
   LearnPage,
   NotFoundPage,
@@ -26,8 +25,6 @@ import {
   SkillDetailPage,
   SkillMapPage,
   StudyPage,
-  SubmissionTroubleshooterDetailPage,
-  SubmissionTroubleshootersPage,
 } from './routes'
 
 const Fallback = () => {
@@ -54,12 +51,11 @@ export const AppRouter = () => (
           <Route path="/learn" element={<LearnPage />} />
           <Route path="/study" element={<StudyPage />} />
           <Route path="/build" element={<BuildHubPage />} />
-          <Route path="/fix" element={<FixHubPage />} />
+          <Route path="/fix" element={<Navigate to="/defense" replace />} />
           <Route path="/reference" element={<ReferencePage />} />
           <Route path="/skills" element={<SkillMapPage />} />
           <Route path="/skills/:skillId" element={<SkillDetailPage />} />
-          <Route path="/troubleshooters" element={<SubmissionTroubleshootersPage />} />
-          <Route path="/troubleshooters/:skillId" element={<SubmissionTroubleshooterDetailPage />} />
+          <Route path="/troubleshooters/*" element={<Navigate to="/defense" replace />} />
           <Route path="/concepts" element={<ConceptsPage />} />
           <Route path="/concepts/:conceptId" element={<ConceptDetailPage />} />
           <Route path="/positions" element={<PositionsPage />} />
@@ -70,7 +66,7 @@ export const AppRouter = () => (
           <Route path="/archetypes/:archetypeId" element={<ArchetypeDetailPage />} />
           <Route path="/glossary" element={<GlossaryPage />} />
           <Route path="/search" element={<SearchPage />} />
-          <Route path="/philosophy" element={<AboutPage />} />
+          <Route path="/philosophy" element={<Navigate to="/about" replace />} />
           <Route path="/about" element={<AboutPage />} />
           <Route path="/settings" element={<SettingsPage />} />
           <Route path="*" element={<NotFoundPage />} />

@@ -25,7 +25,7 @@
       "type": "recommended"
     },
     {
-      "id": "mount-survival",
+      "id": "Mount-survival",
       "type": "recommended"
     }
   ],
@@ -56,9 +56,9 @@
     "hasStateMachine": false
   },
   "locale": "en",
-  "description": "Preserve breathing, frames, and inside lanes under crossface and underhook pressure in side control. Survival is the first priority before attempting any escape.",
+  "description": "Preserve breathing, frames, and inside lanes under crossface and underhook pressure in Side Control. Survival is the first priority before attempting any escape.",
   "shortInstruction": "Keep elbows glued to ribs, frame on the hip (not chest), breathe through the nose, and never turn your back. Survive first, escape second.",
-  "summary": "Side control survival is the art of absorbing pressure without panic while maintaining the structural integrity needed for an escape. The priority order is: protect the near arm (elbow to ribs), protect the neck (chin tucked, head turned toward mat under crossface), and manage breathing. A surviving bottom player is calm, frames correctly, and waits for the right moment to initiate the escape sequence.",
+  "summary": "Side Control survival is the art of absorbing pressure without panic while maintaining the structural integrity needed for an escape. The priority order is: protect the near arm (elbow to ribs), protect the neck (chin tucked, head turned toward mat under crossface), and manage breathing. A surviving bottom player is calm, frames correctly, and waits for the right moment to initiate the escape sequence.",
   "whyItWorks": [
     "Keeping your near elbow pinned to your ribs prevents the opponent from isolating your arm for an americana or kimura attack",
     "A forearm frame across the hip line uses bone structure (not muscle) to hold the opponent's weight off your torso — bone does not fatigue like muscle",
@@ -78,13 +78,13 @@
     "Survive first, escape second"
   ],
   "safetySummary": [
-    "Side control is one of the most claustrophobic positions in BJJ — feeling panic is normal, but manage it with controlled breathing rather than explosive movement",
+    "Side Control is one of the most claustrophobic positions in BJJ — feeling panic is normal, but manage it with controlled breathing rather than explosive movement",
     "If you feel rib pain from pressure, frame immediately and create space rather than trying to bench press the opponent off",
-    "Exposing your back under side control pressure can lead to rear-naked choke entries or spine attacks",
+    "Exposing your back under Side Control pressure can lead to rear-naked choke entries or spine attacks",
     "If the opponent isolates your near arm for an americana or kimura, tap early rather than risking shoulder or elbow damage"
   ],
   "systemLogic": {
-    "corePrinciple": "Side control survival follows a five-layer hierarchy: protect the near arm → establish hip frame → protect the neck → manage breathing → wait for escape opportunity. Never attempt an escape before establishing all survival layers.",
+    "corePrinciple": "Side Control survival follows a five-layer hierarchy: protect the near arm → establish hip frame → protect the neck → manage breathing → wait for escape opportunity. Never attempt an escape before establishing all survival layers.",
     "decisionTree": [
       {
         "condition": "Opponent pulls your near arm away from your ribs",
@@ -114,7 +114,7 @@
     ]
   },
   "moneyDetails": [
-    "Side control survival is the most frequently used skill in BJJ — every grappler spends time under side control in every training session",
+    "Side Control survival is the most frequently used skill in BJJ — every grappler spends time under Side Control in every training session",
     "Mastering survival before escape prevents the most common injury in BJJ: shoulder damage from forcing arm attacks under pressure",
     "A calm, structured survival approach preserves energy and allows you to escape multiple times per round without gassing",
     "The ability to survive under heavy pressure separates intermediate from advanced grapplers"

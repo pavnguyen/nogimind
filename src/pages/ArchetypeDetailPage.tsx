@@ -72,22 +72,6 @@ export default function ArchetypeDetailPage() {
         <ListCard title={t('archetypes.trainingPriorities')} items={getLocalizedArray(archetype.trainingPriorities, language)} />
       </div>
 
-      <SectionCard title={t('archetypes.ifThenStrategy')}>
-        <div className="grid gap-3 xl:grid-cols-3">
-          {archetype.ifThenStrategy.map((strategy, index) => (
-            <article key={`${archetype.id}-strategy-${index}`} className="rounded-lg border border-white/10 bg-slate-900/60 p-4">
-              <p className="text-xs font-semibold uppercase tracking-wide hallmark-text-caution">{t('ifThen.if')}</p>
-              <p className="mt-1 text-sm leading-6 text-slate-200">{getLocalizedText(strategy.if, language)}</p>
-              <p className="mt-3 text-xs font-semibold uppercase tracking-wide hallmark-text-positive">{t('ifThen.then')}</p>
-              <p className="mt-1 text-sm leading-6 text-slate-200">{getLocalizedText(strategy.then, language)}</p>
-              <p className="mt-3 text-xs font-semibold uppercase tracking-wide text-slate-500">{t('ifThen.why')}</p>
-              <p className="mt-1 text-sm leading-6 text-slate-400">{getLocalizedText(strategy.why, language)}</p>
-              <SkillLinks ids={strategy.skillIds} skillsById={skillsById} className="mt-3" />
-            </article>
-          ))}
-        </div>
-      </SectionCard>
-
     </PageShell>
   )
 }

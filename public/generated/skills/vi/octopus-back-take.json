@@ -3,7 +3,7 @@
   "domain": "back_control",
   "level": "advanced",
   "status": "draft",
-  "name": "Bạch tuộc trở lại",
+  "name": "Octopus trở lại",
   "aliases": [],
   "tags": [
     "octopus",
@@ -24,7 +24,7 @@
   "modernSystemGroup": "octopus",
   "relatedSkills": [
     {
-      "id": "octopus-guard-sweep",
+      "id": "octopus-Guard-sweep",
       "type": "recommended"
     },
     {
@@ -44,7 +44,7 @@
   "archetypeIds": [],
   "relatedArchetypeIds": [],
   "prerequisiteSkillIds": [
-    "octopus-guard-control",
+    "octopus-Guard-control",
     "back-control"
   ],
   "trainingMethodIds": [],
@@ -67,12 +67,12 @@
     "hasStateMachine": false
   },
   "locale": "vi",
-  "description": "Sử dụng góc hông con bạch tuộc guard để lộ lưng khi đối thủ chống lại cú quét — chuyển từ một cú quét thất bại sang back control.",
+  "description": "Sử dụng góc hông con Octopus Guard để lộ lưng khi đối thủ chống lại cú quét — chuyển từ một cú quét thất bại sang back control.",
   "shortInstruction": "Họ đăng bài chống lại cuộc càn quét? Xoay phía dưới và lùi lại - phòng thủ của họ trở thành mục tiêu của bạn.",
-  "summary": "Lượt quay lại của bạch tuộc là tỷ lệ phần trăm theo dõi cao nhất sau đợt quét guard của bạch tuộc. Khi bạn cố gắng quét bạch tuộc (kéo hông xa của chúng ngang qua cơ thể bạn), nhiều đối thủ sẽ phản ứng bằng cách đưa tay hoặc bước tới để phòng thủ. Phản ứng này tạo ra góc chính xác mà bạn cần để xoay dưới cánh tay của họ, vòng ra phía sau họ và lấy lưng. Cú đánh lùi của bạch tuộc biến một pha quét phòng thủ thành vị trí chiếm ưu thế nhất trong BJJ.",
+  "summary": "Lượt quay lại của Octopus là tỷ lệ phần trăm theo dõi cao nhất sau đợt quét Guard của Octopus. Khi bạn cố gắng quét Octopus (kéo hông xa của chúng ngang qua cơ thể bạn), nhiều đối thủ sẽ phản ứng bằng cách đưa tay hoặc bước tới để phòng thủ. Phản ứng này tạo ra góc chính xác mà bạn cần để xoay dưới cánh tay của họ, vòng ra phía sau họ và lấy lưng. Cú đánh lùi của Octopus biến một pha quét phòng thủ thành vị trí chiếm ưu thế nhất trong BJJ.",
   "whyItWorks": [
     "Khi họ đăng một ván bài để bảo vệ cú quét, cánh tay đó sẽ được cam kết và không thể chặn mục nhập quay của bạn.",
-    "Con bạch tuộc guard đã cho bạn một góc hoàn hảo để quay lại — bạn đã ngồi về phía chúng.",
+    "Con Octopus Guard đã cho bạn một góc hoàn hảo để quay lại — bạn đã ngồi về phía chúng.",
     "Vòng quấn hông xa mang lại cho bạn điểm xoay để quay - bạn xoay quanh trọng tâm của chúng.",
     "Nguyên tắc Danaher: quét và lùi tạo thành một tình thế tiến thoái lưỡng nan - phòng thủ quét, thua sau; phòng thủ phía sau, mất khả năng quét."
   ],
@@ -94,10 +94,10 @@
     "Khi tiếp đất bằng lưng, hãy bảo vệ đầu gối của bạn khỏi tiếp đất một cách vụng về."
   ],
   "systemLogic": {
-    "corePrinciple": "Bạch tuộc guard: nỗ lực quét → trụ của đối thủ → xoay dưới cánh tay của họ → lùi lại → seatbelt → móc → tấn công.",
+    "corePrinciple": "Octopus Guard: nỗ lực quét → trụ của đối thủ → xoay dưới cánh tay của họ → lùi lại → seatbelt → móc → tấn công.",
     "decisionTree": [
       {
-        "condition": "Con bạch tuộc quay lại thực hiện công việc theo một động tác: quét bài",
+        "condition": "Con Octopus quay lại thực hiện công việc theo một động tác: quét bài",
         "action": "quay → quay lại."
       },
       {
@@ -113,7 +113,7 @@
     "Khi bạn quay, hãy nhả điều khiển chân và thiết lập lại bằng móc của bạn phía sau đùi họ.",
     "Khi đã ở phía sau, hãy khóa seatbelt ngay lập tức — seatbelt trước khi móc."
   ],
-  "nextStep": "Sau khi bạch tuộc quay trở lại, hãy tìm hiểu back control và hệ thống tấn công sau.",
+  "nextStep": "Sau khi Octopus quay trở lại, hãy tìm hiểu back control và hệ thống tấn công sau.",
   "fixItFast": [
     "Không thể quay dưới? Vòng quấn hông ở xa của bạn quá lỏng - hãy thắt chặt lại.",
     "Họ đối mặt với bạn? Xoay chặt hơn vào cơ thể họ - đường đi của bạn quá rộng.",

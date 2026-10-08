@@ -59,7 +59,7 @@ export default function DefensePage() {
                 <Shield className="h-6 w-6 text-slate-950" aria-hidden="true" />
               </div>
               <div>
-                <Badge tone="amber" className="text-[10px] uppercase tracking-widest">{t('nav.fix')}</Badge>
+                <Badge tone="amber" className="text-[10px] uppercase tracking-widest">{t('nav.defense')}</Badge>
                 <h1 className="mt-1 display-heading text-2xl font-extrabold text-white lg:text-3xl">{t('defense.heading')}</h1>
                 <p className="mt-1 text-sm text-slate-400">{t('defense.subtitle')}</p>
               </div>

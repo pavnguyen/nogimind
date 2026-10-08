@@ -18,14 +18,18 @@ import { Badge } from '../components/common/Badge'
 import { EmptyState } from '../components/common/EmptyState'
 import { PageShell } from '../components/common/PageShell'
 import { useSkillsQuery } from '../queries/skillQueries'
+import { useManifestQuery } from '../queries/contentQueries'
 import { useSettingsStore } from '../stores/useSettingsStore'
 import { useRecentlyViewedStore } from '../stores/useRecentlyViewedStore'
 import type { SkillDomain } from '../types/skill'
-import { getLocalizedText, getLocalizedArray } from '../utils/localization'
+import { getLocalizedText } from '../utils/localization'
 import { cn } from '../utils/cn'
 
-const studyDomains: Array<{ id: SkillDomain; key: string; tone: 'emerald' | 'cyan' | 'amber' | 'rose' | 'slate' }> = [
-  { id: 'guard_retention', key: 'guard', tone: 'cyan' },
+type DomainTone = 'emerald' | 'cyan' | 'amber' | 'rose' | 'slate'
+
+/** Domains in learning order: where you are → where you attack → where you finish → how you recover. */
+const studyDomains: Array<{ id: SkillDomain; key: string; tone: DomainTone }> = [
+  { id: 'guard_retention', key: 'guardRetention', tone: 'cyan' },
   { id: 'guard_offense', key: 'guardOffense', tone: 'cyan' },
   { id: 'passing', key: 'passing', tone: 'emerald' },
   { id: 'pins_rides', key: 'pins', tone: 'slate' },
@@ -35,6 +39,32 @@ const studyDomains: Array<{ id: SkillDomain; key: string; tone: 'emerald' | 'cya
   { id: 'escapes', key: 'escapes', tone: 'cyan' },
 ]
 
+const toneActive: Record<DomainTone, string> = {
+  cyan: 'border-cyan-400/30 bg-cyan-400/10 text-cyan-50 shadow-[0_0_15px_rgba(34,211,238,0.05)]',
+  emerald: 'border-emerald-400/30 bg-emerald-400/10 text-emerald-50 shadow-[0_0_15px_rgba(52,211,153,0.05)]',
+  amber: 'border-amber-400/30 bg-amber-400/10 text-amber-50 shadow-[0_0_15px_rgba(251,191,36,0.05)]',
+  rose: 'border-rose-400/30 bg-rose-400/10 text-rose-50 shadow-[0_0_15px_rgba(244,63,94,0.05)]',
+  slate: 'border-slate-400/30 bg-slate-400/10 text-slate-50 shadow-[0_0_15px_rgba(148,163,184,0.05)]',
+}
+
+const toneCount: Record<DomainTone, string> = {
+  cyan: 'bg-cyan-400/20 text-cyan-300',
+  emerald: 'bg-emerald-400/20 text-emerald-300',
+  amber: 'bg-amber-400/20 text-amber-300',
+  rose: 'bg-rose-400/20 text-rose-300',
+  slate: 'bg-slate-400/20 text-slate-300',
+}
+
+const toneDot: Record<DomainTone, string> = {
+  cyan: 'bg-cyan-400',
+  emerald: 'bg-emerald-400',
+  amber: 'bg-amber-400',
+  rose: 'bg-rose-400',
+  slate: 'bg-slate-400',
+}
+
+type ContentFlags = { hasChecklist: boolean; hasMicroDetails: boolean; hasVideos: boolean }
+
 export default function StudyPage() {
   const { t } = useTranslation()
   const lang = useSettingsStore((state) => state.language)
@@ -42,13 +72,18 @@ export default function StudyPage() {
   const [searchParams, setSearchParams] = useSearchParams()
   const skillsQuery = useSkillsQuery()
   const skills = useMemo(() => skillsQuery.data ?? [], [skillsQuery.data])
+  const manifestQuery = useManifestQuery(lang)
   const { recentlyViewed, recordView } = useRecentlyViewedStore()
   const [expandedSkills, setExpandedSkills] = useState<Set<string>>(new Set())
   const [quickStudyMode, setQuickStudyMode] = useState(false)
   const [recentOnly, setRecentOnly] = useState(false)
   const [now] = useState(() => Date.now())
 
-  const active = (searchParams.get('domain') || studyDomains[0].id) as SkillDomain
+  const domainParam = searchParams.get('domain')
+  const activeDomain = studyDomains.find((domain) => domain.id === domainParam) ?? studyDomains[0]
+  const active = activeDomain.id
+  const domainTone = activeDomain.tone
+  const domainColor = toneActive[domainTone]
 
   const skillsByDomain = useMemo(
     () =>
@@ -58,6 +93,20 @@ export default function StudyPage() {
       }, {}),
     [skills],
   )
+
+  // Real content flags come from the generated manifest — SkillNode only carries
+  // lightweight summary data, so use hasChecklist/hasMicroDetails/hasVideos.
+  const contentFlags = useMemo(() => {
+    const map = new Map<string, ContentFlags>()
+    for (const entry of manifestQuery.data ?? []) {
+      map.set(entry.id, {
+        hasChecklist: entry.hasChecklist,
+        hasMicroDetails: entry.hasMicroDetails,
+        hasVideos: entry.hasVideos,
+      })
+    }
+    return map
+  }, [manifestQuery.data])
 
   const recentlyViewedIds = useMemo(
     () => new Set(recentlyViewed.map((e) => e.skillId)),
@@ -116,27 +165,11 @@ export default function StudyPage() {
     return t('studyPage.daysAgo', { count: days })
   }
 
-  // Get top-level color based on active domain
-  const getDomainColor = () => {
-    const domain = studyDomains.find((d) => d.id === active)
-    const colors = {
-      cyan: 'border-cyan-400/30 bg-cyan-400/10 text-cyan-50 shadow-[0_0_15px_rgba(34,211,238,0.05)]',
-      emerald: 'border-emerald-400/30 bg-emerald-400/10 text-emerald-50 shadow-[0_0_15px_rgba(52,211,153,0.05)]',
-      amber: 'border-amber-400/30 bg-amber-400/10 text-amber-50 shadow-[0_0_15px_rgba(251,191,36,0.05)]',
-      rose: 'border-rose-400/30 bg-rose-400/10 text-rose-50 shadow-[0_0_15px_rgba(244,63,94,0.05)]',
-      slate: 'border-slate-400/30 bg-slate-400/10 text-slate-50 shadow-[0_0_15px_rgba(148,163,184,0.05)]',
-    }
-    return colors[domain?.tone ?? 'emerald']
-  }
-
-  const domainColor = getDomainColor()
-  const domainTone = studyDomains.find((d) => d.id === active)?.tone ?? 'emerald'
-
   return (
     <PageShell className="flex flex-col gap-6 xl:grid xl:grid-cols-[280px_1fr_300px]" fullWidth>
       {/* Mobile Sticky Domain Selector / Desktop Sidebar */}
       <aside className="sticky top-0 z-20 -mx-4 bg-slate-950/80 px-4 py-3 backdrop-blur-xl lg:static lg:mx-0 lg:bg-transparent lg:p-0 lg:backdrop-blur-none xl:sticky xl:top-6 xl:self-start">
-        <div className="flex items-center justify-between lg:hidden mb-4">
+        <div className="mb-4 flex items-center justify-between lg:hidden">
           <h2 className="text-sm font-bold uppercase tracking-wider text-slate-500">{t('modeUx.study.heading')}</h2>
         </div>
 
@@ -149,31 +182,37 @@ export default function StudyPage() {
                 key={domain.id}
                 type="button"
                 onClick={() => setDomain(domain.id)}
+                aria-pressed={isActive}
                 className={cn(
-                  "flex shrink-0 items-center justify-between gap-3 rounded-xl border px-4 py-2.5 text-left text-sm font-medium transition-all duration-200 lg:w-full",
+                  'flex shrink-0 items-center gap-2.5 rounded-xl border px-3.5 py-2.5 text-left text-sm font-medium transition-all duration-200 lg:w-full',
                   isActive
-                    ? domainColor
-                    : "border-white/[0.06] bg-slate-900/40 text-slate-400 hover:border-white/10 hover:bg-white/[0.04] hover:text-slate-200"
+                    ? toneActive[domain.tone]
+                    : 'border-white/[0.06] bg-slate-900/40 text-slate-400 hover:border-white/10 hover:bg-white/[0.04] hover:text-slate-200',
                 )}
               >
-                <span className="whitespace-nowrap">{t(`modeUx.study.domains.${domain.key}`)}</span>                          <div className={cn(
-                            "flex h-5 min-w-[20px] items-center justify-center rounded-md px-1 text-[10px] font-bold",
-                            isActive ? "bg-emerald-400/20 text-emerald-300" : "bg-white/5 text-slate-500",
-                            isActive && domain.tone === 'cyan' && "bg-cyan-400/20 text-cyan-300",
-                            isActive && domain.tone === 'emerald' && "bg-emerald-400/20 text-emerald-300",
-                            isActive && domain.tone === 'amber' && "bg-amber-400/20 text-amber-300",
-                            isActive && domain.tone === 'rose' && "bg-rose-400/20 text-rose-300",
-                            isActive && domain.tone === 'slate' && "bg-slate-400/20 text-slate-300",
-                          )}>
+                <span
+                  className={cn(
+                    'h-2 w-2 shrink-0 rounded-full transition-colors',
+                    isActive ? toneDot[domain.tone] : 'bg-slate-600',
+                  )}
+                  aria-hidden="true"
+                />
+                <span className="flex-1 whitespace-nowrap">{t(`modeUx.study.domains.${domain.key}`)}</span>
+                <span
+                  className={cn(
+                    'flex h-5 min-w-[20px] items-center justify-center rounded-md px-1.5 text-[10px] font-bold',
+                    isActive ? toneCount[domain.tone] : 'bg-white/5 text-slate-500',
+                  )}
+                >
                   {skillsByDomain[domain.id]?.length ?? 0}
-                </div>
+                </span>
               </button>
             )
           })}
         </div>
 
         {/* Info card only on Desktop Sidebar */}
-        <div className="hidden mt-6 lg:block space-y-4">
+        <div className="mt-6 hidden space-y-4 lg:block">
           <div className="rounded-2xl border border-white/[0.06] bg-slate-900/20 p-5 hallmark-hero">
             <h3 className="text-xs font-bold uppercase tracking-widest text-slate-500">{t('modeUx.study.heading')}</h3>
             <p className="mt-3 text-xs leading-5 text-slate-400">{t('modeUx.study.subtitle')}</p>
@@ -185,10 +224,10 @@ export default function StudyPage() {
               type="button"
               onClick={() => setRecentOnly((prev) => !prev)}
               className={cn(
-                "flex w-full items-center gap-3 rounded-xl border px-4 py-3 text-left text-sm font-medium transition-all duration-200",
+                'flex w-full items-center gap-3 rounded-xl border px-4 py-3 text-left text-sm font-medium transition-all duration-200',
                 recentOnly
-                  ? `${domainColor}`
-                  : "border-white/[0.06] bg-slate-900/40 text-slate-400 hover:border-white/10 hover:bg-white/[0.04] hover:text-slate-200"
+                  ? domainColor
+                  : 'border-white/[0.06] bg-slate-900/40 text-slate-400 hover:border-white/10 hover:bg-white/[0.04] hover:text-slate-200',
               )}
             >
               {recentOnly ? (
@@ -209,24 +248,31 @@ export default function StudyPage() {
       <main className="min-w-0 space-y-6">
         {/* Header */}
         <header className="relative overflow-hidden rounded-3xl border border-white/[0.06] bg-slate-900/20 p-6 lg:p-8">
-          <div className={cn(
-            "absolute -right-8 -top-8 h-32 w-32 rounded-full blur-3xl",
-            domainTone === 'cyan' && 'bg-cyan-400/5',
-            domainTone === 'emerald' && 'bg-emerald-400/5',
-            domainTone === 'amber' && 'bg-amber-400/5',
-            domainTone === 'rose' && 'bg-rose-400/5',
-            domainTone === 'slate' && 'bg-slate-400/5',
-          )} />
+          <div
+            className={cn(
+              'absolute -right-8 -top-8 h-32 w-32 rounded-full blur-3xl',
+              domainTone === 'cyan' && 'bg-cyan-400/5',
+              domainTone === 'emerald' && 'bg-emerald-400/5',
+              domainTone === 'amber' && 'bg-amber-400/5',
+              domainTone === 'rose' && 'bg-rose-400/5',
+              domainTone === 'slate' && 'bg-slate-400/5',
+            )}
+          />
           <div className="relative z-10 flex flex-col gap-4 sm:flex-row sm:items-start sm:justify-between">
             <div>
-              <Badge tone={domainTone} className="px-2 py-0.5 text-[10px] uppercase tracking-widest">
-                {t('nav.study')}
-              </Badge>
+              <div className="flex items-center gap-2">
+                <Badge tone={domainTone} className="px-2 py-0.5 text-[10px] uppercase tracking-widest">
+                  {t('nav.study')}
+                </Badge>
+                <span className="text-[11px] font-medium text-slate-500">
+                  {t('studyPage.skillCount', { n: skillsByDomain[active]?.length ?? 0 })}
+                </span>
+              </div>
               <h1 className="mt-4 text-3xl font-bold tracking-tight text-white lg:text-4xl">
-                {t(`modeUx.study.domains.${studyDomains.find((item) => item.id === active)?.key ?? 'guard'}`)}
+                {t(`modeUx.study.domains.${activeDomain.key}`)}
               </h1>
               <p className="mt-3 max-w-2xl text-sm leading-relaxed text-slate-400 lg:text-base">
-                {t('modeUx.study.body')}
+                {t(`modeUx.study.domainBlurbs.${activeDomain.key}`)}
               </p>
             </div>
 
@@ -237,14 +283,14 @@ export default function StudyPage() {
                 type="button"
                 onClick={() => setQuickStudyMode((prev) => !prev)}
                 className={cn(
-                  "flex items-center gap-2 rounded-xl border px-3.5 py-2 text-xs font-semibold uppercase tracking-wider transition-all duration-200",
+                  'flex items-center gap-2 rounded-xl border px-3.5 py-2 text-xs font-semibold uppercase tracking-wider transition-all duration-200',
                   quickStudyMode
-                    ? `${domainColor}`
-                    : "border-white/[0.06] bg-slate-900/60 text-slate-400 hover:border-white/10 hover:text-slate-200"
+                    ? domainColor
+                    : 'border-white/[0.06] bg-slate-900/60 text-slate-400 hover:border-white/10 hover:text-slate-200',
                 )}
                 title={quickStudyMode ? t('studyPage.exitQuickMode') : t('studyPage.quickMode')}
               >
-                <Zap className={cn("h-3.5 w-3.5", quickStudyMode && "animate-pulse")} />
+                <Zap className={cn('h-3.5 w-3.5', quickStudyMode && 'animate-pulse')} />
                 {t('studyPage.quickStudy')}
               </button>
 
@@ -265,10 +311,10 @@ export default function StudyPage() {
                   type="button"
                   onClick={() => setRecentOnly((prev) => !prev)}
                   className={cn(
-                    "flex items-center gap-2 rounded-xl border px-3.5 py-2 text-xs font-semibold uppercase tracking-wider transition-all duration-200 sm:hidden",
+                    'flex items-center gap-2 rounded-xl border px-3.5 py-2 text-xs font-semibold uppercase tracking-wider transition-all duration-200 sm:hidden',
                     recentOnly
-                      ? `${domainColor}`
-                      : "border-white/[0.06] bg-slate-900/60 text-slate-400 hover:border-white/10 hover:text-slate-200"
+                      ? domainColor
+                      : 'border-white/[0.06] bg-slate-900/60 text-slate-400 hover:border-white/10 hover:text-slate-200',
                   )}
                 >
                   {recentOnly ? (
@@ -292,80 +338,63 @@ export default function StudyPage() {
             {visibleSkills.map((skill, idx) => {
               const isExpanded = expandedSkills.has(skill.id)
               const isRecent = recentlyViewedTimestamps[skill.id]
-              const hasQualityCheck = !!skill.qualityChecklist
-              const hasBodyDetails = !!skill.bodyToBodyDetails
-              const hasBlackbelt = !!skill.blackbeltDetails
-              const richnessCount = [hasQualityCheck, hasBodyDetails, hasBlackbelt].filter(Boolean).length
-
-              // Quick study mode content
-              const quickCues = getLocalizedArray(skill.quickCard?.threeCues, lang)
-              const primaryGoal = getLocalizedText(skill.primaryGoal, lang)
-              const keyConcepts = getLocalizedArray(skill.keyConcepts, lang)
+              const flags = contentFlags.get(skill.id)
+              const hasChecklist = flags?.hasChecklist ?? false
+              const hasMicroDetails = flags?.hasMicroDetails ?? false
+              const hasVideos = flags?.hasVideos ?? false
+              const richnessCount = [hasChecklist, hasMicroDetails, hasVideos].filter(Boolean).length
+              const summary = getLocalizedText(skill.shortDescription, lang)
 
               return (
                 <StaggerItem key={skill.id}>
-                <div
-                  key={skill.id}
-                  className="group relative overflow-hidden rounded-2xl border border-white/[0.06] bg-slate-900/40 transition-all duration-300 hover:border-white/10 hover:bg-slate-900/60 hover:shadow-[0_8px_30px_rgb(0,0,0,0.12)]"
-                  style={{ animationDelay: `${idx * 50}ms` }}
-                >
-                  {/* Quick Study Mode */}
-                  {quickStudyMode ? (
-                    <div className="p-5">
-                      <div className="flex items-center justify-between mb-3">
-                        <div className="flex items-center gap-2 flex-1 min-w-0">
-                          <h2 className="text-base font-bold text-white truncate">
-                            {getLocalizedText(skill.title, lang)}
-                          </h2>
-                          {/* Richness indicator dots */}
-                          <div className="flex items-center gap-1 shrink-0">
-                            {richnessCount < 3 && (
-                              <span className="text-[10px] text-slate-500 font-medium hidden sm:inline">
+                  <div
+                    className="group relative overflow-hidden rounded-2xl border border-white/[0.06] bg-slate-900/40 transition-all duration-300 hover:border-white/10 hover:bg-slate-900/60 hover:shadow-[0_8px_30px_rgb(0,0,0,0.12)]"
+                    style={{ animationDelay: `${idx * 50}ms` }}
+                  >
+                    {/* Quick Study Mode */}
+                    {quickStudyMode ? (
+                      <div className="p-5">
+                        <div className="mb-3 flex items-center justify-between gap-3">
+                          <div className="flex min-w-0 flex-1 items-center gap-2">
+                            <h2 className="truncate text-base font-bold text-white">
+                              {getLocalizedText(skill.title, lang)}
+                            </h2>
+                            {/* Richness indicator dots */}
+                            <div className="flex shrink-0 items-center gap-1">
+                              <span className="hidden text-[10px] font-medium text-slate-500 sm:inline">
                                 {richnessCount}/3
                               </span>
+                              {hasChecklist && <div className="h-1.5 w-1.5 rounded-full bg-emerald-400" title={t('studyPage.hasQualityCheck')} />}
+                              {hasMicroDetails && <div className="h-1.5 w-1.5 rounded-full bg-amber-400" title={t('studyPage.hasMicroDetails')} />}
+                              {hasVideos && <div className="h-1.5 w-1.5 rounded-full bg-violet-400" title={t('studyPage.hasVideos')} />}
+                            </div>
+                          </div>
+                          <div className="flex shrink-0 items-center gap-2">
+                            {isRecent && (
+                              <span className="flex items-center gap-1 text-[10px] text-slate-500">
+                                <Clock className="h-3 w-3" />
+                                {formatTimeAgo(isRecent)}
+                              </span>
                             )}
-                            {hasQualityCheck && <div className="h-1.5 w-1.5 rounded-full bg-emerald-400" title={t('studyPage.hasQualityCheck')} />}
-                            {hasBodyDetails && <div className="h-1.5 w-1.5 rounded-full bg-amber-400" title={t('studyPage.hasBodyDetails')} />}
-                            {hasBlackbelt && <div className="h-1.5 w-1.5 rounded-full bg-violet-400" title={t('studyPage.hasBlackbelt')} />}
+                            <Link
+                              to={`/skills/${skill.id}`}
+                              className="flex h-8 w-8 items-center justify-center rounded-lg bg-white/[0.03] text-slate-500 transition-all hover:bg-emerald-400/10 hover:text-emerald-300"
+                              onClick={() => recordView(skill.id)}
+                              aria-label={getLocalizedText(skill.title, lang)}
+                            >
+                              <ArrowRight className="h-4 w-4" aria-hidden="true" />
+                            </Link>
                           </div>
                         </div>
-                        <div className="flex items-center gap-2 shrink-0">
-                          {isRecent && (
-                            <span className="flex items-center gap-1 text-[10px] text-slate-500">
-                              <Clock className="h-3 w-3" />
-                              {formatTimeAgo(isRecent)}
-                            </span>
-                          )}
-                          <Link
-                            to={`/skills/${skill.id}`}
-                            className="flex h-8 w-8 items-center justify-center rounded-lg bg-white/[0.03] text-slate-500 transition-all hover:bg-emerald-400/10 hover:text-emerald-300"
-                            onClick={() => recordView(skill.id)}
-                          >
-                            <ArrowRight className="h-4 w-4" aria-hidden="true" />
-                          </Link>
-                        </div>
-                      </div>
 
-                      {/* Quick cues */}
-                      {quickCues.length > 0 && (
-                        <div className="space-y-1">
-                          {quickCues.slice(0, 3).map((cue, i) => (
-                            <div key={i} className="flex items-start gap-2 text-sm text-slate-400">
-                              <CircleDot className="mt-0.5 h-3.5 w-3.5 shrink-0 text-emerald-400/60" />
-                              <span>{cue}</span>
-                            </div>
-                          ))}
-                        </div>
-                      )}
-                      {quickCues.length === 0 && (
-                        <p className="text-sm leading-relaxed text-slate-500 line-clamp-2">
-                          {primaryGoal}
-                        </p>
-                      )}
-                    </div>
-                  ) : (
-                    <>
-                      {/* Default / Collapsed */}
+                        {summary && (
+                          <div className="flex items-start gap-2 text-sm text-slate-400">
+                            <CircleDot className="mt-0.5 h-3.5 w-3.5 shrink-0 text-emerald-400/60" />
+                            <span className="line-clamp-3">{summary}</span>
+                          </div>
+                        )}
+                      </div>
+                    ) : (
                       <div
                         className="flex cursor-pointer flex-col gap-4 p-5 transition-colors md:flex-row md:items-center"
                         onClick={() => {
@@ -373,9 +402,9 @@ export default function StudyPage() {
                           navigate(`/skills/${skill.id}`)
                         }}
                       >
-                        <div className="flex-1 min-w-0">
+                        <div className="min-w-0 flex-1">
                           {/* Badges + Richness */}
-                          <div className="flex flex-wrap items-center gap-2 mb-2">
+                          <div className="mb-2 flex flex-wrap items-center gap-2">
                             {skill.riskLevel && (
                               <Badge tone={skill.riskLevel === 'safety_critical' ? 'amber' : 'slate'} className="text-[10px]">
                                 {t(`modern.risk.${skill.riskLevel}`)}
@@ -387,20 +416,18 @@ export default function StudyPage() {
                               </Badge>
                             )}
                             {skill.libraryTier && (
-                              <span className="text-[10px] font-semibold text-slate-500 uppercase tracking-tighter">
+                              <span className="text-[10px] font-semibold uppercase tracking-tighter text-slate-500">
                                 Tier {skill.libraryTier.slice(-1)}
                               </span>
                             )}
                             {/* Richness indicator dots */}
-                            <div className="flex items-center gap-1 ml-auto sm:ml-2">
-                              {richnessCount < 4 && (
-                                <span className="text-[10px] text-slate-600 font-medium mr-0.5">
-                                  {richnessCount}/4
-                                </span>
-                              )}
-                              {hasQualityCheck && <div className="h-1.5 w-1.5 rounded-full bg-emerald-400" title={t('studyPage.hasQualityCheck')} />}
-                              {hasBodyDetails && <div className="h-1.5 w-1.5 rounded-full bg-amber-400" title={t('studyPage.hasBodyDetails')} />}
-                              {hasBlackbelt && <div className="h-1.5 w-1.5 rounded-full bg-violet-400" title={t('studyPage.hasBlackbelt')} />}
+                            <div className="ml-auto flex items-center gap-1 sm:ml-2">
+                              <span className="mr-0.5 text-[10px] font-medium text-slate-600">
+                                {richnessCount}/3
+                              </span>
+                              {hasChecklist && <div className="h-1.5 w-1.5 rounded-full bg-emerald-400" title={t('studyPage.hasQualityCheck')} />}
+                              {hasMicroDetails && <div className="h-1.5 w-1.5 rounded-full bg-amber-400" title={t('studyPage.hasMicroDetails')} />}
+                              {hasVideos && <div className="h-1.5 w-1.5 rounded-full bg-violet-400" title={t('studyPage.hasVideos')} />}
                             </div>
                           </div>
 
@@ -409,33 +436,31 @@ export default function StudyPage() {
                               {getLocalizedText(skill.title, lang)}
                             </h2>
                             {isRecent && (
-                              <span className="shrink-0 text-[10px] text-slate-500 flex items-center gap-1">
+                              <span className="flex shrink-0 items-center gap-1 text-[10px] text-slate-500">
                                 <Clock className="h-3 w-3" />
                                 {formatTimeAgo(isRecent)}
                               </span>
                             )}
                           </div>
 
+                          {summary && (
+                            <p className="mt-1.5 line-clamp-2 text-sm leading-6 text-slate-400">{summary}</p>
+                          )}
+
                           {/* Expanded content */}
                           {isExpanded && (
                             <div className="mt-4 animate-slideUp space-y-3 border-t border-white/[0.04] pt-4">
-                              <p className="text-sm leading-relaxed text-slate-400">
-                                {primaryGoal}
-                              </p>
-                              {keyConcepts.length > 0 && (
-                            <div>
-                              <span className="text-[10px] font-bold uppercase tracking-widest text-slate-500">
-                                {t('studyPage.keyConcepts')}
-                              </span>
-                              <div className="mt-2 flex flex-wrap gap-1.5">
-                                {keyConcepts.slice(0, 4).map((concept, i) => (
-                                  <span key={i} className="rounded-lg border border-white/[0.04] bg-white/[0.02] px-2.5 py-1 text-[11px] font-medium text-slate-300">
-                                    {concept}
-                                  </span>
-                                ))}
+                              {summary && (
+                                <p className="text-sm leading-relaxed text-slate-400">{summary}</p>
+                              )}
+                              <div className="flex flex-wrap gap-1.5">
+                                <span className="rounded-lg border border-white/[0.04] bg-white/[0.02] px-2.5 py-1 text-[11px] font-medium text-slate-300">
+                                  {t(`domains.${skill.domain}`)}
+                                </span>
+                                <span className="rounded-lg border border-white/[0.04] bg-white/[0.02] px-2.5 py-1 text-[11px] font-medium text-slate-300">
+                                  {t(`levels.${skill.level}`)}
+                                </span>
                               </div>
-                            </div>
-                          )}
                             </div>
                           )}
                         </div>
@@ -443,7 +468,7 @@ export default function StudyPage() {
                         {/* Chevron + Link */}
                         <div className="flex items-center gap-2 md:gap-3">
                           {/* Progress bar hint */}
-                          <div className="hidden sm:block h-1.5 w-12 rounded-full bg-slate-800">
+                          <div className="hidden h-1.5 w-12 rounded-full bg-slate-800 sm:block">
                             <div
                               className="h-full rounded-full bg-emerald-400/40"
                               style={{ width: skill.level === 'advanced' ? '100%' : skill.level === 'intermediate' ? '65%' : '35%' }}
@@ -461,8 +486,8 @@ export default function StudyPage() {
                             >
                               <ChevronDown
                                 className={cn(
-                                  "h-4 w-4 transition-transform duration-200",
-                                  isExpanded && "rotate-180"
+                                  'h-4 w-4 transition-transform duration-200',
+                                  isExpanded && 'rotate-180',
                                 )}
                               />
                             </button>
@@ -473,24 +498,26 @@ export default function StudyPage() {
                                 e.stopPropagation()
                                 recordView(skill.id)
                               }}
+                              aria-label={getLocalizedText(skill.title, lang)}
                             >
                               <ArrowRight className="h-5 w-5 transition-transform group-hover:translate-x-0.5" aria-hidden="true" />
                             </Link>
                           </div>
                         </div>
                       </div>
-                    </>
-                  )}
-                </div>
-              </StaggerItem>
-            )
-          })}
+                    )}
+                  </div>
+                </StaggerItem>
+              )
+            })}
           </StaggerContainer>
         )}
-      </main>        {/* Right Sidebar: Contextual Hints */}
+      </main>
+
+      {/* Right Sidebar: Contextual Hints */}
       <aside className="space-y-4 xl:sticky xl:top-6 xl:self-start">
         <div className="rounded-3xl border border-white/[0.06] bg-slate-900/20 p-6">
-          <div className="flex items-center gap-2 mb-4">
+          <div className="mb-4 flex items-center gap-2">
             <div className="h-1.5 w-1.5 rounded-full bg-hallmark-accent" />
             <h3 className="text-xs font-bold uppercase tracking-widest text-white">{t('modeUx.rail.next')}</h3>
           </div>
@@ -501,9 +528,9 @@ export default function StudyPage() {
           <h3 className="mb-4 text-xs font-bold uppercase tracking-widest text-white">{t('modeUx.rail.related')}</h3>
           <div className="grid grid-cols-1 gap-2">
             {[
-              { to: "/skills", key: 'nav.skills', icon: Zap },
-              { to: "/concepts", key: 'nav.concepts', icon: Sparkles },
-              { to: "/positions", key: 'nav.positions', icon: Target },
+              { to: '/skills', key: 'nav.skills', icon: Zap },
+              { to: '/concepts', key: 'nav.concepts', icon: Sparkles },
+              { to: '/positions', key: 'nav.positions', icon: Target },
             ].map((link) => (
               <Link
                 key={link.to}
@@ -517,22 +544,20 @@ export default function StudyPage() {
           </div>
         </div>
 
-        {/* Legend: Richness indicators */}
+        {/* Legend: content depth indicators */}
         <div className="rounded-3xl border border-white/[0.06] bg-slate-900/20 p-6">
           <h3 className="mb-3 text-[10px] font-bold uppercase tracking-widest text-slate-500">{t('studyPage.contentDepth')}</h3>
           <div className="space-y-2">
-            <div className="flex items-center gap-2 text-xs text-slate-400">
-              <div className="h-2 w-2 rounded-full bg-emerald-400" />
-              <span>{t('studyPage.hasQualityCheck')}</span>
-            </div>
-            <div className="flex items-center gap-2 text-xs text-slate-400">
-              <div className="h-2 w-2 rounded-full bg-amber-400" />
-              <span>{t('studyPage.hasBodyDetails')}</span>
-            </div>
-            <div className="flex items-center gap-2 text-xs text-slate-400">
-              <div className="h-2 w-2 rounded-full bg-violet-400" />
-              <span>{t('studyPage.hasBlackbelt')}</span>
-            </div>
+            {[
+              { tone: 'bg-emerald-400', key: 'studyPage.hasQualityCheck' },
+              { tone: 'bg-amber-400', key: 'studyPage.hasMicroDetails' },
+              { tone: 'bg-violet-400', key: 'studyPage.hasVideos' },
+            ].map((item) => (
+              <div key={item.key} className="flex items-center gap-2 text-xs text-slate-400">
+                <div className={cn('h-2 w-2 rounded-full', item.tone)} />
+                <span>{t(item.key)}</span>
+              </div>
+            ))}
           </div>
         </div>
       </aside>

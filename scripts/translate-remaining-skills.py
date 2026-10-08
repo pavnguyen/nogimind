@@ -10,7 +10,7 @@ SKILLS_DIR = 'content/skills'
 translations_fr = {
     # 1. LATERAL DROP / HEADLOCK THROW
     'lateral-drop-headlock-throw': {
-        'shortInstruction': 'Attrapez la tête/overhook, avancez le pied à l\'intérieur de leur ligne de jambes, abaissez les hanches sous les leurs, pivotez les épaules et retombez en mount ou side control.',
+        'shortInstruction': 'Attrapez la tête/overhook, avancez le pied à l\'intérieur de leur ligne de jambes, abaissez les hanches sous les leurs, pivotez les épaules et retombez en Mount ou Side Control.',
         'summary': 'La projection latérale utilise vos hanches comme point d\'appui pour faire basculer l\'adversaire par-dessus vous depuis une clé de tête. La clé du BJJ est de rester sur vos pieds pour retomber en position dominante plutôt que de les suivre au sol.',
         'whyItWorks': [
             'La clé de tête contrôle leur posture et les empêche de s\'appuyer ou de reculer',
@@ -37,15 +37,15 @@ translations_fr = {
         ],
         'keyCorrections': [
             'S\'ils bloquent avec le bras éloigné : relâchez la tête et passez en double leg',
-            'S\'ils reculent hors de la clé : contournez en front headlock et snapdown',
-            'S\'ils s\'abaissent pour contrer : tirez-les dans votre guard et attaquez depuis le bas'
+            'S\'ils reculent hors de la clé : contournez en Front Headlock et snapdown',
+            'S\'ils s\'abaissent pour contrer : tirez-les dans votre Guard et attaquez depuis le bas'
         ],
         'systemLogic': {
-            'corePrinciple': 'Lateral drop : attrapez la tête/overhook → avancez le pied à l\'intérieur → abaissez les hanches sous les leurs (pliez les genoux, pas le buste) → pivotez les épaules → ils basculent par-dessus vos hanches → retombez en mount ou side control.',
+            'corePrinciple': 'Lateral drop : attrapez la tête/overhook → avancez le pied à l\'intérieur → abaissez les hanches sous les leurs (pliez les genoux, pas le buste) → pivotez les épaules → ils basculent par-dessus vos hanches → retombez en Mount ou Side Control.',
             'decisionTree': [
                 {'condition': 'Ils s\'appuient sur le bras éloigné pour bloquer', 'action': 'relâchez la tête et passez en double leg'},
-                {'condition': 'Ils reculent hors de la clé de tête', 'action': 'contournez en front headlock et snapdown'},
-                {'condition': 'Ils s\'abaissent pour contrer', 'action': 'tirez-les dans votre guard et attaquez depuis le bas'}
+                {'condition': 'Ils reculent hors de la clé de tête', 'action': 'contournez en Front Headlock et snapdown'},
+                {'condition': 'Ils s\'abaissent pour contrer', 'action': 'tirez-les dans votre Guard et attaquez depuis le bas'}
             ],
             'exitStrategies': [
                 'Si la projection échoue et que vous êtes dessous, récupérez la guarde',
@@ -93,14 +93,14 @@ translations_fr = {
         ],
         'keyCorrections': [
             'S\'ils n\'avancent pas : le berimbolo n\'est pas disponible — restez en DLR/RDLR et sweep plutôt',
-            'S\'ils reculent pour éviter l\'inversion : lâchez l\'accroche DLR et entrez en K-guard',
+            'S\'ils reculent pour éviter l\'inversion : lâchez l\'accroche DLR et entrez en K-Guard',
             'S\'ils vous suivent à travers l\'inversion : ils défendent correctement — rentrez en guarde et réessayez'
         ],
         'systemLogic': {
             'corePrinciple': 'Berimbolo back take : guarde DLR ou RDLR → l\'adversaire avance (déclencheur) → inversez par-dessus l\'épaule éloignée → tirez leur hanche éloignée à travers la roulade → retombez derrière eux → remplacez l\'accroche par le back control.',
             'decisionTree': [
                 {'condition': 'Ils n\'avancent pas', 'action': 'le berimbolo n\'est pas disponible — restez en DLR/RDLR et sweep plutôt'},
-                {'condition': 'Ils reculent pour éviter l\'inversion', 'action': 'lâchez l\'accroche DLR et entrez en K-guard'},
+                {'condition': 'Ils reculent pour éviter l\'inversion', 'action': 'lâchez l\'accroche DLR et entrez en K-Guard'},
                 {'condition': 'Ils vous suivent à travers l\'inversion', 'action': 'ils défendent correctement — rentrez en guarde et réessayez'}
             ],
             'exitStrategies': [
@@ -115,29 +115,29 @@ translations_fr = {
         ],
         'fixItFast': [
             'S\'ils s\'appuient sur une main pour bloquer la prise de dos : attaquez ce bras avec une kimura ou un armbar',
-            'S\'ils reculent : relâchez et passez en K-guard entry',
+            'S\'ils reculent : relâchez et passez en K-Guard entry',
             'Si vous calez au milieu de la roulade : tirez leur hanche plus fort — la traction manuelle est le moteur de l\'inversion'
         ]
     },
 
-    # 3. K-GUARD TO OUTSIDE ASHI
-    'k-guard-to-outside-ashi': {
-        'shortInstruction': 'Depuis le K-guard, quand ils reculent, relâchez l\'accroche extérieure et passez la jambe à l\'intérieur de leur jambe éloignée. Ré-entrez en outside ashi avec exposition du talon.',
-        'summary': 'La transition K-guard vers outside ashi passe d\'une position de guarde à un enchevêtrement de jambes en relâchant l\'accroche K-guard et en pompant directement dans l\'outside ashi. La transition est plus rapide que l\'adversaire ne peut défendre car vous êtes déjà sous eux avec une jambe enchevêtrée.',
+    # 3. K-Guard TO OUTSIDE ASHI
+    'k-Guard-to-outside-ashi': {
+        'shortInstruction': 'Depuis le K-Guard, quand ils reculent, relâchez l\'accroche extérieure et passez la jambe à l\'intérieur de leur jambe éloignée. Ré-entrez en outside ashi avec exposition du talon.',
+        'summary': 'La transition K-Guard vers outside ashi passe d\'une position de guarde à un enchevêtrement de jambes en relâchant l\'accroche K-Guard et en pompant directement dans l\'outside ashi. La transition est plus rapide que l\'adversaire ne peut défendre car vous êtes déjà sous eux avec une jambe enchevêtrée.',
         'whyItWorks': [
-            'Le K-guard a déjà vos hanches sous les leurs et votre jambe enchevêtrée — vous êtes déjà à 50% dans le leg lock',
-            'Relâcher l\'accroche K-guard et rentrer en outside ashi est un seul mouvement — ils ne peuvent pas défendre deux positions en séquence',
+            'Le K-Guard a déjà vos hanches sous les leurs et votre jambe enchevêtrée — vous êtes déjà à 50% dans le leg lock',
+            'Relâcher l\'accroche K-Guard et rentrer en outside ashi est un seul mouvement — ils ne peuvent pas défendre deux positions en séquence',
             'L\'outside ashi vous donne une exposition du talon sur la jambe éloignée tout en protégeant votre propre ligne de genou',
             'La transition se produit sous leur champ de vision — beaucoup ne reconnaissent pas la menace jusqu\'à ce qu\'il soit trop tard'
         ],
         'commonMistakes': [
-            'Perdre le K-guard avant d\'établir l\'outside ashi — il y a un trou entre les deux où vous êtes vulnérable',
+            'Perdre le K-Guard avant d\'établir l\'outside ashi — il y a un trou entre les deux où vous êtes vulnérable',
             'Les laisser dégager leur genou éloigné pendant la transition — il faut garder la jambe éloignée piégée',
             'Aller trop tôt en saddle — finissez depuis l\'outside ashi d\'abord ; le saddle est l\'option de secours',
             'Ne pas contrôler leur main proche — ils peuvent s\'appuyer sur votre tête ou décoller l\'enchevêtrement'
         ],
         'coachingCues': [
-            'L\'accroche K-guard tire, la jambe outside ashi pompe — deux mouvements qui n\'en font qu\'un',
+            'L\'accroche K-Guard tire, la jambe outside ashi pompe — deux mouvements qui n\'en font qu\'un',
             'Gardez la jambe éloignée piégée pendant la transition — perdez-la, perdez l\'entrée',
             'Finissez depuis l\'outside ashi avant d\'envisager le saddle',
             'Contrôlez la main proche — s\'ils s\'appuient sur votre tête, l\'enchevêtrement échoue'
@@ -148,31 +148,31 @@ translations_fr = {
             'Si vous perdez l\'enchevêtrement, récupérez immédiatement la guarde plutôt que de lutter pour le heel hook'
         ],
         'keyCorrections': [
-            'S\'ils reculent pour dégager le K-guard : pompez la jambe en outside ashi',
-            'S\'ils avancent pour faire pression : restez en K-guard et sweep plutôt',
+            'S\'ils reculent pour dégager le K-Guard : pompez la jambe en outside ashi',
+            'S\'ils avancent pour faire pression : restez en K-Guard et sweep plutôt',
             'S\'ils s\'appuient sur votre tête pour bloquer : pompez leur bras ou passez en omoplata'
         ],
         'systemLogic': {
-            'corePrinciple': 'K-guard to outside ashi : établissez le K-guard → l\'adversaire recule (déclencheur) → relâchez l\'accroche K-guard → pompez votre jambe à l\'intérieur de leur jambe éloignée → rentrez en outside ashi → exposez le talon.',
+            'corePrinciple': 'K-Guard to outside ashi : établissez le K-Guard → l\'adversaire recule (déclencheur) → relâchez l\'accroche K-Guard → pompez votre jambe à l\'intérieur de leur jambe éloignée → rentrez en outside ashi → exposez le talon.',
             'decisionTree': [
-                {'condition': 'Ils reculent pour dégager le K-guard', 'action': 'pompez la jambe en outside ashi'},
-                {'condition': 'Ils avancent pour faire pression', 'action': 'restez en K-guard et sweep plutôt'},
+                {'condition': 'Ils reculent pour dégager le K-Guard', 'action': 'pompez la jambe en outside ashi'},
+                {'condition': 'Ils avancent pour faire pression', 'action': 'restez en K-Guard et sweep plutôt'},
                 {'condition': 'Ils s\'appuient sur votre tête pour bloquer', 'action': 'pompez leur bras ou passez en omoplata'}
             ],
             'exitStrategies': [
-                'S\'ils libèrent leur jambe éloignée, rentrez en K-guard ou récupérez la guarde',
+                'S\'ils libèrent leur jambe éloignée, rentrez en K-Guard ou récupérez la guarde',
                 'Si vous perdez l\'enchevêtrement, ne le poursuivez pas — reset en full guarde'
             ]
         },
         'moneyDetails': [
-            'Le K-guard vers outside ashi est la principale entrée en leg lock utilisée par les compétiteurs no-gi d\'élite au niveau ADCC',
+            'Le K-Guard vers outside ashi est la principale entrée en leg lock utilisée par les compétiteurs no-gi d\'élite au niveau ADCC',
             'Maîtriser cette transition vous donne un chemin direct de la guarde au heel hook qui contourne de nombreuses défenses courantes',
-            'Le K-guard est l\'une des positions de guarde les plus sûres pour entrer dans les leg locks car vos hanches sont sous les leurs'
+            'Le K-Guard est l\'une des positions de guarde les plus sûres pour entrer dans les leg locks car vos hanches sont sous les leurs'
         ],
         'fixItFast': [
-            'S\'ils libèrent leur jambe éloignée : vous avez perdu la position — rentrez en K-guard ou récupérez la guarde',
+            'S\'ils libèrent leur jambe éloignée : vous avez perdu la position — rentrez en K-Guard ou récupérez la guarde',
             'S\'ils s\'appuient sur votre tête : pompez le bras et rétablissez l\'enchevêtrement',
-            'S\'ils reculent mais vous ratez l\'entrée outside ashi : récupérez la full guarde et réessayez depuis le K-guard'
+            'S\'ils reculent mais vous ratez l\'entrée outside ashi : récupérez la full guarde et réessayez depuis le K-Guard'
         ]
     },
 
@@ -344,24 +344,24 @@ translations_fr = {
         ]
     },
 
-    # 7. MOUNTED TRIANGLE / ARMBAR FROM MOUNT
+    # 7. MOUNTED TRIANGLE / ARMBAR FROM Mount
     'mounted-triangle': {
-        'shortInstruction': 'Montez en S-mount, piégez leur bras proche avec votre jambe du même côté, passez votre jambe du dessus par-dessus leur tête, rapprochez les talons, serrez les genoux.',
-        'summary': 'Le triangle monté est une soumission à haut pourcentage depuis le mount qui utilise la gravité et la pression du dessus pour empêcher l\'adversaire de se redresser ou de stacker. La montée en S-mount est le gardien — ne tentez jamais depuis un mount bas.',
+        'shortInstruction': 'Montez en S-Mount, piégez leur bras proche avec votre jambe du même côté, passez votre jambe du dessus par-dessus leur tête, rapprochez les talons, serrez les genoux.',
+        'summary': 'Le triangle monté est une soumission à haut pourcentage depuis le Mount qui utilise la gravité et la pression du dessus pour empêcher l\'adversaire de se redresser ou de stacker. La montée en S-Mount est le gardien — ne tentez jamais depuis un Mount bas.',
         'whyItWorks': [
-            'Depuis le mount, leur bras est déjà comprimé par votre poids — vous n\'avez pas besoin de casser leur posture comme depuis la guarde',
+            'Depuis le Mount, leur bras est déjà comprimé par votre poids — vous n\'avez pas besoin de casser leur posture comme depuis la guarde',
             'La gravité travaille pour vous — votre poids appuie et serre le triangle sans avoir besoin de serrer plus fort',
             'S\'ils défendent le triangle en se redressant, vous attaquez l\'armbar — le dilemme triangle-armbar est plus fort depuis le dessus',
-            'Ils ne peuvent pas vous stacker depuis le mount comme ils le feraient depuis la guarde — cela supprime la contre-attaque principale du triangle'
+            'Ils ne peuvent pas vous stacker depuis le Mount comme ils le feraient depuis la guarde — cela supprime la contre-attaque principale du triangle'
         ],
         'commonMistakes': [
-            'Tenter le triangle monté depuis un mount bas — il faut monter en S-mount d\'abord',
+            'Tenter le triangle monté depuis un Mount bas — il faut monter en S-Mount d\'abord',
             'Ne pas piéger le bras avant d\'enjamber — si le bras est libre, le triangle n\'est pas disponible',
             'Passer la jambe en travers du tibia au lieu de derrière la tête',
             'Serrer les genoux avant de rapprocher les talons — talons d\'abord, puis genoux'
         ],
         'coachingCues': [
-            'S-mount d\'abord, triangle ensuite — jamais depuis un mount bas',
+            'S-Mount d\'abord, triangle ensuite — jamais depuis un Mount bas',
             'Piégez le bras avant d\'enjamber — bras libre = pas de triangle',
             'Talons rapprochés, genoux serrés — deux mouvements séparés',
             'Ils se redressent = votre entrée pour l\'armbar'
@@ -372,43 +372,43 @@ translations_fr = {
             'Attention à ne pas hyperétendre leur coude quand vous passez à l\'armbar'
         ],
         'keyCorrections': [
-            'S\'ils essaient de stacker : impossible depuis le mount — finissez le triangle',
+            'S\'ils essaient de stacker : impossible depuis le Mount — finissez le triangle',
             'S\'ils se redressent : passez votre bras sous leur bras qui défend et faites un armbar',
             'S\'ils tournent sur le côté : relâchez le triangle et prenez le dos'
         ],
         'systemLogic': {
-            'corePrinciple': 'Triangle monté : depuis le mount → montez en S-mount → piégez leur bras proche → passez votre jambe du dessus par-dessus leur tête (pied derrière la tête) → rapprochez les talons → serrez les genoux → s\'ils se redressent, passez à l\'armbar.',
+            'corePrinciple': 'Triangle monté : depuis le Mount → montez en S-Mount → piégez leur bras proche → passez votre jambe du dessus par-dessus leur tête (pied derrière la tête) → rapprochez les talons → serrez les genoux → s\'ils se redressent, passez à l\'armbar.',
             'decisionTree': [
-                {'condition': 'Ils essaient de stacker', 'action': 'impossible depuis le mount — finissez le triangle'},
+                {'condition': 'Ils essaient de stacker', 'action': 'impossible depuis le Mount — finissez le triangle'},
                 {'condition': 'Ils se redressent pour défendre', 'action': 'passez votre bras sous leur bras qui défend et faites un armbar'},
                 {'condition': 'Ils tournent sur le côté', 'action': 'relâchez le triangle et prenez le dos'}
             ],
             'exitStrategies': [
-                'Si vous ne pouvez pas sécuriser le triangle, retournez en mount et reset',
+                'Si vous ne pouvez pas sécuriser le triangle, retournez en Mount et reset',
                 'S\'ils s\'échappent en guarde, levez-vous et passez à nouveau'
             ]
         },
         'moneyDetails': [
-            'Le triangle monté est l\'une des soumissions les plus efficaces depuis le mount en no-gi',
-            'Maîtriser la montée en S-mount est la clé — le triangle vient facilement une fois le S-mount établi',
-            'Le dilemme triangle-armbar depuis le mount est plus dangereux pour l\'adversaire que depuis la guarde'
+            'Le triangle monté est l\'une des soumissions les plus efficaces depuis le Mount en no-gi',
+            'Maîtriser la montée en S-Mount est la clé — le triangle vient facilement une fois le S-Mount établi',
+            'Le dilemme triangle-armbar depuis le Mount est plus dangereux pour l\'adversaire que depuis la guarde'
         ],
         'fixItFast': [
             'S\'ils verrouillent leurs mains : décollez-les en pivotant les hanches',
             'S\'ils se redressent : passez immédiatement à l\'armbar',
-            'Si le triangle est lâche : votre position S-mount n\'était pas assez haute'
+            'Si le triangle est lâche : votre position S-Mount n\'était pas assez haute'
         ]
     },
 
     # 8. PERUVIAN NECKTIE
     'peruvian-necktie': {
-        'shortInstruction': 'Depuis le front headlock, glissez le bras sous le cou, attrapez votre propre biceps, enroulez l\'autre bras par-dessus la tête, faites un pas sur le côté et pliez leur corps vers l\'avant.',
-        'summary': 'La Peruvian necktie comprime les deux artères carotides simultanément en utilisant votre avant-bras et votre biceps. Ce n\'est pas une compression — le poids du corps de l\'adversaire crée l\'étranglement quand vous les pliez vers l\'avant. Disponible quand l\'adversaire se détourne du front headlock.',
+        'shortInstruction': 'Depuis le Front Headlock, glissez le bras sous le cou, attrapez votre propre biceps, enroulez l\'autre bras par-dessus la tête, faites un pas sur le côté et pliez leur corps vers l\'avant.',
+        'summary': 'La Peruvian necktie comprime les deux artères carotides simultanément en utilisant votre avant-bras et votre biceps. Ce n\'est pas une compression — le poids du corps de l\'adversaire crée l\'étranglement quand vous les pliez vers l\'avant. Disponible quand l\'adversaire se détourne du Front Headlock.',
         'whyItWorks': [
             'Votre avant-bras et votre biceps compriment les deux carotides simultanément — c\'est un étranglement sanguin, pas une torsion du cou',
             'Plier leur corps vers l\'avant les empêche de se redresser — leur propre poids serre l\'étranglement',
             'La prise crée une structure verrouillée qui ne peut pas être décollée',
-            'La Peruvian necktie complète la guillotine (qui fonctionne quand ils tournent vers l\'intérieur) — elle fonctionne quand ils tournent vers l\'extérieur'
+            'La Peruvian necktie complète la Guillotine (qui fonctionne quand ils tournent vers l\'intérieur) — elle fonctionne quand ils tournent vers l\'extérieur'
         ],
         'commonMistakes': [
             'Serrer avec les bras au lieu d\'utiliser le poids du corps — cela fatigue les bras et n\'étrangle pas efficacement',
@@ -428,29 +428,29 @@ translations_fr = {
             'Assurez-vous que le bras étrangleur est positionné correctement pour éviter de comprimer la trachée'
         ],
         'keyCorrections': [
-            'S\'ils tournent vers vous : passez à la guillotine ou au D\'Arce',
+            'S\'ils tournent vers vous : passez à la Guillotine ou au D\'Arce',
             'S\'ils se redressent : la Peruvian est disponible — faites un pas et pliez',
             'S\'ils deviennent mous : la Peruvian ne fonctionnera pas — passez au turtle ride ou à la prise de dos'
         ],
         'systemLogic': {
-            'corePrinciple': 'Peruvian necktie : front headlock → l\'adversaire se détourne (déclencheur) → glissez le bras sous le cou et attrapez votre propre biceps → enroulez l\'autre bras par-dessus la tête → verrouillez en figure-four → faites un pas sur le côté → pliez leur corps vers l\'avant — leur poids serre l\'étranglement.',
+            'corePrinciple': 'Peruvian necktie : Front Headlock → l\'adversaire se détourne (déclencheur) → glissez le bras sous le cou et attrapez votre propre biceps → enroulez l\'autre bras par-dessus la tête → verrouillez en figure-four → faites un pas sur le côté → pliez leur corps vers l\'avant — leur poids serre l\'étranglement.',
             'decisionTree': [
-                {'condition': 'Ils tournent vers vous au lieu de se détourner', 'action': 'passez à la guillotine ou au D\'Arce'},
+                {'condition': 'Ils tournent vers vous au lieu de se détourner', 'action': 'passez à la Guillotine ou au D\'Arce'},
                 {'condition': 'Ils se redressent', 'action': 'la Peruvian est disponible — faites un pas et pliez'}
             ],
             'exitStrategies': [
-                'Si la Peruvian ne finit pas, passez au front headlock et réattaquez',
-                'S\'ils s\'échappent, utilisez le front headlock pour les rabattre au sol'
+                'Si la Peruvian ne finit pas, passez au Front Headlock et réattaquez',
+                'S\'ils s\'échappent, utilisez le Front Headlock pour les rabattre au sol'
             ]
         },
         'moneyDetails': [
-            'La Peruvian necktie est l\'un des étranglements les plus efficaces depuis la position de front headlock',
-            'Maîtriser la Peruvian vous donne une finition quand l\'adversaire se détourne — elle complète le système de front headlock',
-            'La Peruvian necktie est particulièrement efficace contre les adversaires qui essaient de se redresser hors du front headlock'
+            'La Peruvian necktie est l\'un des étranglements les plus efficaces depuis la position de Front Headlock',
+            'Maîtriser la Peruvian vous donne une finition quand l\'adversaire se détourne — elle complète le système de Front Headlock',
+            'La Peruvian necktie est particulièrement efficace contre les adversaires qui essaient de se redresser hors du Front Headlock'
         ],
         'fixItFast': [
-            'S\'ils défendent en attrapant votre bras étrangleur : repompez vers le front headlock et réattaquez',
-            'S\'ils tournent vers l\'intérieur : passez immédiatement à la guillotine',
+            'S\'ils défendent en attrapant votre bras étrangleur : repompez vers le Front Headlock et réattaquez',
+            'S\'ils tournent vers l\'intérieur : passez immédiatement à la Guillotine',
             'Si l\'étranglement n\'est pas serré : faites un pas plus profond sur le côté avant de plier'
         ]
     },
@@ -513,7 +513,7 @@ translations_fr = {
 
     # 10. GIFT WRAP / ARM DRAG BACK TAKE
     'gift-wrap-back-take': {
-        'shortInstruction': 'Depuis le side control, isolez le bras éloigné, pliez-le derrière leur dos, enjambez leur tête, tournez derrière eux et établissez le back control.',
+        'shortInstruction': 'Depuis le Side Control, isolez le bras éloigné, pliez-le derrière leur dos, enjambez leur tête, tournez derrière eux et établissez le back control.',
         'summary': 'La prise de dos par gift wrap neutralise le bras éloigné de l\'adversaire en le pliant derrière son dos, puis utilise une rotation pour prendre le dos. Avec un bras piégé, leur capacité à défendre la prise de dos est réduite de moitié.',
         'whyItWorks': [
             'Plier leur bras derrière leur dos crée une poignée qui contrôle leur épaule — ils ne peuvent pas tourner vers vous ni s\'appuyer',
@@ -539,26 +539,26 @@ translations_fr = {
             'Si le partenaire a une blessure préexistante à l\'épaule, évitez complètement le gift wrap'
         ],
         'keyCorrections': [
-            'S\'ils résistent à l\'isolation du bras : passez à l\'arm drag ou à la kimura depuis le side control',
+            'S\'ils résistent à l\'isolation du bras : passez à l\'arm drag ou à la kimura depuis le Side Control',
             'S\'ils roulent loin pour s\'échapper : suivez-les — la roulade devient une opportunité de prise de dos',
-            'S\'ils s\'aplatissent à plat ventre : maintenez le side control et avancez vers le mount à la place'
+            'S\'ils s\'aplatissent à plat ventre : maintenez le Side Control et avancez vers le Mount à la place'
         ],
         'systemLogic': {
-            'corePrinciple': 'Gift wrap back take : depuis le side control/mount → isolez le bras éloigné → pliez-le derrière leur dos → enjambez leur tête → tournez derrière → relâchez le gift wrap → établissez le back control.',
+            'corePrinciple': 'Gift wrap back take : depuis le Side Control/Mount → isolez le bras éloigné → pliez-le derrière leur dos → enjambez leur tête → tournez derrière → relâchez le gift wrap → établissez le back control.',
             'decisionTree': [
-                {'condition': 'Ils résistent à l\'isolation du bras', 'action': 'passez à l\'arm drag ou à la kimura depuis le side control'},
+                {'condition': 'Ils résistent à l\'isolation du bras', 'action': 'passez à l\'arm drag ou à la kimura depuis le Side Control'},
                 {'condition': 'Ils roulent loin pour s\'échapper', 'action': 'suivez-les — la roulade devient une opportunité de prise de dos'},
-                {'condition': 'Ils s\'aplatissent à plat ventre', 'action': 'maintenez le side control et avancez vers le mount à la place'}
+                {'condition': 'Ils s\'aplatissent à plat ventre', 'action': 'maintenez le Side Control et avancez vers le Mount à la place'}
             ],
             'exitStrategies': [
-                'Si la rotation n\'atteint pas le dos, retournez en side control et essayez une autre entrée de prise de dos',
-                'S\'ils tournent vers vous, passez au mount'
+                'Si la rotation n\'atteint pas le dos, retournez en Side Control et essayez une autre entrée de prise de dos',
+                'S\'ils tournent vers vous, passez au Mount'
             ]
         },
         'moneyDetails': [
-            'Le gift wrap est la prise de dos la plus efficace depuis le side control en no-gi',
-            'Maîtriser le gift wrap vous donne un chemin fiable du side control au back control',
-            'Le gift wrap est particulièrement efficace contre les adversaires qui s\'appuient sur le bras éloigné pour échapper au side control'
+            'Le gift wrap est la prise de dos la plus efficace depuis le Side Control en no-gi',
+            'Maîtriser le gift wrap vous donne un chemin fiable du Side Control au back control',
+            'Le gift wrap est particulièrement efficace contre les adversaires qui s\'appuient sur le bras éloigné pour échapper au Side Control'
         ],
         'fixItFast': [
             'S\'ils résistent à l\'isolation du bras : passez à l\'arm drag ou à la kimura',
@@ -595,19 +595,19 @@ translations_fr = {
             'Si l\'adversaire résiste fortement, relâchez la leg drag et passez à une autre passe'
         ],
         'keyCorrections': [
-            'S\'ils ne s\'appuient pas sur le bras éloigné : continuez la leg drag jusqu\'au side control ou mount',
+            'S\'ils ne s\'appuient pas sur le bras éloigné : continuez la leg drag jusqu\'au Side Control ou Mount',
             'S\'ils s\'appuient et vous passez dessous : back control établi',
             'S\'ils se détournent pendant la traînée : relâchez la jambe et prenez le dos directement'
         ],
         'systemLogic': {
             'corePrinciple': 'Leg drag vers prise de dos : contrôlez leur jambe proche → traînez-la en travers de votre corps → l\'adversaire s\'appuie sur le bras éloigné (déclencheur) → relâchez la jambe → passez sous leur bras qui s\'appuie → tournez derrière → établissez le back control.',
             'decisionTree': [
-                {'condition': 'Ils ne s\'appuient pas sur le bras éloigné', 'action': 'continuez la leg drag jusqu\'au side control ou mount'},
+                {'condition': 'Ils ne s\'appuient pas sur le bras éloigné', 'action': 'continuez la leg drag jusqu\'au Side Control ou Mount'},
                 {'condition': 'Ils s\'appuient et vous passez dessous', 'action': 'back control établi'},
                 {'condition': 'Ils se détournent pendant la traînée', 'action': 'relâchez la jambe et prenez le dos directement'}
             ],
             'exitStrategies': [
-                'Si la prise de dos échoue, vous devriez toujours avoir le side control',
+                'Si la prise de dos échoue, vous devriez toujours avoir le Side Control',
                 'S\'ils tournent vers vous, passez à la passe'
             ]
         },
@@ -617,14 +617,14 @@ translations_fr = {
             'La leg drag vers la prise de dos est particulièrement efficace contre les adversaires qui s\'appuient largement pour défendre la passe'
         ],
         'fixItFast': [
-            'S\'ils ne s\'appuient pas : continuez la traînée jusqu\'au side control — la prise de dos n\'est pas disponible',
+            'S\'ils ne s\'appuient pas : continuez la traînée jusqu\'au Side Control — la prise de dos n\'est pas disponible',
             'Si vous passez par-dessus au lieu de dessous : reset et passez sous le bras',
             'S\'ils tournent vers vous pendant la traînée : passez à la passe — la prise de dos n\'est plus disponible'
         ]
     },
 
-    # 12. TURTLE TO GUARD RECOVERY
-    'turtle-to-guard-recovery': {
+    # 12. TURTLE TO Guard RECOVERY
+    'turtle-to-Guard-recovery': {
         'shortInstruction': 'Depuis la turtle, protégez le cou, lisez l\'engagement du poids, abaissez la hanche proche, donnez un coup de pied à la jambe éloignée à travers, pompez le bras intérieur et rétablissez la guarde.',
         'summary': 'La récupération de guarde depuis la turtle utilise un basculement explosif des hanches pour créer de l\'espace, ramener les jambes entre vous et l\'adversaire, et rétablir la guarde. Contrairement à la remontée debout qui désengage, la récupération de guarde maintient le combat dans votre guarde où vous pouvez attaquer.',
         'whyItWorks': [

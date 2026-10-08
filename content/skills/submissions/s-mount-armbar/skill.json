@@ -1,18 +1,18 @@
 {
-  "id": "s-mount-armbar",
+  "id": "s-Mount-armbar",
   "domain": "submission_systems",
   "level": "advanced",
   "name": "S-Mount Armbar",
   "aliases": [],
   "tags": [
-    "s-mount",
+    "s-Mount",
     "armbar",
     "shoulder-lock-safety",
     "tier:modern-expansion",
     "meta:modern-common",
     "risk:high",
     "family:submission",
-    "group:s-mount",
+    "group:s-Mount",
     "modern-no-gi"
   ],
   "keywords": [
@@ -23,7 +23,7 @@
   "modernSystemGroup": "s_mount",
   "relatedSkills": [
     {
-      "id": "s-mount-control",
+      "id": "s-Mount-control",
       "type": "recommended"
     },
     {
@@ -36,8 +36,8 @@
     }
   ],
   "prerequisiteSkillIds": [
-    "s-mount-control",
-    "mount-control"
+    "s-Mount-control",
+    "Mount-control"
   ],
   "relatedPositions": [],
   "relatedConcepts": [],

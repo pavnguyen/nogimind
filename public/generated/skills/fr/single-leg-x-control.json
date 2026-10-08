@@ -8,13 +8,13 @@
   "tags": [
     "single-leg-x",
     "ashi-garami",
-    "guard",
+    "Guard",
     "sweep",
     "leg-entry",
     "tier:modern-expansion",
     "meta:modern-common",
     "risk:medium",
-    "family:guard",
+    "family:Guard",
     "group:single-leg_x",
     "modern-no-gi"
   ],
@@ -27,15 +27,15 @@
   "modernSystemGroup": "single_leg_x",
   "relatedSkills": [
     {
-      "id": "x-guard-control",
+      "id": "x-Guard-control",
       "type": "recommended"
     },
     {
-      "id": "k-guard-matrix",
+      "id": "k-Guard-matrix",
       "type": "recommended"
     },
     {
-      "id": "butterfly-guard-off-balance",
+      "id": "butterfly-Guard-off-balance",
       "type": "recommended"
     }
   ],
@@ -47,7 +47,7 @@
   "archetypeIds": [],
   "relatedArchetypeIds": [],
   "prerequisiteSkillIds": [
-    "seated-guard-retention",
+    "seated-Guard-retention",
     "leg-lock-safety-basics"
   ],
   "trainingMethodIds": [],
@@ -75,7 +75,7 @@
   "summary": "Le contrôle X sur une seule jambe va au-delà des bases : cela signifie que vous possédez entièrement la jambe piégée de l'adversaire. Ils ne peuvent pas le libérer, ne peuvent pas en sortir et ne peuvent pas s’appuyer sur lui. À partir de ce niveau de contrôle, toutes les options sont disponibles : vous pouvez les balayer sur le dos, les reprendre lorsqu'ils postent ou les laisser tomber dans un enchevêtrement de jambes. La différence entre les contrôles de base SLX et SLX réside dans la profondeur de votre serrure et dans votre capacité à lire et à réagir à leurs changements de poids.",
   "whyItWorks": [
     "Un SLX correctement verrouillé vous donne l'avantage mécanique de deux jambes contre une : elles ne peuvent pas simplement se libérer.",
-    "Contrôler la hanche avec votre pied les empêche de tourner ou de contourner votre guard.",
+    "Contrôler la hanche avec votre pied les empêche de tourner ou de contourner votre Guard.",
     "Votre proximité avec leur centre de masse signifie que chaque transfert de poids qu'ils effectuent est télégraphié à travers la jambe piégée.",
     "Principe de Danaher : la transition de SLX à l'arrivée doit être continue – contrôle par le mouvement."
   ],
@@ -120,7 +120,7 @@
     "Maintenez une poignée ou une poignée de poignet sur leur bras éloigné pour les empêcher de poster ou de vous attraper la tête.",
     "Lorsqu'ils affichent une main pour défendre le balayage, ce bras est maintenant engagé – attaquez le armbar ou passez à l'arrière."
   ],
-  "nextStep": "Après avoir maîtrisé le contrôle SLX, apprenez les balayages avancés et la transition continue vers X-guard.",
+  "nextStep": "Après avoir maîtrisé le contrôle SLX, apprenez les balayages avancés et la transition continue vers X-Guard.",
   "fixItFast": [
     "Ils continuent à libérer leur jambe ? Verrouillez plus haut – derrière le genou, pas le mollet.",
     "Vous ne pouvez pas balayer ? Votre pied de hanche est trop passif – enfoncez-le dans sa hanche pendant que vous tirez sur la jambe coincée.",

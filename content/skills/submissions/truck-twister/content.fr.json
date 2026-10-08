@@ -2,7 +2,7 @@
   "id": "truck-twister",
   "locale": "fr",
   "name": "Camion / Twister",
-  "description": "La position du camion et la soumission du twister : depuis l'arrière ou side control, verrouillez un corps triangle autour du torse de l'adversaire et tirez sa tête vers sa propre hanche pour créer un verrou spinal.",
+  "description": "La position du camion et la soumission du twister : depuis l'arrière ou Side Control, verrouillez un corps triangle autour du torse de l'adversaire et tirez sa tête vers sa propre hanche pour créer un verrou spinal.",
   "shortInstruction": "Corps triangle autour du torse, tirez la tête vers la hanche, cambrez le dos – le twister est un verrou spinal, pas un étranglement.",
   "summary": "Le camion est une position spécialisée où vous contrôlez l'adversaire de côté avec un corps triangle (similaire à la position du camion en lutte). Depuis le camion, vous pouvez attaquer le twister – un verrou spinal qui tord la colonne vertébrale de l'adversaire en tirant sa tête vers sa propre hanche. Le twister n’est pas un étranglement ou un verrou articulaire – c’est un verrou vertébral qui crée une pression intense sur les vertèbres. Il est spécifique à No-Gi (le gi rend plus difficile le maintien du corps triangle) et est connu pour être extrêmement efficace mais nécessitant un positionnement précis.",
   "whyItWorks": [
@@ -36,7 +36,7 @@
     "S’ils passent, suivez leur rotation et réattaquez de l’autre côté."
   ],
   "systemLogic": {
-    "corePrinciple": "side control ou half guard : sécuriser le corps triangle (position du camion) → contrôler le bras éloigné → tirer la tête vers la hanche → cambrer le dos → terminer.",
+    "corePrinciple": "Side Control ou Half Guard : sécuriser le corps triangle (position du camion) → contrôler le bras éloigné → tirer la tête vers la hanche → cambrer le dos → terminer.",
     "decisionTree": [
       {
         "condition": "Application générale",

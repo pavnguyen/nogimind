@@ -4,7 +4,7 @@
   "name": "back control",
   "description": "Dominez l'arrière avec un seatbelt verrouillé, des crochets ou un corps actifs triangle et des combats de mains systématiques pour garder le contrôle et mettre en place des soumissions.",
   "shortInstruction": "Poitrine jusqu'à la colonne vertébrale, seatbelt verrouillé, crochets, combat à main – back control est le roi des positions pour une raison.",
-  "summary": "back control est la position la plus dominante dans BJJ. À partir de là, vous contrôlez presque entièrement leurs mouvements. Le seatbelt (un bras sur l'épaule, un sous l'aisselle, les mains jointes) contrôle le haut du corps. Les crochets (pieds à l'intérieur des cuisses) ou le corps triangle (jambes enroulées autour du torse) contrôlent le bas du corps. À partir de ce contrôle complet, vous pouvez attaquer le cou, les bras ou passer à mount.",
+  "summary": "back control est la position la plus dominante dans BJJ. À partir de là, vous contrôlez presque entièrement leurs mouvements. Le seatbelt (un bras sur l'épaule, un sous l'aisselle, les mains jointes) contrôle le haut du corps. Les crochets (pieds à l'intérieur des cuisses) ou le corps triangle (jambes enroulées autour du torse) contrôlent le bas du corps. À partir de ce contrôle complet, vous pouvez attaquer le cou, les bras ou passer à Mount.",
   "whyItWorks": [
     "De dos, vous voyez tout ce qu’ils font alors qu’ils ne peuvent pas vous voir – l’avantage de réaction est énorme.",
     "Le seatbelt et les crochets créent une cage autour de leur corps – ils ne peuvent pas s'échapper sans briser plusieurs commandes.",
@@ -30,7 +30,7 @@
   ],
   "keyCorrections": [
     "S'ils décollent un crochet, passez à un corps triangle ou croisez les pieds.",
-    "S'ils se rendent, relâchez le seatbelt et prenez le mount – ne les poursuivez pas.",
+    "S'ils se rendent, relâchez le seatbelt et prenez le Mount – ne les poursuivez pas.",
     "S'ils attrapent votre main seatbelt, renvoyez votre main vers l'intérieur."
   ],
   "systemLogic": {
@@ -54,12 +54,12 @@
       },
       {
         "condition": "Ils se tournent vers toi",
-        "action": "Relâchez le seatbelt et prenez mount — ne poursuivez pas la position arrière"
+        "action": "Relâchez le seatbelt et prenez Mount — ne poursuivez pas la position arrière"
       }
     ],
     "exitStrategies": [
       "Si vous perdez le seatbelt, saisissez-le à nouveau avant qu'il ne puisse créer de l'espace.",
-      "S'ils décollent les deux crochets et vous aplatissent, revenez à un front headlock ou levez-vous pour réinitialiser l'engagement.",
+      "S'ils décollent les deux crochets et vous aplatissent, revenez à un Front Headlock ou levez-vous pour réinitialiser l'engagement.",
       "back control est une position d'attaque de transition — ne vous y reposez pas ; attaquer ou avancer"
     ]
   },
@@ -67,12 +67,12 @@
     "Vos crochets doivent être actifs – les pieds recourbés, pressés contre l’intérieur de leurs cuisses et non pendant.",
     "La prise seatbelt doit être paume contre paume, et non entre les doigts – une prise plus forte évite la casse.",
     "Gardez votre tête d'un côté de sa colonne vertébrale – cela protège votre visage des coudes et les empêche de se transformer en vous.",
-    "Lorsqu'ils essaient de se transformer en vous, suivez leurs hanches et prenez mount — la transition du retour à mount est une chaîne critique."
+    "Lorsqu'ils essaient de se transformer en vous, suivez leurs hanches et prenez Mount — la transition du retour à Mount est une chaîne critique."
   ],
   "nextStep": "Après back control, apprenez le système d'attaque arrière (RNC, bras triangle, transitions arrière).",
   "fixItFast": [
     "Les crochets continuent de se décoller ? Passez immédiatement au corps triangle.",
     "Poignée seatbelt cassée ? Reprenez-la avant qu'elle ne se retourne – ne la laissez pas créer de l'espace.",
-    "Ils se rendent ? Relâchez les crochets et suivez leurs hanches jusqu'à mount."
+    "Ils se rendent ? Relâchez les crochets et suivez leurs hanches jusqu'à Mount."
   ]
 }

@@ -2,12 +2,12 @@
   "id": "claw-ride",
   "locale": "vi",
   "name": "Đi xe vuốt",
-  "description": "Sử dụng kẹp cánh tay và ngực xung quanh đường hông hoặc thân của rùa, xây dựng phần đế và cố định phần lưng tiếp xúc thông qua các công tắc hông và chiến đấu bằng tay. Cùm cưỡi là một hệ thống điều khiển chuyển tiếp sử dụng kẹp chân và tay để phá vỡ vị trí của rùa.",
-  "shortInstruction": "Từ con rùa, kẹp cánh tay gần của bạn quanh hông chúng (nắm móng vuốt), ấn ngực vào xương sườn của chúng và đưa hông sang một bên để làm sập phần đế của chúng. Chuyển đổi giữa vuốt và quay lại khi chúng phản ứng.",
-  "summary": "Động tác cưỡi vuốt sử dụng một đòn kẹp tay sâu quanh hông hoặc phần thân dưới của đối phương để phá vỡ tư thế rùa và để lộ phần lưng. Kiểu nắm móng vuốt (cánh tay quấn quanh hông, tay nắm lấy phần hông xa hoặc đường thắt lưng) tạo ra một đòn bẩy cấu trúc cho phép bạn kéo đối thủ xuống trong khi áp lực ngực của bạn ngăn cản họ đứng lên. Hệ thống xen kẽ giữa áp lực bằng móng vuốt và các nỗ lực lùi lại, buộc đối thủ phải phòng thủ một bên và vạch trần bên kia.",
+  "description": "Sử dụng kẹp cánh tay và ngực xung quanh đường hông hoặc thân của Tư thế rùa, xây dựng phần đế và cố định phần lưng tiếp xúc thông qua các công tắc hông và chiến đấu bằng tay. Cùm cưỡi là một hệ thống điều khiển chuyển tiếp sử dụng kẹp chân và tay để phá vỡ vị trí của Tư thế rùa.",
+  "shortInstruction": "Từ con Tư thế rùa, kẹp cánh tay gần của bạn quanh hông chúng (nắm móng vuốt), ấn ngực vào xương sườn của chúng và đưa hông sang một bên để làm sập phần đế của chúng. Chuyển đổi giữa vuốt và quay lại khi chúng phản ứng.",
+  "summary": "Động tác cưỡi vuốt sử dụng một đòn kẹp tay sâu quanh hông hoặc phần thân dưới của đối phương để phá vỡ tư thế Tư thế rùa và để lộ phần lưng. Kiểu nắm móng vuốt (cánh tay quấn quanh hông, tay nắm lấy phần hông xa hoặc đường thắt lưng) tạo ra một đòn bẩy cấu trúc cho phép bạn kéo đối thủ xuống trong khi áp lực ngực của bạn ngăn cản họ đứng lên. Hệ thống xen kẽ giữa áp lực bằng móng vuốt và các nỗ lực lùi lại, buộc đối thủ phải phòng thủ một bên và vạch trần bên kia.",
   "whyItWorks": [
     "Tay nắm dạng vuốt ở hông xa tạo ra một đòn bẩy kéo phần đế của đối phương ra khỏi phía dưới họ - họ không thể đứng dậy khi hông bị kéo về phía bạn",
-    "Áp lực của ngực lên xương sườn khiến chúng không thể ngồi dậy hoặc quay sang bạn - hai con rùa chính trốn thoát",
+    "Áp lực của ngực lên xương sườn khiến chúng không thể ngồi dậy hoặc quay sang bạn - hai con Tư thế rùa chính trốn thoát",
     "Việc xen kẽ giữa áp lực vuốt và nỗ lực lùi lại sẽ tạo ra một tình huống khó xử - nếu họ bảo vệ móng vuốt, họ sẽ làm lộ phần lưng",
     "Việc di chuyển bằng móng vuốt hoạt động từ cả hai phía - bạn có thể chuyển móng vuốt của mình sang hông đối diện mà không bị mất áp lực"
   ],
@@ -24,7 +24,7 @@
     "Bảo vệ vị trí đầu của bạn"
   ],
   "safetySummary": [
-    "Không tạo áp lực xoay đột ngột lên cột sống của đối phương khi hạ gục rùa - hãy sử dụng áp lực chậm, có kiểm soát",
+    "Không tạo áp lực xoay đột ngột lên cột sống của đối phương khi hạ gục Tư thế rùa - hãy sử dụng áp lực chậm, có kiểm soát",
     "Nếu đối thủ bất ngờ lăn ra khỏi xe vuốt, hãy bảo vệ đầu và cổ của bạn",
     "Hãy chú ý đến ngón tay của bạn khi vuốt - ngón tay bị kẹt giữa thảm và cơ thể đối phương có thể bị thương"
   ],
@@ -34,14 +34,14 @@
     "Nếu bạn mất khả năng bám móng vuốt: hãy thiết lập lại nó bằng cách đưa tay vào sâu hơn xung quanh hông của họ"
   ],
   "systemLogic": {
-    "corePrinciple": "Hành trình vuốt ve là một hệ thống ba giai đoạn: Thiết lập móng vuốt: Thu gọn Rùa → Quay lại",
+    "corePrinciple": "Hành trình vuốt ve là một hệ thống ba giai đoạn: Thiết lập móng vuốt: Thu gọn Tư thế rùa → Quay lại",
     "decisionTree": [
       {
         "condition": "Ở Giai đoạn 1 (Thiết lập móng vuốt)",
-        "action": "từ phía sau rùa, đưa cánh tay gần của bạn quanh hông chúng và nắm lấy nếp gấp hoặc thắt lưng ở hông xa của chúng. Ngực của bạn phải được kết nối với lưng trên hoặc xương bả vai của họ"
+        "action": "từ phía sau Tư thế rùa, đưa cánh tay gần của bạn quanh hông chúng và nắm lấy nếp gấp hoặc thắt lưng ở hông xa của chúng. Ngực của bạn phải được kết nối với lưng trên hoặc xương bả vai của họ"
       },
       {
-        "condition": "Ở Giai đoạn 2 (Thu gọn Rùa)",
+        "condition": "Ở Giai đoạn 2 (Thu gọn Tư thế rùa)",
         "action": "đẩy ngực của bạn xuống lưng họ đồng thời kéo hông họ về phía bạn bằng tay nắm. Đưa đầu gối của bạn về phía đầu của chúng để làm phẳng chúng. Họ nên lăn trên hông hoặc bên hông"
       },
       {
@@ -55,8 +55,8 @@
     ]
   },
   "moneyDetails": [
-    "Cưỡi bằng móng vuốt là hệ thống phá rùa chính trong đấu vật hiện đại và BJJ — mọi vận động viên vật lộn được huấn luyện để bẻ rùa đều sử dụng hệ thống này",
-    "Việc thành thạo cách cưỡi bằng càng sẽ mang lại cho bạn một con đường đáng tin cậy từ rùa đến back control — vị trí thuận lợi nhất trong môn vật lộn",
+    "Cưỡi bằng móng vuốt là hệ thống phá Tư thế rùa chính trong đấu vật hiện đại và BJJ — mọi vận động viên vật lộn được huấn luyện để bẻ Tư thế rùa đều sử dụng hệ thống này",
+    "Việc thành thạo cách cưỡi bằng càng sẽ mang lại cho bạn một con đường đáng tin cậy từ Tư thế rùa đến back control — vị trí thuận lợi nhất trong môn vật lộn",
     "Động tác vuốt có tác dụng chống lại những đối thủ lớn hơn vì nó sử dụng đòn bẩy (kéo hông) thay vì sức mạnh"
   ],
   "fixItFast": [

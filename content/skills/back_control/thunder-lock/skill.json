@@ -1,0 +1,75 @@
+{
+  "id": "thunder-lock",
+  "domain": "back_control",
+  "level": "intermediate",
+  "status": "draft",
+  "name": "Thunder Lock / Further Nelson",
+  "aliases": [
+    "thunder lock",
+    "thunderlock",
+    "further nelson",
+    "back shoulder lock",
+    "straight-back shoulder lock"
+  ],
+  "tags": [
+    "tier:modern-expansion",
+    "meta:emerging",
+    "risk:high",
+    "family:submission",
+    "group:back-control",
+    "modern-no-gi",
+    "shoulder-lock",
+    "nelson",
+    "back-control"
+  ],
+  "keywords": [
+    "thunder lock",
+    "further nelson",
+    "shoulder lock from the back",
+    "back Mount shoulder lock",
+    "answer the phone defense counter",
+    "arm behind the head lock",
+    "back control submission",
+    "nelson shoulder lock"
+  ],
+  "modernSystemGroup": "back_control",
+  "relatedSkills": [
+    {
+      "id": "rear-naked-choke-system",
+      "type": "chain"
+    },
+    {
+      "id": "back-control",
+      "type": "supporting"
+    },
+    {
+      "id": "gift-wrap-back-take",
+      "type": "supporting"
+    },
+    {
+      "id": "kimura-system",
+      "type": "alternative"
+    }
+  ],
+  "prerequisiteSkillIds": [
+    "back-control"
+  ],
+  "relatedPositions": [],
+  "relatedConcepts": [],
+  "archetypeIds": [
+    "back-control-finisher"
+  ],
+  "trainingMethodIds": [],
+  "featureFlags": {
+    "hasMicroDetails": true,
+    "hasChecklist": true,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "contentRefs": {
+    "microDetails": "content.en.json#microDetailSystem",
+    "videos": "videos.json",
+    "qualityChecklist": "content.en.json#qualityChecklist"
+  },
+  "updatedAt": "2026-10-08T00:00:00.000Z"
+}

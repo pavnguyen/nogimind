@@ -7,7 +7,7 @@
   "shortInstruction": "Verrouillez bas sur les hanches, décalez la tête, tuez les crochets, dégagez la ligne des genoux, stabilisez le pin.",
   "summary": "Un système de passage de pression de base No-Gi qui neutralise les hanches avant de dégager les jambes.",
   "whyItWorks": [
-    "Verrouille les deux hanches avant que l'adversaire puisse re-guard ou créer des frames.",
+    "Verrouille les deux hanches avant que l'adversaire puisse re-Guard ou créer des frames.",
     "Transforme la pression du haut du corps en immobilité du bas du corps.",
     "Nie les crochets papillon, le craquement des épaules et les coups à l'intérieur du genou.",
     "Crée un dilemme entre se faire aplatir ou abandonner la passe."
@@ -32,7 +32,7 @@
       "Gardez la tête décalée sur le côté (oreille près de la hanche).",
       "Tuez le crochet papillon avec une pression sur le genou et la poitrine.",
       "Pare-brise le genou le plus proche au-delà du cadre du tibia.",
-      "Dégagez la ligne du genou et stabilisez side control."
+      "Dégagez la ligne du genou et stabilisez Side Control."
     ]
   },
   "safetySummary": [
@@ -42,7 +42,7 @@
   ],
   "keyCorrections": [
     "Si vous êtes coincé, votre tête est centrée – décalez-la d’un côté.",
-    "S'ils re-guard, vous avez libéré le verrou trop tôt.",
+    "S'ils re-Guard, vous avez libéré le verrou trop tôt.",
     "S'ils craquent, votre poitrine est trop haute."
   ],
   "systemLogic": {
@@ -54,7 +54,7 @@
       },
       {
         "condition": "L'adversaire est à plat sur le dos, sans crochets",
-        "action": "Écartez les genoux, placez les deux genoux au-delà de la ligne des hanches, puis relâchez le verrou et la goupille side control."
+        "action": "Écartez les genoux, placez les deux genoux au-delà de la ligne des hanches, puis relâchez le verrou et la goupille Side Control."
       },
       {
         "condition": "L'adversaire se cadre contre votre poitrine",
@@ -70,7 +70,7 @@
       }
     ],
     "exitStrategies": [
-      "Si le dépassement échoue, passez au dépassement half guard ou au contrôle du quartier général.",
+      "Si le dépassement échoue, passez au dépassement Half Guard ou au contrôle du quartier général.",
       "Si l'adversaire crée trop d'espace, levez-vous et réengagez-vous à partir d'une position basse.",
       "Si le blocage du corps est systématiquement contré, passez aux passes par-dessus ou par traînée de jambe."
     ]
@@ -78,9 +78,9 @@
   "moneyDetails": [
     "Le décalage de la tête est le détail le plus sous-estimé : il bloque le resserrement des épaules et la rotation des hanches.",
     "Tuer l'hameçon papillon n'est pas facultatif ; sans cela, vos hanches se soulèvent.",
-    "Relâchez le verrou corporel seulement une fois que la ligne du genou est passée et que side control est épinglé."
+    "Relâchez le verrou corporel seulement une fois que la ligne du genou est passée et que Side Control est épinglé."
   ],
-  "nextStep": "Après avoir stabilisé side control, passez à mount, back control ou à des systèmes de soumission comme arm triangle.",
+  "nextStep": "Après avoir stabilisé Side Control, passez à Mount, back control ou à des systèmes de soumission comme arm triangle.",
   "fixItFast": [
     "Vous ne parvenez pas à verrouiller les hanches ? Abaissez le niveau de votre poitrine et élargissez vos genoux.",
     "Se faire lever ? Votre poitrine est trop haute et le crochet est toujours vivant.",

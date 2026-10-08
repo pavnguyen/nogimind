@@ -7,12 +7,12 @@
   "tags": [
     "choi-bar",
     "shoulder-lock",
-    "clamp-guard",
+    "clamp-Guard",
     "tier:modern-expansion",
     "meta:modern-common",
     "risk:high",
     "family:submission",
-    "group:clamp-guard",
+    "group:clamp-Guard",
     "modern-no-gi"
   ],
   "keywords": [
@@ -23,7 +23,7 @@
   "modernSystemGroup": "clamp_guard",
   "relatedSkills": [
     {
-      "id": "clamp-guard-control",
+      "id": "clamp-Guard-control",
       "type": "recommended"
     },
     {
@@ -31,12 +31,12 @@
       "type": "recommended"
     },
     {
-      "id": "s-mount-armbar",
+      "id": "s-Mount-armbar",
       "type": "recommended"
     }
   ],
   "prerequisiteSkillIds": [
-    "clamp-guard-control",
+    "clamp-Guard-control",
     "kimura-system"
   ],
   "relatedPositions": [],

@@ -6,18 +6,18 @@
   "name": "K-Guard to Matrix",
   "aliases": [],
   "tags": [
-    "k-guard",
+    "k-Guard",
     "matrix",
     "backside-entry",
     "tier:modern-expansion",
     "meta:modern-common",
     "risk:high",
     "family:leg-lock",
-    "group:k-guard",
+    "group:k-Guard",
     "modern-no-gi"
   ],
   "keywords": [
-    "K-guard",
+    "K-Guard",
     "matrix",
     "backside"
   ],
@@ -44,7 +44,7 @@
   "archetypeIds": [],
   "relatedArchetypeIds": [],
   "prerequisiteSkillIds": [
-    "k-guard-entry",
+    "k-Guard-entry",
     "leg-lock-safety-basics"
   ],
   "trainingMethodIds": [],
@@ -67,14 +67,14 @@
     "hasStateMachine": false
   },
   "locale": "en",
-  "description": "Transition from K-guard into the matrix (under-hip reversal) to create a backside angle for back takes, reverse leg drags, or leg entanglement finishes.",
-  "shortInstruction": "K-guard to matrix: rotate your hips over, hook the far hip, and come up on the backside.",
-  "summary": "The K-guard to matrix transition is the most powerful back-side entry in modern no-gi. When you are in K-guard and they defend the leg entanglement by stepping back or posting, you rotate your hips over your own shoulder and 'matrix' under their hips — reversing your angle from under them to behind them. From the matrix, you can take the back, enter a reverse leg drag, or finish a heel hook from the backside.",
+  "description": "Transition from K-Guard into the matrix (under-hip reversal) to create a backside angle for back takes, reverse leg drags, or leg entanglement finishes.",
+  "shortInstruction": "K-Guard to matrix: rotate your hips over, hook the far hip, and come up on the backside.",
+  "summary": "The K-Guard to matrix transition is the most powerful back-side entry in modern no-gi. When you are in K-Guard and they defend the leg entanglement by stepping back or posting, you rotate your hips over your own shoulder and 'matrix' under their hips — reversing your angle from under them to behind them. From the matrix, you can take the back, enter a reverse leg drag, or finish a heel hook from the backside.",
   "whyItWorks": [
     "The matrix reverses the inside/outside relationship — you go from being underneath to being behind them.",
     "It turns their defense (stepping back) into your offense (back take).",
     "The matrix does not require strength — it is a hip rotation and angle change.",
-    "Danaher principle: the matrix solves the problem of the opponent stepping out of K-guard."
+    "Danaher principle: the matrix solves the problem of the opponent stepping out of K-Guard."
   ],
   "commonMistakes": [
     "Trying to matrix without controlling their far arm — they will spin and face you.",
@@ -94,15 +94,15 @@
     "If you feel pressure on your lower back during the rotation, bail out and reset."
   ],
   "systemLogic": {
-    "corePrinciple": "K-guard established: opponent steps back or posts → rotate hips over shoulder → hook far hip → take back or enter reverse leg drag.",
+    "corePrinciple": "K-Guard established: opponent steps back or posts → rotate hips over shoulder → hook far hip → take back or enter reverse leg drag.",
     "decisionTree": [
       {
         "condition": "General application",
-        "action": "The matrix works because the K-guard already has you under their center — the rotation just reverses the angle."
+        "action": "The matrix works because the K-Guard already has you under their center — the rotation just reverses the angle."
       },
       {
         "condition": "they don't step back",
-        "action": "attack the leg entanglement from K-guard instead."
+        "action": "attack the leg entanglement from K-Guard instead."
       }
     ],
     "exitStrategies": []
@@ -113,7 +113,7 @@
     "Control their near arm throughout the rotation to prevent them from peeling you off.",
     "When you land in the matrix, immediately look for the back take — don't pause."
   ],
-  "nextStep": "After the matrix, learn the back take from K-guard and the reverse leg drag entry.",
+  "nextStep": "After the matrix, learn the back take from K-Guard and the reverse leg drag entry.",
   "fixItFast": [
     "Matrix feels clunky? Practice the hip rotation on the ground without a partner — shoulder-over, not head-over.",
     "Can't take the back? You didn't hook the far hip — re-establish the hip hook before coming up.",

@@ -14,11 +14,11 @@ type Candidate = {
 const queries = [
   { query: 'no gi rear naked choke details', skill: 'rear-naked-choke-system' },
   { query: 'rear naked choke hand fighting no gi', skill: 'rear-naked-choke-system' },
-  { query: 'no gi armbar from mount details', skill: 'armbar-system' },
+  { query: 'no gi armbar from Mount details', skill: 'armbar-system' },
   { query: 'no gi triangle choke angle', skill: 'triangle-system' },
   { query: 'no gi body lock pass', skill: 'bodylock-passing' },
   { query: 'heel hook safety knee line', skill: 'heel-hook-safety' },
-  { query: 'octopus guard no gi', skill: 'octopus-guard' },
+  { query: 'octopus Guard no gi', skill: 'octopus-Guard' },
   { query: 'false reap no gi', skill: 'false-reap-entry' },
   { query: 'crab ride no gi', skill: 'crab-ride' },
   { query: 'no gi smother safety', skill: 'smother-safety' },

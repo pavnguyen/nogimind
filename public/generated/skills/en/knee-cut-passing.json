@@ -21,7 +21,7 @@
       "type": "recommended"
     },
     {
-      "id": "half-guard-knee-shield",
+      "id": "half-Guard-knee-shield",
       "type": "recommended"
     },
     {
@@ -46,7 +46,7 @@
   "keyCorrections": [
     "If the knee cut stalls: your crossface is not deep enough — drive the crossface harder to turn their head away",
     "If they roll into you: you lost the underhook — re-pummel the underhook before cutting",
-    "If they re-guard after the cut: you released the crossface too early — maintain the crossface through side control"
+    "If they re-Guard after the cut: you released the crossface too early — maintain the crossface through Side Control"
   ],
   "version": 1,
   "updatedAt": "2026-05-21T00:24:30.748Z",
@@ -61,14 +61,14 @@
     "hasStateMachine": false
   },
   "locale": "en",
-  "description": "Use the knee cut with crossface and underhook or long step to beat the knee shield. The knee cut is the highest-percentage guard pass in no-gi BJJ.",
-  "shortInstruction": "From headquarters, drop your posted knee to the mat, circle it past their knee shield, pin their head with a crossface, and drive to side control.",
-  "summary": "The knee cut pass attacks the space between the opponent's hip and their near leg as they defend with a knee shield or half guard. The pass works by: (1) pinning their head with a crossface to prevent them from turning into you, (2) driving your near knee past their knee shield into the space at their hip, (3) extending your leg to pin their near hip, and (4) settling into side control. The knee cut is the go-to pass for most no-gi situations because it maintains top pressure throughout and requires minimal space.",
+  "description": "Use the knee cut with crossface and underhook or long step to beat the knee shield. The knee cut is the highest-percentage Guard pass in no-gi BJJ.",
+  "shortInstruction": "From headquarters, drop your posted knee to the mat, circle it past their knee shield, pin their head with a crossface, and drive to Side Control.",
+  "summary": "The knee cut pass attacks the space between the opponent's hip and their near leg as they defend with a knee shield or Half Guard. The pass works by: (1) pinning their head with a crossface to prevent them from turning into you, (2) driving your near knee past their knee shield into the space at their hip, (3) extending your leg to pin their near hip, and (4) settling into Side Control. The knee cut is the go-to pass for most no-gi situations because it maintains top pressure throughout and requires minimal space.",
   "whyItWorks": [
     "The crossface prevents the opponent from looking away — where the head goes, the body follows",
-    "Driving the knee past the knee shield attacks the weakest structural point of their guard — the hip",
+    "Driving the knee past the knee shield attacks the weakest structural point of their Guard — the hip",
     "The knee cut maintains chest-to-chest pressure throughout the pass, preventing them from re-guarding",
-    "The knee cut works against all guard types (half guard, deep half, Z-guard, knee shield)"
+    "The knee cut works against all Guard types (Half Guard, deep half, Z-Guard, knee shield)"
   ],
   "commonMistakes": [
     "Cutting the knee without the crossface — the crossface is what prevents their escape, not the knee position",
@@ -100,11 +100,11 @@
       },
       {
         "condition": "In Phase 3 (Extension)",
-        "action": "once the knee is past their hip, extend your leg to pin their near hip to the mat. This prevents them from recovering guard"
+        "action": "once the knee is past their hip, extend your leg to pin their near hip to the mat. This prevents them from recovering Guard"
       },
       {
         "condition": "In Phase 4 (Side Control)",
-        "action": "settle into side control with chest-to-chest pressure, underhook, and crossface"
+        "action": "settle into Side Control with chest-to-chest pressure, underhook, and crossface"
       },
       {
         "condition": "Choosing a variation",
@@ -114,13 +114,13 @@
     "exitStrategies": []
   },
   "moneyDetails": [
-    "The knee cut is the highest-percentage guard pass in no-gi — it should be your primary pass from headquarters",
-    "Mastering the knee cut gives you a reliable path to side control from any open guard",
-    "The knee cut to side control scores 3 points in IBJJF (guard pass)"
+    "The knee cut is the highest-percentage Guard pass in no-gi — it should be your primary pass from headquarters",
+    "Mastering the knee cut gives you a reliable path to Side Control from any open Guard",
+    "The knee cut to Side Control scores 3 points in IBJJF (Guard pass)"
   ],
   "fixItFast": [
     "If they keep rolling into the cut: add the long step — step your far leg over their head to block the roll",
     "If they keep shin framing: drop your weight onto the shin to collapse it before cutting",
-    "If they keep re-guarding: maintain the crossface through the entire transition to side control"
+    "If they keep re-guarding: maintain the crossface through the entire transition to Side Control"
   ]
 }

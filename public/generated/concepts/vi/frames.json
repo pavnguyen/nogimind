@@ -1,7 +1,7 @@
 {
   "id": "frames",
   "locale": "vi",
-  "title": "Frames",
+  "title": "Khung chặn (frame)",
   "category": "mechanical",
   "level": "fundamental",
   "tags": [
@@ -13,61 +13,27 @@
     "connection",
     "space management"
   ],
-  "shortDefinition": "Frame là cấu trúc xương (forearm, shin, knee, bicep) nối vào thân để giữ khoảng cách, không dùng cơ tay đẩy.",
-  "whyItMatters": "Frame đúng cho bạn thở, xoay hông và pummel lại inside. Frame sai làm bạn phòng thủ bằng tay thẳng, dễ bị smash hoặc submission.",
-  "deepExplanation": "Có 4 loại frame chính, mỗi loại dùng ở tình huống khác nhau:\n\n1. Forearm frame (bicep-to-chest) — mạnh nhất, giữ khoảng cách từ shoulder. Dùng trong side control, mount escape, guard retention.\n2. Elbow frame (elbow-to-hip) — ngắn hơn, xoay được hông. Dùng khi cần shrimp hoặc bridge.\n3. Shin frame — dùng trong knee shield, half guard, chặn bodylock hoặc chest-to-chest.\n4. Bicep frame (bent arm across chest) — frame ngắn mạnh, dùng khi bị flatten hoặc đè trực tiếp.\n\nFrame không phải barrier tĩnh. Nó cần active connection — nếu khuỷu trượt khỏi vai/hông, đối thủ chèn chest vào và frame chết. Frame sống là frame biết khi nào push, khi nào xoay và khi nào chuyển sang pummel.",
-  "beginnerView": "Ba nguyên tắc frame:\n1. Khuỷu chạm hông hoặc xương ức, không nổi lơ lửng.\n2. Lưng không cong — spine thẳng để frame truyền lực qua xương.\n3. Khi frame, đồng thời xoay hông — frame không push, nó redirect.\n\nNếu tay bạn mỏi sau 10 giây giữ frame, bạn đang dùng cơ thay vì xương.",
-  "advancedView": "Frame là phase đầu của chuỗi phòng thủ 3 bước: frame → pummel → attack. Frame tốt không kéo dài, nó tạo đủ space để pummel lại inside position. Khi họ đẩy vào frame của bạn, dùng lực đó để shrimp ra hoặc xoay hông. Đọc frame: nếu khuỷu họ xa hông, họ yếu; nếu khuỷu họ dính sườn, họ mạnh. Chuyển từ frame sang wedge (gối) khi họ commit weight — họ đổ thì gối của bạn vào, họ lùi thì bạn pummel.",
-  "ifThenExamples": [
-    {
-      "if": "Nếu bạn mất Frames trong trao đổi.",
-      "then": "Dừng tăng tốc, lấy lại cấu trúc cơ thể gần nhất rồi mới tiếp tục kỹ thuật.",
-      "why": "No-gi hiện đại phạt rất nhanh khi bạn cố thắng bằng sức sau khi mất cấu trúc.",
-      "relatedSkillIds": [
-        "frames-pummeling",
-        "side-control-escape"
-      ]
-    },
-    {
-      "if": "Nếu đối thủ phản ứng đúng với hướng đầu tiên.",
-      "then": "Dùng Frames để đổi sang nhánh an toàn hơn thay vì ép cùng một hướng.",
-      "why": "Concept tốt biến phản ứng của đối thủ thành thông tin cho quyết định tiếp theo.",
-      "relatedSkillIds": [
-        "side-control-escape",
-        "mount-escape",
-        "seated-guard-retention"
-      ]
-    }
-  ],
-  "commonMisunderstandings": [
-    {
-      "misunderstanding": "Frames là một mẹo kỹ thuật riêng lẻ.",
-      "correction": "Hãy xem nó như quy tắc quyết định xuất hiện trong nhiều vị trí khác nhau."
-    },
-    {
-      "misunderstanding": "Bạn chỉ cần hiểu khái niệm là tự động dùng được trong live roll.",
-      "correction": "Khái niệm phải được gắn với body signal, cue ngắn và positional rolling."
-    }
-  ],
-  "trainingCues": [
-    "Gọi tên Frames trước khi tăng lực.",
-    "Tìm body signal, không đoán bằng cảm giác chung.",
-    "Nếu mất cấu trúc, reset một layer trước.",
-    "Drill chậm, test bằng resistance tăng dần."
-  ],
+  "shortDefinition": "Frame là khung chặn tạo bằng cẳng tay, ống chân, đầu gối hoặc bắp tay, giúp giữ khoảng cách mà không phải gồng tay đẩy.",
+  "whyItMatters": "Dựng khung chặn đúng cách giúp bạn có khoảng trống để thở, xoay hông và giành lại đường trong. Nếu chống bằng tay duỗi thẳng, bạn dễ bị ép bẹp hoặc lộ tay cho đối thủ khóa.",
+  "deepExplanation": "Có bốn kiểu khung chặn thường gặp, mỗi kiểu phù hợp với một tình huống:\n\n1. Cẳng tay tì vào ngực hoặc vai: giữ khoảng cách, thường dùng khi bị kiểm soát từ bên hoặc khi giữ Guard.\n2. Khuỷu tay tì vào hông: khung ngắn, giúp tạo góc để xoay hông hoặc đẩy gối vào.\n3. Ống chân chắn ngang: dùng trong knee shield, Half Guard hoặc để ngăn đối thủ áp sát thân.\n4. Bắp tay tì ngang ngực: khung ngắn và chắc khi bạn bị ép sát xuống thảm.\n\nKhung chặn không phải bức tường đứng yên. Hãy giữ điểm tì nối với hông hoặc vai; nếu khuỷu trượt khỏi vị trí, đối thủ có thể áp sát ngực và vô hiệu hóa khung. Một khung chặn tốt giúp bạn biết lúc nào cần giữ khoảng cách, xoay hông hoặc luồn tay vào trong.",
+  "beginnerView": "Ba nguyên tắc khi dựng khung chặn:\n1. Giữ khuỷu gần hông hoặc xương ức; đừng để khuỷu lơ lửng.\n2. Giữ cột sống vững để truyền lực qua cấu trúc xương.\n3. Kết hợp khung chặn với xoay hông: mục tiêu là chuyển hướng lực, không phải đẩy đối thủ bằng tay.\n\nNếu tay nhanh mỏi, có thể bạn đang gồng cơ thay vì dùng cấu trúc cơ thể để chống đỡ.",
+  "advancedView": "Khung chặn là bước đầu trong chuỗi phòng thủ: dựng khung → luồn tay hoặc gối vào trong → chuyển sang tấn công. Khung chặn chỉ cần giữ đủ lâu để bạn tạo khoảng trống, xoay hông hoặc giành lại đường trong. Nếu đối thủ đẩy vào khung, tận dụng lực đó để xoay người thoát ra. Khi họ dồn trọng lượng, chèn gối vào làm điểm tựa; nếu họ lùi lại, luồn tay vào trong để lấy vị trí.",
+  "ifThenExamples": [],
+  "commonMisunderstandings": [],
+  "trainingCues": [],
   "relatedSkillIds": [
     "frames-pummeling",
     "side-control-escape",
-    "mount-escape",
-    "seated-guard-retention",
-    "half-guard-knee-shield",
-    "supine-guard-retention"
+    "Mount-escape",
+    "seated-Guard-retention",
+    "half-Guard-knee-shield",
+    "supine-Guard-retention"
   ],
   "relatedConceptIds": [
     "wedges",
     "posts",
     "elbow-knee-connection",
     "inside-position",
-    "guard-retention-layers"
+    "Guard-retention-layers"
   ]
 }

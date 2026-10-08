@@ -4,7 +4,7 @@
   "title": "Knee On Belly",
   "category": "top_control",
   "status": "advantage",
-  "description": "The top player places a knee on the opponent belly or hip, creating pressure and quick transitions to pass, mount, or submissions.",
+  "description": "The top player places a knee on the opponent belly or hip, creating pressure and quick transitions to pass, Mount, or submissions.",
   "topPlayerGoals": [
     "The top player wants to control Knee On Belly through head position, inside position, and directed pressure.",
     "Keep the knee heavy and move with the hip line to open submissions.",
@@ -12,7 +12,7 @@
   ],
   "bottomPlayerGoals": [
     "The bottom player wants to survive Knee On Belly with frames, pummeling, or the right angle.",
-    "Create frames, pull the leg back to guard, or make space to hip escape.",
+    "Create frames, pull the leg back to Guard, or make space to hip escape.",
     "Recognize danger signals early instead of waiting for the position to settle."
   ],
   "controlPoints": [
@@ -27,12 +27,12 @@
   ],
   "advancementOptions": [
     {
-      "action": "Advance to mount or back take",
-      "nextPositionId": "mount-top",
+      "action": "Advance to Mount or back take",
+      "nextPositionId": "Mount-top",
       "relatedSkillIds": [
         "knee-on-belly-control",
         "side-control-pin",
-        "mount-control"
+        "Mount-control"
       ],
       "why": "This is the natural branch when you win the main control point and the opponent is forced to defend."
     }
@@ -46,7 +46,7 @@
   "relatedSkillIds": [
     "knee-on-belly-control",
     "side-control-pin",
-    "mount-control",
+    "Mount-control",
     "kimura-system"
   ],
   "relatedConceptIds": [

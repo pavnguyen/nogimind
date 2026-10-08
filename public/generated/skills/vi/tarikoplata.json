@@ -13,7 +13,7 @@
     "meta:modern-common",
     "risk:high",
     "family:submission",
-    "group:clamp-guard",
+    "group:clamp-Guard",
     "modern-no-gi"
   ],
   "keywords": [
@@ -32,7 +32,7 @@
       "type": "recommended"
     },
     {
-      "id": "clamp-guard-control",
+      "id": "clamp-Guard-control",
       "type": "recommended"
     }
   ],
@@ -45,7 +45,7 @@
   "relatedArchetypeIds": [],
   "prerequisiteSkillIds": [
     "kimura-system",
-    "clamp-guard-control"
+    "clamp-Guard-control"
   ],
   "trainingMethodIds": [],
   "nextSkillIds": [],
@@ -117,6 +117,6 @@
   "fixItFast": [
     "Cánh tay tiếp tục trốn thoát? Việc điều khiển cổ tay của bạn quá lỏng lẻo — hãy cầm lại với áp lực lớn hơn.",
     "Không thể xoay? Vị trí chân của bạn không đúng - hãy điều chỉnh để chân bạn điều khiển vai của họ chứ không phải cánh tay của họ.",
-    "Họ xếp chồng bạn? Thả ra và đặt lại về guard."
+    "Họ xếp chồng bạn? Thả ra và đặt lại về Guard."
   ]
 }

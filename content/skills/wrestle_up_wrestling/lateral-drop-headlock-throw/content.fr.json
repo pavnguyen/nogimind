@@ -21,7 +21,7 @@
     "Restez debout — ils tombent, vous restez",
     "S'ils s'appuient, passez en double leg"
   ],
-  "shortInstruction": "Attrapez la tête/overhook, avancez le pied à l'intérieur de leur ligne de jambes, abaissez les hanches sous les leurs, pivotez les épaules et retombez en mount ou side control.",
+  "shortInstruction": "Attrapez la tête/overhook, avancez le pied à l'intérieur de leur ligne de jambes, abaissez les hanches sous les leurs, pivotez les épaules et retombez en Mount ou Side Control.",
   "summary": "La projection latérale utilise vos hanches comme point d'appui pour faire basculer l'adversaire par-dessus vous depuis une clé de tête. La clé du BJJ est de rester sur vos pieds pour retomber en position dominante plutôt que de les suivre au sol.",
   "safetySummary": [
     "Abaisser les hanches trop brusquement peut fatiguer le bas du dos — utilisez une descente contrôlée",
@@ -30,8 +30,8 @@
   ],
   "keyCorrections": [
     "S'ils bloquent avec le bras éloigné : relâchez la tête et passez en double leg",
-    "S'ils reculent hors de la clé : contournez en front headlock et snapdown",
-    "S'ils s'abaissent pour contrer : tirez-les dans votre guard et attaquez depuis le bas"
+    "S'ils reculent hors de la clé : contournez en Front Headlock et snapdown",
+    "S'ils s'abaissent pour contrer : tirez-les dans votre Guard et attaquez depuis le bas"
   ],
   "moneyDetails": [
     "La projection latérale est l'un des takedowns les plus efficaces depuis une clé de tête en no-gi",
@@ -44,7 +44,7 @@
     "S'ils tirent la guarde pendant la projection : restez debout et passez au lieu de les suivre"
   ],
   "systemLogic": {
-    "corePrinciple": "Lateral drop : attrapez la tête/overhook → avancez le pied à l'intérieur → abaissez les hanches sous les leurs (pliez les genoux, pas le buste) → pivotez les épaules → ils basculent par-dessus vos hanches → retombez en mount ou side control.",
+    "corePrinciple": "Lateral drop : attrapez la tête/overhook → avancez le pied à l'intérieur → abaissez les hanches sous les leurs (pliez les genoux, pas le buste) → pivotez les épaules → ils basculent par-dessus vos hanches → retombez en Mount ou Side Control.",
     "decisionTree": [
       {
         "condition": "Ils s'appuient sur le bras éloigné pour bloquer",
@@ -52,11 +52,11 @@
       },
       {
         "condition": "Ils reculent hors de la clé de tête",
-        "action": "contournez en front headlock et snapdown"
+        "action": "contournez en Front Headlock et snapdown"
       },
       {
         "condition": "Ils s'abaissent pour contrer",
-        "action": "tirez-les dans votre guard et attaquez depuis le bas"
+        "action": "tirez-les dans votre Guard et attaquez depuis le bas"
       }
     ],
     "exitStrategies": [

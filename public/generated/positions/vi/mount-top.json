@@ -1,10 +1,10 @@
 {
-  "id": "mount-top",
+  "id": "Mount-top",
   "locale": "vi",
   "title": "Mount Trên",
   "category": "pin",
   "status": "dominant",
-  "description": "Người ở trên ngồi trên hông hoặc ngực đối thủ, tách khuỷu tay và mở high mount hoặc submission.",
+  "description": "Người ở trên ngồi trên hông hoặc ngực đối thủ, tách khuỷu tay và mở high Mount hoặc submission.",
   "topPlayerGoals": [
     "Người ở trên muốn kiểm soát Mount Trên bằng vị trí đầu, vị trí trong và áp lực có hướng.",
     "Ổn định hông, tách khuỷu tay và tạo choke hoặc arm isolation.",
@@ -27,12 +27,12 @@
   ],
   "advancementOptions": [
     {
-      "action": "Isolate arm triangle hoặc leo high mount",
+      "action": "Isolate arm triangle hoặc leo high Mount",
       "nextPositionId": "arm-triangle-threat",
       "relatedSkillIds": [
-        "mount-control",
-        "mount-escape",
-        "arm-triangle-mount"
+        "Mount-control",
+        "Mount-escape",
+        "arm-triangle-Mount"
       ],
       "why": "Đây là nhánh tự nhiên khi bạn thắng điểm kiểm soát chính và đối thủ buộc phải phòng thủ."
     }
@@ -44,9 +44,9 @@
     "Bạn phải chống tay dài để không ngã."
   ],
   "relatedSkillIds": [
-    "mount-control",
-    "mount-escape",
-    "arm-triangle-mount"
+    "Mount-control",
+    "Mount-escape",
+    "arm-triangle-Mount"
   ],
   "relatedConceptIds": [
     "control-before-submission",

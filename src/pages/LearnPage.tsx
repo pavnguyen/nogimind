@@ -74,12 +74,12 @@ export default function LearnPage() {
       Sparkles,
     ),
     track(
-      'fix',
-      t('learn.tracks.fix.title'),
-      t('learn.tracks.fix.description'),
+      'defense',
+      t('learn.tracks.defense.title'),
+      t('learn.tracks.defense.description'),
       [
-        { title: t('learn.tracks.fix.steps.1.title'), body: t('learn.tracks.fix.steps.1.body'), to: '/troubleshooters' },
-        { title: t('learn.tracks.fix.steps.2.title'), body: t('learn.tracks.fix.steps.2.body'), to: '/study' },
+        { title: t('learn.tracks.defense.steps.1.title'), body: t('learn.tracks.defense.steps.1.body'), to: '/defense' },
+        { title: t('learn.tracks.defense.steps.2.title'), body: t('learn.tracks.defense.steps.2.body'), to: '/study' },
       ],
       'amber',
       ShieldCheck,

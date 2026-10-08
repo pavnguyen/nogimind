@@ -2,18 +2,18 @@
   "id": "single-leg-bjj",
   "locale": "en",
   "name": "Single Leg for BJJ",
-  "description": "Finish the single leg while respecting guillotine, kimura, and guard pull threats in BJJ. The single leg in BJJ must be adapted from wrestling to account for the unique counters that exist in submission grappling.",
-  "shortInstruction": "Secure the leg, keep your head to the outside (not the center), and finish by running the pipe, lifting, or circling to the back. Never let your head drift to the inside where they can guillotine you.",
-  "summary": "The BJJ single leg is a modified version of the wrestling single leg that prioritizes safety from submission counters. The key adaptations are: head position must always be to the outside (cheek to their hip/back) rather than the inside (chest to their chest), the finish prioritizes running the pipe (driving them laterally) over lifting (which exposes the guillotine), and the back take is always available as a high-percentage alternative to the takedown finish.",
+  "description": "Finish the single leg while respecting Guillotine, kimura, and Guard pull threats in BJJ. The single leg in BJJ must be adapted from wrestling to account for the unique counters that exist in submission grappling.",
+  "shortInstruction": "Secure the leg, keep your head to the outside (not the center), and finish by running the pipe, lifting, or circling to the back. Never let your head drift to the inside where they can Guillotine you.",
+  "summary": "The BJJ single leg is a modified version of the wrestling single leg that prioritizes safety from submission counters. The key adaptations are: head position must always be to the outside (cheek to their hip/back) rather than the inside (chest to their chest), the finish prioritizes running the pipe (driving them laterally) over lifting (which exposes the Guillotine), and the back take is always available as a high-percentage alternative to the takedown finish.",
   "whyItWorks": [
-    "Outside head position prevents the guillotine — the most common counter to single legs in BJJ",
+    "Outside head position prevents the Guillotine — the most common counter to single legs in BJJ",
     "Running the pipe (lateral drive) keeps your head safe and uses their weight against them",
     "The back take from the single leg is a BJJ-specific adaptation that scores 4 points instead of 2",
     "The single leg transitions to both top position and back control — it is the most versatile takedown in BJJ"
   ],
   "commonMistakes": [
-    "Letting your head drift inside (chest to chest) — this exposes you to the guillotine, kimura, and front headlock",
-    "Trying to lift the leg straight up — this delays the finish and exposes the guillotine",
+    "Letting your head drift inside (chest to chest) — this exposes you to the Guillotine, kimura, and Front Headlock",
+    "Trying to lift the leg straight up — this delays the finish and exposes the Guillotine",
     "Staying too long on the leg — the single leg must be finished quickly or abandoned",
     "Not transitioning to the back when the finish is blocked"
   ],
@@ -24,12 +24,12 @@
     "Back take is always available"
   ],
   "safetySummary": [
-    "The guillotine from a failed single leg is the most common choke in BJJ — keep your head to the outside at all times",
-    "If you feel the guillotine setting up, immediately circle to the back rather than trying to finish the takedown",
+    "The Guillotine from a failed single leg is the most common choke in BJJ — keep your head to the outside at all times",
+    "If you feel the Guillotine setting up, immediately circle to the back rather than trying to finish the takedown",
     "Do not hold the single leg and stand straight — this exposes the knee to reaps and the neck to guillotines"
   ],
   "keyCorrections": [
-    "If they guillotine you: your head was inside — circle to the back immediately to relieve the choke pressure",
+    "If they Guillotine you: your head was inside — circle to the back immediately to relieve the choke pressure",
     "If they kimura your trapped arm: do not fight the kimura — release the leg and re-engage from standing",
     "If they hop away on one leg: switch to a high crotch or dump them laterally with the running pipe"
   ],
@@ -54,7 +54,7 @@
       },
       {
         "condition": "Defensive reactions",
-        "action": "if they guillotine → back take. If they kimura → release and re-engage. If they sprawl → back take"
+        "action": "if they Guillotine → back take. If they kimura → release and re-engage. If they sprawl → back take"
       }
     ]
   },
@@ -65,7 +65,7 @@
   ],
   "fixItFast": [
     "If they sprawl on the single leg: go to the back take — do not fight the sprawl",
-    "If they guillotine: circle to the back immediately — the back take defeats the guillotine",
+    "If they Guillotine: circle to the back immediately — the back take defeats the Guillotine",
     "If they hop on one leg: drive them laterally with the running pipe — they cannot hop sideways"
   ]
 }

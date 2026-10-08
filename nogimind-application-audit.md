@@ -45,7 +45,7 @@ Baseline: React 19, Vite 8, TypeScript, client-only SPA, generated JSON content 
 
 #### 3. Replace misleading checklist coverage metrics
 
-- Problem: generated manifest reports `hasChecklist`, but many domains show low or zero checklist coverage even though pages still expose learn/fix content. Guard offense has 22 skills and 0 checklist flags; guard retention has 5 and 0.
+- Problem: generated manifest reports `hasChecklist`, but many domains show low or zero checklist coverage even though pages still expose learn/fix content. Guard offense has 22 skills and 0 checklist flags; Guard retention has 5 and 0.
 - Impact: internal stats or UI affordances can imply content is incomplete even when useful content exists, or hide true gaps where checklists matter.
 - Evidence: generated manifest audit shows `guard_offense.check = 0`, `guard_retention.check = 0`, `submission_systems.check = 8/30`.
 - Fix: rename coverage to a precise metric such as `hasQualityChecklist`, or compute richer content completeness from `shortInstruction`, `whyItWorks`, `moneyDetails`, `fixItFast`, `safetySummary`, and videos.
@@ -57,7 +57,7 @@ Baseline: React 19, Vite 8, TypeScript, client-only SPA, generated JSON content 
 
 - Problem: several `moneyDetails` are strategic value statements rather than body mechanics. Example: Back Escape says it wins matches and removes fear; Mount Survival says surviving 10 seconds is high leverage.
 - Impact: users opening a detail page during training need "where do I put my hand/knee/head now?", not only why the skill matters.
-- Evidence: spot checks in `content/skills/escapes/back-escape/content.en.json`, `mount-survival`, `dilemmas-two-way-attacks`, `side-control-pin`, and `half-guard-wrestle-up`.
+- Evidence: spot checks in `content/skills/escapes/back-escape/content.en.json`, `Mount-survival`, `dilemmas-two-way-attacks`, `side-control-pin`, and `half-Guard-wrestle-up`.
 - Fix: editorial pass by field:
   - `moneyDetails`: body placement, angle, pressure, timing.
   - `coachingCues`: short imperative cues.
@@ -70,7 +70,7 @@ Baseline: React 19, Vite 8, TypeScript, client-only SPA, generated JSON content 
 
 - Problem: 81 YouTube IDs are shared across skills; the worst duplicates appear on 3-4 skill pages.
 - Impact: duplicate videos are fine for shared systems, but too much reuse makes Study/Watch feel shallow and reduces trust in curation.
-- Evidence: duplicate examples include `0pzF4_ltfJQ` across back survival, side control escape, side control survival, north-south control; `1AXix_eKyKc` across knee shield, armbar, choi bar, saddle.
+- Evidence: duplicate examples include `0pzF4_ltfJQ` across back survival, Side Control escape, Side Control survival, north-south control; `1AXix_eKyKc` across knee shield, armbar, choi bar, saddle.
 - Fix: classify duplicates:
   - Keep if the same video genuinely teaches a shared system.
   - Demote to supplemental if it is context only.
@@ -108,7 +108,7 @@ Baseline: React 19, Vite 8, TypeScript, client-only SPA, generated JSON content 
 - Impact: this is acceptable for bilingual BJJ users, but inconsistent labels can feel unfinished and can confuse newer users.
 - Evidence: `src/i18n/resources/vi.ts` uses labels such as `Học Skills`, `Escape`, `Submission`, `Back control`, while content files now use more natural Vietnamese/French.
 - Fix: create a glossary policy:
-  - Keep common no-gi terms in English when that is how practitioners speak: guard, pass, pin, ride, underhook, saddle, heel hook.
+  - Keep common no-gi terms in English when that is how practitioners speak: Guard, pass, pin, ride, underhook, saddle, heel hook.
   - Translate action/help text naturally.
   - Avoid mixing translated grammar with raw English where it hurts readability.
 - Priority / effort: P1, M.
@@ -198,7 +198,7 @@ Baseline: React 19, Vite 8, TypeScript, client-only SPA, generated JSON content 
 4. Replace checklist coverage with richer content completeness metrics.
 5. Add safety prerequisite panels for advanced leg locks and neck/spine/compression skills.
 6. Run editorial rewrite for `moneyDetails`, `fixItFast`, and `coachingCues` on high-risk/high-traffic skills.
-7. Curate duplicate videos by domain, starting with leg locks, guard, escapes, and submissions.
+7. Curate duplicate videos by domain, starting with leg locks, Guard, escapes, and submissions.
 8. Clean stale chunk groups, stale docs, and unresolved planned routes.
 9. Do final app-shell terminology pass for Vietnamese and French.
 

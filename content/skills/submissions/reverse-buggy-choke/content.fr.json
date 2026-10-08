@@ -2,13 +2,13 @@
   "id": "reverse-buggy-choke",
   "locale": "fr",
   "name": "Starter de buggy inversé",
-  "description": "Un étranglement depuis le bas side control où vous enroulez vos jambes autour du cou et du bras de l'adversaire - une attaque à faible pourcentage qui ne devrait pas remplacer les cadres fondamentaux et les évasions de hanche.",
-  "shortInstruction": "Enroulez les jambes autour de leur cou et de leur bras, serrez – le buggy inversé est une attaque désespérée depuis le bas side control.",
-  "summary": "Le starter buggy inversé est une variante du starter buggy du bas side control. La principale différence réside dans le positionnement des jambes : dans la poussette inversée, vos jambes s'enroulent autour du cou et un bras du côté opposé. Comme le starter buggy standard, il s'agit d'une attaque surprise plutôt que d'une stratégie principale. Cela fonctionne mieux contre les adversaires qui font fortement pression avec un crossface, laissant leur cou exposé de l'autre côté.",
+  "description": "Un étranglement depuis le bas Side Control où vous enroulez vos jambes autour du cou et du bras de l'adversaire - une attaque à faible pourcentage qui ne devrait pas remplacer les cadres fondamentaux et les évasions de hanche.",
+  "shortInstruction": "Enroulez les jambes autour de leur cou et de leur bras, serrez – le buggy inversé est une attaque désespérée depuis le bas Side Control.",
+  "summary": "Le starter buggy inversé est une variante du starter buggy du bas Side Control. La principale différence réside dans le positionnement des jambes : dans la poussette inversée, vos jambes s'enroulent autour du cou et un bras du côté opposé. Comme le starter buggy standard, il s'agit d'une attaque surprise plutôt que d'une stratégie principale. Cela fonctionne mieux contre les adversaires qui font fortement pression avec un crossface, laissant leur cou exposé de l'autre côté.",
   "whyItWorks": [
-    "L'élément de surprise : les adversaires ne s'attendent pas à un étranglement venant du bas side control.",
+    "L'élément de surprise : les adversaires ne s'attendent pas à un étranglement venant du bas Side Control.",
     "Peut attraper des adversaires lourds du côté crossface, exposant leur cou.",
-    "Crée un dilemme momentané : défendre l'étranglement ou maintenir side control.",
+    "Crée un dilemme momentané : défendre l'étranglement ou maintenir Side Control.",
     "Utile comme attaque de dernier recours lorsque les évasions conventionnelles échouent."
   ],
   "commonMistakes": [
@@ -31,10 +31,10 @@
   "keyCorrections": [
     "S’ils vous empilent, c’est que vous vous êtes engagé trop tôt ou sous le mauvais angle – relâchez et réinitialisez les images.",
     "S'ils libèrent leur bras, c'est que l'enveloppe de votre jambe était trop lâche – serrez-la plus fort ou abandonnez l'étranglement.",
-    "Si vous ne pouvez pas terminer, revenez aux évasions side control conventionnelles (évasion de la hanche, underhook)."
+    "Si vous ne pouvez pas terminer, revenez aux évasions Side Control conventionnelles (évasion de la hanche, underhook)."
   ],
   "systemLogic": {
-    "corePrinciple": "En bas side control : l'adversaire est lourd du côté crossface → enroulez les jambes autour de son cou et de son bras → serrez → étranglez.",
+    "corePrinciple": "En bas Side Control : l'adversaire est lourd du côté crossface → enroulez les jambes autour de son cou et de son bras → serrez → étranglez.",
     "decisionTree": [
       {
         "condition": "Application générale",
@@ -52,7 +52,7 @@
     "L'étranglement vient du fait de serrer vos cuisses l'une contre l'autre, et non de tirer avec vos jambes.",
     "S'ils se redressent, l'étranglement est perdu – revenez immédiatement aux cadres et échappez-vous à la hanche."
   ],
-  "nextStep": "Après avoir compris le starter inversé du buggy, concentrez-vous sur les principales évasions side control : les cadres, l'évasion de la hanche et la récupération underhook.",
+  "nextStep": "Après avoir compris le starter inversé du buggy, concentrez-vous sur les principales évasions Side Control : les cadres, l'évasion de la hanche et la récupération underhook.",
   "fixItFast": [
     "Ils vous empilent ? Relâchez et encadrez sur leurs hanches.",
     "Les jambes glissent ? Enroulez-le plus étroitement autour de son bras.",

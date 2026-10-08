@@ -4,7 +4,7 @@
   "name": "armbar Système",
   "description": "Isolez la ligne des épaules de l'adversaire, contrôlez son poignet et gardez son coude au-dessus de votre ligne de hanches avant d'appliquer une extension pour terminer le armbar.",
   "shortInstruction": "Contrôlez le poignet, épinglez le coude à votre hanche, gardez le pouce levé – l'extension est terminée ; ruptures d'hyperextension.",
-  "summary": "Le armbar est le verrou articulaire le plus fondamental du BJJ. Le système s'articule autour de trois principes : isoler l'épaule (les empêcher de libérer le bras), contrôler le poignet (pouce vers le haut, paume face à vous) et positionner le coude au-dessus de la ligne de vos hanches avant de l'étendre. Sans les détails de la ligne des hanches, le armbar devient une lutte de force. Avec cela, l'avantage mécanique est écrasant. Le système armbar s'applique à partir de guard, mount et des transitions.",
+  "summary": "Le armbar est le verrou articulaire le plus fondamental du BJJ. Le système s'articule autour de trois principes : isoler l'épaule (les empêcher de libérer le bras), contrôler le poignet (pouce vers le haut, paume face à vous) et positionner le coude au-dessus de la ligne de vos hanches avant de l'étendre. Sans les détails de la ligne des hanches, le armbar devient une lutte de force. Avec cela, l'avantage mécanique est écrasant. Le système armbar s'applique à partir de Guard, Mount et des transitions.",
   "whyItWorks": [
     "Épingler leur coude au-dessus de la ligne de vos hanches crée un levier de première classe : vos hanches sont le point d'appui, leur bras est la charge.",
     "La position du pouce vers le haut force le coude à s'étendre en hyperextension dans son plan le plus faible – la supination est le détail clé.",
@@ -38,12 +38,12 @@
     "corePrinciple": "Contrôlez le bras : fixez le poignet (pouce vers le haut) → amenez le coude jusqu'à la ligne de vos hanches → jambes en forme de quatre au-dessus de la tête/poitrine → soulevez les hanches → étendez.",
     "decisionTree": [
       {
-        "condition": "À partir du guard",
+        "condition": "À partir du Guard",
         "action": "briser la posture, nager le bras en travers, la hanche dehors, terminer."
       },
       {
-        "condition": "À partir du mount",
-        "action": "s-mount ou mount technique, isolez le bras, repliez-vous avec contrôle."
+        "condition": "À partir du Mount",
+        "action": "s-Mount ou Mount technique, isolez le bras, repliez-vous avec contrôle."
       }
     ]
   },
@@ -53,7 +53,7 @@
     "Soulevez vos hanches, ne tirez pas leur bras vers vous – le lifting des hanches crée une extension nette sans force.",
     "Gardez son bras droit contre votre poitrine ou votre hanche – un coude plié peut générer une force contraire."
   ],
-  "nextStep": "Après le système armbar, apprenez les s-mount armbar et armbar à partir des variantes guard.",
+  "nextStep": "Après le système armbar, apprenez les s-Mount armbar et armbar à partir des variantes Guard.",
   "fixItFast": [
     "Vous n'arrivez pas à tendre votre bras ? Épinglez le coude sur votre hanche avec vos jambes et utilisez une commande de poignet deux contre un.",
     "Ils vous empilent ? Amenez votre pied libre jusqu'à leur hanche la plus éloignée et repoussez-le.",

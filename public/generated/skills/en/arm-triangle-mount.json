@@ -7,11 +7,11 @@
   "aliases": [],
   "tags": [
     "choke",
-    "mount"
+    "Mount"
   ],
   "keywords": [
     "arm triangle",
-    "mount",
+    "Mount",
     "crossface",
     "neck safety"
   ],
@@ -25,7 +25,7 @@
       "type": "recommended"
     },
     {
-      "id": "mount-survival",
+      "id": "Mount-survival",
       "type": "recommended"
     }
   ],
@@ -37,7 +37,7 @@
   "archetypeIds": [],
   "relatedArchetypeIds": [],
   "prerequisiteSkillIds": [
-    "mount-control"
+    "Mount-control"
   ],
   "trainingMethodIds": [],
   "nextSkillIds": [],
@@ -60,20 +60,20 @@
     "hasStateMachine": false
   },
   "locale": "en",
-  "description": "From mount, separate the opponent's arm, cut the angle, and finish the arm triangle with shoulder pressure rather than arm squeeze.",
-  "shortInstruction": "Separate the arm, step over the head, drop your weight — the arm triangle from mount is shoulder pressure, not biceps strength.",
-  "summary": "The arm triangle from mount is one of the highest percentage submissions from the dominant mount position. Unlike the regular arm triangle from side control, the mount version allows you to use your full body weight. The key is separating their arm from their body (usually by driving your forearm into their biceps), stepping over their head, and dropping your chest weight onto their trapped shoulder.",
+  "description": "From Mount, separate the opponent's arm, cut the angle, and finish the arm triangle with shoulder pressure rather than arm squeeze.",
+  "shortInstruction": "Separate the arm, step over the head, drop your weight — the arm triangle from Mount is shoulder pressure, not biceps strength.",
+  "summary": "The arm triangle from Mount is one of the highest percentage submissions from the dominant Mount position. Unlike the regular arm triangle from Side Control, the Mount version allows you to use your full body weight. The key is separating their arm from their body (usually by driving your forearm into their biceps), stepping over their head, and dropping your chest weight onto their trapped shoulder.",
   "whyItWorks": [
     "Mount gives you gravity advantage — your entire body weight compresses their neck and arm.",
     "The arm triangle traps both a carotid artery and their shoulder — two pressure points from one movement.",
     "Once the angle is cut and your shoulder is on their neck, they cannot bridge or roll you off.",
-    "Danaher principle: mount arm triangles are the highest percentage mount finish because they combine position and submission."
+    "Danaher principle: Mount arm triangles are the highest percentage Mount finish because they combine position and submission."
   ],
   "commonMistakes": [
     "Trying to finish without first separating the arm from their body — the arm must be isolated.",
     "Stepping over the head too early — step over only after the arm is pinned to their neck.",
     "Squeezing with the arms instead of driving the shoulder — arm squeeze burns out; shoulder pressure finishes.",
-    "Losing mount position to chase the finish — maintain heavy chest pressure throughout."
+    "Losing Mount position to chase the finish — maintain heavy chest pressure throughout."
   ],
   "coachingCues": [
     "Separate the arm, then step over — never step before separation.",
@@ -91,11 +91,11 @@
     "decisionTree": [
       {
         "condition": "they defend the arm triangle by hiding the arm",
-        "action": "switch to mounted armbar or S-mount attacks."
+        "action": "switch to mounted armbar or S-Mount attacks."
       },
       {
         "condition": "General application",
-        "action": "The arm triangle from mount chains directly to the back take if they roll to escape."
+        "action": "The arm triangle from Mount chains directly to the back take if they roll to escape."
       }
     ],
     "exitStrategies": []
@@ -106,7 +106,7 @@
     "Drop your chest weight onto your own shoulder — the pressure transfers through your shoulder to their neck.",
     "If they bridge, lower your hips and spread your weight — you want to be 'heavy,' not high."
   ],
-  "nextStep": "After the arm triangle from mount, learn the mounted triangle and S-mount armbar.",
+  "nextStep": "After the arm triangle from Mount, learn the mounted triangle and S-Mount armbar.",
   "fixItFast": [
     "Arm keeps slipping? Pin it against your own chest before stepping over.",
     "They bridge you off? Widen your knees and drop your hips closer to the mat.",

@@ -1,5 +1,5 @@
 {
-  "id": "de-la-riva-guard",
+  "id": "de-la-riva-Guard",
   "locale": "fr",
   "title": "Garde De La Riva",
   "category": "bottom_guard",
@@ -27,12 +27,12 @@
   ],
   "advancementOptions": [
     {
-      "action": "Passer en X-guard ou single leg X",
-      "nextPositionId": "x-guard-position",
+      "action": "Passer en X-Guard ou single leg X",
+      "nextPositionId": "x-Guard-position",
       "relatedSkillIds": [
         "de-la-riva-sweeps",
         "de-la-riva-back-take",
-        "x-guard-control"
+        "x-Guard-control"
       ],
       "why": "C’est la branche naturelle lorsque vous gagnez le point de contrôle principal et que l’adversaire est forcé de défendre."
     }
@@ -46,13 +46,13 @@
   "relatedSkillIds": [
     "de-la-riva-sweeps",
     "de-la-riva-back-take",
-    "x-guard-control",
+    "x-Guard-control",
     "single-leg-x-control",
-    "guard-pulling-strategy"
+    "Guard-pulling-strategy"
   ],
   "relatedConceptIds": [
     "hooks",
-    "guard-retention-layers",
+    "Guard-retention-layers",
     "angle-creation"
   ]
 }

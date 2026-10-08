@@ -21,11 +21,11 @@
       "type": "recommended"
     },
     {
-      "id": "mount-survival",
+      "id": "Mount-survival",
       "type": "recommended"
     },
     {
-      "id": "seated-guard-retention",
+      "id": "seated-Guard-retention",
       "type": "recommended"
     }
   ],
@@ -55,9 +55,9 @@
     "hasStateMachine": false
   },
   "locale": "vi",
-  "description": "Sử dụng khung xương để tạo khoảng trống và đẩy cơ thể về vị trí bên trong thay vì dùng sức của cánh tay ép vào băng ghế. Nền tảng của mọi sự lưu giữ và trốn thoát guard.",
+  "description": "Sử dụng khung xương để tạo khoảng trống và đẩy cơ thể về vị trí bên trong thay vì dùng sức của cánh tay ép vào băng ghế. Nền tảng của mọi sự lưu giữ và trốn thoát Guard.",
   "shortInstruction": "Giữ chặt khuỷu tay, dùng cẳng tay làm xương nêm (không phải đòn bẩy cơ) và đập mạnh vào trong khi đẩy ra ngoài. Khung ở hông, không phải ở ngực.",
-  "summary": "Khung sử dụng cấu trúc xương chống lại cơ để duy trì khoảng cách và chịu được áp lực. Đập phá là quá trình tích cực nhằm giành lại vị trí bên trong sau khi bị mất. Chúng cùng nhau tạo thành nền tảng cơ học của việc trốn thoát, guard giữ chân và vật lộn phòng thủ.",
+  "summary": "Khung sử dụng cấu trúc xương chống lại cơ để duy trì khoảng cách và chịu được áp lực. Đập phá là quá trình tích cực nhằm giành lại vị trí bên trong sau khi bị mất. Chúng cùng nhau tạo thành nền tảng cơ học của việc trốn thoát, Guard giữ chân và vật lộn phòng thủ.",
   "whyItWorks": [
     "Khung xương liền xương truyền lực qua bộ xương chứ không phải cơ bắp, bảo tồn năng lượng và ngăn ngừa mệt mỏi",
     "Khung được đặt đúng vị trí trên đường hông giúp đối thủ không bị đè bẹp thân mình và kiểm soát khả năng tạo áp lực crossface của họ",
@@ -93,7 +93,7 @@
       },
       {
         "condition": "Khung hình của bạn sụp đổ dưới áp lực",
-        "action": "Đừng cơ bắp nó. Chuyển sang lớp phòng thủ tiếp theo: rùa, thoát hông hoặc đứng kỹ thuật. Khuỷu tay của bạn quá xa hông - hãy đưa nó lại gần hơn."
+        "action": "Đừng cơ bắp nó. Chuyển sang lớp phòng thủ tiếp theo: Tư thế rùa, thoát hông hoặc đứng kỹ thuật. Khuỷu tay của bạn quá xa hông - hãy đưa nó lại gần hơn."
       },
       {
         "condition": "Đối thủ crossface là bạn",
@@ -105,7 +105,7 @@
       }
     ],
     "exitStrategies": [
-      "Nếu khung bị hỏng hoàn toàn, hãy thả xuống vị trí rùa và sử dụng trình tự rùa thoát ra ngoài.",
+      "Nếu khung bị hỏng hoàn toàn, hãy thả xuống vị trí Tư thế rùa và sử dụng trình tự Tư thế rùa thoát ra ngoài.",
       "Nếu bạn không thể đập vào trong, hãy thay đổi góc bằng cách di chuyển hông 10-30 độ trước khi thử lại.",
       "Nếu việc đánh đập không hiệu quả, hãy tạo khoảng cách thông qua lối thoát hông để thiết lập lại hoàn toàn giao diện."
     ]

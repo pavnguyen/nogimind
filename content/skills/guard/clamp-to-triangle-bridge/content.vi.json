@@ -1,10 +1,10 @@
 {
   "id": "clamp-to-triangle-bridge",
   "locale": "vi",
-  "name": "Kẹp cầu guard vào cầu triangle",
-  "description": "Bắt cầu từ kẹp guard vào cuộn cảm triangle: khi đối thủ phòng thủ bằng cách đứng hoặc tách hông ra, hãy dùng chuyển động của họ để xoay chân bạn qua vai họ và khóa triangle.",
+  "name": "Clamp Guard vào cầu triangle",
+  "description": "Bắt cầu từ kẹp Guard vào cuộn cảm triangle: khi đối thủ phòng thủ bằng cách đứng hoặc tách hông ra, hãy dùng chuyển động của họ để xoay chân bạn qua vai họ và khóa triangle.",
   "shortInstruction": "Đối thủ đứng hay tách hông? Xoay chân trên của bạn qua vai họ, khóa triangle và phá vỡ tư thế của họ.",
-  "summary": "Cầu kẹp tớitriangle là chuỗi tấn công chính từ kẹp guard. Khi đối thủ cảm thấy bị kẹp và cố gắng trốn thoát bằng cách đứng hoặc tạo tư thế, họ sẽ tạo ra chính xác khoảng trống mà bạn cần để ném chân qua vai họ. Cuộc trốn thoát của họ trở thành sự sắp đặt của bạn. Cây cầu không phải là một động tác sức mạnh - đó là sự chuyển đổi thời gian và góc.",
+  "summary": "Cầu kẹp tớitriangle là chuỗi tấn công chính từ kẹp Guard. Khi đối thủ cảm thấy bị kẹp và cố gắng trốn thoát bằng cách đứng hoặc tạo tư thế, họ sẽ tạo ra chính xác khoảng trống mà bạn cần để ném chân qua vai họ. Cuộc trốn thoát của họ trở thành sự sắp đặt của bạn. Cây cầu không phải là một động tác sức mạnh - đó là sự chuyển đổi thời gian và góc.",
   "whyItWorks": [
     "Chiếc kẹp buộc đối thủ phải phản ứng. Phản ứng tự nhiên của họ (tư thế/đứng) mở ra góc nhìn cho triangle.",
     "Khi họ tách hông ra, chân trên của bạn sẽ tự do vung qua vai họ mà không có lực cản.",

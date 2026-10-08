@@ -60,13 +60,13 @@
     "hasStateMachine": false
   },
   "locale": "fr",
-  "description": "Un verrouillage d'épaule de guard utilisant les jambes et l'angle de la hanche pour isoler l'épaule de l'adversaire - résultat similaire à un kimura, mais attaquant sous un angle différent avec implication des jambes.",
+  "description": "Un verrouillage d'épaule de Guard utilisant les jambes et l'angle de la hanche pour isoler l'épaule de l'adversaire - résultat similaire à un kimura, mais attaquant sous un angle différent avec implication des jambes.",
   "shortInstruction": "Contrôlez le poignet, emprisonnez le bras avec votre jambe, faites pivoter vos hanches – le baratoplata est un kimura assisté par la jambe sous un angle différent.",
   "summary": "Le baratoplata est un puissant verrou d'épaule qui combine des éléments du omoplata et du kimura. Contrairement au kimura (qui utilise les deux mains sur le bras), le baratoplata utilise l'une de vos jambes pour épingler son bras contre votre corps pendant que vous faites pivoter vos hanches pour appliquer le verrouillage de l'épaule. Cela crée des angles uniques que le kimura ne peut pas atteindre et peut attraper des adversaires concentrés sur la défense des entrées standard kimura.",
   "whyItWorks": [
     "Utiliser votre jambe pour piéger son bras libère une de vos mains pour l'équilibre ou le combat de préhension.",
     "Le baratoplata attaque l'épaule sous un angle que la norme kimura ne couvre pas.",
-    "Il peut être saisi à partir de positions où le kimura est difficile (guard, half guard).",
+    "Il peut être saisi à partir de positions où le kimura est difficile (Guard, Half Guard).",
     "Principe de Danaher : chaque articulation doit être attaquée sous plusieurs angles : le baratoplata couvre l'angle manqué par le kimura."
   ],
   "commonMistakes": [
@@ -90,7 +90,7 @@
     "corePrinciple": "kimura tentative de préhension : l'adversaire défend le kimura → passer en baratoplata : amener votre jambe sur son bras → faire pivoter les hanches → terminer.",
     "decisionTree": [
       {
-        "condition": "Le baratoplata peut également être saisi directement depuis guard : contrôlez son poignet",
+        "condition": "Le baratoplata peut également être saisi directement depuis Guard : contrôlez son poignet",
         "action": "coincez le bras avec votre jambe → faites pivoter."
       },
       {

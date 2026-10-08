@@ -2,9 +2,9 @@
   "id": "bear-trap-ham-sandwich",
   "locale": "vi",
   "name": "Bẫy gấu/Bánh kẹp giăm bông",
-  "description": "Sử dụng bẫy gấu (còn gọi là bánh mì giăm bông) để tạo khóa nén - máy thái bắp chân - từ nửa con bướm hoặc half guard, buộc đối thủ phải chạm, lộ lưng hoặc từ bỏ đòn quét.",
-  "shortInstruction": "Nhốt chân chúng vào hố đầu gối của bạn, ấn ống chân của bạn vào bắp chân của chúng, nén — bẫy gấu là một máy thái bắp chân được giấu trong half guard.",
-  "summary": "Bẫy gấu (bánh sandwich giăm bông) là một dụng cụ nén submission (máy thái bắp chân) sử dụng xương ống chân của bạn để chống vào cơ bắp chân của chúng, với chân của chúng bị mắc kẹt trong khúc cua đầu gối của bạn. Nó thường được thực hiện từ tư thế nửa bướm hoặc half guard khi đối thủ tiến về phía trước. Áp lực đè lên bắp chân buộc chúng phải chạm, lăn ngửa (cho bạn sweep) hoặc để lộ lưng trong back take.",
+  "description": "Sử dụng bẫy gấu (còn gọi là bánh mì giăm bông) để tạo khóa nén - máy thái bắp chân - từ nửa con bướm hoặc Half Guard, buộc đối thủ phải chạm, lộ lưng hoặc từ bỏ đòn quét.",
+  "shortInstruction": "Nhốt chân chúng vào hố đầu gối của bạn, ấn ống chân của bạn vào bắp chân của chúng, nén — bẫy gấu là một máy thái bắp chân được giấu trong Half Guard.",
+  "summary": "Bẫy gấu (bánh sandwich giăm bông) là một dụng cụ nén submission (máy thái bắp chân) sử dụng xương ống chân của bạn để chống vào cơ bắp chân của chúng, với chân của chúng bị mắc kẹt trong khúc cua đầu gối của bạn. Nó thường được thực hiện từ tư thế nửa bướm hoặc Half Guard khi đối thủ tiến về phía trước. Áp lực đè lên bắp chân buộc chúng phải chạm, lăn ngửa (cho bạn sweep) hoặc để lộ lưng trong back take.",
   "whyItWorks": [
     "Sự nén của xương ống chân vào cơ bắp chân tạo ra cơn đau dữ dội và áp lực ở khớp - hầu hết các đối thủ sẽ chạm hoặc lăn.",
     "Nó hoạt động như một vấn đề nan giải: chạm vào máy cắt bắp chân hoặc từ bỏ thao tác quét/quay lại.",
@@ -34,7 +34,7 @@
     "Nếu họ quay ra, bạn sẽ mất kiểm soát phần thân trên - hãy thiết lập lại khả năng bám của bạn vào cổ áo hoặc cánh tay của họ."
   ],
   "systemLogic": {
-    "corePrinciple": "Nửa bướm hoặc half guard: đối thủ tiến về phía trước → nhốt chân họ vào hố đầu gối của bạn (bẫy gấu) → nén bằng ống chân → kết thúc hoặc sweep.",
+    "corePrinciple": "Nửa bướm hoặc Half Guard: đối thủ tiến về phía trước → nhốt chân họ vào hố đầu gối của bạn (bẫy gấu) → nén bằng ống chân → kết thúc hoặc sweep.",
     "decisionTree": [
       {
         "condition": "Sử dụng phản ứng 1",

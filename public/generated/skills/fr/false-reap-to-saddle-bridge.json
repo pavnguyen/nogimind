@@ -29,7 +29,7 @@
       "type": "recommended"
     },
     {
-      "id": "k-guard-matrix",
+      "id": "k-Guard-matrix",
       "type": "recommended"
     }
   ],
@@ -42,7 +42,7 @@
   "relatedArchetypeIds": [],
   "prerequisiteSkillIds": [
     "false-reap-entry",
-    "k-guard-entry"
+    "k-Guard-entry"
   ],
   "trainingMethodIds": [],
   "nextSkillIds": [],
@@ -114,6 +114,6 @@
   "fixItFast": [
     "saddle ne se verrouille pas ? Votre crochet est trop peu profond – rentrez plus profondément sur la cuisse.",
     "Ils continuent de tourner ? Votre contrôle de la hanche éloignée est faible – saisissez sa hanche ou sa ceinture avec une prise ferme.",
-    "Ils vous aplatissent ? Relâchez le saddle et réinitialisez-le en position assise guard — ne vous battez pas en position aplatie."
+    "Ils vous aplatissent ? Relâchez le saddle et réinitialisez-le en position assise Guard — ne vous battez pas en position aplatie."
   ]
 }

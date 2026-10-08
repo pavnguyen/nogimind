@@ -1,10 +1,10 @@
 {
-  "id": "k-guard-position",
+  "id": "k-Guard-position",
   "locale": "vi",
   "title": "K-Guard",
   "category": "bottom_guard",
   "status": "neutral",
-  "description": "K-guard kiểm soát một chân đối thủ bằng shin frame và foot hook, tạo angle vào matrix, leg locks hoặc back take.",
+  "description": "K-Guard kiểm soát một chân đối thủ bằng shin frame và foot hook, tạo angle vào matrix, leg locks hoặc back take.",
   "topPlayerGoals": [
     "Người ở trên muốn kiểm soát K-Guard bằng vị trí đầu, vị trí trong và áp lực có hướng.",
     "Kill shin frame, clear knee line và ép trọng lượng.",
@@ -28,9 +28,9 @@
   "advancementOptions": [
     {
       "action": "Vào matrix hoặc false reap entry",
-      "nextPositionId": "inverted-guard",
+      "nextPositionId": "inverted-Guard",
       "relatedSkillIds": [
-        "k-guard-matrix",
+        "k-Guard-matrix",
         "false-reap-entry",
         "saddle-inside-sankaku-control"
       ],
@@ -44,7 +44,7 @@
     "Bạn phải chống tay dài để không ngã."
   ],
   "relatedSkillIds": [
-    "k-guard-matrix",
+    "k-Guard-matrix",
     "false-reap-entry",
     "saddle-inside-sankaku-control"
   ],

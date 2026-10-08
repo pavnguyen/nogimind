@@ -1,9 +1,9 @@
 import { useMemo, useState, useCallback } from 'react'
+import { Link } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import { PageShell } from '../components/common/PageShell'
 import { DailyFocusCard } from '../components/dashboard/DailyFocusCard'
 import { DashboardHubExplorer } from '../components/dashboard/DashboardHubExplorer'
-import { DashboardFixSection } from '../components/dashboard/DashboardFixSection'
 import { DashboardWhatsNew } from '../components/dashboard/DashboardWhatsNew'
 import { useManifestQuery } from '../queries/contentQueries'
 import type { ManifestEntry } from '../content-runtime/manifests'
@@ -115,8 +115,22 @@ export default function DashboardPage() {
         {/* ─── Hub Explorer — full width ─── */}
         <DashboardHubExplorer />
 
-        {/* ─── Fix a problem — full width ─── */}
-        <DashboardFixSection />
+        {/* ─── With gratitude — Guardian HCM & coach Jon TRAN ─── */}
+        <section className="lg:col-span-12 animate-fadeIn md:[animation-delay:250ms]">
+          <div className="flex flex-col gap-3 rounded-xl border border-white/[0.06] bg-slate-900/40 px-5 py-4 sm:flex-row sm:items-center sm:justify-between">
+            <div className="min-w-0">
+              <p className="text-[10px] font-bold uppercase tracking-widest hallmark-text-tertiary">{t('about.thanks.heading')}</p>
+              <p className="mt-1 text-xs leading-5 text-slate-400">{t('about.thanks.dashboard')}</p>
+            </div>
+            <Link
+              to="/about"
+              className="inline-flex shrink-0 items-center rounded-lg border border-white/[0.08] px-3.5 py-2 text-xs font-medium text-slate-300 transition-colors hover:border-amber-300/30 hover:text-amber-100"
+            >
+              {t('about.thanks.more')}
+            </Link>
+          </div>
+        </section>
+
       </div>
     </PageShell>
   )

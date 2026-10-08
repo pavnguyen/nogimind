@@ -2,8 +2,8 @@
   "id": "dagestani-handcuff",
   "locale": "vi",
   "name": "Còng tay Dagestani",
-  "description": "Kiểm soát cả hai cổ tay từ phía sau hoặc rùa bằng cách kéo cổ tay gần về phía hông của bạn trong khi giữ cổ tay ở xa, tạo ra tư thế giống như còng tay để lộ phần lưng để thực hiện động tác quay lưng sạch sẽ.",
-  "shortInstruction": "Từ con rùa hoặc back control, cố định cổ tay gần đó và kéo nó về phía hông của bạn. Đưa tay xuống và nắm lấy cổ tay ở xa. Siết chặt khuỷu tay của bạn và đẩy về phía trước để thu gọn tư thế và để lộ phần lưng.",
+  "description": "Kiểm soát cả hai cổ tay từ phía sau hoặc Tư thế rùa bằng cách kéo cổ tay gần về phía hông của bạn trong khi giữ cổ tay ở xa, tạo ra tư thế giống như còng tay để lộ phần lưng để thực hiện động tác quay lưng sạch sẽ.",
+  "shortInstruction": "Từ con Tư thế rùa hoặc back control, cố định cổ tay gần đó và kéo nó về phía hông của bạn. Đưa tay xuống và nắm lấy cổ tay ở xa. Siết chặt khuỷu tay của bạn và đẩy về phía trước để thu gọn tư thế và để lộ phần lưng.",
   "summary": "Còng tay Dagestani bẫy cả hai cổ tay để làm đối thủ bất động và buộc phải lộ ra sau, được phổ biến bởi Khabib Nurmagomedov và phong cách đấu vật Dagestani. Bằng cách kiểm soát cả hai cổ tay với nhau, bạn ngăn chặn đối thủ đăng, trụ hoặc đóng khung - lối thoát duy nhất là lăn, bạn có thể phản công bằng cách lăn theo và lấy lại.",
   "whyItWorks": [
     "Bẫy cả hai cổ tay sẽ loại bỏ khả năng trụ hoặc trụ của đối phương - nếu không có tay, họ không thể tự đẩy mình lên",
@@ -38,7 +38,7 @@
     "decisionTree": [
       {
         "condition": "Ở Bước 1 (An toàn gần cổ tay)",
-        "action": "từ phía sau con rùa hoặc back control, nắm lấy cổ tay ở gần của đối phương và kéo về phía hông của bạn"
+        "action": "từ phía sau con Tư thế rùa hoặc back control, nắm lấy cổ tay ở gần của đối phương và kéo về phía hông của bạn"
       },
       {
         "condition": "Ở Bước 2 (Bẫy cổ tay xa)",
@@ -59,9 +59,9 @@
     ]
   },
   "moneyDetails": [
-    "Còng tay Dagestani là một trong những hệ thống phá rùa hiệu quả nhất trong đấu vật và BJJ",
+    "Còng tay Dagestani là một trong những hệ thống phá Tư thế rùa hiệu quả nhất trong đấu vật và BJJ",
     "Đó là hệ thống chữ ký của Khabib Nurmagomedov và trường đấu vật Dagestani - đã được thử nghiệm ở cấp độ cao nhất",
-    "Việc thành thạo còng tay sẽ mang lại cho bạn con đường đáng tin cậy từ rùa đến back control mà không cần sức mạnh"
+    "Việc thành thạo còng tay sẽ mang lại cho bạn con đường đáng tin cậy từ Tư thế rùa đến back control mà không cần sức mạnh"
   ],
   "fixItFast": [
     "Nếu bạn chỉ có một cổ tay: thay vào đó hãy chuyển sang đeo chéo cổ tay hoặc vuốt ve",

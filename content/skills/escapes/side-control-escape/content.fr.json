@@ -1,10 +1,10 @@
 {
   "id": "side-control-escape",
   "locale": "fr",
-  "name": "side control Évasion",
+  "name": "Side Control Évasion",
   "description": "Transformez les montures en évasion de hanche, underhook ou en tortue au lieu d'exposer votre dos au hasard.",
-  "shortInstruction": "Cadrez sur les hanches, insérez le genou le plus proche, la hanche s'échappe pour créer de l'espace et récupérez guard ou prenez le dos via underhook.",
-  "summary": "side control escape utilise un cadre rigide au niveau des hanches pour créer un coin, puis une évasion de hanche pour récupérer la position intérieure. Le système comporte deux branches principales : la récupération underhook (prise arrière ou guard) et la récupération genou-coude (guard).",
+  "shortInstruction": "Cadrez sur les hanches, insérez le genou le plus proche, la hanche s'échappe pour créer de l'espace et récupérez Guard ou prenez le dos via underhook.",
+  "summary": "Side Control escape utilise un cadre rigide au niveau des hanches pour créer un coin, puis une évasion de hanche pour récupérer la position intérieure. Le système comporte deux branches principales : la récupération underhook (prise arrière ou Guard) et la récupération genou-coude (Guard).",
   "whyItWorks": [
     "Un cadre d'avant-bras sur la ligne des hanches utilise la structure osseuse contre les muscles, empêchant l'adversaire d'écraser votre torse.",
     "La hanche s'échappe avant que le underhook crée l'angle nécessaire pour entrer dans l'espace intérieur",
@@ -23,12 +23,12 @@
     "Hip, échappe-toi d'abord, puis réfléchis"
   ],
   "safetySummary": [
-    "side control est l'une des positions les plus claustrophobes de BJJ — la panique est normale mais doit être gérée en contrôlant sa respiration.",
+    "Side Control est l'une des positions les plus claustrophobes de BJJ — la panique est normale mais doit être gérée en contrôlant sa respiration.",
     "Exposer votre dos dans une bousculade peut conduire à rear-naked choke entrées ; gardez le bras le plus proche sur votre ventre",
     "Si vous ressentez une douleur aux côtes à cause de la pression, cadrez immédiatement et la hanche s'échappe plutôt que d'essayer de pousser l'adversaire sur un banc."
   ],
   "systemLogic": {
-    "corePrinciple": "side control escape a deux branches d'entrée en fonction de ce que l'adversaire vous donne : la branche underhook (back take ou granby) pour une récompense plus élevée, ou la branche genou-coude (half guard recovery) pour une plus grande sécurité.",
+    "corePrinciple": "Side Control escape a deux branches d'entrée en fonction de ce que l'adversaire vous donne : la branche underhook (back take ou granby) pour une récompense plus élevée, ou la branche genou-coude (Half Guard recovery) pour une plus grande sécurité.",
     "decisionTree": [
       {
         "condition": "L'adversaire vous donne de l'espace pour insérer le underhook",
@@ -36,7 +36,7 @@
       },
       {
         "condition": "L'adversaire bloque le underhook et fait pression vers l'avant.",
-        "action": "Passez à la branche genou-coude : cadre sur la hanche → évasion de la hanche → insertion près du genou → connecter le genou au coude du même côté → récupérer half guard."
+        "action": "Passez à la branche genou-coude : cadre sur la hanche → évasion de la hanche → insertion près du genou → connecter le genou au coude du même côté → récupérer Half Guard."
       },
       {
         "condition": "L'adversaire crossface vous fait bander pendant l'évasion",
@@ -52,19 +52,19 @@
       }
     ],
     "exitStrategies": [
-      "Si l'adversaire bloque le underhook, cadrez-vous sur la hanche, insérez votre genou le plus proche sur sa ligne de hanche et granby roulez pour récupérer guard.",
-      "Si vous récupérez half guard, établissez immédiatement un knee shield pour éviter qu'ils ne vous aplatissent.",
+      "Si l'adversaire bloque le underhook, cadrez-vous sur la hanche, insérez votre genou le plus proche sur sa ligne de hanche et granby roulez pour récupérer Guard.",
+      "Si vous récupérez Half Guard, établissez immédiatement un knee shield pour éviter qu'ils ne vous aplatissent.",
       "Si la fuite échoue, rétablissez les couches de survie et attendez la prochaine ouverture – ne forcez pas une deuxième tentative depuis une position compromise."
     ]
   },
   "moneyDetails": [
-    "L'évasion side control est l'évasion à la fréquence la plus élevée de BJJ — vous l'utiliserez à chaque lancer",
+    "L'évasion Side Control est l'évasion à la fréquence la plus élevée de BJJ — vous l'utiliserez à chaque lancer",
     "La maîtrise de la branche underhook ouvre en arrière rapporte ce score de 4 points en compétition",
-    "Une bonne séquence d'évasion side control économise votre énergie afin que vous puissiez attaquer au lieu de survivre tout le tour."
+    "Une bonne séquence d'évasion Side Control économise votre énergie afin que vous puissiez attaquer au lieu de survivre tout le tour."
   ],
   "fixItFast": [
     "S'ils vous crossface dur : encadrez les deux avant-bras sur leurs biceps, tournez la tête vers le tapis et la hanche s'échappe immédiatement",
     "S'ils vous empilent en enfonçant vos épaules dans le tapis : frappez le bras le plus proche sous leur jambe et prenez le dos.",
-    "Si vous ne parvenez pas à placer le underhook : frame sur la hanche, insérez votre genou le plus proche sur la ligne de la hanche et faites un roulis granby pour récupérer guard."
+    "Si vous ne parvenez pas à placer le underhook : frame sur la hanche, insérez votre genou le plus proche sur la ligne de la hanche et faites un roulis granby pour récupérer Guard."
   ]
 }

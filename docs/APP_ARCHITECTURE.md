@@ -372,7 +372,7 @@ Content folders are abbreviated names that map to schema domains:
 |--------|-----------------|
 | `pins/` | `pins_rides` |
 | `wrestling/` | `wrestle_up_wrestling` |
-| `guard/` | `guard_offense`, `guard_retention` |
+| `Guard/` | `guard_offense`, `guard_retention` |
 | `submissions/` | `submission_systems`, `back_control` |
 | `passing/` | `passing` |
 | `escapes/` | `escapes`, `positional_awareness`, `survival_defense` |

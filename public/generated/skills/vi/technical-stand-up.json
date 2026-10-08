@@ -21,11 +21,11 @@
       "type": "recommended"
     },
     {
-      "id": "seated-guard-retention",
+      "id": "seated-Guard-retention",
       "type": "recommended"
     },
     {
-      "id": "guard-pulling-strategy",
+      "id": "Guard-pulling-strategy",
       "type": "recommended"
     }
   ],
@@ -55,17 +55,17 @@
     "hasStateMachine": false
   },
   "locale": "vi",
-  "description": "Đứng lên một cách an toàn khi đang ngồi hoặc nằm ngửa guard mà không cần cho front headlock ăn. Kỹ thuật đứng lên là động tác nền tảng để chuyển sang đứng từ bất kỳ vị trí dưới cùng nào.",
+  "description": "Đứng lên một cách an toàn khi đang ngồi hoặc nằm ngửa Guard mà không cần cho Front Headlock ăn. Kỹ thuật đứng lên là động tác nền tảng để chuyển sang đứng từ bất kỳ vị trí dưới cùng nào.",
   "shortInstruction": "Đặt một tay lên thảm, đưa chân cùng bên vào tay đó, đẩy qua bàn chân và tay để đứng, đồng thời giữ tay kia giơ lên ​​trong khung phòng thủ. Đối mặt với đối thủ khi bạn đứng.",
-  "summary": "Kỹ thuật đứng lên là một động tác tuần tự từ ngồi hoặc nằm đến đứng: (1) đặt tay lên tấm thảm cạnh hông, (2) đưa chân cùng bên chạm vào tay bạn, (3) đưa tay và chân chống lên để nâng hông lên, (4) đặt chân kia xuống dưới khi bạn đứng lên, (5) thiết lập tư thế phòng thủ đối mặt với đối thủ. Việc đứng lên về mặt kỹ thuật là cần thiết để phục hồi guard, rùa thoát ra ngoài và đứng để vượt qua.",
+  "summary": "Kỹ thuật đứng lên là một động tác tuần tự từ ngồi hoặc nằm đến đứng: (1) đặt tay lên tấm thảm cạnh hông, (2) đưa chân cùng bên chạm vào tay bạn, (3) đưa tay và chân chống lên để nâng hông lên, (4) đặt chân kia xuống dưới khi bạn đứng lên, (5) thiết lập tư thế phòng thủ đối mặt với đối thủ. Việc đứng lên về mặt kỹ thuật là cần thiết để phục hồi Guard, Tư thế rùa thoát ra ngoài và đứng để vượt qua.",
   "whyItWorks": [
     "Đế ba chân (một tay, một đầu gối, một chân) mang lại sự ổn định trong suốt quá trình đứng lên",
-    "Đối mặt với đối thủ khi bạn đứng sẽ ngăn họ lùi lại hoặc tấn công bằng front headlock",
+    "Đối mặt với đối thủ khi bạn đứng sẽ ngăn họ lùi lại hoặc tấn công bằng Front Headlock",
     "Kỹ thuật đứng lên sử dụng các nhóm cơ mạnh nhất (mông, cơ tứ đầu, gân kheo) để nâng trọng lượng cơ thể của bạn",
     "Bàn tay giơ lên ​​tạo khung phòng thủ chống lại các đòn hạ gục và tấn công"
   ],
   "commonMistakes": [
-    "Đặt cả hai tay phẳng và cố gắng đứng - điều này khiến không có cánh tay nào để bảo vệ cú đánh phía sau hoặc front headlock",
+    "Đặt cả hai tay phẳng và cố gắng đứng - điều này khiến không có cánh tay nào để bảo vệ cú đánh phía sau hoặc Front Headlock",
     "Đứng quay lưng về phía đối thủ - điều này để lộ phần lưng để thực hiện cú đánh lưng dễ dàng nhất trong cuộc đời của họ",
     "Đứng thẳng thay vì giữ tư thế vật lộn - tư thế cao rất dễ bị hạ gục",
     "Đưa chân lên đầu gối thay vì tay - bàn chân phải chạm vào tay để tạo đòn bẩy thích hợp"
@@ -82,7 +82,7 @@
     "Thực hành kỹ thuật đứng lên từ từ trước khi sử dụng dưới áp lực - vội vàng dẫn đến mất thăng bằng"
   ],
   "systemLogic": {
-    "corePrinciple": "Kỹ thuật đứng lên là một chuyển động tuần tự từ ngồi/nằm sang đứng: Đứng → Chân → Nâng → Đế → Đứng → Tư thế. Đối mặt xuyên suốt với đối thủ sẽ tránh bị lộ lưng và front headlock mục.",
+    "corePrinciple": "Kỹ thuật đứng lên là một chuyển động tuần tự từ ngồi/nằm sang đứng: Đứng → Chân → Nâng → Đế → Đứng → Tư thế. Đối mặt xuyên suốt với đối thủ sẽ tránh bị lộ lưng và Front Headlock mục.",
     "decisionTree": [
       {
         "condition": "Đối thủ đang đứng cạnh bạn khi bạn đang ngồi hoặc nằm ngửa",
@@ -112,7 +112,7 @@
     ]
   },
   "moneyDetails": [
-    "Kỹ thuật đứng lên là kỹ năng di chuyển quan trọng nhất trong BJJ — nó được sử dụng trong mọi guard hồi phục, rùa trốn thoát và đứng lên ghi điểm",
+    "Kỹ thuật đứng lên là kỹ năng di chuyển quan trọng nhất trong BJJ — nó được sử dụng trong mọi Guard hồi phục, Tư thế rùa trốn thoát và đứng lên ghi điểm",
     "Nắm vững kỹ thuật đứng lên sẽ ngăn ngừa tình trạng mất vị trí phổ biến nhất: bị lộ lưng do đứng sai",
     "Kỹ thuật đứng lên là nền tảng của tất cả các hệ thống đấu vật"
   ],

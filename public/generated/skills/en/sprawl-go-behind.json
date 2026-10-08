@@ -12,7 +12,7 @@
   "keywords": [
     "sprawl",
     "go-behind",
-    "front headlock",
+    "Front Headlock",
     "turtle"
   ],
   "relatedSkills": [
@@ -45,7 +45,7 @@
   "keyCorrections": [
     "If they complete the takedown despite your sprawl: your hips were too high — drive them lower onto their back",
     "If they stand up before you circle: you waited too long — circle the moment the sprawl lands",
-    "If they turn into you: switch to a front headlock — do not force the back take"
+    "If they turn into you: switch to a Front Headlock — do not force the back take"
   ],
   "version": 1,
   "updatedAt": "2026-05-21T00:24:30.761Z",
@@ -106,7 +106,7 @@
       },
       {
         "condition": "the go-behind fails",
-        "action": "they turned into you → use the front headlock. They sat up → re-sprawl. They rolled away → follow and take the back"
+        "action": "they turned into you → use the Front Headlock. They sat up → re-sprawl. They rolled away → follow and take the back"
       }
     ],
     "exitStrategies": []
@@ -118,7 +118,7 @@
   ],
   "fixItFast": [
     "If they re-shoot during the sprawl: sprawl again, deeper — their second shot is weaker",
-    "If they turn into you: switch to the front headlock and chain attacks from there",
+    "If they turn into you: switch to the Front Headlock and chain attacks from there",
     "If they sit up and face you: re-establish the collar tie and reset to neutral"
   ]
 }

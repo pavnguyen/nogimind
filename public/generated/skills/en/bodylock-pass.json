@@ -36,8 +36,8 @@
   ],
   "relatedSkillIds": [],
   "relatedPositions": [
-    "half-guard-top",
-    "open-guard-top"
+    "half-Guard-top",
+    "open-Guard-top"
   ],
   "relatedPositionIds": [],
   "relatedConcepts": [
@@ -85,7 +85,7 @@
       {
         "order": 5,
         "name": "Stabilize Side Control",
-        "description": "Once past, transition to side control pin immediately."
+        "description": "Once past, transition to Side Control pin immediately."
       }
     ],
     "contactPoints": [
@@ -115,7 +115,7 @@
       },
       {
         "condition": "Opponent is flat on back with no hooks",
-        "action": "Walk knees out wide, windshield both knees past their hip line, then release lock and pin side control."
+        "action": "Walk knees out wide, windshield both knees past their hip line, then release lock and pin Side Control."
       },
       {
         "condition": "Opponent frames against your chest",
@@ -131,20 +131,20 @@
       }
     ],
     "exitStrategies": [
-      "If passing fails, transition to half guard passing or headquarters control.",
+      "If passing fails, transition to Half Guard passing or headquarters control.",
       "If opponent creates too much space, stand and re-engage from a low passing stance.",
       "If body lock is consistently countered, switch to over-under or leg drag passing."
     ]
   },
   "keyCorrections": [
     "If stuck, your head is centered — offset it to one side.",
-    "If they re-guard, you released the lock too early.",
+    "If they re-Guard, you released the lock too early.",
     "If they shoulder crunch, your chest is too high."
   ],
   "moneyDetails": [
     "The head offset is the most underrated detail — it blocks shoulder crunch and hip rotation.",
     "Killing the butterfly hook is not optional; without it, your hips get lifted.",
-    "Release the body lock only after the knee line is past and side control is pinned."
+    "Release the body lock only after the knee line is past and Side Control is pinned."
   ],
   "safetyNotes": "Watch your lower back — do not round it under pressure. Keep hips low to avoid being lifted.",
   "fixItFast": [
@@ -168,7 +168,7 @@
   "shortInstruction": "Lock low on the hips, offset the head, kill the hooks, clear the knee line, stabilize the pin.",
   "summary": "A core no-gi pressure passing system that neutralizes the hips before clearing the legs.",
   "whyItWorks": [
-    "Locks both hips before the opponent can re-guard or create frames.",
+    "Locks both hips before the opponent can re-Guard or create frames.",
     "Turns upper-body pressure into lower-body immobility.",
     "Denies butterfly hooks, shoulder crunch, and inside knee pummeling.",
     "Creates a dilemma between getting flattened or giving up the pass."
@@ -193,7 +193,7 @@
       "Keep head offset to one side (ear near hip).",
       "Kill the butterfly hook with knee and chest pressure.",
       "Windshield the near knee past the shin frame.",
-      "Clear the knee line and stabilize side control."
+      "Clear the knee line and stabilize Side Control."
     ]
   },
   "safetySummary": [
@@ -201,5 +201,5 @@
     "Release pressure immediately if your partner taps or shows distress.",
     "Do not crank the neck to force the pass."
   ],
-  "nextStep": "After stabilizing side control, transition to mount, back control, or submission systems like arm triangle."
+  "nextStep": "After stabilizing Side Control, transition to Mount, back control, or submission systems like arm triangle."
 }

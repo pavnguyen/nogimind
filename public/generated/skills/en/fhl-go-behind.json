@@ -25,11 +25,11 @@
   "modernSystemGroup": "front_headlock",
   "relatedSkills": [
     {
-      "id": "guillotine-system",
+      "id": "Guillotine-system",
       "type": "recommended"
     },
     {
-      "id": "high-wrist-guillotine",
+      "id": "high-wrist-Guillotine",
       "type": "recommended"
     }
   ],
@@ -63,14 +63,14 @@
     "hasStateMachine": false
   },
   "locale": "en",
-  "description": "The most fundamental back take from front headlock — circle to the rear when the opponent resists the choke or tries to belly down.",
-  "shortInstruction": "Control the head, circle to the back, take the hooks — the go-behind is the simplest path from front headlock to back control.",
-  "summary": "The go-behind from front headlock is the highest percentage transition in the front headlock system. When you have the front headlock and the opponent resists your choke attempt (guillotine, D'Arce, anaconda), they will often try to flatten out or circle away. Their resistance creates the space you need to release the choke, circle behind them, and take the back. The go-behind turns a failed submission into the most dominant position in BJJ.",
+  "description": "The most fundamental back take from Front Headlock — circle to the rear when the opponent resists the choke or tries to belly down.",
+  "shortInstruction": "Control the head, circle to the back, take the hooks — the go-behind is the simplest path from Front Headlock to back control.",
+  "summary": "The go-behind from Front Headlock is the highest percentage transition in the Front Headlock system. When you have the Front Headlock and the opponent resists your choke attempt (Guillotine, D'Arce, anaconda), they will often try to flatten out or circle away. Their resistance creates the space you need to release the choke, circle behind them, and take the back. The go-behind turns a failed submission into the most dominant position in BJJ.",
   "whyItWorks": [
     "When they resist the choke, they are focused on defending their neck — their back is exposed.",
-    "The front headlock already controls their head and one arm — you are 50% of the way to back control already.",
-    "Circling behind is a natural movement from front headlock — their forward pressure creates the space.",
-    "Danaher principle: every front headlock attempt should have a go-behind option — never commit fully to the choke."
+    "The Front Headlock already controls their head and one arm — you are 50% of the way to back control already.",
+    "Circling behind is a natural movement from Front Headlock — their forward pressure creates the space.",
+    "Danaher principle: every Front Headlock attempt should have a go-behind option — never commit fully to the choke."
   ],
   "commonMistakes": [
     "Committing fully to the choke and forgetting the go-behind — the go-behind should always be an option.",
@@ -90,7 +90,7 @@
     "When taking the back, slide your hooks in smoothly to avoid hitting their knees."
   ],
   "systemLogic": {
-    "corePrinciple": "Front headlock established → opponent resists choke → release the choke → circle behind them → secure seatbelt → insert hooks → back control.",
+    "corePrinciple": "Front Headlock established → opponent resists choke → release the choke → circle behind them → secure seatbelt → insert hooks → back control.",
     "decisionTree": [
       {
         "condition": "The go-behind works as part of the FHL system: choke threat",
@@ -98,7 +98,7 @@
       },
       {
         "condition": "General application",
-        "action": "If the go-behind fails, return to front headlock or transition to side control."
+        "action": "If the go-behind fails, return to Front Headlock or transition to Side Control."
       }
     ],
     "exitStrategies": []

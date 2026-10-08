@@ -2,9 +2,9 @@
   "id": "bear-trap-ham-sandwich",
   "locale": "fr",
   "name": "Piège à ours / Sandwich au jambon",
-  "description": "Utilisez le piège à ours (également appelé sandwich au jambon) pour créer un verrouillage de compression – trancheuse de mollet – à partir d'un demi-papillon ou de half guard, forçant l'adversaire à taper, à exposer son dos ou à abandonner le balayage.",
-  "shortInstruction": "Emprisonnez leur jambe dans votre genou, enfoncez votre tibia dans leur mollet, comprimez – le piège à ours est une trancheuse à mollets cachée dans le half guard.",
-  "summary": "Le piège à ours (sandwich au jambon) est une soumission de compression (trancheuse de mollet) qui utilise votre tibia contre le muscle de son mollet, avec sa jambe coincée dans le creux de votre genou. Il est le plus souvent entré à partir d'un demi-papillon ou de half guard lorsque l'adversaire avance. La pression écrasante exercée sur leur mollet les oblige à taper, à rouler sur le dos (vous donnant le balayage) ou à exposer leur dos pour une prise en arrière.",
+  "description": "Utilisez le piège à ours (également appelé sandwich au jambon) pour créer un verrouillage de compression – trancheuse de mollet – à partir d'un demi-papillon ou de Half Guard, forçant l'adversaire à taper, à exposer son dos ou à abandonner le balayage.",
+  "shortInstruction": "Emprisonnez leur jambe dans votre genou, enfoncez votre tibia dans leur mollet, comprimez – le piège à ours est une trancheuse à mollets cachée dans le Half Guard.",
+  "summary": "Le piège à ours (sandwich au jambon) est une soumission de compression (trancheuse de mollet) qui utilise votre tibia contre le muscle de son mollet, avec sa jambe coincée dans le creux de votre genou. Il est le plus souvent entré à partir d'un demi-papillon ou de Half Guard lorsque l'adversaire avance. La pression écrasante exercée sur leur mollet les oblige à taper, à rouler sur le dos (vous donnant le balayage) ou à exposer leur dos pour une prise en arrière.",
   "whyItWorks": [
     "La compression du tibia contre le muscle du mollet crée une douleur intense et une pression articulaire – la plupart des adversaires tapent ou roulent.",
     "Cela fonctionne comme un dilemme : appuyez sur la trancheuse à mollets ou abandonnez le balayage/prise arrière.",
@@ -34,7 +34,7 @@
     "S’ils tournent, vous perdez le contrôle du haut du corps – rétablissez votre emprise sur leur col ou leur bras."
   ],
   "systemLogic": {
-    "corePrinciple": "Demi-papillon ou half guard : l'adversaire avance → emprisonne sa jambe dans votre genou (piège à ours) → compresse avec le tibia → termine ou balaye.",
+    "corePrinciple": "Demi-papillon ou Half Guard : l'adversaire avance → emprisonne sa jambe dans votre genou (piège à ours) → compresse avec le tibia → termine ou balaye.",
     "decisionTree": [
       {
         "condition": "Utiliser la réaction 1",

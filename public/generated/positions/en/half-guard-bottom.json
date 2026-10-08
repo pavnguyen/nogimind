@@ -1,5 +1,5 @@
 {
-  "id": "half-guard-bottom",
+  "id": "half-Guard-bottom",
   "locale": "en",
   "title": "Half Guard Bottom",
   "category": "bottom_guard",
@@ -30,8 +30,8 @@
       "action": "Win the underhook and come up to dogfight",
       "nextPositionId": "dogfight",
       "relatedSkillIds": [
-        "half-guard-knee-shield",
-        "half-guard-wrestle-up",
+        "half-Guard-knee-shield",
+        "half-Guard-wrestle-up",
         "side-control-escape"
       ],
       "why": "This is the natural branch when you win the main control point and the opponent is forced to defend."
@@ -44,8 +44,8 @@
     "You need a long hand post to avoid falling."
   ],
   "relatedSkillIds": [
-    "half-guard-knee-shield",
-    "half-guard-wrestle-up",
+    "half-Guard-knee-shield",
+    "half-Guard-wrestle-up",
     "side-control-escape"
   ],
   "relatedConceptIds": [

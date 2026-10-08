@@ -1,9 +1,9 @@
 import { useMemo, useRef } from 'react'
-import { Link, useSearchParams } from 'react-router-dom'
+import { Link, Navigate, useSearchParams } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import { useVirtualizer } from '@tanstack/react-virtual'
 import { Badge } from '../components/common/Badge'
-import { BookOpen, BookText, Info, Search as SearchIcon } from 'lucide-react'
+import { BookOpen, BookText, Search as SearchIcon } from 'lucide-react'
 import { HubTabBar } from '../components/layout/HubTabBar'
 import { PageShell } from '../components/common/PageShell'
 import { SectionCard } from '../components/common/SectionCard'
@@ -141,39 +141,12 @@ export default function ReferencePage() {
           </div>
         )
 
-      case 'about':
-        return (
-          <div className="space-y-4">
-            <div className="flex items-center justify-between">
-              <p className="text-sm text-slate-400">{t('about.philosophy')}</p>
-              <Link
-                to="/about"
-                className="text-xs font-medium text-slate-400 hover:text-slate-200 transition-colors"
-              >
-                {t('common.open')} →
-              </Link>
-            </div>
-            <SectionCard>
-              <div className="space-y-4 text-sm leading-6 text-slate-300">
-                <p>{t('about.philosophy')}</p>
-                <p>{t('about.system')}</p>
-                <p className="hallmark-text-caution">{t('about.safety')}</p>
-              </div>
-            </SectionCard>
-            <SectionCard title={t('detail.concepts')}>
-              <div className="flex flex-wrap gap-2">
-                {(t('about.themes', { returnObjects: true }) as string[]).map((theme: string) => (
-                  <Badge className="hallmark-badge" key={theme}>{theme}</Badge>
-                ))}
-              </div>
-            </SectionCard>
-          </div>
-        )
-
       default:
         return null
     }
   }
+
+  if (activeTab === 'about') return <Navigate to="/about" replace />
 
   return (
     <PageShell
@@ -199,7 +172,6 @@ export default function ReferencePage() {
         tabs={[
           { id: 'glossary', labelKey: 'nav.glossary', icon: BookText },
           { id: 'search', labelKey: 'nav.search', icon: SearchIcon },
-          { id: 'about', labelKey: 'nav.philosophy', icon: Info },
         ]}
 
         className="mb-6"

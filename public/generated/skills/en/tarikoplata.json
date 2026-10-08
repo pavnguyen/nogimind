@@ -13,7 +13,7 @@
     "meta:modern-common",
     "risk:high",
     "family:submission",
-    "group:clamp-guard",
+    "group:clamp-Guard",
     "modern-no-gi"
   ],
   "keywords": [
@@ -32,7 +32,7 @@
       "type": "recommended"
     },
     {
-      "id": "clamp-guard-control",
+      "id": "clamp-Guard-control",
       "type": "recommended"
     }
   ],
@@ -45,7 +45,7 @@
   "relatedArchetypeIds": [],
   "prerequisiteSkillIds": [
     "kimura-system",
-    "clamp-guard-control"
+    "clamp-Guard-control"
   ],
   "trainingMethodIds": [],
   "nextSkillIds": [],
@@ -117,6 +117,6 @@
   "fixItFast": [
     "Arm keeps escaping? Your wrist control is too loose — re-grip with more pressure.",
     "Can't rotate? Your leg position is wrong — adjust so your leg controls their shoulder, not their arm.",
-    "They stack you? Release and reset to guard."
+    "They stack you? Release and reset to Guard."
   ]
 }

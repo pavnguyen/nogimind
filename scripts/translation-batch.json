@@ -78,7 +78,7 @@
       },
       {
         "condition": "Common dilemma examples",
-        "action": "Closed guard: scissor sweep (they post hand → kimura) or armbar (they posture → triangle). Mount: armbar (they defend arm → cross choke) or cross choke (they defend neck → armbar). Back: rear-naked choke (they defend neck → bow-and-arrow) or bow-and-arrow (they defend hip → RNC). Leg locks: heel hook (they defend inside → outside ashi) or straight ankle lock (they defend heel hook → ankle lock)"
+        "action": "Closed Guard: scissor sweep (they post hand → kimura) or armbar (they posture → triangle). Mount: armbar (they defend arm → cross choke) or cross choke (they defend neck → armbar). Back: rear-naked choke (they defend neck → bow-and-arrow) or bow-and-arrow (they defend hip → RNC). Leg locks: heel hook (they defend inside → outside ashi) or straight ankle lock (they defend heel hook → ankle lock)"
       }
     ],
     "exitStrategies": []
@@ -101,11 +101,11 @@
       },
       {
         "condition": "At Level 3 (Position)",
-        "action": "move to a different position while keeping the same attack theme. Examples: if triangle fails from closed guard, move to armbar from the same guard entry. If single leg fails, move to body lock. Position changes preserve the work you already did to break their structure"
+        "action": "move to a different position while keeping the same attack theme. Examples: if triangle fails from Closed Guard, move to armbar from the same Guard entry. If single leg fails, move to body lock. Position changes preserve the work you already did to break their structure"
       },
       {
         "condition": "At Level 4 (Retreat)",
-        "action": "disengage with a controlled retreat. Frame on the opponent, protect your head and limbs, and recover to a neutral or defensive position. Never retreat without a frame or guard"
+        "action": "disengage with a controlled retreat. Frame on the opponent, protect your head and limbs, and recover to a neutral or defensive position. Never retreat without a frame or Guard"
       },
       {
         "condition": "After retreating",
@@ -120,7 +120,7 @@
     "domain": "escapes",
     "locale": "fr",
     "file": "content/skills/escapes/front-headlock-defense/content.fr.json",
-    "corePrinciple": "Front headlock defense follows a strict hierarchy: (1) protect neck → (2) control grip → (3) establish base → (4) choose escape branch",
+    "corePrinciple": "Front Headlock defense follows a strict hierarchy: (1) protect neck → (2) control grip → (3) establish base → (4) choose escape branch",
     "decisionTree": [
       {
         "condition": "General application",
@@ -128,7 +128,7 @@
       },
       {
         "condition": "In Phase 1 (Immediate freeze)",
-        "action": "the moment you feel the front headlock, do not explode. Freeze, tuck your chin, and breathe. Explosive movement deepens the choke."
+        "action": "the moment you feel the Front Headlock, do not explode. Freeze, tuck your chin, and breathe. Explosive movement deepens the choke."
       },
       {
         "condition": "In Phase 2 (Wrist control)",
@@ -155,7 +155,7 @@
     "domain": "escapes",
     "locale": "vi",
     "file": "content/skills/escapes/front-headlock-defense/content.vi.json",
-    "corePrinciple": "Front headlock defense follows a strict hierarchy: (1) protect neck → (2) control grip → (3) establish base → (4) choose escape branch",
+    "corePrinciple": "Front Headlock defense follows a strict hierarchy: (1) protect neck → (2) control grip → (3) establish base → (4) choose escape branch",
     "decisionTree": [
       {
         "condition": "General application",
@@ -163,7 +163,7 @@
       },
       {
         "condition": "In Phase 1 (Immediate freeze)",
-        "action": "the moment you feel the front headlock, do not explode. Freeze, tuck your chin, and breathe. Explosive movement deepens the choke."
+        "action": "the moment you feel the Front Headlock, do not explode. Freeze, tuck your chin, and breathe. Explosive movement deepens the choke."
       },
       {
         "condition": "In Phase 2 (Wrist control)",
@@ -185,74 +185,74 @@
     "exitStrategies": []
   },
   {
-    "id": "guard-pulling-strategy_fr",
-    "skill_id": "guard-pulling-strategy",
+    "id": "Guard-pulling-strategy_fr",
+    "skill_id": "Guard-pulling-strategy",
     "domain": "escapes",
     "locale": "fr",
-    "file": "content/skills/escapes/guard-pulling-strategy/content.fr.json",
+    "file": "content/skills/escapes/Guard-pulling-strategy/content.fr.json",
     "corePrinciple": "Guard pulling follows a four-step sequence: Grip → Angle → Sit → Enter Guard System",
     "decisionTree": [
       {
         "condition": "In Step 1 (Grip)",
-        "action": "establish your strongest guard grip before pulling. If pulling to shin-to-shin: collar tie + wrist control. If pulling to K-guard: collar tie + sleeve grip. If pulling to seated guard: two-on-one wrist control or collar tie"
+        "action": "establish your strongest Guard grip before pulling. If pulling to shin-to-shin: collar tie + wrist control. If pulling to K-Guard: collar tie + sleeve grip. If pulling to seated Guard: two-on-one wrist control or collar tie"
       },
       {
         "condition": "In Step 2 (Angle)",
-        "action": "step off the center line at a 30-45 degree angle. If you pull straight at them, they can drive forward into side control. An angle forces them to re-align their hips, creating the entry window"
+        "action": "step off the center line at a 30-45 degree angle. If you pull straight at them, they can drive forward into Side Control. An angle forces them to re-align their hips, creating the entry window"
       },
       {
         "condition": "In Step 3 (Sit)",
-        "action": "lower your hips to the mat by sitting to your outside hip (not both hips at once). Keep your inside leg active (posted foot or shin-to-shin connection) to prevent them from stepping into the guard pass"
+        "action": "lower your hips to the mat by sitting to your outside hip (not both hips at once). Keep your inside leg active (posted foot or shin-to-shin connection) to prevent them from stepping into the Guard pass"
       },
       {
         "condition": "In Step 4 (Enter Guard System)",
-        "action": "immediately transition to your best guard from the landing position. If you pulled to shin-to-shin: enter single leg X or X-guard. If you pulled to seated: enter K-guard, DLR, or collar-sleeve. If you pulled to closed guard: break their posture immediately"
+        "action": "immediately transition to your best Guard from the landing position. If you pulled to shin-to-shin: enter single leg X or X-Guard. If you pulled to seated: enter K-Guard, DLR, or collar-sleeve. If you pulled to Closed Guard: break their posture immediately"
       },
       {
         "condition": "Guard pull selection guide",
-        "action": "against a standing passer → seated guard. Against a kneeling passer → shin-to-shin. Against pressure passer → K-guard or butterfly"
+        "action": "against a standing passer → seated Guard. Against a kneeling passer → shin-to-shin. Against pressure passer → K-Guard or butterfly"
       }
     ],
     "exitStrategies": []
   },
   {
-    "id": "guard-pulling-strategy_vi",
-    "skill_id": "guard-pulling-strategy",
+    "id": "Guard-pulling-strategy_vi",
+    "skill_id": "Guard-pulling-strategy",
     "domain": "escapes",
     "locale": "vi",
-    "file": "content/skills/escapes/guard-pulling-strategy/content.vi.json",
+    "file": "content/skills/escapes/Guard-pulling-strategy/content.vi.json",
     "corePrinciple": "Guard pulling follows a four-step sequence: Grip → Angle → Sit → Enter Guard System",
     "decisionTree": [
       {
         "condition": "In Step 1 (Grip)",
-        "action": "establish your strongest guard grip before pulling. If pulling to shin-to-shin: collar tie + wrist control. If pulling to K-guard: collar tie + sleeve grip. If pulling to seated guard: two-on-one wrist control or collar tie"
+        "action": "establish your strongest Guard grip before pulling. If pulling to shin-to-shin: collar tie + wrist control. If pulling to K-Guard: collar tie + sleeve grip. If pulling to seated Guard: two-on-one wrist control or collar tie"
       },
       {
         "condition": "In Step 2 (Angle)",
-        "action": "step off the center line at a 30-45 degree angle. If you pull straight at them, they can drive forward into side control. An angle forces them to re-align their hips, creating the entry window"
+        "action": "step off the center line at a 30-45 degree angle. If you pull straight at them, they can drive forward into Side Control. An angle forces them to re-align their hips, creating the entry window"
       },
       {
         "condition": "In Step 3 (Sit)",
-        "action": "lower your hips to the mat by sitting to your outside hip (not both hips at once). Keep your inside leg active (posted foot or shin-to-shin connection) to prevent them from stepping into the guard pass"
+        "action": "lower your hips to the mat by sitting to your outside hip (not both hips at once). Keep your inside leg active (posted foot or shin-to-shin connection) to prevent them from stepping into the Guard pass"
       },
       {
         "condition": "In Step 4 (Enter Guard System)",
-        "action": "immediately transition to your best guard from the landing position. If you pulled to shin-to-shin: enter single leg X or X-guard. If you pulled to seated: enter K-guard, DLR, or collar-sleeve. If you pulled to closed guard: break their posture immediately"
+        "action": "immediately transition to your best Guard from the landing position. If you pulled to shin-to-shin: enter single leg X or X-Guard. If you pulled to seated: enter K-Guard, DLR, or collar-sleeve. If you pulled to Closed Guard: break their posture immediately"
       },
       {
         "condition": "Guard pull selection guide",
-        "action": "against a standing passer → seated guard. Against a kneeling passer → shin-to-shin. Against pressure passer → K-guard or butterfly"
+        "action": "against a standing passer → seated Guard. Against a kneeling passer → shin-to-shin. Against pressure passer → K-Guard or butterfly"
       }
     ],
     "exitStrategies": []
   },
   {
-    "id": "half-guard-bottom-escape_fr",
-    "skill_id": "half-guard-bottom-escape",
+    "id": "half-Guard-bottom-escape_fr",
+    "skill_id": "half-Guard-bottom-escape",
     "domain": "escapes",
     "locale": "fr",
-    "file": "content/skills/escapes/half-guard-bottom-escape/content.fr.json",
-    "corePrinciple": "The half guard bottom escape has three sequential steps: turn to side → win underhook → insert outside knee across back",
+    "file": "content/skills/escapes/half-Guard-bottom-escape/content.fr.json",
+    "corePrinciple": "The Half Guard bottom escape has three sequential steps: turn to side → win underhook → insert outside knee across back",
     "decisionTree": [
       {
         "condition": "General application",
@@ -268,18 +268,18 @@
       },
       {
         "condition": "General application",
-        "action": "From dogfight, you have three branches: single leg (they post far hand), knee tap (they post close), or re-guard (they drive into you)"
+        "action": "From dogfight, you have three branches: single leg (they post far hand), knee tap (they post close), or re-Guard (they drive into you)"
       }
     ],
     "exitStrategies": []
   },
   {
-    "id": "half-guard-bottom-escape_vi",
-    "skill_id": "half-guard-bottom-escape",
+    "id": "half-Guard-bottom-escape_vi",
+    "skill_id": "half-Guard-bottom-escape",
     "domain": "escapes",
     "locale": "vi",
-    "file": "content/skills/escapes/half-guard-bottom-escape/content.vi.json",
-    "corePrinciple": "The half guard bottom escape has three sequential steps: turn to side → win underhook → insert outside knee across back",
+    "file": "content/skills/escapes/half-Guard-bottom-escape/content.vi.json",
+    "corePrinciple": "The Half Guard bottom escape has three sequential steps: turn to side → win underhook → insert outside knee across back",
     "decisionTree": [
       {
         "condition": "General application",
@@ -295,7 +295,7 @@
       },
       {
         "condition": "General application",
-        "action": "From dogfight, you have three branches: single leg (they post far hand), knee tap (they post close), or re-guard (they drive into you)"
+        "action": "From dogfight, you have three branches: single leg (they post far hand), knee tap (they post close), or re-Guard (they drive into you)"
       }
     ],
     "exitStrategies": []
@@ -442,14 +442,14 @@
     "decisionTree": [
       {
         "condition": "General application",
-        "action": "Blood choke (strangle): pressure is applied to the carotid arteries on both sides of the neck. Cause unconsciousness by preventing oxygenated blood from reaching the brain. Structure: cross-collar, rear-naked, triangle, guillotine (when correctly applied), baseball bat. Safe to train with controlled application"
+        "action": "Blood choke (strangle): pressure is applied to the carotid arteries on both sides of the neck. Cause unconsciousness by preventing oxygenated blood from reaching the brain. Structure: cross-collar, rear-naked, triangle, Guillotine (when correctly applied), baseball bat. Safe to train with controlled application"
       },
       {
         "condition": "General application",
         "action": "Air choke: pressure is applied to the trachea/windpipe. Causes difficulty breathing but does not cut off blood flow. Structure: front choke, some cross-collar variations, some baseball bat variations. Higher injury risk than blood choke"
       },
       {
-        "condition": "Neck crank: pressure is applied to the cervical spine via the chin, back of the head, or base of the skull. Structure: can opener, twister, some guillotine variations (when rolled), some D'Arce variations, some triangle variations. NOT safe to train aggressively",
+        "condition": "Neck crank: pressure is applied to the cervical spine via the chin, back of the head, or base of the skull. Structure: can opener, twister, some Guillotine variations (when rolled), some D'Arce variations, some triangle variations. NOT safe to train aggressively",
         "action": "cumulative damage"
       },
       {
@@ -473,14 +473,14 @@
     "decisionTree": [
       {
         "condition": "General application",
-        "action": "Blood choke (strangle): pressure is applied to the carotid arteries on both sides of the neck. Cause unconsciousness by preventing oxygenated blood from reaching the brain. Structure: cross-collar, rear-naked, triangle, guillotine (when correctly applied), baseball bat. Safe to train with controlled application"
+        "action": "Blood choke (strangle): pressure is applied to the carotid arteries on both sides of the neck. Cause unconsciousness by preventing oxygenated blood from reaching the brain. Structure: cross-collar, rear-naked, triangle, Guillotine (when correctly applied), baseball bat. Safe to train with controlled application"
       },
       {
         "condition": "General application",
         "action": "Air choke: pressure is applied to the trachea/windpipe. Causes difficulty breathing but does not cut off blood flow. Structure: front choke, some cross-collar variations, some baseball bat variations. Higher injury risk than blood choke"
       },
       {
-        "condition": "Neck crank: pressure is applied to the cervical spine via the chin, back of the head, or base of the skull. Structure: can opener, twister, some guillotine variations (when rolled), some D'Arce variations, some triangle variations. NOT safe to train aggressively",
+        "condition": "Neck crank: pressure is applied to the cervical spine via the chin, back of the head, or base of the skull. Structure: can opener, twister, some Guillotine variations (when rolled), some D'Arce variations, some triangle variations. NOT safe to train aggressively",
         "action": "cumulative damage"
       },
       {
@@ -500,7 +500,7 @@
     "domain": "escapes",
     "locale": "vi",
     "file": "content/skills/escapes/north-south-escape/content.vi.json",
-    "corePrinciple": "The north-south escape follows a four-step sequence: frame → hip escape → knee shield → turn/recover guard",
+    "corePrinciple": "The north-south escape follows a four-step sequence: frame → hip escape → knee shield → turn/recover Guard",
     "decisionTree": [
       {
         "condition": "General application",
@@ -516,7 +516,7 @@
       },
       {
         "condition": "General application",
-        "action": "Turn/recover: use the knee shield as a pivot point to turn toward them, then either recover full guard (by overhooking their far arm) or stand up via technical stand-up"
+        "action": "Turn/recover: use the knee shield as a pivot point to turn toward them, then either recover full Guard (by overhooking their far arm) or stand up via technical stand-up"
       }
     ],
     "exitStrategies": []
@@ -605,7 +605,7 @@
       },
       {
         "condition": "Ethical training principle",
-        "action": "smother techniques should be used to teach positional control, not to dominate training partners. If you can hold side control without smother, do so"
+        "action": "smother techniques should be used to teach positional control, not to dominate training partners. If you can hold Side Control without smother, do so"
       }
     ],
     "exitStrategies": []
@@ -632,7 +632,7 @@
       },
       {
         "condition": "Ethical training principle",
-        "action": "smother techniques should be used to teach positional control, not to dominate training partners. If you can hold side control without smother, do so"
+        "action": "smother techniques should be used to teach positional control, not to dominate training partners. If you can hold Side Control without smother, do so"
       }
     ],
     "exitStrategies": []
@@ -659,7 +659,7 @@
       },
       {
         "condition": "In Step 4 (Escape decision)",
-        "action": "choose your escape: sit through to guard, stand up to base, or granby roll to recover guard. Each escape has different risk levels"
+        "action": "choose your escape: sit through to Guard, stand up to base, or granby roll to recover Guard. Each escape has different risk levels"
       },
       {
         "condition": "In Step 5 (Engagement)",
@@ -669,11 +669,11 @@
     "exitStrategies": []
   },
   {
-    "id": "butterfly-guard-off-balance_fr",
-    "skill_id": "butterfly-guard-off-balance",
-    "domain": "guard",
+    "id": "butterfly-Guard-off-balance_fr",
+    "skill_id": "butterfly-Guard-off-balance",
+    "domain": "Guard",
     "locale": "fr",
-    "file": "content/skills/guard/butterfly-guard-off-balance/content.fr.json",
+    "file": "content/skills/Guard/butterfly-Guard-off-balance/content.fr.json",
     "corePrinciple": "Win the hand fight → establish collar tie or underhook → insert butterfly hook → off-balance → opponent posts → sweep or enter leg entanglement.",
     "decisionTree": [
       {
@@ -688,11 +688,11 @@
     "exitStrategies": []
   },
   {
-    "id": "butterfly-guard-off-balance_vi",
-    "skill_id": "butterfly-guard-off-balance",
-    "domain": "guard",
+    "id": "butterfly-Guard-off-balance_vi",
+    "skill_id": "butterfly-Guard-off-balance",
+    "domain": "Guard",
     "locale": "vi",
-    "file": "content/skills/guard/butterfly-guard-off-balance/content.vi.json",
+    "file": "content/skills/Guard/butterfly-Guard-off-balance/content.vi.json",
     "corePrinciple": "Win the hand fight → establish collar tie or underhook → insert butterfly hook → off-balance → opponent posts → sweep or enter leg entanglement.",
     "decisionTree": [
       {
@@ -707,11 +707,11 @@
     "exitStrategies": []
   },
   {
-    "id": "clamp-guard-control_fr",
-    "skill_id": "clamp-guard-control",
-    "domain": "guard",
+    "id": "clamp-Guard-control_fr",
+    "skill_id": "clamp-Guard-control",
+    "domain": "Guard",
     "locale": "fr",
-    "file": "content/skills/guard/clamp-guard-control/content.fr.json",
+    "file": "content/skills/Guard/clamp-Guard-control/content.fr.json",
     "corePrinciple": "Secure the clamp (knee on shoulder + overhook + wrist control of free hand) → feel their reaction → attack the open submission.",
     "decisionTree": [
       {
@@ -726,11 +726,11 @@
     "exitStrategies": []
   },
   {
-    "id": "clamp-guard-control_vi",
-    "skill_id": "clamp-guard-control",
-    "domain": "guard",
+    "id": "clamp-Guard-control_vi",
+    "skill_id": "clamp-Guard-control",
+    "domain": "Guard",
     "locale": "vi",
-    "file": "content/skills/guard/clamp-guard-control/content.vi.json",
+    "file": "content/skills/Guard/clamp-Guard-control/content.vi.json",
     "corePrinciple": "Secure the clamp (knee on shoulder + overhook + wrist control of free hand) → feel their reaction → attack the open submission.",
     "decisionTree": [
       {
@@ -747,9 +747,9 @@
   {
     "id": "clamp-to-triangle-bridge_fr",
     "skill_id": "clamp-to-triangle-bridge",
-    "domain": "guard",
+    "domain": "Guard",
     "locale": "fr",
-    "file": "content/skills/guard/clamp-to-triangle-bridge/content.fr.json",
+    "file": "content/skills/Guard/clamp-to-triangle-bridge/content.fr.json",
     "corePrinciple": "Clamp established: opponent stands or separates hips → swing top leg over their shoulder → lock triangle → break posture → finish.",
     "decisionTree": [
       {
@@ -766,9 +766,9 @@
   {
     "id": "clamp-to-triangle-bridge_vi",
     "skill_id": "clamp-to-triangle-bridge",
-    "domain": "guard",
+    "domain": "Guard",
     "locale": "vi",
-    "file": "content/skills/guard/clamp-to-triangle-bridge/content.vi.json",
+    "file": "content/skills/Guard/clamp-to-triangle-bridge/content.vi.json",
     "corePrinciple": "Clamp established: opponent stands or separates hips → swing top leg over their shoulder → lock triangle → break posture → finish.",
     "decisionTree": [
       {
@@ -783,11 +783,11 @@
     "exitStrategies": []
   },
   {
-    "id": "closed-guard-sweeps_fr",
-    "skill_id": "closed-guard-sweeps",
-    "domain": "guard",
+    "id": "closed-Guard-sweeps_fr",
+    "skill_id": "closed-Guard-sweeps",
+    "domain": "Guard",
     "locale": "fr",
-    "file": "content/skills/guard/closed-guard-sweeps/content.fr.json",
+    "file": "content/skills/Guard/closed-Guard-sweeps/content.fr.json",
     "corePrinciple": "Break posture → off-balance → choose sweep based on their reaction → land in a dominant pin.",
     "decisionTree": [
       {
@@ -796,17 +796,17 @@
       },
       {
         "condition": "they defend the sweep by posturing, attack the triangle or armbar instead",
-        "action": "the guard is a system, not isolated moves."
+        "action": "the Guard is a system, not isolated moves."
       }
     ],
     "exitStrategies": []
   },
   {
-    "id": "closed-guard-sweeps_vi",
-    "skill_id": "closed-guard-sweeps",
-    "domain": "guard",
+    "id": "closed-Guard-sweeps_vi",
+    "skill_id": "closed-Guard-sweeps",
+    "domain": "Guard",
     "locale": "vi",
-    "file": "content/skills/guard/closed-guard-sweeps/content.vi.json",
+    "file": "content/skills/Guard/closed-Guard-sweeps/content.vi.json",
     "corePrinciple": "Break posture → off-balance → choose sweep based on their reaction → land in a dominant pin.",
     "decisionTree": [
       {
@@ -815,7 +815,7 @@
       },
       {
         "condition": "they defend the sweep by posturing, attack the triangle or armbar instead",
-        "action": "the guard is a system, not isolated moves."
+        "action": "the Guard is a system, not isolated moves."
       }
     ],
     "exitStrategies": []
@@ -823,10 +823,10 @@
   {
     "id": "de-la-riva-sweeps_fr",
     "skill_id": "de-la-riva-sweeps",
-    "domain": "guard",
+    "domain": "Guard",
     "locale": "fr",
-    "file": "content/skills/guard/de-la-riva-sweeps/content.fr.json",
-    "corePrinciple": "DLR hook + sleeve grip → off-balance them forward → opponent posts → enter X-guard or SLX → sweep or attack legs.",
+    "file": "content/skills/Guard/de-la-riva-sweeps/content.fr.json",
+    "corePrinciple": "DLR hook + sleeve grip → off-balance them forward → opponent posts → enter X-Guard or SLX → sweep or attack legs.",
     "decisionTree": [
       {
         "condition": "General application",
@@ -834,11 +834,11 @@
       },
       {
         "condition": "General application",
-        "action": "If they step back, extend into X-guard and sweep forward."
+        "action": "If they step back, extend into X-Guard and sweep forward."
       },
       {
         "condition": "General application",
-        "action": "DLR is the entry; X-guard and SLX are the destination."
+        "action": "DLR is the entry; X-Guard and SLX are the destination."
       }
     ],
     "exitStrategies": []
@@ -846,10 +846,10 @@
   {
     "id": "de-la-riva-sweeps_vi",
     "skill_id": "de-la-riva-sweeps",
-    "domain": "guard",
+    "domain": "Guard",
     "locale": "vi",
-    "file": "content/skills/guard/de-la-riva-sweeps/content.vi.json",
-    "corePrinciple": "DLR hook + sleeve grip → off-balance them forward → opponent posts → enter X-guard or SLX → sweep or attack legs.",
+    "file": "content/skills/Guard/de-la-riva-sweeps/content.vi.json",
+    "corePrinciple": "DLR hook + sleeve grip → off-balance them forward → opponent posts → enter X-Guard or SLX → sweep or attack legs.",
     "decisionTree": [
       {
         "condition": "General application",
@@ -857,22 +857,22 @@
       },
       {
         "condition": "General application",
-        "action": "If they step back, extend into X-guard and sweep forward."
+        "action": "If they step back, extend into X-Guard and sweep forward."
       },
       {
         "condition": "General application",
-        "action": "DLR is the entry; X-guard and SLX are the destination."
+        "action": "DLR is the entry; X-Guard and SLX are the destination."
       }
     ],
     "exitStrategies": []
   },
   {
     "id": "deep-half-guard_fr",
-    "skill_id": "deep-half-guard",
-    "domain": "guard",
+    "skill_id": "deep-half-Guard",
+    "domain": "Guard",
     "locale": "fr",
-    "file": "content/skills/guard/deep-half-guard/content.fr.json",
-    "corePrinciple": "Half guard → win the underhook → slide head to far side → control near leg → hips under hips → sweep or take the back.",
+    "file": "content/skills/Guard/deep-half-Guard/content.fr.json",
+    "corePrinciple": "Half Guard → win the underhook → slide head to far side → control near leg → hips under hips → sweep or take the back.",
     "decisionTree": [
       {
         "condition": "Option 1: They resist forward",
@@ -887,11 +887,11 @@
   },
   {
     "id": "deep-half-guard_vi",
-    "skill_id": "deep-half-guard",
-    "domain": "guard",
+    "skill_id": "deep-half-Guard",
+    "domain": "Guard",
     "locale": "vi",
-    "file": "content/skills/guard/deep-half-guard/content.vi.json",
-    "corePrinciple": "Half guard → win the underhook → slide head to far side → control near leg → hips under hips → sweep or take the back.",
+    "file": "content/skills/Guard/deep-half-Guard/content.vi.json",
+    "corePrinciple": "Half Guard → win the underhook → slide head to far side → control near leg → hips under hips → sweep or take the back.",
     "decisionTree": [
       {
         "condition": "Option 1: They resist forward",
@@ -907,9 +907,9 @@
   {
     "id": "false-reap-entry_fr",
     "skill_id": "false-reap-entry",
-    "domain": "guard",
+    "domain": "Guard",
     "locale": "fr",
-    "file": "content/skills/guard/false-reap-entry/content.fr.json",
+    "file": "content/skills/Guard/false-reap-entry/content.fr.json",
     "corePrinciple": "False reap hook on outside of their leg: control far hip → rotate to backside angle → enter saddle, cross ashi, or back take.",
     "decisionTree": [
       {
@@ -926,9 +926,9 @@
   {
     "id": "false-reap-entry_vi",
     "skill_id": "false-reap-entry",
-    "domain": "guard",
+    "domain": "Guard",
     "locale": "vi",
-    "file": "content/skills/guard/false-reap-entry/content.vi.json",
+    "file": "content/skills/Guard/false-reap-entry/content.vi.json",
     "corePrinciple": "False reap hook on outside of their leg: control far hip → rotate to backside angle → enter saddle, cross ashi, or back take.",
     "decisionTree": [
       {
@@ -945,9 +945,9 @@
   {
     "id": "false-reap-to-saddle-bridge_fr",
     "skill_id": "false-reap-to-saddle-bridge",
-    "domain": "guard",
+    "domain": "Guard",
     "locale": "fr",
-    "file": "content/skills/guard/false-reap-to-saddle-bridge/content.fr.json",
+    "file": "content/skills/Guard/false-reap-to-saddle-bridge/content.fr.json",
     "corePrinciple": "False reap established: opponent separates hips or steps back → bridge your hips over → lock saddle → attack heel hook or back take.",
     "decisionTree": [
       {
@@ -964,9 +964,9 @@
   {
     "id": "false-reap-to-saddle-bridge_vi",
     "skill_id": "false-reap-to-saddle-bridge",
-    "domain": "guard",
+    "domain": "Guard",
     "locale": "vi",
-    "file": "content/skills/guard/false-reap-to-saddle-bridge/content.vi.json",
+    "file": "content/skills/Guard/false-reap-to-saddle-bridge/content.vi.json",
     "corePrinciple": "False reap established: opponent separates hips or steps back → bridge your hips over → lock saddle → attack heel hook or back take.",
     "decisionTree": [
       {
@@ -983,14 +983,14 @@
   {
     "id": "half-butterfly-to-leg-entanglements_fr",
     "skill_id": "half-butterfly-to-leg-entanglements",
-    "domain": "guard",
+    "domain": "Guard",
     "locale": "fr",
-    "file": "content/skills/guard/half-butterfly-to-leg-entanglements/content.fr.json",
-    "corePrinciple": "Half butterfly hook on near leg: free leg frames on hip/biceps → off-balance forward or sideways → read their reaction → enter K-guard, bear trap, or saddle.",
+    "file": "content/skills/Guard/half-butterfly-to-leg-entanglements/content.fr.json",
+    "corePrinciple": "Half butterfly hook on near leg: free leg frames on hip/biceps → off-balance forward or sideways → read their reaction → enter K-Guard, bear trap, or saddle.",
     "decisionTree": [
       {
         "condition": "Using Reaction 1",
-        "action": "They stand → K-guard entry → backside or leg entanglement."
+        "action": "They stand → K-Guard entry → backside or leg entanglement."
       },
       {
         "condition": "Using Reaction 2",
@@ -1006,14 +1006,14 @@
   {
     "id": "half-butterfly-to-leg-entanglements_vi",
     "skill_id": "half-butterfly-to-leg-entanglements",
-    "domain": "guard",
+    "domain": "Guard",
     "locale": "vi",
-    "file": "content/skills/guard/half-butterfly-to-leg-entanglements/content.vi.json",
-    "corePrinciple": "Half butterfly hook on near leg: free leg frames on hip/biceps → off-balance forward or sideways → read their reaction → enter K-guard, bear trap, or saddle.",
+    "file": "content/skills/Guard/half-butterfly-to-leg-entanglements/content.vi.json",
+    "corePrinciple": "Half butterfly hook on near leg: free leg frames on hip/biceps → off-balance forward or sideways → read their reaction → enter K-Guard, bear trap, or saddle.",
     "decisionTree": [
       {
         "condition": "Using Reaction 1",
-        "action": "They stand → K-guard entry → backside or leg entanglement."
+        "action": "They stand → K-Guard entry → backside or leg entanglement."
       },
       {
         "condition": "Using Reaction 2",
@@ -1027,15 +1027,15 @@
     "exitStrategies": []
   },
   {
-    "id": "inverted-guard-control_fr",
-    "skill_id": "inverted-guard-control",
-    "domain": "guard",
+    "id": "inverted-Guard-control_fr",
+    "skill_id": "inverted-Guard-control",
+    "domain": "Guard",
     "locale": "fr",
-    "file": "content/skills/guard/inverted-guard-control/content.fr.json",
-    "corePrinciple": "Invert: place feet on hip or shoulder line → control near arm → transition to K-guard, matrix, or leg entanglement.",
+    "file": "content/skills/Guard/inverted-Guard-control/content.fr.json",
+    "corePrinciple": "Invert: place feet on hip or shoulder line → control near arm → transition to K-Guard, matrix, or leg entanglement.",
     "decisionTree": [
       {
-        "condition": "Foot on hip = K-guard entry",
+        "condition": "Foot on hip = K-Guard entry",
         "action": "backside or leg attacks."
       },
       {
@@ -1050,15 +1050,15 @@
     "exitStrategies": []
   },
   {
-    "id": "inverted-guard-control_vi",
-    "skill_id": "inverted-guard-control",
-    "domain": "guard",
+    "id": "inverted-Guard-control_vi",
+    "skill_id": "inverted-Guard-control",
+    "domain": "Guard",
     "locale": "vi",
-    "file": "content/skills/guard/inverted-guard-control/content.vi.json",
-    "corePrinciple": "Invert: place feet on hip or shoulder line → control near arm → transition to K-guard, matrix, or leg entanglement.",
+    "file": "content/skills/Guard/inverted-Guard-control/content.vi.json",
+    "corePrinciple": "Invert: place feet on hip or shoulder line → control near arm → transition to K-Guard, matrix, or leg entanglement.",
     "decisionTree": [
       {
-        "condition": "Foot on hip = K-guard entry",
+        "condition": "Foot on hip = K-Guard entry",
         "action": "backside or leg attacks."
       },
       {
@@ -1073,12 +1073,12 @@
     "exitStrategies": []
   },
   {
-    "id": "k-guard-entry_fr",
-    "skill_id": "k-guard-entry",
-    "domain": "guard",
+    "id": "k-Guard-entry_fr",
+    "skill_id": "k-Guard-entry",
+    "domain": "Guard",
     "locale": "fr",
-    "file": "content/skills/guard/k-guard-entry/content.fr.json",
-    "corePrinciple": "Seated guard: win the hand fight → place foot on far hip → hook near leg with other leg → rotate under their center → enter saddle, cross ashi, or back take.",
+    "file": "content/skills/Guard/k-Guard-entry/content.fr.json",
+    "corePrinciple": "Seated Guard: win the hand fight → place foot on far hip → hook near leg with other leg → rotate under their center → enter saddle, cross ashi, or back take.",
     "decisionTree": [
       {
         "condition": "Using Option 1",
@@ -1096,12 +1096,12 @@
     "exitStrategies": []
   },
   {
-    "id": "k-guard-entry_vi",
-    "skill_id": "k-guard-entry",
-    "domain": "guard",
+    "id": "k-Guard-entry_vi",
+    "skill_id": "k-Guard-entry",
+    "domain": "Guard",
     "locale": "vi",
-    "file": "content/skills/guard/k-guard-entry/content.vi.json",
-    "corePrinciple": "Seated guard: win the hand fight → place foot on far hip → hook near leg with other leg → rotate under their center → enter saddle, cross ashi, or back take.",
+    "file": "content/skills/Guard/k-Guard-entry/content.vi.json",
+    "corePrinciple": "Seated Guard: win the hand fight → place foot on far hip → hook near leg with other leg → rotate under their center → enter saddle, cross ashi, or back take.",
     "decisionTree": [
       {
         "condition": "Using Option 1",
@@ -1119,39 +1119,39 @@
     "exitStrategies": []
   },
   {
-    "id": "k-guard-matrix_fr",
-    "skill_id": "k-guard-matrix",
-    "domain": "guard",
+    "id": "k-Guard-matrix_fr",
+    "skill_id": "k-Guard-matrix",
+    "domain": "Guard",
     "locale": "fr",
-    "file": "content/skills/guard/k-guard-matrix/content.fr.json",
-    "corePrinciple": "K-guard established: opponent steps back or posts → rotate hips over shoulder → hook far hip → take back or enter reverse leg drag.",
+    "file": "content/skills/Guard/k-Guard-matrix/content.fr.json",
+    "corePrinciple": "K-Guard established: opponent steps back or posts → rotate hips over shoulder → hook far hip → take back or enter reverse leg drag.",
     "decisionTree": [
       {
         "condition": "General application",
-        "action": "The matrix works because the K-guard already has you under their center — the rotation just reverses the angle."
+        "action": "The matrix works because the K-Guard already has you under their center — the rotation just reverses the angle."
       },
       {
         "condition": "they don't step back",
-        "action": "attack the leg entanglement from K-guard instead."
+        "action": "attack the leg entanglement from K-Guard instead."
       }
     ],
     "exitStrategies": []
   },
   {
-    "id": "k-guard-matrix_vi",
-    "skill_id": "k-guard-matrix",
-    "domain": "guard",
+    "id": "k-Guard-matrix_vi",
+    "skill_id": "k-Guard-matrix",
+    "domain": "Guard",
     "locale": "vi",
-    "file": "content/skills/guard/k-guard-matrix/content.vi.json",
-    "corePrinciple": "K-guard established: opponent steps back or posts → rotate hips over shoulder → hook far hip → take back or enter reverse leg drag.",
+    "file": "content/skills/Guard/k-Guard-matrix/content.vi.json",
+    "corePrinciple": "K-Guard established: opponent steps back or posts → rotate hips over shoulder → hook far hip → take back or enter reverse leg drag.",
     "decisionTree": [
       {
         "condition": "General application",
-        "action": "The matrix works because the K-guard already has you under their center — the rotation just reverses the angle."
+        "action": "The matrix works because the K-Guard already has you under their center — the rotation just reverses the angle."
       },
       {
         "condition": "they don't step back",
-        "action": "attack the leg entanglement from K-guard instead."
+        "action": "attack the leg entanglement from K-Guard instead."
       }
     ],
     "exitStrategies": []
@@ -1159,14 +1159,14 @@
   {
     "id": "leg-drag-pass_fr",
     "skill_id": "leg-drag-pass",
-    "domain": "guard",
+    "domain": "Guard",
     "locale": "fr",
-    "file": "content/skills/guard/leg-drag-pass/content.fr.json",
-    "corePrinciple": "Identify the open guard (DLR, RDLR, sitting) → control the near ankle → drag their leg across your hips → cut the angle → pin in side control or take the back.",
+    "file": "content/skills/Guard/leg-drag-pass/content.fr.json",
+    "corePrinciple": "Identify the open Guard (DLR, RDLR, sitting) → control the near ankle → drag their leg across your hips → cut the angle → pin in Side Control or take the back.",
     "decisionTree": [
       {
         "condition": "General application",
-        "action": "The leg drag can chain into: pass to side control, back take, or leg entanglement."
+        "action": "The leg drag can chain into: pass to Side Control, back take, or leg entanglement."
       },
       {
         "condition": "resist, the drag by pulling their leg back",
@@ -1178,14 +1178,14 @@
   {
     "id": "leg-drag-pass_vi",
     "skill_id": "leg-drag-pass",
-    "domain": "guard",
+    "domain": "Guard",
     "locale": "vi",
-    "file": "content/skills/guard/leg-drag-pass/content.vi.json",
-    "corePrinciple": "Identify the open guard (DLR, RDLR, sitting) → control the near ankle → drag their leg across your hips → cut the angle → pin in side control or take the back.",
+    "file": "content/skills/Guard/leg-drag-pass/content.vi.json",
+    "corePrinciple": "Identify the open Guard (DLR, RDLR, sitting) → control the near ankle → drag their leg across your hips → cut the angle → pin in Side Control or take the back.",
     "decisionTree": [
       {
         "condition": "General application",
-        "action": "The leg drag can chain into: pass to side control, back take, or leg entanglement."
+        "action": "The leg drag can chain into: pass to Side Control, back take, or leg entanglement."
       },
       {
         "condition": "resist, the drag by pulling their leg back",
@@ -1195,50 +1195,50 @@
     "exitStrategies": []
   },
   {
-    "id": "octopus-guard-control_fr",
-    "skill_id": "octopus-guard-control",
-    "domain": "guard",
+    "id": "octopus-Guard-control_fr",
+    "skill_id": "octopus-Guard-control",
+    "domain": "Guard",
     "locale": "fr",
-    "file": "content/skills/guard/octopus-guard-control/content.fr.json",
+    "file": "content/skills/Guard/octopus-Guard-control/content.fr.json",
     "corePrinciple": "Sit to the side → wrap far hip or reach under body → frame near leg with your legs → feel their weight → sweep or take the back.",
     "decisionTree": [
       {
         "condition": "General application",
-        "action": "Octopus guard options: sweep them forward (hip pull), sweep them backward (elevator), or back take when they turn away."
+        "action": "Octopus Guard options: sweep them forward (hip pull), sweep them backward (elevator), or back take when they turn away."
       },
       {
         "condition": "General application",
-        "action": "If they deny the octopus entry, transition to seated guard or deep half."
+        "action": "If they deny the octopus entry, transition to seated Guard or deep half."
       }
     ],
     "exitStrategies": []
   },
   {
-    "id": "octopus-guard-control_vi",
-    "skill_id": "octopus-guard-control",
-    "domain": "guard",
+    "id": "octopus-Guard-control_vi",
+    "skill_id": "octopus-Guard-control",
+    "domain": "Guard",
     "locale": "vi",
-    "file": "content/skills/guard/octopus-guard-control/content.vi.json",
+    "file": "content/skills/Guard/octopus-Guard-control/content.vi.json",
     "corePrinciple": "Sit to the side → wrap far hip or reach under body → frame near leg with your legs → feel their weight → sweep or take the back.",
     "decisionTree": [
       {
         "condition": "General application",
-        "action": "Octopus guard options: sweep them forward (hip pull), sweep them backward (elevator), or back take when they turn away."
+        "action": "Octopus Guard options: sweep them forward (hip pull), sweep them backward (elevator), or back take when they turn away."
       },
       {
         "condition": "General application",
-        "action": "If they deny the octopus entry, transition to seated guard or deep half."
+        "action": "If they deny the octopus entry, transition to seated Guard or deep half."
       }
     ],
     "exitStrategies": []
   },
   {
-    "id": "octopus-guard-sweep_fr",
-    "skill_id": "octopus-guard-sweep",
-    "domain": "guard",
+    "id": "octopus-Guard-sweep_fr",
+    "skill_id": "octopus-Guard-sweep",
+    "domain": "Guard",
     "locale": "fr",
-    "file": "content/skills/guard/octopus-guard-sweep/content.fr.json",
-    "corePrinciple": "Octopus guard control established → opponent commits forward → pull far hip across body → block near leg with frame → rotate them over your frame → land in side control or mount.",
+    "file": "content/skills/Guard/octopus-Guard-sweep/content.fr.json",
+    "corePrinciple": "Octopus Guard control established → opponent commits forward → pull far hip across body → block near leg with frame → rotate them over your frame → land in Side Control or Mount.",
     "decisionTree": [
       {
         "condition": "General application",
@@ -1252,12 +1252,12 @@
     "exitStrategies": []
   },
   {
-    "id": "octopus-guard-sweep_vi",
-    "skill_id": "octopus-guard-sweep",
-    "domain": "guard",
+    "id": "octopus-Guard-sweep_vi",
+    "skill_id": "octopus-Guard-sweep",
+    "domain": "Guard",
     "locale": "vi",
-    "file": "content/skills/guard/octopus-guard-sweep/content.vi.json",
-    "corePrinciple": "Octopus guard control established → opponent commits forward → pull far hip across body → block near leg with frame → rotate them over your frame → land in side control or mount.",
+    "file": "content/skills/Guard/octopus-Guard-sweep/content.vi.json",
+    "corePrinciple": "Octopus Guard control established → opponent commits forward → pull far hip across body → block near leg with frame → rotate them over your frame → land in Side Control or Mount.",
     "decisionTree": [
       {
         "condition": "General application",
@@ -1273,14 +1273,14 @@
   {
     "id": "reverse-de-la-riva-transitions_fr",
     "skill_id": "reverse-de-la-riva-transitions",
-    "domain": "guard",
+    "domain": "Guard",
     "locale": "fr",
-    "file": "content/skills/guard/reverse-de-la-riva-transitions/content.fr.json",
-    "corePrinciple": "RDLR hook on outside of near leg → control their far arm → rotate hips → transition to X-guard, DLR, SLX, or kimura trap.",
+    "file": "content/skills/Guard/reverse-de-la-riva-transitions/content.fr.json",
+    "corePrinciple": "RDLR hook on outside of near leg → control their far arm → rotate hips → transition to X-Guard, DLR, SLX, or kimura trap.",
     "decisionTree": [
       {
         "condition": "Option 1: They stand tall",
-        "action": "rotate into X-guard → sweep."
+        "action": "rotate into X-Guard → sweep."
       },
       {
         "condition": "Option 2: They kneel or lean forward",
@@ -1296,14 +1296,14 @@
   {
     "id": "reverse-de-la-riva-transitions_vi",
     "skill_id": "reverse-de-la-riva-transitions",
-    "domain": "guard",
+    "domain": "Guard",
     "locale": "vi",
-    "file": "content/skills/guard/reverse-de-la-riva-transitions/content.vi.json",
-    "corePrinciple": "RDLR hook on outside of near leg → control their far arm → rotate hips → transition to X-guard, DLR, SLX, or kimura trap.",
+    "file": "content/skills/Guard/reverse-de-la-riva-transitions/content.vi.json",
+    "corePrinciple": "RDLR hook on outside of near leg → control their far arm → rotate hips → transition to X-Guard, DLR, SLX, or kimura trap.",
     "decisionTree": [
       {
         "condition": "Option 1: They stand tall",
-        "action": "rotate into X-guard → sweep."
+        "action": "rotate into X-Guard → sweep."
       },
       {
         "condition": "Option 2: They kneel or lean forward",
@@ -1319,18 +1319,18 @@
   {
     "id": "shin-to-shin-entry_fr",
     "skill_id": "shin-to-shin-entry",
-    "domain": "guard",
+    "domain": "Guard",
     "locale": "fr",
-    "file": "content/skills/guard/shin-to-shin-entry/content.fr.json",
+    "file": "content/skills/Guard/shin-to-shin-entry/content.fr.json",
     "corePrinciple": "Shin-to-shin connection + sleeve grip → feel their weight → off-balance → enter SLX or wrestle up.",
     "decisionTree": [
       {
         "condition": "General application",
-        "action": "If they back away: extend your shin and enter single leg X or X-guard. If they stay close: keep the shin connection and sweep or enter K-guard"
+        "action": "If they back away: extend your shin and enter single leg X or X-Guard. If they stay close: keep the shin connection and sweep or enter K-Guard"
       },
       {
         "condition": "General application",
-        "action": "Shin-to-shin entries work best against standing opponents. If the opponent is kneeling, consider seated guard entries instead"
+        "action": "Shin-to-shin entries work best against standing opponents. If the opponent is kneeling, consider seated Guard entries instead"
       }
     ],
     "exitStrategies": []
@@ -1338,18 +1338,18 @@
   {
     "id": "shin-to-shin-entry_vi",
     "skill_id": "shin-to-shin-entry",
-    "domain": "guard",
+    "domain": "Guard",
     "locale": "vi",
-    "file": "content/skills/guard/shin-to-shin-entry/content.vi.json",
+    "file": "content/skills/Guard/shin-to-shin-entry/content.vi.json",
     "corePrinciple": "Shin-to-shin connection + sleeve grip → feel their weight → off-balance → enter SLX or wrestle up.",
     "decisionTree": [
       {
         "condition": "General application",
-        "action": "If they back away: extend your shin and enter single leg X or X-guard. If they stay close: keep the shin connection and sweep or enter K-guard"
+        "action": "If they back away: extend your shin and enter single leg X or X-Guard. If they stay close: keep the shin connection and sweep or enter K-Guard"
       },
       {
         "condition": "General application",
-        "action": "Shin-to-shin entries work best against standing opponents. If the opponent is kneeling, consider seated guard entries instead"
+        "action": "Shin-to-shin entries work best against standing opponents. If the opponent is kneeling, consider seated Guard entries instead"
       }
     ],
     "exitStrategies": []
@@ -1357,9 +1357,9 @@
   {
     "id": "shoulder-crunch-control_fr",
     "skill_id": "shoulder-crunch-control",
-    "domain": "guard",
+    "domain": "Guard",
     "locale": "fr",
-    "file": "content/skills/guard/shoulder-crunch-control/content.fr.json",
+    "file": "content/skills/Guard/shoulder-crunch-control/content.fr.json",
     "corePrinciple": "Secure the shoulder crunch (head to their shoulder) → control their free arm → attack based on their reaction.",
     "decisionTree": [
       {
@@ -1376,9 +1376,9 @@
   {
     "id": "shoulder-crunch-control_vi",
     "skill_id": "shoulder-crunch-control",
-    "domain": "guard",
+    "domain": "Guard",
     "locale": "vi",
-    "file": "content/skills/guard/shoulder-crunch-control/content.vi.json",
+    "file": "content/skills/Guard/shoulder-crunch-control/content.vi.json",
     "corePrinciple": "Secure the shoulder crunch (head to their shoulder) → control their free arm → attack based on their reaction.",
     "decisionTree": [
       {
@@ -1395,9 +1395,9 @@
   {
     "id": "single-leg-x-basics_fr",
     "skill_id": "single-leg-x-basics",
-    "domain": "guard",
+    "domain": "Guard",
     "locale": "fr",
-    "file": "content/skills/guard/single-leg-x-basics/content.fr.json",
+    "file": "content/skills/Guard/single-leg-x-basics/content.fr.json",
     "corePrinciple": "Enter SLX (one leg trapped, one foot on hip) → pull the trapped leg to your chest → off-balance → sweep, stand up, or enter leg entanglement.",
     "decisionTree": [
       {
@@ -1418,9 +1418,9 @@
   {
     "id": "single-leg-x-basics_vi",
     "skill_id": "single-leg-x-basics",
-    "domain": "guard",
+    "domain": "Guard",
     "locale": "vi",
-    "file": "content/skills/guard/single-leg-x-basics/content.vi.json",
+    "file": "content/skills/Guard/single-leg-x-basics/content.vi.json",
     "corePrinciple": "Enter SLX (one leg trapped, one foot on hip) → pull the trapped leg to your chest → off-balance → sweep, stand up, or enter leg entanglement.",
     "decisionTree": [
       {
@@ -1441,9 +1441,9 @@
   {
     "id": "single-leg-x-control_fr",
     "skill_id": "single-leg-x-control",
-    "domain": "guard",
+    "domain": "Guard",
     "locale": "fr",
-    "file": "content/skills/guard/single-leg-x-control/content.fr.json",
+    "file": "content/skills/Guard/single-leg-x-control/content.fr.json",
     "corePrinciple": "Deep SLX lock → hip foot posted → feel weight shift → attack sweep, back take, or leg entanglement.",
     "decisionTree": [
       {
@@ -1464,9 +1464,9 @@
   {
     "id": "single-leg-x-control_vi",
     "skill_id": "single-leg-x-control",
-    "domain": "guard",
+    "domain": "Guard",
     "locale": "vi",
-    "file": "content/skills/guard/single-leg-x-control/content.vi.json",
+    "file": "content/skills/Guard/single-leg-x-control/content.vi.json",
     "corePrinciple": "Deep SLX lock → hip foot posted → feel weight shift → attack sweep, back take, or leg entanglement.",
     "decisionTree": [
       {
@@ -1485,12 +1485,12 @@
     "exitStrategies": []
   },
   {
-    "id": "x-guard-control_fr",
-    "skill_id": "x-guard-control",
-    "domain": "guard",
+    "id": "x-Guard-control_fr",
+    "skill_id": "x-Guard-control",
+    "domain": "Guard",
     "locale": "fr",
-    "file": "content/skills/guard/x-guard-control/content.fr.json",
-    "corePrinciple": "Enter X-guard (one leg behind their knee, one foot on far hip) → hips under their hips → off-balance → sweep or transition.",
+    "file": "content/skills/Guard/x-Guard-control/content.fr.json",
+    "corePrinciple": "Enter X-Guard (one leg behind their knee, one foot on far hip) → hips under their hips → off-balance → sweep or transition.",
     "decisionTree": [
       {
         "condition": "Option 1: They resist the sweep",
@@ -1508,12 +1508,12 @@
     "exitStrategies": []
   },
   {
-    "id": "x-guard-control_vi",
-    "skill_id": "x-guard-control",
-    "domain": "guard",
+    "id": "x-Guard-control_vi",
+    "skill_id": "x-Guard-control",
+    "domain": "Guard",
     "locale": "vi",
-    "file": "content/skills/guard/x-guard-control/content.vi.json",
-    "corePrinciple": "Enter X-guard (one leg behind their knee, one foot on far hip) → hips under their hips → off-balance → sweep or transition.",
+    "file": "content/skills/Guard/x-Guard-control/content.vi.json",
+    "corePrinciple": "Enter X-Guard (one leg behind their knee, one foot on far hip) → hips under their hips → off-balance → sweep or transition.",
     "decisionTree": [
       {
         "condition": "Option 1: They resist the sweep",
@@ -1531,12 +1531,12 @@
     "exitStrategies": []
   },
   {
-    "id": "z-guard-sweeps_fr",
-    "skill_id": "z-guard-sweeps",
-    "domain": "guard",
+    "id": "z-Guard-sweeps_fr",
+    "skill_id": "z-Guard-sweeps",
+    "domain": "Guard",
     "locale": "fr",
-    "file": "content/skills/guard/z-guard-sweeps/content.fr.json",
-    "corePrinciple": "Z-guard (knee shield) → win underhook → read their weight → choose sweep.",
+    "file": "content/skills/Guard/z-Guard-sweeps/content.fr.json",
+    "corePrinciple": "Z-Guard (knee shield) → win underhook → read their weight → choose sweep.",
     "decisionTree": [
       {
         "condition": "Reaction 1: They drive forward",
@@ -1554,12 +1554,12 @@
     "exitStrategies": []
   },
   {
-    "id": "z-guard-sweeps_vi",
-    "skill_id": "z-guard-sweeps",
-    "domain": "guard",
+    "id": "z-Guard-sweeps_vi",
+    "skill_id": "z-Guard-sweeps",
+    "domain": "Guard",
     "locale": "vi",
-    "file": "content/skills/guard/z-guard-sweeps/content.vi.json",
-    "corePrinciple": "Z-guard (knee shield) → win underhook → read their weight → choose sweep.",
+    "file": "content/skills/Guard/z-Guard-sweeps/content.vi.json",
+    "corePrinciple": "Z-Guard (knee shield) → win underhook → read their weight → choose sweep.",
     "decisionTree": [
       {
         "condition": "Reaction 1: They drive forward",
@@ -1586,11 +1586,11 @@
     "decisionTree": [
       {
         "condition": "Using Branch 1 (Knee Cut)",
-        "action": "the opponent stays defensive with a knee shield or half guard. Drop your posted knee and drive past their knee shield. Secure the crossface and underhook"
+        "action": "the opponent stays defensive with a knee shield or Half Guard. Drop your posted knee and drive past their knee shield. Secure the crossface and underhook"
       },
       {
         "condition": "Using Branch 2 (Long Step)",
-        "action": "the opponent is active and turning into you. Step your far leg over their head as they turn, neutralizing their roll and landing in side control"
+        "action": "the opponent is active and turning into you. Step your far leg over their head as they turn, neutralizing their roll and landing in Side Control"
       },
       {
         "condition": "Using Branch 3 (Back Step)",
@@ -1613,11 +1613,11 @@
     "decisionTree": [
       {
         "condition": "Using Branch 1 (Knee Cut)",
-        "action": "the opponent stays defensive with a knee shield or half guard. Drop your posted knee and drive past their knee shield. Secure the crossface and underhook"
+        "action": "the opponent stays defensive with a knee shield or Half Guard. Drop your posted knee and drive past their knee shield. Secure the crossface and underhook"
       },
       {
         "condition": "Using Branch 2 (Long Step)",
-        "action": "the opponent is active and turning into you. Step your far leg over their head as they turn, neutralizing their roll and landing in side control"
+        "action": "the opponent is active and turning into you. Step your far leg over their head as they turn, neutralizing their roll and landing in Side Control"
       },
       {
         "condition": "Using Branch 3 (Back Step)",
@@ -1639,16 +1639,16 @@
     "corePrinciple": "The split-squat passing system has three branches: Knee Cut → Bodylock → Toreando",
     "decisionTree": [
       {
-        "condition": "Branch 1, Knee Cut: when the opponent presses their shin into your posted knee. Drop your posted knee to the mat, slide it past their shin, and cut through to side control.",
+        "condition": "Branch 1, Knee Cut: when the opponent presses their shin into your posted knee. Drop your posted knee to the mat, slide it past their shin, and cut through to Side Control.",
         "action": "Use crossface to pin the head"
       },
       {
         "condition": "General application",
-        "action": "If Branch 2, Bodylock: when the opponent is close but not pressuring the shin. Drop your posted knee to the mat, lock your hands around their hips, and drive through to side control using chest-to-hip pressure"
+        "action": "If Branch 2, Bodylock: when the opponent is close but not pressuring the shin. Drop your posted knee to the mat, lock your hands around their hips, and drive through to Side Control using chest-to-hip pressure"
       },
       {
         "condition": "General application",
-        "action": "If Branch 3, Toreando: when the opponent creates significant distance (hip escape or leg pummel). Push both legs to one side and circle to the opposite side. Not commonly used in no-gi but effective against flexible guard players"
+        "action": "If Branch 3, Toreando: when the opponent creates significant distance (hip escape or leg pummel). Push both legs to one side and circle to the opposite side. Not commonly used in no-gi but effective against flexible Guard players"
       },
       {
         "condition": "General application",
@@ -1666,16 +1666,16 @@
     "corePrinciple": "The split-squat passing system has three branches: Knee Cut → Bodylock → Toreando",
     "decisionTree": [
       {
-        "condition": "Branch 1, Knee Cut: when the opponent presses their shin into your posted knee. Drop your posted knee to the mat, slide it past their shin, and cut through to side control.",
+        "condition": "Branch 1, Knee Cut: when the opponent presses their shin into your posted knee. Drop your posted knee to the mat, slide it past their shin, and cut through to Side Control.",
         "action": "Use crossface to pin the head"
       },
       {
         "condition": "General application",
-        "action": "If Branch 2, Bodylock: when the opponent is close but not pressuring the shin. Drop your posted knee to the mat, lock your hands around their hips, and drive through to side control using chest-to-hip pressure"
+        "action": "If Branch 2, Bodylock: when the opponent is close but not pressuring the shin. Drop your posted knee to the mat, lock your hands around their hips, and drive through to Side Control using chest-to-hip pressure"
       },
       {
         "condition": "General application",
-        "action": "If Branch 3, Toreando: when the opponent creates significant distance (hip escape or leg pummel). Push both legs to one side and circle to the opposite side. Not commonly used in no-gi but effective against flexible guard players"
+        "action": "If Branch 3, Toreando: when the opponent creates significant distance (hip escape or leg pummel). Push both legs to one side and circle to the opposite side. Not commonly used in no-gi but effective against flexible Guard players"
       },
       {
         "condition": "General application",
@@ -1702,11 +1702,11 @@
       },
       {
         "condition": "In Phase 3 (Extension)",
-        "action": "once the knee is past their hip, extend your leg to pin their near hip to the mat. This prevents them from recovering guard"
+        "action": "once the knee is past their hip, extend your leg to pin their near hip to the mat. This prevents them from recovering Guard"
       },
       {
         "condition": "In Phase 4 (Side Control)",
-        "action": "settle into side control with chest-to-chest pressure, underhook, and crossface"
+        "action": "settle into Side Control with chest-to-chest pressure, underhook, and crossface"
       },
       {
         "condition": "Choosing a variation",
@@ -1733,11 +1733,11 @@
       },
       {
         "condition": "In Phase 3 (Extension)",
-        "action": "once the knee is past their hip, extend your leg to pin their near hip to the mat. This prevents them from recovering guard"
+        "action": "once the knee is past their hip, extend your leg to pin their near hip to the mat. This prevents them from recovering Guard"
       },
       {
         "condition": "In Phase 4 (Side Control)",
-        "action": "settle into side control with chest-to-chest pressure, underhook, and crossface"
+        "action": "settle into Side Control with chest-to-chest pressure, underhook, and crossface"
       },
       {
         "condition": "Choosing a variation",
@@ -1768,10 +1768,10 @@
       },
       {
         "condition": "In Phase 4 (Pin)",
-        "action": "once their hips are turned and hands are posted, pin their leg to the mat and circle to the opposite side. Enter side control or take the back"
+        "action": "once their hips are turned and hands are posted, pin their leg to the mat and circle to the opposite side. Enter Side Control or take the back"
       },
       {
-        "condition": "the leg drag fails (they re-guard)",
+        "condition": "the leg drag fails (they re-Guard)",
         "action": "reset to headquarters and try a different pass (knee cut or backstep)"
       }
     ],
@@ -1799,10 +1799,10 @@
       },
       {
         "condition": "In Phase 4 (Pin)",
-        "action": "once their hips are turned and hands are posted, pin their leg to the mat and circle to the opposite side. Enter side control or take the back"
+        "action": "once their hips are turned and hands are posted, pin their leg to the mat and circle to the opposite side. Enter Side Control or take the back"
       },
       {
-        "condition": "the leg drag fails (they re-guard)",
+        "condition": "the leg drag fails (they re-Guard)",
         "action": "reset to headquarters and try a different pass (knee cut or backstep)"
       }
     ],
@@ -1826,7 +1826,7 @@
       },
       {
         "condition": "Using Branch 3 (X-Pass)",
-        "action": "if they open their legs as you circle (butterfly or shin guard), pass through the middle using the x-pass — clear both legs to one side and drive to side control"
+        "action": "if they open their legs as you circle (butterfly or shin Guard), pass through the middle using the x-pass — clear both legs to one side and drive to Side Control"
       },
       {
         "condition": "When to combine passing styles",
@@ -1853,7 +1853,7 @@
       },
       {
         "condition": "Using Branch 3 (X-Pass)",
-        "action": "if they open their legs as you circle (butterfly or shin guard), pass through the middle using the x-pass — clear both legs to one side and drive to side control"
+        "action": "if they open their legs as you circle (butterfly or shin Guard), pass through the middle using the x-pass — clear both legs to one side and drive to Side Control"
       },
       {
         "condition": "When to combine passing styles",
@@ -2150,11 +2150,11 @@
     "decisionTree": [
       {
         "condition": "Using Branch 1 (Mount)",
-        "action": "slide your knee off their belly and step over their near arm to mount. Keep the far hip grip to pull them toward you as you enter mount"
+        "action": "slide your knee off their belly and step over their near arm to Mount. Keep the far hip grip to pull them toward you as you enter Mount"
       },
       {
         "condition": "Using Branch 2 (Side Control)",
-        "action": "drop your knee to the mat beside their hip and slide into side control. Maintain chest-to-chest pressure"
+        "action": "drop your knee to the mat beside their hip and slide into Side Control. Maintain chest-to-chest pressure"
       },
       {
         "condition": "Using Branch 3 (North-South)",
@@ -2166,7 +2166,7 @@
       },
       {
         "condition": "Decision guide",
-        "action": "if they stay flat → attack or transition to mount. If they turn away → take the back. If they trap the foot → pummel free and re-establish"
+        "action": "if they stay flat → attack or transition to Mount. If they turn away → take the back. If they trap the foot → pummel free and re-establish"
       }
     ],
     "exitStrategies": []
@@ -2181,11 +2181,11 @@
     "decisionTree": [
       {
         "condition": "Using Branch 1 (Mount)",
-        "action": "slide your knee off their belly and step over their near arm to mount. Keep the far hip grip to pull them toward you as you enter mount"
+        "action": "slide your knee off their belly and step over their near arm to Mount. Keep the far hip grip to pull them toward you as you enter Mount"
       },
       {
         "condition": "Using Branch 2 (Side Control)",
-        "action": "drop your knee to the mat beside their hip and slide into side control. Maintain chest-to-chest pressure"
+        "action": "drop your knee to the mat beside their hip and slide into Side Control. Maintain chest-to-chest pressure"
       },
       {
         "condition": "Using Branch 3 (North-South)",
@@ -2197,7 +2197,7 @@
       },
       {
         "condition": "Decision guide",
-        "action": "if they stay flat → attack or transition to mount. If they turn away → take the back. If they trap the foot → pummel free and re-establish"
+        "action": "if they stay flat → attack or transition to Mount. If they turn away → take the back. If they trap the foot → pummel free and re-establish"
       }
     ],
     "exitStrategies": []
@@ -2223,8 +2223,8 @@
         "action": "drive your shoulder into their hip and take a large step backward with your outside leg. This pulls their base out and lands them on their hip. Maintain the grip as they land"
       },
       {
-        "condition": "Landing position: aim for side control or north-south. If they land on their back, you are in their guard",
-        "action": "this is not ideal but acceptable. If they land on their hip, drive immediately into side control"
+        "condition": "Landing position: aim for Side Control or north-south. If they land on their back, you are in their Guard",
+        "action": "this is not ideal but acceptable. If they land on their hip, drive immediately into Side Control"
       }
     ],
     "exitStrategies": []
@@ -2250,18 +2250,18 @@
         "action": "drive your shoulder into their hip and take a large step backward with your outside leg. This pulls their base out and lands them on their hip. Maintain the grip as they land"
       },
       {
-        "condition": "Landing position: aim for side control or north-south. If they land on their back, you are in their guard",
-        "action": "this is not ideal but acceptable. If they land on their hip, drive immediately into side control"
+        "condition": "Landing position: aim for Side Control or north-south. If they land on their back, you are in their Guard",
+        "action": "this is not ideal but acceptable. If they land on their hip, drive immediately into Side Control"
       }
     ],
     "exitStrategies": []
   },
   {
-    "id": "mount-control_fr",
-    "skill_id": "mount-control",
+    "id": "Mount-control_fr",
+    "skill_id": "Mount-control",
     "domain": "pins",
     "locale": "fr",
-    "file": "content/skills/pins/mount-control/content.fr.json",
+    "file": "content/skills/pins/Mount-control/content.fr.json",
     "corePrinciple": "Mount control progresses through three phases: Low Mount → High Mount → Submission Entry",
     "decisionTree": [
       {
@@ -2270,29 +2270,29 @@
       },
       {
         "condition": "In Phase 2 (High Mount)",
-        "action": "slide your knees up toward their armpits as they bridge or create space. The goal is to pin their shoulders to the mat. From high mount, the opponent cannot bridge effectively because their shoulders are pinned"
+        "action": "slide your knees up toward their armpits as they bridge or create space. The goal is to pin their shoulders to the mat. From high Mount, the opponent cannot bridge effectively because their shoulders are pinned"
       },
       {
         "condition": "In Phase 3 (Submission Entry)",
-        "action": "once high mount is established, begin isolating arms. Drag one arm above their head (armbar entry), or crossface to set up the arm triangle, or posture up for the Ezekiel or cross choke"
+        "action": "once high Mount is established, begin isolating arms. Drag one arm above their head (armbar entry), or crossface to set up the arm triangle, or posture up for the Ezekiel or cross choke"
       },
       {
         "condition": "Escape prevention",
-        "action": "if they try the bridge-and-roll, grapevine your feet inside their legs and drive your weight into their chest. If they try the elbow escape, pummel your knee back to the hip line to re-establish low mount"
+        "action": "if they try the bridge-and-roll, grapevine your feet inside their legs and drive your weight into their chest. If they try the elbow escape, pummel your knee back to the hip line to re-establish low Mount"
       },
       {
         "condition": "General application",
-        "action": "If they turn to their side (giving up the back), maintain the connection and take the back rather than fighting to re-establish mount"
+        "action": "If they turn to their side (giving up the back), maintain the connection and take the back rather than fighting to re-establish Mount"
       }
     ],
     "exitStrategies": []
   },
   {
-    "id": "mount-control_vi",
-    "skill_id": "mount-control",
+    "id": "Mount-control_vi",
+    "skill_id": "Mount-control",
     "domain": "pins",
     "locale": "vi",
-    "file": "content/skills/pins/mount-control/content.vi.json",
+    "file": "content/skills/pins/Mount-control/content.vi.json",
     "corePrinciple": "Mount control progresses through three phases: Low Mount → High Mount → Submission Entry",
     "decisionTree": [
       {
@@ -2301,19 +2301,19 @@
       },
       {
         "condition": "In Phase 2 (High Mount)",
-        "action": "slide your knees up toward their armpits as they bridge or create space. The goal is to pin their shoulders to the mat. From high mount, the opponent cannot bridge effectively because their shoulders are pinned"
+        "action": "slide your knees up toward their armpits as they bridge or create space. The goal is to pin their shoulders to the mat. From high Mount, the opponent cannot bridge effectively because their shoulders are pinned"
       },
       {
         "condition": "In Phase 3 (Submission Entry)",
-        "action": "once high mount is established, begin isolating arms. Drag one arm above their head (armbar entry), or crossface to set up the arm triangle, or posture up for the Ezekiel or cross choke"
+        "action": "once high Mount is established, begin isolating arms. Drag one arm above their head (armbar entry), or crossface to set up the arm triangle, or posture up for the Ezekiel or cross choke"
       },
       {
         "condition": "Escape prevention",
-        "action": "if they try the bridge-and-roll, grapevine your feet inside their legs and drive your weight into their chest. If they try the elbow escape, pummel your knee back to the hip line to re-establish low mount"
+        "action": "if they try the bridge-and-roll, grapevine your feet inside their legs and drive your weight into their chest. If they try the elbow escape, pummel your knee back to the hip line to re-establish low Mount"
       },
       {
         "condition": "General application",
-        "action": "If they turn to their side (giving up the back), maintain the connection and take the back rather than fighting to re-establish mount"
+        "action": "If they turn to their side (giving up the back), maintain the connection and take the back rather than fighting to re-establish Mount"
       }
     ],
     "exitStrategies": []
@@ -2340,7 +2340,7 @@
       },
       {
         "condition": "From north-south",
-        "action": "you have three attack branches: (1) North-south choke, slide your forearm under their neck while keeping head pressure, (2) Kimura — isolate their near arm and rotate into the kimura grip, (3) Transition to side control or knee-on-belly"
+        "action": "you have three attack branches: (1) North-south choke, slide your forearm under their neck while keeping head pressure, (2) Kimura — isolate their near arm and rotate into the kimura grip, (3) Transition to Side Control or knee-on-belly"
       },
       {
         "condition": "General application",
@@ -2371,7 +2371,7 @@
       },
       {
         "condition": "From north-south",
-        "action": "you have three attack branches: (1) North-south choke, slide your forearm under their neck while keeping head pressure, (2) Kimura — isolate their near arm and rotate into the kimura grip, (3) Transition to side control or knee-on-belly"
+        "action": "you have three attack branches: (1) North-south choke, slide your forearm under their neck while keeping head pressure, (2) Kimura — isolate their near arm and rotate into the kimura grip, (3) Transition to Side Control or knee-on-belly"
       },
       {
         "condition": "General application",
@@ -2435,63 +2435,63 @@
     "exitStrategies": []
   },
   {
-    "id": "s-mount-control_fr",
-    "skill_id": "s-mount-control",
+    "id": "s-Mount-control_fr",
+    "skill_id": "s-Mount-control",
     "domain": "pins",
     "locale": "fr",
-    "file": "content/skills/pins/s-mount-control/content.fr.json",
-    "corePrinciple": "S-mount is structured as a dilemma system: Armbar: Triangle → Back Take, with each threat leading to the next",
+    "file": "content/skills/pins/s-Mount-control/content.fr.json",
+    "corePrinciple": "S-Mount is structured as a dilemma system: Armbar: Triangle → Back Take, with each threat leading to the next",
     "decisionTree": [
       {
         "condition": "Using Threat 1 (Armbar)",
-        "action": "from S-mount, your thigh traps their near arm. To attack the armbar, lift your hips slightly and drop backward, bringing their arm across your body. Keep their thumb pointing up"
+        "action": "from S-Mount, your thigh traps their near arm. To attack the armbar, lift your hips slightly and drop backward, bringing their arm across your body. Keep their thumb pointing up"
       },
       {
         "condition": "Using Threat 2 (Triangle)",
-        "action": "if they defend the armbar by pulling the arm back, bring your free leg over their head and lock the triangle. Your S-mount knee stays in place as the base of the triangle"
+        "action": "if they defend the armbar by pulling the arm back, bring your free leg over their head and lock the triangle. Your S-Mount knee stays in place as the base of the triangle"
       },
       {
         "condition": "Using Threat 3 (Back Take)",
-        "action": "if they turn away to escape the armbar or triangle, maintain hip contact and take the back. The S-mount rotation naturally transitions to back control when they turn"
+        "action": "if they turn away to escape the armbar or triangle, maintain hip contact and take the back. The S-Mount rotation naturally transitions to back control when they turn"
       },
       {
         "condition": "Entry technique",
-        "action": "from low mount, slide your dominant hand under their head. Lift your near knee and slide it to their armpit. Rotate your hips 45 degrees toward their head. Your shin should be across their chest"
+        "action": "from low Mount, slide your dominant hand under their head. Lift your near knee and slide it to their armpit. Rotate your hips 45 degrees toward their head. Your shin should be across their chest"
       },
       {
-        "condition": "S-mount fails (they escape)",
-        "action": "return to low mount immediately rather than fighting to re-establish S-mount from a compromised position"
+        "condition": "S-Mount fails (they escape)",
+        "action": "return to low Mount immediately rather than fighting to re-establish S-Mount from a compromised position"
       }
     ],
     "exitStrategies": []
   },
   {
-    "id": "s-mount-control_vi",
-    "skill_id": "s-mount-control",
+    "id": "s-Mount-control_vi",
+    "skill_id": "s-Mount-control",
     "domain": "pins",
     "locale": "vi",
-    "file": "content/skills/pins/s-mount-control/content.vi.json",
-    "corePrinciple": "S-mount is structured as a dilemma system: Armbar: Triangle → Back Take, with each threat leading to the next",
+    "file": "content/skills/pins/s-Mount-control/content.vi.json",
+    "corePrinciple": "S-Mount is structured as a dilemma system: Armbar: Triangle → Back Take, with each threat leading to the next",
     "decisionTree": [
       {
         "condition": "Using Threat 1 (Armbar)",
-        "action": "from S-mount, your thigh traps their near arm. To attack the armbar, lift your hips slightly and drop backward, bringing their arm across your body. Keep their thumb pointing up"
+        "action": "from S-Mount, your thigh traps their near arm. To attack the armbar, lift your hips slightly and drop backward, bringing their arm across your body. Keep their thumb pointing up"
       },
       {
         "condition": "Using Threat 2 (Triangle)",
-        "action": "if they defend the armbar by pulling the arm back, bring your free leg over their head and lock the triangle. Your S-mount knee stays in place as the base of the triangle"
+        "action": "if they defend the armbar by pulling the arm back, bring your free leg over their head and lock the triangle. Your S-Mount knee stays in place as the base of the triangle"
       },
       {
         "condition": "Using Threat 3 (Back Take)",
-        "action": "if they turn away to escape the armbar or triangle, maintain hip contact and take the back. The S-mount rotation naturally transitions to back control when they turn"
+        "action": "if they turn away to escape the armbar or triangle, maintain hip contact and take the back. The S-Mount rotation naturally transitions to back control when they turn"
       },
       {
         "condition": "Entry technique",
-        "action": "from low mount, slide your dominant hand under their head. Lift your near knee and slide it to their armpit. Rotate your hips 45 degrees toward their head. Your shin should be across their chest"
+        "action": "from low Mount, slide your dominant hand under their head. Lift your near knee and slide it to their armpit. Rotate your hips 45 degrees toward their head. Your shin should be across their chest"
       },
       {
-        "condition": "S-mount fails (they escape)",
-        "action": "return to low mount immediately rather than fighting to re-establish S-mount from a compromised position"
+        "condition": "S-Mount fails (they escape)",
+        "action": "return to low Mount immediately rather than fighting to re-establish S-Mount from a compromised position"
       }
     ],
     "exitStrategies": []
@@ -2672,15 +2672,15 @@
     "domain": "submissions",
     "locale": "fr",
     "file": "content/skills/submissions/anaconda-choke/content.fr.json",
-    "corePrinciple": "Front headlock established → thread near arm under neck and over far arm → lock hands → pull trapped arm's elbow to your knee → rotate chest to mat → finish.",
+    "corePrinciple": "Front Headlock established → thread near arm under neck and over far arm → lock hands → pull trapped arm's elbow to your knee → rotate chest to mat → finish.",
     "decisionTree": [
       {
-        "condition": "they resist the rotation, switch to the D'Arce or guillotine",
+        "condition": "they resist the rotation, switch to the D'Arce or Guillotine",
         "action": "the three form a chain."
       },
       {
         "condition": "General application",
-        "action": "The anaconda works best against opponents who try to turn in toward you from front headlock."
+        "action": "The anaconda works best against opponents who try to turn in toward you from Front Headlock."
       }
     ],
     "exitStrategies": []
@@ -2691,15 +2691,15 @@
     "domain": "submissions",
     "locale": "vi",
     "file": "content/skills/submissions/anaconda-choke/content.vi.json",
-    "corePrinciple": "Front headlock established → thread near arm under neck and over far arm → lock hands → pull trapped arm's elbow to your knee → rotate chest to mat → finish.",
+    "corePrinciple": "Front Headlock established → thread near arm under neck and over far arm → lock hands → pull trapped arm's elbow to your knee → rotate chest to mat → finish.",
     "decisionTree": [
       {
-        "condition": "they resist the rotation, switch to the D'Arce or guillotine",
+        "condition": "they resist the rotation, switch to the D'Arce or Guillotine",
         "action": "the three form a chain."
       },
       {
         "condition": "General application",
-        "action": "The anaconda works best against opponents who try to turn in toward you from front headlock."
+        "action": "The anaconda works best against opponents who try to turn in toward you from Front Headlock."
       }
     ],
     "exitStrategies": []
@@ -2744,38 +2744,38 @@
   },
   {
     "id": "arm-triangle-mount_fr",
-    "skill_id": "arm-triangle-mount",
+    "skill_id": "arm-triangle-Mount",
     "domain": "submissions",
     "locale": "fr",
-    "file": "content/skills/submissions/arm-triangle-mount/content.fr.json",
+    "file": "content/skills/submissions/arm-triangle-Mount/content.fr.json",
     "corePrinciple": "Mount position: separate their arm with forearm or wrist control → guide their arm to their neck → step over their head → drop chest weight → finish.",
     "decisionTree": [
       {
         "condition": "they defend the arm triangle by hiding the arm",
-        "action": "switch to mounted armbar or S-mount attacks."
+        "action": "switch to mounted armbar or S-Mount attacks."
       },
       {
         "condition": "General application",
-        "action": "The arm triangle from mount chains directly to the back take if they roll to escape."
+        "action": "The arm triangle from Mount chains directly to the back take if they roll to escape."
       }
     ],
     "exitStrategies": []
   },
   {
     "id": "arm-triangle-mount_vi",
-    "skill_id": "arm-triangle-mount",
+    "skill_id": "arm-triangle-Mount",
     "domain": "submissions",
     "locale": "vi",
-    "file": "content/skills/submissions/arm-triangle-mount/content.vi.json",
+    "file": "content/skills/submissions/arm-triangle-Mount/content.vi.json",
     "corePrinciple": "Mount position: separate their arm with forearm or wrist control → guide their arm to their neck → step over their head → drop chest weight → finish.",
     "decisionTree": [
       {
         "condition": "they defend the arm triangle by hiding the arm",
-        "action": "switch to mounted armbar or S-mount attacks."
+        "action": "switch to mounted armbar or S-Mount attacks."
       },
       {
         "condition": "General application",
-        "action": "The arm triangle from mount chains directly to the back take if they roll to escape."
+        "action": "The arm triangle from Mount chains directly to the back take if they roll to escape."
       }
     ],
     "exitStrategies": []
@@ -2789,12 +2789,12 @@
     "corePrinciple": "Control the arm: secure the wrist (thumb up) → bring elbow to your hip line → figure-four legs over their head/chest → lift hips → extend.",
     "decisionTree": [
       {
-        "condition": "From guard",
+        "condition": "From Guard",
         "action": "break posture, swim the arm across, hip out, finish."
       },
       {
-        "condition": "From mount",
-        "action": "S-mount or technical mount, isolate the arm, fall back with control."
+        "condition": "From Mount",
+        "action": "S-Mount or technical Mount, isolate the arm, fall back with control."
       }
     ],
     "exitStrategies": []
@@ -2808,12 +2808,12 @@
     "corePrinciple": "Control the arm: secure the wrist (thumb up) → bring elbow to your hip line → figure-four legs over their head/chest → lift hips → extend.",
     "decisionTree": [
       {
-        "condition": "From guard",
+        "condition": "From Guard",
         "action": "break posture, swim the arm across, hip out, finish."
       },
       {
-        "condition": "From mount",
-        "action": "S-mount or technical mount, isolate the arm, fall back with control."
+        "condition": "From Mount",
+        "action": "S-Mount or technical Mount, isolate the arm, fall back with control."
       }
     ],
     "exitStrategies": []
@@ -2832,7 +2832,7 @@
       },
       {
         "condition": "RNC Reaction 2: They turn in",
-        "action": "take mount or technical mount."
+        "action": "take Mount or technical Mount."
       },
       {
         "condition": "RNC Reaction 3: They turn away",
@@ -2855,7 +2855,7 @@
       },
       {
         "condition": "RNC Reaction 2: They turn in",
-        "action": "take mount or technical mount."
+        "action": "take Mount or technical Mount."
       },
       {
         "condition": "RNC Reaction 3: They turn away",
@@ -2890,12 +2890,12 @@
       },
       {
         "condition": "They turn in to face you",
-        "action": "Release the seatbelt and take mount — do not chase the back position"
+        "action": "Release the seatbelt and take Mount — do not chase the back position"
       }
     ],
     "exitStrategies": [
       "If you lose the seatbelt, re-grip before they can create space",
-      "If they peel both hooks and flatten you, return to a front headlock or stand-up to reset the engagement",
+      "If they peel both hooks and flatten you, return to a Front Headlock or stand-up to reset the engagement",
       "Back control is a transitional attacking position — do not rest in it; attack or advance"
     ]
   },
@@ -2954,7 +2954,7 @@
     "corePrinciple": "Kimura grip attempt: opponent defends the kimura → switch to baratoplata: bring your leg over their arm → rotate hips → finish.",
     "decisionTree": [
       {
-        "condition": "The baratoplata can also be entered directly from guard: control their wrist",
+        "condition": "The baratoplata can also be entered directly from Guard: control their wrist",
         "action": "trap the arm with your leg → rotate."
       },
       {
@@ -2973,7 +2973,7 @@
     "corePrinciple": "Kimura grip attempt: opponent defends the kimura → switch to baratoplata: bring your leg over their arm → rotate hips → finish.",
     "decisionTree": [
       {
-        "condition": "The baratoplata can also be entered directly from guard: control their wrist",
+        "condition": "The baratoplata can also be entered directly from Guard: control their wrist",
         "action": "trap the arm with your leg → rotate."
       },
       {
@@ -2989,7 +2989,7 @@
     "domain": "submissions",
     "locale": "fr",
     "file": "content/skills/submissions/bear-trap-ham-sandwich/content.fr.json",
-    "corePrinciple": "Half butterfly or half guard: opponent drives forward → trap their leg in your knee pit (bear trap) → compress with shin → finish or sweep.",
+    "corePrinciple": "Half butterfly or Half Guard: opponent drives forward → trap their leg in your knee pit (bear trap) → compress with shin → finish or sweep.",
     "decisionTree": [
       {
         "condition": "Using Reaction 1",
@@ -3008,7 +3008,7 @@
     "domain": "submissions",
     "locale": "vi",
     "file": "content/skills/submissions/bear-trap-ham-sandwich/content.vi.json",
-    "corePrinciple": "Half butterfly or half guard: opponent drives forward → trap their leg in your knee pit (bear trap) → compress with shin → finish or sweep.",
+    "corePrinciple": "Half butterfly or Half Guard: opponent drives forward → trap their leg in your knee pit (bear trap) → compress with shin → finish or sweep.",
     "decisionTree": [
       {
         "condition": "Using Reaction 1",
@@ -3027,7 +3027,7 @@
     "domain": "submissions",
     "locale": "fr",
     "file": "content/skills/submissions/buggy-choke/content.fr.json",
-    "corePrinciple": "Bottom side control: opponent is heavy on one side (crossface side) → wrap legs around their neck and arm → squeeze → choke.",
+    "corePrinciple": "Bottom Side Control: opponent is heavy on one side (crossface side) → wrap legs around their neck and arm → squeeze → choke.",
     "decisionTree": [
       {
         "condition": "they post on their free hand",
@@ -3046,7 +3046,7 @@
     "domain": "submissions",
     "locale": "vi",
     "file": "content/skills/submissions/buggy-choke/content.vi.json",
-    "corePrinciple": "Bottom side control: opponent is heavy on one side (crossface side) → wrap legs around their neck and arm → squeeze → choke.",
+    "corePrinciple": "Bottom Side Control: opponent is heavy on one side (crossface side) → wrap legs around their neck and arm → squeeze → choke.",
     "decisionTree": [
       {
         "condition": "they post on their free hand",
@@ -3065,7 +3065,7 @@
     "domain": "submissions",
     "locale": "fr",
     "file": "content/skills/submissions/choi-bar/content.fr.json",
-    "corePrinciple": "Kimura trap or clamp guard: shoulder clamp → wrist control → rotate hips → expose elbow → extend for armbar.",
+    "corePrinciple": "Kimura trap or clamp Guard: shoulder clamp → wrist control → rotate hips → expose elbow → extend for armbar.",
     "decisionTree": [
       {
         "condition": "General application",
@@ -3084,7 +3084,7 @@
     "domain": "submissions",
     "locale": "vi",
     "file": "content/skills/submissions/choi-bar/content.vi.json",
-    "corePrinciple": "Kimura trap or clamp guard: shoulder clamp → wrist control → rotate hips → expose elbow → extend for armbar.",
+    "corePrinciple": "Kimura trap or clamp Guard: shoulder clamp → wrist control → rotate hips → expose elbow → extend for armbar.",
     "decisionTree": [
       {
         "condition": "General application",
@@ -3103,7 +3103,7 @@
     "domain": "submissions",
     "locale": "fr",
     "file": "content/skills/submissions/darce-choke/content.fr.json",
-    "corePrinciple": "Front headlock established → opponent turns in → thread far arm under their neck → lock figure-four grip → drop chest weight → finish.",
+    "corePrinciple": "Front Headlock established → opponent turns in → thread far arm under their neck → lock figure-four grip → drop chest weight → finish.",
     "decisionTree": [
       {
         "condition": "General application",
@@ -3111,7 +3111,7 @@
       },
       {
         "condition": "General application",
-        "action": "From D'Arce, if they escape, transition to side control or back take."
+        "action": "From D'Arce, if they escape, transition to Side Control or back take."
       }
     ],
     "exitStrategies": []
@@ -3122,7 +3122,7 @@
     "domain": "submissions",
     "locale": "vi",
     "file": "content/skills/submissions/darce-choke/content.vi.json",
-    "corePrinciple": "Front headlock established → opponent turns in → thread far arm under their neck → lock figure-four grip → drop chest weight → finish.",
+    "corePrinciple": "Front Headlock established → opponent turns in → thread far arm under their neck → lock figure-four grip → drop chest weight → finish.",
     "decisionTree": [
       {
         "condition": "General application",
@@ -3130,7 +3130,7 @@
       },
       {
         "condition": "General application",
-        "action": "From D'Arce, if they escape, transition to side control or back take."
+        "action": "From D'Arce, if they escape, transition to Side Control or back take."
       }
     ],
     "exitStrategies": []
@@ -3141,7 +3141,7 @@
     "domain": "submissions",
     "locale": "fr",
     "file": "content/skills/submissions/de-la-riva-back-take/content.fr.json",
-    "corePrinciple": "DLR guard established: off-balance for sweep → opponent posts hand → spin under their posted arm → take the back → secure seatbelt and hooks.",
+    "corePrinciple": "DLR Guard established: off-balance for sweep → opponent posts hand → spin under their posted arm → take the back → secure seatbelt and hooks.",
     "decisionTree": [
       {
         "condition": "The DLR back take works in one continuous motion: off-balance",
@@ -3149,7 +3149,7 @@
       },
       {
         "condition": "they don't post (defend the sweep by stepping back)",
-        "action": "extend into X-guard instead."
+        "action": "extend into X-Guard instead."
       }
     ],
     "exitStrategies": []
@@ -3160,7 +3160,7 @@
     "domain": "submissions",
     "locale": "vi",
     "file": "content/skills/submissions/de-la-riva-back-take/content.vi.json",
-    "corePrinciple": "DLR guard established: off-balance for sweep → opponent posts hand → spin under their posted arm → take the back → secure seatbelt and hooks.",
+    "corePrinciple": "DLR Guard established: off-balance for sweep → opponent posts hand → spin under their posted arm → take the back → secure seatbelt and hooks.",
     "decisionTree": [
       {
         "condition": "The DLR back take works in one continuous motion: off-balance",
@@ -3168,7 +3168,7 @@
       },
       {
         "condition": "they don't post (defend the sweep by stepping back)",
-        "action": "extend into X-guard instead."
+        "action": "extend into X-Guard instead."
       }
     ],
     "exitStrategies": []
@@ -3179,7 +3179,7 @@
     "domain": "submissions",
     "locale": "fr",
     "file": "content/skills/submissions/fhl-go-behind/content.fr.json",
-    "corePrinciple": "Front headlock established → opponent resists choke → release the choke → circle behind them → secure seatbelt → insert hooks → back control.",
+    "corePrinciple": "Front Headlock established → opponent resists choke → release the choke → circle behind them → secure seatbelt → insert hooks → back control.",
     "decisionTree": [
       {
         "condition": "The go-behind works as part of the FHL system: choke threat",
@@ -3187,7 +3187,7 @@
       },
       {
         "condition": "General application",
-        "action": "If the go-behind fails, return to front headlock or transition to side control."
+        "action": "If the go-behind fails, return to Front Headlock or transition to Side Control."
       }
     ],
     "exitStrategies": []
@@ -3198,7 +3198,7 @@
     "domain": "submissions",
     "locale": "vi",
     "file": "content/skills/submissions/fhl-go-behind/content.vi.json",
-    "corePrinciple": "Front headlock established → opponent resists choke → release the choke → circle behind them → secure seatbelt → insert hooks → back control.",
+    "corePrinciple": "Front Headlock established → opponent resists choke → release the choke → circle behind them → secure seatbelt → insert hooks → back control.",
     "decisionTree": [
       {
         "condition": "The go-behind works as part of the FHL system: choke threat",
@@ -3206,7 +3206,7 @@
       },
       {
         "condition": "General application",
-        "action": "If the go-behind fails, return to front headlock or transition to side control."
+        "action": "If the go-behind fails, return to Front Headlock or transition to Side Control."
       }
     ],
     "exitStrategies": []
@@ -3255,11 +3255,11 @@
     "domain": "submissions",
     "locale": "fr",
     "file": "content/skills/submissions/gogoplata/content.fr.json",
-    "corePrinciple": "Rubber guard or high guard: bring your foot to your opposite shoulder → shin across their throat → pull their head down → squeeze.",
+    "corePrinciple": "Rubber Guard or high Guard: bring your foot to your opposite shoulder → shin across their throat → pull their head down → squeeze.",
     "decisionTree": [
       {
         "condition": "General application",
-        "action": "The gogoplata works as a chain from the rubber guard: if they defend the sweep, attack the gogoplata."
+        "action": "The gogoplata works as a chain from the rubber Guard: if they defend the sweep, attack the gogoplata."
       },
       {
         "condition": "they defend by posturing",
@@ -3274,11 +3274,11 @@
     "domain": "submissions",
     "locale": "vi",
     "file": "content/skills/submissions/gogoplata/content.vi.json",
-    "corePrinciple": "Rubber guard or high guard: bring your foot to your opposite shoulder → shin across their throat → pull their head down → squeeze.",
+    "corePrinciple": "Rubber Guard or high Guard: bring your foot to your opposite shoulder → shin across their throat → pull their head down → squeeze.",
     "decisionTree": [
       {
         "condition": "General application",
-        "action": "The gogoplata works as a chain from the rubber guard: if they defend the sweep, attack the gogoplata."
+        "action": "The gogoplata works as a chain from the rubber Guard: if they defend the sweep, attack the gogoplata."
       },
       {
         "condition": "they defend by posturing",
@@ -3288,47 +3288,47 @@
     "exitStrategies": []
   },
   {
-    "id": "guillotine-system_fr",
-    "skill_id": "guillotine-system",
+    "id": "Guillotine-system_fr",
+    "skill_id": "Guillotine-system",
     "domain": "submissions",
     "locale": "fr",
-    "file": "content/skills/submissions/guillotine-system/content.fr.json",
-    "corePrinciple": "Front headlock or guard: secure guillotine grip (deep wrist, elbow tight) → cut the angle (step to the side) → squeeze with chest and arms.",
+    "file": "content/skills/submissions/Guillotine-system/content.fr.json",
+    "corePrinciple": "Front Headlock or Guard: secure Guillotine grip (deep wrist, elbow tight) → cut the angle (step to the side) → squeeze with chest and arms.",
     "decisionTree": [
       {
-        "condition": "From guard: arm-in guillotine",
+        "condition": "From Guard: arm-in Guillotine",
         "action": "pull their head down with legs → cut the angle → finish."
       },
       {
-        "condition": "From FHL: arm-out guillotine",
+        "condition": "From FHL: arm-out Guillotine",
         "action": "circle to the side → drop weight → finish."
       },
       {
-        "condition": "they defend the guillotine",
-        "action": "transition to D'Arce or anaconda — the three form a front headlock chain."
+        "condition": "they defend the Guillotine",
+        "action": "transition to D'Arce or anaconda — the three form a Front Headlock chain."
       }
     ],
     "exitStrategies": []
   },
   {
-    "id": "guillotine-system_vi",
-    "skill_id": "guillotine-system",
+    "id": "Guillotine-system_vi",
+    "skill_id": "Guillotine-system",
     "domain": "submissions",
     "locale": "vi",
-    "file": "content/skills/submissions/guillotine-system/content.vi.json",
-    "corePrinciple": "Front headlock or guard: secure guillotine grip (deep wrist, elbow tight) → cut the angle (step to the side) → squeeze with chest and arms.",
+    "file": "content/skills/submissions/Guillotine-system/content.vi.json",
+    "corePrinciple": "Front Headlock or Guard: secure Guillotine grip (deep wrist, elbow tight) → cut the angle (step to the side) → squeeze with chest and arms.",
     "decisionTree": [
       {
-        "condition": "From guard: arm-in guillotine",
+        "condition": "From Guard: arm-in Guillotine",
         "action": "pull their head down with legs → cut the angle → finish."
       },
       {
-        "condition": "From FHL: arm-out guillotine",
+        "condition": "From FHL: arm-out Guillotine",
         "action": "circle to the side → drop weight → finish."
       },
       {
-        "condition": "they defend the guillotine",
-        "action": "transition to D'Arce or anaconda — the three form a front headlock chain."
+        "condition": "they defend the Guillotine",
+        "action": "transition to D'Arce or anaconda — the three form a Front Headlock chain."
       }
     ],
     "exitStrategies": []
@@ -3373,15 +3373,15 @@
   },
   {
     "id": "high-wrist-guillotine_fr",
-    "skill_id": "high-wrist-guillotine",
+    "skill_id": "high-wrist-Guillotine",
     "domain": "submissions",
     "locale": "fr",
-    "file": "content/skills/submissions/high-wrist-guillotine/content.fr.json",
-    "corePrinciple": "Front headlock or guard: deep wrist grip (thumb side blade) → elbow tight → cut angle → squeeze with chest.",
+    "file": "content/skills/submissions/high-wrist-Guillotine/content.fr.json",
+    "corePrinciple": "Front Headlock or Guard: deep wrist grip (thumb side blade) → elbow tight → cut angle → squeeze with chest.",
     "decisionTree": [
       {
         "condition": "General application",
-        "action": "The high-wrist guillotine works best from the front headlock position when they are turtled or belly down."
+        "action": "The high-wrist Guillotine works best from the Front Headlock position when they are turtled or belly down."
       },
       {
         "condition": "they defend by hiding their neck",
@@ -3392,15 +3392,15 @@
   },
   {
     "id": "high-wrist-guillotine_vi",
-    "skill_id": "high-wrist-guillotine",
+    "skill_id": "high-wrist-Guillotine",
     "domain": "submissions",
     "locale": "vi",
-    "file": "content/skills/submissions/high-wrist-guillotine/content.vi.json",
-    "corePrinciple": "Front headlock or guard: deep wrist grip (thumb side blade) → elbow tight → cut angle → squeeze with chest.",
+    "file": "content/skills/submissions/high-wrist-Guillotine/content.vi.json",
+    "corePrinciple": "Front Headlock or Guard: deep wrist grip (thumb side blade) → elbow tight → cut angle → squeeze with chest.",
     "decisionTree": [
       {
         "condition": "General application",
-        "action": "The high-wrist guillotine works best from the front headlock position when they are turtled or belly down."
+        "action": "The high-wrist Guillotine works best from the Front Headlock position when they are turtled or belly down."
       },
       {
         "condition": "they defend by hiding their neck",
@@ -3423,7 +3423,7 @@
       },
       {
         "condition": "Using Option 3",
-        "action": "They turn away → take the back. Option 4: They play dead → pass the guard."
+        "action": "They turn away → take the back. Option 4: They play dead → pass the Guard."
       }
     ],
     "exitStrategies": []
@@ -3442,7 +3442,7 @@
       },
       {
         "condition": "Using Option 3",
-        "action": "They turn away → take the back. Option 4: They play dead → pass the guard."
+        "action": "They turn away → take the back. Option 4: They play dead → pass the Guard."
       }
     ],
     "exitStrategies": []
@@ -3453,7 +3453,7 @@
     "domain": "submissions",
     "locale": "fr",
     "file": "content/skills/submissions/octopus-back-take/content.fr.json",
-    "corePrinciple": "Octopus guard: sweep attempt → opponent posts → spin under their arm → take the back → seatbelt → hooks → attack.",
+    "corePrinciple": "Octopus Guard: sweep attempt → opponent posts → spin under their arm → take the back → seatbelt → hooks → attack.",
     "decisionTree": [
       {
         "condition": "The octopus back take works in one movement: sweep post",
@@ -3472,7 +3472,7 @@
     "domain": "submissions",
     "locale": "vi",
     "file": "content/skills/submissions/octopus-back-take/content.vi.json",
-    "corePrinciple": "Octopus guard: sweep attempt → opponent posts → spin under their arm → take the back → seatbelt → hooks → attack.",
+    "corePrinciple": "Octopus Guard: sweep attempt → opponent posts → spin under their arm → take the back → seatbelt → hooks → attack.",
     "decisionTree": [
       {
         "condition": "The octopus back take works in one movement: sweep post",
@@ -3495,7 +3495,7 @@
     "decisionTree": [
       {
         "condition": "Using Reaction 1",
-        "action": "They posture to defend → sit up into a sweep → land in mount or side control."
+        "action": "They posture to defend → sit up into a sweep → land in Mount or Side Control."
       },
       {
         "condition": "Using Reaction 2",
@@ -3518,7 +3518,7 @@
     "decisionTree": [
       {
         "condition": "Using Reaction 1",
-        "action": "They posture to defend → sit up into a sweep → land in mount or side control."
+        "action": "They posture to defend → sit up into a sweep → land in Mount or Side Control."
       },
       {
         "condition": "Using Reaction 2",
@@ -3575,7 +3575,7 @@
     "domain": "submissions",
     "locale": "fr",
     "file": "content/skills/submissions/reverse-buggy-choke/content.fr.json",
-    "corePrinciple": "Bottom side control: opponent is heavy on crossface side → wrap legs around their neck and arm → squeeze → choke.",
+    "corePrinciple": "Bottom Side Control: opponent is heavy on crossface side → wrap legs around their neck and arm → squeeze → choke.",
     "decisionTree": [
       {
         "condition": "General application",
@@ -3594,7 +3594,7 @@
     "domain": "submissions",
     "locale": "vi",
     "file": "content/skills/submissions/reverse-buggy-choke/content.vi.json",
-    "corePrinciple": "Bottom side control: opponent is heavy on crossface side → wrap legs around their neck and arm → squeeze → choke.",
+    "corePrinciple": "Bottom Side Control: opponent is heavy on crossface side → wrap legs around their neck and arm → squeeze → choke.",
     "decisionTree": [
       {
         "condition": "General application",
@@ -3608,16 +3608,16 @@
     "exitStrategies": []
   },
   {
-    "id": "s-mount-armbar_fr",
-    "skill_id": "s-mount-armbar",
+    "id": "s-Mount-armbar_fr",
+    "skill_id": "s-Mount-armbar",
     "domain": "submissions",
     "locale": "fr",
-    "file": "content/skills/submissions/s-mount-armbar/content.fr.json",
-    "corePrinciple": "Mount: transition to S-mount (one foot in hip, one knee in armpit) → isolate their arm → bring elbow above your hip → lift hips → extend.",
+    "file": "content/skills/submissions/s-Mount-armbar/content.fr.json",
+    "corePrinciple": "Mount: transition to S-Mount (one foot in hip, one knee in armpit) → isolate their arm → bring elbow above your hip → lift hips → extend.",
     "decisionTree": [
       {
         "condition": "General application",
-        "action": "S-mount armbar chains with the arm triangle: if they defend the armbar, switch to arm triangle from mount."
+        "action": "S-Mount armbar chains with the arm triangle: if they defend the armbar, switch to arm triangle from Mount."
       },
       {
         "condition": "they roll to escape",
@@ -3627,16 +3627,16 @@
     "exitStrategies": []
   },
   {
-    "id": "s-mount-armbar_vi",
-    "skill_id": "s-mount-armbar",
+    "id": "s-Mount-armbar_vi",
+    "skill_id": "s-Mount-armbar",
     "domain": "submissions",
     "locale": "vi",
-    "file": "content/skills/submissions/s-mount-armbar/content.vi.json",
-    "corePrinciple": "Mount: transition to S-mount (one foot in hip, one knee in armpit) → isolate their arm → bring elbow above your hip → lift hips → extend.",
+    "file": "content/skills/submissions/s-Mount-armbar/content.vi.json",
+    "corePrinciple": "Mount: transition to S-Mount (one foot in hip, one knee in armpit) → isolate their arm → bring elbow above your hip → lift hips → extend.",
     "decisionTree": [
       {
         "condition": "General application",
-        "action": "S-mount armbar chains with the arm triangle: if they defend the armbar, switch to arm triangle from mount."
+        "action": "S-Mount armbar chains with the arm triangle: if they defend the armbar, switch to arm triangle from Mount."
       },
       {
         "condition": "they roll to escape",
@@ -3879,7 +3879,7 @@
     "domain": "submissions",
     "locale": "fr",
     "file": "content/skills/submissions/truck-twister/content.fr.json",
-    "corePrinciple": "Side control or half guard: secure body triangle (truck position) → control far arm → pull their head toward their hip → arch your back → finish.",
+    "corePrinciple": "Side Control or Half Guard: secure body triangle (truck position) → control far arm → pull their head toward their hip → arch your back → finish.",
     "decisionTree": [
       {
         "condition": "General application",
@@ -3898,7 +3898,7 @@
     "domain": "submissions",
     "locale": "vi",
     "file": "content/skills/submissions/truck-twister/content.vi.json",
-    "corePrinciple": "Side control or half guard: secure body triangle (truck position) → control far arm → pull their head toward their hip → arch your back → finish.",
+    "corePrinciple": "Side Control or Half Guard: secure body triangle (truck position) → control far arm → pull their head toward their hip → arch your back → finish.",
     "decisionTree": [
       {
         "condition": "General application",
@@ -3925,7 +3925,7 @@
       },
       {
         "condition": "General application",
-        "action": "If the Von Flue fails, switch to breaking their guillotine grip conventionally."
+        "action": "If the Von Flue fails, switch to breaking their Guillotine grip conventionally."
       }
     ],
     "exitStrategies": []
@@ -3944,7 +3944,7 @@
       },
       {
         "condition": "General application",
-        "action": "If the Von Flue fails, switch to breaking their guillotine grip conventionally."
+        "action": "If the Von Flue fails, switch to breaking their Guillotine grip conventionally."
       }
     ],
     "exitStrategies": []
@@ -4005,7 +4005,7 @@
       },
       {
         "condition": "General application",
-        "action": "If Step 3, Pick Ankle: drop your near hand to their lead ankle and grip firmly. Keep your head to the outside (away from their chest) to avoid the guillotine"
+        "action": "If Step 3, Pick Ankle: drop your near hand to their lead ankle and grip firmly. Keep your head to the outside (away from their chest) to avoid the Guillotine"
       },
       {
         "condition": "General application",
@@ -4013,7 +4013,7 @@
       },
       {
         "condition": "General application",
-        "action": "Landing: drive them to the mat and settle in side control or knee-on-belly. If they land on their back, pass to side control before they can recover guard"
+        "action": "Landing: drive them to the mat and settle in Side Control or knee-on-belly. If they land on their back, pass to Side Control before they can recover Guard"
       }
     ],
     "exitStrategies": []
@@ -4036,7 +4036,7 @@
       },
       {
         "condition": "General application",
-        "action": "If Step 3, Pick Ankle: drop your near hand to their lead ankle and grip firmly. Keep your head to the outside (away from their chest) to avoid the guillotine"
+        "action": "If Step 3, Pick Ankle: drop your near hand to their lead ankle and grip firmly. Keep your head to the outside (away from their chest) to avoid the Guillotine"
       },
       {
         "condition": "General application",
@@ -4044,7 +4044,7 @@
       },
       {
         "condition": "General application",
-        "action": "Landing: drive them to the mat and settle in side control or knee-on-belly. If they land on their back, pass to side control before they can recover guard"
+        "action": "Landing: drive them to the mat and settle in Side Control or knee-on-belly. If they land on their back, pass to Side Control before they can recover Guard"
       }
     ],
     "exitStrategies": []
@@ -4067,11 +4067,11 @@
       },
       {
         "condition": "Using Branch 3 (Front Headlock)",
-        "action": "if the opponent drops their level to resist the drag, snap them down into a front headlock. Their forward momentum carries them into the snapdown"
+        "action": "if the opponent drops their level to resist the drag, snap them down into a Front Headlock. Their forward momentum carries them into the snapdown"
       },
       {
         "condition": "Reading the opponent's reaction",
-        "action": "they follow the drag → back take. They post the far leg → single leg. They drop level → snapdown to front headlock"
+        "action": "they follow the drag → back take. They post the far leg → single leg. They drop level → snapdown to Front Headlock"
       }
     ],
     "exitStrategies": []
@@ -4094,11 +4094,11 @@
       },
       {
         "condition": "Using Branch 3 (Front Headlock)",
-        "action": "if the opponent drops their level to resist the drag, snap them down into a front headlock. Their forward momentum carries them into the snapdown"
+        "action": "if the opponent drops their level to resist the drag, snap them down into a Front Headlock. Their forward momentum carries them into the snapdown"
       },
       {
         "condition": "Reading the opponent's reaction",
-        "action": "they follow the drag → back take. They post the far leg → single leg. They drop level → snapdown to front headlock"
+        "action": "they follow the drag → back take. They post the far leg → single leg. They drop level → snapdown to Front Headlock"
       }
     ],
     "exitStrategies": []
@@ -4125,7 +4125,7 @@
       },
       {
         "condition": "General application",
-        "action": "Landing position: aim to land in side control (chest to chest, head on the far side). If they land on their back, slide immediately to side control"
+        "action": "Landing position: aim to land in Side Control (chest to chest, head on the far side). If they land on their back, slide immediately to Side Control"
       }
     ],
     "exitStrategies": []
@@ -4152,7 +4152,7 @@
       },
       {
         "condition": "General application",
-        "action": "Landing position: aim to land in side control (chest to chest, head on the far side). If they land on their back, slide immediately to side control"
+        "action": "Landing position: aim to land in Side Control (chest to chest, head on the far side). If they land on their back, slide immediately to Side Control"
       }
     ],
     "exitStrategies": []
@@ -4163,7 +4163,7 @@
     "domain": "wrestling",
     "locale": "fr",
     "file": "content/skills/wrestling/dogfight-knee-tap/content.fr.json",
-    "corePrinciple": "The dogfight knee tap is part of a larger dogfight system: Knee Tap → Single Leg → Re-guard",
+    "corePrinciple": "The dogfight knee tap is part of a larger dogfight system: Knee Tap → Single Leg → Re-Guard",
     "decisionTree": [
       {
         "condition": "Using Option 1 (Knee Tap)",
@@ -4190,7 +4190,7 @@
     "domain": "wrestling",
     "locale": "vi",
     "file": "content/skills/wrestling/dogfight-knee-tap/content.vi.json",
-    "corePrinciple": "The dogfight knee tap is part of a larger dogfight system: Knee Tap → Single Leg → Re-guard",
+    "corePrinciple": "The dogfight knee tap is part of a larger dogfight system: Knee Tap → Single Leg → Re-Guard",
     "decisionTree": [
       {
         "condition": "Using Option 1 (Knee Tap)",
@@ -4217,7 +4217,7 @@
     "domain": "wrestling",
     "locale": "fr",
     "file": "content/skills/wrestling/front-headlock-system/content.fr.json",
-    "corePrinciple": "The front headlock system has five attacks in a specific sequence: Snapdown → Guillotine → D'Arce → Anaconda → Go-Behind",
+    "corePrinciple": "The Front Headlock system has five attacks in a specific sequence: Snapdown → Guillotine → D'Arce → Anaconda → Go-Behind",
     "decisionTree": [
       {
         "condition": "Using Attack 1 (Snapdown)",
@@ -4225,11 +4225,11 @@
       },
       {
         "condition": "Using Attack 2 (Guillotine)",
-        "action": "as their head drops, slide your choking arm under their chin and lock the guillotine. If they defend, transition to D'Arce"
+        "action": "as their head drops, slide your choking arm under their chin and lock the Guillotine. If they defend, transition to D'Arce"
       },
       {
         "condition": "Using Attack 3 (D'Arce)",
-        "action": "when they defend the guillotine by pulling their head back, feed your choking arm deeper into their far armpit and lock the D'Arce by connecting your hands. The D'Arce attacks the neck from the side"
+        "action": "when they defend the Guillotine by pulling their head back, feed your choking arm deeper into their far armpit and lock the D'Arce by connecting your hands. The D'Arce attacks the neck from the side"
       },
       {
         "condition": "Using Attack 4 (Anaconda)",
@@ -4237,7 +4237,7 @@
       },
       {
         "condition": "Using Attack 5 (Go-Behind)",
-        "action": "if all chokes fail, release the head and circle behind them to take the back. The front headlock position naturally transitions to a back take"
+        "action": "if all chokes fail, release the head and circle behind them to take the back. The Front Headlock position naturally transitions to a back take"
       }
     ],
     "exitStrategies": []
@@ -4248,7 +4248,7 @@
     "domain": "wrestling",
     "locale": "vi",
     "file": "content/skills/wrestling/front-headlock-system/content.vi.json",
-    "corePrinciple": "The front headlock system has five attacks in a specific sequence: Snapdown → Guillotine → D'Arce → Anaconda → Go-Behind",
+    "corePrinciple": "The Front Headlock system has five attacks in a specific sequence: Snapdown → Guillotine → D'Arce → Anaconda → Go-Behind",
     "decisionTree": [
       {
         "condition": "Using Attack 1 (Snapdown)",
@@ -4256,11 +4256,11 @@
       },
       {
         "condition": "Using Attack 2 (Guillotine)",
-        "action": "as their head drops, slide your choking arm under their chin and lock the guillotine. If they defend, transition to D'Arce"
+        "action": "as their head drops, slide your choking arm under their chin and lock the Guillotine. If they defend, transition to D'Arce"
       },
       {
         "condition": "Using Attack 3 (D'Arce)",
-        "action": "when they defend the guillotine by pulling their head back, feed your choking arm deeper into their far armpit and lock the D'Arce by connecting your hands. The D'Arce attacks the neck from the side"
+        "action": "when they defend the Guillotine by pulling their head back, feed your choking arm deeper into their far armpit and lock the D'Arce by connecting your hands. The D'Arce attacks the neck from the side"
       },
       {
         "condition": "Using Attack 4 (Anaconda)",
@@ -4268,18 +4268,18 @@
       },
       {
         "condition": "Using Attack 5 (Go-Behind)",
-        "action": "if all chokes fail, release the head and circle behind them to take the back. The front headlock position naturally transitions to a back take"
+        "action": "if all chokes fail, release the head and circle behind them to take the back. The Front Headlock position naturally transitions to a back take"
       }
     ],
     "exitStrategies": []
   },
   {
-    "id": "half-guard-wrestle-up_fr",
-    "skill_id": "half-guard-wrestle-up",
+    "id": "half-Guard-wrestle-up_fr",
+    "skill_id": "half-Guard-wrestle-up",
     "domain": "wrestling",
     "locale": "fr",
-    "file": "content/skills/wrestling/half-guard-wrestle-up/content.fr.json",
-    "corePrinciple": "The half guard wrestle-up has four phases: Underhook → Hip Angle → Stand → Single Leg",
+    "file": "content/skills/wrestling/half-Guard-wrestle-up/content.fr.json",
+    "corePrinciple": "The Half Guard wrestle-up has four phases: Underhook → Hip Angle → Stand → Single Leg",
     "decisionTree": [
       {
         "condition": "In Phase 1 (Underhook)",
@@ -4299,18 +4299,18 @@
       },
       {
         "condition": "the single leg fails",
-        "action": "transition to the front headlock using your underhook grip to snap them down"
+        "action": "transition to the Front Headlock using your underhook grip to snap them down"
       }
     ],
     "exitStrategies": []
   },
   {
-    "id": "half-guard-wrestle-up_vi",
-    "skill_id": "half-guard-wrestle-up",
+    "id": "half-Guard-wrestle-up_vi",
+    "skill_id": "half-Guard-wrestle-up",
     "domain": "wrestling",
     "locale": "vi",
-    "file": "content/skills/wrestling/half-guard-wrestle-up/content.vi.json",
-    "corePrinciple": "The half guard wrestle-up has four phases: Underhook → Hip Angle → Stand → Single Leg",
+    "file": "content/skills/wrestling/half-Guard-wrestle-up/content.vi.json",
+    "corePrinciple": "The Half Guard wrestle-up has four phases: Underhook → Hip Angle → Stand → Single Leg",
     "decisionTree": [
       {
         "condition": "In Phase 1 (Underhook)",
@@ -4330,7 +4330,7 @@
       },
       {
         "condition": "the single leg fails",
-        "action": "transition to the front headlock using your underhook grip to snap them down"
+        "action": "transition to the Front Headlock using your underhook grip to snap them down"
       }
     ],
     "exitStrategies": []
@@ -4345,7 +4345,7 @@
     "decisionTree": [
       {
         "condition": "In Phase 1 (Underhook)",
-        "action": "from open guard, win the underhook on the side you will heist. Your head should be on their chest"
+        "action": "from open Guard, win the underhook on the side you will heist. Your head should be on their chest"
       },
       {
         "condition": "In Phase 2 (Hip Rotation)",
@@ -4361,7 +4361,7 @@
       },
       {
         "condition": "the hip heist fails to standing",
-        "action": "recover to a seated guard or transition to a technical stand-up"
+        "action": "recover to a seated Guard or transition to a technical stand-up"
       }
     ],
     "exitStrategies": []
@@ -4376,7 +4376,7 @@
     "decisionTree": [
       {
         "condition": "In Phase 1 (Underhook)",
-        "action": "from open guard, win the underhook on the side you will heist. Your head should be on their chest"
+        "action": "from open Guard, win the underhook on the side you will heist. Your head should be on their chest"
       },
       {
         "condition": "In Phase 2 (Hip Rotation)",
@@ -4392,7 +4392,7 @@
       },
       {
         "condition": "the hip heist fails to standing",
-        "action": "recover to a seated guard or transition to a technical stand-up"
+        "action": "recover to a seated Guard or transition to a technical stand-up"
       }
     ],
     "exitStrategies": []
@@ -4423,7 +4423,7 @@
       },
       {
         "condition": "Defensive reactions",
-        "action": "if they guillotine → back take. If they kimura → release and re-engage. If they sprawl → back take"
+        "action": "if they Guillotine → back take. If they kimura → release and re-engage. If they sprawl → back take"
       }
     ],
     "exitStrategies": []
@@ -4454,7 +4454,7 @@
       },
       {
         "condition": "Defensive reactions",
-        "action": "if they guillotine → back take. If they kimura → release and re-engage. If they sprawl → back take"
+        "action": "if they Guillotine → back take. If they kimura → release and re-engage. If they sprawl → back take"
       }
     ],
     "exitStrategies": []
@@ -4477,11 +4477,11 @@
       },
       {
         "condition": "In Phase 3 (Front Headlock)",
-        "action": "as their head drops, circle your arm around their head (hand behind their neck) and secure the front headlock position. Your other hand controls their far arm or hip"
+        "action": "as their head drops, circle your arm around their head (hand behind their neck) and secure the Front Headlock position. Your other hand controls their far arm or hip"
       },
       {
         "condition": "General application",
-        "action": "From the front headlock, chain to: guillotine (arm under chin), go-behind (circle behind), or back take (follow their movement)"
+        "action": "From the Front Headlock, chain to: Guillotine (arm under chin), go-behind (circle behind), or back take (follow their movement)"
       }
     ],
     "exitStrategies": []
@@ -4504,11 +4504,11 @@
       },
       {
         "condition": "In Phase 3 (Front Headlock)",
-        "action": "as their head drops, circle your arm around their head (hand behind their neck) and secure the front headlock position. Your other hand controls their far arm or hip"
+        "action": "as their head drops, circle your arm around their head (hand behind their neck) and secure the Front Headlock position. Your other hand controls their far arm or hip"
       },
       {
         "condition": "General application",
-        "action": "From the front headlock, chain to: guillotine (arm under chin), go-behind (circle behind), or back take (follow their movement)"
+        "action": "From the Front Headlock, chain to: Guillotine (arm under chin), go-behind (circle behind), or back take (follow their movement)"
       }
     ],
     "exitStrategies": []
@@ -4539,7 +4539,7 @@
       },
       {
         "condition": "the go-behind fails",
-        "action": "they turned into you → use the front headlock. They sat up → re-sprawl. They rolled away → follow and take the back"
+        "action": "they turned into you → use the Front Headlock. They sat up → re-sprawl. They rolled away → follow and take the back"
       }
     ],
     "exitStrategies": []
@@ -4570,26 +4570,26 @@
       },
       {
         "condition": "the go-behind fails",
-        "action": "they turned into you → use the front headlock. They sat up → re-sprawl. They rolled away → follow and take the back"
+        "action": "they turned into you → use the Front Headlock. They sat up → re-sprawl. They rolled away → follow and take the back"
       }
     ],
     "exitStrategies": []
   },
   {
     "id": "wrestling-up-from-guard_fr",
-    "skill_id": "wrestling-up-from-guard",
+    "skill_id": "wrestling-up-from-Guard",
     "domain": "wrestling",
     "locale": "fr",
-    "file": "content/skills/wrestling/wrestling-up-from-guard/content.fr.json",
-    "corePrinciple": "The wrestle-up from guard has three entry systems: Underhook Entry → Shin-to-Shin Entry → 2-on-1 Entry",
+    "file": "content/skills/wrestling/wrestling-up-from-Guard/content.fr.json",
+    "corePrinciple": "The wrestle-up from Guard has three entry systems: Underhook Entry → Shin-to-Shin Entry → 2-on-1 Entry",
     "decisionTree": [
       {
         "condition": "Using Entry 1 (Underhook)",
-        "action": "from seated guard, pummel for an underhook on one side. Your other hand posts on the mat. As you stand, the underhook prevents them from sprawling. Finish with a single leg or body lock"
+        "action": "from seated Guard, pummel for an underhook on one side. Your other hand posts on the mat. As you stand, the underhook prevents them from sprawling. Finish with a single leg or body lock"
       },
       {
         "condition": "Using Entry 2 (Shin-to-Shin)",
-        "action": "enter shin-to-shin guard by placing your shin across their near shin. As you stand, the shin blocks their leg from stepping back. Come up to a single leg on the same side"
+        "action": "enter shin-to-shin Guard by placing your shin across their near shin. As you stand, the shin blocks their leg from stepping back. Come up to a single leg on the same side"
       },
       {
         "condition": "Using Entry 3 (2-on-1)",
@@ -4597,26 +4597,26 @@
       },
       {
         "condition": "General application",
-        "action": "each entry leads to the same finishes: single leg, body lock, front headlock, or back take"
+        "action": "each entry leads to the same finishes: single leg, body lock, Front Headlock, or back take"
       }
     ],
     "exitStrategies": []
   },
   {
     "id": "wrestling-up-from-guard_vi",
-    "skill_id": "wrestling-up-from-guard",
+    "skill_id": "wrestling-up-from-Guard",
     "domain": "wrestling",
     "locale": "vi",
-    "file": "content/skills/wrestling/wrestling-up-from-guard/content.vi.json",
-    "corePrinciple": "The wrestle-up from guard has three entry systems: Underhook Entry → Shin-to-Shin Entry → 2-on-1 Entry",
+    "file": "content/skills/wrestling/wrestling-up-from-Guard/content.vi.json",
+    "corePrinciple": "The wrestle-up from Guard has three entry systems: Underhook Entry → Shin-to-Shin Entry → 2-on-1 Entry",
     "decisionTree": [
       {
         "condition": "Using Entry 1 (Underhook)",
-        "action": "from seated guard, pummel for an underhook on one side. Your other hand posts on the mat. As you stand, the underhook prevents them from sprawling. Finish with a single leg or body lock"
+        "action": "from seated Guard, pummel for an underhook on one side. Your other hand posts on the mat. As you stand, the underhook prevents them from sprawling. Finish with a single leg or body lock"
       },
       {
         "condition": "Using Entry 2 (Shin-to-Shin)",
-        "action": "enter shin-to-shin guard by placing your shin across their near shin. As you stand, the shin blocks their leg from stepping back. Come up to a single leg on the same side"
+        "action": "enter shin-to-shin Guard by placing your shin across their near shin. As you stand, the shin blocks their leg from stepping back. Come up to a single leg on the same side"
       },
       {
         "condition": "Using Entry 3 (2-on-1)",
@@ -4624,7 +4624,7 @@
       },
       {
         "condition": "General application",
-        "action": "each entry leads to the same finishes: single leg, body lock, front headlock, or back take"
+        "action": "each entry leads to the same finishes: single leg, body lock, Front Headlock, or back take"
       }
     ],
     "exitStrategies": []

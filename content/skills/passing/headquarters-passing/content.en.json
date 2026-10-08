@@ -2,14 +2,14 @@
   "id": "headquarters-passing",
   "locale": "en",
   "name": "Headquarters Passing",
-  "description": "Stand in headquarters to control the opponent's hips and force knee cut, backstep, or leg drag choices. Headquarters is the central passing position from which all guard passing systems originate.",
+  "description": "Stand in headquarters to control the opponent's hips and force knee cut, backstep, or leg drag choices. Headquarters is the central passing position from which all Guard passing systems originate.",
   "shortInstruction": "From headquarters (one knee up, one knee down), control their far hip with your near hand and block their near shin with your posted knee. Read their reaction and choose the appropriate pass.",
   "summary": "Headquarters passing is the most important passing concept in modern BJJ. From the headquarters position (one knee up guarding against the shin frame, one knee down for base), you control the opponent's hip movement and force them to react. Your decision tree has three primary branches: (1) knee cut if they press their shin into your knee, (2) backstep if they create distance by hip escaping away, (3) leg drag if they square up to face you. The system is based on reading the opponent's hip angle and shin frame position.",
   "whyItWorks": [
     "The headquarters position controls both the near hip (your posted knee) and the far hip (your hand control)",
     "Standing in headquarters forces the opponent to either engage (shin frame) or retreat (hip escape) — both reactions expose a passing lane",
-    "The headquarters decision tree covers 90% of guard player reactions from open guard",
-    "Headquarters is a universal passing position that works in gi and no-gi, against all guard types"
+    "The headquarters decision tree covers 90% of Guard player reactions from open Guard",
+    "Headquarters is a universal passing position that works in gi and no-gi, against all Guard types"
   ],
   "commonMistakes": [
     "Staying too long in headquarters without committing to a pass — it is a transitional position, not a resting position",
@@ -38,11 +38,11 @@
     "decisionTree": [
       {
         "condition": "Using Branch 1 (Knee Cut)",
-        "action": "the opponent stays defensive with a knee shield or half guard. Drop your posted knee and drive past their knee shield. Secure the crossface and underhook"
+        "action": "the opponent stays defensive with a knee shield or Half Guard. Drop your posted knee and drive past their knee shield. Secure the crossface and underhook"
       },
       {
         "condition": "Using Branch 2 (Long Step)",
-        "action": "the opponent is active and turning into you. Step your far leg over their head as they turn, neutralizing their roll and landing in side control"
+        "action": "the opponent is active and turning into you. Step your far leg over their head as they turn, neutralizing their roll and landing in Side Control"
       },
       {
         "condition": "Using Branch 3 (Back Step)",
@@ -55,13 +55,13 @@
     ]
   },
   "moneyDetails": [
-    "Headquarters is the most important passing position in BJJ — mastering it gives you a complete guard passing system",
-    "Learning the headquarters decision tree is faster than learning individual passes for every guard type",
+    "Headquarters is the most important passing position in BJJ — mastering it gives you a complete Guard passing system",
+    "Learning the headquarters decision tree is faster than learning individual passes for every Guard type",
     "Headquarters passing is used by every high-level no-gi grappler (Gordon Ryan, JT Torres, Lepri)"
   ],
   "fixItFast": [
     "If their shin frame is too strong: drop your weight onto the shin to collapse it before attempting the pass",
     "If they keep circling out: chase the circle with your backstep — you will land in leg drag",
-    "If they pull guard: stand up and re-establish headquarters from standing"
+    "If they pull Guard: stand up and re-establish headquarters from standing"
   ]
 }

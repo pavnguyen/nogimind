@@ -3,11 +3,11 @@
   "domain": "guard_offense",
   "level": "intermediate",
   "status": "draft",
-  "name": "Papillon guard déséquilibré",
+  "name": "Papillon Guard déséquilibré",
   "aliases": [],
   "tags": [
     "butterfly",
-    "guard"
+    "Guard"
   ],
   "keywords": [
     "butterfly hook",
@@ -21,11 +21,11 @@
       "type": "recommended"
     },
     {
-      "id": "half-guard-wrestle-up",
+      "id": "half-Guard-wrestle-up",
       "type": "recommended"
     },
     {
-      "id": "guillotine-system",
+      "id": "Guillotine-system",
       "type": "recommended"
     }
   ],
@@ -37,7 +37,7 @@
   "archetypeIds": [],
   "relatedArchetypeIds": [],
   "prerequisiteSkillIds": [
-    "seated-guard-retention"
+    "seated-Guard-retention"
   ],
   "trainingMethodIds": [],
   "nextSkillIds": [],
@@ -61,7 +61,7 @@
   "locale": "fr",
   "description": "Utilisez des crochets papillon, un collier cravate ou underhook et un positionnement de la tête pour briser la base de l'adversaire et créer des opportunités de balayage, d'entrée ou d'attaque.",
   "shortInstruction": "Accrochez une jambe, rompez la posture, déséquilibrez-vous vers l'avant ou sur le côté, puis balayez ou entrez dans des enchevêtrements de jambes.",
-  "summary": "Le déséquilibre du Butterfly guard est le moteur de tout le système Butterfly. Sans briser la base de l'adversaire, vous ne pouvez ni balayer ni attaquer. Le but est de leur faire poster une main ou un pas – puis vous bougez.",
+  "summary": "Le déséquilibre du Butterfly Guard est le moteur de tout le système Butterfly. Sans briser la base de l'adversaire, vous ne pouvez ni balayer ni attaquer. Le but est de leur faire poster une main ou un pas – puis vous bougez.",
   "whyItWorks": [
     "Les crochets papillon créent un levier sur le centre de masse de l'adversaire : le tirer vers l'avant ou le soulever latéralement détruit sa base.",
     "Le collier cravate ou underhook contrôle le haut de leur corps afin que votre crochet puisse fonctionner de manière isolée.",
@@ -82,7 +82,7 @@
   ],
   "safetySummary": [
     "Gardez la tête haute et le menton dégagé de votre poitrine pour protéger votre cou lors des attaches de col.",
-    "Ne vous engagez pas trop en cas d'échec d'un déséquilibre - vous pourriez exposer votre dos à un front headlock.",
+    "Ne vous engagez pas trop en cas d'échec d'un déséquilibre - vous pourriez exposer votre dos à un Front Headlock.",
     "Protégez vos côtes lorsque l’adversaire avance fort – cadrez avant qu’il ne s’écrase."
   ],
   "systemLogic": {
@@ -103,9 +103,9 @@
     "Votre crochet papillon doit être profond – la cheville derrière les aisselles – et non peu profond sur la cuisse.",
     "La cravate du col tire la tête jusqu'au niveau de votre poitrine ; cela charge leur poids sur le crochet.",
     "Lorsqu’ils placent une main, attaquez immédiatement ce côté – ce bras est désormais hors service.",
-    "S'ils reculent pour éviter le balayage, étendez le crochet et passez à une jambe X ou X-guard."
+    "S'ils reculent pour éviter le balayage, étendez le crochet et passez à une jambe X ou X-Guard."
   ],
-  "nextStep": "Après un déséquilibre, passez au balayage papillon, au X sur une seule jambe ou au X-guard en fonction de leur réaction.",
+  "nextStep": "Après un déséquilibre, passez au balayage papillon, au X sur une seule jambe ou au X-Guard en fonction de leur réaction.",
   "fixItFast": [
     "L'hameçon s'aplatit ? Asseyez-vous immédiatement sur votre coude le plus éloigné.",
     "Ils se présentent ? Passez à la poignée à double manche et enfoncez vos hameçons plus profondément.",

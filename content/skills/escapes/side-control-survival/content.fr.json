@@ -1,10 +1,10 @@
 {
   "id": "side-control-survival",
   "locale": "fr",
-  "name": "side control Survie",
-  "description": "Préservez la respiration, les cadres et les couloirs intérieurs sous la pression de crossface et underhook dans side control. La survie est la première priorité avant de tenter une évasion.",
+  "name": "Side Control Survie",
+  "description": "Préservez la respiration, les cadres et les couloirs intérieurs sous la pression de crossface et underhook dans Side Control. La survie est la première priorité avant de tenter une évasion.",
   "shortInstruction": "Gardez les coudes collés aux côtes, reposez-vous sur la hanche (pas sur la poitrine), respirez par le nez et ne tournez jamais le dos. Survivez d’abord, échappez-vous ensuite.",
-  "summary": "side control la survie est l'art d'absorber la pression sans panique tout en maintenant l'intégrité structurelle nécessaire à une évasion. L'ordre de priorité est le suivant : protéger le bras le plus proche (du coude aux côtes), protéger le cou (menton rentré, tête tournée vers le tapis sous crossface) et gérer la respiration. Un joueur du bas survivant est calme, cadre correctement et attend le bon moment pour lancer la séquence d'évasion.",
+  "summary": "Side Control la survie est l'art d'absorber la pression sans panique tout en maintenant l'intégrité structurelle nécessaire à une évasion. L'ordre de priorité est le suivant : protéger le bras le plus proche (du coude aux côtes), protéger le cou (menton rentré, tête tournée vers le tapis sous crossface) et gérer la respiration. Un joueur du bas survivant est calme, cadre correctement et attend le bon moment pour lancer la séquence d'évasion.",
   "whyItWorks": [
     "Garder votre coude proche épinglé contre vos côtes empêche l'adversaire d'isoler votre bras pour une attaque americana ou kimura",
     "Un cadre d'avant-bras traversant la ligne des hanches utilise la structure osseuse (et non les muscles) pour retenir le poids de l'adversaire sur votre torse - les os ne se fatiguent pas comme les muscles.",
@@ -24,13 +24,13 @@
     "Survivre d'abord, échapper ensuite"
   ],
   "safetySummary": [
-    "side control est l'une des positions les plus claustrophobes de BJJ : ressentir de la panique est normal, mais gérez-le avec une respiration contrôlée plutôt qu'avec des mouvements explosifs.",
+    "Side Control est l'une des positions les plus claustrophobes de BJJ : ressentir de la panique est normal, mais gérez-le avec une respiration contrôlée plutôt qu'avec des mouvements explosifs.",
     "Si vous ressentez une douleur aux côtes à cause de la pression, cadrez immédiatement et créez de l'espace plutôt que d'essayer de presser l'adversaire sur le banc.",
-    "Exposer votre dos sous une pression de side control peut entraîner rear-naked choke entrées ou attaques de la colonne vertébrale.",
+    "Exposer votre dos sous une pression de Side Control peut entraîner rear-naked choke entrées ou attaques de la colonne vertébrale.",
     "Si l'adversaire isole votre bras proche pour un americana ou kimura, appuyez tôt plutôt que de risquer de vous blesser à l'épaule ou au coude."
   ],
   "systemLogic": {
-    "corePrinciple": "La survie side control suit une hiérarchie à cinq niveaux : protéger le bras proche → établir le cadre de la hanche → protéger le cou → gérer la respiration → attendre une opportunité de fuite. Ne tentez jamais de vous échapper avant d’avoir établi toutes les couches de survie.",
+    "corePrinciple": "La survie Side Control suit une hiérarchie à cinq niveaux : protéger le bras proche → établir le cadre de la hanche → protéger le cou → gérer la respiration → attendre une opportunité de fuite. Ne tentez jamais de vous échapper avant d’avoir établi toutes les couches de survie.",
     "decisionTree": [
       {
         "condition": "L'adversaire éloigne votre bras le plus proche de vos côtes",
@@ -60,7 +60,7 @@
     ]
   },
   "moneyDetails": [
-    "La survie de side control est la compétence la plus fréquemment utilisée dans BJJ — chaque grappler passe du temps sous side control à chaque séance d'entraînement.",
+    "La survie de Side Control est la compétence la plus fréquemment utilisée dans BJJ — chaque grappler passe du temps sous Side Control à chaque séance d'entraînement.",
     "Maîtriser la survie avant de s'échapper évite la blessure la plus courante dans BJJ : les blessures à l'épaule causées par des attaques forcées du bras sous pression.",
     "Une approche de survie calme et structurée préserve l'énergie et vous permet de vous échapper plusieurs fois par tour sans vous gazer.",
     "La capacité de survivre sous une forte pression distingue les grapplers intermédiaires des grapplers avancés."

@@ -7,7 +7,7 @@
   "aliases": [
     "berimbolo",
     "inversion back take",
-    "berimbolo guard"
+    "berimbolo Guard"
   ],
   "tags": [
     "tier:modern-expansion",
@@ -26,11 +26,11 @@
   "modernSystemGroup": "x_guard",
   "relatedSkills": [
     {
-      "id": "coyote-half-guard",
+      "id": "coyote-half-Guard",
       "type": "chain"
     },
     {
-      "id": "k-guard-to-outside-ashi",
+      "id": "k-Guard-to-outside-ashi",
       "type": "alternative"
     }
   ],
@@ -40,7 +40,7 @@
   "relatedConcepts": [],
   "relatedConceptIds": [],
   "archetypeIds": [
-    "guard-retention-specialist"
+    "Guard-retention-specialist"
   ],
   "relatedArchetypeIds": [],
   "prerequisiteSkillIds": [],
@@ -49,7 +49,7 @@
   "searchBoost": 1,
   "keyCorrections": [
     "S'ils n'avancent pas : le berimbolo n'est pas disponible — restez en DLR/RDLR et sweep plutôt",
-    "S'ils reculent pour éviter l'inversion : lâchez l'accroche DLR et entrez en K-guard",
+    "S'ils reculent pour éviter l'inversion : lâchez l'accroche DLR et entrez en K-Guard",
     "S'ils vous suivent à travers l'inversion : ils défendent correctement — rentrez en guarde et réessayez"
   ],
   "version": 1,
@@ -99,7 +99,7 @@
       },
       {
         "condition": "Ils reculent pour éviter l'inversion",
-        "action": "lâchez l'accroche DLR et entrez en K-guard"
+        "action": "lâchez l'accroche DLR et entrez en K-Guard"
       },
       {
         "condition": "Ils vous suivent à travers l'inversion",
@@ -118,7 +118,7 @@
   ],
   "fixItFast": [
     "S'ils s'appuient sur une main pour bloquer la prise de dos : attaquez ce bras avec une kimura ou un armbar",
-    "S'ils reculent : relâchez et passez en K-guard entry",
+    "S'ils reculent : relâchez et passez en K-Guard entry",
     "Si vous calez au milieu de la roulade : tirez leur hanche plus fort — la traction manuelle est le moteur de l'inversion"
   ]
 }

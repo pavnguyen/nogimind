@@ -3,7 +3,7 @@
   "domain": "guard_offense",
   "level": "intermediate",
   "status": "draft",
-  "name": "Bạch tuộc guard Quét",
+  "name": "Octopus Guard Quét",
   "aliases": [],
   "tags": [
     "octopus",
@@ -12,7 +12,7 @@
     "tier:modern-expansion",
     "meta:modern-common",
     "risk:medium",
-    "family:guard",
+    "family:Guard",
     "group:octopus",
     "modern-no-gi"
   ],
@@ -24,7 +24,7 @@
   "modernSystemGroup": "octopus",
   "relatedSkills": [
     {
-      "id": "octopus-guard-control",
+      "id": "octopus-Guard-control",
       "type": "recommended"
     },
     {
@@ -44,8 +44,8 @@
   "archetypeIds": [],
   "relatedArchetypeIds": [],
   "prerequisiteSkillIds": [
-    "octopus-guard-control",
-    "half-guard-wrestle-up"
+    "octopus-Guard-control",
+    "half-Guard-wrestle-up"
   ],
   "trainingMethodIds": [],
   "nextSkillIds": [],
@@ -67,9 +67,9 @@
     "hasStateMachine": false
   },
   "locale": "vi",
-  "description": "Quét khỏi con bạch tuộc guard bằng cách kéo hông xa của đối phương qua góc ngồi của bạn khi họ đăng bài kém hoặc dồn trọng lượng về phía trước.",
+  "description": "Quét khỏi con Octopus Guard bằng cách kéo hông xa của đối phương qua góc ngồi của bạn khi họ đăng bài kém hoặc dồn trọng lượng về phía trước.",
   "shortInstruction": "Kéo hông xa, chặn chân gần, lái qua góc - quét chúng qua khung của bạn.",
-  "summary": "Cú quét bạch tuộc guard khai thác áp lực về phía trước của đối thủ khi họ cố gắng vượt qua. Khi họ dồn trọng lượng về phía trước, bạn kéo hông xa của họ ngang qua cơ thể của bạn đồng thời chặn chân gần của họ bằng khung của bạn. Sự kết hợp giữa việc kéo trọng lượng của chúng về phía trước và chặn chân đế của chúng tạo ra một lực xoay mạnh mẽ khiến chúng nằm ngửa. Cú quét này đặc biệt hiệu quả khi chống lại những đối thủ cố gắng đập nát con bạch tuộc guard của bạn bằng áp lực.",
+  "summary": "Cú quét Octopus Guard khai thác áp lực về phía trước của đối thủ khi họ cố gắng vượt qua. Khi họ dồn trọng lượng về phía trước, bạn kéo hông xa của họ ngang qua cơ thể của bạn đồng thời chặn chân gần của họ bằng khung của bạn. Sự kết hợp giữa việc kéo trọng lượng của chúng về phía trước và chặn chân đế của chúng tạo ra một lực xoay mạnh mẽ khiến chúng nằm ngửa. Cú quét này đặc biệt hiệu quả khi chống lại những đối thủ cố gắng đập nát con Octopus Guard của bạn bằng áp lực.",
   "whyItWorks": [
     "Khi họ cam kết vượt qua, trọng lượng của họ đã chuyển động - bạn chỉ cần chuyển hướng nó bằng động tác kéo hông.",
     "Việc chặn chân gần của họ bằng khung của bạn sẽ loại bỏ khả năng đăng bài của họ khỏi vòng quét.",
@@ -79,14 +79,14 @@
   "commonMistakes": [
     "Kéo hông mà không chặn chân gần - họ sẽ chỉ cần bước và đăng ra khỏi cuộc quét.",
     "Chỉ kéo bằng cánh tay thay vì sử dụng động tác xoay toàn thân - lực quét xuất phát từ hông chứ không phải cánh tay.",
-    "Cố gắng quét khi chúng có nền tảng tốt (trở lại trọng lượng) - quét bạch tuộc đòi hỏi áp lực về phía trước.",
+    "Cố gắng quét khi chúng có nền tảng tốt (trở lại trọng lượng) - quét Octopus đòi hỏi áp lực về phía trước.",
     "Buông dây quấn ở xa hông trong quá trình quét - bạn cần dây quấn để điều khiển chuyển động quay của chúng."
   ],
   "coachingCues": [
     "Kéo hông, chặn chân, lái qua.",
     "Cảm nhận được trọng lượng của họ - đó là yếu tố kích hoạt bạn.",
     "Quét là một vòng quay, không phải là nâng.",
-    "Nếu chúng nhẹ với bạn, đòn quét bạch tuộc sẽ không có tác dụng - hãy chuyển sang đòn tấn công khác."
+    "Nếu chúng nhẹ với bạn, đòn quét Octopus sẽ không có tác dụng - hãy chuyển sang đòn tấn công khác."
   ],
   "safetySummary": [
     "Không xoay hông hoặc lưng dưới của họ khi kéo quét - sử dụng chuyển động xoay có kiểm soát chứ không phải mô-men xoắn.",
@@ -94,14 +94,14 @@
     "Khi chúng tiếp đất, hãy bảo vệ đôi chân của bạn khỏi bị mắc kẹt dưới sức nặng của chúng."
   ],
   "systemLogic": {
-    "corePrinciple": "Octopus guard đã thiết lập quyền kiểm soát → đối thủ tiến về phía trước → kéo hông xa ngang cơ thể → chặn chân gần bằng khung → xoay chúng qua khung của bạn → tiếp đất ở side control hoặc mount.",
+    "corePrinciple": "Octopus Guard đã thiết lập quyền kiểm soát → đối thủ tiến về phía trước → kéo hông xa ngang cơ thể → chặn chân gần bằng khung → xoay chúng qua khung của bạn → tiếp đất ở Side Control hoặc Mount.",
     "decisionTree": [
       {
         "condition": "Ứng dụng chung",
         "action": "Nếu bị cản trở, hãy quét bằng cách kéo lại, thay vào đó hãy thả dây quấn ở xa hông và wrestle up."
       },
       {
-        "condition": "Quá trình quét bạch tuộc hoạt động tốt nhất khi",
+        "condition": "Quá trình quét Octopus hoạt động tốt nhất khi",
         "action": "họ nghĩ họ đang vượt, đà tiến về phía trước của họ là động cơ."
       }
     ],
@@ -111,12 +111,12 @@
     "Động tác kéo xa hông phải là động tác kéo xoay ngang ngực, không phải lực kéo thẳng về phía bạn.",
     "Chặn đầu gối gần của họ bằng chân trên của bạn khi bạn kéo - đây là điểm xoay của cú quét.",
     "Đẩy vai của bạn vào hông của họ khi bạn kéo - điều này sẽ tăng thêm lực quay khi quét.",
-    "Sau khi quét, ngay lập tức thiết lập side control hoặc knee-on-belly — đừng để chúng tranh giành lại."
+    "Sau khi quét, ngay lập tức thiết lập Side Control hoặc knee-on-belly — đừng để chúng tranh giành lại."
   ],
-  "nextStep": "Sau khi quét bạch tuộc, hãy học cách lùi lại từ bạch tuộc guard để tấn công những đối thủ bảo vệ pha quét.",
+  "nextStep": "Sau khi quét Octopus, hãy học cách lùi lại từ Octopus Guard để tấn công những đối thủ bảo vệ pha quét.",
   "fixItFast": [
     "Không thể kéo họ qua? Khối chân của bạn không đúng - hãy đảm bảo rằng chân của bạn đặt trên đầu gối gần đầu gối của họ chứ không phải đùi của họ.",
     "Họ đăng bài ra à? Quá trình quét quá chậm - kéo nhanh hơn và quay nhiều hơn.",
-    "Họ rút lui à? Thả guard và wrestle up — không đuổi theo đối thủ đang rút lui."
+    "Họ rút lui à? Thả Guard và wrestle up — không đuổi theo đối thủ đang rút lui."
   ]
 }

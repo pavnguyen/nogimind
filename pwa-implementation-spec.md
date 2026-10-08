@@ -165,7 +165,7 @@ function useOnlineStatus() {
 }
 ```
 
-- **Initial value:** Reads `navigator.onLine` synchronously with a `typeof` guard for SSR safety.
+- **Initial value:** Reads `navigator.onLine` synchronously with a `typeof` Guard for SSR safety.
 - **Reactivity:** Listens to `online`/`offline` events on `window`. The event listeners are cleaned up on unmount.
 - **Fallback:** Defaults to `true` when `navigator` is unavailable (shouldn't happen in this SPA, but safe).
 
@@ -593,7 +593,7 @@ Each test case includes **prerequisites** (what must be true before starting), *
 5. Navigate to `/concepts` — the concepts listing.
 6. Navigate to `/glossary` — the glossary page.
 7. Navigate to `/settings` — the settings page.
-8. Navigate to `/search?q=guard` — a search results page.
+8. Navigate to `/search?q=Guard` — a search results page.
 9. Navigate to `/positions` — the positions listing.
 10. Navigate to `/fix` — the fix hub page.
 11. Navigate to `/learn` — the learn page.
@@ -833,7 +833,7 @@ Each test case includes **prerequisites** (what must be true before starting), *
    - Click a skill card to open its detail page.
    - Switch between Learn/Fix/Video tabs on the skill detail page.
    - Navigate to `/settings` and interact with the Install App button (if applicable).
-   - Search for a term in the search bar (`/search?q=guard`).
+   - Search for a term in the search bar (`/search?q=Guard`).
    - Switch languages.
    - Navigate to `/glossary`, `/concepts`, `/positions`, `/fix`, `/build`, `/learn`.
 3. Go offline (via DevTools Network tab) and repeat navigation to at least 3 routes.

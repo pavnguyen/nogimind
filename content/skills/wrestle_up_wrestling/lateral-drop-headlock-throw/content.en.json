@@ -2,8 +2,8 @@
   "id": "lateral-drop-headlock-throw",
   "locale": "en",
   "name": "Lateral Drop / Headlock Throw",
-  "description": "The lateral drop is a hip-throw entry from a headlock or overhook. You use your hips as the fulcrum to rotate the opponent over your body and onto the mat. In BJJ, the key is landing in a dominant position (side control or mount) rather than following them to the mat.",
-  "shortInstruction": "Secure headlock/overhook, step inside their leg line, drop hips below theirs, rotate shoulders away, and land in mount or side control.",
+  "description": "The lateral drop is a hip-throw entry from a headlock or overhook. You use your hips as the fulcrum to rotate the opponent over your body and onto the mat. In BJJ, the key is landing in a dominant position (Side Control or Mount) rather than following them to the mat.",
+  "shortInstruction": "Secure headlock/overhook, step inside their leg line, drop hips below theirs, rotate shoulders away, and land in Mount or Side Control.",
   "summary": "The lateral drop throw uses your hips as the fulcrum to rotate the opponent over your body from a headlock. The key BJJ adaptation is staying on your feet to land in a dominant position rather than following them to the mat.",
   "whyItWorks": [
     "The headlock controls their posture and prevents them from posting or backing out",
@@ -30,11 +30,11 @@
   ],
   "keyCorrections": [
     "If they block by posting the far arm: release the headlock and switch to double leg",
-    "If they back out of the headlock: circle to front headlock and snapdown",
-    "If they drop level to counter: pull them into guard and attack from bottom"
+    "If they back out of the headlock: circle to Front Headlock and snapdown",
+    "If they drop level to counter: pull them into Guard and attack from bottom"
   ],
   "systemLogic": {
-    "corePrinciple": "Lateral drop: secure headlock/overhook → step inside their leg line → drop hips below theirs (bend knees, not waist) → rotate shoulders away → they rotate over your hips → land in mount or side control.",
+    "corePrinciple": "Lateral drop: secure headlock/overhook → step inside their leg line → drop hips below theirs (bend knees, not waist) → rotate shoulders away → they rotate over your hips → land in Mount or Side Control.",
     "decisionTree": [
       {
         "condition": "They post the far arm to block the throw",
@@ -42,16 +42,16 @@
       },
       {
         "condition": "They back out of the headlock",
-        "action": "circle to front headlock and snapdown"
+        "action": "circle to Front Headlock and snapdown"
       },
       {
         "condition": "They drop level to counter",
-        "action": "pull them into guard and attack from bottom"
+        "action": "pull them into Guard and attack from bottom"
       }
     ],
     "exitStrategies": [
-      "If the throw fails and you are underneath, recover guard",
-      "If you land in their guard after throw attempt, stand and pass"
+      "If the throw fails and you are underneath, recover Guard",
+      "If you land in their Guard after throw attempt, stand and pass"
     ]
   },
   "moneyDetails": [
@@ -62,6 +62,6 @@
   "fixItFast": [
     "If they post the far arm: release and switch to single leg immediately",
     "If they sprawl: you are too slow — reset and set up the headlock with more control",
-    "If they pull guard during the throw: stay on your feet and pass instead of following"
+    "If they pull Guard during the throw: stay on your feet and pass instead of following"
   ]
 }

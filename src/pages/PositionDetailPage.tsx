@@ -50,57 +50,20 @@ export default function PositionDetailPage() {
         <Badge tone={position.status === 'critical' || position.status === 'dangerous' ? 'rose' : undefined} className={position.status !== 'critical' && position.status !== 'dangerous' ? 'hallmark-badge' : ''}>{t(`positionStatuses.${position.status}`)}</Badge>
       </div>
 
-      <SectionCard title={t('positions.learnStepByStep')}>
-        <div className="grid gap-3 md:grid-cols-2 xl:grid-cols-3">
-          {[
-            { title: t('positions.stepTitles.understand'), body: t('positions.whatIsTheGoal') },
-            { title: t('positions.stepTitles.survival'), body: t('positions.dangerToRecognize') },
-            { title: t('positions.stepTitles.skills'), body: t('positions.skillsStartHere') },
-            { title: t('positions.stepTitles.escapes'), body: t('positions.commonProblems') },
-            { title: t('positions.stepTitles.chains'), body: t('positions.whatToLearnNext') },
-          ].map((step, index) => (
-            <article key={step.title} className="rounded-lg border border-white/10 bg-slate-900/60 p-4">
-              <Badge className="hallmark-badge">{index + 1}</Badge>
-              <p className="mt-2 text-sm font-semibold text-white">{step.title}</p>
-              <p className="mt-2 text-sm leading-6 text-slate-400">{step.body}</p>
-            </article>
-          ))}
-        </div>
-      </SectionCard>
-
       <div className="grid gap-6 xl:grid-cols-2">
-        <SectionCard title={t('positions.whatIsTheGoal')}>
-          <ul className="space-y-2 text-sm leading-6 text-slate-300">
-            {getLocalizedArray(position.topPlayerGoals, language).slice(0, 4).map((item) => <li key={item}>{item}</li>)}
-          </ul>
-        </SectionCard>
-        <SectionCard title={t('positions.dangerToRecognize')}>
-          <ul className="space-y-2 text-sm leading-6 hallmark-text-caution">
-            {getLocalizedArray(position.dangerSignals, language).slice(0, 4).map((item) => <li key={item}>{item}</li>)}
-          </ul>
-        </SectionCard>
+        <ListCard title={t('positions.topGoals')} items={getLocalizedArray(position.topPlayerGoals, language)} />
+        <ListCard title={t('positions.dangerSignals')} items={getLocalizedArray(position.dangerSignals, language)} tone="danger" />
         <SectionCard title={t('positions.skillsStartHere')}>
           <SkillLinks ids={position.relatedSkillIds} skillsById={skillsById} lang={language} />
         </SectionCard>
         <SectionCard title={t('positions.skillsLeadHere')}>
           <SkillLinks ids={leadingSkills.map((skill) => skill.id)} skillsById={skillsById} lang={language} />
         </SectionCard>
-      </div>
-
-      <div className="grid gap-6 xl:grid-cols-2">
-        <SectionCard title={t('positions.commonProblems')}>
-          <ul className="space-y-2 text-sm leading-6 text-slate-300">
-            {getLocalizedArray(position.escapePriorities, language).slice(0, 4).map((item) => <li key={item}>{item}</li>)}
-          </ul>
-        </SectionCard>
-      </div>
-
-      <div className="grid gap-6 xl:grid-cols-2">
-        <ListCard title={t('positions.topGoals')} items={getLocalizedArray(position.topPlayerGoals, language)} />
         <ListCard title={t('positions.bottomGoals')} items={getLocalizedArray(position.bottomPlayerGoals, language)} />
         <ListCard title={t('positions.controlPoints')} items={getLocalizedArray(position.controlPoints, language)} />
         <ListCard title={t('positions.escapePriorities')} items={getLocalizedArray(position.escapePriorities, language)} />
       </div>
+
 
       <SectionCard title={t('positions.advancementOptions')}>
         <div className="grid gap-3 xl:grid-cols-2">
@@ -122,16 +85,11 @@ export default function PositionDetailPage() {
         </div>
       </SectionCard>
 
-      <ListCard title={t('positions.dangerSignals')} items={getLocalizedArray(position.dangerSignals, language)} tone="danger" />
-
       <SectionCard title={t('video.videoReferences')}>
         <PositionVideoReferencePanel skillIds={position.relatedSkillIds} />
       </SectionCard>
 
       <div className="grid gap-6 xl:grid-cols-2">
-        <SectionCard title={t('common.relatedSkills')}>
-          <SkillLinks ids={position.relatedSkillIds} skillsById={skillsById} lang={language} />
-        </SectionCard>
         <SectionCard title={t('concepts.relatedConcepts')}>
           <div className="flex flex-wrap gap-2">
             {position.relatedConceptIds.map((id) => conceptsById.get(id)).filter(Boolean).map((concept) => (
@@ -147,10 +105,11 @@ export default function PositionDetailPage() {
         title={t('positions.whatToLearnNext')}
         description={t('positions.nextStep')}
         items={[
-          position.relatedSkillIds[0]
-            ? { title: t('common.relatedSkills'), body: t('positions.skillsStartHere'), to: `/skills/${position.relatedSkillIds[0]}` }
-            : { title: t('common.relatedSkills'), body: t('positions.skillsStartHere'), to: '/skills' },
-          { title: t('troubleshooters.heading'), body: t('positions.commonProblems'), to: position.relatedSkillIds[0] ? `/troubleshooters/${position.relatedSkillIds[0]}` : '/troubleshooters' },
+          {
+            title: t('nav.defense'),
+            body: t('positions.commonProblems'),
+            to: '/defense',
+          },
         ]}
       />
     </PageShell>

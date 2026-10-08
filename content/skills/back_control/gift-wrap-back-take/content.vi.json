@@ -2,7 +2,7 @@
   "id": "gift-wrap-back-take",
   "locale": "vi",
   "name": "Gift Wrap / Đòn xoay lưng từ Arm Drag",
-  "description": "Gift wrap điều khiển một tay của họ bằng cách gập ra sau lưng, để tay kia tự do và lộ lưng họ. Từ side control, bạn bẫy tay xa và xoay ra sau.",
+  "description": "Gift wrap điều khiển một tay của họ bằng cách gập ra sau lưng, để tay kia tự do và lộ lưng họ. Từ Side Control, bạn bẫy tay xa và xoay ra sau.",
   "whyItWorks": [
     "Gập tay họ ra sau lưng tạo ra tay nắm kiểm soát vai — họ không thể xoay vào bạn hoặc chống đỡ",
     "Với một tay bị vô hiệu hóa, khả năng phòng thủ back take của họ giảm một nửa",
@@ -21,8 +21,8 @@
     "Xoay chặt, giữ kết nối",
     "Gift wrap là lối vào; back control là đích đến"
   ],
-  "shortInstruction": "Từ side control/mount, cô lập tay xa, gập ra sau lưng họ, bước chân qua đầu, xoay ra sau, thả gift wrap và thiết lập back control.",
-  "summary": "Gift wrap kiểm soát một tay đối thủ bằng cách gập ra sau lưng, vô hiệu hóa một nửa khả năng phòng thủ của họ. Từ side control, bạn bẫy tay xa, gập ra sau lưng và xoay ra sau để lên lưng.",
+  "shortInstruction": "Từ Side Control/Mount, cô lập tay xa, gập ra sau lưng họ, bước chân qua đầu, xoay ra sau, thả gift wrap và thiết lập back control.",
+  "summary": "Gift wrap kiểm soát một tay đối thủ bằng cách gập ra sau lưng, vô hiệu hóa một nửa khả năng phòng thủ của họ. Từ Side Control, bạn bẫy tay xa, gập ra sau lưng và xoay ra sau để lên lưng.",
   "safetySummary": [
     "Khi gập tay ra sau lưng, làm từ từ — đừng kéo mạnh vì có thể gây đau vai",
     "Nếu họ kháng cự mạnh, thả và chọn lối vào khác thay vì cố ép",
@@ -31,10 +31,10 @@
   "keyCorrections": [
     "Nếu họ kéo tay về: kéo khuỷu tay họ ra và thử lại với kiểm soát chặt hơn",
     "Nếu họ xoay vào bạn: thả gift wrap và chuyển sang kimura hoặc americana",
-    "Nếu họ đạp bạn ra: giữ tay và kéo họ trở lại vào side control"
+    "Nếu họ đạp bạn ra: giữ tay và kéo họ trở lại vào Side Control"
   ],
   "moneyDetails": [
-    "Gift wrap là một trong những lối vào back take đáng tin cậy nhất từ side control",
+    "Gift wrap là một trong những lối vào back take đáng tin cậy nhất từ Side Control",
     "Vô hiệu hóa một tay làm giảm đáng kể khả năng phòng thủ back take của đối thủ",
     "Kết hợp gift wrap với back take là chuỗi đòn cơ bản của BJJ đẳng cấp cao"
   ],
@@ -44,7 +44,7 @@
     "Nếu họ đạp bạn ra: giữ tay và kéo họ lại — đừng để mất kết nối"
   ],
   "systemLogic": {
-    "corePrinciple": "Gift wrap back take: side control/mount → cô lập tay xa → gập ra sau lưng → bước chân qua đầu → xoay ra sau → thả gift wrap → thiết lập back control.",
+    "corePrinciple": "Gift wrap back take: Side Control/Mount → cô lập tay xa → gập ra sau lưng → bước chân qua đầu → xoay ra sau → thả gift wrap → thiết lập back control.",
     "decisionTree": [
       {
         "condition": "Họ kéo tay về",
@@ -56,12 +56,12 @@
       },
       {
         "condition": "Họ đạp bạn ra",
-        "action": "giữ tay và kéo họ trở lại side control"
+        "action": "giữ tay và kéo họ trở lại Side Control"
       }
     ],
     "exitStrategies": [
-      "Nếu không thể lên lưng, giữ side control và chuyển sang đòn khác",
-      "Nếu họ lật bạn trong lúc xoay, kéo guard và reset"
+      "Nếu không thể lên lưng, giữ Side Control và chuyển sang đòn khác",
+      "Nếu họ lật bạn trong lúc xoay, kéo Guard và reset"
     ]
   }
 }

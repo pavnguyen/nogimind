@@ -1,10 +1,10 @@
 {
-  "id": "z-guard",
+  "id": "z-Guard",
   "locale": "vi",
   "title": "Z-Guard (93 Guard)",
   "category": "bottom_guard",
   "status": "defensive",
-  "description": "Z-guard là knee shield deep half guard, dùng shin và underhook để chặn crossface và tạo wrestle-up.",
+  "description": "Z-Guard là knee shield deep Half Guard, dùng shin và underhook để chặn crossface và tạo wrestle-up.",
   "topPlayerGoals": [
     "Người ở trên muốn kiểm soát Z-Guard (93 Guard) bằng vị trí đầu, vị trí trong và áp lực có hướng.",
     "Smash knee shield, ép crossface và flatten hip line.",
@@ -30,9 +30,9 @@
       "action": "Thắng underhook để lên dogfight",
       "nextPositionId": "dogfight",
       "relatedSkillIds": [
-        "z-guard-sweeps",
-        "half-guard-knee-shield",
-        "half-guard-wrestle-up"
+        "z-Guard-sweeps",
+        "half-Guard-knee-shield",
+        "half-Guard-wrestle-up"
       ],
       "why": "Đây là nhánh tự nhiên khi bạn thắng điểm kiểm soát chính và đối thủ buộc phải phòng thủ."
     }
@@ -44,9 +44,9 @@
     "Bạn phải chống tay dài để không ngã."
   ],
   "relatedSkillIds": [
-    "z-guard-sweeps",
-    "half-guard-knee-shield",
-    "half-guard-wrestle-up",
+    "z-Guard-sweeps",
+    "half-Guard-knee-shield",
+    "half-Guard-wrestle-up",
     "side-control-escape"
   ],
   "relatedConceptIds": [

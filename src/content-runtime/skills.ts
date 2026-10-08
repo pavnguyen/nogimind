@@ -4,6 +4,8 @@
  * matching the Zod-generated artifact exactly.
  */
 
+import type { MicroDetailSystemContent, QualityChecklistContent } from '../types/content'
+
 export interface FeatureFlags {
   hasMicroDetails: boolean
   hasChecklist: boolean
@@ -42,6 +44,8 @@ export interface SkillDetail {
   commonMistakes: string[]
   fixItFast: string[]
   safetySummary: string[]
+  microDetailSystem?: MicroDetailSystemContent
+  qualityChecklist?: QualityChecklistContent
 
   // Feature flags
   featureFlags: FeatureFlags

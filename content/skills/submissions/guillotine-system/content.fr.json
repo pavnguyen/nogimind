@@ -1,15 +1,15 @@
 {
-  "id": "guillotine-system",
+  "id": "Guillotine-system",
   "locale": "fr",
-  "name": "guillotine Système",
-  "description": "Créez des menaces d'étranglement guillotine à partir de front headlock, guard et des brouillages – en donnant la priorité à l'angle, à la profondeur du poignet et à la sécurité du cou plutôt qu'à la force brute.",
-  "shortInstruction": "Poignet profond, coude serré, coupez l'angle, serrez - le guillotine est une position, pas seulement une prise.",
-  "summary": "Le guillotine est le starter front headlock le plus accessible et le premier starter que la plupart des praticiens BJJ apprennent. Le système comprend plusieurs variantes : le bras entrant standard guillotine (à partir de guard), le bras sortant guillotine (à partir de front headlock), le poignet haut guillotine (pour une pénétration plus profonde du cou) et la Marcelotine (variation No-Gi de Marcelo Garcia). Le principe clé de toutes les variantes est que le guillotine est une position : vous devez contrôler leur posture et créer l'angle avant de serrer.",
+  "name": "Guillotine Système",
+  "description": "Créez des menaces d'étranglement Guillotine à partir de Front Headlock, Guard et des brouillages – en donnant la priorité à l'angle, à la profondeur du poignet et à la sécurité du cou plutôt qu'à la force brute.",
+  "shortInstruction": "Poignet profond, coude serré, coupez l'angle, serrez - le Guillotine est une position, pas seulement une prise.",
+  "summary": "Le Guillotine est le starter Front Headlock le plus accessible et le premier starter que la plupart des praticiens BJJ apprennent. Le système comprend plusieurs variantes : le bras entrant standard Guillotine (à partir de Guard), le bras sortant Guillotine (à partir de Front Headlock), le poignet haut Guillotine (pour une pénétration plus profonde du cou) et la Marcelotine (variation No-Gi de Marcelo Garcia). Le principe clé de toutes les variantes est que le Guillotine est une position : vous devez contrôler leur posture et créer l'angle avant de serrer.",
   "whyItWorks": [
-    "Le guillotine attaque le cou par l'avant, là où la tête et la posture de la plupart des adversaires créent une entrée naturelle pour l'étranglement.",
-    "Il est disponible depuis presque toutes les positions : front headlock, guard, brouillages et retraits ratés.",
-    "La variation d'armement (à partir de guard) les empêche de se positionner et rend le starter plus serré.",
-    "Principe de Danaher : le guillotine est un étranglement « position d'abord, soumission ensuite » : contrôlez leur posture, puis attaquez."
+    "Le Guillotine attaque le cou par l'avant, là où la tête et la posture de la plupart des adversaires créent une entrée naturelle pour l'étranglement.",
+    "Il est disponible depuis presque toutes les positions : Front Headlock, Guard, brouillages et retraits ratés.",
+    "La variation d'armement (à partir de Guard) les empêche de se positionner et rend le starter plus serré.",
+    "Principe de Danaher : le Guillotine est un étranglement « position d'abord, soumission ensuite » : contrôlez leur posture, puis attaquez."
   ],
   "commonMistakes": [
     "Presser avant de contrôler sa posture – un adversaire en posture peut soulager la pression en se tenant debout.",
@@ -21,12 +21,12 @@
     "Poignet profond, coude serré, angle vif, pression.",
     "Si vous pouvez voir leur dos, votre angle est mauvais – coupez davantage l’angle.",
     "Armer c'est contrôler, armer c'est accélérer – choisissez judicieusement.",
-    "Le guillotine est un combat pour la posture : gagner la posture, gagner l'étranglement."
+    "Le Guillotine est un combat pour la posture : gagner la posture, gagner l'étranglement."
   ],
   "safetySummary": [
-    "Le guillotine comprime le cou – appliquez progressivement et relâchez au robinet.",
-    "Ne lancez pas la tête de l'adversaire vers l'avant - un guillotine propre est un étranglement sanguin, pas une manivelle du cou.",
-    "Tapez tôt si vous ressentez une pression sur votre colonne cervicale : certaines variations de guillotine peuvent provoquer des blessures au cou."
+    "Le Guillotine comprime le cou – appliquez progressivement et relâchez au robinet.",
+    "Ne lancez pas la tête de l'adversaire vers l'avant - un Guillotine propre est un étranglement sanguin, pas une manivelle du cou.",
+    "Tapez tôt si vous ressentez une pression sur votre colonne cervicale : certaines variations de Guillotine peuvent provoquer des blessures au cou."
   ],
   "keyCorrections": [
     "Si vous ne parvenez pas à terminer, votre angle est trop carré : faites un pas de côté et coupez l'angle.",
@@ -34,19 +34,19 @@
     "Si votre poignet est peu profond, saisissez-le plus profondément – ​​le bras qui s'étouffe doit être aussi profond que possible sur le cou."
   ],
   "systemLogic": {
-    "corePrinciple": "front headlock ou guard : sécuriser la prise de guillotine (poignet profond, coude serré) → couper l'angle (pas sur le côté) → serrer avec la poitrine et les bras.",
+    "corePrinciple": "Front Headlock ou Guard : sécuriser la prise de Guillotine (poignet profond, coude serré) → couper l'angle (pas sur le côté) → serrer avec la poitrine et les bras.",
     "decisionTree": [
       {
-        "condition": "À partir du guard : activation du guillotine",
+        "condition": "À partir du Guard : activation du Guillotine",
         "action": "baissez la tête avec les jambes → coupez l'angle → terminez."
       },
       {
-        "condition": "De FHL : armement guillotine",
+        "condition": "De FHL : armement Guillotine",
         "action": "cercle sur le côté → laisser tomber le poids → terminer."
       },
       {
-        "condition": "ils défendent le guillotine",
-        "action": "transition vers d'arce ou anaconda — les trois forment une chaîne front headlock."
+        "condition": "ils défendent le Guillotine",
+        "action": "transition vers d'arce ou anaconda — les trois forment une chaîne Front Headlock."
       }
     ]
   },
@@ -56,7 +56,7 @@
     "Coupez l’angle en vous plaçant sur le côté de la tête – un angle de 45 degrés est idéal.",
     "Pressez avec votre poitrine et votre épaule, pas seulement avec vos bras – la pression sur la poitrine crée un étranglement plus serré."
   ],
-  "nextStep": "Après le système guillotine, apprenez les variations du poignet haut guillotine et Marcelotine.",
+  "nextStep": "Après le système Guillotine, apprenez les variations du poignet haut Guillotine et Marcelotine.",
   "fixItFast": [
     "Le poignet est trop superficiel ? Glissez plus profondément – ​​le poignet doit être au niveau de la colonne vertébrale et non de la peau.",
     "Ils continuent à faire des postures ? Avancez plus loin sur le côté – l’angle brise leur posture.",

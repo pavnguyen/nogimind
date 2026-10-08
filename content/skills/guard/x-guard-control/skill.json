@@ -1,23 +1,23 @@
 {
-  "id": "x-guard-control",
+  "id": "x-Guard-control",
   "domain": "guard_offense",
   "level": "intermediate",
   "name": "X-Guard Control",
   "aliases": [],
   "tags": [
-    "x-guard",
-    "guard",
+    "x-Guard",
+    "Guard",
     "sweep",
     "off-balance",
     "tier:modern-expansion",
     "meta:modern-common",
     "risk:medium",
-    "family:guard",
-    "group:x-guard",
+    "family:Guard",
+    "group:x-Guard",
     "modern-no-gi"
   ],
   "keywords": [
-    "x-guard",
+    "x-Guard",
     "foot on hip",
     "off-balance",
     "leg wrap"
@@ -29,17 +29,17 @@
       "type": "recommended"
     },
     {
-      "id": "k-guard-matrix",
+      "id": "k-Guard-matrix",
       "type": "recommended"
     },
     {
-      "id": "guard-pulling-strategy",
+      "id": "Guard-pulling-strategy",
       "type": "recommended"
     }
   ],
   "prerequisiteSkillIds": [
-    "supine-guard-retention",
-    "seated-guard-retention"
+    "supine-Guard-retention",
+    "seated-Guard-retention"
   ],
   "relatedPositions": [],
   "relatedConcepts": [],

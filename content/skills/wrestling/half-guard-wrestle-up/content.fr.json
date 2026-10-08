@@ -1,14 +1,14 @@
 {
-  "id": "half-guard-wrestle-up",
+  "id": "half-Guard-wrestle-up",
   "locale": "fr",
-  "name": "half guard Lutte",
-  "description": "Transformez half guard de la défense en une seule jambe lorsque vous gagnez le underhook ou l'angle de la hanche. La lutte est la transition offensive de la plus haute valeur depuis half guard : elle convertit une position défensive en une opportunité de retrait.",
-  "shortInstruction": "Gagnez le underhook, créez un angle de hanche, postez sur votre pied extérieur et conduisez vers une seule jambe. S'ils résistent à la jambe unique, arrivez à un front headlock.",
-  "summary": "La lutte half guard transforme half guard d'une épingle défensive en une entrée de retrait offensif. La séquence est la suivante : gagnez le underhook → tournez-vous pour leur faire face → placez votre pied extérieur → conduisez vers une seule jambe. La lutte fonctionne car elle surprend l'adversaire dans la transition entre la passe et l'épinglage – il n'est pas pleinement engagé dans l'un ou l'autre, ce qui le rend vulnérable au redressement soudain.",
+  "name": "Half Guard Lutte",
+  "description": "Transformez Half Guard de la défense en une seule jambe lorsque vous gagnez le underhook ou l'angle de la hanche. La lutte est la transition offensive de la plus haute valeur depuis Half Guard : elle convertit une position défensive en une opportunité de retrait.",
+  "shortInstruction": "Gagnez le underhook, créez un angle de hanche, postez sur votre pied extérieur et conduisez vers une seule jambe. S'ils résistent à la jambe unique, arrivez à un Front Headlock.",
+  "summary": "La lutte Half Guard transforme Half Guard d'une épingle défensive en une entrée de retrait offensif. La séquence est la suivante : gagnez le underhook → tournez-vous pour leur faire face → placez votre pied extérieur → conduisez vers une seule jambe. La lutte fonctionne car elle surprend l'adversaire dans la transition entre la passe et l'épinglage – il n'est pas pleinement engagé dans l'un ou l'autre, ce qui le rend vulnérable au redressement soudain.",
   "whyItWorks": [
     "Le underhook vous donne le contrôle du haut du corps – il ne peut pas crossface ni vous aplatir lorsque vous êtes debout.",
     "Créer un angle de hanche (en vous tournant pour leur faire face) aligne votre corps pour vous lever - vous avancez, pas sur le côté",
-    "L'entrée en une seule étape de half guard est inattendue : la plupart des adversaires s'attendent à un balayage, pas à un retrait.",
+    "L'entrée en une seule étape de Half Guard est inattendue : la plupart des adversaires s'attendent à un balayage, pas à un retrait.",
     "Une lutte ratée revient souvent au neutre plutôt que de vous laisser dans une pire situation."
   ],
   "commonMistakes": [
@@ -24,17 +24,17 @@
     "S'engager ou ne pas démarrer"
   ],
   "safetySummary": [
-    "Ne vous levez pas avec le dos droit : cela expose votre cou aux guillotine et votre dos aux retraits.",
-    "Si l'adversaire sprawl est en lutte, revenez à guard plutôt que de combattre le sprawl.",
-    "Faites attention à la tension du genou lorsque vous postez à partir du half guard : le pied extérieur doit être fermement planté."
+    "Ne vous levez pas avec le dos droit : cela expose votre cou aux Guillotine et votre dos aux retraits.",
+    "Si l'adversaire sprawl est en lutte, revenez à Guard plutôt que de combattre le sprawl.",
+    "Faites attention à la tension du genou lorsque vous postez à partir du Half Guard : le pied extérieur doit être fermement planté."
   ],
   "keyCorrections": [
     "S'ils vous aplatissent pendant la lutte : vous avez perdu le underhook — frappez à nouveau avant de réessayer",
-    "Si vous ne trouvez pas la jambe unique : ils ont posté la jambe en arrière – passez au front headlock en utilisant le underhook",
-    "S'ils vous guillotine : votre tête était trop haute – gardez votre front contre leur mâchoire lorsque vous vous levez"
+    "Si vous ne trouvez pas la jambe unique : ils ont posté la jambe en arrière – passez au Front Headlock en utilisant le underhook",
+    "S'ils vous Guillotine : votre tête était trop haute – gardez votre front contre leur mâchoire lorsque vous vous levez"
   ],
   "systemLogic": {
-    "corePrinciple": "La lutte half guard comporte quatre phases : underhook → Angle de la hanche → Debout → Une seule jambe",
+    "corePrinciple": "La lutte Half Guard comporte quatre phases : underhook → Angle de la hanche → Debout → Une seule jambe",
     "decisionTree": [
       {
         "condition": "En phase 1 (underhook)",
@@ -54,13 +54,13 @@
       },
       {
         "condition": "la jambe échoue",
-        "action": "passez au front headlock en utilisant votre poignée underhook pour les enfoncer"
+        "action": "passez au Front Headlock en utilisant votre poignée underhook pour les enfoncer"
       }
     ]
   },
   "moneyDetails": [
-    "La lutte half guard est la transition la plus rentable depuis half guard : elle marque 2 points de retrait et vous place au sommet.",
-    "Maîtriser la lutte vous offre une troisième option à partir de half guard (balayage, soumission ou lutte)",
+    "La lutte Half Guard est la transition la plus rentable depuis Half Guard : elle marque 2 points de retrait et vous place au sommet.",
+    "Maîtriser la lutte vous offre une troisième option à partir de Half Guard (balayage, soumission ou lutte)",
     "Le catch-up est particulièrement efficace contre les passeurs de pression qui engagent du poids vers l'avant"
   ],
   "fixItFast": [

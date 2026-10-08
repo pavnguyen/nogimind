@@ -3,12 +3,12 @@
   "locale": "vi",
   "name": "Kiểm soát đầu gối trên bụng",
   "description": "Sử dụng đầu gối đặt trên bụng và tay nắm xa hông để kiểm soát, chuyển tiếp nhanh chóng và mở đầu bài. knee-on-belly là chốt di động nhất — nó hy sinh một số quyền kiểm soát để có khả năng chuyển đổi nhanh hơn bất kỳ vị trí nào khác.",
-  "shortInstruction": "Đẩy đầu gối của bạn vào xương ức hoặc đám rối thần kinh mặt trời của họ, nắm chặt hông hoặc cổ áo ở xa của họ và sẵn sàng chuyển sang mount, side control hoặc north-south. Đừng để chúng bẫy chân bạn.",
-  "summary": "knee-on-belly sử dụng đầu gối của bạn làm điểm áp lực chính, tạo ra sự khó chịu buộc đối phương phải phản ứng, để lộ sơ hở để phục tùng hoặc chuyển đổi. Điều quan trọng là khả năng di chuyển — chân tự do của bạn và tay cầm xa bằng hông cho phép bạn vòng quanh đối thủ nhanh hơn so với từ side control hoặc mount. knee-on-belly là chốt chuyển tiếp, không phải là vị trí nghỉ.",
+  "shortInstruction": "Đẩy đầu gối của bạn vào xương ức hoặc đám rối thần kinh mặt trời của họ, nắm chặt hông hoặc cổ áo ở xa của họ và sẵn sàng chuyển sang Mount, Side Control hoặc north-south. Đừng để chúng bẫy chân bạn.",
+  "summary": "knee-on-belly sử dụng đầu gối của bạn làm điểm áp lực chính, tạo ra sự khó chịu buộc đối phương phải phản ứng, để lộ sơ hở để phục tùng hoặc chuyển đổi. Điều quan trọng là khả năng di chuyển — chân tự do của bạn và tay cầm xa bằng hông cho phép bạn vòng quanh đối thủ nhanh hơn so với từ Side Control hoặc Mount. knee-on-belly là chốt chuyển tiếp, không phải là vị trí nghỉ.",
   "whyItWorks": [
     "Áp lực đầu gối lên xương ức/đám rối thần kinh mặt trời tạo ra sự khó chịu và hạn chế hô hấp buộc đối phương phải phản ứng",
     "Tay nắm xa hông (hoặc tay nắm cổ) giúp bạn kiểm soát cấu trúc - bạn có thể kéo chúng về phía mình trong khi di chuyển đầu gối",
-    "Chân còn lại trên thảm mang lại khả năng di chuyển tức thì — bạn có thể chuyển sang mount, side control, north-south hoặc phía sau mà không cần định vị lại",
+    "Chân còn lại trên thảm mang lại khả năng di chuyển tức thì — bạn có thể chuyển sang Mount, Side Control, north-south hoặc phía sau mà không cần định vị lại",
     "knee-on-belly là ghim duy nhất không yêu cầu tiếp xúc toàn thân — điều này lý tưởng cho việc chuyển đổi nhanh chóng"
   ],
   "commonMistakes": [
@@ -34,15 +34,15 @@
     "Nếu họ trốn thoát trước khi bạn kịp phản ứng: bạn đã ở lại quá lâu - hãy cam kết chuyển đổi sớm hơn"
   ],
   "systemLogic": {
-    "corePrinciple": "knee-on-belly được tổ chức như một trung tâm chuyển tiếp với bốn nhánh: mount → side control → north-south → Quay lại",
+    "corePrinciple": "knee-on-belly được tổ chức như một trung tâm chuyển tiếp với bốn nhánh: Mount → Side Control → north-south → Quay lại",
     "decisionTree": [
       {
-        "condition": "Sử dụng Nhánh 1 (mount)",
-        "action": "trượt đầu gối của bạn ra khỏi bụng họ và bước qua cánh tay gần của họ tới mount. Giữ tay cầm ở xa hông để kéo chúng về phía bạn khi bạn bước vào mount"
+        "condition": "Sử dụng Nhánh 1 (Mount)",
+        "action": "trượt đầu gối của bạn ra khỏi bụng họ và bước qua cánh tay gần của họ tới Mount. Giữ tay cầm ở xa hông để kéo chúng về phía bạn khi bạn bước vào Mount"
       },
       {
-        "condition": "Sử dụng Nhánh 2 (side control)",
-        "action": "thả đầu gối của bạn xuống tấm thảm cạnh hông họ và trượt vào side control. Duy trì áp lực từ ngực đến ngực"
+        "condition": "Sử dụng Nhánh 2 (Side Control)",
+        "action": "thả đầu gối của bạn xuống tấm thảm cạnh hông họ và trượt vào Side Control. Duy trì áp lực từ ngực đến ngực"
       },
       {
         "condition": "Sử dụng Nhánh 3 (north-south)",
@@ -54,12 +54,12 @@
       },
       {
         "condition": "Hướng dẫn quyết định",
-        "action": "nếu họ giữ nguyên → tấn công hoặc chuyển sang mount. Nếu họ quay đi → lùi lại. Nếu họ mắc kẹt chân → thoát khỏi đòn tấn công và tái lập"
+        "action": "nếu họ giữ nguyên → tấn công hoặc chuyển sang Mount. Nếu họ quay đi → lùi lại. Nếu họ mắc kẹt chân → thoát khỏi đòn tấn công và tái lập"
       }
     ]
   },
   "moneyDetails": [
-    "knee-on-belly ghi được 2 điểm trong IBJJF — đây là cách ghi điểm nhanh nhất từ ​​side control",
+    "knee-on-belly ghi được 2 điểm trong IBJJF — đây là cách ghi điểm nhanh nhất từ ​​Side Control",
     "knee-on-belly là đòn ghim đe dọa nhất đối với đối thủ vì cảm giác khó chịu ngay lập tức buộc họ phải phản ứng có thể đoán trước được",
     "Việc nắm vững các chuyển đổi knee-on-belly mang đến cho bạn trò chơi hàng đầu trên thiết bị di động nhất trong BJJ"
   ],

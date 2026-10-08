@@ -35,13 +35,13 @@
     "ankle-lock",
     "knee-bar",
     "saddle-system",
-    "single-leg-x-guard",
+    "single-leg-x-Guard",
     "aoki-lock"
   ],
   "relatedPositions": [],
   "relatedPositionIds": [
     "single-leg-x",
-    "50-50-guard",
+    "50-50-Guard",
     "saddle",
     "ashi-garami"
   ],
@@ -54,11 +54,11 @@
   ],
   "archetypeIds": [
     "leg-lock-specialist",
-    "guard-player",
+    "Guard-player",
     "modern-no-gi"
   ],
   "prerequisiteSkillIds": [
-    "single-leg-x-guard",
+    "single-leg-x-Guard",
     "saddle-system",
     "heel-hook"
   ],

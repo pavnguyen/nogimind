@@ -1,22 +1,22 @@
 {
-  "id": "guard-pulling-strategy",
+  "id": "Guard-pulling-strategy",
   "domain": "positional_awareness",
   "level": "intermediate",
   "name": "Guard Pulling Strategy",
   "aliases": [],
   "tags": [
     "strategy",
-    "guard"
+    "Guard"
   ],
   "keywords": [
-    "guard pulling",
+    "Guard pulling",
     "shin-to-shin",
-    "K-guard",
+    "K-Guard",
     "wrestle-up"
   ],
   "relatedSkills": [
     {
-      "id": "seated-guard-retention",
+      "id": "seated-Guard-retention",
       "type": "recommended"
     },
     {
@@ -24,7 +24,7 @@
       "type": "recommended"
     },
     {
-      "id": "k-guard-entry",
+      "id": "k-Guard-entry",
       "type": "recommended"
     }
   ],

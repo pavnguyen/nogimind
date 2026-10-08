@@ -12,7 +12,7 @@
     "meta:modern-common",
     "risk:high",
     "family:submission",
-    "group:clamp-guard",
+    "group:clamp-Guard",
     "modern-no-gi"
   ],
   "keywords": [
@@ -31,13 +31,13 @@
       "type": "recommended"
     },
     {
-      "id": "clamp-guard-control",
+      "id": "clamp-Guard-control",
       "type": "recommended"
     }
   ],
   "prerequisiteSkillIds": [
     "kimura-system",
-    "clamp-guard-control"
+    "clamp-Guard-control"
   ],
   "relatedPositions": [],
   "relatedConcepts": [],

@@ -3,10 +3,10 @@
   "domain": "escapes",
   "level": "intermediate",
   "status": "draft",
-  "name": "Bắc Nam thoát hiểm",
+  "name": "North-South Control thoát hiểm",
   "aliases": [
     "north-south pin escape",
-    "north-south guard recovery"
+    "north-south Guard recovery"
   ],
   "tags": [
     "escape",
@@ -28,7 +28,7 @@
       "type": "recommended"
     },
     {
-      "id": "mount-escape",
+      "id": "Mount-escape",
       "type": "recommended"
     },
     {
@@ -62,14 +62,14 @@
     "hasStateMachine": false
   },
   "locale": "vi",
-  "description": "Thoát khỏi vị trí north-south bằng cách tạo khung, lao vào đối thủ và phục hồi guard hoặc đứng lên.",
-  "shortInstruction": "Đặt khung ở hông, chèn knee shield, quay về phía đối thủ và thu hồi guard hoặc wrestle up.",
-  "summary": "north-south lối thoát sử dụng khung cẳng tay ở hông để tạo sự tách biệt, sau đó knee shield để biến thành đối thủ và hồi phục guard. Hệ thống này khác với side control trốn thoát vì trọng lượng của đối thủ được căn dọc theo đường tâm của bạn thay vì vuông góc với nó.",
+  "description": "Thoát khỏi vị trí north-south bằng cách tạo khung, lao vào đối thủ và phục hồi Guard hoặc đứng lên.",
+  "shortInstruction": "Đặt khung ở hông, chèn knee shield, quay về phía đối thủ và thu hồi Guard hoặc wrestle up.",
+  "summary": "north-south lối thoát sử dụng khung cẳng tay ở hông để tạo sự tách biệt, sau đó knee shield để biến thành đối thủ và hồi phục Guard. Hệ thống này khác với Side Control trốn thoát vì trọng lượng của đối thủ được căn dọc theo đường tâm của bạn thay vì vuông góc với nó.",
   "whyItWorks": [
     "Chốt north-south nén thân dọc theo đường giữa — khung cẳng tay ở hông chuyển hướng trọng lượng của chúng ra khỏi xương sườn của bạn",
     "Biến thành đối thủ (thay vì tránh xa) sử dụng cấu trúc xương mạnh nhất của bạn để chống lại áp lực từ ngực của họ",
     "knee shield tạo ra một rào cản cấu trúc ngăn chúng thiết lập lại chốt sau khi bạn tạo khoảng trống",
-    "north-south là một vị trí chuyển tiếp — một lối thoát đúng lúc sẽ ngăn cản họ thiết lập nó như một chốt và buộc họ phải phục hồi về side control hoặc đứng lên"
+    "north-south là một vị trí chuyển tiếp — một lối thoát đúng lúc sẽ ngăn cản họ thiết lập nó như một chốt và buộc họ phải phục hồi về Side Control hoặc đứng lên"
   ],
   "commonMistakes": [
     "Cố gắng ép đối thủ từ tư thế nằm ngửa - điều này gây lãng phí năng lượng so với lợi thế về trọng lượng của họ",
@@ -88,7 +88,7 @@
     "north-south có thể gây ra chứng sợ bị nhốt — kiểm soát hơi thở của bạn và thực hiện trình tự trốn thoát một cách bình tĩnh"
   ],
   "systemLogic": {
-    "corePrinciple": "Thao tác thoát north-south tuân theo trình tự bốn bước: khung → thoát hông → knee shield → xoay/hồi phục guard",
+    "corePrinciple": "Thao tác thoát north-south tuân theo trình tự bốn bước: khung → thoát hông → knee shield → xoay/hồi phục Guard",
     "decisionTree": [
       {
         "condition": "Ứng dụng chung",
@@ -104,14 +104,14 @@
       },
       {
         "condition": "Ứng dụng chung",
-        "action": "Xoay/phục hồi: sử dụng knee shield làm điểm xoay để quay về phía họ, sau đó phục hồi hoàn toàn guard (bằng cách overhook giơ cánh tay xa của họ) hoặc đứng lên bằng tư thế đứng kỹ thuật"
+        "action": "Xoay/phục hồi: sử dụng knee shield làm điểm xoay để quay về phía họ, sau đó phục hồi hoàn toàn Guard (bằng cách overhook giơ cánh tay xa của họ) hoặc đứng lên bằng tư thế đứng kỹ thuật"
       }
     ],
     "exitStrategies": []
   },
   "moneyDetails": [
-    "Những lần trốn thoát north-south ít phổ biến hơn những lần trốn thoát side control — việc thành thạo vị trí này khiến bạn trở thành một tay vật lộn hoàn thiện hơn",
-    "Một pha trốn thoát trơn tru north-south thường bắt được đối thủ guard và dẫn trực tiếp đến một pha quét hoặc tận dụng cơ hội",
+    "Những lần trốn thoát north-south ít phổ biến hơn những lần trốn thoát Side Control — việc thành thạo vị trí này khiến bạn trở thành một tay vật lộn hoàn thiện hơn",
+    "Một pha trốn thoát trơn tru north-south thường bắt được đối thủ Guard và dẫn trực tiếp đến một pha quét hoặc tận dụng cơ hội",
     "Thoát khỏi north-south mà không xả khí sẽ bảo toàn năng lượng cho phần còn lại của trận đấu"
   ],
   "fixItFast": [

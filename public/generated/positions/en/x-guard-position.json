@@ -1,10 +1,10 @@
 {
-  "id": "x-guard-position",
+  "id": "x-Guard-position",
   "locale": "en",
   "title": "X-Guard",
   "category": "bottom_guard",
   "status": "neutral",
-  "description": "X-guard uses foot on hip and leg wrap to off-balance and sweep from bottom, controlling the passer hip line.",
+  "description": "X-Guard uses foot on hip and leg wrap to off-balance and sweep from bottom, controlling the passer hip line.",
   "topPlayerGoals": [
     "The top player wants to control X-Guard through head position, inside position, and directed pressure.",
     "Remove the foot from the hip, snap the head, and break the base.",
@@ -30,9 +30,9 @@
       "action": "Transition to SLX or sweep to top",
       "nextPositionId": "single-leg-x",
       "relatedSkillIds": [
-        "x-guard-control",
+        "x-Guard-control",
         "single-leg-x-control",
-        "k-guard-matrix"
+        "k-Guard-matrix"
       ],
       "why": "This is the natural branch when you win the main control point and the opponent is forced to defend."
     }
@@ -44,9 +44,9 @@
     "You need a long hand post to avoid falling."
   ],
   "relatedSkillIds": [
-    "x-guard-control",
+    "x-Guard-control",
     "single-leg-x-control",
-    "k-guard-matrix"
+    "k-Guard-matrix"
   ],
   "relatedConceptIds": [
     "hooks",

@@ -1,21 +1,21 @@
 {
-  "id": "arm-triangle-mount",
+  "id": "arm-triangle-Mount",
   "locale": "vi",
-  "name": "Nhóm triangle từ mount",
-  "description": "Từ mount, tách cánh tay của đối phương ra, cắt góc và kết thúc cánh tay triangle bằng áp lực lên vai thay vì siết chặt cánh tay.",
-  "shortInstruction": "Tách cánh tay ra, bước qua đầu, thả tạ xuống — cánh tay triangle khỏi mount là áp lực của vai chứ không phải sức mạnh của bắp tay.",
-  "summary": "Nhóm triangle từ mount là một trong những tỷ lệ phần trăm cao nhất submissions từ vị trí ưu thế mount. Không giống như cánh tay thông thường triangle từ side control, phiên bản mount cho phép bạn sử dụng toàn bộ trọng lượng cơ thể của mình. Điều quan trọng là tách cánh tay của họ ra khỏi cơ thể (thường bằng cách ấn cẳng tay của bạn vào bắp tay của họ), bước qua đầu họ và thả trọng lượng ngực của bạn lên vai bị mắc kẹt của họ.",
+  "name": "Nhóm triangle từ Mount",
+  "description": "Từ Mount, tách cánh tay của đối phương ra, cắt góc và kết thúc cánh tay triangle bằng áp lực lên vai thay vì siết chặt cánh tay.",
+  "shortInstruction": "Tách cánh tay ra, bước qua đầu, thả tạ xuống — cánh tay triangle khỏi Mount là áp lực của vai chứ không phải sức mạnh của bắp tay.",
+  "summary": "Nhóm triangle từ Mount là một trong những tỷ lệ phần trăm cao nhất submissions từ vị trí ưu thế Mount. Không giống như cánh tay thông thường triangle từ Side Control, phiên bản Mount cho phép bạn sử dụng toàn bộ trọng lượng cơ thể của mình. Điều quan trọng là tách cánh tay của họ ra khỏi cơ thể (thường bằng cách ấn cẳng tay của bạn vào bắp tay của họ), bước qua đầu họ và thả trọng lượng ngực của bạn lên vai bị mắc kẹt của họ.",
   "whyItWorks": [
-    "mount mang lại cho bạn lợi thế về trọng lực — toàn bộ trọng lượng cơ thể của bạn đè lên cổ và cánh tay của họ.",
+    "Mount mang lại cho bạn lợi thế về trọng lực — toàn bộ trọng lượng cơ thể của bạn đè lên cổ và cánh tay của họ.",
     "Cánh tay triangle giữ cả động mạch cảnh và vai của họ — hai điểm áp lực từ một chuyển động.",
     "Một khi góc bị cắt và vai của bạn ở trên cổ họ, họ không thể bắc cầu hoặc lăn bạn ra.",
-    "Nguyên tắc Danaher: mount nhánh triangle có tỷ lệ hoàn thành mount cao nhất vì chúng kết hợp vị trí và sự phục tùng."
+    "Nguyên tắc Danaher: Mount nhánh triangle có tỷ lệ hoàn thành Mount cao nhất vì chúng kết hợp vị trí và sự phục tùng."
   ],
   "commonMistakes": [
     "Cố gắng hoàn thành mà không tách cánh tay ra khỏi cơ thể trước - cánh tay phải được cách ly.",
     "Bước qua đầu quá sớm - chỉ bước qua sau khi cánh tay đã bị kẹp vào cổ họ.",
     "Siết chặt bằng cánh tay thay vì điều khiển vai - siết chặt cánh tay sẽ bị bỏng; áp lực vai kết thúc.",
-    "Mất vị trí mount để đuổi theo đích - duy trì áp lực nặng ở ngực trong suốt trận đấu."
+    "Mất vị trí Mount để đuổi theo đích - duy trì áp lực nặng ở ngực trong suốt trận đấu."
   ],
   "coachingCues": [
     "Tách cánh tay ra rồi bước qua - không bao giờ bước trước khi tách ra.",
@@ -34,15 +34,15 @@
     "Nếu chúng lăn để trốn thoát, hãy đi theo vòng quay của chúng và lùi lại."
   ],
   "systemLogic": {
-    "corePrinciple": "Tư thế mount: tách cánh tay của họ bằng điều khiển cẳng tay hoặc cổ tay → hướng cánh tay lên cổ → bước qua đầu → thả tạ xuống ngực → kết thúc.",
+    "corePrinciple": "Tư thế Mount: tách cánh tay của họ bằng điều khiển cẳng tay hoặc cổ tay → hướng cánh tay lên cổ → bước qua đầu → thả tạ xuống ngực → kết thúc.",
     "decisionTree": [
       {
         "condition": "họ bảo vệ cánh tay triangle bằng cách giấu cánh tay",
-        "action": "chuyển sang các cuộc tấn công mounted armbar hoặc s-mount."
+        "action": "chuyển sang các cuộc tấn công mounted armbar hoặc s-Mount."
       },
       {
         "condition": "Ứng dụng chung",
-        "action": "Cánh tay triangle từ mount xích thẳng ra phía sau nếu chúng lăn để trốn thoát."
+        "action": "Cánh tay triangle từ Mount xích thẳng ra phía sau nếu chúng lăn để trốn thoát."
       }
     ]
   },
@@ -52,7 +52,7 @@
     "Thả trọng lượng ngực của bạn lên vai của chính bạn - áp lực truyền qua vai bạn đến cổ của họ.",
     "Nếu chúng cong lại, hãy hạ thấp hông và dang rộng trọng lượng của bạn - bạn muốn 'nặng' chứ không phải cao."
   ],
-  "nextStep": "Sau nhánh triangle từ mount, hãy tìm hiểu mounted triangle và s-mount armbar.",
+  "nextStep": "Sau nhánh triangle từ Mount, hãy tìm hiểu mounted triangle và s-Mount armbar.",
   "fixItFast": [
     "Cánh tay cứ trượt? Ghim nó vào ngực của bạn trước khi bước qua.",
     "Họ bắc cầu cho bạn à? Mở rộng đầu gối của bạn và thả hông của bạn gần hơn với tấm thảm.",

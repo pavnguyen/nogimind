@@ -1,26 +1,26 @@
 {
-  "id": "mount-escape",
+  "id": "Mount-escape",
   "domain": "escapes",
   "level": "beginner",
   "name": "Mount Escape",
   "aliases": [],
   "tags": [
     "escape",
-    "mount"
+    "Mount"
   ],
   "keywords": [
-    "mount",
+    "Mount",
     "bridge",
     "elbow escape",
     "inside position"
   ],
   "relatedSkills": [
     {
-      "id": "half-guard-knee-shield",
+      "id": "half-Guard-knee-shield",
       "type": "recommended"
     },
     {
-      "id": "mount-control",
+      "id": "Mount-control",
       "type": "recommended"
     },
     {
@@ -29,7 +29,7 @@
     }
   ],
   "prerequisiteSkillIds": [
-    "mount-survival"
+    "Mount-survival"
   ],
   "relatedPositions": [],
   "relatedConcepts": [],

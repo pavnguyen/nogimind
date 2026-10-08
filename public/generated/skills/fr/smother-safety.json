@@ -24,7 +24,7 @@
   "modernSystemGroup": "smother",
   "relatedSkills": [
     {
-      "id": "mount-control",
+      "id": "Mount-control",
       "type": "recommended"
     },
     {
@@ -44,7 +44,7 @@
   "archetypeIds": [],
   "relatedArchetypeIds": [],
   "prerequisiteSkillIds": [
-    "mount-control",
+    "Mount-control",
     "side-control-pin"
   ],
   "trainingMethodIds": [],
@@ -71,7 +71,7 @@
   "shortInstruction": "Appliquez lentement une pression douce, maintenez une base stable pour éviter de glisser et relâchez immédiatement en cas de pression, de détresse vocale ou de signes de panique. N'utilisez jamais de techniques d'étouffement contre des grappins plus récents.",
   "summary": "Les techniques d'étouffement (compression thoracique, pression des épaules sur le visage, positionnement du corps qui restreint la respiration) font partie du passage et du blocage de pression de haut niveau. La principale distinction en matière de sécurité se situe entre la « pression de position » (sûre, contrôlée) et « l'étouffement dans l'intention de provoquer une détresse respiratoire » (nécessite de la prudence). Les techniques d'étouffement sûres sont appliquées progressivement avec une base stable afin que l'adversaire puisse taper à tout moment. Les techniques d'étouffement dangereuses impliquent des chutes de poids soudaines, le glissement de l'épaule sur la gorge ou le maintien d'une pression après un robinet.",
   "whyItWorks": [
-    "La compression thoracique de side control ou mount restreint le mouvement du diaphragme de l'adversaire, rendant la respiration superficielle et inconfortable — cela crée une urgence de s'échapper.",
+    "La compression thoracique de Side Control ou Mount restreint le mouvement du diaphragme de l'adversaire, rendant la respiration superficielle et inconfortable — cela crée une urgence de s'échapper.",
     "La pression de l'épaule sur le visage crée une distraction qui empêche l'adversaire de se concentrer sur sa séquence de fuite.",
     "La pression d'étouffement, lorsqu'elle est appliquée en toute sécurité, est un outil psychologique qui fait paniquer l'adversaire et lui fait commettre des erreurs techniques.",
     "Une bonne base pendant l'étouffement vous permet de contrôler le niveau de pression et de le relâcher immédiatement"
@@ -111,7 +111,7 @@
       },
       {
         "condition": "Principe de formation éthique",
-        "action": "des techniques d'étouffement doivent être utilisées pour enseigner le contrôle de position, et non pour dominer les partenaires d'entraînement. Si vous pouvez tenir side control sans étouffer, faites-le"
+        "action": "des techniques d'étouffement doivent être utilisées pour enseigner le contrôle de position, et non pour dominer les partenaires d'entraînement. Si vous pouvez tenir Side Control sans étouffer, faites-le"
       }
     ],
     "exitStrategies": []

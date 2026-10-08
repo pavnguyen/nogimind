@@ -13,7 +13,7 @@
     "meta:modern-common",
     "risk:high",
     "family:submission",
-    "group:clamp-guard",
+    "group:clamp-Guard",
     "modern-no-gi"
   ],
   "keywords": [
@@ -32,7 +32,7 @@
       "type": "recommended"
     },
     {
-      "id": "clamp-guard-control",
+      "id": "clamp-Guard-control",
       "type": "recommended"
     }
   ],
@@ -45,7 +45,7 @@
   "relatedArchetypeIds": [],
   "prerequisiteSkillIds": [
     "kimura-system",
-    "clamp-guard-control"
+    "clamp-Guard-control"
   ],
   "trainingMethodIds": [],
   "nextSkillIds": [],
@@ -117,6 +117,6 @@
   "fixItFast": [
     "Le bras continue de s'échapper ? Votre contrôle du poignet est trop lâche – saisissez-le à nouveau avec plus de pression.",
     "Vous ne pouvez pas tourner ? La position de vos jambes est incorrecte : ajustez-la pour que votre jambe contrôle son épaule et non son bras.",
-    "Ils vous empilent ? Relâchez et réinitialisez à guard."
+    "Ils vous empilent ? Relâchez et réinitialisez à Guard."
   ]
 }

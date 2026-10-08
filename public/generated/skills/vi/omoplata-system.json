@@ -8,7 +8,7 @@
   "tags": [
     "submission",
     "shoulder-lock-safety",
-    "guard"
+    "Guard"
   ],
   "keywords": [
     "omoplata",
@@ -38,7 +38,7 @@
   "archetypeIds": [],
   "relatedArchetypeIds": [],
   "prerequisiteSkillIds": [
-    "clamp-guard-control",
+    "clamp-Guard-control",
     "triangle-system"
   ],
   "trainingMethodIds": [],
@@ -64,11 +64,11 @@
   "locale": "vi",
   "description": "Biến kẹp vai thành khóa vai bằng cách sử dụng góc hông, chuyển động tư thế và điều khiển cổ tay — omoplata tạo áp lực quay lên vai.",
   "shortInstruction": "Giữ cánh tay, kẹp bằng chân, xoay hông, khóa vai theo sau - omoplata là khóa vai có hỗ trợ bằng chân.",
-  "summary": "omoplata là một trong những khóa vai mạnh mẽ nhất từ ​​guard. Nó sử dụng chân của bạn để giữ cánh tay của họ và xoay hông của bạn để tạo áp lực phục tùng. Không giống như kimura (sử dụng cả hai tay), omoplata sử dụng một chân làm cần gạt và hông của bạn làm động cơ. Hệ thống omoplata bao gồm quét (khi họ vào tư thế phòng thủ) và lùi (khi họ lăn người để trốn thoát). Nó là một hệ thống tấn công hoàn chỉnh từ guard.",
+  "summary": "omoplata là một trong những khóa vai mạnh mẽ nhất từ ​​Guard. Nó sử dụng chân của bạn để giữ cánh tay của họ và xoay hông của bạn để tạo áp lực phục tùng. Không giống như kimura (sử dụng cả hai tay), omoplata sử dụng một chân làm cần gạt và hông của bạn làm động cơ. Hệ thống omoplata bao gồm quét (khi họ vào tư thế phòng thủ) và lùi (khi họ lăn người để trốn thoát). Nó là một hệ thống tấn công hoàn chỉnh từ Guard.",
   "whyItWorks": [
     "Sử dụng chân làm đòn bẩy mang lại cho bạn lợi thế cơ học mà sức mạnh thuần túy của cánh tay không thể sánh bằng.",
     "omoplata tạo ra tình huống khó xử: chạm vào khóa vai, bị cuốn hoặc bỏ cuộc.",
-    "Nó hoạt động ở những vị trí mà kimura khó thực hiện (closed guard, half guard).",
+    "Nó hoạt động ở những vị trí mà kimura khó thực hiện (Closed Guard, Half Guard).",
     "Nguyên tắc Danaher: omoplata là một sự đệ trình 'quan điểm' — nếu quan điểm đúng thì việc đệ trình cần có lực lượng tối thiểu."
   ],
   "commonMistakes": [
@@ -89,11 +89,11 @@
     "Hãy cẩn thận khi đối thủ lăn để thoát khỏi omoplata — chúng có thể đáp xuống mặt hoặc cổ của bạn."
   ],
   "systemLogic": {
-    "corePrinciple": "guard: giữ cánh tay của họ bằng chân của bạn (qua vai họ) → kẹp cánh tay vào cơ thể bạn → xoay hông của bạn ra xa → kết thúc khóa vai.",
+    "corePrinciple": "Guard: giữ cánh tay của họ bằng chân của bạn (qua vai họ) → kẹp cánh tay vào cơ thể bạn → xoay hông của bạn ra xa → kết thúc khóa vai.",
     "decisionTree": [
       {
         "condition": "Sử dụng phản ứng 1",
-        "action": "Họ vào tư thế phòng thủ → ngồi dậy quét → đáp xuống mount hoặc side control."
+        "action": "Họ vào tư thế phòng thủ → ngồi dậy quét → đáp xuống Mount hoặc Side Control."
       },
       {
         "condition": "Sử dụng phản ứng 2",

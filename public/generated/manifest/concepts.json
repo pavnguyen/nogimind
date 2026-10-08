@@ -15,7 +15,7 @@
     ],
     "shortDefinition": {
       "en": "A priority map showing which positions increase control, reduce risk, and open submissions.",
-      "vi": "Bản đồ ưu tiên cho biết vị trí nào tăng kiểm soát, giảm rủi ro và mở submission.",
+      "vi": "Thứ tự ưu tiên giúp bạn biết khi nào nên thoát hiểm, củng cố thế kiểm soát hay tìm cơ hội khóa siết.",
       "fr": "Une carte qui montre quelles positions augmentent contrôle, réduisent risque et ouvrent soumissions."
     }
   },
@@ -23,7 +23,7 @@
     "id": "inside-position",
     "title": {
       "en": "Inside Position",
-      "vi": "Vị trí trong",
+      "vi": "Vị trí trong (inside position)",
       "fr": "Inside position"
     },
     "category": "positional",
@@ -38,7 +38,7 @@
     ],
     "shortDefinition": {
       "en": "Inside position means your hand, head, knee, or hip occupies the space between your structure and the opponent’s center — whoever wins this lane controls the direction of movement.",
-      "vi": "Đường trong là vị trí tay, đầu, gối hoặc hông nằm giữa cấu trúc của bạn và trọng tâm đối thủ — ai thắng line này kiểm soát hướng di chuyển.",
+      "vi": "Bạn có lợi thế đường trong khi tay, đầu, gối hoặc hông chiếm được khoảng giữa cơ thể mình và trọng tâm đối thủ. Ai giữ được khoảng này thường quyết định được hướng di chuyển.",
       "fr": "Inside position signifie main, tête, genou ou hanche entre votre structure et le centre adverse — qui gagne cette ligne contrôle la direction."
     }
   },
@@ -58,7 +58,7 @@
     ],
     "shortDefinition": {
       "en": "You must attach the correct body points before trying to hold or steer the opponent.",
-      "vi": "Bạn phải gắn đúng điểm cơ thể trước khi cố giữ hoặc điều khiển đối thủ.",
+      "vi": "Muốn ghìm hoặc điều hướng đối thủ, trước hết bạn cần tạo tiếp xúc chắc ở đúng điểm trên cơ thể họ.",
       "fr": "Il faut connecter les bons points du corps avant de tenir ou diriger."
     }
   },
@@ -78,7 +78,7 @@
     ],
     "shortDefinition": {
       "en": "Submissions become reliable only when the opponent is held where the main escape structure is denied.",
-      "vi": "Submission chỉ bền khi opponent bị giữ ở vị trí không thể thoát cấu trúc chính.",
+      "vi": "Đòn khóa siết sẽ chắc hơn khi bạn đã giữ đối thủ ở thế khó thoát và chặn được đường phòng thủ chính.",
       "fr": "Une soumission devient fiable quand l’évasion principale est bloquée."
     }
   },
@@ -86,7 +86,7 @@
     "id": "frames",
     "title": {
       "en": "Frames",
-      "vi": "Frames",
+      "vi": "Khung chặn (frame)",
       "fr": "Frames"
     },
     "category": "mechanical",
@@ -102,7 +102,7 @@
     ],
     "shortDefinition": {
       "en": "A frame is a bone structure (forearm, shin, knee, bicep) connected to the torso to maintain space, not arm strength to push.",
-      "vi": "Frame là cấu trúc xương (forearm, shin, knee, bicep) nối vào thân để giữ khoảng cách, không dùng cơ tay đẩy.",
+      "vi": "Frame là khung chặn tạo bằng cẳng tay, ống chân, đầu gối hoặc bắp tay, giúp giữ khoảng cách mà không phải gồng tay đẩy.",
       "fr": "Un frame est une structure osseuse (forearm, tibia, genou, biceps) connectée au torse pour garder distance, pas la force des bras."
     }
   },
@@ -110,7 +110,7 @@
     "id": "wedges",
     "title": {
       "en": "Wedges",
-      "vi": "Wedges",
+      "vi": "Điểm chèn (wedge)",
       "fr": "Wedges"
     },
     "category": "mechanical",
@@ -122,7 +122,7 @@
     ],
     "shortDefinition": {
       "en": "A wedge is a body part inserted into space to block the opponent’s rotation or connection.",
-      "vi": "Wedge là phần cơ thể chèn vào khoảng trống để chặn rotation hoặc connection của đối thủ.",
+      "vi": "Wedge là điểm tựa được tạo bằng cách chèn một bộ phận cơ thể vào khoảng trống để chặn đối thủ áp sát hoặc xoay người.",
       "fr": "Un wedge est une partie du corps insérée pour bloquer rotation ou connexion adverse."
     }
   },
@@ -130,7 +130,7 @@
     "id": "levers",
     "title": {
       "en": "Levers",
-      "vi": "Levers",
+      "vi": "Đòn bẩy (lever)",
       "fr": "Leviers"
     },
     "category": "mechanical",
@@ -142,7 +142,7 @@
     ],
     "shortDefinition": {
       "en": "A lever uses one segment of the opponent’s body to rotate or disrupt a larger structure.",
-      "vi": "Lever là cách dùng một đoạn cơ thể của đối thủ để xoay hoặc phá cấu trúc lớn hơn.",
+      "vi": "Đòn bẩy là cách dùng một bộ phận cơ thể của đối thủ làm điểm tựa để xoay hoặc phá vững cấu trúc của họ.",
       "fr": "Un levier utilise un segment du corps adverse pour tourner ou casser une structure plus grande."
     }
   },
@@ -278,7 +278,7 @@
     "tags": [
       "elbow knee",
       "escape",
-      "guard retention"
+      "Guard retention"
     ],
     "shortDefinition": {
       "en": "Elbow-knee connection closes the space between upper body and hip line to prevent pins and passes.",
@@ -407,16 +407,16 @@
     }
   },
   {
-    "id": "guard-retention-layers",
+    "id": "Guard-retention-layers",
     "title": {
       "en": "Guard Retention Layers",
-      "vi": "Lớp giữ guard",
+      "vi": "Lớp giữ Guard",
       "fr": "Couches de rétention de garde"
     },
     "category": "defensive",
     "level": "intermediate",
     "tags": [
-      "guard retention",
+      "Guard retention",
       "layers",
       "recovery",
       "knee shield",
@@ -442,11 +442,11 @@
     "tags": [
       "wrestle-up",
       "single leg",
-      "guard offense"
+      "Guard offense"
     ],
     "shortDefinition": {
-      "en": "Wrestle-up turns guard from a defensive position into a controlled race to come on top.",
-      "vi": "Wrestle-up biến guard từ vị trí phòng thủ thành cuộc đua lên top có kiểm soát.",
+      "en": "Wrestle-up turns Guard from a defensive position into a controlled race to come on top.",
+      "vi": "Wrestle-up biến Guard từ vị trí phòng thủ thành cuộc đua lên top có kiểm soát.",
       "fr": "Le wrestle-up transforme la garde défensive en course contrôlée vers top."
     }
   },

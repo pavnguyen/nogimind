@@ -26,12 +26,12 @@
   "safetySummary": [
     "Khi kéo chân họ, đảm bảo không xoắn đầu gối họ — kéo từ hông, không xoay chân",
     "Khi luồn dưới tay họ, giữ đầu bạn ở vị trí an toàn — tránh bị kẹp đầu gối",
-    "Nếu họ lật bạn trong lúc xoay, bảo vệ cổ và kéo guard"
+    "Nếu họ lật bạn trong lúc xoay, bảo vệ cổ và kéo Guard"
   ],
   "keyCorrections": [
     "Nếu họ không chống tay: leg drag thành công — kết thúc pass thay vì back take",
     "Nếu họ đạp bạn ra: kéo chân họ lại và thiết lập lại leg drag",
-    "Nếu họ xoay mặt vào: kéo họ nằm sấp và lên mount"
+    "Nếu họ xoay mặt vào: kéo họ nằm sấp và lên Mount"
   ],
   "moneyDetails": [
     "Leg drag to back take là một trong những chuỗi đòn thanh lịch nhất trong BJJ — kết hợp pass và back take trong một động tác liên tục",
@@ -39,9 +39,9 @@
     "Leg drag to back take thường kết thúc trận đấu vì đối thủ không mong đợi back take từ một pha pass"
   ],
   "fixItFast": [
-    "Nếu họ không chống tay: đừng chờ — kết thúc pass và vào side control",
-    "Nếu họ đạp bạn ra: bạn đã mất leg drag — phục hồi guard và reset",
-    "Nếu họ xoay mặt vào: giữ chân họ và lên mount"
+    "Nếu họ không chống tay: đừng chờ — kết thúc pass và vào Side Control",
+    "Nếu họ đạp bạn ra: bạn đã mất leg drag — phục hồi Guard và reset",
+    "Nếu họ xoay mặt vào: giữ chân họ và lên Mount"
   ],
   "systemLogic": {
     "corePrinciple": "Leg drag to back take: kiểm soát chân gần → kéo ngang cơ thể → đối thủ chống tay xa (tín hiệu) → thả chân → luồn dưới tay đang chống → xoay ra sau → thiết lập back control.",
@@ -56,12 +56,12 @@
       },
       {
         "condition": "Họ xoay mặt vào",
-        "action": "kéo họ nằm sấp và lên mount"
+        "action": "kéo họ nằm sấp và lên Mount"
       }
     ],
     "exitStrategies": [
-      "Nếu không thể lên lưng, kết thúc pass và vào side control",
-      "Nếu họ lật bạn, kéo guard và reset"
+      "Nếu không thể lên lưng, kết thúc pass và vào Side Control",
+      "Nếu họ lật bạn, kéo Guard và reset"
     ]
   }
 }

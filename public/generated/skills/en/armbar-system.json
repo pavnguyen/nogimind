@@ -18,7 +18,7 @@
   ],
   "relatedSkills": [
     {
-      "id": "s-mount-armbar",
+      "id": "s-Mount-armbar",
       "type": "recommended"
     },
     {
@@ -38,8 +38,8 @@
   "archetypeIds": [],
   "relatedArchetypeIds": [],
   "prerequisiteSkillIds": [
-    "mount-control",
-    "clamp-guard-control"
+    "Mount-control",
+    "clamp-Guard-control"
   ],
   "trainingMethodIds": [],
   "nextSkillIds": [],
@@ -64,7 +64,7 @@
   "locale": "en",
   "description": "Isolate the opponent's shoulder line, control their wrist, and keep their elbow above your hip line before applying extension to finish the armbar.",
   "shortInstruction": "Control the wrist, pin the elbow to your hip, keep the thumb up — extension finishes; hyperextension breaks.",
-  "summary": "The armbar is the most fundamental joint lock in BJJ. The system revolves around three principles: isolate the shoulder (prevent them from pulling the arm free), control the wrist (thumb up, palm facing you), and position the elbow above your hip line before extending. Without the hip line detail, the armbar becomes a struggle of strength. With it, the mechanical advantage is overwhelming. The armbar system applies from guard, mount, and transitions.",
+  "summary": "The armbar is the most fundamental joint lock in BJJ. The system revolves around three principles: isolate the shoulder (prevent them from pulling the arm free), control the wrist (thumb up, palm facing you), and position the elbow above your hip line before extending. Without the hip line detail, the armbar becomes a struggle of strength. With it, the mechanical advantage is overwhelming. The armbar system applies from Guard, Mount, and transitions.",
   "whyItWorks": [
     "Pinning their elbow above your hip line creates a class-one lever — your hips are the fulcrum, their arm is the load.",
     "Thumb-up position forces their elbow to hyperextend in its weakest plane — supination is the key detail.",
@@ -93,12 +93,12 @@
     "corePrinciple": "Control the arm: secure the wrist (thumb up) → bring elbow to your hip line → figure-four legs over their head/chest → lift hips → extend.",
     "decisionTree": [
       {
-        "condition": "From guard",
+        "condition": "From Guard",
         "action": "break posture, swim the arm across, hip out, finish."
       },
       {
-        "condition": "From mount",
-        "action": "S-mount or technical mount, isolate the arm, fall back with control."
+        "condition": "From Mount",
+        "action": "S-Mount or technical Mount, isolate the arm, fall back with control."
       }
     ],
     "exitStrategies": []
@@ -109,7 +109,7 @@
     "Lift your hips, don't pull their arm toward you — hip lift creates a clean extension without strength.",
     "Keep their arm straight against your chest or hip — a bent elbow can generate counter-force."
   ],
-  "nextStep": "After the armbar system, learn the S-mount armbar and armbar from guard variations.",
+  "nextStep": "After the armbar system, learn the S-Mount armbar and armbar from Guard variations.",
   "fixItFast": [
     "Can't straighten their arm? Pin the elbow to your hip with your legs and use a two-on-one wrist control.",
     "They stack you? Bring your free foot to their far hip and push them away.",

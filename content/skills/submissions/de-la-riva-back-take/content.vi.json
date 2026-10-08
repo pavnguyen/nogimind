@@ -3,8 +3,8 @@
   "locale": "vi",
   "name": "De La Riva Quay lại",
   "description": "Sử dụng móc DLR và điều khiển hông xa để quay về phía sau khi đối thủ bảo vệ cú quét bằng cách đăng bài hoặc lùi lại.",
-  "shortInstruction": "Móc DLR sâu, kiểm soát hông xa, xoay theo chúng - Đòn trả lại DLR là giải thưởng cao nhất từ ​​open guard.",
-  "summary": "Việc lấy lại DLR là phần thưởng có tỷ lệ phần trăm cao nhất từ ​​De La Riva guard. Khi bạn cố gắng quét DLR (làm mất thăng bằng về phía trước), nhiều đối thủ sẽ phản ứng bằng cách đưa tay hoặc lùi lại để tránh đòn quét. Phản ứng này tạo ra chính xác không gian và góc mà bạn cần để quay theo chúng và lấy lại phần lưng. DLR quay lại biến một cú quét thất bại thành một vị trí thống trị.",
+  "shortInstruction": "Móc DLR sâu, kiểm soát hông xa, xoay theo chúng - Đòn trả lại DLR là giải thưởng cao nhất từ ​​open Guard.",
+  "summary": "Việc lấy lại DLR là phần thưởng có tỷ lệ phần trăm cao nhất từ ​​De La Riva Guard. Khi bạn cố gắng quét DLR (làm mất thăng bằng về phía trước), nhiều đối thủ sẽ phản ứng bằng cách đưa tay hoặc lùi lại để tránh đòn quét. Phản ứng này tạo ra chính xác không gian và góc mà bạn cần để quay theo chúng và lấy lại phần lưng. DLR quay lại biến một cú quét thất bại thành một vị trí thống trị.",
   "whyItWorks": [
     "Khi họ đăng bài để bảo vệ sweep, cánh tay của họ đã bị ràng buộc và không thể sử dụng để chặn vòng quay của bạn.",
     "Móc DLR giữ cho chân của họ được kiểm soát trong khi bạn quay — họ không thể bước ra khỏi back take.",
@@ -34,7 +34,7 @@
     "Nếu họ sprawl trong vòng quay, bạn đã quay quá sớm - hãy đợi họ cam kết hoàn toàn với bài đăng."
   ],
   "systemLogic": {
-    "corePrinciple": "DLR guard đã thiết lập: mất thăng bằng cho sweep → đối thủ trụ tay → xoay dưới cánh tay trụ của họ → lùi lại → cố định seatbelt và móc.",
+    "corePrinciple": "DLR Guard đã thiết lập: mất thăng bằng cho sweep → đối thủ trụ tay → xoay dưới cánh tay trụ của họ → lùi lại → cố định seatbelt và móc.",
     "decisionTree": [
       {
         "condition": "Cơ cấu quay lại DLR hoạt động theo một chuyển động liên tục: mất cân bằng",
@@ -42,7 +42,7 @@
       },
       {
         "condition": "họ không đăng bài (bảo vệ cuộc càn quét bằng cách lùi lại)",
-        "action": "thay vào đó hãy mở rộng sang X-guard."
+        "action": "thay vào đó hãy mở rộng sang X-Guard."
       }
     ]
   },

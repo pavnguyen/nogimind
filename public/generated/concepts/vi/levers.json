@@ -1,7 +1,7 @@
 {
   "id": "levers",
   "locale": "vi",
-  "title": "Levers",
+  "title": "Đòn bẩy (lever)",
   "category": "mechanical",
   "level": "intermediate",
   "tags": [
@@ -9,53 +9,19 @@
     "kimura",
     "off-balance"
   ],
-  "shortDefinition": "Lever là cách dùng một đoạn cơ thể của đối thủ để xoay hoặc phá cấu trúc lớn hơn.",
-  "whyItMatters": "Levers cho phép người nhỏ hơn tạo off-balance, kimura control hoặc arm drag mà không cần sức thô.",
-  "deepExplanation": "Elbow tách khỏi ribs, wrist qua centerline, knee line bị giữ hoặc shoulder line bị xoay đều tạo lever. Đọc lever giúp bạn attack đúng thời điểm.",
-  "beginnerView": "Tìm khuỷu hoặc cổ tay bị tách khỏi thân.",
-  "advancedView": "Tạo lever bằng dilemma thay vì chờ đối thủ tự sai.",
-  "ifThenExamples": [
-    {
-      "if": "Nếu bạn mất Levers trong trao đổi.",
-      "then": "Dừng tăng tốc, lấy lại cấu trúc cơ thể gần nhất rồi mới tiếp tục kỹ thuật.",
-      "why": "No-gi hiện đại phạt rất nhanh khi bạn cố thắng bằng sức sau khi mất cấu trúc.",
-      "relatedSkillIds": [
-        "kimura-system",
-        "arm-triangle-mount"
-      ]
-    },
-    {
-      "if": "Nếu đối thủ phản ứng đúng với hướng đầu tiên.",
-      "then": "Dùng Levers để đổi sang nhánh an toàn hơn thay vì ép cùng một hướng.",
-      "why": "Concept tốt biến phản ứng của đối thủ thành thông tin cho quyết định tiếp theo.",
-      "relatedSkillIds": [
-        "arm-triangle-mount",
-        "butterfly-guard-off-balance",
-        "seated-guard-retention"
-      ]
-    }
-  ],
-  "commonMisunderstandings": [
-    {
-      "misunderstanding": "Levers là một mẹo kỹ thuật riêng lẻ.",
-      "correction": "Hãy xem nó như quy tắc quyết định xuất hiện trong nhiều vị trí khác nhau."
-    },
-    {
-      "misunderstanding": "Bạn chỉ cần hiểu khái niệm là tự động dùng được trong live roll.",
-      "correction": "Khái niệm phải được gắn với body signal, cue ngắn và positional rolling."
-    }
-  ],
-  "trainingCues": [
-    "Gọi tên Levers trước khi tăng lực.",
-    "Tìm body signal, không đoán bằng cảm giác chung.",
-    "Nếu mất cấu trúc, reset một layer trước.",
-    "Drill chậm, test bằng resistance tăng dần."
-  ],
+  "shortDefinition": "Đòn bẩy là cách dùng một bộ phận cơ thể của đối thủ làm điểm tựa để xoay hoặc phá vững cấu trúc của họ.",
+  "whyItMatters": "Dùng đòn bẩy đúng cách giúp bạn làm đối thủ mất thăng bằng, kiểm soát tay hoặc kéo họ lệch hướng mà không cần dùng sức thô.",
+  "deepExplanation": "Khuỷu tay bị tách khỏi sườn, cổ tay bị kéo qua đường giữa, đầu gối bị giữ hoặc vai bị xoay đều có thể trở thành điểm bẩy. Nhận ra những điểm này giúp bạn chọn đúng thời điểm để tấn công.",
+  "beginnerView": "Tìm khuỷu tay hoặc cổ tay đang bị kéo xa khỏi thân người.",
+  "advancedView": "Chủ động tạo thế lưỡng nan để buộc đối thủ để lộ điểm bẩy, thay vì chờ họ tự mắc lỗi.",
+  "ifThenExamples": [],
+  "commonMisunderstandings": [],
+  "trainingCues": [],
   "relatedSkillIds": [
     "kimura-system",
-    "arm-triangle-mount",
-    "butterfly-guard-off-balance",
-    "seated-guard-retention"
+    "arm-triangle-Mount",
+    "butterfly-Guard-off-balance",
+    "seated-Guard-retention"
   ],
   "relatedConceptIds": [
     "dilemma-attacks",

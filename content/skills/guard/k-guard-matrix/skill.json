@@ -1,22 +1,22 @@
 {
-  "id": "k-guard-matrix",
+  "id": "k-Guard-matrix",
   "domain": "guard_offense",
   "level": "advanced",
   "name": "K-Guard to Matrix",
   "aliases": [],
   "tags": [
-    "k-guard",
+    "k-Guard",
     "matrix",
     "backside-entry",
     "tier:modern-expansion",
     "meta:modern-common",
     "risk:high",
     "family:leg-lock",
-    "group:k-guard",
+    "group:k-Guard",
     "modern-no-gi"
   ],
   "keywords": [
-    "K-guard",
+    "K-Guard",
     "matrix",
     "backside"
   ],
@@ -36,7 +36,7 @@
     }
   ],
   "prerequisiteSkillIds": [
-    "k-guard-entry",
+    "k-Guard-entry",
     "leg-lock-safety-basics"
   ],
   "relatedPositions": [],

@@ -12,7 +12,7 @@
   ],
   "bottomPlayerGoals": [
     "The bottom player wants to survive Knee Cut Position with frames, pummeling, or the right angle.",
-    "Pummel for a knee shield or underhook to wrestle up or recover guard.",
+    "Pummel for a knee shield or underhook to wrestle up or recover Guard.",
     "Recognize danger signals early instead of waiting for the position to settle."
   ],
   "controlPoints": [
@@ -32,7 +32,7 @@
       "relatedSkillIds": [
         "knee-cut-passing",
         "headquarters-passing",
-        "half-guard-knee-shield"
+        "half-Guard-knee-shield"
       ],
       "why": "This is the natural branch when you win the main control point and the opponent is forced to defend."
     }
@@ -46,7 +46,7 @@
   "relatedSkillIds": [
     "knee-cut-passing",
     "headquarters-passing",
-    "half-guard-knee-shield"
+    "half-Guard-knee-shield"
   ],
   "relatedConceptIds": [
     "angle-creation",

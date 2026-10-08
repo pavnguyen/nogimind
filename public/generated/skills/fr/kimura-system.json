@@ -25,7 +25,7 @@
       "type": "recommended"
     },
     {
-      "id": "guard-pulling-strategy",
+      "id": "Guard-pulling-strategy",
       "type": "recommended"
     }
   ],
@@ -62,11 +62,11 @@
   "locale": "fr",
   "description": "Utilisez la poignée kimura comme centre de contrôle pour les balayages, les passes, les prises en arrière ou les finitions – le kimura est une position, pas seulement une soumission.",
   "shortInstruction": "Saisissez le poignet, le bras en quatre, faites pivoter l'épaule - le kimura est le contrôle en premier, la soumission en second.",
-  "summary": "Le kimura est la soumission la plus polyvalente de No-Gi BJJ. La poignée kimura (une main tenant son poignet du même côté, l'autre bras s'enfilant pour saisir votre propre poignet) est plus couramment utilisée comme position de contrôle que comme soumission. Depuis la prise kimura, vous pouvez : balayer, passer le guard, prendre le dos, ou terminer le lock d'épaule. Le système est basé sur l’isolation d’un de leurs bras et son utilisation comme poignée pour contrôler tout leur corps.",
+  "summary": "Le kimura est la soumission la plus polyvalente de No-Gi BJJ. La poignée kimura (une main tenant son poignet du même côté, l'autre bras s'enfilant pour saisir votre propre poignet) est plus couramment utilisée comme position de contrôle que comme soumission. Depuis la prise kimura, vous pouvez : balayer, passer le Guard, prendre le dos, ou terminer le lock d'épaule. Le système est basé sur l’isolation d’un de leurs bras et son utilisation comme poignée pour contrôler tout leur corps.",
   "whyItWorks": [
     "La poignée kimura crée un verrou en forme de quatre sur son bras qu'il ne peut pas facilement briser : une fois verrouillé, vous contrôlez son épaule.",
     "Utiliser son bras comme « poignée » vous donne le contrôle sur tout son corps : lorsque vous bougez son bras, son corps suit.",
-    "Le système kimura fonctionne à partir de presque toutes les positions : guard, side control, half guard, mount et transitions.",
+    "Le système kimura fonctionne à partir de presque toutes les positions : Guard, Side Control, Half Guard, Mount et transitions.",
     "Principe Danaher : le kimura est la soumission la plus polyvalente du BJJ car c'est aussi la meilleure position de contrôle."
   ],
   "commonMistakes": [
@@ -95,7 +95,7 @@
       },
       {
         "condition": "Utilisation de l'option 3",
-        "action": "Ils se détournent → prennent le dos. Option 4 : Ils font le mort → passez le guard."
+        "action": "Ils se détournent → prennent le dos. Option 4 : Ils font le mort → passez le Guard."
       }
     ],
     "exitStrategies": []

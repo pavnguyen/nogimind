@@ -6,7 +6,7 @@
   "name": "Évasion Nord Sud",
   "aliases": [
     "north-south pin escape",
-    "north-south guard recovery"
+    "north-south Guard recovery"
   ],
   "tags": [
     "escape",
@@ -28,7 +28,7 @@
       "type": "recommended"
     },
     {
-      "id": "mount-escape",
+      "id": "Mount-escape",
       "type": "recommended"
     },
     {
@@ -62,14 +62,14 @@
     "hasStateMachine": false
   },
   "locale": "fr",
-  "description": "Échappez à la position north-south en créant un cadre, en vous transformant en adversaire et en récupérant guard ou en vous levant.",
-  "shortInstruction": "Cadrez sur les hanches, insérez un knee shield, tournez-vous vers l'adversaire, et récupérez guard ou wrestle up.",
-  "summary": "north-south escape utilise un cadre d'avant-bras sur les hanches pour créer une séparation, puis un knee shield pour se transformer en adversaire et récupérer guard. Le système est distinct des évasions side control car le poids de l'adversaire est aligné le long de votre ligne médiane plutôt que perpendiculairement à celle-ci.",
+  "description": "Échappez à la position north-south en créant un cadre, en vous transformant en adversaire et en récupérant Guard ou en vous levant.",
+  "shortInstruction": "Cadrez sur les hanches, insérez un knee shield, tournez-vous vers l'adversaire, et récupérez Guard ou wrestle up.",
+  "summary": "north-south escape utilise un cadre d'avant-bras sur les hanches pour créer une séparation, puis un knee shield pour se transformer en adversaire et récupérer Guard. Le système est distinct des évasions Side Control car le poids de l'adversaire est aligné le long de votre ligne médiane plutôt que perpendiculairement à celle-ci.",
   "whyItWorks": [
     "La broche north-south comprime le torse le long de la ligne médiane : un cadre d'avant-bras sur la hanche redirige son poids loin de vos côtes.",
     "Se transformer en adversaire (au lieu de s'éloigner) utilise votre structure squelettique la plus solide contre sa pression thoracique",
     "Le knee shield crée une barrière structurelle qui les empêche de rétablir la broche après avoir créé de l'espace.",
-    "north-south est une position de transition : une fuite au bon moment les empêche de l'établir comme une épingle et les oblige à revenir à side control ou à se lever."
+    "north-south est une position de transition : une fuite au bon moment les empêche de l'établir comme une épingle et les oblige à revenir à Side Control ou à se lever."
   ],
   "commonMistakes": [
     "Essayer de presser l'adversaire sur un dos plat - cela gaspille de l'énergie par rapport à son avantage de poids",
@@ -88,7 +88,7 @@
     "north-south peut provoquer de la claustrophobie : gérez votre respiration et exécutez la séquence d'évasion calmement"
   ],
   "systemLogic": {
-    "corePrinciple": "L'évasion north-south suit une séquence en quatre étapes : cadre → évasion de la hanche → knee shield → tourner/récupérer guard",
+    "corePrinciple": "L'évasion north-south suit une séquence en quatre étapes : cadre → évasion de la hanche → knee shield → tourner/récupérer Guard",
     "decisionTree": [
       {
         "condition": "Application générale",
@@ -104,14 +104,14 @@
       },
       {
         "condition": "Application générale",
-        "action": "Tournez/récupérez : utilisez le knee shield comme point de pivot pour vous tourner vers eux, puis récupérez le guard complet (en overhooking leur bras éloigné) ou levez-vous via un stand-up technique"
+        "action": "Tournez/récupérez : utilisez le knee shield comme point de pivot pour vous tourner vers eux, puis récupérez le Guard complet (en overhooking leur bras éloigné) ou levez-vous via un stand-up technique"
       }
     ],
     "exitStrategies": []
   },
   "moneyDetails": [
-    "Les évasions north-south sont moins courantes que les évasions side control - maîtriser cette position fait de vous un grappler plus complet",
-    "Une fuite en douceur de north-south rattrape souvent l'adversaire sur guard et mène directement à un balayage ou à une opportunité de reprise.",
+    "Les évasions north-south sont moins courantes que les évasions Side Control - maîtriser cette position fait de vous un grappler plus complet",
+    "Une fuite en douceur de north-south rattrape souvent l'adversaire sur Guard et mène directement à un balayage ou à une opportunité de reprise.",
     "S'échapper north-south sans vous gazer permet de conserver de l'énergie pour le reste du match."
   ],
   "fixItFast": [

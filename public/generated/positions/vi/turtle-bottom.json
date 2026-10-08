@@ -12,7 +12,7 @@
   ],
   "bottomPlayerGoals": [
     "Người ở dưới muốn sống sót trong Turtle Dưới bằng khung chặn, pummel hoặc góc phù hợp.",
-    "Hand fight, giữ kết nối khuỷu-gối chặt và đứng dậy hoặc re-guard theo thứ tự.",
+    "Hand fight, giữ kết nối khuỷu-gối chặt và đứng dậy hoặc re-Guard theo thứ tự.",
     "Nhận diện tín hiệu nguy hiểm sớm thay vì chờ vị trí ổn định."
   ],
   "controlPoints": [
@@ -27,7 +27,7 @@
   ],
   "advancementOptions": [
     {
-      "action": "Xây base để đứng dậy hoặc recover guard",
+      "action": "Xây base để đứng dậy hoặc recover Guard",
       "nextPositionId": "neutral-standing",
       "relatedSkillIds": [
         "turtle-ride",

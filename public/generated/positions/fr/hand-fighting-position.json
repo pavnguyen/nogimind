@@ -4,7 +4,7 @@
   "title": "Hand fighting",
   "category": "standing",
   "status": "neutral",
-  "description": "Une bataille de mains et de position de tête pour entrer en underhook, collar tie, snapdown, single leg ou guard pull.",
+  "description": "Une bataille de mains et de position de tête pour entrer en underhook, collar tie, snapdown, single leg ou Guard pull.",
   "topPlayerGoals": [
     "Le joueur du dessus veut contrôler Hand fighting avec la position de tête, la position intérieure et une pression orientée.",
     "Gagner le contrôle des poignets, les inside ties et la position de tête.",
@@ -27,7 +27,7 @@
   ],
   "advancementOptions": [
     {
-      "action": "Faire un snapdown vers le front headlock",
+      "action": "Faire un snapdown vers le Front Headlock",
       "nextPositionId": "front-headlock-top",
       "relatedSkillIds": [
         "hand-fighting",

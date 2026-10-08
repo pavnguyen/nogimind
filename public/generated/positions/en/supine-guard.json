@@ -1,10 +1,10 @@
 {
-  "id": "supine-guard",
+  "id": "supine-Guard",
   "locale": "en",
   "title": "Supine Guard",
   "category": "bottom_guard",
   "status": "defensive",
-  "description": "The guard player lies supine and uses feet, knees, frames, and hip angle to deny chest-to-chest passing.",
+  "description": "The Guard player lies supine and uses feet, knees, frames, and hip angle to deny chest-to-chest passing.",
   "topPlayerGoals": [
     "The top player wants to control Supine Guard through head position, inside position, and directed pressure.",
     "Staple the legs and win the hip line before passing.",
@@ -12,7 +12,7 @@
   ],
   "bottomPlayerGoals": [
     "The bottom player wants to survive Supine Guard with frames, pummeling, or the right angle.",
-    "Keep the feet and knees inside to recover seated guard or enter a leg attack.",
+    "Keep the feet and knees inside to recover seated Guard or enter a leg attack.",
     "Recognize danger signals early instead of waiting for the position to settle."
   ],
   "controlPoints": [
@@ -28,11 +28,11 @@
   "advancementOptions": [
     {
       "action": "Recover knee shield or a seated layer",
-      "nextPositionId": "knee-shield-half-guard",
+      "nextPositionId": "knee-shield-half-Guard",
       "relatedSkillIds": [
-        "supine-guard-retention",
-        "seated-guard-retention",
-        "k-guard-entry"
+        "supine-Guard-retention",
+        "seated-Guard-retention",
+        "k-Guard-entry"
       ],
       "why": "This is the natural branch when you win the main control point and the opponent is forced to defend."
     }
@@ -44,12 +44,12 @@
     "You need a long hand post to avoid falling."
   ],
   "relatedSkillIds": [
-    "supine-guard-retention",
-    "seated-guard-retention",
-    "k-guard-entry"
+    "supine-Guard-retention",
+    "seated-Guard-retention",
+    "k-Guard-entry"
   ],
   "relatedConceptIds": [
-    "guard-retention-layers",
+    "Guard-retention-layers",
     "inside-position",
     "wedges"
   ]

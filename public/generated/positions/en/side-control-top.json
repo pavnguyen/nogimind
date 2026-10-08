@@ -4,7 +4,7 @@
   "title": "Side Control Top",
   "category": "pin",
   "status": "dominant",
-  "description": "The top player holds side control with a crossface, underhook, hip block, and shoulder pressure.",
+  "description": "The top player holds Side Control with a crossface, underhook, hip block, and shoulder pressure.",
   "topPlayerGoals": [
     "The top player wants to control Side Control Top through head position, inside position, and directed pressure.",
     "Separate the elbow from the knee and force the bottom player into poor escape choices.",
@@ -27,12 +27,12 @@
   ],
   "advancementOptions": [
     {
-      "action": "Advance to mount or a submission threat",
-      "nextPositionId": "mount-top",
+      "action": "Advance to Mount or a submission threat",
+      "nextPositionId": "Mount-top",
       "relatedSkillIds": [
         "side-control-pin",
         "side-control-escape",
-        "arm-triangle-mount"
+        "arm-triangle-Mount"
       ],
       "why": "This is the natural branch when you win the main control point and the opponent is forced to defend."
     }
@@ -46,7 +46,7 @@
   "relatedSkillIds": [
     "side-control-pin",
     "side-control-escape",
-    "arm-triangle-mount"
+    "arm-triangle-Mount"
   ],
   "relatedConceptIds": [
     "pressure-direction",

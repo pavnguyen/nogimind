@@ -3,15 +3,15 @@
   "domain": "submission_systems",
   "level": "advanced",
   "status": "draft",
-  "name": "Armer triangle à partir de mount",
+  "name": "Armer triangle à partir de Mount",
   "aliases": [],
   "tags": [
     "choke",
-    "mount"
+    "Mount"
   ],
   "keywords": [
     "arm triangle",
-    "mount",
+    "Mount",
     "crossface",
     "neck safety"
   ],
@@ -25,7 +25,7 @@
       "type": "recommended"
     },
     {
-      "id": "mount-survival",
+      "id": "Mount-survival",
       "type": "recommended"
     }
   ],
@@ -37,7 +37,7 @@
   "archetypeIds": [],
   "relatedArchetypeIds": [],
   "prerequisiteSkillIds": [
-    "mount-control"
+    "Mount-control"
   ],
   "trainingMethodIds": [],
   "nextSkillIds": [],
@@ -60,20 +60,20 @@
     "hasStateMachine": false
   },
   "locale": "fr",
-  "description": "À partir de mount, séparez le bras de l'adversaire, coupez l'angle et terminez le bras triangle avec une pression sur l'épaule plutôt qu'une pression sur le bras.",
-  "shortInstruction": "Séparez le bras, enjambez la tête, laissez tomber votre poids – le bras triangle de mount est la pression de l'épaule, pas la force du biceps.",
-  "summary": "Le bras triangle de mount est l'une des soumissions avec le pourcentage le plus élevé de la position dominante mount. Contrairement au bras standard triangle de side control, la version mount vous permet d'utiliser tout votre poids corporel. La clé consiste à séparer son bras de son corps (généralement en enfonçant votre avant-bras dans son biceps), à enjamber sa tête et à laisser tomber le poids de sa poitrine sur son épaule coincée.",
+  "description": "À partir de Mount, séparez le bras de l'adversaire, coupez l'angle et terminez le bras triangle avec une pression sur l'épaule plutôt qu'une pression sur le bras.",
+  "shortInstruction": "Séparez le bras, enjambez la tête, laissez tomber votre poids – le bras triangle de Mount est la pression de l'épaule, pas la force du biceps.",
+  "summary": "Le bras triangle de Mount est l'une des soumissions avec le pourcentage le plus élevé de la position dominante Mount. Contrairement au bras standard triangle de Side Control, la version Mount vous permet d'utiliser tout votre poids corporel. La clé consiste à séparer son bras de son corps (généralement en enfonçant votre avant-bras dans son biceps), à enjamber sa tête et à laisser tomber le poids de sa poitrine sur son épaule coincée.",
   "whyItWorks": [
-    "mount vous donne l'avantage de la gravité : tout le poids de votre corps comprime le cou et le bras.",
+    "Mount vous donne l'avantage de la gravité : tout le poids de votre corps comprime le cou et le bras.",
     "Le bras triangle emprisonne à la fois une artère carotide et son épaule – deux points de pression d'un seul mouvement.",
     "Une fois que l’angle est coupé et que votre épaule est sur leur cou, ils ne peuvent pas vous combler ou vous faire rouler.",
-    "Principe de Danaher : les triangle de bras mount ont le pourcentage de finition mount le plus élevé car ils combinent position et soumission."
+    "Principe de Danaher : les triangle de bras Mount ont le pourcentage de finition Mount le plus élevé car ils combinent position et soumission."
   ],
   "commonMistakes": [
     "Essayer de finir sans séparer au préalable le bras de son corps – le bras doit être isolé.",
     "Enjamber la tête trop tôt – enjamber seulement après que le bras soit épinglé à son cou.",
     "Presser avec les bras au lieu de pousser l'épaule - la compression des bras brûle ; la pression sur les épaules se termine.",
-    "Perdre la position mount pour poursuivre l'arrivée – maintenir une forte pression thoracique tout au long."
+    "Perdre la position Mount pour poursuivre l'arrivée – maintenir une forte pression thoracique tout au long."
   ],
   "coachingCues": [
     "Séparez le bras, puis enjambez-le – ne marchez jamais avant la séparation.",
@@ -87,15 +87,15 @@
     "Appuyez tôt sur la compression du cou - faites la distinction entre la pression de l'étranglement et la manivelle du cou."
   ],
   "systemLogic": {
-    "corePrinciple": "Position mount : séparez son bras avec le contrôle de l'avant-bras ou du poignet → guidez son bras vers son cou → enjambez sa tête → laissez tomber le poids de la poitrine → terminez.",
+    "corePrinciple": "Position Mount : séparez son bras avec le contrôle de l'avant-bras ou du poignet → guidez son bras vers son cou → enjambez sa tête → laissez tomber le poids de la poitrine → terminez.",
     "decisionTree": [
       {
         "condition": "ils défendent le bras triangle en cachant le bras",
-        "action": "passez aux attaques mounted armbar ou s-mount."
+        "action": "passez aux attaques mounted armbar ou s-Mount."
       },
       {
         "condition": "Application générale",
-        "action": "Le bras triangle de mount s'enchaîne directement à la prise arrière s'ils roulent pour s'échapper."
+        "action": "Le bras triangle de Mount s'enchaîne directement à la prise arrière s'ils roulent pour s'échapper."
       }
     ],
     "exitStrategies": []
@@ -106,7 +106,7 @@
     "Déposez le poids de votre poitrine sur votre propre épaule – la pression est transférée de votre épaule à son cou.",
     "S'ils font un pont, abaissez vos hanches et répartissez votre poids – vous voulez être « lourd », pas haut."
   ],
-  "nextStep": "Après le bras triangle de mount, apprenez le mounted triangle et s-mount armbar.",
+  "nextStep": "Après le bras triangle de Mount, apprenez le mounted triangle et s-Mount armbar.",
   "fixItFast": [
     "Le bras continue de glisser ? Épinglez-le contre votre propre poitrine avant de l'enjamber.",
     "Ils vous relient ? Élargissez vos genoux et rapprochez vos hanches du tapis.",

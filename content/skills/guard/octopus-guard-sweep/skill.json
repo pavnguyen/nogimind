@@ -1,5 +1,5 @@
 {
-  "id": "octopus-guard-sweep",
+  "id": "octopus-Guard-sweep",
   "domain": "guard_offense",
   "level": "intermediate",
   "name": "Octopus Guard Sweep",
@@ -11,7 +11,7 @@
     "tier:modern-expansion",
     "meta:modern-common",
     "risk:medium",
-    "family:guard",
+    "family:Guard",
     "group:octopus",
     "modern-no-gi"
   ],
@@ -23,7 +23,7 @@
   "modernSystemGroup": "octopus",
   "relatedSkills": [
     {
-      "id": "octopus-guard-control",
+      "id": "octopus-Guard-control",
       "type": "recommended"
     },
     {
@@ -36,8 +36,8 @@
     }
   ],
   "prerequisiteSkillIds": [
-    "octopus-guard-control",
-    "half-guard-wrestle-up"
+    "octopus-Guard-control",
+    "half-Guard-wrestle-up"
   ],
   "relatedPositions": [],
   "relatedConcepts": [],

@@ -1,15 +1,15 @@
 {
   "id": "fhl-go-behind",
   "locale": "fr",
-  "name": "prise de dos depuis front headlock",
-  "description": "La prise en arrière la plus fondamentale de front headlock : faire un cercle vers l'arrière lorsque l'adversaire résiste à l'étranglement ou tente de se mettre à plat ventre.",
-  "shortInstruction": "Contrôlez la tête, faites un cercle vers l'arrière, prenez les crochets — le passage en arrière est le chemin le plus simple de front headlock à back control.",
-  "summary": "Le retour à partir de front headlock est le pourcentage de transition le plus élevé dans le système front headlock. Lorsque vous avez le front headlock et que l'adversaire résiste à votre tentative d'étranglement (guillotine, d'arce, anaconda), il essaiera souvent de s'aplatir ou de s'éloigner. Leur résistance crée l’espace dont vous avez besoin pour relâcher l’étranglement, tourner derrière eux et prendre le dos. Le go-behind transforme une soumission échouée en position la plus dominante dans BJJ.",
+  "name": "prise de dos depuis Front Headlock",
+  "description": "La prise en arrière la plus fondamentale de Front Headlock : faire un cercle vers l'arrière lorsque l'adversaire résiste à l'étranglement ou tente de se mettre à plat ventre.",
+  "shortInstruction": "Contrôlez la tête, faites un cercle vers l'arrière, prenez les crochets — le passage en arrière est le chemin le plus simple de Front Headlock à back control.",
+  "summary": "Le retour à partir de Front Headlock est le pourcentage de transition le plus élevé dans le système Front Headlock. Lorsque vous avez le Front Headlock et que l'adversaire résiste à votre tentative d'étranglement (Guillotine, d'arce, anaconda), il essaiera souvent de s'aplatir ou de s'éloigner. Leur résistance crée l’espace dont vous avez besoin pour relâcher l’étranglement, tourner derrière eux et prendre le dos. Le go-behind transforme une soumission échouée en position la plus dominante dans BJJ.",
   "whyItWorks": [
     "Lorsqu’ils résistent à l’étranglement, ils se concentrent sur la défense de leur cou – leur dos est exposé.",
-    "Le front headlock contrôle déjà sa tête et un bras – vous avez déjà parcouru 50 % du chemin vers back control.",
-    "Faire des cercles derrière est un mouvement naturel de front headlock : leur pression vers l'avant crée l'espace.",
-    "Principe de Danaher : chaque tentative de front headlock doit avoir une option de mise en marche arrière – ne vous engagez jamais complètement dans le starter."
+    "Le Front Headlock contrôle déjà sa tête et un bras – vous avez déjà parcouru 50 % du chemin vers back control.",
+    "Faire des cercles derrière est un mouvement naturel de Front Headlock : leur pression vers l'avant crée l'espace.",
+    "Principe de Danaher : chaque tentative de Front Headlock doit avoir une option de mise en marche arrière – ne vous engagez jamais complètement dans le starter."
   ],
   "commonMistakes": [
     "S’engager pleinement dans l’étranglement et oublier le go-derrière – le go-derrière devrait toujours être une option.",
@@ -34,7 +34,7 @@
     "S'ils sprawl sur votre derrière, ils l'ont senti venir - utilisez une feinte (faux étranglement) avant de vous engager."
   ],
   "systemLogic": {
-    "corePrinciple": "front headlock établi → l'adversaire résiste à l'étranglement → relâchez l'étranglement → cercle derrière lui → sécurisez seatbelt → insérez les crochets → back control.",
+    "corePrinciple": "Front Headlock établi → l'adversaire résiste à l'étranglement → relâchez l'étranglement → cercle derrière lui → sécurisez seatbelt → insérez les crochets → back control.",
     "decisionTree": [
       {
         "condition": "Le go-behind fonctionne dans le cadre du système FHL : menace d'étranglement",
@@ -42,7 +42,7 @@
       },
       {
         "condition": "Application générale",
-        "action": "Si le go-behind échoue, revenez à front headlock ou passez à side control."
+        "action": "Si le go-behind échoue, revenez à Front Headlock ou passez à Side Control."
       }
     ]
   },

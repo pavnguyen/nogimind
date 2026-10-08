@@ -42,7 +42,7 @@
   "fixItFast": [
     "Nếu gót biến mất: kéo đầu gối họ vào ngực và tìm lại gót",
     "Nếu họ xoay cùng chiều: thả và chuyển sang straight ankle lock",
-    "Nếu bạn mất boot grip: bảo vệ chân bạn và phục hồi guard"
+    "Nếu bạn mất boot grip: bảo vệ chân bạn và phục hồi Guard"
   ],
   "systemLogic": {
     "corePrinciple": "Heel hook: thiết lập leg entanglement → clear knee line → giữ boot grip (ống chân kẹp gót) → xoay hông theo hướng kết thúc → vắt bắp chân bằng ống chân → kết thúc bằng xoay, không bóp.",
@@ -61,7 +61,7 @@
       }
     ],
     "exitStrategies": [
-      "Nếu mất heel exposure, phục hồi guard và reset",
+      "Nếu mất heel exposure, phục hồi Guard và reset",
       "Nếu họ thoát entanglement, không đuổi theo — bảo vệ chân bạn và phục hồi"
     ]
   }

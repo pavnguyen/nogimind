@@ -20,7 +20,7 @@
     { "id": "headquarters-passing", "type": "prerequisite" },
     { "id": "knee-cut-passing", "type": "alternative" }
   ],
-  "relatedPositions": ["half-guard-top", "open-guard-top"],
+  "relatedPositions": ["half-Guard-top", "open-Guard-top"],
   "relatedConcepts": ["hip-control", "inside-position", "knee-line", "frames-pummeling"],
   "archetypeIds": ["pressure-top-player", "passing-specialist"],
   "trainingMethodIds": ["static-repetition", "progressive-resistance", "live-positional"],
@@ -30,7 +30,7 @@
       { "order": 2, "name": "Head Offset", "description": "Position head to one side to block shoulder crunch and frames." },
       { "order": 3, "name": "Kill the Hooks", "description": "Smash butterfly hooks flat with chest pressure before clearing the knee line." },
       { "order": 4, "name": "Clear Knee Line", "description": "Step the trapped leg back while maintaining chest-to-hip pressure." },
-      { "order": 5, "name": "Stabilize Side Control", "description": "Once past, transition to side control pin immediately." }
+      { "order": 5, "name": "Stabilize Side Control", "description": "Once past, transition to Side Control pin immediately." }
     ],
     "contactPoints": [
       { "bodyPart": "chest", "target": "hips", "role": "primary pressure" },

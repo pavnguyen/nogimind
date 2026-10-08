@@ -1,10 +1,10 @@
 {
-  "id": "mount-top",
+  "id": "Mount-top",
   "locale": "fr",
   "title": "Mount dessus",
   "category": "pin",
   "status": "dominant",
-  "description": "Le joueur du dessus est assis sur les hanches ou la poitrine adverse, sépare les coudes et ouvre la high mount ou les soumissions.",
+  "description": "Le joueur du dessus est assis sur les hanches ou la poitrine adverse, sépare les coudes et ouvre la high Mount ou les soumissions.",
   "topPlayerGoals": [
     "Le joueur du dessus veut contrôler Mount dessus avec la position de tête, la position intérieure et une pression orientée.",
     "Stabiliser les hanches, séparer les coudes et créer un étranglement ou une isolation du bras.",
@@ -27,12 +27,12 @@
   ],
   "advancementOptions": [
     {
-      "action": "Isoler un arm triangle ou monter en high mount",
+      "action": "Isoler un arm triangle ou monter en high Mount",
       "nextPositionId": "arm-triangle-threat",
       "relatedSkillIds": [
-        "mount-control",
-        "mount-escape",
-        "arm-triangle-mount"
+        "Mount-control",
+        "Mount-escape",
+        "arm-triangle-Mount"
       ],
       "why": "C’est la branche naturelle lorsque vous gagnez le point de contrôle principal et que l’adversaire est forcé de défendre."
     }
@@ -44,9 +44,9 @@
     "Vous devez poser une main loin pour éviter de tomber."
   ],
   "relatedSkillIds": [
-    "mount-control",
-    "mount-escape",
-    "arm-triangle-mount"
+    "Mount-control",
+    "Mount-escape",
+    "arm-triangle-Mount"
   ],
   "relatedConceptIds": [
     "control-before-submission",

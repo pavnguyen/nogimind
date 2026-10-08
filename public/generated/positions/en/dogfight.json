@@ -4,7 +4,7 @@
   "title": "Dogfight",
   "category": "scramble",
   "status": "neutral",
-  "description": "Both players are on a knee or hip in an underhook-versus-whizzer battle from half guard or a wrestle-up.",
+  "description": "Both players are on a knee or hip in an underhook-versus-whizzer battle from Half Guard or a wrestle-up.",
   "topPlayerGoals": [
     "The top player wants to control Dogfight through head position, inside position, and directed pressure.",
     "Use a whizzer, sprawl, or mat return.",
@@ -30,7 +30,7 @@
       "action": "Finish the single leg or mat return",
       "nextPositionId": "neutral-standing",
       "relatedSkillIds": [
-        "half-guard-wrestle-up",
+        "half-Guard-wrestle-up",
         "single-leg-bjj",
         "mat-return-basics"
       ],
@@ -44,7 +44,7 @@
     "You need a long hand post to avoid falling."
   ],
   "relatedSkillIds": [
-    "half-guard-wrestle-up",
+    "half-Guard-wrestle-up",
     "single-leg-bjj",
     "mat-return-basics"
   ],

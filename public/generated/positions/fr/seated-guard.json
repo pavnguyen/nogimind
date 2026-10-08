@@ -1,5 +1,5 @@
 {
-  "id": "seated-guard",
+  "id": "seated-Guard",
   "locale": "fr",
   "title": "Garde assise",
   "category": "bottom_guard",
@@ -30,7 +30,7 @@
       "action": "Entrer en shin-to-shin ou faire un wrestle-up",
       "nextPositionId": "single-leg-x",
       "relatedSkillIds": [
-        "seated-guard-retention",
+        "seated-Guard-retention",
         "shin-to-shin-entry",
         "technical-stand-up"
       ],
@@ -44,12 +44,12 @@
     "Vous devez poser une main loin pour éviter de tomber."
   ],
   "relatedSkillIds": [
-    "seated-guard-retention",
+    "seated-Guard-retention",
     "shin-to-shin-entry",
     "technical-stand-up"
   ],
   "relatedConceptIds": [
-    "guard-retention-layers",
+    "Guard-retention-layers",
     "hooks",
     "posts"
   ]

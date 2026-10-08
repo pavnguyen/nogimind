@@ -1,26 +1,26 @@
 {
-  "id": "mount-control",
+  "id": "Mount-control",
   "domain": "pins_rides",
   "level": "intermediate",
   "name": "Mount Control",
   "aliases": [],
   "tags": [
-    "mount",
+    "Mount",
     "pin"
   ],
   "keywords": [
-    "mount",
-    "high mount",
+    "Mount",
+    "high Mount",
     "hand fighting",
     "dilemma"
   ],
   "relatedSkills": [
     {
-      "id": "arm-triangle-mount",
+      "id": "arm-triangle-Mount",
       "type": "recommended"
     },
     {
-      "id": "mount-survival",
+      "id": "Mount-survival",
       "type": "recommended"
     },
     {

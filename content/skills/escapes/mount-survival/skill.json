@@ -1,30 +1,30 @@
 {
-  "id": "mount-survival",
+  "id": "Mount-survival",
   "domain": "survival_defense",
   "level": "beginner",
   "name": "Mount Survival",
   "aliases": [],
   "tags": [
     "survival",
-    "mount"
+    "Mount"
   ],
   "keywords": [
-    "mount",
+    "Mount",
     "elbow knee connection",
     "bridge",
     "inside position"
   ],
   "relatedSkills": [
     {
-      "id": "mount-escape",
+      "id": "Mount-escape",
       "type": "recommended"
     },
     {
-      "id": "arm-triangle-mount",
+      "id": "arm-triangle-Mount",
       "type": "recommended"
     },
     {
-      "id": "mount-control",
+      "id": "Mount-control",
       "type": "recommended"
     }
   ],

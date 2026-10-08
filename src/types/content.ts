@@ -303,6 +303,51 @@ export const OneMinuteModeSchema = z.object({
 })
 export type OneMinuteMode = z.infer<typeof OneMinuteModeSchema>
 
+const MicroDetailSchema = z.object({
+  id: z.string().min(1),
+  category: z.enum(['hand', 'elbow', 'head', 'shoulder', 'chest', 'hip', 'knee', 'foot', 'angle', 'pressure', 'timing', 'grip', 'hook', 'finish', 'escape', 'safety', 'body', 'leg', 'calf']),
+  title: z.string().min(1),
+  shortInstruction: z.string().min(1),
+  side: z.enum(['left', 'right', 'near', 'far', 'inside', 'outside', 'both', 'either', 'center']).optional(),
+  direction: z.enum(['pull_left', 'pull_right', 'push_left', 'push_right', 'pull_toward_you', 'push_away', 'drive_down', 'drive_up', 'drive_diagonal', 'rotate_left', 'rotate_right', 'flare_out', 'pin_in', 'open_out', 'close_in', 'circle_inside', 'circle_outside', 'hide', 'expose', 'lift', 'drop', 'wedge', 'wrap', 'hook', 'post', 'grip', 'clamp', 'block', 'drag', 'shelf', 'scoot', 'track', 'posture', 'lift_up', 'compress_down', 'pin_inward', 'pin_down', 'drive_forward', 'rotate_full', 'rotate_diagonal', 'push_out', 'arch', 'invert', 'slip', 'roll_side', 'chest_connection']).optional(),
+  bodyParts: z.array(z.string()),
+  whenToUse: z.string().min(1),
+  whyItWorks: z.string().min(1),
+  commonMistake: z.string().min(1),
+  correctionCue: z.string().min(1),
+  liveCue: z.string().min(1),
+  safetyNote: z.string().optional(),
+})
+
+export const MicroDetailSystemSchema = z.object({
+  overview: z.string().min(1),
+  topFiveDetails: z.array(MicroDetailSchema).min(3).max(5),
+  troubleshootingTips: z.array(z.object({ problem: z.string(), quickFix: z.string(), cue: z.string() })).default([]),
+  doNotDo: z.array(z.string()).default([]),
+  safetyNotes: z.array(z.string()).default([]),
+})
+
+export const QualityChecklistSchema = z.object({
+  type: z.enum(['submission', 'pass', 'control', 'escape', 'Guard', 'wrestling', 'safety']),
+  overview: z.string().min(1),
+  checks: z.array(z.object({
+    id: z.string().min(1),
+    title: z.string().min(1),
+    question: z.string().min(1),
+    successSignal: z.string().min(1),
+    failureSignal: z.string().min(1),
+    quickFix: z.string().min(1),
+    bodyParts: z.array(z.enum(['head', 'eyes', 'ears', 'chin', 'neck', 'shoulders', 'chest', 'sternum', 'ribs', 'spine', 'hips', 'pelvis', 'hands', 'wrists', 'elbows', 'forearms', 'biceps', 'knees', 'thighs', 'shins', 'ankles', 'heels', 'toes', 'feet'])),
+    relatedMicroDetailIds: z.array(z.string()).optional(),
+    severity: z.enum(['minor', 'major', 'critical']),
+  })).min(3).max(5),
+  passThreshold: z.number().int().min(1),
+  ifPassed: z.string().min(1),
+  ifFailed: z.string().min(1),
+})
+export type MicroDetailSystemContent = z.infer<typeof MicroDetailSystemSchema>
+export type QualityChecklistContent = z.infer<typeof QualityChecklistSchema>
+
 export const SkillContentSchema = z.object({
   id: z.string().min(1),
   locale: LocaleSchema,
@@ -320,6 +365,8 @@ export const SkillContentSchema = z.object({
   moneyDetails: z.array(z.string()).default([]),
   nextStep: z.string().optional(),
   fixItFast: z.array(z.string()).default([]),
+  microDetailSystem: MicroDetailSystemSchema.optional(),
+  qualityChecklist: QualityChecklistSchema.optional(),
 })
 
 export type SkillContent = z.infer<typeof SkillContentSchema>
@@ -419,5 +466,7 @@ export const SkillDetailArtifactSchema = z.object({
   moneyDetails: z.array(z.string()).default([]),
   nextStep: z.string().optional(),
   fixItFast: z.array(z.string()).default([]),
+  microDetailSystem: MicroDetailSystemSchema.optional(),
+  qualityChecklist: QualityChecklistSchema.optional(),
 }).passthrough()
 export type SkillDetailArtifact = z.infer<typeof SkillDetailArtifactSchema>

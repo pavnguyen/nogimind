@@ -8,20 +8,20 @@
     "half-butterfly",
     "leg-lock",
     "bear-trap",
-    "k-guard",
+    "k-Guard",
     "leg-entry"
   ],
   "keywords": [
     "half butterfly",
     "butterfly hook",
-    "K-guard entry",
+    "K-Guard entry",
     "bear trap",
     "elevation",
     "leg entry"
   ],
   "relatedSkills": [
     {
-      "id": "k-guard-matrix",
+      "id": "k-Guard-matrix",
       "type": "recommended"
     },
     {
@@ -29,7 +29,7 @@
       "type": "recommended"
     },
     {
-      "id": "deep-half-guard",
+      "id": "deep-half-Guard",
       "type": "recommended"
     },
     {
@@ -38,9 +38,9 @@
     }
   ],
   "prerequisiteSkillIds": [
-    "butterfly-guard-off-balance",
-    "half-guard-knee-shield",
-    "k-guard-entry"
+    "butterfly-Guard-off-balance",
+    "half-Guard-knee-shield",
+    "k-Guard-entry"
   ],
   "relatedPositions": [],
   "relatedConcepts": [],

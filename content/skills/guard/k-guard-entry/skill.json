@@ -1,15 +1,15 @@
 {
-  "id": "k-guard-entry",
+  "id": "k-Guard-entry",
   "domain": "guard_offense",
   "level": "advanced",
   "name": "K-Guard Entry",
   "aliases": [],
   "tags": [
-    "guard",
+    "Guard",
     "leg-lock"
   ],
   "keywords": [
-    "K-guard",
+    "K-Guard",
     "knee line",
     "ashi garami",
     "heel exposure"
@@ -24,12 +24,12 @@
       "type": "recommended"
     },
     {
-      "id": "guard-pulling-strategy",
+      "id": "Guard-pulling-strategy",
       "type": "recommended"
     }
   ],
   "prerequisiteSkillIds": [
-    "supine-guard-retention",
+    "supine-Guard-retention",
     "leg-lock-safety-basics"
   ],
   "relatedPositions": [],

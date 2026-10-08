@@ -7,7 +7,7 @@
   "description": "Người ở dưới bị pin chest-to-chest hoặc bị kiểm soát bởi crossface và underhook, cần sống sót trước khi escape.",
   "topPlayerGoals": [
     "Người ở trên muốn kiểm soát Side Control Dưới bằng vị trí đầu, vị trí trong và áp lực có hướng.",
-    "Người ở trên muốn ổn định pin, tách khuỷu-gối và lên mount.",
+    "Người ở trên muốn ổn định pin, tách khuỷu-gối và lên Mount.",
     "Giữ nền vững để không bị mất thăng bằng hoặc bị phản đòn."
   ],
   "bottomPlayerGoals": [
@@ -27,8 +27,8 @@
   ],
   "advancementOptions": [
     {
-      "action": "Recover knee-elbow về guard",
-      "nextPositionId": "knee-shield-half-guard",
+      "action": "Recover knee-elbow về Guard",
+      "nextPositionId": "knee-shield-half-Guard",
       "relatedSkillIds": [
         "side-control-survival",
         "side-control-escape",

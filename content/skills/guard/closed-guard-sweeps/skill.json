@@ -1,11 +1,11 @@
 {
-  "id": "closed-guard-sweeps",
+  "id": "closed-Guard-sweeps",
   "domain": "guard_offense",
   "level": "intermediate",
   "name": "Closed Guard Sweeps",
   "aliases": [],
   "tags": [
-    "closed-guard",
+    "closed-Guard",
     "sweep",
     "hip-bump",
     "scissor"
@@ -18,7 +18,7 @@
   ],
   "relatedSkills": [
     {
-      "id": "clamp-guard-control",
+      "id": "clamp-Guard-control",
       "type": "recommended"
     },
     {
@@ -31,7 +31,7 @@
     }
   ],
   "prerequisiteSkillIds": [
-    "closed-guard-posture-control"
+    "closed-Guard-posture-control"
   ],
   "relatedPositions": [],
   "relatedConcepts": [],

@@ -11,7 +11,7 @@ import { hubNavItems, pathInHub } from './navItems'
 const bottomTabItems = [
   { hub: 'learn', icon: Compass },
   { hub: 'study', icon: Zap },
-  { hub: 'fix', icon: Wrench },
+  { hub: 'defense', icon: Wrench },
   { hub: 'build', icon: Layers3 },
   { hub: 'reference', icon: BookOpen },
 ]

@@ -7,7 +7,7 @@
   "aliases": [
     "berimbolo",
     "inversion back take",
-    "berimbolo guard"
+    "berimbolo Guard"
   ],
   "tags": [
     "tier:modern-expansion",
@@ -26,11 +26,11 @@
   "modernSystemGroup": "x_guard",
   "relatedSkills": [
     {
-      "id": "coyote-half-guard",
+      "id": "coyote-half-Guard",
       "type": "chain"
     },
     {
-      "id": "k-guard-to-outside-ashi",
+      "id": "k-Guard-to-outside-ashi",
       "type": "alternative"
     }
   ],
@@ -40,7 +40,7 @@
   "relatedConcepts": [],
   "relatedConceptIds": [],
   "archetypeIds": [
-    "guard-retention-specialist"
+    "Guard-retention-specialist"
   ],
   "relatedArchetypeIds": [],
   "prerequisiteSkillIds": [],
@@ -49,8 +49,8 @@
   "searchBoost": 1,
   "keyCorrections": [
     "Nếu họ không bước tới: berimbolo không có sẵn — ở lại DLR/RDLR và quét thay thế",
-    "Nếu họ lùi để tránh đòn lộn: thả móc DLR và vào K-guard",
-    "Nếu họ theo bạn qua vòng lộn: họ đang phòng thủ đúng — vào lại guard và thử lại"
+    "Nếu họ lùi để tránh đòn lộn: thả móc DLR và vào K-Guard",
+    "Nếu họ theo bạn qua vòng lộn: họ đang phòng thủ đúng — vào lại Guard và thử lại"
   ],
   "version": 1,
   "updatedAt": "2026-05-28T09:34:33.157Z",
@@ -68,7 +68,7 @@
   "shortInstruction": "Móc DLR/RDLR, đối thủ bước tới, lộn qua vai xa, kéo hông xa họ qua khỏi vòng lộn, và hạ cánh phía sau với back control.",
   "summary": "Berimbolo back take sử dụng động tác lộn người để đổi vị trí từ dưới đối thủ ra sau lưng họ. Kích hoạt khi đối thủ bước tới, bạn lộn qua vai, kéo hông xa và hạ cánh ở tư thế back control.",
   "whyItWorks": [
-    "Lộn người bên dưới khi họ bước tới đảo ngược mối quan hệ trong/ngoài — bạn từ trong guard họ ra ngoài lưng họ",
+    "Lộn người bên dưới khi họ bước tới đảo ngược mối quan hệ trong/ngoài — bạn từ trong Guard họ ra ngoài lưng họ",
     "Móc hông xa ngăn họ theo kịp bạn qua vòng lộn",
     "Bước tới của họ là tín hiệu kích hoạt — nếu họ bước tới, berimbolo có sẵn",
     "Động tác lộn dùng đà tiến của họ chống lại họ — không cần sức mạnh"
@@ -91,7 +91,7 @@
     "Tập berimbolo trên thảm mềm với bạn tập hợp tác trước khi dùng trong live"
   ],
   "systemLogic": {
-    "corePrinciple": "Berimbolo back take: DLR hoặc RDLR guard → đối thủ bước tới (tín hiệu) → lộn qua vai xa → kéo hông xa họ qua vòng lộn → hạ cánh phía sau → thay móc bằng back control.",
+    "corePrinciple": "Berimbolo back take: DLR hoặc RDLR Guard → đối thủ bước tới (tín hiệu) → lộn qua vai xa → kéo hông xa họ qua vòng lộn → hạ cánh phía sau → thay móc bằng back control.",
     "decisionTree": [
       {
         "condition": "Họ không bước tới",
@@ -99,26 +99,26 @@
       },
       {
         "condition": "Họ lùi để tránh đòn lộn",
-        "action": "thả móc DLR và vào K-guard"
+        "action": "thả móc DLR và vào K-Guard"
       },
       {
         "condition": "Họ theo bạn qua vòng lộn",
-        "action": "họ đang phòng thủ đúng — vào lại guard và thử lại"
+        "action": "họ đang phòng thủ đúng — vào lại Guard và thử lại"
       }
     ],
     "exitStrategies": [
-      "Nếu bạn không thể kết thúc pha lên lưng, vào lại guard và reset",
-      "Nếu họ đè bạn xuống trong lúc lộn, bảo vệ cổ và phục hồi guard"
+      "Nếu bạn không thể kết thúc pha lên lưng, vào lại Guard và reset",
+      "Nếu họ đè bạn xuống trong lúc lộn, bảo vệ cổ và phục hồi Guard"
     ]
   },
   "moneyDetails": [
-    "Berimbolo đã cách mạng hóa lối chơi guard BJJ hiện đại bằng cách giới thiệu đòn lên lưng dựa trên động tác lộn người",
-    "Thành thạo berimbolo cho bạn một lối vào back take đáng tin cậy từ guard mà không cần sức mạnh",
+    "Berimbolo đã cách mạng hóa lối chơi Guard BJJ hiện đại bằng cách giới thiệu đòn lên lưng dựa trên động tác lộn người",
+    "Thành thạo berimbolo cho bạn một lối vào back take đáng tin cậy từ Guard mà không cần sức mạnh",
     "Berimbolo đặc biệt hiệu quả với đối thủ đè trọng lượng về phía trước"
   ],
   "fixItFast": [
     "Nếu họ chống tay để chặn back take: tấn công tay đó bằng kimura hoặc armbar",
-    "Nếu họ lùi: thả và chuyển sang K-guard entry",
+    "Nếu họ lùi: thả và chuyển sang K-Guard entry",
     "Nếu bạn bị kẹt giữa vòng lộn: kéo hông họ mạnh hơn — kéo tay là động cơ của đòn lộn"
   ]
 }

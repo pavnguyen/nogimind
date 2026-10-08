@@ -1,17 +1,17 @@
 {
-  "id": "knee-shield-half-guard",
+  "id": "knee-shield-half-Guard",
   "locale": "fr",
-  "title": "Half guard avec knee shield",
+  "title": "Half Guard avec knee shield",
   "category": "bottom_guard",
   "status": "neutral",
   "description": "Le knee shield crée un wedge entre la poitrine ou la hanche du joueur du dessus et le corps du joueur du dessous.",
   "topPlayerGoals": [
-    "Le joueur du dessus veut contrôler Half guard avec knee shield avec la position de tête, la position intérieure et une pression orientée.",
+    "Le joueur du dessus veut contrôler Half Guard avec knee shield avec la position de tête, la position intérieure et une pression orientée.",
     "Écraser le shield ou pummeler vers un knee cut ou une position headquarters.",
     "Garder une base stable pour éviter d’être déséquilibré ou contré."
   ],
   "bottomPlayerGoals": [
-    "Le joueur du dessous veut survivre en Half guard avec knee shield avec des cadres, du pummeling ou le bon angle.",
+    "Le joueur du dessous veut survivre en Half Guard avec knee shield avec des cadres, du pummeling ou le bon angle.",
     "Garder le shield actif, gagner l’underhook et entrer en wrestle-up.",
     "Reconnaître les signaux de danger tôt au lieu d’attendre que la position se stabilise."
   ],
@@ -30,8 +30,8 @@
       "action": "Pummeler pour l’underhook afin d’arriver en dogfight",
       "nextPositionId": "dogfight",
       "relatedSkillIds": [
-        "half-guard-knee-shield",
-        "half-guard-wrestle-up",
+        "half-Guard-knee-shield",
+        "half-Guard-wrestle-up",
         "knee-cut-passing"
       ],
       "why": "C’est la branche naturelle lorsque vous gagnez le point de contrôle principal et que l’adversaire est forcé de défendre."
@@ -44,8 +44,8 @@
     "Vous devez poser une main loin pour éviter de tomber."
   ],
   "relatedSkillIds": [
-    "half-guard-knee-shield",
-    "half-guard-wrestle-up",
+    "half-Guard-knee-shield",
+    "half-Guard-wrestle-up",
     "knee-cut-passing"
   ],
   "relatedConceptIds": [

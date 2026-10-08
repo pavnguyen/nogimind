@@ -29,6 +29,29 @@ export default function AboutPage() {
           ))}
         </div>
       </SectionCard>
+      <SectionCard title={t('about.thanks.heading')}>
+        <div className="space-y-4">
+          <p className="text-base leading-8 text-slate-300">{t('about.thanks.body')}</p>
+          <div className="flex flex-wrap gap-3">
+            <a
+              href="https://www.facebook.com/profile.php?id=100087911966054"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 rounded-lg border border-white/[0.08] bg-white/[0.02] px-4 py-2 text-sm font-medium text-slate-300 transition-colors hover:border-amber-300/30 hover:text-amber-100"
+            >
+              Guardian HCM · Facebook
+            </a>
+            <a
+              href="https://www.instagram.com/guardianhcmc/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 rounded-lg border border-white/[0.08] bg-white/[0.02] px-4 py-2 text-sm font-medium text-slate-300 transition-colors hover:border-amber-300/30 hover:text-amber-100"
+            >
+              Guardian HCM · Instagram
+            </a>
+          </div>
+        </div>
+      </SectionCard>
     </PageShell>
   )
 }

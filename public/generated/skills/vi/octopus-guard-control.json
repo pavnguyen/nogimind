@@ -3,29 +3,29 @@
   "domain": "guard_retention",
   "level": "intermediate",
   "status": "draft",
-  "name": "Bạch tuộc guard Kiểm soát",
+  "name": "Octopus Guard Kiểm soát",
   "aliases": [],
   "tags": [
     "octopus",
-    "guard",
+    "Guard",
     "hip-angle",
     "wrestle-up",
     "tier:modern-expansion",
     "meta:modern-common",
     "risk:medium",
-    "family:guard",
+    "family:Guard",
     "group:octopus",
     "modern-no-gi"
   ],
   "keywords": [
-    "octopus guard",
+    "octopus Guard",
     "far hip",
     "crossface defense"
   ],
   "modernSystemGroup": "octopus",
   "relatedSkills": [
     {
-      "id": "octopus-guard-sweep",
+      "id": "octopus-Guard-sweep",
       "type": "recommended"
     },
     {
@@ -46,7 +46,7 @@
   "relatedArchetypeIds": [],
   "prerequisiteSkillIds": [
     "side-control-escape",
-    "half-guard-wrestle-up"
+    "half-Guard-wrestle-up"
   ],
   "trainingMethodIds": [],
   "nextSkillIds": [],
@@ -68,20 +68,20 @@
     "hasStateMachine": false
   },
   "locale": "vi",
-  "description": "Giữ tư thế bạch tuộc guard với tư thế quấn xa hông, góc ngồi và crossface từ chối để kiểm soát phần thân trên của đối phương và ngăn họ vượt qua.",
-  "shortInstruction": "Quấn hông xa, ngồi nghiêng, từ chối crossface — con bạch tuộc guard đang điều khiển từ bên dưới.",
-  "summary": "Bạch tuộc guard là một guard dành riêng cho No-Gi trong đó bạn ngồi sang một bên của đối thủ, vòng tay quanh hông xa của họ (hoặc vươn tay xuống dưới cơ thể họ) và dùng chân của bạn để bám vào chân gần của họ. Vị trí này ngăn chúng đè bẹp bạn hoặc tạo áp lực crossface. Từ đây, bạn có thể quét (bằng cách kéo hông xa của họ), ra sau hoặc vướng vào chân.",
+  "description": "Giữ tư thế Octopus Guard với tư thế quấn xa hông, góc ngồi và crossface từ chối để kiểm soát phần thân trên của đối phương và ngăn họ vượt qua.",
+  "shortInstruction": "Quấn hông xa, ngồi nghiêng, từ chối crossface — con Octopus Guard đang điều khiển từ bên dưới.",
+  "summary": "Octopus Guard là một Guard dành riêng cho No-Gi trong đó bạn ngồi sang một bên của đối thủ, vòng tay quanh hông xa của họ (hoặc vươn tay xuống dưới cơ thể họ) và dùng chân của bạn để bám vào chân gần của họ. Vị trí này ngăn chúng đè bẹp bạn hoặc tạo áp lực crossface. Từ đây, bạn có thể quét (bằng cách kéo hông xa của họ), ra sau hoặc vướng vào chân.",
   "whyItWorks": [
     "Ngồi sang một bên sẽ loại bỏ khả năng đè bẹp bạn bằng áp lực của ngực - chúng không có góc vuông để vượt qua.",
     "Lớp quấn xa hông kiểm soát trọng tâm của chúng - bạn có thể cảm nhận được mọi sự thay đổi trọng lượng mà chúng thực hiện.",
     "Chân của bạn đặt trên chân gần của họ khiến họ không thể bước vào đường chuyền.",
-    "Nguyên tắc Danaher: nếu bạn không thể bị san phẳng, bạn không thể bị vượt qua - bạch tuộc guard là vị trí chống phẳng."
+    "Nguyên tắc Danaher: nếu bạn không thể bị san phẳng, bạn không thể bị vượt qua - Octopus Guard là vị trí chống phẳng."
   ],
   "commonMistakes": [
     "Mất phần quấn ở hông xa - đây là điểm kiểm soát chính của bạn; không có nó, họ quay đi.",
     "Ngồi vuông góc thay vì ngồi một góc — vị trí vuông góc mang lại cho họ crossface.",
     "Để họ bước qua chân khung của bạn - một khi họ đã dọn sạch chân, đường chuyền đã hoàn thành một nửa.",
-    "Ở trong bạch tuộc guard quá lâu - đó là vị trí kiểm soát chuyển tiếp, không phải là nhà."
+    "Ở trong Octopus Guard quá lâu - đó là vị trí kiểm soát chuyển tiếp, không phải là nhà."
   ],
   "coachingCues": [
     "Ngồi sang một bên, không ngồi phía trước.",
@@ -99,11 +99,11 @@
     "decisionTree": [
       {
         "condition": "Ứng dụng chung",
-        "action": "Tùy chọn Octopus guard: quét chúng về phía trước (kéo hông), quét chúng về phía sau (thang máy) hoặc lùi lại khi chúng quay đi."
+        "action": "Tùy chọn Octopus Guard: quét chúng về phía trước (kéo hông), quét chúng về phía sau (thang máy) hoặc lùi lại khi chúng quay đi."
       },
       {
         "condition": "Ứng dụng chung",
-        "action": "Nếu họ từ chối mục nhập của bạch tuộc, hãy chuyển sang guard ngồi hoặc nửa sâu."
+        "action": "Nếu họ từ chối mục nhập của Octopus, hãy chuyển sang Guard ngồi hoặc nửa sâu."
       }
     ],
     "exitStrategies": []
@@ -114,10 +114,10 @@
     "Giữ đầu của bạn ở phía xa cơ thể của họ để tránh crossfaces.",
     "Khi bạn cảm thấy họ dồn trọng lượng về phía trước, hãy kéo hông xa ngang cơ thể để quét."
   ],
-  "nextStep": "Sau khi điều khiển bạch tuộc guard, hãy tìm hiểu thao tác quét và lùi của bạch tuộc guard.",
+  "nextStep": "Sau khi điều khiển Octopus Guard, hãy tìm hiểu thao tác quét và lùi của Octopus Guard.",
   "fixItFast": [
     "Họ quay ra? Thiết lập lại vòng quấn xa hông trước khi chúng vuông vức.",
     "Họ crossface bạn? Ngồi sâu hơn sang một bên - đưa đầu bạn ra khỏi đường giữa.",
-    "Họ vượt qua khung chân của bạn? Chuyển sang half guard sâu ngay lập tức."
+    "Họ vượt qua khung chân của bạn? Chuyển sang Half Guard sâu ngay lập tức."
   ]
 }

@@ -4,7 +4,7 @@
   "title": "Hand Fighting",
   "category": "standing",
   "status": "neutral",
-  "description": "Cuộc đua tay và đầu để vào underhook, collar tie, snapdown, single leg hoặc guard pull.",
+  "description": "Cuộc đua tay và đầu để vào underhook, collar tie, snapdown, single leg hoặc Guard pull.",
   "topPlayerGoals": [
     "Người ở trên muốn kiểm soát Hand Fighting bằng vị trí đầu, vị trí trong và áp lực có hướng.",
     "Thắng wrist control, inside tie và vị trí đầu.",
@@ -27,7 +27,7 @@
   ],
   "advancementOptions": [
     {
-      "action": "Snapdown vào front headlock",
+      "action": "Snapdown vào Front Headlock",
       "nextPositionId": "front-headlock-top",
       "relatedSkillIds": [
         "hand-fighting",

@@ -36,13 +36,13 @@
     "ankle-lock",
     "knee-bar",
     "saddle-system",
-    "single-leg-x-guard",
+    "single-leg-x-Guard",
     "aoki-lock"
   ],
   "relatedPositions": [],
   "relatedPositionIds": [
     "single-leg-x",
-    "50-50-guard",
+    "50-50-Guard",
     "saddle",
     "ashi-garami"
   ],
@@ -55,12 +55,12 @@
   ],
   "archetypeIds": [
     "leg-lock-specialist",
-    "guard-player",
+    "Guard-player",
     "modern-no-gi"
   ],
   "relatedArchetypeIds": [],
   "prerequisiteSkillIds": [
-    "single-leg-x-guard",
+    "single-leg-x-Guard",
     "saddle-system",
     "heel-hook"
   ],
@@ -92,12 +92,12 @@
   "locale": "fr",
   "description": "Une soumission moderne de verrouillage de jambe à partir d'une seule jambe X (SLX) ou 50/50 qui combine la pression ankle lock avec la mécanique de rotation heel hook - attaquant simultanément le genou et la cheville de l'adversaire.",
   "shortInstruction": "À partir de SLX, underhook la jambe la plus proche, amenez votre jambe extérieure sur leur cuisse, coincez leur pied au niveau de votre hanche, faites pivoter vos hanches vers le tapis – combinez la cheville et heel hook pour terminer.",
-  "summary": "Le Z-lock est une soumission hybride de verrouillage de jambe qui combine des éléments du ankle lock et du heel hook en une seule attaque dévastatrice. Provenant de positions telles que X à une jambe (SLX) et 50/50 guard, il utilise une configuration de jambe unique pour piéger et serrer la jambe de l'adversaire. La position offre un excellent contrôle et peut être utilisée à la fois comme soumission finale et comme position de transition vers d'autres attaques de jambes comme le saddle ou le cross ashi garami. Il est particulièrement efficace dans les systèmes No-Gi et les systèmes modernes de verrouillage des jambes.",
+  "summary": "Le Z-lock est une soumission hybride de verrouillage de jambe qui combine des éléments du ankle lock et du heel hook en une seule attaque dévastatrice. Provenant de positions telles que X à une jambe (SLX) et 50/50 Guard, il utilise une configuration de jambe unique pour piéger et serrer la jambe de l'adversaire. La position offre un excellent contrôle et peut être utilisée à la fois comme soumission finale et comme position de transition vers d'autres attaques de jambes comme le saddle ou le cross ashi garami. Il est particulièrement efficace dans les systèmes No-Gi et les systèmes modernes de verrouillage des jambes.",
   "whyItWorks": [
     "Combine deux vecteurs d'attaque (cheville + genou) simultanément, créant un dilemme pour l'adversaire : défendre l'un expose l'autre.",
     "Utilise la rotation des hanches et le poids du corps plutôt que la simple force des bras, ce qui le rend mécaniquement efficace.",
     "Le piège à pied au niveau de la hanche empêche l'adversaire de rouler ou de se retourner pour s'échapper.",
-    "Peut être saisi directement à partir des positions guard communes (SLX, 50/50) sans repositionnement complexe.",
+    "Peut être saisi directement à partir des positions Guard communes (SLX, 50/50) sans repositionnement complexe.",
     "Crée une isolation extrême de l'articulation du genou en fixant le pied au niveau de la hanche tout en faisant pivoter le torse."
   ],
   "commonMistakes": [

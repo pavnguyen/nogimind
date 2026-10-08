@@ -17,7 +17,7 @@ const shortcutGroups: ShortcutGroup[] = [
       { label: 'Dashboard', keys: ['g', 'd'] },
       { label: 'Learn', keys: ['g', 'l'] },
       { label: 'Study', keys: ['g', 't'] },
-      { label: 'Fix (Troubleshooters)', keys: ['g', 'f'] },
+      { label: 'Defense', keys: ['g', 'f'] },
       { label: 'Build', keys: ['g', 'b'] },
       { label: 'Reference', keys: ['g', 'r'] },
       { label: 'Search', keys: ['g', 's'] },

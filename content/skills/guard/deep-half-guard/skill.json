@@ -1,12 +1,12 @@
 {
-  "id": "deep-half-guard",
+  "id": "deep-half-Guard",
   "domain": "guard_offense",
   "level": "intermediate",
   "name": "Deep Half Guard",
   "aliases": [],
   "tags": [
     "deep-half",
-    "half-guard",
+    "half-Guard",
     "sweep",
     "underhook"
   ],
@@ -16,7 +16,7 @@
     "Homers sweep",
     "back door",
     "underhook",
-    "coyote half guard"
+    "coyote Half Guard"
   ],
   "relatedSkills": [
     {
@@ -28,13 +28,13 @@
       "type": "recommended"
     },
     {
-      "id": "half-guard-wrestle-up",
+      "id": "half-Guard-wrestle-up",
       "type": "recommended"
     }
   ],
   "prerequisiteSkillIds": [
-    "half-guard-knee-shield",
-    "supine-guard-retention"
+    "half-Guard-knee-shield",
+    "supine-Guard-retention"
   ],
   "relatedPositions": [],
   "relatedConcepts": [],

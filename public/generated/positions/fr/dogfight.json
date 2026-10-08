@@ -4,7 +4,7 @@
   "title": "Dogfight",
   "category": "scramble",
   "status": "neutral",
-  "description": "Les deux joueurs sont sur un genou ou une hanche dans une bataille underhook contre whizzer depuis la half guard ou un wrestle-up.",
+  "description": "Les deux joueurs sont sur un genou ou une hanche dans une bataille underhook contre whizzer depuis la Half Guard ou un wrestle-up.",
   "topPlayerGoals": [
     "Le joueur du dessus veut contrôler Dogfight avec la position de tête, la position intérieure et une pression orientée.",
     "Utiliser un whizzer, un sprawl ou un retour au sol.",
@@ -30,7 +30,7 @@
       "action": "Finir le single leg ou le retour au sol",
       "nextPositionId": "neutral-standing",
       "relatedSkillIds": [
-        "half-guard-wrestle-up",
+        "half-Guard-wrestle-up",
         "single-leg-bjj",
         "mat-return-basics"
       ],
@@ -44,7 +44,7 @@
     "Vous devez poser une main loin pour éviter de tomber."
   ],
   "relatedSkillIds": [
-    "half-guard-wrestle-up",
+    "half-Guard-wrestle-up",
     "single-leg-bjj",
     "mat-return-basics"
   ],

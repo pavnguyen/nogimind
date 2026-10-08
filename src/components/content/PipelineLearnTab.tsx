@@ -1,3 +1,4 @@
+import { useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import { FormattedText } from '../../components/common/FormattedText'
 import { SectionAccordion } from '../skill/SectionAccordion'
@@ -9,13 +10,18 @@ type Props = {
 
 export const PipelineLearnTab = ({ detail }: Props) => {
   const { t } = useTranslation()
-
+  const [checkAnswers, setCheckAnswers] = useState<Record<string, boolean | undefined>>({})
   const systemLogic = detail.systemLogic
   const whyItWorks = detail.whyItWorks ?? []
   const keyCorrections = detail.keyCorrections ?? []
   const moneyDetails = detail.moneyDetails ?? []
   const coachingCues = detail.coachingCues ?? []
   const commonMistakes = detail.commonMistakes ?? []
+  const microDetailSystem = detail.microDetailSystem
+  const qualityChecklist = detail.qualityChecklist
+  const passedChecks = qualityChecklist?.checks.filter((check) => checkAnswers[check.id] === true).length ?? 0
+  const hasCriticalFailure = qualityChecklist?.checks.some((check) => check.severity === 'critical' && checkAnswers[check.id] === false) ?? false
+  const isReady = Boolean(qualityChecklist && passedChecks >= qualityChecklist.passThreshold && !hasCriticalFailure)
   const nextStep = detail.nextStep || detail.shortInstruction
   const shortInstruction = detail.shortInstruction
 
@@ -112,6 +118,88 @@ export const PipelineLearnTab = ({ detail }: Props) => {
               )}
             </div>
           )}
+        </SectionAccordion>
+      )}
+
+      {microDetailSystem && (
+        <SectionAccordion
+          id="pipeline-micro-details"
+          title={t('microDetailSystem.heading')}
+          accentColor="violet"
+          defaultOpen
+          badge={String(microDetailSystem.topFiveDetails.length)}
+        >
+          <p className="mb-3 text-sm leading-6 text-slate-300">{microDetailSystem.overview}</p>
+          <div className="grid gap-3 md:grid-cols-2">
+            {microDetailSystem.topFiveDetails.map((detail) => (
+              <article key={detail.id} className="rounded-xl border border-white/[0.06] bg-slate-950/45 p-3.5">
+                <div className="flex items-start justify-between gap-3">
+                  <h3 className="text-sm font-semibold text-slate-100">{detail.title}</h3>
+                  <span className="shrink-0 rounded-md bg-violet-300/10 px-2 py-0.5 text-[10px] uppercase tracking-wide text-violet-200">{detail.category.replace(/_/g, ' ')}</span>
+                </div>
+                <p className="mt-2 text-[13px] leading-6 text-slate-200">{detail.shortInstruction}</p>
+                <p className="mt-2 text-xs leading-5 text-slate-400"><strong className="text-slate-300">{t('microDetailSystem.why')}: </strong>{detail.whyItWorks}</p>
+                <p className="mt-2 text-xs leading-5 text-rose-200"><strong>{t('microDetails.cardWrong')}: </strong>{detail.commonMistake}</p>
+                <p className="mt-2 text-xs leading-5 text-emerald-200"><strong>{t('microDetails.cardFixWith')}: </strong>{detail.correctionCue}</p>
+                <p className="mt-2 text-xs font-semibold leading-5 text-cyan-200">{detail.liveCue}</p>
+                {detail.safetyNote && <p className="mt-2 text-xs leading-5 text-amber-200">{detail.safetyNote}</p>}
+              </article>
+            ))}
+          </div>
+          {microDetailSystem.troubleshootingTips.length > 0 && (
+            <div className="mt-4 space-y-2">
+              {microDetailSystem.troubleshootingTips.map((tip, index) => (
+                <p key={index} className="rounded-lg bg-white/[0.025] px-3 py-2 text-xs leading-5 text-slate-300">
+                  <strong>{tip.problem}</strong> {tip.quickFix} <span className="text-cyan-200">{tip.cue}</span>
+                </p>
+              ))}
+            </div>
+          )}
+          {microDetailSystem.doNotDo.length > 0 && (
+            <p className="mt-3 text-xs leading-5 text-rose-200">{microDetailSystem.doNotDo.join(' · ')}</p>
+          )}
+          {microDetailSystem.safetyNotes.length > 0 && (
+            <p className="mt-3 text-xs leading-5 text-amber-200">{microDetailSystem.safetyNotes.join(' · ')}</p>
+          )}
+        </SectionAccordion>
+      )}
+
+      {qualityChecklist && (
+        <SectionAccordion
+          id="pipeline-ready-check"
+          title={t('qualityChecklist.heading')}
+          accentColor="amber"
+          defaultOpen
+          badge={`${qualityChecklist.passThreshold}/${qualityChecklist.checks.length}`}
+        >
+          <p className="mb-3 text-sm leading-6 text-slate-300">{qualityChecklist.overview}</p>
+          <div className="space-y-2">
+            {qualityChecklist.checks.map((check) => (
+              <article key={check.id} className="rounded-xl border border-white/[0.06] bg-slate-950/45 p-3.5">
+                <div className="flex flex-wrap items-center gap-2">
+                  <h3 className="text-sm font-semibold text-slate-100">{check.title}</h3>
+                  <span className={`rounded-md px-2 py-0.5 text-[10px] uppercase tracking-wide ${check.severity === 'critical' ? 'bg-rose-300/10 text-rose-200' : check.severity === 'major' ? 'bg-amber-300/10 text-amber-200' : 'bg-slate-300/10 text-slate-300'}`}>{check.severity}</span>
+                </div>
+                <p className="mt-2 text-[13px] leading-6 text-slate-300">{check.question}</p>
+                <div className="mt-2 grid gap-2 sm:grid-cols-2">
+                  <p className="rounded-lg bg-emerald-300/[0.05] px-3 py-2 text-xs leading-5 text-emerald-200">✓ {check.successSignal}</p>
+                  <p className="rounded-lg bg-rose-300/[0.05] px-3 py-2 text-xs leading-5 text-rose-200">! {check.failureSignal}</p>
+                </div>
+                <div className="mt-3 flex flex-wrap items-center gap-2" role="group" aria-label={check.title}>
+                  <button type="button" aria-pressed={checkAnswers[check.id] === true} onClick={() => setCheckAnswers((current) => ({ ...current, [check.id]: true }))} className={`rounded-lg border px-3 py-1.5 text-xs font-semibold ${checkAnswers[check.id] === true ? 'border-emerald-300/40 bg-emerald-300/15 text-emerald-100' : 'border-white/10 text-slate-300 hover:bg-white/5'}`}>{t('qualityChecklist.yes')}</button>
+                  <button type="button" aria-pressed={checkAnswers[check.id] === false} onClick={() => setCheckAnswers((current) => ({ ...current, [check.id]: false }))} className={`rounded-lg border px-3 py-1.5 text-xs font-semibold ${checkAnswers[check.id] === false ? 'border-rose-300/40 bg-rose-300/15 text-rose-100' : 'border-white/10 text-slate-300 hover:bg-white/5'}`}>{t('qualityChecklist.no')}</button>
+                  <p className="text-xs leading-5 text-cyan-200">{t('qualityChecklist.quickFixes')}: {check.quickFix}</p>
+                </div>
+              </article>
+            ))}
+          </div>
+          <div className="mt-3 rounded-lg border border-amber-300/10 bg-amber-300/[0.04] px-3 py-2 text-xs leading-5 text-slate-300" aria-live="polite">
+            <p className={`font-semibold ${isReady ? 'text-emerald-200' : 'text-amber-200'}`}>
+              {isReady ? t('qualityChecklist.ready') : t('qualityChecklist.needsWork')} · {passedChecks}/{qualityChecklist.checks.length}
+            </p>
+            <p className="mt-1">{qualityChecklist.ifPassed}</p>
+            <p className="mt-1 text-rose-200">{qualityChecklist.ifFailed}</p>
+          </div>
         </SectionAccordion>
       )}
 

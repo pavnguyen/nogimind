@@ -1,29 +1,29 @@
 {
-  "id": "s-mount-control",
+  "id": "s-Mount-control",
   "domain": "pins_rides",
   "level": "advanced",
   "name": "S-Mount Control",
   "aliases": [],
   "tags": [
-    "s-mount",
-    "mount",
+    "s-Mount",
+    "Mount",
     "arm-isolation",
     "tier:modern-expansion",
     "meta:modern-common",
     "risk:medium",
     "family:pin",
-    "group:s-mount",
+    "group:s-Mount",
     "modern-no-gi"
   ],
   "keywords": [
-    "s-mount",
+    "s-Mount",
     "shoulder isolation",
     "armbar angle"
   ],
   "modernSystemGroup": "s_mount",
   "relatedSkills": [
     {
-      "id": "s-mount-armbar",
+      "id": "s-Mount-armbar",
       "type": "recommended"
     },
     {
@@ -31,13 +31,13 @@
       "type": "recommended"
     },
     {
-      "id": "mount-control",
+      "id": "Mount-control",
       "type": "recommended"
     }
   ],
   "prerequisiteSkillIds": [
-    "mount-control",
-    "arm-triangle-mount"
+    "Mount-control",
+    "arm-triangle-Mount"
   ],
   "relatedPositions": [],
   "relatedConcepts": [],
