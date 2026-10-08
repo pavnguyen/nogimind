@@ -79,6 +79,39 @@ export default function DashboardPage() {
               </p>
             </div>
           </div>
+
+          {/* ── With gratitude, one compact line under the hero ── */}
+          <div className="flex flex-wrap items-center gap-x-2 gap-y-1 px-1 text-[11px] leading-5 text-slate-500">
+            <Heart className="h-3 w-3 shrink-0 text-amber-300/70" aria-hidden="true" />
+            <span className="min-w-0 truncate">{t('about.thanks.dashboard')}</span>
+            <span aria-hidden="true" className="text-slate-700">
+              ·
+            </span>
+            <a
+              href="https://www.facebook.com/profile.php?id=100087911966054"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Guardian HCMC on Facebook"
+              className="inline-flex items-center text-slate-500 transition-colors hover:text-amber-100"
+            >
+              <FacebookIcon className="h-3.5 w-3.5 shrink-0" />
+            </a>
+            <a
+              href="https://www.instagram.com/guardianhcmc/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Guardian HCMC on Instagram"
+              className="inline-flex items-center text-slate-500 transition-colors hover:text-rose-100"
+            >
+              <InstagramIcon className="h-3.5 w-3.5 shrink-0" />
+            </a>
+            <Link
+              to="/about"
+              className="font-medium text-slate-400 underline-offset-2 transition-colors hover:text-amber-100 hover:underline"
+            >
+              {t('about.thanks.more')}
+            </Link>
+          </div>
         </section>
       }
     >
@@ -116,50 +149,6 @@ export default function DashboardPage() {
 
         {/* ─── Hub Explorer, full width ─── */}
         <DashboardHubExplorer />
-
-        {/* ─── With gratitude - Guardian HCMC & coach Jon TRAN ─── */}
-        <section className="lg:col-span-12 animate-fadeIn md:[animation-delay:250ms]">
-          <div className="relative overflow-hidden rounded-2xl border border-amber-400/20 bg-linear-to-r from-amber-400/[0.10] via-amber-300/[0.04] to-rose-400/[0.07] px-5 py-4">
-            <div className="pointer-events-none absolute -right-10 -top-12 h-32 w-32 rounded-full bg-amber-400/10 blur-3xl" />
-            <div className="relative z-10 flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
-              <div className="flex min-w-0 items-start gap-3">
-                <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-xl bg-linear-to-br from-amber-400 to-rose-400 text-slate-950 shadow-lg shadow-amber-500/20">
-                  <Heart className="h-4 w-4 fill-current" aria-hidden="true" />
-                </span>
-                <div className="min-w-0">
-                  <p className="text-[10px] font-bold uppercase tracking-widest text-amber-200/90">{t('about.thanks.heading')}</p>
-                  <p className="mt-1 text-xs leading-5 text-amber-50/75">{t('about.thanks.dashboard')}</p>
-                </div>
-              </div>
-              <div className="flex shrink-0 flex-wrap items-center gap-2">
-                <a
-                  href="https://www.facebook.com/profile.php?id=100087911966054"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center gap-1.5 rounded-lg border border-amber-300/25 bg-amber-300/10 px-3 py-2 text-xs font-semibold text-amber-100 transition-colors hover:border-amber-200/50 hover:bg-amber-300/20 hover:text-white"
-                >
-                  <FacebookIcon className="h-3.5 w-3.5 shrink-0" />
-                  Facebook
-                </a>
-                <a
-                  href="https://www.instagram.com/guardianhcmc/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center gap-1.5 rounded-lg border border-rose-300/25 bg-rose-300/10 px-3 py-2 text-xs font-semibold text-rose-100 transition-colors hover:border-rose-200/50 hover:bg-rose-300/20 hover:text-white"
-                >
-                  <InstagramIcon className="h-3.5 w-3.5 shrink-0" />
-                  Instagram
-                </a>
-                <Link
-                  to="/about"
-                  className="inline-flex items-center rounded-lg border border-white/[0.10] px-3.5 py-2 text-xs font-medium text-slate-300 transition-colors hover:border-amber-300/30 hover:text-amber-100"
-                >
-                  {t('about.thanks.more')}
-                </Link>
-              </div>
-            </div>
-          </div>
-        </section>
 
       </div>
     </PageShell>
