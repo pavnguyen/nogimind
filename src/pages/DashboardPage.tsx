@@ -116,7 +116,7 @@ export default function DashboardPage() {
         {/* ─── Hub Explorer — full width ─── */}
         <DashboardHubExplorer />
 
-        {/* ─── With gratitude — Guardian HCM & coach Jon TRAN ─── */}
+        {/* ─── With gratitude — Guardian HCMC & coach Jon TRAN ─── */}
         <section className="lg:col-span-12 animate-fadeIn md:[animation-delay:250ms]">
           <div className="relative overflow-hidden rounded-2xl border border-amber-400/20 bg-linear-to-r from-amber-400/[0.10] via-amber-300/[0.04] to-rose-400/[0.07] px-5 py-4">
             <div className="pointer-events-none absolute -right-10 -top-12 h-32 w-32 rounded-full bg-amber-400/10 blur-3xl" />
