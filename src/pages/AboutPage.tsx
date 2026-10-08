@@ -1,5 +1,6 @@
 import { useTranslation } from 'react-i18next'
-import { BrainCircuit, Compass, ExternalLink, Heart, ShieldCheck } from 'lucide-react'
+import { BrainCircuit, Compass, Heart, ShieldCheck } from 'lucide-react'
+import { FacebookIcon, InstagramIcon } from '../components/common/BrandIcons'
 import { PageShell } from '../components/common/PageShell'
 import { SectionCard } from '../components/common/SectionCard'
 import { StaggerContainer, StaggerItem } from '../components/common/StaggerContainer'
@@ -106,8 +107,8 @@ export default function AboutPage() {
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 rounded-lg border border-amber-300/25 bg-amber-300/10 px-4 py-2 text-sm font-semibold text-amber-100 transition-colors hover:border-amber-200/50 hover:bg-amber-300/20 hover:text-white"
               >
+                <FacebookIcon className="h-4 w-4 shrink-0" />
                 Guardian HCMC · Facebook
-                <ExternalLink className="h-3.5 w-3.5 opacity-70" aria-hidden="true" />
               </a>
               <a
                 href="https://www.instagram.com/guardianhcmc/"
@@ -115,8 +116,8 @@ export default function AboutPage() {
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 rounded-lg border border-rose-300/25 bg-rose-300/10 px-4 py-2 text-sm font-semibold text-rose-100 transition-colors hover:border-rose-200/50 hover:bg-rose-300/20 hover:text-white"
               >
+                <InstagramIcon className="h-4 w-4 shrink-0" />
                 Guardian HCMC · Instagram
-                <ExternalLink className="h-3.5 w-3.5 opacity-70" aria-hidden="true" />
               </a>
             </div>
           </div>

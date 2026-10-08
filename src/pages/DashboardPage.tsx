@@ -1,7 +1,8 @@
 import { useMemo, useState, useCallback } from 'react'
 import { Link } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
-import { ExternalLink, Heart } from 'lucide-react'
+import { Heart } from 'lucide-react'
+import { FacebookIcon, InstagramIcon } from '../components/common/BrandIcons'
 import { PageShell } from '../components/common/PageShell'
 import { DailyFocusCard } from '../components/dashboard/DailyFocusCard'
 import { DashboardHubExplorer } from '../components/dashboard/DashboardHubExplorer'
@@ -137,8 +138,8 @@ export default function DashboardPage() {
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-1.5 rounded-lg border border-amber-300/25 bg-amber-300/10 px-3 py-2 text-xs font-semibold text-amber-100 transition-colors hover:border-amber-200/50 hover:bg-amber-300/20 hover:text-white"
                 >
+                  <FacebookIcon className="h-3.5 w-3.5 shrink-0" />
                   Facebook
-                  <ExternalLink className="h-3 w-3 opacity-70" aria-hidden="true" />
                 </a>
                 <a
                   href="https://www.instagram.com/guardianhcmc/"
@@ -146,8 +147,8 @@ export default function DashboardPage() {
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-1.5 rounded-lg border border-rose-300/25 bg-rose-300/10 px-3 py-2 text-xs font-semibold text-rose-100 transition-colors hover:border-rose-200/50 hover:bg-rose-300/20 hover:text-white"
                 >
+                  <InstagramIcon className="h-3.5 w-3.5 shrink-0" />
                   Instagram
-                  <ExternalLink className="h-3 w-3 opacity-70" aria-hidden="true" />
                 </a>
                 <Link
                   to="/about"
