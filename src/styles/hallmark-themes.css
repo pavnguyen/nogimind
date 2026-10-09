@@ -15,17 +15,23 @@
  *   (default)  → sand   (Dashboard)
  *
  * ── Light mode ────────────────────────────────────────────────────────────
- * System preference only (no in-app toggle). The final
- * `@media (prefers-color-scheme: light)` block re-points the same variables.
+ * Keyed off `html[data-theme="light"]`, not a media query, so the in-app
+ * appearance control (Settings → Appearance) can override the OS. The
+ * attribute is resolved in src/utils/theme.ts — plus once before first paint by
+ * the inline script in index.html — from the stored `theme` preference.
+ * The dark blocks below are the default: no attribute, or `dark`, keeps them.
  * ═══════════════════════════════════════════════════════════════════════════ */
 
 /* ── Base tokens (Dashboard / unthemed fallback) ─────────────────────── */
 :root {
   /* - Surface hierarchy - */
-  --hallmark-bg-primary: #0d0c0a;
-  --hallmark-bg-surface: #14120f;
-  --hallmark-bg-card: #26231d;
-  --hallmark-bg-elevated: #4c463d;
+  /* Soft warm charcoal, deliberately not near-black. Kept in step with the
+   * `--color-warm-700…950` ramp in src/index.css, which is what most
+   * components actually paint with (`bg-warm-950/55` cards and so on). */
+  --hallmark-bg-primary: #1a1814;
+  --hallmark-bg-surface: #232019;
+  --hallmark-bg-card: #2f2b24;
+  --hallmark-bg-elevated: #514a3f;
 
   /* - Text - */
   --hallmark-text-primary: #ddd6c8;
@@ -37,7 +43,7 @@
   --hallmark-border-default: rgba(207, 201, 189, 0.18);
 
   /* - Glass surfaces - */
-  --hallmark-glass-bg: rgba(20, 18, 15, 0.6);
+  --hallmark-glass-bg: rgba(26, 24, 20, 0.6);
   --hallmark-glass-border: rgba(207, 201, 189, 0.06);
 
   /* - Noise texture opacity - */
@@ -62,7 +68,7 @@
   --hallmark-hero-gradient:
     radial-gradient(ellipse at 20% 10%, rgba(176, 169, 155, 0.1), transparent 40rem),
     radial-gradient(ellipse at 80% 90%, rgba(232, 176, 92, 0.06), transparent 40rem),
-    linear-gradient(180deg, #0d0c0a 0%, #14120f 50%, #26231d 100%);
+    linear-gradient(180deg, #1a1814 0%, #201d18 50%, #272319 100%);
 }
 
 /* ── 1. LEARN ── */
@@ -155,9 +161,8 @@
   --hallmark-selection-bg: var(--hallmark-accent-dim);
 }
 
-/* ═══ Light mode (system preference) ═══════════════════════════════════ */
-@media (prefers-color-scheme: light) {
-:root {
+/* ═══ Light mode — html[data-theme="light"] ════════════════════════════ */
+:root[data-theme="light"] {
   /* - Surface hierarchy - */
   --hallmark-bg-primary: #f2efe9;
   --hallmark-bg-surface: #fbfaf7;
@@ -202,7 +207,7 @@
     linear-gradient(180deg, #f2efe9 0%, #fbfaf7 50%, #ffffff 100%);
 }
 
-[data-hub="learn"] {
+:root[data-theme="light"] [data-hub="learn"] {
   --hallmark-accent: #653700;
   --hallmark-accent-dim: rgba(101, 55, 0, 0.1);
   --hallmark-accent-glow: rgba(101, 55, 0, 0.05);
@@ -219,7 +224,7 @@
   --hallmark-selection-bg: var(--hallmark-accent-dim);
 }
 
-[data-hub="study"] {
+:root[data-theme="light"] [data-hub="study"] {
   --hallmark-accent: #005648;
   --hallmark-accent-dim: rgba(0, 86, 72, 0.1);
   --hallmark-accent-glow: rgba(0, 86, 72, 0.05);
@@ -236,7 +241,7 @@
   --hallmark-selection-bg: var(--hallmark-accent-dim);
 }
 
-[data-hub="defense"] {
+:root[data-theme="light"] [data-hub="defense"] {
   --hallmark-accent: #792100;
   --hallmark-accent-dim: rgba(121, 33, 0, 0.1);
   --hallmark-accent-glow: rgba(121, 33, 0, 0.05);
@@ -253,7 +258,7 @@
   --hallmark-selection-bg: var(--hallmark-accent-dim);
 }
 
-[data-hub="build"] {
+:root[data-theme="light"] [data-hub="build"] {
   --hallmark-accent: #204472;
   --hallmark-accent-dim: rgba(32, 68, 114, 0.1);
   --hallmark-accent-glow: rgba(32, 68, 114, 0.05);
@@ -270,7 +275,7 @@
   --hallmark-selection-bg: var(--hallmark-accent-dim);
 }
 
-[data-hub="reference"] {
+:root[data-theme="light"] [data-hub="reference"] {
   --hallmark-accent: #494338;
   --hallmark-accent-dim: rgba(73, 67, 56, 0.1);
   --hallmark-accent-glow: rgba(73, 67, 56, 0.05);
@@ -285,8 +290,6 @@
   --hallmark-scrollbar-thumb-hover: rgba(73, 67, 56, 0.45);
   --hallmark-shadow-glow: 0 0 0 1px var(--hallmark-accent-dim), 0 20px 60px rgba(0,0,0,0.12);
   --hallmark-selection-bg: var(--hallmark-accent-dim);
-}
-
 }
 
 /* ═══════════════════════════════════════════════════════════════════════════
@@ -350,107 +353,105 @@ textarea.hallmark-focus-ring:focus-visible,
  * here flips the whole app to light without a single component change.
  * This block is unlayered, so it beats the `theme` layer emitted by @theme.
  * ═══════════════════════════════════════════════════════════════════════════ */
-@media (prefers-color-scheme: light) {
-  :root {
-    /* Surfaces & neutrals: the warm ramp flips so `bg-warm-950` becomes the
-     * light page background while `text-warm-300` stays high-contrast ink. */
-    --color-warm-50: #050504;
-    --color-warm-100: #0a0a09;
-    --color-warm-200: #121110;
-    --color-warm-300: #1b1917;
-    --color-warm-400: #4a453d;
-    --color-warm-500: #6b6459;
-    --color-warm-600: #6f685c;
-    --color-warm-700: #d9d4ca;
-    --color-warm-800: #ffffff;
-    --color-warm-900: #fbfaf7;
-    --color-warm-950: #f2efe9;
-    --color-gold-50: #fff5e7;
-    --color-gold-100: #ffedd6;
-    --color-gold-200: #fadeb9;
-    --color-gold-300: #f1cc98;
-    --color-gold-400: #986400;
-    --color-gold-500: #814e00;
-    --color-gold-600: #653700;
-    --color-gold-700: #4f2a00;
-    --color-gold-800: #3c2100;
-    --color-gold-900: #fae6cc;
-    --color-gold-950: #fdf0df;
-    --color-copper-50: #fff2ea;
-    --color-copper-100: #ffe8da;
-    --color-copper-200: #ffd5c0;
-    --color-copper-300: #ffbfa2;
-    --color-copper-400: #b04f21;
-    --color-copper-500: #973800;
-    --color-copper-600: #792100;
-    --color-copper-700: #5f1800;
-    --color-copper-800: #481400;
-    --color-copper-900: #ffe0d1;
-    --color-copper-950: #ffece2;
-    --color-moss-50: #f6f9ea;
-    --color-moss-100: #eff3da;
-    --color-moss-200: #e1e8c0;
-    --color-moss-300: #d0d9a2;
-    --color-moss-400: #6e771e;
-    --color-moss-500: #596100;
-    --color-moss-600: #424900;
-    --color-moss-700: #333900;
-    --color-moss-800: #272b00;
-    --color-moss-900: #e8edd1;
-    --color-moss-950: #f1f5e3;
-    --color-jade-50: #e8fcf8;
-    --color-jade-100: #d7f9f2;
-    --color-jade-200: #b9f0e6;
-    --color-jade-300: #96e4d6;
-    --color-jade-400: #008675;
-    --color-jade-500: #006f60;
-    --color-jade-600: #005648;
-    --color-jade-700: #004338;
-    --color-jade-800: #00332a;
-    --color-jade-900: #cdf3eb;
-    --color-jade-950: #e0f9f4;
-    --color-sea-50: #ecfafe;
-    --color-sea-100: #ddf5fc;
-    --color-sea-200: #c4ebf5;
-    --color-sea-300: #a7ddec;
-    --color-sea-400: #1e7c91;
-    --color-sea-500: #00667b;
-    --color-sea-600: #004e61;
-    --color-sea-700: #003c4b;
-    --color-sea-800: #002e39;
-    --color-sea-900: #d4eff7;
-    --color-sea-950: #e5f6fb;
-    --color-steel-50: #f0f8ff;
-    --color-steel-100: #e4f2ff;
-    --color-steel-200: #d0e5ff;
-    --color-steel-300: #b8d5fb;
-    --color-steel-400: #4a72a5;
-    --color-steel-500: #355c8e;
-    --color-steel-600: #204472;
-    --color-steel-700: #183559;
-    --color-steel-800: #132843;
-    --color-steel-900: #dcebff;
-    --color-steel-950: #eaf3ff;
-    --color-sand-50: #f8f7f4;
-    --color-sand-100: #f2f0eb;
-    --color-sand-200: #e6e2db;
-    --color-sand-300: #d7d2c8;
-    --color-sand-400: #766f62;
-    --color-sand-500: #605a4d;
-    --color-sand-600: #494338;
-    --color-sand-700: #38342a;
-    --color-sand-800: #2b2720;
-    --color-sand-900: #ece9e4;
-    --color-sand-950: #f4f2ef;
+:root[data-theme="light"] {
+  /* Surfaces & neutrals: the warm ramp flips so `bg-warm-950` becomes the
+   * light page background while `text-warm-300` stays high-contrast ink. */
+  --color-warm-50: #050504;
+  --color-warm-100: #0a0a09;
+  --color-warm-200: #121110;
+  --color-warm-300: #1b1917;
+  --color-warm-400: #4a453d;
+  --color-warm-500: #6b6459;
+  --color-warm-600: #6f685c;
+  --color-warm-700: #d9d4ca;
+  --color-warm-800: #ffffff;
+  --color-warm-900: #fbfaf7;
+  --color-warm-950: #f2efe9;
+  --color-gold-50: #fff5e7;
+  --color-gold-100: #ffedd6;
+  --color-gold-200: #fadeb9;
+  --color-gold-300: #f1cc98;
+  --color-gold-400: #986400;
+  --color-gold-500: #814e00;
+  --color-gold-600: #653700;
+  --color-gold-700: #4f2a00;
+  --color-gold-800: #3c2100;
+  --color-gold-900: #fae6cc;
+  --color-gold-950: #fdf0df;
+  --color-copper-50: #fff2ea;
+  --color-copper-100: #ffe8da;
+  --color-copper-200: #ffd5c0;
+  --color-copper-300: #ffbfa2;
+  --color-copper-400: #b04f21;
+  --color-copper-500: #973800;
+  --color-copper-600: #792100;
+  --color-copper-700: #5f1800;
+  --color-copper-800: #481400;
+  --color-copper-900: #ffe0d1;
+  --color-copper-950: #ffece2;
+  --color-moss-50: #f6f9ea;
+  --color-moss-100: #eff3da;
+  --color-moss-200: #e1e8c0;
+  --color-moss-300: #d0d9a2;
+  --color-moss-400: #6e771e;
+  --color-moss-500: #596100;
+  --color-moss-600: #424900;
+  --color-moss-700: #333900;
+  --color-moss-800: #272b00;
+  --color-moss-900: #e8edd1;
+  --color-moss-950: #f1f5e3;
+  --color-jade-50: #e8fcf8;
+  --color-jade-100: #d7f9f2;
+  --color-jade-200: #b9f0e6;
+  --color-jade-300: #96e4d6;
+  --color-jade-400: #008675;
+  --color-jade-500: #006f60;
+  --color-jade-600: #005648;
+  --color-jade-700: #004338;
+  --color-jade-800: #00332a;
+  --color-jade-900: #cdf3eb;
+  --color-jade-950: #e0f9f4;
+  --color-sea-50: #ecfafe;
+  --color-sea-100: #ddf5fc;
+  --color-sea-200: #c4ebf5;
+  --color-sea-300: #a7ddec;
+  --color-sea-400: #1e7c91;
+  --color-sea-500: #00667b;
+  --color-sea-600: #004e61;
+  --color-sea-700: #003c4b;
+  --color-sea-800: #002e39;
+  --color-sea-900: #d4eff7;
+  --color-sea-950: #e5f6fb;
+  --color-steel-50: #f0f8ff;
+  --color-steel-100: #e4f2ff;
+  --color-steel-200: #d0e5ff;
+  --color-steel-300: #b8d5fb;
+  --color-steel-400: #4a72a5;
+  --color-steel-500: #355c8e;
+  --color-steel-600: #204472;
+  --color-steel-700: #183559;
+  --color-steel-800: #132843;
+  --color-steel-900: #dcebff;
+  --color-steel-950: #eaf3ff;
+  --color-sand-50: #f8f7f4;
+  --color-sand-100: #f2f0eb;
+  --color-sand-200: #e6e2db;
+  --color-sand-300: #d7d2c8;
+  --color-sand-400: #766f62;
+  --color-sand-500: #605a4d;
+  --color-sand-600: #494338;
+  --color-sand-700: #38342a;
+  --color-sand-800: #2b2720;
+  --color-sand-900: #ece9e4;
+  --color-sand-950: #f4f2ef;
 
-    --color-gold: #653700;
-    --color-copper: #792100;
-    --color-moss: #424900;
-    --color-jade: #005648;
-    --color-sea: #004e61;
-    --color-steel: #204472;
-    --color-sand: #494338;
-    --color-on-accent: #ffffff;
-    --color-hub-learn: #653700; --color-hub-study: #005648; --color-hub-defense: #792100; --color-hub-build: #204472; --color-hub-reference: #494338;
-  }
+  --color-gold: #653700;
+  --color-copper: #792100;
+  --color-moss: #424900;
+  --color-jade: #005648;
+  --color-sea: #004e61;
+  --color-steel: #204472;
+  --color-sand: #494338;
+  --color-on-accent: #ffffff;
+  --color-hub-learn: #653700; --color-hub-study: #005648; --color-hub-defense: #792100; --color-hub-build: #204472; --color-hub-reference: #494338;
 }

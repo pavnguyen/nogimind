@@ -15,7 +15,7 @@
 | Logo | **Bất biến**: kem `#f0efea` + navy `#0d2648`. Không đụng asset (favicon/PWA/OG). |
 | Semantic | **cam-đỏ + xanh mòng két** (thay đỏ tươi / xanh neon) |
 | Tương phản | **WCAG AA 4.5:1** cho text; **bảng tương phản đầy đủ + script kiểm tra tự động** |
-| Light mode | **Chỉ theo hệ thống** (`prefers-color-scheme`) |
+| Light mode | **Mặc định Sáng + công tắc ghi đè**: Theo hệ thống / Sáng / Tối, lưu preference |
 | Typography | **Đổi mặt hiển thị (display)**, giữ Inter cho body. 3 phương án ở §10 (cần chốt). |
 | Kiến trúc theme | **Giữ nguyên** cơ chế `[data-hub]` 5 theme, **chỉ đổi giá trị token** |
 | Triển khai | **Một PR lớn**, gồm cả icon components + custom SVG |
@@ -107,7 +107,7 @@
 | 9 | Hướng 5 màu hub | **Hợp navy–kem của logo** |
 | 10 | Tông Guardian HCMC | **Giữ amber–rose** cho mục cảm ơn |
 | 11 | Màu ngữ nghĩa | **Cam-đỏ + xanh mòng két** |
-| 12 | Light mode | **Chỉ light theo hệ thống** |
+| 12 | Light mode | **Theo hệ thống (mặc định) + công tắc Sáng/Tối** |
 | 13 | Đóng gói icon | **Component cho UI + sprite cho PWA/share** |
 | 14 | Style icon BJJ | **Outline 2px, khớp lucide** |
 | 15 | Triển khai | **Một lần, một PR lớn** |
@@ -143,6 +143,8 @@ Rủi ro chính không phải kỹ thuật mà là **thẩm định bằng mắt
 ## 6. Bảng màu mới — Dark (warm charcoal)
 
 Nền **than ấm** (thay `#06080d` lạnh bằng tông nâu-xám ấm). Mọi giá trị dưới đây đã **đo WCAG thực tế**.
+
+> **Đây là bảng đề xuất ban đầu.** Bản đang chạy đã nâng sáng thêm một bậc — `#1a1814` / `#232019` / `#2f2b24` / `#514a3f` (xem §12). Các con số ở §6 giữ nguyên như lúc đề xuất, không phải giá trị token hiện tại.
 
 ### 6.1 Surface
 | Token | Hex | Ghi chú |
@@ -291,7 +293,7 @@ Kèm theo: rà lại `line-height`, `letter-spacing` cho heading; kiểm tra `h1
 
 ### 11.4 Chuẩn vẽ (bắt buộc, để pha được với lucide)
 - `viewBox="0 0 24 24"`, `width/height` = `1em` (hoặc prop `size`)
-- `fill="none"`, `stroke="currentColor"`, **`stroke-width={2}`**, `stroke-linecap="round"`, `stroke-linejoin="round"`
+- `fill="none"`, `stroke="currentColor"`, **`stroke-width={2}`** (brand mark dùng 2.4 vì chữ N ở 2px bị bít bộ đếm ở 16px — xem §26.1), `stroke-linecap="round"`, `stroke-linejoin="round"`
 - `aria-hidden="true"`, `focusable="false"`
 - Chỉ dùng path trong **lưới 24×24, safe-area ~2px**; không gradient, không fill đặc (trừ khi có biến thể `filled` riêng)
 - Optional: prop `strokeWidth` để có biến thể 1.75/2.25 khi cần
@@ -316,11 +318,13 @@ scripts/…        # script đồng bộ sprite từ paths.ts (tránh lệch né
 
 ---
 
-## 12. Light mode (chỉ theo hệ thống)
+## 12. Light mode (theo hệ thống, có công tắc ghi đè)
 
-- Thêm `@media (prefers-color-scheme: light)` với **bộ token light đầy đủ** cho `:root` **và từng `[data-hub]`**.
-- `body { color-scheme: light dark; }` (thay `color-scheme: dark` hard-code).
-- Không thêm UI toggle; không lưu preference.
+- **Bộ token light đầy đủ** cho `:root` **và từng `[data-hub]`**, đặt dưới `:root[data-theme="light"]`.
+- `data-theme` trên `<html>` do `src/utils/theme.ts` giải từ preference đã lưu; `index.html` chạy lại đúng phép giải đó **trước lần vẽ đầu** nên không nháy. `color-scheme` đi theo attribute (native controls khớp app), không theo OS.
+- Có UI: Settings → **Giao diện** (`ThemeSwitcher`) với 3 lựa chọn **Theo hệ thống / Sáng / Tối**, lưu cùng `nogi_settings`. **Mặc định `light`** ⇒ cài mới mở ra là nền kem. State lưu đã lên `version: 1`; `migrate` trong store và script trong `index.html` đổi `system` phiên bản 0 (mặc định cũ) thành `light` **một lần**, còn `system`/`dark` ghi ở v1 thì giữ nguyên.
+- **Không** dùng `@media (prefers-color-scheme: light)` cho token: media query sẽ thắng lựa chọn trong app.
+- **Dark mode được nâng sáng**: nền `#1a1814` → card `#2f2b24` (than ấm, không còn đen gần tuyệt đối `#0d0c0a`). Đổi ở `src/index.css` (`--color-warm-700…950`) và `src/styles/hallmark-themes.css` (`--hallmark-bg-*`) **theo cặp**, rồi chạy lại `npm run validate:contrast`.
 
 Đề xuất token light (đã đo):
 | Token | Hex | Trên `#f7f5f1` | Trên `#ffffff` |
@@ -401,7 +405,7 @@ npm run typecheck && npm run lint && npm test && npm run build && npm run valida
 5. 12 icon BJJ tồn tại dưới dạng component **và** có mặt trong sprite; render đúng ở 16/18/20px với `stroke-width=2`, `currentColor`.
 6. Hub icons dùng icon custom; lucide vẫn dùng cho tiện ích; **không thêm dependency icon nào** (`package.json` dependencies không đổi về icon).
 7. **5 theme `[data-hub]` hoạt động**; bug `defense`/`fix` đã sửa và có **test** cho việc `data-hub` khớp route `/defense`.
-8. Light mode hoạt động khi OS đặt light, cho **cả 6 bối cảnh** (`:root` + 5 hub).
+8. Light mode áp cho **cả 6 bối cảnh** (`:root` + 5 hub) khi chọn **Sáng**, và khi OS đặt light ở chế độ Theo hệ thống — đã đo trên CSS đã build trong Chrome thật (`prefers-color-scheme` vẫn dark mà nền vẫn sáng).
 9. Logo không đổi (`#f0efea` trên `#0d2648`); **không file asset nào bị sửa** (favicon/PWA/OG/manifest).
 10. `typecheck` 0 · `lint` 0 · `test` 369/369 (hoặc nhiều hơn nếu thêm test mới) · `build` 0.
 11. Mặt display mới đã áp dụng và self-host (không thêm request tới Google Fonts cho font mới).
@@ -472,7 +476,7 @@ Toàn bộ gradient và shadow hiện giả định nền tối. Light mode **c�
 |---|---|
 | Mặt display (§10) | **Archivo** + `font-stretch` (biến thể Expanded) — self-host qua `@fontsource-variable/archivo/wdth.css` |
 | Guardian "amber–rose" (§18.1) | **Thay `rose` bằng copper `#e07a4e`** → hết xung đột với ràng buộc "không hồng" |
-| Brand mark (§18.2) | **Custom mark** (`BjjBrandMark`) — khung bo góc + chữ N hình học |
+| Brand mark (§18.2) | **Custom mark** (`BjjBrandMark`) — chữ **N monogram đậm** (xem §26: khung bo góc + N không đọc được ở 16px nên đã bỏ khung) |
 | Phạm vi (§18.4) | **Toàn bộ theo spec, một PR lớn** |
 
 ## 21. Bảng màu đã chốt (7 tone + 1 neutral)
@@ -489,7 +493,7 @@ Mỗi tone có thang 50–950 (sinh bằng OKLCH, không có neon / hồng / tí
 |---|---|
 | Đổi class màu | **1099 chỗ** trên hơn 50 file (kể cả `rose` và `border-t/*` bị sót ở lượt đầu rồi đổi nốt), 0 tàn dư hue cũ trong `src/` |
 | Token | `src/index.css` (`@theme`) + `src/styles/hallmark-themes.css` viết lại; **6 bối cảnh** (`:root` + 5 hub) × 2 mode |
-| Light mode | Chỉ theo hệ thống; ghi đè chính các biến `--color-*` nên không cần sửa component nào |
+| Light mode | Theo hệ thống mặc định, ghi đè bằng `html[data-theme="light"]`; ghi đè chính các biến `--color-*` nên không cần sửa component nào |
 | Icon | **13 glyph custom** (`src/components/icons/bjj/`) + `public/icons/bjj-sprite.svg` sinh từ cùng dữ liệu; lucide giữ cho tiện ích; **không thêm dependency icon** |
 | Icon hub | learn→`BjjGuard`, study→`BjjChain`, defense→`BjjEscape`, build→`BjjMount`, reference→`BjjGrip`; brand→`BjjBrandMark` |
 | Typography | Archivo (wght + wdth) self-host; body vẫn Inter; bỏ `@fontsource/fraunces` |
@@ -502,7 +506,7 @@ Mỗi tone có thang 50–950 (sinh bằng OKLCH, không có neon / hồng / tí
 |---|---|
 | `npm run typecheck` | 0 lỗi |
 | `npm run lint` | 0 lỗi |
-| `npm test` | **377/377** (369 cũ + 8 test mới cho hub id) |
+| `npm test` | **446/446** (377 ở lượt đầu + 69 test hình học icon ở §26) |
 | `npm run build` | OK (2.1s) |
 | `npm run validate:contrast` | **✓ tất cả cặp đạt WCAG AA** ở cả dark và light; 168 token; 43 scale + 8 semantic token được tham chiếu đều tồn tại; 0 tàn dư hue cũ |
 | Tương phản chủ chốt | tertiary cũ `#64748b` = **4.21:1 (fail)** → `#a9a191` = **7.63:1**; warm-600 = 5.80:1 trên nền trang |
@@ -511,7 +515,7 @@ Mỗi tone có thang 50–950 (sinh bằng OKLCH, không có neon / hồng / tí
 
 ## 24. Giới hạn còn lại
 
-- **Chưa kiểm tra bằng mắt trên trình duyệt**: chỉ render qua jsdom + đọc CSS đã build. Cần liếc ở ~375px và ~1280px, **cả dark và light**, đặc biệt: nav không active vs active, dải Guardian, và **nét vẽ 13 icon BJJ** ở 16/18/20px (hình học nằm gọn trong `src/components/icons/bjj/paths.ts` nên chỉnh rất nhanh).
+- **Chưa kiểm tra bằng mắt trên trình duyệt**: chỉ render qua jsdom + đọc CSS đã build. Cần liếc ở ~375px và ~1280px, **cả dark và light**, đặc biệt: nav không active vs active và dải Guardian. Nét 13 icon BJJ đã được đo ở 16px (§26) nhưng vẫn nên liếc thật ở 16/18/20px.
 - `warm-700` được dùng làm `--hallmark-bg-elevated` — đây là bề mặt sáng nhất trong dark mode; nếu thấy popover quá sáng thì hạ xuống một nấc.
 - Màu in (`@media print`) dùng giấy trắng nên giữ tông riêng, chỉ đổi sang giá trị ấm cho khớp.
 - Markdown ở repo root đã bị loại khỏi quét source của Tailwind (`@source not "../*.md"`) để tài liệu không kéo utility cũ vào bundle.
@@ -519,6 +523,45 @@ Mỗi tone có thang 50–950 (sinh bằng OKLCH, không có neon / hồng / tí
 ## 25. Việc nên làm tiếp
 
 1. Rà mắt 2 mode (đặc biệt light mode chưa từng tồn tại trước đây).
-2. Nhìn kỹ 13 icon và tinh chỉnh `paths.ts` nếu dáng nào chưa rõ.
+2. ~~Nhìn kỹ 13 icon và tinh chỉnh `paths.ts`~~ — **đã làm ở §26** (đo ở 16px, sửa hình học, khoá bằng `bjjIcons.test.ts`).
 3. Cân nhắc `forced-colors` / tương phản cao của OS (đã để ngoài phạm vi).
+
+---
+
+## 26. Lượt tinh chỉnh độ đọc của icon ở 16px (đã làm)
+
+Sidebar render glyph hub ở `h-4 w-4` = **16px**, nên đây là cỡ quyết định. Thay vì "nhìn rồi đoán", mỗi glyph được **rasterize đúng như trình duyệt vẽ** (viewBox 24 → 16px, stroke 2u thành capsule bo tròn, lấy mẫu 0.25u) và đo:
+
+| Số đo | Nghĩa |
+|---|---|
+| `cover` | % pixel 16×16 có ≥50% mực |
+| `fringe` | pixel chỉ 25–50% mực — vệt nhoè làm nét trông mờ |
+| `blobs` | số mảng mực rời nhau (1 mảng + 0 lỗ = một cục đặc) |
+| `lost` | khe hở có trong hình học nhưng biến mất ở 16px |
+| `minGap` | khe nhỏ nhất giữa **hai element khác nhau**, tính bằng pixel ở 16px |
+
+Một `d` string = **một element** (mũi tên có 3 subpath vẫn là một chi), nên gai mũi tên không bị tính là chạm nhau.
+
+### 26.1 Đã sửa gì
+
+- **Luật lưới 16px**: stroke 2u = 1.33px, nên tâm nét nằm ở bội **lẻ của 0.75** → 1 pixel sắc; ở bội **của 1.5** → 2 pixel sắc. Đặt sai (ví dụ `y=19`) thì nét tràn nửa pixel sang hàng bên cạnh → nhoè. Đường thảm (mat) chuyển về `18.75`; chi người về `x.25`/`x.75`.
+- **Brand mark**: khung bo góc 15 đơn vị ở 16px chỉ còn **5 mảng mực** (4 cạnh bị vỡ ở góc vì pixel <50%) và bộ đếm của chữ N bị bít. Bỏ khung, giữ **N monogram đậm** (stroke 2.4): còn **1 mảng, 0 pixel nhoè**, là hình khối liền mạch.
+- **Cặp nét bị "lửng"**: `backTake` (mũi tên sát đầu → 0.57px, ngay ranh giới dính), `escape` (mũi tên dính vào cầu), `choke` (cẳng tay sát đầu 1.05px), `backTake` (thân không nối hông). Nay mọi cặp element hoặc **dính có chủ ý (≤2.0u)** hoặc **tách rõ (≥2.5u)** — không còn cặp nào trong vùng chết.
+- **`legLock`**: cánh tay cũ là một cung thoải, ở 16px vỡ thành 2 đoạn gạch. Đổi thành **bracket** (2 đoạn thẳng 2.5u + cung dọc) → khối rõ, độ phủ 8.1% → 10.4%.
+- **Luật "không đoạn thẳng nào < 2.5u (≈1.7px)"** giờ đúng cho cả 13 glyph (2 vấu bracket của `legLock` được kéo từ 1.5u lên 2.5u).
+
+### 26.2 Kết quả đo
+
+| Chỉ số | Trước | Sau |
+|---|---|---|
+| Tổng pixel nhoè (`fringe`) trên 13 icon | 159 | **93** (−41%) |
+| Icon còn cờ cảnh báo | 1 (`backTake` TIGHT) | **0** |
+| Cặp element trong vùng chết 2.0–2.5u | 1 | **0** |
+| `brand` (blobs / fringe) | 5 / 8 | **1 / 0** |
+
+### 26.3 Khoá lại bằng test
+
+`src/components/icons/bjj/bjjIcons.test.tsx` (69 test) kiểm tra trực tiếp các luật vẽ đã ghi ở đầu `paths.ts`: safe area 2–22, chỉ line/cubic (cấm cung `A`), độ dài đoạn thẳng ≥2.5u, khoảng cách element (dính ≤2.0u hoặc tách ≥2.5u), bán kính đầu ≥2, stroke 2–2.8, nhãn không trùng, và **sprite khớp từng chữ với dữ liệu** (sửa `paths.ts` mà quên `npm run gen:bjj-sprite` là test đỏ).
+
+**Giới hạn của phép đo**: đây là mô hình hình học — không tính hinting/subpixel của từng hệ điều hành, và `fringe`/`cover` chỉ là chỉ số thay thế cho "nhìn thấy rõ". Vẫn nên liếc icon thật ở 16/18/20px.
 

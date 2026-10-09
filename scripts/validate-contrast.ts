@@ -99,41 +99,49 @@ const readVars = (css: string, selectors: string[]): VarMap => {
 
 /**
  * `readVars` is deliberately not nesting-aware, so the light-mode blocks are
- * cut out of the stylesheet first — otherwise their `:root` declarations would
- * silently overwrite the dark ones and both modes would report identical
- * numbers (the exact bug this split prevents).
+ * cut out of the stylesheet first — otherwise their declarations would silently
+ * overwrite the dark ones and both modes would report identical numbers (the
+ * exact bug this split prevents).
+ *
+ * Light mode is keyed off `html[data-theme="light"]` (see src/utils/theme.ts),
+ * so the split looks for that selector instead of a media query.
  */
-const splitLightMedia = (css: string): { dark: string; light: string[] } => {
-  const bodies: string[] = []
-  const start = /@media\s*\(prefers-color-scheme:\s*light\)\s*\{/g
+const LIGHT_SELECTOR = ':root[data-theme="light"]'
+
+const splitLightBlocks = (css: string): { dark: string; light: string[] } => {
+  const blocks: string[] = []
   const ranges: Array<[number, number]> = []
-  let m: RegExpExecArray | null
-  while ((m = start.exec(css))) {
+  let cursor = 0
+  while (true) {
+    const at = css.indexOf(LIGHT_SELECTOR, cursor)
+    if (at === -1) break
+    const open = css.indexOf('{', at)
     let depth = 1
-    const from = m.index + m[0].length
-    let i = from
+    let i = open + 1
     while (i < css.length && depth > 0) {
       if (css[i] === '{') depth++
       else if (css[i] === '}') depth--
       i++
     }
-    bodies.push(css.slice(from, i - 1))
-    ranges.push([m.index, i])
+    blocks.push(css.slice(at, i))
+    ranges.push([at, i])
+    cursor = i
   }
   let darkOnly = css
-  for (const [from, to] of ranges.reverse()) darkOnly = darkOnly.slice(0, from) + darkOnly.slice(to)
-  return { dark: darkOnly, light: bodies }
+  for (const [from, to] of [...ranges].reverse()) darkOnly = darkOnly.slice(0, from) + darkOnly.slice(to)
+  return { dark: darkOnly, light: blocks }
 }
 
-const themeSplit = splitLightMedia(themeCss)
-const indexSplit = splitLightMedia(indexCss)
+const themeSplit = splitLightBlocks(themeCss)
+const indexSplit = splitLightBlocks(indexCss)
 
 const dark: VarMap = {
   ...readVars(indexSplit.dark, ['@theme']),
   ...readVars(themeSplit.dark, [':root']),
 }
 const light: VarMap = { ...dark }
-for (const body of [...indexSplit.light, ...themeSplit.light]) Object.assign(light, readVars(body, [':root']))
+for (const block of [...indexSplit.light, ...themeSplit.light])
+  Object.assign(light, readVars(block, [LIGHT_SELECTOR]))
 
 const hubVar = (css: string, hub: string, name: string): string | undefined => {
   const re = new RegExp(`\\[data-hub="${hub}"\\]\\s*\\{([^}]*)\\}`, 'g')

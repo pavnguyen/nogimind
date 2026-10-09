@@ -7,6 +7,7 @@ import { Download, CheckCircle2 } from 'lucide-react'
 import { getBuildDate } from '../utils/version'
 
 import { LanguageSwitcher } from '../components/i18n/LanguageSwitcher'
+import { ThemeSwitcher } from '../components/settings/ThemeSwitcher'
 
 function useIsStandalone() {
   return typeof window !== 'undefined' && window.matchMedia('(display-mode: standalone)').matches
@@ -94,6 +95,10 @@ export default function SettingsPage() {
         </div>
       }
     >
+      <SectionCard title={t('settings.theme')} description={t('settings.themeBody')}>
+        <ThemeSwitcher />
+      </SectionCard>
+
       <SectionCard title={t('settings.language')}>
         <LanguageSwitcher />
       </SectionCard>

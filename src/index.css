@@ -21,8 +21,12 @@
    *                   500–600 text tones · 700 elevated · 800 card
    *                   900 surface · 950 page background
    *
-   * Light mode (`@media (prefers-color-scheme: light)` in
-   * src/styles/hallmark-themes.css) re-points these same variables, so
+   * The dark surfaces are a soft warm charcoal (#1a1814 → #2f2b24), not near
+   * black: the page reads as "dim" rather than "lights off". `validate:contrast`
+   * re-checks the whole ramp against them, so the lift cannot cost legibility.
+   *
+   * Light mode (`html[data-theme="light"]` in src/styles/hallmark-themes.css,
+   * driven by the appearance preference) re-points these same variables, so
    * components never need a mode-specific class.
    * ════════════════════════════════════════════════════════════════════════ */
   /* neutral charcoal — replaces the cold `slate` scale */
@@ -33,10 +37,10 @@
   --color-warm-400: #cfc9bd;
   --color-warm-500: #a9a191;
   --color-warm-600: #9a9284;
-  --color-warm-700: #4c463d;
-  --color-warm-800: #26231d;
-  --color-warm-900: #14120f;
-  --color-warm-950: #0d0c0a;
+  --color-warm-700: #514a3f;
+  --color-warm-800: #2f2b24;
+  --color-warm-900: #232019;
+  --color-warm-950: #1a1814;
 
   /* grappling tone · gold */
   --color-gold-50: #fff4d9;
@@ -131,7 +135,7 @@
 
   /* Mode-aware role tokens */
   --color-on-accent: #0d0c0a;        /* ink on a bright tone fill */
-  --color-scrim: rgba(13, 12, 10, 0.62); /* modal / sheet backdrop */
+  --color-scrim: rgba(20, 18, 15, 0.62); /* modal / sheet backdrop */
 
   /* Semantic accent text (mode-aware; readable on page & card) */
   --color-gold: #f6c175;
@@ -238,6 +242,18 @@
 }
 
 /* ── Base reset ─────────────────────────────────────────────────────── */
+
+/* Native UI (form controls, scrollbars, the canvas) follows the resolved
+ * appearance rather than the OS, so it never contradicts the app. Resolved by
+ * src/utils/theme.ts; dark is the default when no attribute is set. */
+:root {
+  color-scheme: dark;
+}
+
+:root[data-theme="light"] {
+  color-scheme: light;
+}
+
 html,
 body,
 #root {
@@ -248,7 +264,6 @@ body {
   margin: 0;
   min-width: 320px;
   position: relative;
-  color-scheme: light dark;
   background: var(--hallmark-bg-primary);
   color: var(--hallmark-text-primary);
   font-family: 'Inter', ui-sans-serif, system-ui, sans-serif;

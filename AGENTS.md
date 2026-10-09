@@ -226,6 +226,21 @@ title from the id.
   `--hallmark-text-primary`, ...) from `src/styles/hallmark-themes.css`, mapped
   through `@theme` in `src/index.css`. Provide per-hub accents with
   `HubThemeProvider` instead of hard-coding colors.
+- Light mode is keyed off `html[data-theme="light"]`, **not** a media query —
+  never reintroduce `@media (prefers-color-scheme)` for tokens, it would beat
+  the in-app choice in Settings → Appearance. The attribute comes from
+  `src/utils/theme.ts` (mirrored by the pre-paint script in `index.html`)
+  reading the persisted `theme` preference; `theme.test.ts` guards both.
+- The default preference is `light` (a fresh install opens on the cream
+  palette). Persisted state moved to `version: 1`: the store's `migrate` and the
+  `index.html` script both turn a v0 `system` — the old default — into `light`,
+  once. An explicit `system`/`dark` stored as v1 must stay untouched.
+- The dark palette is a **soft warm charcoal** (`#1a1814` page → `#2f2b24`
+  card), not near-black; the `--color-warm-700…950` ramp in `src/index.css`
+  and the `--hallmark-bg-*` mirrors in `hallmark-themes.css` move together.
+  Lighten or darken them only in pairs, and re-run `npm run validate:contrast` —
+  it measures every text/surface pair against the real stylesheet in both
+  modes.
 - Keep components accessible: semantic elements, labels for inputs, accessible
   names for icon-only actions, `aria-hidden` on decorative SVGs.
 - Motion stays subtle and follows existing patterns (`page-enter`,

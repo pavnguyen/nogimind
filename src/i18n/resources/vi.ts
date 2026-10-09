@@ -5,7 +5,7 @@ export const vi = {
   app: {
     name: 'NoGi Mind',
     thesis: 'NoGi Mind giúp bạn hiểu no-gi hiện đại như một hệ thống.',
-    version: 'Hệ thống kiến thức no-gi hiện đại',
+    version: 'Grappling hiện đại',
     poweredBy: 'Phát triển cùng LinDiGi',
   },
   common: {
@@ -1192,6 +1192,11 @@ export const vi = {
     heading: 'Cài đặt',
     subtitle: 'Ngôn ngữ, tùy chọn giao diện và dữ liệu kỹ thuật được lưu trên thiết bị.',
     installApp: 'Ứng dụng',
+    theme: 'Giao diện',
+    themeBody: 'Theo hệ thống sẽ bám theo cài đặt thiết bị. Sáng hoặc Tối sẽ cố định chế độ hiển thị.',
+    themeSystem: 'Theo hệ thống',
+    themeLight: 'Sáng',
+    themeDark: 'Tối',
     language: 'Ngôn ngữ',
     viewMode: 'Độ sâu học',
     simple: 'Đơn giản',

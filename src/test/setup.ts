@@ -1,18 +1,25 @@
 import '@testing-library/jest-dom'
 
 // ── Mock react-i18next ─────────────────────────────────────────────────────
-vi.mock('react-i18next', () => ({
-  useTranslation: () => ({
-    t: (key: string, options?: string | Record<string, unknown>) => {
-      if (typeof options === 'string') return options
-      if (options && typeof options === 'object' && 'defaultValue' in options) {
-        return (options as Record<string, unknown>).defaultValue as string
-      }
-      return key
-    },
-    i18n: { language: 'en', changeLanguage: vi.fn() },
-  }),
-}))
+// `t` returns the key, which keeps assertions locale-independent. The rest of
+// the module is kept real: src/i18n/i18n.ts calls `initReactI18next`, and tests
+// that exercise the real settings store pull that module in.
+vi.mock('react-i18next', async (importOriginal) => {
+  const actual = await importOriginal<typeof import('react-i18next')>()
+  return {
+    ...actual,
+    useTranslation: () => ({
+      t: (key: string, options?: string | Record<string, unknown>) => {
+        if (typeof options === 'string') return options
+        if (options && typeof options === 'object' && 'defaultValue' in options) {
+          return (options as Record<string, unknown>).defaultValue as string
+        }
+        return key
+      },
+      i18n: { language: 'en', changeLanguage: vi.fn() },
+    }),
+  }
+})
 
 // ── Mock @tanstack/react-query ─────────────────────────────────────────────
 // Individual tests should override this mock as needed

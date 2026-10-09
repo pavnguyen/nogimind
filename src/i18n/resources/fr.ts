@@ -5,7 +5,7 @@ export const fr = {
   app: {
     name: 'NoGi Mind',
     thesis: 'NoGi Mind aide à comprendre le no-gi moderne comme un système.',
-    version: 'Modern No-Gi Knowledge',
+    version: 'Grappling sans Kimono',
     poweredBy: 'Propulsé par LinDiGi',
   },
   nav: {
@@ -1173,6 +1173,11 @@ export const fr = {
     ...en.settings,
     heading: 'Réglages',
     subtitle: 'Langue, préférences UI et données locales du knowledge system.',
+    theme: 'Apparence',
+    themeBody: 'Système suit le réglage de votre appareil. Clair et Sombre fixent un seul mode.',
+    themeSystem: 'Système',
+    themeLight: 'Clair',
+    themeDark: 'Sombre',
     language: 'Langue',
     viewMode: 'Profondeur d’apprentissage',
     simple: 'Simple',

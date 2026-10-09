@@ -12,7 +12,7 @@
     <meta name="publisher" content="LinDiGi" />
     <meta name="robots" content="index, follow, max-image-preview:large" />
     <meta name="theme-color" content="#0f766e" />
-    <meta name="color-scheme" content="dark light" />
+    <meta name="color-scheme" content="light dark" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300..800&display=swap" rel="stylesheet" />
@@ -43,6 +43,38 @@
   </head>
   <body>
     <div id="root"></div>
+    <!--
+      Resolve the appearance preference before the first paint, so a returning
+      user never sees the app flash the wrong mode. Mirrors `resolveTheme` in
+      src/utils/theme.ts, plus the v0 → v1 migration in
+      src/stores/useSettingsStore.ts (the stored shape is zustand/persist's), and
+      is the only reason the stylesheet can key light mode off `html[data-theme]`
+      instead of a media query. If anything here throws, the app still starts: the
+      stylesheet falls back to dark and useThemeSync re-applies the preference on
+      mount.
+    -->
+    <script>
+      (function () {
+        var dark = false
+        try {
+          var preference = 'light'
+          var raw = window.localStorage.getItem('nogi_settings')
+          if (raw) {
+            var persisted = JSON.parse(raw)
+            var stored = (persisted && persisted.state && persisted.state.theme) || null
+            // v0 defaulted to `system`; treat that as the new `light` default.
+            if (!(persisted.version >= 1) && (stored === null || stored === 'system')) stored = 'light'
+            if (stored === 'light' || stored === 'dark' || stored === 'system') preference = stored
+          }
+          var prefersDark =
+            !window.matchMedia || window.matchMedia('(prefers-color-scheme: dark)').matches
+          dark = preference === 'system' ? prefersDark : preference === 'dark'
+        } catch {
+          /* storage disabled or unreadable — keep the light default */
+        }
+        document.documentElement.setAttribute('data-theme', dark ? 'dark' : 'light')
+      })()
+    </script>
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
