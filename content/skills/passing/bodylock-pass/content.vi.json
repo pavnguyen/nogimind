@@ -1,56 +1,56 @@
 {
   "id": "bodylock-pass",
   "locale": "vi",
-  "name": "Thẻ khóa cơ thể",
+  "name": "Body Lock",
   "shortName": "Khóa cơ thể",
-  "description": "Sử dụng áp lực từ ngực đến hông, lệch đầu và khóa hông để ghim hông đối phương trước khi vượt qua đường đầu gối. Một hệ thống truyền áp suất cốt lõi No-Gi.",
-  "shortInstruction": "Khóa hông thấp, lệch đầu, diệt móc, làm rõ đường đầu gối, ổn định chốt.",
-  "summary": "Một hệ thống truyền áp lực cốt lõi No-Gi giúp trung hòa hông trước khi làm sạch chân.",
+  "description": "Sử dụng áp lực từ ngực đến hông, lệch đầu và khóa hông để ghim hông đối phương trước khi vượt qua knee line. Một hệ thống passing áp lực cốt lõi No-Gi.",
+  "shortInstruction": "Khóa hông thấp, lệch đầu, diệt móc, xóa knee line, ổn định pin.",
+  "summary": "Một hệ thống passing áp lực cốt lõi No-Gi giúp trung hòa hông trước khi xóa chân.",
   "whyItWorks": [
-    "Khóa cả hai hông trước khi đối thủ có thể re-Guard hoặc tạo khung.",
-    "Biến áp lực ở phần trên cơ thể thành tình trạng bất động ở phần dưới cơ thể.",
-    "Từ chối móc bướm, gập vai và pummeling vào đầu gối bên trong.",
-    "Tạo ra tình thế tiến thoái lưỡng nan giữa việc bị san bằng hoặc từ bỏ đường chuyền."
+    "Khóa cả hai hông trước khi đối thủ có thể re-Guard hoặc dựng khung.",
+    "Biến áp lực phần trên cơ thể thành bất động phần dưới cơ thể.",
+    "Chặn móc bướm, gập vai và pummel vào đầu gối trong.",
+    "Tạo tình thế tiến thoái lưỡng nan giữa bị san bằng hoặc từ bỏ đường pass."
   ],
   "commonMistakes": [
     "Khóa quá cao trên xương sườn thay vì hông.",
-    "Nhả khóa cơ thể trước khi đường đầu gối được xóa.",
+    "Nhả khóa cơ thể trước khi knee line được xóa.",
     "Để đầu ngồi giữa hai tay.",
-    "Bỏ qua móc bướm và lao vào đường đầu gối.",
-    "Đứng quá cao, mất kết nối giữa ngực và hông."
+    "Bỏ qua móc bướm và lao vào knee line.",
+    "Đứng quá cao, mất kết nối ngực-hông."
   ],
   "coachingCues": [
     "Khóa thấp, lệch đầu, diệt móc.",
-    "Ngực kề hông chứ không phải ngực kề ngực.",
-    "Móc chết trước khi đầu gối di chuyển.",
-    "Ổn định trước khi phát hành."
+    "Ngực chạm hông chứ không phải ngực chạm ngực.",
+    "Diệt móc trước khi đầu gối di chuyển.",
+    "Ổn định trước khi chuyển."
   ],
   "oneMinuteMode": {
-    "goal": "Ghim hông và làm sạch đường đầu gối bằng áp lực từ ngực đến hông.",
+    "goal": "Ghim hông và xóa knee line bằng áp lực ngực-hông.",
     "steps": [
-      "Nối ngực với hông với hai tay khóa thấp quanh eo.",
-      "Giữ đầu lệch sang một bên (tai gần hông).",
-      "Giết móc bướm bằng áp lực đầu gối và ngực.",
-      "Kính chắn gió gần đầu gối qua khung ống chân.",
-      "Xóa đường đầu gối và ổn định Side Control."
+      "Nối ngực với hông bằng hai tay khóa thấp quanh eo.",
+      "Giữ đầu lệch một bên (tai gần hông).",
+      "Diệt móc bướm bằng áp lực đầu gối và ngực.",
+      "Xóa knee line gần đầu gối qua khung ống chân.",
+      "Xóa knee line và ổn định Side Control."
     ]
   },
   "safetySummary": [
-    "Tránh dồn trọng lượng lên cổ hoặc cột sống của đối phương.",
-    "Giải phóng áp lực ngay lập tức nếu đối tác của bạn chạm vào hoặc tỏ ra đau khổ.",
-    "Đừng quay cổ để buộc vượt qua."
+    "Tránh dồn trọng lượng lên cổ hoặc cột sống đối phương.",
+    "Giải phóng áp lực ngay nếu đối tác tap hoặc tỏ vẻ đau đớn.",
+    "Đừng quay cổ để buộc pass."
   ],
   "keyCorrections": [
-    "Nếu bị kẹt, đầu của bạn sẽ ở giữa - hãy lệch nó sang một bên.",
-    "Nếu họ lạiguard thì bạn đã mở khóa quá sớm.",
-    "Nếu họ gập vai thì ngực của bạn quá cao."
+    "Nếu bị kẹt, đầu bạn ở giữa - hãy lệch nó sang một bên.",
+    "Nếu họ re-Guard thì bạn đã mở khóa quá sớm.",
+    "Nếu họ gập vai thì ngực bạn quá cao."
   ],
   "systemLogic": {
-    "corePrinciple": "Khóa cơ thể pass là một hệ thống tập trung vào hông - kiểm soát hông và chân theo sau. Vị trí khóa quyết định thành công của pass hơn là áp lực của phần thân trên.",
+    "corePrinciple": "Body Lock pass là hệ thống tập trung vào hông - kiểm soát hông và chân theo sau. Vị trí khóa quyết định thành công của pass hơn là áp lực phần thân trên.",
     "decisionTree": [
       {
         "condition": "Đối thủ đang kích hoạt móc bướm",
-        "action": "Đẩy trọng lượng của ngực qua các móc trong khi vẫn giữ đầu ở vị trí cân bằng - không nhả khóa cho đến khi các móc được ghim vào thảm."
+        "action": "Đẩy trọng lượng ngực qua móc trong khi vẫn giữ đầu ở vị trí cân bằng - không nhả khóa cho đến khi móc được ghim vào thảm."
       },
       {
         "condition": "Đối thủ nằm ngửa, không có móc",
@@ -58,32 +58,32 @@
       },
       {
         "condition": "Đối thủ pummeling vào ngực bạn",
-        "action": "Hạ thấp ngực xuống, hướng tai về phía rốn và đưa đầu gối về phía trước để phá khung."
+        "action": "Hạ ngực xuống, hướng tai về phía rốn và đưa đầu gối về trước để phá khung."
       },
       {
         "condition": "Đối thủ quay về phía mình (knee shield)",
-        "action": "Chuyển sang đường chuyền trên dưới bằng cách thả một bên khóa và dùng vai ghim đầu gối gần đó."
+        "action": "Chuyển sang đường pass trên-dưới bằng cách thả một bên khóa và dùng vai ghim đầu gối gần."
       },
       {
         "condition": "Đối thủ nhận được underhook giây và nâng bạn lên",
-        "action": "Giữ tư thế, nối lại ngực với hông và đặt lại khóa - không chiến đấu từ tư thế nâng lên."
+        "action": "Giữ tư thế, nối lại ngực-hông và đặt lại khóa - không chiến từ tư thế nâng."
       }
     ],
     "exitStrategies": [
-      "Nếu vượt qua không thành công, hãy chuyển sang Half Guard vượt qua hoặc kiểm soát trụ sở chính.",
-      "Nếu đối thủ tạo ra quá nhiều khoảng trống, hãy đứng dậy và giao tranh lại từ tư thế chuyền thấp.",
-      "Nếu khóa cơ thể liên tục bị phản công, hãy chuyển sang chuyền qua phía dưới hoặc kéo chân."
+      "Nếu pass không thành công, chuyển sang Half Guard pass hoặc headquarters control.",
+      "Nếu đối thủ tạo quá nhiều khoảng trống, đứng dậy và giao tranh lại từ tư thế passing thấp.",
+      "Nếu Body Lock liên tục bị phản công, chuyển sang passing dưới hoặc leg drag."
     ]
   },
   "moneyDetails": [
     "Phần bù đầu là chi tiết bị đánh giá thấp nhất - nó chặn khả năng xoay vai và xoay hông.",
-    "Giết lưỡi câu bướm không phải là tùy chọn; không có nó, hông của bạn sẽ được nâng lên.",
-    "Chỉ nhả khóa thân sau khi đã qua đường đầu gối và Side Control được ghim."
+    "Diệt móc bướm không phải tùy chọn; không có nó, hông bạn sẽ bị nâng lên.",
+    "Chỉ nhả khóa thân sau khi qua knee line và Side Control được ghim."
   ],
-  "nextStep": "Sau khi ổn định Side Control, hãy chuyển sang Mount, back control hoặc gửi các hệ thống như nhánh Triangle.",
+  "nextStep": "Sau khi ổn định Side Control, chuyển sang Mount, back control hoặc chuyển vào các hệ thống như nhánh Triangle.",
   "fixItFast": [
-    "Không thể khóa hông? Hạ thấp ngực và bước rộng đầu gối của bạn.",
-    "Được nâng lên? Ngực của bạn quá cao và lưỡi câu vẫn còn sống.",
-    "Đường đầu gối bị kẹt? Kính chắn gió gần đầu gối của bạn trong khi vẫn giữ áp lực nặng ở ngực."
+    "Không thể khóa hông? Hạ ngực và bước rộng đầu gối.",
+    "Bị nâng lên? Ngực bạn quá cao và móc bướm vẫn còn sống.",
+    "Knee line bị kẹt? Xóa knee line gần đầu gối trong khi vẫn giữ áp lực nặng ở ngực."
   ]
 }
