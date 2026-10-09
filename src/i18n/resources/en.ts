@@ -955,7 +955,7 @@ export const en = {
     relatedSafety: 'Related safety layers',
   },
   safetyCategories: {
-    leg_lock: 'Leg lock',
+    leg_lock: 'Leg Lock',
     neck: 'Neck',
     spine: 'Spine',
     shoulder: 'Shoulder',

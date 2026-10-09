@@ -315,7 +315,7 @@ export const fr = {
       back_take: 'Prise de dos',
       ride: 'Ride',
       wrestling: 'Lutte',
-      leg_lock: 'Leg lock',
+      leg_lock: 'Leg Lock',
       front_headlock: 'Front Headlock',
       escape: 'Évasion',
       pin: 'Pin',
@@ -976,7 +976,7 @@ export const fr = {
   },
   safetyCategories: {
     ...en.safetyCategories,
-    leg_lock: 'Leg lock',
+    leg_lock: 'Leg Lock',
     neck: 'Cou',
     spine: 'Colonne',
     shoulder: 'Épaule',

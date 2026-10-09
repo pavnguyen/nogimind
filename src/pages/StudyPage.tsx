@@ -373,13 +373,12 @@ export default function StudyPage() {
                               {hasMicroDetails && <span className="h-1.5 w-1.5 rounded-full bg-gold-400" title={t('studyPage.hasMicroDetails')} />}
                               {hasVideos && <span className="h-1.5 w-1.5 rounded-full bg-steel-400" title={t('studyPage.hasVideos')} />}
                             </span>
-                          </div>
-                          <div className="flex shrink-0 items-center gap-2">
-                            {isRecent && (
-                              <span className="flex items-center gap-1 text-[10px] text-warm-500">
-                                <Clock className="h-3 w-3" />
-                                {formatTimeAgo(isRecent)}
-                              </span>
+                          </div>                           <div className="flex items-center gap-2">
+                             {isRecent && (
+                               <span className="flex items-center gap-1 text-[10px] text-warm-500">
+                                 <Clock className="h-3 w-3" />
+                                 {formatTimeAgo(isRecent)}
+                               </span>
                             )}
                             <Link
                               to={`/skills/${skill.id}`}
@@ -502,6 +501,7 @@ export default function StudyPage() {
                                 recordView(skill.id)
                               }}
                               aria-label={getLocalizedText(skill.title, lang)}
+                              title={getLocalizedText(skill.title, lang)}
                             >
                               <ArrowRight className="h-5 w-5 transition-transform group-hover:translate-x-0.5" aria-hidden="true" />
                             </Link>

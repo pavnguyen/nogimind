@@ -74,7 +74,7 @@ export const vi = {
     reference: 'Tra cứu',
     about: '',
     build: 'Xây dựng lối chơi',
-    learningPath: 'Lộ trình học',
+    learningPath: 'Roadmap',
     philosophy: 'Triết lý',
     settings: 'Cài đặt',
     openMenu: 'Mở menu điều hướng',
@@ -125,7 +125,7 @@ export const vi = {
     },
     map: {
       heading: 'Bản đồ kỹ thuật',
-      subtitle: 'Nối vị trí → kỹ năng → chuỗi kỹ thuật → phản đòn → cách thoát để xây dựng lối chơi của bạn.',
+      subtitle: 'GamePlan',
       flow: 'Xây dựng hệ thống kỹ thuật',
       items: {
         positions: { title: 'Vị trí', body: 'Bắt đầu từ nơi cơ thể hai bên đang kết nối.' },
@@ -226,7 +226,7 @@ export const vi = {
   },
   learn: {
     badge: 'Bắt đầu ở đây',
-    heading: 'Lộ trình học',
+    heading: 'Roadmap',
     subtitle: 'Học theo trình tự: vị trí → khái niệm → kỹ năng → chi tiết then chốt → chuỗi kỹ thuật → cách thoát → xử lý lỗi → xây dựng lối chơi.',
     whatFor: 'Chọn bước học tiếp theo phù hợp, thay vì chuyển qua lại giữa các nội dung một cách ngẫu nhiên.',
     primaryAction: 'Bắt đầu với Bản đồ kỹ năng',
@@ -960,7 +960,7 @@ export const vi = {
   defense: {
     ...en.defense,
     heading: 'Phòng thủ & An toàn',
-    subtitle: 'Nhận biết dấu hiệu nguy hiểm sớm cho khóa chân, tấn công cổ, thế đè, tranh chấp chuyển thế và quy định khi tập luyện.',
+    subtitle: 'Nhận biết dấu hiệu nguy hiểm sớm cho các đoàn khoá siết vv...',
     search: 'Tìm threat, danger signal hoặc phản ứng an toàn',
     empty: 'Không có lớp phòng thủ nào phù hợp với bộ lọc.',
     notFoundTitle: 'Không tìm thấy lớp phòng thủ',
@@ -1037,7 +1037,7 @@ export const vi = {
   archetypes: {
     ...en.archetypes,
     heading: 'Kiểu game grappling',
-    subtitle: 'Template game cá nhân nối concepts, skills, yêu cầu phòng thủ và chiến lược if-then.',
+    subtitle: 'Template game cá nhân nối concepts, skills, vv...',
     whatFor: 'Dùng trang này khi bạn muốn một khuôn phong cách cho game của mình.',
     whenToUse: 'Mở khi bạn đang chọn hướng chuyên sâu hoặc kỹ năng tiếp theo.',
     nextStep: 'Mở skill và chains khớp với archetype đó.',
