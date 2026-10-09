@@ -2,26 +2,26 @@
   "id": "closed-guard",
   "locale": "vi",
   "title": "Closed Guard",
-  "description": "Người Guard khóa chân quanh hông passer để kiểm soát posture, tạo angle cho submission hoặc sweep.",
+  "description": "Người giữ Guard khóa chân quanh hông passer để kiểm soát tư thế, tạo góc cho submission hoặc sweep.",
   "topPlayerGoals": [
-    "Người ở trên muốn kiểm soát Closed Guard bằng vị trí đầu, vị trí trong và áp lực có hướng.",
-    "Phá posture, giữ trọng lượng thấp và ngăn angle attack.",
-    "Giữ nền vững để không bị mất thăng bằng hoặc bị phản đòn."
+    "Người trên kiểm soát Closed Guard bằng vị trí đầu, vị trí trong và hướng áp lực.",
+    "Phá tư thế, giữ trọng lượng thấp và chặn đối thủ tạo góc.",
+    "Giữ nền chắc để không bị đẩy mất thăng bằng hay bị phản đòn."
   ],
   "bottomPlayerGoals": [
-    "Người ở dưới muốn sống sót trong Closed Guard bằng khung chặn, pummel hoặc góc phù hợp.",
-    "Thắng posture angle, tách khuỷu khỏi ribs và mở attack/sweep.",
-    "Nhận diện tín hiệu nguy hiểm sớm thay vì chờ vị trí ổn định."
+    "Người dưới cần sống sót ở Closed Guard bằng frame, pummel hoặc chọn đúng góc.",
+    "Thắng góc tư thế, tách khuỷu khỏi sườn rồi mở submission hoặc sweep.",
+    "Nhận ra tín hiệu nguy hiểm từ sớm, thay vì chờ đến khi thế đã ổn định."
   ],
   "controlPoints": [
-    "Điểm kiểm soát chính: Posture, kết nối hông và shoulder line.",
-    "Đầu, tay, hông và gối nên cùng hướng lực.",
-    "Kết nối khuỷu-gối hoặc đường hông-vai quyết định vị trí còn sống hay đã bị khóa."
+    "Điểm kiểm soát chính: tư thế, kết nối hông và đường vai.",
+    "Đầu, tay, hông và gối phải cùng một hướng lực.",
+    "Kết nối khuỷu-gối cùng đường hông-vai quyết định thế còn giữ được hay đã bị khóa."
   ],
   "escapePriorities": [
-    "Ưu tiên thoát: Bảo vệ cổ và posture trước khi mở Guard.",
-    "Bảo vệ cổ, lưng, đường gối hoặc đường tay trước khi phản công.",
-    "Nếu mất vị trí trong, hãy lùi lại một lớp phòng thủ trước."
+    "Ưu tiên thoát: bảo vệ cổ và tư thế trước khi mở Guard.",
+    "Bảo vệ cổ, lưng, đường gối và đường tay trước khi phản công.",
+    "Mất vị trí trong thì lùi lại một lớp phòng thủ trước đã."
   ],
   "advancementOptions": [
     {
@@ -32,13 +32,13 @@
         "closed-guard-sweeps",
         "clamp-guard-control"
       ],
-      "why": "Đây là nhánh tự nhiên khi bạn thắng điểm kiểm soát chính và đối thủ buộc phải phòng thủ."
+      "why": "Đây là nhánh tự nhiên khi bạn đã thắng điểm kiểm soát chính và đối thủ buộc phải phòng thủ."
     }
   ],
   "dangerSignals": [
     "Cằm hoặc cổ bị kéo ra khỏi đường an toàn.",
-    "Khuỷu tay tách khỏi sườn hoặc đầu gối.",
-    "Đường hông bị khóa trong khi đường vai vẫn đang bị kéo.",
-    "Bạn phải chống tay dài để không ngã."
+    "Khuỷu tay rời khỏi sườn hoặc khỏi đầu gối.",
+    "Đường hông đã bị khóa mà đường vai vẫn đang bị kéo.",
+    "Phải chống tay thật xa mới giữ được thăng bằng."
   ]
 }

@@ -2,26 +2,26 @@
   "id": "outside-ashi",
   "locale": "vi",
   "title": "Outside Ashi",
-  "description": "Leg entanglement với chân nằm ngoài hip line, liên quan Straight Ankle Lock và nguy cơ lộ gót.",
+  "description": "Thế khóa chân với chân nằm ngoài đường hông, gắn với Straight Ankle Lock và nguy cơ lộ gót.",
   "topPlayerGoals": [
-    "Người ở trên muốn kiểm soát Outside Ashi bằng vị trí đầu, vị trí trong và áp lực có hướng.",
-    "Attacker muốn giữ knee line và kiểm soát bàn chân.",
-    "Giữ nền vững để không bị mất thăng bằng hoặc bị phản đòn."
+    "Người trên kiểm soát Outside Ashi bằng vị trí đầu, vị trí trong và hướng áp lực.",
+    "Người trên muốn giữ đường gối và kiểm soát bàn chân.",
+    "Giữ nền chắc để không bị đẩy mất thăng bằng hay bị phản đòn."
   ],
   "bottomPlayerGoals": [
-    "Người ở dưới muốn sống sót trong Outside Ashi bằng khung chặn, pummel hoặc góc phù hợp.",
-    "Defender muốn giấu gót, clear knee line và giải phóng chân phụ.",
-    "Nhận diện tín hiệu nguy hiểm sớm thay vì chờ vị trí ổn định."
+    "Người dưới cần sống sót ở Outside Ashi bằng frame, pummel hoặc chọn đúng góc.",
+    "Người dưới muốn giấu gót, vượt đường gối và gỡ chân còn lại.",
+    "Nhận ra tín hiệu nguy hiểm từ sớm, thay vì chờ đến khi thế đã ổn định."
   ],
   "controlPoints": [
-    "Điểm kiểm soát chính: Knee line, heel line và chân phụ.",
-    "Đầu, tay, hông và gối nên cùng hướng lực.",
-    "Kết nối khuỷu-gối hoặc đường hông-vai quyết định vị trí còn sống hay đã bị khóa."
+    "Điểm kiểm soát chính: đường gối, đường gót và chân còn lại.",
+    "Đầu, tay, hông và gối phải cùng một hướng lực.",
+    "Kết nối khuỷu-gối cùng đường hông-vai quyết định thế còn giữ được hay đã bị khóa."
   ],
   "escapePriorities": [
-    "Ưu tiên thoát: Giấu gót trước khi xoay.",
-    "Bảo vệ cổ, lưng, đường gối hoặc đường tay trước khi phản công.",
-    "Nếu mất vị trí trong, hãy lùi lại một lớp phòng thủ trước."
+    "Ưu tiên thoát: giấu gót trước khi xoay.",
+    "Bảo vệ cổ, lưng, đường gối và đường tay trước khi phản công.",
+    "Mất vị trí trong thì lùi lại một lớp phòng thủ trước đã."
   ],
   "advancementOptions": [
     {
@@ -32,13 +32,13 @@
         "heel-hook-safety",
         "leg-lock-safety-basics"
       ],
-      "why": "Đây là nhánh tự nhiên khi bạn thắng điểm kiểm soát chính và đối thủ buộc phải phòng thủ."
+      "why": "Đây là nhánh tự nhiên khi bạn đã thắng điểm kiểm soát chính và đối thủ buộc phải phòng thủ."
     }
   ],
   "dangerSignals": [
     "Cằm hoặc cổ bị kéo ra khỏi đường an toàn.",
-    "Khuỷu tay tách khỏi sườn hoặc đầu gối.",
-    "Đường hông bị khóa trong khi đường vai vẫn đang bị kéo.",
-    "Bạn phải chống tay dài để không ngã."
+    "Khuỷu tay rời khỏi sườn hoặc khỏi đầu gối.",
+    "Đường hông đã bị khóa mà đường vai vẫn đang bị kéo.",
+    "Phải chống tay thật xa mới giữ được thăng bằng."
   ]
 }

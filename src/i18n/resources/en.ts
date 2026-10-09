@@ -11,7 +11,7 @@ export const en = {
   app: {
     name: 'NoGi Mind',
     thesis: 'NoGi Mind helps you understand modern no-gi as a system.',
-    version: 'Modern App',
+    version: 'Modern Grappling',
     poweredBy: 'Powered by LinDiGi',
   },
   nav: {
