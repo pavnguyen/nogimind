@@ -3,7 +3,7 @@
   "domain": "passing",
   "level": "intermediate",
   "status": "draft",
-  "name": "Trụ sở đi qua",
+  "name": "Headquarters Passing",
   "aliases": [],
   "tags": [
     "passing",
@@ -62,7 +62,7 @@
   "locale": "vi",
   "description": "Đứng ở trụ sở để kiểm soát hông của đối phương và buộc các lựa chọn cắt đầu gối, lùi lại hoặc kéo chân. Trụ sở chính là vị trí passing trung tâm mà từ đó tất cả các hệ thống Guard passing đều bắt nguồn.",
   "shortInstruction": "Từ trụ sở (một đầu gối nâng lên, một đầu gối hạ xuống), kiểm soát hông xa của họ bằng tay gần của bạn và chặn ống chân gần của họ bằng đầu gối trụ của bạn. Đọc phản ứng của họ và chọn pass thích hợp.",
-  "summary": "Trụ sở chính passing là khái niệm passing quan trọng nhất trong BJJ hiện đại. Từ vị trí trụ sở (một đầu gối nâng lên Guard dựa vào khung ống chân, một đầu gối hạ xuống làm đế), bạn điều khiển chuyển động hông của đối phương và buộc họ phản ứng. Cây quyết định của bạn có ba nhánh chính: (1) cắt đầu gối nếu họ ấn ống chân vào đầu gối của bạn, (2) lùi lại nếu họ tạo khoảng cách bằng cách hông thoát ra, (3) kéo chân nếu họ đứng đối mặt với bạn. Hệ thống này dựa trên việc đọc góc hông và vị trí khung ống chân của đối thủ.",
+  "summary": "Headquarters passing là khái niệm passing quan trọng nhất trong BJJ hiện đại. Từ vị trí trụ sở (một đầu gối nâng lên Guard dựa vào khung ống chân, một đầu gối hạ xuống làm đế), bạn điều khiển chuyển động hông của đối phương và buộc họ phản ứng. Cây quyết định của bạn có ba nhánh chính: (1) cắt đầu gối nếu họ ấn ống chân vào đầu gối của bạn, (2) lùi lại nếu họ tạo khoảng cách bằng cách hông thoát ra, (3) kéo chân nếu họ đứng đối mặt với bạn. Hệ thống này dựa trên việc đọc góc hông và vị trí khung ống chân của đối thủ.",
   "whyItWorks": [
     "Vị trí trụ sở kiểm soát cả hông gần (đầu gối được đặt của bạn) và hông xa (điều khiển bằng tay của bạn)",
     "Đứng ở trụ sở buộc đối thủ phải giao tranh (khung ống chân) hoặc rút lui (thoát hông) - cả hai phản ứng đều làm lộ làn đường đi qua",
@@ -87,7 +87,7 @@
     "Nếu đối thủ lăn lộn mạnh mẽ trong pass, hãy bảo vệ đầu của bạn và thiết lập lại vị trí"
   ],
   "systemLogic": {
-    "corePrinciple": "Trụ sở chính passing có ba nhánh dựa trên phản ứng của đối thủ: Cắt đầu gối → Bước lùi → Kéo chân",
+    "corePrinciple": "Headquarters passing có ba nhánh dựa trên phản ứng của đối thủ: Cắt đầu gối → Bước lùi → Kéo chân",
     "decisionTree": [
       {
         "condition": "Sử dụng Nhánh 1 (Cắt đầu gối)",
