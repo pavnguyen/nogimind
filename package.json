@@ -16,7 +16,6 @@
     "audit:vi": "tsx scripts/auditViKeys.ts",
     "test": "vitest run",
     "test:watch": "vitest",
-    "gen:bjj-sprite": "tsx scripts/gen-bjj-sprite.ts",
     "validate:contrast": "tsx scripts/validate-contrast.ts"
   },
   "dependencies": {

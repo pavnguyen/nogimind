@@ -82,9 +82,11 @@ export default function DashboardPage() {
 
           {/* ── Inline stats, one row instead of a separate strip ── */}
           <div className="mt-3 flex flex-wrap items-center gap-x-5 gap-y-2 border-t border-warm-50/[0.06] pt-3">
-            <div className="flex items-baseline gap-1.5">
-              <span className="text-[10px] font-semibold uppercase tracking-widest hallmark-text-tertiary">{t('dashboard.totalSkills')}</span>
-              <span className="text-sm font-bold hallmark-accent-text">{pipelineSkillCount}</span>
+            {/* Headline stat: solid tone fill with validated on-accent ink, the
+                other two stats stay quiet so the total reads first. */}
+            <div className="flex items-center gap-2 rounded-lg bg-jade-400 px-2.5 py-1 text-on-accent shadow-sm">
+              <span className="text-[10px] font-bold uppercase tracking-widest">{t('dashboard.totalSkills')}</span>
+              <span className="text-lg font-extrabold leading-none tabular-nums">{pipelineSkillCount}</span>
             </div>
             <div className="h-4 w-px bg-warm-50/[0.08]" aria-hidden="true" />
             <div className="flex items-baseline gap-1.5">
@@ -110,7 +112,7 @@ export default function DashboardPage() {
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Guardian HCMC on Facebook"
-              className="inline-flex h-5 w-5 items-center justify-center rounded-md bg-gold-400/20 text-gold transition-colors hover:bg-gold-400/35 hover:text-warm-50"
+              className="inline-flex h-8 w-8 items-center justify-center rounded-md bg-gold-400/20 text-gold transition-colors hover:bg-gold-400/35 hover:text-warm-50"
             >
               <FacebookIcon className="h-3.5 w-3.5 shrink-0" />
             </a>
@@ -119,13 +121,13 @@ export default function DashboardPage() {
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Guardian HCMC on Instagram"
-              className="inline-flex h-5 w-5 items-center justify-center rounded-md bg-copper-400/20 text-copper transition-colors hover:bg-copper-400/35 hover:text-warm-50"
+              className="inline-flex h-8 w-8 items-center justify-center rounded-md bg-copper-400/20 text-copper transition-colors hover:bg-copper-400/35 hover:text-warm-50"
             >
               <InstagramIcon className="h-3.5 w-3.5 shrink-0" />
             </a>
             <Link
               to="/about"
-              className="font-semibold text-gold underline-offset-2 transition-colors hover:text-warm-50 hover:underline"
+              className="inline-block py-1.5 font-semibold text-gold underline-offset-2 transition-colors hover:text-warm-50 hover:underline"
             >
               {t('about.thanks.more')}
             </Link>

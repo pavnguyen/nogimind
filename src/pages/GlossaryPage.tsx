@@ -93,7 +93,7 @@ export default function GlossaryPage() {
                   {term.relatedSkillIds?.length ? (
                     <div className="mt-3 flex flex-wrap gap-2">
                       {term.relatedSkillIds.map((id) => byId.get(id)).filter(Boolean).map((skill) => (
-                        <Link key={skill?.id} to={`/skills/${skill?.id}`} className="rounded-md hallmark-detail-link px-2 py-1 text-xs">
+                        <Link key={skill?.id} to={`/skills/${skill?.id}`} className="rounded-md hallmark-detail-link px-2.5 py-2 text-xs">
                           {getLocalizedText(skill?.title, language)}
                         </Link>
                       ))}

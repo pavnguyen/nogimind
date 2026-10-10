@@ -90,7 +90,7 @@ describe('DashboardPage', () => {
     renderPage()
 
     // Card title renders as a link to the skill detail page
-    const cardLink = screen.getByRole('link', { name: /armbar from Guard/i })
+    const cardLink = screen.getByRole('link', { name: /Armbar from Guard/i })
     expect(cardLink).toBeInTheDocument()
     expect(cardLink).toHaveAttribute('href', '/skills/skill-01')
 

@@ -157,7 +157,7 @@ export const MobileNav = () => {
                 end
                 className={({ isActive }) =>
                   cn(
-                    'flex min-w-[62px] flex-col items-center gap-0.5 rounded-lg px-3 py-1.5 text-[10px] font-medium transition-all duration-200',
+                    'flex min-w-0 flex-1 flex-col items-center gap-0.5 rounded-lg px-1.5 py-1.5 text-[10px] font-medium transition-all duration-200',
                     isActive || active
                       ? 'hallmark-bottom-tab-active'
                       : 'text-warm-500 hover:bg-warm-50/[0.03] hover:text-warm-300',
@@ -165,7 +165,7 @@ export const MobileNav = () => {
                 }
               >
                 <Icon className="h-5 w-5" aria-hidden="true" />
-                <span>{t(hub.labelKey).split(' ')[0]}</span>
+                <span className="max-w-full truncate">{t(`nav.short.${hub.hub}`)}</span>
               </NavLink>
             )
           })}

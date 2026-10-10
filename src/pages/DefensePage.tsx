@@ -49,14 +49,14 @@ export default function DefensePage() {
   return (
     <PageShell
       header={
-        <div className="relative overflow-hidden rounded-3xl border border-warm-50/[0.06] bg-warm-900/30 p-6 hero-blob-fix">
+        <div className="relative overflow-hidden rounded-3xl border border-warm-50/[0.06] bg-warm-900/30 p-5 hero-blob-fix sm:p-6">
           <div className="pointer-events-none absolute -right-16 -top-16 h-48 w-48 rounded-full bg-gold-400/5 blur-[80px]" />
           <div className="relative z-10 space-y-4">
-            <div className="flex items-center gap-4">
-              <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-linear-to-br from-gold-500 to-copper-500 shadow-lg shadow-gold-500/20">
+            <div className="flex flex-col items-start gap-3 sm:flex-row sm:items-center sm:gap-4">
+              <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl bg-linear-to-br from-gold-500 to-copper-500 shadow-lg shadow-gold-500/20">
                 <Shield className="h-6 w-6 text-on-accent" aria-hidden="true" />
               </div>
-              <div>
+              <div className="w-full min-w-0 sm:w-auto">
                 <Badge tone="gold" className="text-[10px] uppercase tracking-widest">{t('nav.defense')}</Badge>
                 <h1 className="mt-1 display-heading text-2xl font-extrabold text-warm-50 lg:text-3xl">{t('defense.heading')}</h1>
                 <p className="mt-1 text-sm text-warm-400">{t('defense.subtitle')}</p>

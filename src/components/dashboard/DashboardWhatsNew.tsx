@@ -22,7 +22,7 @@ export const DashboardWhatsNew = () => {
             <span className="min-w-0 flex-1">{t('dashboard.newUpdates.item2')}</span>
             <Link
               to="/skills/thunder-lock"
-              className="inline-flex shrink-0 items-center gap-1.5 rounded-md border border-gold-300/35 bg-gold-300/10 px-2.5 py-1.5 text-[11px] font-bold text-gold shadow-sm shadow-gold-950/30 transition-colors hover:border-gold-200/70 hover:bg-gold-300/20 hover:text-warm-50 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold-200"
+              className="inline-flex shrink-0 items-center gap-1.5 rounded-md border border-gold-300/35 bg-gold-300/10 px-2.5 py-2 text-xs font-bold text-gold shadow-sm shadow-gold-950/30 transition-colors hover:border-gold-200/70 hover:bg-gold-300/20 hover:text-warm-50 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold-200"
             >
               {t('dashboard.newUpdates.viewSkill')}
               <ArrowRight className="h-3.5 w-3.5" aria-hidden="true" />
@@ -33,7 +33,7 @@ export const DashboardWhatsNew = () => {
             <span className="min-w-0 flex-1">{t('dashboard.newUpdates.item3')}</span>
             <Link
               to="/skills/mussolini-lock"
-              className="inline-flex shrink-0 items-center gap-1.5 rounded-md border border-gold-300/35 bg-gold-300/10 px-2.5 py-1.5 text-[11px] font-bold text-gold shadow-sm shadow-gold-950/30 transition-colors hover:border-gold-200/70 hover:bg-gold-300/20 hover:text-warm-50 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold-200"
+              className="inline-flex shrink-0 items-center gap-1.5 rounded-md border border-gold-300/35 bg-gold-300/10 px-2.5 py-2 text-xs font-bold text-gold shadow-sm shadow-gold-950/30 transition-colors hover:border-gold-200/70 hover:bg-gold-300/20 hover:text-warm-50 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold-200"
             >
               {t('dashboard.newUpdates.viewSkill')}
               <ArrowRight className="h-3.5 w-3.5" aria-hidden="true" />

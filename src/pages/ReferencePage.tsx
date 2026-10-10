@@ -66,7 +66,7 @@ export default function ReferencePage() {
               <p className="text-sm text-warm-400">{t('glossary.subtitle')}</p>
               <Link
                 to="/glossary"
-                className="text-xs font-medium text-warm-400 hover:text-warm-200 transition-colors"
+                className="px-1.5 py-2 text-xs font-medium text-warm-400 hover:text-warm-200 transition-colors"
               >
                 {t('common.open')} →
               </Link>
@@ -95,7 +95,7 @@ export default function ReferencePage() {
                         {term.relatedSkillIds?.length ? (
                           <div className="mt-2 flex flex-wrap gap-1.5">
                             {term.relatedSkillIds.map((id) => byId.get(id)).filter(Boolean).slice(0, 3).map((skill) => (
-                              <Link key={skill?.id} to={`/skills/${skill?.id}`} className="rounded-md border border-warm-50/10 px-2 py-0.5 text-[10px] text-warm-300 hover:bg-warm-50/10">
+                              <Link key={skill?.id} to={`/skills/${skill?.id}`} className="rounded-md border border-warm-50/10 px-2.5 py-2 text-xs text-warm-300 hover:bg-warm-50/10">
                                 {skill?.name ?? ''}
                               </Link>
                             ))}
@@ -117,7 +117,7 @@ export default function ReferencePage() {
               <p className="text-sm text-warm-400">{t('search.whatFor')}</p>
               <Link
                 to="/search"
-                className="text-xs font-medium text-warm-400 hover:text-warm-200 transition-colors"
+                className="px-1.5 py-2 text-xs font-medium text-warm-400 hover:text-warm-200 transition-colors"
               >
                 {t('common.open')} →
               </Link>
@@ -151,16 +151,16 @@ export default function ReferencePage() {
   return (
     <PageShell
       header={
-        <div className="relative overflow-hidden rounded-3xl border border-warm-50/[0.06] bg-warm-900/30 p-8 hallmark-hero">
+        <div className="relative overflow-hidden rounded-3xl border border-warm-50/[0.06] bg-warm-900/30 p-5 sm:p-7 lg:p-8 hallmark-hero">
           <div className="pointer-events-none absolute -right-16 -top-16 h-48 w-48 rounded-full hallmark-blur-blob blur-[80px]" />
           <div className="relative z-10 space-y-4">
-            <div className="flex items-center gap-4">
-              <div className="flex h-14 w-14 items-center justify-center rounded-2xl hallmark-icon-box">
+            <div className="flex flex-col items-start gap-3 sm:flex-row sm:items-center sm:gap-4">
+              <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl hallmark-icon-box sm:h-14 sm:w-14">
                 <BookOpen className="h-7 w-7 text-on-accent" aria-hidden="true" />
               </div>
-              <div>
+              <div className="w-full min-w-0 sm:w-auto">
                 <Badge className="hallmark-badge text-[10px] uppercase tracking-widest">{t('modeUx.reference.badge')}</Badge>
-                <h1 className="mt-1 display-heading text-3xl font-extrabold text-warm-50 lg:text-4xl">{t('modeUx.reference.heading')}</h1>
+                <h1 className="mt-1 display-heading text-2xl font-extrabold text-warm-50 sm:text-3xl lg:text-4xl">{t('modeUx.reference.heading')}</h1>
                 <p className="mt-1 max-w-2xl text-base leading-relaxed text-warm-400">{t('modeUx.reference.subtitle')}</p>
               </div>
             </div>

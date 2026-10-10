@@ -41,14 +41,14 @@ export default function AboutPage() {
   return (
     <PageShell
       header={
-        <div className="relative overflow-hidden rounded-3xl border border-warm-50/[0.06] bg-warm-900/30 p-6 lg:p-8">
+        <div className="relative overflow-hidden rounded-3xl border border-warm-50/[0.06] bg-warm-900/30 p-5 sm:p-6 lg:p-8">
           <div className="pointer-events-none absolute -right-16 -top-16 h-48 w-48 rounded-full bg-jade-400/5 blur-[80px]" />
-          <div className="relative z-10 flex items-center gap-4">
-            <div className="flex h-14 w-14 shrink-0 items-center justify-center rounded-2xl bg-linear-to-br from-jade-400 to-gold-400 text-on-accent shadow-lg shadow-jade-500/20">
+          <div className="relative z-10 flex flex-col items-start gap-3 sm:flex-row sm:items-center sm:gap-4">
+            <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl bg-linear-to-br from-jade-400 to-gold-400 text-on-accent shadow-lg shadow-jade-500/20 sm:h-14 sm:w-14">
               <BrainCircuit className="h-7 w-7" aria-hidden="true" />
             </div>
-            <div className="min-w-0">
-              <h1 className="display-heading text-3xl font-extrabold tracking-tight text-warm-50 lg:text-4xl">
+            <div className="w-full min-w-0 sm:w-auto">
+              <h1 className="display-heading text-2xl font-extrabold tracking-tight text-warm-50 sm:text-3xl lg:text-4xl">
                 {t('about.heading')}
               </h1>
               <p className="mt-1 max-w-2xl text-sm leading-relaxed text-warm-400 lg:text-base">{t('app.thesis')}</p>

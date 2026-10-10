@@ -101,7 +101,7 @@ export const Header = () => {
         </button>
 
         {/* Search */}
-        <div ref={rootRef} className="relative w-full max-w-md">
+        <div ref={rootRef} className="relative w-full max-w-md min-w-0">
           <form onSubmit={submitSearch} className="search-focus-ring group flex items-center gap-2 rounded-lg border border-warm-50/[0.08] bg-warm-900/80 px-3 py-1.5 transition-all">
             <Search className="h-4 w-4 shrink-0 text-warm-500 transition-colors group-focus-within:text-hallmark-text-accent" aria-hidden="true" />
             <input
@@ -113,7 +113,7 @@ export const Header = () => {
               }}
               onFocus={() => setOpen(Boolean(query.trim()))}
               placeholder={t('search.headerPlaceholder')}
-              className="min-w-0 flex-1 bg-transparent text-sm text-warm-50 outline-none placeholder:text-warm-500"
+              className="h-8 min-w-0 flex-1 bg-transparent text-sm text-warm-50 outline-none placeholder:text-warm-500"
               role="combobox"
               aria-expanded={canSuggest}
               aria-controls="search-suggestions"

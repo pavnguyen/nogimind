@@ -154,7 +154,7 @@ export default function SkillDetailPage() {
   }, [hasPipelineLearnContent, hasPipelineFixContent, t])
 
   // ── Deep links from search results ─────────────────────────────────────
-  // A result such as `/skills/armbar#pipeline-system-logic` must open the tab
+  // A result such as `/skills/Armbar#pipeline-system-logic` must open the tab
   // that renders the section and scroll to it once the content is mounted.
   // Deriving the tab (instead of syncing it in an effect) means the section is
   // already rendered when the scroll effect below runs.

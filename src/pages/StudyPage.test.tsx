@@ -3,7 +3,6 @@ import { describe, it, expect, vi, beforeEach } from 'vitest'
 import { render, screen } from '@testing-library/react'
 import { MemoryRouter } from 'react-router-dom'
 import StudyPage from './StudyPage'
-import type { ManifestEntry } from '../content-runtime/manifests'
 
 vi.mock('../stores/useSettingsStore', () => ({
   useSettingsStore: vi.fn((selector: (state: { language: string }) => unknown) => selector({ language: 'en' })),
@@ -35,35 +34,6 @@ const skills = [
 
 vi.mock('../queries/skillQueries', () => ({
   useSkillsQuery: () => ({ data: skills, isLoading: false }),
-}))
-
-const manifest: ManifestEntry[] = [
-  {
-    id: 'triangle-system',
-    domain: 'submission_systems',
-    level: 'intermediate',
-    name: 'Triangle System',
-    tags: [],
-    summary: 'Chain the triangle.',
-    hasVideos: true,
-    hasMicroDetails: true,
-    hasChecklist: false,
-  },
-  {
-    id: 'rear-naked-choke',
-    domain: 'submission_systems',
-    level: 'advanced',
-    name: 'Rear Naked Choke',
-    tags: [],
-    summary: 'Finish from the back.',
-    hasVideos: false,
-    hasMicroDetails: false,
-    hasChecklist: true,
-  },
-]
-
-vi.mock('../queries/contentQueries', () => ({
-  useManifestQuery: () => ({ data: manifest, isLoading: false }),
 }))
 
 beforeEach(() => {
@@ -98,13 +68,17 @@ describe('StudyPage', () => {
     expect(screen.getByText('Rear Naked Choke')).toBeInTheDocument()
   })
 
-  it('derives content-depth indicators from the manifest flags', () => {
-    const { container } = renderAt('/study?domain=submission_systems')
+  it('renders no content-depth score or depth legend', () => {
+    renderAt('/study?domain=submission_systems')
 
-    // triangle-system → videos + micro-details (but no checklist) = 2/3
-    // rear-naked-choke → checklist only = 1/3
-    expect(screen.getByText('2/3')).toBeInTheDocument()
-    expect(screen.getByText('1/3')).toBeInTheDocument()
-    expect(container.querySelectorAll('.bg-steel-400').length).toBeGreaterThan(0)
+    // The 1/3-2/3 richness score, the per-card dots and the legend are gone.
+    expect(screen.queryByText(/\d\/3/)).not.toBeInTheDocument()
+    expect(screen.queryByRole('heading', { name: 'studyPage.contentDepth' })).not.toBeInTheDocument()
+    expect(screen.queryByText('studyPage.hasQualityCheck')).not.toBeInTheDocument()
+    expect(screen.queryByText('studyPage.hasMicroDetails')).not.toBeInTheDocument()
+    expect(screen.queryByText('studyPage.hasVideos')).not.toBeInTheDocument()
+
+    // The related-links card of the rail is untouched.
+    expect(screen.getByText('modeUx.rail.related')).toBeInTheDocument()
   })
 })
