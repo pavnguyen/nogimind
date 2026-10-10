@@ -3,7 +3,7 @@
   "domain": "wrestle_up_wrestling",
   "level": "intermediate",
   "status": "draft",
-  "name": "snapdown đến Front Headlock",
+  "name": "Snapdown đến Front Headlock",
   "aliases": [],
   "tags": [
     "front-headlock",
@@ -45,7 +45,7 @@
   "keyCorrections": [
     "Nếu họ chống lại snapdown: họ quá cao, hãy đặt tư thế đứng rộng hơn và giảm trọng lượng của bạn mạnh hơn",
     "Nếu họ rút ra khỏi Front Headlock: cánh tay của bạn không đủ sâu, hãy đưa tay sâu hơn quanh đầu họ",
-    "Nếu họ hạ gục bạn trong lúc bắt bóng: thế đứng của bạn quá hẹp - hãy mở rộng chân đế trước khi bắt bóng"
+    "Nếu họ takedown bạn trong lúc bạn bắt đầu snap: stance của bạn quá hẹp - hãy mở rộng chân đế trước khi snap"
   ],
   "version": 1,
   "updatedAt": "2026-05-21T00:24:30.760Z",
@@ -59,26 +59,26 @@
     "hasStateMachine": false
   },
   "locale": "vi",
-  "description": "Phá vỡ tư thế của đối thủ thành Front Headlock để đe dọa đi phía sau, Guillotine hoặc lùi lại. snapdown là mục tiêu hạ gục chính dành cho No-Gi những người vật thích tấn công bằng thân trên hơn là bắn súng.",
-  "shortInstruction": "Từ cà vạt cổ áo hoặc overhook, hất đầu đối phương xuống và về phía đầu gối trước của họ. Khi đầu họ cúi xuống, cố định vị trí Front Headlock (tay vòng qua đầu, kiểm soát cánh tay xa hoặc hông). Chuỗi để đi phía sau, Guillotine hoặc quay lại.",
-  "summary": "snapdown chuyển khả năng kiểm soát phần thân trên thành đòn hạ gục bằng cách ép đầu đối phương xuống thảm, sau đó giữ nguyên vị trí Front Headlock. snapdown hoạt động vì đầu điều khiển cơ thể, một lực hướng xuống mạnh trên cổ buộc đối phương phải đỡ trọng lượng của họ lên tay, phá vỡ tư thế của họ và tạo đường vào cho Front Headlock. Từ Front Headlock, bạn có ba nhánh: đi phía sau, Guillotine hoặc quay lại.",
+  "description": "Phá vỡ tư thế của đối thủ thành Front Headlock để đe dọa Go Behind, Guillotine hoặc Back Take. Snapdown là entry takedown chính cho những người no-gi thích tấn công bằng thân trên hơn là bắn takedown.",
+  "shortInstruction": "Từ collar tie hoặc overhook, snap đầu đối phương xuống và về phía đầu gối trước của họ. Khi đầu họ cúi xuống, cố định Front Headlock (tay vòng qua đầu, kiểm soát cánh tay xa hoặc hông). Chuỗi sang Go Behind, Guillotine hoặc Back Take.",
+  "summary": "Snapdown chuyển khả năng kiểm soát phần thân trên thành takedown bằng cách ép đầu đối phương xuống thảm, sau đó giữ nguyên vị trí Front Headlock. Snapdown hoạt động vì đầu điều khiển cơ thể, một lực hướng xuống mạnh trên cổ buộc đối phương phải đỡ trọng lượng của họ lên tay, phá vỡ tư thế của họ và tạo đường vào cho Front Headlock. Từ Front Headlock, bạn có ba nhánh: Go Behind, Guillotine hoặc Back Take.",
   "whyItWorks": [
-    "Vòng cổ hay overhook giúp bạn kiểm soát đầu đối phương, điểm kiểm soát quan trọng nhất trong vật đứng",
-    "snapdown sắc bén buộc đối thủ phải chống tay xuống thảm để đỡ trọng lượng, phá vỡ thế đứng của họ",
+    "Collar tie hay overhook giúp bạn kiểm soát đầu đối phương, điểm kiểm soát quan trọng nhất khi vật ở tư thế đứng",
+    "Một cú snapdown dứt khoát buộc đối thủ phải chống tay xuống thảm để đỡ trọng lượng, phá vỡ thế đứng của họ",
     "Tư thế Front Headlock (tay vòng qua đầu, tay xa hoặc kiểm soát bằng hông) là tư thế chiếm ưu thế nhất của phần thân trên trong No-Gi",
-    "snapdown an toàn trước tất cả các quầy hạ gục, bạn không bắn hoặc khuỵu gối"
+    "Snapdown an toàn trước mọi counter takedown, bạn không phải bắn takedown hoặc khuỵu gối"
   ],
   "commonMistakes": [
     "Kéo thay vì búng - cú búng mạnh và sử dụng trọng lượng cơ thể, lực kéo chậm và sử dụng sức mạnh của cánh tay",
     "Không tuân theo snapdown, sau cú búng tay, bạn phải bước vào và bảo mật Front Headlock ngay lập tức",
     "Để đối thủ thiết lập lại tư thế - duy trì áp lực lên đầu trong suốt trận đấu",
-    "Chụp từ quá xa, bạn phải ở trong tầm tay để chụp có hiệu quả"
+    "Snap từ quá xa, bạn phải ở trong tầm tay để snap có hiệu quả"
   ],
   "coachingCues": [
     "Chụp bằng cơ thể, không phải cánh tay",
-    "Theo dõi snap, cố định khóa đầu",
+    "Đi theo snap, cố định Front Headlock",
     "Không bao giờ để họ đứng dậy",
-    "Chụp → Front Headlock → chuỗi"
+    "Snapdown → Front Headlock → chuỗi"
   ],
   "safetySummary": [
     "snapdown tác dụng lực lên cổ, ấn xuống, không nghiêng sang một bên để tránh căng cổ",
@@ -86,11 +86,11 @@
     "Nếu đối thủ đột ngột giảm cấp độ trong tích tắc, hãy bảo vệ vị trí đầu của chính bạn để tránh vô tình va chạm đầu"
   ],
   "systemLogic": {
-    "corePrinciple": "Hệ thống snapdown có ba giai đoạn: Thắt cổ → Cài → Front Headlock",
+    "corePrinciple": "Hệ thống snapdown có ba giai đoạn: Collar Tie → Snap → Front Headlock",
     "decisionTree": [
       {
-        "condition": "Ở Giai đoạn 1 (Cà vạt cổ)",
-        "action": "thiết lập cà vạt cổ áo hoặc overhook. Cẳng tay của bạn phải ở phía sau cổ của họ. Kiểm soát cánh tay hoặc khuỷu tay xa của họ để ngăn họ đăng bài"
+        "condition": "Ở Giai đoạn 1 (Collar Tie)",
+        "action": "thiết lập collar tie hoặc overhook. Cẳng tay của bạn phải ở phía sau cổ của họ. Kiểm soát cánh tay hoặc khuỷu tay xa của họ để ngăn họ post"
       },
       {
         "condition": "Trong Giai đoạn 2 (Snap)",
@@ -102,19 +102,19 @@
       },
       {
         "condition": "Ứng dụng chung",
-        "action": "Từ Front Headlock, chuỗi đến: Guillotine (cánh tay dưới cằm), đi sau (vòng ra phía sau) hoặc lùi lại (theo chuyển động của họ)"
+        "action": "Từ Front Headlock, chuỗi sang: Guillotine (cánh tay dưới cằm), Go Behind (vòng ra phía sau) hoặc Back Take (đi theo chuyển động của họ)"
       }
     ],
     "exitStrategies": []
   },
   "moneyDetails": [
-    "snapdown là mục tiêu triệt phá an toàn nhất trong BJJ, không bắn súng, không đâm đầu vào trong, không có nguy cơ Guillotine",
-    "Việc thành thạo snapdown mang lại cho bạn khả năng hạ gục đáng tin cậy mà không cần học các cơ chế bắn súng phức tạp",
+    "Snapdown là entry takedown an toàn nhất trong BJJ, không phải bắn takedown, không đâm đầu vào trong, không có nguy cơ Guillotine",
+    "Việc thành thạo snapdown mang lại cho bạn khả năng takedown đáng tin cậy mà không cần học các cơ chế bắn takedown phức tạp",
     "Chuỗi snapdown đến Front Headlock là hệ thống tính điểm chính dành cho các đô vật và võ sĩ thích tấn công bằng phần thân trên"
   ],
   "fixItFast": [
-    "Nếu họ đứng dậy: chụp lại với mức giảm cân nhiều hơn - sự nhất quán phá vỡ tư thế",
-    "Nếu họ khoanh tròn: cài lại cà vạt cổ áo và bẻ theo hướng họ đang khoanh tròn",
-    "Nếu họ bắn dưới cái nhìn của bạn: sprawl và đi tới Front Headlock, cú đánh của họ sẽ trở thành mục nhập Front Headlock của bạn"
+    "Nếu họ đứng dậy: snap lại mạnh hơn - snap liên tục sẽ phá tư thế của họ",
+    "Nếu họ xoay người: thiết lập lại collar tie và snap theo hướng họ đang xoay",
+    "Nếu họ bắn takedown khi bạn đang hướng xuống: sprawl và vào Front Headlock, cú shoot của họ sẽ trở thành entry Front Headlock của bạn"
   ]
 }

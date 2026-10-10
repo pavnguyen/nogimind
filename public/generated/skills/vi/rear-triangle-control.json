@@ -3,7 +3,7 @@
   "domain": "back_control",
   "level": "advanced",
   "status": "draft",
-  "name": "Kiểm soát Triangle phía sau",
+  "name": "Rear Triangle Control",
   "aliases": [],
   "tags": [
     "rear-triangle",
@@ -52,7 +52,7 @@
   "searchBoost": 1,
   "keyCorrections": [
     "Nếu bạn không thể khóa Triangle thì tư thế của họ quá thẳng, trước tiên hãy phá vỡ họ.",
-    "Nếu cảm giác như bị nghẹt thở, chân của bạn đang ở trên cằm của họ - hãy điều chỉnh chân của bạn cho phù hợp với cổ họng.",
+    "Nếu cảm giác như bị choke, chân của bạn đang ở trên cằm của họ - hãy điều chỉnh ống chân cho đúng cổ họng.",
     "Nếu họ lột chân bạn thì khả năng kiểm soát của bạn quá lỏng - hãy siết chặt hơn hoặc gắn lại móc."
   ],
   "version": 1,
@@ -67,41 +67,41 @@
     "hasStateMachine": false
   },
   "locale": "vi",
-  "description": "Dùng chân của bạn để bẫy đường vai của đối phương từ phía sau, mở các đòn tấn công sặc sỡ (phía sau Triangle), Armbar hoặc Kimura trong khi duy trì Back Control.",
-  "shortInstruction": "Một chân vắt qua vai, một chân móc vào người, siết chặt, phía sau Triangle là một chân bị nghẹn từ phía sau.",
-  "summary": "Triangle phía sau (còn được gọi là cuộn cảm Triangle phía sau hoặc phần thân Triangle sặc) là một đòn phục tùng mạnh mẽ từ Back Control trong đó bạn dùng chân để bóp cổ chứ không phải dùng tay. Bằng cách đưa một chân qua vai và khóa sau cổ trong khi chân còn lại vòng quanh cơ thể họ, bạn tạo ra một chân Triangle nén cổ và vai của họ. Cuộc tấn công này hoạt động khi họ bảo vệ cổ bằng cả hai tay - cánh tay của bạn được tự do trong khi chân bạn bị nghẹn.",
+  "description": "Dùng chân của bạn để bẫy đường vai của đối phương từ phía sau, mở các đòn tấn công Rear Triangle, Armbar hoặc Kimura trong khi duy trì Back Control.",
+  "shortInstruction": "Một chân vắt qua vai, một chân móc vào người, siết chặt - Rear Triangle là một choke bằng chân từ phía sau.",
+  "summary": "Rear Triangle (còn gọi là rear triangle choke hoặc body triangle choke) là một submission mạnh từ Back Control, trong đó bạn siết bằng chân thay vì bằng tay. Bằng cách đưa một chân qua vai và khóa sau cổ trong khi chân còn lại vòng quanh cơ thể họ, bạn tạo ra một Triangle bằng chân nén cổ và vai của họ. Đòn này hoạt động khi họ bảo vệ cổ bằng cả hai tay - tay bạn được tự do trong khi chân bạn làm nhiệm vụ siết.",
   "whyItWorks": [
-    "Sử dụng cơ (chân) mạnh nhất của bạn để bóp cổ - lực nén ở chân mạnh hơn nhiều so với lực nén ở cánh tay.",
-    "Có tác dụng khi họ bảo vệ cổ bằng cả hai tay - tay bạn có thể điều khiển cơ thể họ trong khi chân bạn bị nghẹn.",
-    "Triangle phía sau cũng kiểm soát vai của họ, hạn chế khả năng thoát của họ.",
-    "Nguyên tắc Danaher: khi không có tay (đang phòng thủ), hãy dùng chân để tấn công, phía sau Triangle là câu trả lời."
+    "Dùng nhóm cơ mạnh nhất của bạn (chân) để siết cổ - lực nén ở chân mạnh hơn nhiều so với ở cánh tay.",
+    "Có tác dụng khi họ bảo vệ cổ bằng cả hai tay - tay bạn kiểm soát cơ thể họ trong khi chân bạn siết.",
+    "Rear Triangle cũng kiểm soát vai của họ, hạn chế khả năng thoát của họ.",
+    "Nguyên tắc Danaher: khi không có tay (đang phòng thủ), hãy dùng chân để tấn công, Rear Triangle là câu trả lời."
   ],
   "commonMistakes": [
-    "Cố gắng khóa phía sau Triangle mà không điều khiển cánh tay ở gần, cánh tay của họ sẽ chặn cuộn cảm.",
+    "Cố khóa Rear Triangle mà không kiểm soát cánh tay gần, cánh tay của họ sẽ chặn cú choke.",
     "Để Triangle trượt vào mặt thay vì cổ, ống chân phải ở trên cổ họng.",
-    "Thả cơ thể Triangle hoặc móc quá sớm, duy trì khả năng kiểm soát phần thân dưới trong khi khóa cuộn cảm.",
+    "Thả body triangle hoặc móc quá sớm, hãy giữ kiểm soát phần thân dưới trong khi khóa choke.",
     "Buộc khóa khi tư thế của họ quá thẳng - phá vỡ tư thế của họ trước khi khóa."
   ],
   "coachingCues": [
     "Chân qua vai, cẳng chân trên cổ, siết chặt bằng đùi.",
     "Trước tiên hãy điều khiển cánh tay rồi khóa Triangle.",
     "Nếu họ phòng thủ bằng tay, hãy tấn công bằng chân.",
-    "Chân khỏe hơn tay - hãy sử dụng họ."
+    "Chân khỏe hơn tay - hãy dùng chân."
   ],
   "safetySummary": [
-    "Triangle phía sau tạo áp lực lên cổ và vai - tác dụng dần dần.",
+    "Rear Triangle tạo áp lực lên cổ và vai - vào đòn từ từ.",
     "Không vặn cổ đối phương bằng cách kéo đầu họ sang một bên để vừa với Triangle.",
-    "Thả ngay khi chạm - lực ép ở cổ và vai có thể nhanh chóng gây thương tích."
+    "Thả ngay khi họ tap - lực ép ở cổ và vai có thể gây thương tích nhanh chóng."
   ],
   "systemLogic": {
     "corePrinciple": "Back Control: phá vỡ tư thế của họ → đưa chân trên qua vai → khóa Triangle (ống chân trên cổ họng họ, đặt chân sau đầu gối của bạn) → siết chặt.",
     "decisionTree": [
       {
-        "condition": "Xích Triangle phía sau có RNC",
-        "action": "nếu họ bảo vệ RNC bằng cả hai tay, hãy chuyển sang Triangle phía sau."
+        "condition": "Chuỗi Rear Triangle với RNC",
+        "action": "nếu họ bảo vệ RNC bằng cả hai tay, hãy chuyển sang Rear Triangle."
       },
       {
-        "condition": "họ bảo vệ phía sau Triangle bằng cách rẽ",
+        "condition": "họ phòng thủ Rear Triangle bằng cách quay",
         "action": "chuyển sang Armbar hoặc quay lại RNC."
       }
     ],
@@ -110,13 +110,13 @@
   "moneyDetails": [
     "Kiểm soát cánh tay gần của họ bằng cách dùng tay bạn ghim cánh tay đó hoặc vào ngực bạn, điều này ngăn họ chặn Triangle.",
     "Chân trên của bạn vắt qua vai chứ không phải đầu - ống chân phải áp vào một bên cổ của họ.",
-    "Khóa Triangle bằng cách móc chân bạn ra sau đầu gối của bạn, điều này tạo ra Triangle chặt chẽ và có thể điều chỉnh được.",
+    "Khóa Triangle bằng cách móc chân bạn ra sau đầu gối của bạn, tạo ra một Triangle chặt và điều chỉnh được.",
     "Siết chặt bằng đùi chứ không phải bắp chân - lực nén ở đùi mạnh hơn và an toàn hơn."
   ],
-  "nextStep": "Sau Triangle phía sau, hãy tìm hiểu Armbar từ hệ thống tấn công phía sau và phía sau.",
+  "nextStep": "Sau Rear Triangle, học Armbar từ hệ thống tấn công phía sau.",
   "fixItFast": [
     "Không thể khóa Triangle? Hãy phá vỡ tư thế của họ nhiều hơn trước khi thử.",
     "Choke có cảm giác như bị quay? Điều chỉnh chân của bạn - ống chân phải ở cổ họng chứ không phải cằm.",
-    "Họ lột chân bạn à? Chuyển sang hook và RNC, đừng ép buộc Triangle."
+    "Họ gỡ chân bạn? Chuyển sang hook và RNC, đừng ép Triangle."
   ]
 }

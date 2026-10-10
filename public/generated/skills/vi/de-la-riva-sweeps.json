@@ -3,7 +3,7 @@
   "domain": "guard_offense",
   "level": "intermediate",
   "status": "draft",
-  "name": "De La Riva Quét",
+  "name": "De La Riva Sweeps",
   "aliases": [],
   "tags": [
     "de-la-riva",
@@ -62,27 +62,27 @@
     "hasStateMachine": false
   },
   "locale": "vi",
-  "description": "Sử dụng móc De La Riva bên trong và tay cầm để làm mất thăng bằng người qua đường, nhập X-Guard hoặc X một chân hoặc quét thẳng lên vị trí trên cùng.",
+  "description": "Sử dụng móc De La Riva bên trong và tay cầm để làm mất thăng bằng passer, nhập X-Guard hoặc X một chân hoặc sweep thẳng lên vị trí trên cùng.",
   "shortInstruction": "Móc bên trong, tay cầm, góc lệch hông - DLR là cửa ngõ vào toàn bộ hệ thống Open Guard.",
   "summary": "De La Riva (DLR) Guard là Open Guard phổ biến nhất trong No-Gi hiện đại. Móc bên trong ở chân gần của đối phương, kết hợp với tay áo hoặc tay nắm mắt cá chân, giúp bạn kiểm soát phần đế của họ. Bằng cách kéo tay áo của họ ngang qua cơ thể bạn và đồng thời móc chân họ, bạn sẽ tạo ra một góc khiến họ mất thăng bằng về phía trước và sang một bên. Thao tác này sẽ mở các mục nhập vào X-Guard, single-leg X hoặc trực tiếp sweeps.",
   "whyItWorks": [
     "Móc DLR ở bên trong chân chặn pass về phía trước của họ đồng thời tạo cho bạn một đòn bẩy để mất thăng bằng.",
     "Tay nắm tay áo nối với hông xa của bạn tạo ra lực căng chéo làm gãy phần đế của họ.",
-    "Các mục DLR dẫn đến vị trí quét mạnh nhất trong No-Gi: X-Guard và X một chặng.",
+    "Các mục DLR dẫn đến các vị trí sweep mạnh nhất trong No-Gi: X-Guard và Single Leg X.",
     "Nguyên tắc Danaher: DLR loại bỏ một trong các chân passing của họ, giảm 50% tùy chọn passing của họ.",
     "Nó hoạt động xuất sắc trước một passer đang đứng, khi họ đứng ở pass, DLR sẽ là quầy của bạn."
   ],
   "commonMistakes": [
     "Để móc DLR nông hoặc bị tuột, móc sâu là điều cần thiết để kiểm soát.",
     "Giữ tay áo ở hông thay vì kéo ngang cơ thể - lực căng của cơ thể tạo ra sự mất cân bằng.",
-    "Đấu tranh giành DLR khi người qua đường đã quỳ gối - DLR dành cho người qua đường đang đứng.",
+    "Đấu tranh giành DLR khi passer đã quỳ gối - DLR dành cho passer đang đứng.",
     "Nằm ngửa - DLR yêu cầu bạn phải nằm nghiêng để tạo ra năng lượng."
   ],
   "coachingCues": [
     "Móc sâu, tay áo chéo, bên hông.",
-    "Kéo tay áo, móc chân - góc tạo nên đường quét.",
+    "Kéo tay áo, móc chân - góc tạo nên đường sweep.",
     "DLR tới X-Guard là một chuyển động, không phải hai.",
-    "Nếu họ quỳ gối thì DLR sai Guard, chuyển sang Half Guard hoặc knee shield."
+    "Nếu họ quỳ gối thì DLR sai Guard, chuyển sang Half Guard hoặc Knee Shield."
   ],
   "safetySummary": [
     "Đừng để họ tóm lấy chân móc DLR của bạn và vặn - bảo vệ đầu gối của bạn bằng cách giữ cho móc hoạt động và di động.",
@@ -94,11 +94,11 @@
     "decisionTree": [
       {
         "condition": "Ứng dụng chung",
-        "action": "Nếu họ bước về phía trước (vượt quá giới hạn), hãy chuyển sang DLR sâu hoặc quét bồi bàn."
+        "action": "Nếu họ bước về phía trước (vượt quá giới hạn), hãy chuyển sang DLR sâu hoặc waiter sweep."
       },
       {
         "condition": "Ứng dụng chung",
-        "action": "Nếu họ lùi lại, hãy kéo dài vào X-Guard và quét về phía trước."
+        "action": "Nếu họ lùi lại, hãy kéo dài vào X-Guard và sweep về phía trước."
       },
       {
         "condition": "Ứng dụng chung",
@@ -113,7 +113,7 @@
     "Ở bên cạnh bạn chứ không phải nằm ngửa - nằm nghiêng giúp móc của bạn có phạm vi và lực mạnh hơn.",
     "Khi họ chống lại mất thăng bằng bằng cách lùi lại, đó là mục nhập X-Guard của bạn, mở rộng móc và trượt chân kia của bạn sang hông họ."
   ],
-  "nextStep": "Sau khi quét DLR, hãy tìm hiểu các chuyển tiếp X-Guard và X một chặng để hoàn thiện hệ thống Open Guard.",
+  "nextStep": "Sau khi sweep từ DLR, hãy tìm hiểu các chuyển tiếp X-Guard và Single Leg X để hoàn thiện hệ thống Open Guard.",
   "fixItFast": [
     "Móc cứ trượt? Đào sâu hơn - bàn chân phải móc vào trong đùi, không phải phía sau đầu gối.",
     "Không thể mất cân bằng? Kéo tay áo ngang cơ thể chứ không kéo về phía bạn - độ căng của cơ thể là điều quan trọng.",

@@ -2,9 +2,9 @@
   "id": "supine-guard-retention",
   "locale": "en",
   "name": "Supine Guard Retention",
-  "description": "Use hip mobility, knee shields, and foot frames to keep your legs between you and the passer when your back touches the mat.",
+  "description": "Use hip mobility, Knee Shields, and foot frames to keep your legs between you and the passer when your back touches the mat.",
   "shortInstruction": "Hips off the mat, knees between you and them, feet on their hips, supine retention is damage control with purpose.",
-  "summary": "Supine Guard Retention is what you use when you end up flat on your back. Unlike Seated Guard Retention (where you are active and mobile), supine retention is about recovering structure from a compromised position. Your tools are: hip elevation (shrimping), knee shields (inserting your knees between you and them), and foot frames (placing your feet on their hips or biceps). The goal is always to get back to your side and re-establish an active Guard.",
+  "summary": "Supine Guard Retention is what you use when you end up flat on your back. Unlike Seated Guard Retention (where you are active and mobile), supine retention is about recovering structure from a compromised position. Your tools are: hip elevation (shrimping), Knee Shields (inserting your knees between you and them), and foot frames (placing your feet on their hips or biceps). The goal is always to get back to your side and re-establish an active Guard.",
   "whyItWorks": [
     "Keeping your hips off the mat prevents them from flattening you completely, a flat back is a passed Guard.",
     "Knee shields create distance even when you are supine, your knees are your first line of defense.",
@@ -29,7 +29,7 @@
     "When shrimping, do not twist your lower back explosively, controlled hip movement prevents injury."
   ],
   "systemLogic": {
-    "corePrinciple": "Supine Guard Retention is damage control with purpose, when flat on your back, use hip elevation (shrimp), knee shields, and foot frames to recover structure. Each layer of retention buys you time to recover the next: Feet on hips → Knees between → Forearm frames.",
+    "corePrinciple": "Supine Guard Retention is damage control with purpose, when flat on your back, use hip elevation (shrimp), Knee Shields, and foot frames to recover structure. Each layer of retention buys you time to recover the next: Feet on hips → Knees between → Forearm frames.",
     "decisionTree": [
       {
         "condition": "You are flat on your back with opponent pressuring forward",
@@ -44,30 +44,30 @@
         "action": "Kick your foot free and bring it back to their hip immediately. Keep your feet mobile and off the mat, planted feet can be pinned and split."
       },
       {
-        "condition": "Your knee shield is in place but opponent presses through",
-        "action": "Your hip angle is wrong, turn more to your side as you insert the knee. The knee shield must be diagonal, not flat."
+        "condition": "Your Knee Shield is in place but opponent presses through",
+        "action": "Your hip angle is wrong, turn more to your side as you insert the knee. The Knee Shield must be diagonal, not flat."
       },
       {
-        "condition": "Opponent passes the knee shield",
+        "condition": "Opponent passes the Knee Shield",
         "action": "Recover to Turtle as the last line of defense. From Turtle, use the Technical Stand-Up or Guard recovery to restart the retention cycle."
       }
     ],
     "exitStrategies": [
-      "Once you have distance and a knee shield, recover to your side (knee shield/Z-Guard) or to Seated Guard, never stay supine.",
+      "Once you have distance and a Knee Shield, recover to your side (Knee Shield/Z-Guard) or to Seated Guard, never stay supine.",
       "If you cannot recover to Seated Guard, use a Technical Stand-Up to wrestle up instead.",
       "Supine retention is the second layer (after Seated Guard fails), it buys you time to recover the first layer."
     ]
   },
   "moneyDetails": [
     "Your first movement should always be a shrimp, turn to your side and push your hips away from them.",
-    "As you shrimp, insert your nearside knee between your bodies, this is your knee shield.",
+    "As you shrimp, insert your nearside knee between your bodies, this is your Knee Shield.",
     "Place your top foot on their hip and your bottom foot on their knee, two points of distance control.",
-    "Once you have distance, recover to your side (knee shield) or to Seated Guard, never stay supine."
+    "Once you have distance, recover to your side (Knee Shield) or to Seated Guard, never stay supine."
   ],
-  "nextStep": "After supine retention, learn the knee shield system and Seated Guard Retention to build a complete Guard Retention chain.",
+  "nextStep": "After supine retention, learn the Knee Shield system and Seated Guard Retention to build a complete Guard Retention chain.",
   "fixItFast": [
     "They keep driving through? Shrimp harder and further, one big hip escape is better than three small ones.",
-    "Knee shield won't stay? Turn more to your side and clamp your knee against your elbow.",
+    "Knee Shield won't stay? Turn more to your side and clamp your knee against your elbow.",
     "Can't get back to seated? Use a Technical Stand-Up to wrestle up instead."
   ]
 }

@@ -65,62 +65,62 @@
     "hasStateMachine": false
   },
   "locale": "vi",
-  "description": "Kéo cánh tay của đối phương qua đường giữa, kết hợp chuyển động đầu và động tác chân để ra đòn sau, một chân hoặc Front Headlock. Kéo tay là mục có tỷ lệ hạ gục cao nhất trong No-Gi vì nó tấn công sự cân bằng của đối thủ trước căn cứ của họ.",
-  "shortInstruction": "Kéo cánh tay xa của họ qua đường giữa của bạn, bước ra sau chân trước của họ bằng bàn chân ngoài của bạn và nắm lấy chân sau hoặc chân đơn. Giữ đầu của bạn thấp và hướng ra bên ngoài.",
-  "summary": "Động tác kéo cánh tay kéo cánh tay của đối phương ngang qua cơ thể bạn, làm gián đoạn cơ sở của họ và làm lộ lưng hoặc chân xa của họ. Từ động tác kéo bằng tay, bạn có ba nhánh chính: (1) lùi lại, vòng ra phía sau khi họ theo lực kéo, (2) một chân, thả xuống chân xa khi họ đứng lên, (3) Front Headlock, bẻ xuống khi họ chống lại lực kéo. Kéo tay là nền tảng của tất cả các đòn hạ gục theo kiểu chớp nhoáng trong No-Gi.",
+  "description": "Kéo cánh tay của đối phương qua đường giữa, kết hợp chuyển động đầu và bước chân để vào go-behind, Single Leg hoặc Front Headlock. Arm Drag là đòn có tỷ lệ takedown cao nhất trong No-Gi vì nó phá thăng bằng trước khi họ kịp lấy lại base.",
+  "shortInstruction": "Kéo cánh tay xa của họ qua đường giữa của bạn, bước ra sau chân trước của họ bằng bàn chân ngoài của bạn và nắm lấy chân sau hoặc Single Leg. Giữ đầu của bạn thấp và hướng ra bên ngoài.",
+  "summary": "Arm Drag kéo cánh tay đối phương ngang qua cơ thể bạn, phá base của họ và làm lộ lưng hoặc chân xa. Từ đòn kéo tay, bạn có ba nhánh chính: (1) go-behind, vòng ra phía sau khi họ đi theo lực kéo, (2) Single Leg, thả xuống chân xa khi họ đứng lên, (3) Front Headlock, bẻ xuống khi họ chống lại lực kéo. Arm Drag là nền tảng của mọi takedown kiểu snap down trong No-Gi.",
   "whyItWorks": [
     "Kéo cánh tay qua đường giữa sẽ làm xoay phần thân trên của đối phương, phá vỡ thế đứng và sự thăng bằng của họ",
-    "Kéo tay để lộ lưng hoặc chân xa của đối phương - cả hai đều là mục tiêu có giá trị cao",
-    "Lực kéo tạo ra động lượng về phía trước mà đối thủ phải chống lại - bạn có thể sử dụng động lượng này để chống lại họ",
-    "Việc kéo cánh tay được an toàn trước các quầy Guillotine vì đầu của bạn luôn ở vị trí thấp và hướng ra bên ngoài"
+    "Arm Drag làm lộ lưng hoặc chân xa của đối phương - cả hai đều là mục tiêu có giá trị cao",
+    "Lực kéo tạo ra động lượng về phía trước mà đối thủ phải chống lại - bạn dùng chính động lượng đó chống lại họ",
+    "Arm Drag an toàn trước Guillotine phản công vì đầu bạn luôn ở vị trí thấp và hướng ra ngoài"
   ],
   "commonMistakes": [
     "Kéo cánh tay về phía ngực thay vì kéo ngang cơ thể - hướng kéo phải ngang chứ không hướng về phía",
     "Đứng quá cao trong khi kéo - tư thế của bạn phải ở mức thấp để ngăn đối thủ phản công",
     "Không bước theo lực kéo - động tác bằng chân phải đi kèm với lực kéo của cánh tay để tạo góc",
-    "Để đối thủ thiết lập lại thế bám - sau khi bạn kéo, hãy cam kết gỡ xuống ngay lập tức"
+    "Để đối thủ lấy lại grip - sau khi kéo, hãy vào takedown ngay lập tức"
   ],
   "coachingCues": [
     "Kéo qua, không hướng tới",
     "Bước với lực kéo, tạo góc",
     "Tư thế thấp, đầu ở ngoài",
-    "Kéo → quay lại, đơn lẻ hoặc snapdown"
+    "Kéo → go-behind, Single Leg hoặc snapdown"
   ],
   "safetySummary": [
-    "Kéo tay là một động tác hạ gục có rủi ro thấp, đầu của bạn tránh xa Guillotine giây và đầu gối của bạn không chạm thảm",
+    "Arm Drag là một takedown rủi ro thấp: đầu bạn tránh xa Guillotine và đầu gối không chạm thảm",
     "Không giật mạnh cánh tay - kéo có kiểm soát với động tác bằng chân phù hợp sẽ an toàn và hiệu quả hơn",
-    "Khi rút lưng khỏi lực kéo của cánh tay, hãy bảo vệ vị trí đầu của bạn để tránh bị vẹo cổ"
+    "Khi rút lưng khỏi lực kéo của cánh tay, hãy bảo vệ vị trí đầu của bạn để tránh bị neck crank"
   ],
   "systemLogic": {
-    "corePrinciple": "Hệ thống kéo tay có ba nhánh: Lùi lại → Chân đơn → Front Headlock, đọc từ phản ứng của đối thủ",
+    "corePrinciple": "Hệ thống Arm Drag có ba nhánh: go-behind → Single Leg → Front Headlock, đọc theo phản ứng của đối thủ",
     "decisionTree": [
       {
-        "condition": "Sử dụng Nhánh 1 (Quay lại)",
-        "action": "khi bạn kéo cánh tay qua, bước chân ngoài của bạn ra sau chân trước của họ. Vòng ra phía sau họ. Nếu họ đi theo lực kéo, hãy lùi lại. Nếu họ sprawl, hãy chuyển sang một chặng"
+        "condition": "Sử dụng Nhánh 1 (Go Behind)",
+        "action": "khi bạn kéo cánh tay qua, bước chân ngoài ra sau chân trước của họ. Vòng ra phía sau họ. Nếu họ đi theo lực kéo, hãy go-behind. Nếu họ sprawl, chuyển sang Single Leg"
       },
       {
-        "condition": "Sử dụng nhánh 2 (Chân đơn)",
-        "action": "nếu đối thủ đặt chân xa của họ để chống lại lực cản, hãy thả tay trong của bạn xuống mắt cá chân xa của họ và kết thúc chân đơn. Việc kéo cánh tay đã phá vỡ căn cứ của họ"
+        "condition": "Sử dụng nhánh 2 (Single Leg)",
+        "action": "nếu đối thủ đặt chân xa của họ để chống lại lực cản, hãy thả tay trong của bạn xuống mắt cá chân xa của họ và kết thúc Single Leg. Việc kéo cánh tay đã phá vỡ căn cứ của họ"
       },
       {
         "condition": "Sử dụng Nhánh 3 (Front Headlock)",
-        "action": "nếu đối thủ giảm cấp độ để chống lại lực cản, hãy hạ gục họ vào Front Headlock. Động lượng tiến về phía trước đưa họ vào snapdown"
+        "action": "nếu đối thủ hạ cấp độ để chống lại lực kéo, hãy đưa họ xuống Front Headlock. Động lượng tiến về phía trước đưa họ vào snapdown"
       },
       {
         "condition": "Đọc phản ứng của đối thủ",
-        "action": "họ đi theo lực kéo → lùi lại. Họ đăng chân xa → chân đơn. Họ giảm cấp độ → snapdown xuống Front Headlock"
+        "action": "họ đi theo lực kéo → go-behind. Họ post chân xa → Single Leg. Họ hạ cấp độ → snapdown xuống Front Headlock"
       }
     ],
     "exitStrategies": []
   },
   "moneyDetails": [
-    "Kéo tay là mục có tỷ lệ hạ gục cao nhất trong No-Gi vì nó tấn công sự cân bằng trước căn cứ",
-    "Việc thành thạo hệ thống kéo tay mang lại cho bạn ba lần hạ gục từ một mục nhập, bạn luôn có các lựa chọn",
-    "Động tác kéo tay đặc biệt hiệu quả trước những đối thủ hung hãn lao về phía trước"
+    "Arm Drag có tỷ lệ takedown cao nhất trong No-Gi vì nó phá thăng bằng trước khi họ kịp lấy lại base",
+    "Thành thạo hệ thống Arm Drag cho bạn ba takedown từ một entry, bạn luôn có lựa chọn",
+    "Arm Drag đặc biệt hiệu quả trước những đối thủ hung hãn lao về phía trước"
   ],
   "fixItFast": [
     "Nếu họ sprawl khi đang kéo: chuyển sang Front Headlock, sprawl của họ để hở cổ",
     "Nếu họ kéo lại: đổi hướng và kéo lại cánh tay kia",
-    "Nếu họ túm lấy đầu bạn: hãy Pummeling mạnh vào bên trong và thiết lập lại tay cầm kéo"
+    "Nếu họ túm đầu bạn: hãy pummeling mạnh vào trong và lập lại grip cho Arm Drag"
   ]
 }

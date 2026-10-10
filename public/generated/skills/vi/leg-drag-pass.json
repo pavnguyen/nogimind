@@ -49,7 +49,7 @@
   "searchBoost": 1,
   "keyCorrections": [
     "Nếu họ thoát khỏi lực cản, bạn đã không kiểm soát phần thân trên của họ, duy trì crossface hoặc áp lực lên vai.",
-    "Nếu họ lạiguard sau khi kéo thì góc của bạn chưa đủ sắc nét, hãy cắt một góc sâu hơn trước khi ghim.",
+    "Nếu họ lấy lại Guard sau khi kéo thì góc của bạn chưa đủ sắc nét, hãy cắt một góc sâu hơn trước khi ghim.",
     "Nếu họ Guillotine bạn, đầu bạn quá thấp, hãy ngẩng cao đầu và hướng ra bên ngoài."
   ],
   "version": 1,
@@ -64,17 +64,17 @@
     "hasStateMachine": false
   },
   "locale": "vi",
-  "description": "Kéo chân gần của đối phương qua hông của bạn để cắt góc và cố định Side Control, lưng Mount hoặc vướng vào chân.",
+  "description": "Kéo chân gần của đối phương qua hông của bạn để cắt góc và cố định Side Control, Back Mount hoặc vướng vào chân.",
   "shortInstruction": "Nắm lấy mắt cá chân, kéo ngang hông, cắt góc, cố định ghim.",
-  "summary": "Đường chuyền kéo chân là một trong những đường chuyền Guard hiệu quả nhất trong No-Gi hiện đại. Bằng cách kiểm soát mắt cá chân gần của đối phương và kéo nó qua hông của chính mình, bạn cắt một góc nhọn để loại bỏ Guard của họ và để lộ lưng hoặc hông của họ. Lực kéo bằng chân có tác dụng với hầu hết mọi Open Guard (DLR, RDLR, nhện, Seated Guard) và cho phép bạn truy cập ngay vào các vị trí hàng đầu thống trị.",
+  "summary": "Leg Drag là một trong những pass Guard hiệu quả nhất trong No-Gi hiện đại. Bằng cách kiểm soát mắt cá chân gần của đối phương và kéo nó qua hông của chính mình, bạn cắt một góc nhọn để loại bỏ Guard của họ và để lộ lưng hoặc hông của họ. Lực kéo bằng chân có tác dụng với hầu hết mọi Open Guard (DLR, RDLR, Spider Guard, Seated Guard) và cho phép bạn truy cập ngay vào các vị trí hàng đầu thống trị.",
   "whyItWorks": [
     "Kéo chân của họ qua hông bạn sẽ làm thay đổi góc Guard của họ, chân của họ không còn có thể bám vào hông bạn nữa.",
     "Hông của bạn trở thành điểm tựa: khi chân của họ đặt ngang hông bạn, họ không thể tái-Guard nếu không nhấc chân của mình lên.",
     "Thao tác kéo chân sẽ loại bỏ một trong các công cụ Guard chính (chân) của họ và thay thế nó bằng một điểm kiểm soát cho bạn.",
-    "Nguyên tắc Danaher: kiểm soát chân, kiểm soát đường chuyền Guard - kéo chân là ứng dụng trực tiếp nhất của điều này."
+    "Nguyên tắc Danaher: kiểm soát chân, kiểm soát pass Guard - Leg Drag là ứng dụng trực tiếp nhất của điều này."
   ],
   "commonMistakes": [
-    "Cúi đầu xuống trong khi kéo, thao tác này làm lộ cổ của bạn Guillotine giây.",
+    "Cúi đầu xuống trong khi kéo, thao tác này làm lộ cổ của bạn cho Guillotine.",
     "Kéo chân mà không kiểm soát được phần thân trên của họ - họ sẽ quay và giật lưng bạn.",
     "Dừng lại sau khi kéo thay vì ghim - kéo không phải là kết thúc; cái chốt là",
     "Nắm chặt ống quần thay vì mắt cá chân - việc kiểm soát mắt cá chân giúp bạn có đòn bẩy tốt hơn."
@@ -83,7 +83,7 @@
     "Mắt cá chân chạm hông, đầu chạm ngực.",
     "Kiểm soát chân, giết Guard của họ.",
     "Kéo qua hông, không qua sàn.",
-    "Đường chuyền không kết thúc ở điểm kéo - nó kết thúc ở điểm ghim."
+    "Pass không kết thúc ở điểm kéo - nó kết thúc ở điểm ghim."
   ],
   "safetySummary": [
     "Ngẩng đầu lên và hướng ra bên ngoài cơ thể họ trong khi kéo, đầu rơi xuống sẽ mời Guillotine.",
@@ -95,11 +95,11 @@
     "decisionTree": [
       {
         "condition": "Ứng dụng chung",
-        "action": "Lực kéo chân có thể tạo thành: chuyền tới Side Control, lùi hoặc vướng chân."
+        "action": "Leg Drag có thể dẫn tới: pass tới Side Control, Backstep hoặc vướng chân."
       },
       {
         "condition": "chống cự, kéo chân lại bằng cách kéo lại",
-        "action": "sử dụng lực cản của họ để thực hiện một cú cắt đầu gối hoặc chuyền bóng."
+        "action": "sử dụng lực cản của họ để thực hiện một cú Knee Cut hoặc pass."
       }
     ],
     "exitStrategies": []
@@ -110,10 +110,10 @@
     "Giữ đầu của bạn dán vào ngực hoặc vai của họ khi bạn đi qua - điều này khiến họ không thể ngồi dậy.",
     "Sau khi kéo, ngay lập tức thiết lập chốt ngang ngực, không cho họ thời gian để phục hồi Guard."
   ],
-  "nextStep": "Sau khi thành thạo đường chuyền kéo chân, hãy học động tác lùi từ kéo chân và kết hợp chuyền bằng đầu gối.",
+  "nextStep": "Sau khi thành thạo Leg Drag, hãy học Backstep từ Leg Drag và kết hợp Knee Cut.",
   "fixItFast": [
     "Họ cứ quay hoài à? Duy trì crossface áp lực bằng vai của bạn - đừng để họ quay lưng lại với bạn.",
-    "Không thể giữ được mắt cá chân? Chuyển sang kiểu cầm vợt hai chọi một (cả hai tay đặt trên mắt cá chân) để kiểm soát tốt hơn.",
-    "Họ lạiguard ngay lập tức? Góc của bạn quá nông - hãy kéo chân xa hơn qua đường tâm của bạn."
+    "Không thể giữ được mắt cá chân? Chuyển sang grip hai chọi một (cả hai tay đặt trên mắt cá chân) để kiểm soát tốt hơn.",
+    "Họ lấy lại Guard ngay lập tức? Góc của bạn quá nông - hãy kéo chân xa hơn qua đường tâm của bạn."
   ]
 }

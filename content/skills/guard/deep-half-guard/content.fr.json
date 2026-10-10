@@ -38,7 +38,7 @@
     "decisionTree": [
       {
         "condition": "Option 1 : Ils résistent en avant",
-        "action": "balayage du serveur. Option 2 : Ils se détournent → reviennent en arrière. Option 3 : Ils enjambent → X sur une jambe."
+        "action": "balayage du serveur. Option 2 : Ils se détournent → reviennent en arrière. Option 3 : Ils enjambent → Single Leg X."
       },
       {
         "condition": "La moitié profonde est une position de transition",
@@ -56,6 +56,6 @@
   "fixItFast": [
     "Vous êtes aplati ? Frappez votre underhook et rejoignez-vous immédiatement.",
     "Vous ne pouvez pas balayer ? Vos hanches ne sont pas assez profondes – placez-les plus loin sous les leurs.",
-    "Ils se retirent ? Suivez-les et passez à une seule jambe X – ne les laissez pas réinitialiser la distance de dépassement."
+    "Ils se retirent ? Suivez-les et passez à Single Leg X – ne les laissez pas réinitialiser la distance de dépassement."
   ]
 }

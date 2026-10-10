@@ -2,19 +2,19 @@
   "id": "technical-stand-up",
   "locale": "vi",
   "name": "Technical Stand-Up",
-  "description": "Đứng lên một cách an toàn khi đang ngồi hoặc nằm ngửa Guard mà không cần cho Front Headlock ăn. Kỹ thuật đứng lên là động tác nền tảng để chuyển sang đứng từ bất kỳ vị trí dưới cùng nào.",
-  "shortInstruction": "Đặt một tay lên thảm, đưa chân cùng bên vào tay đó, đẩy qua bàn chân và tay để đứng, đồng thời giữ tay kia giơ lên ​​trong khung phòng thủ. Đối mặt với đối thủ khi bạn đứng.",
-  "summary": "Kỹ thuật đứng lên là một động tác tuần tự từ ngồi hoặc nằm đến đứng: (1) đặt tay lên tấm thảm cạnh hông, (2) đưa chân cùng bên chạm vào tay bạn, (3) đưa tay và chân chống lên để nâng hông lên, (4) đặt chân kia xuống dưới khi bạn đứng lên, (5) thiết lập tư thế phòng thủ đối mặt với đối thủ. Việc đứng lên về mặt kỹ thuật là cần thiết để phục hồi Guard, Tư thế rùa thoát ra ngoài và đứng để vượt qua.",
+  "description": "Đứng lên một cách an toàn khi đang ngồi hoặc nằm ngửa Guard mà không dâng Front Headlock. Technical Stand-Up là động tác nền tảng để chuyển sang đứng từ bất kỳ vị trí dưới cùng nào.",
+  "shortInstruction": "Đặt một tay lên thảm, đưa chân cùng bên vào tay đó, đẩy qua bàn chân và tay để đứng, đồng thời giữ tay kia giơ lên trong khung phòng thủ. Đối mặt với đối thủ khi bạn đứng.",
+  "summary": "Technical Stand-Up là một động tác tuần tự từ ngồi hoặc nằm đến đứng: (1) đặt tay lên tấm thảm cạnh hông, (2) đưa chân cùng bên chạm vào tay bạn, (3) đưa tay và chân chống lên để nâng hông lên, (4) đặt chân kia xuống dưới khi bạn đứng lên, (5) thiết lập tư thế phòng thủ đối mặt với đối thủ. Technical Stand-Up cần thiết cho việc phục hồi Guard, thoát Turtle và đứng lên để pass.",
   "whyItWorks": [
     "Đế ba chân (một tay, một đầu gối, một chân) mang lại sự ổn định trong suốt quá trình đứng lên",
-    "Đối mặt với đối thủ khi bạn đứng sẽ ngăn họ lùi lại hoặc tấn công bằng Front Headlock",
-    "Kỹ thuật đứng lên sử dụng các nhóm cơ mạnh nhất (mông, cơ tứ đầu, gân kheo) để nâng trọng lượng cơ thể của bạn",
-    "Bàn tay giơ lên ​​tạo khung phòng thủ chống lại các đòn hạ gục và tấn công"
+    "Đối mặt với đối thủ khi bạn đứng sẽ ngăn họ lấy lưng hoặc tấn công bằng Front Headlock",
+    "Technical Stand-Up sử dụng các nhóm cơ mạnh nhất (mông, cơ tứ đầu, gân kheo) để nâng trọng lượng cơ thể của bạn",
+    "Bàn tay giơ lên tạo khung phòng thủ chống lại takedown và strike"
   ],
   "commonMistakes": [
-    "Đặt cả hai tay phẳng và cố gắng đứng - điều này khiến không có cánh tay nào để bảo vệ cú đánh phía sau hoặc Front Headlock",
-    "Đứng quay lưng về phía đối thủ - điều này để lộ phần lưng để thực hiện cú đánh lưng dễ dàng nhất trong cuộc đời của họ",
-    "Đứng thẳng thay vì giữ tư thế vật - tư thế cao rất dễ bị hạ gục",
+    "Đặt cả hai tay phẳng và cố gắng đứng - điều này không còn tay nào để phòng Back Take hoặc Front Headlock",
+    "Đứng quay lưng về phía đối thủ - điều này để lộ lưng cho cú Back Take dễ dàng nhất trong đời họ",
+    "Đứng thẳng thay vì giữ stance grappling - tư thế cao rất dễ bị takedown",
     "Đưa chân lên đầu gối thay vì tay - bàn chân phải chạm vào tay để tạo đòn bẩy thích hợp"
   ],
   "coachingCues": [
@@ -24,16 +24,16 @@
     "Đứng trong tư thế, không cao"
   ],
   "safetySummary": [
-    "Không đăng bài với cánh tay khóa thẳng - giữ khuỷu tay hơi cong để tránh bị duỗi quá mức",
-    "Nếu đối thủ bắn khi bạn đang đứng, hãy sẵn sàng sprawl ngay lập tức",
-    "Thực hành kỹ thuật đứng lên từ từ trước khi sử dụng dưới áp lực - vội vàng dẫn đến mất thăng bằng"
+    "Không post với cánh tay duỗi thẳng cứng, giữ khuỷu tay hơi cong để tránh duỗi quá mức",
+    "Nếu đối thủ bắn takedown khi bạn đang đứng, hãy sẵn sàng sprawl ngay lập tức",
+    "Thực hành Technical Stand-Up từ từ trước khi sử dụng dưới áp lực - vội vàng dẫn đến mất thăng bằng"
   ],
   "systemLogic": {
-    "corePrinciple": "Kỹ thuật đứng lên là một chuyển động tuần tự từ ngồi/nằm sang đứng: Đứng → Chân → Nâng → Đế → Đứng → Tư thế. Đối mặt xuyên suốt với đối thủ sẽ tránh bị lộ lưng và Front Headlock mục.",
+    "corePrinciple": "Technical Stand-Up là một chuỗi động tác từ ngồi/nằm sang đứng: Post → Foot → Lift → Base → Stand → Stance. Đối mặt với đối thủ trong suốt quá trình sẽ tránh lộ lưng và Front Headlock.",
     "decisionTree": [
       {
         "condition": "Đối thủ đang đứng cạnh bạn khi bạn đang ngồi hoặc nằm ngửa",
-        "action": "Thực hiện động tác đứng kỹ thuật: đặt tay lên tấm thảm cạnh hông, đưa chân cùng bên chạm vào tay bạn, đẩy qua cả hai để nâng hông lên, đưa chân còn lại xuống dưới và đứng đối mặt với họ."
+        "action": "Thực hiện Technical Stand-Up: đặt tay lên tấm thảm cạnh hông, đưa chân cùng bên chạm vào tay bạn, đẩy qua cả hai để nâng hông lên, đưa chân còn lại xuống dưới và đứng đối mặt với họ."
       },
       {
         "condition": "Đối thủ đẩy bạn xuống khi bạn bắt đầu đứng dậy",
@@ -41,11 +41,11 @@
       },
       {
         "condition": "Đối thủ cố gắng vượt qua khi bạn đứng",
-        "action": "Giữ bàn tay phòng thủ lên và tránh xa cuộc tấn công của họ. Bàn tay giơ lên ​​tạo khung chống lại việc gỡ xuống."
+        "action": "Giữ bàn tay phòng thủ lên và tránh xa cuộc tấn công của họ. Bàn tay giơ lên tạo khung chống lại takedown."
       },
       {
-        "condition": "Đối thủ bắn hạ gục khi bạn đứng",
-        "action": "sprawl ngay lập tức, bàn tay phòng thủ của bạn đã sẵn sàng để đăng lên lưng họ. Việc đứng vững về mặt kỹ thuật sẽ đặt bạn vào một vị thế sprawl vững chắc."
+        "condition": "Đối thủ bắn takedown khi bạn đứng",
+        "action": "Sprawl ngay lập tức, tay phòng thủ của bạn đã sẵn sàng post lên lưng họ. Technical Stand-Up đặt bạn vào một thế sprawl vững chắc."
       },
       {
         "condition": "Bạn liên tục ngã về phía sau trong khi đứng lên",
@@ -54,14 +54,14 @@
     ],
     "exitStrategies": [
       "Nếu bạn không thể đứng dậy, nghĩa là trụ tay của bạn quá xa cơ thể - hãy đưa nó lại gần hông hơn.",
-      "Nếu họ lùi lại khi bạn đứng, nghĩa là bạn đã quay lưng lại với họ - đối mặt với họ trong toàn bộ quá trình đứng lên.",
-      "Nếu không thể đứng lên về mặt kỹ thuật (đối thủ đã ghim chân bạn), thay vào đó hãy sử dụng đế chiến đấu hoặc cuộn granby."
+      "Nếu họ lấy lưng khi bạn đứng, nghĩa là bạn đã quay lưng lại với họ - hãy đối mặt với họ trong suốt quá trình đứng lên.",
+      "Nếu không thể Technical Stand-Up (đối thủ đã ghim chân bạn), hãy dùng combat base hoặc granby roll thay thế."
     ]
   },
   "moneyDetails": [
-    "Kỹ thuật đứng lên là kỹ năng di chuyển quan trọng nhất trong BJJ, nó được sử dụng trong mọi Guard hồi phục, Tư thế rùa thoát và đứng lên ghi điểm",
-    "Nắm vững kỹ thuật đứng lên sẽ ngăn ngừa tình trạng mất vị trí phổ biến nhất: bị lộ lưng do đứng sai",
-    "Kỹ thuật đứng lên là nền tảng của tất cả các hệ thống đấu vật"
+    "Technical Stand-Up là kỹ năng di chuyển quan trọng nhất trong BJJ, nó được sử dụng trong mọi pha phục hồi Guard, thoát Turtle và đứng dậy ghi điểm",
+    "Nắm vững Technical Stand-Up sẽ ngăn ngừa tình trạng mất vị trí phổ biến nhất: bị lộ lưng do đứng sai",
+    "Technical Stand-Up là nền tảng của mọi hệ thống wrestle-up"
   ],
   "fixItFast": [
     "Nếu ngã về phía sau: đưa chân lại gần tay trước khi nhấc lên",

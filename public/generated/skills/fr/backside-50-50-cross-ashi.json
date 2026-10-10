@@ -1,0 +1,151 @@
+{
+  "id": "backside-50-50-cross-ashi",
+  "domain": "submission_systems",
+  "level": "advanced",
+  "status": "draft",
+  "name": "Backside 50/50 & Cross Ashi",
+  "aliases": [
+    "backside 50/50 to cross ashi",
+    "cross ashi and backside 50/50",
+    "saddle and backside 50/50 switching"
+  ],
+  "tags": [
+    "leg-lock",
+    "cross-ashi",
+    "backside-50-50",
+    "heel-hook",
+    "knee-safety",
+    "tier:modern-expansion",
+    "meta:modern-common",
+    "risk:safety-critical",
+    "family:leg-lock",
+    "group:leg-lock",
+    "modern-no-gi"
+  ],
+  "keywords": [
+    "Backside 50/50",
+    "Cross Ashi",
+    "Saddle",
+    "inside heel hook",
+    "leg entanglement",
+    "leg-lock"
+  ],
+  "modernSystemGroup": "leg_lock",
+  "relatedSkills": [
+    {
+      "id": "backside-50-50-control",
+      "type": "prerequisite"
+    },
+    {
+      "id": "saddle-inside-sankaku-control",
+      "type": "prerequisite"
+    },
+    {
+      "id": "heel-hook-finishing-system",
+      "type": "chain"
+    },
+    {
+      "id": "false-reap-entry",
+      "type": "supporting"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [
+    "leg-lock-safety-first"
+  ],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "backside-50-50-control",
+    "saddle-inside-sankaku-control",
+    "heel-hook-safety"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [
+    "Si le talon reste caché et que leurs mains gagnent toujours, votre poitrine est encore face à eux, faites passer la jambe sur le dessus et tournez-vous.",
+    "S'ils s'assoient lourdement sur votre poitrine en Backside 50/50, poussez le pied vers le haut à deux mains, soutenez-le avec l'avant-bras, glissez l'épaule dessous et asseyez-vous au lieu de forcer le talon.",
+    "Si l'enchevêtrement s'ouvre pendant la transition, revenez à un contrôle 50/50 ou Cross Ashi avant d'attaquer, une jambe à moitié transférée n'est pas une position."
+  ],
+  "version": 1,
+  "updatedAt": "2026-10-10T00:00:00.000Z",
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "fr",
+  "description": "Cross Ashi et le Backside 50/50 sont les deux plateformes d'inside heel hook du leg locking no-gi moderne. Cross Ashi est la plus dynamique, le Backside 50/50 est celle qui supprime le hand fighting.",
+  "shortInstruction": "Poitrine tournée à l'opposé, jambe sur le dessus du corps, triangle des jambes, puis le talon. Quand le hand fighting est en train d'être perdu, passez en backside au lieu de continuer à vous battre pour les mains.",
+  "summary": "Le Cross Ashi, appelé saddle, inside sankaku, 411 ou honeyhole selon les écoles, croise les jambes par-dessus le corps de l'adversaire et contrôle la ligne de genou. C'est la plateforme la plus dynamique : plusieurs clés de pied, heel hooks, transitions vers le dos et même des passages en sortent. Son prix, c'est que l'adversaire reste face à vous, donc il peut hand fighter, et s'il libère le talon il peut se retourner et démonter la position. Le Backside 50/50 vous place derrière sa ligne de hanche dans une configuration de jambes 50/50. Quand vous attaquez le talon, il regarde dans la direction opposée, ce qui rend le hand fighting presque impossible, et la position des jambes donne un contrôle supérieur. C'est la version que Lachlan Giles a utilisée dans l'absolu de l'ADCC, et celle que Ryan Hall a utilisée depuis une entrée roulée pour un inside heel hook en UFC. Les deux positions forment un seul système : prenez le Cross Ashi quand vous voulez le large menu d'attaques, et faites passer la jambe en backside quand le talon est contesté.",
+  "whyItWorks": [
+    "Le sens dans lequel ils regardent décide du hand fighting, face à vous en Cross Ashi ils peuvent se battre pour vos mains, tournés à l'opposé en Backside 50/50 c'est presque impossible.",
+    "La configuration de jambes du backside contrôle la rotation de leurs hanches plus étroitement que le même 50/50 entré de face, donc fuir est bien plus difficile.",
+    "Le Cross Ashi reste dans la boîte à outils parce que c'est la moitié dynamique : plusieurs clés de pied, heel hooks, prises de dos et passages y vivent.",
+    "Une fois la jambe passée sur le dessus de votre corps, le heel hook demande très peu de mouvement, un petit pont sur une boucle de jambes verrouillée suffit."
+  ],
+  "commonMistakes": [
+    "Rester en Cross Ashi à hand fighter pour un talon qu'ils cachent alors que faire passer la jambe en backside supprimerait le hand fighting.",
+    "Laisser la ligne de genou s'ouvrir pendant la transition, dès que l'enchevêtrement est lâche la transition devient un scramble.",
+    "Se retourner face à eux pendant la transition, ce qui retransforme le Backside 50/50 en 50/50 classique.",
+    "Tordre le talon avant que le triangle des jambes et l'épaule en shelf soient en place.",
+    "Tirer sur un talon que vous ne voyez pas au lieu de lire leur poids et de vous asseoir avec un shelf."
+  ],
+  "coachingCues": [
+    "Regarder à l'opposé, c'est la finition, gardez la poitrine tournée hors d'eux.",
+    "Jambe sur le dessus, triangle des jambes, puis le talon.",
+    "Ils s'assoient lourdement ? Construisez le shelf et asseyez-vous.",
+    "Une transition, une attaque, ne combattez pas les mains indéfiniment."
+  ],
+  "safetySummary": [
+    "Les deux positions finissent en inside heel hook, l'attaque la plus dangereuse du sport. Appliquez la rotation lentement et relâchez au premier signe d'inconfort au genou.",
+    "Ne tordez jamais le talon tant que leurs hanches peuvent encore suivre, contrôlez la jambe éloignée et la hanche avant la rotation.",
+    "Convenez d'un protocole de tap pour les clés de jambes avant le round et respectez chaque tap, y compris un tap causé par une compression.",
+    "Drillez la transition à vitesse lente : un genou pris au milieu d'une transition est la blessure classique de ce système."
+  ],
+  "systemLogic": {
+    "corePrinciple": "Cross Ashi quand il faut les entrées dynamiques et les prises de dos, faites passer la jambe sur le dessus et tournez la poitrine quand le hand fighting est en train d'être perdu, le Backside 50/50 est la position qui supprime le hand fighting.",
+    "decisionTree": [
+      {
+        "condition": "Ils vous font face en Cross Ashi et gagnent le combat de mains",
+        "action": "faites passer la jambe sur le dessus de votre corps, créez un triangle avec vos jambes autour de la leur, tournez la poitrine, puis exposez et finissez le talon."
+      },
+      {
+        "condition": "Ils s'assoient lourdement en Backside 50/50",
+        "action": "poussez le pied vers le haut à deux mains, soutenez-le avec l'avant-bras, placez l'épaule sous le pied comme shelf, regardez à l'opposé et asseyez-vous, puis ramenez le bras chercher le talon."
+      },
+      {
+        "condition": "Ils se retournent face à vous depuis le Backside 50/50",
+        "action": "vous êtes de retour en 50/50, rentrez à nouveau en Cross Ashi ou réinitialisez les contrôles 70/30 avant d'attaquer."
+      },
+      {
+        "condition": "Ils se lèvent et empilent",
+        "action": "relâchez l'enchevêtrement, récupérez la garde et reconstruisez l'entrée au lieu de courir après la jambe depuis un mauvais angle."
+      }
+    ],
+    "exitStrategies": [
+      "Si la jambe ne peut pas être tenue, désengagez-vous et remontez en garde avant qu'ils ne commencent à attaquer votre jambe.",
+      "S'ils libèrent le talon, abandonnez la finition, refermez d'abord la ligne de genou et réattaquez depuis une position réellement contrôlée."
+    ]
+  },
+  "moneyDetails": [
+    "La jambe va sur le dessus de votre corps, et la main du haut garde le talon en gable grip, paume vers le bas, le shelf sous le pied est votre épaule.",
+    "Le triangle que vos jambes forment autour de leur jambe est le contrôle, sans lui la transition n'est que du mouvement.",
+    "La poitrine tournée à l'opposé est tout l'intérêt, c'est ce qui rend le hand fighting presque impossible pour eux.",
+    "Lisez leur poids : si leur masse se pose sur votre poitrine, asseyez-vous avec le shelf d'épaule au lieu de tirer sur un talon que vous ne voyez pas."
+  ],
+  "nextStep": "Après avoir joué la transition entre les deux plateformes, passez au système de finition Heel Hook pour la prise, l'angle et les mécaniques de finition.",
+  "fixItFast": [
+    "Vous perdez le combat de mains ? Faites passer la jambe en backside au lieu de hand fighter.",
+    "Ils s'assoient lourdement ? Construisez le shelf d'épaule et asseyez-vous.",
+    "Ligne de genou perdue en pleine transition ? Arrêtez la transition, refermez la ligne de genou, puis reprenez."
+  ]
+}

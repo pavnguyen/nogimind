@@ -1,0 +1,145 @@
+{
+  "id": "r-guard",
+  "domain": "guard_offense",
+  "level": "advanced",
+  "status": "draft",
+  "name": "R-Guard",
+  "aliases": [
+    "Reverse Guard",
+    "R Guard",
+    "reverse De La Riva no-gi"
+  ],
+  "tags": [
+    "Guard",
+    "reverse-de-la-riva",
+    "tier:modern-expansion",
+    "meta:modern-common",
+    "risk:medium",
+    "family:guard",
+    "modern-no-gi"
+  ],
+  "keywords": [
+    "R-Guard",
+    "Reverse Guard",
+    "De La Riva",
+    "headquarters",
+    "staple",
+    "cross ashi"
+  ],
+  "relatedSkills": [
+    {
+      "id": "reverse-de-la-riva-transitions",
+      "type": "recommended"
+    },
+    {
+      "id": "de-la-riva-sweeps",
+      "type": "supporting"
+    },
+    {
+      "id": "k-guard-entry",
+      "type": "chain"
+    },
+    {
+      "id": "false-reap-entry",
+      "type": "chain"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [
+    "Guard-retention-specialist"
+  ],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "de-la-riva-sweeps",
+    "seated-guard-retention"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [
+    "If the bottom leg keeps getting stapled, you are holding the guard flat, turn the hips away and lift the hook before their weight settles.",
+    "If you cannot control anything, you are reaching for cloth that does not exist, take the 2-on-1 on the wrist or the far leg instead.",
+    "If the hook is cleared and they square up, sit up into seated guard and re-enter, do not chase the hook from your back."
+  ],
+  "version": 1,
+  "updatedAt": "2026-10-10T00:00:00.000Z",
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "en",
+  "description": "R-Guard (Reverse Guard) is the no-gi reading of the De La Riva family: the hook sits outside the near leg and the grips are built on wrists and legs instead of cloth, so the bottom leg stays free and headquarters cannot staple it to the mat.",
+  "shortInstruction": "Free the bottom leg, turn the hips away, and climb to the far leg. R-Guard answers headquarters, it is not a guard to rest in.",
+  "summary": "R-Guard, also called Reverse Guard, is a modern no-gi variation of the De La Riva guard. Because there is no sleeve and no collar to hold, the guard player reverses the configuration: the hook goes outside the near leg and the controls come from the wrist, the far leg, and the angle of the hips. The point of the shape is defensive as much as offensive, the bottom leg stays free, so the passer cannot staple it down when they arrive at headquarters. From the same shape the guard player chains to sweeps, to wrestle-ups, and to cross ashi entries, which is why modern no-gi players treat it as a first line of defense rather than a static guard.",
+  "whyItWorks": [
+    "The outside hook keeps the bottom leg free, so the passer cannot staple it to the mat from headquarters.",
+    "With no sleeve or collar available, the controls are built on the wrist, the far leg, and the hip angle, the parts of the position that still work in no-gi.",
+    "The position is a platform rather than a destination: the same shape feeds sweeps, wrestle-ups, and entries to cross ashi.",
+    "Denying the staple forces the passer to move their feet, and every time they move their feet the guard player has an entry."
+  ],
+  "commonMistakes": [
+    "Letting the bottom leg go flat and exposed while holding the hook, the staple is exactly what R-Guard exists to prevent.",
+    "Playing it like a De La Riva guard with cloth grips, reaching for grips that are not there instead of controlling the wrist and the far leg.",
+    "Turning the hips into the passer instead of away, which hands them the leg they were trying to staple.",
+    "Holding the guard instead of chaining, R-Guard is an answer to pressure, not a place to stall.",
+    "Chasing the hook after it has been cleared, sitting up and re-entering is faster than fighting for a lost hook from flat on your back."
+  ],
+  "coachingCues": [
+    "Free the leg first, attack second.",
+    "Hips away, hook hidden.",
+    "Wrist and far leg, that is your grip in no-gi.",
+    "Climb, do not hold."
+  ],
+  "safetySummary": [
+    "Never let the opponent settle their weight onto your hooked knee, if the knee is trapped and loaded, release the hook before the joint takes the pressure.",
+    "Do not twist out of a trapped hook at speed, release the entanglement and re-enter instead, knees do not tolerate lateral force.",
+    "When you climb to the far leg, keep your own knee line behind their thigh so the transition does not expose your leg instead of theirs.",
+    "In drilling, keep the hook light, it is a control, not a crank on your partner's knee."
+  ],
+  "systemLogic": {
+    "corePrinciple": "Outside hook and reversed controls → keep the bottom leg free so headquarters cannot staple it → turn the hips away → sweep, wrestle up, or climb to cross ashi.",
+    "decisionTree": [
+      {
+        "condition": "They drive in to staple the bottom leg at headquarters",
+        "action": "turn the hips away, free the leg, and re-hook outside the near leg."
+      },
+      {
+        "condition": "They step the near leg across your centre line",
+        "action": "climb your hips and take cross ashi on the exposed leg."
+      },
+      {
+        "condition": "They stand tall with a wide base",
+        "action": "come up on the hook into a single leg or wrestle-up."
+      },
+      {
+        "condition": "They clear the hook and square up",
+        "action": "sit up to seated guard and re-enter, do not fight for the hook off your back."
+      }
+    ],
+    "exitStrategies": [
+      "If the hook is trapped and loaded, release it before the knee is twisted, then re-enter from seated guard.",
+      "If headquarters is already established with your bottom leg stapled, recover to seated guard or half guard and restart the sequence."
+    ]
+  },
+  "moneyDetails": [
+    "The hook goes outside the near leg and your foot stays light, the moment their hips settle on it, you move.",
+    "Your bottom leg is the thing you are protecting, the second it goes flat, R-Guard is gone.",
+    "Watch the far leg, the cross ashi entry appears when they step the near leg over your centre line.",
+    "Wrists before legs, without cloth the wrist and the far leg are the only controls that stick."
+  ],
+  "nextStep": "After R-Guard, learn the K-Guard and false reap entries that turn the same outside hook into cross ashi and the saddle.",
+  "fixItFast": [
+    "Bottom leg getting stapled? Turn the hips away and lift the hook before they settle their weight.",
+    "No control without cloth? Take the 2-on-1 on the wrist or the far leg instead of grabbing empty air.",
+    "Stuck holding the guard? Chain it: sweep, wrestle up, or climb to the legs."
+  ]
+}

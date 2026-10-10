@@ -62,11 +62,11 @@
   "locale": "vi",
   "description": "Sử dụng K-Guard để tạo một góc dưới hông đối phương và thực hiện các đòn tấn công từ phía sau hoặc vướng chân với toàn quyền kiểm soát chân xa của họ.",
   "shortInstruction": "Đặt chân lên hông xa, móc chân gần, xoay người bên dưới - K-Guard là vua của hệ thống tấn công bằng chân hiện đại.",
-  "summary": "K-Guard là điểm vào linh hoạt nhất trong khóa chân No-Gi hiện đại. Bằng cách đặt một chân lên hông xa của đối phương và móc chân gần của họ bằng chân kia, bạn tạo ra một góc mạnh mẽ dưới trọng tâm của họ. Từ đây, bạn có thể tấn công chân xa (Heel Hook), lùi hoặc quét lên vị trí trên cùng. K-Guard là chất keo kết nối đáy Open Guard với hệ thống vướng chân.",
+  "summary": "K-Guard là điểm vào linh hoạt nhất trong khóa chân No-Gi hiện đại. Bằng cách đặt một chân lên hông xa của đối phương và móc chân gần của họ bằng chân kia, bạn tạo ra một góc mạnh mẽ dưới trọng tâm của họ. Từ đây, bạn có thể tấn công chân xa (Heel Hook), lùi hoặc sweep lên vị trí trên cùng. K-Guard là chất keo kết nối đáy Open Guard với hệ thống vướng chân.",
   "whyItWorks": [
     "Bàn chân ở hông xa điều khiển chuyển động quay của họ và ngăn họ bước đi.",
     "Cái móc ở chân gần của họ giúp bạn mất thăng bằng và vướng vào chân.",
-    "Cơ thể của bạn nằm dưới trọng tâm của họ có nghĩa là bạn luôn có một chuyển động để có thể quét hoặc tấn công.",
+    "Cơ thể của bạn nằm dưới trọng tâm của họ có nghĩa là bạn luôn có một chuyển động để có thể sweep hoặc tấn công.",
     "Nguyên tắc Danaher: K-Guard giải quyết vấn đề 'làm thế nào để vào chân mà không phải nhường vị trí'."
   ],
   "commonMistakes": [
@@ -84,7 +84,7 @@
   "safetySummary": [
     "Giữ đầu của bạn khỏi thảm khi ở K-Guard, bảo vệ cổ của bạn khỏi các tác động Guillotine.",
     "Luôn kiểm soát cánh tay ở gần, nếu họ nắm lấy đầu bạn, bạn có nguy cơ bị Guillotine.",
-    "Không duỗi chân ra mà không kiểm soát hông xa của họ - họ có thể đá tự do và phản đòn bằng thanh đầu gối."
+    "Không duỗi chân ra mà không kiểm soát hông xa của họ - họ có thể đá tự do và phản đòn bằng Kneebar."
   ],
   "systemLogic": {
     "corePrinciple": "Seated Guard: thắng trận đấu tay → đặt chân lên hông xa → móc chân gần bằng chân kia → xoay dưới tâm của họ → vào Saddle, chéo ashi hoặc lùi lại.",
@@ -99,7 +99,7 @@
       },
       {
         "condition": "Sử dụng tùy chọn 3",
-        "action": "Họ post → quét lên vị trí trên cùng."
+        "action": "Họ post → sweep lên vị trí trên cùng."
       }
     ],
     "exitStrategies": []
@@ -110,7 +110,7 @@
     "Kiểm soát cánh tay gần của họ bằng cách nắm lấy tay áo, cổ tay hoặc cơ tam đầu của họ - điều này ngăn họ phản công.",
     "Xoay hông của bạn về phía trần nhà khi bạn bước vào K-Guard, thao tác này sẽ mở ra góc để chân vào."
   ],
-  "nextStep": "Sau mục nhập K-Guard, hãy tìm hiểu ma trận K-Guard và hệ thống ashi chéo Heel Hook.",
+  "nextStep": "Sau mục nhập K-Guard, hãy tìm hiểu K-Guard Matrix và hệ thống ashi chéo Heel Hook.",
   "fixItFast": [
     "Chân trượt khỏi hông? Nhấn gót chân của bạn vào xương hông - không phải vòm mà là gót chân.",
     "Họ tóm lấy đầu bạn à? Đập tay bạn vào trong cánh tay của họ và thiết lập lại khoảng cách.",

@@ -56,14 +56,14 @@
     "hasStateMachine": false
   },
   "locale": "vi",
-  "description": "Biến khung thành lối thoát hông, underhook hoặc Tư thế rùa thay vì để lộ lưng một cách ngẫu nhiên.",
+  "description": "Biến khung thành lối thoát hông, underhook hoặc Turtle thay vì để lộ lưng một cách ngẫu nhiên.",
   "shortInstruction": "Khung ngang hông, đưa đầu gối gần vào, thoát hông để tạo khoảng trống và thu hồi Guard hoặc thu lưng qua underhook.",
   "summary": "Side Control lối thoát sử dụng khung cứng ở hông để tạo thành hình wedge, sau đó thoát hông để phục hồi vị trí trong. Hệ thống có hai nhánh chính: phục hồi underhook (đưa lưng hoặc Guard) và phục hồi khuỷu tay đầu gối (Guard).",
   "whyItWorks": [
     "Khung cẳng tay ngang hông sử dụng cấu trúc xương chống lại cơ, ngăn đối thủ đè bẹp thân mình",
     "Hông thoát ra trước underhook tạo ra góc cần thiết để đi vào không gian bên trong",
     "Xoay sang một bên sẽ sắp xếp lại bộ xương của bạn để bạn bị đè lên hông chứ không phải xương sườn",
-    "Nhánh underhook mang lại cho bạn phần thưởng cao nhất (tiềm năng lấy lại) nhưng cần nhiều không gian hơn nhánh khuỷu tay đầu gối"
+    "Nhánh underhook mang lại cho bạn phần thưởng cao nhất (tiềm năng Back Take) nhưng cần nhiều không gian hơn nhánh khuỷu tay đầu gối"
   ],
   "commonMistakes": [
     "Đóng khung trên ngực thay vì hông - điều này khiến đối thủ đè bẹp bạn vì khung quá cao",
@@ -78,7 +78,7 @@
   ],
   "safetySummary": [
     "Side Control là một trong những tư thế ngột ngạt nhất trong BJJ, hoảng loạn là điều bình thường nhưng phải được kiểm soát bằng cách kiểm soát hơi thở",
-    "Lộ lưng trong một cuộc tranh giành có thể dẫn đến rear-naked choke mục; giữ cánh tay gần ngang bụng của bạn",
+    "Lộ lưng trong một cuộc tranh giành có thể dẫn đến Rear Naked Choke; giữ cánh tay gần ngang bụng của bạn",
     "Nếu bạn cảm thấy đau xương sườn do áp lực, hãy lập tức giữ khung và thoát hông thay vì cố gắng đè đối thủ xuống."
   ],
   "systemLogic": {
@@ -86,7 +86,7 @@
     "decisionTree": [
       {
         "condition": "Đối thủ cho bạn khoảng trống để chèn underhook",
-        "action": "Hông thoát ra → nhét underhook → đưa đầu gối bên ngoài của bạn vào → chuyển sang tư thế không chiến hoặc một chân. Chi nhánh này mang lại tiềm năng."
+        "action": "Hông thoát ra → nhét underhook → đưa đầu gối bên ngoài của bạn vào → chuyển sang thế wrestling hoặc Single Leg. Chi nhánh này mang lại tiềm năng."
       },
       {
         "condition": "Đối thủ chặn underhook và tiến về phía trước",
@@ -98,16 +98,16 @@
       },
       {
         "condition": "Đối thủ dồn bạn bằng cách đẩy vai bạn vào thảm",
-        "action": "Đập cánh tay gần dưới chân họ và lấy lưng. Động lực tiến về phía trước của họ giúp bạn có cơ hội tiến về phía sau."
+        "action": "Pummel cánh tay gần dưới chân họ và lấy lưng. Động lực tiến về phía trước của họ giúp bạn có cơ hội tiến về phía sau."
       },
       {
         "condition": "Không có underhook và khuỷu tay đầu gối",
-        "action": "Chấp nhận vị trí Tư thế rùa và sử dụng trình tự Tư thế rùa thoát thay vì nằm im và hấp thụ sát thương. Tư thế rùa là một tư thế chuyển tiếp chứ không phải là một tư thế nghỉ ngơi."
+        "action": "Chấp nhận Turtle và sử dụng trình tự thoát Turtle thay vì nằm im và hấp thụ sát thương. Turtle là một thế chuyển tiếp chứ không phải là một tư thế nghỉ ngơi."
       }
     ],
     "exitStrategies": [
       "Nếu đối thủ chặn underhook, hãy đứng trên hông, chèn đầu gối gần của bạn ngang qua đường hông của họ và lăn tròn để phục hồi Guard.",
-      "Nếu bạn khôi phục Half Guard, hãy thiết lập ngay knee shield để ngăn họ làm phẳng lại bạn.",
+      "Nếu bạn khôi phục Half Guard, hãy thiết lập ngay Knee Shield để ngăn họ làm phẳng lại bạn.",
       "Nếu việc thoát thất bại, hãy thiết lập lại các lớp sinh tồn và đợi lần mở cửa tiếp theo - đừng ép thực hiện lần thứ hai từ vị trí bị xâm phạm."
     ]
   },
@@ -118,7 +118,7 @@
   ],
   "fixItFast": [
     "Nếu họ crossface bạn cứng: đặt cả hai cẳng tay lên bắp tay của họ, quay đầu về phía thảm và hông thoát ra ngay lập tức",
-    "Nếu họ dồn bạn bằng cách ấn vai bạn vào thảm: hãy đập cánh tay gần dưới chân họ và lấy lưng",
+    "Nếu họ dồn bạn bằng cách ấn vai bạn vào thảm: hãy pummel cánh tay gần dưới chân họ và lấy lưng",
     "Nếu bạn không thể có được khung underhook: ở hông, hãy chèn đầu gối gần của bạn ngang qua đường hông của họ và lăn tròn để phục hồi Guard"
   ]
 }

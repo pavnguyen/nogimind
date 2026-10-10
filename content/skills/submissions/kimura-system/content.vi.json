@@ -1,24 +1,24 @@
 {
   "id": "kimura-system",
   "locale": "vi",
-  "name": "Kimura Hệ thống",
-  "description": "Sử dụng tay cầm Kimura làm trung tâm điều khiển cho các pha quét, chuyền, lùi hoặc dứt điểm - Kimura là một vị trí chứ không chỉ là một lần gửi.",
-  "shortInstruction": "Nắm chặt cổ tay, hình bốn cánh tay, xoay vai - Kimura là kiểm soát trước, phục tùng sau.",
-  "summary": "Kimura là bài gửi linh hoạt nhất trong No-Gi BJJ. Cách cầm Kimura (một tay giữ cổ tay cùng bên, tay kia luồn qua để nắm lấy cổ tay của chính bạn) thường được sử dụng làm tư thế kiểm soát hơn là phục tùng. Từ tay cầm Kimura, bạn có thể: quét, vượt qua Guard, lùi hoặc hoàn thành khóa vai. Hệ thống này dựa trên việc cô lập một trong các cánh tay của họ và sử dụng nó làm tay cầm để điều khiển toàn bộ cơ thể của họ.",
+  "name": "Kimura System",
+  "description": "Sử dụng tay cầm Kimura làm trung tâm điều khiển cho các pha sweep, pass, Back Take hoặc submission - Kimura là một vị trí chứ không chỉ là một submission đơn lẻ.",
+  "shortInstruction": "Nắm chặt cổ tay, hình bốn cánh tay, xoay vai - Kimura là control trước, submission sau.",
+  "summary": "Kimura là submission linh hoạt nhất trong No-Gi BJJ. Cách cầm Kimura (một tay giữ cổ tay cùng bên, tay kia luồn qua để nắm lấy cổ tay của chính bạn) thường được sử dụng làm tư thế kiểm soát hơn là submission. Từ tay cầm Kimura, bạn có thể: sweep, pass Guard, Back Take hoặc kết thúc khóa vai. Hệ thống này dựa trên việc cô lập một trong các cánh tay của họ và sử dụng nó làm tay cầm để điều khiển toàn bộ cơ thể của họ.",
   "whyItWorks": [
     "Tay cầm Kimura tạo ra một chiếc khóa hình số bốn trên cánh tay của họ mà họ không thể dễ dàng phá vỡ, một khi đã khóa, bạn sẽ điều khiển vai của họ.",
     "Sử dụng cánh tay của họ làm 'tay cầm' cho phép bạn kiểm soát toàn bộ cơ thể của họ - khi bạn di chuyển cánh tay của họ, cơ thể của họ cũng sẽ di chuyển theo.",
     "Hệ thống Kimura hoạt động ở hầu hết mọi vị trí: Guard, Side Control, Half Guard, Mount và các chuyển tiếp.",
-    "Nguyên tắc Danaher: Kimura là vị trí gửi linh hoạt nhất trong BJJ vì đây cũng là vị trí kiểm soát tốt nhất."
+    "Nguyên tắc Danaher: Kimura là submission linh hoạt nhất trong BJJ vì đây cũng là vị trí kiểm soát tốt nhất."
   ],
   "commonMistakes": [
-    "Theo đuổi việc phục tùng trước khi thiết lập quyền kiểm soát - Kimura là vị trí kiểm soát trước tiên.",
+    "Theo đuổi submission trước khi thiết lập kiểm soát - Kimura là vị trí kiểm soát trước tiên.",
     "Để đối phương duỗi thẳng cánh tay, một cánh tay thẳng thoát khỏi đòn khóa Kimura.",
     "Chỉ sử dụng sức mạnh của cánh tay thay vì xoay cơ thể, kết thúc Kimura đến từ việc xoay hông của bạn.",
     "Mất khả năng bám cổ tay - khả năng bám cổ tay là điểm neo của toàn bộ hệ thống."
   ],
   "coachingCues": [
-    "Kimura là quyền kiểm soát, việc gửi chỉ là một tùy chọn.",
+    "Kimura là kiểm soát, submission chỉ là một tùy chọn.",
     "Kiểm soát cổ tay, khóa hình bốn, làm chủ cơ thể của họ.",
     "Nếu bạn có thế cầm Kimura, bạn có vị trí, bây giờ hãy chọn đòn tấn công của bạn.",
     "Xoay vai chứ không phải cánh tay - xoay vai là kết thúc."
@@ -26,23 +26,23 @@
   "safetySummary": [
     "Kimura tác dụng áp lực xoay lên vai và khuỷu tay, tác dụng dần dần.",
     "Không vặn khóa vai - vết thương ở vai có thể mất nhiều tháng để hồi phục.",
-    "Nhả ngay khi nhấn - Kimura có thể gây tổn thương vai nghiêm trọng chỉ với một lực tối thiểu."
+    "Nhả ngay khi họ tap - Kimura có thể gây tổn thương vai nghiêm trọng chỉ với một lực tối thiểu."
   ],
   "keyCorrections": [
     "Nếu họ duỗi thẳng cánh tay, bạn sẽ mất góc - hãy kéo khuỷu tay của họ về phía bạn để uốn cong lại cánh tay.",
     "Nếu bạn không thể hoàn thành, động tác xoay của bạn chưa đủ - hãy đưa khuỷu tay của họ về phía hông bạn trong khi xoay.",
-    "Nếu họ nắm lấy chân của mình để phòng thủ, hãy chuyển sang Armbar hoặc lùi lại."
+    "Nếu họ nắm lấy chân của mình để phòng thủ, hãy chuyển sang Armbar hoặc Back Take."
   ],
   "systemLogic": {
     "corePrinciple": "Nắm chặt Kimura (điều khiển cổ tay + hình số bốn): sử dụng cánh tay của họ làm tay cầm → chọn đòn tấn công của bạn dựa trên phản ứng của họ.",
     "decisionTree": [
       {
         "condition": "Sử dụng tùy chọn 1",
-        "action": "Họ chống lại → Kimura phục tùng. Cách 2: Họ đăng → quét lên đầu."
+        "action": "Họ chống lại → Kimura submission. Cách 2: Họ post → sweep lên trên."
       },
       {
         "condition": "Sử dụng tùy chọn 3",
-        "action": "Họ quay đi → lùi lại. Phương án 4: Họ giả chết → vượt qua Guard."
+        "action": "Họ quay đi → Back Take. Phương án 4: Họ giả chết → pass Guard."
       }
     ]
   },
@@ -52,7 +52,7 @@
     "Giữ khuỷu tay của họ cong suốt, một cánh tay thẳng có thể kéo ra khỏi Kimura.",
     "Kết thúc là một động tác xoay: đưa khuỷu tay của họ về phía rốn của bạn trong khi xoay vai của bạn ra xa họ."
   ],
-  "nextStep": "Sau hệ thống Kimura, hãy tìm hiểu hệ thống Armbar và Baratoplata để kết nối với Kimura.",
+  "nextStep": "Sau Kimura System, hãy tìm hiểu Armbar System và Baratoplata để kết nối với Kimura.",
   "fixItFast": [
     "Cánh tay tiếp tục duỗi thẳng? Kéo khuỷu tay của họ về phía bạn để uốn cong lại.",
     "Không thể hoàn thành? Xoay vai nhiều hơn - kết thúc là xoay vai chứ không phải kéo tay.",

@@ -3,7 +3,7 @@
   "domain": "guard_offense",
   "level": "advanced",
   "status": "draft",
-  "name": "Fausse récolte jusqu'au pont Saddle",
+  "name": "False Reap to Saddle Bridge",
   "aliases": [],
   "tags": [
     "false-reap",
@@ -48,9 +48,9 @@
   "nextSkillIds": [],
   "searchBoost": 1,
   "keyCorrections": [
-    "Si vous ne parvenez pas à verrouiller le Saddle, leurs hanches sont encore trop proches – créez une séparation en donnant un coup de pied plus profond avec votre jambe en crochet.",
-    "S'ils tournent, vous avez perdu le contrôle de la hanche - rétablissez la prise de la hanche avant votre prochaine tentative.",
-    "S'ils vous aplatissent dans le Saddle, votre angle est mauvais : remontez vos hanches vers la ligne de leurs épaules."
+    "Si vous n'arrivez pas à verrouiller le Saddle, ses hanches sont encore trop proches - créez de la séparation en poussant votre jambe de crochet plus profond.",
+    "S'il sort par rotation, vous avez perdu le contrôle de la hanche éloignée - rétablissez la prise de hanche avant la prochaine tentative.",
+    "S'il vous aplatit dans le Saddle, votre angle est mauvais - faites remonter vos hanches vers la ligne de ses épaules."
   ],
   "version": 1,
   "updatedAt": "2026-05-21T00:24:30.771Z",
@@ -64,56 +64,56 @@
     "hasStateMachine": false
   },
   "locale": "fr",
-  "description": "Passez de la fausse récolte à Saddle (Inside Sankaku) lorsque l'adversaire sépare ses hanches ou recule - en utilisant son mouvement pour pivoter dans l'enchevêtrement des jambes.",
-  "shortInstruction": "Ils séparent les hanches ou reculent ? Reliez vos hanches et verrouillez le Saddle - leur évasion devient votre entrée.",
-  "summary": "La fausse récolte vers le pont Saddle est la chaîne d'attaque principale depuis la position de fausse récolte. Lorsque l'adversaire sent sa jambe contrôlée et essaie de la libérer en reculant ou en écartant ses hanches, il crée l'angle de rotation exact dont vous avez besoin pour balancer votre jambe supérieure sur son corps et verrouiller le Saddle (Inside Sankaku). Leur évasion alimente votre entrée – c'est le principe de Danaher qui consiste à utiliser la réaction de l'adversaire comme configuration.",
+  "description": "Passez du False Reap au Saddle (Inside Sankaku) quand l'adversaire écarte ses hanches ou recule, en utilisant son mouvement pour pivoter dans l'enchevêtrement de jambes.",
+  "shortInstruction": "Il écarte les hanches ou recule ? Faites passer vos hanches et verrouillez le Saddle - son évasion devient votre entrée.",
+  "summary": "Le False Reap to Saddle Bridge est la chaîne d'attaque principale depuis la position de False Reap. Quand l'adversaire sent sa jambe contrôlée et essaie de la libérer en reculant ou en écartant ses hanches, il crée exactement l'angle de rotation dont vous avez besoin pour passer votre jambe supérieure par-dessus son corps et verrouiller le Saddle (Inside Sankaku). Son évasion alimente votre entrée - c'est le principe de Danaher : utiliser la réaction de l'adversaire comme configuration.",
   "whyItWorks": [
-    "Lorsqu'ils écartent leurs hanches pour échapper à la fausse récolte, votre jambe bascule naturellement sur leur corps dans la position Saddle.",
-    "Leur mouvement pas à pas charge leur poids sur votre jambe en crochet, vous donnant un avantage mécanique pour le pont.",
-    "La transition ne nécessite aucune création d’espace : leur mouvement crée tout l’espace dont vous avez besoin.",
-    "Depuis le Saddle, vous avez un accès direct au Heel Hook, à la prise en pointe et à la prise arrière."
+    "Quand il écarte ses hanches pour échapper au False Reap, votre jambe bascule naturellement par-dessus son corps dans la position Saddle.",
+    "Son pas charge son poids sur votre jambe en crochet, ce qui vous donne un avantage mécanique pour le pont.",
+    "La transition ne demande pas de créer de l'espace : son mouvement crée tout l'espace nécessaire.",
+    "Depuis le Saddle, vous accédez directement au Heel Hook, au Toe Hold et au Back Take."
   ],
   "commonMistakes": [
-    "En essayant de passer à Saddle avant que l'adversaire ne réagisse, vous avez besoin de son mouvement pour créer l'angle.",
-    "En perdant le contrôle de la hanche éloignée pendant le pont, ils sortiront par la porte arrière.",
-    "Ne maintenez pas votre crochet pendant que vous faites le pont - votre jambe de crochet doit s'enrouler plus profondément et non se relâcher.",
-    "À défaut de verrouiller vos pieds dans le Saddle - un Saddle lâche leur donne la possibilité de s'échapper."
+    "Essayer de ponter vers le Saddle avant que l'adversaire réagisse - vous avez besoin de son mouvement pour créer l'angle.",
+    "Perdre le contrôle de la hanche éloignée pendant le pont - il sortira par la porte arrière.",
+    "Ne pas garder le crochet pendant le pont - votre jambe de crochet doit s'enrouler plus profond, pas se relâcher.",
+    "Ne pas verrouiller vos pieds dans le Saddle - un Saddle lâche lui donne l'évasion."
   ],
   "coachingCues": [
-    "Attendez leur pas – le pont est une réaction.",
-    "Accrochez profondément, pontez dur, verrouillez bien.",
-    "Ressentez la séparation de la hanche – c'est votre déclencheur.",
-    "Saddle ou retour en arrière : deux options à partir d'un seul pont."
+    "Attendez son pas - le pont est une réaction.",
+    "Crochet profond, pont fort, verrouillage serré.",
+    "Sentez l'écartement des hanches - c'est votre déclencheur.",
+    "Saddle ou Back Take - deux options pour un seul pont."
   ],
   "safetySummary": [
-    "Ne faites pas de pont de manière explosive si vous n'avez pas contrôlé leur jambe éloignée - ils peuvent se libérer et hyperétendre votre propre genou.",
-    "Lorsque vous verrouillez le Saddle, gardez leur jambe coincée en position sûre – ne lancez pas le Heel Hook tant que le Saddle n'est pas complètement verrouillé.",
-    "S'ils vous empilent pendant le pont, relâchez et rentrez – ne les laissez pas vous enfoncer la tête dans le tapis."
+    "Ne pontez pas de façon explosive si vous ne contrôlez pas sa jambe éloignée - il peut se dégager et hyperétendre votre propre genou.",
+    "Quand vous verrouillez le Saddle, gardez sa jambe piégée dans une position sûre - ne lancez pas le Heel Hook avant que le Saddle soit totalement verrouillé.",
+    "S'il vous empile pendant le pont, relâchez et rentrez à nouveau - ne le laissez pas vous enfoncer la tête dans le tapis."
   ],
   "systemLogic": {
-    "corePrinciple": "Fausse récolte établie : l'adversaire sépare les hanches ou recule → pontez vos hanches → verrouillez Saddle → attaquez Heel Hook ou prenez en arrière.",
+    "corePrinciple": "False Reap établi : l'adversaire écarte ses hanches ou recule → pontez vos hanches → verrouillez le Saddle → attaquez le Heel Hook ou le Back Take.",
     "decisionTree": [
       {
-        "condition": "ils ne séparent pas leurs hanches",
-        "action": "attaquez plutôt les Kimura à partir d'une fausse récolte – ils doivent réagir à une menace, créant l'autre."
+        "condition": "il n'écarte pas ses hanches",
+        "action": "attaquez plutôt le Kimura depuis le False Reap - il doit réagir à une menace, ce qui crée l'autre."
       },
       {
-        "condition": "Du Saddle",
-        "action": "à l'intérieur de Heel Hook, tenez les orteils ou prenez l'arrière lorsqu'ils roulent."
+        "condition": "Depuis le Saddle",
+        "action": "Heel Hook intérieur, Toe Hold, ou prendre le dos quand il roule."
       }
     ],
     "exitStrategies": []
   },
   "moneyDetails": [
-    "Gardez votre crochet profondément sur la cuisse tout au long du pont – un crochet peu profond perdra sa connexion pendant la rotation.",
-    "Pendant que vous faites le pont, contrôlez leur hanche éloignée avec votre main pour les empêcher de tourner.",
-    "Verrouillez le Saddle en croisant vos pieds derrière le dos – votre pied supérieur s'accroche sous votre cheville inférieure.",
-    "Après avoir verrouillé le Saddle, avancez vos hanches vers leur épaule pour resserrer l'enchevêtrement avant d'attaquer."
+    "Gardez le crochet profond sur sa cuisse pendant tout le pont - un crochet peu profond perd la connexion pendant la rotation.",
+    "Pendant le pont, contrôlez sa hanche éloignée avec votre main pour l'empêcher de tourner.",
+    "Verrouillez le Saddle en croisant vos pieds derrière son dos - votre pied supérieur se crochète sous votre cheville inférieure.",
+    "Après avoir verrouillé le Saddle, avancez vos hanches vers son épaule pour resserrer l'enchevêtrement avant d'attaquer."
   ],
-  "nextStep": "Après avoir maîtrisé l'entrée Saddle, apprenez la finition intérieure Heel Hook et la prise arrière de Saddle pour compléter le système d'attaque des jambes.",
+  "nextStep": "Après avoir maîtrisé l'entrée Saddle, apprenez la finition Heel Hook intérieure et le Back Take depuis le Saddle pour compléter le système d'attaque des jambes.",
   "fixItFast": [
-    "Saddle ne se verrouille pas ? Votre crochet est trop peu profond – rentrez plus profondément sur la cuisse.",
-    "Ils continuent de tourner ? Votre contrôle de la hanche éloignée est faible – saisissez sa hanche ou sa ceinture avec une prise ferme.",
-    "Ils vous aplatissent ? Relâchez le Saddle et réinitialisez-le en position assise Guard, ne vous battez pas en position aplatie."
+    "Le Saddle ne se verrouille pas ? Votre crochet est trop peu profond - rentrez plus profond sur la cuisse.",
+    "Il sort encore par rotation ? Votre contrôle de la hanche éloignée est faible - saisissez sa hanche ou sa ceinture avec une prise ferme.",
+    "Il vous aplatit ? Relâchez le Saddle et revenez en Seated Guard, ne combattez pas depuis une position aplatie."
   ]
 }

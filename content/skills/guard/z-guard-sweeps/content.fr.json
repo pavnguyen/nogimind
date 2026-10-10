@@ -2,11 +2,11 @@
   "id": "z-guard-sweeps",
   "locale": "fr",
   "name": "Z Guard Balayages et moitié profonde",
-  "description": "Utilisez le knee shield (Z-Guard) et le underhook pour créer des demi-entrées profondes, des balayages de serveur ou des opportunités de lutte depuis le bas Half Guard.",
-  "shortInstruction": "knee shield, underhook, sentez leur poids – glissez dans la moitié profonde ou balayez depuis Z-Guard.",
-  "summary": "Z-Guard (knee shield) est le poste de contrôle ; sweeps sont la récompense. À partir de Z-Guard, votre knee shield crée de la distance pendant que vous vous battez pour le underhook. Une fois que vous avez remporté le underhook, vous disposez de trois options principales sweep : glisser dans la moitié profonde (quand ils avancent), frapper le serveur sweep (quand ils se lèvent) ou wrestle up (quand ils reculent). La transition Z-Guard vers la moitié profonde est l'une des chaînes sweep avec le pourcentage le plus élevé dans No-Gi.",
+  "description": "Utilisez le Knee Shield (Z-Guard) et le underhook pour créer des demi-entrées profondes, des balayages de serveur ou des opportunités de lutte depuis le bas Half Guard.",
+  "shortInstruction": "Knee Shield, underhook, sentez leur poids – glissez dans la moitié profonde ou balayez depuis Z-Guard.",
+  "summary": "Z-Guard (Knee Shield) est le poste de contrôle ; sweeps sont la récompense. À partir de Z-Guard, votre Knee Shield crée de la distance pendant que vous vous battez pour le underhook. Une fois que vous avez remporté le underhook, vous disposez de trois options principales sweep : glisser dans la moitié profonde (quand ils avancent), frapper le serveur sweep (quand ils se lèvent) ou wrestle up (quand ils reculent). La transition Z-Guard vers la moitié profonde est l'une des chaînes sweep avec le pourcentage le plus élevé dans No-Gi.",
   "whyItWorks": [
-    "Le knee shield évite la pression thoracique, vous donnant le temps de trouver le underhook.",
+    "Le Knee Shield évite la pression thoracique, vous donnant le temps de trouver le underhook.",
     "Gagner le underhook vous donne le point de contrôle pour entrer dans la moitié profonde – sans cela, la moitié profonde est impossible.",
     "Vos balayages Half Guard inférieurs exploitent leur élan vers l'avant : plus ils conduisent fort, plus le balayage est facile.",
     "Principe de Danaher : les balayages Half Guard ne concernent pas la force, mais plutôt le timing du poids et l'angle."
@@ -34,7 +34,7 @@
     "S'ils vous aplatissent, vous perdez le underhook – revenez dessus avant d'essayer de balayer."
   ],
   "systemLogic": {
-    "corePrinciple": "Z-Guard (knee shield) → gagner underhook → lire leur poids → choisir le balayage.",
+    "corePrinciple": "Z-Guard (Knee Shield) → gagner underhook → lire leur poids → choisir le balayage.",
     "decisionTree": [
       {
         "condition": "Réaction 1 : Ils avancent",

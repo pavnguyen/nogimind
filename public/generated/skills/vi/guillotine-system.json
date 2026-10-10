@@ -3,7 +3,7 @@
   "domain": "submission_systems",
   "level": "advanced",
   "status": "draft",
-  "name": "Guillotine Hệ thống",
+  "name": "Guillotine System",
   "aliases": [],
   "tags": [
     "choke",
@@ -45,7 +45,7 @@
   "searchBoost": 1,
   "keyCorrections": [
     "Nếu bạn không thể hoàn thành, góc của bạn quá vuông - hãy bước sang một bên và cắt góc.",
-    "Nếu họ ra ngoài, bạn sẽ mất khoảng cách hông - thả ra và đặt lại thay vì đuổi theo cuộn cảm.",
+    "Nếu họ ra ngoài, bạn sẽ mất khoảng cách hông - thả ra và đặt lại thay vì đuổi theo choke.",
     "Nếu cổ tay của bạn nông, hãy nắm lại sâu hơn - cánh tay bị nghẹn phải càng sâu càng tốt trên cổ."
   ],
   "version": 1,
@@ -61,18 +61,18 @@
     "hasStateMachine": false
   },
   "locale": "vi",
-  "description": "Xây dựng Guillotine các mối đe dọa nghẹt thở từ Front Headlock, Guard và các cuộc tranh giành, ưu tiên góc, độ sâu cổ tay và sự an toàn của cổ hơn là vũ lực.",
+  "description": "Xây dựng các mối đe dọa choke Guillotine từ Front Headlock, Guard và các cuộc tranh giành, ưu tiên góc, độ sâu cổ tay và sự an toàn của cổ hơn là vũ lực.",
   "shortInstruction": "Cổ tay sâu, khuỷu tay siết chặt, cắt góc, siết chặt - Guillotine là một tư thế, không chỉ là một cái nắm.",
-  "summary": "Guillotine là cuộn cảm Front Headlock dễ tiếp cận nhất và là cuộn cảm đầu tiên mà hầu hết các học viên BJJ đều học. Hệ thống này bao gồm nhiều biến thể: động tác giơ tay tiêu chuẩn Guillotine (từ Guard), động tác giơ tay ra Guillotine (từ Front Headlock), động tác đưa tay cao Guillotine (để thâm nhập cổ sâu hơn) và động tác Marcelotine (biến thể No-Gi của Marcelo Garcia). Nguyên tắc chính trong tất cả các biến thể là Guillotine là một vị trí, bạn phải kiểm soát tư thế của họ và tạo góc trước khi siết chặt.",
+  "summary": "Guillotine là choke Front Headlock dễ tiếp cận nhất và là choke đầu tiên mà hầu hết các học viên BJJ đều học. Hệ thống này bao gồm nhiều biến thể: động tác giơ tay tiêu chuẩn Guillotine (từ Guard), động tác giơ tay ra Guillotine (từ Front Headlock), động tác đưa tay cao Guillotine (để thâm nhập cổ sâu hơn) và động tác Marcelotine (biến thể No-Gi của Marcelo Garcia). Nguyên tắc chính trong tất cả các biến thể là Guillotine là một vị trí, bạn phải kiểm soát tư thế của họ và tạo góc trước khi siết chặt.",
   "whyItWorks": [
-    "Guillotine tấn công vào cổ từ phía trước, nơi đầu và tư thế của hầu hết đối thủ tạo ra đường vào tự nhiên cho đòn siết cổ.",
-    "Nó có sẵn ở hầu hết mọi vị trí: Front Headlock, Guard, tranh giành và hạ gục không thành công.",
+    "Guillotine tấn công vào cổ từ phía trước, nơi đầu và tư thế của hầu hết đối thủ tạo ra đường vào tự nhiên cho choke.",
+    "Nó có sẵn ở hầu hết mọi vị trí: Front Headlock, Guard, tranh giành và takedown không thành công.",
     "Biến thể tay trong (từ Guard) ngăn cản họ giữ tư thế và làm cho vòng bị siết chặt hơn.",
-    "Nguyên tắc Danaher: Guillotine là một nút thắt 'vị trí đầu tiên, phục tùng thứ hai' - kiểm soát tư thế của họ, sau đó tấn công."
+    "Nguyên tắc Danaher: Guillotine là 'position first, submission second' - kiểm soát posture của họ, sau đó tấn công."
   ],
   "commonMistakes": [
     "Siết chặt trước khi kiểm soát tư thế của họ - đối thủ trong tư thế có thể giảm bớt áp lực bằng cách đứng.",
-    "Để cánh tay nghẹt thở trượt nông trên cổ - cổ tay sâu là điều cần thiết để kết thúc.",
+    "Để cánh tay choke trượt nông trên cổ - cổ tay sâu là điều cần thiết để kết thúc.",
     "Chỉ sử dụng sức mạnh của cánh tay để kết thúc - kết thúc đến từ việc cắt một góc và sử dụng ngực của bạn.",
     "Để họ xếp bạn hoặc lái về phía trước - duy trì khoảng cách hông để giữ góc."
   ],
@@ -80,12 +80,12 @@
     "Cổ tay sâu, khuỷu tay khép chặt, góc nhọn, siết chặt.",
     "Nếu bạn có thể nhìn thấy lưng họ thì góc của bạn đã sai - hãy cắt góc nhiều hơn.",
     "Tay vào là kiểm soát, tay ra là tốc độ - hãy chọn một cách khôn ngoan.",
-    "Guillotine là một cuộc đấu tranh giành tư thế, thắng thế, thắng nghẹt thở."
+    "Guillotine là một cuộc đấu tranh giành posture, thắng posture là thắng choke."
   ],
   "safetySummary": [
-    "Guillotine nén cổ, áp dụng dần dần và thả ra khi nhấn.",
-    "Không quay đầu đối phương về phía trước - Guillotine sạch sẽ là nghẹt thở chứ không phải gập cổ.",
-    "Chạm sớm nếu bạn cảm thấy áp lực lên cột sống cổ - một số biến thể Guillotine có thể gây chấn thương cổ."
+    "Guillotine nén cổ, áp dụng dần dần và thả ra khi tap.",
+    "Không quay đầu đối phương về phía trước - Guillotine sạch sẽ là choke chứ không phải neck crank.",
+    "Tap sớm nếu bạn cảm thấy áp lực lên cột sống cổ - một số biến thể Guillotine có thể gây chấn thương cổ."
   ],
   "systemLogic": {
     "corePrinciple": "Front Headlock hoặc Guard: nắm chặt Guillotine (sâu cổ tay, siết chặt khuỷu tay) → cắt góc (bước sang một bên) → siết chặt bằng ngực và cánh tay.",
@@ -106,12 +106,12 @@
     "exitStrategies": []
   },
   "moneyDetails": [
-    "Cánh tay bị nghẹn phải sâu - cổ tay của bạn phải chạm vào cột sống cổ của họ, không chỉ một bên cổ của họ.",
+    "Cánh tay choke phải sâu - cổ tay của bạn phải chạm vào cột sống cổ của họ, không chỉ một bên cổ của họ.",
     "Khuỷu tay của bạn phải ôm chặt vào cơ thể - khuỷu tay loe ra giúp họ có không gian để thực hiện tư thế.",
     "Cắt góc bằng cách bước sang một bên đầu của họ - góc 45 độ là lý tưởng.",
-    "Siết chặt bằng ngực và vai, không chỉ bằng cánh tay - áp lực vào ngực sẽ tạo ra cảm giác nghẹt thở chặt hơn."
+    "Siết chặt bằng ngực và vai, không chỉ bằng cánh tay - áp lực vào ngực sẽ tạo ra cảm giác choke chặt hơn."
   ],
-  "nextStep": "Sau hệ thống Guillotine, hãy tìm hiểu các biến thể Guillotine và Marcelotine dành cho cổ tay cao.",
+  "nextStep": "Sau hệ thống Guillotine, hãy tìm hiểu các biến thể High Wrist Guillotine và Marcelotine.",
   "fixItFast": [
     "Cổ tay quá nông? Trượt sâu hơn - cổ tay phải ở cột sống của họ chứ không phải da.",
     "Họ cứ làm ra vẻ thế à? Bước xa hơn sang một bên - góc này phá vỡ tư thế của họ.",

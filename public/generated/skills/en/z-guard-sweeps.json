@@ -16,7 +16,7 @@
     "deep half",
     "waiter sweep",
     "wrestle-up",
-    "knee shield"
+    "Knee Shield"
   ],
   "relatedSkills": [
     {
@@ -63,11 +63,11 @@
     "hasStateMachine": false
   },
   "locale": "en",
-  "description": "Use the knee shield (Z-Guard) and underhook to create deep half entries, waiter sweeps, or wrestle-up opportunities from the bottom Half Guard.",
-  "shortInstruction": "Knee shield, underhook, feel their weight, slide into deep half or sweep from Z-Guard.",
-  "summary": "Z-Guard (knee shield) is the control position; sweeps are the payoff. From Z-Guard, your knee shield creates distance while you fight for the underhook. Once you win the underhook, you have three main sweep options: slide into deep half (when they drive forward), hit the waiter sweep (when they stand), or wrestle up (when they back away). The Z-Guard to deep half transition is one of the highest percentage sweep chains in no-gi.",
+  "description": "Use the Knee Shield (Z-Guard) and underhook to create deep half entries, waiter sweeps, or wrestle-up opportunities from the bottom Half Guard.",
+  "shortInstruction": "Knee Shield, underhook, feel their weight, slide into deep half or sweep from Z-Guard.",
+  "summary": "Z-Guard (Knee Shield) is the control position; sweeps are the payoff. From Z-Guard, your Knee Shield creates distance while you fight for the underhook. Once you win the underhook, you have three main sweep options: slide into deep half (when they drive forward), hit the waiter sweep (when they stand), or wrestle up (when they back away). The Z-Guard to deep half transition is one of the highest percentage sweep chains in no-gi.",
   "whyItWorks": [
-    "The knee shield prevents chest pressure, giving you time to find the underhook.",
+    "The Knee Shield prevents chest pressure, giving you time to find the underhook.",
     "Winning the underhook gives you the control point to enter deep half, without it, deep half is impossible.",
     "Your bottom Half Guard sweeps exploit their forward momentum, the harder they drive, the easier the sweep.",
     "Danaher principle: Half Guard sweeps are not about strength, they are about weight timing and angle."
@@ -90,7 +90,7 @@
     "If they stack you during the sweep, bail out and reset, do not let them drive your head into the mat."
   ],
   "systemLogic": {
-    "corePrinciple": "Z-Guard (knee shield) → win underhook → read their weight → choose sweep.",
+    "corePrinciple": "Z-Guard (Knee Shield) → win underhook → read their weight → choose sweep.",
     "decisionTree": [
       {
         "condition": "Reaction 1: They drive forward",

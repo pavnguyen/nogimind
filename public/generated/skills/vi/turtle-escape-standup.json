@@ -64,20 +64,20 @@
     "hasStateMachine": false
   },
   "locale": "vi",
-  "description": "Thoát khỏi tư thế con Tư thế rùa bằng cách tránh để lộ lưng, tạo chân đế và đứng ở tư thế trung lập.",
+  "description": "Thoát khỏi Turtle bằng cách tránh để lộ lưng, tạo chân đế và đứng ở tư thế trung lập.",
   "shortInstruction": "Bảo vệ cổ của bạn, trụ bằng một tay, đặt đầu gối bên dưới và đứng dậy kỹ thuật để đối mặt với đối thủ.",
-  "summary": "Tư thế rùa thoát hiểm để đứng lên sử dụng trình tự đứng lên kỹ thuật để chuyển từ Tư thế rùa phòng thủ sang tư thế đứng trung lập hoặc giao tranh mà không cần lùi lại. Hệ thống ưu tiên vị trí đặt tay và thời gian đầu gối hơn là lăn nổ.",
+  "summary": "Thoát Turtle để đứng lên sử dụng trình tự Technical Stand-Up để chuyển từ Turtle phòng thủ sang tư thế đứng trung lập hoặc giao tranh mà không cần lùi lại. Hệ thống ưu tiên vị trí đặt tay và thời gian đầu gối hơn là lăn nổ.",
   "whyItWorks": [
-    "Con Tư thế rùa bảo vệ lưng nhưng cũng nhốt bạn trong tư thế phòng thủ - một lối thoát đứng sẽ giữ lại trạng thái trung lập mà không để lộ lưng",
+    "Turtle bảo vệ lưng nhưng cũng nhốt bạn trong tư thế phòng thủ - một lối thoát đứng sẽ giữ lại trạng thái trung lập mà không để lộ lưng",
     "Post bằng một tay tạo ra chân đế giúp đối phương không thể lăn bạn qua đường vai của bạn",
-    "Trình tự đứng lên kỹ thuật có hiệu quả về mặt cơ sinh học - nó sử dụng các nhóm cơ mạnh nhất của bạn (mông, cơ tứ đầu) để nâng trọng lượng của bạn",
+    "Trình tự Technical Stand-Up có hiệu quả về mặt cơ sinh học - nó sử dụng các nhóm cơ mạnh nhất của bạn (mông, cơ tứ đầu) để nâng trọng lượng của bạn",
     "Đối mặt với đối thủ trong khi đứng lên sẽ khiến họ không thể lùi lại khi bạn đứng lên"
   ],
   "commonMistakes": [
     "Ngồi lùi lại Guard thay vì đứng lên, điều này làm mất vị trí hàng đầu và đặt lại vị trí yếu hơn",
     "Đặt cả hai tay phẳng khi cố gắng đứng - điều này khiến không có cánh tay để bảo vệ lưng",
     "Quay lưng lại với đối thủ khi đứng lên (để lộ lưng) thay vì đứng thẳng",
-    "Cố gắng bùng nổ thay vì sử dụng kỹ thuật đứng lên có kiểm soát, tuần tự"
+    "Cố gắng bùng nổ thay vì sử dụng Technical Stand-Up có kiểm soát, tuần tự"
   ],
   "coachingCues": [
     "Một tay trụ, một tay đánh",
@@ -87,14 +87,14 @@
   "safetySummary": [
     "Đừng chống cự lại cú đánh mạnh đến mức bạn có thể bị vẹo cổ hoặc bị nghẹn - thà thủng lưới và thoát ra ngoài còn hơn là bị nghẹn",
     "Nếu đối thủ có seatbelt chặt chẽ, hãy ưu tiên đánh tay trước khi cố gắng đứng lên",
-    "Granby lăn để thoát Tư thế rùa có thể bị thương ở cổ nếu thực hiện mà không có sự kiểm soát đầu - hãy sử dụng tư thế đứng như một giải pháp thay thế an toàn hơn"
+    "Granby lăn để thoát Turtle có thể bị thương ở cổ nếu thực hiện mà không có sự kiểm soát đầu - hãy sử dụng tư thế đứng như một giải pháp thay thế an toàn hơn"
   ],
   "systemLogic": {
-    "corePrinciple": "Quá trình thoát ra khỏi tư thế đứng của Tư thế rùa tuân theo trình tự năm bước: bảo vệ cổ → trụ một tay → chèn đầu gối → tư thế đứng kỹ thuật → giao chiến",
+    "corePrinciple": "Trình tự thoát Turtle để đứng lên tuân theo năm bước: bảo vệ cổ → trụ một tay → chèn đầu gối → Technical Stand-Up → giao chiến",
     "decisionTree": [
       {
         "condition": "Ở Bước 1 (Nhận thức)",
-        "action": "nhận biết mình đang ở thế Tư thế rùa và đối thủ ở trên. Đây là một vị trí phòng thủ - mục tiêu của bạn là thoát chứ không phải ở lại"
+        "action": "nhận biết mình đang ở Turtle và đối thủ ở trên. Đây là một vị trí phòng thủ - mục tiêu của bạn là thoát chứ không phải ở lại"
       },
       {
         "condition": "Ở Bước 2 (Khung)",
@@ -116,13 +116,13 @@
     "exitStrategies": []
   },
   "moneyDetails": [
-    "Tư thế rùa đứng là một kỹ năng có nguồn gốc từ đấu vật được dịch trực tiếp sang BJJ, đây là cách thoát an toàn nhất và tiết kiệm năng lượng nhất của Tư thế rùa",
-    "Sử dụng giá đỡ thay vì lăn từ Tư thế rùa sẽ giúp bạn không bị đè bẹp bởi những người cản sau có kinh nghiệm",
-    "Một con Tư thế rùa đứng lên nhanh chóng chuyển sang cơ hội hạ gục (chân đơn, chân đôi) thay vì để thủng lưới ở vị trí cuối bảng"
+    "Đứng lên từ Turtle là một kỹ năng có nguồn gốc từ đấu vật được chuyển trực tiếp sang BJJ, đây là cách thoát an toàn nhất và tiết kiệm năng lượng nhất từ Turtle",
+    "Sử dụng giá đỡ thay vì lăn từ Turtle sẽ giúp bạn không bị đè bẹp bởi những người cản sau có kinh nghiệm",
+    "Một cú thoát Turtle để đứng lên nhanh chóng mở sang cơ hội takedown (Single Leg, Double Leg) thay vì để thủng lưới ở vị trí cuối bảng"
   ],
   "fixItFast": [
-    "Nếu họ khóa một cơ thể Triangle khi bạn đang ở trong Tư thế rùa: đừng hoảng sợ, hãy bảo vệ cổ của bạn, quỳ xuống và lột phần chân trên ra bằng cách hơi ngả người ra sau",
-    "Nếu họ cứ kéo bạn nằm bẹp mỗi khi bạn đăng bài: hãy thay đổi vị trí đặt tay của bạn sang tư thế thẳng đứng hơn (đầu ngón tay chứ không phải lòng bàn tay phẳng) và nâng hông của bạn cao hơn trước khi đứng",
-    "Nếu họ đuổi theo phía sau khi bạn đứng: thả hông gần của bạn xuống, đối mặt trực tiếp với họ và vòng ra khỏi cánh tay đang nghẹt thở của họ"
+    "Nếu họ khóa một Body Triangle khi bạn đang ở trong Turtle: đừng hoảng sợ, hãy bảo vệ cổ của bạn, quỳ xuống và lột phần chân trên ra bằng cách hơi ngả người ra sau",
+    "Nếu họ cứ kéo bạn nằm bẹp mỗi khi bạn post: hãy thay đổi vị trí đặt tay của bạn sang tư thế thẳng đứng hơn (đầu ngón tay chứ không phải lòng bàn tay phẳng) và nâng hông của bạn cao hơn trước khi đứng",
+    "Nếu họ đuổi theo phía sau khi bạn đứng: thả hông gần của bạn xuống, đối mặt trực tiếp với họ và vòng ra khỏi cánh tay đang choke của họ"
   ]
 }

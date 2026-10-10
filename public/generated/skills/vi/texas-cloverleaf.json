@@ -3,7 +3,7 @@
   "domain": "submission_systems",
   "level": "advanced",
   "status": "draft",
-  "name": "Lá cỏ ba lá Texas",
+  "name": "Texas Cloverleaf",
   "aliases": [],
   "tags": [
     "texas-cloverleaf",
@@ -48,9 +48,9 @@
   "nextSkillIds": [],
   "searchBoost": 1,
   "keyCorrections": [
-    "Nếu bạn không thể tìm thấy gót chân, góc tiếp đất của bạn quá nông - hãy điều chỉnh vị trí chân của bạn.",
-    "Nếu họ quay ra ngoài, bạn sẽ mất khả năng kiểm soát chân xa - hãy thiết lập lại khả năng kiểm soát chân phụ.",
-    "Nếu họ xếp chồng lên bạn, hãy thả ra và đặt lại - đừng chống lại chồng từ vị trí này."
+    "Nếu không tìm thấy gót chân, góc Knee Reaping của bạn quá nông - chỉnh lại vị trí chân.",
+    "Nếu họ xoay thoát, bạn mất kiểm soát chân xa - lập lại kiểm soát chân phụ.",
+    "Nếu họ stack bạn, nhả ra và thiết lập lại - đừng chống lại từ tư thế này."
   ],
   "version": 1,
   "updatedAt": "2026-05-21T00:24:30.772Z",
@@ -64,58 +64,58 @@
     "hasStateMachine": false
   },
   "locale": "vi",
-  "description": "Heel Hook từ vị trí gặt với cấu hình chân độc đáo tạo ra áp lực quay trực tiếp lên đầu gối, được các chuyên gia khóa chân phổ biến trong No-Gi.",
-  "shortInstruction": "Thu gọn chân, điều khiển chân xa, xoay gót chân - Texas Cloverleaf là Heel Hook với một góc độc đáo so với vị trí thu.",
-  "summary": "Texas Cloverleaf là một biến thể Heel Hook sử dụng tư thế thu chân để tấn công đầu gối bằng áp lực xoay trực tiếp. Cái tên 'cỏ ba lá' xuất phát từ cách hai chân quấn vào nhau giống như cỏ bốn lá. Đây là một đòn đệ trình chuyên biệt có hiệu quả nhất từ ​​các cấu hình vướng chân cụ thể và thường được sử dụng như một đòn tấn công bất ngờ từ các vị trí không có Heel Hook tiêu chuẩn.",
+  "description": "Heel Hook từ tư thế Knee Reaping với cấu hình chân độc đáo, tạo áp lực xoay trực tiếp lên đầu gối, được các chuyên gia khóa chân phổ biến trong no-gi.",
+  "shortInstruction": "Đưa chân vào Knee Reaping, kiểm soát chân xa, xoay gót chân - Texas Cloverleaf là Heel Hook với góc độc đáo từ tư thế Knee Reaping.",
+  "summary": "Texas Cloverleaf là một biến thể Heel Hook dùng tư thế Knee Reaping để tấn công đầu gối bằng áp lực xoay trực tiếp. Cái tên 'cloverleaf' xuất phát từ cách hai chân quấn vào nhau như cỏ bốn lá. Đây là một submission chuyên biệt, hiệu quả nhất từ những cấu hình vướng chân cụ thể và thường được dùng làm đòn bất ngờ ở những vị trí không có Heel Hook tiêu chuẩn.",
   "whyItWorks": [
-    "Vị trí gặt tạo ra một góc độc đáo mà tiêu chuẩn Heel Hook không bao gồm được.",
+    "Tư thế Knee Reaping tạo ra một góc độc đáo mà Heel Hook tiêu chuẩn không có.",
     "Cấu hình chân bẫy chân xa của đối phương, khiến họ không thể lăn để thoát.",
-    "Nó có thể được nhập từ các vị trí không có Saddle.",
-    "Nguyên tắc của Danaher: mỗi đòn tấn công bằng chân phải có một sợi dây xích - Texas Cloverleaf là sợi dây xích từ gặt hái."
+    "Có thể vào từ những vị trí không có Saddle.",
+    "Nguyên tắc Danaher: mỗi đòn chân phải có một chuỗi - Texas Cloverleaf là mắt xích từ Knee Reaping."
   ],
   "commonMistakes": [
-    "Áp dụng Heel Hook trước khi thiết lập hoàn toàn sự vướng chân, vị trí thu phải chắc chắn.",
-    "Không kiểm soát được chân phụ - họ sẽ lao ra ngoài.",
-    "Sử dụng quá nhiều vòng quay quá nhanh - Heel Hook giây từ các vị trí thu hoạch đặc biệt nguy hiểm.",
-    "Thử chơi Texas Cloverleaf mà không có nền tảng cơ bản Heel Hook vững chắc."
+    "Siết Heel Hook trước khi thiết lập xong vướng chân - tư thế Knee Reaping phải chắc đã.",
+    "Không kiểm soát chân phụ của họ - họ sẽ xoay thoát.",
+    "Xoay quá nhiều và quá nhanh - Heel Hook từ tư thế Knee Reaping đặc biệt nguy hiểm.",
+    "Thử Texas Cloverleaf khi chưa có nền tảng Heel Hook vững."
   ],
   "coachingCues": [
-    "Gạt sâu, khống chế chân xa, xoay người an toàn.",
-    "Texas Cloverleaf là một lớp hoàn thiện chuyên dụng, trước tiên hãy nắm vững tiêu chuẩn Heel Hook.",
-    "Nếu bạn không thể tìm thấy gót chân, hãy điều chỉnh góc tiếp đất.",
-    "Xoay chậm, hoàn thiện có kiểm soát."
+    "Vào Knee Reaping sâu, kiểm soát chân xa, xoay an toàn.",
+    "Texas Cloverleaf là đòn kết thúc chuyên biệt - nắm Heel Hook tiêu chuẩn trước đã.",
+    "Không tìm thấy gót chân thì chỉnh góc Knee Reaping.",
+    "Xoay chậm, kết thúc có kiểm soát."
   ],
   "safetySummary": [
-    "Texas Cloverleaf tác dụng lực quay lên đầu gối - đây là một động tác phục tùng nguy hiểm.",
-    "KHÔNG BAO GIỜ áp dụng bài nộp này một cách bùng nổ.",
-    "Chỉ thực hiện việc gửi bài này với các đối tác đào tạo đáng tin cậy, những người hiểu rõ về cơ chế khóa chân.",
-    "Chạm vào BẤT KỲ cảm giác khó chịu khi xoay đầu gối nào - đừng chờ đợi cơn đau.",
-    "Không thích hợp cho người mới bắt đầu - yêu cầu hiểu biết khóa chân nâng cao."
+    "Texas Cloverleaf tạo lực xoay lên đầu gối - đây là một submission nguy hiểm.",
+    "KHÔNG BAO GIỜ siết đòn này một cách bùng nổ.",
+    "Chỉ tập đòn này với bạn tập tin cậy, người hiểu cơ chế khóa chân.",
+    "Tap ngay khi đầu gối thấy bất kỳ khó chịu nào khi xoay - đừng chờ đến lúc đau.",
+    "Không phù hợp cho người mới - đòi hỏi hiểu biết khóa chân nâng cao."
   ],
   "systemLogic": {
-    "corePrinciple": "Quấn chân: vị trí thu gọn → điều khiển chân xa → tìm gót chân → căn chỉnh xoay → tạo áp lực Heel Hook chậm.",
+    "corePrinciple": "Vướng chân: tư thế Knee Reaping → kiểm soát chân xa → tìm gót chân → chỉnh trục xoay → siết Heel Hook chậm.",
     "decisionTree": [
       {
         "condition": "Ứng dụng chung",
-        "action": "Texas Cloverleaf là một biến thể nâng cao, chỉ nên thử sau khi nắm vững tiêu chuẩn bên trong Heel Hook."
+        "action": "Texas Cloverleaf là biến thể nâng cao, chỉ nên thử sau khi đã nắm inside Heel Hook tiêu chuẩn."
       },
       {
-        "condition": "họ bảo vệ Heel Hook",
-        "action": "chuyển sang tiêu chuẩn Saddle Heel Hook."
+        "condition": "Họ phòng Heel Hook",
+        "action": "chuyển sang Heel Hook tiêu chuẩn từ Saddle."
       }
     ],
     "exitStrategies": []
   },
   "moneyDetails": [
-    "Chân gặt phải ở tư thế gặt sâu - chân của bạn móc chân của họ từ bên trong, vượt qua đường đầu gối.",
-    "Kiểm soát chân xa của họ bằng cách kẹp nó vào giữa hai chân của bạn hoặc tóm lấy mắt cá chân của họ.",
-    "Cách cầm Heel Hook là tiêu chuẩn: một tay đặt trên gót chân, một tay đặt trên ngón chân.",
-    "Xoay chậm - kết thúc là áp lực được kiểm soát chứ không phải tốc độ."
+    "Chân Knee Reaping phải ở tư thế sâu - chân bạn móc chân họ từ bên trong, vượt qua Knee Line.",
+    "Kiểm soát chân xa của họ bằng cách kẹp giữa hai chân bạn hoặc nắm cổ chân họ.",
+    "Grip Heel Hook theo chuẩn: một tay trên gót chân, một tay trên ngón chân.",
+    "Xoay chậm - kết thúc là áp lực có kiểm soát, không phải tốc độ."
   ],
-  "nextStep": "Sau Texas Cloverleaf, hãy nắm vững tiêu chuẩn bên trong Heel Hook từ Saddle.",
+  "nextStep": "Sau Texas Cloverleaf, nắm vững inside Heel Hook tiêu chuẩn từ Saddle.",
   "fixItFast": [
-    "Không thể tìm thấy gót chân? Điều chỉnh góc thu hoạch của bạn.",
-    "Họ quay ra? Kiểm soát chân xa của họ mạnh mẽ hơn.",
-    "Cảm thấy kháng cự? Thả ra và nhập lại - đừng ép buộc."
+    "Không tìm thấy gót chân? Chỉnh góc Knee Reaping của bạn.",
+    "Họ xoay thoát? Kiểm soát chân xa của họ mạnh hơn.",
+    "Thấy kháng cự? Nhả ra và vào lại - đừng ép."
   ]
 }

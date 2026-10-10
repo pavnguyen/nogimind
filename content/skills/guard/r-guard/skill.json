@@ -1,0 +1,66 @@
+{
+  "id": "r-guard",
+  "domain": "guard_offense",
+  "level": "advanced",
+  "name": "R-Guard",
+  "aliases": [
+    "Reverse Guard",
+    "R Guard",
+    "reverse De La Riva no-gi"
+  ],
+  "tags": [
+    "Guard",
+    "reverse-de-la-riva",
+    "tier:modern-expansion",
+    "meta:modern-common",
+    "risk:medium",
+    "family:guard",
+    "modern-no-gi"
+  ],
+  "keywords": [
+    "R-Guard",
+    "Reverse Guard",
+    "De La Riva",
+    "headquarters",
+    "staple",
+    "cross ashi"
+  ],
+  "relatedSkills": [
+    {
+      "id": "reverse-de-la-riva-transitions",
+      "type": "recommended"
+    },
+    {
+      "id": "de-la-riva-sweeps",
+      "type": "supporting"
+    },
+    {
+      "id": "k-guard-entry",
+      "type": "chain"
+    },
+    {
+      "id": "false-reap-entry",
+      "type": "chain"
+    }
+  ],
+  "prerequisiteSkillIds": [
+    "de-la-riva-sweeps",
+    "seated-guard-retention"
+  ],
+  "relatedPositions": [],
+  "relatedConcepts": [],
+  "archetypeIds": [
+    "Guard-retention-specialist"
+  ],
+  "trainingMethodIds": [],
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "updatedAt": "2026-10-10T00:00:00.000Z"
+}

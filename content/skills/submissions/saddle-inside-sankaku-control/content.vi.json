@@ -1,10 +1,10 @@
 {
   "id": "saddle-inside-sankaku-control",
   "locale": "vi",
-  "name": "Saddle / Inside Sankaku Kiểm soát",
+  "name": "Saddle / Inside Sankaku Control",
   "description": "Saddle (Inside Sankaku) là một trong những tư thế vướng chân mạnh nhất, nó kiểm soát đường hông và đầu gối của đối phương nhưng đòi hỏi phải chiến đấu bằng tay rõ ràng và nhận thức an toàn để duy trì và kết thúc.",
   "shortInstruction": "Bắt chéo chân, đặt chân lên hông, đánh tay rõ ràng - Saddle là vua của những pha vướng chân.",
-  "summary": "Saddle (Inside Sankaku) là vị trí vướng chân chiếm ưu thế nhất trong No-Gi. Hai chân của bạn bắt chéo qua cơ thể đối phương (một chân đặt trên bụng họ, chân còn lại móc vào chân xa của họ), với bàn chân của bạn đặt trên hông họ. Từ Saddle, bạn điều khiển cả chuyển động xoay hông và đường đầu gối của họ, khiến họ cực kỳ khó thoát ra. Cuộc tấn công chính diễn ra bên trong Heel Hook, nhưng Saddle cũng cho phép bạn truy cập vào các đòn tấn công lùi và quét.",
+  "summary": "Saddle (Inside Sankaku) là vị trí vướng chân chiếm ưu thế nhất trong No-Gi. Hai chân của bạn bắt chéo qua cơ thể đối phương (một chân đặt trên bụng họ, chân còn lại móc vào chân xa của họ), với bàn chân của bạn đặt trên hông họ. Từ Saddle, bạn điều khiển cả chuyển động xoay hông và đường đầu gối của họ, khiến họ cực kỳ khó thoát ra. Cuộc tấn công chính diễn ra bên trong Heel Hook, nhưng Saddle cũng cho phép bạn truy cập vào Back Take và sweep.",
   "whyItWorks": [
     "Vị trí của chân tạo ra một cái lồng xung quanh cơ thể họ - họ không thể lăn hoặc quay mà không mang theo trọng lượng của bạn.",
     "Bàn chân đặt trên hông kiểm soát khoảng cách của họ và ngăn cản họ thực hiện tư thế.",
@@ -26,7 +26,7 @@
   "safetySummary": [
     "Saddle là sự vướng víu ở chân - Heel Hook từ Saddle có thể gây chấn thương đầu gối nghiêm trọng.",
     "Không bao giờ áp dụng Heel Hook từ Saddle mà không kiểm soát hông xa của họ.",
-    "Thiết lập các giao thức chạm rõ ràng cho các đòn tấn công bằng chân trước khi tập luyện.",
+    "Thiết lập giao thức tap rõ ràng cho các đòn tấn công bằng chân trước khi tập luyện.",
     "Giải phóng ngay lập tức bất kỳ dấu hiệu khó chịu nào ở đầu gối từ đối tác tập luyện của bạn."
   ],
   "keyCorrections": [
@@ -39,11 +39,11 @@
     "decisionTree": [
       {
         "condition": "họ quay đầu để thoát khỏi Heel Hook",
-        "action": "chuyển sang quay lại."
+        "action": "chuyển sang Back Take."
       },
       {
-        "condition": "họ xếp chồng lên nhau",
-        "action": "giải phóng và nhập lại, không đấu tranh với ngăn xếp từ Saddle."
+        "condition": "họ stack bạn",
+        "action": "giải phóng và vào lại, không đấu tranh với stack từ Saddle."
       }
     ]
   },
@@ -53,7 +53,7 @@
     "Đánh nhau bằng tay để kiểm soát bàn tay của họ - hãy nắm chặt tay áo hoặc cổ tay ở xa của họ bằng tay trên của bạn.",
     "Kết thúc Heel Hook: xoay hông về phía thảm trong khi kéo gót chân của họ về phía bạn, xoay hông ra ngoài là kết thúc."
   ],
-  "nextStep": "Sau khi điều khiển Saddle, hãy tìm hiểu phần hoàn thiện bên trong Heel Hook và Saddle để quay lại quá trình chuyển đổi.",
+  "nextStep": "Sau khi điều khiển Saddle, hãy tìm hiểu phần hoàn thiện bên trong Heel Hook và chuyển đổi Back Take từ Saddle.",
   "fixItFast": [
     "Họ cứ quay hoài à? Siết chặt lồng chân của bạn và kiểm soát hông xa của họ.",
     "Không thể tìm thấy gót chân? Leo cao hơn trên chân của họ.",

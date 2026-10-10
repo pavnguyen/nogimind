@@ -2,9 +2,9 @@
   "id": "thunder-lock",
   "locale": "vi",
   "name": "Thunder Lock / Khóa vai Further Nelson",
-  "description": "Thunder Lock là một đòn khóa vai áp dụng từ thế kiểm soát lưng. Bạn móc khuỷu tay đối thủ và đẩy ra sau đầu họ, khóa hai tay bạn vào nhau giữa đầu và cánh tay bị bắt, kẹp cằm lên cổ tay họ, rồi kéo cánh tay ngang qua và xuống trong khi Body Triangle giữ cột sống họ cố định. Về mặt cơ học đây là một Further Nelson: đúng thế khóa dùng để phá thế Tư thế rùa, nhưng áp dụng từ phía sau lưng. Đòn nhắm thẳng vào phòng thủ 'answer the phone' phổ biến, nên nó nối tự nhiên với siết cổ sau (RNC), Rear Triangle và Armbar.",
+  "description": "Thunder Lock là một đòn khóa vai áp dụng từ thế kiểm soát lưng. Bạn móc khuỷu tay đối thủ và đẩy ra sau đầu họ, khóa hai tay bạn vào nhau giữa đầu và cánh tay bị bắt, kẹp cằm lên cổ tay họ, rồi kéo cánh tay ngang qua và xuống trong khi Body Triangle giữ cột sống họ cố định. Về mặt cơ học đây là một Further Nelson: đúng thế khóa dùng để phá Turtle, nhưng áp dụng từ phía sau lưng. Đòn nhắm thẳng vào phòng thủ 'answer the phone' phổ biến, nên nó nối tự nhiên với Rear Naked Choke (RNC), Rear Triangle và Armbar.",
   "shortInstruction": "Từ kiểm soát lưng với Body Triangle, móc khuỷu tay họ và đẩy ra sau đầu, khóa hai tay vào nhau giữa đầu và cánh tay, kẹp cằm lên cổ tay họ, rồi kéo khuỷu tay ngang qua và xuống trong khi Body Triangle kéo giãn cột sống họ.",
-  "summary": "Thunder Lock là đòn khóa vai từ thế kiểm soát lưng, về cơ học là một Further Nelson, ép cánh tay đối thủ ra sau đầu và bẻ vai vào thế xoay và duỗi quá mức. Nó trừng phạt phòng thủ 'answer the phone' và nối chuỗi với siết cổ sau, Rear Triangle và Armbar.",
+  "summary": "Thunder Lock là đòn khóa vai từ thế kiểm soát lưng, về cơ học là một Further Nelson, ép cánh tay đối thủ ra sau đầu và bẻ vai vào thế xoay và duỗi quá mức. Nó trừng phạt phòng thủ 'answer the phone' và nối chuỗi với Rear Naked Choke, Rear Triangle và Armbar.",
   "whyItWorks": [
     "Đây là một Further Nelson áp dụng từ phía lưng: khóa hai tay vào nhau giữa đầu và cánh tay bị bắt biến cột sống và cổ họ thành điểm tựa, nên kéo cánh tay sẽ bẻ vai họ vượt tầm vận động",
     "Chính phòng thủ siết cổ của họ nạp đòn cho bạn, khi họ nâng khuỷu tay lên 'answer the phone', khuỷu đã đi được nửa đường, bạn chỉ cần móc nó ra sau đầu",
@@ -35,13 +35,13 @@
   "keyCorrections": [
     "Nếu họ kéo tay ra: cằm bạn chưa chặn cổ tay, kẹp cằm lên cổ tay họ trước khi kéo khuỷu",
     "Nếu họ xoay người: Body Triangle hoặc hông bạn lỏng, khóa lại hông trước khi tấn công lại",
-    "Nếu khuỷu tay không ra sau đầu được: họ đang giữ khuỷu sát, tấn công siết cổ sau để ép khuỷu mở ra, rồi vào lại đòn"
+    "Nếu khuỷu tay không ra sau đầu được: họ đang giữ khuỷu sát, tấn công Rear Naked Choke để ép khuỷu mở ra, rồi vào lại đòn"
   ],
   "systemLogic": {
     "corePrinciple": "Thunder Lock: thiết lập kiểm soát lưng với Body Triangle → để hoặc ép họ 'answer the phone' (khuỷu tay nâng lên) → móc khuỷu tay ra sau đầu họ → khóa hai tay vào nhau giữa đầu và cánh tay bị bắt → kẹp cằm lên cổ tay họ → kéo khuỷu tay ngang qua và xuống trong khi Body Triangle kéo giãn cột sống họ. Vai bị bẻ vượt tầm vận động vì cả hông lẫn cổ đều đã bị ghim.",
     "decisionTree": [
       {
-        "condition": "Họ phòng thủ siết cổ sau bằng cách 'answer the phone' (khuỷu cao)",
+        "condition": "Họ phòng thủ Rear Naked Choke bằng cách 'answer the phone' (khuỷu cao)",
         "action": "móc khuỷu tay ra sau đầu và khóa Thunder Lock"
       },
       {
@@ -62,20 +62,20 @@
       }
     ],
     "exitStrategies": [
-      "Khi đòn bế tắc, thả và quay lại đe dọa siết cổ sau",
+      "Khi đòn bế tắc, thả và quay lại đe dọa Rear Naked Choke",
       "Khi họ chống cánh tay, nối sang Armbar hoặc Rear Triangle",
       "Khi mất hông, ngừng tấn công và giành lại kiểm soát lưng"
     ]
   },
   "moneyDetails": [
-    "Thunder Lock là khóa vai từ thế lưng và về cơ học là một Further Nelson, đó là lý do cộng đồng tranh cãi tên gọi; đây đúng là thế khóa dùng để phá thế Tư thế rùa, áp dụng từ phía sau",
+    "Thunder Lock là khóa vai từ thế lưng và về cơ học là một Further Nelson, đó là lý do cộng đồng tranh cãi tên gọi; đây đúng là thế khóa dùng để phá Turtle, áp dụng từ phía sau",
     "Nắm ở khuỷu tay: khuỷu là đòn bẩy, bàn tay chỉ là tay cầm",
     "Body Triangle là thứ khiến đòn hoạt động, nó giữ hông để vai không thể được giải tỏa",
-    "Đòn nhắm vào phòng thủ 'answer the phone', nên nối chuỗi với siết cổ sau và Rear Triangle",
+    "Đòn nhắm vào phòng thủ 'answer the phone', nên nối chuỗi với Rear Naked Choke và Rear Triangle",
     "Được phổ biến trong thi đấu no-gi hiện đại và lưu hành trong giới 10th Planet"
   ],
   "fixItFast": [
-    "Nếu tay không gập được: tấn công siết cổ sau trước - siết cổ ép khuỷu mở ra",
+    "Nếu tay không gập được: tấn công Rear Naked Choke trước - đòn này ép khuỷu mở ra",
     "Nếu họ xoay người: khóa lại Body Triangle trước khi tấn công lại",
     "Nếu họ giấu cổ tay: dùng cằm bẫy nó, rồi kéo khuỷu",
     "Nếu tay bạn tuột: khóa lại giữa đầu và cánh tay - đuổi theo khuỷu, không phải cổ tay"

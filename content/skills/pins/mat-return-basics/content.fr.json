@@ -4,7 +4,7 @@
   "name": "mat return Notions de Base",
   "description": "Ramenez l'adversaire en toute sécurité sur le tapis lorsqu'il se tient debout sur une seule jambe, un Bodylock ou une tortue. Le mat return est une compétence de lutte critique qui empêche l'adversaire de s'échapper en se levant.",
   "shortInstruction": "Maintenez la prise de la jambe (simple ou Bodylock), enfoncez votre épaule dans sa hanche, élevez la jambe coincée et conduisez-la vers le tapis sur sa hanche ou son dos. Protégez la position de votre tête partout.",
-  "summary": "Le mat return est le processus consistant à ramener un adversaire debout sur le tapis après avoir sécurisé une jambe simple, une jambe double ou un verrou corporel. Cela nécessite trois éléments : une prise sûre qui les empêche de s'échapper, une élévation de la jambe coincée pour retirer leur base et un mouvement de conduite qui les fait atterrir sur la hanche ou sur le dos. Le mat return est essentiel pour empêcher les tortues de s'échapper en position debout et le Half Guard.",
+  "summary": "Le mat return est le processus consistant à ramener un adversaire debout sur le tapis après avoir sécurisé un Single Leg, un Double Leg ou un verrou corporel. Cela nécessite trois éléments : une prise sûre qui les empêche de s'échapper, une élévation de la jambe coincée pour retirer leur base et un mouvement de conduite qui les fait atterrir sur la hanche ou sur le dos. Le mat return est essentiel pour empêcher les tortues de s'échapper en position debout et le Half Guard.",
   "whyItWorks": [
     "L'élévation de la jambe coincée supprime un point de leur base, rendant impossible le maintien de la position debout",
     "Enfoncer votre épaule dans leur hanche crée un levier qui fait basculer leur centre de gravité vers l'arrière",
@@ -39,7 +39,7 @@
     "decisionTree": [
       {
         "condition": "En phase 1 (Secure Grip)",
-        "action": "si vous avez une seule jambe, saisissez le genou et amenez la jambe entre vos jambes. En cas de verrouillage du corps, verrouillez vos mains derrière le dos au niveau des hanches. S'il s'agit d'une tortue, fixez la poignée à la taille."
+        "action": "si vous avez un Single Leg, saisissez le genou et amenez la jambe entre vos jambes. En cas de verrouillage du corps, verrouillez vos mains derrière le dos au niveau des hanches. S'il s'agit d'une tortue, fixez la poignée à la taille."
       },
       {
         "condition": "En phase 2 (Élévation)",
@@ -56,7 +56,7 @@
     ]
   },
   "moneyDetails": [
-    "Le mat return est essentiel pour empêcher les fuites en position debout du Half Guard, de la tortue et d'une seule jambe. Sans lui, les adversaires peuvent se lever et se réinitialiser à volonté.",
+    "Le mat return est essentiel pour empêcher les fuites en position debout du Half Guard, de la tortue et d'un Single Leg. Sans lui, les adversaires peuvent se lever et se réinitialiser à volonté.",
     "Maîtriser le mat return vous donne une confiance totale en matière de contrôle : vous savez que vous pouvez les garder sur le tapis.",
     "Un bon mat return marque 2 points de retrait en IBJJF"
   ],

@@ -53,8 +53,8 @@
   "sortOrder": 100,
   "searchBoost": 1.2,
   "keyCorrections": [
-    "Nếu nó trở thành một cú quay mặt, khuỷu tay quá cao - hãy thả nó xuống dưới cằm.",
-    "Nếu họ biến thành bạn, sự tiếp xúc giữa ngực sẽ bị mất - hãy dán lại xương ức vào cột sống.",
+    "Nếu nó thành một neck crank, khuỷu tay quá cao - hãy thả nó xuống dưới cằm.",
+    "Nếu họ quay vào bạn, tiếp xúc ngực sẽ bị mất - hãy dán lại xương ức vào cột sống.",
     "Nếu bị bong tay, hãy chuyển sang đánh tay cao gần đầu."
   ],
   "version": 1,
@@ -71,9 +71,9 @@
   "locale": "vi",
   "name": "Rear Naked Choke",
   "shortName": "RNC",
-  "description": "Tỷ lệ gửi phần trăm cao nhất trong BJJ. Một cơn sặc máu từ Back Control cắt đứt cả hai động mạch cảnh bằng cách đặt cẳng tay qua một bên cổ và đóng bên kia bằng áp lực của ngực và vai.",
+  "description": "Tỷ lệ submission cao nhất trong BJJ. Một blood choke từ Back Control cắt cả hai động mạch cảnh bằng cách đặt cẳng tay qua một bên cổ và đóng bên kia bằng áp lực của ngực và vai.",
   "shortInstruction": "Khuỷu tay dưới cằm, ngực dán vào lưng, tháo chùng rồi siết chặt.",
-  "summary": "Cơ bản nhất No-Gi sặc máu từ Back Control, làm chủ thế đánh tay, đường khuỷu tay và kết nối ngực với lưng.",
+  "summary": "Blood choke cơ bản nhất của No-Gi từ Back Control, làm chủ thế đánh tay, đường khuỷu tay và kết nối ngực với lưng.",
   "whyItWorks": [
     "Cắt đứt cả hai động mạch cảnh khi cẳng tay và vai của đối phương bịt chặt cả hai đường cổ.",
     "Yêu cầu lực tối thiểu khi cấu trúc chính xác - đòn bẩy thay thế sức mạnh.",
@@ -87,7 +87,7 @@
   ],
   "coachingCues": [
     "Khuỷu tay trước, siết chặt sau cùng.",
-    "Ngực dán, không có ánh sáng ban ngày.",
+    "Ngực dán, không còn khe hở.",
     "Thắng tay thì kết thúc.",
     "Thở ra, nhét vào."
   ],
@@ -96,18 +96,18 @@
     "steps": [
       "Khóa seatbelt và dán rương vào lưng họ.",
       "Giành chiến thắng trong cuộc chiến tay đôi - bóc bàn tay phòng thủ của họ ra khỏi cổ.",
-      "Trượt khuỷu tay nghẹt thở dưới đường cằm.",
+      "Trượt khuỷu tay dưới đường cằm.",
       "Loại bỏ tất cả sự chùng xuống trước khi ép.",
-      "Đóng ngực và vai để hoàn thành việc sặc."
+      "Đóng ngực và vai để hoàn thành cú choke."
     ]
   },
   "safetySummary": [
-    "Chạm sớm vào cổ - phân biệt giữa sặc máu và cổ.",
+    "Tap sớm khi bị cổ - phân biệt blood choke với neck crank.",
     "Không vặn hoặc quay cổ để ép hoàn thiện.",
     "Huấn luyện với các đối tác được kiểm soát và giải phóng áp lực ngay lập tức."
   ],
   "systemLogic": {
-    "corePrinciple": "Back Control là nền tảng chứ không phải là điểm kết thúc. Mỗi bước, seatbelt, đánh tay, dây khuỷu tay, tháo dây chùng, phải được hoàn thành theo trình tự trước khi siết chặt.",
+    "corePrinciple": "Back Control là nền tảng chứ không phải là điểm kết thúc. Mỗi bước, seatbelt, đánh tay, đường khuỷu tay, tháo độ chùng, phải được hoàn thành theo trình tự trước khi siết chặt.",
     "decisionTree": [
       {
         "condition": "Một tay bảo vệ đường viền cổ",
@@ -115,29 +115,29 @@
       },
       {
         "condition": "Hai tay bảo vệ cổ",
-        "action": "Chuyển sang cơ thể Triangle hoặc bẫy tay để phá vỡ lớp vỏ phòng thủ của họ trước khi tấn công lại vào cổ."
+        "action": "Chuyển sang body triangle hoặc bẫy tay để phá vỡ lớp vỏ phòng thủ của họ trước khi tấn công lại vào cổ."
       },
       {
-        "condition": "Họ biến thành bạn (ngửa mặt)",
+        "condition": "Họ quay vào bạn (ngửa mặt)",
         "action": "Đưa hông ra sau, thiết lập lại kết nối ngực với lưng và tấn công từ phía đối diện."
       },
       {
-        "condition": "Cánh tay bị nghẹn của bạn ở dưới hàm (tư thế quay tay)",
+        "condition": "Cánh tay đang siết của bạn ở dưới hàm (tư thế xoay người)",
         "action": "Thả và lắp lại cánh tay phía dưới - cẳng tay phải bắt chéo ở đường giữa cổ, không phải dưới hàm."
       },
       {
         "condition": "Họ lột cả hai tay ra khỏi cổ",
-        "action": "Quay lại điều khiển seatbelt, đánh tay lần nữa, không bao giờ đuổi theo cuộn cảm mà không có cấu trúc."
+        "action": "Quay lại điều khiển seatbelt, đánh tay lần nữa, không bao giờ đuổi theo choke mà không có cấu trúc."
       }
     ],
     "exitStrategies": [
-      "Nếu cuộn cảm liên tục bị chặn, hãy chuyển sang bẫy tay và tấn công Armbar hoặc cung tên.",
+      "Nếu choke liên tục bị chặn, hãy chuyển sang bẫy tay và tấn công Armbar hoặc Bow and Arrow.",
       "Nếu họ thoát đến Mount dưới cùng, hãy chuyển sang điều khiển Mount và tấn công từ đó.",
       "Nếu họ lao ra ngoài, hãy tấn công lại bằng Front Headlock hoặc Guillotine khi họ đối mặt với bạn."
     ]
   },
   "moneyDetails": [
-    "Chi tiết khuỷu tay dưới cằm là tất cả mọi thứ - nếu không có nó, bạn sẽ có một tay quay chứ không phải một cuộn cảm.",
+    "Chi tiết khuỷu tay dưới cằm là tất cả mọi thứ - nếu không có nó, bạn sẽ có một neck crank chứ không phải một choke.",
     "Tiếp xúc ngực đối lưng sẽ đóng băng lối thoát của họ trước khi bạn kịp siết chặt.",
     "Loại bỏ sự lỏng lẻo quan trọng hơn việc ép mạnh."
   ],

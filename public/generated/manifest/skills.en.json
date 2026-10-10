@@ -347,7 +347,7 @@
       "frame",
       "knee-shield"
     ],
-    "summary": "North-South escape uses a forearm frame on the hips to create separation, then a knee shield to turn into the opponent and recover Guard. The system is distinct from Side Control escapes because the opponent's weight is aligned along your centerline rather than perpendicular to it.",
+    "summary": "North-South escape uses a forearm frame on the hips to create separation, then a Knee Shield to turn into the opponent and recover Guard. The system is distinct from Side Control escapes because the opponent's weight is aligned along your centerline rather than perpendicular to it.",
     "hasVideos": true,
     "hasMicroDetails": false,
     "hasChecklist": false
@@ -362,6 +362,26 @@
       "decision-making"
     ],
     "summary": "The Positional Hierarchy ranks grappling positions from most vulnerable to most dominant. The system dictates your tactical objective at every position: if you are in a bottom position (worse), your goal is to escape. If you are in a top position (better), your goal is to advance or submit. Every decision you make should be filtered through this hierarchy, do not attempt a submission from a position where you do not have positional dominance first.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "priit-turtle-escapes",
+    "domain": "escapes",
+    "level": "intermediate",
+    "name": "Priit Turtle Escapes",
+    "tags": [
+      "turtle",
+      "escape",
+      "survival",
+      "tier:modern-expansion",
+      "meta:modern-common",
+      "risk:medium",
+      "family:escape",
+      "modern-no-gi"
+    ],
+    "summary": "Priit Mihkelson's turtle work changed how a lot of grapplers read the position. Instead of treating the turtle as a countdown to losing the back, his defensive system treats it as a posture with its own rules: the neck is hidden, the elbows and knees stay connected to the ribs and hips, and the hands never post out into the space that hands the attacker the seatbelt or the first hook. From that posture the escapes are about timing and fundamentals rather than speed, an escape only works when the attacker commits a hand or their weight, and the system is built around reading the mistakes attackers make in a row when they try to take the back. That is why sitting turtle, elbow and knee connection, and patient waiting show up in the same system as the stand-up and the sit-through to guard.",
     "hasVideos": true,
     "hasMicroDetails": false,
     "hasChecklist": false
@@ -680,7 +700,7 @@
       "half-Guard",
       "Guard"
     ],
-    "summary": "The knee shield (also called Z-Guard) is the most stable position in bottom Half Guard. Your nearside knee is inserted between your chest and their hip, creating a frame that prevents them from applying chest pressure. From here, you can fight for the underhook, create distance, and attack with sweeps (deep half, waiter), submissions (Kimura), or wrestle-ups. If you lose the knee shield, you get flattened, so protecting it is your number one priority.",
+    "summary": "The Knee Shield (also called Z-Guard) is the most stable position in bottom Half Guard. Your nearside knee is inserted between your chest and their hip, creating a frame that prevents them from applying chest pressure. From here, you can fight for the underhook, create distance, and attack with sweeps (deep half, waiter), submissions (Kimura), or wrestle-ups. If you lose the Knee Shield, you get flattened, so protecting it is your number one priority.",
     "hasVideos": true,
     "hasMicroDetails": false,
     "hasChecklist": false
@@ -796,6 +816,25 @@
       "modern-no-gi"
     ],
     "summary": "The Octopus Guard Sweep exploits the opponent's forward pressure when they try to pass. As they commit weight forward, you pull their far hip across your body while blocking their near leg with your frame. The combination of pulling their weight forward and blocking their base creates a powerful rotational sweep that dumps them onto their back. This sweep works especially well against opponents who try to smash through your octopus Guard with pressure.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
+    "id": "r-guard",
+    "domain": "guard_offense",
+    "level": "advanced",
+    "name": "R-Guard",
+    "tags": [
+      "Guard",
+      "reverse-de-la-riva",
+      "tier:modern-expansion",
+      "meta:modern-common",
+      "risk:medium",
+      "family:guard",
+      "modern-no-gi"
+    ],
+    "summary": "R-Guard, also called Reverse Guard, is a modern no-gi variation of the De La Riva guard. Because there is no sleeve and no collar to hold, the guard player reverses the configuration: the hook goes outside the near leg and the controls come from the wrist, the far leg, and the angle of the hips. The point of the shape is defensive as much as offensive, the bottom leg stays free, so the passer cannot staple it down when they arrive at headquarters. From the same shape the guard player chains to sweeps, to wrestle-ups, and to cross ashi entries, which is why modern no-gi players treat it as a first line of defense rather than a static guard.",
     "hasVideos": true,
     "hasMicroDetails": false,
     "hasChecklist": false
@@ -924,7 +963,7 @@
       "Guard",
       "retention"
     ],
-    "summary": "Supine Guard Retention is what you use when you end up flat on your back. Unlike Seated Guard Retention (where you are active and mobile), supine retention is about recovering structure from a compromised position. Your tools are: hip elevation (shrimping), knee shields (inserting your knees between you and them), and foot frames (placing your feet on their hips or biceps). The goal is always to get back to your side and re-establish an active Guard.",
+    "summary": "Supine Guard Retention is what you use when you end up flat on your back. Unlike Seated Guard Retention (where you are active and mobile), supine retention is about recovering structure from a compromised position. Your tools are: hip elevation (shrimping), Knee Shields (inserting your knees between you and them), and foot frames (placing your feet on their hips or biceps). The goal is always to get back to your side and re-establish an active Guard.",
     "hasVideos": true,
     "hasMicroDetails": false,
     "hasChecklist": false
@@ -962,7 +1001,7 @@
       "sweep",
       "half-Guard"
     ],
-    "summary": "Z-Guard (knee shield) is the control position; sweeps are the payoff. From Z-Guard, your knee shield creates distance while you fight for the underhook. Once you win the underhook, you have three main sweep options: slide into deep half (when they drive forward), hit the waiter sweep (when they stand), or wrestle up (when they back away). The Z-Guard to deep half transition is one of the highest percentage sweep chains in no-gi.",
+    "summary": "Z-Guard (Knee Shield) is the control position; sweeps are the payoff. From Z-Guard, your Knee Shield creates distance while you fight for the underhook. Once you win the underhook, you have three main sweep options: slide into deep half (when they drive forward), hit the waiter sweep (when they stand), or wrestle up (when they back away). The Z-Guard to deep half transition is one of the highest percentage sweep chains in no-gi.",
     "hasVideos": true,
     "hasMicroDetails": false,
     "hasChecklist": false
@@ -1020,6 +1059,28 @@
     "hasChecklist": false
   },
   {
+    "id": "rubber-guard",
+    "domain": "guard_offense",
+    "level": "advanced",
+    "name": "Rubber Guard",
+    "tags": [
+      "rubber-guard",
+      "mission-control",
+      "overhook",
+      "high-guard",
+      "neck-safety",
+      "tier:advanced-niche",
+      "meta:specialized",
+      "risk:medium",
+      "family:guard",
+      "modern-no-gi"
+    ],
+    "summary": "The Rubber Guard works by taking away the opponent's ability to posture inside your closed guard. With no gi grips available, the control comes from a high overhook on one arm plus your own leg across their back. From the base control (Mission Control) the system climbs: your shin walks higher onto their shoulder, your arm swims free when they defend the clamp, and the neck, shoulder, elbow and neck-shoulder line are attacked in sequence (Gogoplata, Omoplata, Armbar, Triangle). The positions are posture-holding tools, not flexibility tricks: once their head is below your chest and their arm is clamped, the leg control is light work.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
     "id": "bodylock-pass",
     "domain": "passing",
     "level": "intermediate",
@@ -1071,7 +1132,7 @@
       "passing",
       "knee-cut"
     ],
-    "summary": "The Knee Cut pass attacks the space between the opponent's hip and their near leg as they defend with a knee shield or Half Guard. The pass works by: (1) pinning their head with a crossface to prevent them from turning into you, (2) driving your near knee past their knee shield into the space at their hip, (3) extending your leg to pin their near hip, and (4) settling into Side Control. The Knee Cut is the go-to pass for most no-gi situations because it maintains top pressure throughout and requires minimal space.",
+    "summary": "The Knee Cut pass attacks the space between the opponent's hip and their near leg as they defend with a Knee Shield or Half Guard. The pass works by: (1) pinning their head with a crossface to prevent them from turning into you, (2) driving your near knee past their Knee Shield into the space at their hip, (3) extending your leg to pin their near hip, and (4) settling into Side Control. The Knee Cut is the go-to pass for most no-gi situations because it maintains top pressure throughout and requires minimal space.",
     "hasVideos": true,
     "hasMicroDetails": false,
     "hasChecklist": true
@@ -1116,7 +1177,7 @@
       "half-Guard",
       "pressure-passing"
     ],
-    "summary": "The Over-Under pass works by creating a chest-to-chest connection that removes the opponent's ability to frame or knee shield. One arm locks over their back (controlling their upper body) while the other hooks under their far leg (clearing the Knee Line). From this position, the passer drives their hip into the opponent's near hip while circling toward their head, flattening them and clearing the leg to pass. The key is keeping your head on the correct side and maintaining continuous forward pressure.",
+    "summary": "The Over-Under pass works by creating a chest-to-chest connection that removes the opponent's ability to frame or Knee Shield. One arm locks over their back (controlling their upper body) while the other hooks under their far leg (clearing the Knee Line). From this position, the passer drives their hip into the opponent's near hip while circling toward their head, flattening them and clearing the leg to pass. The key is keeping your head on the correct side and maintaining continuous forward pressure.",
     "hasVideos": true,
     "hasMicroDetails": false,
     "hasChecklist": true
@@ -1142,7 +1203,7 @@
     "id": "tripod-folding-pass",
     "domain": "passing",
     "level": "intermediate",
-    "name": "Tripod / Folding Pass",
+    "name": "Tripod Pass",
     "tags": [
       "passing",
       "tripod",
@@ -1151,10 +1212,31 @@
       "headquarters",
       "pressure"
     ],
-    "summary": "The tripod pass works by using a wide, tripod-like stance combined with heavy head pressure to fold the opponent's body. From headquarters (one knee up, one knee down with crossface control), the passer posts their outside leg wide, drops their head to the mat on one side, and drives their shoulder into the opponent's hip line. This forces the opponent's knees toward their chest and flattens their Guard, creating a clear path to Side Control or Mount. The key mechanical detail is keeping your hips low and your head glued to their far hip.",
+    "summary": "The Tripod Pass works by using a wide, tripod-like stance combined with heavy head pressure to fold the opponent's body. From headquarters (one knee up, one knee down with crossface control), the passer posts their outside leg wide, drops their head to the mat on one side, and drives their shoulder into the opponent's hip line. This forces the opponent's knees toward their chest and flattens their Guard, creating a clear path to Side Control or Mount. The key mechanical detail is keeping your hips low and your head glued to their far hip.",
     "hasVideos": true,
     "hasMicroDetails": false,
     "hasChecklist": true
+  },
+  {
+    "id": "wiltse-knee-slice",
+    "domain": "passing",
+    "level": "advanced",
+    "name": "Wiltse Knee Slice",
+    "tags": [
+      "passing",
+      "knee-cut",
+      "knee-slice",
+      "tier:modern-expansion",
+      "meta:modern-common",
+      "risk:medium",
+      "family:passing",
+      "group:modern-passing",
+      "modern-no-gi"
+    ],
+    "summary": "In the Pedigo Submission Fighting (Daisy Fresh) style, Andrew Wiltse's knee slice is not a slow pressure pass. The hips lead and the knee travels through the guard to the mat as fast as possible, so the pass is finished before the guard player can build the frames that make a slow knee cut stall. He keeps one control that the speed would otherwise cost him: the underhook is captured as he passes, which is what stops the movement turning into a scramble. The knee slice stays his main weapon because it chains out of positions he is already in, shin-to-shin, a failed underhook, and the moment the opponent steps in for single leg X, and because it is one gear of a passing system that keeps moving side to side instead of resetting from the top of the guard.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
   },
   {
     "id": "chin-strap-control",
@@ -1651,6 +1733,29 @@
     "hasChecklist": false
   },
   {
+    "id": "backside-50-50-cross-ashi",
+    "domain": "submission_systems",
+    "level": "advanced",
+    "name": "Backside 50/50 & Cross Ashi",
+    "tags": [
+      "leg-lock",
+      "cross-ashi",
+      "backside-50-50",
+      "heel-hook",
+      "knee-safety",
+      "tier:modern-expansion",
+      "meta:modern-common",
+      "risk:safety-critical",
+      "family:leg-lock",
+      "group:leg-lock",
+      "modern-no-gi"
+    ],
+    "summary": "Cross Ashi, the saddle, inside sankaku, 411 or honeyhole depending on who you ask, crosses the legs over the opponent's body and controls the knee line. It is the more dynamic platform: multiple foot locks, heel hooks, transitions to the back, and even passes are available from it. Its price is that the opponent still faces you, so they can hand fight, and if they slip the heel they can turn away and dismantle the position. The Backside 50/50 puts you behind their hip line in a 50/50 leg configuration. As you attack the heel they face away, which makes the hand fight almost impossible, and the leg position gives superior control, that is the version Lachlan Giles used in the ADCC absolute division, and the version Ryan Hall used from a rolling entry for an inside heel hook in the UFC. The two positions are one system: use Cross Ashi when you want the broad attack menu, and pass the leg to the backside when the heel is contested.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
     "id": "baratoplata",
     "domain": "submission_systems",
     "level": "advanced",
@@ -1997,6 +2102,26 @@
     "hasVideos": true,
     "hasMicroDetails": false,
     "hasChecklist": true
+  },
+  {
+    "id": "pistol-grip-armbar",
+    "domain": "submission_systems",
+    "level": "intermediate",
+    "name": "Pistol Grip Armbar",
+    "tags": [
+      "armbar",
+      "grip",
+      "elbow-safety",
+      "tier:modern-expansion",
+      "meta:modern-common",
+      "risk:medium",
+      "family:submission",
+      "modern-no-gi"
+    ],
+    "summary": "The pistol grip is one of the two control grips armbars are built on, the other being the pocket grip. Your strong hand holds their wrist with the thumb over the top, your other hand grips your own wrist, and the loop around their wrist cannot open. That closed loop is what lets you pull their wrist to your chest, keep their elbow pointed at your centre line, and finish from mount, side control, the back, or closed guard. Because the control lives on a wrist and not on a sleeve, the pistol grip is one of the armbar setups that transfers to no-gi unchanged, and it is also the grip that makes the armbar hold up against a sweating, strong opponent who keeps peeling single-handed grips off.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
   },
   {
     "id": "rear-naked-choke-system",

@@ -3,7 +3,7 @@
   "domain": "guard_offense",
   "level": "intermediate",
   "status": "draft",
-  "name": "Closed Guard Quét",
+  "name": "Closed Guard Sweeps",
   "aliases": [],
   "tags": [
     "closed-guard",
@@ -45,9 +45,9 @@
   "nextSkillIds": [],
   "searchBoost": 1,
   "keyCorrections": [
-    "Cú va chạm hông thất bại? Họ đưa cánh tay của mình lên - chuyển sang kiểu quét cắt kéo ở cùng phía đó.",
-    "Quét cắt kéo thất bại? Họ bước qua chân bạn, chuyển sang Triangle hoặc quét con lắc.",
-    "Tất cả các lần quét đều thất bại? Việc phá vỡ tư thế của bạn yếu - hãy quay lại kiểm soát tư thế trước."
+    "Hip bump thất bại? Họ đưa cánh tay của mình lên - chuyển sang scissor sweep ở cùng phía đó.",
+    "Scissor sweep thất bại? Họ bước qua chân bạn, chuyển sang Triangle hoặc pendulum sweep.",
+    "Tất cả các sweep đều thất bại? Việc phá vỡ tư thế của bạn yếu - hãy quay lại kiểm soát tư thế trước."
   ],
   "version": 1,
   "updatedAt": "2026-05-21T00:24:30.747Z",
@@ -61,56 +61,56 @@
     "hasStateMachine": false
   },
   "locale": "vi",
-  "description": "Phá vỡ tư thế của đối thủ, tạo đà và quét họ khỏi Closed Guard bằng cách sử dụng cơ chế va đập hông, cắt kéo, hoa hoặc con lắc.",
-  "shortInstruction": "Phá vỡ tư thế, mất thăng bằng, kéo góc và quét - mỗi cú quét đều bắt đầu với một đối thủ bị gãy.",
-  "summary": "Closed Guard quét biến Guard của bạn từ vị trí trung lập thành vị trí ghi điểm. Nguyên tắc quan trọng là bạn không thể quét sạch một đối thủ có nền tảng tốt - trước tiên bạn phải phá vỡ tư thế của họ, làm họ mất thăng bằng và tấn công khi họ đang phản ứng. Bốn lần quét lớn là phần hông (về phía trước), hình cắt kéo (ngang), bông hoa (đường chéo) và con lắc (hình tròn). Mỗi người khai thác một phản ứng khác nhau đối với việc kiểm soát tư thế của bạn.",
+  "description": "Phá vỡ tư thế của đối thủ, tạo đà và sweep họ khỏi Closed Guard bằng cách sử dụng hip bump, scissor sweep, flower sweep hoặc pendulum sweep.",
+  "shortInstruction": "Phá vỡ tư thế, mất thăng bằng, kéo góc và sweep - mỗi sweep đều bắt đầu với một đối thủ bị gãy.",
+  "summary": "Sweep từ Closed Guard biến Guard của bạn từ vị trí trung lập thành vị trí ghi điểm. Nguyên tắc quan trọng là bạn không thể sweep một đối thủ có nền tảng tốt - trước tiên bạn phải phá vỡ tư thế của họ, làm họ mất thăng bằng và tấn công khi họ đang phản ứng. Bốn sweep chính là hip bump (về phía trước), scissor sweep (ngang), flower sweep (đường chéo) và pendulum sweep (hình tròn). Mỗi sweep khai thác một phản ứng khác nhau đối với việc kiểm soát tư thế của bạn.",
   "whyItWorks": [
     "Đối thủ có tư thế sai sẽ bị dồn trọng lượng về phía trước - điều này khiến họ dễ bị chuyển hướng.",
-    "Các cuộc quét hoạt động như một vấn đề nan giải: bảo vệ vết va chạm ở hông, bị cắt kéo; bảo vệ cái kéo, bị va Pummeling vào hông.",
-    "Chân khỏe hơn cánh tay - việc sử dụng chân để quét sẽ thúc đẩy các cơ mạnh nhất của bạn chống lại chân của họ.",
-    "Nguyên tắc Danaher: cú quét là sản phẩm cuối cùng của việc phá vỡ tư thế + góc + động lượng."
+    "Các sweep hoạt động như một vấn đề nan giải: chống hip bump thì bị scissor sweep; chống scissor sweep thì bị hip bump.",
+    "Chân khỏe hơn cánh tay - việc sử dụng chân để sweep sẽ thúc đẩy các cơ mạnh nhất của bạn chống lại chân của họ.",
+    "Nguyên tắc Danaher: sweep là sản phẩm cuối cùng của việc phá vỡ tư thế + góc + động lượng."
   ],
   "commonMistakes": [
-    "Quét mà không phá vỡ tư thế trước - đối thủ đã giữ tư thế có thể chỉ cần bước ra khỏi đòn quét.",
-    "Để đối thủ đặt lên đầu bạn trong quá trình quét - đóng khung ngay lập tức để ngăn chặn điều này.",
-    "Từ bỏ Closed Guard sau lần quét thất bại, luôn có kế hoạch lạiguard.",
-    "Chỉ dùng tay để quét thay vì dùng hông và chân."
+    "Sweep mà không phá vỡ tư thế trước - đối thủ đã giữ tư thế có thể chỉ cần bước ra khỏi sweep.",
+    "Để đối thủ đặt lên đầu bạn trong quá trình sweep - đóng khung ngay lập tức để ngăn chặn điều này.",
+    "Từ bỏ Closed Guard sau sweep thất bại, luôn có kế hoạch lấy lại Guard.",
+    "Chỉ dùng tay để sweep thay vì dùng hông và chân."
   ],
   "coachingCues": [
-    "Phá vỡ tư thế trước mỗi lần quét - không có ngoại lệ.",
-    "Quét chân, hướng dẫn cánh tay - cánh tay của bạn điều khiển hướng, chân của bạn cung cấp sức mạnh.",
-    "Cam kết hoàn toàn hoặc không quét - quét nửa chừng sẽ cho họ vượt qua.",
-    "Quét đến điểm ghim, không chỉ để thoát - kết thúc ở trên cùng trong tầm kiểm soát."
+    "Phá vỡ tư thế trước mỗi sweep - không có ngoại lệ.",
+    "Sweep chân, hướng dẫn cánh tay - cánh tay của bạn điều khiển hướng, chân của bạn cung cấp sức mạnh.",
+    "Cam kết hoàn toàn hoặc không sweep - sweep nửa chừng sẽ cho họ vượt qua.",
+    "Sweep đến điểm ghim, không chỉ để thoát - kết thúc ở trên cùng trong tầm kiểm soát."
   ],
   "safetySummary": [
-    "Đừng quay cổ đối tác của bạn khi kéo họ vào cuộc quét - hãy kiểm soát cơ thể chứ không phải đầu.",
-    "Khi tiếp đất sau một cú quét, hãy bảo vệ đầu của bạn khỏi chạm vào thảm.",
-    "Nếu họ tiếp đất vào chân bạn trong một lần quét không thành công, hãy phục hồi ngay lập tức Guard để tránh áp lực lên đầu gối."
+    "Đừng quay cổ đối tác của bạn khi kéo họ vào sweep - hãy kiểm soát cơ thể chứ không phải đầu.",
+    "Khi tiếp đất sau một sweep, hãy bảo vệ đầu của bạn khỏi chạm vào thảm.",
+    "Nếu họ tiếp đất vào chân bạn trong một sweep không thành công, hãy phục hồi ngay lập tức Guard để tránh áp lực lên đầu gối."
   ],
   "systemLogic": {
-    "corePrinciple": "Tư thế bẻ gãy → mất thăng bằng → chọn quét dựa trên phản ứng của họ → tiếp đất vào chốt thuận.",
+    "corePrinciple": "Tư thế bẻ gãy → mất thăng bằng → chọn sweep dựa trên phản ứng của họ → tiếp đất vào chốt thuận.",
     "decisionTree": [
       {
-        "condition": "Vấn đề nan giải: về phía trước (gập hông) và sang một bên (cắt kéo)",
+        "condition": "Vấn đề nan giải: về phía trước (hip bump) và sang một bên (scissor sweep)",
         "action": "họ không thể bảo vệ cả hai cùng một lúc."
       },
       {
-        "condition": "họ bảo vệ cuộc càn quét bằng tư thế, thay vào đó hãy tấn công Triangle hoặc Armbar",
+        "condition": "họ bảo vệ sweep bằng tư thế, thay vào đó hãy tấn công Triangle hoặc Armbar",
         "action": "Guard là một hệ thống, không phải các bước đi riêng lẻ."
       }
     ],
     "exitStrategies": []
   },
   "moneyDetails": [
-    "Đối với va chạm ở hông, hãy kéo đầu họ về phía ngực của bạn và va chạm bằng hông - đừng chỉ đẩy bằng tay.",
-    "Đối với cái kéo, hãy cắt chân dưới của bạn ngang qua bụng của họ trong khi chân trên của bạn chặn vai họ - đó là đường cắt đầu gối, không phải là một cú đẩy chân.",
-    "Để quét bông hoa, hãy đá chân bạn từ hông qua đường giữa của họ - động lượng đến từ hông chứ không phải từ bàn chân.",
-    "Luôn kết thúc quá trình quét bằng chốt chiếm ưu thế (Mount, Side Control hoặc knee-on-belly), đừng chỉ bỏ họ và đặt lại."
+    "Đối với hip bump, hãy kéo đầu họ về phía ngực của bạn và bump bằng hông - đừng chỉ đẩy bằng tay.",
+    "Đối với scissor sweep, hãy cắt chân dưới của bạn ngang qua bụng của họ trong khi chân trên của bạn chặn vai họ - đó là đường Knee Cut, không phải là một cú đẩy chân.",
+    "Để flower sweep, hãy đá chân bạn từ hông qua đường giữa của họ - động lượng đến từ hông chứ không phải từ bàn chân.",
+    "Luôn kết thúc sweep bằng chốt chiếm ưu thế (Mount, Side Control hoặc knee-on-belly), đừng chỉ bỏ họ và đặt lại."
   ],
-  "nextStep": "Sau khi thành thạo Closed Guard lần quét, hãy tìm hiểu nội dung gửi từ Closed Guard (Triangle, Armbar) để kết nối với các lần quét của bạn.",
+  "nextStep": "Sau khi thành thạo sweep từ Closed Guard, hãy tìm hiểu submission từ Closed Guard (Triangle, Armbar) để kết nối với các sweep của bạn.",
   "fixItFast": [
-    "Vết sưng ở hông không hoạt động? Bạn đang đẩy chứ không phải va chạm hông - đẩy hông lên chứ không phải cánh tay.",
-    "Quét cắt kéo có vẻ yếu? Chân dưới của bạn chưa cắt đủ sâu - hãy đưa nó cao hơn bụng của họ.",
-    "Họ tiếp tục post? Sử dụng bài post của họ làm mục nhập cho Armbar hoặc Kimura."
+    "Hip bump không hoạt động? Bạn đang đẩy chứ không phải bump bằng hông - đẩy hông lên chứ không phải tay.",
+    "Scissor sweep có vẻ yếu? Chân dưới của bạn chưa cắt đủ sâu - hãy đưa nó cao hơn bụng của họ.",
+    "Họ tiếp tục post? Sử dụng post của họ làm entry cho Armbar hoặc Kimura."
   ]
 }

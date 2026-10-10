@@ -1,0 +1,75 @@
+{
+  "id": "priit-turtle-escapes",
+  "locale": "vi",
+  "name": "Priit Turtle Escapes",
+  "description": "Cách tiếp cận turtle của Priit Mihkelson: coi turtle là một thế phòng thủ có thể nằm giữ, giấu cổ, từ chối seatbelt và thoát theo nhịp cam kết của họ chứ không theo sự hoảng của bạn.",
+  "shortInstruction": "Giấu cổ, khuỷu và gối khép, không post, không hở, không seatbelt. Thoát khi trọng lượng của họ đổi hướng, không phải khi bạn thấy khó chịu.",
+  "summary": "Mảng turtle của Priit Mihkelson đã đổi cách nhiều võ sĩ đọc thế này. Thay vì coi turtle là đồng hồ đếm ngược tới lúc mất lưng, hệ phòng thủ của anh coi đó là một tư thế có luật riêng: cổ được giấu, khuỷu tay và gối giữ kết nối với sườn và hông, và hai bàn tay không bao giờ post ra khoảng không, nơi sẽ dâng cho người trên seatbelt hoặc cái hook đầu tiên. Từ tư thế đó, các cú thoát nói về thời điểm và những điều cơ bản hơn là tốc độ: một cú thoát chỉ ăn khi người trên cam kết một bàn tay hoặc trọng lượng của họ, và hệ này được xây quanh việc đọc những sai lầm mà người tấn công mắc liên tiếp khi cố lấy lưng. Vì vậy sitting turtle, kết nối khuỷu và gối, và việc chờ đợi có chủ đích nằm cùng một hệ với cú đứng dậy và cú ngồi xuyên qua để về Guard.",
+  "whyItWorks": [
+    "Cổ được giấu đi lấy mất những grip mà người trên cần cho cú siết, và chính cú siết là thứ thường ép người nằm turtle phải di chuyển trước.",
+    "Khuỷu tay và gối giữ kết nối với sườn và hông, nên không còn khoảng để luồn cái hook thứ hai hay cánh tay siết vào.",
+    "Chờ đợi không phải là bị động: nằm cuộn và kiên nhẫn buộc người trên phải cam kết một bàn tay hoặc trọng lượng, và chính cú cam kết đó là cò để bạn thoát.",
+    "Các cú thoát dùng lại đúng những chuyển động của phần còn lại trong hệ phòng thủ, nên phòng thủ turtle, thoát lưng và recover Guard củng cố lẫn nhau."
+  ],
+  "commonMistakes": [
+    "Vội thoát khỏi turtle vì thấy khó chịu, cú thoát trước khi trọng lượng của họ đổi hướng là cú thoát làm lộ lưng.",
+    "Post một bàn tay xuống thảm để đứng lên, cái post đó đúng là khoảng mà người trên cần cho seatbelt hoặc cái hook đầu tiên.",
+    "Để cổ hở trong khi hai tay đang bận, cú siết tới trước cú lấy lưng.",
+    "Tranh seatbelt bằng hai cánh tay thay vì dập khoảng trống và chờ cú cam kết.",
+    "Lăn sai hướng, lăn vào cánh tay đang siết thay vì lăn ra xa nó."
+  ],
+  "coachingCues": [
+    "Cổ giấu, khuỷu vào, gối vào.",
+    "Không post, không khoảng hở, không seatbelt.",
+    "Chờ trọng lượng, rồi mới di chuyển.",
+    "Một chuyển động, cam kết trọn vẹn, thất bại thì cuộn lại turtle."
+  ],
+  "safetySummary": [
+    "Bảo vệ cổ trước mọi thứ, nếu có cú siết hoặc vặn cổ, hãy tap. Turtle không đáng để đánh đổi bằng cái cổ bị vặn.",
+    "Không bật ra khỏi turtle vào thế mà cổ phải chịu lực hoặc cột sống bị xoắn.",
+    "Khi người trên đã lấy lưng, ưu tiên là đường thở trước, vị trí sau.",
+    "Drill các cú thoát này chậm lúc đầu, đây là bài kiểm tra thời điểm, còn tốc độ thì che mất thời điểm sai và dồn lực lên cổ."
+  ],
+  "keyCorrections": [
+    "Nếu họ cứ với qua trên, khuỷu tay bạn đã rời khỏi sườn, hãy khép lại và để cú với tay của họ mua cho bạn pha ngồi xuyên qua.",
+    "Nếu họ vào được seatbelt, đừng tranh grip bằng hai cánh tay, hãy dập khoảng trống và chuyển sang thứ tự thoát lưng.",
+    "Nếu cứ bị ép bẹp, bạn đang post hoặc nhấc đầu lên, hãy giữ trán cúi và hông ở dưới người."
+  ],
+  "systemLogic": {
+    "corePrinciple": "Turtle như một tư thế giữ được: giấu cổ → giữ khuỷu và gối kết nối → từ chối các cú post → đọc cam kết của họ → ngồi xuyên qua về Guard hoặc đứng dậy, thất bại thì cuộn lại turtle.",
+    "decisionTree": [
+      {
+        "condition": "Họ với qua trên để bắt cánh tay xa",
+        "action": "ngồi xuyên qua về Guard ở đúng bên mà trọng lượng của họ đã rời đi."
+      },
+      {
+        "condition": "Họ bắt đầu luồn cái hook đầu tiên vào",
+        "action": "khép khuỷu và dập khoảng trống trước khi hook đầu tiên thành hook thứ hai."
+      },
+      {
+        "condition": "Họ vào được seatbelt",
+        "action": "chuyển sang thứ tự thoát lưng: cổ, rồi khuỷu và gối, rồi hông."
+      },
+      {
+        "condition": "Họ ép bạn nằm sấp",
+        "action": "turtle đã mất, bảo vệ cổ và chờ khoảng trống thay vì lăn vào cú siết."
+      }
+    ],
+    "exitStrategies": [
+      "Nếu không giữ được turtle, đứng dậy là một cách thoát hợp lệ, nhưng cổ là thứ rời sau cùng.",
+      "Nếu họ lấy được lưng, chuyển sang kế hoạch thoát lưng thay vì tranh từ một góc bạn không thắng được."
+    ]
+  },
+  "moneyDetails": [
+    "Cằm đưa về phía vai và hai bàn tay ở trước cổ, đó là ý nghĩa thực tế của việc giấu cổ.",
+    "Khuỷu tay dán vào sườn và gối ở dưới hông, người trên đang tìm đúng khoảng trống giữa hai bộ phận đó.",
+    "Cái post là một món quà: nếu buộc phải chạm thảm, tay đi xuống dưới đầu bạn, không đưa ra hai bên để bị khóa lại.",
+    "Sitting turtle (Panda) là một tư thế, không phải thất bại. Chỉ rời nó khi trọng lượng của họ cho bạn biết nên ngồi xuyên qua hướng nào."
+  ],
+  "nextStep": "Sau các cú thoát turtle, nối những cú đó với thoát lưng và recover Guard để cả chuỗi phòng thủ chạy theo một hướng.",
+  "fixItFast": [
+    "Bị siết từ turtle? Cổ đang hở, cúi cằm về vai và đưa hai tay ra trước cổ.",
+    "Bị ép bẹp? Bạn đang post hoặc nhấc đầu lên, giữ trán cúi và hông ở dưới người.",
+    "Cú thoát thất bại liên tục? Bạn di chuyển trước khi trọng lượng của họ cam kết, chờ thêm một nhịp rồi ngồi xuyên qua khi nó tới."
+  ]
+}

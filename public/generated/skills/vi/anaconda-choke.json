@@ -47,9 +47,9 @@
   "nextSkillIds": [],
   "searchBoost": 1,
   "keyCorrections": [
-    "Nếu cuộn cảm không khóa, khuỷu tay của bạn không đủ gần với cơ thể họ - hãy đưa khuỷu tay của bạn về phía lồng ngực của họ.",
-    "Nếu họ xếp bạn lên, đầu bạn quá thấp - hãy đưa đầu bạn về phía hông họ.",
-    "Nếu họ lăn qua, hãy đi theo vòng quay của họ và tấn công lại từ Tư thế rùa."
+    "Nếu choke không khóa, khuỷu tay của bạn không đủ gần với cơ thể họ - hãy đưa khuỷu tay của bạn về phía lồng ngực của họ.",
+    "Nếu họ stack bạn, đầu bạn quá thấp - hãy đưa đầu bạn về phía hông họ.",
+    "Nếu họ lăn qua, hãy đi theo vòng quay của họ và tấn công lại từ Turtle."
   ],
   "version": 1,
   "updatedAt": "2026-05-21T00:24:30.767Z",
@@ -63,20 +63,20 @@
     "hasStateMachine": false
   },
   "locale": "vi",
-  "description": "Một cánh tay Triangle bị nghẹn từ vị trí Front Headlock, bạn dùng cánh tay khóa quanh cổ đồng thời kéo khuỷu tay lên đầu gối và xoay người để kết thúc bằng áp lực của vai.",
+  "description": "Một Arm Triangle từ vị trí Front Headlock, bạn dùng cánh tay khóa quanh cổ đồng thời kéo khuỷu tay lên đầu gối và xoay người để kết thúc bằng áp lực của vai.",
   "shortInstruction": "Khóa cánh tay quanh cổ, kéo khuỷu tay của họ lên đầu gối của bạn, xoay ngực của bạn xuống thảm - Anaconda kết thúc bằng áp lực lên vai chứ không phải siết chặt cánh tay.",
-  "summary": "Cuộn cảm Anaconda là một trong ba lớp hoàn thiện Front Headlock chính (với D'arce và Guillotine). Điểm khác biệt chính so với D'arce là cánh tay bị nghẹn của bạn luồn từ phía đối diện (cánh tay gần đi dưới cổ và vòng qua cánh tay xa của họ). Kết thúc là xoay ngực của bạn về phía tấm thảm trong khi kéo khuỷu tay của cánh tay bị mắc kẹt của họ về phía đầu gối của bạn - điều này tạo ra một cánh tay chặt Triangle trên cổ và vai của họ.",
+  "summary": "Anaconda Choke là một trong ba lớp hoàn thiện Front Headlock chính (với D'arce và Guillotine). Điểm khác biệt chính so với D'arce là cánh tay bị nghẹn của bạn luồn từ phía đối diện (cánh tay gần đi dưới cổ và vòng qua cánh tay xa của họ). Kết thúc là xoay ngực của bạn về phía tấm thảm trong khi kéo khuỷu tay của cánh tay bị mắc kẹt của họ về phía đầu gối của bạn - điều này tạo ra một cánh tay chặt Triangle trên cổ và vai của họ.",
   "whyItWorks": [
     "Anaconda nhốt cả cánh tay và cổ của họ vào cùng một ổ khóa, hai cấu trúc được nén lại bởi một chuyển động.",
     "Áp lực quay từ ngực xuống thảm mạnh hơn lực ép bằng tay.",
-    "Nó hoạt động từ Front Headlock khi họ bị Tư thế rùa hoặc cố gắng cúi xuống để thoát.",
-    "Nguyên tắc Danaher: cánh tay Triangle được điều khiển bởi áp lực của vai chứ không phải sức mạnh của cánh tay - Anaconda là một cuộn cảm điều khiển bằng vai."
+    "Nó hoạt động từ Front Headlock khi họ bị Turtle hoặc cố gắng cúi xuống để thoát.",
+    "Nguyên tắc Danaher: Arm Triangle được điều khiển bởi áp lực của vai chứ không phải sức mạnh của cánh tay - Anaconda là một choke điều khiển bằng vai."
   ],
   "commonMistakes": [
     "Khóa tay mà không kiểm soát vị trí khuỷu tay - khuỷu tay phải được kéo về phía đầu gối.",
     "Cố gắng hoàn thành nằm sấp thay vì nằm nghiêng - động tác kết thúc yêu cầu một góc xoay.",
     "Siết chặt bằng cánh tay thay vì lái xe bằng ngực - siết chặt cánh tay; áp lực ngực kết thúc.",
-    "Để đối thủ xếp chồng bạn bằng cách cúi đầu thấp - ngẩng cao đầu và sang một bên."
+    "Để đối thủ stack bạn bằng cách cúi đầu thấp - hãy ngẩng cao đầu và sang một bên."
   ],
   "coachingCues": [
     "Khuỷu tay chạm đầu gối - đó là vạch đích.",
@@ -87,7 +87,7 @@
   "safetySummary": [
     "Tạo áp lực dần dần - Anaconda nén đồng thời cổ và vai.",
     "Đừng bẻ cổ đối phương bằng cách kéo đầu họ quá mạnh.",
-    "Chạm sớm nếu bạn cảm thấy áp lực lên cột sống cổ trong quá trình xoay."
+    "Tap sớm nếu bạn cảm thấy áp lực lên cột sống cổ trong quá trình xoay."
   ],
   "systemLogic": {
     "corePrinciple": "Front Headlock được thiết lập → sợi chỉ gần cánh tay dưới cổ và trên cánh tay xa → khóa tay → kéo khuỷu tay của cánh tay bị kẹt vào đầu gối → xoay ngực đến thảm → kết thúc.",
@@ -106,13 +106,13 @@
   "moneyDetails": [
     "Cánh tay bị nghẹn của bạn phải luồn sâu dưới cổ - vai của bạn phải sát tai họ.",
     "Kéo khuỷu tay của cánh tay bị mắc kẹt của họ về phía đầu gối gần bên của bạn - đây là nguyên nhân tạo ra lực nén cho vai.",
-    "Xoay ngực về phía thảm bằng cách xoay hông - động tác xoay sẽ siết chặt cuộn cảm mà không cần ép.",
+    "Xoay ngực về phía thảm bằng cách xoay hông - động tác xoay sẽ siết chặt choke mà không cần ép.",
     "Giữ đầu của bạn cùng phía với cánh tay bị mắc kẹt - điều này giúp họ không thể lăn bạn."
   ],
-  "nextStep": "Sau Anaconda, hãy tìm hiểu D'arce cuộn cảm và Guillotine nối chuỗi từ Front Headlock.",
+  "nextStep": "Sau Anaconda, hãy tìm hiểu D'arce Choke và Guillotine nối chuỗi từ Front Headlock.",
   "fixItFast": [
     "Choke cảm thấy lỏng lẻo? Kéo khuỷu tay của họ lại gần đầu gối của bạn và xoay nhiều hơn.",
-    "Họ xếp chồng bạn? Đưa đầu của bạn về phía hông họ và tương tác lại.",
-    "Họ lăn qua? Thực hiện theo vòng quay và tấn công lại từ con Tư thế rùa hàng đầu."
+    "Họ stack bạn? Đưa đầu của bạn về phía hông họ và đánh lại.",
+    "Họ lăn qua? Thực hiện theo vòng quay và tấn công lại từ Turtle."
   ]
 }

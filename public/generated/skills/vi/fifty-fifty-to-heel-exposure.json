@@ -51,7 +51,7 @@
   "keyCorrections": [
     "Nếu họ quay ra khỏi Heel Hook, bạn sẽ mất quyền kiểm soát chân phụ của họ, hãy thiết lập lại thế bám.",
     "Nếu bạn không thể tìm thấy gót chân, góc của bạn quá vuông - hãy xoay hông xa hơn.",
-    "Nếu họ xếp chồng cho bạn, hãy thả ra và đặt lại - đừng chống lại ngăn xếp theo tỷ lệ 50/50."
+    "Nếu họ stack bạn, hãy thả ra và đặt lại - đừng chống lại stack trong thế 50/50."
   ],
   "version": 1,
   "updatedAt": "2026-05-21T00:24:30.766Z",
@@ -75,10 +75,10 @@
     "Nguyên tắc Danaher: 50/50 Heel Hook giành chiến thắng bằng cách kiểm soát hông mà họ có thể hướng tới - kiểm soát hông xa của họ để phá vỡ tính đối xứng."
   ],
   "commonMistakes": [
-    "Cố gắng hoàn thành Heel Hook mà không điều khiển chặng phụ, họ sẽ quay ra ngoài.",
+    "Cố gắng hoàn thành Heel Hook mà không điều khiển chân phụ, họ sẽ quay ra ngoài.",
     "Ngồi quá vuông góc với họ - 50/50 đòi hỏi một góc chứ không phải sự đối xứng.",
     "Áp dụng Heel Hook trước khi bạn có góc, việc tiếp xúc với gót chân diễn ra sau khi kiểm soát hông.",
-    "Nhả chân phụ quá sớm trong khi kết thúc - hãy kiểm soát nó cho đến khi chạm."
+    "Nhả chân phụ quá sớm trong khi kết thúc - hãy kiểm soát nó cho đến khi họ tap."
   ],
   "coachingCues": [
     "Kiểm soát chân xa, sở hữu cú dứt điểm.",
@@ -87,9 +87,9 @@
     "Nếu họ quay gót đi, bạn sẽ thua trong cuộc chiến hông."
   ],
   "safetySummary": [
-    "Heel Hooks tác dụng lực xoay lên đầu gối, tác động từ từ và tôn trọng lực chạm.",
+    "Heel Hooks tác dụng lực xoay lên đầu gối, tác động từ từ và tôn trọng tap.",
     "Không bao giờ bùng nổ thành Heel Hook, chấn thương đầu gối có thể xảy ra trước khi đối phương cảm thấy đau.",
-    "Thiết lập các giao thức chạm rõ ràng cho tất cả các đòn tấn công bằng chân trước khi tập luyện.",
+    "Thiết lập giao thức tap rõ ràng cho tất cả các đòn tấn công bằng chân trước khi tập luyện.",
     "Không thích hợp cho người mới bắt đầu - đòi hỏi sự hiểu biết vững chắc về khóa chân."
   ],
   "systemLogic": {
@@ -101,7 +101,7 @@
       },
       {
         "condition": "họ bảo vệ Heel Hook bằng cách chuyển sang",
-        "action": "thay vào đó hãy lấy mặt sau."
+        "action": "thay vào đó hãy lấy lưng."
       }
     ],
     "exitStrategies": []
@@ -112,7 +112,7 @@
     "Cách cầm Heel Hook phải là: một tay đặt trên gót chân, tay kia đặt trên ngón chân (tay cầm súng lục).",
     "Kết thúc xoay: xoay gót chân về phía hông của chính họ - xoay bên ngoài là kết thúc."
   ],
-  "nextStep": "Sau khi tiếp xúc với gót chân 50/50, hãy tìm hiểu Saddle và mặt sau 50/50 để có thêm các tùy chọn vướng chân.",
+  "nextStep": "Sau khi tiếp xúc với gót chân 50/50, hãy tìm hiểu Saddle và Backside 50/50 để có thêm các tùy chọn leg entanglement.",
   "fixItFast": [
     "Không thể tìm thấy gót chân? Xoay hông của bạn nhiều hơn để lộ nó.",
     "Họ quay ra? Kiểm soát chân phụ của họ chặt chẽ hơn.",

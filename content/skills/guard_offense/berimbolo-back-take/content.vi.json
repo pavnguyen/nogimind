@@ -29,7 +29,7 @@
     "Tập Berimbolo trên thảm mềm với bạn tập hợp tác trước khi dùng trong live"
   ],
   "keyCorrections": [
-    "Nếu họ không bước tới: Berimbolo không có sẵn, ở lại DLR/RDLR và quét thay thế",
+    "Nếu họ không bước tới: Berimbolo không có sẵn, ở lại DLR/RDLR và sweep thay thế",
     "Nếu họ lùi để tránh đòn lộn: thả móc DLR và vào K-Guard",
     "Nếu họ theo bạn qua vòng lộn: họ đang phòng thủ đúng, vào lại Guard và thử lại"
   ],
@@ -48,7 +48,7 @@
     "decisionTree": [
       {
         "condition": "Họ không bước tới",
-        "action": "Berimbolo không có sẵn, ở lại DLR/RDLR và quét thay thế"
+        "action": "Berimbolo không có sẵn, ở lại DLR/RDLR và sweep thay thế"
       },
       {
         "condition": "Họ lùi để tránh đòn lộn",

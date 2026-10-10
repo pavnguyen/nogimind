@@ -1,0 +1,145 @@
+{
+  "id": "priit-turtle-escapes",
+  "domain": "escapes",
+  "level": "intermediate",
+  "status": "draft",
+  "name": "Priit Turtle Escapes",
+  "aliases": [
+    "Pritt turtle escapes",
+    "turtle escape system",
+    "defensive turtle"
+  ],
+  "tags": [
+    "turtle",
+    "escape",
+    "survival",
+    "tier:modern-expansion",
+    "meta:modern-common",
+    "risk:medium",
+    "family:escape",
+    "modern-no-gi"
+  ],
+  "keywords": [
+    "turtle",
+    "turtle escape",
+    "sitting turtle",
+    "hidden neck",
+    "seatbelt",
+    "back take prevention"
+  ],
+  "relatedSkills": [
+    {
+      "id": "turtle-to-guard-recovery",
+      "type": "chain"
+    },
+    {
+      "id": "turtle-escape-standup",
+      "type": "alternative"
+    },
+    {
+      "id": "back-escape",
+      "type": "recommended"
+    },
+    {
+      "id": "back-survival",
+      "type": "supporting"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [
+    "defensive-counter-grappler"
+  ],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "back-survival"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [
+    "S'ils passent sans arrêt par-dessus, vos coudes se sont éloignés des côtes, refermez-les et laissez leur allonge vous offrir le passage assis.",
+    "S'ils connectent le seatbelt, n'affrontez pas la prise avec les bras, tuez l'espace et passez à l'ordre de sortie de dos.",
+    "Si vous vous faites aplatir, vous postez ou vous levez la tête, gardez le front rentré et les hanches sous vous."
+  ],
+  "version": 1,
+  "updatedAt": "2026-10-10T00:00:00.000Z",
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "fr",
+  "description": "L'approche de la turtle selon Priit Mihkelson : la traiter comme une position défensive que l'on peut tenir, cacher le cou, refuser le seatbelt, et sortir sur leur engagement plutôt que sur votre panique.",
+  "shortInstruction": "Cou caché, coudes et genoux serrés, pas de post, pas d'espace, pas de seatbelt. Sortez quand leur poids bouge, pas quand vous êtes mal à l'aise.",
+  "summary": "Le travail de Priit Mihkelson sur la turtle a changé la façon dont beaucoup de grapplers lisent cette position. Au lieu de voir la turtle comme un compte à rebours avant de perdre le dos, son système défensif la traite comme une posture avec ses propres règles : le cou est caché, les coudes et les genoux restent connectés aux côtes et aux hanches, et les mains ne se postent jamais dans l'espace qui offre à l'attaquant le seatbelt ou le premier crochet. Depuis cette posture, les sorties parlent de timing et de fondamentaux plutôt que de vitesse : une sortie ne fonctionne que quand l'attaquant engage une main ou son poids, et le système est construit autour de la lecture des erreurs que les attaquants enchaînent quand ils essayent de prendre le dos. C'est pourquoi la sitting turtle, la connexion coude et genou, et l'attente patiente font partie du même système que le lever et le passage assis vers la garde.",
+  "whyItWorks": [
+    "Un cou caché retire à l'attaquant les prises dont il a besoin pour l'étranglement, et l'étranglement est ce qui force d'habitude le joueur de turtle à bouger le premier.",
+    "Les coudes et les genoux restent connectés aux côtes et aux hanches, donc il n'y a plus d'espace pour enfiler le second crochet ou le bras étrangleur.",
+    "Attendre n'est pas passif : rester en boule et patient force l'attaquant à engager une main ou son poids, et cet engagement est le déclencheur de la sortie.",
+    "Les sorties réutilisent les mouvements du reste du système défensif, donc défense de turtle, sorties de dos et récupération de garde se renforcent mutuellement."
+  ],
+  "commonMistakes": [
+    "Se précipiter hors de la turtle parce que c'est inconfortable, la sortie avant que leur poids ne bouge est celle qui expose le dos.",
+    "Poster une main au sol pour se lever, ce post est exactement l'espace dont l'attaquant a besoin pour le seatbelt ou le premier crochet.",
+    "Laisser le cou ouvert pendant que les mains sont occupées, l'étranglement arrive avant la prise de dos.",
+    "Combattre le seatbelt avec les bras au lieu de tuer l'espace et d'attendre l'engagement.",
+    "Rouler du mauvais côté, vers le bras étrangleur au lieu de s'en éloigner."
+  ],
+  "coachingCues": [
+    "Cou caché, coudes dedans, genoux dedans.",
+    "Pas de post, pas d'espace, pas de seatbelt.",
+    "Attendez le poids, puis bougez.",
+    "Un mouvement, engagé complètement, puis retour en turtle si ça échoue."
+  ],
+  "safetySummary": [
+    "Protégez le cou avant tout le reste, si un étranglement ou une torsion du cou est en place, tapez. La turtle ne vaut jamais un cou torturé.",
+    "N'explosez pas hors de la turtle vers une position où le cou est chargé ou la colonne vrillée.",
+    "Quand l'attaquant prend le dos, la priorité va aux voies respiratoires, la position vient ensuite.",
+    "Drillez ces sorties lentement au début, elles testent le timing, et la vitesse masque le mauvais timing tout en chargeant le cou."
+  ],
+  "systemLogic": {
+    "corePrinciple": "La turtle comme posture tenable : cacher le cou → garder coudes et genoux connectés → refuser les posts → lire leur engagement → passer assis vers la garde ou se lever, et revenir en turtle si la sortie échoue.",
+    "decisionTree": [
+      {
+        "condition": "Ils passent par-dessus pour chercher le bras éloigné",
+        "action": "passez assis vers la garde du côté que leur poids vient de quitter."
+      },
+      {
+        "condition": "Ils commencent à enfiler le premier crochet",
+        "action": "refermez le coude et tuez l'espace avant que le premier crochet ne devienne un second."
+      },
+      {
+        "condition": "Ils connectent le seatbelt",
+        "action": "passez à l'ordre de sortie de dos : le cou, puis le coude et le genou, puis la hanche."
+      },
+      {
+        "condition": "Ils vous aplatissent sur le ventre",
+        "action": "la turtle est perdue, protégez le cou et attendez l'espace au lieu de rouler dans l'étranglement."
+      }
+    ],
+    "exitStrategies": [
+      "Si la turtle ne peut pas être tenue, se lever est une sortie légitime, mais le cou part en dernier.",
+      "Si le dos est pris, passez au plan de sortie de dos au lieu de vous battre depuis un angle que vous ne pouvez pas gagner."
+    ]
+  },
+  "moneyDetails": [
+    "Le menton va vers l'épaule et les mains restent devant le cou, c'est ce que cacher le cou veut dire en pratique.",
+    "Les coudes restent collés aux côtes et les genoux sous les hanches, l'attaquant cherche exactement l'espace entre les deux.",
+    "Un post est un cadeau : si une main doit toucher le sol, elle va sous votre propre tête, pas sur le côté où elle peut être piégée.",
+    "La sitting turtle (Panda) est une posture, pas un échec. Quittez-la quand leur poids vous dit de quel côté passer assis."
+  ],
+  "nextStep": "Après les sorties de turtle, connectez-les à la sortie de dos et à la récupération de garde pour que toute la chaîne défensive aille dans le même sens.",
+  "fixItFast": [
+    "Étranglé depuis la turtle ? Le cou est exposé, rentrez le menton vers l'épaule et ramenez les mains devant le cou.",
+    "Aplati ? Vous postez ou vous levez la tête, gardez le front rentré et les hanches sous vous.",
+    "La sortie échoue encore et encore ? Vous bougez avant que leur poids soit engagé, attendez un temps de plus et passez assis quand il arrive."
+  ]
+}

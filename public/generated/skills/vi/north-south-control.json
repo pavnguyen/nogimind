@@ -3,7 +3,7 @@
   "domain": "pins_rides",
   "level": "intermediate",
   "status": "draft",
-  "name": "Kiểm soát North-South Control",
+  "name": "North-South Control",
   "aliases": [],
   "tags": [
     "north-south",
@@ -62,9 +62,9 @@
     "hasStateMachine": false
   },
   "locale": "vi",
-  "description": "Sử dụng áp lực từ vai, ngực vào ngực và điều khiển cánh tay từ North-South Control để bóp nghẹt hoặc chuyển tiếp. North-South là một chốt được đánh giá thấp nhằm nén đường vai của đối thủ và thiết lập các mục gửi duy nhất.",
-  "shortInstruction": "Đặt đầu của bạn vào xương ức của họ, ép khuỷu tay của bạn vào vai họ và dồn trọng lượng của bạn vào ngực họ. Tìm kiếm hiện tượng ngắt quãng North-South hoặc chuyển sang Side Control.",
-  "summary": "Điều khiển North-South sử dụng sự căn chỉnh của cơ thể dọc theo đường giữa của đối phương để nén đường vai của họ và hạn chế chuyển động. Các điểm áp lực chính là: đầu của bạn ấn vào xương ức của họ (ngăn họ nhìn đi chỗ khác), cánh tay của bạn giữ vai họ (ngăn cản chuyển động của cánh tay) và trọng lượng ngực của bạn đè lên thân của họ (hạn chế thở và chuyển động hông). North-South là một chân chuyển tiếp dẫn đến các chuyển đổi North-South, Kimura hoặc Side Control.",
+  "description": "Sử dụng áp lực từ vai, ngực vào ngực và điều khiển cánh tay từ North-South Control để choke hoặc chuyển tiếp. North-South là một chốt được đánh giá thấp nhằm nén đường vai của đối thủ và thiết lập các entry submission riêng.",
+  "shortInstruction": "Đặt đầu của bạn vào xương ức của họ, ép khuỷu tay của bạn vào vai họ và dồn trọng lượng của bạn vào ngực họ. Tìm North-South choke hoặc chuyển sang Side Control.",
+  "summary": "Điều khiển North-South sử dụng sự căn chỉnh của cơ thể dọc theo đường giữa của đối phương để nén đường vai của họ và hạn chế chuyển động. Các điểm áp lực chính là: đầu của bạn ấn vào xương ức của họ (ngăn họ nhìn đi chỗ khác), cánh tay của bạn giữ vai họ (ngăn cản chuyển động của cánh tay) và trọng lượng ngực của bạn đè lên thân của họ (hạn chế thở và chuyển động hông). North-South là một pin chuyển tiếp dẫn đến North-South choke, Kimura hoặc chuyển sang Side Control.",
   "whyItWorks": [
     "Áp lực đầu lên xương ức khiến đối phương không thể quay đầu hoặc nhìn đi chỗ khác, đây là bước đầu tiên của hầu hết các cuộc chạy trốn",
     "Nén cánh tay (ép khuỷu tay của bạn để giữ cánh tay của họ) ngăn họ đóng khung hoặc đăng để thoát",
@@ -84,7 +84,7 @@
     "Tấn công hoặc chuyển tiếp - không ở lại"
   ],
   "safetySummary": [
-    "Cuộn cảm North-South có thể hoạt động nhanh, thả ra ngay lập tức khi chạm vào, vì áp lực của cuộn cảm từ góc này có thể nén khí quản",
+    "North-South choke có thể vào rất nhanh, thả ra ngay khi tap, vì áp lực choke từ góc này có thể nén khí quản",
     "Đừng đâm đầu vào cổ họng đối phương - xương ức là mục tiêu chứ không phải cổ họng",
     "Nếu đối thủ có tiền sử vấn đề về cổ, hãy tránh áp lực quá khích North-South"
   ],
@@ -105,23 +105,23 @@
       },
       {
         "condition": "Từ North-South",
-        "action": "bạn có ba nhánh tấn công: (1) North-South bóp cổ, trượt cẳng tay của bạn dưới cổ họ trong khi vẫn giữ áp lực đầu, (2) Kimura, cô lập cánh tay gần của họ và xoay vào tay cầm Kimura, (3) Chuyển sang Side Control hoặc knee-on-belly"
+        "action": "bạn có ba nhánh tấn công: (1) North-South choke, trượt cẳng tay của bạn dưới cổ họ trong khi vẫn giữ áp lực đầu, (2) Kimura, cô lập cánh tay gần của họ và xoay vào tay cầm Kimura, (3) Chuyển sang Side Control hoặc knee-on-belly"
       },
       {
         "condition": "Ứng dụng chung",
-        "action": "Nếu đối thủ chạy về phía mình thì hãy đuổi theo và lùi lại. North-South quay lại là một quá trình chuyển đổi có tỷ lệ phần trăm cao"
+        "action": "Nếu đối thủ chạy về phía mình thì hãy đuổi theo và lấy lưng. North-South → Back Take là một chuyển đổi tỷ lệ cao"
       }
     ],
     "exitStrategies": []
   },
   "moneyDetails": [
     "North-South là một trong những chốt ít được bảo vệ nhất trong BJJ, hầu hết các võ sĩ đều luyện tập rộng rãi để Side Control thoát nhưng lại bỏ bê North-South",
-    "Cú giật North-South là một cú trình diễn có tỷ lệ phần trăm cao có thể hạ gục ngay cả những võ sĩ có kinh nghiệm Guard",
+    "North-South choke là một submission tỷ lệ cao, bắt được cả những võ sĩ giàu kinh nghiệm Guard",
     "Việc nắm vững khả năng điều khiển North-South mang đến cho bạn một trò chơi hàng đầu hoàn chỉnh tấn công cả hai mặt phẳng (đường bên và đường giữa)"
   ],
   "fixItFast": [
     "Nếu họ tiếp tục shrimp ra ngoài: đẩy đầu bạn sâu hơn vào xương ức và kẹp chặt khuỷu tay của bạn hơn - điều này sẽ giết chết lối thoát hông",
     "Nếu họ bắc cầu để lăn bạn: hãy nhón chân và dồn trọng lượng của bạn về phía trước vào ngực họ",
-    "Nếu họ quay về phía họ: hãy đi theo họ và lùi lại, đừng ở lại North-South"
+    "Nếu họ quay về phía họ: hãy đi theo họ và lấy lưng, đừng ở lại North-South"
   ]
 }

@@ -1,19 +1,19 @@
 {
   "id": "back-survival",
   "locale": "vi",
-  "name": "Trở lại Sinh tồn",
+  "name": "Back Survival",
   "description": "Ưu tiên bảo vệ cổ và đánh tay khi đối thủ có seatbelt hoặc móc. Mục tiêu là sống sót đủ lâu để tạo khoảng trống cho một cuộc chạy trốn hoàn toàn.",
   "shortInstruction": "Cằm gập vào, hai tay đặt trên cánh tay bị nghẹt, bảo vệ cổ trước khi dọn móc và không bao giờ quay lưng lại với đối thủ.",
-  "summary": "Sống sót ở phía sau là một hành động giữ: bảo vệ cổ, ngăn chặn chiếc nghẹt thở chìm xuống và kiểm soát hơi thở của bạn trong khi thiết lập trình tự thoát hiểm. Ưu tiên luôn là tay bóp cổ, sau đó là thân Triangle, sau đó là móc.",
+  "summary": "Sống sót ở phía sau là một hành động giữ: bảo vệ cổ, ngăn chặn cánh tay đang siết chìm xuống và kiểm soát hơi thở của bạn trong khi thiết lập trình tự thoát hiểm. Ưu tiên luôn là tay đang siết, sau đó là Body Triangle, sau đó là móc.",
   "whyItWorks": [
-    "rear-naked choke là tỷ lệ phần trăm gửi cao nhất từ ​​Back Control, ngăn không cho nó bị khóa là ưu tiên sinh tồn đầu tiên của bạn",
+    "Rear Naked Choke là tỷ lệ submission cao nhất từ Back Control, ngăn không cho nó bị khóa là ưu tiên sinh tồn đầu tiên của bạn",
     "Giữ cằm thu gọn sẽ thu hẹp khoảng trống giữa hàm và vai, khiến cánh tay bị nghẹn khó tiếp cận động mạch cảnh hơn",
-    "Cả hai tay đặt trên cánh tay nghẹt thở sẽ giúp bạn có thêm thời gian, ngay cả khi họ có seatbelt, bạn vẫn có thể ngăn chặn cú dứt điểm bằng cách kiểm soát cách cầm vợt",
-    "Cơ thể Triangle khó chịu nhưng vẫn có thể sống sót - đừng lãng phí năng lượng để chiến đấu với nó cho đến khi mối đe dọa nghẹt thở được vô hiệu hóa"
+    "Cả hai tay đặt trên cánh tay đang choke sẽ giúp bạn có thêm thời gian, ngay cả khi họ có seatbelt, bạn vẫn có thể ngăn chặn cú dứt điểm bằng cách kiểm soát grip của họ",
+    "Body Triangle khó chịu nhưng vẫn có thể sống sót - đừng lãng phí năng lượng để chiến đấu với nó cho đến khi mối đe dọa choke được vô hiệu hóa"
   ],
   "commonMistakes": [
     "Quay đầu ra khỏi cánh tay bị nghẹn (để lộ phần cổ bên kia) thay vì giữ cằm sát ngực",
-    "Chống lại cơ thể Triangle trong khi cuộn cảm đang được thiết lập, bạn có thể sống sót sau Triangle nhưng không thể sống sót sau cuộn cảm",
+    "Chống lại Body Triangle trong khi choke đang được thiết lập, bạn có thể sống sót sau Triangle nhưng không thể sống sót sau choke",
     "Lãng phí cả hai cánh tay khi cố gắng cạy seatbelt ra thay vì luôn giữ một tay trên cánh tay đang bị nghẹn",
     "Hoảng loạn và bùng nổ dữ dội - điều này đốt cháy năng lượng và thường khiến nút thắt chìm sâu hơn"
   ],
@@ -23,7 +23,7 @@
     "Hít thở chậm, di chuyển có chủ ý"
   ],
   "safetySummary": [
-    "rear-naked choke có thể gây bất tỉnh sau 4-8 giây nếu bị khóa hoàn toàn, nhấn sớm và đặt lại",
+    "rear-naked choke có thể gây bất tỉnh sau 4-8 giây nếu bị khóa hoàn toàn, tap sớm và đặt lại",
     "Đừng để niềm tự hào ngăn cản bạn khai thác - nhiều RNC thua lỗ trong luyện tập giúp bạn có lối thoát tốt hơn là chiến đấu với mọi người đến bờ vực",
     "Nếu bạn cảm thấy đường quai hàm mở ra (cánh tay nghẹn ngào trượt dưới cằm), đã đến lúc phân bổ 100% khả năng phòng thủ của bạn cho trận đánh tay",
     "Giao tiếp với đối tác đào tạo của bạn - một cú chạm là tín hiệu học tập, không phải là thất bại"
@@ -32,12 +32,12 @@
     "corePrinciple": "Sự sống sót ở phía sau tuân theo một hệ thống phân cấp nghiêm ngặt: bảo vệ cổ trước, sau đó kiểm soát cánh tay bị nghẹn, kiểm soát hơi thở và chỉ sau đó mới thiết lập lối thoát. Mỗi lớp chuẩn bị cho lớp tiếp theo - việc bỏ qua các lớp sẽ giúp bạn hoàn thiện ngay lập tức.",
     "decisionTree": [
       {
-        "condition": "Đối thủ có tay cầm seatbelt nhưng không bị khóa sặc",
-        "action": "Giữ cằm, cả hai tay đặt trên cẳng tay đang bị nghẹn và sống cầu để ngăn họ giải quyết cơn nghẹn."
+        "condition": "Đối thủ có tay cầm seatbelt nhưng chưa bị choke",
+        "action": "Giữ cằm, cả hai tay đặt trên cẳng tay đang bị nghẹn và sống sót để ngăn họ siết chặt cơn nghẹn."
       },
       {
-        "condition": "Đối thủ đã khóa cơ thể Triangle nhưng không bị sặc",
-        "action": "Tập trung vào hơi thở và vị trí tay, cơ thể Triangle có thể sống sót được. Đừng lãng phí năng lượng để chiến đấu bằng chân cho đến khi mối đe dọa nghẹt thở được vô hiệu hóa."
+        "condition": "Đối thủ đã khóa Body Triangle nhưng chưa bị choke",
+        "action": "Tập trung vào hơi thở và vị trí tay, cơ thể Triangle có thể sống sót được. Đừng lãng phí năng lượng để chiến đấu bằng chân cho đến khi mối đe dọa choke được vô hiệu hóa."
       },
       {
         "condition": "Đối thủ chuyển sang thử Armbar",
@@ -50,8 +50,8 @@
     ],
     "exitStrategies": [
       "Nếu bạn cảm thấy đường quai hàm mở ra (cánh tay nghẹn ngào trượt dưới cằm), hãy phân bổ 100% khả năng phòng thủ cho trận đấu tay - nắm lấy cẳng tay của họ bằng cả hai tay và kéo nó về phía ngực của bạn.",
-      "Nếu cuộn cảm đã bị khóa ở một bên, hãy chạm ngay lập tức - đừng chờ đợi vị trí phòng thủ tốt hơn.",
-      "Sau khi vô hiệu hóa mối đe dọa nghẹt thở, hãy bắt đầu trình tự thoát ra phía sau: đánh tay → móc câu → quay vào → phục hồi Guard."
+      "Nếu choke đã bị khóa ở một bên, hãy tap ngay lập tức - đừng chờ đợi vị trí phòng thủ tốt hơn.",
+      "Sau khi vô hiệu hóa mối đe dọa choke, hãy bắt đầu trình tự thoát ra phía sau: đánh tay → móc câu → quay vào → phục hồi Guard."
     ]
   },
   "moneyDetails": [
@@ -60,8 +60,8 @@
     "Một phương pháp sinh tồn bình tĩnh, có hệ thống sẽ bảo toàn năng lượng cần thiết cho quá trình thoát sau đó."
   ],
   "fixItFast": [
-    "Nếu họ đã khóa cuộn cảm ở một bên: chạm ngay lập tức - đừng chờ đợi vị trí phòng thủ tốt hơn",
-    "Nếu họ đang làm việc đến seatbelt nhưng vẫn chưa khóa cuộn cảm: hãy giữ cằm của bạn và đập cánh tay gần của bạn qua ngực để chặn lực nắm của họ",
+    "Nếu họ đã khóa choke ở một bên: tap ngay lập tức - đừng chờ đợi vị trí phòng thủ tốt hơn",
+    "Nếu họ đang làm việc đến seatbelt nhưng vẫn chưa khóa choke: hãy giữ cằm của bạn và đập cánh tay gần của bạn qua ngực để chặn lực nắm của họ",
     "Nếu họ lật bạn từ phía sau xuống: hãy bảo vệ cổ bạn ngay lập tức bằng cả hai tay, dang rộng chân và chuẩn bị cho tư thế đấu vật đứng lên"
   ]
 }

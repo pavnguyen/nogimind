@@ -3,7 +3,7 @@
   "domain": "passing",
   "level": "intermediate",
   "status": "draft",
-  "name": "Khái niệm cơ bản về kéo chân",
+  "name": "Leg Drag Basics",
   "aliases": [],
   "tags": [
     "passing",
@@ -44,9 +44,9 @@
   "nextSkillIds": [],
   "searchBoost": 1,
   "keyCorrections": [
-    "Nếu họ tiếp tục Guard kéo chân: lực kéo của bạn không xoay hông họ đủ, hãy kéo chân xa hơn trên cơ thể bạn",
-    "Nếu họ đá phạt: tay cầm của bạn quá nông - tay cầm ở đầu gối hoặc giữa đùi, không phải mắt cá chân",
-    "Nếu họ lùi lại: đầu bạn ở bên trong - hãy giữ đầu bạn ở bên ngoài chân họ"
+    "Nếu họ cứ chơi lại Guard: lực kéo của bạn chưa xoay đủ hông họ, hãy kéo chân xa hơn qua người bạn",
+    "Nếu đối thủ đá chân ra: grip của bạn quá nông, hãy nắm ở đầu gối hoặc giữa đùi chứ không phải ở mắt cá chân",
+    "Nếu họ lùi lại: đầu bạn đang ở bên trong, hãy giữ đầu ở bên ngoài chân họ"
   ],
   "version": 1,
   "updatedAt": "2026-05-21T00:24:30.749Z",
@@ -61,66 +61,66 @@
     "hasStateMachine": false
   },
   "locale": "vi",
-  "description": "Kéo chân của đối phương qua đường giữa để xoay hông và tiếp xúc với chốt hoặc lưng. Lực kéo của chân là vị trí Guard pass chiếm ưu thế nhất - nó cho phép bạn kiểm soát hoàn toàn phần thân dưới của họ.",
-  "shortInstruction": "Từ trụ sở chính, bước ra bên ngoài, với lấy chân gần của họ, kéo ngang cơ thể bạn và ghim nó vào tấm thảm. Vòng sang phía đối diện và lấy Side Control hoặc mặt sau.",
-  "summary": "Kéo chân tấn công căn cứ của đối thủ bằng cách điều khiển một chân và kéo nó ngang qua cơ thể bạn, xoay hông của họ ra khỏi bạn. Sau khi xoay hông, họ không thể tái-Guard một cách hiệu quả. Kéo chân là vị trí pass chiếm ưu thế nhất vì nó vô hiệu hóa hoàn toàn Guard của đối thủ, họ không thể sweep, phục tùng hoặc phục hồi Guard từ vị trí kéo chân.",
+  "description": "Kéo chân đối phương ngang qua đường giữa để xoay hông họ và mở ra thế pin hoặc Back Control. Leg Drag là vị trí Guard pass chiếm ưu thế nhất, nó cho phép bạn kiểm soát hoàn toàn phần thân dưới của họ.",
+  "shortInstruction": "Từ headquarters, bước ra bên ngoài, với lấy chân gần của họ, kéo ngang qua cơ thể bạn và ghim xuống thảm. Vòng sang phía đối diện và vào Side Control hoặc Back Control.",
+  "summary": "Leg Drag tấn công base của đối thủ bằng cách điều khiển một chân và kéo nó ngang qua cơ thể bạn, làm hông họ xoay ra khỏi bạn. Sau khi hông đã xoay, họ không thể chơi lại Guard hiệu quả. Leg Drag là vị trí pass ưu thế nhất vì nó vô hiệu hóa hoàn toàn Guard của đối thủ: họ không thể sweep, không thể kết liễu và không thể hồi phục Guard từ thế Leg Drag.",
   "whyItWorks": [
-    "Kéo chân qua đường giữa sẽ xoay hông đối phương ra xa bạn, điều kiện tiên quyết cho tất cả các lần giữ Guard",
-    "Động tác kéo chân yêu cầu đối thủ phải đứng bằng cả hai tay để giữ thăng bằng - họ không thể đóng khung hoặc bám chặt từ vị trí này",
-    "Xoay hông và đặt tay, đối thủ không có công cụ nào để bảo vệ đường chuyền",
-    "Lực kéo chân chuyển sang cả Side Control và Back Control, hai vị trí chiếm ưu thế nhất"
+    "Kéo chân qua đường giữa làm hông đối phương xoay ra xa bạn, điều kiện tiên quyết để họ giữ được Guard",
+    "Leg Drag buộc đối thủ phải chống cả hai tay để giữ thăng bằng, nên họ không thể dựng frame hoặc bám chặt từ vị trí này",
+    "Khi hông đã xoay và tay đã chống, đối thủ không còn công cụ nào để bảo vệ đường pass",
+    "Leg Drag nối thẳng sang cả Side Control và Back Control, hai vị trí ưu thế nhất"
   ],
   "commonMistakes": [
-    "Kéo chân mà không bước ra ngoài trước, bạn phải tạo góc trước khi kéo",
-    "Nâng chân lên thay vì kéo - lực kéo là lực kéo ngang chứ không phải lực nâng",
-    "Nhả chân quá sớm, duy trì khả năng kiểm soát chân cho đến khi thiết lập được Side Control",
-    "Không bảo vệ chân khỏi Heel Hook giây, giữ chân sát cơ thể bạn để ngăn chặn các cuộc tấn công vào chân"
+    "Leg Drag mà không bước ra ngoài trước, bạn phải tạo góc trước khi kéo",
+    "Nâng chân lên thay vì kéo ngang, Leg Drag là lực kéo ngang chứ không phải lực nâng",
+    "Nhả chân quá sớm, hãy giữ kiểm soát chân cho đến khi thiết lập được Side Control",
+    "Không bảo vệ chân khỏi Heel Hook, hãy giữ chân sát người để chặn các đòn tấn công chân"
   ],
   "coachingCues": [
     "Bước ra ngoài rồi kéo",
     "Kéo sang bên, không nhấc lên",
     "Xoay hông, Guard chết",
-    "Kéo chân sang bên hoặc phía sau"
+    "Leg Drag sang bên hoặc ra sau"
   ],
   "safetySummary": [
-    "Cẩn thận Heel Hooks khi khống chế chân đối phương, giữ chân sát người để tránh bị giật",
+    "Cẩn thận Heel Hook khi khống chế chân đối phương, giữ chân sát người để tránh bị giật",
     "Không kéo chân ở một góc bất tiện khiến hông hoặc đầu gối bị duỗi quá mức",
-    "Nếu đối thủ lăn để thoát chân thì thả chân ra và lăn theo để lấy lại"
+    "Nếu đối thủ lăn để thoát chân thì thả chân ra và lăn theo để lấy lại vị trí"
   ],
   "systemLogic": {
-    "corePrinciple": "Kéo chân có bốn giai đoạn: Bước ngoài → Nắm chân → Kéo → Ghim",
+    "corePrinciple": "Leg Drag có bốn giai đoạn: Bước ngoài → Nắm chân → Kéo → Ghim",
     "decisionTree": [
       {
         "condition": "Trong Giai đoạn 1 (Bước ngoài)",
-        "action": "từ trụ sở chính, bước chân dẫn đầu của bạn ra bên ngoài chân gần của họ. Điều này tạo ra góc cho lực kéo"
+        "action": "từ headquarters, bước chân dẫn đầu của bạn ra bên ngoài chân gần của họ. Điều này tạo ra góc cho cú kéo"
       },
       {
-        "condition": "Ở Giai đoạn 2 (Gắp chân)",
-        "action": "vươn tay qua và nắm lấy chân gần của họ ở đầu gối hoặc giữa đùi. Tay còn lại của bạn trụ trên thảm để giữ thăng bằng"
+        "condition": "Ở Giai đoạn 2 (Nắm chân)",
+        "action": "vươn tay qua và nắm chân gần của họ ở đầu gối hoặc giữa đùi. Tay còn lại chống xuống thảm để giữ thăng bằng"
       },
       {
         "condition": "Ở Giai đoạn 3 (Kéo)",
-        "action": "kéo chân của họ qua cơ thể bạn về phía hông xa của bạn. Điều này khiến hông của họ rời xa bạn. Khi hông xoay, họ phải đặt cả hai tay để giữ thăng bằng"
+        "action": "kéo chân của họ ngang qua cơ thể bạn về phía hông xa của bạn. Điều này làm hông họ rời xa bạn. Khi hông xoay, họ phải chống cả hai tay để giữ thăng bằng"
       },
       {
-        "condition": "Ở Giai đoạn 4 (Pin)",
-        "action": "Khi hông của họ đã xoay và tay đã đặt lên, hãy ghim chân của họ vào thảm và vòng sang phía đối diện. Nhập Side Control hoặc quay lại"
+        "condition": "Ở Giai đoạn 4 (Ghim)",
+        "action": "Khi hông của họ đã xoay và tay đã chống, hãy ghim chân họ xuống thảm và vòng sang phía đối diện. Vào Side Control hoặc Back Control"
       },
       {
-        "condition": "việc kéo chân không thành công (họ lại-Guard)",
-        "action": "đặt lại về trụ sở chính và thử một đường chuyền khác (cắt đầu gối hoặc lùi lại)"
+        "condition": "Leg Drag không thành công (họ chơi lại Guard)",
+        "action": "reset về headquarters và thử một đường pass khác (Knee Cut hoặc Backstep)"
       }
     ],
     "exitStrategies": []
   },
   "moneyDetails": [
-    "Kéo chân là vị trí chuyền bóng chiếm ưu thế nhất Guard trong BJJ, không có đường chuyền nào khác mang lại cho bạn khả năng kiểm soát hoàn toàn như vậy",
-    "Thành thạo cách kéo chân cho phép bạn vô hiệu hóa Guard của ngay cả những đối thủ linh hoạt nhất",
-    "Kéo chân là thành phần cốt lõi của hệ thống passing của Gordon Ryan"
+    "Leg Drag là vị trí pass ưu thế nhất trong BJJ, không đường pass nào khác cho bạn quyền kiểm soát hoàn toàn như vậy",
+    "Thành thạo Leg Drag cho phép bạn vô hiệu hóa Guard của cả những đối thủ linh hoạt nhất",
+    "Leg Drag là thành phần cốt lõi trong hệ thống passing của Gordon Ryan"
   ],
   "fixItFast": [
-    "Nếu họ tiếp tục lặp lạiguarding: hãy kéo chân xa hơn trên cơ thể để xoay hông nhiều hơn",
-    "Nếu họ đá tự do: nắm chân cao hơn (trên đầu gối, không phải bên dưới)",
-    "Nếu họ cố gắng Heel Hook: giữ chân sát ngực và vòng ra phía sau"
+    "Nếu họ cứ chơi lại Guard: hãy kéo chân xa hơn qua người bạn để xoay hông nhiều hơn",
+    "Nếu họ đá chân ra tự do: nắm chân cao hơn (trên đầu gối, không phải bên dưới)",
+    "Nếu họ cố Heel Hook: giữ chân sát ngực và vòng ra phía sau"
   ]
 }

@@ -48,9 +48,9 @@
   "nextSkillIds": [],
   "searchBoost": 1,
   "keyCorrections": [
-    "Nếu bạn không thể khóa Saddle thì hông của họ vẫn quá gần, hãy tạo sự tách biệt bằng cách đá chân móc của bạn sâu hơn.",
-    "Nếu họ quay ra ngoài, bạn sẽ mất khả năng kiểm soát hông ở xa - hãy thiết lập lại cách cầm hông trước lần thử tiếp theo.",
-    "Nếu họ làm phẳng bạn trong Saddle thì góc của bạn sai, đưa hông của bạn hướng lên về phía đường vai của họ."
+    "Nếu không khóa được Saddle thì hông họ còn quá gần - tạo khoảng cách bằng cách đá chân móc sâu hơn.",
+    "Nếu họ xoay thoát, bạn đã mất kiểm soát hông xa - đặt lại grip hông trước lần thử tiếp theo.",
+    "Nếu họ ép bạn bẹt trong Saddle thì góc của bạn sai - dịch hông lên về phía đường vai của họ."
   ],
   "version": 1,
   "updatedAt": "2026-05-21T00:24:30.771Z",
@@ -64,56 +64,56 @@
     "hasStateMachine": false
   },
   "locale": "vi",
-  "description": "Bắt cầu từ sai lầm vào Saddle (Inside Sankaku) khi đối thủ tách hông hoặc lùi lại, sử dụng chuyển động của họ để xoay vào tư thế vướng chân.",
-  "shortInstruction": "Họ tách hông ra hay lùi lại? Bắt hông của bạn qua và khóa Saddle, lối thoát của họ trở thành mục tiêu của bạn.",
-  "summary": "Cầu gặt sai đến cầu Saddle là chuỗi tấn công chính từ vị trí gặt sai. Khi đối phương cảm thấy chân của mình bị kiểm soát và cố gắng giải phóng bằng cách lùi lại hoặc tách hông ra, họ sẽ tạo ra góc xoay chính xác mà bạn cần để vung chân trên qua cơ thể của họ và khóa Saddle (Inside Sankaku). Lối thoát của họ tạo sức mạnh cho mục nhập của bạn - đây là nguyên tắc Danaher sử dụng phản ứng của đối thủ làm thiết lập của bạn.",
+  "description": "Bắc cầu từ False Reap vào Saddle (Inside Sankaku) khi đối phương tách hông hoặc lùi lại, dùng chuyển động của họ để xoay vào tư thế vướng chân.",
+  "shortInstruction": "Họ tách hông hoặc lùi lại? Đưa hông qua và khóa Saddle - lối thoát của họ thành entry của bạn.",
+  "summary": "False Reap to Saddle Bridge là chuỗi tấn công chính từ tư thế False Reap. Khi đối phương thấy chân mình bị kiểm soát và cố gỡ bằng cách lùi lại hoặc tách hông, họ tạo ra đúng góc xoay bạn cần để vung chân trên qua người họ và khóa Saddle (Inside Sankaku). Lối thoát của họ nuôi entry của bạn - đây là nguyên tắc Danaher: dùng phản ứng của đối thủ làm thiết lập.",
   "whyItWorks": [
-    "Khi họ tách hông ra để thoát khỏi cú gặt giả, chân của bạn sẽ tự nhiên vung qua cơ thể họ vào vị trí Saddle.",
-    "Chuyển động bước của họ dồn trọng lượng của họ lên chân móc của bạn, mang lại cho bạn lợi thế cơ học cho cây cầu.",
-    "Quá trình chuyển đổi không yêu cầu tạo không gian - chuyển động của họ tạo ra tất cả không gian bạn cần.",
-    "Từ Saddle, bạn có quyền truy cập trực tiếp vào Heel Hook, giữ ngón chân và lùi lại."
+    "Khi họ tách hông để thoát khỏi False Reap, chân bạn tự nhiên vung qua người họ vào tư thế Saddle.",
+    "Động tác bước của họ dồn trọng lượng lên chân móc của bạn, cho bạn lợi thế cơ học cho cú bắc cầu.",
+    "Pha chuyển không cần tạo khoảng trống - chuyển động của họ tạo ra đủ khoảng trống bạn cần.",
+    "Từ Saddle, bạn vào thẳng Heel Hook, Toe Hold và Back Take."
   ],
   "commonMistakes": [
-    "Cố gắng chuyển sang Saddle trước khi đối thủ phản ứng, bạn cần chuyển động của họ để tạo góc.",
-    "Mất khả năng kiểm soát hông ở xa khi qua cầu - họ sẽ lao ra cửa sau.",
-    "Không duy trì móc khi bạn bắc cầu - chân móc của bạn phải quấn sâu hơn chứ không được thả ra.",
-    "Không khóa chân bạn vào Saddle - Saddle lỏng lẻo sẽ khiến chân bạn thoát ra ngoài."
+    "Cố bắc cầu sang Saddle trước khi đối phương phản ứng - bạn cần chuyển động của họ để tạo góc.",
+    "Mất kiểm soát hông xa trong lúc bắc cầu - họ sẽ xoay thoát ra cửa sau.",
+    "Không giữ móc khi bắc cầu - chân móc phải quấn sâu hơn chứ không được nhả.",
+    "Không khóa được hai chân trong Saddle - Saddle lỏng là họ thoát."
   ],
   "coachingCues": [
-    "Đợi bước đi của họ - cây cầu là một phản ứng.",
-    "Móc sâu, cầu cứng, khóa chặt.",
-    "Cảm nhận sự tách rời của hông - đó là tác nhân kích hoạt của bạn.",
-    "Saddle hoặc quay lại, hai tùy chọn từ một cây cầu."
+    "Đợi bước của họ - cú bắc cầu là phản ứng.",
+    "Móc sâu, bắc cầu mạnh, khóa chặt.",
+    "Cảm nhận hông họ tách ra - đó là tín hiệu của bạn.",
+    "Saddle hoặc Back Take - hai lựa chọn từ một cú bắc cầu."
   ],
   "safetySummary": [
-    "Đừng bắt cầu một cách bùng nổ nếu bạn không kiểm soát được chân xa của họ - họ có thể đá tự do và duỗi đầu gối của chính bạn.",
-    "Khi khóa Saddle, hãy giữ chân bị kẹt ở vị trí an toàn, không xoay Heel Hook cho đến khi Saddle được khóa hoàn toàn.",
-    "Nếu họ xếp bạn trong cầu, hãy thả ra và vào lại - đừng để họ ấn đầu bạn vào thảm."
+    "Đừng bắc cầu bùng nổ nếu chưa kiểm soát chân xa của họ - họ có thể đá ra và làm ưỡn ngược đầu gối bạn.",
+    "Khi khóa Saddle, giữ chân bị kẹt của họ ở tư thế an toàn - chưa siết Heel Hook cho đến khi Saddle khóa hoàn toàn.",
+    "Nếu họ stack bạn trong lúc bắc cầu, hãy nhả ra và vào lại - đừng để họ ấn đầu bạn xuống thảm."
   ],
   "systemLogic": {
-    "corePrinciple": "Thiết lập sai lầm: đối thủ tách hông hoặc lùi lại → bắt hông của bạn qua → khóa Saddle → tấn công Heel Hook hoặc lùi lại.",
+    "corePrinciple": "False Reap đã vào: đối phương tách hông hoặc lùi lại → bắc cầu hông qua → khóa Saddle → tấn công Heel Hook hoặc Back Take.",
     "decisionTree": [
       {
-        "condition": "họ không tách hông ra",
-        "action": "Thay vào đó hãy tấn công Kimura từ việc gặt hái sai lầm, họ phải phản ứng lại một mối đe dọa, tạo ra mối đe dọa khác."
+        "condition": "họ không tách hông",
+        "action": "thay vào đó tấn công Kimura từ False Reap - họ phải phản ứng với một mối đe dọa, tạo ra mối đe dọa kia."
       },
       {
         "condition": "Từ Saddle",
-        "action": "bên trong Heel Hook, giữ ngón chân hoặc lùi lại khi lăn."
+        "action": "Heel Hook bên trong, Toe Hold, hoặc lấy lưng khi họ xoay."
       }
     ],
     "exitStrategies": []
   },
   "moneyDetails": [
-    "Giữ móc của bạn sâu trên đùi họ trong suốt cây cầu - móc nông sẽ mất kết nối trong quá trình xoay.",
-    "Khi bạn bắc cầu, hãy dùng tay kiểm soát hông xa của họ để ngăn họ quay đi.",
-    "Khóa Saddle bằng cách bắt chéo chân của bạn ra sau lưng họ, bàn chân trên móc vào dưới mắt cá chân dưới của bạn.",
-    "Sau khi khóa Saddle, hãy đưa hông về phía vai của họ để thắt chặt sự vướng víu trước khi tấn công."
+    "Giữ móc sâu trên đùi họ suốt cú bắc cầu - móc nông sẽ mất kết nối trong lúc xoay.",
+    "Trong lúc bắc cầu, dùng tay kiểm soát hông xa của họ để họ không xoay đi.",
+    "Khóa Saddle bằng cách bắt chéo hai chân ra sau lưng họ - bàn chân trên móc vào dưới mắt cá chân dưới của bạn.",
+    "Sau khi khóa Saddle, dịch hông về phía vai họ để siết vướng chân trước khi tấn công."
   ],
-  "nextStep": "Sau khi thành thạo mục Saddle, hãy tìm hiểu động tác kết thúc bên trong Heel Hook và động tác lùi từ Saddle để hoàn thiện hệ thống tấn công bằng chân.",
+  "nextStep": "Sau khi nắm entry Saddle, học đòn kết thúc Heel Hook bên trong và Back Take từ Saddle để hoàn thiện hệ thống đòn chân.",
   "fixItFast": [
-    "Saddle không khóa? Cú móc của bạn quá nông - hãy vào lại sâu hơn ở đùi.",
-    "Họ tiếp tục quay ra ngoài? Khả năng kiểm soát hông xa của bạn yếu - hãy nắm chặt hông hoặc thắt lưng của họ.",
-    "Họ san phẳng bạn? Nhả Saddle và đặt lại về vị trí Guard, không chiến đấu ở tư thế nằm phẳng."
+    "Saddle không khóa? Móc của bạn quá nông - vào lại sâu hơn ở đùi.",
+    "Họ cứ xoay thoát? Kiểm soát hông xa của bạn yếu - nắm chặt hông hoặc cổ tay của họ.",
+    "Họ ép bạn bẹt? Nhả Saddle và về lại Seated Guard, đừng đánh từ tư thế nằm bẹt."
   ]
 }

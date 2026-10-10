@@ -49,7 +49,7 @@
   "searchBoost": 1,
   "keyCorrections": [
     "Nếu họ tiếp tục ngồi dậy: áp lực ở ngực của bạn không đủ - hãy đẩy ngực của bạn sâu hơn vào lưng trên của họ",
-    "Nếu họ biến thành bạn: chuyển sang phía sau ngay lập tức - đừng ở trong móng vuốt",
+    "Nếu họ quay vào bạn: chuyển sang lấy lưng ngay lập tức - đừng ở trong móng vuốt",
     "Nếu bạn mất khả năng bám móng vuốt: hãy thiết lập lại nó bằng cách đưa tay vào sâu hơn xung quanh hông của họ"
   ],
   "version": 1,
@@ -64,62 +64,62 @@
     "hasStateMachine": false
   },
   "locale": "vi",
-  "description": "Sử dụng kẹp cánh tay và ngực xung quanh đường hông hoặc thân của Tư thế rùa, xây dựng phần đế và cố định phần lưng tiếp xúc thông qua các công tắc hông và chiến đấu bằng tay. Cùm cưỡi là một hệ thống điều khiển chuyển tiếp sử dụng kẹp chân và tay để phá vỡ vị trí của Tư thế rùa.",
-  "shortInstruction": "Từ con Tư thế rùa, kẹp cánh tay gần của bạn quanh hông họ (nắm móng vuốt), ấn ngực vào xương sườn của họ và đưa hông sang một bên để làm sập phần đế của họ. Chuyển đổi giữa vuốt và quay lại khi họ phản ứng.",
-  "summary": "Động tác cưỡi vuốt sử dụng một đòn kẹp tay sâu quanh hông hoặc phần thân dưới của đối phương để phá vỡ tư thế Tư thế rùa và để lộ phần lưng. Kiểu nắm móng vuốt (cánh tay quấn quanh hông, tay nắm lấy phần hông xa hoặc đường thắt lưng) tạo ra một đòn bẩy cấu trúc cho phép bạn kéo đối thủ xuống trong khi áp lực ngực của bạn ngăn cản họ đứng lên. Hệ thống xen kẽ giữa áp lực bằng móng vuốt và các nỗ lực lùi lại, buộc đối thủ phải phòng thủ một bên và vạch trần bên kia.",
+  "description": "Sử dụng kẹp cánh tay và ngực xung quanh đường hông hoặc thân của Turtle để xây đế và giữ tiếp xúc lưng qua các công tắc hông và hand fighting. Claw Ride là một hệ thống điều khiển chuyển tiếp, dùng kẹp chân và tay để phá vỡ thế Turtle.",
+  "shortInstruction": "Từ Turtle, kẹp cánh tay gần của bạn quanh hông họ (nắm móng vuốt), ấn ngực vào xương sườn của họ và đưa hông sang một bên để làm sập phần đế của họ. Chuyển đổi giữa claw và Back Take khi họ phản ứng.",
+  "summary": "Claw Ride dùng một đòn kẹp tay sâu quanh hông hoặc phần thân dưới của đối phương để phá vỡ thế Turtle và để lộ phần lưng. Kiểu nắm móng vuốt (cánh tay quấn quanh hông, tay nắm lấy phần hông xa hoặc đường thắt lưng) tạo ra một đòn bẩy cấu trúc cho phép bạn kéo đối thủ xuống trong khi áp lực ngực của bạn ngăn cản họ đứng lên. Hệ thống xen kẽ giữa áp lực claw và các nỗ lực Back Take, buộc đối thủ phải phòng thủ một bên và vạch trần bên kia.",
   "whyItWorks": [
     "Tay nắm dạng vuốt ở hông xa tạo ra một đòn bẩy kéo phần đế của đối phương ra khỏi phía dưới họ - họ không thể đứng dậy khi hông bị kéo về phía bạn",
-    "Áp lực của ngực lên xương sườn khiến họ không thể ngồi dậy hoặc quay sang bạn - hai con Tư thế rùa chính thoát",
-    "Việc xen kẽ giữa áp lực vuốt và nỗ lực lùi lại sẽ tạo ra một tình huống khó xử - nếu họ bảo vệ móng vuốt, họ sẽ làm lộ phần lưng",
+    "Áp lực của ngực lên xương sườn khiến họ không thể ngồi dậy hoặc quay sang bạn - hai lối thoát Turtle chính",
+    "Việc xen kẽ giữa áp lực claw và nỗ lực Back Take sẽ tạo ra một tình huống khó xử - nếu họ bảo vệ móng vuốt, họ sẽ làm lộ phần lưng",
     "Việc di chuyển bằng móng vuốt hoạt động từ cả hai phía - bạn có thể chuyển móng vuốt của mình sang hông đối diện mà không bị mất áp lực"
   ],
   "commonMistakes": [
     "Kẹp thân quá cao thay vì hông - có thể thoát khỏi kẹp thân bằng cách ngồi qua",
     "Để ngực của bạn tách khỏi lưng họ - sự kết nối của ngực là nguyên nhân khiến họ không thể đứng lên",
-    "Ở trong chế độ vuốt quá lâu mà không chuyển đổi - thao tác vuốt là một điều khiển chuyển tiếp, không phải là chốt",
+    "Ở trong chế độ vuốt quá lâu mà không chuyển đổi - Claw Ride là điều khiển chuyển tiếp, không phải là thế ghim",
     "Không bảo vệ đầu của chính bạn - đối thủ có thể ngồi qua và lấy lưng bạn nếu đầu của bạn ở phía xa mà không kiểm soát được"
   ],
   "coachingCues": [
     "Vuốt vào hông, không phải xương sườn",
     "Luôn luôn đặt ngực trên lưng",
-    "Vuốt và quay lại thay thế",
+    "Claw và Back Take xen kẽ",
     "Bảo vệ vị trí đầu của bạn"
   ],
   "safetySummary": [
-    "Không tạo áp lực xoay đột ngột lên cột sống của đối phương khi hạ gục Tư thế rùa - hãy sử dụng áp lực chậm, có kiểm soát",
-    "Nếu đối thủ bất ngờ lăn ra khỏi xe vuốt, hãy bảo vệ đầu và cổ của bạn",
+    "Không tạo áp lực xoay đột ngột lên cột sống của đối phương khi phá Turtle - hãy sử dụng áp lực chậm, có kiểm soát",
+    "Nếu đối thủ bất ngờ lăn ra khỏi Claw Ride, hãy bảo vệ đầu và cổ của bạn",
     "Hãy chú ý đến ngón tay của bạn khi vuốt - ngón tay bị kẹt giữa thảm và cơ thể đối phương có thể bị thương"
   ],
   "systemLogic": {
-    "corePrinciple": "Hành trình vuốt ve là một hệ thống ba giai đoạn: Thiết lập móng vuốt: Thu gọn Tư thế rùa → Quay lại",
+    "corePrinciple": "Claw Ride là một hệ thống ba giai đoạn: thiết lập móng vuốt → thu gọn Turtle → lấy lưng",
     "decisionTree": [
       {
         "condition": "Ở Giai đoạn 1 (Thiết lập móng vuốt)",
-        "action": "từ phía sau Tư thế rùa, đưa cánh tay gần của bạn quanh hông họ và nắm lấy nếp gấp hoặc thắt lưng ở hông xa của họ. Ngực của bạn phải được kết nối với lưng trên hoặc xương bả vai của họ"
+        "action": "từ phía sau Turtle, đưa cánh tay gần của bạn quanh hông họ và nắm lấy nếp gấp hoặc thắt lưng ở hông xa của họ. Ngực của bạn phải được kết nối với lưng trên hoặc xương bả vai của họ"
       },
       {
-        "condition": "Ở Giai đoạn 2 (Thu gọn Tư thế rùa)",
+        "condition": "Ở Giai đoạn 2 (Thu gọn Turtle)",
         "action": "đẩy ngực của bạn xuống lưng họ đồng thời kéo hông họ về phía bạn bằng tay nắm. Đưa đầu gối của bạn về phía đầu của họ để làm phẳng họ. Họ nên lăn trên hông hoặc bên hông"
       },
       {
-        "condition": "Ở Giai đoạn 3 (Quay lại)",
+        "condition": "Ở Giai đoạn 3 (Back Take)",
         "action": "khi họ sụp xuống, hãy thả tay nắm có móng vuốt ra và thay thế bằng seatbelt (tay qua vai phía xa, tay ở hông gần). Trượt đầu gối gần của bạn vào đường hông của họ và cố định Back Control"
       },
       {
         "condition": "họ chống lại sự sụp đổ bằng cách tỏ ra cứng rắn",
-        "action": "thay vào đó hãy chuyển tay cầm của bạn sang cổ tay gần và sử dụng chuyển động xoắn ốc để thu gọn họ. Đi xe vuốt và đi xe xoắn ốc là những hệ thống bổ sung"
+        "action": "thay vào đó hãy chuyển tay cầm của bạn sang cổ tay gần và sử dụng chuyển động xoắn ốc để thu gọn họ. Claw Ride và Spiral Ride là những hệ thống bổ sung"
       }
     ],
     "exitStrategies": []
   },
   "moneyDetails": [
-    "Cưỡi bằng móng vuốt là hệ thống phá Tư thế rùa chính trong đấu vật hiện đại và BJJ, mọi võ sĩ được huấn luyện để bẻ Tư thế rùa đều sử dụng hệ thống này",
-    "Việc thành thạo cách cưỡi bằng càng sẽ mang lại cho bạn một con đường đáng tin cậy từ Tư thế rùa đến Back Control, vị trí thuận lợi nhất trong môn vật",
-    "Động tác vuốt có tác dụng chống lại những đối thủ lớn hơn vì nó sử dụng đòn bẩy (kéo hông) thay vì sức mạnh"
+    "Claw Ride là hệ thống phá Turtle chính trong đấu vật hiện đại và BJJ, mọi võ sĩ được huấn luyện để phá Turtle đều dùng hệ thống này",
+    "Thành thạo Claw Ride mang lại cho bạn con đường đáng tin cậy từ Turtle đến Back Control, vị trí thuận lợi nhất trong môn vật",
+    "Claw Ride có tác dụng chống lại những đối thủ lớn hơn vì nó sử dụng đòn bẩy (kéo hông) thay vì sức mạnh"
   ],
   "fixItFast": [
     "Nếu họ ngồi dậy bất chấp móng vuốt của bạn: hãy chuyển sang buộc cổ và ấn đầu họ xuống thảm - điều khiển đầu luôn luôn đúng tư thế",
-    "Nếu họ lăn về phía bạn: thả móng vuốt ra và thu lại",
+    "Nếu họ lăn về phía bạn: thả móng vuốt ra và lấy lưng",
     "Nếu họ lăn đi khỏi bạn: hãy đuổi theo họ, giữ móng vuốt và ấn ngực bạn vào lưng họ"
   ]
 }

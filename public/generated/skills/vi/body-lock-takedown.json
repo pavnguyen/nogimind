@@ -49,9 +49,9 @@
   "nextSkillIds": [],
   "searchBoost": 1,
   "keyCorrections": [
-    "Nếu họ tiếp tục thoát khỏi ổ khóa: khuỷu tay của bạn quá rộng - hãy kẹp họ lại với nhau để bẫy cánh tay",
-    "Nếu bạn không thể nhấc lên: thay vào đó hãy sử dụng một chuyến đi - dùng chân móc chân trước của họ và đẩy họ lùi lại",
-    "Nếu bạn đáp xuống Guard của họ: đầu bạn quá cao, hãy giữ đầu bạn tựa vào ngực họ chứ không phải bụng họ"
+    "Nếu họ liên tục thoát khỏi Bodylock: khuỷu tay của bạn quá rộng - hãy ép chúng vào nhau để bẫy cánh tay",
+    "Nếu bạn không thể lift: hãy dùng trip - móc chân trước của họ và đẩy họ lùi lại",
+    "Nếu bạn tiếp đất trong Guard của họ: đầu bạn quá cao, hãy giữ đầu tựa vào ngực họ chứ không phải bụng họ"
   ],
   "version": 1,
   "updatedAt": "2026-05-21T00:24:30.769Z",
@@ -65,62 +65,62 @@
     "hasStateMachine": false
   },
   "locale": "vi",
-  "description": "Khóa cánh tay quanh thân bằng móc hoặc Tư thế rùa, lái qua hông và đưa đối thủ trở lại thảm. Khóa cơ thể là đòn hạ gục có khả năng kiểm soát cao nhất trong vật - nó ngăn cản đối thủ thoát và đưa bạn vào thế thống trị.",
-  "shortInstruction": "Khóa hai tay ra sau lưng ngang hông, bước vào giữa hai chân của họ, ép khuỷu tay của bạn vào nhau và đưa họ lùi về phía thảm. Hạ cánh ở Side Control hoặc Mount.",
-  "summary": "Khóa cơ thể là vị trí hạ gục chiếm ưu thế nhất trong No-Gi vì nó loại bỏ khả năng trụ hoặc trụ của đối phương, cả hai cánh tay đều bị kẹt giữa cơ thể bạn và cơ thể của họ. Từ khóa cơ thể, bạn có thể nhấc, vấp hoặc đẩy đối thủ xuống thảm trong khi vẫn duy trì toàn quyền kiểm soát phần thân trên. Khóa cơ thể cũng là công cụ mat return chính khi đối thủ đứng từ Tư thế rùa hoặc Half Guard.",
+  "description": "Khóa cả hai tay quanh thân đối thủ khi họ đứng hoặc ở Turtle, lái qua hông và đưa họ trở lại thảm. Bodylock là takedown có khả năng kiểm soát cao nhất trong vật: nó ngăn đối thủ thoát và đưa bạn vào thế thống trị.",
+  "shortInstruction": "Khóa hai tay sau lưng họ ngang hông, bước vào giữa hai chân của họ, ép hai khuỷu tay vào nhau rồi đưa họ xuống thảm. Tiếp đất ở Side Control hoặc Mount.",
+  "summary": "Bodylock là vị trí takedown ưu thế nhất trong No-Gi vì nó loại bỏ khả năng trụ và post của đối phương: cả hai cánh tay của họ đều bị kẹt giữa cơ thể bạn và cơ thể họ. Từ Bodylock, bạn có thể lift, trip hoặc lái đối thủ xuống thảm trong khi vẫn kiểm soát hoàn toàn phần thân trên. Bodylock cũng là công cụ mat return chính khi đối thủ đứng lên từ Turtle hoặc Half Guard.",
   "whyItWorks": [
-    "Khóa tay bạn sau lưng sẽ khiến cả hai cánh tay của họ bị mắc kẹt - họ không thể trụ, đóng khung hoặc đế để đỡ cú ngã",
-    "Khóa cơ thể chuyển toàn bộ trọng lượng cơ thể của bạn vào cú hạ gục - bạn đang lái xe bằng chân và hông chứ không phải bằng tay",
-    "Lớp hoàn thiện khóa thân đưa bạn vào vị trí thống trị (Side Control hoặc Mount), không phải trong Guard của họ",
-    "Khóa cơ thể được an toàn trước Guillotines, đầu bạn tựa vào ngực họ chứ không phải hông họ"
+    "Khóa hai tay bạn sau lưng họ khiến cả hai cánh tay của họ bị mắc kẹt - họ không thể trụ, dựng khung hoặc post để đỡ cú ngã",
+    "Bodylock dồn toàn bộ trọng lượng cơ thể bạn vào cú takedown - bạn lái bằng chân và hông chứ không phải bằng tay",
+    "Kết thúc Bodylock đưa bạn vào vị trí thống trị (Side Control hoặc Mount), không phải vào Guard của họ",
+    "Bodylock an toàn trước Guillotine: đầu bạn tựa vào ngực họ chứ không phải hông họ"
   ],
   "commonMistakes": [
-    "Khóa tay quá cao (ở xương bả vai) - khóa phải ngang hông để có lợi thế cơ học",
-    "Giữ khuỷu tay rộng - khuỷu tay bị chèn ép sẽ bẫy cánh arm của đối phương và ngăn họ post",
-    "Uốn cong ở thắt lưng thay vì lái qua chân - động tác hạ gục đến từ phần mở rộng hông chứ không phải phần thân trên",
-    "Nhả khóa trong khi hạ gục - duy trì độ bám cho đến khi đối thủ nằm hoàn toàn trên thảm"
+    "Bodylock quá cao (ở xương bả vai) - khóa phải ngang hông để có lợi thế cơ học",
+    "Giữ khuỷu tay rộng - khuỷu tay ép sát sẽ bẫy cánh tay của đối phương và ngăn họ post",
+    "Gập ở thắt lưng thay vì lái qua chân - động tác takedown đến từ việc mở hông chứ không phải từ phần thân trên",
+    "Nhả Bodylock trong khi takedown - giữ chặt cho đến khi đối thủ nằm hoàn toàn trên thảm"
   ],
   "coachingCues": [
     "Khóa ở hông, không phải vai",
     "Bóp khuỷu tay, giữ chặt cánh tay",
-    "Lái xe bằng chân chứ không phải phía sau",
-    "Giữ khóa cho đến khi họ hạ cánh"
+    "Lái bằng chân chứ không phải bằng lưng",
+    "Giữ Bodylock cho đến khi họ tiếp đất"
   ],
   "safetySummary": [
-    "Việc hạ gục khóa cơ thể có biên độ cao - kiểm soát việc hạ xuống để ngăn đối thủ tiếp đất bằng đầu hoặc cổ của họ",
-    "Không nâng đối thủ nếu bạn thiếu sức mạnh ở hông - hãy di chuyển hoặc lái xe thay vì nâng",
-    "Lưu ý đến sự khác biệt về trọng lượng - việc khóa cơ thể đối thủ nặng hơn đáng kể có thể khiến bạn rơi vào tình thế dễ bị tổn thương"
+    "Takedown bằng Bodylock có biên độ cao - kiểm soát lúc hạ xuống để đối thủ không tiếp đất bằng đầu hoặc cổ",
+    "Không nâng đối thủ nếu bạn thiếu sức ở hông - hãy trip hoặc lái thay vì nâng",
+    "Cẩn thận chênh lệch trọng lượng - Bodylock một đối thủ nặng hơn đáng kể có thể đặt bạn vào thế dễ bị tổn thương"
   ],
   "systemLogic": {
-    "corePrinciple": "Khóa thân có ba phương án hoàn thiện: Nâng → Trip → Lái, tùy theo trọng lượng và chân đế của đối thủ",
+    "corePrinciple": "Bodylock có ba cách kết thúc: Lift → Trip → Drive, tùy theo trọng lượng và base của đối thủ",
     "decisionTree": [
       {
         "condition": "Sử dụng Kết thúc 1 (Nâng)",
-        "action": "ngồi xổm dưới hông họ, duỗi chân và nhấc họ ra khỏi thảm. Điều này hiệu quả nhất khi đối đầu với những đối thủ nhẹ cân hơn hoặc khi họ mất thăng bằng"
+        "action": "Split Squat dưới hông họ, duỗi chân và nhấc họ ra khỏi thảm. Cách này hiệu quả nhất với đối thủ nhẹ cân hơn hoặc khi họ đã mất thăng bằng"
       },
       {
-        "condition": "Sử dụng Kết thúc 2 (Chuyến đi)",
-        "action": "móc chân bạn ra sau mắt cá chân chì của họ và đẩy họ lùi lại. Chuyến đi có tác dụng với những đối thủ nặng ký hơn hoặc khi bạn không thể xuống đủ sâu để nâng"
+        "condition": "Sử dụng Kết thúc 2 (Trip)",
+        "action": "móc chân bạn ra sau mắt cá chân dẫn của họ và đẩy họ lùi lại. Trip hiệu quả với đối thủ nặng ký hơn hoặc khi bạn không thể hạ đủ sâu để lift"
       },
       {
-        "condition": "Sử dụng Kết thúc 3 (Ổ đĩa)",
-        "action": "chỉ cần lái xe về phía trước bằng chân, sử dụng khóa thân xe để điều khiển họ về phía thảm. Điều này có hiệu quả khi họ đang di chuyển lùi"
+        "condition": "Sử dụng Kết thúc 3 (Drive)",
+        "action": "chỉ cần lái về phía trước bằng chân, dùng Bodylock để điều khiển họ xuống thảm. Cách này hiệu quả khi họ đang di chuyển lùi"
       },
       {
         "condition": "Ứng dụng chung",
-        "action": "Vị trí hạ cánh: nhằm mục đích hạ cánh ở Side Control (ngực đối ngực, đầu quay về phía xa). Nếu họ tiếp đất bằng lưng, hãy trượt ngay tới Side Control"
+        "action": "Vị trí tiếp đất: nhắm tiếp đất ở Side Control (ngực đối ngực, đầu quay về phía xa). Nếu họ tiếp đất bằng lưng, hãy trượt ngay tới Side Control"
       }
     ],
     "exitStrategies": []
   },
   "moneyDetails": [
-    "Việc gỡ bỏ bằng khóa nội dung là thao tác gỡ bỏ mạnh mẽ nhất trong No-Gi, nó đưa bạn vào Side Control chứ không phải Guard của họ",
-    "Việc thành thạo khóa cơ thể mang lại cho bạn mat return đáng tin cậy từ các tư thế Tư thế rùa, Half Guard và đứng",
-    "Khóa cơ thể là yếu tố chính của tất cả các môn vật No-Gi cấp cao (Gordon Ryan, Nicky Rod, v.v.)"
+    "Takedown bằng Bodylock là đòn mạnh nhất trong No-Gi: nó đưa bạn vào Side Control chứ không phải Guard của họ",
+    "Thành thạo Bodylock cho bạn mat return đáng tin cậy từ Turtle, Half Guard và tư thế đứng",
+    "Bodylock là yếu tố chính của mọi hệ thống wrestling No-Gi cấp cao (Gordon Ryan, Nicky Rod, v.v.)"
   ],
   "fixItFast": [
-    "Nếu bạn không thể khóa tay: họ đang ở tư thế quá cao - trước tiên hãy hạ họ xuống rồi khóa lại",
-    "Nếu họ sprawl trên khóa: chuyển sang một chân, vị trí khóa cơ thể dễ dàng chuyển sang chân",
-    "Nếu họ tách tay ra: hãy nhéo lại khuỷu tay và siết chặt khóa hơn"
+    "Nếu bạn không thể khóa tay: họ đang ở tư thế quá cao - hạ họ xuống trước rồi khóa lại",
+    "Nếu họ sprawl lên Bodylock: chuyển sang Single Leg, từ Bodylock rất dễ chuyển xuống chân",
+    "Nếu họ tách tay ra: hãy ép lại khuỷu tay và siết Bodylock chặt hơn"
   ]
 }

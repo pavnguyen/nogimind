@@ -1,14 +1,14 @@
 {
   "id": "reverse-de-la-riva-transitions",
   "locale": "vi",
-  "name": "Đảo ngược De La Riva Chuyển tiếp",
-  "description": "Sử dụng móc bên ngoài và xoay hông từ đảo ngược De La Riva (RDLR) để chuyển sang DLR thông thường, X-Guard, X một chân, Kimura bẫy hoặc quét.",
-  "shortInstruction": "Móc bên ngoài, xoay hông, chuyển sang X-Guard hoặc quét - RDLR là bước vào toàn bộ trò chơi phần thân dưới.",
-  "summary": "Reverse De La Riva (RDLR) là bản sao của DLR thông thường. Trong đó DLR móc vào bên trong của chân gần, RDLR móc bên ngoài. Điều này cho phép bạn kiểm soát chân của họ từ một góc độ khác, mở các chuyển đổi sang X-Guard, DLR, X một chân và bẫy Kimura. RDLR đặc biệt hiệu quả đối với những đối thủ đã xóa được cú móc DLR của bạn hoặc những người đang chuyền với áp lực mạnh về phía trước.",
+  "name": "Reverse De La Riva Transitions",
+  "description": "Sử dụng móc bên ngoài và xoay hông từ Reverse De La Riva (RDLR) để chuyển sang DLR thông thường, X-Guard, X một chân, Kimura trap hoặc sweep.",
+  "shortInstruction": "Móc bên ngoài, xoay hông, chuyển sang X-Guard hoặc sweep - RDLR là bước vào toàn bộ trò chơi phần thân dưới.",
+  "summary": "Reverse De La Riva (RDLR) là bản sao của DLR thông thường. Trong đó DLR móc vào bên trong của chân gần, RDLR móc bên ngoài. Điều này cho phép bạn kiểm soát chân của họ từ một góc độ khác, mở các chuyển đổi sang X-Guard, DLR, X một chân và Kimura trap. RDLR đặc biệt hiệu quả đối với những đối thủ đã xóa được cú móc DLR của bạn hoặc những người đang pass với áp lực mạnh về phía trước.",
   "whyItWorks": [
-    "Cái móc bên ngoài ở chân gần của họ ngăn cản họ bước tới trước đường chuyền - nó chặn chuyển động về phía trước của họ.",
+    "Cái móc bên ngoài ở chân gần của họ ngăn cản họ bước tới trước để pass - nó chặn chuyển động về phía trước của họ.",
     "Xoay hông từ RDLR tạo ra góc để vào X-Guard, một vòng xoay, hai vị trí Guard.",
-    "RDLR thiết lập chuỗi bẫy Kimura, một trong những chuỗi tấn công No-Gi có tỷ lệ phần trăm cao nhất.",
+    "RDLR thiết lập chuỗi Kimura trap, một trong những chuỗi tấn công No-Gi có tỷ lệ phần trăm cao nhất.",
     "Nguyên tắc Danaher: nếu DLR bị lỗi, hãy chuyển sang RDLR - hai móc tốt hơn một."
   ],
   "commonMistakes": [
@@ -24,25 +24,25 @@
     "Ở bên cạnh bạn, luôn di động."
   ],
   "safetySummary": [
-    "Giữ đầu của bạn khỏi thảm và bảo vệ cổ của bạn khỏi Guillotine giây trong quá trình chuyển đổi.",
+    "Giữ đầu của bạn khỏi thảm và bảo vệ cổ của bạn khỏi Guillotine phản công trong quá trình chuyển đổi.",
     "Khi xoay đến X-Guard, hãy giữ móc của bạn hoạt động để tránh căng đầu gối.",
     "Không duỗi chân hoàn toàn trong quá trình chuyển đổi nếu bàn chân của bạn không đặt trên hông của họ."
   ],
   "keyCorrections": [
     "Nếu họ bước qua móc RDLR của bạn, góc của bạn đã sai - hãy xoay hông của bạn nhiều hơn về phía họ.",
     "Nếu bạn không thể vào X-Guard thì cú móc của bạn quá nông, hãy móc lại sâu hơn phía sau đầu gối của họ.",
-    "Nếu họ đè bẹp bạn, bạn sẽ mất góc hông - hãy quay lại bên cạnh bạn ngay lập tức."
+    "Nếu họ đè bẹp bạn, bạn sẽ mất góc hông - hãy xoay lại về bên cạnh bạn ngay lập tức."
   ],
   "systemLogic": {
-    "corePrinciple": "Móc RDLR ở bên ngoài chân gần → điều khiển cánh tay xa → xoay hông → chuyển sang bẫy X-Guard, DLR, SLX hoặc Kimura.",
+    "corePrinciple": "Móc RDLR ở bên ngoài chân gần → điều khiển cánh tay xa → xoay hông → chuyển sang X-Guard, DLR, SLX hoặc Kimura trap.",
     "decisionTree": [
       {
         "condition": "Lựa chọn 1: Họ đứng cao",
-        "action": "xoay vào X-Guard → quét."
+        "action": "xoay vào X-Guard → sweep."
       },
       {
         "condition": "Cách 2: Quỳ hoặc nghiêng người về phía trước",
-        "action": "Kimura bẫy → quét hoặc khuất phục."
+        "action": "Kimura trap → sweep hoặc submission."
       },
       {
         "condition": "Phương án 3: Họ lùi lại",
@@ -56,7 +56,7 @@
     "Để nhập X-Guard: xoay hông của bạn về phía họ trong khi vẫn giữ móc RDLR - chân còn lại của bạn đặt vào hông của họ.",
     "Bẫy Kimura từ RDLR là một trong những cuộc tấn công No-Gi mạnh mẽ nhất, nếu họ chống lại vòng quay, hãy tấn công Kimura."
   ],
-  "nextStep": "Sau khi chuyển đổi RDLR, hãy tìm hiểu hệ thống quét X-Guard và bẫy Kimura.",
+  "nextStep": "Sau khi chuyển đổi RDLR, hãy tìm hiểu hệ thống sweep X-Guard và Kimura trap.",
   "fixItFast": [
     "Móc cứ trượt? Làm cho nó sâu hơn - bàn chân phải móc ra sau đầu gối, không phải ở bắp chân.",
     "Không thể xoay sang X-Guard? Góc hông của bạn quá nông - hãy xoay hông về phía họ nhiều hơn.",

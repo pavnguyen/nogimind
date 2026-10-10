@@ -1,0 +1,75 @@
+{
+  "id": "backside-50-50-cross-ashi",
+  "locale": "en",
+  "name": "Backside 50/50 & Cross Ashi",
+  "description": "Cross Ashi and the Backside 50/50 are the two inside heel hook platforms of modern no-gi leg locking. Cross Ashi is the more dynamic one, the Backside 50/50 is the one that takes the hand fight away. This skill is about switching between them instead of forcing one.",
+  "shortInstruction": "Chest turned away, leg to the top side, triangle the legs, then the heel. When the hand fight is being lost, switch to the backside instead of fighting hands.",
+  "summary": "Cross Ashi, the saddle, inside sankaku, 411 or honeyhole depending on who you ask, crosses the legs over the opponent's body and controls the knee line. It is the more dynamic platform: multiple foot locks, heel hooks, transitions to the back, and even passes are available from it. Its price is that the opponent still faces you, so they can hand fight, and if they slip the heel they can turn away and dismantle the position. The Backside 50/50 puts you behind their hip line in a 50/50 leg configuration. As you attack the heel they face away, which makes the hand fight almost impossible, and the leg position gives superior control, that is the version Lachlan Giles used in the ADCC absolute division, and the version Ryan Hall used from a rolling entry for an inside heel hook in the UFC. The two positions are one system: use Cross Ashi when you want the broad attack menu, and pass the leg to the backside when the heel is contested.",
+  "whyItWorks": [
+    "Their facing direction decides the hand fight, facing you in Cross Ashi they can fight your hands, turned away in the Backside 50/50 the hand fight is almost impossible.",
+    "The backside leg configuration controls their hip rotation more tightly than the same 50/50 entered from the front, so running away is far harder.",
+    "Cross Ashi stays in the toolbox because it is the dynamic half: several foot locks, heel hooks, back takes and passes all live there.",
+    "With the leg passed to the top side of your body, the heel hook needs very little movement, a small bridge over a locked loop of legs is enough."
+  ],
+  "commonMistakes": [
+    "Sitting in Cross Ashi hand fighting for a heel they are hiding when you could pass the leg to the backside and take the hand fight out of the equation.",
+    "Letting the knee line open during the switch, once the entanglement is loose the switch becomes a scramble.",
+    "Turning to face them while switching, that turns the Backside 50/50 back into a standard 50/50.",
+    "Cranking the heel before the leg triangle and the shoulder shelf are built.",
+    "Pulling on a heel you cannot see instead of reading their weight and sitting up with a shelf."
+  ],
+  "coachingCues": [
+    "Facing away is the finish, keep your chest turned off them.",
+    "Leg to the top side, triangle the legs, then the heel.",
+    "They sit back heavy? Build the shelf and sit up.",
+    "One switch, one attack, do not hand fight forever."
+  ],
+  "safetySummary": [
+    "Both positions end in an inside heel hook, the most dangerous attack in the sport. Apply rotation slowly and release on the first sign of knee discomfort.",
+    "Never twist the heel while their hips can still follow, control the far leg and the hip before the rotation.",
+    "Agree a tap protocol for leg locks before the round and respect any tap, including a tap caused by compression.",
+    "Drill the switch at low speed: a knee caught mid switch is the classic injury of this system."
+  ],
+  "keyCorrections": [
+    "If the heel stays hidden and their hands keep winning, your chest is still square to them, pass the leg to the top side and turn away.",
+    "If they sit back heavy on your chest in the Backside 50/50, push the foot up with two hands, support it on your forearm, swim your shoulder under it and sit up instead of forcing the heel.",
+    "If the entanglement opens during the switch, reset to 50/50 or Cross Ashi control before attacking, a half-switched leg is not a position."
+  ],
+  "systemLogic": {
+    "corePrinciple": "Cross Ashi when you need the dynamic entries and the back takes, pass the leg to the top side and turn your chest away when the hand fight is being lost, the Backside 50/50 is the position that takes the hand fight away.",
+    "decisionTree": [
+      {
+        "condition": "They face you in Cross Ashi and win the grip fight",
+        "action": "pass the leg to the top side of your body, triangle your legs around it, turn your chest away, then expose and finish the heel."
+      },
+      {
+        "condition": "They sit back heavy in the Backside 50/50",
+        "action": "push the foot up with two hands, support it with your forearm, place your shoulder under the foot as a shelf, face away and sit up, then swim the arm back to the heel."
+      },
+      {
+        "condition": "They turn to face you out of the Backside 50/50",
+        "action": "you are back in 50/50, re-enter Cross Ashi or reset the 70/30 controls before attacking again."
+      },
+      {
+        "condition": "They stand and stack",
+        "action": "release the entanglement, recover guard, and rebuild the entry instead of chasing the leg from a bad angle."
+      }
+    ],
+    "exitStrategies": [
+      "If the leg cannot be held, disengage and come up to a guard before they start attacking your leg.",
+      "If they free the heel, abandon the finish, re-close the knee line first, and re-attack from a position you actually control."
+    ]
+  },
+  "moneyDetails": [
+    "The leg goes to the top side of your body, and your top hand keeps the heel with a gable grip, palm down, the shelf under the foot is your shoulder.",
+    "The triangle your legs make around their leg is the control, without it the switch is just movement.",
+    "Chest turned away is the whole point, it is what makes the hand fight almost impossible for them.",
+    "Read their heaviness: if their weight settles on your chest, sit up with the shoulder shelf instead of pulling on a heel you cannot see."
+  ],
+  "nextStep": "After switching between the two platforms, go to the Heel Hook finishing system for the grip, the angle, and the finishing mechanics.",
+  "fixItFast": [
+    "Losing the grip fight? Pass the leg to the backside instead of fighting hands.",
+    "They sit heavy? Build the shoulder shelf and sit up.",
+    "Losing the knee line mid switch? Stop the switch, re-close the knee line, then continue."
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "id": "wiltse-knee-slice",
+  "domain": "passing",
+  "level": "advanced",
+  "status": "draft",
+  "name": "Wiltse Knee Slice",
+  "aliases": [
+    "Wiltse knee cut",
+    "explosive knee slice"
+  ],
+  "tags": [
+    "passing",
+    "knee-cut",
+    "knee-slice",
+    "tier:modern-expansion",
+    "meta:modern-common",
+    "risk:medium",
+    "family:passing",
+    "group:modern-passing",
+    "modern-no-gi"
+  ],
+  "keywords": [
+    "knee slice",
+    "knee cut",
+    "underhook",
+    "shin-to-shin",
+    "headquarters",
+    "buzzsaw passing"
+  ],
+  "modernSystemGroup": "modern_passing",
+  "relatedSkills": [
+    {
+      "id": "knee-cut-passing",
+      "type": "prerequisite"
+    },
+    {
+      "id": "headquarters-passing",
+      "type": "supporting"
+    },
+    {
+      "id": "shin-to-shin-entry",
+      "type": "chain"
+    },
+    {
+      "id": "leg-drag-basics",
+      "type": "chain"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [
+    "pressure-passer"
+  ],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "knee-cut-passing",
+    "inside-position"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [
+    "Nếu cú pass bị kẹt, đầu và vai bạn đang đi trước hông, hãy đưa vai lại và dồn hông qua.",
+    "Nếu bạn rơi vào scramble, bạn đã bỏ underhook hoặc thả nó khi gối còn đang di chuyển.",
+    "Nếu họ đưa Knee Shield vào lại, gối đã hạ quá cao, lần sau trượt xuống thảm bên cạnh hông họ."
+  ],
+  "version": 1,
+  "updatedAt": "2026-10-10T00:00:00.000Z",
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "vi",
+  "description": "Wiltse Knee Slice là phiên bản knee cut bùng nổ của Andrew Wiltse: hông dẫn trước, gối phi xuống thảm nhanh nhất có thể, và underhook được bắt ngay trong lúc đi qua để khóa lại pha scramble mà chính tốc độ đó tạo ra.",
+  "shortInstruction": "Hông trước, gối xuống thảm bên cạnh hông họ, underhook bắt ngay khi đi qua, pass trước khi frame kịp dựng.",
+  "summary": "Trong trường phái Pedigo Submission Fighting (Daisy Fresh), knee slice của Andrew Wiltse không phải một cú pass đè chậm. Hông dẫn trước và gối phi qua Guard xuống thảm nhanh nhất có thể, nên cú pass xong trước khi người chơi Guard dựng được những frame khiến knee cut chậm bị kẹt. Anh giữ lại một kiểm soát mà tốc độ có thể làm mất: underhook được bắt ngay lúc đi qua, và đó là thứ chặn pha di chuyển biến thành scramble. Knee slice là vũ khí chính của Wiltse vì nó nối ra từ những thế anh đã ở trong đó, shin-to-shin, một cú underhook thất bại, và đúng lúc đối phương bước vào single leg X, và vì nó là một tốc độ của hệ passing di chuyển qua lại liên tục thay vì dựng lại từ đầu trên đỉnh Guard.",
+  "whyItWorks": [
+    "Hông dẫn trước và gối tới thảm sớm, nên chân xa và các frame tới sau cú pass thay vì trước nó.",
+    "Underhook được bắt ngay khi đi qua, thứ này dập pha scramble và cú lấy lưng vốn trừng phạt một knee slice không có kiểm soát phần thân trên.",
+    "Nó nối ra từ một cú underhook thất bại và từ shin-to-shin, nên cú pass là phản ứng với việc người chơi Guard đang làm chứ không phải một kế hoạch mới.",
+    "Nó là một tốc độ của cả hệ: di chuyển qua lại và nối các cú pass là thứ khiến lối passing buzzsaw khó phòng, và knee slice bùng nổ là thứ khiến việc nối đó khả thi."
+  ],
+  "commonMistakes": [
+    "Coi đây là cú pass đè chậm rồi dừng lại ghim phần thân trên, đó là một cú pass khác, và nó cho người chơi Guard thời gian dựng lại frame.",
+    "Lao vào bằng vai và đầu trước, vai tới trước và gối không bao giờ tới được thảm.",
+    "Bỏ underhook vì cú pass có vẻ nhanh, cú pass trông sạch rồi bạn bị scramble.",
+    "Trượt gối lên đùi họ thay vì xuống thảm bên cạnh hông.",
+    "Dừng lại khi gối đã tới đích, dọn chân xa và ổn định vào thế ghim vẫn là phần của cú pass."
+  ],
+  "coachingCues": [
+    "Hông trước, vai sau.",
+    "Gối xuống thảm, không lên đùi.",
+    "Bắt underhook ngay khi đi qua, không phải sau đó.",
+    "Tới, dọn chân xa, ổn định, đừng đứng ngắm cú pass."
+  ],
+  "safetySummary": [
+    "Gối phi xuống thảm cạnh gối partner là nguy cơ va chạm, hãy drill cú trượt ở tốc độ có kiểm soát và không bao giờ thả gối lên gối hay xương sườn họ.",
+    "Khi người chơi Guard invert hoặc chân bị kẹp, hãy bỏ cú pass thay vì dồn trọng lượng qua một đầu gối đang bị kẹp.",
+    "Giữ trọng lượng trên base của chính bạn thay vì trên cổ hay xương sườn partner trong pha ổn định.",
+    "Nếu partner nhẹ hơn nhiều, cú pass vẫn phải tới đích có kiểm soát, tốc độ không phải là cái cớ để ngã lên người khác."
+  ],
+  "systemLogic": {
+    "corePrinciple": "Knee slice bùng nổ: hông dẫn trước → gối trượt xuống thảm bên cạnh hông họ với tốc độ cao → underhook được bắt ngay khi đi qua → dọn chân xa và ổn định vào thế ghim.",
+    "decisionTree": [
+      {
+        "condition": "Từ shin-to-shin, họ đang vuông với bạn",
+        "action": "gỡ kết nối shin, bước về phía hamstring xa của họ và trượt gối qua trước khi họ vuông lại."
+      },
+      {
+        "condition": "Cú underhook của bạn thất bại và họ lên được vai bạn",
+        "action": "lấy lại góc và trượt gối vào bên trong khuỷu tay bạn đang kiểm soát thay vì làm lại từ trên đỉnh."
+      },
+      {
+        "condition": "Họ bước vào single leg X",
+        "action": "trượt gối qua phía trên cái hook trước khi họ khép entanglement."
+      },
+      {
+        "condition": "Họ dựng Knee Shield muộn",
+        "action": "bạn đã qua đường hông, chuyển sang các cú pass đè từ headquarters thay vì làm lại knee cut."
+      }
+    ],
+    "exitStrategies": [
+      "Nếu cú pass thành scramble, dùng kiểm soát scramble và mat return thay vì tranh cú pass.",
+      "Nếu entanglement khép vào chân bạn, dừng pass và chuyển sang an toàn khóa chân trước mọi thứ khác."
+    ]
+  },
+  "moneyDetails": [
+    "Gối dẫn: hông bạn đi về phía thảm bên phần người của họ trong khi vai vẫn ở lại phía sau.",
+    "Underhook được bắt sớm và giữ cho tới khi bạn qua đường gối.",
+    "Tay tự do dập chân xa của họ, đó là chân sẽ quay lại đưa Knee Shield vào.",
+    "Cú pass kết thúc trên thảm bên cạnh hông họ, nếu gối hạ lên đùi họ thì họ vẫn bump và dựng lại frame được."
+  ],
+  "nextStep": "Sau Wiltse knee slice, nối nó với các cú pass đè từ headquarters và bodylock.",
+  "fixItFast": [
+    "Cú pass bị kẹt? Đưa hông lên trước vai và trượt lại.",
+    "Bị scramble? Bạn đã thả underhook, bắt lại trước khi gối hạ.",
+    "Knee shield quay lại? Gối hạ quá cao, làm lại cú trượt bên cạnh hông."
+  ]
+}

@@ -1,9 +1,9 @@
 {
   "id": "armbar-system",
   "locale": "vi",
-  "name": "Armbar Hệ thống",
+  "name": "Armbar System",
   "description": "Cô lập đường vai của đối phương, kiểm soát cổ tay của họ và giữ khuỷu tay của họ phía trên đường hông của bạn trước khi áp dụng động tác duỗi để kết thúc Armbar.",
-  "shortInstruction": "Kiểm soát cổ tay, ghim khuỷu tay vào hông, giữ ngón cái hướng lên - kết thúc phần mở rộng; nghỉ quá mức.",
+  "shortInstruction": "Kiểm soát cổ tay, ghim khuỷu tay vào hông, giữ ngón cái hướng lên - duỗi thẳng để kết thúc; duỗi quá mức là gãy.",
   "summary": "Armbar là khóa khớp cơ bản nhất trong BJJ. Hệ thống xoay quanh ba nguyên tắc: cô lập vai (ngăn họ kéo cánh tay ra), kiểm soát cổ tay (ngón tay cái hướng lên, lòng bàn tay hướng về phía bạn) và đặt khuỷu tay phía trên đường hông trước khi duỗi ra. Nếu không có chi tiết đường hông, Armbar sẽ trở thành một cuộc tranh giành sức mạnh. Với nó, lợi thế cơ học là áp đảo. Hệ thống Armbar áp dụng từ Guard, Mount và các chuyển đổi.",
   "whyItWorks": [
     "Việc kẹp khuỷu tay của họ phía trên đường hông của bạn sẽ tạo ra một đòn bẩy hạng nhất - hông của bạn là điểm tựa, cánh tay của họ là tải trọng.",
@@ -25,12 +25,12 @@
   ],
   "safetySummary": [
     "Không bao giờ thực hiện động tác duỗi đột ngột hoặc bùng nổ - chấn thương do duỗi quá mức sẽ tích lũy và nghiêm trọng.",
-    "Nhả ngay khi nhấn - Armbars có thể gây tổn thương khuỷu tay vĩnh viễn trong một phần nghìn giây.",
-    "Không tiếp tục duỗi sau khi chạm - thậm chí chỉ duỗi thêm một vài độ cũng có thể gây thương tích.",
+    "Nhả ngay khi họ tap - Armbars có thể gây tổn thương khuỷu tay vĩnh viễn trong một phần nghìn giây.",
+    "Không tiếp tục duỗi sau khi họ tap - thậm chí chỉ duỗi thêm một vài độ cũng có thể gây thương tích.",
     "Độ nhạy của cổ tay và khuỷu tay khác nhau giữa các đối tác - hãy thiết lập giao tiếp trước khi tập luyện."
   ],
   "keyCorrections": [
-    "Nếu họ xếp bạn, hãy bơi chân còn lại của bạn đến hông họ và đẩy họ ra.",
+    "Nếu họ stack bạn, hãy bơi chân còn lại của bạn đến hông họ và đẩy họ ra.",
     "Nếu họ rút tay ra, bạn sẽ mất kiểm soát vai - hãy thiết lập lại tư thế chân hình số 4.",
     "Nếu hông của bạn quá xa khuỷu tay của họ, hãy dịch lại gần hơn - khuỷu tay phải ở hoặc phía trên xương hông của bạn."
   ],
@@ -56,7 +56,7 @@
   "nextStep": "Sau hệ thống Armbar, hãy tìm hiểu S-Mount Armbar và Armbar từ các biến thể Guard.",
   "fixItFast": [
     "Không thể duỗi thẳng cánh tay của họ? Dùng chân kẹp khuỷu tay vào hông và sử dụng điều khiển cổ tay hai đối một.",
-    "Họ xếp chồng bạn? Đưa chân còn lại của bạn đến hông xa của họ và đẩy họ ra.",
+    "Họ stack bạn? Đưa chân còn lại của bạn đến hông xa của họ và đẩy họ ra.",
     "Ngón cái tiếp tục quay xuống? Nắm chặt cổ tay của họ bằng ngón tay cái của bạn trên bàn tay của họ - thao tác này sẽ điều khiển chuyển động xoay."
   ]
 }

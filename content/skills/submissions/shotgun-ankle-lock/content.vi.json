@@ -1,10 +1,10 @@
 {
   "id": "shotgun-ankle-lock",
   "locale": "vi",
-  "name": "Súng săn Ankle Lock",
+  "name": "Shotgun Ankle Lock",
   "description": "Một biến thể mạnh mẽ hơn của Straight Ankle Lock từ Saddle hoặc 50/50, bắt chéo chân đối phương và sử dụng động tác xoay hông và ấn ngực để kết thúc.",
-  "shortInstruction": "Bắt chéo chân, ghim bàn chân vào ngực bạn, xoay hông, khẩu súng ngắn Ankle Lock tăng trọng lượng cơ thể lên Straight Ankle Lock.",
-  "summary": "Súng săn Ankle Lock là một biến thể mạnh mẽ hơn của súng ngắn Ankle Lock. Bằng cách bắt chéo chân đối phương và ghim chân họ vào ngực bạn, bạn tăng trọng lượng cơ thể và xoay hông vào kết thúc Ankle Lock tiêu chuẩn. Tên 'súng ngắn' xuất phát từ cách bạn sử dụng ngực và hông của mình như một cơ chế bắn - kết hợp áp lực về phía trước với chuyển động xoay. Nó thường được nhập từ vị trí Saddle hoặc 50/50.",
+  "shortInstruction": "Bắt chéo chân, ghim bàn chân vào ngực bạn, xoay hông, Shotgun Ankle Lock tăng trọng lượng cơ thể lên Straight Ankle Lock.",
+  "summary": "Shotgun Ankle Lock là một biến thể mạnh hơn của Straight Ankle Lock. Bằng cách bắt chéo chân đối phương và ghim chân họ vào ngực bạn, bạn tăng trọng lượng cơ thể và xoay hông vào kết thúc Ankle Lock tiêu chuẩn. Tên 'Shotgun' xuất phát từ cách bạn dùng ngực và hông như một cơ chế bắn - kết hợp áp lực về phía trước với chuyển động xoay. Nó thường được nhập từ vị trí Saddle hoặc 50/50.",
   "whyItWorks": [
     "Việc bắt chéo chân của họ tạo ra lợi thế cơ học, trọng lượng cơ thể của bạn sẽ tăng thêm lực cho Ankle Lock.",
     "Áp lực của ngực lên bàn chân của họ sẽ nhân lên lực kéo dài lên mắt cá chân của họ.",
@@ -12,10 +12,10 @@
     "Nguyên tắc Danaher: thêm trọng lượng cơ thể vào bất kỳ khóa khớp nào sẽ tăng hiệu quả của nó mà không cần thêm sức mạnh."
   ],
   "commonMistakes": [
-    "Không bắt chéo chân đủ sâu - một cây thánh giá nông sẽ giúp họ có chỗ để thoát.",
+    "Không bắt chéo chân đủ sâu - thế cross nông cho họ chỗ để thoát.",
     "Để chân họ trượt ra khỏi ngực bạn - bàn chân phải được ghim chặt.",
-    "Chỉ sử dụng cánh tay để kết thúc thay vì ngực và hông - súng ngắn là một đòn toàn thân.",
-    "Giải phóng phần vướng víu ở chân quá sớm - khẩu súng ngắn yêu cầu phần vướng víu phải được giữ chặt."
+    "Chỉ sử dụng cánh tay để kết thúc thay vì ngực và hông - Shotgun là một đòn toàn thân.",
+    "Nhả entanglement ở chân quá sớm - Shotgun yêu cầu giữ entanglement thật chặt."
   ],
   "coachingCues": [
     "Bắt chéo sâu, ghim chân, lái bằng ngực.",
@@ -24,38 +24,38 @@
     "Xoay hông của bạn, không chỉ kéo."
   ],
   "safetySummary": [
-    "Súng săn Ankle Lock tạo áp lực lên mắt cá chân và đầu gối - tác động từ từ và thả ra khi nhấn.",
+    "Shotgun Ankle Lock tạo áp lực lên mắt cá chân và đầu gối - tác động từ từ và thả ra khi họ tap.",
     "Đừng nổ tung khi về đích - chấn thương mắt cá chân có thể xảy ra nhanh chóng.",
     "Hãy cẩn thận khi bắt chéo chân đối phương - đảm bảo đầu gối của họ không bị căng quá mức."
   ],
   "keyCorrections": [
     "Nếu bạn không thể hoàn thành, nghĩa là chân của họ chưa đủ gần ngực bạn - hãy kéo chặt hơn.",
     "Nếu họ thoát khỏi Ankle Lock, thì chân bắt chéo của bạn quá nông, hãy vào lại sâu hơn.",
-    "Nếu họ lăn, hãy thả ra và đi theo về phía sau hoặc Saddle."
+    "Nếu họ lăn, hãy thả ra và đi theo Back Take hoặc Saddle."
   ],
   "systemLogic": {
     "corePrinciple": "Saddle hoặc 50/50: bắt chéo chân đối phương (chân này lên chân kia) → ghim chân họ vào ngực bạn → nghiêng người về phía trước với áp lực của ngực → xoay hông → kết thúc.",
     "decisionTree": [
       {
         "condition": "Ứng dụng chung",
-        "action": "Khẩu súng ngắn Ankle Lock xích với Heel Hook từ cùng một vị trí."
+        "action": "Shotgun Ankle Lock nối với Heel Hook từ cùng một vị trí."
       },
       {
         "condition": "họ bảo vệ Ankle Lock",
-        "action": "chuyển sang Heel Hook hoặc thanh đầu gối."
+        "action": "chuyển sang Heel Hook hoặc Kneebar."
       }
     ]
   },
   "moneyDetails": [
     "Bắt chéo chân ở mắt cá chân, không phải ở bắp chân - việc bắt chéo ngang mắt cá chân giúp bạn kiểm soát tốt hơn.",
-    "Dùng ngực của bạn ghim bàn chân trên của họ vào xương ức của bạn - đây là tư thế 'súng ngắn'.",
+    "Dùng ngực của bạn ghim bàn chân trên của họ vào xương ức của bạn - đây là tư thế 'Shotgun'.",
     "Dựa ngực về phía trước vào chân họ khi bạn kéo ngón chân của họ về phía mình - sự kết hợp của các lực sẽ tạo ra chiếc khóa.",
     "Xoay hông sang một bên khi bạn nghiêng người - điều này làm tăng thêm áp lực quay lên mắt cá chân."
   ],
-  "nextStep": "Sau khẩu súng ngắn Ankle Lock, hãy học Straight Ankle Lock và Heel Hook từ Saddle.",
+  "nextStep": "Sau Shotgun Ankle Lock, học Straight Ankle Lock và Heel Hook từ Saddle.",
   "fixItFast": [
     "Mắt cá chân không bị nén? Kéo chân họ chặt hơn vào ngực bạn.",
-    "Không thể hoàn thành? Thêm khả năng xoay hông - khẩu súng ngắn không chỉ là áp lực mà còn là áp lực + xoay.",
-    "Họ lăn? Thả ra và đi theo tới Saddle hoặc quay lại."
+    "Không thể hoàn thành? Thêm khả năng xoay hông - Shotgun không chỉ là áp lực mà còn là áp lực + xoay.",
+    "Họ lăn? Thả ra và đi theo tới Saddle hoặc Back Take."
   ]
 }

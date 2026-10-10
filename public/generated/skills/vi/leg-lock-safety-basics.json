@@ -69,7 +69,7 @@
     "Không biết đường đầu gối là gì - tập khóa chân mà không hiểu khái niệm này là nguy hiểm",
     "Nhầm lẫn 'áp lực' với 'nguy hiểm' - khóa chân có thể tạo áp lực mà không ảnh hưởng đến đầu gối và chấn thương thảm khốc có thể xảy ra mà không cần áp lực",
     "Xoay người khỏi chân bị mắc kẹt theo bản năng khi bị vướng chân",
-    "Đợi cơn đau trước khi chạm vào, vào thời điểm Heel Hook bị đau, đầu gối thường đã bị tổn thương"
+    "Đợi cơn đau trước khi tap, vào thời điểm Heel Hook bị đau, đầu gối thường đã bị tổn thương"
   ],
   "coachingCues": [
     "Biết đường đầu gối",
@@ -81,11 +81,11 @@
     "Đường đầu gối là đường vô hình ở phía sau đầu gối - khi đối phương khống chế chân bạn phía trên đường đầu gối, đầu gối của bạn sẽ gặp nguy hiểm",
     "Heel Hooks có thể làm hỏng ACL, MCL, PCL và mặt khum trong mô-men quay dưới 100 mili giây",
     "Không có gì 'cố gắng' Heel Hook - tổn thương dây chằng xảy ra trước khi tín hiệu đau đến não của bạn",
-    "Chạm bằng tay (không phải bằng chân) và chạm rõ ràng - đối tác đào tạo có thể bỏ qua việc chạm không rõ ràng",
+    "Tap bằng tay (không phải bằng chân) và tap rõ ràng - đối tác đào tạo có thể bỏ qua việc chạm không rõ ràng",
     "Nếu bạn là kẻ tấn công, hãy tạo áp lực Heel Hook từ từ và thả ra ngay khi đối tác của bạn chạm hoặc phát ra âm thanh khó chịu"
   ],
   "systemLogic": {
-    "corePrinciple": "An toàn khóa chân được xây dựng trên bốn trụ cột: Kiến thức (giải phẫu đầu gối) → Nhận biết (kiểm soát đường đầu gối, tiếp xúc với gót chân, khoảng cách với hông) → Phản ứng (tiếp tục, thoát ra hoặc chạm) → Kỷ luật (chạm sớm và thường xuyên). An toàn là điều kiện tiên quyết cho tất cả các bài tập khóa chân.",
+    "corePrinciple": "An toàn khóa chân được xây dựng trên bốn trụ cột: Kiến thức (giải phẫu đầu gối) → Nhận biết (kiểm soát đường đầu gối, tiếp xúc với gót chân, khoảng cách với hông) → Phản ứng (tiếp tục, thoát ra hoặc tap) → Kỷ luật (tap sớm và thường xuyên). An toàn là điều kiện tiên quyết cho tất cả các bài tập khóa chân.",
     "decisionTree": [
       {
         "condition": "Bạn không biết đường đầu gối là gì",
@@ -93,7 +93,7 @@
       },
       {
         "condition": "Gót chân của bạn bị cô lập và tách biệt khỏi đùi",
-        "action": "Đầu gối của bạn đang gặp nguy hiểm - chạm ngay lập tức hoặc bắt đầu thoát ra khỏi đường đầu gối trước khi vòng quay bắt đầu. Gót chân lộ ra + không có khoảng cách hông = sắp phải khuất phục."
+        "action": "Đầu gối của bạn đang gặp nguy hiểm - chạm ngay lập tức hoặc bắt đầu thoát ra khỏi đường đầu gối trước khi vòng quay bắt đầu. Gót chân lộ ra + không có khoảng cách hông = sắp bị submission."
       },
       {
         "condition": "Bạn cảm thấy chân bị kẹt bắt đầu xoay",
@@ -110,14 +110,14 @@
     ],
     "exitStrategies": [
       "Nếu không chắc chắn liệu bạn có đang gặp nguy hiểm hay không, hãy chạm vào, yêu cầu đối tác của bạn giữ nguyên tư thế và đánh giá trực quan đường đầu gối cũng như vị trí gót chân của bạn trước khi tiếp tục.",
-      "Chạm bằng tay (không phải bằng chân) và chạm rõ ràng - các đối tác tập luyện có thể bỏ qua việc chạm không rõ ràng.",
+      "Tap bằng tay (không phải bằng chân) và tap rõ ràng - các đối tác tập luyện có thể bỏ qua việc chạm không rõ ràng.",
       "Nếu bạn là kẻ tấn công, hãy tạo áp lực Heel Hook từ từ và thả ra ngay khi đối tác của bạn chạm vào hoặc tỏ ra khó chịu."
     ]
   },
   "moneyDetails": [
     "Những điều cơ bản về an toàn khóa chân là bài học quan trọng nhất trong môn vật hiện đại - hiểu được những khái niệm này sẽ ngăn ngừa được những chấn thương đầu gối thảm khốc có thể chấm dứt sự nghiệp",
     "Mọi võ sĩ, bất kể trình độ kỹ năng hay mục tiêu thi đấu, đều phải biết khóa chân an toàn trước khi lăn trong môi trường BJJ hiện đại",
-    "Năm phút dành để học những kiến ​​thức cơ bản về an toàn khóa chân sẽ bảo vệ nhiều năm huấn luyện trong tương lai"
+    "Năm phút dành để học những kiến thức cơ bản về an toàn khóa chân sẽ bảo vệ nhiều năm huấn luyện trong tương lai"
   ],
   "fixItFast": [
     "Nếu bạn không biết đường đầu gối là gì: hãy ngừng tập khóa chân cho đến khi bạn đã nghiên cứu và hiểu khái niệm này",

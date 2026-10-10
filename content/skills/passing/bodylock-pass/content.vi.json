@@ -2,9 +2,9 @@
   "id": "bodylock-pass",
   "locale": "vi",
   "name": "Body Lock Pass",
-  "shortName": "Khóa cơ thể",
+  "shortName": "Bodylock",
   "description": "Sử dụng áp lực từ ngực đến hông, lệch đầu và khóa hông để ghim hông đối phương trước khi vượt qua Knee Line. Một hệ thống passing áp lực cốt lõi No-Gi.",
-  "shortInstruction": "Khóa hông thấp, lệch đầu, diệt móc, xóa Knee Line, ổn định pin.",
+  "shortInstruction": "Bodylock thấp quanh hông, lệch đầu, phá móc, xóa Knee Line, ổn định pin.",
   "summary": "Một hệ thống passing áp lực cốt lõi No-Gi giúp trung hòa hông trước khi xóa chân.",
   "whyItWorks": [
     "Khóa cả hai hông trước khi đối thủ có thể re-Guard hoặc dựng khung.",
@@ -13,16 +13,16 @@
     "Tạo tình thế tiến thoái lưỡng nan giữa bị san bằng hoặc từ bỏ đường pass."
   ],
   "commonMistakes": [
-    "Khóa quá cao trên xương sườn thay vì hông.",
-    "Nhả khóa cơ thể trước khi Knee Line được xóa.",
+    "Bodylock quá cao trên xương sườn thay vì ở hông.",
+    "Nhả Bodylock trước khi Knee Line được xóa.",
     "Để đầu ngồi giữa hai tay.",
     "Bỏ qua móc bướm và lao vào Knee Line.",
     "Đứng quá cao, mất kết nối ngực-hông."
   ],
   "coachingCues": [
-    "Khóa thấp, lệch đầu, diệt móc.",
+    "Bodylock thấp, lệch đầu, phá móc.",
     "Ngực chạm hông chứ không phải ngực chạm ngực.",
-    "Diệt móc trước khi đầu gối di chuyển.",
+    "Phá móc trước khi đầu gối di chuyển.",
     "Ổn định trước khi chuyển."
   ],
   "oneMinuteMode": {
@@ -30,7 +30,7 @@
     "steps": [
       "Nối ngực với hông bằng hai tay khóa thấp quanh eo.",
       "Giữ đầu lệch một bên (tai gần hông).",
-      "Diệt móc bướm bằng áp lực đầu gối và ngực.",
+      "Phá móc bướm bằng áp lực đầu gối và ngực.",
       "Xóa Knee Line gần đầu gối qua khung ống chân.",
       "Xóa Knee Line và ổn định Side Control."
     ]
@@ -61,26 +61,26 @@
         "action": "Hạ ngực xuống, hướng tai về phía rốn và đưa đầu gối về trước để phá khung."
       },
       {
-        "condition": "Đối thủ quay về phía mình (knee shield)",
+        "condition": "Đối thủ quay về phía mình (Knee Shield)",
         "action": "Chuyển sang đường pass trên-dưới bằng cách thả một bên khóa và dùng vai ghim đầu gối gần."
       },
       {
-        "condition": "Đối thủ nhận được underhook giây và nâng bạn lên",
-        "action": "Giữ tư thế, nối lại ngực-hông và đặt lại khóa - không chiến từ tư thế nâng."
+        "condition": "Đối thủ có được underhook thứ hai và nâng bạn lên",
+        "action": "Giữ tư thế, nối lại ngực-hông và lập lại Bodylock - không tranh từ tư thế bị nâng."
       }
     ],
     "exitStrategies": [
       "Nếu pass không thành công, chuyển sang Half Guard pass hoặc headquarters control.",
       "Nếu đối thủ tạo quá nhiều khoảng trống, đứng dậy và giao tranh lại từ tư thế passing thấp.",
-      "Nếu Body Lock liên tục bị phản công, chuyển sang passing dưới hoặc leg drag."
+      "Nếu Body Lock liên tục bị phản công, chuyển sang pressure passing hoặc Leg Drag."
     ]
   },
   "moneyDetails": [
     "Phần bù đầu là chi tiết bị đánh giá thấp nhất - nó chặn khả năng xoay vai và xoay hông.",
     "Diệt móc bướm không phải tùy chọn; không có nó, hông bạn sẽ bị nâng lên.",
-    "Chỉ nhả khóa thân sau khi qua Knee Line và Side Control được ghim."
+    "Chỉ nhả Bodylock sau khi qua Knee Line và ghim được Side Control."
   ],
-  "nextStep": "Sau khi ổn định Side Control, chuyển sang Mount, Back Control hoặc chuyển vào các hệ thống như nhánh Triangle.",
+  "nextStep": "Sau khi ổn định Side Control, chuyển sang Mount, Back Control hoặc chuyển sang các hệ thống như Triangle.",
   "fixItFast": [
     "Không thể khóa hông? Hạ ngực và bước rộng đầu gối.",
     "Bị nâng lên? Ngực bạn quá cao và móc bướm vẫn còn sống.",

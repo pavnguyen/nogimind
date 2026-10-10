@@ -1,0 +1,75 @@
+{
+  "id": "wiltse-knee-slice",
+  "locale": "fr",
+  "name": "Wiltse Knee Slice",
+  "description": "Le Wiltse Knee Slice est la version explosive du knee cut d'Andrew Wiltse : les hanches mènent, le genou descend au sol le plus vite possible, et l'underhook est capturé au passage pour fermer le scramble que la vitesse crée.",
+  "shortInstruction": "Hanches d'abord, genou au sol à côté de la hanche, underhook au passage, passez avant que les cadres n'arrivent.",
+  "summary": "Dans le style Pedigo Submission Fighting (Daisy Fresh), le knee slice d'Andrew Wiltse n'est pas un passage lent de pression. Les hanches mènent et le genou traverse la garde jusqu'au sol le plus vite possible, donc le passage est terminé avant que le gardien ait le temps de construire les cadres qui font caler un knee cut lent. Il garde un contrôle que la vitesse ferait perdre : l'underhook est capturé au passage, et c'est ce qui empêche le mouvement de se transformer en scramble. Le knee slice reste son arme principale parce qu'il s'enchaîne depuis des positions où il est déjà, shin-to-shin, un underhook manqué, et le moment où l'adversaire entre en single leg X, et parce qu'il est une vitesse d'un système de passage qui bouge d'un côté à l'autre au lieu de repartir du haut de la garde.",
+  "whyItWorks": [
+    "Les hanches mènent et le genou atteint le sol tôt, donc la jambe éloignée et les cadres arrivent après le passage au lieu d'avant.",
+    "L'underhook est ramassé au passage, ce qui tue le scramble de underhook et la prise de dos qui punissent un knee slice sans contrôle du haut du corps.",
+    "Il s'enchaîne depuis un underhook manqué et depuis le shin-to-shin, donc le passage est une réaction à ce que fait le gardien plutôt qu'un nouveau plan.",
+    "C'est une vitesse d'un système : bouger d'un côté à l'autre et enchaîner les passages est ce qui rend le style buzzsaw difficile à défendre, et le knee slice explosif est ce qui rend cet enchaînement possible."
+  ],
+  "commonMistakes": [
+    "Le traiter comme un passage lent de pression et s'arrêter pour épingler le haut du corps, c'est un autre passage, et cela donne au gardien le temps de reconstruire ses cadres.",
+    "Plonger avec l'épaule et la tête en premier, l'épaule arrive et le genou n'atteint jamais le sol.",
+    "Sauter l'underhook parce que le passage semblait rapide, le passage paraît propre et vous vous faites scrambler.",
+    "Faire glisser le genou sur leur cuisse au lieu de le poser au sol à côté de leur hanche.",
+    "S'arrêter une fois le genou posé, dégager la jambe éloignée et s'installer dans le pin fait encore partie du passage."
+  ],
+  "coachingCues": [
+    "Hanches d'abord, épaule ensuite.",
+    "Genou au sol, pas sur la cuisse.",
+    "Prenez l'underhook au passage, pas après.",
+    "Posez, dégagez la jambe éloignée, installez-vous, n'admirez pas le passage."
+  ],
+  "safetySummary": [
+    "Un genou qui tombe au sol à côté du genou d'un partenaire est un risque de collision, drillez la glissade à vitesse contrôlée et ne laissez jamais tomber votre genou sur son genou ou ses côtes.",
+    "Quand le gardien s'inverse ou qu'une jambe est piégée, laissez filer le passage au lieu de pousser votre poids à travers un genou piégé.",
+    "Gardez votre poids sur votre propre base plutôt que sur le cou ou les côtes de votre partenaire pendant la phase de pose.",
+    "Si votre partenaire est bien plus léger, le passage doit quand même se poser sous contrôle, la vitesse n'autorise pas à tomber sur quelqu'un."
+  ],
+  "keyCorrections": [
+    "Si le passage cale, votre tête et votre épaule sont en avance sur vos hanches, ramenez l'épaule en arrière et poussez les hanches à travers.",
+    "Si vous finissez en scramble, vous avez sauté l'underhook ou vous l'avez lâché pendant que le genou voyageait encore.",
+    "S'ils remettent le Knee Shield, le genou s'est posé trop haut, faites glisser au sol à côté de leur hanche la prochaine fois."
+  ],
+  "systemLogic": {
+    "corePrinciple": "Knee slice explosif : les hanches mènent → le genou glisse au sol à côté de leur hanche à vitesse maximale → l'underhook est capturé au passage → dégagez la jambe éloignée et installez-vous dans le pin.",
+    "decisionTree": [
+      {
+        "condition": "Depuis le shin-to-shin, ils sont d'aplomb face à vous",
+        "action": "dégagez la connexion de shin, avancez vers leur ischio-jambier éloigné et faites glisser le genou avant qu'ils ne se remettent d'aplomb."
+      },
+      {
+        "condition": "Votre tentative d'underhook échoue et ils montent sur votre épaule",
+        "action": "récupérez l'angle et glissez le genou à l'intérieur du coude que vous contrôlez déjà au lieu de repartir du haut."
+      },
+      {
+        "condition": "Ils entrent en single leg X",
+        "action": "faites glisser le genou par-dessus le crochet avant qu'ils ne ferment l'enchevêtrement."
+      },
+      {
+        "condition": "Ils construisent le Knee Shield tard",
+        "action": "vous êtes déjà passé au-delà de la ligne de hanche, passez aux passages de pression depuis headquarters au lieu de reprendre le knee cut."
+      }
+    ],
+    "exitStrategies": [
+      "Si le passage devient un scramble, utilisez vos contrôles de scramble et le mat return au lieu de vous battre pour le passage.",
+      "Si l'enchevêtrement se referme sur vous, arrêtez de passer et passez d'abord à la sécurité des clés de jambes."
+    ]
+  },
+  "moneyDetails": [
+    "Le genou mène : vos hanches voyagent vers le sol de leur côté pendant que votre épaule reste en arrière.",
+    "L'underhook est pris tôt et gardé jusqu'à ce que vous soyez passé au-delà de la ligne de genou.",
+    "Votre main libre tue leur jambe éloignée, c'est la jambe qui revient insérer le Knee Shield.",
+    "Le passage se termine au sol à côté de leur hanche, si le genou se pose sur leur cuisse ils peuvent encore bousculer et reconstruire un cadre."
+  ],
+  "nextStep": "Après le Wiltse knee slice, connectez-le aux passages de pression depuis headquarters et au bodylock.",
+  "fixItFast": [
+    "Le passage cale ? Mettez les hanches devant l'épaule et glissez à nouveau.",
+    "Vous vous faites scrambler ? Vous avez lâché l'underhook, reprenez-le avant que le genou ne se pose.",
+    "Le Knee Shield revient ? Le genou s'est posé trop haut, reprenez la glissade à côté de la hanche."
+  ]
+}

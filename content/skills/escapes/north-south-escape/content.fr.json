@@ -3,12 +3,12 @@
   "locale": "fr",
   "name": "Évasion Nord Sud",
   "description": "Échappez à la position North-South en créant un cadre, en vous transformant en adversaire et en récupérant Guard ou en vous levant.",
-  "shortInstruction": "Cadrez sur les hanches, insérez un knee shield, tournez-vous vers l'adversaire, et récupérez Guard ou wrestle up.",
-  "summary": "North-South escape utilise un cadre d'avant-bras sur les hanches pour créer une séparation, puis un knee shield pour se transformer en adversaire et récupérer Guard. Le système est distinct des évasions Side Control car le poids de l'adversaire est aligné le long de votre ligne médiane plutôt que perpendiculairement à celle-ci.",
+  "shortInstruction": "Cadrez sur les hanches, insérez un Knee Shield, tournez-vous vers l'adversaire, et récupérez Guard ou wrestle up.",
+  "summary": "North-South escape utilise un cadre d'avant-bras sur les hanches pour créer une séparation, puis un Knee Shield pour se transformer en adversaire et récupérer Guard. Le système est distinct des évasions Side Control car le poids de l'adversaire est aligné le long de votre ligne médiane plutôt que perpendiculairement à celle-ci.",
   "whyItWorks": [
     "La broche North-South comprime le torse le long de la ligne médiane : un cadre d'avant-bras sur la hanche redirige son poids loin de vos côtes.",
     "Se transformer en adversaire (au lieu de s'éloigner) utilise votre structure squelettique la plus solide contre sa pression thoracique",
-    "Le knee shield crée une barrière structurelle qui les empêche de rétablir la broche après avoir créé de l'espace.",
+    "Le Knee Shield crée une barrière structurelle qui les empêche de rétablir la broche après avoir créé de l'espace.",
     "North-South est une position de transition : une fuite au bon moment les empêche de l'établir comme une épingle et les oblige à revenir à Side Control ou à se lever."
   ],
   "commonMistakes": [
@@ -20,7 +20,7 @@
   "coachingCues": [
     "Cadre sur la hanche, pas sur la poitrine",
     "Transformez-vous en eux, pas loin",
-    "knee shield avant de s'installer"
+    "Knee Shield avant de s'installer"
   ],
   "safetySummary": [
     "L'étranglement North-South peut se déclencher rapidement : protégez votre cou en gardant votre menton rentré et votre bras près de votre poitrine.",
@@ -29,7 +29,7 @@
   ],
   "keyCorrections": [],
   "systemLogic": {
-    "corePrinciple": "L'évasion North-South suit une séquence en quatre étapes : cadre → évasion de la hanche → knee shield → tourner/récupérer Guard",
+    "corePrinciple": "L'évasion North-South suit une séquence en quatre étapes : cadre → évasion de la hanche → Knee Shield → tourner/récupérer Guard",
     "decisionTree": [
       {
         "condition": "Application générale",
@@ -37,15 +37,15 @@
       },
       {
         "condition": "Application générale",
-        "action": "Phase d'évasion des hanches : éloignez vos hanches des leurs pour créer une poche d'espace pour le knee shield"
+        "action": "Phase d'évasion des hanches : éloignez vos hanches des leurs pour créer une poche d'espace pour le Knee Shield"
       },
       {
         "condition": "Application générale",
-        "action": "Phase knee shield : insérez votre genou proche entre votre poitrine et sa hanche. Le tibia doit être tourné vers l’ensemble du corps et non vers le haut."
+        "action": "Phase Knee Shield : insérez votre genou proche entre votre poitrine et sa hanche. Le tibia doit être tourné vers l’ensemble du corps et non vers le haut."
       },
       {
         "condition": "Application générale",
-        "action": "Tournez/récupérez : utilisez le knee shield comme point de pivot pour vous tourner vers eux, puis récupérez le Guard complet (en overhooking leur bras éloigné) ou levez-vous via un stand-up technique"
+        "action": "Tournez/récupérez : utilisez le Knee Shield comme point de pivot pour vous tourner vers eux, puis récupérez le Guard complet (en overhooking leur bras éloigné) ou levez-vous via un stand-up technique"
       }
     ]
   },

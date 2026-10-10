@@ -17,7 +17,7 @@
   "description": "Người trên giữ chest-to-back, seatbelt cùng hook hoặc Body Triangle, tạo thế lưỡng nan để siết cổ.",
   "topPlayerGoals": [
     "Người trên kiểm soát Back Control bằng vị trí đầu, vị trí trong và hướng áp lực.",
-    "Giữ chest-to-back, thắng hand fight rồi khóa tay hoặc siết cổ.",
+    "Giữ chest-to-back, thắng hand fight rồi Armbar hoặc choke.",
     "Giữ nền chắc để không bị đẩy mất thăng bằng hay bị phản đòn."
   ],
   "bottomPlayerGoals": [
@@ -37,7 +37,7 @@
   ],
   "advancementOptions": [
     {
-      "action": "Mở RNC hoặc khóa tay",
+      "action": "Mở RNC hoặc Armbar",
       "nextPositionId": "rear-naked-choke-threat",
       "relatedSkillIds": [
         "back-control",

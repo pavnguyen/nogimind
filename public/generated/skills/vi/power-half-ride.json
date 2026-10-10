@@ -62,7 +62,7 @@
   "searchBoost": 1,
   "keyCorrections": [
     "Nếu họ tiếp tục ngồi dậy: áp lực ở ngực của bạn quá nhẹ - hãy đẩy xương ức của bạn vào lưng trên của họ",
-    "Nếu họ lăn về phía bạn: thả tay cầm ra và thu lưng lại",
+    "Nếu họ lăn về phía bạn: thả tay cầm và lấy lưng",
     "Nếu họ lăn đi: hãy bám theo họ, giữ chặt và thiết lập lại áp lực ở ngực"
   ],
   "version": 1,
@@ -77,26 +77,26 @@
     "hasStateMachine": false
   },
   "locale": "vi",
-  "description": "Cú cưỡi nửa sức mạnh sử dụng kiểu cầm chéo sâu ở cánh tay xa kết hợp với áp ngực vào ngực để đè bẹp đối thủ khỏi Tư thế rùa hoặc bốn điểm và để lộ lưng.",
+  "description": "Power Half Ride dùng kiểu cầm chéo sâu ở cánh tay xa kết hợp với áp ngực vào ngực để đè bẹp đối thủ khỏi Turtle hoặc bốn điểm và để lộ lưng.",
   "shortInstruction": "Đưa tay xuống dưới cánh tay gần, nắm chặt cơ tam đầu hoặc vai ở xa. Đẩy vai vào thảm trong khi đưa hông về phía đầu để làm phẳng. Chuyển sang Back Control khi họ thu gọn.",
-  "summary": "Cú cưỡi nửa sức mạnh đè bẹp đối thủ khỏi Tư thế rùa bằng cách điều khiển cánh tay xa và tác động áp lực lên vai, tạo ra sự lộ ra phía sau. Các cơ chế chính là: nắm sâu theo mặt chéo (với tay dưới cánh tay gần để điều khiển cánh tay/vai xa), áp lực từ ngực đến ngực (trọng lượng của bạn truyền qua ngực vào lưng trên của họ) và đi bộ bằng hông (hông của bạn tiến về phía đầu của họ khi họ gục xuống). Nửa sức mạnh là một trong những hệ thống có tỷ lệ phá Tư thế rùa cao nhất trong đấu vật.",
+  "summary": "Power Half Ride đè bẹp đối thủ khỏi Turtle bằng cách điều khiển cánh tay xa và tác động áp lực lên vai, tạo ra sự lộ ra phía sau. Các cơ chế chính là: nắm sâu theo mặt chéo (với tay dưới cánh tay gần để điều khiển cánh tay/vai xa), áp lực từ ngực đến ngực (trọng lượng của bạn truyền qua ngực vào lưng trên của họ) và đi bộ bằng hông (hông của bạn tiến về phía đầu của họ khi họ gục xuống). Power Half Ride là một trong những hệ thống phá Turtle hiệu quả nhất trong đấu vật.",
   "whyItWorks": [
     "Tay cầm bắt chéo trên cánh tay xa giúp bạn kiểm soát phần thân trên của họ - họ không thể tạo tư thế hoặc ngồi qua",
     "Áp lực từ ngực đến ngực khiến họ tiến về phía trước, khiến họ mất khả năng đứng vững trên tay",
     "Đưa hông của bạn về phía đầu của họ sẽ dần dần làm phẳng họ - khi hông của bạn tiến lên, phần đế của họ sẽ xẹp xuống",
-    "Sau khi được làm phẳng, mặt sau sẽ lộ ra để chụp lại dễ dàng với điều khiển seatbelt"
+    "Sau khi được làm phẳng, lưng lộ ra cho một Back Take sạch với seatbelt"
   ],
   "commonMistakes": [
     "Với cánh tay xa quá nông - tay cầm phải sâu trên cơ tam đầu hoặc vai, không phải khuỷu tay",
     "Ở quá cao trên cơ thể - hông của bạn phải tiến về phía đầu để tạo hiệu ứng làm phẳng",
     "Giảm áp lực ở ngực - nếu ngực bạn tách ra, họ có thể ngồi dậy và thoát ra ngoài",
-    "Không chuyển sang Back Control đủ nhanh, khi đã ổn định, hãy lùi lại ngay lập tức"
+    "Không chuyển sang Back Control đủ nhanh, khi đã ổn định, hãy lấy lưng ngay lập tức"
   ],
   "coachingCues": [
     "Tay xa, nắm sâu",
     "Ngực trên ngực, đi hông",
     "Vai sát thảm",
-    "Làm phẳng trước, quay lại lấy thứ hai"
+    "Làm phẳng trước, Back Take sau"
   ],
   "safetySummary": [
     "Không tác dụng áp lực xoay mạnh lên vai - tay nắm chéo mặt điều khiển, nó không tấn công",
@@ -104,35 +104,35 @@
     "Hãy cẩn thận với các ngón tay của bạn khi chạm vào phần dưới cánh tay gần - hãy bảo vệ họ"
   ],
   "systemLogic": {
-    "corePrinciple": "Nửa lực đi có ba giai đoạn: Nắm → Làm phẳng → Lùi lại",
+    "corePrinciple": "Power Half Ride có ba giai đoạn: nắm → làm phẳng → Back Take",
     "decisionTree": [
       {
         "condition": "Ở Giai đoạn 1 (Grip)",
-        "action": "đặt mình bên cạnh con Tư thế rùa (vuông góc). Đưa tay xuống dưới cánh tay gần và nắm chặt cơ tam đầu hoặc vai ở xa. Ngực của bạn nên được kết nối với lưng trên của họ"
+        "action": "đặt mình bên cạnh Turtle (vuông góc). Đưa tay xuống dưới cánh tay gần và nắm chặt cơ tam đầu hoặc vai ở xa. Ngực của bạn nên được kết nối với lưng trên của họ"
       },
       {
         "condition": "Ở Giai đoạn 2 (Làm phẳng)",
         "action": "đưa đầu gối của bạn ra khỏi cơ thể họ (về phía đầu họ) trong khi vẫn duy trì áp lực ở ngực. Khi đầu gối của bạn tiến lên, vai của họ sẽ bị đẩy vào thảm. Tiếp tục lái xe cho đến khi họ nằm phẳng trên hông hoặc bụng"
       },
       {
-        "condition": "Ở Giai đoạn 3 (Quay lại)",
+        "condition": "Ở Giai đoạn 3 (Back Take)",
         "action": "khi đã phẳng, hãy thả tay cầm có mặt chéo ra và thay thế bằng seatbelt (tay qua vai xa, tay ở gần hông). Trượt đầu gối gần của bạn vào đường hông của họ và cố định Back Control bằng móc"
       },
       {
-        "condition": "mất một nửa năng lượng (họ quá mạnh)",
-        "action": "chuyển sang cưỡi bằng móng vuốt hoặc cưỡi theo hình xoắn ốc, mỗi hệ thống tấn công Tư thế rùa từ một góc độ khác nhau"
+        "condition": "Power Half Ride thất bại (họ quá mạnh)",
+        "action": "chuyển sang Claw Ride hoặc Spiral Ride, mỗi hệ thống tấn công Turtle từ một góc độ khác nhau"
       }
     ],
     "exitStrategies": []
   },
   "moneyDetails": [
-    "Cưỡi một nửa sức mạnh là một trong những kỹ thuật phá Tư thế rùa hiệu quả nhất trong đấu vật - nó đơn giản, đáng tin cậy và hoạt động ở mọi cấp độ",
-    "Việc nắm vững một nửa sức mạnh mang lại cho bạn khả năng vượt trội mà không cần sức mạnh hoặc sự linh hoạt đặc biệt",
-    "Lực lùi một nửa là chuyển đổi có giá trị cao ghi được 4 điểm (lùi lại) trong IBJJF"
+    "Power Half Ride là một trong những kỹ thuật phá Turtle hiệu quả nhất trong đấu vật - nó đơn giản, đáng tin cậy và hoạt động ở mọi cấp độ",
+    "Nắm vững Power Half Ride mang lại cho bạn khả năng vượt trội mà không cần sức mạnh hoặc sự linh hoạt đặc biệt",
+    "Power Half Ride là chuyển đổi giá trị cao, ghi 4 điểm (Back Take) trong IBJJF"
   ],
   "fixItFast": [
     "Nếu họ ngồi dậy: hãy ấn mạnh ngực của bạn vào lưng họ và đưa đầu gối của bạn tiến xa hơn về phía đầu họ",
-    "Nếu họ lăn về phía bạn: thả tay cầm ra và thu về phía sau - đừng chống lại tay cầm",
-    "Nếu họ lăn đi: hãy bám theo và duy trì độ bám - một nửa lực sẽ hoạt động ở cả hai bên"
+    "Nếu họ lăn về phía bạn: thả tay cầm và lấy lưng - đừng chống lại tay cầm",
+    "Nếu họ lăn đi: hãy bám theo và duy trì độ bám - Power Half Ride hoạt động ở cả hai bên"
   ]
 }

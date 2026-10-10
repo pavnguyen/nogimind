@@ -44,7 +44,7 @@
   "searchBoost": 1,
   "keyCorrections": [
     "Nếu họ làm phẳng ống chân của bạn, góc của bạn quá vuông - hãy xoay hông sang một bên.",
-    "Nếu bạn không thể nhập SLX thì trọng số của họ đã lùi quá xa, hãy đợi họ chuyển tiếp.",
+    "Nếu bạn không thể nhập SLX thì trọng lượng của họ đã lùi quá xa, hãy đợi họ chuyển tiếp.",
     "Nếu họ tóm lấy đầu bạn, hãy bơi tay bạn vào trong và Pummeling mạnh vào vị trí trong."
   ],
   "version": 1,
@@ -72,7 +72,7 @@
     "Đẩy bằng ống chân thay vì nhận trọng lượng của họ - ống chân là một cảm biến, không phải là vật đẩy.",
     "Để họ tóm lấy đầu bạn và đè bẹp bạn - hãy ngẩng cao đầu và hoạt động.",
     "Ở trong trạng thái shin-to-shin quá lâu mà không chuyển đổi - đó là lối vào, không phải đích đến.",
-    "Quên kiểm soát tay áo trước khi vào SLX, nếu không kiểm soát tay áo, họ có thể post và tránh bị quét."
+    "Quên kiểm soát tay áo trước khi vào SLX, nếu không kiểm soát tay áo, họ có thể post và tránh bị sweep."
   ],
   "coachingCues": [
     "Shin to Shin, cảm nhận sức nặng, chảy đến SLX.",
@@ -81,7 +81,7 @@
     "Tay áo là mỏ neo của bạn - đừng đánh mất nó."
   ],
   "safetySummary": [
-    "Hãy ngẩng cao đầu để tránh quầy Guillotine khi họ lái xe về phía trước.",
+    "Hãy ngẩng cao đầu để tránh Guillotine phản công khi họ lái xe về phía trước.",
     "Không duỗi chân hoàn toàn khi bước vào SLX nếu chân vẫn đang đứng, an toàn đầu gối là trên hết.",
     "Khi họ lùi lại và bạn wrestle up, hãy ngẩng cao đầu để tránh bị húc đầu."
   ],
@@ -90,7 +90,7 @@
     "decisionTree": [
       {
         "condition": "Ứng dụng chung",
-        "action": "Nếu họ lùi lại: mở rộng ống chân của bạn và nhập Single Leg X hoặc X-Guard. Nếu họ ở gần: giữ kết nối ống chân và quét hoặc nhập K-Guard"
+        "action": "Nếu họ lùi lại: mở rộng ống chân của bạn và nhập Single Leg X hoặc X-Guard. Nếu họ ở gần: giữ kết nối ống chân và sweep hoặc vào K-Guard"
       },
       {
         "condition": "Ứng dụng chung",

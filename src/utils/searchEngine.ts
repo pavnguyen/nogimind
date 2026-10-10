@@ -157,6 +157,7 @@ const grapplingTermAliases: Record<string, string[]> = {
   'shoulder crunch': ['shoulder crunch', 'kep vai', 'contrôle épaule', 'controle epaule'],
   's Mount': ['s Mount', 's-Mount', 'smount'],
   gogoplata: ['gogoplata', 'shin throat', 'ong chan qua co'],
+  'rubber guard': ['rubber guard', 'mission control', 'new york', 'chill dog', 'kung fu move'],
   'buggy choke': ['buggy choke', 'buggy', 'Side Control bottom choke'],
   'choi bar': ['choi bar', 'choibar'],
   tarikoplata: ['tarikoplata', 'tariko'],

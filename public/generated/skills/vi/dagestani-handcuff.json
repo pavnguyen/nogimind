@@ -3,7 +3,7 @@
   "domain": "pins_rides",
   "level": "advanced",
   "status": "draft",
-  "name": "Còng tay Dagestani",
+  "name": "Dagestani Handcuff",
   "aliases": [
     "handcuff ride",
     "handcuff back take",
@@ -64,8 +64,8 @@
   "nextSkillIds": [],
   "searchBoost": 1,
   "keyCorrections": [
-    "Nếu bạn chỉ có một cổ tay: hãy kiểm soát cổ tay đó và thay vào đó hãy sử dụng tay còn lại để giữ chặt kiểu bắt chéo cổ tay hoặc kiểu vuốt",
-    "Nếu họ lăn ra: thả còng tay ra và lấy phần còng sau khi họ lăn ra",
+    "Nếu bạn chỉ có một cổ tay: hãy kiểm soát cổ tay đó và thay vào đó hãy sử dụng tay còn lại để giữ Cross-Wrist Ride hoặc Claw Ride",
+    "Nếu họ lăn ra: thả Dagestani Handcuff ra và lấy Back Control sau khi họ lăn ra",
     "Nếu họ tách tay ra: bạn đã mất vị trí khuỷu tay bị kẹp - hãy kẹp lại và lái mạnh hơn về phía trước"
   ],
   "version": 1,
@@ -80,9 +80,9 @@
     "hasStateMachine": false
   },
   "locale": "vi",
-  "description": "Kiểm soát cả hai cổ tay từ phía sau hoặc Tư thế rùa bằng cách kéo cổ tay gần về phía hông của bạn trong khi giữ cổ tay ở xa, tạo ra tư thế giống như còng tay để lộ phần lưng để thực hiện động tác quay lưng sạch sẽ.",
-  "shortInstruction": "Từ con Tư thế rùa hoặc Back Control, cố định cổ tay gần đó và kéo nó về phía hông của bạn. Đưa tay xuống và nắm lấy cổ tay ở xa. Siết chặt khuỷu tay của bạn và đẩy về phía trước để thu gọn tư thế và để lộ phần lưng.",
-  "summary": "Còng tay Dagestani bẫy cả hai cổ tay để làm đối thủ bất động và buộc phải lộ ra sau, được phổ biến bởi Khabib Nurmagomedov và phong cách đấu vật Dagestani. Bằng cách kiểm soát cả hai cổ tay với nhau, bạn ngăn chặn đối thủ đăng, trụ hoặc đóng khung - lối thoát duy nhất là lăn, bạn có thể phản công bằng cách lăn theo và lấy lại.",
+  "description": "Kiểm soát cả hai cổ tay từ phía sau hoặc Turtle bằng cách kéo cổ tay gần về phía hông của bạn trong khi giữ cổ tay ở xa, tạo ra tư thế giống như còng tay để lộ phần lưng để thực hiện động tác quay lưng sạch sẽ.",
+  "shortInstruction": "Từ Turtle hoặc Back Control, cố định cổ tay gần đó và kéo nó về phía hông của bạn. Đưa tay xuống và nắm lấy cổ tay ở xa. Siết chặt khuỷu tay của bạn và đẩy về phía trước để thu gọn tư thế và để lộ phần lưng.",
+  "summary": "Dagestani Handcuff bẫy cả hai cổ tay để làm đối thủ bất động và buộc phải lộ ra sau, được phổ biến bởi Khabib Nurmagomedov và phong cách đấu vật Dagestani. Bằng cách kiểm soát cả hai cổ tay với nhau, bạn ngăn chặn đối thủ đăng, trụ hoặc đóng khung - lối thoát duy nhất là lăn, bạn có thể phản công bằng cách lăn theo và lấy lại.",
   "whyItWorks": [
     "Bẫy cả hai cổ tay sẽ loại bỏ khả năng trụ hoặc trụ của đối phương - nếu không có tay, họ không thể tự đẩy mình lên",
     "Lái xe về phía trước với khuỷu tay bị kẹp sẽ làm họ mất tư thế và dồn trọng lượng lên đầu",
@@ -92,26 +92,26 @@
   "commonMistakes": [
     "Nắm cẳng tay quá cao thay vì khớp cổ tay - nắm cẳng tay có thể bị trượt",
     "Để khuỷu tay xòe ra - khuỷu tay bị kẹp là chìa khóa để kiểm soát cả hai cổ tay",
-    "Không lái xe về phía trước - riêng còng tay không xẹp xuống; cần phải có áp lực về phía trước để làm sụp đổ tư thế",
-    "Thả quá sớm - duy trì còng tay cho đến khi mặt sau được cố định hoàn toàn"
+    "Không lái xe về phía trước - riêng Dagestani Handcuff không làm họ sập xuống; cần phải có áp lực về phía trước để làm sụp đổ tư thế",
+    "Thả quá sớm - duy trì Dagestani Handcuff cho đến khi lấy được lưng hoàn toàn"
   ],
   "coachingCues": [
     "Cả hai cổ tay, nhéo khuỷu tay",
     "Lái xe về phía trước, thu gọn tư thế",
-    "còng tay để lấy lại",
-    "Giữ cho đến khi mặt sau được cố định chắc chắn"
+    "Dagestani Handcuff để lấy lưng",
+    "Giữ cho đến khi lưng được cố định chắc chắn"
   ],
   "safetySummary": [
     "Kiểm soát cổ tay nên được áp dụng cho khớp cổ tay chứ không phải bàn tay - việc nắm chặt bàn tay có thể gây thương tích cho ngón tay",
     "Không tác động lực xuống đột ngột - điều này có thể làm căng cổ tay hoặc vai của đối phương",
-    "Nếu đối thủ lăn lộn hung hãn thì thả còng tay và lăn theo chứ không đánh nhau"
+    "Nếu đối thủ lăn lộn hung hãn thì thả Dagestani Handcuff và lăn theo, không đấu lại"
   ],
   "systemLogic": {
-    "corePrinciple": "Còng tay Dagestani tuân theo trình tự bốn bước: Cố định gần cổ tay: Bẫy cổ tay ở xa → Kẹp khuỷu tay → Lái xe về phía trước",
+    "corePrinciple": "Dagestani Handcuff tuân theo trình tự bốn bước: Cố định gần cổ tay: Bẫy cổ tay ở xa → Kẹp khuỷu tay → Lái xe về phía trước",
     "decisionTree": [
       {
         "condition": "Ở Bước 1 (An toàn gần cổ tay)",
-        "action": "từ phía sau con Tư thế rùa hoặc Back Control, nắm lấy cổ tay ở gần của đối phương và kéo về phía hông của bạn"
+        "action": "từ phía sau Turtle hoặc từ Back Control, nắm lấy cổ tay ở gần của đối phương và kéo về phía hông của bạn"
       },
       {
         "condition": "Ở Bước 2 (Bẫy cổ tay xa)",
@@ -133,13 +133,13 @@
     "exitStrategies": []
   },
   "moneyDetails": [
-    "Còng tay Dagestani là một trong những hệ thống phá Tư thế rùa hiệu quả nhất trong đấu vật và BJJ",
+    "Dagestani Handcuff là một trong những hệ thống phá Turtle hiệu quả nhất trong đấu vật và BJJ",
     "Đó là hệ thống chữ ký của Khabib Nurmagomedov và trường đấu vật Dagestani - đã được thử nghiệm ở cấp độ cao nhất",
-    "Việc thành thạo còng tay sẽ mang lại cho bạn con đường đáng tin cậy từ Tư thế rùa đến Back Control mà không cần sức mạnh"
+    "Thành thạo Dagestani Handcuff mang lại cho bạn con đường đáng tin cậy từ Turtle đến Back Control mà không cần sức mạnh"
   ],
   "fixItFast": [
-    "Nếu bạn chỉ có một cổ tay: thay vào đó hãy chuyển sang đeo chéo cổ tay hoặc vuốt ve",
-    "Nếu họ lăn ra: thả ra và rút lại - đừng đấu tranh để giữ còng tay",
+    "Nếu bạn chỉ có một cổ tay: thay vào đó hãy chuyển sang Cross-Wrist Ride hoặc Claw Ride",
+    "Nếu họ lăn ra: thả ra và rút lại - đừng đấu tranh để giữ Dagestani Handcuff",
     "Nếu họ tách tay ra: nhéo lại khuỷu tay và lái mạnh hơn"
   ]
 }

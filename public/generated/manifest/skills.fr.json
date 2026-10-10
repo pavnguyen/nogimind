@@ -347,7 +347,7 @@
       "frame",
       "knee-shield"
     ],
-    "summary": "North-South escape utilise un cadre d'avant-bras sur les hanches pour créer une séparation, puis un knee shield pour se transformer en adversaire et récupérer Guard. Le système est distinct des évasions Side Control car le poids de l'adversaire est aligné le long de votre ligne médiane plutôt que perpendiculairement à celle-ci.",
+    "summary": "North-South escape utilise un cadre d'avant-bras sur les hanches pour créer une séparation, puis un Knee Shield pour se transformer en adversaire et récupérer Guard. Le système est distinct des évasions Side Control car le poids de l'adversaire est aligné le long de votre ligne médiane plutôt que perpendiculairement à celle-ci.",
     "hasVideos": true,
     "hasMicroDetails": false,
     "hasChecklist": false
@@ -367,10 +367,30 @@
     "hasChecklist": false
   },
   {
+    "id": "priit-turtle-escapes",
+    "domain": "escapes",
+    "level": "intermediate",
+    "name": "Priit Turtle Escapes",
+    "tags": [
+      "turtle",
+      "escape",
+      "survival",
+      "tier:modern-expansion",
+      "meta:modern-common",
+      "risk:medium",
+      "family:escape",
+      "modern-no-gi"
+    ],
+    "summary": "Le travail de Priit Mihkelson sur la turtle a changé la façon dont beaucoup de grapplers lisent cette position. Au lieu de voir la turtle comme un compte à rebours avant de perdre le dos, son système défensif la traite comme une posture avec ses propres règles : le cou est caché, les coudes et les genoux restent connectés aux côtes et aux hanches, et les mains ne se postent jamais dans l'espace qui offre à l'attaquant le seatbelt ou le premier crochet. Depuis cette posture, les sorties parlent de timing et de fondamentaux plutôt que de vitesse : une sortie ne fonctionne que quand l'attaquant engage une main ou son poids, et le système est construit autour de la lecture des erreurs que les attaquants enchaînent quand ils essayent de prendre le dos. C'est pourquoi la sitting turtle, la connexion coude et genou, et l'attente patiente font partie du même système que le lever et le passage assis vers la garde.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
     "id": "reaping-awareness",
     "domain": "positional_awareness",
     "level": "beginner",
-    "name": "Récolter la conscience",
+    "name": "Knee Reaping",
     "tags": [
       "safety",
       "knee-safety",
@@ -382,7 +402,7 @@
       "ibjjf-rules",
       "modern-no-gi"
     ],
-    "summary": "La conscience de la récolte vous apprend à identifier quand un enchevêtrement de jambe devient une récolte illégale (règle IBJJF) ou une position dangereuse du genou, et comment vous adapter à des positions d'entraînement sûres. La mesure clé est la ligne médiane : si votre pied attaquant se trouve du côté opposé du corps de l'adversaire par rapport à l'endroit où vous avez commencé, vous récoltez probablement. Le danger est que la récolte applique le même couple de rotation au genou qu'un Heel Hook, et l'entraînement dans des positions récoltées normalise les angles de genou dangereux.",
+    "summary": "Cette fiche vous apprend à repérer le moment où un enchevêtrement de jambes devient un Knee Reaping illégal (règle IBJJF) ou une position dangereuse pour le genou, et comment revenir à des positions d'entraînement sûres. Le repère clé est la ligne médiane : si votre pied attaquant passe du côté opposé du corps de l'adversaire par rapport à votre point de départ, vous êtes probablement en Knee Reaping. Le danger : le Knee Reaping applique au genou le même couple de rotation qu'un Heel Hook, et s'entraîner dans des positions en Knee Reaping banalise des angles de genou dangereux.",
     "hasVideos": true,
     "hasMicroDetails": false,
     "hasChecklist": true
@@ -595,7 +615,7 @@
       "Guard",
       "sweep"
     ],
-    "summary": "De La Riva (DLR) Guard est le Open Guard le plus courant dans le No-Gi moderne. Le crochet intérieur sur la jambe proche de l'adversaire, combiné à une poignée de manche ou de cheville, vous donne le contrôle de sa base. En tirant leur manche sur votre corps et en accrochant simultanément leur jambe, vous créez un angle qui les déséquilibre vers l'avant et sur le côté. Cela ouvre les entrées dans X-Guard, X à une seule jambe ou balayages directs.",
+    "summary": "De La Riva (DLR) Guard est le Open Guard le plus courant dans le No-Gi moderne. Le crochet intérieur sur la jambe proche de l'adversaire, combiné à une poignée de manche ou de cheville, vous donne le contrôle de sa base. En tirant leur manche sur votre corps et en accrochant simultanément leur jambe, vous créez un angle qui les déséquilibre vers l'avant et sur le côté. Cela ouvre les entrées dans X-Guard, Single Leg X ou balayages directs.",
     "hasVideos": true,
     "hasMicroDetails": false,
     "hasChecklist": false
@@ -620,7 +640,7 @@
     "id": "false-reap-entry",
     "domain": "guard_offense",
     "level": "advanced",
-    "name": "Fausse entrée de récolte",
+    "name": "False Reap Entry",
     "tags": [
       "false-reap",
       "leg-lock",
@@ -632,7 +652,7 @@
       "group:false-reap",
       "modern-no-gi"
     ],
-    "summary": "La fausse récolte est une entrée No-Gi Guard où vous accrochez la jambe proche de l'adversaire de l'extérieur avec votre jambe, plutôt que de l'intérieur. Cela crée un angle arrière sur la ligne de leurs jambes, ouvrant les entrées vers le Saddle (Inside Sankaku), le cross ashi et les prises arrière. Contrairement à la récolte traditionnelle, la fausse récolte ne traverse pas la ligne des genoux de l'adversaire de manière dangereuse, ce qui la rend légale dans la plupart des règles IBJJF tout en vous donnant accès à l'enchevêtrement des jambes.",
+    "summary": "Le False Reap est une entrée de Guard no-gi : vous crochetez la jambe proche de l'adversaire par l'extérieur avec votre jambe, au lieu de passer par l'intérieur. Cela crée un angle arrière sur sa ligne de jambe, ouvrant les entrées vers le Saddle (Inside Sankaku), le cross ashi et les Back Takes. Contrairement au Knee Reaping classique, le False Reap ne traverse pas la Knee Line de l'adversaire de façon dangereuse : il reste légal dans la plupart des règlements IBJJF tout en donnant accès à l'enchevêtrement.",
     "hasVideos": true,
     "hasMicroDetails": false,
     "hasChecklist": false
@@ -641,7 +661,7 @@
     "id": "false-reap-to-saddle-bridge",
     "domain": "guard_offense",
     "level": "advanced",
-    "name": "Fausse récolte jusqu'au pont Saddle",
+    "name": "False Reap to Saddle Bridge",
     "tags": [
       "false-reap",
       "saddle",
@@ -649,7 +669,7 @@
       "inside-sankaku",
       "leg-lock-entry"
     ],
-    "summary": "La fausse récolte vers le pont Saddle est la chaîne d'attaque principale depuis la position de fausse récolte. Lorsque l'adversaire sent sa jambe contrôlée et essaie de la libérer en reculant ou en écartant ses hanches, il crée l'angle de rotation exact dont vous avez besoin pour balancer votre jambe supérieure sur son corps et verrouiller le Saddle (Inside Sankaku). Leur évasion alimente votre entrée – c'est le principe de Danaher qui consiste à utiliser la réaction de l'adversaire comme configuration.",
+    "summary": "Le False Reap to Saddle Bridge est la chaîne d'attaque principale depuis la position de False Reap. Quand l'adversaire sent sa jambe contrôlée et essaie de la libérer en reculant ou en écartant ses hanches, il crée exactement l'angle de rotation dont vous avez besoin pour passer votre jambe supérieure par-dessus son corps et verrouiller le Saddle (Inside Sankaku). Son évasion alimente votre entrée - c'est le principe de Danaher : utiliser la réaction de l'adversaire comme configuration.",
     "hasVideos": true,
     "hasMicroDetails": false,
     "hasChecklist": false
@@ -680,7 +700,7 @@
       "half-Guard",
       "Guard"
     ],
-    "summary": "Le knee shield (également appelé Z-Guard) est la position la plus stable dans le bas Half Guard. Votre genou latéral est inséré entre votre poitrine et sa hanche, créant un cadre qui l'empêche d'appliquer une pression thoracique. À partir de là, vous pouvez vous battre pour le underhook, créer de la distance et attaquer avec des balayages (moitié profonde, serveur), des soumissions (Kimura) ou des luttes. Si vous perdez le knee shield, vous êtes aplati – le protéger est donc votre priorité numéro un.",
+    "summary": "Le Knee Shield (également appelé Z-Guard) est la position la plus stable dans le bas Half Guard. Votre genou latéral est inséré entre votre poitrine et sa hanche, créant un cadre qui l'empêche d'appliquer une pression thoracique. À partir de là, vous pouvez vous battre pour le underhook, créer de la distance et attaquer avec des balayages (moitié profonde, serveur), des soumissions (Kimura) ou des luttes. Si vous perdez le Knee Shield, vous êtes aplati – le protéger est donc votre priorité numéro un.",
     "hasVideos": true,
     "hasMicroDetails": false,
     "hasChecklist": false
@@ -801,6 +821,25 @@
     "hasChecklist": false
   },
   {
+    "id": "r-guard",
+    "domain": "guard_offense",
+    "level": "advanced",
+    "name": "R-Guard",
+    "tags": [
+      "Guard",
+      "reverse-de-la-riva",
+      "tier:modern-expansion",
+      "meta:modern-common",
+      "risk:medium",
+      "family:guard",
+      "modern-no-gi"
+    ],
+    "summary": "Le R-Guard, aussi appelé Reverse Guard, est une variation no-gi moderne de la garde De La Riva. Comme il n'y a ni manche ni col à saisir, le gardien inverse la configuration : le crochet passe à l'extérieur de la jambe proche et les contrôles viennent du poignet, de la jambe éloignée et de l'angle des hanches. Cette forme est autant défensive qu'offensive : la jambe du dessous reste libre, donc le passeur ne peut pas la clouer au sol quand il arrive à headquarters. Depuis la même forme, le gardien enchaîne les sweeps, les wrestle-ups et les entrées vers le cross ashi, ce qui explique pourquoi les pratiquants no-gi modernes la traitent comme une première ligne de défense plutôt que comme une garde statique.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
     "id": "reverse-de-la-riva-transitions",
     "domain": "guard_offense",
     "level": "intermediate",
@@ -852,7 +891,7 @@
       "Guard",
       "entry"
     ],
-    "summary": "Shin-to-shin est l'entrée Open Guard la plus proche dans No-Gi. En plaçant votre tibia contre son tibia et en contrôlant sa manche ou sa cheville, vous créez une connexion directe qui vous permet de ressentir chaque transfert de poids. Lorsqu'ils s'engagent en avant, vous déséquilibrez et faites glisser vos hanches vers le bas, entrant en X sur une seule jambe. Lorsqu'ils reculent, vous vous levez et wrestle up. Shin-to-shin est le pont entre le Guard assis et le système d'enchevêtrement des jambes.",
+    "summary": "Shin-to-shin est l'entrée Open Guard la plus proche dans No-Gi. En plaçant votre tibia contre son tibia et en contrôlant sa manche ou sa cheville, vous créez une connexion directe qui vous permet de ressentir chaque transfert de poids. Lorsqu'ils s'engagent en avant, vous déséquilibrez et faites glisser vos hanches vers le bas, entrant en Single Leg X. Lorsqu'ils reculent, vous vous levez et wrestle up. Shin-to-shin est le pont entre le Guard assis et le système d'enchevêtrement des jambes.",
     "hasVideos": true,
     "hasMicroDetails": false,
     "hasChecklist": false
@@ -887,7 +926,7 @@
       "Guard",
       "leg-lock"
     ],
-    "summary": "Le X sur une jambe (SLX) est la position fondamentale de contrôle sur une jambe du No-Gi moderne. Vous coincez une de leurs jambes avec votre propre jambe (entre votre cuisse et votre mollet), tandis que votre autre pied repose sur leur hanche opposée. Cela vous donne le contrôle de toute leur base grâce à une seule jambe – lorsque vous tirez sur cette jambe, tout leur corps suit. SLX est le point d'entrée pour les balayages (balayage SLX classique), les enchevêtrements de jambes (entrez Ashi Garami) et les stand-ups (wrestle up).",
+    "summary": "Le Single Leg X (SLX) est la position fondamentale de contrôle sur une jambe du No-Gi moderne. Vous coincez une de leurs jambes avec votre propre jambe (entre votre cuisse et votre mollet), tandis que votre autre pied repose sur leur hanche opposée. Cela vous donne le contrôle de toute leur base grâce à une seule jambe – lorsque vous tirez sur cette jambe, tout leur corps suit. SLX est le point d'entrée pour les balayages (balayage SLX classique), les enchevêtrements de jambes (entrez Ashi Garami) et les stand-ups (wrestle up).",
     "hasVideos": true,
     "hasMicroDetails": false,
     "hasChecklist": false
@@ -910,7 +949,7 @@
       "group:single-leg_x",
       "modern-no-gi"
     ],
-    "summary": "Le contrôle X sur une seule jambe va au-delà des bases : cela signifie que vous possédez entièrement la jambe piégée de l'adversaire. Ils ne peuvent pas le libérer, ne peuvent pas en sortir et ne peuvent pas s’appuyer sur lui. À partir de ce niveau de contrôle, toutes les options sont disponibles : vous pouvez les balayer sur le dos, les reprendre lorsqu'ils postent ou les laisser tomber dans un enchevêtrement de jambes. La différence entre les contrôles de base SLX et SLX réside dans la profondeur de votre serrure et dans votre capacité à lire et à réagir à leurs changements de poids.",
+    "summary": "Le contrôle Single Leg X va au-delà des bases : cela signifie que vous possédez entièrement la jambe piégée de l'adversaire. Ils ne peuvent pas le libérer, ne peuvent pas en sortir et ne peuvent pas s’appuyer sur lui. À partir de ce niveau de contrôle, toutes les options sont disponibles : vous pouvez les balayer sur le dos, les reprendre lorsqu'ils postent ou les laisser tomber dans un enchevêtrement de jambes. La différence entre les contrôles de base SLX et SLX réside dans la profondeur de votre serrure et dans votre capacité à lire et à réagir à leurs changements de poids.",
     "hasVideos": true,
     "hasMicroDetails": false,
     "hasChecklist": false
@@ -924,7 +963,7 @@
       "Guard",
       "retention"
     ],
-    "summary": "La rétention en position couchée Guard est ce que vous utilisez lorsque vous vous retrouvez à plat sur le dos. Contrairement à la rétention Guard assise (où vous êtes actif et mobile), la rétention en décubitus dorsal consiste à récupérer la structure d'une position compromise. Vos outils sont : l'élévation des hanches (shrimping), les knee shields (insérer vos genoux entre vous et eux) et les repose-pieds (placer vos pieds sur leurs hanches ou leurs biceps). Le but est toujours de revenir à vos côtés et de rétablir un Guard actif.",
+    "summary": "La rétention en position couchée Guard est ce que vous utilisez lorsque vous vous retrouvez à plat sur le dos. Contrairement à la rétention Guard assise (où vous êtes actif et mobile), la rétention en décubitus dorsal consiste à récupérer la structure d'une position compromise. Vos outils sont : l'élévation des hanches (shrimping), les Knee Shields (insérer vos genoux entre vous et eux) et les repose-pieds (placer vos pieds sur leurs hanches ou leurs biceps). Le but est toujours de revenir à vos côtés et de rétablir un Guard actif.",
     "hasVideos": true,
     "hasMicroDetails": false,
     "hasChecklist": false
@@ -962,7 +1001,7 @@
       "sweep",
       "half-Guard"
     ],
-    "summary": "Z-Guard (knee shield) est le poste de contrôle ; sweeps sont la récompense. À partir de Z-Guard, votre knee shield crée de la distance pendant que vous vous battez pour le underhook. Une fois que vous avez remporté le underhook, vous disposez de trois options principales sweep : glisser dans la moitié profonde (quand ils avancent), frapper le serveur sweep (quand ils se lèvent) ou wrestle up (quand ils reculent). La transition Z-Guard vers la moitié profonde est l'une des chaînes sweep avec le pourcentage le plus élevé dans No-Gi.",
+    "summary": "Z-Guard (Knee Shield) est le poste de contrôle ; sweeps sont la récompense. À partir de Z-Guard, votre Knee Shield crée de la distance pendant que vous vous battez pour le underhook. Une fois que vous avez remporté le underhook, vous disposez de trois options principales sweep : glisser dans la moitié profonde (quand ils avancent), frapper le serveur sweep (quand ils se lèvent) ou wrestle up (quand ils reculent). La transition Z-Guard vers la moitié profonde est l'une des chaînes sweep avec le pourcentage le plus élevé dans No-Gi.",
     "hasVideos": true,
     "hasMicroDetails": false,
     "hasChecklist": false
@@ -1020,6 +1059,28 @@
     "hasChecklist": false
   },
   {
+    "id": "rubber-guard",
+    "domain": "guard_offense",
+    "level": "advanced",
+    "name": "Rubber Guard",
+    "tags": [
+      "rubber-guard",
+      "mission-control",
+      "overhook",
+      "high-guard",
+      "neck-safety",
+      "tier:advanced-niche",
+      "meta:specialized",
+      "risk:medium",
+      "family:guard",
+      "modern-no-gi"
+    ],
+    "summary": "Le Rubber Guard fonctionne en supprimant la capacité de l'adversaire à se redresser dans votre Closed Guard. Sans grips de gi, le contrôle vient d'un overhook haut sur un bras plus de votre propre jambe dans leur dos. Depuis le contrôle de base (Mission Control) le système monte : le tibia grimpe plus haut sur leur épaule, votre bras se dégage quand ils défendent le verrouillage, et le cou, l'épaule, le coude et la ligne cou-épaule sont attaqués en séquence (Gogoplata, Omoplata, Armbar, Triangle). Les positions servent à tenir la posture cassée, ce ne sont pas des figures de souplesse : dès que leur tête est sous votre poitrine et leur bras verrouillé, le contrôle de jambe devient facile.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
     "id": "bodylock-pass",
     "domain": "passing",
     "level": "intermediate",
@@ -1071,7 +1132,7 @@
       "passing",
       "knee-cut"
     ],
-    "summary": "La passe coupée au genou attaque l'espace entre la hanche de l'adversaire et sa jambe proche alors qu'il se défend avec un knee shield ou Half Guard. La passe fonctionne en : (1) épinglant leur tête avec un crossface pour les empêcher de se transformer en vous, (2) en poussant votre genou le plus proche au-delà de leur knee shield dans l'espace au niveau de leur hanche, (3) en étendant votre jambe pour épingler leur hanche la plus proche et (4) en vous installant dans Side Control. La coupe du genou est la solution idéale pour la plupart des situations No-Gi, car elle maintient une pression maximale tout au long et nécessite un minimum d'espace.",
+    "summary": "La passe coupée au genou attaque l'espace entre la hanche de l'adversaire et sa jambe proche alors qu'il se défend avec un Knee Shield ou Half Guard. La passe fonctionne en : (1) épinglant leur tête avec un crossface pour les empêcher de se transformer en vous, (2) en poussant votre genou le plus proche au-delà de leur Knee Shield dans l'espace au niveau de leur hanche, (3) en étendant votre jambe pour épingler leur hanche la plus proche et (4) en vous installant dans Side Control. La coupe du genou est la solution idéale pour la plupart des situations No-Gi, car elle maintient une pression maximale tout au long et nécessite un minimum d'espace.",
     "hasVideos": true,
     "hasMicroDetails": false,
     "hasChecklist": true
@@ -1116,7 +1177,7 @@
       "half-Guard",
       "pressure-passing"
     ],
-    "summary": "La passe Over-Under crée une connexion poitrine-contre-poitrine qui élimine les frames et le knee shield. Le passeur verrouille un bras au-dessus du dos de l'adversaire et l'autre sous sa jambe lointaine.",
+    "summary": "La passe Over-Under crée une connexion poitrine-contre-poitrine qui élimine les frames et le Knee Shield. Le passeur verrouille un bras au-dessus du dos de l'adversaire et l'autre sous sa jambe lointaine.",
     "hasVideos": true,
     "hasMicroDetails": false,
     "hasChecklist": true
@@ -1142,7 +1203,7 @@
     "id": "tripod-folding-pass",
     "domain": "passing",
     "level": "intermediate",
-    "name": "Passe Trépied / Pliage",
+    "name": "Tripod Pass",
     "tags": [
       "passing",
       "tripod",
@@ -1151,10 +1212,31 @@
       "headquarters",
       "pressure"
     ],
-    "summary": "La passe trépied utilise une stance large combinée à une pression de tête pour plier le corps de l'adversaire. Depuis headquarters, le passeur pose son pied extérieur large, abaisse sa tête et pousse son épaule dans la hip line.",
+    "summary": "Le Tripod Pass utilise une stance large combinée à une pression de tête pour plier le corps de l'adversaire. Depuis headquarters, le passeur pose son pied extérieur large, abaisse sa tête et pousse son épaule dans la hip line.",
     "hasVideos": true,
     "hasMicroDetails": false,
     "hasChecklist": true
+  },
+  {
+    "id": "wiltse-knee-slice",
+    "domain": "passing",
+    "level": "advanced",
+    "name": "Wiltse Knee Slice",
+    "tags": [
+      "passing",
+      "knee-cut",
+      "knee-slice",
+      "tier:modern-expansion",
+      "meta:modern-common",
+      "risk:medium",
+      "family:passing",
+      "group:modern-passing",
+      "modern-no-gi"
+    ],
+    "summary": "Dans le style Pedigo Submission Fighting (Daisy Fresh), le knee slice d'Andrew Wiltse n'est pas un passage lent de pression. Les hanches mènent et le genou traverse la garde jusqu'au sol le plus vite possible, donc le passage est terminé avant que le gardien ait le temps de construire les cadres qui font caler un knee cut lent. Il garde un contrôle que la vitesse ferait perdre : l'underhook est capturé au passage, et c'est ce qui empêche le mouvement de se transformer en scramble. Le knee slice reste son arme principale parce qu'il s'enchaîne depuis des positions où il est déjà, shin-to-shin, un underhook manqué, et le moment où l'adversaire entre en single leg X, et parce qu'il est une vitesse d'un système de passage qui bouge d'un côté à l'autre au lieu de repartir du haut de la garde.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
   },
   {
     "id": "chin-strap-control",
@@ -1291,7 +1373,7 @@
       "wrestling",
       "ride"
     ],
-    "summary": "Le mat return est le processus consistant à ramener un adversaire debout sur le tapis après avoir sécurisé une jambe simple, une jambe double ou un verrou corporel. Cela nécessite trois éléments : une prise sûre qui les empêche de s'échapper, une élévation de la jambe coincée pour retirer leur base et un mouvement de conduite qui les fait atterrir sur la hanche ou sur le dos. Le mat return est essentiel pour empêcher les tortues de s'échapper en position debout et le Half Guard.",
+    "summary": "Le mat return est le processus consistant à ramener un adversaire debout sur le tapis après avoir sécurisé un Single Leg, un Double Leg ou un verrou corporel. Cela nécessite trois éléments : une prise sûre qui les empêche de s'échapper, une élévation de la jambe coincée pour retirer leur base et un mouvement de conduite qui les fait atterrir sur la hanche ou sur le dos. Le mat return est essentiel pour empêcher les tortues de s'échapper en position debout et le Half Guard.",
     "hasVideos": true,
     "hasMicroDetails": false,
     "hasChecklist": true
@@ -1651,6 +1733,29 @@
     "hasChecklist": false
   },
   {
+    "id": "backside-50-50-cross-ashi",
+    "domain": "submission_systems",
+    "level": "advanced",
+    "name": "Backside 50/50 & Cross Ashi",
+    "tags": [
+      "leg-lock",
+      "cross-ashi",
+      "backside-50-50",
+      "heel-hook",
+      "knee-safety",
+      "tier:modern-expansion",
+      "meta:modern-common",
+      "risk:safety-critical",
+      "family:leg-lock",
+      "group:leg-lock",
+      "modern-no-gi"
+    ],
+    "summary": "Le Cross Ashi, appelé saddle, inside sankaku, 411 ou honeyhole selon les écoles, croise les jambes par-dessus le corps de l'adversaire et contrôle la ligne de genou. C'est la plateforme la plus dynamique : plusieurs clés de pied, heel hooks, transitions vers le dos et même des passages en sortent. Son prix, c'est que l'adversaire reste face à vous, donc il peut hand fighter, et s'il libère le talon il peut se retourner et démonter la position. Le Backside 50/50 vous place derrière sa ligne de hanche dans une configuration de jambes 50/50. Quand vous attaquez le talon, il regarde dans la direction opposée, ce qui rend le hand fighting presque impossible, et la position des jambes donne un contrôle supérieur. C'est la version que Lachlan Giles a utilisée dans l'absolu de l'ADCC, et celle que Ryan Hall a utilisée depuis une entrée roulée pour un inside heel hook en UFC. Les deux positions forment un seul système : prenez le Cross Ashi quand vous voulez le large menu d'attaques, et faites passer la jambe en backside quand le talon est contesté.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
     "id": "baratoplata",
     "domain": "submission_systems",
     "level": "advanced",
@@ -1999,6 +2104,26 @@
     "hasChecklist": true
   },
   {
+    "id": "pistol-grip-armbar",
+    "domain": "submission_systems",
+    "level": "intermediate",
+    "name": "Pistol Grip Armbar",
+    "tags": [
+      "armbar",
+      "grip",
+      "elbow-safety",
+      "tier:modern-expansion",
+      "meta:modern-common",
+      "risk:medium",
+      "family:submission",
+      "modern-no-gi"
+    ],
+    "summary": "Le pistol grip est l'une des deux prises de contrôle sur lesquelles se construisent les armbars, l'autre étant la pocket grip. Votre main forte tient leur poignet avec le pouce par-dessus, votre autre main saisit votre propre poignet, et la boucle autour de leur poignet ne peut plus s'ouvrir. C'est cette boucle fermée qui vous permet de tirer leur poignet contre votre poitrine, de garder leur coude pointé sur votre ligne médiane et de finir depuis le mount, le side control, le dos ou la closed guard. Parce que le contrôle vit sur un poignet et non sur une manche, le pistol grip est l'une des entrées d'armbar qui passent directement en no-gi, et c'est aussi la prise qui tient face à un adversaire fort, transpirant, qui arrache vos prises une main à la fois.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false
+  },
+  {
     "id": "rear-naked-choke-system",
     "domain": "submission_systems",
     "level": "intermediate",
@@ -2153,7 +2278,7 @@
     "id": "texas-cloverleaf",
     "domain": "submission_systems",
     "level": "advanced",
-    "name": "Feuille de trèfle du Texas",
+    "name": "Texas Cloverleaf",
     "tags": [
       "texas-cloverleaf",
       "heel-hook",
@@ -2161,7 +2286,7 @@
       "entanglement",
       "submission"
     ],
-    "summary": "Le Texas Cloverleaf est une variante Heel Hook qui utilise une position de jambe moissonneuse pour attaquer le genou avec une pression de rotation directe. Le nom « feuille de trèfle » vient de la façon dont les pattes s'enroulent les unes autour des autres comme un trèfle à quatre feuilles. Il s'agit d'une soumission spécialisée qui est plus efficace dans des configurations spécifiques d'enchevêtrement de jambes et est souvent utilisée comme attaque surprise depuis des positions où le Heel Hook standard n'est pas disponible.",
+    "summary": "Le Texas Cloverleaf est une variante de Heel Hook qui utilise une position de Knee Reaping pour attaquer le genou avec une pression de rotation directe. Le nom « cloverleaf » vient de la façon dont les jambes s'enroulent l'une autour de l'autre comme un trèfle à quatre feuilles. C'est une soumission spécialisée, plus efficace depuis certaines configurations d'enchevêtrement de jambes, souvent utilisée comme attaque surprise là où le Heel Hook standard n'est pas disponible.",
     "hasVideos": true,
     "hasMicroDetails": false,
     "hasChecklist": false
@@ -2248,7 +2373,7 @@
       "ankle-lock",
       "junny-ocasio"
     ],
-    "summary": "Le Z-lock est une soumission hybride de verrouillage de jambe qui combine des éléments du Ankle Lock et du Heel Hook en une seule attaque dévastatrice. Provenant de positions telles que X à une jambe (SLX) et 50/50 Guard, il utilise une configuration de jambe unique pour piéger et serrer la jambe de l'adversaire. La position offre un excellent contrôle et peut être utilisée à la fois comme soumission finale et comme position de transition vers d'autres attaques de jambes comme le Saddle ou le cross Ashi Garami. Il est particulièrement efficace dans les systèmes No-Gi et les systèmes modernes de verrouillage des jambes.",
+    "summary": "Le Z-lock est une soumission hybride de verrouillage de jambe qui combine des éléments du Ankle Lock et du Heel Hook en une seule attaque dévastatrice. Provenant de positions telles que Single Leg X (SLX) et 50/50 Guard, il utilise une configuration de jambe unique pour piéger et serrer la jambe de l'adversaire. La position offre un excellent contrôle et peut être utilisée à la fois comme soumission finale et comme position de transition vers d'autres attaques de jambes comme le Saddle ou le cross Ashi Garami. Il est particulièrement efficace dans les systèmes No-Gi et les systèmes modernes de verrouillage des jambes.",
     "hasVideos": true,
     "hasMicroDetails": false,
     "hasChecklist": false
@@ -2299,7 +2424,7 @@
       "front-headlock",
       "wrestling"
     ],
-    "summary": "La traînée du bras tire le bras de l'adversaire sur votre corps, perturbant sa base et exposant son dos ou sa jambe éloignée. À partir de la traînée du bras, vous avez trois branches principales : (1) prise arrière – cerclez derrière pendant qu'ils suivent la traînée, (2) jambe unique – descendez vers la jambe éloignée pendant qu'ils postent, (3) Front Headlock – abaissez-vous pendant qu'ils résistent à la traînée. La traînée de bras est la base de tous les retraits de style blitz dans No-Gi.",
+    "summary": "La traînée du bras tire le bras de l'adversaire sur votre corps, perturbant sa base et exposant son dos ou sa jambe éloignée. À partir de la traînée du bras, vous avez trois branches principales : (1) prise arrière – cerclez derrière pendant qu'ils suivent la traînée, (2) Single Leg – descendez vers la jambe éloignée pendant qu'ils postent, (3) Front Headlock – abaissez-vous pendant qu'ils résistent à la traînée. La traînée de bras est la base de tous les retraits de style blitz dans No-Gi.",
     "hasVideos": true,
     "hasMicroDetails": false,
     "hasChecklist": false
@@ -2405,7 +2530,7 @@
       "wrestle-up",
       "half-Guard"
     ],
-    "summary": "La lutte Half Guard transforme Half Guard d'une épingle défensive en une entrée de retrait offensif. La séquence est la suivante : gagnez le underhook → tournez-vous pour leur faire face → placez votre pied extérieur → conduisez vers une seule jambe. La lutte fonctionne car elle surprend l'adversaire dans la transition entre la passe et l'épinglage – il n'est pas pleinement engagé dans l'un ou l'autre, ce qui le rend vulnérable au redressement soudain.",
+    "summary": "La lutte Half Guard transforme Half Guard d'une épingle défensive en une entrée de retrait offensif. La séquence est la suivante : gagnez le underhook → tournez-vous pour leur faire face → placez votre pied extérieur → conduisez vers un Single Leg. La lutte fonctionne car elle surprend l'adversaire dans la transition entre la passe et l'épinglage – il n'est pas pleinement engagé dans l'un ou l'autre, ce qui le rend vulnérable au redressement soudain.",
     "hasVideos": true,
     "hasMicroDetails": false,
     "hasChecklist": true
@@ -2450,12 +2575,12 @@
     "id": "single-leg-bjj",
     "domain": "wrestle_up_wrestling",
     "level": "intermediate",
-    "name": "Jambe simple pour BJJ",
+    "name": "Single Leg pour le BJJ",
     "tags": [
       "wrestling",
       "takedown"
     ],
-    "summary": "La jambe unique BJJ est une version modifiée de la jambe unique de lutte qui donne la priorité à la sécurité contre les compteurs de soumission. Les adaptations clés sont : la position de la tête doit toujours être vers l'extérieur (joue contre hanche/dos) plutôt que vers l'intérieur (poitrine contre poitrine), la finition donne la priorité à l'exécution du tuyau (les conduisant latéralement) plutôt qu'au levage (ce qui expose le Guillotine), et la prise arrière est toujours disponible comme alternative à pourcentage élevé à la finition du retrait.",
+    "summary": "Le Single Leg BJJ est une version modifiée du Single Leg de lutte qui donne la priorité à la sécurité contre les compteurs de soumission. Les adaptations clés sont : la position de la tête doit toujours être vers l'extérieur (joue contre hanche/dos) plutôt que vers l'intérieur (poitrine contre poitrine), la finition donne la priorité à l'exécution du tuyau (les conduisant latéralement) plutôt qu'au levage (ce qui expose le Guillotine), et la prise arrière est toujours disponible comme alternative à pourcentage élevé à la finition du retrait.",
     "hasVideos": true,
     "hasMicroDetails": false,
     "hasChecklist": false
@@ -2513,7 +2638,7 @@
       "standing",
       "single-leg"
     ],
-    "summary": "La lutte depuis Guard transforme Guard d'une position défensive en une entrée de retrait offensif. La séquence utilise soit un underhook, un tibia à tibia ou un 2 contre 1 pour contrôler le haut du corps de l'adversaire pendant que vous êtes debout. En position debout, vous terminez avec une seule jambe, un Body Lock ou Front Headlock. La lutte est au cœur du système No-Gi Guard moderne : chaque joueur Guard assis doit disposer d'une lutte fiable pour empêcher l'adversaire de se lever et de passer.",
+    "summary": "La lutte depuis Guard transforme Guard d'une position défensive en une entrée de retrait offensif. La séquence utilise soit un underhook, un tibia à tibia ou un 2 contre 1 pour contrôler le haut du corps de l'adversaire pendant que vous êtes debout. En position debout, vous terminez avec un Single Leg, un Body Lock ou Front Headlock. La lutte est au cœur du système No-Gi Guard moderne : chaque joueur Guard assis doit disposer d'une lutte fiable pour empêcher l'adversaire de se lever et de passer.",
     "hasVideos": true,
     "hasMicroDetails": false,
     "hasChecklist": false

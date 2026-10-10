@@ -1,0 +1,75 @@
+{
+  "id": "pistol-grip-armbar",
+  "locale": "en",
+  "name": "Pistol Grip Armbar",
+  "description": "The Pistol Grip Armbar uses a closed 2-on-1 wrist grip, the pistol grip, to isolate the arm and keep it isolated long enough to finish. It needs no cloth, so the same grip carries straight over into no-gi.",
+  "shortInstruction": "Their wrist in one hand, your own wrist in the other, close the loop, pull it to your chest, and let your hips finish the arm.",
+  "summary": "The pistol grip is one of the two control grips armbars are built on, the other being the pocket grip. Your strong hand holds their wrist with the thumb over the top, your other hand grips your own wrist, and the loop around their wrist cannot open. That closed loop is what lets you pull their wrist to your chest, keep their elbow pointed at your centre line, and finish from mount, side control, the back, or closed guard. Because the control lives on a wrist and not on a sleeve, the pistol grip is one of the armbar setups that transfers to no-gi unchanged, and it is also the grip that makes the armbar hold up against a sweating, strong opponent who keeps peeling single-handed grips off.",
+  "whyItWorks": [
+    "The pistol grip is a closed loop around their wrist, their wrist cannot slide out and your hands cannot be pried apart one hand at a time the way a single wrist grip can.",
+    "Pulling the gripped wrist to your chest creates immediate pressure on their shoulder, not enough to finish, but enough to stop them turning in and hiding the arm.",
+    "The control sits in the arms rather than in your bodyweight, which leaves your hips free for the finish and your base free for the counter.",
+    "It needs no cloth, so it survives a sweaty no-gi round and a partner whose grip breaking is better than your grip."
+  ],
+  "commonMistakes": [
+    "Holding the wrist without closing the loop, a one-handed grip on a sweaty wrist is a grip you will lose.",
+    "Pulling the wrist across your chest while their elbow is free, if the elbow can move they turn into you and the armbar disappears.",
+    "Letting their thumb point down, the thumb-up angle is what lets the elbow line break in the direction you want.",
+    "Squeezing with the hands instead of lifting with the hips, the finish is a stable arm and hip extension, not a bigger squeeze.",
+    "Reaching for the pistol grip too late, once their elbow is on the mat the window is closed and you are now fighting for a position instead of a grip."
+  ],
+  "coachingCues": [
+    "Loop it: their wrist in one hand, your own wrist in the other.",
+    "Wrist to your chest, elbow to your centre line.",
+    "Thumb up, knees closed, hips do the work.",
+    "Win the wrist first, the armbar is the reward."
+  ],
+  "safetySummary": [
+    "The armbar attacks the elbow, extend slowly and stop at the first sign of discomfort, a hyperextended elbow does not warn you twice.",
+    "Never spike or bounce on the elbow to force a tap.",
+    "Keep your own elbow tight to your ribs when you close the loop, so you are not the one who gets rolled while the grip is being built.",
+    "Agree the tap protocol before drilling armbar finishes, and release the moment your partner taps or grabs their own arm."
+  ],
+  "keyCorrections": [
+    "If you keep losing the wrist, you are gripping with one hand, close the loop on your own wrist and pull it tight to your chest.",
+    "If they keep turning into you, their elbow is free, re-pin it on your centre line before you extend.",
+    "If the finish feels weak, you are squeezing instead of lifting, stop the squeeze and extend the hips slowly."
+  ],
+  "systemLogic": {
+    "corePrinciple": "Close the pistol grip on their wrist → pull the wrist to your chest and pin the elbow on your centre line → keep their thumb up → finish with the hips, not the hands.",
+    "decisionTree": [
+      {
+        "condition": "They keep the elbow bent and the hand hidden",
+        "action": "pull the pistol-gripped wrist to your chest, then walk your hips out until the elbow line is exposed."
+      },
+      {
+        "condition": "They roll into you with the grip closed",
+        "action": "keep the loop closed, swing your leg over the head, and re-isolate the arm from the new angle instead of releasing the grip."
+      },
+      {
+        "condition": "They grab their own arm or wrist to defend",
+        "action": "use the closed loop as a two-on-one and peel their grip open before extending."
+      },
+      {
+        "condition": "The grip opens",
+        "action": "stop the attack, rebuild the pistol grip first, a half-closed grip is where elbows get hurt."
+      }
+    ],
+    "exitStrategies": [
+      "If they flatten the elbow to the mat and the armbar is gone, keep the position (mount, back, side control) rather than forcing the finish.",
+      "If the round is a no-gi match and the grip keeps failing, chain to the triangle or the omoplata from the same wrist control instead of re-gripping."
+    ]
+  },
+  "moneyDetails": [
+    "Thumb over the top of their wrist, your other hand grips your own wrist, and the loop closes on the outside of their hand.",
+    "The wrist goes to your sternum, their elbow points at the space in front of your hip, that is the line you break.",
+    "Keep their thumb up, the rotation that makes the elbow line break the way you want starts from the thumb position.",
+    "The finish is small: knees squeezed, hips high, and a slow hip extension. The grip buys the control, the hips buy the tap."
+  ],
+  "nextStep": "After the pistol grip armbar, chain it to the triangle, the omoplata, and the back take from the same wrist control.",
+  "fixItFast": [
+    "Losing the wrist? Close the loop, hand on your own wrist, and pull it tight to your chest.",
+    "They keep turning in? Their elbow is free, re-pin it on your centre line before extending.",
+    "The finish feels weak? Stop squeezing, lift the hips and extend slowly."
+  ]
+}

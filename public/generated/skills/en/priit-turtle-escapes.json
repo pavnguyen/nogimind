@@ -1,0 +1,145 @@
+{
+  "id": "priit-turtle-escapes",
+  "domain": "escapes",
+  "level": "intermediate",
+  "status": "draft",
+  "name": "Priit Turtle Escapes",
+  "aliases": [
+    "Pritt turtle escapes",
+    "turtle escape system",
+    "defensive turtle"
+  ],
+  "tags": [
+    "turtle",
+    "escape",
+    "survival",
+    "tier:modern-expansion",
+    "meta:modern-common",
+    "risk:medium",
+    "family:escape",
+    "modern-no-gi"
+  ],
+  "keywords": [
+    "turtle",
+    "turtle escape",
+    "sitting turtle",
+    "hidden neck",
+    "seatbelt",
+    "back take prevention"
+  ],
+  "relatedSkills": [
+    {
+      "id": "turtle-to-guard-recovery",
+      "type": "chain"
+    },
+    {
+      "id": "turtle-escape-standup",
+      "type": "alternative"
+    },
+    {
+      "id": "back-escape",
+      "type": "recommended"
+    },
+    {
+      "id": "back-survival",
+      "type": "supporting"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [
+    "defensive-counter-grappler"
+  ],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "back-survival"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [
+    "If they keep reaching over the top, your elbows have drifted away from your ribs, close them and let their reach buy you the sit-through.",
+    "If they connect the seatbelt, do not fight the grip with your arms, kill the space and switch to the back escape priorities.",
+    "If you keep getting flattened, you are posting or lifting your head, keep the forehead tucked and the hips under you."
+  ],
+  "version": 1,
+  "updatedAt": "2026-10-10T00:00:00.000Z",
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "en",
+  "description": "Priit Mihkelson's approach to the turtle: treat it as a defensive position you can hold, hide the neck, refuse the seatbelt, and escape on their commitment instead of on your panic.",
+  "shortInstruction": "Hide the neck, elbows and knees tight, no posts, no space, no seatbelt. Escape when their weight moves, not when you get uncomfortable.",
+  "summary": "Priit Mihkelson's turtle work changed how a lot of grapplers read the position. Instead of treating the turtle as a countdown to losing the back, his defensive system treats it as a posture with its own rules: the neck is hidden, the elbows and knees stay connected to the ribs and hips, and the hands never post out into the space that hands the attacker the seatbelt or the first hook. From that posture the escapes are about timing and fundamentals rather than speed, an escape only works when the attacker commits a hand or their weight, and the system is built around reading the mistakes attackers make in a row when they try to take the back. That is why sitting turtle, elbow and knee connection, and patient waiting show up in the same system as the stand-up and the sit-through to guard.",
+  "whyItWorks": [
+    "A hidden neck removes the grips the attacker needs for the choke, and the choke is what usually forces the turtle player to move first.",
+    "Elbows and knees stay connected to the ribs and hips, so there is no space to thread the second hook or the choking arm.",
+    "Waiting is not passive: staying curled and patient forces the attacker to commit a hand or their weight, and that commitment is the trigger for the escape.",
+    "The escapes reuse the movements of the rest of the defensive system, so turtle defence, back escapes, and guard recovery all reinforce each other."
+  ],
+  "commonMistakes": [
+    "Rushing out of the turtle because it is uncomfortable, the escape before their weight moves is the escape that exposes the back.",
+    "Posting a hand to the mat to stand, that post is exactly the space the attacker needs for the seatbelt or the first hook.",
+    "Leaving the neck open while the hands are busy, the choke comes before the back take.",
+    "Fighting the seatbelt with the arms instead of killing the space and waiting for the commitment.",
+    "Rolling the wrong way, into the choking arm instead of away from it."
+  ],
+  "coachingCues": [
+    "Neck hidden, elbows in, knees in.",
+    "No posts, no space, no seatbelt.",
+    "Wait for the weight, then move.",
+    "One movement, full commitment, then re-turtle if it fails."
+  ],
+  "safetySummary": [
+    "Protect the neck before anything else, if a choke or a neck crank is on, tap. The turtle is never worth a cranky neck.",
+    "Do not explode out of the turtle into a position where the neck is loaded or the spine is twisted.",
+    "When the attacker takes the back, the priority is airway first, position second.",
+    "Drill these escapes slowly at first, they are a test of timing, and speed hides bad timing while loading the neck."
+  ],
+  "systemLogic": {
+    "corePrinciple": "Turtle as a holdable posture: hide the neck → keep elbows and knees connected → refuse the posts → read their commitment → sit through to guard or stand, and re-turtle if the escape fails.",
+    "decisionTree": [
+      {
+        "condition": "They reach over the top for the far arm",
+        "action": "sit through to guard on the side their weight has left."
+      },
+      {
+        "condition": "They start to slide in the first hook",
+        "action": "close the elbow and kill the space before the first hook becomes a second one."
+      },
+      {
+        "condition": "They connect the seatbelt",
+        "action": "switch to the back escape order: neck, then elbow and knee, then the hip."
+      },
+      {
+        "condition": "They flatten you belly down",
+        "action": "the turtle is lost, protect the neck and wait for the space instead of rolling into the choke."
+      }
+    ],
+    "exitStrategies": [
+      "If the turtle cannot be held, standing up is a legitimate exit, but the neck leaves last.",
+      "If the back is taken, switch to the back escape plan rather than fighting from an angle you cannot win."
+    ]
+  },
+  "moneyDetails": [
+    "The chin goes to the shoulder and the hands stay in front of the neck, that is what hiding the neck means in practice.",
+    "The elbows stay glued to the ribs and the knees stay under the hips, the attacker is looking for the space between them.",
+    "A post is a gift: if a hand has to touch the mat, it goes under your own head, not out to the side where it can be trapped.",
+    "Sitting turtle (Panda) is a posture, not a failure. Leave it when their weight tells you which way to sit through."
+  ],
+  "nextStep": "After the turtle escapes, connect them to the back escape and the guard recovery so the whole defensive chain runs in one direction.",
+  "fixItFast": [
+    "Getting choked from the turtle? The neck is exposed, tuck the chin to the shoulder and bring the hands in front of it.",
+    "Getting flattened? You are posting or lifting your head, keep the forehead tucked and the hips underneath you.",
+    "Escape failing repeatedly? You are moving before their weight commits, wait one beat longer and sit through when it does."
+  ]
+}

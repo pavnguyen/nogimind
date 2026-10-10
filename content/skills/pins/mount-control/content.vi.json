@@ -1,20 +1,20 @@
 {
   "id": "mount-control",
   "locale": "vi",
-  "name": "Mount Kiểm soát",
-  "description": "Ổn định Mount bằng dây leo, kẹp đầu gối, Mount cao và đấu tay đôi để mở bài nộp. Mount là chốt có tỷ lệ phần trăm cao nhất trong BJJ, từ đây, số lần gửi rất nhiều và các lựa chọn thoát của đối thủ bị hạn chế.",
+  "name": "Mount Control",
+  "description": "Ổn định Mount bằng grapevine, kẹp đầu gối, Mount cao và hand fighting để mở submission. Mount là thế ghim có tỷ lệ kết thúc cao nhất trong BJJ, từ đây số submission rất nhiều và các lựa chọn thoát của đối thủ bị hạn chế.",
   "shortInstruction": "Giữ ngực thấp, kẹp đầu gối để kiểm soát hông và cố gắng cô lập cánh tay của họ phía trên đầu. Chuyển lên cao Mount (đầu gối ở nách) để kết thúc.",
-  "summary": "Mount khả năng kiểm soát được duy trì thông qua các lớp tăng dần: thấp Mount (hông nặng trên hông, áp lực từ ngực đến ngực) → cao Mount (đầu gối trượt lên nách, giữ vai) → khuất phục hoặc lùi lại. Điều quan trọng là ngăn chặn việc thoát khỏi cầu và lăn bằng cách kiểm soát hông của họ bằng đầu gối của bạn và theo dõi chuyển động của họ bằng trọng lượng của bạn.",
+  "summary": "Mount khả năng kiểm soát được duy trì thông qua các lớp tăng dần: thấp Mount (hông nặng trên hông, áp lực từ ngực đến ngực) → cao Mount (đầu gối trượt lên nách, giữ vai) → submission hoặc lấy lưng. Điều quan trọng là ngăn chặn việc thoát khỏi cầu và lăn bằng cách kiểm soát hông của họ bằng đầu gối của bạn và theo dõi chuyển động của họ bằng trọng lượng của bạn.",
   "whyItWorks": [
     "Áp lực từ ngực đến ngực thấp Mount khiến đối phương không thể ngồi dậy hoặc tạo khoảng trống để chạy trốn",
     "Kẹp đầu gối (ép đầu gối của bạn vào hông của họ) ngăn cản việc thoát ra khỏi cầu và lăn bằng cách nối hông của bạn với hông của họ",
     "Cao Mount (đầu gối ở nách) bẫy vai đối phương vào thảm, loại bỏ khả năng bắt cầu hiệu quả của họ",
-    "Cách ly cánh tay (kéo cánh tay của họ qua đầu) là điều kiện tiên quyết cho tất cả các bài gửi Mount, nếu không có điều này, các mục Armbar sẽ không thành công"
+    "Cách ly cánh tay (kéo cánh tay của họ qua đầu) là điều kiện tiên quyết cho mọi submission từ Mount, nếu không có điều này, các đòn Armbar sẽ không thành công"
   ],
   "commonMistakes": [
     "Ngồi quá cao trong Mount, thao tác này giúp loại bỏ áp lực ở ngực và cho phép đối thủ shrimp hoặc bắc cầu",
     "Để đầu gối của bạn trượt quá xa, điều này mở ra khoảng trống cho đối phương chạy trốn tới Half Guard hoặc Side Control",
-    "Theo đuổi các bài nộp trước khi ổn định Mount - Mount lỏng lẻo khiến đối thủ có cơ hội thoát trước khi bạn có thể kết thúc",
+    "Theo đuổi submission trước khi ổn định Mount - Mount lỏng lẻo khiến đối thủ có cơ hội thoát trước khi bạn có thể kết thúc",
     "Bỏ qua lối thoát nho nhỏ - đối thủ có thể móc chân và lăn bạn nếu bạn không kiểm soát được chân họ"
   ],
   "coachingCues": [
@@ -34,38 +34,38 @@
     "Nếu họ bẫy chân bạn để thoát: hãy đập chân bạn vào bên trong ngay lập tức - đừng để họ khóa chân bạn vào giữa chân họ"
   ],
   "systemLogic": {
-    "corePrinciple": "Kiểm soát Mount tiến triển qua ba giai đoạn: Thấp Mount → Cao Mount → Mục gửi bài",
+    "corePrinciple": "Mount Control tiến triển qua ba giai đoạn: Thấp Mount → Cao Mount → submission",
     "decisionTree": [
       {
         "condition": "Trong Giai đoạn 1 (Thấp Mount)",
-        "action": "đầu gối ngang hông, ngực đặt trên ngực, dồn trọng lượng về phía trước. Mục tiêu: thiết lập kết nối và ngăn chặn cây cầu. Dùng dây nho (móc chân bạn vào trong chân họ) để neo trọng lượng của bạn và đi theo cầu của họ"
+        "action": "đầu gối ngang hông, ngực đặt trên ngực, dồn trọng lượng về phía trước. Mục tiêu: thiết lập kết nối và ngăn chặn cây cầu. Dùng grapevine (móc chân bạn vào trong chân họ) để neo trọng lượng của bạn và đi theo cầu của họ"
       },
       {
         "condition": "Ở Giai đoạn 2 (Cao Mount)",
         "action": "trượt đầu gối của bạn lên về phía nách khi họ bắt cầu hoặc tạo khoảng trống. Mục tiêu là ghim vai của họ vào tấm thảm. Từ trên cao Mount, đối thủ không thể bắt cầu hiệu quả vì vai của họ bị ghim"
       },
       {
-        "condition": "Trong Giai đoạn 3 (Bài nộp)",
-        "action": "khi Mount ở mức cao được thiết lập, hãy bắt đầu cách ly cánh tay. Kéo một cánh tay lên phía trên đầu của họ (mục nhập Armbar) hoặc crossface để thiết lập cánh tay Triangle hoặc tạo tư thế cho Ezekiel hoặc nghẹt thở chéo"
+        "condition": "Trong Giai đoạn 3 (Submission Entry)",
+        "action": "khi Mount ở mức cao được thiết lập, hãy bắt đầu cách ly cánh tay. Kéo một cánh tay lên phía trên đầu của họ (entry Armbar) hoặc crossface để thiết lập Arm Triangle hoặc tạo tư thế cho Ezekiel hoặc Cross Choke"
       },
       {
         "condition": "Ngăn chặn thoát hiểm",
-        "action": "nếu họ thử động tác cầu và lăn, hãy nho chân bạn vào trong chân họ và dồn trọng lượng của bạn vào ngực họ. Nếu họ cố gắng thoát ra bằng khuỷu tay, hãy đập đầu gối của bạn trở lại đường hông để thiết lập lại mức thấp Mount"
+        "action": "nếu họ thử động tác cầu và lăn, hãy grapevine chân bạn vào trong chân họ và dồn trọng lượng của bạn vào ngực họ. Nếu họ cố gắng thoát ra bằng khuỷu tay, hãy đập đầu gối của bạn trở lại đường hông để thiết lập lại mức thấp Mount"
       },
       {
         "condition": "Ứng dụng chung",
-        "action": "Nếu họ quay về phía mình (bỏ phía sau), hãy duy trì kết nối và rút lui thay vì đấu tranh để thiết lập lại Mount"
+        "action": "Nếu họ quay về phía mình (bỏ phía sau), hãy duy trì kết nối và lấy lưng thay vì đấu tranh để thiết lập lại Mount"
       }
     ]
   },
   "moneyDetails": [
-    "Mount là vị trí thống trị thứ hai trong BJJ (sau Back Control), từ Mount, bạn có quyền truy cập vào nhiều nội dung gửi hơn bất kỳ vị trí nào khác",
+    "Mount là vị trí thống trị thứ hai trong BJJ (sau Back Control), từ Mount, bạn có nhiều submission hơn bất kỳ vị trí nào khác",
     "Mount ghi được 4 điểm trong cuộc thi IBJJF, thành lập Mount thường là yếu tố quyết định trong các trận đấu sát nút",
     "Khả năng giữ Mount trước một đối thủ điêu luyện là dấu hiệu của một võ sĩ nâng cao, hầu hết các đai trắng và xanh đều thua Mount trong vòng vài giây"
   ],
   "fixItFast": [
-    "Nếu họ cứng cầu và gần như lăn bạn: hãy nho chân bạn vào trong chân họ và ấn ngực bạn vào ngực họ - điều này sẽ giết chết cây cầu của họ",
+    "Nếu họ cứng cầu và gần như lăn bạn: hãy grapevine chân bạn vào trong chân họ và ấn ngực bạn vào ngực họ - điều này sẽ giết chết cây cầu của họ",
     "Nếu họ bắt đầu thực hiện động tác thoát bằng khuỷu tay: hãy đập đầu gối của bạn trở lại đường hông của họ và hạ thấp Mount ngay lập tức",
-    "Nếu họ quay về phía mình: rút lui, đừng đấu tranh để tái-Mount. Back Control chiếm ưu thế hơn và ghi được nhiều điểm hơn"
+    "Nếu họ quay về phía mình: lấy lưng, đừng tranh để Mount lại. Back Control chiếm ưu thế hơn và ghi được nhiều điểm hơn"
   ]
 }

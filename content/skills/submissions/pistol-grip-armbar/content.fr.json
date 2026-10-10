@@ -1,0 +1,75 @@
+{
+  "id": "pistol-grip-armbar",
+  "locale": "fr",
+  "name": "Pistol Grip Armbar",
+  "description": "Le Pistol Grip Armbar utilise une prise de poignet 2-on-1 fermée, le pistol grip, pour isoler le bras et le garder isolé assez longtemps pour finir. Elle ne demande aucun tissu, donc elle passe telle quelle en no-gi.",
+  "shortInstruction": "Leur poignet dans une main, votre propre poignet dans l'autre, fermez la boucle, tirez vers votre poitrine, et laissez les hanches finir le bras.",
+  "summary": "Le pistol grip est l'une des deux prises de contrôle sur lesquelles se construisent les armbars, l'autre étant la pocket grip. Votre main forte tient leur poignet avec le pouce par-dessus, votre autre main saisit votre propre poignet, et la boucle autour de leur poignet ne peut plus s'ouvrir. C'est cette boucle fermée qui vous permet de tirer leur poignet contre votre poitrine, de garder leur coude pointé sur votre ligne médiane et de finir depuis le mount, le side control, le dos ou la closed guard. Parce que le contrôle vit sur un poignet et non sur une manche, le pistol grip est l'une des entrées d'armbar qui passent directement en no-gi, et c'est aussi la prise qui tient face à un adversaire fort, transpirant, qui arrache vos prises une main à la fois.",
+  "whyItWorks": [
+    "Le pistol grip est une boucle fermée autour de leur poignet, leur poignet ne peut pas glisser et vos mains ne peuvent pas être séparées une par une comme avec une simple prise d'une main.",
+    "Tirer le poignet saisi contre votre poitrine crée une pression immédiate sur leur épaule, pas assez pour finir, mais assez pour les empêcher de se tourner vers vous et de cacher le bras.",
+    "Le contrôle vit dans les bras et non dans votre poids de corps, ce qui laisse vos hanches libres pour la finition et votre base libre pour contrer.",
+    "Elle ne demande aucun tissu, donc elle survit à un round no-gi trempé de sueur et à un partenaire dont le grip breaking vaut mieux que votre prise."
+  ],
+  "commonMistakes": [
+    "Tenir le poignet sans fermer la boucle, une prise d'une main sur un poignet en sueur est une prise que vous allez perdre.",
+    "Tirer le poignet en travers de la poitrine alors que leur coude est libre, si le coude peut bouger ils se tournent vers vous et l'armbar disparaît.",
+    "Laisser leur pouce pointer vers le bas, l'angle pouce vers le haut est ce qui fait céder la ligne du coude dans la direction voulue.",
+    "Serrer avec les mains au lieu de soulever avec les hanches, la finition est un bras stable et une extension de hanches, pas une prise plus forte.",
+    "Chercher le pistol grip trop tard, une fois leur coude au sol la fenêtre est fermée et vous vous battez pour une position au lieu d'une prise."
+  ],
+  "coachingCues": [
+    "Fermez la boucle : leur poignet dans une main, votre poignet dans l'autre.",
+    "Poignet contre votre poitrine, coude sur votre ligne médiane.",
+    "Pouce vers le haut, genoux fermés, les hanches font le travail.",
+    "Gagnez le poignet d'abord, l'armbar est la récompense."
+  ],
+  "safetySummary": [
+    "L'armbar attaque le coude, étendez lentement et arrêtez au premier signe d'inconfort, un coude hyperextendu ne prévient pas deux fois.",
+    "Ne donnez jamais de coup sec ni de rebond sur le coude pour forcer un tap.",
+    "Gardez votre propre coude serré contre vos côtes quand vous fermez la boucle, pour ne pas être celui qui se fait rouler pendant la construction de la prise.",
+    "Convenez du protocole de tap avant de driller les finitions d'armbar, et relâchez dès que le partenaire tape ou saisit son propre bras."
+  ],
+  "keyCorrections": [
+    "Si vous perdez toujours le poignet, vous tenez d'une seule main, fermez la boucle sur votre propre poignet et tirez-la contre votre poitrine.",
+    "S'ils se tournent toujours vers vous, leur coude est libre, ré-épinglez-le sur votre ligne médiane avant d'étendre.",
+    "Si la finition semble faible, vous serrez au lieu de soulever, arrêtez de serrer et étendez les hanches lentement."
+  ],
+  "systemLogic": {
+    "corePrinciple": "Fermer le pistol grip sur leur poignet → tirer le poignet contre votre poitrine et épingler le coude sur votre ligne médiane → garder leur pouce vers le haut → finir avec les hanches, pas avec les mains.",
+    "decisionTree": [
+      {
+        "condition": "Ils gardent le coude plié et la main cachée",
+        "action": "tirez le poignet saisi contre votre poitrine, puis faites marcher vos hanches vers l'extérieur jusqu'à exposer la ligne du coude."
+      },
+      {
+        "condition": "Ils roulent vers vous alors que la boucle est fermée",
+        "action": "gardez la boucle fermée, passez la jambe par-dessus la tête et ré-isolez le bras depuis le nouvel angle au lieu de relâcher la prise."
+      },
+      {
+        "condition": "Ils saisissent leur propre bras ou poignet pour défendre",
+        "action": "utilisez la boucle fermée comme un 2-on-1 et décortiquez leur prise avant d'étendre."
+      },
+      {
+        "condition": "La prise s'ouvre",
+        "action": "arrêtez l'attaque, reconstruisez d'abord le pistol grip, une prise à moitié fermée est l'endroit où les coudes se blessent."
+      }
+    ],
+    "exitStrategies": [
+      "S'ils plaquent le coude au sol et que l'armbar est perdue, gardez la position (mount, dos, side control) au lieu de forcer la finition.",
+      "Si le round est en no-gi et que la prise lâche sans cesse, enchaînez sur le triangle ou l'omoplata depuis le même contrôle de poignet au lieu de refaire la prise."
+    ]
+  },
+  "moneyDetails": [
+    "Pouce par-dessus leur poignet, votre autre main saisit votre propre poignet, et la boucle se ferme sur l'extérieur de leur main.",
+    "Le poignet vient sur votre sternum, leur coude pointe vers l'espace devant votre hanche, c'est la ligne que vous cassez.",
+    "Gardez leur pouce vers le haut, la rotation qui fait céder la ligne du coude dans le bon sens part de la position du pouce.",
+    "La finition est petite : genoux serrés, hanches hautes et une extension de hanches lente. La prise achète le contrôle, les hanches achètent le tap."
+  ],
+  "nextStep": "Après le pistol grip armbar, enchaînez sur le triangle, l'omoplata et la prise de dos depuis le même contrôle de poignet.",
+  "fixItFast": [
+    "Vous perdez le poignet ? Fermez la boucle, main sur votre propre poignet, et tirez-la contre votre poitrine.",
+    "Ils se tournent sans arrêt vers vous ? Leur coude est libre, ré-épinglez-le sur votre ligne médiane avant d'étendre.",
+    "La finition semble faible ? Arrêtez de serrer, soulevez les hanches et étendez lentement."
+  ]
+}

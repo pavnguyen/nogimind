@@ -3,7 +3,7 @@
   "domain": "guard_offense",
   "level": "advanced",
   "status": "draft",
-  "name": "Fausse entrée de récolte",
+  "name": "False Reap Entry",
   "aliases": [],
   "tags": [
     "false-reap",
@@ -52,9 +52,9 @@
   "nextSkillIds": [],
   "searchBoost": 1,
   "keyCorrections": [
-    "S'ils partent en tête-à-queue, vous avez perdu le contrôle de la hanche la plus éloignée – remettez votre main sur leur hanche avant de continuer.",
-    "S’ils enjambent votre crochet, votre angle était trop faible – faites pivoter vos hanches plus haut et réaccrochez.",
-    "S’ils vous aplatissent, vous avez perdu le combat à la hanche – frappez votre genou à l’intérieur et revenez à vos côtés."
+    "S'il sort par rotation, vous avez perdu le contrôle de la hanche éloignée - replacez votre main sur sa hanche avant de continuer.",
+    "S'il enjambe votre hook, votre angle était trop plat - montez vos hanches plus haut et re-crochetez.",
+    "S'il vous aplatit, vous avez perdu le combat de hanche - ramenez votre genou à l'intérieur et revenez sur le côté."
   ],
   "version": 1,
   "updatedAt": "2026-05-21T00:24:30.778Z",
@@ -68,56 +68,56 @@
     "hasStateMachine": false
   },
   "locale": "fr",
-  "description": "Utilisez la fausse récolte (récolte de la jambe extérieure) pour créer un angle arrière sur la jambe de l'adversaire tout en maintenant la sécurité de la ligne du genou et la connaissance des règles relatives aux restrictions de récolte.",
-  "shortInstruction": "Crochet de jambe extérieur, sécurité de la ligne du genou, rotation vers l'angle arrière – la fausse récolte est la porte d'entrée vers Saddle et les attaques de jambe.",
-  "summary": "La fausse récolte est une entrée No-Gi Guard où vous accrochez la jambe proche de l'adversaire de l'extérieur avec votre jambe, plutôt que de l'intérieur. Cela crée un angle arrière sur la ligne de leurs jambes, ouvrant les entrées vers le Saddle (Inside Sankaku), le cross ashi et les prises arrière. Contrairement à la récolte traditionnelle, la fausse récolte ne traverse pas la ligne des genoux de l'adversaire de manière dangereuse, ce qui la rend légale dans la plupart des règles IBJJF tout en vous donnant accès à l'enchevêtrement des jambes.",
+  "description": "Utilisez le False Reap (hook de jambe par l'extérieur) pour créer un angle arrière sur la jambe de l'adversaire, tout en gardant la Knee Line sûre et en tenant compte des règles sur le Knee Reaping.",
+  "shortInstruction": "Hook de jambe extérieur, Knee Line sûre, rotation vers l'angle arrière - le False Reap est la porte d'entrée vers le Saddle et les attaques de jambe.",
+  "summary": "Le False Reap est une entrée de Guard no-gi : vous crochetez la jambe proche de l'adversaire par l'extérieur avec votre jambe, au lieu de passer par l'intérieur. Cela crée un angle arrière sur sa ligne de jambe, ouvrant les entrées vers le Saddle (Inside Sankaku), le cross ashi et les Back Takes. Contrairement au Knee Reaping classique, le False Reap ne traverse pas la Knee Line de l'adversaire de façon dangereuse : il reste légal dans la plupart des règlements IBJJF tout en donnant accès à l'enchevêtrement.",
   "whyItWorks": [
-    "Le crochet extérieur sur sa jambe contrôle la rotation de sa hanche et l'empêche de sortir de votre Guard.",
-    "L’angle arrière coupe leur base de ce côté – ils ne peuvent pas simplement reculer pour s’échapper.",
-    "La fausse récolte est IBJJF-légale car le pied ne traverse pas la ligne médiane de l'adversaire au niveau du genou.",
-    "Principe de Danaher : contrôlez la hanche pour contrôler la jambe – la fausse récolte vous donne les deux."
+    "Le hook extérieur sur sa jambe contrôle la rotation de sa hanche et l'empêche de sortir de votre Guard.",
+    "L'angle arrière coupe sa base de ce côté - il ne peut pas simplement reculer pour s'échapper.",
+    "Le False Reap est légal en IBJJF car le pied ne traverse pas la ligne médiane de l'adversaire au niveau du genou.",
+    "Principe de Danaher : contrôler la hanche pour contrôler la jambe - le False Reap vous donne les deux."
   ],
   "commonMistakes": [
-    "Laisser votre jambe accrochée glisser vers l’intérieur de sa jambe – cela en fait une récolte et peut être illégal en compétition.",
-    "Si vous ne contrôlez pas leur hanche éloignée avec votre main, ils sortiront de la fausse récolte.",
-    "Aller à une fausse récolte sans tenir leur manche ou leur poignet – ils peuvent poster et se baser.",
-    "Rester à plat sur le dos – la fausse récolte vous oblige à rouler sur le côté pour un bon alignement des hanches."
+    "Laisser votre jambe de hook glisser vers l'intérieur de sa jambe - cela devient un Knee Reaping et peut être illégal en compétition.",
+    "Ne pas contrôler sa hanche éloignée avec votre main - il va sortir du False Reap.",
+    "Aller au False Reap sans grip sur sa manche ou son poignet - il peut poser la main et reprendre sa base.",
+    "Rester à plat sur le dos - le False Reap demande de rouler sur le côté pour aligner votre hanche."
   ],
   "coachingCues": [
-    "Restez de votre côté, gardez le crochet profond.",
-    "Contrôlez la hanche, récoltez l'angle.",
-    "Sûr au niveau des genoux, fier des règles.",
-    "Faites pivoter vos hanches vers le plafond – l’angle crée l’entrée."
+    "Restez sur le côté, gardez le hook profond.",
+    "Contrôlez la hanche, créez l'angle.",
+    "Knee Line sûre, règlement en tête.",
+    "Ramenez vos hanches vers le plafond - l'angle crée l'entrée."
   ],
   "safetySummary": [
-    "Gardez votre pied accrocheur à l’extérieur de sa jambe à tout moment – ​​si votre pied traverse sa ligne médiane, vous récoltez.",
-    "N'appliquez pas de pression de rotation sur le genou de l'adversaire en cas de fausse récolte - terminez uniquement lorsque vous maîtrisez parfaitement l'enchevêtrement des jambes.",
-    "Soyez conscient des règles IBJJF sur la récolte : la fausse récolte est légale, mais il est facile de passer accidentellement à une récolte."
+    "Gardez votre pied de hook à l'extérieur de sa jambe en permanence - si votre pied traverse sa ligne médiane, vous êtes en Knee Reaping.",
+    "N'appliquez pas de pression en rotation sur le genou de l'adversaire depuis le False Reap - ne finissez qu'une fois l'enchevêtrement totalement contrôlé.",
+    "Connaissez les règles IBJJF sur le Knee Reaping : le False Reap est légal, mais on glisse facilement vers un Knee Reaping."
   ],
   "systemLogic": {
-    "corePrinciple": "Faux crochet de récolte à l'extérieur de la jambe : contrôlez la hanche éloignée → faites pivoter vers l'angle arrière → entrez Saddle, croisez l'ashi ou prenez en arrière.",
+    "corePrinciple": "Hook de False Reap à l'extérieur de sa jambe : contrôler la hanche éloignée → tourner vers l'angle arrière → entrer dans le Saddle, le cross ashi ou le Back Take.",
     "decisionTree": [
       {
-        "condition": "Utilisation de l'option 1",
-        "action": "Ils s'avancent → entrez Saddle (Inside Sankaku). Option 2 : Ils reculent → prennent du recul."
+        "condition": "En utilisant l'option 1",
+        "action": "Il avance → entrer dans le Saddle (Inside Sankaku). Option 2 : il recule → prendre le dos."
       },
       {
-        "condition": "Utilisation de l'option 3",
-        "action": "Ils postent une main → attaquent le Kimura ou entrent en traînée de jambe."
+        "condition": "En utilisant l'option 3",
+        "action": "Il pose une main → attaquer le Kimura ou entrer sur le Leg Drag."
       }
     ],
     "exitStrategies": []
   },
   "moneyDetails": [
-    "Votre jambe d'accrochage doit s'enrouler autour de sa cuisse, pas de son mollet – le contrôle de la cuisse vous donne un effet de levier sur sa hanche.",
-    "Contrôlez leur hanche éloignée avec votre main – cela les empêche de s’éloigner de la fausse récolte.",
-    "Faites pivoter vos hanches vers le plafond pendant que vous vous accrochez – cela aligne votre colonne vertébrale pour un effet de levier maximal.",
-    "Lorsqu'ils publient leur jambe libre, c'est le moment d'entrer dans Saddle – leur base est divisée et vulnérable."
+    "Votre jambe de hook doit envelopper sa cuisse, pas son mollet - le contrôle de la cuisse vous donne un levier sur sa hanche.",
+    "Contrôlez sa hanche éloignée avec votre main - cela l'empêche de sortir du False Reap.",
+    "Faites tourner vos hanches vers le plafond pendant le hook - cela aligne votre colonne pour un levier maximal.",
+    "Quand il pose sa jambe libre, c'est le moment d'entrer dans le Saddle - sa base est coupée et vulnérable."
   ],
-  "nextStep": "Après avoir maîtrisé l'entrée de la fausse récolte, apprenez la fausse récolte jusqu'au pont Saddle pour compléter la chaîne d'enchevêtrement des jambes.",
+  "nextStep": "Après avoir maîtrisé le False Reap Entry, apprenez le False Reap to Saddle Bridge pour compléter la chaîne d'enchevêtrement.",
   "fixItFast": [
-    "Ils s'écartent ? Rétablissez le contrôle de la hanche éloignée avec votre main.",
-    "Le crochet continue de glisser ? Enroulez-le plus haut sur la cuisse, pas sur le mollet.",
-    "Ils vous aplatissent ? Frappez votre genou à l’intérieur et revenez immédiatement à vos côtés."
+    "Il sort par rotation ? Replacez le contrôle de la hanche éloignée avec votre main.",
+    "Le hook glisse ? Enveloppez plus haut sur la cuisse, pas le mollet.",
+    "Il vous aplatit ? Ramenez votre genou à l'intérieur et revenez sur le côté immédiatement."
   ]
 }

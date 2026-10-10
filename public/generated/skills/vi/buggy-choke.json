@@ -51,7 +51,7 @@
   "nextSkillIds": [],
   "searchBoost": 1,
   "keyCorrections": [
-    "Nếu họ xếp chồng bạn, bạn đã cam kết quá sớm hoặc sai góc độ - thả ra và đặt lại khung.",
+    "Nếu họ stack bạn, bạn đã cam kết quá sớm hoặc sai góc độ - thả ra và đặt lại khung.",
     "Nếu họ rút tay ra, nghĩa là quấn chân của bạn quá lỏng - quấn chặt hơn hoặc bỏ vòng quấn.",
     "Nếu bạn không thể hoàn thành, hãy chuyển về lối thoát Side Control thông thường (thoát hông, underhook)."
   ],
@@ -67,56 +67,56 @@
     "hasStateMachine": false
   },
   "locale": "vi",
-  "description": "Một cuộn cảm điều khiển phía dưới sử dụng chân của bạn quấn quanh cổ và cánh tay của đối thủ - một cuộc tấn công tuyệt vọng có rủi ro cao, có phần thưởng cao và không nên thay thế các nguyên tắc cơ bản về sinh tồn và thoát khỏi.",
-  "shortInstruction": "Quấn chân bạn quanh cổ và cánh tay của họ, siết chặt, buggy sặc là một đòn tấn công bất ngờ từ phía dưới Side Control.",
-  "summary": "Cuộn cảm lỗi là một cuộn cảm đặc trưng No-Gi từ phía dưới Side Control. Bạn quấn chân quanh cổ và một cánh tay của đối phương, tạo ra tình trạng sặc máu bằng cách ép cổ họ vào đùi bạn. Đó là submission hợp pháp nhưng được coi là 'tỷ lệ phần trăm thấp' vì nó yêu cầu thời gian và loại nội dung cụ thể. Quan trọng hơn, việc cố gắng siết cổ lỗi thường dẫn đến việc thoát khỏi underhook và hông, vốn là nền tảng của việc thoát Side Control. Nó phải là một vũ khí bất ngờ chứ không phải là một chiến lược thoát chủ yếu.",
+  "description": "Một choke từ phía dưới sử dụng chân của bạn quấn quanh cổ và cánh tay của đối thủ - một cuộc tấn công tuyệt vọng có rủi ro cao, có phần thưởng cao và không nên thay thế các nguyên tắc cơ bản về sinh tồn và thoát khỏi.",
+  "shortInstruction": "Quấn chân bạn quanh cổ và cánh tay của họ, siết chặt, Buggy Choke là một đòn tấn công bất ngờ từ phía dưới Side Control.",
+  "summary": "Buggy Choke là một choke đặc trưng No-Gi từ phía dưới Side Control. Bạn quấn chân quanh cổ và một cánh tay của đối phương, tạo ra blood choke bằng cách ép cổ họ vào đùi bạn. Đó là submission hợp pháp nhưng được coi là 'tỷ lệ phần trăm thấp' vì nó yêu cầu thời gian và loại nội dung cụ thể. Quan trọng hơn, việc cố gắng ép Buggy Choke thường khiến bạn mất underhook và hông, vốn là nền tảng của việc thoát Side Control. Nó phải là một vũ khí bất ngờ chứ không phải là một chiến lược thoát chủ yếu.",
   "whyItWorks": [
-    "Tạo ra tình trạng sặc máu từ một vị trí (dưới Side Control) mà người chơi ở cuối thường không có mối đe dọa khuất phục.",
-    "Yếu tố bất ngờ rất quan trọng, hầu hết những người chơi hàng đầu đều không mong đợi một cú bóp cổ từ phía dưới Side Control.",
+    "Tạo ra blood choke từ một vị trí (dưới Side Control) mà người chơi ở dưới thường không có mối đe dọa submission.",
+    "Yếu tố bất ngờ rất quan trọng, hầu hết những người chơi hàng đầu đều không mong đợi một choke từ phía dưới Side Control.",
     "Nó có thể bắt những đối thủ nặng về một bên bằng crossface.",
     "Hữu ích như một cuộc tấn công cuối cùng khi các lối thoát thông thường không thành công."
   ],
   "commonMistakes": [
     "Sử dụng nó như một lối thoát chính thay vì tập trung vào các khung và lối thoát hông.",
-    "Để sẵn underhook, underhook quan trọng hơn cuộn cảm lỗi.",
-    "Để đối thủ xếp chồng bạn - điều này vô hiệu hóa sự nghẹt thở và khiến bạn gặp nguy hiểm.",
-    "Lãng phí năng lượng cho chiếc xe bị sặc khi bạn có thể thoát."
+    "Để sẵn underhook, underhook quan trọng hơn Buggy Choke.",
+    "Để đối thủ stack bạn - điều này vô hiệu hóa choke và khiến bạn gặp nguy hiểm.",
+    "Đốt năng lượng vào Buggy Choke khi bạn có thể thoát."
   ],
   "coachingCues": [
     "Vũ khí bất ngờ, không phải chiến lược chính.",
-    "Nếu bạn bị xếp chồng lên nhau, hãy thả ra - cuộn cảm sẽ bị mất.",
-    "underhook đầu tiên, sau đó là lỗi, không bao giờ ngược lại.",
+    "Nếu họ stack bạn, hãy thả ra - choke sẽ bị mất.",
+    "underhook trước, Buggy Choke sau, không bao giờ ngược lại.",
     "Một lần thử - nếu thất bại, hãy quay lại thoát."
   ],
   "safetySummary": [
-    "Cuộn cảm lỗi sẽ nén cổ - áp dụng dần dần và thả ra khi nhấn.",
-    "Không sử dụng buggy sặc để chống lại những đối thủ lớn hơn có thể xếp chồng bạn - ngăn xếp có thể làm tổn thương lưng dưới của bạn.",
-    "Hãy chạm sớm nếu bạn cảm thấy nút thắt đang đè lên cổ mình."
+    "Buggy Choke sẽ nén cổ - áp dụng dần dần và thả ra khi họ tap.",
+    "Không dùng Buggy Choke để chống lại những đối thủ lớn hơn có thể stack bạn - stack có thể làm tổn thương lưng dưới của bạn.",
+    "Hãy tap sớm nếu bạn cảm thấy khóa đang đè lên cổ mình."
   ],
   "systemLogic": {
     "corePrinciple": "Dưới Side Control: đối thủ nặng ở một bên (crossface bên) → quấn chân quanh cổ và cánh tay của họ → bóp → bóp cổ.",
     "decisionTree": [
       {
         "condition": "họ post khi rảnh rỗi",
-        "action": "cuộn cảm buggy có sẵn - nếu họ đăng bằng cả hai tay thì cuộn cảm sẽ khó khăn."
+        "action": "Buggy Choke có sẵn - nếu họ post bằng cả hai tay thì Buggy Choke sẽ khó khăn."
       },
       {
         "condition": "Ứng dụng chung",
-        "action": "Buggy sặc là một lựa chọn cấp ba, khung và thoát hông là chính, Kimura và các đòn tấn công khác là phụ."
+        "action": "Buggy Choke là một lựa chọn cấp ba, khung và thoát hông là chính, Kimura và các đòn tấn công khác là phụ."
       }
     ],
     "exitStrategies": []
   },
   "moneyDetails": [
-    "Việc quấn chân phải bao gồm cổ VÀ một cánh tay của họ - chỉ quấn cổ sẽ không giữ được chiếc sặc.",
+    "Việc quấn chân phải bao gồm cổ VÀ một cánh tay của họ - chỉ quấn cổ sẽ không giữ được choke.",
     "Giữ chân trên của bạn qua lưng để ngăn họ tuột ra khỏi lớp bọc.",
-    "Cảm giác nghẹt thở xuất phát từ việc ép hai đùi của bạn vào nhau - không phải do kéo bằng chân.",
-    "Nếu họ đứng dậy, lực cản lỗi sẽ bị mất - ngay lập tức quay trở lại khung và thoát ra khỏi hông."
+    "Cảm giác choke xuất phát từ việc ép hai đùi của bạn vào nhau - không phải do kéo bằng chân.",
+    "Nếu họ đứng dậy, Buggy Choke sẽ mất lực - ngay lập tức quay trở lại khung và thoát ra khỏi hông."
   ],
-  "nextStep": "Sau khi hiểu rõ hiện tượng tắc nghẽn do lỗi, hãy tập trung vào các cách thoát Side Control chính: khung, thoát hông và phục hồi underhook.",
+  "nextStep": "Sau khi hiểu rõ Buggy Choke, hãy tập trung vào các cách thoát Side Control chính: khung, thoát hông và phục hồi underhook.",
   "fixItFast": [
-    "Họ xếp chồng bạn? Thả ra và đóng khung trên hông của họ.",
+    "Họ stack bạn? Thả ra và đóng khung trên hông của họ.",
     "Chân trượt ra? Quấn chặt hơn quanh cánh tay của họ - kiểm soát cánh tay là điều cần thiết.",
-    "Không thể bị nghẹt thở? Quay trở lại khung và lối thoát hông - lối thoát quan trọng hơn sự phục tùng."
+    "Không thể choke? Quay trở lại khung và lối thoát hông - lối thoát quan trọng hơn submission."
   ]
 }

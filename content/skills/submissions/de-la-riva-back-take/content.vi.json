@@ -2,46 +2,46 @@
   "id": "de-la-riva-back-take",
   "locale": "vi",
   "name": "De La Riva Back Take",
-  "description": "Sử dụng móc DLR và điều khiển hông xa để quay về phía sau khi đối thủ bảo vệ cú quét bằng cách đăng bài hoặc lùi lại.",
-  "shortInstruction": "Móc DLR sâu, kiểm soát hông xa, xoay theo họ - Đòn trả lại DLR là giải thưởng cao nhất từ ​​Open Guard.",
-  "summary": "Việc lấy lại DLR là phần thưởng có tỷ lệ phần trăm cao nhất từ ​​De La Riva Guard. Khi bạn cố gắng quét DLR (làm mất thăng bằng về phía trước), nhiều đối thủ sẽ phản ứng bằng cách đưa tay hoặc lùi lại để tránh đòn quét. Phản ứng này tạo ra chính xác không gian và góc mà bạn cần để quay theo họ và lấy lại phần lưng. DLR quay lại biến một cú quét thất bại thành một vị trí thống trị.",
+  "description": "Sử dụng móc DLR và điều khiển hông xa để quay ra sau khi đối thủ bảo vệ sweep bằng cách post hoặc lùi lại.",
+  "shortInstruction": "Móc DLR sâu, kiểm soát hông xa, xoay theo họ - DLR Back Take là phần thưởng cao nhất từ Open Guard.",
+  "summary": "DLR Back Take là phần thưởng có tỷ lệ thành công cao nhất từ De La Riva Guard. Khi bạn cố gắng sweep DLR (làm mất thăng bằng về phía trước), nhiều đối thủ sẽ phản ứng bằng cách post tay hoặc lùi lại để tránh sweep. Phản ứng này tạo ra chính xác không gian và góc mà bạn cần để quay theo họ và lấy Back Take. DLR Back Take biến một cú sweep thất bại thành một vị trí thống trị.",
   "whyItWorks": [
-    "Khi họ đăng bài để bảo vệ sweep, cánh tay của họ đã bị ràng buộc và không thể sử dụng để chặn vòng quay của bạn.",
+    "Khi họ post để bảo vệ sweep, cánh tay của họ đã bị ràng buộc và không thể sử dụng để chặn vòng quay của bạn.",
     "Móc DLR giữ cho chân của họ được kiểm soát trong khi bạn quay, họ không thể bước ra khỏi Back Take.",
     "Kiểm soát hông xa cung cấp cho bạn điểm xoay để xoay - bạn xoay quanh tâm của họ.",
-    "Nguyên tắc Danaher: quét và lùi tạo thành một tình thế tiến thoái lưỡng nan - phòng thủ quét, thua sau; phòng thủ phía sau, mất khả năng quét."
+    "Nguyên tắc Danaher: sweep và Back Take tạo thành một dilemma - phòng thủ sweep thì thua Back Take; phòng thủ Back Take thì mất sweep."
   ],
   "commonMistakes": [
-    "Quay vòng trước khi họ đăng bài - bạn cần phản ứng của họ để tạo khoảng trống.",
+    "Quay vòng trước khi họ post - bạn cần phản ứng của họ để tạo khoảng trống.",
     "Mất móc DLR trong khi quay - móc giữ họ gần nhau khi bạn xoay.",
     "Không kiểm soát được phần hông xa của họ - họ sẽ lao ra và đối mặt với bạn.",
     "Xoay sai hướng - vòng quay phía sau nằm ở dưới họ chứ không phải xung quanh họ."
   ],
   "coachingCues": [
-    "Quét trước, lùi lại sau - mồi quét tạo ra mặt sau.",
+    "Sweep trước, Back Take sau - mồi sweep tạo ra Back Take.",
     "Xoay xuống dưới chứ không phải quay vòng - đầu của bạn nằm dưới nách của họ.",
-    "Móc DLR vẫn bị khóa, nếu không có nó, chốt quay lại sẽ không còn nữa.",
+    "Móc DLR vẫn bị khóa, nếu không có nó thì không còn Back Take.",
     "Nếu họ đăng, cánh tay đó sẽ bị đưa ra - hãy đi về phía sau."
   ],
   "safetySummary": [
     "Giữ đầu của bạn được bảo vệ trong quá trình quay - đầu của bạn phải ở dưới nách họ chứ không phải ở hông họ.",
-    "Không quay nếu họ có chuôi trên cổ hoặc đầu của bạn - trước tiên hãy tháo chuôi.",
+    "Không quay nếu họ có grip trên cổ hoặc đầu của bạn - trước tiên hãy phá grip.",
     "Khi tiếp đất bằng lưng, hãy bảo vệ lưng của bạn không tiếp đất một cách vụng về trên chân họ."
   ],
   "keyCorrections": [
-    "Nếu bạn không thể lùi lại, móc DLR của bạn sẽ bung ra, hãy giữ móc khóa trong quá trình quay.",
+    "Nếu bạn không thể lấy Back Take, móc DLR của bạn sẽ bung ra, hãy giữ móc khóa trong quá trình quay.",
     "Nếu họ đối mặt với bạn trong khi quay, khả năng kiểm soát hông xa của bạn yếu - hãy nắm chặt hông xa của họ.",
-    "Nếu họ sprawl trong vòng quay, bạn đã quay quá sớm - hãy đợi họ cam kết hoàn toàn với bài đăng."
+    "Nếu họ sprawl trong vòng quay, bạn đã quay quá sớm - hãy đợi họ cam kết hoàn toàn với cú post."
   ],
   "systemLogic": {
-    "corePrinciple": "DLR Guard đã thiết lập: mất thăng bằng cho sweep → đối thủ trụ tay → xoay dưới cánh tay trụ của họ → lùi lại → cố định seatbelt và móc.",
+    "corePrinciple": "DLR Guard đã thiết lập: mất thăng bằng cho sweep → đối thủ post tay → xoay dưới cánh tay trụ của họ → Back Take → cố định seatbelt và móc.",
     "decisionTree": [
       {
-        "condition": "Cơ cấu quay lại DLR hoạt động theo một chuyển động liên tục: mất cân bằng",
-        "action": "cảm nhận bài → quay."
+        "condition": "DLR Back Take hoạt động theo một chuyển động liên tục: mất cân bằng",
+        "action": "cảm nhận post → quay."
       },
       {
-        "condition": "họ không đăng bài (bảo vệ cuộc càn quét bằng cách lùi lại)",
+        "condition": "họ không post (bảo vệ sweep bằng cách lùi lại)",
         "action": "thay vào đó hãy mở rộng sang X-Guard."
       }
     ]
@@ -52,10 +52,10 @@
     "Vòng quay phải ở dưới nách của họ - đầu của bạn nằm dưới cánh tay của họ chứ không phải xung quanh cơ thể họ.",
     "Sau khi quay, ngay lập tức thiết lập tay cầm seatbelt trước khi họ có thể quay mặt về phía bạn."
   ],
-  "nextStep": "Sau khi lấy lại DLR, hãy tìm hiểu Back Control và hệ thống tấn công ngược.",
+  "nextStep": "Sau DLR Back Take, hãy tìm hiểu Back Control và hệ thống tấn công từ phía sau.",
   "fixItFast": [
     "Không thể quay dưới? Móc DLR của bạn quá lỏng, hãy móc lại sâu hơn.",
     "Họ dừng quay? Khả năng nắm hông ở xa của bạn yếu - hãy kẹp hông họ mạnh hơn.",
-    "Họ sprawl? Bạn quay quá sớm - hãy đợi bài đăng lần sau và quay nhanh hơn."
+    "Họ sprawl? Bạn quay quá sớm - hãy đợi cú post tiếp theo và quay nhanh hơn."
   ]
 }

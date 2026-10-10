@@ -50,7 +50,7 @@
   "keyCorrections": [
     "Nếu họ rút chân ra, thì hình số 4 của bạn quá nông - hãy khóa lại ở đùi cao hơn.",
     "Nếu bạn không thể hoàn thành thì góc hông của bạn đã sai - hãy xoay hông về phía họ chứ không phải xoay ra xa.",
-    "Nếu họ xếp chồng lên nhau, hãy thả tay cầm ra và đặt lại - đừng chống lại chồng."
+    "Nếu họ stack, hãy thả tay cầm ra và đặt lại - đừng chống lại stack."
   ],
   "version": 1,
   "updatedAt": "2026-05-21T00:24:30.773Z",
@@ -64,18 +64,18 @@
     "hasStateMachine": false
   },
   "locale": "vi",
-  "description": "Thanh đầu gối từ 50/50 hoặc vướng chân sử dụng tay nắm hình số 4 đặc biệt và xoay hông để kết thúc nhanh chóng mà không cần kiểm soát hoàn toàn Saddle.",
-  "shortInstruction": "Hình số 4 nắm chặt vào chân, xoay hông về phía hông của họ, duỗi chân - khóa Aoki là một thanh đòn nhanh từ 50/50.",
-  "summary": "Khóa Aoki (được đặt theo tên của Shinya Aoki) là một biến thể thanh đầu gối từ 50/50 Guard sử dụng một tay cầm độc đáo: thay vì điều khiển chân bằng cả hai tay theo kiểu thanh đầu gối tiêu chuẩn, bạn khóa một tay nắm hình số bốn quanh đùi của họ. Cách cầm này giúp bạn kiểm soát đặc biệt khả năng xoay hông của họ trong khi chuyển động hông của bạn tác dụng lực siêu giãn lên đầu gối của họ. Khóa Aoki hiệu quả vì nó kết thúc nhanh chóng và không yêu cầu vị trí Saddle hoặc Ashi Garami đầy đủ.",
+  "description": "Kneebar từ 50/50 hoặc leg entanglement sử dụng tay nắm hình số 4 đặc biệt và xoay hông để kết thúc nhanh chóng mà không cần kiểm soát hoàn toàn Saddle.",
+  "shortInstruction": "Hình số 4 nắm chặt vào chân, xoay hông về phía hông của họ, duỗi chân - khóa Aoki là một armbar nhanh từ 50/50.",
+  "summary": "Khóa Aoki (được đặt theo tên của Shinya Aoki) là một biến thể Kneebar từ 50/50 Guard sử dụng một tay cầm độc đáo: thay vì điều khiển chân bằng cả hai tay theo kiểu Kneebar tiêu chuẩn, bạn khóa một tay nắm hình số bốn quanh đùi của họ. Cách cầm này giúp bạn kiểm soát đặc biệt khả năng xoay hông của họ trong khi chuyển động hông của bạn tác dụng lực siêu giãn lên đầu gối của họ. Khóa Aoki hiệu quả vì nó kết thúc nhanh chóng và không yêu cầu vị trí Saddle hoặc Ashi Garami đầy đủ.",
   "whyItWorks": [
-    "Tay nắm hình số 4 quanh đùi giúp họ không thể xoay hông ra khỏi thanh đầu gối.",
+    "Tay nắm hình số 4 quanh đùi giúp họ không thể xoay hông ra khỏi Kneebar.",
     "Nó kết thúc với tỷ số 50/50, một vị trí mà Heel Hook là mối đe dọa chính, khóa Aoki bắt đối thủ tập trung vào phòng thủ gót chân.",
     "Kết thúc đến từ việc xoay hông thay vì kéo chân - làm cho nó hiệu quả về mặt cơ học.",
     "Nguyên tắc Danaher: kiểm soát hông để kiểm soát đầu gối - cách cầm hình số 4 là kiểm soát hông."
   ],
   "commonMistakes": [
     "Không khóa tay nắm hình số 4 đủ sâu trên đùi - tay cầm nông sẽ khiến họ tuột ra ngoài.",
-    "Kéo chân thẳng về phía sau thay vì xoay hông - khóa Aoki là một thanh đầu gối xoay.",
+    "Kéo chân thẳng về phía sau thay vì xoay hông - khóa Aoki là một Kneebar xoay.",
     "Để đối thủ ngồi lại và rút gót chân ra - duy trì áp lực về phía trước.",
     "Thả tay cầm khi họ bắt đầu thoát - hình số bốn phải giữ chặt trong suốt."
   ],
@@ -88,10 +88,10 @@
   "safetySummary": [
     "Khóa Aoki giúp mở rộng đầu gối - tạo áp lực từ từ và tôn trọng cú chạm.",
     "Cần lưu ý rằng cách cầm hình số 4 cũng có thể gây áp lực lên đầu gối của bạn nếu bạn vặn người quá mạnh.",
-    "Không khuyến khích cho người mới bắt đầu - yêu cầu hiểu biết về cơ học thanh đầu gối."
+    "Không khuyến khích cho người mới bắt đầu - yêu cầu hiểu biết về cơ học Kneebar."
   ],
   "systemLogic": {
-    "corePrinciple": "50/50 hoặc vướng chân: nắm chặt đùi theo hình số 4 → xoay hông về phía hông → duỗi chân → kết thúc.",
+    "corePrinciple": "50/50 hoặc leg entanglement: nắm chặt đùi theo hình số 4 → xoay hông về phía hông → duỗi chân → kết thúc.",
     "decisionTree": [
       {
         "condition": "Ứng dụng chung",
@@ -110,7 +110,7 @@
     "Xoay hông của bạn về phía hông của họ chứ không phải về phía chân của họ - việc xoay hông sẽ tạo ra độ giãn quá mức.",
     "Giữ chân của họ ghim vào hông bạn khi bạn xoay - điều này ngăn họ đá tự do."
   ],
-  "nextStep": "Sau khóa Aoki, hãy tìm hiểu thanh đầu gối tiêu chuẩn và Heel Hook từ 50/50.",
+  "nextStep": "Sau khóa Aoki, hãy tìm hiểu Kneebar tiêu chuẩn và Heel Hook từ 50/50.",
   "fixItFast": [
     "Hình 4 cứ trượt mãi à? Khóa nó cao hơn trên đùi, gần hông hơn.",
     "Không thể hoàn thành? Hông của bạn chưa xoay đủ - hãy tập trung đưa hông của bạn về phía hông của họ.",

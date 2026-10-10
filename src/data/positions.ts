@@ -269,7 +269,7 @@ const seeds: PositionSeed[] = [
       'Ne pas laisser les deux genoux être forcés du même côté.',
     ),
     nextPositionId: 'knee-shield-half-guard',
-    action: lt('Recover knee shield hoặc seated layer', 'Recover knee shield or a seated layer', 'Récupérer le knee shield ou une couche assise'),
+    action: lt('Recover Knee Shield hoặc seated layer', 'Recover Knee Shield or a seated layer', 'Récupérer le Knee Shield ou une couche assise'),
     relatedSkillIds: ['supine-guard-retention', 'seated-guard-retention', 'k-guard-entry'],
     relatedConceptIds: ['guard-retention-layers', 'inside-position', 'wedges'],
   },
@@ -324,14 +324,14 @@ const seeds: PositionSeed[] = [
       'Utiliser le crossface, le whizzer et la pression pour aplatir les hanches.',
     ),
     bottomGoal: lt(
-      'Dùng knee shield, underhook hoặc góc hông để recover hoặc wrestle-up.',
-      'Use a knee shield, underhook, or hip angle to recover or wrestle up.',
-      'Utiliser un knee shield, un underhook ou l’angle des hanches pour récupérer ou faire un wrestle-up.',
+      'Dùng Knee Shield, underhook hoặc góc hông để recover hoặc wrestle-up.',
+      'Use a Knee Shield, underhook, or hip angle to recover or wrestle up.',
+      'Utiliser un Knee Shield, un underhook ou l’angle des hanches pour récupérer ou faire un wrestle-up.',
     ),
     controlPoint: lt(
-      'Đường crossface, underhook và knee shield.',
-      'Crossface line, underhook, and knee shield.',
-      'Ligne de crossface, underhook et knee shield.',
+      'Đường crossface, underhook và Knee Shield.',
+      'Crossface line, underhook, and Knee Shield.',
+      'Ligne de crossface, underhook et Knee Shield.',
     ),
     escapePriority: lt(
       'Chặn crossface trước khi lên single leg.',
@@ -345,13 +345,13 @@ const seeds: PositionSeed[] = [
   },
   {
     id: 'knee-shield-half-guard',
-    title: lt('Knee Shield Half Guard', 'Knee Shield Half Guard', 'Half Guard avec knee shield'),
+    title: lt('Knee Shield Half Guard', 'Knee Shield Half Guard', 'Half Guard avec Knee Shield'),
     category: 'bottom_guard',
     status: 'neutral',
     description: lt(
-      'Knee shield tạo một wedge giữa ngực hoặc hông của người ở trên và thân của người ở dưới.',
-      'The knee shield creates a wedge between the top player’s chest or hip and the bottom player’s body.',
-      'Le knee shield crée un wedge entre la poitrine ou la hanche du joueur du dessus et le corps du joueur du dessous.',
+      'Knee Shield tạo một wedge giữa ngực hoặc hông của người ở trên và thân của người ở dưới.',
+      'The Knee Shield creates a wedge between the top player’s chest or hip and the bottom player’s body.',
+      'Le Knee Shield crée un wedge entre la poitrine ou la hanche du joueur du dessus et le corps du joueur du dessous.',
     ),
     topGoal: lt(
       'Smash shield hoặc pummel vào Knee Cut hay headquarters.',
@@ -604,9 +604,9 @@ const seeds: PositionSeed[] = [
       'Forcer un dilemme entre Knee Cut, backstep, Leg Drag ou Smash Pass.',
     ),
     bottomGoal: lt(
-      'Giữ knee shield hoặc inside knee và không để hip line bị staple.',
-      'Keep the knee shield or inside knee and prevent the hip line from being stapled.',
-      'Garder le knee shield ou le genou intérieur et empêcher la ligne des hanches d’être fixée.',
+      'Giữ Knee Shield hoặc inside knee và không để hip line bị staple.',
+      'Keep the Knee Shield or inside knee and prevent the hip line from being stapled.',
+      'Garder le Knee Shield ou le genou intérieur et empêcher la ligne des hanches d’être fixée.',
     ),
     controlPoint: lt(
       'Chân bị staple, góc hông và vị trí đầu.',
@@ -629,7 +629,7 @@ const seeds: PositionSeed[] = [
     category: 'top_control',
     status: 'advantage',
     description: lt(
-      'Người ở trên cắt gối qua đường đùi trong khi cố thắng underhook hoặc crossface và kiểm soát hip line.',
+      'Người ở trên Knee Cut qua đường đùi trong khi cố thắng underhook hoặc crossface và kiểm soát hip line.',
       'The top player cuts the knee across the thigh line while working to win the underhook or crossface and control the hip line.',
       'Le joueur du dessus coupe le genou à travers la ligne de la cuisse tout en cherchant l’underhook ou le crossface et le contrôle de la ligne des hanches.',
     ),
@@ -639,9 +639,9 @@ const seeds: PositionSeed[] = [
       'Séparer la ligne des épaules de la ligne des hanches, puis libérer le pied en windshield wiper.',
     ),
     bottomGoal: lt(
-      'Pummel knee shield hoặc underhook để wrestle-up hoặc recover.',
-      'Pummel for a knee shield or underhook to wrestle up or recover Guard.',
-      'Pummeler pour un knee shield ou un underhook afin de faire un wrestle-up ou récupérer la garde.',
+      'Pummel Knee Shield hoặc underhook để wrestle-up hoặc recover.',
+      'Pummel for a Knee Shield or underhook to wrestle up or recover Guard.',
+      'Pummeler pour un Knee Shield ou un underhook afin de faire un wrestle-up ou récupérer la garde.',
     ),
     controlPoint: lt(
       'Góc near knee, far underhook hoặc crossface.',
@@ -1224,24 +1224,24 @@ const seeds: PositionSeed[] = [
     category: 'bottom_guard',
     status: 'defensive',
     description: lt(
-      'Z-Guard là knee shield Deep Half Guard, dùng shin và underhook để chặn crossface và tạo wrestle-up.',
+      'Z-Guard là Knee Shield Deep Half Guard, dùng shin và underhook để chặn crossface và tạo wrestle-up.',
       'Z-Guard is a deep knee-shield Half Guard using the shin and underhook to block crossface and set up wrestle-ups.',
-      'Z-Guard est un Half Guard profond avec knee shield, utilisant le tibia et l’underhook pour bloquer le crossface et préparer le wrestle-up.',
+      'Z-Guard est un Half Guard profond avec Knee Shield, utilisant le tibia et l’underhook pour bloquer le crossface et préparer le wrestle-up.',
     ),
     topGoal: lt(
-      'Smash knee shield, ép crossface và flatten hip line.',
-      'Smash the knee shield, drive crossface, and flatten the hip line.',
-      'Écraser le knee shield, pousser le crossface et aplatir la hip line.',
+      'Smash Knee Shield, ép crossface và flatten hip line.',
+      'Smash the Knee Shield, drive crossface, and flatten the hip line.',
+      'Écraser le Knee Shield, pousser le crossface et aplatir la hip line.',
     ),
     bottomGoal: lt(
-      'Giữ knee shield active, thắng underhook và vào wrestle-up hoặc deep half.',
-      'Keep the knee shield active, win the underhook, and enter wrestle-up or deep half.',
-      'Garder le knee shield actif, gagner l’underhook et entrer wrestle-up ou deep half.',
+      'Giữ Knee Shield active, thắng underhook và vào wrestle-up hoặc deep half.',
+      'Keep the Knee Shield active, win the underhook, and enter wrestle-up or deep half.',
+      'Garder le Knee Shield actif, gagner l’underhook et entrer wrestle-up ou deep half.',
     ),
     controlPoint: lt(
-      'Knee shield angle, underhook và Head Position.',
-      'Knee shield angle, underhook, and Head Position.',
-      'Angle knee shield, underhook et position de tête.',
+      'Knee Shield angle, underhook và Head Position.',
+      'Knee Shield angle, underhook, and Head Position.',
+      'Angle Knee Shield, underhook et position de tête.',
     ),
     escapePriority: lt(
       'Không mất underhook trước khi chuyển attack.',
@@ -1376,7 +1376,7 @@ const seeds: PositionSeed[] = [
     bottomGoal: lt(
       'Giữ shin frame active, kiểm soát Knee Line và chọn matrix/False Reap Entry.',
       'Keep the shin frame active, control the Knee Line, and choose matrix or False Reap Entry.',
-      'Garder le shin frame actif, contrôler Knee Line et choisir matrix ou false reap.',
+      'Garder le shin frame actif, contrôler Knee Line et choisir matrix ou False Reap.',
     ),
     controlPoint: lt(
       'Shin frame, Knee Line và ankle control.',
@@ -1389,7 +1389,7 @@ const seeds: PositionSeed[] = [
       'Protéger la Knee Line avant de libérer le shin.',
     ),
     nextPositionId: 'inverted-guard',
-    action: lt('Vào matrix hoặc False Reap Entry', 'Enter matrix or False Reap Entry', 'Entrer en matrix ou false reap'),
+    action: lt('Vào matrix hoặc False Reap Entry', 'Enter matrix or False Reap Entry', 'Entrer en matrix ou False Reap'),
     relatedSkillIds: ['k-guard-matrix', 'false-reap-entry', 'saddle-inside-sankaku-control'],
     relatedConceptIds: ['knee-line', 'leg-lock-safety-hierarchy', 'hooks'],
   },

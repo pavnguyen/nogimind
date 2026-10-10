@@ -1,0 +1,145 @@
+{
+  "id": "r-guard",
+  "domain": "guard_offense",
+  "level": "advanced",
+  "status": "draft",
+  "name": "R-Guard",
+  "aliases": [
+    "Reverse Guard",
+    "R Guard",
+    "reverse De La Riva no-gi"
+  ],
+  "tags": [
+    "Guard",
+    "reverse-de-la-riva",
+    "tier:modern-expansion",
+    "meta:modern-common",
+    "risk:medium",
+    "family:guard",
+    "modern-no-gi"
+  ],
+  "keywords": [
+    "R-Guard",
+    "Reverse Guard",
+    "De La Riva",
+    "headquarters",
+    "staple",
+    "cross ashi"
+  ],
+  "relatedSkills": [
+    {
+      "id": "reverse-de-la-riva-transitions",
+      "type": "recommended"
+    },
+    {
+      "id": "de-la-riva-sweeps",
+      "type": "supporting"
+    },
+    {
+      "id": "k-guard-entry",
+      "type": "chain"
+    },
+    {
+      "id": "false-reap-entry",
+      "type": "chain"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [],
+  "relatedConceptIds": [],
+  "archetypeIds": [
+    "Guard-retention-specialist"
+  ],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "de-la-riva-sweeps",
+    "seated-guard-retention"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [
+    "Si la jambe du dessous se fait clouer, vous tenez la garde à plat, tournez les hanches à l'opposé et soulevez le crochet avant que leur poids se pose.",
+    "Si vous ne contrôlez rien, vous cherchez du tissu qui n'existe pas, prenez le 2-on-1 sur le poignet ou sur la jambe éloignée.",
+    "Si le crochet est dégagé et qu'ils se remettent d'aplomb, rasseyez-vous en seated guard et rentrez à nouveau, ne poursuivez pas le crochet sur le dos."
+  ],
+  "version": 1,
+  "updatedAt": "2026-10-10T00:00:00.000Z",
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "fr",
+  "description": "R-Guard (Reverse Guard) est la lecture no-gi de la famille De La Riva : le crochet se place à l'extérieur de la jambe proche et les contrôles se construisent sur les poignets et les jambes plutôt que sur le tissu, donc la jambe du dessous reste libre et headquarters ne peut pas la clouer au sol.",
+  "shortInstruction": "Libérer la jambe du dessous, tourner les hanches à l'opposé et monter sur la jambe éloignée. Le R-Guard répond à headquarters, ce n'est pas une garde où l'on se repose.",
+  "summary": "Le R-Guard, aussi appelé Reverse Guard, est une variation no-gi moderne de la garde De La Riva. Comme il n'y a ni manche ni col à saisir, le gardien inverse la configuration : le crochet passe à l'extérieur de la jambe proche et les contrôles viennent du poignet, de la jambe éloignée et de l'angle des hanches. Cette forme est autant défensive qu'offensive : la jambe du dessous reste libre, donc le passeur ne peut pas la clouer au sol quand il arrive à headquarters. Depuis la même forme, le gardien enchaîne les sweeps, les wrestle-ups et les entrées vers le cross ashi, ce qui explique pourquoi les pratiquants no-gi modernes la traitent comme une première ligne de défense plutôt que comme une garde statique.",
+  "whyItWorks": [
+    "Le crochet extérieur garde la jambe du dessous libre, donc le passeur ne peut pas la clouer au sol depuis headquarters.",
+    "Sans manche ni col, les contrôles se construisent sur le poignet, la jambe éloignée et l'angle des hanches, les parties de la position qui fonctionnent encore en no-gi.",
+    "La position est une plateforme et non une destination : la même forme alimente les sweeps, les wrestle-ups et les entrées vers le cross ashi.",
+    "Refuser la fixation oblige le passeur à déplacer ses pieds, et chaque déplacement de pieds ouvre une entrée au gardien."
+  ],
+  "commonMistakes": [
+    "Laisser la jambe du dessous s'aplatir et s'exposer en gardant le crochet, la fixation est exactement ce que le R-Guard existe pour empêcher.",
+    "Le jouer comme une garde De La Riva avec des saisies de tissu, en cherchant des grips qui n'existent pas au lieu de contrôler le poignet et la jambe éloignée.",
+    "Tourner les hanches vers le passeur au lieu de les tourner à l'opposé, ce qui lui offre la jambe qu'il cherchait à clouer.",
+    "Tenir la garde au lieu d'enchaîner, le R-Guard est une réponse à la pression, pas un endroit où stagner.",
+    "Poursuivre le crochet après qu'il a été dégagé, se rasseoir et rentrer à nouveau est plus rapide que de se battre pour un crochet perdu sur le dos."
+  ],
+  "coachingCues": [
+    "Libérer la jambe d'abord, attaquer ensuite.",
+    "Hanches à l'opposé, crochet caché.",
+    "Poignet et jambe éloignée, voilà la saisie en no-gi.",
+    "Monter, pas tenir."
+  ],
+  "safetySummary": [
+    "Ne laissez jamais l'adversaire poser son poids sur votre genou crocheté, si le genou est piégé et chargé, relâchez le crochet avant que l'articulation encaisse.",
+    "Ne cherchez pas à vous tordre pour sortir d'un crochet piégé, relâchez l'enchevêtrement et rentrez à nouveau, les genoux ne supportent pas les forces latérales.",
+    "Quand vous montez sur la jambe éloignée, gardez votre ligne de genou derrière sa cuisse, pour que la transition n'expose pas votre jambe au lieu de la sienne.",
+    "Au drill, gardez le crochet léger, c'est un contrôle, pas une torsion du genou du partenaire."
+  ],
+  "systemLogic": {
+    "corePrinciple": "Crochet extérieur et contrôles inversés → garder la jambe du dessous libre pour que headquarters ne puisse pas la clouer → tourner les hanches à l'opposé → sweep, wrestle-up ou montée vers le cross ashi.",
+    "decisionTree": [
+      {
+        "condition": "Ils poussent pour clouer la jambe du dessous à headquarters",
+        "action": "tourner les hanches à l'opposé, libérer la jambe et reprendre le crochet à l'extérieur de la jambe proche."
+      },
+      {
+        "condition": "Ils passent la jambe proche par-dessus votre ligne médiane",
+        "action": "soulever les hanches et prendre le cross ashi sur la jambe exposée."
+      },
+      {
+        "condition": "Ils se tiennent haut sur une base large",
+        "action": "monter sur le crochet vers un single leg ou un wrestle-up."
+      },
+      {
+        "condition": "Ils dégagent le crochet et se remettent d'aplomb",
+        "action": "se rasseoir en seated guard et rentrer à nouveau, ne pas se battre pour le crochet sur le dos."
+      }
+    ],
+    "exitStrategies": [
+      "Si le crochet est piégé et chargé, relâchez-le avant que le genou ne se torde, puis rentrez à nouveau depuis la seated guard.",
+      "Si headquarters est déjà installé avec la jambe du dessous clouée, récupérez en seated guard ou en half guard et relancez la séquence."
+    ]
+  },
+  "moneyDetails": [
+    "Le crochet va à l'extérieur de la jambe proche et votre pied reste léger, dès que leurs hanches se posent dessus, vous bougez.",
+    "Votre jambe du dessous est ce que vous protégez, dès qu'elle s'aplatit, le R-Guard disparaît.",
+    "Surveillez la jambe éloignée, l'entrée vers le cross ashi apparaît quand ils passent la jambe proche au-dessus de votre ligne médiane.",
+    "Les poignets avant les jambes, sans tissu le poignet et la jambe éloignée sont les seuls contrôles qui tiennent."
+  ],
+  "nextStep": "Après le R-Guard, apprenez les entrées K-Guard et false reap qui transforment le même crochet extérieur en cross ashi et en saddle.",
+  "fixItFast": [
+    "La jambe du dessous se fait clouer ? Tournez les hanches à l'opposé et soulevez le crochet avant que leur poids se pose.",
+    "Pas de contrôle sans tissu ? Prenez le 2-on-1 sur le poignet ou sur la jambe éloignée au lieu de saisir du vide.",
+    "Bloqué à tenir la garde ? Enchaînez : sweep, wrestle-up ou montée sur les jambes."
+  ]
+}

@@ -9,7 +9,7 @@
     "Việc giữ thế bám trước khi kéo đảm bảo bạn kiểm soát được khoảng cách, đối thủ không thể lùi lại hoặc vòng tới Side Control",
     "Tạo góc (bước ra khỏi đường giữa) buộc đối thủ phải căn chỉnh lại, tạo cho bạn sơ hở để kéo mà không bị vượt qua",
     "Kéo đến một hệ thống Guard cụ thể (ngồi, cẳng chân, K-Guard) thay vì hệ thống Closed Guard chung chung sẽ mang lại cho bạn một kế hoạch tấn công ngay lập tức",
-    "Một cú kéo có kiểm soát sẽ ngăn đối thủ ngay lập tức ghi được đường chuyền hoặc hạ gục khi bạn chạm bóng"
+    "Một cú kéo có kiểm soát sẽ ngăn đối thủ ngay lập tức ghi được pass hoặc takedown khi bạn chạm bóng"
   ],
   "commonMistakes": [
     "Kéo Guard mà không cần cầm, đối phương có thể ngay lập tức rút lui hoặc vòng tới Side Control",
@@ -24,7 +24,7 @@
     "Kéo đến Guard, không kéo xuống sàn"
   ],
   "safetySummary": [
-    "Đừng ngồi xổm một cách mạnh mẽ nếu chân bạn bị kẹt giữa hai chân của đối phương - điều này có thể gây chấn thương mắt cá chân hoặc đầu gối",
+    "Đừng ép xuống thành Split Squat khi chân bạn bị kẹt giữa hai chân của đối phương - điều này có thể gây chấn thương mắt cá chân hoặc đầu gối",
     "Khi kéo Guard trong cuộc thi, hãy lưu ý các quy tắc đánh bóng, trong một số bộ quy tắc, đối thủ có thể nhấc và đánh bạn nếu bạn kéo Guard mà không cần nắm",
     "Thực hành Guard kéo với một đối tác chống cự ở tốc độ được kiểm soát trước khi sử dụng nó trực tiếp, một cú kéo Guard không tốt có thể khiến bạn rơi vào Side Control ngay lập tức"
   ],
@@ -38,7 +38,7 @@
     "decisionTree": [
       {
         "condition": "Ở Bước 1 (Cầm)",
-        "action": "thiết lập độ bám Guard mạnh nhất của bạn trước khi kéo. Nếu kéo đến ống chân: buộc cổ + kiểm soát cổ tay. Nếu kéo đến K-Guard: buộc cổ + tay nắm. Nếu kéo đến chỗ Seated Guard: kiểm soát cổ tay hai đối một hoặc buộc cổ áo"
+        "action": "thiết lập độ bám Guard mạnh nhất của bạn trước khi kéo. Nếu kéo đến ống chân: buộc cổ + kiểm soát cổ tay. Nếu kéo đến K-Guard: buộc cổ + tay nắm. Nếu kéo đến chỗ Seated Guard: kiểm soát cổ tay hai đối một hoặc collar tie"
       },
       {
         "condition": "Ở Bước 2 (Góc)",
@@ -46,7 +46,7 @@
       },
       {
         "condition": "Ở Bước 3 (Ngồi)",
-        "action": "hạ hông xuống thảm bằng cách ngồi sát hông bên ngoài (không phải cả hai hông cùng một lúc). Giữ chân bên trong của bạn hoạt động (kết nối chân sau hoặc ống chân với ống chân) để ngăn họ bước vào đường chuyền Guard"
+        "action": "hạ hông xuống thảm bằng cách ngồi sát hông bên ngoài (không phải cả hai hông cùng một lúc). Giữ chân bên trong của bạn hoạt động (kết nối chân sau hoặc ống chân với ống chân) để ngăn họ bước vào pass Guard"
       },
       {
         "condition": "Ở Bước 4 (Nhập hệ thống Guard)",
@@ -54,18 +54,18 @@
       },
       {
         "condition": "Guard hướng dẫn lựa chọn kéo",
-        "action": "dựa vào người qua đường đang đứng → Seated Guard. Chống lại người qua đường đang quỳ → shin-to-shin. Chống lại người vượt qua áp lực → K-Guard hoặc bướm"
+        "action": "dựa vào passer đang đứng → Seated Guard. Chống lại passer đang quỳ → shin-to-shin. Chống lại người vượt qua áp lực → K-Guard hoặc bướm"
       }
     ]
   },
   "moneyDetails": [
     "Một cú kéo Guard tốt là nền tảng của toàn bộ trò chơi Guard của bạn, nó quyết định xem bạn bắt đầu chuỗi Guard ở vị trí mạnh hay yếu",
-    "Cạnh tranh Guard kéo là một quyết định chiến lược, kéo Guard để vào hệ thống tấn công tốt nhất của bạn thường tốt hơn là vật để hạ gục",
+    "Cạnh tranh Guard kéo là một quyết định chiến lược, kéo Guard để vào hệ thống tấn công tốt nhất của bạn thường tốt hơn là vật để takedown",
     "Việc thuần thục thao tác kéo Guard cho phép bạn quyết định nơi trận đấu bắt đầu, bạn chọn hệ thống Guard chứ không phải đối thủ"
   ],
   "fixItFast": [
-    "Nếu đối thủ đang lao tới bạn khi bạn cố gắng kéo: hãy dùng cà vạt buộc cổ lên đầu họ và vòng ra phía sau cuộc lao tới của họ trước khi kéo",
-    "Nếu bạn tiếp tục bị vượt qua trong quá trình kéo: bạn đang không kiểm soát được chân xa của họ. Giữ chân bạn trên hông xa của họ khi bạn ngồi để tránh bị cắt đầu gối",
+    "Nếu đối thủ đang lao tới bạn khi bạn cố gắng kéo: hãy dùng collar tie lên đầu họ và vòng ra phía sau cuộc lao tới của họ trước khi kéo",
+    "Nếu bạn tiếp tục bị vượt qua trong quá trình kéo: bạn đang không kiểm soát được chân xa của họ. Giữ chân bạn trên hông xa của họ khi bạn ngồi để tránh bị Knee Cut",
     "Nếu đối thủ rút lui sau khi bạn kéo: hãy dùng động tác vật để đứng lên và giao chiến lại thay vì ngồi chờ"
   ]
 }

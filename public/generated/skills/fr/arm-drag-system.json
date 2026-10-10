@@ -65,9 +65,9 @@
     "hasStateMachine": false
   },
   "locale": "fr",
-  "description": "Tirez le bras de l'adversaire sur la ligne médiane, combinez mouvement de la tête et jeu de jambes pour prendre le dos, une seule jambe ou Front Headlock. La traînée de bras est l'entrée de retrait avec le pourcentage le plus élevé dans No-Gi car elle attaque l'équilibre de l'adversaire avant sa base.",
+  "description": "Tirez le bras de l'adversaire sur la ligne médiane, combinez mouvement de la tête et jeu de jambes pour prendre le dos, un Single Leg ou Front Headlock. La traînée de bras est l'entrée de retrait avec le pourcentage le plus élevé dans No-Gi car elle attaque l'équilibre de l'adversaire avant sa base.",
   "shortInstruction": "Tirez leur bras éloigné sur votre ligne médiane, placez-vous derrière leur jambe avant avec votre pied extérieur et prenez la jambe arrière ou simple. Gardez la tête basse et tournée vers l’extérieur.",
-  "summary": "La traînée du bras tire le bras de l'adversaire sur votre corps, perturbant sa base et exposant son dos ou sa jambe éloignée. À partir de la traînée du bras, vous avez trois branches principales : (1) prise arrière – cerclez derrière pendant qu'ils suivent la traînée, (2) jambe unique – descendez vers la jambe éloignée pendant qu'ils postent, (3) Front Headlock – abaissez-vous pendant qu'ils résistent à la traînée. La traînée de bras est la base de tous les retraits de style blitz dans No-Gi.",
+  "summary": "La traînée du bras tire le bras de l'adversaire sur votre corps, perturbant sa base et exposant son dos ou sa jambe éloignée. À partir de la traînée du bras, vous avez trois branches principales : (1) prise arrière – cerclez derrière pendant qu'ils suivent la traînée, (2) Single Leg – descendez vers la jambe éloignée pendant qu'ils postent, (3) Front Headlock – abaissez-vous pendant qu'ils résistent à la traînée. La traînée de bras est la base de tous les retraits de style blitz dans No-Gi.",
   "whyItWorks": [
     "Tirer le bras sur la ligne médiane fait pivoter le haut du corps de l'adversaire, perturbant sa base et son équilibre.",
     "La traînée du bras expose le dos ou la jambe éloignée de l'adversaire – les deux sont des cibles de grande valeur",
@@ -96,11 +96,11 @@
     "decisionTree": [
       {
         "condition": "Utilisation de la branche 1 (prise en arrière)",
-        "action": "pendant que vous tirez le bras, placez votre pied extérieur derrière la jambe de tête. Faites un cercle derrière eux. S'ils suivent la traînée, prenez le recul. S'ils sprawl, passez à une seule jambe"
+        "action": "pendant que vous tirez le bras, placez votre pied extérieur derrière la jambe de tête. Faites un cercle derrière eux. S'ils suivent la traînée, prenez le recul. S'ils sprawl, passez à un Single Leg"
       },
       {
-        "condition": "Utilisation de la branche 2 (une seule jambe)",
-        "action": "Si l'adversaire poste sa jambe opposée pour résister à la traînée, déposez votre main intérieure sur sa cheville opposée et terminez la jambe unique. La traînée de bras a déjà perturbé leur base"
+        "condition": "Utilisation de la branche 2 (Single Leg)",
+        "action": "Si l'adversaire poste sa jambe opposée pour résister à la traînée, déposez votre main intérieure sur sa cheville opposée et terminez le Single Leg. La traînée de bras a déjà perturbé leur base"
       },
       {
         "condition": "Utilisation de la branche 3 (Front Headlock)",
@@ -108,7 +108,7 @@
       },
       {
         "condition": "Lire la réaction de l'adversaire",
-        "action": "ils suivent le glisser → retour en arrière. Ils affichent la jambe éloignée → jambe unique. Ils descendent du niveau → snapdown à Front Headlock"
+        "action": "ils suivent le glisser → retour en arrière. Ils affichent la jambe éloignée → Single Leg. Ils descendent du niveau → snapdown à Front Headlock"
       }
     ],
     "exitStrategies": []

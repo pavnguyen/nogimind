@@ -1,20 +1,20 @@
 {
   "id": "single-leg-bjj",
   "locale": "fr",
-  "name": "Jambe simple pour BJJ",
-  "description": "Terminez la jambe unique en respectant les menaces de tirage Guillotine, Kimura et Guard en BJJ. La jambe unique dans BJJ doit être adaptée de la lutte pour tenir compte des compteurs uniques qui existent dans le grappling de soumission.",
+  "name": "Single Leg pour le BJJ",
+  "description": "Terminez le Single Leg en respectant les menaces de tirage Guillotine, Kimura et Guard en BJJ. Le Single Leg dans BJJ doit être adapté de la lutte pour tenir compte des compteurs uniques qui existent dans le grappling de soumission.",
   "shortInstruction": "Fixez la jambe, gardez la tête vers l'extérieur (pas vers le centre) et terminez en faisant passer le tuyau, en le soulevant ou en faisant des cercles vers l'arrière. Ne laissez jamais votre tête dériver vers l’intérieur où ils peuvent vous Guillotine.",
-  "summary": "La jambe unique BJJ est une version modifiée de la jambe unique de lutte qui donne la priorité à la sécurité contre les compteurs de soumission. Les adaptations clés sont : la position de la tête doit toujours être vers l'extérieur (joue contre hanche/dos) plutôt que vers l'intérieur (poitrine contre poitrine), la finition donne la priorité à l'exécution du tuyau (les conduisant latéralement) plutôt qu'au levage (ce qui expose le Guillotine), et la prise arrière est toujours disponible comme alternative à pourcentage élevé à la finition du retrait.",
+  "summary": "Le Single Leg BJJ est une version modifiée du Single Leg de lutte qui donne la priorité à la sécurité contre les compteurs de soumission. Les adaptations clés sont : la position de la tête doit toujours être vers l'extérieur (joue contre hanche/dos) plutôt que vers l'intérieur (poitrine contre poitrine), la finition donne la priorité à l'exécution du tuyau (les conduisant latéralement) plutôt qu'au levage (ce qui expose le Guillotine), et la prise arrière est toujours disponible comme alternative à pourcentage élevé à la finition du retrait.",
   "whyItWorks": [
-    "La position extérieure de la tête empêche le Guillotine, le contre-pied le plus courant aux jambes simples dans BJJ",
+    "La position extérieure de la tête empêche le Guillotine, le contre-pied le plus courant au Single Leg dans BJJ",
     "Faire passer le tuyau (entraînement latéral) protège votre tête et utilise son poids contre elle",
-    "La prise arrière sur une jambe est une adaptation spécifique à BJJ qui rapporte 4 points au lieu de 2.",
-    "La jambe unique passe à la fois à la position supérieure et à Back Control – il s'agit du retrait le plus polyvalent de BJJ."
+    "La prise arrière depuis le Single Leg est une adaptation spécifique à BJJ qui rapporte 4 points au lieu de 2.",
+    "Le Single Leg passe à la fois à la position supérieure et à Back Control – il s'agit du retrait le plus polyvalent de BJJ."
   ],
   "commonMistakes": [
     "Laisser votre tête dériver à l'intérieur (poitrine contre poitrine) - cela vous expose aux Guillotine, Kimura et Front Headlock",
     "Essayer de lever la jambe vers le haut - cela retarde l'arrivée et expose le Guillotine",
-    "Rester trop longtemps sur la jambe, la jambe unique doit être terminée rapidement ou abandonnée",
+    "Rester trop longtemps sur la jambe, le Single Leg doit être terminé rapidement ou abandonné",
     "Ne pas passer à l'arrière lorsque l'arrivée est bloquée"
   ],
   "coachingCues": [
@@ -24,9 +24,9 @@
     "La prise en retour est toujours disponible"
   ],
   "safetySummary": [
-    "Le Guillotine résultant d'une jambe unique défaillante est l'étranglement le plus courant dans BJJ - gardez la tête vers l'extérieur à tout moment",
+    "Le Guillotine résultant d'un Single Leg défaillant est l'étranglement le plus courant dans BJJ - gardez la tête vers l'extérieur à tout moment",
     "Si vous sentez le Guillotine se mettre en place, tournez-vous immédiatement vers l'arrière plutôt que d'essayer de terminer le retrait.",
-    "Ne tenez pas la jambe unique et tenez-vous droit - cela expose le genou aux fauches et le cou aux Guillotines"
+    "Ne tenez pas le Single Leg et tenez-vous droit - cela expose le genou au Knee Reaping et le cou aux Guillotines"
   ],
   "keyCorrections": [
     "S'ils vous Guillotine : votre tête était à l'intérieur - faites immédiatement un cercle vers l'arrière pour soulager la pression de l'étranglement",
@@ -46,7 +46,7 @@
       },
       {
         "condition": "Utilisation de Finish 3 (Back Take)",
-        "action": "s'ils sprawl sur une seule jambe, relâchez la jambe et faites un cercle derrière eux. Le Back Take marque 4 points et évite le compteur sprawl"
+        "action": "s'ils sprawl sur le Single Leg, relâchez la jambe et faites un cercle derrière eux. Le Back Take marque 4 points et évite le compteur sprawl"
       },
       {
         "condition": "Utilisation de Finish 4 (High Crotch Dump)",
@@ -59,12 +59,12 @@
     ]
   },
   "moneyDetails": [
-    "La jambe unique est la mise au sol la plus courante dans BJJ : une finition fiable est essentielle au succès en compétition.",
-    "Maîtriser la jambe unique adaptée au BJJ élimine la peur des compteurs de retrait et vous permet de tirer en toute confiance",
+    "Le Single Leg est la mise au sol la plus courante dans BJJ : une finition fiable est essentielle au succès en compétition.",
+    "Maîtriser le Single Leg adapté au BJJ élimine la peur des compteurs de retrait et vous permet de tirer en toute confiance",
     "La prise d'une jambe vers l'arrière est la séquence de valeur la plus élevée dans les No-Gi takedowns (4 points au lieu de 2)"
   ],
   "fixItFast": [
-    "S'ils sprawl sur une seule jambe : allez à l'arrière - ne combattez pas le sprawl",
+    "S'ils sprawl sur le Single Leg : allez à l'arrière - ne combattez pas le sprawl",
     "S'ils Guillotine : tournez immédiatement vers l'arrière - la prise arrière bat le Guillotine",
     "S'ils sautent sur une jambe : conduisez-les latéralement avec le tuyau en cours d'exécution - ils ne peuvent pas sauter latéralement"
   ]

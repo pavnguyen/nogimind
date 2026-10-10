@@ -61,8 +61,8 @@
   },
   "locale": "vi",
   "description": "Tạo ra hai mối đe dọa để đối thủ phải phòng thủ một tuyến và vạch trần tuyến kia. Một tình thế tiến thoái lưỡng nan buộc đối phương phải lựa chọn giữa hai phương án tồi - công việc của bạn là đưa ra lựa chọn đó và tận dụng một trong hai phương án phản ứng.",
-  "shortInstruction": "Liên kết hai đòn tấn công bổ sung cho nhau để phòng thủ cái này mở ra cái kia. Nếu họ chặn việc quét, hãy gửi bài. Nếu họ chặn việc gửi, hãy hoàn tất quá trình quét.",
-  "summary": "Một thế tiến thoái lưỡng nan là bất kỳ vị trí nào mà phản ứng phòng thủ của đối phương trước một đòn tấn công sẽ mở ra một đòn tấn công thứ hai, nguy hiểm không kém. Các tình huống khó xử mạnh mẽ nhất liên kết một cú quét và một cú khuất phục (ví dụ: quét cắt kéo → Kimura từ Closed Guard) hoặc một đường chuyền và một cú lùi (ví dụ: chuyền sang một bên để lộ mặt sau). Hệ thống dạy bạn cách tấn công theo chuỗi thay vì bắn các kỹ thuật đơn lẻ và khởi động lại khi thất bại.",
+  "shortInstruction": "Liên kết hai đòn tấn công bổ sung cho nhau để phòng thủ cái này mở ra cái kia. Nếu họ chặn sweep, hãy kết liễu. Nếu họ chặn đòn kết liễu, hãy hoàn tất sweep.",
+  "summary": "Một thế tiến thoái lưỡng nan là bất kỳ vị trí nào mà phản ứng phòng thủ của đối phương trước một đòn tấn công sẽ mở ra một đòn tấn công thứ hai, nguy hiểm không kém. Các tình huống khó xử mạnh mẽ nhất liên kết một sweep và một submission (ví dụ: scissor sweep → Kimura từ Closed Guard) hoặc một pass và một Backstep (ví dụ: pass sang một bên để lộ lưng). Hệ thống dạy bạn cách tấn công theo chuỗi thay vì bắn các kỹ thuật đơn lẻ và khởi động lại khi thất bại.",
   "whyItWorks": [
     "Bộ não con người bị giới hạn trong việc xử lý một mối đe dọa lớn tại một thời điểm - một tình huống khó xử thực sự sẽ phân tán sự chú ý của họ và đảm bảo độ trễ phản ứng",
     "Các cuộc tấn công liên kết tạo ra áp lực gộp - ngay cả khi họ phòng thủ hoàn hảo đòn tấn công đầu tiên, họ vẫn đến một vị trí tồi tệ hơn so với nơi họ bắt đầu",
@@ -77,14 +77,14 @@
   ],
   "coachingCues": [
     "Hai mối đe dọa, một sự lựa chọn cho họ",
-    "quét → khuất phục, khuất phục → quét",
+    "sweep → submission, submission → sweep",
     "Nếu họ dừng A, đưa họ B",
     "Mỗi cuộc tấn công đều thiết lập cuộc tấn công tiếp theo"
   ],
   "safetySummary": [
     "Đừng ép buộc vào thế tiến thoái lưỡng nan ở tốc độ cao - tấn công dây chuyền với tốc độ được kiểm soát để ngăn ngừa chấn thương khớp do vô tình",
-    "Khi tấn công bằng chuỗi gửi hai chiều (ví dụ: Armbar đến Triangle), hãy áp dụng các lần gửi tăng dần, không bùng nổ",
-    "Xin lưu ý rằng các đối tác đào tạo có thể lợi dụng mối đe dọa từ việc phục tùng hơn là áp lực thực tế - hãy tôn trọng việc khai thác sớm"
+    "Khi tấn công bằng chuỗi submission hai chiều (ví dụ: Armbar đến Triangle), hãy tăng lực dần, không bùng nổ",
+    "Xin lưu ý rằng các đối tác đào tạo có thể lợi dụng mối đe dọa từ việc submission hơn là áp lực thực tế - hãy tôn trọng việc khai thác sớm"
   ],
   "systemLogic": {
     "corePrinciple": "Một tình huống khó xử đòi hỏi ba thành phần: (1) một cặp tấn công được kết nối, (2) cơ chế cấu trúc chung và (3) trình kích hoạt nhận dạng để chuyển đổi giữa họ",
@@ -95,7 +95,7 @@
       },
       {
         "condition": "Thành phần 1: Cặp kết nối",
-        "action": "hai đòn tấn công phải nhắm vào các bộ phận khác nhau trên cơ thể đối phương hoặc các phản ứng phòng thủ khác nhau. Ví dụ: quét + khuất phục, sặc + Armbar, chuyền + lùi"
+        "action": "hai đòn tấn công phải nhắm vào các bộ phận khác nhau trên cơ thể đối phương hoặc các phản ứng phòng thủ khác nhau. Ví dụ: sweep + submission, choke + Armbar, pass + Backstep"
       },
       {
         "condition": "Hợp phần 2: Cơ chế chia sẻ",
@@ -107,13 +107,13 @@
       },
       {
         "condition": "Các ví dụ về vấn đề nan giải thường gặp",
-        "action": "Closed Guard: quét cắt kéo (họ đăng tay → Kimura) hoặc Armbar (họ tạo tư thế → Triangle). Mount: Armbar (họ bảo vệ cánh tay → khóa chéo) hoặc khóa chéo (họ bảo vệ cổ → Armbar). Back: rear-naked choke (bảo vệ cổ → bow-and-arrow) hoặc bow-and-arrow (bảo vệ hông → RNC). Leg Lock: Heel Hook (họ phòng thủ bên trong → bên ngoài ashi) hoặc Straight Ankle Lock (họ phòng thủ Heel Hook → Ankle Lock)"
+        "action": "Closed Guard: scissor sweep (họ post → Kimura) hoặc Armbar (họ tạo tư thế → Triangle). Mount: Armbar (họ bảo vệ cánh tay → khóa chéo) hoặc khóa chéo (họ bảo vệ cổ → Armbar). Back: rear-naked choke (bảo vệ cổ → bow-and-arrow) hoặc bow-and-arrow (bảo vệ hông → RNC). Leg Lock: Heel Hook (họ phòng thủ bên trong → bên ngoài ashi) hoặc Straight Ankle Lock (họ phòng thủ Heel Hook → Ankle Lock)"
       }
     ],
     "exitStrategies": []
   },
   "moneyDetails": [
-    "Các tình huống khó xử là cơ chế tính điểm chính ở BJJ cấp cao, phần lớn số điểm và lượt gửi đến từ các cuộc tấn công hai chiều chứ không phải các kỹ thuật đơn lẻ",
+    "Các tình huống khó xử là cơ chế tính điểm chính ở BJJ cấp cao, phần lớn số điểm và submission đến từ các cuộc tấn công hai chiều chứ không phải các kỹ thuật đơn lẻ",
     "Một tình huống khó xử được xây dựng tốt có thể kết thúc trận đấu trong vài giây bằng cách tạo ra một vấn đề nan giải cho đối thủ",
     "Xây dựng trò chơi xoay quanh các tình huống khó xử thay vì các kỹ thuật riêng lẻ là con đường nhanh nhất để đạt đến cấp độ nâng cao BJJ",
     "Những võ sĩ giỏi nhất thế giới (Gordon Ryan, Mica Galvao, Tainan Dalpra) toàn bộ trận đấu của họ dựa trên 3-4 tình huống khó xử có tỷ lệ phần trăm cao"

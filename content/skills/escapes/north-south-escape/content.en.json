@@ -3,12 +3,12 @@
   "locale": "en",
   "name": "North-South Escape",
   "description": "Escape the North-South position by creating a frame, turning into the opponent, and recovering Guard or standing up.",
-  "shortInstruction": "Frame on the hips, insert a knee shield, turn toward the opponent, and recover Guard or wrestle up.",
-  "summary": "North-South escape uses a forearm frame on the hips to create separation, then a knee shield to turn into the opponent and recover Guard. The system is distinct from Side Control escapes because the opponent's weight is aligned along your centerline rather than perpendicular to it.",
+  "shortInstruction": "Frame on the hips, insert a Knee Shield, turn toward the opponent, and recover Guard or wrestle up.",
+  "summary": "North-South escape uses a forearm frame on the hips to create separation, then a Knee Shield to turn into the opponent and recover Guard. The system is distinct from Side Control escapes because the opponent's weight is aligned along your centerline rather than perpendicular to it.",
   "whyItWorks": [
     "The North-South pin compresses the torso along the centerline, a forearm frame on the hip redirects their weight away from your ribs",
     "Turning into the opponent (instead of away) uses your strongest skeletal structure against their chest pressure",
-    "The knee shield creates a structural barrier that prevents them from re-establishing the pin after you create space",
+    "The Knee Shield creates a structural barrier that prevents them from re-establishing the pin after you create space",
     "North-South is a transitional position, a well-timed escape prevents them from establishing it as a pin and forces them to recover to Side Control or stand up"
   ],
   "commonMistakes": [
@@ -20,7 +20,7 @@
   "coachingCues": [
     "Frame on the hip, not the chest",
     "Turn into them, not away",
-    "Knee shield before they settle"
+    "Knee Shield before they settle"
   ],
   "safetySummary": [
     "The North-South choke can come on quickly, protect your neck by keeping your chin tucked and near arm across your chest",
@@ -29,7 +29,7 @@
   ],
   "keyCorrections": [],
   "systemLogic": {
-    "corePrinciple": "The North-South escape follows a four-step sequence: frame → hip escape → knee shield → turn/recover Guard",
+    "corePrinciple": "The North-South escape follows a four-step sequence: frame → hip escape → Knee Shield → turn/recover Guard",
     "decisionTree": [
       {
         "condition": "General application",
@@ -37,15 +37,15 @@
       },
       {
         "condition": "General application",
-        "action": "Hip escape phase: walk your hips away from their hips to create a pocket of space for the knee shield"
+        "action": "Hip escape phase: walk your hips away from their hips to create a pocket of space for the Knee Shield"
       },
       {
         "condition": "General application",
-        "action": "Knee shield phase: insert your near knee between your chest and their hip. The shin should face across their body, not straight up"
+        "action": "Knee Shield phase: insert your near knee between your chest and their hip. The shin should face across their body, not straight up"
       },
       {
         "condition": "General application",
-        "action": "Turn/recover: use the knee shield as a pivot point to turn toward them, then either recover full Guard (by overhooking their far arm) or stand up via Technical Stand-Up"
+        "action": "Turn/recover: use the Knee Shield as a pivot point to turn toward them, then either recover full Guard (by overhooking their far arm) or stand up via Technical Stand-Up"
       }
     ]
   },

@@ -3,7 +3,7 @@
   "domain": "wrestle_up_wrestling",
   "level": "intermediate",
   "status": "draft",
-  "name": "Cú chạm đầu gối không chiến",
+  "name": "Dogfight Knee Tap",
   "aliases": [],
   "tags": [
     "dogfight",
@@ -53,7 +53,7 @@
   "keyCorrections": [
     "Nếu họ không rơi: bạn chưa kéo họ về phía trước đủ, hãy tăng lực kéo về phía trước bằng underhook",
     "Nếu họ bước qua đầu bạn: vị trí đầu của bạn quá thấp - hãy giữ đầu bạn ở ngang vai họ",
-    "Nếu họ sprawl tấn công bạn: chuyển sang chặng đơn, underhook của bạn sẽ cho bạn quyền vào chặng một"
+    "Nếu họ sprawl tấn công bạn: chuyển sang Single Leg, underhook của bạn cho bạn entry vào Single Leg"
   ],
   "version": 1,
   "updatedAt": "2026-05-21T00:24:30.779Z",
@@ -67,62 +67,62 @@
     "hasStateMachine": false
   },
   "locale": "vi",
-  "description": "Trong trận không chiến, cú chạm đầu gối sử dụng underhook và vị trí đầu để hạ gục đối thủ. Không chiến là tư thế đấu vật phổ biến nhất từ ​​Half Guard dưới lên.",
-  "shortInstruction": "Từ trận không chiến, vòng đầu gối bên ngoài của bạn qua lưng họ, sử dụng underhook để kéo họ về phía trước và dùng tay còn lại chạm vào đầu gối phía xa của họ để hạ gục họ.",
-  "summary": "Cú chạm đầu gối khi không chiến là đòn quét có tỷ lệ quét cao nhất từ ​​vị trí không chiến (underhook Half Guard). Từ trận không chiến, bạn sử dụng underhook của mình để kéo đối thủ về phía trước trong khi dùng tay còn lại chạm vào đầu gối phía xa của họ. Động lượng về phía trước của họ kết hợp với cú chạm đầu gối sẽ loại bỏ phần đế của họ và đưa họ xuống thảm. Nhấn đầu gối chuyển trực tiếp sang Side Control hoặc Front Headlock.",
+  "description": "Trong Dogfight, knee tap dùng underhook và vị trí đầu để takedown đối thủ. Dogfight là tư thế đấu vật phổ biến nhất từ Half Guard dưới lên.",
+  "shortInstruction": "Từ Dogfight, vòng đầu gối bên ngoài của bạn qua lưng họ, dùng underhook kéo họ về phía trước và dùng tay còn lại knee tap vào đầu gối xa của họ.",
+  "summary": "Dogfight Knee Tap là sweep có tỷ lệ thành công cao nhất từ Dogfight (Half Guard có underhook). Từ Dogfight, bạn dùng underhook của mình để kéo đối thủ về phía trước trong khi tay còn lại knee tap vào đầu gối xa của họ. Động lượng về phía trước của họ kết hợp với knee tap sẽ phá base và đưa họ xuống thảm. Knee tap chuyển trực tiếp sang Side Control hoặc Front Headlock.",
   "whyItWorks": [
-    "underhook trong trận không chiến cho phép bạn kiểm soát phần thân trên của họ, bạn có thể kéo họ về phía trước, khiến họ mất thăng bằng",
-    "Chạm vào đầu gối phía xa sẽ làm mất điểm tựa phía sau của họ - họ không thể lùi lại để lấy lại thăng bằng",
-    "Sự kết hợp giữa kéo về phía trước (underhook) và tháo chân đế phía sau (chạm đầu gối) tạo ra vấn đề cân bằng không thể giải quyết được",
-    "Việc chạm đầu gối sẽ an toàn trong Guillotine giây vì đầu của bạn hướng ra ngoài (má áp vào vai họ)"
+    "Underhook trong Dogfight cho bạn kiểm soát phần thân trên của họ, bạn có thể kéo họ về phía trước và làm họ mất thăng bằng",
+    "Knee tap đầu gối xa sẽ làm mất điểm tựa phía sau của họ - họ không thể lùi lại để lấy lại thăng bằng",
+    "Sự kết hợp giữa kéo về phía trước (underhook) và phá chân trụ phía sau (knee tap) tạo ra vấn đề cân bằng không thể giải quyết",
+    "Knee tap an toàn trước Guillotine vì đầu bạn hướng ra ngoài (má áp vào vai họ)"
   ],
   "commonMistakes": [
-    "Không kéo họ đủ về phía trước trước khi chạm vào đầu gối - chỉ chạm vào đầu gối không gây ra đòn hạ gục",
-    "Chạm vào đầu gối gần thay vì đầu gối xa - chạm đầu gối gần không làm mất phần đế của họ",
-    "Ở quá thấp trong trận không chiến - đứng lên để tạo góc cho cú chạm đầu gối",
-    "Thả underhook trong khi chạm vào đầu gối, duy trì khả năng kiểm soát underhook trong suốt quá trình"
+    "Không kéo họ đủ về phía trước trước khi knee tap - chỉ knee tap thì không tạo ra takedown",
+    "Knee tap đầu gối gần thay vì đầu gối xa - knee tap đầu gối gần không phá được base của họ",
+    "Ở quá thấp trong Dogfight - đứng lên để tạo góc cho knee tap",
+    "Thả underhook trong khi knee tap - phải giữ kiểm soát underhook suốt quá trình"
   ],
   "coachingCues": [
-    "Kéo về phía trước, sau đó chạm vào đầu gối",
-    "underhook luôn ở lại",
-    "Chạm vào đầu gối xa, không phải gần",
-    "Đứng thẳng rồi gõ nhẹ"
+    "Kéo về phía trước, sau đó knee tap",
+    "Underhook luôn giữ",
+    "Knee tap đầu gối xa, không phải gần",
+    "Đứng thẳng rồi knee tap"
   ],
   "safetySummary": [
-    "Cú chạm đầu gối là một đòn quét có tác động thấp - đối thủ tiếp đất bằng hông chứ không phải đầu hoặc cổ",
-    "Đừng duỗi quá mức đầu gối của bạn bằng cách đặt nó quá xa trên lưng họ",
-    "Nếu đối phương chống lại cú chạm đầu gối bằng cách lùi lại, thay vào đó hãy sẵn sàng vòng sang một chân"
+    "Knee tap là một sweep có tác động thấp - đối thủ tiếp đất bằng hông chứ không phải đầu hoặc cổ",
+    "Đừng duỗi đầu gối của bạn quá mức bằng cách đặt nó quá xa trên lưng họ",
+    "Nếu đối phương chống lại knee tap bằng cách lùi lại, thay vào đó hãy sẵn sàng vòng sang Single Leg"
   ],
   "systemLogic": {
-    "corePrinciple": "Đòn chạm đầu gối khi không chiến là một phần của hệ thống không chiến lớn hơn: Chạm đầu gối → Một chân → Re-Guard",
+    "corePrinciple": "Dogfight knee tap là một phần của hệ thống Dogfight lớn hơn: Knee Tap → Single Leg → Re-Guard",
     "decisionTree": [
       {
-        "condition": "Sử dụng Tùy chọn 1 (Chạm vào đầu gối)",
-        "action": "đẩy đầu gối bên trong của bạn lên thảm và chạm vào mắt cá chân xa của họ. Đòn chạm đầu gối là đòn hạ gục chính của bạn từ vị trí không chiến"
+        "condition": "Sử dụng Tùy chọn 1 (Knee Tap)",
+        "action": "đẩy đầu gối bên trong của bạn lên thảm và knee tap vào mắt cá chân xa của họ. Knee tap là takedown chính của bạn từ Dogfight"
       },
       {
-        "condition": "Sử dụng Phương án 2 (Một chân)",
-        "action": "nếu họ đưa chân xa ra sau để bảo vệ cú chạm đầu gối, hãy chuyển sang chân đơn trên chân trụ. Trọng lượng của họ đã được cam kết với bài viết"
+        "condition": "Sử dụng Phương án 2 (Single Leg)",
+        "action": "nếu họ đưa chân xa ra sau để chống knee tap, hãy chuyển sang Single Leg trên chân trụ. Trọng lượng của họ đã dồn vào post"
       },
       {
-        "condition": "Sử dụng Tùy chọn 3 (Quay lại)",
-        "action": "nếu họ lao vào bạn để phòng thủ, hãy theo đà của họ và lùi lại. Việc quay về phía bạn để lộ tấm lưng của họ"
+        "condition": "Sử dụng Tùy chọn 3 (Go Behind)",
+        "action": "nếu họ lao vào bạn để phòng thủ, hãy theo đà và go-behind. Việc họ quay lưng về phía bạn làm lộ lưng của họ"
       },
       {
         "condition": "Ứng dụng chung",
-        "action": "Vị trí không chiến vốn đã không ổn định, hãy nhanh chóng thực hiện một lựa chọn thay vì tạm dừng"
+        "action": "Dogfight vốn đã không ổn định, hãy vào một lựa chọn thay vì dừng lại"
       }
     ],
     "exitStrategies": []
   },
   "moneyDetails": [
-    "Cú chạm đầu gối trong trận không chiến là đòn quét phổ biến nhất từ ​​Half Guard đáy trong No-Gi, nó hoạt động ở mọi cấp độ",
-    "Việc thành thạo động tác chạm đầu gối trong không chiến mang lại cho bạn con đường đáng tin cậy từ Half Guard đến vị trí hàng đầu",
-    "Chạm đầu gối vào Side Control ghi được 2 điểm (quét) trong IBJJF"
+    "Dogfight knee tap là sweep phổ biến nhất từ Half Guard đáy trong No-Gi, nó hoạt động ở mọi cấp độ",
+    "Thành thạo knee tap trong Dogfight cho bạn con đường đáng tin cậy từ Half Guard lên vị trí dẫn đầu",
+    "Knee tap vào Side Control ghi được 2 điểm (sweep) trong IBJJF"
   ],
   "fixItFast": [
-    "Nếu họ không rơi: kéo mạnh hơn và gõ nhẹ vào đầu gối phía xa một lần nữa",
-    "Nếu họ bước qua: sprawl quay lại và thiết lập lại underhook từ một góc thấp hơn",
+    "Nếu họ không rơi: kéo mạnh hơn và knee tap vào đầu gối xa một lần nữa",
+    "Nếu họ bước qua: sprawl lấy lại vị trí và lập lại underhook từ một góc thấp hơn",
     "Nếu họ ngồi lại: thả underhook và khôi phục về trạng thái trung tính"
   ]
 }

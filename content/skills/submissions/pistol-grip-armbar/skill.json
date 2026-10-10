@@ -1,0 +1,64 @@
+{
+  "id": "pistol-grip-armbar",
+  "domain": "submission_systems",
+  "level": "intermediate",
+  "name": "Pistol Grip Armbar",
+  "aliases": [
+    "pistol grip armlock",
+    "pistol grip 2 on 1 armbar"
+  ],
+  "tags": [
+    "armbar",
+    "grip",
+    "elbow-safety",
+    "tier:modern-expansion",
+    "meta:modern-common",
+    "risk:medium",
+    "family:submission",
+    "modern-no-gi"
+  ],
+  "keywords": [
+    "pistol grip",
+    "armbar",
+    "wrist control",
+    "2 on 1",
+    "arm isolation"
+  ],
+  "relatedSkills": [
+    {
+      "id": "armbar-system",
+      "type": "prerequisite"
+    },
+    {
+      "id": "s-mount-armbar",
+      "type": "chain"
+    },
+    {
+      "id": "mounted-triangle-armbar",
+      "type": "supporting"
+    },
+    {
+      "id": "kimura-system",
+      "type": "supporting"
+    }
+  ],
+  "prerequisiteSkillIds": [
+    "armbar-system"
+  ],
+  "relatedPositions": [],
+  "relatedConcepts": [],
+  "archetypeIds": [
+    "submission-chain-hunter"
+  ],
+  "trainingMethodIds": [],
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "updatedAt": "2026-10-10T00:00:00.000Z"
+}

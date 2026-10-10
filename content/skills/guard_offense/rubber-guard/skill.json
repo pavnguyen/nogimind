@@ -1,0 +1,83 @@
+{
+  "id": "rubber-guard",
+  "domain": "guard_offense",
+  "level": "advanced",
+  "name": "Rubber Guard",
+  "aliases": [
+    "rubber guard system",
+    "mission control",
+    "10th planet guard"
+  ],
+  "tags": [
+    "rubber-guard",
+    "mission-control",
+    "overhook",
+    "high-guard",
+    "neck-safety",
+    "tier:advanced-niche",
+    "meta:specialized",
+    "risk:medium",
+    "family:guard",
+    "modern-no-gi"
+  ],
+  "keywords": [
+    "rubber guard",
+    "mission control",
+    "new york",
+    "chill dog",
+    "high overhook",
+    "closed guard control"
+  ],
+  "relatedSkills": [
+    {
+      "id": "gogoplata",
+      "type": "chain"
+    },
+    {
+      "id": "omoplata-system",
+      "type": "chain"
+    },
+    {
+      "id": "armbar-system",
+      "type": "chain"
+    },
+    {
+      "id": "closed-guard-posture-control",
+      "type": "supporting"
+    },
+    {
+      "id": "clamp-guard-control",
+      "type": "alternative"
+    },
+    {
+      "id": "triangle-system",
+      "type": "alternative"
+    }
+  ],
+  "prerequisiteSkillIds": [
+    "closed-guard-posture-control"
+  ],
+  "relatedPositions": [
+    "closed-guard"
+  ],
+  "relatedConcepts": [
+    "control-before-submission",
+    "hooks",
+    "angle-creation",
+    "dilemma-attacks"
+  ],
+  "archetypeIds": [
+    "submission-chain-hunter"
+  ],
+  "trainingMethodIds": [],
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "updatedAt": "2026-10-10T00:00:00.000Z"
+}

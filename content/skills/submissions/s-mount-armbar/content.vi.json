@@ -4,7 +4,7 @@
   "name": "S Mount Armbar",
   "description": "Kết thúc Armbar từ s-Mount bằng cách sử dụng kẹp vai và nâng cao đường hông, không phải bằng cách ngã về phía sau mà bằng cách duy trì khả năng kiểm soát và nâng hông lên.",
   "shortInstruction": "Cao Mount, cô lập cánh tay, giữ trọng lượng nặng, nâng hông lên để kết thúc, S-Mount Armbar là kiểm soát chứ không phải tuyệt vọng.",
-  "summary": "S-Mount Armbar là tiêu chuẩn vàng của Armbar từ vị trí Mount. Trong s-Mount (một chân ở hông, một đầu gối ở nách, trọng lượng của bạn dồn lên ngực họ), bạn có quyền kiểm soát đặc biệt đối với phần thân trên của họ. Từ đây, việc cô lập một cánh tay và hoàn thành Armbar là về việc duy trì sự thống trị về vị trí thay vì lùi lại phía sau. Điểm khác biệt chính so với Mount Armbar thông thường là bạn kết thúc ở tư thế ngồi bằng cách nâng hông lên thay vì ngã về phía sau.",
+  "summary": "S-Mount Armbar là tiêu chuẩn vàng của Armbar từ vị trí Mount. Trong s-Mount (một chân ở hông, một đầu gối ở nách, trọng lượng của bạn dồn lên ngực họ), bạn có quyền kiểm soát đặc biệt đối với phần thân trên của họ. Từ đây, việc cô lập một cánh tay và hoàn thành Armbar là về việc duy trì sự thống trị về vị trí thay vì ngả người ra sau. Điểm khác biệt chính so với Mount Armbar thông thường là bạn kết thúc ở tư thế ngồi bằng cách nâng hông lên thay vì ngã về phía sau.",
   "whyItWorks": [
     "s-Mount đặt trọng lượng của bạn lên ngực họ - họ không thể bắc cầu hoặc lăn bạn ra.",
     "Bàn chân ở hông của họ tạo cho bạn một trụ vững chắc để ngăn họ biến thành bạn.",
@@ -12,7 +12,7 @@
     "Nguyên tắc Danaher: s-Mount là vị trí ghim mạnh nhất cho Armbars vì nó cô lập hoàn toàn phần thân trên."
   ],
   "commonMistakes": [
-    "Ngả về phía sau để kết thúc thay vì nâng hông - ngã ​​về phía sau giúp họ thoát ra ngoài.",
+    "Ngả về phía sau để kết thúc thay vì nâng hông - ngã về phía sau giúp họ thoát ra ngoài.",
     "Không kiểm soát được cánh tay xa của mình - họ sẽ đứng vững và ngăn chặn cú ngã.",
     "Mất vị trí s-Mount trong quá trình chuyển đổi Armbar, duy trì áp lực cho đến khi bạn về đích.",
     "Để khuỷu tay của họ hạ xuống dưới hông của bạn - khuỷu tay phải ở trên hông của bạn để kết thúc."
@@ -25,7 +25,7 @@
   ],
   "safetySummary": [
     "Áp dụng phần mở rộng Armbar từ từ và có kiểm soát, chấn thương do duỗi quá mức xảy ra nhanh chóng.",
-    "Không tiếp tục gia hạn sau khi nhấn.",
+    "Không tiếp tục gia hạn sau khi họ tap.",
     "Xin lưu ý rằng s-Mount áp lực có thể tác động mạnh lên xương sườn và ngực."
   ],
   "keyCorrections": [
@@ -38,11 +38,11 @@
     "decisionTree": [
       {
         "condition": "Ứng dụng chung",
-        "action": "S-Mount Armbar xích bằng cánh tay Triangle: nếu họ bảo vệ Armbar, hãy chuyển sang cánh tay Triangle từ Mount."
+        "action": "S-Mount Armbar xích bằng Arm Triangle: nếu họ bảo vệ Armbar, hãy chuyển sang Arm Triangle từ Mount."
       },
       {
         "condition": "họ lăn lộn để thoát",
-        "action": "thay vào đó hãy lấy mặt sau."
+        "action": "thay vào đó hãy lấy lưng."
       }
     ]
   },

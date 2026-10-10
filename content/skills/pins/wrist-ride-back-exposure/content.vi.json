@@ -2,14 +2,14 @@
   "id": "wrist-ride-back-exposure",
   "locale": "vi",
   "name": "Wrist Ride to Back Exposure",
-  "description": "Đạp cổ tay kéo cổ tay xa qua đường hông để thu gọn vai và để lộ phần lưng. Cưỡi cổ tay là một công cụ chính xác để bẻ gãy con Tư thế rùa bằng cách tấn công xuyên qua cổ tay.",
-  "shortInstruction": "Từ bên cạnh con Tư thế rùa, nắm lấy cổ tay ở phía xa và kéo nó qua lưng dưới của họ về phía bạn. Ấn ngực của bạn vào vai gần của họ để khiến họ xẹp xuống. Lấy mặt sau khi họ cuộn hoặc làm phẳng.",
-  "summary": "Đòn đánh bằng cổ tay sử dụng một tay nắm đơn (cổ tay ở xa) để làm sập đường vai của đối phương bằng cách kéo cổ tay qua lưng dưới của họ. Khi cổ tay vượt qua đường hông, vai bị đẩy về phía trước và phần đế của đối phương sụp xuống. Việc di chuyển bằng cổ tay đặc biệt hiệu quả vì nó khó phòng thủ - đối thủ không thể dễ dàng ngăn cản bạn kiểm soát cổ tay của họ.",
+  "description": "Đạp cổ tay kéo cổ tay xa qua đường hông để thu gọn vai và để lộ phần lưng. Wrist Ride là một công cụ chính xác để phá Turtle bằng cách tấn công xuyên qua cổ tay.",
+  "shortInstruction": "Từ bên cạnh Turtle, nắm lấy cổ tay ở phía xa và kéo nó qua lưng dưới của họ về phía bạn. Ấn ngực của bạn vào vai gần của họ để khiến họ xẹp xuống. Lấy lưng khi họ cuộn hoặc làm phẳng.",
+  "summary": "Wrist Ride dùng một tay nắm đơn (cổ tay ở xa) để làm sập đường vai của đối phương bằng cách kéo cổ tay qua lưng dưới của họ. Khi cổ tay vượt qua đường hông, vai bị đẩy về phía trước và phần đế của đối phương sụp xuống. Wrist Ride đặc biệt hiệu quả vì nó khó phòng thủ - đối thủ không thể dễ dàng ngăn cản bạn kiểm soát cổ tay của họ.",
   "whyItWorks": [
     "Kéo cổ tay xa qua đường hông sẽ buộc vai xa về phía trước, làm xẹp phần đế của họ",
     "Tay cầm ở cổ tay dễ cố định hơn so với tay cầm bắt chéo vì nó tấn công phần chi bị lộ ra ngoài",
-    "Động tác di chuyển bằng cổ tay để lộ phần lưng một cách tự nhiên khi vai của đối phương hướng về phía trước và hông của họ hạ xuống",
-    "Thao tác đeo cổ tay chuyển trực tiếp sang thao tác đeo chéo cổ tay hoặc còng tay Dagestani khi bạn giành được quyền kiểm soát cổ tay"
+    "Wrist Ride để lộ phần lưng một cách tự nhiên khi vai của đối phương hướng về phía trước và hông của họ hạ xuống",
+    "Wrist Ride chuyển trực tiếp sang Cross-Wrist Ride hoặc Dagestani Handcuff khi bạn giành được quyền kiểm soát cổ tay"
   ],
   "commonMistakes": [
     "Kéo cổ tay về phía ngực của bạn thay vì ngang qua đường hông của họ - cổ tay phải vượt qua cơ thể của họ, không hướng về phía bạn",
@@ -21,7 +21,7 @@
     "Cổ tay xa, kéo ngang hông",
     "Ngực trên vai gần, lái xe",
     "Cổ tay ngang = vai về phía trước",
-    "Điều khiển cổ tay để quay lại"
+    "Điều khiển cổ tay để Back Take"
   ],
   "safetySummary": [
     "Không kéo cổ tay ở một góc bất tiện - kéo ngang hông, không kéo sang một bên",
@@ -31,37 +31,37 @@
   "keyCorrections": [
     "Nếu họ không xẹp xuống: tăng áp lực lên ngực ở vai gần và kéo cổ tay mạnh hơn",
     "Nếu họ thả lỏng cổ tay: hãy nắm lại ngay lập tức hoặc chuyển sang điều khiển gần cổ tay",
-    "Nếu họ lăn về phía bạn: thả cổ tay ra và thu về phía sau"
+    "Nếu họ lăn về phía bạn: thả cổ tay ra và lấy lưng"
   ],
   "systemLogic": {
-    "corePrinciple": "Việc di chuyển cổ tay có ba giai đoạn: Cổ tay an toàn: Thu gọn vai → Quay lại",
+    "corePrinciple": "Wrist Ride có ba giai đoạn: cố định cổ tay → thu gọn vai → lấy lưng",
     "decisionTree": [
       {
         "condition": "Trong Giai đoạn 1 (Cổ tay an toàn)",
-        "action": "từ bên cạnh con Tư thế rùa, vươn tay qua và nắm lấy cổ tay ở phía xa. Sử dụng cách cầm chắc chắn (tay cầm hoặc tay cầm khỉ tùy thuộc vào gi/No-Gi)"
+        "action": "từ bên cạnh Turtle, vươn tay qua và nắm lấy cổ tay ở phía xa. Dùng grip chắc (grip thường hoặc monkey grip, tùy gi/No-Gi)"
       },
       {
         "condition": "Ở Giai đoạn 2 (Thu gọn vai)",
         "action": "kéo cổ tay qua lưng dưới của họ (về phía hông đối diện của họ) đồng thời đẩy ngực của bạn vào vai gần của họ. Các lực tổng hợp làm sập đường vai của họ và thả hông xuống"
       },
       {
-        "condition": "Ở Giai đoạn 3 (Quay lại)",
+        "condition": "Ở Giai đoạn 3 (Back Take)",
         "action": "khi họ ngã sang một bên hoặc hông, hãy thả tay cầm ở cổ tay ra và thay thế bằng seatbelt. Trượt đầu gối gần của bạn vào đường hông của họ và cố định Back Control"
       },
       {
-        "condition": "đi xe bằng cổ tay không thành công",
-        "action": "chuyển sang cưỡi chéo cổ tay (điều khiển cả hai cổ tay) để tăng khả năng kiểm soát"
+        "condition": "Wrist Ride không thành công",
+        "action": "chuyển sang Cross-Wrist Ride (điều khiển cả hai cổ tay) để tăng khả năng kiểm soát"
       }
     ]
   },
   "moneyDetails": [
-    "Đuổi bằng cổ tay là kỹ thuật bẻ Tư thế rùa ít bị cản trở nhất vì cổ tay thường xuyên bị lộ ra ngoài",
-    "Việc thành thạo cách di chuyển bằng cổ tay sẽ giúp bạn có được con đường nhanh chóng, ít tốn sức để đến Back Control từ Tư thế rùa",
-    "Việc di chuyển bằng cổ tay đặc biệt hiệu quả trước những đối thủ mệt mỏi không thể cưỡng lại lực kéo"
+    "Wrist Ride là kỹ thuật phá Turtle ít bị cản trở nhất vì cổ tay thường xuyên bị lộ ra ngoài",
+    "Thành thạo Wrist Ride giúp bạn có con đường nhanh, ít tốn sức đến Back Control từ Turtle",
+    "Wrist Ride đặc biệt hiệu quả trước những đối thủ mệt mỏi không thể cưỡng lại lực kéo"
   ],
   "fixItFast": [
-    "Nếu họ chống lại lực kéo của cổ tay: chuyển sang kiểu đạp nửa lực - kiểu cầm chéo mặt sẽ khó cưỡng lại hơn",
+    "Nếu họ chống lại lực kéo của cổ tay: chuyển sang Power Half Ride - cầm chéo mặt khó cưỡng lại hơn",
     "Nếu họ lăn đi: hãy làm theo và duy trì khả năng kiểm soát cổ tay - không thả ra",
-    "Nếu họ ngồi dậy: thả cổ tay ra và chuyển sang kiểu vuốt ve - cách bám móng vuốt sẽ tốt hơn khi tạo tư thế cho đối thủ"
+    "Nếu họ ngồi dậy: thả cổ tay ra và chuyển sang Claw Ride - móng vuốt tốt hơn khi đối thủ đang tạo tư thế"
   ]
 }

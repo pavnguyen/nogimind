@@ -1,0 +1,75 @@
+{
+  "id": "wiltse-knee-slice",
+  "locale": "en",
+  "name": "Wiltse Knee Slice",
+  "description": "The Wiltse Knee Slice is Andrew Wiltse's explosive version of the knee cut: the hips lead, the knee travels to the mat as fast as possible, and the underhook is captured on the way through to close the scramble that the speed creates.",
+  "shortInstruction": "Hips first, knee to the mat beside the hip, underhook on the way through, pass before the frame arrives.",
+  "summary": "In the Pedigo Submission Fighting (Daisy Fresh) style, Andrew Wiltse's knee slice is not a slow pressure pass. The hips lead and the knee travels through the guard to the mat as fast as possible, so the pass is finished before the guard player can build the frames that make a slow knee cut stall. He keeps one control that the speed would otherwise cost him: the underhook is captured as he passes, which is what stops the movement turning into a scramble. The knee slice stays his main weapon because it chains out of positions he is already in, shin-to-shin, a failed underhook, and the moment the opponent steps in for single leg X, and because it is one gear of a passing system that keeps moving side to side instead of resetting from the top of the guard.",
+  "whyItWorks": [
+    "The hips lead and the knee reaches the mat early, so the far leg and the frames arrive after the pass instead of before it.",
+    "The underhook is collected on the way through, which kills the underhook scramble and the back take that punish a knee slice with no upper-body control.",
+    "It chains out of a failed underhook and out of shin-to-shin, so the pass is a reaction to what the guard player is already doing rather than a new plan.",
+    "It is one gear of a system: moving side to side and chaining passes is what makes the buzzsaw passing style hard to defend, and the explosive knee slice is what makes the chaining possible."
+  ],
+  "commonMistakes": [
+    "Treating it as a slow pressure pass and stopping to pin the upper body, that is a different pass, and it gives the guard player time to re-frame.",
+    "Diving with the shoulder and the head first, the shoulder arrives and the knee never reaches the mat.",
+    "Skipping the underhook because the pass felt fast, the pass looks clean and then you get scrambled on.",
+    "Sliding the knee onto their thigh instead of beside their hip to the mat.",
+    "Stopping once the knee lands, clearing the far leg and settling into the pin is still part of the pass."
+  ],
+  "coachingCues": [
+    "Hips first, shoulder second.",
+    "Knee to the mat, not onto the thigh.",
+    "Take the underhook on the way through, not after.",
+    "Land, clear the far leg, settle, do not admire the pass."
+  ],
+  "safetySummary": [
+    "A knee that drops to the mat beside a partner's knee is a collision risk, drill the slide at controlled speed and never drop your knee onto their knee or ribs.",
+    "When the guard player inverts or a leg is trapped, let the pass go instead of driving your weight through a trapped knee.",
+    "Keep your weight on your own base rather than on your partner's neck or ribs during the landing phase.",
+    "If your partner is much lighter, the pass still has to land under control, speed is not permission to fall on someone."
+  ],
+  "keyCorrections": [
+    "If the pass stalls, your head and shoulder are ahead of your hips, bring the shoulder back and drive the hips through instead.",
+    "If you end up in a scramble, you skipped the underhook or let it go while the knee was still travelling.",
+    "If they re-insert the Knee Shield, the knee landed too high, slide it to the mat beside their hip next time."
+  ],
+  "systemLogic": {
+    "corePrinciple": "Explosive knee slice: the hips lead → the knee slides to the mat beside their hip at speed → the underhook is captured on the way through → clear the far leg and settle into the pin.",
+    "decisionTree": [
+      {
+        "condition": "From shin-to-shin, they are square to you",
+        "action": "clear the shin connection, step toward their far hamstring and slide the knee through before they re-square."
+      },
+      {
+        "condition": "Your underhook attempt fails and they get on your shoulder",
+        "action": "recover the angle and slide the knee inside the elbow you already control instead of restarting from the top."
+      },
+      {
+        "condition": "They step in for single leg X",
+        "action": "slide the knee over the top of the hook before they close the entanglement."
+      },
+      {
+        "condition": "They build the Knee Shield late",
+        "action": "you are already past the hip line, switch to the headquarters pressure passes rather than restarting the knee cut."
+      }
+    ],
+    "exitStrategies": [
+      "If the pass turns into a scramble, use your scramble controls and mat return instead of fighting for the pass.",
+      "If the leg entanglement closes on you, stop passing and switch to leg lock safety before anything else."
+    ]
+  },
+  "moneyDetails": [
+    "The knee leads: your hips travel toward the mat on their side while your shoulder stays back.",
+    "The underhook is taken early and held until you are past the knee line.",
+    "Your free hand kills their far leg, that is the leg that comes back to re-insert the Knee Shield.",
+    "The pass finishes on the mat beside their hip, if the knee lands on their thigh they can still bump and re-frame."
+  ],
+  "nextStep": "After the Wiltse knee slice, connect it to the headquarters pressure passes and the bodylock.",
+  "fixItFast": [
+    "Pass stalling? Put the hips in front of the shoulder and slide again.",
+    "Getting scrambled on? You let the underhook go, re-take it before the knee lands.",
+    "Knee shield coming back? The knee landed too high, restart the slide beside the hip."
+  ]
+}

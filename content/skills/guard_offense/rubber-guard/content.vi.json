@@ -1,0 +1,88 @@
+{
+  "id": "rubber-guard",
+  "locale": "vi",
+  "name": "Rubber Guard",
+  "description": "Rubber Guard là hệ thống kiểm soát từ Closed Guard trong no-gi, xây trên một overhook cao. Bạn kẹp tay họ vào ngực, bẻ posture để đầu họ xuống dưới ngực bạn, rồi đưa chân mình vòng qua lưng họ để giữ thế gập đó trong khi tấn công liên hoàn. Được phổ biến bởi Eddie Bravo và 10th Planet Jiu-Jitsu, hệ thống này thay thế các grip của gi bằng chính tay và chân của bạn.",
+  "shortInstruction": "Từ Closed Guard, overhook một tay và kẹp vào ngực, kéo đầu họ xuống dưới ngực bạn, rồi đưa ống chân qua lưng họ và tấn công cổ, vai, tay theo thứ tự phòng thủ của họ mở ra.",
+  "summary": "Rubber Guard lấy đi khả năng posture của đối thủ trong Closed Guard. Vì no-gi không có grip, thế kiểm soát đến từ overhook cao ở một tay và chân bạn vòng qua lưng họ. Từ thế cơ bản (Mission Control), hệ thống đi lên: ống chân leo cao hơn lên vai họ, tay bạn luồn lại khi họ phòng thủ, và cổ, vai, khuỷu rồi đường cổ-vai bị tấn công lần lượt (Gogoplata, Omoplata, Armbar, Triangle). Đây là công cụ giữ posture chứ không phải bài kiểm tra độ dẻo: khi đầu họ đã ở dưới ngực bạn và tay họ bị kẹp, việc kiểm soát bằng chân trở nên nhẹ nhàng.",
+  "whyItWorks": [
+    "Overhook cao thay thế grip mà no-gi không có, tay họ bị ghim vào sườn bạn nên không thể frame hoặc posture",
+    "Kẹp đầu họ xuống dưới ngực bạn khiến họ không thể đứng lên và stack bạn, đó là thứ giữ Guard khép và mở đường tấn công",
+    "Ống chân bạn ngang lưng họ là bức tường chống đỡ: nó giữ thế gập trong khi cả hai tay bạn rảnh để tấn công",
+    "Các thế tạo dilemma: phòng thủ cổ thì vai xoay vào cho Omoplata, kéo tay ra thì mở Armbar hoặc Triangle",
+    "Mọi thứ diễn ra sau khi bẻ posture, nên bạn không phải đấu với cấu trúc của họ bằng sức tay"
+  ],
+  "commonMistakes": [
+    "Đưa chân lên trước khi bẻ posture, đầu họ còn cao thì ống chân tuột khỏi lưng và bạn mất sức vô ích",
+    "Overhook lỏng, tay họ không bị kẹp vào sườn bạn thì họ rút ra và stack bạn",
+    "Ngả người ra sau trong khi giữ chân thay vì kéo đầu họ vào ngực, chính thế gập mới giữ được vị trí",
+    "Coi hệ thống này là bài kiểm tra độ dẻo, độ mở hông và gân kheo giúp ích, nhưng posture và tay bị kẹp mới làm nên vị trí",
+    "Đuổi theo Gogoplata khi kiểm soát còn lỏng, ống chân trên cằm là neck crank, không phải choke",
+    "Giữ Rubber Guard khi đã mất thế, nếu posture họ đã lên và tay đã rời, hãy phục hồi Closed Guard hoặc open guard thay vì cố giành lại overhook"
+  ],
+  "coachingCues": [
+    "Kẹp tay, kéo đầu xuống, rồi mới đưa chân lên",
+    "Đầu họ luôn ở dưới ngực bạn",
+    "Đưa ống chân lên bằng hông, đừng với bằng gối",
+    "Tay rời ra thì luồn lại trước khi tấn công",
+    "Tấn công cổ không ăn, vai đang mở"
+  ],
+  "safetySummary": [
+    "Chỉ tập Gogoplata và mọi áp lực lên cổ với người biết tap sớm, ống chân trên cằm hoặc cột sống cổ là crank, không phải choke",
+    "Khởi động hông và gân kheo trước khi tập các thế chân cao, lực dồn lên hông và gối của chính bạn",
+    "Xoay Omoplata chậm và thả ngay khi họ tap, vai bị tách chính là phần dễ chấn thương",
+    "Không ép một thế chân đã bị khóa, nếu gối hoặc hông bạn đau, hạ chân xuống và làm lại thế kiểm soát"
+  ],
+  "keyCorrections": [
+    "Nếu posture họ lên lại: kẹp đầu còn lỏng, hãy kéo đầu họ vào ngực trước khi đưa chân lên lần nữa",
+    "Nếu tay tuột khỏi overhook: kẹp khuỷu vào sườn và móc lại trước khi tấn công",
+    "Nếu ống chân tuột khỏi lưng họ: bạn đang ngả người ra, hãy ngồi lên và ép ngực vào đầu họ",
+    "Nếu họ stack bạn: nâng hông lên và shrimp về phía tay bị kẹp, rồi bẻ lại posture",
+    "Nếu đòn cổ có cảm giác như crank: ống chân đang trên cằm, đổi góc hoặc bỏ nó để lấy Omoplata"
+  ],
+  "systemLogic": {
+    "corePrinciple": "Rubber Guard: overhook cao → kẹp đầu họ xuống dưới ngực bạn → ống chân leo qua lưng họ (Mission Control) → đưa chân cao hơn lên vai họ → luồn tay lại khi họ phòng thủ → cổ (Gogoplata), vai (Omoplata), khuỷu (Armbar) và đường cổ-vai (Triangle) bị tấn công theo thứ tự phòng thủ của họ mở ra.",
+    "decisionTree": [
+      {
+        "condition": "Họ giữ posture và kéo đầu ra sau",
+        "action": "kẹp overhook chặt hơn, kéo đầu họ xuống dưới ngực rồi mới đưa ống chân lên"
+      },
+      {
+        "condition": "Họ rút tay khỏi overhook",
+        "action": "luồn tay lại vào thế kẹp, hoặc móc lại với khuỷu sát sườn"
+      },
+      {
+        "condition": "Họ giấu cổ và xoay vai vào",
+        "action": "chuyển sang Omoplata ở vai họ vừa xoay vào"
+      },
+      {
+        "condition": "Họ kéo tay bị kẹp về và quay người đi",
+        "action": "vào Armbar hoặc Triangle"
+      },
+      {
+        "condition": "Họ stack và đẩy tới",
+        "action": "shrimp về phía tay bị kẹp, nâng hông lên, bẻ lại posture hoặc mở Guard và phục hồi"
+      }
+    ],
+    "exitStrategies": [
+      "Nếu mất thế gập posture, rời Rubber Guard và phục hồi Closed Guard hoặc open guard thay vì cố giành overhook",
+      "Nếu mất chân nhưng còn overhook, bẻ posture lại trước, đừng đuổi theo vị trí",
+      "Nếu hông mỏi, dùng thế kiểm soát đang có để sweep hoặc đứng lên thay vì leo cao hơn"
+    ]
+  },
+  "moneyDetails": [
+    "Tay overhook: tay họ bị kẹp vào sườn bạn, khuỷu bạn sát thân, không đưa ra trước mặt",
+    "Kiểm soát đầu: ngực bạn áp lên đầu họ, tai họ hướng về xương ức bạn, để cổ họ luôn gập",
+    "Kiểm soát chân: ống chân bạn qua lưng họ theo đường chéo, gối gần vai họ, bàn chân móc bên xa",
+    "Leo bằng hông, không bằng gối, một chút xoay hông đưa ống chân lên cao hơn trên lưng họ",
+    "Khi tấn công cổ, xoay hông ra để ống chân qua cổ họng chứ không qua cằm"
+  ],
+  "nextStep": "Sau Rubber Guard, học Gogoplata và Omoplata System cho phần kết thúc, và Truck cùng Twister cho các thế lấy lưng mở ra khi họ quay người đi.",
+  "fixItFast": [
+    "Posture họ cứ lên lại? Kẹp lại overhook vào sườn và kéo đầu họ xuống trước khi đưa chân lên",
+    "Chân cứ tuột khỏi lưng họ? Ngồi lên vào họ, ngả người ra chính là lúc mất ống chân",
+    "Họ cứ thoát tay? Overhook còn quá nông, đưa khuỷu xuống dưới tricep của họ và ôm tay vào ngực",
+    "Bị stack? Nâng hông lên và shrimp về phía tay bị kẹp, rồi thiết lập lại overhook",
+    "Đòn cổ chuyển thành crank? Chuyển sang Omoplata, thế phòng thủ bảo vệ cổ lại mở vai ra"
+  ]
+}

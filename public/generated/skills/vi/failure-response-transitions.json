@@ -81,7 +81,7 @@
     "Rút lui có cấu trúc, không hoảng loạn"
   ],
   "safetySummary": [
-    "Đừng ép buộc một kỹ thuật thất bại - lặp lại nỗ lực phục tùng được bảo vệ tốt sẽ làm tăng nguy cơ chấn thương cho cả hai đối tác",
+    "Đừng ép buộc một kỹ thuật thất bại - lặp lại nỗ lực submission được bảo vệ tốt sẽ làm tăng nguy cơ chấn thương cho cả hai đối tác",
     "Khi rút lui sau một đòn tấn công thất bại, hãy bảo vệ cổ và tay chân của bạn - đối thủ sẽ phản công khi bạn rút lui",
     "Nếu bạn cảm thấy áp lực ở khớp khi thực hiện thất bại, hãy thả ra ngay lập tức và đặt lại thay vì chiến đấu sai góc độ"
   ],
@@ -90,15 +90,15 @@
     "decisionTree": [
       {
         "condition": "Ở cấp độ 1 (Góc)",
-        "action": "dịch chuyển cơ thể của bạn 10-30 độ so với đối thủ. Hầu hết các lần phục tùng và quét đều thất bại vì lệch 5 độ chứ không phải do đối thủ “quá mạnh”. Điều chỉnh góc độ phổ biến: di chuyển hông sang trái/phải, nâng/hạ vị trí đầu, xoay vai"
+        "action": "dịch chuyển cơ thể của bạn 10-30 độ so với đối thủ. Hầu hết các lần submission và sweep đều thất bại vì lệch 5 độ chứ không phải do đối thủ “quá mạnh”. Điều chỉnh góc độ phổ biến: di chuyển hông sang trái/phải, nâng/hạ vị trí đầu, xoay vai"
       },
       {
         "condition": "Ở cấp độ 2 (Grip)",
         "action": "thay đổi kiểu hoặc vị trí cầm vợt của bạn mà không thay đổi kỹ thuật. Ví dụ: cách cầm nông đến cách cầm sâu, điều khiển từ trên tay đến dưới tay, kiểm soát cổ tay đến kiểm soát khuỷu tay. Thay đổi độ bám làm thay đổi vectơ đòn bẩy"
       },
       {
-        "condition": "Ở cấp độ 3 (Chức vụ)",
-        "action": "di chuyển đến một vị trí khác trong khi vẫn giữ nguyên chủ đề tấn công. Ví dụ: nếu Triangle không thành công từ Closed Guard, hãy chuyển đến Armbar từ cùng mục nhập Guard. Nếu một chân không thành công thì chuyển sang khóa thân. Thay đổi vị trí duy trì công việc bạn đã làm để phá vỡ cấu trúc của họ"
+        "condition": "Ở cấp độ 3 (Position)",
+        "action": "di chuyển đến một vị trí khác trong khi vẫn giữ nguyên chủ đề tấn công. Ví dụ: nếu Triangle không thành công từ Closed Guard, hãy chuyển đến Armbar từ cùng mục nhập Guard. Nếu Single Leg không thành công thì chuyển sang Bodylock. Thay đổi vị trí duy trì công việc bạn đã làm để phá vỡ cấu trúc của họ"
       },
       {
         "condition": "Ở cấp độ 4 (Rút lui)",

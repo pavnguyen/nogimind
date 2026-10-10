@@ -61,14 +61,14 @@
     "hasStateMachine": false
   },
   "locale": "fr",
-  "description": "Utilisez la coupe du genou avec crossface et underhook ou un pas long pour battre le knee shield. La coupe du genou est le pourcentage de réussite de Guard le plus élevé en No-Gi BJJ.",
-  "shortInstruction": "Depuis le quartier général, déposez votre genou posté sur le tapis, entourez-le devant leur knee shield, épinglez-leur la tête avec un crossface et conduisez jusqu'à Side Control.",
-  "summary": "La passe coupée au genou attaque l'espace entre la hanche de l'adversaire et sa jambe proche alors qu'il se défend avec un knee shield ou Half Guard. La passe fonctionne en : (1) épinglant leur tête avec un crossface pour les empêcher de se transformer en vous, (2) en poussant votre genou le plus proche au-delà de leur knee shield dans l'espace au niveau de leur hanche, (3) en étendant votre jambe pour épingler leur hanche la plus proche et (4) en vous installant dans Side Control. La coupe du genou est la solution idéale pour la plupart des situations No-Gi, car elle maintient une pression maximale tout au long et nécessite un minimum d'espace.",
+  "description": "Utilisez la coupe du genou avec crossface et underhook ou un pas long pour battre le Knee Shield. La coupe du genou est le pourcentage de réussite de Guard le plus élevé en No-Gi BJJ.",
+  "shortInstruction": "Depuis le quartier général, déposez votre genou posté sur le tapis, entourez-le devant leur Knee Shield, épinglez-leur la tête avec un crossface et conduisez jusqu'à Side Control.",
+  "summary": "La passe coupée au genou attaque l'espace entre la hanche de l'adversaire et sa jambe proche alors qu'il se défend avec un Knee Shield ou Half Guard. La passe fonctionne en : (1) épinglant leur tête avec un crossface pour les empêcher de se transformer en vous, (2) en poussant votre genou le plus proche au-delà de leur Knee Shield dans l'espace au niveau de leur hanche, (3) en étendant votre jambe pour épingler leur hanche la plus proche et (4) en vous installant dans Side Control. La coupe du genou est la solution idéale pour la plupart des situations No-Gi, car elle maintient une pression maximale tout au long et nécessite un minimum d'espace.",
   "whyItWorks": [
     "Le crossface empêche l'adversaire de détourner le regard - là où va la tête, le corps suit",
-    "Faire passer le genou au-delà du knee shield attaque le point structurel le plus faible de leur Guard : la hanche",
+    "Faire passer le genou au-delà du Knee Shield attaque le point structurel le plus faible de leur Guard : la hanche",
     "La coupe du genou maintient la pression de poitrine à poitrine tout au long de la passe, les empêchant de re-guarding",
-    "La coupe du genou fonctionne contre tous les types Guard (Half Guard, moitié profonde, Z-Guard, knee shield)"
+    "La coupe du genou fonctionne contre tous les types Guard (Half Guard, moitié profonde, Z-Guard, Knee Shield)"
   ],
   "commonMistakes": [
     "Couper le genou sans le crossface, le crossface est ce qui empêche leur fuite, pas la position du genou",
@@ -96,7 +96,7 @@
       },
       {
         "condition": "En phase 2 (entrée au genou)",
-        "action": "déposez votre genou posté de sa hanche et dépassez son knee shield. Le genou doit glisser au niveau de la hanche et non au-dessus."
+        "action": "déposez votre genou posté de sa hanche et dépassez son Knee Shield. Le genou doit glisser au niveau de la hanche et non au-dessus."
       },
       {
         "condition": "En phase 3 (prolongation)",

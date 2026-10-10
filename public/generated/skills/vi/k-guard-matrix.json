@@ -3,7 +3,7 @@
   "domain": "guard_offense",
   "level": "advanced",
   "status": "draft",
-  "name": "K Guard tới Ma trận",
+  "name": "K-Guard to Matrix",
   "aliases": [],
   "tags": [
     "k-Guard",
@@ -51,9 +51,9 @@
   "nextSkillIds": [],
   "searchBoost": 1,
   "keyCorrections": [
-    "Nếu họ không tuân theo ma trận, bạn sẽ mất đà - duy trì tốc độ trong suốt quá trình quay.",
-    "Nếu bạn không thể lùi lại thì góc của bạn đã sai - hãy đưa hông của bạn lại gần hông của họ trước khi xoay.",
-    "Nếu họ san bằng bạn trong ma trận, bạn đã không cam kết hoàn toàn - hãy cố gắng hơn nữa hoặc rút lui."
+    "Nếu họ không theo Matrix, bạn sẽ mất đà - duy trì tốc độ trong suốt quá trình quay.",
+    "Nếu bạn không thể Backstep thì góc của bạn đã sai - hãy đưa hông của bạn lại gần hông của họ trước khi xoay.",
+    "Nếu họ san bằng bạn trong Matrix, bạn đã không cam kết hoàn toàn - hãy cố gắng hơn nữa hoặc rút lui."
   ],
   "version": 1,
   "updatedAt": "2026-05-21T00:24:30.778Z",
@@ -67,38 +67,38 @@
     "hasStateMachine": false
   },
   "locale": "vi",
-  "description": "Chuyển đổi từ K-Guard sang ma trận (đảo ngược dưới hông) để tạo góc nghiêng về phía sau cho động tác lùi, kéo chân ngược hoặc kết thúc vướng chân.",
-  "shortInstruction": "K-Guard thành ma trận: xoay hông qua, móc hông ở xa và đưa ra phía sau.",
-  "summary": "Quá trình chuyển đổi K-Guard sang ma trận là mục nhập mặt sau mạnh mẽ nhất trong No-Gi hiện đại. Khi bạn ở tư thế K-Guard và họ bảo vệ tình trạng vướng chân bằng cách lùi lại hoặc đăng, bạn xoay hông qua vai của chính mình và 'ma trận' dưới hông họ, đảo ngược góc của bạn từ dưới họ về phía sau họ. Từ ma trận, bạn có thể lùi lại, thực hiện động tác kéo chân ngược hoặc hoàn thành Heel Hook từ phía sau.",
+  "description": "Chuyển đổi từ K-Guard sang Matrix (đảo ngược dưới hông) để tạo góc phía sau cho Backstep, Leg Drag ngược hoặc kết thúc leg entanglement.",
+  "shortInstruction": "K-Guard thành Matrix: xoay hông qua, móc hông ở xa và đưa ra phía sau.",
+  "summary": "Quá trình chuyển đổi K-Guard sang Matrix là entry Back Take mạnh mẽ nhất trong No-Gi hiện đại. Khi bạn ở tư thế K-Guard và họ bảo vệ tình trạng vướng chân bằng cách lùi lại hoặc đăng, bạn xoay hông qua vai của chính mình và 'matrix' dưới hông họ, đảo ngược góc của bạn từ dưới họ về phía sau họ. Từ Matrix, bạn có thể Backstep, thực hiện Leg Drag ngược hoặc hoàn thành Heel Hook từ phía sau.",
   "whyItWorks": [
-    "Ma trận đảo ngược mối quan hệ bên trong/bên ngoài - bạn đi từ bên dưới sang đứng sau họ.",
-    "Nó biến sự phòng thủ của họ (lùi lại) thành hành vi tấn công của bạn (rút lui).",
-    "Ma trận không yêu cầu sức mạnh - đó là chuyển động xoay hông và thay đổi góc.",
-    "Nguyên tắc Danaher: ma trận giải quyết vấn đề đối thủ bước ra khỏi K-Guard."
+    "Matrix đảo ngược mối quan hệ bên trong/bên ngoài - bạn đi từ bên dưới sang đứng sau họ.",
+    "Nó biến sự phòng thủ của họ (lùi lại) thành đòn tấn công của bạn (Backstep).",
+    "Matrix không yêu cầu sức mạnh - đó là chuyển động xoay hông và thay đổi góc.",
+    "Nguyên tắc Danaher: Matrix giải quyết vấn đề đối thủ bước ra khỏi K-Guard."
   ],
   "commonMistakes": [
-    "Cố gắng ma trận mà không kiểm soát cánh tay xa của họ - họ sẽ quay tròn và đối mặt với bạn.",
+    "Cố gắng vào Matrix mà không kiểm soát cánh tay xa của họ - họ sẽ quay tròn và đối mặt với bạn.",
     "Xoay qua đầu thay vì vai - điều này có thể làm bạn bị thương ở cổ.",
-    "Dừng lại ở ma trận thay vì đi đến phần cuối - ma trận mang tính chất chuyển tiếp, không phải cuối cùng.",
-    "Mất sự vướng víu ở chân trong quá trình chuyển đổi ma trận."
+    "Dừng lại ở Matrix thay vì đi đến phần cuối - Matrix mang tính chuyển tiếp, không phải đích cuối.",
+    "Mất leg entanglement trong quá trình chuyển sang Matrix."
   ],
   "coachingCues": [
     "Xoay qua vai chứ không phải đầu.",
-    "Kiểm soát cánh tay, móc hông, đi phía sau.",
+    "Kiểm soát cánh tay, móc hông, Go Behind.",
     "Nếu họ lùi lại, hãy tiến về phía trước.",
-    "Ma trận là đường hầm - quay lại là đích đến."
+    "Matrix là đường hầm - Back Take là đích đến."
   ],
   "safetySummary": [
     "Không xoay qua đỉnh đầu - luôn xoay qua vai để bảo vệ cổ và cột sống.",
-    "Khi vào ma trận, hãy giữ cho đôi chân của bạn hoạt động để tránh căng thẳng đầu gối.",
+    "Khi vào Matrix, hãy giữ cho đôi chân của bạn hoạt động để tránh căng thẳng đầu gối.",
     "Nếu bạn cảm thấy áp lực lên lưng dưới trong quá trình xoay, hãy thoát ra và đặt lại."
   ],
   "systemLogic": {
-    "corePrinciple": "K-Guard đã thiết lập: đối thủ lùi lại hoặc trụ → xoay hông qua vai → móc hông xa → lùi lại hoặc thực hiện kéo chân ngược.",
+    "corePrinciple": "K-Guard đã thiết lập: đối thủ lùi lại hoặc trụ → xoay hông qua vai → móc hông xa → Backstep hoặc Leg Drag ngược.",
     "decisionTree": [
       {
         "condition": "Ứng dụng chung",
-        "action": "Ma trận hoạt động vì K-Guard đã có bạn ở trung tâm, phép quay chỉ đảo ngược góc."
+        "action": "Matrix hoạt động vì K-Guard đã có bạn ở trung tâm, phép quay chỉ đảo ngược góc."
       },
       {
         "condition": "họ không lùi bước",
@@ -111,12 +111,12 @@
     "Xoay qua vai chứ không phải đầu - đặt đầu sang một bên khi bạn lăn.",
     "Móc hông xa của họ bằng chân trên của bạn khi bạn xoay - điều này ngăn họ theo dõi bạn.",
     "Kiểm soát cánh tay gần của họ trong suốt quá trình xoay để ngăn họ lột xác bạn.",
-    "Khi bạn đến ma trận, ngay lập tức tìm kiếm điểm quay lại - đừng tạm dừng."
+    "Khi bạn vào Matrix, ngay lập tức tìm Back Take - đừng tạm dừng."
   ],
-  "nextStep": "Sau ma trận, hãy tìm hiểu động tác lùi từ K-Guard và mục nhập kéo chân ngược.",
+  "nextStep": "Sau Matrix, hãy tìm hiểu Backstep từ K-Guard và entry Leg Drag ngược.",
   "fixItFast": [
-    "Ma trận có vẻ rắc rối? Thực hành động tác xoay hông trên mặt đất mà không có đối tác - qua vai chứ không phải qua đầu.",
-    "Không thể lấy lại? Bạn chưa móc hông xa - hãy thiết lập lại móc hông trước khi tiến lên.",
-    "Họ theo bạn qua ma trận? Khả năng kiểm soát cánh tay của bạn yếu - hãy nắm chặt cơ tam đầu hoặc tay áo của họ chặt hơn."
+    "Matrix có vẻ rắc rối? Thực hành động tác xoay hông trên mặt đất mà không có đối tác - qua vai chứ không phải qua đầu.",
+    "Không thể Back Take? Bạn chưa móc hông xa - hãy thiết lập lại móc hông trước khi tiến lên.",
+    "Họ theo bạn qua Matrix? Khả năng kiểm soát cánh tay của bạn yếu - hãy nắm chặt cơ tam đầu hoặc tay áo của họ chặt hơn."
   ]
 }

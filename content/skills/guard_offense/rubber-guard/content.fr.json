@@ -1,0 +1,88 @@
+{
+  "id": "rubber-guard",
+  "locale": "fr",
+  "name": "Rubber Guard",
+  "description": "Le Rubber Guard est un système de contrôle en Closed Guard no-gi bâti sur un overhook haut. Vous plaquez leur bras contre votre poitrine, vous cassez leur posture pour que leur tête passe sous votre poitrine, puis vous montez votre propre jambe dans leur dos pour tenir cette posture cassée pendant que vous enchaînez les attaques. Popularisé par Eddie Bravo et le 10th Planet Jiu-Jitsu, il remplace les grips du gi par le contrôle de votre bras et de votre jambe.",
+  "shortInstruction": "Depuis la Closed Guard, prenez l'overhook sur un bras et plaquez-le contre votre poitrine, tirez leur tête sous votre poitrine, puis montez le tibia dans leur dos et attaquez le cou, l'épaule et le bras dans l'ordre où leur défense s'ouvre.",
+  "summary": "Le Rubber Guard fonctionne en supprimant la capacité de l'adversaire à se redresser dans votre Closed Guard. Sans grips de gi, le contrôle vient d'un overhook haut sur un bras plus de votre propre jambe dans leur dos. Depuis le contrôle de base (Mission Control) le système monte : le tibia grimpe plus haut sur leur épaule, votre bras se dégage quand ils défendent le verrouillage, et le cou, l'épaule, le coude et la ligne cou-épaule sont attaqués en séquence (Gogoplata, Omoplata, Armbar, Triangle). Les positions servent à tenir la posture cassée, ce ne sont pas des figures de souplesse : dès que leur tête est sous votre poitrine et leur bras verrouillé, le contrôle de jambe devient facile.",
+  "whyItWorks": [
+    "Un overhook haut remplace les grips que le no-gi supprime, leur bras est cloué contre vos côtes et ne peut plus faire de frame ni se redresser",
+    "Verrouiller leur tête sous votre poitrine les empêche de se relever et de vous stacker, c'est ce qui garde la garde fermée et les attaques disponibles",
+    "Votre propre tibia en travers de leur dos fait office de mur de soutien : il tient la posture cassée pendant que vos deux mains restent libres pour attaquer",
+    "Les positions forment un dilemme : défendre le cou tourne l'épaule vers l'intérieur pour l'Omoplata, sortir le bras piégé ouvre l'Armbar ou le Triangle",
+    "Tout se joue après la casse de posture, vous ne combattez donc pas leur structure avec vos seuls bras"
+  ],
+  "commonMistakes": [
+    "Monter la jambe avant de casser la posture, si leur tête est encore haute le tibia glisse de leur dos et vous dépensez de l'énergie pour rien",
+    "Un overhook lâche, si leur bras n'est pas plaqué contre vos côtes ils le sortent et vous stackent",
+    "Se pencher en arrière avec le contrôle de jambe au lieu de tirer leur tête vers votre poitrine, c'est la casse de posture qui tient la position",
+    "Traiter le système comme un test de souplesse, la mobilité de hanches et d'ischio-jambiers aide, mais c'est la posture cassée plus le bras verrouillé qui font tenir la position",
+    "Chercher le Gogoplata avant que le contrôle soit serré, un tibia sur la mâchoire est un crank du cou, pas un étranglement",
+    "Garder le Rubber Guard alors qu'il est déjà perdu, si leur posture est haute et le bras libre, récupérez la Closed Guard ou une garde ouverte au lieu de vous battre pour l'overhook"
+  ],
+  "coachingCues": [
+    "Bras verrouillé, tête basse, ensuite la jambe monte",
+    "Leur tête sous votre poitrine, toujours",
+    "Montez le tibia avec les hanches, ne tirez pas avec le genou",
+    "Si le bras se libère, ramenez-le dans le verrouillage avant d'attaquer",
+    "L'attaque du cou échoue, l'épaule est ouverte"
+  ],
+  "safetySummary": [
+    "Travaillez le Gogoplata et toute pression sur le cou uniquement avec un partenaire qui tape tôt, un tibia sur la mâchoire ou la colonne est un crank, pas un étranglement",
+    "Échauffez hanches et ischio-jambiers avant de driller les positions de jambe hautes, la charge porte sur votre propre hanche et votre genou",
+    "Appliquez la rotation de l'Omoplata lentement et relâchez à la tape, c'est l'épaule isolée qui est exposée",
+    "Ne forcez jamais une position de jambe verrouillée, si votre genou ou votre hanche proteste, descendez la jambe et reconstruisez le contrôle"
+  ],
+  "keyCorrections": [
+    "Si leur posture remonte : votre verrouillage de tête est lâche, ramenez leur tête contre votre poitrine avant de remonter la jambe",
+    "Si le bras sort de l'overhook : plaquez votre coude contre vos côtes et reprenez l'accroche avant d'attaquer",
+    "Si le tibia glisse de leur dos : vous vous penchez en arrière, redressez-vous et poussez votre poitrine dans leur tête",
+    "S'ils vous stackent : montez vos hanches et shrimp du côté du bras piégé, puis cassez la posture à nouveau",
+    "Si l'attaque du cou ressemble à un crank : votre tibia est sur la mâchoire, changez l'angle ou abandonnez-la pour l'Omoplata"
+  ],
+  "systemLogic": {
+    "corePrinciple": "Rubber Guard : overhook haut → leur tête verrouillée sous votre poitrine → votre tibia monte en travers de leur dos (Mission Control) → la jambe grimpe plus haut sur leur épaule → le bras revient dans l'accroche quand ils défendent → le cou (Gogoplata), l'épaule (Omoplata), le coude (Armbar) et la ligne cou-épaule (Triangle) sont attaqués dans l'ordre où leur défense s'ouvre.",
+    "decisionTree": [
+      {
+        "condition": "Ils restent droits et tirent leur tête en arrière",
+        "action": "serrez l'overhook, tirez leur tête sous votre poitrine, puis montez le tibia"
+      },
+      {
+        "condition": "Ils sortent le bras de l'overhook",
+        "action": "ramenez le bras dans le verrouillage, ou reprenez l'accroche avec votre coude serré contre vos côtes"
+      },
+      {
+        "condition": "Ils cachent le cou et tournent l'épaule vers l'intérieur",
+        "action": "passez à l'Omoplata sur l'épaule qu'ils viennent de tourner"
+      },
+      {
+        "condition": "Ils retirent le bras piégé et se tournent",
+        "action": "prenez l'Armbar ou le Triangle"
+      },
+      {
+        "condition": "Ils stackent et poussent vers l'avant",
+        "action": "shrimp du côté du bras piégé, montez vos hanches, cassez la posture à nouveau ou ouvrez la garde et récupérez"
+      }
+    ],
+    "exitStrategies": [
+      "Si la casse de posture est perdue, quittez le Rubber Guard et récupérez la Closed Guard ou une garde ouverte au lieu de vous battre pour l'overhook",
+      "Si le contrôle de jambe est perdu mais que l'overhook tient encore, cassez la posture d'abord, ne courez pas après les positions",
+      "Si vos hanches sont fatiguées, utilisez le contrôle que vous avez déjà pour sweeper ou vous relever au lieu de monter plus haut"
+    ]
+  },
+  "moneyDetails": [
+    "Bras en overhook : leur bras est plaqué contre vos côtes, votre coude serré contre votre flanc, pas tenu devant vous",
+    "Contrôle de la tête : votre poitrine est sur leur tête, leur oreille vers votre sternum, pour que leur cou reste plié",
+    "Contrôle de jambe : votre tibia traverse leur dos en diagonale, genou près de leur épaule, pied accroché à leur côté éloigné",
+    "Montez avec les hanches, pas avec le genou, une petite rotation de hanche fait grimper le tibia plus haut dans leur dos",
+    "Quand vous attaquez le cou, tournez les hanches de l'autre côté pour que le tibia traverse la gorge et non la mâchoire"
+  ],
+  "nextStep": "Après le Rubber Guard, étudiez le Gogoplata et l'Omoplata System pour les finitions, ainsi que le Truck et le Twister pour les prises de dos qui s'ouvrent quand ils se tournent.",
+  "fixItFast": [
+    "Leur posture remonte sans arrêt ? Reprenez l'overhook contre vos côtes et tirez leur tête vers le bas avant de remonter",
+    "La jambe glisse toujours de leur dos ? Redressez-vous contre eux, c'est en vous penchant en arrière que vous perdez le tibia",
+    "Ils libèrent le bras sans arrêt ? Votre overhook est trop superficiel, passez le coude sous leur triceps et plaquez le bras contre votre poitrine",
+    "Vous vous faites stacker ? Montez vos hanches et shrimp du côté du bras piégé, puis reconstruisez l'overhook",
+    "L'attaque du cou se transforme en crank ? Prenez l'Omoplata à la place, la défense qui protège le cou ouvre l'épaule"
+  ]
+}

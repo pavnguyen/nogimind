@@ -1,35 +1,35 @@
 {
   "id": "reverse-buggy-choke",
   "locale": "vi",
-  "name": "Ngược lại Buggy Choke",
-  "description": "Đòn tấn công từ dưới lên Side Control trong đó bạn quấn chân quanh cổ và cánh tay của đối phương, một đòn tấn công có tỷ lệ phần trăm thấp hơn và không nên thay thế các khung cơ bản và thoát hông.",
-  "shortInstruction": "Quấn chân quanh cổ và cánh tay của họ, siết chặt - xe đẩy ngược là một cuộc tấn công tuyệt vọng từ phía dưới Side Control.",
-  "summary": "Cuộn cảm lỗi ngược là một biến thể của cuộn cảm lỗi từ phía dưới Side Control. Điểm khác biệt chính là vị trí đặt chân - ở xe buggy lùi, chân bạn quấn quanh cổ họ và một tay ở phía đối diện. Giống như đòn Buggy Choke tiêu chuẩn, đây là một cuộc tấn công bất ngờ hơn là một chiến lược chính. Nó hoạt động hiệu quả nhất khi chống lại những đối thủ gây áp lực mạnh bằng crossface, để cổ của họ lộ ra ở phía bên kia.",
+  "name": "Reverse Buggy Choke",
+  "description": "Đòn tấn công từ dưới Side Control, trong đó bạn quấn chân quanh cổ và cánh tay của đối phương. Đây là đòn có tỷ lệ thành công thấp, không nên thay thế các khung cơ bản và thoát hông.",
+  "shortInstruction": "Quấn chân quanh cổ và cánh tay của họ, siết chặt - Reverse Buggy Choke là một đòn tấn công tuyệt vọng từ dưới Side Control.",
+  "summary": "Reverse Buggy Choke là một biến thể của Buggy Choke từ dưới Side Control. Điểm khác biệt chính là vị trí đặt chân - ở reverse buggy, chân bạn quấn quanh cổ họ và một cánh tay ở phía đối diện. Giống như đòn Buggy Choke tiêu chuẩn, đây là một cuộc tấn công bất ngờ hơn là một chiến lược chính. Nó hoạt động hiệu quả nhất khi chống lại những đối thủ gây áp lực mạnh bằng crossface, để cổ của họ lộ ra ở phía bên kia.",
   "whyItWorks": [
     "Yếu tố bất ngờ, đối thủ không mong đợi một cú bóp cổ từ phía dưới Side Control.",
     "Có thể bắt được những đối thủ nặng về phía crossface, để lộ cổ của họ.",
-    "Tạo ra tình thế tiến thoái lưỡng nan nhất thời, bảo vệ sự tắc nghẽn hoặc duy trì Side Control.",
-    "Hữu ích như một cuộc tấn công cuối cùng khi các lối thoát thông thường không thành công."
+    "Tạo ra tình thế tiến thoái lưỡng nan nhất thời: phòng thủ choke hoặc giữ Side Control.",
+    "Hữu ích như một đòn tấn công cuối cùng khi các lối thoát thông thường không thành công."
   ],
   "commonMistakes": [
     "Sử dụng nó làm lối thoát chính thay vì lối thoát khung và lối thoát hông.",
-    "Để sẵn underhook, underhook quan trọng hơn cuộn cảm.",
-    "Để đối thủ xếp chồng bạn - điều này vô hiệu hóa sự nghẹt thở và khiến bạn gặp nguy hiểm.",
-    "Lãng phí năng lượng vì nghẹt thở trong khi lẽ ra bạn có thể thoát đến một vị trí tốt hơn."
+    "Để sẵn underhook, underhook quan trọng hơn choke.",
+    "Để đối thủ stack bạn - điều này vô hiệu hóa cú choke và khiến bạn gặp nguy hiểm.",
+    "Lãng phí năng lượng vì choke trong khi lẽ ra bạn có thể thoát đến vị trí tốt hơn."
   ],
   "coachingCues": [
     "Vũ khí bất ngờ, không phải chiến lược chính.",
-    "Nếu họ xếp chồng bạn, hãy thả ra ngay lập tức.",
+    "Nếu họ stack bạn, hãy thả ra ngay.",
     "underhook đầu tiên, sau đó tấn công, không bao giờ làm ngược lại.",
     "Một lần thử - nếu thất bại, hãy quay lại nguyên tắc cơ bản."
   ],
   "safetySummary": [
-    "Cuộn cảm lỗi ngược sẽ nén cổ - áp dụng dần dần và thả ra khi nhấn.",
-    "Không sử dụng để chống lại những đối thủ lớn hơn, những người có thể xếp chồng bạn - ngăn xếp có thể làm tổn thương lưng dưới của bạn.",
-    "Hãy chạm sớm nếu bạn cảm thấy nút thắt đang đè lên cổ mình."
+    "Reverse Buggy Choke nén cổ - vào từ từ và thả ngay khi họ tap.",
+    "Không dùng để chống lại những đối thủ lớn hơn, những người có thể stack bạn - cú stack có thể làm đau lưng dưới của bạn.",
+    "Tap sớm nếu bạn thấy áp lực đang đè lên cổ mình."
   ],
   "keyCorrections": [
-    "Nếu họ xếp chồng bạn, bạn đã cam kết quá sớm hoặc sai góc độ - thả ra và đặt lại khung.",
+    "Nếu họ stack bạn, bạn đã cam kết quá sớm hoặc sai góc - thả ra và dựng lại khung.",
     "Nếu họ rút tay ra, nghĩa là quấn chân của bạn quá lỏng - quấn chặt hơn hoặc bỏ vòng quấn.",
     "Nếu bạn không thể hoàn thành, hãy quay lại lối thoát Side Control thông thường (thoát hông, underhook)."
   ],
@@ -38,24 +38,24 @@
     "decisionTree": [
       {
         "condition": "Ứng dụng chung",
-        "action": "Buggy lùi là một lựa chọn cấp ba - khung và lối thoát hông là chính."
+        "action": "Reverse Buggy là lựa chọn thứ ba - khung và thoát hông vẫn là chính."
       },
       {
-        "condition": "cuộn cảm không thành công",
+        "condition": "choke không thành công",
         "action": "đi thoát hông và underhook phục hồi."
       }
     ]
   },
   "moneyDetails": [
-    "Việc quấn chân phải bao gồm cổ VÀ một cánh tay của họ - chỉ quấn cổ sẽ không giữ được chiếc sặc.",
+    "Việc quấn chân phải bao gồm cổ VÀ một cánh tay của họ - chỉ quấn cổ sẽ không giữ được cú choke.",
     "Giữ chân trên của bạn qua lưng để ngăn họ tuột ra khỏi lớp bọc.",
-    "Cảm giác nghẹt thở xuất phát từ việc ép hai đùi của bạn vào nhau - không phải do kéo bằng chân.",
-    "Nếu họ đứng dậy, lực cản sẽ bị mất - ngay lập tức quay trở lại khung và thoát ra khỏi hông."
+    "Cú choke đến từ việc ép hai đùi vào nhau - không phải do kéo bằng chân.",
+    "Nếu họ đứng dậy, lực ép sẽ mất - quay lại khung và thoát hông ngay."
   ],
-  "nextStep": "Sau khi hiểu rõ về hiện tượng tắc nghẽn lỗi ngược, hãy tập trung vào các cách thoát Side Control chính: khung, thoát hông và phục hồi underhook.",
+  "nextStep": "Sau khi hiểu rõ Reverse Buggy Choke, hãy tập trung vào các cách thoát Side Control chính: khung, thoát hông và phục hồi underhook.",
   "fixItFast": [
-    "Họ xếp chồng bạn? Thả ra và đóng khung trên hông của họ.",
+    "Họ stack bạn? Thả ra và dựng khung trên hông họ.",
     "Chân trượt ra? Quấn chặt hơn quanh cánh tay của họ.",
-    "Không thể bị nghẹt thở? Quay trở lại khung và thoát hông."
+    "Không choke được? Quay lại khung và thoát hông."
   ]
 }

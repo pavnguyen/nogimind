@@ -1,7 +1,7 @@
 {
   "id": "k-guard-to-outside-ashi",
   "locale": "vi",
-  "name": "K Guard sang Outside Ashi",
+  "name": "K Guard to Outside Ashi",
   "description": "K-Guard to Outside Ashi là chuỗi đòn lối vào Leg Lock chính từ K-Guard. Khi đối thủ phòng thủ K-Guard, bạn thả móc K-Guard và vào lại trực tiếp Outside Ashi.",
   "whyItWorks": [
     "K-Guard đã có hông bạn dưới hông họ và chân bạn bị rối, bạn đã đi được 50% vào Leg Lock",
@@ -30,7 +30,7 @@
   ],
   "keyCorrections": [
     "Nếu họ lùi để thoát K-Guard: luồn chân vào Outside Ashi",
-    "Nếu họ bước tới để gây áp lực: ở lại K-Guard và quét thay thế",
+    "Nếu họ bước tới để gây áp lực: ở lại K-Guard và sweep thay thế",
     "Nếu họ chống tay lên đầu bạn để chặn: luồn tay họ hoặc chuyển sang Omoplata"
   ],
   "moneyDetails": [
@@ -52,7 +52,7 @@
       },
       {
         "condition": "Họ bước tới để gây áp lực",
-        "action": "ở lại K-Guard và quét thay thế"
+        "action": "ở lại K-Guard và sweep thay thế"
       },
       {
         "condition": "Họ chống tay lên đầu để chặn",

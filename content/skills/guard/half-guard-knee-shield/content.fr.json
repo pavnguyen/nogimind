@@ -2,34 +2,34 @@
   "id": "half-guard-knee-shield",
   "locale": "fr",
   "name": "Half Guard Knee Shield",
-  "description": "Utilisez le knee shield (Z-Guard) pour créer de la distance, gagner la bataille underhook et passer aux balayages, aux luttes ou aux soumissions.",
-  "shortInstruction": "Genou dans la hanche, cadre sur la tête, gagnez le underhook, knee shield est la position de contrôle du bas Half Guard.",
-  "summary": "Le knee shield (également appelé Z-Guard) est la position la plus stable dans le bas Half Guard. Votre genou latéral est inséré entre votre poitrine et sa hanche, créant un cadre qui l'empêche d'appliquer une pression thoracique. À partir de là, vous pouvez vous battre pour le underhook, créer de la distance et attaquer avec des balayages (moitié profonde, serveur), des soumissions (Kimura) ou des luttes. Si vous perdez le knee shield, vous êtes aplati – le protéger est donc votre priorité numéro un.",
+  "description": "Utilisez le Knee Shield (Z-Guard) pour créer de la distance, gagner la bataille underhook et passer aux balayages, aux luttes ou aux soumissions.",
+  "shortInstruction": "Genou dans la hanche, cadre sur la tête, gagnez le underhook, Knee Shield est la position de contrôle du bas Half Guard.",
+  "summary": "Le Knee Shield (également appelé Z-Guard) est la position la plus stable dans le bas Half Guard. Votre genou latéral est inséré entre votre poitrine et sa hanche, créant un cadre qui l'empêche d'appliquer une pression thoracique. À partir de là, vous pouvez vous battre pour le underhook, créer de la distance et attaquer avec des balayages (moitié profonde, serveur), des soumissions (Kimura) ou des luttes. Si vous perdez le Knee Shield, vous êtes aplati – le protéger est donc votre priorité numéro un.",
   "whyItWorks": [
-    "Le knee shield crée un cadre structurel qui empêche la pression de poitrine à poitrine – sans pression, ils ne peuvent pas passer.",
+    "Le Knee Shield crée un cadre structurel qui empêche la pression de poitrine à poitrine – sans pression, ils ne peuvent pas passer.",
     "Il vous permet de vous battre pour le underhook à distance de sécurité, plutôt que de vous faire aplatir et écraser.",
-    "Le knee shield peut être étendu pour créer de l'espace ou rétracté à courte distance pour les balayages.",
-    "Principe Danaher : la distance est la sécurité en bas Half Guard, le knee shield est votre outil de distance."
+    "Le Knee Shield peut être étendu pour créer de l'espace ou rétracté à courte distance pour les balayages.",
+    "Principe Danaher : la distance est la sécurité en bas Half Guard, le Knee Shield est votre outil de distance."
   ],
   "commonMistakes": [
-    "Laissez-les pousser votre knee shield sur le côté ou l’aplatir contre votre poitrine.",
+    "Laissez-les pousser votre Knee Shield sur le côté ou l’aplatir contre votre poitrine.",
     "En vous battant pour le underhook avec un bras tendu, vous perdrez à chaque fois.",
-    "Tenir le knee shield trop longtemps sans attaquer, c'est une position de contrôle de transition, pas une position de repos.",
+    "Tenir le Knee Shield trop longtemps sans attaquer, c'est une position de contrôle de transition, pas une position de repos.",
     "Laissez-les saisir votre col ou votre tête pour neutraliser le bouclier – combattez à la main pour retirer ces poignées."
   ],
   "coachingCues": [
     "Genou dans la hanche, pas dans les côtes.",
     "Gagnez le underhook ou mourez en essayant.",
-    "Cadrez d'abord, combattez ensuite - votre knee shield est votre cadre.",
+    "Cadrez d'abord, combattez ensuite - votre Knee Shield est votre cadre.",
     "Lorsque vous sentez leur poids soulever, c'est votre moment d'attaque."
   ],
   "safetySummary": [
-    "Gardez votre knee shield actif : s'il s'aplatit, vous êtes exposé à une forte pression thoracique.",
+    "Gardez votre Knee Shield actif : s'il s'aplatit, vous êtes exposé à une forte pression thoracique.",
     "Protégez votre cou des crossface en gardant votre tête serrée contre leur corps, sans l'exposer.",
     "Lorsqu’ils avancent, ne vous tenez pas avec un bras tendu – pliez votre coude pour protéger l’articulation."
   ],
   "systemLogic": {
-    "corePrinciple": "Le knee shield (Z-Guard) est un cadre structurel qui empêche la pression de poitrine à poitrine dans le bas Half Guard. Il s'agit d'une position de contrôle de transition : vous devez attaquer (balayage, lutte ou soumission) plutôt que de la maintenir passivement.",
+    "corePrinciple": "Le Knee Shield (Z-Guard) est un cadre structurel qui empêche la pression de poitrine à poitrine dans le bas Half Guard. Il s'agit d'une position de contrôle de transition : vous devez attaquer (balayage, lutte ou soumission) plutôt que de la maintenir passivement.",
     "decisionTree": [
       {
         "condition": "L'adversaire avance avec une pression sur la poitrine",
@@ -44,30 +44,30 @@
         "action": "Kimura piège → balayage ou soumission. La portée expose leur bras : capturez le poignet et passez la poignée Kimura sur leur dos."
       },
       {
-        "condition": "L'adversaire pousse votre knee shield sur le côté",
+        "condition": "L'adversaire pousse votre Knee Shield sur le côté",
         "action": "Étendez votre jambe pour les repousser et recadrez le bouclier. S'ils l'aplatissent contre votre poitrine, votre underhook est le problème – battez-vous plus fort pour le underhook."
       },
       {
         "condition": "Vous perdez la bataille underhook",
-        "action": "Vous ne pouvez pas séjourner à knee shield sans le underhook. Passez au Half Guard profond ou récupérez au Guard complet. Ne restez pas aplati dans la moitié inférieure."
+        "action": "Vous ne pouvez pas séjourner à Knee Shield sans le underhook. Passez au Half Guard profond ou récupérez au Guard complet. Ne restez pas aplati dans la moitié inférieure."
       }
     ],
     "exitStrategies": [
-      "Si l'adversaire dépasse votre knee shield, vous avez attendu trop longtemps pour attaquer – balayer ou wrestle up plus tôt.",
+      "Si l'adversaire dépasse votre Knee Shield, vous avez attendu trop longtemps pour attaquer – balayer ou wrestle up plus tôt.",
       "Si vous ne parvenez pas à obtenir le underhook, utilisez plutôt une cravate ou une poignée de poignet pour contrôler leur posture.",
-      "Le Kimura de knee shield est l'un des pourcentages de soumissions No-Gi les plus élevés - incitez le crossface à y entrer."
+      "Le Kimura de Knee Shield est l'un des pourcentages de soumissions No-Gi les plus élevés - incitez le crossface à y entrer."
     ]
   },
   "moneyDetails": [
     "Votre genou doit être encadré contre leur hanche, pas contre leur ventre – le contrôle de la hanche les empêche d’enjamber le bouclier.",
     "Le combat underhook se gagne avec votre tête : enfoncez votre tête dans leur poitrine pour créer de l'espace pour votre underhook.",
     "Lorsqu'ils tentent d'aplatir votre bouclier, étendez votre jambe pour les repousser, puis attaquez avant qu'ils ne récupèrent.",
-    "Le Kimura de knee shield est l'un des pourcentages de soumissions les plus élevés dans No-Gi Half Guard - incitez le crossface à y entrer."
+    "Le Kimura de Knee Shield est l'un des pourcentages de soumissions les plus élevés dans No-Gi Half Guard - incitez le crossface à y entrer."
   ],
-  "nextStep": "Après le contrôle de knee shield, apprenez le demi-balayage profond et Kimura de Half Guard pour enchaîner vos attaques.",
+  "nextStep": "Après le contrôle de Knee Shield, apprenez le demi-balayage profond et Kimura de Half Guard pour enchaîner vos attaques.",
   "fixItFast": [
-    "knee shield s'aplatit ? Étendez votre jambe pour les repousser et recadrer.",
+    "Knee Shield s'aplatit ? Étendez votre jambe pour les repousser et recadrer.",
     "Vous ne parvenez pas à obtenir le underhook ? Utilisez plutôt une cravate ou une poignée de poignet pour contrôler leur posture.",
-    "Ils continuent de passer ? Votre knee shield est trop lâche : resserrez-le contre votre poitrine."
+    "Ils continuent de passer ? Votre Knee Shield est trop lâche : resserrez-le contre votre poitrine."
   ]
 }

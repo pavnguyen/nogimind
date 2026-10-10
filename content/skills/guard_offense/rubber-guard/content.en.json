@@ -1,0 +1,88 @@
+{
+  "id": "rubber-guard",
+  "locale": "en",
+  "name": "Rubber Guard",
+  "description": "The Rubber Guard is a no-gi closed-guard control system built on a high overhook. You clamp their arm against your chest, break their posture so their head sits below your chest, then climb your own leg across their back to hold the posture break while you chain attacks. Popularized by Eddie Bravo and 10th Planet Jiu-Jitsu, it replaces the gi grips that no-gi removes with your own arm and leg control.",
+  "shortInstruction": "From closed guard, overhook one arm and clamp it to your chest, pull their head below your chest, then climb your shin across their back and attack the neck, shoulder and arm in the order their defence opens.",
+  "summary": "The Rubber Guard works by taking away the opponent's ability to posture inside your closed guard. With no gi grips available, the control comes from a high overhook on one arm plus your own leg across their back. From the base control (Mission Control) the system climbs: your shin walks higher onto their shoulder, your arm swims free when they defend the clamp, and the neck, shoulder, elbow and neck-shoulder line are attacked in sequence (Gogoplata, Omoplata, Armbar, Triangle). The positions are posture-holding tools, not flexibility tricks: once their head is below your chest and their arm is clamped, the leg control is light work.",
+  "whyItWorks": [
+    "A high overhook replaces the grips no-gi removes, their arm is pinned against your ribs so it cannot frame or posture",
+    "Clamping their head below your chest stops them standing up and stacking you, which is what keeps the guard closed and the attacks available",
+    "Your own shin across their back is a supporting wall: it holds the posture break while both your hands stay free to attack",
+    "The positions form a dilemma: defending the neck turns the shoulder in for the Omoplata, pulling the trapped arm out opens the Armbar or Triangle",
+    "Everything happens after the posture break, so you are not fighting their structure with your arms alone"
+  ],
+  "commonMistakes": [
+    "Climbing the leg before breaking posture, if their head is still up the shin slides off their back and you burn energy for nothing",
+    "A loose overhook, if their arm is not clamped to your ribs they slip it out and stack you",
+    "Leaning away with the leg control instead of pulling their head to your chest, the posture break is what holds the position",
+    "Treating the system as a flexibility test, hip and hamstring mobility help, but posture plus a clamped arm are what make the position work",
+    "Chasing the Gogoplata before the control is tight, a shin on the jaw is a neck crank, not a choke",
+    "Holding Rubber Guard after it is already gone, if their posture is up and the arm is free, recover closed guard or open guard instead of fighting for the overhook"
+  ],
+  "coachingCues": [
+    "Arm clamped, head down, then the leg climbs",
+    "Their head below your chest, always",
+    "Climb the shin with your hips, do not reach with the knee",
+    "If the arm comes free, swim it back before attacking",
+    "Neck attack fails, the shoulder is open"
+  ],
+  "safetySummary": [
+    "Train the Gogoplata and any neck pressure only with a partner who taps early, a shin across the jaw or spine is a crank, not a choke",
+    "Warm up hips and hamstrings before drilling the high leg positions, the load sits on your own hip and knee",
+    "Apply the Omoplata rotation slowly and release on the tap, the isolated shoulder is the part at risk",
+    "Never force a locked leg position, if your knee or hip complains, lower the leg and rebuild the control"
+  ],
+  "keyCorrections": [
+    "If their posture comes back up: your head clamp is loose, pull their head to your chest before climbing the leg again",
+    "If the arm slips out of the overhook: clamp your elbow to your ribs and re-hook it before attacking",
+    "If the shin slides off their back: you are leaning away, sit up and drive your chest into their head",
+    "If they stack you: raise your hips and shrimp toward the trapped arm, then re-break the posture",
+    "If the neck attack feels like a crank: your shin is on the jaw, change the angle or abandon it for the Omoplata"
+  ],
+  "systemLogic": {
+    "corePrinciple": "Rubber Guard: high overhook → their head clamped below your chest → your shin climbs across their back (Mission Control) → walk the leg higher onto their shoulder → swim the arm back when they defend → the neck (Gogoplata), the shoulder (Omoplata), the elbow (Armbar) and the neck-shoulder line (Triangle) are attacked in the order their defence opens.",
+    "decisionTree": [
+      {
+        "condition": "They stay postured and pull their head back",
+        "action": "clamp the overhook tighter, pull their head below your chest, then climb the shin"
+      },
+      {
+        "condition": "They slip the arm out of the overhook",
+        "action": "swim the arm back inside the clamp, or re-hook it with your elbow tight to your ribs"
+      },
+      {
+        "condition": "They hide the neck and turn the shoulder in",
+        "action": "switch to the Omoplata on the shoulder they just turned in"
+      },
+      {
+        "condition": "They pull the trapped arm back and turn away",
+        "action": "take the Armbar or the Triangle"
+      },
+      {
+        "condition": "They stack and drive forward",
+        "action": "shrimp toward the trapped-arm side, raise your hips, re-break the posture or open the guard and recover"
+      }
+    ],
+    "exitStrategies": [
+      "If the posture break is gone, leave the Rubber Guard and recover closed guard or open guard instead of fighting for the overhook",
+      "If the leg control is lost but the overhook is still there, re-break posture first, do not chase positions",
+      "If your hips are tired, use the control you already have to sweep or come up instead of climbing higher"
+    ]
+  },
+  "moneyDetails": [
+    "Overhook arm: their arm is clamped to your ribs, your elbow tight to your side, not held out in front of you",
+    "Head control: your chest is on their head, their ear toward your sternum, so their neck stays folded",
+    "Leg control: your shin crosses their back diagonally, knee near their shoulder, foot hooking their far side",
+    "Climb with the hips, not the knee, a small hip rotation walks the shin higher up their back",
+    "When you attack the neck, rotate your hips away so the shin crosses the throat instead of the jaw"
+  ],
+  "nextStep": "After the Rubber Guard, study the Gogoplata and the Omoplata System for the finishes, and the Truck and Twister for the back takes that open when they turn away.",
+  "fixItFast": [
+    "Their posture keeps coming up? Re-clamp the overhook to your ribs and pull their head down before climbing again",
+    "The leg keeps sliding off their back? Sit up into them, leaning away is what loses the shin",
+    "They keep freeing the arm? Your overhook is shallow, get your elbow under their tricep and hug the arm to your chest",
+    "Being stacked? Raise your hips and shrimp toward the trapped arm, then rebuild the overhook",
+    "The neck attack turns into a crank? Take the Omoplata instead, the defence that protects the neck opens the shoulder"
+  ]
+}

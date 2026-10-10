@@ -1,15 +1,15 @@
 {
   "id": "triangle-system",
   "locale": "vi",
-  "name": "Triangle Hệ thống",
-  "description": "Khóa một vai vào và một vai ra ngoài, bẻ tư thế của đối phương, cắt góc và siết chặt - Triangle là đòn bóp chân dùng chính vai của đối phương để đóng đòn sặc.",
+  "name": "Triangle System",
+  "description": "Khóa một vai vào và một vai ra ngoài, bẻ tư thế của đối phương, cắt góc và siết chặt - Triangle là choke bằng chân, dùng chính vai của đối phương để đóng cú choke.",
   "shortInstruction": "Một tay vào, một tay đưa ra, tư thế bẻ cong, cắt góc, siết chặt - Triangle là lực điều khiển cuối cùng của Guard.",
-  "summary": "Cuộn cảm Triangle là tỷ lệ phần trăm gửi cao nhất từ ​​Closed Guard. Nó hoạt động bằng cách nhốt một trong hai cánh tay của họ vào trong chân bạn trong khi cánh tay còn lại ở bên ngoài, tạo ra 'Triangle' chân của bạn quanh cổ và cánh tay của họ. Khi bạn cắt một góc (đưa hông của bạn ra xa họ), vai của họ sẽ ấn vào một bên động mạch cảnh của họ trong khi chân của bạn sẽ ép vào bên kia. Vai của đối phương trở thành một phần của nghẹt thở - đây là lý do tại sao Triangle lại hiệu quả đến vậy.",
+  "summary": "Triangle choke là tỷ lệ submission cao nhất từ Closed Guard. Nó hoạt động bằng cách nhốt một trong hai cánh tay của họ vào trong chân bạn trong khi cánh tay còn lại ở bên ngoài, tạo ra 'Triangle' chân của bạn quanh cổ và cánh tay của họ. Khi bạn cắt một góc (đưa hông của bạn ra xa họ), vai của họ sẽ ấn vào một bên động mạch cảnh của họ trong khi chân của bạn sẽ ép vào bên kia. Vai của đối phương trở thành một phần của cú choke - đây là lý do tại sao Triangle lại hiệu quả đến vậy.",
   "whyItWorks": [
     "Vai của đối phương thực hiện đòn siết cổ - cơ thể của họ được sử dụng để chống lại họ.",
-    "Cắt góc (đưa hông ra xa) sẽ siết chặt cuộn cảm mà không cần phải bóp mạnh hơn.",
+    "Cắt góc (đưa hông ra xa) sẽ siết chặt cú choke mà không cần bóp mạnh hơn.",
     "Triangle bẫy một cánh tay, ngăn không cho họ đăng hoặc căn cứ để thoát.",
-    "Nguyên tắc Danaher: Triangle là cuộn cảm hiệu quả nhất về mặt cơ học trong BJJ, khi góc đúng, cuộn cảm hầu như không cần đến lực ép."
+    "Nguyên tắc Danaher: Triangle là choke hiệu quả nhất về mặt cơ học trong BJJ, khi góc đúng thì gần như không cần lực ép."
   ],
   "commonMistakes": [
     "Khóa Triangle quá sớm - chỉ khóa sau khi phá vỡ tư thế và cắt góc.",
@@ -20,17 +20,17 @@
   "coachingCues": [
     "Một tay vào, một tay ra, đó là Triangle.",
     "Phá tư thế, cắt góc, khóa, bóp.",
-    "Đưa hông của bạn ra xa - góc tạo ra cảm giác nghẹt thở.",
+    "Đưa hông của bạn ra xa - góc tạo ra cú choke.",
     "Vai của họ là đối tác của bạn - hãy để nó giúp bạn."
   ],
   "safetySummary": [
-    "Triangle nén động mạch cổ và động mạch cảnh, áp dụng dần dần và thả ra khi nhấn.",
+    "Triangle nén động mạch cổ và động mạch cảnh, áp dụng dần dần và thả ra khi họ tap.",
     "Đừng kéo đầu đối phương xuống một cách mạnh mẽ - điều này có thể khiến cổ bị cong.",
-    "Thả ngay khi chạm vào - Triangle cuộn cảm có thể khiến bạn bất tỉnh nhanh chóng."
+    "Thả ngay khi tap - Triangle choke có thể khiến đối thủ bất tỉnh nhanh chóng."
   ],
   "keyCorrections": [
-    "Nếu cảm thấy cuộn cảm bị lỏng, góc của bạn chưa đủ sắc nét - hãy đưa hông của bạn ra xa họ hơn.",
-    "Nếu họ xếp chồng bạn, hãy thả Triangle và thoát hông, đừng chống lại chồng.",
+    "Nếu cảm thấy cú choke bị lỏng, góc của bạn chưa đủ sắc nét - hãy đưa hông của bạn ra xa họ hơn.",
+    "Nếu họ stack bạn, hãy thả Triangle và thoát hông, đừng chống lại stack.",
     "Nếu họ kéo cánh tay bị mắc kẹt ra thì vị trí chân của bạn đã sai - hãy giữ lại cánh tay bằng chân của bạn."
   ],
   "systemLogic": {
@@ -38,11 +38,11 @@
     "decisionTree": [
       {
         "condition": "Chuỗi Triangle với Armbar",
-        "action": "nếu họ bảo vệ Triangle bằng cách làm bộ, hãy tấn công Armbar."
+        "action": "nếu họ phòng thủ Triangle bằng cách posture lên, hãy tấn công Armbar."
       },
       {
-        "condition": "họ xếp chồng lên nhau để thoát",
-        "action": "hông thoát ra và tấn công lại hoặc chuyển sang quét."
+        "condition": "họ stack bạn để thoát",
+        "action": "hông thoát ra và tấn công lại hoặc chuyển sang sweep."
       }
     ]
   },
@@ -50,12 +50,12 @@
     "Cánh tay bị mắc kẹt của họ phải nằm ngang qua đường giữa của bạn - hãy ghim cánh tay của họ vào ngực bạn bằng bàn tay cùng phía của bạn.",
     "Khóa Triangle của bạn bằng cách đặt ống chân của chân trên qua phía sau đầu gối của chân dưới.",
     "Cắt góc bằng cách đưa hông của bạn ra xa họ - bạn càng đi xa thì vòng cổ càng chặt.",
-    "Cảm giác thắt chặt khi bạn ép đầu gối vào nhau đồng thời kéo đầu họ xuống."
+    "Cú siết thắt lại khi bạn ép hai đầu gối vào nhau và kéo đầu họ xuống."
   ],
-  "nextStep": "Sau hệ thống Triangle, hãy tìm hiểu Armbar từ Triangle và Triangle để quét các chuyển tiếp.",
+  "nextStep": "Sau Triangle System, học Armbar từ Triangle và các chuyển tiếp sang sweep.",
   "fixItFast": [
     "Choke cảm thấy lỏng lẻo? Đưa hông của bạn ra xa hơn - góc là chìa khóa.",
-    "Họ xếp chồng bạn? Thoát khỏi hông và tấn công lại - đừng chống lại ngăn xếp.",
-    "Họ tạo dáng? Tấn công Armbar trên cánh tay còn lại."
+    "Họ stack bạn? Thoát khỏi hông và tấn công lại - đừng chống lại stack.",
+    "Họ posture? Tấn công Armbar trên cánh tay còn lại."
   ]
 }

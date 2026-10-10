@@ -60,9 +60,9 @@
     "hasStateMachine": false
   },
   "locale": "fr",
-  "description": "Contrôlez la ligne des hanches et des genoux de l'adversaire à partir d'une seule jambe X (SLX) pour balayer, se relever ou entrer en toute sécurité dans l'Ashi Garami (enchevêtrement des jambes).",
+  "description": "Contrôlez la ligne des hanches et des genoux de l'adversaire à partir de Single Leg X (SLX) pour balayer, se relever ou entrer en toute sécurité dans l'Ashi Garami (enchevêtrement des jambes).",
   "shortInstruction": "Une jambe entre les leurs, une jambe sur la hanche – SLX vous donne le contrôle d'une jambe et de toute sa base.",
-  "summary": "Le X sur une jambe (SLX) est la position fondamentale de contrôle sur une jambe du No-Gi moderne. Vous coincez une de leurs jambes avec votre propre jambe (entre votre cuisse et votre mollet), tandis que votre autre pied repose sur leur hanche opposée. Cela vous donne le contrôle de toute leur base grâce à une seule jambe – lorsque vous tirez sur cette jambe, tout leur corps suit. SLX est le point d'entrée pour les balayages (balayage SLX classique), les enchevêtrements de jambes (entrez Ashi Garami) et les stand-ups (wrestle up).",
+  "summary": "Le Single Leg X (SLX) est la position fondamentale de contrôle sur une jambe du No-Gi moderne. Vous coincez une de leurs jambes avec votre propre jambe (entre votre cuisse et votre mollet), tandis que votre autre pied repose sur leur hanche opposée. Cela vous donne le contrôle de toute leur base grâce à une seule jambe – lorsque vous tirez sur cette jambe, tout leur corps suit. SLX est le point d'entrée pour les balayages (balayage SLX classique), les enchevêtrements de jambes (entrez Ashi Garami) et les stand-ups (wrestle up).",
   "whyItWorks": [
     "Contrôler une jambe avec vos deux jambes vous donne un avantage mécanique de 2 contre 1 sur ce membre.",
     "Le pied sur leur hanche contrôle leur distance et les empêche de reculer.",
@@ -83,7 +83,7 @@
   ],
   "safetySummary": [
     "Protégez le genou de votre jambe coincée – ne les laissez pas tordre votre genou en tournant leur jambe coincée.",
-    "Lorsque vous entrez dans SLX, gardez votre pied à l'extérieur de sa jambe pour éviter de récolter des pénalités.",
+    "Lorsque vous entrez dans SLX, gardez votre pied à l'extérieur de sa jambe pour éviter les pénalités de Knee Reaping.",
     "S'ils vous empilent, relâchez le SLX et réinitialisez – ne combattez pas la pile avec un SLX verrouillé."
   ],
   "systemLogic": {

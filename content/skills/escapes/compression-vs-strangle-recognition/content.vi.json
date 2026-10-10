@@ -1,69 +1,69 @@
 {
   "id": "compression-vs-strangle-recognition",
   "locale": "vi",
-  "name": "Nén vs bóp cổ",
-  "description": "Nhận biết các khóa nén (máy cắt bắp chân, máy cắt bắp tay) so với siết cổ và phản ứng chính xác: chạm khi lực nén nhắm vào khớp, đánh khi nhắm vào cổ. Biết được sự khác biệt sẽ giúp bạn tránh hoảng loạn khi tiếp cận các kỹ thuật an toàn và trì hoãn nguy hiểm đối với các kỹ thuật nguy hiểm.",
-  "shortInstruction": "Lực ép tấn công cơ vào xương (gõ nhẹ khi cơn đau nhói), siết cổ tấn công cổ (đánh nhau nếu sặc máu, gõ nhẹ nếu sặc không khí hoặc quây). Nếu không chắc chắn, hãy chạm vào - tổn thương cơ sẽ mất vài tuần để lành lại.",
-  "summary": "Các đòn tấn công nén (máy cắt) tạo áp lực khiến bụng cơ bám vào xương, tạo ra cơn đau cục bộ rõ rệt. Siết cổ (nghẹt máu) gây áp lực lên động mạch cảnh. Phản hồi thì ngược lại: đối với khóa nén, hãy chạm vào khi cơn đau trở nên gay gắt (họ sẽ không khiến bạn bất tỉnh). Đối với tình trạng sặc máu, bạn có thể phòng thủ lâu hơn vì tình trạng bất tỉnh có thể hồi phục. Điều nguy hiểm là nhầm lẫn giữa chứng sặc máu sâu có cảm giác như bị đè ở cổ với tay quay - hãy chạm sớm nếu cảm thấy áp lực không đúng.",
+  "name": "Compression vs Strangle Recognition",
+  "description": "Nhận biết Compression Lock (Calf Slicer, Bicep Slicer) so với Strangle và phản ứng đúng: tap khi lực nén nhắm vào cơ hoặc khớp, đấu khi lực nhắm vào cổ. Biết khác biệt giúp bạn không hoảng loạn với đòn an toàn và không chần chừ với đòn nguy hiểm.",
+  "shortInstruction": "Compression tấn công cơ vào xương (tap khi đau nhói), Strangle tấn công cổ (đấu nếu là Blood Choke, tap nếu là Air Choke hoặc Neck Crank). Nếu không chắc, hãy tap, tổn thương cơ mất vài tuần mới lành.",
+  "summary": "Compression Lock (Slicer) tạo áp lực ép bụng cơ vào xương, gây đau cục bộ rõ rệt. Strangle (Blood Choke) tạo áp lực lên động mạch cảnh. Phản ứng thì ngược nhau: với Compression Lock, bạn tap khi cơn đau trở nên gay gắt vì nó không làm bạn bất tỉnh. Với Blood Choke, bạn phòng thủ lâu hơn được vì bất tỉnh có thể hồi phục. Điều nguy hiểm là nhầm một Blood Choke sâu, cảm giác như bị đè ở cổ, với Neck Crank, hãy tap sớm nếu cảm thấy áp lực sai.",
   "whyItWorks": [
-    "Khóa nén không gây bất tỉnh - họ gây đau cơ và dây thần kinh tăng dần",
-    "Sặc máu gây bất tỉnh sau 4-10 giây - bạn có thời gian để phòng thủ nhưng phải nhận biết mức độ đe dọa",
-    "Cuộn cảm khí (áp lực khí quản) và tay quay cổ (áp lực cột sống) cần phải gõ nhẹ ngay lập tức do nguy cơ chấn thương cấu trúc",
-    "Biết bạn đang tham gia kiểu tấn công nào sẽ xác định xem bạn nên chiến đấu, thoát hay chạm vào ngay lập tức"
+    "Compression Lock không gây bất tỉnh, nó gây đau cơ và dây thần kinh tăng dần",
+    "Blood Choke gây bất tỉnh sau 4-10 giây, bạn có thời gian phòng thủ nhưng phải nhận ra mức độ đe dọa",
+    "Air Choke (áp lực khí quản) và Neck Crank (áp lực cột sống) cần tap ngay vì nguy cơ chấn thương cấu trúc",
+    "Biết mình đang ăn loại tấn công nào sẽ quyết định bạn nên đấu, thoát hay tap ngay lập tức"
   ],
   "commonMistakes": [
-    "Nhấn mạnh vào các khóa nén chưa được áp dụng hoàn toàn - cảm giác đau khi nén rất rõ nhưng hiếm khi gây ra tổn thương lâu dài nếu bạn nhấn sớm",
-    "Không gõ đủ sớm để tránh nghẹt thở hoặc quay cổ - 'làm cứng' nghẹt khí quản có thể gây tổn thương dây thanh âm",
-    "Nhầm lẫn giữa chứng sặc máu với chứng vẹo cổ - chứng sặc máu gây áp lực lên hai bên cổ chứ không phải phía trước hay phía sau",
-    "Chống lại khóa nén quá lâu - tổn thương cơ do máy thái có thể mất vài tuần để lành lại"
+    "Chần chừ với Compression Lock chưa được áp hoàn toàn, đau do nén rất rõ nhưng hiếm khi gây tổn thương lâu dài nếu bạn tap sớm",
+    "Không tap đủ sớm để tránh Air Choke hoặc Neck Crank, 'làm cứng' một Air Choke có thể gây tổn thương dây thanh âm",
+    "Nhầm Blood Choke với Neck Crank, Blood Choke tạo áp lực ở hai bên cổ chứ không phải phía trước hay phía sau",
+    "Chống Compression Lock quá lâu, tổn thương cơ do Slicer có thể mất vài tuần mới lành"
   ],
   "coachingCues": [
-    "Nén = chạm vào cơn đau nhói",
-    "Sặc máu = chiến đấu hoặc thoát",
-    "Cuộn cảm/tay quay = chạm ngay lập tức",
-    "Nếu không chắc chắn, hãy nhấn"
+    "Compression = tap khi đau nhói",
+    "Blood Choke = đấu hoặc thoát",
+    "Air Choke / Neck Crank = tap ngay lập tức",
+    "Nếu không chắc, hãy tap"
   ],
   "safetySummary": [
-    "Máy thái bắp chân ép cơ bụng vào xương chày - gây đau nhưng hiếm khi gây tổn thương cấu trúc nếu bạn chạm vào khi cơn đau trở nên dữ dội",
-    "Máy cắt bắp tay ép cơ bắp tay vào xương cánh tay - có thể gây tổn thương dây thần kinh nếu giữ quá lâu",
-    "Máy cắt cổ tay (từ một số vị trí ve áo hoặc tay cầm nhất định) có thể nén các dây thần kinh giữa và dây thần kinh trụ - hãy chạm sớm",
-    "Những cơn sặc máu kéo dài đến bất tỉnh có thể gây ra co giật hoặc trong một số trường hợp hiếm hoi là đột quỵ - luôn giải phóng ngay lập tức khi chạm vào hoặc cơ thể khập khiễng",
-    "Cuộn khí (áp lực lên khí quản) có thể gây tổn thương dây thanh âm, gãy sụn tuyến giáp hoặc khó thở - hãy chạm ngay vào"
+    "Calf Slicer ép bụng cơ vào xương chày, gây đau nhưng hiếm khi gây tổn thương cấu trúc nếu bạn tap khi cơn đau trở nên dữ dội",
+    "Bicep Slicer ép cơ bắp tay vào xương cánh tay, có thể gây tổn thương dây thần kinh nếu giữ quá lâu",
+    "Wrist slicer (từ một số vị trí grip nhất định) có thể nén dây thần kinh giữa và dây thần kinh trụ, hãy tap sớm",
+    "Blood Choke kéo dài đến bất tỉnh có thể gây co giật, hoặc trong một số trường hợp hiếm là đột quỵ, luôn nhả ngay khi partner tap hoặc cơ thể mềm nhũn",
+    "Air Choke (áp lực lên khí quản) có thể gây tổn thương dây thanh âm, gãy sụn giáp hoặc khó thở, hãy tap ngay"
   ],
   "keyCorrections": [
-    "Nếu bạn cảm thấy đau nhói ở cơ bụng (bắp chân, bắp tay): bạn đang ở trạng thái khóa nén - hãy nhấn nếu cơn đau vượt quá mức độ thoải mái của bạn",
-    "Nếu bạn cảm thấy áp lực ở hai bên cổ (động mạch cảnh): bạn đang bị sặc máu - phòng thủ, thoát hoặc thiết lập lại",
-    "Nếu bạn cảm thấy áp lực ở cằm, cổ họng hoặc phía sau đầu: hãy chạm ngay lập tức - bạn đang bị ngạt thở hoặc bị ngạt thở"
+    "Nếu bạn cảm thấy đau nhói ở bụng cơ (bắp chân, bắp tay): bạn đang ăn Compression Lock, hãy tap khi cơn đau vượt quá mức thoải mái của bạn",
+    "Nếu bạn cảm thấy áp lực ở hai bên cổ (động mạch cảnh): bạn đang ăn Blood Choke, phòng thủ, thoát hoặc reset",
+    "Nếu bạn cảm thấy áp lực ở cằm, cổ họng hoặc phía sau đầu: hãy tap ngay, bạn đang ăn Air Choke hoặc Neck Crank"
   ],
   "systemLogic": {
-    "corePrinciple": "Ba kiểu tấn công vào cổ/tay chân yêu cầu các phản ứng khác nhau: Khóa nén → chạm vào cơn đau nhói. Hút máu → phòng thủ/thoát theo thời gian. Cuộn cảm khí/Quay cổ → chạm ngay.",
+    "corePrinciple": "Ba kiểu tấn công vào cổ hoặc tay chân yêu cầu phản ứng khác nhau: Compression Lock → tap khi đau nhói. Blood Choke → phòng thủ và thoát theo thời gian. Air Choke / Neck Crank → tap ngay.",
     "decisionTree": [
       {
-        "condition": "Khóa nén (slicers): chi tấn công (ống chân, cẳng tay) đẩy bụng cơ vào xương, tạo ra tình trạng thiếu máu cục bộ (thiếu lưu lượng máu) và chèn ép dây thần kinh. Cơn đau tăng dần",
-        "action": "bạn có thời gian để khai thác. Đừng 'cố gắng' khóa nén vì họ có thể gây tiêu cơ vân (phá vỡ mô cơ) trong trường hợp nghiêm trọng"
+        "condition": "Compression Lock (slicers): chi tấn công (ống chân, cẳng tay) đẩy bụng cơ vào xương, gây thiếu máu cục bộ và chèn ép dây thần kinh. Cơn đau tăng dần",
+        "action": "bạn có thời gian để tap. Đừng 'cố chịu' Compression Lock vì nó có thể gây tiêu cơ vân (phá vỡ mô cơ) trong trường hợp nghiêm trọng"
       },
       {
         "condition": "Ứng dụng chung",
-        "action": "Tắc nghẽn máu (bóp cổ): (các) cánh tay tấn công sẽ nén các động mạch cảnh, ngăn máu giàu oxy đến não. Bạn có 4-10 giây tỉnh táo sau khi khóa cuộn cảm. Sặc máu an toàn khi tập luyện vì tình trạng bất tỉnh có thể hồi phục"
+        "action": "Blood Choke: cánh tay tấn công nén động mạch cảnh, ngăn máu giàu oxy đến não. Bạn có 4-10 giây tỉnh táo sau khi choke được khóa. Blood Choke an toàn khi tập vì bất tỉnh có thể hồi phục"
       },
       {
         "condition": "Ứng dụng chung",
-        "action": "Nghẹt thở: áp lực lên khí quản/khí quản hạn chế hô hấp. Những thứ này có thể làm hỏng xương móng, sụn tuyến giáp và dây thanh âm. Chạm ngay vào áp lực khí quản"
+        "action": "Air Choke: áp lực lên khí quản hạn chế hô hấp. Loại này có thể làm hỏng xương móng, sụn giáp và dây thanh âm. Tap ngay khi có áp lực lên khí quản"
       },
       {
         "condition": "Ứng dụng chung",
-        "action": "Xoay cổ: tác động lên cột sống cổ qua cằm, phía sau đầu hoặc nền sọ. Có thể gây thoát vị đĩa đệm, tổn thương dây chằng và đau cổ mãn tính. Nhấn ngay"
+        "action": "Neck Crank: tác động lên cột sống cổ qua cằm, phía sau đầu hoặc nền sọ. Có thể gây thoát vị đĩa đệm, tổn thương dây chằng và đau cổ mãn tính. Tap ngay"
       }
     ]
   },
   "moneyDetails": [
-    "Biết sự khác biệt giữa nén, nghẹt máu và quay cổ là điều cần thiết để tập luyện an toàn - phản ứng không chính xác dẫn đến chấn thương hoặc gõ nhẹ không cần thiết",
-    "Khả năng phân biệt các kiểu tấn công trong thời gian thực giúp phân biệt người chơi có kinh nghiệm với người mới bắt đầu",
-    "Hiểu khi nào nên chiến đấu (nghẹt máu) và khi nào nên chạm (quay/nghẹt hơi/đau do nén) sẽ tối ưu hóa các quyết định phòng thủ của bạn trong thi đấu"
+    "Biết khác biệt giữa Compression Lock, Blood Choke và Neck Crank là điều kiện để tập an toàn, phản ứng sai dẫn đến chấn thương hoặc tap không cần thiết",
+    "Khả năng phân biệt các kiểu tấn công trong thời gian thực phân biệt người tập có kinh nghiệm với người mới",
+    "Hiểu khi nào nên đấu (Blood Choke) và khi nào nên tap (Neck Crank, Air Choke, đau do Compression) sẽ tối ưu quyết định phòng thủ của bạn trong thi đấu"
   ],
   "fixItFast": [
-    "Nếu bạn không chắc chắn mình đang gặp phải kiểu tấn công nào: kiểm tra xem áp lực ở đâu - hai bên cổ = sặc máu, phía trước cổ = sặc không khí, cằm/cột sống = tay quay, bụng cơ = nén",
-    "Nếu đối phương có khóa nén nhưng bạn cảm thấy thoải mái: chạm vào khi cơn đau trở nên gay gắt - đừng đợi tổn thương cấu trúc",
-    "Nếu bạn cảm thấy bất kỳ áp lực nào ở cổ có vẻ 'sai': hãy chạm vào. Bản năng của bạn thường đúng"
+    "Nếu bạn không chắc mình đang ăn kiểu tấn công nào: kiểm tra xem áp lực ở đâu, hai bên cổ = Blood Choke, trước cổ = Air Choke, cằm hoặc cột sống = Neck Crank, bụng cơ = Compression",
+    "Nếu partner có Compression Lock nhưng bạn thấy thoải mái: hãy tap khi cơn đau trở nên gay gắt, đừng đợi tổn thương cấu trúc",
+    "Nếu bạn cảm thấy áp lực nào ở cổ mà có vẻ 'sai': hãy tap. Bản năng của bạn thường đúng"
   ]
 }

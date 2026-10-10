@@ -1,71 +1,71 @@
 {
   "id": "single-leg-bjj",
   "locale": "vi",
-  "name": "Chân đơn cho BJJ",
-  "description": "Kết thúc chặng đơn trong khi tôn trọng Guillotine, Kimura và Guard kéo các mối đe dọa trong BJJ. Trận đấu đơn trong BJJ phải được điều chỉnh từ đấu vật để tính đến số điểm duy nhất tồn tại trong môn đấu vật quy phục.",
-  "shortInstruction": "Cố định chân, giữ đầu hướng ra bên ngoài (không phải chính giữa) và kết thúc bằng cách chạy ống, nâng hoặc vòng về phía sau. Đừng bao giờ để đầu bạn trôi vào bên trong nơi họ có thể Guillotine bạn.",
-  "summary": "Trận đấu đơn BJJ là phiên bản sửa đổi của trận đấu đơn trận đấu ưu tiên sự an toàn trước các quầy phục tùng. Những điều chỉnh chính là: vị trí đầu phải luôn ở bên ngoài (má tới hông/lưng của họ) chứ không phải bên trong (ngực đối với ngực của họ), kết thúc ưu tiên chạy đường ống (đưa họ sang một bên) hơn là nâng (để lộ Guillotine) và động tác quay về phía sau luôn có sẵn như một giải pháp thay thế có tỷ lệ phần trăm cao cho kết thúc gỡ xuống.",
+  "name": "Single Leg cho BJJ",
+  "description": "Kết thúc Single Leg trong khi tôn trọng Guillotine, Kimura và Guard pull trong BJJ. Single Leg trong BJJ phải được điều chỉnh từ wrestling để tính đến các counter riêng có trong submission grappling.",
+  "shortInstruction": "Cố định chân, giữ đầu hướng ra bên ngoài (không phải chính giữa) và kết thúc bằng Running Pipe, Lift hoặc Go-Behind. Đừng bao giờ để đầu bạn trôi vào bên trong nơi họ có thể Guillotine bạn.",
+  "summary": "Single Leg BJJ là phiên bản sửa đổi của Single Leg trong wrestling, ưu tiên an toàn trước các counter submission. Những điều chỉnh chính là: Head Position phải luôn ở bên ngoài (má tới hông/lưng của họ) chứ không phải bên trong (ngực đối với ngực của họ), kết thúc ưu tiên running the pipe (lái họ sang một bên) hơn là nâng (để lộ Guillotine) và Back Take luôn có sẵn như một phương án thay thế tỷ lệ cao cho việc kết thúc takedown.",
   "whyItWorks": [
-    "Vị trí đầu bên ngoài ngăn cản Guillotine, đòn phản công phổ biến nhất đối với các chân đơn trong BJJ",
-    "Chạy đường ống (truyền động bên) giữ cho đầu của bạn an toàn và sử dụng trọng lượng của họ để chống lại họ",
-    "Cú lội ngược dòng từ trận lượt đi là một sự thích ứng dành riêng cho BJJ ghi được 4 điểm thay vì 2",
-    "Một chặng chuyển tiếp lên cả vị trí trên cùng và Back Control, đây là đòn hạ gục linh hoạt nhất trong BJJ"
+    "Head Position bên ngoài ngăn Guillotine, đòn phản công phổ biến nhất đối với các Single Leg trong BJJ",
+    "Running Pipe giữ cho đầu của bạn an toàn và sử dụng trọng lượng của họ để chống lại họ",
+    "Back Take từ single leg là một thích ứng riêng cho BJJ, ghi 4 điểm thay vì 2",
+    "Single Leg chuyển tiếp lên cả vị trí trên và Back Control, đây là takedown linh hoạt nhất trong BJJ"
   ],
   "commonMistakes": [
     "Để đầu bạn hướng vào trong (ngực kề ngực), điều này khiến bạn tiếp xúc với Guillotine, Kimura và Front Headlock",
     "Cố gắng nhấc chân thẳng lên, điều này làm trì hoãn việc về đích và làm lộ Guillotine",
-    "Đứng quá lâu trên một chân - chân đơn phải được hoàn thành nhanh chóng hoặc bị bỏ rơi",
-    "Không chuyển về phía sau khi kết thúc bị chặn"
+    "Đứng quá lâu trên một chân - Single Leg phải được kết thúc nhanh hoặc phải bỏ",
+    "Không chuyển sang Back Take khi bị chặn kết thúc"
   ],
   "coachingCues": [
     "Hướng ra bên ngoài luôn",
-    "Chạy đường ống, không nâng",
+    "Running Pipe thay vì Lift",
     "Kết thúc hoặc chuyển tiếp - không trì hoãn",
-    "Quay lại luôn có sẵn"
+    "Back Take luôn có sẵn"
   ],
   "safetySummary": [
-    "Guillotine do một chân bị hỏng là hiện tượng nghẹt thở phổ biến nhất trong BJJ, luôn hướng đầu ra bên ngoài",
-    "Nếu bạn cảm thấy Guillotine đang được thiết lập, hãy vòng ra phía sau ngay lập tức thay vì cố gắng hoàn tất việc gỡ xuống",
-    "Không giữ một chân và đứng thẳng - điều này làm cho đầu gối bị dồn lại và cổ bị Guillotines"
+    "Guillotine từ Single Leg bị hỏng là tình huống choke phổ biến nhất trong BJJ, luôn hướng đầu ra bên ngoài",
+    "Nếu bạn cảm thấy Guillotine đang được thiết lập, hãy vòng ra phía sau ngay lập tức thay vì cố hoàn tất takedown",
+    "Không giữ Single Leg và đứng thẳng - điều này làm cho đầu gối bị dồn lại và cổ bị Guillotines"
   ],
   "keyCorrections": [
-    "Nếu họ Guillotine bạn: đầu của bạn ở bên trong - vòng ra phía sau ngay lập tức để giảm bớt áp lực nghẹt thở",
+    "Nếu họ Guillotine bạn: đầu của bạn ở bên trong - vòng ra phía sau ngay lập tức để giảm bớt áp lực choke",
     "Nếu họ Kimura cánh tay bị mắc kẹt của bạn: đừng chống lại Kimura, thả chân ra và tiếp tục đứng lên",
-    "Nếu họ nhảy bằng một chân: chuyển sang tư thế đũng quần cao hoặc đổ họ sang một bên bằng ống chạy"
+    "Nếu họ nhảy bằng một chân: chuyển sang High Crotch hoặc đổ họ sang một bên bằng Running Pipe"
   ],
   "systemLogic": {
-    "corePrinciple": "Chân đơn BJJ có bốn đầu: Ống chạy → Nâng → Quay lại → Đổ đáy quần cao",
+    "corePrinciple": "Single Leg BJJ có bốn kết thúc: Running Pipe → Lift → Go-Behind → High Crotch",
     "decisionTree": [
       {
-        "condition": "Sử dụng Finish 1 (Running Pipe (ưu tiên cao nhất))",
+        "condition": "Sử dụng kết thúc 1 (Running Pipe, ưu tiên cao nhất)",
         "action": "với chân bị mắc kẹt và hướng ra ngoài, đẩy họ sang một bên trên tấm thảm. Chân xa của họ không thể theo kịp chuyển động ngang và họ bị ngã. Về đích an toàn nhất trong BJJ"
       },
       {
-        "condition": "Sử dụng Kết thúc 2 (Nâng)",
+        "condition": "Sử dụng kết thúc 2 (Lift)",
         "action": "nếu họ mất thăng bằng (trọng lượng dồn lên một chân), hãy nhấc chân bị kẹt lên và đẩy họ về phía sau. Chỉ sử dụng điều này nếu vị trí đầu được xác nhận bên ngoài"
       },
       {
-        "condition": "Sử dụng Kết thúc 3 (Quay lại)",
-        "action": "nếu họ sprawl trên một chân, hãy thả chân ra và vòng ra phía sau họ. Người về sau ghi được 4 điểm và tránh được bộ đếm sprawl"
+        "condition": "Sử dụng kết thúc 3 (Go-Behind)",
+        "action": "nếu họ sprawl trên Single Leg, hãy thả chân ra và vòng ra phía sau họ. Go-Behind ghi 4 điểm và tránh được counter sprawl"
       },
       {
-        "condition": "Sử dụng Kết thúc 4 (Dải đáy quần cao)",
-        "action": "nếu họ đưa chân xa về phía sau, hãy chuyển sang tư thế nắm háng cao và đẩy họ sang phía đối diện"
+        "condition": "Sử dụng kết thúc 4 (High Crotch)",
+        "action": "nếu họ đưa chân xa về phía sau, hãy chuyển sang High Crotch và đẩy họ sang phía đối diện"
       },
       {
         "condition": "Phản ứng phòng thủ",
-        "action": "nếu họ Guillotine → quay lại. Nếu họ Kimura → nhả ra và tương tác lại. Nếu họ sprawl → quay lại"
+        "action": "nếu họ Guillotine → thoát ra. Nếu họ Kimura → nhả chân và vào lại. Nếu họ sprawl → thoát ra"
       }
     ]
   },
   "moneyDetails": [
-    "Trận một lượt là đòn hạ gục phổ biến nhất trong BJJ, một cú dứt điểm đáng tin cậy là điều cần thiết để thành công trong cạnh tranh",
-    "Việc thành thạo môn đơn chân thích ứng với BJJ sẽ loại bỏ nỗi sợ bị đếm hạ gục và cho phép bạn bắn một cách tự tin",
-    "Lượt lùi một lượt là chuỗi có giá trị cao nhất trong No-Gi lần hạ gục (4 điểm thay vì 2)"
+    "Single leg là takedown phổ biến nhất trong BJJ, một cách kết thúc đáng tin cậy là điều kiện để thi đấu thành công",
+    "Việc thành thạo Single Leg thích ứng với BJJ sẽ loại bỏ nỗi sợ bị counter takedown và cho phép bạn bắn takedown tự tin",
+    "Single leg sang Back Take là chuỗi có giá trị cao nhất trong no-gi takedown (4 điểm thay vì 2)"
   ],
   "fixItFast": [
-    "Nếu họ sprawl ở một chặng: đi về phía sau, đừng đấu với sprawl",
+    "Nếu họ sprawl trên Single Leg: đi về phía sau, đừng đấu với sprawl",
     "Nếu họ Guillotine: vòng về phía sau ngay lập tức, phía sau sẽ đánh bại Guillotine",
-    "Nếu họ nhảy bằng một chân: dùng ống chạy đẩy họ sang một bên - họ không thể nhảy sang một bên"
+    "Nếu họ nhảy bằng một chân: dùng Running Pipe đẩy họ sang một bên - họ không thể nhảy sang một bên"
   ]
 }

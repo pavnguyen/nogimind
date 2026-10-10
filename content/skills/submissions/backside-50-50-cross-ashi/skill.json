@@ -1,0 +1,72 @@
+{
+  "id": "backside-50-50-cross-ashi",
+  "domain": "submission_systems",
+  "level": "advanced",
+  "name": "Backside 50/50 & Cross Ashi",
+  "aliases": [
+    "backside 50/50 to cross ashi",
+    "cross ashi and backside 50/50",
+    "saddle and backside 50/50 switching"
+  ],
+  "tags": [
+    "leg-lock",
+    "cross-ashi",
+    "backside-50-50",
+    "heel-hook",
+    "knee-safety",
+    "tier:modern-expansion",
+    "meta:modern-common",
+    "risk:safety-critical",
+    "family:leg-lock",
+    "group:leg-lock",
+    "modern-no-gi"
+  ],
+  "keywords": [
+    "Backside 50/50",
+    "Cross Ashi",
+    "Saddle",
+    "inside heel hook",
+    "leg entanglement",
+    "leg-lock"
+  ],
+  "modernSystemGroup": "leg_lock",
+  "relatedSkills": [
+    {
+      "id": "backside-50-50-control",
+      "type": "prerequisite"
+    },
+    {
+      "id": "saddle-inside-sankaku-control",
+      "type": "prerequisite"
+    },
+    {
+      "id": "heel-hook-finishing-system",
+      "type": "chain"
+    },
+    {
+      "id": "false-reap-entry",
+      "type": "supporting"
+    }
+  ],
+  "prerequisiteSkillIds": [
+    "backside-50-50-control",
+    "saddle-inside-sankaku-control",
+    "heel-hook-safety"
+  ],
+  "relatedPositions": [],
+  "relatedConcepts": [],
+  "archetypeIds": [
+    "leg-lock-safety-first"
+  ],
+  "trainingMethodIds": [],
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "updatedAt": "2026-10-10T00:00:00.000Z"
+}

@@ -1,67 +1,67 @@
 {
   "id": "hq-split-squat-passing",
   "locale": "vi",
-  "name": "HQ / Chuyển động ngồi xổm",
-  "description": "Trụ sở chính (HQ) và động tác squat tách đôi passing: quản lý khoảng cách bằng một đầu gối nâng lên và một đầu gối hạ xuống, chặn khung ống chân và chọn cắt đầu gối, khóa thân hoặc Toreando dựa trên phản ứng của người chơi Guard.",
-  "shortInstruction": "Từ tư thế ngồi xổm (một đầu gối nâng lên, một đầu gối hạ xuống), chặn khung ống chân của họ bằng đầu gối đã đăng của bạn, kiểm soát hông xa của họ và đọc phản ứng của họ để chọn cắt đầu gối, khóa cơ thể hoặc Toreando.",
-  "summary": "Tư thế ngồi xổm (còn gọi là trụ sở) là vị trí pass nền tảng cho BJJ hiện đại. Nó tạo ra một đế hình tam giác chặn khung ống chân của đối phương trong khi vẫn giữ cho hông của bạn di động. Từ động tác squat-squat, bạn đọc góc hông và khoảng cách của đối phương để chọn pass thích hợp: cắt đầu gối (khoảng cách ngắn), khóa thân (khoảng cách trung bình) hoặc Toreando (khoảng cách dài).",
+  "name": "HQ / Split Squat",
+  "description": "Headquarters (HQ) và Split Squat passing: quản lý khoảng cách bằng một đầu gối nâng lên và một đầu gối hạ xuống, chặn khung ống chân và chọn Knee Cut, Bodylock hoặc Toreando dựa trên phản ứng của người chơi Guard.",
+  "shortInstruction": "Từ Split Squat (một đầu gối nâng lên, một đầu gối hạ xuống), chặn khung ống chân của họ bằng đầu gối trụ của bạn, kiểm soát hông xa của họ và đọc phản ứng để chọn Knee Cut, Bodylock hoặc Toreando.",
+  "summary": "Split Squat (còn gọi là headquarters) là vị trí pass nền tảng của BJJ hiện đại. Nó tạo ra một đế hình tam giác chặn khung ống chân của đối phương trong khi vẫn giữ cho hông của bạn di động. Từ Split Squat, bạn đọc góc hông và khoảng cách của đối phương để chọn pass thích hợp: Knee Cut (khoảng cách ngắn), Bodylock (khoảng cách trung bình) hoặc Toreando (khoảng cách dài).",
   "whyItWorks": [
-    "Tư thế ngồi xổm (một đầu gối nâng lên, một đầu gối hạ xuống) tạo ra một bệ đỡ ổn định có thể điều chỉnh theo bất kỳ phản ứng nào của người chơi Guard",
-    "Đầu gối được gắn chặn công cụ giữ Guard phổ biến nhất - khung ống chân",
-    "Động tác squat giữ trọng lượng của bạn về phía trước, ngăn đối thủ thoát hông hoặc tạo khoảng cách",
-    "Ba tùy chọn chuyển từ một vị trí có nghĩa là bạn luôn có phản hồi dựa trên đọc"
+    "Split Squat (một đầu gối nâng lên, một đầu gối hạ xuống) tạo ra một base ổn định có thể điều chỉnh theo bất kỳ phản ứng nào của người chơi Guard",
+    "Đầu gối trụ chặn công cụ giữ Guard phổ biến nhất, đó là khung ống chân",
+    "Động tác Split Squat giữ trọng lượng của bạn hướng về phía trước, ngăn đối thủ thoát hông hoặc tạo khoảng cách",
+    "Ba lựa chọn pass từ một vị trí nghĩa là bạn luôn có phản hồi dựa trên việc đọc phản ứng"
   ],
   "commonMistakes": [
-    "Để bàn chân hướng lên trên đầu gối bằng phẳng - bàn chân phải ở trên quả bóng, không bằng phẳng, để di chuyển",
-    "Mất kết nối hông xa - tay của bạn phải duy trì tiếp xúc với hông xa của họ",
-    "Cam kết pass trước khi đọc phản hồi của họ - việc đọc phải đến trước lựa chọn pass",
-    "Nâng hông lên quá cao, điều này tạo cho đối thủ không gian để thực hiện lại Guard hoặc tấn công"
+    "Đặt bàn chân phẳng trên đầu gối, bàn chân phải ở trên mũi bàn chân chứ không phẳng, để còn di chuyển",
+    "Mất kết nối hông xa, tay của bạn phải giữ tiếp xúc với hông xa của họ",
+    "Cam kết pass trước khi đọc phản ứng của họ, việc đọc phải đến trước lựa chọn pass",
+    "Nâng hông lên quá cao, điều này cho đối thủ không gian để chơi lại Guard hoặc tấn công"
   ],
   "coachingCues": [
-    "Đầu gối lên, đầu gối xuống, chân đế ổn định",
+    "Đầu gối lên, đầu gối xuống, base ổn định",
     "Chặn ống chân, kiểm soát hông",
-    "Đọc đầu tiên, vượt qua thứ hai",
-    "Cắt đầu gối, khóa thân hoặc Toreando"
+    "Đọc trước, pass sau",
+    "Knee Cut, Bodylock hoặc Toreando"
   ],
   "safetySummary": [
-    "Đừng để bàn chân chống lên đầu gối của bạn trượt quá xa về phía trước - điều này có thể khiến hông bị duỗi quá mức",
-    "Hãy cẩn thận với Ankle Lock khi thực hiện động tác squat gập người, hãy luôn chủ động và chú ý đến đôi chân của bạn",
-    "Nếu đối thủ lăn dưới pass của bạn, hãy bảo vệ đầu gối của bạn khỏi bị va đập hoặc để lộ gót chân"
+    "Đừng để bàn chân chống lên đầu gối của bạn trượt quá xa về phía trước, điều này có thể làm duỗi quá mức hông của bạn",
+    "Cẩn thận Ankle Lock khi thực hiện động tác Split Squat, hãy luôn chủ động và để ý đến đôi chân của bạn",
+    "Nếu đối thủ lăn dưới pass của bạn, hãy bảo vệ đầu gối của bạn khỏi va đập và không để lộ gót chân"
   ],
   "keyCorrections": [
-    "Nếu họ tiếp tục đóng khung ống chân: thả thêm trọng lượng lên đầu gối đã trụ - khung ống chân sẽ xẹp xuống dưới sức nặng",
-    "Nếu họ tiếp tục thoát hông: chuyển sang bước lùi hoặc kéo chân - việc cắt đầu gối sẽ không có tác dụng ở khoảng cách xa",
-    "Nếu họ tiếp tục tấn công chân trụ của bạn: thả đầu gối đã trụ xuống thảm và chuyển sang khóa thân pass"
+    "Nếu họ cứ đóng khung ống chân: dồn thêm trọng lượng lên đầu gối trụ, khung ống chân sẽ xẹp xuống dưới sức nặng",
+    "Nếu họ cứ thoát hông: chuyển sang Backstep hoặc Leg Drag, Knee Cut không dùng được ở khoảng cách xa",
+    "Nếu họ cứ tấn công chân trụ của bạn: thả đầu gối trụ xuống thảm và chuyển sang Bodylock pass"
   ],
   "systemLogic": {
-    "corePrinciple": "Hệ thống chuyền squat-squat có ba nhánh: Knee Cut → Bodylock → Toreando",
+    "corePrinciple": "Hệ thống pass từ Split Squat có ba nhánh: Knee Cut → Bodylock → Toreando",
     "decisionTree": [
       {
-        "condition": "Nhánh 1, Cắt đầu gối: khi đối thủ ấn ống chân của họ vào đầu gối đã đăng của bạn. Thả đầu gối đã đặt của bạn xuống tấm thảm, trượt qua ống chân của họ và cắt ngang tới Side Control.",
+        "condition": "Nhánh 1, Knee Cut: khi đối thủ ấn ống chân của họ vào đầu gối trụ của bạn. Thả đầu gối trụ xuống thảm, trượt qua ống chân của họ và cắt ngang tới Side Control.",
         "action": "Sử dụng crossface để ghim đầu"
       },
       {
         "condition": "Ứng dụng chung",
-        "action": "Nếu Nhánh 2, Bodylock: khi đối thủ áp sát nhưng không gây áp lực lên ống chân. Thả đầu gối đã cố định của bạn xuống thảm, khóa tay quanh hông họ và lái tới Side Control bằng áp lực từ ngực đến hông"
+        "action": "Nếu Nhánh 2, Bodylock: khi đối thủ áp sát nhưng không gây áp lực lên ống chân. Thả đầu gối trụ của bạn xuống thảm, khóa tay quanh hông họ và lái tới Side Control bằng áp lực từ ngực đến hông"
       },
       {
         "condition": "Ứng dụng chung",
-        "action": "Nếu Nhánh 3, Toreando: khi đối thủ tạo khoảng cách đáng kể (thoát hông hoặc đập chân). Đẩy cả hai chân sang một bên và vòng sang phía đối diện. Không được sử dụng phổ biến trong No-Gi nhưng hiệu quả với những người chơi Guard linh hoạt"
+        "action": "Nếu Nhánh 3, Toreando: khi đối thủ tạo khoảng cách đáng kể (thoát hông hoặc đá chân). Đẩy cả hai chân sang một bên và vòng sang phía đối diện. Không phổ biến trong No-Gi nhưng hiệu quả với những người chơi Guard linh hoạt"
       },
       {
         "condition": "Ứng dụng chung",
-        "action": "Dự phòng: nếu cả ba đường chuyền đều không có tác dụng, hãy đứng lên và vào lại trụ sở từ trạng thái đứng"
+        "action": "Dự phòng: nếu cả ba đường pass đều không có tác dụng, hãy đứng lên và vào lại headquarters từ tư thế đứng"
       }
     ]
   },
   "moneyDetails": [
-    "Squat-squat là tư thế chuyền phổ biến, nó có tác dụng với tất cả các kiểu cơ thể và kiểu Guard",
-    "Học cách chuyền bóng theo tư thế ngồi xổm là con đường nhanh nhất để có được một trò chơi chuyền bóng hoàn chỉnh",
+    "Split Squat là thế pass phổ biến, nó dùng được với mọi kiểu cơ thể và mọi kiểu Guard",
+    "Học cách pass từ Split Squat là con đường nhanh nhất để có một hệ thống pass hoàn chỉnh",
     "Hệ thống này là nền tảng của chương trình giảng dạy Guard passing của Danaher"
   ],
   "fixItFast": [
-    "Nếu họ tiếp tục giữ khung ống chân: chuyển sang đường chuyền khóa thân - khóa cơ thể sẽ vô hiệu hóa khung ống chân",
-    "Nếu họ tiếp tục thoát hông: chuyển sang bước lùi - bước lùi bao phủ khoảng cách nhanh hơn vết cắt đầu gối",
-    "Nếu họ tiếp tục tấn công vào chân bạn: hãy đứng lên và vào lại - bạn không cần phải vượt qua tư thế squat"
+    "Nếu họ cứ giữ khung ống chân: chuyển sang Bodylock pass, Bodylock vô hiệu hóa khung ống chân",
+    "Nếu họ cứ thoát hông: chuyển sang Backstep, Backstep bao quãng đường nhanh hơn Knee Cut",
+    "Nếu họ cứ tấn công vào chân bạn: hãy đứng lên và vào lại, bạn không cần pass từ thế Split Squat"
   ]
 }

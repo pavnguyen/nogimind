@@ -1,0 +1,75 @@
+{
+  "id": "r-guard",
+  "locale": "vi",
+  "name": "R-Guard",
+  "description": "R-Guard (Reverse Guard) là cách đọc no-gi của dòng De La Riva: móc nằm bên ngoài chân gần và các grip được xây trên cổ tay và chân thay vì vải, nên chân dưới luôn tự do và headquarters không ghim được nó xuống thảm.",
+  "shortInstruction": "Thả chân dưới trước, xoay hông ra xa rồi leo lên chân xa. R-Guard để trả lời headquarters, không phải chỗ để nằm giữ Guard.",
+  "summary": "R-Guard, còn gọi là Reverse Guard, là biến thể no-gi hiện đại của De La Riva. Vì không có tay áo và cổ áo để nắm, người chơi Guard đảo lại cấu hình: móc đặt bên ngoài chân gần, còn kiểm soát đến từ cổ tay, chân xa và góc hông. Hình dạng này vừa phòng thủ vừa tấn công: chân dưới luôn tự do, nên người trên không ghim được nó xuống thảm khi họ vào headquarters. Từ đúng thế đó, người chơi Guard nối sang sweep, wrestle-up và entry vào cross ashi, nên các võ sĩ no-gi hiện đại coi đây là tuyến phòng thủ đầu tiên thay vì một thế Guard nằm im.",
+  "whyItWorks": [
+    "Móc bên ngoài giữ chân dưới tự do, nên người trên không ghim được chân đó xuống thảm từ headquarters.",
+    "Không có tay áo hay cổ áo để nắm, các kiểm soát dồn vào cổ tay, chân xa và góc hông, đúng những gì còn dùng được ở no-gi.",
+    "Đây là bệ phóng chứ không phải đích đến: cùng một thế cho ra sweep, wrestle-up và entry vào cross ashi.",
+    "Chặn được cú ghim buộc người trên phải nhấc chân, và mỗi lần họ nhấc chân là một lần bạn có entry."
+  ],
+  "commonMistakes": [
+    "Để chân dưới nằm phẳng và hở trong khi vẫn giữ móc, cú ghim chính là thứ R-Guard sinh ra để chặn.",
+    "Chơi như De La Riva có vải, với tay tìm những grip không tồn tại thay vì kiểm soát cổ tay và chân xa.",
+    "Xoay hông vào người trên thay vì xoay ra, tức là dâng chân cho họ ghim.",
+    "Nằm giữ Guard thay vì nối tiếp, R-Guard là câu trả lời cho áp lực, không phải chỗ để chờ.",
+    "Đuổi theo cái móc sau khi nó đã bị gỡ, ngồi dậy vào lại nhanh hơn là tranh một cái móc đã mất khi đang nằm ngửa."
+  ],
+  "coachingCues": [
+    "Thả chân trước, tấn công sau.",
+    "Hông xa ra, móc ẩn đi.",
+    "Cổ tay và chân xa, đó là grip của bạn ở no-gi.",
+    "Leo lên, đừng nằm giữ."
+  ],
+  "safetySummary": [
+    "Không để người trên dồn trọng lượng lên gối đang móc, nếu gối bị kẹp và chịu lực, thả móc trước khi khớp phải gánh.",
+    "Không xoắn người để thoát khỏi cái móc bị kẹp, hãy thả entanglement rồi vào lại, gối không chịu được lực ngang.",
+    "Khi leo lên chân xa, giữ đường gối của bạn sau đùi họ, để pha chuyển không làm lộ chân bạn thay vì chân họ.",
+    "Khi drill, giữ móc nhẹ, đó là kiểm soát, không phải để vặn gối partner."
+  ],
+  "keyCorrections": [
+    "Nếu chân dưới cứ bị ghim, bạn đang giữ Guard ở thế phẳng, hãy xoay hông ra và nhấc móc trước khi họ dồn trọng lượng.",
+    "Nếu không kiểm soát được gì, bạn đang với tay tìm vải, hãy lấy 2-on-1 trên cổ tay hoặc chân xa.",
+    "Nếu móc bị gỡ và họ về thế vuông, ngồi dậy vào seated guard và vào lại, đừng đuổi theo móc khi đang nằm ngửa."
+  ],
+  "systemLogic": {
+    "corePrinciple": "Móc bên ngoài cùng các kiểm soát ngược → giữ chân dưới tự do để headquarters không ghim được → xoay hông ra → sweep, wrestle-up hoặc leo lên cross ashi.",
+    "decisionTree": [
+      {
+        "condition": "Họ dồn vào để ghim chân dưới ở headquarters",
+        "action": "xoay hông ra, thả chân ra rồi móc lại bên ngoài chân gần."
+      },
+      {
+        "condition": "Họ bước chân gần qua đường giữa của bạn",
+        "action": "nhấc hông lên và vào cross ashi trên chân vừa hở."
+      },
+      {
+        "condition": "Họ đứng cao với base rộng",
+        "action": "lên người bằng cái móc để vào single leg hoặc wrestle-up."
+      },
+      {
+        "condition": "Họ gỡ móc và về thế vuông",
+        "action": "ngồi dậy vào seated guard và vào lại, không tranh móc khi đang nằm ngửa."
+      }
+    ],
+    "exitStrategies": [
+      "Nếu cái móc bị kẹp và chịu lực, thả ra trước khi gối bị xoắn, rồi vào lại từ seated guard.",
+      "Nếu headquarters đã lên và chân dưới bị ghim, recover về seated guard hoặc half guard rồi bắt đầu lại chuỗi."
+    ]
+  },
+  "moneyDetails": [
+    "Móc đặt bên ngoài chân gần và bàn chân để nhẹ, khi hông họ dồn lên là bạn di chuyển.",
+    "Chân dưới là thứ bạn đang bảo vệ, nó vừa nằm phẳng là R-Guard hết.",
+    "Nhìn chân xa, entry cross ashi xuất hiện khi họ bước chân gần qua đường giữa của bạn.",
+    "Cổ tay trước chân, không có vải thì cổ tay và chân xa là những kiểm soát duy nhất trụ được."
+  ],
+  "nextStep": "Sau R-Guard, học K-Guard và entry false reap để biến cùng cái móc bên ngoài đó thành cross ashi và saddle.",
+  "fixItFast": [
+    "Chân dưới cứ bị ghim? Xoay hông ra và nhấc móc trước khi họ dồn trọng lượng.",
+    "Thiếu vải nên không kiểm soát được? Lấy 2-on-1 trên cổ tay hoặc chân xa thay vì với tay vào khoảng không.",
+    "Kẹt ở thế nằm giữ Guard? Nối tiếp: sweep, wrestle-up hoặc leo lên chân."
+  ]
+}

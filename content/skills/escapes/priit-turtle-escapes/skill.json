@@ -1,0 +1,66 @@
+{
+  "id": "priit-turtle-escapes",
+  "domain": "escapes",
+  "level": "intermediate",
+  "name": "Priit Turtle Escapes",
+  "aliases": [
+    "Pritt turtle escapes",
+    "turtle escape system",
+    "defensive turtle"
+  ],
+  "tags": [
+    "turtle",
+    "escape",
+    "survival",
+    "tier:modern-expansion",
+    "meta:modern-common",
+    "risk:medium",
+    "family:escape",
+    "modern-no-gi"
+  ],
+  "keywords": [
+    "turtle",
+    "turtle escape",
+    "sitting turtle",
+    "hidden neck",
+    "seatbelt",
+    "back take prevention"
+  ],
+  "relatedSkills": [
+    {
+      "id": "turtle-to-guard-recovery",
+      "type": "chain"
+    },
+    {
+      "id": "turtle-escape-standup",
+      "type": "alternative"
+    },
+    {
+      "id": "back-escape",
+      "type": "recommended"
+    },
+    {
+      "id": "back-survival",
+      "type": "supporting"
+    }
+  ],
+  "prerequisiteSkillIds": [
+    "back-survival"
+  ],
+  "relatedPositions": [],
+  "relatedConcepts": [],
+  "archetypeIds": [
+    "defensive-counter-grappler"
+  ],
+  "trainingMethodIds": [],
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "updatedAt": "2026-10-10T00:00:00.000Z"
+}

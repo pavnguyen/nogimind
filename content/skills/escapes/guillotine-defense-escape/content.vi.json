@@ -2,19 +2,19 @@
   "id": "guillotine-defense-escape",
   "locale": "vi",
   "name": "Guillotine Defense and Escape",
-  "description": "Bảo vệ và thoát khỏi tình trạng nghẹt thở Guillotine bằng cách bảo vệ cổ, giải phóng cánh tay bị nghẹt thở và khôi phục về vị trí trung lập hoặc chiếm ưu thế.",
+  "description": "Bảo vệ và thoát khỏi choke Guillotine bằng cách bảo vệ cổ, giải phóng cánh tay đang choke và khôi phục về vị trí trung lập hoặc chiếm ưu thế.",
   "shortInstruction": "Hóp cằm, dùng tay chống lại cánh tay đang bị nghẹn, dồn trọng lượng của bạn lên họ và kéo cánh tay qua người để thoát ra ngoài.",
   "summary": "Guillotine phòng thủ sử dụng động tác gập cằm, đánh tay và tư thế cơ thể để giảm áp lực ở cổ, sau đó thực hiện một trình tự có hệ thống để loại bỏ cánh tay bị nghẹn và phục hồi Guard hoặc vị trí trên cùng. Hệ thống ưu tiên kiểm soát tư thế và cánh tay hơn là giật mạnh.",
   "whyItWorks": [
     "Gập cằm sẽ thu hẹp khoảng trống giữa cổ và vai, khiến cánh tay bị nghẹn khó chìm sâu hơn",
-    "Kiểm soát cánh tay bị nghẹn ở khuỷu tay (không phải bàn tay) mang lại cho bạn lợi thế về mặt cơ học - khuỷu tay là điểm tựa của cuộn cảm",
+    "Kiểm soát cánh tay bị nghẹn ở khuỷu tay (không phải bàn tay) mang lại cho bạn lợi thế về mặt cơ học - khuỷu tay là điểm tựa của choke",
     "Dồn trọng lượng của bạn về phía trước lên đối thủ sẽ tạo áp lực lên lưng trên của họ và buộc họ phải gánh trọng lượng cơ thể của bạn, khiến họ bỏ nỗ lực siết cổ",
     "Việc tách cánh tay dọc theo cơ thể sẽ sử dụng toàn bộ động tác xoay thân mình chứ không chỉ sức mạnh của cánh tay để phá vỡ khả năng cầm nắm"
   ],
   "commonMistakes": [
     "Nhìn lên (duỗi cổ) khi bạn cảm thấy bị nghẹn, điều này làm mở cổ họng và làm sâu hơn Guillotine",
     "Nắm lấy bàn tay thay vì cánh tay - một tay cầm có thể bị bong ra nhưng phần điều khiển trên cánh tay sẽ ngăn họ chìm trở lại",
-    "Cố gắng ép ghế hoặc duỗi cánh tay ra khỏi cơ thể - điều này làm tăng tư thế của bạn và làm cho cơn nghẹt thở sâu hơn",
+    "Cố gắng bench press hoặc duỗi cánh tay ra khỏi cơ thể - điều này làm tăng tư thế của bạn và làm cho choke sâu hơn",
     "Nằm sấp khi Guillotine bị khóa, điều này mang lại cho họ tất cả đòn bẩy và không có lối thoát"
   ],
   "coachingCues": [
@@ -23,10 +23,10 @@
     "Xếp và bóc, đừng kéo"
   ],
   "safetySummary": [
-    "Guillotine có thể gây bất tỉnh trong vài giây nếu động mạch cảnh bị nén, chạm sớm nếu bị nghẹt thở sâu",
-    "Một số biến thể Guillotine nhắm vào khí quản thay vì động mạch cảnh - điều này nguy hiểm hơn và cần được khai thác ngay lập tức",
+    "Guillotine có thể gây bất tỉnh trong vài giây nếu động mạch cảnh bị nén, tap sớm nếu choke đã sâu",
+    "Một số biến thể Guillotine nhắm vào khí quản thay vì động mạch cảnh - điều này nguy hiểm hơn và cần được tap ngay lập tức",
     "Đừng đánh sâu Guillotine - tốt hơn là bạn nên nhấn, đặt lại và thử phòng thủ sớm hơn trong lần giao chiến tiếp theo",
-    "Tay quay cổ được ngụy trang thành Guillotines (áp lực lên cằm thay vì cổ họng) cần gõ nhẹ ngay lập tức để bảo vệ cột sống cổ"
+    "Neck Crank ngụy trang thành Guillotine (áp lực lên cằm thay vì cổ họng) cần tap ngay lập tức để bảo vệ cột sống cổ"
   ],
   "keyCorrections": [],
   "systemLogic": {
@@ -51,13 +51,13 @@
     ]
   },
   "moneyDetails": [
-    "Guillotine là lần gửi phổ biến nhất từ ​​các lần gỡ xuống không thành công và Front Headlock, khả năng phòng thủ đáng tin cậy là điều cần thiết đối với mọi người vật",
-    "Thành thạo cách phòng thủ Guillotine cho phép bạn thực hiện các đòn hạ gục mà không sợ bị vướng vào đòn phản đòn thông thường nhất",
+    "Guillotine là submission phổ biến nhất từ các lần gỡ xuống không thành công và Front Headlock, khả năng phòng thủ đáng tin cậy là điều cần thiết đối với mọi người vật",
+    "Thành thạo cách phòng thủ Guillotine cho phép bạn thực hiện các takedown mà không sợ bị vướng vào đòn phản đòn thông thường nhất",
     "Một việc thoát Guillotine suôn sẻ thường dẫn trực tiếp đến vị trí hàng đầu thống trị (vượt qua Open Guard của họ khi họ đăng lên)"
   ],
   "fixItFast": [
     "Nếu họ có cổ tay cao Guillotine (dây đeo cằm sâu): đừng cố bóc báng cầm, thay vào đó, hãy đặt tay bạn lên hông họ, đưa đầu bạn ra phía ngoài và vòng ra ngoài",
-    "Nếu họ tụt xuống Guard với Guillotine: giữ tư thế thẳng, đặt tay lên hông họ (không phải cánh tay đang khiến họ nghẹt thở) và ấn vai bị mắc kẹt của bạn vào đùi họ",
+    "Nếu họ tụt xuống Guard với Guillotine: giữ tư thế thẳng, đặt tay lên hông họ (không phải cánh tay đang choke họ) và ấn vai bị mắc kẹt của bạn vào đùi họ",
     "Nếu họ chuyển sang Anaconda hoặc D'arce: đặt cánh tay còn lại của bạn lên đầu họ và ấn vai bạn vào ngực họ trước khi họ có thể khóa hình số bốn"
   ]
 }

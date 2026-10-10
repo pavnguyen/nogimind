@@ -40,7 +40,7 @@
       },
       {
         "condition": "Le coup de coude réussit (le coude est à l'intérieur)",
-        "action": "La hanche s'éloigne de l'adversaire tout en gardant la connexion coude-genou serrée. Revenez à Half Guard avec un knee shield."
+        "action": "La hanche s'éloigne de l'adversaire tout en gardant la connexion coude-genou serrée. Revenez à Half Guard avec un Knee Shield."
       },
       {
         "condition": "L'adversaire passe au Mount technique pendant que vous vous échappez",
@@ -52,7 +52,7 @@
       }
     ],
     "exitStrategies": [
-      "Si vous récupérez le genou et le coude, entrez Half Guard et établissez immédiatement le knee shield.",
+      "Si vous récupérez le genou et le coude, entrez Half Guard et établissez immédiatement le Knee Shield.",
       "S'ils se tournent vers Side Control pendant la fuite, utilisez le cadre pour garder la distance et continuez à vous échapper de la hanche.",
       "Si le premier pont ne parvient pas à créer de l'espace, n'enchaînez pas plusieurs ponts faibles : un pont bien synchronisé avec un coup de coude vaut dix ponts explosifs sans structure."
     ]

@@ -1,8 +1,8 @@
 {
   "id": "clamp-to-triangle-bridge",
   "locale": "vi",
-  "name": "Clamp Guard vào cầu Triangle",
-  "description": "Bắt cầu từ kẹp Guard vào cuộn cảm Triangle: khi đối thủ phòng thủ bằng cách đứng hoặc tách hông ra, hãy dùng chuyển động của họ để xoay chân bạn qua vai họ và khóa Triangle.",
+  "name": "Clamp Guard to Triangle Bridge",
+  "description": "Bắt cầu từ kẹp Guard vào thế Triangle: khi đối thủ phòng thủ bằng cách đứng hoặc tách hông ra, hãy dùng chuyển động của họ để xoay chân bạn qua vai họ và khóa Triangle.",
   "shortInstruction": "Đối thủ đứng hay tách hông? Xoay chân trên của bạn qua vai họ, khóa Triangle và phá vỡ tư thế của họ.",
   "summary": "Cầu kẹp tới Triangle là chuỗi tấn công chính từ kẹp Guard. Khi đối thủ cảm thấy bị kẹp và cố gắng thoát bằng cách đứng hoặc tạo tư thế, họ sẽ tạo ra chính xác khoảng trống mà bạn cần để ném chân qua vai họ. Cuộc thoát của họ trở thành sự sắp đặt của bạn. Cây cầu không phải là một động tác sức mạnh - đó là sự chuyển đổi thời gian và góc.",
   "whyItWorks": [
@@ -14,7 +14,7 @@
   "commonMistakes": [
     "Cố gắng chuyển sang Triangle trước khi đối thủ phản ứng, bạn cần chuyển động của họ để tạo khoảng trống.",
     "Xoay chân mà không kiểm soát được tư thế, họ sẽ tạo tư thế sai lệch Triangle.",
-    "Để overhook đi trong khi đánh cầu, overhook sẽ trở thành tay cầm, vì vậy hãy giữ chặt.",
+    "Để overhook đi trong khi bắc cầu, overhook sẽ trở thành tay cầm, vì vậy hãy giữ chặt.",
     "Không khóa chân sau lưng sau cầu - Triangle chỉ an toàn nếu chân bạn bị khóa."
   ],
   "coachingCues": [
@@ -24,14 +24,14 @@
     "Khóa Triangle trước khi bạn bóp - đặt vị trí đầu tiên."
   ],
   "safetySummary": [
-    "Đừng cầu nguyện một cách bùng nổ nếu trọng lượng của họ dồn lên hông của bạn - bạn có thể duỗi lưng của mình quá mức.",
+    "Đừng bắc cầu một cách bùng nổ nếu trọng lượng của họ dồn lên hông của bạn - bạn có thể duỗi lưng của mình quá mức.",
     "Khi khóa Triangle, hãy giữ cánh tay của đối phương ngang qua cơ thể bạn để tránh duỗi khuỷu tay quá mức.",
-    "Nếu họ xếp bạn trong quá trình nhập, thả và đặt lại Triangle, đừng để họ ấn đầu bạn vào thảm."
+    "Nếu họ stack bạn trong quá trình vào, hãy thả và đặt lại Triangle, đừng để họ ấn đầu bạn vào thảm."
   ],
   "keyCorrections": [
     "Nếu bạn không thể đưa chân qua được nghĩa là họ chưa phản ứng - hãy đợi hoặc tạo phản ứng bằng cách siết chặt kẹp.",
     "Nếu họ tạo tư thế ngoài Triangle thì bạn đã không phá vỡ tư thế của họ trước khi khóa, kéo đầu họ xuống bằng overhook của bạn.",
-    "Nếu họ xếp chồng bạn, góc của bạn đã sai - hãy cắt góc nhiều hơn trước khi khóa chân."
+    "Nếu họ stack bạn, góc của bạn đã sai - hãy cắt góc nhiều hơn trước khi khóa chân."
   ],
   "systemLogic": {
     "corePrinciple": "Thiết lập kẹp: đối thủ đứng hoặc tách hông → vung chân trên qua vai → khóa Triangle → tư thế nghỉ → kết thúc.",
@@ -50,7 +50,7 @@
     "Giữ chặt overhook trong toàn bộ cầu, nó sẽ trở thành cánh tay bị kẹt bên trong Triangle.",
     "Khi bạn vung chân qua, hãy dùng tay còn lại hướng đầu họ xuống để tránh phục hồi tư thế.",
     "Khóa ống chân của bạn sau lưng họ, không chỉ bàn chân của bạn - Triangle bị khóa ở bàn chân có thể được mở ra.",
-    "Cắt góc bằng cách đưa hông của bạn ra xa họ sau khi khóa - điều này làm cho cuộn cảm được siết chặt mà không bị ép."
+    "Cắt góc bằng cách đưa hông của bạn ra xa họ sau khi khóa - điều này làm cho đòn Triangle được siết chặt mà không bị ép."
   ],
   "nextStep": "Sau khi thành thạo Triangle từ kẹp, hãy tìm hiểu các chuyển đổi Armbar và Omoplata từ cùng một vị trí để hoàn thiện hệ thống kẹp.",
   "fixItFast": [

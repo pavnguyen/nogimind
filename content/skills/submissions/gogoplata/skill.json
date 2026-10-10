@@ -23,6 +23,10 @@
   "modernSystemGroup": "clamp_guard",
   "relatedSkills": [
     {
+      "id": "rubber-guard",
+      "type": "supporting"
+    },
+    {
       "id": "clamp-guard-control",
       "type": "recommended"
     },
@@ -36,6 +40,7 @@
     }
   ],
   "prerequisiteSkillIds": [
+    "rubber-guard",
     "clamp-guard-control",
     "front-headlock-defense"
   ],

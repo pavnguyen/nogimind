@@ -48,9 +48,9 @@
   "nextSkillIds": [],
   "searchBoost": 1,
   "keyCorrections": [
-    "Nếu họ tiếp tục bảo vệ cổ mình, hãy tấn công cánh tay Triangle hoặc nhử để chuyển sang Mount.",
-    "Nếu họ nắm lấy bàn tay đang nghẹt thở của bạn, hãy chuyển sang biến thể RNC cổ tay cao.",
-    "Nếu họ bóc móc của bạn, hãy chuyển sang cơ thể Triangle hoặc bắt chéo chân."
+    "Nếu họ tiếp tục bảo vệ cổ mình, hãy tấn công Arm Triangle hoặc nhử để chuyển sang Mount.",
+    "Nếu họ nắm lấy bàn tay đang choke của bạn, hãy chuyển sang biến thể High Wrist RNC.",
+    "Nếu họ bóc móc của bạn, hãy chuyển sang Body Triangle hoặc bắt chéo chân."
   ],
   "version": 1,
   "updatedAt": "2026-05-21T00:24:30.765Z",
@@ -64,60 +64,60 @@
     "hasStateMachine": false
   },
   "locale": "vi",
-  "description": "Một hệ thống hoàn chỉnh từ Back Control: thiết lập seatbelt, móc hoặc thân cố định Triangle, thắng trận đấu tay đôi, sau đó kết thúc bằng RNC, cánh tay Triangle hoặc chuyển đổi khi đối thủ chuyển sang phòng thủ.",
-  "shortInstruction": "seatbelt → móc → đánh tay → kết thúc - tấn công ngược là một hệ thống kiểm soát lũy tiến, không phải một động tác duy nhất.",
-  "summary": "Hệ thống tấn công ngược có tỷ lệ chuỗi submission cao nhất trong BJJ. Quá trình này là: cố định seatbelt (một tay qua vai, một tay dưới nách), khóa móc hoặc cơ thể của bạn Triangle, giành chiến thắng trong cuộc đấu tay đôi để lộ cổ của họ và kết thúc bằng đòn khóa trần phía sau. Nếu họ bảo vệ RNC bằng cách quay lại, hãy chuyển sang nhánh Triangle hoặc Mount. Hệ thống dựa trên phản ứng - bạn không ép buộc phải hoàn thành một lần; bạn xâu chuỗi cho đến khi một cái hoạt động.",
+  "description": "Một hệ thống hoàn chỉnh từ Back Control: thiết lập seatbelt, móc hoặc Body Triangle, thắng hand fight, sau đó kết thúc bằng RNC, Arm Triangle hoặc chuyển đổi khi đối thủ chuyển sang phòng thủ.",
+  "shortInstruction": "seatbelt → móc → hand fight → kết thúc - tấn công ngược là một hệ thống kiểm soát lũy tiến, không phải một động tác duy nhất.",
+  "summary": "Hệ thống tấn công ngược có tỷ lệ chuỗi submission cao nhất trong BJJ. Quá trình này là: cố định seatbelt (một tay qua vai, một tay dưới nách), khóa móc hoặc Body Triangle, giành chiến thắng trong hand fight để lộ cổ của họ và kết thúc bằng Rear Naked Choke. Nếu họ bảo vệ RNC bằng cách quay lại, hãy chuyển sang nhánh Triangle hoặc Mount. Hệ thống dựa trên phản ứng - bạn không ép buộc phải hoàn thành một lần; bạn xâu chuỗi cho đến khi một cái hoạt động.",
   "whyItWorks": [
     "seatbelt kiểm soát phần thân trên của họ và ngăn họ quay mặt về phía bạn.",
-    "Móc hoặc thân Triangle neo phần thân dưới của bạn vào phần thân của họ, họ không thể thoát ra nếu không nhả móc trước.",
-    "Đánh tay là bước quan trọng nhất - bạn không thể bóp cổ họ nếu họ đặt tay lên cánh tay đang bị nghẹn của bạn.",
+    "Móc hoặc Body Triangle neo phần thân dưới của bạn vào phần thân của họ, họ không thể thoát ra nếu không nhả móc trước.",
+    "Hand fight là bước quan trọng nhất - bạn không thể choke họ nếu họ đặt tay lên cánh tay đang bị nghẹn của bạn.",
     "Nguyên tắc Danaher: lưng là vị trí có tỷ lệ tấn công cao nhất vì bạn hoàn toàn kiểm soát được chuyển động của họ."
   ],
   "commonMistakes": [
-    "Bỏ qua cuộc đấu tay đôi và cố gắng siết cổ - nếu tay họ đặt trên cánh tay của bạn, bạn sẽ không kết thúc.",
+    "Bỏ qua hand fight và cố gắng choke - nếu tay họ đặt trên cánh tay của bạn, bạn sẽ không kết thúc.",
     "Mất sự tiếp xúc giữa ngực với lưng - sự kết nối giữa ngực với lưng là nguyên nhân ngăn cản việc thoát.",
-    "Để họ biến thành bạn mà không cần chuyển đổi, nếu họ biến thành Mount hoặc cánh tay Triangle.",
+    "Để họ biến thành bạn mà không cần chuyển đổi, nếu họ biến thành Mount hoặc Arm Triangle.",
     "Chỉ sử dụng một đòn tấn công, hệ thống yêu cầu xâu chuỗi: RNC → nhánh Triangle → Mount → rút lui."
   ],
   "coachingCues": [
-    "seatbelt đầu tiên, hook thứ hai, tay thứ ba, sặc cuối cùng.",
+    "seatbelt đầu tiên, hook thứ hai, tay thứ ba, choke cuối cùng.",
     "Đánh tay theo thứ tự - bóc tay dưới trước.",
     "Nếu họ biến thành bạn, hãy lấy Mount.",
     "Xâu chuỗi các cuộc tấn công của bạn - thiết lập này sẽ hỗ trợ thiết lập tiếp theo."
   ],
   "safetySummary": [
-    "Không quay cổ để ép RNC - đó là nghẹt thở chứ không phải quay cổ.",
-    "Thả ngay khi nhấn - RNCs có thể gây bất tỉnh trong vòng vài giây.",
-    "Khi chuyển sang cánh tay Triangle, đừng vặn mạnh đầu họ."
+    "Không quay cổ để ép RNC - đó là choke chứ không phải neck crank.",
+    "Thả ngay khi họ tap - RNCs có thể gây bất tỉnh trong vòng vài giây.",
+    "Khi chuyển sang Arm Triangle, đừng vặn mạnh đầu họ."
   ],
   "systemLogic": {
-    "corePrinciple": "Back Control → seatbelt → móc/thân chắc chắn Triangle → đấu tay → RNC nỗ lực.",
+    "corePrinciple": "Back Control → seatbelt → móc/Body Triangle → hand fight → RNC.",
     "decisionTree": [
       {
         "condition": "RNC Phản ứng 1: Họ phòng thủ",
-        "action": "cánh tay Triangle trên cánh tay xa."
+        "action": "Arm Triangle trên cánh tay xa."
       },
       {
-        "condition": "RNC Phản ứng 2: Họ nộp đơn",
+        "condition": "RNC Phản ứng 2: Họ tap",
         "action": "lấy Mount hoặc kỹ thuật Mount."
       },
       {
         "condition": "RNC Phản ứng 3: Họ quay đi",
-        "action": "móc lại mặt sau và tiếp tục."
+        "action": "Back Take và tiếp tục."
       }
     ],
     "exitStrategies": []
   },
   "moneyDetails": [
-    "Trận đấu tay theo một trình tự cụ thể: bóc tay dưới (che cổ), sau đó đến tay trên.",
+    "Hand fight theo một trình tự cụ thể: bóc tay dưới (che cổ), sau đó đến tay trên.",
     "Mối liên hệ giữa ngực và lưng được duy trì bằng cách ép xương ức của bạn vào cột sống của họ - không phải bằng cách dùng tay kéo.",
-    "Khi họ biến thành bạn, hãy thả cơ thể Triangle/móc và theo họ đến Mount, đừng tranh giành phía sau.",
+    "Khi họ biến thành bạn, hãy thả Body Triangle/móc và theo họ đến Mount, đừng tranh giành phía sau.",
     "RNC kết thúc nhanh nhất khi khuỷu tay của cánh tay đang bị nghẹn của bạn ở dưới cằm của họ, vị trí của khuỷu tay quan trọng hơn sức bóp."
   ],
-  "nextStep": "Sau hệ thống tấn công từ phía sau, hãy tìm hiểu cách điều khiển cơ thể Triangle và cánh tay Triangle từ phía sau.",
+  "nextStep": "Sau hệ thống tấn công từ phía sau, hãy tìm hiểu cách điều khiển Body Triangle và Arm Triangle từ phía sau.",
   "fixItFast": [
-    "Không thể bị nghẹt thở? Chuyển sang Armbar trên cánh tay xa, họ mở ra khi bảo vệ cuộn cảm.",
+    "Không thể choke? Chuyển sang Armbar trên cánh tay xa, họ mở ra khi bảo vệ choke.",
     "Họ tiếp tục quay vào? Lấy ngay Mount, mất Back Control, thu được Mount.",
-    "Họ nắm lấy tay bạn? Gập cằm và chuyển sang cổ tay cao RNC."
+    "Họ nắm lấy tay bạn? Gập cằm và chuyển sang High Wrist RNC."
   ]
 }

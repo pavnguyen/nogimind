@@ -1,0 +1,75 @@
+{
+  "id": "pistol-grip-armbar",
+  "locale": "vi",
+  "name": "Pistol Grip Armbar",
+  "description": "Pistol Grip Armbar dùng grip cổ tay 2-on-1 khép kín, tức pistol grip, để cô lập cánh tay và giữ nó đủ lâu cho tới khi kết thúc. Grip này không cần vải, nên dùng nguyên sang no-gi.",
+  "shortInstruction": "Cổ tay họ vào một tay, cổ tay bạn vào tay kia, khép vòng lại, kéo về ngực rồi để hông kết thúc cánh tay.",
+  "summary": "Pistol grip là một trong hai grip kiểm soát mà armbar được xây trên đó, grip còn lại là pocket grip. Tay khỏe của bạn nắm cổ tay họ với ngón cái ở trên, tay kia nắm cổ tay của chính bạn, và vòng quanh cổ tay họ không thể mở ra. Vòng khép kín đó là thứ cho phép bạn kéo cổ tay họ về ngực, giữ khuỷu tay họ hướng vào đường giữa của bạn và kết thúc từ mount, side control, lưng hoặc closed guard. Vì kiểm soát nằm trên cổ tay chứ không nằm trên tay áo, pistol grip là một trong những thế vào armbar dùng được nguyên ở no-gi, và cũng là grip giúp armbar đứng vững trước một đối thủ to khỏe, mồ hôi nhiều, liên tục gỡ grip một tay của bạn.",
+  "whyItWorks": [
+    "Pistol grip là một vòng khép kín quanh cổ tay họ, cổ tay không tuột ra được và hai tay bạn không bị gỡ từng tay một như khi chỉ nắm bằng một tay.",
+    "Kéo cổ tay đã khóa về ngực tạo áp lực tức thì lên vai họ, chưa đủ để kết thúc nhưng đủ để họ không xoay người vào và giấu cánh tay.",
+    "Kiểm soát nằm ở hai cánh tay chứ không nằm ở trọng lượng cơ thể, nên hông bạn vẫn tự do cho phần kết thúc và base vẫn tự do để phòng phản đòn.",
+    "Grip không cần vải, nên nó trụ được trong một round no-gi đẫm mồ hôi và trước partner có khả năng gỡ grip tốt hơn grip của bạn."
+  ],
+  "commonMistakes": [
+    "Nắm cổ tay mà không khép vòng, một grip một tay trên cổ tay ướt mồ hôi là grip sẽ mất.",
+    "Kéo cổ tay ngang ngực trong khi khuỷu tay họ còn tự do, nếu khuỷu tay di chuyển được thì họ xoay vào và armbar biến mất.",
+    "Để ngón cái của họ chúc xuống, góc ngón cái hướng lên là thứ làm đường khuỷu gãy theo hướng bạn muốn.",
+    "Bóp bằng hai bàn tay thay vì nâng bằng hông, phần kết thúc là cánh tay ổn định và hông duỗi ra, không phải cú bóp mạnh hơn.",
+    "Với tới pistol grip quá muộn, khi khuỷu tay họ đã chạm thảm thì cơ hội đã đóng và bạn đang tranh thế chứ không còn tranh grip."
+  ],
+  "coachingCues": [
+    "Khép vòng: cổ tay họ vào một tay, cổ tay bạn vào tay kia.",
+    "Cổ tay về ngực, khuỷu tay về đường giữa của bạn.",
+    "Ngón cái hướng lên, gối khép, hông làm việc.",
+    "Thắng cổ tay trước, armbar là phần thưởng sau."
+  ],
+  "safetySummary": [
+    "Armbar tấn công khuỷu tay, duỗi chậm và dừng ngay khi partner thấy khó chịu, khuỷu tay bị duỗi quá mức không cảnh báo lần thứ hai.",
+    "Không giật hay nảy lên khuỷu tay để ép tap.",
+    "Giữ khuỷu tay của bạn sát sườn khi khép vòng, để bạn không phải là người bị lăn trong lúc đang xây grip.",
+    "Thống nhất cách tap trước khi drill phần kết thúc armbar, và thả ngay khi partner tap hoặc nắm lấy cánh tay của họ."
+  ],
+  "keyCorrections": [
+    "Nếu cứ mất cổ tay, bạn đang nắm bằng một tay, hãy khép vòng vào cổ tay của chính bạn và kéo sát vào ngực.",
+    "Nếu họ cứ xoay vào, khuỷu tay họ đang tự do, hãy ghim lại trên đường giữa của bạn trước khi duỗi.",
+    "Nếu phần kết thúc có vẻ yếu, bạn đang bóp thay vì nâng, bỏ cú bóp và duỗi hông chậm."
+  ],
+  "systemLogic": {
+    "corePrinciple": "Khép pistol grip quanh cổ tay họ → kéo cổ tay về ngực và ghim khuỷu tay trên đường giữa → giữ ngón cái họ hướng lên → kết thúc bằng hông, không phải bằng tay.",
+    "decisionTree": [
+      {
+        "condition": "Họ co khuỷu tay và giấu bàn tay",
+        "action": "kéo cổ tay đã khóa về ngực rồi bước hông ra cho tới khi đường khuỷu lộ ra."
+      },
+      {
+        "condition": "Họ xoay người vào bạn trong khi vòng còn khép",
+        "action": "giữ vòng khép, đưa chân qua đầu và cô lập lại cánh tay ở góc mới thay vì thả grip."
+      },
+      {
+        "condition": "Họ nắm lấy cánh tay hoặc cổ tay của chính họ để phòng thủ",
+        "action": "dùng vòng khép như một 2-on-1 và bóc grip của họ ra trước khi duỗi."
+      },
+      {
+        "condition": "Grip mở ra",
+        "action": "dừng đòn, xây lại pistol grip trước, grip khép nửa vời là chỗ khuỷu tay hay bị chấn thương."
+      }
+    ],
+    "exitStrategies": [
+      "Nếu họ ghim được khuỷu tay xuống thảm và armbar đã hết, giữ thế (mount, lưng, side control) thay vì cố ép phần kết thúc.",
+      "Nếu là round no-gi và grip cứ mất, nối sang triangle hoặc omoplata từ chính kiểm soát cổ tay đó thay vì vào lại grip."
+    ]
+  },
+  "moneyDetails": [
+    "Ngón cái đặt trên đỉnh cổ tay họ, tay kia nắm cổ tay của chính bạn, và vòng khép lại ở phía ngoài bàn tay họ.",
+    "Cổ tay đi về xương ức của bạn, khuỷu tay họ chĩa vào khoảng trước hông bạn, đó là đường bạn phá.",
+    "Giữ ngón cái của họ hướng lên, hướng xoay làm đường khuỷu gãy theo ý bạn bắt đầu từ vị trí ngón cái.",
+    "Phần kết thúc rất nhỏ: gối khép, hông cao và duỗi hông chậm. Grip mua kiểm soát, hông mua cú tap."
+  ],
+  "nextStep": "Sau pistol grip armbar, nối sang triangle, omoplata và lấy lưng từ chính kiểm soát cổ tay đó.",
+  "fixItFast": [
+    "Mất cổ tay? Khép vòng, tay bạn nắm cổ tay bạn, và kéo sát vào ngực.",
+    "Họ cứ xoay vào? Khuỷu tay họ đang tự do, ghim lại trên đường giữa trước khi duỗi.",
+    "Phần kết thúc yếu? Bỏ cú bóp, nhấc hông lên và duỗi chậm."
+  ]
+}

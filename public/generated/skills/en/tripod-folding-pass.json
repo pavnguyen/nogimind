@@ -3,8 +3,9 @@
   "domain": "passing",
   "level": "intermediate",
   "status": "draft",
-  "name": "Tripod / Folding Pass",
+  "name": "Tripod Pass",
   "aliases": [
+    "tripod pass",
     "folding pass",
     "headquarters pass",
     "smash fold"
@@ -76,13 +77,13 @@
     "hasStateMachine": false
   },
   "locale": "en",
-  "description": "The tripod (or folding) pass is a pressure passing system from the headquarters position. The passer establishes a tripod base with head pressure to one side, driving the opponent's knees to their chest and folding their body to flatten their Guard. Popularized by Gordon Ryan and John Danaher, the tripod pass is considered one of the most effective no-gi passes against flexible Guard players because it removes their ability to invert or re-Guard.",
+  "description": "The Tripod Pass (or folding pass) is a pressure passing system from the headquarters position. The passer establishes a tripod base with head pressure to one side, driving the opponent's knees to their chest and folding their body to flatten their Guard. Popularized by Gordon Ryan and John Danaher, the Tripod Pass is considered one of the most effective no-gi passes against flexible Guard players because it removes their ability to invert or re-Guard.",
   "shortInstruction": "From headquarters, establish a tripod base with your head on one side, drive their knees to their chest, fold their body, and flatten them to pass to Side Control.",
-  "summary": "The tripod pass works by using a wide, tripod-like stance combined with heavy head pressure to fold the opponent's body. From headquarters (one knee up, one knee down with crossface control), the passer posts their outside leg wide, drops their head to the mat on one side, and drives their shoulder into the opponent's hip line. This forces the opponent's knees toward their chest and flattens their Guard, creating a clear path to Side Control or Mount. The key mechanical detail is keeping your hips low and your head glued to their far hip.",
+  "summary": "The Tripod Pass works by using a wide, tripod-like stance combined with heavy head pressure to fold the opponent's body. From headquarters (one knee up, one knee down with crossface control), the passer posts their outside leg wide, drops their head to the mat on one side, and drives their shoulder into the opponent's hip line. This forces the opponent's knees toward their chest and flattens their Guard, creating a clear path to Side Control or Mount. The key mechanical detail is keeping your hips low and your head glued to their far hip.",
   "whyItWorks": [
     "The tripod base makes it impossible for the opponent to re-insert Guard hooks",
     "Head pressure on the far hip prevents the opponent from turning away or inverting",
-    "Folding the body flattens the Guard, removing frames and knee shields",
+    "Folding the body flattens the Guard, removing frames and Knee Shields",
     "The wide base makes it extremely difficult for the opponent to sweep or off-balance you"
   ],
   "commonMistakes": [
@@ -105,7 +106,7 @@
     "Be aware of leg lasso or spider Guard variations if your posture breaks"
   ],
   "systemLogic": {
-    "corePrinciple": "Tripod pass has 3 branches: Hip Fold Pass → Smash Knee Cut → Tripod to Mount",
+    "corePrinciple": "Tripod Pass has 3 branches: Hip Fold Pass → Smash Knee Cut → Tripod to Mount",
     "decisionTree": [
       {
         "condition": "Opponent defends by turning away",
@@ -123,9 +124,9 @@
     "exitStrategies": []
   },
   "moneyDetails": [
-    "The tripod pass is the highest-percentage pass against flexible, Inverted Guard players",
-    "Gordon Ryan has used the tripod pass to pass the Guard of every ADCC champion he faced",
-    "Mastering the tripod pass eliminates the need for complex footwork against most Guard players"
+    "The Tripod Pass is the highest-percentage pass against flexible, Inverted Guard players",
+    "Gordon Ryan has used the Tripod Pass to pass the Guard of every ADCC champion he faced",
+    "Mastering the Tripod Pass eliminates the need for complex footwork against most Guard players"
   ],
   "fixItFast": [
     "If they keep re-guarding: more head pressure, drive your shoulder into their far hip",

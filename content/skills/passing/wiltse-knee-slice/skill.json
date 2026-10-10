@@ -1,0 +1,68 @@
+{
+  "id": "wiltse-knee-slice",
+  "domain": "passing",
+  "level": "advanced",
+  "name": "Wiltse Knee Slice",
+  "aliases": [
+    "Wiltse knee cut",
+    "explosive knee slice"
+  ],
+  "tags": [
+    "passing",
+    "knee-cut",
+    "knee-slice",
+    "tier:modern-expansion",
+    "meta:modern-common",
+    "risk:medium",
+    "family:passing",
+    "group:modern-passing",
+    "modern-no-gi"
+  ],
+  "keywords": [
+    "knee slice",
+    "knee cut",
+    "underhook",
+    "shin-to-shin",
+    "headquarters",
+    "buzzsaw passing"
+  ],
+  "modernSystemGroup": "modern_passing",
+  "relatedSkills": [
+    {
+      "id": "knee-cut-passing",
+      "type": "prerequisite"
+    },
+    {
+      "id": "headquarters-passing",
+      "type": "supporting"
+    },
+    {
+      "id": "shin-to-shin-entry",
+      "type": "chain"
+    },
+    {
+      "id": "leg-drag-basics",
+      "type": "chain"
+    }
+  ],
+  "prerequisiteSkillIds": [
+    "knee-cut-passing",
+    "inside-position"
+  ],
+  "relatedPositions": [],
+  "relatedConcepts": [],
+  "archetypeIds": [
+    "pressure-passer"
+  ],
+  "trainingMethodIds": [],
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "updatedAt": "2026-10-10T00:00:00.000Z"
+}

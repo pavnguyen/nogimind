@@ -26,12 +26,12 @@
   "safetySummary": [
     "Le coup de genou est un balayage à faible impact : l'adversaire atterrit sur sa hanche, pas sur sa tête ou son cou.",
     "N'étendez pas trop votre genou en le plaçant trop loin dans le dos.",
-    "Si l'adversaire résiste au coup de genou en reculant, soyez prêt à faire un cercle vers la jambe unique."
+    "Si l'adversaire résiste au coup de genou en reculant, soyez prêt à faire un cercle vers le Single Leg."
   ],
   "keyCorrections": [
     "S'ils ne tombent pas : vous ne les avez pas suffisamment tirés vers l'avant, augmentez la traction vers l'avant avec le underhook",
     "S'ils vous enjambent la tête : la position de votre tête était trop basse – gardez votre tête au niveau de leurs épaules.",
-    "S'ils sprawl sur vous : passez à la jambe unique – votre underhook vous donne l'entrée à une jambe."
+    "S'ils sprawl sur vous : passez au Single Leg – votre underhook vous donne l'entrée à une jambe."
   ],
   "systemLogic": {
     "corePrinciple": "Le genou de combat aérien fait partie d'un système de combat aérien plus vaste : Knee Tap → Single Leg → Re-Guard",
@@ -41,8 +41,8 @@
         "action": "conduisez votre genou intérieur vers le tapis et atteignez leur cheville la plus éloignée. Le coup de genou est votre principal retrait depuis la position de combat aérien."
       },
       {
-        "condition": "Utilisation de l'option 2 (une seule jambe)",
-        "action": "S'ils reculent leur jambe éloignée pour défendre le coup de genou, passez à la jambe simple sur la jambe affichée. Leur poids est déjà engagé sur le poste"
+        "condition": "Utilisation de l'option 2 (Single Leg)",
+        "action": "S'ils reculent leur jambe éloignée pour défendre le coup de genou, passez au Single Leg sur la jambe affichée. Leur poids est déjà engagé sur le poste"
       },
       {
         "condition": "Utilisation de l'option 3 (prise en arrière)",

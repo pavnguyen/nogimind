@@ -94,7 +94,7 @@
       },
       {
         "condition": "Cú đập khuỷu tay thành công (khuỷu tay ở bên trong)",
-        "action": "Hông thoát ra khỏi đối thủ trong khi vẫn giữ chặt kết nối khuỷu tay-đầu gối. Khôi phục về Half Guard bằng knee shield."
+        "action": "Hông thoát ra khỏi đối thủ trong khi vẫn giữ chặt kết nối khuỷu tay-đầu gối. Khôi phục về Half Guard bằng Knee Shield."
       },
       {
         "condition": "Đối thủ chuyển sang kỹ thuật Mount khi bạn thoát",
@@ -106,7 +106,7 @@
       }
     ],
     "exitStrategies": [
-      "Nếu bạn khôi phục được khuỷu tay đầu gối, hãy nhập Half Guard và thiết lập knee shield ngay lập tức.",
+      "Nếu bạn khôi phục được khuỷu tay đầu gối, hãy nhập Half Guard và thiết lập Knee Shield ngay lập tức.",
       "Nếu họ quay sang Side Control trong khi thoát, hãy sử dụng khung để giữ khoảng cách và tiếp tục thoát hông.",
       "Nếu cây cầu đầu tiên không tạo được không gian, đừng nối nhiều cây cầu yếu - một cây cầu đúng lúc với cú va chạm bằng khuỷu tay có giá trị bằng mười cây cầu nổ không có cấu trúc."
     ]

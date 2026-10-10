@@ -43,9 +43,9 @@
   "nextSkillIds": [],
   "searchBoost": 1,
   "keyCorrections": [
-    "Nếu họ hoàn thành việc gỡ xuống bất chấp sprawl của bạn: hông của bạn quá cao, hãy đẩy họ thấp hơn trên lưng họ",
-    "Nếu họ đứng lên trước khi bạn đi vòng: bạn đã đợi quá lâu, hãy khoanh tròn vào thời điểm sprawl hạ cánh",
-    "Nếu họ biến thành bạn: hãy chuyển sang Front Headlock, đừng ép quay lại"
+    "Nếu họ vẫn hoàn tất takedown bất chấp sprawl của bạn: hông của bạn quá cao, hãy đẩy họ thấp hơn trên lưng họ",
+    "Nếu họ đứng lên trước khi bạn đi vòng: bạn đã đợi quá lâu, hãy vòng ngay khi sprawl hạ cánh",
+    "Nếu họ quay vào bạn: hãy chuyển sang Front Headlock, đừng cố ép Go Behind"
   ],
   "version": 1,
   "updatedAt": "2026-05-21T00:24:30.761Z",
@@ -59,34 +59,34 @@
     "hasStateMachine": false
   },
   "locale": "vi",
-  "description": "Sử dụng sprawl để cản phá cú đánh của đối thủ, sau đó vòng ra phía sau trước khi họ xây dựng lại căn cứ của mình. sprawl và đi sau là tỷ lệ phòng thủ bị hạ gục cao nhất trong No-Gi, nó chuyển trực tiếp sprawl phòng thủ thành tấn công Back Control.",
-  "shortInstruction": "sprawl bằng cách đẩy hông của bạn xuống lưng họ, đặt tay lên vai họ, sau đó vòng sang một bên và đưa lưng ra sau. Đừng để họ xây dựng lại căn cứ của họ.",
-  "summary": "Trình tự sprawl và đi phía sau là: (1) sprawl, đẩy hông của bạn lên lưng dưới của họ khi họ bắn, (2) điều khiển, đặt tay lên vai hoặc đầu của họ để ngăn họ đứng, (3) vòng tròn, bước sang một bên và vòng ra phía sau họ, (4) cố định, đưa lưng ra sau bằng móc hoặc seatbelt. Thời điểm phải ngay lập tức - nếu bạn đợi họ thiết lập lại căn cứ của mình, cửa sổ lấy lại sẽ đóng lại.",
+  "description": "Sử dụng sprawl để cản phá cú đánh của đối thủ, sau đó vòng ra phía sau trước khi họ xây dựng lại căn cứ. Sprawl và Go Behind là cách phòng thủ takedown hiệu quả nhất trong no-gi, nó chuyển trực tiếp sprawl phòng thủ thành tấn công Back Control.",
+  "shortInstruction": "Sprawl bằng cách đẩy hông của bạn xuống lưng họ, đặt tay lên vai họ, sau đó vòng sang một bên và đưa lưng ra sau. Đừng để họ xây dựng lại căn cứ của họ.",
+  "summary": "Trình tự Sprawl và Go Behind là: (1) sprawl, đẩy hông của bạn lên lưng dưới của họ khi họ bắn, (2) điều khiển, đặt tay lên vai hoặc đầu của họ để ngăn họ đứng, (3) vòng tròn, bước sang một bên và vòng ra phía sau họ, (4) cố định, đưa lưng ra sau bằng móc hoặc seatbelt. Thời điểm phải ngay lập tức - nếu bạn đợi họ thiết lập lại căn cứ của mình, cửa sổ Back Take sẽ đóng lại.",
   "whyItWorks": [
     "sprawl chuyển trọng lượng của bạn lên lưng dưới của họ, loại bỏ khả năng nâng hoặc lái về phía trước của họ",
     "Động lượng về phía trước của đối thủ từ cú đánh khiến họ vượt qua căn cứ của mình - họ không thể đảo ngược hướng nhanh chóng",
-    "Đi vòng phía sau tấn công điểm mù do sprawl tạo ra, họ không thể nhìn thấy bạn hoặc đăng bài để ngăn cản bạn",
-    "sprawl và người đi sau ghi được 3 điểm (phòng thủ hạ gục + hạ gục) trong hầu hết các bộ quy tắc vật"
+    "Đi vòng phía sau tấn công điểm mù do sprawl tạo ra, họ không thể nhìn thấy bạn hoặc post để ngăn bạn",
+    "Sprawl và Go Behind ghi được 3 điểm (phòng thủ takedown + takedown) trong hầu hết các bộ quy tắc"
   ],
   "commonMistakes": [
-    "sprawlvới cánh tay thẳng, điều này cho phép họ lái xe qua và hoàn tất việc gỡ xuống",
-    "Ở ngay trên đầu sau sprawl, bạn phải khoanh tròn, không được ở giữa",
-    "Để họ xây dựng lại căn cứ của mình trước khi đi vòng - thời điểm quay lại là ngay lập tức",
+    "Sprawl với cánh tay thẳng, điều này cho phép họ lái qua và hoàn tất takedown",
+    "Ở ngay trên đầu sau sprawl, bạn phải vòng ra, không được ở giữa",
+    "Để họ xây dựng lại căn cứ trước khi đi vòng - thời điểm Go Behind là ngay lập tức",
     "Không treo trên vai - không có trụ trên vai, họ có thể đứng lên và chụp lại"
   ],
   "coachingCues": [
     "Hạ hông xuống, đặt tay lên vai",
     "Đi vòng ngay, không ở lại",
-    "Rút lui trước khi họ căn cứ",
-    "sprawl → vòng tròn → quay lại"
+    "Đi trước khi họ lập lại căn cứ",
+    "Sprawl → vòng tròn → Go Behind"
   ],
   "safetySummary": [
-    "sprawl có thể gây ra tình trạng hạ thấp lưng dưới nếu bạn thả hông quá mạnh, hãy kiểm soát việc hạ xuống",
+    "Sprawl có thể gây căng lưng dưới nếu bạn thả hông quá mạnh, hãy kiểm soát việc hạ xuống",
     "Khi đi vòng phía sau, hãy dồn trọng lượng của bạn lên lưng họ để ngăn họ ngồi thẳng lên bạn",
-    "Nếu đối thủ lăn người để thoát đòn lùi, hãy bảo vệ đầu và giữ nguyên tư thế lùi"
+    "Nếu đối thủ lăn người để thoát Go Behind, hãy bảo vệ đầu và giữ nguyên tư thế Front Headlock"
   ],
   "systemLogic": {
-    "corePrinciple": "sprawl và đi sau có bốn giai đoạn: sprawl → Kiểm soát → Vòng tròn → Quay lại",
+    "corePrinciple": "Sprawl và Go Behind có bốn giai đoạn: Sprawl → Kiểm soát → Vòng tròn → Go Behind",
     "decisionTree": [
       {
         "condition": "Trong Giai đoạn 1 (sprawl)",
@@ -101,24 +101,24 @@
         "action": "bước sang một bên (thường là phía chân gần của họ) và vòng người ra phía sau họ. Giữ trọng lượng của bạn trên lưng họ khi bạn đi vòng tròn"
       },
       {
-        "condition": "Ở Giai đoạn 4 (Quay lại)",
-        "action": "Khi đã ở phía sau, hãy cố định seatbelt (một tay qua vai xa, tay ở hông gần) và trượt móc vào. Nếu họ chống cự, hãy chuyển sang cơ thể Triangle"
+        "condition": "Ở Giai đoạn 4 (Go Behind)",
+        "action": "Khi đã ở phía sau, hãy cố định seatbelt (một tay qua vai xa, tay ở hông gần) và trượt móc vào. Nếu họ chống cự, hãy chuyển sang Body Triangle"
       },
       {
-        "condition": "người đi sau thất bại",
-        "action": "họ biến thành bạn → sử dụng Front Headlock. Họ ngồi dậy → lại-sprawl. Họ lăn đi → đuổi theo và nhận lại"
+        "condition": "Go Behind thất bại",
+        "action": "họ quay vào bạn → dùng Front Headlock. Họ ngồi dậy → sprawl lại. Họ lăn đi → đuổi theo và lấy lưng"
       }
     ],
     "exitStrategies": []
   },
   "moneyDetails": [
-    "sprawl và người đi sau là cách phòng thủ hạ gục quan trọng nhất trong vật, mọi võ sĩ đều phải đối mặt với những cú đánh và phải biết cách chống lại họ",
-    "Nắm vững sprawl và đi phía sau sẽ vô hiệu hóa toàn bộ trò chơi hạ gục của đối thủ - họ sẽ ngần ngại bắn",
-    "sprawl lùi lại là bước chuyển tiếp phòng thủ có giá trị cao nhất (điểm và vị trí)"
+    "Sprawl và Go Behind là cách phòng thủ takedown quan trọng nhất, mọi võ sĩ đều phải đối mặt với takedown và phải biết cách chống lại",
+    "Nắm vững Sprawl và Go Behind sẽ vô hiệu hóa toàn bộ trò chơi takedown của đối thủ - họ sẽ ngần ngại bắn takedown",
+    "Sprawl sang Back Take là bước chuyển tiếp phòng thủ có giá trị cao nhất (điểm và vị trí)"
   ],
   "fixItFast": [
     "Nếu họ bắn lại trong sprawl: sprawl lần nữa, sâu hơn, lần bắn thứ hai của họ yếu hơn",
-    "Nếu họ biến thành bạn: chuyển sang Front Headlock và tấn công chuỗi từ đó",
-    "Nếu họ ngồi dậy và đối mặt với bạn: hãy cài lại cà vạt cổ áo và đặt lại vị trí trung tính"
+    "Nếu họ quay vào bạn: chuyển sang Front Headlock và tấn công chuỗi từ đó",
+    "Nếu họ ngồi dậy và đối mặt với bạn: thiết lập lại collar tie và trở về vị trí trung tính"
   ]
 }

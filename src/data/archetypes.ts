@@ -84,7 +84,7 @@ export const archetypes: GrapplingArchetype[] = [
       ['Ceux sans sécurité Leg Lock en close range.', 'Ceux qui centrent la tête entre les bras adverses.', 'Ceux qui veulent seulement mouvement outside rapide.'],
     ),
     coreConceptIds: ['connection-before-control', 'pressure-direction', 'inside-position', 'wedges', 'positional-hierarchy'],
-    coreSkillIds: ['bodylock-passing', 'headquarters-passing', 'knee-cut-passing', 'side-control-pin', 'mount-control', 'arm-triangle-mount'],
+    coreSkillIds: ['bodylock-passing', 'headquarters-passing', 'knee-cut-passing', 'side-control-pin', 'mount-control', 'arm-triangle-mount', 'wiltse-knee-slice'],
     supportSkillIds: ['hand-fighting', 'leg-drag-basics', 'outside-passing', 'mat-return-basics', 'back-control', 'toreando-passing', 'tripod-folding-pass', 'over-under-pass'],
     requiredDefensiveSkillIds: ['leg-lock-safety-basics', 'heel-hook-safety', 'front-headlock-defense', 'scramble-control'],
     commonWeaknesses: la(
@@ -93,9 +93,9 @@ export const archetypes: GrapplingArchetype[] = [
       ['Se faire lever par butterfly car poids trop haut.', 'Subir Shoulder Crunch car tête centrée.', 'Relâcher trop tôt après avoir passé Knee Line.', 'Presser droit vers le bas au lieu de diagonale.'],
     ),
     trainingPriorities: la(
-      ['Tập Bodylock với mục tiêu dập hook trước khi pass.', 'Round Headquarters: chỉ tính là qua khi đã kiểm soát đường hông.', 'Sau mỗi pass phải giữ Side Control 10 giây.', 'Xem lại xem đối thủ gỡ Guard bằng knee shield hay underhook.'],
-      ['Train Bodylock with the goal of killing hooks before passing.', 'Headquarters rounds where the passer can score only after hip-line control.', 'After every pass, hold Side Control for ten seconds.', 'Review whether Guard recovery came from knee shield or underhook.'],
-      ['Travailler Bodylock en tuant hooks avant passer.', 'Rounds headquarters avec score seulement après contrôle hip line.', 'Après chaque pass, tenir Side Control dix secondes.', 'Voir si la récupération vient knee shield ou underhook.'],
+      ['Tập Bodylock với mục tiêu dập hook trước khi pass.', 'Round Headquarters: chỉ tính là qua khi đã kiểm soát đường hông.', 'Sau mỗi pass phải giữ Side Control 10 giây.', 'Xem lại xem đối thủ gỡ Guard bằng Knee Shield hay underhook.'],
+      ['Train Bodylock with the goal of killing hooks before passing.', 'Headquarters rounds where the passer can score only after hip-line control.', 'After every pass, hold Side Control for ten seconds.', 'Review whether Guard recovery came from Knee Shield or underhook.'],
+      ['Travailler Bodylock en tuant hooks avant passer.', 'Rounds headquarters avec score seulement après contrôle hip line.', 'Après chaque pass, tenir Side Control dix secondes.', 'Voir si la récupération vient Knee Shield ou underhook.'],
     ),
   }),
   archetype({
@@ -198,7 +198,7 @@ export const archetypes: GrapplingArchetype[] = [
       ['Ceux qui veulent finish dangereux avant sécurité.', 'Ceux qui ne tapent pas tôt sous rotation.', 'Ceux qui travaillent jambes sans supervision.'],
     ),
     coreConceptIds: ['leg-lock-safety-hierarchy', 'knee-line', 'early-vs-late-defense', 'inside-position', 'deliberate-practice'],
-    coreSkillIds: ['leg-lock-safety-basics', 'straight-ankle-lock-safety', 'heel-hook-safety', 'single-leg-x-basics', 'k-guard-entry'],
+    coreSkillIds: ['leg-lock-safety-basics', 'straight-ankle-lock-safety', 'heel-hook-safety', 'single-leg-x-basics', 'k-guard-entry', 'backside-50-50-cross-ashi'],
     supportSkillIds: ['guard-pulling-strategy', 'supine-guard-retention', 'technical-stand-up', 'heel-hook-finishing-system', 'calf-compression-locks', 'toe-hold-estima-lock', 'imanari-roll'],
     requiredDefensiveSkillIds: ['leg-lock-safety-basics', 'heel-hook-safety', 'straight-ankle-lock-safety'],
     commonWeaknesses: la(
@@ -236,7 +236,7 @@ export const archetypes: GrapplingArchetype[] = [
       ['Ceux qui chassent soumissions bottom sans posture.', 'Ceux qui évitent mobilité hanches.', 'Ceux qui framment bras tendus.'],
     ),
     coreConceptIds: ['guard-retention-layers', 'frames', 'wedges', 'inside-position', 'elbow-knee-connection'],
-    coreSkillIds: ['seated-guard-retention', 'supine-guard-retention', 'half-guard-knee-shield', 'butterfly-guard-off-balance', 'technical-stand-up'],
+    coreSkillIds: ['seated-guard-retention', 'supine-guard-retention', 'half-guard-knee-shield', 'butterfly-guard-off-balance', 'technical-stand-up', 'r-guard'],
     supportSkillIds: ['shin-to-shin-entry', 'single-leg-x-basics', 'k-guard-entry', 'half-guard-wrestle-up'],
     requiredDefensiveSkillIds: ['side-control-survival', 'side-control-escape', 'mount-survival'],
     commonWeaknesses: la(
@@ -254,14 +254,14 @@ export const archetypes: GrapplingArchetype[] = [
     id: 'half-Guard-wrestler',
     title: lt('Vật sĩ Half Guard', 'Half Guard Wrestler', 'Lutteur Half Guard'),
     shortDescription: lt(
-      'Dùng knee shield, underhook và logic Dogfight để biến Half Guard thành sweep, Single Leg hoặc cơ hội lấy lưng.',
-      'Uses knee shield, underhook, and Dogfight logic to turn Half Guard into sweeps, single legs, or back exposure.',
-      'Utilise knee shield, underhook et logique Dogfight pour transformer Half Guard en sweep, single leg ou back exposure.',
+      'Dùng Knee Shield, underhook và logic Dogfight để biến Half Guard thành sweep, Single Leg hoặc cơ hội lấy lưng.',
+      'Uses Knee Shield, underhook, and Dogfight logic to turn Half Guard into sweeps, single legs, or back exposure.',
+      'Utilise Knee Shield, underhook et logique Dogfight pour transformer Half Guard en sweep, single leg ou back exposure.',
     ),
     philosophy: lt(
-      'Half Guard không phải chỗ để nằm chịu đè. Bạn dùng knee shield để không bị ép bẹp, dùng underhook để thắng đường vai, rồi vào Dogfight hoặc Single Leg trước khi crossface ổn định.',
-      'Half Guard is not a place to accept being flattened. You use knee shield to prevent flattening, underhook to win shoulder line, then enter Dogfight or single leg before the crossface settles.',
-      'Half Guard n’est pas accepter d’être aplati. Knee shield contre flatten, underhook gagne shoulder line, puis Dogfight/single leg avant crossface stable.',
+      'Half Guard không phải chỗ để nằm chịu đè. Bạn dùng Knee Shield để không bị ép bẹp, dùng underhook để thắng đường vai, rồi vào Dogfight hoặc Single Leg trước khi crossface ổn định.',
+      'Half Guard is not a place to accept being flattened. You use Knee Shield to prevent flattening, underhook to win shoulder line, then enter Dogfight or single leg before the crossface settles.',
+      'Half Guard n’est pas accepter d’être aplati. Knee Shield contre flatten, underhook gagne shoulder line, puis Dogfight/single leg avant crossface stable.',
     ),
     bestFor: la(
       ['Người thích wrestling từ thế dưới ở Half Guard.', 'Người hay bị Bodylock hoặc Knee Cut.', 'Người muốn sau sweep là vào ngay passing.'],
@@ -278,14 +278,14 @@ export const archetypes: GrapplingArchetype[] = [
     supportSkillIds: ['seated-guard-retention', 'side-control-escape', 'technical-stand-up', 'hand-fighting', 'coyote-half-guard'],
     requiredDefensiveSkillIds: ['side-control-survival', 'front-headlock-defense', 'mount-escape'],
     commonWeaknesses: la(
-      ['Knee shield đặt quá thấp nên bị ép bẹp.', 'Thắng underhook nhưng vẫn để đầu thấp.', 'Vào Dogfight mà không kiểm soát hông phía xa.', 'Bỏ lỡ nhịp chuyển sang Single Leg khi đối thủ backstep.'],
-      ['Knee shield too low and getting flattened.', 'Winning underhook while the head remains low.', 'Dogfight without far-hip control.', 'Missing the single-leg transition when they backstep.'],
-      ['Knee shield trop bas et flatten.', 'Underhook gagné mais tête basse.', 'Dogfight sans contrôle far hip.', 'Rater single leg quand il backstep.'],
+      ['Knee Shield đặt quá thấp nên bị ép bẹp.', 'Thắng underhook nhưng vẫn để đầu thấp.', 'Vào Dogfight mà không kiểm soát hông phía xa.', 'Bỏ lỡ nhịp chuyển sang Single Leg khi đối thủ backstep.'],
+      ['Knee Shield too low and getting flattened.', 'Winning underhook while the head remains low.', 'Dogfight without far-hip control.', 'Missing the single-leg transition when they backstep.'],
+      ['Knee Shield trop bas et flatten.', 'Underhook gagné mais tête basse.', 'Dogfight sans contrôle far hip.', 'Rater single leg quand il backstep.'],
     ),
     trainingPriorities: la(
-      ['Drill chống crossface bằng knee shield và tay phía trong.', 'Round Dogfight bắt đầu từ tư thế underhook 50%.', 'Mất underhook thì phải giữ Guard lại trước khi wrestle-up.', 'Kết thúc mỗi sweep bằng pass hoặc pin.'],
-      ['Drill crossface prevention with knee shield and inside hand.', 'Dogfight rounds starting from a 50% underhook.', 'If underhook is lost, retain before wrestling up.', 'Finish every sweep with pass or pin.'],
-      ['Driller prevention crossface avec knee shield et main inside.', 'Rounds Dogfight depuis underhook 50%.', 'Si underhook perdu, retenir avant wrestle-up.', 'Finir chaque sweep par pass ou pin.'],
+      ['Drill chống crossface bằng Knee Shield và tay phía trong.', 'Round Dogfight bắt đầu từ tư thế underhook 50%.', 'Mất underhook thì phải giữ Guard lại trước khi wrestle-up.', 'Kết thúc mỗi sweep bằng pass hoặc pin.'],
+      ['Drill crossface prevention with Knee Shield and inside hand.', 'Dogfight rounds starting from a 50% underhook.', 'If underhook is lost, retain before wrestling up.', 'Finish every sweep with pass or pin.'],
+      ['Driller prevention crossface avec Knee Shield et main inside.', 'Rounds Dogfight depuis underhook 50%.', 'Si underhook perdu, retenir avant wrestle-up.', 'Finir chaque sweep par pass ou pin.'],
     ),
   }),
   archetype({
@@ -350,8 +350,8 @@ export const archetypes: GrapplingArchetype[] = [
       ['Ceux qui sautent contrôle avant soumission.', 'Ceux qui forcent quand finish flou.', 'Ceux sans safety défensive face aux counters.'],
     ),
     coreConceptIds: ['control-before-submission', 'dilemma-attacks', 'levers', 'angle-creation', 'connection-before-control'],
-    coreSkillIds: ['guillotine-system', 'kimura-system', 'arm-triangle-mount', 'rear-naked-choke-system', 'back-control'],
-    supportSkillIds: ['mount-control', 'side-control-pin', 'snapdown-front-headlock', 'turtle-ride', 'heel-hook-finishing-system', 'calf-compression-locks', 'toe-hold-estima-lock', 'mounted-triangle-armbar'],
+    coreSkillIds: ['guillotine-system', 'kimura-system', 'arm-triangle-mount', 'rear-naked-choke-system', 'back-control', 'pistol-grip-armbar'],
+    supportSkillIds: ['mount-control', 'side-control-pin', 'snapdown-front-headlock', 'turtle-ride', 'rubber-guard', 'heel-hook-finishing-system', 'calf-compression-locks', 'toe-hold-estima-lock', 'mounted-triangle-armbar'],
     requiredDefensiveSkillIds: ['front-headlock-defense', 'back-survival', 'leg-lock-safety-basics'],
     commonWeaknesses: la(
       ['Siết trước khi tách được tay đối thủ.', 'Nhảy vào submission rồi mất luôn pin.', 'Không biết nhánh tiếp theo khi đối thủ giấu khuỷu.', 'Tăng lực thay vì đổi góc.'],
@@ -388,7 +388,7 @@ export const archetypes: GrapplingArchetype[] = [
       ['Ceux qui défendent seulement sans attaquer.', 'Ceux qui tapent tard pour prouver dureté.', 'Ceux qui ne notent pas erreurs répétées.'],
     ),
     coreConceptIds: ['early-vs-late-defense', 'failure-response', 'frames', 'positional-hierarchy', 'deliberate-practice'],
-    coreSkillIds: ['side-control-survival', 'mount-survival', 'back-survival', 'side-control-escape', 'mount-escape', 'back-escape'],
+    coreSkillIds: ['side-control-survival', 'mount-survival', 'back-survival', 'side-control-escape', 'mount-escape', 'back-escape', 'priit-turtle-escapes'],
     supportSkillIds: ['front-headlock-defense', 'leg-lock-safety-basics', 'technical-stand-up', 'scramble-control'],
     requiredDefensiveSkillIds: ['leg-lock-safety-basics', 'front-headlock-defense', 'back-survival', 'mount-survival'],
     commonWeaknesses: la(

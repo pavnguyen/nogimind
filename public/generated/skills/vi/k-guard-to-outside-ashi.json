@@ -3,7 +3,7 @@
   "domain": "guard_offense",
   "level": "advanced",
   "status": "draft",
-  "name": "K Guard sang Outside Ashi",
+  "name": "K Guard to Outside Ashi",
   "aliases": [
     "K-Guard entry",
     "K-Guard leg lock",
@@ -51,7 +51,7 @@
   "searchBoost": 1,
   "keyCorrections": [
     "Nếu họ lùi để thoát K-Guard: luồn chân vào Outside Ashi",
-    "Nếu họ bước tới để gây áp lực: ở lại K-Guard và quét thay thế",
+    "Nếu họ bước tới để gây áp lực: ở lại K-Guard và sweep thay thế",
     "Nếu họ chống tay lên đầu bạn để chặn: luồn tay họ hoặc chuyển sang Omoplata"
   ],
   "version": 1,
@@ -101,7 +101,7 @@
       },
       {
         "condition": "Họ bước tới để gây áp lực",
-        "action": "ở lại K-Guard và quét thay thế"
+        "action": "ở lại K-Guard và sweep thay thế"
       },
       {
         "condition": "Họ chống tay lên đầu để chặn",
