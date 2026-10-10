@@ -1,15 +1,15 @@
 {
   "id": "knee-shield-half-guard",
   "locale": "fr",
-  "title": "Half Guard avec knee shield",
+  "title": "Half Guard avec Knee Shield",
   "description": "Le knee shield crée un wedge entre la poitrine ou la hanche du joueur du dessus et le corps du joueur du dessous.",
   "topPlayerGoals": [
     "Le joueur du dessus veut contrôler Half Guard avec knee shield avec la position de tête, la position intérieure et une pression orientée.",
-    "Écraser le shield ou pummeler vers un knee cut ou une position headquarters.",
+    "Écraser le shield ou pummeler vers un Knee Cut ou une position headquarters.",
     "Garder une base stable pour éviter d’être déséquilibré ou contré."
   ],
   "bottomPlayerGoals": [
-    "Le joueur du dessous veut survivre en Half Guard avec knee shield avec des cadres, du pummeling ou le bon angle.",
+    "Le joueur du dessous veut survivre en Half Guard avec knee shield avec des cadres, du Pummeling ou le bon angle.",
     "Garder le shield actif, gagner l’underhook et entrer en wrestle-up.",
     "Reconnaître les signaux de danger tôt au lieu d’attendre que la position se stabilise."
   ],
@@ -25,7 +25,7 @@
   ],
   "advancementOptions": [
     {
-      "action": "Pummeler pour l’underhook afin d’arriver en dogfight",
+      "action": "Pummeler pour l’Underhook afin d’arriver en Dogfight",
       "nextPositionId": "dogfight",
       "relatedSkillIds": [
         "half-guard-knee-shield",

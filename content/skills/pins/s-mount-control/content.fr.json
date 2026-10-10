@@ -1,7 +1,7 @@
 {
   "id": "s-mount-control",
   "locale": "fr",
-  "name": "s-Mount Contrôle",
+  "name": "S Mount Contrôle",
   "description": "s-Mount isole la ligne d'épaule pour les menaces Armbar, Back Take ou Triangle. Il s'agit de la position Mount la plus offensive : à partir de là, l'adversaire doit défendre simultanément plusieurs menaces de soumission.",
   "shortInstruction": "À partir de Mount, faites glisser un genou jusqu'à son aisselle et faites pivoter vos hanches vers sa tête. Coincez le bras le plus proche entre votre cuisse et sa tête. Attaquez Armbar, Triangle ou reprenez-le.",
   "summary": "s-Mount est créé en faisant glisser un genou vers l'aisselle de l'adversaire tout en tournant légèrement votre poitrine vers sa tête. Cela positionne vos hanches sur la ligne des épaules, isolant un bras et créant un dilemme entre Armbar, Triangle et la prise arrière. s-Mount est l'épingle de valeur la plus élevée car elle menace directement les soumissions sans nécessiter de transitions supplémentaires.",
@@ -46,7 +46,7 @@
       },
       {
         "condition": "Utilisation de la menace 3 (prise en arrière)",
-        "action": "s'ils se détournent pour échapper au Armbar ou au Triangle, maintenez le contact avec la hanche et prenez le dos. La rotation s-Mount passe naturellement à back control lorsqu'ils tournent"
+        "action": "s'ils se détournent pour échapper au Armbar ou au Triangle, maintenez le contact avec la hanche et prenez le dos. La rotation s-Mount passe naturellement à Back Control lorsqu'ils tournent"
       },
       {
         "condition": "Technique d'entrée",
@@ -60,7 +60,7 @@
   },
   "moneyDetails": [
     "s-Mount est le pin le plus offensif de BJJ, à partir de là, vous terminez les matchs, vous ne décrochez pas",
-    "Le s-Mount Armbar est le pourcentage le plus élevé d'entrée Armbar dans No-Gi grappling",
+    "Le S-Mount Armbar est le pourcentage le plus élevé d'entrée Armbar dans No-Gi grappling",
     "La maîtrise des transitions s-Mount sépare les grapplers de soumission des grapplers de position"
   ],
   "fixItFast": [

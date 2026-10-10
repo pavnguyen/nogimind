@@ -5,7 +5,7 @@
   "description": "Người trên kiểm soát đầu và cổ từ phía trước, đe dọa go-behind, Guillotine hoặc lấy lưng.",
   "topPlayerGoals": [
     "Người trên kiểm soát Front Headlock Trên bằng vị trí đầu, vị trí trong và hướng áp lực.",
-    "Giữ đầu đối thủ dưới đường vai rồi kéo khuỷu hoặc chin strap trong tầm kiểm soát.",
+    "Giữ đầu đối thủ dưới đường vai rồi kéo khuỷu hoặc Chin Strap trong tầm kiểm soát.",
     "Giữ nền chắc để không bị đẩy mất thăng bằng hay bị phản đòn."
   ],
   "bottomPlayerGoals": [
@@ -14,7 +14,7 @@
     "Nhận ra tín hiệu nguy hiểm từ sớm, thay vì chờ đến khi thế đã ổn định."
   ],
   "controlPoints": [
-    "Điểm kiểm soát chính: chin strap, đường khuỷu và góc hông.",
+    "Điểm kiểm soát chính: Chin Strap, đường khuỷu và góc hông.",
     "Đầu, tay, hông và gối phải cùng một hướng lực.",
     "Kết nối khuỷu-gối cùng đường hông-vai quyết định thế còn giữ được hay đã bị khóa."
   ],
@@ -25,7 +25,7 @@
   ],
   "advancementOptions": [
     {
-      "action": "Go-behind vào turtle ride",
+      "action": "Go Behind vào Turtle Ride",
       "nextPositionId": "turtle-top",
       "relatedSkillIds": [
         "snapdown-front-headlock",

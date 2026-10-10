@@ -4,7 +4,7 @@
   "name": "Passe de traînée de jambe",
   "description": "Faites glisser la jambe la plus proche de l'adversaire sur vos hanches pour couper l'angle et sécuriser Side Control, le dos Mount ou un enchevêtrement de jambe.",
   "shortInstruction": "Saisissez la cheville, faites glisser sur vos hanches, coupez l'angle, fixez l'épingle.",
-  "summary": "La passe traînée de jambe est l'une des passes Guard les plus efficaces du No-Gi moderne. En contrôlant la cheville proche de l'adversaire et en la faisant glisser sur vos propres hanches, vous coupez un angle aigu qui supprime son Guard et expose son dos ou son côté. La traînée de jambe fonctionne contre presque tous les open Guard (DLR, RDLR, spider, assis Guard) et vous donne un accès immédiat aux premières positions dominantes.",
+  "summary": "La passe traînée de jambe est l'une des passes Guard les plus efficaces du No-Gi moderne. En contrôlant la cheville proche de l'adversaire et en la faisant glisser sur vos propres hanches, vous coupez un angle aigu qui supprime son Guard et expose son dos ou son côté. La traînée de jambe fonctionne contre presque tous les Open Guard (DLR, RDLR, spider, assis Guard) et vous donne un accès immédiat aux premières positions dominantes.",
   "whyItWorks": [
     "Faire glisser sa jambe sur vos hanches modifie l'angle de son Guard : ses jambes ne peuvent plus s'encadrer sur vos hanches.",
     "Vos hanches deviennent le point d'appui : une fois que leur jambe est sur vos hanches, elles ne peuvent pas re-Guard sans dégager leur propre jambe.",
@@ -34,7 +34,7 @@
     "S'ils vous Guillotine, votre tête était trop basse – gardez la tête haute et vers l'extérieur."
   ],
   "systemLogic": {
-    "corePrinciple": "Identifiez le open Guard (DLR, RDLR, assis) → contrôlez la cheville proche → faites glisser sa jambe sur vos hanches → coupez l'angle → épinglez Side Control ou prenez l'arrière.",
+    "corePrinciple": "Identifiez le Open Guard (DLR, RDLR, assis) → contrôlez la cheville proche → faites glisser sa jambe sur vos hanches → coupez l'angle → épinglez Side Control ou prenez l'arrière.",
     "decisionTree": [
       {
         "condition": "Application générale",

@@ -75,7 +75,7 @@
   "locale": "en",
   "description": "Learn to distinguish between a safe choke (strangle) and a dangerous neck crank. A crank attacks the cervical spine via pressure on the chin or back of the head rather than the carotid arteries, and must be recognized immediately to tap or adjust.",
   "shortInstruction": "If you feel pressure on the chin or back of the head (not the sides of the neck), you are being cranked, not choked. Tap early and protect your cervical spine.",
-  "summary": "Neck crank recognition is the ability to instantly distinguish between a blood choke (strangle) that targets the carotid arteries and a neck crank that targets the cervical spine. A blood choke is safe to train with a training partner, it cuts off blood flow to the brain and causes unconsciousness without structural damage. A neck crank attacks the vertebrae, discs, and ligaments of the cervical spine and can cause cumulative damage over training years. The key difference: chokes apply pressure to the sides of the neck (carotid), cranks apply pressure to the chin, back of the head, or top of the spine.",
+  "summary": "Neck Crank Recognition is the ability to instantly distinguish between a blood choke (strangle) that targets the carotid arteries and a neck crank that targets the cervical spine. A blood choke is safe to train with a training partner, it cuts off blood flow to the brain and causes unconsciousness without structural damage. A neck crank attacks the vertebrae, discs, and ligaments of the cervical spine and can cause cumulative damage over training years. The key difference: chokes apply pressure to the sides of the neck (carotid), cranks apply pressure to the chin, back of the head, or top of the spine.",
   "whyItWorks": [
     "Blood chokes are safe because they interrupt blood flow without damaging neck structures, unconsciousness is reversible with no lasting effects",
     "Neck cranks are dangerous because they compress, rotate, or hyperflex the cervical spine, the damage is cumulative and can lead to chronic issues",
@@ -97,12 +97,12 @@
   "safetySummary": [
     "Neck cranks can cause disc herniation, ligament sprains, nerve impingement, and chronic neck pain",
     "The can opener (pushing the back of the head toward the chest from Guard) is the most common dangerous crank in BJJ",
-    "The Twister (spinal lock from back control) aggressively rotates the cervical spine and can cause serious injury if applied suddenly",
+    "The Twister (spinal lock from Back Control) aggressively rotates the cervical spine and can cause serious injury if applied suddenly",
     "Some Guillotine and D'arce variations can become neck cranks if the angle is off, if you feel chin pressure, tap and re-set",
     "Even mild neck cranks cause cumulative damage, do not accept 10 'light' cranks per week as normal training"
   ],
   "systemLogic": {
-    "corePrinciple": "Neck crank recognition requires understanding the three types of neck attacks: blood choke, air choke, and neck crank",
+    "corePrinciple": "Neck Crank Recognition requires understanding the three types of neck attacks: blood choke, air choke, and neck crank",
     "decisionTree": [
       {
         "condition": "General application",
@@ -128,7 +128,7 @@
     "exitStrategies": []
   },
   "moneyDetails": [
-    "Neck crank recognition prevents the most common source of chronic training injuries in BJJ, cumulative neck damage",
+    "Neck Crank Recognition prevents the most common source of chronic training injuries in BJJ, cumulative neck damage",
     "Knowing the difference between a crank and a choke allows you to train submissions safely at full intensity",
     "Protecting your neck for 10+ years of training requires disciplined tapping to cranks in every training session",
     "A healthy neck at age 50 is worth more than any tap you avoided at age 25"

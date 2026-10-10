@@ -61,7 +61,7 @@
   "locale": "vi",
   "description": "Kéo Guard với mục đích: nắm và tạo góc trước, sau đó ngồi, từ ống chân tới ống chân, K-Guard hoặc kế hoạch vật. Kéo Guard là một mục tấn công sẽ dẫn trực tiếp đến một trong những hệ thống Guard mạnh nhất của bạn.",
   "shortInstruction": "Thiết lập kiểu cầm nắm (buộc cổ hoặc điều khiển cổ tay), tạo một góc khỏi đường giữa, ngồi lùi về một bên hông và nhập ngay Guard (ngồi, ống chân tới ống chân, K-Guard) đã chọn của bạn. Kéo Guard mà không có kế hoạch là nhường vị trí.",
-  "summary": "Guard kéo phải là một bước chuyển tiếp tấn công chứ không phải là một cuộc rút lui phòng thủ. Trình tự như sau: thiết lập tay cầm thuận → tạo góc bằng cách xoay tròn hoặc pummeling mạnh → kiểm soát khoảng cách bằng cách duy trì tay cầm → ngồi lại và kiểm soát → nhập thẳng vào hệ thống Guard tốt nhất của bạn. Một cú kéo Guard được thực hiện tốt sẽ mang lại điểm Guard (không nằm ngửa) với tay cầm đã được thiết lập sẵn và đối thủ mất thăng bằng.",
+  "summary": "Guard kéo phải là một bước chuyển tiếp tấn công chứ không phải là một cuộc rút lui phòng thủ. Trình tự như sau: thiết lập tay cầm thuận → tạo góc bằng cách xoay tròn hoặc Pummeling mạnh → kiểm soát khoảng cách bằng cách duy trì tay cầm → ngồi lại và kiểm soát → nhập thẳng vào hệ thống Guard tốt nhất của bạn. Một cú kéo Guard được thực hiện tốt sẽ mang lại điểm Guard (không nằm ngửa) với tay cầm đã được thiết lập sẵn và đối thủ mất thăng bằng.",
   "whyItWorks": [
     "Việc giữ thế bám trước khi kéo đảm bảo bạn kiểm soát được khoảng cách, đối thủ không thể lùi lại hoặc vòng tới Side Control",
     "Tạo góc (bước ra khỏi đường giữa) buộc đối thủ phải căn chỉnh lại, tạo cho bạn sơ hở để kéo mà không bị vượt qua",
@@ -102,7 +102,7 @@
       },
       {
         "condition": "Ở Bước 4 (Nhập hệ thống Guard)",
-        "action": "ngay lập tức chuyển sang trạng thái Guard tốt nhất của bạn từ vị trí tiếp đất. Nếu bạn kéo đến shin-to-shin: nhập single leg x hoặc X-Guard. Nếu bạn kéo đến chỗ ngồi: nhập K-Guard, DLR hoặc tay áo có cổ. Nếu bạn kéo đến Closed Guard: phá vỡ tư thế của họ ngay lập tức"
+        "action": "ngay lập tức chuyển sang trạng thái Guard tốt nhất của bạn từ vị trí tiếp đất. Nếu bạn kéo đến shin-to-shin: nhập Single Leg X hoặc X-Guard. Nếu bạn kéo đến chỗ ngồi: nhập K-Guard, DLR hoặc tay áo có cổ. Nếu bạn kéo đến Closed Guard: phá vỡ tư thế của họ ngay lập tức"
       },
       {
         "condition": "Guard hướng dẫn lựa chọn kéo",

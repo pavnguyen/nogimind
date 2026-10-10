@@ -1,7 +1,7 @@
 {
   "id": "s-mount-control",
   "locale": "en",
-  "name": "S-Mount Control",
+  "name": "S Mount Control",
   "description": "S-Mount isolates the shoulder line for Armbar, Back Take, or Triangle threats. It is the most offensive Mount position, from here, the opponent must defend multiple submission threats simultaneously.",
   "shortInstruction": "From Mount, slide one knee up to their armpit and rotate your hips toward their head. Trap the near arm between your thigh and their head. Attack Armbar, Triangle, or Back Take.",
   "summary": "S-Mount is created by sliding one knee to the opponent's armpit while rotating your chest slightly toward their head. This positions your hips across their shoulder line, isolating one arm and creating a dilemma between Armbar, Triangle, and Back Take. S-Mount is the highest-value pin because it directly threatens submissions without requiring additional transitions.",
@@ -46,7 +46,7 @@
       },
       {
         "condition": "Using Threat 3 (Back Take)",
-        "action": "if they turn away to escape the Armbar or Triangle, maintain hip contact and take the back. The S-Mount rotation naturally transitions to back control when they turn"
+        "action": "if they turn away to escape the Armbar or Triangle, maintain hip contact and take the back. The S-Mount rotation naturally transitions to Back Control when they turn"
       },
       {
         "condition": "Entry technique",

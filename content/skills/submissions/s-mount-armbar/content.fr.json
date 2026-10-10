@@ -1,10 +1,10 @@
 {
   "id": "s-mount-armbar",
   "locale": "fr",
-  "name": "s-Mount Armbar",
+  "name": "S Mount Armbar",
   "description": "Terminez le Armbar à partir du s-Mount en utilisant la pince d'épaule et l'élévation de la ligne des hanches - non pas en tombant en arrière, mais en gardant le contrôle et en soulevant les hanches.",
-  "shortInstruction": "Élevé Mount, isolez le bras, gardez votre poids lourd, soulevez vos hanches pour terminer, s-Mount Armbar est le contrôle, pas le désespoir.",
-  "summary": "Le s-Mount Armbar est l'étalon-or des Armbar à partir de la position Mount. Dans s-Mount (un pied dans la hanche, un genou dans l'aisselle, votre poids haut sur la poitrine), vous avez un contrôle exceptionnel sur le haut de son corps. À partir de là, isoler un bras et terminer le Armbar consiste à maintenir une domination positionnelle plutôt que de tomber en arrière. La principale différence par rapport à un Mount Armbar classique est que vous terminez en position assise en soulevant vos hanches plutôt qu'en tombant en arrière.",
+  "shortInstruction": "Élevé Mount, isolez le bras, gardez votre poids lourd, soulevez vos hanches pour terminer, S-Mount Armbar est le contrôle, pas le désespoir.",
+  "summary": "Le S-Mount Armbar est l'étalon-or des Armbar à partir de la position Mount. Dans s-Mount (un pied dans la hanche, un genou dans l'aisselle, votre poids haut sur la poitrine), vous avez un contrôle exceptionnel sur le haut de son corps. À partir de là, isoler un bras et terminer le Armbar consiste à maintenir une domination positionnelle plutôt que de tomber en arrière. La principale différence par rapport à un Mount Armbar classique est que vous terminez en position assise en soulevant vos hanches plutôt qu'en tombant en arrière.",
   "whyItWorks": [
     "s-Mount place votre poids haut sur leur poitrine – ils ne peuvent pas vous ponter ou vous faire rouler.",
     "Le pied dans leur hanche vous donne un poteau qui les empêche de se transformer en vous.",
@@ -38,7 +38,7 @@
     "decisionTree": [
       {
         "condition": "Application générale",
-        "action": "s-Mount Armbar enchaîne avec le bras Triangle : s'ils défendent le Armbar, passez au bras Triangle à partir de Mount."
+        "action": "S-Mount Armbar enchaîne avec le bras Triangle : s'ils défendent le Armbar, passez au bras Triangle à partir de Mount."
       },
       {
         "condition": "ils roulent pour s'échapper",
@@ -52,7 +52,7 @@
     "Isolez le bras en le plaquant contre votre poitrine avec votre main du même côté.",
     "La finition : soulevez vos hanches tout en tirant leur bras vers vous, cela crée l'hyperextension sans tomber en arrière."
   ],
-  "nextStep": "Après le s-Mount Armbar, apprenez le Mounted Triangle et armez Triangle à partir de Mount.",
+  "nextStep": "Après le S-Mount Armbar, apprenez le Mounted Triangle et armez Triangle à partir de Mount.",
   "fixItFast": [
     "Vous continuez à reculer ? Restez assis et soulevez plutôt vos hanches.",
     "Vous ne parvenez pas à isoler le bras ? Passez votre main sous son bras et épinglez-la contre votre poitrine.",

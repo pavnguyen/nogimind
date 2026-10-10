@@ -1,7 +1,7 @@
 {
   "id": "z-guard",
   "locale": "vi",
-  "title": "Z-Guard (93 Guard)",
+  "title": "Z Guard (93 Guard)",
   "description": "Z-Guard là Knee Shield biến thể Deep Half, dùng shin và underhook để chặn crossface và tạo wrestle-up.",
   "topPlayerGoals": [
     "Người trên kiểm soát Z-Guard (93 Guard) bằng vị trí đầu, vị trí trong và hướng áp lực.",
@@ -25,7 +25,7 @@
   ],
   "advancementOptions": [
     {
-      "action": "Thắng underhook để lên dogfight",
+      "action": "Thắng Underhook để lên Dogfight",
       "nextPositionId": "dogfight",
       "relatedSkillIds": [
         "z-guard-sweeps",

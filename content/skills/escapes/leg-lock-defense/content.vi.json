@@ -1,10 +1,10 @@
 {
   "id": "leg-lock-defense",
   "locale": "vi",
-  "name": "Bảo vệ khóa chân",
-  "description": "Nhận biết và thoát khóa chân: giấu gót, làm rõ knee line, xoay đúng hướng và tap sớm khi cần. Phòng thủ khóa chân là tích hợp tất cả nguyên tắc thoát knee line thành hệ thống phòng thủ hoàn chỉnh chống lại mọi cuộc tấn công chân phổ biến.",
+  "name": "Leg Lock Defense",
+  "description": "Nhận biết và thoát khóa chân: giấu gót, làm rõ Knee Line, xoay đúng hướng và tap sớm khi cần. Phòng thủ khóa chân là tích hợp tất cả nguyên tắc thoát Knee Line thành hệ thống phòng thủ hoàn chỉnh chống lại mọi cuộc tấn công chân phổ biến.",
   "shortInstruction": "Gập gót, tạo khoảng cách hông, bỏ móc phụ, xoay về phía chân tự do và tap ngay khi cảm thấy mô-men xoắn trên đầu gối.",
-  "summary": "Phòng thủ khóa chân bao gồm phản ứng chống lại mọi cuộc tấn công chân chính: Heel Hooks (inside/outside), Straight Ankle Locks, Kneebars, Toe Holds và calf slicers. Hệ thống tích hợp mechanics thoát knee line với counter cụ thể. Nguyên tắc chung: nếu đầu gối bị cô lập và gót bị kiểm soát, ưu tiên thoát. Nếu đầu gối bị cô lập và gót đã lộ, ưu tiên tap.",
+  "summary": "Phòng thủ khóa chân bao gồm phản ứng chống lại mọi cuộc tấn công chân chính: Heel Hooks (inside/outside), Straight Ankle Locks, Kneebars, Toe Holds và calf slicers. Hệ thống tích hợp mechanics thoát Knee Line với counter cụ thể. Nguyên tắc chung: nếu đầu gối bị cô lập và gót bị kiểm soát, ưu tiên thoát. Nếu đầu gối bị cô lập và gót đã lộ, ưu tiên tap.",
   "whyItWorks": [
     "Khi gót được giấu, tay cầm cần để hoàn thiện Heel Hook bị loại bỏ, nếu không giấu gót, Heel Hook không tạo được mô-men xoắn",
     "Tách hông áp dụng cho mọi đòn tấn công chân vì mọi khóa chân đều cần khoảng cách gần hông để tạo đòn bẩy dứt điểm",
@@ -27,8 +27,8 @@
     "Heel Hook có thể hỏng đầu gối trước khi thấy đau, phải tap vào vị trí chứ không đợi đau",
     "Kneebar tấn công PCL - duỗi nhẹ nếu cảm thấy overex-tension, nhưng tap nếu họ kiểm soát được chân",
     "Straight Ankle Lock tạo áp lực xoay và overex-tension lên mắt cá và đầu gối - tap nếu thấy pain spike, không chỉ là áp lực",
-    "Calf slicer ép cơ bắp vào xương chày - gây đau nhưng hiếm khi hỏng cấu trúc. Tap trước khi đau không thể chịu nổi",
-    "Toe hold tấn công syndrom mắt cá - tap sớm vì chấn thương này cần nhiều tháng hồi phục"
+    "Calf Slicer ép cơ bắp vào xương chày - gây đau nhưng hiếm khi hỏng cấu trúc. Tap trước khi đau không thể chịu nổi",
+    "Toe Hold tấn công syndrom mắt cá - tap sớm vì chấn thương này cần nhiều tháng hồi phục"
   ],
   "keyCorrections": [
     "Nếu cảm thấy gót đang xoay mà không thể touches để giấu: nắm bàn chân mình bằng hai tay và kéo về phía mông - đây là 'tự giấu gót'",

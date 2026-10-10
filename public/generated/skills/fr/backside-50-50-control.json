@@ -66,18 +66,18 @@
     "hasStateMachine": false
   },
   "locale": "fr",
-  "description": "Contrôlez le backside 50/50 – une position d'enchevêtrement des jambes derrière la ligne des hanches de l'adversaire qui génère des menaces Heel Hook sans nécessiter la position complète Saddle.",
-  "shortInstruction": "Derrière la hanche, contrôle de la jambe intérieure, gérez la jambe éloignée – le backside 50/50 est la prise arrière du monde du verrouillage des jambes.",
+  "description": "Contrôlez le Backside 50/50 – une position d'enchevêtrement des jambes derrière la ligne des hanches de l'adversaire qui génère des menaces Heel Hook sans nécessiter la position complète Saddle.",
+  "shortInstruction": "Derrière la hanche, contrôle de la jambe intérieure, gérez la jambe éloignée – le Backside 50/50 est la prise arrière du monde du verrouillage des jambes.",
   "summary": "Backside 50/50 est une position d'enchevêtrement des jambes dans laquelle vous êtes positionné derrière la ligne des hanches de l'adversaire, vos deux jambes contrôlant l'une de leurs jambes dans une configuration 50/50. Le principal avantage par rapport au Saddle est que vous êtes derrière eux : ils ne peuvent pas voir vos attaques et ont des options de fuite limitées. À partir de là, vous pouvez attaquer le Heel Hook, passer au Saddle ou reprendre le dessus.",
   "whyItWorks": [
     "Être derrière la ligne de leurs hanches vous donne un avantage de position : ils ne peuvent pas voir la position de vos mains ou de vos jambes.",
     "La configuration des jambes 50/50 vous donne un contrôle fort sur la jambe éloignée tandis que vos mains attaquent la jambe proche.",
     "Il passe facilement à Saddle ou à la prise arrière en fonction de leur réaction.",
-    "Principe de Danaher : position avant soumission, backside 50/50 est la position ; le Heel Hook est la soumission."
+    "Principe de Danaher : position avant soumission, Backside 50/50 est la position ; le Heel Hook est la soumission."
   ],
   "commonMistakes": [
     "Perdre le contrôle de leur jambe éloignée – la jambe éloignée est leur voie de fuite.",
-    "Laissez-les se tourner et vous faire face – une fois qu’ils vous font face, le backside 50/50 devient le standard 50/50.",
+    "Laissez-les se tourner et vous faire face – une fois qu’ils vous font face, le Backside 50/50 devient le standard 50/50.",
     "Se concentrer uniquement sur le Heel Hook et ignorer le retour en arrière – les deux doivent être des menaces.",
     "Assis trop bas sur sa jambe, vous devez être haut sur sa cuisse pour avoir le contrôle."
   ],
@@ -93,7 +93,7 @@
     "Établissez des protocoles de claquettes pour toutes les attaques de jambes avant l’entraînement."
   ],
   "systemLogic": {
-    "corePrinciple": "Entrez backside 50/50 (derrière leur hanche, position de jambe 50/50) : contrôlez leur jambe éloignée → attaque Heel Hook ou transition.",
+    "corePrinciple": "Entrez Backside 50/50 (derrière leur hanche, position de jambe 50/50) : contrôlez leur jambe éloignée → attaque Heel Hook ou transition.",
     "decisionTree": [
       {
         "condition": "Utilisation de l'option 1",
@@ -116,7 +116,7 @@
     "Gardez votre poitrine près de sa hanche : plus vous êtes près, moins il peut bouger.",
     "Lorsqu'ils se tournent vers vous, suivez leurs hanches et entrez Saddle ou prenez le dos – ne restez pas en 50/50."
   ],
-  "nextStep": "Après le backside 50/50, apprenez le contrôle Saddle et les finitions Heel Hook.",
+  "nextStep": "Après le Backside 50/50, apprenez le contrôle Saddle et les finitions Heel Hook.",
   "fixItFast": [
     "Ils continuent de tourner ? Suivez leur hanche et prenez le dos.",
     "Vous ne trouvez pas le talon ? Montez plus haut sur leur jambe.",

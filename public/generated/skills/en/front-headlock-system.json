@@ -49,7 +49,7 @@
   "nextSkillIds": [],
   "searchBoost": 1,
   "keyCorrections": [
-    "If the opponent keeps escaping the chain: you are giving up the head position, maintain head pressure between attacks",
+    "If the opponent keeps escaping the chain: you are giving up the Head Position, maintain head pressure between attacks",
     "If you cannot lock the D'arce: the arm is not deep enough, walk your hand deeper into their armpit before locking",
     "If they take your back: you let your head drift inside, keep your head on the outside throughout"
   ],
@@ -65,9 +65,9 @@
     "hasStateMachine": false
   },
   "locale": "en",
-  "description": "The Front Headlock system chains snapdown into Guillotine, D'arce, Anaconda, or go-behind as a continuous attack sequence. It is the most powerful upper-body control system in no-gi grappling.",
+  "description": "The Front Headlock System chains snapdown into Guillotine, D'arce, Anaconda, or go-behind as a continuous attack sequence. It is the most powerful upper-body control system in no-gi grappling.",
   "shortInstruction": "From head control, chain attacks in this order: snapdown → Guillotine → D'arce → Anaconda → go-behind. Keep your head on the outside and never give up the Front Headlock position.",
-  "summary": "The Front Headlock system is a continuous attack sequence from the Front Headlock position (one arm around the head, the other controlling the far arm or hip). From this position, you cycle through submissions and positional advances: the snapdown breaks their posture, the Guillotine threatens the neck, the D'arce attacks the neck from the side, the Anaconda attacks from the front, and the go-behind takes the back. The key is to never give up the Front Headlock, if one attack fails, immediately transition to the next.",
+  "summary": "The Front Headlock System is a continuous attack sequence from the Front Headlock position (one arm around the head, the other controlling the far arm or hip). From this position, you cycle through submissions and positional advances: the snapdown breaks their posture, the Guillotine threatens the neck, the D'arce attacks the neck from the side, the Anaconda attacks from the front, and the go-behind takes the back. The key is to never give up the Front Headlock, if one attack fails, immediately transition to the next.",
   "whyItWorks": [
     "The Front Headlock position controls the opponent's head and one arm, the two primary tools for balance and defense",
     "Chaining five attacks from one position creates an unsolvable dilemma, they cannot defend all five",
@@ -92,7 +92,7 @@
     "If the opponent rolls out of the Front Headlock, protect your head and re-establish control before continuing the chain"
   ],
   "systemLogic": {
-    "corePrinciple": "The Front Headlock system has five attacks in a specific sequence: Snapdown → Guillotine → D'arce → Anaconda → Go-Behind",
+    "corePrinciple": "The Front Headlock System has five attacks in a specific sequence: Snapdown → Guillotine → D'arce → Anaconda → Go-Behind",
     "decisionTree": [
       {
         "condition": "Using Attack 1 (Snapdown)",
@@ -118,7 +118,7 @@
     "exitStrategies": []
   },
   "moneyDetails": [
-    "The Front Headlock system is the most important upper-body attack system in no-gi, it is used at every level of grappling",
+    "The Front Headlock System is the most important upper-body attack system in no-gi, it is used at every level of grappling",
     "Mastering the Front Headlock chain gives you five attacks from one position, you almost always finish",
     "The Front Headlock is the primary scoring position from sprawls and snapdowns, it is the most common wrestling exchange"
   ],

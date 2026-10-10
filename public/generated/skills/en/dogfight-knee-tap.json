@@ -52,7 +52,7 @@
   "searchBoost": 1,
   "keyCorrections": [
     "If they do not fall: you did not pull them forward enough, increase the forward pull with the underhook",
-    "If they step over your head: your head position was too low, keep your head at their shoulder level",
+    "If they step over your head: your Head Position was too low, keep your head at their shoulder level",
     "If they sprawl on you: switch to the single leg, your underhook gives you the single leg entry"
   ],
   "version": 1,
@@ -67,9 +67,9 @@
     "hasStateMachine": false
   },
   "locale": "en",
-  "description": "From Dogfight, the knee tap uses underhook and head position to take the opponent down. The Dogfight is the most common wrestling-up position from Half Guard bottom.",
+  "description": "From Dogfight, the knee tap uses underhook and Head Position to take the opponent down. The Dogfight is the most common wrestling-up position from Half Guard Bottom.",
   "shortInstruction": "From Dogfight, circle your outside knee across their back, use the underhook to pull them forward, and tap their far knee with your free hand to take them down.",
-  "summary": "The Dogfight knee tap is the highest-percentage sweep from the Dogfight position (underhook Half Guard). From Dogfight, you use your underhook to pull the opponent forward while tapping their far knee with your free hand. Their forward momentum combined with the knee tap removes their base and tips them to the mat. The knee tap transitions directly to Side Control or Front Headlock.",
+  "summary": "The Dogfight Knee Tap is the highest-percentage sweep from the Dogfight position (underhook Half Guard). From Dogfight, you use your underhook to pull the opponent forward while tapping their far knee with your free hand. Their forward momentum combined with the knee tap removes their base and tips them to the mat. The knee tap transitions directly to Side Control or Front Headlock.",
   "whyItWorks": [
     "The underhook in Dogfight gives you control of their upper body, you can pull them forward, off-balancing them",
     "Tapping the far knee removes their rear base point, they cannot step back to recover balance",
@@ -94,7 +94,7 @@
     "If the opponent resists the knee tap by stepping back, be ready to circle to the single leg instead"
   ],
   "systemLogic": {
-    "corePrinciple": "The Dogfight knee tap is part of a larger Dogfight system: Knee Tap → Single Leg → Re-Guard",
+    "corePrinciple": "The Dogfight Knee Tap is part of a larger Dogfight system: Knee Tap → Single Leg → Re-Guard",
     "decisionTree": [
       {
         "condition": "Using Option 1 (Knee Tap)",
@@ -116,8 +116,8 @@
     "exitStrategies": []
   },
   "moneyDetails": [
-    "The Dogfight knee tap is the most common sweep from Half Guard bottom in no-gi, it works at every level",
-    "Mastering the Dogfight knee tap gives you a reliable path from Half Guard to top position",
+    "The Dogfight Knee Tap is the most common sweep from Half Guard Bottom in no-gi, it works at every level",
+    "Mastering the Dogfight Knee Tap gives you a reliable path from Half Guard to top position",
     "Knee tap to Side Control scores 2 points (sweep) in IBJJF"
   ],
   "fixItFast": [

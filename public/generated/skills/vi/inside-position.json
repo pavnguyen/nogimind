@@ -86,7 +86,7 @@
     "decisionTree": [
       {
         "condition": "Đối thủ có vị trí tay trong (tay họ ở giữa cánh tay và cơ thể bạn)",
-        "action": "Vòng khuỷu tay của bạn quanh khuỷu tay của họ để pummeling vào trong. Không với tay xung quanh hoặc nắm lấy từ bên ngoài - tay bên trong luôn thắng trong cuộc chiến cầm nắm."
+        "action": "Vòng khuỷu tay của bạn quanh khuỷu tay của họ để Pummeling vào trong. Không với tay xung quanh hoặc nắm lấy từ bên ngoài - tay bên trong luôn thắng trong cuộc chiến cầm nắm."
       },
       {
         "condition": "Đối thủ khép Guard (từ chối đầu gối vào bên trong)",
@@ -94,7 +94,7 @@
       },
       {
         "condition": "Bạn có vị trí trong nhưng mất nó ngay lập tức",
-        "action": "Bạn đã không cố định chi bên trong - khi đã vào trong, hãy xòe chi ra bên ngoài (khuỷu tay hoặc đầu gối) để ngăn họ pummeling mạnh trở lại."
+        "action": "Bạn đã không cố định chi bên trong - khi đã vào trong, hãy xòe chi ra bên ngoài (khuỷu tay hoặc đầu gối) để ngăn họ Pummeling mạnh trở lại."
       },
       {
         "condition": "Đối thủ có đầu hướng vào trong (trán tới hàm của bạn)",

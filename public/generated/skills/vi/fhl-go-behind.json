@@ -3,7 +3,7 @@
   "domain": "submission_systems",
   "level": "intermediate",
   "status": "draft",
-  "name": "Front Headlock Đi phía sau",
+  "name": "Front Headlock Go Behind",
   "aliases": [],
   "tags": [
     "go-behind",
@@ -64,11 +64,11 @@
   },
   "locale": "vi",
   "description": "Cú lùi cơ bản nhất từ ​​Front Headlock, vòng ra phía sau khi đối thủ chống lại đòn siết cổ hoặc cố gắng cúi xuống.",
-  "shortInstruction": "Điều khiển đầu, vòng ra phía sau, móc câu, đi phía sau là con đường đơn giản nhất từ ​​Front Headlock đến back control.",
+  "shortInstruction": "Điều khiển đầu, vòng ra phía sau, móc câu, đi phía sau là con đường đơn giản nhất từ ​​Front Headlock đến Back Control.",
   "summary": "Phần tiếp theo của Front Headlock là phần chuyển đổi có tỷ lệ phần trăm cao nhất trong hệ thống Front Headlock. Khi bạn có Front Headlock và đối thủ chống lại nỗ lực bóp cổ của bạn (Guillotine, D'arce, Anaconda), họ thường sẽ cố gắng dàn xếp hoặc vòng ra xa. Lực cản của họ tạo ra khoảng trống mà bạn cần để giải phóng cuộn cảm, vòng ra phía sau họ và lùi lại. Người đi sau biến bài gửi không thành công thành vị trí thống trị nhất trong BJJ.",
   "whyItWorks": [
     "Khi chống lại cơn nghẹt thở, họ tập trung vào việc bảo vệ cổ - lưng của họ bị lộ ra ngoài.",
-    "Front Headlock đã điều khiển đầu và một cánh tay của họ, bạn đã đi được 50% chặng đường tới back control.",
+    "Front Headlock đã điều khiển đầu và một cánh tay của họ, bạn đã đi được 50% chặng đường tới Back Control.",
     "Vòng ra phía sau là một chuyển động tự nhiên từ Front Headlock, áp lực về phía trước của họ tạo ra khoảng trống.",
     "Nguyên tắc của Danaher: mọi nỗ lực Front Headlock phải có tùy chọn đi sau, không bao giờ cam kết hoàn toàn với việc bị sặc."
   ],
@@ -90,11 +90,11 @@
     "Khi rút móc về phía sau, hãy trượt móc vào nhẹ nhàng để tránh va vào đầu gối của họ."
   ],
   "systemLogic": {
-    "corePrinciple": "Front Headlock đã được thiết lập → đối thủ chống lại đòn sặc → thả nghẹt thở → vòng ra phía sau họ → cố định seatbelt → chèn móc → back control.",
+    "corePrinciple": "Front Headlock đã được thiết lập → đối thủ chống lại đòn sặc → thả nghẹt thở → vòng ra phía sau họ → cố định seatbelt → chèn móc → Back Control.",
     "decisionTree": [
       {
         "condition": "Kẻ đi sau hoạt động như một phần của hệ thống FHL: mối đe dọa nghẹt thở",
-        "action": "đi phía sau → back control → RNC."
+        "action": "đi phía sau → Back Control → RNC."
       },
       {
         "condition": "Ứng dụng chung",
@@ -109,7 +109,7 @@
     "Con đường tròn phải ôm sát cơ thể họ - một vòng tròn rộng giúp họ có thời gian phản ứng.",
     "Khi đã ở phía sau, hãy trượt tay vào tay nắm seatbelt trước khi lắp móc, seatbelt trước, móc sau."
   ],
-  "nextStep": "Sau phần tiếp theo của FHL, hãy tìm hiểu back control và hệ thống tấn công ngược.",
+  "nextStep": "Sau phần tiếp theo của FHL, hãy tìm hiểu Back Control và hệ thống tấn công ngược.",
   "fixItFast": [
     "Họ tiếp tục đối mặt với bạn? Vòng tròn chặt hơn - đường đi của bạn quá rộng.",
     "Không thể lấy seatbelt? Đừng buông đầu họ ra - hãy giữ quyền kiểm soát đầu và đưa tay ra sau.",

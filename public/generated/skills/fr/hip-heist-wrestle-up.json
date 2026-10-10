@@ -65,11 +65,11 @@
   },
   "locale": "fr",
   "description": "Le Hip Heist est un combat explosif depuis le bas Guard pour se relever ou prendre le dessus. C'est le moyen le plus rapide de passer de Guard à une position debout dominante.",
-  "shortInstruction": "À partir du open Guard, remportez le underhook, balancez votre jambe extérieure vers l'arrière, postez-vous sur votre main et conduisez à genoux ou debout. S'ils suivent, faites le tour derrière eux pour la prise arrière.",
+  "shortInstruction": "À partir du Open Guard, remportez le underhook, balancez votre jambe extérieure vers l'arrière, postez-vous sur votre main et conduisez à genoux ou debout. S'ils suivent, faites le tour derrière eux pour la prise arrière.",
   "summary": "Le braquage de la hanche utilise une rotation de la hanche et un balancement des jambes pour passer de manière explosive du bas Guard à une position à genoux ou debout. Il s'agit de la lutte la plus rapide car elle convertit votre élan d'évasion de la hanche directement en un stand-up. Le braquage de hanche est particulièrement efficace contre les adversaires qui se penchent en avant avec une forte pression : leur élan vers l'avant devient l'énergie que vous utilisez pour vous tenir debout.",
   "whyItWorks": [
     "La rotation de la hanche crée un élan qui vous porte à genoux sans forcer le haut du corps.",
-    "La pression vers l'avant de l'adversaire (courante lors des passes open Guard) fournit la force contraire dont vous avez besoin pour élever",
+    "La pression vers l'avant de l'adversaire (courante lors des passes Open Guard) fournit la force contraire dont vous avez besoin pour élever",
     "Le braquage de la hanche se transforme en prise arrière si l'adversaire suit votre mouvement.",
     "C'est plus rapide qu'un stand-up technique et nécessite moins d'espace"
   ],
@@ -95,7 +95,7 @@
     "decisionTree": [
       {
         "condition": "En phase 1 (underhook)",
-        "action": "à partir du open Guard, remportez le underhook du côté que vous allez braquer. Votre tête devrait être sur leur poitrine"
+        "action": "à partir du Open Guard, remportez le underhook du côté que vous allez braquer. Votre tête devrait être sur leur poitrine"
       },
       {
         "condition": "En phase 2 (rotation de la hanche)",
@@ -118,7 +118,7 @@
   },
   "moneyDetails": [
     "Le braquage de hanche est la lutte la plus rapide de BJJ : il convertit Guard directement en position de retrait.",
-    "Maîtriser le braquage de hanche vous permet de vous relever de manière fiable depuis n'importe quelle position open Guard.",
+    "Maîtriser le braquage de hanche vous permet de vous relever de manière fiable depuis n'importe quelle position Open Guard.",
     "Le braquage de la hanche vers la prise arrière est une transition de grande valeur qui rapporte 4 points (prise arrière) en IBJJF."
   ],
   "fixItFast": [

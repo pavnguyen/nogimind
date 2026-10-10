@@ -67,9 +67,9 @@
     "hasStateMachine": false
   },
   "locale": "vi",
-  "description": "Dùng chân của bạn để bẫy đường vai của đối phương từ phía sau, mở các đòn tấn công sặc sỡ (phía sau Triangle), Armbar hoặc Kimura trong khi duy trì back control.",
+  "description": "Dùng chân của bạn để bẫy đường vai của đối phương từ phía sau, mở các đòn tấn công sặc sỡ (phía sau Triangle), Armbar hoặc Kimura trong khi duy trì Back Control.",
   "shortInstruction": "Một chân vắt qua vai, một chân móc vào người, siết chặt, phía sau Triangle là một chân bị nghẹn từ phía sau.",
-  "summary": "Triangle phía sau (còn được gọi là cuộn cảm Triangle phía sau hoặc phần thân Triangle sặc) là một đòn phục tùng mạnh mẽ từ back control trong đó bạn dùng chân để bóp cổ chứ không phải dùng tay. Bằng cách đưa một chân qua vai và khóa sau cổ trong khi chân còn lại vòng quanh cơ thể họ, bạn tạo ra một chân Triangle nén cổ và vai của họ. Cuộc tấn công này hoạt động khi họ bảo vệ cổ bằng cả hai tay - cánh tay của bạn được tự do trong khi chân bạn bị nghẹn.",
+  "summary": "Triangle phía sau (còn được gọi là cuộn cảm Triangle phía sau hoặc phần thân Triangle sặc) là một đòn phục tùng mạnh mẽ từ Back Control trong đó bạn dùng chân để bóp cổ chứ không phải dùng tay. Bằng cách đưa một chân qua vai và khóa sau cổ trong khi chân còn lại vòng quanh cơ thể họ, bạn tạo ra một chân Triangle nén cổ và vai của họ. Cuộc tấn công này hoạt động khi họ bảo vệ cổ bằng cả hai tay - cánh tay của bạn được tự do trong khi chân bạn bị nghẹn.",
   "whyItWorks": [
     "Sử dụng cơ (chân) mạnh nhất của bạn để bóp cổ - lực nén ở chân mạnh hơn nhiều so với lực nén ở cánh tay.",
     "Có tác dụng khi họ bảo vệ cổ bằng cả hai tay - tay bạn có thể điều khiển cơ thể họ trong khi chân bạn bị nghẹn.",
@@ -94,7 +94,7 @@
     "Thả ngay khi chạm - lực ép ở cổ và vai có thể nhanh chóng gây thương tích."
   ],
   "systemLogic": {
-    "corePrinciple": "back control: phá vỡ tư thế của họ → đưa chân trên qua vai → khóa Triangle (ống chân trên cổ họng họ, đặt chân sau đầu gối của bạn) → siết chặt.",
+    "corePrinciple": "Back Control: phá vỡ tư thế của họ → đưa chân trên qua vai → khóa Triangle (ống chân trên cổ họng họ, đặt chân sau đầu gối của bạn) → siết chặt.",
     "decisionTree": [
       {
         "condition": "Xích Triangle phía sau có RNC",

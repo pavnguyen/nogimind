@@ -2,7 +2,7 @@
   "id": "seated-guard",
   "locale": "vi",
   "title": "Seated Guard",
-  "description": "Người giữ Guard ngồi, dùng shin frame và hand fighting, đe dọa wrestle-up hoặc vào Guard.",
+  "description": "Người giữ Guard ngồi, dùng shin frame và Hand Fighting, đe dọa wrestle-up hoặc vào Guard.",
   "topPlayerGoals": [
     "Người trên kiểm soát Seated Guard bằng vị trí đầu, vị trí trong và hướng áp lực.",
     "Vô hiệu hóa shin frame, kéo đường đầu xuống hoặc khóa hông.",
@@ -25,7 +25,7 @@
   ],
   "advancementOptions": [
     {
-      "action": "Vào shin-to-shin hoặc wrestle-up",
+      "action": "Vào shin-to-shin hoặc Wrestle-Up",
       "nextPositionId": "single-leg-x",
       "relatedSkillIds": [
         "seated-guard-retention",

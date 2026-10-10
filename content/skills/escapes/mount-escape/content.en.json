@@ -4,7 +4,7 @@
   "name": "Mount Escape",
   "description": "Combine bridge, elbow escape, and knee-elbow recovery to escape Mount with structure.",
   "shortInstruction": "Bridge to off-balance, turn to your side, pummel the elbow inside, and recover Guard using the knee-elbow connection.",
-  "summary": "Mount escape uses a sequenced bridge to create space, elbow placement to block the crossface, and hip escape to recover Guard or a knee-shield position. The system rewards timing over explosiveness.",
+  "summary": "Mount Escape uses a sequenced bridge to create space, elbow placement to block the crossface, and hip escape to recover Guard or a knee-shield position. The system rewards timing over explosiveness.",
   "whyItWorks": [
     "A well-timed bridge loads the opponent's weight onto their hands, creating the window to insert the elbow",
     "The elbow-to-knee connection creates a structural frame that prevents the opponent from flattening you again",
@@ -28,7 +28,7 @@
     "Relax and breathe when flattened, panic bridging consumes oxygen and makes the position worse"
   ],
   "systemLogic": {
-    "corePrinciple": "Mount escape follows a three-step sequence: frame + bridge → elbow pummel → hip escape toward knee-elbow connection. Each step sets up the next, bridging loads weight forward, elbow pummel blocks the crossface, and knee-elbow frames the Guard.",
+    "corePrinciple": "Mount Escape follows a three-step sequence: frame + bridge → elbow pummel → hip escape toward knee-elbow connection. Each step sets up the next, bridging loads weight forward, elbow pummel blocks the crossface, and knee-elbow frames the Guard.",
     "decisionTree": [
       {
         "condition": "Opponent is mounted with both knees on the mat",
@@ -40,7 +40,7 @@
       },
       {
         "condition": "Elbow pummel succeeds (elbow is inside)",
-        "action": "Hip escape away from the opponent while keeping the elbow-knee connection tight. Recover to Half Guard with a knee shield."
+        "action": "Hip escape away from the opponent while keeping the Elbow-Knee Connection tight. Recover to Half Guard with a knee shield."
       },
       {
         "condition": "Opponent switches to technical Mount as you escape",
@@ -58,7 +58,7 @@
     ]
   },
   "moneyDetails": [
-    "Mastering the Mount escape removes the fear of being mounted, you can train harder and compete more confidently",
+    "Mastering the Mount Escape removes the fear of being mounted, you can train harder and compete more confidently",
     "It is the single most important survival skill in BJJ: everyone gets mounted, not everyone escapes",
     "Competition Mount escapes win matches by one point or by resetting to a neutral position where you can attack"
   ],

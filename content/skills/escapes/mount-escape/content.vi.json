@@ -1,7 +1,7 @@
 {
   "id": "mount-escape",
   "locale": "vi",
-  "name": "Mount Thoát",
+  "name": "Mount Escape",
   "description": "Kết hợp cầu, thoát khuỷu và phục hồi đầu gối-khuỷu tay để thoát Mount có cấu trúc.",
   "shortInstruction": "Cầu để mất thăng bằng, quay sang một bên, đập khuỷu tay vào trong và phục hồi Guard bằng cách sử dụng kết nối đầu gối-khuỷu tay.",
   "summary": "Lối thoát Mount sử dụng cầu nối theo trình tự để tạo khoảng trống, đặt khuỷu tay để chặn crossface và lối thoát hông để khôi phục Guard hoặc vị trí tấm chắn đầu gối. Hệ thống thưởng cho thời gian hơn là sự bùng nổ.",
@@ -28,10 +28,10 @@
     "Thư giãn và thở khi bị đè bẹp - việc bắc cầu hoảng loạn sẽ tiêu tốn oxy và khiến tư thế trở nên tồi tệ hơn"
   ],
   "systemLogic": {
-    "corePrinciple": "Mount thoát theo trình tự ba bước: khung + cầu → khuỷu tay → thoát hông về phía kết nối đầu gối-khuỷu tay. Mỗi bước sẽ thiết lập bước tiếp theo, bắc cầu tải trọng về phía trước, pummeling ở khuỷu tay chặn crossface và khuỷu tay đầu gối tạo khung cho Guard.",
+    "corePrinciple": "Mount thoát theo trình tự ba bước: khung + cầu → khuỷu tay → thoát hông về phía kết nối đầu gối-khuỷu tay. Mỗi bước sẽ thiết lập bước tiếp theo, bắc cầu tải trọng về phía trước, Pummeling ở khuỷu tay chặn crossface và khuỷu tay đầu gối tạo khung cho Guard.",
     "decisionTree": [
       {
-        "condition": "Đối thủ bị Mount pummeling bằng cả hai đầu gối trên thảm",
+        "condition": "Đối thủ bị Mount Pummeling bằng cả hai đầu gối trên thảm",
         "action": "Đặt cả hai cẳng tay lên hông, cầu để mất thăng bằng về phía trước, sau đó ngay lập tức quay sang một bên và đập khuỷu tay gần của bạn vào trong."
       },
       {

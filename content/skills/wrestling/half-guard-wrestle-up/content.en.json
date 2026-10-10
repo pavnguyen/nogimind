@@ -4,7 +4,7 @@
   "name": "Half Guard Wrestle-Up",
   "description": "Turn Half Guard from defense into a single leg when you win the underhook or hip angle. The wrestle-up is the highest-value offensive transition from Half Guard, it converts a defensive position into a takedown opportunity.",
   "shortInstruction": "Win the underhook, create a hip angle, post on your outside foot, and drive to a single leg. If they resist the single leg, come up to a Front Headlock.",
-  "summary": "The Half Guard wrestle-up transforms Half Guard from a defensive pin into an offensive takedown entry. The sequence is: win the underhook → turn to face them → post your outside foot → drive to a single leg. The wrestle-up works because it catches the opponent in the transition between passing and pinning, they are not fully committed to either, making them vulnerable to the sudden stand-up.",
+  "summary": "The Half Guard Wrestle-Up transforms Half Guard from a defensive pin into an offensive takedown entry. The sequence is: win the underhook → turn to face them → post your outside foot → drive to a single leg. The wrestle-up works because it catches the opponent in the transition between passing and pinning, they are not fully committed to either, making them vulnerable to the sudden stand-up.",
   "whyItWorks": [
     "The underhook gives you upper body control, they cannot crossface or flatten you as you stand",
     "Creating a hip angle (turning to face them) aligns your body for the stand-up, you drive forward, not sideways",
@@ -34,7 +34,7 @@
     "If they Guillotine you: your head was too high, keep your forehead to their jaw as you stand"
   ],
   "systemLogic": {
-    "corePrinciple": "The Half Guard wrestle-up has four phases: Underhook → Hip Angle → Stand → Single Leg",
+    "corePrinciple": "The Half Guard Wrestle-Up has four phases: Underhook → Hip Angle → Stand → Single Leg",
     "decisionTree": [
       {
         "condition": "In Phase 1 (Underhook)",
@@ -59,7 +59,7 @@
     ]
   },
   "moneyDetails": [
-    "The Half Guard wrestle-up is the highest-value transition from Half Guard, it scores 2 takedown points and lands you on top",
+    "The Half Guard Wrestle-Up is the highest-value transition from Half Guard, it scores 2 takedown points and lands you on top",
     "Mastering the wrestle-up gives you a third option from Half Guard (sweep, submission, or wrestle-up)",
     "The wrestle-up is particularly effective against pressure passers who commit weight forward"
   ],

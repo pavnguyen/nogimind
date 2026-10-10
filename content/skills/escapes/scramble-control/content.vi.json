@@ -1,7 +1,7 @@
 {
   "id": "scramble-control",
   "locale": "vi",
-  "name": "Kiểm soát tranh giành",
+  "name": "Scramble Control",
   "description": "Biến các cuộc tranh giành từ sự hỗn loạn thành các cuộc đua ưu tiên: đầu, hông, vị trí trong và tiếp xúc phía sau. Tranh giành là một cuộc đua giành quyền kiểm soát vị trí trong đó người đầu tiên thiết lập được cấu trúc sẽ giành chiến thắng.",
   "shortInstruction": "Giành chiến thắng trong cuộc đua đối đầu (trán tới hàm của họ), đánh bại họ ở vị trí trong, giữ hông của bạn ở dưới hông họ và không bao giờ lộ lưng. Người đầu tiên về cấu trúc sẽ thắng cuộc tranh giành.",
   "summary": "Kiểm soát tranh giành biến các sàn giao dịch hỗn loạn thành một cuộc đua ưu tiên có hệ thống. Bốn mức độ ưu tiên theo thứ tự là: (1) vị trí đầu - đưa trán của bạn chạm vào quai hàm của họ, (2) chiều cao của hông - giữ hông của bạn ở dưới hoặc ngang bằng với họ, (3) vị trí trong - đánh tay, đầu gối và khuỷu tay của họ vào làn bên trong và (4) để lộ lưng - không bao giờ lộ lưng. Người cấu trúc đầu tiên buộc đối thủ phải phản ứng và giành được lợi thế về vị trí.",

@@ -2,9 +2,9 @@
   "id": "power-half-ride",
   "locale": "en",
   "name": "Power Half Ride",
-  "description": "The power half ride uses a deep cross-face grip on the far arm combined with chest-to-chest pressure to flatten the opponent from Turtle or four-points and expose the back.",
-  "shortInstruction": "Reach under the near arm, grip the far tricep or shoulder. Drive the shoulder into the mat while walking your hips toward the head to flatten. Transition to back control as they collapse.",
-  "summary": "The power half ride flattens the opponent from Turtle by controlling the far arm and driving shoulder pressure, creating back exposure. The key mechanics are: the deep cross-face grip (reaching under the near arm to control the far arm/shoulder), chest-to-chest pressure (your weight drives through your chest into their upper back), and hip walking (your hips advance toward their head as they collapse). The power half is one of the highest-percentage turtle-breaking systems in wrestling.",
+  "description": "The Power Half Ride uses a deep cross-face grip on the far arm combined with chest-to-chest pressure to flatten the opponent from Turtle or four-points and expose the back.",
+  "shortInstruction": "Reach under the near arm, grip the far tricep or shoulder. Drive the shoulder into the mat while walking your hips toward the head to flatten. Transition to Back Control as they collapse.",
+  "summary": "The Power Half Ride flattens the opponent from Turtle by controlling the far arm and driving shoulder pressure, creating back exposure. The key mechanics are: the deep cross-face grip (reaching under the near arm to control the far arm/shoulder), chest-to-chest pressure (your weight drives through your chest into their upper back), and hip walking (your hips advance toward their head as they collapse). The power half is one of the highest-percentage turtle-breaking systems in wrestling.",
   "whyItWorks": [
     "The cross-face grip on the far arm gives you control of their upper body, they cannot posture or sit through",
     "Chest-to-chest pressure drives them forward, removing their ability to base on their hands",
@@ -15,7 +15,7 @@
     "Reaching too shallow on the far arm, the grip must be deep on the tricep or shoulder, not the elbow",
     "Staying too high on the body, your hips must advance toward their head to create the flattening effect",
     "Losing chest pressure, if your chest separates, they can sit up and escape",
-    "Not transitioning to back control quickly enough, once flat, take the back immediately"
+    "Not transitioning to Back Control quickly enough, once flat, take the back immediately"
   ],
   "coachingCues": [
     "Far arm, deep grip",
@@ -34,7 +34,7 @@
     "If they roll away: follow them, maintain the grip, and re-establish chest pressure"
   ],
   "systemLogic": {
-    "corePrinciple": "The power half ride has three phases: Grip → Flatten → Back Take",
+    "corePrinciple": "The Power Half Ride has three phases: Grip → Flatten → Back Take",
     "decisionTree": [
       {
         "condition": "In Phase 1 (Grip)",
@@ -46,16 +46,16 @@
       },
       {
         "condition": "In Phase 3 (Back Take)",
-        "action": "once flat, release the cross-face grip and replace with a seatbelt (arm over far shoulder, hand on near hip). Slide your near knee into their hip line and secure back control with hooks"
+        "action": "once flat, release the cross-face grip and replace with a seatbelt (arm over far shoulder, hand on near hip). Slide your near knee into their hip line and secure Back Control with hooks"
       },
       {
         "condition": "the power half fails (they are too strong)",
-        "action": "switch to the claw ride or spiral ride, each system attacks the Turtle from a different angle"
+        "action": "switch to the Claw Ride or Spiral Ride, each system attacks the Turtle from a different angle"
       }
     ]
   },
   "moneyDetails": [
-    "The power half ride is one of the most effective turtle-breaking techniques in wrestling, it is simple, reliable, and works at every level",
+    "The Power Half Ride is one of the most effective turtle-breaking techniques in wrestling, it is simple, reliable, and works at every level",
     "Mastering the power half gives you a go-to Turtle break that does not require exceptional strength or flexibility",
     "The power half to Back Take is a high-value transition that scores 4 points (Back Take) in IBJJF"
   ],

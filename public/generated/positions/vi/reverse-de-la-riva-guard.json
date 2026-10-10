@@ -15,43 +15,43 @@
   ],
   "locale": "vi",
   "title": "Reverse De La Riva Guard",
-  "description": "RDLR dùng hook chân ngoài đùi và xoay hông để tạo angle, sweep hoặc chuyển sang other guards.",
+  "description": "RDLR dùng hook chân ngoài đùi và xoay hông để tạo góc, sweep hoặc chuyển sang Guard khác.",
   "topPlayerGoals": [
-    "Người ở trên muốn kiểm soát Reverse De La Riva Guard bằng vị trí đầu, vị trí trong và áp lực có hướng.",
-    "Kill hook, staple leg và ép shoulder line xuống.",
-    "Giữ nền vững để không bị mất thăng bằng hoặc bị phản đòn."
+    "Người trên kiểm soát Reverse De La Riva Guard bằng vị trí đầu, vị trí trong và hướng áp lực.",
+    "Dập hook, ghim chân và ép đường vai xuống.",
+    "Giữ nền chắc để không bị đẩy mất thăng bằng hay bị phản đòn."
   ],
   "bottomPlayerGoals": [
-    "Người ở dưới muốn sống sót trong Reverse De La Riva Guard bằng khung chặn, pummel hoặc góc phù hợp.",
-    "Giữ hook sống, xoay hông ra ngoài và chọn sweep/kimura/back take.",
-    "Nhận diện tín hiệu nguy hiểm sớm thay vì chờ vị trí ổn định."
+    "Người dưới cần sống sót ở Reverse De La Riva Guard bằng frame, pummel hoặc chọn đúng góc.",
+    "Giữ hook còn sống, xoay hông ra ngoài rồi chọn sweep, Kimura hoặc lấy lưng.",
+    "Nhận ra tín hiệu nguy hiểm từ sớm, thay vì chờ đến khi thế đã ổn định."
   ],
   "controlPoints": [
-    "Điểm kiểm soát chính: Outside hook, hip angle và far wrist.",
-    "Đầu, tay, hông và gối nên cùng hướng lực.",
-    "Kết nối khuỷu-gối hoặc đường hông-vai quyết định vị trí còn sống hay đã bị khóa."
+    "Điểm kiểm soát chính: hook ngoài, góc hông và cổ tay phía xa.",
+    "Đầu, tay, hông và gối phải cùng một hướng lực.",
+    "Kết nối khuỷu-gối cùng đường hông-vai quyết định thế còn giữ được hay đã bị khóa."
   ],
   "escapePriorities": [
-    "Ưu tiên thoát: Không để họ kéo far wrist qua hip line.",
-    "Bảo vệ cổ, lưng, đường gối hoặc đường tay trước khi phản công.",
-    "Nếu mất vị trí trong, hãy lùi lại một lớp phòng thủ trước."
+    "Ưu tiên thoát: không để họ kéo cổ tay phía xa qua đường hông.",
+    "Bảo vệ cổ, lưng, đường gối và đường tay trước khi phản công.",
+    "Mất vị trí trong thì lùi lại một lớp phòng thủ trước đã."
   ],
   "advancementOptions": [
     {
-      "action": "Chuyển DLR hoặc vào berimbolo line",
+      "action": "Chuyển DLR hoặc vào Berimbolo line",
       "nextPositionId": "de-la-riva-guard",
       "relatedSkillIds": [
         "reverse-de-la-riva-transitions",
         "single-leg-x-control",
         "kimura-system"
       ],
-      "why": "Đây là nhánh tự nhiên khi bạn thắng điểm kiểm soát chính và đối thủ buộc phải phòng thủ."
+      "why": "Đây là nhánh tự nhiên khi bạn đã thắng điểm kiểm soát chính và đối thủ buộc phải phòng thủ."
     }
   ],
   "dangerSignals": [
     "Cằm hoặc cổ bị kéo ra khỏi đường an toàn.",
-    "Khuỷu tay tách khỏi sườn hoặc đầu gối.",
-    "Đường hông bị khóa trong khi đường vai vẫn đang bị kéo.",
-    "Bạn phải chống tay dài để không ngã."
+    "Khuỷu tay rời khỏi sườn hoặc khỏi đầu gối.",
+    "Đường hông đã bị khóa mà đường vai vẫn đang bị kéo.",
+    "Phải chống tay thật xa mới giữ được thăng bằng."
   ]
 }

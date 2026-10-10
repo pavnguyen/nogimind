@@ -9,7 +9,7 @@
     "Garder une base stable pour éviter d’être déséquilibré ou contré."
   ],
   "bottomPlayerGoals": [
-    "Le joueur du dessous veut survivre en Garde De La Riva avec des cadres, du pummeling ou le bon angle.",
+    "Le joueur du dessous veut survivre en Garde De La Riva avec des cadres, du Pummeling ou le bon angle.",
     "Combiner le hook avec sleeve grip et contrôle de hanche éloignée pour sweeps ou prise de dos.",
     "Reconnaître les signaux de danger tôt au lieu d’attendre que la position se stabilise."
   ],
@@ -19,13 +19,13 @@
     "La connexion coude-genou ou la ligne hanches-épaules détermine si la position reste vivante ou verrouillée."
   ],
   "escapePriorities": [
-    "Priorité de sortie : Ne pas laisser le hook cuisse verrouiller la knee line.",
+    "Priorité de sortie : Ne pas laisser le hook cuisse verrouiller la Knee Line.",
     "Protéger le cou, le dos, la ligne du genou ou la ligne du bras avant de contrer.",
     "Si la position intérieure est perdue, rétablir d’abord une couche défensive."
   ],
   "advancementOptions": [
     {
-      "action": "Passer en X-Guard ou single leg X",
+      "action": "Passer en X Guard ou Single Leg X",
       "nextPositionId": "x-guard-position",
       "relatedSkillIds": [
         "de-la-riva-sweeps",

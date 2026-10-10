@@ -15,43 +15,43 @@
   ],
   "locale": "vi",
   "title": "Cross-Wrist Ride",
-  "description": "Ride từ turtle/side nơi attacker kiểm soát cả hai cổ tay, duỗi tay đối thủ ra xa để lộ lưng.",
+  "description": "Thế ride từ Turtle hoặc Side, nơi người trên kiểm soát cả hai cổ tay và duỗi tay đối thủ ra xa để mở lưng.",
   "topPlayerGoals": [
-    "Người ở trên muốn kiểm soát Cross-Wrist Ride bằng vị trí đầu, vị trí trong và áp lực có hướng.",
-    "Giữ hai cổ tay, duy trì áp lực ngực và mở hook entry.",
-    "Giữ nền vững để không bị mất thăng bằng hoặc bị phản đòn."
+    "Người trên kiểm soát Cross-Wrist Ride bằng vị trí đầu, vị trí trong và hướng áp lực.",
+    "Giữ cả hai cổ tay, duy trì áp lực ngực và mở cửa vào hook.",
+    "Giữ nền chắc để không bị đẩy mất thăng bằng hay bị phản đòn."
   ],
   "bottomPlayerGoals": [
-    "Người ở dưới muốn sống sót trong Cross-Wrist Ride bằng khung chặn, pummel hoặc góc phù hợp.",
-    "Kéo hai tay về thân, xây base và không để shoulder line bị tách.",
-    "Nhận diện tín hiệu nguy hiểm sớm thay vì chờ vị trí ổn định."
+    "Người dưới cần sống sót ở Cross-Wrist Ride bằng frame, pummel hoặc chọn đúng góc.",
+    "Kéo hai tay về sát thân, dựng nền và không để đường vai bị tách.",
+    "Nhận ra tín hiệu nguy hiểm từ sớm, thay vì chờ đến khi thế đã ổn định."
   ],
   "controlPoints": [
-    "Điểm kiểm soát chính: Hai cổ tay bị kiểm soát, ngực trên lưng và knee ride angle.",
-    "Đầu, tay, hông và gối nên cùng hướng lực.",
-    "Kết nối khuỷu-gối hoặc đường hông-vai quyết định vị trí còn sống hay đã bị khóa."
+    "Điểm kiểm soát chính: hai cổ tay bị giữ, ngực trên lưng và góc ride gối.",
+    "Đầu, tay, hông và gối phải cùng một hướng lực.",
+    "Kết nối khuỷu-gối cùng đường hông-vai quyết định thế còn giữ được hay đã bị khóa."
   ],
   "escapePriorities": [
-    "Ưu tiên thoát: Đưa khuỷu tay về sườn trước khi kéo tay về, không rút thẳng vào ngực.",
-    "Bảo vệ cổ, lưng, đường gối hoặc đường tay trước khi phản công.",
-    "Nếu mất vị trí trong, hãy lùi lại một lớp phòng thủ trước."
+    "Ưu tiên thoát: đưa khuỷu tay về sườn trước khi kéo tay về, đừng rút thẳng vào ngực.",
+    "Bảo vệ cổ, lưng, đường gối và đường tay trước khi phản công.",
+    "Mất vị trí trong thì lùi lại một lớp phòng thủ trước đã."
   ],
   "advancementOptions": [
     {
-      "action": "Chuyển hook seatbelt hoặc body triangle",
+      "action": "Chuyển hook seatbelt hoặc Body Triangle",
       "nextPositionId": "back-control-position",
       "relatedSkillIds": [
         "cross-wrist-ride",
         "turtle-ride",
         "back-control"
       ],
-      "why": "Đây là nhánh tự nhiên khi bạn thắng điểm kiểm soát chính và đối thủ buộc phải phòng thủ."
+      "why": "Đây là nhánh tự nhiên khi bạn đã thắng điểm kiểm soát chính và đối thủ buộc phải phòng thủ."
     }
   ],
   "dangerSignals": [
     "Cằm hoặc cổ bị kéo ra khỏi đường an toàn.",
-    "Khuỷu tay tách khỏi sườn hoặc đầu gối.",
-    "Đường hông bị khóa trong khi đường vai vẫn đang bị kéo.",
-    "Bạn phải chống tay dài để không ngã."
+    "Khuỷu tay rời khỏi sườn hoặc khỏi đầu gối.",
+    "Đường hông đã bị khóa mà đường vai vẫn đang bị kéo.",
+    "Phải chống tay thật xa mới giữ được thăng bằng."
   ]
 }

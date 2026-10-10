@@ -61,9 +61,9 @@
     "hasStateMachine": false
   },
   "locale": "en",
-  "description": "Dominate the back with a locked seatbelt, active hooks or Body Triangle, and systematic hand fighting to maintain control and set up submissions.",
-  "shortInstruction": "Chest to spine, seatbelt locked, hooks in, hand fight, back control is the king of positions for a reason.",
-  "summary": "Back control is the most dominant position in BJJ. From here, you control their movement almost entirely. The seatbelt (one arm over their shoulder, one under their armpit, hands clasped) controls their upper body. Hooks (feet inside their thighs) or Body Triangle (legs wrapped around their torso) control their lower body. From this complete control, you can attack the neck, arms, or transition to Mount.",
+  "description": "Dominate the back with a locked seatbelt, active hooks or Body Triangle, and systematic Hand Fighting to maintain control and set up submissions.",
+  "shortInstruction": "Chest to spine, seatbelt locked, hooks in, hand fight, Back Control is the king of positions for a reason.",
+  "summary": "Back Control is the most dominant position in BJJ. From here, you control their movement almost entirely. The seatbelt (one arm over their shoulder, one under their armpit, hands clasped) controls their upper body. Hooks (feet inside their thighs) or Body Triangle (legs wrapped around their torso) control their lower body. From this complete control, you can attack the neck, arms, or transition to Mount.",
   "whyItWorks": [
     "From the back, you see everything they do while they cannot see you, reaction advantage is enormous.",
     "The seatbelt and hooks create a cage around their body, they cannot escape without breaking multiple controls.",
@@ -74,7 +74,7 @@
     "Losing chest-to-back contact, this gives them space to turn in or escape.",
     "Crossing your feet when using hooks, crossed feet can be broken by ankle pressure.",
     "Letting the seatbelt slip up to their neck, the seatbelt should be locked at their chest, not their neck.",
-    "Resting instead of attacking, back control is a transitional attacking position, not a rest position."
+    "Resting instead of attacking, Back Control is a transitional attacking position, not a rest position."
   ],
   "coachingCues": [
     "Chest to spine, no daylight between you.",
@@ -88,10 +88,10 @@
     "Be aware of your partner's breathing when using Body Triangle, they may not be able to tap verbally."
   ],
   "systemLogic": {
-    "corePrinciple": "Back control is the platform for all back attacks. The sequence is: take the back → lock seatbelt → secure hooks or Body Triangle → hand fight → attack RNC or Arm Triangle.",
+    "corePrinciple": "Back Control is the platform for all back attacks. The sequence is: take the back → lock seatbelt → secure hooks or Body Triangle → hand fight → attack RNC or Arm Triangle.",
     "decisionTree": [
       {
-        "condition": "Starting from back control",
+        "condition": "Starting from Back Control",
         "action": "Lock the seatbelt immediately (one arm over their shoulder, one under their armpit, hands clasped). Secure hooks (feet inside their thighs) or a Body Triangle before attempting any submission"
       },
       {
@@ -114,7 +114,7 @@
     "exitStrategies": [
       "If you lose the seatbelt, re-grip before they can create space",
       "If they peel both hooks and flatten you, return to a Front Headlock or stand-up to reset the engagement",
-      "Back control is a transitional attacking position, do not rest in it; attack or advance"
+      "Back Control is a transitional attacking position, do not rest in it; attack or advance"
     ]
   },
   "moneyDetails": [
@@ -123,7 +123,7 @@
     "Keep your head to one side of their spine, this protects your face from elbows and prevents them from turning into you.",
     "When they try to turn into you, follow their hips and take Mount, the transition from back to Mount is a critical chain."
   ],
-  "nextStep": "After back control, learn the back attack system (RNC, Arm Triangle, back transitions).",
+  "nextStep": "After Back Control, learn the Back Attack System (RNC, Arm Triangle, back transitions).",
   "fixItFast": [
     "Hooks keep getting peeled? Switch to Body Triangle immediately.",
     "Seatbelt grip broken? Re-grip before they turn, don't let them create space.",

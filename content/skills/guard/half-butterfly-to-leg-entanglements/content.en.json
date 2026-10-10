@@ -2,9 +2,9 @@
   "id": "half-butterfly-to-leg-entanglements",
   "locale": "en",
   "name": "Half Butterfly to Leg Entanglements",
-  "description": "Use the half butterfly hook to off-balance the opponent, then transition into K-Guard, bear trap, or Saddle when they react to the hook pressure.",
+  "description": "Use the half butterfly hook to off-balance the opponent, then transition into K-Guard, Bear Trap, or Saddle when they react to the hook pressure.",
   "shortInstruction": "Half butterfly hook, off-balance, follow their reaction into leg entanglement or sweep.",
-  "summary": "Half butterfly is the strongest transitional Guard in modern no-gi. With one hook on their near leg and the other leg framing on their hip, you can off-balance them forward or sideways. Their reaction determines your entry: if they stand, go to K-Guard; if they step back, enter bear trap; if they post, enter the Saddle. The half butterfly is the engine that powers the entire lower-body attack system.",
+  "summary": "Half butterfly is the strongest transitional Guard in modern no-gi. With one hook on their near leg and the other leg framing on their hip, you can off-balance them forward or sideways. Their reaction determines your entry: if they stand, go to K-Guard; if they step back, enter Bear Trap; if they post, enter the Saddle. The half butterfly is the engine that powers the entire lower-body attack system.",
   "whyItWorks": [
     "The half butterfly hook on one leg gives you control over their base while keeping your other leg free to frame or attack.",
     "It works against both standing and kneeling passers, making it one of the most versatile Guard entries.",
@@ -21,7 +21,7 @@
     "Hook active, free leg framing, feel the reaction.",
     "Off-balance first, then enter, never skip the setup.",
     "Half butterfly is the door - K-Guard and Saddle are the rooms.",
-    "If they stand, go K-Guard. If they kneel, go bear trap."
+    "If they stand, go K-Guard. If they kneel, go Bear Trap."
   ],
   "safetySummary": [
     "Keep your head off the mat when off-balancing, protect your neck from Guillotine counters.",
@@ -31,18 +31,18 @@
   "keyCorrections": [
     "If they flatten your hook, you're too flat on your back, sit up on your far elbow.",
     "If they step back and avoid the hook, extend into K-Guard immediately, don't chase the hook.",
-    "If they drive forward into you, use their momentum for the bear trap entry."
+    "If they drive forward into you, use their momentum for the Bear Trap entry."
   ],
   "systemLogic": {
-    "corePrinciple": "Half butterfly hook on near leg: free leg frames on hip/biceps → off-balance forward or sideways → read their reaction → enter K-Guard, bear trap, or Saddle.",
+    "corePrinciple": "Half butterfly hook on near leg: free leg frames on hip/biceps → off-balance forward or sideways → read their reaction → enter K-Guard, Bear Trap, or Saddle.",
     "decisionTree": [
       {
         "condition": "Using Reaction 1",
-        "action": "They stand → K-Guard entry → backside or leg entanglement."
+        "action": "They stand → K-Guard Entry → backside or leg entanglement."
       },
       {
         "condition": "Using Reaction 2",
-        "action": "They drive forward → bear trap entry → sweep or Leg Lock."
+        "action": "They drive forward → Bear Trap entry → sweep or Leg Lock."
       },
       {
         "condition": "Using Reaction 3",
@@ -56,10 +56,10 @@
     "Off-balance them by pulling your hook toward your own chest while pushing with the free leg frame.",
     "The transition to K-Guard is a single movement: extend the butterfly hook and rotate your hips 90 degrees."
   ],
-  "nextStep": "After half butterfly entries, learn K-Guard and bear trap systems to chain with your leg entanglement attacks.",
+  "nextStep": "After half butterfly entries, learn K-Guard and Bear Trap systems to chain with your leg entanglement attacks.",
   "fixItFast": [
     "Hook flattened? Sit up on your elbow and pummel the hook back in.",
     "They keep stepping back? Stop chasing, enter K-Guard immediately.",
-    "They drive through you? Accept the pressure and enter bear trap, use their momentum against them."
+    "They drive through you? Accept the pressure and enter Bear Trap, use their momentum against them."
   ]
 }

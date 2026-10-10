@@ -3,7 +3,7 @@
   "domain": "submission_systems",
   "level": "advanced",
   "status": "draft",
-  "name": "Tarikplata",
+  "name": "Tarikoplata",
   "aliases": [],
   "tags": [
     "tarikoplata",
@@ -97,7 +97,7 @@
     "corePrinciple": "Vị trí kẹp hoặc Omoplata: kiểm soát cổ tay của họ → đưa chân của bạn qua cánh tay của họ → ghim cánh tay vào cơ thể họ → xoay hông của bạn → kết thúc.",
     "decisionTree": [
       {
-        "condition": "Chuỗi tarikoplata có Omoplata: Omoplata",
+        "condition": "Chuỗi Tarikoplata có Omoplata: Omoplata",
         "action": "tarikplata → Kimura, một chuỗi tấn công vai hoàn chỉnh."
       },
       {
@@ -113,7 +113,7 @@
     "Xoay hông ra xa họ khi bạn kéo cổ tay họ về phía mình - sự kết hợp này sẽ tạo ra khóa vai.",
     "Giữ chân còn lại của bạn trên hông của họ để kiểm soát tư thế của họ và ngăn họ ngồi dậy."
   ],
-  "nextStep": "Sau tarikoplata, hãy tìm hiểu hệ thống Omoplata và hệ thống Kimura.",
+  "nextStep": "Sau Tarikoplata, hãy tìm hiểu hệ thống Omoplata và hệ thống Kimura.",
   "fixItFast": [
     "Cánh tay tiếp tục thoát? Việc điều khiển cổ tay của bạn quá lỏng lẻo, hãy cầm lại với áp lực lớn hơn.",
     "Không thể xoay? Vị trí chân của bạn không đúng - hãy điều chỉnh để chân bạn điều khiển vai của họ chứ không phải cánh tay của họ.",

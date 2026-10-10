@@ -64,7 +64,7 @@
     "hasStateMachine": false
   },
   "locale": "fr",
-  "description": "Un système complet à partir de back control : établir seatbelt, sécuriser les crochets ou le corps Triangle, gagner le combat à main, puis terminer avec RNC, armer Triangle, ou effectuer une transition lorsque l'adversaire se retourne pour se défendre.",
+  "description": "Un système complet à partir de Back Control : établir seatbelt, sécuriser les crochets ou le corps Triangle, gagner le combat à main, puis terminer avec RNC, armer Triangle, ou effectuer une transition lorsque l'adversaire se retourne pour se défendre.",
   "shortInstruction": "seatbelt → crochets → combat à main → finition, les attaques arrière sont un système de contrôle progressif, pas un seul mouvement.",
   "summary": "Le système de contre-attaque est la chaîne de soumission avec le pourcentage le plus élevé en BJJ. Le processus est le suivant : fixez le seatbelt (un bras sur l'épaule, un bras sous l'aisselle), verrouillez vos crochets ou votre corps Triangle, gagnez le combat à main pour exposer leur cou et terminez avec l'étranglement arrière nu. S'ils défendent le RNC en se rendant, passez à l'armement Triangle ou Mount. Le système est basé sur la réaction : vous ne forcez pas une fin ; vous enchaînez jusqu'à ce qu'on fonctionne.",
   "whyItWorks": [
@@ -91,7 +91,7 @@
     "Lors de la transition vers le bras Triangle, ne tournez pas la tête de manière agressive."
   ],
   "systemLogic": {
-    "corePrinciple": "back control → seatbelt → crochets/corps sécurisés Triangle → combat à main → RNC tentative.",
+    "corePrinciple": "Back Control → seatbelt → crochets/corps sécurisés Triangle → combat à main → RNC tentative.",
     "decisionTree": [
       {
         "condition": "RNC Réaction 1 : Ils défendent",
@@ -117,7 +117,7 @@
   "nextStep": "Après le système d'attaque arrière, apprenez le contrôle du corps Triangle et le bras Triangle par l'arrière.",
   "fixItFast": [
     "Vous n'arrivez pas à obtenir le starter ? Passez au Armbar sur le bras éloigné – ils s’ouvrent lorsque vous défendez le starter.",
-    "Ils continuent de se rendre ? Prenez Mount immédiatement, back control est perdu, Mount est gagné.",
+    "Ils continuent de se rendre ? Prenez Mount immédiatement, Back Control est perdu, Mount est gagné.",
     "Ils vous prennent les mains ? Rentrez votre menton et passez au poignet haut RNC."
   ]
 }

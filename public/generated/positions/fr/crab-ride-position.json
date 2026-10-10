@@ -21,7 +21,7 @@
     "Garder une base stable pour éviter d’être déséquilibré ou contré."
   ],
   "bottomPlayerGoals": [
-    "Le joueur du dessous veut survivre en Crab Ride avec des cadres, du pummeling ou le bon angle.",
+    "Le joueur du dessous veut survivre en Crab Ride avec des cadres, du Pummeling ou le bon angle.",
     "Enlever les hooks, tourner les hanches et se lever ou re-garder.",
     "Reconnaître les signaux de danger tôt au lieu d’attendre que la position se stabilise."
   ],
@@ -37,7 +37,7 @@
   ],
   "advancementOptions": [
     {
-      "action": "Passer en back control ou wrist ride",
+      "action": "Passer en Back Control ou wrist ride",
       "nextPositionId": "back-control-position",
       "relatedSkillIds": [
         "crab-ride",

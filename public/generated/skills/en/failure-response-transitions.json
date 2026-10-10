@@ -43,8 +43,8 @@
   "nextSkillIds": [],
   "searchBoost": 1,
   "keyCorrections": [
-    "If you keep trying the same attack and failing: your failure response is missing. Stop and drill the transition to the next attack",
-    "If you lose position every time a technique fails: you are retreating without structure. Practice retreating with frames and head position",
+    "If you keep trying the same attack and failing: your Failure Response is missing. Stop and drill the transition to the next attack",
+    "If you lose position every time a technique fails: you are retreating without structure. Practice retreating with frames and Head Position",
     "If you cannot find the right adjustment mid-roll: pick one adjustment (angle or grip) and drill it 50 times until it is automatic"
   ],
   "version": 1,
@@ -59,13 +59,13 @@
     "hasStateMachine": false
   },
   "locale": "en",
-  "description": "The plan for when a technique fails: change angle, change grip, change position, or retreat safely. Every technique fails eventually, the grappler with a pre-planned failure response wins more matches than the one who freezes.",
+  "description": "The plan for when a technique fails: change angle, change grip, change position, or retreat safely. Every technique fails eventually, the grappler with a pre-planned Failure Response wins more matches than the one who freezes.",
   "shortInstruction": "When a technique fails, follow the sequence: change the angle first, change the grip second, change the position third, and retreat safely only as a last resort.",
-  "summary": "Failure response is a structured decision tree for when Technique A does not work. The system has four escalating responses: (1) angle adjustment, shift your body 10-30 degrees without changing the technique, (2) grip adjustment, change where or how you hold the opponent, (3) position change, move to a different position while maintaining the same attack theme, (4) safe retreat, disengage and reset to neutral. The key principle is to exhaust options 1-3 before accepting option 4.",
+  "summary": "Failure Response is a structured decision tree for when Technique A does not work. The system has four escalating responses: (1) angle adjustment, shift your body 10-30 degrees without changing the technique, (2) grip adjustment, change where or how you hold the opponent, (3) position change, move to a different position while maintaining the same attack theme, (4) safe retreat, disengage and reset to neutral. The key principle is to exhaust options 1-3 before accepting option 4.",
   "whyItWorks": [
     "Most technique failures are caused by a minor misalignment of angles or grips, adjusting 10-30 degrees often makes the same technique work without changing it",
     "Changing the grip (e.g., pocket grip to Kimura grip, collar tie to overhook) alters the mechanical leverage without requiring a new position entry",
-    "Having a pre-planned failure response eliminates hesitation, the grappler who knows what to do when technique A fails is always one step ahead",
+    "Having a pre-planned Failure Response eliminates hesitation, the grappler who knows what to do when technique A fails is always one step ahead",
     "Retreat safely should be the last resort because retreating gives the opponent time to reset their own defense and attack"
   ],
   "commonMistakes": [
@@ -86,11 +86,11 @@
     "If you feel joint pressure during a failed submission attempt, release immediately and reset rather than fighting the wrong angle"
   ],
   "systemLogic": {
-    "corePrinciple": "The failure response system has four levels: Angle → Grip → Position → Retreat. Each level must be exhausted before moving to the next",
+    "corePrinciple": "The Failure Response system has four levels: Angle → Grip → Position → Retreat. Each level must be exhausted before moving to the next",
     "decisionTree": [
       {
         "condition": "At Level 1 (Angle)",
-        "action": "shift your body 10-30 degrees relative to the opponent. Most submissions and sweeps fail because of a 5-degree misalignment, not because the opponent is 'too strong'. Common angle adjustments: move your hips left/right, raise/lower your head position, rotate your shoulders"
+        "action": "shift your body 10-30 degrees relative to the opponent. Most submissions and sweeps fail because of a 5-degree misalignment, not because the opponent is 'too strong'. Common angle adjustments: move your hips left/right, raise/lower your Head Position, rotate your shoulders"
       },
       {
         "condition": "At Level 2 (Grip)",
@@ -112,7 +112,7 @@
     "exitStrategies": []
   },
   "moneyDetails": [
-    "A structured failure response system separates advanced grapplers from intermediates, the best in the world never 'fail', they just transition to the next attack",
+    "A structured Failure Response system separates advanced grapplers from intermediates, the best in the world never 'fail', they just transition to the next attack",
     "The ability to chain failures into new attacks is more valuable than any single technique because it guarantees you are always threatening something",
     "Gordon Ryan's most dangerous quality is not his finishing percentage, it is that he never stops attacking even when the first technique fails"
   ],

@@ -64,11 +64,11 @@
   },
   "locale": "fr",
   "description": "La prise en arrière la plus fondamentale de Front Headlock : faire un cercle vers l'arrière lorsque l'adversaire résiste à l'étranglement ou tente de se mettre à plat ventre.",
-  "shortInstruction": "Contrôlez la tête, faites un cercle vers l'arrière, prenez les crochets, le passage en arrière est le chemin le plus simple de Front Headlock à back control.",
+  "shortInstruction": "Contrôlez la tête, faites un cercle vers l'arrière, prenez les crochets, le passage en arrière est le chemin le plus simple de Front Headlock à Back Control.",
   "summary": "Le retour à partir de Front Headlock est le pourcentage de transition le plus élevé dans le système Front Headlock. Lorsque vous avez le Front Headlock et que l'adversaire résiste à votre tentative d'étranglement (Guillotine, D'arce, Anaconda), il essaiera souvent de s'aplatir ou de s'éloigner. Leur résistance crée l’espace dont vous avez besoin pour relâcher l’étranglement, tourner derrière eux et prendre le dos. Le go-behind transforme une soumission échouée en position la plus dominante dans BJJ.",
   "whyItWorks": [
     "Lorsqu’ils résistent à l’étranglement, ils se concentrent sur la défense de leur cou – leur dos est exposé.",
-    "Le Front Headlock contrôle déjà sa tête et un bras – vous avez déjà parcouru 50 % du chemin vers back control.",
+    "Le Front Headlock contrôle déjà sa tête et un bras – vous avez déjà parcouru 50 % du chemin vers Back Control.",
     "Faire des cercles derrière est un mouvement naturel de Front Headlock : leur pression vers l'avant crée l'espace.",
     "Principe de Danaher : chaque tentative de Front Headlock doit avoir une option de mise en marche arrière – ne vous engagez jamais complètement dans le starter."
   ],
@@ -90,11 +90,11 @@
     "Lorsque vous prenez le dos, glissez doucement vos crochets pour éviter de heurter leurs genoux."
   ],
   "systemLogic": {
-    "corePrinciple": "Front Headlock établi → l'adversaire résiste à l'étranglement → relâchez l'étranglement → cercle derrière lui → sécurisez seatbelt → insérez les crochets → back control.",
+    "corePrinciple": "Front Headlock établi → l'adversaire résiste à l'étranglement → relâchez l'étranglement → cercle derrière lui → sécurisez seatbelt → insérez les crochets → Back Control.",
     "decisionTree": [
       {
         "condition": "Le go-behind fonctionne dans le cadre du système FHL : menace d'étranglement",
-        "action": "aller derrière → back control → RNC."
+        "action": "aller derrière → Back Control → RNC."
       },
       {
         "condition": "Application générale",
@@ -109,7 +109,7 @@
     "Le chemin circulaire doit être serré contre leur corps – un cercle large leur donne le temps de réagir.",
     "Une fois derrière, glissez vos mains dans la poignée seatbelt avant d'insérer les crochets - seatbelt en premier, les crochets en second."
   ],
-  "nextStep": "Après le go-behind FHL, apprenez back control et le système d'attaque arrière.",
+  "nextStep": "Après le go-behind FHL, apprenez Back Control et le système d'attaque arrière.",
   "fixItFast": [
     "Ils continuent de vous faire face ? Cercle plus serré – votre chemin est trop large.",
     "Vous ne parvenez pas à obtenir le seatbelt ? Ne lâchez pas leur tête – gardez le contrôle de votre tête et reculez vos mains.",

@@ -4,7 +4,7 @@
   "name": "Guard Pulling Strategy",
   "description": "Pull Guard with intent: grip and angle first, then seated, shin-to-shin, K-Guard, or wrestle-up plan. A Guard pull is an offensive entry that should lead directly to one of your strongest Guard systems.",
   "shortInstruction": "Establish a grip (collar tie or wrist control), create an angle off the center line, sit back to one hip, and enter your chosen Guard (seated, shin-to-shin, K-Guard) immediately. Pulling Guard without a plan is conceding position.",
-  "summary": "Guard pulling should be an offensive transition, not a defensive retreat. The sequence is: establish a dominant grip → create an angle by circling or pummeling → control the distance by maintaining the grip → sit back with control → enter directly into your best Guard system. A well-executed Guard pull arrives in a scoring Guard (not flat on your back) with grips already established and the opponent off-balance.",
+  "summary": "Guard pulling should be an offensive transition, not a defensive retreat. The sequence is: establish a dominant grip → create an angle by circling or Pummeling → control the distance by maintaining the grip → sit back with control → enter directly into your best Guard system. A well-executed Guard pull arrives in a scoring Guard (not flat on your back) with grips already established and the opponent off-balance.",
   "whyItWorks": [
     "Establishing a grip before pulling ensures you control the distance, the opponent cannot back away or circle to Side Control",
     "Creating an angle (stepping off the center line) forces the opponent to re-align, giving you the opening to pull without being passed",
@@ -38,7 +38,7 @@
     "decisionTree": [
       {
         "condition": "In Step 1 (Grip)",
-        "action": "establish your strongest Guard grip before pulling. If pulling to shin-to-shin: collar tie + wrist control. If pulling to K-Guard: collar tie + sleeve grip. If pulling to seated Guard: two-on-one wrist control or collar tie"
+        "action": "establish your strongest Guard grip before pulling. If pulling to shin-to-shin: collar tie + wrist control. If pulling to K-Guard: collar tie + sleeve grip. If pulling to Seated Guard: two-on-one wrist control or collar tie"
       },
       {
         "condition": "In Step 2 (Angle)",
@@ -50,11 +50,11 @@
       },
       {
         "condition": "In Step 4 (Enter Guard System)",
-        "action": "immediately transition to your best Guard from the landing position. If you pulled to shin-to-shin: enter single leg X or X-Guard. If you pulled to seated: enter K-Guard, DLR, or collar-sleeve. If you pulled to Closed Guard: break their posture immediately"
+        "action": "immediately transition to your best Guard from the landing position. If you pulled to shin-to-shin: enter Single Leg X or X-Guard. If you pulled to seated: enter K-Guard, DLR, or collar-sleeve. If you pulled to Closed Guard: break their posture immediately"
       },
       {
         "condition": "Guard pull selection guide",
-        "action": "against a standing passer → seated Guard. Against a kneeling passer → shin-to-shin. Against pressure passer → K-Guard or butterfly"
+        "action": "against a standing passer → Seated Guard. Against a kneeling passer → shin-to-shin. Against pressure passer → K-Guard or butterfly"
       }
     ]
   },

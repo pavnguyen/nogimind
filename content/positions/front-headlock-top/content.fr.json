@@ -5,16 +5,16 @@
   "description": "Le joueur du dessus contrôle la tête et le cou par l’avant, menaçant le go-behind, la Guillotine ou la prise du dos.",
   "topPlayerGoals": [
     "Le joueur du dessus veut contrôler Front Headlock dessus avec la position de tête, la position intérieure et une pression orientée.",
-    "Garder la tête adverse sous la ligne des épaules et contrôler le coude ou le chin strap.",
+    "Garder la tête adverse sous la ligne des épaules et contrôler le coude ou le Chin Strap.",
     "Garder une base stable pour éviter d’être déséquilibré ou contré."
   ],
   "bottomPlayerGoals": [
-    "Le joueur du dessous veut survivre en Front Headlock dessus avec des cadres, du pummeling ou le bon angle.",
+    "Le joueur du dessous veut survivre en Front Headlock dessus avec des cadres, du Pummeling ou le bon angle.",
     "Protéger la respiration et le menton, et garder les genoux sous les hanches.",
     "Reconnaître les signaux de danger tôt au lieu d’attendre que la position se stabilise."
   ],
   "controlPoints": [
-    "Point de contrôle principal : Chin strap, ligne du coude et angle des hanches.",
+    "Point de contrôle principal : Chin Strap, ligne du coude et angle des hanches.",
     "La tête, les mains, les hanches et les genoux doivent suivre la même direction de force.",
     "La connexion coude-genou ou la ligne hanches-épaules détermine si la position reste vivante ou verrouillée."
   ],
@@ -25,7 +25,7 @@
   ],
   "advancementOptions": [
     {
-      "action": "Passer derrière vers un turtle ride",
+      "action": "Passer derrière vers un Turtle Ride",
       "nextPositionId": "turtle-top",
       "relatedSkillIds": [
         "snapdown-front-headlock",

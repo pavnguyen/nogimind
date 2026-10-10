@@ -3,7 +3,7 @@
   "domain": "pins_rides",
   "level": "intermediate",
   "status": "draft",
-  "name": "crucifix Contrôle",
+  "name": "Crucifix Contrôle",
   "aliases": [],
   "tags": [
     "crucifix",
@@ -64,9 +64,9 @@
     "hasStateMachine": false
   },
   "locale": "fr",
-  "description": "Utilisez le crucifix pour piéger le bras de l'adversaire avec vos jambes, créant ainsi un dilemme entre étranglement et verrouillage du bras sans nécessiter un back control complet. Le crucifix est une broche spécialisée qui contrôle complètement un bras, vous donnant le temps et la sécurité pour attaquer.",
+  "description": "Utilisez le crucifix pour piéger le bras de l'adversaire avec vos jambes, créant ainsi un dilemme entre étranglement et verrouillage du bras sans nécessiter un Back Control complet. Le crucifix est une broche spécialisée qui contrôle complètement un bras, vous donnant le temps et la sécurité pour attaquer.",
   "shortInstruction": "Sur le côté ou à l'arrière, coincez un de leurs bras entre vos jambes (bras entre vos cuisses), verrouillez vos pieds et enfoncez votre poitrine dans leur dos. Attaquez le starter ou le bras coincé Armbar.",
-  "summary": "Le crucifix immobilise l'un des bras de l'adversaire en le coinçant entre vos cuisses, lui laissant ainsi un seul bras pour défendre toutes vos attaques. Avec le bras piégé, vous pouvez attaquer un rear-naked choke (ils n'ont qu'une seule main à défendre), Armbar le bras piégé, ou passer au back control complet. Le crucifix est plus sûr que le back control complet car le bras piégé ne peut pas être utilisé pour s'échapper ou contre-attaquer.",
+  "summary": "Le crucifix immobilise l'un des bras de l'adversaire en le coinçant entre vos cuisses, lui laissant ainsi un seul bras pour défendre toutes vos attaques. Avec le bras piégé, vous pouvez attaquer un rear-naked choke (ils n'ont qu'une seule main à défendre), Armbar le bras piégé, ou passer au Back Control complet. Le crucifix est plus sûr que le Back Control complet car le bras piégé ne peut pas être utilisé pour s'échapper ou contre-attaquer.",
   "whyItWorks": [
     "Coincer le bras entre vos cuisses le supprime de l'équation défensive : l'adversaire doit défendre toutes les attaques avec un seul bras.",
     "Le crucifix est structurellement solide : vos jambes sont plus fortes que leur bras, elles ne peuvent donc pas libérer le bras contre la pression de votre cuisse.",
@@ -91,7 +91,7 @@
     "Lorsque vous entrez dans le crucifix, veillez à ne pas étendre votre propre genou contre son bras."
   ],
   "systemLogic": {
-    "corePrinciple": "Le crucifix a trois branches d'attaque : rear-naked choke → Bras piégé Armbar → Plein back control",
+    "corePrinciple": "Le crucifix a trois branches d'attaque : rear-naked choke → Bras piégé Armbar → Plein Back Control",
     "decisionTree": [
       {
         "condition": "Utilisation de la branche 1 (attaques par bras)",
@@ -102,8 +102,8 @@
         "action": "si le bras est bloqué ou s'il est face à vous, attaquez le cou. La position crucifix vous offre un excellent accès au RNC par le côté"
       },
       {
-        "condition": "Utilisation de la branche 3 (back control)",
-        "action": "s'ils se tournent vers vous pour se défendre, relâchez le crucifix et glissez un crochet pour prendre le back control complet. Le crucifix est une position de transition vers l'arrière"
+        "condition": "Utilisation de la branche 3 (Back Control)",
+        "action": "s'ils se tournent vers vous pour se défendre, relâchez le crucifix et glissez un crochet pour prendre le Back Control complet. Le crucifix est une position de transition vers l'arrière"
       },
       {
         "condition": "Application générale",
@@ -119,7 +119,7 @@
   ],
   "fixItFast": [
     "S'ils défendent le RNC : passez immédiatement au Armbar – ne vous battez pas pour l'étranglement.",
-    "S'ils libèrent le bras coincé : retournez à back control ou Mount, ne forcez pas l'entrée crucifix",
+    "S'ils libèrent le bras coincé : retournez à Back Control ou Mount, ne forcez pas l'entrée crucifix",
     "Si vous êtes en position crucifix et perdante : relâchez les jambes et revenez en position neutre"
   ]
 }

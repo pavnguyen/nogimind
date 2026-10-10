@@ -60,9 +60,9 @@
     "hasStateMachine": false
   },
   "locale": "en",
-  "description": "Control the opponent's hip and knee line from single-leg X (SLX) to sweep, stand up, or safely enter ashi garami (leg entanglement).",
+  "description": "Control the opponent's hip and Knee Line from single-leg X (SLX) to sweep, stand up, or safely enter Ashi Garami (leg entanglement).",
   "shortInstruction": "One leg between theirs, one leg on the hip - SLX gives you control of one leg and their entire base.",
-  "summary": "Single-leg X (SLX) is the fundamental one-leg control position of modern no-gi. You trap one of their legs with your own leg (between your thigh and calf), while your other foot posts on their opposite hip. This gives you control of their entire base through a single leg, when you pull that leg, their whole body follows. SLX is the entry point for sweeps (classic SLX sweep), leg entanglements (enter ashi garami), and stand-ups (wrestle up).",
+  "summary": "Single-leg X (SLX) is the fundamental one-leg control position of modern no-gi. You trap one of their legs with your own leg (between your thigh and calf), while your other foot posts on their opposite hip. This gives you control of their entire base through a single leg, when you pull that leg, their whole body follows. SLX is the entry point for sweeps (classic SLX sweep), leg entanglements (enter Ashi Garami), and stand-ups (wrestle up).",
   "whyItWorks": [
     "Controlling one leg with both of your legs gives you a 2-on-1 mechanical advantage on that limb.",
     "The foot on their hip controls their distance and prevents them from stepping back.",
@@ -95,11 +95,11 @@
       },
       {
         "condition": "Option 2: They sit back",
-        "action": "enter leg entanglement (ashi garami)."
+        "action": "enter leg entanglement (Ashi Garami)."
       },
       {
         "condition": "Option 3: They post a hand",
-        "action": "technical stand-up → wrestle up."
+        "action": "Technical Stand-Up → wrestle up."
       }
     ],
     "exitStrategies": []

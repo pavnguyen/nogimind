@@ -16,28 +16,28 @@
   "title": "Half Guard Bottom",
   "description": "The bottom player controls one of the top player’s legs but needs frames or an underhook to avoid being flattened.",
   "topPlayerGoals": [
-    "The top player wants to control Half Guard Bottom through head position, inside position, and directed pressure.",
+    "The top player wants to control Half Guard Bottom through Head Position, Inside Position, and directed pressure.",
     "Use the crossface, whizzer, and pressure to flatten the hips.",
     "Keep a stable base so you are not off-balanced or countered."
   ],
   "bottomPlayerGoals": [
-    "The bottom player wants to survive Half Guard Bottom with frames, pummeling, or the right angle.",
+    "The bottom player wants to survive Half Guard Bottom with frames, Pummeling, or the right angle.",
     "Use a knee shield, underhook, or hip angle to recover or wrestle up.",
     "Recognize danger signals early instead of waiting for the position to settle."
   ],
   "controlPoints": [
     "Main control point: Crossface line, underhook, and knee shield.",
     "Head, hands, hips, and knees should share the same force direction.",
-    "The elbow-knee connection or hip-shoulder line determines whether the position is still alive or already locked."
+    "The Elbow-Knee Connection or hip-shoulder line determines whether the position is still alive or already locked."
   ],
   "escapePriorities": [
     "Escape priority: Block the crossface before coming up on a single leg.",
-    "Protect the neck, back, knee line, or arm line before countering.",
-    "If inside position is lost, reset one defensive layer first."
+    "Protect the neck, back, Knee Line, or arm line before countering.",
+    "If Inside Position is lost, reset one defensive layer first."
   ],
   "advancementOptions": [
     {
-      "action": "Win the underhook and come up to dogfight",
+      "action": "Win the Underhook and come up to Dogfight",
       "nextPositionId": "dogfight",
       "relatedSkillIds": [
         "half-guard-knee-shield",

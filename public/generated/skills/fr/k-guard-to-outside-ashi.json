@@ -3,7 +3,7 @@
   "domain": "guard_offense",
   "level": "advanced",
   "status": "draft",
-  "name": "K-Guard vers Outside Ashi",
+  "name": "K Guard vers Outside Ashi",
   "aliases": [
     "K-Guard entry",
     "K-Guard leg lock",
@@ -50,7 +50,7 @@
   "nextSkillIds": [],
   "searchBoost": 1,
   "keyCorrections": [
-    "S'ils reculent pour dégager le K-Guard : pompez la jambe en outside ashi",
+    "S'ils reculent pour dégager le K-Guard : pompez la jambe en Outside Ashi",
     "S'ils avancent pour faire pression : restez en K-Guard et sweep plutôt",
     "S'ils s'appuient sur votre tête pour bloquer : pompez leur bras ou passez en Omoplata"
   ],
@@ -66,25 +66,25 @@
     "hasStateMachine": false
   },
   "locale": "fr",
-  "description": "Le K-Guard vers outside ashi est la principale chaîne d'entrée en Leg Lock depuis le K-Guard. Quand l'adversaire défend le K-Guard, vous relâchez le crochet et entrez directement en outside ashi.",
-  "shortInstruction": "Depuis le K-Guard, quand ils reculent, relâchez l'accroche extérieure et passez la jambe à l'intérieur de leur jambe éloignée. Ré-entrez en outside ashi avec exposition du talon.",
-  "summary": "La transition K-Guard vers outside ashi passe d'une position de guarde à un enchevêtrement de jambes en relâchant l'accroche K-Guard et en pompant directement dans l'outside ashi. La transition est plus rapide que l'adversaire ne peut défendre car vous êtes déjà sous eux avec une jambe enchevêtrée.",
+  "description": "Le K-Guard vers Outside Ashi est la principale chaîne d'entrée en Leg Lock depuis le K-Guard. Quand l'adversaire défend le K-Guard, vous relâchez le crochet et entrez directement en Outside Ashi.",
+  "shortInstruction": "Depuis le K-Guard, quand ils reculent, relâchez l'accroche extérieure et passez la jambe à l'intérieur de leur jambe éloignée. Ré-entrez en Outside Ashi avec exposition du talon.",
+  "summary": "La transition K-Guard vers Outside Ashi passe d'une position de guarde à un enchevêtrement de jambes en relâchant l'accroche K-Guard et en pompant directement dans l'Outside Ashi. La transition est plus rapide que l'adversaire ne peut défendre car vous êtes déjà sous eux avec une jambe enchevêtrée.",
   "whyItWorks": [
     "Le K-Guard a déjà vos hanches sous les leurs et votre jambe enchevêtrée, vous êtes déjà à 50% dans le Leg Lock",
-    "Relâcher l'accroche K-Guard et rentrer en outside ashi est un seul mouvement, ils ne peuvent pas défendre deux positions en séquence",
-    "L'outside ashi vous donne une exposition du talon sur la jambe éloignée tout en protégeant votre propre ligne de genou",
+    "Relâcher l'accroche K-Guard et rentrer en Outside Ashi est un seul mouvement, ils ne peuvent pas défendre deux positions en séquence",
+    "L'Outside Ashi vous donne une exposition du talon sur la jambe éloignée tout en protégeant votre propre ligne de genou",
     "La transition se produit sous leur champ de vision, beaucoup ne reconnaissent pas la menace jusqu'à ce qu'il soit trop tard"
   ],
   "commonMistakes": [
-    "Perdre le K-Guard avant d'établir l'outside ashi, il y a un trou entre les deux où vous êtes vulnérable",
+    "Perdre le K-Guard avant d'établir l'Outside Ashi, il y a un trou entre les deux où vous êtes vulnérable",
     "Les laisser dégager leur genou éloigné pendant la transition, il faut garder la jambe éloignée piégée",
-    "Aller trop tôt en Saddle, finissez depuis l'outside ashi d'abord ; le Saddle est l'option de secours",
+    "Aller trop tôt en Saddle, finissez depuis l'Outside Ashi d'abord ; le Saddle est l'option de secours",
     "Ne pas contrôler leur main proche, ils peuvent s'appuyer sur votre tête ou décoller l'enchevêtrement"
   ],
   "coachingCues": [
-    "L'accroche K-Guard tire, la jambe outside ashi pompe, deux mouvements qui n'en font qu'un",
+    "L'accroche K-Guard tire, la jambe Outside Ashi pompe, deux mouvements qui n'en font qu'un",
     "Gardez la jambe éloignée piégée pendant la transition, perdez-la, perdez l'entrée",
-    "Finissez depuis l'outside ashi avant d'envisager le Saddle",
+    "Finissez depuis l'Outside Ashi avant d'envisager le Saddle",
     "Contrôlez la main proche, s'ils s'appuient sur votre tête, l'enchevêtrement échoue"
   ],
   "safetySummary": [
@@ -93,11 +93,11 @@
     "Si vous perdez l'enchevêtrement, récupérez immédiatement la guarde plutôt que de lutter pour le Heel Hook"
   ],
   "systemLogic": {
-    "corePrinciple": "K-Guard to outside ashi : établissez le K-Guard → l'adversaire recule (déclencheur) → relâchez l'accroche K-Guard → pompez votre jambe à l'intérieur de leur jambe éloignée → rentrez en outside ashi → exposez le talon.",
+    "corePrinciple": "K-Guard to Outside Ashi : établissez le K-Guard → l'adversaire recule (déclencheur) → relâchez l'accroche K-Guard → pompez votre jambe à l'intérieur de leur jambe éloignée → rentrez en Outside Ashi → exposez le talon.",
     "decisionTree": [
       {
         "condition": "Ils reculent pour dégager le K-Guard",
-        "action": "pompez la jambe en outside ashi"
+        "action": "pompez la jambe en Outside Ashi"
       },
       {
         "condition": "Ils avancent pour faire pression",
@@ -114,13 +114,13 @@
     ]
   },
   "moneyDetails": [
-    "Le K-Guard vers outside ashi est la principale entrée en Leg Lock utilisée par les compétiteurs no-gi d'élite au niveau ADCC",
+    "Le K-Guard vers Outside Ashi est la principale entrée en Leg Lock utilisée par les compétiteurs no-gi d'élite au niveau ADCC",
     "Maîtriser cette transition vous donne un chemin direct de la guarde au Heel Hook qui contourne de nombreuses défenses courantes",
     "Le K-Guard est l'une des positions de guarde les plus sûres pour entrer dans les Leg Locks car vos hanches sont sous les leurs"
   ],
   "fixItFast": [
     "S'ils libèrent leur jambe éloignée : vous avez perdu la position, rentrez en K-Guard ou récupérez la guarde",
     "S'ils s'appuient sur votre tête : pompez le bras et rétablissez l'enchevêtrement",
-    "S'ils reculent mais vous ratez l'entrée outside ashi : récupérez la full guarde et réessayez depuis le K-Guard"
+    "S'ils reculent mais vous ratez l'entrée Outside Ashi : récupérez la full guarde et réessayez depuis le K-Guard"
   ]
 }

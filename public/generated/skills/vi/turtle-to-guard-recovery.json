@@ -3,7 +3,7 @@
   "domain": "escapes",
   "level": "intermediate",
   "status": "draft",
-  "name": "Phục hồi Guard từ tư thế rùa",
+  "name": "Turtle to Guard Recovery",
   "aliases": [
     "Guard recovery from turtle",
     "turtle Guard recovery"
@@ -85,7 +85,7 @@
     "Khi đá chân qua, đảm bảo không đá vào mặt họ"
   ],
   "systemLogic": {
-    "corePrinciple": "Turtle to Guard recovery: Turtle → bảo vệ cổ → đọc trọng lượng đè tới (tín hiệu) → thả hông gần xuống thảm → đá chân xa qua → luồn tay trong → thiết lập lại Guard.",
+    "corePrinciple": "Turtle to Guard Recovery: Turtle → bảo vệ cổ → đọc trọng lượng đè tới (tín hiệu) → thả hông gần xuống thảm → đá chân xa qua → luồn tay trong → thiết lập lại Guard.",
     "decisionTree": [
       {
         "condition": "Họ giữ seatbelt",

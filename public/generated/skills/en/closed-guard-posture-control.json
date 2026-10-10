@@ -6,7 +6,7 @@
   "name": "Closed Guard Posture Control",
   "aliases": [],
   "tags": [
-    "closed-Guard",
+    "closed-guard",
     "posture",
     "control"
   ],
@@ -60,18 +60,18 @@
     "hasStateMachine": false
   },
   "locale": "en",
-  "description": "Break and control the opponent's posture in Closed Guard using leg tension, hand fighting, and hip angling to create sweep or submission entries.",
+  "description": "Break and control the opponent's posture in Closed Guard using leg tension, Hand Fighting, and hip angling to create sweep or submission entries.",
   "shortInstruction": "Legs pull, hands break the grip, hips cut the angle, posture is the key to all Closed Guard attacks.",
-  "summary": "Closed Guard is only effective when the opponent's posture is broken. A postured opponent can stand, pass, or strike (in MMA). Your primary goal is to prevent them from sitting upright by using leg tension to pull their weight onto you, hand fighting to break their defensive frames, and hip angles to off-balance them. Without posture control, you have no offense from Closed Guard.",
+  "summary": "Closed Guard is only effective when the opponent's posture is broken. A postured opponent can stand, pass, or strike (in MMA). Your primary goal is to prevent them from sitting upright by using leg tension to pull their weight onto you, Hand Fighting to break their defensive frames, and hip angles to off-balance them. Without posture control, you have no offense from Closed Guard.",
   "whyItWorks": [
     "A postured opponent has full arm mobility and base, breaking their posture neutralizes both.",
     "Leg tension around their back prevents them from sitting up; they must fight against your leg strength to re-posture.",
-    "Hand fighting strips their defensive grips (collar ties, sleeve grips, belt grips) that keep them postured.",
+    "Hand Fighting strips their defensive grips (collar ties, sleeve grips, belt grips) that keep them postured.",
     "Cutting an angle (hip to one side) moves their base offline, making them vulnerable to sweeps and submissions.",
     "Danaher principle: the Guard is an attacking position, not a defensive one, posture control is the first step of every attack."
   ],
   "commonMistakes": [
-    "Pulling with legs but not engaging hands, without hand fighting, they can frame on your hips and re-posture.",
+    "Pulling with legs but not engaging hands, without Hand Fighting, they can frame on your hips and re-posture.",
     "Holding their head down with straight arms, this creates space instead of control.",
     "Letting them grab your belt or pants, this gives them the base to posture up.",
     "Sitting centered in front of them without cutting an angle, a centered opponent is well-based and hard to sweep."
@@ -88,7 +88,7 @@
     "Do not hold a broken posture for too long without attacking, you will fatigue your legs."
   ],
   "systemLogic": {
-    "corePrinciple": "Closed Guard is only effective when the opponent's posture is broken. A postured opponent has full arm mobility and base. Your goal is to use leg tension, hand fighting, and hip angles to prevent them from sitting upright, without posture control, you have no offense from Closed Guard.",
+    "corePrinciple": "Closed Guard is only effective when the opponent's posture is broken. A postured opponent has full arm mobility and base. Your goal is to use leg tension, Hand Fighting, and hip angles to prevent them from sitting upright, without posture control, you have no offense from Closed Guard.",
     "decisionTree": [
       {
         "condition": "Opponent breaks your Closed Guard and starts to stand",
@@ -123,7 +123,7 @@
     "When they try to frame on your hips, swim your hands inside their elbows and pummel back to their collar.",
     "The most dangerous time to attack is when they are actively trying to posture, use their energy against them."
   ],
-  "nextStep": "After mastering posture control, learn Closed Guard sweeps (hip bump, scissor, flower) and submissions (Triangle, Armbar).",
+  "nextStep": "After mastering posture control, learn Closed Guard Sweeps (hip bump, scissor, flower) and submissions (Triangle, Armbar).",
   "fixItFast": [
     "They keep posturing? Switch to a high Guard (feet on their hips) to break them down more easily.",
     "They have a belt grip? Climb your legs higher and squeeze, their grip will weaken.",

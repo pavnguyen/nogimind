@@ -64,14 +64,14 @@
     "hasStateMachine": false
   },
   "locale": "en",
-  "description": "Lock the opponent's wrists crossed on their back, use chest pressure and hip connection to control the Turtle and expose the back. The cross-wrist ride immobilizes both hands to eliminate the opponent's ability to base or posture up.",
+  "description": "Lock the opponent's wrists crossed on their back, use chest pressure and hip connection to control the Turtle and expose the back. The Cross-Wrist Ride immobilizes both hands to eliminate the opponent's ability to base or posture up.",
   "shortInstruction": "From Turtle, grab both wrists, cross them on their lower back, and pin them with your chest. Drive your weight forward to collapse them flat and take the back.",
-  "summary": "The cross-wrist ride is a high-level turtle-breaking system that immobilizes the opponent's hands by crossing their wrists on their lower back and pinning them with your chest weight. With both hands controlled, the opponent cannot base, post, or posture up, they are completely dependent on hip movement alone to escape, which is nearly impossible with chest pressure on their spine.",
+  "summary": "The Cross-Wrist Ride is a high-level turtle-breaking system that immobilizes the opponent's hands by crossing their wrists on their lower back and pinning them with your chest weight. With both hands controlled, the opponent cannot base, post, or posture up, they are completely dependent on hip movement alone to escape, which is nearly impossible with chest pressure on their spine.",
   "whyItWorks": [
     "Crossing the wrists on their back removes their ability to post, without hands, they cannot push themselves up or base out",
     "Chest pressure on the crossed wrists pins them securely, the opponent cannot separate their hands against your full body weight",
     "With hands immobilized and chest pressure on the spine, the opponent's only escape is to roll, which you can counter by following the roll",
-    "The cross-wrist ride transitions directly to the Dagestani handcuff and Back Take as the opponent tires"
+    "The Cross-Wrist Ride transitions directly to the Dagestani Handcuff and Back Take as the opponent tires"
   ],
   "commonMistakes": [
     "Grabbing too low on the wrists, the grip must be at the wrist joint, not the forearm",
@@ -91,7 +91,7 @@
     "If the opponent rolls suddenly to escape, release the wrist control rather than fighting the roll"
   ],
   "systemLogic": {
-    "corePrinciple": "The cross-wrist ride has three phases: Secure Wrists: Collapse Turtle → Transition to Back Control",
+    "corePrinciple": "The Cross-Wrist Ride has three phases: Secure Wrists: Collapse Turtle → Transition to Back Control",
     "decisionTree": [
       {
         "condition": "In Phase 1 (Secure Wrists)",
@@ -103,7 +103,7 @@
       },
       {
         "condition": "In Phase 3 (Transition to Back Control)",
-        "action": "once they are flat, release the wrist control (one hand at a time) and replace with a seatbelt grip. Slide your knee into their hip and secure back control"
+        "action": "once they are flat, release the wrist control (one hand at a time) and replace with a seatbelt grip. Slide your knee into their hip and secure Back Control"
       },
       {
         "condition": "they resist by tensing the back",
@@ -113,13 +113,13 @@
     "exitStrategies": []
   },
   "moneyDetails": [
-    "The cross-wrist ride is one of the most dominant turtle-breaking systems, it eliminates the opponent's primary escape tools (hands)",
+    "The Cross-Wrist Ride is one of the most dominant turtle-breaking systems, it eliminates the opponent's primary escape tools (hands)",
     "This system is used extensively in wrestling (Khabib, Zahabi system) and translates perfectly to no-gi BJJ",
-    "Mastering the cross-wrist ride gives you a reliable path from Turtle to back control against resisting opponents"
+    "Mastering the Cross-Wrist Ride gives you a reliable path from Turtle to Back Control against resisting opponents"
   ],
   "fixItFast": [
     "If they roll out: release the wrists and take the back, do not fight to maintain wrist control",
-    "If they separate their hands: switch to a single wrist control on the near arm and use the spiral ride to collapse them",
-    "If they sit up with power: switch to the claw ride, the claw grip is harder to escape with pure strength"
+    "If they separate their hands: switch to a single wrist control on the near arm and use the Spiral Ride to collapse them",
+    "If they sit up with power: switch to the Claw Ride, the claw grip is harder to escape with pure strength"
   ]
 }

@@ -1,31 +1,31 @@
 {
   "id": "k-guard-position",
   "locale": "fr",
-  "title": "K-Guard",
+  "title": "K Guard",
   "description": "K-Guard contrôle une jambe adverse avec shin frame et foot hook, créant des angles vers matrix, leg locks ou prise de dos.",
   "topPlayerGoals": [
     "Le joueur du dessus veut contrôler K-Guard avec la position de tête, la position intérieure et une pression orientée.",
-    "Neutraliser le shin frame, libérer la knee line et appliquer poids.",
+    "Neutraliser le shin frame, libérer la Knee Line et appliquer poids.",
     "Garder une base stable pour éviter d’être déséquilibré ou contré."
   ],
   "bottomPlayerGoals": [
-    "Le joueur du dessous veut survivre en K-Guard avec des cadres, du pummeling ou le bon angle.",
-    "Garder le shin frame actif, contrôler knee line et choisir matrix ou false reap.",
+    "Le joueur du dessous veut survivre en K-Guard avec des cadres, du Pummeling ou le bon angle.",
+    "Garder le shin frame actif, contrôler Knee Line et choisir matrix ou false reap.",
     "Reconnaître les signaux de danger tôt au lieu d’attendre que la position se stabilise."
   ],
   "controlPoints": [
-    "Point de contrôle principal : Shin frame, knee line et contrôle cheville.",
+    "Point de contrôle principal : Shin frame, Knee Line et contrôle cheville.",
     "La tête, les mains, les hanches et les genoux doivent suivre la même direction de force.",
     "La connexion coude-genou ou la ligne hanches-épaules détermine si la position reste vivante ou verrouillée."
   ],
   "escapePriorities": [
-    "Priorité de sortie : Protéger la knee line avant de libérer le shin.",
+    "Priorité de sortie : Protéger la Knee Line avant de libérer le shin.",
     "Protéger le cou, le dos, la ligne du genou ou la ligne du bras avant de contrer.",
     "Si la position intérieure est perdue, rétablir d’abord une couche défensive."
   ],
   "advancementOptions": [
     {
-      "action": "Entrer en matrix ou false reap",
+      "action": "Entrer en matrix ou False Reap",
       "nextPositionId": "inverted-guard",
       "relatedSkillIds": [
         "k-guard-matrix",

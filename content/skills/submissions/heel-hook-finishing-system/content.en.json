@@ -3,24 +3,24 @@
   "locale": "en",
   "name": "Heel Hook Finishing System",
   "description": "Master the precise mechanics of finishing Heel Hooks, inside vs outside rotation, figure-four grip variations, hip alignment, and how to chase the finish when the opponent defends.",
-  "shortInstruction": "Control the knee line, align the rotation vector with their hip, choose the grip (figure-four or honey-hole), and finish with hip-driven rotation, not arm strength.",
-  "summary": "The Heel Hook finish is the most mechanically precise submission in no-gi. Unlike most submissions where you can 'squeeze harder,' the Heel Hook requires perfect alignment of knee line control, grip placement, and rotational direction. This skill covers the differences between inside and outside Heel Hook finishing, the three primary grip types (figure-four, honey-hole, and seatbelt), how to adjust the angle when the opponent hides their heel, and how to chain finishes when the opponent tries to spin out. The modern finishing philosophy emphasizes hip-driven rotation over arm strength, the arms hold the position, the hips generate the finish.",
+  "shortInstruction": "Control the Knee Line, align the rotation vector with their hip, choose the grip (figure-four or honey-hole), and finish with hip-driven rotation, not arm strength.",
+  "summary": "The Heel Hook finish is the most mechanically precise submission in no-gi. Unlike most submissions where you can 'squeeze harder,' the Heel Hook requires perfect alignment of Knee Line control, grip placement, and rotational direction. This skill covers the differences between inside and outside Heel Hook finishing, the three primary grip types (figure-four, honey-hole, and seatbelt), how to adjust the angle when the opponent hides their heel, and how to chain finishes when the opponent tries to spin out. The modern finishing philosophy emphasizes hip-driven rotation over arm strength, the arms hold the position, the hips generate the finish.",
   "whyItWorks": [
     "The knee has minimal rotational stability, less than 5 degrees of external rotation can cause ligament damage, making proper alignment critical.",
     "Hip-driven rotation is stronger and more controlled than arm-only force, using your core and hips prevents the 'ripping' that causes injuries.",
     "The figure-four grip distributes force across both arms while keeping the wrist in a mechanically safe position.",
-    "Understanding inside vs outside rotation lets you choose the correct finish direction based on the entanglement (Saddle = inside rotation, outside ashi = external rotation)."
+    "Understanding inside vs outside rotation lets you choose the correct finish direction based on the entanglement (Saddle = inside rotation, Outside Ashi = external rotation)."
   ],
   "commonMistakes": [
     "Using arm strength to rotate instead of engaging the hips and core, the finish comes from hip rotation, not biceps.",
-    "Applying rotation before the knee line is fully isolated, if the opponent can still move their knee, the finish will not be clean.",
-    "Using the wrong grip type for the entanglement, figure-four for Saddle, honey-hole for backside 50/50.",
+    "Applying rotation before the Knee Line is fully isolated, if the opponent can still move their knee, the finish will not be clean.",
+    "Using the wrong grip type for the entanglement, figure-four for Saddle, honey-hole for Backside 50/50.",
     "Chasing the Heel Hook when the opponent hides their heel instead of switching to a different attack (Kneebar, Back Take).",
     "Over-rotating after the tap, even an extra 5 degrees can cause injury."
   ],
   "coachingCues": [
     "Hips drive the finish, arms just guide it.",
-    "Find the knee line first, if the knee moves, the Heel Hook is not ready.",
+    "Find the Knee Line first, if the knee moves, the Heel Hook is not ready.",
     "Figure-four for Saddle, honey-hole for backside, seatbelt for transitions.",
     "If the heel hides, switch attacks, don't force the rotation.",
     "Finish at 10% speed, control is the finish, speed is the enemy."
@@ -33,20 +33,20 @@
     "Do not train Heel Hooks at full speed without supervision and experience."
   ],
   "keyCorrections": [
-    "If the finish requires more than 30% of your arm strength, your alignment is wrong, reset knee line control first.",
-    "If the opponent can hide their heel, you have not isolated the knee line, scoot closer to their hip.",
+    "If the finish requires more than 30% of your arm strength, your alignment is wrong, reset Knee Line control first.",
+    "If the opponent can hide their heel, you have not isolated the Knee Line, scoot closer to their hip.",
     "If they spin out during the finish, you lost far hip control, re-establish hip control before re-attacking.",
     "If you feel the grip slipping, your hand placement is wrong, the palm of your top hand should face their heel."
   ],
   "systemLogic": {
-    "corePrinciple": "Entanglement established → control far hip → isolate knee line → choose grip type → align rotation vector with hip → apply slow, controlled rotation using hips → finish.",
+    "corePrinciple": "Entanglement established → control far hip → isolate Knee Line → choose grip type → align rotation vector with hip → apply slow, controlled rotation using hips → finish.",
     "decisionTree": [
       {
         "condition": "Inside Sankaku / Saddle",
         "action": "Figure-four grip, inside rotation (turn their heel toward their glutes). Keep their knee pinned against your chest."
       },
       {
-        "condition": "Outside ashi / 50/50",
+        "condition": "Outside Ashi / 50/50",
         "action": "Honey-hole or figure-four, external rotation (turn their heel away from their body). Control their far hip to prevent spin."
       },
       {
@@ -65,11 +65,11 @@
     "Rotation alignment: imagine a line from their heel through their knee to their hip. Your rotation must follow this line, any deviation reduces effectiveness and increases injury risk.",
     "Hip-driven finishing: instead of pulling the heel toward you, rotate your own hips away from them while keeping their heel pinned to your chest. This generates rotational force through your core, not your arms.",
     "Inside rotation (Saddle): turn their heel inward toward their glutes, this creates external rotation of the tibia on the femur.",
-    "Outside rotation (outside ashi): turn their heel outward away from their body, this creates internal rotation."
+    "Outside rotation (Outside Ashi): turn their heel outward away from their body, this creates internal rotation."
   ],
   "nextStep": "After mastering the Heel Hook finish, learn the Kneebar and Calf Slicer as secondary attacks from leg entanglements.",
   "fixItFast": [
-    "Can't find the rotation? Align your chest with their knee line, the rotation axis is knee-to-hip.",
+    "Can't find the rotation? Align your chest with their Knee Line, the rotation axis is knee-to-hip.",
     "Grip keeps slipping? Switch to honey-hole grip (both hands on the heel) for better control.",
     "They keep spinning? Release, control their far hip, and re-enter the entanglement.",
     "Feeling resistance in their knee? Release immediately, you have the wrong angle or they are already injured."

@@ -3,7 +3,7 @@
   "domain": "pins_rides",
   "level": "advanced",
   "status": "draft",
-  "name": "Đi xe vuốt",
+  "name": "Claw Ride",
   "aliases": [],
   "tags": [
     "claw-ride",
@@ -103,7 +103,7 @@
       },
       {
         "condition": "Ở Giai đoạn 3 (Quay lại)",
-        "action": "khi họ sụp xuống, hãy thả tay nắm có móng vuốt ra và thay thế bằng seatbelt (tay qua vai phía xa, tay ở hông gần). Trượt đầu gối gần của bạn vào đường hông của họ và cố định back control"
+        "action": "khi họ sụp xuống, hãy thả tay nắm có móng vuốt ra và thay thế bằng seatbelt (tay qua vai phía xa, tay ở hông gần). Trượt đầu gối gần của bạn vào đường hông của họ và cố định Back Control"
       },
       {
         "condition": "họ chống lại sự sụp đổ bằng cách tỏ ra cứng rắn",
@@ -114,7 +114,7 @@
   },
   "moneyDetails": [
     "Cưỡi bằng móng vuốt là hệ thống phá Tư thế rùa chính trong đấu vật hiện đại và BJJ, mọi võ sĩ được huấn luyện để bẻ Tư thế rùa đều sử dụng hệ thống này",
-    "Việc thành thạo cách cưỡi bằng càng sẽ mang lại cho bạn một con đường đáng tin cậy từ Tư thế rùa đến back control, vị trí thuận lợi nhất trong môn vật",
+    "Việc thành thạo cách cưỡi bằng càng sẽ mang lại cho bạn một con đường đáng tin cậy từ Tư thế rùa đến Back Control, vị trí thuận lợi nhất trong môn vật",
     "Động tác vuốt có tác dụng chống lại những đối thủ lớn hơn vì nó sử dụng đòn bẩy (kéo hông) thay vì sức mạnh"
   ],
   "fixItFast": [

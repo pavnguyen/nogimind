@@ -1,28 +1,28 @@
 {
   "id": "gift-wrap-back-take",
   "locale": "vi",
-  "name": "Gift Wrap / Đòn xoay lưng từ Arm Drag",
-  "description": "Gift wrap điều khiển một tay của họ bằng cách gập ra sau lưng, để tay kia tự do và lộ lưng họ. Từ Side Control, bạn bẫy tay xa và xoay ra sau.",
+  "name": "Gift Wrap / Arm Drag Back Take",
+  "description": "Gift Wrap điều khiển một tay của họ bằng cách gập ra sau lưng, để tay kia tự do và lộ lưng họ. Từ Side Control, bạn bẫy tay xa và xoay ra sau.",
   "whyItWorks": [
     "Gập tay họ ra sau lưng tạo tay nắm kiểm soát vai, họ không thể xoay vào bạn hoặc chống đỡ",
     "Với một tay bị vô hiệu hóa, khả năng phòng thủ Back Take của họ giảm một nửa",
-    "Gift wrap có sẵn từ mọi tư thế trên nơi bạn có thể cô lập tay xa",
-    "Xoay ra sau trong khi kiểm soát gift wrap tạo pha lên lưng, xoay kết hợp kiểm soát tay ngăn họ theo kịp"
+    "Gift Wrap có sẵn từ mọi tư thế trên nơi bạn có thể cô lập tay xa",
+    "Xoay ra sau trong khi kiểm soát Gift Wrap tạo pha lên lưng, xoay kết hợp kiểm soát tay ngăn họ theo kịp"
   ],
   "commonMistakes": [
-    "Cố gift wrap từ quá xa, bạn cần ngực chạm ngực để cô lập tay xa",
+    "Cố Gift Wrap từ quá xa, bạn cần ngực chạm ngực để cô lập tay xa",
     "Không gập tay đủ sâu sau lưng họ, nếu tay không ở sau lưng họ có thể kéo ra",
     "Xoay mà không kiểm soát tay, bạn lên lưng họ nhưng họ vẫn còn hai tay hoạt động",
-    "Giữ gift wrap quá lâu sau khi có back control, thả bỏ và chuyển vào đòn siết"
+    "Giữ Gift Wrap quá lâu sau khi có Back Control, thả bỏ và chuyển vào đòn siết"
   ],
   "coachingCues": [
     "Ngực chạm ngực trước, sau đó xử lý tay xa",
     "Gập ra sau lưng, ngón cái hướng lên",
     "Xoay chặt, giữ kết nối",
-    "Gift wrap là lối vào; back control là đích đến"
+    "Gift Wrap là lối vào; Back Control là đích đến"
   ],
-  "shortInstruction": "Từ Side Control/Mount, cô lập tay xa, gập ra sau lưng họ, bước chân qua đầu, xoay ra sau, thả bỏ gift wrap và thiết lập back control.",
-  "summary": "Gift wrap kiểm soát một tay đối thủ bằng cách gập ra sau lưng, vô hiệu hóa một nửa khả năng phòng thủ của họ. Từ Side Control, bạn bẫy tay xa, gập ra sau lưng và xoay ra sau để lên lưng.",
+  "shortInstruction": "Từ Side Control/Mount, cô lập tay xa, gập ra sau lưng họ, bước chân qua đầu, xoay ra sau, thả bỏ Gift Wrap và thiết lập Back Control.",
+  "summary": "Gift Wrap kiểm soát một tay đối thủ bằng cách gập ra sau lưng, vô hiệu hóa một nửa khả năng phòng thủ của họ. Từ Side Control, bạn bẫy tay xa, gập ra sau lưng và xoay ra sau để lên lưng.",
   "safetySummary": [
     "Khi gập tay ra sau lưng, làm từ từ, đừng kéo mạnh vì có thể gây đau vai",
     "Nếu họ kháng cự mạnh, thả bỏ và chọn lối vào khác thay vì cố ép",
@@ -30,13 +30,13 @@
   ],
   "keyCorrections": [
     "Nếu họ kéo tay về: kéo khuỷu tay họ ra và thử lại với kiểm soát chặt hơn",
-    "Nếu họ xoay vào bạn: thả bỏ gift wrap và chuyển sang Kimura hoặc Americana",
+    "Nếu họ xoay vào bạn: thả bỏ Gift Wrap và chuyển sang Kimura hoặc Americana",
     "Nếu họ đạp bạn ra: giữ tay và kéo họ trở lại Side Control"
   ],
   "moneyDetails": [
-    "Gift wrap là một trong những lối vào Back Take đáng tin cậy nhất từ Side Control",
+    "Gift Wrap là một trong những lối vào Back Take đáng tin cậy nhất từ Side Control",
     "Vô hiệu hóa một tay làm giảm đáng kể khả năng phòng thủ Back Take của đối thủ",
-    "Kết hợp gift wrap với Back Take là chuỗi đòn cơ bản của BJJ đẳng cấp cao"
+    "Kết hợp Gift Wrap với Back Take là chuỗi đòn cơ bản của BJJ đẳng cấp cao"
   ],
   "fixItFast": [
     "Nếu họ kéo tay về: thả bỏ và chuyển sang Kimura, tay họ đã ở vị trí hoàn hảo",
@@ -44,7 +44,7 @@
     "Nếu họ đạp bạn ra: giữ tay và kéo họ lại, đừng để mất kết nối"
   ],
   "systemLogic": {
-    "corePrinciple": "Gift wrap Back Take: Side Control/Mount → cô lập tay xa → gập ra sau lưng → bước chân qua đầu → xoay ra sau → thả gift wrap → thiết lập back control.",
+    "corePrinciple": "Gift Wrap Back Take: Side Control/Mount → cô lập tay xa → gập ra sau lưng → bước chân qua đầu → xoay ra sau → thả Gift Wrap → thiết lập Back Control.",
     "decisionTree": [
       {
         "condition": "Họ kéo tay về",
@@ -52,7 +52,7 @@
       },
       {
         "condition": "Họ xoay vào bạn",
-        "action": "thả gift wrap và chuyển sang Kimura hoặc Americana"
+        "action": "thả Gift Wrap và chuyển sang Kimura hoặc Americana"
       },
       {
         "condition": "Họ đạp bạn ra",

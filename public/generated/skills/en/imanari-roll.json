@@ -1,0 +1,146 @@
+{
+  "id": "imanari-roll",
+  "domain": "guard_offense",
+  "level": "advanced",
+  "status": "draft",
+  "name": "Imanari Roll",
+  "aliases": [
+    "rolling leg lock entry",
+    "Imanari entry",
+    "rolling ashi entry"
+  ],
+  "tags": [
+    "tier:modern-expansion",
+    "meta:modern-common",
+    "risk:high",
+    "family:leg_lock",
+    "group:leg-lock",
+    "modern-no-gi"
+  ],
+  "keywords": [
+    "Imanari roll",
+    "rolling entry",
+    "leg entanglement",
+    "ashi garami",
+    "50/50",
+    "outside ashi"
+  ],
+  "modernSystemGroup": "leg_lock",
+  "relatedSkills": [
+    {
+      "id": "single-leg-x-control",
+      "type": "supporting"
+    },
+    {
+      "id": "k-guard-to-outside-ashi",
+      "type": "chain"
+    },
+    {
+      "id": "inside-outside-heel-hook",
+      "type": "chain"
+    },
+    {
+      "id": "kani-basami-safety",
+      "type": "alternative"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [
+    "single-leg-x",
+    "outside-ashi",
+    "saddle-inside-sankaku"
+  ],
+  "relatedPositionIds": [],
+  "relatedConcepts": [
+    "inside-position",
+    "knee-line",
+    "angle-creation",
+    "leg-lock-safety-hierarchy"
+  ],
+  "relatedConceptIds": [],
+  "archetypeIds": [
+    "leg-lock-safety-first"
+  ],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "leg-lock-safety-basics",
+    "single-leg-x-basics"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [
+    "If they step back and the leg is out of reach: do not dive, come up to your feet and re-engage",
+    "If the roll stalls half way: post the hand and complete the rotation instead of sitting up",
+    "If they sprawl on top of the roll: turn to your side and recover guard instead of chasing the leg"
+  ],
+  "version": 1,
+  "updatedAt": "2026-10-10T00:00:00.000Z",
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "en",
+  "description": "The Imanari Roll is a rolling entry into a leg entanglement. You dive at the opponent's near leg, let the momentum of the roll carry your trailing leg through the gap behind their knee, and come up already locked into a leg entanglement instead of standing up and fighting for one.",
+  "shortInstruction": "Clear their hand, dive at the near leg, roll over the same-side shoulder so your trailing leg threads behind their knee, then sit up into the entanglement.",
+  "summary": "The Imanari Roll turns a standing exchange into a leg entanglement in one movement. The roll does the work of covering distance: you aim at the near leg, roll over the shoulder on that side, and thread your trailing leg behind their knee so the momentum lands you in an ashi garami instead of on your back.",
+  "whyItWorks": [
+    "The roll covers the distance to the leg in one beat, so they cannot step back fast enough to put the leg out of reach",
+    "Rolling over the same-side shoulder keeps your head away from their hips and lines the trailing leg up with the gap behind their knee",
+    "Their weight is already moving away from you, and the roll uses that direction instead of fighting it",
+    "You arrive underneath in a leg entanglement, which is a stronger position than the guard you started from"
+  ],
+  "commonMistakes": [
+    "Rolling straight over the head and neck instead of the same-side shoulder, which stalls the movement and leaves your head under their hips",
+    "Diving before you have any contact on the leg, so the roll ends with you on your back and no entanglement",
+    "Rolling past the leg, the entry has to aim at the near leg and not at the space beside it",
+    "Stopping half way through the roll and trying to sit up, which lets them sprawl and circle to your back"
+  ],
+  "coachingCues": [
+    "Attack the near leg, not the space beside it",
+    "Shoulder first, never the head",
+    "Trailing leg threads behind the knee, the roll does the rest",
+    "Finish the roll, land locked, then sit up into the entanglement"
+  ],
+  "safetySummary": [
+    "Rehearse the roll on a mat with a partner who knows it is coming, the entry puts you underneath them",
+    "Do not crank the entanglement you land in, the roll is an entry and the finish is a separate skill",
+    "Learn the knee line and heel exposure rules before using this entry live, see Leg Lock Safety Basics"
+  ],
+  "systemLogic": {
+    "corePrinciple": "Imanari Roll: get contact on the near leg, dive and roll over the same-side shoulder, thread the trailing leg behind their knee, sit up into the ashi garami, then climb to the entanglement you want.",
+    "decisionTree": [
+      {
+        "condition": "They step back and the near leg is out of reach",
+        "action": "do not dive, come up to your feet and re-engage"
+      },
+      {
+        "condition": "The near leg is reachable and their weight is moving away",
+        "action": "dive and roll over the same-side shoulder"
+      },
+      {
+        "condition": "They sprawl and drive their hips down during the roll",
+        "action": "turn to your side and recover guard"
+      }
+    ],
+    "exitStrategies": [
+      "If you miss the leg, come up to your feet rather than staying on your back",
+      "If they sprawl and flatten you, recover guard and attack the entanglement again from there"
+    ]
+  },
+  "moneyDetails": [
+    "The entry is named after Masakazu Imanari, who made the rolling attack on the leg a signature of his game",
+    "The roll is a distance closer: it replaces the hand fight and the step-in with one movement",
+    "Aim the roll slightly across the body, a straight roll over the head lands beside the leg instead of on it"
+  ],
+  "fixItFast": [
+    "If you roll and land beside the leg: stand up, reset your stance, and re-time the entry on their next step",
+    "If your head ends up under their hips: turn to your side and recover guard, do not stay flat",
+    "If they stand up out of the entanglement: re-enter or recover guard, do not hold the position from far away"
+  ]
+}

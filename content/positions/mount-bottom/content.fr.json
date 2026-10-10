@@ -9,7 +9,7 @@
     "Garder une base stable pour éviter d’être déséquilibré ou contré."
   ],
   "bottomPlayerGoals": [
-    "Le joueur du dessous veut survivre en Mount dessous avec des cadres, du pummeling ou le bon angle.",
+    "Le joueur du dessous veut survivre en Mount dessous avec des cadres, du Pummeling ou le bon angle.",
     "Faire un bridge ou une sortie knee-elbow sans exposer le dos ou le cou.",
     "Reconnaître les signaux de danger tôt au lieu d’attendre que la position se stabilise."
   ],
@@ -25,7 +25,7 @@
   ],
   "advancementOptions": [
     {
-      "action": "Récupérer la Half Guard ou la quarter Guard",
+      "action": "Récupérer la Half Guard ou la Quarter Guard",
       "nextPositionId": "half-guard-bottom",
       "relatedSkillIds": [
         "mount-survival",

@@ -1,7 +1,7 @@
 {
   "id": "mat-return-basics",
   "locale": "fr",
-  "name": "mat return Notions de base",
+  "name": "mat return Notions de Base",
   "description": "Ramenez l'adversaire en toute sécurité sur le tapis lorsqu'il se tient debout sur une seule jambe, un Bodylock ou une tortue. Le mat return est une compétence de lutte critique qui empêche l'adversaire de s'échapper en se levant.",
   "shortInstruction": "Maintenez la prise de la jambe (simple ou Bodylock), enfoncez votre épaule dans sa hanche, élevez la jambe coincée et conduisez-la vers le tapis sur sa hanche ou son dos. Protégez la position de votre tête partout.",
   "summary": "Le mat return est le processus consistant à ramener un adversaire debout sur le tapis après avoir sécurisé une jambe simple, une jambe double ou un verrou corporel. Cela nécessite trois éléments : une prise sûre qui les empêche de s'échapper, une élévation de la jambe coincée pour retirer leur base et un mouvement de conduite qui les fait atterrir sur la hanche ou sur le dos. Le mat return est essentiel pour empêcher les tortues de s'échapper en position debout et le Half Guard.",
@@ -50,7 +50,7 @@
         "action": "enfoncez votre épaule dans sa hanche et faites un grand pas en arrière avec votre jambe extérieure. Cela retire leur base et les pose sur leur hanche. Maintenez l'adhérence pendant qu'ils atterrissent"
       },
       {
-        "condition": "Position d'atterrissage : visez Side Control ou north-south. S'ils atterrissent sur le dos, vous êtes dans leur Guard",
+        "condition": "Position d'atterrissage : visez Side Control ou North-South. S'ils atterrissent sur le dos, vous êtes dans leur Guard",
         "action": "ce n'est pas idéal mais acceptable. S'il atterrit sur la hanche, conduisez immédiatement vers Side Control."
       }
     ]

@@ -14,43 +14,43 @@
   ],
   "locale": "vi",
   "title": "Đứng trung lập",
-  "description": "Hai người đang đứng và chưa ai thắng rõ ràng về grip, vị trí đầu hoặc góc tấn công.",
+  "description": "Hai người đang đứng, chưa ai thắng rõ về grip, vị trí đầu hay góc tấn công.",
   "topPlayerGoals": [
-    "Người ở trên muốn kiểm soát Đứng trung lập bằng vị trí đầu, vị trí trong và áp lực có hướng.",
-    "Tạo inside tie, collar tie hoặc level change an toàn.",
-    "Giữ nền vững để không bị mất thăng bằng hoặc bị phản đòn."
+    "Người trên kiểm soát Đứng trung lập bằng vị trí đầu, vị trí trong và hướng áp lực.",
+    "Tạo inside tie, collar tie hoặc lên tầm an toàn.",
+    "Giữ nền chắc để không bị đẩy mất thăng bằng hay bị phản đòn."
   ],
   "bottomPlayerGoals": [
-    "Người ở dưới muốn sống sót trong Đứng trung lập bằng khung chặn, pummel hoặc góc phù hợp.",
-    "Giữ stance chắc, không để đầu bị kéo xuống hoặc bị ép vào một Guard pull xấu.",
-    "Nhận diện tín hiệu nguy hiểm sớm thay vì chờ vị trí ổn định."
+    "Người dưới cần sống sót ở Đứng trung lập bằng frame, pummel hoặc chọn đúng góc.",
+    "Giữ stance chắc, không để đầu bị kéo xuống hoặc bị ép vào một cú Guard pull xấu.",
+    "Nhận ra tín hiệu nguy hiểm từ sớm, thay vì chờ đến khi thế đã ổn định."
   ],
   "controlPoints": [
-    "Điểm kiểm soát chính: Vị trí đầu, kiểm soát cổ tay và độ rộng stance.",
-    "Đầu, tay, hông và gối nên cùng hướng lực.",
-    "Kết nối khuỷu-gối hoặc đường hông-vai quyết định vị trí còn sống hay đã bị khóa."
+    "Điểm kiểm soát chính: vị trí đầu, kiểm soát cổ tay và độ rộng stance.",
+    "Đầu, tay, hông và gối phải cùng một hướng lực.",
+    "Kết nối khuỷu-gối cùng đường hông-vai quyết định thế còn giữ được hay đã bị khóa."
   ],
   "escapePriorities": [
-    "Ưu tiên thoát: Reset grip nếu mất posture hoặc bị kéo đầu.",
-    "Bảo vệ cổ, lưng, đường gối hoặc đường tay trước khi phản công.",
-    "Nếu mất vị trí trong, hãy lùi lại một lớp phòng thủ trước."
+    "Ưu tiên thoát: lấy lại grip nếu mất tư thế hoặc bị kéo đầu.",
+    "Bảo vệ cổ, lưng, đường gối và đường tay trước khi phản công.",
+    "Mất vị trí trong thì lùi lại một lớp phòng thủ trước đã."
   ],
   "advancementOptions": [
     {
-      "action": "Vào hand fighting với inside ties",
+      "action": "Vào Hand Fighting với inside ties",
       "nextPositionId": "hand-fighting-position",
       "relatedSkillIds": [
         "hand-fighting",
         "single-leg-bjj",
         "guard-pulling-strategy"
       ],
-      "why": "Đây là nhánh tự nhiên khi bạn thắng điểm kiểm soát chính và đối thủ buộc phải phòng thủ."
+      "why": "Đây là nhánh tự nhiên khi bạn đã thắng điểm kiểm soát chính và đối thủ buộc phải phòng thủ."
     }
   ],
   "dangerSignals": [
     "Cằm hoặc cổ bị kéo ra khỏi đường an toàn.",
-    "Khuỷu tay tách khỏi sườn hoặc đầu gối.",
-    "Đường hông bị khóa trong khi đường vai vẫn đang bị kéo.",
-    "Bạn phải chống tay dài để không ngã."
+    "Khuỷu tay rời khỏi sườn hoặc khỏi đầu gối.",
+    "Đường hông đã bị khóa mà đường vai vẫn đang bị kéo.",
+    "Phải chống tay thật xa mới giữ được thăng bằng."
   ]
 }

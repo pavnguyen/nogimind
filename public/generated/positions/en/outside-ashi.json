@@ -5,7 +5,8 @@
   "relatedSkillIds": [
     "straight-ankle-lock-safety",
     "heel-hook-safety",
-    "leg-lock-safety-basics"
+    "leg-lock-safety-basics",
+    "imanari-roll"
   ],
   "relatedConceptIds": [
     "knee-line",
@@ -16,28 +17,28 @@
   "title": "Outside Ashi",
   "description": "A leg entanglement with the leg outside the hip line, connected to Straight Ankle Locks and heel exposure.",
   "topPlayerGoals": [
-    "The top player wants to control Outside Ashi through head position, inside position, and directed pressure.",
-    "The attacker wants to hold the knee line and control the foot.",
+    "The top player wants to control Outside Ashi through Head Position, Inside Position, and directed pressure.",
+    "The attacker wants to hold the Knee Line and control the foot.",
     "Keep a stable base so you are not off-balanced or countered."
   ],
   "bottomPlayerGoals": [
-    "The bottom player wants to survive Outside Ashi with frames, pummeling, or the right angle.",
-    "The defender wants to hide the heel, clear the knee line, and free the secondary leg.",
+    "The bottom player wants to survive Outside Ashi with frames, Pummeling, or the right angle.",
+    "The defender wants to hide the heel, clear the Knee Line, and free the secondary leg.",
     "Recognize danger signals early instead of waiting for the position to settle."
   ],
   "controlPoints": [
-    "Main control point: Knee line, heel line, and secondary leg.",
+    "Main control point: Knee Line, heel line, and secondary leg.",
     "Head, hands, hips, and knees should share the same force direction.",
-    "The elbow-knee connection or hip-shoulder line determines whether the position is still alive or already locked."
+    "The Elbow-Knee Connection or hip-shoulder line determines whether the position is still alive or already locked."
   ],
   "escapePriorities": [
     "Escape priority: Hide the heel before turning.",
-    "Protect the neck, back, knee line, or arm line before countering.",
-    "If inside position is lost, reset one defensive layer first."
+    "Protect the neck, back, Knee Line, or arm line before countering.",
+    "If Inside Position is lost, reset one defensive layer first."
   ],
   "advancementOptions": [
     {
-      "action": "Clear the knee line and reset safely",
+      "action": "Clear the Knee Line and reset safely",
       "nextPositionId": "scramble-neutral",
       "relatedSkillIds": [
         "straight-ankle-lock-safety",

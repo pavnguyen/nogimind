@@ -70,7 +70,7 @@
   },
   "locale": "en",
   "description": "Kani basami (scissor takedown) is a high-risk move banned in most BJJ and grappling competitions. One leg goes behind the opponent's knee while the other drives forward into their hip, creating dangerous rotational and compressive forces on the knee joint.",
-  "shortInstruction": "Do not attempt kani basami in training unless under expert supervision. The leg driving behind the opponent's knee can destroy the ACL, MCL, and meniscus. Use safer takedown alternatives like single leg or ankle pick.",
+  "shortInstruction": "Do not attempt kani basami in training unless under expert supervision. The leg driving behind the opponent's knee can destroy the ACL, MCL, and meniscus. Use safer takedown alternatives like single leg or Ankle Pick.",
   "summary": "Kani basami awareness teaches the dangers of this banned technique and provides safer alternatives for takedown entries. The technique is banned because the scissoring motion traps the knee with no safe rotation path, and the opponent's weight coming down on a fixed knee creates catastrophic forces that reconstruction surgery cannot fully repair.",
   "whyItWorks": [
     "The scissoring motion traps the knee joint between the attacker's legs with nowhere to rotate safely",
@@ -87,13 +87,13 @@
   "coachingCues": [
     "Scissor takedown = banned",
     "ACL risk is real and permanent",
-    "Use single leg, double leg, or ankle pick instead",
+    "Use single leg, double leg, or Ankle Pick instead",
     "No competition permits it for a reason"
   ],
   "safetySummary": [
     "Kani basami is banned by IBJJF, ADCC, UAEJJF, and most BJJ competitions worldwide",
     "The risk of catastrophic knee injury (ACL, MCL, meniscus tear) requiring surgery and 9-12 months recovery far outweighs any benefit",
-    "Multiple safe alternatives exist: single leg takedown, double leg takedown, ankle pick, arm drag to Back Take, inside trip (ko-soto-gari), outside reap (o-soto-gari)",
+    "Multiple safe alternatives exist: single leg takedown, Double Leg Takedown, Ankle Pick, arm drag to Back Take, inside trip (ko-soto-gari), outside reap (o-soto-gari)",
     "If you see a training partner attempting kani basami, verbally stop the roll and explain the danger"
   ],
   "systemLogic": {
@@ -101,7 +101,7 @@
     "decisionTree": [
       {
         "condition": "You want a scissor-like takedown entry",
-        "action": "Use the ankle pick instead, it uses the same concept (taking one leg away) without the dangerous knee compression."
+        "action": "Use the Ankle Pick instead, it uses the same concept (taking one leg away) without the dangerous knee compression."
       },
       {
         "condition": "You want to attack the legs from standing",

@@ -9,12 +9,12 @@
     "Garder une base stable pour éviter d’être déséquilibré ou contré."
   ],
   "bottomPlayerGoals": [
-    "Le joueur du dessous veut survivre en Mount dessus avec des cadres, du pummeling ou le bon angle.",
+    "Le joueur du dessous veut survivre en Mount dessus avec des cadres, du Pummeling ou le bon angle.",
     "Garder la connexion coude-genou, protéger le cou et faire un bridge ou une sortie knee-elbow.",
     "Reconnaître les signaux de danger tôt au lieu d’attendre que la position se stabilise."
   ],
   "controlPoints": [
-    "Point de contrôle principal : Serrage des genoux, poids des hanches et hand fighting.",
+    "Point de contrôle principal : Serrage des genoux, poids des hanches et Hand Fighting.",
     "La tête, les mains, les hanches et les genoux doivent suivre la même direction de force.",
     "La connexion coude-genou ou la ligne hanches-épaules détermine si la position reste vivante ou verrouillée."
   ],
@@ -25,7 +25,7 @@
   ],
   "advancementOptions": [
     {
-      "action": "Isoler un arm triangle ou monter en high Mount",
+      "action": "Isoler un Arm Triangle ou monter en high Mount",
       "nextPositionId": "arm-triangle-threat",
       "relatedSkillIds": [
         "mount-control",

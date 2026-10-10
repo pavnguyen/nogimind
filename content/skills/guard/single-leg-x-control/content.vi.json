@@ -1,7 +1,7 @@
 {
   "id": "single-leg-x-control",
   "locale": "vi",
-  "name": "single leg x Kiểm soát",
+  "name": "Single Leg X Kiểm soát",
   "description": "Kiểm soát hoàn toàn chân bị mắc kẹt duy nhất của đối thủ bằng cả hai chân trong SLX, cho phép quét lên vị trí trên cùng, lùi lại hoặc khóa chân.",
   "shortInstruction": "Khóa chân, khống chế hông, sở hữu chân đế - SLX là khống chế chứ không phải sinh tồn.",
   "summary": "Điều khiển X bằng một chân vượt xa những điều cơ bản - nó có nghĩa là bạn sở hữu hoàn toàn chân bị mắc kẹt của đối thủ. Họ không thể giải phóng nó, không thể bước ra và không thể dựa vào nó. Từ mức độ kiểm soát này, mọi tùy chọn đều có sẵn: bạn có thể quét họ ra sau, lấy lưng họ khi họ post hoặc thả vào vướng chân. Sự khác biệt giữa điều khiển SLX cơ bản và SLX là độ sâu của khóa cũng như khả năng đọc và phản ứng với sự thay đổi trọng lượng của họ.",
@@ -31,7 +31,7 @@
   "keyCorrections": [
     "Nếu họ thả lỏng chân, khóa của bạn quá nông - hãy vào lại bằng khóa sâu hơn sau đầu gối của họ.",
     "Nếu họ làm phẳng bàn chân hông của bạn, bạn sẽ mất kiểm soát khoảng cách - đăng lại ngay trước khi họ thu hẹp khoảng cách.",
-    "Nếu họ tóm lấy đầu bạn, hãy đưa tay bạn vào trong cánh tay của họ và pummeling mạnh trở lại cổ áo của họ."
+    "Nếu họ tóm lấy đầu bạn, hãy đưa tay bạn vào trong cánh tay của họ và Pummeling mạnh trở lại cổ áo của họ."
   ],
   "systemLogic": {
     "corePrinciple": "Khóa sâu SLX → hông đặt lên chân → cảm nhận sự dịch chuyển trọng lượng → quét đòn tấn công, lùi lại hoặc vướng chân.",

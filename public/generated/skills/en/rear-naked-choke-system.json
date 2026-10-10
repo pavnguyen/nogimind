@@ -71,13 +71,13 @@
   "locale": "en",
   "name": "Rear Naked Choke",
   "shortName": "RNC",
-  "description": "The highest percentage submission in BJJ. A blood choke from back control that cuts off both carotid arteries by positioning the forearm across one side of the neck and closing the other side with chest and shoulder pressure.",
+  "description": "The highest percentage submission in BJJ. A blood choke from Back Control that cuts off both carotid arteries by positioning the forearm across one side of the neck and closing the other side with chest and shoulder pressure.",
   "shortInstruction": "Elbow under chin, chest glued to back, remove slack, then squeeze.",
-  "summary": "The most fundamental No-Gi blood choke from back control, master the hand fight, elbow line, and chest-to-back connection.",
+  "summary": "The most fundamental No-Gi blood choke from Back Control, master the hand fight, elbow line, and chest-to-back connection.",
   "whyItWorks": [
     "Cuts off both carotid arteries when the choking forearm and the opponent's shoulder close both neck lines.",
     "Requires minimal force when the structure is correct, leverage replaces strength.",
-    "Creates a dilemma between protecting the neck and escaping back control."
+    "Creates a dilemma between protecting the neck and escaping Back Control."
   ],
   "commonMistakes": [
     "Squeezing the arms before the elbow is under the chin.",
@@ -92,7 +92,7 @@
     "Slack out, squeeze in."
   ],
   "oneMinuteMode": {
-    "goal": "Finish the RNC from back control with clean structure.",
+    "goal": "Finish the RNC from Back Control with clean structure.",
     "steps": [
       "Lock seatbelt and glue chest to their back.",
       "Win the hand fight, peel their defensive hand from the neck.",
@@ -107,7 +107,7 @@
     "Train with controlled partners and release pressure immediately on tap."
   ],
   "systemLogic": {
-    "corePrinciple": "Back control is the platform, not the finish. Each step, seatbelt, hand fight, elbow line, slack removal, must be completed in sequence before squeezing.",
+    "corePrinciple": "Back Control is the platform, not the finish. Each step, seatbelt, hand fight, elbow line, slack removal, must be completed in sequence before squeezing.",
     "decisionTree": [
       {
         "condition": "One hand is defending the neck line",
@@ -132,7 +132,7 @@
     ],
     "exitStrategies": [
       "If the choke is consistently blocked, transition to arm traps and attack the Armbar or bow-and-arrow.",
-      "If they escape to Mount bottom, transition to Mount control and attack from there.",
+      "If they escape to Mount Bottom, transition to Mount Control and attack from there.",
       "If they scramble out, re-attack with a Front Headlock or Guillotine as they face you."
     ]
   },

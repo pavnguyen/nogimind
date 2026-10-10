@@ -1,10 +1,10 @@
 {
   "id": "back-control",
   "locale": "fr",
-  "name": "back control",
+  "name": "Back Control",
   "description": "Dominez l'arrière avec un seatbelt verrouillé, des crochets ou un corps actifs Triangle et des combats de mains systématiques pour garder le contrôle et mettre en place des soumissions.",
-  "shortInstruction": "Poitrine jusqu'à la colonne vertébrale, seatbelt verrouillé, crochets, combat à main – back control est le roi des positions pour une raison.",
-  "summary": "back control est la position la plus dominante dans BJJ. À partir de là, vous contrôlez presque entièrement leurs mouvements. Le seatbelt (un bras sur l'épaule, un sous l'aisselle, les mains jointes) contrôle le haut du corps. Les crochets (pieds à l'intérieur des cuisses) ou le corps Triangle (jambes enroulées autour du torse) contrôlent le bas du corps. À partir de ce contrôle complet, vous pouvez attaquer le cou, les bras ou passer à Mount.",
+  "shortInstruction": "Poitrine jusqu'à la colonne vertébrale, seatbelt verrouillé, crochets, combat à main – Back Control est le roi des positions pour une raison.",
+  "summary": "Back Control est la position la plus dominante dans BJJ. À partir de là, vous contrôlez presque entièrement leurs mouvements. Le seatbelt (un bras sur l'épaule, un sous l'aisselle, les mains jointes) contrôle le haut du corps. Les crochets (pieds à l'intérieur des cuisses) ou le corps Triangle (jambes enroulées autour du torse) contrôlent le bas du corps. À partir de ce contrôle complet, vous pouvez attaquer le cou, les bras ou passer à Mount.",
   "whyItWorks": [
     "De dos, vous voyez tout ce qu’ils font alors qu’ils ne peuvent pas vous voir – l’avantage de réaction est énorme.",
     "Le seatbelt et les crochets créent une cage autour de leur corps – ils ne peuvent pas s'échapper sans briser plusieurs commandes.",
@@ -15,7 +15,7 @@
     "Perdre le contact poitrine-dos – cela leur donne de l’espace pour se retourner ou s’échapper.",
     "Croiser les pieds lorsque vous utilisez des crochets – les pieds croisés peuvent être cassés par la pression de la cheville.",
     "En laissant le seatbelt glisser jusqu'à leur cou, le seatbelt doit être verrouillé sur leur poitrine, pas sur leur cou.",
-    "Se reposer au lieu d'attaquer, back control est une position d'attaque de transition, pas une position de repos."
+    "Se reposer au lieu d'attaquer, Back Control est une position d'attaque de transition, pas une position de repos."
   ],
   "coachingCues": [
     "De la poitrine à la colonne vertébrale – pas de lumière du jour entre vous.",
@@ -34,10 +34,10 @@
     "S'ils attrapent votre main seatbelt, renvoyez votre main vers l'intérieur."
   ],
   "systemLogic": {
-    "corePrinciple": "back control est la plate-forme pour toutes les attaques arrière. La séquence est la suivante : prendre le dos → verrouiller seatbelt → sécuriser les crochets ou le corps Triangle → combattre à la main → attaquer RNC ou bras Triangle.",
+    "corePrinciple": "Back Control est la plate-forme pour toutes les attaques arrière. La séquence est la suivante : prendre le dos → verrouiller seatbelt → sécuriser les crochets ou le corps Triangle → combattre à la main → attaquer RNC ou bras Triangle.",
     "decisionTree": [
       {
-        "condition": "À partir du back control",
+        "condition": "À partir du Back Control",
         "action": "Verrouillez immédiatement le seatbelt (un bras sur l'épaule, un sous l'aisselle, les mains jointes). Fixez les crochets (pieds à l'intérieur des cuisses) ou un corps Triangle avant de tenter toute soumission"
       },
       {
@@ -60,7 +60,7 @@
     "exitStrategies": [
       "Si vous perdez le seatbelt, saisissez-le à nouveau avant qu'il ne puisse créer de l'espace.",
       "S'ils décollent les deux crochets et vous aplatissent, revenez à un Front Headlock ou levez-vous pour réinitialiser l'engagement.",
-      "back control est une position d'attaque de transition, ne vous y reposez pas ; attaquer ou avancer"
+      "Back Control est une position d'attaque de transition, ne vous y reposez pas ; attaquer ou avancer"
     ]
   },
   "moneyDetails": [
@@ -69,7 +69,7 @@
     "Gardez votre tête d'un côté de sa colonne vertébrale – cela protège votre visage des coudes et les empêche de se transformer en vous.",
     "Lorsqu'ils essaient de se transformer en vous, suivez leurs hanches et prenez Mount, la transition du retour à Mount est une chaîne critique."
   ],
-  "nextStep": "Après back control, apprenez le système d'attaque arrière (RNC, bras Triangle, transitions arrière).",
+  "nextStep": "Après Back Control, apprenez le système d'attaque arrière (RNC, bras Triangle, transitions arrière).",
   "fixItFast": [
     "Les crochets continuent de se décoller ? Passez immédiatement au corps Triangle.",
     "Poignée seatbelt cassée ? Reprenez-la avant qu'elle ne se retourne – ne la laissez pas créer de l'espace.",

@@ -2,7 +2,7 @@
   "id": "lateral-drop-headlock-throw",
   "locale": "fr",
   "name": "Lateral Drop / Projection par clé de tête",
-  "description": "Le lateral drop est une projection de hanche à partir d'une clé de tête ou d'un overhook. Vous utilisez vos hanches comme pivot pour faire basculer l'adversaire par-dessus votre corps. En BJJ, la clé est d'atterrir en position dominante plutôt que de les suivre au sol.",
+  "description": "Le Lateral Drop est une projection de hanche à partir d'une clé de tête ou d'un overhook. Vous utilisez vos hanches comme pivot pour faire basculer l'adversaire par-dessus votre corps. En BJJ, la clé est d'atterrir en position dominante plutôt que de les suivre au sol.",
   "whyItWorks": [
     "La clé de tête contrôle leur posture et les empêche de s'appuyer ou de reculer",
     "Vos hanches placées devant les leurs créent un pivot de rotation, ils doivent pivoter par-dessus vous",
@@ -44,7 +44,7 @@
     "S'ils tirent la guarde pendant la projection : restez debout et passez au lieu de les suivre"
   ],
   "systemLogic": {
-    "corePrinciple": "Lateral drop : attrapez la tête/overhook → avancez le pied à l'intérieur → abaissez les hanches sous les leurs (pliez les genoux, pas le buste) → pivotez les épaules → ils basculent par-dessus vos hanches → retombez en Mount ou Side Control.",
+    "corePrinciple": "Lateral Drop : attrapez la tête/overhook → avancez le pied à l'intérieur → abaissez les hanches sous les leurs (pliez les genoux, pas le buste) → pivotez les épaules → ils basculent par-dessus vos hanches → retombez en Mount ou Side Control.",
     "decisionTree": [
       {
         "condition": "Ils s'appuient sur le bras éloigné pour bloquer",

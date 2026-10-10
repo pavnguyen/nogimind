@@ -1,13 +1,13 @@
 {
   "id": "hip-heist-wrestle-up",
   "locale": "vi",
-  "name": "Cuộc đấu vật cướp giật thời thượng",
+  "name": "Hip Heist Wrestle-Up",
   "description": "Hip Heist là một cuộc đấu vật bùng nổ từ dưới lên Guard để đứng lên hoặc lùi lại. Đó là cách nhanh nhất để đi từ Guard đến vị trí đứng đầu.",
-  "shortInstruction": "Từ open Guard, thắng underhook, vung chân ngoài ra sau, chống tay và khuỵu gối hoặc đứng. Nếu họ đi theo, hãy vòng ra phía sau để quay lại.",
+  "shortInstruction": "Từ Open Guard, thắng underhook, vung chân ngoài ra sau, chống tay và khuỵu gối hoặc đứng. Nếu họ đi theo, hãy vòng ra phía sau để quay lại.",
   "summary": "Vụ cướp hông sử dụng động tác xoay hông và vung chân để chuyển đổi đột ngột từ tư thế nằm dưới Guard sang tư thế quỳ hoặc đứng. Đây là bài đấu vật có tốc độ cao nhất vì nó chuyển trực tiếp động lượng thoát hông của bạn thành tư thế đứng. Vụ cướp hông đặc biệt hiệu quả đối với những đối thủ nghiêng về phía trước với áp lực nặng nề - động lượng về phía trước của họ trở thành năng lượng mà bạn sử dụng để đứng vững.",
   "whyItWorks": [
     "Động tác xoay hông tạo ra động lượng đưa bạn đến đầu gối mà không có sức mạnh của phần thân trên",
-    "Áp lực về phía trước của đối phương (thường gặp trong open Guard chuyền bóng) cung cấp lực phản công mà bạn cần để nâng cao",
+    "Áp lực về phía trước của đối phương (thường gặp trong Open Guard chuyền bóng) cung cấp lực phản công mà bạn cần để nâng cao",
     "Cú cướp hông chuyển sang đòn lùi nếu đối thủ làm theo chuyển động của bạn",
     "Nó nhanh hơn so với việc chuẩn bị kỹ thuật và cần ít không gian hơn"
   ],
@@ -30,7 +30,7 @@
   ],
   "keyCorrections": [
     "Nếu bạn không thể quỳ xuống: cú xoay chân quá ngắn - vung chân rộng hơn và đánh mạnh hơn",
-    "Nếu họ đè bẹp bạn trong vụ cướp hông: underhook không đủ sâu, hãy pummeling lại và thử lại",
+    "Nếu họ đè bẹp bạn trong vụ cướp hông: underhook không đủ sâu, hãy Pummeling lại và thử lại",
     "Nếu bạn hạ cánh ở Side Control: bạn đã dừng xe ở đầu gối thay vì lái xe đến chỗ đứng"
   ],
   "systemLogic": {
@@ -38,7 +38,7 @@
     "decisionTree": [
       {
         "condition": "Trong Giai đoạn 1 (underhook)",
-        "action": "từ open Guard, thắng underhook ở bên bạn sẽ cướp. Đầu của bạn phải tựa vào ngực họ"
+        "action": "từ Open Guard, thắng underhook ở bên bạn sẽ cướp. Đầu của bạn phải tựa vào ngực họ"
       },
       {
         "condition": "Ở Giai đoạn 2 (Xoay hông)",
@@ -60,7 +60,7 @@
   },
   "moneyDetails": [
     "Vụ cướp hông là cuộc đấu vật nhanh nhất trong BJJ, nó chuyển trực tiếp Guard sang thế hạ gục",
-    "Việc thành thạo các vụ cướp hông mang lại cho bạn khả năng đứng vững đáng tin cậy từ bất kỳ vị trí open Guard nào",
+    "Việc thành thạo các vụ cướp hông mang lại cho bạn khả năng đứng vững đáng tin cậy từ bất kỳ vị trí Open Guard nào",
     "Vụ cướp hông để quay lại là một chuyển đổi có giá trị cao ghi được 4 điểm (quay lại) trong IBJJF"
   ],
   "fixItFast": [

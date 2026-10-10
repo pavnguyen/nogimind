@@ -3,7 +3,7 @@
   "domain": "guard_offense",
   "level": "advanced",
   "status": "draft",
-  "name": "K-Guard Mục nhập",
+  "name": "K Guard Entry",
   "aliases": [],
   "tags": [
     "Guard",
@@ -62,7 +62,7 @@
   "locale": "vi",
   "description": "Sử dụng K-Guard để tạo một góc dưới hông đối phương và thực hiện các đòn tấn công từ phía sau hoặc vướng chân với toàn quyền kiểm soát chân xa của họ.",
   "shortInstruction": "Đặt chân lên hông xa, móc chân gần, xoay người bên dưới - K-Guard là vua của hệ thống tấn công bằng chân hiện đại.",
-  "summary": "K-Guard là điểm vào linh hoạt nhất trong khóa chân No-Gi hiện đại. Bằng cách đặt một chân lên hông xa của đối phương và móc chân gần của họ bằng chân kia, bạn tạo ra một góc mạnh mẽ dưới trọng tâm của họ. Từ đây, bạn có thể tấn công chân xa (Heel Hook), lùi hoặc quét lên vị trí trên cùng. K-Guard là chất keo kết nối đáy open Guard với hệ thống vướng chân.",
+  "summary": "K-Guard là điểm vào linh hoạt nhất trong khóa chân No-Gi hiện đại. Bằng cách đặt một chân lên hông xa của đối phương và móc chân gần của họ bằng chân kia, bạn tạo ra một góc mạnh mẽ dưới trọng tâm của họ. Từ đây, bạn có thể tấn công chân xa (Heel Hook), lùi hoặc quét lên vị trí trên cùng. K-Guard là chất keo kết nối đáy Open Guard với hệ thống vướng chân.",
   "whyItWorks": [
     "Bàn chân ở hông xa điều khiển chuyển động quay của họ và ngăn họ bước đi.",
     "Cái móc ở chân gần của họ giúp bạn mất thăng bằng và vướng vào chân.",
@@ -99,7 +99,7 @@
       },
       {
         "condition": "Sử dụng tùy chọn 3",
-        "action": "Họ đăng bài → quét lên vị trí trên cùng."
+        "action": "Họ post → quét lên vị trí trên cùng."
       }
     ],
     "exitStrategies": []
@@ -114,6 +114,6 @@
   "fixItFast": [
     "Chân trượt khỏi hông? Nhấn gót chân của bạn vào xương hông - không phải vòm mà là gót chân.",
     "Họ tóm lấy đầu bạn à? Đập tay bạn vào trong cánh tay của họ và thiết lập lại khoảng cách.",
-    "Không thể xoay theo họ? Lưỡi câu của bạn quá nông, hãy tiến lại gần và móc lại sâu hơn."
+    "Không thể xoay theo họ? Móc của bạn quá nông, hãy tiến lại gần và móc sâu hơn."
   ]
 }

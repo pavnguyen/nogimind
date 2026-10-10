@@ -58,7 +58,7 @@
   "locale": "en",
   "description": "Preserve breathing, frames, and inside lanes under crossface and underhook pressure in Side Control. Survival is the first priority before attempting any escape.",
   "shortInstruction": "Keep elbows glued to ribs, frame on the hip (not chest), breathe through the nose, and never turn your back. Survive first, escape second.",
-  "summary": "Side Control survival is the art of absorbing pressure without panic while maintaining the structural integrity needed for an escape. The priority order is: protect the near arm (elbow to ribs), protect the neck (chin tucked, head turned toward mat under crossface), and manage breathing. A surviving bottom player is calm, frames correctly, and waits for the right moment to initiate the escape sequence.",
+  "summary": "Side Control Survival is the art of absorbing pressure without panic while maintaining the structural integrity needed for an escape. The priority order is: protect the near arm (elbow to ribs), protect the neck (chin tucked, head turned toward mat under crossface), and manage breathing. A surviving bottom player is calm, frames correctly, and waits for the right moment to initiate the escape sequence.",
   "whyItWorks": [
     "Keeping your near elbow pinned to your ribs prevents the opponent from isolating your arm for an Americana or Kimura attack",
     "A forearm frame across the hip line uses bone structure (not muscle) to hold the opponent's weight off your torso, bone does not fatigue like muscle",
@@ -84,7 +84,7 @@
     "If the opponent isolates your near arm for an Americana or Kimura, tap early rather than risking shoulder or elbow damage"
   ],
   "systemLogic": {
-    "corePrinciple": "Side Control survival follows a five-layer hierarchy: protect the near arm → establish hip frame → protect the neck → manage breathing → wait for escape opportunity. Never attempt an escape before establishing all survival layers.",
+    "corePrinciple": "Side Control Survival follows a five-layer hierarchy: protect the near arm → establish hip frame → protect the neck → manage breathing → wait for escape opportunity. Never attempt an escape before establishing all survival layers.",
     "decisionTree": [
       {
         "condition": "Opponent pulls your near arm away from your ribs",
@@ -103,7 +103,7 @@
         "action": "Your frame is too high, drop it to the hip line and hip escape 3-4 inches away to create a breathing pocket. Controlled nasal breathing preserves oxygen for the escape."
       },
       {
-        "condition": "Opponent switches to north-south",
+        "condition": "Opponent switches to North-South",
         "action": "Keep your near arm across your chest and frame on their hips immediately before they settle their weight. Protect the arm from isolation."
       }
     ],
@@ -114,7 +114,7 @@
     ]
   },
   "moneyDetails": [
-    "Side Control survival is the most frequently used skill in BJJ, every grappler spends time under Side Control in every training session",
+    "Side Control Survival is the most frequently used skill in BJJ, every grappler spends time under Side Control in every training session",
     "Mastering survival before escape prevents the most common injury in BJJ: shoulder damage from forcing arm attacks under pressure",
     "A calm, structured survival approach preserves energy and allows you to escape multiple times per round without gassing",
     "The ability to survive under heavy pressure separates intermediate from advanced grapplers"
@@ -122,6 +122,6 @@
   "fixItFast": [
     "If you cannot breathe: the frame is too high, drop it to the hip line and hip escape 3-4 inches away from them",
     "If they are isolating your near arm: turn slightly toward them and clamp the elbow tight, do not let it lift even an inch",
-    "If they switch to north-south: keep your near arm across your chest and frame on their hips immediately before they settle their weight"
+    "If they switch to North-South: keep your near arm across your chest and frame on their hips immediately before they settle their weight"
   ]
 }

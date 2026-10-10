@@ -56,11 +56,11 @@
     "hasStateMachine": false
   },
   "locale": "en",
-  "description": "Prioritize neck protection and hand fighting when the opponent has seatbelt or hooks. The goal is to survive long enough to create space for a full back escape.",
+  "description": "Prioritize neck protection and Hand Fighting when the opponent has seatbelt or hooks. The goal is to survive long enough to create space for a full Back Escape.",
   "shortInstruction": "Chin tucked, both hands on the choking arm, protect the neck before clearing hooks, and never turn away from the opponent.",
-  "summary": "Back survival is a holding action: protect the neck, prevent the choke from sinking, and manage your breathing while setting up the escape sequence. The priority is always the choking hand, then the Body Triangle, then the hooks.",
+  "summary": "Back Survival is a holding action: protect the neck, prevent the choke from sinking, and manage your breathing while setting up the escape sequence. The priority is always the choking hand, then the Body Triangle, then the hooks.",
   "whyItWorks": [
-    "The rear-naked choke is the highest percentage submission from back control, preventing it from locking is your first survival priority",
+    "The rear-naked choke is the highest percentage submission from Back Control, preventing it from locking is your first survival priority",
     "Keeping your chin tucked closes the space between your jaw and shoulder, making it harder for the choking arm to reach the carotid arteries",
     "Both hands on the choking arm buys you time, even if they have the seatbelt, you can prevent the finish by controlling the grip",
     "The Body Triangle is uncomfortable but survivable, do not waste energy fighting it until the choke threat is neutralized"
@@ -83,7 +83,7 @@
     "Communicate with your training partner, a tap is a learning signal, not a failure"
   ],
   "systemLogic": {
-    "corePrinciple": "Back survival follows a strict hierarchy: protect the neck first, then control the choking arm, manage breathing, and only then set up the escape. Each layer prepares the next, skipping layers exposes you to immediate finishing.",
+    "corePrinciple": "Back Survival follows a strict hierarchy: protect the neck first, then control the choking arm, manage breathing, and only then set up the escape. Each layer prepares the next, skipping layers exposes you to immediate finishing.",
     "decisionTree": [
       {
         "condition": "Opponent has seatbelt grip but no choke locked",
@@ -105,11 +105,11 @@
     "exitStrategies": [
       "If you feel the jaw line opening (choking arm sliding under the chin), allocate 100% of defense to the hand fight, grip their forearm with both hands and pull it toward your chest.",
       "If the choke is already locked on one side, tap immediately, do not wait for a better defensive position.",
-      "Once the choke threat is neutralized, begin the back escape sequence: hand fight → clear hooks → turn in → recover Guard."
+      "Once the choke threat is neutralized, begin the Back Escape sequence: hand fight → clear hooks → turn in → recover Guard."
     ]
   },
   "moneyDetails": [
-    "Back survival is the most important defensive skill in BJJ, every grappler will spend time on the back, and knowing how to survive is the first step to escaping",
+    "Back Survival is the most important defensive skill in BJJ, every grappler will spend time on the back, and knowing how to survive is the first step to escaping",
     "Surviving on the back for 30 seconds is a win in competition, it denies the opponent the opportunity to work for the finish",
     "A calm, systematic survival approach preserves the energy needed for the escape sequence that follows"
   ],

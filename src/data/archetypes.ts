@@ -24,11 +24,11 @@ const archetype = (seed: ArchetypeSeed): GrapplingArchetype => seed
 export const archetypes: GrapplingArchetype[] = [
   archetype({
     id: 'wrestle-up-player',
-    title: lt('Người chơi Wrestle-Up', 'Wrestle-Up Player', 'Joueur wrestle-up'),
+    title: lt('Người chơi Wrestle-Up', 'Wrestle-Up Player', 'Joueur Wrestle-Up'),
     shortDescription: lt(
       'Dùng Seated Guard, Shin-to-Shin và Half Guard để đứng dậy vào Single Leg thay vì nằm chờ sweep.',
-      'Uses seated Guard, shin-to-shin, and Half Guard to rise into single legs instead of waiting for sweeps.',
-      'Utilise seated Guard, shin-to-shin et Half Guard pour monter en single leg plutôt qu’attendre le sweep.',
+      'Uses Seated Guard, shin-to-shin, and Half Guard to rise into single legs instead of waiting for sweeps.',
+      'Utilise Seated Guard, shin-to-shin et Half Guard pour monter en single leg plutôt qu’attendre le sweep.',
     ),
     philosophy: lt(
       'Bạn biến Guard thành cửa vào wrestling. Mục tiêu là giữ cho đầu và hông còn hoạt động được, thắng underhook hoặc shin connection, rồi lên gối trước khi đối thủ khóa được chest-to-chest.',
@@ -46,18 +46,18 @@ export const archetypes: GrapplingArchetype[] = [
       ['Ceux qui protègent mal le cou en single leg.', 'Ceux qui baissent la tête dans Front Headlock.', 'Ceux qui évitent le rythme scramble.'],
     ),
     coreConceptIds: ['wrestle-up-philosophy', 'inside-position', 'head-position', 'base-balance', 'failure-response'],
-    coreSkillIds: ['seated-Guard-retention', 'shin-to-shin-entry', 'half-Guard-wrestle-up', 'single-leg-bjj', 'bodylock-passing', 'back-control'],
-    supportSkillIds: ['technical-stand-up', 'butterfly-Guard-off-balance', 'hand-fighting', 'mat-return-basics', 'scramble-control', 'bjj-foot-sweeps', 'double-leg-bjj'],
+    coreSkillIds: ['seated-guard-retention', 'shin-to-shin-entry', 'half-guard-wrestle-up', 'single-leg-bjj', 'bodylock-passing', 'back-control'],
+    supportSkillIds: ['technical-stand-up', 'butterfly-guard-off-balance', 'hand-fighting', 'mat-return-basics', 'scramble-control', 'bjj-foot-sweeps', 'double-leg-bjj'],
     requiredDefensiveSkillIds: ['front-headlock-defense', 'sprawl-go-behind', 'side-control-escape', 'back-escape'],
     commonWeaknesses: la(
       ['Bị Guillotine vì cúi đầu thấp.', 'Lên gối nhưng không khóa được đường hông.', 'Vẫn tấn công Single Leg khi đã mất kết nối khuỷu-gối.', 'Scramble quá lâu dù đã lên được thế trên.'],
-      ['Guillotined when the head drops.', 'Coming to a knee without controlling the hip line.', 'Attacking single legs after elbow-knee connection is lost.', 'Scrambling too long after top position is available.'],
+      ['Guillotined when the head drops.', 'Coming to a knee without controlling the hip line.', 'Attacking single legs after Elbow-Knee Connection is lost.', 'Scrambling too long after top position is available.'],
       ['Guillotine quand la tête tombe.', 'Monter au genou sans contrôler hip line.', 'Attaquer single leg après perte coude-genou.', 'Scrambler trop longtemps quand top est disponible.'],
     ),
     trainingPriorities: la(
       ['Drill phòng thủ Front Headlock trước mỗi block Wrestle-Up.', 'Tập giữ Seated Guard với mục tiêu lên gối.', 'Chạy round pass-or-wrestle-up 3 phút.', 'Xem lại xem mình kẹt ở vị trí đầu hay đường hông.'],
-      ['Drill Front Headlock defense before every wrestle-up block.', 'Train seated Guard retention with the goal of coming to a knee.', 'Run three-minute pass-or-wrestle-up rounds.', 'Review whether failures came from head position or hip line.'],
-      ['Driller Front Headlock defense avant chaque bloc wrestle-up.', 'Travailler seated Guard retention avec objectif monter au genou.', 'Faire rounds pass-or-wrestle-up de 3 minutes.', 'Revoir si l’échec vient tête ou hip line.'],
+      ['Drill Front Headlock Defense before every wrestle-up block.', 'Train Seated Guard Retention with the goal of coming to a knee.', 'Run three-minute pass-or-wrestle-up rounds.', 'Review whether failures came from Head Position or hip line.'],
+      ['Driller Front Headlock Defense avant chaque bloc wrestle-up.', 'Travailler Seated Guard Retention avec objectif monter au genou.', 'Faire rounds pass-or-wrestle-up de 3 minutes.', 'Revoir si l’échec vient tête ou hip line.'],
     ),
   }),
   archetype({
@@ -65,12 +65,12 @@ export const archetypes: GrapplingArchetype[] = [
     title: lt('Pressure Passer', 'Pressure Passer', 'Passeur pression'),
     shortDescription: lt(
       'Ưu tiên Bodylock, Headquarters và Knee Cut để khóa đường hông trước khi vượt chân.',
-      'Prioritizes Bodylock, headquarters, and Knee Cut passing to lock the hip line before clearing legs.',
+      'Prioritizes Bodylock, headquarters, and Knee Cut Passing to lock the hip line before clearing legs.',
       'Priorise Bodylock, headquarters et Knee Cut pour verrouiller la hip line avant de passer les jambes.',
     ),
     philosophy: lt(
       'Pass không phải là chạy vòng quanh chân. Nó lấy đi khả năng xoay hông, dựng frame và đưa gối vào lại của đối thủ; áp lực đi chéo qua ngực, vai và vị trí đầu.',
-      'Passing is not running around legs; it removes the opponent’s ability to rotate hips, frame, and reinsert knees. Pressure travels diagonally through chest, shoulder, and head position.',
+      'Passing is not running around legs; it removes the opponent’s ability to rotate hips, frame, and reinsert knees. Pressure travels diagonally through chest, shoulder, and Head Position.',
       'Passer n’est pas courir autour des jambes; c’est enlever rotation de hanches, frames et réinsertion du genou. La pression va en diagonale par poitrine, épaule et tête.',
     ),
     bestFor: la(
@@ -84,13 +84,13 @@ export const archetypes: GrapplingArchetype[] = [
       ['Ceux sans sécurité Leg Lock en close range.', 'Ceux qui centrent la tête entre les bras adverses.', 'Ceux qui veulent seulement mouvement outside rapide.'],
     ),
     coreConceptIds: ['connection-before-control', 'pressure-direction', 'inside-position', 'wedges', 'positional-hierarchy'],
-    coreSkillIds: ['bodylock-passing', 'headquarters-passing', 'knee-cut-passing', 'side-control-pin', 'Mount-control', 'arm-triangle-Mount'],
+    coreSkillIds: ['bodylock-passing', 'headquarters-passing', 'knee-cut-passing', 'side-control-pin', 'mount-control', 'arm-triangle-mount'],
     supportSkillIds: ['hand-fighting', 'leg-drag-basics', 'outside-passing', 'mat-return-basics', 'back-control', 'toreando-passing', 'tripod-folding-pass', 'over-under-pass'],
     requiredDefensiveSkillIds: ['leg-lock-safety-basics', 'heel-hook-safety', 'front-headlock-defense', 'scramble-control'],
     commonWeaknesses: la(
       ['Bị Butterfly nâng lên vì trọng lượng dồn quá cao.', 'Bị Shoulder Crunch vì để đầu vào giữa.', 'Vượt được đường gối rồi thả kiểm soát quá sớm.', 'Đè thẳng xuống thay vì đè chéo.'],
-      ['Getting butterfly lifted because weight is too high.', 'Getting shoulder-crunched because the head is centered.', 'Releasing control too early after clearing the knee line.', 'Driving straight down instead of diagonal pressure.'],
-      ['Se faire lever par butterfly car poids trop haut.', 'Subir Shoulder Crunch car tête centrée.', 'Relâcher trop tôt après avoir passé knee line.', 'Presser droit vers le bas au lieu de diagonale.'],
+      ['Getting butterfly lifted because weight is too high.', 'Getting shoulder-crunched because the head is centered.', 'Releasing control too early after clearing the Knee Line.', 'Driving straight down instead of diagonal pressure.'],
+      ['Se faire lever par butterfly car poids trop haut.', 'Subir Shoulder Crunch car tête centrée.', 'Relâcher trop tôt après avoir passé Knee Line.', 'Presser droit vers le bas au lieu de diagonale.'],
     ),
     trainingPriorities: la(
       ['Tập Bodylock với mục tiêu dập hook trước khi pass.', 'Round Headquarters: chỉ tính là qua khi đã kiểm soát đường hông.', 'Sau mỗi pass phải giữ Side Control 10 giây.', 'Xem lại xem đối thủ gỡ Guard bằng knee shield hay underhook.'],
@@ -102,9 +102,9 @@ export const archetypes: GrapplingArchetype[] = [
     id: 'front-headlock-player',
     title: lt('Người chơi Front Headlock', 'Front Headlock Player', 'Joueur Front Headlock'),
     shortDescription: lt(
-      'Dùng hand fighting, snapdown và dilemma go-behind/Guillotine để phạt tư thế cúi thấp.',
-      'Uses hand fighting, snapdowns, and go-behind or Guillotine dilemmas to punish low posture.',
-      'Utilise hand fighting, snapdown et dilemme go-behind/Guillotine pour punir posture basse.',
+      'Dùng Hand Fighting, snapdown và dilemma go-behind/Guillotine để phạt tư thế cúi thấp.',
+      'Uses Hand Fighting, snapdowns, and go-behind or Guillotine dilemmas to punish low posture.',
+      'Utilise Hand Fighting, snapdown et dilemme go-behind/Guillotine pour punir posture basse.',
     ),
     philosophy: lt(
       'Front Headlock tốt không chỉ là bóp cổ. Nó là kiểm soát đầu, đường khuỷu và góc hông, buộc đối thủ phải chọn giữa bảo vệ cổ, chống go-behind hoặc gượng lại tư thế.',
@@ -119,16 +119,16 @@ export const archetypes: GrapplingArchetype[] = [
     notIdealFor: la(
       ['Người chưa kiểm soát được lực siết cổ an toàn.', 'Người giữ Guillotine quá lâu sau khi đã mất góc.', 'Người chưa có phương án nối tiếp khi mất Back Control.'],
       ['Players who cannot control neck pressure safely.', 'Players who hold Guillotines too long after losing angle.', 'Players without back-control follow-up.'],
-      ['Ceux qui contrôlent mal la pression du cou.', 'Ceux qui gardent Guillotine trop longtemps après perte angle.', 'Ceux sans follow-up back control.'],
+      ['Ceux qui contrôlent mal la pression du cou.', 'Ceux qui gardent Guillotine trop longtemps après perte angle.', 'Ceux sans follow-up Back Control.'],
     ),
     coreConceptIds: ['head-position', 'dilemma-attacks', 'control-before-submission', 'early-vs-late-defense', 'failure-response'],
-    coreSkillIds: ['hand-fighting', 'snapdown-front-headlock', 'Guillotine-system', 'sprawl-go-behind', 'back-control', 'rear-naked-choke-system'],
+    coreSkillIds: ['hand-fighting', 'snapdown-front-headlock', 'guillotine-system', 'sprawl-go-behind', 'back-control', 'rear-naked-choke-system'],
     supportSkillIds: ['single-leg-bjj', 'turtle-ride', 'mat-return-basics', 'scramble-control', 'chin-strap-control'],
     requiredDefensiveSkillIds: ['front-headlock-defense', 'back-survival', 'leg-lock-safety-basics'],
     commonWeaknesses: la(
-      ['Chin strap còn nông nhưng vẫn siết.', 'Vẫn đuổi Guillotine khi đối thủ đã qua sang bên an toàn.', 'Không chuyển sang go-behind khi đầu đối thủ thoát ra.', 'Dùng lực cổ thay vì góc hông và kiểm soát khuỷu.'],
-      ['Squeezing with a shallow chin strap.', 'Chasing Guillotine after the opponent passes to the correct side.', 'Not switching to go-behind when the head exits.', 'Using neck force instead of hip angle and elbow control.'],
-      ['Serrer avec chin strap peu profond.', 'Chasser Guillotine après le bon side pass.', 'Ne pas passer go-behind quand la tête sort.', 'Utiliser force du cou au lieu angle hanches et coude.'],
+      ['Chin Strap còn nông nhưng vẫn siết.', 'Vẫn đuổi Guillotine khi đối thủ đã qua sang bên an toàn.', 'Không chuyển sang go-behind khi đầu đối thủ thoát ra.', 'Dùng lực cổ thay vì góc hông và kiểm soát khuỷu.'],
+      ['Squeezing with a shallow Chin Strap.', 'Chasing Guillotine after the opponent passes to the correct side.', 'Not switching to go-behind when the head exits.', 'Using neck force instead of hip angle and elbow control.'],
+      ['Serrer avec Chin Strap peu profond.', 'Chasser Guillotine après le bon side pass.', 'Ne pas passer go-behind quand la tête sort.', 'Utiliser force du cou au lieu angle hanches et coude.'],
     ),
     trainingPriorities: la(
       ['Chạy round Front Headlock, chuyển qua lại giữa go-behind và Guillotine.', 'Tập phòng thủ để biết khi nào lực siết cổ trở nên nguy hiểm.', 'Drill snapdown kèm động tác lấy lại tư thế an toàn.', 'Không finish đòn cổ ở tốc độ live khi chưa kiểm soát được.'],
@@ -138,16 +138,16 @@ export const archetypes: GrapplingArchetype[] = [
   }),
   archetype({
     id: 'back-control-finisher',
-    title: lt('Finisher Back Control', 'Back Control Finisher', 'Finisseur back control'),
+    title: lt('Finisher Back Control', 'Back Control Finisher', 'Finisseur Back Control'),
     shortDescription: lt(
       'Tập trung lấy lưng, giữ chest-to-back, thắng hand fight và finish RNC trong tầm kiểm soát.',
       'Focuses on taking the back, keeping chest-to-back, winning hand fights, and finishing controlled RNCs.',
       'Se concentre sur prendre le dos, garder chest-to-back, gagner hand fight et finir RNC contrôlé.',
     ),
     philosophy: lt(
-      'Back Control là nơi phân cấp vị trí gặp submission. Người chơi này không săn cổ trước: họ khóa đường vai, giữ hook và thắng hand fighting rồi mới mở đòn siết.',
-      'Back control is where positional hierarchy meets submission. This player does not chase the neck first; they lock shoulder line, hook retention, and hand fighting before opening the strangle.',
-      'Back control relie hiérarchie et soumission. Ce joueur ne chasse pas le cou d’abord; il verrouille shoulder line, hooks et hand fight avant le strangle.',
+      'Back Control là nơi phân cấp vị trí gặp submission. Người chơi này không săn cổ trước: họ khóa đường vai, giữ hook và thắng Hand Fighting rồi mới mở đòn siết.',
+      'Back Control is where Positional Hierarchy meets submission. This player does not chase the neck first; they lock shoulder line, hook retention, and Hand Fighting before opening the strangle.',
+      'Back Control relie hiérarchie et soumission. Ce joueur ne chasse pas le cou d’abord; il verrouille shoulder line, hooks et hand fight avant le strangle.',
     ),
     bestFor: la(
       ['Người kiên nhẫn khi kiểm soát.', 'Người thích những submission có xác suất cao.', 'Người muốn biến Turtle, Mount và scramble thành Back Take.'],
@@ -160,12 +160,12 @@ export const archetypes: GrapplingArchetype[] = [
       ['Ceux qui serrent RNC avant hand fight.', 'Ceux qui perdent hooks quand épaules tournent.', 'Ceux sans transition Mount quand le dos est perdu.'],
     ),
     coreConceptIds: ['control-before-submission', 'hooks', 'connection-before-control', 'dilemma-attacks', 'failure-response'],
-    coreSkillIds: ['back-control', 'rear-naked-choke-system', 'turtle-ride', 'Mount-control', 'arm-triangle-Mount'],
+    coreSkillIds: ['back-control', 'rear-naked-choke-system', 'turtle-ride', 'mount-control', 'arm-triangle-mount'],
     supportSkillIds: ['hand-fighting', 'mat-return-basics', 'scramble-control', 'kimura-system'],
-    requiredDefensiveSkillIds: ['back-survival', 'back-escape', 'Mount-survival'],
+    requiredDefensiveSkillIds: ['back-survival', 'back-escape', 'mount-survival'],
     commonWeaknesses: la(
       ['Vẫn đuổi đòn siết sau khi đã mất chest-to-back.', 'Không gỡ lại top hook trước khi đối thủ đặt vai xuống thảm.', 'Hand fight sai thứ tự.', 'Body Triangle hoặc hook quá cứng nên mất luôn khả năng chuyển thế.'],
-      ['Chasing the choke after chest-to-back is lost.', 'Not recovering the top hook before the opponent gets shoulders to the mat.', 'Hand fighting in the wrong order.', 'Using hooks or Body Triangle so rigidly that transitions disappear.'],
+      ['Chasing the choke after chest-to-back is lost.', 'Not recovering the top hook before the opponent gets shoulders to the mat.', 'Hand Fighting in the wrong order.', 'Using hooks or Body Triangle so rigidly that transitions disappear.'],
       ['Chasser choke après perte chest-to-back.', 'Ne pas récupérer top hook avant épaules au sol.', 'Mauvais ordre de hand fight.', 'Hooks/Body Triangle trop rigides qui bloquent transitions.'],
     ),
     trainingPriorities: la(
@@ -180,12 +180,12 @@ export const archetypes: GrapplingArchetype[] = [
     shortDescription: lt(
       'Ưu tiên nhận diện đường gối, lúc nào gót bị hở và khi nào phải tap, trước khi tấn công chân.',
       'Prioritizes knee-line recognition, heel exposure, and tap timing before leg attacks.',
-      'Priorise reconnaissance knee line, talon exposé et timing de tap avant attaques de jambes.',
+      'Priorise reconnaissance Knee Line, talon exposé et timing de tap avant attaques de jambes.',
     ),
     philosophy: lt(
       'Leg entanglement vừa là vùng học kỹ thuật vừa là vùng phải giữ an toàn. Bạn học theo thứ tự: nhận diện, giấu gót, gỡ đường gối, rồi mới nghĩ tới phản đòn hay tấn công.',
-      'Leg entanglements are technical learning zones and safety zones. You learn the order: recognize, hide the heel, free the knee line, then consider countering or offense.',
-      'Les entanglements sont techniques et sécurité. Ordre: reconnaître, cacher talon, libérer knee line, puis seulement counter ou attaque.',
+      'Leg entanglements are technical learning zones and safety zones. You learn the order: recognize, hide the heel, free the Knee Line, then consider countering or offense.',
+      'Les entanglements sont techniques et sécurité. Ordre: reconnaître, cacher talon, libérer Knee Line, puis seulement counter ou attaque.',
     ),
     bestFor: la(
       ['Người mới bước vào Leg Lock.', 'Người tập ở phòng có nhiều ashi và saddle.', 'Người muốn thi đấu ở ruleset cho phép Heel Hook.'],
@@ -198,31 +198,31 @@ export const archetypes: GrapplingArchetype[] = [
       ['Ceux qui veulent finish dangereux avant sécurité.', 'Ceux qui ne tapent pas tôt sous rotation.', 'Ceux qui travaillent jambes sans supervision.'],
     ),
     coreConceptIds: ['leg-lock-safety-hierarchy', 'knee-line', 'early-vs-late-defense', 'inside-position', 'deliberate-practice'],
-    coreSkillIds: ['leg-lock-safety-basics', 'straight-ankle-lock-safety', 'heel-hook-safety', 'single-leg-x-basics', 'k-Guard-entry'],
-    supportSkillIds: ['Guard-pulling-strategy', 'supine-Guard-retention', 'technical-stand-up', 'heel-hook-finishing-system', 'calf-compression-locks', 'toe-hold-estima-lock'],
+    coreSkillIds: ['leg-lock-safety-basics', 'straight-ankle-lock-safety', 'heel-hook-safety', 'single-leg-x-basics', 'k-guard-entry'],
+    supportSkillIds: ['guard-pulling-strategy', 'supine-guard-retention', 'technical-stand-up', 'heel-hook-finishing-system', 'calf-compression-locks', 'toe-hold-estima-lock', 'imanari-roll'],
     requiredDefensiveSkillIds: ['leg-lock-safety-basics', 'heel-hook-safety', 'straight-ankle-lock-safety'],
     commonWeaknesses: la(
       ['Xoay người khi gót đang hở và đường gối còn bị kẹt.', 'Không gỡ được chân còn lại.', 'Tấn công chân khi chưa hiểu ruleset.', 'Coi đau là tín hiệu duy nhất thay vì đọc vị trí từ sớm.'],
-      ['Rotating while heel is exposed and knee line is trapped.', 'Failing to clear the secondary leg.', 'Attacking legs without understanding ruleset.', 'Treating pain as the first signal instead of reading position early.'],
-      ['Tourner talon exposé et knee line piégée.', 'Ne pas libérer jambe secondaire.', 'Attaquer jambes sans ruleset.', 'Attendre douleur au lieu lire position tôt.'],
+      ['Rotating while heel is exposed and Knee Line is trapped.', 'Failing to clear the secondary leg.', 'Attacking legs without understanding ruleset.', 'Treating pain as the first signal instead of reading position early.'],
+      ['Tourner talon exposé et Knee Line piégée.', 'Ne pas libérer jambe secondaire.', 'Attaquer jambes sans ruleset.', 'Attendre douleur au lieu lire position tôt.'],
     ),
     trainingPriorities: la(
       ['Luôn mở đầu bằng round thoát đường gối với tốc độ chậm.', 'Nói rõ mức độ mạnh nhẹ trước khi drill Heel Hook.', 'Tap sớm khi không chắc hướng lực.', 'Không crank submission chân trong tập.'],
       ['Always begin with slow knee-line escape rounds.', 'State intensity clearly before Heel Hook drilling.', 'Tap early when force direction is unclear.', 'Never crank leg submissions in training.'],
-      ['Toujours commencer par sorties knee line lentes.', 'Clarifier intensité avant Heel Hook drill.', 'Taper tôt si direction de force floue.', 'Ne jamais forcer leg submissions à l’entraînement.'],
+      ['Toujours commencer par sorties Knee Line lentes.', 'Clarifier intensité avant Heel Hook drill.', 'Taper tôt si direction de force floue.', 'Ne jamais forcer leg submissions à l’entraînement.'],
     ),
   }),
   archetype({
     id: 'Guard-retention-specialist',
     title: lt('Chuyên gia giữ Guard', 'Guard Retention Specialist', 'Spécialiste rétention de garde'),
     shortDescription: lt(
-      'Xây Guard theo từng lớp: bàn chân, cẳng chân, gối, frame, hông và pummeling, để passer không khóa được chest-to-chest.',
-      'Builds Guard around layers: feet, shins, knees, frames, hips, and pummeling so passers cannot lock chest-to-chest.',
+      'Xây Guard theo từng lớp: bàn chân, cẳng chân, gối, frame, hông và Pummeling, để passer không khóa được chest-to-chest.',
+      'Builds Guard around layers: feet, shins, knees, frames, hips, and Pummeling so passers cannot lock chest-to-chest.',
       'Construit la garde en couches: pieds, tibias, genoux, frames, hanches et pummel pour empêcher chest-to-chest.',
     ),
     philosophy: lt(
       'Giữ Guard là một hệ thống dựng lại cấu trúc. Bạn không chỉ cố giữ Guard, mà đọc được hướng pass, bảo vệ đầu gối phía trong, dựng frame và phản công ngay khi passer lao quá đà.',
-      'Guard retention is a structure-recovery system. You do not only keep Guard; you read pass lines, protect inside knee, frame, and attack when the passer overcommits.',
+      'Guard Retention is a structure-recovery system. You do not only keep Guard; you read pass lines, protect inside knee, frame, and attack when the passer overcommits.',
       'La rétention est un système de reconstruction. Lire pass line, protéger inside knee, frame et attaquer quand le passer overcommit.',
     ),
     bestFor: la(
@@ -235,10 +235,10 @@ export const archetypes: GrapplingArchetype[] = [
       ['Players who only chase bottom submissions while ignoring posture.', 'Players unwilling to train hip mobility.', 'Players who frame with long extended arms.'],
       ['Ceux qui chassent soumissions bottom sans posture.', 'Ceux qui évitent mobilité hanches.', 'Ceux qui framment bras tendus.'],
     ),
-    coreConceptIds: ['Guard-retention-layers', 'frames', 'wedges', 'inside-position', 'elbow-knee-connection'],
-    coreSkillIds: ['seated-Guard-retention', 'supine-Guard-retention', 'half-Guard-knee-shield', 'butterfly-Guard-off-balance', 'technical-stand-up'],
-    supportSkillIds: ['shin-to-shin-entry', 'single-leg-x-basics', 'k-Guard-entry', 'half-Guard-wrestle-up'],
-    requiredDefensiveSkillIds: ['side-control-survival', 'side-control-escape', 'Mount-survival'],
+    coreConceptIds: ['guard-retention-layers', 'frames', 'wedges', 'inside-position', 'elbow-knee-connection'],
+    coreSkillIds: ['seated-guard-retention', 'supine-guard-retention', 'half-guard-knee-shield', 'butterfly-guard-off-balance', 'technical-stand-up'],
+    supportSkillIds: ['shin-to-shin-entry', 'single-leg-x-basics', 'k-guard-entry', 'half-guard-wrestle-up'],
+    requiredDefensiveSkillIds: ['side-control-survival', 'side-control-escape', 'mount-survival'],
     commonWeaknesses: la(
       ['Frame bằng tay thẳng thay vì cấu trúc cẳng tay và gối.', 'Mất đầu gối phía trong mà vẫn cố đẩy đầu.', 'Không chuyển từ giữ Guard sang làm mất thăng bằng đối thủ.', 'Chỉ gỡ lại Guard mà không tạo ra đe dọa nào.'],
       ['Framing with straight arms instead of forearm or knee structure.', 'Losing inside knee and still trying to push the head.', 'Not converting retention into off-balancing.', 'Recovering Guard without creating threats.'],
@@ -261,12 +261,12 @@ export const archetypes: GrapplingArchetype[] = [
     philosophy: lt(
       'Half Guard không phải chỗ để nằm chịu đè. Bạn dùng knee shield để không bị ép bẹp, dùng underhook để thắng đường vai, rồi vào Dogfight hoặc Single Leg trước khi crossface ổn định.',
       'Half Guard is not a place to accept being flattened. You use knee shield to prevent flattening, underhook to win shoulder line, then enter Dogfight or single leg before the crossface settles.',
-      'Half Guard n’est pas accepter d’être aplati. Knee shield contre flatten, underhook gagne shoulder line, puis dogfight/single leg avant crossface stable.',
+      'Half Guard n’est pas accepter d’être aplati. Knee shield contre flatten, underhook gagne shoulder line, puis Dogfight/single leg avant crossface stable.',
     ),
     bestFor: la(
       ['Người thích wrestling từ thế dưới ở Half Guard.', 'Người hay bị Bodylock hoặc Knee Cut.', 'Người muốn sau sweep là vào ngay passing.'],
       ['Players who like bottom wrestling from Half Guard.', 'Players often hit by Bodylock or Knee Cut.', 'Players who want sweeps connected to passing.'],
-      ['Ceux qui aiment lutter depuis Half Guard.', 'Ceux qui subissent bodylock/knee cut.', 'Ceux qui veulent connecter sweep et passing.'],
+      ['Ceux qui aiment lutter depuis Half Guard.', 'Ceux qui subissent bodylock/Knee Cut.', 'Ceux qui veulent connecter sweep et passing.'],
     ),
     notIdealFor: la(
       ['Người hay để đối thủ crossface sâu.', 'Người không pummel lấy underhook từ sớm.', 'Người lên Dogfight nhưng bỏ kiểm soát hông.'],
@@ -274,9 +274,9 @@ export const archetypes: GrapplingArchetype[] = [
       ['Ceux qui laissent crossface profond.', 'Ceux qui ne pummel pas underhook tôt.', 'Ceux qui montent Dogfight sans hip control.'],
     ),
     coreConceptIds: ['wedges', 'pummeling', 'wrestle-up-philosophy', 'hip-line-shoulder-line', 'failure-response'],
-    coreSkillIds: ['half-Guard-knee-shield', 'half-Guard-wrestle-up', 'single-leg-bjj', 'bodylock-passing', 'scramble-control'],
-    supportSkillIds: ['seated-Guard-retention', 'side-control-escape', 'technical-stand-up', 'hand-fighting', 'coyote-half-Guard'],
-    requiredDefensiveSkillIds: ['side-control-survival', 'front-headlock-defense', 'Mount-escape'],
+    coreSkillIds: ['half-guard-knee-shield', 'half-guard-wrestle-up', 'single-leg-bjj', 'bodylock-passing', 'scramble-control'],
+    supportSkillIds: ['seated-guard-retention', 'side-control-escape', 'technical-stand-up', 'hand-fighting', 'coyote-half-guard'],
+    requiredDefensiveSkillIds: ['side-control-survival', 'front-headlock-defense', 'mount-escape'],
     commonWeaknesses: la(
       ['Knee shield đặt quá thấp nên bị ép bẹp.', 'Thắng underhook nhưng vẫn để đầu thấp.', 'Vào Dogfight mà không kiểm soát hông phía xa.', 'Bỏ lỡ nhịp chuyển sang Single Leg khi đối thủ backstep.'],
       ['Knee shield too low and getting flattened.', 'Winning underhook while the head remains low.', 'Dogfight without far-hip control.', 'Missing the single-leg transition when they backstep.'],
@@ -290,10 +290,10 @@ export const archetypes: GrapplingArchetype[] = [
   }),
   archetype({
     id: 'scramble-controller',
-    title: lt('Người kiểm soát scramble', 'Scramble Controller', 'Contrôleur de scramble'),
+    title: lt('Người kiểm soát Scramble', 'Scramble Controller', 'Contrôleur de Scramble'),
     shortDescription: lt(
       'Biến scramble thành cuộc đua giành thứ tự ưu tiên: vị trí đầu, kiểm soát hông, tay chân phía trong và việc lộ lưng.',
-      'Turns scrambles into priority races: head position, hip control, inside limbs, and back exposure.',
+      'Turns scrambles into priority races: Head Position, hip control, inside limbs, and back exposure.',
       'Transforme scramble en courses de priorités: tête, hanches, membres inside et dos exposé.',
     ),
     philosophy: lt(
@@ -317,18 +317,18 @@ export const archetypes: GrapplingArchetype[] = [
     requiredDefensiveSkillIds: ['front-headlock-defense', 'leg-lock-safety-basics', 'back-survival'],
     commonWeaknesses: la(
       ['Đuổi theo thế trên khi cổ đang hở.', 'Post tay xa nên bị Kimura hoặc arm drag.', 'Không lấy lại thế sau khi thắng một nhịp.', 'Để scramble trôi vào Leg Lock mà không nhận diện đường gối.'],
-      ['Chasing top while the neck is exposed.', 'Posting far and getting Kimura or arm-dragged.', 'Not resetting after winning the exchange.', 'Letting scrambles drift into Leg Locks without reading knee line.'],
-      ['Chasser top avec cou exposé.', 'Poster loin et subir kimura/arm drag.', 'Ne pas reset après échange gagné.', 'Laisser scramble aller vers Leg Lock sans lire knee line.'],
+      ['Chasing top while the neck is exposed.', 'Posting far and getting Kimura or arm-dragged.', 'Not resetting after winning the exchange.', 'Letting scrambles drift into Leg Locks without reading Knee Line.'],
+      ['Chasser top avec cou exposé.', 'Poster loin et subir Kimura/arm drag.', 'Ne pas reset après échange gagné.', 'Laisser scramble aller vers Leg Lock sans lire Knee Line.'],
     ),
     trainingPriorities: la(
       ['Round scramble có luật: thắng vị trí rồi phải giữ ổn định 5 giây.', 'Drill post tay ngắn và giữ đầu an toàn.', 'Luôn kết thúc scramble bằng pin, lấy lưng hoặc tách ra hẳn.', 'Xem lại xem thua scramble vì cổ, vì lưng hay vì đường gối.'],
-      ['Scramble rounds with a rule: win position and stabilize five seconds.', 'Drill short posts and safe head position.', 'Always connect scrambles to pin, back, or disengage.', 'Review whether scramble losses came from neck, back, or knee line.'],
-      ['Rounds scramble: gagner position puis stabiliser 5 secondes.', 'Driller posts courts et head position sûre.', 'Connecter scramble à pin, back ou disengage.', 'Noter pertes: cou, dos ou knee line.'],
+      ['Scramble rounds with a rule: win position and stabilize five seconds.', 'Drill short posts and safe Head Position.', 'Always connect scrambles to pin, back, or disengage.', 'Review whether scramble losses came from neck, back, or Knee Line.'],
+      ['Rounds scramble: gagner position puis stabiliser 5 secondes.', 'Driller posts courts et Head Position sûre.', 'Connecter scramble à pin, back ou disengage.', 'Noter pertes: cou, dos ou Knee Line.'],
     ),
   }),
   archetype({
     id: 'submission-chain-hunter',
-    title: lt('Thợ săn chuỗi submission', 'Submission Chain Hunter', 'Chasseur de chaînes de soumission'),
+    title: lt('Thợ săn chuỗi Submission', 'Submission Chain Hunter', 'Chasseur de chaînes de soumission'),
     shortDescription: lt(
       'Xây chuỗi submission bằng dilemma: Guillotine, Kimura, Back Take, Arm Triangle rồi RNC, nối nhau theo phản ứng của đối thủ.',
       'Builds submissions through dilemmas: Guillotine, Kimura, Back Take, Arm Triangle, and RNC chained by reaction.',
@@ -346,12 +346,12 @@ export const archetypes: GrapplingArchetype[] = [
     ),
     notIdealFor: la(
       ['Người bỏ qua kiểm soát để lao vào submission.', 'Người crank khi chưa rõ đòn kết thúc.', 'Người chưa an toàn khi bị phản đòn.'],
-      ['Players who skip control before submission.', 'Players who crank when the finish is unclear.', 'Players without defensive safety when counters happen.'],
+      ['Players who skip Control Before Submission.', 'Players who crank when the finish is unclear.', 'Players without defensive safety when counters happen.'],
       ['Ceux qui sautent contrôle avant soumission.', 'Ceux qui forcent quand finish flou.', 'Ceux sans safety défensive face aux counters.'],
     ),
     coreConceptIds: ['control-before-submission', 'dilemma-attacks', 'levers', 'angle-creation', 'connection-before-control'],
-    coreSkillIds: ['Guillotine-system', 'kimura-system', 'arm-triangle-Mount', 'rear-naked-choke-system', 'back-control'],
-    supportSkillIds: ['Mount-control', 'side-control-pin', 'snapdown-front-headlock', 'turtle-ride', 'heel-hook-finishing-system', 'calf-compression-locks', 'toe-hold-estima-lock', 'mounted-triangle-armbar'],
+    coreSkillIds: ['guillotine-system', 'kimura-system', 'arm-triangle-mount', 'rear-naked-choke-system', 'back-control'],
+    supportSkillIds: ['mount-control', 'side-control-pin', 'snapdown-front-headlock', 'turtle-ride', 'heel-hook-finishing-system', 'calf-compression-locks', 'toe-hold-estima-lock', 'mounted-triangle-armbar'],
     requiredDefensiveSkillIds: ['front-headlock-defense', 'back-survival', 'leg-lock-safety-basics'],
     commonWeaknesses: la(
       ['Siết trước khi tách được tay đối thủ.', 'Nhảy vào submission rồi mất luôn pin.', 'Không biết nhánh tiếp theo khi đối thủ giấu khuỷu.', 'Tăng lực thay vì đổi góc.'],
@@ -388,9 +388,9 @@ export const archetypes: GrapplingArchetype[] = [
       ['Ceux qui défendent seulement sans attaquer.', 'Ceux qui tapent tard pour prouver dureté.', 'Ceux qui ne notent pas erreurs répétées.'],
     ),
     coreConceptIds: ['early-vs-late-defense', 'failure-response', 'frames', 'positional-hierarchy', 'deliberate-practice'],
-    coreSkillIds: ['side-control-survival', 'Mount-survival', 'back-survival', 'side-control-escape', 'Mount-escape', 'back-escape'],
+    coreSkillIds: ['side-control-survival', 'mount-survival', 'back-survival', 'side-control-escape', 'mount-escape', 'back-escape'],
     supportSkillIds: ['front-headlock-defense', 'leg-lock-safety-basics', 'technical-stand-up', 'scramble-control'],
-    requiredDefensiveSkillIds: ['leg-lock-safety-basics', 'front-headlock-defense', 'back-survival', 'Mount-survival'],
+    requiredDefensiveSkillIds: ['leg-lock-safety-basics', 'front-headlock-defense', 'back-survival', 'mount-survival'],
     commonWeaknesses: la(
       ['Thoát quá muộn, khi pin đã ổn định.', 'Frame bằng sức tay thay vì bằng cấu trúc.', 'Gỡ lại Guard nhưng không giữ lớp tiếp theo.', 'Không phản đòn khi đối thủ lao quá đà.'],
       ['Escaping late after the pin is stable.', 'Framing with arm strength instead of structure.', 'Recovering Guard without keeping the next layer.', 'Not countering when the opponent overcommits.'],

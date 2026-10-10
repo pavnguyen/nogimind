@@ -64,9 +64,9 @@
     "hasStateMachine": false
   },
   "locale": "en",
-  "description": "Use the crucifix to trap the opponent's arm with your legs, creating a dilemma between choke and armlock without requiring full back control. The crucifix is a specialized pin that controls one arm completely, giving you time and safety to attack.",
+  "description": "Use the crucifix to trap the opponent's arm with your legs, creating a dilemma between choke and armlock without requiring full Back Control. The crucifix is a specialized pin that controls one arm completely, giving you time and safety to attack.",
   "shortInstruction": "From the side or back, trap one of their arms between your legs (arm between your thighs), lock your feet, and drive your chest into their back. Attack the choke or the trapped arm Armbar.",
-  "summary": "The crucifix immobilizes one of the opponent's arms by trapping it between your thighs, leaving them with only one arm to defend all your attacks. With the arm trapped, you can attack a rear-naked choke (they have only one hand to defend), Armbar the trapped arm, or transition to full back control. The crucifix is safer than full back control because the trapped arm cannot be used to escape or counter-attack.",
+  "summary": "The crucifix immobilizes one of the opponent's arms by trapping it between your thighs, leaving them with only one arm to defend all your attacks. With the arm trapped, you can attack a rear-naked choke (they have only one hand to defend), Armbar the trapped arm, or transition to full Back Control. The crucifix is safer than full Back Control because the trapped arm cannot be used to escape or counter-attack.",
   "whyItWorks": [
     "Trapping the arm between your thighs removes it from the defensive equation, the opponent must defend all attacks with one arm",
     "The crucifix is structurally strong, your legs are stronger than their arm, so they cannot pull the arm free against your thigh squeeze",
@@ -103,7 +103,7 @@
       },
       {
         "condition": "Using Branch 3 (Back Control)",
-        "action": "if they turn toward you to defend, release the crucifix and slide a hook in to take full back control. The crucifix is a transitional position to the back"
+        "action": "if they turn toward you to defend, release the crucifix and slide a hook in to take full Back Control. The crucifix is a transitional position to the back"
       },
       {
         "condition": "General application",
@@ -119,7 +119,7 @@
   ],
   "fixItFast": [
     "If they defend the RNC: switch to the Armbar immediately, do not fight for the choke",
-    "If they free the trapped arm: return to back control or Mount, do not force the crucifix entry",
+    "If they free the trapped arm: return to Back Control or Mount, do not force the crucifix entry",
     "If you are in the crucifix and losing position: release the legs and return to a neutral position"
   ]
 }

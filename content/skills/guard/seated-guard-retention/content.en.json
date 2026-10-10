@@ -5,10 +5,10 @@
   "shortName": "Seated Retention",
   "description": "An active defensive system while seated, using skeletal frames, foot posts, and leg mobility to block the opponent's pass and maintain Guard layers.",
   "shortInstruction": "Keep feet on hips, maintain knee-elbow connection, use C-grips on wrists, and frame to recover or wrestle up.",
-  "summary": "Active Guard retention from seated position using frames, foot posts, and inside position.",
+  "summary": "Active Guard Retention from seated position using frames, foot posts, and Inside Position.",
   "whyItWorks": [
     "Keeps distance by using the longest levers (feet, shins) before the passer can close chest-to-chest.",
-    "Preserves inside position through knee-elbow connection and active hand fighting.",
+    "Preserves Inside Position through knee-elbow connection and active Hand Fighting.",
     "Turn frames into hip movement rather than pushing with arms.",
     "Creates opportunities to wrestle up or re-attack when the passer overcommits."
   ],
@@ -26,7 +26,7 @@
     "Stay seated, stay active."
   ],
   "oneMinuteMode": {
-    "goal": "Maintain distance and inside position from seated Guard.",
+    "goal": "Maintain distance and Inside Position from Seated Guard.",
     "steps": [
       "Keep both feet posted on hips or biceps.",
       "Maintain knee-elbow connection on both sides.",
@@ -46,7 +46,7 @@
     "If they flatten you, you waited too long to frame or pivot."
   ],
   "systemLogic": {
-    "corePrinciple": "Guard retention is a distance management game, your feet and frames are the first line of defense. React to the pass direction before committing to an escape or counter.",
+    "corePrinciple": "Guard Retention is a distance management game, your feet and frames are the first line of defense. React to the pass direction before committing to an escape or counter.",
     "decisionTree": [
       {
         "condition": "Passer is standing and circling",
@@ -62,17 +62,17 @@
       },
       {
         "condition": "Passer forces an underhook",
-        "action": "Drop your elbow to the mat, turn to that side, and pummel your knee inside to regain inside position."
+        "action": "Drop your elbow to the mat, turn to that side, and pummel your knee inside to regain Inside Position."
       },
       {
         "condition": "Passer overcommits forward with momentum",
-        "action": "Use their momentum, frame off the biceps, elevate your hips, and wrestle up to a technical stand-up."
+        "action": "Use their momentum, frame off the biceps, elevate your hips, and wrestle up to a Technical Stand-Up."
       }
     ],
     "exitStrategies": [
       "If they pass one leg, recover Half Guard and restart the retention cycle.",
-      "If they flatten you completely, turn to your side, pummel the near knee, and re-establish seated Guard.",
-      "If retention fails repeatedly, transition to supine Guard with deep half as a backup layer."
+      "If they flatten you completely, turn to your side, pummel the near knee, and re-establish Seated Guard.",
+      "If retention fails repeatedly, transition to Supine Guard with deep half as a backup layer."
     ]
   },
   "moneyDetails": [
@@ -80,7 +80,7 @@
     "The C-grip on the wrist is your best friend, it kills their pant grip before it starts.",
     "Pivot on your seat, not on your back; staying seated keeps your hips mobile."
   ],
-  "nextStep": "After retaining Guard, look to wrestle up (technical stand-up), transition to supine Guard, or attack with shin-to-shin entries.",
+  "nextStep": "After retaining Guard, look to wrestle up (Technical Stand-Up), transition to Supine Guard, or attack with shin-to-shin entries.",
   "fixItFast": [
     "They're past your feet? Frame with forearms and shrimp your hips out.",
     "They have a pant grip? Strip it with both hands before they settle.",

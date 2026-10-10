@@ -56,44 +56,44 @@
     "hasStateMachine": false
   },
   "locale": "en",
-  "description": "Recognize knee line, heel exposure, and safe rotation before learning leg attacks. Safety in Leg Locks is not optional, it is the prerequisite for all Leg Lock training.",
-  "shortInstruction": "Learn the four safety concepts before attempting any Leg Lock: (1) knee line awareness, (2) heel exposure recognition, (3) safe rotation direction, (4) tap discipline. If you cannot name all four, you are not ready to train Leg Locks.",
-  "summary": "Leg Lock safety basics covers the four fundamental safety concepts that every grappler must master before attempting or defending Leg Locks: (1) knee line, the invisible line at the back of the knee that, when crossed, signals the need for tap or escape, (2) heel exposure, when the heel is isolated and separated from the thigh, the knee is in danger, (3) safe rotation, rotating toward the free leg is always safe, rotating away is always dangerous, (4) tap discipline, tapping to position rather than pain is the golden rule of Leg Lock training.",
+  "description": "Recognize Knee Line, heel exposure, and safe rotation before learning leg attacks. Safety in Leg Locks is not optional, it is the prerequisite for all Leg Lock training.",
+  "shortInstruction": "Learn the four safety concepts before attempting any Leg Lock: (1) Knee Line awareness, (2) heel exposure recognition, (3) safe rotation direction, (4) tap discipline. If you cannot name all four, you are not ready to train Leg Locks.",
+  "summary": "Leg Lock Safety Basics covers the four fundamental safety concepts that every grappler must master before attempting or defending Leg Locks: (1) Knee Line, the invisible line at the back of the knee that, when crossed, signals the need for tap or escape, (2) heel exposure, when the heel is isolated and separated from the thigh, the knee is in danger, (3) safe rotation, rotating toward the free leg is always safe, rotating away is always dangerous, (4) tap discipline, tapping to position rather than pain is the golden rule of Leg Lock training.",
   "whyItWorks": [
-    "Understanding the knee line gives you an objective safety marker, you know exactly when you are in danger and when you are safe",
+    "Understanding the Knee Line gives you an objective safety marker, you know exactly when you are in danger and when you are safe",
     "Heel exposure recognition allows you to assess threat level in real time, exposed heel = imminent danger, hidden heel = safe",
     "Safe rotation knowledge prevents the most common defensive mistake (rotating away) that causes the majority of Leg Lock injuries",
     "Tap discipline is the ultimate safety mechanism, knowing when to tap prevents the 5% of Leg Lock entries that result in injury"
   ],
   "commonMistakes": [
-    "Not knowing what the knee line is, training Leg Locks without understanding this concept is dangerous",
+    "Not knowing what the Knee Line is, training Leg Locks without understanding this concept is dangerous",
     "Confusing 'pressure' with 'danger' - Leg Locks can apply pressure without compromising the knee, and catastrophic injury can occur without pressure",
     "Rotating away from the trapped leg instinctively when caught in any leg entanglement",
     "Waiting for pain before tapping, by the time a Heel Hook is painful, the knee is often already damaged"
   ],
   "coachingCues": [
-    "Know the knee line",
+    "Know the Knee Line",
     "Exposed heel = danger",
     "Rotate toward free leg",
     "Tap to position, not pain"
   ],
   "safetySummary": [
-    "The knee line is the invisible line at the back of the knee, when the opponent controls your leg above the knee line, your knee is at risk",
+    "The Knee Line is the invisible line at the back of the knee, when the opponent controls your leg above the Knee Line, your knee is at risk",
     "Heel Hooks can damage the ACL, MCL, PCL, and meniscus in under 100 milliseconds of rotational torque",
     "There is no 'toughing out' a Heel Hook, ligament damage occurs before the pain signal reaches your brain",
     "Tap with your hand (not your foot) and tap clearly, ambiguous tapping can be missed by training partners",
     "If you are the attacker, apply Heel Hook pressure slowly and release the instant your partner taps or vocalizes discomfort"
   ],
   "systemLogic": {
-    "corePrinciple": "Leg Lock safety is built on four pillars: Knowledge (anatomy of the knee) → Recognition (knee line control, heel exposure, hip distance) → Response (continue, escape, or tap) → Discipline (tap early and often). Safety is the prerequisite for all Leg Lock training.",
+    "corePrinciple": "Leg Lock safety is built on four pillars: Knowledge (anatomy of the knee) → Recognition (Knee Line control, heel exposure, hip distance) → Response (continue, escape, or tap) → Discipline (tap early and often). Safety is the prerequisite for all Leg Lock training.",
     "decisionTree": [
       {
-        "condition": "You do not know what a knee line is",
-        "action": "Stop training Leg Locks until you understand this concept. The knee line is the invisible line at the back of the knee, when the opponent controls your leg above this line, your knee is at risk."
+        "condition": "You do not know what a Knee Line is",
+        "action": "Stop training Leg Locks until you understand this concept. The Knee Line is the invisible line at the back of the knee, when the opponent controls your leg above this line, your knee is at risk."
       },
       {
         "condition": "Your heel is isolated and separated from your thigh",
-        "action": "Your knee is in danger, tap immediately or initiate a knee line escape before the rotation starts. An exposed heel + no hip distance = imminent submission."
+        "action": "Your knee is in danger, tap immediately or initiate a Knee Line Escape before the rotation starts. An exposed heel + no hip distance = imminent submission."
       },
       {
         "condition": "You feel rotation starting on your trapped leg",
@@ -101,27 +101,27 @@
       },
       {
         "condition": "You feel pressure but no pain in a leg entanglement",
-        "action": "Pressure does not equal safety, catastrophic knee injury can occur without pain. If your knee line is controlled and your heel is exposed, tap before rotation begins."
+        "action": "Pressure does not equal safety, catastrophic knee injury can occur without pain. If your Knee Line is controlled and your heel is exposed, tap before rotation begins."
       },
       {
-        "condition": "Your training partner does not know Leg Lock safety basics",
+        "condition": "Your training partner does not know Leg Lock Safety Basics",
         "action": "Do not train Leg Locks with them until you have walked through the four safety concepts together. Safety is a shared responsibility."
       }
     ],
     "exitStrategies": [
-      "If unsure whether you are in danger, tap, ask your partner to hold the position, and visually assess your knee line and heel position before continuing.",
+      "If unsure whether you are in danger, tap, ask your partner to hold the position, and visually assess your Knee Line and heel position before continuing.",
       "Tap with your hand (not your foot) and tap clearly, ambiguous tapping can be missed by training partners.",
       "If you are the attacker, apply Heel Hook pressure slowly and release the instant your partner taps or vocalizes discomfort."
     ]
   },
   "moneyDetails": [
-    "Leg Lock safety basics is the most important lesson in modern grappling, understanding these concepts prevents the catastrophic knee injuries that end careers",
+    "Leg Lock Safety Basics is the most important lesson in modern grappling, understanding these concepts prevents the catastrophic knee injuries that end careers",
     "Every grappler, regardless of skill level or competition goals, must know Leg Lock safety before rolling in the modern BJJ environment",
-    "The five minutes spent learning Leg Lock safety basics will protect years of future training"
+    "The five minutes spent learning Leg Lock Safety Basics will protect years of future training"
   ],
   "fixItFast": [
-    "If you do not know what a knee line is: stop training Leg Locks until you have researched and understood this concept",
+    "If you do not know what a Knee Line is: stop training Leg Locks until you have researched and understood this concept",
     "If your partner does not know Leg Lock safety: do not engage in leg entanglements with them, help them learn first",
-    "If you are unsure whether you are in danger in a leg entanglement: tap, ask your partner to hold the position, and visually assess your knee line and heel position before continuing"
+    "If you are unsure whether you are in danger in a leg entanglement: tap, ask your partner to hold the position, and visually assess your Knee Line and heel position before continuing"
   ]
 }

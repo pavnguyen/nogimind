@@ -21,7 +21,7 @@
     "Le Body Triangle contrôle les hanches ; les mains contrôlent l'étranglement",
     "Gardez-le mais ne cessez pas de travailler"
   ],
-  "shortInstruction": "Depuis le back control, glissez la jambe du dessus par-dessus leur hanche, verrouillez les jambes autour de leur taille (tibia derrière le genou), serrez pour comprimer le diaphragme et combattez des mains pour l'étranglement.",
+  "shortInstruction": "Depuis le Back Control, glissez la jambe du dessus par-dessus leur hanche, verrouillez les jambes autour de leur taille (tibia derrière le genou), serrez pour comprimer le diaphragme et combattez des mains pour l'étranglement.",
   "summary": "Le Body Triangle immobilise les hanches de l'adversaire en verrouillant vos jambes autour de leur taille. Il comprime le diaphragme, empêche l'échappée de hanche et ne peut pas être décollé facilement. C'est principalement un contrôle qui prépare le rear-naked choke.",
   "safetySummary": [
     "Le Body Triangle comprime le diaphragme, si le partenaire a des problèmes respiratoires, utilisez des crochets traditionnels à la place",
@@ -44,7 +44,7 @@
     "Si vous ne pouvez pas finir le RNC : maintenez le Body Triangle et attendez qu'ils se fatiguent"
   ],
   "systemLogic": {
-    "corePrinciple": "Body Triangle : depuis le back control → glissez la jambe du dessus par-dessus leur hanche → verrouillez les jambes autour de leur taille (tibia derrière le genou) → serrez pour comprimer leur diaphragme → maintenez en combattant des mains pour le RNC.",
+    "corePrinciple": "Body Triangle : depuis le Back Control → glissez la jambe du dessus par-dessus leur hanche → verrouillez les jambes autour de leur taille (tibia derrière le genou) → serrez pour comprimer leur diaphragme → maintenez en combattant des mains pour le RNC.",
     "decisionTree": [
       {
         "condition": "Ils essaient de décoller le Triangle",

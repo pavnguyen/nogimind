@@ -1,15 +1,15 @@
 {
   "id": "rear-naked-choke-system",
   "locale": "vi",
-  "name": "Choke trần trụi phía sau",
+  "name": "Rear Naked Choke",
   "shortName": "RNC",
-  "description": "Tỷ lệ gửi phần trăm cao nhất trong BJJ. Một cơn sặc máu từ back control cắt đứt cả hai động mạch cảnh bằng cách đặt cẳng tay qua một bên cổ và đóng bên kia bằng áp lực của ngực và vai.",
+  "description": "Tỷ lệ gửi phần trăm cao nhất trong BJJ. Một cơn sặc máu từ Back Control cắt đứt cả hai động mạch cảnh bằng cách đặt cẳng tay qua một bên cổ và đóng bên kia bằng áp lực của ngực và vai.",
   "shortInstruction": "Khuỷu tay dưới cằm, ngực dán vào lưng, tháo chùng rồi siết chặt.",
-  "summary": "Cơ bản nhất No-Gi sặc máu từ back control, làm chủ thế đánh tay, đường khuỷu tay và kết nối ngực với lưng.",
+  "summary": "Cơ bản nhất No-Gi sặc máu từ Back Control, làm chủ thế đánh tay, đường khuỷu tay và kết nối ngực với lưng.",
   "whyItWorks": [
     "Cắt đứt cả hai động mạch cảnh khi cẳng tay và vai của đối phương bịt chặt cả hai đường cổ.",
     "Yêu cầu lực tối thiểu khi cấu trúc chính xác - đòn bẩy thay thế sức mạnh.",
-    "Tạo ra tình thế tiến thoái lưỡng nan giữa việc bảo vệ cổ và việc thoát back control."
+    "Tạo ra tình thế tiến thoái lưỡng nan giữa việc bảo vệ cổ và việc thoát Back Control."
   ],
   "commonMistakes": [
     "Siết chặt cánh tay trước khi khuỷu tay ở dưới cằm.",
@@ -24,7 +24,7 @@
     "Thở ra, nhét vào."
   ],
   "oneMinuteMode": {
-    "goal": "Hoàn thành RNC từ back control với cấu trúc rõ ràng.",
+    "goal": "Hoàn thành RNC từ Back Control với cấu trúc rõ ràng.",
     "steps": [
       "Khóa seatbelt và dán rương vào lưng họ.",
       "Giành chiến thắng trong cuộc chiến tay đôi - bóc bàn tay phòng thủ của họ ra khỏi cổ.",
@@ -44,7 +44,7 @@
     "Nếu bị bong tay, hãy chuyển sang đánh tay cao gần đầu."
   ],
   "systemLogic": {
-    "corePrinciple": "back control là nền tảng chứ không phải là điểm kết thúc. Mỗi bước, seatbelt, đánh tay, dây khuỷu tay, tháo dây chùng, phải được hoàn thành theo trình tự trước khi siết chặt.",
+    "corePrinciple": "Back Control là nền tảng chứ không phải là điểm kết thúc. Mỗi bước, seatbelt, đánh tay, dây khuỷu tay, tháo dây chùng, phải được hoàn thành theo trình tự trước khi siết chặt.",
     "decisionTree": [
       {
         "condition": "Một tay bảo vệ đường viền cổ",

@@ -4,28 +4,28 @@
   "title": "Supine Guard",
   "description": "The Guard player lies supine and uses feet, knees, frames, and hip angle to deny chest-to-chest passing.",
   "topPlayerGoals": [
-    "The top player wants to control Supine Guard through head position, inside position, and directed pressure.",
+    "The top player wants to control Supine Guard through Head Position, Inside Position, and directed pressure.",
     "Staple the legs and win the hip line before passing.",
     "Keep a stable base so you are not off-balanced or countered."
   ],
   "bottomPlayerGoals": [
-    "The bottom player wants to survive Supine Guard with frames, pummeling, or the right angle.",
-    "Keep the feet and knees inside to recover seated Guard or enter a leg attack.",
+    "The bottom player wants to survive Supine Guard with frames, Pummeling, or the right angle.",
+    "Keep the feet and knees inside to recover Seated Guard or enter a leg attack.",
     "Recognize danger signals early instead of waiting for the position to settle."
   ],
   "controlPoints": [
     "Main control point: Feet on hips or biceps, knees inside, and shoulder angle.",
     "Head, hands, hips, and knees should share the same force direction.",
-    "The elbow-knee connection or hip-shoulder line determines whether the position is still alive or already locked."
+    "The Elbow-Knee Connection or hip-shoulder line determines whether the position is still alive or already locked."
   ],
   "escapePriorities": [
     "Escape priority: Do not let both knees be forced to the same side.",
-    "Protect the neck, back, knee line, or arm line before countering.",
-    "If inside position is lost, reset one defensive layer first."
+    "Protect the neck, back, Knee Line, or arm line before countering.",
+    "If Inside Position is lost, reset one defensive layer first."
   ],
   "advancementOptions": [
     {
-      "action": "Recover knee shield or a seated layer",
+      "action": "Recover Knee Shield or a seated layer",
       "nextPositionId": "knee-shield-half-guard",
       "relatedSkillIds": [
         "supine-guard-retention",

@@ -14,26 +14,26 @@
   ],
   "locale": "vi",
   "title": "Scramble Trung lập",
-  "description": "Khoảnh khắc chuyển tiếp khi chưa ai kiểm soát rõ; ưu tiên là đầu, hông, vị trí trong và an toàn.",
+  "description": "Khoảnh khắc chuyển tiếp khi chưa ai kiểm soát rõ; ưu tiên là đầu, hông, vị trí trong và sự an toàn.",
   "topPlayerGoals": [
-    "Người ở trên muốn kiểm soát Scramble Trung lập bằng vị trí đầu, vị trí trong và áp lực có hướng.",
-    "Thắng cuộc đua đầu-hông và đi tới ride, pass hoặc back control.",
-    "Giữ nền vững để không bị mất thăng bằng hoặc bị phản đòn."
+    "Người trên kiểm soát Scramble Trung lập bằng vị trí đầu, vị trí trong và hướng áp lực.",
+    "Thắng cuộc đua đầu và hông rồi đi tới ride, pass hoặc Back Control.",
+    "Giữ nền chắc để không bị đẩy mất thăng bằng hay bị phản đòn."
   ],
   "bottomPlayerGoals": [
-    "Người ở dưới muốn sống sót trong Scramble Trung lập bằng khung chặn, pummel hoặc góc phù hợp.",
-    "Không lộ cổ, lưng hoặc knee line trong khi recover base.",
-    "Nhận diện tín hiệu nguy hiểm sớm thay vì chờ vị trí ổn định."
+    "Người dưới cần sống sót ở Scramble Trung lập bằng frame, pummel hoặc chọn đúng góc.",
+    "Không để lộ cổ, lưng hay đường gối trong khi dựng lại nền.",
+    "Nhận ra tín hiệu nguy hiểm từ sớm, thay vì chờ đến khi thế đã ổn định."
   ],
   "controlPoints": [
-    "Điểm kiểm soát chính: Vị trí đầu, kết nối hông và tay ở trong.",
-    "Đầu, tay, hông và gối nên cùng hướng lực.",
-    "Kết nối khuỷu-gối hoặc đường hông-vai quyết định vị trí còn sống hay đã bị khóa."
+    "Điểm kiểm soát chính: vị trí đầu, kết nối hông và tay phía trong.",
+    "Đầu, tay, hông và gối phải cùng một hướng lực.",
+    "Kết nối khuỷu-gối cùng đường hông-vai quyết định thế còn giữ được hay đã bị khóa."
   ],
   "escapePriorities": [
-    "Ưu tiên thoát: Nếu không chắc, bảo vệ cổ, lưng, chân và reset base.",
-    "Bảo vệ cổ, lưng, đường gối hoặc đường tay trước khi phản công.",
-    "Nếu mất vị trí trong, hãy lùi lại một lớp phòng thủ trước."
+    "Ưu tiên thoát: nếu chưa chắc, bảo vệ cổ, lưng, chân rồi lấy lại nền.",
+    "Bảo vệ cổ, lưng, đường gối và đường tay trước khi phản công.",
+    "Mất vị trí trong thì lùi lại một lớp phòng thủ trước đã."
   ],
   "advancementOptions": [
     {
@@ -44,13 +44,13 @@
         "sprawl-go-behind",
         "mat-return-basics"
       ],
-      "why": "Đây là nhánh tự nhiên khi bạn thắng điểm kiểm soát chính và đối thủ buộc phải phòng thủ."
+      "why": "Đây là nhánh tự nhiên khi bạn đã thắng điểm kiểm soát chính và đối thủ buộc phải phòng thủ."
     }
   ],
   "dangerSignals": [
     "Cằm hoặc cổ bị kéo ra khỏi đường an toàn.",
-    "Khuỷu tay tách khỏi sườn hoặc đầu gối.",
-    "Đường hông bị khóa trong khi đường vai vẫn đang bị kéo.",
-    "Bạn phải chống tay dài để không ngã."
+    "Khuỷu tay rời khỏi sườn hoặc khỏi đầu gối.",
+    "Đường hông đã bị khóa mà đường vai vẫn đang bị kéo.",
+    "Phải chống tay thật xa mới giữ được thăng bằng."
   ]
 }

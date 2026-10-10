@@ -1,0 +1,67 @@
+{
+  "id": "imanari-roll",
+  "locale": "fr",
+  "name": "Imanari Roll",
+  "description": "L'Imanari Roll est une entrée roulée dans un enchevêtrement de jambes. Vous plongez sur la jambe proche de l'adversaire, l'élan du roulé fait passer votre jambe arrière dans l'espace derrière son genou, et vous vous redressez déjà verrouillé dans l'enchevêtrement au lieu de devoir le conquérir debout.",
+  "shortInstruction": "Dégagez leur main, plongez sur la jambe proche, roulez sur l'épaule du même côté pour passer la jambe arrière derrière leur genou, puis redressez-vous dans l'enchevêtrement.",
+  "summary": "L'Imanari Roll transforme un échange debout en enchevêtrement de jambes en un seul mouvement. Le roulé fait aussi le travail de couverture de distance : vous visez la jambe proche, roulez sur l'épaule du même côté et passez la jambe arrière derrière leur genou, donc l'élan vous dépose dans un ashi garami au lieu de vous laisser sur le dos.",
+  "whyItWorks": [
+    "Le roulé couvre la distance jusqu'à la jambe en un temps, ils ne peuvent pas reculer assez vite pour la mettre hors de portée",
+    "Rouler sur l'épaule du même côté garde votre tête loin de leurs hanches et aligne la jambe arrière avec l'espace derrière leur genou",
+    "Leur poids part déjà vers l'arrière, le roulé utilise cette direction au lieu de la combattre",
+    "Vous arrivez en dessous dans un enchevêtrement de jambes, plus fort que la garde de départ"
+  ],
+  "commonMistakes": [
+    "Rouler droit sur la tête et le cou au lieu de l'épaule du même côté, le mouvement se bloque et votre tête reste sous leurs hanches",
+    "Plonger sans aucun contact sur la jambe, le roulé finit avec vous sur le dos et sans enchevêtrement",
+    "Rouler au-delà de la jambe, l'entrée doit viser la jambe proche et non l'espace à côté",
+    "S'arrêter à mi-roulé et tenter de se redresser, ce qui leur laisse le temps de sprawler et de tourner dans votre dos"
+  ],
+  "coachingCues": [
+    "Attaquez la jambe proche, pas l'espace à côté",
+    "L'épaule d'abord, jamais la tête",
+    "La jambe arrière passe derrière le genou, le roulé fait le reste",
+    "Terminez le roulé, atterrissez verrouillé, puis redressez-vous dans l'enchevêtrement"
+  ],
+  "safetySummary": [
+    "Répétez le roulé sur le tapis avec un partenaire qui sait que ça arrive, l'entrée vous place en dessous de lui",
+    "Ne forcez pas l'enchevêtrement dans lequel vous atterrissez, le roulé est une entrée et la finition est une autre compétence",
+    "Apprenez les règles de la ligne de genou et de l'exposition du talon avant d'utiliser cette entrée en pratique, voir Leg Lock Safety Basics"
+  ],
+  "keyCorrections": [
+    "S'ils reculent et que la jambe est hors de portée : ne plongez pas, relevez-vous et réengagez",
+    "Si le roulé se bloque à mi-chemin : posez la main et terminez la rotation au lieu de vous redresser",
+    "S'ils sprawlent sur le roulé : tournez sur le côté et récupérez la garde au lieu de poursuivre la jambe"
+  ],
+  "systemLogic": {
+    "corePrinciple": "Imanari Roll : obtenez le contact sur la jambe proche, plongez et roulez sur l'épaule du même côté, passez la jambe arrière derrière leur genou, redressez-vous dans l'ashi garami, puis montez vers l'enchevêtrement voulu.",
+    "decisionTree": [
+      {
+        "condition": "Ils reculent et la jambe proche est hors de portée",
+        "action": "ne plongez pas, relevez-vous et réengagez"
+      },
+      {
+        "condition": "La jambe proche est accessible et leur poids part vers l'arrière",
+        "action": "plongez et roulez sur l'épaule du même côté"
+      },
+      {
+        "condition": "Ils sprawlent et poussent les hanches vers le bas pendant le roulé",
+        "action": "tournez sur le côté et récupérez la garde"
+      }
+    ],
+    "exitStrategies": [
+      "Si vous manquez la jambe, relevez-vous plutôt que de rester sur le dos",
+      "S'ils sprawlent et vous aplatissent, récupérez la garde et attaquez de nouveau l'enchevêtrement depuis là"
+    ]
+  },
+  "moneyDetails": [
+    "L'entrée porte le nom de Masakazu Imanari, qui a fait de l'attaque roulée sur la jambe une signature de son jeu",
+    "Le roulé est un réducteur de distance : il remplace le hand fight et le pas d'entrée par un seul mouvement",
+    "Visez le roulé légèrement en travers du corps, un roulé droit sur la tête atterrit à côté de la jambe et non dessus"
+  ],
+  "fixItFast": [
+    "Si vous roulez et atterrissez à côté de la jambe : relevez-vous, réinitialisez votre stance et re-temps l'entrée sur leur pas suivant",
+    "Si votre tête finit sous leurs hanches : tournez sur le côté et récupérez la garde, ne restez pas à plat",
+    "S'ils se relèvent hors de l'enchevêtrement : rentrez de nouveau ou récupérez la garde, ne tenez pas la position de loin"
+  ]
+}

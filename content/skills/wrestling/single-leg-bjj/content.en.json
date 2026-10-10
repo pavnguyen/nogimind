@@ -4,12 +4,12 @@
   "name": "Single Leg for BJJ",
   "description": "Finish the single leg while respecting Guillotine, Kimura, and Guard pull threats in BJJ. The single leg in BJJ must be adapted from wrestling to account for the unique counters that exist in submission grappling.",
   "shortInstruction": "Secure the leg, keep your head to the outside (not the center), and finish by running the pipe, lifting, or circling to the back. Never let your head drift to the inside where they can Guillotine you.",
-  "summary": "The BJJ single leg is a modified version of the wrestling single leg that prioritizes safety from submission counters. The key adaptations are: head position must always be to the outside (cheek to their hip/back) rather than the inside (chest to their chest), the finish prioritizes running the pipe (driving them laterally) over lifting (which exposes the Guillotine), and the Back Take is always available as a high-percentage alternative to the takedown finish.",
+  "summary": "The BJJ single leg is a modified version of the wrestling single leg that prioritizes safety from submission counters. The key adaptations are: Head Position must always be to the outside (cheek to their hip/back) rather than the inside (chest to their chest), the finish prioritizes running the pipe (driving them laterally) over lifting (which exposes the Guillotine), and the Back Take is always available as a high-percentage alternative to the takedown finish.",
   "whyItWorks": [
-    "Outside head position prevents the Guillotine, the most common counter to single legs in BJJ",
+    "Outside Head Position prevents the Guillotine, the most common counter to single legs in BJJ",
     "Running the pipe (lateral drive) keeps your head safe and uses their weight against them",
     "The Back Take from the single leg is a BJJ-specific adaptation that scores 4 points instead of 2",
-    "The single leg transitions to both top position and back control, it is the most versatile takedown in BJJ"
+    "The single leg transitions to both top position and Back Control, it is the most versatile takedown in BJJ"
   ],
   "commonMistakes": [
     "Letting your head drift inside (chest to chest), this exposes you to the Guillotine, Kimura, and Front Headlock",
@@ -42,7 +42,7 @@
       },
       {
         "condition": "Using Finish 2 (Lift)",
-        "action": "if they are off-balance (weight on one leg), lift the trapped leg and drive them backward. Only use this if head position is confirmed outside"
+        "action": "if they are off-balance (weight on one leg), lift the trapped leg and drive them backward. Only use this if Head Position is confirmed outside"
       },
       {
         "condition": "Using Finish 3 (Back Take)",

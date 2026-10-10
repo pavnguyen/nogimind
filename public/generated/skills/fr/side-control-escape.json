@@ -58,7 +58,7 @@
   "locale": "fr",
   "description": "Transformez les montures en évasion de hanche, underhook ou en tortue au lieu d'exposer votre dos au hasard.",
   "shortInstruction": "Cadrez sur les hanches, insérez le genou le plus proche, la hanche s'échappe pour créer de l'espace et récupérez Guard ou prenez le dos via underhook.",
-  "summary": "Side Control escape utilise un cadre rigide au niveau des hanches pour créer un coin, puis une évasion de hanche pour récupérer la position intérieure. Le système comporte deux branches principales : la récupération underhook (prise arrière ou Guard) et la récupération genou-coude (Guard).",
+  "summary": "Side Control Escape utilise un cadre rigide au niveau des hanches pour créer un coin, puis une évasion de hanche pour récupérer la position intérieure. Le système comporte deux branches principales : la récupération underhook (prise arrière ou Guard) et la récupération genou-coude (Guard).",
   "whyItWorks": [
     "Un cadre d'avant-bras sur la ligne des hanches utilise la structure osseuse contre les muscles, empêchant l'adversaire d'écraser votre torse.",
     "La hanche s'échappe avant que le underhook crée l'angle nécessaire pour entrer dans l'espace intérieur",
@@ -82,7 +82,7 @@
     "Si vous ressentez une douleur aux côtes à cause de la pression, cadrez immédiatement et la hanche s'échappe plutôt que d'essayer de pousser l'adversaire sur un banc."
   ],
   "systemLogic": {
-    "corePrinciple": "Side Control escape a deux branches d'entrée en fonction de ce que l'adversaire vous donne : la branche underhook (Back Take ou granby) pour une récompense plus élevée, ou la branche genou-coude (Half Guard recovery) pour une plus grande sécurité.",
+    "corePrinciple": "Side Control Escape a deux branches d'entrée en fonction de ce que l'adversaire vous donne : la branche underhook (Back Take ou granby) pour une récompense plus élevée, ou la branche genou-coude (Half Guard recovery) pour une plus grande sécurité.",
     "decisionTree": [
       {
         "condition": "L'adversaire vous donne de l'espace pour insérer le underhook",

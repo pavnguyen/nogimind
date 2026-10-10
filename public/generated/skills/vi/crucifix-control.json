@@ -3,7 +3,7 @@
   "domain": "pins_rides",
   "level": "intermediate",
   "status": "draft",
-  "name": "crucifix Kiểm soát",
+  "name": "Crucifix Kiểm soát",
   "aliases": [],
   "tags": [
     "crucifix",
@@ -64,9 +64,9 @@
     "hasStateMachine": false
   },
   "locale": "vi",
-  "description": "Sử dụng crucifix để bẫy cánh tay của đối phương bằng chân của bạn, tạo ra tình thế tiến thoái lưỡng nan giữa nghẹt thở và khóa tay mà không yêu cầu toàn bộ back control. crucifix là một chốt chuyên dụng điều khiển hoàn toàn một cánh tay, giúp bạn có thời gian và sự an toàn để tấn công.",
+  "description": "Sử dụng crucifix để bẫy cánh tay của đối phương bằng chân của bạn, tạo ra tình thế tiến thoái lưỡng nan giữa nghẹt thở và khóa tay mà không yêu cầu toàn bộ Back Control. crucifix là một chốt chuyên dụng điều khiển hoàn toàn một cánh tay, giúp bạn có thời gian và sự an toàn để tấn công.",
   "shortInstruction": "Từ bên cạnh hoặc phía sau, kẹp một trong hai cánh tay của họ vào giữa hai chân của bạn (cánh tay giữa hai đùi của bạn), khóa chân và đẩy ngực của bạn vào lưng họ. Tấn công cuộn cảm hoặc cánh tay bị mắc kẹt Armbar.",
-  "summary": "crucifix làm bất động một trong các cánh tay của đối thủ bằng cách kẹp nó vào giữa hai đùi của bạn, khiến họ chỉ còn một cánh tay để chống lại mọi đòn tấn công của bạn. Với cánh tay bị mắc kẹt, bạn có thể tấn công rear-naked choke (họ chỉ có một tay để phòng thủ), Armbar cánh tay bị mắc kẹt hoặc chuyển sang back control hoàn toàn. crucifix an toàn hơn back control đầy đủ vì không thể sử dụng cánh tay bị mắc kẹt để thoát hoặc phản công.",
+  "summary": "crucifix làm bất động một trong các cánh tay của đối thủ bằng cách kẹp nó vào giữa hai đùi của bạn, khiến họ chỉ còn một cánh tay để chống lại mọi đòn tấn công của bạn. Với cánh tay bị mắc kẹt, bạn có thể tấn công rear-naked choke (họ chỉ có một tay để phòng thủ), Armbar cánh tay bị mắc kẹt hoặc chuyển sang Back Control hoàn toàn. crucifix an toàn hơn Back Control đầy đủ vì không thể sử dụng cánh tay bị mắc kẹt để thoát hoặc phản công.",
   "whyItWorks": [
     "Việc kẹp cánh tay vào giữa hai đùi của bạn sẽ loại bỏ nó khỏi phương trình phòng thủ - đối thủ phải phòng thủ tất cả các đòn tấn công bằng một cánh tay",
     "crucifix có cấu trúc chắc chắn, chân của bạn khỏe hơn cánh tay của họ nên họ không thể kéo cánh tay ra khỏi cơ thể khi đùi bạn bị siết chặt",
@@ -91,7 +91,7 @@
     "Khi bước vào crucifix, hãy cẩn thận để không duỗi đầu gối của bạn quá mức so với cánh tay của họ"
   ],
   "systemLogic": {
-    "corePrinciple": "crucifix có ba nhánh tấn công: rear-naked choke → Cánh tay bị mắc kẹt Armbar → Đầy đủ back control",
+    "corePrinciple": "crucifix có ba nhánh tấn công: rear-naked choke → Cánh tay bị mắc kẹt Armbar → Đầy đủ Back Control",
     "decisionTree": [
       {
         "condition": "Sử dụng Nhánh 1 (Tấn công bằng cánh tay)",
@@ -102,8 +102,8 @@
         "action": "nếu cánh tay bị chặn hoặc họ đang đối mặt với bạn, hãy tấn công vào cổ. Vị trí crucifix cho phép bạn truy cập dễ dàng vào RNC từ bên cạnh"
       },
       {
-        "condition": "Sử dụng Nhánh 3 (back control)",
-        "action": "nếu họ quay về phía bạn để phòng thủ, hãy thả crucifix và trượt một cú móc vào để lấy toàn bộ back control. crucifix là vị trí chuyển tiếp về phía sau"
+        "condition": "Sử dụng Nhánh 3 (Back Control)",
+        "action": "nếu họ quay về phía bạn để phòng thủ, hãy thả crucifix và trượt một cú móc vào để lấy toàn bộ Back Control. crucifix là vị trí chuyển tiếp về phía sau"
       },
       {
         "condition": "Ứng dụng chung",
@@ -119,7 +119,7 @@
   ],
   "fixItFast": [
     "Nếu họ bảo vệ RNC: hãy chuyển sang Armbar ngay lập tức, đừng cố gắng vì bị sặc",
-    "Nếu họ giải phóng cánh tay bị mắc kẹt: quay lại back control hoặc Mount, không ép buộc mục nhập crucifix",
+    "Nếu họ giải phóng cánh tay bị mắc kẹt: quay lại Back Control hoặc Mount, không ép buộc mục nhập crucifix",
     "Nếu bạn đang ở crucifix và bị mất vị trí: thả chân ra và trở về vị trí trung lập"
   ]
 }

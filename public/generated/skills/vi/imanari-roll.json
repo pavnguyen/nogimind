@@ -1,0 +1,146 @@
+{
+  "id": "imanari-roll",
+  "domain": "guard_offense",
+  "level": "advanced",
+  "status": "draft",
+  "name": "Imanari Roll",
+  "aliases": [
+    "rolling leg lock entry",
+    "Imanari entry",
+    "rolling ashi entry"
+  ],
+  "tags": [
+    "tier:modern-expansion",
+    "meta:modern-common",
+    "risk:high",
+    "family:leg_lock",
+    "group:leg-lock",
+    "modern-no-gi"
+  ],
+  "keywords": [
+    "Imanari roll",
+    "rolling entry",
+    "leg entanglement",
+    "ashi garami",
+    "50/50",
+    "outside ashi"
+  ],
+  "modernSystemGroup": "leg_lock",
+  "relatedSkills": [
+    {
+      "id": "single-leg-x-control",
+      "type": "supporting"
+    },
+    {
+      "id": "k-guard-to-outside-ashi",
+      "type": "chain"
+    },
+    {
+      "id": "inside-outside-heel-hook",
+      "type": "chain"
+    },
+    {
+      "id": "kani-basami-safety",
+      "type": "alternative"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [
+    "single-leg-x",
+    "outside-ashi",
+    "saddle-inside-sankaku"
+  ],
+  "relatedPositionIds": [],
+  "relatedConcepts": [
+    "inside-position",
+    "knee-line",
+    "angle-creation",
+    "leg-lock-safety-hierarchy"
+  ],
+  "relatedConceptIds": [],
+  "archetypeIds": [
+    "leg-lock-safety-first"
+  ],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "leg-lock-safety-basics",
+    "single-leg-x-basics"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [
+    "Nếu họ lùi và chân ra khỏi tầm với: đừng lao, đứng lên và vào lại",
+    "Nếu cú lăn khựng nửa đường: chống tay và lăn cho hết thay vì ngồi dậy",
+    "Nếu họ sprawl đè lên trên: xoay người sang một bên và phục hồi Guard thay vì đuổi theo chân"
+  ],
+  "version": 1,
+  "updatedAt": "2026-10-10T00:00:00.000Z",
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "vi",
+  "description": "Imanari Roll là lối vào leg entanglement bằng một cú lăn người. Bạn lao tới chân gần của đối thủ, để đà lăn đưa chân sau luồn qua khe sau gối họ, rồi ngồi dậy trong thế đã khóa được leg entanglement thay vì phải đứng lên giành lấy nó.",
+  "shortInstruction": "Gỡ tay họ, lao vào chân gần, lăn qua vai cùng bên để chân sau luồn ra sau gối họ, rồi ngồi dậy vào leg entanglement.",
+  "summary": "Imanari Roll biến một pha đứng thành leg entanglement trong một động tác. Cú lăn làm luôn phần che khoảng cách: bạn nhắm vào chân gần, lăn qua vai cùng bên và luồn chân sau ra sau gối họ, nên đà lăn đưa bạn vào ashi garami thay vì nằm ngửa.",
+  "whyItWorks": [
+    "Cú lăn che khoảng cách tới chân trong một nhịp, nên họ không kịp lùi để đưa chân ra khỏi tầm với",
+    "Lăn qua vai cùng bên giữ đầu bạn tránh khỏi hông họ và đưa chân sau thẳng hàng với khe sau gối họ",
+    "Trọng lượng của họ đang đi ra xa, cú lăn dùng luôn hướng đó thay vì chống lại",
+    "Bạn kết thúc ở dưới trong leg entanglement, mạnh hơn tư thế Guard mà bạn bắt đầu"
+  ],
+  "commonMistakes": [
+    "Lăn thẳng qua đầu và cổ thay vì qua vai cùng bên, động tác bị khựng và đầu bạn nằm dưới hông họ",
+    "Lao vào khi chưa chạm được vào chân, cú lăn kết thúc bằng việc bạn nằm ngửa và không có entanglement",
+    "Lăn vượt qua chân, lối vào phải nhắm vào chân gần chứ không phải khoảng trống bên cạnh",
+    "Dừng nửa đường rồi cố ngồi dậy, họ sẽ sprawl và vòng ra sau lưng bạn"
+  ],
+  "coachingCues": [
+    "Nhắm vào chân gần, không phải khoảng trống bên cạnh",
+    "Vai trước, không bao giờ để đầu",
+    "Chân sau luồn ra sau gối, phần còn lại là đà lăn",
+    "Lăn cho hết, đáp xuống là đã khóa, rồi ngồi dậy vào entanglement"
+  ],
+  "safetySummary": [
+    "Tập cú lăn trên thảm với người biết trước, lối vào này đưa bạn xuống dưới họ",
+    "Vào được thế rồi thì đừng siết, cú lăn chỉ là lối vào, đòn kết thúc là kỹ năng khác",
+    "Học quy tắc Knee Line và heel exposure trước khi dùng lối vào này khi sparring, xem Leg Lock Safety Basics"
+  ],
+  "systemLogic": {
+    "corePrinciple": "Imanari Roll: chạm được chân gần, lao vào và lăn qua vai cùng bên, luồn chân sau ra sau gối họ, ngồi dậy vào ashi garami, rồi leo lên entanglement bạn muốn.",
+    "decisionTree": [
+      {
+        "condition": "Họ lùi và chân gần ra khỏi tầm với",
+        "action": "đừng lao, đứng lên và vào lại"
+      },
+      {
+        "condition": "Chân gần vào tầm và trọng lượng họ đang đi ra xa",
+        "action": "lao vào và lăn qua vai cùng bên"
+      },
+      {
+        "condition": "Họ sprawl và đè hông xuống trong lúc bạn lăn",
+        "action": "xoay người sang một bên và phục hồi Guard"
+      }
+    ],
+    "exitStrategies": [
+      "Nếu bạn lỡ chân, đứng lên thay vì nằm lại dưới thảm",
+      "Nếu họ sprawl và đè bẹp, phục hồi Guard rồi tấn công entanglement lại từ đó"
+    ]
+  },
+  "moneyDetails": [
+    "Lối vào này mang tên Masakazu Imanari, người biến đòn lăn vào chân thành dấu hiệu nhận biết trong lối đánh của mình",
+    "Cú lăn là cách rút ngắn khoảng cách: nó thay cả phần hand fight và bước vào bằng một động tác",
+    "Nhắm cú lăn hơi chếch ngang qua người, lăn thẳng qua đầu sẽ đáp xuống bên cạnh chân thay vì lên chân"
+  ],
+  "fixItFast": [
+    "Nếu lăn xong mà đáp bên cạnh chân: đứng lên, reset thế đứng và canh lại nhịp bước của họ",
+    "Nếu đầu bị kẹt dưới hông họ: xoay sang một bên và phục hồi Guard, đừng nằm phẳng",
+    "Nếu họ đứng dậy thoát entanglement: vào lại hoặc phục hồi Guard, đừng giữ thế từ xa"
+  ]
+}

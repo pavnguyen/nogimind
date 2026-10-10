@@ -3,13 +3,13 @@
   "locale": "fr",
   "name": "Starter nu arrière",
   "shortName": "RNC",
-  "description": "Le pourcentage de soumission le plus élevé en BJJ. Un étranglement sanguin de back control qui coupe les deux artères carotides en positionnant l'avant-bras sur un côté du cou et en fermant l'autre côté avec une pression sur la poitrine et les épaules.",
+  "description": "Le pourcentage de soumission le plus élevé en BJJ. Un étranglement sanguin de Back Control qui coupe les deux artères carotides en positionnant l'avant-bras sur un côté du cou et en fermant l'autre côté avec une pression sur la poitrine et les épaules.",
   "shortInstruction": "Coude sous menton, poitrine collée au dos, retirer le mou, puis presser.",
-  "summary": "L'étranglement sanguin No-Gi le plus fondamental de back control : maîtrisez le combat à la main, la ligne de coude et la connexion poitrine-dos.",
+  "summary": "L'étranglement sanguin No-Gi le plus fondamental de Back Control : maîtrisez le combat à la main, la ligne de coude et la connexion poitrine-dos.",
   "whyItWorks": [
     "Coupe les deux artères carotides lorsque l'avant-bras étouffant et l'épaule de l'adversaire ferment les deux lignes du cou.",
     "Nécessite une force minimale lorsque la structure est correcte : l'effet de levier remplace la force.",
-    "Crée un dilemme entre protéger le cou et échapper à back control."
+    "Crée un dilemme entre protéger le cou et échapper à Back Control."
   ],
   "commonMistakes": [
     "Presser les bras avant que le coude ne soit sous le menton.",
@@ -24,7 +24,7 @@
     "Détendez-vous, serrez-vous."
   ],
   "oneMinuteMode": {
-    "goal": "Terminez le RNC à partir du back control avec une structure propre.",
+    "goal": "Terminez le RNC à partir du Back Control avec une structure propre.",
     "steps": [
       "Verrouillez seatbelt et collez le coffre sur leur dos.",
       "Gagnez le combat à main levée – retirez leur main défensive du cou.",
@@ -44,7 +44,7 @@
     "Si votre main se décolle, passez à un combat à main levée près de la tête."
   ],
   "systemLogic": {
-    "corePrinciple": "back control est la plate-forme, pas l'arrivée. Chaque étape – seatbelt, combat à main, ligne de coude, suppression du mou – doit être effectuée dans l'ordre avant de serrer.",
+    "corePrinciple": "Back Control est la plate-forme, pas l'arrivée. Chaque étape – seatbelt, combat à main, ligne de coude, suppression du mou – doit être effectuée dans l'ordre avant de serrer.",
     "decisionTree": [
       {
         "condition": "Une main défend la ligne du cou",

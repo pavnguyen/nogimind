@@ -49,9 +49,9 @@
     "hasStateMachine": false
   },
   "locale": "en",
-  "description": "A priority map for knowing when to survive, escape, sweep, pass, pin, or finish. The positional hierarchy is the decision-making framework that separates chaotic grappling from systematic BJJ.",
-  "shortInstruction": "Ranking from worst to best: back taken → mounted → Side Control → knee on belly → Guard bottom → Half Guard top → Side Control top → Mount → back taken (you on top). Always know where you are on the hierarchy and what your objective is.",
-  "summary": "The positional hierarchy ranks grappling positions from most vulnerable to most dominant. The system dictates your tactical objective at every position: if you are in a bottom position (worse), your goal is to escape. If you are in a top position (better), your goal is to advance or submit. Every decision you make should be filtered through this hierarchy, do not attempt a submission from a position where you do not have positional dominance first.",
+  "description": "A priority map for knowing when to survive, escape, sweep, pass, pin, or finish. The Positional Hierarchy is the decision-making framework that separates chaotic grappling from systematic BJJ.",
+  "shortInstruction": "Ranking from worst to best: back taken → mounted → Side Control → Knee On Belly → Guard bottom → Half Guard top → Side Control Top → Mount → back taken (you on top). Always know where you are on the hierarchy and what your objective is.",
+  "summary": "The Positional Hierarchy ranks grappling positions from most vulnerable to most dominant. The system dictates your tactical objective at every position: if you are in a bottom position (worse), your goal is to escape. If you are in a top position (better), your goal is to advance or submit. Every decision you make should be filtered through this hierarchy, do not attempt a submission from a position where you do not have positional dominance first.",
   "whyItWorks": [
     "The hierarchy gives you a clear objective at every moment, there is no confusion about what to do next",
     "Attempting submissions from inferior positions against skilled opponents fails at a high rate, the hierarchy tells you when submissions are viable and when to prioritize escape",
@@ -60,7 +60,7 @@
   ],
   "commonMistakes": [
     "Attempting submissions from Guard bottom when you should be sweeping or escaping first",
-    "Trying to pass Guard when you are in Half Guard bottom, your objective at Half Guard bottom is to escape to neutral or Guard, not to pass",
+    "Trying to pass Guard when you are in Half Guard Bottom, your objective at Half Guard Bottom is to escape to neutral or Guard, not to pass",
     "Accepting a worse position because you are trying a low-percentage submission (e.g., giving up Mount to try a Kimura from bottom)",
     "Not recognizing when the hierarchy shifts, a transition that moves you up one level is more valuable than a submission attempt that will likely fail"
   ],
@@ -76,7 +76,7 @@
     "When you are in a clearly inferior position, prioritize breathing and survival before attempting the escape, panic movements increase injury risk"
   ],
   "systemLogic": {
-    "corePrinciple": "The positional hierarchy ranks grappling positions from most vulnerable (back taken) to most dominant (submission). Your tactical objective at every position is determined by your place on the hierarchy: below opponent = escape up, above opponent = advance forward.",
+    "corePrinciple": "The Positional Hierarchy ranks grappling positions from most vulnerable (back taken) to most dominant (submission). Your tactical objective at every position is determined by your place on the hierarchy: below opponent = escape up, above opponent = advance forward.",
     "decisionTree": [
       {
         "condition": "You are in bottom Side Control, Mount, or back taken",
@@ -106,13 +106,13 @@
     ]
   },
   "moneyDetails": [
-    "The positional hierarchy is the single most important conceptual framework in BJJ, it tells you what to do at every moment of the match",
+    "The Positional Hierarchy is the single most important conceptual framework in BJJ, it tells you what to do at every moment of the match",
     "Competition BJJ is won by advancing up the hierarchy faster and more consistently than the opponent",
     "Understanding the hierarchy prevents the most common mistake in BJJ: attempting submissions before establishing positional control",
     "The hierarchy is why Gracie jiu-jitsu emphasizes positional dominance before submissions, it has been tested for a century"
   ],
   "fixItFast": [
-    "If you are in a bad position and not sure what to do: check the hierarchy. You are in bottom Side Control, your goal is Side Control escape, not a submission",
+    "If you are in a bad position and not sure what to do: check the hierarchy. You are in bottom Side Control, your goal is Side Control Escape, not a submission",
     "If you have top position and cannot submit: advance up the hierarchy. Side Control → Mount → back Mount creates exponentially higher submission probability",
     "If you keep getting reversed: you are skipping the 'secure position' step. After advancing a level, spend 2-3 seconds stabilizing before moving to the next level"
   ]

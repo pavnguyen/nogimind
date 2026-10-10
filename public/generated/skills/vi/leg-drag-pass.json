@@ -3,7 +3,7 @@
   "domain": "guard_offense",
   "level": "intermediate",
   "status": "draft",
-  "name": "Đèo kéo chân",
+  "name": "Leg Drag Pass",
   "aliases": [],
   "tags": [
     "leg-drag",
@@ -66,7 +66,7 @@
   "locale": "vi",
   "description": "Kéo chân gần của đối phương qua hông của bạn để cắt góc và cố định Side Control, lưng Mount hoặc vướng vào chân.",
   "shortInstruction": "Nắm lấy mắt cá chân, kéo ngang hông, cắt góc, cố định ghim.",
-  "summary": "Đường chuyền kéo chân là một trong những đường chuyền Guard hiệu quả nhất trong No-Gi hiện đại. Bằng cách kiểm soát mắt cá chân gần của đối phương và kéo nó qua hông của chính mình, bạn cắt một góc nhọn để loại bỏ Guard của họ và để lộ lưng hoặc hông của họ. Lực kéo bằng chân có tác dụng với hầu hết mọi open Guard (DLR, RDLR, nhện, Seated Guard) và cho phép bạn truy cập ngay vào các vị trí hàng đầu thống trị.",
+  "summary": "Đường chuyền kéo chân là một trong những đường chuyền Guard hiệu quả nhất trong No-Gi hiện đại. Bằng cách kiểm soát mắt cá chân gần của đối phương và kéo nó qua hông của chính mình, bạn cắt một góc nhọn để loại bỏ Guard của họ và để lộ lưng hoặc hông của họ. Lực kéo bằng chân có tác dụng với hầu hết mọi Open Guard (DLR, RDLR, nhện, Seated Guard) và cho phép bạn truy cập ngay vào các vị trí hàng đầu thống trị.",
   "whyItWorks": [
     "Kéo chân của họ qua hông bạn sẽ làm thay đổi góc Guard của họ, chân của họ không còn có thể bám vào hông bạn nữa.",
     "Hông của bạn trở thành điểm tựa: khi chân của họ đặt ngang hông bạn, họ không thể tái-Guard nếu không nhấc chân của mình lên.",
@@ -91,7 +91,7 @@
     "Khi ghim sau khi kéo, hãy bảo vệ đầu gối của bạn khỏi chân còn lại của họ."
   ],
   "systemLogic": {
-    "corePrinciple": "Xác định open Guard (DLR, RDLR, ngồi) → kiểm soát mắt cá chân gần → kéo chân của họ qua hông bạn → cắt góc → ghim vào Side Control hoặc thu về phía sau.",
+    "corePrinciple": "Xác định Open Guard (DLR, RDLR, ngồi) → kiểm soát mắt cá chân gần → kéo chân của họ qua hông bạn → cắt góc → ghim vào Side Control hoặc thu về phía sau.",
     "decisionTree": [
       {
         "condition": "Ứng dụng chung",

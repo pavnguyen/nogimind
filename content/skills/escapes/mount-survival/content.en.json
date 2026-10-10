@@ -4,7 +4,7 @@
   "name": "Mount Survival",
   "description": "Protect neck, elbows, and hips when the opponent mounts and starts separating your arms. Survival in Mount is a race against time, the longer they settle, the harder the escape.",
   "shortInstruction": "Keep elbows tight to ribs, frame on the hips, bridge to off-balance before they settle, and never let them isolate your arms above your head.",
-  "summary": "Mount survival requires preventing the opponent from establishing high Mount by managing three attack lanes: the arm isolation lane (elbows flared = Armbar or shoulder attacks), the neck lane (elbows high = collar choke or crossface), and the hip lane (knees high = high Mount progression). Survival is active, not passive, small adjustments and well-timed bumps prevent the opponent from settling their weight.",
+  "summary": "Mount Survival requires preventing the opponent from establishing high Mount by managing three attack lanes: the arm isolation lane (elbows flared = Armbar or shoulder attacks), the neck lane (elbows high = collar choke or crossface), and the hip lane (knees high = high Mount progression). Survival is active, not passive, small adjustments and well-timed bumps prevent the opponent from settling their weight.",
   "whyItWorks": [
     "Keeping elbows tight to the ribs prevents the opponent from dragging your arms above your head for Armbar entries",
     "Small, well-timed bridges (bumps) prevent the opponent from settling their full weight, constantly forcing them to re-adjust their base",
@@ -30,7 +30,7 @@
     "Crossface pressure from Mount can strain the neck, always turn your head toward the mat when pressure comes"
   ],
   "systemLogic": {
-    "corePrinciple": "Mount survival follows a three-attack-lane defense system: protect the arm lane (elbows to ribs), the hip lane (knees below your armpits), and the neck lane (forearm frame). Active survival with small bumps prevents them from settling their weight.",
+    "corePrinciple": "Mount Survival follows a three-attack-lane defense system: protect the arm lane (elbows to ribs), the hip lane (knees below your armpits), and the neck lane (forearm frame). Active survival with small bumps prevents them from settling their weight.",
     "decisionTree": [
       {
         "condition": "Opponent grips your sleeve and pulls to isolate your arm",
@@ -56,11 +56,11 @@
     "exitStrategies": [
       "If they achieve high Mount (knees at armpits), bridge hard to one side, trap their far foot with your hand, and roll them into Guard recovery.",
       "If the arm is already isolated above your head, tap before they can hyperextend the elbow, do not bridge with an isolated arm.",
-      "If Mount survival is failing, prioritize the arm lane defense: keeping elbows tight prevents the most dangerous attack (Armbar)."
+      "If Mount Survival is failing, prioritize the arm lane defense: keeping elbows tight prevents the most dangerous attack (Armbar)."
     ]
   },
   "moneyDetails": [
-    "Mount survival is a high-leverage skill, surviving 10 seconds in Mount often forces the opponent to over-commit and lose position",
+    "Mount Survival is a high-leverage skill, surviving 10 seconds in Mount often forces the opponent to over-commit and lose position",
     "A calm survival approach in Mount is more intimidating to opponents than explosive escapes because it shows composure under pressure",
     "Competition Mount escapes are worth one point, surviving Mount and escaping to Half Guard or Guard is a massive psychological shift"
   ],

@@ -1,7 +1,7 @@
 {
   "id": "wrestling-up-from-guard",
   "locale": "vi",
-  "name": "Đấu tranh từ Guard",
+  "name": "Wrestling Up from Guard",
   "description": "wrestle up từ tư thế ngồi hoặc Butterfly Guard sử dụng ống chân tới ống chân, 2 chọi 1 hoặc underhook để chuyển sang một chân hoặc Front Headlock. Đấu vật là bước chuyển tiếp tấn công chính từ Guard, nó chuyển vị trí cuối bảng thành cơ hội hạ gục.",
   "shortInstruction": "Từ chỗ Seated Guard, giành chiến thắng underhook hoặc 2 đấu 1, tạo góc hông, đặt chân ngoài của bạn và lái sang một chặng. Nếu một chặng bị chặn, hãy chuyển sang Front Headlock hoặc quay lại.",
   "summary": "Đấu vật từ Guard biến Guard từ thế phòng thủ thành một đòn tấn công hạ gục. Trình tự này sử dụng underhook, shin-to-shin hoặc 2 chọi 1 để kiểm soát phần thân trên của đối thủ khi bạn đứng. Từ tư thế đứng, bạn kết thúc bằng một chân, khóa cơ thể hoặc Front Headlock. Đấu vật là cốt lõi của hệ thống No-Gi Guard hiện đại, mỗi người chơi Guard đang ngồi phải có một kỹ thuật vật đáng tin cậy để ngăn đối thủ đứng và vượt qua.",
@@ -38,7 +38,7 @@
     "decisionTree": [
       {
         "condition": "Sử dụng Mục 1 (underhook)",
-        "action": "từ chỗ Seated Guard, pummeling mạnh vào underhook ở một bên. Mặt khác của bạn trụ trên tấm thảm. Khi bạn đứng, underhook ngăn họ sprawl rơi xuống. Kết thúc bằng đòn khóa một chân hoặc khóa thân"
+        "action": "từ chỗ Seated Guard, Pummeling mạnh vào underhook ở một bên. Mặt khác của bạn trụ trên tấm thảm. Khi bạn đứng, underhook ngăn họ sprawl rơi xuống. Kết thúc bằng đòn khóa một chân hoặc khóa thân"
       },
       {
         "condition": "Sử dụng Mục 2 (Shin-to-Shin)",

@@ -103,7 +103,7 @@
       },
       {
         "condition": "General application",
-        "action": "If they deny the octopus entry, transition to seated Guard or deep half."
+        "action": "If they deny the octopus entry, transition to Seated Guard or deep half."
       }
     ],
     "exitStrategies": []
@@ -114,10 +114,10 @@
     "Keep your head on the far side of their body to avoid crossfaces.",
     "When you feel them shift their weight forward, pull the far hip across your body for the sweep."
   ],
-  "nextStep": "After octopus Guard control, learn the octopus Guard sweep and Back Take.",
+  "nextStep": "After Octopus Guard Control, learn the Octopus Guard Sweep and Back Take.",
   "fixItFast": [
     "They spin out? Re-establish the far-hip wrap before they square up.",
     "They crossface you? Sit deeper to the side, get your head off the center line.",
-    "They pass your leg frame? Switch to deep Half Guard immediately."
+    "They pass your leg frame? Switch to Deep Half Guard immediately."
   ]
 }

@@ -4,7 +4,7 @@
     "title": "Neutral Standing",
     "category": "standing",
     "status": "neutral",
-    "description": "Both players are standing, and neither has clearly won the grip, head position, or attacking angle."
+    "description": "Both players are standing, and neither has clearly won the grip, Head Position, or attacking angle."
   },
   {
     "id": "hand-fighting-position",
@@ -39,7 +39,7 @@
     "title": "Seated Guard",
     "category": "bottom_guard",
     "status": "defensive",
-    "description": "The Guard player sits with shin frames, hand fighting, and wrestle-up or Guard-entry threats."
+    "description": "The Guard player sits with shin frames, Hand Fighting, and wrestle-up or Guard-entry threats."
   },
   {
     "id": "supine-guard",
@@ -81,21 +81,21 @@
     "title": "Mount Bottom",
     "category": "pin",
     "status": "critical",
-    "description": "The bottom player is mounted and must protect the neck and arms while recovering the elbow-knee connection before high Mount develops."
+    "description": "The bottom player is mounted and must protect the neck and arms while recovering the Elbow-Knee Connection before high Mount develops."
   },
   {
     "id": "back-control-position",
     "title": "Back Control",
     "category": "back",
     "status": "dominant",
-    "description": "The attacker keeps chest-to-back connection, a seatbelt, and hooks or a body triangle to create strangle dilemmas."
+    "description": "The attacker keeps chest-to-back connection, a seatbelt, and hooks or a Body Triangle to create strangle dilemmas."
   },
   {
     "id": "back-escape-position",
     "title": "Back Escape Position",
     "category": "back",
     "status": "dangerous",
-    "description": "The defender is escaping back control through hand fighting, shoulder-to-mat positioning, and hook clearing."
+    "description": "The defender is escaping Back Control through Hand Fighting, shoulder-to-mat positioning, and hook clearing."
   },
   {
     "id": "headquarters-top",
@@ -116,14 +116,14 @@
     "title": "Body Lock Passing Position",
     "category": "top_control",
     "status": "advantage",
-    "description": "The top player locks low around the Guard player’s hips with chest-to-hip connection to clear the knee line."
+    "description": "The top player locks low around the Guard player’s hips with chest-to-hip connection to clear the Knee Line."
   },
   {
     "id": "turtle-top",
     "title": "Turtle Top",
     "category": "turtle",
     "status": "advantage",
-    "description": "The top player rides turtle, hunting wrist control, hip pressure, mat returns, or back exposure."
+    "description": "The top player rides turtle, hunting wrist control, hip pressure, Mat Returns, or back exposure."
   },
   {
     "id": "turtle-bottom",
@@ -155,7 +155,7 @@
   },
   {
     "id": "north-south",
-    "title": "North South",
+    "title": "North-South",
     "category": "pin",
     "status": "dominant",
     "description": "The top player lies reverse from the head side, controlling chest-to-chest or chest-to-back with shoulder pressure."
@@ -176,21 +176,21 @@
   },
   {
     "id": "x-guard-position",
-    "title": "X-Guard",
+    "title": "X Guard",
     "category": "bottom_guard",
     "status": "neutral",
     "description": "X-Guard uses foot on hip and leg wrap to off-balance and sweep from bottom, controlling the passer hip line."
   },
   {
     "id": "z-guard",
-    "title": "Z-Guard (93 Guard)",
+    "title": "Z Guard (93 Guard)",
     "category": "bottom_guard",
     "status": "defensive",
     "description": "Z-Guard is a deep knee-shield Half Guard using the shin and underhook to block crossface and set up wrestle-ups."
   },
   {
     "id": "k-guard-position",
-    "title": "K-Guard",
+    "title": "K Guard",
     "category": "bottom_guard",
     "status": "neutral",
     "description": "K-Guard controls one of the opponent legs with a shin frame and foot hook, creating angles into matrix, leg locks, or back takes."
@@ -221,14 +221,14 @@
     "title": "Saddle / Inside Sankaku",
     "category": "leg_entanglement",
     "status": "critical",
-    "description": "A strong leg entanglement around the hip line and knee line, often carrying heel-hook danger when the heel is exposed."
+    "description": "A strong leg entanglement around the hip line and Knee Line, often carrying heel-hook danger when the heel is exposed."
   },
   {
     "id": "backside-50-50",
     "title": "Backside 50/50",
     "category": "leg_entanglement",
     "status": "dangerous",
-    "description": "A leg entanglement from behind where the attacker controls both the hip line and knee line, creating dangerous heel exposure from the rear."
+    "description": "A leg entanglement from behind where the attacker controls both the hip line and Knee Line, creating dangerous heel exposure from the rear."
   },
   {
     "id": "dogfight",
@@ -242,7 +242,7 @@
     "title": "Scramble Neutral",
     "category": "scramble",
     "status": "neutral",
-    "description": "A transitional moment where neither player has clear control yet; the priorities are head position, hip control, inside position, and safety."
+    "description": "A transitional moment where neither player has clear control yet; the priorities are Head Position, hip control, Inside Position, and safety."
   },
   {
     "id": "crab-ride-position",
@@ -277,6 +277,6 @@
     "title": "Rear Naked Choke Threat",
     "category": "submission_threat",
     "status": "critical",
-    "description": "The attacker from back control is opening a path under the chin through hand fighting and chest-to-back connection."
+    "description": "The attacker from Back Control is opening a path under the chin through Hand Fighting and chest-to-back connection."
   }
 ]

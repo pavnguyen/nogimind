@@ -5,7 +5,8 @@
   "relatedSkillIds": [
     "single-leg-x-basics",
     "straight-ankle-lock-safety",
-    "technical-stand-up"
+    "technical-stand-up",
+    "imanari-roll"
   ],
   "relatedConceptIds": [
     "knee-line",
@@ -16,28 +17,28 @@
   "title": "Single Leg X",
   "description": "The Guard player controls one leg and the hip line to sweep, stand up, or enter ashi.",
   "topPlayerGoals": [
-    "The top player wants to control Single Leg X through head position, inside position, and directed pressure.",
-    "Clear the foot line and knee line while keeping base.",
+    "The top player wants to control Single Leg X through Head Position, Inside Position, and directed pressure.",
+    "Clear the foot line and Knee Line while keeping base.",
     "Keep a stable base so you are not off-balanced or countered."
   ],
   "bottomPlayerGoals": [
-    "The bottom player wants to survive Single Leg X with frames, pummeling, or the right angle.",
-    "Create an off-balance, protect the knee line, and sweep before chasing a submission.",
+    "The bottom player wants to survive Single Leg X with frames, Pummeling, or the right angle.",
+    "Create an off-balance, protect the Knee Line, and sweep before chasing a submission.",
     "Recognize danger signals early instead of waiting for the position to settle."
   ],
   "controlPoints": [
-    "Main control point: Knee line, foot placement, and hip lift.",
+    "Main control point: Knee Line, foot placement, and hip lift.",
     "Head, hands, hips, and knees should share the same force direction.",
-    "The elbow-knee connection or hip-shoulder line determines whether the position is still alive or already locked."
+    "The Elbow-Knee Connection or hip-shoulder line determines whether the position is still alive or already locked."
   ],
   "escapePriorities": [
     "Escape priority: Do not expose the heel while transitioning through leg entanglements.",
-    "Protect the neck, back, knee line, or arm line before countering.",
-    "If inside position is lost, reset one defensive layer first."
+    "Protect the neck, back, Knee Line, or arm line before countering.",
+    "If Inside Position is lost, reset one defensive layer first."
   ],
   "advancementOptions": [
     {
-      "action": "Transition to outside ashi or technical stand-up",
+      "action": "Transition to Outside Ashi or Technical Stand-Up",
       "nextPositionId": "outside-ashi",
       "relatedSkillIds": [
         "single-leg-x-basics",

@@ -4,7 +4,7 @@
   "name": "Entrée tibia à tibia",
   "description": "Utilisez la connexion tibia à tibia pour déséquilibrer l'adversaire, entrez X sur une seule jambe (SLX) ou wrestle up lorsqu'il réagit à la pression.",
   "shortInstruction": "Tibia sur son tibia, déséquilibré, entrez SLX ou wrestle up, le chemin le plus court vers X sur une seule jambe.",
-  "summary": "Shin-to-shin est l'entrée open Guard la plus proche dans No-Gi. En plaçant votre tibia contre son tibia et en contrôlant sa manche ou sa cheville, vous créez une connexion directe qui vous permet de ressentir chaque transfert de poids. Lorsqu'ils s'engagent en avant, vous déséquilibrez et faites glisser vos hanches vers le bas, entrant en X sur une seule jambe. Lorsqu'ils reculent, vous vous levez et wrestle up. Shin-to-shin est le pont entre le Guard assis et le système d'enchevêtrement des jambes.",
+  "summary": "Shin-to-shin est l'entrée Open Guard la plus proche dans No-Gi. En plaçant votre tibia contre son tibia et en contrôlant sa manche ou sa cheville, vous créez une connexion directe qui vous permet de ressentir chaque transfert de poids. Lorsqu'ils s'engagent en avant, vous déséquilibrez et faites glisser vos hanches vers le bas, entrant en X sur une seule jambe. Lorsqu'ils reculent, vous vous levez et wrestle up. Shin-to-shin est le pont entre le Guard assis et le système d'enchevêtrement des jambes.",
   "whyItWorks": [
     "La connexion tibia à tibia est la distance la plus courte entre vous et leur base : vous ressentez leur poids instantanément.",
     "Il ne nécessite aucune prise autre qu’une manche ou une cheville – un minimum de mise en place, un retour maximum.",
@@ -38,7 +38,7 @@
     "decisionTree": [
       {
         "condition": "Application générale",
-        "action": "S'ils reculent : étendez votre tibia et entrez single leg x ou X-Guard. S'ils restent proches : gardez la connexion du tibia et balayez ou entrez K-Guard"
+        "action": "S'ils reculent : étendez votre tibia et entrez Single Leg X ou X-Guard. S'ils restent proches : gardez la connexion du tibia et balayez ou entrez K-Guard"
       },
       {
         "condition": "Application générale",

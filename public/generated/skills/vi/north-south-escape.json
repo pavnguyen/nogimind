@@ -3,7 +3,7 @@
   "domain": "escapes",
   "level": "intermediate",
   "status": "draft",
-  "name": "North-South Control thoát hiểm",
+  "name": "North-South Escape",
   "aliases": [
     "north-south pin escape",
     "north-south Guard recovery"
@@ -62,20 +62,20 @@
     "hasStateMachine": false
   },
   "locale": "vi",
-  "description": "Thoát khỏi vị trí north-south bằng cách tạo khung, lao vào đối thủ và phục hồi Guard hoặc đứng lên.",
+  "description": "Thoát khỏi vị trí North-South bằng cách tạo khung, lao vào đối thủ và phục hồi Guard hoặc đứng lên.",
   "shortInstruction": "Đặt khung ở hông, chèn knee shield, quay về phía đối thủ và thu hồi Guard hoặc wrestle up.",
-  "summary": "north-south lối thoát sử dụng khung cẳng tay ở hông để tạo sự tách biệt, sau đó knee shield để biến thành đối thủ và hồi phục Guard. Hệ thống này khác với Side Control thoát vì trọng lượng của đối thủ được căn dọc theo đường tâm của bạn thay vì vuông góc với nó.",
+  "summary": "North-South lối thoát sử dụng khung cẳng tay ở hông để tạo sự tách biệt, sau đó knee shield để biến thành đối thủ và hồi phục Guard. Hệ thống này khác với Side Control thoát vì trọng lượng của đối thủ được căn dọc theo đường tâm của bạn thay vì vuông góc với nó.",
   "whyItWorks": [
-    "Chốt north-south nén thân dọc theo đường giữa, khung cẳng tay ở hông chuyển hướng trọng lượng của họ ra khỏi xương sườn của bạn",
+    "Chốt North-South nén thân dọc theo đường giữa, khung cẳng tay ở hông chuyển hướng trọng lượng của họ ra khỏi xương sườn của bạn",
     "Biến thành đối thủ (thay vì tránh xa) sử dụng cấu trúc xương mạnh nhất của bạn để chống lại áp lực từ ngực của họ",
     "knee shield tạo ra một rào cản cấu trúc ngăn họ thiết lập lại chốt sau khi bạn tạo khoảng trống",
-    "north-south là một vị trí chuyển tiếp, một lối thoát đúng lúc sẽ ngăn cản họ thiết lập nó như một chốt và buộc họ phải phục hồi về Side Control hoặc đứng lên"
+    "North-South là một vị trí chuyển tiếp, một lối thoát đúng lúc sẽ ngăn cản họ thiết lập nó như một chốt và buộc họ phải phục hồi về Side Control hoặc đứng lên"
   ],
   "commonMistakes": [
     "Cố gắng ép đối thủ từ tư thế nằm ngửa - điều này gây lãng phí năng lượng so với lợi thế về trọng lượng của họ",
     "Quay lưng lại với đối thủ (lộ lưng) thay vì lao vào họ bằng khung",
-    "Để đối thủ kẹp cánh tay gần của bạn vào giữa hai chân của họ - điều này sẽ gây ra hiện tượng nghẹt thở north-south",
-    "Chờ đợi quá lâu, north-south ngày càng trở nên căng thẳng khi đối thủ giảm trọng lượng và khóa cánh tay của họ dưới vai bạn"
+    "Để đối thủ kẹp cánh tay gần của bạn vào giữa hai chân của họ - điều này sẽ gây ra hiện tượng nghẹt thở North-South",
+    "Chờ đợi quá lâu, North-South ngày càng trở nên căng thẳng khi đối thủ giảm trọng lượng và khóa cánh tay của họ dưới vai bạn"
   ],
   "coachingCues": [
     "Khung ở hông, không phải ở ngực",
@@ -83,12 +83,12 @@
     "knee shield trước khi họ giải quyết"
   ],
   "safetySummary": [
-    "Cuộn cảm north-south có thể xuất hiện nhanh chóng, bảo vệ cổ của bạn bằng cách giữ cằm và gần cánh tay ngang ngực",
+    "Cuộn cảm North-South có thể xuất hiện nhanh chóng, bảo vệ cổ của bạn bằng cách giữ cằm và gần cánh tay ngang ngực",
     "Nếu đối phương giữ cánh tay của bạn bị kẹt giữa hai chân họ trong Kimura, hãy chạm sớm và đặt lại thay vì mạo hiểm gây tổn thương vai",
-    "north-south có thể gây ra chứng sợ bị nhốt, kiểm soát hơi thở của bạn và thực hiện trình tự thoát một cách bình tĩnh"
+    "North-South có thể gây ra chứng sợ bị nhốt, kiểm soát hơi thở của bạn và thực hiện trình tự thoát một cách bình tĩnh"
   ],
   "systemLogic": {
-    "corePrinciple": "Thao tác thoát north-south tuân theo trình tự bốn bước: khung → thoát hông → knee shield → xoay/hồi phục Guard",
+    "corePrinciple": "Thao tác thoát North-South tuân theo trình tự bốn bước: khung → thoát hông → knee shield → xoay/hồi phục Guard",
     "decisionTree": [
       {
         "condition": "Ứng dụng chung",
@@ -110,13 +110,13 @@
     "exitStrategies": []
   },
   "moneyDetails": [
-    "Những lần thoát north-south ít phổ biến hơn những lần thoát Side Control, việc thành thạo vị trí này khiến bạn trở thành một tay vật hoàn thiện hơn",
-    "Một pha thoát trơn tru north-south thường bắt được đối thủ Guard và dẫn trực tiếp đến một pha quét hoặc tận dụng cơ hội",
-    "Thoát khỏi north-south mà không xả khí sẽ bảo toàn năng lượng cho phần còn lại của trận đấu"
+    "Những lần thoát North-South ít phổ biến hơn những lần thoát Side Control, việc thành thạo vị trí này khiến bạn trở thành một tay vật hoàn thiện hơn",
+    "Một pha thoát trơn tru North-South thường bắt được đối thủ Guard và dẫn trực tiếp đến một pha quét hoặc tận dụng cơ hội",
+    "Thoát khỏi North-South mà không xả khí sẽ bảo toàn năng lượng cho phần còn lại của trận đấu"
   ],
   "fixItFast": [
-    "Nếu họ đã khóa cuộn cảm north-south: hãy bảo vệ cổ của bạn bằng cả hai tay, cầu để mất thăng bằng và bóc cánh tay bị nghẹt từ trong ra ngoài",
+    "Nếu họ đã khóa cuộn cảm North-South: hãy bảo vệ cổ của bạn bằng cả hai tay, cầu để mất thăng bằng và bóc cánh tay bị nghẹt từ trong ra ngoài",
     "Nếu họ kẹp cánh tay của bạn vào giữa hai chân họ: đừng giật nó ra - hãy xoay ngón tay cái của bạn lên và trượt cánh tay của bạn dọc theo đường đùi của họ",
-    "Nếu họ chuyển sang Kimura từ north-south: xoay ngón tay cái của bạn về phía hông và đưa tay sang hông đối diện trước khi họ có thể cách ly hoàn toàn cánh tay"
+    "Nếu họ chuyển sang Kimura từ North-South: xoay ngón tay cái của bạn về phía hông và đưa tay sang hông đối diện trước khi họ có thể cách ly hoàn toàn cánh tay"
   ]
 }

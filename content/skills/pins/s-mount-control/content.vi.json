@@ -1,7 +1,7 @@
 {
   "id": "s-mount-control",
   "locale": "vi",
-  "name": "s-Mount Kiểm soát",
+  "name": "S Mount Kiểm soát",
   "description": "s-Mount cô lập đường vai đối với các mối đe dọa Armbar, lùi lại hoặc Triangle. Đó là vị trí Mount mang tính tấn công nhất, từ đây, đối thủ phải phòng thủ đồng thời nhiều mối đe dọa khuất phục.",
   "shortInstruction": "Từ Mount, trượt một đầu gối lên nách họ và xoay hông về phía đầu họ. Giữ cánh tay gần giữa đùi của bạn và đầu của họ. Tấn công Armbar, Triangle hoặc lùi lại.",
   "summary": "s-Mount được tạo ra bằng cách trượt một đầu gối vào nách đối phương đồng thời xoay nhẹ ngực của bạn về phía đầu họ. Điều này đặt hông của bạn ngang qua đường vai của họ, cô lập một cánh tay và tạo ra tình huống khó xử giữa Armbar, Triangle và lùi lại. s-Mount là mã pin có giá trị cao nhất vì nó đe dọa trực tiếp đến việc gửi mà không yêu cầu chuyển đổi bổ sung.",
@@ -46,7 +46,7 @@
       },
       {
         "condition": "Sử dụng Đe dọa 3 (Quay lại)",
-        "action": "nếu họ quay đi để thoát khỏi Armbar hoặc Triangle, hãy tiếp xúc bằng hông và lùi lại. Vòng xoay s-Mount tự nhiên chuyển sang back control khi họ quay"
+        "action": "nếu họ quay đi để thoát khỏi Armbar hoặc Triangle, hãy tiếp xúc bằng hông và lùi lại. Vòng xoay s-Mount tự nhiên chuyển sang Back Control khi họ quay"
       },
       {
         "condition": "Kỹ thuật vào lệnh",
@@ -60,7 +60,7 @@
   },
   "moneyDetails": [
     "s-Mount là chốt tấn công mạnh nhất trong BJJ, từ đây, bạn kết thúc trận đấu chứ không phải dừng lại",
-    "s-Mount Armbar là mục nhập Armbar có tỷ lệ phần trăm cao nhất trong No-Gi vật",
+    "S-Mount Armbar là mục nhập Armbar có tỷ lệ phần trăm cao nhất trong No-Gi vật",
     "Việc nắm vững các quá trình chuyển đổi s-Mount sẽ tách biệt các trình grappler gửi khỏi các trình grappler vị trí"
   ],
   "fixItFast": [

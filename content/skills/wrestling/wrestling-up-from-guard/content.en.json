@@ -2,13 +2,13 @@
   "id": "wrestling-up-from-guard",
   "locale": "en",
   "name": "Wrestling Up from Guard",
-  "description": "Wrestle up from seated or butterfly Guard using shin-to-shin, 2-on-1, or underhook to convert to a single leg or Front Headlock. Wrestling up is the primary offensive transition from Guard, it converts bottom position into a takedown opportunity.",
-  "shortInstruction": "From seated Guard, win the underhook or 2-on-1, create a hip angle, post your outside foot, and drive to a single leg. If the single leg is blocked, transition to a Front Headlock or Back Take.",
-  "summary": "Wrestling up from Guard transforms Guard from a defensive position into an offensive takedown entry. The sequence uses either an underhook, shin-to-shin, or 2-on-1 to control the opponent's upper body while you stand. From standing, you finish with a single leg, Body Lock, or Front Headlock. Wrestling up is the core of the modern no-gi Guard system, every seated Guard player must have a reliable wrestle-up to prevent the opponent from standing and passing.",
+  "description": "Wrestle up from seated or Butterfly Guard using shin-to-shin, 2-on-1, or underhook to convert to a single leg or Front Headlock. Wrestling up is the primary offensive transition from Guard, it converts bottom position into a takedown opportunity.",
+  "shortInstruction": "From Seated Guard, win the underhook or 2-on-1, create a hip angle, post your outside foot, and drive to a single leg. If the single leg is blocked, transition to a Front Headlock or Back Take.",
+  "summary": "Wrestling Up from Guard transforms Guard from a defensive position into an offensive takedown entry. The sequence uses either an underhook, shin-to-shin, or 2-on-1 to control the opponent's upper body while you stand. From standing, you finish with a single leg, Body Lock, or Front Headlock. Wrestling up is the core of the modern no-gi Guard system, every Seated Guard player must have a reliable wrestle-up to prevent the opponent from standing and passing.",
   "whyItWorks": [
     "Wrestling up punishes the opponent for standing in your Guard, if they stand, you come up with them",
     "The underhook and 2-on-1 give you upper body control that prevents them from sprawling or crossfacing",
-    "Shin-to-shin entry prevents the opponent from stepping back when you stand, your shin blocks their leg",
+    "Shin-to-Shin Entry prevents the opponent from stepping back when you stand, your shin blocks their leg",
     "The wrestle-up creates a dilemma for the passer: they must either engage (and risk the sweep) or disengage (and give up the pass attempt)"
   ],
   "commonMistakes": [
@@ -26,7 +26,7 @@
   "safetySummary": [
     "Do not stand with a straight back, this exposes the Guillotine and gives up the underhook",
     "If the opponent sprawls as you stand, drop back to Guard rather than fighting the sprawl",
-    "Be careful of knee strain when posting from seated Guard, warm up properly"
+    "Be careful of knee strain when posting from Seated Guard, warm up properly"
   ],
   "keyCorrections": [
     "If they sprawl on the wrestle-up: drop back to Guard and try a different entry (shin-to-shin or 2-on-1)",
@@ -38,7 +38,7 @@
     "decisionTree": [
       {
         "condition": "Using Entry 1 (Underhook)",
-        "action": "from seated Guard, pummel for an underhook on one side. Your other hand posts on the mat. As you stand, the underhook prevents them from sprawling. Finish with a single leg or Body Lock"
+        "action": "from Seated Guard, pummel for an underhook on one side. Your other hand posts on the mat. As you stand, the underhook prevents them from sprawling. Finish with a single leg or Body Lock"
       },
       {
         "condition": "Using Entry 2 (Shin-to-Shin)",

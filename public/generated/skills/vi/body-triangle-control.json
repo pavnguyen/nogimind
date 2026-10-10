@@ -46,7 +46,7 @@
   "searchBoost": 1,
   "keyCorrections": [
     "Nếu họ bóc chân bạn: kéo đầu gối gần hơn và khóa lại ở vị trí thấp hơn",
-    "Nếu họ xoay mặt vào: bạn mất back control, giữ Body Triangle và kéo họ trở lại",
+    "Nếu họ xoay mặt vào: bạn mất Back Control, giữ Body Triangle và kéo họ trở lại",
     "Nếu họ chịu đựng nén tốt: tăng cường tay chiến đấu cho RNC"
   ],
   "version": 1,
@@ -62,7 +62,7 @@
   },
   "locale": "vi",
   "description": "Body Triangle sử dụng chân của bạn khóa quanh eo họ để kiểm soát hông và ngăn họ di chuyển. Nó nén cơ hoành và ngăn thoát hông.",
-  "shortInstruction": "Back control → trượt chân trên qua hông → khóa chân quanh eo (ống chân sau gối) → bóp để nén cơ hoành → tay chiến đấu cho RNC.",
+  "shortInstruction": "Back Control → trượt chân trên qua hông → khóa chân quanh eo (ống chân sau gối) → bóp để nén cơ hoành → tay chiến đấu cho RNC.",
   "summary": "Body Triangle khóa chân quanh eo đối thủ để kiểm soát hông và nén cơ hoành. Không giống móc chân, Body Triangle không thể bị bóc dễ dàng, nó là một cấu trúc khóa.",
   "whyItWorks": [
     "Khóa chân quanh eo nén cơ hoành họ, họ mệt nhanh hơn và không thể tạo ra chuyển động bùng nổ",
@@ -88,7 +88,7 @@
     "Nếu bạn tập có vấn đề về hô hấp, thả Body Triangle và dùng móc thay thế"
   ],
   "systemLogic": {
-    "corePrinciple": "Body Triangle: back control → trượt chân trên qua hông → khóa chân quanh eo (ống chân sau gối) → bóp để nén cơ hoành → tay chiến đấu cho RNC.",
+    "corePrinciple": "Body Triangle: Back Control → trượt chân trên qua hông → khóa chân quanh eo (ống chân sau gối) → bóp để nén cơ hoành → tay chiến đấu cho RNC.",
     "decisionTree": [
       {
         "condition": "Họ bóc chân bạn",
@@ -104,8 +104,8 @@
       }
     ],
     "exitStrategies": [
-      "Nếu mất back control, chuyển sang Mount hoặc Side Control",
-      "Nếu Body Triangle bị bóc, chuyển sang móc và duy trì back control"
+      "Nếu mất Back Control, chuyển sang Mount hoặc Side Control",
+      "Nếu Body Triangle bị bóc, chuyển sang móc và duy trì Back Control"
     ]
   },
   "moneyDetails": [

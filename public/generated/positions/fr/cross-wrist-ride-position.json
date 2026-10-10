@@ -14,15 +14,15 @@
     "connection-before-control"
   ],
   "locale": "fr",
-  "title": "Cross-wrist ride",
+  "title": "Cross-Wrist Ride",
   "description": "Un ride depuis turtle/side où l’attaquant contrôle les deux poignets, étirant les bras de l’adversaire pour exposer le dos.",
   "topPlayerGoals": [
-    "Le joueur du dessus veut contrôler Cross-wrist ride avec la position de tête, la position intérieure et une pression orientée.",
+    "Le joueur du dessus veut contrôler Cross-Wrist Ride avec la position de tête, la position intérieure et une pression orientée.",
     "Tenir les deux poignets, maintenir pression poitrine et ouvrir entrée hook.",
     "Garder une base stable pour éviter d’être déséquilibré ou contré."
   ],
   "bottomPlayerGoals": [
-    "Le joueur du dessous veut survivre en Cross-wrist ride avec des cadres, du pummeling ou le bon angle.",
+    "Le joueur du dessous veut survivre en Cross-Wrist Ride avec des cadres, du Pummeling ou le bon angle.",
     "Ramener les deux bras au corps, reconstruire base et empêcher séparation shoulder line.",
     "Reconnaître les signaux de danger tôt au lieu d’attendre que la position se stabilise."
   ],
@@ -38,7 +38,7 @@
   ],
   "advancementOptions": [
     {
-      "action": "Passer en hook seatbelt ou body triangle",
+      "action": "Passer en hook seatbelt ou Body Triangle",
       "nextPositionId": "back-control-position",
       "relatedSkillIds": [
         "cross-wrist-ride",

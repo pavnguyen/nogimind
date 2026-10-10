@@ -63,34 +63,34 @@
     "hasStateMachine": false
   },
   "locale": "fr",
-  "description": "Le gift wrap contrôle un de leurs bras en le pliant derrière leur dos, exposant leur dos. De Side Control, vous piégez le bras éloigné et pivotez derrière.",
-  "shortInstruction": "Depuis le Side Control, isolez le bras éloigné, pliez-le derrière leur dos, enjambez leur tête, tournez derrière eux et établissez le back control.",
-  "summary": "La prise de dos par gift wrap neutralise le bras éloigné de l'adversaire en le pliant derrière son dos, puis utilise une rotation pour prendre le dos. Avec un bras piégé, leur capacité à défendre la prise de dos est réduite de moitié.",
+  "description": "Le Gift Wrap contrôle un de leurs bras en le pliant derrière leur dos, exposant leur dos. De Side Control, vous piégez le bras éloigné et pivotez derrière.",
+  "shortInstruction": "Depuis le Side Control, isolez le bras éloigné, pliez-le derrière leur dos, enjambez leur tête, tournez derrière eux et établissez le Back Control.",
+  "summary": "La prise de dos par Gift Wrap neutralise le bras éloigné de l'adversaire en le pliant derrière son dos, puis utilise une rotation pour prendre le dos. Avec un bras piégé, leur capacité à défendre la prise de dos est réduite de moitié.",
   "whyItWorks": [
     "Plier leur bras derrière leur dos crée une poignée qui contrôle leur épaule, ils ne peuvent pas tourner vers vous ni s'appuyer",
     "Avec un bras neutralisé, leur capacité à défendre la prise de dos est réduite de moitié",
-    "Le gift wrap est disponible depuis toute position au-dessus où vous pouvez isoler un bras éloigné",
-    "Tourner derrière eux en contrôlant le gift wrap crée la prise de dos, la rotation + le contrôle du bras les empêche de vous suivre"
+    "Le Gift Wrap est disponible depuis toute position au-dessus où vous pouvez isoler un bras éloigné",
+    "Tourner derrière eux en contrôlant le Gift Wrap crée la prise de dos, la rotation + le contrôle du bras les empêche de vous suivre"
   ],
   "commonMistakes": [
-    "Essayer le gift wrap de trop loin, vous devez être poitrine contre poitrine pour isoler le bras éloigné",
+    "Essayer le Gift Wrap de trop loin, vous devez être poitrine contre poitrine pour isoler le bras éloigné",
     "Ne pas plier assez le bras derrière leur dos, si le bras n'est pas derrière, ils peuvent le retirer",
     "Tourner sans contrôler le bras, vous finissez derrière eux mais ils ont encore leurs deux bras fonctionnels",
-    "Garder le gift wrap trop longtemps après avoir sécurisé le back control, relâchez et passez à l'étranglement"
+    "Garder le Gift Wrap trop longtemps après avoir sécurisé le Back Control, relâchez et passez à l'étranglement"
   ],
   "coachingCues": [
     "Poitrine contre poitrine d'abord, puis attrapez le bras éloigné",
     "Pliez-le derrière leur dos, pouce vers le haut",
     "Tournez serré, restez connecté",
-    "Le gift wrap est l'entrée ; le back control est la destination"
+    "Le Gift Wrap est l'entrée ; le Back Control est la destination"
   ],
   "safetySummary": [
     "Ne forcez pas le bras derrière leur dos s'ils résistent fortement, cela peut blesser l'épaule",
     "Pliez le bras doucement et utilisez la rotation pour créer la prise de dos, pas le pliage du bras seul",
-    "Si le partenaire a une blessure préexistante à l'épaule, évitez complètement le gift wrap"
+    "Si le partenaire a une blessure préexistante à l'épaule, évitez complètement le Gift Wrap"
   ],
   "systemLogic": {
-    "corePrinciple": "Gift wrap Back Take : depuis le Side Control/Mount → isolez le bras éloigné → pliez-le derrière leur dos → enjambez leur tête → tournez derrière → relâchez le gift wrap → établissez le back control.",
+    "corePrinciple": "Gift Wrap Back Take : depuis le Side Control/Mount → isolez le bras éloigné → pliez-le derrière leur dos → enjambez leur tête → tournez derrière → relâchez le Gift Wrap → établissez le Back Control.",
     "decisionTree": [
       {
         "condition": "Ils résistent à l'isolation du bras",
@@ -111,9 +111,9 @@
     ]
   },
   "moneyDetails": [
-    "Le gift wrap est la prise de dos la plus efficace depuis le Side Control en no-gi",
-    "Maîtriser le gift wrap vous donne un chemin fiable du Side Control au back control",
-    "Le gift wrap est particulièrement efficace contre les adversaires qui s'appuient sur le bras éloigné pour échapper au Side Control"
+    "Le Gift Wrap est la prise de dos la plus efficace depuis le Side Control en no-gi",
+    "Maîtriser le Gift Wrap vous donne un chemin fiable du Side Control au Back Control",
+    "Le Gift Wrap est particulièrement efficace contre les adversaires qui s'appuient sur le bras éloigné pour échapper au Side Control"
   ],
   "fixItFast": [
     "S'ils résistent à l'isolation du bras : passez à l'arm drag ou à la Kimura",

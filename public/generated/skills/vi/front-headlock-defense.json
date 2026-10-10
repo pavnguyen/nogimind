@@ -43,9 +43,9 @@
   "nextSkillIds": [],
   "searchBoost": 1,
   "keyCorrections": [
-    "Nếu bạn cảm thấy nghẹt thở thắt chặt mặc dù đã thu gọn cằm: cằm của bạn chưa đủ thấp - hãy chủ động ấn nó vào ngực",
-    "Nếu họ chuyển sang D'arce hoặc Anaconda: đặt cánh tay còn lại của bạn lên đầu họ và ấn vai bạn vào ngực họ trước khi họ có thể khóa hình số bốn",
-    "Nếu họ tụt xuống Guard với Guillotine: giữ tư thế thẳng, đặt tay lên hông họ và ấn vai bị mắc kẹt của bạn vào đùi họ"
+    "Nếu vẫn bị vây chặt dù đã gập cằm: cằm của bạn chưa thấp đủ - chủ động ấn sâu vào ngực",
+    "Nếu họ chuyển sang D'arce hoặc Anaconda: đặt tay còn lại lên đầu họ và ấn vai vào ngực họ trước khi họ khóa hình số 4",
+    "Nếu họ trút xuống Guard với Guillotine: giữ thẳng, đặt tay lên hông họ và ấn vai bị kẹt vào đùi họ"
   ],
   "version": 1,
   "updatedAt": "2026-05-21T00:24:30.751Z",
@@ -60,28 +60,28 @@
     "hasStateMachine": false
   },
   "locale": "vi",
-  "description": "Bảo vệ cổ, tư thế và góc hông khi gặp mối đe dọa snapdown hoặc Guillotine. Front Headlock là vị trí phòng thủ phổ biến nhất trước các lần hạ gục không thành công, sprawl và trao đổi tranh giành.",
+  "description": "Bảo vệ cổ, tư thế và góc hông khi gặp mối đe dọa snapdown hoặc Guillotine. Front Headlock là vị trí phòng thủ phổ biến nhất trước takedown không thành, sprawl và tranh giành tay.",
   "shortInstruction": "Cằm sát ngực, dùng hai tay khống chế cổ tay bị nghẹn, giữ đầu gối dưới hông, vòng sang bên không bị nghẹn để thoát thân.",
-  "summary": "Phòng thủ Front Headlock là phản ứng có hệ thống đối với một trong những vị trí nguy hiểm nhất trong môn vật No-Gi. Ưu tiên trước tiên là bảo vệ cổ, sau đó là kiểm soát cổ tay, sau đó là phục hồi căn cứ và cuối cùng là thoát. Hệ thống khen thưởng việc đưa ra quyết định đúng lúc và bình tĩnh trước chuyển động bùng nổ.",
+  "summary": "Phòng thủ Front Headlock là phản ứng có hệ thống với một trong những vị trí nguy hiểm nhất trong no-gi. Ưu tiên: bảo vệ cổ trước, kiểm soát cổ tay sau, phục hồi nền và cuối cùng là thoát. Hệ thống này đòi hỏi Timing và quyết định bình tĩnh thay vì chuyển động bùng nổ.",
   "whyItWorks": [
-    "Thu gọn cằm sẽ đóng đường vào động mạch cảnh và ngăn Guillotine hoặc Anaconda chìm sâu",
-    "Kiểm soát cổ tay bị nghẹn bằng cả hai tay sẽ mua những giây quan trọng và ngăn không cho tay cầm hoàn thiện bị khóa",
-    "Giữ đầu gối dưới hông sẽ tạo ra một điểm tựa vững chắc giúp đối thủ không thể đẩy bạn xuống thảm hoặc giật lưng bạn",
-    "Vòng về phía không bị nghẹn tấn công phần yếu nhất của Front Headlock, cánh tay không có tay cầm",
-    "Vị trí Front Headlock vốn không ổn định, đối thủ phải lựa chọn giữa bóp cổ và hạ gục, tạo ra tình thế tiến thoái lưỡng nan mà bạn có thể khai thác"
+    "Gập cằm sẽ chặn đường vào động mạch cảnh và ngăn Guillotine hoặc Anaconda chìm sâu",
+    "Kiểm soát cổ tay bị nghẹt bằng cả hai tay sẽ mua thời gian quan trọng và ngăn họ hoàn thiện vây chặt",
+    "Giữ đầu gối dưới hông tạo điểm tựa vững chắc, ngăn đối thủ đẩy bạn xuống thảm hoặc phản lưng",
+    "Vòng sang bên không bị nghẹt để tấn công điểm yếu nhất của Front Headlock, nơi tay đối thủ không nắm chắc",
+    "Front Headlock vốn không ổn định, đối thủ phải chọn giữa bóp cổ và phá bỏ, tạo tình thế tiến thoái lưỡng nan để bạn khai thác"
   ],
   "commonMistakes": [
-    "Nhìn lên hoặc duỗi cổ khi đặt nút thắt, thao tác này sẽ mở ra các động mạch cảnh và làm sâu Guillotine",
-    "Cố gắng đẩy đối thủ ra xa - điều này giúp kéo dài tư thế của bạn và làm cho vòng siết chặt hơn",
-    "Vòng vào cánh tay đang nghẹt thở thay vì tránh xa nó - điều này khiến cổ bạn nằm trên một chiếc đĩa bạc",
-    "Nằm sấp - điều này loại bỏ mọi lối thoát và tạo đòn bẩy tối đa cho họ",
-    "Chờ quá lâu để giải quyết vấn đề - Guillotine được đặt càng lâu thì nó càng chìm sâu"
+    "Nhìn lên hoặc duỗi cổ khi vây chặt, động作 này mở đường động mạch cảnh và làm Guillotine sâu hơn",
+    "Cố đẩy đối thủ ra xa - làm kéo dài tư thế và khiến vây chặt hơn",
+    "Vòng vào cánh tay bị nghẹt thay vì tránh xa -nguyên này làm cổ bạn nằm trên đĩa bạc",
+    "Nằm sấp - loại bỏ mọi lối thoát và tạo đòn bẩy tối đa",
+    "Chờ quá lâu - Guillotine càng đặt lâu càng chìm sâu"
   ],
   "coachingCues": [
-    "Cằm sát ngực luôn",
+    "Gập cằm vào ngực",
     "Hai tay đặt trên cổ tay chứ không phải cánh tay",
     "Đầu gối dưới hông trước khi di chuyển",
-    "Vòng ra khỏi bàn tay nghẹt thở"
+    "Vòng ra khỏi tay bị nghẹt"
   ],
   "oneMinuteMode": {
     "goal": "Sống sót và thoát khỏi vị trí Front Headlock một cách an toàn.",
@@ -94,53 +94,53 @@
     ]
   },
   "safetySummary": [
-    "Guillotine có thể gây bất tỉnh trong vài giây, nếu bị sặc sâu, hãy nhấn và đặt lại thay vì gây nguy cơ chấn thương sọ não",
-    "Một số biến thể Front Headlock tấn công khí quản thay vì động mạch cảnh - điều này nguy hiểm hơn và cần phải chạm vào ngay lập tức",
-    "Đừng cố 'cứng rắn' Guillotine, tổn thương ở cổ và họng có thể kéo dài hàng tuần",
-    "Tay quay cổ được ngụy trang thành cuộn cảm cần phải gõ nhẹ ngay lập tức để bảo vệ cột sống cổ",
-    "Huấn luyện khả năng phòng thủ Front Headlock bằng sức đề kháng tăng dần, không phải cường độ trực tiếp"
+    "Guillotine có thể gây bất tỉnh trong vài giây, nếu bị vây sâu, hãy tap và reset thay vì chấp nhận rủi ro chấn thương sọ não",
+    "Một số biến thể Front Headlock tấn công khí quản thay vì động mạch cảnh - nguy hiểm hơn và cần tap ngay",
+    "Đừng cố 'cứng rắn' Guillotine, tổn thương cổ và họng có thể kéo dài hàng tuần",
+    "Tay quay cổ giả dạng neck crank cần tap ngay để bảo vệ cột sống cổ",
+    "Tập phòng thủ Front Headlock với sức đề kháng tăng dần, không phải cường độ live"
   ],
   "systemLogic": {
-    "corePrinciple": "Front Headlock Phòng thủ tuân theo một hệ thống phân cấp chặt chẽ: (1) bảo vệ cổ → (2) nắm kiểm soát → (3) thiết lập căn cứ → (4) chọn nhánh thoát hiểm",
+    "corePrinciple": "Phòng thủ Front Headlock tuân theo thứ tự: (1) bảo vệ cổ → (2) nắm kiểm soát → (3) thiết lập nền → (4) chọn lối thoát",
     "decisionTree": [
       {
         "condition": "Ứng dụng chung",
-        "action": "Mỗi lớp củng cố lớp trước: bảo vệ cổ ngăn chặn việc hoàn thành, kiểm soát độ bám giúp kéo dài thời gian, lớp đế thiết lập khả năng di chuyển và lựa chọn lối thoát quyết định kết quả"
+        "action": "Mỗi lớp củng cố lớp trước: bảo vệ cổ chặn việc hoàn thiệc, kiểm soát tay kéo dài thời gian, nền tạo khả năng di chuyển và chọn lối thoát quyết định kết quả"
       },
       {
-        "condition": "Ở Giai đoạn 1 (đóng băng ngay lập tức)",
+        "condition": "Giai đoạn 1 (đóng băng ngay)",
         "action": "ngay lúc bạn cảm thấy Front Headlock, đừng nổ tung. Đứng yên, hóp cằm và thở. Chuyển động bùng nổ làm nghẹt thở sâu hơn."
       },
       {
-        "condition": "Ở Giai đoạn 2 (Điều khiển cổ tay)",
-        "action": "cả hai tay đều nắm lấy cổ tay đang nghẹn ngào của họ. Nếu bạn có thể điều khiển được cổ tay, họ sẽ không thể kết thúc cú siết cổ bất kể cánh tay có sâu đến đâu."
+        "condition": "Giai đoạn 2 (Kiểm soát cổ tay)",
+        "action": "Hai tay đều nắm cổ tay bị nghẹt của họ. Nếu kiểm soát được cổ tay, họ không thể hoàn thiện vây dù tay có sâu bao nhiêu."
       },
       {
-        "condition": "Ở Giai đoạn 3 (Phục hồi cơ sở)",
-        "action": "đặt chân xa của bạn và đưa đầu gối của bạn dưới hông. Đừng khoanh tròn cho đến khi bạn có một căn cứ ổn định."
+        "condition": "Giai đoạn 3 (Phục hồi nền)",
+        "action": " đặt chân xa và đưa đầu gối dưới hông. Đừng vòng cho đến khi có nền ổn định."
       },
       {
-        "condition": "Ở Giai đoạn 4 (Lựa chọn lối thoát)",
-        "action": "vòng sang phía không bị nghẹn. Nếu họ đi theo, hãy chuyển hướng. Nếu họ giơ tay chặn thì đánh vào một chân ở bên đó."
+        "condition": "Giai đoạn 4 (Chọn lối thoát)",
+        "action": "vòng sang bên không bị nghẹt. Nếu họ theo, đổi hướng. Nếu họ giơ tay chặn thì đánh vào một chân bên đó."
       },
       {
         "condition": "Ứng dụng chung",
-        "action": "Nếu thoát thành công, hãy phục hồi về vị trí đứng trung lập hoặc vị trí trên cùng với điều khiển underhook."
+        "action": "Nếu thoát được, phục hồi đứng trung lập hoặc lên trên với underhook."
       }
     ],
     "exitStrategies": []
   },
   "moneyDetails": [
-    "Front Headlock là đòn phản đòn phổ biến nhất để chống lại các đòn hạ gục và kéo Guard, một biện pháp phòng thủ đáng tin cậy là điều cần thiết đối với mọi võ sĩ",
-    "Một việc thoát Front Headlock thành công thường trực tiếp dẫn đến cơ hội hạ gục (khóa một chân hoặc cơ thể)",
-    "Nắm vững cách phòng thủ này sẽ loại bỏ nỗi sợ bị bắn hạ - kỹ năng tấn công quan trọng nhất trong vật",
-    "Trình tự phòng thủ Front Headlock là hệ thống tương tự được các nhà vô địch ADCC sử dụng - nó được thử nghiệm ở cấp độ cao nhất"
+    "Front Headlock là phản đòn phổ biến nhất chống lại takedown và kéo Guard, một phòng thủ đáng tin cậy là bắt buộc với mọi võ sĩ",
+    "Thoát Front Headlock thường dẫn trực tiếp đến cơ hội takedown (khóa một chân hoặc Body Lock)",
+    "Nắm vững phòng thủ này loại bỏ nỗi sợ bị điteen - kỹ năng tấn công quan trọng nhất trong vật",
+    "Trình tự phòng thủ Front Headlock là hệ thống tương tự ADCC champions dùng - được kiểm chứng ở cấp cao nhất"
   ],
-  "nextStep": "Sau khi thoát khỏi Front Headlock, hãy tìm cách thiết lập Front Headlock của riêng bạn, vòng về phía sau hoặc nhập một chuỗi chuyển tiếp.",
+  "nextStep": "Sau khi thoát Front Headlock, tìm cách thiết lập Front Headlock của bạn, vòng về sau hoặc vào chuỗi chuyển tiếp.",
   "fixItFast": [
-    "Nếu bị sặc sâu và việc hóp cằm không giúp ích gì: chạm ngay và đặt lại - việc phòng thủ phải diễn ra sớm hơn",
-    "Nếu họ giữ sprawl đè bạn nằm sấp: đừng nằm sấp - hãy quay sang một bên, tựa vào hông họ và tạo khoảng trống",
-    "Nếu họ chuyển sang Front Headlock Guillotine sau khi bị hạ gục: hãy giữ cằm khi tiếp đất, đừng để đầu bạn nhô lên",
-    "Nếu họ có cổ tay cao Guillotine (dây đeo cằm sâu): đừng cố bóc - đặt tay bạn lên hông họ và vòng đầu ra bên ngoài"
+    "Nếu bị vây sâu và gập cằm không giúp: tap ngay và reset - phòng thủ phải diễn ra sớm hơn",
+    "Nếu họ sprawl đè bạn nằm sấp: đừng nằm sấp - quay sang một bên, tựa vào hông họ và tạo khoảng trống",
+    "Nếu họ chuyển sang Front Headlock Guillotine sau khi bị hạ: giữ cằm khi tiếp đất, đừng để đầu nhô lên",
+    "Nếu họ có cao Guillotine (choke deep): đừng cố bóc - đặt tay lên hông họ và vòng đầu ra ngoài"
   ]
 }

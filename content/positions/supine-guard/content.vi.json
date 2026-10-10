@@ -1,7 +1,7 @@
 {
   "id": "supine-guard",
   "locale": "vi",
-  "title": "Guard nằm ngửa",
+  "title": "Supine Guard",
   "description": "Người giữ Guard nằm ngửa, dùng bàn chân, đầu gối, frame và góc hông để chặn passer vào chest-to-chest.",
   "topPlayerGoals": [
     "Người trên kiểm soát Guard nằm ngửa bằng vị trí đầu, vị trí trong và hướng áp lực.",
@@ -25,7 +25,7 @@
   ],
   "advancementOptions": [
     {
-      "action": "Recover knee shield hoặc seated layer",
+      "action": "Recover Knee Shield hoặc seated layer",
       "nextPositionId": "knee-shield-half-guard",
       "relatedSkillIds": [
         "supine-guard-retention",

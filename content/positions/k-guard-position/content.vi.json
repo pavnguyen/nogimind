@@ -1,7 +1,7 @@
 {
   "id": "k-guard-position",
   "locale": "vi",
-  "title": "K-Guard",
+  "title": "K Guard",
   "description": "K-Guard kiểm soát một chân đối thủ bằng shin frame và foot hook, tạo góc vào matrix, Leg Lock hoặc lấy lưng.",
   "topPlayerGoals": [
     "Người trên kiểm soát K-Guard bằng vị trí đầu, vị trí trong và hướng áp lực.",
@@ -25,7 +25,7 @@
   ],
   "advancementOptions": [
     {
-      "action": "Vào matrix hoặc false reap entry",
+      "action": "Vào matrix hoặc False Reap Entry",
       "nextPositionId": "inverted-guard",
       "relatedSkillIds": [
         "k-guard-matrix",

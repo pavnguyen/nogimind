@@ -1,0 +1,75 @@
+{
+  "id": "imanari-roll",
+  "domain": "guard_offense",
+  "level": "advanced",
+  "name": "Imanari Roll",
+  "aliases": [
+    "rolling leg lock entry",
+    "Imanari entry",
+    "rolling ashi entry"
+  ],
+  "tags": [
+    "tier:modern-expansion",
+    "meta:modern-common",
+    "risk:high",
+    "family:leg_lock",
+    "group:leg-lock",
+    "modern-no-gi"
+  ],
+  "keywords": [
+    "Imanari roll",
+    "rolling entry",
+    "leg entanglement",
+    "ashi garami",
+    "50/50",
+    "outside ashi"
+  ],
+  "modernSystemGroup": "leg_lock",
+  "relatedSkills": [
+    {
+      "id": "single-leg-x-control",
+      "type": "supporting"
+    },
+    {
+      "id": "k-guard-to-outside-ashi",
+      "type": "chain"
+    },
+    {
+      "id": "inside-outside-heel-hook",
+      "type": "chain"
+    },
+    {
+      "id": "kani-basami-safety",
+      "type": "alternative"
+    }
+  ],
+  "prerequisiteSkillIds": [
+    "leg-lock-safety-basics",
+    "single-leg-x-basics"
+  ],
+  "relatedPositions": [
+    "single-leg-x",
+    "outside-ashi",
+    "saddle-inside-sankaku"
+  ],
+  "relatedConcepts": [
+    "inside-position",
+    "knee-line",
+    "angle-creation",
+    "leg-lock-safety-hierarchy"
+  ],
+  "archetypeIds": [
+    "leg-lock-safety-first"
+  ],
+  "trainingMethodIds": [],
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "updatedAt": "2026-10-10T00:00:00.000Z"
+}

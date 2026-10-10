@@ -1,7 +1,7 @@
 {
   "id": "leg-drag-to-back-take",
   "locale": "vi",
-  "name": "Leg Drag sang Back Take",
+  "name": "Leg Drag To Back Take",
   "description": "Leg Drag to Back Take sử dụng Leg Drag để lộ lưng đối thủ. Khi họ chống tay xa để phòng thủ Leg Drag, bạn thả chân, luồn dưới tay họ và xoay ra sau.",
   "whyItWorks": [
     "Leg Drag đã đặt họ nằm nghiêng một bên, họ đã bị lộ một phần cho Back Take",
@@ -21,7 +21,7 @@
     "Luồn dưới tay, không luồn qua",
     "Giữ kết nối, không khoảng cách"
   ],
-  "shortInstruction": "Kiểm soát chân gần, kéo ngang cơ thể, đối thủ chống tay xa (tín hiệu), thả chân, luồn dưới tay đang chống, xoay ra sau, thiết lập back control.",
+  "shortInstruction": "Kiểm soát chân gần, kéo ngang cơ thể, đối thủ chống tay xa (tín hiệu), thả chân, luồn dưới tay đang chống, xoay ra sau, thiết lập Back Control.",
   "summary": "Leg Drag to Back Take sử dụng Leg Drag để lộ lưng đối thủ. Khi họ chống tay xa để phòng thủ Leg Drag, bạn thả chân, luồn dưới tay họ và xoay ra sau, chuyển đổi liên tục từ pass sang Back Take.",
   "safetySummary": [
     "Khi kéo chân họ, đảm bảo không xoắn đầu gối họ, kéo từ hông, không xoay chân",
@@ -44,7 +44,7 @@
     "Nếu họ xoay mặt vào: giữ chân họ và lên Mount"
   ],
   "systemLogic": {
-    "corePrinciple": "Leg Drag to Back Take: kiểm soát chân gần → kéo ngang cơ thể → đối thủ chống tay xa (tín hiệu) → thả chân → luồn dưới tay đang chống → xoay ra sau → thiết lập back control.",
+    "corePrinciple": "Leg Drag to Back Take: kiểm soát chân gần → kéo ngang cơ thể → đối thủ chống tay xa (tín hiệu) → thả chân → luồn dưới tay đang chống → xoay ra sau → thiết lập Back Control.",
     "decisionTree": [
       {
         "condition": "Họ không chống tay",

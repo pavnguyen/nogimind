@@ -43,7 +43,7 @@
   "searchBoost": 1,
   "keyCorrections": [
     "S'ils ne s'appuient pas sur le bras éloigné : continuez la Leg Drag jusqu'au Side Control ou Mount",
-    "S'ils s'appuient et vous passez dessous : back control établi",
+    "S'ils s'appuient et vous passez dessous : Back Control établi",
     "S'ils se détournent pendant la traînée : relâchez la jambe et prenez le dos directement"
   ],
   "version": 1,
@@ -60,7 +60,7 @@
   "locale": "fr",
   "description": "Le Leg Drag vers la prise de dos utilise le Leg Drag pour exposer le dos de l'adversaire. Quand il poste le bras éloigné pour défendre, vous relâchez la jambe et pivotez derrière.",
   "shortInstruction": "Contrôlez leur jambe proche, traînez-la en travers de votre corps, l'adversaire s'appuie sur le bras éloigné (déclencheur), relâchez la jambe, passez sous leur bras et tournez derrière.",
-  "summary": "La Leg Drag vers la prise de dos est un mouvement continu de la passe de guarde au back control. La Leg Drag force l'adversaire à s'appuyer sur son bras éloigné, et cet appui devient l'entrée pour la prise de dos.",
+  "summary": "La Leg Drag vers la prise de dos est un mouvement continu de la passe de guarde au Back Control. La Leg Drag force l'adversaire à s'appuyer sur son bras éloigné, et cet appui devient l'entrée pour la prise de dos.",
   "whyItWorks": [
     "La Leg Drag les a déjà sur un côté, ils sont déjà partiellement exposés pour la prise de dos",
     "Leur réponse défensive (s'appuyer sur le bras éloigné) crée l'ouverture pour la prise de dos",
@@ -85,7 +85,7 @@
     "Si l'adversaire résiste fortement, relâchez la Leg Drag et passez à une autre passe"
   ],
   "systemLogic": {
-    "corePrinciple": "Leg Drag vers prise de dos : contrôlez leur jambe proche → traînez-la en travers de votre corps → l'adversaire s'appuie sur le bras éloigné (déclencheur) → relâchez la jambe → passez sous leur bras qui s'appuie → tournez derrière → établissez le back control.",
+    "corePrinciple": "Leg Drag vers prise de dos : contrôlez leur jambe proche → traînez-la en travers de votre corps → l'adversaire s'appuie sur le bras éloigné (déclencheur) → relâchez la jambe → passez sous leur bras qui s'appuie → tournez derrière → établissez le Back Control.",
     "decisionTree": [
       {
         "condition": "Ils ne s'appuient pas sur le bras éloigné",
@@ -93,7 +93,7 @@
       },
       {
         "condition": "Ils s'appuient et vous passez dessous",
-        "action": "back control établi"
+        "action": "Back Control établi"
       },
       {
         "condition": "Ils se détournent pendant la traînée",
@@ -106,8 +106,8 @@
     ]
   },
   "moneyDetails": [
-    "La Leg Drag vers la prise de dos est une chaîne à haute valeur qui connecte la passe au back control de manière fluide",
-    "Maîtriser cette transition vous donne un chemin direct de la passe de guarde au back control 4 points",
+    "La Leg Drag vers la prise de dos est une chaîne à haute valeur qui connecte la passe au Back Control de manière fluide",
+    "Maîtriser cette transition vous donne un chemin direct de la passe de guarde au Back Control 4 points",
     "La Leg Drag vers la prise de dos est particulièrement efficace contre les adversaires qui s'appuient largement pour défendre la passe"
   ],
   "fixItFast": [

@@ -14,30 +14,30 @@
   ],
   "locale": "en",
   "title": "Seated Guard",
-  "description": "The Guard player sits with shin frames, hand fighting, and wrestle-up or Guard-entry threats.",
+  "description": "The Guard player sits with shin frames, Hand Fighting, and wrestle-up or Guard-entry threats.",
   "topPlayerGoals": [
-    "The top player wants to control Seated Guard through head position, inside position, and directed pressure.",
+    "The top player wants to control Seated Guard through Head Position, Inside Position, and directed pressure.",
     "Kill the shin frame, pull the head line down, or lock the hips.",
     "Keep a stable base so you are not off-balanced or countered."
   ],
   "bottomPlayerGoals": [
-    "The bottom player wants to survive Seated Guard with frames, pummeling, or the right angle.",
+    "The bottom player wants to survive Seated Guard with frames, Pummeling, or the right angle.",
     "Keep the head high with one foot post, one hook, or one active shin frame.",
     "Recognize danger signals early instead of waiting for the position to settle."
   ],
   "controlPoints": [
     "Main control point: Head height, shin frame, and wrist control.",
     "Head, hands, hips, and knees should share the same force direction.",
-    "The elbow-knee connection or hip-shoulder line determines whether the position is still alive or already locked."
+    "The Elbow-Knee Connection or hip-shoulder line determines whether the position is still alive or already locked."
   ],
   "escapePriorities": [
     "Escape priority: If your head is snapped down, protect the neck before standing up.",
-    "Protect the neck, back, knee line, or arm line before countering.",
-    "If inside position is lost, reset one defensive layer first."
+    "Protect the neck, back, Knee Line, or arm line before countering.",
+    "If Inside Position is lost, reset one defensive layer first."
   ],
   "advancementOptions": [
     {
-      "action": "Enter shin-to-shin or wrestle up",
+      "action": "Enter shin-to-shin or Wrestle-Up",
       "nextPositionId": "single-leg-x",
       "relatedSkillIds": [
         "seated-guard-retention",

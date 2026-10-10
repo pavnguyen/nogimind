@@ -5,11 +5,11 @@
   "description": "Le joueur du dessus est en headquarters avec une jambe du joueur en garde fixée et plusieurs lignes de passage disponibles.",
   "topPlayerGoals": [
     "Le joueur du dessus veut contrôler Headquarters dessus avec la position de tête, la position intérieure et une pression orientée.",
-    "Forcer un dilemme entre knee cut, backstep, leg drag ou smash pass.",
+    "Forcer un dilemme entre Knee Cut, backstep, leg drag ou Smash Pass.",
     "Garder une base stable pour éviter d’être déséquilibré ou contré."
   ],
   "bottomPlayerGoals": [
-    "Le joueur du dessous veut survivre en Headquarters dessus avec des cadres, du pummeling ou le bon angle.",
+    "Le joueur du dessous veut survivre en Headquarters dessus avec des cadres, du Pummeling ou le bon angle.",
     "Garder le knee shield ou le genou intérieur et empêcher la ligne des hanches d’être fixée.",
     "Reconnaître les signaux de danger tôt au lieu d’attendre que la position se stabilise."
   ],
@@ -25,7 +25,7 @@
   ],
   "advancementOptions": [
     {
-      "action": "Entrer dans la ligne du knee cut",
+      "action": "Entrer dans la ligne du Knee Cut",
       "nextPositionId": "knee-cut-position",
       "relatedSkillIds": [
         "headquarters-passing",

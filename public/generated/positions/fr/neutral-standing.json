@@ -21,7 +21,7 @@
     "Garder une base stable pour éviter d’être déséquilibré ou contré."
   ],
   "bottomPlayerGoals": [
-    "Le joueur du dessous veut survivre en Debout neutre avec des cadres, du pummeling ou le bon angle.",
+    "Le joueur du dessous veut survivre en Debout neutre avec des cadres, du Pummeling ou le bon angle.",
     "Garder une posture solide et éviter que la tête soit tirée vers le bas ou d’être amené dans une mauvaise entrée de garde.",
     "Reconnaître les signaux de danger tôt au lieu d’attendre que la position se stabilise."
   ],
@@ -37,7 +37,7 @@
   ],
   "advancementOptions": [
     {
-      "action": "Entrer en hand fighting avec des inside ties",
+      "action": "Entrer en Hand Fighting avec des inside ties",
       "nextPositionId": "hand-fighting-position",
       "relatedSkillIds": [
         "hand-fighting",

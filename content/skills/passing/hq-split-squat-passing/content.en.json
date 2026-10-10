@@ -2,12 +2,12 @@
   "id": "hq-split-squat-passing",
   "locale": "en",
   "name": "HQ / Split-Squat Passing",
-  "description": "Headquarters (HQ) and split-squat passing: manage distance with one knee up and one knee down, block the shin frame, and choose Knee Cut, Bodylock, or Toreando based on the Guard player's reaction.",
+  "description": "Headquarters (HQ) and Split-Squat Passing: manage distance with one knee up and one knee down, block the shin frame, and choose Knee Cut, Bodylock, or Toreando based on the Guard player's reaction.",
   "shortInstruction": "From split-squat (one knee up, one knee down), block their shin frame with your posted knee, control their far hip, and read their reaction to select Knee Cut, Bodylock, or Toreando.",
   "summary": "The split-squat (also called headquarters) is the foundational passing position for modern BJJ. It creates a triangular base that blocks the opponent's shin frame while keeping your hips mobile. From the split-squat, you read the opponent's hip angle and distance to select the appropriate pass: Knee Cut (short distance), Bodylock (medium distance), or Toreando (long distance).",
   "whyItWorks": [
     "The split-squat position (one knee up, one knee down) creates a stable base that can adjust to any Guard player reaction",
-    "The posted knee blocks the most common Guard retention tool, the shin frame",
+    "The posted knee blocks the most common Guard Retention tool, the shin frame",
     "The split-squat keeps your weight forward, preventing the opponent from hip escaping or creating distance",
     "Three passing options from one position means you always have a read-based response"
   ],
@@ -34,7 +34,7 @@
     "If they keep attacking your posted leg: drop the posted knee to the mat and switch to a Bodylock pass"
   ],
   "systemLogic": {
-    "corePrinciple": "The split-squat passing system has three branches: Knee Cut → Bodylock → Toreando",
+    "corePrinciple": "The Split-Squat Passing system has three branches: Knee Cut → Bodylock → Toreando",
     "decisionTree": [
       {
         "condition": "Branch 1, Knee Cut: when the opponent presses their shin into your posted knee. Drop your posted knee to the mat, slide it past their shin, and cut through to Side Control.",
@@ -56,7 +56,7 @@
   },
   "moneyDetails": [
     "The split-squat is the universal passing position, it works against all Guard types and body types",
-    "Learning split-squat passing is the fastest path to a complete passing game",
+    "Learning Split-Squat Passing is the fastest path to a complete passing game",
     "This system is the foundation of Danaher's Guard passing curriculum"
   ],
   "fixItFast": [

@@ -57,8 +57,8 @@
   "nextSkillIds": [],
   "searchBoost": 1,
   "keyCorrections": [
-    "Nếu finish cần hơn 30% sức tay, alignment của bạn sai, reset kiểm soát knee line trước.",
-    "Nếu đối thủ giấu được gót, bạn chưa cô lập knee line, xích lại gần hông họ hơn.",
+    "Nếu finish cần hơn 30% sức tay, alignment của bạn sai, reset kiểm soát Knee Line trước.",
+    "Nếu đối thủ giấu được gót, bạn chưa cô lập Knee Line, xích lại gần hông họ hơn.",
     "Nếu họ xoay ra trong lúc finish, bạn mất kiểm soát hông xa, khôi phục kiểm soát hông trước khi tấn công lại.",
     "Nếu grip bị trượt, vị trí tay sai, lòng bàn tay trên của bạn nên hướng về gót họ."
   ],
@@ -75,8 +75,8 @@
   },
   "locale": "vi",
   "description": "Làm chủ cơ chế chính xác của việc finish Heel Hook, xoay trong vs xoay ngoài, các biến thể grip figure-four, căn chỉnh hông, và cách đuổi finish khi đối thủ phòng thủ.",
-  "shortInstruction": "Kiểm soát knee line, căn chỉnh hướng xoay với hông đối thủ, chọn grip (figure-four hoặc honey-hole), và finish bằng xoay hông, không dùng sức tay.",
-  "summary": "Heel Hook finish là submission chính xác nhất về mặt cơ học trong no-gi. Không giống hầu hết các đòn khóa khác nơi bạn có thể 'siết mạnh hơn,' Heel Hook đòi hỏi sự căn chỉnh hoàn hảo của kiểm soát knee line, vị trí grip và hướng xoay. Skill này bao gồm sự khác biệt giữa inside và outside Heel Hook finishing, ba loại grip chính (figure-four, honey-hole và seatbelt), cách điều chỉnh góc khi đối thủ giấu gót, và cách chain finish khi họ cố xoay ra. Triết lý finishing hiện đại nhấn mạnh xoay hông hơn là sức tay, tay giữ vị trí, hông tạo ra finish.",
+  "shortInstruction": "Kiểm soát Knee Line, căn chỉnh hướng xoay với hông đối thủ, chọn grip (figure-four hoặc honey-hole), và finish bằng xoay hông, không dùng sức tay.",
+  "summary": "Heel Hook finish là submission chính xác nhất về mặt cơ học trong no-gi. Không giống hầu hết các đòn khóa khác nơi bạn có thể 'siết mạnh hơn,' Heel Hook đòi hỏi sự căn chỉnh hoàn hảo của kiểm soát Knee Line, vị trí grip và hướng xoay. Skill này bao gồm sự khác biệt giữa inside và outside Heel Hook finishing, ba loại grip chính (figure-four, honey-hole và seatbelt), cách điều chỉnh góc khi đối thủ giấu gót, và cách chain finish khi họ cố xoay ra. Triết lý finishing hiện đại nhấn mạnh xoay hông hơn là sức tay, tay giữ vị trí, hông tạo ra finish.",
   "whyItWorks": [
     "Đầu gối có độ ổn định xoay rất thấp, chưa đến 5 độ xoay ngoài có thể gây tổn thương dây chằng.",
     "Xoay bằng hông mạnh hơn và kiểm soát tốt hơn xoay chỉ bằng tay, dùng core và hông ngăn 'ripping' gây chấn thương.",
@@ -85,14 +85,14 @@
   ],
   "commonMistakes": [
     "Dùng sức tay để xoay thay vì dùng hông và core, finish đến từ xoay hông, không phải bắp tay.",
-    "Xoay trước khi knee line được cô lập hoàn toàn, nếu đối thủ còn di chuyển gối, finish sẽ không sạch.",
-    "Dùng sai loại grip cho entanglement, figure-four cho Saddle, honey-hole cho backside 50/50.",
+    "Xoay trước khi Knee Line được cô lập hoàn toàn, nếu đối thủ còn di chuyển gối, finish sẽ không sạch.",
+    "Dùng sai loại grip cho entanglement, figure-four cho Saddle, honey-hole cho Backside 50/50.",
     "Đuổi Heel Hook khi đối thủ giấu gót thay vì chuyển sang đòn khác (Kneebar, Back Take).",
     "Xoay quá mức sau khi đối thủ tap, thêm 5 độ có thể gây chấn thương."
   ],
   "coachingCues": [
     "Hông lái finish, tay chỉ dẫn đường.",
-    "Tìm knee line trước, nếu gối di chuyển, Heel Hook chưa sẵn sàng.",
+    "Tìm Knee Line trước, nếu gối di chuyển, Heel Hook chưa sẵn sàng.",
     "Figure-four cho Saddle, honey-hole cho backside, seatbelt cho chuyển tiếp.",
     "Nếu gót giấu, đổi đòn, đừng ép xoay.",
     "Finish ở tốc độ 10%, kiểm soát là finish, tốc độ là kẻ thù."
@@ -105,14 +105,14 @@
     "Không tập Heel Hook ở tốc độ cao nếu chưa có giám sát và kinh nghiệm."
   ],
   "systemLogic": {
-    "corePrinciple": "Entanglement đã vào → kiểm soát hông xa → cô lập knee line → chọn loại grip → căn chỉnh hướng xoay với hông → xoay chậm có kiểm soát bằng hông → finish.",
+    "corePrinciple": "Entanglement đã vào → kiểm soát hông xa → cô lập Knee Line → chọn loại grip → căn chỉnh hướng xoay với hông → xoay chậm có kiểm soát bằng hông → finish.",
     "decisionTree": [
       {
         "condition": "Inside Sankaku / Saddle",
         "action": "Grip figure-four, xoay trong (xoay gót về phía mông họ). Giữ gối họ kẹp vào ngực bạn."
       },
       {
-        "condition": "Outside ashi / 50/50",
+        "condition": "Outside Ashi / 50/50",
         "action": "Grip honey-hole hoặc figure-four, xoay ngoài (xoay gót ra xa cơ thể họ). Kiểm soát hông xa để ngăn xoay."
       },
       {
@@ -134,7 +134,7 @@
   ],
   "nextStep": "Sau khi thành thạo Heel Hook finish, học Kneebar và Calf Slicer như đòn tấn công phụ từ leg entanglements.",
   "fixItFast": [
-    "Không tìm được hướng xoay? Căn chỉnh ngực với knee line của họ, trục xoay là gối-đến-hông.",
+    "Không tìm được hướng xoay? Căn chỉnh ngực với Knee Line của họ, trục xoay là gối-đến-hông.",
     "Grip cứ trượt? Đổi sang grip honey-hole (cả hai tay trên gót) để kiểm soát tốt hơn.",
     "Họ cứ xoay? Thả ra, kiểm soát hông xa, và vào lại entanglement.",
     "Cảm thấy kháng lực ở gối họ? Thả ngay, bạn sai góc hoặc họ đã bị thương."

@@ -2,9 +2,9 @@
   "id": "knee-line-escape",
   "locale": "en",
   "name": "Knee Line Escape / Heel Hide",
-  "description": "Escape the knee line from leg entanglements: hide the heel, separate the hips, clear the secondary leg, and rotate correctly before rotational force reaches the knee. Knee line defense is the most critical safety skill in modern Leg Lock grappling.",
+  "description": "Escape the Knee Line from leg entanglements: hide the heel, separate the hips, clear the secondary leg, and rotate correctly before rotational force reaches the knee. Knee Line defense is the most critical safety skill in modern Leg Lock grappling.",
   "shortInstruction": "Hide the heel behind your thigh, separate your hips from theirs, clear the secondary leg hook, and rotate TOWARD the free leg, never away from the trapped leg.",
-  "summary": "Knee line escape is the systematic process of removing your knee from the opponent's control in leg entanglements. The four-step sequence is: (1) heel hide, bring your heel toward your glute to prevent them from controlling the foot, (2) hip separation, create distance between your hips and theirs to reduce rotational leverage, (3) clear secondary leg, remove their outside leg hook that is trapping your leg, (4) correct rotation, rotate toward your free leg (never away from the trapped leg). This system is based on Danaher's Leg Lock escape philosophy and is the foundation of all Leg Lock defense.",
+  "summary": "Knee Line Escape is the systematic process of removing your knee from the opponent's control in leg entanglements. The four-step sequence is: (1) Heel Hide, bring your heel toward your glute to prevent them from controlling the foot, (2) hip separation, create distance between your hips and theirs to reduce rotational leverage, (3) clear secondary leg, remove their outside leg hook that is trapping your leg, (4) correct rotation, rotate toward your free leg (never away from the trapped leg). This system is based on Danaher's Leg Lock escape philosophy and is the foundation of all Leg Lock Defense.",
   "whyItWorks": [
     "Hiding the heel behind your thigh removes their primary control point, without heel control, they cannot generate the rotational torque needed to finish",
     "Separating your hips from theirs removes the fulcrum of the Leg Lock, all Leg Locks require hip proximity to generate breaking force",
@@ -32,10 +32,10 @@
   "keyCorrections": [
     "If you feel rotational pressure despite hiding the heel: your hips are too close, separate your hips immediately before the torque reaches the knee",
     "If you cannot clear the secondary hook: change your angle, rotate your hips slightly toward the mat and pummel your free leg through the gap",
-    "If they switch from Heel Hook to Kneebar: keep your heel hidden and extend your leg slightly to relieve the hyperextension pressure while maintaining heel hide"
+    "If they switch from Heel Hook to Kneebar: keep your heel hidden and extend your leg slightly to relieve the hyperextension pressure while maintaining Heel Hide"
   ],
   "systemLogic": {
-    "corePrinciple": "The knee line escape follows a four-step sequence: Heel Hide → Hip Separation → Clear Secondary Leg → Correct Rotation",
+    "corePrinciple": "The Knee Line Escape follows a four-step sequence: Heel Hide → Hip Separation → Clear Secondary Leg → Correct Rotation",
     "decisionTree": [
       {
         "condition": "Step 1, Heel Hide: the moment",
@@ -55,14 +55,14 @@
       },
       {
         "condition": "all four steps are executed successfully",
-        "action": "you will either escape completely or arrive in a 50/50 position where neither grappler has control of the knee line"
+        "action": "you will either escape completely or arrive in a 50/50 position where neither grappler has control of the Knee Line"
       }
     ]
   },
   "moneyDetails": [
-    "Knee line escape is the most important safety skill in modern BJJ, the rise of leg locking means every grappler must know this sequence",
-    "A reliable knee line escape removes the fear of entering leg entanglements, you can engage without the constant risk of injury",
-    "Mastering knee line defense makes you a more dangerous Leg Lock attacker, you understand exactly what the opponent needs to escape and can counter it"
+    "Knee Line Escape is the most important safety skill in modern BJJ, the rise of leg locking means every grappler must know this sequence",
+    "A reliable Knee Line Escape removes the fear of entering leg entanglements, you can engage without the constant risk of injury",
+    "Mastering Knee Line defense makes you a more dangerous Leg Lock attacker, you understand exactly what the opponent needs to escape and can counter it"
   ],
   "fixItFast": [
     "If the Heel Hook is already deep and you feel rotation on the knee: tap immediately, the defense must happen before the torque is applied",

@@ -13,44 +13,44 @@
     "wedges"
   ],
   "locale": "vi",
-  "title": "Guard nằm ngửa",
-  "description": "Người Guard nằm ngửa dùng bàn chân, đầu gối, frame và góc hông để ngăn passer vào chest-to-chest.",
+  "title": "Supine Guard",
+  "description": "Người giữ Guard nằm ngửa, dùng bàn chân, đầu gối, frame và góc hông để chặn passer vào chest-to-chest.",
   "topPlayerGoals": [
-    "Người ở trên muốn kiểm soát Guard nằm ngửa bằng vị trí đầu, vị trí trong và áp lực có hướng.",
-    "Staple chân và thắng đường hông trước khi pass.",
-    "Giữ nền vững để không bị mất thăng bằng hoặc bị phản đòn."
+    "Người trên kiểm soát Guard nằm ngửa bằng vị trí đầu, vị trí trong và hướng áp lực.",
+    "Ghim chân và thắng đường hông trước khi pass.",
+    "Giữ nền chắc để không bị đẩy mất thăng bằng hay bị phản đòn."
   ],
   "bottomPlayerGoals": [
-    "Người ở dưới muốn sống sót trong Guard nằm ngửa bằng khung chặn, pummel hoặc góc phù hợp.",
-    "Giữ bàn chân và đầu gối ở trong để recover seated Guard hoặc vào leg entry.",
-    "Nhận diện tín hiệu nguy hiểm sớm thay vì chờ vị trí ổn định."
+    "Người dưới cần sống sót ở Guard nằm ngửa bằng frame, pummel hoặc chọn đúng góc.",
+    "Giữ bàn chân và đầu gối ở phía trong để gỡ lại Seated Guard hoặc vào thế khóa chân.",
+    "Nhận ra tín hiệu nguy hiểm từ sớm, thay vì chờ đến khi thế đã ổn định."
   ],
   "controlPoints": [
-    "Điểm kiểm soát chính: Bàn chân trên hông hoặc biceps, gối ở trong và góc vai.",
-    "Đầu, tay, hông và gối nên cùng hướng lực.",
-    "Kết nối khuỷu-gối hoặc đường hông-vai quyết định vị trí còn sống hay đã bị khóa."
+    "Điểm kiểm soát chính: bàn chân trên hông hoặc biceps, gối phía trong và góc vai.",
+    "Đầu, tay, hông và gối phải cùng một hướng lực.",
+    "Kết nối khuỷu-gối cùng đường hông-vai quyết định thế còn giữ được hay đã bị khóa."
   ],
   "escapePriorities": [
-    "Ưu tiên thoát: Không để cả hai gối bị đưa qua cùng một phía.",
-    "Bảo vệ cổ, lưng, đường gối hoặc đường tay trước khi phản công.",
-    "Nếu mất vị trí trong, hãy lùi lại một lớp phòng thủ trước."
+    "Ưu tiên thoát: không để cả hai gối bị đẩy qua cùng một phía.",
+    "Bảo vệ cổ, lưng, đường gối và đường tay trước khi phản công.",
+    "Mất vị trí trong thì lùi lại một lớp phòng thủ trước đã."
   ],
   "advancementOptions": [
     {
-      "action": "Recover knee shield hoặc seated layer",
+      "action": "Recover Knee Shield hoặc seated layer",
       "nextPositionId": "knee-shield-half-guard",
       "relatedSkillIds": [
         "supine-guard-retention",
         "seated-guard-retention",
         "k-guard-entry"
       ],
-      "why": "Đây là nhánh tự nhiên khi bạn thắng điểm kiểm soát chính và đối thủ buộc phải phòng thủ."
+      "why": "Đây là nhánh tự nhiên khi bạn đã thắng điểm kiểm soát chính và đối thủ buộc phải phòng thủ."
     }
   ],
   "dangerSignals": [
     "Cằm hoặc cổ bị kéo ra khỏi đường an toàn.",
-    "Khuỷu tay tách khỏi sườn hoặc đầu gối.",
-    "Đường hông bị khóa trong khi đường vai vẫn đang bị kéo.",
-    "Bạn phải chống tay dài để không ngã."
+    "Khuỷu tay rời khỏi sườn hoặc khỏi đầu gối.",
+    "Đường hông đã bị khóa mà đường vai vẫn đang bị kéo.",
+    "Phải chống tay thật xa mới giữ được thăng bằng."
   ]
 }

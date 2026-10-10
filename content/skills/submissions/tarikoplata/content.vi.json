@@ -1,7 +1,7 @@
 {
   "id": "tarikoplata",
   "locale": "vi",
-  "name": "Tarikplata",
+  "name": "Tarikoplata",
   "description": "Khóa vai biến Omoplata tiêu chuẩn và kẹp thành khóa vai hoàn thiện khi đường cổ tay và khuỷu tay được kiểm soát, sử dụng chân để tạo áp lực xoay lên vai.",
   "shortInstruction": "Giữ cánh tay, đưa chân qua vai, điều khiển cổ tay, xoay - tarikplata là một khóa vai được hỗ trợ bằng chân với cơ chế giống Kimura.",
   "summary": "Tarikoplata (được đặt theo tên của Tarsis Humphreys) là một loại khóa vai kết hợp các yếu tố của Omoplata và Kimura. Không giống như Omoplata (xoay vai bằng cách nâng cánh tay của đối phương), tarikplata ghim cánh tay của họ vào cơ thể của chính họ và sử dụng chân của bạn để thực hiện động tác xoay. Kết quả là khóa vai chặt hơn Omoplata và đến từ một góc mà Kimura không thể với tới. Nó thường được thực hiện từ vị trí kẹp hoặc gập vai.",
@@ -37,7 +37,7 @@
     "corePrinciple": "Vị trí kẹp hoặc Omoplata: kiểm soát cổ tay của họ → đưa chân của bạn qua cánh tay của họ → ghim cánh tay vào cơ thể họ → xoay hông của bạn → kết thúc.",
     "decisionTree": [
       {
-        "condition": "Chuỗi tarikoplata có Omoplata: Omoplata",
+        "condition": "Chuỗi Tarikoplata có Omoplata: Omoplata",
         "action": "tarikplata → Kimura, một chuỗi tấn công vai hoàn chỉnh."
       },
       {
@@ -52,7 +52,7 @@
     "Xoay hông ra xa họ khi bạn kéo cổ tay họ về phía mình - sự kết hợp này sẽ tạo ra khóa vai.",
     "Giữ chân còn lại của bạn trên hông của họ để kiểm soát tư thế của họ và ngăn họ ngồi dậy."
   ],
-  "nextStep": "Sau tarikoplata, hãy tìm hiểu hệ thống Omoplata và hệ thống Kimura.",
+  "nextStep": "Sau Tarikoplata, hãy tìm hiểu hệ thống Omoplata và hệ thống Kimura.",
   "fixItFast": [
     "Cánh tay tiếp tục thoát? Việc điều khiển cổ tay của bạn quá lỏng lẻo, hãy cầm lại với áp lực lớn hơn.",
     "Không thể xoay? Vị trí chân của bạn không đúng - hãy điều chỉnh để chân bạn điều khiển vai của họ chứ không phải cánh tay của họ.",

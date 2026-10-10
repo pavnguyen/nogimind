@@ -1,7 +1,7 @@
 {
   "id": "cross-wrist-ride",
   "locale": "vi",
-  "name": "Đi xe chéo cổ tay",
+  "name": "Cross-Wrist Ride",
   "description": "Khóa cổ tay chéo của đối phương trên lưng, dùng áp lực ngực và kết nối hông để khống chế Tư thế rùa và để lộ lưng. Động tác bắt chéo cổ tay khiến cả hai tay không thể cử động được để loại bỏ khả năng đứng vững hoặc đứng dậy của đối phương.",
   "shortInstruction": "Từ con Tư thế rùa, nắm lấy cả hai cổ tay, bắt chéo họ ở lưng dưới và ghim họ bằng ngực của bạn. Đẩy trọng lượng của bạn về phía trước để làm phẳng họ và đưa lưng về phía sau.",
   "summary": "Đu chéo cổ tay là một hệ thống bẻ Tư thế rùa cấp cao giúp cố định tay của đối phương bằng cách bắt chéo cổ tay của họ ở lưng dưới và ghim họ bằng trọng lượng ngực của bạn. Khi được điều khiển bằng cả hai tay, đối thủ không thể trụ, trụ hoặc đứng lên - họ hoàn toàn phụ thuộc vào chuyển động của hông để thoát, điều này gần như không thể xảy ra khi áp lực của ngực lên cột sống của họ.",
@@ -34,7 +34,7 @@
     "Nếu không thể với tới cả hai cổ tay: điều khiển một cổ tay và dùng tay kia để điều khiển khuỷu tay hoặc vai xa"
   ],
   "systemLogic": {
-    "corePrinciple": "Quá trình bắt chéo cổ tay có ba giai đoạn: Cố định cổ tay: Thu gọn Tư thế rùa → Chuyển sang back control",
+    "corePrinciple": "Quá trình bắt chéo cổ tay có ba giai đoạn: Cố định cổ tay: Thu gọn Tư thế rùa → Chuyển sang Back Control",
     "decisionTree": [
       {
         "condition": "Ở Giai đoạn 1 (Cổ tay an toàn)",
@@ -45,8 +45,8 @@
         "action": "đẩy ngực vào cổ tay bắt chéo và đẩy về phía trước. Trọng lượng của bạn sẽ đẩy tay họ vào lưng dưới trong khi áp lực từ ngực của bạn khiến họ bị xẹp xuống. Đưa đầu gối về phía trước để duy trì áp lực"
       },
       {
-        "condition": "Trong Giai đoạn 3 (Chuyển sang back control)",
-        "action": "khi họ đã phẳng, hãy nhả bộ điều khiển ở cổ tay (mỗi lần một tay) và thay thế bằng tay cầm seatbelt. Trượt đầu gối của bạn vào hông họ và cố định back control"
+        "condition": "Trong Giai đoạn 3 (Chuyển sang Back Control)",
+        "action": "khi họ đã phẳng, hãy nhả bộ điều khiển ở cổ tay (mỗi lần một tay) và thay thế bằng tay cầm seatbelt. Trượt đầu gối của bạn vào hông họ và cố định Back Control"
       },
       {
         "condition": "họ chống cự bằng cách căng cứng lưng",
@@ -57,7 +57,7 @@
   "moneyDetails": [
     "Đòn bắt chéo cổ tay là một trong những hệ thống phá Tư thế rùa chiếm ưu thế nhất - nó loại bỏ các công cụ thoát hiểm chính (tay) của đối phương",
     "Hệ thống này được sử dụng rộng rãi trong đấu vật (hệ thống Khabib, Zahabi) và được dịch hoàn hảo sang No-Gi BJJ",
-    "Việc thành thạo động tác cưỡi chéo cổ tay sẽ mang lại cho bạn một con đường đáng tin cậy từ Tư thế rùa đến back control khi chống lại đối thủ"
+    "Việc thành thạo động tác cưỡi chéo cổ tay sẽ mang lại cho bạn một con đường đáng tin cậy từ Tư thế rùa đến Back Control khi chống lại đối thủ"
   ],
   "fixItFast": [
     "Nếu họ lăn ra: thả cổ tay ra và thu về phía sau - không đấu tranh để duy trì khả năng kiểm soát cổ tay",

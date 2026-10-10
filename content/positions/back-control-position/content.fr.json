@@ -2,14 +2,14 @@
   "id": "back-control-position",
   "locale": "fr",
   "title": "Contrôle du dos",
-  "description": "L’attaquant garde la connexion poitrine-dos, le seatbelt et les hooks ou le body triangle pour créer des dilemmes d’étranglement.",
+  "description": "L’attaquant garde la connexion poitrine-dos, le seatbelt et les hooks ou le Body Triangle pour créer des dilemmes d’étranglement.",
   "topPlayerGoals": [
     "Le joueur du dessus veut contrôler Contrôle du dos avec la position de tête, la position intérieure et une pression orientée.",
     "Maintenir la connexion poitrine-dos, gagner le hand fight et créer un arm trap ou un étranglement.",
     "Garder une base stable pour éviter d’être déséquilibré ou contré."
   ],
   "bottomPlayerGoals": [
-    "Le joueur du dessous veut survivre en Contrôle du dos avec des cadres, du pummeling ou le bon angle.",
+    "Le joueur du dessous veut survivre en Contrôle du dos avec des cadres, du Pummeling ou le bon angle.",
     "Gagner le two-on-one, mettre l’épaule au tapis et enlever le hook.",
     "Reconnaître les signaux de danger tôt au lieu d’attendre que la position se stabilise."
   ],
@@ -25,7 +25,7 @@
   ],
   "advancementOptions": [
     {
-      "action": "Ouvrir le RNC ou l’arm trap",
+      "action": "Ouvrir le RNC ou l’Arm Trap",
       "nextPositionId": "rear-naked-choke-threat",
       "relatedSkillIds": [
         "back-control",

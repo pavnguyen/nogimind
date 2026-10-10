@@ -1,7 +1,7 @@
 {
   "id": "claw-ride",
   "locale": "vi",
-  "name": "Đi xe vuốt",
+  "name": "Claw Ride",
   "description": "Sử dụng kẹp cánh tay và ngực xung quanh đường hông hoặc thân của Tư thế rùa, xây dựng phần đế và cố định phần lưng tiếp xúc thông qua các công tắc hông và chiến đấu bằng tay. Cùm cưỡi là một hệ thống điều khiển chuyển tiếp sử dụng kẹp chân và tay để phá vỡ vị trí của Tư thế rùa.",
   "shortInstruction": "Từ con Tư thế rùa, kẹp cánh tay gần của bạn quanh hông họ (nắm móng vuốt), ấn ngực vào xương sườn của họ và đưa hông sang một bên để làm sập phần đế của họ. Chuyển đổi giữa vuốt và quay lại khi họ phản ứng.",
   "summary": "Động tác cưỡi vuốt sử dụng một đòn kẹp tay sâu quanh hông hoặc phần thân dưới của đối phương để phá vỡ tư thế Tư thế rùa và để lộ phần lưng. Kiểu nắm móng vuốt (cánh tay quấn quanh hông, tay nắm lấy phần hông xa hoặc đường thắt lưng) tạo ra một đòn bẩy cấu trúc cho phép bạn kéo đối thủ xuống trong khi áp lực ngực của bạn ngăn cản họ đứng lên. Hệ thống xen kẽ giữa áp lực bằng móng vuốt và các nỗ lực lùi lại, buộc đối thủ phải phòng thủ một bên và vạch trần bên kia.",
@@ -46,7 +46,7 @@
       },
       {
         "condition": "Ở Giai đoạn 3 (Quay lại)",
-        "action": "khi họ sụp xuống, hãy thả tay nắm có móng vuốt ra và thay thế bằng seatbelt (tay qua vai phía xa, tay ở hông gần). Trượt đầu gối gần của bạn vào đường hông của họ và cố định back control"
+        "action": "khi họ sụp xuống, hãy thả tay nắm có móng vuốt ra và thay thế bằng seatbelt (tay qua vai phía xa, tay ở hông gần). Trượt đầu gối gần của bạn vào đường hông của họ và cố định Back Control"
       },
       {
         "condition": "họ chống lại sự sụp đổ bằng cách tỏ ra cứng rắn",
@@ -56,7 +56,7 @@
   },
   "moneyDetails": [
     "Cưỡi bằng móng vuốt là hệ thống phá Tư thế rùa chính trong đấu vật hiện đại và BJJ, mọi võ sĩ được huấn luyện để bẻ Tư thế rùa đều sử dụng hệ thống này",
-    "Việc thành thạo cách cưỡi bằng càng sẽ mang lại cho bạn một con đường đáng tin cậy từ Tư thế rùa đến back control, vị trí thuận lợi nhất trong môn vật",
+    "Việc thành thạo cách cưỡi bằng càng sẽ mang lại cho bạn một con đường đáng tin cậy từ Tư thế rùa đến Back Control, vị trí thuận lợi nhất trong môn vật",
     "Động tác vuốt có tác dụng chống lại những đối thủ lớn hơn vì nó sử dụng đòn bẩy (kéo hông) thay vì sức mạnh"
   ],
   "fixItFast": [

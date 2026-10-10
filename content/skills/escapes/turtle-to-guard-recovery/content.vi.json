@@ -1,7 +1,7 @@
 {
   "id": "turtle-to-guard-recovery",
   "locale": "vi",
-  "name": "Phục hồi Guard từ tư thế rùa",
+  "name": "Turtle to Guard Recovery",
   "description": "Phục hồi Guard từ Turtle sử dụng động tác chuyển hông bùng nổ để tạo khoảng trống, tái kết nối với đối thủ và thiết lập Guard.",
   "whyItWorks": [
     "Từ Turtle, bạn có thể bùng nổ thoát hông khi đối thủ đè trọng lượng về phía trước",
@@ -44,7 +44,7 @@
     "Nếu bạn không thể đá chân qua: hông chưa đủ thấp, thả hông thấp hơn trước khi đá"
   ],
   "systemLogic": {
-    "corePrinciple": "Turtle to Guard recovery: Turtle → bảo vệ cổ → đọc trọng lượng đè tới (tín hiệu) → thả hông gần xuống thảm → đá chân xa qua → luồn tay trong → thiết lập lại Guard.",
+    "corePrinciple": "Turtle to Guard Recovery: Turtle → bảo vệ cổ → đọc trọng lượng đè tới (tín hiệu) → thả hông gần xuống thảm → đá chân xa qua → luồn tay trong → thiết lập lại Guard.",
     "decisionTree": [
       {
         "condition": "Họ giữ seatbelt",

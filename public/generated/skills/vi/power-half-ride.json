@@ -3,7 +3,7 @@
   "domain": "pins_rides",
   "level": "intermediate",
   "status": "draft",
-  "name": "Đi xe nửa sức mạnh",
+  "name": "Power Half Ride",
   "aliases": [
     "power half",
     "power half nelson ride"
@@ -78,7 +78,7 @@
   },
   "locale": "vi",
   "description": "Cú cưỡi nửa sức mạnh sử dụng kiểu cầm chéo sâu ở cánh tay xa kết hợp với áp ngực vào ngực để đè bẹp đối thủ khỏi Tư thế rùa hoặc bốn điểm và để lộ lưng.",
-  "shortInstruction": "Đưa tay xuống dưới cánh tay gần, nắm chặt cơ tam đầu hoặc vai ở xa. Đẩy vai vào thảm trong khi đưa hông về phía đầu để làm phẳng. Chuyển sang back control khi họ thu gọn.",
+  "shortInstruction": "Đưa tay xuống dưới cánh tay gần, nắm chặt cơ tam đầu hoặc vai ở xa. Đẩy vai vào thảm trong khi đưa hông về phía đầu để làm phẳng. Chuyển sang Back Control khi họ thu gọn.",
   "summary": "Cú cưỡi nửa sức mạnh đè bẹp đối thủ khỏi Tư thế rùa bằng cách điều khiển cánh tay xa và tác động áp lực lên vai, tạo ra sự lộ ra phía sau. Các cơ chế chính là: nắm sâu theo mặt chéo (với tay dưới cánh tay gần để điều khiển cánh tay/vai xa), áp lực từ ngực đến ngực (trọng lượng của bạn truyền qua ngực vào lưng trên của họ) và đi bộ bằng hông (hông của bạn tiến về phía đầu của họ khi họ gục xuống). Nửa sức mạnh là một trong những hệ thống có tỷ lệ phá Tư thế rùa cao nhất trong đấu vật.",
   "whyItWorks": [
     "Tay cầm bắt chéo trên cánh tay xa giúp bạn kiểm soát phần thân trên của họ - họ không thể tạo tư thế hoặc ngồi qua",
@@ -90,7 +90,7 @@
     "Với cánh tay xa quá nông - tay cầm phải sâu trên cơ tam đầu hoặc vai, không phải khuỷu tay",
     "Ở quá cao trên cơ thể - hông của bạn phải tiến về phía đầu để tạo hiệu ứng làm phẳng",
     "Giảm áp lực ở ngực - nếu ngực bạn tách ra, họ có thể ngồi dậy và thoát ra ngoài",
-    "Không chuyển sang back control đủ nhanh, khi đã ổn định, hãy lùi lại ngay lập tức"
+    "Không chuyển sang Back Control đủ nhanh, khi đã ổn định, hãy lùi lại ngay lập tức"
   ],
   "coachingCues": [
     "Tay xa, nắm sâu",
@@ -116,7 +116,7 @@
       },
       {
         "condition": "Ở Giai đoạn 3 (Quay lại)",
-        "action": "khi đã phẳng, hãy thả tay cầm có mặt chéo ra và thay thế bằng seatbelt (tay qua vai xa, tay ở gần hông). Trượt đầu gối gần của bạn vào đường hông của họ và cố định back control bằng móc"
+        "action": "khi đã phẳng, hãy thả tay cầm có mặt chéo ra và thay thế bằng seatbelt (tay qua vai xa, tay ở gần hông). Trượt đầu gối gần của bạn vào đường hông của họ và cố định Back Control bằng móc"
       },
       {
         "condition": "mất một nửa năng lượng (họ quá mạnh)",

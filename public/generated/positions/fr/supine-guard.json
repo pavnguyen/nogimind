@@ -21,7 +21,7 @@
     "Garder une base stable pour éviter d’être déséquilibré ou contré."
   ],
   "bottomPlayerGoals": [
-    "Le joueur du dessous veut survivre en Garde sur le dos avec des cadres, du pummeling ou le bon angle.",
+    "Le joueur du dessous veut survivre en Garde sur le dos avec des cadres, du Pummeling ou le bon angle.",
     "Garder les pieds et les genoux à l’intérieur pour récupérer la garde assise ou entrer sur une attaque de jambe.",
     "Reconnaître les signaux de danger tôt au lieu d’attendre que la position se stabilise."
   ],
@@ -37,7 +37,7 @@
   ],
   "advancementOptions": [
     {
-      "action": "Récupérer le knee shield ou une couche assise",
+      "action": "Récupérer le Knee Shield ou une couche assise",
       "nextPositionId": "knee-shield-half-guard",
       "relatedSkillIds": [
         "supine-guard-retention",

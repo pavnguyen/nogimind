@@ -22,7 +22,7 @@
     "Garder une base stable pour éviter d’être déséquilibré ou contré."
   ],
   "bottomPlayerGoals": [
-    "Le joueur du dessous veut survivre en Garde inversée avec des cadres, du pummeling ou le bon angle.",
+    "Le joueur du dessous veut survivre en Garde inversée avec des cadres, du Pummeling ou le bon angle.",
     "Garder l’inverse contrôlé, pieds dans hip line et connecter à K-Guard ou matrix.",
     "Reconnaître les signaux de danger tôt au lieu d’attendre que la position se stabilise."
   ],
@@ -38,7 +38,7 @@
   ],
   "advancementOptions": [
     {
-      "action": "Passer en K-Guard ou entrée matrix",
+      "action": "Passer en K Guard ou entrée matrix",
       "nextPositionId": "k-guard-position",
       "relatedSkillIds": [
         "inverted-guard-control",

@@ -4,7 +4,7 @@
   "name": "Tour de poignet croisé",
   "description": "Verrouillez les poignets de l'adversaire croisés sur le dos, utilisez la pression de la poitrine et la connexion des hanches pour contrôler la tortue et exposer le dos. Le tour de poignet croisé immobilise les deux mains pour éliminer la capacité de l'adversaire à se baser ou à se redresser.",
   "shortInstruction": "Depuis la tortue, saisissez les deux poignets, croisez-les dans le bas du dos et épinglez-les avec votre poitrine. Conduisez votre poids vers l'avant pour les effondrer à plat et prendre l'arrière.",
-  "summary": "Le cross-wrist ride est un système de haut niveau pour briser les tortues qui immobilise les mains de l'adversaire en croisant ses poignets dans le bas du dos et en les épinglant avec le poids de votre poitrine. Avec les deux mains contrôlées, l'adversaire ne peut pas baser, poster ou se redresser - il dépend entièrement du mouvement de la hanche pour s'échapper, ce qui est presque impossible avec la pression thoracique sur la colonne vertébrale.",
+  "summary": "Le Cross-Wrist Ride est un système de haut niveau pour briser les tortues qui immobilise les mains de l'adversaire en croisant ses poignets dans le bas du dos et en les épinglant avec le poids de votre poitrine. Avec les deux mains contrôlées, l'adversaire ne peut pas baser, poster ou se redresser - il dépend entièrement du mouvement de la hanche pour s'échapper, ce qui est presque impossible avec la pression thoracique sur la colonne vertébrale.",
   "whyItWorks": [
     "Croiser les poignets sur leur dos supprime leur capacité à poster – sans mains, ils ne peuvent pas se relever ou se baser.",
     "La pression thoracique sur les poignets croisés les maintient solidement – ​​l'adversaire ne peut pas séparer ses mains contre tout le poids de votre corps.",
@@ -34,7 +34,7 @@
     "Si vous ne pouvez pas atteindre les deux poignets : contrôlez un poignet et utilisez l’autre main pour contrôler le coude ou l’épaule le plus éloigné."
   ],
   "systemLogic": {
-    "corePrinciple": "Le parcours avec les poignets croisés comporte trois phases : Poignets sécurisés : Collapse Turtle → Transition vers back control",
+    "corePrinciple": "Le parcours avec les poignets croisés comporte trois phases : Poignets sécurisés : Collapse Turtle → Transition vers Back Control",
     "decisionTree": [
       {
         "condition": "En phase 1 (poignets sécurisés)",
@@ -45,8 +45,8 @@
         "action": "enfoncez votre poitrine dans les poignets croisés et poussez vers l'avant. Votre poids devrait pousser leurs mains dans le bas du dos tandis que votre pression thoracique les pousse à plat. Avancez vos genoux pour maintenir la pression"
       },
       {
-        "condition": "En phase 3 (transition vers back control)",
-        "action": "une fois qu'ils sont à plat, relâchez la commande du poignet (une main à la fois) et remplacez-la par une poignée seatbelt. Faites glisser votre genou dans sa hanche et fixez back control"
+        "condition": "En phase 3 (transition vers Back Control)",
+        "action": "une fois qu'ils sont à plat, relâchez la commande du poignet (une main à la fois) et remplacez-la par une poignée seatbelt. Faites glisser votre genou dans sa hanche et fixez Back Control"
       },
       {
         "condition": "ils résistent en tendant le dos",
@@ -57,7 +57,7 @@
   "moneyDetails": [
     "Le tour de poignet croisé est l'un des systèmes les plus dominants pour briser les tortues : il élimine les principaux outils d'évasion de l'adversaire (les mains).",
     "Ce système est largement utilisé en lutte (système Khabib, Zahabi) et se traduit parfaitement par No-Gi BJJ",
-    "Maîtriser la course aux poignets croisés vous donne un chemin fiable de la tortue au back control contre des adversaires résistants."
+    "Maîtriser la course aux poignets croisés vous donne un chemin fiable de la tortue au Back Control contre des adversaires résistants."
   ],
   "fixItFast": [
     "S'ils se déroulent : relâchez les poignets et prenez le dos - ne vous battez pas pour garder le contrôle des poignets",

@@ -14,43 +14,43 @@
   ],
   "locale": "vi",
   "title": "Side Control Dưới",
-  "description": "Người ở dưới bị pin chest-to-chest hoặc bị kiểm soát bởi crossface và underhook, cần sống sót trước khi escape.",
+  "description": "Người dưới bị pin chest-to-chest hoặc bị crossface và underhook khống chế, nên phải sống sót trước khi nghĩ đến chuyện thoát.",
   "topPlayerGoals": [
-    "Người ở trên muốn kiểm soát Side Control Dưới bằng vị trí đầu, vị trí trong và áp lực có hướng.",
-    "Người ở trên muốn ổn định pin, tách khuỷu-gối và lên Mount.",
-    "Giữ nền vững để không bị mất thăng bằng hoặc bị phản đòn."
+    "Người trên kiểm soát Side Control Dưới bằng vị trí đầu, vị trí trong và hướng áp lực.",
+    "Người trên muốn ổn định pin, tách khuỷu-gối và lên Mount.",
+    "Giữ nền chắc để không bị đẩy mất thăng bằng hay bị phản đòn."
   ],
   "bottomPlayerGoals": [
-    "Người ở dưới muốn sống sót trong Side Control Dưới bằng khung chặn, pummel hoặc góc phù hợp.",
-    "Tạo frame ở cổ hoặc hông, recover khuỷu-gối và hip escape.",
-    "Nhận diện tín hiệu nguy hiểm sớm thay vì chờ vị trí ổn định."
+    "Người dưới cần sống sót ở Side Control Dưới bằng frame, pummel hoặc chọn đúng góc.",
+    "Dựng frame ở cổ hoặc hông, gỡ lại kết nối khuỷu-gối và thoát hông.",
+    "Nhận ra tín hiệu nguy hiểm từ sớm, thay vì chờ đến khi thế đã ổn định."
   ],
   "controlPoints": [
-    "Điểm kiểm soát chính: Near elbow, far hip frame và đường cổ.",
-    "Đầu, tay, hông và gối nên cùng hướng lực.",
-    "Kết nối khuỷu-gối hoặc đường hông-vai quyết định vị trí còn sống hay đã bị khóa."
+    "Điểm kiểm soát chính: khuỷu phía gần, frame hông phía xa và đường cổ.",
+    "Đầu, tay, hông và gối phải cùng một hướng lực.",
+    "Kết nối khuỷu-gối cùng đường hông-vai quyết định thế còn giữ được hay đã bị khóa."
   ],
   "escapePriorities": [
-    "Ưu tiên thoát: Không bench press; tạo frame bằng xương trước.",
-    "Bảo vệ cổ, lưng, đường gối hoặc đường tay trước khi phản công.",
-    "Nếu mất vị trí trong, hãy lùi lại một lớp phòng thủ trước."
+    "Ưu tiên thoát: đừng chống đẩy bằng sức tay; dựng frame bằng xương trước.",
+    "Bảo vệ cổ, lưng, đường gối và đường tay trước khi phản công.",
+    "Mất vị trí trong thì lùi lại một lớp phòng thủ trước đã."
   ],
   "advancementOptions": [
     {
-      "action": "Recover knee-elbow về Guard",
+      "action": "Gỡ khuỷu-gối để về lại Guard",
       "nextPositionId": "knee-shield-half-guard",
       "relatedSkillIds": [
         "side-control-survival",
         "side-control-escape",
         "frames-pummeling"
       ],
-      "why": "Đây là nhánh tự nhiên khi bạn thắng điểm kiểm soát chính và đối thủ buộc phải phòng thủ."
+      "why": "Đây là nhánh tự nhiên khi bạn đã thắng điểm kiểm soát chính và đối thủ buộc phải phòng thủ."
     }
   ],
   "dangerSignals": [
     "Cằm hoặc cổ bị kéo ra khỏi đường an toàn.",
-    "Khuỷu tay tách khỏi sườn hoặc đầu gối.",
-    "Đường hông bị khóa trong khi đường vai vẫn đang bị kéo.",
-    "Bạn phải chống tay dài để không ngã."
+    "Khuỷu tay rời khỏi sườn hoặc khỏi đầu gối.",
+    "Đường hông đã bị khóa mà đường vai vẫn đang bị kéo.",
+    "Phải chống tay thật xa mới giữ được thăng bằng."
   ]
 }

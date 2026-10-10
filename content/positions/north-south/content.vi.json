@@ -1,15 +1,15 @@
 {
   "id": "north-south",
   "locale": "vi",
-  "title": "North South",
+  "title": "North-South",
   "description": "Người trên nằm ngược từ phía đầu đối thủ, kiểm soát chest-to-chest hoặc chest-to-back kèm áp lực vai.",
   "topPlayerGoals": [
-    "Người trên kiểm soát North South bằng vị trí đầu, vị trí trong và hướng áp lực.",
+    "Người trên kiểm soát North-South bằng vị trí đầu, vị trí trong và hướng áp lực.",
     "Dùng áp lực vai để siết cổ, tách tay rồi chuyển sang Side Control hoặc Mount.",
     "Giữ nền chắc để không bị đẩy mất thăng bằng hay bị phản đòn."
   ],
   "bottomPlayerGoals": [
-    "Người dưới cần sống sót ở North South bằng frame, pummel hoặc chọn đúng góc.",
+    "Người dưới cần sống sót ở North-South bằng frame, pummel hoặc chọn đúng góc.",
     "Đưa khuỷu tay về sườn, dựng frame và về lại Guard trước khi bị siết cổ.",
     "Nhận ra tín hiệu nguy hiểm từ sớm, thay vì chờ đến khi thế đã ổn định."
   ],
@@ -25,7 +25,7 @@
   ],
   "advancementOptions": [
     {
-      "action": "Chuyển Side Control hoặc back take",
+      "action": "Chuyển Side Control hoặc Back Take",
       "nextPositionId": "side-control-top",
       "relatedSkillIds": [
         "north-south-control",

@@ -62,7 +62,7 @@
   },
   "locale": "fr",
   "description": "Le Body Triangle utilise vos jambes verrouillées autour de leur taille pour contrôler leurs hanches et les empêcher de bouger. Il comprime le diaphragme et empêche la fuite des hanches.",
-  "shortInstruction": "Depuis le back control, glissez la jambe du dessus par-dessus leur hanche, verrouillez les jambes autour de leur taille (tibia derrière le genou), serrez pour comprimer le diaphragme et combattez des mains pour l'étranglement.",
+  "shortInstruction": "Depuis le Back Control, glissez la jambe du dessus par-dessus leur hanche, verrouillez les jambes autour de leur taille (tibia derrière le genou), serrez pour comprimer le diaphragme et combattez des mains pour l'étranglement.",
   "summary": "Le Body Triangle immobilise les hanches de l'adversaire en verrouillant vos jambes autour de leur taille. Il comprime le diaphragme, empêche l'échappée de hanche et ne peut pas être décollé facilement. C'est principalement un contrôle qui prépare le rear-naked choke.",
   "whyItWorks": [
     "Verrouiller vos jambes autour de leur taille comprime leur diaphragme, ils se fatiguent plus vite et ne peuvent pas générer de mouvement explosif",
@@ -88,7 +88,7 @@
     "Le Body Triangle peut causer une gêne au niveau des côtes, relâchez si le partenaire signale une gêne"
   ],
   "systemLogic": {
-    "corePrinciple": "Body Triangle : depuis le back control → glissez la jambe du dessus par-dessus leur hanche → verrouillez les jambes autour de leur taille (tibia derrière le genou) → serrez pour comprimer leur diaphragme → maintenez en combattant des mains pour le RNC.",
+    "corePrinciple": "Body Triangle : depuis le Back Control → glissez la jambe du dessus par-dessus leur hanche → verrouillez les jambes autour de leur taille (tibia derrière le genou) → serrez pour comprimer leur diaphragme → maintenez en combattant des mains pour le RNC.",
     "decisionTree": [
       {
         "condition": "Ils essaient de décoller le Triangle",

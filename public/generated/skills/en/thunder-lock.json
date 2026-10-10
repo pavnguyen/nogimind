@@ -85,11 +85,11 @@
     "hasStateMachine": false
   },
   "locale": "en",
-  "description": "The Thunder Lock is a shoulder lock applied from back control. You scoop the opponent's elbow and drive it behind their head, lock your hands together between their head and captured arm, clamp your chin over their wrist, and pull the arm across and down while the Body Triangle holds their spine in place. Mechanically it is a further nelson: the same hold used to break a Turtle, applied from the back. It is aimed directly at the common 'answer the phone' choke defense, so it chains naturally with the Rear Naked Choke, the Rear Triangle and the Armbar.",
-  "shortInstruction": "From back control with a Body Triangle, scoop their elbow and drive it behind their head, lock your hands together between the head and the arm, clamp your chin over their wrist, then pull the elbow across and down while the Body Triangle extends their spine.",
-  "summary": "The Thunder Lock is a back-control shoulder lock, mechanically a further nelson, that forces the opponent's arm behind their head and levers the shoulder into extreme rotation and extension. It punishes the 'answer the phone' choke defense and chains with Rear Naked Chokes, the Rear Triangle and Armbars.",
+  "description": "The Thunder Lock is a shoulder lock applied from Back Control. You scoop the opponent's elbow and drive it behind their head, lock your hands together between their head and captured arm, clamp your chin over their wrist, and pull the arm across and down while the Body Triangle holds their spine in place. Mechanically it is a Further Nelson: the same hold used to break a Turtle, applied from the back. It is aimed directly at the common 'answer the phone' choke defense, so it chains naturally with the Rear Naked Choke, the Rear Triangle and the Armbar.",
+  "shortInstruction": "From Back Control with a Body Triangle, scoop their elbow and drive it behind their head, lock your hands together between the head and the arm, clamp your chin over their wrist, then pull the elbow across and down while the Body Triangle extends their spine.",
+  "summary": "The Thunder Lock is a back-control shoulder lock, mechanically a Further Nelson, that forces the opponent's arm behind their head and levers the shoulder into extreme rotation and extension. It punishes the 'answer the phone' choke defense and chains with Rear Naked Chokes, the Rear Triangle and Armbars.",
   "whyItWorks": [
-    "It is a further nelson applied from the back: locking your hands between their head and captured arm makes their own spine and neck the fulcrum, so pulling the arm levers the shoulder past its range",
+    "It is a Further Nelson applied from the back: locking your hands between their head and captured arm makes their own spine and neck the fulcrum, so pulling the arm levers the shoulder past its range",
     "Their own choke defense loads the technique, when they raise an elbow to 'answer the phone', the elbow is already mid-travel, so you only have to scoop it behind the head",
     "The Body Triangle anchors their hips and spine, so the shoulder takes the whole load instead of the defender being able to move their body and relieve the pressure",
     "Gripping at the elbow, the middle of the lever, gives mechanical advantage: you can move the shoulder without needing grip strength at the wrist",
@@ -99,7 +99,7 @@
     "Pulling the wrist or hand instead of the elbow, the elbow is the lever, the hand is only the handle",
     "Attacking without the Body Triangle or hooks set, if their hips are free they spin and relieve the shoulder",
     "Keeping your chin out of the finish, you need your chin to trap and block their wrist so they cannot pull the arm back out",
-    "Losing your own back control while chasing the lock, swimming for the elbow with both hands can get you reversed",
+    "Losing your own Back Control while chasing the lock, swimming for the elbow with both hands can get you reversed",
     "Cranking fast, the shoulder has very little room; this is a slow, progressive lock"
   ],
   "coachingCues": [
@@ -116,7 +116,7 @@
     "Release immediately on the tap and never hold the finish after it"
   ],
   "systemLogic": {
-    "corePrinciple": "Thunder Lock: secure back control with a Body Triangle → let or force them to 'answer the phone' (elbow rises) → scoop their elbow behind their head → lock your hands between their head and captured arm → clamp your chin over their wrist → pull the elbow across and down while the Body Triangle extends their spine. The shoulder is levered past its range because the hips and the neck are both pinned.",
+    "corePrinciple": "Thunder Lock: secure Back Control with a Body Triangle → let or force them to 'answer the phone' (elbow rises) → scoop their elbow behind their head → lock your hands between their head and captured arm → clamp your chin over their wrist → pull the elbow across and down while the Body Triangle extends their spine. The shoulder is levered past its range because the hips and the neck are both pinned.",
     "decisionTree": [
       {
         "condition": "They defend the Rear Naked Choke by answering the phone (elbow high)",
@@ -132,21 +132,21 @@
       },
       {
         "condition": "They turn to their side to relieve the shoulder",
-        "action": "follow them, keep back control, and re-establish the Body Triangle"
+        "action": "follow them, keep Back Control, and re-establish the Body Triangle"
       },
       {
         "condition": "They escape the Body Triangle",
-        "action": "abandon the lock and recover back control before attacking again"
+        "action": "abandon the lock and recover Back Control before attacking again"
       }
     ],
     "exitStrategies": [
-      "When the lock stalls, release and return to the Rear Naked Choke threat",
+      "When the lock stalls, release and return to the Rear Naked Choke Threat",
       "When they fight the arm, chain to the Armbar or Rear Triangle",
-      "When you lose the hips, stop attacking and re-secure back control"
+      "When you lose the hips, stop attacking and re-secure Back Control"
     ]
   },
   "moneyDetails": [
-    "The Thunder Lock is a back-Mount shoulder lock and is mechanically a further nelson, which is why the community debates the name; it is the same hold you use to break a Turtle, applied from the back",
+    "The Thunder Lock is a back-Mount shoulder lock and is mechanically a Further Nelson, which is why the community debates the name; it is the same hold you use to break a Turtle, applied from the back",
     "Grip at the elbow: the elbow is the lever, the hand is only the handle",
     "The Body Triangle is what makes it work, it holds the hips so the shoulder cannot be relieved",
     "It is aimed at the 'answer the phone' defense, so it chains with the Rear Naked Choke and the Rear Triangle",
