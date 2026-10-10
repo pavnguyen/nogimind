@@ -37,6 +37,10 @@ export const fr = {
       defense: 'Sécurité',
       build: 'Créer',
       reference: 'Référence',
+      // Libellés pour la largeur d'un téléphone.
+      learningPath: 'Parcours',
+      positions: 'Positions',
+      concepts: 'Concepts',
     },
     openMenu: 'Ouvrir le menu de navigation',
   },
@@ -567,7 +571,7 @@ export const fr = {
       chain: 'Construire la branche',
       chainBody: 'Reliez entry, control, réponse à l’échec et follow-up au lieu de forcer un seul mouvement.',
       modern: 'Systèmes modernes',
-      modernBody: 'Filtrer octopus, clamp Guard, K-Guard, rides, false reap, smother et entrées modernes.',
+      modernBody: 'Filtrer octopus, clamp Guard, K-Guard, rides, False Reap, smother et entrées modernes.',
     },
     workflow: {
       title: 'Workflow technique',
@@ -581,7 +585,7 @@ export const fr = {
     debugShortcuts: 'Raccourcis diagnostic',
     shortcuts: {
       safety: 'Techniques critiques',
-      safetyBody: 'Revoyez Heel Hooks, false reap, smothers, attaques du cou et défenses tardives.',
+      safetyBody: 'Revoyez Heel Hooks, False Reap, smothers, attaques du cou et défenses tardives.',
       submissions: 'Finishes de soumission',
       submissionsBody: 'Vérifiez isolation, alignement, slack, finish trigger et prévention de sortie.',
       passing: 'Systèmes de passing',
@@ -720,6 +724,9 @@ export const fr = {
     memoryCue: 'Point mémoire court',
   },
   cardOS: {
+    jumpToSection: 'Aller à une section',
+    expandAll: 'Tout déplier',
+    collapseAll: 'Tout replier',
     systemLogic: 'Logique du système',
     corePrinciple: 'Principe fondamental',
     decisionTree: 'Arbre de décision',
@@ -730,6 +737,7 @@ export const fr = {
     moneyDetails: 'Détails clés',
     outcomesBranches: 'Résultats & Branches',
     fixItFast: 'Correction rapide',
+    fixItFastShort: 'Corriger',
     safety: 'Sécurité',
     nextStep: 'Étape suivante',
     oneMinuteMode: 'Mode une minute',

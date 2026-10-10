@@ -44,7 +44,7 @@ export const SkillHeader = ({ skill, lang, onPrintCard }: Props) => {
       {/* Back link */}
       <Link
         to="/skills"
-        className="inline-flex items-center gap-1.5 text-xs text-warm-500 transition-colors hover:text-warm-300"
+        className="inline-flex min-h-8 items-center gap-1.5 text-xs text-warm-500 transition-colors hover:text-warm-300"
       >
         <svg className="h-3.5 w-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
           <path strokeLinecap="round" strokeLinejoin="round" d="M10.5 19.5L3 12m0 0l7.5-7.5M3 12h18" />
@@ -121,8 +121,10 @@ export const SkillHeader = ({ skill, lang, onPrintCard }: Props) => {
         </button>
       </div>
 
-      {/* Short description */}
-      <p className="max-w-prose text-sm leading-6 text-warm-400">
+      {/* Short description, the lead paragraph of the page. It takes the full
+          column width and steps up a size on desktop: capping it at a prose
+          measure left an empty right column on wide screens. */}
+      <p className="text-[15px] leading-7 text-warm-300 lg:text-base lg:leading-8">
         {skill.shortDescription[lang]}
       </p>
 

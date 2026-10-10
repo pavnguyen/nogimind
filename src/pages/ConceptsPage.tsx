@@ -4,6 +4,7 @@ import { useTranslation } from 'react-i18next'
 import { ArrowRight } from 'lucide-react'
 import { Badge } from '../components/common/Badge'
 import { EmptyState } from '../components/common/EmptyState'
+import { FilterChip, FilterChipRow } from '../components/common/FilterChip'
 import { PageShell } from '../components/common/PageShell'
 import { SectionCard } from '../components/common/SectionCard'
 import { BookOpen } from 'lucide-react'
@@ -70,33 +71,16 @@ export default function ConceptsPage() {
               className="w-full rounded-md border border-warm-50/10 bg-warm-900 px-3 py-2 text-sm text-warm-50 outline-none focus:border-gold-300"
             />
             
-            <div className="flex gap-2 overflow-x-auto pb-2 scrollbar-none">
-              <button
-                type="button"
-                onClick={() => setParam('category', '')}
-                className={`shrink-0 rounded-full px-4 py-1.5 text-xs font-medium transition-all ${
-                  !category 
-                    ? 'bg-gold-500 text-on-accent shadow-lg shadow-gold-500/20' 
-                    : 'bg-warm-50/5 text-warm-400 hover:bg-warm-50/10 hover:text-warm-50'
-                }`}
-              >
+            <FilterChipRow label={t('common.filters')}>
+              <FilterChip active={!category} onClick={() => setParam('category', '')}>
                 {t('common.all')}
-              </button>
+              </FilterChip>
               {conceptCategories.map((item) => (
-                <button
-                  key={item}
-                  type="button"
-                  onClick={() => setParam('category', item)}
-                  className={`shrink-0 rounded-full px-4 py-1.5 text-xs font-medium transition-all ${
-                    category === item 
-                      ? 'bg-gold-500 text-on-accent shadow-lg shadow-gold-500/20' 
-                      : 'bg-warm-50/5 text-warm-400 hover:bg-warm-50/10 hover:text-warm-50'
-                  }`}
-                >
+                <FilterChip key={item} active={category === item} onClick={() => setParam('category', item)}>
                   {t(`conceptCategories.${item}`)}
-                </button>
+                </FilterChip>
               ))}
-            </div>
+            </FilterChipRow>
           </div>
         </div>
       }
@@ -110,9 +94,14 @@ export default function ConceptsPage() {
               to={`/concepts/${concept.id}`}
               className="group block rounded-xl border border-warm-50/[0.06] bg-warm-900/40 p-5 transition-all hover:border-gold-400/20 hover:bg-warm-900/70"
             >
-              <div className="flex flex-wrap gap-2">
+              {/* One tag per card plus a quiet level dot: two identically
+                  shaped pills sitting side by side read as nested badges. */}
+              <div className="flex flex-wrap items-center gap-x-3 gap-y-1">
                 <Badge tone="gold">{t(`conceptCategories.${concept.category}`)}</Badge>
-                <Badge tone="jade">{t(`conceptLevels.${concept.level}`)}</Badge>
+                <span className="inline-flex items-center gap-1.5 text-xs font-medium text-warm-400">
+                  <span className="h-1.5 w-1.5 shrink-0 rounded-full bg-jade-400" aria-hidden="true" />
+                  {t(`conceptLevels.${concept.level}`)}
+                </span>
               </div>
               <h2 className="mt-3 text-lg font-semibold text-warm-50 group-hover:text-gold transition-colors">
                 {getLocalizedText(concept.title, language)}

@@ -426,7 +426,8 @@ export default function SearchPage() {
             </select>
           </div>
           <div className="flex items-center gap-2">
-            <label className="flex items-center gap-2 text-sm text-warm-300 cursor-pointer">
+            {/* The label is the tap target, so it keeps a thumb-sized height. */}
+            <label className="flex min-h-8 cursor-pointer items-center gap-2 text-sm text-warm-300">
               <input
                 type="checkbox"
                 checked={mode === 'deep'}

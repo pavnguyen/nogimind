@@ -44,6 +44,10 @@ export const en = {
       defense: 'Defense',
       build: 'Build',
       reference: 'Reference',
+      // Phone-width labels for the Learn hub tabs.
+      learningPath: 'Roadmap',
+      positions: 'Positions',
+      concepts: 'Concepts',
     },
   },
   navGroups: {
@@ -494,7 +498,7 @@ export const en = {
       contact: 'Inspect contacts',
       contactBody: 'Find the exact hand, elbow, head, hip, knee, and pressure detail that is leaking.',
       modern: 'Modern systems',
-      modernBody: 'Filter octopus, clamp Guard, K-Guard, rides, false reap, smother, and modern entries.',
+      modernBody: 'Filter octopus, clamp Guard, K-Guard, rides, False Reap, smother, and modern entries.',
     },
     workflow: {
       title: 'Technical workflow',
@@ -508,7 +512,7 @@ export const en = {
     debugShortcuts: 'Debug shortcuts',
     shortcuts: {
       safety: 'Safety-critical skills',
-      safetyBody: 'Review Heel Hooks, false reap, smothers, neck attacks, and late-defense danger.',
+      safetyBody: 'Review Heel Hooks, False Reap, smothers, neck attacks, and late-defense danger.',
       submissions: 'Submission finishes',
       submissionsBody: 'Check isolation, alignment, slack removal, finish trigger, and escape prevention.',
       passing: 'Passing systems',
@@ -646,6 +650,9 @@ export const en = {
     memoryCue: 'Memory cue',
   },
   cardOS: {
+    jumpToSection: 'Jump to a section',
+    expandAll: 'Expand all',
+    collapseAll: 'Collapse all',
     systemLogic: 'System Logic',
     corePrinciple: 'Core Principle',
     decisionTree: 'Decision Tree',
@@ -656,6 +663,7 @@ export const en = {
     moneyDetails: 'Key Details',
     outcomesBranches: 'Outcomes & Branches',
     fixItFast: 'Fix It Fast',
+    fixItFastShort: 'Fix',
     safety: 'Safety',
     nextStep: 'Next Step',
     oneMinuteMode: 'One-Minute Mode',

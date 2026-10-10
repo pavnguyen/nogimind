@@ -18,7 +18,8 @@ export const LanguageSwitcher = () => {
           key={item.code}
           type="button"
           onClick={() => setLanguage(item.code)}
-          className={`rounded-md px-2 py-1.5 text-[11px] font-semibold tracking-wider transition ${
+          // py-2 keeps each language button at a comfortable phone tap height.
+          className={`rounded-md px-2.5 py-2 text-[11px] font-semibold tracking-wider transition ${
             language === item.code ? 'bg-jade-400 text-on-accent' : 'text-warm-400 hover:bg-warm-50/10 hover:text-warm-200'
           }`}
         >

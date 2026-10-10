@@ -136,7 +136,7 @@ const SkillLinks = ({
   return (
     <div className="mt-3 flex flex-wrap gap-2">
       {skills.map((skill) => (
-        <Link key={skill?.id} to={`/skills/${skill?.id}`} className="hallmark-detail-link rounded-md border px-2 py-1 text-xs">
+        <Link key={skill?.id} to={`/skills/${skill?.id}`} className="hallmark-detail-link inline-flex min-h-8 items-center rounded-md border px-2 py-1 text-xs">
           {skill?.name}
         </Link>
       ))}

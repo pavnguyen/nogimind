@@ -98,7 +98,7 @@ const SkillLinks = ({
   return (
     <div className={`flex flex-wrap gap-2 ${className}`}>
       {skills.map((skill) => (
-        <Link key={skill?.id} to={`/skills/${skill?.id}`} className="hallmark-detail-link rounded-md border px-2 py-1 text-xs">
+        <Link key={skill?.id} to={`/skills/${skill?.id}`} className="hallmark-detail-link inline-flex min-h-8 items-center rounded-md border px-2 py-1 text-xs">
           {skill?.name}
         </Link>
       ))}
@@ -113,7 +113,7 @@ const ConceptLinks = ({ ids, conceptsById, lang }: { ids: string[]; conceptsById
   return (
     <div className="flex flex-wrap gap-2">
       {concepts.map((concept) => (
-        <Link key={concept?.id} to={`/concepts/${concept?.id}`} className="hallmark-detail-link rounded-md border px-2 py-1 text-xs">
+        <Link key={concept?.id} to={`/concepts/${concept?.id}`} className="hallmark-detail-link inline-flex min-h-8 items-center rounded-md border px-2 py-1 text-xs">
           {getLocalizedText(concept?.title, lang)}
         </Link>
       ))}

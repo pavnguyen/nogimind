@@ -50,7 +50,7 @@ export const VideoReferenceCard = ({
       <div className="flex min-w-0 flex-col gap-3 sm:gap-4">
         {/* Badges row */}
         <div className="flex flex-wrap items-center gap-1.5 sm:gap-2">
-          <span className="inline-flex items-center gap-1 rounded-md bg-hallmark-accent-dim px-2 py-0.5 text-[11px] font-semibold uppercase tracking-wider hallmark-accent-text">
+          <span className="label-eyebrow inline-flex items-center gap-1 rounded-md bg-hallmark-accent-dim px-2 py-0.5 hallmark-accent-text">
             {relevance === 'primary'
               ? t('video.relevance.primary_reference', 'Primary')
               : t('video.relevance.supplemental', 'Supplemental')}

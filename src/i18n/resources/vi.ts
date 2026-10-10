@@ -83,6 +83,10 @@ export const vi = {
       defense: 'Phòng thủ',
       build: 'Xây dựng',
       reference: 'Tra cứu',
+      // Nhãn cho tab ở khổ điện thoại.
+      learningPath: 'Roadmap',
+      positions: 'Vị trí',
+      concepts: 'Khái niệm',
     },
     openMenu: 'Mở menu điều hướng',
   },
@@ -111,7 +115,7 @@ export const vi = {
         back: 'Back Control',
         submissions: 'Submissions',
         wrestling: 'Vật',
-        escapes: 'Thoát thế',
+        escapes: 'Escape',
         survival: 'Sinh tồn và phòng thủ',
         awareness: 'Nhận biết vị trí',
       },
@@ -140,7 +144,7 @@ export const vi = {
   reference: {
     badge: 'Tra cứu',
     heading: 'Tra cứu',
-    subtitle: 'Tra nhanh thuật ngữ, cue, chi tiết, khái niệm và an toàn.',
+    subtitle: 'Tra nhanh thuật ngữ, chi tiết, khái niệm và an toàn.',
     items: {
       glossary: { title: 'Thuật ngữ', body: 'Tra nghĩa các từ chuyên môn thường gặp trong no-gi.' },
       concepts: { title: 'Khái niệm', body: 'Nắm những nguyên lý xuất hiện trong nhiều kỹ năng.' },
@@ -230,7 +234,7 @@ export const vi = {
   learn: {
     badge: 'Bắt đầu ở đây',
     heading: 'Roadmap',
-    subtitle: 'Từng bước: vị trí → khái niệm → kỹ năng → chi tiết → thoát hiểm → lối chơi.',
+    subtitle: 'Vị trí → khái niệm → kỹ năng → lối chơi.',
     whatFor: 'Chọn bước học tiếp theo phù hợp, thay vì chuyển qua lại giữa các nội dung một cách ngẫu nhiên.',
     primaryAction: 'Bắt đầu với Bản đồ kỹ năng',
     badges: {
@@ -570,7 +574,7 @@ export const vi = {
       chain: 'Nối nhánh tiếp theo',
       chainBody: 'Nối entry, control, Failure Response và follow-up thay vì cố ép một đòn.',
       modern: 'Hệ hiện đại',
-      modernBody: 'Lọc octopus, clamp Guard, K-Guard, rides, false reap, smother và entry hiện đại.',
+      modernBody: 'Lọc octopus, clamp Guard, K-Guard, rides, False Reap, smother và entry hiện đại.',
     },
     workflow: {
       title: 'Workflow kỹ thuật',
@@ -584,7 +588,7 @@ export const vi = {
     debugShortcuts: 'Lối tắt debug',
     shortcuts: {
       safety: 'Kỹ thuật cần chú ý an toàn',
-      safetyBody: 'Xem Heel Hook, false reap, smother, tấn công cổ và các tình huống nguy hiểm khi phản ứng muộn.',
+      safetyBody: 'Xem Heel Hook, False Reap, smother, tấn công cổ và các tình huống nguy hiểm khi phản ứng muộn.',
       submissions: 'Kết thúc Submission',
       submissionsBody: 'Kiểm tra isolation, alignment, xóa slack, thời điểm siết và chặn đường thoát.',
       passing: 'Hệ passing',
@@ -618,7 +622,7 @@ export const vi = {
     newUpdates: {
       heading: 'Cập nhật mới',
       item1: 'Thêm hai đòn khóa: Thunder Lock / Further Nelson và Mussolini Lock / Cross-Achilles Shin Lock',
-      item2: 'Thunder Lock: đòn khóa vai từ kiểm soát lưng, nối với siết cổ sau (RNC), Rear Triangle và Armbar',
+      item2: 'Thunder Lock: đòn khóa vai từ kiểm soát lưng, nối với Rear Naked Choke (RNC), Rear Triangle và Armbar',
       item3: 'Mussolini Lock: đòn khóa ống chân cross-Achilles từ 50/50, tấn công ống chân và cổ chân mà không cần lộ gót',
       viewSkill: 'Xem kỹ thuật',
     },
@@ -679,7 +683,7 @@ export const vi = {
   },
   skills: {
     heading: 'Bản đồ kỹ năng',
-    subtitle: 'No-gi hiện đại qua prerequisites, decision points và transitions.',
+    subtitle: 'Skill Map',
     whatFor: 'Dùng trang này khi bạn muốn chọn một kỹ năng và học sâu nó.',
     whenToUse: 'Chọn một kỹ năng rồi đi vào Quick Mode, chi tiết trọng điểm, checklist chất lượng và knowledge liên quan.',
     nextStep: 'Mới bắt đầu? Đi theo lộ trình học.',
@@ -722,6 +726,9 @@ export const vi = {
     memoryCue: 'Điểm nhớ ngắn',
   },
   cardOS: {
+    jumpToSection: 'Đi tới mục',
+    expandAll: 'Mở tất cả',
+    collapseAll: 'Thu gọn',
     systemLogic: 'Logic hệ thống',
     corePrinciple: 'Nguyên lý cốt lõi',
     decisionTree: 'Cây quyết định',
@@ -732,6 +739,7 @@ export const vi = {
     moneyDetails: 'Phân tích chi tiết',
     outcomesBranches: 'Kết quả & Nhánh tiếp',
     fixItFast: 'Sửa nhanh',
+    fixItFastShort: 'Sửa',
     safety: 'An toàn',
     nextStep: 'Bước tiếp theo',
     oneMinuteMode: 'Chế độ 1 phút',
@@ -753,7 +761,7 @@ export const vi = {
     contacts: 'Điểm chạm',
     keyContact: 'Điểm chạm chính',
     keyContacts: 'Các điểm chạm chính',
-    topDetails: 'Điểm cue thực thi',
+    topDetails: 'Tín hiệu chỉnh form',
     details: 'chi tiết',
     qualityChecks: 'Kiểm tra chất lượng',
     liveCues: 'Chỉ dẫn khi roll',
@@ -892,7 +900,7 @@ export const vi = {
     ...en.positions,
     heading: 'Bản đồ vị trí',
     subtitle: 'Lớp knowledge riêng cho vị trí no-gi, điểm kiểm soát, danger signal và nhánh chuyển tiếp.',
-    whatFor: 'Bạn đang ở đâu, vị trí đó muốn gì, và bước tiếp theo.',
+    whatFor: 'Bạn đang ở đâu và bước tiếp theo.',
     whenToUse: 'Mở vị trí trước khi học skill, escape hoặc chi tiết control từ đó.',
     nextStep: 'Mở các skill bắt đầu từ vị trí này.',
     learnStepByStep: 'Học vị trí này theo từng bước',

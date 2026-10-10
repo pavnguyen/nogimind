@@ -11,7 +11,7 @@ const options: { value: ThemePreference; labelKey: string; icon: LucideIcon }[] 
 ]
 
 /**
- * Appearance picker. It only writes the preference to the store —
+ * Appearance picker. It only writes the preference to the store,
  * `useThemeSync` (mounted in App) turns it into `<html data-theme>`.
  */
 export const ThemeSwitcher = () => {
@@ -34,7 +34,7 @@ export const ThemeSwitcher = () => {
             onClick={() => setTheme(value)}
             aria-pressed={active}
             className={cn(
-              'inline-flex items-center gap-1.5 rounded-md px-3 py-1.5 text-[11px] font-semibold tracking-wide transition',
+              'inline-flex min-h-9 items-center gap-1.5 rounded-md px-3 py-2 text-[11px] font-semibold tracking-wide transition',
               active ? 'bg-jade-400 text-on-accent' : 'text-warm-400 hover:bg-warm-50/10 hover:text-warm-200',
             )}
           >

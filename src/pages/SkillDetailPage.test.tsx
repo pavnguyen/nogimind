@@ -83,8 +83,10 @@ describe('SkillDetailPage deep links', () => {
   it('opens the tab that renders the linked section and scrolls to it', async () => {
     renderAt(`/skills/anchor-probe#${SKILL_SECTIONS.systemLogic}`)
 
-    // Learn tab rendered because the anchor points into it.
-    expect(await screen.findByText('cardOS.systemLogic')).toBeInTheDocument()
+    // Learn tab rendered because the anchor points into it. The section title
+    // also appears in the in-page section rail, so the tab is asserted through
+    // the selected tab and the rendered section anchor instead of unique text.
+    expect(await screen.findByRole('tab', { name: /common\.learn/ })).toHaveAttribute('aria-selected', 'true')
     await waitFor(() => expect(scrolledIds).toContain(SKILL_SECTIONS.systemLogic))
     expect(document.getElementById(SKILL_SECTIONS.systemLogic)).toBeInTheDocument()
   })

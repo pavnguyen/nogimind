@@ -136,7 +136,7 @@ export default function SkillDetailPage() {
   }, [skill, isPipelineAvailable, pipelineDetail, language])
 
   const tabs = useMemo(() => {
-    const items: { id: TabId; label: string; icon: ReactNode; count?: number; accent: string }[] = []
+    const items: { id: TabId; label: string; shortLabel?: string; icon: ReactNode; count?: number; accent: string }[] = []
 
     // Show Learn tab if either pipeline or legacy has content
     if (hasPipelineLearnContent) {
@@ -145,13 +145,21 @@ export default function SkillDetailPage() {
 
     // Show Fix tab if either pipeline or legacy has content
     if (hasPipelineFixContent) {
-      items.push({ id: 'fix', label: t('cardOS.fixItFast'), icon: TabIcons.fix, accent: 'steel' })
+      items.push({
+        id: 'fix',
+        label: t('cardOS.fixItFast'),
+        shortLabel: t('cardOS.fixItFastShort'),
+        icon: TabIcons.fix,
+        accent: 'steel',
+        // How many troubles the tab solves, visible before switching tabs.
+        count: pipelineFixItFast?.length,
+      })
     }
 
     // Watch tab, always first
     items.unshift({ id: 'watch', label: t('video.videoReferences'), icon: TabIcons.watch, accent: 'sea' })
     return items
-  }, [hasPipelineLearnContent, hasPipelineFixContent, t])
+  }, [hasPipelineLearnContent, hasPipelineFixContent, pipelineFixItFast?.length, t])
 
   // ── Deep links from search results ─────────────────────────────────────
   // A result such as `/skills/Armbar#pipeline-system-logic` must open the tab
@@ -257,7 +265,9 @@ export default function SkillDetailPage() {
         <div className="mt-6 min-h-[300px]">
           <TabPanel id="learn" activeTab={activeTab}>
             {hasPipelineLearnContent && pipelineDetail ? (
-              <PipelineLearnTab detail={pipelineDetail} />
+              // Keyed by skill so the expanded sections reset when the reader
+              // moves to another skill through a related link.
+              <PipelineLearnTab key={pipelineDetail.id} detail={pipelineDetail} />
             ) : (
               <p className="text-sm text-warm-500">{t('common.none')}</p>
             )}

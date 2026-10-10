@@ -74,7 +74,7 @@ export default function PositionDetailPage() {
                 <p className="font-semibold text-warm-50">{getLocalizedText(option.action, language)}</p>
                 <p className="mt-2 text-sm leading-6 text-warm-400">{getLocalizedText(option.why, language)}</p>
                 {next ? (
-                  <Link to={`/positions/${next.id}`} className="hallmark-detail-link mt-3 inline-flex rounded-md border px-2 py-1 text-xs">
+                  <Link to={`/positions/${next.id}`} className="hallmark-detail-link mt-3 inline-flex min-h-8 items-center rounded-md border px-2 py-1 text-xs">
                     {getLocalizedText(next.title, language)}
                   </Link>
                 ) : null}
@@ -130,7 +130,7 @@ const SkillLinks = ({ ids, skillsById, lang }: { ids: string[]; skillsById: Map<
   return (
     <div className="mt-3 flex flex-wrap gap-2">
       {skills.map((skill) => (
-        <Link key={skill?.id} to={`/skills/${skill?.id}`} className="hallmark-detail-link rounded-md border px-2 py-1 text-xs">
+        <Link key={skill?.id} to={`/skills/${skill?.id}`} className="hallmark-detail-link inline-flex min-h-8 items-center rounded-md border px-2 py-1 text-xs">
           {getLocalizedText(skill?.title, lang)}
         </Link>
       ))}

@@ -5,6 +5,8 @@ export type TabId = 'learn' | 'fix' | 'watch' | 'chain'
 type TabDef = {
   id: TabId
   label: string
+  /** Short form of `label` for phones, where three full labels do not fit. */
+  shortLabel?: string
   icon: ReactNode
   count?: number
   accent: string
@@ -46,21 +48,23 @@ export const SkillDetailTabs = ({ tabs, activeTab, onTabChange }: Props) => {
               id={`tab-${tab.id}`}
               aria-selected={isActive}
               aria-controls={`tabpanel-${tab.id}`}
-              onClick={() => onTabChange(tab.id)}                  className={`
-                relative flex shrink-0 items-center gap-2 rounded-xl border px-3.5 py-2.5 text-[13px] font-semibold
-                transition-all duration-200
+              onClick={() => onTabChange(tab.id)}
+              className={`
+                relative flex shrink-0 items-center gap-1.5 rounded-xl border px-2.5 py-2.5 text-xs font-semibold
+                transition-all duration-200 sm:gap-2 sm:px-3.5 sm:text-[13px]
                 ${isActive
                   ? tabAccentClasses[tab.id]
                   : `border-warm-50/[0.06] bg-warm-50/[0.02] text-warm-500 ${tabInactiveAccents[tab.id]} hover:bg-warm-50/[0.04]`
                 }
               `}
             >
-              <span className="h-4 w-4 shrink-0">{tab.icon}</span>
-              <span className="whitespace-nowrap">{tab.label}</span>
+              <span className="h-3.5 w-3.5 shrink-0 sm:h-4 sm:w-4">{tab.icon}</span>
+              <span className="whitespace-nowrap sm:hidden">{tab.shortLabel ?? tab.label}</span>
+              <span className="hidden whitespace-nowrap sm:inline">{tab.label}</span>
               {tab.id === 'watch' && (
                 <span
                   aria-hidden="true"
-                  className={`ml-0.5 inline-flex h-5 w-5 items-center justify-center rounded-full border transition-colors ${
+                  className={`ml-0.5 hidden h-5 w-5 items-center justify-center rounded-full border transition-colors sm:inline-flex ${
                     isActive
                       ? 'hallmark-tab-active border'
                       : 'border-warm-50/10 bg-warm-50/[0.03] text-warm-500'

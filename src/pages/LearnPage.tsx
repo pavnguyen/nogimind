@@ -246,9 +246,9 @@ export default function LearnPage() {
     >
       <HubTabBar
         tabs={[
-          { id: 'path', labelKey: 'nav.learningPath', icon: Compass },
-          { id: 'positions', labelKey: 'nav.positions', icon: Map },
-          { id: 'concepts', labelKey: 'nav.concepts', icon: BookOpen },
+          { id: 'path', labelKey: 'nav.learningPath', shortLabelKey: 'nav.short.learningPath', icon: Compass },
+          { id: 'positions', labelKey: 'nav.positions', shortLabelKey: 'nav.short.positions', icon: Map },
+          { id: 'concepts', labelKey: 'nav.concepts', shortLabelKey: 'nav.short.concepts', icon: BookOpen },
         ]}
         className="mb-6"
       />

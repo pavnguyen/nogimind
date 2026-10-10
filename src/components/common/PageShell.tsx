@@ -53,7 +53,7 @@ export const PageShell = ({
               {backTo ? (
                 <Link
                   to={backTo}
-                  className="mb-3 inline-flex items-center gap-1.5 text-xs font-medium hallmark-link-muted"
+                  className="mb-3 inline-flex min-h-8 items-center gap-1.5 text-xs font-medium hallmark-link-muted"
                 >
                   <ArrowLeft className="h-3.5 w-3.5" aria-hidden="true" />
                   {backLabel ?? 'Back'}

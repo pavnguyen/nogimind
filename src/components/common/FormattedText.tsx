@@ -14,7 +14,21 @@ type Group = {
   items: ParsedLine[]
 }
 
-function parseLines(text: string): ParsedLine[] {
+/**
+ * Heading detection only applies to structured text.
+ *
+ * A string without a single line break is one sentence the caller has already
+ * styled, so it must not be promoted: the old heuristic turned every sentence
+ * shorter than 80 characters that lacked a final period into an uppercase
+ * <h3> (for example the safety rules in the Fix tab, or a French sentence
+ * ending on a space before its question mark).
+ */
+function isStructured(text: string): boolean {
+  const lines = text.split('\n')
+  return lines.length > 1 && lines.some((line) => line.trim().length > 0)
+}
+
+function parseLines(text: string, structured: boolean): ParsedLine[] {
   return text.split('\n').map((line) => {
     const trimmed = line.trim()
     if (!trimmed) return { type: 'empty', content: '' }
@@ -26,6 +40,7 @@ function parseLines(text: string): ParsedLine[] {
 
     // Detect if this looks like a section header (short, no punctuation ending, typically a title)
     if (
+      structured &&
       trimmed.length < 80 &&
       !trimmed.endsWith('.') &&
       !trimmed.endsWith(':') &&
@@ -99,13 +114,28 @@ function renderInlineContent(text: string) {
 type FormattedTextProps = {
   text: string
   className?: string
+  /**
+   * Renders one inline run of text instead of block groups: no heading, list or
+   * paragraph detection, only the `**bold**` markers. Use it inside compact
+   * cards where a short string must not become a heading.
+   */
+  inline?: boolean
 }
 
-export const FormattedText = ({ text, className }: FormattedTextProps) => {
+export const FormattedText = ({ text, className, inline = false }: FormattedTextProps) => {
   const groups = useMemo(() => {
-    const lines = parseLines(text)
+    if (inline) return []
+    const lines = parseLines(text, isStructured(text))
     return buildGroups(lines)
-  }, [text])
+  }, [text, inline])
+
+  if (inline) {
+    return (
+      <span className={cn('leading-6 text-warm-300', className)}>
+        {renderInlineContent(text.replace(/\s+/g, ' ').trim())}
+      </span>
+    )
+  }
 
   return (
     <div className={cn('space-y-3 leading-7 text-warm-300', className)}>

@@ -2,7 +2,7 @@
 
 /* Only app source defines classes. Without this, Tailwind's automatic source
  * detection also scans the Markdown notes at the repo root, where the old
- * palette is quoted verbatim — which would ship dead `slate-*`/`emerald-*`
+ * palette is quoted verbatim, which would ship dead `slate-*`/`emerald-*`
  * utilities alongside the new palette. */
 @source not "../*.md";
 
@@ -13,7 +13,7 @@
   --font-display: 'Archivo Variable', 'Archivo', ui-sans-serif, system-ui, sans-serif;
   --font-mono: 'JetBrains Mono', 'Fira Code', monospace;
 
-  /* ══ NoGiMind palette — warm charcoal + grappling tones ═══════════════════
+  /* ══ NoGiMind palette - warm charcoal + grappling tones ═════════════════════
    * Single source of truth for colour. `npm run validate:contrast`
    * (scripts/validate-contrast.ts) re-checks every pair below against WCAG AA.
    *
@@ -29,7 +29,7 @@
    * driven by the appearance preference) re-points these same variables, so
    * components never need a mode-specific class.
    * ════════════════════════════════════════════════════════════════════════ */
-  /* neutral charcoal — replaces the cold `slate` scale */
+  /* neutral charcoal, replaces the cold `slate` scale */
   --color-warm-50: #f7f5f1;
   --color-warm-100: #f2efe9;
   --color-warm-200: #e9e4da;
@@ -334,11 +334,17 @@ h4, h5, h6 {
 }
 
 /* ── Interactive elements ── */
-button,
-input,
-select,
-textarea {
-  font: inherit;
+/* Native controls start from the document font. This stays inside `@layer
+ * base`: unlayered CSS beats every Tailwind layer, so outside a layer it also
+ * swallowed the typography utilities (text-xs, font-semibold, ...) that the
+ * components put on their own buttons and inputs. */
+@layer base {
+  button,
+  input,
+  select,
+  textarea {
+    font: inherit;
+  }
 }
 
 a {
@@ -392,6 +398,38 @@ textarea:focus-visible,
 
 *::-webkit-scrollbar-thumb:hover {
   background: var(--hallmark-scrollbar-thumb-hover, rgba(62, 201, 182, 0.50));
+}
+
+/* ── Horizontal chip / tab rows ──
+ * The themed scrollbar above is right for pages and panels, but it turns a
+ * single-line chip row or tab bar into an extra coloured band that sits under
+ * the buttons. These two helper classes switch it off for that use.
+ * (Plain CSS on purpose: these rules have to sit outside the `utilities`
+ * layer to outrank the `*::-webkit-scrollbar` block above.) */
+.scrollbar-none,
+.scrollbar-hide {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.scrollbar-none::-webkit-scrollbar,
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+/* ── Small uppercase label (section kicker, chip label, eyebrow) ──
+ * One recipe for the label role. The app had grown eleven near-identical
+ * variants of this line (10/11/12px combined with tracking between 0.1em and
+ * 0.18em), so two labels in the same card could disagree. Colour, spacing and
+ * the chip background stay with the caller. */
+.label-eyebrow {
+  font-size: 10px;
+  font-weight: 600;
+  line-height: 1.5;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
 }
 
 /* ── Selection (theme-aware) ── */
