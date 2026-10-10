@@ -48,8 +48,7 @@
       "group:back_control",
       "modern-no-gi",
       "shoulder-lock",
-      "nelson",
-      "back-control"
+      "nelson"
     ],
     "summary": "The Thunder Lock is a back-control shoulder lock, mechanically a Further Nelson, that forces the opponent's arm behind their head and levers the shoulder into extreme rotation and extension. It punishes the 'answer the phone' choke defense and chains with Rear Naked Chokes, the Rear Triangle and Armbars.",
     "hasVideos": true,
@@ -62,7 +61,7 @@
     "level": "intermediate",
     "name": "Back Escape",
     "tags": [
-      "escape",
+      "family:escape",
       "back"
     ],
     "summary": "Back Escape requires winning the hand fight first, then creating space by dropping the trapped shoulder below the opponent's hip line. A systematic branch: hand fight → shoulder slip → single hook removal → turn or stand-up.",
@@ -93,8 +92,7 @@
       "compression",
       "strangle",
       "neck-safety",
-      "leg-lock",
-      "decision-making"
+      "leg-lock"
     ],
     "summary": "Compression attacks (slicers) apply pressure that traps a muscle belly against a bone, creating sharp localized pain. Strangles (blood chokes) apply pressure to the carotid arteries. The response is opposite: for Compression Locks, tap when the pain becomes sharp (they will not make you unconscious). For blood chokes, you can defend longer because unconsciousness is reversible. The danger is confusing a deep blood choke that feels like neck pressure with a crank, tap early if the pressure feels wrong.",
     "hasVideos": true,
@@ -106,10 +104,7 @@
     "domain": "positional_awareness",
     "level": "intermediate",
     "name": "Dilemmas and Two-Way Attacks",
-    "tags": [
-      "decision-making",
-      "offense"
-    ],
+    "tags": [],
     "summary": "A dilemma is any position where the opponent's defensive response to one attack opens a second, equally dangerous attack. The most powerful dilemmas link a sweep and a submission (e.g., scissor sweep → Kimura from Closed Guard) or a pass and a Back Take (e.g., passing to one side exposes the back). The system teaches you to chain attacks rather than firing single techniques and restarting on failure.",
     "hasVideos": true,
     "hasMicroDetails": false,
@@ -121,8 +116,7 @@
     "level": "intermediate",
     "name": "Failure Response and Transitions",
     "tags": [
-      "transitions",
-      "systems"
+      "transition"
     ],
     "summary": "Failure Response is a structured decision tree for when Technique A does not work. The system has four escalating responses: (1) angle adjustment, shift your body 10-30 degrees without changing the technique, (2) grip adjustment, change where or how you hold the opponent, (3) position change, move to a different position while maintaining the same attack theme, (4) safe retreat, disengage and reset to neutral. The key principle is to exhaust options 1-3 before accepting option 4.",
     "hasVideos": true,
@@ -149,7 +143,7 @@
     "level": "intermediate",
     "name": "Front Headlock Defense",
     "tags": [
-      "front-headlock",
+      "family:front-headlock",
       "neck-safety"
     ],
     "summary": "Front Headlock Defense is a systematic response to one of the most dangerous positions in no-gi grappling. The priority is neck protection first, then wrist control, then base recovery, and finally escape. The system rewards timing and calm decision-making over explosive movement.",
@@ -163,8 +157,7 @@
     "level": "intermediate",
     "name": "Guard Pulling Strategy",
     "tags": [
-      "strategy",
-      "Guard"
+      "family:guard"
     ],
     "summary": "Guard pulling should be an offensive transition, not a defensive retreat. The sequence is: establish a dominant grip → create an angle by circling or Pummeling → control the distance by maintaining the grip → sit back with control → enter directly into your best Guard system. A well-executed Guard pull arrives in a scoring Guard (not flat on your back) with grips already established and the opponent off-balance.",
     "hasVideos": true,
@@ -178,7 +171,7 @@
     "name": "Guillotine Defense and Escape",
     "tags": [
       "defense",
-      "Guillotine",
+      "guillotine",
       "choke-defense",
       "headlock",
       "neck-safety",
@@ -195,8 +188,8 @@
     "level": "intermediate",
     "name": "Half Guard Bottom Escape",
     "tags": [
-      "escape",
-      "half-Guard",
+      "family:escape",
+      "half-guard",
       "underhook",
       "dogfight",
       "wrestle-up"
@@ -212,7 +205,6 @@
     "level": "beginner",
     "name": "Inside Position",
     "tags": [
-      "mechanics",
       "pummeling"
     ],
     "summary": "Inside Position is the control of the space between your body and the opponent's center line. From here, all submissions, sweeps, passes, and pins are generated. The Inside Position exists at four levels: hand inside (Pummeling for wrist/elbow control), knee inside (Pummeling for Guard/Half Guard), hip inside (Inside Position for passing/sweeping), and head inside (head control for takedowns/Turtle breaks). Loss of Inside Position at any level cascades upward, losing the knee inside leads to losing the hip inside.",
@@ -226,7 +218,6 @@
     "level": "beginner",
     "name": "Kani Basami Safety",
     "tags": [
-      "safety",
       "knee-safety",
       "takedown",
       "tier:safety-critical",
@@ -281,7 +272,7 @@
     "level": "beginner",
     "name": "Leg Lock Safety Basics",
     "tags": [
-      "leg-lock",
+      "family:leg-lock",
       "knee-safety"
     ],
     "summary": "Leg Lock Safety Basics covers the four fundamental safety concepts that every grappler must master before attempting or defending Leg Locks: (1) Knee Line, the invisible line at the back of the knee that, when crossed, signals the need for tap or escape, (2) heel exposure, when the heel is isolated and separated from the thigh, the knee is in danger, (3) safe rotation, rotating toward the free leg is always safe, rotating away is always dangerous, (4) tap discipline, tapping to position rather than pain is the golden rule of Leg Lock training.",
@@ -295,8 +286,8 @@
     "level": "beginner",
     "name": "Mount Escape",
     "tags": [
-      "escape",
-      "Mount"
+      "family:escape",
+      "mount"
     ],
     "summary": "Mount Escape uses a sequenced bridge to create space, elbow placement to block the crossface, and hip escape to recover Guard or a knee-shield position. The system rewards timing over explosiveness.",
     "hasVideos": true,
@@ -310,7 +301,7 @@
     "name": "Mount Survival",
     "tags": [
       "survival",
-      "Mount"
+      "mount"
     ],
     "summary": "Mount Survival requires preventing the opponent from establishing high Mount by managing three attack lanes: the arm isolation lane (elbows flared = Armbar or shoulder attacks), the neck lane (elbows high = collar choke or crossface), and the hip lane (knees high = high Mount progression). Survival is active, not passive, small adjustments and well-timed bumps prevent the opponent from settling their weight.",
     "hasVideos": true,
@@ -323,8 +314,6 @@
     "level": "intermediate",
     "name": "Neck Crank Recognition",
     "tags": [
-      "safety",
-      "neck-safety",
       "cervical-spine",
       "tier:safety-critical",
       "risk:safety-critical",
@@ -346,7 +335,7 @@
       "escape",
       "pin",
       "north-south",
-      "frame",
+      "frames",
       "knee-shield"
     ],
     "summary": "North-South escape uses a forearm frame on the hips to create separation, then a Knee Shield to turn into the opponent and recover Guard. The system is distinct from Side Control escapes because the opponent's weight is aligned along your centerline rather than perpendicular to it.",
@@ -359,10 +348,7 @@
     "domain": "positional_awareness",
     "level": "beginner",
     "name": "Positional Hierarchy",
-    "tags": [
-      "map",
-      "decision-making"
-    ],
+    "tags": [],
     "summary": "The Positional Hierarchy ranks grappling positions from most vulnerable to most dominant. The system dictates your tactical objective at every position: if you are in a bottom position (worse), your goal is to escape. If you are in a top position (better), your goal is to advance or submit. Every decision you make should be filtered through this hierarchy, do not attempt a submission from a position where you do not have positional dominance first.",
     "hasVideos": true,
     "hasMicroDetails": false,
@@ -375,7 +361,6 @@
     "name": "Priit Turtle Escapes",
     "tags": [
       "turtle",
-      "escape",
       "survival",
       "tier:modern-expansion",
       "meta:modern_common",
@@ -394,7 +379,6 @@
     "level": "beginner",
     "name": "Reaping Awareness",
     "tags": [
-      "safety",
       "knee-safety",
       "leg-lock",
       "tier:safety-critical",
@@ -415,8 +399,8 @@
     "level": "advanced",
     "name": "Scramble Control",
     "tags": [
-      "scramble",
-      "transitions"
+      "family:scramble",
+      "transition"
     ],
     "summary": "Scramble Control transforms chaotic exchanges into a systematic priority race. The four priorities in order are: (1) Head Position, get your forehead to their jaw line, (2) hip height, keep your hips below or level with theirs, (3) Inside Position, beat their hands, knees, and elbows to the inside lane, and (4) back exposure, never show your back. The grappler who structures first forces the opponent to react and gains positional advantage.",
     "hasVideos": true,
@@ -457,9 +441,7 @@
     "level": "advanced",
     "name": "Smother Safety",
     "tags": [
-      "smother",
       "compression",
-      "safety",
       "tier:safety-critical",
       "meta:specialized",
       "risk:safety-critical",
@@ -514,7 +496,7 @@
     "name": "Butterfly Guard Off-Balance",
     "tags": [
       "butterfly",
-      "Guard"
+      "family:guard"
     ],
     "summary": "Butterfly Guard Off-Balance is the engine of the entire butterfly system. Without breaking the opponent's base, you cannot sweep or attack. The goal is to make them post a hand or step, then you move.",
     "hasVideos": true,
@@ -527,7 +509,6 @@
     "level": "intermediate",
     "name": "Clamp Guard Control",
     "tags": [
-      "clamp-Guard",
       "shoulder-line",
       "overhook",
       "tier:modern-expansion",
@@ -548,10 +529,10 @@
     "level": "advanced",
     "name": "Clamp Guard to Triangle Bridge",
     "tags": [
-      "clamp-Guard",
+      "clamp-guard",
       "triangle",
       "transition",
-      "Guard-offense",
+      "guard-offense",
       "submission-chain"
     ],
     "summary": "The clamp-to-triangle bridge is the primary attack chain from the clamp Guard. When the opponent feels the clamp and tries to escape by standing or posturing, they create exactly the space you need to throw your leg over their shoulder. Their escape becomes your setup. The bridge is not a strength move, it's a timing and angle transition.",
@@ -596,11 +577,11 @@
     "level": "intermediate",
     "name": "Coyote Half Guard",
     "tags": [
-      "half-Guard",
+      "half-guard",
       "coyote-hook",
       "waiter-sweep",
       "sweep",
-      "Guard-offense",
+      "guard-offense",
       "underhook"
     ],
     "summary": "The Coyote Half Guard solves the biggest problem of traditional Half Guard: being flattened. By inserting a deep underhook and turning to your side, you create space, angle your body, and off-balance the opponent. The coyote hook (your inside leg hooking their far leg) gives you direct control of their base. This system is particularly effective against pressure passers because it uses their forward pressure against them.",
@@ -615,7 +596,7 @@
     "name": "De La Riva Sweeps",
     "tags": [
       "de-la-riva",
-      "Guard",
+      "family:guard",
       "sweep"
     ],
     "summary": "De La Riva (DLR) Guard is the most common Open Guard in modern no-gi. The inside hook on the opponent's near leg, combined with a sleeve or ankle grip, gives you control over their base. By pulling their sleeve across your body and simultaneously hooking their leg, you create an angle that off-balances them forward and to one side. This opens entries into X-Guard, single-leg X, or direct sweeps.",
@@ -630,7 +611,7 @@
     "name": "Deep Half Guard",
     "tags": [
       "deep-half",
-      "half-Guard",
+      "half-guard",
       "sweep",
       "underhook"
     ],
@@ -645,8 +626,6 @@
     "level": "advanced",
     "name": "False Reap Entry",
     "tags": [
-      "false-reap",
-      "leg-lock",
       "knee-safety",
       "tier:safety-critical",
       "meta:modern_common",
@@ -684,9 +663,9 @@
     "name": "Half Butterfly to Leg Entanglements",
     "tags": [
       "half-butterfly",
-      "leg-lock",
+      "family:leg-lock",
       "bear-trap",
-      "k-Guard",
+      "k-guard",
       "leg-entry"
     ],
     "summary": "Half butterfly is the strongest transitional Guard in modern no-gi. With one hook on their near leg and the other leg framing on their hip, you can off-balance them forward or sideways. Their reaction determines your entry: if they stand, go to K-Guard; if they step back, enter Bear Trap; if they post, enter the Saddle. The half butterfly is the engine that powers the entire lower-body attack system.",
@@ -700,8 +679,8 @@
     "level": "beginner",
     "name": "Half Guard Knee Shield",
     "tags": [
-      "half-Guard",
-      "Guard"
+      "half-guard",
+      "family:guard"
     ],
     "summary": "The Knee Shield (also called Z-Guard) is the most stable position in bottom Half Guard. Your nearside knee is inserted between your chest and their hip, creating a frame that prevents them from applying chest pressure. From here, you can fight for the underhook, create distance, and attack with sweeps (deep half, waiter), submissions (Kimura), or wrestle-ups. If you lose the Knee Shield, you get flattened, so protecting it is your number one priority.",
     "hasVideos": true,
@@ -715,7 +694,7 @@
     "name": "Inverted Guard & Transitions",
     "tags": [
       "inverted-guard",
-      "k-Guard",
+      "k-guard",
       "matrix"
     ],
     "summary": "Inverted Guard is not a position you stay in, it is a transitional tool to get your lower body past their upper body. By inverting (putting your shoulders on the mat and elevating your hips), you can place your feet on their hips, shoulders, or ribs. From there, you can create the angles for K-Guard (foot on hip), matrix (foot on shoulder), or leg entries. The inversion should be fast and purposeful, staying inverted too long exposes your back to attacks.",
@@ -729,7 +708,7 @@
     "level": "advanced",
     "name": "K Guard Entry",
     "tags": [
-      "Guard",
+      "guard",
       "leg-lock"
     ],
     "summary": "K-Guard is the most versatile entry point in modern no-gi leg locking. By placing one foot on the opponent's far hip and hooking their near leg with your other leg, you create a powerful angle under their center of mass. From here, you can attack the far leg (Heel Hook), take the back, or sweep to top position. K-Guard is the glue that connects the bottom Open Guard to the leg entanglement system.",
@@ -743,7 +722,6 @@
     "level": "advanced",
     "name": "K Guard to Matrix",
     "tags": [
-      "k-Guard",
       "matrix",
       "backside-entry",
       "tier:modern-expansion",
@@ -765,7 +743,6 @@
     "name": "Leg Drag Pass",
     "tags": [
       "leg-drag",
-      "passing",
       "loose-passing",
       "side-control-entry",
       "tier:modern-expansion",
@@ -786,8 +763,6 @@
     "level": "intermediate",
     "name": "Octopus Guard Control",
     "tags": [
-      "octopus",
-      "Guard",
       "hip-angle",
       "wrestle-up",
       "tier:modern-expansion",
@@ -808,7 +783,6 @@
     "level": "intermediate",
     "name": "Octopus Guard Sweep",
     "tags": [
-      "octopus",
       "sweep",
       "hip-heist",
       "tier:modern-expansion",
@@ -829,7 +803,6 @@
     "level": "advanced",
     "name": "R-Guard",
     "tags": [
-      "Guard",
       "reverse-de-la-riva",
       "tier:modern-expansion",
       "meta:modern_common",
@@ -849,7 +822,7 @@
     "name": "Reverse De La Riva Transitions",
     "tags": [
       "reverse-de-la-riva",
-      "Guard",
+      "family:guard",
       "sweep"
     ],
     "summary": "Reverse De La Riva (RDLR) is the counterpart to regular DLR. Where DLR hooks the inside of the near leg, RDLR hooks the outside. This gives you control over their leg from a different angle, opening transitions to X-Guard, DLR, single-leg X, and the Kimura trap. RDLR is especially effective against opponents who have already cleared your DLR hook or who are passing with a strong forward pressure.",
@@ -877,8 +850,8 @@
       "seated-guard",
       "hand-fighting",
       "collar-tie",
-      "pummel",
-      "Guard-retention"
+      "pummeling",
+      "guard-retention"
     ],
     "summary": "Seated Guard Hand-Fighting is the first line of defense in Open Guard. Before any Guard Retention or sweep can happen, you must win the hand fight. This means controlling the opponent's hands and wrists so they cannot establish grips on your legs, collar, or belt. The key principles are: stay inside their arms (elbows close to your body, hands between their arms), strip any grip that lands, and use your Head Position to block their collar ties.",
     "hasVideos": true,
@@ -891,8 +864,7 @@
     "level": "intermediate",
     "name": "Shin-to-Shin Entry",
     "tags": [
-      "Guard",
-      "entry"
+      "family:guard"
     ],
     "summary": "Shin-to-shin is the closest Open Guard entry in no-gi. By placing your shin against their shin and controlling their sleeve or ankle, you create a direct connection that lets you feel every weight shift. When they commit forward, you off-balance and slide your hips under, entering single-leg X. When they back away, you stand and wrestle up. Shin-to-shin is the bridge between Seated Guard and the leg entanglement system.",
     "hasVideos": true,
@@ -905,7 +877,6 @@
     "level": "intermediate",
     "name": "Shoulder Crunch Control",
     "tags": [
-      "shoulder-crunch",
       "butterfly",
       "sweep",
       "tier:modern-expansion",
@@ -926,7 +897,7 @@
     "level": "intermediate",
     "name": "Single Leg X Basics",
     "tags": [
-      "Guard",
+      "guard",
       "leg-lock"
     ],
     "summary": "Single-leg X (SLX) is the fundamental one-leg control position of modern no-gi. You trap one of their legs with your own leg (between your thigh and calf), while your other foot posts on their opposite hip. This gives you control of their entire base through a single leg, when you pull that leg, their whole body follows. SLX is the entry point for sweeps (classic SLX sweep), leg entanglements (enter Ashi Garami), and stand-ups (wrestle up).",
@@ -940,9 +911,7 @@
     "level": "intermediate",
     "name": "Single Leg X Control",
     "tags": [
-      "single-leg-x",
       "ashi-garami",
-      "Guard",
       "sweep",
       "leg-entry",
       "tier:modern-expansion",
@@ -963,7 +932,7 @@
     "level": "beginner",
     "name": "Supine Guard Retention",
     "tags": [
-      "Guard",
+      "family:guard",
       "retention"
     ],
     "summary": "Supine Guard Retention is what you use when you end up flat on your back. Unlike Seated Guard Retention (where you are active and mobile), supine retention is about recovering structure from a compromised position. Your tools are: hip elevation (shrimping), Knee Shields (inserting your knees between you and them), and foot frames (placing your feet on their hips or biceps). The goal is always to get back to your side and re-establish an active Guard.",
@@ -977,8 +946,6 @@
     "level": "intermediate",
     "name": "X Guard Control",
     "tags": [
-      "x-Guard",
-      "Guard",
       "sweep",
       "off-balance",
       "tier:modern-expansion",
@@ -1002,7 +969,7 @@
       "z-guard",
       "deep-half",
       "sweep",
-      "half-Guard"
+      "half-guard"
     ],
     "summary": "Z-Guard (Knee Shield) is the control position; sweeps are the payoff. From Z-Guard, your Knee Shield creates distance while you fight for the underhook. Once you win the underhook, you have three main sweep options: slide into deep half (when they drive forward), hit the waiter sweep (when they stand), or wrestle up (when they back away). The Z-Guard to deep half transition is one of the highest percentage sweep chains in no-gi.",
     "hasVideos": true,
@@ -1102,7 +1069,7 @@
     "level": "intermediate",
     "name": "Headquarters Passing",
     "tags": [
-      "passing",
+      "family:passing",
       "headquarters"
     ],
     "summary": "Headquarters Passing is the most important passing concept in modern BJJ. From the headquarters position (one knee up guarding against the shin frame, one knee down for base), you control the opponent's hip movement and force them to react. Your decision tree has three primary branches: (1) Knee Cut if they press their shin into your knee, (2) backstep if they create distance by hip escaping away, (3) Leg Drag if they square up to face you. The system is based on reading the opponent's hip angle and shin frame position.",
@@ -1116,10 +1083,9 @@
     "level": "intermediate",
     "name": "HQ / Split-Squat Passing",
     "tags": [
-      "hq",
-      "split-squat",
       "headquarters",
-      "passing",
+      "split-squat",
+      "family:passing",
       "knee-cut",
       "bodylock"
     ],
@@ -1134,7 +1100,7 @@
     "level": "intermediate",
     "name": "Knee Cut Passing",
     "tags": [
-      "passing",
+      "family:passing",
       "knee-cut"
     ],
     "summary": "The Knee Cut pass attacks the space between the opponent's hip and their near leg as they defend with a Knee Shield or Half Guard. The pass works by: (1) pinning their head with a crossface to prevent them from turning into you, (2) driving your near knee past their Knee Shield into the space at their hip, (3) extending your leg to pin their near hip, and (4) settling into Side Control. The Knee Cut is the go-to pass for most no-gi situations because it maintains top pressure throughout and requires minimal space.",
@@ -1148,7 +1114,7 @@
     "level": "intermediate",
     "name": "Leg Drag Basics",
     "tags": [
-      "passing",
+      "family:passing",
       "leg-drag"
     ],
     "summary": "The Leg Drag attacks the opponent's base by controlling one leg and dragging it across your body, turning their hips away from you. Once their hips are turned, they cannot re-Guard effectively. The Leg Drag is the most dominant passing position because it completely neutralizes the opponent's Guard, they cannot sweep, submit, or recover Guard from the Leg Drag position.",
@@ -1162,7 +1128,7 @@
     "level": "intermediate",
     "name": "Outside Passing",
     "tags": [
-      "passing",
+      "family:passing",
       "mobility"
     ],
     "summary": "Outside Passing uses footwork and distance to force the opponent to turn their hips, creating passing lanes that pressure passing cannot access. The system works by staying on your feet (not dropping to your knees) and circling to the outside of the opponent's lead leg. As they turn to face you, you attack the exposed hip with a Leg Drag, backstep, or x-pass. Outside Passing is particularly effective against flexible Guard players who are difficult to pass with pressure.",
@@ -1176,10 +1142,10 @@
     "level": "intermediate",
     "name": "Over-Under / Smash Pass",
     "tags": [
-      "passing",
+      "family:passing",
       "over-under",
       "smash-pass",
-      "half-Guard",
+      "half-guard",
       "pressure-passing"
     ],
     "summary": "The Over-Under pass works by creating a chest-to-chest connection that removes the opponent's ability to frame or Knee Shield. One arm locks over their back (controlling their upper body) while the other hooks under their far leg (clearing the Knee Line). From this position, the passer drives their hip into the opponent's near hip while circling toward their head, flattening them and clearing the leg to pass. The key is keeping your head on the correct side and maintaining continuous forward pressure.",
@@ -1193,7 +1159,7 @@
     "level": "intermediate",
     "name": "Toreando / Float Passing",
     "tags": [
-      "passing",
+      "family:passing",
       "float-passing",
       "toreando",
       "mobility",
@@ -1210,7 +1176,7 @@
     "level": "intermediate",
     "name": "Tripod Pass",
     "tags": [
-      "passing",
+      "family:passing",
       "tripod",
       "folding-pass",
       "smash-pass",
@@ -1228,7 +1194,6 @@
     "level": "advanced",
     "name": "Wiltse Knee Slice",
     "tags": [
-      "passing",
       "knee-cut",
       "knee-slice",
       "tier:modern-expansion",
@@ -1268,7 +1233,7 @@
     "name": "Claw Ride",
     "tags": [
       "claw-ride",
-      "ride",
+      "family:ride",
       "turtle",
       "back-exposure",
       "body-lock"
@@ -1284,9 +1249,7 @@
     "level": "advanced",
     "name": "Crab Ride",
     "tags": [
-      "crab-ride",
       "back-take",
-      "ride",
       "tier:modern-expansion",
       "meta:modern_common",
       "risk:medium",
@@ -1306,7 +1269,7 @@
     "name": "Cross-Wrist Ride",
     "tags": [
       "cross-wrist",
-      "ride",
+      "family:ride",
       "turtle",
       "back-exposure",
       "wrist-control"
@@ -1338,7 +1301,6 @@
     "level": "advanced",
     "name": "Dagestani Handcuff",
     "tags": [
-      "ride",
       "wrist-control",
       "handcuff",
       "tier:modern-expansion",
@@ -1389,7 +1351,7 @@
     "level": "intermediate",
     "name": "Mount Control",
     "tags": [
-      "Mount",
+      "mount",
       "pin"
     ],
     "summary": "Mount Control is maintained through progressive layers: low Mount (hips heavy on their hips, chest-to-chest pressure) → high Mount (knees slide up to their armpits, trapping their shoulders) → submission or Back Take. The key is preventing the bridge-and-roll escape by controlling their hips with your knee pinch and following their movements with your weight.",
@@ -1419,7 +1381,6 @@
     "level": "intermediate",
     "name": "Power Half Ride",
     "tags": [
-      "ride",
       "power-half",
       "shoulder-control",
       "tier:modern-expansion",
@@ -1440,8 +1401,7 @@
     "level": "advanced",
     "name": "S Mount Control",
     "tags": [
-      "s-Mount",
-      "Mount",
+      "mount",
       "arm-isolation",
       "tier:modern-expansion",
       "meta:modern_common",
@@ -1476,7 +1436,6 @@
     "name": "Spiral Ride",
     "tags": [
       "spiral-ride",
-      "turtle-ride",
       "back-exposure",
       "control",
       "tier:modern-expansion",
@@ -1498,7 +1457,7 @@
     "name": "Turtle Ride",
     "tags": [
       "turtle",
-      "ride"
+      "family:ride"
     ],
     "summary": "The Turtle Ride is the complete system for controlling, breaking down, and taking the back from the Turtle position. It integrates four complementary systems: (1) hip pressure and near wrist control for baseline control, (2) the Spiral Ride for rotational collapse, (3) the Power Half Ride for flat collapse, and (4) the mat return for when the opponent stands. The key is reading the opponent's reaction and selecting the appropriate system.",
     "hasVideos": true,
@@ -1511,7 +1470,6 @@
     "level": "advanced",
     "name": "Wrist Ride to Back Exposure",
     "tags": [
-      "wrist-ride",
       "back-exposure",
       "turtle",
       "tier:modern-expansion",
@@ -1642,7 +1600,7 @@
     "tags": [
       "anaconda",
       "choke",
-      "front-headlock",
+      "family:front-headlock",
       "arm-triangle"
     ],
     "summary": "The Anaconda Choke is one of the three primary Front Headlock finishes (with the D'arce and Guillotine). The key difference from the D'arce is that your choking arm threads from the opposite side (near arm goes under the neck and over their far arm). The finish comes from rotating your chest toward the mat while pulling their trapped arm's elbow toward your knee, this creates a tight Arm Triangle on their neck and shoulder.",
@@ -1674,7 +1632,7 @@
     "name": "Arm Triangle from Mount",
     "tags": [
       "choke",
-      "Mount"
+      "mount"
     ],
     "summary": "The Arm Triangle from Mount is one of the highest percentage submissions from the dominant Mount position. Unlike the regular Arm Triangle from Side Control, the Mount version allows you to use your full body weight. The key is separating their arm from their body (usually by driving your forearm into their biceps), stepping over their head, and dropping your chest weight onto their trapped shoulder.",
     "hasVideos": true,
@@ -1687,7 +1645,7 @@
     "level": "advanced",
     "name": "Armbar System",
     "tags": [
-      "submission",
+      "family:submission",
       "armbar",
       "elbow-safety"
     ],
@@ -1733,7 +1691,7 @@
     "name": "Backside 50/50 Control",
     "tags": [
       "backside-50-50",
-      "leg-lock",
+      "family:leg-lock",
       "heel-hook",
       "entanglement",
       "leg-entanglement"
@@ -1749,7 +1707,6 @@
     "level": "advanced",
     "name": "Backside 50/50 & Cross Ashi",
     "tags": [
-      "leg-lock",
       "cross-ashi",
       "backside-50-50",
       "heel-hook",
@@ -1776,7 +1733,7 @@
       "shoulder-lock",
       "kimura",
       "omoplata",
-      "submission"
+      "family:submission"
     ],
     "summary": "The Baratoplata is a powerful shoulder lock that combines elements of the Omoplata and Kimura. Unlike the Kimura (which uses both hands on the arm), the Baratoplata uses one of your legs to pin their arm against your body while you rotate your hips to apply the shoulder lock. This creates unique angles that the Kimura cannot reach and can catch opponents who are focused on defending standard Kimura entries.",
     "hasVideos": true,
@@ -1829,8 +1786,6 @@
     "name": "Calf & Compression Locks",
     "tags": [
       "calf-slicer",
-      "compression",
-      "leg-lock",
       "knee-safety",
       "meta:modern_common",
       "family:leg-lock",
@@ -1849,7 +1804,6 @@
     "tags": [
       "choi-bar",
       "shoulder-lock",
-      "clamp-Guard",
       "tier:modern-expansion",
       "meta:modern_common",
       "risk:high",
@@ -1870,7 +1824,7 @@
     "tags": [
       "darce",
       "choke",
-      "front-headlock",
+      "family:front-headlock",
       "arm-triangle",
       "shoulder-crunch"
     ],
@@ -1887,7 +1841,7 @@
     "tags": [
       "de-la-riva",
       "berimbolo",
-      "back-take"
+      "family:back-take"
     ],
     "summary": "The DLR Back Take is the highest percentage reward from the De La Riva Guard. When you attempt the DLR sweep (off-balancing them forward), many opponents will respond by posting a hand or stepping back to avoid the sweep. This reaction creates exactly the space and angle you need to spin under them and take the back. The DLR Back Take transforms a failed sweep into a dominant position.",
     "hasVideos": true,
@@ -1901,7 +1855,6 @@
     "name": "Front Headlock Go Behind",
     "tags": [
       "go-behind",
-      "front-headlock",
       "back-take",
       "transition",
       "tier:modern-expansion",
@@ -1925,7 +1878,7 @@
       "50-50",
       "heel-hook",
       "heel-exposure",
-      "leg-lock",
+      "family:leg-lock",
       "entanglement"
     ],
     "summary": "The 50/50 position is one of the most common leg entanglement positions. However, finishing a Heel Hook from 50/50 requires specific mechanics: you must break the symmetry of the position by rotating your hips and controlling their secondary leg (the leg not being attacked). Without controlling the secondary leg, the opponent can simply rotate their hip to relieve the heel pressure. The key to the 50/50 Heel Hook is making it asymmetrical, you control their free leg so they cannot counter-rotate.",
@@ -1941,7 +1894,7 @@
     "tags": [
       "gogoplata",
       "neck-safety",
-      "Guard-submission",
+      "guard-submission",
       "tier:advanced-niche",
       "meta:specialized",
       "risk:safety-critical",
@@ -1961,7 +1914,7 @@
     "name": "Guillotine System",
     "tags": [
       "choke",
-      "front-headlock"
+      "family:front-headlock"
     ],
     "summary": "The Guillotine is the most accessible Front Headlock choke and the first choke most BJJ practitioners learn. The system includes multiple variations: the standard arm-in Guillotine (from Guard), the arm-out Guillotine (from Front Headlock), the High-Wrist Guillotine (for deeper neck penetration), and the Marcelotine (Marcelo Garcia's no-gi variation). The key principle across all variations is that the Guillotine is a position, you must control their posture and create the angle before squeezing.",
     "hasVideos": true,
@@ -1974,9 +1927,6 @@
     "level": "advanced",
     "name": "Heel Hook Finishing System",
     "tags": [
-      "heel-hook",
-      "finish",
-      "leg-lock",
       "knee-safety",
       "tier:safety-critical",
       "meta:modern_common",
@@ -1994,7 +1944,7 @@
     "level": "advanced",
     "name": "Heel Hook Safety",
     "tags": [
-      "leg-lock",
+      "family:leg-lock",
       "heel-hook",
       "knee-safety"
     ],
@@ -2009,8 +1959,7 @@
     "level": "advanced",
     "name": "High-Wrist Guillotine",
     "tags": [
-      "Guillotine",
-      "front-headlock",
+      "guillotine",
       "neck-safety",
       "tier:modern-expansion",
       "meta:modern_common",
@@ -2030,7 +1979,7 @@
     "level": "advanced",
     "name": "Kimura System",
     "tags": [
-      "submission",
+      "family:submission",
       "control"
     ],
     "summary": "The Kimura is the most versatile submission in no-gi BJJ. The Kimura grip (one hand holding their same-side wrist, the other arm threading through to grab your own wrist) is more commonly used as a control position than as a submission. From the Kimura grip, you can: sweep, pass the Guard, take the back, or finish the shoulder lock. The system is based on isolating one of their arms and using it as a handle to control their entire body.",
@@ -2046,7 +1995,7 @@
     "tags": [
       "triangle",
       "armbar",
-      "Mount",
+      "mount",
       "dilemma",
       "meta:modern_common",
       "family:submission",
@@ -2069,7 +2018,6 @@
       "family:leg-lock",
       "group:leg_lock",
       "modern-no-gi",
-      "leg-lock",
       "shin-lock",
       "50-50"
     ],
@@ -2084,8 +2032,6 @@
     "level": "advanced",
     "name": "Octopus Back Take",
     "tags": [
-      "octopus",
-      "back-take",
       "hip-angle",
       "tier:modern-expansion",
       "meta:modern_common",
@@ -2107,7 +2053,7 @@
     "tags": [
       "submission",
       "shoulder-lock-safety",
-      "Guard"
+      "guard"
     ],
     "summary": "The Omoplata is one of the most powerful shoulder locks from Guard. It uses your legs to trap their arm and your hip rotation to apply the submission pressure. Unlike the Kimura (which uses both hands), the Omoplata uses one leg as the lever and your hips as the engine. The Omoplata System includes the sweep (when they posture to defend) and the Back Take (when they roll to escape). It is a complete attack system from the Guard.",
     "hasVideos": true,
@@ -2142,8 +2088,7 @@
     "tags": [
       "choke",
       "back-control",
-      "submission",
-      "no-gi",
+      "family:submission",
       "strangle"
     ],
     "summary": "The most fundamental No-Gi blood choke from Back Control, master the hand fight, elbow line, and chest-to-back connection.",
@@ -2159,7 +2104,6 @@
     "name": "Rear Triangle Control",
     "tags": [
       "rear-triangle",
-      "back-triangle",
       "arm-isolation",
       "tier:modern-expansion",
       "meta:modern_common",
@@ -2181,9 +2125,8 @@
     "tags": [
       "reverse-buggy",
       "choke",
-      "leg",
       "shoulder-crunch",
-      "submission"
+      "family:submission"
     ],
     "summary": "The Reverse Buggy Choke is a variation of the Buggy Choke from bottom Side Control. The key difference is the leg positioning, in the reverse buggy, your legs wrap around their neck and one arm from the opposite side. Like the standard Buggy Choke, it is a surprise attack rather than a primary strategy. It works best against opponents who pressure heavily with a crossface, leaving their neck exposed on the other side.",
     "hasVideos": true,
@@ -2196,7 +2139,6 @@
     "level": "advanced",
     "name": "S Mount Armbar",
     "tags": [
-      "s-Mount",
       "armbar",
       "shoulder-lock-safety",
       "tier:modern-expansion",
@@ -2240,7 +2182,7 @@
     "name": "Shotgun Ankle Lock",
     "tags": [
       "shotgun-ankle-lock",
-      "leg-lock",
+      "family:leg-lock",
       "ankle-lock",
       "straight-ankle",
       "saddle"
@@ -2256,7 +2198,7 @@
     "level": "intermediate",
     "name": "Straight Ankle Lock Safety",
     "tags": [
-      "leg-lock",
+      "family:leg-lock",
       "ankle-lock"
     ],
     "summary": "The Straight Ankle Lock is the first Leg Lock most BJJ practitioners learn and the most common leg attack in no-gi. While it is considered the 'safest' Leg Lock, it still requires proper mechanics and respect. The key safety principles are: control the Knee Line (prevent them from turning their knee toward you), position their foot correctly against your hip, and use slow, controlled extension. The Straight Ankle Lock attacks the ankle and can also put pressure on the knee if applied incorrectly.",
@@ -2310,8 +2252,6 @@
     "tags": [
       "toe-hold",
       "estima-lock",
-      "foot-lock",
-      "leg-lock",
       "meta:modern_common",
       "family:leg-lock",
       "group:foot_lock"
@@ -2361,7 +2301,7 @@
     "tags": [
       "von-flue",
       "choke",
-      "Guillotine",
+      "guillotine",
       "defense",
       "shoulder-pressure"
     ],
@@ -2416,7 +2356,7 @@
       "ankle-pick",
       "low-single",
       "takedown",
-      "wrestling",
+      "family:wrestling",
       "shot"
     ],
     "summary": "The Ankle Pick uses head manipulation to force weight onto the opponent's lead leg, then attacks that ankle to remove their base. The key is the head snap, without it, the ankle is not loaded with enough weight to be vulnerable. The finish uses a lateral pulling motion (not lifting) to drive the opponent to the mat. The Ankle Pick is ideal for BJJ because it keeps your head safe from Guillotines and does not require shooting to your knees.",
@@ -2448,7 +2388,7 @@
     "name": "Foot Sweeps (Kouchi, Sasae, De Ashi)",
     "tags": [
       "takedown",
-      "wrestling",
+      "family:wrestling",
       "foot-sweep",
       "kouchigari",
       "sasae",
@@ -2470,7 +2410,7 @@
       "takedown",
       "mat-return",
       "double-leg",
-      "wrestling"
+      "family:wrestling"
     ],
     "summary": "The Body Lock is the most dominant takedown position in no-gi because it eliminates the opponent's ability to post or base, both arms are trapped between your body and theirs. From the Body Lock, you can lift, trip, or drive the opponent to the mat while maintaining full upper body control. The Body Lock is also the primary mat return tool when the opponent stands from Turtle or Half Guard.",
     "hasVideos": true,
@@ -2484,7 +2424,6 @@
     "name": "Dogfight Knee Tap",
     "tags": [
       "dogfight",
-      "wrestle-up",
       "knee-tap",
       "tier:modern-expansion",
       "meta:modern_common",
@@ -2505,7 +2444,7 @@
     "name": "Double Leg Takedown",
     "tags": [
       "takedown",
-      "wrestling",
+      "family:wrestling",
       "double-leg",
       "blast-double",
       "standing",
@@ -2522,8 +2461,8 @@
     "level": "intermediate",
     "name": "Front Headlock System",
     "tags": [
-      "front-headlock",
-      "Guillotine",
+      "family:front-headlock",
+      "guillotine",
       "darce",
       "anaconda",
       "go-behind"
@@ -2540,7 +2479,7 @@
     "name": "Half Guard Wrestle-Up",
     "tags": [
       "wrestle-up",
-      "half-Guard"
+      "half-guard"
     ],
     "summary": "The Half Guard Wrestle-Up transforms Half Guard from a defensive pin into an offensive takedown entry. The sequence is: win the underhook → turn to face them → post your outside foot → drive to a single leg. The wrestle-up works because it catches the opponent in the transition between passing and pinning, they are not fully committed to either, making them vulnerable to the sudden stand-up.",
     "hasVideos": true,
@@ -2553,8 +2492,8 @@
     "level": "beginner",
     "name": "Hand Fighting",
     "tags": [
-      "wrestling",
-      "grips"
+      "family:wrestling",
+      "grip"
     ],
     "summary": "Hand Fighting is the invisible battle of grip, wrist, and arm control that determines who initiates the takedown, Guard pass, or Guard pull. The key principles are: (1) inside control beats outside control, your hand between their arm and body controls their center, (2) two-on-one beats one-on-one, use both hands on one of their arms to create advantages, (3) pummel back immediately when you lose Inside Position, do not grab from outside, (4) Head Position controls body position, the underhook requires head control to be effective.",
     "hasVideos": true,
@@ -2568,7 +2507,6 @@
     "name": "Hip Heist Wrestle-Up",
     "tags": [
       "hip-heist",
-      "wrestle-up",
       "bottom-offense",
       "stand-up",
       "tier:modern-expansion",
@@ -2589,7 +2527,7 @@
     "level": "intermediate",
     "name": "Single Leg for BJJ",
     "tags": [
-      "wrestling",
+      "family:wrestling",
       "takedown"
     ],
     "summary": "The BJJ single leg is a modified version of the wrestling single leg that prioritizes safety from submission counters. The key adaptations are: Head Position must always be to the outside (cheek to their hip/back) rather than the inside (chest to their chest), the finish prioritizes running the pipe (driving them laterally) over lifting (which exposes the Guillotine), and the Back Take is always available as a high-percentage alternative to the takedown finish.",
@@ -2617,7 +2555,7 @@
     "level": "intermediate",
     "name": "Sprawl and Go Behind",
     "tags": [
-      "wrestling",
+      "family:wrestling",
       "defense"
     ],
     "summary": "The Sprawl and Go-Behind sequence is: (1) sprawl, drive your hips onto their lower back as they shoot, (2) control, post your hands on their shoulders or head to prevent them from standing, (3) circle, step to one side and circle behind them, (4) secure, take the back with hooks or a seatbelt. The timing must be immediate, if you wait for them to re-establish their base, the Back Take window closes.",
@@ -2631,8 +2569,7 @@
     "level": "beginner",
     "name": "Technical Stand-Up",
     "tags": [
-      "wrestling",
-      "base"
+      "family:wrestling"
     ],
     "summary": "The Technical Stand-Up is a sequential movement from seated or lying to standing: (1) post your hand on the mat beside your hip, (2) bring your same-side foot to meet your hand, (3) drive through the posted hand and foot to lift your hips, (4) bring your other foot under you as you rise, (5) establish a defensive stance facing the opponent. The Technical Stand-Up is essential for Guard recovery, Turtle escape, and standing to pass.",
     "hasVideos": true,
@@ -2646,7 +2583,7 @@
     "name": "Wrestling Up from Guard",
     "tags": [
       "wrestle-up",
-      "Guard",
+      "family:guard",
       "standing",
       "single-leg"
     ],

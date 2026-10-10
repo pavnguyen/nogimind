@@ -49,15 +49,21 @@ export const SkillSearchFilters = ({ skills }: { skills: SkillNode[] }) => {
   )
 
   // Tag options: plain technique tags only. Structured values (family, tier,
-  // risk, system, meta) have their own selects above, so they are excluded
-  // here instead of being listed twice.
-  const tagOptions = useMemo(
-    () =>
-      [...new Set(skills.flatMap((skill) => skill.tags))]
-        .filter((tag) => !tag.includes(':') && !HIDDEN_TAGS.has(tag))
-        .sort((a, b) => a.localeCompare(b)),
-    [skills],
-  )
+  // risk, system, meta) have their own selects above, and values that repeat a
+  // domain, family or system label are excluded so no option is listed twice.
+  const tagOptions = useMemo(() => {
+    const covered = new Set<string>()
+    const add = (value: string) => covered.add(value.toLowerCase().replace(/[\s_]+/g, '-'))
+    families.forEach(add)
+    systems.forEach(add)
+    skillDomains.forEach(add)
+    return [...new Set(skills.flatMap((skill) => skill.tags))]
+      .filter((tag) => {
+        if (tag.includes(':') || HIDDEN_TAGS.has(tag)) return false
+        return !covered.has(tag.toLowerCase().replace(/[\s_]+/g, '-'))
+      })
+      .sort((a, b) => a.localeCompare(b))
+  }, [families, skillDomains, skills, systems])
 
   const select = (
     key: string,
