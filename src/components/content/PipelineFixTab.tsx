@@ -42,14 +42,14 @@ export const PipelineFixTab = ({ detail }: Props) => {
                   {match ? (
                     <>
                       <div className="mb-2 rounded-lg border border-copper-300/15 bg-copper-300/[0.05] px-3 py-2">
-                        <FormattedText text={match[1]} className="text-[13px] font-semibold leading-5 text-copper" />
+                        <FormattedText text={match[1]} className="max-w-prose text-[13px] font-semibold leading-5 text-copper" />
                       </div>
                       <div className="rounded-lg border border-jade-300/15 bg-jade-300/[0.05] px-3 py-2">
-                        <FormattedText text={match[2]} className="text-[13px] font-semibold leading-5 text-jade" />
+                        <FormattedText text={match[2]} className="max-w-prose text-[13px] font-semibold leading-5 text-jade" />
                       </div>
                     </>
                   ) : (
-                    <FormattedText text={fix} className="text-[13px] leading-6 text-warm-200" />
+                    <FormattedText text={fix} className="max-w-prose text-[13px] leading-6 text-warm-200" />
                   )}
                 </div>
               )
@@ -73,7 +73,7 @@ export const PipelineFixTab = ({ detail }: Props) => {
                 className="flex items-start gap-3 rounded-xl border border-gold-300/15 bg-gold-300/[0.05] px-3 py-2.5 text-[13px] leading-6 text-gold"
               >
                 <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-gold-300" />
-                <FormattedText text={note} className="text-[13px] leading-6 text-gold" />
+                <FormattedText text={note} className="max-w-prose text-[13px] leading-6 text-gold" />
               </li>
             ))}
           </ul>
