@@ -265,22 +265,6 @@ Kèm theo: rà lại `line-height`, `letter-spacing` cho heading; kiểm tra `h1
 - **lucide-react**: giữ cho tiện ích (mũi tên, chevron, search, settings, menu, eye, download, printer, refresh, X, command…). **Không cài thêm gói nào.**
 - **BrandIcons.tsx**: giữ nguyên hình, chỉ cập nhật màu.
 
-### 11.2 Danh sách 12 icon custom (tên component đề xuất)
-| # | Khái niệm | Component | Ghi chú hình |
-|---|---|---|---|
-| 1 | Hook / móc chân | `BjjHook` | hook nhỏ + gót chân |
-| 2 | Grip / khoá tay | `BjjGrip` | 2 bàn tay nắm vào cổ tay |
-| 3 | Siết cổ (choke) | `BjjChoke` | cẳng tay ngang cổ |
-| 4 | Leg lock / đường gối | `BjjLegLock` | chân khoá, khuỷu vào gối |
-| 5 | Ghim & Mount | `BjjMount` | thân trên đè, khối mount |
-| 6 | Thoát hiểm (escape/bridge) | `BjjEscape` | cầu hông (bridge) + mũi tên thoát |
-| 7 | Vật & takedown | `BjjTakedown` | hai dáng người, một người hạ thấp |
-| 8 | Back take / kiểm soát lưng | `BjjBackTake` | mũi tên vòng ra sau lưng |
-| 9 | Guard | `BjjGuard` | hai chân vòng từ dưới |
-| 10 | Chuỗi submission (chain/dilemma) | `BjjChain` | 2–3 mắt xích + mũi tên |
-| 11 | An toàn & tap | `BjjTap` | bàn tay vỗ + ký hiệu an toàn |
-| 12 | Khung chặn (frame) | `BjjFrame` | hai cẳng tay dựng khung |
-
 ### 11.3 Icon hub mới (thay lucide)
 | Hub | Cũ | Mới |
 |---|---|---|

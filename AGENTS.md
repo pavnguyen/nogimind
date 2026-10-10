@@ -36,7 +36,13 @@ static, content-driven SPA/PWA with no backend.
   translate a technique name into Vietnamese. `Straight Ankle Lock` stays
   `Straight Ankle Lock` in every locale (never `thẳng ankle lock`, `ankle lock
   thẳng`, `khóa chân thẳng`). Same rule for `Heel Hook`, `Rear Naked Choke`,
-  `Body Triangle`, `Knee Cut`, `Body Lock`, etc.
+  `Body Triangle`, `Knee Cut`, `Body Lock`, `Single Leg`, `Double Leg`
+  (never `chân đơn`, `chân đôi`, `une seule jambe`, `jambe unique`, `double
+  jambe`), etc. `Knee Reaping` and `False Reap` stay English too: write
+  `Knee Reaping`, never `gặt hái`, `gặt đầu gối`, `thu hoạch`, `récolte`,
+  `fausse récolte` or `Récolter la conscience`. Keep the canonical casing as
+  well: `Knee Shield`, `Head Position`, `Knee Line`, `Single Leg X`, never
+  `knee shield`, `knee line` or `X sur une jambe`.
 - **Report checks honestly.** Never claim a check passed if it failed, was
   skipped or could not run.
 - **Do not weaken checks to go green.** No skipped tests, no loosened
@@ -226,19 +232,19 @@ title from the id.
   `--hallmark-text-primary`, ...) from `src/styles/hallmark-themes.css`, mapped
   through `@theme` in `src/index.css`. Provide per-hub accents with
   `HubThemeProvider` instead of hard-coding colors.
-- Light mode is keyed off `html[data-theme="light"]`, **not** a media query —
+- Light mode is keyed off `html[data-theme="light"]`, **not** a media query,
   never reintroduce `@media (prefers-color-scheme)` for tokens, it would beat
   the in-app choice in Settings → Appearance. The attribute comes from
   `src/utils/theme.ts` (mirrored by the pre-paint script in `index.html`)
   reading the persisted `theme` preference; `theme.test.ts` guards both.
 - The default preference is `light` (a fresh install opens on the cream
   palette). Persisted state moved to `version: 1`: the store's `migrate` and the
-  `index.html` script both turn a v0 `system` — the old default — into `light`,
+  `index.html` script both turn a v0 `system`, the old default, into `light`,
   once. An explicit `system`/`dark` stored as v1 must stay untouched.
 - The dark palette is a **soft warm charcoal** (`#1a1814` page → `#2f2b24`
   card), not near-black; the `--color-warm-700…950` ramp in `src/index.css`
   and the `--hallmark-bg-*` mirrors in `hallmark-themes.css` move together.
-  Lighten or darken them only in pairs, and re-run `npm run validate:contrast` —
+  Lighten or darken them only in pairs, and re-run `npm run validate:contrast`,
   it measures every text/surface pair against the real stylesheet in both
   modes.
 - Keep components accessible: semantic elements, labels for inputs, accessible
