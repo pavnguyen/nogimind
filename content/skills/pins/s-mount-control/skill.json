@@ -5,14 +5,13 @@
   "name": "S Mount Control",
   "aliases": [],
   "tags": [
-    "s-Mount",
-    "Mount",
+    "mount",
     "arm-isolation",
     "tier:modern-expansion",
-    "meta:modern-common",
+    "meta:modern_common",
     "risk:medium",
     "family:pin",
-    "group:s-Mount",
+    "group:s_mount",
     "modern-no-gi"
   ],
   "keywords": [

@@ -3,9 +3,12 @@
   "domain": "passing",
   "level": "intermediate",
   "name": "Toreando / Float Passing",
-  "aliases": ["float passing", "torreando passing"],
+  "aliases": [
+    "float passing",
+    "torreando passing"
+  ],
   "tags": [
-    "passing",
+    "family:passing",
     "float-passing",
     "toreando",
     "mobility",
@@ -19,15 +22,33 @@
     "leg drag"
   ],
   "relatedSkills": [
-    { "id": "leg-drag-basics", "type": "chain" },
-    { "id": "outside-passing", "type": "recommended" },
-    { "id": "knee-cut-passing", "type": "alternative" },
-    { "id": "side-control-pin", "type": "recommended" }
+    {
+      "id": "leg-drag-basics",
+      "type": "chain"
+    },
+    {
+      "id": "outside-passing",
+      "type": "recommended"
+    },
+    {
+      "id": "knee-cut-passing",
+      "type": "alternative"
+    },
+    {
+      "id": "side-control-pin",
+      "type": "recommended"
+    }
   ],
-  "prerequisiteSkillIds": ["supine-guard-retention", "headquarters-passing"],
+  "prerequisiteSkillIds": [
+    "supine-guard-retention",
+    "headquarters-passing"
+  ],
   "relatedPositions": [],
   "relatedConcepts": [],
-  "archetypeIds": ["pressure-passer", "scramble-controller"],
+  "archetypeIds": [
+    "pressure-passer",
+    "scramble-controller"
+  ],
   "trainingMethodIds": [],
   "featureFlags": {
     "hasMicroDetails": false,

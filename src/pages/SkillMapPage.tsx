@@ -8,18 +8,13 @@ import { PageShell } from '../components/common/PageShell'
 import { SkillCard } from '../components/skills/SkillCard'
 import { SkillSearchFilters } from '../components/skills/SkillSearchFilters'
 import { skillDomains, skillLevels } from '../data/domains'
+import { libraryTiers, metaStatuses, modernSystemGroups, riskLevels, techniqueFamilies } from '../data/modernFilters'
 import { useSkillsQuery } from '../queries/skillQueries'
 import { useManifestQuery } from '../queries/contentQueries'
 import { useSettingsStore } from '../stores/useSettingsStore'
 import type { ManifestEntry } from '../content-runtime/manifests'
 import type { LibraryTier, MetaStatus, ModernSystemGroup, RiskLevel, SkillDomain, SkillLevel, TechniqueFamily } from '../types/skill'
 import { searchSkills } from '../utils/search'
-
-const libraryTiers: LibraryTier[] = ['core', 'modern_expansion', 'advanced_niche', 'safety_critical']
-const techniqueFamilies: TechniqueFamily[] = ['Guard', 'passing', 'submission', 'back_take', 'ride', 'wrestling', 'leg_lock', 'front_headlock', 'escape', 'pin', 'scramble', 'safety', 'compression', 'ruleset']
-const modernSystemGroups: ModernSystemGroup[] = ['octopus', 'clamp_guard', 'shoulder_crunch', 's_mount', 'k_guard', 'matrix', 'false_reap', 'leg_lock', 'crab_ride', 'wrist_ride', 'front_headlock', 'wrestle_up', 'modern_passing', 'turtle_ride', 'smother', 'back_triangle', 'counter_wrestling', 'safety']
-const metaStatuses: MetaStatus[] = ['fundamental', 'modern_common', 'emerging', 'specialized', 'experimental']
-const riskLevels: RiskLevel[] = ['low', 'medium', 'high', 'safety_critical']
 
 export default function SkillMapPage() {
   const { t } = useTranslation()

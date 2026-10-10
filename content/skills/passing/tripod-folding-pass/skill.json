@@ -3,9 +3,14 @@
   "domain": "passing",
   "level": "intermediate",
   "name": "Tripod Pass",
-  "aliases": ["tripod pass", "folding pass", "headquarters pass", "smash fold"],
+  "aliases": [
+    "tripod pass",
+    "folding pass",
+    "headquarters pass",
+    "smash fold"
+  ],
   "tags": [
-    "passing",
+    "family:passing",
     "tripod",
     "folding-pass",
     "smash-pass",
@@ -20,15 +25,33 @@
     "shoulder pressure"
   ],
   "relatedSkills": [
-    { "id": "headquarters-passing", "type": "prerequisite" },
-    { "id": "knee-cut-passing", "type": "chain" },
-    { "id": "over-under-pass", "type": "alternative" },
-    { "id": "side-control-pin", "type": "recommended" }
+    {
+      "id": "headquarters-passing",
+      "type": "prerequisite"
+    },
+    {
+      "id": "knee-cut-passing",
+      "type": "chain"
+    },
+    {
+      "id": "over-under-pass",
+      "type": "alternative"
+    },
+    {
+      "id": "side-control-pin",
+      "type": "recommended"
+    }
   ],
-  "prerequisiteSkillIds": ["headquarters-passing", "supine-guard-retention"],
+  "prerequisiteSkillIds": [
+    "headquarters-passing",
+    "supine-guard-retention"
+  ],
   "relatedPositions": [],
   "relatedConcepts": [],
-  "archetypeIds": ["pressure-passer", "half-Guard-wrestler"],
+  "archetypeIds": [
+    "pressure-passer",
+    "half-Guard-wrestler"
+  ],
   "trainingMethodIds": [],
   "featureFlags": {
     "hasMicroDetails": false,

@@ -17,6 +17,7 @@ import { useSettingsStore } from '../stores/useSettingsStore'
 import { useRecentlyViewedStore } from '../stores/useRecentlyViewedStore'
 import type { SkillDomain } from '../types/skill'
 import { getLocalizedText } from '../utils/localization'
+import { modernFilterLabel } from '../utils/tagLabel'
 import { cn } from '../utils/cn'
 
 type DomainTone = 'gold' | 'jade' | 'sea' | 'steel' | 'moss' | 'copper' | 'warm'
@@ -222,17 +223,17 @@ export default function StudyPage() {
                         <div className="mb-2 flex flex-wrap items-center gap-2">
                           {skill.riskLevel && (
                             <Badge tone={skill.riskLevel === 'safety_critical' ? 'copper' : 'warm'} className="text-[10px]">
-                              {t(`modern.risk.${skill.riskLevel}`)}
+                              {modernFilterLabel(t, 'risk', skill.riskLevel)}
                             </Badge>
                           )}
                           {skill.techniqueFamily && (
                             <Badge tone="gold" className="text-[10px]">
-                              {t(`modern.family.${skill.techniqueFamily}`)}
+                              {modernFilterLabel(t, 'family', skill.techniqueFamily)}
                             </Badge>
                           )}
-                          {skill.libraryTier && (
+                          {skill.libraryTier && skill.libraryTier !== 'core' && (
                             <span className="text-[10px] font-semibold uppercase tracking-tighter text-warm-500">
-                              Tier {skill.libraryTier.slice(-1)}
+                              {modernFilterLabel(t, 'library', skill.libraryTier)}
                             </span>
                           )}
                         </div>

@@ -3,10 +3,13 @@
   "domain": "wrestle_up_wrestling",
   "level": "intermediate",
   "name": "Double Leg Takedown",
-  "aliases": ["double leg", "blast double"],
+  "aliases": [
+    "double leg",
+    "blast double"
+  ],
   "tags": [
     "takedown",
-    "wrestling",
+    "family:wrestling",
     "double-leg",
     "blast-double",
     "standing",
@@ -19,15 +22,34 @@
     "wrestling for BJJ"
   ],
   "relatedSkills": [
-    { "id": "ankle-pick-low-single", "type": "chain" },
-    { "id": "arm-drag-system", "type": "chain" },
-    { "id": "body-lock-takedown", "type": "alternative" },
-    { "id": "bjj-foot-sweeps", "type": "chain" }
+    {
+      "id": "ankle-pick-low-single",
+      "type": "chain"
+    },
+    {
+      "id": "arm-drag-system",
+      "type": "chain"
+    },
+    {
+      "id": "body-lock-takedown",
+      "type": "alternative"
+    },
+    {
+      "id": "bjj-foot-sweeps",
+      "type": "chain"
+    }
   ],
-  "prerequisiteSkillIds": ["stance-movement-basics", "hand-fighting"],
+  "prerequisiteSkillIds": [
+    "stance-movement-basics",
+    "hand-fighting"
+  ],
   "relatedPositions": [],
   "relatedConcepts": [],
-  "archetypeIds": ["wrestle-up-player", "scramble-controller", "half-Guard-wrestler"],
+  "archetypeIds": [
+    "wrestle-up-player",
+    "scramble-controller",
+    "half-Guard-wrestler"
+  ],
   "trainingMethodIds": [],
   "featureFlags": {
     "hasMicroDetails": false,

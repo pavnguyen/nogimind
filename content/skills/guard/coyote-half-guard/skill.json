@@ -3,13 +3,17 @@
   "domain": "guard_offense",
   "level": "intermediate",
   "name": "Coyote Half Guard",
-  "aliases": ["coyote hook Half Guard", "waiter sweep system", "deep half hook"],
+  "aliases": [
+    "coyote hook Half Guard",
+    "waiter sweep system",
+    "deep half hook"
+  ],
   "tags": [
-    "half-Guard",
+    "half-guard",
     "coyote-hook",
     "waiter-sweep",
     "sweep",
-    "Guard-offense",
+    "guard-offense",
     "underhook"
   ],
   "keywords": [
@@ -20,15 +24,34 @@
     "coyote hook"
   ],
   "relatedSkills": [
-    { "id": "deep-half-guard", "type": "chain" },
-    { "id": "half-butterfly-to-leg-entanglements", "type": "chain" },
-    { "id": "single-leg-x-Guard", "type": "chain" },
-    { "id": "leg-drag-pass", "type": "alternative" }
+    {
+      "id": "deep-half-guard",
+      "type": "chain"
+    },
+    {
+      "id": "half-butterfly-to-leg-entanglements",
+      "type": "chain"
+    },
+    {
+      "id": "single-leg-x-Guard",
+      "type": "chain"
+    },
+    {
+      "id": "leg-drag-pass",
+      "type": "alternative"
+    }
   ],
-  "prerequisiteSkillIds": ["half-guard-knee-shield", "deep-half-guard"],
+  "prerequisiteSkillIds": [
+    "half-guard-knee-shield",
+    "deep-half-guard"
+  ],
   "relatedPositions": [],
   "relatedConcepts": [],
-  "archetypeIds": ["half-Guard-wrestler", "Guard-retention-specialist", "wrestle-up-player"],
+  "archetypeIds": [
+    "half-Guard-wrestler",
+    "Guard-retention-specialist",
+    "wrestle-up-player"
+  ],
   "trainingMethodIds": [],
   "featureFlags": {
     "hasMicroDetails": false,

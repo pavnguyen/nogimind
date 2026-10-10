@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import { Printer } from 'lucide-react'
 import type { SkillNode } from '../../types/skill'
-import { formatTagLabel } from '../../utils/tagLabel'
+import { formatTagLabel, modernFilterLabel } from '../../utils/tagLabel'
 
 type Props = {
   skill: SkillNode
@@ -81,7 +81,7 @@ export const SkillHeader = ({ skill, lang, onPrintCard }: Props) => {
             {/* Library tier (modern) */}
             {skill.libraryTier && skill.libraryTier !== 'core' && (
               <span className="rounded-md border border-steel-400/25 bg-steel-400/8 px-2.5 py-1 text-xs font-semibold text-steel">
-                {t(`modern.library.${skill.libraryTier}`)}
+                {modernFilterLabel(t, 'library', skill.libraryTier)}
               </span>
             )}
 

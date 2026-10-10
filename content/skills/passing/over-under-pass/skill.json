@@ -3,12 +3,16 @@
   "domain": "passing",
   "level": "intermediate",
   "name": "Over-Under / Smash Pass",
-  "aliases": ["over-under pass", "smash pass", "Half Guard smash"],
+  "aliases": [
+    "over-under pass",
+    "smash pass",
+    "Half Guard smash"
+  ],
   "tags": [
-    "passing",
+    "family:passing",
     "over-under",
     "smash-pass",
-    "half-Guard",
+    "half-guard",
     "pressure-passing"
   ],
   "keywords": [
@@ -19,16 +23,37 @@
     "hip pressure"
   ],
   "relatedSkills": [
-    { "id": "half-guard-knee-shield", "type": "prerequisite" },
-    { "id": "bodylock-passing", "type": "chain" },
-    { "id": "knee-cut-passing", "type": "alternative" },
-    { "id": "side-control-pin", "type": "recommended" },
-    { "id": "coyote-half-guard", "type": "alternative" }
+    {
+      "id": "half-guard-knee-shield",
+      "type": "prerequisite"
+    },
+    {
+      "id": "bodylock-passing",
+      "type": "chain"
+    },
+    {
+      "id": "knee-cut-passing",
+      "type": "alternative"
+    },
+    {
+      "id": "side-control-pin",
+      "type": "recommended"
+    },
+    {
+      "id": "coyote-half-guard",
+      "type": "alternative"
+    }
   ],
-  "prerequisiteSkillIds": ["half-guard-knee-shield", "bodylock-passing"],
+  "prerequisiteSkillIds": [
+    "half-guard-knee-shield",
+    "bodylock-passing"
+  ],
   "relatedPositions": [],
   "relatedConcepts": [],
-  "archetypeIds": ["pressure-passer", "half-Guard-wrestler"],
+  "archetypeIds": [
+    "pressure-passer",
+    "half-Guard-wrestler"
+  ],
   "trainingMethodIds": [],
   "featureFlags": {
     "hasMicroDetails": false,

@@ -98,12 +98,14 @@ export const getSkills = async (): Promise<SkillNode[]> => {
         safetyNotes: emptyStrArr(),
       },
 
-      // Optional fields, derived from tag prefixes where available
-      libraryTier: extractTag(entry.tags, 'tier:')?.replace(/-/g, '_') as LibraryTier | undefined,
-      riskLevel: extractTag(entry.tags, 'risk:') as SkillNode['riskLevel'] | undefined,
-      techniqueFamily: extractTag(entry.tags, 'family:') as SkillNode['techniqueFamily'] | undefined,
-      modernSystemGroup: extractTag(entry.tags, 'system:') as SkillNode['modernSystemGroup'] | undefined,
-      metaStatus: extractTag(entry.tags, 'status:') as SkillNode['metaStatus'] | undefined,
+      // Optional fields, derived from tag prefixes where available.
+      // `tier:`/`risk:`/`meta:` are written with hyphens in content and read
+      // as snake_case enum values; a skill without a tier tag is a core one.
+      libraryTier: ((extractTag(entry.tags, 'tier:') ?? 'core').replace(/-/g, '_') as LibraryTier),
+      riskLevel: extractTag(entry.tags, 'risk:')?.replace(/-/g, '_') as SkillNode['riskLevel'] | undefined,
+      techniqueFamily: extractTag(entry.tags, 'family:')?.toLowerCase() as SkillNode['techniqueFamily'] | undefined,
+      modernSystemGroup: extractTag(entry.tags, 'group:')?.toLowerCase().replace(/-/g, '_') as SkillNode['modernSystemGroup'] | undefined,
+      metaStatus: extractTag(entry.tags, 'meta:')?.toLowerCase().replace(/-/g, '_') as SkillNode['metaStatus'] | undefined,
     }))
   }
   return skillsCache

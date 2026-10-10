@@ -21,14 +21,14 @@ export type MetaStatus = 'fundamental' | 'modern_common' | 'emerging' | 'special
 export type RiskLevel = 'low' | 'medium' | 'high' | 'safety_critical'
 
 export type TechniqueFamily =
-  | 'Guard'
+  | 'guard'
   | 'passing'
   | 'submission'
-  | 'back_take'
+  | 'back-take'
   | 'ride'
   | 'wrestling'
-  | 'leg_lock'
-  | 'front_headlock'
+  | 'leg-lock'
+  | 'front-headlock'
   | 'escape'
   | 'pin'
   | 'scramble'
@@ -57,6 +57,16 @@ export type ModernSystemGroup =
   | 'back_triangle'
   | 'counter_wrestling'
   | 'safety'
+  | 'back_control'
+  | 'compression'
+  | 'dagestani_handcuff'
+  | 'foot_lock'
+  | 'heel_hook'
+  | 'leg_locking_safety'
+  | 'mount_attacks'
+  | 'neck_safety'
+  | 'power_half_ride'
+  | 'takedown_safety'
 
 export type RulesetRelevance = {
   adcc?: boolean
