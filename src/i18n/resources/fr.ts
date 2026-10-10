@@ -367,7 +367,7 @@ export const fr = {
       low: 'Risque bas',
       medium: 'Risque moyen',
       high: 'Risque élevé',
-      safety_critical: 'Sécurité critique',
+      safety_critical: 'Risque critique',
     },
     meta: {
       fundamental: 'Fondamental',
@@ -1159,6 +1159,8 @@ export const fr = {
     thanks: {
       heading: 'Remerciements',
       body: 'NoGi Mind est construit avec respect pour celles et ceux qui enseignent et pratiquent le grappling moderne. Nos sincères remerciements à Guardian HCMC et au coach Jon TRAN pour leur accompagnement.',
+      guardianBlurb: 'La gym de HCMC et l’encadrement à l’origine de ce projet.',
+      fairfightBlurb: 'Association à but non lucratif qui utilise le jiu-jitsu pour changer des vies et financer des causes caritatives.',
       dashboard: 'Nos sincères remerciements à Guardian HCMC et au coach Jon TRAN pour leur accompagnement.',
       more: 'En savoir plus',
     },

@@ -21,7 +21,7 @@ const chordRoutes: Record<string, string> = {
   l: '/learn',
   t: '/study',
   f: '/defense',
-  b: '/build',
+  b: '/archetypes',
   r: '/reference',
   s: '/search',
   g: '/settings',

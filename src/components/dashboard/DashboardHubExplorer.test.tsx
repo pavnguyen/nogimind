@@ -33,7 +33,7 @@ describe('DashboardHubExplorer', () => {
     expect(screen.getByRole('link', { name: /nav\.learn/i })).toHaveAttribute('href', '/learn')
     expect(screen.getByRole('link', { name: /nav\.study/i })).toHaveAttribute('href', '/study')
     expect(screen.getByRole('link', { name: /nav\.defense/i })).toHaveAttribute('href', '/defense')
-    expect(screen.getByRole('link', { name: /nav\.build/i })).toHaveAttribute('href', '/build')
+    expect(screen.getByRole('link', { name: /nav\.build/i })).toHaveAttribute('href', '/archetypes')
     expect(screen.getByRole('link', { name: /nav\.reference/i })).toHaveAttribute('href', '/reference')
   })
 

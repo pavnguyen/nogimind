@@ -234,7 +234,7 @@ export const defensiveLayers: DefensiveLayer[] = [
   }),
   layer({
     id: 'tap-timing-etiquette',
-    title: lt('Thời điểm tap và etiquette', 'Tap Timing and Etiquette', 'Timing de tap et étiquette'),
+    title: lt('Thời điểm tap', 'Tap Timing', 'Timing de tap'),
     category: 'tapping',
     threat: lt('Tap muộn hoặc giao tiếp mơ hồ làm training nguy hiểm hơn cho cả hai người.', 'Late tapping or unclear communication makes training riskier for both partners.', 'Taper tard ou communiquer mal rend training plus risqué pour les deux.'),
     early: la(['Bạn không chắc lực đang vào đâu.', 'Partner tăng pressure nhanh.', 'Submission line đã rõ nhưng chưa đau.'], ['You are not sure where force is going.', 'Partner increases pressure quickly.', 'Submission line is clear but not painful yet.'], ['Vous ne savez pas où va la force.', 'Partenaire augmente vite.', 'Ligne submission claire sans douleur.']),

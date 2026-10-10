@@ -1,5 +1,5 @@
 import { useTranslation } from 'react-i18next'
-import { BrainCircuit, Compass, Heart, ShieldCheck } from 'lucide-react'
+import { ArrowUpRight, BrainCircuit, Compass, Heart, ShieldCheck } from 'lucide-react'
 import { FacebookIcon, InstagramIcon } from '../components/common/BrandIcons'
 import { PageShell } from '../components/common/PageShell'
 import { SectionCard } from '../components/common/SectionCard'
@@ -7,6 +7,28 @@ import { StaggerContainer, StaggerItem } from '../components/common/StaggerConta
 import { cn } from '../utils/cn'
 
 type PillarTone = 'gold' | 'jade' | 'copper'
+
+/** Organisations credited on the gratitude band, with their own logo files. */
+const partners = [
+  {
+    id: 'guardian-gym',
+    name: 'Guardian Gym',
+    href: 'https://www.guardiangym.org/',
+    logo: '/credits/guardian-gym.webp',
+    // The Guardian wordmark is white, so it sits on a dark tile.
+    tileClass: 'bg-warm-950/70',
+    blurbKey: 'about.thanks.guardianBlurb',
+  },
+  {
+    id: 'fair-fight-foundation',
+    name: 'Fair Fight Foundation',
+    href: 'https://fightfoundation.com/',
+    logo: '/credits/fair-fight-foundation.png',
+    // The Fair Fight wordmark is black, so it sits on a light tile.
+    tileClass: 'bg-white',
+    blurbKey: 'about.thanks.fairfightBlurb',
+  },
+] as const
 
 const pillarTones: Record<PillarTone, { card: string; icon: string; glow: string; label: string }> = {
   gold: {
@@ -69,6 +91,35 @@ export default function AboutPage() {
               <h2 className="text-lg font-bold text-warm-50">{t('about.thanks.heading')}</h2>
             </div>
             <p className="text-base leading-8 text-gold/80">{t('about.thanks.body')}</p>
+            <div className="grid gap-3 sm:grid-cols-2">
+              {partners.map((partner) => (
+                <a
+                  key={partner.id}
+                  href={partner.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="group block rounded-xl border border-warm-50/10 bg-warm-950/40 p-4 transition-colors hover:border-gold-300/30 hover:bg-warm-950/60"
+                >
+                  <span className={cn('flex h-14 items-center justify-center rounded-lg px-4', partner.tileClass)}>
+                    <img
+                      src={partner.logo}
+                      alt={`${partner.name} logo`}
+                      loading="lazy"
+                      className="max-h-9 w-auto max-w-full object-contain"
+                    />
+                  </span>
+                  <span className="mt-3 flex items-center gap-2">
+                    <span className="min-w-0 flex-1 text-sm font-semibold text-warm-50 transition-colors group-hover:text-gold">
+                      {partner.name}
+                    </span>
+                    <ArrowUpRight className="h-4 w-4 shrink-0 text-warm-500 transition-colors group-hover:text-gold" aria-hidden="true" />
+                  </span>
+                  <span className="mt-1 block text-[13px] leading-5 text-warm-400">
+                    {t(partner.blurbKey)}
+                  </span>
+                </a>
+              ))}
+            </div>
             <div className="flex flex-wrap gap-3">
               <a
                 href="https://www.facebook.com/profile.php?id=100087911966054"

@@ -315,7 +315,7 @@ export const vi = {
       core: 'Cốt lõi',
       modern_expansion: 'Mở rộng hiện đại',
       advanced_niche: 'Ngách nâng cao',
-      safety_critical: 'Cần an toàn cao',
+      safety_critical: 'Nhóm an toàn cao',
     },
     family: {
       guard: 'Thế Guard',
@@ -1165,8 +1165,10 @@ export const vi = {
     themes: ['Inside Position', 'Positional Hierarchy', 'dilemma', 'Failure Response', 'Transition', 'feedback loop', 'safety'],
     thanks: {
       heading: 'Lời cảm ơn',
-      body: 'NoGi Mind được xây dựng với sự tôn trọng dành cho những người dạy và tập grappling hiện đại. Xin chân thành cảm ơn Guardian HCMC và coach Jon TRAN vì sự hướng dẫn và đồng hành.',
-      dashboard: 'Xin chân thành cảm ơn Guardian HCMC và coach Jon TRAN vì sự hướng dẫn và đồng hành.',
+      body: 'NoGi Mind được xây dựng với sự tôn trọng dành cho những người dạy và tập grappling hiện đại. Xin chân thành cảm ơn Guardian HCMC và coach Jon TRẦN vì sự hướng dẫn và đồng hành.',
+      guardianBlurb: 'Gym tại TP.HCM, nơi dự án này bắt đầu.',
+      fairfightBlurb: 'Quỹ từ thiện dùng Jiu-Jitsu để thay đổi cuộc sống và gây quỹ cho các hoạt động nhân đạo.',
+      dashboard: 'Xin chân thành cảm ơn Guardian HCMC và coach Jon TRẦN vì sự hướng dẫn và đồng hành.',
       more: 'Xem thêm',
     },
   },

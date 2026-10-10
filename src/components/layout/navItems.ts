@@ -46,7 +46,7 @@ export const hubNavItems: HubNavItem[] = [
     hub: 'build',
     labelKey: 'nav.build',
     icon: Layers3,
-    to: '/build',
+    to: '/archetypes',
     items: [
       { key: 'nav.archetypes', to: '/archetypes' },
     ],

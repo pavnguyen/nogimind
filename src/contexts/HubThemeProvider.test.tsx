@@ -34,7 +34,7 @@ describe('HubThemeProvider', () => {
     ['/learn', 'learn'],
     ['/study', 'study'],
     ['/defense', 'defense'],
-    ['/build', 'build'],
+    ['/archetypes', 'build'],
     ['/reference', 'reference'],
   ])('maps %s to data-hub="%s"', (path, expected) => {
     expect(renderAt(path)).toBe(expected)

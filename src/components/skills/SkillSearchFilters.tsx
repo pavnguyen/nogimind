@@ -63,7 +63,7 @@ export const SkillSearchFilters = ({ skills }: { skills: SkillNode[] }) => {
         return !covered.has(tag.toLowerCase().replace(/[\s_]+/g, '-'))
       })
       .sort((a, b) => a.localeCompare(b))
-  }, [families, skillDomains, skills, systems])
+  }, [families, skills, systems])
 
   const select = (
     key: string,

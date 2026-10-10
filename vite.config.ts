@@ -13,7 +13,7 @@ export default defineConfig({
     react(),
     VitePWA({
       registerType: 'autoUpdate',
-      includeAssets: ['favicon.png', 'icons.svg'],
+      includeAssets: ['favicon.png', 'icons.svg', 'credits/guardian-gym.webp', 'credits/fair-fight-foundation.png'],
       manifest: {
         name: 'NoGi Mind',
         short_name: 'NoGi Mind',

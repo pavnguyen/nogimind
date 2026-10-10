@@ -8,7 +8,6 @@ import {
   AboutPage,
   ArchetypeDetailPage,
   ArchetypesPage,
-  BuildHubPage,
   ConceptDetailPage,
   ConceptsPage,
   DashboardPage,
@@ -50,7 +49,7 @@ export const AppRouter = () => (
           <Route index element={<DashboardPage />} />
           <Route path="/learn" element={<LearnPage />} />
           <Route path="/study" element={<StudyPage />} />
-          <Route path="/build" element={<BuildHubPage />} />
+          <Route path="/build" element={<Navigate to="/archetypes" replace />} />
           <Route path="/fix" element={<Navigate to="/defense" replace />} />
           <Route path="/reference" element={<ReferencePage />} />
           <Route path="/skills" element={<SkillMapPage />} />

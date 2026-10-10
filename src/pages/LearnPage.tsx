@@ -1,17 +1,10 @@
-import { useMemo } from 'react'
-import { Link, useSearchParams } from 'react-router-dom'
+import { Link, Navigate, useSearchParams } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
-import { ArrowRight, BookOpen, Layers3, Map, ShieldCheck, Sparkles, Target, Compass } from 'lucide-react'
+import { ArrowRight, Layers3, ShieldCheck, Sparkles, Target, Compass } from 'lucide-react'
 import { StaggerContainer, StaggerItem } from '../components/common/StaggerContainer'
 import { Badge, type BadgeTone } from '../components/common/Badge'
-import { EmptyState } from '../components/common/EmptyState'
-import { HubTabBar } from '../components/layout/HubTabBar'
 import { PageShell } from '../components/common/PageShell'
 import { SectionCard } from '../components/common/SectionCard'
-import { usePositionsQuery } from '../queries/positionQueries'
-import { useConceptsQuery } from '../queries/conceptQueries'
-import { useSettingsStore } from '../stores/useSettingsStore'
-import { getLocalizedText } from '../utils/localization'
 
 type LearnStep = {
   title: string
@@ -37,15 +30,14 @@ const track = (id: string, title: string, description: string, steps: LearnStep[
   icon,
 })
 
+/** Tabs that moved out of /learn to their own pages. */
+const RETIRED_TABS: Record<string, string> = {
+  positions: '/positions',
+  concepts: '/concepts',
+}
+
 export default function LearnPage() {
   const { t } = useTranslation()
-  const lang = useSettingsStore((state) => state.language)
-
-  // Data queries for inline tabs
-  const positionsQuery = usePositionsQuery()
-  const positions = useMemo(() => positionsQuery.data ?? [], [positionsQuery.data])
-  const conceptsQuery = useConceptsQuery()
-  const concepts = useMemo(() => conceptsQuery.data ?? [], [conceptsQuery.data])
 
   const tracks: LearnTrack[] = [
     track(
@@ -99,135 +91,9 @@ export default function LearnPage() {
   ]
 
   const [searchParams] = useSearchParams()
-  const activeTab = searchParams.get('tab') || 'path'
-
-  const renderTabContent = () => {
-    switch (activeTab) {
-      case 'path':
-        return (
-          <StaggerContainer className="grid gap-4 lg:grid-cols-2">
-            {tracks.map((item) => (
-              <StaggerItem key={item.id}>
-                <SectionCard
-                  key={item.id}
-                  className="h-full"
-                  title={
-                    <span className="flex items-center gap-2">
-                      <item.icon className="h-5 w-5 shrink-0 text-gold" aria-hidden="true" />
-                      {item.title}
-                    </span>
-                  }
-                  description={item.description}
-                  action={
-                    <Badge tone={item.badgeTone}>
-                      {item.id === 'beginner' ? t('learn.badges.startHere') : item.id === 'fix' ? t('learn.badges.mostPractical') : item.id === 'build' ? t('learn.badges.advanced') : t('learn.badges.deepTechnique')}
-                    </Badge>
-                  }
-                >
-                  <ol className="grid gap-2">
-                    {item.steps.map((step, index) => (
-                      <li key={step.to + step.title}>
-                        <Link
-                          to={step.to}
-                          id={index === 0 ? item.id : undefined}
-                          className="flex items-start gap-3 rounded-lg border border-warm-50/10 bg-warm-900/65 px-3.5 py-3 transition hover:border-gold-300/35 hover:bg-warm-50/[0.06]"
-                        >
-                          <Badge tone="gold" className="mt-0.5 shrink-0">{index + 1}</Badge>
-                          <span className="min-w-0 flex-1">
-                            <span className="block text-sm font-semibold text-warm-50">{step.title}</span>
-                            <span className="mt-1 block text-[13px] leading-5 text-warm-400 line-clamp-2">{step.body}</span>
-                          </span>
-                          <ArrowRight className="mt-1 h-4 w-4 shrink-0 text-gold" aria-hidden="true" />
-                        </Link>
-                      </li>
-                    ))}
-                  </ol>
-                </SectionCard>
-              </StaggerItem>
-            ))}
-          </StaggerContainer>
-        )
-
-      case 'positions':
-        return (
-          <div className="space-y-4">
-            <div className="flex items-center justify-between">
-              <p className="text-sm text-warm-400">{t('positions.whatFor')}</p>
-              <Link
-                to="/positions"
-                className="text-xs font-medium text-gold hover:text-gold transition-colors"
-              >
-                {t('common.open')} →
-              </Link>
-            </div>
-            {positions.length === 0 ? (
-              <EmptyState title={t('positions.empty')} />
-            ) : (
-              <StaggerContainer className="grid gap-3 sm:grid-cols-2 xl:grid-cols-3">
-                {positions.slice(0, 18).map((position) => (
-                  <StaggerItem key={position.id}>
-                    <Link
-                      to={`/positions/${position.id}`}
-                      className="group rounded-xl border border-warm-50/[0.06] bg-warm-900/40 p-4 transition-all hover:border-gold-400/20 hover:bg-warm-900/70"
-                    >
-                      <Badge tone="gold" className="text-[10px]">{t(`positionCategories.${position.category}`)}</Badge>
-                      <h3 className="mt-2 text-sm font-semibold text-warm-50 group-hover:text-gold transition-colors">
-                        {getLocalizedText(position.title, lang)}
-                      </h3>
-                      <p className="mt-1 line-clamp-2 text-xs leading-5 text-warm-400">
-                        {getLocalizedText(position.description, lang)}
-                      </p>
-                    </Link>
-                  </StaggerItem>
-                ))}
-              </StaggerContainer>
-            )}
-          </div>
-        )
-
-      case 'concepts':
-        return (
-          <div className="space-y-4">
-            <div className="flex items-center justify-between">
-              <p className="text-sm text-warm-400">{t('concepts.whatFor')}</p>
-              <Link
-                to="/concepts"
-                className="text-xs font-medium text-gold hover:text-gold transition-colors"
-              >
-                {t('common.open')} →
-              </Link>
-            </div>
-            {concepts.length === 0 ? (
-              <EmptyState title={t('concepts.empty')} />
-            ) : (
-              <StaggerContainer className="grid gap-3 sm:grid-cols-2 xl:grid-cols-3">
-                {concepts.slice(0, 12).map((concept) => (
-                  <StaggerItem key={concept.id}>
-                    <Link
-                      to={`/concepts/${concept.id}`}
-                      className="group rounded-xl border border-warm-50/[0.06] bg-warm-900/40 p-4 transition-all hover:border-gold-400/20 hover:bg-warm-900/70"
-                    >
-                      <div className="flex flex-wrap gap-1.5">
-                        <Badge tone="gold" className="text-[10px]">{t(`conceptCategories.${concept.category}`)}</Badge>
-                        <Badge tone="jade" className="text-[10px]">{t(`conceptLevels.${concept.level}`)}</Badge>
-                      </div>
-                      <h3 className="mt-2 text-sm font-semibold text-warm-50 group-hover:text-gold transition-colors">
-                        {getLocalizedText(concept.title, lang)}
-                      </h3>
-                      <p className="mt-1 line-clamp-2 text-xs leading-5 text-warm-400">
-                        {getLocalizedText(concept.shortDefinition, lang)}
-                      </p>
-                    </Link>
-                  </StaggerItem>
-                ))}
-              </StaggerContainer>
-            )}
-          </div>
-        )
-
-      default:
-        return null
-    }
+  const activeTab = searchParams.get('tab')
+  if (activeTab && RETIRED_TABS[activeTab]) {
+    return <Navigate to={RETIRED_TABS[activeTab]} replace />
   }
 
   return (
@@ -257,18 +123,47 @@ export default function LearnPage() {
         </div>
       }
     >
-      <HubTabBar
-        tabs={[
-          { id: 'path', labelKey: 'nav.learningPath', shortLabelKey: 'nav.short.learningPath', icon: Compass },
-          { id: 'positions', labelKey: 'nav.positions', shortLabelKey: 'nav.short.positions', icon: Map },
-          { id: 'concepts', labelKey: 'nav.concepts', shortLabelKey: 'nav.short.concepts', icon: BookOpen },
-        ]}
-        className="mb-6"
-      />
-
-      <div className="animate-slideUp" key={activeTab}>
-        {renderTabContent()}
-      </div>
+      <StaggerContainer className="grid gap-4 lg:grid-cols-2">
+        {tracks.map((item) => (
+          <StaggerItem key={item.id}>
+            <SectionCard
+              key={item.id}
+              className="h-full"
+              title={
+                <span className="flex items-center gap-2">
+                  <item.icon className="h-5 w-5 shrink-0 text-gold" aria-hidden="true" />
+                  {item.title}
+                </span>
+              }
+              description={item.description}
+              action={
+                <Badge tone={item.badgeTone}>
+                  {item.id === 'beginner' ? t('learn.badges.startHere') : item.id === 'fix' ? t('learn.badges.mostPractical') : item.id === 'build' ? t('learn.badges.advanced') : t('learn.badges.deepTechnique')}
+                </Badge>
+              }
+            >
+              <ol className="grid gap-2">
+                {item.steps.map((step, index) => (
+                  <li key={step.to + step.title}>
+                    <Link
+                      to={step.to}
+                      id={index === 0 ? item.id : undefined}
+                      className="flex items-start gap-3 rounded-lg border border-warm-50/10 bg-warm-900/65 px-3.5 py-3 transition hover:border-gold-300/35 hover:bg-warm-50/[0.06]"
+                    >
+                      <Badge tone="gold" className="mt-0.5 shrink-0">{index + 1}</Badge>
+                      <span className="min-w-0 flex-1">
+                        <span className="block text-sm font-semibold text-warm-50">{step.title}</span>
+                        <span className="mt-1 block text-[13px] leading-5 text-warm-400 line-clamp-2">{step.body}</span>
+                      </span>
+                      <ArrowRight className="mt-1 h-4 w-4 shrink-0 text-gold" aria-hidden="true" />
+                    </Link>
+                  </li>
+                ))}
+              </ol>
+            </SectionCard>
+          </StaggerItem>
+        ))}
+      </StaggerContainer>
     </PageShell>
   )
 }

@@ -300,7 +300,7 @@ export const en = {
       low: 'Low Risk',
       medium: 'Medium Risk',
       high: 'High Risk',
-      safety_critical: 'Safety Critical',
+      safety_critical: 'Critical Risk',
     },
     meta: {
       fundamental: 'Fundamental',
@@ -1143,6 +1143,8 @@ export const en = {
     thanks: {
       heading: 'With gratitude',
       body: 'NoGi Mind is built with respect for the people who teach and train modern grappling. Our sincere thanks to Guardian HCMC and coach Jon TRAN for their guidance and support.',
+      guardianBlurb: 'The HCMC gym and coaching this project grew from.',
+      fairfightBlurb: 'Nonprofit using jiu-jitsu to change lives and raise money for charitable causes.',
       dashboard: 'Sincere thanks to Guardian HCMC and coach Jon TRAN for their guidance and support.',
       more: 'Read more',
     },

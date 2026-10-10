@@ -41,7 +41,7 @@ const hubLinks = [
   { to: '/learn', icon: Compass, label: 'nav.learn', tone: 'gold' },
   { to: '/study', icon: Zap, label: 'nav.study', tone: 'jade', highlight: true },
   { to: '/defense', icon: Shield, label: 'nav.defense', tone: 'copper' },
-  { to: '/build', icon: Layers3, label: 'nav.build', tone: 'steel' },
+  { to: '/archetypes', icon: Layers3, label: 'nav.build', tone: 'steel' },
   { to: '/reference', icon: BookOpen, label: 'nav.reference', tone: 'sand' },
 ]
 
