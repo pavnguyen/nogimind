@@ -59,18 +59,19 @@ content/skills/<domain-folder>/<skill-id>/   canonical source of a skill
   skill.json                    metadata: id, domain, level, name, tags, relations, featureFlags
   content.{en,vi,fr}.json       localized content (all three required)
   videos.json                   YouTube references (schema: SkillVideoRefSchema)
-content/shared/                 domains.json, positions.json, concepts.json (id + name lists)
+content/shared/                 domains.json, positions.json, concepts.json, path.json (id + name lists)
+content/paths/<group-id>/       non-position Path steps: path.json + content.{en,vi,fr}.json [planned, section 14]
 src/pages/                      route screens (lazy via src/router/routes.tsx + AppRouter.tsx)
 src/components/                 layout, dashboard, content, learning, skills, video, common
 src/queries/                    TanStack Query client + content queries
-src/content-runtime/            manifest + payload runtime (skills, concepts, positions, videos)
+src/content-runtime/            manifest + payload runtime (skills, concepts, positions, videos, path) [path planned, section 14]
 src/repositories/               pipeline-first loaders with legacy fallback
 src/utils/                      search, searchText, cache, localization
 src/data/                       legacy in-app reference data (concepts, positions, archetypes, ...)
 src/i18n/resources/             en.ts | vi.ts | fr.ts UI copy
-public/generated/               BUILT artifacts: manifest/, skills/<locale>/, concepts/, positions/, videos/by-skill/
+public/generated/               BUILT artifacts: manifest/ (incl. path.<locale>.json, planned), skills/<locale>/, concepts/, positions/, videos/by-skill/
 scripts/                        auditViKeys.ts, validate-videos.ts
-scripts/content/                build-content.ts, validate-content.ts, scaffold-skill.ts, load-json.ts
+scripts/content/                build-content.ts, validate-content.ts, scaffold-skill.ts, load-json.ts, validate-relations.ts, skill-order.ts [both planned, section 14]
 ```
 
 Folder-to-domain mapping (folders are abbreviations; `domain` is the schema
@@ -98,6 +99,13 @@ Rules:
   already exists for it.
 - `content/` and `src/data/` both carry ids. When renaming or re-casing anything,
   fix both sides in the same change and re-run validation.
+- Every cross-reference must resolve: `relatedSkillIds`, `prerequisiteSkillIds`,
+  `nextSkillIds`, `relatedSkills[].id`, `relatedConceptIds`, `nextPositionId` and the
+  path group skill ids. `npm run validate:relations` is the gate (section 14); until it
+  lands, verify by searching for the id case-sensitively before trusting it.
+- Author a relation in one direction only. The build mirrors `nextSkillIds` into the
+  target's prerequisites, and two conflicting declarations are a validation error
+  (section 14).
 
 ## 4. Adding a new skill
 
@@ -194,6 +202,10 @@ title from the id.
   `src/types/concept.ts`, mirrored in `src/types/content.ts`,
   `src/data/concepts.ts` and `src/i18n/resources/*`). Adding or removing a
   category means updating all four places plus the three locale files.
+- `content/shared/positions.json` keeps driving `/positions` and the Learn tab order. The
+  Skill Hub Path tab reads `content/shared/path.json` instead, which lists the same
+  positions plus the non-position steps held in `content/paths/<group-id>/`, so a new
+  position is added to both shared lists (planned, section 14).
 
 ## 7. i18n and Vietnamese style
 
@@ -225,6 +237,12 @@ title from the id.
   depend on it.
 - Search deep links must point at ids that exist in the DOM (`pipeline-*`
   sections on the skill page), or the user silently lands at the top of a page.
+- Catalogue filtering is search-first and ranked, not a wall of separate selects: a few
+  presets plus contextual facet chips, everything else behind one sheet on phones, and
+  every filter living in URL params so a filtered view stays shareable. A facet group
+  only renders when it can split the current result set, and a facet value's count is
+  computed with the other active filters applied but with its own group ignored
+  (planned, section 14).
 
 ## 9. UI, theming, accessibility
 
@@ -253,6 +271,14 @@ title from the id.
   `animate-fade-in`, framer-motion where already used).
 - Route changes are handled by `AppRouter`'s `ScrollToTop`; use explicit
   redirects for retired routes instead of dropping them.
+- `/skills` is the Skill Hub with `?tab=path|catalog`; `/study` redirects into it and
+  `/skills/:skillId` stays the detail route. Never introduce a second catalogue route for
+  the same data: two routes are what let the old `/skills` and `/study` drift apart
+  (planned, section 14).
+- Overlays such as the phone filter sheet reuse the dialog pattern already in
+  `src/components/common/KeyboardShortcutsOverlay.tsx`: `role="dialog"` with
+  `aria-modal`, focus trap and restore, Escape and backdrop close. No new modal
+  dependency.
 - For UI work, verify the affected route in the dev server or preview build when
   you can, and say so when you cannot.
 
@@ -265,7 +291,11 @@ title from the id.
 - Do not hand-write into `public/generated/`. If an artifact is wrong, fix
   `content/` or the builder script.
 - Generated builds touch many files: inspect the diff instead of assuming it is
-  clean.
+  clean. A second `npm run build:content` must leave `public/generated/` byte-identical.
+- New generated artifacts belong under an existing cached segment (`manifest/`, `skills/`,
+  `concepts/`, `positions/`, `videos/`). The runtime cache pattern in `vite.config.ts` is
+  anchored to those segments, so a file written to `public/generated/<name>.json` is not
+  cached and quietly breaks offline use.
 
 ## 11. Commands and verification gates
 
@@ -274,6 +304,7 @@ npm run typecheck        # tsc -b
 npm run lint             # eslint .
 npm test                 # vitest run
 npm run validate:content # Zod + cross-file checks (content changes)
+npm run validate:relations # relation graph + path data (content changes)
 npm run validate:videos  # YouTube availability (video changes)
 npm run build:content    # regenerate public/generated (content changes)
 npm run build            # tsc -b && vite build
@@ -281,7 +312,10 @@ npm run audit:vi         # Vietnamese coverage (i18n/content changes)
 npm run create-skill     # scaffold a new skill
 ```
 
-Expected: `typecheck`, `lint`, `test`, `validate:content` and `build` exit 0.
+Expected: `typecheck`, `lint`, `test`, `validate:content`, `validate:relations` and
+`build` exit 0. In `validate:relations` the errors fail the command and CI, while
+warnings (level inversions today) and informational lines (step size, membership
+counts) never do.
 `validate:content` reports 0 errors, 0 warnings, plus an informational "Reused
 videos" count. CI (`.github/workflows/ci.yml`, `content-validation.yml`) runs
 lint, tests, build + typecheck and content validation on Node 22.
@@ -308,10 +342,25 @@ affected check: earlier green runs do not cover later edits.
   the folder listing: add a new position or concept to its shared list as well,
   or it lands alphabetically at the end (and the Learn tab only shows the first
   18 positions).
-- **Dangling cross-references.** Nothing in the toolchain checks that
-  `relatedSkillIds`, `relatedConceptIds` and `nextPositionId` resolve. Verify by
-  searching for the id (case-sensitively) before trusting it; `bodylock-passing`
-  was a long-lived typo for `bodylock-pass`.
+- **Dangling cross-references.** This used to be a manual audit: `validate:content`
+  does not resolve relation ids, which is how `bodylock-passing` survived as a long-lived
+  typo for `bodylock-pass`, alongside case corruption such as `clamp-Guard-system` and
+  `single-leg-x-Guard`. `npm run validate:relations` now fails on any relation id that
+  does not resolve, so run it after touching relations and fix the content rather than
+  the check. It resolves every authored reference in both directions: skill to skill
+  (`relatedSkills[].id`, `prerequisiteSkillIds`, `nextSkillIds`, `relatedSkillIds`),
+  positions to skills, skills to positions, concepts and archetypes, and archetypes to
+  skills and concepts.
+- **Hand-sorting a list.** Display order inside a step or a domain comes from the derived
+  order in the manifest (level first, then prerequisite depth). Re-sorting in a component,
+  or reordering a `relatedSkillIds` array and expecting the UI to follow, silently
+  desynchronises the app from its data.
+- **Authoring both directions of a relation.** Declare `nextSkillIds` on the earlier skill
+  and let the build mirror the prerequisite. Two conflicting declarations are a validation
+  error, not a merge to resolve by hand.
+- **Facet counts that ignore their own group.** A count computed with the group's own
+  selection applied makes a filter look inert, because every remaining value counts the
+  same. Exclude the group being counted.
 - **Dead videos.** oEmbed 403 or 404 means private, removed or region-blocked.
   Replace the reference so the skill stays playable.
 - **Duplicate `youtubeId` noise.** Many ids are referenced by more than one skill
@@ -332,3 +381,52 @@ affected check: earlier green runs do not cover later edits.
 - Never commit secrets or env values.
 - When content JSON or `public/generated/` is regenerated, expect large diffs and
   mention them in your summary.
+
+## 14. Skill Hub and connection data (planned: skills-study-hub)
+
+Status: planned. Nothing in this section exists in the repo yet except where marked
+otherwise. The source of truth for the work is `skills-study-hub-spec.md` at the repo
+root: read it before implementing any part of this, and delete the "planned, section 14"
+markers as each slice lands.
+
+The slices, in order:
+
+1. **S1 data integrity.** Repair the dangling relation ids and the one asymmetric pair, add
+   `scripts/content/validate-relations.ts` as `npm run validate:relations`, wire it into
+   `.github/workflows/content-validation.yml` and the `build` job of
+   `.github/workflows/ci.yml`, document it here. Content only, no UI change. This is the
+   first shippable slice.
+2. **S2 data model and derived order.** Mirror `nextSkillIds` into prerequisites in the
+   build, emit `relations`, `positionIds`, `depth` and `order` in the skills manifest, and
+   share the ordering function between the builder and the tests.
+3. **S3 path sources and mapping.** Add `content/shared/path.json` and
+   `content/paths/<group-id>/`, and apply the position-to-skill mapping to the position
+   files so every skill is reachable from a Path step.
+4. **S4 hub merge and filters.** `/skills?tab=path|catalog`, the `/study` redirect, and the
+   ranked filter model.
+5. **S5 Path tab.** `src/content-runtime/path.ts` plus `usePathStepsQuery`, consuming
+   `public/generated/manifest/path.<locale>.json`.
+6. **S6 polish.** Accessibility, motion, empty and error states, VI copy review, breakpoint
+   screenshots.
+
+Rules that apply once it lands:
+
+- **Relations are authored once, typed, in `skill.json`.** Use `relatedSkills[]` with a
+  type rather than prose. The build derives the mirror direction; the validator rejects an
+  asymmetric or dangling graph.
+- **Order is derived, never authored, never hand-sorted in a component.** Level first, then
+  prerequisite depth, computed at build time and emitted as `order`/`depth`.
+- **Path data has one owner.** `content/shared/path.json` holds the Path order; group steps
+  live in `content/paths/<group-id>/`; positions stay in `content/positions/` and keep
+  driving `/positions` and the Learn tab.
+- **The hub has one route.** `/skills` with the `tab` param; `/study` redirects and keeps
+  mapping `domain` into the catalogue filters.
+- **Filters live in the URL.** Presets and facet chips write the same params as manual
+  filtering, so any filtered view is a shareable link and the back button works.
+- **Never weaken the validator to go green.** If a reference cannot resolve, fix the content
+  or remove the relation and say so. No allowlists, no skipped checks, no "temporary"
+  warning downgrades.
+- **Verification depth.** `validate:relations` in CI beside `validate:content`, unit tests
+  importing the shared ordering function, and manual breakpoint checks at 375, 768 and 1440
+  on both themes using the scratch CDP scripts under `.freebuff/`. No visual regression
+  tooling is added for this work.

@@ -1,0 +1,144 @@
+{
+  "id": "stance-movement-basics",
+  "domain": "wrestle_up_wrestling",
+  "level": "beginner",
+  "status": "draft",
+  "name": "Stance and Movement",
+  "aliases": [
+    "wrestling stance",
+    "stance and motion",
+    "footwork"
+  ],
+  "tags": [
+    "family:wrestling",
+    "risk:low",
+    "meta:modern_common",
+    "modern-no-gi",
+    "group:wrestle_up",
+    "stance",
+    "footwork"
+  ],
+  "keywords": [
+    "stance",
+    "footwork",
+    "level change",
+    "penetration step",
+    "hand position",
+    "wrestling for BJJ"
+  ],
+  "modernSystemGroup": "wrestle_up",
+  "relatedSkills": [
+    {
+      "id": "hand-fighting",
+      "type": "chain"
+    },
+    {
+      "id": "double-leg-bjj",
+      "type": "chain"
+    },
+    {
+      "id": "sprawl-go-behind",
+      "type": "chain"
+    },
+    {
+      "id": "bjj-foot-sweeps",
+      "type": "recommended"
+    },
+    {
+      "id": "body-lock-takedown",
+      "type": "recommended"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [
+    "base-balance",
+    "inside-position",
+    "head-position"
+  ],
+  "relatedConceptIds": [],
+  "archetypeIds": [
+    "wrestle-up-player",
+    "scramble-controller"
+  ],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [
+    "If they snap your head down: keep the hips low and step in, do not bend at the waist to recover",
+    "If they get a body lock: get your hips low and your hands inside, then break the lock before trying to move",
+    "If your lead leg gets attacked: trail foot first to circle out, then re-set the stance"
+  ],
+  "version": 1,
+  "updatedAt": "2026-10-11T00:00:00.000Z",
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "en",
+  "description": "Stance and Movement is the base layer of no-gi stand-up: how you stand (staggered athletic stance, knees bent, hands up), how you move (short steps that never cross), and how you change level (hips down, chest up). Every takedown, sprawl and guard pull starts from this base.",
+  "shortInstruction": "Staggered athletic stance: knees bent, hips low, hands up at chest height. Move with short steps, lead foot first going forward, trail foot first going back, and keep your head inside their hands.",
+  "summary": "Stance and Movement covers the posture and footwork that make the rest of the stand-up game possible. It is not a technique but a base: the same stance feeds the double leg, the foot sweep, the body lock and the sprawl. Beginners usually lose the stand-up not because they do not know techniques, but because they stand upright with square feet and high hips, which turns every exchange into a fall.",
+  "whyItWorks": [
+    "A staggered stance with staggered feet gives you a base that can move in any direction without a weight shift you cannot afford",
+    "Bending the knees and lowering the hips keeps your head above your base, which is what stops a snap down or a body lock from breaking your posture",
+    "Short steps that never cross keep your hips under you, so you can change direction on the second step instead of the third",
+    "Keeping your hands between your chest and theirs means the first grip exchange happens on your terms instead of on extended arms"
+  ],
+  "commonMistakes": [
+    "Standing tall with the feet square, which turns every level change into a fall and every snap down into a disaster",
+    "Watching their feet instead of their chest, which loses the first step of every exchange",
+    "Reaching with straight arms to make the first grip, handing them the two-on-one",
+    "Crossing the feet while moving laterally, which makes a single leg or a foot sweep land for free"
+  ],
+  "coachingCues": [
+    "Knees bent, hips low, hands up",
+    "Move the feet, not the chest",
+    "Short steps, never cross",
+    "Head inside their hands"
+  ],
+  "safetySummary": [
+    "Drill stance changes at controlled speed on a clear mat: the most common stand-up injury for beginners is an uncontrolled fall backward on the first level change",
+    "Practise the stand-up stance with a partner who also controls their weight, and stop the drill before anyone lands on a stiff arm",
+    "Takedown entries built on this stance follow the app's takedown safety guidance: no explosive throws in training, and never a landing on the head or neck"
+  ],
+  "systemLogic": {
+    "corePrinciple": "Stance and Movement: build the base (staggered athletic stance, hands up), keep the hips low through every step, and move with short steps that never cross so you can change direction at any moment.",
+    "decisionTree": [
+      {
+        "condition": "You want to close the distance",
+        "action": "small step with the lead foot, hips down, hands inside their hands"
+      },
+      {
+        "condition": "They push forward into you",
+        "action": "trail foot first, circle out, and re-set the stance before engaging"
+      },
+      {
+        "condition": "Your head gets snapped down",
+        "action": "drop the hips, step in, look up, and re-build the hands"
+      }
+    ],
+    "exitStrategies": [
+      "If you lose the stance, stand up out of the exchange and re-set rather than fighting from a square, upright position",
+      "If a grip exchange starts to go wrong, disengage to distance and re-enter from a set stance"
+    ]
+  },
+  "moneyDetails": [
+    "The stance is the tell: an upright, square stance invites the two-on-one and the snap down, a low staggered stance takes those attacks away",
+    "Hips low with the head above the base is the single detail that separates a beginner stand-up from a wrestler's stand-up",
+    "Short steps keep your feet under your hips, which is what makes the second and third step available when the first one gets defended"
+  ],
+  "fixItFast": [
+    "If you feel yourself getting pulled forward: drop your hips and step in, do not pull back with your chest",
+    "If your feet get crossed: stand up, re-set the stance, and start the exchange again",
+    "If your hands drop below chest height: re-set the hands before looking for a grip"
+  ]
+}

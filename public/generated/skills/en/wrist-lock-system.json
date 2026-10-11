@@ -1,0 +1,147 @@
+{
+  "id": "wrist-lock-system",
+  "domain": "submission_systems",
+  "level": "intermediate",
+  "status": "draft",
+  "name": "Wrist Lock System",
+  "aliases": [
+    "wristlock",
+    "gooseneck",
+    "figure four wrist lock"
+  ],
+  "tags": [
+    "family:submission",
+    "risk:high",
+    "meta:modern_common",
+    "modern-no-gi",
+    "group:wrist_ride",
+    "wrist-lock",
+    "joint-lock"
+  ],
+  "keywords": [
+    "wrist lock",
+    "wristlock",
+    "gooseneck",
+    "figure four",
+    "joint lock",
+    "wrist control"
+  ],
+  "modernSystemGroup": "wrist_ride",
+  "relatedSkills": [
+    {
+      "id": "cross-wrist-ride",
+      "type": "supporting"
+    },
+    {
+      "id": "wrist-ride-back-exposure",
+      "type": "supporting"
+    },
+    {
+      "id": "kimura-system",
+      "type": "chain"
+    },
+    {
+      "id": "triangle-system",
+      "type": "chain"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [
+    "control-before-submission",
+    "levers",
+    "dilemma-attacks",
+    "early-vs-late-defense"
+  ],
+  "relatedConceptIds": [],
+  "archetypeIds": [
+    "submission-chain-hunter"
+  ],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "side-control-pin",
+    "back-control"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [
+    "If their elbow rolls and follows the hand: re-pin the forearm against your chest or the mat before rotating again",
+    "If they straighten the arm and pull: let the grip go, re-establish control, and take the lock from a better position instead of fighting the arm",
+    "If they grab their own hand to defend: use that grip against them, their own hand takes away the space they need to rotate"
+  ],
+  "version": 1,
+  "updatedAt": "2026-10-11T00:00:00.000Z",
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "en",
+  "description": "A wrist lock bends or twists the wrist past its range of motion. You secure the hand with a two-on-one grip or a figure-four, trap the forearm so it cannot move, and then rotate the hand while your body supplies the leverage. It is the smallest joint lock in the sport and the one that appears whenever the opponent leaves a hand in the wrong place.",
+  "shortInstruction": "Capture the hand, pin their forearm against your body or the mat so the elbow cannot follow, then rotate the hand into flexion or ulnar deviation with your whole torso, not with your fingers.",
+  "summary": "The Wrist Lock System is not one submission but a family of entries built on the same grip: the hand is the lever, the trapped forearm is the fulcrum, and your body rotation is the power. The value is availability. Wrist locks show up from side control, mount, back control, the triangle and even from the bottom of side control, which means an opponent who hides the neck and the elbows still has a joint exposed. Because the wrist breaks with very little warning, this is a control-first system and a slow-application system.",
+  "whyItWorks": [
+    "The hand is at the end of a long lever, so a small rotation of your torso produces a large load at the wrist",
+    "Pinning their forearm stops the elbow from following the hand, which is the only way they can relieve the pressure",
+    "Wrist control is already part of the pin in a cross-wrist ride or a handcuff grip, so the submission is available without changing position",
+    "Tight shoulder and elbow defense does not protect the wrist, so it reaches opponents who are otherwise shut down"
+  ],
+  "commonMistakes": [
+    "Pulling with the fingers or the small muscles of the hand instead of rotating the whole torso",
+    "Leaving the forearm free so the opponent rolls the elbow and follows the hand out of the lock",
+    "Chasing the wrist from a loose position, where the lock arrives with no pin and the opponent can simply pull the arm back",
+    "Cranking the wrist to force a reaction in drilling, when the joint gives almost no pain signal before it is damaged"
+  ],
+  "coachingCues": [
+    "Hand first, forearm pinned second, rotation last",
+    "Turn your chest, not your fingers",
+    "Trap the elbow line before you turn the hand",
+    "Slow on every rep, the wrist does not warn you"
+  ],
+  "safetySummary": [
+    "Wrist locks are the joint lock most likely to injure without warning, because the wrist often does not hurt until damage has started. Apply pressure slowly, in small increments, and never jerk or crank the joint",
+    "Tap early and tap with the other hand. Do not wait to feel pain before tapping a wrist lock; by the time it hurts, the ligaments may already be loaded",
+    "In drilling, agree beforehand on the target joint and stop at light pressure. If your partner is not expecting the wrist, do not apply it at all"
+  ],
+  "systemLogic": {
+    "corePrinciple": "Wrist Lock System: capture the hand, pin the forearm so the elbow cannot follow, then rotate the hand into flexion or deviation by turning your torso, and only from a position where the arm is already controlled.",
+    "decisionTree": [
+      {
+        "condition": "You already have the wrist from a cross-wrist ride or a handcuff grip",
+        "action": "keep the pin and turn your chest to load the wrist, no new grip needed"
+      },
+      {
+        "condition": "They hide the elbow and keep the arm tight to their body",
+        "action": "take the lock from the other side, on the far hand, or switch to the Kimura on the same arm"
+      },
+      {
+        "condition": "Their elbow rolls and follows the hand",
+        "action": "re-pin the forearm before you rotate again, a free forearm is the escape"
+      },
+      {
+        "condition": "They straighten the arm to escape the grip",
+        "action": "let it go, recover position, and re-enter the lock from a pin"
+      }
+    ],
+    "exitStrategies": [
+      "If the wrist lock fails, you are still in the pin: keep the position and move to a stronger submission rather than chasing the hand",
+      "If the opponent taps late or the joint looks loaded, stop the round, release slowly, and check with your partner"
+    ]
+  },
+  "moneyDetails": [
+    "The fulcrum is the pinned forearm, not the hand: without it, the elbow simply follows the wrist and the lock never loads",
+    "Rotation comes from your chest and hips. When your torso turns, the grip only has to hold; when your hands do the work, the lock is weak and easy to strip",
+    "Wrist locks land best as a second or third attack, when the opponent has already committed their arms to defending the neck or the elbow"
+  ],
+  "fixItFast": [
+    "If their forearm breaks free: re-pin it against your chest before rotating again",
+    "If the lock feels like a grip fight: switch to the Kimura, which uses the same wrist control with a bigger lever",
+    "If they pull the arm out entirely: keep the pin, stop reaching, and take the position you already own"
+  ]
+}

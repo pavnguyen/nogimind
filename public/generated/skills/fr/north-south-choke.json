@@ -1,0 +1,140 @@
+{
+  "id": "north-south-choke",
+  "domain": "submission_systems",
+  "level": "intermediate",
+  "status": "draft",
+  "name": "North-South Choke",
+  "aliases": [
+    "north south strangle",
+    "north-south strangle",
+    "ns choke"
+  ],
+  "tags": [
+    "family:submission",
+    "risk:high",
+    "meta:modern_common",
+    "modern-no-gi",
+    "tier:modern-expansion",
+    "north-south",
+    "arm-in-choke",
+    "choke"
+  ],
+  "keywords": [
+    "north south choke",
+    "north south strangle",
+    "arm-in choke",
+    "north south position",
+    "choke from north south"
+  ],
+  "relatedSkills": [
+    {
+      "id": "arm-triangle-mount",
+      "type": "chain"
+    },
+    {
+      "id": "kimura-system",
+      "type": "alternative"
+    },
+    {
+      "id": "north-south-escape",
+      "type": "supporting"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [
+    "pressure-direction",
+    "control-before-submission",
+    "head-position"
+  ],
+  "relatedConceptIds": [],
+  "archetypeIds": [
+    "submission-chain-hunter"
+  ],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "north-south-control"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [
+    "S'ils se tournent vers vous: cessez de poursuivre la soumission et prenez le mount ou le dos, la rotation vous les offre",
+    "S'ils dégagent votre bras: repassez le bras sous la tête et refaites le clasp avant d'avancer les hanches à nouveau",
+    "Si la soumission paraît lâche mais qu'ils ne s'échappent pas: vérifiez la position de la tête et pincez les coudes avant d'ajouter de la pression"
+  ],
+  "version": 1,
+  "updatedAt": "2026-10-11T00:00:00.000Z",
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "fr",
+  "description": "Le North-South Choke est une soumission arm-in appliquée depuis le pin North-South. Votre poitrine recouvre la leur, votre bras proche passe sous leur tête pour que le biceps ou l'épaule ferme un côté du cou, et leur propre épaule ferme l'autre. La prise est un clasp et non une saisie de col, ce qui en fait une soumission no-gi par nature.",
+  "shortInstruction": "Depuis le North-South, passez le bras proche sous leur tête, claspez vos mains ou votre poignet, pincez les coudes l'un vers l'autre et gardez la poitrine collée à la leur. Avancez les hanches vers leur tête pour fermer le dernier espace.",
+  "summary": "Le North-South Choke transforme le pin North-South en finish. Rien n'est un serrage: la soumission se construit depuis le pin, la pression de poitrine ferme l'espace, le biceps et l'épaule chargent un côté du cou et l'épaule de l'adversaire emprisonne l'autre. Le finish est une marche de hanches vers leur tête, pas une traction des bras. Il atteint les adversaires qui défendent bien les deux côtés du cou, car la pression arrive sur un plan qu'ils ne contrôlent pas, et il sert aussi de contrôle: garder la forme de la soumission est déjà une façon de maintenir au sol.",
+  "whyItWorks": [
+    "Passer le bras sous la tête place le biceps et l'épaule sur un côté du cou, donc la charge ne dépend pas des mains",
+    "L'épaule piégée de l'adversaire fournit l'autre côté de la soumission, ce qui transforme leur propre bras défensif en second mur",
+    "Poitrine contre poitrine avec le poids bas supprime l'espace nécessaire pour se tourner vers vous, et se tourner est la sortie principale",
+    "Avancer les hanches vers leur tête raccourcit le levier, donc la soumission serre sans que vous ayez à pincer davantage"
+  ],
+  "commonMistakes": [
+    "Se redresser ou lever la poitrine pour chercher la prise, ce qui leur donne l'espace et l'angle pour se tourner vers vous",
+    "Finir avec les bras au lieu des hanches, ce qui fatigue et laisse la soumission lâche",
+    "Laisser la tête dériver et rester bien à plat, ce qui permet à l'adversaire de détourner le regard et de dégager le bras",
+    "Tenir la position longtemps après que la soumission s'est relâchée, alors qu'une transition vers le mount ou le Kimura est disponible"
+  ],
+  "coachingCues": [
+    "Poitrine collée, hanches qui avancent",
+    "Coudes pincés, jamais tirés",
+    "Tête basse et du même côté que le bras qui étrangle",
+    "S'ils se tournent, suivez la rotation au lieu de la combattre"
+  ],
+  "safetySummary": [
+    "C'est une attaque du cou. Appliquez lentement et relâchez immédiatement au tap, la pression monte vite une fois l'espace fermé",
+    "La cible est le côté du cou, pas la trachée. N'enfoncez ni l'avant-bras ni votre tête dans la gorge",
+    "Le North-South empile aussi le cou, donc installez la position progressivement. Si votre partenaire a un historique de cou ou de colonne, évitez une pression North-South lourde"
+  ],
+  "systemLogic": {
+    "corePrinciple": "North-South Choke: établissez le pin North-South, passez le bras proche sous la tête, claspez pour fermer la ligne du cou, gardez la poitrine basse, puis avancez les hanches vers leur tête pour finir.",
+    "decisionTree": [
+      {
+        "condition": "Ils forment des cadres pour protéger le cou",
+        "action": "gardez le pin et passez au Kimura sur le bras proche"
+      },
+      {
+        "condition": "Ils se tournent vers vous pour échapper à la soumission",
+        "action": "suivez la rotation et prenez le mount ou le dos"
+      },
+      {
+        "condition": "Ils tendent le bras piégé et le glissent dehors",
+        "action": "repassez le bras sous la tête et refaites le clasp avant de continuer"
+      },
+      {
+        "condition": "La soumission est serrée mais ils ne tapent pas",
+        "action": "vérifiez la position de la tête et avancez encore les hanches au lieu de serrer plus fort"
+      }
+    ],
+    "exitStrategies": [
+      "Si la soumission échoue, gardez le pin que vous possédez déjà et passez au Kimura ou au mount plutôt que de recommencer",
+      "Si vous perdez complètement l'angle North-South, revenez au side control au lieu de disputer la position depuis un mauvais angle"
+    ]
+  },
+  "moneyDetails": [
+    "Le finish est une marche de hanches, pas un serrage: la soumission se ferme à mesure que vos hanches réduisent la distance à leur tête",
+    "Le clasp doit seulement fermer la ligne du cou, donc les coudes restent pincés contre vos côtes, jamais écartés",
+    "Garder la forme de la soumission est aussi un pin, donc une soumission bloquée reste une position contrôlée, ce qui permet d'attendre la réaction en sécurité"
+  ],
+  "fixItFast": [
+    "Si la soumission stagne, avancez les hanches vers leur tête avant de changer autre chose",
+    "S'ils se tournent vers vous, lâchez la soumission et prenez le mount",
+    "Si votre bras est dégagé, rétablissez d'abord le pin puis repassez la soumission"
+  ]
+}

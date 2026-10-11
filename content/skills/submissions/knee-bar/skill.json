@@ -1,0 +1,73 @@
+{
+  "id": "knee-bar",
+  "domain": "submission_systems",
+  "level": "intermediate",
+  "name": "Knee Bar",
+  "aliases": [
+    "kneebar",
+    "knee lock",
+    "leg armbar"
+  ],
+  "tags": [
+    "family:leg-lock",
+    "risk:high",
+    "meta:modern_common",
+    "modern-no-gi",
+    "group:leg_lock",
+    "knee-bar"
+  ],
+  "keywords": [
+    "Knee Bar",
+    "kneebar",
+    "leg lock",
+    "hip extension",
+    "knee line",
+    "leg entanglement"
+  ],
+  "modernSystemGroup": "leg_lock",
+  "relatedSkills": [
+    {
+      "id": "heel-hook-finishing-system",
+      "type": "chain"
+    },
+    {
+      "id": "toe-hold-system",
+      "type": "chain"
+    },
+    {
+      "id": "straight-ankle-lock-safety",
+      "type": "recommended"
+    },
+    {
+      "id": "backside-50-50-control",
+      "type": "supporting"
+    },
+    {
+      "id": "knee-line-escape",
+      "type": "supporting"
+    }
+  ],
+  "prerequisiteSkillIds": [
+    "leg-lock-safety-basics"
+  ],
+  "relatedPositions": [],
+  "relatedConcepts": [
+    "knee-line",
+    "exposure-before-finish",
+    "leg-lock-safety-hierarchy"
+  ],
+  "archetypeIds": [
+    "leg-lock-safety-first"
+  ],
+  "trainingMethodIds": [],
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "updatedAt": "2026-10-11T00:00:00.000Z"
+}

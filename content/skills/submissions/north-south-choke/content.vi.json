@@ -1,0 +1,71 @@
+{
+  "id": "north-south-choke",
+  "locale": "vi",
+  "name": "North-South Choke",
+  "description": "North-South Choke là đòn siết arm-in thực hiện từ thế ghim North-South. Ngực bạn đè lên ngực họ, tay gần luồn xuống dưới đầu họ để bắp tay hoặc vai chặn một bên cổ, còn vai của chính họ chặn bên còn lại. Vì grip là động tác clasp chứ không cần nắm cổ áo, đây vốn là đòn siết của no-gi.",
+  "shortInstruction": "Từ North-South, luồn tay gần xuống dưới đầu họ, clasp hai bàn tay hoặc nắm cổ tay mình, khép hai khuỷu vào nhau và giữ ngực dính vào ngực họ. Bước hông về phía đầu họ để khép khoảng trống cuối cùng.",
+  "summary": "North-South Choke biến thế ghim North-South thành đòn kết thúc. Không có chỗ nào là siết cơ: đòn được xây từ thế ghim, áp lực ngực khép khoảng trống, bắp tay và vai chất lực lên một bên cổ, còn vai của đối thủ khóa bên kia. Kết đòn bằng động tác bước hông về phía đầu họ, không phải bằng kéo tay. Đòn này chạm tới cả người phòng thủ hai bên cổ rất tốt, vì áp lực đến từ một mặt phẳng họ không đang chặn, và nó vừa là đòn vừa là kiểm soát: giữ nguyên hình dạng của đòn siết cũng là một cách ghim.",
+  "whyItWorks": [
+    "Luồn tay xuống dưới đầu đặt bắp tay và vai vào một bên cổ, nên lực không phụ thuộc vào hai bàn tay",
+    "Vai bị kẹt của đối thủ tạo thành bên còn lại của đòn siết, biến chính cánh tay phòng thủ của họ thành bức tường thứ hai",
+    "Ngực đè ngực với trọng lượng thấp lấy đi khoảng trống cần thiết để họ xoay vào, mà xoay vào là đường thoát chính",
+    "Bước hông về phía đầu họ rút ngắn đòn bẩy, nên đòn siết chặt thêm mà bạn không phải siết gì cả"
+  ],
+  "commonMistakes": [
+    "Ngồi dậy hoặc nhấc ngực lên để với grip, tặng luôn khoảng trống và góc để họ xoay vào",
+    "Kết đòn bằng hai cánh tay thay vì bằng hông, vừa mệt vừa để đòn siết lỏng",
+    "Để đầu trôi ra xa và nằm ngang, đối thủ nhìn ra được và gỡ tay ra",
+    "Giữ vị trí quá lâu sau khi đòn siết đã lỏng, trong khi đã có thể chuyển lên mount hoặc Kimura"
+  ],
+  "coachingCues": [
+    "Ngực dính, hông bước",
+    "Khuỷu khép, tuyệt đối không kéo",
+    "Đầu thấp và cùng bên với tay siết",
+    "Họ xoay thì đi theo cú xoay, đừng chống lại"
+  ],
+  "safetySummary": [
+    "Đây là đòn tấn công vào cổ. Vào lực thật chậm và thả ra ngay khi partner tap, áp lực tăng rất nhanh một khi khoảng trống đã khép",
+    "Mục tiêu là bên cổ, không phải khí quản. Đừng đẩy cẳng tay hay đầu bạn vào cổ họng",
+    "North-South còn dồn nén cổ, nên vào vị trí từ từ. Nếu partner có tiền sử cổ hoặc cột sống, đừng dùng áp lực North-South nặng"
+  ],
+  "keyCorrections": [
+    "Nếu họ xoay vào người bạn: đừng đuổi theo đòn siết, lên mount hoặc lấy lưng, cú xoay đó mở sẵn hai thế ấy",
+    "Nếu họ gỡ được tay bạn ra: luồn lại tay xuống dưới đầu và clasp lại trước khi bước hông tiếp",
+    "Nếu đòn siết lỏng nhưng họ không thoát được: kiểm tra vị trí đầu và khép khuỷu trước khi thêm bất kỳ lực nào"
+  ],
+  "systemLogic": {
+    "corePrinciple": "North-South Choke: vào thế ghim North-South, luồn tay gần xuống dưới đầu, clasp để khép đường cổ, giữ ngực thấp, rồi bước hông về phía đầu họ để kết đòn.",
+    "decisionTree": [
+      {
+        "condition": "Họ chặn tay để che cổ",
+        "action": "giữ thế ghim và chuyển sang Kimura ở tay gần"
+      },
+      {
+        "condition": "Họ xoay vào người bạn để thoát đòn siết",
+        "action": "đi theo cú xoay và lên mount hoặc lấy lưng"
+      },
+      {
+        "condition": "Họ duỗi cánh tay bị kẹt và rút ra",
+        "action": "luồn lại tay xuống dưới đầu và clasp lại rồi mới tiếp tục"
+      },
+      {
+        "condition": "Đòn siết chặt nhưng họ không tap",
+        "action": "kiểm tra vị trí đầu và bước hông thêm, đừng siết mạnh hơn"
+      }
+    ],
+    "exitStrategies": [
+      "Nếu đòn siết không ăn, giữ thế ghim bạn đang có và chuyển sang Kimura hoặc mount thay vì làm lại từ đầu",
+      "Nếu mất hẳn góc North-South, reset về side control thay vì giành vị trí từ một góc xấu"
+    ]
+  },
+  "moneyDetails": [
+    "Kết đòn là bước hông, không phải siết: đòn chặt dần khi hông bạn khép khoảng cách tới đầu họ",
+    "Clasp chỉ cần giữ đường cổ khép lại, nên hai khuỷu nằm sát sườn bạn, không bao giờ mở rộng",
+    "Giữ nguyên hình dạng đòn siết cũng là ghim, nên một đòn siết chưa ăn vẫn là vị trí đã kiểm soát, và đó là lý do bạn có thể chờ phản ứng một cách an toàn"
+  ],
+  "fixItFast": [
+    "Nếu đòn siết đứng yên, bước hông về phía đầu họ trước khi đổi bất cứ thứ gì",
+    "Nếu họ xoay vào, thả đòn siết và lên mount",
+    "Nếu tay bạn bị gỡ ra, lập lại thế ghim trước rồi mới luồn lại đòn siết"
+  ]
+}

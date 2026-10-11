@@ -1,0 +1,71 @@
+{
+  "id": "russian-tie",
+  "locale": "fr",
+  "name": "Russian Tie",
+  "description": "Le Russian Tie est un contrôle deux contre un d'un des bras de l'adversaire: une main tient le poignet, l'autre enveloppe le triceps et plaque le bras en travers de sa propre poitrine. Depuis ce contrôle vous attaquez le single leg, le body lock, le balayage ou le dos, et son bras n'est plus disponible pour défendre.",
+  "shortInstruction": "Saisissez le poignet, tirez le bras en travers de sa ligne médiane, enveloppez le triceps avec l'autre bras et plaquez son coude contre votre poitrine. Gardez la tête à l'intérieur, puis attaquez la jambe la plus proche ou faites-le tourner.",
+  "summary": "Le Russian Tie transforme un de leurs bras en votre levier. Comme deux de vos mains contrôlent une des leurs, chaque attaque construite depuis ce contrôle part avec un avantage deux contre un dans le combat de mains. En no-gi, c'est la réponse la plus directe à un adversaire qui gagne les saisies par la force, et il mène au single leg, au body lock et au passage dans le dos sans changer de prise.",
+  "whyItWorks": [
+    "Deux de vos mains sur un de leurs bras signifie que le combat de mains est déjà gagné une fois le contrôle établi",
+    "Plaquer leur coude contre votre poitrine sort le bras de leur ligne médiane, donc il ne peut ni poster, ni faire écran, ni défendre la jambe que vous attaquez",
+    "Tirer le bras en travers de leur corps fait tourner leurs épaules loin de vous, ce qui expose le dos et la jambe proche en même temps",
+    "Le contrôle est un plaquage plutôt qu'une prise, il survit donc aux mains moites qui cassent une prise de poignet classique en no-gi"
+  ],
+  "commonMistakes": [
+    "Ne tenir que le poignet: un deux contre un sans enveloppe du triceps est une prise, pas un Russian Tie",
+    "Laisser leur coude s'éloigner de votre poitrine, ce qui leur permet de tendre le bras et de le ramener",
+    "Rester de face en tenant le contrôle, ce qui en fait un duel de force que vous ne contrôlez pas",
+    "Plonger sur la jambe avant que le contrôle soit établi, en arrivant avec une main et aucun contrôle"
+  ],
+  "coachingCues": [
+    "Le poignet d'abord, le triceps ensuite",
+    "Coude collé à votre poitrine",
+    "Tête à l'intérieur, hanches dessous",
+    "Faites tourner leur épaule avant d'attaquer la jambe"
+  ],
+  "safetySummary": [
+    "Travaillez ce contrôle à vitesse maîtrisée: le risque de cette position vient du takedown que vous choisissez ensuite, pas du contrôle lui-même",
+    "Quand vous attaquez la jambe depuis ce contrôle, gardez la tête à l'écart du genou et ne poussez jamais la tête d'un partenaire dans le tapis",
+    "Si le bras de votre partenaire se tord dans le contrôle, relâchez et replacez plutôt que de tenir la position pour finir l'échange"
+  ],
+  "keyCorrections": [
+    "S'ils tendent le bras pour sortir: ré-enveloppez le triceps et ramenez le coude contre votre poitrine avant d'attaquer",
+    "S'ils tournent hors du contrôle: suivez leurs hanches avec vos pieds et prenez le dos au lieu de chercher le bras",
+    "S'ils ramènent le coude à l'intérieur: replacez votre garde et rentrez à nouveau dans le contrôle, ne luttez pas contre la prise"
+  ],
+  "systemLogic": {
+    "corePrinciple": "Russian Tie: saisissez le poignet, tirez le bras en travers de leur ligne médiane, enveloppez et plaquez le triceps contre votre poitrine, gardez la tête à l'intérieur, puis attaquez la jambe la plus proche du bras piégé ou faites-les tourner pour le dos.",
+    "decisionTree": [
+      {
+        "condition": "Ils gardent le coude collé à leurs côtes",
+        "action": "gardez le contrôle et tournez, le bras s'ouvre quand ils font un pas"
+      },
+      {
+        "condition": "Ils tendent le bras piégé",
+        "action": "ré-enveloppez le triceps et ramenez le coude contre votre poitrine"
+      },
+      {
+        "condition": "Ils se remettent de face et poussent vers vous",
+        "action": "changez de niveau vers le single leg proche, leur bras piégé ne peut pas poster"
+      },
+      {
+        "condition": "Ils tournent pour s'éloigner du contrôle",
+        "action": "passez derrière leurs hanches et prenez le dos"
+      }
+    ],
+    "exitStrategies": [
+      "Si le contrôle casse, revenez au combat de mains au lieu de chercher la jambe",
+      "Si le takedown échoue, restez sur le contrôle et tournez au lieu de tomber sur les genoux"
+    ]
+  },
+  "moneyDetails": [
+    "Le contrôle est créé par l'enveloppe du triceps, pas par la prise de poignet: c'est l'enveloppe qui transforme un bras en levier deux contre un",
+    "Plaquer leur coude en travers de leur propre poitrine empêche le bras de poster, ce qui explique pourquoi les attaques depuis ce contrôle touchent un adversaire déjà déséquilibré",
+    "Tourner vers le bras piégé garde votre tête à l'intérieur et fait tourner leurs hanches, ce qui ouvre le dos"
+  ],
+  "fixItFast": [
+    "Si leur bras se libère: ré-enveloppez le triceps avant votre prochaine attaque",
+    "Si votre propre coude remonte: ramenez-le contre vos côtes, c'est là que le contrôle est fort",
+    "Si le contrôle stagne: tournez d'un pas vers le bras piégé et attaquez à nouveau"
+  ]
+}

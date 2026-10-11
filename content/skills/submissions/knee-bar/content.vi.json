@@ -1,0 +1,67 @@
+{
+  "id": "knee-bar",
+  "locale": "vi",
+  "name": "Knee Bar",
+  "description": "Knee Bar là leg lock làm ưỡn khớp gối. Bạn bẫy chân đối thủ sao cho mặt sau đầu gối của họ nằm trên đường hông của bạn, kẹp chân đó vào ngực, rồi ưỡn hông và kéo cổ chân họ về phía mình. Đây là bản tương đương của Armbar ở chân: cùng nguyên lý đòn bẩy, khác khớp.",
+  "shortInstruction": "Bẫy chân để mặt sau đầu gối họ nằm trên nếp hông của bạn, kẹp chân vào ngực, hai tay kiểm soát cổ chân, rồi ưỡn hông và kéo cổ chân vào.",
+  "summary": "Knee Bar tấn công đầu gối bằng cách ưỡn khớp, lấy nếp hông làm điểm tựa và cổ chân làm đầu đòn bẩy. Đòn có từ các leg entanglement chính (Single Leg X, 50/50, Saddle), từ Turtle phía trên và từ Half Guard phía dưới theo thế ngược. Vì tấn công dây chằng chứ không phải cổ chân, đòn vẫn tới được người đang giấu gót.",
+  "whyItWorks": [
+    "Mặt sau đầu gối họ đặt trên nếp hông cho bạn dùng toàn bộ lực ưỡn hông vào khớp, mạnh hơn nhiều so với chỉ kéo bằng tay",
+    "Kẹp chân họ vào ngực lấy đi khoảng trống họ cần để xoay đầu gối ra, cách thoát chính của tư thế này",
+    "Kiểm soát cổ chân ở đầu đòn bẩy khiến một động tác hông nhỏ tạo lực xoay lớn ở gối",
+    "Đòn tấn công khớp mà cách phòng Heel Hook không che được, nên người đang giấu gót vẫn bị hở"
+  ],
+  "commonMistakes": [
+    "Để hở khoảng giữa chân họ và ngực bạn, khiến họ xoay được knee line và thoát",
+    "Kết thúc bằng tay thay vì bằng hông, lộ đòn sớm và hiếm khi phá được thế giữ của họ",
+    "Cố kết thúc khi hông còn vuông góc, đòn chỉ ăn khi hông bạn ở dưới hoặc vượt qua khớp",
+    "Giữ tư thế ở mức ưỡn tối đa khi tập thay vì siết từ từ để bạn tập tap"
+  ],
+  "coachingCues": [
+    "Đầu gối lên nếp hông, cổ chân về ngực",
+    "Kẹp trước, ưỡn sau",
+    "Hông kết thúc, tay chỉ giữ",
+    "Nếu họ xoay gối, kẹp lại rồi mới ưỡn"
+  ],
+  "safetySummary": [
+    "Knee Bar tác động dây chằng gối (ACL, PCL, MCL). Siết từ từ và để bạn tập tap sớm, không giữ tư thế đã khóa để thử độ chịu đựng",
+    "Không giật hay xoay gối. Lực xoay nhanh trên gối duỗi là cơ chế gây chấn thương gối nặng",
+    "Học thứ tự an toàn trước (leg-lock-safety-basics), chỉ tập kết thúc với bạn tập đã biết cách tap"
+  ],
+  "keyCorrections": [
+    "Nếu họ xoay gối ra: kẹp lại chân vào ngực rồi mới ưỡn tiếp",
+    "Nếu họ giấu cổ chân: đổi sang thế giữ Heel Hook hoặc vào Saddle để có góc tốt hơn",
+    "Nếu họ ngồi dậy với tay tới đầu bạn: ưỡn hông trước để giữ hông họ phẳng, rồi lấy lại cổ chân"
+  ],
+  "systemLogic": {
+    "corePrinciple": "Knee Bar: bẫy chân với đầu gối họ trên nếp hông, kẹp chân vào ngực, kiểm soát cổ chân, rồi ưỡn hông và kéo cổ chân vào.",
+    "decisionTree": [
+      {
+        "condition": "Họ duỗi chân để giảm áp lực",
+        "action": "ngả người ra sau và kẹp lại, gối duỗi là tư thế kết thúc mạnh nhất"
+      },
+      {
+        "condition": "Họ xoay đầu gối ra khỏi bạn",
+        "action": "đi theo hướng xoay và kẹp lại trước khi ưỡn tiếp"
+      },
+      {
+        "condition": "Họ nắm chân mình để phòng thủ",
+        "action": "gỡ thế nắm bằng hai tay rồi kết thúc"
+      }
+    ],
+    "exitStrategies": [
+      "Nếu mất knee line, lấy lại entanglement (Single Leg X hoặc 50/50) thay vì đuổi theo đòn kết thúc",
+      "Nếu hết hiệp mà chân còn bị bẫy, thả thế nắm trước khi đứng lên, đừng để áp lực còn trên gối"
+    ]
+  },
+  "moneyDetails": [
+    "Điểm tựa là nếp hông chứ không phải tay: đầu gối họ càng gần đường hông thì càng cần ít lực ưỡn",
+    "Cùi chỏ sát sườn và chân họ dính vào ngực bạn là thứ làm mất cửa thoát",
+    "Kết thúc từ góc hơi lệch khỏi chân tự do của họ giúp tay xa của họ không tới được đầu bạn"
+  ],
+  "fixItFast": [
+    "Nếu họ xoay gối ra: kẹp lại chân vào ngực rồi ưỡn tiếp",
+    "Nếu không kéo được cổ chân vào ngực: đổi sang thế giữ Heel Hook hoặc chuyển sang Saddle",
+    "Nếu họ đứng dậy thoát: để họ đi, lấy lại Guard rồi vào lại entanglement thay vì bám chân"
+  ]
+}

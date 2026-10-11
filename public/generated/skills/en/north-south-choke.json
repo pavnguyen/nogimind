@@ -1,0 +1,140 @@
+{
+  "id": "north-south-choke",
+  "domain": "submission_systems",
+  "level": "intermediate",
+  "status": "draft",
+  "name": "North-South Choke",
+  "aliases": [
+    "north south strangle",
+    "north-south strangle",
+    "ns choke"
+  ],
+  "tags": [
+    "family:submission",
+    "risk:high",
+    "meta:modern_common",
+    "modern-no-gi",
+    "tier:modern-expansion",
+    "north-south",
+    "arm-in-choke",
+    "choke"
+  ],
+  "keywords": [
+    "north south choke",
+    "north south strangle",
+    "arm-in choke",
+    "north south position",
+    "choke from north south"
+  ],
+  "relatedSkills": [
+    {
+      "id": "arm-triangle-mount",
+      "type": "chain"
+    },
+    {
+      "id": "kimura-system",
+      "type": "alternative"
+    },
+    {
+      "id": "north-south-escape",
+      "type": "supporting"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [
+    "pressure-direction",
+    "control-before-submission",
+    "head-position"
+  ],
+  "relatedConceptIds": [],
+  "archetypeIds": [
+    "submission-chain-hunter"
+  ],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "north-south-control"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [
+    "If they turn into you: stop chasing the choke and take the mount or the back, the turn gives you those",
+    "If they pry your arm out: re-thread the arm under the head and re-clasp before you walk the hips again",
+    "If the choke feels loose but they cannot escape: check the head position and pinch the elbows before adding any pressure"
+  ],
+  "version": 1,
+  "updatedAt": "2026-10-11T00:00:00.000Z",
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "en",
+  "description": "The North-South Choke is an arm-in choke applied from the North-South pin. Your chest stacks their chest, your near arm threads under their head so the bicep or shoulder closes one side of the neck, and their own shoulder closes the other. Because the grip is a clasp rather than a collar grip, it is a no-gi choke by nature.",
+  "shortInstruction": "From North-South, thread your near arm under their head, clasp your hands or your own wrist, pinch your elbows together and keep your chest glued to their chest. Walk your hips toward their head to close the last of the space.",
+  "summary": "The North-South Choke turns the North-South pin into a finish. Nothing about it is a squeeze: the choke is built from the pin, with chest pressure closing the space, the bicep and shoulder loading one side of the neck and the opponent's own shoulder trapping the other. The finish is a hip walk toward their head, not an arm pull. It reaches opponents who defend the sides of the neck well, because the pressure arrives on a plane they are not framing against, and it doubles as a control: keeping the choke shape on is itself a way to hold them down.",
+  "whyItWorks": [
+    "Threading the arm under the head puts the bicep and shoulder on one side of the neck, so the load does not depend on the hands at all",
+    "The trapped shoulder of the opponent supplies the other side of the choke, which turns their own defensive arm into the second wall",
+    "Chest to chest with your weight low removes the space they need to turn in, and turning in is the main escape",
+    "Walking the hips toward their head shortens the lever arm, so the choke tightens without any extra squeeze from you"
+  ],
+  "commonMistakes": [
+    "Sitting up or lifting the chest to reach for the grip, which hands them the space and the angle to turn into you",
+    "Trying to finish with the arms instead of the hips, which tires you out and leaves the choke loose",
+    "Letting the head drift away and lying square, so the opponent can look away and pry the arm out",
+    "Holding the position long after the choke is loose, when a transition to mount or the Kimura is available"
+  ],
+  "coachingCues": [
+    "Chest glued, hips walking",
+    "Elbows pinched, never pulled",
+    "Head low and on the same side as your choking arm",
+    "If they turn, follow the turn instead of fighting it"
+  ],
+  "safetySummary": [
+    "This is a neck attack. Apply it slowly and release immediately when your partner taps, the pressure builds fast once the space closes",
+    "The target is the side of the neck, not the throat. Do not drive the forearm or your head into the trachea",
+    "North-South also stacks the neck, so ease into the position. If your partner has a neck or spine history, do not use heavy North-South pressure"
+  ],
+  "systemLogic": {
+    "corePrinciple": "North-South Choke: establish the North-South pin, thread the near arm under the head, clasp to close the neck line, keep the chest low, then walk the hips toward their head to finish.",
+    "decisionTree": [
+      {
+        "condition": "They frame their arms to protect the neck",
+        "action": "keep the pin and switch to the Kimura on the near arm"
+      },
+      {
+        "condition": "They turn into you to escape the choke",
+        "action": "follow the turn and take the mount or the back"
+      },
+      {
+        "condition": "They straighten the trapped arm and slide it out",
+        "action": "re-thread the arm under the head and re-clasp before continuing"
+      },
+      {
+        "condition": "The choke is tight but they are not tapping",
+        "action": "check the head position and walk the hips further rather than squeezing harder"
+      }
+    ],
+    "exitStrategies": [
+      "If the choke fails, keep the pin you already own and move to the Kimura or mount instead of restarting the choke",
+      "If you lose the North-South angle completely, reset to side control rather than fighting for the position from a bad angle"
+    ]
+  },
+  "moneyDetails": [
+    "The finish is a hip walk, not a squeeze: the choke tightens as your hips close the distance to their head",
+    "The clasp only has to hold the neck line closed, so the elbows stay pinched against your own ribs, never wide",
+    "Keeping the choke shape on is also a pin, so a stalled choke is still a controlled position, which is what makes it safe to wait for the reaction"
+  ],
+  "fixItFast": [
+    "If the choke stalls, walk your hips toward their head before changing anything else",
+    "If they turn in, let the choke go and take the mount",
+    "If your arm gets pried out, restore the pin first and only then re-thread the choke"
+  ]
+}

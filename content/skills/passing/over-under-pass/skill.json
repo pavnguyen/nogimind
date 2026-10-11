@@ -28,7 +28,7 @@
       "type": "prerequisite"
     },
     {
-      "id": "bodylock-passing",
+      "id": "bodylock-pass",
       "type": "chain"
     },
     {
@@ -46,7 +46,7 @@
   ],
   "prerequisiteSkillIds": [
     "half-guard-knee-shield",
-    "bodylock-passing"
+    "bodylock-pass"
   ],
   "relatedPositions": [],
   "relatedConcepts": [],

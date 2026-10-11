@@ -708,8 +708,8 @@
     "hasMicroDetails": false,
     "hasChecklist": false,
     "prerequisiteSkillIds": [
-      "clamp-Guard-system",
-      "triangle-armbar-dilemma"
+      "clamp-guard-control",
+      "triangle-system"
     ],
     "nextSkillIds": [],
     "relatedSkillIds": []
@@ -1445,7 +1445,7 @@
     "hasMicroDetails": false,
     "hasChecklist": false,
     "prerequisiteSkillIds": [
-      "bodylock-passing",
+      "bodylock-pass",
       "knee-cut-passing"
     ],
     "nextSkillIds": [],
@@ -1528,7 +1528,7 @@
     "hasChecklist": true,
     "prerequisiteSkillIds": [
       "half-guard-knee-shield",
-      "bodylock-passing"
+      "bodylock-pass"
     ],
     "nextSkillIds": [],
     "relatedSkillIds": []
@@ -1898,7 +1898,7 @@
     "hasMicroDetails": false,
     "hasChecklist": true,
     "prerequisiteSkillIds": [
-      "bodylock-passing"
+      "bodylock-pass"
     ],
     "nextSkillIds": [],
     "relatedSkillIds": []
@@ -2649,6 +2649,29 @@
     "relatedSkillIds": []
   },
   {
+    "id": "knee-bar",
+    "domain": "submission_systems",
+    "level": "intermediate",
+    "name": "Knee Bar",
+    "tags": [
+      "family:leg-lock",
+      "risk:high",
+      "meta:modern_common",
+      "modern-no-gi",
+      "group:leg_lock",
+      "knee-bar"
+    ],
+    "summary": "Le Knee Bar attaque le genou par hyperextension, le pli de votre hanche servant de point d'appui et la cheville d'extrémité de levier. Il est disponible depuis les principaux enchevêtrements de jambes (Single Leg X, 50/50, Saddle), depuis la Turtle au-dessus, et en inversion depuis la demi-garde. Comme il charge les ligaments plutôt que la cheville, il atteint les adversaires occupés à cacher le talon.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "prerequisiteSkillIds": [
+      "leg-lock-safety-basics"
+    ],
+    "nextSkillIds": [],
+    "relatedSkillIds": []
+  },
+  {
     "id": "mounted-triangle-armbar",
     "domain": "submission_systems",
     "level": "intermediate",
@@ -2696,6 +2719,31 @@
     "prerequisiteSkillIds": [
       "fifty-fifty-to-heel-exposure",
       "heel-hook-safety"
+    ],
+    "nextSkillIds": [],
+    "relatedSkillIds": []
+  },
+  {
+    "id": "north-south-choke",
+    "domain": "submission_systems",
+    "level": "intermediate",
+    "name": "North-South Choke",
+    "tags": [
+      "family:submission",
+      "risk:high",
+      "meta:modern_common",
+      "modern-no-gi",
+      "tier:modern-expansion",
+      "north-south",
+      "arm-in-choke",
+      "choke"
+    ],
+    "summary": "Le North-South Choke transforme le pin North-South en finish. Rien n'est un serrage: la soumission se construit depuis le pin, la pression de poitrine ferme l'espace, le biceps et l'épaule chargent un côté du cou et l'épaule de l'adversaire emprisonne l'autre. Le finish est une marche de hanches vers leur tête, pas une traction des bras. Il atteint les adversaires qui défendent bien les deux côtés du cou, car la pression arrive sur un plan qu'ils ne contrôlent pas, et il sert aussi de contrôle: garder la forme de la soumission est déjà une façon de maintenir au sol.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "prerequisiteSkillIds": [
+      "north-south-control"
     ],
     "nextSkillIds": [],
     "relatedSkillIds": []
@@ -2790,12 +2838,9 @@
     "prerequisiteSkillIds": [
       "back-control"
     ],
-    "nextSkillIds": [
-      "arm-triangle-mount"
-    ],
+    "nextSkillIds": [],
     "relatedSkillIds": [
       "back-control",
-      "seatbelt-control",
       "hand-fighting"
     ]
   },
@@ -3086,6 +3131,31 @@
     "relatedSkillIds": []
   },
   {
+    "id": "wrist-lock-system",
+    "domain": "submission_systems",
+    "level": "intermediate",
+    "name": "Wrist Lock System",
+    "tags": [
+      "family:submission",
+      "risk:high",
+      "meta:modern_common",
+      "modern-no-gi",
+      "group:wrist_ride",
+      "wrist-lock",
+      "joint-lock"
+    ],
+    "summary": "Le Wrist Lock System n'est pas une soumission unique mais une famille d'entrées construites sur la même prise: la main est le levier, l'avant-bras plaqué est le point d'appui, et la rotation du tronc est la puissance. Sa valeur est la disponibilité. Le wrist lock apparaît depuis le side control, le mount, le back control, dans le triangle et même depuis le dessous du side control, ce qui signifie qu'un adversaire qui cache le cou et les coudes laisse quand même une articulation exposée. Comme le poignet casse avec très peu d'avertissement, c'est un système qui privilégie le contrôle et une application lente.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "prerequisiteSkillIds": [
+      "side-control-pin",
+      "back-control"
+    ],
+    "nextSkillIds": [],
+    "relatedSkillIds": []
+  },
+  {
     "id": "z-lock",
     "domain": "submission_systems",
     "level": "advanced",
@@ -3104,21 +3174,20 @@
     "hasMicroDetails": false,
     "hasChecklist": false,
     "prerequisiteSkillIds": [
-      "single-leg-x-Guard",
-      "saddle-system",
-      "heel-hook"
+      "single-leg-x-control",
+      "saddle-inside-sankaku-control",
+      "heel-hook-finishing-system"
     ],
-    "nextSkillIds": [
-      "cross-ashi-garami",
-      "outside-ashi-garami"
-    ],
+    "nextSkillIds": [],
     "relatedSkillIds": [
-      "heel-hook",
-      "ankle-lock",
+      "heel-hook-finishing-system",
+      "shotgun-ankle-lock",
       "knee-bar",
-      "saddle-system",
-      "single-leg-x-Guard",
-      "aoki-lock"
+      "saddle-inside-sankaku-control",
+      "single-leg-x-control",
+      "aoki-lock",
+      "backside-50-50-cross-ashi",
+      "k-guard-to-outside-ashi"
     ]
   },
   {
@@ -3378,6 +3447,31 @@
     "relatedSkillIds": []
   },
   {
+    "id": "russian-tie",
+    "domain": "wrestle_up_wrestling",
+    "level": "intermediate",
+    "name": "Russian Tie",
+    "tags": [
+      "family:wrestling",
+      "risk:low",
+      "meta:modern_common",
+      "modern-no-gi",
+      "group:wrestle_up",
+      "russian-tie",
+      "arm-control"
+    ],
+    "summary": "Le Russian Tie transforme un de leurs bras en votre levier. Comme deux de vos mains contrôlent une des leurs, chaque attaque construite depuis ce contrôle part avec un avantage deux contre un dans le combat de mains. En no-gi, c'est la réponse la plus directe à un adversaire qui gagne les saisies par la force, et il mène au single leg, au body lock et au passage dans le dos sans changer de prise.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "prerequisiteSkillIds": [
+      "stance-movement-basics",
+      "hand-fighting"
+    ],
+    "nextSkillIds": [],
+    "relatedSkillIds": []
+  },
+  {
     "id": "single-leg-bjj",
     "domain": "wrestle_up_wrestling",
     "level": "intermediate",
@@ -3432,6 +3526,28 @@
     "prerequisiteSkillIds": [
       "hand-fighting"
     ],
+    "nextSkillIds": [],
+    "relatedSkillIds": []
+  },
+  {
+    "id": "stance-movement-basics",
+    "domain": "wrestle_up_wrestling",
+    "level": "beginner",
+    "name": "Stance and Movement",
+    "tags": [
+      "family:wrestling",
+      "risk:low",
+      "meta:modern_common",
+      "modern-no-gi",
+      "group:wrestle_up",
+      "stance",
+      "footwork"
+    ],
+    "summary": "Stance and Movement couvre la posture et le jeu de jambes qui rendent le reste du jeu debout possible. Ce n'est pas une technique mais une base: la même garde alimente le double leg, le balayage, le body lock et la défense. Les débutants perdent le debout non pas faute de techniques, mais parce qu'ils restent droits, pieds parallèles et hanches hautes, ce qui transforme chaque échange en chute.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "prerequisiteSkillIds": [],
     "nextSkillIds": [],
     "relatedSkillIds": []
   },

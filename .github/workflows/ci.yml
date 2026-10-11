@@ -72,3 +72,6 @@ jobs:
 
       - name: Verify content payloads
         run: npm run validate:content
+
+      - name: Validate relation graph
+        run: npm run validate:relations

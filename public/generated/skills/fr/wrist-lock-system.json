@@ -1,0 +1,147 @@
+{
+  "id": "wrist-lock-system",
+  "domain": "submission_systems",
+  "level": "intermediate",
+  "status": "draft",
+  "name": "Wrist Lock System",
+  "aliases": [
+    "wristlock",
+    "gooseneck",
+    "figure four wrist lock"
+  ],
+  "tags": [
+    "family:submission",
+    "risk:high",
+    "meta:modern_common",
+    "modern-no-gi",
+    "group:wrist_ride",
+    "wrist-lock",
+    "joint-lock"
+  ],
+  "keywords": [
+    "wrist lock",
+    "wristlock",
+    "gooseneck",
+    "figure four",
+    "joint lock",
+    "wrist control"
+  ],
+  "modernSystemGroup": "wrist_ride",
+  "relatedSkills": [
+    {
+      "id": "cross-wrist-ride",
+      "type": "supporting"
+    },
+    {
+      "id": "wrist-ride-back-exposure",
+      "type": "supporting"
+    },
+    {
+      "id": "kimura-system",
+      "type": "chain"
+    },
+    {
+      "id": "triangle-system",
+      "type": "chain"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [
+    "control-before-submission",
+    "levers",
+    "dilemma-attacks",
+    "early-vs-late-defense"
+  ],
+  "relatedConceptIds": [],
+  "archetypeIds": [
+    "submission-chain-hunter"
+  ],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "side-control-pin",
+    "back-control"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [
+    "Si leur coude roule et suit la main: replaquez l'avant-bras contre votre poitrine ou le tapis avant de tourner à nouveau",
+    "S'ils tendent le bras et tirent: relâchez la prise, rétablissez le contrôle, et prenez le verrou depuis une meilleure position au lieu de lutter contre le bras",
+    "S'ils attrapent leur propre main pour défendre: utilisez cette prise contre eux, leur main à eux leur retire l'espace nécessaire pour tourner"
+  ],
+  "version": 1,
+  "updatedAt": "2026-10-11T00:00:00.000Z",
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "fr",
+  "description": "Le wrist lock plie ou tord le poignet au-delà de son amplitude. Vous sécurisez la main avec une prise deux contre un ou un figure-four, plaquez l'avant-bras pour qu'il ne puisse pas bouger, puis faites tourner la main pendant que votre corps fournit le levier. C'est le plus petit verrou articulaire du sport et celui qui apparaît chaque fois que l'adversaire laisse une main au mauvais endroit.",
+  "shortInstruction": "Capturez la main, plaquez leur avant-bras contre votre corps ou le tapis pour que le coude ne puisse pas suivre, puis faites tourner la main en flexion ou en inclinaison ulnaire avec tout le tronc, pas avec les doigts.",
+  "summary": "Le Wrist Lock System n'est pas une soumission unique mais une famille d'entrées construites sur la même prise: la main est le levier, l'avant-bras plaqué est le point d'appui, et la rotation du tronc est la puissance. Sa valeur est la disponibilité. Le wrist lock apparaît depuis le side control, le mount, le back control, dans le triangle et même depuis le dessous du side control, ce qui signifie qu'un adversaire qui cache le cou et les coudes laisse quand même une articulation exposée. Comme le poignet casse avec très peu d'avertissement, c'est un système qui privilégie le contrôle et une application lente.",
+  "whyItWorks": [
+    "La main est au bout d'un long levier, donc une petite rotation du tronc produit une charge importante au poignet",
+    "Plaquer leur avant-bras empêche le coude de suivre la main, ce qui est leur seul moyen de relâcher la pression",
+    "Le contrôle du poignet fait déjà partie du pin dans un cross-wrist ride ou une prise handcuff, donc la soumission est disponible sans changer de position",
+    "Une défense serrée des épaules et des coudes ne protège pas le poignet, donc elle atteint des adversaires autrement fermés"
+  ],
+  "commonMistakes": [
+    "Tirer avec les doigts ou les petits muscles de la main au lieu de faire tourner tout le tronc",
+    "Laisser l'avant-bras libre, ce qui laisse l'adversaire rouler le coude et suivre la main pour sortir du verrou",
+    "Poursuivre le poignet depuis une position desserrée, où le verrou arrive sans pin et l'adversaire peut simplement ramener le bras",
+    "Forcer le poignet pour obtenir une réaction à l'entraînement, alors que l'articulation ne donne presque aucun signal de douleur avant d'être abîmée"
+  ],
+  "coachingCues": [
+    "La main d'abord, l'avant-bras plaqué ensuite, la rotation en dernier",
+    "Tournez la poitrine, pas les doigts",
+    "Plaquez la ligne du coude avant de tourner la main",
+    "Lent à chaque répétition, le poignet ne vous avertit pas"
+  ],
+  "safetySummary": [
+    "Le wrist lock est le verrou articulaire qui blesse le plus souvent sans avertissement, car le poignet ne fait souvent pas mal avant que les dégâts aient commencé. Appliquez la pression lentement, par petits paliers, et ne secouez jamais l'articulation",
+    "Tapez tôt et tapez avec l'autre main. N'attendez pas la douleur pour taper un wrist lock; quand ça fait mal, les ligaments sont déjà chargés",
+    "À l'entraînement, convenez à l'avance de l'articulation ciblée et arrêtez-vous à une pression légère. Si votre partenaire ne s'attend pas au poignet, ne l'appliquez pas du tout"
+  ],
+  "systemLogic": {
+    "corePrinciple": "Wrist Lock System: capturez la main, plaquez l'avant-bras pour que le coude ne puisse pas suivre, puis faites tourner la main en flexion ou en déviation en tournant le tronc, et seulement depuis une position où le bras est déjà contrôlé.",
+    "decisionTree": [
+      {
+        "condition": "Vous avez déjà le poignet depuis un cross-wrist ride ou une prise handcuff",
+        "action": "gardez le pin et tournez la poitrine pour charger le poignet, aucune nouvelle prise n'est nécessaire"
+      },
+      {
+        "condition": "Ils cachent le coude et gardent le bras serré contre leur corps",
+        "action": "prenez le verrou de l'autre côté, sur la main éloignée, ou passez au Kimura sur le même bras"
+      },
+      {
+        "condition": "Leur coude roule et suit la main",
+        "action": "replacez l'avant-bras avant de tourner à nouveau, un avant-bras libre est la sortie"
+      },
+      {
+        "condition": "Ils tendent le bras pour échapper à la prise",
+        "action": "lâchez, récupérez la position, et rentrez à nouveau dans le verrou depuis un pin"
+      }
+    ],
+    "exitStrategies": [
+      "Si le wrist lock échoue, vous êtes toujours dans le pin: gardez la position et passez à une soumission plus solide plutôt que de poursuivre la main",
+      "Si l'adversaire tape tard ou si l'articulation semble chargée, arrêtez le round, relâchez lentement, et vérifiez avec votre partenaire"
+    ]
+  },
+  "moneyDetails": [
+    "Le point d'appui est l'avant-bras plaqué, pas la main: sans lui, le coude suit le poignet et le verrou ne charge jamais",
+    "La rotation vient de la poitrine et des hanches. Quand le tronc tourne, la prise ne fait que tenir; quand les mains travaillent, le verrou est faible et facile à dégager",
+    "Le wrist lock fonctionne le mieux comme deuxième ou troisième attaque, quand l'adversaire a déjà engagé ses bras pour défendre le cou ou le coude"
+  ],
+  "fixItFast": [
+    "Si leur avant-bras se libère: replaquez-le contre votre poitrine avant de tourner à nouveau",
+    "Si le verrou devient un combat de prises: passez au Kimura, même contrôle du poignet avec un levier plus grand",
+    "S'ils retirent complètement le bras: gardez le pin, arrêtez de tendre le bras, et gardez la position que vous possédez déjà"
+  ]
+}

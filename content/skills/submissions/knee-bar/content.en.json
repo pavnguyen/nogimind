@@ -1,0 +1,67 @@
+{
+  "id": "knee-bar",
+  "locale": "en",
+  "name": "Knee Bar",
+  "description": "The Knee Bar is a leg lock that hyperextends the knee joint. You trap the opponent's leg with the back of their knee on your hip line, clamp that leg to your chest, and then bridge your hips while pulling their ankle toward you. It is the leg equivalent of the Armbar: same lever principle, different joint.",
+  "shortInstruction": "Trap the leg so the back of their knee sits on your hip crease, clamp the leg to your chest with both hands controlling the ankle, then drive your hips and pull the ankle in.",
+  "summary": "The Knee Bar attacks the knee by hyperextension, using your hip crease as the fulcrum and their ankle as the end of the lever. It is available from the main leg entanglements (Single Leg X, 50/50, Saddle), from top Turtle, and inverted from bottom Half Guard. Because it loads ligaments instead of the ankle, it reaches opponents who are busy hiding the heel.",
+  "whyItWorks": [
+    "The back of their knee on your hip crease puts the whole power of your hip bridge into the joint, far more than pulling with the arms alone",
+    "Clamping their leg to your chest removes the space they need to rotate the knee away, which is the main escape from the position",
+    "Controlling the ankle as the far end of the lever means a small hip movement produces a large rotational load at the knee",
+    "It attacks a joint that Heel Hook defense does not protect, so an opponent hiding the heel stays exposed to it"
+  ],
+  "commonMistakes": [
+    "Leaving space between their leg and your chest, which lets them rotate the knee line and escape",
+    "Finishing with the arms instead of the hips, which signals the attack early and rarely breaks their grip",
+    "Trying to finish with your hips square, the lock only loads the knee once your hips are under or past the joint",
+    "Holding the position at full extension in training instead of applying slowly and letting the partner tap"
+  ],
+  "coachingCues": [
+    "Knee on the hip crease, ankle to your chest",
+    "Clamp first, extend second",
+    "Hips finish, hands only hold",
+    "If they rotate the knee, re-clamp before extending"
+  ],
+  "safetySummary": [
+    "The Knee Bar loads the knee ligaments (ACL, PCL, MCL). Apply pressure slowly and let your partner tap early, never hold a locked position to test their toughness",
+    "Do not spike or twist the knee. A fast rotational load on a straight knee is the mechanism behind serious knee injuries",
+    "Learn the safety hierarchy first (leg-lock-safety-basics), and only drill finishes with a partner who knows the tap protocol"
+  ],
+  "keyCorrections": [
+    "If they rotate the knee away: re-clamp the leg to your chest before extending again",
+    "If they hide the ankle: switch to the Heel Hook grip or move to the Saddle for a better angle",
+    "If they sit up and reach for your head: bridge your hips first to keep their hips flat, then re-capture the ankle"
+  ],
+  "systemLogic": {
+    "corePrinciple": "Knee Bar: trap the leg with their knee on your hip crease, clamp the leg to your chest, control the ankle, then extend your hips while pulling the ankle in.",
+    "decisionTree": [
+      {
+        "condition": "They straighten the leg to relieve the pressure",
+        "action": "sit back and re-clamp, a straight knee is the strongest finishing position"
+      },
+      {
+        "condition": "They rotate the knee away from you",
+        "action": "follow the rotation and re-clamp before extending again"
+      },
+      {
+        "condition": "They grab their own leg to defend",
+        "action": "strip the grip with both hands, then finish"
+      }
+    ],
+    "exitStrategies": [
+      "If you lose the knee line, recover the entanglement (Single Leg X or 50/50) instead of chasing the finish",
+      "If the round ends with the leg trapped, release the grip before standing, do not leave pressure on the knee"
+    ]
+  },
+  "moneyDetails": [
+    "The fulcrum is the hip crease, not the hands: the closer their knee is to your hip line, the less hip extension you need for the tap",
+    "Elbows tight to your ribs with their leg welded to your chest is what makes the escape window disappear",
+    "Finishing from a slight angle away from their free leg keeps their far hand off your head and makes the extension harder to defend"
+  ],
+  "fixItFast": [
+    "If they rotate the knee out: re-clamp the leg to your chest, then extend again",
+    "If you cannot get the ankle to your chest: switch to the Heel Hook grip or transition to the Saddle",
+    "If they stand up out of the position: let them go, recover Guard, and re-enter the leg entanglement instead of hanging on the leg"
+  ]
+}

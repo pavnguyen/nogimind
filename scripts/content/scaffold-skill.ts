@@ -14,9 +14,13 @@ const __dirname = dirname(__filename)
 
 const CONTENT_ROOT = resolve(__dirname, '../../content')
 
+/**
+ * Domain folders, matching content/skills/<folder>/. These are folders, not
+ * domain values: several folders map to the same domain (see AGENTS.md section 3).
+ */
 const VALID_DOMAINS = [
-  'submissions', 'Guard', 'passing', 'escapes', 'pins',
-  'leg-locks', 'wrestling', 'foundation', 'modern', 'priority',
+  'back_control', 'escapes', 'guard', 'guard_offense', 'passing',
+  'pins', 'submission_systems', 'submissions', 'wrestle_up_wrestling', 'wrestling',
 ]
 
 function scaffoldSkill(domain: string, skillId: string): void {

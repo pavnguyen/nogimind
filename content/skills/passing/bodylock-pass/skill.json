@@ -15,14 +15,12 @@
     "videos": "videos.json"
   },
   "relatedSkills": [
-    { "id": "leg-pummel-pass", "type": "supporting" },
-    { "id": "smash-pass", "type": "alternative" },
     { "id": "headquarters-passing", "type": "prerequisite" },
     { "id": "knee-cut-passing", "type": "alternative" }
   ],
-  "relatedPositions": ["half-Guard-top", "open-Guard-top"],
-  "relatedConcepts": ["hip-control", "inside-position", "knee-line", "frames-pummeling"],
-  "archetypeIds": ["pressure-top-player", "passing-specialist"],
+  "relatedPositions": ["bodylock-passing-position"],
+  "relatedConcepts": ["inside-position", "knee-line", "frames", "pummeling"],
+  "archetypeIds": ["pressure-passer"],
   "trainingMethodIds": ["static-repetition", "progressive-resistance", "live-positional"],
   "bodyToBodyDetails": {
     "phases": [

@@ -1,0 +1,72 @@
+{
+  "id": "wrist-lock-system",
+  "domain": "submission_systems",
+  "level": "intermediate",
+  "name": "Wrist Lock System",
+  "aliases": [
+    "wristlock",
+    "gooseneck",
+    "figure four wrist lock"
+  ],
+  "tags": [
+    "family:submission",
+    "risk:high",
+    "meta:modern_common",
+    "modern-no-gi",
+    "group:wrist_ride",
+    "wrist-lock",
+    "joint-lock"
+  ],
+  "keywords": [
+    "wrist lock",
+    "wristlock",
+    "gooseneck",
+    "figure four",
+    "joint lock",
+    "wrist control"
+  ],
+  "modernSystemGroup": "wrist_ride",
+  "relatedSkills": [
+    {
+      "id": "cross-wrist-ride",
+      "type": "supporting"
+    },
+    {
+      "id": "wrist-ride-back-exposure",
+      "type": "supporting"
+    },
+    {
+      "id": "kimura-system",
+      "type": "chain"
+    },
+    {
+      "id": "triangle-system",
+      "type": "chain"
+    }
+  ],
+  "prerequisiteSkillIds": [
+    "side-control-pin",
+    "back-control"
+  ],
+  "relatedPositions": [],
+  "relatedConcepts": [
+    "control-before-submission",
+    "levers",
+    "dilemma-attacks",
+    "early-vs-late-defense"
+  ],
+  "archetypeIds": [
+    "submission-chain-hunter"
+  ],
+  "trainingMethodIds": [],
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "updatedAt": "2026-10-11T00:00:00.000Z"
+}

@@ -1,0 +1,146 @@
+{
+  "id": "russian-tie",
+  "domain": "wrestle_up_wrestling",
+  "level": "intermediate",
+  "status": "draft",
+  "name": "Russian Tie",
+  "aliases": [
+    "2 on 1",
+    "two on one",
+    "Russian arm tie",
+    "two-on-one control"
+  ],
+  "tags": [
+    "family:wrestling",
+    "risk:low",
+    "meta:modern_common",
+    "modern-no-gi",
+    "group:wrestle_up",
+    "russian-tie",
+    "arm-control"
+  ],
+  "keywords": [
+    "Russian tie",
+    "2 on 1",
+    "two on one",
+    "wrist and elbow control",
+    "single leg"
+  ],
+  "modernSystemGroup": "wrestle_up",
+  "relatedSkills": [
+    {
+      "id": "arm-drag-system",
+      "type": "chain"
+    },
+    {
+      "id": "single-leg-bjj",
+      "type": "chain"
+    },
+    {
+      "id": "body-lock-takedown",
+      "type": "alternative"
+    },
+    {
+      "id": "hand-fighting",
+      "type": "supporting"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [
+    "inside-position",
+    "connection-before-control",
+    "base-balance"
+  ],
+  "relatedConceptIds": [],
+  "archetypeIds": [
+    "wrestle-up-player"
+  ],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "stance-movement-basics",
+    "hand-fighting"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [
+    "If they straighten the arm to escape: re-wrap the triceps and pull the elbow back to your chest before attacking",
+    "If they circle away from the tie: follow their hips with your feet and take the back instead of reaching for the arm",
+    "If they pummel their elbow back inside: reset your stance and re-enter the tie, do not fight the grip"
+  ],
+  "version": 1,
+  "updatedAt": "2026-10-11T00:00:00.000Z",
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "en",
+  "description": "The Russian Tie is a two-on-one control of one of the opponent's arms: your hand holds their wrist while your other arm wraps their triceps, pinning the arm across their own chest. From the tie you can attack the single leg, the body lock, the foot sweep or the back, and their arm is not available to defend any of it.",
+  "shortInstruction": "Capture the wrist, pull the arm across their centerline, wrap your free arm over their triceps and pin their elbow to your chest. Keep your head inside, then attack the nearest leg or turn them away.",
+  "summary": "The Russian Tie turns one of their arms into your lever. Because two of your hands control one of theirs, every attack built from the tie starts from a two to one advantage in the hand fight. In no-gi it is the most direct answer to an opponent who wins grips by strength alone, and it feeds the single leg, the body lock and the go-behind without changing grips.",
+  "whyItWorks": [
+    "Two of your hands on one of their arms means the hand fight is already won once the tie is set",
+    "Pinning their elbow to your chest takes the arm away from their centerline, so it cannot post, frame or defend the leg you attack",
+    "Pulling the arm across their body turns their shoulders away from you, which exposes the back and the near leg at the same time",
+    "The control is a pin rather than a grip, so it survives the sweaty hand fighting that breaks a normal wrist grip in no-gi"
+  ],
+  "commonMistakes": [
+    "Holding only the wrist: a two-on-one without the triceps wrap is a grip, not a tie",
+    "Letting their elbow drift away from your chest, which lets them straighten the arm and pull it back",
+    "Standing square while holding the tie, which turns it into a strength contest you cannot control",
+    "Diving at the leg before the tie is set, arriving with one hand and no control"
+  ],
+  "coachingCues": [
+    "Wrist first, then the triceps",
+    "Elbow glued to your chest",
+    "Head inside, hips under",
+    "Turn their shoulder before you attack the leg"
+  ],
+  "safetySummary": [
+    "Drill the tie at controlled speed: the risk in this position comes from the takedown you choose from it, not from the tie itself",
+    "When you attack the leg from the tie, keep your head clear of the knee and never drive a partner's head into the mat",
+    "If your partner's arm gets twisted inside the tie, release and reset instead of holding the position to finish the exchange"
+  ],
+  "systemLogic": {
+    "corePrinciple": "Russian Tie: capture the wrist, pull the arm across their centerline, wrap and pin the triceps to your chest, keep your head inside, then attack the leg nearest the trapped arm or turn them for the back.",
+    "decisionTree": [
+      {
+        "condition": "They keep their elbow attached to their ribs",
+        "action": "keep the tie and circle, the arm opens when they step"
+      },
+      {
+        "condition": "They straighten the trapped arm",
+        "action": "re-wrap the triceps and pull the elbow back to your chest"
+      },
+      {
+        "condition": "They square up and push into you",
+        "action": "change levels to the near single leg, their trapped arm cannot post"
+      },
+      {
+        "condition": "They turn away from the tie",
+        "action": "follow behind their hips and take the back"
+      }
+    ],
+    "exitStrategies": [
+      "If the tie breaks, reset to hand fighting rather than reaching for the leg",
+      "If the takedown fails, stay on the tie and circle instead of dropping to your knees"
+    ]
+  },
+  "moneyDetails": [
+    "The tie is created by the triceps wrap, not the wrist grip: the wrap is what turns a single arm into a two-on-one lever",
+    "Pinning their elbow across their own chest means the arm cannot post, which is why attacks from the tie land on an already unbalanced opponent",
+    "Circling toward the trapped arm keeps your head inside and keeps their hips turning away, which is what opens the back"
+  ],
+  "fixItFast": [
+    "If their arm comes free: re-wrap the triceps before your next attack",
+    "If your own elbow drifts up: pull it back to your ribs, that is where the tie is strong",
+    "If the tie stalls: circle one step toward the trapped arm and attack again"
+  ]
+}

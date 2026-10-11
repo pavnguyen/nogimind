@@ -12,6 +12,7 @@
     "build:content": "tsx scripts/content/build-content.ts",
     "create-skill": "tsx scripts/content/scaffold-skill.ts",
     "validate:content": "tsx scripts/content/validate-content.ts",
+    "validate:relations": "tsx scripts/content/validate-relations.ts",
     "validate:videos": "tsx scripts/validate-videos.ts",
     "audit:vi": "tsx scripts/auditViKeys.ts",
     "test": "vitest run",

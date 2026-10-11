@@ -305,7 +305,7 @@ const seeds: PositionSeed[] = [
     ),
     nextPositionId: 'seated-guard',
     action: lt('Quay lại Seated Guard hoặc tạo off-balance', 'Return to Seated Guard or create an off-balance', 'Revenir en garde assise ou créer un déséquilibre'),
-    relatedSkillIds: ['butterfly-guard-off-balance', 'seated-guard-retention', 'bodylock-passing'],
+    relatedSkillIds: ['butterfly-guard-off-balance', 'seated-guard-retention', 'bodylock-pass'],
     relatedConceptIds: ['hooks', 'base-balance', 'levers'],
   },
   {
@@ -585,7 +585,7 @@ const seeds: PositionSeed[] = [
     ),
     nextPositionId: 'side-control-top',
     action: lt('Clear Knee Line và ổn định Side Control', 'Clear the Knee Line and stabilize Side Control', 'Passer la ligne du genou et stabiliser le Side Control'),
-    relatedSkillIds: ['bodylock-passing', 'seated-guard-retention', 'half-guard-wrestle-up'],
+    relatedSkillIds: ['bodylock-pass', 'seated-guard-retention', 'half-guard-wrestle-up'],
     relatedConceptIds: ['connection-before-control', 'pressure-direction', 'inside-position'],
   },
   {

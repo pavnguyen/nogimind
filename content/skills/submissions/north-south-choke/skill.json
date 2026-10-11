@@ -1,0 +1,65 @@
+{
+  "id": "north-south-choke",
+  "domain": "submission_systems",
+  "level": "intermediate",
+  "name": "North-South Choke",
+  "aliases": [
+    "north south strangle",
+    "north-south strangle",
+    "ns choke"
+  ],
+  "tags": [
+    "family:submission",
+    "risk:high",
+    "meta:modern_common",
+    "modern-no-gi",
+    "tier:modern-expansion",
+    "north-south",
+    "arm-in-choke",
+    "choke"
+  ],
+  "keywords": [
+    "north south choke",
+    "north south strangle",
+    "arm-in choke",
+    "north south position",
+    "choke from north south"
+  ],
+  "relatedSkills": [
+    {
+      "id": "arm-triangle-mount",
+      "type": "chain"
+    },
+    {
+      "id": "kimura-system",
+      "type": "alternative"
+    },
+    {
+      "id": "north-south-escape",
+      "type": "supporting"
+    }
+  ],
+  "prerequisiteSkillIds": [
+    "north-south-control"
+  ],
+  "relatedPositions": [],
+  "relatedConcepts": [
+    "pressure-direction",
+    "control-before-submission",
+    "head-position"
+  ],
+  "archetypeIds": [
+    "submission-chain-hunter"
+  ],
+  "trainingMethodIds": [],
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "updatedAt": "2026-10-11T00:00:00.000Z"
+}

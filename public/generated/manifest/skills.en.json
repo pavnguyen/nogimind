@@ -708,8 +708,8 @@
     "hasMicroDetails": false,
     "hasChecklist": false,
     "prerequisiteSkillIds": [
-      "clamp-Guard-system",
-      "triangle-armbar-dilemma"
+      "clamp-guard-control",
+      "triangle-system"
     ],
     "nextSkillIds": [],
     "relatedSkillIds": []
@@ -1445,7 +1445,7 @@
     "hasMicroDetails": false,
     "hasChecklist": false,
     "prerequisiteSkillIds": [
-      "bodylock-passing",
+      "bodylock-pass",
       "knee-cut-passing"
     ],
     "nextSkillIds": [],
@@ -1528,7 +1528,7 @@
     "hasChecklist": true,
     "prerequisiteSkillIds": [
       "half-guard-knee-shield",
-      "bodylock-passing"
+      "bodylock-pass"
     ],
     "nextSkillIds": [],
     "relatedSkillIds": []
@@ -1898,7 +1898,7 @@
     "hasMicroDetails": false,
     "hasChecklist": true,
     "prerequisiteSkillIds": [
-      "bodylock-passing"
+      "bodylock-pass"
     ],
     "nextSkillIds": [],
     "relatedSkillIds": []
@@ -2649,6 +2649,29 @@
     "relatedSkillIds": []
   },
   {
+    "id": "knee-bar",
+    "domain": "submission_systems",
+    "level": "intermediate",
+    "name": "Knee Bar",
+    "tags": [
+      "family:leg-lock",
+      "risk:high",
+      "meta:modern_common",
+      "modern-no-gi",
+      "group:leg_lock",
+      "knee-bar"
+    ],
+    "summary": "The Knee Bar attacks the knee by hyperextension, using your hip crease as the fulcrum and their ankle as the end of the lever. It is available from the main leg entanglements (Single Leg X, 50/50, Saddle), from top Turtle, and inverted from bottom Half Guard. Because it loads ligaments instead of the ankle, it reaches opponents who are busy hiding the heel.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "prerequisiteSkillIds": [
+      "leg-lock-safety-basics"
+    ],
+    "nextSkillIds": [],
+    "relatedSkillIds": []
+  },
+  {
     "id": "mounted-triangle-armbar",
     "domain": "submission_systems",
     "level": "intermediate",
@@ -2696,6 +2719,31 @@
     "prerequisiteSkillIds": [
       "fifty-fifty-to-heel-exposure",
       "heel-hook-safety"
+    ],
+    "nextSkillIds": [],
+    "relatedSkillIds": []
+  },
+  {
+    "id": "north-south-choke",
+    "domain": "submission_systems",
+    "level": "intermediate",
+    "name": "North-South Choke",
+    "tags": [
+      "family:submission",
+      "risk:high",
+      "meta:modern_common",
+      "modern-no-gi",
+      "tier:modern-expansion",
+      "north-south",
+      "arm-in-choke",
+      "choke"
+    ],
+    "summary": "The North-South Choke turns the North-South pin into a finish. Nothing about it is a squeeze: the choke is built from the pin, with chest pressure closing the space, the bicep and shoulder loading one side of the neck and the opponent's own shoulder trapping the other. The finish is a hip walk toward their head, not an arm pull. It reaches opponents who defend the sides of the neck well, because the pressure arrives on a plane they are not framing against, and it doubles as a control: keeping the choke shape on is itself a way to hold them down.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "prerequisiteSkillIds": [
+      "north-south-control"
     ],
     "nextSkillIds": [],
     "relatedSkillIds": []
@@ -2790,12 +2838,9 @@
     "prerequisiteSkillIds": [
       "back-control"
     ],
-    "nextSkillIds": [
-      "arm-triangle-mount"
-    ],
+    "nextSkillIds": [],
     "relatedSkillIds": [
       "back-control",
-      "seatbelt-control",
       "hand-fighting"
     ]
   },
@@ -3086,6 +3131,31 @@
     "relatedSkillIds": []
   },
   {
+    "id": "wrist-lock-system",
+    "domain": "submission_systems",
+    "level": "intermediate",
+    "name": "Wrist Lock System",
+    "tags": [
+      "family:submission",
+      "risk:high",
+      "meta:modern_common",
+      "modern-no-gi",
+      "group:wrist_ride",
+      "wrist-lock",
+      "joint-lock"
+    ],
+    "summary": "The Wrist Lock System is not one submission but a family of entries built on the same grip: the hand is the lever, the trapped forearm is the fulcrum, and your body rotation is the power. The value is availability. Wrist locks show up from side control, mount, back control, the triangle and even from the bottom of side control, which means an opponent who hides the neck and the elbows still has a joint exposed. Because the wrist breaks with very little warning, this is a control-first system and a slow-application system.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "prerequisiteSkillIds": [
+      "side-control-pin",
+      "back-control"
+    ],
+    "nextSkillIds": [],
+    "relatedSkillIds": []
+  },
+  {
     "id": "z-lock",
     "domain": "submission_systems",
     "level": "advanced",
@@ -3104,21 +3174,20 @@
     "hasMicroDetails": false,
     "hasChecklist": false,
     "prerequisiteSkillIds": [
-      "single-leg-x-Guard",
-      "saddle-system",
-      "heel-hook"
+      "single-leg-x-control",
+      "saddle-inside-sankaku-control",
+      "heel-hook-finishing-system"
     ],
-    "nextSkillIds": [
-      "cross-ashi-garami",
-      "outside-ashi-garami"
-    ],
+    "nextSkillIds": [],
     "relatedSkillIds": [
-      "heel-hook",
-      "ankle-lock",
+      "heel-hook-finishing-system",
+      "shotgun-ankle-lock",
       "knee-bar",
-      "saddle-system",
-      "single-leg-x-Guard",
-      "aoki-lock"
+      "saddle-inside-sankaku-control",
+      "single-leg-x-control",
+      "aoki-lock",
+      "backside-50-50-cross-ashi",
+      "k-guard-to-outside-ashi"
     ]
   },
   {
@@ -3378,6 +3447,31 @@
     "relatedSkillIds": []
   },
   {
+    "id": "russian-tie",
+    "domain": "wrestle_up_wrestling",
+    "level": "intermediate",
+    "name": "Russian Tie",
+    "tags": [
+      "family:wrestling",
+      "risk:low",
+      "meta:modern_common",
+      "modern-no-gi",
+      "group:wrestle_up",
+      "russian-tie",
+      "arm-control"
+    ],
+    "summary": "The Russian Tie turns one of their arms into your lever. Because two of your hands control one of theirs, every attack built from the tie starts from a two to one advantage in the hand fight. In no-gi it is the most direct answer to an opponent who wins grips by strength alone, and it feeds the single leg, the body lock and the go-behind without changing grips.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "prerequisiteSkillIds": [
+      "stance-movement-basics",
+      "hand-fighting"
+    ],
+    "nextSkillIds": [],
+    "relatedSkillIds": []
+  },
+  {
     "id": "single-leg-bjj",
     "domain": "wrestle_up_wrestling",
     "level": "intermediate",
@@ -3432,6 +3526,28 @@
     "prerequisiteSkillIds": [
       "hand-fighting"
     ],
+    "nextSkillIds": [],
+    "relatedSkillIds": []
+  },
+  {
+    "id": "stance-movement-basics",
+    "domain": "wrestle_up_wrestling",
+    "level": "beginner",
+    "name": "Stance and Movement",
+    "tags": [
+      "family:wrestling",
+      "risk:low",
+      "meta:modern_common",
+      "modern-no-gi",
+      "group:wrestle_up",
+      "stance",
+      "footwork"
+    ],
+    "summary": "Stance and Movement covers the posture and footwork that make the rest of the stand-up game possible. It is not a technique but a base: the same stance feeds the double leg, the foot sweep, the body lock and the sprawl. Beginners usually lose the stand-up not because they do not know techniques, but because they stand upright with square feet and high hips, which turns every exchange into a fall.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "prerequisiteSkillIds": [],
     "nextSkillIds": [],
     "relatedSkillIds": []
   },

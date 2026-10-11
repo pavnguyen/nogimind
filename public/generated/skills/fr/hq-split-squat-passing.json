@@ -26,7 +26,7 @@
       "type": "recommended"
     },
     {
-      "id": "bodylock-passing",
+      "id": "bodylock-pass",
       "type": "recommended"
     },
     {
@@ -46,7 +46,7 @@
   "archetypeIds": [],
   "relatedArchetypeIds": [],
   "prerequisiteSkillIds": [
-    "bodylock-passing",
+    "bodylock-pass",
     "knee-cut-passing"
   ],
   "trainingMethodIds": [],

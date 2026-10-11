@@ -1,0 +1,73 @@
+{
+  "id": "stance-movement-basics",
+  "domain": "wrestle_up_wrestling",
+  "level": "beginner",
+  "name": "Stance and Movement",
+  "aliases": [
+    "wrestling stance",
+    "stance and motion",
+    "footwork"
+  ],
+  "tags": [
+    "family:wrestling",
+    "risk:low",
+    "meta:modern_common",
+    "modern-no-gi",
+    "group:wrestle_up",
+    "stance",
+    "footwork"
+  ],
+  "keywords": [
+    "stance",
+    "footwork",
+    "level change",
+    "penetration step",
+    "hand position",
+    "wrestling for BJJ"
+  ],
+  "modernSystemGroup": "wrestle_up",
+  "relatedSkills": [
+    {
+      "id": "hand-fighting",
+      "type": "chain"
+    },
+    {
+      "id": "double-leg-bjj",
+      "type": "chain"
+    },
+    {
+      "id": "sprawl-go-behind",
+      "type": "chain"
+    },
+    {
+      "id": "bjj-foot-sweeps",
+      "type": "recommended"
+    },
+    {
+      "id": "body-lock-takedown",
+      "type": "recommended"
+    }
+  ],
+  "prerequisiteSkillIds": [],
+  "relatedPositions": [],
+  "relatedConcepts": [
+    "base-balance",
+    "inside-position",
+    "head-position"
+  ],
+  "archetypeIds": [
+    "wrestle-up-player",
+    "scramble-controller"
+  ],
+  "trainingMethodIds": [],
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "updatedAt": "2026-10-11T00:00:00.000Z"
+}

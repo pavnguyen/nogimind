@@ -18,14 +18,6 @@
   ],
   "relatedSkills": [
     {
-      "id": "leg-pummel-pass",
-      "type": "supporting"
-    },
-    {
-      "id": "smash-pass",
-      "type": "alternative"
-    },
-    {
       "id": "headquarters-passing",
       "type": "prerequisite"
     },
@@ -36,20 +28,18 @@
   ],
   "relatedSkillIds": [],
   "relatedPositions": [
-    "half-Guard-top",
-    "open-Guard-top"
+    "bodylock-passing-position"
   ],
   "relatedPositionIds": [],
   "relatedConcepts": [
-    "hip-control",
     "inside-position",
     "knee-line",
-    "frames-pummeling"
+    "frames",
+    "pummeling"
   ],
   "relatedConceptIds": [],
   "archetypeIds": [
-    "pressure-top-player",
-    "passing-specialist"
+    "pressure-passer"
   ],
   "relatedArchetypeIds": [],
   "prerequisiteSkillIds": [],

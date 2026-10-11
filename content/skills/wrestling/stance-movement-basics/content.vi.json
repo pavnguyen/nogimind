@@ -1,0 +1,67 @@
+{
+  "id": "stance-movement-basics",
+  "locale": "vi",
+  "name": "Stance and Movement",
+  "description": "Stance and Movement là lớp nền của phần đứng trong no-gi: cách bạn đứng (tư thế thể thao, chân trước chân sau, gối khuỵu, tay lên ngang ngực), cách bạn di chuyển (bước ngắn, không bắt chéo chân) và cách bạn hạ thấp trọng tâm (hông xuống, ngực không gập). Mọi đòn vật, thoát vật và kéo guard đều bắt đầu từ đây.",
+  "shortInstruction": "Tư thế thể thao chân trước chân sau: gối khuỵu, hông thấp, hai tay lên ngang ngực. Di chuyển bằng bước ngắn, tiến thì chân trước bước trước, lùi thì chân sau bước trước, và giữ đầu nằm trong tay của họ.",
+  "summary": "Stance and Movement bao gồm tư thế và bước chân giúp phần đứng hoạt động được. Đây không phải một đòn cụ thể mà là nền: cùng tư thế đó dùng cho double leg, foot sweep, body lock và thoát vật. Người mới thường thua phần đứng không phải vì thiếu đòn, mà vì đứng thẳng, hai chân vuông góc và hông cao, khiến mọi va chạm trở thành một cú ngã.",
+  "whyItWorks": [
+    "Tư thế chân trước chân sau tạo nền có thể di chuyển mọi hướng mà không cần dịch trọng lượng quá nhiều",
+    "Gối khuỵu và hông thấp giữ đầu bạn trên nền, đây là thứ khiến snap down hay body lock không phá được tư thế",
+    "Bước ngắn, không bắt chéo giữ hông luôn ở dưới người, nên bạn đổi hướng được ngay bước thứ hai thay vì bước thứ ba",
+    "Giữ tay ở khoảng giữa ngực bạn và ngực họ khiến lần bắt tay đầu tiên diễn ra theo ý bạn thay vì trên hai cánh tay duỗi"
+  ],
+  "commonMistakes": [
+    "Đứng thẳng với hai chân vuông góc, khiến mọi lần hạ thấp trọng tâm thành cú ngã và mọi snap down thành thảm họa",
+    "Nhìn chân họ thay vì nhìn ngực, mất bước đầu tiên của mọi va chạm",
+    "Với tay duỗi thẳng để bắt thế nắm đầu, trao cho họ thế hai đánh một",
+    "Bắt chéo chân khi di chuyển ngang, khiến single leg hoặc foot sweep ăn dễ dàng"
+  ],
+  "coachingCues": [
+    "Gối khuỵu, hông thấp, tay lên",
+    "Di chuyển chân, không di chuyển ngực",
+    "Bước ngắn, không bắt chéo",
+    "Đầu nằm trong tay họ"
+  ],
+  "safetySummary": [
+    "Tập đổi tư thế với tốc độ kiểm soát trên thảm sạch: chấn thương thường gặp nhất khi tập đứng là ngã ngửa mất kiểm soát ngay lần hạ trọng tâm đầu tiên",
+    "Tập tư thế đứng với bạn tập cũng biết kiểm soát trọng lượng cơ thể, và dừng bài tập trước khi có ai ngã lên cánh tay cứng",
+    "Các lối vào đòn vật dựa trên tư thế này tuân theo hướng dẫn an toàn takedown của app: không dùng sức bật ném trong luyện tập, không bao giờ để ngã lên đầu hay cổ"
+  ],
+  "keyCorrections": [
+    "Nếu họ snap đầu bạn xuống: giữ hông thấp và bước vào, đừng gập người để gỡ",
+    "Nếu họ khóa body lock: hạ hông xuống và đưa tay vào trong, gỡ thế khóa trước khi cố di chuyển",
+    "Nếu chân trước bị tấn công: chân sau bước trước để vòng ra, rồi lập lại tư thế"
+  ],
+  "systemLogic": {
+    "corePrinciple": "Stance and Movement: dựng nền (tư thế thể thao chân trước chân sau, tay lên), giữ hông thấp trong mọi bước, và bước ngắn không bắt chéo để luôn đổi hướng được.",
+    "decisionTree": [
+      {
+        "condition": "Bạn muốn áp sát",
+        "action": "bước ngắn bằng chân trước, hông thấp, tay vào trong tay họ"
+      },
+      {
+        "condition": "Họ đẩy tới vào bạn",
+        "action": "chân sau bước trước, vòng ra, lập lại tư thế trước khi vào"
+      },
+      {
+        "condition": "Đầu bạn bị snap xuống",
+        "action": "hạ hông, bước vào, nhìn lên, và dựng lại thế tay"
+      }
+    ],
+    "exitStrategies": [
+      "Nếu mất tư thế, đứng lên thoát khỏi va chạm và lập lại tư thế thay vì đánh tiếp từ thế vuông góc, người thẳng",
+      "Nếu một lần bắt tay bắt đầu bất lợi, tách ra về khoảng cách và vào lại từ tư thế đã lập"
+    ]
+  },
+  "moneyDetails": [
+    "Tư thế nói lên tất cả: đứng thẳng, hai chân vuông mời gọi thế hai đánh một và snap down, còn tư thế thấp chân trước chân sau lấy đi những đòn đó",
+    "Hông thấp với đầu trên nền là chi tiết duy nhất phân biệt phần đứng của người mới và của dân vật",
+    "Bước ngắn giữ chân dưới hông, đây là thứ giúp bạn còn bước thứ hai và thứ ba khi bước đầu bị chặn"
+  ],
+  "fixItFast": [
+    "Nếu thấy mình bị kéo tới trước: hạ hông và bước vào, đừng kéo ngực về sau",
+    "Nếu chân bị bắt chéo: đứng lên, lập lại tư thế, và bắt đầu lại va chạm",
+    "Nếu tay xuống dưới ngang ngực: đưa tay về đúng vị trí trước khi tìm thế nắm"
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "id": "wrist-lock-system",
+  "domain": "submission_systems",
+  "level": "intermediate",
+  "status": "draft",
+  "name": "Wrist Lock System",
+  "aliases": [
+    "wristlock",
+    "gooseneck",
+    "figure four wrist lock"
+  ],
+  "tags": [
+    "family:submission",
+    "risk:high",
+    "meta:modern_common",
+    "modern-no-gi",
+    "group:wrist_ride",
+    "wrist-lock",
+    "joint-lock"
+  ],
+  "keywords": [
+    "wrist lock",
+    "wristlock",
+    "gooseneck",
+    "figure four",
+    "joint lock",
+    "wrist control"
+  ],
+  "modernSystemGroup": "wrist_ride",
+  "relatedSkills": [
+    {
+      "id": "cross-wrist-ride",
+      "type": "supporting"
+    },
+    {
+      "id": "wrist-ride-back-exposure",
+      "type": "supporting"
+    },
+    {
+      "id": "kimura-system",
+      "type": "chain"
+    },
+    {
+      "id": "triangle-system",
+      "type": "chain"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [
+    "control-before-submission",
+    "levers",
+    "dilemma-attacks",
+    "early-vs-late-defense"
+  ],
+  "relatedConceptIds": [],
+  "archetypeIds": [
+    "submission-chain-hunter"
+  ],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "side-control-pin",
+    "back-control"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [
+    "Nếu khuỷu lăn và đi theo bàn tay: ghim lại cẳng tay vào ngực hoặc xuống thảm rồi mới xoay tiếp",
+    "Nếu họ duỗi tay và kéo về: thả grip, lập lại kiểm soát, và vào đòn từ vị trí tốt hơn thay vì giằng co cánh tay",
+    "Nếu họ giữ tay mình để phòng thủ: dùng chính grip đó, bàn tay họ tự lấy mất khoảng để xoay"
+  ],
+  "version": 1,
+  "updatedAt": "2026-10-11T00:00:00.000Z",
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "vi",
+  "description": "Wrist lock là đòn bẻ cổ tay vượt quá biên độ vận động của khớp. Bạn giữ bàn tay bằng grip hai tay hoặc figure-four, ghim cẳng tay để nó không di chuyển, rồi xoay bàn tay trong khi thân người tạo lực. Đây là khớp nhỏ nhất trong các đòn khóa và là đòn xuất hiện mỗi khi đối thủ để bàn tay sai chỗ.",
+  "shortInstruction": "Giữ bàn tay họ, ghim cẳng tay vào thân người hoặc xuống thảm để khuỷu không đi theo, rồi xoay bàn tay vào flexion hay ulnar deviation bằng cả thân người, không phải bằng ngón tay.",
+  "summary": "Wrist Lock System không phải một đòn duy nhất mà là cả họ lối vào dùng chung một grip: bàn tay là đòn bẩy, cẳng tay bị ghim là điểm tựa, và chuyển động thân người tạo lực. Giá trị nằm ở độ sẵn có. Wrist lock xuất hiện từ side control, mount, back control, trong triangle và cả từ thế dưới side control, nghĩa là đối thủ có giấu cổ và giấu khuỷu vẫn hở một khớp. Vì cổ tay gãy với rất ít cảnh báo, đây là hệ thống ưu tiên kiểm soát và phải vào lực thật chậm.",
+  "whyItWorks": [
+    "Bàn tay nằm ở cuối một đòn bẩy dài, nên chỉ cần xoay nhẹ thân người là lực ở cổ tay đã rất lớn",
+    "Ghim cẳng tay khiến khuỷu không thể đi theo bàn tay, đây là cách duy nhất họ giảm được áp lực",
+    "Kiểm soát cổ tay vốn đã có sẵn trong cross-wrist ride hay handcuff grip, nên vào đòn mà không cần đổi vị trí",
+    "Phòng thủ chặt ở vai và khuỷu không bảo vệ được cổ tay, nên đòn này chạm tới cả người đang khóa hết đường khác"
+  ],
+  "commonMistakes": [
+    "Kéo bằng ngón tay hoặc cơ nhỏ của bàn tay thay vì xoay cả thân người",
+    "Để cẳng tay tự do nên đối thủ lăn khuỷu và đi theo bàn tay thoát ra",
+    "Đuổi theo cổ tay từ thế lỏng, khi đó đòn đến mà không có ghim và họ chỉ cần kéo tay về",
+    "Vặn cổ tay để ép phản ứng khi tập, trong khi khớp gần như không báo đau trước khi bị tổn thương"
+  ],
+  "coachingCues": [
+    "Bàn tay trước, ghim cẳng tay sau, xoay cuối cùng",
+    "Xoay ngực, không xoay ngón tay",
+    "Ghim đường khuỷu trước khi xoay bàn tay",
+    "Chậm ở mọi rep, cổ tay không cảnh báo bạn"
+  ],
+  "safetySummary": [
+    "Wrist lock là đòn khớp dễ gây chấn thương mà không có cảnh báo, vì cổ tay thường không đau cho tới khi tổn thương đã bắt đầu. Vào lực thật chậm, từng chút một, tuyệt đối không giật hay vặn mạnh",
+    "Tap sớm và tap bằng tay còn lại. Đừng chờ tới khi đau mới tap wrist lock; lúc đau thì dây chằng đã bị chất lực rồi",
+    "Khi drill, thống nhất trước là tập khớp nào và dừng ở lực nhẹ. Nếu bạn tập với người không phòng bị cổ tay, đừng vào đòn"
+  ],
+  "systemLogic": {
+    "corePrinciple": "Wrist Lock System: giữ bàn tay, ghim cẳng tay để khuỷu không đi theo, rồi xoay bàn tay vào flexion hoặc deviation bằng cách xoay thân người, và chỉ vào đòn từ vị trí đã kiểm soát được cánh tay.",
+    "decisionTree": [
+      {
+        "condition": "Bạn đã có cổ tay từ cross-wrist ride hoặc handcuff grip",
+        "action": "giữ ghim và xoay ngực để chất lực vào cổ tay, không cần grip mới"
+      },
+      {
+        "condition": "Họ giấu khuỷu và giữ tay sát người",
+        "action": "lấy cổ tay bên kia, ở bàn tay xa, hoặc chuyển sang Kimura trên cùng cánh tay"
+      },
+      {
+        "condition": "Khuỷu của họ lăn và đi theo bàn tay",
+        "action": "ghim lại cẳng tay trước khi xoay tiếp, cẳng tay tự do là đường thoát"
+      },
+      {
+        "condition": "Họ duỗi tay để thoát grip",
+        "action": "thả ra, lấy lại vị trí, và vào lại đòn từ thế ghim"
+      }
+    ],
+    "exitStrategies": [
+      "Nếu wrist lock không ăn, bạn vẫn đang ghim: giữ vị trí và chuyển sang đòn mạnh hơn thay vì đuổi theo bàn tay",
+      "Nếu đối thủ tap muộn hoặc khớp có dấu hiệu bị chất lực, dừng round, thả chậm, và hỏi thăm partner"
+    ]
+  },
+  "moneyDetails": [
+    "Điểm tựa là cẳng tay bị ghim, không phải bàn tay: thiếu nó thì khuỷu đi theo cổ tay và đòn không bao giờ chất lực",
+    "Lực xoay đến từ ngực và hông. Khi thân người xoay, grip chỉ cần giữ; khi hai bàn tay làm việc, đòn yếu và dễ bị gỡ",
+    "Wrist lock vào đẹp nhất như đòn thứ hai hoặc thứ ba, khi đối thủ đã dồn tay để phòng cổ hoặc phòng khuỷu"
+  ],
+  "fixItFast": [
+    "Nếu cẳng tay họ thoát ra: ghim lại vào ngực trước khi xoay tiếp",
+    "Nếu đòn cứ thành giằng grip: chuyển sang Kimura, cùng kiểm soát cổ tay nhưng đòn bẩy lớn hơn",
+    "Nếu họ kéo hẳn tay ra: giữ thế ghim, đừng với theo, và dùng vị trí bạn đang có"
+  ]
+}

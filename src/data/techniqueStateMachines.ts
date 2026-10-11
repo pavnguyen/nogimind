@@ -174,7 +174,7 @@ export const techniqueStateMachines: TechniqueStateMachine[] = [
     ],
   }),
   machine({
-    skillId: 'bodylock-passing',
+    skillId: 'bodylock-pass',
     fromPositionId: 'bodylock-passing-position',
     attackerGoal: lt('Khóa hip line thấp, giết butterfly hook rồi clear Knee Line trước khi pin.', 'Lock low hip line, kill the butterfly hook, then clear Knee Line before pinning.', 'Verrouiller hip line bas, tuer butterfly hook, puis clear Knee Line avant pin.'),
     defenderGoal: lt('Tạo shin frame hoặc Shoulder Crunch trước khi chest-to-hip khóa hông.', 'Build shin frame or Shoulder Crunch before chest-to-hip locks the hips.', 'Créer shin frame ou Shoulder Crunch avant chest-to-hip.'),

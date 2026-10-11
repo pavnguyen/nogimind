@@ -1,0 +1,71 @@
+{
+  "id": "russian-tie",
+  "locale": "vi",
+  "name": "Russian Tie",
+  "description": "Russian Tie là thế kiểm soát hai đánh một vào một tay của đối thủ: một tay bạn giữ cổ tay họ, tay kia vòng qua triceps, ghim cánh tay đó ngang ngực họ. Từ thế này bạn tấn công single leg, body lock, foot sweep hoặc ra sau lưng, và tay họ không còn dùng để phòng thủ được nữa.",
+  "shortInstruction": "Bắt cổ tay họ, kéo cánh tay ngang qua đường giữa cơ thể họ, vòng tay còn lại qua triceps và ghim cùi chỏ họ vào ngực bạn. Giữ đầu ở trong, rồi tấn công chân gần nhất hoặc xoay người họ ra.",
+  "summary": "Russian Tie biến một cánh tay họ thành đòn bẩy của bạn. Vì hai tay bạn kiểm soát một tay họ, mọi đòn bạn dựng từ thế này đều bắt đầu với lợi thế hai đánh một trong phần giành thế nắm. Trong no-gi, đây là câu trả lời trực tiếp nhất cho người thắng hand fighting bằng sức, và nó dẫn tới single leg, body lock và ra sau lưng mà không cần đổi thế nắm.",
+  "whyItWorks": [
+    "Hai tay bạn trên một tay họ nghĩa là phần hand fighting đã thắng ngay khi thế nắm được lập",
+    "Ghim cùi chỏ họ vào ngực bạn lấy cánh tay ra khỏi đường giữa của họ, nên họ không thể chống, chắn hay phòng chân mà bạn tấn công",
+    "Kéo cánh tay ngang người khiến vai họ xoay ra xa bạn, mở ra cùng lúc cả lưng và chân gần",
+    "Đây là thế ghim chứ không phải thế nắm, nên vẫn giữ được trong lúc tay ướt mồ hôi, khi mà thế nắm cổ tay thường bị phá"
+  ],
+  "commonMistakes": [
+    "Chỉ giữ cổ tay: hai đánh một mà không vòng qua triceps thì chỉ là một thế nắm, không phải Russian Tie",
+    "Để cùi chỏ họ rời khỏi ngực bạn, khiến họ duỗi thẳng tay và kéo về được",
+    "Đứng vuông góc khi đang giữ thế, biến nó thành cuộc thi sức mà bạn không kiểm soát được",
+    "Lao vào chân trước khi lập xong thế, tới nơi chỉ với một tay và không có kiểm soát"
+  ],
+  "coachingCues": [
+    "Cổ tay trước, rồi tới triceps",
+    "Cùi chỏ dính vào ngực bạn",
+    "Đầu ở trong, hông ở dưới",
+    "Xoay vai họ trước khi tấn công chân"
+  ],
+  "safetySummary": [
+    "Tập thế nắm với tốc độ kiểm soát: rủi ro ở tư thế này đến từ đòn vật bạn chọn sau đó, không phải từ chính thế nắm",
+    "Khi tấn công chân từ thế này, giữ đầu tránh xa đầu gối và không bao giờ ấn đầu bạn tập xuống thảm",
+    "Nếu tay bạn tập bị vặn trong thế nắm, thả ra và lập lại thay vì giữ tư thế để kết thúc đòn"
+  ],
+  "keyCorrections": [
+    "Nếu họ duỗi tay để thoát: vòng lại qua triceps và kéo cùi chỏ về ngực bạn trước khi tấn công",
+    "Nếu họ vòng ra khỏi thế nắm: đi theo hông họ bằng bước chân và ra sau lưng thay vì với tay",
+    "Nếu họ luồn cùi chỏ trở vào: lập lại tư thế và vào lại thế nắm, đừng đấu với thế nắm đó"
+  ],
+  "systemLogic": {
+    "corePrinciple": "Russian Tie: bắt cổ tay, kéo cánh tay ngang đường giữa của họ, vòng và ghim triceps vào ngực bạn, giữ đầu ở trong, rồi tấn công chân gần nhất với tay bị bẫy hoặc xoay họ ra sau lưng.",
+    "decisionTree": [
+      {
+        "condition": "Họ giữ cùi chỏ dính vào sườn",
+        "action": "giữ thế nắm và vòng người, cánh tay sẽ mở khi họ bước"
+      },
+      {
+        "condition": "Họ duỗi cánh tay bị bẫy",
+        "action": "vòng lại qua triceps và kéo cùi chỏ về ngực bạn"
+      },
+      {
+        "condition": "Họ vuông góc và đẩy tới",
+        "action": "hạ thấp trọng tâm vào single leg chân gần, tay bị bẫy của họ không chống được"
+      },
+      {
+        "condition": "Họ xoay người ra khỏi thế nắm",
+        "action": "đi theo sau hông họ và ra sau lưng"
+      }
+    ],
+    "exitStrategies": [
+      "Nếu thế nắm bị phá, lập lại về hand fighting thay vì với tay vào chân",
+      "Nếu đòn vật thất bại, ở lại với thế nắm và vòng người thay vì quỳ xuống"
+    ]
+  },
+  "moneyDetails": [
+    "Thế nắm được tạo bởi phần vòng qua triceps, không phải bởi thế giữ cổ tay: chính phần vòng biến một cánh tay thành đòn bẩy hai đánh một",
+    "Ghim cùi chỏ họ ngang ngực họ khiến cánh tay không chống được, đó là lý do các đòn từ thế này rơi vào người đã mất thăng bằng",
+    "Vòng người về phía cánh tay bị bẫy giữ đầu bạn ở trong và khiến hông họ xoay ra, đó là thứ mở ra phần lưng"
+  ],
+  "fixItFast": [
+    "Nếu tay họ thoát ra: vòng lại qua triceps trước đòn tiếp theo",
+    "Nếu thấy cùi chỏ mình trôi lên: kéo về sát sườn, đó là chỗ thế nắm mạnh",
+    "Nếu thế nắm bị đứng: vòng một bước về phía tay bị bẫy rồi tấn công lại"
+  ]
+}

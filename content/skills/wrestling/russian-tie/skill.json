@@ -1,0 +1,71 @@
+{
+  "id": "russian-tie",
+  "domain": "wrestle_up_wrestling",
+  "level": "intermediate",
+  "name": "Russian Tie",
+  "aliases": [
+    "2 on 1",
+    "two on one",
+    "Russian arm tie",
+    "two-on-one control"
+  ],
+  "tags": [
+    "family:wrestling",
+    "risk:low",
+    "meta:modern_common",
+    "modern-no-gi",
+    "group:wrestle_up",
+    "russian-tie",
+    "arm-control"
+  ],
+  "keywords": [
+    "Russian tie",
+    "2 on 1",
+    "two on one",
+    "wrist and elbow control",
+    "single leg"
+  ],
+  "modernSystemGroup": "wrestle_up",
+  "relatedSkills": [
+    {
+      "id": "arm-drag-system",
+      "type": "chain"
+    },
+    {
+      "id": "single-leg-bjj",
+      "type": "chain"
+    },
+    {
+      "id": "body-lock-takedown",
+      "type": "alternative"
+    },
+    {
+      "id": "hand-fighting",
+      "type": "supporting"
+    }
+  ],
+  "prerequisiteSkillIds": [
+    "stance-movement-basics",
+    "hand-fighting"
+  ],
+  "relatedPositions": [],
+  "relatedConcepts": [
+    "inside-position",
+    "connection-before-control",
+    "base-balance"
+  ],
+  "archetypeIds": [
+    "wrestle-up-player"
+  ],
+  "trainingMethodIds": [],
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "updatedAt": "2026-10-11T00:00:00.000Z"
+}

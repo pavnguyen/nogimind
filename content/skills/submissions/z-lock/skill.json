@@ -31,46 +31,40 @@
   ],
   "relatedSkills": [],
   "relatedSkillIds": [
-    "heel-hook",
-    "ankle-lock",
+    "heel-hook-finishing-system",
+    "shotgun-ankle-lock",
     "knee-bar",
-    "saddle-system",
-    "single-leg-x-Guard",
-    "aoki-lock"
+    "saddle-inside-sankaku-control",
+    "single-leg-x-control",
+    "aoki-lock",
+    "backside-50-50-cross-ashi",
+    "k-guard-to-outside-ashi"
   ],
   "relatedPositions": [],
   "relatedPositionIds": [
     "single-leg-x",
-    "50-50-Guard",
-    "saddle",
-    "ashi-garami"
+    "backside-50-50",
+    "saddle-inside-sankaku",
+    "outside-ashi"
   ],
   "relatedConcepts": [],
   "relatedConceptIds": [
-    "leg-entanglement",
-    "inside-position",
-    "hip-rotation",
-    "finishing-mechanics"
+    "inside-position"
   ],
   "archetypeIds": [
-    "leg-lock-specialist",
-    "Guard-player",
-    "modern-no-gi"
+    "leg-lock-safety-first"
   ],
   "prerequisiteSkillIds": [
-    "single-leg-x-Guard",
-    "saddle-system",
-    "heel-hook"
+    "single-leg-x-control",
+    "saddle-inside-sankaku-control",
+    "heel-hook-finishing-system"
   ],
   "trainingMethodIds": [
     "positional-sparring-leg-locks",
     "slow-rolls",
     "a-game-repetition-block"
   ],
-  "nextSkillIds": [
-    "cross-ashi-garami",
-    "outside-ashi-garami"
-  ],
+  "nextSkillIds": [],
   "searchBoost": 0.85,    "featureFlags": {
     "hasVideos": true,
     "hasChecklist": false,

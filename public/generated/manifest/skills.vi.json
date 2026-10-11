@@ -708,8 +708,8 @@
     "hasMicroDetails": false,
     "hasChecklist": false,
     "prerequisiteSkillIds": [
-      "clamp-Guard-system",
-      "triangle-armbar-dilemma"
+      "clamp-guard-control",
+      "triangle-system"
     ],
     "nextSkillIds": [],
     "relatedSkillIds": []
@@ -1445,7 +1445,7 @@
     "hasMicroDetails": false,
     "hasChecklist": false,
     "prerequisiteSkillIds": [
-      "bodylock-passing",
+      "bodylock-pass",
       "knee-cut-passing"
     ],
     "nextSkillIds": [],
@@ -1528,7 +1528,7 @@
     "hasChecklist": true,
     "prerequisiteSkillIds": [
       "half-guard-knee-shield",
-      "bodylock-passing"
+      "bodylock-pass"
     ],
     "nextSkillIds": [],
     "relatedSkillIds": []
@@ -1898,7 +1898,7 @@
     "hasMicroDetails": false,
     "hasChecklist": true,
     "prerequisiteSkillIds": [
-      "bodylock-passing"
+      "bodylock-pass"
     ],
     "nextSkillIds": [],
     "relatedSkillIds": []
@@ -2649,6 +2649,29 @@
     "relatedSkillIds": []
   },
   {
+    "id": "knee-bar",
+    "domain": "submission_systems",
+    "level": "intermediate",
+    "name": "Knee Bar",
+    "tags": [
+      "family:leg-lock",
+      "risk:high",
+      "meta:modern_common",
+      "modern-no-gi",
+      "group:leg_lock",
+      "knee-bar"
+    ],
+    "summary": "Knee Bar tấn công đầu gối bằng cách ưỡn khớp, lấy nếp hông làm điểm tựa và cổ chân làm đầu đòn bẩy. Đòn có từ các leg entanglement chính (Single Leg X, 50/50, Saddle), từ Turtle phía trên và từ Half Guard phía dưới theo thế ngược. Vì tấn công dây chằng chứ không phải cổ chân, đòn vẫn tới được người đang giấu gót.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "prerequisiteSkillIds": [
+      "leg-lock-safety-basics"
+    ],
+    "nextSkillIds": [],
+    "relatedSkillIds": []
+  },
+  {
     "id": "mounted-triangle-armbar",
     "domain": "submission_systems",
     "level": "intermediate",
@@ -2696,6 +2719,31 @@
     "prerequisiteSkillIds": [
       "fifty-fifty-to-heel-exposure",
       "heel-hook-safety"
+    ],
+    "nextSkillIds": [],
+    "relatedSkillIds": []
+  },
+  {
+    "id": "north-south-choke",
+    "domain": "submission_systems",
+    "level": "intermediate",
+    "name": "North-South Choke",
+    "tags": [
+      "family:submission",
+      "risk:high",
+      "meta:modern_common",
+      "modern-no-gi",
+      "tier:modern-expansion",
+      "north-south",
+      "arm-in-choke",
+      "choke"
+    ],
+    "summary": "North-South Choke biến thế ghim North-South thành đòn kết thúc. Không có chỗ nào là siết cơ: đòn được xây từ thế ghim, áp lực ngực khép khoảng trống, bắp tay và vai chất lực lên một bên cổ, còn vai của đối thủ khóa bên kia. Kết đòn bằng động tác bước hông về phía đầu họ, không phải bằng kéo tay. Đòn này chạm tới cả người phòng thủ hai bên cổ rất tốt, vì áp lực đến từ một mặt phẳng họ không đang chặn, và nó vừa là đòn vừa là kiểm soát: giữ nguyên hình dạng của đòn siết cũng là một cách ghim.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "prerequisiteSkillIds": [
+      "north-south-control"
     ],
     "nextSkillIds": [],
     "relatedSkillIds": []
@@ -2790,12 +2838,9 @@
     "prerequisiteSkillIds": [
       "back-control"
     ],
-    "nextSkillIds": [
-      "arm-triangle-mount"
-    ],
+    "nextSkillIds": [],
     "relatedSkillIds": [
       "back-control",
-      "seatbelt-control",
       "hand-fighting"
     ]
   },
@@ -3086,6 +3131,31 @@
     "relatedSkillIds": []
   },
   {
+    "id": "wrist-lock-system",
+    "domain": "submission_systems",
+    "level": "intermediate",
+    "name": "Wrist Lock System",
+    "tags": [
+      "family:submission",
+      "risk:high",
+      "meta:modern_common",
+      "modern-no-gi",
+      "group:wrist_ride",
+      "wrist-lock",
+      "joint-lock"
+    ],
+    "summary": "Wrist Lock System không phải một đòn duy nhất mà là cả họ lối vào dùng chung một grip: bàn tay là đòn bẩy, cẳng tay bị ghim là điểm tựa, và chuyển động thân người tạo lực. Giá trị nằm ở độ sẵn có. Wrist lock xuất hiện từ side control, mount, back control, trong triangle và cả từ thế dưới side control, nghĩa là đối thủ có giấu cổ và giấu khuỷu vẫn hở một khớp. Vì cổ tay gãy với rất ít cảnh báo, đây là hệ thống ưu tiên kiểm soát và phải vào lực thật chậm.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "prerequisiteSkillIds": [
+      "side-control-pin",
+      "back-control"
+    ],
+    "nextSkillIds": [],
+    "relatedSkillIds": []
+  },
+  {
     "id": "z-lock",
     "domain": "submission_systems",
     "level": "advanced",
@@ -3104,21 +3174,20 @@
     "hasMicroDetails": false,
     "hasChecklist": false,
     "prerequisiteSkillIds": [
-      "single-leg-x-Guard",
-      "saddle-system",
-      "heel-hook"
+      "single-leg-x-control",
+      "saddle-inside-sankaku-control",
+      "heel-hook-finishing-system"
     ],
-    "nextSkillIds": [
-      "cross-ashi-garami",
-      "outside-ashi-garami"
-    ],
+    "nextSkillIds": [],
     "relatedSkillIds": [
-      "heel-hook",
-      "ankle-lock",
+      "heel-hook-finishing-system",
+      "shotgun-ankle-lock",
       "knee-bar",
-      "saddle-system",
-      "single-leg-x-Guard",
-      "aoki-lock"
+      "saddle-inside-sankaku-control",
+      "single-leg-x-control",
+      "aoki-lock",
+      "backside-50-50-cross-ashi",
+      "k-guard-to-outside-ashi"
     ]
   },
   {
@@ -3378,6 +3447,31 @@
     "relatedSkillIds": []
   },
   {
+    "id": "russian-tie",
+    "domain": "wrestle_up_wrestling",
+    "level": "intermediate",
+    "name": "Russian Tie",
+    "tags": [
+      "family:wrestling",
+      "risk:low",
+      "meta:modern_common",
+      "modern-no-gi",
+      "group:wrestle_up",
+      "russian-tie",
+      "arm-control"
+    ],
+    "summary": "Russian Tie biến một cánh tay họ thành đòn bẩy của bạn. Vì hai tay bạn kiểm soát một tay họ, mọi đòn bạn dựng từ thế này đều bắt đầu với lợi thế hai đánh một trong phần giành thế nắm. Trong no-gi, đây là câu trả lời trực tiếp nhất cho người thắng hand fighting bằng sức, và nó dẫn tới single leg, body lock và ra sau lưng mà không cần đổi thế nắm.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "prerequisiteSkillIds": [
+      "stance-movement-basics",
+      "hand-fighting"
+    ],
+    "nextSkillIds": [],
+    "relatedSkillIds": []
+  },
+  {
     "id": "single-leg-bjj",
     "domain": "wrestle_up_wrestling",
     "level": "intermediate",
@@ -3432,6 +3526,28 @@
     "prerequisiteSkillIds": [
       "hand-fighting"
     ],
+    "nextSkillIds": [],
+    "relatedSkillIds": []
+  },
+  {
+    "id": "stance-movement-basics",
+    "domain": "wrestle_up_wrestling",
+    "level": "beginner",
+    "name": "Stance and Movement",
+    "tags": [
+      "family:wrestling",
+      "risk:low",
+      "meta:modern_common",
+      "modern-no-gi",
+      "group:wrestle_up",
+      "stance",
+      "footwork"
+    ],
+    "summary": "Stance and Movement bao gồm tư thế và bước chân giúp phần đứng hoạt động được. Đây không phải một đòn cụ thể mà là nền: cùng tư thế đó dùng cho double leg, foot sweep, body lock và thoát vật. Người mới thường thua phần đứng không phải vì thiếu đòn, mà vì đứng thẳng, hai chân vuông góc và hông cao, khiến mọi va chạm trở thành một cú ngã.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "prerequisiteSkillIds": [],
     "nextSkillIds": [],
     "relatedSkillIds": []
   },

@@ -1,0 +1,67 @@
+{
+  "id": "stance-movement-basics",
+  "locale": "fr",
+  "name": "Stance and Movement",
+  "description": "Stance and Movement est la couche de base du jeu debout en no-gi: comment vous vous tenez (garde athlétique décalée, genoux fléchis, mains hautes), comment vous vous déplacez (pas courts qui ne se croisent jamais) et comment vous changez de niveau (hanches basses, buste droit). Chaque takedown, chaque défense et chaque traction de garde part de cette base.",
+  "shortInstruction": "Garde athlétique décalée: genoux fléchis, hanches basses, mains hautes à hauteur de poitrine. Déplacez-vous par pas courts, pied avant d'abord en avançant, pied arrière d'abord en reculant, et gardez la tête à l'intérieur de leurs mains.",
+  "summary": "Stance and Movement couvre la posture et le jeu de jambes qui rendent le reste du jeu debout possible. Ce n'est pas une technique mais une base: la même garde alimente le double leg, le balayage, le body lock et la défense. Les débutants perdent le debout non pas faute de techniques, mais parce qu'ils restent droits, pieds parallèles et hanches hautes, ce qui transforme chaque échange en chute.",
+  "whyItWorks": [
+    "Une garde décalée avec les pieds décalés donne une base qui peut bouger dans toutes les directions sans transfert de poids que vous ne pouvez pas assumer",
+    "Fléchir les genoux et baisser les hanches garde la tête au-dessus de la base, ce qui empêche un snap down ou un body lock de casser votre posture",
+    "Des pas courts qui ne se croisent jamais gardent les hanches sous vous, donc vous changez de direction au deuxième pas au lieu du troisième",
+    "Garder les mains entre votre poitrine et la leur fait que le premier échange de saisie se joue à vos conditions, pas sur des bras tendus"
+  ],
+  "commonMistakes": [
+    "Rester droit avec les pieds parallèles, ce qui transforme chaque changement de niveau en chute et chaque snap down en catastrophe",
+    "Regarder leurs pieds au lieu de leur poitrine, ce qui fait perdre le premier pas de chaque échange",
+    "Chercher la première saisie avec les bras tendus, ce qui leur offre le deux contre un",
+    "Croiser les pieds en se déplaçant latéralement, ce qui fait réussir gratuitement un single leg ou un balayage"
+  ],
+  "coachingCues": [
+    "Genoux fléchis, hanches basses, mains hautes",
+    "Bougez les pieds, pas le buste",
+    "Pas courts, jamais croisés",
+    "Tête à l'intérieur de leurs mains"
+  ],
+  "safetySummary": [
+    "Travaillez les changements de garde à vitesse contrôlée sur un tapis dégagé: la blessure debout la plus fréquente chez les débutants est la chute en arrière non contrôlée au premier changement de niveau",
+    "Pratiquez la garde debout avec un partenaire qui contrôle aussi son poids, et arrêtez l'exercice avant que quiconque tombe sur un bras tendu",
+    "Les entrées de takedown construites sur cette garde suivent les consignes de sécurité takedown de l'app: pas de projection explosive à l'entraînement et jamais de chute sur la tête ou le cou"
+  ],
+  "keyCorrections": [
+    "S'ils vous snapent la tête vers le bas: gardez les hanches basses et avancez le pied, ne vous redressez pas en pliant la taille",
+    "S'ils obtiennent un body lock: baissez les hanches et mettez les mains à l'intérieur, puis cassez le verrou avant de vouloir bouger",
+    "Si votre jambe avant est attaquée: pied arrière d'abord pour sortir en cercle, puis replacez la garde"
+  ],
+  "systemLogic": {
+    "corePrinciple": "Stance and Movement: construisez la base (garde athlétique décalée, mains hautes), gardez les hanches basses à chaque pas, et déplacez-vous par pas courts jamais croisés pour pouvoir changer de direction à tout moment.",
+    "decisionTree": [
+      {
+        "condition": "Vous voulez réduire la distance",
+        "action": "petit pas du pied avant, hanches basses, mains à l'intérieur des leurs"
+      },
+      {
+        "condition": "Ils poussent vers vous",
+        "action": "pied arrière d'abord, sortez en cercle, et replacez la garde avant d'engager"
+      },
+      {
+        "condition": "Votre tête est snapée vers le bas",
+        "action": "baissez les hanches, avancez le pied, regardez haut, et reconstruisez les mains"
+      }
+    ],
+    "exitStrategies": [
+      "Si vous perdez la garde, relevez-vous hors de l'échange et replacez-vous plutôt que de combattre depuis une position droite et parallèle",
+      "Si un échange de saisie tourne mal, désengagez à distance et rentrez depuis une garde établie"
+    ]
+  },
+  "moneyDetails": [
+    "La garde est le signal: une position droite et parallèle invite le deux contre un et le snap down, une garde basse décalée supprime ces attaques",
+    "Hanches basses et tête au-dessus de la base est le détail qui sépare le debout d'un débutant de celui d'un lutteur",
+    "Des pas courts gardent les pieds sous les hanches, ce qui rend disponibles le deuxième et le troisième pas quand le premier est défendu"
+  ],
+  "fixItFast": [
+    "Si vous vous sentez tiré vers l'avant: baissez les hanches et avancez le pied, ne tirez pas le buste en arrière",
+    "Si vos pieds se croisent: relevez-vous, replacez la garde et recommencez l'échange",
+    "Si vos mains descendent sous la poitrine: replacez les mains avant de chercher une saisie"
+  ]
+}

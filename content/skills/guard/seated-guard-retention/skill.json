@@ -20,9 +20,9 @@
     { "id": "technical-stand-up", "type": "supporting" },
     { "id": "shin-to-shin-entry", "type": "chain" }
   ],
-  "relatedPositions": ["seated-guard", "open-Guard-bottom"],
-  "relatedConcepts": ["inside-position", "knee-line", "frames-pummeling", "hip-control"],
-  "archetypeIds": ["Guard-player", "passing-specialist"],
+  "relatedPositions": ["seated-guard"],
+  "relatedConcepts": ["inside-position", "knee-line", "frames", "pummeling"],
+  "archetypeIds": ["Guard-retention-specialist"],
   "trainingMethodIds": ["static-repetition", "progressive-resistance"],
   "bodyToBodyDetails": {
     "phases": [

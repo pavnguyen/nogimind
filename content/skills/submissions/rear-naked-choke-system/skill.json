@@ -20,29 +20,23 @@
   "techniqueFamily": "submissions",
   "relatedSkillIds": [
     "back-control",
-    "seatbelt-control",
     "hand-fighting"
   ],
   "relatedPositionIds": [
-    "back-Mount",
-    "rear-side-control",
-    "turtle"
+    "back-control-position",
+    "turtle-top"
   ],
   "relatedConceptIds": [
     "connection-before-control",
-    "inside-position",
-    "hierarchy-of-finishes"
+    "inside-position"
   ],
   "relatedArchetypeIds": [
-    "back-attack-specialist",
-    "pressure-top-player"
+    "back-control-finisher"
   ],
   "prerequisiteSkillIds": [
     "back-control"
   ],
-  "nextSkillIds": [
-    "arm-triangle-mount"
-  ],
+  "nextSkillIds": [],
   "sortOrder": 100,
   "searchBoost": 1.2,
   "version": 1,

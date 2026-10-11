@@ -1,0 +1,67 @@
+{
+  "id": "knee-bar",
+  "locale": "fr",
+  "name": "Knee Bar",
+  "description": "Le Knee Bar est une clé articulaire qui hyperextend le genou. Vous piégez la jambe de l'adversaire avec l'arrière du genou sur votre ligne de hanche, vous plaquez cette jambe contre votre poitrine, puis vous poussez les hanches en tirant la cheville vers vous. C'est l'équivalent du Armbar pour la jambe: même principe de levier, articulation différente.",
+  "shortInstruction": "Piégez la jambe pour que l'arrière du genou repose sur le pli de votre hanche, plaquez la jambe contre votre poitrine avec les deux mains sur la cheville, puis poussez les hanches et tirez la cheville vers vous.",
+  "summary": "Le Knee Bar attaque le genou par hyperextension, le pli de votre hanche servant de point d'appui et la cheville d'extrémité de levier. Il est disponible depuis les principaux enchevêtrements de jambes (Single Leg X, 50/50, Saddle), depuis la Turtle au-dessus, et en inversion depuis la demi-garde. Comme il charge les ligaments plutôt que la cheville, il atteint les adversaires occupés à cacher le talon.",
+  "whyItWorks": [
+    "L'arrière de leur genou sur le pli de votre hanche met toute la puissance de votre poussée de hanches dans l'articulation, bien plus qu'un tirage des bras",
+    "Plaquer leur jambe contre votre poitrine supprime l'espace dont ils ont besoin pour faire pivoter le genou, la sortie principale de la position",
+    "Contrôler la cheville comme extrémité du levier fait qu'un petit mouvement de hanche produit une charge de rotation importante au genou",
+    "La clé attaque une articulation que la défense du Heel Hook ne protège pas, donc un adversaire qui cache le talon reste exposé"
+  ],
+  "commonMistakes": [
+    "Laisser de l'espace entre leur jambe et votre poitrine, ce qui leur permet de faire pivoter la ligne de genou et de sortir",
+    "Finir avec les bras au lieu des hanches, ce qui annonce l'attaque tôt et casse rarement leur défense",
+    "Vouloir finir avec les hanches de face: la clé ne charge le genou que lorsque vos hanches sont sous ou au-delà de l'articulation",
+    "Tenir la position en extension maximale à l'entraînement au lieu d'appliquer lentement et de laisser le partenaire taper"
+  ],
+  "coachingCues": [
+    "Genou sur le pli de la hanche, cheville vers la poitrine",
+    "Plaquer d'abord, étendre ensuite",
+    "Les hanches finissent, les mains tiennent",
+    "S'ils font pivoter le genou, replaquez avant d'étendre"
+  ],
+  "safetySummary": [
+    "Le Knee Bar charge les ligaments du genou (ACL, PCL, MCL). Appliquez lentement et laissez le partenaire taper tôt, ne tenez jamais une position verrouillée pour tester sa résistance",
+    "Ne donnez pas d'à-coup et ne tordez pas le genou. Une charge de rotation rapide sur un genou tendu est le mécanisme des blessures graves",
+    "Apprenez d'abord la hiérarchie de sécurité (leg-lock-safety-basics) et n'utilisez les finitions qu'avec un partenaire qui connaît le protocole de tap"
+  ],
+  "keyCorrections": [
+    "S'ils font pivoter le genou vers l'extérieur: replaquez la jambe contre votre poitrine avant d'étendre à nouveau",
+    "S'ils cachent la cheville: passez à la prise de Heel Hook ou allez au Saddle pour un meilleur angle",
+    "S'ils s'assoient et cherchent votre tête: poussez d'abord les hanches pour garder les leurs à plat, puis reprenez la cheville"
+  ],
+  "systemLogic": {
+    "corePrinciple": "Knee Bar: piégez la jambe avec leur genou sur le pli de votre hanche, plaquez la jambe contre votre poitrine, contrôlez la cheville, puis poussez les hanches en tirant la cheville vers vous.",
+    "decisionTree": [
+      {
+        "condition": "Ils tendent la jambe pour relâcher la pression",
+        "action": "reculez et replaquez, un genou tendu est la position de finition la plus forte"
+      },
+      {
+        "condition": "Ils font pivoter le genou vers l'extérieur",
+        "action": "suivez la rotation et replaquez avant d'étendre à nouveau"
+      },
+      {
+        "condition": "Ils saisissent leur propre jambe pour défendre",
+        "action": "dégagez la prise à deux mains, puis finissez"
+      }
+    ],
+    "exitStrategies": [
+      "Si vous perdez la ligne de genou, récupérez l'enchevêtrement (Single Leg X ou 50/50) au lieu de poursuivre la finition",
+      "Si le round se termine jambe piégée, relâchez la prise avant de vous relever, ne laissez pas de pression sur le genou"
+    ]
+  },
+  "moneyDetails": [
+    "Le point d'appui est le pli de la hanche, pas les mains: plus leur genou est proche de votre ligne de hanche, moins vous avez besoin d'étendre",
+    "Plaquer avec les coudes serrés contre les côtes et leur jambe soudée à votre poitrine est ce qui fait disparaître la fenêtre de sortie",
+    "Finir depuis un léger angle opposé à leur jambe libre garde leur main éloignée de votre tête et rend l'extension plus difficile à défendre"
+  ],
+  "fixItFast": [
+    "S'ils font pivoter le genou vers l'extérieur: replaquez la jambe contre votre poitrine, puis étendez à nouveau",
+    "Si vous n'arrivez pas à ramener la cheville à votre poitrine: passez à la prise de Heel Hook ou au Saddle",
+    "S'ils se relèvent pour sortir: laissez-les, récupérez la garde et ré-entrez dans l'enchevêtrement plutôt que de vous accrocher à la jambe"
+  ]
+}
