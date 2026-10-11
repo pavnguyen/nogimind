@@ -86,8 +86,11 @@ export const getSkills = async (): Promise<SkillNode[]> => {
       failureResponses: [],
       drills: [],
       skillTests: [],
-      prerequisites: [],
-      relatedSkills: [],
+      // Learning-chain links, read from the generated manifest so list views
+      // can draw connections without fetching every skill detail.
+      prerequisites: entry.prerequisiteSkillIds ?? [],
+      relatedSkills: entry.relatedSkillIds ?? [],
+      nextSkillIds: entry.nextSkillIds ?? [],
       bodyMechanicsSystem: {
         overview: emptyText(),
         phases: [],

@@ -1,5 +1,5 @@
 import { memo } from 'react'
-import { Link } from 'react-router-dom'
+import { Link, useLocation } from 'react-router-dom'
 import { ArrowUpRight, GitFork, Network } from 'lucide-react'
 import { useTranslation } from 'react-i18next'
 import type { SkillNode } from '../../types/skill'
@@ -17,10 +17,14 @@ type SkillCardProps = {
 export const SkillCard = memo(({ skill }: SkillCardProps) => {
   const { t } = useTranslation()
   const language = useSettingsStore((state) => state.language)
+  const location = useLocation()
+  // Back from the skill returns to this list with its filters intact.
+  const listState = { from: `${location.pathname}${location.search}` }
 
   return (
     <Link 
       to={`/skills/${skill.id}`} 
+      state={listState}
       className="group block rounded-xl border border-warm-50/[0.07] bg-warm-950/55 p-4 transition-all duration-200 hover:-translate-y-0.5 hover:border-gold-300/25 hover:bg-warm-900/70 hover:shadow-[0_18px_45px_rgba(185,140,60,0.08)] sm:p-5"
     >
       <div className="min-w-0">

@@ -208,6 +208,7 @@ export const en = {
     prerequisites: 'Prerequisites',
     related: 'Related',
     relatedSkills: 'Related skills',
+    skillChain: 'Skill chain',
     backToSkills: 'Back to Skill Map',
     safetyNote: 'Tap early, train under qualified supervision, and protect knees, neck, and spine. Do not crank submissions in training.',
     notFoundTitle: 'Page not found',

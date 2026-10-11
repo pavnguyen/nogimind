@@ -396,6 +396,11 @@ export const SkillManifestItemSchema = z.object({
   hasChecklist: z.boolean(),
   updatedAt: z.string().optional(),
   sortOrder: z.number().optional(),
+  // Relation ids so list views can draw the learning chain without fetching
+  // every skill detail (prerequisite -> this skill -> next).
+  prerequisiteSkillIds: z.array(z.string()).default([]),
+  nextSkillIds: z.array(z.string()).default([]),
+  relatedSkillIds: z.array(z.string()).default([]),
 })
 export type SkillManifestItem = z.infer<typeof SkillManifestItemSchema>
 

@@ -17,6 +17,8 @@ vi.mock('../stores/useRecentlyViewedStore', () => ({
 
 vi.mock('../queries/skillQueries', () => ({
   useSkillQuery: () => ({ data: undefined, isLoading: false }),
+  // The learning chain resolves chip titles from the full skill list.
+  useSkillsQuery: () => ({ data: [], isLoading: false }),
 }))
 
 const detail = {

@@ -11,6 +11,10 @@ export interface ManifestEntry {
   hasChecklist: boolean
   updatedAt?: string
   sortOrder?: number
+  /** Relation ids for the learning chain (prerequisite -> this -> next). */
+  prerequisiteSkillIds?: string[]
+  nextSkillIds?: string[]
+  relatedSkillIds?: string[]
 }
 
 const manifestUrl = (locale: string): string =>

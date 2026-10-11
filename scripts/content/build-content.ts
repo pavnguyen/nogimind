@@ -56,6 +56,9 @@ interface SkillMetaJson {
   tags?: string[]
   sortOrder?: number
   relatedSkills?: { id: string; type: string }[]
+  relatedSkillIds?: string[]
+  prerequisiteSkillIds?: string[]
+  nextSkillIds?: string[]
   relatedPositions?: string[]
   relatedConcepts?: string[]
   archetypeIds?: string[]
@@ -111,6 +114,9 @@ interface ManifestEntry {
   hasChecklist: boolean
   updatedAt?: string
   sortOrder?: number
+  prerequisiteSkillIds: string[]
+  nextSkillIds: string[]
+  relatedSkillIds: string[]
 }
 
 const SUSPICIOUS_MARKERS = [
@@ -371,6 +377,10 @@ function buildManifest(locale: Locale): ManifestEntry[] {
       hasChecklist: meta.featureFlags?.hasChecklist ?? false,
       updatedAt: undefined,
       sortOrder: meta.sortOrder,
+      // Relation ids for the learning chain shown in list views.
+      prerequisiteSkillIds: meta.prerequisiteSkillIds ?? [],
+      nextSkillIds: meta.nextSkillIds ?? [],
+      relatedSkillIds: meta.relatedSkillIds ?? [],
     }
 
     // Validate the output manifest entry against the schema

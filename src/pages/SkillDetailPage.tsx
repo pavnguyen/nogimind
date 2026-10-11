@@ -5,6 +5,7 @@ import { NotFound } from '../components/common/NotFound'
 import { PageShell } from '../components/common/PageShell'
 import { Skeleton, SkeletonCard } from '../components/common/Skeleton'
 import { SkillDetailTabs, TabPanel, TabIcons, type TabId } from '../components/skill/SkillDetailTabs'
+import { SkillChain } from '../components/skill/SkillChain'
 import { SkillHeader } from '../components/skill/SkillHeader'
 import { useSkillQuery } from '../queries/skillQueries'
 import { useContentSkillDetailQuery, useSkillVideosQuery } from '../queries/contentQueries'
@@ -252,6 +253,30 @@ export default function SkillDetailPage() {
               window.print()
             }}
           />
+
+          {/* Learning chain: prerequisites -> this skill -> next, plus related.
+              Relation ids come from the pipeline detail when present, and fall
+              back to the manifest-derived node. */}
+          <div className="mt-4">
+            <SkillChain
+              currentId={displaySkill.id}
+              prerequisites={
+                (pipelineDetail?.prerequisiteSkillIds?.length
+                  ? pipelineDetail.prerequisiteSkillIds
+                  : displaySkill.prerequisites) ?? []
+              }
+              nextSkillIds={
+                (pipelineDetail?.nextSkillIds?.length
+                  ? pipelineDetail.nextSkillIds
+                  : displaySkill.nextSkillIds) ?? []
+              }
+              relatedSkillIds={
+                (pipelineDetail?.relatedSkillIds?.length
+                  ? pipelineDetail.relatedSkillIds
+                  : displaySkill.relatedSkills) ?? []
+              }
+            />
+          </div>
         </div>
 
         <div className="mt-6">

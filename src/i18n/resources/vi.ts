@@ -39,6 +39,7 @@ export const vi = {
     prerequisites: 'Kỹ năng cần biết trước',
     related: 'Liên quan',
     relatedSkills: 'Kỹ năng liên quan',
+    skillChain: 'Chuỗi kỹ năng',
     backToSkills: 'Quay lại bản đồ kỹ năng',
     safetyNote: 'Tap sớm. Tập dưới sự hướng dẫn của người có chuyên môn, và luôn bảo vệ đầu gối, cổ cùng cột sống. Không giật hoặc bẻ khóa khi tập.',
     notFoundTitle: 'Không tìm thấy trang',

@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom'
+import { Link, useLocation } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import { Printer } from 'lucide-react'
 import type { SkillNode } from '../../types/skill'
@@ -36,14 +36,18 @@ const riskBadge: Record<string, { key: string; cls: string }> = {
 
 export const SkillHeader = ({ skill, lang, onPrintCard }: Props) => {
   const { t } = useTranslation()
+  const location = useLocation()
+  // List pages pass the exact list URL (tab, domain, filters) in router state,
+  // so the back control returns the reader to the context they came from.
+  const backTo = (location.state as { from?: string } | null)?.from ?? '/skills'
   const title = skill.title[lang]
   const risk = riskBadge[skill.riskLevel ?? '']
 
   return (
     <header className="space-y-3">
-      {/* Back link */}
+      {/* Back link, returns to the originating list when known */}
       <Link
-        to="/skills"
+        to={backTo}
         className="inline-flex min-h-8 items-center gap-1.5 text-xs text-warm-500 transition-colors hover:text-warm-300"
       >
         <svg className="h-3.5 w-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>

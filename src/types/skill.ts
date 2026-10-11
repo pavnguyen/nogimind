@@ -743,6 +743,8 @@ export type SkillNode = {
   skillTests: SkillTest[]
   prerequisites: string[]
   relatedSkills: string[]
+  /** Forward links of the learning chain (prerequisite -> this -> next). */
+  nextSkillIds?: string[]
   bodyMechanicsSystem: BodyMechanicsSystem
   microDetailSystem?: MicroDetailSystem
   qualityChecklist?: TechniqueQualityChecklist

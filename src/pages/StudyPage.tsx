@@ -1,5 +1,5 @@
 import { useMemo, useState } from 'react'
-import { Link, useNavigate, useSearchParams } from 'react-router-dom'
+import { Link, useLocation, useNavigate, useSearchParams } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import { StaggerContainer, StaggerItem } from '../components/common/StaggerContainer'
 import {
@@ -12,6 +12,7 @@ import {
 import { Badge } from '../components/common/Badge'
 import { EmptyState } from '../components/common/EmptyState'
 import { PageShell } from '../components/common/PageShell'
+import { SkillChain } from '../components/skill/SkillChain'
 import { useSkillsQuery } from '../queries/skillQueries'
 import { useSettingsStore } from '../stores/useSettingsStore'
 import { useRecentlyViewedStore } from '../stores/useRecentlyViewedStore'
@@ -64,10 +65,28 @@ const toneDot: Record<DomainTone, string> = {
   warm: 'bg-warm-400',
 }
 
+/** The intro header is a section label, not a skill card: tint it with the
+    domain tone so it reads as separate from the neutral skill rows below. */
+const toneSurface: Record<DomainTone, string> = {
+  gold: 'border-gold-400/25 bg-gold-400/[0.07]',
+  jade: 'border-jade-400/25 bg-jade-400/[0.07]',
+  sea: 'border-sea-400/25 bg-sea-400/[0.07]',
+  steel: 'border-steel-400/25 bg-steel-400/[0.07]',
+  moss: 'border-moss-400/25 bg-moss-400/[0.07]',
+  copper: 'border-copper-400/25 bg-copper-400/[0.07]',
+  warm: 'border-warm-400/25 bg-warm-400/[0.07]',
+}
+
 export default function StudyPage() {
   const { t } = useTranslation()
   const lang = useSettingsStore((state) => state.language)
   const navigate = useNavigate()
+  const location = useLocation()
+  // Back from a skill must return to this exact domain filter.
+  const listState = useMemo(
+    () => ({ from: `${location.pathname}${location.search}` }),
+    [location.pathname, location.search],
+  )
   const [searchParams, setSearchParams] = useSearchParams()
   const skillsQuery = useSkillsQuery()
   const skills = useMemo(() => skillsQuery.data ?? [], [skillsQuery.data])
@@ -123,23 +142,27 @@ export default function StudyPage() {
       {/* Domain selector: sticky bar below xl (mobile, tablet, small laptops),
           sticky left sidebar from xl where there is room for a second column. */}
       <aside className="sticky top-20 z-20 -mx-4 bg-warm-950/80 px-4 py-3 backdrop-blur-xl xl:mx-0 xl:self-start xl:bg-transparent xl:p-0 xl:backdrop-blur-none">
-        {/* Horizontal scroll below xl, vertical list in the xl sidebar */}
-        <div className="flex gap-2 overflow-x-auto pb-2 scrollbar-hide xl:flex-col xl:overflow-visible xl:pb-0">
-          {studyDomains.map((domain) => {
-            const isActive = active === domain.id
-            return (
-              <button
-                key={domain.id}
-                type="button"
-                onClick={() => setDomain(domain.id)}
-                aria-pressed={isActive}
-                className={cn(
-                  'flex shrink-0 items-center gap-2.5 rounded-xl border px-3.5 py-2.5 text-left text-sm font-medium transition-all duration-200 xl:w-full',
+        {/* Horizontal scroll below xl, vertical list in the xl sidebar.
+            The right-edge fade (matching the sticky bar's own background) and
+            the trailing padding tell users the row continues, and proximity
+            snapping keeps a tapped chip aligned with the page inset. */}
+        <div className="relative">
+          <div className="flex snap-x snap-proximity gap-2 overflow-x-auto pb-2 pr-10 scrollbar-hide xl:flex-col xl:overflow-visible xl:pb-0 xl:pr-0">
+            {studyDomains.map((domain) => {
+              const isActive = active === domain.id
+              return (
+                <button
+                  key={domain.id}
+                  type="button"
+                  onClick={() => setDomain(domain.id)}
+                  aria-pressed={isActive}
+                  className={cn(
+                    'flex shrink-0 snap-start items-center gap-2.5 rounded-xl border px-3.5 py-2.5 text-left text-sm font-medium transition-all duration-200 xl:w-full',
                   isActive
                     ? toneActive[domain.tone]
                     : 'border-warm-50/[0.06] bg-warm-900/40 text-warm-400 hover:border-warm-50/10 hover:bg-warm-50/[0.04] hover:text-warm-200',
-                )}
-              >
+                  )}
+                >
                 <span
                   className={cn(
                     'h-2 w-2 shrink-0 rounded-full transition-colors',
@@ -156,25 +179,38 @@ export default function StudyPage() {
                 >
                   {skillsByDomain[domain.id]?.length ?? 0}
                 </span>
-              </button>
-            )
-          })}
+                </button>
+              )
+            })}
+          </div>
+          {/* Right-edge fade: signals more domains to swipe, only while the
+              row can still scroll right (hidden at xl where it is a vertical
+              list). The gradient sits on the sticky bar's own background. */}
+          <div
+            aria-hidden="true"
+            className="pointer-events-none absolute inset-y-0 right-0 w-12 bg-gradient-to-l from-warm-950/80 to-transparent xl:hidden"
+          />
         </div>
       </aside>
 
       {/* Main Content Area */}
       <main className="min-w-0 space-y-6">
         {/* Header */}
-        <header className="relative overflow-hidden rounded-3xl border border-warm-50/[0.06] bg-warm-900/20 p-6 lg:p-8">
+        <header
+          className={cn(
+            'relative overflow-hidden rounded-3xl border p-6 transition-colors duration-300 lg:p-8',
+            toneSurface[domainTone],
+          )}
+        >
           <div
             className={cn(
               'absolute -right-8 -top-8 h-32 w-32 rounded-full blur-3xl',
-              domainTone === 'gold' && 'bg-gold-400/5',
-              domainTone === 'jade' && 'bg-jade-400/5',
-              domainTone === 'sea' && 'bg-sea-400/5',
-              domainTone === 'steel' && 'bg-steel-400/5',
-              domainTone === 'moss' && 'bg-moss-400/5',
-              domainTone === 'copper' && 'bg-copper-400/5',
+              domainTone === 'gold' && 'bg-gold-400/15',
+              domainTone === 'jade' && 'bg-jade-400/15',
+              domainTone === 'sea' && 'bg-sea-400/15',
+              domainTone === 'steel' && 'bg-steel-400/15',
+              domainTone === 'moss' && 'bg-moss-400/15',
+              domainTone === 'copper' && 'bg-copper-400/15',
             )}
           />
           <div className="relative z-10">
@@ -215,7 +251,7 @@ export default function StudyPage() {
                       className="flex cursor-pointer flex-col gap-4 p-5 transition-colors md:flex-row md:items-center"
                       onClick={() => {
                         recordView(skill.id)
-                        navigate(`/skills/${skill.id}`)
+                        navigate(`/skills/${skill.id}`, { state: listState })
                       }}
                     >
                       <div className="min-w-0 flex-1">
@@ -253,11 +289,21 @@ export default function StudyPage() {
                         {summary && (
                           <p className="mt-1.5 line-clamp-2 text-sm leading-6 text-warm-400">{summary}</p>
                         )}
+
+                        {/* Learning chain: the closest prerequisite and the next
+                            steps, tappable without leaving the list context. */}
+                        <SkillChain
+                          compact
+                          currentId={skill.id}
+                          prerequisites={skill.prerequisites}
+                          nextSkillIds={skill.nextSkillIds}
+                        />
                       </div>
 
                       {/* Open the skill */}
                       <Link
                         to={`/skills/${skill.id}`}
+                        state={listState}
                         className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-warm-50/[0.03] text-warm-500 transition-all hover:bg-jade-400/10 hover:text-jade"
                         onClick={(e) => {
                           e.stopPropagation()

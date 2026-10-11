@@ -267,6 +267,7 @@ export const fr = {
     prerequisites: 'Prérequis',
     related: 'Liés',
     relatedSkills: 'Compétences liées',
+    skillChain: 'Chaîne de compétences',
     backToSkills: 'Retour à la carte',
     safetyNote: 'Tapez tôt, entraînez-vous sous supervision qualifiée, et protégez genoux, cou et colonne. Ne forcez pas les soumissions à l’entraînement.',
     notFoundTitle: 'Page introuvable',
