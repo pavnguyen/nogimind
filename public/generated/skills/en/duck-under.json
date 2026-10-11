@@ -1,0 +1,146 @@
+{
+  "id": "duck-under",
+  "domain": "wrestle_up_wrestling",
+  "level": "intermediate",
+  "status": "draft",
+  "name": "Duck Under",
+  "aliases": [
+    "duckunder",
+    "duck under takedown",
+    "duck under to back"
+  ],
+  "tags": [
+    "family:wrestling",
+    "risk:medium",
+    "meta:modern_common",
+    "modern-no-gi",
+    "group:wrestle_up",
+    "duck-under",
+    "takedown",
+    "back-take"
+  ],
+  "keywords": [
+    "duck under",
+    "duckunder",
+    "level change",
+    "standing back take",
+    "wrestling for BJJ"
+  ],
+  "relatedSkills": [
+    {
+      "id": "russian-tie",
+      "type": "chain"
+    },
+    {
+      "id": "arm-drag-system",
+      "type": "alternative"
+    },
+    {
+      "id": "fhl-go-behind",
+      "type": "chain"
+    },
+    {
+      "id": "hand-fighting",
+      "type": "supporting"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [
+    "inside-position",
+    "head-position",
+    "base-balance",
+    "angle-creation"
+  ],
+  "relatedConceptIds": [],
+  "archetypeIds": [
+    "wrestle-up-player"
+  ],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "stance-movement-basics",
+    "hand-fighting"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [
+    "If they square up and face you again: your wrist control was too loose, re-establish the tie before you duck",
+    "If they whizzer over your shoulder: keep your chest on their back and step your hips behind theirs instead of fighting the whizzer with your arms",
+    "If they sprawl or drop their weight: come up to a body lock or switch to a single leg, do not stay on your knees underneath them"
+  ],
+  "version": 1,
+  "updatedAt": "2026-10-11T00:00:00.000Z",
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "en",
+  "description": "The Duck Under is a standing back take built on a level change. From a wrist tie you drop your hips, pass your head under the opponent's arm while keeping hold of that wrist, and circle behind them into a body lock or seatbelt. It beats the opponent with positioning rather than with strength, which is why it works against a heavier partner.",
+  "shortInstruction": "Control the wrist, bend your knees to drop your level, pass your head under their arm with your elbow tight to your ribs, step through and circle behind them, then connect chest to back before you settle your hips.",
+  "summary": "The Duck Under is the cleanest way to arrive behind a standing opponent without shooting at their legs. The whole technique is one exchange: you trade the space in front of them for their back. The level change does the work, the wrist control steers them off line, and the circle finishes it. It pairs directly with the Russian Tie, because the two-on-one already gives you the wrist and the elbow position the duck under needs, and it is the right answer when the opponent is defending their legs well and a shot is not available.",
+  "whyItWorks": [
+    "Dropping your level with the knees instead of the waist moves your head under their arm without putting it in front of their chest",
+    "Keeping the wrist tied while you pass under means they cannot turn with you, they have to chase their own hand",
+    "Circling behind on the side of the controlled arm takes the angle away from their whizzer and their counter shot",
+    "Chest to back before the hips settle is what converts the pass into control, which is why the finish is not a grab but a connection"
+  ],
+  "commonMistakes": [
+    "Bending at the waist and dropping the head, which puts your neck in front of their chest and invites a front headlock",
+    "Ducking under without controlling the wrist, which lets them turn with you and re-square up",
+    "Standing back up as soon as you are under the arm, which raises your hips and gives them time to whizzer or sprawl",
+    "Circling with the feet only and never stepping through, which keeps your chest behind and leaves the back take unsealed"
+  ],
+  "coachingCues": [
+    "Knees bend, waist stays tall",
+    "Head to their shoulder, never to their chest",
+    "Wrist stays yours through the whole pass",
+    "Chest first, hips second"
+  ],
+  "safetySummary": [
+    "This is a standing exchange, so drill it at controlled speed with a partner who knows the movement. Two people changing levels into each other is the common way to get a knee or a head clash",
+    "Do not drive your partner's head down or sit on their neck, and never duck under a partner who is not expecting the level change",
+    "Standing back takes load the neck when the defender panics. If your partner's head is trapped, stop and reset instead of finishing the turn"
+  ],
+  "systemLogic": {
+    "corePrinciple": "Duck Under: tie the wrist, drop your level with the knees, pass your head under their arm, step through and circle behind, then connect chest to back before the hips settle.",
+    "decisionTree": [
+      {
+        "condition": "They keep their arm bent and their elbow tight to their body",
+        "action": "keep circling the wrist and wait for the step, the arm opens when they move"
+      },
+      {
+        "condition": "They turn with you as you pass under",
+        "action": "tighten the wrist and keep circling, do not release the tie to chase the back"
+      },
+      {
+        "condition": "They whizzer over your shoulder",
+        "action": "keep chest contact and walk your hips behind theirs instead of arm fighting"
+      },
+      {
+        "condition": "They sprawl or drop their hips on you",
+        "action": "come up into the body lock or switch to the single leg instead of staying under them"
+      }
+    ],
+    "exitStrategies": [
+      "If the back is not available, keep the wrist tie and re-enter from a standing position rather than hanging on the side",
+      "If you end up underneath after a failed duck under, come up to your feet or sit to guard instead of fighting for the back from a bad angle"
+    ]
+  },
+  "moneyDetails": [
+    "The level change has to happen before the head moves, once the head is under the arm the hips follow on their own",
+    "The head stays connected to their shoulder or bicep so they cannot turn away without pushing you off balance first",
+    "The step through with the lead foot is what creates the angle, circling on the spot leaves you flat behind them and easy to whizzer"
+  ],
+  "fixItFast": [
+    "If they re-square, re-tie the wrist and duck again instead of forcing the turn",
+    "If you feel their whizzer land, drop your hips and step behind them rather than lifting your chest",
+    "If you lose the back entirely, do not stay in the pocket, reset the tie and start the exchange again"
+  ]
+}

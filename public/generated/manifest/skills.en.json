@@ -668,7 +668,7 @@
   {
     "id": "clamp-guard-control",
     "domain": "guard_offense",
-    "level": "intermediate",
+    "level": "advanced",
     "name": "Clamp Guard Control",
     "tags": [
       "shoulder-line",
@@ -1897,9 +1897,7 @@
     "hasVideos": true,
     "hasMicroDetails": false,
     "hasChecklist": true,
-    "prerequisiteSkillIds": [
-      "bodylock-pass"
-    ],
+    "prerequisiteSkillIds": [],
     "nextSkillIds": [],
     "relatedSkillIds": []
   },
@@ -2585,7 +2583,7 @@
   {
     "id": "heel-hook-safety",
     "domain": "submission_systems",
-    "level": "advanced",
+    "level": "intermediate",
     "name": "Heel Hook Safety",
     "tags": [
       "family:leg-lock",
@@ -2674,7 +2672,7 @@
   {
     "id": "mounted-triangle-armbar",
     "domain": "submission_systems",
-    "level": "intermediate",
+    "level": "advanced",
     "name": "Mounted Triangle / Armbar",
     "tags": [
       "triangle",
@@ -2797,7 +2795,7 @@
   {
     "id": "pistol-grip-armbar",
     "domain": "submission_systems",
-    "level": "intermediate",
+    "level": "advanced",
     "name": "Pistol Grip Armbar",
     "tags": [
       "armbar",
@@ -3110,7 +3108,7 @@
   {
     "id": "von-flue-choke",
     "domain": "submission_systems",
-    "level": "intermediate",
+    "level": "advanced",
     "name": "Von Flue Choke",
     "tags": [
       "von-flue",
@@ -3350,6 +3348,32 @@
     "hasVideos": true,
     "hasMicroDetails": false,
     "hasChecklist": true,
+    "prerequisiteSkillIds": [
+      "stance-movement-basics",
+      "hand-fighting"
+    ],
+    "nextSkillIds": [],
+    "relatedSkillIds": []
+  },
+  {
+    "id": "duck-under",
+    "domain": "wrestle_up_wrestling",
+    "level": "intermediate",
+    "name": "Duck Under",
+    "tags": [
+      "family:wrestling",
+      "risk:medium",
+      "meta:modern_common",
+      "modern-no-gi",
+      "group:wrestle_up",
+      "duck-under",
+      "takedown",
+      "back-take"
+    ],
+    "summary": "The Duck Under is the cleanest way to arrive behind a standing opponent without shooting at their legs. The whole technique is one exchange: you trade the space in front of them for their back. The level change does the work, the wrist control steers them off line, and the circle finishes it. It pairs directly with the Russian Tie, because the two-on-one already gives you the wrist and the elbow position the duck under needs, and it is the right answer when the opponent is defending their legs well and a shot is not available.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false,
     "prerequisiteSkillIds": [
       "stance-movement-basics",
       "hand-fighting"

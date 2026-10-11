@@ -47,7 +47,7 @@ export const archetypes: GrapplingArchetype[] = [
     ),
     coreConceptIds: ['wrestle-up-philosophy', 'inside-position', 'head-position', 'base-balance', 'failure-response'],
     coreSkillIds: ['seated-guard-retention', 'shin-to-shin-entry', 'half-guard-wrestle-up', 'single-leg-bjj', 'bodylock-pass', 'back-control'],
-    supportSkillIds: ['technical-stand-up', 'butterfly-guard-off-balance', 'hand-fighting', 'mat-return-basics', 'scramble-control', 'bjj-foot-sweeps', 'double-leg-bjj', 'russian-tie'],
+    supportSkillIds: ['technical-stand-up', 'butterfly-guard-off-balance', 'hand-fighting', 'mat-return-basics', 'scramble-control', 'bjj-foot-sweeps', 'double-leg-bjj', 'russian-tie', 'duck-under'],
     requiredDefensiveSkillIds: ['front-headlock-defense', 'sprawl-go-behind', 'side-control-escape', 'back-escape'],
     commonWeaknesses: la(
       ['Bị Guillotine vì cúi đầu thấp.', 'Lên gối nhưng không khóa được đường hông.', 'Vẫn tấn công Single Leg khi đã mất kết nối khuỷu-gối.', 'Scramble quá lâu dù đã lên được thế trên.'],

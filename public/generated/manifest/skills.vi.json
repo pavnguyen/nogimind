@@ -668,7 +668,7 @@
   {
     "id": "clamp-guard-control",
     "domain": "guard_offense",
-    "level": "intermediate",
+    "level": "advanced",
     "name": "Clamp Guard Control",
     "tags": [
       "shoulder-line",
@@ -1897,9 +1897,7 @@
     "hasVideos": true,
     "hasMicroDetails": false,
     "hasChecklist": true,
-    "prerequisiteSkillIds": [
-      "bodylock-pass"
-    ],
+    "prerequisiteSkillIds": [],
     "nextSkillIds": [],
     "relatedSkillIds": []
   },
@@ -2585,7 +2583,7 @@
   {
     "id": "heel-hook-safety",
     "domain": "submission_systems",
-    "level": "advanced",
+    "level": "intermediate",
     "name": "Heel Hook An toàn",
     "tags": [
       "family:leg-lock",
@@ -2674,7 +2672,7 @@
   {
     "id": "mounted-triangle-armbar",
     "domain": "submission_systems",
-    "level": "intermediate",
+    "level": "advanced",
     "name": "Triangle / Armbar Từ Mount",
     "tags": [
       "triangle",
@@ -2797,7 +2795,7 @@
   {
     "id": "pistol-grip-armbar",
     "domain": "submission_systems",
-    "level": "intermediate",
+    "level": "advanced",
     "name": "Pistol Grip Armbar",
     "tags": [
       "armbar",
@@ -3110,7 +3108,7 @@
   {
     "id": "von-flue-choke",
     "domain": "submission_systems",
-    "level": "intermediate",
+    "level": "advanced",
     "name": "Von Flue Choke",
     "tags": [
       "von-flue",
@@ -3350,6 +3348,32 @@
     "hasVideos": true,
     "hasMicroDetails": false,
     "hasChecklist": true,
+    "prerequisiteSkillIds": [
+      "stance-movement-basics",
+      "hand-fighting"
+    ],
+    "nextSkillIds": [],
+    "relatedSkillIds": []
+  },
+  {
+    "id": "duck-under",
+    "domain": "wrestle_up_wrestling",
+    "level": "intermediate",
+    "name": "Duck Under",
+    "tags": [
+      "family:wrestling",
+      "risk:medium",
+      "meta:modern_common",
+      "modern-no-gi",
+      "group:wrestle_up",
+      "duck-under",
+      "takedown",
+      "back-take"
+    ],
+    "summary": "Duck Under là cách sạch nhất để ra sau lưng một đối thủ đang đứng mà không cần lao vào chân họ. Cả đòn chỉ là một lần trao đổi: bạn đổi khoảng trống phía trước lấy lưng của họ. Level change làm phần lớn công việc, kiểm soát cổ tay lái họ lệch đường, còn cú vòng chân kết thúc. Nó nối trực tiếp với Russian Tie, vì thế hai-tay-một vốn đã cho bạn cổ tay và vị trí khuỷu mà duck under cần, và đây là câu trả lời đúng khi đối thủ phòng chân tốt và không còn cửa để lao vào.",
+    "hasVideos": true,
+    "hasMicroDetails": false,
+    "hasChecklist": false,
     "prerequisiteSkillIds": [
       "stance-movement-basics",
       "hand-fighting"

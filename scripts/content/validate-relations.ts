@@ -30,7 +30,7 @@ const KEBAB_CASE = /^[a-z0-9]+(-[a-z0-9]+)*$/
 type Severity = 'error' | 'warning' | 'info'
 
 /** Reference targets a skill or an archetype can point at. */
-type Category = 'skill' | 'position' | 'concept' | 'archetype'
+type Category = 'skill' | 'position' | 'concept' | 'archetype' | 'safetyNote'
 
 interface Issue {
   severity: Severity
@@ -56,6 +56,7 @@ const emptyCounts = (): Record<Category, RefCount> => ({
   position: { checked: 0, dangling: 0 },
   concept: { checked: 0, dangling: 0 },
   archetype: { checked: 0, dangling: 0 },
+  safetyNote: { checked: 0, dangling: 0 },
 })
 
 // ── Loading ─────────────────────────────────────────────────────────────────
@@ -127,52 +128,256 @@ function loadConceptIds(): Set<string> {
   return ids
 }
 
-interface ArchetypeRef {
+interface SourceRef {
   source: string
   field: string
   id: string
   target: Category
 }
 
-interface ArchetypeData {
-  ids: Set<string>
-  refs: ArchetypeRef[]
+/** A relation value that is built at runtime, so it cannot be checked statically. */
+interface DynamicRef {
+  source: string
+  field: string
+  expression: string
 }
 
-/** Pull a single-line `field: ['a', 'b']` array out of an archetype block. */
-function extractStringArray(block: string, field: string): string[] {
-  const match = block.match(new RegExp(`${field}:\\s*\\[([^\\]]*)\\]`))
-  if (!match) return []
-  return [...match[1].matchAll(/'([^']+)'/g)].map(m => m[1])
+/** Every labelled relation field used by the `src/data` reference data. */
+const SOURCE_DATA_FIELDS: { target: Category; fields: string[] }[] = [
+  {
+    target: 'skill',
+    fields: [
+      'relatedSkillIds',
+      'bestForSkillIds',
+      'coreSkillIds',
+      'supportSkillIds',
+      'requiredDefensiveSkillIds',
+      'skillId',
+      'nextSkillId',
+      'toSkillId',
+      'toSubmissionId',
+    ],
+  },
+  { target: 'concept', fields: ['relatedConceptIds', 'bestForConceptIds', 'coreConceptIds'] },
+  { target: 'position', fields: ['relatedPositionIds', 'fromPositionId', 'nextPositionId'] },
+  { target: 'safetyNote', fields: ['toSafetyNoteId'] },
+]
+
+/**
+ * Helpers whose relation ids are positional rather than labelled, so they need
+ * the call signature to be read: `item(id, category, title, short, tags,
+ * relatedConceptIds, relatedSkillIds)` and `term(id, label, vi, en, fr,
+ * examples, relatedSkillIds)` in src/data.
+ */
+const SOURCE_DATA_CALLS: { helper: string; args: { index: number; target: Category }[] }[] = [
+  { helper: 'item', args: [{ index: 5, target: 'concept' }, { index: 6, target: 'skill' }] },
+  { helper: 'term', args: [{ index: 6, target: 'skill' }] },
+]
+
+function srcDataRoot(): string {
+  return resolve(__dirname, '../../src/data')
+}
+
+function listFiles(dir: string, ext: string): string[] {
+  if (!existsSync(dir)) return []
+  return readdirSync(dir, { withFileTypes: true })
+    .filter(entry => entry.isFile() && entry.name.endsWith(ext))
+    .map(entry => entry.name)
+    .sort()
+}
+
+/** Blank out comments while keeping every byte offset, so line numbers stay true. */
+function stripCommentsPreservingLines(source: string): string {
+  return source
+    .replace(/\/\*[\s\S]*?\*\//g, m => m.replace(/[^\n]/g, ' '))
+    .replace(/\/\/[^\n]*/g, m => ' '.repeat(m.length))
+}
+
+function extractQuoted(value: string): string[] {
+  return [...value.matchAll(/'([^']*)'|"([^"]*)"/g)].map(m => m[1] ?? m[2]).filter(Boolean)
 }
 
 /**
- * Archetypes live in TypeScript, so they are read with a light regex over the
- * `archetype({ ... })` blocks. The summary prints how many refs were seen, so a
- * silent parse failure shows up as a zero instead of as a false pass.
+ * Raw text of the value that starts at `start`: an array or object literal, a
+ * quoted or template string, or an identifier path. Bracket scanning respects
+ * quotes so a comma inside a string does not cut the value short.
  */
-function loadArchetypes(): ArchetypeData {
-  const ids = new Set<string>()
-  const refs: ArchetypeRef[] = []
-  if (!existsSync(ARCHETYPES_FILE)) return { ids, refs }
+function readValueExpression(source: string, start: number): string {
+  let i = start
+  while (i < source.length && /\s/.test(source[i])) i += 1
+  const first = source[i]
+  if (first === '[' || first === '{') {
+    const opening = first
+    const closing = opening === '[' ? ']' : '}'
+    let depth = 0
+    let quote: string | null = null
+    while (i < source.length) {
+      const ch = source[i]
+      if (quote) {
+        if (ch === quote && source[i - 1] !== '\\') quote = null
+      } else if (ch === "'" || ch === '"' || ch === '`') {
+        quote = ch
+      } else if (ch === opening) {
+        depth += 1
+      } else if (ch === closing) {
+        depth -= 1
+        if (depth === 0) return source.slice(start, i + 1).trim()
+      }
+      i += 1
+    }
+    return source.slice(start, i).trim()
+  }
+  if (first === "'" || first === '"' || first === '`') {
+    const quote = first
+    i += 1
+    while (i < source.length && !(source[i] === quote && source[i - 1] !== '\\')) i += 1
+    return source.slice(start, i + 1).trim()
+  }
+  const rest = source.slice(i)
+  const identifier = rest.match(/^[A-Za-z_$][\w$]*(?:[.?!]*\[[^\]]*\]|[.?!][\w$]+)*/)
+  return identifier ? identifier[0] : ''
+}
 
-  const source = readFileSync(ARCHETYPES_FILE, 'utf-8')
-  const blocks = source.split('archetype({').slice(1)
-  for (const block of blocks) {
+/** `skillId: string`, `relatedSkillIds: string[]`, `Partial<...>`: a type, not data. */
+function isTypeExpression(value: string): boolean {
+  if (/^(string|number|boolean|any|unknown|never|null|undefined)(\[\])?$/.test(value)) return true
+  return /^[A-Z][A-Za-z0-9_$]*(<|\[|$)/.test(value)
+}
+
+/** Split a call body on top-level commas, respecting strings and brackets. */
+function splitTopLevelArgs(body: string): string[] {
+  const args: string[] = []
+  let current = ''
+  let depth = 0
+  let quote: string | null = null
+
+  for (let i = 0; i < body.length; i += 1) {
+    const ch = body[i]
+    if (quote) {
+      current += ch
+      if (ch === quote && body[i - 1] !== '\\') quote = null
+      continue
+    }
+    if (ch === "'" || ch === '"') {
+      quote = ch
+      current += ch
+      continue
+    }
+    if ('([{'.includes(ch)) depth += 1
+    if (')]}'.includes(ch)) depth -= 1
+    if (ch === ',' && depth === 0) {
+      args.push(current)
+      current = ''
+      continue
+    }
+    current += ch
+  }
+  if (current.trim()) args.push(current)
+  return args
+}
+
+function findCallArgs(source: string, name: string): { line: number; args: string[] }[] {
+  const found: { line: number; args: string[] }[] = []
+  const pattern = new RegExp(`\\b${name}\\(`, 'g')
+  let match: RegExpExecArray | null
+  while ((match = pattern.exec(source)) !== null) {
+    const start = match.index + match[0].length
+    let depth = 1
+    let quote: string | null = null
+    let i = start
+    while (i < source.length && depth > 0) {
+      const ch = source[i]
+      if (quote) {
+        if (ch === quote && source[i - 1] !== '\\') quote = null
+      } else if (ch === "'" || ch === '"') {
+        quote = ch
+      } else if ('([{'.includes(ch)) {
+        depth += 1
+      } else if (')]}'.includes(ch)) {
+        depth -= 1
+      }
+      i += 1
+    }
+    const line = source.slice(0, match.index).split('\n').length
+    found.push({ line, args: splitTopLevelArgs(source.slice(start, i - 1)) })
+  }
+  return found
+}
+
+/** Archetype ids, read from the `archetype({ id: '...' })` blocks. */
+function loadArchetypeIds(): Set<string> {
+  const ids = new Set<string>()
+  if (!existsSync(ARCHETYPES_FILE)) return ids
+  for (const block of readFileSync(ARCHETYPES_FILE, 'utf-8').split('archetype({').slice(1)) {
     const idMatch = block.match(/id:\s*'([^']+)'/)
-    if (!idMatch) continue
-    const archetypeId = idMatch[1]
-    ids.add(archetypeId)
-    for (const field of ['coreSkillIds', 'supportSkillIds', 'requiredDefensiveSkillIds']) {
-      for (const id of extractStringArray(block, field)) {
-        refs.push({ source: `archetype:${archetypeId}`, field, id, target: 'skill' })
+    if (idMatch) ids.add(idMatch[1])
+  }
+  return ids
+}
+
+/** Shared knowledge item ids, which `toSafetyNoteId` points at. */
+function loadSafetyNoteIds(): Set<string> {
+  const ids = new Set<string>()
+  const path = join(srcDataRoot(), 'sharedKnowledge.ts')
+  if (!existsSync(path)) return ids
+  for (const { args } of findCallArgs(readFileSync(path, 'utf-8'), 'item')) {
+    const id = extractQuoted(args[0] ?? '')[0]
+    if (id) ids.add(id)
+  }
+  return ids
+}
+
+/**
+ * Every relation id in `src/data`, from the labelled seed fields and from the
+ * positional `item(...)` / `term(...)` helpers. This is TypeScript rather than
+ * JSON, so it is read with a light scanner; the summary prints how many refs
+ * each shape contributed, so a parse failure shows up as a zero instead of as
+ * a false pass.
+ */
+function loadSourceDataRefs(): { refs: SourceRef[]; dynamic: DynamicRef[] } {
+  const refs: SourceRef[] = []
+  const dynamic: DynamicRef[] = []
+  const root = srcDataRoot()
+  for (const file of listFiles(root, '.ts')) {
+    const source = stripCommentsPreservingLines(readFileSync(join(root, file), 'utf-8'))
+    for (const { target, fields } of SOURCE_DATA_FIELDS) {
+      for (const field of fields) {
+        // `field?: type` is a declaration; only `field: value` carries data.
+        const pattern = new RegExp(`\\b${field}(\\?)?\\s*:`, 'g')
+        let match: RegExpExecArray | null
+        while ((match = pattern.exec(source)) !== null) {
+          if (match[1]) continue
+          const valueStart = match.index + match[0].length
+          const expression = readValueExpression(source, valueStart)
+          const line = source.slice(0, match.index).split('\n').length
+          const loc = `src/data/${file}:${line}`
+          const quoted = extractQuoted(expression)
+          if (quoted.length > 0) {
+            for (const id of quoted) refs.push({ source: loc, field, id, target })
+            continue
+          }
+          if (isTypeExpression(expression)) continue
+          dynamic.push({ source: loc, field, expression })
+        }
       }
     }
-    for (const id of extractStringArray(block, 'coreConceptIds')) {
-      refs.push({ source: `archetype:${archetypeId}`, field: 'coreConceptIds', id, target: 'concept' })
+    for (const { helper, args: argSpecs } of SOURCE_DATA_CALLS) {
+      for (const { line, args } of findCallArgs(source, helper)) {
+        for (const spec of argSpecs) {
+          if (spec.index >= args.length) continue
+          for (const id of extractQuoted(args[spec.index])) {
+            refs.push({
+              source: `src/data/${file}:${line}`,
+              field: `${helper}()[${spec.index}]`,
+              id,
+              target: spec.target,
+            })
+          }
+        }
+      }
     }
   }
-  return { ids, refs }
+  return { refs, dynamic }
 }
 
 function asStringArray(value: unknown): string[] {
@@ -317,14 +522,14 @@ function checkSkillTargetRefs(
   return counts
 }
 
-/** Archetype -> skill and archetype -> concept references. */
-function checkArchetypeRefs(
-  archetypes: ArchetypeData,
+/** `src/data` -> skill, concept, position and safety-note references. */
+function checkSourceDataRefs(
+  refs: SourceRef[],
   universes: Record<Category, Set<string>>,
   issues: Issue[],
 ): Record<Category, RefCount> {
   const counts = emptyCounts()
-  for (const ref of archetypes.refs) {
+  for (const ref of refs) {
     if (!universes[ref.target].has(ref.id)) {
       reportDangling(issues, counts[ref.target], ref.source, ref.field, ref.id, ref.target)
     } else {
@@ -524,14 +729,16 @@ function main(): void {
   const positions = positionFiles()
   const positionIds = new Set(positions.map(p => p.id))
   const conceptIds = loadConceptIds()
-  const archetypes = loadArchetypes()
+  const archetypeIds = loadArchetypeIds()
+  const safetyNoteIds = loadSafetyNoteIds()
   const issues: Issue[] = []
 
   const universes: Record<Category, Set<string>> = {
     skill: skillIds,
     position: positionIds,
     concept: conceptIds,
-    archetype: archetypes.ids,
+    archetype: archetypeIds,
+    safetyNote: safetyNoteIds,
   }
 
   console.log('\n🔗 Validating the relation graph in content/')
@@ -540,7 +747,8 @@ function main(): void {
   const skillRefs = checkSkillRefs(skills, skillIds, issues)
   const positionSkillRefs = checkPositionSkillRefs(skillIds, issues)
   const skillTargetRefs = checkSkillTargetRefs(skills, universes, issues)
-  const archetypeRefs = checkArchetypeRefs(archetypes, universes, issues)
+  const sourceData = loadSourceDataRefs()
+  const sourceDataRefs = checkSourceDataRefs(sourceData.refs, universes, issues)
   const asymmetry = checkAsymmetry(skills, issues)
   const cycles = checkCycles(skills, issues)
   const inversions = checkLevelInversions(skills, issues)
@@ -553,8 +761,25 @@ function main(): void {
     skillTargetRefs.position.dangling +
     skillTargetRefs.concept.dangling +
     skillTargetRefs.archetype.dangling +
-    archetypeRefs.skill.dangling +
-    archetypeRefs.concept.dangling
+    sourceDataRefs.skill.dangling +
+    sourceDataRefs.concept.dangling +
+    sourceDataRefs.position.dangling +
+    sourceDataRefs.safetyNote.dangling
+
+  // Relation values built at runtime cannot be resolved here, so they are
+  // reported instead of skipped silently.
+  if (sourceData.dynamic.length > 0) {
+    const samples = sourceData.dynamic
+      .slice(0, 5)
+      .map(d => `${d.source} ${d.field} = ${d.expression}`)
+      .join('; ')
+    issues.push({
+      severity: 'info',
+      source: 'src/data',
+      field: 'dynamic refs',
+      message: `${sourceData.dynamic.length} relation value(s) are not string literals and are not statically checked: ${samples}${sourceData.dynamic.length > 5 ? '; ...' : ''}`,
+    })
+  }
 
   const errors = issues.filter(i => i.severity === 'error')
   const warnings = issues.filter(i => i.severity === 'warning')
@@ -565,20 +790,23 @@ function main(): void {
   console.log(`\n📊 Results:`)
   console.log(`  Skills checked:            ${skills.length} (${domains.size} folders)`)
   console.log(`  Positions / concepts:      ${positions.length} / ${conceptIds.size}`)
-  console.log(`  Archetypes:                ${archetypes.ids.size}`)
+  console.log(`  Archetypes / safety notes: ${archetypeIds.size} / ${safetyNoteIds.size}`)
   console.log(`  Skill to skill refs:       ${skillRefs.checked}`)
   console.log(`  Position to skill refs:    ${positionSkillRefs.checked}`)
   console.log(`  Skill to position refs:    ${skillTargetRefs.position.checked}`)
   console.log(`  Skill to concept refs:     ${skillTargetRefs.concept.checked}`)
   console.log(`  Skill to archetype refs:   ${skillTargetRefs.archetype.checked}`)
-  console.log(`  Archetype to skill refs:   ${archetypeRefs.skill.checked}`)
-  console.log(`  Archetype to concept refs: ${archetypeRefs.concept.checked}`)
+  console.log(`  src/data to skill refs:    ${sourceDataRefs.skill.checked}`)
+  console.log(`  src/data to concept refs:  ${sourceDataRefs.concept.checked}`)
+  console.log(`  src/data to position refs: ${sourceDataRefs.position.checked}`)
+  console.log(`  src/data to safety refs:   ${sourceDataRefs.safetyNote.checked}`)
   console.log(`  Dangling refs:             ${dangling}`)
   console.log(`  Asymmetric pairs:          ${asymmetry.asymmetric}`)
   console.log(`  Prerequisite cycles:       ${cycles}`)
   console.log(`  Level inversions:          ${inversions} (warning)`)
   console.log(`  Errors:                    ${errors.length}`)
   console.log(`  Warnings:                  ${warnings.length}`)
+  console.log(`  Dynamic src/data refs:     ${sourceData.dynamic.length} (informational)`)
   console.log(`  Steps with a prereq but no next step: ${prereqOnly} (informational)`)
   console.log(`  Path checks:               ${path.active ? `active, ${path.steps} steps` : 'skipped, content/shared/path.json does not exist'}`)
 

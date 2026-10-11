@@ -1,0 +1,146 @@
+{
+  "id": "duck-under",
+  "domain": "wrestle_up_wrestling",
+  "level": "intermediate",
+  "status": "draft",
+  "name": "Duck Under",
+  "aliases": [
+    "duckunder",
+    "duck under takedown",
+    "duck under to back"
+  ],
+  "tags": [
+    "family:wrestling",
+    "risk:medium",
+    "meta:modern_common",
+    "modern-no-gi",
+    "group:wrestle_up",
+    "duck-under",
+    "takedown",
+    "back-take"
+  ],
+  "keywords": [
+    "duck under",
+    "duckunder",
+    "level change",
+    "standing back take",
+    "wrestling for BJJ"
+  ],
+  "relatedSkills": [
+    {
+      "id": "russian-tie",
+      "type": "chain"
+    },
+    {
+      "id": "arm-drag-system",
+      "type": "alternative"
+    },
+    {
+      "id": "fhl-go-behind",
+      "type": "chain"
+    },
+    {
+      "id": "hand-fighting",
+      "type": "supporting"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [
+    "inside-position",
+    "head-position",
+    "base-balance",
+    "angle-creation"
+  ],
+  "relatedConceptIds": [],
+  "archetypeIds": [
+    "wrestle-up-player"
+  ],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "stance-movement-basics",
+    "hand-fighting"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [
+    "Nếu họ cân lại và quay mặt về phía bạn: cổ tay bị lỏng, lập lại thế giữ trước khi duck",
+    "Nếu whizzer của họ qua vai bạn: giữ ngực trên lưng họ và bước hông ra sau hông họ thay vì dùng tay chống lại whizzer",
+    "Nếu họ sprawl hoặc dồn trọng lượng xuống: đứng lên vào body lock hoặc chuyển sang single leg, đừng nằm lại dưới họ"
+  ],
+  "version": 1,
+  "updatedAt": "2026-10-11T00:00:00.000Z",
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "vi",
+  "description": "Duck Under là đòn lấy lưng khi cả hai còn đứng, xây trên một cú level change. Từ thế giữ cổ tay, bạn hạ hông xuống, luồn đầu qua dưới tay đối thủ trong khi vẫn giữ cổ tay đó, rồi vòng ra sau lưng họ vào body lock hoặc seatbelt. Đòn này thắng bằng vị trí chứ không bằng sức, nên vẫn chạy được trước đối thủ nặng hơn.",
+  "shortInstruction": "Giữ cổ tay, khuỵu gối để hạ thấp người, luồn đầu qua dưới tay họ với khuỷu sát sườn, bước chân xuyên qua và vòng ra sau lưng, rồi kết nối ngực vào lưng họ trước khi đặt hông.",
+  "summary": "Duck Under là cách sạch nhất để ra sau lưng một đối thủ đang đứng mà không cần lao vào chân họ. Cả đòn chỉ là một lần trao đổi: bạn đổi khoảng trống phía trước lấy lưng của họ. Level change làm phần lớn công việc, kiểm soát cổ tay lái họ lệch đường, còn cú vòng chân kết thúc. Nó nối trực tiếp với Russian Tie, vì thế hai-tay-một vốn đã cho bạn cổ tay và vị trí khuỷu mà duck under cần, và đây là câu trả lời đúng khi đối thủ phòng chân tốt và không còn cửa để lao vào.",
+  "whyItWorks": [
+    "Hạ người bằng gối thay vì bằng lưng giúp đầu bạn đi xuống dưới tay họ mà không nằm ngay trước ngực họ",
+    "Giữ cổ tay trong suốt lúc luồn qua khiến họ không thể xoay theo bạn, họ phải đuổi theo chính bàn tay mình",
+    "Vòng ra sau ở bên cánh tay đang bị giữ sẽ lấy mất góc của whizzer và của cú phản lao vào chân",
+    "Ngực dính vào lưng trước khi đặt hông là thứ biến cú đi qua thành kiểm soát, nên kết đòn không phải là chụp mà là kết nối"
+  ],
+  "commonMistakes": [
+    "Gập người ở lưng và cúi đầu xuống, đặt cổ mình ngay trước ngực họ và mời luôn front headlock",
+    "Luồn qua mà không giữ cổ tay, để họ xoay theo và cân lại thế đứng",
+    "Đứng thẳng dậy ngay khi vừa qua dưới tay, làm hông cao lên và cho họ thời gian whizzer hoặc sprawl",
+    "Chỉ vòng bằng bàn chân mà không bước xuyên qua, khiến ngực bạn vẫn ở phía sau và thế lấy lưng không khép lại"
+  ],
+  "coachingCues": [
+    "Khuỵu gối, lưng vẫn thẳng",
+    "Đầu vào vai họ, không vào ngực họ",
+    "Cổ tay vẫn là của bạn trong suốt cú đi qua",
+    "Ngực trước, hông sau"
+  ],
+  "safetySummary": [
+    "Đây là trao đổi khi cả hai đang đứng, nên drill ở tốc độ kiểm soát với partner hiểu động tác. Hai người cùng hạ người vào nhau là cách phổ biến nhất để đụng gối hoặc đụng đầu",
+    "Đừng đè đầu partner xuống hay ngồi lên cổ họ, và tuyệt đối không duck under khi partner không biết trước cú level change",
+    "Lấy lưng khi đứng dồn nén cổ khi người phòng thủ hoảng. Nếu đầu partner đang bị kẹt, dừng lại và reset thay vì hoàn tất cú xoay"
+  ],
+  "systemLogic": {
+    "corePrinciple": "Duck Under: giữ cổ tay, hạ người bằng gối, luồn đầu qua dưới tay họ, bước xuyên qua và vòng ra sau, rồi kết nối ngực vào lưng trước khi đặt hông.",
+    "decisionTree": [
+      {
+        "condition": "Họ co tay và giữ khuỷu sát người",
+        "action": "vẫn vòng cổ tay và chờ bước chân của họ, tay sẽ mở ra khi họ di chuyển"
+      },
+      {
+        "condition": "Họ xoay theo bạn trong lúc bạn luồn qua",
+        "action": "siết cổ tay và tiếp tục vòng, đừng thả thế giữ để đuổi theo lưng"
+      },
+      {
+        "condition": "Whizzer của họ qua vai bạn",
+        "action": "giữ kết nối ngực và bước hông ra sau hông họ thay vì giằng tay"
+      },
+      {
+        "condition": "Họ sprawl hoặc dồn hông xuống bạn",
+        "action": "đứng lên vào body lock hoặc chuyển sang single leg thay vì nằm lại dưới họ"
+      }
+    ],
+    "exitStrategies": [
+      "Nếu không còn cửa lấy lưng, giữ thế cổ tay và vào lại từ thế đứng thay vì bám ở bên hông họ",
+      "Nếu sau cú duck under hỏng mà bạn ở dưới, đứng dậy hoặc ngồi về guard thay vì giành lấy lưng từ một góc xấu"
+    ]
+  },
+  "moneyDetails": [
+    "Level change phải xảy ra trước khi đầu di chuyển, một khi đầu đã ở dưới tay họ, hông sẽ tự đi theo",
+    "Đầu giữ kết nối với vai hoặc bắp tay họ, để họ không thể xoay đi mà không đẩy bạn mất thăng bằng trước",
+    "Bước xuyên qua bằng chân trước là thứ tạo ra góc, vòng tại chỗ sẽ để bạn nằm ngang sau lưng họ và rất dễ ăn whizzer"
+  ],
+  "fixItFast": [
+    "Nếu họ cân lại, giữ lại cổ tay và duck lần nữa thay vì ép cú xoay",
+    "Nếu cảm thấy whizzer của họ vào, hạ hông và bước ra sau họ thay vì nhấc ngực lên",
+    "Nếu mất hẳn lưng, đừng đứng trong tầm tay họ, reset thế giữ và bắt đầu lại"
+  ]
+}

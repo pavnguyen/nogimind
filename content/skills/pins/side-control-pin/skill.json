@@ -26,11 +26,13 @@
     {
       "id": "side-control-survival",
       "type": "recommended"
+    },
+    {
+      "id": "bodylock-pass",
+      "type": "supporting"
     }
   ],
-  "prerequisiteSkillIds": [
-    "bodylock-pass"
-  ],
+  "prerequisiteSkillIds": [],
   "relatedPositions": [],
   "relatedConcepts": [],
   "archetypeIds": [],

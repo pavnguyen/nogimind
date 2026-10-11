@@ -182,6 +182,9 @@ title from the id.
   broken-video report flow intact.
 - Check availability with `npm run validate:videos` and replace dead references.
   Every skill keeps at least one playable video.
+- `npm run validate:videos` also compares every stored `title` and `channel`
+  against oEmbed and exits non-zero on drift, so keep the metadata verbatim
+  instead of paraphrasing it. Re-run it after editing a `videos.json`.
 - `npm run validate:content` also scans every `videos.json` for gi/kimono-only
   sources (kimono, lapel, gi grips, a bare `gi` token, ...) and reports a warning
   for each. Titles that cover both gi and no-gi are counted as informational, not
@@ -305,7 +308,7 @@ npm run lint             # eslint .
 npm test                 # vitest run
 npm run validate:content # Zod + cross-file checks (content changes)
 npm run validate:relations # relation graph + path data (content changes)
-npm run validate:videos  # YouTube availability (video changes)
+npm run validate:videos  # YouTube availability + title/channel vs oEmbed (video changes)
 npm run build:content    # regenerate public/generated (content changes)
 npm run build            # tsc -b && vite build
 npm run audit:vi         # Vietnamese coverage (i18n/content changes)
@@ -349,8 +352,13 @@ affected check: earlier green runs do not cover later edits.
   does not resolve, so run it after touching relations and fix the content rather than
   the check. It resolves every authored reference in both directions: skill to skill
   (`relatedSkills[].id`, `prerequisiteSkillIds`, `nextSkillIds`, `relatedSkillIds`),
-  positions to skills, skills to positions, concepts and archetypes, and archetypes to
-  skills and concepts.
+  positions to skills, skills to positions, concepts and archetypes, and every relation
+  field under `src/data/` (skills, concepts, positions and shared-knowledge safety
+  notes, including the positional `item(...)` and `term(...)` arguments). Keep those ids
+  in labelled fields: a value built at runtime (`row.nextSkillId`, `seed.relatedSkillIds`)
+  cannot be resolved, so the run reports it as an informational "Dynamic src/data refs"
+  count instead of checking it. The count should stay small and every entry should trace
+  back to literals that are checked elsewhere.
 - **Hand-sorting a list.** Display order inside a step or a domain comes from the derived
   order in the manifest (level first, then prerequisite depth). Re-sorting in a component,
   or reordering a `relatedSkillIds` array and expecting the UI to follow, silently

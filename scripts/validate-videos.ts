@@ -1,8 +1,10 @@
 /**
- * validate-videos.ts - Check all YouTube video references for availability
+ * validate-videos.ts - Check all YouTube video references for availability and metadata
  *
  * Uses the YouTube oEmbed API (no API key needed) to check if each video
- * is still accessible. Reports which videos are potentially unavailable.
+ * is still accessible, and compares the stored `title` and `channel` against
+ * the source, which must be copied verbatim. Reports which videos are
+ * potentially unavailable and which carry drifted metadata.
  *
  * Usage:  npx tsx scripts/validate-videos.ts
  *         npx tsx scripts/validate-videos.ts --fix   (remove broken videos from JSON)
@@ -31,6 +33,19 @@ interface BrokenVideo {
   title: string
   reason: 'not_found' | 'private' | 'error' | 'thumbnail_404'
   statusCode?: number
+}
+
+interface MetadataMismatch {
+  skillId: string
+  youtubeId: string
+  field: 'title' | 'channel'
+  stored: string
+  source: string
+}
+
+interface OEmbedInfo {
+  title: string
+  channel: string
 }
 
 // ── Skills discovery ──────────────────────────────────────────────────────
@@ -77,7 +92,7 @@ async function fetchWithRetry(url: string, options: RequestInit, retries = 2): P
 
 async function checkVideoAvailability(
   youtubeId: string
-): Promise<'ok' | 'not_found' | 'private' | 'error'> {
+): Promise<{ status: 'ok' | 'not_found' | 'private' | 'error'; info?: OEmbedInfo }> {
   try {
     // Method 1: Try oEmbed API first (with retry for transient failures)
     const oembedUrl = `https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=${youtubeId}&format=json`
@@ -87,16 +102,27 @@ async function checkVideoAvailability(
       signal: AbortSignal.timeout(8000),
     })
 
-    if (response.ok) return 'ok'
+    if (response.ok) {
+      // The body carries the source title and channel the JSON must match.
+      try {
+        const data = (await response.json()) as { title?: unknown; author_name?: unknown }
+        if (typeof data.title === 'string' && typeof data.author_name === 'string') {
+          return { status: 'ok', info: { title: data.title, channel: data.author_name } }
+        }
+      } catch {
+        // Availability is confirmed even when the body cannot be read.
+      }
+      return { status: 'ok' }
+    }
 
     // 401 = video is private
-    if (response.status === 401) return 'private'
+    if (response.status === 401) return { status: 'private' }
 
     // 404 = video not found
-    if (response.status === 404) return 'not_found'
+    if (response.status === 404) return { status: 'not_found' }
 
     // Other error
-    return 'error'
+    return { status: 'error' }
   } catch {
     // Fallback: check thumbnail URL (with retry)
     try {
@@ -105,10 +131,10 @@ async function checkVideoAvailability(
         method: 'HEAD',
         signal: AbortSignal.timeout(5000),
       })
-      if (thumbResponse.ok) return 'ok'
-      return 'not_found'
+      if (thumbResponse.ok) return { status: 'ok' }
+      return { status: 'not_found' }
     } catch {
-      return 'error'
+      return { status: 'error' }
     }
   }
 }
@@ -125,6 +151,7 @@ async function main() {
   console.log(`Checking videos for ${skills.length} skills...\n`)
 
   const broken: BrokenVideo[] = []
+  const mismatches: MetadataMismatch[] = []
   let totalVideos = 0
   let checkedVideos = 0
   let okVideos = 0
@@ -157,17 +184,25 @@ async function main() {
 
     for (const video of unique) {
       checkedVideos++
-      const result = await checkVideoAvailability(video.youtubeId)
+      const { status, info } = await checkVideoAvailability(video.youtubeId)
 
-      if (result === 'ok') {
+      if (status === 'ok') {
         okVideos++
+        if (info) {
+          if (video.title !== info.title) {
+            mismatches.push({ skillId, youtubeId: video.youtubeId, field: 'title', stored: video.title, source: info.title })
+          }
+          if (video.channel !== info.channel) {
+            mismatches.push({ skillId, youtubeId: video.youtubeId, field: 'channel', stored: video.channel, source: info.channel })
+          }
+        }
         process.stdout.write('✓')
       } else {
         broken.push({
           skillId,
           youtubeId: video.youtubeId,
           title: video.title,
-          reason: result,
+          reason: status,
         })
         process.stdout.write('✗')
       }
@@ -186,6 +221,16 @@ async function main() {
   console.log(`  Total videos:   ${totalVideos}`)
   console.log(`  Available:      ${okVideos}`)
   console.log(`  Broken:         ${broken.length}`)
+  console.log(`  Metadata drift: ${mismatches.length}`)
+
+  if (mismatches.length > 0) {
+    console.log('\n❌ Metadata that does not match the source (copy it verbatim):')
+    for (const m of mismatches) {
+      console.log(`  [${m.skillId}] ${m.youtubeId} ${m.field}`)
+      console.log(`           stored: ${m.stored}`)
+      console.log(`           source: ${m.source}`)
+    }
+  }
 
   if (broken.length > 0) {
     console.log('\n❌ Broken Videos:')
@@ -232,7 +277,9 @@ async function main() {
       console.log(`\n  Total broken videos removed: ${removedCount}`)
       console.log('  Run `npm run build:content` to regenerate video mappings.\n')
     }
+  }
 
+  if (broken.length > 0 || mismatches.length > 0) {
     // Save report
     const reportPath = resolve(__dirname, '../content/video-validation-report.json')
     writeFileSync(reportPath, JSON.stringify({
@@ -240,11 +287,15 @@ async function main() {
       totalVideos,
       okVideos,
       brokenCount: broken.length,
+      metadataMismatchCount: mismatches.length,
       broken,
+      mismatches,
     }, null, 2) + '\n', 'utf-8')
     console.log(`📝 Full report saved to content/video-validation-report.json\n`)
-  } else {
-    console.log('✅ All videos are available!\n')
+  }
+
+  if (broken.length === 0 && mismatches.length === 0) {
+    console.log('✅ All videos are available and their titles and channels match the source!\n')
   }
 
   if (shouldFix) {
@@ -256,6 +307,11 @@ async function main() {
   }
 
   console.log()
+
+  if (mismatches.length > 0) {
+    console.error(`${mismatches.length} video reference(s) carry metadata that does not match the source.`)
+    process.exit(1)
+  }
 }
 
 main().catch(err => {

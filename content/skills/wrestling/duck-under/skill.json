@@ -1,0 +1,71 @@
+{
+  "id": "duck-under",
+  "domain": "wrestle_up_wrestling",
+  "level": "intermediate",
+  "name": "Duck Under",
+  "aliases": [
+    "duckunder",
+    "duck under takedown",
+    "duck under to back"
+  ],
+  "tags": [
+    "family:wrestling",
+    "risk:medium",
+    "meta:modern_common",
+    "modern-no-gi",
+    "group:wrestle_up",
+    "duck-under",
+    "takedown",
+    "back-take"
+  ],
+  "keywords": [
+    "duck under",
+    "duckunder",
+    "level change",
+    "standing back take",
+    "wrestling for BJJ"
+  ],
+  "relatedSkills": [
+    {
+      "id": "russian-tie",
+      "type": "chain"
+    },
+    {
+      "id": "arm-drag-system",
+      "type": "alternative"
+    },
+    {
+      "id": "fhl-go-behind",
+      "type": "chain"
+    },
+    {
+      "id": "hand-fighting",
+      "type": "supporting"
+    }
+  ],
+  "prerequisiteSkillIds": [
+    "stance-movement-basics",
+    "hand-fighting"
+  ],
+  "relatedPositions": [],
+  "relatedConcepts": [
+    "inside-position",
+    "head-position",
+    "base-balance",
+    "angle-creation"
+  ],
+  "archetypeIds": [
+    "wrestle-up-player"
+  ],
+  "trainingMethodIds": [],
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "updatedAt": "2026-10-11T00:00:00.000Z"
+}

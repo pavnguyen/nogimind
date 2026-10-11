@@ -1,0 +1,146 @@
+{
+  "id": "duck-under",
+  "domain": "wrestle_up_wrestling",
+  "level": "intermediate",
+  "status": "draft",
+  "name": "Duck Under",
+  "aliases": [
+    "duckunder",
+    "duck under takedown",
+    "duck under to back"
+  ],
+  "tags": [
+    "family:wrestling",
+    "risk:medium",
+    "meta:modern_common",
+    "modern-no-gi",
+    "group:wrestle_up",
+    "duck-under",
+    "takedown",
+    "back-take"
+  ],
+  "keywords": [
+    "duck under",
+    "duckunder",
+    "level change",
+    "standing back take",
+    "wrestling for BJJ"
+  ],
+  "relatedSkills": [
+    {
+      "id": "russian-tie",
+      "type": "chain"
+    },
+    {
+      "id": "arm-drag-system",
+      "type": "alternative"
+    },
+    {
+      "id": "fhl-go-behind",
+      "type": "chain"
+    },
+    {
+      "id": "hand-fighting",
+      "type": "supporting"
+    }
+  ],
+  "relatedSkillIds": [],
+  "relatedPositions": [],
+  "relatedPositionIds": [],
+  "relatedConcepts": [
+    "inside-position",
+    "head-position",
+    "base-balance",
+    "angle-creation"
+  ],
+  "relatedConceptIds": [],
+  "archetypeIds": [
+    "wrestle-up-player"
+  ],
+  "relatedArchetypeIds": [],
+  "prerequisiteSkillIds": [
+    "stance-movement-basics",
+    "hand-fighting"
+  ],
+  "trainingMethodIds": [],
+  "nextSkillIds": [],
+  "searchBoost": 1,
+  "keyCorrections": [
+    "S'ils se replacent face à vous: votre contrôle de poignet était trop lâche, rétablissez la prise avant de passer",
+    "Si leur whizzer passe par-dessus votre épaule: gardez la poitrine sur leur dos et avancez les hanches derrière les leurs au lieu de lutter avec les bras",
+    "S'ils sprawlent ou posent leur poids: montez vers le body lock ou passez au single leg, ne restez pas à genoux sous eux"
+  ],
+  "version": 1,
+  "updatedAt": "2026-10-11T00:00:00.000Z",
+  "contentRefs": {
+    "videos": "videos.json"
+  },
+  "featureFlags": {
+    "hasMicroDetails": false,
+    "hasChecklist": false,
+    "hasVideos": true,
+    "hasStateMachine": false
+  },
+  "locale": "fr",
+  "description": "Le Duck Under est une prise de dos debout construite sur un level change. Depuis une prise de poignet, vous descendez les hanches, passez la tête sous le bras de l'adversaire en gardant ce poignet, puis tournez derrière lui vers un body lock ou un seatbelt. Il bat l'adversaire par le placement plutôt que par la force, ce qui le rend efficace contre un partenaire plus lourd.",
+  "shortInstruction": "Contrôlez le poignet, pliez les genoux pour descendre le niveau, passez la tête sous leur bras avec le coude serré contre vos côtes, avancez le pied pour tourner derrière eux, puis connectez la poitrine au dos avant de placer les hanches.",
+  "summary": "Le Duck Under est la façon la plus propre d'arriver dans le dos d'un adversaire debout sans attaquer ses jambes. Toute la technique tient en un échange: vous troquez l'espace devant eux contre leur dos. Le level change fait le travail, le contrôle du poignet les met hors ligne, et la rotation conclut. Il s'enchaîne directement avec le Russian Tie, car le deux contre un donne déjà le poignet et la position du coude dont le duck under a besoin, et c'est la bonne réponse quand l'adversaire défend bien ses jambes et qu'aucune attaque n'est ouverte.",
+  "whyItWorks": [
+    "Descendre avec les genoux plutôt qu'avec le dos fait passer la tête sous leur bras sans la placer devant leur poitrine",
+    "Garder le poignet pendant tout le passage les empêche de tourner avec vous, ils doivent poursuivre leur propre main",
+    "Tourner derrière du côté du bras contrôlé retire l'angle à leur whizzer et à leur contre",
+    "Poitrine contre dos avant de placer les hanches est ce qui transforme le passage en contrôle, donc le finish est une connexion et non une saisie"
+  ],
+  "commonMistakes": [
+    "Se plier à la taille et baisser la tête, ce qui place votre cou devant leur poitrine et offre un front headlock",
+    "Passer sous le bras sans contrôler le poignet, ce qui leur permet de tourner avec vous et de se replacer",
+    "Se redresser dès que vous êtes sous le bras, ce qui remonte les hanches et leur laisse le temps du whizzer ou du sprawl",
+    "Tourner uniquement avec les pieds sans avancer, ce qui garde votre poitrine derrière et laisse la prise de dos ouverte"
+  ],
+  "coachingCues": [
+    "Les genoux plient, la taille reste haute",
+    "Tête vers leur épaule, jamais vers leur poitrine",
+    "Le poignet reste à vous pendant tout le passage",
+    "Poitrine d'abord, hanches ensuite"
+  ],
+  "safetySummary": [
+    "C'est un échange debout, donc drillez à vitesse contrôlée avec un partenaire qui connaît le mouvement. Deux personnes qui changent de niveau l'une vers l'autre est la façon habituelle de se cogner le genou ou la tête",
+    "N'enfoncez pas la tête de votre partenaire vers le bas et ne vous asseyez pas sur son cou, et ne passez jamais sous le bras d'un partenaire qui n'attend pas le level change",
+    "La prise de dos debout charge le cou quand le défenseur panique. Si la tête de votre partenaire est piégée, arrêtez et remettez la position au lieu de finir la rotation"
+  ],
+  "systemLogic": {
+    "corePrinciple": "Duck Under: prenez le poignet, descendez le niveau avec les genoux, passez la tête sous leur bras, avancez et tournez derrière, puis connectez la poitrine au dos avant de placer les hanches.",
+    "decisionTree": [
+      {
+        "condition": "Ils gardent le bras fléchi et le coude serré contre eux",
+        "action": "continuez à tourner le poignet et attendez leur pas, le bras s'ouvre quand ils bougent"
+      },
+      {
+        "condition": "Ils tournent avec vous pendant le passage",
+        "action": "serrez le poignet et continuez à tourner, ne relâchez pas la prise pour poursuivre le dos"
+      },
+      {
+        "condition": "Leur whizzer passe par-dessus votre épaule",
+        "action": "gardez le contact de poitrine et marchez les hanches derrière les leurs au lieu de lutter avec les bras"
+      },
+      {
+        "condition": "Ils sprawlent ou posent les hanches sur vous",
+        "action": "montez en body lock ou passez au single leg au lieu de rester dessous"
+      }
+    ],
+    "exitStrategies": [
+      "Si le dos n'est pas disponible, gardez la prise de poignet et rentrez à nouveau depuis la position debout plutôt que de rester sur le côté",
+      "Si vous finissez dessous après un duck under manqué, remontez sur vos pieds ou asseyez-vous en garde au lieu de disputer le dos depuis un mauvais angle"
+    ]
+  },
+  "moneyDetails": [
+    "Le level change doit arriver avant que la tête bouge, une fois la tête sous le bras les hanches suivent d'elles-mêmes",
+    "La tête reste connectée à leur épaule ou à leur biceps pour qu'ils ne puissent pas se détourner sans vous déstabiliser d'abord",
+    "L'avancée du pied avant crée l'angle, tourner sur place vous laisse à plat derrière eux et très exposé au whizzer"
+  ],
+  "fixItFast": [
+    "S'ils se replacent, reprenez le poignet et passez à nouveau au lieu de forcer la rotation",
+    "Si vous sentez leur whizzer se poser, baissez les hanches et avancez derrière eux au lieu de lever la poitrine",
+    "Si vous perdez complètement le dos, ne restez pas dans leur portée, remettez la prise et recommencez"
+  ]
+}
