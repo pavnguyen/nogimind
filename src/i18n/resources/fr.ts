@@ -32,6 +32,7 @@ export const fr = {
     learningPath: 'Parcours d\'apprentissage',
     settings: 'Réglages',
     short: {
+      home: 'Accueil',
       learn: 'Parcours',
       study: 'Étudier',
       defense: 'Sécurité',
@@ -1158,10 +1159,12 @@ export const fr = {
     themes: ['Inside Position', 'hiérarchie positionnelle', 'dilemmes', 'Failure Response', 'transitions', 'feedback loop', 'sécurité'],
     thanks: {
       heading: 'Remerciements',
-      body: 'NoGi Mind est construit avec respect pour celles et ceux qui enseignent et pratiquent le grappling moderne. Nos sincères remerciements à Guardian HCMC et au coach Jon TRAN pour leur accompagnement.',
+      body: 'NoGi Mind est construit avec respect pour celles et ceux qui enseignent et pratiquent le grappling moderne. Nos sincères remerciements à Guardian HCMC et au Coach Jon TRAN pour leur accompagnement.',
       guardianBlurb: 'La gym de HCMC et l’encadrement à l’origine de ce projet.',
       fairfightBlurb: 'Association à but non lucratif qui utilise le jiu-jitsu pour changer des vies et financer des causes caritatives.',
-      dashboard: 'Nos sincères remerciements à Guardian HCMC et au coach Jon TRAN pour leur accompagnement.',
+      dashboard: 'Nos sincères remerciements à Guardian HCMC et au Coach Jon TRAN pour leur accompagnement.',
+      mobileBarLead: 'Merci à',
+      mobileBarNames: 'Guardian HCMC & Coach Jon TRAN',
       more: 'En savoir plus',
     },
   },

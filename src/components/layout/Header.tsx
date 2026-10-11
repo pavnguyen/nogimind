@@ -87,7 +87,7 @@ export const Header = () => {
   }
 
   return (
-    <header className="sticky top-0 z-30 border-b border-warm-50/[0.06] bg-warm-950/60 px-4 py-2.5 backdrop-blur-xl lg:px-6">
+    <header className="sticky top-7 z-30 border-b border-warm-50/[0.06] bg-warm-950/60 px-4 py-2.5 backdrop-blur-xl lg:top-0 lg:px-6">
       <div className="flex items-center justify-between gap-2 sm:gap-4">
         {/* Mobile menu trigger */}
         <button

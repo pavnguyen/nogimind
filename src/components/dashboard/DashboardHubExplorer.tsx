@@ -51,7 +51,9 @@ export const DashboardHubExplorer = () => {
   const { t } = useTranslation()
 
   return (
-    <section className="lg:col-span-12 animate-fadeIn md:[animation-delay:200ms]">
+    // Phones already reach every hub through the bottom tab bar and the
+    // hamburger menu, so this grid is desktop/tablet only.
+    <section className="hidden lg:col-span-12 lg:block animate-fadeIn md:[animation-delay:200ms]">
       <div className="rounded-2xl border border-warm-50/[0.06] bg-warm-900/20 p-4 sm:p-5">
         <div className="mb-4 flex items-center gap-2">
           <Sparkles className="h-4 w-4 text-warm-500" />

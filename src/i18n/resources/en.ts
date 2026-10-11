@@ -39,6 +39,7 @@ export const en = {
     settings: 'Settings',
     openMenu: 'Open navigation menu',
     short: {
+      home: 'Home',
       learn: 'Learn',
       study: 'Study',
       defense: 'Defense',
@@ -1142,10 +1143,12 @@ export const en = {
     themes: ['Inside Position', 'Positional Hierarchy', 'dilemmas', 'Failure Response', 'transitions', 'feedback loop', 'safety'],
     thanks: {
       heading: 'With gratitude',
-      body: 'NoGi Mind is built with respect for the people who teach and train modern grappling. Our sincere thanks to Guardian HCMC and coach Jon TRAN for their guidance and support.',
-      guardianBlurb: 'The HCMC gym and coaching this project grew from.',
+      body: 'NoGi Mind is built with respect for the people who teach and train modern grappling. Our sincere thanks to Guardian HCMC and Coach Jon TRAN for their guidance and support.',
+      guardianBlurb: 'Guardian HCMC, the gym and coaching this project grew from.',
       fairfightBlurb: 'Nonprofit using jiu-jitsu to change lives and raise money for charitable causes.',
-      dashboard: 'Sincere thanks to Guardian HCMC and coach Jon TRAN for their guidance and support.',
+      dashboard: 'Sincere thanks to Guardian HCMC and Coach Jon TRAN for their guidance and support.',
+      mobileBarLead: 'Thanks to',
+      mobileBarNames: 'Guardian HCMC & Jon TRAN',
       more: 'Read more',
     },
   },

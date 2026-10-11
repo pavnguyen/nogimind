@@ -145,6 +145,26 @@ export const MobileNav = () => {
 
       <nav className="fixed bottom-0 left-0 right-0 z-30 border-t border-warm-50/[0.06] bg-warm-950/90 backdrop-blur-xl lg:hidden">
         <div className="mx-auto flex max-w-lg items-center justify-around px-2 py-1">
+          <NavLink
+            to="/"
+            end
+            className={({ isActive }) =>
+              cn(
+                'flex min-w-0 flex-1 flex-col items-center gap-0.5 rounded-lg px-0.5 py-1.5 text-[10px] font-medium transition-all duration-200',
+                isActive
+                  ? 'hallmark-bottom-tab-active'
+                  : 'text-warm-500 hover:bg-warm-50/[0.03] hover:text-warm-300',
+              )
+            }
+          >
+            <img
+              src="/logo.png"
+              alt=""
+              aria-hidden="true"
+              className="h-5 w-5 shrink-0 rounded object-cover"
+            />
+            <span className="max-w-full truncate">{t('nav.short.home')}</span>
+          </NavLink>
           {bottomTabItems.map((tab) => {
             const hub = hubNavItems.find((h) => h.hub === tab.hub)!
             const Icon = tab.icon
@@ -157,7 +177,7 @@ export const MobileNav = () => {
                 end
                 className={({ isActive }) =>
                   cn(
-                    'flex min-w-0 flex-1 flex-col items-center gap-0.5 rounded-lg px-1.5 py-1.5 text-[10px] font-medium transition-all duration-200',
+                    'flex min-w-0 flex-1 flex-col items-center gap-0.5 rounded-lg px-0.5 py-1.5 text-[10px] font-medium transition-all duration-200',
                     isActive || active
                       ? 'hallmark-bottom-tab-active'
                       : 'text-warm-500 hover:bg-warm-50/[0.03] hover:text-warm-300',

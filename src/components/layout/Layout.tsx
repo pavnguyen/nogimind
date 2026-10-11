@@ -1,5 +1,5 @@
 import { useEffect } from 'react'
-import { Outlet, useLocation, useNavigate } from 'react-router-dom'
+import { Link, Outlet, useLocation, useNavigate } from 'react-router-dom'
 import { AnimatePresence, motion } from 'framer-motion'
 import { Header } from './Header'
 import { MobileNav } from './MobileNav'
@@ -7,6 +7,7 @@ import { Sidebar } from './Sidebar'
 import { KeyboardShortcutsOverlay } from '../common/KeyboardShortcutsOverlay'
 import { useUiStore } from '../../stores/useUiStore'
 import { useTranslation } from 'react-i18next'
+import { Heart } from 'lucide-react'
 import { cn } from '../../utils/cn'
 
 /**
@@ -94,6 +95,18 @@ export const Layout = () => {
       <div className="flex">
         <Sidebar />
         <div className="flex min-w-0 flex-1 flex-col">
+          {/* Mobile: gratitude credit, always on top, single line. The
+              lead-in stays quiet so the two names carry the emphasis. */}
+          <Link
+            to="/about"
+            className="sticky top-0 z-40 flex h-7 items-center justify-center gap-1.5 border-b border-gold-400/15 bg-warm-950/85 px-3 backdrop-blur-xl lg:hidden"
+          >
+            <Heart className="h-3 w-3 shrink-0 fill-gold-400 text-gold-400" aria-hidden="true" />
+            <span className="min-w-0 truncate text-[10px] uppercase tracking-[0.1em]">
+              <span className="font-medium text-warm-500">{t('about.thanks.mobileBarLead')}</span>{' '}
+              <span className="font-extrabold text-gold-400">{t('about.thanks.mobileBarNames')}</span>
+            </span>
+          </Link>
           <Header />
           <main id="main-content" className="mx-auto w-full max-w-[1500px] flex-1 px-4 py-6 lg:px-8 lg:py-8" tabIndex={-1}>
             <AnimatePresence mode="wait">

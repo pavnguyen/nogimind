@@ -100,8 +100,9 @@ export default function DashboardPage() {
             </div>
           </div>
 
-          {/* ── With gratitude, one compact line with a warm accent ── */}
-          <div className="mt-3 flex flex-wrap items-center gap-x-2.5 gap-y-1.5 rounded-lg border border-gold-400/25 bg-linear-to-r from-gold-400/[0.14] via-copper-400/[0.07] to-transparent px-3 py-2 text-[11px] font-medium leading-5 text-gold">
+          {/* ── With gratitude: hidden on phones, where the top credit bar
+              already carries it; the full card returns from lg up ── */}
+          <div className="mt-3 hidden flex-wrap items-center gap-x-2.5 gap-y-1.5 rounded-lg border border-gold-400/25 bg-linear-to-r from-gold-400/[0.14] via-copper-400/[0.07] to-transparent px-3 py-2 text-[11px] font-medium leading-5 text-gold lg:flex">
             <Heart className="h-3.5 w-3.5 shrink-0 fill-current text-gold" aria-hidden="true" />
             <span className="min-w-0">{t('about.thanks.dashboard')}</span>
             <span aria-hidden="true" className="text-gold/40">
